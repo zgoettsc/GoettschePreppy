@@ -117,3 +117,61 @@ def load_checklist():
             accepted[acc] = dict(name=nm, full=r['Scientific Name with Author'], common=r['Common Name'], family=r['Family'])
         by_name.setdefault(nm.lower(), []).append(dict(acc=acc, syn=syn or None))
     return by_name, accepted
+
+
+# Burn class for trees authored in edible.py that are also firewood (same scale as firewood.py).
+BURN_EXTRA = {
+    'red-mulberry': ('high', '12', 'Dense and hot; sparks.'),
+    'black-cherry': ('medium', '12', 'Pleasant smell, little smoke; splits easily.'),
+    'american-persimmon': ('high', '12', 'Very dense; hard to split.'),
+    'honey-mesquite': ('high', '12', 'Very hot, long coals; famous cooking wood.'),
+    'velvet-mesquite': ('high', '12', 'Very hot, long coals.'),
+    'black-walnut': ('medium', '12', 'Moderate heat; splits fairly easily.'),
+    'shagbark-hickory': ('high', '12-18', 'Among the best firewoods: very hot, long coals.'),
+    'pecan': ('high', '12-18', 'Hot, long-burning (a hickory).'),
+    'white-oak': ('high', '18-24', 'Long hot coals; slow to season.'),
+    'bur-oak': ('high', '18-24', 'Long hot coals; slow to season.'),
+    'northern-red-oak': ('high', '18-24', 'Long hot coals; slow to season.'),
+    'gambel-oak': ('high', '12-18', 'Dense, hot; small trunks.'),
+    'american-beech': ('high', '12', 'Hot and steady; hard to split when green.'),
+    'twoneedle-pinyon': ('medium', '6-12', 'Hot, fragrant; resinous.'),
+    'singleleaf-pinyon': ('medium', '6-12', 'Hot, fragrant; resinous.'),
+    'eastern-white-pine': ('low', '6-12', 'Light, quick fires; good kindling.'),
+    'sugar-maple': ('high', '12', 'Hot, steady; one of the best northern firewoods.'),
+    'paper-birch': ('medium', '6-12', 'Burns well; the bark is superb tinder; rots fast if left in bark on the ground.'),
+    'american-basswood': ('low', '6-12', 'Very light; quick fires.'),
+}
+
+RISK_ORDER = {'lethal': 0, 'serious': 1, 'contact': 2, 'starter': 0, 'caution': 1, 'do-not-eat': 2}
+HEAT_ORDER = {'high': 0, 'medium': 1, 'low': 2}
+
+
+def merged_species():
+    """Authored species with aliases merged and look-alike links made two-way."""
+    D, E, F = load_sources()
+    allsp = [dict(s) for s in D + E + F]
+    by = {}
+    for s in allsp:
+        if s.get('alias_of'):
+            continue
+        by[s['key']] = s
+    for s in allsp:
+        if s.get('alias_of'):
+            t = by[s['alias_of']]
+            t['burn'] = s['burn']
+            t['groups'] = sorted(set(t.get('groups', [t['group']]) + ['firewood']), key=['deadly', 'edible', 'firewood'].index)
+            t['src'] = list(dict.fromkeys(t['src'] + s['src']))
+    for k, (heat, season, notes) in BURN_EXTRA.items():
+        by[k]['burn'] = dict(heat=heat, season_months=season, notes=notes)
+        by[k]['src'] = list(dict.fromkeys(by[k]['src'] + ['missouri-wood-fuel', 'fpl-wood-handbook', 'silvics']))
+    for s in by.values():
+        s.setdefault('groups', [s['group']])
+    missing = []
+    for s in by.values():
+        for k, t in list(s['look'].items()):
+            if k not in by:
+                missing.append((s['key'], k)); continue
+            by[k]['look'].setdefault(s['key'], t)
+    if missing:
+        raise SystemExit(f'look-alike keys not in the dataset: {missing}')
+    return by

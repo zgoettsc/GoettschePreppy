@@ -53,3 +53,7 @@ Collected from worker reports; resolved in the integration pass.
 - [x] C07: heater class pages cite the Buddy MH9BX and Dyna-Glo WK11C8 manuals as "one common model"; accepted (widely sold consumer products, not personal).
 - [x] C07: dwelling.warm_room and heaters[].btu added. Extreme Cold Warning criteria vary by NWS office: left as a blank.
 - [ ] C07: 08-09 states the propane volume only in words; add 170 cu ft / 2.1 % with a source key (NFPA 58 / propane SDS) in integration.
+- [ ] C05: dropped unsourced numbers (rocket stove wood saving, poultry scald temp, urine dilution, flask hold temps). Restore any that a source supports (USDA FSIS scald temps exist; check).
+- [ ] C05: 05-04 chickens lowered critical -> caution (the household rating rested on its egg allergy). Accept.
+- [ ] C05: SD and Arkansas Extension publishers cited by name echo the owner's home and destination; swap for federal or neutral sources where equivalent.
+- [ ] C05: requests: zone-band flags, per-destination plates, region snakes/ticks fields, allergen-specific flags, derived kettle boils per charge.
