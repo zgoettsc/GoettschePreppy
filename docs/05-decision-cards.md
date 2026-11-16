@@ -30,7 +30,7 @@ explains why in the same plain words, and does not print an options box.
 | Floor | Why there is no card |
 |---|---|
 | Never run a generator, charcoal, or any engine indoors, in a garage, or near an open window. | Carbon monoxide kills in minutes with no warning; alarms fail; there is no mitigation that works every time. |
-| Never connect a generator to house wiring without a transfer switch, interlock, or a cord-and-plug conversion with the main breaker locked off. Never backfeed through an outlet. | Electrocutes line workers and neighbours; fire. |
+| Never connect a generator to house wiring except through a transfer switch, or an interlock kit with the main breaker off. Never backfeed through an outlet with a double-male ("suicide") cord. A cord-and-plug conversion is not a connection to house wiring: the appliance is unplugged from the house outlet and plugged into the generator cord, so nothing reaches the panel (whether to do that conversion yourself is DC-07). | Electrocutes line workers and neighbours; fire. |
 | Never loosen a tourniquet once placed; mark the time. | Re-bleeding and clot release kill. |
 | Low-acid foods are pressure-canned to the published time and pressure, or not canned. | Botulism has no field treatment and the food looks and smells normal. |
 | No wild plant or mushroom is eaten on a "test"; identification or nothing. | The deadly ones are not detectable by taste tests and the dose is small. |

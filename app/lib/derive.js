@@ -137,6 +137,9 @@ export function deriveAll(profile) {
     calories: { day: c.day, two_weeks: c.two_weeks },
     calories_left_out: c.left_out,
     station_fridge_days: stationFridgeDays(profile),
+    // roof_area_sqft x 0.623 gal per inch of rain (1 in over 1 sq ft = 144 cu in = 0.623 US gal)
+    rain_gal_per_inch: typeof profile.dwelling?.roof_area_sqft === 'number' && profile.dwelling.roof_area_sqft > 0
+      ? Math.round(profile.dwelling.roof_area_sqft * 0.623) : null,
     supply_clocks: supplyClocks(profile),
   };
 }

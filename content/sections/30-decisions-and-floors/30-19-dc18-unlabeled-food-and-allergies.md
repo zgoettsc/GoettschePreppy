@@ -8,7 +8,7 @@ layer: card
 danger_level: critical
 phase: [A, B, C]
 tags: [decision card, food allergy, anaphylaxis, unlabeled food, barter, scavenging, cross-contact, epinephrine]
-derived_from: [02-08-allergen-safe-food-plan, 02-06-hugh-anaphylaxis-action-plan, 02-07-epinephrine-storage-and-supply]
+derived_from: [02-08-allergen-safe-food-plan, 02-07-epinephrine-storage-and-supply]
 sources:
   - us-fda-food-allergies-627fb6
   - american-academy-of-allergy-asthma-and-immunology-aa-7f3939

@@ -103,7 +103,10 @@
   "region.dest.sun_hours_jun": "Mean peak sun hours in June (inside #each destinations as x: x.region.sun_hours_jun).",
   "dwelling.roof_area_sqft": "Roof footprint in square feet.",
   "gear.generator_volts": "Generator output: \"120 V only\" or \"120/240 V\".",
-  "derived.rain_gal_per_inch": "Rain caught per inch of rain: roof_area_sqft x 0.623 gallons (standard catchment conversion), before losses."
+  "derived.rain_gal_per_inch": "Rain caught per inch of rain: roof_area_sqft x 0.623 gallons (standard catchment conversion), before losses.",
+  "region.home.latitude": "Latitude of the home county centroid, one decimal (home base).",
+  "derived.solar_wh_dec": "Rough daily solar harvest in December: gear.solar_w_total x region.home.sun_hours_dec x 0.75 (system losses), rounded. Printed as an estimate.",
+  "derived.solar_wh_jun": "Same for June with sun_hours_jun."
  },
  "flags": {
   "has.infant": "A member under 24 months.",
@@ -192,7 +195,8 @@
   "is.volcano_region": "Home volcanic rating 2 or 3.",
   "is.landslide_region": "Home landslide rating 2 or 3.",
   "is.drought_region": "Home drought rating 2 or 3.",
-  "is.coastal": "Home county is on an ocean or Gulf coast."
+  "is.coastal": "Home county is on an ocean or Gulf coast.",
+  "has.hybrid": "A hybrid vehicle."
  },
  "lists": {
   "members": {
@@ -285,7 +289,9 @@
   "stations": {
    "fields": [
     "model",
-    "wh"
+    "wh",
+    "pv_input_max_v",
+    "pv_input_max_w"
    ],
    "description": "Owned power stations."
   },
@@ -293,7 +299,9 @@
    "fields": [
     "model",
     "watts",
-    "count"
+    "count",
+    "voc",
+    "isc"
    ],
    "description": "Owned solar panels."
   },

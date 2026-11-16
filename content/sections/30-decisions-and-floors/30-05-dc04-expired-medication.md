@@ -8,7 +8,7 @@ layer: card
 danger_level: critical
 phase: [A, B, C]
 tags: [decision card, medication, expired, epinephrine, anaphylaxis, shelf life, storage]
-derived_from: [02-07-epinephrine-storage-and-supply, 12-07-meds-stockpile, 02-06-hugh-anaphylaxis-action-plan]
+derived_from: [02-07-epinephrine-storage-and-supply, 12-07-meds-stockpile]
 sources:
   - us-fda-epipen-epinephrine-injection-usp-auto-injecto-a9f17f
   - annals-of-internal-medicine-epinephrine-auto-injecto-ea9564

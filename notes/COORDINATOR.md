@@ -17,3 +17,7 @@ Collected from worker reports; resolved in the integration pass.
 - [ ] C09: two household sources without index entries (2025 AHA/Red Cross first-aid guidelines; wilderness first-responder curriculum).
 - [ ] C09: seven owner questions in notes/workers/C09.md (tourniquet "the limb is the price" wording; WHO 75 mL/kg ORS figure) — put to the owner.
 - [x] C09 requested meds where_kept, expiry (days_on_hand already added); added to profile and context.
+- [x] C08: backfeed floor wording corrected in docs/05 (cord-and-plug is not a connection to house wiring; interlock needs main off). L3 told. Re-check 09-04 and 30-01/30-08 wording in integration.
+- [x] C08 slots added: station pv_input_max_v/w, panel voc/isc, region.home.latitude, derived.solar_wh_dec/jun, has.hybrid. Medicine-cooler Wh/day left as a fill-in.
+- [ ] C08: photo slot ids reused across pages (station-ports): renderer should share one photo per slot id across the binder. Tell A3.
+- [ ] C08: kettle numbers on 07-06 must match 09-xx.

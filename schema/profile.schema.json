@@ -697,6 +697,14 @@
               "wh": {
                 "type": "number",
                 "minimum": 0
+              },
+              "pv_input_max_v": {
+                "type": "number",
+                "minimum": 0
+              },
+              "pv_input_max_w": {
+                "type": "number",
+                "minimum": 0
               }
             }
           }
@@ -718,6 +726,16 @@
               "count": {
                 "type": "integer",
                 "minimum": 1
+              },
+              "voc": {
+                "type": "number",
+                "minimum": 0,
+                "description": "Open-circuit voltage from the panel label."
+              },
+              "isc": {
+                "type": "number",
+                "minimum": 0,
+                "description": "Short-circuit current from the panel label."
               }
             }
           }

@@ -64,6 +64,8 @@ const W = {
   heater: { 'portable-propane': 'portable propane heater', 'wick-kerosene': 'wick kerosene heater',
     'ducted-diesel-kerosene': 'ducted diesel or kerosene heater', 'wood-stove': 'wood stove',
     'pellet-stove': 'pellet stove', 'electric-only': 'electric space heater' },
+  destWater: { municipal: 'municipal (city) water', well: 'a well', 'spring-or-surface': 'a spring or surface water', cistern: 'a cistern', unknown: 'not known' },
+  destSewer: { municipal: 'municipal sewer', septic: 'septic system', outhouse: 'outhouse', 'none-or-unknown': 'none or not known' },
   vtype: { car: 'car', suv: 'SUV', pickup: 'pickup', van: 'van', motorcycle: 'motorcycle', other: 'vehicle' },
   vfuel: { gasoline: 'gasoline', diesel: 'diesel', hybrid: 'hybrid', ev: 'electric (EV)' },
   skill: { 'medical-professional': 'medical professional', 'nurse-emt': 'nurse or EMT', electrician: 'electrician',
@@ -134,6 +136,7 @@ export function resolveRegion(kit, state, county) {
     trees: { firewood: plantList(trees.firewood, kit) },
     sun_hours_dec: num(d.sun_hours_dec),
     sun_hours_jun: num(d.sun_hours_jun),
+    coastal: d.coastal === true ? true : d.coastal === false ? false : null,
     text: [hit?.name || county, st?.state_name || STATE_NAMES[state]].filter(Boolean).join(', '),
   };
 }
@@ -191,6 +194,7 @@ export function buildContext(profile, kit = {}, opts = {}) {
       name: d.name, state_name: r.state_name, county: r.county, status: d.status, status_text: word(W.status, d.status),
       who_is_there: nz(d.who_is_there) ?? null, how_to_reach_them: nz(d.how_to_reach_them) ?? null,
       route_notes: nz(d.route_notes) ?? null, approximate_miles: num(d.approximate_miles), region: r, text: d.name,
+      water_source_text: word(W.destWater, d.water_source) ?? null, sewer_text: word(W.destSewer, d.sewer) ?? null,
     };
   });
 
@@ -305,6 +309,11 @@ export function buildContext(profile, kit = {}, opts = {}) {
     wildfire_region: ge(hz.wildfire, 2),
     earthquake_region: ge(hz.earthquake, 2),
     flood_region: ge(hz.flood, 2),
+    tsunami_region: ge(hz.tsunami, 2),
+    volcano_region: ge(hz.volcano, 2),
+    landslide_region: ge(hz.landslide, 2),
+    drought_region: ge(hz.drought, 2),
+    coastal: regHome.coastal === true,
     snow_region: typeof regHome.snow_in === 'number' && regHome.snow_in > 20,
   };
   const experience = { new: p.experience === 'new', some: p.experience === 'some', experienced: p.experience === 'experienced' };
@@ -336,6 +345,7 @@ export function buildContext(profile, kit = {}, opts = {}) {
       water_supply: word(W.water, dw.water_supply) ?? null,
       sewer: word(W.sewer, dw.sewer) ?? null,
       primary_heat: word(W.heat, dw.primary_heat) ?? null,
+      roof_area_sqft: num(dw.roof_area_sqft),
       water_heater_gallons: ['tank-gas', 'tank-electric'].includes(dw.water_heater?.kind) ? num(dw.water_heater?.gallons) : null,
       pool_gallons: pool && pool !== 'none' ? num(dw.pool_or_hot_tub?.gallons) : null,
     },
@@ -350,6 +360,7 @@ export function buildContext(profile, kit = {}, opts = {}) {
       solar_w_total: panels.length ? panels.reduce((n, x) => n + (x.watts || 0) * (x.count || 1), 0) || null : null,
       generator_watts: hasGen ? num(gen.watts) : null,
       generator_fuel: hasGen ? word(W.genFuel, gen.fuel) ?? null : null,
+      generator_volts: hasGen ? ({ '120': '120 V only', '120-240': '120/240 V' }[gen.volts] ?? null) : null,
       house_connection: word(W.conn, gear.house_connection) ?? null,
       co_alarms: num(gear.safety?.co_alarms),
       smoke_alarms: num(gear.safety?.smoke_alarms),
