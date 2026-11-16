@@ -66,8 +66,8 @@ used indoors and why, and how to tell them apart.
 | **Charcoal** | Wood already partly burned, sold as lumps or briquettes | Outdoor grills only | Black, light, dusty | Paper bag |
 
 **Colours are a habit, not a guarantee.** Red for gasoline, yellow for diesel and blue for
-kerosene are the usual US convention, and kerosene heater manuals generally tell you to keep
-kerosene out of red cans. But cans get reused and households use their own colours. **The label is
+kerosene are the usual US convention; your heater's manual may name a colour too. But cans get
+reused and households use their own colours. **The label is
 what you trust:** read it aloud, smell it, then pour. A can with no readable label is not poured
 into anything until you know what is in it. → 29-14
 
