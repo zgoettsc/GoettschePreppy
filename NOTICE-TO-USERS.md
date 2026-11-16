@@ -16,7 +16,10 @@ on your own device so you can come back and regenerate later; that file stays wi
 When you press **Generate**, your answers are sent once to the AI service that writes your binder
 (Anthropic's Claude API), through a small relay program whose only jobs are to check your access
 key and pass the request along. The relay keeps a count of requests and nothing else. Its source
-code is public so you can check this. The AI provider's own data-handling terms apply to the
+code is shown on the settings page's privacy section so you can check this. Cloudflare, which
+hosts the page and the relay, keeps its own standard request metrics (times, sizes, rough location)
+like any web host; it does not see your answers' meaning unless it inspected the request, and we
+have not asked it to keep anything. The AI provider's own data-handling terms apply to the
 request; we do not control those and we say so here rather than promise more than we can.
 
 ## This file is your private copy. Do not share it.

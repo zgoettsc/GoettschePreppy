@@ -1,0 +1,32 @@
+# GoettschePreppy relay (Cloudflare Worker). No secrets in this file.
+# Secrets are set with:  npx wrangler@4 secret put ANTHROPIC_API_KEY
+#                        npx wrangler@4 secret put ACCESS_KEYS < access-keys.local.json
+# Step-by-step owner guide: docs/10-deploy.md
+
+name = "goettschepreppy-relay"
+main = "worker/src/index.js"
+compatibility_date = "2025-06-01"
+workers_dev = true
+
+# The relay keeps no logs. Keep Workers Logs and traces off.
+[observability]
+enabled = false
+
+[vars]
+# The settings page address, exactly as the browser shows it, no trailing slash.
+# Several addresses may be listed, separated by commas.
+PAGES_ORIGIN = "https://REPLACE-ME.pages.dev"
+# Largest max_tokens a request may ask for; larger requests are capped to this.
+MAX_TOKENS = "32000"
+# Largest source document the relay will pass through, in megabytes.
+FETCH_MAX_MB = "60"
+# Largest USGS map file the relay will pass through, in megabytes.
+MAP_MAX_MB = "100"
+# Largest generation request body the relay accepts, in megabytes.
+MAX_BODY_MB = "8"
+
+# Per-key monthly request counter: the only state the relay keeps.
+# Replace the id with the one printed by:  npx wrangler@4 kv namespace create COUNTS
+[[kv_namespaces]]
+binding = "COUNTS"
+id = "REPLACE-WITH-KV-NAMESPACE-ID"

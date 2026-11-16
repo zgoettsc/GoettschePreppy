@@ -2,3 +2,6 @@ __pycache__/
 .DS_Store
 node_modules/
 *.log
+build/regions-raw/
+access-keys.local.json
+.wrangler/

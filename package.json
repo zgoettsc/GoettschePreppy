@@ -7,7 +7,9 @@
   "scripts": {
     "validate": "node scripts/validate.mjs",
     "layer-map": "python3 scripts/build-layer-map.py ../SHTF/manifest.json",
-    "import-31": "python3 scripts/import-section-31.py ../SHTF"
+    "import-31": "python3 scripts/import-section-31.py ../SHTF",
+    "test:worker": "node scripts/build-worker-index.mjs && node --test worker/test/*.test.mjs",
+    "build:settings": "node scripts/build-settings.mjs"
   },
   "devDependencies": {
     "ajv": "^8.17.1",
