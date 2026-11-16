@@ -83,7 +83,7 @@ for (const { rel, dir, f, text } of pages) {
     if ((mm = /^#if\s+(\S+)$/.exec(tag))) { if (!isFlag(mm[1]) && !loopVars.has(mm[1].replace(/^!/, '').split('.')[0])) err(`unknown flag ${mm[1]}`); }
     else if (tag === 'else' || tag === '/if' || tag === '/each' || tag === 'plates') {}
     else if ((mm = /^#each\s+(\S+)\s+as\s+([a-z_]+)$/.exec(tag))) { const head = mm[1].split('.')[0]; if (!lists.has(mm[1]) && !loopVars.has(head)) err(`unknown list ${mm[1]}`); loopVars.add(mm[2]); }
-    else if ((mm = /^(choice|card)\s+(DC-\d{2})$/.exec(tag))) { const k = +mm[2].slice(3); if (k < 1 || k > 24) err(`unknown card ${mm[2]}`); if (mm[1] === 'card' && !['card', 'generated', 'household'].includes(data.layer)) warn(`{{card}} outside a card page`); }
+    else if ((mm = /^(choice|card)\s+(DC-\d{2})$/.exec(tag))) { const k = +mm[2].slice(3); if (k < 1 || k > 29) err(`unknown card ${mm[2]}`); if (mm[1] === 'card' && !['card', 'generated', 'household'].includes(data.layer)) warn(`{{card}} outside a card page`); }
     else if ((mm = /^photo\s+([a-z0-9-]+)$/.exec(tag))) { if (!(data.photo_slots || []).some(s => s.id === mm[1])) err(`photo slot ${mm[1]} not declared in photo_slots`); }
     else if ((mm = /^figure\s+(fig-[a-z0-9-]+)$/.exec(tag))) { if (!(data.figures || []).includes(mm[1])) err(`figure ${mm[1]} not declared in figures`); }
     else if ((mm = /^ai\s+([a-z0-9-]+)$/.exec(tag))) { if (data.layer !== 'household') err('{{ai}} allowed only on household pages'); if (!fs.existsSync(path.join(ROOT, 'content/ai-blocks', mm[1] + '.md'))) warn(`ai block spec content/ai-blocks/${mm[1]}.md missing`); }

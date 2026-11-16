@@ -85,3 +85,6 @@ Collected from worker reports; resolved in the integration pass.
 - [ ] L5: three station rows from EU/UK 230 V manuals; replace with US manuals when reachable.
 - [ ] L5: requested lists radios, filters, alarms and extra station/panel/heater fields.
 - [ ] Large size estimate now 1,062 MB (556 sources x 1.5 MB assumed). Measure real fetched sizes; G11 told the owner 200-400 MB. Options: render PDFs at lower resolution, cap per-document pages, or split Large into Large-core (medical, water, fire, power sources) and Everything.
+- [x] Owner answers 2026-11-16: G23 tourniquet card DC-25; G24 aspirin, WHO ORS per kg, insulin switching printed as published; G25 Large in two tiers (Large = life-safety sections; Everything = all); G26 new cards DC-26..DC-29. L6 (cards and tables) and A4 (tiers) launched.
+- [ ] F1: 118 of 162 requested figures still open (figures/REQUESTS.md). FM 5-125 unreachable; AFH 10-644 knot photos used instead. AFH photos carry "(c)USAF photo" stamps: official-duty photos are US Government works (PD); owner may confirm.
+- [ ] D2: 36 species without plates; per-ecoregion lists are generous (PLANTS "documented here"); A3 could show a "learn these first" subset.

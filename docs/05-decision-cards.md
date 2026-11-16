@@ -31,7 +31,7 @@ explains why in the same plain words, and does not print an options box.
 |---|---|
 | Never run a generator, charcoal, or any engine indoors, in a garage, or near an open window. | Carbon monoxide kills in minutes with no warning; alarms fail; there is no mitigation that works every time. |
 | Never connect a generator to house wiring except through a transfer switch, or an interlock kit with the main breaker off. Never backfeed through an outlet with a double-male ("suicide") cord. A cord-and-plug conversion is not a connection to house wiring: the appliance is unplugged from the house outlet and plugged into the generator cord, so nothing reaches the panel (whether to do that conversion yourself is DC-07). | Electrocutes line workers and neighbours; fire. |
-| Never loosen a tourniquet once placed; mark the time. | Re-bleeding and clot release kill. |
+| Never loosen a tourniquet once placed while help can still come; mark the time. If no help will ever come, the conversion decision is DC-25. | Re-bleeding and clot release kill. |
 | Low-acid foods are pressure-canned to the published time and pressure, or not canned. | Botulism has no field treatment and the food looks and smells normal. |
 | No wild plant or mushroom is eaten on a "test"; identification or nothing. | The deadly ones are not detectable by taste tests and the dose is small. |
 | Fuel is never stored or transferred near an open flame or a running appliance. | Vapour ignition. |
@@ -69,6 +69,11 @@ Options are listed with their id for the profile (`decision_cards.DC-xx`).
 | DC-22 | **Potassium iodide for adults over 40.** | `follow-fda-table` (not recommended over 40 unless very high exposure); `take-anyway`. |
 | DC-23 | **Chlorinating water beyond label strength when the water is very dirty.** | `label-dose-and-filter-first`; `double-dose-and-wait`. |
 | DC-24 | **Letting children do dangerous jobs (fire, fuel, tools, animals) because hands are short.** | A worksheet: age bands and the household's rule for each job. |
+| DC-25 | **Converting a tourniquet to a pressure dressing when no help will ever come.** | `never-loosen` keep it on and accept the limb may be lost; `convert-by-criteria` follow the published prolonged-field-care conversion criteria (time limit, bleeding controlled by packing and pressure, no shock, watch for rebleeding). |
+| DC-26 | **Holding the allergy-safe food in reserve for the allergic person.** | `share-everything` all safe food is shared; `reserve-for-allergic` everyone else eats other stock first and the allergy-safe stock is the allergic person's reserve. |
+| DC-27 | **Water-glassing fresh eggs (storing them in lime water).** | `do-not` follow the Extension position (refrigerate or freeze eggs only); `water-glass-with-rules` clean unwashed eggs, food-grade lime, cool storage, discard any cracked or off egg, cook thoroughly. |
+| DC-28 | **Relighting gas appliance pilots yourself when the gas company will not come.** | `utility-only` wait for the utility; `relight-with-rules` only after the gas has been off and the smell is gone, following the appliance's own lighting label, with a leak check. |
+| DC-29 | **One traction attempt on a fractured limb with no pulse below it, when no care is coming.** | `splint-as-found` splint without moving it; `one-gentle-traction` one gentle in-line traction attempt to restore the pulse, then splint, per the published wilderness-medicine guidance. |
 
 ## Part D. How a card gets into the binder
 

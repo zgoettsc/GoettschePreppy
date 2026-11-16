@@ -29,6 +29,10 @@ separate from the household binder's C and D numbers.
 | G20 | **Pilot regions: South Dakota and Illinois.** | All 50 states plus DC are built; SD and IL are verified first. |
 | G21 | **Plant plates fetched once into the kit.** (closes O5) | Every binder, Small or Large, has every plate. |
 | G22 | **Regeneration from the household's own saved profile file.** (closes O4) | Settings page accepts an uploaded `profile.json`; nothing server-side. |
+| G23 | **Tourniquet: "never loosen" stays the rule while help can come; a decision card covers "no help is coming".** | New DC-25: the published prolonged-field-care conversion criteria, the risks, the household chooses. The floor in 30-01 is reworded to "never loosen while help can come; if no help is ever coming → DC-25". |
+| G24 | **Three published numeric items are printed exactly as published:** AHA chewed aspirin for a suspected heart attack, WHO oral rehydration volume per kilogram, and the FDA/ADA insulin-switching rules. | "No derived dosing" still holds: the kit never computes a dose for a person; these are printed verbatim with the publisher named and, for insulin switching, a strong "agree this with your prescriber now" worksheet. |
+| G25 | **Large comes in two tiers.** | **Large**: sources for the life-safety sections (02 conditions, 03 water, 06 fire and fuel, 08 heating, 09 power, 12 medical, 17 hazards, 20 kids, 27 CBRN, 30 cards and floors), target 300 to 400 MB. **Everything**: every cited source, about 1 GB, meant for a laptop. Small unchanged. |
+| G26 | **Four household rules become decision cards.** | DC-26 allergy-safe food held in reserve; DC-27 water-glassed eggs; DC-28 relighting gas appliances yourself; DC-29 one traction attempt on a pulseless fractured limb when no care is coming. |
 
 ## Decisions still open
 

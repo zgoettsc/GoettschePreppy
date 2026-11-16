@@ -3009,6 +3009,36 @@
    "kit_section": "32-region-appendix",
    "layer": "generated",
    "note": "Region appendix intro and state index; built by scripts/build-region-pages.mjs. State pages 32-01..32-51 are generated."
+  },
+  {
+   "kit_id": "30-26-dc25-tourniquet-conversion-no-help-coming",
+   "kit_section": "30-decisions-and-floors",
+   "layer": "card",
+   "card": "DC-25"
+  },
+  {
+   "kit_id": "30-27-dc26-allergy-safe-food-reserve",
+   "kit_section": "30-decisions-and-floors",
+   "layer": "card",
+   "card": "DC-26"
+  },
+  {
+   "kit_id": "30-28-dc27-water-glassed-eggs",
+   "kit_section": "30-decisions-and-floors",
+   "layer": "card",
+   "card": "DC-27"
+  },
+  {
+   "kit_id": "30-29-dc28-relighting-gas-appliances",
+   "kit_section": "30-decisions-and-floors",
+   "layer": "card",
+   "card": "DC-28"
+  },
+  {
+   "kit_id": "30-30-dc29-pulseless-limb-traction",
+   "kit_section": "30-decisions-and-floors",
+   "layer": "card",
+   "card": "DC-29"
   }
  ]
 }
