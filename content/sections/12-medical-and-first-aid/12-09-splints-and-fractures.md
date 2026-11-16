@@ -66,10 +66,12 @@ sprains, and planning for the weeks when an injured adult cannot work.
 2. **Stop any bleeding** (→ 12-02). Bone showing? Cover it with a clean dressing; do not push it
    back.
 3. **Check beyond the injury: colour, warmth, pulse, feeling, wiggle.** Write it down.
+   Pale, cold, blue or no pulse below the break: go to any care that exists now; if none is
+   coming, your household's choice is card DC-29 (→ 30-30).
 4. **Splint it as you found it.** Joint above and joint below. Pad every gap.
 5. **Check colour, warmth, pulse and feeling again.** Worse? Loosen the splint at once.
 6. **Get them off the cold ground, warm, and give pain relief** (→ 12-13).
-7. **Re-check the splint every hour or so.** Swelling keeps building for hours.
+7. **Re-check the splint often.** Swelling keeps building for hours.
 
 {{figure fig-splint-joint-above-below}}
 
@@ -103,12 +105,12 @@ costs far more.
 **Signs it is an emergency beyond splinting:**
 - **Bone showing, or a wound over the break** (open fracture)
 - **The hand or foot beyond the injury is pale, cold, blue, numb or has no pulse.** Blood flow
-  may be cut off, and the limb can be lost within hours. If any care exists, go now (→ 12-16).
-  When no care is coming, published first-aid guidance says to try to bring the limb back toward
-  its normal position, and wilderness first aid teaches gentle traction for it (MedlinePlus,
-  Broken Bone; Wilderness First Aid Scope of Practice); splinting as found risks the limb, one
-  gentle pull risks pain and added injury. Your household's choice: {{choice DC-29}} → 30-30.
-  It must be learned hands-on, not from a page.
+  may be cut off, and the limb can be lost. If any care exists, go now (→ 12-16).
+  When no trained help is quickly available, MedlinePlus says to try to realign the limb into a
+  normal resting position, and wilderness first aid teaches gentle traction for it (MedlinePlus,
+  Broken Bone; Wilderness First Aid Scope of Practice). Splinting as found risks the limb; one
+  gentle pull risks pain and added injury. That trade-off is card DC-29 (→ 30-30). Your
+  household's choice: {{choice DC-29}} (→ 30-30). It must be learned hands-on, not from a page.
 - **Suspected spine, neck, pelvis or hip fracture**: do not move the person except to save them
   from an immediate hazard
 - **Suspected skull fracture or significant head injury** (→ 12-19)
@@ -220,16 +222,16 @@ A broken bone takes an adult out of the work for weeks or months.
 
 - **Splint supplies barely run down.** Splints are reusable, elastic bandages wash, and
   cardboard is free. Supply is not the limit here.
-- **What runs down is working hands, for weeks.** Put "one adult unavailable for 6 to 12 weeks"
-  on the planning list and work out what it means for water, wood, food and medical care.
+- **What runs down is working hands, for weeks.** Put "one adult unavailable for weeks or
+  months" on the planning list and work out what it means for water, wood, food and medical care.
 - **Ration work, not supplies.** Drop everything non-essential. Water, warmth, food and medical
   care come first; the garden and projects stop.
 - **Substitute:**{{#if has.child}} children can genuinely help with small tasks, and it is good
   for them (→ 20-07);{{/if}} neighbours are a real resource, and this is the kind of concrete,
   bounded request that builds mutual aid (→ 18-01).
 - **The permanent answer is prevention.** Cleats, sand, light, sleds, handrails, and no
-  dangerous work when tired. All cheap, and the injury they prevent could halve the household's
-  working strength for two months.
+  dangerous work when tired. All cheap, and the injury they prevent could take a working adult
+  out for months.
 
 ## Phase notes
 

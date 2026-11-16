@@ -12,7 +12,10 @@ derived_from: [12-11-chronic-conditions]
 sources:
   - niddk-bariatric-surgery
   - niddk-dumping-syndrome
-  - mechanick-bariatric-cpg-2019
+  - medlineplus-gastric-bypass-discharge-r11
+  - medlineplus-wernicke-korsakoff-r11
+  - niddk-dumping-syndrome-symptoms-causes-r11
+  - niddk-dumping-syndrome-eating-r11
   - nhlbi-sleep-apnea
   - cdc-about-heat-and-your-health-112caf
   - medlineplus-preventing-pressure-ulcers
@@ -66,12 +69,12 @@ the wrong food. This module covers both, without judgement.
 {{#if has.condition.CL-26}}**Someone in your household has this condition.** This module is at the front of the medical section for you.{{else}}**Nobody in your household is marked with this condition.** The module stays in the binder so you can help someone else, or add the condition later in settings.{{/if}}
 
 > **SAFETY**
-> - **After bariatric surgery, vomiting that will not stop is an emergency.** It can lead to a
->   vitamin B1 (thiamine) shortage that damages the brain (Mechanick et al., 2019 guideline;
->   part 5).
-> - **After gastric bypass, avoid anti-inflammatory pain relievers** (NSAIDs such as ibuprofen,
->   naproxen and aspirin) unless the surgeon says otherwise; they cause ulcers at the join
->   (Mechanick et al., 2019 guideline; → 12-13).
+> - **After bariatric surgery, vomiting that will not stop is an emergency.** A lack of vitamin
+>   B1 (thiamine), which can follow weight-loss surgery, damages the brain (MedlinePlus,
+>   Wernicke-Korsakoff Syndrome; part 5).
+> - **After gastric bypass, do not take aspirin, ibuprofen or similar pain relievers (NSAIDs)
+>   unless the surgeon says so.** MedlinePlus says they may harm the stomach lining or cause
+>   ulcers (MedlinePlus, Gastric Bypass Surgery: Discharge; → 12-13).
 > - **This page never calculates, adjusts or suggests a dose.**
 
 ## Do this now
@@ -82,8 +85,7 @@ the wrong food. This module covers both, without judgement.
    problems:** get care (part 5).
 3. **Severe belly pain after bariatric surgery,** especially with a fast heartbeat or fever: get
    care.
-4. **Heat:** shade, water, rest, cool cloths; people with more body weight overheat sooner
-   (→ 17-04).
+4. **Heat:** shade, water, rest, cool cloths (→ 17-04).
 5. **Evacuation:** plan the transport and helpers now (part 10).
 
 ## 1. What it is
@@ -118,33 +120,39 @@ injections.
 
 ## 4. Day by day without it
 
-**After bariatric surgery, without the vitamins.** The 2019 guideline lists the shortages that
-are common after surgery: vitamin B12, iron, calcium and vitamin D, folate, thiamine (B1), and in
-some operations the fat-soluble vitamins (Mechanick et al., 2019 guideline). They develop over
-weeks to months: tiredness, pale skin and breathlessness (anaemia), numbness and tingling, weak
-bones, poor night vision. Thiamine can run low within weeks if the person is vomiting or barely
-eating.
+**After bariatric surgery, without the vitamins.** After gastric bypass the body may not absorb
+some vitamins well from food. MedlinePlus says the usual supplements are a multivitamin, vitamin
+B12 and vitamin D, sometimes with calcium and iron, with blood tests for life to check them
+(MedlinePlus, Gastric Bypass Surgery: Discharge). Shortages build slowly; the surgeon or
+dietitian can say which matter most for this person (part 7). Thiamine (vitamin B1) shortage is
+the dangerous one when the person is vomiting or barely eating (part 5).
 
-**The food plan after surgery** (NIDDK, Bariatric Surgery; NIDDK, Dumping Syndrome):
+**The food plan after surgery:**
 - **Small meals, eaten slowly, protein first.** Canned meat and fish, beans, eggs, powdered milk,
   peanut butter and protein powder belong in the stockpile (→ 04-18).
-- **Little sugar and refined starch.** Many emergency rations are sweet or starchy. After a
-  gastric bypass, sugary food can cause **dumping syndrome**: within minutes, nausea, cramps,
-  diarrhoea, dizziness and a racing heart; or one to three hours later, sweating, shakiness and
-  weakness from low blood sugar (NIDDK, Dumping Syndrome).
-- **Drink between meals, not with them,** and sip all day to avoid dehydration.
+- **Little sugar and refined starch.** Many emergency rations are sweet or starchy. After
+  gastric bypass or sleeve surgery, food can move too fast into the gut and cause **dumping
+  syndrome** (NIDDK, Dumping Syndrome). Early dumping comes within 30 minutes of a meal: diarrhoea,
+  bloating, nausea, cramps, light-headedness, flushing, a fast heartbeat, sweating. Late dumping
+  comes 1 to 3 hours after a meal, from low blood sugar: light-headedness or fainting,
+  shakiness, sweating, weakness, trouble concentrating (NIDDK, Symptoms & Causes of Dumping
+  Syndrome). NIDDK's eating advice: smaller, more frequent meals, more protein, fibre and fat,
+  and fewer simple sugars such as sweets and sugary drinks (NIDDK, Eating, Diet, & Nutrition for
+  Dumping Syndrome).
+- **Do not eat and drink at the same time:** MedlinePlus says to drink fluids at least 30
+  minutes after eating, slowly, in sips (MedlinePlus, Gastric Bypass Surgery: Discharge). Sip
+  all day to avoid dehydration.
 - **The household's calorie plan** assumes ordinary eating (→ 04-01). For this person, plan by
   protein and small portions instead, and ask the dietitian now how much.
 
-**Medicine absorption after surgery.** Some medicines, especially extended-release and
-long-acting tablets, may be absorbed differently after some operations (Mechanick et al., 2019
-guideline). The prescriber may already have switched forms. Do not crush or break tablets unless
-the pharmacist says that form allows it. Alcohol is absorbed faster and hits harder after
-surgery.
+**Medicine after surgery.** Ask the prescriber or pharmacist now whether any of the person's
+medicines should be in a different form because of the surgery (part 7). Do not crush or break
+tablets unless the pharmacist says that form allows it.
 
 **Severe obesity, day to day, off-grid:**
-- **Heat:** people with more body weight are at higher risk of heat illness (CDC, About Heat and
-  Your Health). Shade, water, rest in the heat of the day, cool cloths (→ 17-04).
+- **Heat:** CDC warns that heat can make heart conditions and other chronic health conditions
+  worse (CDC, About Heat and Your Health). Shade, water, rest in the heat of the day, cool cloths
+  (→ 17-04).
 - **Skin:** skin folds stay damp and break down; wash, dry fully, and keep them aired (→ 13-02).
   Long sitting or lying causes pressure sores (MedlinePlus, Preventing Pressure Ulcers; → 02-22).
 - **Sleep apnoea** is common; see → 02-24.
@@ -156,9 +164,12 @@ the label has restart rules, and the prescriber decides.
 
 ## 5. Warning signs that mean an emergency
 
-- **Vomiting that does not stop,** or vomiting with **confusion, unsteady walking, double vision
-  or jerky eye movements**: possible thiamine shortage, which can cause permanent brain damage;
-  get care urgently (Mechanick et al., 2019 guideline).
+- **Vomiting that does not stop,** or **confusion, loss of coordination, double vision, jerky
+  eye movements or a drooping eyelid**: possible thiamine (B1) shortage (Wernicke
+  encephalopathy), which MedlinePlus says can progress to coma and death; get care urgently
+  (MedlinePlus, Wernicke-Korsakoff Syndrome). MedlinePlus also says to contact the provider for
+  vomiting after eating or for trouble drinking enough (MedlinePlus, Gastric Bypass Surgery:
+  Discharge).
 - **Severe belly pain after bariatric surgery,** especially with fever, a racing heart or
   vomiting: a leak, an ulcer or a twisted bowel; get care.
 - **Black or bloody stool, or vomiting blood:** a bleeding ulcer.

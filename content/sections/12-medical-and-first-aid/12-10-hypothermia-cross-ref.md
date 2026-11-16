@@ -96,11 +96,13 @@ and trench foot fast. The full guidance is on → 08-05; read it before you need
 1. **Get inside.** Off with wet gloves, socks and boots.
 2. **Do not rub or massage** the area. It damages frozen tissue.
 3. **No direct heat**: stove, fire, heater, hot water. **Numb skin burns without feeling it.**
-4. **Rewarm in water at 98.6 to 102 °F (37 to 39 °C).** Numb skin cannot judge "warm", so
-   **use a thermometer, or test with your own uninjured elbow** (comfortably warm, never hot).
-   **15 to 30 minutes, until the part is soft and pink or red-purple**, topping up with warm
-   water to hold the temperature. **Hotter burns the numb tissue; cooler does not thaw it**
-   (Wilderness Medical Society frostbite guidelines, 2019 update; CDC). Body heat (armpits, a
+4. **Rewarm in water at 98.6 to 102.2 °F (37 to 39 °C).** Numb skin cannot judge "warm", so
+   **use a thermometer to hold that range; with no thermometer, put an uninjured hand or foot in
+   the water for 30 seconds first** to make sure it is comfortable, never hot. **Rewarming is
+   done when the part is soft and pliable and looks red or purple, typically within 30
+   minutes**, topping up with warm water to hold the temperature. **Hotter burns the numb
+   tissue** (American Family Physician, Frostbite: Prevention and Initial Management, summarising
+   the Wilderness Medical Society guidelines; CDC). Body heat (armpits, a
    companion's belly) is the fallback when no warm water can be made. **Only if it will not
    refreeze** (next step).
 5. **Do not thaw a part that might refreeze before you reach safety.** Refreezing thawed tissue

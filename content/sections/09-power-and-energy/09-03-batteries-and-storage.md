@@ -2,7 +2,7 @@
 id: 09-03-batteries-and-storage
 section: 09-power-and-energy
 title: "Batteries and power stations"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -10,10 +10,24 @@ phase: [A, B, C]
 tags: [power, batteries, storage, power station, lifepo4, lead-acid, solar input, series, parallel, fire, safety]
 derived_from: [09-03-batteries-and-storage]
 sources:
-  - nfpa-national-fire-protection-association-lithium-io-0c7d64
-  - us-department-of-energy-solar-energy-technologies-of-2a534a
-  - us-department-of-energy-consumer-guide-to-residentia-1d87da
+  - usfa-battery-fire-safety-r14
+  - usfa-blog-lithium-ion-batteries-2026-r8
   - osha-batteries-and-battery-charging-29-cfr-1926-441-9def7d
+  - victron-wiring-unlimited-r14
+  - trojan-users-guide-r14
+  - trojan-battery-maintenance-r14
+  - trojan-faqs-r14
+  - battle-born-bb10012-data-sheet-r14
+  - battle-born-temperature-limits-r14
+  - battle-born-bb10012i-manual-r14
+  - bluetti-ac180-user-manual
+  - anker-solix-c1000-gen-2-user-guide
+  - ecoflow-river-2-pro-user-manual
+  - ecoflow-delta-2-max-user-manual
+  - jackery-explorer-2000-plus-user-manual
+  - generac-gp3500io-owners-manual
+  - renogy-rsp200d-g3-datasheet
+  - dometic-cfx3-35-product-page-r14
 related:
   - 09-01-power-priorities
   - 09-02-solar-basics
@@ -42,7 +56,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Lithium safety re-cited to USFA (NFPA archive empty); storage charge per maker manuals (they differ); lead-acid voltages/DoD from Trojan; LiFePO4 cycles/cold limits from Battle Born and station manuals; cooler from Dometic; motor start 3x (Generac)" }
 ---
 
 # Batteries and power stations
@@ -55,18 +69,21 @@ station is, and volts, amps and watt-hours, are on → 29-02. Model-by-model sta
 → 28-01.
 
 > **SAFETY. Three ways batteries hurt people.**
-> **(1) Lithium fire.** A damaged, defective or wrongly charged lithium-ion battery can go into
-> **thermal runaway**: an intense, self-sustaining fire that is very hard to put out and gives off
-> toxic smoke. The warning signs are **heat, an odd smell, swelling or a change in shape, leaking,
-> smoke, or unusual noise**; if you see them, get people out and call for help (NFPA,
-> Lithium-Ion Batteries). Charge on a hard, non-flammable surface, away from exits and sleeping
-> areas, and **never charge a battery that has been damaged, crushed, punctured or soaked.**
-> **(2) Lead-acid gas and acid.** Charging lead-acid batteries gives off **explosive hydrogen**,
-> and they hold **sulfuric acid**. Ventilate, no sparks or flames nearby, eye protection (OSHA,
-> 29 CFR 1926.441).
-> **(3) Short circuit.** A 12 V battery will push hundreds of amps through a dropped wrench and
-> set the wire, the tool and the room on fire. **Fuse everything** (→ 09-08). Take off rings and
-> watches before working on a battery.
+> **(1) Lithium fire.** A damaged, defective or wrongly charged lithium battery can bulge, leak or
+> catch fire; the fire is fast, very hot, hard to put out, and gives off harmful chemicals (US Fire
+> Administration). **Stop using a battery that shows an odd smell, a change in colour, too much
+> heat, a change in shape, leaking or odd noises** (USFA, Battery Fire Safety, from NFPA), or that
+> is smoking, hissing, punctured or swollen (USFA). If it smokes or burns, get people out and call
+> for help. Charge on a solid, flat surface, not a bed or couch, out of direct sun; store it away
+> from anything that burns and away from exits (USFA). **Never charge a battery that has been
+> damaged, crushed, punctured or soaked.**
+> **(2) Lead-acid gas and acid.** Charging lead-acid batteries gives off gas that can form an
+> explosive mixture, and they hold **sulfuric acid**. Ventilate, no sparks or flames nearby, face
+> and eye protection and rubber gloves (OSHA, 29 CFR 1926.441; Trojan, User's Guide).
+> **(3) Short circuit.** A short-circuited battery can cause a fire or an explosion, and a lithium
+> bank can deliver a very large short-circuit current (Victron Energy, Wiring Unlimited). A dropped
+> wrench across the terminals sets the wire, the tool and the room on fire. **Fuse everything**
+> (→ 09-08). Take off rings and watches before working on a battery (Trojan).
 > {{#if has.child}}**Children live in this house: batteries live where they cannot reach them, on a
 > hard surface, with a working smoke alarm in the room.**{{else}}Keep batteries where children
 > cannot reach them, on a hard surface, with a working smoke alarm in the room.{{/if}}
@@ -78,31 +95,36 @@ station is, and volts, amps and watt-hours, are on → 29-02. Model-by-model sta
   electrical.**
 - **Put a fire extinguisher and a smoke alarm where the batteries live** (→ 29-12). Not optional
   with lithium.
-- **Store lithium stations and banks at 40 to 60% charge, not full.** A cell held at 100% wears
-  measurably faster, and manufacturers say the same for units unused for months. **Exception:
-  when a storm is forecast, charge everything to 100%.** A few days full costs nothing; an outage
-  that arrives with the station at 50% does.
-- **Cycle them every three months:** note the charge you find (a bank that fell from 100% to 55%
-  in 90 days has a drain or a fault), run it down to about 30%, charge to 100%, settle back to 50
-  to 60%, check every port works, and **write it in the log** (→ 25-05). The failure you are
-  guarding against is finding a dead unit after years of neglect.
-- **Heat is the main enemy of stored lithium:** conditioned space, never a summer car or an
-  attic. And **lithium iron phosphate must not be charged below freezing (32 °F).** Discharging
-  cold is fine; charging cold is what damages it.
-- **Turn off any power-saving ("ECO") setting on a port that runs a medicine cooler.** Many
-  stations switch an output off after an hour or more of tiny load, and a compressor cooler
-  resting between cycles looks like nothing is plugged in. Check the screen does not show the
-  ECO symbol before the cooler goes on.
+- **Store each station and battery at the charge level its manual gives.** Makers differ: BLUETTI
+  says 40 to 60% for an AC180 left unused over three months; EcoFlow says recharge a RIVER 2 Pro
+  to 60% every three months; Anker says recharge a C1000 Gen 2 to 100% every three months; Battle
+  Born says charge its 12 V batteries to 100% and disconnect them for storage. Ours: ______.
+  **Whatever the manual says, when a storm is forecast, charge everything to 100%.** An outage
+  that arrives with the station half full costs you half your reserve.
+- **Exercise them every three months**, as most station manuals ask: note the charge you find (a
+  unit that lost a lot in 90 days has a drain or a fault), discharge and recharge it as the manual
+  says, return it to its storage level, check every port works, and **write it in the log**
+  (→ 25-05). The failure you are guarding against is finding a dead unit after years of neglect.
+- **Heat is the enemy of stored lithium:** room temperature, never in direct sun or a hot car
+  (USFA). And **lithium batteries are not charged below freezing.** Station manuals list 32 °F
+  (0 °C) as the lowest charging temperature (EcoFlow, Jackery, Anker), and so does USFA;
+  discharging is allowed colder. Battle Born's 12 V batteries block charging in the cold and warn
+  that charging at low temperatures can damage the cells.
+- **Turn off any power-saving ("ECO" or auto-off) setting on a port that runs a medicine cooler.**
+  A compressor cooler resting between cycles draws almost nothing, and a station set to switch off
+  an idle output can mistake that for nothing plugged in. Find the setting in your manual and
+  check the screen before the cooler goes on.
 - **Fill in the station and panel tables below from the labels** (how: → 28-07), and take the
   photos: {{photo station-ports}} {{photo panel-labels}}
-- **Buy several 20,000 mAh USB power banks.** About 70 Wh each, cheap, no wiring, no knowledge
-  needed, and they cover phone loads for days (→ 09-06).
+- **Buy several 20,000 mAh USB power banks.** About 70 Wh each (20 Ah × the cell's 3.6 to 3.7 V),
+  cheap, no wiring, no knowledge needed, and they cover phone loads for days (→ 09-06).
 
 ## Why it works this way
 
 **Batteries are rated three ways and you need all three:**
-- **Capacity:** watt-hours, or amp-hours at a voltage (Ah × V = Wh). A 100 Ah 12 V battery is
-  about 1,280 Wh.
+- **Capacity:** watt-hours, or amp-hours at a voltage (Ah × V = Wh). A 100 Ah lithium iron
+  phosphate battery (12.8 V nominal) is about 1,280 Wh; a 100 Ah lead-acid battery at 12 V, about
+  1,200 Wh.
 - **Usable capacity:** what you can take out without wrecking it. This is where chemistries
   differ enormously (→ 09-07).
 - **Continuous and surge current:** how fast you can pull it out. A big battery with a small
@@ -112,13 +134,12 @@ station is, and volts, amps and watt-hours, are on → 29-02. Model-by-model sta
 
 | | **Lithium iron phosphate (LiFePO4)** | **Lead-acid (AGM, flooded, gel)** |
 |---|---|---|
-| Usable depth of discharge | About 80 to 100% | **About 50%**: deeper kills it fast |
-| Cycle life | Thousands of cycles | Hundreds (AGM), fewer if abused |
-| Weight for the same usable Wh | About a third to a quarter | Heavy |
-| Tolerates sitting part-charged | Yes | **No**: it sulfates and dies |
-| **Charging below freezing** | **No: permanent damage.** Needs a heated battery or a battery management system with a low-temperature cutoff | Yes, at a reduced rate |
-| Fire risk | Lower than other lithium types, but real | Hydrogen gas and acid, not fire |
-| Cost per usable Wh over its life | **Lower** | Higher |
+| Usable depth of discharge | Up to 100% (Battle Born BB10012) | **50% or less recommended; 80% at most** (Trojan) |
+| Cycle life | Thousands: 3,000 to 5,000 for one maker's battery (Battle Born) | Fewer; shallow discharges give longer life (Trojan) |
+| Weight | Lighter for the same usable energy (BB10012: 31 lb for 100 Ah, all of it usable) | Heavy |
+| Tolerates sitting part-charged | Yes | **No**: it sulfates and loses capacity (Trojan) |
+| **Charging below freezing** | **No.** Makers set the limit at about 32 °F (stations) or 25 °F (Battle Born) and the battery management system blocks it; a heated battery can charge colder | With temperature-compensated charging; **never charge a frozen battery** (Trojan) |
+| Fire risk | Can overheat and burn if damaged or abused (USFA) | Explosive gas while charging, and acid |
 | Can you find more in a crisis? | Rarely | **Everywhere: every car, truck, boat, RV** |
 
 **Read the cold-charging row twice.** {{#if is.cold_winters}}Your winters here are cold enough that
@@ -164,16 +185,16 @@ the ones that protect the station.
   battery. Run DC loads from the 12 V and USB ports and switch the AC inverter off when you do not
   need it (→ 09-10). Measure yours: fully charged, inverter on, nothing plugged in, note the
   percentage after 12 hours.
-- **Motor starts.** A motor (a blower, a pump, a compressor) draws two to three times its running
-  watts, or more, for a moment at start. Check that against the station's surge figure before you
-  rely on it. Some stations have a high-power mode meant for heating elements; read the manual for
+- **Motor starts.** A motor (a blower, a pump, a compressor) needs a burst of extra power for a
+  moment at start; Generac's rule for generators is to allow about 3 times the running watts.
+  Check that against the station's surge figure before you rely on it. Some stations have a high-power mode meant for heating elements; read the manual for
   whether it suits motors.
 - **UPS or pass-through mode.** Some stations can sit plugged into the wall with a load attached
   and switch to battery in milliseconds when the grid drops. If yours can, it is a good everyday
   home for a medicine cooler (→ 09-10). Read the manual's switchover time and whether the maker
   approves it for continuous use.
-- **Temperature.** Most stations list a charging range that starts at 32 °F. A station does not
-  live in a parked car in summer or winter.
+- **Temperature.** Station manuals list a charging range that starts at 32 °F (0 °C) (EcoFlow,
+  Jackery, Anker). A station does not live in a parked car in summer or winter.
 
 ### Connecting solar panels to a station without destroying it
 
@@ -228,11 +249,12 @@ one each time, and do not improvise at first light:
 The same table, cut down to a card, is on → 09-16; keep a copy with the panels.
 
 **Rules that go with every configuration:**
-- **Three or more strings in parallel need a fuse on each string** (→ 09-08). Two do not.
+- **Three or more strings in parallel need a fuse on each string**, no larger than the panel's
+  maximum series fuse rating; two usually do not (→ 09-08 has the check).
 - **Mismatch:** series cares about matched *current* (the string runs at the lowest Imp);
   parallel cares about matched *voltage*. Pair the most alike panels in parallel.
-- **Measure the string's Voc with a multimeter before any first-time connection.** On an MC4
-  connector, red probe to the + end (the connector with the male pin), black to the − end. A
+- **Measure the string's Voc with a multimeter before any first-time connection.** Red probe to
+  the + lead (as marked on the panel label or cable), black to the − lead. A
   **minus sign** on the meter means a connector is reversed: swap it before anything is plugged
   in. A station's input may survive reverse polarity, but a reversed panel *inside* a series chain
   silently subtracts its voltage. {{figure fig-mc4-polarity-check}}
@@ -256,7 +278,8 @@ Full input specs for common stations and panels: → 28-01, → 28-02.
   That is an estimate: it assumes about 85% of the rated Wh is usable and does not count the
   station's own idle draw or anything else plugged in. **Measure your own:** fully charge, plug in
   only the fridge, and note the percentage every few hours for a day.
-- **A small 12 V compressor medicine cooler** (often 200 to 500 Wh a day): days per charge =
+- **A small 12 V compressor medicine cooler** (one common 36-litre model is rated at 0.98 amp-hours
+  per hour at 12 V in a 90 °F room, about 280 Wh a day; Dometic, CFX3 35): days per charge =
   station Wh × 0.85 ÷ (cooler Wh per day + 24 × idle watts). Work it per station on → 09-10.
 - **Kettle boils:** about 135 Wh per one-litre boil once kettle and inverter losses are counted
   (→ 07-06). Boils per charge ≈ station Wh × 0.85 ÷ 135.
@@ -272,15 +295,17 @@ you can find in year two (→ 09-13, → 09-14).
 - A **starting battery** (from a car) is built for short bursts, not deep cycling. It works as
   storage but dies quickly if deeply discharged again and again.
 - A **deep-cycle battery** (marine, RV, golf cart, floor scrubber) is the one you want.
-- **Only discharge to about 50%**: roughly **12.0 to 12.1 V at rest** for a 12 V battery. Below
-  about 11.8 V you are damaging it. **A resting 12 V lead-acid battery reads about 12.6 to 12.7 V
-  full.** A cheap voltmeter is your fuel gauge (→ 09-07 has the full table).
+- **Only discharge to about 50%** (Trojan recommends 50% or less): about **12.1 V at rest** for a
+  flooded 12 V battery, about **12.2 V** for an AGM. **Full reads about 12.7 V (flooded) or 12.8 V
+  (AGM)** after resting with nothing connected. About 11.8 V on a flooded battery is only about 30%
+  left: well past the line (Trojan, User's Guide). A cheap voltmeter is your fuel gauge (→ 09-07
+  has the full table).
 - Never mix old and new, or different types, in one bank.
 
 **Capacity reality check.** With Tier 0 and Tier 1 loads of roughly 500 to 800 Wh a day, two to
 three days of autonomy needs about **1.5 to 2.5 kWh of usable storage**: one or two 100 Ah
-lithium iron phosphate batteries, a large power station plus a spare, or roughly **four to six**
-100 Ah lead-acid batteries (because of the 50% rule).
+lithium iron phosphate batteries, a large power station plus a spare, or roughly **three to five**
+100 Ah lead-acid batteries (about 600 Wh usable each, because of the 50% rule).
 
 ## Gear and items
 
@@ -314,9 +339,10 @@ lithium iron phosphate batteries, a large power station plus a spare, or roughly
 - **Batteries die of age, deep discharge, heat and cold, and the death is often sudden.** Track
   real capacity: note how long a known load runs, and watch that number shrink. A bank that held
   two days and now holds half a day is telling you it is ending.
-- **Runway:** lithium iron phosphate gives **many years** of daily cycling if never charged below
-  freezing and never left flat. Lead-acid gives **a few years at best**, much less if regularly
-  run below 50%.
+- **Runway:** lithium iron phosphate gives **many years** of daily cycling (3,000 to 5,000 cycles
+  for one maker's battery) if never charged below its cold limit and never left flat. Lead-acid
+  gives far fewer, and less again if regularly run below 50% or kept warm (Trojan: life halves for
+  every 18 °F above 77 °F).
 - **Ration:** shed loads by tier (→ 09-01). Charge and run loads during the sunny hours: power used
   while the sun is up is capacity you do not have to store.
 - **Resupply:** scavenged lead-acid, in quantity, accepting the weight.
@@ -324,7 +350,8 @@ lithium iron phosphate batteries, a large power station plus a spare, or roughly
   cold storage (→ 04-09, → 09-10), information to this binder on paper. **The final fallback for a
   phone is a hand-crank or vehicle charge** (→ 09-11).
 - **End of life:** a dead lead-acid battery is still lead and acid. Do not burn it, do not open it,
-  and keep it from freezing and splitting near children or the garden.
+  and keep it from freezing and splitting near children or the garden (a discharged battery
+  freezes far more easily than a charged one; Trojan).
 
 ## Phase notes
 - **A (at home):** house bank indoors in a warm room, fused, boxed, out of children's reach, smoke

@@ -26,7 +26,7 @@ options:
     label: "Jar-test old fuel and use it if it passes"
     summary: "Old fuel may be used if a sample in a clear jar, left to stand, is clear and bright with no water layer, cloudiness, sludge or colour change, and it smells like the right fuel. Any doubt, or an unlabelled can, and it is not used."
 settings_summary: "Fuel ages. Gasoline loses the parts that help it start, can absorb water and leaves gum that blocks small-engine carburettors. Kerosene and diesel take up water from the air in part-full cans and can grow sludge. One common wick-heater maker says never use kerosene stored from one season to the next. The real danger is in heaters: the heater maker says old kerosene will not burn properly: smoke, odour, a low flame and deposits on the wick, and a heater burning badly indoors adds carbon monoxide (CO) to the room. Old gasoline in a generator mostly means it will not start when needed. What helps most: date, stabilise and rotate (removes most of it); store full, sealed, cool and dark, and jar-test before every fill (reduces it a lot). An unlabelled or unknown can is never poured."
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "MU G1999 (404, unread) dropped; Dyna-Glo manual quoted for 1-K and season-to-season rule; CPSC fact sheet (403) swapped for CPSC 464." }
 ---
 
 # DC-17. Old kerosene, diesel or gasoline in a heater or engine

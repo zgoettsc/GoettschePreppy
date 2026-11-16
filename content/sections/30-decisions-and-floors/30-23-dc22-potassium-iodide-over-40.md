@@ -23,12 +23,12 @@ card: DC-22
 options:
   - id: follow-fda-table
     label: "Follow FDA: over 40 only at very large exposure"
-    summary: "Adults over 40 take potassium iodide only if the predicted exposure is high enough to destroy the thyroid (FDA's 500 cGy row), as FDA advises, and only on official direction. Everyone else follows the FDA table on the potassium iodide page."
+    summary: "Adults over 40 take potassium iodide only if the predicted exposure is high enough to destroy the thyroid (the top row of FDA's table), as FDA advises, and only on official direction. Everyone else follows the FDA table on the potassium iodide page."
   - id: take-anyway
     label: "Adults over 40 take it whenever others do"
     summary: "When officials direct potassium iodide for the area, adults over 40 in the household take the FDA adult dose too, after checking the FDA list of people who should not take it, accepting a higher chance of side effects."
-settings_summary: "Potassium iodide (KI) is a tablet that fills the thyroid gland with ordinary iodine so it does not absorb radioactive iodine released by a nuclear accident or bomb. It protects only the thyroid, only from radioactive iodine, and only when taken on official direction. FDA says anyone over 40 should take KI only if the predicted exposure is high enough to destroy the thyroid and cause lifelong hypothyroidism. HHS gives the reason: adults over 40 have the lowest risk of thyroid cancer from radioactive iodine and a greater risk of an allergic reaction to KI. Sheltering indoors protects far more than KI does. What helps most: shelter first and take KI only when officials say so (removes most of the risk); decide now with a clinician and know FDA's do-not-take list (reduces it a lot)."
-review_pass: null
+settings_summary: "Potassium iodide (KI) is a tablet that fills the thyroid gland with ordinary iodine so it does not absorb radioactive iodine released by a nuclear accident or bomb. It protects only the thyroid, only from radioactive iodine, and only when taken on official direction. FDA says anyone over 40 should take KI only if the predicted exposure is high enough to destroy the thyroid and cause lifelong hypothyroidism (an underactive thyroid). HHS gives the reason: adults over 40 have the lowest risk of thyroid cancer from radioactive iodine and a greater risk of an allergic reaction to KI. Sheltering indoors protects far more than KI does. What helps most: shelter first and take KI only when officials say so (removes most of the risk); decide now with a clinician and know FDA's do-not-take list (reduces it a lot)."
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "has.elder -> has.adult_over_40; over-40 rule worded as 27-06 (FDA FAQ) with REMM reason; FDA 2001 guidance read; CDC citation that lacked KI text removed." }
 ---
 
 # DC-22. Potassium iodide for adults over 40
@@ -59,7 +59,8 @@ Potassium Iodide).
 
 - FDA's guidance sets different exposure levels at which KI is recommended by age (the full table
   is on → 27-06). FDA says **anyone over 40 should take KI only if the predicted exposure is high
-  enough to destroy the thyroid and cause lifelong hypothyroidism** (the 500 cGy row) (FDA,
+  enough to destroy the thyroid and cause lifelong hypothyroidism** (an underactive thyroid; the 500 cGy row; a cGy,
+  or centigray, is a unit of radiation dose that officials estimate, not households) (FDA,
   Frequently Asked Questions on Potassium Iodide; FDA, Potassium Iodide as a Thyroid Blocking
   Agent in Radiation Emergencies, 2001).
 - FDA lists people who should not take KI, including those with known iodine sensitivity, the skin

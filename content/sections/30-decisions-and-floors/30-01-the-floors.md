@@ -12,17 +12,12 @@ derived_from: [08-02-carbon-monoxide-safety, 09-04-generators, 12-02-bleeding-an
 sources:
   - cdc-carbon-monoxide-poisoning-basics-772153
   - us-consumer-product-safety-commission-cpsc-what-to-k-3390a4
-  - cpsc-carbon-monoxide-questions-and-answers-783766
-  - osha-electrical-safety-and-health-topics-a7a68f
-  - american-college-of-surgeons-stop-the-bleed-stop-the-8d1b5b
   - cotccc-tccc-guidelines-2026
   - usda-nchfp-usda-complete-guide-to-home-canning-2015-452df1
-  - national-center-for-home-food-preservation-principle-20736b
   - cdc-botulism-prevention-d03ef9
   - usda-ars-poisonous-plant-research-laboratory-water-h-ab9a68
   - cdc-water-hemlock-poisoning-maine-1992-mmwr-43-13-bf58c2
   - us-consumer-product-safety-commission-cpsc-promotes-994cab
-  - cdc-atsdr-toxfaqs-for-automotive-gasoline-1cb179
   - us-fda-information-regarding-insulin-storage-and-swi-6448d3
   - american-diabetes-association-insulin-storage-and-sy-6f1f94
   - cdc-cleaning-and-disinfecting-with-bleach-a0118f
@@ -32,6 +27,18 @@ sources:
   - american-academy-of-pediatrics-healthychildren-org-g-a22b8d
   - nssf-national-shooting-sports-foundation-project-chi-7e7bc9
   - cdc-mmwr-hydrocarbon-kerosene-lamp-oil-ingestion-in-106f3a
+  - cpsc-carbon-monoxide-information-center
+  - first-alert-co-alarm-users-manual-m08-0534-r8
+  - cpsc-safety-alert-portable-generator-hazards-r8
+  - osha-quickcard-portable-generator-safety
+  - usuhs-ncdmph-stop-the-bleed-apply-a-tourniquet-r7
+  - cdc-botulism-treatment-r16
+  - cdc-amanita-phalloides-mushroom-poisonings-northern-d2a006
+  - niosh-npg-gasoline-r3
+  - maryland-mde-gasoline-safety-r3
+  - ysn-flame-king-manufacturer-training-program-1a-fill-a69318
+  - american-diabetes-association-switching-between-insu-9c5595
+  - cdc-diabetic-ketoacidosis-55a7c2
 related: [08-02-carbon-monoxide-safety, 09-04-generators, 12-02-bleeding-and-wounds, 04-05-canning-pressure, 05-06-foraging-and-deadly-look-alikes, 06-06-fuel-storage-safety, 06-07-moving-and-transferring-fuel, 02-01-cl01-type-1-diabetes-injections, 03-04-purifying-water, 20-02-child-safety-offgrid, 14-14-safe-storage-and-child-access, 29-03-ex03-carbon-monoxide, 29-04-ex04-electricity-in-the-house, 29-05-ex05-chlorine-products, 29-07-ex07-refrigerated-medicines, 29-08-ex08-canning-words, 30-26-dc25-tourniquet-conversion-no-help-coming]
 explainers: [EX-01, EX-03, EX-04, EX-05, EX-07, EX-08]
 promote_when: []
@@ -194,12 +201,14 @@ decision card (→ 30-06). → 06-06, → 06-07.
 
 **A frozen-then-thawed insulin vial or pen is discarded.**
 
-**Why there is no choice.** Insulin is a protein. Freezing breaks it, and the damage cannot be
-undone (→ 29-07). It can look completely normal afterwards, so you cannot tell how much
-strength is left. A dose that does nothing, given to someone with type 1 diabetes, can lead to
-a dangerous buildup of acids in the blood (diabetic ketoacidosis) without anyone noticing in
-time. FDA and the American Diabetes Association both say do not use insulin that has been
-frozen (FDA, Insulin Storage and Switching Between Products in an Emergency; ADA, Insulin
+**Why there is no choice.** Insulin is a protein, and freezing can damage it for good
+(→ 29-07). It can look completely normal afterwards, so you cannot tell how much strength is
+left. A dose that does too little, given to someone with type 1 diabetes, can lead to a
+dangerous buildup of acids in the blood (diabetic ketoacidosis, which CDC calls potentially
+life-threatening) without anyone noticing in time (CDC, Diabetic Ketoacidosis). FDA and the
+American Diabetes Association both say do not use insulin that has been frozen (FDA, Insulin
+Storage and Switching Between Products in an Emergency; ADA, Switching Between Insulin Products
+in Disaster Response Situations), and ADA says never store insulin in the freezer (ADA, Insulin
 Storage and Syringe Safety). Heat is different: heat-exposed insulin is a decision card
 (→ 30-09).
 
@@ -212,30 +221,36 @@ thermometer in the box, the box in the warm room in winter. → 02-01, → 29-07
 
 **Why there is no choice.** Bleach and pool shock (calcium hypochlorite) are chlorine
 products (→ 29-05). Mixed with an acid (some toilet and rust cleaners, vinegar), they release
-chlorine gas. Mixed with ammonia (glass cleaners, urine), they release chloramine gas. Both
-burn the eyes, throat and lungs, and in a closed room they can kill (CDC, Cleaning and
-Disinfecting with Bleach; CDC/ATSDR, Medical Management Guidelines for Chlorine). Pool shock
-is also an oxidizer: next to fuel, oil or other organic matter it can start a fire, and it
-gives off chlorine when it gets wet (CDC/ATSDR, Calcium Hypochlorite).
+chlorine gas. Mixed with ammonia (glass cleaners, urine), they release chloramine gas
+(CDC/ATSDR, Medical Management Guidelines for Calcium Hypochlorite and Sodium Hypochlorite).
+CDC says never mix bleach with any other cleaner or disinfectant, because the vapours can be
+very dangerous to breathe (CDC, Cleaning and Disinfecting with Bleach). Chlorine gas burns the
+eyes, throat and lungs (CDC/ATSDR, Medical Management Guidelines for Chlorine). Pool shock is
+also an oxidizer: with combustible material it can start a fire, it can react explosively with
+ammonia, and it gives off chlorine when it gets wet (CDC/ATSDR, Calcium Hypochlorite).
 
 **Do this instead.** Use one cleaning product at a time, with water only. Store pool shock
-dry, sealed, off the floor and away from fuel, acids and ammonia. → 03-04, → 29-05.
+dry, sealed, off the floor, below 120 °F and away from fuel, acids and ammonia (CDC/ATSDR).
+→ 03-04, → 29-05.
 
 ## 9. Children cannot get to the dangerous things
 
 **Children do not have access to firearms, fuel, medications or chlorine products.**
 
 **Why there is no choice.** Every source agrees on this one. Young children explore by
-putting things in their mouths and pulling triggers they find. A mouthful of kerosene or lamp
-oil can be breathed into the lungs and cause a severe pneumonia (CDC MMWR, hydrocarbon
-ingestion in children). Medicines and chlorine are among the most common child poisonings
-(AAP, Poison Prevention). A found, loaded gun is a death in a second (AAP, Guns in the Home;
-NSSF, Project ChildSafe). In a crisis the adults are busier and the supervision is thinner,
+putting things in their mouths. Young children are most often poisoned by medicines and
+household products, and fuels such as gasoline, kerosene and lamp oil are among the things that
+cause the most serious harm (AAP, Poison Prevention). Lamp oil swallowed by a child can be
+breathed into the lungs and cause a chemical pneumonia, the main cause of death and injury from
+it (CDC MMWR, Near Fatal Ingestion of Household Lamp Oil, 1997). Even toddlers can find an
+unlocked gun and are strong enough to pull the trigger, and the AAP says teaching children not
+to touch a gun is not enough (AAP, Guns in the Home; NSSF, Project ChildSafe). In a crisis the adults are busier and the supervision is thinner,
 which is exactly when storage has to do the work.
 
-**Do this instead.** Lock firearms unloaded, with ammunition separate. Store fuel, medicine
-and chlorine locked or high, in their own labelled containers, never in drink bottles. Teach
-the rule as an absolute. Which jobs children may help with under supervision is a worksheet
+**Do this instead.** Lock firearms unloaded, with ammunition locked separately, and keep the
+keys and combinations from children (AAP). Store fuel, medicine and chlorine locked, out of
+sight and reach, in their original labelled containers, never in drink bottles (AAP; CDC MMWR).
+Teach the rule as an absolute, but let storage do the work. Which jobs children may help with under supervision is a worksheet
 (→ 30-25). → 20-02, → 14-14.
 
 ## Lines inside the cards that are also fixed

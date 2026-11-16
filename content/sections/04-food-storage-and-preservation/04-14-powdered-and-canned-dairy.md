@@ -59,14 +59,17 @@ keeps, which ones young children need, and why none of them replaces infant form
 
 ## The options
 
-| Product | Shelf life (cool, sealed) | Notes |
+Heat is what shortens every one of these: keep them as cool as you can (→ 04-03). Rotate by the
+date on the package; the order below is longest-keeping first.
+
+| Product | How it keeps (cool, sealed) | Notes |
 |---|---|---|
-| **Nonfat dry milk** | **10 to 20 years** | The storage champion: no fat to go rancid. Not for children 12 to 23 months as their main milk |
-| **Whole dry milk** | 2 to 5 years | Better taste, shorter life (fat). The toddler's powder; rotate it |
-| **Evaporated milk (canned)** | 1 to 2 years or more | Ready to use; heavy |
-| **Sweetened condensed milk** | 1 to 2 years or more | Sugar preserves it; morale food |
-| **UHT boxed milk** (long-life) | 6 to 12 months | Tastes closest to fresh; short life. Whole UHT is the toddler's other option |
-| **Commercially canned or powdered butter, ghee** | 1 to 2 years or more | → 04-12 |
+| **Nonfat dry milk** | The longest: years, when sealed, dry and cool | The storage champion: no fat to go rancid. Not for children 12 to 23 months as their main milk |
+| **Whole dry milk** | Shorter (the fat goes rancid) | Better taste. The toddler's powder; rotate it |
+| **Evaporated milk (canned)** | Use the can's date | Ready to use; heavy |
+| **Sweetened condensed milk** | Use the can's date | Sugar preserves it; morale food |
+| **UHT boxed milk** (long-life) | Months: the shortest | Tastes closest to fresh. Whole UHT is the toddler's other option |
+| **Commercially canned or powdered butter, ghee** | Use the maker's date | → 04-12 |
 | **Hard cheese, wax-sealed** | Months | Keeps without a fridge surprisingly well |
 | **Powdered cheese, powdered buttermilk** | Years | Flavour for plain food |
 
@@ -123,7 +126,7 @@ If anyone in the house has a food allergy (→ 02-04):
 | Item | Why | Notes |
 |---|---|---|
 | **Nonfat dry milk (bulk)** | Decades of storage | Repackage as on → 04-03 |
-| **Whole-milk powder and/or UHT whole milk** | For children 12 to 23 months | Rotate (2 to 5 years; 6 to 12 months); label it |
+| **Whole-milk powder and/or UHT whole milk** | For children 12 to 23 months | Rotate by the package date; label it |
 | **Infant formula** (if there is a baby under 12 months) | The only safe substitute for breast milk | → 02-13, → 20-05; mind the use-by date |
 | Evaporated and condensed milk (cans) | Ready to use; morale | Rotate |
 | Shelf-stable boxed milk | Closest to fresh | Short life: rotate hard |

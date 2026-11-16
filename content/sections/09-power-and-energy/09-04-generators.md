@@ -2,7 +2,7 @@
 id: 09-04-generators
 section: 09-power-and-energy
 title: "Generators: fuel, siting, carbon monoxide and backfeed"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -11,10 +11,18 @@ tags: [power, generator, carbon monoxide, fuel, backfeed, transfer switch, inter
 derived_from: [09-04-generators]
 sources:
   - us-consumer-product-safety-commission-cpsc-what-to-k-3390a4
+  - cpsc-safety-alert-portable-generator-hazards-r8
+  - cpsc-carbon-monoxide-information-center
   - cdc-carbon-monoxide-poisoning-basics-772153
   - american-red-cross-power-outage-safety-6d07a8
-  - us-department-of-energy-consumer-guide-to-residentia-1d87da
-  - osha-electrical-safety-and-health-topics-a7a68f
+  - osha-quickcard-portable-generator-safety
+  - osha-29-cfr-1910-333-r14
+  - honda-eu2200i-owners-manual
+  - honda-eu-generator-fuel-recommendations
+  - generac-gp3500io-owners-manual
+  - southwire-spec-10028-nm-b-r14
+  - southwire-spec-70065-sjeoow-r14
+  - hubbell-nema-configuration-chart-r14
 related:
   - 09-03-batteries-and-storage
   - 09-08-wiring-and-safety
@@ -48,7 +56,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Backfeed floor reworded as 30-01; DC-07 write-up re-sourced (OSHA 1910.333 verify-dead, NEC 240.4(D) via Southwire, NEMA via Hubbell, cord ampacity via Southwire), grounding/strain relief added; motor start 3x (Generac); fuel months-not-years (Honda)" }
 ---
 
 # Generators: fuel, siting, carbon monoxide and backfeed
@@ -63,24 +71,29 @@ carbon monoxide on → 29-03, the breaker panel and transfer switches on → 29-
 >
 > **1. Carbon monoxide.** **Never run a generator, charcoal, or any engine indoors, in a garage,
 > or near an open window.** Carbon monoxide kills in minutes with no warning; alarms fail; there
-> is no mitigation that works every time (→ 30-01). One portable generator can produce as much
-> carbon monoxide as hundreds of cars, and more than 80 people die in the US every year from
-> carbon monoxide from portable generators (CPSC, Portable Generator Safety). Opening a door or
-> window does **not** make an enclosed space safe. Run it **outdoors only, at least 20 feet from
-> the house**, exhaust pointed away from your home and anyone else's (CPSC; CDC, Carbon Monoxide
-> Poisoning: Basics). Battery-powered carbon monoxide alarms on every level and outside sleeping
-> areas (→ 08-02). Some newer generators have a carbon monoxide shutoff; many do not, and **a
-> generator without one runs happily while it poisons a room.** Only distance protects you.
+> is no mitigation that works every time (→ 30-01). One portable generator makes as much carbon
+> monoxide as hundreds of cars (CPSC, Carbon Monoxide Information Center), and more than 80
+> people die in the US every year from carbon monoxide from portable generators (CPSC, What to
+> Know About Generators and Carbon Monoxide). Opening a door or window does **not** make an
+> enclosed space safe. Run it **outdoors only, at least 20 feet from the house**, exhaust pointed
+> away from your home and other buildings (CPSC; CDC, Carbon Monoxide Poisoning: Basics).
+> Battery-powered carbon monoxide alarms on every level and outside sleeping areas (CPSC;
+> → 08-02). Some generators shut themselves off when carbon monoxide builds up, and CPSC advises
+> asking for that feature; many do not have it, and **a generator without one runs happily while
+> it poisons a room.** Only distance protects you.
 >
-> **2. Backfeed.** **Never connect a generator to house wiring without a transfer switch,
-> interlock, or a cord-and-plug conversion with the main breaker locked off. Never backfeed
-> through an outlet.** Backfeed electrocutes line workers and neighbours, and causes fires
-> (→ 30-01). Plugging a generator into a wall outlet with a two-male-ended cord pushes power
-> backward through your service onto the street lines.
+> **2. Backfeed.** **Never connect a generator to house wiring except through a transfer switch,
+> or an interlock kit with the main breaker off. Never backfeed through an outlet with a
+> double-male ("suicide") cord.** Backfeed electrocutes line workers and neighbours served by the
+> same transformer, and the generator can burn or start a fire when grid power returns (→ 30-01;
+> CPSC, Portable Generator Hazards; Honda, EU2200i Owner's Manual). A cord-and-plug conversion is
+> not a connection to house wiring: the appliance is unplugged from the house outlet and plugged
+> into the generator cord, so nothing reaches the panel (whether to do that conversion yourself
+> is DC-07, → 30-08).
 >
 > **3. Fuel.** **Fuel is never stored or transferred near an open flame or a running appliance**
-> (vapour ignition, → 30-01). Never refuel a running or hot generator; spilled gasoline on a hot
-> engine ignites. Let it cool.
+> (vapour ignition, → 30-01). Turn the generator off and let it cool before refuelling: gasoline
+> spilled on hot engine parts can ignite (CPSC, Portable Generator Hazards).
 
 ## Do this now
 - **Install carbon monoxide alarms now, before you own a generator.** Battery-powered, every
@@ -88,7 +101,8 @@ carbon monoxide on → 29-03, the breaker panel and transfer switches on → 29-
   this page.
 - **Choose the generator's exact outdoor spot today** and mark it: 20 feet or more from the house,
   exhaust aimed away from your house and the neighbours', not under a deck or overhang, on a dry,
-  level, solid surface, sheltered from snow but open to air. {{photo generator-spot}}
+  level, solid surface, under an open, canopy-like cover at most, where water cannot reach or
+  pool under it (CPSC, Portable Generator Hazards). {{photo generator-spot}}
   {{figure fig-generator-siting}}
 - **Decide how the generator will reach anything in the house** (section below): extension cords
   only, a transfer switch or interlock fitted by an electrician, or a cord-and-plug conversion.
@@ -130,12 +144,13 @@ an emergency, by someone who has never done it.** If it has to, follow this in o
 it upright.** Fuel and oil go in **outdoors, at the spot**, never in the garage. If it has been
 sitting in deep cold, below its rated operating temperature, warm it first.
 
-**Step 2: oil first. Nothing else until this is done.** Many generators ship **without oil**, and
-starting one dry destroys the engine. On level ground, open the oil cover, pull the dipstick, and
-pour the **4-stroke engine oil** grade your manual names (never 2-stroke oil) slowly, checking the
-dipstick as you go. Small engines hold very little. **Stop between the marks; do not overfill.**
-If oil has sat in it for years, change it anyway: oil absorbs moisture. A **low-oil shutdown** that
-stops the engine means it was already running low.
+**Step 2: oil first. Nothing else until this is done.** Many generators ship **without oil** (Honda
+says so in capitals in its EU2200i manual), and starting one dry destroys the engine. On level
+ground, open the oil cover, pull the dipstick, and pour the **4-stroke engine oil** grade your
+manual names (never 2-stroke oil) slowly, checking the dipstick as you go. Small engines hold very
+little. **Stop between the marks; do not overfill.** If oil has sat in it for years, change it
+anyway. A **low-oil shutdown** that stops the engine means it was already running low: it is
+there to stop the engine before damage, not to tell you the level (Honda).
 
 **Step 3: battery (electric start).** On a new machine the battery plug may be held apart with a
 tie: cut it and push the plugs together. A battery stored for years is probably flat. Charge it
@@ -147,8 +162,8 @@ there is no charge, **plan on the pull cord, in gloves.**
 generator**, not a heater's hose.
 1. Generator off. **Cylinder upright, valve on top, on the ground, on a flat surface, away from the
    exhaust side.**
-2. Cylinder valve **fully closed** (turn clockwise). The cylinder needs an **OPD valve** (a
-   triangle-shaped handwheel) and an **in-date requalification stamp** on the collar.
+2. Cylinder valve **fully closed** (turn clockwise). The cylinder needs an **in-date
+   requalification date** on its collar or foot ring (how to read it: → 29-14).
 3. Thread the hose on by hand, then snug it as the manual says. **Do not over-tighten.** Unless the
    manual says otherwise, no thread tape or sealant.
 4. Open the cylinder valve. **Leak test:** brush **soapy water** on every joint. Bubbles that
@@ -161,26 +176,33 @@ generator**, not a heater's hose.
   cylinder valve open, start as the manual says (button, remote or pull cord: pull slowly until you
   feel resistance, then fast). Wait for the ready light. A little roughness at first is normal.
 - **Gasoline:** engine off and cool. **Read the can's label before you pour** (→ 29-01): colour
-  is not proof of what is inside. Fresh gasoline only, the octane and ethanol your manual allows;
-  most small-engine manuals forbid E15 and E85 and fuel-oil mix. Pour slowly to the fill mark, do
-  not overfill, cap on, wipe spills and let them dry before starting.
+  is not proof of what is inside. Fresh gasoline only, the octane and ethanol your manual allows
+  (Honda, for example, forbids fuel with more than 10% ethanol in its generators; Honda, Fuel
+  Recommendations). Pour slowly to the fill mark, do not overfill, cap on, wipe spills and let
+  them dry before starting.
 
-**Step 6: break-in.** Follow the manual: usually a light, varied load for the first few hours and an
-early first oil change. A power station on a slow charge setting is a good break-in load.
+**Step 6: break-in.** Follow the manual: usually a light, varied load at first and an early first
+oil change (Honda's EU2200i schedule puts the first oil change at 20 hours). A power station on a
+slow charge setting is a good break-in load.
 
 **Step 7: connect loads with extension cords only** (unless a transfer switch, interlock or
-cord-and-plug conversion exists, below). Outdoor-rated, grounded three-prong, heavy enough for the
-load (12 AWG for 15 to 20 A runs, → 09-08), fully unrolled. **Biggest load first, one at a time.**
-**Never plug a cord into a house outlet.** Do not prop a door or window open for the cord:
-openings let exhaust in.
+cord-and-plug conversion exists, below). Heavy-duty cords made for outdoor use, with all three
+prongs, undamaged, and rated for more watts than everything plugged into them (CPSC, Portable
+Generator Hazards; OSHA, Portable Generator Safety). A cord's amps are printed on its jacket or
+tag; a three-conductor 12 AWG cord is rated 20 A and a 14 AWG cord 15 A (Southwire, cord
+specification, from the National Electrical Code's flexible-cord table). Unroll the cord fully.
+**Biggest load first, one at a time.** **Never plug a cord into a house outlet.** Do not prop a
+door or window open for the cord: openings let exhaust in; protect the cord where it passes a
+door so it is not pinched (CPSC).
 - **Medical devices run from a power station or battery that the generator charges, not straight
-  from the generator.** Many generator manuals say this too.
-- **Charging a power station:** a station's fast AC charge can draw close to 20 A. Divide its AC
-  charging watts by 120 to get amps. Keep that well under the generator outlet's breaker rating and
-  under the cord's and plug's rating (ordinary household plugs and cords are 15 A). If the station
-  has a slower "standard" charge setting, use it from an ordinary outlet. Faster rates need the
-  generator's larger outlet with the matching heavy cord and adapter, or they trip the breaker and
-  heat the plug.
+  from the generator.** Generator makers say the same: Generac's GP3500iO manual, for one, says it
+  is not intended for critical life support.
+- **Charging a power station:** amps = the station's AC charging watts ÷ 120 (1,200 W is 10 A;
+  1,800 W is 15 A). Keep that under the generator outlet's breaker rating and under the cord's and
+  plug's rating (an ordinary NEMA 5-15 household plug is rated 15 A; Hubbell, NEMA configuration
+  chart). If the station has a slower "standard" charge setting, use it from an ordinary outlet.
+  Faster rates need the generator's larger outlet with the matching heavy cord and adapter, or they
+  trip the breaker and heat the plug.
 - **Overload light?** Unplug everything, reset, reconnect fewer loads.
 
 **Step 8: shut down in the manual's order.** Usually: unplug loads, let it run a few minutes with
@@ -201,31 +223,36 @@ off and live from the batteries.** A generator burns a lot of fuel even lightly 
 one for a couple of lights is the worst use of it. Charge the bank, run the well pump, pull the
 freezer down, do the laundry, then off.
 
-**Generator types:**
+**Generator types** (sizes and specs for common models: → 28-03):
 
 | Type | Output | Notes |
 |---|---|---|
-| **Inverter generator** (mostly 1 to 3 kW, some larger) | Clean pure-sine power, quieter, sips fuel at low load | Best fit for battery charging and electronics |
-| Conventional portable (3 to 8 kW) | Cheap watts, loud, rougher power | Fine for tools and pumps; questionable for sensitive electronics |
+| **Inverter generator** | Clean pure-sine power, quieter, sips fuel at low load | Best fit for battery charging and electronics |
+| Conventional portable | Cheap watts, loud, rougher power | Fine for tools and pumps; questionable for sensitive electronics |
 | Dual- or tri-fuel | Gasoline, propane, sometimes natural gas | **Propane stores for years without going stale** |
 | Standby (whole-house, natural gas) | Automatic, powerful | Depends on the gas utility still flowing |
 
 **Fuel is the real limit** (→ 29-01, → 06-06):
-- **Gasoline** goes stale. Untreated it may be questionable in a few months; **stabilised and
-  sealed, roughly a year or more** (check the stabiliser's own instructions). Ethanol-free stores
-  better. It is volatile and dangerous to store in quantity. Old fuel in an engine is a decision
-  card: {{choice DC-17}} (→ 30-18).
-- **Propane** effectively **does not go bad** and stores safely in steel cylinders outdoors.
-- **Diesel** stores longer than gasoline but gels in hard cold without treatment.
+- **Gasoline** goes stale: **months, not years.** Stabiliser added when the fuel is fresh slows
+  this, but it has its own shelf life and cannot fix fuel that has already gone off; Honda's advice
+  is to drain the carburettor of a generator run less than once a month, and to put stabilised
+  fuel that has sat a year in a can into a car instead (Honda, Fuel Recommendations; → 29-01). It
+  is volatile and dangerous to store in quantity. Old fuel in an engine is a decision card:
+  {{choice DC-17}} (→ 30-18).
+- **Propane** does not go stale in a sealed cylinder; the cylinder itself has a requalification
+  date (→ 29-01, → 29-14). Store cylinders outdoors.
+- **Diesel:** follow the generator's manual for storage and winter fuel (→ 29-01).
 - **Do the arithmetic honestly.** Run hours = fuel on hand ÷ fuel per hour at your usual load (the
   manual gives fuel use). Even a lot of stored fuel is **weeks of intermittent use, not months.**
   Build the plan on solar and batteries; use the generator to cover gaps.
 
-**Sizing.** Match the generator to the largest thing you must start (motors surge 3 to 5 times
-their running watts), not your average load.
+**Sizing.** Match the generator to the largest thing you must start, not your average load. A
+motor needs a burst of extra power to start: Generac's manual says to allow about 3 times the
+listed running watts for starting motor loads such as a refrigerator or a pump (Generac, GP3500iO
+Owner's Manual).
 
 **The duty cycle that multiplies fuel:** run it about as long as it takes to refill the station or
-bank (often under an hour at the station's standard rate), then shut it down. Do not charge a
+bank (the station's manual gives the charge time at each rate), then shut it down. Do not charge a
 station at its fastest rate and run another large load at the same time if together they approach
 the generator's running watts.
 
@@ -252,56 +279,85 @@ an electrician. Our connection: **{{ gear.house_connection }}**.
 ### If you choose the cord-and-plug conversion yourself (DC-07)
 
 **The trade-off in one sentence:** a cord-and-plug furnace or pump is a hard-wired appliance made
-unpluggable, and a wrong plug, a backfeed or a cord with two male ends can energise house wiring or
-a person; doing it yourself instead of hiring an electrician accepts the risk of a wiring mistake.
-Read the card first: {{choice DC-07}} (→ 30-08). If you chose an electrician, give them this
-write-up. If you chose to do it yourself, every step below is part of the choice. {{figure fig-cord-and-plug-conversion}}
+unpluggable; the risk is the wiring work itself (a live wire while you work, a missing ground, a
+loose terminal, a plug or cord too small, no strain relief), and doing it yourself instead of hiring
+an electrician accepts that risk. Backfeeding is never part of it. Read the card first:
+{{choice DC-07}} (→ 30-08). If you chose an electrician, give them this write-up. If you chose to do
+it yourself, every step below is part of the choice. {{figure fig-cord-and-plug-conversion}}
 
 **The conversion, in order:**
-1. **Power off and locked.** Switch the **main breaker off and lock or tape it**, and switch off the
-   appliance's own breaker and tape it. **Verify dead at the appliance with a non-contact tester AND
-   a meter** (black probe to ground, red to the hot conductor: 0 V). The gas supply to a furnace can
-   stay as it is: this is electrical work only.
+1. **Power off and verified dead.** Find the appliance's own breaker (a well pump on 240 V has a
+   two-handle breaker). Switch it off, tape or lock it off, and hang a note on the panel. If you are
+   not certain it is the right breaker, switch the **main breaker** off too. A service switch on the
+   furnace cabinet is not enough on its own. **Then prove it dead where you will work:** check your
+   meter on a known live outlet, test at the box hot to neutral, hot to ground and neutral to
+   ground (every reading 0 V, or stop), then check the meter on the live outlet again. A
+   non-contact tester is a second check, not a replacement for the meter. OSHA's rule for anyone
+   working on electrical parts is the same: test them and verify they are de-energised before
+   touching them, including for power arriving from an unexpected source (OSHA, 29 CFR 1910.333).
+   The gas supply to a furnace can stay as it is: this is electrical work only.
 2. **Find the appliance's disconnect or junction box.** Usually a switch in a box on or beside the
    furnace cabinet, or a junction box where the house cable enters.
-3. **Match the circuit.** Read the breaker and the cable. A 15 A circuit (commonly 14 AWG copper)
-   gets 15 A parts (NEMA 5-15) and 14 AWG cord; a 20 A circuit (12 AWG) gets 20 A parts (NEMA 5-20)
-   and 12 AWG cord. **If the appliance is 240 V (many well pumps), the plug, receptacle, cord and the
-   generator outlet must all be 240 V; if you are unsure, stop and call an electrician.**
-4. **Give the appliance a plug. Either:**
+3. **Read the circuit.** The breaker's amps and the house cable's size go together: 14 AWG copper
+   is protected at 15 A and 12 AWG copper at 20 A (National Electrical Code 240.4(D), as printed in
+   Southwire's NM-B cable specification). Read the appliance's nameplate amps and volts too.
+4. **Choose parts rated for the circuit,** never smaller:
+   - **15 A, 120 V circuit:** NEMA 5-15 plug and receptacle (rated 15 A, 125 V) and a
+     three-conductor flexible cord of 14 AWG or heavier.
+   - **20 A, 120 V circuit:** NEMA 5-20 plug and receptacle (rated 20 A, 125 V) and a
+     three-conductor cord of 12 AWG or heavier.
+   - **240 V appliance (many well pumps):** NEMA 6-series (250 V) parts of the circuit's amps, a
+     cord rated for it, and a generator with a 240 V outlet. **If you are unsure, stop and call an
+     electrician.**
+
+   (Plug ratings: Hubbell, NEMA configuration chart. Cord ratings: a three-conductor 14 AWG
+   flexible cord is rated 15 A and a 12 AWG cord 20 A; Southwire, cord specification, from the
+   National Electrical Code's flexible-cord ampacity table. Use hard-usage cord such as type SJOOW.)
+5. **Give the appliance a plug. Either:**
    - **(A) a male flanged inlet** of the right rating, mounted in a knockout on the cabinet or the
      disconnect box and wired to the appliance's hot, neutral and ground; the appliance is then fed
      by a cord with a female end; **or**
-   - **(B) a cord with a male plug**, three-conductor SJ or SJT of the right gauge, entering the
-     junction box through a strain relief and wired to the appliance's hot, neutral and ground.
-5. **End the old hard-wired circuit in a receptacle.** The house cable that used to enter the
-   appliance now ends in a receptacle box of the same rating, within cord reach. **The appliance's
-   neutral and ground travel with its cord;** nothing is left floating or re-bonded.
-6. **Normal use: the appliance plugs into that wall receptacle.** Breakers back on, test through a
-   full cycle.
-7. **Never a cord with two male ends. Never a connection into any house wiring** (no dryer-plug
+   - **(B) a cord with a male plug**, entering the junction box through a **strain-relief cord
+     connector** tightened on the cord's outer jacket, so a pull on the cord never pulls on the
+     terminals, and wired to the appliance's hot, neutral and ground.
+6. **Wire it the same way at every end.** Black (hot) to the brass screw, white (neutral) to the
+   silver screw, **green or bare (ground) to the green screw and to the appliance's grounding
+   point.** **The ground is never left off:** no two-prong plug, no cut-off ground pin, no
+   three-to-two adapter. A missing ground makes the cabinet live when a fault happens later.
+7. **End the old hard-wired circuit in a receptacle.** The house cable that used to enter the
+   appliance now ends in a receptacle of the same rating, in a box fastened in place, the cable
+   clamped where it enters, within cord reach. **The appliance's neutral and ground travel with its
+   cord;** nothing is left floating or re-bonded.
+8. **Normal use: the appliance plugs into that wall receptacle.** Breakers back on; run it through
+   a full cycle; afterwards feel the plug and receptacle: warm means a loose or undersized part
+   (→ 09-08).
+9. **Never a cord with two male ends. Never a connection into any house wiring** (no dryer-plug
    cords, no outlet-to-outlet cords). The only cord that touches the appliance has one male end and
    one female end.
-8. **Label the plug** ("FURNACE: generator or station in an outage") and label the receptacle.
-9. **Check the start surge before trusting a generator or station.** A blower or pump motor draws
-   about **two to three times its running watts** for a moment at start. From the motor plate or
-   cabinet label: running ______ W × 3 = ______ W surge. Compare with the generator's running watts
-   ({{ gear.generator_watts }} W) and each station's continuous and surge figures (→ 09-03). Newer
-   variable-speed blowers start softly; older motors surge hardest.
-10. **Test it before you need it:** once on the generator (outdoors, 20+ ft), once on a station.
+10. **Label the plug** ("FURNACE: generator or station in an outage") and label the receptacle.
+11. **Check the start surge before trusting a generator or station.** A blower or pump motor needs a
+    burst of extra power for a moment at start; Generac's rule is to allow about 3 times the running
+    watts. From the motor plate or cabinet label: running ______ W × 3 = ______ W at start. Compare
+    with the generator's starting and running watts ({{ gear.generator_watts }} W running) and each
+    station's continuous and surge figures (→ 09-03).
+12. **Test it before you need it:** once on the generator (outdoors, 20+ ft), once on a station.
     Let the blower start and run a full cycle; watch for an overload light. Date it on the label:
     conversion done ☐ · tested on generator ☐ ______ · tested on station ☐ ______.
     {{photo furnace-plug}}
 
 **Using it in an outage:**
 1. Generator outdoors, 20+ ft, running and steady; carbon monoxide alarms on inside.
-2. **Main breaker off and locked or taped**, and the appliance's breaker off.
+2. **Main breaker off, locked or taped**, as the figure shows. This is a second habit, not what makes the
+   method safe: what keeps generator power out of the house wiring is that the appliance is
+   unplugged from it (→ 30-08). With the main off, the house's appliances are also spared the surge
+   when grid power returns (the Red Cross advises unplugging them for that reason).
 3. Unplug the appliance from its wall receptacle. Plug it into the extension cord from the
-   generator (or the station). Nothing else changes.
+   generator (or the station): one male end, one female end, rated for the appliance. Nothing else
+   changes.
 4. **A gas furnace also needs gas.** If the gas supply has stopped, the furnace gives no heat
    (→ 08-04).
 5. **When the grid returns:** unplug the appliance from the generator cord, plug it back into its
-   wall receptacle, then turn the breakers back on.
+   wall receptacle, then turn the main breaker back on.
 
 ## Cold weather and propane
 
@@ -341,7 +397,7 @@ Keep the starting battery charged and know the pull cord in gloves.
 [ ] BATTERY (electric start): probably flat; plan to replace it (09-14).
 [ ] DUAL-FUEL? First start on PROPANE: nothing goes stale, nothing varnishes.
 [ ] FIRST RUN OUTDOORS, 20+ ft, exhaust away, CO alarms already installed.
-    Then ONE load within the break-in limit for 20-30 minutes, not a bare idle.
+    Then ONE load within the break-in limit until it is fully warm, not a bare idle.
 [ ] Only then plug in anything you care about.
 [ ] WRITE the date and run hours on a label on the machine.
 ```
@@ -371,7 +427,7 @@ toward an enclosed space: carbon monoxide kills faster than anything else here.
 |---|---|---|
 | **Battery-powered carbon monoxide alarms**, every level and outside bedrooms | The real life-saver on this page | Buy before the generator; test monthly |
 | Generator suited to charging batteries | Inverter type preferred | Specs by class: → 28-03 |
-| Heavy outdoor extension cords (12 AWG, 50 to 100 ft) | Lets you site it 20+ ft away and still reach | Undersized cords overheat (→ 09-08) |
+| Heavy outdoor extension cords (12 AWG, 50 to 100 ft) | Lets you site it 20+ ft away and still reach | Rated 20 A (Southwire); undersized cords overheat (→ 09-08) |
 | Transfer switch or interlock (electrician), or cord-and-plug conversion parts | The only safe ways to run a hard-wired appliance | Decision card DC-07 (→ 30-08) |
 | Propane cylinders and the generator's own hose and regulator | Fuel that does not go stale | Stored outdoors, upright (→ 06-06) |
 | Stabilised gasoline in approved cans, labelled with fill date | Second fuel, shared with vehicles | → 06-06, → 09-15 |

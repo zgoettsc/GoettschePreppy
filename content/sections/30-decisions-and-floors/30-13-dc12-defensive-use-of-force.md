@@ -24,7 +24,7 @@ options:
     label: "Write our own rule"
     summary: "The adults read this page together and write the household's use-of-force rule in their own words on the worksheet, sign and date it, and rehearse it."
 settings_summary: "This card has no multiple choice. Every household that keeps any means of defence, firearm or not, needs a rule written in calm advance about when force may be used against another person. Without courts or police, nobody else will draw that line. The traditional tests are: the threat is happening now; nothing less will stop it; the force matches the threat; and a calm person would see it the same way. Mistakes cannot be undone: a bullet passes through walls into neighbours' homes, people are shot by family members who misidentified them in the dark, and with no surgeon any wound may be fatal. The neighbourhood remembers. Read the page, then write the rule in your own words on the worksheet."
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Through-wall line no longer attributed to NSSF; CDC child-trauma line quoted from the live page; Stop the Bleed key moved to USUHS." }
 ---
 
 # DC-12. Defensive use of force: our household rule

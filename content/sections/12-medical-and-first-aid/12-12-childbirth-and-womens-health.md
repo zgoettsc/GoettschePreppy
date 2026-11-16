@@ -62,24 +62,26 @@ feeding is → 02-13; contraception and menstrual health is → 02-25.
 
 ## Urgent maternal warning signs (CDC, Hear Her)
 
-During pregnancy and in the year after birth, any of these needs care at once:
-- Severe headache that will not go away or gets worse
+During pregnancy and in the year after delivery, CDC says to seek care immediately for any of
+these:
+- A headache that will not go away or gets worse over time
 - Dizziness or fainting
 - Changes in vision
-- Fever
+- Fever of 100.4 °F (38 °C) or higher
+- Extreme swelling of the hands or face
+- Thoughts about harming yourself or your baby
 - Trouble breathing
 - Chest pain or a fast-beating heart
-- Severe belly pain that will not go away
-- Severe nausea and vomiting
-- Baby's movements stopping or slowing during pregnancy
+- Severe nausea and throwing up
+- Severe belly pain that does not go away
+- Baby's movement stopping or slowing during pregnancy
 - Vaginal bleeding or fluid leaking during pregnancy
-- Heavy bleeding or fluid leaking after pregnancy
-- Swelling, redness or pain in a leg
-- Very bad swelling of the hands or face
+- Vaginal bleeding or discharge after pregnancy (heavy bleeding means soaking through one or more
+  pads in an hour)
+- Severe swelling, redness or pain of a leg or arm
 - Overwhelming tiredness
-- Thoughts of harming yourself or the baby
-- **"Something just doesn't feel right."** That is on the CDC's list because it matters. **Take
-  it seriously when she says it.**
+- **If something just isn't right**, CDC says to talk to a health care provider. **Take it
+  seriously when she says it.**
 
 If any care exists, go. If not, → 12-16.
 
@@ -139,9 +141,12 @@ else is backup.
 
 ## The realistic risks of an unattended birth
 
-Stated plainly so the planning is honest (WHO, Maternal Health):
-- **Heavy bleeding after birth (postpartum haemorrhage)**: the leading cause of mothers' deaths
-  worldwide. Managing it takes medicines and skills a household does not have.
+Stated plainly so the planning is honest (WHO, Maternal mortality fact sheet; WHO, Maternal
+Health):
+- **Heavy bleeding after birth (postpartum haemorrhage)**: WHO lists severe bleeding, mostly
+  after childbirth, first among the complications behind about three quarters of mothers'
+  deaths, and says it "can kill a healthy woman within hours if she is unattended." Managing it
+  takes medicines and skills a household does not have.
 - **Labour that cannot progress (obstructed labour)**: needs surgery. There is no home answer.
 - **Infection** of the mother or the newborn (→ 12-04).
 - **Newborn problems**: trouble breathing at birth, being born early, getting cold. A newborn

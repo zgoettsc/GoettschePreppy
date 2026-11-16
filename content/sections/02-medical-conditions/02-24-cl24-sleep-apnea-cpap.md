@@ -12,6 +12,8 @@ derived_from: [09-06-charging-medical-devices, 12-11-chronic-conditions]
 sources:
   - nhlbi-sleep-apnea
   - nhlbi-cpap
+  - nhlbi-sleep-apnea-treatment-r11
+  - nhlbi-sleep-apnea-living-with-r11
   - cdc-about-sleep-1bf86b
   - cdc-carbon-monoxide-poisoning-basics-772153
   - american-red-cross-power-outage-safety-6d07a8
@@ -73,15 +75,17 @@ power budget, running the machine off-grid, what happens without it, and what el
 >   a CPAP, while everyone sleeps, is the classic case (floor, → 30-01; CDC, Carbon Monoxide
 >   Poisoning: Basics).
 > - **Do not drive or run dangerous tools while very sleepy.** Drowsy driving kills (part 5).
-> - **Alcohol and sleeping pills make apnoea worse** (NHLBI, Sleep Apnea).
+> - **Go easy on alcohol and sedating medicines.** NHLBI advises limiting alcohol, and notes that
+>   pain medicine and medicine that makes you sleep can make it harder to keep the airway open
+>   (NHLBI, Sleep Apnea).
 
 ## Do this now
 
 **Power is out tonight:**
-1. **Run the CPAP from a battery or power station, humidifier off** (part 9). The heated
-   humidifier is usually the biggest power user; the manual says how much.
-2. **No power at all:** sleep on the side, head and chest raised on pillows, no alcohol or
-   sedatives (part 4).
+1. **Run the CPAP from a battery or power station, humidifier and heated tube off** (part 9).
+   Heating uses a large share of the power; the manual says how much.
+2. **No power at all:** sleep on the side, not the back (NHLBI), and no alcohol or sedatives
+   unless the prescriber has said they are safe (part 4).
 3. **Generator:** outdoors only, at least 20 feet from windows and doors, exhaust pointed away,
    CO alarms inside (CDC; → 09-04).
 4. **Next day:** no driving if sleepy; nap when you can.
@@ -114,20 +118,23 @@ device or have had surgery instead; they need no power.
 ## 4. Day by day without it
 
 What public sources describe: without treatment, breathing pauses return, sleep is broken, and
-daytime sleepiness builds. NHLBI lists daytime sleepiness, trouble concentrating, morning
-headaches and irritability, and warns that untreated sleep apnoea raises the risk of accidents
-(NHLBI, Sleep Apnea). **One night** is usually just a bad night. **Several nights to weeks:** the
+daytime sleepiness builds. NHLBI lists daytime sleepiness and tiredness with trouble focusing
+and reacting, and headache; it says untreated sleep apnoea causes problems with concentrating,
+remembering, making decisions and controlling behaviour, and can cause road accidents: do not
+drive when tired or sleepy (NHLBI, Sleep Apnea). **One night** is usually just a bad night. **Several nights to weeks:** the
 sleepiness and poor judgement become a real hazard. Over months: blood pressure and heart strain
 (→ 02-09).
 
-**What helps without CPAP** (NHLBI, Sleep Apnea; CDC, About Sleep):
-- **Sleep on the side,** not the back; a rolled towel or a backpack worn in bed stops rolling over.
-- **Raise the head and chest** with pillows or blocks under the head of the bed.
-- **No alcohol and no sedating medicines** at night unless the prescriber has said they are
-  safe; they relax the throat further. If the person takes opioids or sedating mental-health
+**What helps without CPAP:**
+- **Sleep on the side,** not the back: NHLBI says this can help keep the airway open (NHLBI,
+  Sleep Apnea). A rolled towel or a backpack worn in bed stops rolling over.
+- **Some people find a raised head and chest helps;** ask the sleep doctor now (part 7).
+- **Limit alcohol and avoid sedating medicines** at night unless the prescriber has said they are
+  safe (NHLBI). If the person takes opioids or sedating mental-health
   medicines, see → 02-17 and → 02-16.
 - **A regular sleep time,** a dark, quiet, cool room, and naps by day if possible (→ 21-07).
-- **Weight loss** helps many people over months (→ 02-26).
+- **A healthy weight** is part of NHLBI's lifestyle advice for sleep apnoea, over months, not
+  nights (→ 02-26).
 
 ## 5. Warning signs that mean an emergency
 
@@ -190,14 +197,18 @@ meter test, not from this page.
 - **Another person's CPAP** can be borrowed only if it is cleaned well and its pressure is right
   for this person; pressure settings are prescribed. That is the same trade-off as someone else's
   prescription: {{choice DC-15}} (→ 30-16).
-- **Distilled water** can be replaced by running the humidifier dry (off). Do not use tap or
-  untreated water in the tank; it leaves minerals and can grow germs.
+- **Humidifier water:** use the water the machine's manual names. With none, run the machine
+  with the humidifier off rather than filling the tank with water the manual does not allow.
 
 ## 9. Power and devices
 
 - **CPAP is a medical load on the household power plan** (→ 09-01, → 09-06, → 09-10). Put it on
-  the list with its nightly watt-hours.
-- **Humidifier off** reduces power use the most; the heated tube too, if fitted.
+  the list with its nightly watt-hours. Until you have measured your own machine, Section 09
+  plans with a placeholder of 30 to 60 W and 200 to 400 Wh a night for a CPAP-class device
+  (→ 09-01, → 09-06). That is a planning figure, not a measurement: your label and a one-night
+  test replace it.
+- **Humidifier off,** and the heated tube too if fitted, cuts the power used; the manual or a
+  plug-in meter shows by how much.
 - **A DC cable from the maker** runs the machine straight from a 12-volt source without the
   losses of an inverter (→ 29-02). Use only the maker's cable or one the supplier approves.
 - **Power stations:** charge by day from solar, car or generator; run the CPAP at night
@@ -209,9 +220,10 @@ meter test, not from this page.
 ## 10. Travel and evacuation
 
 - The machine, mask, tubing, power supply and DC cable go with the person (→ 01-07, → 22-06).
-  Shelters may have power outlets; ask for a spot near one (American Red Cross, Power Outage
-  Safety).
-- On the road: side-sleeping and a raised head if the CPAP cannot run.
+  The American Red Cross advises planning now how and when to evacuate with a power-dependent
+  medical device, with the device provider (American Red Cross, Power Outage Safety). At a
+  shelter, tell staff the machine needs power.
+- On the road: side-sleeping if the CPAP cannot run.
 - **Driver rota:** the person with untreated apnoea drives short legs only, and never while sleepy.
 
 ## 11. Decision cards that apply

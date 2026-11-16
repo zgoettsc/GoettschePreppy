@@ -29,7 +29,7 @@ options:
     label: "Inspect and eat, with the rules for each case"
     summary: "Shelf-stable food past its quality date is eaten if the package is intact and it looks and smells normal; cans with a small dent and sound seams are eaten; thawed food still holding ice crystals or at 40 °F or below is cooked or refrozen; bulging, leaking or spurting cans are still discarded."
 settings_summary: "In a long emergency a household will have food past its printed date, dented or rusty cans, and fridges and freezers that have warmed. USDA says dates mark quality, not safety, except on infant formula, and its chart gives canned food 12 months to 5 years on the shelf. The dangers are a can whose seal has failed, which can carry botulism, a toxin that paralyses and does not show by look or smell, and perishable food held warm, which grows bacteria that cause severe vomiting and diarrhoea. USDA says discard perishables above 40 °F for 2 hours or more. What helps most: rotate stock and check fridge and freezer with a thermometer (removes much of it); inspect every can and package, discard any bulging, leaking or spurting can (floor), and cook thoroughly (reduces it a lot)."
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "FSIS shelf-stable re-cited to the 2014 GovInfo fact sheet (fsis.usda.gov 403); unsupported 90 F/indefinite removed; CDC botulism signs and boil times from live CDC pages." }
 ---
 
 # DC-14. Food past its date, dented or rusted cans, or food from a failed freezer

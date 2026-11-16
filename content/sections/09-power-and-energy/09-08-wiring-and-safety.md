@@ -2,7 +2,7 @@
 id: 09-08-wiring-and-safety
 section: 09-power-and-energy
 title: "12 V wiring, fusing and electrical safety"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -10,10 +10,12 @@ phase: [A, C]
 tags: [power, wiring, fuses, 12v, dc, wire gauge, extension cords, safety, fire, electrical]
 derived_from: [09-08-wiring-and-safety]
 sources:
-  - us-department-of-energy-solar-energy-technologies-of-2a534a
-  - us-department-of-energy-consumer-guide-to-residentia-1d87da
-  - nfpa-national-fire-protection-association-lithium-io-0c7d64
-  - us-consumer-product-safety-commission-cpsc-what-to-k-3390a4
+  - victron-wiring-unlimited-r14
+  - victron-awg-metric-chart-r14
+  - trojan-users-guide-r14
+  - renogy-rsp200d-g3-datasheet
+  - cpsc-safety-alert-portable-generator-hazards-r8
+  - osha-quickcard-portable-generator-safety
   - osha-electrical-safety-and-health-topics-a7a68f
 related:
   - 09-02-solar-basics
@@ -39,7 +41,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Backfeed floor as 30-01; wire table recomputed for 2.5% drop (Victron) within NEC copper ampacity (Trojan); fusing rules re-sourced to Victron and panel datasheet; unsourced 7-inch rule and 'most common cause' removed" }
 ---
 
 # 12 V wiring, fusing and electrical safety
@@ -50,18 +52,21 @@ extension cords). Read it before you cut a single wire. Volts and amps are expla
 the house panel and breakers on → 29-04.
 
 > **SAFETY. Low voltage is not low danger.** A 12 V battery bank will not shock you through dry
-> skin, which is exactly why people get careless with it. What it *will* do is push **hundreds of
-> amps** into a short circuit: enough to melt a wrench instantly, ignite wire insulation inside a
-> wall or a joist, and start a fire behind something you cannot see. **Undersized wire and missing
-> fuses are the most common causes of home-built off-grid fires.** The rules on this page are not
-> optional: **fuse every conductor at the battery, size wire for current AND length, no bare
-> terminals, and take off rings and watches before you touch a battery bank.**
+> skin, which is exactly why people get careless with it. What it *will* do is push a very large
+> current into a short circuit: enough to melt a wrench, ignite wire insulation inside a wall or a
+> joist, and start a fire behind something you cannot see. A short-circuited battery can cause a
+> fire or an explosion, and undersized wiring or a bad connection can cause a fire (Victron Energy,
+> Wiring Unlimited). The rules on this page are not optional: **fuse every conductor at the
+> battery, size wire for current AND length, no bare terminals, and take off rings and watches
+> before you touch a battery bank.**
 > **Never connect a battery system, an inverter or a power station to house wiring.** Generators
-> and house wiring are on → 09-04: **never connect a generator to house wiring without a transfer
-> switch, interlock, or a cord-and-plug conversion with the main breaker locked off; never backfeed
-> through an outlet** (it electrocutes line workers and neighbours and causes fires, → 30-01). Doing
-> a cord-and-plug conversion yourself is a decision card: {{choice DC-07}} (→ 30-08). Anything else
-> in a wall belongs to a qualified electrician (OSHA, Electrical).
+> and house wiring are on → 09-04: **Never connect a generator to house wiring except through a
+> transfer switch, or an interlock kit with the main breaker off. Never backfeed through an outlet
+> with a double-male ("suicide") cord.** Backfeed electrocutes line workers and neighbours (→ 30-01;
+> CPSC, Portable Generator Hazards). A cord-and-plug conversion is not a connection to house wiring:
+> the appliance is unplugged from the house outlet and plugged into the generator cord, so nothing
+> reaches the panel; doing that conversion yourself is a decision card: {{choice DC-07}} (→ 30-08).
+> Anything else in a wall belongs to a qualified electrician (Victron Energy, Wiring Unlimited).
 
 ## Do this now
 - **Buy a fuse block, an assortment of fuses, and more wire than you think you need, heavier than
@@ -85,8 +90,9 @@ Power is volts × amps. To deliver **600 W**:
 
 **Same power, ten times the current.** Every problem in DC wiring comes from that:
 - **Voltage drop.** Resistance in a long, thin wire eats voltage. Lose 1 V out of 12 and you have
-  lost over 8% of your power as heat in the wire. Aim to keep drop under **3%** on important runs.
-  **Length matters as much as thickness**, and you must count **both** conductors (out and back).
+  lost over 8% of your power as heat in the wire. Victron advises aiming for a drop no bigger than
+  **2.5%**: 0.3 V on a 12 V system (Victron Energy, Wiring Unlimited). **Length matters as much as
+  thickness**, and you must count **both** conductors (out and back).
 - **Heat.** An undersized wire carrying 50 A gets hot along its whole length. Inside a wall, under
   insulation, or bundled, it can reach ignition temperature without tripping anything, because
   **there is nothing to trip if you did not fuse it.**
@@ -94,46 +100,65 @@ Power is volts × amps. To deliver **600 W**:
   resistance. That runaway is why crimped and sealed connections matter more in DC than people
   expect.
 
-### Wire sizing (conservative planning guidance; check against a real ampacity table)
-Lower gauge number = thicker wire. For a **12 V** system, keeping voltage drop reasonable, counting
-the **round-trip** length:
+### Wire sizing for a 12 V system
+Lower gauge number = thicker wire. The table gives the **thinnest copper wire** that keeps the drop
+at or under 2.5% (0.3 V) for the **round-trip** length (out and back added together), and that is
+also within the wire's current rating. It is worked out from the copper resistance per metre in
+Victron's AWG chart, and never goes below the current ratings Trojan prints for copper cable from
+the National Electrical Code (75 °C insulation, air no warmer than 86 °F; Trojan, User's Guide).
+In a hotter space, in a bundle, or under insulation, go one size thicker.
 
 | Current | ≤10 ft round trip | ≤20 ft | ≤30 ft |
 |---|---|---|---|
-| 5 A | 16 AWG | 14 AWG | 12 AWG |
-| 10 A | 14 AWG | 12 AWG | 10 AWG |
-| 20 A | 12 AWG | 10 AWG | 8 AWG |
-| 30 A | 10 AWG | 8 AWG | 6 AWG |
-| 50 A | 8 AWG | 6 AWG | 4 AWG |
-| 100 A | 4 AWG | 2 AWG | 1/0 AWG |
-| 200 A (inverter cables) | 1/0 to 2/0 AWG | 2/0 to 4/0 AWG | keep it short |
+| 5 A | 14 AWG | 14 AWG | 12 AWG |
+| 10 A | 14 AWG | 10 AWG | 10 AWG |
+| 20 A | 10 AWG | 8 AWG | 6 AWG |
+| 30 A | 10 AWG | 6 AWG | 4 AWG |
+| 50 A | 6 AWG | 4 AWG | 2 AWG |
+| 100 A | 2 AWG | 1 AWG | 1/0 AWG |
+| 200 A (inverter cables) | 4/0 AWG | 4/0 AWG | 4/0 AWG; shorter is better |
+
+To check another case: drop (V) = amps × round-trip metres × the ohms per metre for that gauge in
+the chart (Victron Energy, AWG to Metric Conversion Chart); keep it at or under 0.3 V.
 
 **Rules of thumb:** keep battery-to-inverter cables **as short as possible**; between two sizes,
-**take the thicker**; prefer **fine-stranded copper** (marine or welding cable) over solid or
-aluminium. **Never use aluminium wire on battery terminals.**
+**take the thicker**; prefer **fine-stranded copper** (marine or welding cable) over solid wire.
+Aluminium has much higher resistance than copper for the same size (Victron's resistance table):
+**do not use aluminium wire on battery terminals.**
 
 ### Fusing: the rule set
-**The fuse protects the WIRE, not the device.** Size it to the wire's capacity, not to what you wish
-the device could draw.
+**The fuse protects the WIRE.** A fuse exists to stop too much current in a wire, which causes
+overheating or fire. With one device on a circuit, the fuse matches the device's current rating or
+the cable's, whichever is lower; with several devices, it matches the cable (Victron Energy, Wiring
+Unlimited). Never size it to what you wish the device could draw.
 
-1. **Main fuse or breaker at the battery positive, within about 7 inches of the terminal**, rated at
-   or below the capacity of the cable it protects. This is the fuse that prevents the catastrophic
-   fault.
+1. **Main fuse or breaker on the battery positive, as close to the terminal as the holder allows**,
+   rated at or below the capacity of the cable it protects. Every device on a battery is fused in
+   its positive cable, after this main fuse (Victron). This is the fuse that prevents the
+   catastrophic fault.
 2. **A fuse on every branch circuit**, at the source end, sized to that branch's wire.
-3. **A fuse between the solar panels and the charge controller, and between the controller and the
-   battery**, as the controller's manual says. **Three or more panel strings in parallel need a fuse
-   on each string**; two do not.
-4. **The inverter gets its own heavy fuse** (class T or similar): inverters pull very large currents.
-5. **Use DC-rated fuses and breakers.** An AC-rated switch or breaker on DC can fail to break the arc:
-   **DC does not pass through zero volts the way AC does, so a DC arc keeps burning.** That is why
+3. **A fuse between the solar panels and the charge controller** (Victron), **and between the
+   controller and the battery**, as the controller's manual says. **Panel strings in parallel:**
+   each panel's label gives a **maximum series fuse rating**. If the other strings together can
+   push more current than that into a faulty string, every string needs its own fuse of no more
+   than that rating. With two strings this usually cannot happen; with three or more it can.
+   Example: two other panels of 11.05 A each can push about 22 A into a panel rated for a 20 A
+   fuse (Renogy, RSP200D datasheet), so three in parallel need a fuse on each string.
+4. **The inverter gets its own heavy fuse.** With lithium batteries, at least one fuse in the line
+   must be able to break the very large short-circuit current a lithium bank can deliver (its
+   "interrupt rating"); Victron names the class T fuse as one well suited to lithium systems.
+5. **Use DC-rated fuses and breakers.** Not every fuse or breaker works on both AC and DC, and some
+   DC breakers must be wired the right way round (Victron). **DC does not pass through zero volts
+   the way AC does, so a DC arc keeps burning** where an AC switch would break it. That is why
    "it's just a light switch" is wrong on a 12 V system.
 6. **Never replace a fuse with a bigger one to stop it blowing.** The fuse is telling the truth.
    Find the fault.
 
 ### Working habits
-- **Take off rings, watches and metal bracelets.** A ring bridging a battery terminal heats red-hot
+- **Take off rings, watches and metal bracelets** (Trojan, User's Guide: never wear jewellery or
+  other metal objects when working on batteries). A ring bridging a battery terminal heats red-hot
   and cannot be pulled off in time.
-- **Insulate the wrench.** Tape all but the working end, or use insulated tools.
+- **Insulate the wrench.** Use insulated tools (Trojan; Victron), or tape all but the working end.
 - **Disconnect negative first, reconnect negative last.** Then a slipped wrench touching the frame is
   harmless.
 - **Cover every terminal:** boots, caps or heat-shrink.
@@ -153,8 +178,10 @@ the device could draw.
   subtle; follow the manual, do not improvise.
 - **GFCI protection** (the outlets with test and reset buttons) on any outlet near water: kitchen,
   bathroom, outdoors.
-- **Extension cords: heavier than you think, fully unrolled.** A coiled cord under load heats up; a
-  16 AWG cord running a heater is a fire. Generator cords: → 09-04.
+- **Extension cords: rated above the load, fully unrolled.** A cord's amps are on its jacket or
+  tag; its watt rating must exceed everything plugged into it (CPSC, Portable Generator Hazards),
+  and a light cord under a heating load (a heater, a kettle) overheats. Grounded three-prong cords
+  only, undamaged (OSHA, Portable Generator Safety). Generator cords: → 09-04.
 - **Never chain extension cords or power strips.**
 - **Anything permanent, anything in a wall, anything touching house circuits: a qualified
   electrician**, except the cord-and-plug conversion if your household has chosen to do it
@@ -209,7 +236,8 @@ the device could draw.
 - **B (moving):** a portable system is short runs and plug connections. Secure against vibration,
   protect against abrasion, fuse it anyway, keep cables out from underfoot.
 - **C (settled somewhere new):** longer runs mean thicker wire and more voltage drop. This is where
-  **24 V or 48 V** systems make sense: they cut current, and so wire size, proportionally.
+  **24 V or 48 V** systems make sense: the same power at 48 V is a quarter of the current at 12 V,
+  and the voltage drop falls with it (Victron, Wiring Unlimited).
 
 ## Cross-references
 → 09-03 batteries · → 09-04 generators, backfeed and house connections · → 09-07 battery chemistry

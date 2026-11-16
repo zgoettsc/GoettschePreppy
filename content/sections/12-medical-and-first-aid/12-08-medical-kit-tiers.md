@@ -81,7 +81,9 @@ is always the one that is empty when you need it. Keep it in a visible, obvious 
 **2. Trauma kits: where injuries happen. Several, small, fast.**
 For serious bleeding and nothing else. **Small, bright, obvious, reachable in seconds.**
 - Tourniquet, pressure bandage, hemostatic and compressed gauze, gloves, trauma shears, a
-  marker for writing the tourniquet time.
+  marker for writing the tourniquet time. **Never loosen a tourniquet once placed while help can
+  still come; mark the time. If no help will ever come, the conversion decision is DC-25
+  (→ 30-26).** That is a floor (→ 30-01); how to use the kit is → 12-02.
 - **Locations: the work area or woodpile, the vehicle, the go-bag, and one in the house.**
 - **Do not make them big.** A trauma kit you have to dig through fails at its one job.
 - **Everyone who could be the responder has trained** on it (Stop the Bleed).

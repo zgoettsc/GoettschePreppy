@@ -14,6 +14,8 @@ sources:
   - foodsafety-gov-usda-hhs-cook-to-a-safe-minimum-inter-13daf3
   - us-fda-food-allergies-627fb6
   - usda-food-safety-and-inspection-service-fsis-shelf-s-942af8
+  - usu-extension-storing-canned-goods-r12
+  - ndsu-extension-oil-change-in-your-kitchen-2017-r12
 related: [04-01-calorie-and-stockpile-math, 04-03-bulk-staples-storage, 04-10-rotation-and-inventory, 04-12-fats-and-oils, 04-13-salt-sugar-vinegar, 04-14-powdered-and-canned-dairy, 04-19-freeze-dried-stockpile, 02-04-cl04-food-allergy, 22-01-master-acquisition-list, 22-04-household-inventory, 29-14-ex14-reading-a-label, 30-19-dc18-unlabeled-food-and-allergies, 30-27-dc26-allergy-safe-food-reserve]
 cards: [DC-18, DC-26]
 explainers: [EX-14]
@@ -113,9 +115,10 @@ than the intention:
 |---|---|---|
 | Salt, sugar, honey | **Indefinite** | Buy heavily (→ 04-13) |
 | White rice, dried beans, wheat berries | Decades, properly stored | → 04-03 |
-| Rolled oats, pasta, flour | 1 to 5 years | Flour is the shortest; whole-grain flour goes rancid |
-| Canned goods | Years, if the can is sound | USDA: safe indefinitely if not frozen or kept above 90 °F and in good condition; quality fades (USDA FSIS, Shelf-Stable Food Safety) |
-| Cooking oil | 1 to 2 years | Rancidity is the limit (→ 04-12) |
+| Rolled oats, pasta | Years, properly stored | → 04-03 |
+| Flour | Months; whole-grain flour least | Its oil goes rancid; store grain instead (→ 04-03) |
+| Canned goods | Years, if the can is sound | Safe as long as the seal is unbroken and the can was never frozen; best quality to the code date, usually 2 to 5 years from manufacture; high-acid food (tomatoes, fruit) keeps its quality for less time (Utah State University Extension, Storing Canned Goods) |
+| Cooking oil | About 1 to 2 years unopened | Rancidity is the limit (NDSU Extension; → 04-12) |
 | Powdered milk | Years | → 04-14 |
 | Freeze-dried | Long, if stored cool | Manufacturer claims assume cool storage (→ 04-19) |
 | Spices | Years (flavour fades) | Morale value (→ 21-02) |

@@ -29,7 +29,7 @@ options:
     label: "Water-glass with rules"
     summary: "Only clean, unwashed, uncracked fresh eggs, in food-grade pickling lime solution, in a sealed container kept as cool as possible. Every egg is checked before use; any cracked, floating or off egg is discarded; every egg is cooked until yolk and white are firm; none go to anyone allergic to egg."
 settings_summary: "Water-glassing is an old way of keeping fresh eggs without a fridge: unwashed eggs sit in a bucket of pickling lime and water for months. University Extension services say do not do it. The germ Salmonella can be inside an egg before it is laid, the shell lets water and germs through, and a basement or pantry is not cold enough to stop them growing. Salmonella causes diarrhoea, fever, cramps and vomiting; for children, older adults, pregnant women and people with weak immune systems it can be severe, and with no hospital that matters more. The alternative may be no eggs through a winter. What helps most: freezing eggs out of the shell or drying cooked egg (removes the storage risk); cooking every stored egg until firm and checking each one (reduces it a lot)."
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Utah State 2023 PDF, Penn State 2024, K-State 2020, NCHFP and FDA egg quotes verified; freezing now 'removes the storage risk' (Salmonella survives freezing)." }
 ---
 
 # DC-27. Water-glassing fresh eggs (storing them in lime water)

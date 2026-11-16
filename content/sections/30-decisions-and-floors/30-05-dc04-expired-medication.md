@@ -15,8 +15,8 @@ sources:
   - american-college-of-allergy-asthma-and-immunology-fr-d6c10d
   - lyon-rc-et-al-journal-of-pharmaceutical-sciences-95-1d6bf3
   - fda-dont-be-tempted-to-use-expired-medicines
-  - american-academy-of-allergy-asthma-and-immunology-aa-7f3939
   - cdc-recognizing-and-responding-to-anaphylaxis-645825
+  - american-academy-of-pediatrics-aap-allergy-and-anaph-3e6f49
 related: [02-03-cl03-anaphylaxis, 02-04-cl04-food-allergy, 12-07-meds-stockpile, 26-08-expiry-and-rotation-tracker, 22-04-household-inventory, 29-07-ex07-refrigerated-medicines, 29-14-ex14-reading-a-label, 30-09-dc08-heat-exposed-medication, 30-01-the-floors]
 cards: [DC-04, DC-08]
 explainers: [EX-07, EX-14]
@@ -29,7 +29,7 @@ options:
   - id: use-if-clear
     label: "Use if clear and colourless; keep seeking in-date stock"
     summary: "When no in-date supply exists: in anaphylaxis, an expired or thawed epinephrine device whose liquid is clear and colourless is used at once. Intact tablets past date may be used. Liquids that changed are not. Keep looking for in-date stock."
-settings_summary: "Every medicine has an expiry date: the date until which the maker guarantees full strength. Labels also give a storage range; epinephrine auto-injectors (EpiPen type) should not freeze or get hot. After the date, or after freezing or heat, strength can drop slowly, and some liquids can change. In anaphylaxis (a severe allergic reaction), a weak dose is worse than a full one, but no dose can be fatal. Published studies found most expired auto-injectors still held most of their dose, and frozen-then-thawed ones delivered a normal dose. What helps most: keep enough in-date supply, rotated, at the right temperature (removes it); check the window for clear, colourless liquid (reduces it a lot). This card does not cover insulin: frozen insulin is always thrown away."
+settings_summary: "Every medicine has an expiry date: the date until which the maker guarantees full strength. Labels also give a storage range; epinephrine auto-injectors (EpiPen type) should not freeze or get hot. After the date, or after freezing or heat, strength can drop slowly, and some liquids can change. In anaphylaxis (a severe allergic reaction), a weak dose is worse than a full one, but giving no dose at all can be fatal. One published study found expired EpiPens up to 50 months past date all still held at least 80 percent of their dose; a meeting abstract found frozen-then-thawed ones delivered a normal volume. What helps most: keep enough in-date supply, rotated, at the right temperature (removes it); check the window for clear, colourless liquid (reduces it a lot). This card does not cover insulin: frozen insulin is always thrown away."
 review_pass: null
 ---
 
@@ -46,7 +46,8 @@ nothing in-date exists. It is not a dosing guide.
 ## 1. The thing, in plain words
 
 **Epinephrine** (adrenaline) is the drug that treats **anaphylaxis**, a severe allergic
-reaction that can close the airway and drop blood pressure within minutes. It usually comes in
+reaction that can close the throat and drop blood pressure (CDC, Recognizing and Responding to
+Anaphylaxis). It usually comes in
 an **auto-injector** (EpiPen type), a pen you press against the thigh. It has a small window to
 see the liquid.
 
@@ -58,25 +59,30 @@ Your household's allergy rows: {{#each allergies as a}}{{a.member}}, {{a.allerge
 
 ## 2. The rule, and why it was set
 
-- The FDA prescribing information for the EpiPen says store it at room temperature (68 to
-  77 °F, brief trips 59 to 86 °F), do not refrigerate or freeze it, and replace it if the
-  liquid is discoloured or has particles (FDA, EpiPen prescribing information).
-- FDA advises the public not to use expired medicines, because strength and safety after the
-  date are not guaranteed (FDA, Don't Be Tempted to Use Expired Medicines).
+- The FDA prescribing information for the EpiPen says store it at 68 to 77 °F (excursions
+  permitted to 59 to 86 °F), do not refrigerate it (its patient information adds: not in the
+  freezer either), and replace it if the solution is discoloured (pinkish or brown), cloudy or
+  has particles (FDA, EpiPen prescribing information).
+- FDA advises the public not to use expired medicines: "once the expiration date has passed
+  there is no guarantee that the medicine will be safe and effective", some expired medicines
+  are at risk of bacterial growth, and weak antibiotics can fail to treat infections (FDA, Don't
+  Be Tempted to Use Expired Medicines).
 
 **Why:** a maker can only promise what it has tested. Strength and stability are tested up to
 the printed date under the printed storage conditions. Beyond that, the maker does not know,
 so the label says replace.
 
 **What testing outside the label has found:**
-- 40 EpiPen and EpiPen Jr devices tested up to 50 months past their date all still held at
-  least 80 percent of the labelled dose, most over 90 percent (Cantrell and others, Annals of
-  Internal Medicine, 2017).
-- EpiPens frozen for 24 hours and thawed delivered the same dose volume as unfrozen ones
-  (Cooper and others, American College of Allergy, Asthma and Immunology, 2018).
-- The US military's Shelf Life Extension Program found most intact tablets and capsules,
-  stored well, stayed potent years past their dates; liquids and some drugs were exceptions
-  (Lyon and others, Journal of Pharmaceutical Sciences, 2006).
+- 40 EpiPen and EpiPen Jr devices 1 to 50 months past their date all still held at least 80
+  percent of the labelled dose, and 24 of the 40 held at least 90 percent (Cantrell and others,
+  Annals of Internal Medicine, 2017, research letter).
+- Expired EpiPens frozen for 24 hours and thawed delivered a similar dose volume to unfrozen
+  ones. That was a meeting abstract; it did not measure how much drug the liquid still held
+  (Cooper and others, American College of Allergy, Asthma and Immunology meeting, 2018).
+- FDA testing for the US military's Shelf Life Extension Program extended 88 percent of tested
+  lots of 122 drug products at least 1 year past their dates, when properly stored, but results
+  varied from lot to lot, and only testing could show which lots stayed good (Lyon and others,
+  Journal of Pharmaceutical Sciences, 2006).
 
 ## 3. How it actually hurts people
 
@@ -84,9 +90,9 @@ so the label says replace.
 weaker first dose can mean the reaction is not stopped and a second dose is needed sooner.
 A liquid that has turned brown, pink or cloudy has broken down and may do little.
 
-**Not using it:** anaphylaxis treated with no epinephrine can kill within minutes to hours
-(CDC, Recognizing and Responding to Anaphylaxis). Waiting to find an in-date pen is the
-failure that kills.
+**Not using it:** anaphylaxis is life-threatening, and CDC's first steps are to give
+epinephrine and call for emergency help (CDC, Recognizing and Responding to Anaphylaxis).
+Waiting to find an in-date pen is the failure that kills.
 
 **Other medicines:** an expired liquid (children's syrups, mixed antibiotic suspensions, eye
 drops) may have lost strength or grown germs. Some drugs where small strength losses matter
@@ -100,13 +106,14 @@ medicines follow their own rules (→ 30-09, → 30-01).
   the rotation tracker (→ 26-08), stored inside the label's temperature range.
 
 **Reduces it a lot**
-- **Look through the window first.** Use only epinephrine that is **clear and colourless**,
-  with no flakes or crystals (FDA label's own check).
+- **Look through the window first.** Use only epinephrine that is **clear**, not pinkish or
+  brown, not cloudy and with no particles (FDA label's own check).
 - **Keep devices on a person in the cold** (inside the coat, never in a car or pack) and out of
   hot cars in summer (→ 02-03).
 - **Use the newest expired device first**; keep expired stock sorted by date.
-- **Give the second dose sooner** if the first device was old and the person is not improving,
-  following the written anaphylaxis plan (AAAAI, Anaphylaxis Emergency Action Plan).
+- **Be ready with a second device.** The AAP plan says give a second dose of epinephrine if
+  symptoms get worse, continue, or do not get better in 5 minutes (AAP, Allergy and Anaphylaxis
+  Emergency Plan). With an old device, have the next one in hand.
 
 **Reduces it a little**
 - For tablets and capsules: use only intact ones stored cool and dry; discard anything
@@ -123,8 +130,8 @@ supply runs out, there may be nothing to give.
 
 **`use-if-clear`: Use if clear and colourless; keep seeking in-date stock.**
 You give up: the label's guarantee. You accept: that an older device or tablet may be weaker,
-and that you must watch more closely and be ready to give another dose. Discoloured or cloudy
-epinephrine is a last resort only when nothing else exists.
+and that you must watch more closely and be ready to give another dose. Discoloured, cloudy
+or particle-filled epinephrine is not part of this option: the label says replace it.
 
 ## 6. Our choice
 

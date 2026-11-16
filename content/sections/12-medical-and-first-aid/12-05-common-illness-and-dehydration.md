@@ -48,10 +48,10 @@ emergency.
 > **SAFETY**
 > - **Diarrhoeal illness is one of the most likely and most dangerous things that will happen
 >   to a household in a long emergency.** Worse sanitation, doubtful water, food kept without
->   a fridge and less handwashing all arrive at once. **Worldwide, dehydration from diarrhoea is
->   a leading killer of small children**, and **oral rehydration therapy fixes the large
->   majority of it** (WHO, Diarrhoea). A baby or toddler can become dangerously dehydrated in
->   hours.
+>   a fridge and less handwashing all arrive at once. **Worldwide, diarrhoeal disease is the
+>   third leading cause of death in children under 5**, and WHO's treatment is **oral
+>   rehydration solution (ORS), a solution of clean water, sugar and salt** (WHO, Diarrhoeal
+>   disease fact sheet). A baby or toddler can become dangerously dehydrated quickly.
 > - **Some conditions make it worse.** Vomiting and diarrhoea in someone with diabetes is a
 >   sick-day emergency risk (CDC, Managing Sick Days; → 02-01, → 02-05). Kidney disease, adrenal
 >   insufficiency and some heart and blood-pressure medicines also change the rules (→ 12-11).
@@ -121,8 +121,9 @@ standing, headache, muscle cramps.
 
 ## Oral rehydration: the treatment that matters
 
-**This is the treatment for dehydration from diarrhoea, and it works.** WHO puts it plainly:
-oral rehydration fixes the large majority of dehydration from diarrhoeal illness.
+**This is the treatment for dehydration from diarrhoea, and it works.** WHO: "Diarrhoea should
+be treated with oral rehydration solution (ORS), a solution of clean water, sugar and salt"
+(WHO, Diarrhoeal disease fact sheet).
 
 **How it works:** ORS mixes sugar and salts in a set ratio that lets the gut absorb water even
 while it is inflamed. **The ratio is the medicine.** That is why the strength matters and why
@@ -132,8 +133,11 @@ guessing is dangerous.
   patiently, for hours, is how it is done.
 - **Keep giving it through vomiting**, in small amounts, often. Some is absorbed.
 - **Keep feeding** where the person can eat. Withholding food is outdated advice.
-- **Sports drinks are not ORS.** The CDC says they do not replace losses correctly and should
-  not be used to treat diarrhoea (CDC Yellow Book, Travelers' Diarrhea).
+- **Sports drinks are not ORS.** CDC: for severe fluid loss, replacement is best done with ORS;
+  in mild cases any preferred drink, sports drinks included, can keep someone hydrated (CDC
+  Yellow Book, Travelers' Diarrhea). WHO lists drinks sweetened with sugar, such as
+  commercial soft drinks and fruit juices, as unsuitable during diarrhoea (WHO, The Treatment of
+  Diarrhoea).
 - **Plain water alone is not enough** for big losses. You lose salts as well as water, and
   replacing only water causes its own problems.
 - **The water used to mix ORS must be safe** (→ 03-04). ORS made with dirty water keeps the
@@ -141,14 +145,16 @@ guessing is dangerous.
 
 ### The printed recipe: home-made ORS when there are no packets
 
-From the World Health Organization (WHO, Cholera outbreaks Q&A: "1 litre safe water, 6
-teaspoons sugar and half a teaspoon of salt"):
+From the World Health Organization (WHO, Cholera outbreaks Q&A: ORS "can be bought or
+obtained from health workers or even made at home by mixing 1 litre of safe water, 6 teaspoons
+of sugar and half a teaspoon of salt"). WHO's manual says the salt is measured as a **level**
+teaspoon (WHO, The Treatment of Diarrhoea):
 
 ```
   6  LEVEL teaspoons of sugar
 + ½  LEVEL teaspoon of salt
 + 1  litre of clean, safe water  (about 4¼ cups, treated first: 03-04)
-Stir until fully dissolved. Use within 24 hours, then mix fresh.
+Stir until fully dissolved. Mix only what you will use soon, and mix it fresh.
 ```
 
 - **LEVEL spoons, never heaped. This is the safety-critical word.** The danger with home ORS is
@@ -168,25 +174,27 @@ top of normal drinking and continued feeding):
 
 | Age | After each loose stool |
 |---|---|
-| Under 2 years | **50 to 100 mL** (a quarter to half a cup), in sips from a spoon |
-| 2 to 10 years | **100 to 200 mL** (half to one cup) |
-| Older children and adults | As much as wanted |
+| Children under 2 years of age | **50-100 ml** (a quarter to half a large cup) of fluid |
+| Children aged 2 up to 10 years | **100-200 ml** (a half to one large cup) |
+| Older children and adults | As much fluid as they want |
 
 ### For someone already dehydrated: WHO's first-4-hours amounts, as published
 
 WHO calls this **"some dehydration"** when a person has **two or more** of these signs:
 restless or irritable; sunken eyes; thirsty, drinks eagerly; a skin pinch that goes back slowly
 (WHO, The Treatment of Diarrhoea, 4th rev., 2005, Table 1). For them WHO uses Treatment Plan B,
-ORS solution over 4 hours. WHO's Table 2, **"Approximate amount of ORS solution to give in the
-first 4 hours"**, printed as published:
+ORS solution over 4 hours. WHO's "Table 2: Guidelines for treating children and adults with
+some dehydration", **"APPROXIMATE AMOUNT OF ORS SOLUTION TO GIVE IN THE FIRST 4 HOURS"**,
+printed as published:
 
-| Age | Less than 4 months | 4–11 months | 12–23 months | 2–4 years | 5–14 years | 15 years or older |
+| Age (a) | Less than 4 months | 4 – 11 months | 12 – 23 months | 2 – 4 years | 5 – 14 years | 15 years or older |
 |---|---|---|---|---|---|---|
-| Weight | Less than 5 kg | 5–7.9 kg | 8–10.9 kg | 11–15.9 kg | 16–29.9 kg | 30 kg or more |
-| In ml | 200–400 | 400–600 | 600–800 | 800–1200 | 1200–2200 | 2200–4000 |
+| Weight | Less than 5 kg | 5–7.9 kg | 8-10.9 kg | 11-15.9kg | 16-29.9kg | 30 kg or more |
+| In ml | 200-400 | 400-600 | 600-800 | 800-1200 | 1200-2200 | 2200-4000 |
+| in local measure | ____ | ____ | ____ | ____ | ____ | ____ |
 
 WHO's notes to the table, as published:
-- "Use the patient's age only when you do not know the weight. The approximate amount of ORS
+- (a) "Use the patient's age only when you do not know the weight. The approximate amount of ORS
   required (in ml) can also be calculated by multiplying the patient's weight in kg by 75."
 - "If the patient wants more ORS than shown, give more."
 - "Encourage the mother to continue breastfeeding her child."
@@ -194,14 +202,15 @@ WHO's notes to the table, as published:
   90 mmol/L of sodium, also give 100-200ml clean water during this period. However, if using the
   new reduced (low) osmolarity ORS solution containing 75mmol/L of sodium, this is not
   necessary."
-- "During the initial stages of therapy, while still dehydrated, adults can consume up to 750 ml
-  per hour, if necessary, and children up to 20 ml per kg body weight per hour."
+- "NOTE: During the initial stages of therapy, while still dehydrated, adults can consume up to
+  750 ml per hour, if necessary, and children up to 20 ml per kg body weight per hour."
 
 And from the same section of the manual: "Children under 2 years of age should be offered a
 teaspoonful every 1-2 minutes; older children (and adults) may take frequent sips directly from
 the cup." "If the child vomits, wait 5-10 minutes and then start giving ORS solution again, but
-more slowly." "Oedematous (puffy) eyelids are a sign of over-hydration. If this occurs, stop
-giving ORS solution, but give breastmilk or plain water, and food." "After four hours, reassess
+more slowly (e.g. a spoonful every 2-3 minutes)." "Oedematous (puffy) eyelids are a sign of
+over-hydration. If this occurs, stop giving ORS solution, but give breastmilk or plain water,
+and food." "After four hours, reassess
 the child fully." WHO counts rehydration as complete when "the skin pinch is normal; thirst has
 subsided; urine is passed; the child becomes quiet, is no longer irritable and often falls
 asleep."
@@ -275,7 +284,7 @@ blood pressure and heart medicines (→ 02-09). Your household:
 | **Soap in quantity** | Stool-to-mouth spread is the whole mechanism | → 13-02, → 13-09 |
 | Nitrile gloves | Caring for the sick without spreading it | Boxes |
 | Thermometers ×2 to 3 | Fever tracking | {{#if has.child}}One suited to children{{else}}One spare{{/if}} |
-| Anti-diarrhoea and anti-nausea medicines (over the counter) | Comfort and function only; ORS is the treatment | See → 12-13. **Loperamide is not for children under 2 (its label says so), and not for anyone with bloody stool or high fever.** Check against everyone's allergies |
+| Anti-diarrhoea and anti-nausea medicines (over the counter) | Comfort and function only; ORS is the treatment | See → 12-07. **Loperamide label: do not use under 2 years or with bloody or black stool; ask a doctor first with fever** (Imodium A-D, Drug Facts label). Check against everyone's allergies |
 | Bucket with lid, bleach, dedicated cleaning cloths | Containing an outbreak in a shared room | → 13-11 |
 | Extra water storage | Illness greatly increases water needs | → 03-02 |
 | Symptom and intake log sheets | Tracking fluid in and out is the actual management | → 25-05 |
@@ -285,8 +294,9 @@ blood pressure and heart medicines (→ 02-09). Your household:
 
 - **ORS ingredients:** the printed recipe uses ordinary salt and sugar with safe water. Level
   spoons, measured litre, taste check. Salt and sugar are on your stock list (→ 04-13).
-- **Extra fluids:** clear broths (for salt), diluted juice, rice water (a traditional and useful
-  rehydration drink), plain water alongside ORS.
+- **Extra fluids:** WHO lists plain water, unsalted rice water, unsalted soup, weak unsweetened
+  tea and unsweetened fresh fruit juice as suitable home fluids, alongside ORS (WHO, The
+  Treatment of Diarrhoea). Avoid sugary drinks.
 - **Zinc** is part of WHO's standard treatment of childhood diarrhoea (WHO, The Treatment of
   Diarrhoea). Ask a clinician about it before the collapse; it is cheap.
 - **Cleaning:** diluted bleach for surfaces and for cleaning up vomit and stool (→ 29-05);
@@ -307,8 +317,8 @@ blood pressure and heart medicines (→ 02-09). Your household:
   healthy adults, who can often manage on salted fluids and broths.
 - **Resupply:** salt and sugar (→ 04-13), safe water and the printed recipe. As long as you have
   those three, ORS is renewable. That is why the recipe is printed here.
-- **Substitute:** rice water, broths and diluted juice help, but **correct-ratio ORS is clearly
-  better.**
+- **Substitute:** rice water, soup and the other home fluids above help, but **correct-ratio
+  ORS is better.**
 - **The permanent answer is prevention**: water treatment, soap, latrine placement and food
   handling. Every hour spent there prevents an illness that would cost far more.
 

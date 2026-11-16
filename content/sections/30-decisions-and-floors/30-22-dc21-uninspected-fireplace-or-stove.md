@@ -28,7 +28,7 @@ options:
     label: "Use it with small hot fires and a watch"
     summary: "If it cannot be inspected now: small, hot fires of dry wood only, never smouldering overnight, CO and smoke alarms in the room, an extinguisher in reach, someone checking the chimney and attic, and an inspection at the first chance."
 settings_summary: "A fireplace or wood stove can heat a house with no power, but the chimney is part of the appliance. Wood smoke leaves a tar called creosote on the inside of the chimney; it builds up faster with damp wood and slow, smoky fires, and it burns. A chimney fire can crack the chimney and set the house alight. A chimney blocked by a nest, leaves or fallen brick sends smoke and carbon monoxide back into the room. The national chimney standard (NFPA 211), the US Fire Administration and the Chimney Safety Institute of America all say inspect at least once a year. What helps most: inspect first, by a professional or with the household's own light-and-mirror check (removes most of it); dry wood, small hot fires, alarms, an extinguisher and a watch on the chimney (reduces it a lot)."
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "NFPA 211 annual and CSIA 1/8 in re-cited to CSIA FAQs; EPA stub key replaced by Best Wood-Burning Practices; USFA card details added." }
 ---
 
 # DC-21. Using a fireplace or wood stove that has not been inspected this year

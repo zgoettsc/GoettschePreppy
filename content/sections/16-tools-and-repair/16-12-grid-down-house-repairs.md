@@ -2,7 +2,7 @@
 id: 16-12-grid-down-house-repairs
 section: 16-tools-and-repair
 title: "Grid-down house repairs: gas, roof, window, burst pipe, sump"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -12,9 +12,10 @@ derived_from: [16-12-grid-down-house-repairs]
 sources:
   - fema-ready-gov-utility-shut-off-and-safety-natural-g-7965ad
   - perc-important-propane-safety-information-2005
+  - sdge-emergency-gas-shut-off-r13
   - osha-fall-protection-ladders-roofs-and-working-at-he-b15a02
-  - us-army-corps-of-engineers-blue-roof-information-tem-162ca8
-  - american-red-cross-fema-repairing-your-flooded-home-eafdda
+  - lii-29-cfr-1926-1053-ladders-r13
+  - fema-usace-operation-blue-roof-florida-2017-r13
   - american-red-cross-preventing-and-thawing-frozen-pip-003044
 related: [16-05-basic-repairs, 16-03-knots-and-cordage, 16-07-fasteners-and-hardware, 16-11-trailer-maintenance-and-repair, 03-06-winter-water, 03-04-purifying-water, 03-05-rain-and-snow-water, 08-01-heating-one-room, 08-02-carbon-monoxide-safety, 08-03-winterizing-the-home, 00-04-family-emergency-plan, 09-04-generators, 09-08-wiring-and-safety, 17-02-tornadoes, 17-06-tornado-shelter, 17-08-power-grid-failure, 17-18-hail-and-damaging-wind, 12-02-bleeding-and-wounds, 19-01-document-grab-kit, 22-04-household-inventory, 24-01-skills-checklist, 25-10-annual-review, 30-01-the-floors, 29-04-ex04-electricity-in-the-house, 30-29-dc28-relighting-gas-appliances]
 cards: [DC-28]
@@ -30,7 +31,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Gas gate: quarter turn/crosswise and 12-in wrench now SDG&E (Ready.gov page read has no valve detail), FEMA and PERC relight lines re-read and wired to DC-28 rules; ladder figures to 29 CFR 1926.1053; Blue Roof per FEMA 2017; unsourced 3 ft, plywood/screw sizes, 10-minute and tarp-life figures removed; floors match 30-01." }
 ---
 
 # Grid-down house repairs: gas, roof, window, burst pipe, sump
@@ -90,26 +91,31 @@ meter (natural gas) or at the tank (propane).
     outside, you do not smell gas strongly there, and nothing is
     burning. If in doubt, stay away and keep everyone away.
     NATURAL GAS: the valve is on the pipe coming out of the ground,
-    BEFORE the meter. With a 12-inch adjustable wrench or gas wrench,
-    turn it ONE QUARTER TURN so the flat bar lies CROSSWISE to the
-    pipe = OFF. Bar in line with the pipe = ON (FEMA, Utility
-    Shut-off and Safety).
+    BEFORE the meter. With a 12-inch or larger adjustable wrench,
+    turn it ONE QUARTER TURN so the flat bar (tang) lies CROSSWISE
+    to the pipe = OFF. Bar in line with the pipe = ON (SDG&E,
+    Emergency Shut Off). Ready.gov says ask your gas company for the
+    procedure for your meter.
     PROPANE TANK: close the valve under the tank's dome lid, turning
     clockwise ("righty tighty").
 [ ] THE WRENCH HANGS AT THE METER. That is the only place it is any
     use. Hung on: ____/____/____
 [ ] DO NOT TURN IT BACK ON YOURSELF while the utility exists. Call
     from outside: gas emergency line {{ contacts.utility.gas.phone }}
-    ({{ contacts.utility.gas.provider }}), or 911. Only the utility
-    restores service and relights pilots (FEMA).
+    ({{ contacts.utility.gas.provider }}), or 911. FEMA: only a
+    qualified professional turns it back on (Ready.gov, Safety
+    Skills). The utility restores service and relights pilots.
 ```
 
 **If the utility is gone for good:** FEMA says only a qualified professional turns the gas back
-on, and propane safety guidance says only a technician should relight a pilot (Ready.gov, Safety
-Skills; Propane Education & Research Council). Waiting may mean no hot water, furnace or stove; relighting yourself risks a fire,
-explosion or carbon monoxide. Your household's choice: {{choice DC-28}} → 30-29. Whatever you
-chose, the gas stays off until the leak is found and fixed, and nothing is lit while anyone
-smells gas (→ 08-02).
+on, and propane safety guidance strongly recommends that only a qualified service technician light
+a pilot that has gone out (Ready.gov, Safety Skills; Propane Education & Research Council,
+Important Propane Safety Information). Waiting may mean no hot water, furnace or stove; relighting
+yourself risks a fire, explosion or carbon monoxide. Your household's choice: {{choice DC-28}}
+→ 30-29. If the answer is to relight, the card's rules apply: every appliance valve closed first,
+the appliance's own lighting label followed exactly, a leak check. Whatever you chose, the gas
+stays off until the leak is found and fixed, and nothing is lit while anyone smells gas
+(→ 08-02).
 
 A gas smell also changes where you shelter from a tornado: not in a room near the leak (→ 17-06).
 
@@ -128,25 +134,28 @@ change.**
 [ ] ONE STORY ONLY. Higher than one story, or a pitch you would not
     comfortably sit on: the job is off. Tarp from inside the attic
     under the hole, set buckets, wait for help. This is the honest
-    limit for someone who is not a roofer (OSHA, Fall Protection).
+    limit for someone who is not a roofer. OSHA counts falls among
+    the most common causes of serious work injuries and deaths
+    (OSHA, Fall Protection).
 [ ] SOUND STRUCTURE. Sagging roof deck, a gas smell (gas block
-    first), or power lines down on the house = nobody goes up
-    (Red Cross / FEMA).
-[ ] LADDER (OSHA): base 1 foot out from the wall for every 4 feet
-    of height; top at least 3 feet ABOVE the roof edge and TIED OFF;
-    three points of contact always. Hands EMPTY: screws and strips go
-    up in a bucket on a rope (16-03). Held by the second person,
-    always.
+    first), or power lines down on the house = nobody goes up.
+[ ] LADDER (OSHA ladder rule, 29 CFR 1926.1053): on stable, level
+    ground; base out about 1 foot for every 4 feet of height; top at
+    least 3 feet ABOVE the roof edge, or tied off; face the ladder
+    and keep a hand on it. Hands EMPTY: carry nothing that could
+    unbalance you; screws and strips go up in a bucket on a rope
+    (16-03). Held by the second person, always.
 ```
 
-**The over-the-ridge method.** This is how the US Army Corps of Engineers' temporary "Blue Roof"
-crews do it: the tarp is fixed to solid wood, never held by weights (US Army Corps of Engineers,
-Blue Roof Information).
+**The over-the-ridge method.** The US Army Corps of Engineers' temporary "Blue Roof" sheeting is
+held down with strips of wood nailed or screwed to the roof, never with weights, and the program
+does not cover roofs with more than half their structure damaged (FEMA, Operation Blue Roof,
+2017).
 
 {{figure fig-roof-tarp-over-ridge}}
 
-1. **Size the tarp** so it reaches **from over the peak (ridge) and down past the damage by at least
-   3 feet on every side**, and far enough down the slope that water runs off onto sound shingles,
+1. **Size the tarp** so it reaches **from over the peak (ridge) and well past the damage on every
+   side**, onto sound roof, and far enough down the slope that water runs off onto sound shingles,
    not under the tarp's bottom edge.
 2. **Anchor on the far, undamaged side first.** Roll the tarp's top edge twice around a furring
    strip and screw through strip and tarp into the roof deck, at close, even spacing along the whole
@@ -201,11 +210,11 @@ frame all the way round. Inside tape survives wind better. Good for days, not we
 weather, not people.
 
 **Board-up (the real fix):**
-1. Measure the opening. Cut plywood (1/2 inch or thicker) slightly smaller than the opening, or cut
-   it larger and screw it over the outside trim instead.
+1. Measure the opening. Cut plywood (the thickest you have) slightly smaller than the opening, or
+   cut it larger and screw it over the outside trim instead.
 2. Screw through the plywood into the **frame** (not the moving window sash), evenly spaced all
-   round, with screws 2 inches or longer. Screws, not nails, so it comes off later without wrecking
-   the trim.
+   round, with screws long enough to bite well into the frame. Screws, not nails, so it comes off
+   later without wrecking the trim.
 3. **Winter:** trapped air insulates. Plastic inside, plywood outside, and a blanket hung over the
    whole opening (→ 08-03). That room may still drop out of the warm part of the house (→ 08-01).
 
@@ -239,8 +248,8 @@ fitting that seals with rubber rings and grips with steel teeth. No torch, no gl
 3. **Mark the insertion depth** on the pipe (the package states it), so you can see it seated fully.
 4. **Push the fitting on**, twisting slightly, until the mark meets the fitting on both sides. It
    takes real force and stops with a solid feel.
-5. **Reopen the main slowly** with a dry paper towel wrapped round the joint. Any wet spot within ten
-   minutes means it is not seated: release it (with the release tool) and redo it.
+5. **Reopen the main slowly** with a dry paper towel wrapped round the joint. Any wet spot means it
+   is not seated: release it (with the release tool) and redo it. The fitting's package governs.
 
 **The fast temporary (no cutting):** a screw-type pipe repair clamp, a rubber pad in a hinged steel
 sleeve, clamped over the split. No clamp: a strip of inner-tube rubber wrapped tight over the split
@@ -248,13 +257,17 @@ and held with two hose clamps or tightly twisted wire (→ 16-05, → 16-07). Te
 they buy time for the real repair.
 
 **Frozen pipe, one sequence** (Red Cross, Preventing and Thawing Frozen Pipes):
-1. **Main water off** (→ 03-06).
-2. **Open the faucet on the frozen line**, so melting ice has somewhere to go.
-3. **Warm the pipe starting from the faucet end**, working back toward the frozen section, with a
-   hair dryer, a heating pad, or towels soaked in hot water. **Never a torch, a fuel heater or any
-   open flame.** That is how a pipe job becomes a house fire.
-4. **When water flows, turn the main back on slowly and check the whole run.** A pipe that froze may
-   have split without showing it (→ 08-03).
+1. **If you see a split or water leaking, shut the main first** and treat it as a burst pipe
+   (above). Otherwise:
+2. **Keep the faucet on the frozen line open.** As the ice melts, water starts to flow, and running
+   water helps melt the rest.
+3. **Warm the frozen section** with an electric heating pad, a hair dryer, a space heater kept away
+   from anything that burns, or towels soaked in hot water. **Never a blowtorch, a kerosene or
+   propane heater, a charcoal stove or any open flame.** That is how a pipe job becomes a house
+   fire.
+4. **Keep the heat on until full water pressure returns,** then check every other faucet: if one
+   pipe froze, others may have too. A pipe that froze may have split without showing it
+   (→ 08-03).
 
 ## Repair 4: water rising in a basement sump pit
 
@@ -279,10 +292,10 @@ does**, during snowmelt or a big storm.
 
 | Item | Why | Notes |
 |---|---|---|
-| **12-inch adjustable wrench or gas wrench, hung at the gas meter** | The gas gate | Useless anywhere else |
+| **12-inch or larger adjustable wrench, hung at the gas meter** | The gas gate | Useless anywhere else |
 | **Heavy tarps, two, roof-sized** | Repair 1 | Heaviest weave sold |
 | **Furring strips (1x2, a bundle) and 2-inch exterior screws** | The tarp anchors | Store flat with the tarps |
-| Plywood, 1/2 inch or thicker | Board-up | Sizes written on it |
+| Plywood, as thick as you can store | Board-up | Sizes written on it |
 | Plastic sheeting and tape | Interim window | → 16-05 |
 | **Push-fit couplings, two per pipe size, plus a repair coupling** | Repair 3 | Your sizes: ______ |
 | **Small tube cutter** | Clean square cuts in tight spots | |
@@ -300,7 +313,7 @@ event, **capping a branch line you can live without** beats repairing it.
 
 ## When it runs out
 
-- **Tarps die from sunlight and flapping.** A tight tarp lasts a year or more; a loose one, a month.
+- **Tarps die from sunlight and flapping.** A tight tarp lasts far longer than a loose one.
   Re-tighten after every wind. The second tarp is the replacement.
 - **Push-fit fittings can be reused** with the release tool, and do not age.
 - **Prevention is the deeper fix:** winterizing the house (→ 08-03) and draining the water system

@@ -10,10 +10,10 @@ phase: [A]
 tags: [decision card, generator, furnace, well pump, cord-and-plug, electrical work, wiring, shock, fire]
 derived_from: [09-04-generators, 08-04-emergency-heat-options, 09-08-wiring-and-safety]
 sources:
-  - us-consumer-product-safety-commission-cpsc-what-to-k-3390a4
-  - osha-electrical-safety-and-health-topics-a7a68f
-  - american-red-cross-power-outage-safety-6d07a8
   - cdc-carbon-monoxide-poisoning-basics-772153
+  - osha-29-cfr-1910-333-r16
+  - cpsc-safety-alert-portable-generator-hazards-r8
+  - osha-quickcard-portable-generator-safety
 related: [09-04-generators, 08-04-emergency-heat-options, 03-10-well-water-without-power, 09-08-wiring-and-safety, 28-03-generators, 29-04-ex04-electricity-in-the-house, 30-01-the-floors]
 cards: [DC-07]
 explainers: [EX-04, EX-02]
@@ -66,16 +66,17 @@ Read → 29-04 first if the words below are new.
 
 ## 2. The rule, and why it was set
 
-- Electrical codes treat changes to permanent wiring as work for a qualified person, usually
-  with a permit and an inspection.
-- OSHA's rule for anyone working on electrical equipment: de-energise the circuit, lock or tag
-  it off, and **test it dead** before touching any wire (OSHA, Electrical Safety and Health
-  Topics).
-- CPSC and the Red Cross say run appliances from a generator through properly rated, grounded
-  extension cords, and never plug the generator into a wall outlet (CPSC, Portable Generator
-  Safety; Red Cross, Power Outage Safety).
+- OSHA's workplace rule for working on fixed electrical equipment: the parts are de-energised,
+  the circuit is locked or tagged out, and a qualified person **tests it dead** with test
+  equipment before anyone treats it as safe to touch; only qualified persons may work on
+  parts that are still live (OSHA, 29 CFR 1910.333).
+- CPSC says connect appliances to the generator with heavy-duty outdoor extension cords rated
+  above the total wattage of what is plugged in, with all three prongs, and never plug the
+  generator into a wall outlet (CPSC, Safety Alert: Portable Generator Hazards). OSHA says plug
+  appliances directly into the generator and never attach it to a building's wiring without a
+  properly installed transfer switch (OSHA, Portable Generator Safety QuickCard).
 
-**Why:** house wiring at 120 or 240 volts can stop a heart. Mistakes inside a junction box (a
+**Why:** house wiring can electrocute. Mistakes inside a junction box (a
 loose neutral, a missing ground, the wrong wire on the wrong screw, a plug or cord rated below
 the circuit, no clamp to stop the cord pulling on its wires) do not show until someone touches
 the cabinet or a connection overheats. The licence and the inspection exist to catch those
@@ -109,7 +110,7 @@ mistakes.
 **Reduces it a lot** (if you do it yourself)
 - **Follow the written steps on → 09-04 exactly**, and nothing else.
 - **That circuit's breaker off, taped or locked, and tested dead** at the appliance with a
-  non-contact tester and a meter before any wire is touched (OSHA's lock-off-and-test rule).
+  non-contact tester and a meter before any wire is touched (OSHA's lock-out-and-test rule).
 - **Cord, plug and outlet rated for the circuit** (wire size and amps on the breaker), with a
   **strain-relief clamp** where the cord enters the box.
 - **The ground and neutral stay connected** to the appliance through its own cord.

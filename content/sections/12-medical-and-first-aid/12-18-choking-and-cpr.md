@@ -63,8 +63,8 @@ drowning, and recognising anaphylaxis.
 ## Do this now: preparation
 
 - **Every adult takes an infant, child and adult CPR and choking class**, before buying anything
-  else in this section. Refresh every two years; drill every few months at home on a pillow,
-  never on a person (→ 24-01).
+  else in this section. Refresh when the course certificate runs out; drill every few months at
+  home on a pillow, never on a person (→ 24-01).
 - **Learn the fork by heart:** **under 1 year = back blows and chest thrusts, never abdominal
   thrusts. Age 1 and up = back blows and abdominal thrusts.**
 - {{#if has.pool}}**You have a pool.** Drowning CPR (breaths first) is the version to over-learn.{{else}}**Water anywhere** (a pond, stock tank, bathtub, flooded basement): drowning CPR, breaths first, is worth over-learning.{{/if}}
@@ -80,13 +80,15 @@ when the cough goes silent**: no air, no sound, cannot cry, turning blue, clutch
 
 ## Choking with a full blockage, by age
 
-**Under 1 year (until the first birthday)** (MedlinePlus, Choking: infant under 1 year):
+**Under 1 year (until the first birthday)** (MedlinePlus, Choking: infant under 1 year;
+2025 AHA/AAP Pediatric Basic Life Support: repeated cycles of 5 back blows and 5 chest thrusts,
+no abdominal thrusts):
 
 ```
 1. Face-down along your forearm, head lower than chest, jaw supported.
-2. FIVE firm back blows between the shoulder blades (heel of the hand).
+2. FIVE firm back blows between the shoulder blades (palm of your hand).
 3. Turn face-up on your forearm or thigh: FIVE chest thrusts,
-   two fingers, centre of the chest just below the nipple line.
+   heel of one hand, middle of the breastbone just below the nipples.
 4. Look in the mouth; remove ONLY what you can see. No blind finger sweeps.
 5. Repeat 5 and 5 until the object comes out or the baby goes limp.
 6. Goes limp or stops breathing: CPR (below). Shout for another adult.
@@ -95,15 +97,17 @@ NEVER abdominal thrusts under 1. NEVER hold an infant upside down by the feet.
 
 {{figure fig-choking-infant}}
 
-**Age 1 through adult** (current American Heart Association and American Red Cross teaching: the
-same 5-and-5 rhythm as the infant; MedlinePlus, Abdominal thrusts; your class is the authority):
+**Age 1 through adult** (2025 AHA/AAP Pediatric Basic Life Support for children: 5 back blows
+alternating with 5 abdominal thrusts; MedlinePlus, Abdominal thrusts, updated for the 2025 AHA
+guidelines, for adults and children; your class is the authority):
 
 ```
 1. "Are you choking?" No air, no voice: act. Bend them forward.
 2. FIVE BACK BLOWS: heel of the hand, hard, between the shoulder blades.
 3. FIVE ABDOMINAL THRUSTS: stand or kneel behind, fist just above the
    navel, other hand over it, sharp quick pulls IN and UP.
-   (Pregnant, or too big to reach round: CHEST thrusts instead.)
+   (Pregnant or obese: CHEST thrusts instead, fist on the middle
+   of the breastbone.)
    Kneel behind a small child; firm, but matched to their size.
 4. Alternate 5 blows and 5 thrusts until it clears or they go limp.
 5. Limp or unresponsive: lower them to the ground and start CPR (below).
@@ -117,20 +121,23 @@ against a chair back. Repeat.
 ## CPR: the memory aid
 
 **Unresponsive and not breathing (or only gasping): start.** Send anyone else for help or the
-radio. **Alone with a child, do about 2 minutes of CPR before you go for help.** Push hard, push
-fast, let the chest come fully back up, keep pauses short.
+radio. **Alone with an infant or child, do about 2 minutes of CPR before you go for help**
+(MedlinePlus). Push hard, push fast, let the chest come fully back up, keep pauses under 10
+seconds.
 
-From MedlinePlus (CPR: young child; CPR: adult and child after puberty) and the American Heart
-Association's 2020 guidelines (Pediatric Basic Life Support; Adult Basic Life Support):
+From MedlinePlus (CPR: infant; CPR: young child; CPR: adult and child after onset of puberty),
+reviewed in 2026 against the 2025 American Heart Association guidelines. The 2025 AHA/AAP
+pediatric guidelines **dropped two-finger compressions for infants** because they do not reach
+the right depth:
 
 | | **Infant (under 1)** | **Child (1 year to puberty)** | **Adult** |
 |---|---|---|---|
-| Hands | 2 fingers (or 2 thumbs), centre of chest, just below the nipple line | Heel of 1 hand (2 for a bigger child), centre of chest | 2 hands stacked, centre of chest |
-| Depth | About **1½ in** (a third of the chest) | About **2 in** (a third of the chest) | **2 to 2.4 in**: at least 2, **not deeper than 2.4** (deeper breaks ribs and the breastbone) |
-| Rate | **100 to 120 a minute** for everyone: the tempo of the song *Stayin' Alive* | same | same |
+| Hands | **Two thumbs side by side** on the centre of the chest just below the nipple line, hands wrapped round the chest; **or the heel of one hand** on the breastbone just below the nipples if you cannot press deep enough | Heel of one hand in the centre of the chest, other hand on top, fingers interlaced | Heel of one hand in the centre of the chest, right between the nipples, other hand on top, fingers interlaced |
+| Depth | About **1½ in (4 cm)** | About **2 in (5 cm)** | About **2 in (5 cm)** |
+| Rate | **100 to 120 a minute** for everyone | same | same |
 | Rhythm, ONE rescuer | **30 compressions : 2 breaths** | 30:2 | 30:2 |
-| Rhythm, TWO rescuers | **15:2**; the second rescuer uses **two thumbs with hands encircling the chest** | **15:2** | 30:2 (adults stay 30:2) |
-| Breaths | Cover mouth **and** nose with your mouth; gentle puffs, just enough to see the chest rise | Pinch the nose, seal the mouth; 1 second, chest rises | Same |
+| Rhythm, TWO rescuers | **15:2** | **15:2** | 30:2; swap who compresses every 2 minutes |
+| Breaths | Cover mouth **and** nose with your mouth; each breath about 1 second, chest rises | Pinch the nose, seal the mouth; about 1 second, chest rises | Same |
 
 {{figure fig-cpr-infant}}
 
@@ -143,17 +150,19 @@ Association's 2020 guidelines (Pediatric Basic Life Support; Adult Basic Life Su
   untrained or unwilling rescuer **with an adult who collapsed on dry land**, not for a drowned
   person.
 
-> **PULLED FROM THE WATER, NOT BREATHING: BREATHS FIRST, FOR EVERY AGE** (2024 American Heart
-> Association and American Academy of Pediatrics update on resuscitation after drowning). **Give
-> 2 rescue breaths (up to 5 if the chest will not rise), then 30:2 (15:2 for a child with two
-> rescuers) with breaths, adults included. Never hands-only for drowning.** Drowning stops the
-> breathing first and the heart second, so oxygen is the medicine. Do not waste time trying to
-> drain water from the lungs. Cold water plus hypothermia: keep going (below).
+> **PULLED FROM THE WATER, NOT BREATHING: BREATHS FIRST, FOR EVERY AGE.** Drowning stops the
+> breathing first and the heart second, so resuscitation "must focus on restoring breathing as
+> much as it does circulation" (2024 American Heart Association and American Academy of
+> Pediatrics focused update on resuscitation following drowning). **Start rescue breaths as soon
+> as you can** (MedlinePlus, Drowning), then CPR with breaths, **30:2 (15:2 for an infant or
+> child with two rescuers), adults included. Not hands-only for drowning.** Do not try to drain
+> water from the lungs, and no abdominal thrusts unless the airway is truly blocked (MedlinePlus).
+> Cold water plus hypothermia: keep going (below).
 
 - **Opening the airway:** head tilt and chin lift. For an infant, a neutral "sniffing" position;
   a baby's airway kinks if the head is tipped too far back.
 - **Do not stop** unless they respond, someone takes over, or you physically cannot go on. Swap
-  rescuers about every 2 minutes; good compressions are exhausting.
+  rescuers about every 2 minutes (MedlinePlus); good compressions are exhausting.
 - **Hypothermia:** a cold person is not dead until they are warm. Read → 08-05 before stopping
   CPR on someone pulled from the cold.
 
@@ -168,7 +177,8 @@ sting, medicine), **symptoms in two or more body systems**:
 - circulation (pale, floppy, faint),
 
 **is anaphylaxis. Severe breathing or circulation trouble alone is treated as anaphylaxis too.**
-**Antihistamines are not the treatment. Epinephrine is** (AAAAI). Give the person's own
+**Antihistamines are not the treatment. Epinephrine is** (AAAAI: anaphylaxis needs a prompt
+dose of epinephrine). Give the person's own
 auto-injector into the outer thigh at once, and follow the full plan on → 02-03, including the
 published epinephrine dose bands by weight and when to give a second dose.
 
@@ -196,7 +206,7 @@ with when stopping is the right call; read it this afternoon, not for the first 
 
 | Item | Why | Notes |
 |---|---|---|
-| **Infant, child and adult CPR and choking class, every adult** | The actual life-saving item | Red Cross or American Heart Association; refresh every 2 years |
+| **Infant, child and adult CPR and choking class, every adult** | The actual life-saving item | Red Cross or American Heart Association; refresh when the certificate runs out |
 | CPR pocket mask, adult and child | Cleaner, easier breaths | One in the medical kit, one in the go-bag (→ 22-06) |
 | **Home AED with child pads or key** | Changes the odds of a heart collapse with no ambulance | Breaths still come first after drowning |
 | This page, plus the card on → 25-08 | The 2 a.m. backstop | Behind the medical kit lid |

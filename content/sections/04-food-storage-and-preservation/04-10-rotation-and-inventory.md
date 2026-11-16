@@ -12,6 +12,7 @@ derived_from: [04-10-rotation-and-inventory]
 sources:
   - fsis-food-product-dating
   - usda-food-safety-and-inspection-service-fsis-shelf-s-942af8
+  - usu-extension-storing-canned-goods-r12
   - national-center-for-home-food-preservation-nchfp-gen-c43991
   - foodsafety-gov-usda-hhs-cook-to-a-safe-minimum-inter-13daf3
 related: [04-01-calorie-and-stockpile-math, 04-02-building-a-pantry, 04-12-fats-and-oils, 04-19-freeze-dried-stockpile, 22-04-household-inventory, 23-02-master-consumables-table, 26-08-expiry-and-rotation-tracker, 24-02-drills, 01-02-go-no-go-decision, 01-06-phase-transition-checklists, 02-04-cl04-food-allergy, 29-14-ex14-reading-a-label, 30-15-dc14-questionable-food]
@@ -50,10 +51,12 @@ packages mean, and how to run the "pantry week" that finds problems before an em
 - **"Best if used by", "sell by" and most "use by" dates are about quality, not safety,** for
   shelf-stable food. **Infant formula is the exception:** its use-by date matters (USDA FSIS,
   Food Product Dating). How to read the different date formats: → 29-14.
-- **USDA:** canned food is safe indefinitely if it was not frozen or kept above 90 °F and the
-  can is in good condition; **throw out cans that are dented, leaking, bulging or rusted**
-  (USDA FSIS, Shelf-Stable Food Safety). High-acid canned food (tomatoes, fruit) keeps its
-  best quality for a shorter time than low-acid food (meat, vegetables).
+- **Canned food stays safe as long as the seal is unbroken** and the can was never frozen
+  (freezing can burst cans and break seals). **Throw out any badly dented, bulging, rusty or
+  leaking can or jar** before opening it. Best quality lasts to the code date, usually 2 to 5
+  years from manufacture; high-acid canned food (tomatoes, fruit) keeps its best quality for a
+  shorter time than low-acid food (meat, vegetables) (Utah State University Extension, Storing
+  Canned Goods). Home-canned food: use within a year for quality, and before two years.
 - **The real limits** are: rancid fat in oils and whole grains (→ 04-12), rust or seam damage in
   cans, moisture in dry goods, and any broken seal.
 - **Your own purchase-date mark is often more useful** than the printed date: it tells you how

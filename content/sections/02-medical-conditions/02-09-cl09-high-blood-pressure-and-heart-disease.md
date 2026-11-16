@@ -2,7 +2,7 @@
 id: 02-09-cl09-high-blood-pressure-and-heart-disease
 section: 02-medical-conditions
 title: "CL-09. High blood pressure and heart disease"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: condition
 danger_level: critical
@@ -61,8 +61,8 @@ more when the pills are short.
 
 > **SAFETY**
 > - **Some of these medicines must never be stopped suddenly.** Stopping a beta-blocker such as
->   metoprolol suddenly can cause chest pain or a heart attack; stopping clonidine suddenly can
->   cause a rapid rise in blood pressure (MedlinePlus, Metoprolol; MedlinePlus, Clonidine). Ask
+>   metoprolol suddenly can cause serious heart problems; stopping clonidine suddenly can cause
+>   a rapid rise in blood pressure (MedlinePlus, Metoprolol; MedlinePlus, Clonidine). Ask
 >   the prescriber now which of the person's medicines are like this (part 12).
 > - **Children do not have access to firearms, fuel, medications or chlorine products.** Some
 >   heart and blood pressure pills are dangerous to a small child in very small amounts (floor,
@@ -78,9 +78,10 @@ shortness of breath; cold sweat, nausea or light-headedness. Women more often ha
 nausea or vomiting, and back or jaw pain.
 1. **Call for help** if any exists: 911.
 2. **Stop all effort.** Sit them down, half-upright, loosen clothing, keep them calm and warm.
-3. **Their own nitroglycerin**, if prescribed, exactly as its label says. MedlinePlus: if chest
-   pain is not better or is worse 5 minutes after one dose, call for emergency help at once
-   (MedlinePlus, Nitroglycerin Sublingual).
+3. **Their own nitroglycerin**, if prescribed, exactly as the prescriber said: sitting down,
+   under the tongue, not swallowed. MedlinePlus says the doctor will probably tell you to call
+   for emergency help right away if the pain does not improve very much, or gets worse, after
+   the first dose (MedlinePlus, Nitroglycerin Sublingual).
 4. **Aspirin:** AHA says call 911 first; the dispatcher may tell you to chew aspirin (AHA,
    Aspirin and Heart Disease). With no 911, follow what the prescriber wrote in part 7. The
    household's general line on aspirin in emergencies is on → 12-16.
@@ -98,8 +99,8 @@ hand.
 ## 1. What it is
 
 **High blood pressure (hypertension)** means blood pushes too hard against the artery walls. It
-usually causes no symptoms while it slowly damages the heart, brain, kidneys and eyes (NHLBI,
-High Blood Pressure). **Heart disease** covers narrowed heart arteries (which cause chest pain
+usually causes no symptoms until it has caused serious health problems, such as kidney disease,
+heart attack, heart failure and stroke (NHLBI, High Blood Pressure). **Heart disease** covers narrowed heart arteries (which cause chest pain
 and heart attacks), heart failure (a weak or stiff heart that lets fluid build up), and
 irregular heartbeats.
 
@@ -116,9 +117,9 @@ irregular heartbeats.
 
 - **Tablets:** original bottles, tightly closed, cool and dry, out of sun and away from
   children. Not in a car, a bathroom or a hot attic.
-- **Nitroglycerin tablets:** keep them in their **original glass bottle, tightly closed**, at
-  room temperature, away from light, heat and moisture (MedlinePlus, Nitroglycerin Sublingual).
-  Never move them into a pill organiser.
+- **Nitroglycerin tablets:** keep them in **the container they came in, tightly closed after
+  each use**, at room temperature, away from excess heat and moisture, not in a bathroom
+  (MedlinePlus, Nitroglycerin Sublingual). So never move them into a pill organiser.
 - Few heart medicines need a fridge. If one does, see → 29-07 and write its rule here: ________
 
 ## 4. Day by day without it
@@ -131,8 +132,9 @@ irregular heartbeats.
 - **Heart failure pills (often a "water pill"), stopped:** fluid builds up over days: swollen
   ankles, weight gain, breathlessness lying flat.
 
-**What helps, and is in your control** (NHLBI): less salt, more vegetables and fruit, regular
-activity, no smoking, little alcohol, sleep, and managing stress. Off-grid:
+**What helps, and is in your control** (NHLBI, High Blood Pressure): a heart-healthy diet,
+physical activity, losing weight if overweight, no smoking, less stress, and enough good sleep.
+Off-grid:
 - **Most canned and stored food is salty.** Rinse canned beans and vegetables, cook from dried
   beans and grains, and save salty foods for when they are needed.
 - **Hard physical work** is good for blood pressure, but a heavy, sudden effort in the cold

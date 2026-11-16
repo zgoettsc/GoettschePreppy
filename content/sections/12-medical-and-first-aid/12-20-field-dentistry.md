@@ -48,8 +48,9 @@ when a tooth infection has become an emergency. Prevention and the everyday prob
 >   or under the tongue, with fever, trouble swallowing or trouble breathing, is a **whole-body
 >   emergency** (CDC, About Sepsis; → 12-04, → 12-16). Everything else here is saving teeth and
 >   easing pain.
-> - **A knocked-out adult tooth has a clock: best within 30 minutes, real chances within 60**
->   (American Association of Endodontists, Knocked Out Teeth). Whoever is closest acts.
+> - **A knocked-out adult tooth has a clock: act within 30 minutes; a tooth can sometimes still
+>   be saved after an hour or more out of the mouth** (American Association of Endodontists,
+>   Knocked Out Teeth). Whoever is closest acts.
 > - **Most temporary filling products contain clove oil (eugenol), which is seriously toxic to
 >   small children if swallowed.** Children get dental wax only.
 > - **Never inject or improvise numbing medicine.** Overdose and injection into a blood vessel
@@ -103,8 +104,8 @@ store the kit locked with the medicines (→ 12-07).{{/if}}
 ## Dry socket: after a tooth comes out
 
 After a tooth is pulled, a blood clot fills the hole and the pain fades day by day. **A dry
-socket** happens when the clot is lost. It shows on day 2 to 4: throbbing pain that **gets
-worse** instead of better, spreads toward the ear, a bad taste, and a hole that looks empty or
+socket** happens when the clot is lost. It shows a few days after the extraction: throbbing
+pain that **gets worse** instead of better, spreads toward the ear, a bad taste, and a hole that looks empty or
 shows white bone.
 
 It is miserable but not dangerous in itself. Gently rinse with warm salt water after meals, take

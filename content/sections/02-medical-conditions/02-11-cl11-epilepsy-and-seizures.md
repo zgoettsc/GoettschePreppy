@@ -2,7 +2,7 @@
 id: 02-11-cl11-epilepsy-and-seizures
 section: 02-medical-conditions
 title: "CL-11. Epilepsy and seizure disorders"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: condition
 danger_level: critical
@@ -55,10 +55,12 @@ supply clock, and how to make the home safer.
 > **SAFETY**
 > - **Never put anything in a person's mouth during a seizure, and never hold them down**
 >   (CDC, First Aid for Seizures).
-> - **A seizure that lasts 5 minutes or longer, or seizures one after another without waking
->   between, is an emergency** (CDC; NINDS). Use the prescriber's rescue plan if there is one.
-> - **Do not stop or cut antiseizure medicine on your own.** Stopping suddenly can bring on
->   seizures, including long ones (NINDS, Epilepsy and Seizures).
+> - **A seizure that lasts longer than 5 minutes, or seizures one after another without fully
+>   waking between them, is an emergency** (CDC, First Aid for Seizures; NINDS, Epilepsy and
+>   Seizures). Use the prescriber's rescue plan if there is one.
+> - **Do not stop or cut antiseizure medicine on your own.** NINDS says stopping too early is one
+>   of the major reasons seizures come back, and can lead to status epilepticus, a seizure that
+>   will not stop (NINDS, Epilepsy and Seizures).
 > - **This page never calculates, adjusts or suggests a dose.** Rescue medicine is given only as
 >   the prescriber wrote it, in part 7.
 
@@ -67,15 +69,18 @@ supply clock, and how to make the home safer.
 CDC's first aid (CDC, First Aid for Seizures):
 1. **Ease them to the floor.** Move hard and sharp things away; away from fire, stove, water and
    stairs.
-2. **Turn them gently onto one side** to keep the airway clear. Something soft under the head.
-   Remove glasses; loosen anything tight at the neck.
+2. **Turn them gently onto one side**, mouth pointing to the ground, to keep the airway clear.
+   Something soft and flat under the head. Remove glasses; loosen anything tight at the neck.
 3. **Time it.** Look at a watch now.
-4. **Do not hold them down. Nothing in the mouth.** No food or drink until fully awake.
+4. **Do not hold them down. Nothing in the mouth.** No breaths into the mouth during the
+   seizure: people usually start breathing again on their own afterwards. No food or drink until
+   fully alert.
 5. **Stay with them** until they are awake and know where they are. Talk calmly.
 6. **Emergency** (call for any help that exists, and give the prescriber's rescue medicine if
-   one is written in part 7) if: the seizure lasts **5 minutes or longer**; another follows
-   soon after; they have trouble breathing or do not wake; it is their first seizure; it
-   happened in water; they are injured, pregnant, or have diabetes or heart disease (CDC).
+   one is written in part 7) if: the seizure lasts **longer than 5 minutes**; another follows
+   soon after; they have trouble breathing or waking up afterwards; they are injured; it
+   happened in water; it is their first seizure ever; they have diabetes and lose consciousness;
+   they are pregnant (CDC).
 7. **Not breathing normally once the jerking stops: start CPR** (→ 12-18).
 
 **Seizure without jerking** (staring, chewing, wandering, picking at clothes): stay with them,
@@ -90,7 +95,8 @@ guide them gently away from danger, do not restrain them, talk calmly until they
 
 A seizure is a burst of abnormal electrical activity in the brain. It can cause jerking,
 stiffening, staring, odd movements or loss of awareness. **Epilepsy** means a tendency to have
-repeated seizures; daily antiseizure medicine prevents them in most people (NINDS).
+repeated seizures. Daily antiseizure medicine is the usual treatment and controls seizures for
+many people (NINDS).
 
 ## 2. What runs out, and how fast
 
@@ -114,9 +120,10 @@ ________. Keep rescue medicine where the person spends time and in the go-bag, n
   person's pattern.
 - **Running out:** seizures may become frequent and long. **A slow taper written by the
   prescriber is much safer than a sudden stop.**
-- **What helps, and is in your control** (NINDS lists these as common triggers): **sleep** (the
-  biggest one; → 21-07), avoiding alcohol, treating fever early (→ 12-13), regular meals,
-  managing stress, and, for some people, avoiding flashing lights.
+- **What helps, and is in your control.** NINDS lists these triggers: **stress** (the one people
+  with epilepsy report most), **lack of sleep** (a powerful trigger; → 21-07), alcohol or alcohol
+  withdrawal, and flashing lights or moving patterns (NINDS). Treat fever early (→ 12-13) and
+  keep regular meals too.
 
 **Make the home safer, especially off-grid:**
 - **Fire:** guard open fires and stoves; the person does not cook alone over an open flame if
@@ -129,12 +136,12 @@ ________. Keep rescue medicine where the person spends time and in the go-bag, n
 
 ## 5. Warning signs that mean an emergency
 
-- Seizure **5 minutes or longer**, or one after another without waking (CDC, NINDS).
+- Seizure **longer than 5 minutes**, or one after another without fully waking (CDC, NINDS).
 - **Breathing trouble** or not waking after the seizure.
 - **Injury**, especially a head injury (→ 12-19), or a seizure in water.
 - **First seizure ever**, or a seizure with fever, stiff neck, severe headache, or after a head
   injury: think of other causes.
-- In pregnancy or in someone with diabetes (CDC).
+- In pregnancy, or in someone with diabetes who loses consciousness (CDC).
 
 ## 6. Sick-day basics
 

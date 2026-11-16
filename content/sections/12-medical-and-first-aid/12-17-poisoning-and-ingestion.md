@@ -157,8 +157,8 @@ Prevention).
   the eye. Pool chemicals mixed with other
   products make dangerous gas: the "breathed in" row (→ 29-05, → 06-06).
 - **Medicines.** A stocked medicine cabinet (→ 12-07) is the biggest target in the house.
-  **Acetaminophen is the deadliest common one**, precisely because the child looks fine
-  afterwards. Note the substance, strength and worst-case count ("the bottle held up to ___"),
+  **Acetaminophen is a dangerous one**, because the child can look fine at first while the
+  liver is being damaged (→ 12-13). Note the substance, strength and worst-case count ("the bottle held up to ___"),
   keep the bottle, and treat any uncertain swallow as the real thing.
 - **Iron tablets and prenatal vitamins.** **Treat any swallow as serious and move toward care.**
   Iron overdose is particularly dangerous for children, and adult iron pills and prenatal

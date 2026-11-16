@@ -2,7 +2,7 @@
 id: 30-30-dc29-pulseless-limb-traction
 section: 30-decisions-and-floors
 title: "DC-29. One traction attempt on a fractured limb with no pulse below it, when no care is coming"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: card
 danger_level: critical
@@ -25,8 +25,8 @@ options:
   - id: one-gentle-traction
     label: "One gentle traction attempt, then splint"
     summary: "Only for a deformed broken arm or leg whose hand or foot is pale or blue, cold and pulseless, with no trained help reachable: one gentle, steady pull along the limb toward its normal line, then re-check the pulse and splint. Never on the spine, hip or pelvis, or a break with bone showing."
-settings_summary: "A badly broken arm or leg can cut off the blood flowing past the break to the hand or foot. It turns pale or blue, cold and numb, with no pulse. First-aid teaching says splint a break as you find it and do not straighten it, because moving it hurts and can do more damage. The same published first-aid guidance makes one exception: if circulation is poor and no trained person is quickly available, try to bring the limb back toward its normal position, which reduces damage from lack of blood. Wilderness first-aid standards teach gentle traction for this. Not doing it may cost the limb; doing it may cause pain and further injury. What helps most: reaching care (removes the question); hands-on wilderness training (reduces it a lot)."
-review_pass: null
+settings_summary: "A badly broken arm or leg can cut off the blood flowing past the break to the hand or foot. It turns pale or blue, cold and numb, with no pulse. First-aid teaching says splint a break as you find it and do not straighten it, because moving it hurts and can do more damage. The same published first-aid guidance makes one exception: if circulation is poor and no trained person is quickly available, try to bring the limb back toward its normal position, which reduces damage from lack of blood. Wilderness first-aid standards teach gentle traction into position for bent long-bone breaks. Not doing it may cost the limb; doing it may cause pain and further injury. What helps most: reaching care (removes the question); hands-on wilderness training (reduces it a lot)."
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "MedlinePlus and WFA scope (WEM 2013;24:456-62) quotes verified; one-pull/firm-resistance limits labelled as the card's own; summary no longer overstates WFA." }
 ---
 
 # DC-29. One traction attempt on a fractured limb with no pulse below it, when no care is coming
@@ -39,9 +39,11 @@ reminder for trained hands, not the training.
 
 > **SAFETY**
 > - **If any care can be reached, go now** (→ 12-16). This card is for when it cannot.
-> - **Never on a suspected spine injury** (MedlinePlus, Broken Bone). **Do not move a hip, pelvis
->   or thigh injury unless absolutely necessary** (MedlinePlus). **Bone showing through the skin:**
->   cover it and do not push it back (→ 12-09); this card does not cover it.
+> - **Never on a suspected spine injury**: "DO NOT try to reposition a suspected spine injury"
+>   (MedlinePlus, Broken Bone). **Do not move a person with an injured hip, pelvis or upper leg
+>   unless it is absolutely necessary** (MedlinePlus). **Bone showing through the skin:** cover it,
+>   and "don't try to line up the fracture unless you are medically trained to do so" (MedlinePlus;
+>   → 12-09); this card does not cover it.
 > - **Stop any serious bleeding first** (→ 12-02). Never loosen a tourniquet once placed while
 >   help can still come; mark the time. If no help will ever come, the conversion decision is
 >   DC-25 (→ 30-26).
@@ -68,9 +70,11 @@ reminder for trained hands, not the training.
   available, try to realign the limb into a normal resting position. This will reduce swelling,
   pain, and damage to the tissues from lack of blood."
 - **Wilderness first aid** (Minimum Guidelines and Scope of Practice for Wilderness First Aid,
-  2012, published in the Wilderness Medical Society's journal): treat unstable injuries with
-  "gentle traction into position for angulated long bones", and splints that "allow for ongoing
-  monitoring of perfusion" (blood flow).
+  December 2012 version, published in Wilderness & Environmental Medicine, the Wilderness Medical
+  Society's journal, 2013): treat unstable injuries with "gentle traction into position for
+  angulated long bones" (bent breaks of the long bones of the arm or leg), and splints that "allow
+  for ongoing monitoring of perfusion" (blood flow). The same standard lists "persistently
+  impaired CSM" (circulation, sensation, movement) as a high-risk problem that needs evacuation.
 - **Military prolonged-care guidance** (Joint Trauma System, Prolonged Casualty Care, 2021):
   "Re-check all pulses after splint placement."
 
@@ -115,6 +119,10 @@ meets firm resistance, stop. Then re-check colour, warmth and pulse, splint the 
 position it is now in, and re-check the pulse again after splinting (Joint Trauma System). If the
 pulse has not come back, do not try again: splint it as it lies, keep the person warm (→ 08-05),
 and make the move-toward-care decision now (→ 12-16).
+
+The sources say only "gentle" (WFA) and "try to realign" (MedlinePlus). **The limits of one pull
+and stopping at firm resistance are this card's own, not a published rule**: they are there to
+keep an untrained hand from doing more harm.
 
 ## 5. The options
 

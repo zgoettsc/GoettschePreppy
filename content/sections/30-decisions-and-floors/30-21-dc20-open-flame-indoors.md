@@ -27,7 +27,7 @@ options:
     label: "Indoors with extinguisher, alarms and rules"
     summary: "Candles, oil lamps or stove-top flame cooking are allowed only with working smoke and CO alarms, an extinguisher within reach, 12 inches clear all round, an adult in the room, never where anyone sleeps, out when the room is left."
 settings_summary: "In an outage, candles, oil lamps and cooking on a match-lit gas stove are the oldest answers to dark and cold food. US Fire Administration advice is to use flashlights, not candles, in a power outage, and to keep candles at least 12 inches from anything that burns: it counts about 20 home candle fires a day, from candles that tip over or sit too close to something that burns. Any flame indoors also adds carbon monoxide and uses oxygen, and CDC says never heat a home with a gas oven. Lamp oil and kerosene are poisonous if a child swallows them. What helps most: battery lights and outdoor cooking (removes it); working smoke and CO alarms, an extinguisher in reach, an adult present, nothing within 12 inches, never in sleeping areas (reduces it a lot)."
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "NFPA heating (empty archive) and CDC Winter Weather (no oven line) dropped; USFA candle page quoted; MMWR lamp-oil report read." }
 ---
 
 # DC-20. Open-flame cooking, candles or oil lamps indoors

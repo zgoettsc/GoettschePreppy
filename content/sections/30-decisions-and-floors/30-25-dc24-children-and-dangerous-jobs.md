@@ -26,7 +26,7 @@ options:
     label: "Write our own rule"
     summary: "The adults fill in the job table on this page with the age, training and supervision each child needs for each dangerous job, agree it, sign and date it, and review it on each child's birthday."
 settings_summary: "This card has no multiple choice. In a long emergency there is more work than adults to do it, and children want and need real jobs. But fire, fuel, cutting tools, chainsaws, large animals and open water injure and kill children every year on farms, where the same jobs are done. Farm-work guidelines developed with NIOSH support match each job to a child's physical, mental and social abilities. The answer is a rule written in advance: for each job, the age to start learning, the training, the supervision, and the habit a child must show before doing it alone. Fill in the table on the page. Locked storage of firearms, fuel, medicines and chlorine stays a floor."
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "NIOSH page (404) replaced by NIOSH 2011-129 on the CDC archive; OSHA chainsaw (dead URL) and hand-tool claims re-cited to OSHA 3269 and 3080; CDC drowning quoted." }
 ---
 
 # DC-24. Children doing dangerous jobs because hands are short

@@ -17,7 +17,7 @@ sources:
   - national-center-for-home-food-preservation-nchfp-usi-24e233
   - national-center-for-home-food-preservation-nchfp-gen-c43991
   - national-center-for-home-food-preservation-nchfp-can-992460
-  - south-dakota-state-university-extension-altitude-adj-239e7e
+  - csu-extension-high-elevation-food-preparation-2023-r12
   - cdc-botulism-prevention-d03ef9
 related: [04-04-canning-water-bath, 04-06-dehydrating, 04-07-smoking-and-curing, 04-08-fermentation, 04-09-winter-cold-storage, 04-17-food-safety-power-outage, 05-09-field-dressing-and-butchering, 07-01-cooking-on-an-open-fire, 07-05-propane-and-camp-stoves, 06-04-wood-supply-and-depletion, 06-06-fuel-storage-safety, 29-08-ex08-canning-words, 30-01-the-floors, 30-15-dc14-questionable-food, 30-19-dc18-unlabeled-food-and-allergies, 30-21-dc20-open-flame-indoors]
 cards: [DC-14, DC-18, DC-20]
@@ -88,8 +88,9 @@ more higher up; check the table every time.**{{/if}}
 
 **Pressure to use, by gauge type.** The rows to 8,000 ft are the steps printed in the USDA
 vegetable and meat tables (USDA Complete Guide, Guides 4 and 5). USDA's tables stop at
-8,000 ft; the 8,001 to 10,000 ft row is from South Dakota State University Extension (Altitude
-Adjustments for Home Canning). The recipe's own table governs if it differs.
+8,000 ft; the 8,001 to 10,000 ft row (15 lb) is from Colorado State University Extension (High
+Elevation Food Preparation, 2023), whose table matches USDA's below 8,000 ft. The recipe's own
+table governs if it differs.
 
 | Elevation | Weighted gauge | Dial gauge |
 |---|---|---|

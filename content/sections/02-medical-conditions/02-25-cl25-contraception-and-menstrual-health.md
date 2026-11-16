@@ -13,7 +13,6 @@ sources:
   - cdc-contraception-and-birth-control-methods-0624ed
   - fda-plan-b-one-step-information
   - fda-opill-otc-2023
-  - who-family-planning-handbook-2022
   - cdc-menstrual-hygiene-12fca8
   - fda-facts-on-tampons
   - cdc-heavy-menstrual-bleeding
@@ -64,8 +63,9 @@ contraception, period care without stores, and the warning signs that need care.
 {{#if has.condition.CL-25}}**Someone in your household has this condition.** This module is at the front of the medical section for you.{{else}}**Nobody in your household is marked with this condition.** The module stays in the binder because most households include someone who has periods; part 4 and part 5 apply to them.{{/if}}
 
 > **SAFETY**
-> - **Toxic shock syndrome is rare but can kill.** Use the lowest-absorbency tampon that works
->   and change it as the package says; know the signs (part 5; FDA, The Facts on Tampons).
+> - **Toxic shock syndrome is rare but can kill.** FDA: use the lowest-absorbency tampon needed,
+>   change it every 4 to 8 hours, never wear one for more than 8 hours, and use tampons only
+>   during a period; know the signs (part 5; FDA, The Facts on Tampons).
 > - **Very heavy bleeding, or severe one-sided belly pain with a missed period, is an emergency**
 >   (part 5).
 > - **This page never calculates, adjusts or suggests a dose or schedule.** Each method's own
@@ -93,8 +93,8 @@ pain, heavy bleeding, and the supplies and hygiene they need.
 |---|---|---|
 | Pills | Packs on hand; each pack lasts a set number of days (the pack says). | Protection ends; it can end within days of missed pills (the leaflet says). |
 | Patch, ring | Patches or rings on hand; each lasts a set time (the box says). | Protection ends. |
-| Injection | Next injection date on the clinic card. | Protection ends after the due date; check the leaflet. |
-| IUD or implant | The removal or replacement date on the card. Lasts years. | The most resilient methods in a long emergency. |
+| Injection | Every three months (CDC); next date on the clinic card. | Protection ends after the due date; check the leaflet. |
+| IUD or implant | The replacement date on the card. CDC: implant 3 years; hormonal IUD 3 to 8 years; copper IUD up to 10 years. | The most resilient methods in a long emergency. |
 | Condoms | Count them; one each time. | No barrier, no protection from infections. |
 | Pads, tampons | Count them; several per day of a period. | Reusable products or improvised cloth. |
 | Pain relievers | Count them (→ 12-13). | Heat, rest and movement only. |
@@ -111,38 +111,52 @@ pain, heavy bleeding, and the supplies and hygiene they need.
 
 ## 4. Day by day without it
 
-**When a method runs out.** Pregnancy becomes possible quickly after pills, patches and rings
-stop; after the injection, fertility can take longer to return but cannot be counted on to stay
-away. There is no danger to the body in stopping these methods suddenly; the risk is pregnancy.
+**When a method runs out.** Count on pregnancy being possible as soon as a method stops or a
+dose is late; the leaflet says when protection ends. The main risk of running out is pregnancy
+(→ 02-12).
 
-**How well each method works, as published.** CDC lists the percentage of women who become
-pregnant in the first year of **typical use** (CDC, Contraception and Birth Control Methods):
+**How well each method works, as published.** CDC prints a **typical-use failure rate** for each
+method; the lower the number, the fewer pregnancies (CDC, Contraception and Birth Control
+Methods, 2024). Typical use means the way people really use a method, missed pills included.
 
-| Method | Pregnancies per 100 women in a year, typical use |
+| Method | Typical-use failure rate (CDC) |
 |---|---|
-| Implant | 0.1 |
-| Hormonal IUD | 0.1 to 0.4 |
-| Copper IUD | 0.8 |
-| Injection | 4 |
-| Pill, patch or ring | 7 |
-| Male condom | 13 |
-| Withdrawal | 20 |
-| Fertility awareness methods | 2 to 23 |
-| Spermicide | 21 |
+| Implant | 0.1% |
+| Levonorgestrel (hormonal) IUD | 0.1–0.4% |
+| Copper T IUD | 0.8% |
+| Injection ("shot") | 4% |
+| Combined pill | 7% |
+| Progestin-only pill | 7% |
+| Patch | 7% |
+| Vaginal ring | 7% |
+| Male condom | 13% |
+| Diaphragm | 17% |
+| Sponge | 17% |
+| Female condom | 21% |
+| Spermicides | 21% |
+| Cervical cap | 22% |
+| Fertility awareness-based methods | 2–23% (range) |
+| Tubal surgery | 0.5% |
+| Vasectomy | 0.15% |
+
+CDC does not list withdrawal; treat it as unreliable.
 
 **Methods that need no supply:**
-- **Fertility awareness** (tracking the cycle by dates, temperature and cervical mucus) needs
-  training and discipline; its range in the table shows how much that matters (WHO and Johns
-  Hopkins, Family Planning: A Global Handbook for Providers). Learn it from a book or a trained
-  teacher now, not in a crisis.
-- **Breastfeeding** prevents pregnancy reliably only under strict conditions described in the
-  WHO handbook (the baby is under 6 months, fed only at the breast day and night, and periods have
-  not returned). Outside those conditions it cannot be relied on (→ 02-13).
-- **Withdrawal** and **abstinence**: honest numbers are in the table.
+- **Fertility awareness** (tracking the cycle by dates, temperature and cervical mucus): CDC's
+  range of 2–23% shows how much it depends on training and discipline. Learn it from a book or a
+  trained teacher now, not in a crisis.
+- **Breastfeeding** works as birth control (the lactational amenorrhoea method) only while all
+  three of CDC's conditions hold: no periods since the birth, fully or nearly fully
+  breastfeeding, and less than 6 months since the birth. When any one stops, another method is
+  needed (CDC, Contraception and Birth Control Methods; → 02-13).
+- **Withdrawal:** not in CDC's table; do not count on it. **Abstinence** works only when kept.
 
 **Emergency contraception.** Levonorgestrel pills (sold as Plan B One-Step and generics) are sold
-without a prescription and without an age limit (FDA, Plan B One-Step Information). FDA says it
-works best the sooner it is taken after unprotected sex; the label gives the time window. **Keep a
+without a prescription and without an age limit (FDA, Plan B One-Step Information). FDA advises
+following the product directions exactly and taking it as soon as possible within 72 hours
+after unprotected sex or a method failure (FDA). CDC adds that a copper IUD placed within 5
+days of unprotected sex also works as emergency contraception, while a clinic can still do it
+(CDC, Contraception and Birth Control Methods). **Keep a
 pack in the medical kit; it is one of the most useful things a pharmacy run can buy.** It is not
 for regular use.
 
@@ -151,10 +165,12 @@ without a prescription (FDA, First Nonprescription Daily Oral Contraceptive). It
 how to take it and what to do after a missed or late pill.
 
 **Period care without stores** (CDC, Menstrual Hygiene; → 13-08):
-- **Menstrual cups** last years; rinse and reinsert as the maker says, and clean between cycles as
-  the instructions say (boiling is common). They need clean hands and a little water.
-- **Cloth pads and period underwear** last years; wash with soap, rinse well, dry fully, ideally
-  in sunlight (→ 13-04).
+- **Menstrual cups** last years. CDC: clean the cup daily, and sanitise it after the period by
+  boiling for 1 to 2 minutes (CDC, Menstrual Hygiene). They need clean hands and a little water.
+- **Cloth pads and period underwear** last years; wash them as the maker says (CDC), rinse well
+  and dry fully (→ 13-04).
+- **Disposable pads:** CDC says change them every few hours whatever the flow, more often on
+  heavy days; tampons every 4 to 8 hours (CDC, Menstrual Hygiene).
 - **Improvised pads** from clean, absorbent cotton cloth folded in layers.
 - **Hands:** wash with soap before and after changing any product (CDC, Menstrual Hygiene;
   → 13-02).
@@ -165,12 +181,14 @@ how to take it and what to do after a missed or late pill.
 
 ## 5. Warning signs that mean an emergency
 
-- **Toxic shock syndrome:** FDA lists sudden high fever, vomiting, diarrhoea, a sunburn-like rash,
-  dizziness or fainting, and muscle aches (FDA, The Facts on Tampons). **Remove the tampon or cup
-  and get care.**
-- **Heavy menstrual bleeding:** CDC describes soaking through one or more pads or tampons every
-  hour for several hours in a row, needing two products at once, passing clots the size of a
-  quarter or larger, or a period lasting more than 7 days (CDC, Heavy Menstrual Bleeding). With
+- **Toxic shock syndrome:** FDA lists a sudden fever (usually 102 °F or more), vomiting,
+  diarrhoea, fainting or feeling faint when standing up, dizziness, and a rash that looks like
+  sunburn. With any of these during or just after a period, stop using tampons and get care at
+  once (FDA, The Facts on Tampons). **Remove the tampon or cup.**
+- **Heavy menstrual bleeding:** CDC's signs include soaking through one or more pads or tampons
+  every hour for several hours in a row, needing to double up on pads, passing clots the size of
+  a quarter or larger, a period lasting more than 7 days, and feeling tired, low on energy or
+  short of breath (CDC, About Heavy Menstrual Bleeding). With
   dizziness, a racing heart or fainting, it is an emergency.
 - **A missed period with severe one-sided belly pain, shoulder-tip pain, or fainting** can be a
   pregnancy outside the womb (ectopic), which can bleed inside. Get care at once.

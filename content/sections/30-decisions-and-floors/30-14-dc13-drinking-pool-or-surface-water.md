@@ -32,7 +32,7 @@ options:
     label: "Surface water through the treatment ladder"
     summary: "Streams, ponds and lakes away from obvious fuel, chemical or farm runoff are drunk after the full ladder: settle, filter, then boil or disinfect by the published method. Fresh pools as in the option above; salt pools and hot tubs are still distilled."
 settings_summary: "A swimming pool or a nearby stream can look like a large water supply. Germs in water (bacteria, viruses, parasites) are killed by boiling, and most by chlorine used as CDC and EPA describe. Chemicals are not. Pool water holds chlorine, stabilizer, often algaecide, and in a salt pool, salt that no boiling or filter removes. Hot tubs hold bromine and body oils. Streams and ponds can carry fuel, farm or industrial runoff. CDC says water containing fuel or toxic chemicals cannot be made safe by boiling or disinfecting. FEMA and the Red Cross say not to drink from pools or spas. Distillation (boil and catch the steam) removes salt and most chemicals, but it is slow and uses fuel. What helps most: pool and hot-tub water for flushing and washing, stored water for drinking (removes most of it); distil what you drink from them (reduces it a lot)."
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Boil line now EPA 5,000 ft with CDC 6,500 ft named; pool/spa and distillation re-cited to FEMA 477 (CDC hygiene page does not say it); option 3 pools made explicit." }
 ---
 
 # DC-13. Drinking water from a pool, hot tub or untreated surface source

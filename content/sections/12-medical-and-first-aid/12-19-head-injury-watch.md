@@ -41,7 +41,7 @@ review_pass: null
 # Head injury: the watch protocol
 
 **What this page is for.** Sorting head bumps into "watch at home" and "move toward care now",
-and running a 24 to 48 hour watch properly. It diagnoses nothing.
+and running the watch properly. It diagnoses nothing.
 
 > **SAFETY**
 > - **Know the red flags below by heart** (CDC, HEADS UP: Concussion Danger Signs). They are the
@@ -49,8 +49,9 @@ and running a 24 to 48 hour watch properly. It diagnoses nothing.
 > - **A red flag with 911 available: call 911. A red flag with no emergency service: go toward
 >   care now, not at dawn** (→ 01-02). Worsening after a head injury is a surgical problem and
 >   nothing on this page treats it.
-> - **Pain relief during the watch: acetaminophen, not ibuprofen or another NSAID**, while a bleed
->   inside the skull is still possible (→ 12-13).
+> - **Pain relief during the watch: acetaminophen, not ibuprofen or another NSAID.** The AAP
+>   says no pain medicine except acetaminophen unless a doctor says otherwise (AAP, Head
+>   Injury; → 12-13).
 > - **Anyone on a blood thinner** bleeds inside the skull from smaller knocks (→ 02-10). Their
 >   threshold for moving toward care is much lower.
 
@@ -78,29 +79,30 @@ Injury):
 - **Low worry (the usual toddler bump):** a short fall from standing or sitting height onto a soft
   surface, cried at once, comforted quickly, acting normal within minutes.
 - **High worry: the watch is mandatory and the threshold for moving toward care is lower:**
-  - A fall from **higher than about 3 feet** for a toddler (counter, bunk, ladder, out of
-    someone's arms), or any fall **down stairs**
+  - A fall **from a height** (counter, bunk, ladder, out of someone's arms), or any fall
+    **down stairs**
   - The head striking a **hard surface** (concrete, ice, a stone hearth, cast iron) with force
   - **High-energy injuries:** a vehicle crash, kicked by an animal, hit by a falling or swinging
     object (the woodpile, the axe)
   - **No cry, or knocked out**, even briefly. Any loss of consciousness means moving toward care
     wherever it exists
-  - **Under about 2 years:** a thinner skull and no reliable way to say what hurts. Worry earlier
-    and longer.
+  - **Under 2 years:** no reliable way to say what hurts. The AAP's home advice is written for
+    children 2 and older, so worry earlier and longer.
 
 ## Red flags: move toward care now
 
 From the CDC (HEADS UP: Concussion Signs, Symptoms and Danger Signs), the AAP (Head Injury) and
 MedlinePlus (Head injury: first aid). **Any one**, at any point in the watch:
-- **Headache that gets worse** instead of fading
-- **Repeated vomiting** (more than once, or starting hours after the injury)
-- **One pupil larger than the other**
-- **Slurred speech**, or **weakness, numbness or clumsiness on one side**
-- **Seizure**
-- **Will not wake** to voice and touch, or cannot **stay** awake
-- **Growing confusion, agitation, or behaviour that is not like them**
-- **Baby:** crying that **cannot be consoled at all**, **will not nurse or eat**, or a **bulging
-  soft spot** on top of the head
+- **A headache that gets worse and does not go away**
+- **Repeated vomiting** (MedlinePlus: vomits more than once)
+- **One pupil larger than the other, or double vision**
+- **Slurred speech, weakness, numbness or decreased coordination**
+- **Convulsions or seizures**
+- **Cannot be woken, or cannot stay awake**; any loss of consciousness
+- **Cannot recognise people or places**; **unusual behaviour, growing confusion, restlessness or
+  agitation**
+- **Baby or toddler:** **will not stop crying and cannot be consoled**, or **will not nurse or
+  eat** (CDC); a **bulging soft spot** on top of the head
 - **Clear or bloody fluid from the nose or ears** (MedlinePlus: possible skull fracture; do not
   plug the ear or nose, let it drain)
 
@@ -108,18 +110,24 @@ MedlinePlus (Head injury: first aid). **Any one**, at any point in the watch:
 (→ 25-03, → 25-04); on a journey, the nearest facility, not the destination (→ 01-07). Bring this
 page and the log: the times you wrote down are the history the receiving clinician needs.
 
-## The watch: 24 to 48 hours
+## The watch
 
-For any head injury above a trivial bump, and every high-worry injury:
-1. **First 15 minutes:** sit them down and look at them. Cold on the lump. Check pupils, that
-   they know you, and that arms and legs move normally and equally.
+For any head injury above a trivial bump, and every high-worry injury. The AAP: an adult stays
+with the child for the first 24 hours, and the child may need watching carefully for a few days,
+because signs of a more serious injury can be delayed (AAP, Head Injury). CDC: signs may take
+hours or days to appear (CDC, HEADS UP).
+1. **First minutes:** sit them down and look at them. A cold compress on the lump (the AAP
+   suggests 20 minutes). Check pupils, that they know you, and that arms and legs move
+   normally and equally.
 2. **Start the log** (→ 25-05): time of injury, how it happened, whether they cried at once, any
    vomiting, and a note of what normal looks like for this person today.
-3. **Watch closely for 24 hours, loosely for 48.** Quiet play is fine, supervised. No rough play,
-   no climbing, no bathing alone.
-4. **Sleep is allowed.** The AAP says letting an injured child sleep is generally safe with
-   observation. With no emergency service behind you, you may choose to add **wake checks the
-   first night.** Our interval, if we use one: every ____ hours. At each check, see all three:
+3. **Stay with them for the first 24 hours, then keep watching for a few days** (AAP). Quiet
+   play is fine, supervised. No rough play, no climbing, no bathing alone.
+4. **Sleep is allowed.** The AAP: "It is okay for your child to go to sleep. However, your
+   child's doctor may recommend that you check your child every 2 to 3 hours," to make sure they
+   "can move normally, wake enough to recognize you, and respond to you." With no doctor to
+   ask, write the interval you will use the first night: every ____ hours. At each check, see
+   all three:
    - **Wakes** to voice or a gentle touch. A groggy, grumpy, half-asleep toddler is normal and
      passes.
    - **Settles** back to sleep like themselves, breathing and colour normal.
@@ -129,14 +137,14 @@ For any head injury above a trivial bump, and every high-worry injury:
    vomiting, will not settle, weakness or odd movement on one side, or (an older child or adult)
    does not know you. A toddler who does not "recognise" you at 3 a.m. is not by itself a red
    flag; the red-flag list above still is, at any hour.
-5. **48 hours with no red flags:** back to normal supervision. Keep the log page.
+5. **A few days with no red flags:** back to normal supervision. Keep the log page.
 
 ## Notes by age
 
 - **Babies and toddlers who cannot talk yet:** they cannot report a headache, so **behaviour is
   the symptom report.** Feeding changes, unusual sleepiness or floppiness, crying that will not
   stop, losing a skill they had yesterday (standing, babbling), and the soft-spot check are your
-  examination. Vomiting counts sooner: **once is a note, twice is a red flag.**
+  examination. Vomiting counts sooner: **once is a note, more than once is a red flag.**
 - **Young children who can talk:** ask simple questions: "Where does it hurt?", "How many
   fingers?", names, favourite things. A young child who wants to lie down right after a big hit
   gets the full watch. Children may hide symptoms to keep playing; watch the play itself (balance,
@@ -151,16 +159,20 @@ For any head injury above a trivial bump, and every high-worry injury:
 
 ## Concussion aftercare and return to activity
 
-From the CDC (HEADS UP: Returning to Sports and Activities). If the watch passes but they clearly
-"had their bell rung" (headache, fog, light hurts, irritable):
-- **First 24 to 48 hours: relative rest.** Quiet activity; screens and rough play turned down.
-  Total isolation in a dark room is no longer the advice.
-- **Then step back up gradually:** light activity, then normal daily activity, then full activity,
-  moving up only when symptoms do not come back at the current step. For children that means
-  chores, lessons and play return in stages (→ 20-03).
+From the CDC (What to Do After a Mild TBI or Concussion; HEADS UP: Returning to Sports and
+Activities). If the watch passes but they clearly "had their bell rung" (headache, fog, light
+hurts, irritable):
+- **Rest the first few days**, when symptoms are worst, then **ease back into regular
+  activities**, cutting back if symptoms get worse. Limit screens and loud music before bed and
+  keep a regular bedtime (CDC).
+- **Step back up gradually:** regular daily activity first, then light exercise, then harder
+  activity. CDC's return steps each typically take at least 24 hours, and a person moves up only
+  when there are no new symptoms at the current step. For children that means chores, lessons
+  and play return in stages (→ 20-03).
 - **A second head injury before the first has healed is the thing to avoid.** That is most of why
   return is staged. No climbing, sleds or bikes until free of symptoms.
-- Symptoms that last beyond a couple of weeks are worth a clinician wherever one is reachable.
+- CDC: most people return to work, school and many other activities within a few days or weeks.
+  Symptoms that do not go away, or get worse, are worth a clinician wherever one is reachable.
 
 ## Gear
 

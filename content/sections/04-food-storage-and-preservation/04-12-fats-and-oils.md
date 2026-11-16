@@ -13,6 +13,8 @@ sources:
   - us-fda-food-allergies-627fb6
   - foodsafety-gov-usda-hhs-cook-to-a-safe-minimum-inter-13daf3
   - national-center-for-home-food-preservation-nchfp-gen-c43991
+  - ndsu-extension-oil-change-in-your-kitchen-2017-r12
+  - usda-fooddata-central-sr-legacy-staples-r12
 related: [04-01-calorie-and-stockpile-math, 04-03-bulk-staples-storage, 04-10-rotation-and-inventory, 04-14-powdered-and-canned-dairy, 05-07-hunting, 05-09-field-dressing-and-butchering, 06-02-sustaining-fire, 07-04-dutch-oven-and-baking, 10-02-fuel-lamps-and-candles, 13-09-soap-making, 02-04-cl04-food-allergy, 30-01-the-floors]
 cards: []
 explainers: []
@@ -54,7 +56,8 @@ keeps, and how to render animal fat into cooking fat that stores for months.
 ## Why fat matters more than people plan for
 
 - **Calorie density:** about 4,000 calories per pound against about 1,600 for grain. A gallon of
-  oil is roughly **30,000 calories** in a container you can carry.
+  oil is roughly **30,000 calories** in a container you can carry (worked from USDA FoodData
+  Central: oil 884 calories per 100 g).
 - **Eating and cooking:** rice and beans with no fat is a bleak, hard-to-eat diet. Fat makes
   stored food into meals people finish, which matters a great deal with children.
 - **Nutrition:** fat carries the fat-soluble vitamins (A, D, E, K) and is a real need.
@@ -62,14 +65,18 @@ keeps, and how to render animal fat into cooking fat that stores for months.
 
 ## Shelf life: the limit
 
-| Fat | Shelf life (cool, dark, sealed) | Notes |
+Liquid cooking oil: **about 1 to 2 years unopened, depending on the oil; a few months to a year
+once opened.** A fridge or cold room extends it (NDSU Extension, Is It Time for an Oil Change in
+Your Kitchen?, 2017). For the other fats, use the maker's date and your own nose, and rotate.
+
+| Fat | How it keeps (cool, dark, sealed) | Notes |
 |---|---|---|
-| **Coconut oil** | 2 to 3 years or more | Very stable; solid at room temperature |
-| **Olive oil** | 1½ to 2 years | Check for blends |
-| **Canola, corn, sunflower** | 1 to 2 years | Single-source; **not** "vegetable oil" |
-| **Shortening (canned)** | 2 to 5 years or more | Very stable sealed; check for soy |
-| **Lard, tallow (rendered, sealed)** | 1 to 2 years at room temperature; longer cold | Well rendered is very stable |
-| **Butter: COMMERCIALLY canned, or ghee** | 1 to 2 years or more | Ghee (butter with the milk solids removed) keeps far better than butter |
+| **Coconut oil** | Among the more stable fats; use the maker's date | Solid at room temperature |
+| **Olive oil** | About 1 to 2 years unopened | Check for blends |
+| **Canola, corn, sunflower** | About 1 to 2 years unopened | Single-source; **not** "vegetable oil" |
+| **Shortening (canned)** | Stable while sealed; use the maker's date | Check for soy |
+| **Lard, tallow (rendered, sealed)** | Keeps longer cold than warm | Well rendered keeps best |
+| **Butter: COMMERCIALLY canned, or ghee** | Use the maker's date | Ghee (butter with the milk solids removed) keeps far better than butter |
 | **Nuts and seeds** | Months | High oil; also common allergens |
 
 **Never home-can butter, milk, cheese or any dairy.** There is no tested process for it (NCHFP);
@@ -145,7 +152,7 @@ If anyone in the house has a food allergy (→ 02-04):
 ## When it runs out
 
 - **Runway:** count in **pounds or quarts,** and remember it is the **shortest-lived** bulk food
-  (1 to 2 years, not decades).
+  (about 1 to 2 years for liquid oil, not decades).
 - **Ration:** spend fat on flavour and calories, not on deep frying. Reuse cooking grease.
 - **Resupply:** **rendering** is the renewable answer, from hunting (→ 05-07), livestock
   (Section 05) or trade. It is one of the few foods with a real renewable path at household scale.

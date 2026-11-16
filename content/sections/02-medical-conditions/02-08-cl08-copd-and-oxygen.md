@@ -2,7 +2,7 @@
 id: 02-08-cl08-copd-and-oxygen
 section: 02-medical-conditions
 title: "CL-08. COPD and oxygen dependence"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: condition
 danger_level: critical
@@ -11,8 +11,8 @@ tags: [condition library, COPD, emphysema, chronic bronchitis, oxygen, concentra
 derived_from: [12-11-chronic-conditions, 09-06-charging-medical-devices, 09-10-power-for-medical, 27-03-protecting-electronics]
 sources:
   - nhlbi-copd
-  - nhlbi-oxygen-therapy
-  - nfpa-medical-oxygen-safety
+  - usfa-oxygen-tank-safety-r10
+  - american-lung-association-using-oxygen-safely-r10
   - epa-wildfire-smoke-guide
   - cdc-carbon-monoxide-poisoning-basics-772153
   - american-red-cross-power-outage-safety-6d07a8
@@ -64,14 +64,16 @@ supplier now.
 {{#if has.oxygen}}**Someone in your household uses oxygen.** Read part 3 (fire) and part 9 (power) today.{{/if}}
 
 > **SAFETY**
-> - **Oxygen makes things burn hotter and faster.** No smoking, no candles, no open flame and no
->   stove near oxygen. NFPA says keep oxygen at least **5 feet** from heat sources, open flames
->   and electrical devices (NFPA, Medical Oxygen Safety).
+> - **Oxygen makes things burn more readily.** No smoking, no candles, no open flame and no
+>   stove near oxygen. The US Fire Administration says keep oxygen tanks at least **5 feet**
+>   from a heat source, open flames or electrical devices (USFA, Oxygen Tank Safety); the
+>   American Lung Association gives the same 5 feet.
 > - **Never run a generator, charcoal, or any engine indoors, in a garage, or near an open
 >   window.** Carbon monoxide kills in minutes with no warning; alarms fail; there is no
 >   mitigation that works every time (floor, → 30-01).
-> - **Do not turn the oxygen flow up or down on your own.** Too little and too much can both
->   harm a person with COPD. The flow is the prescriber's, written in part 7.
+> - **Do not turn the oxygen flow up or down on your own.** The American Lung Association says
+>   never change the flow rate from what the doctor prescribed (ALA, Using Oxygen Safely). The
+>   flow is the prescriber's, written in part 7.
 
 ## Do this now: a bad breathing spell
 
@@ -81,16 +83,17 @@ supplier now.
    cylinder is not empty, and the concentrator is running.
 4. **Slow breathing out:** in through the nose, out slowly through pursed lips, as if blowing
    on soup. Stay calm with them.
-5. **Danger signs** (part 5): blue lips, new confusion or drowsiness, chest pain, cannot speak:
+5. **Danger signs** (part 5): cannot catch their breath or talk, blue or grey lips, not alert,
+   a very fast heartbeat, or the treatment is not working:
    **follow the prescriber's plan and seek any care that exists.**
 
 ## 1. What it is
 
 COPD is a group of lung diseases, mainly emphysema and chronic bronchitis, that block airflow and
 make breathing hard. It gets worse over years, and "flare-ups" (sudden worsening, often with a
-chest infection) can be life-threatening (NHLBI, COPD). Some people need **oxygen therapy**:
-extra oxygen through a nose tube or mask, from a concentrator, a cylinder or a liquid-oxygen
-tank (NHLBI, Oxygen Therapy).
+chest infection) can be serious enough to need hospital care (NHLBI, COPD). Some people need
+**oxygen therapy**: extra oxygen through tubes resting in the nose or a face mask (NHLBI, COPD),
+from a concentrator, a metal tank (cylinder) or a liquid-oxygen unit (ALA, Using Oxygen Safely).
 
 ## 2. What runs out, and how fast
 
@@ -98,7 +101,7 @@ tank (NHLBI, Oxygen Therapy).
 |---|---|---|
 | **Oxygen from a concentrator** | Only as long as there is power. Write its watts from the label: ________ W. | Back to cylinders, then none. |
 | **Oxygen cylinders** | Hours, depending on size and flow. Get the supplier's chart for your cylinders at your flow and copy it here: ________ | The person is without oxygen. |
-| **Liquid oxygen** | Slowly evaporates even when not in use (NHLBI). | As above. |
+| **Liquid oxygen** | Slowly evaporates even when not in use; ask the supplier how fast. | As above. |
 | Portable concentrator batteries | Hours per charge, from the label. | Plug in, or switch source. |
 | Rescue and daily inhalers | Dose counters. | Flare-ups become more frequent and worse. |
 | Tubing, nose pieces, filters, humidifier bottles | Count them. | Infection, poor flow. |
@@ -110,13 +113,18 @@ tank (NHLBI, Oxygen Therapy).
 
 ## 3. Storing oxygen and medicines safely
 
-**Fire is the oxygen hazard.** Oxygen does not burn by itself, but it makes anything that burns
-burn much faster and hotter; clothing, hair and bedding soak it up (NFPA, Medical Oxygen Safety).
-NFPA's rules, in plain words:
-- **No smoking** anywhere oxygen is in use; put a sign on the door.
-- **At least 5 feet** between oxygen and any heat source, open flame or electrical device.
-- **No candles, matches, lighters, oil lamps, wood stoves or gas stoves near oxygen.**
-- **Keep oil, grease and oil-based lotions away** from the oxygen equipment.
+**Fire is the oxygen hazard.** Oxygen does not burn by itself, but it supports burning:
+materials burn more readily where there is extra oxygen (ALA, Using Oxygen Safely). The rules,
+in plain words (USFA, Oxygen Tank Safety; ALA, Using Oxygen Safely):
+- **No smoking** near the person, by anyone; "No Smoking" and "No Open Flames" signs in and
+  outside the home.
+- **At least 5 feet** between the oxygen and any heat source, open flame or electrical device.
+- **Never a candle, match, lighter or other open flame near medical oxygen.** No oxygen while
+  cooking with gas. Oil lamps and wood stoves are open flame too.
+- **No aerosol sprays, vapour rubs, petroleum jelly or oil-based lotions**; never oil the
+  equipment or handle it with greasy hands. Use water-based products.
+- **Turn the oxygen off when not in use**, and do not lay a running nose tube or mask on the bed
+  or a chair.
 
 **In a house lit and heated by flame, this changes the plan.** Put the oxygen user in a room
 with **no** flame, or move the flame. Your household's choices on indoor flame and heaters are
@@ -126,8 +134,9 @@ know the burn page (→ 12-03).
 
 {{figure fig-oxygen-no-flame-zone}}
 
-**Cylinders:** stand them upright and secure them so they cannot fall, in a ventilated place
-away from heat and sun; never in a closed car. Inhalers: room temperature, away from heat and
+**Cylinders and units:** secure tanks so they cannot fall; keep a liquid-oxygen unit upright at
+all times; never store oxygen in an enclosed space like a closet or a car trunk (ALA, Using
+Oxygen Safely). Keep concentrators a few inches from walls and curtains, with nothing on top. Inhalers: room temperature, away from heat and
 flame (→ 02-07).
 
 {{photo oxygen-setup}}
@@ -146,13 +155,17 @@ flame (→ 02-07).
 
 ## 5. Warning signs that mean an emergency
 
-Signs of a serious flare-up or of too little oxygen (NHLBI, COPD):
-- Much more breathless than usual, or breathless at rest; cannot speak in sentences.
-- **Blue or grey lips or fingertips.**
-- **New confusion, drowsiness or a morning headache**: can mean oxygen too low or carbon dioxide
-  too high. Also think of carbon monoxide if any fuel is burning indoors (→ 29-03).
-- Chest pain, a racing heart, or swollen ankles that are new.
-- Fever, and more or darker mucus: a chest infection (→ 12-04).
+NHLBI says to call 911 during a flare-up if (NHLBI, COPD):
+- the person is having a hard time catching their breath or talking;
+- **lips or fingernails have turned blue or grey**, a sign of a low oxygen level in the blood;
+- people around them notice they are **not mentally alert**;
+- the heartbeat is **very fast**;
+- the recommended treatment for the symptoms is not working.
+
+Also watch for fever and yellow or green phlegm, signs of a chest infection that can start a
+flare-up (NHLBI, COPD; → 12-04). New confusion or drowsiness can also be carbon monoxide if any
+fuel is burning indoors (→ 29-03). With no 911, these are the signs to seek any care that
+exists.
 
 ## 6. Sick-day basics
 

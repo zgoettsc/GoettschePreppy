@@ -31,7 +31,7 @@ options:
     label: "With epinephrine in hand, by our own line"
     summary: "Unlabelled food may be tried by the household's own written line, only with in-date epinephrine in hand, an adult who knows the plan watching, the first taste small, and never alone or at night."
 settings_summary: "When stores close, food arrives without labels: bartered, donated, scavenged, repackaged or foraged. For a person with a food allergy, a label is how you find the hidden egg, peanut, milk, sesame or soy. US law requires the nine major allergens to be declared on packaged food, but only while labels exist. Without one, a trace of the allergen, or a pot or spoon that touched it, can cause anaphylaxis: throat swelling, trouble breathing, collapse, death within minutes to hours without epinephrine. With no ambulance, epinephrine is the only treatment, and a reaction can need more than one dose. What helps most: a deep stock of verified safe food and kept labels (removes most of it); single-ingredient foods cooked in the household's own pots (reduces it a lot)."
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Avoid/carry re-cited to AAAAI Anaphylaxis page; unsupported 'reactions return' replaced by AAP 5-minute second-dose wording." }
 ---
 
 # DC-18. Feeding a food-allergic person unlabeled, traded or scavenged food

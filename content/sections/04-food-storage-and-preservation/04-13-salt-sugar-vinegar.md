@@ -105,17 +105,19 @@ trading them puts no risk in someone else's hands.
 
 ## Quantities to think about
 
-| Item | A serious household stock | Why |
+| Item | How to size it | Why |
 |---|---|---|
-| **Salt** | **50 lb or more** | Curing alone uses pounds; cheap; keeps for ever |
-| Sugar | 25 to 50 lb | Preserving, baking, morale |
-| Honey | Several pounds | Keeps for ever; morale |
-| Vinegar (5 percent) | Several gallons | Pickling, cleaning |
+| **Salt** | **The biggest of the three:** a year of table use plus every cure and ferment you plan | Curing and fermenting use it by the cup and the pound; cheap; keeps for ever |
+| Sugar | A year of baking plus the jam and fruit recipes you plan | Preserving, baking, morale |
+| Honey | What you would use in a year | Keeps; morale |
+| Vinegar (5 percent) | Your pickling recipes for a season, plus cleaning | Pickling, cleaning |
 | Canning or pickling salt | A separate stock | Ferments and cures (→ 04-08) |
 | Curing salt (nitrite) | Small, labelled, **locked** | → 04-07; poisonous in small amounts |
 
-These are starting points for an ordinary household; scale them to your {{ household.size }}
-people and to how much you plan to cure and ferment.
+**The method:** write down what your {{ household.size }} people use in a normal month, multiply
+by 12, then add what your tested preserving recipes call for (for example, the USDA sauerkraut
+recipe uses 3 tablespoons of salt per 5 lb of cabbage, → 04-08). Check the total against what
+you have.
 
 ## Gear and supplies
 

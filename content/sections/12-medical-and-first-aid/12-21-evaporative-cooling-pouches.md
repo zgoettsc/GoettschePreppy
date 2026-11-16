@@ -70,8 +70,8 @@ from the "my meds" table:
 1. **Read the instructions for your own pouch and keep them with it.** Soak time, reactivation
    interval and the stated temperature range differ by product. **This page teaches the method;
    your product's instructions govern the numbers.**
-2. **Activate one now and run it for three days with a thermometer inside and no medicine.** Find
-   out what it really does in your conditions before you rely on it.
+2. **Activate one now and run it for a few days with a thermometer inside and no medicine.**
+   Find out what it really does in your conditions before you rely on it.
 3. **Buy the size that fits what you carry** (a pen, a vial, a box of pump supplies) **and a
    second one**, because one is always drying or being re-soaked.
 4. **Put it in the medical kit with a note of its reactivation interval** (→ 22-06), and
@@ -91,29 +91,37 @@ failure below is a version of "you sealed it."
 ## How to use it
 
 ```
-[ ] SOAK the inner pouch in cold water for the time your instructions give.
-    The crystals swell into a gel. Under-soaking is the usual beginner
-    mistake; over-soaking usually just means more to pat off.
-[ ] PAT THE OUTSIDE DRY with a towel. Wet gel inside, not dripping fabric.
-[ ] PUT IN the medicine, in its own packaging, and close the pouch.
-[ ] LEAVE IT OPEN TO THE AIR. On a belt, in an open bag, on a counter.
-    ** NOT sealed in a zip bag. NOT inside an airtight cooler. NOT in the fridge. **
-[ ] RE-SOAK on your product's schedule, or sooner in dry heat.
-    Planning figure: one maker (Frio) states a soak lasts on the order of
-    TWO DAYS. That is the manufacturer's figure; your own insert governs,
-    and heat and dry air shorten it.
+[ ] SOAK the inner pouch in cold water for EXACTLY the time your
+    instructions give for its size. Time it. One maker says over-soaking
+    makes the wallet unusable until it dries out again.
+[ ] DRAIN and towel it until it is only semi-dry to the touch.
+    Gel inside, not dripping fabric.
+[ ] PUT IN the medicine, in its own packaging, already at the temperature
+    its label asks for, and close the pouch.
+[ ] LEAVE IT OPEN TO THE AIR. On a belt, in a pocket, in an open bag.
+    ** NOT sealed in a zip bag. NOT in an airtight or waterproof box.
+       NOT in the fridge or freezer. **
+[ ] RE-SOAK on your product's schedule, or sooner if you can feel dry
+    crystals in the panels again.
 [ ] CHECK IT WITH A THERMOMETER, especially the first few times and
     whenever conditions change.
 ```
+
+**One maker's published figures, as an example** (FRIO, Insulin Travel Wallet Instruction
+Leaflet): the wallet is designed to keep insulin at 18-26 °C (64.4-78.8 °F) for at least 45
+hours, even in a constant 37.8 °C (100 °F); re-soak every 45 hours or sooner if crystals can be
+felt; first soak from 2-3 minutes (Mini) to 15-19 minutes (Extra Large), then 2-4 minutes for
+later top-ups; drain 15-30 minutes after soaking. **Other products differ: your own leaflet
+governs.** Note what it does not say: it does not reach fridge temperature.
 
 ## The five ways people ruin it
 
 | Mistake | What happens |
 |---|---|
 | **Sealing it in a plastic bag** | Evaporation stops. It becomes an insulated pouch holding whatever temperature it started at, often worse than nothing |
-| **Putting it in a cooler or the fridge** | Same. And it wets everything else |
+| **Putting it in a cooler, the fridge or the freezer** | Same in a cooler. The maker says never in a fridge or freezer: it can damage the wallet |
 | **Using it in humid, still air** | Evaporation works poorly when the air is already full of moisture. **Know this before you count on it in a humid summer** |
-| **Not patting the outside dry** | Wet packaging, ruined labels, eventually mould |
+| **Over-soaking it** | The maker says an over-soaked wallet is unusable until it dries out again. Time every soak |
 | **Forgetting to re-soak** | It quietly stops working. It looks the same either way |
 
 > **The pattern:** every one of these is invisible. **The thermometer is what makes this device
@@ -161,11 +169,13 @@ insulated one.
 
 ## Care and maintenance
 
-- **Rinse and dry it fully between uses**, then store it dry and flat. Crystals stored damp grow
-  mould.
-- **Wash the outer fabric** as the instructions say; do not machine-wash the crystal pouch.
-- **They wear out.** The crystals eventually stop swelling properly. **If soaking takes longer
-  than it used to, or it dries out much faster, replace it** and note it on → 26-08.
+- **Let it dry out completely between uses**, until the gel is crystals again, shaking it now and
+  then; the maker says this can take 2 to 4 weeks. Store it dry. Never a tumble dryer.
+- **Wash the outer cover** as the instructions say; spot-clean the inner pouch; never put the
+  crystal pouch in a washing machine (FRIO leaflet).
+- **They age.** The maker says soak time gets longer with age, and the wallet still works as
+  long as the crystals swell into gel. **When the crystals no longer swell, replace it** and note
+  it on → 26-08.
 - **Keep two**, so one can dry while the other is in use.
 - **Never leave medicine in a pouch you have not re-soaked**, assuming it still works.
 

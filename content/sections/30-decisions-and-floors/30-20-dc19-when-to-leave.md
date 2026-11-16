@@ -24,7 +24,7 @@ options:
     label: "Write our own rule"
     summary: "The adults fill in the trigger table on this page with their own thresholds and destinations, agree it, sign and date it, and review it each year."
 settings_summary: "This card has no multiple choice. Leaving home is the highest-stakes decision a household makes in a long emergency, and the one most often made badly: too late, in a panic, in bad weather, with children. Staying in a stocked, known home is usually safer than moving. Leaving into a storm or extreme cold is dangerous: the National Weather Service's winter advice for drivers begins “if you must drive” and counts more than 5,000 deaths a year on US roads from weather conditions. But staying past the point where medicine, heat, water or safety runs out forces a move in the worst condition. The answer is thresholds written now, while calm, that turn a 3 a.m. judgement into a checklist. Fill in the trigger table on the page."
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Red Cross winter-storm landing page dropped; NWS winter-storm page quoted; Ready.gov Make A Plan and Red Cross outage page re-read." }
 ---
 
 # DC-19. When to leave home: our triggers

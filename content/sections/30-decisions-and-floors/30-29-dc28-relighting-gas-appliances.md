@@ -28,7 +28,7 @@ options:
     label: "Relight ourselves, with rules"
     summary: "Only when no one qualified will come: every appliance valve closed before gas is restored, no gas smell anywhere (floor level too), nothing that has been under water, each appliance relit one at a time by its own lighting label, a working CO alarm, gas off at once if a smell returns."
 settings_summary: "Gas appliances such as water heaters, furnaces and some stoves have a pilot: a small flame that lights the main burner. When the gas is shut off or runs out, every pilot goes out. FEMA says that once gas is turned off, only a qualified professional should turn it back on, and propane safety guidance strongly recommends that only a technician relight a pilot. The danger is gas that has leaked or pooled: propane is heavier than air and settles at the floor, and a flame or spark sets it off. A damaged appliance can also make carbon monoxide. With no gas company coming, waiting may mean no hot water, no furnace, no stove. What helps most: a technician or the utility does it (removes it); every appliance valve closed first, the appliance's own lighting label followed exactly, and a CO alarm (reduces it a lot)."
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "FEMA, PERC, Texas RRC, A. O. Smith label and CPSC 464 quotes verified; label paraphrase tightened; contact line reads right when blank." }
 ---
 
 # DC-28. Relighting gas appliance pilots yourself when the gas company will not come
@@ -101,7 +101,8 @@ stove for months, in a house set up to run on gas.
 
 **Removes the risk**
 - **The utility, the propane supplier or a technician does it.** While any of them exists, call
-  them from outside: {{ contacts.utility.gas.provider }} {{ contacts.utility.gas.phone }}.
+  them from outside. Gas company or supplier: {{ contacts.utility.gas.provider }}; phone:
+  {{ contacts.utility.gas.phone }}.
 
 **Reduces it a lot**
 - **Close every appliance valve and set every control to "off"** before the gas is turned back on

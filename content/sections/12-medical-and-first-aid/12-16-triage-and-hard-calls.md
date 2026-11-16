@@ -145,8 +145,8 @@ mystery collapse into a decision.
 Symptoms). **Any one sign means act.**
 - **Before anything else, check blood sugar** if the person has diabetes and you have a meter or
   sensor. **Low sugar looks exactly like a stroke**: weakness on one side, a drooping face,
-  slurred speech, confusion. Treat the low (→ 02-01, → 02-05) and check F.A.S.T. again in 15
-  minutes. **Signs that clear with sugar were the low, not a stroke.** Stroke guidelines require
+  slurred speech, confusion. Treat the low (→ 02-01, → 02-05) and check F.A.S.T. again at
+  the 15-minute recheck CDC uses for a low (CDC, Treatment of Low Blood Sugar). **Signs that clear with sugar were the low, not a stroke.** Stroke guidelines require
   a sugar check before calling a stroke (AHA/ASA, Guidelines for the Early Management of Acute
   Ischemic Stroke, 2019). Driving someone for an hour instead of treating a low is the fatal error
   this line prevents.

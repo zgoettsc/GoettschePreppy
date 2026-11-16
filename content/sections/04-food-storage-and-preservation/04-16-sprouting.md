@@ -11,6 +11,7 @@ tags: [food, sprouting, sprouts, vitamins, winter, food safety, children]
 derived_from: [04-16-sprouting]
 sources:
   - foodsafety-gov-fda-sprouts-what-you-should-know-777c53
+  - fda-selecting-and-serving-produce-safely-r12
   - foodsafety-gov-usda-hhs-cook-to-a-safe-minimum-inter-13daf3
   - us-fda-bad-bug-book-2nd-ed-phytohaemagglutinin-kidne-bb3b21
   - us-fda-food-allergies-627fb6
@@ -49,7 +50,7 @@ cooked rather than raw.
 3. **Rinse twice a day, morning and night.** That is the whole technique and the whole safety
    control.
 4. **Do not sprout anything someone in the house is allergic to** (→ 02-04).
-5. **Cook sprouts** (steamed, or stirred into soup until steaming hot, 165 °F) **for children,
+5. **Cook sprouts thoroughly,** steaming hot all the way through, never just lightly, **for children,
    older adults, anyone pregnant and anyone with a weakened immune system.**
    {{#if has.child}}You have children in the house: their sprouts are cooked.{{/if}}
    {{#if has.elder}}You have an older adult in the house: their sprouts are cooked.{{/if}}
@@ -110,8 +111,9 @@ are not.** Apply the strict version:
 - **Clean water for rinsing** (→ 03-04).
 - **Rinse well and drain completely,** twice a day, without fail.
 - **Cook sprouts** for children, older adults, anyone pregnant and anyone with a weakened immune
-  system (→ 02-18): lightly steamed, or added to soup, to 165 °F. Cooking removes almost all of
-  the risk and keeps most of the nutrition. Healthy adults can reduce their own risk the same way.
+  system (→ 02-18): cooked thoroughly in a soup or stew until steaming hot all through. FDA says
+  these groups should avoid raw **or lightly cooked** sprouts of any kind (FDA, Selecting and
+  Serving Produce Safely). Thorough cooking kills the bacteria. Healthy adults can reduce their own risk the same way.
 - **Do not eat a batch that smells wrong.**
 - If someone gets sick after eating sprouts: → 12-05.
 

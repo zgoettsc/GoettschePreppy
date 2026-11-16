@@ -150,7 +150,7 @@ at 150 to 200 ppm, disorientation, unconsciousness and death are possible.
 in homes without gas stoves; 5 to 15 ppm near a properly adjusted gas stove; 30 ppm or more near a
 badly adjusted one.
 
-What to do with a reading. This column is deliberately cautious:
+**What to do with a reading.** This table is deliberately cautious:
 
 | Reading | What to do |
 |---|---|

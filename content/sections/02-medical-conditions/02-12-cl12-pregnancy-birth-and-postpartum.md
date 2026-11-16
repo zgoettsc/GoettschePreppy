@@ -2,7 +2,7 @@
 id: 02-12-cl12-pregnancy-birth-and-postpartum
 section: 02-medical-conditions
 title: "CL-12. Pregnancy, birth and the weeks after"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: condition
 danger_level: critical
@@ -13,13 +13,13 @@ sources:
   - cdc-urgent-maternal-warning-signs-and-symptoms-hear-7927cc
   - world-health-organization-maternal-health-warning-si-97b289
   - who-pph-recommendations-2012
-  - who-delayed-cord-clamping-2014
+  - medlineplus-gestational-age-r10
   - hesperian-a-book-for-midwives
   - cdc-folic-acid
   - fda-nsaids-pregnancy-20-weeks-2020
   - cdc-breastfeeding-infant-and-toddler-nutrition-5d9a3a
   - medlineplus-us-national-library-of-medicine-nih-iron-893d21
-  - usda-hhs-dietary-guidelines-for-americans-2020-2025-4b2013
+  - usda-hhs-dietary-guidelines-2020-2025-pdf-r10
 related:
   - 12-12-childbirth-and-womens-health
   - 02-13-cl13-infant-feeding
@@ -78,8 +78,8 @@ and the first hour after. The general women's health page is → 12-12; feeding 
 > - **Heavy bleeding after birth kills fastest.** Soaking through one or more pads in an hour, or
 >   passing clots bigger than an egg, is an emergency (CDC).
 > - **Children do not have access to firearms, fuel, medications or chlorine products.** Iron
->   pills and prenatal vitamins are a leading cause of serious poisoning in small children
->   (MedlinePlus, Iron Overdose; floor, → 30-01).
+>   overdose is particularly dangerous for children, and a child who eats adult vitamins such as
+>   prenatal vitamins can take a severe overdose (MedlinePlus, Iron Overdose; floor, → 30-01).
 > - **This page gives no medicine doses.** Medicines used in birth and after are prescribed; ask
 >   for the plan now (part 7).
 
@@ -96,17 +96,21 @@ Send someone for anyone nearby with birth experience (→ 18-03), then:
    both covered, head covered (→ figure). A wet baby loses heat fast.
 5. **Is the baby breathing or crying?** If not: keep rubbing the back and drying firmly; wipe the
    mouth and nose. **Still not breathing: start infant breaths and CPR** (→ 12-18).
-6. **The cord can wait.** WHO recommends not clamping the cord earlier than **1 minute** after
-   birth (WHO, Delayed Umbilical Cord Clamping). When it has stopped pulsing, tie it tightly
+6. **The cord can wait.** WHO recommends clamping the cord late, about **1 to 3 minutes** after
+   birth, and not earlier than 1 minute unless the baby needs to be moved at once for help with
+   breathing (WHO, Prevention and Treatment of Postpartum Haemorrhage, 2012). When it has
+   stopped pulsing, tie it tightly
    with clean (boiled) string in two places a few finger-widths apart and cut between the ties
    with a boiled blade (→ figure). There is no hurry to cut.
 7. **The afterbirth (placenta) comes by itself**, usually with more cramps and a gush of blood.
-   **Do not pull on the cord**: WHO recommends cord traction only by skilled attendants (WHO,
-   Postpartum Haemorrhage). Keep the placenta in a bowl to show anyone who arrives; a missing
+   **Do not pull on the cord**: where skilled birth attendants are not available, WHO does not
+   recommend cord traction (WHO, Postpartum Haemorrhage, 2012). Keep the placenta in a bowl to show anyone who arrives; a missing
    piece can cause bleeding (Hesperian, A Book for Midwives).
 8. **Watch the bleeding and the womb.** Put the baby to the breast (it helps the womb tighten).
    Feel below the navel: the womb should be **firm**. If it is soft and she is bleeding, **rub it
-   firmly** through the belly until it hardens (uterine massage, WHO). Heavy bleeding (soaking a
+   firmly** through the belly until it hardens. WHO recommends checking the womb's firmness
+   through the belly after every birth, and uterine massage to treat heavy bleeding (WHO,
+   Postpartum Haemorrhage, 2012). Heavy bleeding (soaking a
    pad in an hour, clots bigger than an egg, faintness, a racing pulse): **this is the
    emergency. Get her to any care that exists**, keep rubbing, lay her flat with legs raised,
    keep her warm.
@@ -117,11 +121,13 @@ Send someone for anyone nearby with birth experience (→ 18-03), then:
 
 ## 1. What it is
 
-Pregnancy lasts about 40 weeks from the first day of the last menstrual period. **Labour** is the
+Pregnancy is counted in weeks from the first day of the last menstrual period. A normal
+pregnancy runs 38 to 42 weeks; a baby born before 37 weeks is premature (MedlinePlus,
+Gestational Age). **Labour** is the
 work of the womb pushing the baby out; **the postpartum period** is the weeks after birth, which
-carry their own risks. WHO names the main killers: severe bleeding (mostly after birth),
-infection, high blood pressure in pregnancy (pre-eclampsia and eclampsia), and complications of
-delivery (WHO, Maternal Health).
+carry their own risks. WHO names the most common direct causes of injury and death: excessive
+blood loss, infection, high blood pressure, unsafe abortion and obstructed labour (WHO, Maternal
+Health).
 
 ## 2. What runs out, and how fast
 
@@ -133,8 +139,9 @@ delivery (WHO, Maternal Health).
 | Clean birth supplies | Packed once, used once. | Infection risk rises. |
 | A trained attendant nearby | Moves, falls ill, or was never found. | The household is on its own. |
 
-**Due date:** first day of last period ________ + 40 weeks = **________**. Date the household
-must be near care by (a few weeks before): ________. Copy both to → 23-02 and → 01-02.
+**Due date:** first day of last period ________ + 40 weeks (the middle of the normal 38 to 42)
+= **________**. Birth at 38 weeks is normal, so the date the household must be near care is
+earlier still: ________. Copy both to → 23-02 and → 01-02.
 
 ## 3. Storing the supplies without power
 
@@ -161,7 +168,10 @@ position or the blood count. The household can do some of this:
 
 **Medicines in pregnancy:** many common medicines are not safe. FDA advises avoiding
 non-steroidal pain relievers such as ibuprofen and naproxen from **20 weeks** of pregnancy,
-because they can cause low amniotic fluid (FDA, NSAIDs in Pregnancy, 2020). Ask the pharmacist
+because they can cause rare but serious kidney problems in the unborn baby and low amniotic
+fluid, unless a health professional advises it (low-dose aspirin for certain pregnancy
+conditions, under a professional's direction, is the exception) (FDA, NSAIDs in Pregnancy,
+2020). Ask the pharmacist
 or prescriber before any medicine, herb or supplement.
 
 **After the birth:** bleeding (like a heavy period, getting lighter over days to weeks) is
@@ -192,8 +202,9 @@ Maternal Warning Signs and Symptoms, as published, shortened):
 - **Swelling, redness or pain of one leg or arm** (pregnancy up to 6 weeks after birth): a clot.
 - **Overwhelming tiredness.**
 
-**WHO adds the dangers of labour itself** (WHO, Maternal Health): labour that does not progress,
-a baby lying the wrong way, bleeding before birth, fits (eclampsia). **None of these has a home
+**The dangers of labour itself**: labour that does not progress (WHO lists obstructed labour
+among the main killers; WHO, Maternal Health), a baby lying the wrong way, bleeding before
+birth, fits (eclampsia). **None of these has a home
 answer.** That is why the plan is to be near care.
 
 **Newborn danger signs** (Hesperian, A Book for Midwives): not feeding, very sleepy or floppy,
@@ -298,7 +309,7 @@ Medicines your household tagged for this condition in settings are printed below
 are tagged, every medicine row your household entered is printed instead: tick the rows for
 this condition** and cross out the rest. Fill any blank columns by hand from the boxes
 and bottles, and add untagged medicines in the empty rows. **Ask the pharmacist whether each of the mother's other medicines is safe
-in pregnancy and while nursing**, and write the answer in the last column of the row or below.
+in pregnancy and while nursing**, and write the answer below the table.
 
 | For this? | Who | Medicine | Strength | Schedule | Fridge? | If doses are missed (prescriber's words) | Where kept | Days on hand | Expires |
 |---|---|---|---|---|---|---|---|---|---|

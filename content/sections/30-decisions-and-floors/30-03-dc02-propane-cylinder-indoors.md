@@ -11,9 +11,9 @@ tags: [decision card, propane, cylinder, 20-lb tank, indoors, leak, explosion, h
 derived_from: [08-09-mr-heater-buddy, 06-06-fuel-storage-safety, 08-04-emergency-heat-options, 08-01-heating-one-room]
 sources:
   - enerco-group-mr-heater-manufacturer-portable-buddy-r-759ce5
-  - nfpa-nfpa-58-liquefied-petroleum-gas-code-storage-of-13af35
-  - propane-education-and-research-council-perc-safety-g-40ea6b
   - cdc-carbon-monoxide-poisoning-basics-772153
+  - minnesota-sfm-lp-gas-inside-buildings-r3
+  - ysn-flame-king-manufacturer-training-program-1a-fill-a69318
 related: [08-09-portable-propane-heaters, 08-04-emergency-heat-options, 08-01-heating-one-room, 06-06-fuel-storage-safety, 06-05-alternative-fuels, 29-01-ex01-fuels, 29-03-ex03-carbon-monoxide, 30-02-dc01-unvented-heater-overnight, 30-01-the-floors]
 cards: [DC-02, DC-01]
 explainers: [EX-01, EX-03]
@@ -49,12 +49,13 @@ no, what actually goes wrong, and what the household decides.
 
 **Propane** is a fuel gas stored as a liquid under pressure in steel cylinders (→ 29-01). The
 small green **1-lb cylinder** is the camping size. The **20-lb cylinder** is the grill tank.
-Bigger tanks hold more. Propane in the air is **heavier than air**: it sinks and spreads along
-the floor like invisible water. A rotten-egg smell is added so you can smell a leak, but only
-if your nose is near where it pools.
+Bigger tanks hold more. Propane gas is about **1½ times heavier than air** and settles in low
+areas (YSN/Flame King, Training Program 1A): it sinks and spreads along the floor like invisible
+water. A rotten-egg smell is added so you can smell a leak, but only if your nose is near where
+it pools.
 
 Some indoor-rated propane heaters can run from a large cylinder through a hose. The heater
-maker designs that for **the cylinder outdoors**, the hose through a window.
+maker allows that only with **the cylinder outdoors** and its own hose (Enerco/Mr. Heater).
 
 {{#if has.basement}}Your home has a basement. Propane that leaks anywhere in the house can
 drain down to it.{{/if}}
@@ -64,17 +65,20 @@ drain down to it.{{/if}}
 - One widely sold indoor-rated propane heater's manual says, in a DANGER box, **never bring a
   refillable propane cylinder indoors**, and allows a cylinder up to 20 lb **only when the
   cylinder is located outdoors** (Enerco/Mr. Heater, propane heater owner's manual).
-- NFPA 58, the national propane code, limits cylinders kept inside a home, attached garage
-  included, to the 1-lb class (NFPA 58, storage of cylinders within residential buildings).
-- The Propane Education & Research Council says store cylinders outdoors, upright, valve
-  closed (PERC, Safety Guide for Portable Propane Cylinders).
+- NFPA 58, the national propane code, limits cylinders used or stored inside a home, attached
+  and detached garages included, to the 1-lb size, with no more than 2 lb in all per dwelling
+  (Minnesota State Fire Marshal, LP Gas Inside Buildings, summarising NFPA 58).
+- A maker of 1-lb refillable cylinders teaches the same line: up to two 1-lb cylinders may be
+  stored in a home; any more must be outdoors, never above 125 °F or near a flame or other
+  ignition source (YSN/Flame King, Training Program 1A).
 
 **Why:** quantity, sinking gas and heat. A 20-lb cylinder holds about twenty times the propane
 of a 1-lb cylinder, so a leak indoors is not a whiff; it can be enough to fill a room to the
 point where it burns. Because propane sinks, the leak collects at floor level, below your nose,
 and flows toward low rooms, stairwells and basements, where furnaces and water heaters often
 have a pilot flame or igniter. And a cold cylinder brought into a warm house builds pressure;
-its relief valve is designed to vent gas when that happens (PERC).
+its relief valve is designed to open and release gas when the pressure gets too high (YSN/Flame
+King, Training Program 1A).
 
 ## 3. How it actually hurts people
 
@@ -91,7 +95,7 @@ its own fuel supply puts the flame and the leak side by side. The CO risks of th
 ## 4. What makes it safer
 
 **Removes the risk**
-- **The cylinder stays outdoors**, upright, valve closed until needed (PERC). Inside, use only
+- **The cylinder stays outdoors**, upright, valve closed until needed. Inside, use only
   heaters and 1-lb cylinders the heater maker allows indoors, or heat by other means
   (→ 08-04).
 

@@ -27,7 +27,7 @@ options:
     label: "Only into a known backstop, nobody downrange"
     summary: "Shots only into an earth bank or backstop that will stop that ammunition, never toward a house, road or path, never at a target above the horizon, never at night, nobody downrange, neighbours told beforehand."
 settings_summary: "In a long emergency, ranges close, and households may want to practise, sight in a rifle or deal with pests at home. Every firearms safety rule says be sure of your target and what is beyond it: a bullet that misses or passes through keeps going (NSSF: a .22 short bullet over 1 1/4 miles, a .30-06 more than 3 miles) and can ricochet off water, rock or frozen ground. In town, what is beyond is a neighbour's house. Shots also tell everyone nearby that the house is armed and occupied, and damage hearing. What helps most: no live fire at home, dry practice and traps instead (removes it); only into a solid earth backstop, never toward houses or roads, never at a target above the horizon, nobody downrange, neighbours told (reduces it a lot)."
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "NSSF distances quoted (rule 4); SAAMI noise line; NIOSH only for permanence; pass-through no longer misattributed to SAAMI." }
 ---
 
 # DC-11. Firing weapons on your own property for practice, pests or zeroing

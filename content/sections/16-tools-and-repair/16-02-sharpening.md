@@ -13,7 +13,6 @@ sources:
   - osha-3080-hand-and-power-tools-r13
   - university-of-missouri-extension-selecting-and-maint-c31374
   - university-of-missouri-extension-operating-a-chain-s-80c98c
-  - american-college-of-surgeons-stop-the-bleed-stop-the-8d1b5b
 related: [16-01-essential-hand-tools, 16-06-axes-and-saws, 16-08-metal-and-wood-repair, 12-02-bleeding-and-wounds, 06-04-wood-supply-and-depletion, 05-09-field-dressing-and-butchering, 05-01-a-small-high-yield-garden, 05-13-perennials-and-fruit, 24-01-skills-checklist, 18-03-skills-as-currency, 23-02-master-consumables-table]
 cards: []
 explainers: []

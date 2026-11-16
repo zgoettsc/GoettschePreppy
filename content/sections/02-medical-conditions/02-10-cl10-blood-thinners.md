@@ -2,7 +2,7 @@
 id: 02-10-cl10-blood-thinners
 section: 02-medical-conditions
 title: "CL-10. Blood thinners (anticoagulants)"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: condition
 danger_level: critical
@@ -12,7 +12,7 @@ derived_from: [12-02-bleeding-and-wounds, 12-19-head-injury-watch, 12-11-chronic
 sources:
   - ahrq-blood-thinner-pills
   - american-heart-association-american-stroke-associati-ec9d70
-  - american-college-of-surgeons-stop-the-bleed-stop-the-8d1b5b
+  - usuhs-ncdmph-stop-the-bleed-apply-a-tourniquet-r7
   - medlineplus-us-national-library-of-medicine-nih-head-ee015b
 related:
   - 02-09-cl09-high-blood-pressure-and-heart-disease
@@ -60,9 +60,9 @@ questions for the prescriber now.
 > - **Do not stop or skip a blood thinner on your own.** Stopping raises the risk of a clot or
 >   stroke; what to do about missed doses is the prescriber's, in their words, in part 12
 >   (AHRQ, Blood Thinner Pills).
-> - **Never loosen a tourniquet once placed while help can still come; mark the time.**
->   Re-bleeding and clot release kill (floor, → 30-01). If no help will ever come, the
->   conversion decision is DC-25 (→ 30-26). On a blood thinner, a limb wound may need one sooner.
+> - **Never loosen a tourniquet once placed while help can still come; mark the time. If no help
+>   will ever come, the conversion decision is DC-25 (→ 30-26).** Re-bleeding and clot release
+>   kill (floor, → 30-01). On a blood thinner, a limb wound may need one sooner.
 > - **This page never calculates, adjusts or suggests a dose.**
 
 ## Do this now: bleeding
@@ -70,7 +70,7 @@ questions for the prescriber now.
 1. **Firm, direct pressure** with a clean cloth or gauze, and **keep it on** without peeking
    for longer than you think: blood thinners slow clotting.
 2. **Limb wound still bleeding through pressure: tourniquet** above the wound, and write the
-   time (→ 12-02; Stop the Bleed, American College of Surgeons).
+   time (→ 12-02; Stop the Bleed just-in-time instructions, USUHS).
 3. **Nosebleed:** sit up, lean forward, pinch the soft part of the nose firmly and keep pinching.
 4. **Head knock, fall, or bleeding that will not stop:** see part 5, and seek any care that
    exists.
@@ -79,8 +79,8 @@ questions for the prescriber now.
 
 Anticoagulants ("blood thinners") slow the blood's clotting. They are prescribed for irregular
 heartbeat (atrial fibrillation), artificial heart valves, and after clots in the legs or lungs.
-Common ones include warfarin, which needs regular blood tests, and newer pills such as apixaban,
-rivaroxaban, dabigatran and edoxaban (AHRQ, Blood Thinner Pills). Some people also take
+The most common one is warfarin, which needs regular blood tests (AHRQ, Blood Thinner Pills);
+newer pills include apixaban, rivaroxaban, dabigatran and edoxaban. Some people also take
 **antiplatelet** pills such as aspirin or clopidogrel, which thin the blood in a different way;
 the bleeding advice here applies to them too.
 
@@ -102,11 +102,12 @@ label** (→ 29-14) and write any special rule here: ___________________________
 
 - **Days to weeks without the pill:** no symptoms at first. The risk the medicine was guarding
   against returns: stroke in atrial fibrillation, a new clot after a past one, a valve clot.
-- **Warfarin without blood tests:** the dose's effect drifts with diet, illness and other
-  medicines. AHRQ advises keeping vitamin K foods (green leafy vegetables) **steady** rather than
-  avoiding them, and checking with the prescriber before any new medicine or supplement (AHRQ).
-  Off-grid diets change a lot: a sudden glut of garden greens, or none at all, changes the
-  effect.
+- **Warfarin without blood tests:** the effect drifts with diet, illness and other medicines.
+  AHRQ says high amounts of vitamin K (found in green leafy vegetables, among other foods) can
+  work against warfarin, while the other blood thinners are not affected by vitamin K; ask the
+  prescriber how diet affects this person's medicine, and check before any new medicine or
+  supplement (AHRQ, Blood Thinner Pills). Off-grid diets change a lot: a sudden glut of garden
+  greens, or none at all, changes warfarin's effect.
 
 **Signs of a clot** (seek care if any exists):
 - **Leg:** swelling, pain, warmth or redness in one calf or thigh.
@@ -116,12 +117,18 @@ label** (→ 29-14) and write any special rule here: ___________________________
 
 ## 5. Warning signs that mean an emergency
 
-**Bleeding signs** (AHRQ, Blood Thinner Pills):
-- Red, pink or brown urine; red or black, tarry stools.
-- Vomiting blood or what looks like coffee grounds; coughing up blood.
-- Bleeding from the gums or nose that will not stop; unusual bruising.
-- Unusually heavy periods.
-- **Severe headache, sudden confusion, weakness or dizziness**: possible bleeding in the head.
+**Signs of serious bleeding** (AHRQ, Blood Thinner Pills, as listed):
+- Menstrual bleeding much heavier than normal.
+- Red or brown urine; bowel movements that are red or look like tar.
+- Bleeding from the gums or nose that does not stop quickly.
+- Vomit that is brown or bright red; anything red that is coughed up.
+- **Severe pain, such as a headache or stomachache.**
+- Unusual bruising; a cut that does not stop bleeding.
+- A serious fall or bump on the head.
+- Dizziness or weakness.
+
+AHRQ says go to the hospital immediately after a fall or a hit to the head **even if there is
+no bleeding**: bleeding can happen inside the skull without any blood showing.
 
 **After any fall or knock to the head** (MedlinePlus, Head Injury; → 12-19): watch for
 headache that worsens, vomiting, drowsiness, confusion, unequal pupils, weakness on one side,
@@ -131,12 +138,15 @@ or a seizure. Someone must stay with them and wake them to check, as → 12-19 d
 
 - **Vomiting a dose, diarrhoea, or not eating** changes how blood thinners act, especially
   warfarin. Follow the prescriber's missed-dose words in part 12.
-- **Pain and fever:** AHRQ advises talking to the prescriber before taking aspirin or other
-  non-steroidal pain relievers (ibuprofen, naproxen), which add to bleeding risk. Ask now which
-  pain reliever is safe for this person (→ 12-13).
-- **Antibiotics and many other medicines** interact with warfarin (AHRQ). If an antibiotic is
-  used (→ 12-04), watch more closely for bleeding.
-- **Herbal products and supplements** can interact too (AHRQ).
+- **Pain and fever:** AHRQ says products containing aspirin can raise the risk of bleeding, and
+  lists common pain relievers (ibuprofen and naproxen brands, and even acetaminophen) among the
+  medicines to ask the doctor or pharmacist about before using. Ask now which pain reliever is
+  safe for this person (→ 12-13).
+- **Other medicines can change how a blood thinner works** (AHRQ), over-the-counter ones
+  included. If any new medicine is used, an antibiotic included (→ 12-04), watch more closely
+  for bleeding.
+- **Vitamins and herbal products** such as multivitamins, garlic, ginkgo and green tea are on
+  AHRQ's list too.
 
 ## 7. What to stock, and how much
 

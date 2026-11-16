@@ -202,7 +202,8 @@ Do this for every condition in the household, with the prescriber while you can.
 - **Stress is physical, not just emotional** (→ 21-01). Months of crisis affect blood sugar,
   blood pressure, sleep and immunity.
 - **Storage without power** is its own skill. Refrigerated medicines (→ 29-07, → 12-21), heat
-  exposure and freezing (→ 12-07) each have published rules. Your household's choices on the
+  exposure and freezing (→ 12-07) each have published rules. **A frozen-then-thawed insulin vial
+  or pen is discarded** (floor, → 30-01). Your household's choices on the
   related trade-offs: heat-exposed medicine {{choice DC-08}} (→ 30-09); expired medicine
   {{choice DC-04}} (→ 30-05); someone else's prescription {{choice DC-15}} (→ 30-16).
 - **Write everything down.** Symptom, sugar and medicine logs (→ 25-05) replace the clinic's

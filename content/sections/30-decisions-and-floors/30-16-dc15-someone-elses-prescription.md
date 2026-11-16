@@ -28,7 +28,7 @@ options:
     label: "Same drug and strength, already prescribed to them"
     summary: "Only when the person was already prescribed the same drug at the same strength and has run out: they take it as their own label said, after checking allergies and their other medicines. Never a new drug for a new problem; never to a child from an adult's supply."
 settings_summary: "When pharmacies close, one person may run out of a medicine that someone else in the house or the neighbourhood still has. Prescriptions are written for one person because the right drug and dose depend on the illness, allergies, other medicines, kidney and liver function, weight and age. Shared medicine can cause an allergic reaction, a dangerous interaction, a dose far too strong (for example a painkiller or sleeping medicine that stops the breathing of someone not used to it), or the wrong insulin causing severe low blood sugar. What helps most: get each person's own supply and a written plan from their clinician now (removes most of it); share only the same drug at the same strength the person already takes, after an allergy and interaction check (reduces it a lot)."
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CDC never-share quoted from Antibiotic Do's and Don'ts; FDA insulin switching quoted; MedlinePlus attribution narrowed." }
 ---
 
 # DC-15. Giving someone else's prescription medication

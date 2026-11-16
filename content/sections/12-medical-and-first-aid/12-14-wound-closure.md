@@ -103,7 +103,7 @@ produces.**
 
 ## The narrow case where closing is reasonable
 
-- **Clean and fresh** (within a few hours) and thoroughly flushed (→ 12-02)
+- **Clean and fresh** and thoroughly flushed (→ 12-02)
 - **Straight edges** that meet easily without pulling
 - **Not deep**, nothing left in it, no sign of dirt
 - Somewhere a gaping wound would cause real trouble
@@ -163,9 +163,10 @@ is a historically standard treatment, and it is also a **procedure**:
   heals much better.
 - **Keep wounds over joints still** so they are not reopened again and again.
 - **Tetanus** (CDC, About Tetanus): no home treatment once it starts. **The booster decision is
-  the part you can act on: → 12-04 prints the CDC rule** (clean minor wound: booster if 10 or
-  more years since the last dose; any other wound: if 5 or more years, within 48 to 72 hours;
-  fewer than 3 lifetime doses plus a dirty wound: tetanus immune globulin too).
+  the part you can act on: → 12-04 prints the CDC rule** (after a completed childhood series:
+  clean minor wound, booster if 10 or more years since the last dose; dirty or major wound, if 5
+  or more years; never vaccinated, incomplete series or unknown: vaccinate for any wound, plus
+  tetanus immune globulin for a dirty or major wound).
 
 ## The realistic picture
 

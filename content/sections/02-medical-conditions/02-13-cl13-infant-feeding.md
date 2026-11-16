@@ -2,7 +2,7 @@
 id: 02-13-cl13-infant-feeding
 section: 02-medical-conditions
 title: "CL-13. Infant feeding: nursing and formula"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: condition
 danger_level: critical
@@ -13,8 +13,8 @@ sources:
   - cdc-infant-formula-preparation-and-storage-29a24f
   - cdc-breastfeeding-infant-and-toddler-nutrition-5d9a3a
   - cdc-breast-milk-storage-and-preparation
-  - cdc-cleaning-infant-feeding-items
-  - cdc-infant-and-toddler-nutrition-foods-and-drinks-fo-e9c989
+  - cdc-clean-sanitize-store-infant-feeding-items-r10
+  - cdc-cows-milk-and-milk-alternatives-r10
   - who-powdered-infant-formula-2007
   - fda-homemade-infant-formula-advisory
   - ife-core-group-operational-guidance-v3
@@ -23,7 +23,7 @@ sources:
   - cdc-botulism-prevention-d03ef9
   - nlm-lactmed
   - american-academy-of-pediatrics-healthychildren-org-h-7bd7d0
-  - usda-hhs-dietary-guidelines-for-americans-2020-2025-4b2013
+  - usda-hhs-dietary-guidelines-2020-2025-pdf-r10
 related:
   - 20-05-infant-feeding
   - 20-01-toddler-and-infant-needs
@@ -112,9 +112,11 @@ pinch that goes back slowly (WHO, The Treatment of Diarrhoea).
 
 Babies under 6 months live on breast milk or infant formula alone. CDC and the major health
 organisations recommend breast milk only for about the first 6 months, then foods alongside milk
-from about 6 months, with breastfeeding continuing as long as mother and baby wish (CDC,
-Breastfeeding). From 12 months, a child moves toward family food, with plain whole milk from 12
-to 23 months (CDC, Foods and Drinks for 12 to 24 Month Olds).
+from about 6 months, while breastfeeding continues until age 2 or older (CDC, Breastfeeding Fast
+Facts). From 12 months, a child moves toward family food. Whole cow's milk can start at 12
+months, not before; from 12 to 23 months, unflavoured, unsweetened whole milk is one way to meet
+the child's dairy needs, and plant drinks are not equal to it unless they are fortified dairy
+alternatives the child's doctor agrees to (CDC, Cow's Milk and Milk Alternatives).
 
 ## 2. What runs out, and how fast
 
@@ -135,13 +137,14 @@ does.
 
 | Where | Freshly expressed | Thawed (previously frozen) |
 |---|---|---|
-| Room temperature, 77 °F or colder | Up to 4 hours | 1 to 2 hours |
-| Refrigerator, 40 °F | Up to 4 days | Up to 1 day; **never refreeze** |
-| Freezer, 0 °F or colder | About 6 months is best; up to 12 months acceptable | Never refreeze |
-| Left over after a feed | Use within 2 hours after the baby finishes, then discard | |
+| Room temperature (77 °F or colder) | Up to 4 hours | Once brought to room temperature or warmed, use within 2 hours |
+| Refrigerator | Up to 4 days | If thawed in the refrigerator, use within 24 hours |
+| Freezer | About 6 months is best; up to 12 months is acceptable | **Never refreeze** breast milk after it has thawed |
+| Left over after a feed | If the baby did not finish the bottle, use the rest within 2 hours; after 2 hours, discard it | |
 
 Without a fridge, express only what the next feed needs, or feed at the breast. A winter porch is
-only a fridge if a thermometer says it stays between 32 and 40 °F.
+only a fridge if a thermometer says it stays above freezing and at or below 40 °F, the fridge
+line this binder uses for food (→ 04-17).
 
 **Formula** (CDC, Infant Formula Preparation and Storage):
 - **Unopened containers:** a cool, dry indoor place. **Not** in a vehicle, garage or outdoors.
@@ -153,9 +156,11 @@ only a fridge if a thermometer says it stays between 32 and 40 °F.
   arises. The card on other dated food is → 30-15.
 
 **Bottles, nipples and pump parts** (CDC, How to Clean, Sanitize, and Store Infant Feeding
-Items): take apart, wash in hot soapy water in a basin kept for this, rinse, air-dry on a clean
-towel. **Sanitise at least once a day** for babies under 3 months, born early, or with a weak
-immune system: cover the parts with water in a pot, bring to a boil and **boil 5 minutes**. That
+Items): take apart, wash in hot soapy water in a clean basin used only for this, rinse, and let
+air-dry thoroughly. **Sanitise at least once a day** for a baby less than 2 months old, born
+early, or with a weakened immune system: cover the parts with water in a pot, bring to a boil
+and **boil 5 minutes**, then lift them out with clean tongs. Do not rinse after sanitising:
+germs could get back on. That
 is a real fuel and water cost; budget it (→ 13-10).
 
 ## 4. Day by day without it

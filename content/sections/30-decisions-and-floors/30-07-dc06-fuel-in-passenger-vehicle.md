@@ -12,8 +12,10 @@ derived_from: [06-08-fuel-transport, 06-07-moving-and-transferring-fuel, 22-05-k
 sources:
   - us-consumer-product-safety-commission-cpsc-promotes-994cab
   - propane-education-and-research-council-perc-safety-g-40ea6b
-  - us-dot-phmsa-materials-of-trade-exceptions-49-cfr-17-a40f21
-  - cdc-atsdr-toxfaqs-for-automotive-gasoline-1cb179
+  - ecfr-49-cfr-173-6-materials-of-trade-r3
+  - maryland-mde-gasoline-safety-r3
+  - niosh-npg-gasoline-r3
+  - ysn-flame-king-manufacturer-training-program-1a-fill-a69318
 related: [06-08-fuel-transport, 06-07-moving-and-transferring-fuel, 22-05-kit-vehicle, 01-03-phase-b-movement, 01-02-go-no-go-decision, 29-01-ex01-fuels, 30-06-dc05-fuel-in-attached-garage, 30-01-the-floors]
 cards: [DC-06]
 explainers: [EX-01]
@@ -25,17 +27,16 @@ options:
     summary: "Fuel rides outside the passenger space: a roof rack, a hitch-mounted carrier, a pickup bed or an open trailer. If none is available, fuel stays behind and the route is planned on the tank."
   - id: cargo-area-shortest-time
     label: "Cargo area, sealed cans, shortest time"
-    summary: "Only when no outside carry exists: approved sealed cans, caps tight, upright and strapped in the rear cargo area, windows cracked, emptied into the tank at the first chance. Propane cylinders upright, valves closed."
-settings_summary: "When a family has to drive a long way with no fuel stations working, extra gasoline in cans can be the difference between arriving and being stranded. Fuel safety guidance says it rides outside the passenger space. Inside a closed car, vapour from a can collects in the cabin, can make people sick, and can ignite from a spark. In a rear-end crash, a can behind the back seat can split and burn next to the passengers. Propane in a closed car can leak and pool on the floor. What helps most: carry fuel outside the cabin on a rack, hitch carrier or trailer (removes most of it); approved sealed full cans, strapped upright, windows cracked, shortest possible time (reduces it a lot)."
+    summary: "Only when no outside carry exists: approved sealed cans, filled no more than 95 percent, caps tight, upright and strapped in the rear cargo area, windows cracked, emptied into the tank at the first chance. Propane cylinders upright, valves closed."
+settings_summary: "When a family has to drive a long way with no fuel stations working, extra gasoline in cans can be the difference between arriving and being stranded. There is no simple agency rule for gasoline cans in a family car; the guidance is to fill cans on the ground, never inside a vehicle, keep them sealed and secured, and never leave propane cylinders in a closed vehicle. Inside a closed car, vapour from a can collects in the cabin and can ignite from a spark. In a rear-end crash, a can behind the back seat can split and burn next to the passengers. Propane in a closed car can leak and pool on the floor. What helps most: carry fuel outside the cabin on a rack, hitch carrier or trailer (removes most of it); approved sealed cans, strapped upright, windows cracked, shortest possible time (reduces it a lot)."
 review_pass: null
 ---
 
 # DC-06. Carrying fuel inside a passenger vehicle
 
 **What this page is for.** If the household ever has to drive somewhere far away with no
-working fuel stations, it may want to carry extra fuel. This card explains why guidance says
-keep fuel out of the passenger space, what actually goes wrong, and what the household
-decides.
+working fuel stations, it may want to carry extra fuel. This card explains what the guidance
+does and does not say, what actually goes wrong, and what the household decides.
 
 > **SAFETY.** Fuel is never stored or transferred near an open flame or a running appliance
 > (floor, → 30-01). Refuel the vehicle from a can with the engine off, outdoors, nobody
@@ -52,18 +53,25 @@ carrier, a pickup bed or a trailer.
 
 ## 2. The rule, and why it was set
 
-- The Propane Education & Research Council says carry propane cylinders **upright, valve
-  closed, secured, in a ventilated space**, and do not leave them in a closed vehicle (PERC,
-  Safety Guide for Portable Propane Cylinders).
-- CPSC promotes approved fuel containers with flame arresters because vapour ignition at the
-  can causes deaths and burns (CPSC, Fuel Container Safety, 2023).
-- US transport rules for carrying fuel on work vehicles allow only small, approved, sealed,
-  secured containers (US DOT/PHMSA, Materials of Trade Exceptions, 49 CFR 173.6). They were
-  written for businesses, but they show what regulators consider manageable.
+- There is no simple agency rule for a gasoline can inside a family car. What the guidance
+  does say: never fill a can inside a vehicle, a trunk or a pickup bed; put it on the ground to
+  fill; fill it no more than 95 percent full to allow for expansion; and make sure spilled fuel
+  on the can has evaporated before the can goes in the vehicle (Maryland Department of the
+  Environment, Gasoline Safety).
+- The propane industry says do not leave cylinders inside a vehicle or trunk: the relief valve
+  (if the parked vehicle gets too hot) or a leak may release propane, filling the enclosed space
+  with flammable gas (PERC, Safety Guide for Portable Propane Cylinders).
+- CPSC requires flame mitigation devices on new fuel containers because vapour that escapes a
+  can and meets a spark or flame can flash back into it and explode (CPSC, Fuel Container
+  Safety, 2023).
+- US transport rules for fuel on work vehicles allow no more than 8 gallons per container, in
+  packaging that is leak-tight, closed and secured against shifting (49 CFR 173.6, Materials of
+  Trade). They were written for businesses, but they show what regulators consider manageable.
 
-**Why:** a closed cabin is a small box. Gasoline gives off vapour constantly, more as it warms
-in the sun, and the vapour is heavier than air (CDC/ATSDR, ToxFAQs for Automotive Gasoline).
-It reaches people's lungs and any spark inside the car. A crash turns a can into a fire next to
+**Why:** a closed cabin is a small box. Gasoline gives off vapour that can burn even in deep
+cold (NIOSH Pocket Guide, Gasoline), more as it warms in the sun, and the vapour is heavier
+than air (Maryland Department of the Environment). It reaches people's lungs and any spark
+inside the car. A crash turns a can into a fire next to
 the passengers.
 
 ## 3. How it actually hurts people
@@ -76,8 +84,9 @@ can ignite it.
 over hot metal and the back seat, and the people nearest are children in car seats who cannot
 get out by themselves.
 
-**Propane.** A cylinder lying on its side can put liquid at the relief valve. A small leak in a
-closed car pools on the floor until it finds a spark (PERC).
+**Propane.** A cylinder's relief valve is built to sit in the gas space when the cylinder stands
+upright (YSN/Flame King, Training Program 1A); lying on its side, the valve can sit in liquid. A
+small leak in a closed car pools on the floor until it finds a spark (PERC).
 
 ## 4. What makes it safer
 
@@ -89,7 +98,8 @@ closed car pools on the floor until it finds a spark (PERC).
   route arithmetic needs (→ 01-03).
 
 **Reduces it a lot** (if fuel must ride inside)
-- **Approved cans only, full, caps tight, spouts stowed.** A full can has little vapour space.
+- **Approved cans only, filled no more than 95 percent** (room for expansion; Maryland
+  Department of the Environment), caps tight, spouts stowed.
 - **Upright and strapped** so cans cannot tip, slide or rub.
 - **Windows cracked** the whole time it rides inside.
 - **Shortest possible time**: empty the cans into the tank at the first safe stop.
@@ -109,7 +119,7 @@ You give up: extra range if you have no outside carry; you may need more stops, 
 route or a different destination. You accept: the risk of running out of fuel.
 
 **`cargo-area-shortest-time`: Cargo area, sealed cans, shortest time.**
-You give up: the guidance's rule. You accept: fuel vapour in the cabin and a fire risk in a
+You give up: the safest place for fuel. You accept: fuel vapour in the cabin and a fire risk in a
 rear-end crash, controlled by sealed full cans, straps, open windows and emptying them early.
 
 ## 6. Our choice

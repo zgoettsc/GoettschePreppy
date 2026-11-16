@@ -117,7 +117,9 @@ cleaning and burn care, not exotic gear.
   stop blood flow to a limb), and **training in how to use one.** Buy a genuine
   windlass-type tourniquet of a model the Stop the Bleed course teaches; the program's
   tourniquets come from the US military's recommended list (Stop the Bleed, US Department of
-  Defense). Cheap copies can snap or slip under load.
+  Defense). Cheap copies can snap or slip under load. **Never loosen a tourniquet once placed
+  while help can still come; mark the time. If no help will ever come, the conversion decision
+  is DC-25 (→ 30-26).** (Floor, → 30-01.)
 - **Hemostatic gauze ×2 to 4** (gauze treated with a substance that speeds clotting) and plain
   **compressed gauze** in quantity.
 - **Pressure bandages ×2 to 4** (a roll bandage with a built-in pad and a clip you can put on

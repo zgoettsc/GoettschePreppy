@@ -2,7 +2,7 @@
 id: 02-07-cl07-asthma
 section: 02-medical-conditions
 title: "CL-07. Asthma"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: condition
 danger_level: critical
@@ -11,10 +11,10 @@ tags: [condition library, asthma, inhaler, rescue inhaler, controller, spacer, t
 derived_from: [12-11-chronic-conditions, 12-07-meds-stockpile, 02-06-hugh-anaphylaxis-action-plan]
 sources:
   - nhlbi-asthma-treatment-action-plan
+  - nhlbi-asthma-action-plan-2020-r10
+  - nhlbi-asthma-attack-r10
   - medlineplus-albuterol-oral-inhalation
   - epa-wildfire-smoke-guide
-  - cdc-recognizing-and-responding-to-anaphylaxis-645825
-  - american-academy-of-allergy-asthma-and-immunology-aa-7f3939
 related:
   - 02-03-cl03-anaphylaxis
   - 02-08-cl08-copd-and-oxygen
@@ -56,9 +56,10 @@ with the prescriber now.
 {{#if has.condition.CL-07}}**Someone in your household has this condition.** This module is at the front of the medical section for you.{{else}}**Nobody in your household is marked with this condition.** The module stays in the binder so you can help someone else, or add the condition later in settings.{{/if}}
 
 > **SAFETY**
-> - **A person who cannot speak in full sentences, whose lips or fingernails are turning blue, or
->   whose rescue inhaler is not helping, is in danger.** The NHLBI action plan says call for
->   emergency help (NHLBI, Asthma Treatment and Action Plan).
+> - **Trouble walking and talking because of breathlessness, or lips or fingernails turning blue,
+>   are danger signs.** NHLBI's action plan says go to the hospital or call an ambulance now
+>   (NHLBI, Asthma Action Plan, 2020). NHLBI also says call 911 if the medicines are not
+>   relieving an attack or breathing is still very hard (NHLBI, Asthma Attack).
 > - **Wheeze or cough after eating, in someone with a food allergy: epinephrine first, inhaler
 >   after** (→ 02-03). A food reaction can look exactly like an asthma attack, and asthma makes
 >   it worse.
@@ -105,15 +106,17 @@ ________; days at the person's usual use ________. Copy it to → 23-02.
 - **Room temperature, away from heat, flame and moisture.** Never puncture an inhaler canister
   or put it in a fire (MedlinePlus, Albuterol Oral Inhalation). Do not leave inhalers in a hot
   car or near a stove.
-- **Cold makes inhalers spray poorly.** Keep the rescue inhaler in an inside pocket in winter,
-  not in a pack.
+- **Keep it at room temperature**, as its label says: in winter, the rescue inhaler rides in an
+  inside pocket, not in a pack or a cold car.
 - **Prime it** (spray into the air) as its leaflet says when new, or when it has not been used
   for a while.
 - **Trust the dose counter.** Throw the canister away after the labelled number of puffs even if
   it still sprays (MedlinePlus, Albuterol Oral Inhalation): the last sprays carry little or no
   medicine. Read your inhaler's leaflet (→ 29-14) and write its rules here:
   ______________________________________________
-- **Wash the plastic mouthpiece** as its leaflet says; a blocked mouthpiece gives no dose.
+- **Clean the mouthpiece exactly as its leaflet says.** Some inhalers are washed; powder
+  inhalers must never get wet (MedlinePlus, Albuterol Oral Inhalation). A blocked mouthpiece
+  gives no dose.
 
 {{photo inhaler-kit}}
 
@@ -129,16 +132,19 @@ ________; days at the person's usual use ________. Copy it to → 23-02.
 
 ## 5. Warning signs that mean an emergency
 
-**NHLBI's action plan zones** (NHLBI, Asthma Treatment and Action Plan), in plain words:
-- **Green:** breathing well, sleeping well, working and playing normally. Keep taking the
-  controller.
-- **Yellow:** coughing, wheeze, tight chest, waking at night. Use the rescue inhaler and follow
-  the plan's yellow steps.
-- **Red:** very short of breath, rescue medicine not helping, cannot do usual activities, or
-  still in yellow after the time the plan gives. **Danger signs:** trouble walking or talking
-  from breathlessness, lips or fingernails blue. Emergency help now.
+**NHLBI's action plan zones** (NHLBI, Asthma Action Plan, 2020), in plain words:
+- **Green (doing well):** no cough, wheeze, chest tightness or shortness of breath, day or
+  night; can do usual activities. Keep taking the daily medicine.
+- **Yellow (getting worse):** cough, wheeze, chest tightness or shortness of breath, or waking at
+  night because of asthma, or can do some but not all usual activities. Add the quick-relief
+  medicine and follow the plan's yellow steps.
+- **Red (medical alert):** very short of breath, quick-relief medicines have not helped, cannot
+  do usual activities, or symptoms the same or worse after 24 hours in the yellow zone.
+  **Danger signs:** trouble walking and talking because of shortness of breath; lips or
+  fingernails blue. Hospital or ambulance now.
 
 **Triggers that get worse off-grid**, and what to do:
+
 | Trigger | Off-grid source | What helps |
 |---|---|---|
 | **Smoke** | Wood stoves, fireplaces, candles, oil lamps, cooking fires, wildfire | Keep indoor smoke to the minimum; check the stove draws properly; no smoking indoors. Indoor open flame is a household card: {{choice DC-20}} (→ 30-21). |
@@ -147,7 +153,7 @@ ________; days at the person's usual use ________. Copy it to → 23-02.
 | **Wildfire smoke** | Grass and forest fires | EPA: stay indoors with doors and windows shut, make one "clean-air room", run a portable air cleaner if there is power; a well-fitted N95 respirator reduces what you breathe outdoors (EPA, Wildfire Smoke Guide). → 17-05. |
 | **Dust and mould** | Sweeping, cleanup after floods, stored hay and wood | Damp-wipe instead of sweeping; mask during cleanup; dry the house out. |
 | **Colds and flu** | Crowding, poor hygiene | Handwashing; follow the plan's yellow zone early. |
-| **Exertion** | Hauling water and wood | Pace the work; some plans use the rescue inhaler before exertion; ask. |
+| **Exertion** | Hauling water and wood | Pace the work; NHLBI says a provider may recommend the reliever medicine before exercise (NHLBI, Asthma Treatment and Action Plan); ask. |
 
 ## 6. Sick-day basics
 

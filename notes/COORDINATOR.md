@@ -101,3 +101,8 @@ Collected from worker reports; resolved in the integration pass.
 - [x] R9: NOTICE-TO-USERS.md now distinguishes Small (no third-party documents) from Large/Everything; settings fallback size for Everything 400-900 MB; settings notice rebuilt.
 - [ ] R9: 30-20 (DC-19) cites Red Cross and NWS for "avoid winter travel"; neither archived copy says it (R16/R17 scope).
 - [ ] Re-capture landing-page archive copies (Red Cross winter, NWS tornado/flood, NFPA lithium-ion, FCC, Stop the Bleed, CPSC generator, CFPB, USA.gov, IdentityTheft.gov) before release.
+- [x] R13: unvented-heater-while-sleeping lines checked across the kit: all present CPSC/manual "never" as the agency rule and the household decision as DC-01. Consistent with G4.
+- [ ] R13: figure captions fig-lashing-diagonal (timber hitch) and fig-vehicle-recovery-setup (1.5x strap length) carry claims the pages no longer make: fix captions (F-worker).
+- [ ] R13: CPSC CO pages classed blocked now fetch: re-capture.
+- [ ] R13 owner question: banking a wood stove overnight as its own card? (08-08 now prints USFA: put the fire out before sleeping.)
+- [ ] R13: NHTSA and HCALORY unreachable; tire and ducted-heater numbers are fill-ins.

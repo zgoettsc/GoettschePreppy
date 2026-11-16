@@ -2,7 +2,7 @@
 id: 30-24-dc23-extra-strength-chlorination
 section: 30-decisions-and-floors
 title: "DC-23. Chlorinating very dirty water beyond the published dose"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: card
 danger_level: caution
@@ -26,8 +26,8 @@ options:
   - id: double-dose-and-wait
     label: "Heavy dose and a longer wait when it cannot be cleared"
     summary: "When the water cannot be settled or filtered, it gets the doubled published dose, a longer wait, and a smell check; if no chlorine smell, dose again and wait again. The household accepts strong taste and that some germs may survive."
-settings_summary: "Household bleach and dissolved pool shock kill most germs in water at the dose CDC and EPA publish, and they say to double that dose for cloudy, coloured or very cold water. Very dirty water is the problem: mud and plant matter use up the chlorine and hide germs inside particles, so even a big dose may not disinfect it, and a parasite called Cryptosporidium survives ordinary chlorine anyway. Pouring in much more chlorine than published mostly makes water taste and smell harsh and can upset stomachs; mistakes with concentrated pool shock are dangerous. What helps most: settle and filter first, then the published dose (reduces it a lot); boiling clear water instead (removes most germ risk). Never mix chlorine with other cleaners (floor)."
-review_pass: null
+settings_summary: "Household bleach and dissolved pool shock kill most germs in water at the dose CDC and EPA publish, and they say to double that dose for cloudy, coloured or very cold water. Very dirty water is the problem: mud and plant matter use up the chlorine and hide germs inside particles, so even a big dose may not disinfect it, and a parasite called Cryptosporidium survives ordinary chlorine anyway. Pouring in much more chlorine than published mostly makes water taste and smell harsh and can upset stomachs; mistakes with concentrated pool shock are dangerous. What helps most: settle and filter first, then the published dose (reduces it a lot); boiling clear water instead (removes most germ risk). Bleach or pool shock is never mixed with ammonia, acids or other cleaners (floor)."
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CDC/EPA dose, doubling, smell-check and ATSDR claims verified; floor in summary worded as 30-01." }
 ---
 
 # DC-23. Chlorinating very dirty water beyond the published dose

@@ -27,7 +27,7 @@ options:
     label: "Last resort for adults, with the infection page"
     summary: "Only for an adult showing the signs of a spreading or serious bacterial infection on the infection page, with no clinician reachable: a human antibiotic, with the drug and dose taken from a clinician's written plan or a published adult table printed as published. Never for children."
 settings_summary: "Before antibiotics, ordinary wounds and infections killed healthy adults, so many preppers stockpile them, sometimes as fish or farm-animal products. Antibiotics are prescription drugs because the right one depends on the infection, the person's allergies and other medicines, and the dose depends on weight and kidney function. Most coughs, colds and stomach bugs are viral, and antibiotics do nothing for them. The wrong antibiotic can cause a severe allergic reaction or severe diarrhoea, hide a worsening infection, and breed resistant bacteria. Products sold for animals are not made or checked for human use. What helps most: ask a clinician now for a written plan and supply (removes most of it); use only for adults with clear signs of a serious bacterial infection, by a written or published adult table, never for children (reduces it a lot)."
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CDC antibiotic claims re-cited to Do's and Don'ts (archive thin); tetanus wound page read; Lyon 2006 restated from the abstract (no liquids claim)." }
 ---
 
 # DC-16. Antibiotics without a prescription (stockpiled or veterinary)

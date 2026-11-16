@@ -13,8 +13,6 @@ sources:
   - enerco-group-mr-heater-manufacturer-portable-buddy-r-759ce5
   - ysn-flame-king-manufacturer-training-program-1a-fill-a69318
   - flame-king-manufacturer-1lb-refillable-lp-cylinder-1-4bb08a
-  - propane-education-and-research-council-perc-safety-g-40ea6b
-  - nfpa-nfpa-58-liquefied-petroleum-gas-code-storage-of-13af35
 related: [08-09-portable-propane-heaters, 07-05-propane-and-camp-stoves, 06-05-alternative-fuels, 06-06-fuel-storage-safety, 29-01-ex01-fuels, 30-03-dc02-propane-cylinder-indoors, 30-01-the-floors]
 cards: [DC-03, DC-02]
 explainers: [EX-01, EX-14]
@@ -25,9 +23,9 @@ options:
     label: "Never refill (the makers' position)"
     summary: "Use only new, factory-filled 1-lb cylinders indoors and on camp gear. When they run out, use a 20-lb tank outdoors with the maker's hose, or another fuel."
   - id: by-weight
-    label: "Refill by weight, refillable-rated cylinders only"
-    summary: "Only cylinders built and stamped as refillable; never a disposable. Fill outdoors, away from flame, weighed on a scale to the stamped empty weight plus the rated content and no more; leak-test; retire any cylinder that hisses or has a stiff valve."
-settings_summary: "The small green 1-lb propane cylinders sold for camp stoves and indoor heaters are made to be filled once at the factory. Adapters sold online let you refill them from a grill tank. Heater makers allow only factory-filled disposable cylinders indoors, and refillable cylinder makers say never refill a disposable. The real dangers are overfilling (a 1-lb cylinder has no overfill stop, so an overfilled one vents gas when it warms indoors) and a worn valve that leaks in the room. What helps most: buy new cylinders, or use a 20-lb tank outdoors with a hose (removes it); cylinders built to be refilled, filled outdoors by weight on a scale and leak-tested (reduces it a lot)."
+    label: "Refill refillable-rated cylinders only, by the maker's method"
+    summary: "Only cylinders built and stamped as refillable; never a disposable. Filled outdoors, away from flame, by the maker's method (stop at its fill gauge), then checked on a scale against the stamped tare weight; leak-tested; any cylinder that is overfilled, hisses or has a stiff valve is set aside outdoors."
+settings_summary: "The small green 1-lb propane cylinders sold for camp stoves and indoor heaters are made to be filled once at the factory. Adapters sold online let you refill them from a grill tank. Heater makers allow only factory-filled disposable cylinders indoors, and refillable cylinder makers say never refill a disposable. The real dangers are overfilling (a 1-lb cylinder has no automatic overfill stop; the person filling must stop at the maximum level, and an overfilled one can vent gas when it warms indoors) and a worn valve that leaks in the room. What helps most: buy new cylinders, or use a 20-lb tank outdoors with a hose (removes it); cylinders built to be refilled, filled outdoors by the maker's method, weighed and leak-tested (reduces it a lot)."
 review_pass: null
 ---
 
@@ -61,8 +59,12 @@ for the expansion to go.
 - A maker of refillable 1-lb cylinders trains users that a disposable **single-trip cylinder
   must not be refilled**: its valve and seals are built for one fill (YSN/Flame King, Training
   Program 1A, Filling 1 lb Refillable Propane Cylinders).
-- The same training sets the fill limit: the cylinder's rated content of propane and no more,
-  checked by weight, and says never chill a cylinder in a fridge or freezer to speed filling.
+- The same training makes the person filling responsible for not exceeding the maximum fill
+  level. Its refillable cylinder has a fixed liquid level gauge that marks the 80 percent
+  level: filling stops when white fog appears at its bleed vent. It also says never put the
+  cylinder in a freezer, never use one that has been in a fridge or freezer, never leave the
+  20-lb supply tank upside down for more than 10 minutes, and never use a cylinder that is
+  leaking or overfilled.
 
 **Why:** the heater maker cannot know who filled a cylinder, how full, or with what valve
 condition. The cylinder maker knows the disposable's valve was not designed for repeat use.
@@ -70,14 +72,15 @@ The fill limit protects the expansion space.
 
 ## 3. How it actually hurts people
 
-**Overfilling.** Small cylinders have no automatic overfill stop. Filling by "chill it and
-fill until it stops" or by guesswork leaves too much liquid. The cylinder comes indoors, warms
-to room temperature, the liquid expands, and the relief valve opens and releases propane into
-the room, next to a lit heater or stove.
+**Overfilling.** Small cylinders have no automatic overfill stop; on a refillable one the
+person filling watches the gauge and stops. Filling a disposable, which has no gauge, or
+filling by "chill it and fill until it stops" leaves too much liquid. The cylinder comes
+indoors, warms to room temperature, the liquid expands, and the relief valve opens to release
+the excess pressure as propane (YSN/Flame King), into the room, next to a lit heater or stove.
 
 **A worn or damaged valve.** A disposable valve reused, or a refillable one that is bent or
-stiff, weeps gas slowly. Propane is heavier than air, so the leak flows along the floor toward
-a flame (→ 30-03).
+stiff, weeps gas slowly. Propane is about 1½ times heavier than air (YSN/Flame King), so the
+leak flows along the floor toward a flame (→ 30-03).
 
 **The fill itself.** Liquid propane sprays from a loose connection and freezes skin. A leak
 during filling near a flame or a running engine ignites.
@@ -90,11 +93,14 @@ during filling near a flame or a running engine ignites.
 
 **Reduces it a lot**
 - **Refillable-rated cylinders only**, stamped as such. **Never a disposable.**
-- **Fill by weight on a scale**: full weight is the stamped tare weight plus the cylinder's
-  rated content, and never more (refillable cylinder maker's training). If heavy, bleed it
-  down outdoors until the weight is right.
-- **Outdoors, away from any flame or running engine**, with gloves; the large tank's valve
-  closed before connecting; the large tank upside down only as long as the maker says.
+- **Fill by the maker's method**: on the cylinder in the maker's training, open the fixed
+  liquid level gauge and stop the moment white fog appears at its vent. **Then weigh it**: no
+  heavier than the stamped tare (empty) weight plus the rated content printed by the cylinder
+  maker. A cylinder that is overfilled is not used: the training says put it outdoors in a
+  secure, ventilated place away from ignition sources and ask a propane supplier.
+- **Outdoors, away from any flame or running engine**, with gloves and long sleeves (liquid
+  propane causes freeze burns); the large tank's valve closed before connecting; the large tank
+  upside down for no more than 10 minutes (YSN/Flame King).
 - **Soapy-water leak test** on every filled cylinder's valve before it goes anywhere.
 - **Retire any cylinder that hisses or has a bent or stiff valve.** It never comes indoors
   again.
@@ -102,6 +108,9 @@ during filling near a flame or a running engine ignites.
 **Reduces it a little**
 - One trained adult does all refilling; nobody else improvises it.
 - Write the fill date on each cylinder and keep a log of how many times it has been filled.
+- Check the date stamped on the foot ring: the maker's training says a refillable cylinder must
+  be requalified every 12 years from manufacture, and one that is damaged, leaking, corroded or
+  due for requalification is not filled (YSN/Flame King).
 - Store filled cylinders outdoors or in a ventilated shed, out of the sun.
 
 ## 5. The options
@@ -111,10 +120,11 @@ You give up: cheap small cylinders; you rely on new ones, which run out, or on a
 outdoors with a hose. You accept: fewer hours of small-cylinder heat or cooking once the stock
 is gone.
 
-**`by-weight`: Refill by weight, refillable-rated cylinders only.**
-You give up: the heater maker's disposable-only rule. You accept: that the scale, the leak
-test and the retire-a-bad-valve rule are the only things preventing an overfilled or leaking
-cylinder from venting gas indoors. Refilling disposables is not part of this option.
+**`by-weight`: Refill refillable-rated cylinders only, by the maker's method.**
+You give up: the heater maker's disposable-only rule. You accept: that the fill gauge, the
+scale, the leak test and the retire-a-bad-valve rule are the only things preventing an
+overfilled or leaking cylinder from venting gas indoors. Refilling disposables is not part of
+this option.
 
 > **Before the collapse:** refilling and transporting single-trip (disposable) cylinders is
 > restricted under US transport rules. That is a legal point; the safety reason not to refill

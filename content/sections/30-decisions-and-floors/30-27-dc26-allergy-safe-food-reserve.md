@@ -25,7 +25,7 @@ options:
     label: "Reserve it: everyone else eats other stock first"
     summary: "Food verified safe for the allergic person is set aside as that person's reserve. Everyone else eats the food the allergic person cannot eat first, and the safe stock is used by others only when nothing else is left."
 settings_summary: "When someone has a food allergy, only part of the stockpile is safe for them: food whose label has been read and checked against their allergens. Everyone else can eat almost anything. If the whole household eats the safe food in the normal order, it runs out first for the one person who has no other choice, and the pressure to give them doubtful food grows every day. A reaction with no ambulance may need more than one dose of epinephrine. Keeping the safe food as their reserve stretches it, but the others eat less-liked food first, which can feel unfair and can be hard to keep to. What helps most: stocking enough safe food for everyone (removes most of the question); tracking the safe food's own runway (reduces it a lot)."
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "FDA labelling-scope sentence corrected to the FDA page; AAP second-dose quote verified." }
 ---
 
 # DC-26. Holding the allergy-safe food in reserve for the allergic person
