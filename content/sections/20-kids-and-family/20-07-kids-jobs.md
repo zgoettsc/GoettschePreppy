@@ -11,7 +11,6 @@ tags: [kids, chores, jobs, teens, skills, supervision, competence, morale]
 derived_from: [20-07-kids-jobs]
 sources:
   - cdc-positive-parenting-tips-child-development-by-age-1e16c6
-  - cdc-niosh-childhood-agricultural-injury-prevention-i-15b57d
   - osha-hand-and-power-tools-safe-use-maintenance-and-h-77254c
   - cdc-about-handwashing-when-and-how-to-wash-your-hand-14c15a
   - cdc-preventing-drowning-barriers-supervision-and-lay-d38f3b
@@ -71,9 +70,8 @@ boring, and it produces the behaviour that makes everything harder. **A child wi
 ## Jobs by age
 
 The CDC describes preschoolers as able to follow multi-step instructions, wanting to help and
-proud of it (CDC, Positive Parenting Tips). NIOSH's farm-safety work matches each job to a child's
-age, size, strength and judgement, with training and supervision (CDC/NIOSH, Childhood
-Agricultural Injury Prevention Initiative). The tables below are safe-by-default examples; the
+proud of it (CDC, Positive Parenting Tips). Match each job to the child's age, size, strength
+and judgement, with training and supervision. The tables below are safe-by-default examples; the
 household's own worksheet decides anything with a hazard.
 
 ### Infant and toddler (under 3)
@@ -146,8 +144,10 @@ for an older child, with training and an adult beside them:
 - **Nothing at a pool, pond, rain barrel or open water container.**
 - **Nothing involving fire, heaters, the stove, hot liquids or lamps.**
 - **No tools with edges:** knives, axes, saws (→ 16-01, → 16-06).
-- **No fuel, chemicals, lye, bleach or medicines** (floor; → 06-06, → 13-09, → 12-07).
-- **No firearms** (floor; → 14-14).
+- **No access to fuel, chemicals, lye, bleach or medicines:** they stay locked away whatever
+  the worksheet says (floor, → 30-01; → 06-06, → 13-09, → 12-07). A supervised fuel job for an
+  older child exists only if the worksheet names it (→ 30-25).
+- **No access to firearms** (floor, → 30-01; → 14-14).
 - **No unsupervised care of a baby or toddler.**
 - **No going outside alone** in cold, dark or unfamiliar ground (→ 11-02).
 - **No handling human waste or the toilet system** (→ 13-01).
