@@ -2,7 +2,7 @@
 id: 16-06-axes-and-saws
 section: 16-tools-and-repair
 title: "Axes, saws and wood tools"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -12,9 +12,8 @@ derived_from: [16-06-axes-and-saws]
 sources:
   - university-of-missouri-extension-operating-a-chain-s-80c98c
   - university-of-missouri-extension-selecting-and-maint-c31374
-  - osha-chain-saw-safety-protective-equipment-for-chain-a71d7d
-  - osha-logging-etool-chain-saw-manual-operations-and-p-19dacc
-  - osha-hand-and-power-tools-safe-use-maintenance-and-h-77254c
+  - osha-logging-operations-29-cfr-1910-266-r3
+  - osha-3080-hand-and-power-tools-r13
   - cdc-niosh-about-noise-and-hearing-loss-fcd9ad
 related: [16-01-essential-hand-tools, 16-02-sharpening, 16-03-knots-and-cordage, 16-08-metal-and-wood-repair, 06-03-firewood-basics, 06-04-wood-supply-and-depletion, 06-06-fuel-storage-safety, 06-07-moving-and-transferring-fuel, 12-02-bleeding-and-wounds, 12-08-medical-kit-tiers, 12-09-splints-and-fractures, 11-05-wool-and-materials, 11-06-boots-and-traction, 11-04-footwear-and-extremities, 10-01-lighting-options, 09-15-generator-maintenance, 20-02-child-safety-offgrid, 04-18-meal-planning-scarcity, 23-02-master-consumables-table, 30-01-the-floors, 30-25-dc24-children-and-dangerous-jobs, 30-18-dc17-old-fuel]
 cards: [DC-24, DC-17]
@@ -28,7 +27,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Unsourced chainsaw-injury statistic (legs and left hand) replaced by MU's kickback injury wording; OSHA chain-saw pubs (blocked/empty) replaced by 29 CFR 1910.266 and MU; operating rules and refuel distances per MU G1959; 45-degree escape figure removed; fuel floor worded as 30-01." }
 ---
 
 # Axes, saws and wood tools
@@ -39,15 +38,15 @@ does without the grid: every day, all winter, often cold and tired, with tools t
 bone.
 
 > **CAUTION. This is where serious injuries actually happen.**
-> - **An axe wound to the foot or shin, and a chainsaw wound to the leg, are among the most likely
->   severe-bleeding injuries in this whole binder** (→ 12-02). A bleeding-control kit with a
->   tourniquet lives at the woodpile, not in the house (→ 12-08).
-> - **Chainsaw kickback** is the bar being thrown back toward the operator's face and body when
->   the tip touches something or the wood pinches the chain. The University of Missouri Extension
->   names kickback, pushback and pull-in as the forces that make operators lose control
->   (Operating a Chain Saw Safely). Most chainsaw injuries are deep cuts to the legs and the left
->   hand. **Chaps, a helmet with face shield, hearing protection and real instruction are not
->   optional.**
+> - **An axe that glances into a foot or shin, or a chainsaw that touches a leg, can cause bleeding
+>   that kills** (→ 12-02). A bleeding-control kit with a tourniquet lives at the woodpile, not in
+>   the house (→ 12-08).
+> - **Chainsaw kickback** is the bar being thrown back toward the operator in a lightning-fast arc
+>   when the upper tip touches something or the wood pinches the chain. It can cause severe
+>   upper-body, neck and face cuts, or death (University of Missouri Extension, Selecting and
+>   Maintaining a Chain Saw). MU Extension names kickback, pushback and pull-in as the forces that
+>   make operators lose control (Operating a Chain Saw Safely). **Chaps, a helmet with face shield,
+>   hearing protection and real instruction are not optional.**
 > - **Felling a standing tree kills experienced people.** Learn it from a person, not a page. A
 >   leaning, dead or wind-thrown tree is more dangerous, not less.
 > - **Never refuel a hot saw, and never pour fuel near a flame or running engine.** Fuel is never
@@ -57,8 +56,8 @@ bone.
 ## Do this now
 
 1. **Buy chainsaw chaps, a helmet with face shield and ear muffs, and cut-resistant gloves before
-   you next cut anything.** Chaps are made of long fibers that pull out and jam the chain (University
-   of Missouri Extension). They cost little next to a leg.
+   you next cut anything.** Chaps are made of ballistic nylon fibers that, when cut, clog the saw
+   and stop it cutting (University of Missouri Extension). They cost little next to a leg.
 2. **Hang a bleeding-control kit with a tourniquet at the woodpile** (→ 12-08), and learn to use
    it one-handed on yourself (→ 12-02).
 3. **Buy the hand set:** a good axe, a splitting maul, steel wedges, a bow saw with many spare
@@ -76,7 +75,7 @@ bone.
 | **Splitting maul** (heavy, blunt wedge-shaped head) | Splitting rounds | The firewood workhorse. Not for chopping |
 | **Steel wedges and a sledge** | Knotty or large rounds | Have two wedges |
 | **Felling axe** (long handle, thinner head) | Chopping across the grain, removing limbs | Sharp, rounded edge (→ 16-02) |
-| **Hatchet** | Kindling | **The most common injury tool**: the short handle puts your leg in its swing |
+| **Hatchet** | Kindling | **Easy to underrate**: the short handle puts your hand and leg close to its swing |
 | **Bow saw** | Cutting logs to length ("bucking") | Fast, cheap; **blades are the consumable** |
 | **Crosscut hand saw** | Larger wood, quiet, no fuel | Slower; sharpenable if traditional |
 | **Folding saw** | Limbs; carry on the move | Very useful |
@@ -119,31 +118,37 @@ bone.
 anything else, or when the wood closes and pinches the chain. The bar is thrown up and back toward
 you.
 
-**Protective gear** (OSHA, Chain Saw Safety; University of Missouri Extension):
-- **Chaps or cut-resistant trousers.** The legs are the most common contact point. Chaps overlap
-  the boot tops.
+**Protective gear** (OSHA logging standard, 29 CFR 1910.266; University of Missouri Extension):
+- **Chaps or cut-resistant trousers**, covering the thigh down to the top of the boot.
 - **Helmet with face shield and ear muffs**: falling limbs, chips, and permanent hearing loss
   (CDC/NIOSH, About Noise and Hearing Loss).
 - **Safety glasses** under the shield.
 - **Leather gloves.**
-- **Steel-toe boots.**
+- **Work boots with high tops and steel toes**, cut-resistant if you can get them.
 - **No loose clothing.**
 
 **Operating rules:**
-- **Both hands on the saw, always, thumb wrapped around the front handle.**
-- **Never cut with the upper tip of the bar** (the kickback zone).
-- **Never cut above shoulder height.**
+These follow University of Missouri Extension, Operating a Chain Saw Safely, and your saw's
+manual.
+- **Both hands on the saw, always,** fingers and thumbs wrapped around the handles: left hand on
+  the front handle, right hand on the rear, even if you are left-handed.
+- **Never let the nose of the bar touch anything,** and never cut limbs with the nose (the
+  kickback zone).
+- **Never cut above shoulder height, and do not overreach.**
 - **Firm footing. Never on a ladder. Never in a tree** without specific training.
+- **Start it on the ground** with the chain brake on, in an open area clear of the fuel can.
 - **Watch for pinching.** Before cutting, think about which side of the log is being squeezed and
   which stretched, and use wedges. **If the bar is pinched: engine off, then drive a wedge into
   the cut (or lift the log with the peavey) and lift the saw out by hand. Never yank a running saw
   free, and never start it while pinched.**
-- **Test the chain brake before every session.** With the engine idling, push the front hand guard
-  forward. The chain must stop instantly. If it does not, the saw does not run today.
+- **Check the chain brake before every session** in the way your owner's manual describes. If it
+  does not stop the chain, the saw does not run today.
 - **Chain brake on whenever you walk with the saw.**
 - **Cut chaps are finished.** Any cut that reaches the fibers means retire them; patched chaps do
   not jam a chain. Replace a cracked helmet too.
-- **Let the saw cool before refuelling** (→ 06-06, → 06-07).
+- **Refuel in the open, after the saw has cooled,** at least 10 feet from where you will restart it
+  and at least 20 feet from any fire (MU Extension; → 06-06, → 06-07). Wipe off spilled fuel
+  before starting.
 - **Do not cut alone if you can avoid it.** With no ambulance coming, cutting alone is a much bigger
   risk than it is today.
 - **Sharpen the chain properly** (→ 16-02). A badly sharpened chain kicks back more.
@@ -162,7 +167,7 @@ dead trees, downed limbs and wood already on the ground** (→ 06-04), which is 
 dry, and plentiful after any windstorm. **Cutting to length and splitting downed wood is the job.
 Felling is the exception.**
 
-**If you must:** clear two escape paths at 45 degrees behind you, look up for hung-up trees and
+**If you must:** clear two escape paths angled back and away from the fall line, look up for hung-up trees and
 loose dead limbs ("widow-makers"), never work under a hung-up tree, and never fell near power
 lines.
 

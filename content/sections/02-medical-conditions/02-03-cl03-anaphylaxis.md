@@ -2,7 +2,7 @@
 id: 02-03-cl03-anaphylaxis
 section: 02-medical-conditions
 title: "CL-03. Anaphylaxis (severe allergic reaction, any cause)"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: condition
 danger_level: critical
@@ -14,12 +14,12 @@ sources:
   - american-academy-of-allergy-asthma-and-immunology-aa-7f3939
   - american-academy-of-allergy-asthma-and-immunology-aa-1ca82e
   - american-academy-of-pediatrics-aap-allergy-and-anaph-3e6f49
-  - american-academy-of-pediatrics-sicherer-sh-simons-fe-f0952d
   - us-fda-epipen-epinephrine-injection-usp-auto-injecto-a9f17f
   - us-fda-neffy-epinephrine-nasal-spray-prescribing-inf-b42222
   - annals-of-internal-medicine-epinephrine-auto-injecto-ea9564
   - american-college-of-allergy-asthma-and-immunology-fr-d6c10d
   - us-fda-fda-drug-safety-communication-diphenhydramine-bab442
+  - dailymed-benadryl-diphenhydramine-drug-facts
 related:
   - 02-04-cl04-food-allergy
   - 02-07-cl07-asthma
@@ -67,10 +67,12 @@ and what to ask the prescriber now. Food allergy prevention is on → 02-04.
 Your household's allergy rows: {{#each allergies as a}}**{{a.member}}**: {{a.allergen}} ({{a.severity}}; carries epinephrine: {{a.carries_epinephrine}}). {{else}}none entered.{{/each}}
 
 > **SAFETY**
-> - **Epinephrine first.** At the first sign of a serious reaction, give it at once. Delay is
->   the main cause of death. When unsure, give it (AAAAI; CDC).
-> - **Antihistamines and asthma inhalers do not treat anaphylaxis.** They are never a substitute
->   for epinephrine (CDC, Recognizing and Responding to Anaphylaxis).
+> - **Epinephrine first.** At the first sign of a serious reaction, give it at once. "If in
+>   doubt, give epinephrine" (AAP, Allergy and Anaphylaxis Emergency Plan); "Do not hesitate to
+>   give epinephrine" (AAAAI, Anaphylaxis Emergency Action Plan).
+> - **Antihistamines and asthma inhalers do not treat anaphylaxis.** The AAP plan says do not use
+>   other medicine in place of epinephrine; the AAAAI plan says inhalers and antihistamines
+>   "can't be depended on in anaphylaxis".
 > - **Use the device in reach.** Whether an expired or once-frozen device is used when nothing
 >   else exists is your household's decision card: {{choice DC-04}} (→ 30-05).
 > - **This page prints published dose bands as published.** Which device a person carries is the
@@ -80,15 +82,18 @@ Your household's allergy rows: {{#each allergies as a}}**{{a.member}}**: {{a.all
 
 1. **Give epinephrine.** Auto-injector into the **outer thigh**, through clothing if needed,
    following the device's own instructions. For one common pen the label says hold it in place
-   for **3 seconds** (count slowly 1, 2, 3), then rub the spot for 10 seconds (FDA, EpiPen
-   label). For a nasal spray, one spray into one nostril (FDA, neffy label).
+   for **3 seconds** (count slowly 1, 2, 3), then massage the injection area for 10 seconds
+   (FDA, EpiPen label). For a nasal spray, one spray into one nostril (FDA, neffy label).
 2. **Note the time.** Say it aloud or write it.
-3. **Call for help** if any exists: 911, and say "anaphylaxis".
-4. **Position:** lying flat with legs raised. Vomiting: on their side. Struggling to breathe:
-   sitting up. **Do not stand them up or walk them** (AAAAI).
-5. **Second dose** if not improving or symptoms return: AAAAI's plan says a second dose may be
-   given **5 to 15 minutes** after the first; the nasal spray's label says a second spray in the
-   same nostril **starting 5 minutes** after the first.
+3. **Call for help** if any exists: 911, and say "anaphylaxis". The AAP plan says ask for an
+   ambulance with epinephrine and tell the crew when it was given.
+4. **Position:** keep them lying on their back; if they vomit or have trouble breathing, keep
+   them lying on their side (AAP, Allergy and Anaphylaxis Emergency Plan). Keep them lying
+   down: do not stand them up or walk them.
+5. **Second dose:** the AAP plan says give a second dose of epinephrine **if symptoms get worse,
+   continue, or do not get better in 5 minutes** (AAP, Allergy and Anaphylaxis Emergency Plan).
+   For the nasal spray, the label says a second spray from a new device, in the same nostril,
+   **starting 5 minutes** after the first (FDA, neffy label).
 6. **Wheeze or cough after eating, in someone with asthma: epinephrine first, inhaler after.**
 7. **Stay with them for hours.** Symptoms can come back without a new exposure (a "biphasic"
    reaction). Keep a second device in reach. Nothing to eat or drink until they are clearly well.
@@ -122,7 +127,7 @@ The labels, as published:
 | Product | Store at | Excursions allowed | Never |
 |---|---|---|---|
 | Auto-injector (EpiPen and EpiPen Jr label) | **68 to 77 °F** | **59 to 86 °F** | Refrigerate or freeze; leave in a car or glove box. Keep in its carrier tube: epinephrine is damaged by light (FDA, EpiPen label). |
-| Nasal spray (neffy label) | **68 to 77 °F**, in its blister pack | **Up to 122 °F** for a few days | Freeze. The label says it freezes below **5 °F** and **will not spray** if frozen; if a frozen one is needed in an emergency, do not wait for it to thaw: use another device and seek care (FDA, neffy label). |
+| Nasal spray (neffy label) | **68 to 77 °F**, in its blister pack | **Up to 122 °F** for a few days | Freeze. The label says it freezes below **5 °F** and, if frozen, **will not deliver epinephrine**; if a frozen one is needed in an emergency, do not wait for it to thaw: seek emergency care at once (FDA, neffy label). Use another device if you have one. |
 | Other devices | Read the label (→ 29-14) and write it here: ________ | ________ | ________ |
 
 **Check the window.** The liquid should be clear and colourless. Brown, pink, cloudy or with
@@ -132,8 +137,10 @@ when nothing else exists is on the card (→ 30-05).
 **What testing outside the label found** (planning context, printed as published):
 - 40 EpiPen and EpiPen Jr devices up to 50 months past expiry all still held at least 80
   percent of the labelled dose (Cantrell and others, Annals of Internal Medicine, 2017).
-- EpiPens frozen for 24 hours and thawed delivered the same dose volume as unfrozen ones
-  (Cooper and others, American College of Allergy, Asthma and Immunology, 2018).
+- In 104 pairs of EpiPens, devices frozen for 24 hours and thawed fired and emptied into a test
+  material much like their unfrozen partners. The study did **not** measure how much epinephrine
+  in the frozen ones was still active (Cooper and others, American College of Allergy, Asthma
+  and Immunology, 2018).
 
 **Cold weather is the bigger risk.** In a house heated to one room (→ 08-01), the epinephrine
 lives in the warm room, not in the coat on a cold hook or a pack by the door. Outdoors in
@@ -153,8 +160,9 @@ and it should shape decisions about food, travel, and how close to stay to worki
 
 ## 5. Warning signs that mean an emergency
 
-Anaphylaxis usually involves **more than one body system**, but a severe reaction in one system
-is still anaphylaxis (AAAAI; CDC).
+Anaphylaxis usually involves **more than one body system**, but a serious or life-threatening
+reaction in one system can still be anaphylaxis, and only a few symptoms may be present (CDC,
+Recognizing and Responding to Anaphylaxis; AAAAI, Anaphylaxis Emergency Action Plan).
 
 | System | What it looks like |
 |---|---|
@@ -162,14 +170,16 @@ is still anaphylaxis (AAAAI; CDC).
 | Breathing | Cough, wheeze, hoarse voice, throat tightness, trouble breathing or swallowing |
 | Gut | Vomiting, diarrhoea, cramps |
 | Circulation | Pale or blue colour, weak pulse, dizziness, fainting, collapse |
-| Behaviour (young children) | Sudden irritability, frantic crying, clinging, going quiet, "my mouth feels funny" |
+| Mind and behaviour | A feeling of "doom", confusion, agitation, a change in consciousness (AAP plan); in a young child, a sudden change in behaviour |
 
 **In a small child, trust behaviour.** A child who has just eaten and suddenly changes may be
 reacting before any rash. If the person stops breathing, start CPR (→ 12-18).
 
 **Antihistamines** may be given for itching and hives **after** epinephrine, by the prescriber's
-plan. FDA warns that diphenhydramine must not be used to make a child sleep, and is not for
-children under 2 (FDA, Drug Safety Communication).
+plan. The diphenhydramine (Benadryl) Drug Facts label says do not use it "to make a child
+sleepy" and sets a lowest age for each product; follow the label of the product you hold
+(DailyMed, Benadryl Drug Facts label). FDA warns that more than the label dose can cause serious
+heart problems, seizures, coma or death (FDA, Drug Safety Communication on diphenhydramine).
 
 ## 6. Sick-day basics
 
@@ -193,8 +203,14 @@ on the action plan; this table is so you understand the plan and know when to as
 | FDA, EpiPen label | 30 kg (66 lb) or more | EpiPen, 0.3 mg |
 | FDA, neffy label (ages 4 and up) | 15 kg to less than 30 kg | neffy 1 mg, one spray |
 | FDA, neffy label | 30 kg or more | neffy 2 mg, one spray |
-| AAP clinical report, Epinephrine for First-aid Management of Anaphylaxis (2017) | 7.5 to 15 kg (about 16 to 33 lb) | 0.15 mg auto-injector is acceptable when a 0.1 mg device is not available |
-| AAP clinical report and AAP action plan | About 25 kg (55 lb) and up | AAP suggests the 0.3 mg device from this weight; the label says 30 kg. The prescriber decides. |
+| AAP, Allergy and Anaphylaxis Emergency Plan (2017, updated 03/2019) | 7.5 kg to less than 13 kg | 0.10 mg\* |
+| AAP, Allergy and Anaphylaxis Emergency Plan | 13 kg to less than 25 kg | 0.15 mg |
+| AAP, Allergy and Anaphylaxis Emergency Plan | 25 kg or more | 0.30 mg |
+
+\*AAP, as published: "Use 0.15 mg, if 0.10 mg is not available." The EpiPen label adds that
+other forms of injectable epinephrine should be considered if doses lower than 0.15 mg are
+needed. **The AAP plan and the EpiPen label move to the larger device at different weights
+(25 kg and 30 kg).** The prescriber decides, and writes it on the plan.
 
 Weights on file (re-weigh children every few months; the band can change):
 {{#each members as m}}{{m.label}}: {{m.weight_text}}. {{else}}No members entered yet.{{/each}}
@@ -202,8 +218,9 @@ Weights on file (re-weigh children every few months; the band can change):
 **How many devices.** Devices come in two-packs, and a reaction may need two doses. Each place
 the person spends time needs a pair: on the person, the home's warm room, the go-bag. When
 asking the prescriber, say plainly that you are planning for a time with **no ambulance**.
-The EpiPen label says that if more than two injections are needed for one reaction, only a
-healthcare provider should give more (FDA, EpiPen label).
+The neffy label recommends that patients have immediate access to two sprays at all times
+(FDA, neffy label). Both labels say more than two doses in a row should be given only under
+direct medical supervision (FDA, EpiPen label; FDA, neffy label).
 
 **Ask your prescriber now, while you can, and write it here:**
 - Device and dose for each person, and the weight at which to change: ___________________

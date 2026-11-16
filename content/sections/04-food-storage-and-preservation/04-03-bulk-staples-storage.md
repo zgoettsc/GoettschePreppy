@@ -13,6 +13,7 @@ sources:
   - national-center-for-home-food-preservation-nchfp-dry-44259a
   - national-center-for-home-food-preservation-nchfp-gen-c43991
   - utah-state-university-extension-oxygen-absorbers-dry-d72137
+  - usu-extension-food-storage-will-i-use-it-r12
   - us-fda-bad-bug-book-2nd-ed-phytohaemagglutinin-kidne-bb3b21
   - us-fda-food-allergies-627fb6
 related: [04-01-calorie-and-stockpile-math, 04-02-building-a-pantry, 04-11-pests-and-rodents, 04-12-fats-and-oils, 04-13-salt-sugar-vinegar, 04-14-powdered-and-canned-dairy, 04-16-sprouting, 07-02-rocket-stove, 16-01-essential-hand-tools, 02-04-cl04-food-allergy, 29-14-ex14-reading-a-label]
@@ -55,19 +56,25 @@ they keep for years or decades, which foods do not keep, and how to cook stored 
 
 ## What stores for decades, and what does not
 
-| Food | Realistic life (sealed, cool) | Notes |
+How long dry food keeps depends most on heat. Utah State University Extension reports Brigham
+Young University's finding that stored wheat kept acceptable quality for **25 years in a cold
+basement but only 5 years in a hot garage or attic** (Utah State University Extension, Food
+Storage Conditions), and that shelf life roughly **halves for every 10.8 °F rise in storage
+temperature** (Utah State University Extension, Food Storage: Will I Use It?). The table below
+ranks foods; the years depend on your storage.
+
+| Food | Life when sealed, dry and cool | Notes |
 |---|---|---|
-| **White rice** | 25 to 30 years | The benchmark storage staple |
-| **Wheat berries** (whole wheat grains) | 25 to 30 years | Needs a grain grinder (→ 16-01) |
-| **Dried beans, lentils** | 25 to 30 years (harder to cook with age) | Soak longer as they age |
-| **Rolled oats** | 20 to 25 years | Good with children |
-| **Pasta** | 20 to 25 years | Check for egg in the ingredients |
-| **Sugar, salt** | **Indefinite** | No oxygen absorbers with sugar: it sets hard |
-| **Powdered milk** | 10 to 20 years (nonfat) | → 04-14 |
-| **Brown rice** | **6 to 12 months** | Its oil goes rancid: **not** a long-term staple |
+| **Wheat berries** (whole wheat grains) | Decades (25 years cold, 5 hot, above) | Needs a grain grinder (→ 16-01) |
+| **White rice** | Decades | The benchmark storage staple |
+| **Dried beans, lentils** | Decades (harder to cook with age) | Soak longer as they age |
+| **Rolled oats, pasta** | Decades | Check pasta for egg in the ingredients |
+| **Sugar, salt** | Keep as long as they stay dry | No oxygen absorbers with sugar: it sets hard |
+| **Powdered milk** | Years (nonfat keeps best) | → 04-14 |
+| **Brown rice** | **Months** | Its oil goes rancid: **not** a long-term staple |
 | **Whole-grain flour** | Months | Same problem; store the **grain**, not the flour |
-| **Cooking oil** | 1 to 2 years | Cannot be stored long; rotate (→ 04-12) |
-| **Nuts and seeds** | Months to 1 year | Oil content; also common allergens |
+| **Cooking oil** | Rotate it | Cannot be stored long (→ 04-12) |
+| **Nuts and seeds** | Months | Oil content; also common allergens |
 
 **The pattern: oil is what spoils.** Whole grains keep far longer than flour, white rice far
 longer than brown. **Store the raw material and process it as you need it**, which is why a
@@ -78,14 +85,14 @@ hand grain grinder is an important purchase.
 1. **Food-grade bucket** (HDPE plastic marked food-safe), 5 or 6 gallons.
 2. **Mylar liner bag.** This is the real oxygen and moisture barrier; plastic alone lets air
    through slowly.
-3. **Oxygen absorbers,** sized to the volume: **about 2,000 cc per 5 to 6 gallon Mylar-lined
-   bucket; 300 to 500 cc per #10 can or 1-gallon bag** (Utah State University Extension).
-   They remove oxygen, which kills insects and slows rancidity. **They start working the moment
-   the pack is opened and are spent after about 30 minutes in air.** Open the pack, work fast,
-   and **reseal the unused absorbers in a jar or vacuum bag within 15 to 30 minutes.** A Mylar
-   bag that has pulled tight by the next day is working. **Absorbers are not desiccants** (they
-   do not dry food): the food must already be dry (under about 10 percent moisture) or you have
-   sealed in mould.
+3. **Oxygen absorbers,** sized to the container: use the size the absorber maker gives for
+   that volume (a 5-gallon bucket needs far more than a #10 can). They remove oxygen, which
+   kills insects and slows rancidity. **They start working the moment their pack is opened,**
+   so open it last, work fast, and **reseal the unused absorbers in an airtight jar at once.**
+   A Mylar bag that has pulled tight by the next day is working. **Absorbers are not
+   desiccants** (they do not dry food): **the food must already be dry, about 10 percent
+   moisture or less.** Moist food sealed without oxygen can grow botulism (Utah State
+   University Extension, Food Storage: Will I Use It?).
 4. **Seal the Mylar** with a clothes iron or a hair straightener, then lid the bucket.
 5. **Label the outside:** contents, weight, date packed, and the ingredient label.
 
@@ -125,13 +132,14 @@ Repackaging throws away the label. If anyone in the house has a food allergy (�
 - **A grain grinder** turns wheat into flour; a hand-cranked one works with no power (→ 16-01).
 - **Beans need long cooking.** Pair them with an insulated "haybox" cooker (→ 07-02) to cut
   fuel.
-- **The kidney-bean rule.** For any *Phaseolus* bean (kidney, red, white, pinto, black):
-  **soak at least 5 hours, THROW AWAY the soak water, then hold a full rolling boil for at
-  least 10 minutes (FDA says 30) BEFORE any haybox or slow finish.** Raw or half-cooked
-  kidney beans carry a natural toxin (a lectin called phytohaemagglutinin): **4 or 5 raw
-  beans can cause hours of violent vomiting and diarrhoea** (FDA, Bad Bug Book). A slow,
-  low-temperature cook (about 80 °C, 176 °F) makes it **worse**, not better. Never cook dry
-  beans from raw in a haybox alone. Canned beans are already safe.
+- **The kidney-bean rule.** For kidney beans and other dry beans of the same family (red,
+  white, pinto, black): **soak at least 5 hours, THROW AWAY the soak water, then boil in fresh
+  water for at least 30 minutes BEFORE any haybox or slow finish** (FDA, Bad Bug Book). Raw or
+  undercooked kidney beans carry a natural toxin (a lectin called phytohaemagglutinin): **as
+  few as 4 or 5 raw beans can cause severe vomiting and diarrhoea,** starting within 1 to 3
+  hours. Slow cookers often reach only about 75 °C (167 °F) inside, which does not destroy it
+  (FDA). Never cook dry beans from raw in a haybox or any slow, low-heat method. Canned beans
+  are already safe.
 - **Sprouting** turns stored grains and beans into fresh greens in winter (→ 04-16).
 - **Old beans get harder.** Soak longer, cook longer, or use a pressure cooker.
 
@@ -141,7 +149,7 @@ Repackaging throws away the label. If anyone in the house has a food allergy (�
 |---|---|---|
 | Food-grade buckets (many) | The container | 5 to 6 gallon; often free from bakeries |
 | **Mylar liner bags** | The real oxygen and moisture barrier | Sized to the bucket |
-| **Oxygen absorbers** | Stops insects, slows rancidity | About 2,000 cc per 5 to 6 gal bucket; 300 to 500 cc per #10 can; reseal spares within 15 to 30 min |
+| **Oxygen absorbers** | Stops insects, slows rancidity | Sized to the container by the maker's chart; reseal spares in an airtight jar at once |
 | Screw-top ("gamma") lids | Working buckets you open often | A few |
 | Impulse sealer or a clothes iron | Sealing Mylar | An iron works |
 | **Hand grain grinder** | Wheat is useless without it | Test it now |

@@ -2,7 +2,7 @@
 id: 30-29-dc28-relighting-gas-appliances
 section: 30-decisions-and-floors
 title: "DC-28. Relighting gas appliance pilots yourself when the gas company will not come"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: card
 danger_level: critical
@@ -75,8 +75,9 @@ about what the household does when nobody will come.
 **Why:**
 - If an appliance valve or a gas line is left open when the gas comes back, gas flows out into the
   room (Propane Education & Research Council).
-- Some gas is heavier than air. Propane sinks and pools at floor level, where the pilot is (A. O.
-  Smith label).
+- "Some gas is heavier than air and will settle on the floor", which is why the label says to
+  smell next to the floor before lighting (A. O. Smith label). Propane is that gas (→ 29-01), and
+  the pilot sits low on most water heaters and furnaces.
 - A gas control that has been under water, or damaged, may not shut properly and must be replaced,
   not relit (A. O. Smith label; Railroad Commission of Texas).
 - A relit appliance with a hidden problem, such as a badly adjusted burner or a blocked chimney,
@@ -106,8 +107,9 @@ stove for months, in a house set up to run on gas.
 - **Close every appliance valve and set every control to "off"** before the gas is turned back on
   at the meter or tank, so nothing is left open (Propane Education & Research Council).
 - **Follow the appliance's own lighting label exactly**, word for word, one appliance at a time.
-  The A. O. Smith water heater label, for example: smell all around the appliance and **next to
-  the floor** before lighting; turn the control to "OFF"; **wait five minutes** to clear any gas
+  The A. O. Smith water heater label, for example: the tank must be **full of water** first;
+  smell all around the appliance and **next to the floor** before lighting; turn the control to
+  "OFF"; **wait five minutes** to clear any gas
   and smell again; if you smell gas, stop; turn the knob **by hand only, never with tools**; if
   the pilot will not stay lit, turn it off and call a technician. Other makers' labels give other
   times; use the one on your appliance.

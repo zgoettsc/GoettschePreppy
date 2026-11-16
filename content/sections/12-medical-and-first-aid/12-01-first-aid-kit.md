@@ -61,8 +61,9 @@ How to use each item is on the treatment pages it points to.
 
 ## Do this now
 
-1. **Take the courses.** Stop the Bleed (about an hour) and a Red Cross or equivalent first
-   aid and CPR class. Every adult who could be the one responding.
+1. **Take the courses.** Stop the Bleed (about an hour; Stop the Bleed, US Department of
+   Defense) and a Red Cross or equivalent first aid and CPR class. Every adult who could be
+   the one responding.
 2. **Count what you already own** against the "buy first" table below and write the counts on
    → 22-04. Assume you do not have a trauma kit until those counts are written down.
 3. **Check everyone's tetanus vaccination** while clinics are open. A puncture wound with no
@@ -72,7 +73,7 @@ How to use each item is on the treatment pages it points to.
    tweezers and pain relief a hundred times for every time you need a tourniquet.
 5. **Put a trauma kit where wood is cut and fires are lit.** Axes, saws, chainsaws and stoves
    are where serious injuries happen (→ 16-06, → 06-01).
-6. **Stock quantities, not a boxed kit.** Commercial kits hold about six of everything. For
+6. **Stock quantities, not a boxed kit.** Commercial kits hold a few of everything. For
    {{ household.size }} people in a long event you want **boxes** of gauze, not packets.
 7. **Photograph where each kit lives** and add the photo below and on → 12-08.
 
@@ -114,8 +115,9 @@ cleaning and burn care, not exotic gear.
 **Bleeding and wounds** (→ 12-02)
 - **Tourniquet ×2 to 3** (a strap with a stick-like handle, the windlass, that you twist to
   stop blood flow to a limb), and **training in how to use one.** Buy a genuine
-  windlass-type tourniquet of a model the Stop the Bleed course teaches. Cheap copies can snap
-  or slip under load.
+  windlass-type tourniquet of a model the Stop the Bleed course teaches; the program's
+  tourniquets come from the US military's recommended list (Stop the Bleed, US Department of
+  Defense). Cheap copies can snap or slip under load.
 - **Hemostatic gauze ×2 to 4** (gauze treated with a substance that speeds clotting) and plain
   **compressed gauze** in quantity.
 - **Pressure bandages ×2 to 4** (a roll bandage with a built-in pad and a clip you can put on
@@ -125,7 +127,7 @@ cleaning and burn care, not exotic gear.
 - Non-adherent dressings (pads that do not stick to a wound) and large abdominal pads.
 - **Nitrile gloves by the box.** Not latex: latex allergy is common. Gloves protect the
   person giving care, which matters when there is no clinic for them either.
-- Trauma shears, fine-point tweezers for splinters, an irrigation syringe (20 to 60 mL) for
+- Trauma shears, fine-point tweezers for splinters, a large irrigation syringe for
   washing wounds.
 - Sterile saline or clean drinkable water for washing wounds (→ 03-04).
 - Wound-closure strips and skin adhesive. **Read → 12-14 before closing any wound.** Most
@@ -200,7 +202,7 @@ Write what you own in the second column. Anything blank is the first thing to bu
 | **Genuine tourniquets ×2**, plus one for practice | ____ | The only fix for a limb bleed that pressure cannot hold (→ 12-02) |
 | **Hemostatic gauze ×2** plus compressed gauze | ____ | Wounds in the groin, armpit and neck; packing |
 | **Pressure bandages ×2** | ____ | One-handed and fast |
-| **Oral rehydration salts (ORS) packets**, enough for at least 20 litres | ____ | Dehydration from diarrhoea is one of the biggest killers when water is unsafe (→ 12-05) |
+| **Oral rehydration salts (ORS) packets**, many litres per person (each packet says how much water it makes) | ____ | Dehydration from diarrhoea is a leading killer of young children worldwide (WHO) (→ 12-05) |
 | **Children's acetaminophen and ibuprofen in the strengths the published tables use, plus two oral dosing syringes** | ____ | The tables on → 12-13 are useless without the bottles and syringes |
 | **CPR pocket mask**, adult and child sizes | ____ | → 12-18 |
 

@@ -2,7 +2,7 @@
 id: 16-09-bicycle-and-transport
 section: 16-tools-and-repair
 title: "Bicycles and human-powered transport"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -26,7 +26,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Unsourced hauling capacities, speed ratio and glue/swap times made relative or pointed to the product label; water weight matches 03-01/22-05; CDC cold-injury links re-read." }
 ---
 
 # Bicycles and human-powered transport
@@ -60,9 +60,9 @@ food. **A bicycle with a trailer is the most capable human-powered transport the
 
 Fuel runs out, and vehicles also need tires, batteries and parts. **A bicycle needs food and a
 small kit of spares.**
-- It moves at three to four times walking speed and carries far more.
-- **With a trailer it can haul 100 lb or more:** water (→ 03-02), firewood (→ 06-04), salvage
-  (→ 22-02), food.
+- It moves several times faster than walking and carries far more.
+- **With a trailer it hauls far more than anyone can carry:** water (→ 03-02), firewood (→ 06-04),
+  salvage (→ 22-02), food. The trailer's label gives its load limit.
 - It is quiet and does not announce itself the way an engine does (→ 14-03).
 - It can be repaired with simple tools and salvaged parts.
 
@@ -116,7 +116,7 @@ frame pump on the bike and a floor pump at home. A pump is not optional.
 {{figure fig-tube-patch-steps}}
 
 **The practical way: carry two spare tubes per bike and swap**, then patch the punctured tube at
-home in good light. A swap takes about 10 minutes; a roadside patch takes longer and fails more.
+home in good light. A swap is quicker than a roadside patch and fails less.
 Patching still matters: it is what lets each tube survive many flats.
 
 1. **Remove the wheel.** Open the brake's quick release (or unhook the curved cable end on rim
@@ -132,10 +132,10 @@ Patching still matters: it is what lets each tube survive many flats.
 5. **Find the hole:** pump some air in and listen, or pass it slowly near your lips to feel the
    air; best of all, dunk it a section at a time in water and watch for bubbles. Mark the hole.
 6. **Patch:** rub the spot with the kit's sandpaper until dull. Spread a thin film of glue wider
-   than the patch. **Wait until the glue looks dry, 2 to 3 minutes. This is the step everyone
-   rushes, and why patches fail.** Peel the foil off the patch without touching the black rubber
+   than the patch. **Wait until the glue looks dry (the kit's instructions give the time). This
+   is the step everyone rushes, and why patches fail.** Peel the foil off the patch without touching the black rubber
    underneath, and press that black side onto the glue, centered on the hole. **The clear plastic
-   film on top stays on.** Press hard for 30 seconds.
+   film on top stays on.** Press hard, as long as the kit says.
 7. **Refit:** put a breath of air in the tube so it holds its shape, push the valve through the
    rim, tuck the tube into the tire all round, then roll the bead back over the rim with your
    palms, finishing opposite the valve. **Use levers only for the last few inches**; levers pinch
@@ -187,17 +187,20 @@ Disc brakes work differently; follow the bike maker's manual.
 
 ## How much each method carries
 
-| Method | Rough load | Notes |
+| Method | Load, compared | Notes |
 |---|---|---|
-| Walking with a pack | 30 to 50 lb, uncomfortably | The baseline |
-| Bicycle with bags | 40 to 60 lb | Steering gets twitchy; keep weight low |
-| **Bicycle and trailer** | **100 lb or more** | The workhorse |
-| Garden cart or wheelbarrow | 100 to 300 lb, short distances | Water, wood, dirt |
-| **Sled on snow** | 100 lb or more, safely | The winter answer |
-| Hand cart | 100 to 200 lb | |
+| Walking with a pack | The least; tiring | The baseline |
+| Bicycle with bags | More than a pack | Steering gets twitchy; keep weight low |
+| **Bicycle and trailer** | **Much more** | The workhorse; the trailer's label gives its limit |
+| Garden cart or wheelbarrow | Heavy loads, short distances | Water, wood, dirt |
+| **Sled on snow** | Heavy loads, safely | The winter answer |
+| Hand cart | Heavy loads | Its label gives the limit |
 
-**Water is why this matters** (→ 03-02): a gallon weighs about 8.3 lb, so five gallons is over
-40 lb and awkward. A cart or sled turns a miserable daily trip into a routine one.
+Your own limits are the ones that count: weigh a loaded trip once on a bathroom scale and write it
+here: ______ lb.
+
+**Water is why this matters** (→ 03-02): a gallon weighs about 8.3 lb (→ 25-02), so five gallons is
+over 40 lb and awkward. A cart or sled turns a miserable daily trip into a routine one.
 
 ## Children
 

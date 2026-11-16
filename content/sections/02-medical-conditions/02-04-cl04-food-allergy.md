@@ -2,7 +2,7 @@
 id: 02-04-cl04-food-allergy
 section: 02-medical-conditions
 title: "CL-04. Food allergy (child or adult)"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: condition
 danger_level: critical
@@ -12,9 +12,7 @@ derived_from: [02-08-allergen-safe-food-plan, 02-06-hugh-anaphylaxis-action-plan
 sources:
   - fda-food-allergies-what-you-need-to-know
   - us-fda-food-allergies-627fb6
-  - american-academy-of-allergy-asthma-and-immunology-aa-7f3939
   - american-academy-of-pediatrics-aap-allergy-and-anaph-3e6f49
-  - cdc-recognizing-and-responding-to-anaphylaxis-645825
   - world-health-organization-cholera-outbreaks-q-and-a-162558
 related:
   - 02-03-cl03-anaphylaxis
@@ -65,15 +63,17 @@ Your household's allergy rows: {{#each allergies as a}}**{{a.member}}**: {{a.all
 > - **A reaction is treated on → 02-03: epinephrine first.** This page is prevention.
 > - **If you cannot name every ingredient and how it was prepared, the allergic person does not
 >   eat it** unless your household has chosen otherwise on the card: {{choice DC-18}} (→ 30-19).
-> - **Severity can change over time.** A food that once caused hives can cause anaphylaxis later.
->   Treat the symptoms in front of you, not the history (AAAAI).
+> - **A mild reaction does not mean a mild allergy.** FDA says any allergic reaction has the
+>   potential to lead to anaphylaxis (FDA, Food Allergies: What You Need to Know). Treat the
+>   symptoms in front of you, not the history.
 
 ## Do this now
 
 **The person may have eaten their allergen:**
 1. **Watch them closely** and keep epinephrine in hand. Any sign of anaphylaxis (→ 02-03):
    **give epinephrine at once.**
-2. **Stop the meal.** Keep what they ate (the package, the dish) to work out what it was.
+2. **Stop the meal**: FDA says stop eating the food immediately. Keep what they ate (the
+   package, the dish) to work out what it was (FDA, Food Allergies: What You Need to Know).
 3. **Do not make them vomit.** Wipe the mouth and hands.
 4. **Stay with them for hours**, with a device in reach.
 
@@ -132,7 +132,9 @@ the danger point. Plan now:
 
 Any sign of anaphylaxis after eating, in more than one body system or severe in one: hives with
 vomiting, swelling of lips or tongue, cough, wheeze, hoarse voice, faintness, or in a small
-child a sudden change in behaviour (CDC; AAAAI). **Epinephrine first** (→ 02-03).
+child a sudden change in behaviour (FDA, Food Allergies: What You Need to Know; AAP, Allergy
+and Anaphylaxis Emergency Plan). Symptoms can start within a few minutes or a few hours of
+eating (FDA). **Epinephrine first** (→ 02-03).
 
 ## 6. Sick-day basics
 
@@ -151,8 +153,12 @@ sesame (FDA, Food Allergies: What You Need to Know). They appear in the ingredie
 "Contains" line. Three things catch people out:
 - **Anything outside those nine is not called out.** Banana, mustard, legumes other than peanut
   and soy, and many others are found only by reading the **full ingredient list**.
-- **"May contain" and "made in a facility with" lines are voluntary** and do not follow a
-  standard. Treat them as a yes until the allergist says otherwise.
+- **"May contain" and "made in a facility with" lines are not required by law** (FDA, Food
+  Allergies), so their absence proves nothing. Treat them as a yes until the allergist says
+  otherwise.
+- **The FDA labelling law does not cover everything.** Meat, poultry and egg products (regulated
+  by USDA), raw farm produce, and food wrapped at a counter after you order it are outside it
+  (FDA, Food Allergies).
 - **Highly refined oils made from a major allergen are exempt** from the allergen declaration
   under US labelling law (FDA, Food Allergies). Some allergic people tolerate them; that is an
   allergist's call, not a book's.

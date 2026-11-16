@@ -2,7 +2,7 @@
 id: 30-18-dc17-old-fuel
 section: 30-decisions-and-floors
 title: "DC-17. Old kerosene, diesel or gasoline in a heater or engine"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: card
 danger_level: critical
@@ -11,9 +11,8 @@ tags: [decision card, fuel, kerosene, diesel, gasoline, shelf life, jar test, he
 derived_from: [06-05-alternative-fuels, 06-06-fuel-storage-safety, 08-10-dyna-glo-kerosene-heater, 09-04-generators, 09-15-generator-maintenance]
 sources:
   - ghp-group-inc-dyna-glo-manufacturer-portable-kerosen-477cfd
-  - university-of-missouri-extension-unvented-portable-k-e850fe
   - cdc-carbon-monoxide-poisoning-basics-772153
-  - cpsc-carbon-monoxide-fact-sheet-e97206
+  - cpsc-464-carbon-monoxide-invisible-killer
 related: [06-05-alternative-fuels, 06-06-fuel-storage-safety, 08-10-wick-kerosene-heaters, 08-07-ducted-heater-operation, 09-04-generators, 09-15-generator-maintenance, 26-08-expiry-and-rotation-tracker, 29-01-ex01-fuels, 29-03-ex03-carbon-monoxide, 30-06-dc05-fuel-in-attached-garage, 30-02-dc01-unvented-heater-overnight]
 cards: [DC-17, DC-05, DC-01]
 explainers: [EX-01, EX-03]
@@ -26,7 +25,7 @@ options:
   - id: jar-test-and-use
     label: "Jar-test old fuel and use it if it passes"
     summary: "Old fuel may be used if a sample in a clear jar, left to stand, is clear and bright with no water layer, cloudiness, sludge or colour change, and it smells like the right fuel. Any doubt, or an unlabelled can, and it is not used."
-settings_summary: "Fuel ages. Gasoline loses the parts that help it start, can absorb water and leaves gum that blocks small-engine carburettors. Kerosene and diesel take up water from the air in part-full cans and can grow sludge. One common wick-heater maker says never use kerosene stored from one season to the next. The real danger is in heaters: old or wet kerosene fouls the wick, so the flame burns badly and makes more smoke and carbon monoxide (CO) indoors. Old gasoline in a generator mostly means it will not start when needed. What helps most: date, stabilise and rotate (removes most of it); store full, sealed, cool and dark, and jar-test before every fill (reduces it a lot). An unlabelled or unknown can is never poured."
+settings_summary: "Fuel ages. Gasoline loses the parts that help it start, can absorb water and leaves gum that blocks small-engine carburettors. Kerosene and diesel take up water from the air in part-full cans and can grow sludge. One common wick-heater maker says never use kerosene stored from one season to the next. The real danger is in heaters: the heater maker says old kerosene will not burn properly: smoke, odour, a low flame and deposits on the wick, and a heater burning badly indoors adds carbon monoxide (CO) to the room. Old gasoline in a generator mostly means it will not start when needed. What helps most: date, stabilise and rotate (removes most of it); store full, sealed, cool and dark, and jar-test before every fill (reduces it a lot). An unlabelled or unknown can is never poured."
 review_pass: null
 ---
 
@@ -48,8 +47,9 @@ Read → 29-01 for what each fuel is.
 - **Gasoline** is a blend that evaporates easily. With age the lightest parts evaporate (it gets
   harder to start an engine), it can take up water (especially blends with ethanol), and it
   leaves gum and varnish in small engines.
-- **Kerosene** is a heavier fuel for wick heaters and lamps. **K-1** (also written 1-K) is the
-  clear, low-sulfur grade made for indoor heaters (MU Extension). Kerosene does not "go off"
+- **Kerosene** is a heavier fuel for wick heaters and lamps. **1-K** (also written K-1) is the
+  grade refined "to virtually eliminate contaminants such as sulphur" and the only grade a wick
+  heater maker allows (heater maker's manual). Kerosene does not "go off"
   quickly, but part-full cans breathe in damp air, collect water at the bottom, and can grow
   sludge.
 - **Diesel** behaves like kerosene: water and sludge are the enemies, and they plug filters.
@@ -62,26 +62,26 @@ Read → 29-01 for what each fuel is.
 
 ## 2. The rule, and why it was set
 
-- A common wick kerosene heater maker says use only **water-clear 1-K kerosene**, and **never use
-  kerosene stored from one season to the next**, because old kerosene will not burn properly
-  (GHP Group/Dyna-Glo, kerosene heater owner's manual).
-- University of Missouri Extension says unvented kerosene heaters must burn only 1-K, and that
-  contaminated or wrong fuel increases smoke and pollutants indoors (MU Extension, Unvented
-  Portable Kerosene Heaters, G1999).
+- A common wick kerosene heater maker says use only **water-clear 1-K kerosene**, and **"NEVER use
+  kerosene that has been stored from one season to the next. Kerosene deteriorates over time.
+  'OLD KEROSENE' WILL NOT BURN PROPERLY."** It lists what poor kerosene causes: smoke, odour, low
+  flame, difficult lighting and excessive deposits on the wick (GHP Group/Dyna-Glo, kerosene
+  heater owner's manual).
 - Generator and small-engine makers call for clean, fresh gasoline and give storage steps for
   long idle periods.
 
 **Why:** a wick heater works only when the wick soaks up clean fuel evenly. Water and sludge
-clog the wick, the flame burns low and uneven, and an unvented heater then puts more carbon
-monoxide and soot into the room (→ 29-03). For engines, stale gasoline is the most common reason
+clog the wick, and the flame burns low, smoky and uneven (heater maker's manual). Fuel that burns
+badly burns incompletely, and in an unvented heater everything it makes, carbon monoxide
+included, goes into the room (→ 29-03). For engines, stale gasoline is the most common reason
 a stored generator will not start.
 
 ## 3. How it actually hurts people
 
 - **Kerosene heater indoors:** wet or dirty fuel fouls the wick. The flame burns low and
   smoky; the household turns the wick down to stop the smell, which makes more CO. The family is
-  sleeping in a closed room (→ 30-02). CO poisons quietly (CDC, Carbon Monoxide Poisoning:
-  Basics; CPSC, Carbon Monoxide Fact Sheet).
+  sleeping in a closed room (→ 30-02). CO poisons quietly, and people who are asleep can die
+  before they feel ill (CDC, Carbon Monoxide Poisoning: Basics; CPSC, The "Invisible" Killer).
 - **Wrong fuel in an old, faded can:** gasoline poured into a kerosene heater makes the flame run
   away: flare-up, fire, explosion.
 - **Generator:** stale gasoline gums the carburettor. It will not start on the night it is

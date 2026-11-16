@@ -2,7 +2,7 @@
 id: 30-28-dc27-water-glassed-eggs
 section: 30-decisions-and-floors
 title: "DC-27. Water-glassing fresh eggs (storing them in lime water)"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: card
 danger_level: critical
@@ -28,7 +28,7 @@ options:
   - id: water-glass-with-rules
     label: "Water-glass with rules"
     summary: "Only clean, unwashed, uncracked fresh eggs, in food-grade pickling lime solution, in a sealed container kept as cool as possible. Every egg is checked before use; any cracked, floating or off egg is discarded; every egg is cooked until yolk and white are firm; none go to anyone allergic to egg."
-settings_summary: "Water-glassing is an old way of keeping fresh eggs without a fridge: unwashed eggs sit in a bucket of pickling lime and water for months. University Extension services say do not do it. The germ Salmonella can be inside an egg before it is laid, the shell lets water and germs through, and a basement or pantry is not cold enough to stop them growing. Salmonella causes diarrhoea, fever, cramps and vomiting; for children, older adults, pregnant women and people with weak immune systems it can be severe, and with no hospital that matters more. The alternative may be no eggs through a winter. What helps most: freezing eggs out of the shell or drying cooked egg (removes it); cooking every stored egg until firm and checking each one (reduces it a lot)."
+settings_summary: "Water-glassing is an old way of keeping fresh eggs without a fridge: unwashed eggs sit in a bucket of pickling lime and water for months. University Extension services say do not do it. The germ Salmonella can be inside an egg before it is laid, the shell lets water and germs through, and a basement or pantry is not cold enough to stop them growing. Salmonella causes diarrhoea, fever, cramps and vomiting; for children, older adults, pregnant women and people with weak immune systems it can be severe, and with no hospital that matters more. The alternative may be no eggs through a winter. What helps most: freezing eggs out of the shell or drying cooked egg (removes the storage risk); cooking every stored egg until firm and checking each one (reduces it a lot)."
 review_pass: null
 ---
 
@@ -71,9 +71,9 @@ household gives up either way, and what it decides.
   the shell after laying. Research shows *Salmonella* can get into the egg while it forms inside
   the hen, and "there is no way a person can know if it is there" (Utah State; Kansas State).
 - Unwashed eggs usually come from small flocks, and a Penn State study found small home flocks
-  have a much higher rate of *Salmonella* than large commercial ones (Utah State).
+  have a much higher rate of *Salmonella* than large commercial ones (Utah State; Kansas State).
 - The membrane under the shell lets water pass, so the solution and any germs in it can get into
-  the egg (Penn State). The lime itself can seep through the shell (Kansas State).
+  the egg (Penn State). The lime itself can seep through the shell (Kansas State; Utah State).
 - Studies from the 1940s found water-glassing did not keep egg quality at room temperatures of
   40 to 95 °F, and a home pantry or basement is unlikely to stay at 40 °F or below, so germs
   already in the egg have time to grow (Penn State).
@@ -93,7 +93,8 @@ from late autumn to spring, and the loss of a good source of protein and fat.
 
 ## 4. What makes it safer
 
-**Removes the risk**
+**Removes the storage risk** (stored eggs are still cooked thoroughly: freezing and freeze-drying
+do not kill *Salmonella*, Utah State)
 - **Freeze eggs out of the shell** while you have a freezer or measured hard-freeze cold
   (→ 04-09). The National Center for Home Food Preservation's method: break each egg separately
   into a clean saucer and check it, mix yolk and white without whipping, add sugar, corn syrup or

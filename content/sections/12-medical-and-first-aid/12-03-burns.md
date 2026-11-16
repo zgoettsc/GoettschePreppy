@@ -52,7 +52,7 @@ review_pass: null
 how serious a burn is, and caring for it afterwards when no hospital is reachable.
 
 > **SAFETY**
-> - **Burns are one of the three most likely serious injuries in a long emergency**, and the
+> - **Burns are among the most likely serious injuries in a long emergency**, and the
 >   risk rises sharply once a household heats with fire, cooks over flame and lights with
 >   lamps{{#if has.young_child}}, especially with young children in the same warm room{{/if}}.
 > - **A large burn without a hospital is very serious.** Large burns lose a great deal of body
@@ -61,7 +61,8 @@ how serious a burn is, and caring for it afterwards when no hospital is reachabl
 > - **Any large burn; any burn to the face, hands, feet, genitals or across a joint; any burn
 >   that goes all the way around a limb; any electrical or chemical burn; and any burn on an
 >   infant or small child needs professional care wherever it exists.**
-> - **Never ice or snow on a burn.** Ice deepens the injury (WHO, Burns fact sheet).
+> - **Never ice or snow on a burn.** Ice can damage the skin further (American Red Cross); WHO
+>   says do not apply ice (WHO, Burns fact sheet).
 
 ## Do this now: someone is burned
 
@@ -69,7 +70,7 @@ how serious a burn is, and caring for it afterwards when no hospital is reachabl
    blanket). Take off hot clothing that is not stuck. **Never pull off clothing melted into
    the skin.**
 2. **Cool it with cool running water for at least 15 minutes by the clock** (American Red
-   Cross); up to 20 is fine. **No ice, no snow.**
+   Cross; WHO: about 20 minutes for smaller burns). **No ice, no snow.**
 3. **Keep the rest of the person warm** while you cool the burn.
 4. **Take off rings, watches and tight items** before swelling starts.
 5. **Cover** with a non-stick dressing or **clean cling film laid on, not wrapped tight.**
@@ -77,8 +78,8 @@ how serious a burn is, and caring for it afterwards when no hospital is reachabl
 7. **Size it with their own palm** (below). Big, deep, or in a high-risk place: move toward
    care. Start drinking fluids (→ 12-05).
 
-**Chemical on the skin or in the eye:** dry powder, brush it off first, then flush 15 to 20
-minutes. Liquid, flush at once. Details below.
+**Chemical on the skin or in the eye:** dry powder, brush it off first, then flush at least
+15 minutes. Liquid, flush at once. **Lye in the eye: flush at least 30 minutes.** Details below.
 
 ## Do this now: preparation
 
@@ -89,8 +90,9 @@ minutes. Liquid, flush at once. Details below.
   cross when the stove or fire is going (→ 20-02, → 20-04). Practise it before you need it.
 - **A fire extinguisher and a fire blanket in every room with a heat source**, plus pot lids
   in the kitchen. Learn to use them (→ 29-12).
-- **Stock burn dressings and cling film.** Clean cling film is a recommended burn covering: it
-  does not stick, it is clean off the roll, and you already have it.
+- **Stock burn dressings and cling film.** Clean plastic wrap laid loosely on a burn is a
+  recognised covering (American Red Cross; WHO, Standards for burns care in mass casualty
+  incidents): it does not stick, it is clean off the roll, and you already have it.
 - **Wool, not fleece, for fire work** (→ 11-05). Synthetic fabric melts onto skin and turns a
   minor burn into a severe one.
 
@@ -108,7 +110,7 @@ minutes. Liquid, flush at once. Details below.
 | Sunburn | Everyone in summer | → 11-08 |
 | **House fire** | Everyone | Alarms, extinguishers, escape plan (→ 00-04) |
 
-**Scalds are the most common burn in small children.** A household boiling water for drinking
+**Children are particularly at risk of scalds** (WHO, Burns fact sheet). A household boiling water for drinking
 and cooking over fire has a lot of hot liquid moving around. Set up the kitchen so **hot
 liquids never travel through the space where children are.**
 
@@ -120,11 +122,11 @@ This is standard first-aid practice. Learn it in a hands-on course.
    or a fire blanket. **Remove smouldering or hot clothing that is not stuck**, but **never
    pull off clothing that has melted into the skin.**
 2. **Cool the burn with cool (not ice-cold) running water for at least 15 minutes by the clock
-   (American Red Cross); up to 20 is fine.** This is the single most effective thing you can
-   do, and it still helps if you start some minutes late. **Do not use ice**: the World Health
-   Organization is explicit that ice deepens the injury. Do not run cooling far past 20
-   minutes on a large burn or a small child, because of hypothermia (dangerous body cooling;
-   WHO).
+   (American Red Cross); WHO says about 20 minutes is commonly advised for smaller burns.**
+   This is the single most effective thing you can do, and it still helps if you start some
+   minutes late. **Do not use ice**: the Red Cross says ice may damage the skin further, and
+   WHO says do not apply it. On a large burn or a small child, watch for hypothermia
+   (dangerous body cooling): WHO says cooling the whole person is not the aim.
 3. **Watch for hypothermia while cooling**{{#if is.cold_winters}}, a real tension in your
    winters{{/if}}, and it matters most with a small child. Cool the burn; keep the **rest** of
    the person warm.
@@ -143,21 +145,24 @@ This is standard first-aid practice. Learn it in a hands-on course.
 
 ## Sizing the burn: the palm rule and when to seek care
 
-**The person's own palm, fingers included, is about 1% of their body surface** (American Burn
-Association, Burn Center Referral Criteria). Count palms of the burned person: an adult's palm
+**The person's own palm is about 1% of their body surface; palm and fingers together are about
+0.8 to 1%** (American Burn Association, Burn Patient Referral Guidelines). Count palms of the burned person: an adult's palm
 on a toddler measures nothing. Redness alone does not count; count blistered or worse.
 
 {{figure fig-burn-palm-rule}}
 
 **Move toward whatever care exists (→ 01-02, → 12-16) for any of these** (American Burn
 Association referral criteria unless noted):
-- **Adult: burned area bigger than about 10 of their own palms (more than 10% of the body).**
-- **Child:** the American Burn Association says burned children should be treated where
-  there is staff and equipment for children's burn care. The World Health Organization calls
-  10% or more a major burn in a child. Children lose fluid faster than adults, so with no
-  hospital, treat any child's burn larger than a few of their own palms as serious.
+- **Adult: a blistered (partial-thickness) burn of about 10 of their own palms or more (10% of
+  the body or more).**
+- **Child:** the American Burn Association says all children's burns (age 14 and under, or
+  under 30 kg, about 66 lb) may benefit from a burn centre. WHO counts 10% or more as a major
+  burn in a child (15% or more in an adult) (WHO, Standards for burns care in mass casualty
+  incidents). With no hospital, treat any child's burn larger than a few of their own palms as
+  serious.
 - **Any full-thickness burn** (white, leathery or charred; painless in the centre).
-- **Face, hands, feet, genitals, the area between the legs, or across a joint**, any size.
+- **Deep burns of the face, hands, feet, genitals, the area between the legs, or over a joint**,
+  any size.
 - **Burns that go all the way around** a limb, finger or the chest. Swelling turns them into a
   tourniquet.
 - **Any electrical or chemical burn; any sign of breathing in hot smoke** (burned in a closed
@@ -171,8 +176,9 @@ Association referral criteria unless noted):
 Large burns kill early through fluid loss. A hospital would use IV fluid (fluid dripped into a
 vein), which a household will not have. **The World Health Organization's 2024 guidance for
 burns in mass-casualty situations covers exactly this gap: where IV fluid is unavailable, use
-fluids by mouth: safe drinking water plus oral rehydration salts (ORS)** (→ 12-05 has the
-packets and the published recipe). In practice: for any burn at or past the thresholds above,
+fluids by mouth: "Oral fluid can be provided as potable drinking water with ORS"** (WHO,
+Standards for burns care in mass casualty incidents, 2024; → 12-05 has the packets and the
+published recipe). In practice: for any burn at or past the thresholds above,
 start ORS early, in steady small amounts, write down what goes in (→ 25-05), and keep it going
 while you move toward care. Vomiting or a drowsy patient is where this method stops working.
 **It replaces nothing when a hospital is reachable; it is the bridge for when one is not.**
@@ -180,8 +186,7 @@ while you move toward care. Vomiting or a drowsy patient is where this method st
 ## Why burns are so dangerous with no clinic: infection
 
 A burn destroys a patch of skin, and skin is what keeps germs out. **Burns get infected easily,
-and infection is the main cause of death in burns people would otherwise survive.** With
-little or no antibiotics (→ 12-04), your defences are:
+and an infected burn can lead to sepsis.** With little or no antibiotics (→ 12-04), your defences are:
 - **Strict cleanliness** at every dressing change: handwashing, gloves, clean materials (CDC,
   About Hygiene).
 - **Clean, non-stick dressings, changed regularly.**
@@ -199,15 +204,19 @@ Lye from soap-making (→ 13-09), pool chlorine (→ 29-05), fuels, drain cleane
 **The treatment is water, at once and in quantity, with one step first for dry chemicals.**
 
 - **Dry powder or granules** (pool shock, lye flakes, garden lime): **brush off every visible
-  grain first** with a gloved hand or a dry cloth, **take off the dusted clothing, then flush
-  for 20 minutes.** A little water on a pile of dry chemical concentrates the heat on the skin
-  (American Red Cross; MedlinePlus, Chemical burn or reaction).
+  grain first** with a gloved hand or a dry cloth, **take off the dusted clothing, then flush.**
+  A little water on a pile of dry chemical concentrates the heat on the skin (American Red
+  Cross; MedlinePlus, Chemical burn or reaction).
 - **Liquids:** flush at once.
-- **Skin:** strip contaminated clothing and rinse under running water **15 to 20 minutes by the
-  clock.** A splash and a wipe is not a rinse.
-- **Eye:** flush with lukewarm clean water for 15 to 20 minutes, lids held open, pouring from
-  the nose side outward so the runoff misses the other eye. Take out contact lenses.
-- **Never add a "neutralising" chemical** to skin or eye. The reaction adds heat.
+- **Skin:** strip contaminated clothing and rinse under cool running water **for at least 15
+  minutes by the clock** (American Red Cross; MedlinePlus). A splash and a wipe is not a rinse.
+- **Eye:** flush with clean water **for at least 15 minutes** (MedlinePlus), lids held open,
+  pouring from the nose side outward so the runoff misses the other eye. Take out contact
+  lenses. **Lye (sodium hydroxide) or another strong alkali in the eye: flush for at least 30
+  minutes** (CDC/ATSDR, Medical Management Guidelines for Sodium Hydroxide), and keep flushing
+  on the way to any care.
+- **Never add a "neutralising" chemical** to skin or eye. MedlinePlus: do not try to neutralise
+  any chemical without the poison centre or a clinician.
 
 A lye or acid splash in the eye is one of the most time-critical injuries in this binder.
 Seconds of delay cost sight. The saline in the medicine kit (→ 12-07) is only the start; clean
@@ -255,9 +264,9 @@ rules non-negotiable.** → 12-16 covers decisions when treatment is not possibl
 ## Scavenge or substitute
 
 - **Cooling:** any clean cool water. **Never snow or ice directly on a burn**: snow in a cold
-  snap is ice, and ice deepens the injury (WHO), the same reason → 12-09 and → 12-19 say wrap
+  snap is ice, and ice can damage the skin further (American Red Cross), the same reason → 12-09 and → 12-19 say wrap
   cold packs. **In winter, melt snow into cool (not icy) water first**, or use stored
-  room-temperature water. Pour or run it over the burn for 15 to 20 minutes and keep the rest
+  room-temperature water. Pour or run it over the burn for at least 15 minutes and keep the rest
   of the person warm.
 - **Coverings:** clean cling film, clean plastic bags, clean cotton cloth (boiled and dried),
   sanitary pads for absorbency over a non-stick layer.

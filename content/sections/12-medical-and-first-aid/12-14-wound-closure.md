@@ -182,7 +182,7 @@ either, is rescue a wound closed over dirt, or an infection that has spread thro
 | Skin glue (medical adhesive) | Clean wounds that close without pulling | Check expiry |
 | Tincture of benzoin or adhesive prep | Makes closure strips actually hold | Underrated |
 | **Gauze for packing, bulk, several widths** | What you will use for weeks | The real consumable |
-| Large flushing syringe (20 to 60 mL) | Cleaning is the treatment | Get several (→ 12-02) |
+| Large flushing syringe (the biggest you can find) | Cleaning is the treatment | Get several (→ 12-02) |
 | Sterile saline or clean water in quantity | Volume matters | → 03-04 |
 | Fine tweezers, artery forceps, good light | Removing debris | Headlamp (→ 10-01) |
 | Nitrile gloves by the box | Every dressing change | Not latex |

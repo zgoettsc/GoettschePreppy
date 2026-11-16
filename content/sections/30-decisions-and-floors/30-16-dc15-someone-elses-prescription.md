@@ -2,7 +2,7 @@
 id: 30-16-dc15-someone-elses-prescription
 section: 30-decisions-and-floors
 title: "DC-15. Giving someone else's prescription medication"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: card
 danger_level: critical
@@ -10,7 +10,7 @@ phase: [A, B, C]
 tags: [decision card, medication, prescription, sharing, allergies, interactions, insulin, opioids]
 derived_from: [12-07-meds-stockpile, 12-04-infection-and-antibiotics, 02-07-epinephrine-storage-and-supply]
 sources:
-  - cdc-antibiotic-use-appropriate-use-and-antibiotic-re-ea0e27
+  - cdc-antibiotic-dos-and-donts-r17
   - american-diabetes-association-switching-between-insu-9c5595
   - us-fda-information-regarding-insulin-storage-and-swi-6448d3
   - american-academy-of-allergy-asthma-and-immunology-aa-7f3939
@@ -52,11 +52,13 @@ it was for and the directions.
 ## 2. The rule, and why it was set
 
 - Pharmacists and clinicians say take prescription medicine only as prescribed for you, and never
-  share it. CDC says this specifically for antibiotics (CDC, Antibiotic Use).
-- For insulin in disasters, FDA and the American Diabetes Association explain that insulins
-  differ in how fast and how long they work, so switching between them needs care and
-  monitoring (FDA, Insulin Storage and Switching Between Products in an Emergency; ADA, Switching
-  Between Insulin Products in Disaster Response Situations).
+  share it. CDC says it in plain words for antibiotics: "Do not share your antibiotics with
+  others" and "Do not take antibiotics prescribed for someone else" (CDC, Healthy Habits:
+  Antibiotic Do's and Don'ts).
+- For insulin in disasters, FDA says switching insulin "should always be done in consultation
+  with a physician and requires close medical supervision, and if possible, close monitoring of
+  blood glucose" (FDA, Insulin Storage and Switching Between Products in an Emergency; ADA,
+  Switching Between Insulin Products in Disaster Response Situations).
 
 **Why:** the right drug and dose depend on what is actually wrong, the person's allergies,
 everything else they take, their kidney and liver function, their weight and age. A medicine
@@ -74,7 +76,8 @@ from another person's auto-injector in anaphylaxis, which allergy plans treat as
   medicine or a seizure medicine the person already takes.
 - **Too strong**: a strong painkiller or a sleeping or anxiety medicine that one person
   tolerates can stop the breathing of someone who has never taken it, especially a child, an
-  elder, or anyone who has also had alcohol (MedlinePlus, Poisoning first aid).
+  elder, or anyone who has also had alcohol. Pain medicines and prescription medicines are among
+  the common causes of poisoning (MedlinePlus, Poisoning first aid).
 - **Wrong insulin**: a fast-acting insulin taken as if it were a long-acting one, or a different
   strength, causes severe low blood sugar: shaking, confusion, seizures, unconsciousness.
 - **Wrong diagnosis**: treating a problem with the wrong medicine hides it while it gets worse.

@@ -117,8 +117,8 @@ stocking deeply, but the household survives shortages of them.
 |---|---|---|
 | **Pain and fever relievers** (acetaminophen and ibuprofen) | The most-used category by far | Adult **and** children's products; → 12-13 |
 | **Oral rehydration salts** | Possibly the most life-saving OTC item here | → 12-05; stock heavily |
-| Antihistamines | Allergic reactions, itching | **Not a substitute for epinephrine** in a severe allergic reaction (→ 02-03). Children's diphenhydramine label: **do not use under 2; ages 2 to 5 only if a doctor directs.** **Never use it to make a child sleep** (FDA, Drug Safety Communication on diphenhydramine). Children's options are on → 12-13 |
-| Anti-diarrhoea medicine | Function and comfort; **not for every case** | Loperamide is not for children under 2 (its label), or for bloody stool or high fever (CDC Yellow Book) |
+| Antihistamines | Allergic reactions, itching | **Not a substitute for epinephrine** in a severe allergic reaction (→ 02-03). Children's diphenhydramine Drug Facts label: **"Do not use to make a child sleepy"; under 2 years, do not use; 2 to 5 years, do not use unless directed by a doctor** (Children's Benadryl Allergy, Drug Facts label). More than the label dose can cause serious heart problems, seizures, coma or death (FDA, Drug Safety Communication on diphenhydramine). Children's options are on → 12-13 |
+| Anti-diarrhoea medicine | Function and comfort; **not for every case** | Loperamide label: **under 2 years, do not use; 2 to 5 years, ask a doctor; do not use with bloody or black stool; ask a doctor first with fever** (Imodium A-D, Drug Facts label). CDC: antimotility drugs alone are not recommended for bloody diarrhoea or diarrhoea with fever (CDC Yellow Book) |
 | **Bismuth subsalicylate** (pink stomach-relief chewables or liquid) | Upset stomach, diarrhoea | Label: **ages 12 and over; under 12 ask a doctor.** It is a **salicylate**, aspirin's chemical family: **children and teenagers who have or are recovering from chickenpox or flu-like symptoms must not use it (Reye's syndrome, a rare and dangerous brain and liver illness).** Not with an aspirin allergy or other salicylates. **Ask a doctor or pharmacist first if taking any medicine for diabetes.** It can turn the tongue and stool black, which is harmless (MedlinePlus), but **do not use it if you already have bloody or black stool**, which can mean bleeding (DailyMed, Drug Facts label). Keep it out of the children's medicine bin |
 | Anti-nausea | Illness; helps keep fluids down | → 12-05 |
 | Antacids and acid reducers | Common, cheap, useful | |
@@ -165,10 +165,10 @@ and write the answer on → 25-09.{{/if}}
 
 - **Cool, dark, dry.** Heat and humidity damage medicines faster than time does. **The bathroom
   cabinet is one of the worst places in the house**: hot and humid.
-- **The number, so "cool" is not a guess:** most OTC labels say store at **68 to 77 °F (20 to
-  25 °C), with brief excursions to 59 to 86 °F (15 to 30 °C) allowed** (the US Pharmacopeia's
-  controlled room temperature, printed on most Drug Facts labels). Below freezing, liquids and
-  suspensions can be ruined. Above 86 °F for long, everything ages faster.
+- **The number, so "cool" is not a guess:** many OTC Drug Facts labels say **"store between
+  20-25°C (68-77°F)"** (for example Children's Benadryl Allergy and Imodium A-D, Drug Facts
+  labels). Your own label governs. Below freezing, liquids and suspensions can be ruined; long
+  heat ages everything faster.
 - **Not the garage, not the car, not an unheated room.** Freezing damages many medicines; heat
   damages most. **When the house is heated to one room** (→ 08-01), that room is where the
   medicines live, on the side away from the heater. Photograph where they go:
@@ -179,9 +179,8 @@ and write the answer on → 25-09.{{/if}}
   drops) have their own rules. Each label or package insert gives an unrefrigerated window; the
   FDA's insulin storage guidance prints the published windows (FDA, Information Regarding
   Insulin Storage). Methods for keeping them cool without power are on → 12-21 and → 29-07.
-- **Frozen insulin is thrown away.** A frozen-then-thawed insulin vial or pen is discarded,
-  because it loses strength with no way to tell and the published guidance is unanimous. This
-  is a floor (→ 30-01), not a choice.
+- **A frozen-then-thawed insulin vial or pen is discarded.** It loses strength with no way to
+  tell, and the published guidance is unanimous. This is a floor (→ 30-01), not a choice.
 - **Heat-exposed refrigerated medicine** is a trade-off. Following the published unrefrigerated
   window exactly is the safe rule; some households, with no alternative, would use it beyond the
   window and watch more closely. Card DC-08 sets out the risk.
@@ -189,8 +188,8 @@ and write the answer on → 25-09.{{/if}}
 - **Epinephrine auto-injectors must not freeze and must not sit in a hot car** (→ 02-03). In
   winter, freezing is the risk that gets forgotten.
 - **Locked away from children.** Child-resistant caps are not child-proof. A locked box is the
-  answer; "high up" is not (→ 20-02). Children having no access to medicines is a floor
-  (→ 30-01).
+  answer; "high up" is not (→ 20-02). **Children do not have access to firearms, fuel,
+  medications or chlorine products.** This is a floor (→ 30-01).
 - **Original containers with labels intact.** Loose pills in a bag cannot be identified six
   months later, which is dangerous.
 - **Rotate.** First in, first out. Twice-a-year review (→ 22-04).
@@ -198,9 +197,11 @@ and write the answer on → 25-09.{{/if}}
 ## Expiry dates: the honest version
 
 An expiry date marks the period the manufacturer guarantees full strength. It is not a cliff.
-The US military and FDA's Shelf Life Extension Program tested stockpiled medicines and found
-**most intact tablets and capsules, stored cool and dry, still good years past the label**
-(Lyon RC et al., Journal of Pharmaceutical Sciences, 2006). Strength drifts down slowly.
+The FDA ran the Shelf Life Extension Program for the US military's stockpiled medicines. Of
+3,005 lots of 122 products, properly stored and laboratory-tested, **88% could be extended at
+least a year past their date, on average by 66 months, but the extra time varied a great deal
+and could only be confirmed by testing each lot** (Lyon RC et al., Journal of Pharmaceutical
+Sciences, 2006). A household cannot test, so treat any extra life as uncertain.
 
 **The documented exceptions** do not hold up the same way: **liquids and suspensions**
 (including children's bottles and any antibiotic mixed with water), **insulin**, **epinephrine**,

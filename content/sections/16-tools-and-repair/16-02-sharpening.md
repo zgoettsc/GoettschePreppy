@@ -2,7 +2,7 @@
 id: 16-02-sharpening
 section: 16-tools-and-repair
 title: "Sharpening knives, axes and saws"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -10,7 +10,7 @@ phase: [A, B, C]
 tags: [sharpening, burr, knife, axe, file, stone, strop, chainsaw chain, saw set]
 derived_from: [16-02-sharpening]
 sources:
-  - osha-hand-and-power-tools-safe-use-maintenance-and-h-77254c
+  - osha-3080-hand-and-power-tools-r13
   - university-of-missouri-extension-selecting-and-maint-c31374
   - university-of-missouri-extension-operating-a-chain-s-80c98c
   - american-college-of-surgeons-stop-the-bleed-stop-the-8d1b5b
@@ -25,7 +25,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Unsourced sharpening angles and file length made relative (match the existing edge); MU depth-gauge every third filing and sharp-chain lines re-read; mushroomed heads and dull-tool lines now OSHA 3080 (read)." }
 ---
 
 # Sharpening knives, axes and saws
@@ -37,13 +37,13 @@ what "tools last forever" really means.
 
 > **CAUTION. A dull tool is more dangerous than a sharp one.** A dull edge does not bite. It
 > skates and glances off, it needs force, and it goes where you did not intend with your weight
-> behind it. Many serious knife and axe injuries involve a dull tool and too much force
+> behind it. OSHA says dull tools cause more hazards than sharp ones (OSHA, Hand and Power Tools)
 > (→ 12-02). Learn to sharpen now, on tools you do not depend on, before you have to do it by
 > lamplight with cold hands (→ 24-01).
 
 ## Do this now
 
-1. **Buy files and stones:** a mill bastard file (a common flat file, 8 to 10 inches) for axes,
+1. **Buy files and stones:** a mill bastard file (a common flat file, a hand-length or longer) for axes,
    chainsaw files in the exact size for your chain, and sharpening stones in a coarse and a fine
    grit.
 2. **Sharpen everything you own this month:** kitchen knives, the axe, the hatchet, the shovel,
@@ -70,16 +70,17 @@ Everything else (angles, stones, technique) is refinement of that one idea.
 
 ## Angles, roughly
 
-The angle is measured on one face, from the flat of the blade.
+The angle is measured on one face, from the flat of the blade. **The best guide is the angle the
+tool already has:** match it, and the maker's instructions where they give one.
 
-| Tool | Rough angle per side | Why |
+| Tool | Edge | Why |
 |---|---|---|
-| Kitchen or fillet knife | Shallow, about 15 to 20 degrees | Sharpest; for slicing, not chopping |
-| Butchering knife | About 20 degrees | Sharp but durable (→ 05-09) |
-| General outdoor knife | About 20 to 25 degrees | Compromise |
+| Kitchen or fillet knife | The thinnest | Sharpest; for slicing, not chopping |
+| Butchering knife | Thin, a little sturdier | Sharp but durable (→ 05-09) |
+| General outdoor knife | Medium | Compromise |
 | Axe or hatchet | Thicker, with a rounded ("convex") profile | Must survive impact; a thin edge chips (→ 16-06) |
 | Machete or brush hook | Thicker | Impact tool |
-| Chisel or plane blade | About 25 to 30 degrees, back kept flat | Fine woodwork |
+| Chisel or plane blade | Medium, one bevel, back kept flat | Fine woodwork |
 | Scissors and shears | The factory angle, bevelled side only | Never sharpen the flat inner side |
 
 **Thinner cuts better; thicker lasts longer.** An axe sharpened like a kitchen knife chips on the
@@ -111,9 +112,11 @@ the stone was made for.
    flat bevel. Blend the bevel back a couple of inches into the side of the head.
 4. **Then a stone**, in small circles, both sides.
 5. **Strop or hone** to finish.
-6. **Wear gloves and file away from your hand.** File slips on axes are a common injury.
-7. **Grind off any mushrooming** on the striking end of a maul or wedge. Mushroomed steel breaks
-   off in flying fragments (OSHA, Hand and Power Tools), a classic eye injury.
+6. **Wear gloves and file away from your hand.** A file that slips off an axe edge takes your
+   knuckles with it.
+7. **Grind off any mushrooming** on the striking end of a maul or wedge. OSHA says mushroomed heads
+   can shatter on impact and send sharp fragments flying (OSHA, Hand and Power Tools), a classic
+   eye injury.
 
 A properly sharpened axe cuts far more wood per swing, which matters when you are cutting a
 winter's firewood by hand (→ 06-04).
@@ -123,8 +126,8 @@ winter's firewood by hand (→ 06-04).
 - **Bow saw blades are hardened and disposable.** You cannot usefully resharpen them. **Stock many
   spare blades.**
 - **Chainsaw chains are not disposable.** They are sharpened with a round file many times over
-  their life, a few strokes per tooth every tank or two of fuel. A chain is used up only when the
-  teeth are filed back to the wear marks.
+  their life, a light touch-up whenever the chain starts making dust instead of chips. A chain is
+  used up only when the teeth are filed back to the wear marks.
 - **Traditional hand saws can be sharpened and "set"** with a saw file and a saw set (a plier-like
   tool). This is a learnable skill, and it is why an old hand saw is a better long-term buy than
   a disposable-blade saw.
@@ -139,11 +142,15 @@ kickback more likely. Kickback is the saw's tip catching and throwing the bar up
 you, one of the main ways chainsaws injure people (University of Missouri Extension, Operating a
 Chain Saw Safely; → 16-06).
 
-- **Sharpen often.** A few strokes every tank is far better than a big restoration later.
+- **Sharpen often.** Always run a sharp chain: it cuts better and reduces the fatigue that leads to
+  accidents (University of Missouri Extension, Selecting and Maintaining a Chain Saw). Wear gloves or
+  lay a heavy cloth over the chain while filing (MU Extension).
 - **A sharp chain pulls itself into the wood and throws chips. A dull chain makes fine dust and
   you have to push.** That is the test.
 - **Depth gauges** (the small humps in front of each cutting tooth, also called rakers) must be
-  filed down now and then, or the chain stops cutting even with sharp teeth.
+  filed down too, or the chain stops cutting even with sharp teeth. MU Extension says chain makers
+  recommend lowering them every third filing (MU Extension, Selecting and Maintaining a Chain
+  Saw).
 - **Stock the right size files and a depth-gauge tool** (University of Missouri Extension,
   Selecting and Maintaining a Chain Saw). They are small, cheap and specific to your chain. Write
   the size on your tool inventory (→ 16-01).
@@ -162,7 +169,7 @@ Chain Saw Safely; → 16-06).
 
 | Item | Why | Notes |
 |---|---|---|
-| Mill bastard file, 8 to 10 in, with a handle | The axe file; general use | Buy several |
+| Mill bastard file with a handle | The axe file; general use | Buy several |
 | Chainsaw files in your chain's size, and a depth-gauge tool | Chain-specific | Stock many; they wear |
 | Sharpening stones, coarse and fine | Knives, chisels, plane blades | Diamond plates last longest |
 | Strop (leather and polishing compound) | Keeps an edge without removing metal | An old belt works |

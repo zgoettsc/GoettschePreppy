@@ -2,7 +2,7 @@
 id: 30-21-dc20-open-flame-indoors
 section: 30-decisions-and-floors
 title: "DC-20. Open-flame cooking, candles or oil lamps indoors"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: card
 danger_level: critical
@@ -11,9 +11,7 @@ tags: [decision card, candles, oil lamps, open flame, cooking, gas range, fire, 
 derived_from: [10-02-fuel-lamps-and-candles, 10-04-candles-and-oil, 07-05-propane-and-camp-stoves, 08-02-carbon-monoxide-safety]
 sources:
   - us-fire-administration-fema-candle-fire-safety-use-f-6eeda1
-  - nfpa-heating-fire-safety-5cb9e6
   - cdc-carbon-monoxide-poisoning-basics-772153
-  - cdc-winter-weather-before-during-and-after-13bbd5
   - cdc-mmwr-hydrocarbon-kerosene-lamp-oil-ingestion-in-106f3a
   - national-capital-poison-center-poison-control-1-800-e428c9
 related: [10-01-lighting-options, 10-02-fuel-lamps-and-candles, 10-04-candles-and-oil, 07-05-propane-and-camp-stoves, 07-06-electric-kettle-cooking, 07-01-cooking-on-an-open-fire, 08-02-carbon-monoxide-safety, 12-17-poisoning-and-ingestion, 29-12-ex12-extinguishers-blankets-and-alarms, 29-03-ex03-carbon-monoxide, 30-01-the-floors]
@@ -28,7 +26,7 @@ options:
   - id: with-extinguisher-and-alarm
     label: "Indoors with extinguisher, alarms and rules"
     summary: "Candles, oil lamps or stove-top flame cooking are allowed only with working smoke and CO alarms, an extinguisher within reach, 12 inches clear all round, an adult in the room, never where anyone sleeps, out when the room is left."
-settings_summary: "In an outage, candles, oil lamps and cooking on a match-lit gas stove are the oldest answers to dark and cold food. US Fire Administration advice is to use flashlights, not candles, in a power outage, because candles cause many home fires, often when they are left burning, placed too close to something that burns, or reached by children or pets. Any flame indoors also adds carbon monoxide and uses oxygen, and CDC says never use a gas stove or oven to heat a home. Lamp oil and kerosene are poisonous if a child swallows them. What helps most: battery lights and outdoor cooking (removes it); working smoke and CO alarms, an extinguisher in reach, an adult present, nothing within 12 inches, never in sleeping areas (reduces it a lot)."
+settings_summary: "In an outage, candles, oil lamps and cooking on a match-lit gas stove are the oldest answers to dark and cold food. US Fire Administration advice is to use flashlights, not candles, in a power outage, and to keep candles at least 12 inches from anything that burns: it counts about 20 home candle fires a day, from candles that tip over or sit too close to something that burns. Any flame indoors also adds carbon monoxide and uses oxygen, and CDC says never heat a home with a gas oven. Lamp oil and kerosene are poisonous if a child swallows them. What helps most: battery lights and outdoor cooking (removes it); working smoke and CO alarms, an extinguisher in reach, an adult present, nothing within 12 inches, never in sleeping areas (reduces it a lot)."
 review_pass: null
 ---
 
@@ -60,12 +58,12 @@ It does not cover heaters (→ 30-02) or camp stoves and grills (floor).
 - The US Fire Administration says **use flashlights, not candles, during a power outage**; keep
   candles at least 12 inches from anything that can burn; blow them out when you leave the room or
   go to sleep; and avoid using them in bedrooms and sleeping areas (USFA, Candle Fire Safety).
-- CDC says **never use a gas range or oven to heat a home** (CDC, Carbon Monoxide Poisoning:
-  Basics; CDC, Winter Weather).
-- NFPA advises keeping anything that can burn well away from heat sources and having working smoke
-  alarms (NFPA, Heating fire safety).
+- CDC says **never heat a home with a gas oven** (CDC, Carbon Monoxide Poisoning: Basics).
+- The same USFA page counts about 20 home candle fires reported each day, and suggests
+  battery-operated flameless candles instead (USFA, Candle Fire Safety).
 
-**Why:** a flame is a heat source that can be knocked over, forgotten or reached by a child. In an
+**Why:** USFA: open flames make candles dangerous "if they tip over or when they are placed too
+close to anything that can burn". A flame can also be forgotten or reached by a child. In an
 outage the risks pile up: more candles than usual, people tired and distracted, dark rooms, and
 often no fire department coming.
 
@@ -78,8 +76,8 @@ often no fire department coming.
   in a closed room, or a smoky lamp adds CO and uses oxygen (→ 29-03).
 - **Poisoning**: a child drinks lamp oil or kerosene from a lamp or a bottle that looks like juice.
   A small amount breathed into the lungs causes a severe chemical pneumonia; do **not** make the
-  child vomit, call Poison Control (CDC MMWR, hydrocarbon ingestion in children; Poison Control,
-  1-800-222-1222; → 12-17).
+  child vomit, call Poison Control (CDC MMWR, Near Fatal Ingestion of Household Lamp Oil, 1997;
+  Poison Control, 1-800-222-1222; → 12-17).
 - **Burns**: hot wax, a glass chimney, a pan on an unsteady flame.
 
 ## 4. What makes it safer

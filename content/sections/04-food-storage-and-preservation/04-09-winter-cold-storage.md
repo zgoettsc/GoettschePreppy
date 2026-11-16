@@ -81,7 +81,7 @@ cold you have (→ 04-17).{{/if}}
   not know it happened unless a min/max thermometer tells you.
 - **Any spot in direct sun,** even in a cold place.
 - **Warm spells.** Sudden thaws and warm dry winds (chinooks east of the Rockies) can raise the
-  temperature 40 °F or more in hours. Have a plan to cook or preserve fast.
+  temperature by tens of degrees in hours. Have a plan to cook or preserve fast.
 - **Spring, everywhere.** It ends, often abruptly.
 
 {{#each destinations as x}}
@@ -105,9 +105,9 @@ In a place with reliable hard freezes, cold storage with no power lets you:
 
 | Trap | Why it bites | Fix |
 |---|---|---|
-| **Sun** | Direct sun on a container can lift it above freezing even at 20 °F air temperature | North side, shade, insulated container |
+| **Sun** | Direct sun on a container can lift it above freezing while the air is well below freezing | North side, shade, insulated container |
 | **Thaw and refreeze** | Repeated cycles ruin quality and are a safety risk | An insulated container damps the swings; a min/max thermometer catches them |
-| **Warm spells** | Swings of 40 to 50 °F in a day happen in some regions | Min/max thermometer; a plan to process food fast |
+| **Warm spells** | Big swings within a day happen in some regions | Min/max thermometer; a plan to process food fast |
 | **Animals** | Everything wants your meat | Secure, raised, hard-sided container |
 | **"Cold enough"** | Air temperature is not food temperature | Measure the **food,** not the air |
 | **Spring** | It ends, often suddenly | Have the food preserved (→ 04-05, → 04-06) first |

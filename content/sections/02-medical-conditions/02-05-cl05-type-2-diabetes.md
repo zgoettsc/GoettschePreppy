@@ -2,7 +2,7 @@
 id: 02-05-cl05-type-2-diabetes
 section: 02-medical-conditions
 title: "CL-05. Type 2 diabetes (tablets and non-insulin medicines)"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: condition
 danger_level: caution
@@ -11,7 +11,10 @@ tags: [condition library, type 2 diabetes, metformin, tablets, GLP-1, low blood 
 derived_from: [12-11-chronic-conditions, 02-04-cgm-conservation-and-dka]
 sources:
   - cdc-type-2-diabetes
+  - cdc-diabetes-symptoms-r10
   - cdc-low-blood-sugar-hypoglycemia
+  - cdc-treatment-of-low-blood-sugar-r7
+  - niddk-low-blood-glucose-hypoglycemia-r10
   - cdc-managing-sick-days-18c7c8
   - cdc-diabetic-ketoacidosis-55a7c2
   - american-diabetes-association-dka-ketoacidosis-and-k-f0301a
@@ -59,22 +62,27 @@ treatment, read → 02-06 as well.
 {{#if has.condition.CL-05}}**Someone in your household has this condition.** This module is at the front of the medical section for you.{{else}}**Nobody in your household is marked with this condition.** The module stays in the binder so you can help someone else, or add the condition later in settings.{{/if}}
 
 > **SAFETY**
-> - **Some diabetes tablets can cause low blood sugar**, especially when meals are missed or work
->   is hard (CDC, Low Blood Sugar). Know whether the person's do; the first aid is below.
+> - **Some diabetes tablets can cause low blood sugar**: NIDDK names two types, sulfonylureas and
+>   meglitinides, and says skipped or delayed meals and more physical activity than usual make
+>   lows more likely (NIDDK, Low Blood Glucose). Know whether the person's do; the first aid is
+>   below.
 > - **Do not stop or cut medicines on your own** to make them last. Ask the prescriber now what
->   to do if supply runs short, and write the answer in part 12.
+>   to do if supply runs short, and write the answer in part 6.
 > - **This page never calculates, adjusts or suggests a dose.**
 
 ## Do this now
 
 **Low blood sugar (shaky, sweaty, confused, odd behaviour) in someone on diabetes medicine:**
 1. If they can swallow safely: **CDC's 15-15 rule**: 15 grams of fast carbohydrate (glucose
-   tablets or gel by their label, half a cup of juice or regular soda), wait 15 minutes, check;
-   if still below 70 mg/dL, repeat (CDC, Low Blood Sugar).
+   tablets or gel by their label, or half a cup, 4 ounces, of juice or regular soda), wait 15
+   minutes, check; if still below 70 mg/dL, repeat (CDC, Treatment of Low Blood Sugar). **If the
+   person takes a medicine that slows the digestion of carbohydrate, use glucose tablets or
+   gel**: NIDDK says other sugars will not act fast enough (NIDDK, Low Blood Glucose).
 2. **Cannot swallow or not awake: nothing by mouth.** On their side. Glucagon if the prescriber
-   supplied it, exactly as its label shows.
-3. Food once they are awake. Some tablets keep lowering sugar for many hours: **watch them
-   through the night.**
+   supplied it, exactly as its label shows; CDC says to get emergency medical care right after a
+   glucagon injection, so send for any that exists.
+3. Food once they are awake. Some tablets (sulfonylureas) raise insulin over several hours
+   (NIDDK): **watch them through the night.**
 
 **Very high sugar with confusion, extreme thirst, drowsiness or vomiting:** fluids by small sips
 if awake, check sugar, follow the sick-day plan (part 6), and seek care if any exists.
@@ -82,7 +90,7 @@ if awake, check sugar, follow the sick-day plan (part 6), and seek care if any e
 ## 1. What it is
 
 In type 2 diabetes, the body still makes insulin but uses it poorly, and over time makes less.
-Blood sugar runs high, which slowly damages blood vessels, nerves, eyes, kidneys and feet (CDC,
+Blood sugar runs high, which over time can cause heart disease, vision loss and kidney disease (CDC,
 Type 2 Diabetes).
 
 ## 2. What runs out, and how fast
@@ -110,9 +118,10 @@ Type 2 Diabetes).
 ## 4. Day by day without it
 
 What public sources describe when diabetes tablets stop:
-- **Days to weeks:** sugar rises. Thirst, peeing often, tiredness, blurry vision, slow healing
-  (CDC, Type 2 Diabetes).
-- **Weeks:** infections become more likely, especially skin, feet and urinary tract.
+- **Days to weeks:** sugar rises. Thirst, peeing often, tiredness, blurry vision (CDC, Diabetes
+  Symptoms).
+- **Weeks:** infections become more likely; CDC lists frequent urinary tract and yeast
+  infections among the signs of high sugar. Skin and foot wounds heal slowly.
 - **Danger case:** very high sugar with dehydration, especially in older people, during illness
   or heat, can lead to confusion, drowsiness and collapse. It needs fluids and medical care.
 
@@ -122,14 +131,15 @@ crisis lowers sugar. **A sudden change in diet or work can push someone on sugar
 tablets into a low**, so check more often when the routine changes, and ask the prescriber how
 to adjust (→ 04-18).
 
-**Feet.** Damaged nerves mean a person may not feel a blister or a splinter. Off-grid life is
+**Feet.** Numbness or tingling in the hands or feet is one of the symptoms CDC lists as more
+common in type 2 diabetes (CDC, Diabetes Symptoms). Damaged nerves mean a person may not feel a blister or a splinter. Off-grid life is
 hard on feet: wet boots, long walks, cold. **Look at the feet every day**, keep them dry and
 clean, wear socks and shoes always, and treat any wound at once (→ 11-04, → 12-04).
 
 ## 5. Warning signs that mean an emergency
 
 - **Low blood sugar** (below 70 mg/dL, CDC): shaky, sweaty, fast heartbeat, confused, irritable,
-  pale; then seizure or unconsciousness. First aid in "Do this now".
+  dizzy; then seizure or unconsciousness (CDC, Low Blood Sugar). First aid in "Do this now".
 - **Very high sugar with dehydration:** extreme thirst, dry mouth, confusion, drowsiness, weakness.
 - **Ketoacidosis (DKA)** is less common in type 2 but happens, including with some tablets. ADA
   notes ketones are most likely in people taking insulin or an **SGLT2 inhibitor** (a tablet
@@ -148,7 +158,7 @@ check temperature morning and evening.
 
 **Some medicines are commonly paused when a person cannot keep fluids down**, because of
 dehydration or kidney strain; which ones depends on the person. Oral rehydration solution (the
-WHO home recipe: 1 litre safe water, 6 level teaspoons sugar, half a level teaspoon salt; WHO,
+WHO home recipe: 1 litre safe water, 6 teaspoons sugar, half a teaspoon salt; WHO,
 Cholera Q&A; safety notes on → 12-05) treats dehydration; count its sugar.
 
 **Ask your prescriber now, while you can, and write it here:**

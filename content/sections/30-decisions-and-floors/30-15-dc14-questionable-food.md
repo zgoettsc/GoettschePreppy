@@ -15,6 +15,7 @@ sources:
   - cdc-botulism-home-canned-foods-r17
   - cdc-botulism-signs-symptoms-r17
   - foodsafety-gov-usda-hhs-cook-to-a-safe-minimum-inter-13daf3
+  - fda-what-you-need-to-know-about-egg-safety
 related: [04-17-food-safety-power-outage, 04-02-building-a-pantry, 04-10-rotation-and-inventory, 04-05-canning-pressure, 12-05-common-illness-and-dehydration, 22-02-scavenging-field-guide, 29-14-ex14-reading-a-label, 29-08-ex08-canning-words, 30-19-dc18-unlabeled-food-and-allergies, 30-01-the-floors]
 cards: [DC-14, DC-18]
 explainers: [EX-08, EX-14]
@@ -71,8 +72,8 @@ which about safety, and what the household decides.
   mouldy or smells bad (CDC, Home-Canned Foods).
 
 **Why:** a sharp dent on a seam can break the seal invisibly and let bacteria in; deep rust can
-eat through the metal. Between 40 and 140 °F bacteria multiply fast in perishable food, and some
-make toxins that cooking does not destroy. The agencies draw simple lines because no one can see
+eat through the metal (USDA FSIS). Between 40 and 140 °F, bacteria that cause illness grow
+quickly (FDA, What You Need to Know About Egg Safety). The agencies draw simple lines because no one can see
 or smell most of these dangers.
 
 ## 3. How it actually hurts people

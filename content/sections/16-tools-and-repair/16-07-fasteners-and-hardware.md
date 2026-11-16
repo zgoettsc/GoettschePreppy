@@ -2,7 +2,7 @@
 id: 16-07-fasteners-and-hardware
 section: 16-tools-and-repair
 title: "Fasteners, wire and hardware to stock"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: none
@@ -26,7 +26,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Spot-checked (danger none): lead line re-cited to the CDC page actually archived; tetanus per CDC; sizes are buying guidance." }
 ---
 
 # Fasteners, wire and hardware to stock
@@ -126,7 +126,9 @@ the right screw stops a repair dead. They are also among the best barter goods t
   (→ 16-08).
 - **Do not over-tighten.** A stripped thread or snapped bolt turns a five-minute job into an hour.
 - **Old painted hardware and wood may carry lead paint.** Do not sand or burn it indoors, and keep
-  children away from the dust (CDC, About Lead in the Home).
+  children away from the dust: lead is swallowed as paint chips and dust or breathed in as dust,
+  and children under 6 are most likely to be exposed (CDC, About Childhood Lead Poisoning
+  Prevention).
 
 ## Storage that makes it usable
 

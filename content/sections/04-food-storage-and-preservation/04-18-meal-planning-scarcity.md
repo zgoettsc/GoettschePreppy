@@ -90,10 +90,10 @@ a scale and a printed reference, not later by candlelight.
 - **Soak beans and grains first.** It cuts cooking time a great deal.
 - **Haybox finish** (an insulated box that keeps a hot pot cooking, → 07-02): boil hard **at
   least 10 minutes,** then insulate for hours. Nearly free.
-  - **Dry kidney-type beans** (any *Phaseolus* bean: kidney, red, white, pinto, black): **soak at
-    least 5 hours, throw the soak water away, and hold a full rolling boil at least 10 minutes
-    (FDA says 30) BEFORE the box.** Never from raw in a haybox alone; a low, slow cook makes the
-    bean toxin worse (FDA, Bad Bug Book; → 04-03).
+  - **Dry kidney beans and other dry beans of the same family** (red, white, pinto, black):
+    **soak at least 5 hours, throw the soak water away, and boil in fresh water for at least
+    30 minutes BEFORE the box.** Never from raw in a haybox alone; a low, slow cook does not get
+    hot enough to destroy the bean toxin (FDA, Bad Bug Book; → 04-03).
   - **Hold rule:** food that has sat in the box more than about 4 hours, or is no longer too hot
     to touch (about 140 °F, the top of the danger zone), is **boiled again before anyone eats
     it.** The box is a cooker, not a warmer for ever.

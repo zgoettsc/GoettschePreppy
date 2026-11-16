@@ -2,7 +2,7 @@
 id: 02-06-cl06-type-2-diabetes-on-insulin
 section: 02-medical-conditions
 title: "CL-06. Type 2 diabetes on insulin"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: condition
 danger_level: critical
@@ -16,6 +16,8 @@ sources:
   - cochrane-human-insulin-less-temperature-sensitive-th-28a2b9
   - cdc-type-2-diabetes
   - cdc-low-blood-sugar-hypoglycemia
+  - cdc-treatment-of-low-blood-sugar-r7
+  - niddk-low-blood-glucose-hypoglycemia-r10
   - cdc-managing-sick-days-18c7c8
   - cdc-diabetic-ketoacidosis-55a7c2
   - american-diabetes-association-dka-ketoacidosis-and-k-f0301a
@@ -75,17 +77,21 @@ fuller storage detail on → 02-01.
 
 ## Do this now
 
-**Low blood sugar (shaky, sweaty, pale, confused, odd behaviour):**
+**Low blood sugar (shaky, sweaty, confused, odd behaviour):**
 1. If they can swallow safely: **CDC's 15-15 rule**: 15 grams of fast carbohydrate (glucose
-   tablets or gel by their label, half a cup of juice or regular soda), wait 15 minutes, check;
-   if still below 70 mg/dL, repeat (CDC, Low Blood Sugar).
+   tablets or gel by their label, or half a cup, 4 ounces, of juice or regular soda), wait 15
+   minutes, check; if still below 70 mg/dL, repeat (CDC, Treatment of Low Blood Sugar). **If the
+   person also takes a tablet that slows the digestion of carbohydrate, use glucose tablets or
+   gel**: NIDDK says other sugars will not act fast enough (NIDDK, Low Blood Glucose).
 2. **Cannot swallow or not awake: nothing by mouth.** On their side. Glucagon if the prescriber
-   supplied it, exactly as its label shows.
+   supplied it, exactly as its label shows; CDC says to get emergency medical care right after a
+   glucagon injection, so send for any that exists.
 3. Food once awake. Long-acting insulin keeps working: **check again within the hour and through
    the night.**
 
 **Very high sugar, vomiting, deep fast breathing, fruity breath, confusion:** keep giving insulin
-(never stop it because the person is not eating; CDC, Managing Sick Days), fluids by small sips,
+(CDC's sick-day advice is to keep taking it as usual; not eating is not a reason to stop it;
+CDC, Managing Sick Days), fluids by small sips,
 check ketones if you have strips, follow the sick-day plan in part 6, and seek care if any
 exists. CDC's emergency signs: sugar staying at **300 mg/dL or above**, fruity breath, vomiting
 so persistent that no food or fluid stays down, trouble breathing (CDC, Diabetic Ketoacidosis).
@@ -117,14 +123,24 @@ in an Emergency; ADA, Insulin Storage and Syringe Safety):**
 - With no power, vials and cartridges, opened or unopened, **may be kept at 59 to 86 °F for up to
   28 days** and still work (FDA). Each product's label gives its own in-use days; write yours in
   part 12.
+- **The once-weekly insulin has its own window.** FDA, as published: "Awiqli (insulin icodec) is
+  only available as a prefilled pen. It has a longer unrefrigerated storage window than other
+  insulin products. Unopened Awiqli FlexTouch pens stored in a refrigerator (36°F to 46°F) may
+  be kept until the expiration date. Once removed from the refrigerator, or when in use, Awiqli
+  pens may be stored at room temperature below 86°F for up to 12 weeks. The total combined time
+  at room temperature, whether opened or unopened, must not exceed 12 weeks. Do not freeze
+  Awiqli; do not use if it has been frozen." (FDA, Information Regarding Insulin Storage and
+  Switching Between Products in an Emergency)
 - Above 86 °F, insulin loses strength; FDA says under emergency conditions you might still need
   to use insulin stored above 86 °F, and to replace it when properly stored insulin is available.
   Your household's line: {{choice DC-08}} (→ 30-09).
 - **Frozen: do not use** (FDA, ADA). Floor: discard.
-- Clear insulin that turns cloudy or coloured, or cloudy insulin with clumps or frosting on the
-  glass, is not used (ADA).
-- Planning context: a 2023 Cochrane review found unopened vials of some human insulins kept their
-  strength up to six months at up to 77 °F and two months at up to 99 °F (Cochrane, 2023). Not
+- Regular (clear) insulin with particles or discoloration, or NPH (cloudy) insulin with frosting
+  or crystals on the bottle or small particles or clumps, is not used (ADA).
+- Planning context: a Cochrane review found unopened vials and cartridges of specific types of
+  human insulin kept their strength up to six months at up to 77 °F and two months at up to
+  99 °F (Cochrane, Human insulin less temperature-sensitive than previously thought). It did not
+  cover the newer "analog" insulins. Not
   permission to store warm; a reason not to throw away a stockpile after one hot afternoon.
 
 **The cold ladder:** a fridge or 12-volt cooler on battery or solar that cannot freeze
@@ -154,7 +170,7 @@ supply runs short, and write it in part 6.
 
 ## 5. Warning signs that mean an emergency
 
-- **Low blood sugar** below 70 mg/dL (CDC): shaky, sweaty, fast heartbeat, confused, pale, then
+- **Low blood sugar** below 70 mg/dL (CDC): shaky, sweaty, fast heartbeat, confused, dizzy, then
   seizure or unconsciousness. First aid in "Do this now". **Every adult in the house should be
   able to give glucagon if it is kept.**
 - **Very high sugar with dehydration:** extreme thirst, dry mouth, confusion, drowsiness.
@@ -205,8 +221,8 @@ Used needles go in a heavy plastic bottle with a screw cap (FDA, Best Way to Get
 Needles). Never share a pen or syringe (ADA).
 
 > **Before the collapse:** ask for the largest emergency supply the prescriber will write; 90-day
-> fills; refill at the earliest allowed date. In most states, older human insulins (Regular, NPH
-> and their mixes) are sold at the pharmacy counter without a prescription; ask the pharmacist
+> fills; refill at the earliest allowed date. In many states, older human insulins (Regular, NPH
+> and their mixes) can be bought at the pharmacy counter without a prescription; ask the pharmacist
 > what your state allows, and ask the prescriber now whether one of them could serve as this
 > person's backup, and how. Write it here: _________________________________________
 
@@ -218,8 +234,10 @@ veterinary insulin, never unlabelled vials, never insulin of unknown storage.**
 
 **If only a different insulin can be found:** FDA and the ADA publish emergency switching
 guidance and both say switching should be done with a physician and close sugar checks (FDA;
-ADA, Switching Between Insulin Products in Disaster Response Situations). Both are bound behind
-this page in the Large download. **This binder does not convert doses**; FDA's published text
+ADA, Switching Between Insulin Products in Disaster Response Situations). **The two documents
+do not give the same amounts**: the ADA sheet, written for health professionals, lowers the dose
+in most switches, while FDA's mostly keeps the same number of units. That is one more reason to
+have the prescriber decide now. Both are bound behind this page in the Large download. **This binder does not convert doses**; FDA's published text
 follows, for your prescriber to confirm.
 
 ### As published, for your prescriber to confirm
@@ -289,7 +307,7 @@ out any amount from it. Brand names are FDA's examples.
 >
 > In an emergency, you can switch one insulin mix for another on a unit-per-unit basis.
 >
-> Insulin mixes with rapid-acting insulin analog (e.g., Humalog Mix, NovoLog Mix) should be
+> Insulin mixes with rapid-acting insulin analog (e.g., Humalog Mix, Novolog Mix) should be
 > injected closer (within 15 minutes) to the start of the meal compared to mixes containing
 > regular insulin (e.g., Humulin 70/30).
 >
@@ -297,8 +315,12 @@ out any amount from it. Brand names are FDA's examples.
 >
 > Step one: replace an intermediate-acting part of the mix (about 70% of the total units for
 > each dose) with an intermediate-acting or a long-acting insulin on a unit-per-unit basis.
-> With an intermediate-acting insulin: Give 70% of total units for each dose. With a long-acting
-> insulin: Add up the total insulin units given in one day. Give 70% as one daily dose.
+>
+> - With an intermediate-acting insulin:
+>   - Give 70% of total units for each dose
+> - With a long-acting insulin:
+>   - Add up the total insulin units given in one day
+>   - Give 70% as one daily dose
 >
 > Step two: if regular or rapid-acting insulins are also available, use them before major meals.
 > The dose should be about 30% of your total of pre-mixed insulin for that meal, in addition to

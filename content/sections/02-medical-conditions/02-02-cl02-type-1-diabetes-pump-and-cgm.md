@@ -2,7 +2,7 @@
 id: 02-02-cl02-type-1-diabetes-pump-and-cgm
 section: 02-medical-conditions
 title: "CL-02. Type 1 diabetes with an insulin pump and a sensor"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: condition
 danger_level: critical
@@ -126,11 +126,19 @@ you stop wearing them daily and save the last ones for illness and travel: _____
 ## 3. Storing insulin and supplies without power
 
 **Insulin:** the published rules, the cold ladder and the frozen-insulin floor are on → 02-01
-part 3; nothing changes for a pump user. Two pump-specific lines from FDA's emergency guidance,
-as published: insulin in a pump's infusion set (reservoir, tubing, catheter) **should be
-discarded after 48 hours**, and insulin in a pump's infusion set **exposed to temperatures over
-98.6 °F should be discarded** (FDA, Information Regarding Insulin Storage and Switching Between
-Products in an Emergency). A pump worn under clothes in a heatwave, or left in the sun, is the
+part 3; nothing changes for a pump user. FDA's emergency guidance adds two pump lines, printed
+as published (FDA, Information Regarding Insulin Storage and Switching Between Products in an
+Emergency, content current as of 09/28/2026):
+
+> **FDA, Special Storage: Insulin Pumps:** "Insulin in the pump's infusion set (such as the
+> reservoir, tubing, catheters) should be thrown away after 48 hours. Unless your pump device's
+> instructions are different. For example, NovoLog, Kirsty, and Humalog U-100 specify up to 6–7
+> days in the reservoir; Fiasp PumpCart specifies 4 days. Always follow the specific product's
+> prescribing information and your pump device's instructions for use.
+>
+> If the pump insulin is exposed to temperatures above 98.6°F, throw it away."
+
+Write your own insulin's and pump's reservoir time here: ________ (→ 29-14). A pump worn under clothes in a heatwave, or left in the sun, is the
 case to watch.
 
 **Devices and sensors have storage bands too.** Read each box (→ 29-14) and write the band
@@ -223,8 +231,11 @@ Target sugar ____________   Average total daily insulin (from the pump) ________
 
 **Then the plan that turns those settings into injections.** FDA and the ADA publish emergency
 guidance on switching from a pump to injections, and both say it should be done with a
-physician (FDA; ADA, Switching Between Insulin Products in Disaster Response Situations). Both
-documents are bound behind this page in the Large download. **This binder does not convert
+physician (FDA; ADA, Switching Between Insulin Products in Disaster Response Situations). **The
+two documents do not give the same amounts**: FDA's pump section replaces the pump's doses unit
+for unit, while the ADA sheet, written for health professionals, works from body weight instead.
+That disagreement is one more reason to have the prescriber write the plan now. Both documents
+are bound behind this page in the Large download. **This binder does not convert
 doses**; FDA's published text follows, for your prescriber to confirm.
 
 ### As published, for your prescriber to confirm
@@ -241,35 +252,31 @@ out any amount from it. Brand names are FDA's examples.
 
 > **FDA, Insulin Pumps:** "If your pump supplies are not available or your pump is not working
 > properly, you may need to switch to injected insulin. This should be done with a doctor's
-> guidance and close blood sugar monitoring whenever possible.
->
-> Using a Different Insulin in Your Insulin Pump: In an emergency, you may be able to swap one
-> rapid-acting insulin (such as Apidra, Fiasp, Humalog, NovoLog) for another on a unit-per-unit
-> basis. Check your pump's instructions to make sure the available insulins are compatible with
-> your devices.
+> guidance and close blood sugar monitoring whenever possible."
+
+> **FDA, Insulin Pumps, Using a Different Insulin in Your Insulin Pump:** "In an emergency, you
+> may be able to swap one rapid-acting insulin (such as Apidra, Fiasp, Humalog, Novolog) for
+> another on a unit-per-unit basis. Check your pump's instructions to make sure the available
+> insulins are compatible with your devices.
 >
 > Note: Not all rapid-acting insulins are approved for pump use. Merilog (insulin aspart-szjj) is
 > not currently labeled for insulin pump use. Humalog U-200 and Lyumjev U-200 must NOT be used in
-> insulin pumps. Always check the specific insulin product labeling before use in a pump.
+> insulin pumps. Always check the specific insulin product labeling before use in a pump."
+
+> **FDA, Insulin Pumps, Switching from an Insulin Pump to Injected Insulin:** "If you must switch
+> from your pump to injected insulin, use the following guidance:
 >
-> Switching from an Insulin Pump to Injected Insulin: If you must switch from your pump to
-> injected insulin, use the following guidance:
->
-> Replace your pump's total 24-hour basal (background) dose with insulin on a unit-per-unit
-> basis.
->
-> For intermediate-acting insulin, split the 24-hour basal (background) dose into two equal
-> injections per day. For example, if your 24-hour basal (background) dose is 24 units, inject
-> 12 units twice daily.
->
-> For long-acting insulin, give the full 24-hour basal (background) dose as one injection per
-> day.
->
-> If regular or rapid-acting insulin is also available, use it with each meal. Match your pump's
-> bolus (mealtime) dose on a unit-per-unit basis.
->
-> For example, if your pump gives a bolus (mealtime) of 5 units to cover breakfast, inject 5
-> units of regular or rapid-acting insulin to cover that meal"
+> - Replace your pump's total 24-hour basal (background) dose with insulin on a unit-per-unit
+>   basis.
+> - For intermediate-acting insulin, split the 24-hour basal (background) dose into two equal
+>   injections per day. For example, if your 24-hour basal (background) dose is 24 units, inject
+>   12 units twice daily.
+> - For long-acting insulin, give the full 24-hour basal (background) dose as one injection per
+>   day.
+> - If regular or rapid-acting insulin is also available, use it with each meal. Match your
+>   pump's bolus (mealtime) dose on a unit-per-unit basis.
+>   - For example, if your pump gives a bolus (mealtime) of 5 units to cover breakfast, inject 5
+>     units of regular or rapid-acting insulin to cover that meal"
 
 > **FDA, Intermediate and Long-acting Insulins:** "In an emergency, you can switch one brand of
 > intermediate-acting insulin (such as, Humulin N, Novolin N) for another intermediate-acting

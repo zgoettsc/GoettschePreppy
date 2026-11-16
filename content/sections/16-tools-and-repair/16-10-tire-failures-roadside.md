@@ -2,7 +2,7 @@
 id: 16-10-tire-failures-roadside
 section: 16-tools-and-repair
 title: "Tire failures: roadside diagnosis and repair"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -10,7 +10,7 @@ phase: [A, B, C]
 tags: [tires, flat tire, plug kit, tire sealant, inflator, jack, lug wrench, spare tire, blowout, valve core, roadside, winter, vehicle kit]
 derived_from: [16-10-tire-failures-roadside]
 sources:
-  - nhtsa-us-department-of-transportation-tirewise-tire-ebb0d0
+  - nws-winter-storm-during
   - american-red-cross-winter-storm-preparedness-and-bli-4bb6c0
   - cdc-carbon-monoxide-poisoning-basics-772153
 related: [22-05-kit-vehicle, 16-11-trailer-maintenance-and-repair, 16-09-bicycle-and-transport, 16-03-knots-and-cordage, 17-01-blizzards-and-ice, 08-02-carbon-monoxide-safety, 01-03-phase-b-movement, 23-04-resource-lifecycles, 26-08-expiry-and-rotation-tracker, 26-09-shopping-list-and-budget, 18-01-mutual-aid, 29-14-ex14-reading-a-label]
@@ -26,7 +26,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "NHTSA TireWise unreachable (403, no archive): 'monthly', '1 psi per 10 F' and NHTSA attributions removed (methods kept); unsourced plug, sealant and lug-nut figures deferred to the kit and owner's manual; tailpipe rule re-cited to NWS." }
 ---
 
 # Tire failures: roadside diagnosis and repair
@@ -43,8 +43,8 @@ repairs are how the vehicle keeps moving.
 >   seat is the movement that rocks a jack over onto the hands of the person working. Never put
 >   any part of your body under a vehicle held only by a jack.
 > - **Carbon monoxide.** If the engine runs for heat while you wait, **the exhaust pipe must be
->   clear of snow** and a window cracked. A blocked tailpipe fills the cabin with carbon monoxide
->   (→ 08-02, → 29-03).
+>   clear of snow** and a window open a little (NWS, What To Do If You're Caught in a Winter
+>   Storm). A blocked tailpipe fills the cabin with carbon monoxide (→ 08-02, → 29-03).
 >
 > **Your products' own instructions govern** where they differ from this page. Keep a copy of
 > this page, and those instructions, in the kit.
@@ -74,8 +74,8 @@ sidewall, not a door placard) and the trailer's own spare. That, plus wheel bear
 5. **Charge the inflator** and put it on your regular charging rotation. Its 12-volt cord is the
    backup.
 6. **Keep sealant bottles in the cabin**, not a cold cargo area. Sealant pours badly when cold.
-7. **Check tire pressures monthly and before any long trip**, cold, against the door-jamb placard
-   (NHTSA, TireWise). Many roadside "flats" began as weeks of slow under-inflation.
+7. **Check tire pressures regularly and before any long trip**, cold, against the door-jamb
+   placard or the owner's manual. Many roadside "flats" began as weeks of slow under-inflation.
 
 {{photo tire-kit}}
 
@@ -116,12 +116,12 @@ with the writing on it. The **shoulder** is the curved edge between them.
 2. **Find the leak:** sponge soapy water (a little soap in any bottle of water) over the tread, the
    valve and the edge where tire meets rim. Bubbles mark it. No soap: listen, and feel with a wet
    finger.
-3. **Bubbles at the valve:** use the valve-core tool (a small key, often in plug kits) to tighten the
-   valve core a quarter turn. Still bubbling? Swap in a spare core (the tire deflates; reinflate
-   after). A 30-second fix few people know.
+3. **Bubbles at the valve:** use the valve-core tool (a small key, often in plug kits) to snug the
+   valve core gently. Still bubbling? Swap in a spare core (the tire deflates; reinflate after). A
+   quick fix few people know.
 4. **Bubbles on the tread:** that is a puncture. Go to Case 2.
 5. **Bubbles at the rim edge, or nothing found but it keeps dropping:** reinflate and drive on,
-   checking about every 30 minutes. Rim leaks are shop work, or Case 3 if it will not hold.
+   checking the pressure at every stop. Rim leaks are shop work, or Case 3 if it will not hold.
 
 ## Case 2: puncture in the tread (the plug kit)
 
@@ -136,17 +136,18 @@ with the writing on it. The **shoulder** is the curved edge between them.
    helps.)
 3. THREAD a plug through the eye of the insertion needle, centered.
    A touch of lubricant or cement on the plug.
-4. INSERT straight in with steady force until about 1/3 of the plug
-   is still outside. This takes muscle; brace yourself and the tire.
+4. INSERT straight in with steady force until the depth your kit's
+   instructions show, with part of the plug still outside. This
+   takes muscle; brace yourself and the tire.
 5. PULL STRAIGHT OUT quickly. The plug stays; the needle releases.
 6. TRIM the plug flush with a knife.
 7. REINFLATE to the placard pressure. Check the repair with soapy
    water.
-8. Drive. Recheck pressure after 10 minutes, then at each stop.
+8. Drive. Recheck pressure after a short distance, then at each stop.
 ```
 
-A well-set plug often lasts the life of the tire, but by the tire industry's own standard it is a
-temporary repair. In normal times, have a shop fit a patch from the inside soon. **Plugs are the
+Your plug kit's own instructions govern these steps. A well-set plug often holds for a long time,
+but treat it as a temporary repair. In normal times, have a shop fit a patch from the inside soon. **Plugs are the
 most renewable tire resource you can carry:** a kit holds many, and each one fixes a puncture.
 Prefer a plug to sealant whenever you can.
 
@@ -162,8 +163,8 @@ leak but must move, or plugging is unsafe (traffic, cold, dark).
 3. SQUEEZE IN the amount the bottle's label gives for your tire size.
 4. REFIT THE CORE, snug.
 5. REINFLATE to the placard pressure.
-6. DRIVE AT ONCE, a few miles at moderate speed, to spread the
-   sealant. Recheck pressure after 10 minutes; top up.
+6. DRIVE AT ONCE, as the label says, at moderate speed, to spread
+   the sealant. Recheck pressure soon after; top up.
 ```
 
 (Some sealant kits pump in through the valve without removing the core. Follow the label.)
@@ -176,7 +177,7 @@ default.
 ## Case 4: dead tire (sidewall cut, bulge, shredded)
 
 **Nothing in a bottle or a plug fixes a sidewall. Ever.** Sidewall damage means the tire is
-replaced (NHTSA, TireWise).
+replaced.
 
 **With a spare aboard:**
 
@@ -190,7 +191,7 @@ replaced (NHTSA, TireWise).
    for help (17-01). CHOCK the wheel diagonally opposite (a rock or
    block in front of and behind it). Parking brake ON. Shift to park
    (or first gear).
-2. LOOSEN each lug nut half a turn WHILE THE WHEEL IS STILL ON THE
+2. LOOSEN each lug nut a little WHILE THE WHEEL IS STILL ON THE
    GROUND. Counter-clockwise ("lefty loosey").
 3. JACK at the marked jacking point until the tire just clears the
    ground.
@@ -199,7 +200,8 @@ replaced (NHTSA, TireWise).
 5. LOWER the vehicle, then tighten firmly in the star pattern.
 6. Tighten to the torque in your owner's manual at the first chance
    (auto parts stores often lend torque wrenches). Recheck the lug
-   nuts after about 50 miles regardless.
+   nuts after a short drive and again at the next stops, and
+   whenever the manual says.
 ```
 
 - **A compact spare** has a speed and distance limit printed on it. Respect it.
@@ -228,11 +230,11 @@ sequence out loud once a year so it becomes reflex.
 
 - **The stranded-vehicle rules** (→ 17-01) run alongside the whole time: be visible, stay warm,
   keep the exhaust clear, watch the children.
-- **Work in short bursts.** Bare fingers lose their skill within minutes in deep cold; warm your
-  hands inside between steps. The plug job gets twice as hard. Sealant kept warm in the cabin may
+- **Work in short bursts.** Bare fingers lose their skill fast in deep cold; warm your hands inside
+  between steps, and watch for frostbite (→ 08-05). The plug job gets much harder. Sealant kept warm in the cabin may
   beat a plug in a whiteout, even for a pluggable hole. That is a reasonable call.
-- **Cold lowers tire pressure** by roughly 1 psi for every 10 °F drop (NHTSA, TireWise). A "low"
-  tire on a bitter morning may just be the cold; check against the placard before assuming a leak.
+- **Cold lowers tire pressure.** A "low" tire on a bitter morning may just be the cold; check
+  against the placard before assuming a leak.
 
 ## Gear
 
@@ -258,14 +260,13 @@ slow but real. Plug strings and rubber cement are sold in any auto aisle and wor
   label's shelf life at the rotation check (→ 26-08).
 - **Valve cores:** cheap by the card. Keep spares.
 - **Tires themselves:** in a long emergency, nobody can make them. Gentle driving, correct pressure
-  (NHTSA, TireWise) and moving the least-worn tires to where they matter most are the plan
-  (→ 23-04).
+  and moving the least-worn tires to where they matter most are the plan (→ 23-04).
 
 ## By phase
 
 - **A, at home:** flats are an errand. Plug, then have a shop fix it properly. Keep the kit stocked.
   Practice now.
 - **B, on the move:** the kit, a charged inflator, warm sealant and a spare ride along (→ 01-03). A
-  flat is a 20-minute delay if, and only if, you practiced.
+  flat is a short delay if, and only if, you practiced.
 - **C, settled:** gravel and field work eat tires. A plug kit becomes something the whole community
   uses (→ 18-01). Save sealant for true emergencies.

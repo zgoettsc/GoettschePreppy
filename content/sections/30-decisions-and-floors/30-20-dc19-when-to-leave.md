@@ -2,7 +2,7 @@
 id: 30-20-dc19-when-to-leave
 section: 30-decisions-and-floors
 title: "DC-19. When to leave home: our triggers"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: card
 danger_level: critical
@@ -10,7 +10,7 @@ phase: [A, B]
 tags: [decision card, worksheet, evacuation, go no-go, triggers, leaving home, destination]
 derived_from: [01-02-go-no-go-decision, 01-05-choosing-a-destination, 02-12-evacuation-medical-logistics]
 sources:
-  - american-red-cross-winter-storm-preparedness-and-bli-4bb6c0
+  - nws-winter-storm-during
   - noaa-national-weather-service-during-extremely-cold-9c1973
   - fema-ready-gov-create-your-family-emergency-communic-584e89
   - american-red-cross-power-outage-safety-6d07a8
@@ -23,7 +23,7 @@ options:
   - id: worksheet
     label: "Write our own rule"
     summary: "The adults fill in the trigger table on this page with their own thresholds and destinations, agree it, sign and date it, and review it each year."
-settings_summary: "This card has no multiple choice. Leaving home is the highest-stakes decision a household makes in a long emergency, and the one most often made badly: too late, in a panic, in bad weather, with children. Staying in a stocked, known home is usually safer than moving. Leaving into a storm or extreme cold kills people every winter, and the Red Cross and National Weather Service both say avoid travel in winter storms unless you must. But staying past the point where medicine, heat, water or safety runs out forces a move in the worst condition. The answer is thresholds written now, while calm, that turn a 3 a.m. judgement into a checklist. Fill in the trigger table on the page."
+settings_summary: "This card has no multiple choice. Leaving home is the highest-stakes decision a household makes in a long emergency, and the one most often made badly: too late, in a panic, in bad weather, with children. Staying in a stocked, known home is usually safer than moving. Leaving into a storm or extreme cold is dangerous: the National Weather Service's winter advice for drivers begins “if you must drive” and counts more than 5,000 deaths a year on US roads from weather conditions. But staying past the point where medicine, heat, water or safety runs out forces a move in the worst condition. The answer is thresholds written now, while calm, that turn a 3 a.m. judgement into a checklist. Fill in the trigger table on the page."
 review_pass: null
 ---
 
@@ -53,11 +53,17 @@ you (→ 01-05).
 
 ## 2. The rule as agencies state it, and why
 
-- The Red Cross and the National Weather Service say stay off the roads in winter storms and
-  extreme cold unless travel is necessary, and carry a winter car kit if you must go (Red Cross,
-  Winter Storm Safety; NWS, During Extremely Cold Weather).
-- FEMA asks every family to make a written plan in advance: where to meet, how to reach each
-  other, where to go (FEMA/Ready.gov, Create Your Family Emergency Communication Plan).
+- The National Weather Service's winter-storm advice for drivers begins "If you must drive during
+  a storm": slow down, tell someone your route, carry a charged phone and an emergency kit, and if
+  the car gets stuck, stay in the vehicle. It adds that more than 5,000 people die on US roads
+  each year because of weather conditions (NWS, What To Do If You're Caught in a Winter Storm).
+  In extreme cold, it says to go outdoors only if you must, dressed in layers (NWS, During
+  Extremely Cold Weather).
+- The Red Cross says plan how and when you would evacuate, especially for anyone on
+  power-dependent medical devices, and keep the car's tank at least half full (Red Cross, Power
+  Outage Safety).
+- FEMA asks every family to make a plan in advance: a family meeting place, how to contact one
+  another if separated, and your evacuation route (FEMA/Ready.gov, Make A Plan).
 
 **Why:** a stocked home you know how to heat is a strong position. A vehicle on a closed road
 in a blizzard, with children, is a weak one. But a home without heat, water, medicine or safety

@@ -61,15 +61,19 @@ smell or taste (→ 29-03). It takes the place of oxygen in your blood. The firs
 like flu: headache, dizziness, sick stomach. People lie down and do not get up. CDC says
 people who are asleep or drunk can die before they ever feel ill, and more than 400
 Americans die from it each year (CDC, Carbon Monoxide Poisoning: Basics). A generator is the
-worst source: CPSC says one makes as much CO as hundreds of cars, and an open garage door or
-window does not make it safe (CPSC, Portable Generator Safety). CO alarms help, but batteries
-die, alarms sit in the wrong place, and they are built to wait before sounding (CPSC, Carbon
-Monoxide Questions and Answers). Nothing you can add makes an engine indoors safe every time.
-The same applies to camp stoves and grills built for outdoor use (CDC).
+worst source: CPSC says one portable generator makes as much CO as hundreds of cars (CPSC,
+Carbon Monoxide Information Center), and that using one indoors can kill in minutes, even with
+doors and windows open (CPSC, What to Know About Generators and CO). CO alarms help, but
+batteries die and alarms get placed wrong, and an alarm built to the home standard stays silent
+at low levels and sounds only after CO has built up for a while (UL 2034 alarm points, as
+printed in a First Alert CO alarm manual; → 29-03). Nothing you can add makes an engine indoors
+safe every time. The same applies to charcoal and to camp stoves: CDC says never burn charcoal
+indoors and never use a portable gas camp stove indoors (CDC, Carbon Monoxide Poisoning: Basics).
 
-**Do this instead.** Run the generator outdoors, at least 20 feet from any window, door or
-vent, with the exhaust pointed away from every house (CDC). Cook on charcoal and camp stoves
-outdoors. Keep battery CO alarms on every level and where people sleep. → 08-02, → 09-04.
+**Do this instead.** Run the generator outdoors, at least 20 feet from the house, with the
+exhaust pointed away from every house (CPSC); CDC says more than 20 feet from any window, door
+or vent. Cook on charcoal and camp stoves outdoors. Keep battery CO alarms on every level and
+outside sleeping areas (CPSC). → 08-02, → 09-04.
 
 {{figure fig-generator-distance}}
 
@@ -85,10 +89,14 @@ that conversion yourself is DC-07, → 30-08).
 wiring, usually with a cord that has a plug on both ends (→ 29-04). That power does not stay
 in your house. It flows out through the meter to the transformer on the pole, which raises it
 to the voltage of the power line. A line worker who believes the line is dead, or a
-neighbour near a downed wire, is electrocuted. CPSC names backfeeding as a cause of
-electrocution of utility workers and neighbours (CPSC, Portable Generator Safety). When grid
-power comes back, it can also wreck the generator and start a fire. A double-plug cord also
-has bare live pins in someone's hand. There is no way to backfeed "carefully".
+neighbour served by the same transformer, is electrocuted. CPSC calls plugging a generator into
+a wall outlet "extremely dangerous": it is an electrocution risk to utility workers and
+neighbours served by the same utility transformer, and it bypasses some of the house's built-in
+circuit protection (CPSC, Safety Alert: Portable Generator Hazards). OSHA's rule is never to
+attach a generator to a building's wiring without a properly installed transfer switch, because
+of the electrocution risk to utility workers (OSHA, Portable Generator Safety QuickCard). A
+double-plug cord also has bare live pins in someone's hand. There is no way to backfeed
+"carefully".
 
 **Do this instead.** Run extension cords from the generator to single appliances. If you need
 a furnace or well pump on generator power, either have a transfer switch or interlock kit
@@ -106,17 +114,21 @@ work is a decision card (→ 30-08). Backfeeding is never on that card.
 **Why there is no choice.** A tourniquet is a tight band that stops blood flow to a bleeding
 arm or leg. Loosening it "to check" or "to give the limb some blood" lets the bleeding start
 again. The person has already lost blood, so the second bleed can be the one that kills, and
-the clots that had begun to form are washed away. Writing the time lets anyone who takes over
-know how long it has been on (Stop the Bleed, American College of Surgeons).
+the clots that had begun to form are washed away. Stop the Bleed's instructions end: "Do not
+loosen or remove the tourniquet" (Stop the Bleed just-in-time instructions, Uniformed Services
+University). Writing the time lets anyone who takes over know how long it has been on; military
+guidance records the time of application and marks it on the tourniquet (TCCC Guidelines, 2026).
 
 The rule assumes someone will take over: an ambulance, a clinic, a trained medic. When no help
-will ever come, military guidance for long, remote care (TCCC Guidelines, 2026) describes converting a tourniquet to
-wound packing and a pressure bandage under strict conditions, and a limb left without blood for
-many hours is lost. That is a trade-off, not a floor, so it is a decision card (→ 30-26). While
+will ever come, military guidance for long, remote care (TCCC Guidelines, 2026) describes
+converting a tourniquet to wound packing and a pressure bandage under strict conditions, and
+warns against removing one that has been on more than 6 hours without close monitoring and
+laboratory support. That is a trade-off, not a floor, so it is a decision card (→ 30-26). While
 any help can still come, the tourniquet stays on.
 
-**Do this instead.** Place it 2 to 3 inches above the wound, not over a joint, and tighten
-until the bleeding stops. If it still bleeds, add a second one above the first. Write the
+**Do this instead.** Place it 2 to 3 inches above the wound, between the wound and the body,
+not over a joint, and tighten until the bleeding stops. If it still bleeds, add a second one
+above the first, closer to the body (Stop the Bleed, Uniformed Services University). Write the
 time on the strap or the skin. Take a Stop the Bleed course while courses exist. → 12-02,
 → 30-26.
 
@@ -124,21 +136,22 @@ time on the strap or the skin. Take a Stop the Bleed course while courses exist.
 
 **Low-acid foods are pressure-canned to the published time and pressure, or not canned.**
 
-**Why there is no choice.** Low-acid foods are vegetables, beans, meat, fish and soups
-(→ 29-08). In a sealed jar with no air, botulism spores grow and make a toxin that paralyses
-the muscles, including the ones you breathe with. The spores survive boiling water, which
-cannot get hotter than 212 °F; only a pressure canner reaches the higher temperature that
-kills them (National Center for Home Food Preservation, Principles of Home Canning). The
-times and pressures in the USDA tables were tested in a laboratory; guessing them is not the
-same thing (USDA, Complete Guide to Home Canning, 2015). The bad jar looks, smells and tastes
-normal, so you cannot catch it at the table. Treatment needs a hospital: antitoxin and often
-weeks on a breathing machine (CDC, Botulism Prevention). With no hospital, there is no
-treatment.
+**Why there is no choice.** Low-acid foods are red meats, seafood, poultry, milk and all fresh
+vegetables except most tomatoes (→ 29-08). In a sealed jar with no air, botulism spores grow
+and make a toxin that paralyses the muscles, including the ones you breathe with. USDA says the
+spores are very hard to destroy at boiling-water temperatures, so all low-acid foods are
+processed at 240 to 250 °F, which only a pressure canner reaches (USDA, Complete Guide to Home
+Canning, 2015). The times and pressures in the USDA tables are research-based; guessing them is
+not the same thing. You cannot see, smell or taste the toxin, so you cannot catch the bad jar at
+the table (CDC, Botulism Prevention). Treatment needs a hospital: antitoxin, sometimes a
+breathing machine, and for some people weeks or months in hospital (CDC, Treatment of
+Botulism). With no hospital, there is no treatment.
 
 **Do this instead.** Use a real pressure canner (not a pressure cooker) and the USDA time and
 pressure for that food, jar size and your altitude. If you have no canner, dry, salt, ferment
 by a tested recipe, or eat the food fresh. Throw out any can or jar that is bulging, leaking,
-spurting or foul (CDC). → 04-05, → 04-04.
+spurting or smells wrong when opened; USDA warns that spoiled low-acid food may show very little
+evidence at all (USDA, Complete Guide). → 04-05, → 04-04.
 
 ## 5. Wild plants and mushrooms: identification or nothing
 
@@ -146,12 +159,14 @@ spurting or foul (CDC). → 04-05, → 04-04.
 
 **Why there is no choice.** Some survival books, including the military handbook reprinted in
 Section 31, describe an "edibility test": touch it, taste a little, wait. That test does not
-protect you from the plants that kill. A small amount of water hemlock can kill, with
-seizures that start within minutes to hours (USDA Agricultural Research Service,
-Poisonous Plant Research Laboratory; CDC MMWR, Water Hemlock Poisoning, 1992). The deadliest
-mushrooms cause no symptoms for many hours, by which time the liver damage is done. Taste
-tells you nothing about either. Where Section 31 describes an edibility test, this floor
-governs.
+protect you from the plants that kill. Only a small amount of water hemlock is needed to poison
+a person (USDA Agricultural Research Service, Poisonous Plant Research Laboratory); a 2 to 3 cm
+(about 1 inch) piece of root can kill an adult, symptoms start within 15 to 90 minutes, and in
+fatal cases severe seizures follow (CDC MMWR, Water Hemlock Poisoning, Maine, 1992). The
+deadliest mushrooms, death caps, cause no symptoms for 6 to 24 hours, then seem to get better,
+and the liver fails 3 to 5 days after the meal (CDC MMWR, Amanita phalloides Mushroom
+Poisonings, 2017). Taste tells you nothing about either. Where Section 31 describes an
+edibility test, this floor governs.
 
 **Do this instead.** Eat only what you can name with certainty: several matching features,
 the right habitat and season, checked against two sources. Leave all mushrooms alone. Use the

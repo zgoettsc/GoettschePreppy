@@ -11,8 +11,8 @@ tags: [condition library, hearing aids, cochlear implant, glasses, contact lense
 derived_from: [12-11-chronic-conditions]
 sources:
   - fda-otc-hearing-aids
-  - ftc-eyeglass-rule
-  - fda-contact-lens-safety
+  - ftc-buying-glasses-contacts-your-rights-r11
+  - fda-contact-lens-risks-r11
   - cdc-niosh-about-noise-and-hearing-loss-fcd9ad
   - usfa-smoke-alarms
   - ready-gov-individuals-with-disabilities
@@ -67,11 +67,12 @@ hearing or sight.
 {{#if has.condition.CL-23}}**Someone in your household has this condition.** This module is at the front of the medical section for you.{{else}}**Nobody in your household is marked with this condition.** The module stays in the binder because most adults wear glasses at some point; check part 7 anyway.{{/if}}
 
 > **SAFETY**
-> - **Never rinse or store contact lenses in tap water or untreated water.** FDA warns that water
->   can carry germs that cause serious eye infections (FDA, Focusing on Contact Lens Safety).
->   In an emergency, switch to glasses.
-> - **Someone who cannot hear must still get warnings:** a smoke alarm with a strobe or bed
->   shaker, and a household signal (part 4; USFA, Smoke Alarms).
+> - **Never expose contact lenses to any water: tap, bottled, distilled, lake or ocean.** FDA says
+>   tap and distilled water have been linked to a corneal infection that is hard to treat and
+>   cure (FDA, Contact Lens Risks). In an emergency, switch to glasses.
+> - **Someone who cannot hear must still get warnings:** USFA notes smoke alarms for people with
+>   hearing loss that flash a strobe light and/or vibrate; add a household signal (part 4; USFA,
+>   Smoke Alarms).
 > - **Hearing-aid and coin batteries are dangerous if swallowed.** Keep them away from small
 >   children and from anyone confused.
 
@@ -88,8 +89,8 @@ hearing or sight.
 
 **Vision aids** are glasses, contact lenses, magnifiers and, for low vision, larger print and
 better light. **Hearing aids** are small amplifiers worn in or behind the ear; since 2022 some are
-sold over the counter to adults with mild to moderate hearing loss (FDA, OTC Hearing Aids: What
-You Should Know). A **cochlear implant** is a surgically placed device with an outer sound
+sold over the counter to people 18 and older with perceived mild to moderate hearing loss (FDA,
+OTC Hearing Aids: What You Should Know). A **cochlear implant** is a surgically placed device with an outer sound
 processor that runs on batteries. Some household members use none of these and still have
 reduced hearing or sight; noise from generators, tools and firearms damages hearing for good
 (CDC/NIOSH, About Noise and Hearing Loss).
@@ -99,7 +100,7 @@ reduced hearing or sight; noise from generators, tools and firearms damages hear
 | What | Clock | When it is gone |
 |---|---|---|
 | Disposable hearing-aid batteries | Days per battery (the person knows); count spares. | The aid is silent. |
-| Rechargeable hearing aids and implant processors | A day or so per charge; need power. | Silent until charged. |
+| Rechargeable hearing aids and implant processors | The hours per charge the maker states; they need power. | Silent until charged. |
 | Glasses | Until lost or broken. | Cannot see well. Spares solve it. |
 | Daily or monthly contact lenses | Days of lenses and solution. | Switch to glasses. |
 | Contact lens solution | Bottles on hand. | **Do not substitute water** (SAFETY). |
@@ -122,13 +123,14 @@ reduced hearing or sight; noise from generators, tools and firearms damages hear
 **Without glasses:** falls, injuries with tools and fire, misread labels and medicine doses,
 inability to drive or keep watch.
 
-**Warnings that do not depend on hearing** (Ready.gov, Individuals with Disabilities; USFA, Smoke
+**Warnings that do not depend on hearing** (Ready.gov, People with Disabilities; USFA, Smoke
 Alarms):
-- **Smoke and CO alarms** with strobe lights or a bed shaker for a person who is deaf or hard of
-  hearing.
+- **Smoke alarms** that flash a strobe and/or vibrate, for a person who is deaf or hard of
+  hearing (USFA).
 - **A household signal:** a flashlight flicked on and off, a tap on the shoulder, a written card
   ("FIRE: OUT NOW", "STAY INSIDE", "WE ARE LEAVING"). Agree the signals with everyone (→ 15-07).
-- **Weather and hazard alerts** by text, a light or vibration as well as sound (→ 15-01).
+- **Weather and hazard alerts** by text, a light or vibration as well as sound: Ready.gov
+  suggests a weather radio with a text display and a flashing alert, and mobile alerts (→ 15-01).
 - **A notepad and pencil** in every room and every go-bag; a whiteboard by the door.
 - **At night,** the person sleeps where someone can reach them quickly.
 
@@ -142,8 +144,8 @@ and a sighted guide for evacuation (→ 10-01).
 ## 5. Warning signs that mean an emergency
 
 - **Contact lens eye infection:** a red, painful eye, blurry vision, light hurting, discharge.
-  Remove the lens, do not put another in, wear glasses, get care (FDA, Focusing on Contact Lens
-  Safety; → 12-04).
+  FDA: remove the lenses at once and do not put them back; keep them in their case to show the
+  eye care professional; get care (FDA, Contact Lens Risks; → 12-04).
 - **Sudden loss of vision, flashes and floaters, or a curtain across vision:** urgent eye care.
 - **Eye injuries and chemicals in the eye:** MedlinePlus first aid (MedlinePlus, Eye
   Emergencies); do not rub; flush chemicals with lots of clean water.
@@ -188,7 +190,8 @@ Date: __________
 {{/each}}{{/each}}
 
 > **Before the collapse:** the eye doctor must give you a copy of your glasses prescription after
-> an eye exam, under the federal Eyeglass Rule (FTC, Eyeglass Rule). Ask for it and file it here.
+> an eye exam that includes a refraction, whether you ask or not and at no extra charge (FTC,
+> Buying Prescription Glasses or Contact Lenses: Your Rights, 2024). File it here.
 > Buy a spare pair of glasses (inexpensive online or at discount shops) and a pair of
 > prescription sunglasses or safety glasses. Ask the audiologist for an older hearing aid as a
 > backup, or consider an over-the-counter aid as a spare for adults with mild to moderate loss
@@ -208,7 +211,7 @@ Date: __________
 
 ## 9. Power and devices
 
-- **Rechargeable hearing aids and implant processors** need charging every day. Charging cases
+- **Rechargeable hearing aids and implant processors** need regular charging, often daily. Charging cases
   usually charge from USB, so a power station or small solar panel can run them (→ 09-06,
   → 09-10, → 29-02).
 - **Disposable zinc-air batteries need no charging** and are the most resilient choice in a long

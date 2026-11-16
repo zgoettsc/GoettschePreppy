@@ -111,9 +111,9 @@ hazard. Measuring without tools: → 29-13.
 
 **Containers:** bathtub about 40 to 50 gal · this household's water heater
 {{ dwelling.water_heater_gallons }} gal (a reserve: know the drain valve, → 03-02) · toilet
-tanks, the last reserve: never the bowl, never with a cleaning tablet in it, and disinfected
-before drinking because FEMA says not to drink tank water (FEMA, Food and Water in an
-Emergency; → 03-04) · {{#if has.pool}}pool or hot tub {{ dwelling.pool_gallons }} gal, **none of
+tanks (never the bowls), the last reserve: FEMA says not to drink tank water, so keep it for
+flushing and washing, or disinfect it first if nothing else is left, and never if a cleaning
+tablet or dye is in it (FEMA, Food and Water in an Emergency; → 03-04) · {{#if has.pool}}pool or hot tub {{ dwelling.pool_gallons }} gal, **none of
 it drinkable without treatment** (→ 03-03){{else}}a 55-gal drum · a 5-gal bucket{{/if}}.
 
 **Days of water = gallons on hand ÷ {{ derived.water.plan_gal_day }}** (the plan rate). Use the

@@ -2,7 +2,7 @@
 id: 30-27-dc26-allergy-safe-food-reserve
 section: 30-decisions-and-floors
 title: "DC-26. Holding the allergy-safe food in reserve for the allergic person"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: card
 danger_level: caution
@@ -58,8 +58,9 @@ allergy rules:
 - **FDA:** "People with food allergies should read labels and avoid the foods they are allergic
   to." US law requires the nine major allergens (milk, eggs, fish, crustacean shellfish, tree nuts,
   peanuts, wheat, soybeans and sesame) to be named on packaged food. "May contain" statements are
-  voluntary, and raw farm products, highly refined oils and most unpackaged food are not covered
-  (FDA, Food Allergies).
+  not required by law. The labelling law does not cover raw farm products, highly refined oils,
+  meat, poultry and egg products (USDA regulates those), or food wrapped at the counter when you
+  order it (FDA, Food Allergies).
 - **The emergency plan:** give epinephrine at once for severe symptoms, call 911, and give a second
   dose "if symptoms get worse, continue, or do not get better in 5 minutes" (American Academy of
   Pediatrics, Allergy and Anaphylaxis Emergency Plan).

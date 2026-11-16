@@ -2,7 +2,7 @@
 id: 30-17-dc16-antibiotics-without-a-prescription
 section: 30-decisions-and-floors
 title: "DC-16. Antibiotics without a prescription (stockpiled or veterinary)"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: card
 danger_level: critical
@@ -10,7 +10,7 @@ phase: [A, B, C]
 tags: [decision card, antibiotics, infection, sepsis, prescription, veterinary, fish antibiotics, resistance]
 derived_from: [12-04-infection-and-antibiotics, 12-07-meds-stockpile]
 sources:
-  - cdc-antibiotic-use-appropriate-use-and-antibiotic-re-ea0e27
+  - cdc-antibiotic-dos-and-donts-r17
   - cdc-about-sepsis-a8304b
   - cdc-tetanus-clinical-guidance-wound-management-td-td-5580f4
   - lyon-rc-et-al-journal-of-pharmaceutical-sciences-95-1d6bf3
@@ -52,9 +52,11 @@ survive a course and multiply, so the drug stops working for that person and for
 
 ## 2. The rule, and why it was set
 
-- CDC: antibiotics should be used only when needed, for bacterial infections, the right drug at
-  the right dose for the right time; they do not work on viruses; and taking them when not
-  needed causes side effects and drives resistance (CDC, Antibiotic Use).
+- CDC: "Take antibiotics ONLY when you need them." They treat only certain bacterial
+  infections, and "Antibiotics DO NOT work on viruses", such as those that cause colds and flu.
+  Any antibiotic use can cause side effects and contribute to resistance. Do not share
+  antibiotics or take ones prescribed for someone else (CDC, Healthy Habits: Antibiotic Do's and
+  Don'ts).
 - Antibiotics are prescription-only in the US. Products sold for animals are made and labelled
   for animals.
 
@@ -64,13 +66,13 @@ those wrong can harm the person or fail to treat them while the infection spread
 
 ## 3. How it actually hurts people
 
-- **Allergic reaction**: penicillin-family and other antibiotics cause rashes, swelling and
-  sometimes anaphylaxis.
-- **Severe diarrhoea**: antibiotics can kill the gut's normal bacteria and let a harmful one take
-  over (CDC, Antibiotic Use); with no clinic, the dehydration is dangerous (→ 12-05).
+- **Allergic reaction**: CDC lists severe and life-threatening allergic reactions among
+  antibiotics' serious side effects (CDC).
+- **Severe diarrhoea**: CDC warns of C. diff infection, "which causes diarrhea that can lead to
+  severe colon damage and deaths" (CDC); with no clinic, the dehydration is dangerous (→ 12-05).
 - **The wrong drug**: the infection keeps spreading while everyone believes it is being treated.
-  A wound that needed cleaning, draining or a tetanus booster gets pills instead (CDC, Tetanus
-  wound management; → 12-02).
+  A wound that needed cleaning, removal of dirt and dead tissue, or a tetanus shot gets pills
+  instead (CDC, Clinical Guidance for Wound Management to Prevent Tetanus; → 12-02).
 - **Animal products**: strength, purity and fillers are not made or checked for human use, and
   the labels do not translate to human doses.
 - **Resistance**: a half course or the wrong drug leaves tougher bacteria behind in the family.
@@ -86,9 +88,10 @@ those wrong can harm the person or fail to treat them while the infection spread
 **Reduces it a lot**
 - **Adults only, with clear signs** of a spreading or serious bacterial infection on → 12-04
   (spreading redness, pus, fever with a wound, red streaks), not a cold or a cough.
-- **Human antibiotics only**, in intact original packaging, stored cool and dry. Intact tablets
-  and capsules often keep strength past their date (Lyon and others, 2006); liquids do not
-  (→ 30-05).
+- **Human antibiotics only**, in intact original packaging, stored cool and dry. In a federal
+  testing programme many properly stored medicines kept their strength past the printed date,
+  but it varied from lot to lot and could only be confirmed by testing (Lyon and others, 2006;
+  → 30-05).
 - **Drug and dose from a written source**: the clinician's plan or a published adult table
   printed as published with its publisher named. Never worked out or adjusted by the household.
 - **Check every allergy and medicine** on the family list first (→ 25-09).

@@ -50,7 +50,8 @@ card for people who have taken a hands-on course, not the course itself.
 
 > **SAFETY**
 > - **Reading this page does not make you able to do this.** Bleeding control is a physical
->   skill. **Take a Stop the Bleed course now**, while classes exist. It takes about an hour.
+>   skill. **Take a Stop the Bleed course now**, while classes exist. A class takes about an
+>   hour (Stop the Bleed, US Department of Defense).
 > - **Never loosen a tourniquet once placed while help can still come; mark the time. If no help
 >   will ever come, the conversion decision is DC-25 (→ 30-26).** Re-bleeding and clot release
 >   kill. While help can come, this is one of the binder's floors (→ 30-01): it is not offered
@@ -68,9 +69,9 @@ card for people who have taken a hands-on course, not the course itself.
 2. **Find the bleeding.** Cut or pull clothing away. Blood soaks into dark cloth unseen.
 3. **Press hard** on the wound with gauze or cloth and a gloved hand. **Do not lift to check.**
 4. **Arm or leg still bleeding through pressure? Tourniquet:** 2 to 3 inches above the
-   wound, never over a joint. Tighten until the bleeding stops **and** there is no pulse
-   below it. Still bleeding? A second tourniquet above the first. **Write the time on it.
-   Never loosen it while help can still come.**
+   wound, between the wound and the body, never over a joint. Tighten until the bleeding
+   stops **and** there is no pulse below it. Still bleeding? A second tourniquet above the
+   first. **Write the time on it. Never loosen it while help can still come.**
 5. **Groin, armpit or neck?** Pack the wound with gauze and press hard.
    **Chest or belly?** Do **not** pack. Cover and press.
 6. **Keep them warm and lying flat.** Watch breathing. Then read → 12-16.
@@ -92,32 +93,35 @@ card for people who have taken a hands-on course, not the course itself.
 
 ## The order of operations for serious bleeding
 
-This is the framework taught by Stop the Bleed (American College of Surgeons). Learn it in a
-class; use this page as the reminder.
+This is the framework taught by Stop the Bleed (American College of Surgeons; Stop the Bleed,
+US Department of Defense): direct pressure, wound packing, tourniquet. Learn it in a class; use
+this page as the reminder.
 
 1. **Your own safety first.** Falling wood, a running saw, a fire, thin ice.
 2. **Find the bleeding.** Look and feel. Use trauma shears to cut clothing away.
 3. **Firm, direct pressure** with a gloved hand and gauze or cloth, **hard**, and **do not
    lift to check.** Most bleeding stops with steady direct pressure. It is the single most
    effective action and it needs no equipment.
-4. **On an arm or leg, if pressure is not controlling it, use a tourniquet** (Stop the Bleed):
-   - **2 to 3 inches above the wound, on the limb, never over a joint.** The bone of the
-     knee or elbow stops the strap from squeezing the artery. If the wound is at or just below
-     a joint, go above the joint.
-   - **Tighten until the bleeding stops and there is no pulse below it**, then lock the
-     windlass (the twisting handle) in its clip.
+4. **On an arm or leg, if pressure is not controlling it, use a tourniquet** (Stop the Bleed;
+   USUHS, Stop the Bleed just-in-time instructions):
+   - **2 to 3 inches above the wound, between the wound and the body, never over a joint.**
+     The bone of the knee or elbow stops the strap from squeezing the artery. If the wound is
+     at or just below a joint, go above the joint.
+   - **Tighten until the bleeding stops**, then lock the windlass (the twisting handle) in its
+     clip. Military guidance tightens until both the bleeding and the pulse below it are gone
+     (TCCC Guidelines, 2026).
    - **If it still bleeds, put a second tourniquet above the first.**
    - **Write the time on it**: on the strap, the skin, the forehead, anywhere it will be seen.
-   - It will hurt a great deal. That is expected.
-   - **Small children:** a windlass tourniquet closes down on most children from about 2 years
-     old. On an infant's or toddler's thinner limb it may not. Use direct pressure and packing
-     instead.{{#if has.young_child}} You have a young child: practise direct pressure and
-     packing on a pillow, not only the tourniquet.{{/if}}
+     Stop the Bleed kits carry a marker for this.
+   - It will hurt a great deal. Warn the person; that is expected (Stop the Bleed, US
+     Department of Defense).
+   - **Small children:** on a small child's thin limb a windlass tourniquet may not close down
+     enough. Use direct pressure and packing instead.{{#if has.young_child}} You have a young
+     child: practise direct pressure and packing on a pillow, not only the tourniquet.{{/if}}
 5. **Junctional wounds** (groin, armpit, neck, where a tourniquet cannot go): **pack the wound**
    with hemostatic or plain gauze, pushing it in firmly until the wound is filled, and hold
    hard pressure. Packing is exactly what the course teaches. **Never pack a wound in the
-   chest or abdomen** (Stop the Bleed): packing there pushes into the organs. Cover it and hold
-   firm pressure. That is an injury to move toward whatever care exists (→ 12-16).
+   chest or abdomen**: packing there pushes into the organs. Cover it and hold firm pressure. That is an injury to move toward whatever care exists (→ 12-16).
 6. **Keep them warm** (→ 08-05), **lying flat**, and watch them. Blood loss plus cold is a
    dangerous combination{{#if is.cold_winters}}, and in your winters "keep them warm" is not
    an afterthought{{/if}}.
@@ -203,22 +207,23 @@ them up is what costs sight.
   rub.**
 - **Scratched eye (corneal abrasion):** the grit is out but it still feels like glass:
   scratchy pain, tears, light hurts. Flush once, then **stop touching it.** MedlinePlus says
-  the discomfort of a minor scratch settles within a day or two. If pain gets worse, redness
+  the scratchy feeling after a tiny object is removed should go away within a day or two. If pain gets worse, redness
   spreads, there is discharge, or sight gets worse instead of better, treat it as an infection
   (→ 12-04). Tight patching is no longer routine; do not press or rub an injured eye. Dark
   glasses for comfort are fine.
 - **Snow blindness:** hours on snow or water glare, then that evening both eyes burn, water,
   and cannot stand light (American Academy of Ophthalmology, What Is Photokeratitis). It is a
-  sunburn of the clear front of the eye. **It heals by itself, gradually, in about a day or
-  two.** Treatment is dark rest: contact lenses out, a dim room or covered eyes, a cool cloth
+  sunburn of the clear front of the eye. **It usually goes away by itself, gradually, in a day
+  or two** (American Academy of Ophthalmology). Treatment is dark rest: contact lenses out, a dim room or covered eyes, a cool cloth
   over closed lids, comfort measures from → 12-13. **Prevention is the real medicine:
   UV-blocking sunglasses or goggles on every snow and ice day (→ 11-08).** The field
   improvisation works: cardboard, bark or cloth with two narrow horizontal slits, tied on.
   Both eyes at once plus a day of glare means snow blindness; one eye, or no glare, means look
   for the other causes above.
-- **Chemical splash in the eye** is covered on → 12-03 and → 12-17: flush with lukewarm water
-  for 15 to 20 minutes, from the nose side outward, lids held open, starting now. It is more
-  urgent than anything else in this list.
+- **Chemical splash in the eye** is covered on → 12-03 and → 12-17: flush with clean water for
+  **at least 15 minutes** (MedlinePlus), and **at least 30 minutes for lye or another strong
+  alkali** (CDC/ATSDR, Sodium Hydroxide), from the nose side outward, lids held open, starting
+  now. It is more urgent than anything else in this list.
 
 ## Watching for infection: the second-week killer
 
@@ -234,11 +239,12 @@ Check at every dressing change and know the signs (→ 12-04; CDC, About Sepsis)
 **Tetanus** (lockjaw, a germ from soil that causes muscle spasms) is a real risk with punctures
 and dirty wounds. Early signs are jaw stiffness and muscle spasms. **There is no home treatment
 once it starts.** The defence is the vaccine. After any wound, ask whether a booster is due now.
-The CDC wound rule (CDC, About Tetanus; full table on → 12-04): **a clean minor wound needs a
-booster if the last dose was 10 or more years ago; any other wound (dirty, puncture, bite,
-burn, crush, frostbite) needs one if it was 5 or more years ago, ideally within 48 to 72
-hours; fewer than 3 lifetime doses plus a dirty wound also calls for tetanus immune globulin**,
-which only a clinic has. Everyone's dates belong on → 25-09.
+The CDC wound rule (CDC, Tetanus clinical guidance; full table on → 12-04): **for someone who
+completed the childhood series, a clean minor wound needs a booster if the last dose was 10 or
+more years ago; a dirty or major wound (puncture, soil, bite, burn, crush, frostbite) needs one
+if it was 5 or more years ago. Never vaccinated, an incomplete series or an unknown history:
+vaccinate for any wound, and a dirty or major wound also needs tetanus immune globulin**, which
+only a clinic has. Everyone's dates belong on → 25-09.
 
 ## Honest limits
 
@@ -257,7 +263,7 @@ safe technique, → 11-06 traction) does more than any treatment page.
 | Hemostatic gauze ×2 to 4 | Wounds you cannot put a tourniquet on | Check expiry |
 | Compressed and roller gauze, **in bulk** | The volume item | Boxes |
 | Pressure bandages ×2 to 4 | One-handed, fast | |
-| **Large irrigation syringe (20 to 60 mL)** | Flushing pressure is the infection control | Cheap; get several |
+| **Large irrigation syringe (the biggest you can find)** | Flushing pressure is the infection control | Cheap; get several |
 | Nitrile gloves by the box | Protects you and the wound | Not latex |
 | Fine tweezers, magnifier, headlamp | Splinters and debris | Good light matters |
 | Trauma shears | Cut clothing away fast | |

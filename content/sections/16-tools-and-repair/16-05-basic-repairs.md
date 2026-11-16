@@ -2,7 +2,7 @@
 id: 16-05-basic-repairs
 section: 16-tools-and-repair
 title: "Improvised repairs: tape, wire, glue, patch"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -26,7 +26,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Unsourced glue times (10-20 min, 24 h) replaced by the product label; never-improvise list matches 08-02 and floors; tetanus per CDC." }
 ---
 
 # Improvised repairs: tape, wire, glue, patch
@@ -81,7 +81,7 @@ Read every product's label for the cure time and the ventilation it needs (→ 2
 | **Two-part epoxy** | The strongest general repair: metal, wood, ceramic, filling gaps | Heat; flexing; sunlight over time |
 | **Super glue (cyanoacrylate)** | Small, tight, rigid joints; with baking soda as a hard filler | Impact; gaps; damp over time. **Reacts hot with cotton and wool** |
 | **Construction adhesive** | Wood, subfloor, large surfaces | Small precise parts |
-| **Contact cement** | Boot soles, laminates, large flat bonds. **Coat both sides, wait until dry to the touch (about 10 to 20 minutes), then press together once, hard. No clamping; it grabs on contact** | Gaps; oily surfaces; pressing it while still wet (a weak bond that lets go in the cold) |
+| **Contact cement** | Boot soles, laminates, large flat bonds. **Coat both sides, wait until dry to the touch (the label gives the time), then press together once, hard. No clamping; it grabs on contact** | Gaps; oily surfaces; pressing it while still wet (a weak bond that lets go in the cold) |
 | **Flexible urethane shoe adhesive** | Boots, gaskets, gear that bends | Slow cure |
 | **PVC cement** | Rigid plastic pipe of that type | Only that plastic |
 | **Silicone sealant** | Sealing gaps against water | Any load |
@@ -131,7 +131,7 @@ Mechanical repairs outlast glued ones, especially with shaking, cold and load.
 | Broken | How |
 |---|---|
 | Tool handle | Replace or re-hang it (→ 16-08); wedge tight. Wire and epoxy a crack only as a stopgap |
-| Boot sole coming off | Clean and roughen both faces. **Urethane shoe glue:** apply, press, clamp or weight for 24 hours. **Contact cement:** coat both faces, let dry to the touch, press once hard, no clamp. Follow the label (→ 11-06) |
+| Boot sole coming off | Clean and roughen both faces. **Urethane shoe glue:** apply, press, clamp or weight for the cure time on the label. **Contact cement:** coat both faces, let dry to the touch, press once hard, no clamp. Follow the label (→ 11-06) |
 | Tarp or tent tear | Ripstop tape both sides now; sew and seal later (→ 16-04) |
 | Leaking container (water, not fuel) | Epoxy putty, silicone, or a gasket cut from rubber sheet |
 | Broken plastic part | Super glue and baking soda; epoxy; a metal splint; or make a metal replacement (→ 16-08) |

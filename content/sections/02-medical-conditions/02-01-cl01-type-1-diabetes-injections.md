@@ -84,7 +84,7 @@ Pumps and sensors have their own module (→ 02-02); read this one first either 
 
 ## Do this now
 
-**Low blood sugar: shaky, sweaty, pale, confused, odd behaviour, or "feels low":**
+**Low blood sugar: shaky, sweaty, confused, odd behaviour, or "feels low":**
 1. If they can swallow safely: **fast sugar now**. CDC's 15-15 rule: eat or drink 15 grams of
    fast carbohydrate (glucose tablets or gel by their label, or half a cup, 4 ounces, of juice or
    regular soda), wait 15 minutes, check sugar; if still below 70 mg/dL, repeat (CDC, Treatment of
@@ -239,7 +239,7 @@ and/or severe diarrhoea for more than 6 hours; temperature over 101 °F for 24 h
 
 **Dehydration multiplies everything.** High sugar drains water; vomiting and diarrhoea drain more.
 Oral rehydration solution is the treatment; the World Health Organization's home recipe is 1
-litre of safe water, 6 level teaspoons of sugar and half a level teaspoon of salt (WHO, Cholera
+litre of safe water, 6 teaspoons of sugar and half a teaspoon of salt (WHO, Cholera
 Q&A), with the safety notes on → 12-05. The sugar in it counts: write it in the log.
 
 **Ask your prescriber now, while you can, and write it here:**

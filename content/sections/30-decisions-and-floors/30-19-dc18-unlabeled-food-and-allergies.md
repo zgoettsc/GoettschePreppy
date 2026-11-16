@@ -2,7 +2,7 @@
 id: 30-19-dc18-unlabeled-food-and-allergies
 section: 30-decisions-and-floors
 title: "DC-18. Feeding a food-allergic person unlabeled, traded or scavenged food"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: card
 danger_level: critical
@@ -59,9 +59,11 @@ a spoon, a cutting board or hands.
 
 - FDA: US food labels must declare the **nine major allergens**: milk, eggs, fish, crustacean
   shellfish, tree nuts, peanuts, wheat, soybeans and sesame (FDA, Food Allergies).
-- Allergy specialists' standard advice is **strict avoidance** of the allergen and epinephrine
-  carried at all times (AAAAI, Anaphylaxis Emergency Action Plan; AAP, Allergy and Anaphylaxis
-  Emergency Plan).
+- Allergy specialists' advice: **avoid the allergens** that trigger your reactions, and if you are
+  at risk of anaphylaxis, **carry epinephrine** (AAAAI, Anaphylaxis). FDA: "People with food
+  allergies should read labels and avoid the foods they are allergic to." The emergency plan:
+  epinephrine at once for severe symptoms, call 911, and a second dose "if symptoms get worse,
+  continue, or do not get better in 5 minutes" (AAP, Allergy and Anaphylaxis Emergency Plan).
 
 **Why:** the label is the only practical way to find an allergen hidden in a sauce, bread,
 ration bar or seasoning. Without the label there is no way to know, and the amount that triggers
@@ -71,10 +73,10 @@ a reaction can be very small.
 
 A neighbour trades a loaf of bread. It looks plain; it was made with egg and brushed with
 sesame. Or plain rice is cooked in a pot that just held peanut stew. The allergic child eats it.
-Within minutes: itching mouth, hives, coughing, vomiting, then trouble breathing. Epinephrine is
-given; the reaction comes back an hour later and needs a second dose (reactions can return,
-AAAAI). With no ambulance and limited devices, each exposure uses up the stock that protects
-against the next one.
+Within minutes: itching mouth, hives, coughing, vomiting, then trouble breathing (symptoms
+usually start within 5 to 30 minutes, AAAAI). Epinephrine is given; the symptoms do not get
+better in 5 minutes and a second dose is needed (AAP plan). With no ambulance and limited
+devices, each exposure uses up the stock that protects against the next one.
 
 Foraged food adds two problems: a new food can trigger a new allergy, and some wild plants are
 simply poisonous (→ 05-06).

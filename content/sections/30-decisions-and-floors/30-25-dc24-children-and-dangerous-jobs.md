@@ -2,7 +2,7 @@
 id: 30-25-dc24-children-and-dangerous-jobs
 section: 30-decisions-and-floors
 title: "DC-24. Children doing dangerous jobs because hands are short"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: card
 danger_level: critical
@@ -10,10 +10,10 @@ phase: [A, B, C]
 tags: [decision card, worksheet, children, teens, chores, fire, fuel, tools, animals, supervision]
 derived_from: [20-07-kids-jobs, 20-02-child-safety-offgrid]
 sources:
-  - cdc-niosh-childhood-agricultural-injury-prevention-i-15b57d
+  - niosh-nagcat-effectiveness-2011-r17
   - cdc-positive-parenting-tips-child-development-by-age-1e16c6
-  - osha-chain-saw-safety-protective-equipment-for-chain-a71d7d
-  - osha-hand-and-power-tools-safe-use-maintenance-and-h-77254c
+  - osha-3269-chainsaw-safety-quickcard-r17
+  - osha-3080-hand-and-power-tools-r17
   - cdc-preventing-drowning-barriers-supervision-and-lay-d38f3b
   - american-academy-of-pediatrics-healthychildren-org-p-b4786f
 related: [20-07-kids-jobs, 20-02-child-safety-offgrid, 20-04-teaching-kids-the-plan, 24-01-skills-checklist, 16-06-axes-and-saws, 14-14-safe-storage-and-child-access, 05-04-backyard-chickens, 29-11-ex11-firearms-basics, 30-01-the-floors]
@@ -25,7 +25,7 @@ options:
   - id: worksheet
     label: "Write our own rule"
     summary: "The adults fill in the job table on this page with the age, training and supervision each child needs for each dangerous job, agree it, sign and date it, and review it on each child's birthday."
-settings_summary: "This card has no multiple choice. In a long emergency there is more work than adults to do it, and children want and need real jobs. But fire, fuel, cutting tools, chainsaws, large animals and open water injure and kill children every year on farms, where the same jobs are done. The US farm-safety programme at NIOSH matches each job to a child's age, size, strength and judgement, and stresses training and adult supervision. The answer is a rule written in advance: for each job, the age to start learning, the training, the supervision, and the habit a child must show before doing it alone. Fill in the table on the page. Locked storage of firearms, fuel, medicines and chlorine stays a floor."
+settings_summary: "This card has no multiple choice. In a long emergency there is more work than adults to do it, and children want and need real jobs. But fire, fuel, cutting tools, chainsaws, large animals and open water injure and kill children every year on farms, where the same jobs are done. Farm-work guidelines developed with NIOSH support match each job to a child's physical, mental and social abilities. The answer is a rule written in advance: for each job, the age to start learning, the training, the supervision, and the habit a child must show before doing it alone. Fill in the table on the page. Locked storage of firearms, fuel, medicines and chlorine stays a floor."
 review_pass: null
 ---
 
@@ -53,14 +53,17 @@ has done it right, every time, for weeks, with an adult watching.
 
 ## 2. The rule as safety agencies state it, and why
 
-- NIOSH's childhood agricultural injury work, which produced the Agricultural Youth Work
-  Guidelines, matches farm jobs to a child's age, size, strength and judgement, and says adult
-  supervision and training are what prevent injury (CDC/NIOSH, Childhood Agricultural Injury
-  Prevention Initiative).
-- OSHA requires protective equipment and training for chain saws, and training for hand and power
-  tools, for adult workers (OSHA, Chain Saw Safety; OSHA, Hand and Power Tools).
-- CDC describes what children can usually do at each age, such as following multi-step
-  instructions as preschoolers (CDC, Positive Parenting Tips).
+- The guidelines for children's farm work developed with NIOSH support (the North American
+  Guidelines for Children's Agricultural Tasks, now the Agricultural Youth Work Guidelines) match
+  a child's physical, mental and social abilities to the demands of each specific job, so parents
+  can assign work a child is ready for; NIOSH reports they work (CDC/NIOSH, Guidelines for
+  Children's Agricultural Tasks Demonstrate Effectiveness, 2011).
+- For adult workers, OSHA says chainsaw operators must wear hand, foot, leg, eye, face, hearing
+  and head protection (OSHA, Chainsaw Safety QuickCard), and that workers should be trained in
+  the proper use of all hand and power tools (OSHA, Hand and Power Tools). A child deserves at
+  least the same.
+- CDC's parenting tips say preschoolers can help with simple chores, and that a child should be
+  watched at all times around water (CDC, Positive Parenting Tips: Preschoolers).
 
 **Why:** a child's reach, grip, weight, reaction time and judgement of risk all grow with age, but
 unevenly. The dangerous moment is a job slightly too big for the child, done when the adult is
@@ -73,8 +76,9 @@ busy elsewhere.
 - **Fuel**: a child pours gasoline near a running engine, or swallows fuel siphoned by mouth.
 - **Blades**: an axe glances off a knot into a shin; a chainsaw kicks back.
 - **Animals**: a cow, horse or pig knocks a child down; a dog bites a child at its face height.
-- **Water**: a young child falls head-first into a bucket, barrel or pond. Drowning is quick and
-  silent (CDC, Preventing Drowning).
+- **Water**: a young child falls head-first into a bucket, barrel or pond. "Drowning happens in
+  seconds and is often silent", and more children aged 1 to 4 die from drowning than from any
+  other cause (CDC, Preventing Drowning).
 - **Chemicals**: bleach or lye splashes into eyes, or is swallowed (AAP, Poison Prevention).
 
 ## 4. What makes it safer

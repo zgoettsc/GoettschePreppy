@@ -2,7 +2,7 @@
 id: 30-26-dc25-tourniquet-conversion-no-help-coming
 section: 30-decisions-and-floors
 title: "DC-25. Converting a tourniquet to a pressure dressing when no help will ever come"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: card
 danger_level: critical
@@ -14,7 +14,7 @@ sources:
   - jts-prolonged-casualty-care-cpg-91-2021
   - tccc-cmc-skill-tourniquet-conversion-2021
   - wfa-minimum-guidelines-scope-of-practice-2012
-  - american-college-of-surgeons-stop-the-bleed-stop-the-8d1b5b
+  - usuhs-ncdmph-stop-the-bleed-apply-a-tourniquet-r7
   - medlineplus-broken-bone
 related: [12-02-bleeding-and-wounds, 12-16-triage-and-hard-calls, 12-01-first-aid-kit, 22-06-kit-medical, 24-01-skills-checklist, 12-04-infection-and-antibiotics, 08-05-hypothermia-frostbite, 30-01-the-floors, 30-30-dc29-pulseless-limb-traction]
 cards: [DC-25, DC-29]
@@ -27,8 +27,8 @@ options:
     summary: "Once a tourniquet is on, it stays on, even when no help will ever come. The household accepts that the arm or leg below it may die and be lost, in exchange for never risking the bleeding starting again."
   - id: convert-by-criteria
     label: "Convert by the published prolonged-care criteria"
-    summary: "If no help will ever come, a trained household member converts the tourniquet to packing and a pressure bandage only if every published criterion is met: not in shock, wound watched closely, not an amputation, ideally within 2 hours, never after 6, tourniquet left loose in place."
-settings_summary: "A tourniquet is a tight band that stops blood flow to a bleeding arm or leg. The rule is never loosen it, because the bleeding can start again and kill. That rule assumes a hospital takes over within hours. If no help will ever come, an arm or leg left without blood for many hours dies. Military prolonged-care guidance (TCCC, 2026) lets medics convert a tourniquet to wound packing and a pressure bandage only if the person is not in shock, the wound can be watched closely and it is not an amputation, ideally within 2 hours, and not after 6 hours without laboratory monitoring. People without that training are told to leave it on. What helps most: reaching care (removes the question); hands-on training, hemostatic gauze and pressure bandages (reduces it a lot)."
+    summary: "If no help will ever come, a trained household member converts the tourniquet to packing and a pressure bandage only if every published criterion is met: not in shock, wound watched closely, not an amputation, within 2 hours of placing it (TCCC's limit for non-medics), tourniquet left loose in place."
+settings_summary: "A tourniquet is a tight band that stops blood flow to a bleeding arm or leg. The rule is never loosen it, because the bleeding can start again and kill. That rule assumes a hospital takes over within hours. If no help will ever come, an arm or leg left without blood for many hours dies. Military prolonged-care guidance (TCCC, 2026) lets medics convert a tourniquet to wound packing and a pressure bandage only if the person is not in shock, the wound can be watched closely and it is not an amputation, ideally within 2 hours, and not after 6 hours without laboratory monitoring. People below medic level are told not to convert after 2 hours without a medic's direction, and otherwise to leave it on. What helps most: reaching care (removes the question); hands-on training, hemostatic gauze and pressure bandages (reduces it a lot)."
 review_pass: null
 ---
 
@@ -48,7 +48,8 @@ training.
 > - **"No help will ever come" is a high bar.** If you can drive, carry or radio the person to
 >   any care at all, that is the answer, not this card (→ 12-16).
 > - **Never convert a tourniquet on an amputation, or on anyone in shock** (TCCC Guidelines,
->   2026). Shock means pale, cold, clammy skin, a fast weak pulse, confusion.
+>   2026). TCCC's signs of shock from blood loss: confusion or drowsiness without a head injury,
+  and/or a weak or absent pulse at the wrist. Pale, cold, clammy skin goes with it.
 
 ## 1. The thing, in plain words
 
@@ -63,9 +64,12 @@ training.
 
 ## 2. The rule, and why it was set
 
-- **Stop the Bleed** (American College of Surgeons) teaches: tourniquet 2 to 3 inches above the
-  wound, tight until the bleeding stops, write the time, and do not loosen it. The course is built
-  for the first minutes before an ambulance arrives.
+- **Stop the Bleed** teaches: place the tourniquet 2 to 3 inches above the wound, between the
+  wound and the body; twist until the bleeding stops; add a second one above the first if it has
+  not; then "continue to monitor and comfort the injured person until help arrives. Do not loosen
+  or remove the tourniquet" (Stop the Bleed just-in-time instructions, Uniformed Services
+  University). TCCC adds: mark the tourniquet with the time it went on. Both are built for the
+  time before help arrives.
 - **Military guidance for long, remote care** says the opposite once hours pass. The Tactical
   Combat Casualty Care (TCCC) Guidelines (Committee on TCCC, 01 May 2026) say limb tourniquets
   "should be converted to hemostatic or pressure dressings as soon as possible if three criteria
@@ -78,7 +82,8 @@ training.
   "should not attempt tourniquet conversion beyond 2 hours post-application" without direction
   from a medic, and otherwise keep the tourniquet in place. The Joint Trauma System's Prolonged
   Casualty Care guideline (2021) places conversion with medics and repeats: do not remove a
-  tourniquet that has been on more than 6 hours, and never remove one just to relieve pain.
+  tourniquet that has been on more than 6 hours, and do not remove one to relieve pain unless a
+  higher medical authority directs it.
 - The wilderness first-aid standard (Minimum Guidelines and Scope of Practice for Wilderness First
   Aid, 2012) lists "releasing tourniquets placed to control life-threatening bleeding" as **outside**
   what a wilderness first-aider does.
@@ -114,7 +119,8 @@ later an infection) risk.
 - **The kit to do it:** hemostatic gauze, plain gauze for packing, two pressure bandages, a second
   tourniquet, gloves, a marker (→ 12-01, → 22-06).
 - **Meeting every criterion, not most of them.** Not in shock, wound in plain view, not an
-  amputation, early (the guideline aims for under 2 hours), never after 6.
+  amputation, and early: TCCC aims for under 2 hours for everyone, and tells people below medic
+  level not to convert after 2 hours without a medic's direction. Never after 6 hours.
 
 **Reduces it a little**
 - Time written on the strap and the skin, so everyone knows the clock.

@@ -2,7 +2,7 @@
 id: 16-01-essential-hand-tools
 section: 16-tools-and-repair
 title: "Essential hand tools"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -11,6 +11,8 @@ tags: [tools, hand tools, repair, safety, eye protection, tetanus, scavenging, s
 derived_from: [16-01-essential-hand-tools]
 sources:
   - osha-hand-and-power-tools-safe-use-maintenance-and-h-77254c
+  - osha-3080-hand-and-power-tools-r13
+  - sunnyside-boiled-linseed-oil-use-and-safety-r13
   - cdc-niosh-about-noise-and-hearing-loss-fcd9ad
   - cdc-about-tetanus-3fc6c0
   - american-college-of-surgeons-stop-the-bleed-stop-the-8d1b5b
@@ -26,7 +28,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Linseed-rag warning now sourced to a maker's label (unsourced 'within hours' removed); OSHA 3080 read for mushroomed heads and dull tools; tetanus 10-year booster per CDC; 'most likely injuries' claim softened." }
 ---
 
 # Essential hand tools
@@ -36,15 +38,16 @@ without getting hurt. Hand tools need no fuel and no power, break in ways you ca
 for generations. Power tools are faster while batteries and fuel last. The rule for this whole
 section: **own the hand-powered version of every job you depend on.**
 
-> **CAUTION. With no clinic, the tools chapter is a medical chapter.** Cuts, punctures, crushed
-> fingers and eye injuries from tool work are among the most likely serious injuries in any
-> long emergency (→ 12-02). Sharp tools, the right technique, eye protection, and not working
+> **CAUTION. With no clinic, the tools chapter is a medical chapter.** OSHA warns that even simple
+> hand tools can cause severe injuries when used or kept badly (OSHA, Hand and Power Tools). Cuts,
+> punctures, crushed fingers and eye injuries from tool work are hard to treat without a clinic
+> (→ 12-02). Sharp tools, the right technique, eye protection, and not working
 > when you are exhausted or cold prevent more harm than any first-aid kit can treat.
 >
 > **Check that every household member's tetanus shot is up to date** (CDC, About Tetanus).
 > Tetanus is a serious infection that enters through deep, dirty wounds, and tool punctures are
-> exactly that kind of wound (→ 12-04). Adults need a booster every 10 years; ask a clinic now
-> while one is open.
+> exactly that kind of wound (→ 12-04). CDC counts anyone not current with the 10-year booster
+> as at higher risk; ask a clinic now while one is open.
 
 ## Do this now
 
@@ -193,20 +196,24 @@ Inventory done (date / initials): __________
 - **Sharpen before the edge is dull** (→ 16-02).
 - **Look after handles.** Rub linseed oil into wooden handles and check them for cracks. A loose
   axe head is dangerous (→ 16-06).
-- **Linseed-oil rags can catch fire by themselves.** The oil gives off heat as it dries, and a
-  bunched rag in a bin, a pocket or on a bench can ignite within hours. Spread used rags flat
-  outdoors to dry stiff, or seal them in a metal can filled with water and a lid. Never pile them
-  or put them in a pocket, and never near stored fuel.
+- **Linseed-oil rags can catch fire by themselves.** One maker's label: rags, steel wool or waste
+  soaked with boiled linseed oil may spontaneously catch fire if improperly discarded, and the time
+  and conditions are unpredictable. **Immediately after each use, put them in a sealed metal
+  container filled with water** (Sunnyside, Boiled Linseed Oil use and safety information). Never
+  pile them, put them in a pocket or leave them near stored fuel. Your product's own label
+  governs.
 - **Store tools organized and off the ground.** A tool you cannot find is a tool you do not have.
 - **Mark anything you lend** so it comes back.
 
 ## Working safely (OSHA basics)
 
-These follow OSHA's hand and power tool guidance (OSHA, Hand and Power Tools).
+These follow OSHA's hand and power tool guidance (OSHA, Hand and Power Tools, OSHA 3080).
 
 - **Right tool for the job.** Improvised tool use is where hands get hurt.
-- **Tools in good condition.** No cracked handles. No "mushroomed" heads on chisels and punches
-  (the struck end spread into a ragged lip): those edges break off and fly. No dull edges.
+- **Tools in good condition.** No splintered or cracked handles. No "mushroomed" heads on chisels,
+  wedges and punches (the struck end spread into a ragged lip): OSHA says they can shatter on
+  impact and send sharp fragments flying. No dull edges: dull tools cause more hazards than sharp
+  ones.
 - **Cut away from yourself.** Before every cut, ask where the tool goes if it slips, and make sure
   no hand, leg or person is there.
 - **Eye protection every time**, not just for the jobs that look dangerous.

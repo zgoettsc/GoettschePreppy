@@ -65,13 +65,13 @@ It is written for people with no doctor in the house.
 3. **Take the temperature and write it down with the time** (→ 25-05).
 4. **Confusion, fast breathing, fast heartbeat, clammy skin, extreme pain:** this may be
    sepsis. If any care exists, go now. If not, → 12-16.
-5. **Check the tetanus table below** for every wound.
+5. **Check the tetanus rule below** for every wound.
 
 ## Do this now: preparation
 
 - **Get everyone's tetanus vaccination up to date and write the dates on → 25-09.** Puncture
   wounds are common in a long emergency and there is no home treatment for tetanus (CDC, About
-  Tetanus). **A booster six years old is not enough for an axe wound** (table below).
+  Tetanus). **A booster six years old is not enough for an axe wound** (rule below).
 - **Write down every household member's drug allergies now** (→ 25-09). Any medicine you ever
   give will be checked against that list.
 - **Build the hygiene system: it is the real defence** (→ 13-02). Soap, clean water,
@@ -140,19 +140,21 @@ several thermometers.
 
 Tetanus (lockjaw) is caused by a germ found in soil and manure. There is no home treatment once
 it starts. The whole defence is the vaccine, and after any wound the question is **whether a
-booster is due now.** The CDC wound rule (CDC, Tetanus clinical guidance: wound management):
+booster is due now.** The CDC wound rule, for people who **completed** the childhood series of
+tetanus shots (the "primary series") (CDC, Tetanus clinical guidance):
 
-| Wound | Last dose **under 5 years** ago | **5 to 10 years** | **10 years or more**, or **fewer than 3 lifetime doses, or unknown** |
+| Wound | Last tetanus dose **less than 5 years** ago | **5 to 10 years** ago | **10 or more years** ago |
 |---|---|---|---|
 | **Clean and minor** | nothing | nothing | **Td or Tdap booster** |
-| **Everything else**: dirty, soil or manure, puncture, bite, burn, crush, frostbite, anything hours old | nothing | **Td or Tdap booster** | **Td or Tdap booster** |
+| **Dirty or major**: punctures; dirt, soil, faeces or saliva in it (animal or human bites); burns, crush injuries, frostbite, open fractures, dead tissue | nothing | **Td or Tdap booster** | **Td or Tdap booster** |
 
-- **Get the booster as soon as possible, ideally within 48 to 72 hours** of the wound. While
-  pharmacies and urgent care work, a wound turns straight into that errand.
-- **Fewer than 3 documented lifetime doses (or unknown) plus any wound that is not clean and
-  minor calls for tetanus immune globulin (TIG) as well as the vaccine.** TIG is a clinic item.
-  That makes it a wound to take toward care while any clinic functions.
-- **Adults who cannot remember their last booster count as "unknown".**
+- **Never vaccinated, an incomplete primary series, or an unknown history:** CDC says vaccinate
+  **for any wound**. For a dirty or major wound, these people also need **tetanus immune
+  globulin (TIG)**; CDC says TIG is never needed for a clean minor wound. TIG is a clinic item,
+  so this is a wound to take toward care while any clinic functions.
+- **Get the booster as soon as you can.** While pharmacies and urgent care work, a wound turns
+  straight into that errand.
+- **Adults who cannot remember their last booster count as an unknown history.**
 
 ## Prevention: the actual plan
 
@@ -198,8 +200,11 @@ People ask about this constantly, so here is the straight answer.
 antibiotics as a last resort for a life-threatening infection when nothing else exists. Those
 products are not checked for human use, their labels do not translate to people, and using
 any antibiotic without a diagnosis risks the wrong drug, an allergic reaction, a delay and
-resistance. Card DC-16 explains the risk and the options; children are excluded from every
-option.
+resistance. Card DC-16 explains the risk and the options; no option covers children.
+**This binder prints no antibiotic drug or dose table.** Under the card's last-resort option,
+the drug and dose come only from a clinician's written plan (the box above) or from a published
+adult table that you obtain yourself and keep with this page as printed, publisher named. It is
+never worked out or adjusted by the household.
 Your household's choice: {{choice DC-16}} (→ 30-17)
 
 **Giving someone else's prescription.** A bottle prescribed for one person may be the only one

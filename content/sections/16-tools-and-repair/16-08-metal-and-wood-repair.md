@@ -2,7 +2,7 @@
 id: 16-08-metal-and-wood-repair
 section: 16-tools-and-repair
 title: "Repairing metal and wood without power"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -10,7 +10,9 @@ phase: [A, C]
 tags: [metalwork, woodwork, axe handle, re-hanging, forge, galvanized, carbon monoxide, lead, scrap steel, rust, riveting, brazing, workshop]
 derived_from: [16-08-metal-and-wood-repair]
 sources:
-  - osha-hand-and-power-tools-safe-use-maintenance-and-h-77254c
+  - osha-3080-hand-and-power-tools-r13
+  - niosh-npg-zinc-oxide-r13
+  - sunnyside-boiled-linseed-oil-use-and-safety-r13
   - cdc-niosh-about-noise-and-hearing-loss-fcd9ad
   - cdc-about-childhood-lead-poisoning-prevention-9ed85b
   - cdc-carbon-monoxide-poisoning-basics-772153
@@ -26,7 +28,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Galvanized-fume warning sourced to NIOSH (zinc oxide); linseed-rag 'within hours' removed, maker's water-filled metal container rule cited; lead line re-cited to the CDC page archived; generator/charcoal floor wording matches 30-01." }
 ---
 
 # Repairing metal and wood without power
@@ -38,17 +40,19 @@ the tools in this section never truly run out: they get remade.
 
 > **CAUTION. Four hazards on this page.**
 > 1. **Never heat galvanized steel** (the dull gray, often spangled zinc-coated kind used on
->    fence posts, buckets and some pipe). The zinc gives off fumes that cause "metal fume fever"
->    and worse. **Galvanized: do not heat, do not weld, do not forge.** Check before anything
+>    fence posts, buckets and some pipe). Heated zinc gives off zinc oxide fume, which causes
+>    "metal fume fever": chills, fever, aching, nausea, cough and chest tightness (NIOSH Pocket
+>    Guide, Zinc oxide). **Galvanized: do not heat, do not weld, do not forge.** Check before anything
 >    goes in a fire.
 > 2. **Any forge or metalworking fire makes carbon monoxide** (→ 29-03; CDC, Carbon Monoxide
 >    Poisoning Basics). **Never run a generator, charcoal, or any engine indoors, in a garage,
 >    or near an open window** (floor, → 30-01): a charcoal forge counts. It goes outdoors.
 > 3. **Hot metal and hammering:** burns (→ 12-03), flying scale, eye injuries. Eye protection,
 >    leather gloves, and natural-fiber clothing; synthetics melt onto skin (→ 11-05).
-> 4. **Lead.** Old paint, old solder and some salvaged metals contain lead (CDC, About Lead in
->    the Home). {{#if has.young_child}}**You have a child under 6, the age most harmed by lead.**
->    {{/if}}Do lead-adjacent work outdoors, away from children, and wash hands and clothes
+> 4. **Lead.** Old paint, old solder and some salvaged metals contain lead. CDC says no safe blood
+>    lead level in children has been found, and children under 6 are the most likely to be
+>    exposed (CDC, About Childhood Lead Poisoning Prevention). {{#if has.young_child}}**You have a
+>    child under 6.** {{/if}}Do lead-adjacent work outdoors, away from children, and wash hands and clothes
 >    afterward.
 
 ## Do this now
@@ -78,9 +82,10 @@ the tools in this section never truly run out: they get remade.
    rasp and trying it often.
 3. **Drive it fully home**, then **wedge it**: a wooden wedge driven into the slot cut in the top of
    the handle, then a small steel wedge across it.
-4. **Saw off the excess** and rub the handle with boiled linseed oil. **Linseed-oil rags heat up
-   by themselves and can catch fire within hours when bunched.** Spread the rag flat outdoors to
-   dry stiff, or drop it in a water-filled metal can with a lid (→ 16-01).
+4. **Saw off the excess** and rub the handle with boiled linseed oil. **Linseed-oil rags can catch
+   fire by themselves, at times no one can predict.** Put the rag in a sealed, water-filled metal
+   container straight after use (Sunnyside, Boiled Linseed Oil use and safety information;
+   → 16-01).
 5. **Check it every season.** Wood shrinks in a dry, heated house, and **a loose head is
    dangerous.** Soaking the head in water swells it tight for a while; it is not a repair.
 
@@ -205,7 +210,7 @@ That is why the vise and anvil are bought regardless (→ 16-01).
 | Ball-peen hammers in several weights, a sledge | Metalwork, riveting | |
 | **Hacksaw and many spare blades** | The metal-cutting workhorse | Blades are the consumable |
 | Metal files: flat, round, half-round, triangular | Shaping without power | → 16-02 |
-| Cold chisels, punches, drifts | Cutting and driving | Grind off mushroomed heads (OSHA) |
+| Cold chisels, punches, drifts | Cutting and driving | Grind off mushroomed heads; they shatter (OSHA 3080) |
 | Tin snips | Sheet metal | |
 | Hand drill or brace, good bits, cutting oil | Drilling without power | |
 | Pop-rivet gun and rivets; solid rivets | Joining without welding | |

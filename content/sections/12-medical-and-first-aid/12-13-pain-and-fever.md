@@ -56,7 +56,7 @@ children, and pain relief that needs no medicine.
 >   1. **Overdose.** Above the daily maximum, acetaminophen can cause **liver failure**;
 >      ibuprofen and similar drugs cause stomach bleeding and kidney damage. **The daily
 >      maximum is a ceiling, not a suggestion.**
->   2. **Doubling up without knowing.** Cold, flu and sinus products **already contain pain
+>   2. **Doubling up without knowing.** Cold, flu and sinus products **often contain pain
 >      relievers.** Taking one with a separate pain reliever is a very common accidental
 >      overdose. **Read every ingredient list.**
 >   3. **Children.** Children's doses go **by weight**, measured with a **dosing syringe**, never
@@ -90,64 +90,126 @@ children, and pain relief that needs no medicine.
 
 ## Children's dosing charts (AAP, as published)
 
-From the American Academy of Pediatrics' acetaminophen and ibuprofen dosing charts (AAP,
-HealthyChildren: Acetaminophen dosing chart; Ibuprofen dosing chart, 2024), with dosing intervals
-from Nemours KidsHealth (Acetaminophen: How to Give / Ibuprofen: How to Give). **Check your
-bottle's strength before every use.** The rows below cover 12 to 47 lb; for other weights, use
-the full AAP chart bound behind this page in the Large download, or the label.
+Below are the American Academy of Pediatrics' two printable charts, transcribed in full: every
+weight band, every product column, the dose line and the note printed on each chart (AAP,
+HealthyChildren: Acetaminophen pictographic dosing chart, 2026 edition; Ibuprofen dosing chart,
+2024). The rules beside them come from the AAP's own dosing-table pages (AAP, HealthyChildren:
+Acetaminophen Dosing Tables for Fever and Pain in Children; Ibuprofen Dosing Table for Fever and
+Pain). A dash (—) means the chart prints no dose for that product at that weight. **Find the
+column that matches the bottle in your hand, then the weight row. Use weight; use age only if
+you do not know the weight** (AAP).
 
-**The rules printed with the charts:**
-- **Acetaminophen:** every 4 to 6 hours as needed, **no more than 5 doses in 24 hours** (AAP).
-- **Ibuprofen:** every 6 hours as needed (some references allow 6 to 8), **no more than 4 doses
-  in 24 hours** (AAP). **Never under 6 months of age**: the AAP chart prints no dose below 6
-  months.
-- **Under 2 years**, the bottle labels say to ask a doctor. Get that answer before the collapse
-  (box above).
-- **Never aspirin for children.**
+### Acetaminophen (AAP chart, as published)
+
+**Printed on the chart:** "Dose: For products labeled for children and infants, DO NOT GIVE MORE
+THAN 5 DOSES IN 24 HOURS. For children over 12 years, extra strength tablets/gelcaps can be given
+every 6 hours. DO NOT GIVE MORE THAN 6 EXTRA STRENGTH TABLETS/GELCAPS IN 24 HOURS. Acetaminophen
+should not be given to children under two years of age without the guidance of a doctor."
+
+| Weight | Age | Infants' Acetaminophen (160 mg / 5 mL) | Children's Acetaminophen (160 mg / 5 mL) | Children's Acetaminophen Chewables (160 mg) | Children's Acetaminophen Dissolvable Packets (160 mg / powder pack) | Adults' Acetaminophen Tablets (325 mg; regular strength) | Adults' Acetaminophen Tablets (500 mg; extra strength) |
+|---|---|---|---|---|---|---|---|
+| 6 to 11 pounds (3 to 5 kilograms) | 0 to 3 months | 1.25 mL | — | — | — | — | — |
+| 12 to 17 pounds (5 to 7 kilograms) | 4 to 11 months | 2.5 mL | — | — | — | — | — |
+| 18 to 23 pounds (8 to 10 kilograms) | 12 to 23 months | 3.75 mL | — | — | — | — | — |
+| 24 to 35 pounds (11 to 15 kilograms) | 2 to 3 years | 5 mL | 5 mL | 1 tablet | — | — | — |
+| 36 to 47 pounds (16 to 21 kilograms) | 4 to 5 years | — | 7.5 mL | 1 ½ tablets | — | — | — |
+| 48 to 59 pounds (22 to 26 kilograms) | 6 to 8 years | — | 10 mL | 2 tablets | 2 packets | 1 tablet | — |
+| 60 to 71 pounds (27 to 32 kilograms) | 9 to 10 years | — | 12.5 mL | 2 ½ tablets | 2 packets | 1 tablet | — |
+| 72 to 95 pounds (33 to 43 kilograms) | 11 years | — | 15 mL | 3 tablets | 3 packets | 1 tablet | — |
+| 96 pounds or more (44 kilograms or more) | 12 years or older | — | — | — | — | 2 tablets | 2 tablets |
+
+**AAP's table notes for acetaminophen** (AAP, Acetaminophen Dosing Tables):
+- "For children under 12 years, give every 4 hours while symptoms last. Do not give more than 5
+  doses in 24 hours."
+- "Acetaminophen should not be given to children under 2 years of age without the guidance of a
+  doctor. Fever in the first 12 weeks may signal a serious infection and needs immediate medical
+  attention." The 0 to 3 month row is on the chart; **a baby under 3 months with a fever is an
+  emergency first** (red flags below).
+- "Do not give 500 mg oral extra strength products to children under 12 years of age." "Do not
+  give 650 mg oral extended-release products to children under 18 years of age."
+- Use the dosing syringe that comes with the medicine; "Never use a kitchen teaspoon or
+  tablespoon."
+
+### Ibuprofen (AAP chart, as published)
+
+**Printed on the chart:** "Dose: Give every 6 hours if needed, for fever or pain. DO NOT GIVE
+MORE THAN 4 DOSES IN 24 HOURS. Do NOT use with any other medicine containing ibuprofen."
+
+| Weight | Age | Infant's Ibuprofen Drops (50 mg / 1.25 mL) | Children's Liquid Ibuprofen (100 mg / 5 mL) | Children's Ibuprofen Chewable Tablets (100 mg) | Adult's Ibuprofen Tablets (200 mg) |
+|---|---|---|---|---|---|
+| 0 to 11 pounds (up to 5 kilograms) | 0 to 5 months | — | — | — | — |
+| 12 to 17 pounds (about 6 to 7 kilograms) | 6 to 11 months | 1.25 mL | 2.5 mL* | — | — |
+| 18 to 23 pounds (about 8 to 10 kilograms) | 12 to 23 months | 1.875 mL | 4 mL* | — | — |
+| 24 to 35 pounds (about 11 to 15 kilograms) | 2 to 3 years | 2.5 mL | 5 mL* | 1 tablet | — |
+| 36 to 47 pounds (about 16 to 21 kilograms) | 4 to 5 years | 3.75 mL | 7.5 mL* | 1 ½ tablets | — |
+| 48 to 59 pounds (about 22 to 26 kilograms) | 6 to 8 years | 5 mL | 10 mL* | 2 tablets | 1 tablet |
+| 60 to 71 pounds (about 27 to 32 kilograms) | 9 to 10 years | — | 12.5 mL* | 2 ½ tablets | 1 tablet |
+| 72 to 95 pounds (about 33 to 43 kilograms) | 11 years | — | 15 mL* | 3 tablets | 1 ½ tablets |
+| 96 pounds or more (44 kilograms or more) | 12 years or older | — | 10 mL + 10 mL = 20 mL* | 4 tablets | 2 tablets |
+
+"\*Note: This dosage is for children's liquid ibuprofen products given by dropper. See the
+previous column for correct dose-by-weight for infant ibuprofen drops, which are more
+concentrated." (AAP chart.) **Infant drops (50 mg in 1.25 mL) and children's liquid (100 mg in
+5 mL) are different strengths: read the bottle before every dose.**
+
+**AAP's table notes for ibuprofen** (AAP, Ibuprofen Dosing Table):
+- "Do not use ibuprofen in children who are less than 6 months old unless your child's doctor
+  tells you to." The chart prints no dose below 6 months.
+- "You can give ibuprofen every 6 to 8 hours if needed." (The printed chart says every 6 hours,
+  no more than 4 doses in 24 hours. Never closer together than 6 hours.)
+- "It is also best not to give medicines with more than one ingredient in it to children less
+  than 6 years of age."
+
+### Rules that go with both charts
+
+- **The label on the bottle you own governs if it differs.** Check the strength (mg per mL) every
+  time; it must match the column you read.
+- **Never aspirin for children** (Reye's syndrome, → 12-07).
 - **Do not alternate the two drugs on an improvised schedule.** If a clinician gave you a written
   alternating plan, follow it exactly.
-
-**Strengths these rows are for:** acetaminophen liquid **160 mg per 5 mL**; ibuprofen children's
-liquid **100 mg per 5 mL**. **Infant ibuprofen drops are 50 mg per 1.25 mL, a different strength:
-these rows do not apply to them. Check the bottle.**
-
-| Weight | Acetaminophen 160 mg / 5 mL | Ibuprofen children's liquid 100 mg / 5 mL |
-|---|---|---|
-| 12 to 17 lb (about 6 to 11 months) | 2.5 mL | 2.5 mL, only if over 6 months |
-| 18 to 23 lb | 3.75 mL | 4 mL |
-| 24 to 35 lb | 5 mL | 5 mL |
-| 36 to 47 lb | 7.5 mL | 7.5 mL |
+- **Write every dose down with the time** (→ 25-05).
 
 {{#if has.child}}**Your children** (weights as typed in settings; re-weigh every few months):
-{{#each members as m}}
+{{#each children as m}}
 - {{m.label}}: age {{m.age_text}}, weight {{m.weight_text}}
 {{/each}}
 Find each child's row yourself, from a current weight and the bottle in your hand.{{/if}}
 
 ## Fever in children: the red flags and two scary nights
 
-From the AAP (When to Call the Pediatrician: Fever). **Any of these is an emergency, not a sick
-day:**
-- **A baby under 3 months with a fever of 100.4 °F (38 °C) or higher, taken rectally.**
-- Unusually drowsy, floppy or hard to wake
-- Not drinking; no wet diapers
-- Stiff neck, or a rash of tiny purple-red spots that do not fade when pressed
-- Laboured or grunting breathing
-- A seizure
-- Crying that cannot be consoled at all
+From the AAP (When to Call the Pediatrician: Fever). **The AAP says to call the doctor right away
+if a child has a fever and any of these.** With no doctor to call, treat each one as the line
+for moving toward care:
+- **Younger than 3 months (12 weeks) with a temperature of 100.4 °F (38.0 °C) or higher.**
+- Looks very ill, is unusually drowsy, or is very fussy
+- Has been somewhere very hot, such as an overheated car
+- Other symptoms such as a stiff neck, severe headache, severe sore throat or severe ear pain
+- An immune system problem (such as sickle cell disease or cancer, or medicines such as steroids
+  that weaken the immune system), or a heart problem
+- Has had a seizure
+- Temperature rises above 104 °F (40 °C) repeatedly, at any age
+
+**Also call** (AAP): still "acts sick" once the fever is brought down; seems to be getting worse;
+fever lasting more than 24 hours under 2 years, or more than 3 days (72 hours) at 2 years and
+older. **Not drinking, or few wet diapers, is dehydration** (→ 12-05).
 
 If care exists, go. If not, → 12-16. **Medicine treats comfort; it never replaces this check.**
 
-**Febrile seizure** (a seizure brought on by fever; most common from about 6 months to 5 years):
-terrifying, usually brief, and usually stops by itself. **On their side, protect from injury,
-nothing in the mouth, time it.** Longer than about 5 minutes, one seizure after another, jerking
-on one side only, or a child who does not wake up properly afterwards is an emergency: move
-toward whatever care exists (→ 01-02).
+**Febrile seizure** (a seizure brought on by fever; most often in healthy children between 6
+months and 5 years; MedlinePlus, Febrile seizures): terrifying, and a simple one stops by itself
+within a few seconds to 10 minutes. **Turn the child on the side, protect from injury, nothing
+forced into the mouth, time it.** MedlinePlus: a seizure that lasts several minutes needs an
+ambulance; one lasting longer than 15 minutes, in just one part of the body, or happening again
+in the same illness is not a normal febrile seizure. With no ambulance, those are the line for
+moving toward whatever care exists (→ 01-02).
 
-**Croup** (most common at 1 to 3 years): a barking, seal-like cough with noisy breathing in,
-worse at night. The first home measure is **calm plus cool night air**: bundle the child up and
-step outside for 10 to 15 minutes. **Struggling to breathe at rest, drooling or unable to
-swallow, or blue lips is an emergency.**
+**Croup** (children from about 3 months to 5 years; MedlinePlus, Croup): a barking, seal-like
+cough with a noise on breathing in, often worse at night. Home comfort is **calm plus cool or
+warm moist air** (a steamy bathroom or cool night air); MedlinePlus says this may help the child
+feel better, though no studies show it reduces symptoms. **MedlinePlus says call 911 for bluish
+lips or skin, drooling, trouble swallowing, a breathing-in noise at rest or getting worse, the
+muscles between the ribs tugging in, or struggling to breathe.** With no 911, that is the line
+for moving toward care now.
 
 ## What pain and fever medicine is actually for
 
@@ -168,7 +230,7 @@ medicine is not the same as getting better.**
 | **NSAIDs** (non-steroidal anti-inflammatory drugs: ibuprofen, naproxen) | Pain, fever, **swelling** | Stomach bleeding, kidney effects; take with food; caution with dehydration, kidney disease and some conditions (→ 12-11) |
 | **Aspirin** | Pain, fever, specific uses | **Not for children or teenagers** (Reye's syndrome). Bleeding risk |
 | **Rub-on pain relievers** | Local muscle and joint pain | Not with heat; away from eyes and broken skin |
-| **Antihistamines** | Allergy symptoms, itching; some cause drowsiness | **Not a substitute for epinephrine in anaphylaxis** (→ 02-03). Children's diphenhydramine label: **do not use under 2; ages 2 to 5 only if a doctor directs.** **Never use it to make a child sleep** (FDA, Drug Safety Communication on diphenhydramine). Non-drowsy antihistamines made for children exist; the label gives the age and dose. Drowsy types dull adult judgement too |
+| **Antihistamines** | Allergy symptoms, itching; some cause drowsiness | **Not a substitute for epinephrine in anaphylaxis** (→ 02-03). Children's diphenhydramine Drug Facts label: **"Do not use to make a child sleepy"**; **under 2 years, do not use; 2 to 5 years, do not use unless directed by a doctor** (Children's Benadryl Allergy, Drug Facts label). FDA warns that more than the label dose can cause serious heart problems, seizures, coma or death (FDA, Drug Safety Communication on diphenhydramine). Non-drowsy antihistamines made for children exist; the label gives the age and dose. Drowsy types dull adult judgement too |
 | **Combination cold and flu products** | Several symptoms | **Contain pain relievers: the doubling-up trap** |
 
 **Practical points:**
@@ -177,9 +239,9 @@ medicine is not the same as getting better.**
   down.
 - **NSAIDs reduce swelling and acetaminophen does not**, which matters for sprains and tooth
   pain.
-- **After a head injury (→ 12-19), use acetaminophen, not ibuprofen or another NSAID, while a
-  bleed inside the skull is still possible** (the first 48 hours of the watch). NSAIDs thin the
-  blood slightly; the headache pill should not add to a bleed you cannot see.
+- **After a head injury (→ 12-19), use acetaminophen, not ibuprofen or another NSAID, during the
+  watch.** The AAP's head-injury advice is no pain medicine except acetaminophen unless a doctor
+  says otherwise (AAP, Head Injury).
 
 ## Fever: the judgement, not the number
 

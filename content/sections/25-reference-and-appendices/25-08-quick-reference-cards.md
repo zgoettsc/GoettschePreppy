@@ -147,7 +147,7 @@ Epinephrine is kept: ______________________
 | **2. Disinfect** | **Boil: a rolling boil for 1 minute** (3 minutes above about 5,000 ft: EPA's line; CDC's is 6,500 ft, use the lower) (EPA, Emergency Disinfection of Drinking Water), **or** chemicals: **amounts are on → 03-04, not here**, because bleach strength varies by product and age |
 | **3. Store** | Covered, cool, dark, labelled with the date |
 | **Pool or salt water** | Filtering and boiling **do not remove salt or pool chemicals**. Distillation only (→ 03-03) |
-| **Reserves in the house** | Water heater {{ dwelling.water_heater_gallons }} gal · pipes · ice (FEMA). **Toilet tanks are the last reserve:** never the bowl, never with a cleaning tablet in it; FEMA says not to drink tank water, so disinfect it first (→ 03-04) or use it for flushing |
+| **Reserves in the house** | Water heater {{ dwelling.water_heater_gallons }} gal · pipes · ice (FEMA). **Toilet tanks** (never the bowls) are the last reserve: FEMA says not to drink tank water, so keep it for flushing and washing, or disinfect it first if nothing else is left (→ 03-04), and never if a cleaning tablet or dye is in it (FEMA, Food and Water in an Emergency) |
 
 ## Card 5: Carbon monoxide
 

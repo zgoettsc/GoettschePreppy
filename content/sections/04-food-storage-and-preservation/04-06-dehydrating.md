@@ -11,6 +11,9 @@ tags: [food, drying, dehydrating, jerky, solar drying, preservation]
 derived_from: [04-06-dehydrating]
 sources:
   - national-center-for-home-food-preservation-nchfp-dry-44259a
+  - nchfp-jerky-recipe-r12
+  - nchfp-drying-herbs-r12
+  - csu-extension-drying-fruits-r12
   - usda-food-safety-and-inspection-service-fsis-jerky-a-c409d3
   - foodsafety-gov-usda-hhs-cook-to-a-safe-minimum-inter-13daf3
 related: [04-03-bulk-staples-storage, 04-04-canning-water-bath, 04-07-smoking-and-curing, 04-08-fermentation, 04-09-winter-cold-storage, 04-11-pests-and-rodents, 04-16-sprouting, 07-02-rocket-stove, 07-03-solar-cooking, 05-09-field-dressing-and-butchering, 06-04-wood-supply-and-depletion, 02-04-cl04-food-allergy]
@@ -41,18 +44,20 @@ rules.
 ## Do this now
 
 1. **Dry any surplus.** It is the cheapest way to keep a harvest, with no lids.
-2. **Dry until truly dry.** Fruit should be leathery with no moist pockets; vegetables brittle.
-   Under-dried food goes mouldy in storage.
-3. **Condition dried fruit:** pack it loosely in a jar for **7 to 10 days,** shaking daily. If
-   droplets form on the glass, it needs more drying (NCHFP, Drying Foods).
+2. **Dry until truly dry.** Fruit should be leathery with no moist pockets: squeeze a handful,
+   and no moisture is left on your hand and the pieces spring apart (Colorado State University
+   Extension, Drying Fruits). Vegetables brittle. Under-dried food goes mouldy in storage.
+3. **Condition dried fruit:** pack it loosely in large jars or containers about two-thirds full,
+   in a warm, dry, airy place for **4 to 10 days,** shaking daily (Colorado State). If droplets
+   form on the glass, it needs more drying.
 4. **Dry at the right temperature** (dehydrator, or oven with the door cracked): **fruit and
-   vegetables about 135 to 140 °F; herbs about 95 to 115 °F; jerky 130 to 140 °F or higher**
-   (NCHFP). Too hot hardens the outside and traps moisture inside; too cool grows mould before
-   it dries.
+   vegetables at 140 °F** (NCHFP; Colorado State); **herbs at 95 to 115 °F** (up to 125 °F
+   where the air is humid; NCHFP, Herbs); **jerky at 140 °F after the heating step**
+   (NCHFP, Jerky). Too hot hardens the outside and traps moisture inside; too cool grows mould
+   before it dries.
 5. **Store airtight, cool and dark.** Light and warmth ruin dried food fast.
 6. **Jerky: follow the numbered steps below every time.** Heat the meat to **160 °F (poultry
-   165 °F) BEFORE drying;** dry at **130 to 140 °F or higher;** **never sun-dry or air-dry
-   meat.**
+   165 °F) BEFORE drying;** dry at **140 °F;** **never sun-dry or air-dry meat.**
 
 ## Why it works
 
@@ -64,8 +69,8 @@ Removing water stops germs and moulds growing. It also removes weight and bulk: 
 | **Electric dehydrator** | Power | Fastest and best controlled; use while the grid or solar allows |
 | **Solar drying** | Sun, screens, airflow | Free; works best in dry, sunny weather (→ 07-03). **Fruit, vegetables, herbs only: NEVER meat** |
 | **Air drying** | Dry air, airflow | Herbs, peppers, beans hung in bunches. **Never meat** |
-| **Oven or beside a stove** | Low heat, door cracked | Wasteful unless the fire is lit anyway; the one fuel method that can hold jerky at 130 °F or more |
-| **Above a wood stove** | Heat you already have | Good for plant food; **not for meat unless a thermometer at the rack reads 130 °F or more the whole time** |
+| **Oven or beside a stove** | Low heat, door cracked | Wasteful unless the fire is lit anyway; the one fuel method that can hold jerky at 140 °F |
+| **Above a wood stove** | Heat you already have | Good for plant food; **not for meat unless a thermometer at the rack reads 140 °F the whole time** |
 
 **The habit that matters:** whenever a fire is going for cooking or heat, **something should be
 drying near it.** That is free preserving (→ 06-04).
@@ -86,21 +91,23 @@ drying near it.** That is free preserving (→ 06-04).
 ## Jerky: the one to do carefully
 
 *E. coli* O157 and *Salmonella* **survive ordinary low-temperature jerky drying.** That outbreak
-history is why USDA's procedure heats the meat, not just dries it. The steps, with the numbers
-(USDA FSIS, Jerky and Food Safety; NCHFP, Drying Foods):
+history is why USDA's procedure heats the meat, not just dries it (USDA FSIS, Jerky and Food
+Safety). The steps, with the numbers (NCHFP, Jerky; FoodSafety.gov for poultry):
 
-1. **Lean meat, all fat trimmed.** Slice about ¼ inch thick; partly frozen meat cuts evenly.
+1. **Lean meat, all fat trimmed.** Slice no thicker than ¼ inch; partly frozen meat cuts evenly.
    Venison and other game (→ 05-09) suit it well.
-2. **Marinate COLD:** in the fridge or measured outdoor cold below 40 °F (→ 04-09), never on the
-   counter. **Throw the marinade away** afterwards. Salt and acid help but are not the safety
+2. **Marinate COLD:** keep the meat at 40 °F or below (the fridge, or measured outdoor cold,
+   → 04-09), never on the counter. **Throw the marinade away** afterwards. Salt and acid help but are not the safety
    step.
-3. **Heat the strips to 160 °F (poultry 165 °F) BEFORE drying:** steam, roast or simmer them in
-   the marinade, and **check with a thermometer.** (Less preferred: dry first, then 10 minutes
-   in a 275 °F oven, only if your oven holds 275 °F.)
-4. **Dry at 130 to 140 °F or higher** (dehydrator, or oven with the door cracked) until a cooled
-   strip **cracks but does not snap.** Usually 4 to 12 hours.
-5. **Store airtight, cool and dark; use within 1 to 2 months** at room temperature (longer cold).
-   Check for mould. Home jerky does not keep for ever.
+3. **Heat the strips to 160 °F (poultry 165 °F) BEFORE drying:** bring them to a boil in the
+   marinade (NCHFP: boil 5 minutes), or steam or roast them, and **check with a thermometer.**
+   (Less preferred: dry first, then heat strips ¼ inch or thinner for 10 minutes in an oven
+   preheated to 275 °F, only if your oven holds 275 °F.)
+4. **Dry at 140 °F** (dehydrator, or oven with the door cracked) until a test piece **cracks
+   but does not break when bent.** Start checking after 3 hours for strips heated in marinade;
+   strips not heated first take 10 to 24 hours (NCHFP).
+5. **Store in a sealed container, cool and dark: about 2 weeks at room temperature** (NCHFP);
+   refrigerate or freeze it for longer. Check for mould. Home jerky does not keep for ever.
 6. **NEVER sun-dry or air-dry meat.** Not on screens, not in a hot car, not over a wood stove
    without a thermometer. Plant food, yes; meat, no.
 
@@ -128,7 +135,7 @@ history is why USDA's procedure heats the meat, not just dries it. The steps, wi
 | Cheesecloth or fine netting | Keeps insects off solar-dried food | Essential outdoors |
 | Airtight jars, buckets, vacuum bags | Storage is half the method | Plus oxygen absorbers |
 | Oxygen absorbers | Big shelf-life gain | Cheap; buy now |
-| **Thermometers:** instant-read, and one that reads at the drying rack | 160 °F before drying; 130 to 140 °F while drying | → 07-01 |
+| **Thermometers:** instant-read, and one that reads at the drying rack | 160 °F before drying; 140 °F while drying | → 07-01 |
 | Sharp knife or mandoline | Even thickness dries evenly | → 16-02 |
 | Labels and marker | Dried food is hard to identify later | Not optional |
 

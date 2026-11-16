@@ -2,7 +2,7 @@
 id: 16-03-knots-and-cordage
 section: 16-tools-and-repair
 title: "Knots and cordage"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: none
@@ -10,7 +10,7 @@ phase: [A, B, C]
 tags: [knots, rope, cordage, paracord, bowline, taut-line hitch, clove hitch, trucker's hitch, lashing, vehicle recovery, recovery strap]
 derived_from: [16-03-knots-and-cordage]
 sources:
-  - us-army-rigging-techniques-procedures-and-applicatio-404793
+  - afh-10-644
   - osha-hand-and-power-tools-safe-use-maintenance-and-h-77254c
   - american-red-cross-winter-storm-preparedness-and-bli-4bb6c0
   - american-red-cross-power-outage-safety-6d07a8
@@ -26,7 +26,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Steps checked against the AFH 10-644 plates and section 15.4 text: square lashing now finishes on the upright, diagonal lashing three turns and clove-hitch start per AFH; sheet bend dry-rope limit and double sheet bend added; FM 5-125 (unreadable) one-fifth and knot-loss figures removed; paracord 550 lb / 7-9 strands per AFH." }
 ---
 
 # Knots and cordage
@@ -68,9 +68,11 @@ remember none. **Learn six, practice until your hands do them without thinking, 
 - A **bight** is a fold of rope, a U-shape, with no crossing.
 - A **loop** is a circle where the rope crosses itself.
 
-The pictures for each knot come from the US Army's rigging manual (US Army, FM 5-125, Rigging
-Techniques, Procedures, and Applications). The steps are written so each step is one hand motion,
-and they work without the picture.
+Most of the knot and lashing photographs come from the US Air Force survival handbook reprinted in
+Section 31 (US Air Force, AFH 10-644, SERE Operations, 2017, section 15.4); the taut-line hitch,
+trucker's hitch and prusik are drawings. The steps are written so each step is one hand motion,
+and they work without the picture. In that handbook the working end is called the **running end**
+and the standing part the **standing end**.
 
 ## Warm-up: the overhand knot
 
@@ -144,6 +146,9 @@ so back it up with a half hitch.
 
 *Check:* two wraps sit side by side on the post with the diagonal crossing pinned between them.
 
+**In the middle of a rope, or over a post top:** make two loops, lay one behind the other so they
+sit back to back, and drop both over the post (AFH 10-644; top row of the picture).
+
 ### 4. Two half hitches (with a round turn): tying off to anything
 
 {{figure fig-knot-round-turn-two-half-hitches}}
@@ -151,20 +156,21 @@ so back it up with a half hitch.
 *Use:* tying a rope to a ring, rail, branch or post.
 
 1. Pass the working end around the object. **For a real load, go around twice** (a "round turn");
-   the friction does half the work.
+   the extra turn takes much of the strain.
 2. Bring the working end over the standing part, around behind it, and up through the gap between
    itself and the object. That is one half hitch.
 3. Repeat step 2 in the same direction, just beyond the first. That is the second.
 4. Pull the working end to slide both hitches down against the object.
 
-*Check:* the two hitches together look like a clove hitch around the standing part.
+*Check:* the two hitches together look like a clove hitch around the standing part. For more
+security, tie the leftover end to the standing part (AFH 10-644).
 
 ### 5. Square knot (reef knot): joining two ends of the same size
 
 {{figure fig-knot-square-knot}}
 
-*Use:* tying a bundle, a bandage (→ 12-02), a sack. **Not for joining two ropes under serious
-load**; it can roll apart. For that, use the sheet bend below.
+*Use:* tying a bundle, a bandage (→ 12-02), a sack, or joining two ropes **of the same thickness**
+(AFH 10-644). For ropes of different sizes, use the sheet bend below.
 
 1. Hold one end in each hand.
 2. Cross the right end over the left and wrap it under, as if starting to tie a shoe.
@@ -172,15 +178,16 @@ load**; it can roll apart. For that, use the sheet bend below.
 4. Pull all four strands to tighten.
 
 *Check:* each rope's two strands leave the knot on the same side, and the knot lies flat. If it
-looks twisted and lopsided, it is a "granny knot", which slips. Untie it and start again
-("right over left, then left over right").
+looks twisted and lopsided, it is a "granny knot", which slips under strain (AFH 10-644). Untie
+it and start again ("right over left, then left over right").
 
 ### 6. Trucker's hitch: a rope pulley for pulling things tight
 
 {{figure fig-knot-truckers-hitch}}
 
-*Use:* strapping a load down, tightening a tarp ridge line, pulling something taut. In theory it
-triples your pull; in practice about double, because the rope rubs on itself. Still surprising.
+*Use:* strapping a load down, tightening a tarp ridge line, pulling something taut. The loop works
+like a pulley and multiplies your pull, though the rope rubbing on itself eats some of the gain.
+Still surprising.
 
 1. Tie the far end of the rope to something fixed (a bowline or two half hitches). Bring the
    working end over the load to your anchor point.
@@ -207,7 +214,9 @@ apart at once. That is the point.
 4. Tuck the thin end under itself, across the front of the U (not through the U).
 5. Pull the thin rope's standing part to tighten.
 
-*Check:* both short ends finish on the same side of the knot.
+*Check:* both short ends finish on the same side of the knot. It holds under load but can loosen
+when the strain comes off, and it is meant for **dry** rope. For wet rope or anything that must not
+slip, take one more turn around the U before tucking: the **double sheet bend** (AFH 10-644).
 
 **Prusik: a loop that grips a rope.** {{figure fig-knot-prusik}} A short loop of thinner cord
 wrapped around a thicker rope. It slides when loose and grips when pulled. Useful for an
@@ -229,30 +238,33 @@ frame or an antenna mast support (→ 15-06).
 
 {{figure fig-lashing-square}}
 
-**Square lashing.**
+**Square lashing** (AFH 10-644).
 1. Lay the two poles crossed at a right angle. Tie a clove hitch on the upright pole just below
    the crosspiece.
 2. Wrap the rope over the crosspiece, behind the upright, under the crosspiece on the other side,
-   and behind the upright again. That is one wrap around the joint.
+   and behind the upright again. That is one wrap around the joint. On the crosspiece each turn
+   lies outside the last; on the upright, inside it.
 3. Do three or four such wraps, keeping each tight and laid beside the last, not on top.
 4. Now make two or three "frapping" turns: wrap between the two poles, around the wraps
    themselves, pulling hard. This tightens everything.
-5. Finish with a clove hitch on the crosspiece.
+5. Finish with a clove hitch on the upright, the same pole you started on.
 
 {{figure fig-lashing-diagonal}}
 
-**Diagonal lashing.**
-1. Tie a timber hitch (a loop wrapped back around itself) around both poles, across the joint
-   diagonally.
-2. Make three or four wraps along that same diagonal.
-3. Make three or four wraps along the other diagonal.
-4. Make two frapping turns between the poles, then finish with a clove hitch.
+**Diagonal lashing** (AFH 10-644).
+1. Tie a clove hitch around both poles where they cross. (Many guides start with a timber hitch, a
+   loop wrapped back around itself, instead; either holds.)
+2. Make three turns around both poles along one diagonal, laid side by side, not on top of each
+   other.
+3. Make three more turns along the other diagonal, crossing the first ones. Pull them tight.
+4. Make a couple of frapping turns between the poles, around the lashing turns, then finish with a
+   clove hitch on the same pole you started on.
 
 ## Cordage: what to stock and why
 
 | Type | Strength | Best for | Notes |
 |---|---|---|---|
-| 550 paracord | Strong for its size | Everything general | **Its core is seven separate thin strands**: thread, snares, fishing line, repairs (→ 16-04) |
+| 550 paracord | Strong for its size | Everything general | **Its core is seven to nine separate thin strands** (AFH 10-644): thread, snares, fishing line, repairs (→ 16-04) |
 | Bank line or tarred twine | Strong, thin | Lashing, snares, repairs | Resists rot and sunlight; grips well |
 | 1/4 to 3/8 in utility rope | Real loads | Hauling, tying down, ridge lines | Nylon stretches; polyester does not |
 | Rope 1/2 in and up | Heavy loads | Dragging logs, heavy lifting. **Not vehicle recovery** | See the block below |
@@ -261,11 +273,12 @@ frame or an antenna mast support (→ 15-06).
 | Ratchet straps | Very strong | Securing loads | Sunlight weakens the webbing |
 | Bungee cords | Light | Light securing | Perish; **the hooks cause eye injuries** |
 
-**How much a rope can hold.** Never load a rope past **one-fifth of its labeled breaking
-strength**, and remember that **a knot cuts a rope's strength by a third to a half** (US Army,
-FM 5-125). Military-specification Type III paracord breaks at 550 lb when new, dry and unknotted,
-so about 100 lb is its working load; commercial "550" cord is often weaker. Rubbing, sunlight and
-age lower every figure further.
+**How much a rope can hold.** A labelled breaking strength is for new, dry rope in a straight
+pull. **Load a rope far below it:** every knot weakens the rope, and rubbing, sunlight, wet and age
+lower it further. The Air Force handbook gives military parachute suspension line (the original
+"550 cord") a tensile strength of 550 lb, and each of its inner strands 35 lb (AFH 10-644);
+commercial "550" cord is often weaker. For home-made cord, its rule is to count on the **lowest**
+strength in the published range (AFH 10-644).
 
 ## Pulling a stuck vehicle: rope is the wrong tool
 
@@ -289,9 +302,9 @@ and people.
     a bumper, a tie-down loop or a suspension part.
 [ ] LINE DAMPER: drape a blanket, coat or floor mat over the middle
     of the strap. It drops a broken strap instead of launching it.
-[ ] EVERYONE ELSE stands at least 1.5 x the strap's length away and
-    OUT OF LINE with the pull. Children well back or in the far
-    vehicle, never beside the line.
+[ ] EVERYONE ELSE stands well clear, farther away than the strap
+    is long, and OUT OF LINE with the pull. Children well back or
+    in the far vehicle, never beside the line.
 [ ] PULL GENTLY, IN LINE, from a slack start. No running starts
     unless the strap is a kinetic rope made for it, and even then
     a few feet of slack, not a run.
@@ -303,8 +316,8 @@ and people.
 
 ## Care and failure
 
-- **Sunlight destroys synthetic rope.** Rope left outdoors weakens within a season or two, and you
-  cannot see it happen. Store rope out of the sun.
+- **Sunlight destroys synthetic rope.** Rope left outdoors weakens, and you cannot see it happen.
+  Store rope out of the sun.
 - **Rubbing is the main way rope fails.** A rope running over an edge cuts itself. Pad the edge with
   cloth, a piece of hose or wood.
 - **Wet natural fiber rots.** Dry it before storing.
@@ -335,7 +348,7 @@ A real skill, and it works. It is slow; practice in summer with fresh material.
 | **550 paracord, several hundred feet** | The most useful cordage there is | Inner strands are a bonus |
 | Bank line or tarred twine | Lashing, snares, repairs | Buy a spool |
 | Utility rope, 1/4 and 3/8 in, 100+ ft each | Real loads, ridge lines | Polyester for low stretch |
-| Heavier rope, 1/2 in and up | Dragging, lifting. **Not recovery** | Working load is one-fifth of breaking strength |
+| Heavier rope, 1/2 in and up | Dragging, lifting. **Not recovery** | Load it far below its breaking strength |
 | **Rated recovery strap (no hooks) and a rated shackle or soft shackle** | The only safe way to pull a vehicle out | → 22-05; keep the strap's instructions |
 | Jute or sisal twine | Garden, bundles, anything burned | → 05-10 |
 | Ratchet straps, 4 to 6 | Load securing; better than knots on a vehicle | Check webbing for sun damage |
@@ -350,8 +363,8 @@ vehicles (very strong); cloth strips; plant fiber.
 
 ## When it runs out
 
-- **Cord barely runs out if you keep it out of the sun.** Synthetic rope stored indoors lasts
-  decades.
+- **Cord barely runs out if you keep it out of the sun.** Synthetic rope stored indoors, dry and
+  dark, lasts for many years.
 - **What gets used up:** paracord cut into short pieces (it is so useful it disappears), strap
   webbing, and bungees.
 - **Length is the resource.** Do not cut a 100-foot rope into ten short pieces unless you must; you

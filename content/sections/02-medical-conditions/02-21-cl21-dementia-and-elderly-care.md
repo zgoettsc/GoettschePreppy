@@ -77,8 +77,9 @@ falls, warmth, medicine management, sudden confusion, and the caregiver who has 
 {{#if has.condition.CL-21}}**Someone in your household has this condition.** This module is at the front of the medical section for you.{{else}}{{#if has.elder}}**Your household includes an older member.** Parts on falls, warmth, sudden confusion and medicines apply to them even without dementia.{{else}}**Nobody in your household is marked with this condition.** The module stays in the binder so you can help an older neighbour or relative, or add the condition later in settings.{{/if}}{{/if}}
 
 > **SAFETY**
-> - **A person with dementia who walks out in cold or heat can die within hours.** Plan for
->   wandering before it happens (part 4; NIA, Wandering and Alzheimer's Disease).
+> - **A person with dementia who walks out may not know where they are or that they are in
+>   danger, and in cold or heat that can kill.** Plan for wandering before it happens (part 4;
+>   NIA, Wandering and Getting Lost).
 > - **Sudden worse confusion is a medical sign, not "just the dementia"** (part 5).
 > - **Children do not have access to firearms, fuel, medications or chlorine products.** The same
 >   locks protect a confused adult: firearms, fuel, medicines, chlorine and car keys (floor,
@@ -89,8 +90,9 @@ falls, warmth, medicine management, sudden confusion, and the caregiver who has 
 
 **They are missing:**
 1. **Search at once,** starting close: the house, the yard, sheds, cars, the route they used to
-   walk, places from their past (NIA, Wandering and Alzheimer's Disease).
-2. **Call 911** if any phone works; give the photo (part 4) and what they are wearing.
+   walk, places from their past.
+2. **Call 911** if any phone works; give the photo (part 4; NIA keeps a recent photo to help the
+   police) and what they are wearing. Ask neighbours to look.
 3. **Cold or heat:** treat finding them as urgent; warm or cool them once found (→ 08-05,
    → 17-04).
 
@@ -136,26 +138,31 @@ and Your Health).
 
 ## 4. Day by day without it
 
-**Wandering** (NIA, Wandering and Alzheimer's Disease): a person with dementia may leave to "go
-home", go to work, or look for someone, and may not know where they are or that they are in
-danger. A crisis makes it more likely: strange surroundings, noise, darkness, people coming and
-going. To prepare:
-- **Secure the doors:** bells or chimes on doors, locks placed high or low out of the usual line
-  of sight, a signal (a tin can on the door handle) when power is out.
-- **ID on the person:** a medical ID bracelet, name and address sewn into a coat.
-- **A recent photo** in the binder, below, for searchers.
+**Wandering:** many people with Alzheimer's disease wander away from home or their caregiver
+(NIA, Wandering and Getting Lost). A crisis brings strange surroundings, noise, darkness and
+people coming and going. To prepare (NIA):
+- **Secure the doors:** keep them locked, with an extra lock placed up high or down low; STOP or
+  CLOSED signs on doors; a chime or alarm that sounds when a door opens (with no power, a bell or
+  a tin can on the handle does the same job). Keep the key nearby for emergencies.
+- **ID on the person:** an ID or medical bracelet with name, address and your phone number; if
+  they might take it off, label their clothes.
+- **A recent photo** in the binder, below, to help searchers.
+- **Tell neighbours** that the person tends to wander.
 - **Know their patterns:** time of day, places they head for.
 
 {{photo recent-photo-for-search}}
 
-**Falls** (CDC, Check for Safety): clear floors of clutter, cords and loose rugs; light on stairs
-and the path to the toilet; handrails on both sides of stairs; grab bars and non-slip mats at the
-toilet and bath; often-used things within reach. **Off-grid adds new hazards:** stacked supplies
+**Falls** (CDC, Check for Safety, 2017): clear floors and stairs of clutter; coil or tape cords
+against the wall; remove loose rugs or fix them with non-slip backing; light at the top and
+bottom of the stairs and a night-light on the path from bed to bathroom; handrails on both sides
+of the stairs; grab bars by the toilet and tub and a non-slip mat in the tub; often-used things
+on low shelves; a sturdy step stool with a bar, never a chair. **Off-grid adds new hazards:** stacked supplies
 in hallways, dark nights, wet and icy steps, a bucket toilet that is hard to rise from (→ 13-01).
 A battery night-light or a headlamp by the bed matters.
 
-**Warmth.** NIA advises keeping the home heated to at least 68 °F for older adults (NIA, Cold
-Weather Safety for Older Adults). With no heat, keep the person in the one warm room (→ 08-01),
+**Warmth.** NIA advises setting the heat to at least 68 °F, and warns that even mildly cool homes
+of 60 to 65 °F can lead to hypothermia in older adults (NIA, Cold Weather Safety for Older
+Adults). With no heat, keep the person in the one warm room (→ 08-01),
 in layers, a hat indoors, warm drinks, and blankets in bed. Check their hands and face often: they
 may not say they are cold.
 
@@ -172,12 +179,15 @@ or swallowing is hard; sit them upright to eat (→ 12-18 for choking).
 ## 5. Warning signs that mean an emergency
 
 - **Delirium:** confusion that comes on over hours or days, with drowsiness or agitation, trouble
-  paying attention, seeing things. MedlinePlus lists common causes: infection, dehydration,
-  medicines, pain, low oxygen, not sleeping, being in an unfamiliar place (MedlinePlus, Delirium).
-  Find and treat the cause.
-- **Hypothermia:** cold skin, pale or puffy face, shivering (which may be absent in older people),
-  slurred speech, confusion, drowsiness, slow breathing (NIA; CDC, Preventing Hypothermia).
-  Warm gently (→ 08-05).
+  paying attention, seeing things. MedlinePlus lists causes including infections (such as a
+  urine infection or pneumonia), medicines such as pain medicines and sedatives, alcohol or
+  medicine withdrawal, upset body salts, and severe lack of sleep (MedlinePlus, Delirium). Find
+  and treat the cause.
+- **Hypothermia:** NIA's early signs are cold feet and hands, a puffy or swollen face, pale skin,
+  shivering, slow or slurred speech, and feeling sleepy, angry or confused; later, stiff jerky
+  movements, slow heartbeat or breathing and loss of consciousness (NIA, Cold Weather Safety for
+  Older Adults; CDC, Preventing Hypothermia). Move them somewhere warmer, warm drink if awake,
+  dry blankets (NIA); → 08-05.
 - **Heat illness:** hot dry or damp skin, confusion, fast pulse, fainting (→ 17-04).
 - **A fall with a head strike**, especially on a blood thinner (→ 12-19, → 02-10).
 - **Not eating or drinking for a day**, few or no wet pads.
@@ -239,8 +249,10 @@ Battery lights, hearing aids and any powered bed or lift chair need charging or 
 
 ## 10. Travel and evacuation
 
-- **Leave early, by day, in calm.** Late, rushed, night evacuations are the hardest on a person
-  with dementia (Ready.gov, Older Adults).
+- **Plan the transport and the helpers now.** Ready.gov advises older adults to plan
+  transportation if they need help evacuating, and to build a support network that practises
+  the plan together (Ready.gov, Older Adults). Leave early and by day if you can: a rushed night
+  move is harder on a person with dementia.
 - Medicines, the chart, glasses, hearing aids, pads, a change of clothes, a familiar object, and
   the medical summary (→ 01-07, → 22-06, → 25-09).
 - **Never leave them alone** in a car, a shelter or a crowd; ID on them at all times.

@@ -15,7 +15,8 @@ sources:
   - medlineplus-baclofen
   - cdc-steadi-check-for-safety
   - cdc-carbon-monoxide-poisoning-basics-772153
-  - nfpa-national-fire-protection-association-lithium-io-0c7d64
+  - usfa-blog-lithium-ion-batteries-2026-r8
+  - medlineplus-autonomic-dysreflexia-r11
   - cdc-about-sepsis-a8304b
   - fda-dont-be-tempted-to-use-expired-medicines
 related:
@@ -84,12 +85,15 @@ infections. This module covers all three, and the medicines that cannot be stopp
 ## Do this now
 
 1. **Plan the way out today:** which door, which helpers, what carries the person if the chair
-   cannot go (part 10; Ready.gov, Individuals with Disabilities).
+   cannot go. Ready.gov advises a support network of people who can help, neighbours who can
+   help you leave the building, and accessible transport planned ahead (part 10; Ready.gov,
+   People with Disabilities).
 2. **Change position often** and **look at the skin every day** (part 4).
 3. **Charge the chair whenever power exists**, and keep the manual backup ready (part 9).
 4. **A red, hot, swollen or smelly sore, or fever:** treat as infection (→ 12-04) and get care.
-5. **Pounding headache, flushing or sweating above the injury level in someone with a spinal cord
-   injury:** sit them up, loosen tight clothing, check the bladder and bowel (part 5).
+5. **Throbbing headache, flushing or sweating above the injury level in someone with a spinal
+   cord injury:** sit them up with the head raised, remove tight clothing, check the catheter,
+   bladder and bowel (part 5).
 
 ## 1. What it is
 
@@ -113,25 +117,28 @@ sometimes with medicines for pain, muscle spasm or the bladder.
 
 - **Tablets:** original bottles, cool and dry, out of sun, locked from children.
 - **Catheters and sterile supplies:** sealed, dry, off the floor, out of heat.
-- **Lithium-ion chair batteries:** store and charge as the maker says; do not charge a damaged,
-  swollen or very cold battery; charge where you can see it and away from exits (NFPA,
-  Lithium-Ion Batteries).
+- **Lithium-ion chair batteries:** store and charge as the maker says, with the original or a
+  certified charger; charge on a solid, flat surface, out of direct sun, and not unattended
+  where possible; store away from things that burn and away from exits; stop using a battery
+  that is smoking, hissing, punctured or swollen (USFA, Lithium-Ion Batteries, 2026).
 - **Expired medicine** when nothing else exists: {{choice DC-04}} (→ 30-05).
 
 ## 4. Day by day without it
 
 **Pressure sores** (also called pressure injuries or bedsores) form where bone presses skin
 against a seat or mattress for too long: tailbone, hips, heels, shoulder blades, back of the head,
-elbows (MedlinePlus, Preventing Pressure Ulcers). They can start within hours and become deep,
-infected wounds over days. To prevent them (MedlinePlus):
-- **Change position often.** In bed, turn at least every 2 hours. In a wheelchair, shift weight
-  every 15 minutes, or have someone help. Write a turning chart (→ 25-05).
-- **Check the skin every day,** with a mirror or a helper. Redness that does not fade after
-  pressure is taken off is the first sign.
-- **Keep skin clean and dry,** especially after incontinence; barrier cream.
-- **Cushions and padding:** use the person's pressure cushion; pillows between knees and under
-  calves to keep heels off the bed. Do not use donut-shaped cushions.
-- **Eat and drink enough**; skin heals badly in someone short of protein and water.
+elbows, knees, ankles, ears (MedlinePlus, Preventing Pressure Injuries). They can become deep,
+infected wounds. To prevent them (MedlinePlus):
+- **Change position often.** In bed, change position every 1 to 2 hours. In a wheelchair, shift
+  weight (lean forward, left and right) every 15 to 20 minutes, or have someone help. Never
+  drag the person; lift or use a draw sheet. Write a turning chart (→ 25-05).
+- **Check the skin every day,** head to toe, with a mirror or a helper. Early signs: redness
+  (harder to see on darker skin), warm areas, spongy or hard skin, broken skin.
+- **Keep skin clean and dry,** especially after incontinence; clean and dry at once.
+- **Cushions and padding:** a foam or gel seat cushion; pillows or foam between knees and
+  ankles, and under the calves to lift the heels; no pillow under the knees. Do not use
+  donut-shaped cushions.
+- **Eat enough calories and protein, and drink plenty of water.**
 
 {{figure fig-pressure-points}}
 
@@ -144,8 +151,9 @@ the helper (→ 13-02).
 every time. Reuse raises the infection risk; ask the clinic now how to clean and reuse safely if
 supplies run out, and write it in part 7.
 
-**Medicines for spasm:** MedlinePlus says baclofen must not be stopped suddenly, because stopping
-can cause hallucinations and seizures (MedlinePlus, Baclofen). A baclofen pump (implanted) needs
+**Medicines for spasm:** MedlinePlus says not to stop baclofen without the doctor, because
+stopping it suddenly can cause seizures, fever, confusion, muscle stiffness or hallucinations
+(MedlinePlus, Baclofen). A baclofen pump (implanted) needs
 refills on a schedule; ask the clinic now what happens if a refill is missed and what the warning
 signs are.
 
@@ -158,15 +166,18 @@ not notice cold feet. Layers, blankets, checks of hands and feet (→ 08-01).
 ## 5. Warning signs that mean an emergency
 
 - **An infected pressure sore:** spreading redness, heat, swelling, pus, a bad smell, fever. Get
-  care (→ 12-04). Sepsis signs (CDC, About Sepsis): confusion, fast breathing, fast heart rate,
-  fever or feeling very cold, extreme pain, clammy skin.
+  care (→ 12-04). Sepsis signs (CDC, About Sepsis): confusion, shortness of breath, a high heart
+  rate or weak pulse, fever or shivering or feeling very cold, extreme pain, clammy or sweaty
+  skin.
 - **Urine infection:** fever, cloudy or smelly urine, new spasms, confusion.
-- **Autonomic dysreflexia** in people with a spinal cord injury at mid-back level or above: a
-  sudden pounding headache, very high blood pressure, flushing and sweating above the injury.
-  Usually set off by a full bladder, a blocked catheter, constipation or a pressure point. Sit up,
-  loosen clothing, check and empty the bladder, find the cause. Ask the spinal cord clinic now for
-  the person's written plan.
-- **Baclofen withdrawal:** confusion, hallucinations, high fever, muscle stiffness, seizure.
+- **Autonomic dysreflexia** in people with a spinal cord injury: a throbbing headache, high
+  blood pressure, flushed skin and goosebumps above the injury, heavy sweating, blurry vision, a
+  slow or fast pulse; sometimes no symptoms at all. MedlinePlus says it is life-threatening: sit
+  up with the head raised, remove tight clothing, then find the trigger, such as a blocked
+  catheter, constipation, a sore or another irritant (MedlinePlus, Autonomic Dysreflexia). Ask
+  the spinal cord clinic now for the person's written plan.
+- **Baclofen withdrawal:** seizures, fever, confusion, muscle stiffness, hallucinations
+  (MedlinePlus, Baclofen).
 - **A fall with a possible broken bone or head strike** (→ 12-09).
 - **A swollen, painful, warm calf or sudden breathlessness** (a blood clot) in someone who sits a
   lot.
@@ -235,8 +246,9 @@ ones for this condition.
 
 ## 10. Travel and evacuation
 
-- **Leave early.** A person who needs help to move cannot leave fast at the last minute
-  (Ready.gov, Individuals with Disabilities).
+- **Leave early.** A person who needs help to move cannot leave fast at the last minute. Plan
+  accessible transport ahead, and keep a spare charged battery for a power chair (Ready.gov,
+  People with Disabilities).
 - **The way out:** the route without steps, or the carry down the stairs, with named helpers.
 - **The vehicle:** does the chair fit? Can it be folded? Is there a ramp? If not, what goes
   instead?
