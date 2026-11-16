@@ -100,7 +100,10 @@
   "region.home.sun_hours_dec": "Mean peak sun hours in December (home base).",
   "region.dest.sun_hours_dec": "Mean peak sun hours in December (inside #each destinations as x: x.region.sun_hours_dec).",
   "region.home.sun_hours_jun": "Mean peak sun hours in June (home base).",
-  "region.dest.sun_hours_jun": "Mean peak sun hours in June (inside #each destinations as x: x.region.sun_hours_jun)."
+  "region.dest.sun_hours_jun": "Mean peak sun hours in June (inside #each destinations as x: x.region.sun_hours_jun).",
+  "dwelling.roof_area_sqft": "Roof footprint in square feet.",
+  "gear.generator_volts": "Generator output: \"120 V only\" or \"120/240 V\".",
+  "derived.rain_gal_per_inch": "Rain caught per inch of rain: roof_area_sqft x 0.623 gallons (standard catchment conversion), before losses."
  },
  "flags": {
   "has.infant": "A member under 24 months.",
@@ -255,7 +258,9 @@
     "how_to_reach_them",
     "route_notes",
     "approximate_miles",
-    "region"
+    "region",
+    "water_source_text",
+    "sewer_text"
    ],
    "description": "Destinations, each with its own region object."
   },

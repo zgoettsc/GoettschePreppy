@@ -284,6 +284,12 @@
             "enclosed-cargo",
             "camper"
           ]
+        },
+        "roof_area_sqft": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 20000,
+          "description": "Approximate roof footprint in square feet, for rain-catchment math."
         }
       }
     },
@@ -601,6 +607,23 @@
             "type": "integer",
             "minimum": 1,
             "maximum": 4000
+          },
+          "water_source": {
+            "enum": [
+              "municipal",
+              "well",
+              "spring-or-surface",
+              "cistern",
+              "unknown"
+            ]
+          },
+          "sewer": {
+            "enum": [
+              "municipal",
+              "septic",
+              "outhouse",
+              "none-or-unknown"
+            ]
           }
         }
       }
@@ -713,6 +736,12 @@
             "model": {
               "type": "string",
               "maxLength": 60
+            },
+            "volts": {
+              "enum": [
+                "120",
+                "120-240"
+              ]
             }
           }
         },

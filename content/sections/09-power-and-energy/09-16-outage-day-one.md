@@ -130,8 +130,7 @@ stations and panels: print it and keep it with the panels.
 5. **Before dark:** every phone and power bank charging from the remaining station capacity; set out
    tomorrow's panel plan in your head.
 
-{{#if has.well}}**Water:** a well pump stops with the power. Fill containers now from what is in the
-pressure tank, and see → 03-10.{{/if}}
+{{#if has.well}}**Water:** the well pump stops with the power (→ 03-10).{{/if}}
 
 ### T+0 to T+6 hours: heat (any outage in cold weather, or when the house is cooling)
 {{#if is.cold_winters}}**In a winter as cold as yours, heat is the clock right behind medicine.**{{else}}When it is cold, heat is
@@ -202,7 +201,7 @@ card** (worked out on → 09-03). {{figure fig-series-vs-parallel}}
 Outdoors, 20 feet or more, exhaust away, carbon monoxide alarms on (→ 09-04). Run it long enough to
 refill a station at the station's **standard** charge rate on a 12 AWG cord, then off. That cycle is
 the storm plan, not continuous running. In deep cold, start it warm and bring it back in between
-runs (→ 09-04). **Never run before, the first time: follow the first-start steps on → 09-04 (oil
+runs (→ 09-04). **If it has never been run, follow the first-start steps on → 09-04 (oil
 first).**
 
 ### When the power comes back
