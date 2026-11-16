@@ -4,8 +4,8 @@ A build-your-own, off-grid survival reference for US households, generated from 
 household fills in and delivered as a single offline app file. Derived from one family's
 391-page SHTF binder after a full fact-check and fix pass (November 2026).
 
-**Status: design phase.** Nothing here generates a binder yet. The documents in `docs/` are the
-decisions and specifications to react to before any page is re-authored.
+**Status: built and AI-reviewed; not yet deployed.** See `docs/11-status.md` for what exists, how to
+run the tests, the owner's go-live steps and the open items.
 
 ## What it is, in one paragraph
 
