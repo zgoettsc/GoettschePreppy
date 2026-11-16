@@ -51,7 +51,7 @@ ponds, but stored drinking water is covered too.
    stops algae), keeps debris out, and **stops mosquitoes laying eggs**.
 2. **Treat the pool as utility water**, not drinking water. You cannot keep a pool swimming-
    clear without power, so don't try. Keep it usable for flushing, washing and firefighting,
-   kill the mosquito larvae, and **distil the small amount you drink** (→ 03-03). Drinking
+   keep the cover on against mosquitoes, and **distil the small amount you drink** (→ 03-03). Drinking
    fresh pool water any other way is a household decision: {{choice DC-13}} (→ 30-14).
 3. **Kill mosquito larvae** in standing water you will **not** drink, with **Bti "mosquito
    dunks" or "bits"**. EPA has judged that Bti does not pose a risk to people. CDC says to use
@@ -124,7 +124,7 @@ the product label for your pool's gallons and confirm with the test kit, because
 vary.
 
 **Reality check:** keeping a whole pool chlorinated for months uses a lot of chemical. It is
-usually better to **cover, use Bti and distil what you drink**, and spend chlorine only where
+usually better to **cover it and distil what you drink**, and spend chlorine only where
 it is worth it.
 
 ### 3. Kill the mosquitoes (always, in warm months)

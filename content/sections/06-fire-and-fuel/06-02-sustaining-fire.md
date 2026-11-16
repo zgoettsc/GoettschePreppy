@@ -2,7 +2,7 @@
 id: 06-02-sustaining-fire
 section: 06-fire-and-fuel
 title: "Sustaining and banking a fire"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -10,8 +10,10 @@ phase: [A, B, C]
 tags: [fire, banking, coals, ashes, efficiency, ash bucket, children]
 derived_from: [06-02-sustaining-fire]
 sources:
-  - us-epa-burn-wise-heating-with-wood-safe-operation-se-ba0e76
   - university-of-missouri-extension-wood-fuel-for-heati-b63761
+  - epa-burn-wise-best-wood-burning-practices-0c1680
+  - u-s-fire-administration-fema-fireplace-and-wood-stov-851c8d
+  - chimney-safety-institute-of-america-csia-preventing-73b734
 related:
   - 06-01-fire-starting
   - 06-03-firewood-basics
@@ -34,7 +36,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Removed unsourced banking hours, rocket-stove percentages and 'double the woodpile'; ash rule per USFA 10 ft; fireplace 10 percent efficiency and BTU per lb per MU G5450." }
 ---
 
 # Sustaining and banking a fire
@@ -44,9 +46,9 @@ saves matches, lighters, kindling and time. This page covers how to keep a fire 
 "bank" it so it survives the night, where the wood's heat actually goes, and what to do with
 the ashes.
 
-> **CAUTION.** **Ashes stay hot for days.** Ash carried out in a paper bag or a plastic bin is
-> a classic cause of house fires. **Metal bucket with a lid, on a surface that cannot burn,
-> every time.** **Children do not have access to firearms, fuel, medications or chlorine
+> **CAUTION.** **Ashes stay hot long after the fire looks dead.** Ash carried out in a paper
+> bag or a plastic bin is a classic cause of house fires. **Metal container with a lid, outside,
+> at least 10 feet from the house, every time** (USFA, Fireplace and Wood Stove Safety). **Children do not have access to firearms, fuel, medications or chlorine
 > products.** Fixed in every source. Keep an extinguisher or water within reach of every fire
 > (→ 29-12).
 
@@ -56,7 +58,7 @@ the ashes.
    edges with ash, add a large log. In the morning the coals relight with kindling and no
    match.
 2. **Burn dry, seasoned wood only.** Wet wood wastes its energy boiling off its own water and
-   builds creosote in the chimney (EPA, Burn Wise; → 06-09).
+   builds creosote in the chimney (EPA, Best Wood-Burning Practices; CSIA; → 06-09).
 3. **One fire, many jobs.** Cook, boil water, heat stones, dry clothes and melt snow in the
    same burn (→ 06-04).
 4. **Ashes into a metal bucket with a lid.** Never paper, never plastic, never in a shed.
@@ -84,35 +86,36 @@ Banking keeps live coals overnight so you wake to a fire, not a chore.
 4. **Cover the edges with ash.** Ash insulates and slows the fire to a smoulder.
 5. In the morning, rake the ash off, expose the coals, add fine kindling and blow gently.
 
-Done well, this holds coals for **8 to 12 hours**. In a long outage, a well-banked fire can mean
-lighting one fire a week instead of one a day: a large saving in matches, lighters, tinder and
-effort.
+Done well, this holds live coals overnight. In a long outage, a fire you bank instead of
+relighting is a large saving in matches, lighters, tinder and effort.
 
 {{figure fig-banked-fire}}
 
 **In a wood stove or fireplace indoors:** a fire turned down to smoulder all night makes more
-creosote than a small hot fire (EPA, Burn Wise). Bank with dry wood, and check the chimney often
+creosote than a small hot fire; EPA says a smouldering fire is neither safe nor efficient in most
+appliances (EPA, Best Wood-Burning Practices; CSIA). Bank with dry wood, and check the chimney often
 in a season of heavy use (→ 06-09, → 08-08).
 
 ## Where the wood's heat actually goes
 
-- **An open fireplace is a poor heater.** Most of its heat goes up the chimney, and some pull
-  warm room air out of the house as they burn. Treat an open fireplace as a place to cook and
+- **An open fireplace is a poor heater.** MU Extension puts a conventional fireplace at about 10
+  percent efficiency, and some pull more warm room air out of the house than they put back (MU
+  Extension, G5450). Treat an open fireplace as a place to cook and
   boil water, with its heat as a bonus. A wood stove, with a door and an air control, heats far
   better (→ 08-08).
 - **A contained fire beats an open one for cooking.** A rocket stove (→ 07-02) does the same
-  cooking on **roughly half the wood**: 40 to 60 percent less in field and lab tests, and about
-  two-thirds less with a lid, a windscreen and a haybox (an insulated box that finishes the
-  cooking without fire).
-- **Dry wood is the cheapest efficiency there is.** Below about 20 percent moisture, far more of
-  the wood's energy reaches your pot instead of boiling off water (MU Extension, Wood Fuel for
-  Heating, G5450; → 06-03).
+  cooking on much less wood, and less again with a lid, a windscreen and a haybox (an insulated
+  box that finishes the cooking without fire).
+- **Dry wood is the cheapest efficiency there is.** MU Extension gives hardwood about 7,100 BTU
+  per pound air-dried to 20 percent moisture against about 4,900 fresh-cut: dry wood puts far more
+  of its energy into your pot instead of boiling off water (MU Extension, Wood Fuel for Heating,
+  G5450; → 06-03).
 - **Cook while the fire is already lit.** Every fire lit for one job is waste.
 
 ## Ashes: do not just throw them away
 
-- **Hot ashes go in a metal bucket with a lid**, outside, away from anything that burns, for
-  several days before you dump them.
+- **Hot ashes go in a metal bucket with a lid**, outside, at least 10 feet from the house and
+  away from anything that burns (USFA), and stay there until they are cold all the way through.
 - **Uses:** grip on icy paths, a light dressing on acid garden soil, soap-making (→ 13-09),
   scouring greasy pots, and covering each layer in a latrine (→ 13-01).
 - **Do not** put large amounts in compost, put them on acid-loving plants, or keep them near
@@ -158,8 +161,7 @@ This page is itself a way to save: what it saves is ignition (→ 06-01) and woo
   stove** for cooking.
 - Nothing here needs restocking. It is a skill, and a skill does not run out. **Practise
   banking now**, while a failure just means lighting the fire again.
-- Efficient burning, dry wood and banking together can roughly double how long a woodpile
-  lasts.
+- Efficient burning, dry wood and banking together make a woodpile last much longer.
 
 ## Phase notes
 

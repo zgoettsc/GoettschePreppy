@@ -2,7 +2,7 @@
 id: 06-01-fire-starting
 section: 06-fire-and-fuel
 title: "Starting fire reliably (multiple methods)"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -10,10 +10,12 @@ phase: [A, B, C]
 tags: [fire, ignition, tinder, matches, ferro rod, lighter, winter, burn ban, red flag warning]
 derived_from: [06-01-fire-starting]
 sources:
-  - us-epa-burn-wise-heating-with-wood-safe-operation-se-ba0e76
   - cdc-carbon-monoxide-poisoning-basics-772153
   - noaa-national-weather-service-nws-glossary-red-flag-753d33
   - us-consumer-product-safety-commission-cpsc-promotes-994cab
+  - epa-burn-wise-best-wood-burning-practices-0c1680
+  - niosh-npg-n-butane-r3
+  - u-s-fire-administration-fema-fireplace-and-wood-stov-851c8d
 related:
   - 06-02-sustaining-fire
   - 06-03-firewood-basics
@@ -39,7 +41,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Butane cold failure sourced (NIOSH NPG 31 F); Red Flag example criteria from NWS glossary; ash rule per USFA (10 ft); unsourced 'thousands of strikes' and 'hot for days' softened; EPA Burn Wise stub replaced by Best Wood-Burning Practices." }
 ---
 
 # Starting fire reliably (multiple methods)
@@ -50,7 +52,7 @@ how to build one that catches the first time, and which ways of lighting it stil
 is cold and wet.
 
 > **CAUTION.** **Never burn treated, painted or pressure-treated wood, plywood, particleboard,
-> plastics or trash**: the smoke is toxic (EPA, Burn Wise). Inside the house, fire for heat or
+> plastics or trash**: the smoke is toxic (EPA, Best Wood-Burning Practices). Inside the house, fire for heat or
 > cooking belongs only in an installed, vented fireplace or wood stove, because every flame
 > makes carbon monoxide (CO), a gas you cannot see or smell (CDC; → 29-03). **Never use
 > gasoline to start or restart a fire** (CPSC; → 29-01). **Fuel is never stored or transferred
@@ -80,7 +82,7 @@ any open fire outdoors.
 | Check | What it means |
 |---|---|
 | **Burn ban?** | Counties and states ban open burning in dry spells because the grass and brush really will carry fire. Under a ban: contained appliances only (a camp stove outdoors), no open flame. The reason holds whether or not anyone enforces it |
-| **Red Flag Warning?** | The National Weather Service's warning for **critical fire weather: strong wind plus very low humidity over dry fuels**. Each forecast office sets its own exact criteria (NWS Glossary, Red Flag Warning). **On a Red Flag day, no open fire**, no ash dumping outside and no spark-making work outdoors (→ 17-05) |
+| **Red Flag Warning?** | The National Weather Service's warning for **critical fire weather: strong wind plus very low humidity over dry fuels** (the glossary's example criteria: sustained wind of 15 mph or more and humidity of 25 percent or less, after a dry spell). Criteria vary by state and office (NWS Glossary, Red Flag Warning). **On a Red Flag day, no open fire**, no ash dumping outside and no spark-making work outdoors (→ 17-05) |
 | **Wind right now?** | Wind carries embers past any fire ring you control. Pick a wind limit before you need it, lower than the conditions that bring a Red Flag Warning, and write it here: no open fire above ______ mph |
 | **Dry-fuel season?** | Any time the grass is brown and cured, and any drought. Treat every other check one step more cautiously |
 
@@ -119,9 +121,9 @@ flame dies is the most common failure.
 
 | Method | Reliability | Notes |
 |---|---|---|
-| **Butane lighter** | High, when warm | **Fails in deep cold**: butane will not turn to gas well below freezing. Keep one in an inside pocket against your body |
+| **Butane lighter** | High, when warm | **Fails in the cold**: butane boils at 31 °F, so below freezing it barely turns to gas (NIOSH Pocket Guide, n-Butane). Keep one in an inside pocket against your body |
 | **Storm-proof or waterproof matches** | High | Work cold and wet; there are only so many. Keep them in a waterproof case with the striker |
-| **Ferrocerium ("ferro") rod** | Very high | A metal rod that throws hot sparks when scraped. Works wet and cold for thousands of strikes. **Needs good tinder** and practice |
+| **Ferrocerium ("ferro") rod** | Very high | A metal rod that throws hot sparks when scraped. Works wet and cold, for a great many strikes. **Needs good tinder** and practice |
 | **Magnifying lens** | Depends on weather | Free and unlimited, but needs bright sun, which winter often does not give |
 | **Battery and steel wool** | Good improvised method | A 9-volt battery touched to fine steel wool lights it at once. **Store them apart**: together in a drawer they are a fire hazard |
 | **Bow drill or other friction** | Low | Hard, especially in damp cold. Learn it; do not rely on it |
@@ -159,13 +161,13 @@ out. Build up, not down.
 |---|---|---|
 | Lighters, a bag of them | Easiest method; cheap; good barter | Keep some on your body in winter |
 | Storm-proof matches and a waterproof case | Work when lighters fail | Include the striker |
-| Large ferrocerium rod and striker | Thousands of lights | Practise **before** you need it |
+| Large ferrocerium rod and striker | A great many lights | Practise **before** you need it |
 | Commercial tinder or fire-starter cubes | Work wet, cold, one-handed | Cheap; keep plenty |
 | Fatwood | Natural, keeps indefinitely, lights damp | |
 | Dry kindling stored inside | The real bottleneck | Restock before every storm |
 | Hatchet and knife | Dry wood is **inside** wet wood: split it to reach it | → 16-01, → 16-02 |
 | Fire extinguisher and a bucket of water | Things go wrong | Beside the fire, not behind it (→ 29-12) |
-| Metal ash bucket with a lid | **Ashes stay hot for days** and start house fires | Never a cardboard box or plastic bin (→ 06-02) |
+| Metal ash bucket with a lid | **Hot ashes start house fires.** USFA: metal container with a lid, outside, at least 10 feet from the house | Never a cardboard box or plastic bin (→ 06-02) |
 
 **If you do not have it:**
 
@@ -176,7 +178,7 @@ out. Build up, not down.
 
 ## When it runs out
 
-- **Count** lighters and matches. A ferro rod lasts for thousands of strikes, which is why it
+- **Count** lighters and matches. A ferro rod lasts for a great many strikes, which is why it
   belongs in every kit: it turns something you use up into something that lasts.
 - **Use one lighter until it is empty** rather than starting several.
 - **Keep a fire going rather than relighting it** (→ 06-02). Banked coals save lighters,
