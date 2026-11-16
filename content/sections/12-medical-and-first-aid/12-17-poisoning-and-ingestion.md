@@ -49,15 +49,15 @@ care is out of reach it is almost the whole defence.
 
 > **SAFETY**
 > - **While phones work, Poison Control at 1-800-222-1222 is the first call, every time.** Free,
->   24/7, and better than any page. **This page is for when that number cannot be reached.**
+>   confidential, 24 hours a day, 7 days a week (MedlinePlus), and better than any page. **This page is for when that number cannot be reached.**
 > - **Do not make anyone vomit. Do not try to neutralise. Nothing by mouth to anyone drowsy,
 >   seizing or unconscious.**
 > - **A swallowed button battery is a surgical emergency.**
-> - **Children do not have access to firearms, fuel, medicines or chlorine products.** This is a
->   floor (→ 30-01). A house stocked for a long emergency, with medicines, fuels, bleach, lye and
+> - **Children do not have access to firearms, fuel, medications or chlorine products.** This
+>   is a floor (→ 30-01). A house stocked for a long emergency, with medicines, fuels, bleach, lye and
 >   pool chemicals, plus a curious toddler, is the most predictable poisoning in this binder.
-> - **Never mix bleach or pool shock with ammonia, acids or other cleaners.** It makes chlorine
->   gas. Also a floor (→ 30-01).
+> - **Bleach or pool shock is never mixed with ammonia, acids or other cleaners.** It makes
+>   chlorine gas. Also a floor (→ 30-01).
 
 ## Do this now: someone swallowed something
 
@@ -114,8 +114,8 @@ Prevention).
    mouth. Write down the time, substance and amount; you will not remember.
 
 **Do not:**
-- **Do not make them vomit.** Not salt water, not fingers, not syrup of ipecac (no longer
-  recommended by the AAP). Corrosives burn twice on the way back up, and fuels and oils (**lamp
+- **Do not make them vomit.** Not salt water, not fingers, not syrup of ipecac (the AAP says
+  do not use it). Corrosives burn twice on the way back up, and fuels and oils (**lamp
   oil, kerosene, gasoline**) can be breathed into the lungs while vomiting. That is what kills
   in fuel swallowing, not the swallow itself.
 - **Do not give activated charcoal on your own.** It is not a home remedy, it is wrong for many
@@ -125,43 +125,46 @@ Prevention).
   to a chemical burn.
 - **Nothing by mouth to someone drowsy, seizing or unconscious.**
 - **Do not let "they seem fine" end the watch.** Several common poisons (acetaminophen above all)
-  feel fine for a day while doing deadly damage. "Fine now" is information, not a verdict.
+  can seem fine at first while doing deadly damage. "Fine now" is information, not a verdict.
 
 ## By route
 
 | Route | What to do |
 |---|---|
 | **Swallowed** | Spit out or remove what remains. Do not cause vomiting. Follow the label. A few sips of water to clear the mouth **only if fully awake and able to swallow** |
-| **On the skin** | **Dry powder or granules (pool shock, lye, garden lime): brush off every visible grain first** with a gloved hand or dry cloth, **take off the dusted clothing, then flush for 20 minutes**; a little water on a pile of dry chemical concentrates the heat on the skin (MedlinePlus, Chemical burn or reaction). **Liquids: flush at once.** Remove contaminated clothing, protecting your own hands. **Rinse under running water for 15 to 20 minutes**, timed, not a splash. Then treat any burn (→ 12-03) |
-| **In the eye** | **Flush with clean lukewarm water for 15 to 20 minutes**, eyelid held open, water running from the nose side outward so it does not wash into the other eye. Do not rub; do not neutralise (→ 12-03) |
+| **On the skin** | **Dry powder or granules (pool shock, lye, garden lime): brush off every visible grain first** with a gloved hand or dry cloth, **take off the dusted clothing, then flush**; a little water on a pile of dry chemical concentrates the heat on the skin (MedlinePlus, Chemical burn or reaction). **Liquids: flush at once.** Remove contaminated clothing, protecting your own hands. **Rinse under cool running water for at least 15 minutes** (MedlinePlus), timed, not a splash. Then treat any burn (→ 12-03) |
+| **In the eye** | **Flush with clean water for at least 15 minutes** (MedlinePlus); **lye or another strong alkali, at least 30 minutes** (CDC/ATSDR, Sodium Hydroxide). Eyelid held open, water running from the nose side outward so it does not wash into the other eye. Do not rub; do not neutralise (→ 12-03) |
 | **Breathed in** | **Fresh air at once.** Get them out and get yourself out; do not become the second casualty (the carbon monoxide rule, → 08-02, → 29-03). Loosen clothing; recovery position if drowsy |
 
 ## Special cases
 
 - **Button batteries: the true emergency.** A swallowed button battery can burn through the food
-  pipe **in as little as 2 hours.** It is a surgical emergency and there is no home treatment.
+  pipe **in as little as 2 hours** (National Capital Poison Center). It is a surgical emergency and there is no home treatment.
   The National Capital Poison Center's guideline (Button Battery Ingestion Triage and Treatment
-  Guideline) adds one measure while you move toward care: **for a child 12 months or older, 2
-  teaspoons of honey every 10 minutes, up to 6 doses.** It slows the burn; it does not stop it.
+  Guideline) adds one measure while you move toward care: **for a child 12 months or older,
+  swallowed within the last 12 hours, 10 mL (2 teaspoons) of honey every 10 minutes, up to 6
+  doses.** It slows the burn; it does not stop it.
   **Not under 12 months** (infant botulism), nothing else by mouth, do not cause vomiting. With
   no surgery reachable, prevention is the **entire** defence.
 - **Fuels and oils (lamp oil, kerosene, gasoline, torch fuel).** The classic toddler poisoning in
-  an off-grid house: lamp oil looks like juice. Never cause vomiting. Watch breathing for 24
-  hours; coughing, choking or fast breathing right after the swallow means it went into the
-  lungs. Store lamp fuel like the poison it is (→ 10-02, → 06-06, → 29-01).
+  an off-grid house: lamp oil looks like juice. Never cause vomiting. **Watch the breathing
+  closely for many hours, through the night.** Coughing or grunting breathing, shortness of
+  breath, or a fuel smell on the breath means some went into the lungs (MedlinePlus,
+  Hydrocarbon pneumonia): move toward care. Store lamp fuel like the poison it is (→ 10-02, → 06-06, → 29-01).
 - **Corrosives (lye from soap-making, drain cleaner, pool chemicals).** Burn on contact. Wipe out
   or spit out what remains, small sips of water only if fully alert, **no vomiting, no
-  neutralising.** Skin and eyes: the 15 to 20 minute flush. Pool chemicals mixed with other
+  neutralising.** Skin and eyes: the flush above, at least 15 minutes, and at least 30 for lye in
+  the eye. Pool chemicals mixed with other
   products make dangerous gas: the "breathed in" row (→ 29-05, → 06-06).
 - **Medicines.** A stocked medicine cabinet (→ 12-07) is the biggest target in the house.
   **Acetaminophen is the deadliest common one**, precisely because the child looks fine
   afterwards. Note the substance, strength and worst-case count ("the bottle held up to ___"),
   keep the bottle, and treat any uncertain swallow as the real thing.
 - **Iron tablets and prenatal vitamins.** **Treat any swallow as serious and move toward care.**
-  Adult iron tablets look like sweets, a small number can kill a toddler, and iron was for years
-  a leading cause of childhood poisoning deaths in the US (AAP, Poison Prevention). **The trap:
-  vomiting and diarrhoea, then an apparent recovery, then collapse a day later** (MedlinePlus,
-  Iron overdose). Count the tablets missing; keep the bottle.
+  Iron overdose is particularly dangerous for children, and adult iron pills and prenatal
+  vitamins can look like candy (MedlinePlus, Iron overdose). **The trap: vomiting and
+  diarrhoea, then symptoms that go away in a few hours and return after a day or later**
+  (MedlinePlus); liver damage can follow days later. Count the tablets missing; keep the bottle.
 - **Bismuth subsalicylate (pink stomach-relief chewables).** They are a **salicylate**, aspirin's
   family: a toddler who eats a handful has an aspirin overdose (fast breathing, vomiting, ringing
   ears, drowsiness). Count the tablets missing, keep the bottle, move toward care if the count is

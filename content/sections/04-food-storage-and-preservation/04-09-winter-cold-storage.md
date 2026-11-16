@@ -11,6 +11,7 @@ tags: [food, winter, cold storage, freezer, outdoor storage, thermometer, insuli
 derived_from: [04-09-winter-cold-storage]
 sources:
   - national-center-for-home-food-preservation-nchfp-fre-57818c
+  - nchfp-freezer-management-r12
   - foodsafety-gov-usda-hhs-food-safety-during-a-power-o-3894c1
   - foodsafety-gov-usda-hhs-cook-to-a-safe-minimum-inter-13daf3
   - us-fda-information-regarding-insulin-storage-and-swi-6448d3
@@ -48,8 +49,9 @@ that safely, and says plainly where and when it does **not** work.
 1. **Put a thermometer wherever you store food in the cold.** A min/max thermometer (one that
    remembers the highest and lowest reading) tells you what actually happened at midday and
    overnight.
-2. **Keep food at 40 °F or below at all times,** and at 0 °F or below if you are treating it as
-   frozen (FoodSafety.gov; NCHFP, Freezing Foods).
+2. **Keep food at 40 °F or below at all times** (FoodSafety.gov), and at 0 °F or below if you
+   are treating it as frozen: above that, frozen food loses quality much faster (NCHFP, Freezer
+   Management).
 3. **Store it in the shade, on the north side,** off the ground and out of the sun.
 4. **Protect it from animals:** dogs, cats, raccoons, bears and rodents will find it.
 5. **Throw out perishable food that has been above 40 °F for 2 hours or more** (→ 04-17).

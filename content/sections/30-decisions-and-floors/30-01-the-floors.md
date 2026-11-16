@@ -176,16 +176,19 @@ plant plates for your region. → 05-06.
 
 **Fuel is never stored or transferred near an open flame or a running appliance.**
 
-**Why there is no choice.** Gasoline gives off vapour even in cold weather (→ 29-01). The
-vapour is heavier than air. It flows along the floor, collects in low spots and lights from a
-pilot flame, a furnace igniter, a spark or a hot engine across the room (CDC/ATSDR, ToxFAQs for
-Automotive Gasoline). The flash reaches back to the can in an instant. CPSC has recorded
-deaths and severe burns from fuel cans flashing near a flame (CPSC, Fuel Container Safety,
-2023). Propane does the same thing: it is heavier than air and pools.
+**Why there is no choice.** Gasoline gives off vapour that can burn even in deep cold: its
+flash point is −45 °F (NIOSH Pocket Guide, Gasoline; → 29-01). The vapour is heavier than air
+and can travel along the floor to an ignition source (Maryland Department of the Environment,
+Gasoline Safety): a pilot flame, a furnace igniter, a spark or a hot engine across the room.
+CPSC warns that vapour escaping a fuel can that meets a spark or flame can ignite and flash back
+into the container, causing an explosion that can severely burn those nearby (CPSC, Fuel
+Container Safety, 2023). Propane does the same thing: it is heavier than air and settles low
+(Flame King, Training Program 1A).
 
 **Do this instead.** Pour and refill outdoors, away from any flame, with engines and heaters
-turned off and cool. Store fuel away from water heaters, furnaces, heaters and anything that
-sparks. Where your household stores it is a decision card (→ 30-06). → 06-06, → 06-07.
+turned off and cool. Store fuel away from water heaters, furnaces, space heaters and anything
+that sparks (Maryland Department of the Environment). Where your household stores it is a
+decision card (→ 30-06). → 06-06, → 06-07.
 
 ## 7. Frozen insulin is thrown away
 

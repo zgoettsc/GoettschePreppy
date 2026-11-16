@@ -76,8 +76,8 @@ about what the household does when nobody will come.
 - If an appliance valve or a gas line is left open when the gas comes back, gas flows out into the
   room (Propane Education & Research Council).
 - "Some gas is heavier than air and will settle on the floor", which is why the label says to
-  smell next to the floor before lighting (A. O. Smith label). Propane is that gas (→ 29-01), and
-  the pilot sits low on most water heaters and furnaces.
+  smell next to the floor before lighting (A. O. Smith label). Propane is that kind of gas
+  (→ 29-01).
 - A gas control that has been under water, or damaged, may not shut properly and must be replaced,
   not relit (A. O. Smith label; Railroad Commission of Texas).
 - A relit appliance with a hidden problem, such as a badly adjusted burner or a blocked chimney,

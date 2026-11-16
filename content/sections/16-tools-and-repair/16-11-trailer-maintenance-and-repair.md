@@ -2,7 +2,7 @@
 id: 16-11-trailer-maintenance-and-repair
 section: 16-tools-and-repair
 title: "Trailer maintenance and repair"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: gear
 danger_level: critical
@@ -10,10 +10,8 @@ phase: [A, B, C]
 tags: [trailer, towing, wheel bearings, hot hub, ST tires, tire date code, trailer lights, coupler, safety chains, pre-tow walkaround, tongue weight]
 derived_from: [16-11-trailer-maintenance-and-repair]
 sources:
-  - nhtsa-us-department-of-transportation-trailer-safety-807982
-  - nhtsa-us-department-of-transportation-tirewise-tire-ebb0d0
-  - dexter-axle-trailer-axle-operation-maintenance-and-s-4cf250
-  - etrailer-com-trailer-bearings-inspection-repacking-a-d87cef
+  - dexter-axle-oms-manual-lit-001-00-r13
+  - lii-49-cfr-574-5-tire-identification-r13
 related: [16-10-tire-failures-roadside, 16-07-fasteners-and-hardware, 16-03-knots-and-cordage, 22-05-kit-vehicle, 01-03-phase-b-movement, 01-05-choosing-a-destination, 17-01-blizzards-and-ice, 23-04-resource-lifecycles, 26-08-expiry-and-rotation-tracker, 26-09-shopping-list-and-budget, 30-07-dc06-fuel-in-passenger-vehicle]
 cards: [DC-06]
 explainers: [EX-14]
@@ -27,7 +25,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Dexter manual (LIT-001-00) read: 12 months/12,000 miles, re-torque at 10/25/50 miles, slow hand-gun greasing; NHTSA tongue-weight percent removed as on 01-03; unsourced P-tire 10 %, tire-age 5-6 yr and etrailer/NHTSA attributions removed; DOT date code per 49 CFR 574.5." }
 ---
 
 # Trailer maintenance and repair
@@ -44,10 +42,11 @@ anything.{{/if}}
 
 > **SAFETY. A wheel bearing that fails at highway speed can lock the wheel, throw it off, or start a
 > fire.** Most small trailers have **one axle: no second axle to limp on.** The two checks that
-> prevent this are the bearing service (yearly) and the **hot-hub check at every stop** (below).
+> prevent this are the bearing service (every 12 months or 12,000 miles; Dexter Axle) and the
+> **hot-hub check at every stop** (below).
 >
 > **Never tow with an unlatched or unpinned coupler, or without both safety chains crossed under
-> the tongue** (NHTSA, Trailer Safety). A trailer that comes loose crosses into oncoming traffic.
+> the tongue.** A trailer that comes loose crosses into oncoming traffic.
 >
 > **Never let anyone ride in a trailer.**
 >
@@ -69,7 +68,7 @@ anything.{{/if}}
 {{photo trailer-hubs}}
 
 4. **Buy a mounted spare** (a trailer tire on a wheel with the right bolt pattern, plus a carrier or
-   strap point) (→ 26-09). It turns a tire failure from abandoning the trailer into a 20-minute
+   strap point) (→ 26-09). It turns a tire failure from abandoning the trailer into a short
    delay.
 5. **Buy a grease gun, a tube of marine wheel-bearing grease, and dielectric grease** (a
    non-conducting grease that keeps water out of electrical plugs). None can be improvised later.
@@ -78,7 +77,7 @@ anything.{{/if}}
 
 {{figure fig-trailer-hitch-checks}}
 
-These checks follow NHTSA's trailer safety guidance (NHTSA, Trailer Safety).
+Your trailer's and vehicle's manuals govern; these are the checks that catch the common failures.
 
 ```
 [ ] COUPLER fully down on the ball, LATCH CLOSED and PINNED or
@@ -94,13 +93,15 @@ These checks follow NHTSA's trailer safety guidance (NHTSA, Trailer Safety).
     moving.
 [ ] TIRES at the MAXIMUM pressure printed on the trailer tire's
     sidewall, checked COLD. Look for cracks, bulges, wear.
-[ ] LUG NUTS: check snug with a wrench, in a star pattern. Re-tighten
-    after the first ~50 miles on any wheel that has been off; lug
-    nuts loosen as they seat.
+[ ] LUG NUTS: check snug with a wrench, in a star pattern. On new
+    axles and any wheel that has been off, Dexter says re-torque
+    after the first 10, 25 and 50 miles; lug nuts loosen as they
+    seat.
 [ ] LOAD: heavy items forward, over or slightly ahead of the axle,
-    so roughly 10 to 12 percent of the loaded trailer's weight
-    presses down on the hitch ("tongue weight"). Too little makes
-    the trailer sway. Everything strapped (01-03).
+    so part of the load presses down on the hitch ("tongue
+    weight"), within your vehicle's tongue-weight limit (owner's
+    manual). Too little makes the trailer sway. Everything
+    strapped (01-03).
 [ ] DOOR or gate latched. Anything on the roof or tongue secured.
 ```
 
@@ -127,11 +128,11 @@ fitted, and the axle nut set to the maker's specification, snug and then backed 
 forced tight. **Learn this once beside someone who has done it before doing it alone.**
 
 **Grease fittings ("easy-lube" hubs).** Some hubs have a grease fitting in the end of the axle so a
-grease gun can push fresh grease through. If yours do: jack the wheel up and turn it slowly while
-pumping slowly, until fresh grease appears at the cap. **That is a top-up between repacks, not a
-replacement for them**: it cannot inspect the bearings, and pumping too fast can burst the rear
-seal and push grease onto brakes (etrailer, Trailer Bearings). No fitting means no shortcut:
-repack or nothing.
+grease gun can push fresh grease through. If yours do: jack the wheel up and turn it while pumping
+**slowly** with a hand grease gun, until clean new grease appears at the cap (Dexter Axle). Dexter
+warns that powered grease guns can push grease past the seal; on hubs with brakes, grease past the
+seal can reach the brake linings. **A top-up is not a replacement for the repack**: it cannot
+inspect the bearings. No fitting means no shortcut: repack or nothing.
 
 **The hot-hub check: every stop, every time.**
 
@@ -153,15 +154,17 @@ do the hot-hub check.**
 ## Trailer tires: different rules from the car's
 
 - **Trailer tires are marked "ST"** (special trailer). They are built stiff for towing, not for
-  grip. **A light-truck ("LT") tire of the same or higher load rating is an accepted substitute.**
-  A passenger-car ("P") tire is a last resort only, carrying about 10 percent less, because its
-  soft sidewalls flex, overheat and encourage sway.
+  grip. Replace like with like, at the same or higher load rating molded on the sidewall. A
+  light-truck ("LT") tire is the usual stand-in; a passenger-car ("P") tire is a last resort,
+  because its softer sidewalls flex and overheat under a trailer load. Read the load rating on any
+  substitute before it goes on.
 - **Pressure is the MAXIMUM printed on the sidewall, cold.** That is the opposite of a car, which
   uses its door placard (→ 16-10). Under-inflated trailer tires overheat and blow out.
-- **Trailer tires age out at roughly 5 to 6 years even with good tread.** Trailers sit, and sun
-  kills sidewalls from inside. **Read the date code:** the last four digits of the "DOT" code on the
-  sidewall are the week and year it was made ("3921" means week 39 of 2021; → 29-14). A used trailer
-  often arrives with tires many years old that look new. **Check the date, not the tread.**
+- **Trailer tires age out even with good tread.** Trailers sit, and sun and time harden and crack
+  the rubber. **Read the date code:** the last four digits of the "DOT" code on the sidewall are the
+  week and year it was made (49 CFR 574.5; "3921" means week 39 of 2021; → 29-14). A used trailer
+  often arrives with tires many years old that look new. **Check the date as well as the tread**, and
+  ask a tire shop while one exists how old is too old for your tires.
 - **Cracks in the sidewall, bulges, or an old date mean replace before the first long tow**, not
   after.
 
