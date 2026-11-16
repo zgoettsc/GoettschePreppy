@@ -115,6 +115,9 @@ export function toProfile(opts = {}) {
 
   const out = clean(d) || {};
   out.schema_version = 1;
+  // keep the required objects even when empty, so validation names each missing answer
+  out.home ??= {};
+  out.dwelling ??= {};
   out.decision_cards = cards; // always present, even if every card is undecided
   if (out.access) {
     if (opts.includeKey === false) delete out.access.access_key;

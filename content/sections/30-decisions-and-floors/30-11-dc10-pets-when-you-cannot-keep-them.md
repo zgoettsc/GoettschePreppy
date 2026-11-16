@@ -12,7 +12,7 @@ derived_from: [02-09-pet-care-cats]
 sources:
   - ready-gov-fema-pets-and-animals
   - avma-guidelines-for-the-euthanasia-of-animals-2020
-  - cdc-how-to-create-and-store-an-emergency-water-supply-f0c412
+  - cdc-how-to-create-and-store-an-emergency-water-suppl-f0c412
 related: [20-09-pets, 01-02-go-no-go-decision, 01-03-phase-b-movement, 03-01-daily-water-needs, 21-03-grief-and-trauma, 20-08-kids-and-fear]
 cards: [DC-10]
 explainers: []

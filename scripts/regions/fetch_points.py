@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
 """Per-county point queries, cached under build/regions-raw/api/ (re-runs only fill gaps).
 
-    python3 scripts/regions/fetch_points.py [epqs] [power] [acis]
+    python3 scripts/regions/fetch_points.py [epqs] [power] [acis] [gridelev]
 
 - epqs:  USGS 3D Elevation Program, Elevation Point Query Service: ground elevation (ft) at each
          county's Census internal point.
 - power: NASA POWER climatology (2001-2025), solar irradiance on a south-facing panel tilted at
          the site latitude and on a horizontal surface, kWh/m2/day (= peak sun hours), one query
          per 1-degree cell (the native resolution of the source) containing a county point.
+- gridelev: fallback elevation where USGS has not answered: the PRISM 4-km grid-cell elevation
+         served by ACIS GridData (contiguous states only).
 - acis:  NOAA Regional Climate Centers' ACIS: period-of-record extreme daily low and high for every
          climate station that build.py selected (reads build/regions-raw/api/acis_wanted.json).
 """
@@ -83,6 +85,27 @@ def run_epqs():
     print('epqs done; missing', sum(1 for v in c.d.values() if v is None))
 
 
+def run_gridelev():
+    """Fallback elevation (ft): PRISM 4-km grid-cell elevation from ACIS GridData (CONUS only)."""
+    c = Cache('gridelev.json')
+    todo = [(f, la, lo) for f, la, lo in counties() if f not in c.d and f[:2] not in ('02', '15')]
+
+    def one(t):
+        f, la, lo = t
+        j = get('https://data.rcc-acis.org/GridData', {'loc': f'{lo},{la}', 'grid': '21', 'sdate': '2020-01-01',
+                                                      'edate': '2020-01-01', 'elems': 'maxt', 'meta': 'll,elev'}, timeout=60)
+        try:
+            return f, float(j['meta']['elev'])
+        except Exception:
+            return f, None
+    with ThreadPoolExecutor(8) as ex:
+        for i, (f, v) in enumerate(ex.map(one, todo)):
+            c.d[f] = v
+            if i % 500 == 0:
+                c.save(); print('gridelev', i, '/', len(todo), flush=True)
+    c.save()
+
+
 def cell(la, lo):
     return math.floor(la) + 0.5, math.floor(lo) + 0.5
 
@@ -147,4 +170,4 @@ if __name__ == '__main__':
     os.makedirs(API, exist_ok=True)
     what = sys.argv[1:] or ['epqs', 'power', 'acis']
     for w in what:
-        {'epqs': run_epqs, 'power': run_power, 'acis': run_acis}[w]()
+        {'epqs': run_epqs, 'power': run_power, 'acis': run_acis, 'gridelev': run_gridelev}[w]()

@@ -24,7 +24,7 @@ options:
     label: "Never on our property"
     summary: "No shots fired on or from the property for practice, pests or sighting in. Practice is dry (unloaded) at home; pests are trapped; live fire happens only at a proper range or open land with a real backstop elsewhere."
   - id: with-backstop-rule
-    label: "Only into a known backstop, nobody downrange, neighbours told"
+    label: "Only into a known backstop, nobody downrange"
     summary: "Shots only into an earth bank or backstop that will stop that ammunition, never toward a house, road or path, never at a target above the horizon, never at night, nobody downrange, neighbours told beforehand."
 settings_summary: "In a long emergency, ranges close, and households may want to practise, sight in a rifle or deal with pests at home. Every firearms safety rule says be sure of your target and what is beyond it: a bullet that misses or passes through keeps going, far past any yard or rural lot, and can ricochet off water, rock or frozen ground. In town, what is beyond is a neighbour's house. Shots also tell everyone nearby that the house is armed and occupied, and damage hearing. What helps most: no live fire at home, dry practice and traps instead (removes it); only into a solid earth backstop, never toward houses or roads, never at a target above the horizon, nobody downrange, neighbours told (reduces it a lot)."
 review_pass: null

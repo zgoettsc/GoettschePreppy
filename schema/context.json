@@ -210,7 +210,8 @@
     "strength",
     "schedule",
     "refrigerated",
-    "if_missed"
+    "if_missed",
+    "days_on_hand"
    ],
    "description": "All medication rows across members, as typed."
   },
@@ -308,6 +309,118 @@
     "same"
    ],
    "description": "Home NOAA Weather Radio transmitters."
+  },
+  "adults": {
+   "fields": [
+    "label",
+    "role",
+    "age_text",
+    "age_months",
+    "weight_text",
+    "sex",
+    "pregnant_or_nursing",
+    "conditions",
+    "allergies",
+    "meds",
+    "skills"
+   ],
+   "description": "Members whose role is adult or elder. Same fields as members."
+  },
+  "children": {
+   "fields": [
+    "label",
+    "role",
+    "age_text",
+    "age_months",
+    "weight_text",
+    "sex",
+    "pregnant_or_nursing",
+    "conditions",
+    "allergies",
+    "meds",
+    "skills"
+   ],
+   "description": "Members under 13 (child or infant-toddler). Same fields as members."
+  },
+  "infants": {
+   "fields": [
+    "label",
+    "role",
+    "age_text",
+    "age_months",
+    "weight_text",
+    "sex",
+    "pregnant_or_nursing",
+    "conditions",
+    "allergies",
+    "meds",
+    "skills"
+   ],
+   "description": "Members under 24 months. Same fields as members."
+  },
+  "teens": {
+   "fields": [
+    "label",
+    "role",
+    "age_text",
+    "age_months",
+    "weight_text",
+    "sex",
+    "pregnant_or_nursing",
+    "conditions",
+    "allergies",
+    "meds",
+    "skills"
+   ],
+   "description": "Members 13 to 17. Same fields as members."
+  },
+  "elders": {
+   "fields": [
+    "label",
+    "role",
+    "age_text",
+    "age_months",
+    "weight_text",
+    "sex",
+    "pregnant_or_nursing",
+    "conditions",
+    "allergies",
+    "meds",
+    "skills"
+   ],
+   "description": "Members over 70 or role elder. Same fields as members."
+  },
+  "refrigerated_meds": {
+   "fields": [
+    "member",
+    "name",
+    "strength",
+    "schedule",
+    "refrigerated",
+    "if_missed",
+    "days_on_hand"
+   ],
+   "description": "Meds rows with refrigerated true."
+  },
+  "agreed_destinations": {
+   "fields": [
+    "name",
+    "state_name",
+    "county",
+    "status_text",
+    "who_is_there",
+    "how_to_reach_them",
+    "route_notes",
+    "approximate_miles",
+    "region"
+   ],
+   "description": "Destinations with status agreed."
   }
+ },
+ "formatting": {
+  "arrays": "Rendered as a readable comma list (\"a, b and c\").",
+  "booleans": "Rendered as \"yes\" / \"no\".",
+  "numbers": "Rendered with thousands separators; derived values carry the rounding in their description.",
+  "missing": "Fill-in blank."
  }
 }

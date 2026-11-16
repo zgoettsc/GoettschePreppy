@@ -3,6 +3,7 @@
 
     python3 scripts/regions/fetch.py          # raw files into build/regions-raw/ (cached)
     python3 scripts/regions/build.py          # runs the per-county API pulls it needs, then writes data/regions/
+    python3 scripts/regions/build.py --skip=epqs   # use cached answers only for the named pulls
 
 Outputs (all JSON, keyed by 5-digit county FIPS or 2-letter state code; formats in notes/workers/D1.md):
     data/regions/counties.json         context-ready region object per county (schema/context.json region.*)
@@ -225,9 +226,21 @@ def main():
 
     # --- per-county point pulls (cached) -------------------------------------------------------
     os.makedirs(API, exist_ok=True)
-    fetch_points.run_epqs()
-    fetch_points.run_power()
-    epqs = json.load(open(os.path.join(API, 'epqs.json')))
+    skip = set(','.join(a[7:] for a in sys.argv[1:] if a.startswith('--skip=')).split(','))
+    if 'epqs' not in skip:
+        fetch_points.run_epqs()
+    if 'gridelev' not in skip:
+        fetch_points.run_gridelev()
+    if 'power' not in skip:
+        fetch_points.run_power()
+    epqs_raw = json.load(open(os.path.join(API, 'epqs.json')))
+    gridelev = json.load(open(os.path.join(API, 'gridelev.json')))
+    epqs, elev_src = {}, {}
+    for f in counties:
+        if epqs_raw.get(f) is not None:
+            epqs[f], elev_src[f] = epqs_raw[f], 'USGS 3DEP point'
+        elif gridelev.get(f) is not None:
+            epqs[f], elev_src[f] = gridelev[f], 'PRISM 4-km grid cell (ACIS)'
     power = json.load(open(os.path.join(API, 'power.json')))
 
     # --- normals and station choice --------------------------------------------------------------
@@ -243,7 +256,8 @@ def main():
         pick[f] = p
         wanted.update(s for s, _, _ in p['temp'])
     json.dump(sorted(wanted), open(os.path.join(API, 'acis_wanted.json'), 'w'))
-    fetch_points.run_acis()
+    if 'acis' not in skip:
+        fetch_points.run_acis()
     acis = json.load(open(os.path.join(API, 'acis.json')))
 
     # --- hardiness zone grids --------------------------------------------------------------------
@@ -317,7 +331,8 @@ def main():
         st = c['state']
         lat, lon = c['lat'], c['lon']
         el_ft = epqs.get(f)
-        d = {'fips': f, 'state': st, 'lat': lat, 'lon': lon, 'point': 'Census 2024 internal point'}
+        d = {'fips': f, 'state': st, 'lat': lat, 'lon': lon, 'point': 'Census 2024 internal point',
+             'elevation_source': elev_src.get(f)}
 
         # climate
         p = pick[f]
