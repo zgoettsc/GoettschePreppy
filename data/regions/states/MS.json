@@ -1,0 +1,4923 @@
+{
+ "state": "MS",
+ "state_name": "Mississippi",
+ "state_fips": "28",
+ "state_em": "Mississippi Emergency Management Agency",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "JAN": "NWS Jackson, MS",
+  "LIX": "NWS New Orleans, LA",
+  "MEG": "NWS Memphis, TN",
+  "MOB": "NWS Mobile, AL"
+ },
+ "ecoregions": [
+  "Southeastern Plains",
+  "Mississippi Alluvial Plain",
+  "Mississippi Valley Loess Plains",
+  "Southern Coastal Plain"
+ ],
+ "counties": {
+  "Adams County": {
+   "fips": "28001",
+   "centroid": [
+    31.4862,
+    -91.3518
+   ],
+   "latitude": 31.5,
+   "bbox": [
+    -91.6549,
+    31.1902,
+    -91.1535,
+    31.75
+   ],
+   "coastal": false,
+   "elevation_ft": 300,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 90,
+   "record_low_f": 4,
+   "record_high_f": 105,
+   "precip_in": 60.1,
+   "snow_in": 0,
+   "last_frost": "Mar 16",
+   "first_frost": "Nov 9",
+   "growing_days": 237,
+   "ecoregion": "Mississippi Valley Loess Plains",
+   "ecoregion_code": "74",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "KIH48",
+     "freq": "162.550",
+     "same": "028001"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.5
+  },
+  "Alcorn County": {
+   "fips": "28003",
+   "centroid": [
+    34.8866,
+    -88.5811
+   ],
+   "latitude": 34.9,
+   "bbox": [
+    -88.8235,
+    34.7556,
+    -88.3633,
+    34.9961
+   ],
+   "coastal": false,
+   "elevation_ft": 420,
+   "zone": "8a",
+   "jan_low_f": 30,
+   "jul_high_f": 90,
+   "record_low_f": -19,
+   "record_high_f": 111,
+   "precip_in": 58.8,
+   "snow_in": 1,
+   "last_frost": "Apr 2",
+   "first_frost": "Nov 1",
+   "growing_days": 213,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "KIH53",
+     "freq": "162.400",
+     "same": "028003"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.6
+  },
+  "Amite County": {
+   "fips": "28005",
+   "centroid": [
+    31.2039,
+    -90.7955
+   ],
+   "latitude": 31.2,
+   "bbox": [
+    -91.095,
+    30.9989,
+    -90.5476,
+    31.3497
+   ],
+   "coastal": false,
+   "elevation_ft": 370,
+   "zone": "8b",
+   "jan_low_f": 37,
+   "jul_high_f": 91,
+   "record_low_f": 3,
+   "record_high_f": 109,
+   "precip_in": 61.7,
+   "snow_in": 0,
+   "last_frost": "Mar 25",
+   "first_frost": "Nov 8",
+   "growing_days": 230,
+   "ecoregion": "Mississippi Valley Loess Plains",
+   "ecoregion_code": "74",
+   "nws_office": "New Orleans, LA",
+   "nws_cwa": "LIX",
+   "nwr": [
+    {
+     "call": "KIH48",
+     "freq": "162.550",
+     "same": "028005"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.4
+  },
+  "Attala County": {
+   "fips": "28007",
+   "centroid": [
+    33.0905,
+    -89.5886
+   ],
+   "latitude": 33.1,
+   "bbox": [
+    -89.9658,
+    32.8795,
+    -89.3165,
+    33.286
+   ],
+   "coastal": false,
+   "elevation_ft": 430,
+   "zone": "8a",
+   "jan_low_f": 33,
+   "jul_high_f": 90,
+   "record_low_f": -14,
+   "record_high_f": 109,
+   "precip_in": 62.5,
+   "snow_in": 1,
+   "last_frost": "Mar 18",
+   "first_frost": "Nov 11",
+   "growing_days": 239,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "KIH51",
+     "freq": "162.475",
+     "same": "028007"
+    },
+    {
+     "call": "KJY83",
+     "freq": "162.500",
+     "same": "028007"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.6
+  },
+  "Benton County": {
+   "fips": "28009",
+   "centroid": [
+    34.8096,
+    -89.2002
+   ],
+   "latitude": 34.8,
+   "bbox": [
+    -89.353,
+    34.5829,
+    -89.0171,
+    34.995
+   ],
+   "coastal": false,
+   "elevation_ft": 500,
+   "zone": "7b",
+   "jan_low_f": 29,
+   "jul_high_f": 89,
+   "record_low_f": -12,
+   "record_high_f": 106,
+   "precip_in": 57.0,
+   "snow_in": 2,
+   "last_frost": "Mar 29",
+   "first_frost": "Nov 6",
+   "growing_days": 224,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "KIH53",
+     "freq": "162.400",
+     "same": "028009"
+    },
+    {
+     "call": "WXK49",
+     "freq": "162.475",
+     "same": "028009"
+    },
+    {
+     "call": "KIH52",
+     "freq": "162.550",
+     "same": "028009"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.7
+  },
+  "Bolivar County": {
+   "fips": "28011",
+   "centroid": [
+    33.7991,
+    -90.8841
+   ],
+   "latitude": 33.8,
+   "bbox": [
+    -91.2325,
+    33.5292,
+    -90.6567,
+    34.1208
+   ],
+   "coastal": false,
+   "elevation_ft": 140,
+   "zone": "8b",
+   "jan_low_f": 33,
+   "jul_high_f": 92,
+   "record_low_f": -6,
+   "record_high_f": 110,
+   "precip_in": 59.3,
+   "snow_in": 2,
+   "last_frost": "Mar 14",
+   "first_frost": "Nov 15",
+   "growing_days": 248,
+   "ecoregion": "Mississippi Alluvial Plain",
+   "ecoregion_code": "73",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "KIH50",
+     "freq": "162.425",
+     "same": "028011"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.8
+  },
+  "Calhoun County": {
+   "fips": "28013",
+   "centroid": [
+    33.9366,
+    -89.3371
+   ],
+   "latitude": 33.9,
+   "bbox": [
+    -89.5102,
+    33.7216,
+    -89.1376,
+    34.1621
+   ],
+   "coastal": false,
+   "elevation_ft": 370,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 91,
+   "record_low_f": -14,
+   "record_high_f": 106,
+   "precip_in": 57.9,
+   "snow_in": 1,
+   "last_frost": "Mar 28",
+   "first_frost": "Nov 5",
+   "growing_days": 223,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "KIH51",
+     "freq": "162.475",
+     "same": "028013"
+    },
+    {
+     "call": "KIH52",
+     "freq": "162.550",
+     "same": "028013"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.6
+  },
+  "Carroll County": {
+   "fips": "28015",
+   "centroid": [
+    33.4408,
+    -89.9189
+   ],
+   "latitude": 33.4,
+   "bbox": [
+    -90.1748,
+    33.2137,
+    -89.6453,
+    33.6771
+   ],
+   "coastal": false,
+   "elevation_ft": 320,
+   "zone": "8a",
+   "jan_low_f": 35,
+   "jul_high_f": 92,
+   "record_low_f": -2,
+   "record_high_f": 106,
+   "precip_in": 51.8,
+   "snow_in": 0,
+   "last_frost": "Mar 17",
+   "first_frost": "Nov 5",
+   "growing_days": 231,
+   "ecoregion": "Mississippi Valley Loess Plains",
+   "ecoregion_code": "74",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "KIH51",
+     "freq": "162.475",
+     "same": "028015"
+    },
+    {
+     "call": "KIH50",
+     "freq": "162.425",
+     "same": "028015"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.6
+  },
+  "Chickasaw County": {
+   "fips": "28017",
+   "centroid": [
+    33.9333,
+    -88.9476
+   ],
+   "latitude": 33.9,
+   "bbox": [
+    -89.1918,
+    33.7382,
+    -88.7189,
+    34.075
+   ],
+   "coastal": false,
+   "elevation_ft": 350,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 90,
+   "record_low_f": -10,
+   "record_high_f": 109,
+   "precip_in": 59.3,
+   "snow_in": 1,
+   "last_frost": "Mar 28",
+   "first_frost": "Nov 1",
+   "growing_days": 220,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "KUT404",
+     "freq": "162.450",
+     "same": "028017"
+    },
+    {
+     "call": "KIH51",
+     "freq": "162.475",
+     "same": "028017"
+    },
+    {
+     "call": "KIH52",
+     "freq": "162.550",
+     "same": "028017"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.6
+  },
+  "Choctaw County": {
+   "fips": "28019",
+   "centroid": [
+    33.346,
+    -89.2513
+   ],
+   "latitude": 33.3,
+   "bbox": [
+    -89.454,
+    33.1089,
+    -89.0883,
+    33.5333
+   ],
+   "coastal": false,
+   "elevation_ft": 550,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 90,
+   "record_low_f": -9,
+   "record_high_f": 110,
+   "precip_in": 58.7,
+   "snow_in": 1,
+   "last_frost": "Mar 30",
+   "first_frost": "Nov 4",
+   "growing_days": 218,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "KIH51",
+     "freq": "162.475",
+     "same": "028019"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.6
+  },
+  "Claiborne County": {
+   "fips": "28021",
+   "centroid": [
+    31.9728,
+    -90.9154
+   ],
+   "latitude": 32.0,
+   "bbox": [
+    -91.2488,
+    31.7856,
+    -90.7144,
+    32.2252
+   ],
+   "coastal": false,
+   "elevation_ft": 240,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 93,
+   "record_low_f": -5,
+   "record_high_f": 107,
+   "precip_in": 56.3,
+   "snow_in": 0,
+   "last_frost": "Mar 17",
+   "first_frost": "Nov 12",
+   "growing_days": 241,
+   "ecoregion": "Mississippi Valley Loess Plains",
+   "ecoregion_code": "74",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "KIH38",
+     "freq": "162.400",
+     "same": "028021"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.4
+  },
+  "Clarke County": {
+   "fips": "28023",
+   "centroid": [
+    32.0454,
+    -88.688
+   ],
+   "latitude": 32.0,
+   "bbox": [
+    -88.9142,
+    31.8266,
+    -88.4316,
+    32.228
+   ],
+   "coastal": false,
+   "elevation_ft": 300,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 92,
+   "record_low_f": -3,
+   "record_high_f": 105,
+   "precip_in": 61.5,
+   "snow_in": 0,
+   "last_frost": "Mar 14",
+   "first_frost": "Nov 16",
+   "growing_days": 247,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "WXL72",
+     "freq": "162.475",
+     "same": "028023"
+    },
+    {
+     "call": "KIH49",
+     "freq": "162.550",
+     "same": "028023"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.5
+  },
+  "Clay County": {
+   "fips": "28025",
+   "centroid": [
+    33.6597,
+    -88.7825
+   ],
+   "latitude": 33.7,
+   "bbox": [
+    -89.0351,
+    33.5064,
+    -88.4726,
+    33.8124
+   ],
+   "coastal": false,
+   "elevation_ft": 270,
+   "zone": "8a",
+   "jan_low_f": 33,
+   "jul_high_f": 92,
+   "record_low_f": -12,
+   "record_high_f": 111,
+   "precip_in": 58.0,
+   "snow_in": 0,
+   "last_frost": "Mar 23",
+   "first_frost": "Nov 8",
+   "growing_days": 233,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "KUT404",
+     "freq": "162.450",
+     "same": "028025"
+    },
+    {
+     "call": "KIH51",
+     "freq": "162.475",
+     "same": "028025"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.6
+  },
+  "Coahoma County": {
+   "fips": "28027",
+   "centroid": [
+    34.2303,
+    -90.604
+   ],
+   "latitude": 34.2,
+   "bbox": [
+    -90.9593,
+    33.9857,
+    -90.3983,
+    34.5249
+   ],
+   "coastal": false,
+   "elevation_ft": 170,
+   "zone": "8b",
+   "jan_low_f": 32,
+   "jul_high_f": 90,
+   "record_low_f": -8,
+   "record_high_f": 109,
+   "precip_in": 55.9,
+   "snow_in": 0,
+   "last_frost": "Mar 16",
+   "first_frost": "Nov 12",
+   "growing_days": 243,
+   "ecoregion": "Mississippi Alluvial Plain",
+   "ecoregion_code": "73",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "KIH52",
+     "freq": "162.550",
+     "same": "028027"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.8
+  },
+  "Copiah County": {
+   "fips": "28029",
+   "centroid": [
+    31.8669,
+    -90.4488
+   ],
+   "latitude": 31.9,
+   "bbox": [
+    -90.7369,
+    31.6851,
+    -90.1081,
+    32.0501
+   ],
+   "coastal": false,
+   "elevation_ft": 330,
+   "zone": "8b",
+   "jan_low_f": 39,
+   "jul_high_f": 90,
+   "record_low_f": 1,
+   "record_high_f": 106,
+   "precip_in": 61.6,
+   "snow_in": 0,
+   "last_frost": "Mar 14",
+   "first_frost": "Nov 13",
+   "growing_days": 245,
+   "ecoregion": "Mississippi Valley Loess Plains",
+   "ecoregion_code": "74",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "KIH48",
+     "freq": "162.550",
+     "same": "028029"
+    },
+    {
+     "call": "KIH38",
+     "freq": "162.400",
+     "same": "028029"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.4
+  },
+  "Covington County": {
+   "fips": "28031",
+   "centroid": [
+    31.6333,
+    -89.5489
+   ],
+   "latitude": 31.6,
+   "bbox": [
+    -89.7557,
+    31.4337,
+    -89.3992,
+    31.7969
+   ],
+   "coastal": false,
+   "elevation_ft": 290,
+   "zone": "8b",
+   "jan_low_f": 34,
+   "jul_high_f": 94,
+   "record_low_f": 2,
+   "record_high_f": 109,
+   "precip_in": 58.1,
+   "snow_in": 0,
+   "last_frost": "Mar 17",
+   "first_frost": "Nov 12",
+   "growing_days": 238,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "KIH47",
+     "freq": "162.475",
+     "same": "028031"
+    },
+    {
+     "call": "WZ2546",
+     "freq": "162.525",
+     "same": "028031"
+    },
+    {
+     "call": "KIH49",
+     "freq": "162.550",
+     "same": "028031"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.4
+  },
+  "DeSoto County": {
+   "fips": "28033",
+   "centroid": [
+    34.8749,
+    -89.9912
+   ],
+   "latitude": 34.9,
+   "bbox": [
+    -90.3135,
+    34.7083,
+    -89.7235,
+    34.9957
+   ],
+   "coastal": false,
+   "elevation_ft": 300,
+   "zone": "8a",
+   "jan_low_f": 30,
+   "jul_high_f": 90,
+   "record_low_f": -12,
+   "record_high_f": 112,
+   "precip_in": 56.5,
+   "snow_in": 2,
+   "last_frost": "Mar 28",
+   "first_frost": "Nov 5",
+   "growing_days": 223,
+   "ecoregion": "Mississippi Valley Loess Plains",
+   "ecoregion_code": "74",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "WXK49",
+     "freq": "162.475",
+     "same": "028033"
+    },
+    {
+     "call": "KIH52",
+     "freq": "162.550",
+     "same": "028033"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.7
+  },
+  "Forrest County": {
+   "fips": "28035",
+   "centroid": [
+    31.1886,
+    -89.2594
+   ],
+   "latitude": 31.2,
+   "bbox": [
+    -89.4516,
+    30.9093,
+    -89.1372,
+    31.4344
+   ],
+   "coastal": false,
+   "elevation_ft": 320,
+   "zone": "8b",
+   "jan_low_f": 38,
+   "jul_high_f": 91,
+   "record_low_f": -1,
+   "record_high_f": 106,
+   "precip_in": 64.4,
+   "snow_in": 1,
+   "last_frost": "Mar 7",
+   "first_frost": "Nov 23",
+   "growing_days": 261,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "KIH47",
+     "freq": "162.475",
+     "same": "028035"
+    },
+    {
+     "call": "WNG640",
+     "freq": "162.425",
+     "same": "028035"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.4
+  },
+  "Franklin County": {
+   "fips": "28037",
+   "centroid": [
+    31.4778,
+    -90.8955
+   ],
+   "latitude": 31.5,
+   "bbox": [
+    -91.1584,
+    31.32,
+    -90.6326,
+    31.6119
+   ],
+   "coastal": false,
+   "elevation_ft": 280,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 92,
+   "record_low_f": 2,
+   "record_high_f": 107,
+   "precip_in": 61.8,
+   "snow_in": 0,
+   "last_frost": "Mar 15",
+   "first_frost": "Nov 12",
+   "growing_days": 243,
+   "ecoregion": "Mississippi Valley Loess Plains",
+   "ecoregion_code": "74",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "KIH48",
+     "freq": "162.550",
+     "same": "028037"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.4
+  },
+  "George County": {
+   "fips": "28039",
+   "centroid": [
+    30.8554,
+    -88.6423
+   ],
+   "latitude": 30.9,
+   "bbox": [
+    -88.885,
+    30.7343,
+    -88.4128,
+    30.9987
+   ],
+   "coastal": true,
+   "elevation_ft": 180,
+   "zone": "8b",
+   "jan_low_f": 41,
+   "jul_high_f": 91,
+   "record_low_f": 3,
+   "record_high_f": 106,
+   "precip_in": 67.1,
+   "snow_in": 0,
+   "last_frost": "Mar 3",
+   "first_frost": "Nov 25",
+   "growing_days": 268,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Mobile, AL",
+   "nws_cwa": "MOB",
+   "nwr": [
+    {
+     "call": "KIH21",
+     "freq": "162.400",
+     "same": "028039"
+    },
+    {
+     "call": "WNG640",
+     "freq": "162.425",
+     "same": "028039"
+    },
+    {
+     "call": "KEC61",
+     "freq": "162.550",
+     "same": "028039"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.5
+  },
+  "Greene County": {
+   "fips": "28041",
+   "centroid": [
+    31.2128,
+    -88.6348
+   ],
+   "latitude": 31.2,
+   "bbox": [
+    -88.842,
+    30.9974,
+    -88.4256,
+    31.436
+   ],
+   "coastal": false,
+   "elevation_ft": 160,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 94,
+   "record_low_f": 10,
+   "record_high_f": 105,
+   "precip_in": 63.9,
+   "snow_in": 0,
+   "last_frost": "Mar 18",
+   "first_frost": "Nov 12",
+   "growing_days": 239,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Mobile, AL",
+   "nws_cwa": "MOB",
+   "nwr": [
+    {
+     "call": "KIH47",
+     "freq": "162.475",
+     "same": "028041"
+    },
+    {
+     "call": "WNG640",
+     "freq": "162.425",
+     "same": "028041"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.4
+  },
+  "Grenada County": {
+   "fips": "28043",
+   "centroid": [
+    33.77,
+    -89.8027
+   ],
+   "latitude": 33.8,
+   "bbox": [
+    -90.137,
+    33.6751,
+    -89.5069,
+    33.8981
+   ],
+   "coastal": false,
+   "elevation_ft": 200,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 92,
+   "record_low_f": -12,
+   "record_high_f": 105,
+   "precip_in": 61.5,
+   "snow_in": 1,
+   "last_frost": "Mar 28",
+   "first_frost": "Nov 4",
+   "growing_days": 222,
+   "ecoregion": "Mississippi Valley Loess Plains",
+   "ecoregion_code": "74",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "KIH51",
+     "freq": "162.475",
+     "same": "028043"
+    },
+    {
+     "call": "KIH50",
+     "freq": "162.425",
+     "same": "028043"
+    },
+    {
+     "call": "KIH52",
+     "freq": "162.550",
+     "same": "028043"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.6
+  },
+  "Hancock County": {
+   "fips": "28045",
+   "centroid": [
+    30.3916,
+    -89.4828
+   ],
+   "latitude": 30.4,
+   "bbox": [
+    -89.6904,
+    30.1747,
+    -89.3223,
+    30.6485
+   ],
+   "coastal": true,
+   "elevation_ft": 20,
+   "zone": "9a",
+   "jan_low_f": 40,
+   "jul_high_f": 89,
+   "record_low_f": 5,
+   "record_high_f": 104,
+   "precip_in": 64.0,
+   "snow_in": 0,
+   "last_frost": "Mar 6",
+   "first_frost": "Nov 19",
+   "growing_days": 262,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "New Orleans, LA",
+   "nws_cwa": "LIX",
+   "nwr": [
+    {
+     "call": "KIH21",
+     "freq": "162.400",
+     "same": "028045"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.4
+  },
+  "Harrison County": {
+   "fips": "28047",
+   "centroid": [
+    30.4165,
+    -89.0834
+   ],
+   "latitude": 30.4,
+   "bbox": [
+    -89.3418,
+    30.3033,
+    -88.8575,
+    30.6773
+   ],
+   "coastal": true,
+   "elevation_ft": 10,
+   "zone": "9a",
+   "jan_low_f": 42,
+   "jul_high_f": 90,
+   "record_low_f": 0,
+   "record_high_f": 103,
+   "precip_in": 62.8,
+   "snow_in": 0,
+   "last_frost": "Feb 23",
+   "first_frost": "Dec 3",
+   "growing_days": 287,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "New Orleans, LA",
+   "nws_cwa": "LIX",
+   "nwr": [
+    {
+     "call": "KIH21",
+     "freq": "162.400",
+     "same": "028047"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.4
+  },
+  "Hinds County": {
+   "fips": "28049",
+   "centroid": [
+    32.2678,
+    -90.466
+   ],
+   "latitude": 32.3,
+   "bbox": [
+    -90.7289,
+    32.0483,
+    -90.066,
+    32.5743
+   ],
+   "coastal": false,
+   "elevation_ft": 290,
+   "zone": "8b",
+   "jan_low_f": 35,
+   "jul_high_f": 93,
+   "record_low_f": 1,
+   "record_high_f": 110,
+   "precip_in": 60.1,
+   "snow_in": 1,
+   "last_frost": "Mar 16",
+   "first_frost": "Nov 6",
+   "growing_days": 236,
+   "ecoregion": "Mississippi Valley Loess Plains",
+   "ecoregion_code": "74",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "KIH38",
+     "freq": "162.400",
+     "same": "028049"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 2,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.7
+  },
+  "Holmes County": {
+   "fips": "28051",
+   "centroid": [
+    33.1259,
+    -90.0912
+   ],
+   "latitude": 33.1,
+   "bbox": [
+    -90.4316,
+    32.8803,
+    -89.7492,
+    33.3748
+   ],
+   "coastal": false,
+   "elevation_ft": 270,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 90,
+   "record_low_f": -8,
+   "record_high_f": 107,
+   "precip_in": 56.5,
+   "snow_in": 0,
+   "last_frost": "Mar 31",
+   "first_frost": "Nov 1",
+   "growing_days": 218,
+   "ecoregion": "Mississippi Valley Loess Plains",
+   "ecoregion_code": "74",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "KJY83",
+     "freq": "162.500",
+     "same": "028051"
+    },
+    {
+     "call": "KIH50",
+     "freq": "162.425",
+     "same": "028051"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.8
+  },
+  "Humphreys County": {
+   "fips": "28053",
+   "centroid": [
+    33.131,
+    -90.5234
+   ],
+   "latitude": 33.1,
+   "bbox": [
+    -90.7331,
+    32.9227,
+    -90.3303,
+    33.3294
+   ],
+   "coastal": false,
+   "elevation_ft": 100,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 90,
+   "record_low_f": -1,
+   "record_high_f": 108,
+   "precip_in": 57.3,
+   "snow_in": 0,
+   "last_frost": "Mar 3",
+   "first_frost": "Nov 21",
+   "growing_days": 263,
+   "ecoregion": "Mississippi Alluvial Plain",
+   "ecoregion_code": "73",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "KIH50",
+     "freq": "162.425",
+     "same": "028053"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.8
+  },
+  "Issaquena County": {
+   "fips": "28055",
+   "centroid": [
+    32.7555,
+    -91.0035
+   ],
+   "latitude": 32.8,
+   "bbox": [
+    -91.214,
+    32.4137,
+    -90.6914,
+    33.0112
+   ],
+   "coastal": false,
+   "elevation_ft": 90,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 91,
+   "record_low_f": -8,
+   "record_high_f": 110,
+   "precip_in": 58.8,
+   "snow_in": 0,
+   "last_frost": "Mar 5",
+   "first_frost": "Nov 24",
+   "growing_days": 263,
+   "ecoregion": "Mississippi Alluvial Plain",
+   "ecoregion_code": "73",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "KIH50",
+     "freq": "162.425",
+     "same": "028055"
+    },
+    {
+     "call": "KIH38",
+     "freq": "162.400",
+     "same": "028055"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.7
+  },
+  "Itawamba County": {
+   "fips": "28057",
+   "centroid": [
+    34.2811,
+    -88.3631
+   ],
+   "latitude": 34.3,
+   "bbox": [
+    -88.5447,
+    34.0866,
+    -88.1562,
+    34.4657
+   ],
+   "coastal": false,
+   "elevation_ft": 440,
+   "zone": "8a",
+   "jan_low_f": 30,
+   "jul_high_f": 89,
+   "record_low_f": -14,
+   "record_high_f": 108,
+   "precip_in": 61.5,
+   "snow_in": 2,
+   "last_frost": "Apr 1",
+   "first_frost": "Oct 31",
+   "growing_days": 212,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "KUT404",
+     "freq": "162.450",
+     "same": "028057"
+    },
+    {
+     "call": "KIH53",
+     "freq": "162.400",
+     "same": "028057"
+    },
+    {
+     "call": "KIH57",
+     "freq": "162.475",
+     "same": "028057"
+    },
+    {
+     "call": "WWF53",
+     "freq": "162.525",
+     "same": "028057"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.6
+  },
+  "Jackson County": {
+   "fips": "28059",
+   "centroid": [
+    30.456,
+    -88.6251
+   ],
+   "latitude": 30.5,
+   "bbox": [
+    -88.8845,
+    30.3185,
+    -88.3937,
+    30.7361
+   ],
+   "coastal": true,
+   "elevation_ft": 20,
+   "zone": "9a",
+   "jan_low_f": 41,
+   "jul_high_f": 91,
+   "record_low_f": 6,
+   "record_high_f": 104,
+   "precip_in": 61.7,
+   "snow_in": 0,
+   "last_frost": "Mar 1",
+   "first_frost": "Nov 24",
+   "growing_days": 269,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "New Orleans, LA",
+   "nws_cwa": "LIX",
+   "nwr": [
+    {
+     "call": "KIH21",
+     "freq": "162.400",
+     "same": "028059"
+    },
+    {
+     "call": "WNG640",
+     "freq": "162.425",
+     "same": "028059"
+    },
+    {
+     "call": "KEC61",
+     "freq": "162.550",
+     "same": "028059"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.5
+  },
+  "Jasper County": {
+   "fips": "28061",
+   "centroid": [
+    32.0167,
+    -89.1192
+   ],
+   "latitude": 32.0,
+   "bbox": [
+    -89.3227,
+    31.8024,
+    -88.9104,
+    32.2246
+   ],
+   "coastal": false,
+   "elevation_ft": 320,
+   "zone": "8b",
+   "jan_low_f": 33,
+   "jul_high_f": 93,
+   "record_low_f": -4,
+   "record_high_f": 107,
+   "precip_in": 58.5,
+   "snow_in": 0,
+   "last_frost": "Mar 25",
+   "first_frost": "Nov 2",
+   "growing_days": 222,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "KIH49",
+     "freq": "162.550",
+     "same": "028061"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.6
+  },
+  "Jefferson County": {
+   "fips": "28063",
+   "centroid": [
+    31.7336,
+    -91.0439
+   ],
+   "latitude": 31.7,
+   "bbox": [
+    -91.3653,
+    31.6101,
+    -90.7363,
+    31.8697
+   ],
+   "coastal": false,
+   "elevation_ft": 250,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 93,
+   "record_low_f": -5,
+   "record_high_f": 107,
+   "precip_in": 56.3,
+   "snow_in": 0,
+   "last_frost": "Mar 17",
+   "first_frost": "Nov 12",
+   "growing_days": 241,
+   "ecoregion": "Mississippi Valley Loess Plains",
+   "ecoregion_code": "74",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "KIH48",
+     "freq": "162.550",
+     "same": "028063"
+    },
+    {
+     "call": "KIH38",
+     "freq": "162.400",
+     "same": "028063"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.5
+  },
+  "Jefferson Davis County": {
+   "fips": "28065",
+   "centroid": [
+    31.5648,
+    -89.8271
+   ],
+   "latitude": 31.6,
+   "bbox": [
+    -89.9762,
+    31.39,
+    -89.5866,
+    31.7746
+   ],
+   "coastal": false,
+   "elevation_ft": 470,
+   "zone": "8b",
+   "jan_low_f": 34,
+   "jul_high_f": 94,
+   "record_low_f": 2,
+   "record_high_f": 109,
+   "precip_in": 58.1,
+   "snow_in": 0,
+   "last_frost": "Mar 17",
+   "first_frost": "Nov 12",
+   "growing_days": 238,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "KIH47",
+     "freq": "162.475",
+     "same": "028065"
+    },
+    {
+     "call": "WZ2546",
+     "freq": "162.525",
+     "same": "028065"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.4
+  },
+  "Jones County": {
+   "fips": "28067",
+   "centroid": [
+    31.6166,
+    -89.1685
+   ],
+   "latitude": 31.6,
+   "bbox": [
+    -89.4013,
+    31.4335,
+    -88.9425,
+    31.8246
+   ],
+   "coastal": false,
+   "elevation_ft": 200,
+   "zone": "8b",
+   "jan_low_f": 35,
+   "jul_high_f": 93,
+   "record_low_f": 3,
+   "record_high_f": 108,
+   "precip_in": 59.6,
+   "snow_in": 0,
+   "last_frost": "Mar 12",
+   "first_frost": "Nov 12",
+   "growing_days": 244,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "KIH47",
+     "freq": "162.475",
+     "same": "028067"
+    },
+    {
+     "call": "WNG640",
+     "freq": "162.425",
+     "same": "028067"
+    },
+    {
+     "call": "KIH49",
+     "freq": "162.550",
+     "same": "028067"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.4
+  },
+  "Kemper County": {
+   "fips": "28069",
+   "centroid": [
+    32.7501,
+    -88.6256
+   ],
+   "latitude": 32.8,
+   "bbox": [
+    -88.9153,
+    32.5768,
+    -88.3479,
+    32.9291
+   ],
+   "coastal": false,
+   "elevation_ft": 340,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 93,
+   "record_low_f": 1,
+   "record_high_f": 107,
+   "precip_in": 54.8,
+   "snow_in": 1,
+   "last_frost": "Mar 14",
+   "first_frost": "Nov 12",
+   "growing_days": 245,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "WXL72",
+     "freq": "162.475",
+     "same": "028069"
+    },
+    {
+     "call": "KIH49",
+     "freq": "162.550",
+     "same": "028069"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.5
+  },
+  "Lafayette County": {
+   "fips": "28071",
+   "centroid": [
+    34.3531,
+    -89.4854
+   ],
+   "latitude": 34.4,
+   "bbox": [
+    -89.7221,
+    34.161,
+    -89.2456,
+    34.5554
+   ],
+   "coastal": false,
+   "elevation_ft": 470,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 91,
+   "record_low_f": -13,
+   "record_high_f": 110,
+   "precip_in": 60.5,
+   "snow_in": 1,
+   "last_frost": "Apr 3",
+   "first_frost": "Oct 31",
+   "growing_days": 210,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "KIH52",
+     "freq": "162.550",
+     "same": "028071"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.7
+  },
+  "Lamar County": {
+   "fips": "28073",
+   "centroid": [
+    31.1976,
+    -89.5064
+   ],
+   "latitude": 31.2,
+   "bbox": [
+    -89.6547,
+    30.9827,
+    -89.3478,
+    31.4345
+   ],
+   "coastal": false,
+   "elevation_ft": 310,
+   "zone": "8b",
+   "jan_low_f": 38,
+   "jul_high_f": 91,
+   "record_low_f": -1,
+   "record_high_f": 106,
+   "precip_in": 64.4,
+   "snow_in": 1,
+   "last_frost": "Mar 7",
+   "first_frost": "Nov 23",
+   "growing_days": 261,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "WNG521",
+     "freq": "162.525",
+     "same": "028073"
+    },
+    {
+     "call": "KIH47",
+     "freq": "162.475",
+     "same": "028073"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.4
+  },
+  "Lauderdale County": {
+   "fips": "28075",
+   "centroid": [
+    32.404,
+    -88.6605
+   ],
+   "latitude": 32.4,
+   "bbox": [
+    -88.9157,
+    32.2242,
+    -88.3888,
+    32.5783
+   ],
+   "coastal": false,
+   "elevation_ft": 340,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 93,
+   "record_low_f": 0,
+   "record_high_f": 107,
+   "precip_in": 57.0,
+   "snow_in": 1,
+   "last_frost": "Mar 16",
+   "first_frost": "Nov 12",
+   "growing_days": 239,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "WXL72",
+     "freq": "162.475",
+     "same": "028075"
+    },
+    {
+     "call": "KIH49",
+     "freq": "162.550",
+     "same": "028075"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.5
+  },
+  "Lawrence County": {
+   "fips": "28077",
+   "centroid": [
+    31.55,
+    -90.1075
+   ],
+   "latitude": 31.6,
+   "bbox": [
+    -90.2454,
+    31.3287,
+    -89.9589,
+    31.7616
+   ],
+   "coastal": false,
+   "elevation_ft": 200,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 96,
+   "record_low_f": 3,
+   "record_high_f": 110,
+   "precip_in": 60.4,
+   "snow_in": 0,
+   "last_frost": "Mar 12",
+   "first_frost": "Nov 10",
+   "growing_days": 242,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "KIH48",
+     "freq": "162.550",
+     "same": "028077"
+    },
+    {
+     "call": "KIH47",
+     "freq": "162.475",
+     "same": "028077"
+    },
+    {
+     "call": "KIH38",
+     "freq": "162.400",
+     "same": "028077"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.4
+  },
+  "Leake County": {
+   "fips": "28079",
+   "centroid": [
+    32.7606,
+    -89.5222
+   ],
+   "latitude": 32.8,
+   "bbox": [
+    -89.7307,
+    32.5757,
+    -89.3176,
+    32.9317
+   ],
+   "coastal": false,
+   "elevation_ft": 390,
+   "zone": "8b",
+   "jan_low_f": 34,
+   "jul_high_f": 92,
+   "record_low_f": -5,
+   "record_high_f": 106,
+   "precip_in": 57.8,
+   "snow_in": 0,
+   "last_frost": "Mar 19",
+   "first_frost": "Nov 7",
+   "growing_days": 233,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "KJY83",
+     "freq": "162.500",
+     "same": "028079"
+    },
+    {
+     "call": "KIH38",
+     "freq": "162.400",
+     "same": "028079"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.6
+  },
+  "Lee County": {
+   "fips": "28081",
+   "centroid": [
+    34.2924,
+    -88.6824
+   ],
+   "latitude": 34.3,
+   "bbox": [
+    -88.8254,
+    34.0745,
+    -88.5418,
+    34.5092
+   ],
+   "coastal": false,
+   "elevation_ft": 260,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 90,
+   "record_low_f": -12,
+   "record_high_f": 107,
+   "precip_in": 57.9,
+   "snow_in": 1,
+   "last_frost": "Mar 21",
+   "first_frost": "Nov 10",
+   "growing_days": 237,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "KUT404",
+     "freq": "162.450",
+     "same": "028081"
+    },
+    {
+     "call": "KIH53",
+     "freq": "162.400",
+     "same": "028081"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.6
+  },
+  "Leflore County": {
+   "fips": "28083",
+   "centroid": [
+    33.5498,
+    -90.2949
+   ],
+   "latitude": 33.5,
+   "bbox": [
+    -90.4538,
+    33.2368,
+    -90.1013,
+    33.8115
+   ],
+   "coastal": false,
+   "elevation_ft": 130,
+   "zone": "8b",
+   "jan_low_f": 35,
+   "jul_high_f": 92,
+   "record_low_f": -2,
+   "record_high_f": 106,
+   "precip_in": 51.8,
+   "snow_in": 0,
+   "last_frost": "Mar 17",
+   "first_frost": "Nov 5",
+   "growing_days": 231,
+   "ecoregion": "Mississippi Alluvial Plain",
+   "ecoregion_code": "73",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "KIH51",
+     "freq": "162.475",
+     "same": "028083"
+    },
+    {
+     "call": "KIH50",
+     "freq": "162.425",
+     "same": "028083"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.8
+  },
+  "Lincoln County": {
+   "fips": "28085",
+   "centroid": [
+    31.5352,
+    -90.4536
+   ],
+   "latitude": 31.5,
+   "bbox": [
+    -90.7374,
+    31.3493,
+    -90.2437,
+    31.7171
+   ],
+   "coastal": false,
+   "elevation_ft": 440,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 90,
+   "record_low_f": -10,
+   "record_high_f": 109,
+   "precip_in": 61.6,
+   "snow_in": 0,
+   "last_frost": "Mar 17",
+   "first_frost": "Nov 12",
+   "growing_days": 242,
+   "ecoregion": "Mississippi Valley Loess Plains",
+   "ecoregion_code": "74",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "KIH48",
+     "freq": "162.550",
+     "same": "028085"
+    },
+    {
+     "call": "KIH38",
+     "freq": "162.400",
+     "same": "028085"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.4
+  },
+  "Lowndes County": {
+   "fips": "28087",
+   "centroid": [
+    33.4714,
+    -88.4397
+   ],
+   "latitude": 33.5,
+   "bbox": [
+    -88.6713,
+    33.2869,
+    -88.2493,
+    33.7455
+   ],
+   "coastal": false,
+   "elevation_ft": 160,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 94,
+   "record_low_f": -4,
+   "record_high_f": 108,
+   "precip_in": 56.6,
+   "snow_in": 0,
+   "last_frost": "Mar 13",
+   "first_frost": "Nov 12",
+   "growing_days": 244,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "KUT404",
+     "freq": "162.450",
+     "same": "028087"
+    },
+    {
+     "call": "KIH51",
+     "freq": "162.475",
+     "same": "028087"
+    },
+    {
+     "call": "KIH60",
+     "freq": "162.400",
+     "same": "028087"
+    },
+    {
+     "call": "WWF53",
+     "freq": "162.525",
+     "same": "028087"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.6
+  },
+  "Madison County": {
+   "fips": "28089",
+   "centroid": [
+    32.6344,
+    -90.0342
+   ],
+   "latitude": 32.6,
+   "bbox": [
+    -90.4513,
+    32.399,
+    -89.7299,
+    32.8855
+   ],
+   "coastal": false,
+   "elevation_ft": 250,
+   "zone": "8b",
+   "jan_low_f": 34,
+   "jul_high_f": 92,
+   "record_low_f": -11,
+   "record_high_f": 108,
+   "precip_in": 57.0,
+   "snow_in": 0,
+   "last_frost": "Mar 22",
+   "first_frost": "Nov 6",
+   "growing_days": 230,
+   "ecoregion": "Mississippi Valley Loess Plains",
+   "ecoregion_code": "74",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "KJY83",
+     "freq": "162.500",
+     "same": "028089"
+    },
+    {
+     "call": "KIH38",
+     "freq": "162.400",
+     "same": "028089"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.7
+  },
+  "Marion County": {
+   "fips": "28091",
+   "centroid": [
+    31.2315,
+    -89.8223
+   ],
+   "latitude": 31.2,
+   "bbox": [
+    -90.0405,
+    30.9995,
+    -89.6538,
+    31.4341
+   ],
+   "coastal": false,
+   "elevation_ft": 140,
+   "zone": "9a",
+   "jan_low_f": 38,
+   "jul_high_f": 92,
+   "record_low_f": 4,
+   "record_high_f": 113,
+   "precip_in": 61.9,
+   "snow_in": 0,
+   "last_frost": "Mar 5",
+   "first_frost": "Nov 19",
+   "growing_days": 262,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "WNG521",
+     "freq": "162.525",
+     "same": "028091"
+    },
+    {
+     "call": "KIH47",
+     "freq": "162.475",
+     "same": "028091"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.4
+  },
+  "Marshall County": {
+   "fips": "28093",
+   "centroid": [
+    34.7662,
+    -89.5042
+   ],
+   "latitude": 34.8,
+   "bbox": [
+    -89.7243,
+    34.4965,
+    -89.2456,
+    34.9953
+   ],
+   "coastal": false,
+   "elevation_ft": 540,
+   "zone": "7b",
+   "jan_low_f": 29,
+   "jul_high_f": 89,
+   "record_low_f": -12,
+   "record_high_f": 106,
+   "precip_in": 55.5,
+   "snow_in": 2,
+   "last_frost": "Apr 6",
+   "first_frost": "Oct 28",
+   "growing_days": 206,
+   "ecoregion": "Mississippi Valley Loess Plains",
+   "ecoregion_code": "74",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "WXK49",
+     "freq": "162.475",
+     "same": "028093"
+    },
+    {
+     "call": "KIH52",
+     "freq": "162.550",
+     "same": "028093"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.7
+  },
+  "Monroe County": {
+   "fips": "28095",
+   "centroid": [
+    33.89,
+    -88.485
+   ],
+   "latitude": 33.9,
+   "bbox": [
+    -88.7205,
+    33.651,
+    -88.2038,
+    34.0894
+   ],
+   "coastal": false,
+   "elevation_ft": 220,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 90,
+   "record_low_f": -15,
+   "record_high_f": 114,
+   "precip_in": 54.3,
+   "snow_in": 0,
+   "last_frost": "Mar 29",
+   "first_frost": "Nov 5",
+   "growing_days": 223,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "KUT404",
+     "freq": "162.450",
+     "same": "028095"
+    },
+    {
+     "call": "KIH51",
+     "freq": "162.475",
+     "same": "028095"
+    },
+    {
+     "call": "WWF53",
+     "freq": "162.525",
+     "same": "028095"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.6
+  },
+  "Montgomery County": {
+   "fips": "28097",
+   "centroid": [
+    33.5007,
+    -89.6396
+   ],
+   "latitude": 33.5,
+   "bbox": [
+    -89.7869,
+    33.2855,
+    -89.3814,
+    33.6781
+   ],
+   "coastal": false,
+   "elevation_ft": 430,
+   "zone": "8a",
+   "jan_low_f": 29,
+   "jul_high_f": 89,
+   "record_low_f": -9,
+   "record_high_f": 105,
+   "precip_in": 59.0,
+   "snow_in": 1,
+   "last_frost": "Apr 7",
+   "first_frost": "Oct 29",
+   "growing_days": 203,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "KIH51",
+     "freq": "162.475",
+     "same": "028097"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.6
+  },
+  "Neshoba County": {
+   "fips": "28099",
+   "centroid": [
+    32.7525,
+    -89.1193
+   ],
+   "latitude": 32.8,
+   "bbox": [
+    -89.3196,
+    32.5764,
+    -88.9142,
+    32.9324
+   ],
+   "coastal": false,
+   "elevation_ft": 400,
+   "zone": "8b",
+   "jan_low_f": 35,
+   "jul_high_f": 91,
+   "record_low_f": -3,
+   "record_high_f": 106,
+   "precip_in": 60.5,
+   "snow_in": 0,
+   "last_frost": "Mar 20",
+   "first_frost": "Nov 9",
+   "growing_days": 235,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "KJY83",
+     "freq": "162.500",
+     "same": "028099"
+    },
+    {
+     "call": "KIH49",
+     "freq": "162.550",
+     "same": "028099"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.6
+  },
+  "Newton County": {
+   "fips": "28101",
+   "centroid": [
+    32.402,
+    -89.1184
+   ],
+   "latitude": 32.4,
+   "bbox": [
+    -89.3227,
+    32.2234,
+    -88.9137,
+    32.577
+   ],
+   "coastal": false,
+   "elevation_ft": 470,
+   "zone": "8b",
+   "jan_low_f": 34,
+   "jul_high_f": 90,
+   "record_low_f": -4,
+   "record_high_f": 107,
+   "precip_in": 58.2,
+   "snow_in": 0,
+   "last_frost": "Mar 24",
+   "first_frost": "Nov 5",
+   "growing_days": 228,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "KJY83",
+     "freq": "162.500",
+     "same": "028101"
+    },
+    {
+     "call": "KIH49",
+     "freq": "162.550",
+     "same": "028101"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.6
+  },
+  "Noxubee County": {
+   "fips": "28103",
+   "centroid": [
+    33.1066,
+    -88.5662
+   ],
+   "latitude": 33.1,
+   "bbox": [
+    -88.8137,
+    32.926,
+    -88.3048,
+    33.2887
+   ],
+   "coastal": false,
+   "elevation_ft": 170,
+   "zone": "8b",
+   "jan_low_f": 33,
+   "jul_high_f": 90,
+   "record_low_f": 0,
+   "record_high_f": 111,
+   "precip_in": 57.2,
+   "snow_in": 0,
+   "last_frost": "Mar 21",
+   "first_frost": "Nov 7",
+   "growing_days": 231,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "KIH51",
+     "freq": "162.475",
+     "same": "028103"
+    },
+    {
+     "call": "KIH60",
+     "freq": "162.400",
+     "same": "028103"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.6
+  },
+  "Oktibbeha County": {
+   "fips": "28105",
+   "centroid": [
+    33.4223,
+    -88.8762
+   ],
+   "latitude": 33.4,
+   "bbox": [
+    -89.0887,
+    33.286,
+    -88.6691,
+    33.5654
+   ],
+   "coastal": false,
+   "elevation_ft": 300,
+   "zone": "8a",
+   "jan_low_f": 33,
+   "jul_high_f": 92,
+   "record_low_f": -12,
+   "record_high_f": 111,
+   "precip_in": 58.0,
+   "snow_in": 0,
+   "last_frost": "Mar 23",
+   "first_frost": "Nov 8",
+   "growing_days": 233,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "KIH51",
+     "freq": "162.475",
+     "same": "028105"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.6
+  },
+  "Panola County": {
+   "fips": "28107",
+   "centroid": [
+    34.3652,
+    -89.9631
+   ],
+   "latitude": 34.4,
+   "bbox": [
+    -90.1988,
+    34.1591,
+    -89.7195,
+    34.5544
+   ],
+   "coastal": false,
+   "elevation_ft": 310,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 91,
+   "record_low_f": -16,
+   "record_high_f": 108,
+   "precip_in": 58.2,
+   "snow_in": 0,
+   "last_frost": "Mar 28",
+   "first_frost": "Nov 2",
+   "growing_days": 218,
+   "ecoregion": "Mississippi Valley Loess Plains",
+   "ecoregion_code": "74",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "KIH52",
+     "freq": "162.550",
+     "same": "028107"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.7
+  },
+  "Pearl River County": {
+   "fips": "28109",
+   "centroid": [
+    30.7748,
+    -89.5869
+   ],
+   "latitude": 30.8,
+   "bbox": [
+    -89.8518,
+    30.4589,
+    -89.3407,
+    31.0141
+   ],
+   "coastal": true,
+   "elevation_ft": 190,
+   "zone": "9a",
+   "jan_low_f": 39,
+   "jul_high_f": 91,
+   "record_low_f": 3,
+   "record_high_f": 105,
+   "precip_in": 65.0,
+   "snow_in": 0,
+   "last_frost": "Mar 10",
+   "first_frost": "Nov 21",
+   "growing_days": 257,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "New Orleans, LA",
+   "nws_cwa": "LIX",
+   "nwr": [
+    {
+     "call": "WNG521",
+     "freq": "162.525",
+     "same": "028109"
+    },
+    {
+     "call": "KIH21",
+     "freq": "162.400",
+     "same": "028109"
+    },
+    {
+     "call": "KIH47",
+     "freq": "162.475",
+     "same": "028109"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.4
+  },
+  "Perry County": {
+   "fips": "28111",
+   "centroid": [
+    31.1693,
+    -88.9888
+   ],
+   "latitude": 31.2,
+   "bbox": [
+    -89.1462,
+    30.9099,
+    -88.8343,
+    31.434
+   ],
+   "coastal": false,
+   "elevation_ft": 210,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 94,
+   "record_low_f": 10,
+   "record_high_f": 105,
+   "precip_in": 63.9,
+   "snow_in": 0,
+   "last_frost": "Mar 18",
+   "first_frost": "Nov 12",
+   "growing_days": 239,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Mobile, AL",
+   "nws_cwa": "MOB",
+   "nwr": [
+    {
+     "call": "KIH47",
+     "freq": "162.475",
+     "same": "028111"
+    },
+    {
+     "call": "WNG640",
+     "freq": "162.425",
+     "same": "028111"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.4
+  },
+  "Pike County": {
+   "fips": "28113",
+   "centroid": [
+    31.1775,
+    -90.3977
+   ],
+   "latitude": 31.2,
+   "bbox": [
+    -90.5485,
+    30.9997,
+    -90.2596,
+    31.3503
+   ],
+   "coastal": false,
+   "elevation_ft": 380,
+   "zone": "8b",
+   "jan_low_f": 38,
+   "jul_high_f": 91,
+   "record_low_f": 2,
+   "record_high_f": 106,
+   "precip_in": 60.6,
+   "snow_in": 0,
+   "last_frost": "Mar 11",
+   "first_frost": "Nov 18",
+   "growing_days": 253,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "New Orleans, LA",
+   "nws_cwa": "LIX",
+   "nwr": [
+    {
+     "call": "WNG521",
+     "freq": "162.525",
+     "same": "028113"
+    },
+    {
+     "call": "KIH48",
+     "freq": "162.550",
+     "same": "028113"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.4
+  },
+  "Pontotoc County": {
+   "fips": "28115",
+   "centroid": [
+    34.2271,
+    -89.0372
+   ],
+   "latitude": 34.2,
+   "bbox": [
+    -89.2464,
+    34.0739,
+    -88.8237,
+    34.3803
+   ],
+   "coastal": false,
+   "elevation_ft": 420,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 90,
+   "record_low_f": -7,
+   "record_high_f": 105,
+   "precip_in": 60.8,
+   "snow_in": 0,
+   "last_frost": "Mar 28",
+   "first_frost": "Nov 8",
+   "growing_days": 227,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "KUT404",
+     "freq": "162.450",
+     "same": "028115"
+    },
+    {
+     "call": "KIH53",
+     "freq": "162.400",
+     "same": "028115"
+    },
+    {
+     "call": "KIH52",
+     "freq": "162.550",
+     "same": "028115"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.7
+  },
+  "Prentiss County": {
+   "fips": "28117",
+   "centroid": [
+    34.6206,
+    -88.5222
+   ],
+   "latitude": 34.6,
+   "bbox": [
+    -88.7364,
+    34.4636,
+    -88.3292,
+    34.7568
+   ],
+   "coastal": false,
+   "elevation_ft": 460,
+   "zone": "8a",
+   "jan_low_f": 29,
+   "jul_high_f": 89,
+   "record_low_f": -10,
+   "record_high_f": 108,
+   "precip_in": 60.4,
+   "snow_in": 1,
+   "last_frost": "Apr 1",
+   "first_frost": "Nov 3",
+   "growing_days": 216,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "KIH53",
+     "freq": "162.400",
+     "same": "028117"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.6
+  },
+  "Quitman County": {
+   "fips": "28119",
+   "centroid": [
+    34.2528,
+    -90.2902
+   ],
+   "latitude": 34.3,
+   "bbox": [
+    -90.4509,
+    34.0722,
+    -90.1346,
+    34.5112
+   ],
+   "coastal": false,
+   "elevation_ft": 160,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 92,
+   "record_low_f": -8,
+   "record_high_f": 109,
+   "precip_in": 56.7,
+   "snow_in": 0,
+   "last_frost": "Mar 17",
+   "first_frost": "Nov 7",
+   "growing_days": 233,
+   "ecoregion": "Mississippi Alluvial Plain",
+   "ecoregion_code": "73",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "KIH52",
+     "freq": "162.550",
+     "same": "028119"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.8
+  },
+  "Rankin County": {
+   "fips": "28121",
+   "centroid": [
+    32.2671,
+    -89.9461
+   ],
+   "latitude": 32.3,
+   "bbox": [
+    -90.2543,
+    32.047,
+    -89.7297,
+    32.5923
+   ],
+   "coastal": false,
+   "elevation_ft": 380,
+   "zone": "8b",
+   "jan_low_f": 37,
+   "jul_high_f": 92,
+   "record_low_f": 2,
+   "record_high_f": 107,
+   "precip_in": 57.4,
+   "snow_in": 1,
+   "last_frost": "Mar 14",
+   "first_frost": "Nov 14",
+   "growing_days": 245,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "KJY83",
+     "freq": "162.500",
+     "same": "028121"
+    },
+    {
+     "call": "KIH38",
+     "freq": "162.400",
+     "same": "028121"
+    },
+    {
+     "call": "WZ2546",
+     "freq": "162.525",
+     "same": "028121"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.6
+  },
+  "Scott County": {
+   "fips": "28123",
+   "centroid": [
+    32.412,
+    -89.5335
+   ],
+   "latitude": 32.4,
+   "bbox": [
+    -89.7841,
+    32.2218,
+    -89.3222,
+    32.6339
+   ],
+   "coastal": false,
+   "elevation_ft": 430,
+   "zone": "8b",
+   "jan_low_f": 34,
+   "jul_high_f": 91,
+   "record_low_f": -5,
+   "record_high_f": 107,
+   "precip_in": 62.4,
+   "snow_in": 1,
+   "last_frost": "Mar 28",
+   "first_frost": "Nov 2",
+   "growing_days": 221,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "KJY83",
+     "freq": "162.500",
+     "same": "028123"
+    },
+    {
+     "call": "KIH38",
+     "freq": "162.400",
+     "same": "028123"
+    },
+    {
+     "call": "KIH49",
+     "freq": "162.550",
+     "same": "028123"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.6
+  },
+  "Sharkey County": {
+   "fips": "28125",
+   "centroid": [
+    32.8924,
+    -90.8276
+   ],
+   "latitude": 32.9,
+   "bbox": [
+    -90.9653,
+    32.6618,
+    -90.6566,
+    33.0975
+   ],
+   "coastal": false,
+   "elevation_ft": 100,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 93,
+   "record_low_f": -2,
+   "record_high_f": 106,
+   "precip_in": 55.3,
+   "snow_in": 0,
+   "last_frost": "Mar 5",
+   "first_frost": "Nov 20",
+   "growing_days": 261,
+   "ecoregion": "Mississippi Alluvial Plain",
+   "ecoregion_code": "73",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "KIH50",
+     "freq": "162.425",
+     "same": "028125"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.7
+  },
+  "Simpson County": {
+   "fips": "28127",
+   "centroid": [
+    31.9025,
+    -89.9177
+   ],
+   "latitude": 31.9,
+   "bbox": [
+    -90.2474,
+    31.7526,
+    -89.6532,
+    32.05
+   ],
+   "coastal": false,
+   "elevation_ft": 400,
+   "zone": "8b",
+   "jan_low_f": 38,
+   "jul_high_f": 95,
+   "record_low_f": 0,
+   "record_high_f": 105,
+   "precip_in": 57.5,
+   "snow_in": 1,
+   "last_frost": "Mar 10",
+   "first_frost": "Nov 16",
+   "growing_days": 252,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "KIH47",
+     "freq": "162.475",
+     "same": "028127"
+    },
+    {
+     "call": "KIH38",
+     "freq": "162.400",
+     "same": "028127"
+    },
+    {
+     "call": "WZ2546",
+     "freq": "162.525",
+     "same": "028127"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.4
+  },
+  "Smith County": {
+   "fips": "28129",
+   "centroid": [
+    32.019,
+    -89.4949
+   ],
+   "latitude": 32.0,
+   "bbox": [
+    -89.7313,
+    31.7808,
+    -89.3164,
+    32.2237
+   ],
+   "coastal": false,
+   "elevation_ft": 400,
+   "zone": "8b",
+   "jan_low_f": 33,
+   "jul_high_f": 90,
+   "record_low_f": -5,
+   "record_high_f": 107,
+   "precip_in": 61.6,
+   "snow_in": 1,
+   "last_frost": "Mar 28",
+   "first_frost": "Nov 3",
+   "growing_days": 221,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "KIH47",
+     "freq": "162.475",
+     "same": "028129"
+    },
+    {
+     "call": "KIH38",
+     "freq": "162.400",
+     "same": "028129"
+    },
+    {
+     "call": "WZ2546",
+     "freq": "162.525",
+     "same": "028129"
+    },
+    {
+     "call": "KIH49",
+     "freq": "162.550",
+     "same": "028129"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.6
+  },
+  "Stone County": {
+   "fips": "28131",
+   "centroid": [
+    30.7902,
+    -89.1123
+   ],
+   "latitude": 30.8,
+   "bbox": [
+    -89.3415,
+    30.6473,
+    -88.8845,
+    30.9108
+   ],
+   "coastal": false,
+   "elevation_ft": 110,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 92,
+   "record_low_f": 1,
+   "record_high_f": 108,
+   "precip_in": 67.4,
+   "snow_in": 0,
+   "last_frost": "Mar 14",
+   "first_frost": "Nov 18",
+   "growing_days": 249,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Mobile, AL",
+   "nws_cwa": "MOB",
+   "nwr": [
+    {
+     "call": "KIH21",
+     "freq": "162.400",
+     "same": "028131"
+    },
+    {
+     "call": "WNG640",
+     "freq": "162.425",
+     "same": "028131"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.4
+  },
+  "Sunflower County": {
+   "fips": "28133",
+   "centroid": [
+    33.6055,
+    -90.5951
+   ],
+   "latitude": 33.6,
+   "bbox": [
+    -90.7647,
+    33.2699,
+    -90.4503,
+    33.9876
+   ],
+   "coastal": false,
+   "elevation_ft": 130,
+   "zone": "8b",
+   "jan_low_f": 35,
+   "jul_high_f": 91,
+   "record_low_f": -10,
+   "record_high_f": 110,
+   "precip_in": 55.8,
+   "snow_in": 0,
+   "last_frost": "Mar 8",
+   "first_frost": "Nov 20",
+   "growing_days": 255,
+   "ecoregion": "Mississippi Alluvial Plain",
+   "ecoregion_code": "73",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "KIH50",
+     "freq": "162.425",
+     "same": "028133"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.8
+  },
+  "Tallahatchie County": {
+   "fips": "28135",
+   "centroid": [
+    33.9545,
+    -90.1722
+   ],
+   "latitude": 34.0,
+   "bbox": [
+    -90.4516,
+    33.6941,
+    -89.9253,
+    34.1644
+   ],
+   "coastal": false,
+   "elevation_ft": 140,
+   "zone": "8a",
+   "jan_low_f": 36,
+   "jul_high_f": 92,
+   "record_low_f": -3,
+   "record_high_f": 107,
+   "precip_in": 60.7,
+   "snow_in": 1,
+   "last_frost": "Mar 7",
+   "first_frost": "Nov 17",
+   "growing_days": 254,
+   "ecoregion": "Mississippi Alluvial Plain",
+   "ecoregion_code": "73",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "KIH50",
+     "freq": "162.425",
+     "same": "028135"
+    },
+    {
+     "call": "KIH52",
+     "freq": "162.550",
+     "same": "028135"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.8
+  },
+  "Tate County": {
+   "fips": "28137",
+   "centroid": [
+    34.6496,
+    -89.9431
+   ],
+   "latitude": 34.6,
+   "bbox": [
+    -90.2441,
+    34.5536,
+    -89.6685,
+    34.7731
+   ],
+   "coastal": false,
+   "elevation_ft": 280,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 91,
+   "record_low_f": -8,
+   "record_high_f": 106,
+   "precip_in": 57.9,
+   "snow_in": 0,
+   "last_frost": "Mar 20",
+   "first_frost": "Nov 4",
+   "growing_days": 229,
+   "ecoregion": "Mississippi Valley Loess Plains",
+   "ecoregion_code": "74",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "WXK49",
+     "freq": "162.475",
+     "same": "028137"
+    },
+    {
+     "call": "KIH52",
+     "freq": "162.550",
+     "same": "028137"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.7
+  },
+  "Tippah County": {
+   "fips": "28139",
+   "centroid": [
+    34.7636,
+    -88.9188
+   ],
+   "latitude": 34.8,
+   "bbox": [
+    -89.0886,
+    34.5962,
+    -88.7178,
+    34.9959
+   ],
+   "coastal": false,
+   "elevation_ft": 530,
+   "zone": "7b",
+   "jan_low_f": 29,
+   "jul_high_f": 90,
+   "record_low_f": -14,
+   "record_high_f": 108,
+   "precip_in": 57.6,
+   "snow_in": 2,
+   "last_frost": "Apr 3",
+   "first_frost": "Oct 30",
+   "growing_days": 210,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "KIH53",
+     "freq": "162.400",
+     "same": "028139"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.6
+  },
+  "Tishomingo County": {
+   "fips": "28141",
+   "centroid": [
+    34.7388,
+    -88.2348
+   ],
+   "latitude": 34.7,
+   "bbox": [
+    -88.3661,
+    34.4632,
+    -88.0984,
+    34.9956
+   ],
+   "coastal": false,
+   "elevation_ft": 600,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 88,
+   "record_low_f": -12,
+   "record_high_f": 106,
+   "precip_in": 62.3,
+   "snow_in": 1,
+   "last_frost": "Apr 9",
+   "first_frost": "Oct 28",
+   "growing_days": 203,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "KIH53",
+     "freq": "162.400",
+     "same": "028141"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.6
+  },
+  "Tunica County": {
+   "fips": "28143",
+   "centroid": [
+    34.6522,
+    -90.3718
+   ],
+   "latitude": 34.7,
+   "bbox": [
+    -90.5885,
+    34.4235,
+    -90.1984,
+    34.8919
+   ],
+   "coastal": false,
+   "elevation_ft": 180,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 91,
+   "record_low_f": -10,
+   "record_high_f": 106,
+   "precip_in": 56.5,
+   "snow_in": 1,
+   "last_frost": "Mar 14",
+   "first_frost": "Nov 15",
+   "growing_days": 248,
+   "ecoregion": "Mississippi Alluvial Plain",
+   "ecoregion_code": "73",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "WXK49",
+     "freq": "162.475",
+     "same": "028143"
+    },
+    {
+     "call": "KIH52",
+     "freq": "162.550",
+     "same": "028143"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.8
+  },
+  "Union County": {
+   "fips": "28145",
+   "centroid": [
+    34.4895,
+    -89.0023
+   ],
+   "latitude": 34.5,
+   "bbox": [
+    -89.2467,
+    34.3647,
+    -88.7345,
+    34.5987
+   ],
+   "coastal": false,
+   "elevation_ft": 410,
+   "zone": "8a",
+   "jan_low_f": 28,
+   "jul_high_f": 90,
+   "record_low_f": -15,
+   "record_high_f": 108,
+   "precip_in": 58.6,
+   "snow_in": 3,
+   "last_frost": "Apr 8",
+   "first_frost": "Oct 28",
+   "growing_days": 202,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "KIH53",
+     "freq": "162.400",
+     "same": "028145"
+    },
+    {
+     "call": "KIH52",
+     "freq": "162.550",
+     "same": "028145"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.7
+  },
+  "Walthall County": {
+   "fips": "28147",
+   "centroid": [
+    31.1645,
+    -90.1034
+   ],
+   "latitude": 31.2,
+   "bbox": [
+    -90.2609,
+    31.0007,
+    -89.8357,
+    31.3509
+   ],
+   "coastal": false,
+   "elevation_ft": 310,
+   "zone": "8b",
+   "jan_low_f": 37,
+   "jul_high_f": 91,
+   "record_low_f": 3,
+   "record_high_f": 106,
+   "precip_in": 62.5,
+   "snow_in": 0,
+   "last_frost": "Mar 15",
+   "first_frost": "Nov 16",
+   "growing_days": 245,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "New Orleans, LA",
+   "nws_cwa": "LIX",
+   "nwr": [
+    {
+     "call": "WNG521",
+     "freq": "162.525",
+     "same": "028147"
+    },
+    {
+     "call": "KIH47",
+     "freq": "162.475",
+     "same": "028147"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.4
+  },
+  "Warren County": {
+   "fips": "28149",
+   "centroid": [
+    32.3561,
+    -90.8524
+   ],
+   "latitude": 32.4,
+   "bbox": [
+    -91.1746,
+    32.0789,
+    -90.5538,
+    32.6188
+   ],
+   "coastal": false,
+   "elevation_ft": 270,
+   "zone": "9a",
+   "jan_low_f": 38,
+   "jul_high_f": 92,
+   "record_low_f": 8,
+   "record_high_f": 108,
+   "precip_in": 61.7,
+   "snow_in": 0,
+   "last_frost": "Feb 26",
+   "first_frost": "Nov 22",
+   "growing_days": 269,
+   "ecoregion": "Mississippi Valley Loess Plains",
+   "ecoregion_code": "74",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "KIH38",
+     "freq": "162.400",
+     "same": "028149"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.7
+  },
+  "Washington County": {
+   "fips": "28151",
+   "centroid": [
+    33.2732,
+    -90.9444
+   ],
+   "latitude": 33.3,
+   "bbox": [
+    -91.2356,
+    33.0077,
+    -90.6787,
+    33.5305
+   ],
+   "coastal": false,
+   "elevation_ft": 110,
+   "zone": "8b",
+   "jan_low_f": 34,
+   "jul_high_f": 91,
+   "record_low_f": -2,
+   "record_high_f": 110,
+   "precip_in": 56.1,
+   "snow_in": 0,
+   "last_frost": "Mar 13",
+   "first_frost": "Nov 15",
+   "growing_days": 247,
+   "ecoregion": "Mississippi Alluvial Plain",
+   "ecoregion_code": "73",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "KIH50",
+     "freq": "162.425",
+     "same": "028151"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.8
+  },
+  "Wayne County": {
+   "fips": "28153",
+   "centroid": [
+    31.6425,
+    -88.6782
+   ],
+   "latitude": 31.6,
+   "bbox": [
+    -88.9435,
+    31.4334,
+    -88.45,
+    31.8946
+   ],
+   "coastal": false,
+   "elevation_ft": 170,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 92,
+   "record_low_f": -2,
+   "record_high_f": 106,
+   "precip_in": 60.0,
+   "snow_in": 1,
+   "last_frost": "Mar 17",
+   "first_frost": "Nov 9",
+   "growing_days": 237,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Mobile, AL",
+   "nws_cwa": "MOB",
+   "nwr": [
+    {
+     "call": "KIH47",
+     "freq": "162.475",
+     "same": "028153"
+    },
+    {
+     "call": "WNG640",
+     "freq": "162.425",
+     "same": "028153"
+    },
+    {
+     "call": "KIH49",
+     "freq": "162.550",
+     "same": "028153"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.4
+  },
+  "Webster County": {
+   "fips": "28155",
+   "centroid": [
+    33.6121,
+    -89.284
+   ],
+   "latitude": 33.6,
+   "bbox": [
+    -89.5072,
+    33.4598,
+    -89.0184,
+    33.7394
+   ],
+   "coastal": false,
+   "elevation_ft": 500,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 90,
+   "record_low_f": -9,
+   "record_high_f": 110,
+   "precip_in": 58.7,
+   "snow_in": 1,
+   "last_frost": "Mar 30",
+   "first_frost": "Nov 4",
+   "growing_days": 218,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "KIH51",
+     "freq": "162.475",
+     "same": "028155"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.6
+  },
+  "Wilkinson County": {
+   "fips": "28157",
+   "centroid": [
+    31.1611,
+    -91.3246
+   ],
+   "latitude": 31.2,
+   "bbox": [
+    -91.6365,
+    30.9987,
+    -91.0589,
+    31.3727
+   ],
+   "coastal": false,
+   "elevation_ft": 270,
+   "zone": "9a",
+   "jan_low_f": 36,
+   "jul_high_f": 93,
+   "record_low_f": -3,
+   "record_high_f": 108,
+   "precip_in": 66.5,
+   "snow_in": 0,
+   "last_frost": "Mar 11",
+   "first_frost": "Nov 17",
+   "growing_days": 251,
+   "ecoregion": "Mississippi Valley Loess Plains",
+   "ecoregion_code": "74",
+   "nws_office": "New Orleans, LA",
+   "nws_cwa": "LIX",
+   "nwr": [
+    {
+     "call": "KHB46",
+     "freq": "162.400",
+     "same": "028157"
+    },
+    {
+     "call": "KIH48",
+     "freq": "162.550",
+     "same": "028157"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.5
+  },
+  "Winston County": {
+   "fips": "28159",
+   "centroid": [
+    33.0787,
+    -89.0374
+   ],
+   "latitude": 33.1,
+   "bbox": [
+    -89.3196,
+    32.9191,
+    -88.8118,
+    33.2864
+   ],
+   "coastal": false,
+   "elevation_ft": 490,
+   "zone": "8a",
+   "jan_low_f": 34,
+   "jul_high_f": 92,
+   "record_low_f": -13,
+   "record_high_f": 107,
+   "precip_in": 57.5,
+   "snow_in": 1,
+   "last_frost": "Mar 21",
+   "first_frost": "Nov 13",
+   "growing_days": 235,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "KIH51",
+     "freq": "162.475",
+     "same": "028159"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.6
+  },
+  "Yalobusha County": {
+   "fips": "28161",
+   "centroid": [
+    34.0307,
+    -89.7038
+   ],
+   "latitude": 34.0,
+   "bbox": [
+    -89.9317,
+    33.8669,
+    -89.5073,
+    34.1925
+   ],
+   "coastal": false,
+   "elevation_ft": 330,
+   "zone": "8a",
+   "jan_low_f": 30,
+   "jul_high_f": 90,
+   "record_low_f": -13,
+   "record_high_f": 110,
+   "precip_in": 58.6,
+   "snow_in": 1,
+   "last_frost": "Apr 1",
+   "first_frost": "Nov 3",
+   "growing_days": 219,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "KIH51",
+     "freq": "162.475",
+     "same": "028161"
+    },
+    {
+     "call": "KIH52",
+     "freq": "162.550",
+     "same": "028161"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.7
+  },
+  "Yazoo County": {
+   "fips": "28163",
+   "centroid": [
+    32.7657,
+    -90.3879
+   ],
+   "latitude": 32.8,
+   "bbox": [
+    -90.7598,
+    32.5045,
+    -89.9658,
+    33.022
+   ],
+   "coastal": false,
+   "elevation_ft": 200,
+   "zone": "8b",
+   "jan_low_f": 39,
+   "jul_high_f": 94,
+   "record_low_f": -4,
+   "record_high_f": 106,
+   "precip_in": 60.4,
+   "snow_in": 0,
+   "last_frost": "Mar 4",
+   "first_frost": "Nov 24",
+   "growing_days": 267,
+   "ecoregion": "Mississippi Valley Loess Plains",
+   "ecoregion_code": "74",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "KIH50",
+     "freq": "162.425",
+     "same": "028163"
+    },
+    {
+     "call": "KIH38",
+     "freq": "162.400",
+     "same": "028163"
+    }
+   ],
+   "state_em": "Mississippi Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.7
+  }
+ }
+}

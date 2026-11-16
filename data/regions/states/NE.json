@@ -1,0 +1,5482 @@
+{
+ "state": "NE",
+ "state_name": "Nebraska",
+ "state_fips": "31",
+ "state_em": "Nebraska Emergency Management Agency",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "CYS": "NWS Cheyenne, WY",
+  "FSD": "NWS Sioux Falls, SD",
+  "GID": "NWS Hastings, NE",
+  "GLD": "NWS Goodland, KS",
+  "LBF": "NWS North Platte, NE",
+  "OAX": "NWS Omaha/Valley, NE"
+ },
+ "ecoregions": [
+  "High Plains",
+  "Central Great Plains",
+  "Northwestern Glaciated Plains",
+  "Northwestern Great Plains",
+  "Nebraska Sand Hills",
+  "Western Corn Belt Plains"
+ ],
+ "counties": {
+  "Adams County": {
+   "fips": "31001",
+   "centroid": [
+    40.5206,
+    -98.5
+   ],
+   "latitude": 40.5,
+   "bbox": [
+    -98.7248,
+    40.3502,
+    -98.2775,
+    40.7005
+   ],
+   "coastal": false,
+   "elevation_ft": 1930,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 88,
+   "record_low_f": -30,
+   "record_high_f": 107,
+   "precip_in": 26.4,
+   "snow_in": 29,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 16",
+   "growing_days": 176,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Hastings, NE",
+   "nws_cwa": "GID",
+   "nwr": [
+    {
+     "call": "WXL74",
+     "freq": "162.400",
+     "same": "031001"
+    },
+    {
+     "call": "WNG578",
+     "freq": "162.525",
+     "same": "031001"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 6.1
+  },
+  "Antelope County": {
+   "fips": "31003",
+   "centroid": [
+    42.1832,
+    -98.058
+   ],
+   "latitude": 42.2,
+   "bbox": [
+    -98.3006,
+    41.915,
+    -97.8332,
+    42.4378
+   ],
+   "coastal": false,
+   "elevation_ft": 1930,
+   "zone": "5a",
+   "jan_low_f": 10,
+   "jul_high_f": 83,
+   "record_low_f": -38,
+   "record_high_f": 115,
+   "precip_in": 27.6,
+   "snow_in": 31,
+   "last_frost": "May 4",
+   "first_frost": "Oct 4",
+   "growing_days": 153,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Omaha/Valley, NE",
+   "nws_cwa": "OAX",
+   "nwr": [
+    {
+     "call": "WXL77",
+     "freq": "162.550",
+     "same": "031003"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.8
+  },
+  "Arthur County": {
+   "fips": "31005",
+   "centroid": [
+    41.5719,
+    -101.6959
+   ],
+   "latitude": 41.6,
+   "bbox": [
+    -101.9856,
+    41.3947,
+    -101.4063,
+    41.7432
+   ],
+   "coastal": false,
+   "elevation_ft": 3720,
+   "zone": "5a",
+   "jan_low_f": 14,
+   "jul_high_f": 88,
+   "record_low_f": -33,
+   "record_high_f": 113,
+   "precip_in": 20.6,
+   "snow_in": 33,
+   "last_frost": "May 9",
+   "first_frost": "Oct 3",
+   "growing_days": 144,
+   "ecoregion": "Nebraska Sand Hills",
+   "ecoregion_code": "44",
+   "nws_office": "North Platte, NE",
+   "nws_cwa": "LBF",
+   "nwr": [
+    {
+     "call": "WXL68",
+     "freq": "162.550",
+     "same": "031005"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 6.3
+  },
+  "Banner County": {
+   "fips": "31007",
+   "centroid": [
+    41.5397,
+    -103.7263
+   ],
+   "latitude": 41.5,
+   "bbox": [
+    -104.053,
+    41.3929,
+    -103.3671,
+    41.6999
+   ],
+   "coastal": false,
+   "elevation_ft": 4660,
+   "zone": "5b",
+   "jan_low_f": 14,
+   "jul_high_f": 88,
+   "record_low_f": -44,
+   "record_high_f": 105,
+   "precip_in": 16.5,
+   "snow_in": 47,
+   "last_frost": "May 24",
+   "first_frost": "Sep 20",
+   "growing_days": 117,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Cheyenne, WY",
+   "nws_cwa": "CYS",
+   "nwr": [
+    {
+     "call": "WXL67",
+     "freq": "162.475",
+     "same": "031007"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 6.4
+  },
+  "Blaine County": {
+   "fips": "31009",
+   "centroid": [
+    41.9319,
+    -99.9964
+   ],
+   "latitude": 41.9,
+   "bbox": [
+    -100.268,
+    41.7387,
+    -99.6862,
+    42.0861
+   ],
+   "coastal": false,
+   "elevation_ft": 2620,
+   "zone": "5a",
+   "jan_low_f": 11,
+   "jul_high_f": 88,
+   "record_low_f": -40,
+   "record_high_f": 114,
+   "precip_in": 25.5,
+   "snow_in": 45,
+   "last_frost": "May 9",
+   "first_frost": "Oct 2",
+   "growing_days": 143,
+   "ecoregion": "Nebraska Sand Hills",
+   "ecoregion_code": "44",
+   "nws_office": "North Platte, NE",
+   "nws_cwa": "LBF",
+   "nwr": [
+    {
+     "call": "WXL73",
+     "freq": "162.475",
+     "same": "031009"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 6.0
+  },
+  "Boone County": {
+   "fips": "31011",
+   "centroid": [
+    41.7039,
+    -98.0705
+   ],
+   "latitude": 41.7,
+   "bbox": [
+    -98.296,
+    41.4805,
+    -97.8297,
+    41.9164
+   ],
+   "coastal": false,
+   "elevation_ft": 1830,
+   "zone": "5b",
+   "jan_low_f": 11,
+   "jul_high_f": 85,
+   "record_low_f": -37,
+   "record_high_f": 115,
+   "precip_in": 27.2,
+   "snow_in": 27,
+   "last_frost": "May 1",
+   "first_frost": "Oct 5",
+   "growing_days": 157,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Omaha/Valley, NE",
+   "nws_cwa": "OAX",
+   "nwr": [
+    {
+     "call": "WNG645",
+     "freq": "162.500",
+     "same": "031011"
+    },
+    {
+     "call": "WXL77",
+     "freq": "162.550",
+     "same": "031011"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 6.0
+  },
+  "Box Butte County": {
+   "fips": "31013",
+   "centroid": [
+    42.2104,
+    -103.0818
+   ],
+   "latitude": 42.2,
+   "bbox": [
+    -103.4445,
+    42.0007,
+    -102.6978,
+    42.44
+   ],
+   "coastal": false,
+   "elevation_ft": 4220,
+   "zone": "5a",
+   "jan_low_f": 16,
+   "jul_high_f": 86,
+   "record_low_f": -31,
+   "record_high_f": 107,
+   "precip_in": 18.0,
+   "snow_in": 45,
+   "last_frost": "May 8",
+   "first_frost": "Oct 5",
+   "growing_days": 149,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Cheyenne, WY",
+   "nws_cwa": "CYS",
+   "nwr": [
+    {
+     "call": "KXI20",
+     "freq": "162.525",
+     "same": "031013"
+    },
+    {
+     "call": "WXL67",
+     "freq": "162.475",
+     "same": "031013"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 6.3
+  },
+  "Boyd County": {
+   "fips": "31015",
+   "centroid": [
+    42.8944,
+    -98.773
+   ],
+   "latitude": 42.9,
+   "bbox": [
+    -99.2575,
+    42.7607,
+    -98.3051,
+    42.9993
+   ],
+   "coastal": false,
+   "elevation_ft": 1740,
+   "zone": "5a",
+   "jan_low_f": 11,
+   "jul_high_f": 86,
+   "record_low_f": -35,
+   "record_high_f": 115,
+   "precip_in": 27.4,
+   "snow_in": 36,
+   "last_frost": "May 4",
+   "first_frost": "Oct 6",
+   "growing_days": 152,
+   "ecoregion": "Northwestern Glaciated Plains",
+   "ecoregion_code": "42",
+   "nws_office": "North Platte, NE",
+   "nws_cwa": "LBF",
+   "nwr": [
+    {
+     "call": "WXL73",
+     "freq": "162.475",
+     "same": "031015"
+    },
+    {
+     "call": "KXI25",
+     "freq": "162.425",
+     "same": "031015"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.8
+  },
+  "Brown County": {
+   "fips": "31017",
+   "centroid": [
+    42.3596,
+    -99.9239
+   ],
+   "latitude": 42.4,
+   "bbox": [
+    -100.1986,
+    42.0853,
+    -99.6624,
+    42.8456
+   ],
+   "coastal": false,
+   "elevation_ft": 2710,
+   "zone": "5b",
+   "jan_low_f": 15,
+   "jul_high_f": 90,
+   "record_low_f": -34,
+   "record_high_f": 112,
+   "precip_in": 25.5,
+   "snow_in": 45,
+   "last_frost": "May 6",
+   "first_frost": "Oct 3",
+   "growing_days": 150,
+   "ecoregion": "Nebraska Sand Hills",
+   "ecoregion_code": "44",
+   "nws_office": "North Platte, NE",
+   "nws_cwa": "LBF",
+   "nwr": [
+    {
+     "call": "WXL73",
+     "freq": "162.475",
+     "same": "031017"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 6.0
+  },
+  "Buffalo County": {
+   "fips": "31019",
+   "centroid": [
+    40.8553,
+    -99.075
+   ],
+   "latitude": 40.9,
+   "bbox": [
+    -99.4268,
+    40.6521,
+    -98.7214,
+    41.0471
+   ],
+   "coastal": false,
+   "elevation_ft": 2260,
+   "zone": "5b",
+   "jan_low_f": 14,
+   "jul_high_f": 87,
+   "record_low_f": -30,
+   "record_high_f": 114,
+   "precip_in": 25.6,
+   "snow_in": 22,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 10",
+   "growing_days": 162,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Hastings, NE",
+   "nws_cwa": "GID",
+   "nwr": [
+    {
+     "call": "WXL74",
+     "freq": "162.400",
+     "same": "031019"
+    },
+    {
+     "call": "WXL75",
+     "freq": "162.475",
+     "same": "031019"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 6.2
+  },
+  "Burt County": {
+   "fips": "31021",
+   "centroid": [
+    41.8542,
+    -96.3377
+   ],
+   "latitude": 41.9,
+   "bbox": [
+    -96.5554,
+    41.6826,
+    -96.0648,
+    42.0472
+   ],
+   "coastal": false,
+   "elevation_ft": 1390,
+   "zone": "5b",
+   "jan_low_f": 10,
+   "jul_high_f": 88,
+   "record_low_f": -37,
+   "record_high_f": 113,
+   "precip_in": 31.5,
+   "snow_in": 25,
+   "last_frost": "Apr 28",
+   "first_frost": "Oct 10",
+   "growing_days": 165,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Omaha/Valley, NE",
+   "nws_cwa": "OAX",
+   "nwr": [
+    {
+     "call": "KIH61",
+     "freq": "162.400",
+     "same": "031021"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.7
+  },
+  "Butler County": {
+   "fips": "31023",
+   "centroid": [
+    41.2261,
+    -97.132
+   ],
+   "latitude": 41.2,
+   "bbox": [
+    -97.3682,
+    41.046,
+    -96.9058,
+    41.4546
+   ],
+   "coastal": false,
+   "elevation_ft": 1610,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 86,
+   "record_low_f": -30,
+   "record_high_f": 114,
+   "precip_in": 30.4,
+   "snow_in": 32,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 11",
+   "growing_days": 168,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Omaha/Valley, NE",
+   "nws_cwa": "OAX",
+   "nwr": [
+    {
+     "call": "WNG549",
+     "freq": "162.450",
+     "same": "031023"
+    },
+    {
+     "call": "WXM20",
+     "freq": "162.475",
+     "same": "031023"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 5.9
+  },
+  "Cass County": {
+   "fips": "31025",
+   "centroid": [
+    40.9099,
+    -96.1406
+   ],
+   "latitude": 40.9,
+   "bbox": [
+    -96.4638,
+    40.7834,
+    -95.8094,
+    41.066
+   ],
+   "coastal": false,
+   "elevation_ft": 1280,
+   "zone": "6a",
+   "jan_low_f": 14,
+   "jul_high_f": 86,
+   "record_low_f": -34,
+   "record_high_f": 117,
+   "precip_in": 33.6,
+   "snow_in": 33,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 16",
+   "growing_days": 175,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Omaha/Valley, NE",
+   "nws_cwa": "OAX",
+   "nwr": [
+    {
+     "call": "WXM20",
+     "freq": "162.475",
+     "same": "031025"
+    },
+    {
+     "call": "KIH61",
+     "freq": "162.400",
+     "same": "031025"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.8
+  },
+  "Cedar County": {
+   "fips": "31027",
+   "centroid": [
+    42.6046,
+    -97.2569
+   ],
+   "latitude": 42.6,
+   "bbox": [
+    -97.486,
+    42.351,
+    -97.0148,
+    42.8683
+   ],
+   "coastal": false,
+   "elevation_ft": 1370,
+   "zone": "5b",
+   "jan_low_f": 10,
+   "jul_high_f": 85,
+   "record_low_f": -38,
+   "record_high_f": 118,
+   "precip_in": 29.6,
+   "snow_in": 35,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 5",
+   "growing_days": 159,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Omaha/Valley, NE",
+   "nws_cwa": "OAX",
+   "nwr": [
+    {
+     "call": "WXL77",
+     "freq": "162.550",
+     "same": "031027"
+    },
+    {
+     "call": "KXI21",
+     "freq": "162.500",
+     "same": "031027"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.7
+  },
+  "Chase County": {
+   "fips": "31029",
+   "centroid": [
+    40.5304,
+    -101.6942
+   ],
+   "latitude": 40.5,
+   "bbox": [
+    -102.0518,
+    40.3492,
+    -101.3426,
+    40.7002
+   ],
+   "coastal": false,
+   "elevation_ft": 3330,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 91,
+   "record_low_f": -35,
+   "record_high_f": 116,
+   "precip_in": 19.8,
+   "snow_in": 26,
+   "last_frost": "May 7",
+   "first_frost": "Oct 5",
+   "growing_days": 150,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "North Platte, NE",
+   "nws_cwa": "LBF",
+   "nwr": [
+    {
+     "call": "WXL68",
+     "freq": "162.550",
+     "same": "031029"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 6.4
+  },
+  "Cherry County": {
+   "fips": "31031",
+   "centroid": [
+    42.5713,
+    -101.0477
+   ],
+   "latitude": 42.6,
+   "bbox": [
+    -102.085,
+    42.0858,
+    -100.1674,
+    42.9994
+   ],
+   "coastal": false,
+   "elevation_ft": 3050,
+   "zone": "5b",
+   "jan_low_f": 17,
+   "jul_high_f": 88,
+   "record_low_f": -30,
+   "record_high_f": 109,
+   "precip_in": 23.4,
+   "snow_in": 38,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 11",
+   "growing_days": 163,
+   "ecoregion": "Nebraska Sand Hills",
+   "ecoregion_code": "44",
+   "nws_office": "North Platte, NE",
+   "nws_cwa": "LBF",
+   "nwr": [
+    {
+     "call": "WXL76",
+     "freq": "162.400",
+     "same": "031031"
+    },
+    {
+     "call": "KPS502",
+     "freq": "162.425",
+     "same": "031031"
+    },
+    {
+     "call": "WXN82",
+     "freq": "162.450",
+     "same": "031031"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 6.2
+  },
+  "Cheyenne County": {
+   "fips": "31033",
+   "centroid": [
+    41.2142,
+    -103.0119
+   ],
+   "latitude": 41.2,
+   "bbox": [
+    -103.3825,
+    41.0014,
+    -102.6094,
+    41.4393
+   ],
+   "coastal": false,
+   "elevation_ft": 4290,
+   "zone": "5b",
+   "jan_low_f": 17,
+   "jul_high_f": 88,
+   "record_low_f": -39,
+   "record_high_f": 110,
+   "precip_in": 18.2,
+   "snow_in": 29,
+   "last_frost": "May 8",
+   "first_frost": "Oct 4",
+   "growing_days": 149,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Cheyenne, WY",
+   "nws_cwa": "CYS",
+   "nwr": [
+    {
+     "call": "WXL67",
+     "freq": "162.475",
+     "same": "031033"
+    },
+    {
+     "call": "WXN61",
+     "freq": "162.500",
+     "same": "031033"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 6.4
+  },
+  "Clay County": {
+   "fips": "31035",
+   "centroid": [
+    40.5237,
+    -98.0509
+   ],
+   "latitude": 40.5,
+   "bbox": [
+    -98.2783,
+    40.3503,
+    -97.824,
+    40.6987
+   ],
+   "coastal": false,
+   "elevation_ft": 1790,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 87,
+   "record_low_f": -39,
+   "record_high_f": 107,
+   "precip_in": 29.8,
+   "snow_in": 18,
+   "last_frost": "Apr 19",
+   "first_frost": "Oct 20",
+   "growing_days": 181,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Hastings, NE",
+   "nws_cwa": "GID",
+   "nwr": [
+    {
+     "call": "WXL74",
+     "freq": "162.400",
+     "same": "031035"
+    },
+    {
+     "call": "WNG578",
+     "freq": "162.525",
+     "same": "031035"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 6.1
+  },
+  "Colfax County": {
+   "fips": "31037",
+   "centroid": [
+    41.575,
+    -97.0889
+   ],
+   "latitude": 41.6,
+   "bbox": [
+    -97.2536,
+    41.3762,
+    -96.9052,
+    41.7432
+   ],
+   "coastal": false,
+   "elevation_ft": 1520,
+   "zone": "5b",
+   "jan_low_f": 13,
+   "jul_high_f": 86,
+   "record_low_f": -27,
+   "record_high_f": 102,
+   "precip_in": 28.8,
+   "snow_in": 24,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 11",
+   "growing_days": 168,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Omaha/Valley, NE",
+   "nws_cwa": "OAX",
+   "nwr": [
+    {
+     "call": "WNG549",
+     "freq": "162.450",
+     "same": "031037"
+    },
+    {
+     "call": "WXL77",
+     "freq": "162.550",
+     "same": "031037"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 5.9
+  },
+  "Cuming County": {
+   "fips": "31039",
+   "centroid": [
+    41.9159,
+    -96.7885
+   ],
+   "latitude": 41.9,
+   "bbox": [
+    -97.0203,
+    41.7419,
+    -96.5549,
+    42.0905
+   ],
+   "coastal": false,
+   "elevation_ft": 1330,
+   "zone": "5b",
+   "jan_low_f": 11,
+   "jul_high_f": 85,
+   "record_low_f": -38,
+   "record_high_f": 113,
+   "precip_in": 30.8,
+   "snow_in": 29,
+   "last_frost": "Apr 28",
+   "first_frost": "Oct 12",
+   "growing_days": 165,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Omaha/Valley, NE",
+   "nws_cwa": "OAX",
+   "nwr": [
+    {
+     "call": "WXL77",
+     "freq": "162.550",
+     "same": "031039"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.7
+  },
+  "Custer County": {
+   "fips": "31041",
+   "centroid": [
+    41.3939,
+    -99.7269
+   ],
+   "latitude": 41.4,
+   "bbox": [
+    -100.2529,
+    41.0462,
+    -99.2033,
+    41.7416
+   ],
+   "coastal": false,
+   "elevation_ft": 2580,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 86,
+   "record_low_f": -42,
+   "record_high_f": 116,
+   "precip_in": 23.0,
+   "snow_in": 30,
+   "last_frost": "May 10",
+   "first_frost": "Oct 1",
+   "growing_days": 142,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "North Platte, NE",
+   "nws_cwa": "LBF",
+   "nwr": [
+    {
+     "call": "WXN72",
+     "freq": "162.500",
+     "same": "031041"
+    },
+    {
+     "call": "KWN62",
+     "freq": "162.525",
+     "same": "031041"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 6.0
+  },
+  "Dakota County": {
+   "fips": "31043",
+   "centroid": [
+    42.3916,
+    -96.5613
+   ],
+   "latitude": 42.4,
+   "bbox": [
+    -96.7267,
+    42.2764,
+    -96.3575,
+    42.5247
+   ],
+   "coastal": false,
+   "elevation_ft": 1250,
+   "zone": "5a",
+   "jan_low_f": 9,
+   "jul_high_f": 86,
+   "record_low_f": -35,
+   "record_high_f": 111,
+   "precip_in": 30.3,
+   "snow_in": 36,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 7",
+   "growing_days": 161,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "WXL62",
+     "freq": "162.475",
+     "same": "031043"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.7
+  },
+  "Dawes County": {
+   "fips": "31045",
+   "centroid": [
+    42.713,
+    -103.1354
+   ],
+   "latitude": 42.7,
+   "bbox": [
+    -103.5058,
+    42.4373,
+    -102.7729,
+    43.0009
+   ],
+   "coastal": false,
+   "elevation_ft": 3710,
+   "zone": "5a",
+   "jan_low_f": 12,
+   "jul_high_f": 89,
+   "record_low_f": -44,
+   "record_high_f": 114,
+   "precip_in": 18.8,
+   "snow_in": 50,
+   "last_frost": "May 15",
+   "first_frost": "Sep 28",
+   "growing_days": 133,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Cheyenne, WY",
+   "nws_cwa": "CYS",
+   "nwr": [
+    {
+     "call": "KXI20",
+     "freq": "162.525",
+     "same": "031045"
+    },
+    {
+     "call": "WXK64",
+     "freq": "162.425",
+     "same": "031045"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 6.3
+  },
+  "Dawson County": {
+   "fips": "31047",
+   "centroid": [
+    40.8678,
+    -99.8156
+   ],
+   "latitude": 40.9,
+   "bbox": [
+    -100.2245,
+    40.671,
+    -99.4165,
+    41.0475
+   ],
+   "coastal": false,
+   "elevation_ft": 2450,
+   "zone": "5b",
+   "jan_low_f": 15,
+   "jul_high_f": 86,
+   "record_low_f": -27,
+   "record_high_f": 114,
+   "precip_in": 23.4,
+   "snow_in": 20,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 13",
+   "growing_days": 169,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Hastings, NE",
+   "nws_cwa": "GID",
+   "nwr": [
+    {
+     "call": "WXL75",
+     "freq": "162.475",
+     "same": "031047"
+    },
+    {
+     "call": "KGG99",
+     "freq": "162.425",
+     "same": "031047"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 6.2
+  },
+  "Deuel County": {
+   "fips": "31049",
+   "centroid": [
+    41.1119,
+    -102.3326
+   ],
+   "latitude": 41.1,
+   "bbox": [
+    -102.6209,
+    41.0022,
+    -102.0516,
+    41.222
+   ],
+   "coastal": false,
+   "elevation_ft": 3780,
+   "zone": "5b",
+   "jan_low_f": 13,
+   "jul_high_f": 87,
+   "record_low_f": -38,
+   "record_high_f": 109,
+   "precip_in": 19.0,
+   "snow_in": 22,
+   "last_frost": "May 8",
+   "first_frost": "Oct 5",
+   "growing_days": 149,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "North Platte, NE",
+   "nws_cwa": "LBF",
+   "nwr": [
+    {
+     "call": "KHA55",
+     "freq": "162.525",
+     "same": "031049"
+    },
+    {
+     "call": "WXN61",
+     "freq": "162.500",
+     "same": "031049"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 6.5
+  },
+  "Dixon County": {
+   "fips": "31051",
+   "centroid": [
+    42.4851,
+    -96.8558
+   ],
+   "latitude": 42.5,
+   "bbox": [
+    -97.018,
+    42.2642,
+    -96.632,
+    42.7611
+   ],
+   "coastal": false,
+   "elevation_ft": 1410,
+   "zone": "5a",
+   "jan_low_f": 9,
+   "jul_high_f": 85,
+   "record_low_f": -32,
+   "record_high_f": 107,
+   "precip_in": 28.8,
+   "snow_in": 36,
+   "last_frost": "May 2",
+   "first_frost": "Oct 4",
+   "growing_days": 154,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "WXL77",
+     "freq": "162.550",
+     "same": "031051"
+    },
+    {
+     "call": "WXL62",
+     "freq": "162.475",
+     "same": "031051"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.7
+  },
+  "Dodge County": {
+   "fips": "31053",
+   "centroid": [
+    41.577,
+    -96.6459
+   ],
+   "latitude": 41.6,
+   "bbox": [
+    -96.9063,
+    41.393,
+    -96.3286,
+    41.7427
+   ],
+   "coastal": false,
+   "elevation_ft": 1270,
+   "zone": "5b",
+   "jan_low_f": 13,
+   "jul_high_f": 87,
+   "record_low_f": -31,
+   "record_high_f": 116,
+   "precip_in": 30.4,
+   "snow_in": 34,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 15",
+   "growing_days": 172,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Omaha/Valley, NE",
+   "nws_cwa": "OAX",
+   "nwr": [
+    {
+     "call": "WNG549",
+     "freq": "162.450",
+     "same": "031053"
+    },
+    {
+     "call": "KIH61",
+     "freq": "162.400",
+     "same": "031053"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.7
+  },
+  "Douglas County": {
+   "fips": "31055",
+   "centroid": [
+    41.2971,
+    -96.1541
+   ],
+   "latitude": 41.3,
+   "bbox": [
+    -96.4705,
+    41.1899,
+    -95.8715,
+    41.3941
+   ],
+   "coastal": false,
+   "elevation_ft": 1190,
+   "zone": "6a",
+   "jan_low_f": 15,
+   "jul_high_f": 85,
+   "record_low_f": -25,
+   "record_high_f": 107,
+   "precip_in": 33.7,
+   "snow_in": 34,
+   "last_frost": "Apr 16",
+   "first_frost": "Oct 18",
+   "growing_days": 183,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Omaha/Valley, NE",
+   "nws_cwa": "OAX",
+   "nwr": [
+    {
+     "call": "KIH61",
+     "freq": "162.400",
+     "same": "031055"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.7
+  },
+  "Dundy County": {
+   "fips": "31057",
+   "centroid": [
+    40.1802,
+    -101.6811
+   ],
+   "latitude": 40.2,
+   "bbox": [
+    -102.052,
+    40.0023,
+    -101.3229,
+    40.3505
+   ],
+   "coastal": false,
+   "elevation_ft": 3330,
+   "zone": "5b",
+   "jan_low_f": 16,
+   "jul_high_f": 91,
+   "record_low_f": -34,
+   "record_high_f": 114,
+   "precip_in": 19.7,
+   "snow_in": 28,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 12",
+   "growing_days": 163,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Goodland, KS",
+   "nws_cwa": "GLD",
+   "nwr": [
+    {
+     "call": "WNG524",
+     "freq": "162.500",
+     "same": "031057"
+    },
+    {
+     "call": "WXM87",
+     "freq": "162.475",
+     "same": "031057"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 6.4
+  },
+  "Fillmore County": {
+   "fips": "31059",
+   "centroid": [
+    40.525,
+    -97.5967
+   ],
+   "latitude": 40.5,
+   "bbox": [
+    -97.8253,
+    40.3503,
+    -97.3683,
+    40.6988
+   ],
+   "coastal": false,
+   "elevation_ft": 1640,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 86,
+   "record_low_f": -32,
+   "record_high_f": 118,
+   "precip_in": 28.2,
+   "snow_in": 21,
+   "last_frost": "Apr 20",
+   "first_frost": "Oct 18",
+   "growing_days": 178,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Hastings, NE",
+   "nws_cwa": "GID",
+   "nwr": [
+    {
+     "call": "WXL74",
+     "freq": "162.400",
+     "same": "031059"
+    },
+    {
+     "call": "WNG578",
+     "freq": "162.525",
+     "same": "031059"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.9
+  },
+  "Franklin County": {
+   "fips": "31061",
+   "centroid": [
+    40.1832,
+    -98.9621
+   ],
+   "latitude": 40.2,
+   "bbox": [
+    -99.1794,
+    40.0019,
+    -98.7258,
+    40.3507
+   ],
+   "coastal": false,
+   "elevation_ft": 2110,
+   "zone": "6a",
+   "jan_low_f": 14,
+   "jul_high_f": 89,
+   "record_low_f": -28,
+   "record_high_f": 112,
+   "precip_in": 26.5,
+   "snow_in": 19,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 8",
+   "growing_days": 161,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Hastings, NE",
+   "nws_cwa": "GID",
+   "nwr": [
+    {
+     "call": "WXL75",
+     "freq": "162.475",
+     "same": "031061"
+    },
+    {
+     "call": "KWN59",
+     "freq": "162.500",
+     "same": "031061"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 6.1
+  },
+  "Frontier County": {
+   "fips": "31063",
+   "centroid": [
+    40.5309,
+    -100.4067
+   ],
+   "latitude": 40.5,
+   "bbox": [
+    -100.7828,
+    40.3492,
+    -99.9813,
+    40.7003
+   ],
+   "coastal": false,
+   "elevation_ft": 2570,
+   "zone": "5b",
+   "jan_low_f": 14,
+   "jul_high_f": 91,
+   "record_low_f": -33,
+   "record_high_f": 114,
+   "precip_in": 21.3,
+   "snow_in": 28,
+   "last_frost": "May 1",
+   "first_frost": "Oct 9",
+   "growing_days": 160,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "North Platte, NE",
+   "nws_cwa": "LBF",
+   "nwr": [
+    {
+     "call": "KEC39",
+     "freq": "162.525",
+     "same": "031063"
+    },
+    {
+     "call": "KGG99",
+     "freq": "162.425",
+     "same": "031063"
+    },
+    {
+     "call": "WXL68",
+     "freq": "162.550",
+     "same": "031063"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 6.3
+  },
+  "Furnas County": {
+   "fips": "31065",
+   "centroid": [
+    40.1923,
+    -99.9086
+   ],
+   "latitude": 40.2,
+   "bbox": [
+    -100.1978,
+    40.0003,
+    -99.6283,
+    40.3514
+   ],
+   "coastal": false,
+   "elevation_ft": 2380,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 92,
+   "record_low_f": -35,
+   "record_high_f": 117,
+   "precip_in": 24.6,
+   "snow_in": 21,
+   "last_frost": "May 4",
+   "first_frost": "Oct 4",
+   "growing_days": 150,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Hastings, NE",
+   "nws_cwa": "GID",
+   "nwr": [
+    {
+     "call": "KEC39",
+     "freq": "162.525",
+     "same": "031065"
+    },
+    {
+     "call": "WXL75",
+     "freq": "162.475",
+     "same": "031065"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 6.2
+  },
+  "Gage County": {
+   "fips": "31067",
+   "centroid": [
+    40.2552,
+    -96.6835
+   ],
+   "latitude": 40.3,
+   "bbox": [
+    -96.9167,
+    40.0009,
+    -96.4633,
+    40.5237
+   ],
+   "coastal": false,
+   "elevation_ft": 1300,
+   "zone": "6a",
+   "jan_low_f": 14,
+   "jul_high_f": 88,
+   "record_low_f": -42,
+   "record_high_f": 114,
+   "precip_in": 31.3,
+   "snow_in": 19,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 15",
+   "growing_days": 172,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Omaha/Valley, NE",
+   "nws_cwa": "OAX",
+   "nwr": [
+    {
+     "call": "KZZ69",
+     "freq": "162.450",
+     "same": "031067"
+    },
+    {
+     "call": "WXM20",
+     "freq": "162.475",
+     "same": "031067"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.8
+  },
+  "Garden County": {
+   "fips": "31069",
+   "centroid": [
+    41.6334,
+    -102.303
+   ],
+   "latitude": 41.6,
+   "bbox": [
+    -102.6791,
+    41.2215,
+    -101.9844,
+    42.0092
+   ],
+   "coastal": false,
+   "elevation_ft": 3870,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 86,
+   "record_low_f": -46,
+   "record_high_f": 109,
+   "precip_in": 18.8,
+   "snow_in": 36,
+   "last_frost": "May 13",
+   "first_frost": "Sep 29",
+   "growing_days": 139,
+   "ecoregion": "Nebraska Sand Hills",
+   "ecoregion_code": "44",
+   "nws_office": "North Platte, NE",
+   "nws_cwa": "LBF",
+   "nwr": [
+    {
+     "call": "KHA55",
+     "freq": "162.525",
+     "same": "031069"
+    },
+    {
+     "call": "WXL67",
+     "freq": "162.475",
+     "same": "031069"
+    },
+    {
+     "call": "WXN61",
+     "freq": "162.500",
+     "same": "031069"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 6.5
+  },
+  "Garfield County": {
+   "fips": "31071",
+   "centroid": [
+    41.9069,
+    -98.9513
+   ],
+   "latitude": 41.9,
+   "bbox": [
+    -99.2233,
+    41.7402,
+    -98.7591,
+    42.0885
+   ],
+   "coastal": false,
+   "elevation_ft": 2250,
+   "zone": "5a",
+   "jan_low_f": 11,
+   "jul_high_f": 86,
+   "record_low_f": -35,
+   "record_high_f": 111,
+   "precip_in": 26.6,
+   "snow_in": 29,
+   "last_frost": "May 6",
+   "first_frost": "Oct 2",
+   "growing_days": 149,
+   "ecoregion": "Nebraska Sand Hills",
+   "ecoregion_code": "44",
+   "nws_office": "North Platte, NE",
+   "nws_cwa": "LBF",
+   "nwr": [
+    {
+     "call": "WXL73",
+     "freq": "162.475",
+     "same": "031071"
+    },
+    {
+     "call": "KWN62",
+     "freq": "162.525",
+     "same": "031071"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 6.0
+  },
+  "Gosper County": {
+   "fips": "31073",
+   "centroid": [
+    40.5091,
+    -99.8232
+   ],
+   "latitude": 40.5,
+   "bbox": [
+    -100.0953,
+    40.3509,
+    -99.6423,
+    40.7002
+   ],
+   "coastal": false,
+   "elevation_ft": 2540,
+   "zone": "5b",
+   "jan_low_f": 15,
+   "jul_high_f": 86,
+   "record_low_f": -27,
+   "record_high_f": 114,
+   "precip_in": 23.4,
+   "snow_in": 20,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 13",
+   "growing_days": 169,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Hastings, NE",
+   "nws_cwa": "GID",
+   "nwr": [
+    {
+     "call": "KEC39",
+     "freq": "162.525",
+     "same": "031073"
+    },
+    {
+     "call": "WXL75",
+     "freq": "162.475",
+     "same": "031073"
+    },
+    {
+     "call": "KGG99",
+     "freq": "162.425",
+     "same": "031073"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 6.2
+  },
+  "Grant County": {
+   "fips": "31075",
+   "centroid": [
+    41.914,
+    -101.756
+   ],
+   "latitude": 41.9,
+   "bbox": [
+    -102.0679,
+    41.7418,
+    -101.426,
+    42.0964
+   ],
+   "coastal": false,
+   "elevation_ft": 3700,
+   "zone": "5a",
+   "jan_low_f": 16,
+   "jul_high_f": 85,
+   "record_low_f": -33,
+   "record_high_f": 113,
+   "precip_in": 18.3,
+   "snow_in": 33,
+   "last_frost": "May 4",
+   "first_frost": "Oct 8",
+   "growing_days": 155,
+   "ecoregion": "Nebraska Sand Hills",
+   "ecoregion_code": "44",
+   "nws_office": "North Platte, NE",
+   "nws_cwa": "LBF",
+   "nwr": [
+    {
+     "call": "KPS502",
+     "freq": "162.425",
+     "same": "031075"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 6.3
+  },
+  "Greeley County": {
+   "fips": "31077",
+   "centroid": [
+    41.5676,
+    -98.5306
+   ],
+   "latitude": 41.6,
+   "bbox": [
+    -98.7522,
+    41.3937,
+    -98.2909,
+    41.7413
+   ],
+   "coastal": false,
+   "elevation_ft": 2070,
+   "zone": "5a",
+   "jan_low_f": 11,
+   "jul_high_f": 86,
+   "record_low_f": -38,
+   "record_high_f": 114,
+   "precip_in": 25.8,
+   "snow_in": 30,
+   "last_frost": "May 5",
+   "first_frost": "Oct 2",
+   "growing_days": 149,
+   "ecoregion": "Nebraska Sand Hills",
+   "ecoregion_code": "44",
+   "nws_office": "Hastings, NE",
+   "nws_cwa": "GID",
+   "nwr": [
+    {
+     "call": "WNG645",
+     "freq": "162.500",
+     "same": "031077"
+    },
+    {
+     "call": "KWN62",
+     "freq": "162.525",
+     "same": "031077"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 6.0
+  },
+  "Hall County": {
+   "fips": "31079",
+   "centroid": [
+    40.866,
+    -98.5027
+   ],
+   "latitude": 40.9,
+   "bbox": [
+    -98.722,
+    40.6982,
+    -98.2819,
+    41.0467
+   ],
+   "coastal": false,
+   "elevation_ft": 1930,
+   "zone": "5b",
+   "jan_low_f": 16,
+   "jul_high_f": 88,
+   "record_low_f": -34,
+   "record_high_f": 111,
+   "precip_in": 26.6,
+   "snow_in": 28,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 15",
+   "growing_days": 174,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Hastings, NE",
+   "nws_cwa": "GID",
+   "nwr": [
+    {
+     "call": "WXL74",
+     "freq": "162.400",
+     "same": "031079"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 6.1
+  },
+  "Hamilton County": {
+   "fips": "31081",
+   "centroid": [
+    40.8728,
+    -98.0223
+   ],
+   "latitude": 40.9,
+   "bbox": [
+    -98.2829,
+    40.6983,
+    -97.8253,
+    41.1727
+   ],
+   "coastal": false,
+   "elevation_ft": 1790,
+   "zone": "6a",
+   "jan_low_f": 15,
+   "jul_high_f": 86,
+   "record_low_f": -31,
+   "record_high_f": 116,
+   "precip_in": 30.4,
+   "snow_in": 27,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 15",
+   "growing_days": 176,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Hastings, NE",
+   "nws_cwa": "GID",
+   "nwr": [
+    {
+     "call": "WXL74",
+     "freq": "162.400",
+     "same": "031081"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 6.1
+  },
+  "Harlan County": {
+   "fips": "31083",
+   "centroid": [
+    40.1788,
+    -99.4034
+   ],
+   "latitude": 40.2,
+   "bbox": [
+    -99.6307,
+    40.0014,
+    -99.179,
+    40.3512
+   ],
+   "coastal": false,
+   "elevation_ft": 2140,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 89,
+   "record_low_f": -17,
+   "record_high_f": 106,
+   "precip_in": 25.4,
+   "snow_in": 24,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 18",
+   "growing_days": 174,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Hastings, NE",
+   "nws_cwa": "GID",
+   "nwr": [
+    {
+     "call": "WXL75",
+     "freq": "162.475",
+     "same": "031083"
+    },
+    {
+     "call": "KWN59",
+     "freq": "162.500",
+     "same": "031083"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 6.2
+  },
+  "Hayes County": {
+   "fips": "31085",
+   "centroid": [
+    40.5372,
+    -101.048
+   ],
+   "latitude": 40.5,
+   "bbox": [
+    -101.3453,
+    40.3494,
+    -100.7771,
+    40.7002
+   ],
+   "coastal": false,
+   "elevation_ft": 3070,
+   "zone": "6a",
+   "jan_low_f": 15,
+   "jul_high_f": 89,
+   "record_low_f": -30,
+   "record_high_f": 114,
+   "precip_in": 21.5,
+   "snow_in": 30,
+   "last_frost": "May 3",
+   "first_frost": "Oct 10",
+   "growing_days": 159,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "North Platte, NE",
+   "nws_cwa": "LBF",
+   "nwr": [
+    {
+     "call": "WXL68",
+     "freq": "162.550",
+     "same": "031085"
+    },
+    {
+     "call": "WNG524",
+     "freq": "162.500",
+     "same": "031085"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 6.4
+  },
+  "Hitchcock County": {
+   "fips": "31087",
+   "centroid": [
+    40.1769,
+    -101.0442
+   ],
+   "latitude": 40.2,
+   "bbox": [
+    -101.3254,
+    40.0021,
+    -100.7583,
+    40.3509
+   ],
+   "coastal": false,
+   "elevation_ft": 2800,
+   "zone": "6a",
+   "jan_low_f": 15,
+   "jul_high_f": 91,
+   "record_low_f": -31,
+   "record_high_f": 111,
+   "precip_in": 20.3,
+   "snow_in": 22,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 13",
+   "growing_days": 166,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Goodland, KS",
+   "nws_cwa": "GLD",
+   "nwr": [
+    {
+     "call": "WNG524",
+     "freq": "162.500",
+     "same": "031087"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 6.4
+  },
+  "Holt County": {
+   "fips": "31089",
+   "centroid": [
+    42.4593,
+    -98.7848
+   ],
+   "latitude": 42.5,
+   "bbox": [
+    -99.2573,
+    42.0879,
+    -98.3001,
+    42.8967
+   ],
+   "coastal": false,
+   "elevation_ft": 2010,
+   "zone": "5a",
+   "jan_low_f": 11,
+   "jul_high_f": 87,
+   "record_low_f": -34,
+   "record_high_f": 112,
+   "precip_in": 25.9,
+   "snow_in": 26,
+   "last_frost": "May 3",
+   "first_frost": "Oct 5",
+   "growing_days": 155,
+   "ecoregion": "Nebraska Sand Hills",
+   "ecoregion_code": "44",
+   "nws_office": "North Platte, NE",
+   "nws_cwa": "LBF",
+   "nwr": [
+    {
+     "call": "WXL73",
+     "freq": "162.475",
+     "same": "031089"
+    },
+    {
+     "call": "KXI25",
+     "freq": "162.425",
+     "same": "031089"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.8
+  },
+  "Hooker County": {
+   "fips": "31091",
+   "centroid": [
+    41.9203,
+    -101.1173
+   ],
+   "latitude": 41.9,
+   "bbox": [
+    -101.4267,
+    41.7399,
+    -100.8425,
+    42.0922
+   ],
+   "coastal": false,
+   "elevation_ft": 3280,
+   "zone": "5b",
+   "jan_low_f": 15,
+   "jul_high_f": 86,
+   "record_low_f": -38,
+   "record_high_f": 111,
+   "precip_in": 24.2,
+   "snow_in": 42,
+   "last_frost": "May 7",
+   "first_frost": "Oct 5",
+   "growing_days": 150,
+   "ecoregion": "Nebraska Sand Hills",
+   "ecoregion_code": "44",
+   "nws_office": "North Platte, NE",
+   "nws_cwa": "LBF",
+   "nwr": [
+    {
+     "call": "KPS502",
+     "freq": "162.425",
+     "same": "031091"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 6.3
+  },
+  "Howard County": {
+   "fips": "31093",
+   "centroid": [
+    41.2169,
+    -98.5133
+   ],
+   "latitude": 41.2,
+   "bbox": [
+    -98.749,
+    41.046,
+    -98.2866,
+    41.3945
+   ],
+   "coastal": false,
+   "elevation_ft": 1920,
+   "zone": "5b",
+   "jan_low_f": 14,
+   "jul_high_f": 89,
+   "record_low_f": -33,
+   "record_high_f": 115,
+   "precip_in": 27.3,
+   "snow_in": 22,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 14",
+   "growing_days": 172,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Hastings, NE",
+   "nws_cwa": "GID",
+   "nwr": [
+    {
+     "call": "WXL74",
+     "freq": "162.400",
+     "same": "031093"
+    },
+    {
+     "call": "KWN62",
+     "freq": "162.525",
+     "same": "031093"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 6.0
+  },
+  "Jefferson County": {
+   "fips": "31095",
+   "centroid": [
+    40.1757,
+    -97.1431
+   ],
+   "latitude": 40.2,
+   "bbox": [
+    -97.3691,
+    40.0012,
+    -96.9147,
+    40.3508
+   ],
+   "coastal": false,
+   "elevation_ft": 1450,
+   "zone": "6a",
+   "jan_low_f": 14,
+   "jul_high_f": 88,
+   "record_low_f": -42,
+   "record_high_f": 114,
+   "precip_in": 32.4,
+   "snow_in": 21,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 15",
+   "growing_days": 169,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Omaha/Valley, NE",
+   "nws_cwa": "OAX",
+   "nwr": [
+    {
+     "call": "KZZ69",
+     "freq": "162.450",
+     "same": "031095"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.9
+  },
+  "Johnson County": {
+   "fips": "31097",
+   "centroid": [
+    40.395,
+    -96.2653
+   ],
+   "latitude": 40.4,
+   "bbox": [
+    -96.4638,
+    40.2619,
+    -96.0658,
+    40.5232
+   ],
+   "coastal": false,
+   "elevation_ft": 1130,
+   "zone": "5b",
+   "jan_low_f": 13,
+   "jul_high_f": 88,
+   "record_low_f": -34,
+   "record_high_f": 112,
+   "precip_in": 32.3,
+   "snow_in": 22,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 10",
+   "growing_days": 164,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Omaha/Valley, NE",
+   "nws_cwa": "OAX",
+   "nwr": [
+    {
+     "call": "WXM20",
+     "freq": "162.475",
+     "same": "031097"
+    },
+    {
+     "call": "KWN41",
+     "freq": "162.500",
+     "same": "031097"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.8
+  },
+  "Kearney County": {
+   "fips": "31099",
+   "centroid": [
+    40.5091,
+    -98.9476
+   ],
+   "latitude": 40.5,
+   "bbox": [
+    -99.1799,
+    40.3503,
+    -98.7239,
+    40.6895
+   ],
+   "coastal": false,
+   "elevation_ft": 2150,
+   "zone": "5b",
+   "jan_low_f": 14,
+   "jul_high_f": 87,
+   "record_low_f": -33,
+   "record_high_f": 118,
+   "precip_in": 25.7,
+   "snow_in": 25,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 12",
+   "growing_days": 168,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Hastings, NE",
+   "nws_cwa": "GID",
+   "nwr": [
+    {
+     "call": "WXL75",
+     "freq": "162.475",
+     "same": "031099"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 6.1
+  },
+  "Keith County": {
+   "fips": "31101",
+   "centroid": [
+    41.1942,
+    -101.6444
+   ],
+   "latitude": 41.2,
+   "bbox": [
+    -102.0558,
+    41.0027,
+    -101.25,
+    41.3956
+   ],
+   "coastal": false,
+   "elevation_ft": 3400,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 87,
+   "record_low_f": -25,
+   "record_high_f": 111,
+   "precip_in": 19.2,
+   "snow_in": 21,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 18",
+   "growing_days": 176,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "North Platte, NE",
+   "nws_cwa": "LBF",
+   "nwr": [
+    {
+     "call": "WXL68",
+     "freq": "162.550",
+     "same": "031101"
+    },
+    {
+     "call": "KHA55",
+     "freq": "162.525",
+     "same": "031101"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 6.3
+  },
+  "Keya Paha County": {
+   "fips": "31103",
+   "centroid": [
+    42.8755,
+    -99.7184
+   ],
+   "latitude": 42.9,
+   "bbox": [
+    -100.1985,
+    42.7176,
+    -99.254,
+    42.9987
+   ],
+   "coastal": false,
+   "elevation_ft": 2300,
+   "zone": "5a",
+   "jan_low_f": 9,
+   "jul_high_f": 88,
+   "record_low_f": -34,
+   "record_high_f": 113,
+   "precip_in": 23.8,
+   "snow_in": 36,
+   "last_frost": "May 10",
+   "first_frost": "Oct 1",
+   "growing_days": 143,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "North Platte, NE",
+   "nws_cwa": "LBF",
+   "nwr": [
+    {
+     "call": "WXL73",
+     "freq": "162.475",
+     "same": "031103"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 6.0
+  },
+  "Kimball County": {
+   "fips": "31105",
+   "centroid": [
+    41.1993,
+    -103.7032
+   ],
+   "latitude": 41.2,
+   "bbox": [
+    -104.0535,
+    41.001,
+    -103.3756,
+    41.3946
+   ],
+   "coastal": false,
+   "elevation_ft": 4930,
+   "zone": "5b",
+   "jan_low_f": 13,
+   "jul_high_f": 86,
+   "record_low_f": -36,
+   "record_high_f": 110,
+   "precip_in": 15.8,
+   "snow_in": 30,
+   "last_frost": "May 15",
+   "first_frost": "Sep 26",
+   "growing_days": 132,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Cheyenne, WY",
+   "nws_cwa": "CYS",
+   "nwr": [
+    {
+     "call": "WXL67",
+     "freq": "162.475",
+     "same": "031105"
+    },
+    {
+     "call": "WXN61",
+     "freq": "162.500",
+     "same": "031105"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 6.4
+  },
+  "Knox County": {
+   "fips": "31107",
+   "centroid": [
+    42.6344,
+    -97.8913
+   ],
+   "latitude": 42.6,
+   "bbox": [
+    -98.3103,
+    42.4369,
+    -97.4846,
+    42.8818
+   ],
+   "coastal": false,
+   "elevation_ft": 1520,
+   "zone": "5a",
+   "jan_low_f": 10,
+   "jul_high_f": 86,
+   "record_low_f": -36,
+   "record_high_f": 114,
+   "precip_in": 29.1,
+   "snow_in": 36,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 6",
+   "growing_days": 158,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Omaha/Valley, NE",
+   "nws_cwa": "OAX",
+   "nwr": [
+    {
+     "call": "WXL77",
+     "freq": "162.550",
+     "same": "031107"
+    },
+    {
+     "call": "KXI21",
+     "freq": "162.500",
+     "same": "031107"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.7
+  },
+  "Lancaster County": {
+   "fips": "31109",
+   "centroid": [
+    40.7835,
+    -96.6887
+   ],
+   "latitude": 40.8,
+   "bbox": [
+    -96.9141,
+    40.5219,
+    -96.4635,
+    41.046
+   ],
+   "coastal": false,
+   "elevation_ft": 1220,
+   "zone": "6a",
+   "jan_low_f": 14,
+   "jul_high_f": 89,
+   "record_low_f": -33,
+   "record_high_f": 108,
+   "precip_in": 29.3,
+   "snow_in": 26,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 13",
+   "growing_days": 171,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Omaha/Valley, NE",
+   "nws_cwa": "OAX",
+   "nwr": [
+    {
+     "call": "WXM20",
+     "freq": "162.475",
+     "same": "031109"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.8
+  },
+  "Lincoln County": {
+   "fips": "31111",
+   "centroid": [
+    41.0503,
+    -100.7445
+   ],
+   "latitude": 41.1,
+   "bbox": [
+    -101.2705,
+    40.6978,
+    -100.2233,
+    41.3951
+   ],
+   "coastal": false,
+   "elevation_ft": 3050,
+   "zone": "5b",
+   "jan_low_f": 14,
+   "jul_high_f": 87,
+   "record_low_f": -36,
+   "record_high_f": 111,
+   "precip_in": 21.2,
+   "snow_in": 28,
+   "last_frost": "May 3",
+   "first_frost": "Oct 10",
+   "growing_days": 158,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "North Platte, NE",
+   "nws_cwa": "LBF",
+   "nwr": [
+    {
+     "call": "WXL68",
+     "freq": "162.550",
+     "same": "031111"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 6.2
+  },
+  "Logan County": {
+   "fips": "31113",
+   "centroid": [
+    41.5422,
+    -100.4437
+   ],
+   "latitude": 41.5,
+   "bbox": [
+    -100.7149,
+    41.3931,
+    -100.2508,
+    41.7401
+   ],
+   "coastal": false,
+   "elevation_ft": 2900,
+   "zone": "5a",
+   "jan_low_f": 13,
+   "jul_high_f": 85,
+   "record_low_f": -31,
+   "record_high_f": 106,
+   "precip_in": 23.5,
+   "snow_in": 31,
+   "last_frost": "May 5",
+   "first_frost": "Oct 3",
+   "growing_days": 149,
+   "ecoregion": "Nebraska Sand Hills",
+   "ecoregion_code": "44",
+   "nws_office": "North Platte, NE",
+   "nws_cwa": "LBF",
+   "nwr": [
+    {
+     "call": "WXL68",
+     "freq": "162.550",
+     "same": "031113"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 6.2
+  },
+  "Loup County": {
+   "fips": "31115",
+   "centroid": [
+    41.8982,
+    -99.5145
+   ],
+   "latitude": 41.9,
+   "bbox": [
+    -99.6871,
+    41.7402,
+    -99.2217,
+    42.0879
+   ],
+   "coastal": false,
+   "elevation_ft": 2440,
+   "zone": "5a",
+   "jan_low_f": 9,
+   "jul_high_f": 86,
+   "record_low_f": -31,
+   "record_high_f": 110,
+   "precip_in": 26.8,
+   "snow_in": 30,
+   "last_frost": "May 3",
+   "first_frost": "Oct 5",
+   "growing_days": 153,
+   "ecoregion": "Nebraska Sand Hills",
+   "ecoregion_code": "44",
+   "nws_office": "North Platte, NE",
+   "nws_cwa": "LBF",
+   "nwr": [
+    {
+     "call": "WXL73",
+     "freq": "162.475",
+     "same": "031115"
+    },
+    {
+     "call": "KWN62",
+     "freq": "162.525",
+     "same": "031115"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 6.0
+  },
+  "McPherson County": {
+   "fips": "31117",
+   "centroid": [
+    41.6484,
+    -101.1209
+   ],
+   "latitude": 41.6,
+   "bbox": [
+    -101.4073,
+    41.3935,
+    -100.7114,
+    41.7436
+   ],
+   "coastal": false,
+   "elevation_ft": 3370,
+   "zone": "5b",
+   "jan_low_f": 15,
+   "jul_high_f": 86,
+   "record_low_f": -38,
+   "record_high_f": 111,
+   "precip_in": 24.2,
+   "snow_in": 42,
+   "last_frost": "May 7",
+   "first_frost": "Oct 5",
+   "growing_days": 150,
+   "ecoregion": "Nebraska Sand Hills",
+   "ecoregion_code": "44",
+   "nws_office": "North Platte, NE",
+   "nws_cwa": "LBF",
+   "nwr": [
+    {
+     "call": "KPS502",
+     "freq": "162.425",
+     "same": "031117"
+    },
+    {
+     "call": "WXL68",
+     "freq": "162.550",
+     "same": "031117"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 6.3
+  },
+  "Madison County": {
+   "fips": "31119",
+   "centroid": [
+    41.9099,
+    -97.6069
+   ],
+   "latitude": 41.9,
+   "bbox": [
+    -97.8347,
+    41.7422,
+    -97.368,
+    42.0908
+   ],
+   "coastal": false,
+   "elevation_ft": 1680,
+   "zone": "5b",
+   "jan_low_f": 10,
+   "jul_high_f": 85,
+   "record_low_f": -34,
+   "record_high_f": 117,
+   "precip_in": 28.2,
+   "snow_in": 30,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 6",
+   "growing_days": 160,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Omaha/Valley, NE",
+   "nws_cwa": "OAX",
+   "nwr": [
+    {
+     "call": "WXL77",
+     "freq": "162.550",
+     "same": "031119"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 5.9
+  },
+  "Merrick County": {
+   "fips": "31121",
+   "centroid": [
+    41.1698,
+    -98.0311
+   ],
+   "latitude": 41.2,
+   "bbox": [
+    -98.2871,
+    40.8734,
+    -97.598,
+    41.3951
+   ],
+   "coastal": false,
+   "elevation_ft": 1690,
+   "zone": "5b",
+   "jan_low_f": 14,
+   "jul_high_f": 86,
+   "record_low_f": -28,
+   "record_high_f": 116,
+   "precip_in": 28.5,
+   "snow_in": 29,
+   "last_frost": "Apr 28",
+   "first_frost": "Oct 10",
+   "growing_days": 165,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Hastings, NE",
+   "nws_cwa": "GID",
+   "nwr": [
+    {
+     "call": "WNG549",
+     "freq": "162.450",
+     "same": "031121"
+    },
+    {
+     "call": "WXL74",
+     "freq": "162.400",
+     "same": "031121"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 6.0
+  },
+  "Morrill County": {
+   "fips": "31123",
+   "centroid": [
+    41.7322,
+    -102.9906
+   ],
+   "latitude": 41.7,
+   "bbox": [
+    -103.3712,
+    41.4376,
+    -102.6365,
+    42.0053
+   ],
+   "coastal": false,
+   "elevation_ft": 4180,
+   "zone": "5b",
+   "jan_low_f": 16,
+   "jul_high_f": 92,
+   "record_low_f": -47,
+   "record_high_f": 111,
+   "precip_in": 18.6,
+   "snow_in": 39,
+   "last_frost": "May 8",
+   "first_frost": "Oct 3",
+   "growing_days": 147,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Cheyenne, WY",
+   "nws_cwa": "CYS",
+   "nwr": [
+    {
+     "call": "WXL67",
+     "freq": "162.475",
+     "same": "031123"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 6.5
+  },
+  "Nance County": {
+   "fips": "31125",
+   "centroid": [
+    41.4024,
+    -97.9914
+   ],
+   "latitude": 41.4,
+   "bbox": [
+    -98.2915,
+    41.264,
+    -97.7036,
+    41.5269
+   ],
+   "coastal": false,
+   "elevation_ft": 1680,
+   "zone": "5b",
+   "jan_low_f": 13,
+   "jul_high_f": 85,
+   "record_low_f": -34,
+   "record_high_f": 116,
+   "precip_in": 27.7,
+   "snow_in": 29,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 5",
+   "growing_days": 157,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Hastings, NE",
+   "nws_cwa": "GID",
+   "nwr": [
+    {
+     "call": "WNG645",
+     "freq": "162.500",
+     "same": "031125"
+    },
+    {
+     "call": "WNG549",
+     "freq": "162.450",
+     "same": "031125"
+    },
+    {
+     "call": "WXL74",
+     "freq": "162.400",
+     "same": "031125"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 5.9
+  },
+  "Nemaha County": {
+   "fips": "31127",
+   "centroid": [
+    40.3872,
+    -95.8525
+   ],
+   "latitude": 40.4,
+   "bbox": [
+    -96.0669,
+    40.2609,
+    -95.551,
+    40.5626
+   ],
+   "coastal": false,
+   "elevation_ft": 1020,
+   "zone": "5b",
+   "jan_low_f": 14,
+   "jul_high_f": 87,
+   "record_low_f": -35,
+   "record_high_f": 113,
+   "precip_in": 32.3,
+   "snow_in": 30,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 10",
+   "growing_days": 167,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Omaha/Valley, NE",
+   "nws_cwa": "OAX",
+   "nwr": [
+    {
+     "call": "KWN41",
+     "freq": "162.500",
+     "same": "031127"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.7
+  },
+  "Nuckolls County": {
+   "fips": "31129",
+   "centroid": [
+    40.1765,
+    -98.0468
+   ],
+   "latitude": 40.2,
+   "bbox": [
+    -98.2743,
+    40.0011,
+    -97.8206,
+    40.3508
+   ],
+   "coastal": false,
+   "elevation_ft": 1730,
+   "zone": "6a",
+   "jan_low_f": 14,
+   "jul_high_f": 89,
+   "record_low_f": -33,
+   "record_high_f": 112,
+   "precip_in": 27.9,
+   "snow_in": 21,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 10",
+   "growing_days": 162,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Hastings, NE",
+   "nws_cwa": "GID",
+   "nwr": [
+    {
+     "call": "WNG578",
+     "freq": "162.525",
+     "same": "031129"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 6.1
+  },
+  "Otoe County": {
+   "fips": "31131",
+   "centroid": [
+    40.638,
+    -96.131
+   ],
+   "latitude": 40.6,
+   "bbox": [
+    -96.4638,
+    40.5219,
+    -95.7106,
+    40.7844
+   ],
+   "coastal": false,
+   "elevation_ft": 1160,
+   "zone": "5b",
+   "jan_low_f": 13,
+   "jul_high_f": 88,
+   "record_low_f": -33,
+   "record_high_f": 116,
+   "precip_in": 32.2,
+   "snow_in": 26,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 11",
+   "growing_days": 168,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Omaha/Valley, NE",
+   "nws_cwa": "OAX",
+   "nwr": [
+    {
+     "call": "WXM20",
+     "freq": "162.475",
+     "same": "031131"
+    },
+    {
+     "call": "KIH61",
+     "freq": "162.400",
+     "same": "031131"
+    },
+    {
+     "call": "KWN41",
+     "freq": "162.500",
+     "same": "031131"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.8
+  },
+  "Pawnee County": {
+   "fips": "31133",
+   "centroid": [
+    40.1378,
+    -96.2452
+   ],
+   "latitude": 40.1,
+   "bbox": [
+    -96.4638,
+    40.0005,
+    -96.0101,
+    40.2625
+   ],
+   "coastal": false,
+   "elevation_ft": 1230,
+   "zone": "6a",
+   "jan_low_f": 15,
+   "jul_high_f": 88,
+   "record_low_f": -29,
+   "record_high_f": 117,
+   "precip_in": 34.1,
+   "snow_in": 21,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 15",
+   "growing_days": 173,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Omaha/Valley, NE",
+   "nws_cwa": "OAX",
+   "nwr": [
+    {
+     "call": "KWN41",
+     "freq": "162.500",
+     "same": "031133"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.8
+  },
+  "Perkins County": {
+   "fips": "31135",
+   "centroid": [
+    40.8576,
+    -101.6275
+   ],
+   "latitude": 40.9,
+   "bbox": [
+    -102.0516,
+    40.6975,
+    -101.2465,
+    41.0039
+   ],
+   "coastal": false,
+   "elevation_ft": 3390,
+   "zone": "5b",
+   "jan_low_f": 14,
+   "jul_high_f": 89,
+   "record_low_f": -33,
+   "record_high_f": 114,
+   "precip_in": 21.4,
+   "snow_in": 25,
+   "last_frost": "May 4",
+   "first_frost": "Oct 7",
+   "growing_days": 156,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "North Platte, NE",
+   "nws_cwa": "LBF",
+   "nwr": [
+    {
+     "call": "WXL68",
+     "freq": "162.550",
+     "same": "031135"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 6.4
+  },
+  "Phelps County": {
+   "fips": "31137",
+   "centroid": [
+    40.5164,
+    -99.4066
+   ],
+   "latitude": 40.5,
+   "bbox": [
+    -99.6444,
+    40.3505,
+    -99.1792,
+    40.6858
+   ],
+   "coastal": false,
+   "elevation_ft": 2340,
+   "zone": "6a",
+   "jan_low_f": 13,
+   "jul_high_f": 87,
+   "record_low_f": -29,
+   "record_high_f": 113,
+   "precip_in": 27.6,
+   "snow_in": 25,
+   "last_frost": "May 2",
+   "first_frost": "Oct 11",
+   "growing_days": 162,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Hastings, NE",
+   "nws_cwa": "GID",
+   "nwr": [
+    {
+     "call": "WXL75",
+     "freq": "162.475",
+     "same": "031137"
+    },
+    {
+     "call": "KGG99",
+     "freq": "162.425",
+     "same": "031137"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 6.2
+  },
+  "Pierce County": {
+   "fips": "31139",
+   "centroid": [
+    42.2714,
+    -97.611
+   ],
+   "latitude": 42.3,
+   "bbox": [
+    -97.8351,
+    42.0897,
+    -97.3675,
+    42.439
+   ],
+   "coastal": false,
+   "elevation_ft": 1680,
+   "zone": "5a",
+   "jan_low_f": 10,
+   "jul_high_f": 86,
+   "record_low_f": -35,
+   "record_high_f": 110,
+   "precip_in": 27.5,
+   "snow_in": 30,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 6",
+   "growing_days": 160,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Omaha/Valley, NE",
+   "nws_cwa": "OAX",
+   "nwr": [
+    {
+     "call": "WXL77",
+     "freq": "162.550",
+     "same": "031139"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.7
+  },
+  "Platte County": {
+   "fips": "31141",
+   "centroid": [
+    41.5769,
+    -97.5135
+   ],
+   "latitude": 41.6,
+   "bbox": [
+    -97.8318,
+    41.3334,
+    -97.2522,
+    41.7432
+   ],
+   "coastal": false,
+   "elevation_ft": 1670,
+   "zone": "5b",
+   "jan_low_f": 14,
+   "jul_high_f": 87,
+   "record_low_f": -29,
+   "record_high_f": 115,
+   "precip_in": 28.7,
+   "snow_in": 26,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 15",
+   "growing_days": 174,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Omaha/Valley, NE",
+   "nws_cwa": "OAX",
+   "nwr": [
+    {
+     "call": "WNG645",
+     "freq": "162.500",
+     "same": "031141"
+    },
+    {
+     "call": "WNG549",
+     "freq": "162.450",
+     "same": "031141"
+    },
+    {
+     "call": "WXL77",
+     "freq": "162.550",
+     "same": "031141"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 5.9
+  },
+  "Polk County": {
+   "fips": "31143",
+   "centroid": [
+    41.1879,
+    -97.5707
+   ],
+   "latitude": 41.2,
+   "bbox": [
+    -97.8285,
+    41.0465,
+    -97.368,
+    41.3969
+   ],
+   "coastal": false,
+   "elevation_ft": 1680,
+   "zone": "5b",
+   "jan_low_f": 13,
+   "jul_high_f": 86,
+   "record_low_f": -31,
+   "record_high_f": 116,
+   "precip_in": 28.8,
+   "snow_in": 29,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 14",
+   "growing_days": 170,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Hastings, NE",
+   "nws_cwa": "GID",
+   "nwr": [
+    {
+     "call": "WNG549",
+     "freq": "162.450",
+     "same": "031143"
+    },
+    {
+     "call": "WXL74",
+     "freq": "162.400",
+     "same": "031143"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 5.9
+  },
+  "Red Willow County": {
+   "fips": "31145",
+   "centroid": [
+    40.1694,
+    -100.4686
+   ],
+   "latitude": 40.2,
+   "bbox": [
+    -100.7609,
+    40.0013,
+    -100.1931,
+    40.3515
+   ],
+   "coastal": false,
+   "elevation_ft": 2550,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 91,
+   "record_low_f": -24,
+   "record_high_f": 115,
+   "precip_in": 20.1,
+   "snow_in": 30,
+   "last_frost": "May 1",
+   "first_frost": "Oct 9",
+   "growing_days": 160,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Goodland, KS",
+   "nws_cwa": "GLD",
+   "nwr": [
+    {
+     "call": "KEC39",
+     "freq": "162.525",
+     "same": "031145"
+    },
+    {
+     "call": "WNG524",
+     "freq": "162.500",
+     "same": "031145"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 6.3
+  },
+  "Richardson County": {
+   "fips": "31147",
+   "centroid": [
+    40.1237,
+    -95.7186
+   ],
+   "latitude": 40.1,
+   "bbox": [
+    -96.0107,
+    39.9995,
+    -95.3085,
+    40.2623
+   ],
+   "coastal": false,
+   "elevation_ft": 1030,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 88,
+   "record_low_f": -30,
+   "record_high_f": 114,
+   "precip_in": 34.7,
+   "snow_in": 23,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 17",
+   "growing_days": 180,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Omaha/Valley, NE",
+   "nws_cwa": "OAX",
+   "nwr": [
+    {
+     "call": "KWN41",
+     "freq": "162.500",
+     "same": "031147"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.7
+  },
+  "Rock County": {
+   "fips": "31149",
+   "centroid": [
+    42.3947,
+    -99.4209
+   ],
+   "latitude": 42.4,
+   "bbox": [
+    -99.678,
+    42.086,
+    -99.2341,
+    42.8038
+   ],
+   "coastal": false,
+   "elevation_ft": 2410,
+   "zone": "5a",
+   "jan_low_f": 10,
+   "jul_high_f": 85,
+   "record_low_f": -36,
+   "record_high_f": 115,
+   "precip_in": 27.1,
+   "snow_in": 42,
+   "last_frost": "May 6",
+   "first_frost": "Oct 1",
+   "growing_days": 147,
+   "ecoregion": "Nebraska Sand Hills",
+   "ecoregion_code": "44",
+   "nws_office": "North Platte, NE",
+   "nws_cwa": "LBF",
+   "nwr": [
+    {
+     "call": "WXL73",
+     "freq": "162.475",
+     "same": "031149"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 6.0
+  },
+  "Saline County": {
+   "fips": "31151",
+   "centroid": [
+    40.5168,
+    -97.1318
+   ],
+   "latitude": 40.5,
+   "bbox": [
+    -97.3688,
+    40.3494,
+    -96.9124,
+    40.6984
+   ],
+   "coastal": false,
+   "elevation_ft": 1520,
+   "zone": "6a",
+   "jan_low_f": 13,
+   "jul_high_f": 84,
+   "record_low_f": -26,
+   "record_high_f": 103,
+   "precip_in": 29.0,
+   "snow_in": 24,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 13",
+   "growing_days": 169,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Omaha/Valley, NE",
+   "nws_cwa": "OAX",
+   "nwr": [
+    {
+     "call": "KZZ69",
+     "freq": "162.450",
+     "same": "031151"
+    },
+    {
+     "call": "WXM20",
+     "freq": "162.475",
+     "same": "031151"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.9
+  },
+  "Sarpy County": {
+   "fips": "31153",
+   "centroid": [
+    41.1151,
+    -96.1091
+   ],
+   "latitude": 41.1,
+   "bbox": [
+    -96.3396,
+    40.9943,
+    -95.8415,
+    41.1911
+   ],
+   "coastal": false,
+   "elevation_ft": 1170,
+   "zone": "6a",
+   "jan_low_f": 14,
+   "jul_high_f": 86,
+   "record_low_f": -33,
+   "record_high_f": 116,
+   "precip_in": 33.2,
+   "snow_in": 36,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 18",
+   "growing_days": 179,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Omaha/Valley, NE",
+   "nws_cwa": "OAX",
+   "nwr": [
+    {
+     "call": "WXM20",
+     "freq": "162.475",
+     "same": "031153"
+    },
+    {
+     "call": "KIH61",
+     "freq": "162.400",
+     "same": "031153"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.7
+  },
+  "Saunders County": {
+   "fips": "31155",
+   "centroid": [
+    41.223,
+    -96.6427
+   ],
+   "latitude": 41.2,
+   "bbox": [
+    -96.9089,
+    41.0151,
+    -96.3113,
+    41.4544
+   ],
+   "coastal": false,
+   "elevation_ft": 1260,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 87,
+   "record_low_f": -31,
+   "record_high_f": 108,
+   "precip_in": 31.6,
+   "snow_in": 34,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 15",
+   "growing_days": 172,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Omaha/Valley, NE",
+   "nws_cwa": "OAX",
+   "nwr": [
+    {
+     "call": "WNG549",
+     "freq": "162.450",
+     "same": "031155"
+    },
+    {
+     "call": "WXM20",
+     "freq": "162.475",
+     "same": "031155"
+    },
+    {
+     "call": "KIH61",
+     "freq": "162.400",
+     "same": "031155"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.7
+  },
+  "Scotts Bluff County": {
+   "fips": "31157",
+   "centroid": [
+    41.8505,
+    -103.703
+   ],
+   "latitude": 41.9,
+   "bbox": [
+    -104.053,
+    41.6978,
+    -103.3615,
+    42.0042
+   ],
+   "coastal": false,
+   "elevation_ft": 3980,
+   "zone": "5a",
+   "jan_low_f": 15,
+   "jul_high_f": 89,
+   "record_low_f": -46,
+   "record_high_f": 110,
+   "precip_in": 15.6,
+   "snow_in": 40,
+   "last_frost": "May 8",
+   "first_frost": "Oct 3",
+   "growing_days": 147,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Cheyenne, WY",
+   "nws_cwa": "CYS",
+   "nwr": [
+    {
+     "call": "WXL67",
+     "freq": "162.475",
+     "same": "031157"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 6.4
+  },
+  "Seward County": {
+   "fips": "31159",
+   "centroid": [
+    40.8719,
+    -97.1404
+   ],
+   "latitude": 40.9,
+   "bbox": [
+    -97.3684,
+    40.6978,
+    -96.9106,
+    41.0469
+   ],
+   "coastal": false,
+   "elevation_ft": 1480,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 86,
+   "record_low_f": -30,
+   "record_high_f": 114,
+   "precip_in": 28.7,
+   "snow_in": 22,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 12",
+   "growing_days": 169,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Omaha/Valley, NE",
+   "nws_cwa": "OAX",
+   "nwr": [
+    {
+     "call": "WXM20",
+     "freq": "162.475",
+     "same": "031159"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.9
+  },
+  "Sheridan County": {
+   "fips": "31161",
+   "centroid": [
+    42.5123,
+    -102.3683
+   ],
+   "latitude": 42.5,
+   "bbox": [
+    -102.7932,
+    42.0048,
+    -102.0062,
+    43.0
+   ],
+   "coastal": false,
+   "elevation_ft": 3840,
+   "zone": "5a",
+   "jan_low_f": 11,
+   "jul_high_f": 88,
+   "record_low_f": -42,
+   "record_high_f": 109,
+   "precip_in": 17.5,
+   "snow_in": 46,
+   "last_frost": "May 15",
+   "first_frost": "Sep 24",
+   "growing_days": 131,
+   "ecoregion": "Nebraska Sand Hills",
+   "ecoregion_code": "44",
+   "nws_office": "North Platte, NE",
+   "nws_cwa": "LBF",
+   "nwr": [
+    {
+     "call": "KXI20",
+     "freq": "162.525",
+     "same": "031161"
+    },
+    {
+     "call": "WXK64",
+     "freq": "162.425",
+     "same": "031161"
+    },
+    {
+     "call": "WXL76",
+     "freq": "162.400",
+     "same": "031161"
+    },
+    {
+     "call": "WXL67",
+     "freq": "162.475",
+     "same": "031161"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 6.4
+  },
+  "Sherman County": {
+   "fips": "31163",
+   "centroid": [
+    41.2187,
+    -98.9728
+   ],
+   "latitude": 41.2,
+   "bbox": [
+    -99.2077,
+    41.0466,
+    -98.7434,
+    41.3945
+   ],
+   "coastal": false,
+   "elevation_ft": 2160,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 88,
+   "record_low_f": -33,
+   "record_high_f": 112,
+   "precip_in": 26.5,
+   "snow_in": 31,
+   "last_frost": "May 2",
+   "first_frost": "Oct 8",
+   "growing_days": 158,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Hastings, NE",
+   "nws_cwa": "GID",
+   "nwr": [
+    {
+     "call": "WXL74",
+     "freq": "162.400",
+     "same": "031163"
+    },
+    {
+     "call": "WXN72",
+     "freq": "162.500",
+     "same": "031163"
+    },
+    {
+     "call": "KWN62",
+     "freq": "162.525",
+     "same": "031163"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 6.0
+  },
+  "Sioux County": {
+   "fips": "31165",
+   "centroid": [
+    42.4707,
+    -103.7322
+   ],
+   "latitude": 42.5,
+   "bbox": [
+    -104.0531,
+    42.0005,
+    -103.401,
+    43.0017
+   ],
+   "coastal": false,
+   "elevation_ft": 4720,
+   "zone": "4b",
+   "jan_low_f": 11,
+   "jul_high_f": 89,
+   "record_low_f": -44,
+   "record_high_f": 108,
+   "precip_in": 14.9,
+   "snow_in": 34,
+   "last_frost": "May 30",
+   "first_frost": "Sep 11",
+   "growing_days": 103,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Cheyenne, WY",
+   "nws_cwa": "CYS",
+   "nwr": [
+    {
+     "call": "KXI20",
+     "freq": "162.525",
+     "same": "031165"
+    },
+    {
+     "call": "WXK64",
+     "freq": "162.425",
+     "same": "031165"
+    },
+    {
+     "call": "WXL67",
+     "freq": "162.475",
+     "same": "031165"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 6.3
+  },
+  "Stanton County": {
+   "fips": "31167",
+   "centroid": [
+    41.905,
+    -97.1771
+   ],
+   "latitude": 41.9,
+   "bbox": [
+    -97.369,
+    41.743,
+    -97.0189,
+    42.0908
+   ],
+   "coastal": false,
+   "elevation_ft": 1550,
+   "zone": "5b",
+   "jan_low_f": 11,
+   "jul_high_f": 86,
+   "record_low_f": -41,
+   "record_high_f": 113,
+   "precip_in": 26.2,
+   "snow_in": 26,
+   "last_frost": "Apr 28",
+   "first_frost": "Oct 9",
+   "growing_days": 164,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Omaha/Valley, NE",
+   "nws_cwa": "OAX",
+   "nwr": [
+    {
+     "call": "WXL77",
+     "freq": "162.550",
+     "same": "031167"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 5.9
+  },
+  "Thayer County": {
+   "fips": "31169",
+   "centroid": [
+    40.1734,
+    -97.5963
+   ],
+   "latitude": 40.2,
+   "bbox": [
+    -97.8215,
+    40.0013,
+    -97.3684,
+    40.3508
+   ],
+   "coastal": false,
+   "elevation_ft": 1450,
+   "zone": "6a",
+   "jan_low_f": 14,
+   "jul_high_f": 89,
+   "record_low_f": -34,
+   "record_high_f": 113,
+   "precip_in": 31.1,
+   "snow_in": 23,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 15",
+   "growing_days": 172,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Hastings, NE",
+   "nws_cwa": "GID",
+   "nwr": [
+    {
+     "call": "WNG578",
+     "freq": "162.525",
+     "same": "031169"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.9
+  },
+  "Thomas County": {
+   "fips": "31171",
+   "centroid": [
+    41.8557,
+    -100.5247
+   ],
+   "latitude": 41.9,
+   "bbox": [
+    -100.8461,
+    41.7394,
+    -100.2644,
+    42.0882
+   ],
+   "coastal": false,
+   "elevation_ft": 2930,
+   "zone": "5b",
+   "jan_low_f": 11,
+   "jul_high_f": 88,
+   "record_low_f": -40,
+   "record_high_f": 114,
+   "precip_in": 23.8,
+   "snow_in": 37,
+   "last_frost": "May 9",
+   "first_frost": "Oct 2",
+   "growing_days": 143,
+   "ecoregion": "Nebraska Sand Hills",
+   "ecoregion_code": "44",
+   "nws_office": "North Platte, NE",
+   "nws_cwa": "LBF",
+   "nwr": [
+    {
+     "call": "KPS502",
+     "freq": "162.425",
+     "same": "031171"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 6.2
+  },
+  "Thurston County": {
+   "fips": "31173",
+   "centroid": [
+    42.1541,
+    -96.5339
+   ],
+   "latitude": 42.2,
+   "bbox": [
+    -96.8242,
+    42.0155,
+    -96.2666,
+    42.278
+   ],
+   "coastal": false,
+   "elevation_ft": 1360,
+   "zone": "5a",
+   "jan_low_f": 11,
+   "jul_high_f": 87,
+   "record_low_f": -45,
+   "record_high_f": 113,
+   "precip_in": 29.8,
+   "snow_in": 32,
+   "last_frost": "May 1",
+   "first_frost": "Oct 6",
+   "growing_days": 156,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Omaha/Valley, NE",
+   "nws_cwa": "OAX",
+   "nwr": [
+    {
+     "call": "WXL77",
+     "freq": "162.550",
+     "same": "031173"
+    },
+    {
+     "call": "WXL62",
+     "freq": "162.475",
+     "same": "031173"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.7
+  },
+  "Valley County": {
+   "fips": "31175",
+   "centroid": [
+    41.5641,
+    -98.9835
+   ],
+   "latitude": 41.6,
+   "bbox": [
+    -99.2124,
+    41.394,
+    -98.7508,
+    41.7406
+   ],
+   "coastal": false,
+   "elevation_ft": 2110,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 87,
+   "record_low_f": -35,
+   "record_high_f": 114,
+   "precip_in": 23.8,
+   "snow_in": 35,
+   "last_frost": "May 5",
+   "first_frost": "Oct 3",
+   "growing_days": 150,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Hastings, NE",
+   "nws_cwa": "GID",
+   "nwr": [
+    {
+     "call": "KWN62",
+     "freq": "162.525",
+     "same": "031175"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 6.0
+  },
+  "Washington County": {
+   "fips": "31177",
+   "centroid": [
+    41.534,
+    -96.2246
+   ],
+   "latitude": 41.5,
+   "bbox": [
+    -96.4447,
+    41.3929,
+    -95.9199,
+    41.6836
+   ],
+   "coastal": false,
+   "elevation_ft": 1290,
+   "zone": "5b",
+   "jan_low_f": 13,
+   "jul_high_f": 86,
+   "record_low_f": -36,
+   "record_high_f": 116,
+   "precip_in": 33.4,
+   "snow_in": 34,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 17",
+   "growing_days": 177,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Omaha/Valley, NE",
+   "nws_cwa": "OAX",
+   "nwr": [
+    {
+     "call": "KIH61",
+     "freq": "162.400",
+     "same": "031177"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.7
+  },
+  "Wayne County": {
+   "fips": "31179",
+   "centroid": [
+    42.2107,
+    -97.1262
+   ],
+   "latitude": 42.2,
+   "bbox": [
+    -97.3683,
+    42.0901,
+    -96.8227,
+    42.3519
+   ],
+   "coastal": false,
+   "elevation_ft": 1620,
+   "zone": "5a",
+   "jan_low_f": 11,
+   "jul_high_f": 85,
+   "record_low_f": -27,
+   "record_high_f": 105,
+   "precip_in": 27.5,
+   "snow_in": 32,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 11",
+   "growing_days": 163,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Omaha/Valley, NE",
+   "nws_cwa": "OAX",
+   "nwr": [
+    {
+     "call": "WXL77",
+     "freq": "162.550",
+     "same": "031179"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.7
+  },
+  "Webster County": {
+   "fips": "31181",
+   "centroid": [
+    40.1806,
+    -98.4986
+   ],
+   "latitude": 40.2,
+   "bbox": [
+    -98.7267,
+    40.0022,
+    -98.2734,
+    40.3505
+   ],
+   "coastal": false,
+   "elevation_ft": 1910,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 90,
+   "record_low_f": -36,
+   "record_high_f": 117,
+   "precip_in": 25.5,
+   "snow_in": 19,
+   "last_frost": "May 1",
+   "first_frost": "Oct 5",
+   "growing_days": 157,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Hastings, NE",
+   "nws_cwa": "GID",
+   "nwr": [
+    {
+     "call": "WNG578",
+     "freq": "162.525",
+     "same": "031181"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 6.1
+  },
+  "Wheeler County": {
+   "fips": "31183",
+   "centroid": [
+    41.9226,
+    -98.5209
+   ],
+   "latitude": 41.9,
+   "bbox": [
+    -98.7613,
+    41.7403,
+    -98.2951,
+    42.0888
+   ],
+   "coastal": false,
+   "elevation_ft": 2100,
+   "zone": "5a",
+   "jan_low_f": 12,
+   "jul_high_f": 88,
+   "record_low_f": -29,
+   "record_high_f": 109,
+   "precip_in": 27.2,
+   "snow_in": 35,
+   "last_frost": "May 4",
+   "first_frost": "Oct 8",
+   "growing_days": 154,
+   "ecoregion": "Nebraska Sand Hills",
+   "ecoregion_code": "44",
+   "nws_office": "North Platte, NE",
+   "nws_cwa": "LBF",
+   "nwr": [
+    {
+     "call": "WNG645",
+     "freq": "162.500",
+     "same": "031183"
+    },
+    {
+     "call": "WXL73",
+     "freq": "162.475",
+     "same": "031183"
+    },
+    {
+     "call": "KWN62",
+     "freq": "162.525",
+     "same": "031183"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 6.0
+  },
+  "York County": {
+   "fips": "31185",
+   "centroid": [
+    40.8731,
+    -97.5967
+   ],
+   "latitude": 40.9,
+   "bbox": [
+    -97.8273,
+    40.6978,
+    -97.3678,
+    41.0469
+   ],
+   "coastal": false,
+   "elevation_ft": 1630,
+   "zone": "5b",
+   "jan_low_f": 14,
+   "jul_high_f": 88,
+   "record_low_f": -29,
+   "record_high_f": 114,
+   "precip_in": 28.6,
+   "snow_in": 28,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 18",
+   "growing_days": 178,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Hastings, NE",
+   "nws_cwa": "GID",
+   "nwr": [
+    {
+     "call": "WXL74",
+     "freq": "162.400",
+     "same": "031185"
+    }
+   ],
+   "state_em": "Nebraska Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.9
+  }
+ }
+}

@@ -1,0 +1,3356 @@
+{
+ "state": "MT",
+ "state_name": "Montana",
+ "state_fips": "30",
+ "state_em": "Montana Disaster and Emergency Services",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "BYZ": "NWS Billings, MT",
+  "GGW": "NWS Glasgow, MT",
+  "MSO": "NWS Missoula, MT",
+  "TFX": "NWS Great Falls, MT"
+ },
+ "ecoregions": [
+  "Northern Rockies",
+  "Idaho Batholith",
+  "Middle Rockies",
+  "Wyoming Basin",
+  "Canadian Rockies",
+  "Northwestern Glaciated Plains",
+  "Northwestern Great Plains"
+ ],
+ "counties": {
+  "Beaverhead County": {
+   "fips": "30001",
+   "centroid": [
+    45.1339,
+    -112.8929
+   ],
+   "latitude": 45.1,
+   "bbox": [
+    -113.9382,
+    44.3583,
+    -111.4637,
+    45.9411
+   ],
+   "coastal": false,
+   "elevation_ft": 6370,
+   "zone": "5a",
+   "jan_low_f": 8,
+   "jul_high_f": 81,
+   "record_low_f": -41,
+   "record_high_f": 93,
+   "precip_in": 10.1,
+   "snow_in": 42,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 72,
+   "ecoregion": "Middle Rockies",
+   "ecoregion_code": "17",
+   "nws_office": "Great Falls, MT",
+   "nws_cwa": "TFX",
+   "nwr": [
+    {
+     "call": "WXL79",
+     "freq": "162.550",
+     "same": "030001"
+    },
+    {
+     "call": "WNG638",
+     "freq": "162.475",
+     "same": "030001"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 6.0
+  },
+  "Big Horn County": {
+   "fips": "30003",
+   "centroid": [
+    45.4079,
+    -107.5182
+   ],
+   "latitude": 45.4,
+   "bbox": [
+    -108.6997,
+    44.9938,
+    -106.2636,
+    46.0441
+   ],
+   "coastal": false,
+   "elevation_ft": 3660,
+   "zone": "4b",
+   "jan_low_f": 10,
+   "jul_high_f": 90,
+   "record_low_f": -46,
+   "record_high_f": 108,
+   "precip_in": 16.5,
+   "snow_in": 44,
+   "last_frost": "May 21",
+   "first_frost": "Sep 17",
+   "growing_days": 117,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Billings, MT",
+   "nws_cwa": "BYZ",
+   "nwr": [
+    {
+     "call": "WXL27",
+     "freq": "162.550",
+     "same": "030003"
+    },
+    {
+     "call": "WNG724",
+     "freq": "162.450",
+     "same": "030003"
+    },
+    {
+     "call": "WXM46",
+     "freq": "162.475",
+     "same": "030003"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 6.1
+  },
+  "Blaine County": {
+   "fips": "30005",
+   "centroid": [
+    48.4283,
+    -108.9676
+   ],
+   "latitude": 48.4,
+   "bbox": [
+    -109.5517,
+    47.7199,
+    -108.2362,
+    49.0004
+   ],
+   "coastal": false,
+   "elevation_ft": 2690,
+   "zone": "4a",
+   "jan_low_f": 6,
+   "jul_high_f": 84,
+   "record_low_f": -50,
+   "record_high_f": 107,
+   "precip_in": 13.5,
+   "snow_in": 35,
+   "last_frost": "May 16",
+   "first_frost": "Sep 22",
+   "growing_days": 128,
+   "ecoregion": "Northwestern Glaciated Plains",
+   "ecoregion_code": "42",
+   "nws_office": "Great Falls, MT",
+   "nws_cwa": "TFX",
+   "nwr": [
+    {
+     "call": "WXL53",
+     "freq": "162.400",
+     "same": "030005"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.8
+  },
+  "Broadwater County": {
+   "fips": "30007",
+   "centroid": [
+    46.3298,
+    -111.4979
+   ],
+   "latitude": 46.3,
+   "bbox": [
+    -111.7879,
+    45.8337,
+    -111.0571,
+    46.7815
+   ],
+   "coastal": false,
+   "elevation_ft": 3830,
+   "zone": "4b",
+   "jan_low_f": 14,
+   "jul_high_f": 83,
+   "record_low_f": -39,
+   "record_high_f": 105,
+   "precip_in": 10.6,
+   "snow_in": 24,
+   "last_frost": "May 19",
+   "first_frost": "Sep 19",
+   "growing_days": 122,
+   "ecoregion": "Middle Rockies",
+   "ecoregion_code": "17",
+   "nws_office": "Great Falls, MT",
+   "nws_cwa": "TFX",
+   "nwr": [
+    {
+     "call": "WXK66",
+     "freq": "162.400",
+     "same": "030007"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.7
+  },
+  "Carbon County": {
+   "fips": "30009",
+   "centroid": [
+    45.2245,
+    -109.0286
+   ],
+   "latitude": 45.2,
+   "bbox": [
+    -109.7987,
+    44.9996,
+    -108.1037,
+    45.6382
+   ],
+   "coastal": false,
+   "elevation_ft": 3910,
+   "zone": "5a",
+   "jan_low_f": 13,
+   "jul_high_f": 87,
+   "record_low_f": -37,
+   "record_high_f": 110,
+   "precip_in": 11.5,
+   "snow_in": 30,
+   "last_frost": "May 14",
+   "first_frost": "Sep 24",
+   "growing_days": 129,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Billings, MT",
+   "nws_cwa": "BYZ",
+   "nwr": [
+    {
+     "call": "WXL27",
+     "freq": "162.550",
+     "same": "030009"
+    },
+    {
+     "call": "WNG563",
+     "freq": "162.400",
+     "same": "030009"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 6.0
+  },
+  "Carter County": {
+   "fips": "30011",
+   "centroid": [
+    45.5168,
+    -104.5153
+   ],
+   "latitude": 45.5,
+   "bbox": [
+    -105.0386,
+    44.997,
+    -104.0396,
+    46.1368
+   ],
+   "coastal": false,
+   "elevation_ft": 3400,
+   "zone": "4a",
+   "jan_low_f": 7,
+   "jul_high_f": 85,
+   "record_low_f": -51,
+   "record_high_f": 108,
+   "precip_in": 15.7,
+   "snow_in": 50,
+   "last_frost": "May 17",
+   "first_frost": "Sep 22",
+   "growing_days": 127,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Billings, MT",
+   "nws_cwa": "BYZ",
+   "nwr": [
+    {
+     "call": "WXK57",
+     "freq": "162.550",
+     "same": "030011"
+    },
+    {
+     "call": "WNG567",
+     "freq": "162.425",
+     "same": "030011"
+    },
+    {
+     "call": "WZ2533",
+     "freq": "162.475",
+     "same": "030011"
+    },
+    {
+     "call": "WXL23",
+     "freq": "162.525",
+     "same": "030011"
+    },
+    {
+     "call": "WXL54",
+     "freq": "162.400",
+     "same": "030011"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 6.1
+  },
+  "Cascade County": {
+   "fips": "30013",
+   "centroid": [
+    47.3166,
+    -111.3503
+   ],
+   "latitude": 47.3,
+   "bbox": [
+    -112.0477,
+    46.8186,
+    -110.6363,
+    47.6987
+   ],
+   "coastal": false,
+   "elevation_ft": 4070,
+   "zone": "4b",
+   "jan_low_f": 16,
+   "jul_high_f": 83,
+   "record_low_f": -43,
+   "record_high_f": 106,
+   "precip_in": 14.6,
+   "snow_in": 69,
+   "last_frost": "May 12",
+   "first_frost": "Sep 28",
+   "growing_days": 138,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Great Falls, MT",
+   "nws_cwa": "TFX",
+   "nwr": [
+    {
+     "call": "WXJ43",
+     "freq": "162.550",
+     "same": "030013"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.8
+  },
+  "Chouteau County": {
+   "fips": "30015",
+   "centroid": [
+    47.8868,
+    -110.4362
+   ],
+   "latitude": 47.9,
+   "bbox": [
+    -111.4093,
+    47.4161,
+    -109.5329,
+    48.3068
+   ],
+   "coastal": false,
+   "elevation_ft": 2830,
+   "zone": "4a",
+   "jan_low_f": 7,
+   "jul_high_f": 88,
+   "record_low_f": -54,
+   "record_high_f": 111,
+   "precip_in": 12.8,
+   "snow_in": 36,
+   "last_frost": "May 20",
+   "first_frost": "Sep 19",
+   "growing_days": 120,
+   "ecoregion": "Northwestern Glaciated Plains",
+   "ecoregion_code": "42",
+   "nws_office": "Great Falls, MT",
+   "nws_cwa": "TFX",
+   "nwr": [
+    {
+     "call": "WWG84",
+     "freq": "162.500",
+     "same": "030015"
+    },
+    {
+     "call": "WXJ43",
+     "freq": "162.550",
+     "same": "030015"
+    },
+    {
+     "call": "WXL53",
+     "freq": "162.400",
+     "same": "030015"
+    },
+    {
+     "call": "KZZ54",
+     "freq": "162.500",
+     "same": "030015"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.8
+  },
+  "Custer County": {
+   "fips": "30017",
+   "centroid": [
+    46.2614,
+    -105.5504
+   ],
+   "latitude": 46.3,
+   "bbox": [
+    -106.1919,
+    45.7869,
+    -104.7328,
+    46.861
+   ],
+   "coastal": false,
+   "elevation_ft": 2900,
+   "zone": "4b",
+   "jan_low_f": 6,
+   "jul_high_f": 91,
+   "record_low_f": -49,
+   "record_high_f": 112,
+   "precip_in": 14.5,
+   "snow_in": 30,
+   "last_frost": "May 22",
+   "first_frost": "Sep 15",
+   "growing_days": 117,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Billings, MT",
+   "nws_cwa": "BYZ",
+   "nwr": [
+    {
+     "call": "WXK57",
+     "freq": "162.550",
+     "same": "030017"
+    },
+    {
+     "call": "WNG567",
+     "freq": "162.425",
+     "same": "030017"
+    },
+    {
+     "call": "WNG719",
+     "freq": "162.525",
+     "same": "030017"
+    },
+    {
+     "call": "WXL54",
+     "freq": "162.400",
+     "same": "030017"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 6.0
+  },
+  "Daniels County": {
+   "fips": "30019",
+   "centroid": [
+    48.7944,
+    -105.5417
+   ],
+   "latitude": 48.8,
+   "bbox": [
+    -106.1521,
+    48.563,
+    -104.9733,
+    48.9997
+   ],
+   "coastal": false,
+   "elevation_ft": 2510,
+   "zone": "3b",
+   "jan_low_f": -1,
+   "jul_high_f": 84,
+   "record_low_f": -51,
+   "record_high_f": 110,
+   "precip_in": 13.5,
+   "snow_in": 23,
+   "last_frost": "May 28",
+   "first_frost": "Sep 6",
+   "growing_days": 99,
+   "ecoregion": "Northwestern Glaciated Plains",
+   "ecoregion_code": "42",
+   "nws_office": "Glasgow, MT",
+   "nws_cwa": "GGW",
+   "nwr": [
+    {
+     "call": "KPS507",
+     "freq": "162.525",
+     "same": "030019"
+    },
+    {
+     "call": "WWF92",
+     "freq": "162.450",
+     "same": "030019"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.7
+  },
+  "Dawson County": {
+   "fips": "30021",
+   "centroid": [
+    47.2661,
+    -104.8983
+   ],
+   "latitude": 47.3,
+   "bbox": [
+    -105.4065,
+    46.8607,
+    -104.3056,
+    47.7907
+   ],
+   "coastal": false,
+   "elevation_ft": 2560,
+   "zone": "4a",
+   "jan_low_f": 9,
+   "jul_high_f": 88,
+   "record_low_f": -50,
+   "record_high_f": 117,
+   "precip_in": 14.9,
+   "snow_in": 23,
+   "last_frost": "May 3",
+   "first_frost": "Oct 4",
+   "growing_days": 153,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Glasgow, MT",
+   "nws_cwa": "GGW",
+   "nwr": [
+    {
+     "call": "KHC26",
+     "freq": "162.550",
+     "same": "030021"
+    },
+    {
+     "call": "WWF93",
+     "freq": "162.475",
+     "same": "030021"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.9
+  },
+  "Deer Lodge County": {
+   "fips": "30023",
+   "centroid": [
+    46.0947,
+    -113.1416
+   ],
+   "latitude": 46.1,
+   "bbox": [
+    -113.5167,
+    45.7582,
+    -112.5586,
+    46.2668
+   ],
+   "coastal": false,
+   "elevation_ft": 8860,
+   "zone": "4b",
+   "jan_low_f": 16,
+   "jul_high_f": 83,
+   "record_low_f": -38,
+   "record_high_f": 102,
+   "precip_in": 33.8,
+   "snow_in": 75,
+   "last_frost": "Jun 1",
+   "first_frost": "Sep 14",
+   "growing_days": 105,
+   "ecoregion": "Middle Rockies",
+   "ecoregion_code": "17",
+   "nws_office": "Missoula, MT",
+   "nws_cwa": "MSO",
+   "nwr": [
+    {
+     "call": "WXL79",
+     "freq": "162.550",
+     "same": "030023"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.7
+  },
+  "Fallon County": {
+   "fips": "30025",
+   "centroid": [
+    46.3182,
+    -104.4057
+   ],
+   "latitude": 46.3,
+   "bbox": [
+    -104.9061,
+    45.882,
+    -104.044,
+    46.6851
+   ],
+   "coastal": false,
+   "elevation_ft": 3030,
+   "zone": "4b",
+   "jan_low_f": 7,
+   "jul_high_f": 86,
+   "record_low_f": -34,
+   "record_high_f": 112,
+   "precip_in": 14.7,
+   "snow_in": 34,
+   "last_frost": "May 12",
+   "first_frost": "Sep 26",
+   "growing_days": 135,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Billings, MT",
+   "nws_cwa": "BYZ",
+   "nwr": [
+    {
+     "call": "WXK57",
+     "freq": "162.550",
+     "same": "030025"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 6.0
+  },
+  "Fergus County": {
+   "fips": "30027",
+   "centroid": [
+    47.2218,
+    -109.233
+   ],
+   "latitude": 47.2,
+   "bbox": [
+    -110.2135,
+    46.6934,
+    -108.3126,
+    47.8034
+   ],
+   "coastal": false,
+   "elevation_ft": 5960,
+   "zone": "4b",
+   "jan_low_f": 15,
+   "jul_high_f": 77,
+   "record_low_f": -38,
+   "record_high_f": 101,
+   "precip_in": 20.9,
+   "snow_in": 112,
+   "last_frost": "May 19",
+   "first_frost": "Sep 25",
+   "growing_days": 128,
+   "ecoregion": "Middle Rockies",
+   "ecoregion_code": "17",
+   "nws_office": "Great Falls, MT",
+   "nws_cwa": "TFX",
+   "nwr": [
+    {
+     "call": "KZZ54",
+     "freq": "162.500",
+     "same": "030027"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.8
+  },
+  "Flathead County": {
+   "fips": "30029",
+   "centroid": [
+    48.2954,
+    -114.0521
+   ],
+   "latitude": 48.3,
+   "bbox": [
+    -115.0208,
+    47.596,
+    -112.8789,
+    49.0011
+   ],
+   "coastal": false,
+   "elevation_ft": 6670,
+   "zone": "5b",
+   "jan_low_f": 20,
+   "jul_high_f": 82,
+   "record_low_f": -40,
+   "record_high_f": 103,
+   "precip_in": 70.4,
+   "snow_in": 51,
+   "last_frost": "May 9",
+   "first_frost": "Oct 1",
+   "growing_days": 141,
+   "ecoregion": "Canadian Rockies",
+   "ecoregion_code": "41",
+   "nws_office": "Missoula, MT",
+   "nws_cwa": "MSO",
+   "nwr": [
+    {
+     "call": "WXL82",
+     "freq": "162.550",
+     "same": "030029"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 1.6,
+   "sun_hours_jun": 5.3
+  },
+  "Gallatin County": {
+   "fips": "30031",
+   "centroid": [
+    45.5181,
+    -111.1639
+   ],
+   "latitude": 45.5,
+   "bbox": [
+    -111.8051,
+    44.4741,
+    -110.7736,
+    46.1933
+   ],
+   "coastal": false,
+   "elevation_ft": 6500,
+   "zone": "5a",
+   "jan_low_f": 8,
+   "jul_high_f": 78,
+   "record_low_f": -42,
+   "record_high_f": 95,
+   "precip_in": 23.3,
+   "snow_in": 91,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 50,
+   "ecoregion": "Middle Rockies",
+   "ecoregion_code": "17",
+   "nws_office": "Great Falls, MT",
+   "nws_cwa": "TFX",
+   "nwr": [
+    {
+     "call": "KGG97",
+     "freq": "162.500",
+     "same": "030031"
+    },
+    {
+     "call": "WXL79",
+     "freq": "162.550",
+     "same": "030031"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.8
+  },
+  "Garfield County": {
+   "fips": "30033",
+   "centroid": [
+    47.2672,
+    -106.996
+   ],
+   "latitude": 47.3,
+   "bbox": [
+    -107.9683,
+    46.8452,
+    -106.0864,
+    47.9829
+   ],
+   "coastal": false,
+   "elevation_ft": 2870,
+   "zone": "4a",
+   "jan_low_f": 5,
+   "jul_high_f": 88,
+   "record_low_f": -58,
+   "record_high_f": 112,
+   "precip_in": 12.9,
+   "snow_in": 32,
+   "last_frost": "May 18",
+   "first_frost": "Sep 20",
+   "growing_days": 123,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Glasgow, MT",
+   "nws_cwa": "GGW",
+   "nwr": [
+    {
+     "call": "WXL32",
+     "freq": "162.400",
+     "same": "030033"
+    },
+    {
+     "call": "KHB53",
+     "freq": "162.500",
+     "same": "030033"
+    },
+    {
+     "call": "WNG670",
+     "freq": "162.400",
+     "same": "030033"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.9
+  },
+  "Glacier County": {
+   "fips": "30035",
+   "centroid": [
+    48.7057,
+    -112.9905
+   ],
+   "latitude": 48.7,
+   "bbox": [
+    -114.0675,
+    48.305,
+    -112.1844,
+    48.9988
+   ],
+   "coastal": false,
+   "elevation_ft": 4360,
+   "zone": "4a",
+   "jan_low_f": 11,
+   "jul_high_f": 76,
+   "record_low_f": -48,
+   "record_high_f": 100,
+   "precip_in": 13.1,
+   "snow_in": 115,
+   "last_frost": "May 28",
+   "first_frost": "Sep 16",
+   "growing_days": 110,
+   "ecoregion": "Northwestern Glaciated Plains",
+   "ecoregion_code": "42",
+   "nws_office": "Great Falls, MT",
+   "nws_cwa": "TFX",
+   "nwr": [
+    {
+     "call": "WWG84",
+     "freq": "162.500",
+     "same": "030035"
+    },
+    {
+     "call": "WNG533",
+     "freq": "162.525",
+     "same": "030035"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.6
+  },
+  "Golden Valley County": {
+   "fips": "30037",
+   "centroid": [
+    46.3806,
+    -109.1746
+   ],
+   "latitude": 46.4,
+   "bbox": [
+    -109.6542,
+    46.0445,
+    -108.7787,
+    46.7516
+   ],
+   "coastal": false,
+   "elevation_ft": 3980,
+   "zone": "4b",
+   "jan_low_f": 15,
+   "jul_high_f": 86,
+   "record_low_f": -49,
+   "record_high_f": 109,
+   "precip_in": 14.3,
+   "snow_in": 53,
+   "last_frost": "May 17",
+   "first_frost": "Sep 23",
+   "growing_days": 127,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Billings, MT",
+   "nws_cwa": "BYZ",
+   "nwr": [
+    {
+     "call": "WXL27",
+     "freq": "162.550",
+     "same": "030037"
+    },
+    {
+     "call": "KAD95",
+     "freq": "162.450",
+     "same": "030037"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.9
+  },
+  "Granite County": {
+   "fips": "30039",
+   "centroid": [
+    46.396,
+    -113.4274
+   ],
+   "latitude": 46.4,
+   "bbox": [
+    -113.8786,
+    45.9386,
+    -113.0361,
+    46.8321
+   ],
+   "coastal": false,
+   "elevation_ft": 6540,
+   "zone": "5a",
+   "jan_low_f": 15,
+   "jul_high_f": 81,
+   "record_low_f": -41,
+   "record_high_f": 98,
+   "precip_in": 25.8,
+   "snow_in": 75,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 65,
+   "ecoregion": "Middle Rockies",
+   "ecoregion_code": "17",
+   "nws_office": "Missoula, MT",
+   "nws_cwa": "MSO",
+   "nwr": [
+    {
+     "call": "WXL79",
+     "freq": "162.550",
+     "same": "030039"
+    },
+    {
+     "call": "WXL25",
+     "freq": "162.400",
+     "same": "030039"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.7
+  },
+  "Hill County": {
+   "fips": "30041",
+   "centroid": [
+    48.632,
+    -110.1063
+   ],
+   "latitude": 48.6,
+   "bbox": [
+    -110.7563,
+    48.1326,
+    -109.4643,
+    49.0003
+   ],
+   "coastal": false,
+   "elevation_ft": 2720,
+   "zone": "4a",
+   "jan_low_f": 6,
+   "jul_high_f": 84,
+   "record_low_f": -45,
+   "record_high_f": 111,
+   "precip_in": 11.1,
+   "snow_in": 29,
+   "last_frost": "May 24",
+   "first_frost": "Sep 15",
+   "growing_days": 114,
+   "ecoregion": "Northwestern Glaciated Plains",
+   "ecoregion_code": "42",
+   "nws_office": "Great Falls, MT",
+   "nws_cwa": "TFX",
+   "nwr": [
+    {
+     "call": "WXL53",
+     "freq": "162.400",
+     "same": "030041"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.9
+  },
+  "Jefferson County": {
+   "fips": "30043",
+   "centroid": [
+    46.1242,
+    -112.0594
+   ],
+   "latitude": 46.1,
+   "bbox": [
+    -112.5975,
+    45.7477,
+    -111.6598,
+    46.5693
+   ],
+   "coastal": false,
+   "elevation_ft": 7170,
+   "zone": "5a",
+   "jan_low_f": 12,
+   "jul_high_f": 82,
+   "record_low_f": -42,
+   "record_high_f": 101,
+   "precip_in": 26.1,
+   "snow_in": 15,
+   "last_frost": "Jun 7",
+   "first_frost": "Sep 8",
+   "growing_days": 90,
+   "ecoregion": "Middle Rockies",
+   "ecoregion_code": "17",
+   "nws_office": "Great Falls, MT",
+   "nws_cwa": "TFX",
+   "nwr": [
+    {
+     "call": "WXL79",
+     "freq": "162.550",
+     "same": "030043"
+    },
+    {
+     "call": "WXK66",
+     "freq": "162.400",
+     "same": "030043"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.7
+  },
+  "Judith Basin County": {
+   "fips": "30045",
+   "centroid": [
+    47.0326,
+    -110.3053
+   ],
+   "latitude": 47.0,
+   "bbox": [
+    -110.7883,
+    46.6724,
+    -109.7457,
+    47.417
+   ],
+   "coastal": false,
+   "elevation_ft": 5230,
+   "zone": "4b",
+   "jan_low_f": 13,
+   "jul_high_f": 78,
+   "record_low_f": -40,
+   "record_high_f": 101,
+   "precip_in": 16.8,
+   "snow_in": 44,
+   "last_frost": "Jun 15",
+   "first_frost": "Sep 4",
+   "growing_days": 77,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Great Falls, MT",
+   "nws_cwa": "TFX",
+   "nwr": [
+    {
+     "call": "WXJ43",
+     "freq": "162.550",
+     "same": "030045"
+    },
+    {
+     "call": "KZZ54",
+     "freq": "162.500",
+     "same": "030045"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.8
+  },
+  "Lake County": {
+   "fips": "30047",
+   "centroid": [
+    47.6429,
+    -114.0837
+   ],
+   "latitude": 47.6,
+   "bbox": [
+    -114.6046,
+    47.1378,
+    -113.5983,
+    48.0519
+   ],
+   "coastal": false,
+   "elevation_ft": 3220,
+   "zone": "6a",
+   "jan_low_f": 22,
+   "jul_high_f": 83,
+   "record_low_f": -30,
+   "record_high_f": 104,
+   "precip_in": 15.0,
+   "snow_in": 34,
+   "last_frost": "May 10",
+   "first_frost": "Oct 5",
+   "growing_days": 147,
+   "ecoregion": "Northern Rockies",
+   "ecoregion_code": "15",
+   "nws_office": "Missoula, MT",
+   "nws_cwa": "MSO",
+   "nwr": [
+    {
+     "call": "WXL82",
+     "freq": "162.550",
+     "same": "030047"
+    },
+    {
+     "call": "WXL25",
+     "freq": "162.400",
+     "same": "030047"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.5
+  },
+  "Lewis and Clark County": {
+   "fips": "30049",
+   "centroid": [
+    47.1221,
+    -112.3829
+   ],
+   "latitude": 47.1,
+   "bbox": [
+    -113.1657,
+    46.4149,
+    -111.4948,
+    47.953
+   ],
+   "coastal": false,
+   "elevation_ft": 5430,
+   "zone": "4b",
+   "jan_low_f": 17,
+   "jul_high_f": 82,
+   "record_low_f": -40,
+   "record_high_f": 100,
+   "precip_in": 17.1,
+   "snow_in": 63,
+   "last_frost": "May 21",
+   "first_frost": "Sep 15",
+   "growing_days": 115,
+   "ecoregion": "Middle Rockies",
+   "ecoregion_code": "17",
+   "nws_office": "Great Falls, MT",
+   "nws_cwa": "TFX",
+   "nwr": [
+    {
+     "call": "WXK66",
+     "freq": "162.400",
+     "same": "030049"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.7
+  },
+  "Liberty County": {
+   "fips": "30051",
+   "centroid": [
+    48.5597,
+    -111.0369
+   ],
+   "latitude": 48.6,
+   "bbox": [
+    -111.4091,
+    48.1321,
+    -110.7426,
+    48.9986
+   ],
+   "coastal": false,
+   "elevation_ft": 3280,
+   "zone": "4a",
+   "jan_low_f": 3,
+   "jul_high_f": 82,
+   "record_low_f": -57,
+   "record_high_f": 105,
+   "precip_in": 12.3,
+   "snow_in": 36,
+   "last_frost": "May 24",
+   "first_frost": "Sep 17",
+   "growing_days": 115,
+   "ecoregion": "Northwestern Glaciated Plains",
+   "ecoregion_code": "42",
+   "nws_office": "Great Falls, MT",
+   "nws_cwa": "TFX",
+   "nwr": [
+    {
+     "call": "WWG84",
+     "freq": "162.500",
+     "same": "030051"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.8
+  },
+  "Lincoln County": {
+   "fips": "30053",
+   "centroid": [
+    48.5524,
+    -115.4632
+   ],
+   "latitude": 48.6,
+   "bbox": [
+    -116.05,
+    47.8902,
+    -114.6117,
+    49.001
+   ],
+   "coastal": false,
+   "elevation_ft": 4870,
+   "zone": "6a",
+   "jan_low_f": 14,
+   "jul_high_f": 81,
+   "record_low_f": -46,
+   "record_high_f": 110,
+   "precip_in": 37.5,
+   "snow_in": 48,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 74,
+   "ecoregion": "Northern Rockies",
+   "ecoregion_code": "15",
+   "nws_office": "Missoula, MT",
+   "nws_cwa": "MSO",
+   "nwr": [
+    {
+     "call": "WWG99",
+     "freq": "162.500",
+     "same": "030053"
+    },
+    {
+     "call": "WXL82",
+     "freq": "162.550",
+     "same": "030053"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 1.6,
+   "sun_hours_jun": 5.3
+  },
+  "McCone County": {
+   "fips": "30055",
+   "centroid": [
+    47.6296,
+    -105.7572
+   ],
+   "latitude": 47.6,
+   "bbox": [
+    -106.4302,
+    47.0927,
+    -105.1937,
+    48.0978
+   ],
+   "coastal": false,
+   "elevation_ft": 2660,
+   "zone": "4a",
+   "jan_low_f": 8,
+   "jul_high_f": 87,
+   "record_low_f": -46,
+   "record_high_f": 109,
+   "precip_in": 14.4,
+   "snow_in": 24,
+   "last_frost": "May 17",
+   "first_frost": "Sep 22",
+   "growing_days": 126,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Glasgow, MT",
+   "nws_cwa": "GGW",
+   "nwr": [
+    {
+     "call": "KHC26",
+     "freq": "162.550",
+     "same": "030055"
+    },
+    {
+     "call": "WXL32",
+     "freq": "162.400",
+     "same": "030055"
+    },
+    {
+     "call": "KHB53",
+     "freq": "162.500",
+     "same": "030055"
+    },
+    {
+     "call": "KGG94",
+     "freq": "162.425",
+     "same": "030055"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.9
+  },
+  "Madison County": {
+   "fips": "30057",
+   "centroid": [
+    45.3253,
+    -111.9138
+   ],
+   "latitude": 45.3,
+   "bbox": [
+    -112.704,
+    44.7076,
+    -111.3503,
+    45.8588
+   ],
+   "coastal": false,
+   "elevation_ft": 6950,
+   "zone": "5a",
+   "jan_low_f": 15,
+   "jul_high_f": 83,
+   "record_low_f": -40,
+   "record_high_f": 103,
+   "precip_in": 15.7,
+   "snow_in": 65,
+   "last_frost": "Jun 4",
+   "first_frost": "Sep 18",
+   "growing_days": 106,
+   "ecoregion": "Middle Rockies",
+   "ecoregion_code": "17",
+   "nws_office": "Great Falls, MT",
+   "nws_cwa": "TFX",
+   "nwr": [
+    {
+     "call": "WXL79",
+     "freq": "162.550",
+     "same": "030057"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.8
+  },
+  "Meagher County": {
+   "fips": "30059",
+   "centroid": [
+    46.5857,
+    -110.9217
+   ],
+   "latitude": 46.6,
+   "bbox": [
+    -111.6568,
+    46.1839,
+    -110.2728,
+    47.0882
+   ],
+   "coastal": false,
+   "elevation_ft": 5430,
+   "zone": "4b",
+   "jan_low_f": 13,
+   "jul_high_f": 82,
+   "record_low_f": -46,
+   "record_high_f": 99,
+   "precip_in": 13.0,
+   "snow_in": 96,
+   "last_frost": "Jun 4",
+   "first_frost": "Sep 11",
+   "growing_days": 97,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Great Falls, MT",
+   "nws_cwa": "TFX",
+   "nwr": [
+    {
+     "call": "WXK66",
+     "freq": "162.400",
+     "same": "030059"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.7
+  },
+  "Mineral County": {
+   "fips": "30061",
+   "centroid": [
+    47.1297,
+    -115.0854
+   ],
+   "latitude": 47.1,
+   "bbox": [
+    -115.7595,
+    46.6967,
+    -114.4196,
+    47.4967
+   ],
+   "coastal": false,
+   "elevation_ft": 4930,
+   "zone": "6a",
+   "jan_low_f": 22,
+   "jul_high_f": 88,
+   "record_low_f": -36,
+   "record_high_f": 108,
+   "precip_in": 63.7,
+   "snow_in": 49,
+   "last_frost": "May 17",
+   "first_frost": "Sep 23",
+   "growing_days": 125,
+   "ecoregion": "Northern Rockies",
+   "ecoregion_code": "15",
+   "nws_office": "Missoula, MT",
+   "nws_cwa": "MSO",
+   "nwr": [
+    {
+     "call": "WXL25",
+     "freq": "162.400",
+     "same": "030061"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.5
+  },
+  "Missoula County": {
+   "fips": "30063",
+   "centroid": [
+    47.0273,
+    -113.8927
+   ],
+   "latitude": 47.0,
+   "bbox": [
+    -114.7972,
+    46.6317,
+    -113.3024,
+    47.6005
+   ],
+   "coastal": false,
+   "elevation_ft": 6950,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 83,
+   "record_low_f": -53,
+   "record_high_f": 102,
+   "precip_in": 48.2,
+   "snow_in": 119,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 74,
+   "ecoregion": "Middle Rockies",
+   "ecoregion_code": "17",
+   "nws_office": "Missoula, MT",
+   "nws_cwa": "MSO",
+   "nwr": [
+    {
+     "call": "WXL25",
+     "freq": "162.400",
+     "same": "030063"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.7
+  },
+  "Musselshell County": {
+   "fips": "30065",
+   "centroid": [
+    46.5053,
+    -108.4398
+   ],
+   "latitude": 46.5,
+   "bbox": [
+    -109.0097,
+    46.1325,
+    -107.7804,
+    46.7559
+   ],
+   "coastal": false,
+   "elevation_ft": 3330,
+   "zone": "4b",
+   "jan_low_f": 13,
+   "jul_high_f": 89,
+   "record_low_f": -52,
+   "record_high_f": 111,
+   "precip_in": 14.9,
+   "snow_in": 24,
+   "last_frost": "May 20",
+   "first_frost": "Sep 21",
+   "growing_days": 124,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Billings, MT",
+   "nws_cwa": "BYZ",
+   "nwr": [
+    {
+     "call": "WXL27",
+     "freq": "162.550",
+     "same": "030065"
+    },
+    {
+     "call": "KAD95",
+     "freq": "162.450",
+     "same": "030065"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.9
+  },
+  "Park County": {
+   "fips": "30067",
+   "centroid": [
+    45.4631,
+    -110.5349
+   ],
+   "latitude": 45.5,
+   "bbox": [
+    -111.0468,
+    44.9921,
+    -109.7982,
+    46.1926
+   ],
+   "coastal": false,
+   "elevation_ft": 6820,
+   "zone": "5a",
+   "jan_low_f": 20,
+   "jul_high_f": 82,
+   "record_low_f": -36,
+   "record_high_f": 99,
+   "precip_in": 16.3,
+   "snow_in": 63,
+   "last_frost": "May 19",
+   "first_frost": "Sep 25",
+   "growing_days": 125,
+   "ecoregion": "Middle Rockies",
+   "ecoregion_code": "17",
+   "nws_office": "Billings, MT",
+   "nws_cwa": "BYZ",
+   "nwr": [
+    {
+     "call": "WNG686",
+     "freq": "162.425",
+     "same": "030067"
+    },
+    {
+     "call": "WNG667",
+     "freq": "162.450",
+     "same": "030067"
+    },
+    {
+     "call": "WNG682",
+     "freq": "162.525",
+     "same": "030067"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.8
+  },
+  "Petroleum County": {
+   "fips": "30069",
+   "centroid": [
+    47.1419,
+    -108.2266
+   ],
+   "latitude": 47.1,
+   "bbox": [
+    -108.7367,
+    46.7488,
+    -107.8264,
+    47.5984
+   ],
+   "coastal": false,
+   "elevation_ft": 3090,
+   "zone": "4b",
+   "jan_low_f": 6,
+   "jul_high_f": 86,
+   "record_low_f": -50,
+   "record_high_f": 110,
+   "precip_in": 14.6,
+   "snow_in": 33,
+   "last_frost": "May 18",
+   "first_frost": "Sep 21",
+   "growing_days": 124,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Glasgow, MT",
+   "nws_cwa": "GGW",
+   "nwr": [
+    {
+     "call": "WNG670",
+     "freq": "162.400",
+     "same": "030069"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.8
+  },
+  "Phillips County": {
+   "fips": "30071",
+   "centroid": [
+    48.2501,
+    -107.9289
+   ],
+   "latitude": 48.3,
+   "bbox": [
+    -108.8912,
+    47.4496,
+    -107.1799,
+    49.0
+   ],
+   "coastal": false,
+   "elevation_ft": 2520,
+   "zone": "4a",
+   "jan_low_f": 7,
+   "jul_high_f": 86,
+   "record_low_f": -41,
+   "record_high_f": 106,
+   "precip_in": 13.3,
+   "snow_in": 10,
+   "last_frost": "May 10",
+   "first_frost": "Sep 29",
+   "growing_days": 139,
+   "ecoregion": "Northwestern Glaciated Plains",
+   "ecoregion_code": "42",
+   "nws_office": "Glasgow, MT",
+   "nws_cwa": "GGW",
+   "nwr": [
+    {
+     "call": "WWG85",
+     "freq": "162.475",
+     "same": "030071"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.7
+  },
+  "Pondera County": {
+   "fips": "30073",
+   "centroid": [
+    48.2286,
+    -112.2208
+   ],
+   "latitude": 48.2,
+   "bbox": [
+    -113.3481,
+    47.9844,
+    -111.4084,
+    48.4837
+   ],
+   "coastal": false,
+   "elevation_ft": 3920,
+   "zone": "4b",
+   "jan_low_f": 13,
+   "jul_high_f": 82,
+   "record_low_f": -49,
+   "record_high_f": 103,
+   "precip_in": 12.6,
+   "snow_in": 47,
+   "last_frost": "May 17",
+   "first_frost": "Sep 24",
+   "growing_days": 129,
+   "ecoregion": "Northwestern Glaciated Plains",
+   "ecoregion_code": "42",
+   "nws_office": "Great Falls, MT",
+   "nws_cwa": "TFX",
+   "nwr": [
+    {
+     "call": "WWG84",
+     "freq": "162.500",
+     "same": "030073"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.6
+  },
+  "Powder River County": {
+   "fips": "30075",
+   "centroid": [
+    45.4089,
+    -105.5553
+   ],
+   "latitude": 45.4,
+   "bbox": [
+    -106.2797,
+    44.9934,
+    -104.9812,
+    45.7887
+   ],
+   "coastal": false,
+   "elevation_ft": 3930,
+   "zone": "5a",
+   "jan_low_f": 10,
+   "jul_high_f": 86,
+   "record_low_f": -44,
+   "record_high_f": 107,
+   "precip_in": 15.9,
+   "snow_in": 29,
+   "last_frost": "May 25",
+   "first_frost": "Sep 19",
+   "growing_days": 115,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Billings, MT",
+   "nws_cwa": "BYZ",
+   "nwr": [
+    {
+     "call": "WNG567",
+     "freq": "162.425",
+     "same": "030075"
+    },
+    {
+     "call": "WXL54",
+     "freq": "162.400",
+     "same": "030075"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 6.1
+  },
+  "Powell County": {
+   "fips": "30077",
+   "centroid": [
+    46.8442,
+    -112.9311
+   ],
+   "latitude": 46.8,
+   "bbox": [
+    -113.4668,
+    46.2656,
+    -112.2938,
+    47.6003
+   ],
+   "coastal": false,
+   "elevation_ft": 4380,
+   "zone": "4b",
+   "jan_low_f": 8,
+   "jul_high_f": 80,
+   "record_low_f": -48,
+   "record_high_f": 99,
+   "precip_in": 11.8,
+   "snow_in": 30,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 67,
+   "ecoregion": "Middle Rockies",
+   "ecoregion_code": "17",
+   "nws_office": "Missoula, MT",
+   "nws_cwa": "MSO",
+   "nwr": [
+    {
+     "call": "WXL79",
+     "freq": "162.550",
+     "same": "030077"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.7
+  },
+  "Prairie County": {
+   "fips": "30079",
+   "centroid": [
+    46.8124,
+    -105.5039
+   ],
+   "latitude": 46.8,
+   "bbox": [
+    -106.087,
+    46.5404,
+    -104.6034,
+    47.1816
+   ],
+   "coastal": false,
+   "elevation_ft": 2550,
+   "zone": "4a",
+   "jan_low_f": 6,
+   "jul_high_f": 88,
+   "record_low_f": -47,
+   "record_high_f": 111,
+   "precip_in": 13.4,
+   "snow_in": 12,
+   "last_frost": "May 12",
+   "first_frost": "Sep 28",
+   "growing_days": 137,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Glasgow, MT",
+   "nws_cwa": "GGW",
+   "nwr": [
+    {
+     "call": "WXL54",
+     "freq": "162.400",
+     "same": "030079"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 6.0
+  },
+  "Ravalli County": {
+   "fips": "30081",
+   "centroid": [
+    46.0777,
+    -114.1058
+   ],
+   "latitude": 46.1,
+   "bbox": [
+    -114.5652,
+    45.4594,
+    -113.516,
+    46.661
+   ],
+   "coastal": false,
+   "elevation_ft": 5970,
+   "zone": "6a",
+   "jan_low_f": 10,
+   "jul_high_f": 81,
+   "record_low_f": -36,
+   "record_high_f": 105,
+   "precip_in": 25.0,
+   "snow_in": 88,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 39,
+   "ecoregion": "Middle Rockies",
+   "ecoregion_code": "17",
+   "nws_office": "Missoula, MT",
+   "nws_cwa": "MSO",
+   "nwr": [
+    {
+     "call": "WXL25",
+     "freq": "162.400",
+     "same": "030081"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 3,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.6
+  },
+  "Richland County": {
+   "fips": "30083",
+   "centroid": [
+    47.7856,
+    -104.5634
+   ],
+   "latitude": 47.8,
+   "bbox": [
+    -105.2351,
+    47.3534,
+    -104.0416,
+    48.1506
+   ],
+   "coastal": false,
+   "elevation_ft": 2480,
+   "zone": "4a",
+   "jan_low_f": 6,
+   "jul_high_f": 87,
+   "record_low_f": -47,
+   "record_high_f": 110,
+   "precip_in": 15.5,
+   "snow_in": 30,
+   "last_frost": "May 11",
+   "first_frost": "Sep 27",
+   "growing_days": 137,
+   "ecoregion": "Northwestern Glaciated Plains",
+   "ecoregion_code": "42",
+   "nws_office": "Glasgow, MT",
+   "nws_cwa": "GGW",
+   "nwr": [
+    {
+     "call": "WWF93",
+     "freq": "162.475",
+     "same": "030083"
+    },
+    {
+     "call": "KGG94",
+     "freq": "162.425",
+     "same": "030083"
+    },
+    {
+     "call": "WXL84",
+     "freq": "162.550",
+     "same": "030083"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.9
+  },
+  "Roosevelt County": {
+   "fips": "30085",
+   "centroid": [
+    48.2827,
+    -104.9952
+   ],
+   "latitude": 48.3,
+   "bbox": [
+    -105.8442,
+    47.9958,
+    -104.0441,
+    48.5641
+   ],
+   "coastal": false,
+   "elevation_ft": 2180,
+   "zone": "3b",
+   "jan_low_f": 0,
+   "jul_high_f": 84,
+   "record_low_f": -52,
+   "record_high_f": 108,
+   "precip_in": 14.2,
+   "snow_in": 28,
+   "last_frost": "May 24",
+   "first_frost": "Sep 14",
+   "growing_days": 110,
+   "ecoregion": "Northwestern Glaciated Plains",
+   "ecoregion_code": "42",
+   "nws_office": "Glasgow, MT",
+   "nws_cwa": "GGW",
+   "nwr": [
+    {
+     "call": "KGG94",
+     "freq": "162.425",
+     "same": "030085"
+    },
+    {
+     "call": "WXL84",
+     "freq": "162.550",
+     "same": "030085"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.7
+  },
+  "Rosebud County": {
+   "fips": "30087",
+   "centroid": [
+    46.1732,
+    -106.6668
+   ],
+   "latitude": 46.2,
+   "bbox": [
+    -107.8938,
+    45.1764,
+    -106.0863,
+    46.8603
+   ],
+   "coastal": false,
+   "elevation_ft": 3230,
+   "zone": "4b",
+   "jan_low_f": 14,
+   "jul_high_f": 85,
+   "record_low_f": -50,
+   "record_high_f": 111,
+   "precip_in": 16.4,
+   "snow_in": 37,
+   "last_frost": "May 15",
+   "first_frost": "Sep 30",
+   "growing_days": 138,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Billings, MT",
+   "nws_cwa": "BYZ",
+   "nwr": [
+    {
+     "call": "WNG719",
+     "freq": "162.525",
+     "same": "030087"
+    },
+    {
+     "call": "WXL54",
+     "freq": "162.400",
+     "same": "030087"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 6.0
+  },
+  "Sanders County": {
+   "fips": "30089",
+   "centroid": [
+    47.7565,
+    -115.1803
+   ],
+   "latitude": 47.8,
+   "bbox": [
+    -116.0498,
+    47.1209,
+    -114.1868,
+    48.2637
+   ],
+   "coastal": false,
+   "elevation_ft": 6120,
+   "zone": "6a",
+   "jan_low_f": 19,
+   "jul_high_f": 70,
+   "record_low_f": -25,
+   "record_high_f": 93,
+   "precip_in": 45.1,
+   "snow_in": 93,
+   "last_frost": "Jun 10",
+   "first_frost": "Sep 23",
+   "growing_days": 104,
+   "ecoregion": "Northern Rockies",
+   "ecoregion_code": "15",
+   "nws_office": "Missoula, MT",
+   "nws_cwa": "MSO",
+   "nwr": [
+    {
+     "call": "WWG99",
+     "freq": "162.500",
+     "same": "030089"
+    },
+    {
+     "call": "WXL82",
+     "freq": "162.550",
+     "same": "030089"
+    },
+    {
+     "call": "WXL25",
+     "freq": "162.400",
+     "same": "030089"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.5
+  },
+  "Sheridan County": {
+   "fips": "30091",
+   "centroid": [
+    48.7056,
+    -104.5339
+   ],
+   "latitude": 48.7,
+   "bbox": [
+    -105.0578,
+    48.3891,
+    -104.0469,
+    49.0
+   ],
+   "coastal": false,
+   "elevation_ft": 2200,
+   "zone": "3b",
+   "jan_low_f": -2,
+   "jul_high_f": 82,
+   "record_low_f": -48,
+   "record_high_f": 109,
+   "precip_in": 14.7,
+   "snow_in": 31,
+   "last_frost": "May 25",
+   "first_frost": "Sep 14",
+   "growing_days": 111,
+   "ecoregion": "Northwestern Glaciated Plains",
+   "ecoregion_code": "42",
+   "nws_office": "Glasgow, MT",
+   "nws_cwa": "GGW",
+   "nwr": [
+    {
+     "call": "WWF50",
+     "freq": "162.475",
+     "same": "030091"
+    },
+    {
+     "call": "WXL84",
+     "freq": "162.550",
+     "same": "030091"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.7
+  },
+  "Silver Bow County": {
+   "fips": "30093",
+   "centroid": [
+    45.8962,
+    -112.6601
+   ],
+   "latitude": 45.9,
+   "bbox": [
+    -113.0848,
+    45.6247,
+    -112.1908,
+    46.1855
+   ],
+   "coastal": false,
+   "elevation_ft": 5810,
+   "zone": "4a",
+   "jan_low_f": 8,
+   "jul_high_f": 81,
+   "record_low_f": -52,
+   "record_high_f": 100,
+   "precip_in": 12.8,
+   "snow_in": 15,
+   "last_frost": "Jun 13",
+   "first_frost": "Sep 5",
+   "growing_days": 83,
+   "ecoregion": "Middle Rockies",
+   "ecoregion_code": "17",
+   "nws_office": "Missoula, MT",
+   "nws_cwa": "MSO",
+   "nwr": [
+    {
+     "call": "WXL79",
+     "freq": "162.550",
+     "same": "030093"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 6.0
+  },
+  "Stillwater County": {
+   "fips": "30095",
+   "centroid": [
+    45.6585,
+    -109.3816
+   ],
+   "latitude": 45.7,
+   "bbox": [
+    -110.0646,
+    45.1669,
+    -108.8424,
+    46.1323
+   ],
+   "coastal": false,
+   "elevation_ft": 3950,
+   "zone": "5a",
+   "jan_low_f": 10,
+   "jul_high_f": 85,
+   "record_low_f": -45,
+   "record_high_f": 109,
+   "precip_in": 15.5,
+   "snow_in": 48,
+   "last_frost": "May 27",
+   "first_frost": "Sep 14",
+   "growing_days": 108,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Billings, MT",
+   "nws_cwa": "BYZ",
+   "nwr": [
+    {
+     "call": "WXL27",
+     "freq": "162.550",
+     "same": "030095"
+    },
+    {
+     "call": "KAD95",
+     "freq": "162.450",
+     "same": "030095"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 6.0
+  },
+  "Sweet Grass County": {
+   "fips": "30097",
+   "centroid": [
+    45.8113,
+    -109.9448
+   ],
+   "latitude": 45.8,
+   "bbox": [
+    -110.2928,
+    45.1721,
+    -109.4173,
+    46.2213
+   ],
+   "coastal": false,
+   "elevation_ft": 4160,
+   "zone": "5a",
+   "jan_low_f": 20,
+   "jul_high_f": 86,
+   "record_low_f": -47,
+   "record_high_f": 110,
+   "precip_in": 16.9,
+   "snow_in": 55,
+   "last_frost": "May 14",
+   "first_frost": "Sep 26",
+   "growing_days": 133,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Billings, MT",
+   "nws_cwa": "BYZ",
+   "nwr": [
+    {
+     "call": "WXL27",
+     "freq": "162.550",
+     "same": "030097"
+    },
+    {
+     "call": "WNG682",
+     "freq": "162.525",
+     "same": "030097"
+    },
+    {
+     "call": "KAD95",
+     "freq": "162.450",
+     "same": "030097"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 6.0
+  },
+  "Teton County": {
+   "fips": "30099",
+   "centroid": [
+    47.819,
+    -112.2817
+   ],
+   "latitude": 47.8,
+   "bbox": [
+    -113.0145,
+    47.501,
+    -111.4083,
+    48.1332
+   ],
+   "coastal": false,
+   "elevation_ft": 4100,
+   "zone": "4b",
+   "jan_low_f": 14,
+   "jul_high_f": 80,
+   "record_low_f": -50,
+   "record_high_f": 106,
+   "precip_in": 15.3,
+   "snow_in": 48,
+   "last_frost": "May 16",
+   "first_frost": "Sep 27",
+   "growing_days": 133,
+   "ecoregion": "Northwestern Glaciated Plains",
+   "ecoregion_code": "42",
+   "nws_office": "Great Falls, MT",
+   "nws_cwa": "TFX",
+   "nwr": [
+    {
+     "call": "WWG84",
+     "freq": "162.500",
+     "same": "030099"
+    },
+    {
+     "call": "WXJ43",
+     "freq": "162.550",
+     "same": "030099"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.7
+  },
+  "Toole County": {
+   "fips": "30101",
+   "centroid": [
+    48.6451,
+    -111.7335
+   ],
+   "latitude": 48.6,
+   "bbox": [
+    -112.1936,
+    48.2186,
+    -111.2702,
+    48.9987
+   ],
+   "coastal": false,
+   "elevation_ft": 3500,
+   "zone": "4a",
+   "jan_low_f": 6,
+   "jul_high_f": 82,
+   "record_low_f": -44,
+   "record_high_f": 103,
+   "precip_in": 12.1,
+   "snow_in": 39,
+   "last_frost": "May 23",
+   "first_frost": "Sep 16",
+   "growing_days": 115,
+   "ecoregion": "Northwestern Glaciated Plains",
+   "ecoregion_code": "42",
+   "nws_office": "Great Falls, MT",
+   "nws_cwa": "TFX",
+   "nwr": [
+    {
+     "call": "WWG84",
+     "freq": "162.500",
+     "same": "030101"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.8
+  },
+  "Treasure County": {
+   "fips": "30103",
+   "centroid": [
+    46.2271,
+    -107.2753
+   ],
+   "latitude": 46.2,
+   "bbox": [
+    -107.7386,
+    45.8701,
+    -106.939,
+    46.4825
+   ],
+   "coastal": false,
+   "elevation_ft": 3170,
+   "zone": "4b",
+   "jan_low_f": 12,
+   "jul_high_f": 88,
+   "record_low_f": -48,
+   "record_high_f": 111,
+   "precip_in": 14.9,
+   "snow_in": 37,
+   "last_frost": "May 10",
+   "first_frost": "Sep 29",
+   "growing_days": 141,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Billings, MT",
+   "nws_cwa": "BYZ",
+   "nwr": [
+    {
+     "call": "WNG719",
+     "freq": "162.525",
+     "same": "030103"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 6.0
+  },
+  "Valley County": {
+   "fips": "30105",
+   "centroid": [
+    48.3499,
+    -106.6704
+   ],
+   "latitude": 48.3,
+   "bbox": [
+    -107.4155,
+    47.6605,
+    -105.8043,
+    49.0
+   ],
+   "coastal": false,
+   "elevation_ft": 2390,
+   "zone": "4a",
+   "jan_low_f": 6,
+   "jul_high_f": 86,
+   "record_low_f": -50,
+   "record_high_f": 110,
+   "precip_in": 13.4,
+   "snow_in": 41,
+   "last_frost": "May 6",
+   "first_frost": "Sep 30",
+   "growing_days": 145,
+   "ecoregion": "Northwestern Glaciated Plains",
+   "ecoregion_code": "42",
+   "nws_office": "Glasgow, MT",
+   "nws_cwa": "GGW",
+   "nwr": [
+    {
+     "call": "WXL32",
+     "freq": "162.400",
+     "same": "030105"
+    },
+    {
+     "call": "KPS507",
+     "freq": "162.525",
+     "same": "030105"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.8
+  },
+  "Wheatland County": {
+   "fips": "30107",
+   "centroid": [
+    46.497,
+    -109.8577
+   ],
+   "latitude": 46.5,
+   "bbox": [
+    -110.2819,
+    46.2188,
+    -109.3879,
+    46.7527
+   ],
+   "coastal": false,
+   "elevation_ft": 4490,
+   "zone": "4b",
+   "jan_low_f": 13,
+   "jul_high_f": 84,
+   "record_low_f": -41,
+   "record_high_f": 103,
+   "precip_in": 13.2,
+   "snow_in": 20,
+   "last_frost": "May 23",
+   "first_frost": "Sep 16",
+   "growing_days": 113,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Billings, MT",
+   "nws_cwa": "BYZ",
+   "nwr": [
+    {
+     "call": "WXL27",
+     "freq": "162.550",
+     "same": "030107"
+    },
+    {
+     "call": "KAD95",
+     "freq": "162.450",
+     "same": "030107"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.9
+  },
+  "Wibaux County": {
+   "fips": "30109",
+   "centroid": [
+    46.963,
+    -104.2745
+   ],
+   "latitude": 47.0,
+   "bbox": [
+    -104.6074,
+    46.6413,
+    -104.0448,
+    47.3977
+   ],
+   "coastal": false,
+   "elevation_ft": 2940,
+   "zone": "4b",
+   "jan_low_f": 5,
+   "jul_high_f": 84,
+   "record_low_f": -55,
+   "record_high_f": 110,
+   "precip_in": 16.1,
+   "snow_in": 38,
+   "last_frost": "May 27",
+   "first_frost": "Sep 16",
+   "growing_days": 112,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Glasgow, MT",
+   "nws_cwa": "GGW",
+   "nwr": [
+    {
+     "call": "WXK57",
+     "freq": "162.550",
+     "same": "030109"
+    },
+    {
+     "call": "WWF93",
+     "freq": "162.475",
+     "same": "030109"
+    },
+    {
+     "call": "WZ2528",
+     "freq": "162.500",
+     "same": "030109"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 6.0
+  },
+  "Yellowstone County": {
+   "fips": "30111",
+   "centroid": [
+    45.937,
+    -108.2767
+   ],
+   "latitude": 45.9,
+   "bbox": [
+    -108.9255,
+    45.4602,
+    -107.464,
+    46.4963
+   ],
+   "coastal": false,
+   "elevation_ft": 2990,
+   "zone": "4b",
+   "jan_low_f": 12,
+   "jul_high_f": 87,
+   "record_low_f": -53,
+   "record_high_f": 109,
+   "precip_in": 14.4,
+   "snow_in": 34,
+   "last_frost": "May 12",
+   "first_frost": "Sep 25",
+   "growing_days": 136,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Billings, MT",
+   "nws_cwa": "BYZ",
+   "nwr": [
+    {
+     "call": "WXL27",
+     "freq": "162.550",
+     "same": "030111"
+    }
+   ],
+   "state_em": "Montana Disaster and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 6.0
+  }
+ }
+}

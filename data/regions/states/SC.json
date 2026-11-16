@@ -1,0 +1,2879 @@
+{
+ "state": "SC",
+ "state_name": "South Carolina",
+ "state_fips": "45",
+ "state_em": "South Carolina Emergency Management Division",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "CAE": "NWS Columbia, SC",
+  "CHS": "NWS Charleston, SC",
+  "GSP": "NWS Greenville-Spartanburg, SC",
+  "ILM": "NWS Wilmington, NC"
+ },
+ "ecoregions": [
+  "Piedmont",
+  "Middle Atlantic Coastal Plain",
+  "Southeastern Plains",
+  "Blue Ridge",
+  "Southern Coastal Plain"
+ ],
+ "counties": {
+  "Abbeville County": {
+   "fips": "45001",
+   "centroid": [
+    34.229,
+    -82.4541
+   ],
+   "latitude": 34.2,
+   "bbox": [
+    -82.741,
+    34.0144,
+    -82.24,
+    34.4841
+   ],
+   "coastal": false,
+   "elevation_ft": 540,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 91,
+   "record_low_f": -2,
+   "record_high_f": 111,
+   "precip_in": 47.0,
+   "snow_in": 1,
+   "last_frost": "Mar 27",
+   "first_frost": "Nov 7",
+   "growing_days": 226,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "WXJ21",
+     "freq": "162.550",
+     "same": "045001"
+    },
+    {
+     "call": "KHC28",
+     "freq": "162.425",
+     "same": "045001"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.6
+  },
+  "Aiken County": {
+   "fips": "45003",
+   "centroid": [
+    33.55,
+    -81.633
+   ],
+   "latitude": 33.6,
+   "bbox": [
+    -82.0125,
+    33.1986,
+    -81.1876,
+    33.8774
+   ],
+   "coastal": false,
+   "elevation_ft": 480,
+   "zone": "8b",
+   "jan_low_f": 32,
+   "jul_high_f": 93,
+   "record_low_f": -4,
+   "record_high_f": 109,
+   "precip_in": 50.8,
+   "snow_in": 1,
+   "last_frost": "Mar 19",
+   "first_frost": "Nov 14",
+   "growing_days": 241,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Columbia, SC",
+   "nws_cwa": "CAE",
+   "nwr": [
+    {
+     "call": "WNG627",
+     "freq": "162.450",
+     "same": "045003"
+    },
+    {
+     "call": "WXK54",
+     "freq": "162.550",
+     "same": "045003"
+    },
+    {
+     "call": "KHC29",
+     "freq": "162.500",
+     "same": "045003"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.5
+  },
+  "Allendale County": {
+   "fips": "45005",
+   "centroid": [
+    32.9798,
+    -81.3633
+   ],
+   "latitude": 33.0,
+   "bbox": [
+    -81.6142,
+    32.7445,
+    -81.0821,
+    33.1582
+   ],
+   "coastal": false,
+   "elevation_ft": 240,
+   "zone": "8b",
+   "jan_low_f": 33,
+   "jul_high_f": 92,
+   "record_low_f": -2,
+   "record_high_f": 106,
+   "precip_in": 48.8,
+   "snow_in": 0,
+   "last_frost": "Mar 28",
+   "first_frost": "Nov 7",
+   "growing_days": 224,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Charleston, SC",
+   "nws_cwa": "CHS",
+   "nwr": [
+    {
+     "call": "WXK54",
+     "freq": "162.550",
+     "same": "045005"
+    },
+    {
+     "call": "KHC29",
+     "freq": "162.500",
+     "same": "045005"
+    },
+    {
+     "call": "WXJ23",
+     "freq": "162.450",
+     "same": "045005"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 5.5
+  },
+  "Anderson County": {
+   "fips": "45007",
+   "centroid": [
+    34.5212,
+    -82.6386
+   ],
+   "latitude": 34.5,
+   "bbox": [
+    -82.9916,
+    34.209,
+    -82.3141,
+    34.8185
+   ],
+   "coastal": false,
+   "elevation_ft": 770,
+   "zone": "8b",
+   "jan_low_f": 32,
+   "jul_high_f": 91,
+   "record_low_f": -5,
+   "record_high_f": 108,
+   "precip_in": 50.2,
+   "snow_in": 1,
+   "last_frost": "Mar 23",
+   "first_frost": "Nov 11",
+   "growing_days": 234,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "WXJ21",
+     "freq": "162.550",
+     "same": "045007"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.6
+  },
+  "Bamberg County": {
+   "fips": "45009",
+   "centroid": [
+    33.203,
+    -81.0532
+   ],
+   "latitude": 33.2,
+   "bbox": [
+    -81.2277,
+    33.0264,
+    -80.7983,
+    33.4399
+   ],
+   "coastal": false,
+   "elevation_ft": 160,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 91,
+   "record_low_f": 2,
+   "record_high_f": 109,
+   "precip_in": 48.5,
+   "snow_in": 0,
+   "last_frost": "Mar 18",
+   "first_frost": "Nov 12",
+   "growing_days": 240,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Columbia, SC",
+   "nws_cwa": "CAE",
+   "nwr": [
+    {
+     "call": "KHC29",
+     "freq": "162.500",
+     "same": "045009"
+    },
+    {
+     "call": "WXJ23",
+     "freq": "162.450",
+     "same": "045009"
+    },
+    {
+     "call": "KHA35",
+     "freq": "162.525",
+     "same": "045009"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.5
+  },
+  "Barnwell County": {
+   "fips": "45011",
+   "centroid": [
+    33.2606,
+    -81.4342
+   ],
+   "latitude": 33.3,
+   "bbox": [
+    -81.7698,
+    33.0928,
+    -81.1936,
+    33.4904
+   ],
+   "coastal": false,
+   "elevation_ft": 240,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 91,
+   "record_low_f": -2,
+   "record_high_f": 106,
+   "precip_in": 46.2,
+   "snow_in": 0,
+   "last_frost": "Mar 20",
+   "first_frost": "Nov 13",
+   "growing_days": 238,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Columbia, SC",
+   "nws_cwa": "CAE",
+   "nwr": [
+    {
+     "call": "WNG627",
+     "freq": "162.450",
+     "same": "045011"
+    },
+    {
+     "call": "WXK54",
+     "freq": "162.550",
+     "same": "045011"
+    },
+    {
+     "call": "KHC29",
+     "freq": "162.500",
+     "same": "045011"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.5
+  },
+  "Beaufort County": {
+   "fips": "45013",
+   "centroid": [
+    32.3581,
+    -80.6894
+   ],
+   "latitude": 32.4,
+   "bbox": [
+    -81.0163,
+    32.0769,
+    -80.4258,
+    32.7043
+   ],
+   "coastal": true,
+   "elevation_ft": 0,
+   "zone": "9a",
+   "jan_low_f": 41,
+   "jul_high_f": 91,
+   "record_low_f": 5,
+   "record_high_f": 105,
+   "precip_in": 45.0,
+   "snow_in": 0,
+   "last_frost": "Mar 3",
+   "first_frost": "Dec 9",
+   "growing_days": 282,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Charleston, SC",
+   "nws_cwa": "CHS",
+   "nwr": [
+    {
+     "call": "WXJ23",
+     "freq": "162.450",
+     "same": "045013"
+    },
+    {
+     "call": "KEC85",
+     "freq": "162.400",
+     "same": "045013"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 2,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 5.6
+  },
+  "Berkeley County": {
+   "fips": "45015",
+   "centroid": [
+    33.2077,
+    -79.9537
+   ],
+   "latitude": 33.2,
+   "bbox": [
+    -80.3619,
+    32.8191,
+    -79.4465,
+    33.5072
+   ],
+   "coastal": true,
+   "elevation_ft": 10,
+   "zone": "8b",
+   "jan_low_f": 38,
+   "jul_high_f": 93,
+   "record_low_f": 11,
+   "record_high_f": 105,
+   "precip_in": 52.3,
+   "snow_in": 0,
+   "last_frost": "Mar 10",
+   "first_frost": "Nov 26",
+   "growing_days": 265,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Charleston, SC",
+   "nws_cwa": "CHS",
+   "nwr": [
+    {
+     "call": "KHB29",
+     "freq": "162.550",
+     "same": "045015"
+    },
+    {
+     "call": "WXM93",
+     "freq": "162.475",
+     "same": "045015"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 2,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.5
+  },
+  "Calhoun County": {
+   "fips": "45017",
+   "centroid": [
+    33.6748,
+    -80.7803
+   ],
+   "latitude": 33.7,
+   "bbox": [
+    -81.0604,
+    33.466,
+    -80.4963,
+    33.88
+   ],
+   "coastal": false,
+   "elevation_ft": 240,
+   "zone": "8b",
+   "jan_low_f": 37,
+   "jul_high_f": 93,
+   "record_low_f": 2,
+   "record_high_f": 108,
+   "precip_in": 50.5,
+   "snow_in": 0,
+   "last_frost": "Mar 13",
+   "first_frost": "Nov 15",
+   "growing_days": 249,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Columbia, SC",
+   "nws_cwa": "CAE",
+   "nwr": [
+    {
+     "call": "WXJ20",
+     "freq": "162.400",
+     "same": "045017"
+    },
+    {
+     "call": "KHA35",
+     "freq": "162.525",
+     "same": "045017"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 5.5
+  },
+  "Charleston County": {
+   "fips": "45019",
+   "centroid": [
+    32.8005,
+    -79.9425
+   ],
+   "latitude": 32.8,
+   "bbox": [
+    -80.4532,
+    32.4933,
+    -79.2693,
+    33.2151
+   ],
+   "coastal": true,
+   "elevation_ft": 10,
+   "zone": "9a",
+   "jan_low_f": 44,
+   "jul_high_f": 88,
+   "record_low_f": 7,
+   "record_high_f": 104,
+   "precip_in": 44.3,
+   "snow_in": 0,
+   "last_frost": "Feb 4",
+   "first_frost": "Dec 30",
+   "growing_days": 321,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Charleston, SC",
+   "nws_cwa": "CHS",
+   "nwr": [
+    {
+     "call": "KHB29",
+     "freq": "162.550",
+     "same": "045019"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 3,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.7
+  },
+  "Cherokee County": {
+   "fips": "45021",
+   "centroid": [
+    35.0498,
+    -81.6076
+   ],
+   "latitude": 35.0,
+   "bbox": [
+    -81.8748,
+    34.8396,
+    -81.3667,
+    35.184
+   ],
+   "coastal": false,
+   "elevation_ft": 760,
+   "zone": "8a",
+   "jan_low_f": 26,
+   "jul_high_f": 88,
+   "record_low_f": -4,
+   "record_high_f": 106,
+   "precip_in": 45.3,
+   "snow_in": 2,
+   "last_frost": "Apr 20",
+   "first_frost": "Oct 24",
+   "growing_days": 186,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "WXL70",
+     "freq": "162.475",
+     "same": "045021"
+    },
+    {
+     "call": "WXJ21",
+     "freq": "162.550",
+     "same": "045021"
+    },
+    {
+     "call": "KHC27",
+     "freq": "162.425",
+     "same": "045021"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.5
+  },
+  "Chester County": {
+   "fips": "45023",
+   "centroid": [
+    34.6893,
+    -81.1612
+   ],
+   "latitude": 34.7,
+   "bbox": [
+    -81.4882,
+    34.5433,
+    -80.8597,
+    34.8224
+   ],
+   "coastal": false,
+   "elevation_ft": 540,
+   "zone": "8a",
+   "jan_low_f": 30,
+   "jul_high_f": 90,
+   "record_low_f": -5,
+   "record_high_f": 106,
+   "precip_in": 45.9,
+   "snow_in": 3,
+   "last_frost": "Apr 3",
+   "first_frost": "Nov 2",
+   "growing_days": 213,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "KHC27",
+     "freq": "162.425",
+     "same": "045023"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.6
+  },
+  "Chesterfield County": {
+   "fips": "45025",
+   "centroid": [
+    34.637,
+    -80.1592
+   ],
+   "latitude": 34.6,
+   "bbox": [
+    -80.5635,
+    34.3666,
+    -79.778,
+    34.8174
+   ],
+   "coastal": false,
+   "elevation_ft": 280,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 92,
+   "record_low_f": -9,
+   "record_high_f": 108,
+   "precip_in": 49.8,
+   "snow_in": 0,
+   "last_frost": "Apr 1",
+   "first_frost": "Nov 3",
+   "growing_days": 216,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Columbia, SC",
+   "nws_cwa": "CAE",
+   "nwr": [
+    {
+     "call": "WXK90",
+     "freq": "162.450",
+     "same": "045025"
+    },
+    {
+     "call": "WNG597",
+     "freq": "162.400",
+     "same": "045025"
+    },
+    {
+     "call": "WXJ22",
+     "freq": "162.550",
+     "same": "045025"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.6
+  },
+  "Clarendon County": {
+   "fips": "45027",
+   "centroid": [
+    33.6647,
+    -80.2179
+   ],
+   "latitude": 33.7,
+   "bbox": [
+    -80.5404,
+    33.4302,
+    -79.8757,
+    33.9464
+   ],
+   "coastal": true,
+   "elevation_ft": 110,
+   "zone": "8b",
+   "jan_low_f": 35,
+   "jul_high_f": 90,
+   "record_low_f": 0,
+   "record_high_f": 109,
+   "precip_in": 55.7,
+   "snow_in": 0,
+   "last_frost": "Mar 25",
+   "first_frost": "Nov 11",
+   "growing_days": 232,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Columbia, SC",
+   "nws_cwa": "CAE",
+   "nwr": [
+    {
+     "call": "KHB29",
+     "freq": "162.550",
+     "same": "045027"
+    },
+    {
+     "call": "WXM93",
+     "freq": "162.475",
+     "same": "045027"
+    },
+    {
+     "call": "WXJ22",
+     "freq": "162.550",
+     "same": "045027"
+    },
+    {
+     "call": "KHA35",
+     "freq": "162.525",
+     "same": "045027"
+    },
+    {
+     "call": "WWG77",
+     "freq": "162.425",
+     "same": "045027"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 5.5
+  },
+  "Colleton County": {
+   "fips": "45029",
+   "centroid": [
+    32.8494,
+    -80.6564
+   ],
+   "latitude": 32.8,
+   "bbox": [
+    -81.0821,
+    32.4707,
+    -80.2556,
+    33.1801
+   ],
+   "coastal": true,
+   "elevation_ft": 50,
+   "zone": "8b",
+   "jan_low_f": 35,
+   "jul_high_f": 90,
+   "record_low_f": 0,
+   "record_high_f": 107,
+   "precip_in": 51.4,
+   "snow_in": 0,
+   "last_frost": "Mar 19",
+   "first_frost": "Nov 12",
+   "growing_days": 239,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Charleston, SC",
+   "nws_cwa": "CHS",
+   "nwr": [
+    {
+     "call": "WXJ23",
+     "freq": "162.450",
+     "same": "045029"
+    },
+    {
+     "call": "KHB29",
+     "freq": "162.550",
+     "same": "045029"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 5.6
+  },
+  "Darlington County": {
+   "fips": "45031",
+   "centroid": [
+    34.3322,
+    -79.9621
+   ],
+   "latitude": 34.3,
+   "bbox": [
+    -80.289,
+    34.086,
+    -79.657,
+    34.5345
+   ],
+   "coastal": false,
+   "elevation_ft": 180,
+   "zone": "8b",
+   "jan_low_f": 32,
+   "jul_high_f": 92,
+   "record_low_f": -4,
+   "record_high_f": 109,
+   "precip_in": 47.9,
+   "snow_in": 0,
+   "last_frost": "Mar 30",
+   "first_frost": "Nov 6",
+   "growing_days": 221,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Wilmington, NC",
+   "nws_cwa": "ILM",
+   "nwr": [
+    {
+     "call": "WXK90",
+     "freq": "162.450",
+     "same": "045031"
+    },
+    {
+     "call": "WXJ22",
+     "freq": "162.550",
+     "same": "045031"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.6
+  },
+  "Dillon County": {
+   "fips": "45033",
+   "centroid": [
+    34.3902,
+    -79.3752
+   ],
+   "latitude": 34.4,
+   "bbox": [
+    -79.6331,
+    34.2338,
+    -79.073,
+    34.6211
+   ],
+   "coastal": true,
+   "elevation_ft": 100,
+   "zone": "8b",
+   "jan_low_f": 32,
+   "jul_high_f": 92,
+   "record_low_f": -1,
+   "record_high_f": 107,
+   "precip_in": 48.6,
+   "snow_in": 1,
+   "last_frost": "Mar 28",
+   "first_frost": "Nov 8",
+   "growing_days": 227,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Wilmington, NC",
+   "nws_cwa": "ILM",
+   "nwr": [
+    {
+     "call": "KEC95",
+     "freq": "162.400",
+     "same": "045033"
+    },
+    {
+     "call": "WXJ22",
+     "freq": "162.550",
+     "same": "045033"
+    },
+    {
+     "call": "WXL50",
+     "freq": "162.475",
+     "same": "045033"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.6
+  },
+  "Dorchester County": {
+   "fips": "45035",
+   "centroid": [
+    33.0822,
+    -80.4047
+   ],
+   "latitude": 33.1,
+   "bbox": [
+    -80.7915,
+    32.8179,
+    -80.079,
+    33.3345
+   ],
+   "coastal": true,
+   "elevation_ft": 60,
+   "zone": "8b",
+   "jan_low_f": 34,
+   "jul_high_f": 90,
+   "record_low_f": -5,
+   "record_high_f": 107,
+   "precip_in": 52.7,
+   "snow_in": 0,
+   "last_frost": "Mar 22",
+   "first_frost": "Nov 12",
+   "growing_days": 238,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Charleston, SC",
+   "nws_cwa": "CHS",
+   "nwr": [
+    {
+     "call": "KHB29",
+     "freq": "162.550",
+     "same": "045035"
+    },
+    {
+     "call": "KHA35",
+     "freq": "162.525",
+     "same": "045035"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 5.5
+  },
+  "Edgefield County": {
+   "fips": "45037",
+   "centroid": [
+    33.7795,
+    -81.9596
+   ],
+   "latitude": 33.8,
+   "bbox": [
+    -82.1827,
+    33.5321,
+    -81.653,
+    33.9769
+   ],
+   "coastal": false,
+   "elevation_ft": 440,
+   "zone": "8a",
+   "jan_low_f": 35,
+   "jul_high_f": 92,
+   "record_low_f": -2,
+   "record_high_f": 111,
+   "precip_in": 48.0,
+   "snow_in": 1,
+   "last_frost": "Mar 16",
+   "first_frost": "Nov 13",
+   "growing_days": 244,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Columbia, SC",
+   "nws_cwa": "CAE",
+   "nwr": [
+    {
+     "call": "WNG627",
+     "freq": "162.450",
+     "same": "045037"
+    },
+    {
+     "call": "WXK54",
+     "freq": "162.550",
+     "same": "045037"
+    },
+    {
+     "call": "KHC28",
+     "freq": "162.425",
+     "same": "045037"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.5
+  },
+  "Fairfield County": {
+   "fips": "45039",
+   "centroid": [
+    34.3957,
+    -81.127
+   ],
+   "latitude": 34.4,
+   "bbox": [
+    -81.4274,
+    34.1753,
+    -80.7704,
+    34.5718
+   ],
+   "coastal": false,
+   "elevation_ft": 420,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 91,
+   "record_low_f": -3,
+   "record_high_f": 108,
+   "precip_in": 45.1,
+   "snow_in": 0,
+   "last_frost": "Mar 31",
+   "first_frost": "Nov 6",
+   "growing_days": 221,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Columbia, SC",
+   "nws_cwa": "CAE",
+   "nwr": [
+    {
+     "call": "WXJ20",
+     "freq": "162.400",
+     "same": "045039"
+    },
+    {
+     "call": "KHC27",
+     "freq": "162.425",
+     "same": "045039"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.6
+  },
+  "Florence County": {
+   "fips": "45041",
+   "centroid": [
+    34.0285,
+    -79.7102
+   ],
+   "latitude": 34.0,
+   "bbox": [
+    -80.0696,
+    33.7757,
+    -79.3141,
+    34.3068
+   ],
+   "coastal": true,
+   "elevation_ft": 120,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 92,
+   "record_low_f": 0,
+   "record_high_f": 108,
+   "precip_in": 45.3,
+   "snow_in": 0,
+   "last_frost": "Mar 19",
+   "first_frost": "Nov 13",
+   "growing_days": 241,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Wilmington, NC",
+   "nws_cwa": "ILM",
+   "nwr": [
+    {
+     "call": "KEC95",
+     "freq": "162.400",
+     "same": "045041"
+    },
+    {
+     "call": "WXJ22",
+     "freq": "162.550",
+     "same": "045041"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.6
+  },
+  "Georgetown County": {
+   "fips": "45043",
+   "centroid": [
+    33.4175,
+    -79.2963
+   ],
+   "latitude": 33.4,
+   "bbox": [
+    -79.6805,
+    33.1158,
+    -79.0022,
+    33.7796
+   ],
+   "coastal": true,
+   "elevation_ft": 20,
+   "zone": "8b",
+   "jan_low_f": 37,
+   "jul_high_f": 91,
+   "record_low_f": 4,
+   "record_high_f": 103,
+   "precip_in": 55.4,
+   "snow_in": 0,
+   "last_frost": "Mar 12",
+   "first_frost": "Nov 24",
+   "growing_days": 258,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Wilmington, NC",
+   "nws_cwa": "ILM",
+   "nwr": [
+    {
+     "call": "KEC95",
+     "freq": "162.400",
+     "same": "045043"
+    },
+    {
+     "call": "KHB29",
+     "freq": "162.550",
+     "same": "045043"
+    },
+    {
+     "call": "WNG628",
+     "freq": "162.500",
+     "same": "045043"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 2,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.5
+  },
+  "Greenville County": {
+   "fips": "45045",
+   "centroid": [
+    34.8926,
+    -82.3721
+   ],
+   "latitude": 34.9,
+   "bbox": [
+    -82.7641,
+    34.4841,
+    -82.1495,
+    35.2153
+   ],
+   "coastal": false,
+   "elevation_ft": 1080,
+   "zone": "8a",
+   "jan_low_f": 35,
+   "jul_high_f": 91,
+   "record_low_f": -5,
+   "record_high_f": 107,
+   "precip_in": 47.0,
+   "snow_in": 2,
+   "last_frost": "Mar 16",
+   "first_frost": "Nov 20",
+   "growing_days": 250,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "WXJ21",
+     "freq": "162.550",
+     "same": "045045"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.6
+  },
+  "Greenwood County": {
+   "fips": "45047",
+   "centroid": [
+    34.1558,
+    -82.1279
+   ],
+   "latitude": 34.2,
+   "bbox": [
+    -82.3339,
+    33.954,
+    -81.8694,
+    34.4094
+   ],
+   "coastal": false,
+   "elevation_ft": 590,
+   "zone": "8a",
+   "jan_low_f": 33,
+   "jul_high_f": 92,
+   "record_low_f": -5,
+   "record_high_f": 109,
+   "precip_in": 42.0,
+   "snow_in": 1,
+   "last_frost": "Mar 26",
+   "first_frost": "Nov 12",
+   "growing_days": 233,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "WXJ21",
+     "freq": "162.550",
+     "same": "045047"
+    },
+    {
+     "call": "KHC28",
+     "freq": "162.425",
+     "same": "045047"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.6
+  },
+  "Hampton County": {
+   "fips": "45049",
+   "centroid": [
+    32.7783,
+    -81.1438
+   ],
+   "latitude": 32.8,
+   "bbox": [
+    -81.4269,
+    32.5518,
+    -80.8265,
+    33.0264
+   ],
+   "coastal": true,
+   "elevation_ft": 120,
+   "zone": "8b",
+   "jan_low_f": 39,
+   "jul_high_f": 92,
+   "record_low_f": 1,
+   "record_high_f": 107,
+   "precip_in": 45.2,
+   "snow_in": 0,
+   "last_frost": "Mar 6",
+   "first_frost": "Nov 26",
+   "growing_days": 267,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Charleston, SC",
+   "nws_cwa": "CHS",
+   "nwr": [
+    {
+     "call": "KHC29",
+     "freq": "162.500",
+     "same": "045049"
+    },
+    {
+     "call": "WXJ23",
+     "freq": "162.450",
+     "same": "045049"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 5.5
+  },
+  "Horry County": {
+   "fips": "45051",
+   "centroid": [
+    33.9093,
+    -78.9767
+   ],
+   "latitude": 33.9,
+   "bbox": [
+    -79.3387,
+    33.5719,
+    -78.5411,
+    34.2989
+   ],
+   "coastal": true,
+   "elevation_ft": 20,
+   "zone": "8b",
+   "jan_low_f": 35,
+   "jul_high_f": 91,
+   "record_low_f": 4,
+   "record_high_f": 106,
+   "precip_in": 55.2,
+   "snow_in": 0,
+   "last_frost": "Mar 15",
+   "first_frost": "Nov 22",
+   "growing_days": 254,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Wilmington, NC",
+   "nws_cwa": "ILM",
+   "nwr": [
+    {
+     "call": "KEC95",
+     "freq": "162.400",
+     "same": "045051"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 2,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.7
+  },
+  "Jasper County": {
+   "fips": "45053",
+   "centroid": [
+    32.4306,
+    -81.0216
+   ],
+   "latitude": 32.4,
+   "bbox": [
+    -81.2804,
+    32.0347,
+    -80.8174,
+    32.7524
+   ],
+   "coastal": true,
+   "elevation_ft": 50,
+   "zone": "9a",
+   "jan_low_f": 40,
+   "jul_high_f": 92,
+   "record_low_f": 5,
+   "record_high_f": 106,
+   "precip_in": 45.0,
+   "snow_in": 0,
+   "last_frost": "Feb 28",
+   "first_frost": "Dec 3",
+   "growing_days": 279,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Charleston, SC",
+   "nws_cwa": "CHS",
+   "nwr": [
+    {
+     "call": "WXJ23",
+     "freq": "162.450",
+     "same": "045053"
+    },
+    {
+     "call": "KEC85",
+     "freq": "162.400",
+     "same": "045053"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 5.5
+  },
+  "Kershaw County": {
+   "fips": "45055",
+   "centroid": [
+    34.3384,
+    -80.5909
+   ],
+   "latitude": 34.3,
+   "bbox": [
+    -80.8789,
+    34.0697,
+    -80.2841,
+    34.6146
+   ],
+   "coastal": false,
+   "elevation_ft": 300,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 92,
+   "record_low_f": 9,
+   "record_high_f": 105,
+   "precip_in": 38.3,
+   "snow_in": 0,
+   "last_frost": "Mar 23",
+   "first_frost": "Nov 14",
+   "growing_days": 237,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Columbia, SC",
+   "nws_cwa": "CAE",
+   "nwr": [
+    {
+     "call": "WXJ20",
+     "freq": "162.400",
+     "same": "045055"
+    },
+    {
+     "call": "WXJ22",
+     "freq": "162.550",
+     "same": "045055"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.6
+  },
+  "Lancaster County": {
+   "fips": "45057",
+   "centroid": [
+    34.6868,
+    -80.7037
+   ],
+   "latitude": 34.7,
+   "bbox": [
+    -80.9092,
+    34.4574,
+    -80.4081,
+    35.0748
+   ],
+   "coastal": false,
+   "elevation_ft": 530,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 91,
+   "record_low_f": 3,
+   "record_high_f": 106,
+   "precip_in": 48.2,
+   "snow_in": 3,
+   "last_frost": "Mar 27",
+   "first_frost": "Nov 8",
+   "growing_days": 228,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Columbia, SC",
+   "nws_cwa": "CAE",
+   "nwr": [
+    {
+     "call": "KHC27",
+     "freq": "162.425",
+     "same": "045057"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.6
+  },
+  "Laurens County": {
+   "fips": "45059",
+   "centroid": [
+    34.4837,
+    -82.0055
+   ],
+   "latitude": 34.5,
+   "bbox": [
+    -82.3145,
+    34.203,
+    -81.6458,
+    34.7853
+   ],
+   "coastal": false,
+   "elevation_ft": 560,
+   "zone": "8a",
+   "jan_low_f": 30,
+   "jul_high_f": 91,
+   "record_low_f": -2,
+   "record_high_f": 107,
+   "precip_in": 46.7,
+   "snow_in": 1,
+   "last_frost": "Apr 1",
+   "first_frost": "Nov 5",
+   "growing_days": 219,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "WXJ21",
+     "freq": "162.550",
+     "same": "045059"
+    },
+    {
+     "call": "KHC28",
+     "freq": "162.425",
+     "same": "045059"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.6
+  },
+  "Lee County": {
+   "fips": "45061",
+   "centroid": [
+    34.1586,
+    -80.2512
+   ],
+   "latitude": 34.2,
+   "bbox": [
+    -80.4813,
+    33.9528,
+    -80.0003,
+    34.3679
+   ],
+   "coastal": false,
+   "elevation_ft": 200,
+   "zone": "8b",
+   "jan_low_f": 33,
+   "jul_high_f": 92,
+   "record_low_f": -2,
+   "record_high_f": 107,
+   "precip_in": 46.6,
+   "snow_in": 0,
+   "last_frost": "Mar 29",
+   "first_frost": "Nov 4",
+   "growing_days": 222,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Columbia, SC",
+   "nws_cwa": "CAE",
+   "nwr": [
+    {
+     "call": "WXK90",
+     "freq": "162.450",
+     "same": "045061"
+    },
+    {
+     "call": "WXJ20",
+     "freq": "162.400",
+     "same": "045061"
+    },
+    {
+     "call": "WXJ22",
+     "freq": "162.550",
+     "same": "045061"
+    },
+    {
+     "call": "WWG77",
+     "freq": "162.425",
+     "same": "045061"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.6
+  },
+  "Lexington County": {
+   "fips": "45063",
+   "centroid": [
+    33.8923,
+    -81.273
+   ],
+   "latitude": 33.9,
+   "bbox": [
+    -81.5717,
+    33.6531,
+    -80.9257,
+    34.1983
+   ],
+   "coastal": false,
+   "elevation_ft": 500,
+   "zone": "8b",
+   "jan_low_f": 34,
+   "jul_high_f": 93,
+   "record_low_f": -2,
+   "record_high_f": 107,
+   "precip_in": 52.0,
+   "snow_in": 1,
+   "last_frost": "Mar 28",
+   "first_frost": "Nov 4",
+   "growing_days": 221,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Columbia, SC",
+   "nws_cwa": "CAE",
+   "nwr": [
+    {
+     "call": "WXJ20",
+     "freq": "162.400",
+     "same": "045063"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.5
+  },
+  "McCormick County": {
+   "fips": "45065",
+   "centroid": [
+    33.8976,
+    -82.3162
+   ],
+   "latitude": 33.9,
+   "bbox": [
+    -82.595,
+    33.5901,
+    -82.0452,
+    34.081
+   ],
+   "coastal": false,
+   "elevation_ft": 430,
+   "zone": "8b",
+   "jan_low_f": 33,
+   "jul_high_f": 92,
+   "record_low_f": -2,
+   "record_high_f": 109,
+   "precip_in": 47.3,
+   "snow_in": 0,
+   "last_frost": "Mar 28",
+   "first_frost": "Nov 7",
+   "growing_days": 226,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Columbia, SC",
+   "nws_cwa": "CAE",
+   "nwr": [
+    {
+     "call": "WXK54",
+     "freq": "162.550",
+     "same": "045065"
+    },
+    {
+     "call": "KHC28",
+     "freq": "162.425",
+     "same": "045065"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.5
+  },
+  "Marion County": {
+   "fips": "45067",
+   "centroid": [
+    34.0836,
+    -79.354
+   ],
+   "latitude": 34.1,
+   "bbox": [
+    -79.5718,
+    33.6945,
+    -79.1269,
+    34.3006
+   ],
+   "coastal": true,
+   "elevation_ft": 60,
+   "zone": "8b",
+   "jan_low_f": 34,
+   "jul_high_f": 90,
+   "record_low_f": 0,
+   "record_high_f": 108,
+   "precip_in": 49.3,
+   "snow_in": 1,
+   "last_frost": "Mar 22",
+   "first_frost": "Nov 11",
+   "growing_days": 234,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Wilmington, NC",
+   "nws_cwa": "ILM",
+   "nwr": [
+    {
+     "call": "KEC95",
+     "freq": "162.400",
+     "same": "045067"
+    },
+    {
+     "call": "WXJ22",
+     "freq": "162.550",
+     "same": "045067"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.6
+  },
+  "Marlboro County": {
+   "fips": "45069",
+   "centroid": [
+    34.6017,
+    -79.6794
+   ],
+   "latitude": 34.6,
+   "bbox": [
+    -79.9346,
+    34.298,
+    -79.4501,
+    34.8072
+   ],
+   "coastal": false,
+   "elevation_ft": 150,
+   "zone": "8a",
+   "jan_low_f": 34,
+   "jul_high_f": 92,
+   "record_low_f": -5,
+   "record_high_f": 108,
+   "precip_in": 41.7,
+   "snow_in": 0,
+   "last_frost": "Mar 26",
+   "first_frost": "Nov 8",
+   "growing_days": 228,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Wilmington, NC",
+   "nws_cwa": "ILM",
+   "nwr": [
+    {
+     "call": "WXK90",
+     "freq": "162.450",
+     "same": "045069"
+    },
+    {
+     "call": "WNG597",
+     "freq": "162.400",
+     "same": "045069"
+    },
+    {
+     "call": "WXJ22",
+     "freq": "162.550",
+     "same": "045069"
+    },
+    {
+     "call": "WXL50",
+     "freq": "162.475",
+     "same": "045069"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.6
+  },
+  "Newberry County": {
+   "fips": "45071",
+   "centroid": [
+    34.2899,
+    -81.5997
+   ],
+   "latitude": 34.3,
+   "bbox": [
+    -81.9446,
+    34.0712,
+    -81.317,
+    34.5336
+   ],
+   "coastal": false,
+   "elevation_ft": 530,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 91,
+   "record_low_f": -8,
+   "record_high_f": 108,
+   "precip_in": 46.5,
+   "snow_in": 1,
+   "last_frost": "Mar 31",
+   "first_frost": "Nov 7",
+   "growing_days": 223,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Columbia, SC",
+   "nws_cwa": "CAE",
+   "nwr": [
+    {
+     "call": "WXJ20",
+     "freq": "162.400",
+     "same": "045071"
+    },
+    {
+     "call": "WXJ21",
+     "freq": "162.550",
+     "same": "045071"
+    },
+    {
+     "call": "KHC28",
+     "freq": "162.425",
+     "same": "045071"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.6
+  },
+  "Oconee County": {
+   "fips": "45073",
+   "centroid": [
+    34.7488,
+    -83.0615
+   ],
+   "latitude": 34.7,
+   "bbox": [
+    -83.3536,
+    34.4723,
+    -82.828,
+    35.0551
+   ],
+   "coastal": false,
+   "elevation_ft": 910,
+   "zone": "8a",
+   "jan_low_f": 29,
+   "jul_high_f": 88,
+   "record_low_f": -5,
+   "record_high_f": 108,
+   "precip_in": 61.1,
+   "snow_in": 2,
+   "last_frost": "Apr 11",
+   "first_frost": "Oct 30",
+   "growing_days": 203,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "KXI81",
+     "freq": "162.450",
+     "same": "045073"
+    },
+    {
+     "call": "WXJ21",
+     "freq": "162.550",
+     "same": "045073"
+    },
+    {
+     "call": "WWH24",
+     "freq": "162.425",
+     "same": "045073"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.5
+  },
+  "Orangeburg County": {
+   "fips": "45075",
+   "centroid": [
+    33.4361,
+    -80.8029
+   ],
+   "latitude": 33.4,
+   "bbox": [
+    -81.373,
+    33.1768,
+    -80.2215,
+    33.7071
+   ],
+   "coastal": false,
+   "elevation_ft": 180,
+   "zone": "8b",
+   "jan_low_f": 37,
+   "jul_high_f": 92,
+   "record_low_f": 2,
+   "record_high_f": 108,
+   "precip_in": 43.7,
+   "snow_in": 0,
+   "last_frost": "Mar 15",
+   "first_frost": "Nov 19",
+   "growing_days": 249,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Columbia, SC",
+   "nws_cwa": "CAE",
+   "nwr": [
+    {
+     "call": "KHC29",
+     "freq": "162.500",
+     "same": "045075"
+    },
+    {
+     "call": "KHB29",
+     "freq": "162.550",
+     "same": "045075"
+    },
+    {
+     "call": "WXJ20",
+     "freq": "162.400",
+     "same": "045075"
+    },
+    {
+     "call": "WXM93",
+     "freq": "162.475",
+     "same": "045075"
+    },
+    {
+     "call": "KHA35",
+     "freq": "162.525",
+     "same": "045075"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 5.5
+  },
+  "Pickens County": {
+   "fips": "45077",
+   "centroid": [
+    34.8854,
+    -82.7234
+   ],
+   "latitude": 34.9,
+   "bbox": [
+    -82.943,
+    34.6084,
+    -82.477,
+    35.0857
+   ],
+   "coastal": false,
+   "elevation_ft": 990,
+   "zone": "8a",
+   "jan_low_f": 30,
+   "jul_high_f": 90,
+   "record_low_f": -6,
+   "record_high_f": 106,
+   "precip_in": 56.7,
+   "snow_in": 1,
+   "last_frost": "Apr 1",
+   "first_frost": "Nov 3",
+   "growing_days": 216,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "WXJ21",
+     "freq": "162.550",
+     "same": "045077"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.6
+  },
+  "Richland County": {
+   "fips": "45079",
+   "centroid": [
+    34.0291,
+    -80.898
+   ],
+   "latitude": 34.0,
+   "bbox": [
+    -81.3447,
+    33.7436,
+    -80.5969,
+    34.2687
+   ],
+   "coastal": false,
+   "elevation_ft": 260,
+   "zone": "8b",
+   "jan_low_f": 37,
+   "jul_high_f": 93,
+   "record_low_f": 1,
+   "record_high_f": 113,
+   "precip_in": 43.7,
+   "snow_in": 0,
+   "last_frost": "Mar 13",
+   "first_frost": "Nov 19",
+   "growing_days": 253,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Columbia, SC",
+   "nws_cwa": "CAE",
+   "nwr": [
+    {
+     "call": "WXJ20",
+     "freq": "162.400",
+     "same": "045079"
+    },
+    {
+     "call": "KHA35",
+     "freq": "162.525",
+     "same": "045079"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.6
+  },
+  "Saluda County": {
+   "fips": "45081",
+   "centroid": [
+    34.0053,
+    -81.7279
+   ],
+   "latitude": 34.0,
+   "bbox": [
+    -82.0091,
+    33.8136,
+    -81.4722,
+    34.1874
+   ],
+   "coastal": false,
+   "elevation_ft": 450,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 93,
+   "record_low_f": -2,
+   "record_high_f": 109,
+   "precip_in": 46.8,
+   "snow_in": 0,
+   "last_frost": "Mar 31",
+   "first_frost": "Nov 4",
+   "growing_days": 218,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Columbia, SC",
+   "nws_cwa": "CAE",
+   "nwr": [
+    {
+     "call": "WXJ20",
+     "freq": "162.400",
+     "same": "045081"
+    },
+    {
+     "call": "KHC28",
+     "freq": "162.425",
+     "same": "045081"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.6
+  },
+  "Spartanburg County": {
+   "fips": "45083",
+   "centroid": [
+    34.932,
+    -81.9916
+   ],
+   "latitude": 34.9,
+   "bbox": [
+    -82.2261,
+    34.5812,
+    -81.7123,
+    35.1959
+   ],
+   "coastal": false,
+   "elevation_ft": 840,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 90,
+   "record_low_f": -5,
+   "record_high_f": 106,
+   "precip_in": 50.2,
+   "snow_in": 1,
+   "last_frost": "Apr 8",
+   "first_frost": "Nov 1",
+   "growing_days": 206,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "WXJ21",
+     "freq": "162.550",
+     "same": "045083"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.6
+  },
+  "Sumter County": {
+   "fips": "45085",
+   "centroid": [
+    33.9161,
+    -80.3824
+   ],
+   "latitude": 33.9,
+   "bbox": [
+    -80.6455,
+    33.6438,
+    -79.8937,
+    34.1689
+   ],
+   "coastal": false,
+   "elevation_ft": 150,
+   "zone": "8b",
+   "jan_low_f": 33,
+   "jul_high_f": 90,
+   "record_low_f": 2,
+   "record_high_f": 105,
+   "precip_in": 48.8,
+   "snow_in": 0,
+   "last_frost": "Mar 24",
+   "first_frost": "Nov 7",
+   "growing_days": 230,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Columbia, SC",
+   "nws_cwa": "CAE",
+   "nwr": [
+    {
+     "call": "WXJ20",
+     "freq": "162.400",
+     "same": "045085"
+    },
+    {
+     "call": "WXJ22",
+     "freq": "162.550",
+     "same": "045085"
+    },
+    {
+     "call": "KHA35",
+     "freq": "162.525",
+     "same": "045085"
+    },
+    {
+     "call": "WWG77",
+     "freq": "162.425",
+     "same": "045085"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 5.5
+  },
+  "Union County": {
+   "fips": "45087",
+   "centroid": [
+    34.6904,
+    -81.6159
+   ],
+   "latitude": 34.7,
+   "bbox": [
+    -81.8549,
+    34.4455,
+    -81.4161,
+    34.9123
+   ],
+   "coastal": false,
+   "elevation_ft": 600,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 92,
+   "record_low_f": -11,
+   "record_high_f": 110,
+   "precip_in": 44.6,
+   "snow_in": 3,
+   "last_frost": "Apr 4",
+   "first_frost": "Nov 1",
+   "growing_days": 210,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "WXJ21",
+     "freq": "162.550",
+     "same": "045087"
+    },
+    {
+     "call": "KHC27",
+     "freq": "162.425",
+     "same": "045087"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.6
+  },
+  "Williamsburg County": {
+   "fips": "45089",
+   "centroid": [
+    33.6265,
+    -79.7165
+   ],
+   "latitude": 33.6,
+   "bbox": [
+    -80.1019,
+    33.3049,
+    -79.3174,
+    33.8917
+   ],
+   "coastal": true,
+   "elevation_ft": 60,
+   "zone": "8b",
+   "jan_low_f": 33,
+   "jul_high_f": 93,
+   "record_low_f": 0,
+   "record_high_f": 108,
+   "precip_in": 52.5,
+   "snow_in": 2,
+   "last_frost": "Mar 29",
+   "first_frost": "Nov 6",
+   "growing_days": 223,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Wilmington, NC",
+   "nws_cwa": "ILM",
+   "nwr": [
+    {
+     "call": "KEC95",
+     "freq": "162.400",
+     "same": "045089"
+    },
+    {
+     "call": "KHB29",
+     "freq": "162.550",
+     "same": "045089"
+    },
+    {
+     "call": "WXM93",
+     "freq": "162.475",
+     "same": "045089"
+    },
+    {
+     "call": "WXJ22",
+     "freq": "162.550",
+     "same": "045089"
+    },
+    {
+     "call": "WNG628",
+     "freq": "162.500",
+     "same": "045089"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.5
+  },
+  "York County": {
+   "fips": "45091",
+   "centroid": [
+    34.9702,
+    -81.1832
+   ],
+   "latitude": 35.0,
+   "bbox": [
+    -81.4923,
+    34.8203,
+    -80.8651,
+    35.1649
+   ],
+   "coastal": false,
+   "elevation_ft": 630,
+   "zone": "8a",
+   "jan_low_f": 30,
+   "jul_high_f": 89,
+   "record_low_f": -4,
+   "record_high_f": 108,
+   "precip_in": 44.1,
+   "snow_in": 0,
+   "last_frost": "Apr 1",
+   "first_frost": "Nov 3",
+   "growing_days": 216,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "WXL70",
+     "freq": "162.475",
+     "same": "045091"
+    },
+    {
+     "call": "KHC27",
+     "freq": "162.425",
+     "same": "045091"
+    }
+   ],
+   "state_em": "South Carolina Emergency Management Division",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.6
+  }
+ }
+}

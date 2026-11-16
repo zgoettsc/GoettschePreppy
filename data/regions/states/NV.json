@@ -1,0 +1,1058 @@
+{
+ "state": "NV",
+ "state_name": "Nevada",
+ "state_fips": "32",
+ "state_em": "Nevada Division of Emergency Management",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "LKN": "NWS Elko, NV",
+  "REV": "NWS Reno, NV",
+  "VEF": "NWS Las Vegas, NV",
+  "VEFLKN": "NWS VEFLKN"
+ },
+ "ecoregions": [
+  "Sierra Nevada",
+  "Central Basin and Range",
+  "Mojave Basin and Range",
+  "Northern Basin and Range"
+ ],
+ "counties": {
+  "Churchill County": {
+   "fips": "32001",
+   "centroid": [
+    39.5377,
+    -118.2642
+   ],
+   "latitude": 39.5,
+   "bbox": [
+    -119.2258,
+    39.0725,
+    -117.4615,
+    40.0026
+   ],
+   "coastal": false,
+   "elevation_ft": 6880,
+   "zone": "7a",
+   "jan_low_f": 16,
+   "jul_high_f": 93,
+   "record_low_f": -23,
+   "record_high_f": 109,
+   "precip_in": 5.8,
+   "snow_in": 4,
+   "last_frost": "Jun 11",
+   "first_frost": "Sep 12",
+   "growing_days": 92,
+   "ecoregion": "Central Basin and Range",
+   "ecoregion_code": "13",
+   "nws_office": "Reno, NV",
+   "nws_cwa": "REV",
+   "nwr": [
+    {
+     "call": "WWG20",
+     "freq": "162.450",
+     "same": "032001"
+    }
+   ],
+   "state_em": "Nevada Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 7.2
+  },
+  "Clark County": {
+   "fips": "32003",
+   "centroid": [
+    36.2141,
+    -115.0144
+   ],
+   "latitude": 36.2,
+   "bbox": [
+    -115.8987,
+    35.0039,
+    -114.0458,
+    36.8537
+   ],
+   "coastal": false,
+   "elevation_ft": 1940,
+   "zone": "9a",
+   "jan_low_f": 38,
+   "jul_high_f": 106,
+   "record_low_f": 8,
+   "record_high_f": 120,
+   "precip_in": 4.3,
+   "snow_in": 0,
+   "last_frost": "Feb 1",
+   "first_frost": "Dec 8",
+   "growing_days": 311,
+   "ecoregion": "Mojave Basin and Range",
+   "ecoregion_code": "14",
+   "nws_office": "Las Vegas, NV",
+   "nws_cwa": "VEF",
+   "nwr": [
+    {
+     "call": "KQC45",
+     "freq": "162.500",
+     "same": "032003"
+    },
+    {
+     "call": "KXI83",
+     "freq": "162.425",
+     "same": "032003"
+    },
+    {
+     "call": "WXL36",
+     "freq": "162.550",
+     "same": "032003"
+    },
+    {
+     "call": "WNG634",
+     "freq": "162.400",
+     "same": "032003"
+    },
+    {
+     "call": "WWF51",
+     "freq": "162.475",
+     "same": "032003"
+    }
+   ],
+   "state_em": "Nevada Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 3,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 4.6,
+   "sun_hours_jun": 7.5
+  },
+  "Douglas County": {
+   "fips": "32005",
+   "centroid": [
+    38.9051,
+    -119.609
+   ],
+   "latitude": 38.9,
+   "bbox": [
+    -120.0034,
+    38.5353,
+    -119.3104,
+    39.114
+   ],
+   "coastal": false,
+   "elevation_ft": 5970,
+   "zone": "7a",
+   "jan_low_f": 22,
+   "jul_high_f": 92,
+   "record_low_f": -17,
+   "record_high_f": 105,
+   "precip_in": 5.9,
+   "snow_in": 18,
+   "last_frost": "May 12",
+   "first_frost": "Oct 6",
+   "growing_days": 145,
+   "ecoregion": "Central Basin and Range",
+   "ecoregion_code": "13",
+   "nws_office": "Reno, NV",
+   "nws_cwa": "REV",
+   "nwr": [
+    {
+     "call": "WXK58",
+     "freq": "162.550",
+     "same": "032005"
+    }
+   ],
+   "state_em": "Nevada Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 3,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 7.2
+  },
+  "Elko County": {
+   "fips": "32007",
+   "centroid": [
+    41.1411,
+    -115.3514
+   ],
+   "latitude": 41.1,
+   "bbox": [
+    -117.0195,
+    40.1167,
+    -114.0396,
+    42.0022
+   ],
+   "coastal": false,
+   "elevation_ft": 5770,
+   "zone": "5a",
+   "jan_low_f": 10,
+   "jul_high_f": 88,
+   "record_low_f": -42,
+   "record_high_f": 101,
+   "precip_in": 12.3,
+   "snow_in": 84,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 71,
+   "ecoregion": "Central Basin and Range",
+   "ecoregion_code": "13",
+   "nws_office": "Elko, NV",
+   "nws_cwa": "LKN",
+   "nwr": [
+    {
+     "call": "WXL28",
+     "freq": "162.550",
+     "same": "032007"
+    },
+    {
+     "call": "WNG700",
+     "freq": "162.500",
+     "same": "032007"
+    },
+    {
+     "call": "WNG731",
+     "freq": "162.450",
+     "same": "032007"
+    },
+    {
+     "call": "KXI30",
+     "freq": "162.475",
+     "same": "032007"
+    }
+   ],
+   "state_em": "Nevada Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 3,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 6.7
+  },
+  "Esmeralda County": {
+   "fips": "32009",
+   "centroid": [
+    37.779,
+    -117.6324
+   ],
+   "latitude": 37.8,
+   "bbox": [
+    -118.4281,
+    36.9711,
+    -117.1649,
+    38.4742
+   ],
+   "coastal": false,
+   "elevation_ft": 4280,
+   "zone": "7a",
+   "jan_low_f": 19,
+   "jul_high_f": 97,
+   "record_low_f": -22,
+   "record_high_f": 111,
+   "precip_in": 4.3,
+   "snow_in": 9,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 16",
+   "growing_days": 177,
+   "ecoregion": "Central Basin and Range",
+   "ecoregion_code": "13",
+   "nws_office": "Las Vegas, NV",
+   "nws_cwa": "VEF",
+   "nwr": [
+    {
+     "call": "WNG634",
+     "freq": "162.400",
+     "same": "032009"
+    },
+    {
+     "call": "WZ2519",
+     "freq": "162.400",
+     "same": "032009"
+    }
+   ],
+   "state_em": "Nevada Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.4,
+   "sun_hours_jun": 7.5
+  },
+  "Eureka County": {
+   "fips": "32011",
+   "centroid": [
+    39.9778,
+    -116.2722
+   ],
+   "latitude": 40.0,
+   "bbox": [
+    -116.6048,
+    39.1613,
+    -115.7952,
+    41.0005
+   ],
+   "coastal": false,
+   "elevation_ft": 5980,
+   "zone": "5b",
+   "jan_low_f": 15,
+   "jul_high_f": 90,
+   "record_low_f": -31,
+   "record_high_f": 103,
+   "precip_in": 8.9,
+   "snow_in": 47,
+   "last_frost": "May 28",
+   "first_frost": "Sep 21",
+   "growing_days": 114,
+   "ecoregion": "Central Basin and Range",
+   "ecoregion_code": "13",
+   "nws_office": "Elko, NV",
+   "nws_cwa": "LKN",
+   "nwr": [
+    {
+     "call": "WXL28",
+     "freq": "162.550",
+     "same": "032011"
+    },
+    {
+     "call": "WWF81",
+     "freq": "162.550",
+     "same": "032011"
+    }
+   ],
+   "state_em": "Nevada Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 7.0
+  },
+  "Humboldt County": {
+   "fips": "32013",
+   "centroid": [
+    41.4079,
+    -118.1276
+   ],
+   "latitude": 41.4,
+   "bbox": [
+    -119.3314,
+    40.5271,
+    -117.0176,
+    42.0004
+   ],
+   "coastal": false,
+   "elevation_ft": 4120,
+   "zone": "6a",
+   "jan_low_f": 19,
+   "jul_high_f": 94,
+   "record_low_f": -35,
+   "record_high_f": 115,
+   "precip_in": 10.2,
+   "snow_in": 16,
+   "last_frost": "Jun 2",
+   "first_frost": "Sep 11",
+   "growing_days": 102,
+   "ecoregion": "Central Basin and Range",
+   "ecoregion_code": "13",
+   "nws_office": "Elko, NV",
+   "nws_cwa": "LKN",
+   "nwr": [
+    {
+     "call": "WXL29",
+     "freq": "162.400",
+     "same": "032013"
+    }
+   ],
+   "state_em": "Nevada Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 6.8
+  },
+  "Lander County": {
+   "fips": "32015",
+   "centroid": [
+    39.9002,
+    -117.0472
+   ],
+   "latitude": 39.9,
+   "bbox": [
+    -117.8062,
+    39.0941,
+    -116.5868,
+    41.0005
+   ],
+   "coastal": false,
+   "elevation_ft": 5740,
+   "zone": "6b",
+   "jan_low_f": 15,
+   "jul_high_f": 90,
+   "record_low_f": -31,
+   "record_high_f": 103,
+   "precip_in": 8.9,
+   "snow_in": 64,
+   "last_frost": "May 28",
+   "first_frost": "Sep 21",
+   "growing_days": 114,
+   "ecoregion": "Central Basin and Range",
+   "ecoregion_code": "13",
+   "nws_office": "Elko, NV",
+   "nws_cwa": "LKN",
+   "nwr": [
+    {
+     "call": "WZ2521",
+     "freq": "162.425",
+     "same": "032015"
+    }
+   ],
+   "state_em": "Nevada Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 7.1
+  },
+  "Lincoln County": {
+   "fips": "32017",
+   "centroid": [
+    37.6346,
+    -114.863
+   ],
+   "latitude": 37.6,
+   "bbox": [
+    -115.8964,
+    36.8419,
+    -114.0484,
+    38.6777
+   ],
+   "coastal": false,
+   "elevation_ft": 4890,
+   "zone": "7a",
+   "jan_low_f": 19,
+   "jul_high_f": 96,
+   "record_low_f": -31,
+   "record_high_f": 110,
+   "precip_in": 8.8,
+   "snow_in": 9,
+   "last_frost": "May 3",
+   "first_frost": "Oct 9",
+   "growing_days": 156,
+   "ecoregion": "Central Basin and Range",
+   "ecoregion_code": "13",
+   "nws_office": "Las Vegas, NV",
+   "nws_cwa": "VEF",
+   "nwr": [
+    {
+     "call": "WXL69",
+     "freq": "162.400",
+     "same": "032017"
+    },
+    {
+     "call": "WNG634",
+     "freq": "162.400",
+     "same": "032017"
+    },
+    {
+     "call": "WWF51",
+     "freq": "162.475",
+     "same": "032017"
+    }
+   ],
+   "state_em": "Nevada Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.3,
+   "sun_hours_jun": 7.4
+  },
+  "Lyon County": {
+   "fips": "32019",
+   "centroid": [
+    39.0222,
+    -119.1974
+   ],
+   "latitude": 39.0,
+   "bbox": [
+    -119.7122,
+    38.4141,
+    -118.751,
+    39.7404
+   ],
+   "coastal": false,
+   "elevation_ft": 4360,
+   "zone": "7a",
+   "jan_low_f": 23,
+   "jul_high_f": 93,
+   "record_low_f": -26,
+   "record_high_f": 107,
+   "precip_in": 4.6,
+   "snow_in": 3,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 15",
+   "growing_days": 167,
+   "ecoregion": "Central Basin and Range",
+   "ecoregion_code": "13",
+   "nws_office": "Reno, NV",
+   "nws_cwa": "REV",
+   "nwr": [
+    {
+     "call": "WWG20",
+     "freq": "162.450",
+     "same": "032019"
+    },
+    {
+     "call": "WWF59",
+     "freq": "162.475",
+     "same": "032019"
+    },
+    {
+     "call": "WXK58",
+     "freq": "162.550",
+     "same": "032019"
+    }
+   ],
+   "state_em": "Nevada Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 7.2
+  },
+  "Mineral County": {
+   "fips": "32021",
+   "centroid": [
+    38.5166,
+    -118.4163
+   ],
+   "latitude": 38.5,
+   "bbox": [
+    -119.157,
+    37.8936,
+    -117.6915,
+    39.0747
+   ],
+   "coastal": false,
+   "elevation_ft": 5570,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 95,
+   "record_low_f": -3,
+   "record_high_f": 110,
+   "precip_in": 4.2,
+   "snow_in": 1,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 25",
+   "growing_days": 185,
+   "ecoregion": "Central Basin and Range",
+   "ecoregion_code": "13",
+   "nws_office": "Reno, NV",
+   "nws_cwa": "REV",
+   "nwr": [
+    {
+     "call": "WWF59",
+     "freq": "162.475",
+     "same": "032021"
+    }
+   ],
+   "state_em": "Nevada Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 7.3
+  },
+  "Nye County": {
+   "fips": "32023",
+   "centroid": [
+    37.9659,
+    -116.459
+   ],
+   "latitude": 38.0,
+   "bbox": [
+    -118.1963,
+    36.0048,
+    -115.0008,
+    39.1635
+   ],
+   "coastal": false,
+   "elevation_ft": 9240,
+   "zone": "6b",
+   "jan_low_f": 15,
+   "jul_high_f": 94,
+   "record_low_f": -15,
+   "record_high_f": 103,
+   "precip_in": 4.9,
+   "snow_in": 10,
+   "last_frost": "May 10",
+   "first_frost": "Sep 30",
+   "growing_days": 141,
+   "ecoregion": "Central Basin and Range",
+   "ecoregion_code": "13",
+   "nws_office": "VEFLKN",
+   "nws_cwa": "VEFLKN",
+   "nwr": [
+    {
+     "call": "WWF81",
+     "freq": "162.550",
+     "same": "032023"
+    },
+    {
+     "call": "WNG634",
+     "freq": "162.400",
+     "same": "032023"
+    },
+    {
+     "call": "WZ2519",
+     "freq": "162.400",
+     "same": "032023"
+    }
+   ],
+   "state_em": "Nevada Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.4,
+   "sun_hours_jun": 7.5
+  },
+  "Pershing County": {
+   "fips": "32027",
+   "centroid": [
+    40.4396,
+    -118.4095
+   ],
+   "latitude": 40.4,
+   "bbox": [
+    -119.3393,
+    39.9983,
+    -117.2999,
+    40.9611
+   ],
+   "coastal": false,
+   "elevation_ft": 4620,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 95,
+   "record_low_f": -29,
+   "record_high_f": 111,
+   "precip_in": 8.3,
+   "snow_in": 3,
+   "last_frost": "May 19",
+   "first_frost": "Sep 24",
+   "growing_days": 125,
+   "ecoregion": "Central Basin and Range",
+   "ecoregion_code": "13",
+   "nws_office": "Reno, NV",
+   "nws_cwa": "REV",
+   "nwr": [
+    {
+     "call": "WWG20",
+     "freq": "162.450",
+     "same": "032027"
+    },
+    {
+     "call": "WXL29",
+     "freq": "162.400",
+     "same": "032027"
+    }
+   ],
+   "state_em": "Nevada Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 7.1
+  },
+  "Storey County": {
+   "fips": "32029",
+   "centroid": [
+    39.4384,
+    -119.5246
+   ],
+   "latitude": 39.4,
+   "bbox": [
+    -119.7139,
+    39.2508,
+    -119.2798,
+    39.629
+   ],
+   "coastal": false,
+   "elevation_ft": 5750,
+   "zone": "7a",
+   "jan_low_f": 27,
+   "jul_high_f": 84,
+   "record_low_f": -11,
+   "record_high_f": 100,
+   "precip_in": 11.7,
+   "snow_in": 46,
+   "last_frost": "May 12",
+   "first_frost": "Oct 17",
+   "growing_days": 155,
+   "ecoregion": "Central Basin and Range",
+   "ecoregion_code": "13",
+   "nws_office": "Reno, NV",
+   "nws_cwa": "REV",
+   "nwr": [
+    {
+     "call": "WXK58",
+     "freq": "162.550",
+     "same": "032029"
+    }
+   ],
+   "state_em": "Nevada Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 7.2
+  },
+  "Washoe County": {
+   "fips": "32031",
+   "centroid": [
+    40.7313,
+    -119.6633
+   ],
+   "latitude": 40.7,
+   "bbox": [
+    -120.0057,
+    39.1638,
+    -119.1683,
+    41.9976
+   ],
+   "coastal": false,
+   "elevation_ft": 6010,
+   "zone": "7a",
+   "jan_low_f": 19,
+   "jul_high_f": 95,
+   "record_low_f": -30,
+   "record_high_f": 112,
+   "precip_in": 7.7,
+   "snow_in": 13,
+   "last_frost": "May 10",
+   "first_frost": "Oct 1",
+   "growing_days": 141,
+   "ecoregion": "Northern Basin and Range",
+   "ecoregion_code": "80",
+   "nws_office": "Reno, NV",
+   "nws_cwa": "REV",
+   "nwr": [
+    {
+     "call": "WWG20",
+     "freq": "162.450",
+     "same": "032031"
+    },
+    {
+     "call": "WXK58",
+     "freq": "162.550",
+     "same": "032031"
+    }
+   ],
+   "state_em": "Nevada Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 3,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 6.9
+  },
+  "White Pine County": {
+   "fips": "32033",
+   "centroid": [
+    39.4182,
+    -114.9006
+   ],
+   "latitude": 39.4,
+   "bbox": [
+    -115.9076,
+    38.6767,
+    -114.0464,
+    40.1285
+   ],
+   "coastal": false,
+   "elevation_ft": 7660,
+   "zone": "6a",
+   "jan_low_f": 9,
+   "jul_high_f": 84,
+   "record_low_f": -34,
+   "record_high_f": 100,
+   "precip_in": 12.6,
+   "snow_in": 64,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 81,
+   "ecoregion": "Central Basin and Range",
+   "ecoregion_code": "13",
+   "nws_office": "Elko, NV",
+   "nws_cwa": "LKN",
+   "nwr": [
+    {
+     "call": "WXL69",
+     "freq": "162.400",
+     "same": "032033"
+    },
+    {
+     "call": "WWF81",
+     "freq": "162.550",
+     "same": "032033"
+    }
+   ],
+   "state_em": "Nevada Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 6.9
+  },
+  "Carson City": {
+   "fips": "32510",
+   "centroid": [
+    39.1531,
+    -119.7474
+   ],
+   "latitude": 39.2,
+   "bbox": [
+    -120.0045,
+    39.0848,
+    -119.5486,
+    39.2508
+   ],
+   "coastal": false,
+   "elevation_ft": 4650,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 90,
+   "record_low_f": -27,
+   "record_high_f": 107,
+   "precip_in": 9.3,
+   "snow_in": 14,
+   "last_frost": "May 4",
+   "first_frost": "Oct 6",
+   "growing_days": 152,
+   "ecoregion": "Central Basin and Range",
+   "ecoregion_code": "13",
+   "nws_office": "Reno, NV",
+   "nws_cwa": "REV",
+   "nwr": [
+    {
+     "call": "WXK58",
+     "freq": "162.550",
+     "same": "032510"
+    }
+   ],
+   "state_em": "Nevada Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 7.2
+  }
+ }
+}

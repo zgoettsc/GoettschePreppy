@@ -155,6 +155,9 @@ async function scenarioA(browser, base) {
     assert.equal(await page.isChecked('#keep-toggle'), false);
     assert.ok(await page.isVisible('.notice.private-copy'));
     assert.equal(await page.evaluate(() => localStorage.length), 0);
+    await page.click('#relay-source > summary');
+    await page.waitForSelector('#relay-source pre');
+    assert.match(await page.textContent('#relay-source'), /worker\/src\/relay\.js/);
     await layoutChecks(page, 'step 0');
     await shot(page, '00-access');
     await next(page);

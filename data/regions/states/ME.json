@@ -1,0 +1,1036 @@
+{
+ "state": "ME",
+ "state_name": "Maine",
+ "state_fips": "23",
+ "state_em": "Maine Emergency Management Agency",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "CAR": "NWS Caribou, ME",
+  "GYX": "NWS Gray, ME",
+  "GYXCAR": "NWS GYXCAR"
+ },
+ "ecoregions": [
+  "Northeastern Highlands",
+  "Northeastern Coastal Zone",
+  "Acadian Plains and Hills"
+ ],
+ "counties": {
+  "Androscoggin County": {
+   "fips": "23001",
+   "centroid": [
+    44.1677,
+    -70.2074
+   ],
+   "latitude": 44.2,
+   "bbox": [
+    -70.4808,
+    43.9073,
+    -69.9937,
+    44.4873
+   ],
+   "coastal": true,
+   "elevation_ft": 260,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 80,
+   "record_low_f": -28,
+   "record_high_f": 102,
+   "precip_in": 45.2,
+   "snow_in": 65,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 19",
+   "growing_days": 177,
+   "ecoregion": "Acadian Plains and Hills",
+   "ecoregion_code": "82",
+   "nws_office": "Gray, ME",
+   "nws_cwa": "GYX",
+   "nwr": [
+    {
+     "call": "WSM60",
+     "freq": "162.475",
+     "same": "023001"
+    },
+    {
+     "call": "KDO95",
+     "freq": "162.550",
+     "same": "023001"
+    },
+    {
+     "call": "WNG547",
+     "freq": "162.450",
+     "same": "023001"
+    }
+   ],
+   "state_em": "Maine Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 4.9
+  },
+  "Aroostook County": {
+   "fips": "23003",
+   "centroid": [
+    46.7092,
+    -68.6124
+   ],
+   "latitude": 46.7,
+   "bbox": [
+    -70.023,
+    45.573,
+    -67.7518,
+    47.4597
+   ],
+   "coastal": false,
+   "elevation_ft": 890,
+   "zone": "4a",
+   "jan_low_f": 3,
+   "jul_high_f": 78,
+   "record_low_f": -41,
+   "record_high_f": 99,
+   "precip_in": 38.0,
+   "snow_in": 98,
+   "last_frost": "May 14",
+   "first_frost": "Sep 26",
+   "growing_days": 131,
+   "ecoregion": "Acadian Plains and Hills",
+   "ecoregion_code": "82",
+   "nws_office": "Caribou, ME",
+   "nws_cwa": "CAR",
+   "nwr": [
+    {
+     "call": "WXM77",
+     "freq": "162.525",
+     "same": "023003"
+    },
+    {
+     "call": "KHB55",
+     "freq": "162.475",
+     "same": "023003"
+    },
+    {
+     "call": "WXN28",
+     "freq": "162.500",
+     "same": "023003"
+    }
+   ],
+   "state_em": "Maine Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 4.8
+  },
+  "Cumberland County": {
+   "fips": "23005",
+   "centroid": [
+    43.8083,
+    -70.3304
+   ],
+   "latitude": 43.8,
+   "bbox": [
+    -70.8658,
+    43.5272,
+    -69.8589,
+    44.1711
+   ],
+   "coastal": true,
+   "elevation_ft": 300,
+   "zone": "5b",
+   "jan_low_f": 14,
+   "jul_high_f": 79,
+   "record_low_f": -17,
+   "record_high_f": 99,
+   "precip_in": 50.1,
+   "snow_in": 84,
+   "last_frost": "Apr 28",
+   "first_frost": "Oct 19",
+   "growing_days": 172,
+   "ecoregion": "Northeastern Coastal Zone",
+   "ecoregion_code": "59",
+   "nws_office": "Gray, ME",
+   "nws_cwa": "GYX",
+   "nwr": [
+    {
+     "call": "KDO95",
+     "freq": "162.550",
+     "same": "023005"
+    },
+    {
+     "call": "KZZ41",
+     "freq": "162.500",
+     "same": "023005"
+    }
+   ],
+   "state_em": "Maine Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 4.9
+  },
+  "Franklin County": {
+   "fips": "23007",
+   "centroid": [
+    44.9767,
+    -70.4149
+   ],
+   "latitude": 45.0,
+   "bbox": [
+    -70.8344,
+    44.459,
+    -69.9278,
+    45.6679
+   ],
+   "coastal": false,
+   "elevation_ft": 2010,
+   "zone": "4b",
+   "jan_low_f": 2,
+   "jul_high_f": 75,
+   "record_low_f": -45,
+   "record_high_f": 94,
+   "precip_in": 40.8,
+   "snow_in": 118,
+   "last_frost": "May 23",
+   "first_frost": "Sep 24",
+   "growing_days": 123,
+   "ecoregion": "Northeastern Highlands",
+   "ecoregion_code": "58",
+   "nws_office": "Gray, ME",
+   "nws_cwa": "GYX",
+   "nwr": [
+    {
+     "call": "KZZ41",
+     "freq": "162.500",
+     "same": "023007"
+    },
+    {
+     "call": "WNG547",
+     "freq": "162.450",
+     "same": "023007"
+    }
+   ],
+   "state_em": "Maine Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 4.9
+  },
+  "Hancock County": {
+   "fips": "23009",
+   "centroid": [
+    44.5649,
+    -68.3707
+   ],
+   "latitude": 44.6,
+   "bbox": [
+    -68.8662,
+    44.0812,
+    -67.9449,
+    45.2553
+   ],
+   "coastal": true,
+   "elevation_ft": 110,
+   "zone": "5b",
+   "jan_low_f": 11,
+   "jul_high_f": 77,
+   "record_low_f": -21,
+   "record_high_f": 96,
+   "precip_in": 49.4,
+   "snow_in": 75,
+   "last_frost": "May 8",
+   "first_frost": "Oct 9",
+   "growing_days": 152,
+   "ecoregion": "Acadian Plains and Hills",
+   "ecoregion_code": "82",
+   "nws_office": "Caribou, ME",
+   "nws_cwa": "CAR",
+   "nwr": [
+    {
+     "call": "KEC93",
+     "freq": "162.400",
+     "same": "023009"
+    }
+   ],
+   "state_em": "Maine Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 4.9
+  },
+  "Kennebec County": {
+   "fips": "23011",
+   "centroid": [
+    44.417,
+    -69.7658
+   ],
+   "latitude": 44.4,
+   "bbox": [
+    -70.1327,
+    44.1077,
+    -69.3725,
+    44.7208
+   ],
+   "coastal": true,
+   "elevation_ft": 350,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 80,
+   "record_low_f": -23,
+   "record_high_f": 100,
+   "precip_in": 41.8,
+   "snow_in": 69,
+   "last_frost": "Apr 27",
+   "first_frost": "Oct 16",
+   "growing_days": 172,
+   "ecoregion": "Acadian Plains and Hills",
+   "ecoregion_code": "82",
+   "nws_office": "Gray, ME",
+   "nws_cwa": "GYX",
+   "nwr": [
+    {
+     "call": "WSM60",
+     "freq": "162.475",
+     "same": "023011"
+    },
+    {
+     "call": "WNG547",
+     "freq": "162.450",
+     "same": "023011"
+    }
+   ],
+   "state_em": "Maine Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 4.9
+  },
+  "Knox County": {
+   "fips": "23013",
+   "centroid": [
+    44.042,
+    -69.0385
+   ],
+   "latitude": 44.0,
+   "bbox": [
+    -69.4511,
+    43.7825,
+    -68.5442,
+    44.3646
+   ],
+   "coastal": true,
+   "elevation_ft": 30,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 74,
+   "record_low_f": -25,
+   "record_high_f": 96,
+   "precip_in": 47.6,
+   "snow_in": 53,
+   "last_frost": "Apr 27",
+   "first_frost": "Oct 25",
+   "growing_days": 178,
+   "ecoregion": "Acadian Plains and Hills",
+   "ecoregion_code": "82",
+   "nws_office": "Gray, ME",
+   "nws_cwa": "GYX",
+   "nwr": [
+    {
+     "call": "WSM60",
+     "freq": "162.475",
+     "same": "023013"
+    }
+   ],
+   "state_em": "Maine Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 4.9
+  },
+  "Lincoln County": {
+   "fips": "23015",
+   "centroid": [
+    43.9948,
+    -69.5136
+   ],
+   "latitude": 44.0,
+   "bbox": [
+    -69.8138,
+    43.7519,
+    -69.282,
+    44.3429
+   ],
+   "coastal": true,
+   "elevation_ft": 140,
+   "zone": "6a",
+   "jan_low_f": 15,
+   "jul_high_f": 78,
+   "record_low_f": -24,
+   "record_high_f": 101,
+   "precip_in": 49.2,
+   "snow_in": 79,
+   "last_frost": "Apr 27",
+   "first_frost": "Oct 18",
+   "growing_days": 172,
+   "ecoregion": "Acadian Plains and Hills",
+   "ecoregion_code": "82",
+   "nws_office": "Gray, ME",
+   "nws_cwa": "GYX",
+   "nwr": [
+    {
+     "call": "WSM60",
+     "freq": "162.475",
+     "same": "023015"
+    }
+   ],
+   "state_em": "Maine Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.0
+  },
+  "Oxford County": {
+   "fips": "23017",
+   "centroid": [
+    44.4945,
+    -70.7344
+   ],
+   "latitude": 44.5,
+   "bbox": [
+    -71.0842,
+    43.7853,
+    -70.2396,
+    45.3469
+   ],
+   "coastal": false,
+   "elevation_ft": 930,
+   "zone": "5a",
+   "jan_low_f": 6,
+   "jul_high_f": 79,
+   "record_low_f": -36,
+   "record_high_f": 100,
+   "precip_in": 47.2,
+   "snow_in": 112,
+   "last_frost": "May 12",
+   "first_frost": "Sep 29",
+   "growing_days": 139,
+   "ecoregion": "Northeastern Highlands",
+   "ecoregion_code": "58",
+   "nws_office": "Gray, ME",
+   "nws_cwa": "GYX",
+   "nwr": [
+    {
+     "call": "KZZ41",
+     "freq": "162.500",
+     "same": "023017"
+    },
+    {
+     "call": "WNG547",
+     "freq": "162.450",
+     "same": "023017"
+    }
+   ],
+   "state_em": "Maine Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 4.9
+  },
+  "Penobscot County": {
+   "fips": "23019",
+   "centroid": [
+    45.4093,
+    -68.6666
+   ],
+   "latitude": 45.4,
+   "bbox": [
+    -69.3559,
+    44.6441,
+    -67.9391,
+    46.3957
+   ],
+   "coastal": true,
+   "elevation_ft": 360,
+   "zone": "5a",
+   "jan_low_f": 3,
+   "jul_high_f": 79,
+   "record_low_f": -42,
+   "record_high_f": 101,
+   "precip_in": 44.3,
+   "snow_in": 86,
+   "last_frost": "May 4",
+   "first_frost": "Oct 6",
+   "growing_days": 153,
+   "ecoregion": "Acadian Plains and Hills",
+   "ecoregion_code": "82",
+   "nws_office": "Caribou, ME",
+   "nws_cwa": "CAR",
+   "nwr": [
+    {
+     "call": "WXM77",
+     "freq": "162.525",
+     "same": "023019"
+    },
+    {
+     "call": "KEC93",
+     "freq": "162.400",
+     "same": "023019"
+    },
+    {
+     "call": "KHB54",
+     "freq": "162.550",
+     "same": "023019"
+    },
+    {
+     "call": "WXN28",
+     "freq": "162.500",
+     "same": "023019"
+    },
+    {
+     "call": "WNG547",
+     "freq": "162.450",
+     "same": "023019"
+    }
+   ],
+   "state_em": "Maine Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 4.8
+  },
+  "Piscataquis County": {
+   "fips": "23021",
+   "centroid": [
+    45.9156,
+    -69.1022
+   ],
+   "latitude": 45.9,
+   "bbox": [
+    -69.8125,
+    45.0109,
+    -68.7761,
+    46.5739
+   ],
+   "coastal": false,
+   "elevation_ft": 1680,
+   "zone": "4b",
+   "jan_low_f": 3,
+   "jul_high_f": 76,
+   "record_low_f": -33,
+   "record_high_f": 97,
+   "precip_in": 41.5,
+   "snow_in": 98,
+   "last_frost": "May 13",
+   "first_frost": "Sep 30",
+   "growing_days": 138,
+   "ecoregion": "Northeastern Highlands",
+   "ecoregion_code": "58",
+   "nws_office": "Caribou, ME",
+   "nws_cwa": "CAR",
+   "nwr": [
+    {
+     "call": "WNG542",
+     "freq": "162.425",
+     "same": "023021"
+    },
+    {
+     "call": "KHB54",
+     "freq": "162.550",
+     "same": "023021"
+    },
+    {
+     "call": "WNG547",
+     "freq": "162.450",
+     "same": "023021"
+    }
+   ],
+   "state_em": "Maine Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 4.8
+  },
+  "Sagadahoc County": {
+   "fips": "23023",
+   "centroid": [
+    43.9168,
+    -69.8442
+   ],
+   "latitude": 43.9,
+   "bbox": [
+    -70.0507,
+    43.6951,
+    -69.7004,
+    44.1677
+   ],
+   "coastal": true,
+   "elevation_ft": 170,
+   "zone": "5b",
+   "jan_low_f": 10,
+   "jul_high_f": 79,
+   "record_low_f": -30,
+   "record_high_f": 104,
+   "precip_in": 48.5,
+   "snow_in": 72,
+   "last_frost": "May 10",
+   "first_frost": "Oct 6",
+   "growing_days": 149,
+   "ecoregion": "Acadian Plains and Hills",
+   "ecoregion_code": "82",
+   "nws_office": "Gray, ME",
+   "nws_cwa": "GYX",
+   "nwr": [
+    {
+     "call": "WSM60",
+     "freq": "162.475",
+     "same": "023023"
+    },
+    {
+     "call": "KDO95",
+     "freq": "162.550",
+     "same": "023023"
+    }
+   ],
+   "state_em": "Maine Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.0
+  },
+  "Somerset County": {
+   "fips": "23025",
+   "centroid": [
+    45.5036,
+    -69.9561
+   ],
+   "latitude": 45.5,
+   "bbox": [
+    -70.5529,
+    44.5776,
+    -69.2668,
+    46.5741
+   ],
+   "coastal": false,
+   "elevation_ft": 1320,
+   "zone": "4b",
+   "jan_low_f": 1,
+   "jul_high_f": 76,
+   "record_low_f": -39,
+   "record_high_f": 97,
+   "precip_in": 43.2,
+   "snow_in": 108,
+   "last_frost": "May 23",
+   "first_frost": "Sep 29",
+   "growing_days": 128,
+   "ecoregion": "Northeastern Highlands",
+   "ecoregion_code": "58",
+   "nws_office": "GYXCAR",
+   "nws_cwa": "GYXCAR",
+   "nwr": [
+    {
+     "call": "WNG542",
+     "freq": "162.425",
+     "same": "023025"
+    },
+    {
+     "call": "KHB54",
+     "freq": "162.550",
+     "same": "023025"
+    },
+    {
+     "call": "KZZ41",
+     "freq": "162.500",
+     "same": "023025"
+    },
+    {
+     "call": "WNG547",
+     "freq": "162.450",
+     "same": "023025"
+    }
+   ],
+   "state_em": "Maine Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 4.8
+  },
+  "Waldo County": {
+   "fips": "23027",
+   "centroid": [
+    44.475,
+    -69.1174
+   ],
+   "latitude": 44.5,
+   "bbox": [
+    -69.5067,
+    44.2041,
+    -68.8007,
+    44.7546
+   ],
+   "coastal": true,
+   "elevation_ft": 280,
+   "zone": "5b",
+   "jan_low_f": 10,
+   "jul_high_f": 77,
+   "record_low_f": -28,
+   "record_high_f": 98,
+   "precip_in": 48.8,
+   "snow_in": 72,
+   "last_frost": "May 7",
+   "first_frost": "Oct 5",
+   "growing_days": 151,
+   "ecoregion": "Acadian Plains and Hills",
+   "ecoregion_code": "82",
+   "nws_office": "Gray, ME",
+   "nws_cwa": "GYX",
+   "nwr": [
+    {
+     "call": "WSM60",
+     "freq": "162.475",
+     "same": "023027"
+    },
+    {
+     "call": "KEC93",
+     "freq": "162.400",
+     "same": "023027"
+    },
+    {
+     "call": "WNG547",
+     "freq": "162.450",
+     "same": "023027"
+    }
+   ],
+   "state_em": "Maine Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 4.9
+  },
+  "Washington County": {
+   "fips": "23029",
+   "centroid": [
+    44.967,
+    -67.6094
+   ],
+   "latitude": 45.0,
+   "bbox": [
+    -68.106,
+    44.3941,
+    -66.9498,
+    45.6889
+   ],
+   "coastal": true,
+   "elevation_ft": 80,
+   "zone": "5b",
+   "jan_low_f": 11,
+   "jul_high_f": 77,
+   "record_low_f": -41,
+   "record_high_f": 102,
+   "precip_in": 49.4,
+   "snow_in": 75,
+   "last_frost": "May 2",
+   "first_frost": "Oct 15",
+   "growing_days": 164,
+   "ecoregion": "Acadian Plains and Hills",
+   "ecoregion_code": "82",
+   "nws_office": "Caribou, ME",
+   "nws_cwa": "CAR",
+   "nwr": [
+    {
+     "call": "KEC93",
+     "freq": "162.400",
+     "same": "023029"
+    },
+    {
+     "call": "WNG543",
+     "freq": "162.450",
+     "same": "023029"
+    },
+    {
+     "call": "KHC47",
+     "freq": "162.425",
+     "same": "023029"
+    },
+    {
+     "call": "WXN28",
+     "freq": "162.500",
+     "same": "023029"
+    }
+   ],
+   "state_em": "Maine Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 4.9
+  },
+  "York County": {
+   "fips": "23031",
+   "centroid": [
+    43.426,
+    -70.6684
+   ],
+   "latitude": 43.4,
+   "bbox": [
+    -70.9891,
+    43.0655,
+    -70.3348,
+    43.8287
+   ],
+   "coastal": true,
+   "elevation_ft": 240,
+   "zone": "5b",
+   "jan_low_f": 10,
+   "jul_high_f": 81,
+   "record_low_f": -28,
+   "record_high_f": 101,
+   "precip_in": 51.3,
+   "snow_in": 49,
+   "last_frost": "May 16",
+   "first_frost": "Sep 30",
+   "growing_days": 136,
+   "ecoregion": "Northeastern Coastal Zone",
+   "ecoregion_code": "59",
+   "nws_office": "Gray, ME",
+   "nws_cwa": "GYX",
+   "nwr": [
+    {
+     "call": "KZZ40",
+     "freq": "162.450",
+     "same": "023031"
+    },
+    {
+     "call": "KDO95",
+     "freq": "162.550",
+     "same": "023031"
+    },
+    {
+     "call": "KZZ41",
+     "freq": "162.500",
+     "same": "023031"
+    }
+   ],
+   "state_em": "Maine Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 4.9
+  }
+ }
+}

@@ -1,0 +1,6181 @@
+{
+ "state": "IL",
+ "state_name": "Illinois",
+ "state_fips": "17",
+ "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "DVN": "NWS Quad Cities, IL",
+  "ILX": "NWS Lincoln, IL",
+  "LOT": "NWS Chicago, IL",
+  "LSX": "NWS St Louis, MO",
+  "PAH": "NWS Paducah, KY"
+ },
+ "ecoregions": [
+  "Driftless Area",
+  "Southeastern Wisconsin Till Plains",
+  "Central Corn Belt Plains",
+  "Interior Plateau",
+  "Interior River Valleys and Hills",
+  "Mississippi Alluvial Plain"
+ ],
+ "counties": {
+  "Adams County": {
+   "fips": "17001",
+   "centroid": [
+    39.9861,
+    -91.195
+   ],
+   "latitude": 40.0,
+   "bbox": [
+    -91.513,
+    39.7568,
+    -90.9122,
+    40.2001
+   ],
+   "coastal": false,
+   "elevation_ft": 740,
+   "zone": "6a",
+   "jan_low_f": 19,
+   "jul_high_f": 86,
+   "record_low_f": -22,
+   "record_high_f": 112,
+   "precip_in": 36.4,
+   "snow_in": 17,
+   "last_frost": "Apr 14",
+   "first_frost": "Oct 23",
+   "growing_days": 191,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "St Louis, MO",
+   "nws_cwa": "LSX",
+   "nwr": [
+    {
+     "call": "WXK82",
+     "freq": "162.475",
+     "same": "017001"
+    },
+    {
+     "call": "WXJ92",
+     "freq": "162.500",
+     "same": "017001"
+    },
+    {
+     "call": "WXL99",
+     "freq": "162.450",
+     "same": "017001"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.6
+  },
+  "Alexander County": {
+   "fips": "17003",
+   "centroid": [
+    37.1837,
+    -89.3495
+   ],
+   "latitude": 37.2,
+   "bbox": [
+    -89.5184,
+    36.9703,
+    -89.1323,
+    37.3352
+   ],
+   "coastal": false,
+   "elevation_ft": 400,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 89,
+   "record_low_f": -18,
+   "record_high_f": 107,
+   "precip_in": 47.9,
+   "snow_in": 7,
+   "last_frost": "Apr 5",
+   "first_frost": "Oct 25",
+   "growing_days": 201,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "KXI93",
+     "freq": "162.550",
+     "same": "017003"
+    },
+    {
+     "call": "WXM49",
+     "freq": "162.425",
+     "same": "017003"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.7
+  },
+  "Bond County": {
+   "fips": "17005",
+   "centroid": [
+    38.8859,
+    -89.4366
+   ],
+   "latitude": 38.9,
+   "bbox": [
+    -89.6394,
+    38.7406,
+    -89.2504,
+    39.0288
+   ],
+   "coastal": false,
+   "elevation_ft": 480,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 88,
+   "record_low_f": -22,
+   "record_high_f": 105,
+   "precip_in": 45.9,
+   "snow_in": 12,
+   "last_frost": "Apr 6",
+   "first_frost": "Oct 29",
+   "growing_days": 204,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "St Louis, MO",
+   "nws_cwa": "LSX",
+   "nwr": [
+    {
+     "call": "KXI79",
+     "freq": "162.425",
+     "same": "017005"
+    },
+    {
+     "call": "KXI49",
+     "freq": "162.475",
+     "same": "017005"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.6
+  },
+  "Boone County": {
+   "fips": "17007",
+   "centroid": [
+    42.319,
+    -88.8243
+   ],
+   "latitude": 42.3,
+   "bbox": [
+    -88.941,
+    42.1516,
+    -88.7055,
+    42.495
+   ],
+   "coastal": false,
+   "elevation_ft": 840,
+   "zone": "5b",
+   "jan_low_f": 13,
+   "jul_high_f": 84,
+   "record_low_f": -29,
+   "record_high_f": 109,
+   "precip_in": 37.6,
+   "snow_in": 31,
+   "last_frost": "Apr 28",
+   "first_frost": "Oct 12",
+   "growing_days": 166,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Chicago, IL",
+   "nws_cwa": "LOT",
+   "nwr": [
+    {
+     "call": "KXI41",
+     "freq": "162.500",
+     "same": "017007"
+    },
+    {
+     "call": "WNG536",
+     "freq": "162.550",
+     "same": "017007"
+    },
+    {
+     "call": "WWG90",
+     "freq": "162.425",
+     "same": "017007"
+    },
+    {
+     "call": "KZZ57",
+     "freq": "162.475",
+     "same": "017007"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Brown County": {
+   "fips": "17009",
+   "centroid": [
+    39.9621,
+    -90.7503
+   ],
+   "latitude": 40.0,
+   "bbox": [
+    -90.9169,
+    39.8394,
+    -90.5104,
+    40.1058
+   ],
+   "coastal": false,
+   "elevation_ft": 700,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 87,
+   "record_low_f": -26,
+   "record_high_f": 106,
+   "precip_in": 39.1,
+   "snow_in": 21,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 15",
+   "growing_days": 179,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "St Louis, MO",
+   "nws_cwa": "LSX",
+   "nwr": [
+    {
+     "call": "WXK82",
+     "freq": "162.475",
+     "same": "017009"
+    },
+    {
+     "call": "WXM90",
+     "freq": "162.525",
+     "same": "017009"
+    },
+    {
+     "call": "WXJ92",
+     "freq": "162.500",
+     "same": "017009"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Bureau County": {
+   "fips": "17011",
+   "centroid": [
+    41.4013,
+    -89.5284
+   ],
+   "latitude": 41.4,
+   "bbox": [
+    -89.8624,
+    41.1485,
+    -89.1638,
+    41.5852
+   ],
+   "coastal": false,
+   "elevation_ft": 670,
+   "zone": "5b",
+   "jan_low_f": 14,
+   "jul_high_f": 84,
+   "record_low_f": -26,
+   "record_high_f": 103,
+   "precip_in": 39.8,
+   "snow_in": 28,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 17",
+   "growing_days": 177,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Quad Cities, IL",
+   "nws_cwa": "DVN",
+   "nwr": [
+    {
+     "call": "KZZ55",
+     "freq": "162.525",
+     "same": "017011"
+    },
+    {
+     "call": "WXL22",
+     "freq": "162.425",
+     "same": "017011"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.4
+  },
+  "Calhoun County": {
+   "fips": "17013",
+   "centroid": [
+    39.1643,
+    -90.6663
+   ],
+   "latitude": 39.2,
+   "bbox": [
+    -90.9366,
+    38.8684,
+    -90.4529,
+    39.4
+   ],
+   "coastal": false,
+   "elevation_ft": 740,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 87,
+   "record_low_f": -24,
+   "record_high_f": 116,
+   "precip_in": 41.2,
+   "snow_in": 16,
+   "last_frost": "Apr 20",
+   "first_frost": "Oct 20",
+   "growing_days": 181,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "St Louis, MO",
+   "nws_cwa": "LSX",
+   "nwr": [
+    {
+     "call": "WXM90",
+     "freq": "162.525",
+     "same": "017013"
+    },
+    {
+     "call": "KXI70",
+     "freq": "162.450",
+     "same": "017013"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Carroll County": {
+   "fips": "17015",
+   "centroid": [
+    42.0709,
+    -89.9242
+   ],
+   "latitude": 42.1,
+   "bbox": [
+    -90.3145,
+    41.9286,
+    -89.6853,
+    42.1991
+   ],
+   "coastal": false,
+   "elevation_ft": 850,
+   "zone": "5a",
+   "jan_low_f": 11,
+   "jul_high_f": 85,
+   "record_low_f": -38,
+   "record_high_f": 108,
+   "precip_in": 40.3,
+   "snow_in": 33,
+   "last_frost": "May 2",
+   "first_frost": "Oct 7",
+   "growing_days": 154,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Quad Cities, IL",
+   "nws_cwa": "DVN",
+   "nwr": [
+    {
+     "call": "KZZ55",
+     "freq": "162.525",
+     "same": "017015"
+    },
+    {
+     "call": "WXL64",
+     "freq": "162.400",
+     "same": "017015"
+    },
+    {
+     "call": "KZZ56",
+     "freq": "162.450",
+     "same": "017015"
+    },
+    {
+     "call": "KZZ83",
+     "freq": "162.425",
+     "same": "017015"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.4
+  },
+  "Cass County": {
+   "fips": "17017",
+   "centroid": [
+    39.9692,
+    -90.2457
+   ],
+   "latitude": 40.0,
+   "bbox": [
+    -90.5831,
+    39.8725,
+    -89.9938,
+    40.1252
+   ],
+   "coastal": false,
+   "elevation_ft": 630,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 86,
+   "record_low_f": -28,
+   "record_high_f": 114,
+   "precip_in": 39.2,
+   "snow_in": 16,
+   "last_frost": "Apr 19",
+   "first_frost": "Oct 17",
+   "growing_days": 179,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Lincoln, IL",
+   "nws_cwa": "ILX",
+   "nwr": [
+    {
+     "call": "WXM90",
+     "freq": "162.525",
+     "same": "017017"
+    },
+    {
+     "call": "WXJ92",
+     "freq": "162.500",
+     "same": "017017"
+    },
+    {
+     "call": "WXJ75",
+     "freq": "162.400",
+     "same": "017017"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Champaign County": {
+   "fips": "17019",
+   "centroid": [
+    40.139,
+    -88.197
+   ],
+   "latitude": 40.1,
+   "bbox": [
+    -88.4632,
+    39.8791,
+    -87.929,
+    40.4008
+   ],
+   "coastal": false,
+   "elevation_ft": 730,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 85,
+   "record_low_f": -25,
+   "record_high_f": 109,
+   "precip_in": 40.9,
+   "snow_in": 21,
+   "last_frost": "Apr 15",
+   "first_frost": "Oct 24",
+   "growing_days": 190,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Lincoln, IL",
+   "nws_cwa": "ILX",
+   "nwr": [
+    {
+     "call": "WXJ76",
+     "freq": "162.550",
+     "same": "017019"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.4
+  },
+  "Christian County": {
+   "fips": "17021",
+   "centroid": [
+    39.5455,
+    -89.2796
+   ],
+   "latitude": 39.5,
+   "bbox": [
+    -89.5351,
+    39.3461,
+    -89.0241,
+    39.8256
+   ],
+   "coastal": false,
+   "elevation_ft": 590,
+   "zone": "6a",
+   "jan_low_f": 19,
+   "jul_high_f": 86,
+   "record_low_f": -23,
+   "record_high_f": 104,
+   "precip_in": 38.1,
+   "snow_in": 16,
+   "last_frost": "Apr 12",
+   "first_frost": "Oct 20",
+   "growing_days": 190,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Lincoln, IL",
+   "nws_cwa": "ILX",
+   "nwr": [
+    {
+     "call": "KXI46",
+     "freq": "162.500",
+     "same": "017021"
+    },
+    {
+     "call": "WXJ75",
+     "freq": "162.400",
+     "same": "017021"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.5
+  },
+  "Clark County": {
+   "fips": "17023",
+   "centroid": [
+    39.3323,
+    -87.7917
+   ],
+   "latitude": 39.3,
+   "bbox": [
+    -88.0142,
+    39.1571,
+    -87.5314,
+    39.4872
+   ],
+   "coastal": false,
+   "elevation_ft": 610,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 88,
+   "record_low_f": -22,
+   "record_high_f": 102,
+   "precip_in": 45.5,
+   "snow_in": 12,
+   "last_frost": "Apr 14",
+   "first_frost": "Oct 20",
+   "growing_days": 187,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Lincoln, IL",
+   "nws_cwa": "ILX",
+   "nwr": [
+    {
+     "call": "KXI48",
+     "freq": "162.450",
+     "same": "017023"
+    },
+    {
+     "call": "KXI47",
+     "freq": "162.525",
+     "same": "017023"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.5
+  },
+  "Clay County": {
+   "fips": "17025",
+   "centroid": [
+    38.7468,
+    -88.4823
+   ],
+   "latitude": 38.7,
+   "bbox": [
+    -88.6985,
+    38.5994,
+    -88.2497,
+    38.9153
+   ],
+   "coastal": false,
+   "elevation_ft": 460,
+   "zone": "6b",
+   "jan_low_f": 21,
+   "jul_high_f": 89,
+   "record_low_f": -25,
+   "record_high_f": 111,
+   "precip_in": 48.0,
+   "snow_in": 12,
+   "last_frost": "Apr 9",
+   "first_frost": "Oct 24",
+   "growing_days": 198,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Lincoln, IL",
+   "nws_cwa": "ILX",
+   "nwr": [
+    {
+     "call": "KXI48",
+     "freq": "162.450",
+     "same": "017025"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.6
+  },
+  "Clinton County": {
+   "fips": "17027",
+   "centroid": [
+    38.6063,
+    -89.4262
+   ],
+   "latitude": 38.6,
+   "bbox": [
+    -89.707,
+    38.416,
+    -89.1384,
+    38.7432
+   ],
+   "coastal": false,
+   "elevation_ft": 460,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 88,
+   "record_low_f": -22,
+   "record_high_f": 105,
+   "precip_in": 45.9,
+   "snow_in": 10,
+   "last_frost": "Apr 6",
+   "first_frost": "Oct 29",
+   "growing_days": 204,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "St Louis, MO",
+   "nws_cwa": "LSX",
+   "nwr": [
+    {
+     "call": "KXI49",
+     "freq": "162.475",
+     "same": "017027"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.6
+  },
+  "Coles County": {
+   "fips": "17029",
+   "centroid": [
+    39.5137,
+    -88.2208
+   ],
+   "latitude": 39.5,
+   "bbox": [
+    -88.472,
+    39.3735,
+    -87.9605,
+    39.6859
+   ],
+   "coastal": false,
+   "elevation_ft": 660,
+   "zone": "6a",
+   "jan_low_f": 21,
+   "jul_high_f": 88,
+   "record_low_f": -27,
+   "record_high_f": 110,
+   "precip_in": 43.8,
+   "snow_in": 19,
+   "last_frost": "Apr 15",
+   "first_frost": "Oct 23",
+   "growing_days": 187,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Lincoln, IL",
+   "nws_cwa": "ILX",
+   "nwr": [
+    {
+     "call": "WXJ76",
+     "freq": "162.550",
+     "same": "017029"
+    },
+    {
+     "call": "KXI47",
+     "freq": "162.525",
+     "same": "017029"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.5
+  },
+  "Cook County": {
+   "fips": "17031",
+   "centroid": [
+    41.8943,
+    -87.6455
+   ],
+   "latitude": 41.9,
+   "bbox": [
+    -88.2635,
+    41.4695,
+    -87.5233,
+    42.1619
+   ],
+   "coastal": false,
+   "elevation_ft": 590,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 81,
+   "record_low_f": -22,
+   "record_high_f": 109,
+   "precip_in": 34.4,
+   "snow_in": 39,
+   "last_frost": "Apr 10",
+   "first_frost": "Nov 5",
+   "growing_days": 208,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Chicago, IL",
+   "nws_cwa": "LOT",
+   "nwr": [
+    {
+     "call": "KWO39",
+     "freq": "162.550",
+     "same": "017031"
+    },
+    {
+     "call": "KXI41",
+     "freq": "162.500",
+     "same": "017031"
+    },
+    {
+     "call": "KZZ81",
+     "freq": "162.425",
+     "same": "017031"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.2
+  },
+  "Crawford County": {
+   "fips": "17033",
+   "centroid": [
+    39.0028,
+    -87.7606
+   ],
+   "latitude": 39.0,
+   "bbox": [
+    -87.9508,
+    38.8491,
+    -87.5122,
+    39.1792
+   ],
+   "coastal": false,
+   "elevation_ft": 540,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 87,
+   "record_low_f": -20,
+   "record_high_f": 108,
+   "precip_in": 45.5,
+   "snow_in": 12,
+   "last_frost": "Apr 13",
+   "first_frost": "Oct 22",
+   "growing_days": 190,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Lincoln, IL",
+   "nws_cwa": "ILX",
+   "nwr": [
+    {
+     "call": "KXI48",
+     "freq": "162.450",
+     "same": "017033"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.5
+  },
+  "Cumberland County": {
+   "fips": "17035",
+   "centroid": [
+    39.2731,
+    -88.2406
+   ],
+   "latitude": 39.3,
+   "bbox": [
+    -88.4712,
+    39.1709,
+    -88.0075,
+    39.3787
+   ],
+   "coastal": false,
+   "elevation_ft": 600,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 88,
+   "record_low_f": -22,
+   "record_high_f": 102,
+   "precip_in": 45.5,
+   "snow_in": 12,
+   "last_frost": "Apr 14",
+   "first_frost": "Oct 20",
+   "growing_days": 187,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Lincoln, IL",
+   "nws_cwa": "ILX",
+   "nwr": [
+    {
+     "call": "KXI48",
+     "freq": "162.450",
+     "same": "017035"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.5
+  },
+  "DeKalb County": {
+   "fips": "17037",
+   "centroid": [
+    41.8946,
+    -88.769
+   ],
+   "latitude": 41.9,
+   "bbox": [
+    -88.9422,
+    41.6283,
+    -88.5883,
+    42.1536
+   ],
+   "coastal": false,
+   "elevation_ft": 860,
+   "zone": "5b",
+   "jan_low_f": 13,
+   "jul_high_f": 83,
+   "record_low_f": -27,
+   "record_high_f": 103,
+   "precip_in": 37.2,
+   "snow_in": 33,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 18",
+   "growing_days": 177,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Chicago, IL",
+   "nws_cwa": "LOT",
+   "nwr": [
+    {
+     "call": "WNG536",
+     "freq": "162.550",
+     "same": "017037"
+    },
+    {
+     "call": "KXI58",
+     "freq": "162.400",
+     "same": "017037"
+    },
+    {
+     "call": "KZZ57",
+     "freq": "162.475",
+     "same": "017037"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "De Witt County": {
+   "fips": "17039",
+   "centroid": [
+    40.1815,
+    -88.9019
+   ],
+   "latitude": 40.2,
+   "bbox": [
+    -89.1488,
+    40.0487,
+    -88.5751,
+    40.2832
+   ],
+   "coastal": false,
+   "elevation_ft": 740,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 84,
+   "record_low_f": -34,
+   "record_high_f": 113,
+   "precip_in": 40.8,
+   "snow_in": 21,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 20",
+   "growing_days": 181,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Lincoln, IL",
+   "nws_cwa": "ILX",
+   "nwr": [
+    {
+     "call": "KZZ65",
+     "freq": "162.525",
+     "same": "017039"
+    },
+    {
+     "call": "WXJ76",
+     "freq": "162.550",
+     "same": "017039"
+    },
+    {
+     "call": "WXJ75",
+     "freq": "162.400",
+     "same": "017039"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.4
+  },
+  "Douglas County": {
+   "fips": "17041",
+   "centroid": [
+    39.7661,
+    -88.2229
+   ],
+   "latitude": 39.8,
+   "bbox": [
+    -88.4734,
+    39.6515,
+    -87.9371,
+    39.8802
+   ],
+   "coastal": false,
+   "elevation_ft": 640,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 85,
+   "record_low_f": -26,
+   "record_high_f": 113,
+   "precip_in": 40.5,
+   "snow_in": 17,
+   "last_frost": "Apr 15",
+   "first_frost": "Oct 20",
+   "growing_days": 188,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Lincoln, IL",
+   "nws_cwa": "ILX",
+   "nwr": [
+    {
+     "call": "WXJ76",
+     "freq": "162.550",
+     "same": "017041"
+    },
+    {
+     "call": "KXI47",
+     "freq": "162.525",
+     "same": "017041"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.5
+  },
+  "DuPage County": {
+   "fips": "17043",
+   "centroid": [
+    41.8521,
+    -88.086
+   ],
+   "latitude": 41.9,
+   "bbox": [
+    -88.2632,
+    41.6853,
+    -87.9146,
+    41.994
+   ],
+   "coastal": false,
+   "elevation_ft": 760,
+   "zone": "5b",
+   "jan_low_f": 15,
+   "jul_high_f": 84,
+   "record_low_f": -26,
+   "record_high_f": 105,
+   "precip_in": 40.2,
+   "snow_in": 24,
+   "last_frost": "Apr 28",
+   "first_frost": "Oct 16",
+   "growing_days": 169,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Chicago, IL",
+   "nws_cwa": "LOT",
+   "nwr": [
+    {
+     "call": "KWO39",
+     "freq": "162.550",
+     "same": "017043"
+    },
+    {
+     "call": "KZZ81",
+     "freq": "162.425",
+     "same": "017043"
+    },
+    {
+     "call": "KXI58",
+     "freq": "162.400",
+     "same": "017043"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Edgar County": {
+   "fips": "17045",
+   "centroid": [
+    39.679,
+    -87.7471
+   ],
+   "latitude": 39.7,
+   "bbox": [
+    -87.9687,
+    39.4767,
+    -87.5316,
+    39.8831
+   ],
+   "coastal": false,
+   "elevation_ft": 690,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 84,
+   "record_low_f": -23,
+   "record_high_f": 109,
+   "precip_in": 42.7,
+   "snow_in": 19,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 20",
+   "growing_days": 179,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Lincoln, IL",
+   "nws_cwa": "ILX",
+   "nwr": [
+    {
+     "call": "WXJ76",
+     "freq": "162.550",
+     "same": "017045"
+    },
+    {
+     "call": "KXI47",
+     "freq": "162.525",
+     "same": "017045"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.5
+  },
+  "Edwards County": {
+   "fips": "17047",
+   "centroid": [
+    38.4171,
+    -88.0479
+   ],
+   "latitude": 38.4,
+   "bbox": [
+    -88.1508,
+    38.2557,
+    -87.9378,
+    38.5705
+   ],
+   "coastal": false,
+   "elevation_ft": 450,
+   "zone": "6b",
+   "jan_low_f": 23,
+   "jul_high_f": 89,
+   "record_low_f": -21,
+   "record_high_f": 109,
+   "precip_in": 50.0,
+   "snow_in": 12,
+   "last_frost": "Apr 4",
+   "first_frost": "Oct 28",
+   "growing_days": 206,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "KIG76",
+     "freq": "162.550",
+     "same": "017047"
+    },
+    {
+     "call": "KXI48",
+     "freq": "162.450",
+     "same": "017047"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.6
+  },
+  "Effingham County": {
+   "fips": "17049",
+   "centroid": [
+    39.0479,
+    -88.5928
+   ],
+   "latitude": 39.0,
+   "bbox": [
+    -88.807,
+    38.911,
+    -88.3605,
+    39.2161
+   ],
+   "coastal": false,
+   "elevation_ft": 570,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 88,
+   "record_low_f": -29,
+   "record_high_f": 111,
+   "precip_in": 44.0,
+   "snow_in": 15,
+   "last_frost": "Apr 13",
+   "first_frost": "Oct 24",
+   "growing_days": 191,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Lincoln, IL",
+   "nws_cwa": "ILX",
+   "nwr": [
+    {
+     "call": "KXI48",
+     "freq": "162.450",
+     "same": "017049"
+    },
+    {
+     "call": "KXI46",
+     "freq": "162.500",
+     "same": "017049"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.5
+  },
+  "Fayette County": {
+   "fips": "17051",
+   "centroid": [
+    39.0011,
+    -89.0179
+   ],
+   "latitude": 39.0,
+   "bbox": [
+    -89.2573,
+    38.7362,
+    -88.6936,
+    39.2178
+   ],
+   "coastal": false,
+   "elevation_ft": 530,
+   "zone": "6b",
+   "jan_low_f": 21,
+   "jul_high_f": 87,
+   "record_low_f": -22,
+   "record_high_f": 111,
+   "precip_in": 41.2,
+   "snow_in": 13,
+   "last_frost": "Apr 3",
+   "first_frost": "Oct 24",
+   "growing_days": 202,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "St Louis, MO",
+   "nws_cwa": "LSX",
+   "nwr": [
+    {
+     "call": "KXI79",
+     "freq": "162.425",
+     "same": "017051"
+    },
+    {
+     "call": "KXI49",
+     "freq": "162.475",
+     "same": "017051"
+    },
+    {
+     "call": "KXI46",
+     "freq": "162.500",
+     "same": "017051"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.5
+  },
+  "Ford County": {
+   "fips": "17053",
+   "centroid": [
+    40.5965,
+    -88.2246
+   ],
+   "latitude": 40.6,
+   "bbox": [
+    -88.4603,
+    40.3985,
+    -87.9322,
+    40.9975
+   ],
+   "coastal": false,
+   "elevation_ft": 780,
+   "zone": "6a",
+   "jan_low_f": 15,
+   "jul_high_f": 84,
+   "record_low_f": -25,
+   "record_high_f": 102,
+   "precip_in": 37.9,
+   "snow_in": 18,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 12",
+   "growing_days": 170,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Chicago, IL",
+   "nws_cwa": "LOT",
+   "nwr": [
+    {
+     "call": "WXJ76",
+     "freq": "162.550",
+     "same": "017053"
+    },
+    {
+     "call": "KXI86",
+     "freq": "162.500",
+     "same": "017053"
+    },
+    {
+     "call": "WXK24",
+     "freq": "162.450",
+     "same": "017053"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.4
+  },
+  "Franklin County": {
+   "fips": "17055",
+   "centroid": [
+    37.9919,
+    -88.9263
+   ],
+   "latitude": 38.0,
+   "bbox": [
+    -89.1781,
+    37.862,
+    -88.7049,
+    38.1266
+   ],
+   "coastal": false,
+   "elevation_ft": 460,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 88,
+   "record_low_f": -22,
+   "record_high_f": 104,
+   "precip_in": 46.0,
+   "snow_in": 10,
+   "last_frost": "Apr 4",
+   "first_frost": "Oct 28",
+   "growing_days": 206,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "WXM49",
+     "freq": "162.425",
+     "same": "017055"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.6
+  },
+  "Fulton County": {
+   "fips": "17057",
+   "centroid": [
+    40.4652,
+    -90.2023
+   ],
+   "latitude": 40.5,
+   "bbox": [
+    -90.4515,
+    40.1837,
+    -89.872,
+    40.7147
+   ],
+   "coastal": false,
+   "elevation_ft": 560,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 88,
+   "record_low_f": -30,
+   "record_high_f": 106,
+   "precip_in": 41.0,
+   "snow_in": 28,
+   "last_frost": "Apr 17",
+   "first_frost": "Oct 19",
+   "growing_days": 185,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Lincoln, IL",
+   "nws_cwa": "ILX",
+   "nwr": [
+    {
+     "call": "WXJ92",
+     "freq": "162.500",
+     "same": "017057"
+    },
+    {
+     "call": "WXJ71",
+     "freq": "162.475",
+     "same": "017057"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Gallatin County": {
+   "fips": "17059",
+   "centroid": [
+    37.7687,
+    -88.228
+   ],
+   "latitude": 37.8,
+   "bbox": [
+    -88.3752,
+    37.5732,
+    -88.026,
+    37.9156
+   ],
+   "coastal": false,
+   "elevation_ft": 370,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 88,
+   "record_low_f": -23,
+   "record_high_f": 113,
+   "precip_in": 48.2,
+   "snow_in": 8,
+   "last_frost": "Apr 5",
+   "first_frost": "Oct 31",
+   "growing_days": 209,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "KXI52",
+     "freq": "162.400",
+     "same": "017059"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.6
+  },
+  "Greene County": {
+   "fips": "17061",
+   "centroid": [
+    39.3554,
+    -90.3877
+   ],
+   "latitude": 39.4,
+   "bbox": [
+    -90.6223,
+    39.1185,
+    -90.1481,
+    39.5218
+   ],
+   "coastal": false,
+   "elevation_ft": 530,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 86,
+   "record_low_f": -26,
+   "record_high_f": 113,
+   "precip_in": 39.6,
+   "snow_in": 18,
+   "last_frost": "Apr 13",
+   "first_frost": "Oct 22",
+   "growing_days": 190,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "St Louis, MO",
+   "nws_cwa": "LSX",
+   "nwr": [
+    {
+     "call": "WXM90",
+     "freq": "162.525",
+     "same": "017061"
+    },
+    {
+     "call": "KXI70",
+     "freq": "162.450",
+     "same": "017061"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Grundy County": {
+   "fips": "17063",
+   "centroid": [
+    41.2924,
+    -88.4011
+   ],
+   "latitude": 41.3,
+   "bbox": [
+    -88.5957,
+    41.1079,
+    -88.241,
+    41.4627
+   ],
+   "coastal": false,
+   "elevation_ft": 560,
+   "zone": "5b",
+   "jan_low_f": 16,
+   "jul_high_f": 85,
+   "record_low_f": -26,
+   "record_high_f": 109,
+   "precip_in": 38.8,
+   "snow_in": 25,
+   "last_frost": "Apr 20",
+   "first_frost": "Oct 23",
+   "growing_days": 184,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Chicago, IL",
+   "nws_cwa": "LOT",
+   "nwr": [
+    {
+     "call": "KZZ81",
+     "freq": "162.425",
+     "same": "017063"
+    },
+    {
+     "call": "WXK24",
+     "freq": "162.450",
+     "same": "017063"
+    },
+    {
+     "call": "KXI58",
+     "freq": "162.400",
+     "same": "017063"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Hamilton County": {
+   "fips": "17065",
+   "centroid": [
+    38.0852,
+    -88.539
+   ],
+   "latitude": 38.1,
+   "bbox": [
+    -88.7068,
+    37.9065,
+    -88.3705,
+    38.2566
+   ],
+   "coastal": false,
+   "elevation_ft": 430,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 89,
+   "record_low_f": -23,
+   "record_high_f": 113,
+   "precip_in": 47.1,
+   "snow_in": 13,
+   "last_frost": "Apr 11",
+   "first_frost": "Oct 21",
+   "growing_days": 190,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "KXI52",
+     "freq": "162.400",
+     "same": "017065"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.6
+  },
+  "Hancock County": {
+   "fips": "17067",
+   "centroid": [
+    40.4013,
+    -91.1688
+   ],
+   "latitude": 40.4,
+   "bbox": [
+    -91.5073,
+    40.193,
+    -90.9041,
+    40.6392
+   ],
+   "coastal": false,
+   "elevation_ft": 690,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 86,
+   "record_low_f": -22,
+   "record_high_f": 105,
+   "precip_in": 40.1,
+   "snow_in": 23,
+   "last_frost": "Apr 13",
+   "first_frost": "Oct 22",
+   "growing_days": 191,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Quad Cities, IL",
+   "nws_cwa": "DVN",
+   "nwr": [
+    {
+     "call": "WXN83",
+     "freq": "162.525",
+     "same": "017067"
+    },
+    {
+     "call": "WXJ92",
+     "freq": "162.500",
+     "same": "017067"
+    },
+    {
+     "call": "WXL99",
+     "freq": "162.450",
+     "same": "017067"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Hardin County": {
+   "fips": "17069",
+   "centroid": [
+    37.5179,
+    -88.2661
+   ],
+   "latitude": 37.5,
+   "bbox": [
+    -88.4152,
+    37.4017,
+    -88.0615,
+    37.6001
+   ],
+   "coastal": false,
+   "elevation_ft": 490,
+   "zone": "7a",
+   "jan_low_f": 22,
+   "jul_high_f": 86,
+   "record_low_f": -22,
+   "record_high_f": 107,
+   "precip_in": 50.9,
+   "snow_in": 3,
+   "last_frost": "Apr 19",
+   "first_frost": "Oct 20",
+   "growing_days": 181,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "WXM49",
+     "freq": "162.425",
+     "same": "017069"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.6
+  },
+  "Henderson County": {
+   "fips": "17071",
+   "centroid": [
+    40.8145,
+    -90.9412
+   ],
+   "latitude": 40.8,
+   "bbox": [
+    -91.186,
+    40.6349,
+    -90.7854,
+    41.0704
+   ],
+   "coastal": false,
+   "elevation_ft": 660,
+   "zone": "5b",
+   "jan_low_f": 16,
+   "jul_high_f": 86,
+   "record_low_f": -26,
+   "record_high_f": 105,
+   "precip_in": 37.2,
+   "snow_in": 17,
+   "last_frost": "Apr 8",
+   "first_frost": "Oct 29",
+   "growing_days": 202,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Quad Cities, IL",
+   "nws_cwa": "DVN",
+   "nwr": [
+    {
+     "call": "WXN83",
+     "freq": "162.525",
+     "same": "017071"
+    },
+    {
+     "call": "WXJ92",
+     "freq": "162.500",
+     "same": "017071"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Henry County": {
+   "fips": "17073",
+   "centroid": [
+    41.35,
+    -90.1308
+   ],
+   "latitude": 41.4,
+   "bbox": [
+    -90.4377,
+    41.1493,
+    -89.8567,
+    41.5846
+   ],
+   "coastal": false,
+   "elevation_ft": 690,
+   "zone": "5b",
+   "jan_low_f": 15,
+   "jul_high_f": 86,
+   "record_low_f": -25,
+   "record_high_f": 107,
+   "precip_in": 39.1,
+   "snow_in": 28,
+   "last_frost": "Apr 20",
+   "first_frost": "Oct 20",
+   "growing_days": 180,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Quad Cities, IL",
+   "nws_cwa": "DVN",
+   "nwr": [
+    {
+     "call": "KZZ66",
+     "freq": "162.400",
+     "same": "017073"
+    },
+    {
+     "call": "WXL22",
+     "freq": "162.425",
+     "same": "017073"
+    },
+    {
+     "call": "WXJ73",
+     "freq": "162.550",
+     "same": "017073"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.4
+  },
+  "Iroquois County": {
+   "fips": "17075",
+   "centroid": [
+    40.7489,
+    -87.8336
+   ],
+   "latitude": 40.7,
+   "bbox": [
+    -88.1318,
+    40.4858,
+    -87.5257,
+    41.0103
+   ],
+   "coastal": false,
+   "elevation_ft": 650,
+   "zone": "5b",
+   "jan_low_f": 16,
+   "jul_high_f": 85,
+   "record_low_f": -28,
+   "record_high_f": 107,
+   "precip_in": 38.4,
+   "snow_in": 17,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 16",
+   "growing_days": 174,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Chicago, IL",
+   "nws_cwa": "LOT",
+   "nwr": [
+    {
+     "call": "KXI86",
+     "freq": "162.500",
+     "same": "017075"
+    },
+    {
+     "call": "KZZ58",
+     "freq": "162.525",
+     "same": "017075"
+    },
+    {
+     "call": "WXK24",
+     "freq": "162.450",
+     "same": "017075"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.4
+  },
+  "Jackson County": {
+   "fips": "17077",
+   "centroid": [
+    37.7861,
+    -89.3812
+   ],
+   "latitude": 37.8,
+   "bbox": [
+    -89.6804,
+    37.5621,
+    -89.1507,
+    37.9554
+   ],
+   "coastal": false,
+   "elevation_ft": 420,
+   "zone": "7a",
+   "jan_low_f": 25,
+   "jul_high_f": 88,
+   "record_low_f": -25,
+   "record_high_f": 113,
+   "precip_in": 44.0,
+   "snow_in": 10,
+   "last_frost": "Apr 9",
+   "first_frost": "Oct 22",
+   "growing_days": 195,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "WXM49",
+     "freq": "162.425",
+     "same": "017077"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.7
+  },
+  "Jasper County": {
+   "fips": "17079",
+   "centroid": [
+    39.0049,
+    -88.1507
+   ],
+   "latitude": 39.0,
+   "bbox": [
+    -88.3628,
+    38.8469,
+    -87.9448,
+    39.1749
+   ],
+   "coastal": false,
+   "elevation_ft": 480,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 86,
+   "record_low_f": -14,
+   "record_high_f": 107,
+   "precip_in": 46.0,
+   "snow_in": 16,
+   "last_frost": "Apr 13",
+   "first_frost": "Oct 22",
+   "growing_days": 190,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Lincoln, IL",
+   "nws_cwa": "ILX",
+   "nwr": [
+    {
+     "call": "KXI48",
+     "freq": "162.450",
+     "same": "017079"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.5
+  },
+  "Jefferson County": {
+   "fips": "17081",
+   "centroid": [
+    38.3008,
+    -88.9242
+   ],
+   "latitude": 38.3,
+   "bbox": [
+    -89.1497,
+    38.1243,
+    -88.699,
+    38.477
+   ],
+   "coastal": false,
+   "elevation_ft": 480,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 86,
+   "record_low_f": -22,
+   "record_high_f": 114,
+   "precip_in": 45.0,
+   "snow_in": 10,
+   "last_frost": "Apr 11",
+   "first_frost": "Oct 22",
+   "growing_days": 193,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "KXI49",
+     "freq": "162.475",
+     "same": "017081"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.6
+  },
+  "Jersey County": {
+   "fips": "17083",
+   "centroid": [
+    39.0802,
+    -90.3614
+   ],
+   "latitude": 39.1,
+   "bbox": [
+    -90.6034,
+    38.9234,
+    -90.1449,
+    39.262
+   ],
+   "coastal": false,
+   "elevation_ft": 600,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 86,
+   "record_low_f": -25,
+   "record_high_f": 112,
+   "precip_in": 42.2,
+   "snow_in": 12,
+   "last_frost": "Apr 14",
+   "first_frost": "Oct 19",
+   "growing_days": 187,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "St Louis, MO",
+   "nws_cwa": "LSX",
+   "nwr": [
+    {
+     "call": "KXI70",
+     "freq": "162.450",
+     "same": "017083"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Jo Daviess County": {
+   "fips": "17085",
+   "centroid": [
+    42.3624,
+    -90.2115
+   ],
+   "latitude": 42.4,
+   "bbox": [
+    -90.6563,
+    42.1932,
+    -89.9194,
+    42.5084
+   ],
+   "coastal": false,
+   "elevation_ft": 760,
+   "zone": "5a",
+   "jan_low_f": 10,
+   "jul_high_f": 83,
+   "record_low_f": -35,
+   "record_high_f": 103,
+   "precip_in": 39.4,
+   "snow_in": 30,
+   "last_frost": "May 1",
+   "first_frost": "Oct 9",
+   "growing_days": 160,
+   "ecoregion": "Driftless Area",
+   "ecoregion_code": "52",
+   "nws_office": "Quad Cities, IL",
+   "nws_cwa": "DVN",
+   "nwr": [
+    {
+     "call": "WXL64",
+     "freq": "162.400",
+     "same": "017085"
+    },
+    {
+     "call": "KZZ56",
+     "freq": "162.450",
+     "same": "017085"
+    },
+    {
+     "call": "KZZ83",
+     "freq": "162.425",
+     "same": "017085"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.4
+  },
+  "Johnson County": {
+   "fips": "17087",
+   "centroid": [
+    37.4607,
+    -88.8821
+   ],
+   "latitude": 37.5,
+   "bbox": [
+    -89.045,
+    37.294,
+    -88.7086,
+    37.6007
+   ],
+   "coastal": false,
+   "elevation_ft": 520,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 88,
+   "record_low_f": -20,
+   "record_high_f": 107,
+   "precip_in": 50.5,
+   "snow_in": 7,
+   "last_frost": "Apr 14",
+   "first_frost": "Oct 21",
+   "growing_days": 189,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "WXM49",
+     "freq": "162.425",
+     "same": "017087"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.6
+  },
+  "Kane County": {
+   "fips": "17089",
+   "centroid": [
+    41.9396,
+    -88.428
+   ],
+   "latitude": 41.9,
+   "bbox": [
+    -88.603,
+    41.7195,
+    -88.2379,
+    42.1543
+   ],
+   "coastal": false,
+   "elevation_ft": 880,
+   "zone": "5b",
+   "jan_low_f": 16,
+   "jul_high_f": 84,
+   "record_low_f": -27,
+   "record_high_f": 102,
+   "precip_in": 33.2,
+   "snow_in": 38,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 19",
+   "growing_days": 174,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Chicago, IL",
+   "nws_cwa": "LOT",
+   "nwr": [
+    {
+     "call": "KXI41",
+     "freq": "162.500",
+     "same": "017089"
+    },
+    {
+     "call": "WNG536",
+     "freq": "162.550",
+     "same": "017089"
+    },
+    {
+     "call": "KZZ81",
+     "freq": "162.425",
+     "same": "017089"
+    },
+    {
+     "call": "KXI58",
+     "freq": "162.400",
+     "same": "017089"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Kankakee County": {
+   "fips": "17091",
+   "centroid": [
+    41.1395,
+    -87.8611
+   ],
+   "latitude": 41.1,
+   "bbox": [
+    -88.2516,
+    40.9947,
+    -87.5262,
+    41.2987
+   ],
+   "coastal": false,
+   "elevation_ft": 630,
+   "zone": "5b",
+   "jan_low_f": 16,
+   "jul_high_f": 85,
+   "record_low_f": -29,
+   "record_high_f": 107,
+   "precip_in": 41.7,
+   "snow_in": 21,
+   "last_frost": "Apr 19",
+   "first_frost": "Oct 24",
+   "growing_days": 188,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Chicago, IL",
+   "nws_cwa": "LOT",
+   "nwr": [
+    {
+     "call": "KXI86",
+     "freq": "162.500",
+     "same": "017091"
+    },
+    {
+     "call": "KZZ58",
+     "freq": "162.525",
+     "same": "017091"
+    },
+    {
+     "call": "KZZ81",
+     "freq": "162.425",
+     "same": "017091"
+    },
+    {
+     "call": "WXK24",
+     "freq": "162.450",
+     "same": "017091"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.2
+  },
+  "Kendall County": {
+   "fips": "17093",
+   "centroid": [
+    41.5881,
+    -88.4306
+   ],
+   "latitude": 41.6,
+   "bbox": [
+    -88.6035,
+    41.4571,
+    -88.2521,
+    41.7247
+   ],
+   "coastal": false,
+   "elevation_ft": 680,
+   "zone": "5b",
+   "jan_low_f": 15,
+   "jul_high_f": 84,
+   "record_low_f": -26,
+   "record_high_f": 111,
+   "precip_in": 33.8,
+   "snow_in": 29,
+   "last_frost": "Apr 28",
+   "first_frost": "Oct 13",
+   "growing_days": 166,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Chicago, IL",
+   "nws_cwa": "LOT",
+   "nwr": [
+    {
+     "call": "KZZ81",
+     "freq": "162.425",
+     "same": "017093"
+    },
+    {
+     "call": "KXI58",
+     "freq": "162.400",
+     "same": "017093"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Knox County": {
+   "fips": "17095",
+   "centroid": [
+    40.9309,
+    -90.2138
+   ],
+   "latitude": 40.9,
+   "bbox": [
+    -90.4442,
+    40.7117,
+    -89.9845,
+    41.1521
+   ],
+   "coastal": false,
+   "elevation_ft": 650,
+   "zone": "5b",
+   "jan_low_f": 14,
+   "jul_high_f": 84,
+   "record_low_f": -28,
+   "record_high_f": 108,
+   "precip_in": 40.5,
+   "snow_in": 25,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 20",
+   "growing_days": 181,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Lincoln, IL",
+   "nws_cwa": "ILX",
+   "nwr": [
+    {
+     "call": "KZZ66",
+     "freq": "162.400",
+     "same": "017095"
+    },
+    {
+     "call": "WXJ92",
+     "freq": "162.500",
+     "same": "017095"
+    },
+    {
+     "call": "WXJ71",
+     "freq": "162.475",
+     "same": "017095"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Lake County": {
+   "fips": "17097",
+   "centroid": [
+    42.186,
+    -87.8059
+   ],
+   "latitude": 42.2,
+   "bbox": [
+    -88.2001,
+    42.1525,
+    -87.7591,
+    42.4962
+   ],
+   "coastal": false,
+   "elevation_ft": 670,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 84,
+   "record_low_f": -27,
+   "record_high_f": 105,
+   "precip_in": 39.5,
+   "snow_in": 34,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 21",
+   "growing_days": 176,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Chicago, IL",
+   "nws_cwa": "LOT",
+   "nwr": [
+    {
+     "call": "KWO39",
+     "freq": "162.550",
+     "same": "017097"
+    },
+    {
+     "call": "KXI41",
+     "freq": "162.500",
+     "same": "017097"
+    },
+    {
+     "call": "KZZ76",
+     "freq": "162.450",
+     "same": "017097"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.3
+  },
+  "LaSalle County": {
+   "fips": "17099",
+   "centroid": [
+    41.3433,
+    -88.8859
+   ],
+   "latitude": 41.3,
+   "bbox": [
+    -89.1672,
+    40.9259,
+    -88.5856,
+    41.6314
+   ],
+   "coastal": false,
+   "elevation_ft": 480,
+   "zone": "6a",
+   "jan_low_f": 15,
+   "jul_high_f": 83,
+   "record_low_f": -26,
+   "record_high_f": 112,
+   "precip_in": 36.2,
+   "snow_in": 24,
+   "last_frost": "Apr 20",
+   "first_frost": "Oct 22",
+   "growing_days": 183,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Chicago, IL",
+   "nws_cwa": "LOT",
+   "nwr": [
+    {
+     "call": "WXK24",
+     "freq": "162.450",
+     "same": "017099"
+    },
+    {
+     "call": "KXI58",
+     "freq": "162.400",
+     "same": "017099"
+    },
+    {
+     "call": "WXL22",
+     "freq": "162.425",
+     "same": "017099"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Lawrence County": {
+   "fips": "17101",
+   "centroid": [
+    38.719,
+    -87.7302
+   ],
+   "latitude": 38.7,
+   "bbox": [
+    -87.9121,
+    38.5682,
+    -87.4954,
+    38.8538
+   ],
+   "coastal": false,
+   "elevation_ft": 510,
+   "zone": "6b",
+   "jan_low_f": 21,
+   "jul_high_f": 88,
+   "record_low_f": -19,
+   "record_high_f": 107,
+   "precip_in": 46.6,
+   "snow_in": 16,
+   "last_frost": "Apr 12",
+   "first_frost": "Oct 25",
+   "growing_days": 193,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Lincoln, IL",
+   "nws_cwa": "ILX",
+   "nwr": [
+    {
+     "call": "KXI48",
+     "freq": "162.450",
+     "same": "017101"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.6
+  },
+  "Lee County": {
+   "fips": "17103",
+   "centroid": [
+    41.7474,
+    -89.2994
+   ],
+   "latitude": 41.7,
+   "bbox": [
+    -89.6324,
+    41.5846,
+    -88.9388,
+    41.9125
+   ],
+   "coastal": false,
+   "elevation_ft": 800,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 83,
+   "record_low_f": -32,
+   "record_high_f": 110,
+   "precip_in": 38.0,
+   "snow_in": 29,
+   "last_frost": "Apr 27",
+   "first_frost": "Oct 12",
+   "growing_days": 167,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Chicago, IL",
+   "nws_cwa": "LOT",
+   "nwr": [
+    {
+     "call": "WNG536",
+     "freq": "162.550",
+     "same": "017103"
+    },
+    {
+     "call": "KZZ55",
+     "freq": "162.525",
+     "same": "017103"
+    },
+    {
+     "call": "WXL22",
+     "freq": "162.425",
+     "same": "017103"
+    },
+    {
+     "call": "KZZ57",
+     "freq": "162.475",
+     "same": "017103"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.4
+  },
+  "Livingston County": {
+   "fips": "17105",
+   "centroid": [
+    40.8944,
+    -88.5529
+   ],
+   "latitude": 40.9,
+   "bbox": [
+    -88.9314,
+    40.6165,
+    -88.2349,
+    41.1137
+   ],
+   "coastal": false,
+   "elevation_ft": 690,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 84,
+   "record_low_f": -24,
+   "record_high_f": 108,
+   "precip_in": 37.0,
+   "snow_in": 25,
+   "last_frost": "Apr 16",
+   "first_frost": "Oct 24",
+   "growing_days": 191,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Chicago, IL",
+   "nws_cwa": "LOT",
+   "nwr": [
+    {
+     "call": "WXK24",
+     "freq": "162.450",
+     "same": "017105"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.4
+  },
+  "Logan County": {
+   "fips": "17107",
+   "centroid": [
+    40.1293,
+    -89.3653
+   ],
+   "latitude": 40.1,
+   "bbox": [
+    -89.6038,
+    39.917,
+    -89.1433,
+    40.3252
+   ],
+   "coastal": false,
+   "elevation_ft": 550,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 86,
+   "record_low_f": -34,
+   "record_high_f": 113,
+   "precip_in": 39.8,
+   "snow_in": 19,
+   "last_frost": "Apr 20",
+   "first_frost": "Oct 16",
+   "growing_days": 179,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Lincoln, IL",
+   "nws_cwa": "ILX",
+   "nwr": [
+    {
+     "call": "WXJ75",
+     "freq": "162.400",
+     "same": "017107"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.5
+  },
+  "McDonough County": {
+   "fips": "17109",
+   "centroid": [
+    40.4558,
+    -90.679
+   ],
+   "latitude": 40.5,
+   "bbox": [
+    -90.9099,
+    40.2764,
+    -90.4455,
+    40.6392
+   ],
+   "coastal": false,
+   "elevation_ft": 690,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 86,
+   "record_low_f": -30,
+   "record_high_f": 113,
+   "precip_in": 38.5,
+   "snow_in": 21,
+   "last_frost": "Apr 17",
+   "first_frost": "Oct 22",
+   "growing_days": 185,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Quad Cities, IL",
+   "nws_cwa": "DVN",
+   "nwr": [
+    {
+     "call": "WXJ92",
+     "freq": "162.500",
+     "same": "017109"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "McHenry County": {
+   "fips": "17111",
+   "centroid": [
+    42.3243,
+    -88.4522
+   ],
+   "latitude": 42.3,
+   "bbox": [
+    -88.7074,
+    42.1535,
+    -88.1976,
+    42.496
+   ],
+   "coastal": false,
+   "elevation_ft": 900,
+   "zone": "5b",
+   "jan_low_f": 14,
+   "jul_high_f": 84,
+   "record_low_f": -29,
+   "record_high_f": 109,
+   "precip_in": 39.4,
+   "snow_in": 35,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 22",
+   "growing_days": 179,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Chicago, IL",
+   "nws_cwa": "LOT",
+   "nwr": [
+    {
+     "call": "KXI41",
+     "freq": "162.500",
+     "same": "017111"
+    },
+    {
+     "call": "KZZ76",
+     "freq": "162.450",
+     "same": "017111"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "McLean County": {
+   "fips": "17113",
+   "centroid": [
+    40.4946,
+    -88.8445
+   ],
+   "latitude": 40.5,
+   "bbox": [
+    -89.2694,
+    40.2812,
+    -88.4592,
+    40.7575
+   ],
+   "coastal": false,
+   "elevation_ft": 820,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 86,
+   "record_low_f": -24,
+   "record_high_f": 114,
+   "precip_in": 39.4,
+   "snow_in": 20,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 16",
+   "growing_days": 172,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Lincoln, IL",
+   "nws_cwa": "ILX",
+   "nwr": [
+    {
+     "call": "KZZ65",
+     "freq": "162.525",
+     "same": "017113"
+    },
+    {
+     "call": "WXK24",
+     "freq": "162.450",
+     "same": "017113"
+    },
+    {
+     "call": "WXJ71",
+     "freq": "162.475",
+     "same": "017113"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.4
+  },
+  "Macon County": {
+   "fips": "17115",
+   "centroid": [
+    39.8602,
+    -88.9615
+   ],
+   "latitude": 39.9,
+   "bbox": [
+    -89.2179,
+    39.6527,
+    -88.7453,
+    40.0552
+   ],
+   "coastal": false,
+   "elevation_ft": 680,
+   "zone": "6a",
+   "jan_low_f": 20,
+   "jul_high_f": 85,
+   "record_low_f": -25,
+   "record_high_f": 113,
+   "precip_in": 40.4,
+   "snow_in": 14,
+   "last_frost": "Apr 14",
+   "first_frost": "Oct 24",
+   "growing_days": 192,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Lincoln, IL",
+   "nws_cwa": "ILX",
+   "nwr": [
+    {
+     "call": "WXJ75",
+     "freq": "162.400",
+     "same": "017115"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.5
+  },
+  "Macoupin County": {
+   "fips": "17117",
+   "centroid": [
+    39.2659,
+    -89.9263
+   ],
+   "latitude": 39.3,
+   "bbox": [
+    -90.1537,
+    38.9984,
+    -89.6985,
+    39.5234
+   ],
+   "coastal": false,
+   "elevation_ft": 620,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 86,
+   "record_low_f": -23,
+   "record_high_f": 113,
+   "precip_in": 40.0,
+   "snow_in": 16,
+   "last_frost": "Apr 14",
+   "first_frost": "Oct 21",
+   "growing_days": 188,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "St Louis, MO",
+   "nws_cwa": "LSX",
+   "nwr": [
+    {
+     "call": "KXI79",
+     "freq": "162.425",
+     "same": "017117"
+    },
+    {
+     "call": "KXI70",
+     "freq": "162.450",
+     "same": "017117"
+    },
+    {
+     "call": "WXJ75",
+     "freq": "162.400",
+     "same": "017117"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.5
+  },
+  "Madison County": {
+   "fips": "17119",
+   "centroid": [
+    38.8271,
+    -89.9002
+   ],
+   "latitude": 38.8,
+   "bbox": [
+    -90.2765,
+    38.6551,
+    -89.5953,
+    39.0
+   ],
+   "coastal": false,
+   "elevation_ft": 540,
+   "zone": "7a",
+   "jan_low_f": 22,
+   "jul_high_f": 87,
+   "record_low_f": -16,
+   "record_high_f": 116,
+   "precip_in": 41.9,
+   "snow_in": 11,
+   "last_frost": "Apr 4",
+   "first_frost": "Nov 5",
+   "growing_days": 214,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "St Louis, MO",
+   "nws_cwa": "LSX",
+   "nwr": [
+    {
+     "call": "KXI70",
+     "freq": "162.450",
+     "same": "017119"
+    },
+    {
+     "call": "KDO89",
+     "freq": "162.550",
+     "same": "017119"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.6
+  },
+  "Marion County": {
+   "fips": "17121",
+   "centroid": [
+    38.6482,
+    -88.9204
+   ],
+   "latitude": 38.6,
+   "bbox": [
+    -89.1446,
+    38.474,
+    -88.6954,
+    38.8263
+   ],
+   "coastal": false,
+   "elevation_ft": 560,
+   "zone": "6b",
+   "jan_low_f": 21,
+   "jul_high_f": 88,
+   "record_low_f": -23,
+   "record_high_f": 105,
+   "precip_in": 45.9,
+   "snow_in": 10,
+   "last_frost": "Apr 9",
+   "first_frost": "Oct 26",
+   "growing_days": 197,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "St Louis, MO",
+   "nws_cwa": "LSX",
+   "nwr": [
+    {
+     "call": "KXI49",
+     "freq": "162.475",
+     "same": "017121"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.6
+  },
+  "Marshall County": {
+   "fips": "17123",
+   "centroid": [
+    41.0311,
+    -89.3424
+   ],
+   "latitude": 41.0,
+   "bbox": [
+    -89.6388,
+    40.9212,
+    -89.0471,
+    41.1487
+   ],
+   "coastal": false,
+   "elevation_ft": 670,
+   "zone": "5b",
+   "jan_low_f": 18,
+   "jul_high_f": 87,
+   "record_low_f": -27,
+   "record_high_f": 103,
+   "precip_in": 38.4,
+   "snow_in": 25,
+   "last_frost": "Apr 20",
+   "first_frost": "Oct 17",
+   "growing_days": 178,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Lincoln, IL",
+   "nws_cwa": "ILX",
+   "nwr": [
+    {
+     "call": "WXK24",
+     "freq": "162.450",
+     "same": "017123"
+    },
+    {
+     "call": "WXJ71",
+     "freq": "162.475",
+     "same": "017123"
+    },
+    {
+     "call": "WXL22",
+     "freq": "162.425",
+     "same": "017123"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.4
+  },
+  "Mason County": {
+   "fips": "17125",
+   "centroid": [
+    40.237,
+    -89.9136
+   ],
+   "latitude": 40.2,
+   "bbox": [
+    -90.355,
+    40.0534,
+    -89.6012,
+    40.4362
+   ],
+   "coastal": false,
+   "elevation_ft": 500,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 88,
+   "record_low_f": -30,
+   "record_high_f": 106,
+   "precip_in": 41.0,
+   "snow_in": 28,
+   "last_frost": "Apr 17",
+   "first_frost": "Oct 19",
+   "growing_days": 185,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Lincoln, IL",
+   "nws_cwa": "ILX",
+   "nwr": [
+    {
+     "call": "WXJ92",
+     "freq": "162.500",
+     "same": "017125"
+    },
+    {
+     "call": "WXJ71",
+     "freq": "162.475",
+     "same": "017125"
+    },
+    {
+     "call": "WXJ75",
+     "freq": "162.400",
+     "same": "017125"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.5
+  },
+  "Massac County": {
+   "fips": "17127",
+   "centroid": [
+    37.2161,
+    -88.7057
+   ],
+   "latitude": 37.2,
+   "bbox": [
+    -88.9301,
+    37.0652,
+    -88.4901,
+    37.3372
+   ],
+   "coastal": false,
+   "elevation_ft": 370,
+   "zone": "7a",
+   "jan_low_f": 25,
+   "jul_high_f": 89,
+   "record_low_f": -21,
+   "record_high_f": 105,
+   "precip_in": 49.1,
+   "snow_in": 3,
+   "last_frost": "Apr 6",
+   "first_frost": "Oct 27",
+   "growing_days": 203,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "WXM49",
+     "freq": "162.425",
+     "same": "017127"
+    },
+    {
+     "call": "KIH46",
+     "freq": "162.475",
+     "same": "017127"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.6
+  },
+  "Menard County": {
+   "fips": "17129",
+   "centroid": [
+    40.0226,
+    -89.7941
+   ],
+   "latitude": 40.0,
+   "bbox": [
+    -89.995,
+    39.9015,
+    -89.5785,
+    40.1603
+   ],
+   "coastal": false,
+   "elevation_ft": 600,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 86,
+   "record_low_f": -24,
+   "record_high_f": 104,
+   "precip_in": 37.6,
+   "snow_in": 15,
+   "last_frost": "Apr 13",
+   "first_frost": "Oct 21",
+   "growing_days": 189,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Lincoln, IL",
+   "nws_cwa": "ILX",
+   "nwr": [
+    {
+     "call": "WXJ75",
+     "freq": "162.400",
+     "same": "017129"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.5
+  },
+  "Mercer County": {
+   "fips": "17131",
+   "centroid": [
+    41.2056,
+    -90.7418
+   ],
+   "latitude": 41.2,
+   "bbox": [
+    -91.1142,
+    41.0636,
+    -90.4339,
+    41.3339
+   ],
+   "coastal": false,
+   "elevation_ft": 740,
+   "zone": "5b",
+   "jan_low_f": 13,
+   "jul_high_f": 85,
+   "record_low_f": -33,
+   "record_high_f": 113,
+   "precip_in": 39.1,
+   "snow_in": 22,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 19",
+   "growing_days": 181,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Quad Cities, IL",
+   "nws_cwa": "DVN",
+   "nwr": [
+    {
+     "call": "WXN83",
+     "freq": "162.525",
+     "same": "017131"
+    },
+    {
+     "call": "KZZ66",
+     "freq": "162.400",
+     "same": "017131"
+    },
+    {
+     "call": "WXJ73",
+     "freq": "162.550",
+     "same": "017131"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.4
+  },
+  "Monroe County": {
+   "fips": "17133",
+   "centroid": [
+    38.278,
+    -90.1791
+   ],
+   "latitude": 38.3,
+   "bbox": [
+    -90.3741,
+    38.0881,
+    -89.8973,
+    38.5208
+   ],
+   "coastal": false,
+   "elevation_ft": 650,
+   "zone": "7a",
+   "jan_low_f": 22,
+   "jul_high_f": 88,
+   "record_low_f": -27,
+   "record_high_f": 110,
+   "precip_in": 43.6,
+   "snow_in": 9,
+   "last_frost": "Apr 9",
+   "first_frost": "Oct 26",
+   "growing_days": 197,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "St Louis, MO",
+   "nws_cwa": "LSX",
+   "nwr": [
+    {
+     "call": "KDO89",
+     "freq": "162.550",
+     "same": "017133"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.5
+  },
+  "Montgomery County": {
+   "fips": "17135",
+   "centroid": [
+    39.2281,
+    -89.4781
+   ],
+   "latitude": 39.2,
+   "bbox": [
+    -89.7037,
+    38.999,
+    -89.1397,
+    39.5246
+   ],
+   "coastal": false,
+   "elevation_ft": 630,
+   "zone": "6b",
+   "jan_low_f": 21,
+   "jul_high_f": 89,
+   "record_low_f": -22,
+   "record_high_f": 114,
+   "precip_in": 42.1,
+   "snow_in": 16,
+   "last_frost": "Apr 13",
+   "first_frost": "Oct 24",
+   "growing_days": 192,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "St Louis, MO",
+   "nws_cwa": "LSX",
+   "nwr": [
+    {
+     "call": "KXI79",
+     "freq": "162.425",
+     "same": "017135"
+    },
+    {
+     "call": "WXJ75",
+     "freq": "162.400",
+     "same": "017135"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.5
+  },
+  "Morgan County": {
+   "fips": "17137",
+   "centroid": [
+    39.7177,
+    -90.205
+   ],
+   "latitude": 39.7,
+   "bbox": [
+    -90.5986,
+    39.5199,
+    -89.924,
+    39.8768
+   ],
+   "coastal": false,
+   "elevation_ft": 620,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 86,
+   "record_low_f": -28,
+   "record_high_f": 114,
+   "precip_in": 39.2,
+   "snow_in": 16,
+   "last_frost": "Apr 19",
+   "first_frost": "Oct 17",
+   "growing_days": 179,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Lincoln, IL",
+   "nws_cwa": "ILX",
+   "nwr": [
+    {
+     "call": "WXM90",
+     "freq": "162.525",
+     "same": "017137"
+    },
+    {
+     "call": "WXJ75",
+     "freq": "162.400",
+     "same": "017137"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Moultrie County": {
+   "fips": "17139",
+   "centroid": [
+    39.6369,
+    -88.6257
+   ],
+   "latitude": 39.6,
+   "bbox": [
+    -88.8129,
+    39.4472,
+    -88.4705,
+    39.7921
+   ],
+   "coastal": false,
+   "elevation_ft": 680,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 86,
+   "record_low_f": -24,
+   "record_high_f": 111,
+   "precip_in": 41.6,
+   "snow_in": 13,
+   "last_frost": "Apr 15",
+   "first_frost": "Oct 22",
+   "growing_days": 187,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Lincoln, IL",
+   "nws_cwa": "ILX",
+   "nwr": [
+    {
+     "call": "WXJ76",
+     "freq": "162.550",
+     "same": "017139"
+    },
+    {
+     "call": "KXI46",
+     "freq": "162.500",
+     "same": "017139"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.5
+  },
+  "Ogle County": {
+   "fips": "17141",
+   "centroid": [
+    42.0419,
+    -89.3202
+   ],
+   "latitude": 42.0,
+   "bbox": [
+    -89.6885,
+    41.8865,
+    -88.9387,
+    42.2042
+   ],
+   "coastal": false,
+   "elevation_ft": 860,
+   "zone": "5b",
+   "jan_low_f": 13,
+   "jul_high_f": 84,
+   "record_low_f": -33,
+   "record_high_f": 101,
+   "precip_in": 40.0,
+   "snow_in": 32,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 7",
+   "growing_days": 161,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Chicago, IL",
+   "nws_cwa": "LOT",
+   "nwr": [
+    {
+     "call": "WNG536",
+     "freq": "162.550",
+     "same": "017141"
+    },
+    {
+     "call": "KZZ55",
+     "freq": "162.525",
+     "same": "017141"
+    },
+    {
+     "call": "KZZ56",
+     "freq": "162.450",
+     "same": "017141"
+    },
+    {
+     "call": "KZZ57",
+     "freq": "162.475",
+     "same": "017141"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.4
+  },
+  "Peoria County": {
+   "fips": "17143",
+   "centroid": [
+    40.786,
+    -89.767
+   ],
+   "latitude": 40.8,
+   "bbox": [
+    -89.9891,
+    40.5133,
+    -89.4479,
+    40.9752
+   ],
+   "coastal": false,
+   "elevation_ft": 660,
+   "zone": "5b",
+   "jan_low_f": 18,
+   "jul_high_f": 86,
+   "record_low_f": -26,
+   "record_high_f": 113,
+   "precip_in": 37.5,
+   "snow_in": 26,
+   "last_frost": "Apr 16",
+   "first_frost": "Oct 23",
+   "growing_days": 189,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Lincoln, IL",
+   "nws_cwa": "ILX",
+   "nwr": [
+    {
+     "call": "WXJ71",
+     "freq": "162.475",
+     "same": "017143"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.5
+  },
+  "Perry County": {
+   "fips": "17145",
+   "centroid": [
+    38.0844,
+    -89.3685
+   ],
+   "latitude": 38.1,
+   "bbox": [
+    -89.5951,
+    37.9503,
+    -89.1155,
+    38.2192
+   ],
+   "coastal": false,
+   "elevation_ft": 400,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 87,
+   "record_low_f": -22,
+   "record_high_f": 113,
+   "precip_in": 47.7,
+   "snow_in": 12,
+   "last_frost": "Apr 6",
+   "first_frost": "Oct 22",
+   "growing_days": 199,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "KXI42",
+     "freq": "162.450",
+     "same": "017145"
+    },
+    {
+     "call": "WXM49",
+     "freq": "162.425",
+     "same": "017145"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.6
+  },
+  "Piatt County": {
+   "fips": "17147",
+   "centroid": [
+    40.009,
+    -88.5924
+   ],
+   "latitude": 40.0,
+   "bbox": [
+    -88.7462,
+    39.7916,
+    -88.4596,
+    40.2816
+   ],
+   "coastal": false,
+   "elevation_ft": 680,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 84,
+   "record_low_f": -25,
+   "record_high_f": 109,
+   "precip_in": 39.6,
+   "snow_in": 18,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 13",
+   "growing_days": 170,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Lincoln, IL",
+   "nws_cwa": "ILX",
+   "nwr": [
+    {
+     "call": "WXJ76",
+     "freq": "162.550",
+     "same": "017147"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.4
+  },
+  "Pike County": {
+   "fips": "17149",
+   "centroid": [
+    39.6251,
+    -90.889
+   ],
+   "latitude": 39.6,
+   "bbox": [
+    -91.37,
+    39.3956,
+    -90.5658,
+    39.8447
+   ],
+   "coastal": false,
+   "elevation_ft": 820,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 88,
+   "record_low_f": -25,
+   "record_high_f": 104,
+   "precip_in": 40.5,
+   "snow_in": 16,
+   "last_frost": "Apr 14",
+   "first_frost": "Oct 21",
+   "growing_days": 189,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "St Louis, MO",
+   "nws_cwa": "LSX",
+   "nwr": [
+    {
+     "call": "WXK82",
+     "freq": "162.475",
+     "same": "017149"
+    },
+    {
+     "call": "WXM90",
+     "freq": "162.525",
+     "same": "017149"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Pope County": {
+   "fips": "17151",
+   "centroid": [
+    37.4172,
+    -88.5424
+   ],
+   "latitude": 37.4,
+   "bbox": [
+    -88.7107,
+    37.0671,
+    -88.4123,
+    37.6002
+   ],
+   "coastal": false,
+   "elevation_ft": 700,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 88,
+   "record_low_f": -20,
+   "record_high_f": 107,
+   "precip_in": 50.5,
+   "snow_in": 7,
+   "last_frost": "Apr 14",
+   "first_frost": "Oct 21",
+   "growing_days": 189,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "WXM49",
+     "freq": "162.425",
+     "same": "017151"
+    },
+    {
+     "call": "KIH46",
+     "freq": "162.475",
+     "same": "017151"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.6
+  },
+  "Pulaski County": {
+   "fips": "17153",
+   "centroid": [
+    37.2156,
+    -89.1278
+   ],
+   "latitude": 37.2,
+   "bbox": [
+    -89.2732,
+    37.0688,
+    -88.9281,
+    37.335
+   ],
+   "coastal": false,
+   "elevation_ft": 460,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 89,
+   "record_low_f": -8,
+   "record_high_f": 108,
+   "precip_in": 49.4,
+   "snow_in": 7,
+   "last_frost": "Apr 3",
+   "first_frost": "Nov 5",
+   "growing_days": 216,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "WXM49",
+     "freq": "162.425",
+     "same": "017153"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.7
+  },
+  "Putnam County": {
+   "fips": "17155",
+   "centroid": [
+    41.199,
+    -89.2983
+   ],
+   "latitude": 41.2,
+   "bbox": [
+    -89.4665,
+    41.1037,
+    -89.1621,
+    41.3225
+   ],
+   "coastal": false,
+   "elevation_ft": 550,
+   "zone": "5b",
+   "jan_low_f": 17,
+   "jul_high_f": 84,
+   "record_low_f": -30,
+   "record_high_f": 108,
+   "precip_in": 38.6,
+   "snow_in": 18,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 22",
+   "growing_days": 188,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Quad Cities, IL",
+   "nws_cwa": "DVN",
+   "nwr": [
+    {
+     "call": "WXL22",
+     "freq": "162.425",
+     "same": "017155"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.4
+  },
+  "Randolph County": {
+   "fips": "17157",
+   "centroid": [
+    38.0565,
+    -89.8212
+   ],
+   "latitude": 38.1,
+   "bbox": [
+    -90.2069,
+    37.803,
+    -89.5925,
+    38.2231
+   ],
+   "coastal": false,
+   "elevation_ft": 510,
+   "zone": "7a",
+   "jan_low_f": 22,
+   "jul_high_f": 88,
+   "record_low_f": -23,
+   "record_high_f": 114,
+   "precip_in": 45.6,
+   "snow_in": 11,
+   "last_frost": "Apr 12",
+   "first_frost": "Oct 22",
+   "growing_days": 191,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "St Louis, MO",
+   "nws_cwa": "LSX",
+   "nwr": [
+    {
+     "call": "KXI42",
+     "freq": "162.450",
+     "same": "017157"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.6
+  },
+  "Richland County": {
+   "fips": "17159",
+   "centroid": [
+    38.7122,
+    -88.0855
+   ],
+   "latitude": 38.7,
+   "bbox": [
+    -88.2972,
+    38.5688,
+    -87.9079,
+    38.8508
+   ],
+   "coastal": false,
+   "elevation_ft": 460,
+   "zone": "6b",
+   "jan_low_f": 21,
+   "jul_high_f": 87,
+   "record_low_f": -25,
+   "record_high_f": 112,
+   "precip_in": 48.8,
+   "snow_in": 10,
+   "last_frost": "Apr 15",
+   "first_frost": "Oct 23",
+   "growing_days": 189,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Lincoln, IL",
+   "nws_cwa": "ILX",
+   "nwr": [
+    {
+     "call": "KXI48",
+     "freq": "162.450",
+     "same": "017159"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.6
+  },
+  "Rock Island County": {
+   "fips": "17161",
+   "centroid": [
+    41.4684,
+    -90.5721
+   ],
+   "latitude": 41.5,
+   "bbox": [
+    -91.072,
+    41.3265,
+    -90.16,
+    41.783
+   ],
+   "coastal": false,
+   "elevation_ft": 670,
+   "zone": "5b",
+   "jan_low_f": 15,
+   "jul_high_f": 86,
+   "record_low_f": -33,
+   "record_high_f": 106,
+   "precip_in": 38.3,
+   "snow_in": 36,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 18",
+   "growing_days": 176,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Quad Cities, IL",
+   "nws_cwa": "DVN",
+   "nwr": [
+    {
+     "call": "WXJ73",
+     "freq": "162.550",
+     "same": "017161"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.4
+  },
+  "St. Clair County": {
+   "fips": "17163",
+   "centroid": [
+    38.4702,
+    -89.9285
+   ],
+   "latitude": 38.5,
+   "bbox": [
+    -90.2636,
+    38.2193,
+    -89.7033,
+    38.6606
+   ],
+   "coastal": false,
+   "elevation_ft": 490,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 90,
+   "record_low_f": -27,
+   "record_high_f": 110,
+   "precip_in": 43.4,
+   "snow_in": 11,
+   "last_frost": "Apr 12",
+   "first_frost": "Oct 20",
+   "growing_days": 189,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "St Louis, MO",
+   "nws_cwa": "LSX",
+   "nwr": [
+    {
+     "call": "KDO89",
+     "freq": "162.550",
+     "same": "017163"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.6
+  },
+  "Saline County": {
+   "fips": "17165",
+   "centroid": [
+    37.7515,
+    -88.545
+   ],
+   "latitude": 37.8,
+   "bbox": [
+    -88.7087,
+    37.5991,
+    -88.3738,
+    37.9078
+   ],
+   "coastal": false,
+   "elevation_ft": 360,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 89,
+   "record_low_f": -23,
+   "record_high_f": 113,
+   "precip_in": 47.6,
+   "snow_in": 3,
+   "last_frost": "Apr 7",
+   "first_frost": "Oct 26",
+   "growing_days": 202,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "WXM49",
+     "freq": "162.425",
+     "same": "017165"
+    },
+    {
+     "call": "KXI52",
+     "freq": "162.400",
+     "same": "017165"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.6
+  },
+  "Sangamon County": {
+   "fips": "17167",
+   "centroid": [
+    39.7569,
+    -89.6624
+   ],
+   "latitude": 39.8,
+   "bbox": [
+    -89.9947,
+    39.5222,
+    -89.2174,
+    39.9767
+   ],
+   "coastal": false,
+   "elevation_ft": 600,
+   "zone": "6a",
+   "jan_low_f": 19,
+   "jul_high_f": 86,
+   "record_low_f": -24,
+   "record_high_f": 112,
+   "precip_in": 40.5,
+   "snow_in": 22,
+   "last_frost": "Apr 15",
+   "first_frost": "Oct 22",
+   "growing_days": 188,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Lincoln, IL",
+   "nws_cwa": "ILX",
+   "nwr": [
+    {
+     "call": "WXJ75",
+     "freq": "162.400",
+     "same": "017167"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.5
+  },
+  "Schuyler County": {
+   "fips": "17169",
+   "centroid": [
+    40.1569,
+    -90.6135
+   ],
+   "latitude": 40.2,
+   "bbox": [
+    -90.9136,
+    39.9788,
+    -90.2002,
+    40.2844
+   ],
+   "coastal": false,
+   "elevation_ft": 670,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 84,
+   "record_low_f": -26,
+   "record_high_f": 113,
+   "precip_in": 40.9,
+   "snow_in": 14,
+   "last_frost": "Apr 16",
+   "first_frost": "Oct 23",
+   "growing_days": 189,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Lincoln, IL",
+   "nws_cwa": "ILX",
+   "nwr": [
+    {
+     "call": "WXJ92",
+     "freq": "162.500",
+     "same": "017169"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Scott County": {
+   "fips": "17171",
+   "centroid": [
+    39.637,
+    -90.4778
+   ],
+   "latitude": 39.6,
+   "bbox": [
+    -90.6461,
+    39.5202,
+    -90.3007,
+    39.79
+   ],
+   "coastal": false,
+   "elevation_ft": 550,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 87,
+   "record_low_f": -25,
+   "record_high_f": 109,
+   "precip_in": 40.4,
+   "snow_in": 18,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 20",
+   "growing_days": 183,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Lincoln, IL",
+   "nws_cwa": "ILX",
+   "nwr": [
+    {
+     "call": "WXM90",
+     "freq": "162.525",
+     "same": "017171"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Shelby County": {
+   "fips": "17173",
+   "centroid": [
+    39.3849,
+    -88.7989
+   ],
+   "latitude": 39.4,
+   "bbox": [
+    -89.1397,
+    39.2149,
+    -88.4705,
+    39.6543
+   ],
+   "coastal": false,
+   "elevation_ft": 600,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 86,
+   "record_low_f": -21,
+   "record_high_f": 104,
+   "precip_in": 41.4,
+   "snow_in": 14,
+   "last_frost": "Apr 10",
+   "first_frost": "Oct 24",
+   "growing_days": 195,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Lincoln, IL",
+   "nws_cwa": "ILX",
+   "nwr": [
+    {
+     "call": "KXI46",
+     "freq": "162.500",
+     "same": "017173"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.5
+  },
+  "Stark County": {
+   "fips": "17175",
+   "centroid": [
+    41.0969,
+    -89.7974
+   ],
+   "latitude": 41.1,
+   "bbox": [
+    -89.9858,
+    40.9738,
+    -89.6385,
+    41.2345
+   ],
+   "coastal": false,
+   "elevation_ft": 730,
+   "zone": "5b",
+   "jan_low_f": 14,
+   "jul_high_f": 86,
+   "record_low_f": -27,
+   "record_high_f": 105,
+   "precip_in": 38.8,
+   "snow_in": 20,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 14",
+   "growing_days": 174,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Lincoln, IL",
+   "nws_cwa": "ILX",
+   "nwr": [
+    {
+     "call": "WXJ71",
+     "freq": "162.475",
+     "same": "017175"
+    },
+    {
+     "call": "WXL22",
+     "freq": "162.425",
+     "same": "017175"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.4
+  },
+  "Stephenson County": {
+   "fips": "17177",
+   "centroid": [
+    42.3497,
+    -89.666
+   ],
+   "latitude": 42.3,
+   "bbox": [
+    -89.9266,
+    42.1959,
+    -89.3963,
+    42.5058
+   ],
+   "coastal": false,
+   "elevation_ft": 790,
+   "zone": "5a",
+   "jan_low_f": 11,
+   "jul_high_f": 82,
+   "record_low_f": -31,
+   "record_high_f": 103,
+   "precip_in": 38.4,
+   "snow_in": 34,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 13",
+   "growing_days": 169,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Quad Cities, IL",
+   "nws_cwa": "DVN",
+   "nwr": [
+    {
+     "call": "KZZ56",
+     "freq": "162.450",
+     "same": "017177"
+    },
+    {
+     "call": "WWG90",
+     "freq": "162.425",
+     "same": "017177"
+    },
+    {
+     "call": "KZZ57",
+     "freq": "162.475",
+     "same": "017177"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.4
+  },
+  "Tazewell County": {
+   "fips": "17179",
+   "centroid": [
+    40.5081,
+    -89.5163
+   ],
+   "latitude": 40.5,
+   "bbox": [
+    -89.922,
+    40.3191,
+    -89.2639,
+    40.7484
+   ],
+   "coastal": false,
+   "elevation_ft": 620,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 86,
+   "record_low_f": -26,
+   "record_high_f": 113,
+   "precip_in": 37.5,
+   "snow_in": 26,
+   "last_frost": "Apr 16",
+   "first_frost": "Oct 23",
+   "growing_days": 189,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Lincoln, IL",
+   "nws_cwa": "ILX",
+   "nwr": [
+    {
+     "call": "KZZ65",
+     "freq": "162.525",
+     "same": "017179"
+    },
+    {
+     "call": "WXJ71",
+     "freq": "162.475",
+     "same": "017179"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.5
+  },
+  "Union County": {
+   "fips": "17181",
+   "centroid": [
+    37.4857,
+    -89.2446
+   ],
+   "latitude": 37.5,
+   "bbox": [
+    -89.5225,
+    37.3298,
+    -89.0411,
+    37.6005
+   ],
+   "coastal": false,
+   "elevation_ft": 640,
+   "zone": "7a",
+   "jan_low_f": 25,
+   "jul_high_f": 90,
+   "record_low_f": -20,
+   "record_high_f": 112,
+   "precip_in": 51.1,
+   "snow_in": 10,
+   "last_frost": "Apr 8",
+   "first_frost": "Oct 29",
+   "growing_days": 203,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "KXI93",
+     "freq": "162.550",
+     "same": "017181"
+    },
+    {
+     "call": "WXM49",
+     "freq": "162.425",
+     "same": "017181"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.7
+  },
+  "Vermilion County": {
+   "fips": "17183",
+   "centroid": [
+    40.1868,
+    -87.7268
+   ],
+   "latitude": 40.2,
+   "bbox": [
+    -87.9423,
+    39.8684,
+    -87.5264,
+    40.4919
+   ],
+   "coastal": false,
+   "elevation_ft": 670,
+   "zone": "6a",
+   "jan_low_f": 20,
+   "jul_high_f": 85,
+   "record_low_f": -26,
+   "record_high_f": 112,
+   "precip_in": 43.2,
+   "snow_in": 15,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 20",
+   "growing_days": 181,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Lincoln, IL",
+   "nws_cwa": "ILX",
+   "nwr": [
+    {
+     "call": "WXJ76",
+     "freq": "162.550",
+     "same": "017183"
+    },
+    {
+     "call": "KXI86",
+     "freq": "162.500",
+     "same": "017183"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.4
+  },
+  "Wabash County": {
+   "fips": "17185",
+   "centroid": [
+    38.4458,
+    -87.8392
+   ],
+   "latitude": 38.4,
+   "bbox": [
+    -87.9921,
+    38.2364,
+    -87.6453,
+    38.5706
+   ],
+   "coastal": false,
+   "elevation_ft": 460,
+   "zone": "6b",
+   "jan_low_f": 25,
+   "jul_high_f": 87,
+   "record_low_f": -19,
+   "record_high_f": 110,
+   "precip_in": 48.7,
+   "snow_in": 9,
+   "last_frost": "Apr 2",
+   "first_frost": "Oct 31",
+   "growing_days": 209,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "KIG76",
+     "freq": "162.550",
+     "same": "017185"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.6
+  },
+  "Warren County": {
+   "fips": "17187",
+   "centroid": [
+    40.8504,
+    -90.6202
+   ],
+   "latitude": 40.9,
+   "bbox": [
+    -90.7896,
+    40.6278,
+    -90.4394,
+    41.0687
+   ],
+   "coastal": false,
+   "elevation_ft": 770,
+   "zone": "5b",
+   "jan_low_f": 15,
+   "jul_high_f": 84,
+   "record_low_f": -27,
+   "record_high_f": 110,
+   "precip_in": 39.4,
+   "snow_in": 26,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 15",
+   "growing_days": 174,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Quad Cities, IL",
+   "nws_cwa": "DVN",
+   "nwr": [
+    {
+     "call": "WXN83",
+     "freq": "162.525",
+     "same": "017187"
+    },
+    {
+     "call": "KZZ66",
+     "freq": "162.400",
+     "same": "017187"
+    },
+    {
+     "call": "WXJ92",
+     "freq": "162.500",
+     "same": "017187"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Washington County": {
+   "fips": "17189",
+   "centroid": [
+    38.3531,
+    -89.4172
+   ],
+   "latitude": 38.4,
+   "bbox": [
+    -89.7043,
+    38.2129,
+    -89.1439,
+    38.5185
+   ],
+   "coastal": false,
+   "elevation_ft": 490,
+   "zone": "6b",
+   "jan_low_f": 21,
+   "jul_high_f": 87,
+   "record_low_f": -21,
+   "record_high_f": 109,
+   "precip_in": 42.2,
+   "snow_in": 12,
+   "last_frost": "Apr 7",
+   "first_frost": "Oct 26",
+   "growing_days": 201,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "St Louis, MO",
+   "nws_cwa": "LSX",
+   "nwr": [
+    {
+     "call": "KXI49",
+     "freq": "162.475",
+     "same": "017189"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.6
+  },
+  "Wayne County": {
+   "fips": "17191",
+   "centroid": [
+    38.4319,
+    -88.4324
+   ],
+   "latitude": 38.4,
+   "bbox": [
+    -88.7023,
+    38.2551,
+    -88.1472,
+    38.6073
+   ],
+   "coastal": false,
+   "elevation_ft": 470,
+   "zone": "6b",
+   "jan_low_f": 24,
+   "jul_high_f": 90,
+   "record_low_f": -23,
+   "record_high_f": 113,
+   "precip_in": 46.0,
+   "snow_in": 12,
+   "last_frost": "Apr 7",
+   "first_frost": "Oct 26",
+   "growing_days": 201,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "KXI48",
+     "freq": "162.450",
+     "same": "017191"
+    },
+    {
+     "call": "KXI49",
+     "freq": "162.475",
+     "same": "017191"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.6
+  },
+  "White County": {
+   "fips": "17193",
+   "centroid": [
+    38.0873,
+    -88.1786
+   ],
+   "latitude": 38.1,
+   "bbox": [
+    -88.3745,
+    37.888,
+    -87.9108,
+    38.2597
+   ],
+   "coastal": false,
+   "elevation_ft": 400,
+   "zone": "7a",
+   "jan_low_f": 21,
+   "jul_high_f": 88,
+   "record_low_f": -20,
+   "record_high_f": 108,
+   "precip_in": 48.3,
+   "snow_in": 12,
+   "last_frost": "Apr 15",
+   "first_frost": "Oct 19",
+   "growing_days": 183,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "KIG76",
+     "freq": "162.550",
+     "same": "017193"
+    },
+    {
+     "call": "KXI52",
+     "freq": "162.400",
+     "same": "017193"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.6
+  },
+  "Whiteside County": {
+   "fips": "17195",
+   "centroid": [
+    41.7507,
+    -89.911
+   ],
+   "latitude": 41.8,
+   "bbox": [
+    -90.2473,
+    41.5834,
+    -89.6292,
+    41.9317
+   ],
+   "coastal": false,
+   "elevation_ft": 650,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 83,
+   "record_low_f": -35,
+   "record_high_f": 112,
+   "precip_in": 38.3,
+   "snow_in": 32,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 13",
+   "growing_days": 167,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Quad Cities, IL",
+   "nws_cwa": "DVN",
+   "nwr": [
+    {
+     "call": "KZZ55",
+     "freq": "162.525",
+     "same": "017195"
+    },
+    {
+     "call": "WXL22",
+     "freq": "162.425",
+     "same": "017195"
+    },
+    {
+     "call": "WXJ73",
+     "freq": "162.550",
+     "same": "017195"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.4
+  },
+  "Will County": {
+   "fips": "17197",
+   "centroid": [
+    41.4485,
+    -87.9785
+   ],
+   "latitude": 41.4,
+   "bbox": [
+    -88.2618,
+    41.2013,
+    -87.5253,
+    41.7289
+   ],
+   "coastal": false,
+   "elevation_ft": 700,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 84,
+   "record_low_f": -26,
+   "record_high_f": 104,
+   "precip_in": 38.0,
+   "snow_in": 17,
+   "last_frost": "Apr 19",
+   "first_frost": "Oct 25",
+   "growing_days": 188,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Chicago, IL",
+   "nws_cwa": "LOT",
+   "nwr": [
+    {
+     "call": "KZZ58",
+     "freq": "162.525",
+     "same": "017197"
+    },
+    {
+     "call": "KZZ81",
+     "freq": "162.425",
+     "same": "017197"
+    },
+    {
+     "call": "WXK24",
+     "freq": "162.450",
+     "same": "017197"
+    },
+    {
+     "call": "KXI58",
+     "freq": "162.400",
+     "same": "017197"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.2
+  },
+  "Williamson County": {
+   "fips": "17199",
+   "centroid": [
+    37.7304,
+    -88.93
+   ],
+   "latitude": 37.7,
+   "bbox": [
+    -89.1537,
+    37.5962,
+    -88.7068,
+    37.8636
+   ],
+   "coastal": false,
+   "elevation_ft": 430,
+   "zone": "7a",
+   "jan_low_f": 23,
+   "jul_high_f": 88,
+   "record_low_f": -25,
+   "record_high_f": 113,
+   "precip_in": 49.0,
+   "snow_in": 11,
+   "last_frost": "Apr 9",
+   "first_frost": "Oct 22",
+   "growing_days": 195,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "WXM49",
+     "freq": "162.425",
+     "same": "017199"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.6
+  },
+  "Winnebago County": {
+   "fips": "17201",
+   "centroid": [
+    42.3374,
+    -89.1612
+   ],
+   "latitude": 42.3,
+   "bbox": [
+    -89.4014,
+    42.1503,
+    -88.9397,
+    42.5004
+   ],
+   "coastal": false,
+   "elevation_ft": 820,
+   "zone": "5b",
+   "jan_low_f": 14,
+   "jul_high_f": 84,
+   "record_low_f": -31,
+   "record_high_f": 105,
+   "precip_in": 37.2,
+   "snow_in": 37,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 17",
+   "growing_days": 174,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Chicago, IL",
+   "nws_cwa": "LOT",
+   "nwr": [
+    {
+     "call": "WNG536",
+     "freq": "162.550",
+     "same": "017201"
+    },
+    {
+     "call": "KZZ56",
+     "freq": "162.450",
+     "same": "017201"
+    },
+    {
+     "call": "WWG90",
+     "freq": "162.425",
+     "same": "017201"
+    },
+    {
+     "call": "KZZ57",
+     "freq": "162.475",
+     "same": "017201"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.4
+  },
+  "Woodford County": {
+   "fips": "17203",
+   "centroid": [
+    40.7898,
+    -89.2106
+   ],
+   "latitude": 40.8,
+   "bbox": [
+    -89.5639,
+    40.5943,
+    -88.9294,
+    40.9277
+   ],
+   "coastal": false,
+   "elevation_ft": 730,
+   "zone": "5b",
+   "jan_low_f": 15,
+   "jul_high_f": 86,
+   "record_low_f": -28,
+   "record_high_f": 111,
+   "precip_in": 37.6,
+   "snow_in": 22,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 17",
+   "growing_days": 173,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Lincoln, IL",
+   "nws_cwa": "ILX",
+   "nwr": [
+    {
+     "call": "KZZ65",
+     "freq": "162.525",
+     "same": "017203"
+    },
+    {
+     "call": "WXK24",
+     "freq": "162.450",
+     "same": "017203"
+    },
+    {
+     "call": "WXJ71",
+     "freq": "162.475",
+     "same": "017203"
+    }
+   ],
+   "state_em": "Illinois Emergency Management Agency and Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.5
+  }
+ }
+}

@@ -1,0 +1,7152 @@
+{
+ "state": "KY",
+ "state_name": "Kentucky",
+ "state_fips": "21",
+ "state_em": "Kentucky Emergency Management",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "ILN": "NWS Wilmington, OH",
+  "JKL": "NWS Jackson, KY",
+  "LMK": "NWS Louisville, KY",
+  "PAH": "NWS Paducah, KY",
+  "RLX": "NWS Charleston, WV"
+ },
+ "ecoregions": [
+  "Southwestern Appalachians",
+  "Central Appalachians",
+  "Western Allegheny Plateau",
+  "Interior Plateau",
+  "Interior River Valleys and Hills",
+  "Mississippi Alluvial Plain",
+  "Mississippi Valley Loess Plains"
+ ],
+ "counties": {
+  "Adair County": {
+   "fips": "21001",
+   "centroid": [
+    37.1056,
+    -85.2814
+   ],
+   "latitude": 37.1,
+   "bbox": [
+    -85.5266,
+    36.9252,
+    -85.0432,
+    37.3121
+   ],
+   "coastal": false,
+   "elevation_ft": 790,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 86,
+   "record_low_f": -22,
+   "record_high_f": 103,
+   "precip_in": 57.0,
+   "snow_in": 5,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 24",
+   "growing_days": 189,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH45",
+     "freq": "162.400",
+     "same": "021001"
+    },
+    {
+     "call": "WZ2547",
+     "freq": "162.450",
+     "same": "021001"
+    },
+    {
+     "call": "WNG570",
+     "freq": "162.500",
+     "same": "021001"
+    },
+    {
+     "call": "KIH44",
+     "freq": "162.550",
+     "same": "021001"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Allen County": {
+   "fips": "21003",
+   "centroid": [
+    36.7508,
+    -86.1925
+   ],
+   "latitude": 36.8,
+   "bbox": [
+    -86.419,
+    36.6288,
+    -85.9494,
+    36.9352
+   ],
+   "coastal": false,
+   "elevation_ft": 700,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 87,
+   "record_low_f": -20,
+   "record_high_f": 108,
+   "precip_in": 54.0,
+   "snow_in": 8,
+   "last_frost": "Apr 15",
+   "first_frost": "Oct 25",
+   "growing_days": 194,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH45",
+     "freq": "162.400",
+     "same": "021003"
+    },
+    {
+     "call": "WNG631",
+     "freq": "162.525",
+     "same": "021003"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.5
+  },
+  "Anderson County": {
+   "fips": "21005",
+   "centroid": [
+    38.0054,
+    -84.9864
+   ],
+   "latitude": 38.0,
+   "bbox": [
+    -85.1697,
+    37.8853,
+    -84.7991,
+    38.1295
+   ],
+   "coastal": false,
+   "elevation_ft": 670,
+   "zone": "6b",
+   "jan_low_f": 25,
+   "jul_high_f": 88,
+   "record_low_f": -21,
+   "record_high_f": 103,
+   "precip_in": 47.3,
+   "snow_in": 10,
+   "last_frost": "Apr 15",
+   "first_frost": "Oct 24",
+   "growing_days": 192,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH41",
+     "freq": "162.400",
+     "same": "021005"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.4
+  },
+  "Ballard County": {
+   "fips": "21007",
+   "centroid": [
+    37.0513,
+    -89.0104
+   ],
+   "latitude": 37.1,
+   "bbox": [
+    -89.1826,
+    36.9159,
+    -88.816,
+    37.2293
+   ],
+   "coastal": false,
+   "elevation_ft": 410,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 89,
+   "record_low_f": -8,
+   "record_high_f": 108,
+   "precip_in": 49.4,
+   "snow_in": 7,
+   "last_frost": "Apr 3",
+   "first_frost": "Nov 5",
+   "growing_days": 216,
+   "ecoregion": "Mississippi Valley Loess Plains",
+   "ecoregion_code": "74",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "WXM49",
+     "freq": "162.425",
+     "same": "021007"
+    },
+    {
+     "call": "KIH46",
+     "freq": "162.475",
+     "same": "021007"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.7
+  },
+  "Barren County": {
+   "fips": "21009",
+   "centroid": [
+    36.9628,
+    -85.9321
+   ],
+   "latitude": 37.0,
+   "bbox": [
+    -86.1761,
+    36.7227,
+    -85.7396,
+    37.1695
+   ],
+   "coastal": false,
+   "elevation_ft": 760,
+   "zone": "7a",
+   "jan_low_f": 29,
+   "jul_high_f": 90,
+   "record_low_f": -25,
+   "record_high_f": 105,
+   "precip_in": 54.9,
+   "snow_in": 6,
+   "last_frost": "Apr 9",
+   "first_frost": "Oct 27",
+   "growing_days": 201,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH45",
+     "freq": "162.400",
+     "same": "021009"
+    },
+    {
+     "call": "WZ2547",
+     "freq": "162.450",
+     "same": "021009"
+    },
+    {
+     "call": "WNG570",
+     "freq": "162.500",
+     "same": "021009"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.4
+  },
+  "Bath County": {
+   "fips": "21011",
+   "centroid": [
+    38.1522,
+    -83.7376
+   ],
+   "latitude": 38.2,
+   "bbox": [
+    -83.9797,
+    37.9931,
+    -83.4627,
+    38.3025
+   ],
+   "coastal": false,
+   "elevation_ft": 660,
+   "zone": "6b",
+   "jan_low_f": 24,
+   "jul_high_f": 86,
+   "record_low_f": -28,
+   "record_high_f": 106,
+   "precip_in": 50.8,
+   "snow_in": 12,
+   "last_frost": "Apr 17",
+   "first_frost": "Oct 25",
+   "growing_days": 189,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Jackson, KY",
+   "nws_cwa": "JKL",
+   "nwr": [
+    {
+     "call": "KIH41",
+     "freq": "162.400",
+     "same": "021011"
+    },
+    {
+     "call": "WWG71",
+     "freq": "162.400",
+     "same": "021011"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Bell County": {
+   "fips": "21013",
+   "centroid": [
+    36.7289,
+    -83.6807
+   ],
+   "latitude": 36.7,
+   "bbox": [
+    -83.9566,
+    36.5829,
+    -83.459,
+    36.9565
+   ],
+   "coastal": false,
+   "elevation_ft": 1680,
+   "zone": "7b",
+   "jan_low_f": 23,
+   "jul_high_f": 85,
+   "record_low_f": -24,
+   "record_high_f": 103,
+   "precip_in": 54.7,
+   "snow_in": 8,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 19",
+   "growing_days": 177,
+   "ecoregion": "Central Appalachians",
+   "ecoregion_code": "69",
+   "nws_office": "Jackson, KY",
+   "nws_cwa": "JKL",
+   "nwr": [
+    {
+     "call": "KIH40",
+     "freq": "162.475",
+     "same": "021013"
+    },
+    {
+     "call": "WWG62",
+     "freq": "162.525",
+     "same": "021013"
+    },
+    {
+     "call": "WWG61",
+     "freq": "162.550",
+     "same": "021013"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.4
+  },
+  "Boone County": {
+   "fips": "21015",
+   "centroid": [
+    38.9589,
+    -84.7364
+   ],
+   "latitude": 39.0,
+   "bbox": [
+    -84.8975,
+    38.7773,
+    -84.5981,
+    39.1473
+   ],
+   "coastal": false,
+   "elevation_ft": 710,
+   "zone": "6b",
+   "jan_low_f": 23,
+   "jul_high_f": 86,
+   "record_low_f": -25,
+   "record_high_f": 104,
+   "precip_in": 45.3,
+   "snow_in": 23,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 25",
+   "growing_days": 188,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "KIH42",
+     "freq": "162.550",
+     "same": "021015"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.4
+  },
+  "Bourbon County": {
+   "fips": "21017",
+   "centroid": [
+    38.2026,
+    -84.2099
+   ],
+   "latitude": 38.2,
+   "bbox": [
+    -84.4425,
+    38.0669,
+    -83.9696,
+    38.3723
+   ],
+   "coastal": false,
+   "elevation_ft": 850,
+   "zone": "6b",
+   "jan_low_f": 23,
+   "jul_high_f": 87,
+   "record_low_f": -33,
+   "record_high_f": 106,
+   "precip_in": 47.7,
+   "snow_in": 9,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 23",
+   "growing_days": 188,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH41",
+     "freq": "162.400",
+     "same": "021017"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.4
+  },
+  "Boyd County": {
+   "fips": "21019",
+   "centroid": [
+    38.36,
+    -82.6814
+   ],
+   "latitude": 38.4,
+   "bbox": [
+    -82.8175,
+    38.235,
+    -82.5719,
+    38.506
+   ],
+   "coastal": false,
+   "elevation_ft": 770,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 86,
+   "record_low_f": -21,
+   "record_high_f": 104,
+   "precip_in": 45.1,
+   "snow_in": 20,
+   "last_frost": "Apr 14",
+   "first_frost": "Oct 26",
+   "growing_days": 195,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "KIH39",
+     "freq": "162.550",
+     "same": "021019"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.3
+  },
+  "Boyle County": {
+   "fips": "21021",
+   "centroid": [
+    37.6181,
+    -84.8684
+   ],
+   "latitude": 37.6,
+   "bbox": [
+    -85.0397,
+    37.5322,
+    -84.652,
+    37.7171
+   ],
+   "coastal": false,
+   "elevation_ft": 970,
+   "zone": "7a",
+   "jan_low_f": 23,
+   "jul_high_f": 86,
+   "record_low_f": -20,
+   "record_high_f": 107,
+   "precip_in": 47.9,
+   "snow_in": 14,
+   "last_frost": "Apr 9",
+   "first_frost": "Oct 27",
+   "growing_days": 199,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH41",
+     "freq": "162.400",
+     "same": "021021"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Bracken County": {
+   "fips": "21023",
+   "centroid": [
+    38.6804,
+    -84.1152
+   ],
+   "latitude": 38.7,
+   "bbox": [
+    -84.2361,
+    38.55,
+    -83.9044,
+    38.827
+   ],
+   "coastal": false,
+   "elevation_ft": 800,
+   "zone": "6b",
+   "jan_low_f": 23,
+   "jul_high_f": 87,
+   "record_low_f": -22,
+   "record_high_f": 107,
+   "precip_in": 47.5,
+   "snow_in": 17,
+   "last_frost": "Apr 11",
+   "first_frost": "Oct 30",
+   "growing_days": 200,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "KIH42",
+     "freq": "162.550",
+     "same": "021023"
+    },
+    {
+     "call": "KZZ49",
+     "freq": "162.425",
+     "same": "021023"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.4
+  },
+  "Breathitt County": {
+   "fips": "21025",
+   "centroid": [
+    37.5178,
+    -83.3172
+   ],
+   "latitude": 37.5,
+   "bbox": [
+    -83.5796,
+    37.3302,
+    -82.9489,
+    37.6997
+   ],
+   "coastal": false,
+   "elevation_ft": 880,
+   "zone": "7a",
+   "jan_low_f": 23,
+   "jul_high_f": 85,
+   "record_low_f": -21,
+   "record_high_f": 107,
+   "precip_in": 49.0,
+   "snow_in": 23,
+   "last_frost": "Apr 19",
+   "first_frost": "Oct 24",
+   "growing_days": 187,
+   "ecoregion": "Central Appalachians",
+   "ecoregion_code": "69",
+   "nws_office": "Jackson, KY",
+   "nws_cwa": "JKL",
+   "nwr": [
+    {
+     "call": "KIH40",
+     "freq": "162.475",
+     "same": "021025"
+    },
+    {
+     "call": "WWG26",
+     "freq": "162.425",
+     "same": "021025"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.4
+  },
+  "Breckinridge County": {
+   "fips": "21027",
+   "centroid": [
+    37.778,
+    -86.4329
+   ],
+   "latitude": 37.8,
+   "bbox": [
+    -86.678,
+    37.5593,
+    -86.1521,
+    38.0458
+   ],
+   "coastal": false,
+   "elevation_ft": 720,
+   "zone": "7a",
+   "jan_low_f": 22,
+   "jul_high_f": 88,
+   "record_low_f": -27,
+   "record_high_f": 112,
+   "precip_in": 51.5,
+   "snow_in": 4,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 16",
+   "growing_days": 172,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KZZ64",
+     "freq": "162.450",
+     "same": "021027"
+    },
+    {
+     "call": "KZZ61",
+     "freq": "162.475",
+     "same": "021027"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Bullitt County": {
+   "fips": "21029",
+   "centroid": [
+    37.9699,
+    -85.7026
+   ],
+   "latitude": 38.0,
+   "bbox": [
+    -85.9339,
+    37.8082,
+    -85.429,
+    38.1179
+   ],
+   "coastal": false,
+   "elevation_ft": 470,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 88,
+   "record_low_f": -24,
+   "record_high_f": 106,
+   "precip_in": 52.5,
+   "snow_in": 4,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 25",
+   "growing_days": 189,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH43",
+     "freq": "162.475",
+     "same": "021029"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Butler County": {
+   "fips": "21031",
+   "centroid": [
+    37.207,
+    -86.6825
+   ],
+   "latitude": 37.2,
+   "bbox": [
+    -86.9448,
+    37.0,
+    -86.3992,
+    37.3953
+   ],
+   "coastal": false,
+   "elevation_ft": 400,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 89,
+   "record_low_f": -16,
+   "record_high_f": 109,
+   "precip_in": 50.8,
+   "snow_in": 4,
+   "last_frost": "Apr 15",
+   "first_frost": "Oct 20",
+   "growing_days": 187,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH45",
+     "freq": "162.400",
+     "same": "021031"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Caldwell County": {
+   "fips": "21033",
+   "centroid": [
+    37.1486,
+    -87.8705
+   ],
+   "latitude": 37.1,
+   "bbox": [
+    -88.0896,
+    36.9507,
+    -87.6804,
+    37.3739
+   ],
+   "coastal": false,
+   "elevation_ft": 540,
+   "zone": "7a",
+   "jan_low_f": 27,
+   "jul_high_f": 89,
+   "record_low_f": -18,
+   "record_high_f": 109,
+   "precip_in": 50.9,
+   "snow_in": 8,
+   "last_frost": "Apr 11",
+   "first_frost": "Oct 24",
+   "growing_days": 196,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "WXJ91",
+     "freq": "162.525",
+     "same": "021033"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.6
+  },
+  "Calloway County": {
+   "fips": "21035",
+   "centroid": [
+    36.621,
+    -88.2741
+   ],
+   "latitude": 36.6,
+   "bbox": [
+    -88.4892,
+    36.4971,
+    -88.0325,
+    36.7507
+   ],
+   "coastal": false,
+   "elevation_ft": 530,
+   "zone": "7b",
+   "jan_low_f": 27,
+   "jul_high_f": 89,
+   "record_low_f": -20,
+   "record_high_f": 110,
+   "precip_in": 58.1,
+   "snow_in": 6,
+   "last_frost": "Apr 5",
+   "first_frost": "Nov 1",
+   "growing_days": 209,
+   "ecoregion": "Mississippi Valley Loess Plains",
+   "ecoregion_code": "74",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "KIH46",
+     "freq": "162.475",
+     "same": "021035"
+    },
+    {
+     "call": "KHA46",
+     "freq": "162.450",
+     "same": "021035"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.6
+  },
+  "Campbell County": {
+   "fips": "21037",
+   "centroid": [
+    38.947,
+    -84.3796
+   ],
+   "latitude": 38.9,
+   "bbox": [
+    -84.5059,
+    38.8058,
+    -84.2319,
+    39.1217
+   ],
+   "coastal": false,
+   "elevation_ft": 690,
+   "zone": "6b",
+   "jan_low_f": 24,
+   "jul_high_f": 87,
+   "record_low_f": -22,
+   "record_high_f": 105,
+   "precip_in": 43.4,
+   "snow_in": 23,
+   "last_frost": "Apr 16",
+   "first_frost": "Oct 25",
+   "growing_days": 190,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "KIH42",
+     "freq": "162.550",
+     "same": "021037"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.4
+  },
+  "Carlisle County": {
+   "fips": "21039",
+   "centroid": [
+    36.8572,
+    -88.9766
+   ],
+   "latitude": 36.9,
+   "bbox": [
+    -89.1789,
+    36.7716,
+    -88.8126,
+    36.9543
+   ],
+   "coastal": false,
+   "elevation_ft": 410,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 90,
+   "record_low_f": -21,
+   "record_high_f": 104,
+   "precip_in": 53.0,
+   "snow_in": 1,
+   "last_frost": "Apr 6",
+   "first_frost": "Oct 30",
+   "growing_days": 204,
+   "ecoregion": "Mississippi Valley Loess Plains",
+   "ecoregion_code": "74",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "KIH46",
+     "freq": "162.475",
+     "same": "021039"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.6
+  },
+  "Carroll County": {
+   "fips": "21041",
+   "centroid": [
+    38.6684,
+    -85.124
+   ],
+   "latitude": 38.7,
+   "bbox": [
+    -85.3335,
+    38.5806,
+    -84.9345,
+    38.7617
+   ],
+   "coastal": false,
+   "elevation_ft": 470,
+   "zone": "6b",
+   "jan_low_f": 25,
+   "jul_high_f": 88,
+   "record_low_f": -26,
+   "record_high_f": 106,
+   "precip_in": 48.5,
+   "snow_in": 21,
+   "last_frost": "Apr 9",
+   "first_frost": "Nov 1",
+   "growing_days": 204,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "KIH42",
+     "freq": "162.550",
+     "same": "021041"
+    },
+    {
+     "call": "KZZ48",
+     "freq": "162.450",
+     "same": "021041"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.4
+  },
+  "Carter County": {
+   "fips": "21043",
+   "centroid": [
+    38.3141,
+    -83.039
+   ],
+   "latitude": 38.3,
+   "bbox": [
+    -83.3415,
+    38.1688,
+    -82.7713,
+    38.5041
+   ],
+   "coastal": false,
+   "elevation_ft": 830,
+   "zone": "6b",
+   "jan_low_f": 21,
+   "jul_high_f": 82,
+   "record_low_f": -31,
+   "record_high_f": 105,
+   "precip_in": 49.8,
+   "snow_in": 18,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 18",
+   "growing_days": 174,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "KIH39",
+     "freq": "162.550",
+     "same": "021043"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Casey County": {
+   "fips": "21045",
+   "centroid": [
+    37.322,
+    -84.9282
+   ],
+   "latitude": 37.3,
+   "bbox": [
+    -85.1651,
+    37.1025,
+    -84.7072,
+    37.5509
+   ],
+   "coastal": false,
+   "elevation_ft": 810,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 88,
+   "record_low_f": -30,
+   "record_high_f": 105,
+   "precip_in": 52.4,
+   "snow_in": 14,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 20",
+   "growing_days": 180,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "WNG570",
+     "freq": "162.500",
+     "same": "021045"
+    },
+    {
+     "call": "KIH44",
+     "freq": "162.550",
+     "same": "021045"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Christian County": {
+   "fips": "21047",
+   "centroid": [
+    36.8921,
+    -87.493
+   ],
+   "latitude": 36.9,
+   "bbox": [
+    -87.7335,
+    36.6373,
+    -87.2602,
+    37.1586
+   ],
+   "coastal": false,
+   "elevation_ft": 560,
+   "zone": "7a",
+   "jan_low_f": 27,
+   "jul_high_f": 88,
+   "record_low_f": -22,
+   "record_high_f": 111,
+   "precip_in": 51.8,
+   "snow_in": 5,
+   "last_frost": "Apr 4",
+   "first_frost": "Nov 2",
+   "growing_days": 211,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "WWH37",
+     "freq": "162.500",
+     "same": "021047"
+    },
+    {
+     "call": "KXI26",
+     "freq": "162.450",
+     "same": "021047"
+    },
+    {
+     "call": "WXJ91",
+     "freq": "162.525",
+     "same": "021047"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.6
+  },
+  "Clark County": {
+   "fips": "21049",
+   "centroid": [
+    37.9703,
+    -84.1451
+   ],
+   "latitude": 38.0,
+   "bbox": [
+    -84.3485,
+    37.8219,
+    -83.966,
+    38.1154
+   ],
+   "coastal": false,
+   "elevation_ft": 910,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 86,
+   "record_low_f": -27,
+   "record_high_f": 110,
+   "precip_in": 48.5,
+   "snow_in": 9,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 18",
+   "growing_days": 175,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH41",
+     "freq": "162.400",
+     "same": "021049"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Clay County": {
+   "fips": "21051",
+   "centroid": [
+    37.1643,
+    -83.7155
+   ],
+   "latitude": 37.2,
+   "bbox": [
+    -83.9688,
+    36.9374,
+    -83.5051,
+    37.3575
+   ],
+   "coastal": false,
+   "elevation_ft": 1100,
+   "zone": "7a",
+   "jan_low_f": 22,
+   "jul_high_f": 87,
+   "record_low_f": -30,
+   "record_high_f": 107,
+   "precip_in": 49.0,
+   "snow_in": 9,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 16",
+   "growing_days": 170,
+   "ecoregion": "Central Appalachians",
+   "ecoregion_code": "69",
+   "nws_office": "Jackson, KY",
+   "nws_cwa": "JKL",
+   "nwr": [
+    {
+     "call": "KIH40",
+     "freq": "162.475",
+     "same": "021051"
+    },
+    {
+     "call": "WWG66",
+     "freq": "162.400",
+     "same": "021051"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.4
+  },
+  "Clinton County": {
+   "fips": "21053",
+   "centroid": [
+    36.7273,
+    -85.1361
+   ],
+   "latitude": 36.7,
+   "bbox": [
+    -85.2964,
+    36.6158,
+    -84.9751,
+    36.8876
+   ],
+   "coastal": false,
+   "elevation_ft": 1020,
+   "zone": "7a",
+   "jan_low_f": 27,
+   "jul_high_f": 84,
+   "record_low_f": -23,
+   "record_high_f": 105,
+   "precip_in": 54.6,
+   "snow_in": 4,
+   "last_frost": "Apr 12",
+   "first_frost": "Oct 25",
+   "growing_days": 196,
+   "ecoregion": "Southwestern Appalachians",
+   "ecoregion_code": "68",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH45",
+     "freq": "162.400",
+     "same": "021053"
+    },
+    {
+     "call": "KIH44",
+     "freq": "162.550",
+     "same": "021053"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.4
+  },
+  "Crittenden County": {
+   "fips": "21055",
+   "centroid": [
+    37.3581,
+    -88.105
+   ],
+   "latitude": 37.4,
+   "bbox": [
+    -88.3574,
+    37.1264,
+    -87.8068,
+    37.5469
+   ],
+   "coastal": false,
+   "elevation_ft": 670,
+   "zone": "7a",
+   "jan_low_f": 22,
+   "jul_high_f": 86,
+   "record_low_f": -22,
+   "record_high_f": 107,
+   "precip_in": 50.9,
+   "snow_in": 3,
+   "last_frost": "Apr 19",
+   "first_frost": "Oct 20",
+   "growing_days": 181,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "WXJ91",
+     "freq": "162.525",
+     "same": "021055"
+    },
+    {
+     "call": "KIH46",
+     "freq": "162.475",
+     "same": "021055"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.6
+  },
+  "Cumberland County": {
+   "fips": "21057",
+   "centroid": [
+    36.7824,
+    -85.3885
+   ],
+   "latitude": 36.8,
+   "bbox": [
+    -85.6003,
+    36.6186,
+    -85.2157,
+    36.9381
+   ],
+   "coastal": false,
+   "elevation_ft": 660,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 90,
+   "record_low_f": -26,
+   "record_high_f": 110,
+   "precip_in": 49.6,
+   "snow_in": 7,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 18",
+   "growing_days": 174,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH45",
+     "freq": "162.400",
+     "same": "021057"
+    },
+    {
+     "call": "KZZ62",
+     "freq": "162.475",
+     "same": "021057"
+    },
+    {
+     "call": "WZ2547",
+     "freq": "162.450",
+     "same": "021057"
+    },
+    {
+     "call": "KIH44",
+     "freq": "162.550",
+     "same": "021057"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.4
+  },
+  "Daviess County": {
+   "fips": "21059",
+   "centroid": [
+    37.7317,
+    -87.0871
+   ],
+   "latitude": 37.7,
+   "bbox": [
+    -87.4083,
+    37.5613,
+    -86.8173,
+    37.9302
+   ],
+   "coastal": false,
+   "elevation_ft": 430,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 87,
+   "record_low_f": -7,
+   "record_high_f": 107,
+   "precip_in": 45.6,
+   "snow_in": 4,
+   "last_frost": "Apr 2",
+   "first_frost": "Nov 1",
+   "growing_days": 211,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "WXJ91",
+     "freq": "162.525",
+     "same": "021059"
+    },
+    {
+     "call": "KZZ61",
+     "freq": "162.475",
+     "same": "021059"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.6
+  },
+  "Edmonson County": {
+   "fips": "21061",
+   "centroid": [
+    37.2275,
+    -86.218
+   ],
+   "latitude": 37.2,
+   "bbox": [
+    -86.4689,
+    37.054,
+    -86.0494,
+    37.3404
+   ],
+   "coastal": false,
+   "elevation_ft": 480,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 91,
+   "record_low_f": -20,
+   "record_high_f": 111,
+   "precip_in": 53.9,
+   "snow_in": 5,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 22",
+   "growing_days": 182,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH45",
+     "freq": "162.400",
+     "same": "021061"
+    },
+    {
+     "call": "WNG570",
+     "freq": "162.500",
+     "same": "021061"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Elliott County": {
+   "fips": "21063",
+   "centroid": [
+    38.1169,
+    -83.0961
+   ],
+   "latitude": 38.1,
+   "bbox": [
+    -83.2706,
+    37.9966,
+    -82.889,
+    38.2664
+   ],
+   "coastal": false,
+   "elevation_ft": 840,
+   "zone": "6b",
+   "jan_low_f": 23,
+   "jul_high_f": 87,
+   "record_low_f": -31,
+   "record_high_f": 105,
+   "precip_in": 47.8,
+   "snow_in": 3,
+   "last_frost": "Apr 10",
+   "first_frost": "Oct 31",
+   "growing_days": 201,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Jackson, KY",
+   "nws_cwa": "JKL",
+   "nwr": [
+    {
+     "call": "KIH39",
+     "freq": "162.550",
+     "same": "021063"
+    },
+    {
+     "call": "WWG71",
+     "freq": "162.400",
+     "same": "021063"
+    },
+    {
+     "call": "WWG79",
+     "freq": "162.450",
+     "same": "021063"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Estill County": {
+   "fips": "21065",
+   "centroid": [
+    37.6924,
+    -83.964
+   ],
+   "latitude": 37.7,
+   "bbox": [
+    -84.1269,
+    37.5435,
+    -83.7223,
+    37.8527
+   ],
+   "coastal": false,
+   "elevation_ft": 650,
+   "zone": "6b",
+   "jan_low_f": 23,
+   "jul_high_f": 85,
+   "record_low_f": -27,
+   "record_high_f": 105,
+   "precip_in": 50.9,
+   "snow_in": 6,
+   "last_frost": "Apr 20",
+   "first_frost": "Oct 19",
+   "growing_days": 182,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Jackson, KY",
+   "nws_cwa": "JKL",
+   "nwr": [
+    {
+     "call": "WNG727",
+     "freq": "162.475",
+     "same": "021065"
+    },
+    {
+     "call": "KIH41",
+     "freq": "162.400",
+     "same": "021065"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.4
+  },
+  "Fayette County": {
+   "fips": "21067",
+   "centroid": [
+    38.0407,
+    -84.4583
+   ],
+   "latitude": 38.0,
+   "bbox": [
+    -84.6605,
+    37.8454,
+    -84.2841,
+    38.2109
+   ],
+   "coastal": false,
+   "elevation_ft": 1060,
+   "zone": "7a",
+   "jan_low_f": 25,
+   "jul_high_f": 87,
+   "record_low_f": -21,
+   "record_high_f": 108,
+   "precip_in": 49.8,
+   "snow_in": 14,
+   "last_frost": "Apr 13",
+   "first_frost": "Oct 28",
+   "growing_days": 196,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH41",
+     "freq": "162.400",
+     "same": "021067"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.4
+  },
+  "Fleming County": {
+   "fips": "21069",
+   "centroid": [
+    38.3678,
+    -83.6992
+   ],
+   "latitude": 38.4,
+   "bbox": [
+    -83.9842,
+    38.1711,
+    -83.4541,
+    38.5244
+   ],
+   "coastal": false,
+   "elevation_ft": 890,
+   "zone": "6b",
+   "jan_low_f": 23,
+   "jul_high_f": 86,
+   "record_low_f": -28,
+   "record_high_f": 106,
+   "precip_in": 49.8,
+   "snow_in": 9,
+   "last_frost": "Apr 12",
+   "first_frost": "Oct 30",
+   "growing_days": 200,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Jackson, KY",
+   "nws_cwa": "JKL",
+   "nwr": [
+    {
+     "call": "KIH41",
+     "freq": "162.400",
+     "same": "021069"
+    },
+    {
+     "call": "KZZ49",
+     "freq": "162.425",
+     "same": "021069"
+    },
+    {
+     "call": "WWG71",
+     "freq": "162.400",
+     "same": "021069"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Floyd County": {
+   "fips": "21071",
+   "centroid": [
+    37.5525,
+    -82.7397
+   ],
+   "latitude": 37.6,
+   "bbox": [
+    -82.9456,
+    37.2848,
+    -82.5638,
+    37.7557
+   ],
+   "coastal": false,
+   "elevation_ft": 750,
+   "zone": "7a",
+   "jan_low_f": 23,
+   "jul_high_f": 86,
+   "record_low_f": -26,
+   "record_high_f": 105,
+   "precip_in": 47.6,
+   "snow_in": 4,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 23",
+   "growing_days": 183,
+   "ecoregion": "Central Appalachians",
+   "ecoregion_code": "69",
+   "nws_office": "Jackson, KY",
+   "nws_cwa": "JKL",
+   "nwr": [
+    {
+     "call": "KIH40",
+     "freq": "162.475",
+     "same": "021071"
+    },
+    {
+     "call": "WWG28",
+     "freq": "162.525",
+     "same": "021071"
+    },
+    {
+     "call": "WWG69",
+     "freq": "162.400",
+     "same": "021071"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.3
+  },
+  "Franklin County": {
+   "fips": "21073",
+   "centroid": [
+    38.2349,
+    -84.8688
+   ],
+   "latitude": 38.2,
+   "bbox": [
+    -85.0234,
+    38.0935,
+    -84.724,
+    38.374
+   ],
+   "coastal": false,
+   "elevation_ft": 730,
+   "zone": "6b",
+   "jan_low_f": 25,
+   "jul_high_f": 88,
+   "record_low_f": -21,
+   "record_high_f": 103,
+   "precip_in": 47.3,
+   "snow_in": 14,
+   "last_frost": "Apr 15",
+   "first_frost": "Oct 24",
+   "growing_days": 192,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "WZ2523",
+     "freq": "162.500",
+     "same": "021073"
+    },
+    {
+     "call": "KIH41",
+     "freq": "162.400",
+     "same": "021073"
+    },
+    {
+     "call": "KZZ48",
+     "freq": "162.450",
+     "same": "021073"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.4
+  },
+  "Fulton County": {
+   "fips": "21075",
+   "centroid": [
+    36.5525,
+    -89.1877
+   ],
+   "latitude": 36.6,
+   "bbox": [
+    -89.5715,
+    36.4976,
+    -88.836,
+    36.65
+   ],
+   "coastal": false,
+   "elevation_ft": 360,
+   "zone": "7b",
+   "jan_low_f": 26,
+   "jul_high_f": 87,
+   "record_low_f": -17,
+   "record_high_f": 111,
+   "precip_in": 53.2,
+   "snow_in": 6,
+   "last_frost": "Apr 3",
+   "first_frost": "Nov 1",
+   "growing_days": 211,
+   "ecoregion": "Mississippi Valley Loess Plains",
+   "ecoregion_code": "74",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "KIH46",
+     "freq": "162.475",
+     "same": "021075"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.7
+  },
+  "Gallatin County": {
+   "fips": "21077",
+   "centroid": [
+    38.7557,
+    -84.8651
+   ],
+   "latitude": 38.8,
+   "bbox": [
+    -85.0242,
+    38.6611,
+    -84.6601,
+    38.8591
+   ],
+   "coastal": false,
+   "elevation_ft": 760,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 85,
+   "record_low_f": -23,
+   "record_high_f": 104,
+   "precip_in": 47.7,
+   "snow_in": 6,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 21",
+   "growing_days": 179,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "KIH42",
+     "freq": "162.550",
+     "same": "021077"
+    },
+    {
+     "call": "KZZ48",
+     "freq": "162.450",
+     "same": "021077"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.4
+  },
+  "Garrard County": {
+   "fips": "21079",
+   "centroid": [
+    37.6302,
+    -84.5459
+   ],
+   "latitude": 37.6,
+   "bbox": [
+    -84.7449,
+    37.473,
+    -84.3476,
+    37.8301
+   ],
+   "coastal": false,
+   "elevation_ft": 960,
+   "zone": "7a",
+   "jan_low_f": 27,
+   "jul_high_f": 86,
+   "record_low_f": -24,
+   "record_high_f": 105,
+   "precip_in": 50.5,
+   "snow_in": 7,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 24",
+   "growing_days": 188,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH41",
+     "freq": "162.400",
+     "same": "021079"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Grant County": {
+   "fips": "21081",
+   "centroid": [
+    38.6492,
+    -84.6259
+   ],
+   "latitude": 38.6,
+   "bbox": [
+    -84.7867,
+    38.4734,
+    -84.4758,
+    38.8035
+   ],
+   "coastal": false,
+   "elevation_ft": 830,
+   "zone": "6b",
+   "jan_low_f": 25,
+   "jul_high_f": 87,
+   "record_low_f": -23,
+   "record_high_f": 110,
+   "precip_in": 45.9,
+   "snow_in": 16,
+   "last_frost": "Apr 11",
+   "first_frost": "Oct 29",
+   "growing_days": 199,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "KIH42",
+     "freq": "162.550",
+     "same": "021081"
+    },
+    {
+     "call": "KZZ48",
+     "freq": "162.450",
+     "same": "021081"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.4
+  },
+  "Graves County": {
+   "fips": "21083",
+   "centroid": [
+    36.7233,
+    -88.6499
+   ],
+   "latitude": 36.7,
+   "bbox": [
+    -88.8197,
+    36.501,
+    -88.4841,
+    36.9467
+   ],
+   "coastal": false,
+   "elevation_ft": 500,
+   "zone": "7b",
+   "jan_low_f": 27,
+   "jul_high_f": 89,
+   "record_low_f": -20,
+   "record_high_f": 110,
+   "precip_in": 58.1,
+   "snow_in": 6,
+   "last_frost": "Apr 5",
+   "first_frost": "Nov 1",
+   "growing_days": 209,
+   "ecoregion": "Mississippi Valley Loess Plains",
+   "ecoregion_code": "74",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "KIH46",
+     "freq": "162.475",
+     "same": "021083"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.6
+  },
+  "Grayson County": {
+   "fips": "21085",
+   "centroid": [
+    37.4586,
+    -86.344
+   ],
+   "latitude": 37.5,
+   "bbox": [
+    -86.6688,
+    37.321,
+    -86.0194,
+    37.6229
+   ],
+   "coastal": false,
+   "elevation_ft": 690,
+   "zone": "7a",
+   "jan_low_f": 21,
+   "jul_high_f": 86,
+   "record_low_f": -27,
+   "record_high_f": 108,
+   "precip_in": 49.8,
+   "snow_in": 9,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 15",
+   "growing_days": 172,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH45",
+     "freq": "162.400",
+     "same": "021085"
+    },
+    {
+     "call": "WNG570",
+     "freq": "162.500",
+     "same": "021085"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Green County": {
+   "fips": "21087",
+   "centroid": [
+    37.2781,
+    -85.5379
+   ],
+   "latitude": 37.3,
+   "bbox": [
+    -85.6969,
+    37.1096,
+    -85.3525,
+    37.4712
+   ],
+   "coastal": false,
+   "elevation_ft": 710,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 88,
+   "record_low_f": -29,
+   "record_high_f": 114,
+   "precip_in": 51.7,
+   "snow_in": 14,
+   "last_frost": "Apr 15",
+   "first_frost": "Oct 24",
+   "growing_days": 192,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH45",
+     "freq": "162.400",
+     "same": "021087"
+    },
+    {
+     "call": "WZ2547",
+     "freq": "162.450",
+     "same": "021087"
+    },
+    {
+     "call": "WNG570",
+     "freq": "162.500",
+     "same": "021087"
+    },
+    {
+     "call": "KIH44",
+     "freq": "162.550",
+     "same": "021087"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Greenup County": {
+   "fips": "21089",
+   "centroid": [
+    38.5636,
+    -82.9338
+   ],
+   "latitude": 38.6,
+   "bbox": [
+    -83.1672,
+    38.374,
+    -82.6658,
+    38.7566
+   ],
+   "coastal": false,
+   "elevation_ft": 960,
+   "zone": "6b",
+   "jan_low_f": 24,
+   "jul_high_f": 86,
+   "record_low_f": -29,
+   "record_high_f": 107,
+   "precip_in": 48.2,
+   "snow_in": 21,
+   "last_frost": "Apr 20",
+   "first_frost": "Oct 22",
+   "growing_days": 182,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "KIH39",
+     "freq": "162.550",
+     "same": "021089"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.3
+  },
+  "Hancock County": {
+   "fips": "21091",
+   "centroid": [
+    37.8433,
+    -86.7928
+   ],
+   "latitude": 37.8,
+   "bbox": [
+    -86.9865,
+    37.6557,
+    -86.6231,
+    37.9992
+   ],
+   "coastal": false,
+   "elevation_ft": 540,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 87,
+   "record_low_f": -18,
+   "record_high_f": 104,
+   "precip_in": 49.0,
+   "snow_in": 11,
+   "last_frost": "Apr 2",
+   "first_frost": "Nov 7",
+   "growing_days": 218,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KZZ61",
+     "freq": "162.475",
+     "same": "021091"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Hardin County": {
+   "fips": "21093",
+   "centroid": [
+    37.6958,
+    -85.9632
+   ],
+   "latitude": 37.7,
+   "bbox": [
+    -86.2772,
+    37.4404,
+    -85.6769,
+    38.0066
+   ],
+   "coastal": false,
+   "elevation_ft": 760,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 86,
+   "record_low_f": -25,
+   "record_high_f": 107,
+   "precip_in": 54.4,
+   "snow_in": 4,
+   "last_frost": "Apr 16",
+   "first_frost": "Oct 25",
+   "growing_days": 191,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH43A",
+     "freq": "162.550",
+     "same": "021093"
+    },
+    {
+     "call": "KIH43",
+     "freq": "162.475",
+     "same": "021093"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Harlan County": {
+   "fips": "21095",
+   "centroid": [
+    36.8592,
+    -83.2215
+   ],
+   "latitude": 36.9,
+   "bbox": [
+    -83.5108,
+    36.6649,
+    -82.8562,
+    37.0208
+   ],
+   "coastal": false,
+   "elevation_ft": 1900,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 85,
+   "record_low_f": -19,
+   "record_high_f": 103,
+   "precip_in": 52.2,
+   "snow_in": 35,
+   "last_frost": "Apr 15",
+   "first_frost": "Oct 30",
+   "growing_days": 197,
+   "ecoregion": "Central Appalachians",
+   "ecoregion_code": "69",
+   "nws_office": "Jackson, KY",
+   "nws_cwa": "JKL",
+   "nwr": [
+    {
+     "call": "WWG68",
+     "freq": "162.450",
+     "same": "021095"
+    },
+    {
+     "call": "KIH40",
+     "freq": "162.475",
+     "same": "021095"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.4
+  },
+  "Harrison County": {
+   "fips": "21097",
+   "centroid": [
+    38.4446,
+    -84.3341
+   ],
+   "latitude": 38.4,
+   "bbox": [
+    -84.5541,
+    38.2785,
+    -84.1021,
+    38.5825
+   ],
+   "coastal": false,
+   "elevation_ft": 820,
+   "zone": "6b",
+   "jan_low_f": 23,
+   "jul_high_f": 87,
+   "record_low_f": -33,
+   "record_high_f": 106,
+   "precip_in": 47.7,
+   "snow_in": 16,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 23",
+   "growing_days": 188,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH41",
+     "freq": "162.400",
+     "same": "021097"
+    },
+    {
+     "call": "KZZ48",
+     "freq": "162.450",
+     "same": "021097"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.4
+  },
+  "Hart County": {
+   "fips": "21099",
+   "centroid": [
+    37.3058,
+    -85.8784
+   ],
+   "latitude": 37.3,
+   "bbox": [
+    -86.1607,
+    37.1483,
+    -85.6516,
+    37.4488
+   ],
+   "coastal": false,
+   "elevation_ft": 660,
+   "zone": "7a",
+   "jan_low_f": 23,
+   "jul_high_f": 86,
+   "record_low_f": -25,
+   "record_high_f": 107,
+   "precip_in": 52.7,
+   "snow_in": 4,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 18",
+   "growing_days": 178,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH45",
+     "freq": "162.400",
+     "same": "021099"
+    },
+    {
+     "call": "WNG570",
+     "freq": "162.500",
+     "same": "021099"
+    },
+    {
+     "call": "KIH44",
+     "freq": "162.550",
+     "same": "021099"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Henderson County": {
+   "fips": "21101",
+   "centroid": [
+    37.7925,
+    -87.5726
+   ],
+   "latitude": 37.8,
+   "bbox": [
+    -87.9273,
+    37.6385,
+    -87.2717,
+    37.9759
+   ],
+   "coastal": false,
+   "elevation_ft": 380,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 88,
+   "record_low_f": -20,
+   "record_high_f": 113,
+   "precip_in": 47.6,
+   "snow_in": 1,
+   "last_frost": "Apr 9",
+   "first_frost": "Oct 26",
+   "growing_days": 198,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "KIG76",
+     "freq": "162.550",
+     "same": "021101"
+    },
+    {
+     "call": "WXJ91",
+     "freq": "162.525",
+     "same": "021101"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.6
+  },
+  "Henry County": {
+   "fips": "21103",
+   "centroid": [
+    38.4514,
+    -85.1196
+   ],
+   "latitude": 38.5,
+   "bbox": [
+    -85.3459,
+    38.3357,
+    -84.8671,
+    38.5965
+   ],
+   "coastal": false,
+   "elevation_ft": 820,
+   "zone": "6b",
+   "jan_low_f": 23,
+   "jul_high_f": 88,
+   "record_low_f": -37,
+   "record_high_f": 112,
+   "precip_in": 49.8,
+   "snow_in": 21,
+   "last_frost": "Apr 12",
+   "first_frost": "Oct 25",
+   "growing_days": 193,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH43",
+     "freq": "162.475",
+     "same": "021103"
+    },
+    {
+     "call": "KZZ48",
+     "freq": "162.450",
+     "same": "021103"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.4
+  },
+  "Hickman County": {
+   "fips": "21105",
+   "centroid": [
+    36.6759,
+    -88.9721
+   ],
+   "latitude": 36.7,
+   "bbox": [
+    -89.2011,
+    36.5024,
+    -88.8137,
+    36.7964
+   ],
+   "coastal": false,
+   "elevation_ft": 410,
+   "zone": "7b",
+   "jan_low_f": 26,
+   "jul_high_f": 90,
+   "record_low_f": -21,
+   "record_high_f": 104,
+   "precip_in": 53.8,
+   "snow_in": 6,
+   "last_frost": "Apr 6",
+   "first_frost": "Oct 30",
+   "growing_days": 204,
+   "ecoregion": "Mississippi Valley Loess Plains",
+   "ecoregion_code": "74",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "KIH46",
+     "freq": "162.475",
+     "same": "021105"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.6
+  },
+  "Hopkins County": {
+   "fips": "21107",
+   "centroid": [
+    37.3111,
+    -87.5422
+   ],
+   "latitude": 37.3,
+   "bbox": [
+    -87.8515,
+    37.1054,
+    -87.2956,
+    37.5696
+   ],
+   "coastal": false,
+   "elevation_ft": 440,
+   "zone": "7a",
+   "jan_low_f": 28,
+   "jul_high_f": 89,
+   "record_low_f": -23,
+   "record_high_f": 105,
+   "precip_in": 52.2,
+   "snow_in": 9,
+   "last_frost": "Apr 2",
+   "first_frost": "Nov 1",
+   "growing_days": 212,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "WXJ91",
+     "freq": "162.525",
+     "same": "021107"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.6
+  },
+  "Jackson County": {
+   "fips": "21109",
+   "centroid": [
+    37.4035,
+    -84.0206
+   ],
+   "latitude": 37.4,
+   "bbox": [
+    -84.2047,
+    37.2505,
+    -83.7825,
+    37.5812
+   ],
+   "coastal": false,
+   "elevation_ft": 1190,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 84,
+   "record_low_f": -24,
+   "record_high_f": 102,
+   "precip_in": 51.4,
+   "snow_in": 11,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 24",
+   "growing_days": 189,
+   "ecoregion": "Southwestern Appalachians",
+   "ecoregion_code": "68",
+   "nws_office": "Jackson, KY",
+   "nws_cwa": "JKL",
+   "nwr": [
+    {
+     "call": "KIH40",
+     "freq": "162.475",
+     "same": "021109"
+    },
+    {
+     "call": "WWG64",
+     "freq": "162.450",
+     "same": "021109"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Jefferson County": {
+   "fips": "21111",
+   "centroid": [
+    38.1895,
+    -85.6576
+   ],
+   "latitude": 38.2,
+   "bbox": [
+    -85.9482,
+    37.997,
+    -85.4057,
+    38.3801
+   ],
+   "coastal": false,
+   "elevation_ft": 490,
+   "zone": "7a",
+   "jan_low_f": 27,
+   "jul_high_f": 88,
+   "record_low_f": -15,
+   "record_high_f": 105,
+   "precip_in": 48.1,
+   "snow_in": 13,
+   "last_frost": "Apr 3",
+   "first_frost": "Nov 3",
+   "growing_days": 214,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH43",
+     "freq": "162.475",
+     "same": "021111"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.4
+  },
+  "Jessamine County": {
+   "fips": "21113",
+   "centroid": [
+    37.8733,
+    -84.584
+   ],
+   "latitude": 37.9,
+   "bbox": [
+    -84.7245,
+    37.7288,
+    -84.4346,
+    38.0032
+   ],
+   "coastal": false,
+   "elevation_ft": 960,
+   "zone": "7a",
+   "jan_low_f": 27,
+   "jul_high_f": 86,
+   "record_low_f": -18,
+   "record_high_f": 107,
+   "precip_in": 45.9,
+   "snow_in": 10,
+   "last_frost": "Apr 7",
+   "first_frost": "Nov 1",
+   "growing_days": 206,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH41",
+     "freq": "162.400",
+     "same": "021113"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Johnson County": {
+   "fips": "21115",
+   "centroid": [
+    37.8478,
+    -82.8301
+   ],
+   "latitude": 37.8,
+   "bbox": [
+    -83.0047,
+    37.7036,
+    -82.6132,
+    38.0003
+   ],
+   "coastal": false,
+   "elevation_ft": 1110,
+   "zone": "7a",
+   "jan_low_f": 23,
+   "jul_high_f": 86,
+   "record_low_f": -26,
+   "record_high_f": 105,
+   "precip_in": 46.2,
+   "snow_in": 17,
+   "last_frost": "Apr 19",
+   "first_frost": "Oct 25",
+   "growing_days": 188,
+   "ecoregion": "Central Appalachians",
+   "ecoregion_code": "69",
+   "nws_office": "Jackson, KY",
+   "nws_cwa": "JKL",
+   "nwr": [
+    {
+     "call": "KIH39",
+     "freq": "162.550",
+     "same": "021115"
+    },
+    {
+     "call": "WWG28",
+     "freq": "162.525",
+     "same": "021115"
+    },
+    {
+     "call": "WWG69",
+     "freq": "162.400",
+     "same": "021115"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.3
+  },
+  "Kenton County": {
+   "fips": "21117",
+   "centroid": [
+    38.9305,
+    -84.5334
+   ],
+   "latitude": 38.9,
+   "bbox": [
+    -84.6235,
+    38.79,
+    -84.4179,
+    39.0994
+   ],
+   "coastal": false,
+   "elevation_ft": 860,
+   "zone": "6b",
+   "jan_low_f": 23,
+   "jul_high_f": 86,
+   "record_low_f": -25,
+   "record_high_f": 104,
+   "precip_in": 45.3,
+   "snow_in": 23,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 25",
+   "growing_days": 188,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "KIH42",
+     "freq": "162.550",
+     "same": "021117"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.4
+  },
+  "Knott County": {
+   "fips": "21119",
+   "centroid": [
+    37.3544,
+    -82.9525
+   ],
+   "latitude": 37.4,
+   "bbox": [
+    -83.1346,
+    37.1732,
+    -82.7111,
+    37.5258
+   ],
+   "coastal": false,
+   "elevation_ft": 1510,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 82,
+   "record_low_f": -18,
+   "record_high_f": 104,
+   "precip_in": 50.5,
+   "snow_in": 9,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 22",
+   "growing_days": 183,
+   "ecoregion": "Central Appalachians",
+   "ecoregion_code": "69",
+   "nws_office": "Jackson, KY",
+   "nws_cwa": "JKL",
+   "nwr": [
+    {
+     "call": "KIH40",
+     "freq": "162.475",
+     "same": "021119"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.3
+  },
+  "Knox County": {
+   "fips": "21121",
+   "centroid": [
+    36.8885,
+    -83.8556
+   ],
+   "latitude": 36.9,
+   "bbox": [
+    -84.094,
+    36.688,
+    -83.5667,
+    37.055
+   ],
+   "coastal": false,
+   "elevation_ft": 1140,
+   "zone": "7a",
+   "jan_low_f": 25,
+   "jul_high_f": 87,
+   "record_low_f": -22,
+   "record_high_f": 106,
+   "precip_in": 53.8,
+   "snow_in": 10,
+   "last_frost": "Apr 19",
+   "first_frost": "Oct 24",
+   "growing_days": 187,
+   "ecoregion": "Central Appalachians",
+   "ecoregion_code": "69",
+   "nws_office": "Jackson, KY",
+   "nws_cwa": "JKL",
+   "nwr": [
+    {
+     "call": "KIH40",
+     "freq": "162.475",
+     "same": "021121"
+    },
+    {
+     "call": "KIH44",
+     "freq": "162.550",
+     "same": "021121"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.4
+  },
+  "Larue County": {
+   "fips": "21123",
+   "centroid": [
+    37.5445,
+    -85.6968
+   ],
+   "latitude": 37.5,
+   "bbox": [
+    -85.894,
+    37.4223,
+    -85.4663,
+    37.7326
+   ],
+   "coastal": false,
+   "elevation_ft": 820,
+   "zone": "7a",
+   "jan_low_f": 25,
+   "jul_high_f": 86,
+   "record_low_f": -25,
+   "record_high_f": 107,
+   "precip_in": 52.9,
+   "snow_in": 0,
+   "last_frost": "Apr 16",
+   "first_frost": "Oct 25",
+   "growing_days": 191,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH45",
+     "freq": "162.400",
+     "same": "021123"
+    },
+    {
+     "call": "WNG570",
+     "freq": "162.500",
+     "same": "021123"
+    },
+    {
+     "call": "KIH43",
+     "freq": "162.475",
+     "same": "021123"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Laurel County": {
+   "fips": "21125",
+   "centroid": [
+    37.1133,
+    -84.1194
+   ],
+   "latitude": 37.1,
+   "bbox": [
+    -84.3682,
+    36.9394,
+    -83.8636,
+    37.3359
+   ],
+   "coastal": false,
+   "elevation_ft": 1240,
+   "zone": "7a",
+   "jan_low_f": 27,
+   "jul_high_f": 86,
+   "record_low_f": -25,
+   "record_high_f": 105,
+   "precip_in": 51.3,
+   "snow_in": 6,
+   "last_frost": "Apr 15",
+   "first_frost": "Oct 25",
+   "growing_days": 192,
+   "ecoregion": "Southwestern Appalachians",
+   "ecoregion_code": "68",
+   "nws_office": "Jackson, KY",
+   "nws_cwa": "JKL",
+   "nwr": [
+    {
+     "call": "WWG65",
+     "freq": "162.475",
+     "same": "021125"
+    },
+    {
+     "call": "KIH44",
+     "freq": "162.550",
+     "same": "021125"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Lawrence County": {
+   "fips": "21127",
+   "centroid": [
+    38.0745,
+    -82.7383
+   ],
+   "latitude": 38.1,
+   "bbox": [
+    -83.0247,
+    37.8793,
+    -82.4641,
+    38.2687
+   ],
+   "coastal": false,
+   "elevation_ft": 810,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 85,
+   "record_low_f": -21,
+   "record_high_f": 102,
+   "precip_in": 46.1,
+   "snow_in": 3,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 17",
+   "growing_days": 174,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "KIH39",
+     "freq": "162.550",
+     "same": "021127"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.3
+  },
+  "Lee County": {
+   "fips": "21129",
+   "centroid": [
+    37.6081,
+    -83.7192
+   ],
+   "latitude": 37.6,
+   "bbox": [
+    -83.9052,
+    37.4871,
+    -83.5225,
+    37.7196
+   ],
+   "coastal": false,
+   "elevation_ft": 1060,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 84,
+   "record_low_f": -27,
+   "record_high_f": 105,
+   "precip_in": 51.0,
+   "snow_in": 16,
+   "last_frost": "Apr 12",
+   "first_frost": "Oct 25",
+   "growing_days": 192,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Jackson, KY",
+   "nws_cwa": "JKL",
+   "nwr": [
+    {
+     "call": "WWG67",
+     "freq": "162.500",
+     "same": "021129"
+    },
+    {
+     "call": "KIH40",
+     "freq": "162.475",
+     "same": "021129"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.4
+  },
+  "Leslie County": {
+   "fips": "21131",
+   "centroid": [
+    37.0878,
+    -83.3886
+   ],
+   "latitude": 37.1,
+   "bbox": [
+    -83.5527,
+    36.8838,
+    -83.1657,
+    37.3205
+   ],
+   "coastal": false,
+   "elevation_ft": 900,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 87,
+   "record_low_f": -18,
+   "record_high_f": 106,
+   "precip_in": 51.5,
+   "snow_in": 9,
+   "last_frost": "Apr 19",
+   "first_frost": "Oct 25",
+   "growing_days": 188,
+   "ecoregion": "Central Appalachians",
+   "ecoregion_code": "69",
+   "nws_office": "Jackson, KY",
+   "nws_cwa": "JKL",
+   "nwr": [
+    {
+     "call": "KIH40",
+     "freq": "162.475",
+     "same": "021131"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.4
+  },
+  "Letcher County": {
+   "fips": "21133",
+   "centroid": [
+    37.1185,
+    -82.8613
+   ],
+   "latitude": 37.1,
+   "bbox": [
+    -83.1536,
+    36.9544,
+    -82.5653,
+    37.2732
+   ],
+   "coastal": false,
+   "elevation_ft": 1480,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 82,
+   "record_low_f": -17,
+   "record_high_f": 102,
+   "precip_in": 50.5,
+   "snow_in": 17,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 22",
+   "growing_days": 183,
+   "ecoregion": "Central Appalachians",
+   "ecoregion_code": "69",
+   "nws_office": "Jackson, KY",
+   "nws_cwa": "JKL",
+   "nwr": [
+    {
+     "call": "KIH40",
+     "freq": "162.475",
+     "same": "021133"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.3
+  },
+  "Lewis County": {
+   "fips": "21135",
+   "centroid": [
+    38.535,
+    -83.3701
+   ],
+   "latitude": 38.5,
+   "bbox": [
+    -83.6457,
+    38.3183,
+    -83.0247,
+    38.7256
+   ],
+   "coastal": false,
+   "elevation_ft": 860,
+   "zone": "6b",
+   "jan_low_f": 21,
+   "jul_high_f": 82,
+   "record_low_f": -28,
+   "record_high_f": 103,
+   "precip_in": 49.8,
+   "snow_in": 18,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 18",
+   "growing_days": 174,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "KIH39",
+     "freq": "162.550",
+     "same": "021135"
+    },
+    {
+     "call": "KZZ49",
+     "freq": "162.425",
+     "same": "021135"
+    },
+    {
+     "call": "WXM69",
+     "freq": "162.525",
+     "same": "021135"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Lincoln County": {
+   "fips": "21137",
+   "centroid": [
+    37.4572,
+    -84.6583
+   ],
+   "latitude": 37.5,
+   "bbox": [
+    -84.8601,
+    37.2389,
+    -84.447,
+    37.6395
+   ],
+   "coastal": false,
+   "elevation_ft": 1270,
+   "zone": "7a",
+   "jan_low_f": 27,
+   "jul_high_f": 86,
+   "record_low_f": -24,
+   "record_high_f": 105,
+   "precip_in": 50.5,
+   "snow_in": 7,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 24",
+   "growing_days": 188,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH44",
+     "freq": "162.550",
+     "same": "021137"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Livingston County": {
+   "fips": "21139",
+   "centroid": [
+    37.2095,
+    -88.3634
+   ],
+   "latitude": 37.2,
+   "bbox": [
+    -88.5662,
+    36.9816,
+    -88.1871,
+    37.4252
+   ],
+   "coastal": false,
+   "elevation_ft": 610,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 88,
+   "record_low_f": -16,
+   "record_high_f": 106,
+   "precip_in": 49.3,
+   "snow_in": 4,
+   "last_frost": "Apr 3",
+   "first_frost": "Oct 30",
+   "growing_days": 207,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "KIH46",
+     "freq": "162.475",
+     "same": "021139"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.6
+  },
+  "Logan County": {
+   "fips": "21141",
+   "centroid": [
+    36.8596,
+    -86.8813
+   ],
+   "latitude": 36.9,
+   "bbox": [
+    -87.0608,
+    36.6432,
+    -86.6119,
+    37.0737
+   ],
+   "coastal": false,
+   "elevation_ft": 560,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 88,
+   "record_low_f": -22,
+   "record_high_f": 108,
+   "precip_in": 53.9,
+   "snow_in": 4,
+   "last_frost": "Apr 9",
+   "first_frost": "Oct 28",
+   "growing_days": 200,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH45",
+     "freq": "162.400",
+     "same": "021141"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.5
+  },
+  "Lyon County": {
+   "fips": "21143",
+   "centroid": [
+    37.024,
+    -88.0834
+   ],
+   "latitude": 37.0,
+   "bbox": [
+    -88.24,
+    36.8675,
+    -87.8771,
+    37.1796
+   ],
+   "coastal": false,
+   "elevation_ft": 450,
+   "zone": "7b",
+   "jan_low_f": 30,
+   "jul_high_f": 90,
+   "record_low_f": -18,
+   "record_high_f": 109,
+   "precip_in": 53.1,
+   "snow_in": 8,
+   "last_frost": "Mar 27",
+   "first_frost": "Nov 8",
+   "growing_days": 225,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "WXJ91",
+     "freq": "162.525",
+     "same": "021143"
+    },
+    {
+     "call": "KIH46",
+     "freq": "162.475",
+     "same": "021143"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.6
+  },
+  "McCracken County": {
+   "fips": "21145",
+   "centroid": [
+    37.0541,
+    -88.7125
+   ],
+   "latitude": 37.1,
+   "bbox": [
+    -88.9376,
+    36.9421,
+    -88.4827,
+    37.2278
+   ],
+   "coastal": false,
+   "elevation_ft": 390,
+   "zone": "7a",
+   "jan_low_f": 27,
+   "jul_high_f": 90,
+   "record_low_f": -15,
+   "record_high_f": 108,
+   "precip_in": 50.3,
+   "snow_in": 9,
+   "last_frost": "Apr 5",
+   "first_frost": "Oct 28",
+   "growing_days": 206,
+   "ecoregion": "Mississippi Valley Loess Plains",
+   "ecoregion_code": "74",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "KIH46",
+     "freq": "162.475",
+     "same": "021145"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.6
+  },
+  "McCreary County": {
+   "fips": "21147",
+   "centroid": [
+    36.7311,
+    -84.4911
+   ],
+   "latitude": 36.7,
+   "bbox": [
+    -84.7783,
+    36.5919,
+    -84.2272,
+    36.9627
+   ],
+   "coastal": false,
+   "elevation_ft": 1180,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 85,
+   "record_low_f": -24,
+   "record_high_f": 108,
+   "precip_in": 56.1,
+   "snow_in": 6,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 18",
+   "growing_days": 177,
+   "ecoregion": "Southwestern Appalachians",
+   "ecoregion_code": "68",
+   "nws_office": "Jackson, KY",
+   "nws_cwa": "JKL",
+   "nwr": [
+    {
+     "call": "KIH44",
+     "freq": "162.550",
+     "same": "021147"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.4
+  },
+  "McLean County": {
+   "fips": "21149",
+   "centroid": [
+    37.5267,
+    -87.2656
+   ],
+   "latitude": 37.5,
+   "bbox": [
+    -87.4997,
+    37.3808,
+    -87.0385,
+    37.6837
+   ],
+   "coastal": false,
+   "elevation_ft": 380,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 87,
+   "record_low_f": -23,
+   "record_high_f": 105,
+   "precip_in": 45.6,
+   "snow_in": 4,
+   "last_frost": "Apr 2",
+   "first_frost": "Nov 1",
+   "growing_days": 211,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "WXJ91",
+     "freq": "162.525",
+     "same": "021149"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.6
+  },
+  "Madison County": {
+   "fips": "21151",
+   "centroid": [
+    37.7255,
+    -84.2784
+   ],
+   "latitude": 37.7,
+   "bbox": [
+    -84.5255,
+    37.5157,
+    -84.0739,
+    37.9173
+   ],
+   "coastal": false,
+   "elevation_ft": 950,
+   "zone": "7a",
+   "jan_low_f": 25,
+   "jul_high_f": 87,
+   "record_low_f": -21,
+   "record_high_f": 108,
+   "precip_in": 48.1,
+   "snow_in": 1,
+   "last_frost": "Apr 15",
+   "first_frost": "Oct 22",
+   "growing_days": 190,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "WWF82A",
+     "freq": "162.525",
+     "same": "021151"
+    },
+    {
+     "call": "KIH41",
+     "freq": "162.400",
+     "same": "021151"
+    },
+    {
+     "call": "WWF82C",
+     "freq": "162.525",
+     "same": "021151"
+    },
+    {
+     "call": "WWF82D",
+     "freq": "162.525",
+     "same": "021151"
+    },
+    {
+     "call": "WWF82B",
+     "freq": "162.525",
+     "same": "021151"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Magoffin County": {
+   "fips": "21153",
+   "centroid": [
+    37.699,
+    -83.0697
+   ],
+   "latitude": 37.7,
+   "bbox": [
+    -83.2704,
+    37.4867,
+    -82.8789,
+    37.8947
+   ],
+   "coastal": false,
+   "elevation_ft": 920,
+   "zone": "7a",
+   "jan_low_f": 23,
+   "jul_high_f": 86,
+   "record_low_f": -21,
+   "record_high_f": 107,
+   "precip_in": 49.0,
+   "snow_in": 23,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 21",
+   "growing_days": 179,
+   "ecoregion": "Central Appalachians",
+   "ecoregion_code": "69",
+   "nws_office": "Jackson, KY",
+   "nws_cwa": "JKL",
+   "nwr": [
+    {
+     "call": "KIH40",
+     "freq": "162.475",
+     "same": "021153"
+    },
+    {
+     "call": "WWG28",
+     "freq": "162.525",
+     "same": "021153"
+    },
+    {
+     "call": "WWG69",
+     "freq": "162.400",
+     "same": "021153"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.4
+  },
+  "Marion County": {
+   "fips": "21155",
+   "centroid": [
+    37.5526,
+    -85.269
+   ],
+   "latitude": 37.6,
+   "bbox": [
+    -85.5206,
+    37.413,
+    -85.0304,
+    37.7305
+   ],
+   "coastal": false,
+   "elevation_ft": 810,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 88,
+   "record_low_f": -30,
+   "record_high_f": 105,
+   "precip_in": 52.4,
+   "snow_in": 14,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 20",
+   "growing_days": 180,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH44",
+     "freq": "162.550",
+     "same": "021155"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Marshall County": {
+   "fips": "21157",
+   "centroid": [
+    36.882,
+    -88.3328
+   ],
+   "latitude": 36.9,
+   "bbox": [
+    -88.4859,
+    36.746,
+    -88.1107,
+    37.0642
+   ],
+   "coastal": false,
+   "elevation_ft": 430,
+   "zone": "7a",
+   "jan_low_f": 23,
+   "jul_high_f": 90,
+   "record_low_f": -20,
+   "record_high_f": 110,
+   "precip_in": 55.8,
+   "snow_in": 1,
+   "last_frost": "Apr 9",
+   "first_frost": "Oct 19",
+   "growing_days": 192,
+   "ecoregion": "Mississippi Valley Loess Plains",
+   "ecoregion_code": "74",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "KIH46",
+     "freq": "162.475",
+     "same": "021157"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.6
+  },
+  "Martin County": {
+   "fips": "21159",
+   "centroid": [
+    37.7968,
+    -82.5066
+   ],
+   "latitude": 37.8,
+   "bbox": [
+    -82.6745,
+    37.6687,
+    -82.311,
+    37.9627
+   ],
+   "coastal": false,
+   "elevation_ft": 1070,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 86,
+   "record_low_f": -21,
+   "record_high_f": 102,
+   "precip_in": 47.7,
+   "snow_in": 17,
+   "last_frost": "Apr 20",
+   "first_frost": "Oct 24",
+   "growing_days": 186,
+   "ecoregion": "Central Appalachians",
+   "ecoregion_code": "69",
+   "nws_office": "Jackson, KY",
+   "nws_cwa": "JKL",
+   "nwr": [
+    {
+     "call": "KIH39",
+     "freq": "162.550",
+     "same": "021159"
+    },
+    {
+     "call": "WWG28",
+     "freq": "162.525",
+     "same": "021159"
+    },
+    {
+     "call": "WWG69",
+     "freq": "162.400",
+     "same": "021159"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.3
+  },
+  "Mason County": {
+   "fips": "21161",
+   "centroid": [
+    38.5941,
+    -83.8281
+   ],
+   "latitude": 38.6,
+   "bbox": [
+    -83.9916,
+    38.4564,
+    -83.6247,
+    38.7681
+   ],
+   "coastal": false,
+   "elevation_ft": 900,
+   "zone": "6b",
+   "jan_low_f": 23,
+   "jul_high_f": 86,
+   "record_low_f": -28,
+   "record_high_f": 103,
+   "precip_in": 49.8,
+   "snow_in": 9,
+   "last_frost": "Apr 12",
+   "first_frost": "Oct 30",
+   "growing_days": 200,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "KIH42",
+     "freq": "162.550",
+     "same": "021161"
+    },
+    {
+     "call": "KZZ49",
+     "freq": "162.425",
+     "same": "021161"
+    },
+    {
+     "call": "WXM69",
+     "freq": "162.525",
+     "same": "021161"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Meade County": {
+   "fips": "21163",
+   "centroid": [
+    37.9675,
+    -86.2009
+   ],
+   "latitude": 38.0,
+   "bbox": [
+    -86.4898,
+    37.7992,
+    -85.9763,
+    38.1987
+   ],
+   "coastal": false,
+   "elevation_ft": 590,
+   "zone": "6b",
+   "jan_low_f": 23,
+   "jul_high_f": 86,
+   "record_low_f": -31,
+   "record_high_f": 104,
+   "precip_in": 53.3,
+   "snow_in": 4,
+   "last_frost": "Apr 19",
+   "first_frost": "Oct 24",
+   "growing_days": 186,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KZZ64",
+     "freq": "162.450",
+     "same": "021163"
+    },
+    {
+     "call": "KIH43",
+     "freq": "162.475",
+     "same": "021163"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Menifee County": {
+   "fips": "21165",
+   "centroid": [
+    37.9355,
+    -83.5894
+   ],
+   "latitude": 37.9,
+   "bbox": [
+    -83.7766,
+    37.8189,
+    -83.4342,
+    38.058
+   ],
+   "coastal": false,
+   "elevation_ft": 990,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 86,
+   "record_low_f": -28,
+   "record_high_f": 106,
+   "precip_in": 50.8,
+   "snow_in": 12,
+   "last_frost": "Apr 17",
+   "first_frost": "Oct 25",
+   "growing_days": 189,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Jackson, KY",
+   "nws_cwa": "JKL",
+   "nwr": [
+    {
+     "call": "WWG63",
+     "freq": "162.475",
+     "same": "021165"
+    },
+    {
+     "call": "KIH41",
+     "freq": "162.400",
+     "same": "021165"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.4
+  },
+  "Mercer County": {
+   "fips": "21167",
+   "centroid": [
+    37.8121,
+    -84.8797
+   ],
+   "latitude": 37.8,
+   "bbox": [
+    -85.0307,
+    37.6791,
+    -84.6884,
+    37.9707
+   ],
+   "coastal": false,
+   "elevation_ft": 840,
+   "zone": "7a",
+   "jan_low_f": 27,
+   "jul_high_f": 86,
+   "record_low_f": -18,
+   "record_high_f": 107,
+   "precip_in": 45.9,
+   "snow_in": 10,
+   "last_frost": "Apr 7",
+   "first_frost": "Nov 1",
+   "growing_days": 206,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH41",
+     "freq": "162.400",
+     "same": "021167"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Metcalfe County": {
+   "fips": "21169",
+   "centroid": [
+    36.9924,
+    -85.6335
+   ],
+   "latitude": 37.0,
+   "bbox": [
+    -85.7758,
+    36.818,
+    -85.4416,
+    37.1823
+   ],
+   "coastal": false,
+   "elevation_ft": 720,
+   "zone": "7a",
+   "jan_low_f": 25,
+   "jul_high_f": 86,
+   "record_low_f": -26,
+   "record_high_f": 110,
+   "precip_in": 53.5,
+   "snow_in": 7,
+   "last_frost": "Apr 5",
+   "first_frost": "Nov 2",
+   "growing_days": 211,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH45",
+     "freq": "162.400",
+     "same": "021169"
+    },
+    {
+     "call": "WZ2547",
+     "freq": "162.450",
+     "same": "021169"
+    },
+    {
+     "call": "WNG570",
+     "freq": "162.500",
+     "same": "021169"
+    },
+    {
+     "call": "KIH44",
+     "freq": "162.550",
+     "same": "021169"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.4
+  },
+  "Monroe County": {
+   "fips": "21171",
+   "centroid": [
+    36.7141,
+    -85.7135
+   ],
+   "latitude": 36.7,
+   "bbox": [
+    -85.9774,
+    36.6149,
+    -85.437,
+    36.842
+   ],
+   "coastal": false,
+   "elevation_ft": 950,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 90,
+   "record_low_f": -26,
+   "record_high_f": 110,
+   "precip_in": 49.6,
+   "snow_in": 7,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 18",
+   "growing_days": 174,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH45",
+     "freq": "162.400",
+     "same": "021171"
+    },
+    {
+     "call": "WZ2547",
+     "freq": "162.450",
+     "same": "021171"
+    },
+    {
+     "call": "WNG631",
+     "freq": "162.525",
+     "same": "021171"
+    },
+    {
+     "call": "KIH44",
+     "freq": "162.550",
+     "same": "021171"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.4
+  },
+  "Montgomery County": {
+   "fips": "21173",
+   "centroid": [
+    38.0381,
+    -83.9124
+   ],
+   "latitude": 38.0,
+   "bbox": [
+    -84.0802,
+    37.9017,
+    -83.7565,
+    38.1921
+   ],
+   "coastal": false,
+   "elevation_ft": 970,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 86,
+   "record_low_f": -27,
+   "record_high_f": 110,
+   "precip_in": 48.5,
+   "snow_in": 9,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 18",
+   "growing_days": 175,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Jackson, KY",
+   "nws_cwa": "JKL",
+   "nwr": [
+    {
+     "call": "KIH41",
+     "freq": "162.400",
+     "same": "021173"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Morgan County": {
+   "fips": "21175",
+   "centroid": [
+    37.9229,
+    -83.2589
+   ],
+   "latitude": 37.9,
+   "bbox": [
+    -83.5058,
+    37.7127,
+    -82.9612,
+    38.1135
+   ],
+   "coastal": false,
+   "elevation_ft": 800,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 86,
+   "record_low_f": -30,
+   "record_high_f": 107,
+   "precip_in": 46.9,
+   "snow_in": 12,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 16",
+   "growing_days": 169,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Jackson, KY",
+   "nws_cwa": "JKL",
+   "nwr": [
+    {
+     "call": "KIH40",
+     "freq": "162.475",
+     "same": "021175"
+    },
+    {
+     "call": "WWG79",
+     "freq": "162.450",
+     "same": "021175"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.4
+  },
+  "Muhlenberg County": {
+   "fips": "21177",
+   "centroid": [
+    37.2138,
+    -87.1341
+   ],
+   "latitude": 37.2,
+   "bbox": [
+    -87.3883,
+    37.0406,
+    -86.8864,
+    37.4157
+   ],
+   "coastal": false,
+   "elevation_ft": 400,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 89,
+   "record_low_f": -16,
+   "record_high_f": 109,
+   "precip_in": 50.8,
+   "snow_in": 4,
+   "last_frost": "Apr 15",
+   "first_frost": "Oct 20",
+   "growing_days": 187,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "KIH45",
+     "freq": "162.400",
+     "same": "021177"
+    },
+    {
+     "call": "WXJ91",
+     "freq": "162.525",
+     "same": "021177"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.6
+  },
+  "Nelson County": {
+   "fips": "21179",
+   "centroid": [
+    37.8031,
+    -85.4659
+   ],
+   "latitude": 37.8,
+   "bbox": [
+    -85.7425,
+    37.5231,
+    -85.1513,
+    37.9906
+   ],
+   "coastal": false,
+   "elevation_ft": 640,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 87,
+   "record_low_f": -26,
+   "record_high_f": 105,
+   "precip_in": 51.6,
+   "snow_in": 12,
+   "last_frost": "Apr 13",
+   "first_frost": "Oct 25",
+   "growing_days": 195,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH43",
+     "freq": "162.475",
+     "same": "021179"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Nicholas County": {
+   "fips": "21181",
+   "centroid": [
+    38.338,
+    -84.0262
+   ],
+   "latitude": 38.3,
+   "bbox": [
+    -84.1934,
+    38.1921,
+    -83.8341,
+    38.4604
+   ],
+   "coastal": false,
+   "elevation_ft": 910,
+   "zone": "6b",
+   "jan_low_f": 23,
+   "jul_high_f": 86,
+   "record_low_f": -33,
+   "record_high_f": 106,
+   "precip_in": 49.8,
+   "snow_in": 9,
+   "last_frost": "Apr 12",
+   "first_frost": "Oct 30",
+   "growing_days": 200,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH41",
+     "freq": "162.400",
+     "same": "021181"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.4
+  },
+  "Ohio County": {
+   "fips": "21183",
+   "centroid": [
+    37.4779,
+    -86.8449
+   ],
+   "latitude": 37.5,
+   "bbox": [
+    -87.1377,
+    37.2125,
+    -86.5771,
+    37.7377
+   ],
+   "coastal": false,
+   "elevation_ft": 520,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 88,
+   "record_low_f": -25,
+   "record_high_f": 110,
+   "precip_in": 52.0,
+   "snow_in": 7,
+   "last_frost": "Apr 10",
+   "first_frost": "Oct 22",
+   "growing_days": 192,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH45",
+     "freq": "162.400",
+     "same": "021183"
+    },
+    {
+     "call": "KZZ61",
+     "freq": "162.475",
+     "same": "021183"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Oldham County": {
+   "fips": "21185",
+   "centroid": [
+    38.4001,
+    -85.4561
+   ],
+   "latitude": 38.4,
+   "bbox": [
+    -85.638,
+    38.2848,
+    -85.283,
+    38.5237
+   ],
+   "coastal": false,
+   "elevation_ft": 800,
+   "zone": "6b",
+   "jan_low_f": 23,
+   "jul_high_f": 88,
+   "record_low_f": -37,
+   "record_high_f": 112,
+   "precip_in": 52.9,
+   "snow_in": 15,
+   "last_frost": "Apr 12",
+   "first_frost": "Oct 25",
+   "growing_days": 193,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH43",
+     "freq": "162.475",
+     "same": "021185"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.4
+  },
+  "Owen County": {
+   "fips": "21187",
+   "centroid": [
+    38.4994,
+    -84.8416
+   ],
+   "latitude": 38.5,
+   "bbox": [
+    -85.076,
+    38.3387,
+    -84.5802,
+    38.7245
+   ],
+   "coastal": false,
+   "elevation_ft": 790,
+   "zone": "6b",
+   "jan_low_f": 25,
+   "jul_high_f": 87,
+   "record_low_f": -23,
+   "record_high_f": 110,
+   "precip_in": 45.9,
+   "snow_in": 16,
+   "last_frost": "Apr 11",
+   "first_frost": "Oct 29",
+   "growing_days": 199,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "KIH42",
+     "freq": "162.550",
+     "same": "021187"
+    },
+    {
+     "call": "KZZ48",
+     "freq": "162.450",
+     "same": "021187"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.4
+  },
+  "Owsley County": {
+   "fips": "21189",
+   "centroid": [
+    37.4236,
+    -83.6916
+   ],
+   "latitude": 37.4,
+   "bbox": [
+    -83.888,
+    37.2564,
+    -83.522,
+    37.541
+   ],
+   "coastal": false,
+   "elevation_ft": 940,
+   "zone": "6b",
+   "jan_low_f": 23,
+   "jul_high_f": 86,
+   "record_low_f": -27,
+   "record_high_f": 105,
+   "precip_in": 51.3,
+   "snow_in": 9,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 19",
+   "growing_days": 178,
+   "ecoregion": "Central Appalachians",
+   "ecoregion_code": "69",
+   "nws_office": "Jackson, KY",
+   "nws_cwa": "JKL",
+   "nwr": [
+    {
+     "call": "KIH40",
+     "freq": "162.475",
+     "same": "021189"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.4
+  },
+  "Pendleton County": {
+   "fips": "21191",
+   "centroid": [
+    38.6963,
+    -84.3519
+   ],
+   "latitude": 38.7,
+   "bbox": [
+    -84.5316,
+    38.5312,
+    -84.1955,
+    38.8734
+   ],
+   "coastal": false,
+   "elevation_ft": 710,
+   "zone": "6b",
+   "jan_low_f": 23,
+   "jul_high_f": 86,
+   "record_low_f": -22,
+   "record_high_f": 107,
+   "precip_in": 42.2,
+   "snow_in": 16,
+   "last_frost": "Apr 16",
+   "first_frost": "Oct 31",
+   "growing_days": 196,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "KIH42",
+     "freq": "162.550",
+     "same": "021191"
+    },
+    {
+     "call": "KZZ48",
+     "freq": "162.450",
+     "same": "021191"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.4
+  },
+  "Perry County": {
+   "fips": "21193",
+   "centroid": [
+    37.2413,
+    -83.2178
+   ],
+   "latitude": 37.2,
+   "bbox": [
+    -83.5536,
+    36.9922,
+    -82.9989,
+    37.4435
+   ],
+   "coastal": false,
+   "elevation_ft": 1200,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 86,
+   "record_low_f": -18,
+   "record_high_f": 106,
+   "precip_in": 49.9,
+   "snow_in": 17,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 28",
+   "growing_days": 191,
+   "ecoregion": "Central Appalachians",
+   "ecoregion_code": "69",
+   "nws_office": "Jackson, KY",
+   "nws_cwa": "JKL",
+   "nwr": [
+    {
+     "call": "KIH40",
+     "freq": "162.475",
+     "same": "021193"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.4
+  },
+  "Pike County": {
+   "fips": "21195",
+   "centroid": [
+    37.486,
+    -82.4109
+   ],
+   "latitude": 37.5,
+   "bbox": [
+    -82.7329,
+    37.1961,
+    -81.9654,
+    37.745
+   ],
+   "coastal": false,
+   "elevation_ft": 1810,
+   "zone": "7a",
+   "jan_low_f": 23,
+   "jul_high_f": 82,
+   "record_low_f": -23,
+   "record_high_f": 97,
+   "precip_in": 48.5,
+   "snow_in": 1,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 23",
+   "growing_days": 182,
+   "ecoregion": "Central Appalachians",
+   "ecoregion_code": "69",
+   "nws_office": "Jackson, KY",
+   "nws_cwa": "JKL",
+   "nwr": [
+    {
+     "call": "KIH40",
+     "freq": "162.475",
+     "same": "021195"
+    },
+    {
+     "call": "WWG28",
+     "freq": "162.525",
+     "same": "021195"
+    },
+    {
+     "call": "WWG81",
+     "freq": "162.500",
+     "same": "021195"
+    },
+    {
+     "call": "WWG69",
+     "freq": "162.400",
+     "same": "021195"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.3
+  },
+  "Powell County": {
+   "fips": "21197",
+   "centroid": [
+    37.8096,
+    -83.8312
+   ],
+   "latitude": 37.8,
+   "bbox": [
+    -84.0271,
+    37.7167,
+    -83.6314,
+    37.9331
+   ],
+   "coastal": false,
+   "elevation_ft": 890,
+   "zone": "6b",
+   "jan_low_f": 23,
+   "jul_high_f": 84,
+   "record_low_f": -27,
+   "record_high_f": 110,
+   "precip_in": 53.2,
+   "snow_in": 12,
+   "last_frost": "Apr 19",
+   "first_frost": "Oct 20",
+   "growing_days": 184,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Jackson, KY",
+   "nws_cwa": "JKL",
+   "nwr": [
+    {
+     "call": "KIH41",
+     "freq": "162.400",
+     "same": "021197"
+    },
+    {
+     "call": "WWG61",
+     "freq": "162.550",
+     "same": "021197"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.4
+  },
+  "Pulaski County": {
+   "fips": "21199",
+   "centroid": [
+    37.1074,
+    -84.577
+   ],
+   "latitude": 37.1,
+   "bbox": [
+    -84.907,
+    36.8682,
+    -84.279,
+    37.3555
+   ],
+   "coastal": false,
+   "elevation_ft": 1060,
+   "zone": "7a",
+   "jan_low_f": 29,
+   "jul_high_f": 86,
+   "record_low_f": -32,
+   "record_high_f": 104,
+   "precip_in": 53.3,
+   "snow_in": 5,
+   "last_frost": "Apr 5",
+   "first_frost": "Oct 30",
+   "growing_days": 206,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Jackson, KY",
+   "nws_cwa": "JKL",
+   "nwr": [
+    {
+     "call": "KIH44",
+     "freq": "162.550",
+     "same": "021199"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Robertson County": {
+   "fips": "21201",
+   "centroid": [
+    38.5135,
+    -84.0642
+   ],
+   "latitude": 38.5,
+   "bbox": [
+    -84.1838,
+    38.4227,
+    -83.9303,
+    38.6083
+   ],
+   "coastal": false,
+   "elevation_ft": 860,
+   "zone": "6b",
+   "jan_low_f": 23,
+   "jul_high_f": 87,
+   "record_low_f": -33,
+   "record_high_f": 106,
+   "precip_in": 47.7,
+   "snow_in": 9,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 23",
+   "growing_days": 188,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "KIH42",
+     "freq": "162.550",
+     "same": "021201"
+    },
+    {
+     "call": "KIH41",
+     "freq": "162.400",
+     "same": "021201"
+    },
+    {
+     "call": "KZZ49",
+     "freq": "162.425",
+     "same": "021201"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.4
+  },
+  "Rockcastle County": {
+   "fips": "21203",
+   "centroid": [
+    37.361,
+    -84.3144
+   ],
+   "latitude": 37.4,
+   "bbox": [
+    -84.5029,
+    37.1519,
+    -84.1296,
+    37.5392
+   ],
+   "coastal": false,
+   "elevation_ft": 1240,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 84,
+   "record_low_f": -24,
+   "record_high_f": 102,
+   "precip_in": 51.4,
+   "snow_in": 11,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 24",
+   "growing_days": 189,
+   "ecoregion": "Southwestern Appalachians",
+   "ecoregion_code": "68",
+   "nws_office": "Jackson, KY",
+   "nws_cwa": "JKL",
+   "nwr": [
+    {
+     "call": "WWG70",
+     "freq": "162.425",
+     "same": "021203"
+    },
+    {
+     "call": "KIH44",
+     "freq": "162.550",
+     "same": "021203"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Rowan County": {
+   "fips": "21205",
+   "centroid": [
+    38.2043,
+    -83.4281
+   ],
+   "latitude": 38.2,
+   "bbox": [
+    -83.6355,
+    38.0172,
+    -83.1994,
+    38.3959
+   ],
+   "coastal": false,
+   "elevation_ft": 1050,
+   "zone": "6b",
+   "jan_low_f": 24,
+   "jul_high_f": 86,
+   "record_low_f": -28,
+   "record_high_f": 106,
+   "precip_in": 50.8,
+   "snow_in": 12,
+   "last_frost": "Apr 17",
+   "first_frost": "Oct 25",
+   "growing_days": 189,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Jackson, KY",
+   "nws_cwa": "JKL",
+   "nwr": [
+    {
+     "call": "KIH41",
+     "freq": "162.400",
+     "same": "021205"
+    },
+    {
+     "call": "WWG71",
+     "freq": "162.400",
+     "same": "021205"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Russell County": {
+   "fips": "21207",
+   "centroid": [
+    36.9906,
+    -85.055
+   ],
+   "latitude": 37.0,
+   "bbox": [
+    -85.2752,
+    36.8277,
+    -84.8357,
+    37.186
+   ],
+   "coastal": false,
+   "elevation_ft": 970,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 86,
+   "record_low_f": -22,
+   "record_high_f": 103,
+   "precip_in": 57.0,
+   "snow_in": 5,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 24",
+   "growing_days": 189,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH45",
+     "freq": "162.400",
+     "same": "021207"
+    },
+    {
+     "call": "KIH44",
+     "freq": "162.550",
+     "same": "021207"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.4
+  },
+  "Scott County": {
+   "fips": "21209",
+   "centroid": [
+    38.2857,
+    -84.5783
+   ],
+   "latitude": 38.3,
+   "bbox": [
+    -84.7404,
+    38.1115,
+    -84.4026,
+    38.4927
+   ],
+   "coastal": false,
+   "elevation_ft": 920,
+   "zone": "6b",
+   "jan_low_f": 25,
+   "jul_high_f": 84,
+   "record_low_f": -21,
+   "record_high_f": 108,
+   "precip_in": 48.1,
+   "snow_in": 14,
+   "last_frost": "Apr 12",
+   "first_frost": "Oct 28",
+   "growing_days": 198,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH41",
+     "freq": "162.400",
+     "same": "021209"
+    },
+    {
+     "call": "KZZ48",
+     "freq": "162.450",
+     "same": "021209"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.4
+  },
+  "Shelby County": {
+   "fips": "21211",
+   "centroid": [
+    38.239,
+    -85.2282
+   ],
+   "latitude": 38.2,
+   "bbox": [
+    -85.465,
+    38.0367,
+    -84.9569,
+    38.358
+   ],
+   "coastal": false,
+   "elevation_ft": 780,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 88,
+   "record_low_f": -37,
+   "record_high_f": 112,
+   "precip_in": 49.8,
+   "snow_in": 15,
+   "last_frost": "May 1",
+   "first_frost": "Oct 10",
+   "growing_days": 161,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH43",
+     "freq": "162.475",
+     "same": "021211"
+    },
+    {
+     "call": "KZZ48",
+     "freq": "162.450",
+     "same": "021211"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.4
+  },
+  "Simpson County": {
+   "fips": "21213",
+   "centroid": [
+    36.7409,
+    -86.5818
+   ],
+   "latitude": 36.7,
+   "bbox": [
+    -86.7633,
+    36.6336,
+    -86.4009,
+    36.8831
+   ],
+   "coastal": false,
+   "elevation_ft": 680,
+   "zone": "7a",
+   "jan_low_f": 27,
+   "jul_high_f": 89,
+   "record_low_f": -19,
+   "record_high_f": 106,
+   "precip_in": 54.3,
+   "snow_in": 2,
+   "last_frost": "Apr 5",
+   "first_frost": "Nov 1",
+   "growing_days": 210,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH45",
+     "freq": "162.400",
+     "same": "021213"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.5
+  },
+  "Spencer County": {
+   "fips": "21215",
+   "centroid": [
+    38.0253,
+    -85.3173
+   ],
+   "latitude": 38.0,
+   "bbox": [
+    -85.5137,
+    37.9398,
+    -85.1019,
+    38.1473
+   ],
+   "coastal": false,
+   "elevation_ft": 650,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 90,
+   "record_low_f": -37,
+   "record_high_f": 112,
+   "precip_in": 52.5,
+   "snow_in": 12,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 16",
+   "growing_days": 176,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH43",
+     "freq": "162.475",
+     "same": "021215"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.4
+  },
+  "Taylor County": {
+   "fips": "21217",
+   "centroid": [
+    37.3662,
+    -85.3281
+   ],
+   "latitude": 37.4,
+   "bbox": [
+    -85.5867,
+    37.1929,
+    -85.0732,
+    37.4831
+   ],
+   "coastal": false,
+   "elevation_ft": 810,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 88,
+   "record_low_f": -30,
+   "record_high_f": 105,
+   "precip_in": 52.4,
+   "snow_in": 14,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 20",
+   "growing_days": 180,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KZZ63",
+     "freq": "162.525",
+     "same": "021217"
+    },
+    {
+     "call": "KIH44",
+     "freq": "162.550",
+     "same": "021217"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Todd County": {
+   "fips": "21219",
+   "centroid": [
+    36.8403,
+    -87.1836
+   ],
+   "latitude": 36.8,
+   "bbox": [
+    -87.3359,
+    36.6415,
+    -87.0502,
+    37.0754
+   ],
+   "coastal": false,
+   "elevation_ft": 740,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 88,
+   "record_low_f": -22,
+   "record_high_f": 108,
+   "precip_in": 52.1,
+   "snow_in": 5,
+   "last_frost": "Apr 3",
+   "first_frost": "Oct 29",
+   "growing_days": 207,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "KIH45",
+     "freq": "162.400",
+     "same": "021219"
+    },
+    {
+     "call": "WWH37",
+     "freq": "162.500",
+     "same": "021219"
+    },
+    {
+     "call": "KXI26",
+     "freq": "162.450",
+     "same": "021219"
+    },
+    {
+     "call": "WXJ91",
+     "freq": "162.525",
+     "same": "021219"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.6
+  },
+  "Trigg County": {
+   "fips": "21221",
+   "centroid": [
+    36.8077,
+    -87.8587
+   ],
+   "latitude": 36.8,
+   "bbox": [
+    -88.1575,
+    36.6335,
+    -87.6598,
+    37.002
+   ],
+   "coastal": false,
+   "elevation_ft": 580,
+   "zone": "7a",
+   "jan_low_f": 27,
+   "jul_high_f": 90,
+   "record_low_f": -22,
+   "record_high_f": 111,
+   "precip_in": 56.3,
+   "snow_in": 4,
+   "last_frost": "Mar 30",
+   "first_frost": "Nov 4",
+   "growing_days": 221,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "KXI26",
+     "freq": "162.450",
+     "same": "021221"
+    },
+    {
+     "call": "WXJ91",
+     "freq": "162.525",
+     "same": "021221"
+    },
+    {
+     "call": "KIH46",
+     "freq": "162.475",
+     "same": "021221"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.6
+  },
+  "Trimble County": {
+   "fips": "21223",
+   "centroid": [
+    38.62,
+    -85.3512
+   ],
+   "latitude": 38.6,
+   "bbox": [
+    -85.4569,
+    38.4934,
+    -85.171,
+    38.737
+   ],
+   "coastal": false,
+   "elevation_ft": 720,
+   "zone": "6b",
+   "jan_low_f": 24,
+   "jul_high_f": 88,
+   "record_low_f": -20,
+   "record_high_f": 110,
+   "precip_in": 51.0,
+   "snow_in": 12,
+   "last_frost": "Apr 11",
+   "first_frost": "Oct 31",
+   "growing_days": 201,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH43",
+     "freq": "162.475",
+     "same": "021223"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.4
+  },
+  "Union County": {
+   "fips": "21225",
+   "centroid": [
+    37.658,
+    -87.9517
+   ],
+   "latitude": 37.7,
+   "bbox": [
+    -88.1602,
+    37.47,
+    -87.7346,
+    37.9014
+   ],
+   "coastal": false,
+   "elevation_ft": 420,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 88,
+   "record_low_f": -20,
+   "record_high_f": 113,
+   "precip_in": 48.2,
+   "snow_in": 8,
+   "last_frost": "Apr 5",
+   "first_frost": "Oct 31",
+   "growing_days": 209,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "KIG76",
+     "freq": "162.550",
+     "same": "021225"
+    },
+    {
+     "call": "WXJ91",
+     "freq": "162.525",
+     "same": "021225"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.6
+  },
+  "Warren County": {
+   "fips": "21227",
+   "centroid": [
+    36.9956,
+    -86.4236
+   ],
+   "latitude": 37.0,
+   "bbox": [
+    -86.6746,
+    36.7757,
+    -86.1141,
+    37.1903
+   ],
+   "coastal": false,
+   "elevation_ft": 470,
+   "zone": "7a",
+   "jan_low_f": 28,
+   "jul_high_f": 90,
+   "record_low_f": -21,
+   "record_high_f": 113,
+   "precip_in": 50.1,
+   "snow_in": 8,
+   "last_frost": "Apr 5",
+   "first_frost": "Oct 31",
+   "growing_days": 208,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH45",
+     "freq": "162.400",
+     "same": "021227"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.5
+  },
+  "Washington County": {
+   "fips": "21229",
+   "centroid": [
+    37.7542,
+    -85.1754
+   ],
+   "latitude": 37.8,
+   "bbox": [
+    -85.3984,
+    37.6309,
+    -85.0007,
+    37.9164
+   ],
+   "coastal": false,
+   "elevation_ft": 790,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 87,
+   "record_low_f": -26,
+   "record_high_f": 105,
+   "precip_in": 51.6,
+   "snow_in": 12,
+   "last_frost": "Apr 13",
+   "first_frost": "Oct 25",
+   "growing_days": 195,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH43",
+     "freq": "162.475",
+     "same": "021229"
+    },
+    {
+     "call": "KIH44",
+     "freq": "162.550",
+     "same": "021229"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Wayne County": {
+   "fips": "21231",
+   "centroid": [
+    36.8008,
+    -84.8266
+   ],
+   "latitude": 36.8,
+   "bbox": [
+    -85.0643,
+    36.6033,
+    -84.5726,
+    36.9973
+   ],
+   "coastal": false,
+   "elevation_ft": 980,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 86,
+   "record_low_f": -23,
+   "record_high_f": 105,
+   "precip_in": 52.5,
+   "snow_in": 14,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 26",
+   "growing_days": 190,
+   "ecoregion": "Southwestern Appalachians",
+   "ecoregion_code": "68",
+   "nws_office": "Jackson, KY",
+   "nws_cwa": "JKL",
+   "nwr": [
+    {
+     "call": "WWG80",
+     "freq": "162.425",
+     "same": "021231"
+    },
+    {
+     "call": "KIH44",
+     "freq": "162.550",
+     "same": "021231"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.4
+  },
+  "Webster County": {
+   "fips": "21233",
+   "centroid": [
+    37.5204,
+    -87.6852
+   ],
+   "latitude": 37.5,
+   "bbox": [
+    -87.9439,
+    37.3514,
+    -87.3748,
+    37.6475
+   ],
+   "coastal": false,
+   "elevation_ft": 490,
+   "zone": "7a",
+   "jan_low_f": 25,
+   "jul_high_f": 90,
+   "record_low_f": -16,
+   "record_high_f": 107,
+   "precip_in": 48.5,
+   "snow_in": 10,
+   "last_frost": "Apr 7",
+   "first_frost": "Oct 28",
+   "growing_days": 203,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "WXJ91",
+     "freq": "162.525",
+     "same": "021233"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.6
+  },
+  "Whitley County": {
+   "fips": "21235",
+   "centroid": [
+    36.758,
+    -84.1446
+   ],
+   "latitude": 36.8,
+   "bbox": [
+    -84.3554,
+    36.5881,
+    -83.8785,
+    36.9723
+   ],
+   "coastal": false,
+   "elevation_ft": 1250,
+   "zone": "7a",
+   "jan_low_f": 25,
+   "jul_high_f": 87,
+   "record_low_f": -21,
+   "record_high_f": 108,
+   "precip_in": 52.0,
+   "snow_in": 11,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 22",
+   "growing_days": 182,
+   "ecoregion": "Central Appalachians",
+   "ecoregion_code": "69",
+   "nws_office": "Jackson, KY",
+   "nws_cwa": "JKL",
+   "nwr": [
+    {
+     "call": "KIH44",
+     "freq": "162.550",
+     "same": "021235"
+    },
+    {
+     "call": "WWG78",
+     "freq": "162.500",
+     "same": "021235"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.4
+  },
+  "Wolfe County": {
+   "fips": "21237",
+   "centroid": [
+    37.7439,
+    -83.4951
+   ],
+   "latitude": 37.7,
+   "bbox": [
+    -83.7074,
+    37.6196,
+    -83.2435,
+    37.8615
+   ],
+   "coastal": false,
+   "elevation_ft": 1060,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 84,
+   "record_low_f": -18,
+   "record_high_f": 104,
+   "precip_in": 51.0,
+   "snow_in": 16,
+   "last_frost": "Apr 12",
+   "first_frost": "Oct 25",
+   "growing_days": 192,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Jackson, KY",
+   "nws_cwa": "JKL",
+   "nwr": [
+    {
+     "call": "KIH40",
+     "freq": "162.475",
+     "same": "021237"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.4
+  },
+  "Woodford County": {
+   "fips": "21239",
+   "centroid": [
+    38.0431,
+    -84.7489
+   ],
+   "latitude": 38.0,
+   "bbox": [
+    -84.8659,
+    37.8473,
+    -84.6261,
+    38.1942
+   ],
+   "coastal": false,
+   "elevation_ft": 890,
+   "zone": "6b",
+   "jan_low_f": 25,
+   "jul_high_f": 84,
+   "record_low_f": -21,
+   "record_high_f": 108,
+   "precip_in": 48.1,
+   "snow_in": 10,
+   "last_frost": "Apr 12",
+   "first_frost": "Oct 28",
+   "growing_days": 198,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH41",
+     "freq": "162.400",
+     "same": "021239"
+    }
+   ],
+   "state_em": "Kentucky Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.4
+  }
+ }
+}

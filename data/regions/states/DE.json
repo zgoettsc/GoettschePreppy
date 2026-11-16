@@ -1,0 +1,219 @@
+{
+ "state": "DE",
+ "state_name": "Delaware",
+ "state_fips": "10",
+ "state_em": "Delaware Emergency Management Agency",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "PHI": "NWS Mount Holly, NJ"
+ },
+ "ecoregions": [
+  "Middle Atlantic Coastal Plain",
+  "Northern Piedmont",
+  "Southeastern Plains"
+ ],
+ "counties": {
+  "Kent County": {
+   "fips": "10001",
+   "centroid": [
+    39.0971,
+    -75.503
+   ],
+   "latitude": 39.1,
+   "bbox": [
+    -75.76,
+    38.8303,
+    -75.3025,
+    39.3659
+   ],
+   "coastal": true,
+   "elevation_ft": 20,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 87,
+   "record_low_f": -11,
+   "record_high_f": 104,
+   "precip_in": 47.6,
+   "snow_in": 13,
+   "last_frost": "Apr 4",
+   "first_frost": "Nov 4",
+   "growing_days": 214,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Mount Holly, NJ",
+   "nws_cwa": "PHI",
+   "nwr": [
+    {
+     "call": "WXJ94",
+     "freq": "162.550",
+     "same": "010001"
+    },
+    {
+     "call": "WXK97",
+     "freq": "162.500",
+     "same": "010001"
+    }
+   ],
+   "state_em": "Delaware Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.3
+  },
+  "New Castle County": {
+   "fips": "10003",
+   "centroid": [
+    39.5759,
+    -75.6441
+   ],
+   "latitude": 39.6,
+   "bbox": [
+    -75.7887,
+    39.2904,
+    -75.4052,
+    39.839
+   ],
+   "coastal": true,
+   "elevation_ft": 40,
+   "zone": "7b",
+   "jan_low_f": 26,
+   "jul_high_f": 87,
+   "record_low_f": -14,
+   "record_high_f": 103,
+   "precip_in": 45.3,
+   "snow_in": 20,
+   "last_frost": "Apr 7",
+   "first_frost": "Nov 1",
+   "growing_days": 209,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Mount Holly, NJ",
+   "nws_cwa": "PHI",
+   "nwr": [
+    {
+     "call": "WNG704",
+     "freq": "162.425",
+     "same": "010003"
+    },
+    {
+     "call": "KIH28",
+     "freq": "162.475",
+     "same": "010003"
+    },
+    {
+     "call": "WXK97",
+     "freq": "162.500",
+     "same": "010003"
+    }
+   ],
+   "state_em": "Delaware Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.3
+  },
+  "Sussex County": {
+   "fips": "10005",
+   "centroid": [
+    38.6732,
+    -75.337
+   ],
+   "latitude": 38.7,
+   "bbox": [
+    -75.7227,
+    38.4497,
+    -75.0484,
+    38.9563
+   ],
+   "coastal": true,
+   "elevation_ft": 40,
+   "zone": "7b",
+   "jan_low_f": 29,
+   "jul_high_f": 88,
+   "record_low_f": -5,
+   "record_high_f": 104,
+   "precip_in": 43.9,
+   "snow_in": 10,
+   "last_frost": "Apr 4",
+   "first_frost": "Nov 6",
+   "growing_days": 217,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Mount Holly, NJ",
+   "nws_cwa": "PHI",
+   "nwr": [
+    {
+     "call": "WXJ94",
+     "freq": "162.550",
+     "same": "010005"
+    },
+    {
+     "call": "KEC92",
+     "freq": "162.475",
+     "same": "010005"
+    },
+    {
+     "call": "WXK97",
+     "freq": "162.500",
+     "same": "010005"
+    }
+   ],
+   "state_em": "Delaware Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.5
+  }
+ }
+}

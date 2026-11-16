@@ -1,0 +1,3181 @@
+{
+ "state": "ND",
+ "state_name": "North Dakota",
+ "state_fips": "38",
+ "state_em": "North Dakota Department of Emergency Services",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "BIS": "NWS Bismarck, ND",
+  "FGF": "NWS Grand Forks, ND"
+ },
+ "ecoregions": [
+  "Northwestern Glaciated Plains",
+  "Northwestern Great Plains",
+  "Northern Glaciated Plains",
+  "Lake Agassiz Plain"
+ ],
+ "counties": {
+  "Adams County": {
+   "fips": "38001",
+   "centroid": [
+    46.0968,
+    -102.5332
+   ],
+   "latitude": 46.1,
+   "bbox": [
+    -102.996,
+    45.9445,
+    -101.9974,
+    46.2833
+   ],
+   "coastal": false,
+   "elevation_ft": 2670,
+   "zone": "4b",
+   "jan_low_f": 5,
+   "jul_high_f": 84,
+   "record_low_f": -45,
+   "record_high_f": 109,
+   "precip_in": 14.3,
+   "snow_in": 33,
+   "last_frost": "May 24",
+   "first_frost": "Sep 18",
+   "growing_days": 115,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Bismarck, ND",
+   "nws_cwa": "BIS",
+   "nwr": [
+    {
+     "call": "WNG658",
+     "freq": "162.525",
+     "same": "038001"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.8
+  },
+  "Barnes County": {
+   "fips": "38003",
+   "centroid": [
+    46.9425,
+    -98.0702
+   ],
+   "latitude": 46.9,
+   "bbox": [
+    -98.4675,
+    46.63,
+    -97.6816,
+    47.2412
+   ],
+   "coastal": false,
+   "elevation_ft": 1440,
+   "zone": "4a",
+   "jan_low_f": -2,
+   "jul_high_f": 81,
+   "record_low_f": -44,
+   "record_high_f": 116,
+   "precip_in": 21.5,
+   "snow_in": 47,
+   "last_frost": "May 13",
+   "first_frost": "Sep 26",
+   "growing_days": 136,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Grand Forks, ND",
+   "nws_cwa": "FGF",
+   "nwr": [
+    {
+     "call": "WXK42",
+     "freq": "162.475",
+     "same": "038003"
+    },
+    {
+     "call": "WNG656",
+     "freq": "162.525",
+     "same": "038003"
+    },
+    {
+     "call": "WXL81",
+     "freq": "162.550",
+     "same": "038003"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.6
+  },
+  "Benson County": {
+   "fips": "38005",
+   "centroid": [
+    48.0717,
+    -99.3512
+   ],
+   "latitude": 48.1,
+   "bbox": [
+    -99.8483,
+    47.8462,
+    -98.5254,
+    48.3713
+   ],
+   "coastal": false,
+   "elevation_ft": 1600,
+   "zone": "4a",
+   "jan_low_f": -2,
+   "jul_high_f": 79,
+   "record_low_f": -55,
+   "record_high_f": 104,
+   "precip_in": 19.7,
+   "snow_in": 34,
+   "last_frost": "May 12",
+   "first_frost": "Sep 29",
+   "growing_days": 138,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Grand Forks, ND",
+   "nws_cwa": "FGF",
+   "nwr": [
+    {
+     "call": "KWN46",
+     "freq": "162.525",
+     "same": "038005"
+    },
+    {
+     "call": "WWG25",
+     "freq": "162.425",
+     "same": "038005"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.4
+  },
+  "Billings County": {
+   "fips": "38007",
+   "centroid": [
+    47.007,
+    -103.364
+   ],
+   "latitude": 47.0,
+   "bbox": [
+    -103.6676,
+    46.6296,
+    -103.0324,
+    47.3293
+   ],
+   "coastal": false,
+   "elevation_ft": 2480,
+   "zone": "4a",
+   "jan_low_f": 9,
+   "jul_high_f": 82,
+   "record_low_f": -49,
+   "record_high_f": 110,
+   "precip_in": 17.4,
+   "snow_in": 30,
+   "last_frost": "May 9",
+   "first_frost": "Sep 30",
+   "growing_days": 142,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Bismarck, ND",
+   "nws_cwa": "BIS",
+   "nwr": [
+    {
+     "call": "WXL80",
+     "freq": "162.400",
+     "same": "038007"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.7
+  },
+  "Bottineau County": {
+   "fips": "38009",
+   "centroid": [
+    48.7944,
+    -100.8313
+   ],
+   "latitude": 48.8,
+   "bbox": [
+    -101.497,
+    48.544,
+    -100.1456,
+    48.9996
+   ],
+   "coastal": false,
+   "elevation_ft": 1470,
+   "zone": "3b",
+   "jan_low_f": -2,
+   "jul_high_f": 82,
+   "record_low_f": -53,
+   "record_high_f": 111,
+   "precip_in": 18.8,
+   "snow_in": 49,
+   "last_frost": "May 14",
+   "first_frost": "Sep 25",
+   "growing_days": 133,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Bismarck, ND",
+   "nws_cwa": "BIS",
+   "nwr": [
+    {
+     "call": "WXL83",
+     "freq": "162.400",
+     "same": "038009"
+    },
+    {
+     "call": "KWN42",
+     "freq": "162.475",
+     "same": "038009"
+    },
+    {
+     "call": "KWN45",
+     "freq": "162.450",
+     "same": "038009"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.5
+  },
+  "Bowman County": {
+   "fips": "38011",
+   "centroid": [
+    46.1101,
+    -103.5059
+   ],
+   "latitude": 46.1,
+   "bbox": [
+    -104.0467,
+    45.9448,
+    -102.9951,
+    46.2807
+   ],
+   "coastal": false,
+   "elevation_ft": 3000,
+   "zone": "4b",
+   "jan_low_f": 6,
+   "jul_high_f": 83,
+   "record_low_f": -43,
+   "record_high_f": 112,
+   "precip_in": 17.1,
+   "snow_in": 48,
+   "last_frost": "May 16",
+   "first_frost": "Sep 25",
+   "growing_days": 132,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Bismarck, ND",
+   "nws_cwa": "BIS",
+   "nwr": [
+    {
+     "call": "WXK57",
+     "freq": "162.550",
+     "same": "038011"
+    },
+    {
+     "call": "WNG658",
+     "freq": "162.525",
+     "same": "038011"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.8
+  },
+  "Burke County": {
+   "fips": "38013",
+   "centroid": [
+    48.7865,
+    -102.5201
+   ],
+   "latitude": 48.8,
+   "bbox": [
+    -102.9401,
+    48.546,
+    -102.0212,
+    48.9993
+   ],
+   "coastal": false,
+   "elevation_ft": 2040,
+   "zone": "4a",
+   "jan_low_f": -3,
+   "jul_high_f": 80,
+   "record_low_f": -55,
+   "record_high_f": 108,
+   "precip_in": 15.7,
+   "snow_in": 47,
+   "last_frost": "May 18",
+   "first_frost": "Sep 17",
+   "growing_days": 119,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Bismarck, ND",
+   "nws_cwa": "BIS",
+   "nwr": [
+    {
+     "call": "WXL83",
+     "freq": "162.400",
+     "same": "038013"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.6
+  },
+  "Burleigh County": {
+   "fips": "38015",
+   "centroid": [
+    46.9788,
+    -100.4695
+   ],
+   "latitude": 47.0,
+   "bbox": [
+    -100.965,
+    46.6334,
+    -100.075,
+    47.3275
+   ],
+   "coastal": false,
+   "elevation_ft": 1820,
+   "zone": "4a",
+   "jan_low_f": 4,
+   "jul_high_f": 82,
+   "record_low_f": -45,
+   "record_high_f": 114,
+   "precip_in": 20.4,
+   "snow_in": 50,
+   "last_frost": "May 10",
+   "first_frost": "Sep 30",
+   "growing_days": 142,
+   "ecoregion": "Northwestern Glaciated Plains",
+   "ecoregion_code": "42",
+   "nws_office": "Bismarck, ND",
+   "nws_cwa": "BIS",
+   "nwr": [
+    {
+     "call": "WXL78",
+     "freq": "162.475",
+     "same": "038015"
+    },
+    {
+     "call": "WNG581",
+     "freq": "162.400",
+     "same": "038015"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.7
+  },
+  "Cass County": {
+   "fips": "38017",
+   "centroid": [
+    46.927,
+    -97.2524
+   ],
+   "latitude": 46.9,
+   "bbox": [
+    -97.7063,
+    46.6292,
+    -96.7533,
+    47.24
+   ],
+   "coastal": false,
+   "elevation_ft": 950,
+   "zone": "4a",
+   "jan_low_f": -1,
+   "jul_high_f": 81,
+   "record_low_f": -39,
+   "record_high_f": 107,
+   "precip_in": 24.2,
+   "snow_in": 37,
+   "last_frost": "May 9",
+   "first_frost": "Oct 1",
+   "growing_days": 143,
+   "ecoregion": "Lake Agassiz Plain",
+   "ecoregion_code": "48",
+   "nws_office": "Grand Forks, ND",
+   "nws_cwa": "FGF",
+   "nwr": [
+    {
+     "call": "WXK42",
+     "freq": "162.475",
+     "same": "038017"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.4
+  },
+  "Cavalier County": {
+   "fips": "38019",
+   "centroid": [
+    48.7684,
+    -98.4638
+   ],
+   "latitude": 48.8,
+   "bbox": [
+    -99.0012,
+    48.5431,
+    -97.9271,
+    49.0
+   ],
+   "coastal": false,
+   "elevation_ft": 1590,
+   "zone": "3b",
+   "jan_low_f": -5,
+   "jul_high_f": 77,
+   "record_low_f": -51,
+   "record_high_f": 112,
+   "precip_in": 20.8,
+   "snow_in": 47,
+   "last_frost": "May 17",
+   "first_frost": "Sep 26",
+   "growing_days": 132,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Grand Forks, ND",
+   "nws_cwa": "FGF",
+   "nwr": [
+    {
+     "call": "KWN43",
+     "freq": "162.500",
+     "same": "038019"
+    },
+    {
+     "call": "WXM38",
+     "freq": "162.400",
+     "same": "038019"
+    },
+    {
+     "call": "WWG25",
+     "freq": "162.425",
+     "same": "038019"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.4
+  },
+  "Dickey County": {
+   "fips": "38021",
+   "centroid": [
+    46.1078,
+    -98.4965
+   ],
+   "latitude": 46.1,
+   "bbox": [
+    -99.0056,
+    45.9359,
+    -98.0061,
+    46.2832
+   ],
+   "coastal": false,
+   "elevation_ft": 1460,
+   "zone": "4b",
+   "jan_low_f": 2,
+   "jul_high_f": 82,
+   "record_low_f": -45,
+   "record_high_f": 113,
+   "precip_in": 24.2,
+   "snow_in": 37,
+   "last_frost": "May 9",
+   "first_frost": "Sep 28",
+   "growing_days": 141,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Bismarck, ND",
+   "nws_cwa": "BIS",
+   "nwr": [
+    {
+     "call": "WXM25",
+     "freq": "162.475",
+     "same": "038021"
+    },
+    {
+     "call": "WXL81",
+     "freq": "162.550",
+     "same": "038021"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.6
+  },
+  "Divide County": {
+   "fips": "38023",
+   "centroid": [
+    48.8148,
+    -103.5093
+   ],
+   "latitude": 48.8,
+   "bbox": [
+    -104.0489,
+    48.6332,
+    -102.8856,
+    48.9997
+   ],
+   "coastal": false,
+   "elevation_ft": 2220,
+   "zone": "3b",
+   "jan_low_f": 0,
+   "jul_high_f": 81,
+   "record_low_f": -47,
+   "record_high_f": 111,
+   "precip_in": 16.1,
+   "snow_in": 41,
+   "last_frost": "May 17",
+   "first_frost": "Sep 23",
+   "growing_days": 128,
+   "ecoregion": "Northwestern Glaciated Plains",
+   "ecoregion_code": "42",
+   "nws_office": "Bismarck, ND",
+   "nws_cwa": "BIS",
+   "nwr": [
+    {
+     "call": "WXL84",
+     "freq": "162.550",
+     "same": "038023"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.6
+  },
+  "Dunn County": {
+   "fips": "38025",
+   "centroid": [
+    47.3546,
+    -102.6123
+   ],
+   "latitude": 47.4,
+   "bbox": [
+    -103.0999,
+    46.9804,
+    -102.1444,
+    47.8238
+   ],
+   "coastal": false,
+   "elevation_ft": 2210,
+   "zone": "4a",
+   "jan_low_f": 0,
+   "jul_high_f": 84,
+   "record_low_f": -52,
+   "record_high_f": 111,
+   "precip_in": 16.8,
+   "snow_in": 39,
+   "last_frost": "May 20",
+   "first_frost": "Sep 21",
+   "growing_days": 125,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Bismarck, ND",
+   "nws_cwa": "BIS",
+   "nwr": [
+    {
+     "call": "WXL80",
+     "freq": "162.400",
+     "same": "038025"
+    },
+    {
+     "call": "WXN88",
+     "freq": "162.525",
+     "same": "038025"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.7
+  },
+  "Eddy County": {
+   "fips": "38027",
+   "centroid": [
+    47.7234,
+    -98.9005
+   ],
+   "latitude": 47.7,
+   "bbox": [
+    -99.2974,
+    47.5867,
+    -98.4997,
+    47.8476
+   ],
+   "coastal": false,
+   "elevation_ft": 1520,
+   "zone": "4a",
+   "jan_low_f": -1,
+   "jul_high_f": 81,
+   "record_low_f": -45,
+   "record_high_f": 108,
+   "precip_in": 21.1,
+   "snow_in": 60,
+   "last_frost": "May 12",
+   "first_frost": "Sep 28",
+   "growing_days": 139,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Grand Forks, ND",
+   "nws_cwa": "FGF",
+   "nwr": [
+    {
+     "call": "WXM38",
+     "freq": "162.400",
+     "same": "038027"
+    },
+    {
+     "call": "KWN46",
+     "freq": "162.525",
+     "same": "038027"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.4
+  },
+  "Emmons County": {
+   "fips": "38029",
+   "centroid": [
+    46.2843,
+    -100.2378
+   ],
+   "latitude": 46.3,
+   "bbox": [
+    -100.6612,
+    45.9415,
+    -99.8783,
+    46.635
+   ],
+   "coastal": false,
+   "elevation_ft": 1780,
+   "zone": "4a",
+   "jan_low_f": 1,
+   "jul_high_f": 84,
+   "record_low_f": -52,
+   "record_high_f": 116,
+   "precip_in": 19.0,
+   "snow_in": 45,
+   "last_frost": "May 12",
+   "first_frost": "Sep 29",
+   "growing_days": 138,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Bismarck, ND",
+   "nws_cwa": "BIS",
+   "nwr": [
+    {
+     "call": "WXL78",
+     "freq": "162.475",
+     "same": "038029"
+    },
+    {
+     "call": "WXM40",
+     "freq": "162.500",
+     "same": "038029"
+    },
+    {
+     "call": "WNG581",
+     "freq": "162.400",
+     "same": "038029"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.7
+  },
+  "Foster County": {
+   "fips": "38031",
+   "centroid": [
+    47.4714,
+    -98.8729
+   ],
+   "latitude": 47.5,
+   "bbox": [
+    -99.2665,
+    47.3265,
+    -98.4992,
+    47.5879
+   ],
+   "coastal": false,
+   "elevation_ft": 1540,
+   "zone": "4a",
+   "jan_low_f": -2,
+   "jul_high_f": 82,
+   "record_low_f": -39,
+   "record_high_f": 107,
+   "precip_in": 20.8,
+   "snow_in": 60,
+   "last_frost": "May 12",
+   "first_frost": "Sep 27",
+   "growing_days": 137,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Bismarck, ND",
+   "nws_cwa": "BIS",
+   "nwr": [
+    {
+     "call": "WNG656",
+     "freq": "162.525",
+     "same": "038031"
+    },
+    {
+     "call": "WXL81",
+     "freq": "162.550",
+     "same": "038031"
+    },
+    {
+     "call": "KWN46",
+     "freq": "162.525",
+     "same": "038031"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.4
+  },
+  "Golden Valley County": {
+   "fips": "38033",
+   "centroid": [
+    46.9389,
+    -103.8446
+   ],
+   "latitude": 46.9,
+   "bbox": [
+    -104.0461,
+    46.54,
+    -103.6092,
+    47.3312
+   ],
+   "coastal": false,
+   "elevation_ft": 2830,
+   "zone": "4b",
+   "jan_low_f": 6,
+   "jul_high_f": 85,
+   "record_low_f": -43,
+   "record_high_f": 110,
+   "precip_in": 16.5,
+   "snow_in": 38,
+   "last_frost": "May 16",
+   "first_frost": "Sep 26",
+   "growing_days": 130,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Bismarck, ND",
+   "nws_cwa": "BIS",
+   "nwr": [
+    {
+     "call": "WXL80",
+     "freq": "162.400",
+     "same": "038033"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.8
+  },
+  "Grand Forks County": {
+   "fips": "38035",
+   "centroid": [
+    47.926,
+    -97.4509
+   ],
+   "latitude": 47.9,
+   "bbox": [
+    -97.9037,
+    47.6719,
+    -96.8943,
+    48.195
+   ],
+   "coastal": false,
+   "elevation_ft": 950,
+   "zone": "4a",
+   "jan_low_f": -3,
+   "jul_high_f": 81,
+   "record_low_f": -43,
+   "record_high_f": 104,
+   "precip_in": 21.7,
+   "snow_in": 48,
+   "last_frost": "May 16",
+   "first_frost": "Sep 27",
+   "growing_days": 133,
+   "ecoregion": "Lake Agassiz Plain",
+   "ecoregion_code": "48",
+   "nws_office": "Grand Forks, ND",
+   "nws_cwa": "FGF",
+   "nwr": [
+    {
+     "call": "WWF83",
+     "freq": "162.475",
+     "same": "038035"
+    },
+    {
+     "call": "WXM38",
+     "freq": "162.400",
+     "same": "038035"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Grant County": {
+   "fips": "38037",
+   "centroid": [
+    46.3578,
+    -101.639
+   ],
+   "latitude": 46.4,
+   "bbox": [
+    -102.0966,
+    46.0077,
+    -101.0245,
+    46.718
+   ],
+   "coastal": false,
+   "elevation_ft": 2350,
+   "zone": "4a",
+   "jan_low_f": 4,
+   "jul_high_f": 83,
+   "record_low_f": -43,
+   "record_high_f": 116,
+   "precip_in": 19.2,
+   "snow_in": 57,
+   "last_frost": "May 19",
+   "first_frost": "Sep 25",
+   "growing_days": 127,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Bismarck, ND",
+   "nws_cwa": "BIS",
+   "nwr": [
+    {
+     "call": "WXL78",
+     "freq": "162.475",
+     "same": "038037"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.7
+  },
+  "Griggs County": {
+   "fips": "38039",
+   "centroid": [
+    47.4563,
+    -98.2323
+   ],
+   "latitude": 47.5,
+   "bbox": [
+    -98.5002,
+    47.2405,
+    -97.9606,
+    47.6725
+   ],
+   "coastal": false,
+   "elevation_ft": 1460,
+   "zone": "4a",
+   "jan_low_f": -3,
+   "jul_high_f": 79,
+   "record_low_f": -47,
+   "record_high_f": 118,
+   "precip_in": 22.0,
+   "snow_in": 42,
+   "last_frost": "May 17",
+   "first_frost": "Sep 23",
+   "growing_days": 128,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Grand Forks, ND",
+   "nws_cwa": "FGF",
+   "nwr": [
+    {
+     "call": "WXM38",
+     "freq": "162.400",
+     "same": "038039"
+    },
+    {
+     "call": "KWN46",
+     "freq": "162.525",
+     "same": "038039"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.4
+  },
+  "Hettinger County": {
+   "fips": "38041",
+   "centroid": [
+    46.4357,
+    -102.4542
+   ],
+   "latitude": 46.4,
+   "bbox": [
+    -102.928,
+    46.2052,
+    -101.9978,
+    46.6311
+   ],
+   "coastal": false,
+   "elevation_ft": 2540,
+   "zone": "4a",
+   "jan_low_f": 4,
+   "jul_high_f": 85,
+   "record_low_f": -47,
+   "record_high_f": 114,
+   "precip_in": 17.2,
+   "snow_in": 44,
+   "last_frost": "May 16",
+   "first_frost": "Sep 25",
+   "growing_days": 129,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Bismarck, ND",
+   "nws_cwa": "BIS",
+   "nwr": [
+    {
+     "call": "WXL80",
+     "freq": "162.400",
+     "same": "038041"
+    },
+    {
+     "call": "WNG658",
+     "freq": "162.525",
+     "same": "038041"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.8
+  },
+  "Kidder County": {
+   "fips": "38043",
+   "centroid": [
+    46.9383,
+    -99.7312
+   ],
+   "latitude": 46.9,
+   "bbox": [
+    -100.1153,
+    46.6316,
+    -99.4463,
+    47.3275
+   ],
+   "coastal": false,
+   "elevation_ft": 1730,
+   "zone": "4a",
+   "jan_low_f": 1,
+   "jul_high_f": 82,
+   "record_low_f": -50,
+   "record_high_f": 121,
+   "precip_in": 21.4,
+   "snow_in": 38,
+   "last_frost": "May 15",
+   "first_frost": "Sep 25",
+   "growing_days": 133,
+   "ecoregion": "Northwestern Glaciated Plains",
+   "ecoregion_code": "42",
+   "nws_office": "Bismarck, ND",
+   "nws_cwa": "BIS",
+   "nwr": [
+    {
+     "call": "WXL78",
+     "freq": "162.475",
+     "same": "038043"
+    },
+    {
+     "call": "WNG581",
+     "freq": "162.400",
+     "same": "038043"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.6
+  },
+  "LaMoure County": {
+   "fips": "38045",
+   "centroid": [
+    46.4642,
+    -98.5261
+   ],
+   "latitude": 46.5,
+   "bbox": [
+    -99.0376,
+    46.2825,
+    -98.0336,
+    46.6313
+   ],
+   "coastal": false,
+   "elevation_ft": 1480,
+   "zone": "4b",
+   "jan_low_f": 0,
+   "jul_high_f": 83,
+   "record_low_f": -39,
+   "record_high_f": 108,
+   "precip_in": 24.7,
+   "snow_in": 46,
+   "last_frost": "May 10",
+   "first_frost": "Sep 28",
+   "growing_days": 140,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Bismarck, ND",
+   "nws_cwa": "BIS",
+   "nwr": [
+    {
+     "call": "WXL81",
+     "freq": "162.550",
+     "same": "038045"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.6
+  },
+  "Logan County": {
+   "fips": "38047",
+   "centroid": [
+    46.4693,
+    -99.5046
+   ],
+   "latitude": 46.5,
+   "bbox": [
+    -99.9175,
+    46.2824,
+    -99.0365,
+    46.633
+   ],
+   "coastal": false,
+   "elevation_ft": 2040,
+   "zone": "4a",
+   "jan_low_f": 0,
+   "jul_high_f": 82,
+   "record_low_f": -48,
+   "record_high_f": 118,
+   "precip_in": 20.7,
+   "snow_in": 53,
+   "last_frost": "May 13",
+   "first_frost": "Sep 28",
+   "growing_days": 136,
+   "ecoregion": "Northwestern Glaciated Plains",
+   "ecoregion_code": "42",
+   "nws_office": "Bismarck, ND",
+   "nws_cwa": "BIS",
+   "nwr": [
+    {
+     "call": "WXL81",
+     "freq": "162.550",
+     "same": "038047"
+    },
+    {
+     "call": "WNG581",
+     "freq": "162.400",
+     "same": "038047"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.6
+  },
+  "McHenry County": {
+   "fips": "38049",
+   "centroid": [
+    48.2338,
+    -100.6333
+   ],
+   "latitude": 48.2,
+   "bbox": [
+    -101.0601,
+    47.8469,
+    -100.1974,
+    48.633
+   ],
+   "coastal": false,
+   "elevation_ft": 1540,
+   "zone": "4a",
+   "jan_low_f": 3,
+   "jul_high_f": 85,
+   "record_low_f": -52,
+   "record_high_f": 114,
+   "precip_in": 17.7,
+   "snow_in": 39,
+   "last_frost": "May 9",
+   "first_frost": "Oct 1",
+   "growing_days": 145,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Bismarck, ND",
+   "nws_cwa": "BIS",
+   "nwr": [
+    {
+     "call": "WXL83",
+     "freq": "162.400",
+     "same": "038049"
+    },
+    {
+     "call": "KWN42",
+     "freq": "162.475",
+     "same": "038049"
+    },
+    {
+     "call": "KWN45",
+     "freq": "162.450",
+     "same": "038049"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.5
+  },
+  "McIntosh County": {
+   "fips": "38051",
+   "centroid": [
+    46.1087,
+    -99.4165
+   ],
+   "latitude": 46.1,
+   "bbox": [
+    -99.8812,
+    45.9399,
+    -99.0028,
+    46.2836
+   ],
+   "coastal": false,
+   "elevation_ft": 1990,
+   "zone": "4b",
+   "jan_low_f": 1,
+   "jul_high_f": 81,
+   "record_low_f": -48,
+   "record_high_f": 114,
+   "precip_in": 20.7,
+   "snow_in": 42,
+   "last_frost": "May 13",
+   "first_frost": "Sep 28",
+   "growing_days": 137,
+   "ecoregion": "Northwestern Glaciated Plains",
+   "ecoregion_code": "42",
+   "nws_office": "Bismarck, ND",
+   "nws_cwa": "BIS",
+   "nwr": [
+    {
+     "call": "WXL81",
+     "freq": "162.550",
+     "same": "038051"
+    },
+    {
+     "call": "WXM40",
+     "freq": "162.500",
+     "same": "038051"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.6
+  },
+  "McKenzie County": {
+   "fips": "38053",
+   "centroid": [
+    47.7425,
+    -103.4032
+   ],
+   "latitude": 47.7,
+   "bbox": [
+    -104.0453,
+    47.3284,
+    -102.5516,
+    48.1465
+   ],
+   "coastal": false,
+   "elevation_ft": 2190,
+   "zone": "4a",
+   "jan_low_f": 5,
+   "jul_high_f": 82,
+   "record_low_f": -45,
+   "record_high_f": 112,
+   "precip_in": 15.7,
+   "snow_in": 50,
+   "last_frost": "May 9",
+   "first_frost": "Sep 27",
+   "growing_days": 139,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Bismarck, ND",
+   "nws_cwa": "BIS",
+   "nwr": [
+    {
+     "call": "WXL84",
+     "freq": "162.550",
+     "same": "038053"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.7
+  },
+  "McLean County": {
+   "fips": "38055",
+   "centroid": [
+    47.6532,
+    -101.4219
+   ],
+   "latitude": 47.7,
+   "bbox": [
+    -102.3861,
+    47.1566,
+    -100.585,
+    47.8488
+   ],
+   "coastal": false,
+   "elevation_ft": 1920,
+   "zone": "4a",
+   "jan_low_f": 2,
+   "jul_high_f": 81,
+   "record_low_f": -48,
+   "record_high_f": 108,
+   "precip_in": 18.2,
+   "snow_in": 43,
+   "last_frost": "May 12",
+   "first_frost": "Sep 30",
+   "growing_days": 140,
+   "ecoregion": "Northwestern Glaciated Plains",
+   "ecoregion_code": "42",
+   "nws_office": "Bismarck, ND",
+   "nws_cwa": "BIS",
+   "nwr": [
+    {
+     "call": "WXL83",
+     "freq": "162.400",
+     "same": "038055"
+    },
+    {
+     "call": "WXN88",
+     "freq": "162.525",
+     "same": "038055"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.6
+  },
+  "Mercer County": {
+   "fips": "38057",
+   "centroid": [
+    47.3071,
+    -101.8333
+   ],
+   "latitude": 47.3,
+   "bbox": [
+    -102.2065,
+    46.9809,
+    -101.2572,
+    47.5753
+   ],
+   "coastal": false,
+   "elevation_ft": 1870,
+   "zone": "4a",
+   "jan_low_f": 3,
+   "jul_high_f": 86,
+   "record_low_f": -46,
+   "record_high_f": 109,
+   "precip_in": 16.9,
+   "snow_in": 33,
+   "last_frost": "May 21",
+   "first_frost": "Sep 20",
+   "growing_days": 121,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Bismarck, ND",
+   "nws_cwa": "BIS",
+   "nwr": [
+    {
+     "call": "WXL78",
+     "freq": "162.475",
+     "same": "038057"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.6
+  },
+  "Morton County": {
+   "fips": "38059",
+   "centroid": [
+    46.71,
+    -101.31
+   ],
+   "latitude": 46.7,
+   "bbox": [
+    -102.0969,
+    46.2847,
+    -100.5441,
+    46.9833
+   ],
+   "coastal": false,
+   "elevation_ft": 2200,
+   "zone": "4a",
+   "jan_low_f": 3,
+   "jul_high_f": 85,
+   "record_low_f": -43,
+   "record_high_f": 119,
+   "precip_in": 18.3,
+   "snow_in": 44,
+   "last_frost": "May 17",
+   "first_frost": "Sep 21",
+   "growing_days": 124,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Bismarck, ND",
+   "nws_cwa": "BIS",
+   "nwr": [
+    {
+     "call": "WXL78",
+     "freq": "162.475",
+     "same": "038059"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.7
+  },
+  "Mountrail County": {
+   "fips": "38061",
+   "centroid": [
+    48.2101,
+    -102.3649
+   ],
+   "latitude": 48.2,
+   "bbox": [
+    -102.886,
+    47.7514,
+    -101.8715,
+    48.5473
+   ],
+   "coastal": false,
+   "elevation_ft": 2280,
+   "zone": "4a",
+   "jan_low_f": -1,
+   "jul_high_f": 80,
+   "record_low_f": -47,
+   "record_high_f": 110,
+   "precip_in": 19.3,
+   "snow_in": 47,
+   "last_frost": "May 17",
+   "first_frost": "Sep 23",
+   "growing_days": 127,
+   "ecoregion": "Northwestern Glaciated Plains",
+   "ecoregion_code": "42",
+   "nws_office": "Bismarck, ND",
+   "nws_cwa": "BIS",
+   "nwr": [
+    {
+     "call": "WXL83",
+     "freq": "162.400",
+     "same": "038061"
+    },
+    {
+     "call": "WXN88",
+     "freq": "162.525",
+     "same": "038061"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.6
+  },
+  "Nelson County": {
+   "fips": "38063",
+   "centroid": [
+    47.9187,
+    -98.2044
+   ],
+   "latitude": 47.9,
+   "bbox": [
+    -98.526,
+    47.672,
+    -97.8821,
+    48.1951
+   ],
+   "coastal": false,
+   "elevation_ft": 1500,
+   "zone": "4a",
+   "jan_low_f": -4,
+   "jul_high_f": 79,
+   "record_low_f": -44,
+   "record_high_f": 103,
+   "precip_in": 20.2,
+   "snow_in": 42,
+   "last_frost": "May 11",
+   "first_frost": "Sep 28",
+   "growing_days": 138,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Grand Forks, ND",
+   "nws_cwa": "FGF",
+   "nwr": [
+    {
+     "call": "WXM38",
+     "freq": "162.400",
+     "same": "038063"
+    },
+    {
+     "call": "WWG25",
+     "freq": "162.425",
+     "same": "038063"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.4
+  },
+  "Oliver County": {
+   "fips": "38065",
+   "centroid": [
+    47.1181,
+    -101.3314
+   ],
+   "latitude": 47.1,
+   "bbox": [
+    -101.7648,
+    46.9808,
+    -100.8787,
+    47.2965
+   ],
+   "coastal": false,
+   "elevation_ft": 2110,
+   "zone": "4a",
+   "jan_low_f": 5,
+   "jul_high_f": 82,
+   "record_low_f": -42,
+   "record_high_f": 110,
+   "precip_in": 18.9,
+   "snow_in": 44,
+   "last_frost": "May 11",
+   "first_frost": "Sep 29",
+   "growing_days": 140,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Bismarck, ND",
+   "nws_cwa": "BIS",
+   "nwr": [
+    {
+     "call": "WXL78",
+     "freq": "162.475",
+     "same": "038065"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.6
+  },
+  "Pembina County": {
+   "fips": "38067",
+   "centroid": [
+    48.7669,
+    -97.5454
+   ],
+   "latitude": 48.8,
+   "bbox": [
+    -97.9508,
+    48.542,
+    -97.0903,
+    49.0
+   ],
+   "coastal": false,
+   "elevation_ft": 860,
+   "zone": "4a",
+   "jan_low_f": -4,
+   "jul_high_f": 78,
+   "record_low_f": -41,
+   "record_high_f": 110,
+   "precip_in": 20.0,
+   "snow_in": 39,
+   "last_frost": "May 12",
+   "first_frost": "Sep 30",
+   "growing_days": 139,
+   "ecoregion": "Lake Agassiz Plain",
+   "ecoregion_code": "48",
+   "nws_office": "Grand Forks, ND",
+   "nws_cwa": "FGF",
+   "nwr": [
+    {
+     "call": "KWN44",
+     "freq": "162.450",
+     "same": "038067"
+    },
+    {
+     "call": "WXM38",
+     "freq": "162.400",
+     "same": "038067"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.2
+  },
+  "Pierce County": {
+   "fips": "38069",
+   "centroid": [
+    48.2389,
+    -99.9665
+   ],
+   "latitude": 48.2,
+   "bbox": [
+    -100.2767,
+    47.8473,
+    -99.4929,
+    48.5453
+   ],
+   "coastal": false,
+   "elevation_ft": 1570,
+   "zone": "3b",
+   "jan_low_f": -4,
+   "jul_high_f": 80,
+   "record_low_f": -47,
+   "record_high_f": 107,
+   "precip_in": 21.0,
+   "snow_in": 43,
+   "last_frost": "May 17",
+   "first_frost": "Sep 23",
+   "growing_days": 129,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Bismarck, ND",
+   "nws_cwa": "BIS",
+   "nwr": [
+    {
+     "call": "WNG656",
+     "freq": "162.525",
+     "same": "038069"
+    },
+    {
+     "call": "WXL83",
+     "freq": "162.400",
+     "same": "038069"
+    },
+    {
+     "call": "KWN42",
+     "freq": "162.475",
+     "same": "038069"
+    },
+    {
+     "call": "KWN46",
+     "freq": "162.525",
+     "same": "038069"
+    },
+    {
+     "call": "KWN45",
+     "freq": "162.450",
+     "same": "038069"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.4
+  },
+  "Ramsey County": {
+   "fips": "38071",
+   "centroid": [
+    48.2662,
+    -98.739
+   ],
+   "latitude": 48.3,
+   "bbox": [
+    -99.2006,
+    47.9149,
+    -98.2921,
+    48.5442
+   ],
+   "coastal": false,
+   "elevation_ft": 1480,
+   "zone": "4a",
+   "jan_low_f": -2,
+   "jul_high_f": 79,
+   "record_low_f": -46,
+   "record_high_f": 112,
+   "precip_in": 20.0,
+   "snow_in": 38,
+   "last_frost": "May 6",
+   "first_frost": "Oct 5",
+   "growing_days": 152,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Grand Forks, ND",
+   "nws_cwa": "FGF",
+   "nwr": [
+    {
+     "call": "WXM38",
+     "freq": "162.400",
+     "same": "038071"
+    },
+    {
+     "call": "WWG25",
+     "freq": "162.425",
+     "same": "038071"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.4
+  },
+  "Ransom County": {
+   "fips": "38073",
+   "centroid": [
+    46.4493,
+    -97.6476
+   ],
+   "latitude": 46.4,
+   "bbox": [
+    -98.035,
+    46.2822,
+    -97.2798,
+    46.6307
+   ],
+   "coastal": false,
+   "elevation_ft": 1180,
+   "zone": "4a",
+   "jan_low_f": 0,
+   "jul_high_f": 82,
+   "record_low_f": -47,
+   "record_high_f": 113,
+   "precip_in": 22.3,
+   "snow_in": 47,
+   "last_frost": "May 12",
+   "first_frost": "Sep 27",
+   "growing_days": 136,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Grand Forks, ND",
+   "nws_cwa": "FGF",
+   "nwr": [
+    {
+     "call": "WXK42",
+     "freq": "162.475",
+     "same": "038073"
+    },
+    {
+     "call": "KWN46",
+     "freq": "162.525",
+     "same": "038073"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.4
+  },
+  "Renville County": {
+   "fips": "38075",
+   "centroid": [
+    48.7128,
+    -101.6582
+   ],
+   "latitude": 48.7,
+   "bbox": [
+    -102.0217,
+    48.4587,
+    -101.0597,
+    48.9994
+   ],
+   "coastal": false,
+   "elevation_ft": 1750,
+   "zone": "4a",
+   "jan_low_f": -2,
+   "jul_high_f": 79,
+   "record_low_f": -48,
+   "record_high_f": 112,
+   "precip_in": 18.2,
+   "snow_in": 55,
+   "last_frost": "May 17",
+   "first_frost": "Sep 23",
+   "growing_days": 127,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Bismarck, ND",
+   "nws_cwa": "BIS",
+   "nwr": [
+    {
+     "call": "WXL83",
+     "freq": "162.400",
+     "same": "038075"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.5
+  },
+  "Richland County": {
+   "fips": "38077",
+   "centroid": [
+    46.2652,
+    -96.938
+   ],
+   "latitude": 46.3,
+   "bbox": [
+    -97.2807,
+    45.9347,
+    -96.5545,
+    46.6316
+   ],
+   "coastal": false,
+   "elevation_ft": 990,
+   "zone": "4a",
+   "jan_low_f": -1,
+   "jul_high_f": 82,
+   "record_low_f": -41,
+   "record_high_f": 114,
+   "precip_in": 24.0,
+   "snow_in": 49,
+   "last_frost": "May 6",
+   "first_frost": "Sep 29",
+   "growing_days": 145,
+   "ecoregion": "Lake Agassiz Plain",
+   "ecoregion_code": "48",
+   "nws_office": "Grand Forks, ND",
+   "nws_cwa": "FGF",
+   "nwr": [
+    {
+     "call": "WXK42",
+     "freq": "162.475",
+     "same": "038077"
+    },
+    {
+     "call": "WNG656",
+     "freq": "162.525",
+     "same": "038077"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.4
+  },
+  "Rolette County": {
+   "fips": "38079",
+   "centroid": [
+    48.7683,
+    -99.8405
+   ],
+   "latitude": 48.8,
+   "bbox": [
+    -100.1833,
+    48.5447,
+    -99.4931,
+    48.9993
+   ],
+   "coastal": false,
+   "elevation_ft": 1700,
+   "zone": "3b",
+   "jan_low_f": -8,
+   "jul_high_f": 78,
+   "record_low_f": -50,
+   "record_high_f": 105,
+   "precip_in": 20.2,
+   "snow_in": 50,
+   "last_frost": "May 22",
+   "first_frost": "Sep 20",
+   "growing_days": 120,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Bismarck, ND",
+   "nws_cwa": "BIS",
+   "nwr": [
+    {
+     "call": "WXL83",
+     "freq": "162.400",
+     "same": "038079"
+    },
+    {
+     "call": "KWN42",
+     "freq": "162.475",
+     "same": "038079"
+    },
+    {
+     "call": "KWN45",
+     "freq": "162.450",
+     "same": "038079"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.4
+  },
+  "Sargent County": {
+   "fips": "38081",
+   "centroid": [
+    46.1082,
+    -97.6301
+   ],
+   "latitude": 46.1,
+   "bbox": [
+    -98.0082,
+    45.935,
+    -97.2283,
+    46.2827
+   ],
+   "coastal": false,
+   "elevation_ft": 1250,
+   "zone": "4a",
+   "jan_low_f": -1,
+   "jul_high_f": 81,
+   "record_low_f": -53,
+   "record_high_f": 110,
+   "precip_in": 23.2,
+   "snow_in": 45,
+   "last_frost": "May 7",
+   "first_frost": "Oct 1",
+   "growing_days": 146,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Grand Forks, ND",
+   "nws_cwa": "FGF",
+   "nwr": [
+    {
+     "call": "WXK42",
+     "freq": "162.475",
+     "same": "038081"
+    },
+    {
+     "call": "WNG656",
+     "freq": "162.525",
+     "same": "038081"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.4
+  },
+  "Sheridan County": {
+   "fips": "38083",
+   "centroid": [
+    47.5814,
+    -100.331
+   ],
+   "latitude": 47.6,
+   "bbox": [
+    -100.6737,
+    47.3271,
+    -100.0327,
+    47.8477
+   ],
+   "coastal": false,
+   "elevation_ft": 1920,
+   "zone": "4a",
+   "jan_low_f": 3,
+   "jul_high_f": 85,
+   "record_low_f": -53,
+   "record_high_f": 115,
+   "precip_in": 18.2,
+   "snow_in": 45,
+   "last_frost": "May 8",
+   "first_frost": "Oct 1",
+   "growing_days": 145,
+   "ecoregion": "Northwestern Glaciated Plains",
+   "ecoregion_code": "42",
+   "nws_office": "Bismarck, ND",
+   "nws_cwa": "BIS",
+   "nwr": [
+    {
+     "call": "WXL78",
+     "freq": "162.475",
+     "same": "038083"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.5
+  },
+  "Sioux County": {
+   "fips": "38085",
+   "centroid": [
+    46.1106,
+    -101.0613
+   ],
+   "latitude": 46.1,
+   "bbox": [
+    -102.0001,
+    45.9436,
+    -100.5066,
+    46.4289
+   ],
+   "coastal": false,
+   "elevation_ft": 2200,
+   "zone": "4b",
+   "jan_low_f": 7,
+   "jul_high_f": 86,
+   "record_low_f": -58,
+   "record_high_f": 114,
+   "precip_in": 17.3,
+   "snow_in": 43,
+   "last_frost": "May 9",
+   "first_frost": "Sep 30",
+   "growing_days": 143,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Bismarck, ND",
+   "nws_cwa": "BIS",
+   "nwr": [
+    {
+     "call": "WXL78",
+     "freq": "162.475",
+     "same": "038085"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.7
+  },
+  "Slope County": {
+   "fips": "38087",
+   "centroid": [
+    46.4458,
+    -103.4625
+   ],
+   "latitude": 46.4,
+   "bbox": [
+    -104.0461,
+    46.2798,
+    -102.9246,
+    46.6307
+   ],
+   "coastal": false,
+   "elevation_ft": 2780,
+   "zone": "4b",
+   "jan_low_f": 7,
+   "jul_high_f": 86,
+   "record_low_f": -40,
+   "record_high_f": 108,
+   "precip_in": 17.1,
+   "snow_in": 48,
+   "last_frost": "May 12",
+   "first_frost": "Sep 29",
+   "growing_days": 136,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Bismarck, ND",
+   "nws_cwa": "BIS",
+   "nwr": [
+    {
+     "call": "WXK57",
+     "freq": "162.550",
+     "same": "038087"
+    },
+    {
+     "call": "WXL80",
+     "freq": "162.400",
+     "same": "038087"
+    },
+    {
+     "call": "WNG658",
+     "freq": "162.525",
+     "same": "038087"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.8
+  },
+  "Stark County": {
+   "fips": "38089",
+   "centroid": [
+    46.817,
+    -102.662
+   ],
+   "latitude": 46.8,
+   "bbox": [
+    -103.232,
+    46.6298,
+    -102.0961,
+    47.0106
+   ],
+   "coastal": false,
+   "elevation_ft": 2520,
+   "zone": "4b",
+   "jan_low_f": 6,
+   "jul_high_f": 84,
+   "record_low_f": -36,
+   "record_high_f": 109,
+   "precip_in": 15.6,
+   "snow_in": 33,
+   "last_frost": "May 18",
+   "first_frost": "Sep 25",
+   "growing_days": 129,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Bismarck, ND",
+   "nws_cwa": "BIS",
+   "nwr": [
+    {
+     "call": "WXL80",
+     "freq": "162.400",
+     "same": "038089"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.8
+  },
+  "Steele County": {
+   "fips": "38091",
+   "centroid": [
+    47.4511,
+    -97.7189
+   ],
+   "latitude": 47.5,
+   "bbox": [
+    -97.9866,
+    47.239,
+    -97.4513,
+    47.6723
+   ],
+   "coastal": false,
+   "elevation_ft": 1250,
+   "zone": "4a",
+   "jan_low_f": -6,
+   "jul_high_f": 80,
+   "record_low_f": -40,
+   "record_high_f": 114,
+   "precip_in": 20.9,
+   "snow_in": 35,
+   "last_frost": "May 10",
+   "first_frost": "Sep 24",
+   "growing_days": 136,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Grand Forks, ND",
+   "nws_cwa": "FGF",
+   "nwr": [
+    {
+     "call": "WXK42",
+     "freq": "162.475",
+     "same": "038091"
+    },
+    {
+     "call": "WXM38",
+     "freq": "162.400",
+     "same": "038091"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Stutsman County": {
+   "fips": "38093",
+   "centroid": [
+    46.9722,
+    -98.9561
+   ],
+   "latitude": 47.0,
+   "bbox": [
+    -99.4814,
+    46.6304,
+    -98.4388,
+    47.3273
+   ],
+   "coastal": false,
+   "elevation_ft": 1630,
+   "zone": "4b",
+   "jan_low_f": 1,
+   "jul_high_f": 81,
+   "record_low_f": -37,
+   "record_high_f": 108,
+   "precip_in": 19.8,
+   "snow_in": 46,
+   "last_frost": "May 11",
+   "first_frost": "Sep 28",
+   "growing_days": 138,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Bismarck, ND",
+   "nws_cwa": "BIS",
+   "nwr": [
+    {
+     "call": "WNG656",
+     "freq": "162.525",
+     "same": "038093"
+    },
+    {
+     "call": "WXL81",
+     "freq": "162.550",
+     "same": "038093"
+    },
+    {
+     "call": "KWN46",
+     "freq": "162.525",
+     "same": "038093"
+    },
+    {
+     "call": "WNG581",
+     "freq": "162.400",
+     "same": "038093"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.6
+  },
+  "Towner County": {
+   "fips": "38095",
+   "centroid": [
+    48.6822,
+    -99.2482
+   ],
+   "latitude": 48.7,
+   "bbox": [
+    -99.5262,
+    48.3704,
+    -98.9702,
+    48.9999
+   ],
+   "coastal": false,
+   "elevation_ft": 1550,
+   "zone": "3b",
+   "jan_low_f": -5,
+   "jul_high_f": 80,
+   "record_low_f": -45,
+   "record_high_f": 109,
+   "precip_in": 19.0,
+   "snow_in": 38,
+   "last_frost": "May 18",
+   "first_frost": "Sep 23",
+   "growing_days": 127,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Grand Forks, ND",
+   "nws_cwa": "FGF",
+   "nwr": [
+    {
+     "call": "KWN42",
+     "freq": "162.475",
+     "same": "038095"
+    },
+    {
+     "call": "WWG25",
+     "freq": "162.425",
+     "same": "038095"
+    },
+    {
+     "call": "KWN45",
+     "freq": "162.450",
+     "same": "038095"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.4
+  },
+  "Traill County": {
+   "fips": "38097",
+   "centroid": [
+    47.4463,
+    -97.1646
+   ],
+   "latitude": 47.4,
+   "bbox": [
+    -97.4744,
+    47.2377,
+    -96.8295,
+    47.6732
+   ],
+   "coastal": false,
+   "elevation_ft": 940,
+   "zone": "4a",
+   "jan_low_f": 1,
+   "jul_high_f": 81,
+   "record_low_f": -40,
+   "record_high_f": 115,
+   "precip_in": 22.3,
+   "snow_in": 35,
+   "last_frost": "May 2",
+   "first_frost": "Oct 9",
+   "growing_days": 158,
+   "ecoregion": "Lake Agassiz Plain",
+   "ecoregion_code": "48",
+   "nws_office": "Grand Forks, ND",
+   "nws_cwa": "FGF",
+   "nwr": [
+    {
+     "call": "WXK42",
+     "freq": "162.475",
+     "same": "038097"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Walsh County": {
+   "fips": "38099",
+   "centroid": [
+    48.377,
+    -97.7222
+   ],
+   "latitude": 48.4,
+   "bbox": [
+    -98.3186,
+    48.1937,
+    -97.1122,
+    48.5438
+   ],
+   "coastal": false,
+   "elevation_ft": 970,
+   "zone": "4a",
+   "jan_low_f": 0,
+   "jul_high_f": 81,
+   "record_low_f": -47,
+   "record_high_f": 108,
+   "precip_in": 20.6,
+   "snow_in": 34,
+   "last_frost": "May 4",
+   "first_frost": "Oct 7",
+   "growing_days": 156,
+   "ecoregion": "Lake Agassiz Plain",
+   "ecoregion_code": "48",
+   "nws_office": "Grand Forks, ND",
+   "nws_cwa": "FGF",
+   "nwr": [
+    {
+     "call": "WXM38",
+     "freq": "162.400",
+     "same": "038099"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.2
+  },
+  "Ward County": {
+   "fips": "38101",
+   "centroid": [
+    48.2167,
+    -101.5405
+   ],
+   "latitude": 48.2,
+   "bbox": [
+    -102.2343,
+    47.8472,
+    -100.9705,
+    48.8071
+   ],
+   "coastal": false,
+   "elevation_ft": 1960,
+   "zone": "4a",
+   "jan_low_f": 1,
+   "jul_high_f": 80,
+   "record_low_f": -49,
+   "record_high_f": 109,
+   "precip_in": 19.3,
+   "snow_in": 52,
+   "last_frost": "May 13",
+   "first_frost": "Sep 27",
+   "growing_days": 136,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Bismarck, ND",
+   "nws_cwa": "BIS",
+   "nwr": [
+    {
+     "call": "WXL83",
+     "freq": "162.400",
+     "same": "038101"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.5
+  },
+  "Wells County": {
+   "fips": "38103",
+   "centroid": [
+    47.5809,
+    -99.6822
+   ],
+   "latitude": 47.6,
+   "bbox": [
+    -100.0697,
+    47.3269,
+    -99.2658,
+    47.8478
+   ],
+   "coastal": false,
+   "elevation_ft": 1660,
+   "zone": "4a",
+   "jan_low_f": 1,
+   "jul_high_f": 80,
+   "record_low_f": -47,
+   "record_high_f": 116,
+   "precip_in": 17.3,
+   "snow_in": 34,
+   "last_frost": "May 13",
+   "first_frost": "Sep 28",
+   "growing_days": 139,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Bismarck, ND",
+   "nws_cwa": "BIS",
+   "nwr": [
+    {
+     "call": "WXL78",
+     "freq": "162.475",
+     "same": "038103"
+    },
+    {
+     "call": "KWN46",
+     "freq": "162.525",
+     "same": "038103"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.4
+  },
+  "Williams County": {
+   "fips": "38105",
+   "centroid": [
+    48.3558,
+    -103.5013
+   ],
+   "latitude": 48.4,
+   "bbox": [
+    -104.0482,
+    47.9563,
+    -102.828,
+    48.6341
+   ],
+   "coastal": false,
+   "elevation_ft": 2120,
+   "zone": "4a",
+   "jan_low_f": 1,
+   "jul_high_f": 84,
+   "record_low_f": -50,
+   "record_high_f": 110,
+   "precip_in": 15.1,
+   "snow_in": 48,
+   "last_frost": "May 21",
+   "first_frost": "Sep 21",
+   "growing_days": 123,
+   "ecoregion": "Northwestern Glaciated Plains",
+   "ecoregion_code": "42",
+   "nws_office": "Bismarck, ND",
+   "nws_cwa": "BIS",
+   "nwr": [
+    {
+     "call": "WXL84",
+     "freq": "162.550",
+     "same": "038105"
+    }
+   ],
+   "state_em": "North Dakota Department of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.6
+  }
+ }
+}

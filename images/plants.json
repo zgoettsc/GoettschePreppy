@@ -1,0 +1,5572 @@
+{
+ "note": "National plant-identification plates for GoettschePreppy. Every image is a real photograph or a published botanical line drawing from a US Government source (USDA NRCS PLANTS, USDA Forest Service, USDA ARS); no AI-generated imagery is ever acceptable for identification. Each image was looked at before selection: the \"shows\" text describes what is actually in the frame, and images with a copyright notice in the frame were refused even when the source record says public domain. Plates help you recognise danger; they do not make a photograph an identification for eating.",
+ "collections": {
+  "usda-plants": {
+   "org": "USDA NRCS PLANTS Database",
+   "source_key": "usda-nrcs-plants-database-plant-profiles-and-image-l-a7089c",
+   "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+   "tier": 1
+  },
+  "usda-ars-pprl": {
+   "org": "USDA ARS Poisonous Plant Research Laboratory (Logan, Utah)",
+   "source_key": "usda-ars-poisonous-plant-research-laboratory-water-h-ab9a68",
+   "license": "Public domain: US Government work (USDA Agricultural Research Service).",
+   "tier": 1
+  }
+ },
+ "plants": [
+  {
+   "key": "water-hemlock",
+   "common": "Water hemlock",
+   "scientific": "Cicuta maculata",
+   "symbol": "CIMA2",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 9852,
+     "file": "images/plates/water-hemlock/cima2_002_lhp.jpg",
+     "feature": "flower",
+     "shows": "The flower head: small white flowers in a loose, domed umbrella."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 45654,
+     "file": "images/plates/water-hemlock/cima2_006_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing of the whole plant: branching habit, compound toothed leaves, and the fruit enlarged."
+    }
+   ]
+  },
+  {
+   "key": "western-water-hemlock",
+   "common": "Western water hemlock",
+   "scientific": "Cicuta douglasii",
+   "symbol": "CIDO",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 9788,
+     "file": "images/plates/western-water-hemlock/cido_001_lhp.jpg",
+     "feature": "flower",
+     "shows": "Umbrella-shaped clusters of small white-to-greenish flowers."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 45642,
+     "file": "images/plates/western-water-hemlock/cido_002_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the flower umbrellas, the leaf of narrow toothed leaflets, and the fruit enlarged."
+    },
+    {
+     "collection": "usda-ars-pprl",
+     "imageId": null,
+     "file": "images/plates/western-water-hemlock/whemlock3.jpg",
+     "feature": "root",
+     "shows": "CONFIRMATION ONLY, NOT A FIELD TEST: the rootstalk of western water hemlock split lengthwise, showing the chambers that hold the poisonous liquid. Do not cut one open to check: the liquid poisons skin too. Identify by leaf, stem and wet habitat instead."
+    }
+   ]
+  },
+  {
+   "key": "bulblet-water-hemlock",
+   "common": "Bulblet-bearing water hemlock",
+   "scientific": "Cicuta bulbifera",
+   "symbol": "CIBU",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 45639,
+     "file": "images/plates/bulblet-water-hemlock/cibu_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the narrow, thread-like leaf segments and small flower umbrellas, with the fruit enlarged."
+    }
+   ]
+  },
+  {
+   "key": "poison-hemlock",
+   "common": "Poison hemlock",
+   "scientific": "Conium maculatum",
+   "symbol": "COMA2",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 10972,
+     "file": "images/plates/poison-hemlock/coma2_013_lhp.jpg",
+     "feature": "whole",
+     "shows": "A flowering stand at a field edge: tall, with a mass of white flower umbrellas. This is how you usually meet it."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 10979,
+     "file": "images/plates/poison-hemlock/coma2_020_lvp.jpg",
+     "feature": "stem",
+     "shows": "THE FEATURE THAT MATTERS: the smooth, hairless green stem with purple-to-maroon blotches."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 10978,
+     "file": "images/plates/poison-hemlock/coma2_019_lhp.jpg",
+     "feature": "leaf",
+     "shows": "The leaf: finely divided, fern-like and glossy. Smell proves nothing; identify by stem, leaf and habitat."
+    }
+   ]
+  },
+  {
+   "key": "fools-parsley",
+   "common": "Fool's parsley",
+   "scientific": "Aethusa cynapium",
+   "symbol": "AECY2",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 43950,
+     "file": "images/plates/fools-parsley/aecy2_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: finely divided parsley-like leaves and the small flower umbrellas, with the flower and fruit enlarged."
+    }
+   ]
+  },
+  {
+   "key": "wild-parsnip",
+   "common": "Wild parsnip",
+   "scientific": "Pastinaca sativa",
+   "symbol": "PASA2",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "contact",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 48690,
+     "file": "images/plates/wild-parsnip/pasa2_001_lhd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the coarsely toothed compound leaves and the flat flower head. The flowers are YELLOW, not white."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 29083,
+     "file": "images/plates/wild-parsnip/pasa2_003_lhp.jpg",
+     "feature": "seed",
+     "shows": "The flat, ribbed seeds (scale bar shown)."
+    }
+   ]
+  },
+  {
+   "key": "cow-parsnip",
+   "common": "Cow parsnip",
+   "scientific": "Heracleum maximum",
+   "symbol": "HEMA80",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "contact",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 19489,
+     "file": "images/plates/cow-parsnip/hela4_002_lhp.jpg",
+     "feature": "flower",
+     "shows": "Flower umbrellas going to seed: many small heads on radiating stalks."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 19490,
+     "file": "images/plates/cow-parsnip/hela4_003_lhp.jpg",
+     "feature": "leaf",
+     "shows": "The leaf: broad, lobed and toothed like a maple leaf, much larger than any hemlock leaflet."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 46982,
+     "file": "images/plates/cow-parsnip/hela4_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the large lobed leaf, the flat flower head and the flattened fruit."
+    }
+   ]
+  },
+  {
+   "key": "nuttalls-death-camas",
+   "common": "Nuttall's death camas",
+   "scientific": "Toxicoscordion nuttallii",
+   "symbol": "ZINU",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 50533,
+     "file": "images/plates/nuttalls-death-camas/tonu2_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the bulb, the grass-like leaves and the rounded flower cluster, with a flower enlarged."
+    }
+   ]
+  },
+  {
+   "key": "mountain-death-camas",
+   "common": "Mountain death camas",
+   "scientific": "Anticlea elegans",
+   "symbol": "ZIEL2",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 43797,
+     "file": "images/plates/mountain-death-camas/ziel2_008_lvp.jpg",
+     "feature": "whole",
+     "shows": "THE DANGEROUS STAGE: grass-like folded leaves from a bulb, no flower yet. No onion smell means not onion."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 43799,
+     "file": "images/plates/mountain-death-camas/ziel2_010_lvp.jpg",
+     "feature": "flower",
+     "shows": "The flower spike: creamy-white six-parted flowers with a green gland at the base of each petal."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 51004,
+     "file": "images/plates/mountain-death-camas/ziel2_005_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the bulb, the grass-like leaves and the flower spike together."
+    }
+   ]
+  },
+  {
+   "key": "fly-poison",
+   "common": "Fly poison",
+   "scientific": "Amianthium muscitoxicum",
+   "symbol": "AMMU",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 45579,
+     "file": "images/plates/fly-poison/chmu5_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the strap-like leaves, the bulb and the dense spike of flowers."
+    }
+   ]
+  },
+  {
+   "key": "star-of-bethlehem",
+   "common": "Star of Bethlehem",
+   "scientific": "Ornithogalum umbellatum",
+   "symbol": "ORUM",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 48343,
+     "file": "images/plates/star-of-bethlehem/orum_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the cluster of six-petalled star flowers, the narrow leaves and the bulb."
+    }
+   ]
+  },
+  {
+   "key": "daffodil",
+   "common": "Daffodil",
+   "scientific": "Narcissus pseudonarcissus",
+   "symbol": "NAPS",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 48209,
+     "file": "images/plates/daffodil/naps_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the trumpet flower, the strap-shaped leaves and the bulb."
+    }
+   ]
+  },
+  {
+   "key": "lily-of-the-valley",
+   "common": "Lily of the valley",
+   "scientific": "Convallaria majalis",
+   "symbol": "COMA7",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 45750,
+     "file": "images/plates/lily-of-the-valley/coma7_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: two broad leaves with parallel veins and the arching stalk of small nodding bell flowers."
+    }
+   ]
+  },
+  {
+   "key": "western-monkshood",
+   "common": "Western monkshood",
+   "scientific": "Aconitum columbianum",
+   "symbol": "ACCO4",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 346,
+     "file": "images/plates/western-monkshood/acco4_009_lvp.jpg",
+     "feature": "flower",
+     "shows": "Black-and-white photograph of a flowering stem: hood-shaped flowers and deeply cut hand-shaped leaves."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 43907,
+     "file": "images/plates/western-monkshood/acco4_008_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the stem with hooded flowers and a deeply lobed leaf."
+    }
+   ]
+  },
+  {
+   "key": "dwarf-larkspur",
+   "common": "Dwarf larkspur",
+   "scientific": "Delphinium tricorne",
+   "symbol": "DETR",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 46078,
+     "file": "images/plates/dwarf-larkspur/detr_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the deeply divided finger-like leaves and the spurred flowers along the stalk."
+    }
+   ]
+  },
+  {
+   "key": "red-baneberry",
+   "common": "Red baneberry",
+   "scientific": "Actaea rubra",
+   "symbol": "ACRU2",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 612,
+     "file": "images/plates/red-baneberry/acru2_008_lhp.jpg",
+     "feature": "fruit",
+     "shows": "A cluster of glossy red berries on green stalks above the large toothed, divided leaves."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 43927,
+     "file": "images/plates/red-baneberry/acru2_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the divided toothed leaf, the round flower head and the berry cluster."
+    }
+   ]
+  },
+  {
+   "key": "white-baneberry",
+   "common": "White baneberry",
+   "scientific": "Actaea pachypoda",
+   "symbol": "ACPA",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 528,
+     "file": "images/plates/white-baneberry/acpa_001_lvp.jpg",
+     "feature": "whole",
+     "shows": "The plant in flower in shady woods: divided leaves and a single upright white flower head."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 529,
+     "file": "images/plates/white-baneberry/acpa_002_lvp.jpg",
+     "feature": "flower",
+     "shows": "The fluffy white flower head held above the toothed leaflets."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 43896,
+     "file": "images/plates/white-baneberry/acal7_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the divided leaf, the flower head and the berries on thick stalks."
+    }
+   ]
+  },
+  {
+   "key": "cursed-buttercup",
+   "common": "Cursed buttercup",
+   "scientific": "Ranunculus sceleratus",
+   "symbol": "RASC3",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 35397,
+     "file": "images/plates/cursed-buttercup/rasc3_002_lhp.jpg",
+     "feature": "flower",
+     "shows": "Flowering stems: small pale yellow buttercup flowers and the elongated green seed heads."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 35398,
+     "file": "images/plates/cursed-buttercup/rasc3_003_lhp.jpg",
+     "feature": "leaf",
+     "shows": "The glossy, rounded, deeply lobed basal leaves."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 49517,
+     "file": "images/plates/cursed-buttercup/rasc3_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the branching plant with lobed leaves, small flowers and cylindrical seed heads."
+    }
+   ]
+  },
+  {
+   "key": "jimsonweed",
+   "common": "Jimsonweed",
+   "scientific": "Datura stramonium",
+   "symbol": "DAST",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 46050,
+     "file": "images/plates/jimsonweed/dast_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the toothed leaf, the long trumpet flower, and the egg-shaped seed pod covered in spines."
+    }
+   ]
+  },
+  {
+   "key": "horse-nettle",
+   "common": "Horse nettle",
+   "scientific": "Solanum carolinense",
+   "symbol": "SOCA3",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 38803,
+     "file": "images/plates/horse-nettle/soca3_002_shp.jpg",
+     "feature": "fruit",
+     "shows": "Yellow marble-sized berries hanging from a dry stem in late season."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 50105,
+     "file": "images/plates/horse-nettle/soca3_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: prickly lobed leaves, star-shaped flowers with a central cone, and the round berries."
+    }
+   ]
+  },
+  {
+   "key": "silverleaf-nightshade",
+   "common": "Silverleaf nightshade",
+   "scientific": "Solanum elaeagnifolium",
+   "symbol": "SOEL",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 50116,
+     "file": "images/plates/silverleaf-nightshade/soel_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: narrow wavy-edged leaves on a prickly stem, star-shaped flowers and round berries."
+    }
+   ]
+  },
+  {
+   "key": "black-henbane",
+   "common": "Black henbane",
+   "scientific": "Hyoscyamus niger",
+   "symbol": "HYNI",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 47179,
+     "file": "images/plates/black-henbane/hyni_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the lobed leaves, the veined funnel flowers and the capped seed pods."
+    }
+   ]
+  },
+  {
+   "key": "pokeweed",
+   "common": "Pokeweed",
+   "scientific": "Phytolacca americana",
+   "symbol": "PHAM4",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 30604,
+     "file": "images/plates/pokeweed/pham4_002_lvp.jpg",
+     "feature": "flower",
+     "shows": "A flower spike (raceme): small whitish flowers on short stalks along a central stem, before the berries form."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 48858,
+     "file": "images/plates/pokeweed/pham4_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the large smooth leaves, the long flower and berry clusters, and a flattened ribbed berry."
+    }
+   ]
+  },
+  {
+   "key": "castor-bean",
+   "common": "Castor bean",
+   "scientific": "Ricinus communis",
+   "symbol": "RICO3",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 35934,
+     "file": "images/plates/castor-bean/rico3_002_lhp.jpg",
+     "feature": "seed",
+     "shows": "THE DEADLY PART: the shiny, mottled, bean-like seeds (each about half an inch long). A child who chews a few can die."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 49589,
+     "file": "images/plates/castor-bean/rico3_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the large star-shaped leaf with pointed lobes and the spiny seed capsule."
+    }
+   ]
+  },
+  {
+   "key": "snow-on-the-mountain",
+   "common": "Snow on the mountain",
+   "scientific": "Euphorbia marginata",
+   "symbol": "EUMA8",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "contact",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 17020,
+     "file": "images/plates/snow-on-the-mountain/euma8_001_svp.jpg",
+     "feature": "whole",
+     "shows": "The whole plant on open prairie ground: upper leaves edged in white, giving a snowy look from a distance."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 46121,
+     "file": "images/plates/snow-on-the-mountain/dima13_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the oval leaves, the white-margined upper leaves around the small flowers, and the seed capsule."
+    }
+   ]
+  },
+  {
+   "key": "spotted-spurge",
+   "common": "Spotted spurge",
+   "scientific": "Euphorbia maculata",
+   "symbol": "CHMA15",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "contact",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 9436,
+     "file": "images/plates/spotted-spurge/chma15_005_lhp.jpg",
+     "feature": "whole",
+     "shows": "A flat mat creeping over concrete: reddish wiry stems with small paired oval leaves."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 9434,
+     "file": "images/plates/spotted-spurge/chma15_003_lhp.jpg",
+     "feature": "leaf",
+     "shows": "Close view of the small paired leaves and tiny flowers along the stems. Break a stem: the sap is milky."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 45572,
+     "file": "images/plates/spotted-spurge/chma15_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the sprawling branched stem with small paired leaves, with leaf and seed enlarged."
+    }
+   ]
+  },
+  {
+   "key": "dogbane",
+   "common": "Hemp dogbane",
+   "scientific": "Apocynum cannabinum",
+   "symbol": "APCA",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 2508,
+     "file": "images/plates/dogbane/apsi_002_lvp.jpg",
+     "feature": "whole",
+     "shows": "A young plant: narrow paired leaves on an upright stem, the stage confused with milkweed shoots."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 44332,
+     "file": "images/plates/dogbane/apca_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: paired oval leaves, the clusters of small bell flowers, and the long thin seed pods."
+    }
+   ]
+  },
+  {
+   "key": "canada-yew",
+   "common": "Canada yew",
+   "scientific": "Taxus canadensis",
+   "symbol": "TACA7",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 40334,
+     "file": "images/plates/canada-yew/taca7_003_lhp.jpg",
+     "feature": "leaf",
+     "shows": "Black-and-white photograph of twigs: flat needles in two rows and the cup-shaped berry-like cones with the seed visible."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 50436,
+     "file": "images/plates/canada-yew/taca7_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: a branch with flat needles in two rows, with the berry-like cone enlarged."
+    }
+   ]
+  },
+  {
+   "key": "ohio-buckeye",
+   "common": "Ohio buckeye",
+   "scientific": "Aesculus glabra",
+   "symbol": "AEGL",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 863,
+     "file": "images/plates/ohio-buckeye/aegl_002_lhp.jpg",
+     "feature": "fruit",
+     "shows": "A husked buckeye fruit hanging among the hand-shaped leaves."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 866,
+     "file": "images/plates/ohio-buckeye/aegl_005_lhp.jpg",
+     "feature": "leaf",
+     "shows": "The leaves: five narrow toothed leaflets spreading from one point, like an open hand. Chestnut leaves are single."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 43951,
+     "file": "images/plates/ohio-buckeye/aegl_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the hand-shaped leaf, the flower cluster, and the prickly husk."
+    }
+   ]
+  },
+  {
+   "key": "yellow-buckeye",
+   "common": "Yellow buckeye",
+   "scientific": "Aesculus flava",
+   "symbol": "AEFL",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 885,
+     "file": "images/plates/yellow-buckeye/aeoc2_004_lvp.jpg",
+     "feature": "leaf",
+     "shows": "Black-and-white photograph: a hand-shaped leaf of five leaflets with smooth round husks."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 886,
+     "file": "images/plates/yellow-buckeye/aeoc2_005_lvp.jpg",
+     "feature": "seed",
+     "shows": "The nuts: glossy, dark, rounded, each with a large pale \"eye\". These are poisonous, not chestnuts."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 43953,
+     "file": "images/plates/yellow-buckeye/aeoc2_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the hand-shaped leaf, the flower cluster and a split husk with the nut."
+    }
+   ]
+  },
+  {
+   "key": "red-buckeye",
+   "common": "Red buckeye",
+   "scientific": "Aesculus pavia",
+   "symbol": "AEPA",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 896,
+     "file": "images/plates/red-buckeye/aepa_005_lhp.jpg",
+     "feature": "seed",
+     "shows": "A single glossy buckeye nut with its pale scar. Poisonous."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 901,
+     "file": "images/plates/red-buckeye/aepa_011_lhp.jpg",
+     "feature": "flower",
+     "shows": "Black-and-white photograph of a pressed branch: hand-shaped leaves and the long tube-shaped flowers."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 43955,
+     "file": "images/plates/red-buckeye/aepa_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the hand-shaped leaf, the tube flowers and the smooth husk."
+    }
+   ]
+  },
+  {
+   "key": "horse-chestnut",
+   "common": "Horse chestnut",
+   "scientific": "Aesculus hippocastanum",
+   "symbol": "AEHI",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 875,
+     "file": "images/plates/horse-chestnut/aehi_002_lhp.jpg",
+     "feature": "fruit",
+     "shows": "Black-and-white photograph: the husks with short stout spikes, split to show the large glossy nuts. Compare the long dense needles of a true chestnut bur."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 43952,
+     "file": "images/plates/horse-chestnut/aehi_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the hand-shaped leaf of seven leaflets, the flower cluster, the spiky husk and the nut."
+    }
+   ]
+  },
+  {
+   "key": "tansy-ragwort",
+   "common": "Tansy ragwort",
+   "scientific": "Jacobaea vulgaris",
+   "symbol": "SEJA",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 49962,
+     "file": "images/plates/tansy-ragwort/seja_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the deeply cut ragged leaves and the flat-topped cluster of daisy-like flower heads."
+    }
+   ]
+  },
+  {
+   "key": "common-groundsel",
+   "common": "Common groundsel",
+   "scientific": "Senecio vulgaris",
+   "symbol": "SEVU",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 50008,
+     "file": "images/plates/common-groundsel/sevu_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the lobed leaves, the small rayless flower heads with dark-tipped bracts, and a seed with its fluff."
+    }
+   ]
+  },
+  {
+   "key": "common-tansy",
+   "common": "Common tansy",
+   "scientific": "Tanacetum vulgare",
+   "symbol": "TAVU",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 50447,
+     "file": "images/plates/common-tansy/tavu_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the fern-like, deeply cut leaves and the flat cluster of button flower heads."
+    }
+   ]
+  },
+  {
+   "key": "cocklebur",
+   "common": "Common cocklebur",
+   "scientific": "Xanthium strumarium",
+   "symbol": "XAST",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 43482,
+     "file": "images/plates/cocklebur/xast_001_lvp.jpg",
+     "feature": "fruit",
+     "shows": "The green burs, densely covered in hooked spines, on the plant."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 43484,
+     "file": "images/plates/cocklebur/xast_003_lhp.jpg",
+     "feature": "fruit",
+     "shows": "Mature burs about an inch long, covered in hooked spines (scale bar 1 cm)."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 50971,
+     "file": "images/plates/cocklebur/xast_004_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the rough triangular lobed leaves and a bur."
+    }
+   ]
+  },
+  {
+   "key": "black-locust",
+   "common": "Black locust",
+   "scientific": "Robinia pseudoacacia",
+   "symbol": "ROPS",
+   "class": "deadly",
+   "groups": [
+    "deadly",
+    "firewood"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 36154,
+     "file": "images/plates/black-locust/rops_002_lvp.jpg",
+     "feature": "flower",
+     "shows": "Hanging clusters of white pea-shaped flowers among the small oval leaflets."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 36156,
+     "file": "images/plates/black-locust/rops_006_lhp.jpg",
+     "feature": "fruit",
+     "shows": "Black-and-white photograph: a flat dry seed pod (about 3 to 4 inches) beside a ruler."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 49613,
+     "file": "images/plates/black-locust/rops_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the leaf of many oval leaflets, the hanging flower cluster and a pod."
+    }
+   ]
+  },
+  {
+   "key": "kentucky-coffeetree",
+   "common": "Kentucky coffeetree",
+   "scientific": "Gymnocladus dioicus",
+   "symbol": "GYDI",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 18951,
+     "file": "images/plates/kentucky-coffeetree/gydi_002_lvp.jpg",
+     "feature": "fruit",
+     "shows": "Black-and-white photograph: the thick, leathery, curved pod with one of its hard seeds."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 18952,
+     "file": "images/plates/kentucky-coffeetree/gydi_003_lhp.jpg",
+     "feature": "seed",
+     "shows": "The hard, rounded seeds (scale bar 1 cm). Poisonous raw."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 46916,
+     "file": "images/plates/kentucky-coffeetree/gydi_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: leaflets of the very large divided leaf, the flower cluster and the broad pod."
+    }
+   ]
+  },
+  {
+   "key": "lambert-locoweed",
+   "common": "Purple locoweed",
+   "scientific": "Oxytropis lambertii",
+   "symbol": "OXLA3",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 48368,
+     "file": "images/plates/lambert-locoweed/oxla3_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the leaves of many small leaflets from the base, the flower spike on a leafless stalk, and the pod."
+    }
+   ]
+  },
+  {
+   "key": "woolly-locoweed",
+   "common": "Woolly locoweed",
+   "scientific": "Astragalus mollissimus",
+   "symbol": "ASMO7",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 44597,
+     "file": "images/plates/woolly-locoweed/asmo7_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the tufted leaves of many small hairy leaflets, the flower cluster and the pod."
+    }
+   ]
+  },
+  {
+   "key": "moonseed",
+   "common": "Common moonseed",
+   "scientific": "Menispermum canadense",
+   "symbol": "MECA3",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 25552,
+     "file": "images/plates/moonseed/meca3_003_lvp.jpg",
+     "feature": "seed",
+     "shows": "THE TEST: grape-like fruit cluster (top) and the seed enlarged (bottom): ONE flat crescent-moon-shaped seed per fruit. Grapes have 2 to 4 pear-shaped seeds."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 47914,
+     "file": "images/plates/moonseed/meca3_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the broad shallowly lobed leaf with the stalk attached inside the edge, the twining stem, flowers and fruit cluster. No tendrils."
+    }
+   ]
+  },
+  {
+   "key": "virginia-creeper",
+   "common": "Virginia creeper",
+   "scientific": "Parthenocissus quinquefolia",
+   "symbol": "PAQU2",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 29051,
+     "file": "images/plates/virginia-creeper/paqu2_003_lhp.jpg",
+     "feature": "leaf",
+     "shows": "The leaf: FIVE toothed leaflets from one point. Poison ivy has three."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 29059,
+     "file": "images/plates/virginia-creeper/paqu2_013_lvp.jpg",
+     "feature": "leaf",
+     "shows": "Black-and-white photograph of a single leaf with five leaflets."
+    }
+   ]
+  },
+  {
+   "key": "red-elderberry",
+   "common": "Red elderberry",
+   "scientific": "Sambucus racemosa",
+   "symbol": "SARA2",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 49817,
+     "file": "images/plates/red-elderberry/sara2_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the leaf of toothed leaflets, the dome-shaped flower cluster and a berry."
+    }
+   ]
+  },
+  {
+   "key": "common-buckthorn",
+   "common": "Common buckthorn",
+   "scientific": "Rhamnus cathartica",
+   "symbol": "RHCA3",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 49543,
+     "file": "images/plates/common-buckthorn/rhca3_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the oval finely toothed leaves with curved veins, flowers, and a berry."
+    }
+   ]
+  },
+  {
+   "key": "american-holly",
+   "common": "American holly",
+   "scientific": "Ilex opaca",
+   "symbol": "ILOP",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 20670,
+     "file": "images/plates/american-holly/ilop_002_lhp.jpg",
+     "feature": "leaf",
+     "shows": "The stiff, glossy, spiny-edged evergreen leaves, with green berries."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 20681,
+     "file": "images/plates/american-holly/ilop_014_lvp.jpg",
+     "feature": "leaf",
+     "shows": "Black-and-white photograph: a twig with spiny leaves and small flowers."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 47228,
+     "file": "images/plates/american-holly/ilop_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the spiny leaves and berry clusters."
+    }
+   ]
+  },
+  {
+   "key": "american-mistletoe",
+   "common": "American mistletoe",
+   "scientific": "Phoradendron leucarpum",
+   "symbol": "PHLE14",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 48896,
+     "file": "images/plates/american-mistletoe/phfl2_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the thick oval leaves, small flowers and round berries."
+    }
+   ]
+  },
+  {
+   "key": "corn-cockle",
+   "common": "Corn cockle",
+   "scientific": "Agrostemma githago",
+   "symbol": "AGGI",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 44000,
+     "file": "images/plates/corn-cockle/aggi_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: narrow paired leaves, the five-petalled flower with long sepals reaching past the petals, and the seed capsule."
+    }
+   ]
+  },
+  {
+   "key": "scarlet-pimpernel",
+   "common": "Scarlet pimpernel",
+   "scientific": "Anagallis arvensis",
+   "symbol": "ANAR",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 2019,
+     "file": "images/plates/scarlet-pimpernel/anar_008_shp.jpg",
+     "feature": "flower",
+     "shows": "A low patch covered in small salmon-orange five-petalled flowers."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 44219,
+     "file": "images/plates/scarlet-pimpernel/anar_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the square sprawling stems with paired stalkless leaves, the flowers and the round seed capsules."
+    }
+   ]
+  },
+  {
+   "key": "bracken-fern",
+   "common": "Bracken fern",
+   "scientific": "Pteridium aquilinum",
+   "symbol": "PTAQ",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 49369,
+     "file": "images/plates/bracken-fern/ptaq_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the broad triangular frond divided into many segments, with a segment enlarged."
+    }
+   ]
+  },
+  {
+   "key": "mayapple",
+   "common": "Mayapple",
+   "scientific": "Podophyllum peltatum",
+   "symbol": "POPE",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 33398,
+     "file": "images/plates/mayapple/pope_003_lvp.jpg",
+     "feature": "whole",
+     "shows": "Plants in spring woods: umbrella-like lobed leaves on single stalks, with one white flower beneath."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 33402,
+     "file": "images/plates/mayapple/pope_007_shp.jpg",
+     "feature": "flower",
+     "shows": "The single waxy white flower that hangs under the paired leaves."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 49235,
+     "file": "images/plates/mayapple/pope_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the deeply lobed umbrella leaf, the flower and the egg-shaped fruit."
+    }
+   ]
+  },
+  {
+   "key": "blue-cohosh",
+   "common": "Blue cohosh",
+   "scientific": "Caulophyllum thalictroides",
+   "symbol": "CATH2",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 45401,
+     "file": "images/plates/blue-cohosh/cath2_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the leaf divided into lobed leaflets, the small six-parted flowers, and the cluster of round berry-like seeds."
+    }
+   ]
+  },
+  {
+   "key": "bloodroot",
+   "common": "Bloodroot",
+   "scientific": "Sanguinaria canadensis",
+   "symbol": "SACA13",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 36742,
+     "file": "images/plates/bloodroot/saca13_003_lhp.jpg",
+     "feature": "flower",
+     "shows": "White many-petalled flowers rising through dead leaves in early spring."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 36744,
+     "file": "images/plates/bloodroot/saca13_005_lhp.jpg",
+     "feature": "leaf",
+     "shows": "The large rounded, lobed leaf that unfolds after flowering."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 49722,
+     "file": "images/plates/bloodroot/saca13_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the flower, the lobed leaf wrapped round the stalk, the thick rootstock and the seed pod."
+    }
+   ]
+  },
+  {
+   "key": "greater-celandine",
+   "common": "Greater celandine",
+   "scientific": "Chelidonium majus",
+   "symbol": "CHMA2",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 45574,
+     "file": "images/plates/greater-celandine/chma2_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the lobed leaflets, the small four-petalled flowers and the long thin seed pods."
+    }
+   ]
+  },
+  {
+   "key": "dutchmans-breeches",
+   "common": "Dutchman's breeches",
+   "scientific": "Dicentra cucullaria",
+   "symbol": "DICU",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 13194,
+     "file": "images/plates/dutchmans-breeches/dicu_002_lhp.jpg",
+     "feature": "flower",
+     "shows": "A patch of fern-like grey-green leaves with stalks of white \"upside-down pants\" flowers."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 44789,
+     "file": "images/plates/dutchmans-breeches/bicu2_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the finely cut leaves, the flower stalk, a flower enlarged and the seed pod."
+    }
+   ]
+  },
+  {
+   "key": "mexican-prickly-poppy",
+   "common": "Mexican prickly poppy",
+   "scientific": "Argemone mexicana",
+   "symbol": "ARME4",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 3088,
+     "file": "images/plates/mexican-prickly-poppy/arme4_002_shp.jpg",
+     "feature": "whole",
+     "shows": "The spiny grey-blue plant with yellow-orange poppy flowers."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 44456,
+     "file": "images/plates/mexican-prickly-poppy/arme4_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the spiny thistle-like leaves, the poppy flower and the spiny seed capsule."
+    }
+   ]
+  },
+  {
+   "key": "jack-in-the-pulpit",
+   "common": "Jack-in-the-pulpit",
+   "scientific": "Arisaema triphyllum",
+   "symbol": "ARTR",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 3410,
+     "file": "images/plates/jack-in-the-pulpit/artr_002_lhp.jpg",
+     "feature": "flower",
+     "shows": "The \"pulpit\": a green hooded flower with a club standing inside, beneath a leaf of three leaflets."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 44509,
+     "file": "images/plates/jack-in-the-pulpit/artr_005_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the plant with its leaves of three leaflets and the hooded flower."
+    }
+   ]
+  },
+  {
+   "key": "eastern-skunk-cabbage",
+   "common": "Eastern skunk cabbage",
+   "scientific": "Symplocarpus foetidus",
+   "symbol": "SYFO",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 40186,
+     "file": "images/plates/eastern-skunk-cabbage/syfo_001_lvp.jpg",
+     "feature": "flower",
+     "shows": "The mottled purple-brown hood that pushes up through swamp mud in late winter, with the knob-like flower head inside."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 50235,
+     "file": "images/plates/eastern-skunk-cabbage/spfo2_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the hood, the flower head and the large cabbage-like leaf."
+    }
+   ]
+  },
+  {
+   "key": "arrow-arum",
+   "common": "Arrow arum",
+   "scientific": "Peltandra virginica",
+   "symbol": "PEVI",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 30507,
+     "file": "images/plates/arrow-arum/pevi_002_lhp.jpg",
+     "feature": "whole",
+     "shows": "A dense clump of large arrowhead-shaped leaves."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 48845,
+     "file": "images/plates/arrow-arum/pevi_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the arrowhead leaf with a vein along the edge, the hooded flower and the berry cluster."
+    }
+   ]
+  },
+  {
+   "key": "blue-flag-iris",
+   "common": "Northern blue flag",
+   "scientific": "Iris versicolor",
+   "symbol": "IRVE2",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 21185,
+     "file": "images/plates/blue-flag-iris/irve2_005_lhp.jpg",
+     "feature": "flower",
+     "shows": "The violet-blue iris flower with yellow-and-white veined falls."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 47270,
+     "file": "images/plates/blue-flag-iris/irve2_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the flat sword-shaped leaves, the iris flower and the seed capsule."
+    }
+   ]
+  },
+  {
+   "key": "southern-blue-flag",
+   "common": "Southern blue flag",
+   "scientific": "Iris virginica",
+   "symbol": "IRVI",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 21183,
+     "file": "images/plates/southern-blue-flag/irve2_003_lvp.jpg",
+     "feature": "whole",
+     "shows": "A clump of flat sword-shaped leaves standing at the water's edge: the stage confused with young cattail."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 21192,
+     "file": "images/plates/southern-blue-flag/irvi_001_lhp.jpg",
+     "feature": "flower",
+     "shows": "The blue-violet iris flower with a yellow patch on the falls."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 47272,
+     "file": "images/plates/southern-blue-flag/irvi_004_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the long sword-shaped leaves and the flower."
+    }
+   ]
+  },
+  {
+   "key": "yellow-flag-iris",
+   "common": "Yellow flag iris",
+   "scientific": "Iris pseudacorus",
+   "symbol": "IRPS",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 21143,
+     "file": "images/plates/yellow-flag-iris/irps_002_lhp.jpg",
+     "feature": "flower",
+     "shows": "The bright yellow iris flower among sword-shaped leaves."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 47267,
+     "file": "images/plates/yellow-flag-iris/irps_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the flower, the flat leaves and the rootstock."
+    }
+   ]
+  },
+  {
+   "key": "rocky-mountain-iris",
+   "common": "Rocky Mountain iris",
+   "scientific": "Iris missouriensis",
+   "symbol": "IRMI",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 21130,
+     "file": "images/plates/rocky-mountain-iris/irmi_014_lvp.jpg",
+     "feature": "whole",
+     "shows": "Black-and-white photograph: a dense stand in a wet meadow, flowers held above the sword-shaped leaves."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 47263,
+     "file": "images/plates/rocky-mountain-iris/irmi_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the flower, the narrow leaves, the rootstock and the seed capsule."
+    }
+   ]
+  },
+  {
+   "key": "poison-ivy",
+   "common": "Poison ivy",
+   "scientific": "Toxicodendron radicans",
+   "symbol": "TORA2",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "contact",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 41195,
+     "file": "images/plates/poison-ivy/tora2_002_lhp.jpg",
+     "feature": "leaf",
+     "shows": "THREE LEAFLETS on one stalk, the middle leaflet on a longer stalk than the two side ones. Leaf edges vary on the same plant."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 41196,
+     "file": "images/plates/poison-ivy/tora2_003_lhp.jpg",
+     "feature": "leaf",
+     "shows": "The same three-leaflet pattern with a glossier surface, climbing."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 50537,
+     "file": "images/plates/poison-ivy/tora2_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the three-leaflet leaves and the clusters of dull WHITE berries."
+    }
+   ]
+  },
+  {
+   "key": "atlantic-poison-oak",
+   "common": "Atlantic poison oak",
+   "scientific": "Toxicodendron pubescens",
+   "symbol": "TOPU2",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "contact",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 41191,
+     "file": "images/plates/atlantic-poison-oak/toqu_001_lhp.jpg",
+     "feature": "leaf",
+     "shows": "THREE leaflets with rounded, oak-like lobes."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 50536,
+     "file": "images/plates/atlantic-poison-oak/topu2_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the low stem with three-lobed leaflets in threes, and a berry."
+    }
+   ]
+  },
+  {
+   "key": "poison-sumac",
+   "common": "Poison sumac",
+   "scientific": "Toxicodendron vernix",
+   "symbol": "TOVE",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "contact",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 41245,
+     "file": "images/plates/poison-sumac/tove_002_lhp.jpg",
+     "feature": "leaf",
+     "shows": "A leaf in fall colour: smooth-edged pointed leaflets on a reddish stalk."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 50540,
+     "file": "images/plates/poison-sumac/tove_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the leaf of smooth-edged leaflets and the DROOPING cluster of whitish berries."
+    }
+   ]
+  },
+  {
+   "key": "indian-tobacco",
+   "common": "Indian tobacco",
+   "scientific": "Lobelia inflata",
+   "symbol": "LOIN",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 47710,
+     "file": "images/plates/indian-tobacco/loin_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the hairy leafy stem, the small two-lipped flowers along it, and the inflated seed pods."
+    }
+   ]
+  },
+  {
+   "key": "broadleaf-plantain",
+   "common": "Broadleaf plantain",
+   "scientific": "Plantago major",
+   "symbol": "PLMA2",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 32588,
+     "file": "images/plates/broadleaf-plantain/plma2_006_lvp.jpg",
+     "feature": "leaf",
+     "shows": "A broad oval leaf with strong parallel veins, and the narrow green flower spike."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 32585,
+     "file": "images/plates/broadleaf-plantain/plma2_002_lhp.jpg",
+     "feature": "whole",
+     "shows": "The whole rosette flat against the ground, with spikes rising from the centre."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 49013,
+     "file": "images/plates/broadleaf-plantain/plma2_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the parallel-veined leaf, the spike and the fibrous roots."
+    }
+   ]
+  },
+  {
+   "key": "narrowleaf-plantain",
+   "common": "Narrowleaf plantain",
+   "scientific": "Plantago lanceolata",
+   "symbol": "PLLA",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 49012,
+     "file": "images/plates/narrowleaf-plantain/plla_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the long narrow ribbed leaves and the short dense flower head on a long stalk."
+    }
+   ]
+  },
+  {
+   "key": "lambs-quarters",
+   "common": "Lamb's quarters",
+   "scientific": "Chenopodium album",
+   "symbol": "CHAL7",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "caution",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 9102,
+     "file": "images/plates/lambs-quarters/chal7_002_lvp.jpg",
+     "feature": "whole",
+     "shows": "The whole plant: upright and branching, with diamond-to-triangular leaves and dense greenish flower spikes."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 45505,
+     "file": "images/plates/lambs-quarters/chal7_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the leaf shape and the flower cluster, with the seed enlarged."
+    }
+   ]
+  },
+  {
+   "key": "purslane",
+   "common": "Purslane",
+   "scientific": "Portulaca oleracea",
+   "symbol": "POOL",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 49227,
+     "file": "images/plates/purslane/pool_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the sprawling stems, thick paddle-shaped succulent leaves and small flowers. No public-domain photograph was found; learn it in person."
+    }
+   ]
+  },
+  {
+   "key": "redroot-amaranth",
+   "common": "Redroot amaranth",
+   "scientific": "Amaranthus retroflexus",
+   "symbol": "AMRE",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "caution",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 1911,
+     "file": "images/plates/redroot-amaranth/amre_002_lvp.jpg",
+     "feature": "whole",
+     "shows": "The whole plant: stout stem, dense bristly green flower spike, oval pointed leaves."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 44206,
+     "file": "images/plates/redroot-amaranth/amre_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the leaf, the bristly seed head and flowers enlarged."
+    }
+   ]
+  },
+  {
+   "key": "stinging-nettle",
+   "common": "Stinging nettle",
+   "scientific": "Urtica dioica",
+   "symbol": "URDI",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 42228,
+     "file": "images/plates/stinging-nettle/urdi_007_lvp.jpg",
+     "feature": "stem",
+     "shows": "The stem covered in stinging hairs, with paired leaves."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 42229,
+     "file": "images/plates/stinging-nettle/urdi_008_lhp.jpg",
+     "feature": "leaf",
+     "shows": "Leaves in opposite pairs: coarsely toothed, pointed tips."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 42232,
+     "file": "images/plates/stinging-nettle/urdi_011_lhp.jpg",
+     "feature": "flower",
+     "shows": "Drooping greenish flower strings hanging from the leaf joints."
+    }
+   ]
+  },
+  {
+   "key": "wood-nettle",
+   "common": "Wood nettle",
+   "scientific": "Laportea canadensis",
+   "symbol": "LACA3",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 22103,
+     "file": "images/plates/wood-nettle/laca3_001_lhp.jpg",
+     "feature": "leaf",
+     "shows": "Broad, oval, toothed leaves alternating along the stem, with branched clusters of small whitish flowers."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 47470,
+     "file": "images/plates/wood-nettle/laca3_003_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the broad toothed leaves and the branched flower clusters."
+    }
+   ]
+  },
+  {
+   "key": "yellow-wood-sorrel",
+   "common": "Yellow wood sorrel",
+   "scientific": "Oxalis stricta",
+   "symbol": "OXST",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 50955,
+     "file": "images/plates/yellow-wood-sorrel/xabu_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the leaves of three heart-shaped leaflets, the small flowers and the upright seed pods."
+    }
+   ]
+  },
+  {
+   "key": "curly-dock",
+   "common": "Curly dock",
+   "scientific": "Rumex crispus",
+   "symbol": "RUCR",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "caution",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 36343,
+     "file": "images/plates/curly-dock/rucr_003_lhp.jpg",
+     "feature": "leaf",
+     "shows": "A long narrow leaf with strongly wavy, crinkled edges."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 36342,
+     "file": "images/plates/curly-dock/rucr_002_lvp.jpg",
+     "feature": "flower",
+     "shows": "The tall stalk of dense small green flower clusters."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 49650,
+     "file": "images/plates/curly-dock/rucr_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the long leaves, the flower stalk and the winged seed enlarged."
+    }
+   ]
+  },
+  {
+   "key": "sheep-sorrel",
+   "common": "Sheep sorrel",
+   "scientific": "Rumex acetosella",
+   "symbol": "RUAC3",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 36251,
+     "file": "images/plates/sheep-sorrel/ruac3_003_lhp.jpg",
+     "feature": "whole",
+     "shows": "Reddish flowering stalks rising from low patches in grass."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 36250,
+     "file": "images/plates/sheep-sorrel/ruac3_002_lvp.jpg",
+     "feature": "flower",
+     "shows": "Close view of the stalk of tiny red flowers and seeds."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 49630,
+     "file": "images/plates/sheep-sorrel/ruac3_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the arrowhead-shaped leaves with two spreading lobes at the base, and the flower stalk."
+    }
+   ]
+  },
+  {
+   "key": "garlic-mustard",
+   "common": "Garlic mustard",
+   "scientific": "Alliaria petiolata",
+   "symbol": "ALPE4",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 44096,
+     "file": "images/plates/garlic-mustard/alal8_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the triangular toothed upper leaves, the kidney-shaped lower leaves, the four-petalled flowers and the long pods."
+    }
+   ]
+  },
+  {
+   "key": "shepherds-purse",
+   "common": "Shepherd's purse",
+   "scientific": "Capsella bursa-pastoris",
+   "symbol": "CABU2",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 6503,
+     "file": "images/plates/shepherds-purse/cabu2_001_lvp.jpg",
+     "feature": "fruit",
+     "shows": "The flat heart-shaped seed pods on thin stalks."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 6504,
+     "file": "images/plates/shepherds-purse/cabu2_002_lhp.jpg",
+     "feature": "leaf",
+     "shows": "The ground rosette of toothed, lobed leaves."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 44949,
+     "file": "images/plates/shepherds-purse/bubu3_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the rosette leaves, the flowering stalk and a heart-shaped pod enlarged."
+    }
+   ]
+  },
+  {
+   "key": "common-blue-violet",
+   "common": "Common blue violet",
+   "scientific": "Viola sororia",
+   "symbol": "VISO",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 50850,
+     "file": "images/plates/common-blue-violet/vila7_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the heart-shaped scalloped leaves and the five-petalled flowers on their own stalks."
+    }
+   ]
+  },
+  {
+   "key": "white-clover",
+   "common": "White clover",
+   "scientific": "Trifolium repens",
+   "symbol": "TRRE3",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 50639,
+     "file": "images/plates/white-clover/trre3_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the creeping stem, leaves of three round leaflets and the round white flower head."
+    }
+   ]
+  },
+  {
+   "key": "red-clover",
+   "common": "Red clover",
+   "scientific": "Trifolium pratense",
+   "symbol": "TRPR2",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 41819,
+     "file": "images/plates/red-clover/trpr2_002_lvp.jpg",
+     "feature": "flower",
+     "shows": "The round pink-purple flower head with a leaf below."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 50629,
+     "file": "images/plates/red-clover/trpr2_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the leaves of three oval leaflets and the round flower head."
+    }
+   ]
+  },
+  {
+   "key": "chicory",
+   "common": "Chicory",
+   "scientific": "Cichorium intybus",
+   "symbol": "CIIN",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 45647,
+     "file": "images/plates/chicory/ciin_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the toothed basal leaves, the stiff stem and the square-tipped ray flowers."
+    }
+   ]
+  },
+  {
+   "key": "common-burdock",
+   "common": "Common burdock",
+   "scientific": "Arctium minus",
+   "symbol": "ARMI2",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "caution",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 44460,
+     "file": "images/plates/common-burdock/armi2_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the large heart-shaped leaves and the round burs with hooked bristles."
+    }
+   ]
+  },
+  {
+   "key": "henbit",
+   "common": "Henbit",
+   "scientific": "Lamium amplexicaule",
+   "symbol": "LAAM",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 47464,
+     "file": "images/plates/henbit/laam_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the round scalloped leaves clasping the square stem in pairs, and the tube flowers."
+    }
+   ]
+  },
+  {
+   "key": "purple-deadnettle",
+   "common": "Purple deadnettle",
+   "scientific": "Lamium purpureum",
+   "symbol": "LAPU2",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 47498,
+     "file": "images/plates/purple-deadnettle/lapu2_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the crowded triangular scalloped leaves on a square stem, and the small tube flowers."
+    }
+   ]
+  },
+  {
+   "key": "black-mustard",
+   "common": "Black mustard",
+   "scientific": "Brassica nigra",
+   "symbol": "BRNI",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 5924,
+     "file": "images/plates/black-mustard/brni_002_lvp.jpg",
+     "feature": "whole",
+     "shows": "A flowering stand: bright yellow four-petalled flowers on branched stems."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 44912,
+     "file": "images/plates/black-mustard/brni_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the lobed lower leaves, the flowering stem and the short pods pressed to the stem."
+    }
+   ]
+  },
+  {
+   "key": "watercress",
+   "common": "Watercress",
+   "scientific": "Nasturtium officinale",
+   "symbol": "NAOF",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "caution",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 26918,
+     "file": "images/plates/watercress/naof_001_lhp.jpg",
+     "feature": "flower",
+     "shows": "Small white four-petalled flowers above leaves of rounded leaflets."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 49609,
+     "file": "images/plates/watercress/rona2_002_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the leaves of rounded leaflets, the flower cluster and the pods."
+    }
+   ]
+  },
+  {
+   "key": "common-sow-thistle",
+   "common": "Common sow thistle",
+   "scientific": "Sonchus oleraceus",
+   "symbol": "SOOL",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 50149,
+     "file": "images/plates/common-sow-thistle/sool_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the lobed leaves clasping the stem with pointed ear-like lobes, the flower heads and a seed."
+    }
+   ]
+  },
+  {
+   "key": "prickly-lettuce",
+   "common": "Prickly lettuce",
+   "scientific": "Lactuca serriola",
+   "symbol": "LASE",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 22336,
+     "file": "images/plates/prickly-lettuce/lase_002_lvp.jpg",
+     "feature": "leaf",
+     "shows": "A lobed bluish-green leaf with a pale midrib (prickles run along the midrib underneath)."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 22335,
+     "file": "images/plates/prickly-lettuce/lase_001_lvp.jpg",
+     "feature": "flower",
+     "shows": "Small pale yellow flower heads along the stem."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 47505,
+     "file": "images/plates/prickly-lettuce/lase_005_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the lobed clasping leaf and the branched stalk of small flower heads."
+    }
+   ]
+  },
+  {
+   "key": "spring-beauty",
+   "common": "Spring beauty",
+   "scientific": "Claytonia virginica",
+   "symbol": "CLVI3",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 10451,
+     "file": "images/plates/spring-beauty/clvi3_003_lhp.jpg",
+     "feature": "flower",
+     "shows": "A clump of pink-striped five-petalled flowers among dead leaves in early spring."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 45690,
+     "file": "images/plates/spring-beauty/clvi3_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the single pair of narrow leaves, the flowers and the small round tuber."
+    }
+   ]
+  },
+  {
+   "key": "wild-asparagus",
+   "common": "Wild asparagus",
+   "scientific": "Asparagus officinalis",
+   "symbol": "ASOF",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 4264,
+     "file": "images/plates/wild-asparagus/asof_002_lhp.jpg",
+     "feature": "whole",
+     "shows": "The feathery summer stage with small bell flowers: this is how you find the patch for next spring's spears."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 44607,
+     "file": "images/plates/wild-asparagus/asof_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the feathery branches, a flower enlarged and the berry (berries are poisonous)."
+    }
+   ]
+  },
+  {
+   "key": "ostrich-fern",
+   "common": "Ostrich fern",
+   "scientific": "Matteuccia struthiopteris",
+   "symbol": "MAST",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "caution",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 25408,
+     "file": "images/plates/ostrich-fern/mast_002_lhp.jpg",
+     "feature": "leaf",
+     "shows": "A mature frond in summer: long, feather-like, tapering at both ends. The edible fiddleheads are the tightly coiled spring stage of these fronds."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 47877,
+     "file": "images/plates/ostrich-fern/mast_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the tapering frond, a separate brown fertile frond, and leaflet detail."
+    }
+   ]
+  },
+  {
+   "key": "broadleaf-cattail",
+   "common": "Broadleaf cattail",
+   "scientific": "Typha latifolia",
+   "symbol": "TYLA",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "caution",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 42068,
+     "file": "images/plates/broadleaf-cattail/tyla_002_lvp.jpg",
+     "feature": "fruit",
+     "shows": "The brown seed-head spike, the feature everyone recognises. Harvest shoots only from stands identified by these spikes."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 42076,
+     "file": "images/plates/broadleaf-cattail/tyla_010_lvp.jpg",
+     "feature": "flower",
+     "shows": "Green flowering spikes among the long flat leaves, standing in shallow water."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 42077,
+     "file": "images/plates/broadleaf-cattail/tyla_011_lvp.jpg",
+     "feature": "whole",
+     "shows": "A dense stand at the water's edge: the habitat, and the water to judge for contamination."
+    }
+   ]
+  },
+  {
+   "key": "narrowleaf-cattail",
+   "common": "Narrowleaf cattail",
+   "scientific": "Typha angustifolia",
+   "symbol": "TYAN",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "caution",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 42060,
+     "file": "images/plates/narrowleaf-cattail/tyan_002_svp.jpg",
+     "feature": "fruit",
+     "shows": "The brown sausage-shaped seed spike on its stalk."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 42061,
+     "file": "images/plates/narrowleaf-cattail/tyan_003_svp.jpg",
+     "feature": "whole",
+     "shows": "Narrow upright leaves with a flowering spike."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 50673,
+     "file": "images/plates/narrowleaf-cattail/tyan_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the narrow leaves and the spike, with the bare gap between the upper and lower parts."
+    }
+   ]
+  },
+  {
+   "key": "jerusalem-artichoke",
+   "common": "Jerusalem artichoke",
+   "scientific": "Helianthus tuberosus",
+   "symbol": "HETU",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 19739,
+     "file": "images/plates/jerusalem-artichoke/hetu_011_shp.jpg",
+     "feature": "whole",
+     "shows": "A flowering stand: yellow sunflower heads 2 to 3 inches across."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 19735,
+     "file": "images/plates/jerusalem-artichoke/hetu_006_lhp.jpg",
+     "feature": "leaf",
+     "shows": "The rough, lance-shaped leaves on the stem."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 47024,
+     "file": "images/plates/jerusalem-artichoke/heto4_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the flower head and the rough toothed leaves."
+    }
+   ]
+  },
+  {
+   "key": "common-sunflower",
+   "common": "Common sunflower",
+   "scientific": "Helianthus annuus",
+   "symbol": "HEAN3",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 19220,
+     "file": "images/plates/common-sunflower/hean3_007_shp.jpg",
+     "feature": "whole",
+     "shows": "A stand of common sunflowers in a field edge."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 19215,
+     "file": "images/plates/common-sunflower/hean3_002_lhp.jpg",
+     "feature": "flower",
+     "shows": "The flower head: yellow rays around a brown centre."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 46947,
+     "file": "images/plates/common-sunflower/hean3_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the flower head, the heart-shaped leaf and the seed."
+    }
+   ]
+  },
+  {
+   "key": "groundnut",
+   "common": "Groundnut",
+   "scientific": "Apios americana",
+   "symbol": "APAM",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 2439,
+     "file": "images/plates/groundnut/apam_001_lhp.jpg",
+     "feature": "flower",
+     "shows": "The cluster of maroon and pink pea flowers on the twining vine."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 44328,
+     "file": "images/plates/groundnut/apam_005_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the vine with leaves of 5 to 7 pointed leaflets and the flower clusters."
+    }
+   ]
+  },
+  {
+   "key": "broadleaf-arrowhead",
+   "common": "Broadleaf arrowhead",
+   "scientific": "Sagittaria latifolia",
+   "symbol": "SALA2",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "caution",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 37011,
+     "file": "images/plates/broadleaf-arrowhead/sala2_002_lvp.jpg",
+     "feature": "flower",
+     "shows": "A stalk of white three-petalled flowers above an arrowhead leaf."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 37012,
+     "file": "images/plates/broadleaf-arrowhead/sala2_003_lhp.jpg",
+     "feature": "flower",
+     "shows": "Close view: three white petals around a yellow-green centre."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 49769,
+     "file": "images/plates/broadleaf-arrowhead/sala2_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the arrowhead leaf with veins fanning from the base, the flowers in whorls of three, and the seed heads."
+    }
+   ]
+  },
+  {
+   "key": "meadow-garlic",
+   "common": "Meadow garlic",
+   "scientific": "Allium canadense",
+   "symbol": "ALCA3",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "caution",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 1319,
+     "file": "images/plates/meadow-garlic/alca3_003_shp.jpg",
+     "feature": "flower",
+     "shows": "Pink-to-white flower clusters on slender stalks above narrow, flat leaves."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 44105,
+     "file": "images/plates/meadow-garlic/alca3_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the bulb with its fibrous coat, the slender leaves and the flower cluster."
+    }
+   ]
+  },
+  {
+   "key": "field-garlic",
+   "common": "Field garlic",
+   "scientific": "Allium vineale",
+   "symbol": "ALVI",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "caution",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 44161,
+     "file": "images/plates/field-garlic/alvi_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the bulb, the hollow round leaf, and the head of bulblets with long tails."
+    }
+   ]
+  },
+  {
+   "key": "nodding-onion",
+   "common": "Nodding onion",
+   "scientific": "Allium cernuum",
+   "symbol": "ALCE2",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "caution",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 44108,
+     "file": "images/plates/nodding-onion/alce2_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the slender bulb, the flat narrow leaves and the flower head nodding on a bent stalk."
+    }
+   ]
+  },
+  {
+   "key": "textile-onion",
+   "common": "Textile onion",
+   "scientific": "Allium textile",
+   "symbol": "ALTE",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "caution",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 1648,
+     "file": "images/plates/textile-onion/alte_002_svp.jpg",
+     "feature": "whole",
+     "shows": "Flowering plants in dry sagebrush ground: clusters of white flowers above narrow leaves."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 44149,
+     "file": "images/plates/textile-onion/alre5_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the bulb with its netted coat, the narrow leaves and the flower cluster."
+    }
+   ]
+  },
+  {
+   "key": "ramps",
+   "common": "Ramps",
+   "scientific": "Allium tricoccum",
+   "symbol": "ALTR3",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "caution",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 44159,
+     "file": "images/plates/ramps/altr3_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the broad smooth flat leaves from a bulb, and the round head of flowers on a bare stalk."
+    }
+   ]
+  },
+  {
+   "key": "wild-carrot",
+   "common": "Wild carrot",
+   "scientific": "Daucus carota",
+   "symbol": "DACA6",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "do-not-eat",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 12490,
+     "file": "images/plates/wild-carrot/daca6_012_lhp.jpg",
+     "feature": "flower",
+     "shows": "The flower head: dense, flat and lacy, often with a single dark purple floret in the centre."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 12493,
+     "file": "images/plates/wild-carrot/daca6_015_lhp.jpg",
+     "feature": "flower",
+     "shows": "Underneath the flower head: a ring of long, forked green bracts, and the hairy stem."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 12496,
+     "file": "images/plates/wild-carrot/daca6_018_lhp.jpg",
+     "feature": "fruit",
+     "shows": "The seed head curling inward into a \"bird's nest\" as it dries."
+    }
+   ]
+  },
+  {
+   "key": "wild-strawberry",
+   "common": "Wild strawberry",
+   "scientific": "Fragaria virginiana",
+   "symbol": "FRVI",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 46707,
+     "file": "images/plates/wild-strawberry/frvi_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the leaves of three toothed leaflets, the five-petalled flowers and the strawberry with seeds in pits."
+    }
+   ]
+  },
+  {
+   "key": "common-blackberry",
+   "common": "Common blackberry",
+   "scientific": "Rubus allegheniensis",
+   "symbol": "RUAL",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 36265,
+     "file": "images/plates/common-blackberry/rual_005_lhp.jpg",
+     "feature": "flower",
+     "shows": "The white five-petalled flower."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 36264,
+     "file": "images/plates/common-blackberry/rual_004_lvp.jpg",
+     "feature": "stem",
+     "shows": "The cane: reddish, with sharp prickles and gland-tipped hairs."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 49632,
+     "file": "images/plates/common-blackberry/rual_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the leaf of toothed leaflets, the prickly cane and the berry clusters."
+    }
+   ]
+  },
+  {
+   "key": "northern-dewberry",
+   "common": "Northern dewberry",
+   "scientific": "Rubus flagellaris",
+   "symbol": "RUFL",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 36366,
+     "file": "images/plates/northern-dewberry/ruen_001_lhp.jpg",
+     "feature": "leaf",
+     "shows": "Leaves of three to five toothed leaflets with a cluster of unripe green berries."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 36371,
+     "file": "images/plates/northern-dewberry/rufl_001_lhp.jpg",
+     "feature": "flower",
+     "shows": "The white five-petalled flower."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 49654,
+     "file": "images/plates/northern-dewberry/rufl_002_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: a flowering upright shoot on the trailing cane."
+    }
+   ]
+  },
+  {
+   "key": "black-raspberry",
+   "common": "Black raspberry",
+   "scientific": "Rubus occidentalis",
+   "symbol": "RUOC",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 36493,
+     "file": "images/plates/black-raspberry/ruoc_002_lhp.jpg",
+     "feature": "leaf",
+     "shows": "Leaves of three to five toothed leaflets with small white flowers."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 49675,
+     "file": "images/plates/black-raspberry/ruoc_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the arching cane, the leaves and the berry cluster."
+    }
+   ]
+  },
+  {
+   "key": "red-raspberry",
+   "common": "Red raspberry",
+   "scientific": "Rubus idaeus",
+   "symbol": "RUID",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 36433,
+     "file": "images/plates/red-raspberry/ruid_001_lhp.jpg",
+     "feature": "leaf",
+     "shows": "Leaves and a white five-petalled flower; leaflets white-woolly underneath, on a prickly cane."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 49663,
+     "file": "images/plates/red-raspberry/ruid_005_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing of cane, leaves, flower and fruit."
+    }
+   ]
+  },
+  {
+   "key": "thimbleberry",
+   "common": "Thimbleberry",
+   "scientific": "Rubus parviflorus",
+   "symbol": "RUPA",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 49681,
+     "file": "images/plates/thimbleberry/rupa_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the large maple-like leaf, the big white flower and the berry."
+    }
+   ]
+  },
+  {
+   "key": "red-mulberry",
+   "common": "Red mulberry",
+   "scientific": "Morus rubra",
+   "symbol": "MORU2",
+   "class": "edible",
+   "groups": [
+    "edible",
+    "firewood"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 26636,
+     "file": "images/plates/red-mulberry/moru2_008_lvp.jpg",
+     "feature": "fruit",
+     "shows": "Black-and-white photograph: a twig with leaves and the elongated blackberry-like fruits."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 26633,
+     "file": "images/plates/red-mulberry/moru2_005_lvp.jpg",
+     "feature": "bark",
+     "shows": "Black-and-white photograph of the trunk bark."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 48058,
+     "file": "images/plates/red-mulberry/moru2_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the toothed leaves (one lobed) and the hanging fruits."
+    }
+   ]
+  },
+  {
+   "key": "white-mulberry",
+   "common": "White mulberry",
+   "scientific": "Morus alba",
+   "symbol": "MOAL",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 26438,
+     "file": "images/plates/white-mulberry/moal_004_lvp.jpg",
+     "feature": "leaf",
+     "shows": "Black-and-white photograph: a broad toothed leaf with young fruit clusters, beside a scale."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 48030,
+     "file": "images/plates/white-mulberry/moal_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the toothed leaves and the blackberry-like fruits."
+    }
+   ]
+  },
+  {
+   "key": "lowbush-blueberry",
+   "common": "Lowbush blueberry",
+   "scientific": "Vaccinium angustifolium",
+   "symbol": "VAAN",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 50718,
+     "file": "images/plates/lowbush-blueberry/vaan_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the low branched shrub with small finely toothed leaves, the bell flowers and the berries."
+    }
+   ]
+  },
+  {
+   "key": "highbush-blueberry",
+   "common": "Highbush blueberry",
+   "scientific": "Vaccinium corymbosum",
+   "symbol": "VACO",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 42345,
+     "file": "images/plates/highbush-blueberry/vaco_002_lhp.jpg",
+     "feature": "leaf",
+     "shows": "Oval leaves on a woody twig, turning red in fall."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 50726,
+     "file": "images/plates/highbush-blueberry/vaco_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the oval leaves, the urn-shaped flowers and the berry cluster."
+    }
+   ]
+  },
+  {
+   "key": "big-huckleberry",
+   "common": "Thinleaf huckleberry",
+   "scientific": "Vaccinium membranaceum",
+   "symbol": "VAME",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 42390,
+     "file": "images/plates/big-huckleberry/vame_004_lvp.jpg",
+     "feature": "fruit",
+     "shows": "Black-and-white photograph: a branch with thin oval leaves and round berries."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 42391,
+     "file": "images/plates/big-huckleberry/vame_005_lhp.jpg",
+     "feature": "whole",
+     "shows": "Black-and-white photograph: a dense low thicket of huckleberry shrubs, with a hand for scale."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 50733,
+     "file": "images/plates/big-huckleberry/vame_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the thin pointed toothed leaves and the berries."
+    }
+   ]
+  },
+  {
+   "key": "large-cranberry",
+   "common": "Large cranberry",
+   "scientific": "Vaccinium macrocarpon",
+   "symbol": "VAMA",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 48369,
+     "file": "images/plates/large-cranberry/oxma6_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the trailing stems with small oval leaves, the flowers and the round berries."
+    }
+   ]
+  },
+  {
+   "key": "american-elderberry",
+   "common": "American elderberry",
+   "scientific": "Sambucus nigra ssp. canadensis",
+   "symbol": "SANIC4",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "caution",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 36733,
+     "file": "images/plates/american-elderberry/saca12_002_lhp.jpg",
+     "feature": "flower",
+     "shows": "The large flat-topped cluster of tiny white flowers."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 36734,
+     "file": "images/plates/american-elderberry/saca12_003_lhp.jpg",
+     "feature": "leaf",
+     "shows": "The leaf: paired, pointed, toothed leaflets along one stalk."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 49721,
+     "file": "images/plates/american-elderberry/saca12_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the leaf of paired leaflets, the flat flower cluster and the berries."
+    }
+   ]
+  },
+  {
+   "key": "saskatoon",
+   "common": "Saskatoon serviceberry",
+   "scientific": "Amelanchier alnifolia",
+   "symbol": "AMAL2",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 44164,
+     "file": "images/plates/saskatoon/amal2_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the round leaves toothed near the tip, the star flowers and the small apple-like berry."
+    }
+   ]
+  },
+  {
+   "key": "chokecherry",
+   "common": "Chokecherry",
+   "scientific": "Prunus virginiana",
+   "symbol": "PRVI",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "caution",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 33982,
+     "file": "images/plates/chokecherry/prvi_010_lhp.jpg",
+     "feature": "flower",
+     "shows": "Leaves and the long cylindrical brush of small white flowers."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 33983,
+     "file": "images/plates/chokecherry/prvi_011_lvp.jpg",
+     "feature": "fruit",
+     "shows": "Fruit clusters on the branch, with the leaf shape clear (black and white)."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 49346,
+     "file": "images/plates/chokecherry/prvi_008_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing of leaf, flower cluster and fruit."
+    }
+   ]
+  },
+  {
+   "key": "american-plum",
+   "common": "American plum",
+   "scientific": "Prunus americana",
+   "symbol": "PRAM",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "caution",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 33709,
+     "file": "images/plates/american-plum/pram_004_lhp.jpg",
+     "feature": "whole",
+     "shows": "A wild plum thicket along a field edge."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 33711,
+     "file": "images/plates/american-plum/pram_007_lvp.jpg",
+     "feature": "flower",
+     "shows": "A flowering branch: five-petalled white flowers before or with the leaves (black and white)."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 49316,
+     "file": "images/plates/american-plum/pram_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing of leaf, flower and fruit, with the plum whole and in section."
+    }
+   ]
+  },
+  {
+   "key": "black-cherry",
+   "common": "Black cherry",
+   "scientific": "Prunus serotina",
+   "symbol": "PRSE2",
+   "class": "edible",
+   "groups": [
+    "edible",
+    "firewood"
+   ],
+   "risk": "caution",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 33932,
+     "file": "images/plates/black-cherry/prse2_006_lvp.jpg",
+     "feature": "flower",
+     "shows": "Black-and-white photograph: the long cylinder of small white flowers and the narrow glossy leaves."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 33936,
+     "file": "images/plates/black-cherry/prse2_010_lvp.jpg",
+     "feature": "leaf",
+     "shows": "Black-and-white photograph: a twig of narrow, finely toothed glossy leaves."
+    }
+   ]
+  },
+  {
+   "key": "pawpaw",
+   "common": "Pawpaw",
+   "scientific": "Asimina triloba",
+   "symbol": "ASTR",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 4533,
+     "file": "images/plates/pawpaw/astr_002_lvp.jpg",
+     "feature": "leaf",
+     "shows": "A large drooping oval leaf, broadest beyond the middle."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 4539,
+     "file": "images/plates/pawpaw/astr_008_lvp.jpg",
+     "feature": "fruit",
+     "shows": "Black-and-white photograph: the potato-shaped fruit."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 44659,
+     "file": "images/plates/pawpaw/astr_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the large leaves, the six-petalled flower and the oblong fruit."
+    }
+   ]
+  },
+  {
+   "key": "american-persimmon",
+   "common": "American persimmon",
+   "scientific": "Diospyros virginiana",
+   "symbol": "DIVI5",
+   "class": "edible",
+   "groups": [
+    "edible",
+    "firewood"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 13674,
+     "file": "images/plates/american-persimmon/divi5_002_lvp.jpg",
+     "feature": "bark",
+     "shows": "A glossy oval leaf laid on the bark: thick small square blocks like alligator skin."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 13675,
+     "file": "images/plates/american-persimmon/divi5_003_lvp.jpg",
+     "feature": "flower",
+     "shows": "Small cream bell flowers under the leaves."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 46154,
+     "file": "images/plates/american-persimmon/divi5_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the oval leaves, the flowers and the round fruit with its four-part cap."
+    }
+   ]
+  },
+  {
+   "key": "riverbank-grape",
+   "common": "Riverbank grape",
+   "scientific": "Vitis riparia",
+   "symbol": "VIRI",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "caution",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 43198,
+     "file": "images/plates/riverbank-grape/viri_001_lhp.jpg",
+     "feature": "leaf",
+     "shows": "Coarsely toothed, shallowly lobed grape leaves with flower clusters."
+    }
+   ]
+  },
+  {
+   "key": "fox-grape",
+   "common": "Fox grape",
+   "scientific": "Vitis labrusca",
+   "symbol": "VILA8",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "caution",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 42988,
+     "file": "images/plates/fox-grape/vila8_002_lhp.jpg",
+     "feature": "seed",
+     "shows": "Black-and-white photograph of grape seeds: pear-shaped, with a short beak. A grape has 2 to 4 of these; moonseed has ONE crescent-shaped seed."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 50851,
+     "file": "images/plates/fox-grape/vila8_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the broad lobed leaf, the forked tendrils, the flower cluster and grapes with seeds."
+    }
+   ]
+  },
+  {
+   "key": "summer-grape",
+   "common": "Summer grape",
+   "scientific": "Vitis aestivalis",
+   "symbol": "VIAE",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "caution",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 42780,
+     "file": "images/plates/summer-grape/viae_002_lhp.jpg",
+     "feature": "leaf",
+     "shows": "A deeply lobed grape leaf, whitish beneath."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 50809,
+     "file": "images/plates/summer-grape/viae_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the lobed leaf, the flower cluster and the grapes."
+    }
+   ]
+  },
+  {
+   "key": "woods-rose",
+   "common": "Woods' rose",
+   "scientific": "Rosa woodsii",
+   "symbol": "ROWO",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 36239,
+     "file": "images/plates/woods-rose/rowo_009_lhp.jpg",
+     "feature": "flower",
+     "shows": "A pink five-petalled wild rose flower among the leaflets."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 36241,
+     "file": "images/plates/woods-rose/rowo_011_shp.jpg",
+     "feature": "whole",
+     "shows": "A flowering shrub, about head height, with scattered pink flowers (photo carries a species label, not a copyright notice)."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 49628,
+     "file": "images/plates/woods-rose/rowo_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the prickly stem, leaves of toothed leaflets, the flower and the round hip."
+    }
+   ]
+  },
+  {
+   "key": "multiflora-rose",
+   "common": "Multiflora rose",
+   "scientific": "Rosa multiflora",
+   "symbol": "ROMU",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 36121,
+     "file": "images/plates/multiflora-rose/romu_001_lvp.jpg",
+     "feature": "fruit",
+     "shows": "Black-and-white photograph: a single small rose hip on its stalk, beside a ruler."
+    }
+   ]
+  },
+  {
+   "key": "rugosa-rose",
+   "common": "Rugosa rose",
+   "scientific": "Rosa rugosa",
+   "symbol": "RORU",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 36184,
+     "file": "images/plates/rugosa-rose/roru_001_lhp.jpg",
+     "feature": "whole",
+     "shows": "A sprawling bristly shrub on sand dunes with large pink flowers."
+    }
+   ]
+  },
+  {
+   "key": "downy-hawthorn",
+   "common": "Downy hawthorn",
+   "scientific": "Crataegus mollis",
+   "symbol": "CRMO2",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "caution",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 45802,
+     "file": "images/plates/downy-hawthorn/cral7_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the broad toothed lobed leaf, the flowers and the apple-like fruit."
+    }
+   ]
+  },
+  {
+   "key": "highbush-cranberry",
+   "common": "American highbush cranberry",
+   "scientific": "Viburnum opulus var. americanum",
+   "symbol": "VIOPA2",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 43286,
+     "file": "images/plates/highbush-cranberry/vitr8_004_lhp.jpg",
+     "feature": "fruit",
+     "shows": "Clusters of bright red translucent berries among three-lobed leaves."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 43285,
+     "file": "images/plates/highbush-cranberry/vitr8_003_lhp.jpg",
+     "feature": "flower",
+     "shows": "The flat flower cluster: small fertile flowers in the centre ringed by large white sterile flowers."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 43284,
+     "file": "images/plates/highbush-cranberry/vitr8_002_lhp.jpg",
+     "feature": "whole",
+     "shows": "A shrub loaded with red berries and lobed leaves."
+    }
+   ]
+  },
+  {
+   "key": "nannyberry",
+   "common": "Nannyberry",
+   "scientific": "Viburnum lentago",
+   "symbol": "VILE",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 42994,
+     "file": "images/plates/nannyberry/vile_005_lhp.jpg",
+     "feature": "fruit",
+     "shows": "Drooping clusters of blue-black berries among red fall leaves."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 42991,
+     "file": "images/plates/nannyberry/vile_002_lhp.jpg",
+     "feature": "flower",
+     "shows": "The flat-topped cluster of small white flowers above glossy pointed leaves."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 50852,
+     "file": "images/plates/nannyberry/vile_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the finely toothed pointed leaves, the flower cluster and a berry."
+    }
+   ]
+  },
+  {
+   "key": "silver-buffaloberry",
+   "common": "Silver buffaloberry",
+   "scientific": "Shepherdia argentea",
+   "symbol": "SHAR",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "caution",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 38308,
+     "file": "images/plates/silver-buffaloberry/shar_001_lhp.jpg",
+     "feature": "fruit",
+     "shows": "Branches crowded with small red berries among silvery leaves."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 47521,
+     "file": "images/plates/silver-buffaloberry/lear10_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the narrow silvery leaves in pairs, flowers and berries."
+    }
+   ]
+  },
+  {
+   "key": "american-black-currant",
+   "common": "American black currant",
+   "scientific": "Ribes americanum",
+   "symbol": "RIAM2",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 49587,
+     "file": "images/plates/american-black-currant/riam2_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the three-lobed maple-like leaves and the drooping flower clusters."
+    }
+   ]
+  },
+  {
+   "key": "missouri-gooseberry",
+   "common": "Missouri gooseberry",
+   "scientific": "Ribes missouriense",
+   "symbol": "RIMI",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 46896,
+     "file": "images/plates/missouri-gooseberry/grmi2_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the small lobed leaves, the hanging flowers and a smooth berry."
+    }
+   ]
+  },
+  {
+   "key": "maypop",
+   "common": "Maypop",
+   "scientific": "Passiflora incarnata",
+   "symbol": "PAIN6",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 28828,
+     "file": "images/plates/maypop/pain6_006_shp.jpg",
+     "feature": "flower",
+     "shows": "The elaborate purple-and-white fringed flower beside a three-lobed leaf."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 28837,
+     "file": "images/plates/maypop/pain6_015_lhp.jpg",
+     "feature": "flower",
+     "shows": "Side view of the flower: fringed purple filaments under the raised central column."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 48548,
+     "file": "images/plates/maypop/pain6_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the three-lobed leaf, the tendril, the flower and the egg-shaped fruit."
+    }
+   ]
+  },
+  {
+   "key": "eastern-prickly-pear",
+   "common": "Eastern prickly pear",
+   "scientific": "Opuntia humifusa",
+   "symbol": "OPHU",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "caution",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 48300,
+     "file": "images/plates/eastern-prickly-pear/ophu_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the flat spiny pad, the flower and the fruit."
+    }
+   ]
+  },
+  {
+   "key": "soapweed-yucca",
+   "common": "Soapweed yucca",
+   "scientific": "Yucca glauca",
+   "symbol": "YUGL",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "caution",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 43648,
+     "file": "images/plates/soapweed-yucca/yugl_002_svp.jpg",
+     "feature": "whole",
+     "shows": "A tall flower stalk of creamy bell flowers rising from a clump of narrow stiff leaves."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 50990,
+     "file": "images/plates/soapweed-yucca/yugl_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the narrow leaves with threads on the edges, the bell flowers and the seed pod."
+    }
+   ]
+  },
+  {
+   "key": "wintergreen",
+   "common": "Wintergreen",
+   "scientific": "Gaultheria procumbens",
+   "symbol": "GAPR2",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 46757,
+     "file": "images/plates/wintergreen/gapr2_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the low plant with oval glossy leaves, the hanging bell flowers and the berry."
+    }
+   ]
+  },
+  {
+   "key": "american-hazelnut",
+   "common": "American hazelnut",
+   "scientific": "Corylus americana",
+   "symbol": "COAM3",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 45702,
+     "file": "images/plates/american-hazelnut/coam3_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the broad toothed leaf, the nuts in leafy ragged husks, and the catkin."
+    }
+   ]
+  },
+  {
+   "key": "beaked-hazelnut",
+   "common": "Beaked hazelnut",
+   "scientific": "Corylus cornuta",
+   "symbol": "COCO6",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 10715,
+     "file": "images/plates/beaked-hazelnut/coco6_002_lvp.jpg",
+     "feature": "fruit",
+     "shows": "Black-and-white photograph: the nut in its bristly husk drawn out into a long beak."
+    }
+   ]
+  },
+  {
+   "key": "black-walnut",
+   "common": "Black walnut",
+   "scientific": "Juglans nigra",
+   "symbol": "JUNI",
+   "class": "edible",
+   "groups": [
+    "edible",
+    "firewood"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 21685,
+     "file": "images/plates/black-walnut/juni_003_lhp.jpg",
+     "feature": "leaf",
+     "shows": "The large compound leaf: many paired leaflets along one stalk."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 21686,
+     "file": "images/plates/black-walnut/juni_004_lhp.jpg",
+     "feature": "bark",
+     "shows": "Bark: dark, deeply furrowed into narrow ridges in a rough diamond pattern."
+    }
+   ]
+  },
+  {
+   "key": "butternut",
+   "common": "Butternut",
+   "scientific": "Juglans cinerea",
+   "symbol": "JUCI",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 21560,
+     "file": "images/plates/butternut/juci_002_lvp.jpg",
+     "feature": "leaf",
+     "shows": "A compound leaf of many pointed leaflets laid on the light grey ridged bark."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 21561,
+     "file": "images/plates/butternut/juci_003_lhp.jpg",
+     "feature": "fruit",
+     "shows": "Black-and-white photograph: the oblong, deeply ridged nut beside a ruler."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 47334,
+     "file": "images/plates/butternut/juci_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the leaf of many leaflets, the oblong husked fruit, the nut and the catkins."
+    }
+   ]
+  },
+  {
+   "key": "shagbark-hickory",
+   "common": "Shagbark hickory",
+   "scientific": "Carya ovata",
+   "symbol": "CAOV2",
+   "class": "edible",
+   "groups": [
+    "edible",
+    "firewood"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 7740,
+     "file": "images/plates/shagbark-hickory/caov2_001_lvp.jpg",
+     "feature": "leaf",
+     "shows": "A leaf of five leaflets (the end three largest) laid on the bark."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 7741,
+     "file": "images/plates/shagbark-hickory/caov2_003_lhp.jpg",
+     "feature": "fruit",
+     "shows": "Black-and-white photograph: the round nut in its thick husk, which splits into four."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 7744,
+     "file": "images/plates/shagbark-hickory/caov2_007_lvp.jpg",
+     "feature": "leaf",
+     "shows": "Black-and-white photograph: a twig with leaves and hanging catkins."
+    }
+   ]
+  },
+  {
+   "key": "pecan",
+   "common": "Pecan",
+   "scientific": "Carya illinoinensis",
+   "symbol": "CAIL2",
+   "class": "edible",
+   "groups": [
+    "edible",
+    "firewood"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 7178,
+     "file": "images/plates/pecan/cail2_002_lvp.jpg",
+     "feature": "leaf",
+     "shows": "A compound leaf of many curved, pointed leaflets laid on the bark."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 7181,
+     "file": "images/plates/pecan/cail2_006_lvp.jpg",
+     "feature": "bark",
+     "shows": "Black-and-white photograph: the trunk with narrow, scaly, interlacing ridges."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 45180,
+     "file": "images/plates/pecan/cail2_004_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the leaf of curved leaflets and the nut."
+    }
+   ]
+  },
+  {
+   "key": "white-oak",
+   "common": "White oak",
+   "scientific": "Quercus alba",
+   "symbol": "QUAL",
+   "class": "edible",
+   "groups": [
+    "edible",
+    "firewood"
+   ],
+   "risk": "caution",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 34607,
+     "file": "images/plates/white-oak/qual_007_lvp.jpg",
+     "feature": "leaf",
+     "shows": "Black-and-white photograph: leaves with rounded lobes (no bristle tips) and an acorn."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 34609,
+     "file": "images/plates/white-oak/qual_009_lvp.jpg",
+     "feature": "fruit",
+     "shows": "Black-and-white photograph: the oblong acorn in its warty cap."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 49411,
+     "file": "images/plates/white-oak/qual_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the round-lobed leaves, the acorns and the catkins."
+    }
+   ]
+  },
+  {
+   "key": "bur-oak",
+   "common": "Bur oak",
+   "scientific": "Quercus macrocarpa",
+   "symbol": "QUMA2",
+   "class": "edible",
+   "groups": [
+    "edible",
+    "firewood"
+   ],
+   "risk": "caution",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 34923,
+     "file": "images/plates/bur-oak/quma2_002_lhp.jpg",
+     "feature": "leaf",
+     "shows": "A bur oak leaf on its own bark: the deeply lobed leaf and the thick, ridged grey bark."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 34931,
+     "file": "images/plates/bur-oak/quma2_010_lhp.jpg",
+     "feature": "fruit",
+     "shows": "Leaves with an acorn: the big acorn in a deep, shaggy fringed cap."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 34939,
+     "file": "images/plates/bur-oak/quma2_020_lvp.jpg",
+     "feature": "bark",
+     "shows": "Mature trunk bark close up: deep vertical furrows (black and white)."
+    }
+   ]
+  },
+  {
+   "key": "northern-red-oak",
+   "common": "Northern red oak",
+   "scientific": "Quercus rubra",
+   "symbol": "QURU",
+   "class": "edible",
+   "groups": [
+    "edible",
+    "firewood"
+   ],
+   "risk": "caution",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 35052,
+     "file": "images/plates/northern-red-oak/quru_006_lvp.jpg",
+     "feature": "leaf",
+     "shows": "Black-and-white photograph: leaves with pointed, bristle-tipped lobes, and acorns."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 35055,
+     "file": "images/plates/northern-red-oak/quru_009_lvp.jpg",
+     "feature": "bark",
+     "shows": "Black-and-white photograph: the trunk with long flat-topped ridges (\"ski tracks\")."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 49447,
+     "file": "images/plates/northern-red-oak/quru_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the pointed-lobed leaf and the acorn in its shallow cap."
+    }
+   ]
+  },
+  {
+   "key": "gambel-oak",
+   "common": "Gambel oak",
+   "scientific": "Quercus gambelii",
+   "symbol": "QUGA",
+   "class": "edible",
+   "groups": [
+    "edible",
+    "firewood"
+   ],
+   "risk": "caution",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 34797,
+     "file": "images/plates/gambel-oak/quga_007_lvp.jpg",
+     "feature": "leaf",
+     "shows": "Black-and-white photograph: deeply round-lobed leaves pinned against the furrowed trunk."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 34796,
+     "file": "images/plates/gambel-oak/quga_006_lhp.jpg",
+     "feature": "whole",
+     "shows": "Black-and-white photograph: an open-grown tree in a mountain meadow."
+    }
+   ]
+  },
+  {
+   "key": "american-beech",
+   "common": "American beech",
+   "scientific": "Fagus grandifolia",
+   "symbol": "FAGR",
+   "class": "edible",
+   "groups": [
+    "edible",
+    "firewood"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 17208,
+     "file": "images/plates/american-beech/fagr_002_lvp.jpg",
+     "feature": "leaf",
+     "shows": "An oval toothed leaf with straight parallel side veins, laid on the smooth grey bark."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 17212,
+     "file": "images/plates/american-beech/fagr_008_lvp.jpg",
+     "feature": "leaf",
+     "shows": "Black-and-white photograph: twigs with long pointed buds and opening leaves."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 46603,
+     "file": "images/plates/american-beech/fagr_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the toothed leaves, the prickly husk and the triangular nut."
+    }
+   ]
+  },
+  {
+   "key": "american-chestnut",
+   "common": "American chestnut",
+   "scientific": "Castanea dentata",
+   "symbol": "CADE12",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "caution",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 6781,
+     "file": "images/plates/american-chestnut/cade12_006_lhp.jpg",
+     "feature": "fruit",
+     "shows": "Black-and-white photograph: the bur covered in long dense needle-like spines, split open to show the nuts, with the long toothed leaves. Buckeyes never look like this."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 45096,
+     "file": "images/plates/american-chestnut/cade12_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the long leaf with hooked teeth, the catkins, the spiny bur and a nut."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 6778,
+     "file": "images/plates/american-chestnut/cade12_003_lvp.jpg",
+     "feature": "flower",
+     "shows": "Black-and-white photograph: long catkins along a twig."
+    }
+   ]
+  },
+  {
+   "key": "eastern-white-pine",
+   "common": "Eastern white pine",
+   "scientific": "Pinus strobus",
+   "symbol": "PIST",
+   "class": "edible",
+   "groups": [
+    "edible",
+    "firewood"
+   ],
+   "risk": "caution",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 32291,
+     "file": "images/plates/eastern-white-pine/pist_002_lhp.jpg",
+     "feature": "leaf",
+     "shows": "Long soft needles in bundles of five."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 32300,
+     "file": "images/plates/eastern-white-pine/pist_014_lvp.jpg",
+     "feature": "leaf",
+     "shows": "Black-and-white photograph: a twig tip with needle bundles and young cones."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 48991,
+     "file": "images/plates/eastern-white-pine/pist_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the needle bundles and the long narrow cone."
+    }
+   ]
+  },
+  {
+   "key": "sugar-maple",
+   "common": "Sugar maple",
+   "scientific": "Acer saccharum",
+   "symbol": "ACSA3",
+   "class": "edible",
+   "groups": [
+    "edible",
+    "firewood"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 644,
+     "file": "images/plates/sugar-maple/acsa3_007_lvp.jpg",
+     "feature": "leaf",
+     "shows": "Black-and-white photograph: five-lobed leaves with smooth-edged lobes and U-shaped notches."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 643,
+     "file": "images/plates/sugar-maple/acsa3_006_lvp.jpg",
+     "feature": "bark",
+     "shows": "Black-and-white photograph: the trunk bark in long irregular grey plates, with a scale bar."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 43929,
+     "file": "images/plates/sugar-maple/acsa3_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the lobed leaf, the long-stalked flowers and the paired winged seeds."
+    }
+   ]
+  },
+  {
+   "key": "paper-birch",
+   "common": "Paper birch",
+   "scientific": "Betula papyrifera",
+   "symbol": "BEPA",
+   "class": "edible",
+   "groups": [
+    "edible",
+    "firewood"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 5233,
+     "file": "images/plates/paper-birch/bepa_005_lhp.jpg",
+     "feature": "bark",
+     "shows": "Chalky white bark peeling in papery sheets."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 5231,
+     "file": "images/plates/paper-birch/bepa_003_lhp.jpg",
+     "feature": "leaf",
+     "shows": "Oval, toothed leaves on reddish twigs."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 44757,
+     "file": "images/plates/paper-birch/bepa_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the oval double-toothed leaves, the catkin and the winged seed."
+    }
+   ]
+  },
+  {
+   "key": "spicebush",
+   "common": "Northern spicebush",
+   "scientific": "Lindera benzoin",
+   "symbol": "LIBE3",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 51152,
+     "file": "images/plates/spicebush/LIBE3_006_lhp.jpg",
+     "feature": "flower",
+     "shows": "Clusters of tiny yellow flowers on the bare twig in early spring."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 47629,
+     "file": "images/plates/spicebush/libe3_002_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the smooth oval leaves and the small flowers."
+    }
+   ]
+  },
+  {
+   "key": "staghorn-sumac",
+   "common": "Staghorn sumac",
+   "scientific": "Rhus typhina",
+   "symbol": "RHTY",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 35844,
+     "file": "images/plates/staghorn-sumac/rhty_002_lhp.jpg",
+     "feature": "fruit",
+     "shows": "UPRIGHT cone-shaped clusters of fuzzy dark-red berries among long leaves of toothed leaflets."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 35843,
+     "file": "images/plates/staghorn-sumac/rhty_001_lhp.jpg",
+     "feature": "whole",
+     "shows": "A small spreading tree with upright red fruit clusters."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 49559,
+     "file": "images/plates/staghorn-sumac/rhhi2_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the leaf of toothed leaflets and the upright fruit cluster."
+    }
+   ]
+  },
+  {
+   "key": "smooth-sumac",
+   "common": "Smooth sumac",
+   "scientific": "Rhus glabra",
+   "symbol": "RHGL",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 35582,
+     "file": "images/plates/smooth-sumac/rhgl_006_lvp.jpg",
+     "feature": "fruit",
+     "shows": "An upright cone-shaped cluster of red berries above the toothed leaflets."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 35581,
+     "file": "images/plates/smooth-sumac/rhgl_005_lhp.jpg",
+     "feature": "whole",
+     "shows": "A thicket in scarlet fall colour."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 49555,
+     "file": "images/plates/smooth-sumac/rhgl_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the leaf of toothed leaflets, the upright fruit cluster and a single fruit."
+    }
+   ]
+  },
+  {
+   "key": "fragrant-sumac",
+   "common": "Fragrant sumac",
+   "scientific": "Rhus aromatica",
+   "symbol": "RHAR4",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 35476,
+     "file": "images/plates/fragrant-sumac/rhar4_004_lvp.jpg",
+     "feature": "fruit",
+     "shows": "Clusters of fuzzy red berries beside leaves of three lobed leaflets."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 35478,
+     "file": "images/plates/fragrant-sumac/rhar4_006_lhp.jpg",
+     "feature": "fruit",
+     "shows": "A berry cluster on the low bushy shrub."
+    }
+   ]
+  },
+  {
+   "key": "american-basswood",
+   "common": "American basswood",
+   "scientific": "Tilia americana",
+   "symbol": "TIAM",
+   "class": "edible",
+   "groups": [
+    "edible",
+    "firewood"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 40918,
+     "file": "images/plates/american-basswood/tiam_003_lhp.jpg",
+     "feature": "leaf",
+     "shows": "The large lopsided heart-shaped toothed leaf."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 40919,
+     "file": "images/plates/american-basswood/tiam_004_lvp.jpg",
+     "feature": "flower",
+     "shows": "Hanging flower and nutlet clusters attached to a long pale leafy strap."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 50491,
+     "file": "images/plates/american-basswood/tiam_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the heart-shaped leaf and the flower cluster on its leafy strap."
+    }
+   ]
+  },
+  {
+   "key": "eastern-redbud",
+   "common": "Eastern redbud",
+   "scientific": "Cercis canadensis",
+   "symbol": "CECA4",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 8567,
+     "file": "images/plates/eastern-redbud/ceca4_013_lvp.jpg",
+     "feature": "flower",
+     "shows": "Black-and-white photograph: clusters of small pea flowers along a bare twig."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 8560,
+     "file": "images/plates/eastern-redbud/ceca4_005_lhp.jpg",
+     "feature": "fruit",
+     "shows": "Black-and-white photograph: the flat thin pod beside a ruler."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 45446,
+     "file": "images/plates/eastern-redbud/ceca4_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the heart-shaped leaves, the flower clusters and the flat pods."
+    }
+   ]
+  },
+  {
+   "key": "post-oak",
+   "common": "Post oak",
+   "scientific": "Quercus stellata",
+   "symbol": "QUST",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 35066,
+     "file": "images/plates/post-oak/qust_002_lvp.jpg",
+     "feature": "leaf",
+     "shows": "A leaf with two large square middle lobes forming a cross, laid on the rough bark."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 49451,
+     "file": "images/plates/post-oak/qust_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the cross-shaped leaves and the small acorns."
+    }
+   ]
+  },
+  {
+   "key": "water-oak",
+   "common": "Water oak",
+   "scientific": "Quercus nigra",
+   "symbol": "QUNI",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 34986,
+     "file": "images/plates/water-oak/quni_002_lhp.jpg",
+     "feature": "leaf",
+     "shows": "A spatula-shaped leaf, widest near the tip, laid on the smooth grey bark."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 34987,
+     "file": "images/plates/water-oak/quni_003_lhp.jpg",
+     "feature": "fruit",
+     "shows": "Small acorns among the spatula-shaped leaves."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 49435,
+     "file": "images/plates/water-oak/quni_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the spatula-shaped and three-lobed leaves and an acorn."
+    }
+   ]
+  },
+  {
+   "key": "bitternut-hickory",
+   "common": "Bitternut hickory",
+   "scientific": "Carya cordiformis",
+   "symbol": "CACO15",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 6687,
+     "file": "images/plates/bitternut-hickory/caco15_004_lvp.jpg",
+     "feature": "leaf",
+     "shows": "Black-and-white photograph: a leaf of slender pointed leaflets with husked nuts."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 6689,
+     "file": "images/plates/bitternut-hickory/caco15_006_lhp.jpg",
+     "feature": "fruit",
+     "shows": "Black-and-white photograph: the thin-husked round nuts, one split open."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 45069,
+     "file": "images/plates/bitternut-hickory/caco15_003_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the leaf of slender leaflets and a nut."
+    }
+   ]
+  },
+  {
+   "key": "mockernut-hickory",
+   "common": "Mockernut hickory",
+   "scientific": "Carya tomentosa",
+   "symbol": "CATO6",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 8368,
+     "file": "images/plates/mockernut-hickory/cato6_005_lvp.jpg",
+     "feature": "leaf",
+     "shows": "Black-and-white photograph: a leaf of 7 to 9 broad leaflets beside a ruler."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 8366,
+     "file": "images/plates/mockernut-hickory/cato6_003_lvp.jpg",
+     "feature": "fruit",
+     "shows": "Black-and-white photograph: the thick husk split into four sections, with a nut."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 8365,
+     "file": "images/plates/mockernut-hickory/cato6_002_lvp.jpg",
+     "feature": "flower",
+     "shows": "Black-and-white photograph: a leafy shoot with hanging catkins."
+    }
+   ]
+  },
+  {
+   "key": "white-ash",
+   "common": "White ash",
+   "scientific": "Fraxinus americana",
+   "symbol": "FRAM2",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 17552,
+     "file": "images/plates/white-ash/fram2_002_lhp.jpg",
+     "feature": "leaf",
+     "shows": "Leaflets of the compound leaf, pale whitish-green beneath."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 17553,
+     "file": "images/plates/white-ash/fram2_003_lvp.jpg",
+     "feature": "fruit",
+     "shows": "Black-and-white photograph: clusters of narrow paddle-shaped winged seeds."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 46682,
+     "file": "images/plates/white-ash/fram2_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the leaf of 5 to 9 leaflets, the flower cluster and a winged seed."
+    }
+   ]
+  },
+  {
+   "key": "green-ash",
+   "common": "Green ash",
+   "scientific": "Fraxinus pennsylvanica",
+   "symbol": "FRPE",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 17752,
+     "file": "images/plates/green-ash/frpe_002_lvp.jpg",
+     "feature": "leaf",
+     "shows": "An ash leaf on ash bark: a compound leaf, and bark in a tight diamond pattern."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 17759,
+     "file": "images/plates/green-ash/frpe_010_lvp.jpg",
+     "feature": "bark",
+     "shows": "Trunk bark: interlacing diamond ridges (black and white)."
+    }
+   ]
+  },
+  {
+   "key": "red-maple",
+   "common": "Red maple",
+   "scientific": "Acer rubrum",
+   "symbol": "ACRU",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 597,
+     "file": "images/plates/red-maple/acru_004_lvp.jpg",
+     "feature": "leaf",
+     "shows": "Black-and-white photograph: three-lobed toothed leaves with V-shaped notches."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 600,
+     "file": "images/plates/red-maple/acru_007_lvp.jpg",
+     "feature": "bark",
+     "shows": "Black-and-white photograph: the trunk bark, with a scale bar."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 43926,
+     "file": "images/plates/red-maple/acru_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the lobed toothed leaf, the flower cluster and the winged seeds."
+    }
+   ]
+  },
+  {
+   "key": "silver-maple",
+   "common": "Silver maple",
+   "scientific": "Acer saccharinum",
+   "symbol": "ACSA2",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 629,
+     "file": "images/plates/silver-maple/acsa2_002_lhp.jpg",
+     "feature": "leaf",
+     "shows": "Leaves deeply cut into five sharp lobes, silvery beneath."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 632,
+     "file": "images/plates/silver-maple/acsa2_005_lvp.jpg",
+     "feature": "bark",
+     "shows": "Shaggy grey bark peeling in long strips on an older trunk."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 43928,
+     "file": "images/plates/silver-maple/acsa2_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the deeply cut leaf and the large paired winged seeds."
+    }
+   ]
+  },
+  {
+   "key": "box-elder",
+   "common": "Box elder",
+   "scientific": "Acer negundo",
+   "symbol": "ACNE2",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 489,
+     "file": "images/plates/box-elder/acne2_006_lhp.jpg",
+     "feature": "leaf",
+     "shows": "The compound leaf: three to five leaflets on one stalk, often irregularly lobed."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 488,
+     "file": "images/plates/box-elder/acne2_005_lhp.jpg",
+     "feature": "whole",
+     "shows": "Typical form: a low, spreading, multi-stemmed tree of fence lines."
+    }
+   ]
+  },
+  {
+   "key": "yellow-birch",
+   "common": "Yellow birch",
+   "scientific": "Betula alleghaniensis",
+   "symbol": "BEAL2",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 5128,
+     "file": "images/plates/yellow-birch/beal2_002_lhp.jpg",
+     "feature": "bark",
+     "shows": "A yellow fall leaf against the bronze bark peeling in thin curls."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 5129,
+     "file": "images/plates/yellow-birch/beal2_004_lvp.jpg",
+     "feature": "leaf",
+     "shows": "Black-and-white photograph: oval, double-toothed leaves."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 44734,
+     "file": "images/plates/yellow-birch/beal2_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the toothed leaves, the upright cone-like catkins and the winged seed."
+    }
+   ]
+  },
+  {
+   "key": "honey-locust",
+   "common": "Honey locust",
+   "scientific": "Gleditsia triacanthos",
+   "symbol": "GLTR",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 18652,
+     "file": "images/plates/honey-locust/gltr_002_lhp.jpg",
+     "feature": "bark",
+     "shows": "Large branched thorns on the trunk (planted forms may have none)."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 18653,
+     "file": "images/plates/honey-locust/gltr_003_lhp.jpg",
+     "feature": "leaf",
+     "shows": "Leaves of many small leaflets."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 46875,
+     "file": "images/plates/honey-locust/gltr_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the leaf of many leaflets and the long, flat, twisted pod."
+    }
+   ]
+  },
+  {
+   "key": "osage-orange",
+   "common": "Osage orange",
+   "scientific": "Maclura pomifera",
+   "symbol": "MAPO",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 25302,
+     "file": "images/plates/osage-orange/mapo_005_lvp.jpg",
+     "feature": "fruit",
+     "shows": "Black-and-white photograph: the large wrinkled round fruit with a thorny twig and leaves."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 25322,
+     "file": "images/plates/osage-orange/mapo_025_lhp.jpg",
+     "feature": "fruit",
+     "shows": "Close view of the green, brain-like wrinkled skin of the fruit (\"hedge apple\")."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 25305,
+     "file": "images/plates/osage-orange/mapo_008_lvp.jpg",
+     "feature": "bark",
+     "shows": "Black-and-white photograph: a large trunk with orange-brown furrowed bark."
+    }
+   ]
+  },
+  {
+   "key": "hackberry",
+   "common": "Common hackberry",
+   "scientific": "Celtis occidentalis",
+   "symbol": "CEOC",
+   "class": "firewood",
+   "groups": [
+    "firewood",
+    "edible"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 8818,
+     "file": "images/plates/hackberry/ceoc_002_lvp.jpg",
+     "feature": "leaf",
+     "shows": "A hackberry leaf on hackberry bark, which is covered in corky warts and ridges."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 8819,
+     "file": "images/plates/hackberry/ceoc_003_lvp.jpg",
+     "feature": "bark",
+     "shows": "The warty, knobbly bark close up."
+    }
+   ]
+  },
+  {
+   "key": "american-elm",
+   "common": "American elm",
+   "scientific": "Ulmus americana",
+   "symbol": "ULAM",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 42092,
+     "file": "images/plates/american-elm/ulam_002_lvp.jpg",
+     "feature": "leaf",
+     "shows": "An elm leaf on elm bark: the leaf base is LOPSIDED and the edge doubly toothed."
+    }
+   ]
+  },
+  {
+   "key": "siberian-elm",
+   "common": "Siberian elm",
+   "scientific": "Ulmus pumila",
+   "symbol": "ULPU",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 42167,
+     "file": "images/plates/siberian-elm/ulpu_002_lhp.jpg",
+     "feature": "leaf",
+     "shows": "Small, narrow, evenly toothed elm leaves on a twig."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 42166,
+     "file": "images/plates/siberian-elm/ulpu_001_lvp.jpg",
+     "feature": "whole",
+     "shows": "An open-grown tree in a field."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 42170,
+     "file": "images/plates/siberian-elm/ulpu_005_lhp.jpg",
+     "feature": "seed",
+     "shows": "Black-and-white photograph: the round papery winged seed."
+    }
+   ]
+  },
+  {
+   "key": "eastern-cottonwood",
+   "common": "Eastern cottonwood",
+   "scientific": "Populus deltoides",
+   "symbol": "PODE3",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 33021,
+     "file": "images/plates/eastern-cottonwood/pode3_004_lhp.jpg",
+     "feature": "leaf",
+     "shows": "A cottonwood leaf on furrowed grey bark: a broad triangle with coarse rounded teeth."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 33027,
+     "file": "images/plates/eastern-cottonwood/pode3_011_lhp.jpg",
+     "feature": "leaf",
+     "shows": "Leaf detail: the flattened leaf stalk that makes the leaves rattle in a breeze."
+    }
+   ]
+  },
+  {
+   "key": "quaking-aspen",
+   "common": "Quaking aspen",
+   "scientific": "Populus tremuloides",
+   "symbol": "POTR5",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 33616,
+     "file": "images/plates/quaking-aspen/potr10_001_lhp.jpg",
+     "feature": "whole",
+     "shows": "A stand of slender trunks with smooth whitish bark."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 33617,
+     "file": "images/plates/quaking-aspen/potr10_002_lhp.jpg",
+     "feature": "bark",
+     "shows": "A round finely toothed leaf against the smooth pale bark with a dark scar."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 33634,
+     "file": "images/plates/quaking-aspen/potr5_006_lhp.jpg",
+     "feature": "leaf",
+     "shows": "Round, finely toothed leaves on long flattened stalks."
+    }
+   ]
+  },
+  {
+   "key": "black-willow",
+   "common": "Black willow",
+   "scientific": "Salix nigra",
+   "symbol": "SANI",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 37165,
+     "file": "images/plates/black-willow/sani_007_lvp.jpg",
+     "feature": "leaf",
+     "shows": "Black-and-white photograph: a twig with long narrow leaves."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 49785,
+     "file": "images/plates/black-willow/sani_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the long narrow finely toothed leaves and the catkins."
+    }
+   ]
+  },
+  {
+   "key": "american-sycamore",
+   "common": "American sycamore",
+   "scientific": "Platanus occidentalis",
+   "symbol": "PLOC",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 32623,
+     "file": "images/plates/american-sycamore/ploc_005_lvp.jpg",
+     "feature": "bark",
+     "shows": "Black-and-white photograph: the trunk with bark flaking in patches."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 32624,
+     "file": "images/plates/american-sycamore/ploc_006_lvp.jpg",
+     "feature": "leaf",
+     "shows": "Black-and-white photograph: large maple-like leaves with a round seed ball."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 49018,
+     "file": "images/plates/american-sycamore/ploc_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the broad lobed leaf, the round seed balls and seed details."
+    }
+   ]
+  },
+  {
+   "key": "sweetgum",
+   "common": "Sweetgum",
+   "scientific": "Liquidambar styraciflua",
+   "symbol": "LIST2",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 23634,
+     "file": "images/plates/sweetgum/list2_009_lvp.jpg",
+     "feature": "fruit",
+     "shows": "Black-and-white photograph: the spiky round seed ball."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 23640,
+     "file": "images/plates/sweetgum/list2_015_lvp.jpg",
+     "feature": "bark",
+     "shows": "Black-and-white photograph: the furrowed trunk bark."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 47675,
+     "file": "images/plates/sweetgum/list2_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the star-shaped leaf, the flower clusters and the spiky seed ball."
+    }
+   ]
+  },
+  {
+   "key": "tuliptree",
+   "common": "Tuliptree",
+   "scientific": "Liriodendron tulipifera",
+   "symbol": "LITU",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 23666,
+     "file": "images/plates/tuliptree/litu_002_lvp.jpg",
+     "feature": "leaf",
+     "shows": "The four-lobed leaf with a squared-off notched tip, laid on the bark."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 23667,
+     "file": "images/plates/tuliptree/litu_003_lhp.jpg",
+     "feature": "flower",
+     "shows": "The tulip-like flower: green-yellow petals with an orange band."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 47680,
+     "file": "images/plates/tuliptree/litu_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the tulip-outline leaf, the flower and the cone of winged seeds."
+    }
+   ]
+  },
+  {
+   "key": "eastern-hophornbeam",
+   "common": "Eastern hophornbeam",
+   "scientific": "Ostrya virginiana",
+   "symbol": "OSVI",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 28423,
+     "file": "images/plates/eastern-hophornbeam/osvi_004_lhp.jpg",
+     "feature": "leaf",
+     "shows": "Double-toothed, birch-like pointed leaves."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 28424,
+     "file": "images/plates/eastern-hophornbeam/osvi_005_lhp.jpg",
+     "feature": "bark",
+     "shows": "The trunk and branches with narrow, fissured bark."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 48353,
+     "file": "images/plates/eastern-hophornbeam/osvi_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the toothed leaves, the catkins and the hop-like papery seed cluster."
+    }
+   ]
+  },
+  {
+   "key": "american-hornbeam",
+   "common": "American hornbeam",
+   "scientific": "Carpinus caroliniana",
+   "symbol": "CACA18",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 6541,
+     "file": "images/plates/american-hornbeam/caca18_002_lvp.jpg",
+     "feature": "bark",
+     "shows": "A toothed leaf laid on the smooth grey trunk (\"musclewood\")."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 6547,
+     "file": "images/plates/american-hornbeam/caca18_010_lhp.jpg",
+     "feature": "flower",
+     "shows": "Black-and-white photograph: a twig with leaves and hanging catkins."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 45041,
+     "file": "images/plates/american-hornbeam/caca18_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the double-toothed leaves, the catkins and the three-lobed seed bracts."
+    }
+   ]
+  },
+  {
+   "key": "black-tupelo",
+   "common": "Black tupelo",
+   "scientific": "Nyssa sylvatica",
+   "symbol": "NYSY",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 27315,
+     "file": "images/plates/black-tupelo/nysy_007_lvp.jpg",
+     "feature": "leaf",
+     "shows": "Black-and-white photograph: glossy oval leaves and small flower clusters."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 27316,
+     "file": "images/plates/black-tupelo/nysy_008_lvp.jpg",
+     "feature": "fruit",
+     "shows": "Black-and-white photograph: leaves with small berries on long stalks."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 48258,
+     "file": "images/plates/black-tupelo/nysy_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the oval leaves, flowers and the small oval fruit."
+    }
+   ]
+  },
+  {
+   "key": "russian-olive",
+   "common": "Russian olive",
+   "scientific": "Elaeagnus angustifolia",
+   "symbol": "ELAN",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 14619,
+     "file": "images/plates/russian-olive/elan_007_lhp.jpg",
+     "feature": "fruit",
+     "shows": "Narrow silvery leaves with small olive-like fruits along a twig."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 14618,
+     "file": "images/plates/russian-olive/elan_006_lvp.jpg",
+     "feature": "whole",
+     "shows": "A shrubby silvery-grey tree in open country."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 14621,
+     "file": "images/plates/russian-olive/elan_009_lhp.jpg",
+     "feature": "leaf",
+     "shows": "Drooping branches of narrow silvery leaves with fruit."
+    }
+   ]
+  },
+  {
+   "key": "eastern-redcedar",
+   "common": "Eastern redcedar",
+   "scientific": "Juniperus virginiana",
+   "symbol": "JUVI",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 21832,
+     "file": "images/plates/eastern-redcedar/juvi_004_lhp.jpg",
+     "feature": "fruit",
+     "shows": "Scale-leaved branches with small whitish-blue berry-like cones."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 21831,
+     "file": "images/plates/eastern-redcedar/juvi_003_lvp.jpg",
+     "feature": "whole",
+     "shows": "A dense pyramid-shaped evergreen."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 47403,
+     "file": "images/plates/eastern-redcedar/juvi_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the scale-leaved twigs, with a twig enlarged."
+    }
+   ]
+  },
+  {
+   "key": "rocky-mountain-juniper",
+   "common": "Rocky Mountain juniper",
+   "scientific": "Juniperus scopulorum",
+   "symbol": "JUSC2",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 21788,
+     "file": "images/plates/rocky-mountain-juniper/jusc2_004_lhp.jpg",
+     "feature": "fruit",
+     "shows": "Scale-leaved branchlets with blue waxy berry-like cones."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 21785,
+     "file": "images/plates/rocky-mountain-juniper/jusc2_001_lvp.jpg",
+     "feature": "whole",
+     "shows": "A young conical tree."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 21791,
+     "file": "images/plates/rocky-mountain-juniper/jusc2_007_lvp.jpg",
+     "feature": "whole",
+     "shows": "Black-and-white photograph: an old open-grown tree on a dry slope."
+    }
+   ]
+  },
+  {
+   "key": "ponderosa-pine",
+   "common": "Ponderosa pine",
+   "scientific": "Pinus ponderosa",
+   "symbol": "PIPO",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 32109,
+     "file": "images/plates/ponderosa-pine/pipo_026_lhp.jpg",
+     "feature": "leaf",
+     "shows": "Long needles in bundles with a cone."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 32107,
+     "file": "images/plates/ponderosa-pine/pipo_024_lhp.jpg",
+     "feature": "fruit",
+     "shows": "A cone among long needles at a branch tip."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 48980,
+     "file": "images/plates/ponderosa-pine/pipo_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the long needle bundles and the cone."
+    }
+   ]
+  },
+  {
+   "key": "lodgepole-pine",
+   "common": "Lodgepole pine",
+   "scientific": "Pinus contorta",
+   "symbol": "PICO",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 31647,
+     "file": "images/plates/lodgepole-pine/pico_012_lvp.jpg",
+     "feature": "whole",
+     "shows": "Black-and-white photograph: a dense stand of straight, thin trunks."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 31644,
+     "file": "images/plates/lodgepole-pine/pico_009_lhp.jpg",
+     "feature": "fruit",
+     "shows": "Black-and-white photograph: a small closed cone on a branch."
+    }
+   ]
+  },
+  {
+   "key": "loblolly-pine",
+   "common": "Loblolly pine",
+   "scientific": "Pinus taeda",
+   "symbol": "PITA",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 32328,
+     "file": "images/plates/loblolly-pine/pita_002_lhp.jpg",
+     "feature": "leaf",
+     "shows": "Black-and-white photograph: a branch tip with long needles in bundles and prickly cones, beside a ruler."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 48993,
+     "file": "images/plates/loblolly-pine/pita_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the long needles in bundles of three and the cone."
+    }
+   ]
+  },
+  {
+   "key": "shortleaf-pine",
+   "common": "Shortleaf pine",
+   "scientific": "Pinus echinata",
+   "symbol": "PIEC2",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 31719,
+     "file": "images/plates/shortleaf-pine/piec2_009_lhp.jpg",
+     "feature": "leaf",
+     "shows": "Black-and-white photograph: a twig with short needles and small cones, beside a ruler."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 48967,
+     "file": "images/plates/shortleaf-pine/piec2_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the needle bundles and the small cone."
+    }
+   ]
+  },
+  {
+   "key": "jack-pine",
+   "common": "Jack pine",
+   "scientific": "Pinus banksiana",
+   "symbol": "PIBA2",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 31551,
+     "file": "images/plates/jack-pine/piba2_005_lhp.jpg",
+     "feature": "fruit",
+     "shows": "A curved, closed cone clamped to the branch."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 31549,
+     "file": "images/plates/jack-pine/piba2_003_lhp.jpg",
+     "feature": "leaf",
+     "shows": "Short twisted needles in bundles of two along a twig."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 48962,
+     "file": "images/plates/jack-pine/piba2_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the short needle bundles and the curved cones."
+    }
+   ]
+  },
+  {
+   "key": "red-pine",
+   "common": "Red pine",
+   "scientific": "Pinus resinosa",
+   "symbol": "PIRE",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 32197,
+     "file": "images/plates/red-pine/pire_005_lvp.jpg",
+     "feature": "leaf",
+     "shows": "Black-and-white photograph: long needles hanging below a cluster of cones."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 32198,
+     "file": "images/plates/red-pine/pire_006_lvp.jpg",
+     "feature": "whole",
+     "shows": "Black-and-white photograph: a stand of tall straight trunks."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 48984,
+     "file": "images/plates/red-pine/pire_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the needle bundles of two and the cone."
+    }
+   ]
+  },
+  {
+   "key": "white-spruce",
+   "common": "White spruce",
+   "scientific": "Picea glauca",
+   "symbol": "PIGL",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 31835,
+     "file": "images/plates/white-spruce/pigl_002_lvp.jpg",
+     "feature": "whole",
+     "shows": "Black-and-white photograph: an open-grown spire-shaped tree."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 31836,
+     "file": "images/plates/white-spruce/pigl_003_lvp.jpg",
+     "feature": "bark",
+     "shows": "Black-and-white photograph: the scaly trunk bark."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 48964,
+     "file": "images/plates/white-spruce/pica10_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: a twig with short needles all round it, the slender cone and a cone scale."
+    }
+   ]
+  },
+  {
+   "key": "black-spruce",
+   "common": "Black spruce",
+   "scientific": "Picea mariana",
+   "symbol": "PIMA",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 31960,
+     "file": "images/plates/black-spruce/pima_003_lvp.jpg",
+     "feature": "fruit",
+     "shows": "Black-and-white photograph: twigs with short needles and small round cones."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 31961,
+     "file": "images/plates/black-spruce/pima_004_lvp.jpg",
+     "feature": "whole",
+     "shows": "Black-and-white photograph: narrow spruces in a snowy stand."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 48975,
+     "file": "images/plates/black-spruce/pima_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: a needled twig and the small cone."
+    }
+   ]
+  },
+  {
+   "key": "tamarack",
+   "common": "Tamarack",
+   "scientific": "Larix laricina",
+   "symbol": "LALA",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 22194,
+     "file": "images/plates/tamarack/lala_002_lvp.jpg",
+     "feature": "leaf",
+     "shows": "Soft needles in tufts on short spurs, against the scaly bark."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 22195,
+     "file": "images/plates/tamarack/lala_005_lvp.jpg",
+     "feature": "fruit",
+     "shows": "Black-and-white photograph: twigs with needle tufts and small cones."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 47482,
+     "file": "images/plates/tamarack/lala_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the needle tufts on short spurs and the small cones."
+    }
+   ]
+  },
+  {
+   "key": "northern-white-cedar",
+   "common": "Northern white-cedar",
+   "scientific": "Thuja occidentalis",
+   "symbol": "THOC2",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "collection": "usda-plants",
+     "imageId": 40823,
+     "file": "images/plates/northern-white-cedar/thoc2_013_lvp.jpg",
+     "feature": "leaf",
+     "shows": "Black-and-white photograph: a flat spray of scale-like leaves."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 40813,
+     "file": "images/plates/northern-white-cedar/thoc2_002_lvp.jpg",
+     "feature": "whole",
+     "shows": "A dense narrow evergreen."
+    },
+    {
+     "collection": "usda-plants",
+     "imageId": 50477,
+     "file": "images/plates/northern-white-cedar/thoc2_001_lvd.jpg",
+     "feature": "drawing",
+     "shows": "Botanical line drawing: the flat scale-leaved sprays and the small cones."
+    }
+   ]
+  }
+ ]
+}

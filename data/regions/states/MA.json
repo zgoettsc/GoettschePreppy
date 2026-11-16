@@ -1,0 +1,925 @@
+{
+ "state": "MA",
+ "state_name": "Massachusetts",
+ "state_fips": "25",
+ "state_em": "Massachusetts Emergency Management Agency",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "ALY": "NWS Albany, NY",
+  "BOX": "NWS Norton, MA"
+ },
+ "ecoregions": [
+  "Northeastern Highlands",
+  "Northeastern Coastal Zone",
+  "Atlantic Coastal Pine Barrens"
+ ],
+ "counties": {
+  "Barnstable County": {
+   "fips": "25001",
+   "centroid": [
+    41.7061,
+    -70.1648
+   ],
+   "latitude": 41.7,
+   "bbox": [
+    -70.6875,
+    41.515,
+    -69.9278,
+    42.0823
+   ],
+   "coastal": true,
+   "elevation_ft": 50,
+   "zone": "7a",
+   "jan_low_f": 25,
+   "jul_high_f": 78,
+   "record_low_f": -12,
+   "record_high_f": 100,
+   "precip_in": 46.3,
+   "snow_in": 22,
+   "last_frost": "Apr 13",
+   "first_frost": "Nov 3",
+   "growing_days": 204,
+   "ecoregion": "Atlantic Coastal Pine Barrens",
+   "ecoregion_code": "84",
+   "nws_office": "Norton, MA",
+   "nws_cwa": "BOX",
+   "nwr": [
+    {
+     "call": "KEC73",
+     "freq": "162.550",
+     "same": "025001"
+    }
+   ],
+   "state_em": "Massachusetts Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.1
+  },
+  "Berkshire County": {
+   "fips": "25003",
+   "centroid": [
+    42.3715,
+    -73.2179
+   ],
+   "latitude": 42.4,
+   "bbox": [
+    -73.508,
+    42.0399,
+    -72.9493,
+    42.7459
+   ],
+   "coastal": false,
+   "elevation_ft": 1810,
+   "zone": "5b",
+   "jan_low_f": 14,
+   "jul_high_f": 79,
+   "record_low_f": -26,
+   "record_high_f": 101,
+   "precip_in": 44.2,
+   "snow_in": 77,
+   "last_frost": "May 5",
+   "first_frost": "Oct 5",
+   "growing_days": 152,
+   "ecoregion": "Northeastern Highlands",
+   "ecoregion_code": "58",
+   "nws_office": "Albany, NY",
+   "nws_cwa": "ALY",
+   "nwr": [
+    {
+     "call": "WXL34",
+     "freq": "162.550",
+     "same": "025003"
+    },
+    {
+     "call": "WWH33",
+     "freq": "162.500",
+     "same": "025003"
+    },
+    {
+     "call": "WXM68",
+     "freq": "162.425",
+     "same": "025003"
+    },
+    {
+     "call": "WWF48",
+     "freq": "162.525",
+     "same": "025003"
+    }
+   ],
+   "state_em": "Massachusetts Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.1
+  },
+  "Bristol County": {
+   "fips": "25005",
+   "centroid": [
+    41.7486,
+    -71.0889
+   ],
+   "latitude": 41.7,
+   "bbox": [
+    -71.3817,
+    41.4807,
+    -70.8156,
+    42.0959
+   ],
+   "coastal": true,
+   "elevation_ft": 150,
+   "zone": "7a",
+   "jan_low_f": 21,
+   "jul_high_f": 82,
+   "record_low_f": -12,
+   "record_high_f": 102,
+   "precip_in": 45.9,
+   "snow_in": 31,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 15",
+   "growing_days": 167,
+   "ecoregion": "Northeastern Coastal Zone",
+   "ecoregion_code": "59",
+   "nws_office": "Norton, MA",
+   "nws_cwa": "BOX",
+   "nwr": [
+    {
+     "call": "KHB35",
+     "freq": "162.475",
+     "same": "025005"
+    },
+    {
+     "call": "KEC73",
+     "freq": "162.550",
+     "same": "025005"
+    },
+    {
+     "call": "WXJ39",
+     "freq": "162.400",
+     "same": "025005"
+    }
+   ],
+   "state_em": "Massachusetts Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.3
+  },
+  "Dukes County": {
+   "fips": "25007",
+   "centroid": [
+    41.381,
+    -70.7015
+   ],
+   "latitude": 41.4,
+   "bbox": [
+    -70.951,
+    41.2488,
+    -70.4462,
+    41.5214
+   ],
+   "coastal": true,
+   "elevation_ft": 220,
+   "zone": "7a",
+   "jan_low_f": 23,
+   "jul_high_f": 79,
+   "record_low_f": -9,
+   "record_high_f": 99,
+   "precip_in": 42.1,
+   "snow_in": 25,
+   "last_frost": "May 7",
+   "first_frost": "Oct 9",
+   "growing_days": 156,
+   "ecoregion": "Atlantic Coastal Pine Barrens",
+   "ecoregion_code": "84",
+   "nws_office": "Norton, MA",
+   "nws_cwa": "BOX",
+   "nwr": [
+    {
+     "call": "KEC73",
+     "freq": "162.550",
+     "same": "025007"
+    }
+   ],
+   "state_em": "Massachusetts Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.1
+  },
+  "Essex County": {
+   "fips": "25009",
+   "centroid": [
+    42.6427,
+    -70.8649
+   ],
+   "latitude": 42.6,
+   "bbox": [
+    -71.2557,
+    42.4171,
+    -70.5743,
+    42.8869
+   ],
+   "coastal": true,
+   "elevation_ft": 30,
+   "zone": "6b",
+   "jan_low_f": 18,
+   "jul_high_f": 80,
+   "record_low_f": -13,
+   "record_high_f": 98,
+   "precip_in": 48.0,
+   "snow_in": 51,
+   "last_frost": "May 4",
+   "first_frost": "Oct 12",
+   "growing_days": 160,
+   "ecoregion": "Northeastern Coastal Zone",
+   "ecoregion_code": "59",
+   "nws_office": "Norton, MA",
+   "nws_cwa": "BOX",
+   "nwr": [
+    {
+     "call": "KHB35",
+     "freq": "162.475",
+     "same": "025009"
+    },
+    {
+     "call": "KZZ40",
+     "freq": "162.450",
+     "same": "025009"
+    },
+    {
+     "call": "WNG574",
+     "freq": "162.425",
+     "same": "025009"
+    },
+    {
+     "call": "WNG575",
+     "freq": "162.525",
+     "same": "025009"
+    }
+   ],
+   "state_em": "Massachusetts Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.0
+  },
+  "Franklin County": {
+   "fips": "25011",
+   "centroid": [
+    42.5845,
+    -72.5918
+   ],
+   "latitude": 42.6,
+   "bbox": [
+    -73.0235,
+    42.3048,
+    -72.2248,
+    42.7411
+   ],
+   "coastal": false,
+   "elevation_ft": 310,
+   "zone": "6a",
+   "jan_low_f": 15,
+   "jul_high_f": 83,
+   "record_low_f": -30,
+   "record_high_f": 104,
+   "precip_in": 49.4,
+   "snow_in": 46,
+   "last_frost": "May 1",
+   "first_frost": "Oct 11",
+   "growing_days": 162,
+   "ecoregion": "Northeastern Coastal Zone",
+   "ecoregion_code": "59",
+   "nws_office": "Norton, MA",
+   "nws_cwa": "BOX",
+   "nwr": [
+    {
+     "call": "WXJ41",
+     "freq": "162.475",
+     "same": "025011"
+    },
+    {
+     "call": "WXM68",
+     "freq": "162.425",
+     "same": "025011"
+    },
+    {
+     "call": "WWF48",
+     "freq": "162.525",
+     "same": "025011"
+    },
+    {
+     "call": "WXL93",
+     "freq": "162.550",
+     "same": "025011"
+    }
+   ],
+   "state_em": "Massachusetts Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.0
+  },
+  "Hampden County": {
+   "fips": "25013",
+   "centroid": [
+    42.1362,
+    -72.6356
+   ],
+   "latitude": 42.1,
+   "bbox": [
+    -73.0747,
+    41.9976,
+    -72.1349,
+    42.3438
+   ],
+   "coastal": false,
+   "elevation_ft": 150,
+   "zone": "6b",
+   "jan_low_f": 16,
+   "jul_high_f": 85,
+   "record_low_f": -14,
+   "record_high_f": 103,
+   "precip_in": 45.2,
+   "snow_in": 52,
+   "last_frost": "May 3",
+   "first_frost": "Oct 8",
+   "growing_days": 158,
+   "ecoregion": "Northeastern Coastal Zone",
+   "ecoregion_code": "59",
+   "nws_office": "Norton, MA",
+   "nws_cwa": "BOX",
+   "nwr": [
+    {
+     "call": "WWH33",
+     "freq": "162.500",
+     "same": "025013"
+    },
+    {
+     "call": "WXJ41",
+     "freq": "162.475",
+     "same": "025013"
+    },
+    {
+     "call": "WWF48",
+     "freq": "162.525",
+     "same": "025013"
+    },
+    {
+     "call": "WXL93",
+     "freq": "162.550",
+     "same": "025013"
+    }
+   ],
+   "state_em": "Massachusetts Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.0
+  },
+  "Hampshire County": {
+   "fips": "25015",
+   "centroid": [
+    42.3395,
+    -72.6637
+   ],
+   "latitude": 42.3,
+   "bbox": [
+    -73.0686,
+    42.1838,
+    -72.2036,
+    42.5559
+   ],
+   "coastal": false,
+   "elevation_ft": 270,
+   "zone": "6a",
+   "jan_low_f": 14,
+   "jul_high_f": 83,
+   "record_low_f": -30,
+   "record_high_f": 104,
+   "precip_in": 46.6,
+   "snow_in": 36,
+   "last_frost": "May 5",
+   "first_frost": "Oct 8",
+   "growing_days": 156,
+   "ecoregion": "Northeastern Coastal Zone",
+   "ecoregion_code": "59",
+   "nws_office": "Norton, MA",
+   "nws_cwa": "BOX",
+   "nwr": [
+    {
+     "call": "WXJ41",
+     "freq": "162.475",
+     "same": "025015"
+    },
+    {
+     "call": "WXM68",
+     "freq": "162.425",
+     "same": "025015"
+    },
+    {
+     "call": "WWF48",
+     "freq": "162.525",
+     "same": "025015"
+    },
+    {
+     "call": "WXL93",
+     "freq": "162.550",
+     "same": "025015"
+    }
+   ],
+   "state_em": "Massachusetts Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.0
+  },
+  "Middlesex County": {
+   "fips": "25017",
+   "centroid": [
+    42.4817,
+    -71.3949
+   ],
+   "latitude": 42.5,
+   "bbox": [
+    -71.8982,
+    42.1567,
+    -71.0206,
+    42.7361
+   ],
+   "coastal": true,
+   "elevation_ft": 180,
+   "zone": "6b",
+   "jan_low_f": 15,
+   "jul_high_f": 87,
+   "record_low_f": -22,
+   "record_high_f": 105,
+   "precip_in": 49.7,
+   "snow_in": 59,
+   "last_frost": "May 2",
+   "first_frost": "Oct 6",
+   "growing_days": 156,
+   "ecoregion": "Northeastern Coastal Zone",
+   "ecoregion_code": "59",
+   "nws_office": "Norton, MA",
+   "nws_cwa": "BOX",
+   "nwr": [
+    {
+     "call": "KHB35",
+     "freq": "162.475",
+     "same": "025017"
+    },
+    {
+     "call": "KZZ40",
+     "freq": "162.450",
+     "same": "025017"
+    },
+    {
+     "call": "WNG575",
+     "freq": "162.525",
+     "same": "025017"
+    },
+    {
+     "call": "WXL93",
+     "freq": "162.550",
+     "same": "025017"
+    }
+   ],
+   "state_em": "Massachusetts Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.0
+  },
+  "Nantucket County": {
+   "fips": "25019",
+   "centroid": [
+    41.2934,
+    -70.1022
+   ],
+   "latitude": 41.3,
+   "bbox": [
+    -70.314,
+    41.238,
+    -69.9594,
+    41.3925
+   ],
+   "coastal": true,
+   "elevation_ft": 0,
+   "zone": "7b",
+   "jan_low_f": 27,
+   "jul_high_f": 75,
+   "record_low_f": -3,
+   "record_high_f": 100,
+   "precip_in": 40.9,
+   "snow_in": 25,
+   "last_frost": "Apr 13",
+   "first_frost": "Nov 8",
+   "growing_days": 208,
+   "ecoregion": "Atlantic Coastal Pine Barrens",
+   "ecoregion_code": "84",
+   "nws_office": "Norton, MA",
+   "nws_cwa": "BOX",
+   "nwr": [
+    {
+     "call": "KEC73",
+     "freq": "162.550",
+     "same": "025019"
+    }
+   ],
+   "state_em": "Massachusetts Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.1
+  },
+  "Norfolk County": {
+   "fips": "25021",
+   "centroid": [
+    42.1717,
+    -71.1811
+   ],
+   "latitude": 42.2,
+   "bbox": [
+    -71.5021,
+    41.985,
+    -70.9101,
+    42.3278
+   ],
+   "coastal": true,
+   "elevation_ft": 50,
+   "zone": "6b",
+   "jan_low_f": 21,
+   "jul_high_f": 86,
+   "record_low_f": -19,
+   "record_high_f": 102,
+   "precip_in": 43.9,
+   "snow_in": 56,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 9",
+   "growing_days": 167,
+   "ecoregion": "Northeastern Coastal Zone",
+   "ecoregion_code": "59",
+   "nws_office": "Norton, MA",
+   "nws_cwa": "BOX",
+   "nwr": [
+    {
+     "call": "KHB35",
+     "freq": "162.475",
+     "same": "025021"
+    },
+    {
+     "call": "WXL93",
+     "freq": "162.550",
+     "same": "025021"
+    }
+   ],
+   "state_em": "Massachusetts Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.0
+  },
+  "Plymouth County": {
+   "fips": "25023",
+   "centroid": [
+    41.9872,
+    -70.7419
+   ],
+   "latitude": 42.0,
+   "bbox": [
+    -71.0797,
+    41.6175,
+    -70.5256,
+    42.3102
+   ],
+   "coastal": true,
+   "elevation_ft": 60,
+   "zone": "7a",
+   "jan_low_f": 22,
+   "jul_high_f": 84,
+   "record_low_f": -19,
+   "record_high_f": 102,
+   "precip_in": 52.8,
+   "snow_in": 38,
+   "last_frost": "Apr 15",
+   "first_frost": "Nov 1",
+   "growing_days": 198,
+   "ecoregion": "Northeastern Coastal Zone",
+   "ecoregion_code": "59",
+   "nws_office": "Norton, MA",
+   "nws_cwa": "BOX",
+   "nwr": [
+    {
+     "call": "KHB35",
+     "freq": "162.475",
+     "same": "025023"
+    },
+    {
+     "call": "KEC73",
+     "freq": "162.550",
+     "same": "025023"
+    }
+   ],
+   "state_em": "Massachusetts Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.1
+  },
+  "Suffolk County": {
+   "fips": "25025",
+   "centroid": [
+    42.3386,
+    -71.0183
+   ],
+   "latitude": 42.3,
+   "bbox": [
+    -71.1912,
+    42.2277,
+    -70.8748,
+    42.4489
+   ],
+   "coastal": true,
+   "elevation_ft": 0,
+   "zone": "7a",
+   "jan_low_f": 23,
+   "jul_high_f": 82,
+   "record_low_f": -14,
+   "record_high_f": 103,
+   "precip_in": 43.6,
+   "snow_in": 49,
+   "last_frost": "Apr 4",
+   "first_frost": "Nov 9",
+   "growing_days": 218,
+   "ecoregion": "Northeastern Coastal Zone",
+   "ecoregion_code": "59",
+   "nws_office": "Norton, MA",
+   "nws_cwa": "BOX",
+   "nwr": [
+    {
+     "call": "KHB35",
+     "freq": "162.475",
+     "same": "025025"
+    }
+   ],
+   "state_em": "Massachusetts Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 3,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.0
+  },
+  "Worcester County": {
+   "fips": "25027",
+   "centroid": [
+    42.3117,
+    -71.9403
+   ],
+   "latitude": 42.3,
+   "bbox": [
+    -72.3147,
+    42.0083,
+    -71.4779,
+    42.7215
+   ],
+   "coastal": false,
+   "elevation_ft": 1070,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 80,
+   "record_low_f": -19,
+   "record_high_f": 99,
+   "precip_in": 48.3,
+   "snow_in": 73,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 21",
+   "growing_days": 181,
+   "ecoregion": "Northeastern Highlands",
+   "ecoregion_code": "58",
+   "nws_office": "Norton, MA",
+   "nws_cwa": "BOX",
+   "nwr": [
+    {
+     "call": "KZZ40",
+     "freq": "162.450",
+     "same": "025027"
+    },
+    {
+     "call": "WXJ41",
+     "freq": "162.475",
+     "same": "025027"
+    },
+    {
+     "call": "WNG575",
+     "freq": "162.525",
+     "same": "025027"
+    },
+    {
+     "call": "WXL93",
+     "freq": "162.550",
+     "same": "025027"
+    }
+   ],
+   "state_em": "Massachusetts Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.0
+  }
+ }
+}

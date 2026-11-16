@@ -1,0 +1,1559 @@
+{
+ "state": "MD",
+ "state_name": "Maryland",
+ "state_fips": "24",
+ "state_em": "Maryland Department of Emergency Management",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "AKQ": "NWS Wakefield, VA",
+  "LWX": "NWS Baltimore MD/Washington, DC",
+  "PHI": "NWS Mount Holly, NJ"
+ },
+ "ecoregions": [
+  "Middle Atlantic Coastal Plain",
+  "Northern Piedmont",
+  "Southeastern Plains",
+  "Blue Ridge",
+  "Ridge and Valley",
+  "Central Appalachians"
+ ],
+ "counties": {
+  "Allegany County": {
+   "fips": "24001",
+   "centroid": [
+    39.6123,
+    -78.7031
+   ],
+   "latitude": 39.6,
+   "bbox": [
+    -79.0673,
+    39.4387,
+    -78.314,
+    39.7232
+   ],
+   "coastal": false,
+   "elevation_ft": 1000,
+   "zone": "7a",
+   "jan_low_f": 22,
+   "jul_high_f": 87,
+   "record_low_f": -14,
+   "record_high_f": 105,
+   "precip_in": 39.2,
+   "snow_in": 29,
+   "last_frost": "Apr 15",
+   "first_frost": "Oct 24",
+   "growing_days": 190,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Baltimore MD/Washington, DC",
+   "nws_cwa": "LWX",
+   "nwr": [
+    {
+     "call": "WXM43",
+     "freq": "162.425",
+     "same": "024001"
+    },
+    {
+     "call": "WXM42",
+     "freq": "162.475",
+     "same": "024001"
+    },
+    {
+     "call": "WXM73",
+     "freq": "162.400",
+     "same": "024001"
+    }
+   ],
+   "state_em": "Maryland Department of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.2
+  },
+  "Anne Arundel County": {
+   "fips": "24003",
+   "centroid": [
+    38.9916,
+    -76.5609
+   ],
+   "latitude": 39.0,
+   "bbox": [
+    -76.8405,
+    38.7129,
+    -76.3825,
+    39.2373
+   ],
+   "coastal": true,
+   "elevation_ft": 50,
+   "zone": "7b",
+   "jan_low_f": 29,
+   "jul_high_f": 89,
+   "record_low_f": -8,
+   "record_high_f": 103,
+   "precip_in": 44.0,
+   "snow_in": 19,
+   "last_frost": "Mar 27",
+   "first_frost": "Nov 13",
+   "growing_days": 234,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Baltimore MD/Washington, DC",
+   "nws_cwa": "LWX",
+   "nwr": [
+    {
+     "call": "KEC83",
+     "freq": "162.400",
+     "same": "024003"
+    },
+    {
+     "call": "WXK97",
+     "freq": "162.500",
+     "same": "024003"
+    },
+    {
+     "call": "WNG736",
+     "freq": "162.450",
+     "same": "024003"
+    }
+   ],
+   "state_em": "Maryland Department of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.6
+  },
+  "Baltimore County": {
+   "fips": "24005",
+   "centroid": [
+    39.4432,
+    -76.6166
+   ],
+   "latitude": 39.4,
+   "bbox": [
+    -76.8966,
+    39.1954,
+    -76.3276,
+    39.7213
+   ],
+   "coastal": true,
+   "elevation_ft": 360,
+   "zone": "7b",
+   "jan_low_f": 27,
+   "jul_high_f": 86,
+   "record_low_f": -7,
+   "record_high_f": 106,
+   "precip_in": 43.7,
+   "snow_in": 19,
+   "last_frost": "Apr 2",
+   "first_frost": "Nov 7",
+   "growing_days": 220,
+   "ecoregion": "Northern Piedmont",
+   "ecoregion_code": "64",
+   "nws_office": "Baltimore MD/Washington, DC",
+   "nws_cwa": "LWX",
+   "nwr": [
+    {
+     "call": "KEC83",
+     "freq": "162.400",
+     "same": "024005"
+    },
+    {
+     "call": "WXK97",
+     "freq": "162.500",
+     "same": "024005"
+    }
+   ],
+   "state_em": "Maryland Department of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 2,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.4
+  },
+  "Calvert County": {
+   "fips": "24009",
+   "centroid": [
+    38.5227,
+    -76.5298
+   ],
+   "latitude": 38.5,
+   "bbox": [
+    -76.7015,
+    38.3161,
+    -76.3806,
+    38.7693
+   ],
+   "coastal": true,
+   "elevation_ft": 140,
+   "zone": "8a",
+   "jan_low_f": 25,
+   "jul_high_f": 85,
+   "record_low_f": -9,
+   "record_high_f": 103,
+   "precip_in": 48.1,
+   "snow_in": 15,
+   "last_frost": "Apr 17",
+   "first_frost": "Oct 27",
+   "growing_days": 195,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Baltimore MD/Washington, DC",
+   "nws_cwa": "LWX",
+   "nwr": [
+    {
+     "call": "KEC83",
+     "freq": "162.400",
+     "same": "024009"
+    },
+    {
+     "call": "KHB36",
+     "freq": "162.550",
+     "same": "024009"
+    },
+    {
+     "call": "KEC92",
+     "freq": "162.475",
+     "same": "024009"
+    }
+   ],
+   "state_em": "Maryland Department of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.6
+  },
+  "Caroline County": {
+   "fips": "24011",
+   "centroid": [
+    38.8715,
+    -75.8317
+   ],
+   "latitude": 38.9,
+   "bbox": [
+    -76.015,
+    38.6359,
+    -75.7076,
+    39.1427
+   ],
+   "coastal": true,
+   "elevation_ft": 40,
+   "zone": "7b",
+   "jan_low_f": 25,
+   "jul_high_f": 87,
+   "record_low_f": -6,
+   "record_high_f": 102,
+   "precip_in": 46.3,
+   "snow_in": 13,
+   "last_frost": "Apr 11",
+   "first_frost": "Oct 30",
+   "growing_days": 200,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Mount Holly, NJ",
+   "nws_cwa": "PHI",
+   "nwr": [
+    {
+     "call": "WXJ94",
+     "freq": "162.550",
+     "same": "024011"
+    },
+    {
+     "call": "KEC92",
+     "freq": "162.475",
+     "same": "024011"
+    },
+    {
+     "call": "WXK97",
+     "freq": "162.500",
+     "same": "024011"
+    }
+   ],
+   "state_em": "Maryland Department of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.5
+  },
+  "Carroll County": {
+   "fips": "24013",
+   "centroid": [
+    39.5633,
+    -77.0153
+   ],
+   "latitude": 39.6,
+   "bbox": [
+    -77.3115,
+    39.3489,
+    -76.7876,
+    39.7207
+   ],
+   "coastal": false,
+   "elevation_ft": 730,
+   "zone": "7a",
+   "jan_low_f": 21,
+   "jul_high_f": 85,
+   "record_low_f": -13,
+   "record_high_f": 102,
+   "precip_in": 44.1,
+   "snow_in": 28,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 20",
+   "growing_days": 177,
+   "ecoregion": "Northern Piedmont",
+   "ecoregion_code": "64",
+   "nws_office": "Baltimore MD/Washington, DC",
+   "nws_cwa": "LWX",
+   "nwr": [
+    {
+     "call": "KEC83",
+     "freq": "162.400",
+     "same": "024013"
+    },
+    {
+     "call": "WXM42",
+     "freq": "162.475",
+     "same": "024013"
+    }
+   ],
+   "state_em": "Maryland Department of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.3
+  },
+  "Cecil County": {
+   "fips": "24015",
+   "centroid": [
+    39.5624,
+    -75.9416
+   ],
+   "latitude": 39.6,
+   "bbox": [
+    -76.2333,
+    39.3631,
+    -75.7668,
+    39.7222
+   ],
+   "coastal": true,
+   "elevation_ft": 70,
+   "zone": "7b",
+   "jan_low_f": 25,
+   "jul_high_f": 89,
+   "record_low_f": -12,
+   "record_high_f": 105,
+   "precip_in": 47.0,
+   "snow_in": 20,
+   "last_frost": "Apr 7",
+   "first_frost": "Nov 2",
+   "growing_days": 208,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Baltimore MD/Washington, DC",
+   "nws_cwa": "LWX",
+   "nwr": [
+    {
+     "call": "WNG704",
+     "freq": "162.425",
+     "same": "024015"
+    },
+    {
+     "call": "KIH28",
+     "freq": "162.475",
+     "same": "024015"
+    },
+    {
+     "call": "WXK97",
+     "freq": "162.500",
+     "same": "024015"
+    }
+   ],
+   "state_em": "Maryland Department of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.3
+  },
+  "Charles County": {
+   "fips": "24017",
+   "centroid": [
+    38.4729,
+    -77.0154
+   ],
+   "latitude": 38.5,
+   "bbox": [
+    -77.2742,
+    38.2501,
+    -76.6729,
+    38.6909
+   ],
+   "coastal": true,
+   "elevation_ft": 140,
+   "zone": "7b",
+   "jan_low_f": 25,
+   "jul_high_f": 85,
+   "record_low_f": -9,
+   "record_high_f": 103,
+   "precip_in": 48.1,
+   "snow_in": 15,
+   "last_frost": "Apr 17",
+   "first_frost": "Oct 27",
+   "growing_days": 195,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Baltimore MD/Washington, DC",
+   "nws_cwa": "LWX",
+   "nwr": [
+    {
+     "call": "WZ2527",
+     "freq": "162.425",
+     "same": "024017"
+    },
+    {
+     "call": "KHB36",
+     "freq": "162.550",
+     "same": "024017"
+    },
+    {
+     "call": "WNG736",
+     "freq": "162.450",
+     "same": "024017"
+    }
+   ],
+   "state_em": "Maryland Department of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.4
+  },
+  "Dorchester County": {
+   "fips": "24019",
+   "centroid": [
+    38.4292,
+    -76.0474
+   ],
+   "latitude": 38.4,
+   "bbox": [
+    -76.337,
+    38.1143,
+    -75.7013,
+    38.7042
+   ],
+   "coastal": true,
+   "elevation_ft": 0,
+   "zone": "8a",
+   "jan_low_f": 28,
+   "jul_high_f": 90,
+   "record_low_f": -6,
+   "record_high_f": 104,
+   "precip_in": 47.6,
+   "snow_in": 14,
+   "last_frost": "Apr 8",
+   "first_frost": "Nov 4",
+   "growing_days": 209,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Wakefield, VA",
+   "nws_cwa": "AKQ",
+   "nwr": [
+    {
+     "call": "KEC92",
+     "freq": "162.475",
+     "same": "024019"
+    },
+    {
+     "call": "WXK97",
+     "freq": "162.500",
+     "same": "024019"
+    }
+   ],
+   "state_em": "Maryland Department of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.6
+  },
+  "Frederick County": {
+   "fips": "24021",
+   "centroid": [
+    39.4702,
+    -77.3976
+   ],
+   "latitude": 39.5,
+   "bbox": [
+    -77.6777,
+    39.2193,
+    -77.1072,
+    39.7201
+   ],
+   "coastal": false,
+   "elevation_ft": 260,
+   "zone": "7b",
+   "jan_low_f": 26,
+   "jul_high_f": 89,
+   "record_low_f": -21,
+   "record_high_f": 109,
+   "precip_in": 43.5,
+   "snow_in": 28,
+   "last_frost": "Apr 2",
+   "first_frost": "Nov 6",
+   "growing_days": 218,
+   "ecoregion": "Northern Piedmont",
+   "ecoregion_code": "64",
+   "nws_office": "Baltimore MD/Washington, DC",
+   "nws_cwa": "LWX",
+   "nwr": [
+    {
+     "call": "KEC83",
+     "freq": "162.400",
+     "same": "024021"
+    },
+    {
+     "call": "WXM42",
+     "freq": "162.475",
+     "same": "024021"
+    },
+    {
+     "call": "KHB36",
+     "freq": "162.550",
+     "same": "024021"
+    }
+   ],
+   "state_em": "Maryland Department of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.3
+  },
+  "Garrett County": {
+   "fips": "24023",
+   "centroid": [
+    39.5473,
+    -79.2746
+   ],
+   "latitude": 39.5,
+   "bbox": [
+    -79.4871,
+    39.2028,
+    -78.9313,
+    39.7229
+   ],
+   "coastal": false,
+   "elevation_ft": 2690,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 81,
+   "record_low_f": -40,
+   "record_high_f": 101,
+   "precip_in": 50.8,
+   "snow_in": 105,
+   "last_frost": "May 6",
+   "first_frost": "Oct 9",
+   "growing_days": 156,
+   "ecoregion": "Central Appalachians",
+   "ecoregion_code": "69",
+   "nws_office": "Baltimore MD/Washington, DC",
+   "nws_cwa": "LWX",
+   "nwr": [
+    {
+     "call": "KXI73",
+     "freq": "162.450",
+     "same": "024023"
+    },
+    {
+     "call": "WXM43",
+     "freq": "162.425",
+     "same": "024023"
+    },
+    {
+     "call": "KWN36",
+     "freq": "162.500",
+     "same": "024023"
+    }
+   ],
+   "state_em": "Maryland Department of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.1
+  },
+  "Harford County": {
+   "fips": "24025",
+   "centroid": [
+    39.5374,
+    -76.2998
+   ],
+   "latitude": 39.5,
+   "bbox": [
+    -76.5703,
+    39.3004,
+    -76.0604,
+    39.7222
+   ],
+   "coastal": true,
+   "elevation_ft": 380,
+   "zone": "7b",
+   "jan_low_f": 25,
+   "jul_high_f": 86,
+   "record_low_f": -13,
+   "record_high_f": 105,
+   "precip_in": 47.1,
+   "snow_in": 18,
+   "last_frost": "Apr 10",
+   "first_frost": "Oct 30",
+   "growing_days": 201,
+   "ecoregion": "Northern Piedmont",
+   "ecoregion_code": "64",
+   "nws_office": "Baltimore MD/Washington, DC",
+   "nws_cwa": "LWX",
+   "nwr": [
+    {
+     "call": "KEC83",
+     "freq": "162.400",
+     "same": "024025"
+    },
+    {
+     "call": "WXK97",
+     "freq": "162.500",
+     "same": "024025"
+    }
+   ],
+   "state_em": "Maryland Department of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.4
+  },
+  "Howard County": {
+   "fips": "24027",
+   "centroid": [
+    39.2523,
+    -76.9244
+   ],
+   "latitude": 39.3,
+   "bbox": [
+    -77.1869,
+    39.1034,
+    -76.7043,
+    39.3696
+   ],
+   "coastal": true,
+   "elevation_ft": 390,
+   "zone": "7b",
+   "jan_low_f": 26,
+   "jul_high_f": 89,
+   "record_low_f": -19,
+   "record_high_f": 106,
+   "precip_in": 47.5,
+   "snow_in": 19,
+   "last_frost": "Apr 5",
+   "first_frost": "Nov 9",
+   "growing_days": 218,
+   "ecoregion": "Northern Piedmont",
+   "ecoregion_code": "64",
+   "nws_office": "Baltimore MD/Washington, DC",
+   "nws_cwa": "LWX",
+   "nwr": [
+    {
+     "call": "KEC83",
+     "freq": "162.400",
+     "same": "024027"
+    },
+    {
+     "call": "WXK97",
+     "freq": "162.500",
+     "same": "024027"
+    },
+    {
+     "call": "WNG736",
+     "freq": "162.450",
+     "same": "024027"
+    }
+   ],
+   "state_em": "Maryland Department of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.4
+  },
+  "Kent County": {
+   "fips": "24029",
+   "centroid": [
+    39.2413,
+    -76.126
+   ],
+   "latitude": 39.2,
+   "bbox": [
+    -76.2785,
+    39.0078,
+    -75.7564,
+    39.3821
+   ],
+   "coastal": true,
+   "elevation_ft": 70,
+   "zone": "7b",
+   "jan_low_f": 27,
+   "jul_high_f": 87,
+   "record_low_f": -9,
+   "record_high_f": 104,
+   "precip_in": 46.0,
+   "snow_in": 17,
+   "last_frost": "Apr 3",
+   "first_frost": "Nov 5",
+   "growing_days": 217,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Mount Holly, NJ",
+   "nws_cwa": "PHI",
+   "nwr": [
+    {
+     "call": "KEC83",
+     "freq": "162.400",
+     "same": "024029"
+    },
+    {
+     "call": "WXK97",
+     "freq": "162.500",
+     "same": "024029"
+    }
+   ],
+   "state_em": "Maryland Department of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.4
+  },
+  "Montgomery County": {
+   "fips": "24031",
+   "centroid": [
+    39.1374,
+    -77.2031
+   ],
+   "latitude": 39.1,
+   "bbox": [
+    -77.5273,
+    38.9343,
+    -76.8882,
+    39.3462
+   ],
+   "coastal": true,
+   "elevation_ft": 480,
+   "zone": "7b",
+   "jan_low_f": 27,
+   "jul_high_f": 87,
+   "record_low_f": -13,
+   "record_high_f": 105,
+   "precip_in": 41.3,
+   "snow_in": 31,
+   "last_frost": "Apr 1",
+   "first_frost": "Nov 6",
+   "growing_days": 219,
+   "ecoregion": "Northern Piedmont",
+   "ecoregion_code": "64",
+   "nws_office": "Baltimore MD/Washington, DC",
+   "nws_cwa": "LWX",
+   "nwr": [
+    {
+     "call": "KEC83",
+     "freq": "162.400",
+     "same": "024031"
+    },
+    {
+     "call": "KHB36",
+     "freq": "162.550",
+     "same": "024031"
+    },
+    {
+     "call": "WNG736",
+     "freq": "162.450",
+     "same": "024031"
+    }
+   ],
+   "state_em": "Maryland Department of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 2,
+    "extreme_heat": 3,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.3
+  },
+  "Prince George's County": {
+   "fips": "24033",
+   "centroid": [
+    38.8293,
+    -76.8482
+   ],
+   "latitude": 38.8,
+   "bbox": [
+    -77.0772,
+    38.5354,
+    -76.6697,
+    39.1315
+   ],
+   "coastal": true,
+   "elevation_ft": 180,
+   "zone": "7b",
+   "jan_low_f": 25,
+   "jul_high_f": 88,
+   "record_low_f": -12,
+   "record_high_f": 105,
+   "precip_in": 45.0,
+   "snow_in": 16,
+   "last_frost": "Apr 9",
+   "first_frost": "Oct 29",
+   "growing_days": 203,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Baltimore MD/Washington, DC",
+   "nws_cwa": "LWX",
+   "nwr": [
+    {
+     "call": "KEC83",
+     "freq": "162.400",
+     "same": "024033"
+    },
+    {
+     "call": "KHB36",
+     "freq": "162.550",
+     "same": "024033"
+    },
+    {
+     "call": "WNG736",
+     "freq": "162.450",
+     "same": "024033"
+    }
+   ],
+   "state_em": "Maryland Department of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 2,
+    "extreme_heat": 3,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.6
+  },
+  "Queen Anne's County": {
+   "fips": "24035",
+   "centroid": [
+    39.0407,
+    -76.0824
+   ],
+   "latitude": 39.0,
+   "bbox": [
+    -76.3762,
+    38.8361,
+    -75.7479,
+    39.2612
+   ],
+   "coastal": true,
+   "elevation_ft": 30,
+   "zone": "7b",
+   "jan_low_f": 27,
+   "jul_high_f": 87,
+   "record_low_f": -9,
+   "record_high_f": 104,
+   "precip_in": 46.0,
+   "snow_in": 17,
+   "last_frost": "Apr 3",
+   "first_frost": "Nov 5",
+   "growing_days": 217,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Mount Holly, NJ",
+   "nws_cwa": "PHI",
+   "nwr": [
+    {
+     "call": "KEC83",
+     "freq": "162.400",
+     "same": "024035"
+    },
+    {
+     "call": "KEC92",
+     "freq": "162.475",
+     "same": "024035"
+    },
+    {
+     "call": "WXK97",
+     "freq": "162.500",
+     "same": "024035"
+    }
+   ],
+   "state_em": "Maryland Department of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.4
+  },
+  "St. Mary's County": {
+   "fips": "24037",
+   "centroid": [
+    38.2231,
+    -76.5345
+   ],
+   "latitude": 38.2,
+   "bbox": [
+    -76.8744,
+    38.0364,
+    -76.3201,
+    38.5422
+   ],
+   "coastal": true,
+   "elevation_ft": 110,
+   "zone": "8a",
+   "jan_low_f": 30,
+   "jul_high_f": 87,
+   "record_low_f": -3,
+   "record_high_f": 104,
+   "precip_in": 45.3,
+   "snow_in": 12,
+   "last_frost": "Mar 29",
+   "first_frost": "Nov 15",
+   "growing_days": 230,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Baltimore MD/Washington, DC",
+   "nws_cwa": "LWX",
+   "nwr": [
+    {
+     "call": "WZ2527",
+     "freq": "162.425",
+     "same": "024037"
+    },
+    {
+     "call": "WXM57",
+     "freq": "162.400",
+     "same": "024037"
+    },
+    {
+     "call": "KHB36",
+     "freq": "162.550",
+     "same": "024037"
+    },
+    {
+     "call": "KEC92",
+     "freq": "162.475",
+     "same": "024037"
+    }
+   ],
+   "state_em": "Maryland Department of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.6
+  },
+  "Somerset County": {
+   "fips": "24039",
+   "centroid": [
+    38.0744,
+    -75.8533
+   ],
+   "latitude": 38.1,
+   "bbox": [
+    -76.0618,
+    37.9086,
+    -75.5404,
+    38.2987
+   ],
+   "coastal": true,
+   "elevation_ft": 0,
+   "zone": "8a",
+   "jan_low_f": 30,
+   "jul_high_f": 86,
+   "record_low_f": -1,
+   "record_high_f": 102,
+   "precip_in": 43.2,
+   "snow_in": 8,
+   "last_frost": "Mar 31",
+   "first_frost": "Nov 11",
+   "growing_days": 225,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Wakefield, VA",
+   "nws_cwa": "AKQ",
+   "nwr": [
+    {
+     "call": "KJY99",
+     "freq": "162.525",
+     "same": "024039"
+    },
+    {
+     "call": "WXM57",
+     "freq": "162.400",
+     "same": "024039"
+    },
+    {
+     "call": "KEC92",
+     "freq": "162.475",
+     "same": "024039"
+    }
+   ],
+   "state_em": "Maryland Department of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.5
+  },
+  "Talbot County": {
+   "fips": "24041",
+   "centroid": [
+    38.7483,
+    -76.1785
+   ],
+   "latitude": 38.7,
+   "bbox": [
+    -76.3838,
+    38.5719,
+    -75.8971,
+    38.9447
+   ],
+   "coastal": true,
+   "elevation_ft": 10,
+   "zone": "8a",
+   "jan_low_f": 29,
+   "jul_high_f": 88,
+   "record_low_f": -6,
+   "record_high_f": 102,
+   "precip_in": 47.6,
+   "snow_in": 14,
+   "last_frost": "Apr 1",
+   "first_frost": "Nov 7",
+   "growing_days": 220,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Mount Holly, NJ",
+   "nws_cwa": "PHI",
+   "nwr": [
+    {
+     "call": "KEC83",
+     "freq": "162.400",
+     "same": "024041"
+    },
+    {
+     "call": "KEC92",
+     "freq": "162.475",
+     "same": "024041"
+    },
+    {
+     "call": "WXK97",
+     "freq": "162.500",
+     "same": "024041"
+    }
+   ],
+   "state_em": "Maryland Department of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.6
+  },
+  "Washington County": {
+   "fips": "24043",
+   "centroid": [
+    39.6036,
+    -77.8147
+   ],
+   "latitude": 39.6,
+   "bbox": [
+    -78.3616,
+    39.3184,
+    -77.4696,
+    39.723
+   ],
+   "coastal": false,
+   "elevation_ft": 450,
+   "zone": "7a",
+   "jan_low_f": 22,
+   "jul_high_f": 86,
+   "record_low_f": -27,
+   "record_high_f": 105,
+   "precip_in": 43.5,
+   "snow_in": 31,
+   "last_frost": "Apr 11",
+   "first_frost": "Oct 28",
+   "growing_days": 199,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Baltimore MD/Washington, DC",
+   "nws_cwa": "LWX",
+   "nwr": [
+    {
+     "call": "WXM43",
+     "freq": "162.425",
+     "same": "024043"
+    },
+    {
+     "call": "WXM42",
+     "freq": "162.475",
+     "same": "024043"
+    }
+   ],
+   "state_em": "Maryland Department of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.3
+  },
+  "Wicomico County": {
+   "fips": "24045",
+   "centroid": [
+    38.3674,
+    -75.6321
+   ],
+   "latitude": 38.4,
+   "bbox": [
+    -75.9202,
+    38.2278,
+    -75.3077,
+    38.5611
+   ],
+   "coastal": true,
+   "elevation_ft": 40,
+   "zone": "7b",
+   "jan_low_f": 29,
+   "jul_high_f": 89,
+   "record_low_f": -9,
+   "record_high_f": 106,
+   "precip_in": 48.0,
+   "snow_in": 8,
+   "last_frost": "Apr 3",
+   "first_frost": "Nov 7",
+   "growing_days": 217,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Wakefield, VA",
+   "nws_cwa": "AKQ",
+   "nwr": [
+    {
+     "call": "WXJ94",
+     "freq": "162.550",
+     "same": "024045"
+    },
+    {
+     "call": "KEC92",
+     "freq": "162.475",
+     "same": "024045"
+    }
+   ],
+   "state_em": "Maryland Department of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.5
+  },
+  "Worcester County": {
+   "fips": "24047",
+   "centroid": [
+    38.2221,
+    -75.3099
+   ],
+   "latitude": 38.2,
+   "bbox": [
+    -75.6618,
+    37.9941,
+    -75.0489,
+    38.4519
+   ],
+   "coastal": true,
+   "elevation_ft": 30,
+   "zone": "7b",
+   "jan_low_f": 30,
+   "jul_high_f": 89,
+   "record_low_f": -11,
+   "record_high_f": 103,
+   "precip_in": 47.4,
+   "snow_in": 10,
+   "last_frost": "Apr 10",
+   "first_frost": "Oct 31",
+   "growing_days": 202,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Wakefield, VA",
+   "nws_cwa": "AKQ",
+   "nwr": [
+    {
+     "call": "KJY99",
+     "freq": "162.525",
+     "same": "024047"
+    },
+    {
+     "call": "WXJ94",
+     "freq": "162.550",
+     "same": "024047"
+    },
+    {
+     "call": "KEC92",
+     "freq": "162.475",
+     "same": "024047"
+    }
+   ],
+   "state_em": "Maryland Department of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.5
+  },
+  "Baltimore city": {
+   "fips": "24510",
+   "centroid": [
+    39.3,
+    -76.6105
+   ],
+   "latitude": 39.3,
+   "bbox": [
+    -76.7116,
+    39.1975,
+    -76.5294,
+    39.3722
+   ],
+   "coastal": true,
+   "elevation_ft": 40,
+   "zone": "8a",
+   "jan_low_f": 30,
+   "jul_high_f": 90,
+   "record_low_f": -7,
+   "record_high_f": 106,
+   "precip_in": 43.7,
+   "snow_in": 19,
+   "last_frost": "Mar 24",
+   "first_frost": "Nov 21",
+   "growing_days": 244,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Baltimore MD/Washington, DC",
+   "nws_cwa": "LWX",
+   "nwr": [
+    {
+     "call": "KEC83",
+     "freq": "162.400",
+     "same": "024510"
+    },
+    {
+     "call": "WXK97",
+     "freq": "162.500",
+     "same": "024510"
+    }
+   ],
+   "state_em": "Maryland Department of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 2,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.4
+  }
+ }
+}

@@ -1,0 +1,748 @@
+{
+ "state": "NH",
+ "state_name": "New Hampshire",
+ "state_fips": "33",
+ "state_em": "New Hampshire Division of Homeland Security and Emergency Management",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "GYX": "NWS Gray, ME"
+ },
+ "ecoregions": [
+  "Northeastern Highlands",
+  "Northeastern Coastal Zone"
+ ],
+ "counties": {
+  "Belknap County": {
+   "fips": "33001",
+   "centroid": [
+    43.5191,
+    -71.4254
+   ],
+   "latitude": 43.5,
+   "bbox": [
+    -71.7305,
+    43.2845,
+    -71.1603,
+    43.7651
+   ],
+   "coastal": false,
+   "elevation_ft": 970,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 82,
+   "record_low_f": -24,
+   "record_high_f": 100,
+   "precip_in": 45.6,
+   "snow_in": 62,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 18",
+   "growing_days": 170,
+   "ecoregion": "Northeastern Highlands",
+   "ecoregion_code": "58",
+   "nws_office": "Gray, ME",
+   "nws_cwa": "GYX",
+   "nwr": [
+    {
+     "call": "WXJ40",
+     "freq": "162.400",
+     "same": "033001"
+    },
+    {
+     "call": "KZZ40",
+     "freq": "162.450",
+     "same": "033001"
+    },
+    {
+     "call": "WNG546",
+     "freq": "162.525",
+     "same": "033001"
+    },
+    {
+     "call": "WNG545",
+     "freq": "162.550",
+     "same": "033001"
+    },
+    {
+     "call": "KZZ41",
+     "freq": "162.500",
+     "same": "033001"
+    }
+   ],
+   "state_em": "New Hampshire Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 4.9
+  },
+  "Carroll County": {
+   "fips": "33003",
+   "centroid": [
+    43.8678,
+    -71.2016
+   ],
+   "latitude": 43.9,
+   "bbox": [
+    -71.5646,
+    43.4831,
+    -70.9522,
+    44.2849
+   ],
+   "coastal": false,
+   "elevation_ft": 520,
+   "zone": "5a",
+   "jan_low_f": 8,
+   "jul_high_f": 78,
+   "record_low_f": -34,
+   "record_high_f": 103,
+   "precip_in": 52.4,
+   "snow_in": 83,
+   "last_frost": "May 16",
+   "first_frost": "Sep 26",
+   "growing_days": 129,
+   "ecoregion": "Northeastern Highlands",
+   "ecoregion_code": "58",
+   "nws_office": "Gray, ME",
+   "nws_cwa": "GYX",
+   "nwr": [
+    {
+     "call": "WXJ40",
+     "freq": "162.400",
+     "same": "033003"
+    },
+    {
+     "call": "KZZ40",
+     "freq": "162.450",
+     "same": "033003"
+    },
+    {
+     "call": "WNG546",
+     "freq": "162.525",
+     "same": "033003"
+    },
+    {
+     "call": "WNG545",
+     "freq": "162.550",
+     "same": "033003"
+    },
+    {
+     "call": "KZZ41",
+     "freq": "162.500",
+     "same": "033003"
+    }
+   ],
+   "state_em": "New Hampshire Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 4.9
+  },
+  "Cheshire County": {
+   "fips": "33005",
+   "centroid": [
+    42.9255,
+    -72.2482
+   ],
+   "latitude": 42.9,
+   "bbox": [
+    -72.5568,
+    42.7123,
+    -71.9295,
+    43.1819
+   ],
+   "coastal": false,
+   "elevation_ft": 780,
+   "zone": "5b",
+   "jan_low_f": 10,
+   "jul_high_f": 82,
+   "record_low_f": -35,
+   "record_high_f": 104,
+   "precip_in": 46.1,
+   "snow_in": 60,
+   "last_frost": "May 14",
+   "first_frost": "Oct 1",
+   "growing_days": 138,
+   "ecoregion": "Northeastern Highlands",
+   "ecoregion_code": "58",
+   "nws_office": "Gray, ME",
+   "nws_cwa": "GYX",
+   "nwr": [
+    {
+     "call": "KZZ40",
+     "freq": "162.450",
+     "same": "033005"
+    },
+    {
+     "call": "WXM68",
+     "freq": "162.425",
+     "same": "033005"
+    },
+    {
+     "call": "WNG575",
+     "freq": "162.525",
+     "same": "033005"
+    },
+    {
+     "call": "WXL93",
+     "freq": "162.550",
+     "same": "033005"
+    }
+   ],
+   "state_em": "New Hampshire Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.0
+  },
+  "Coos County": {
+   "fips": "33007",
+   "centroid": [
+    44.6525,
+    -71.2894
+   ],
+   "latitude": 44.7,
+   "bbox": [
+    -71.7664,
+    44.0859,
+    -71.01,
+    45.3053
+   ],
+   "coastal": false,
+   "elevation_ft": 1430,
+   "zone": "4b",
+   "jan_low_f": 4,
+   "jul_high_f": 76,
+   "record_low_f": -35,
+   "record_high_f": 97,
+   "precip_in": 48.3,
+   "snow_in": 96,
+   "last_frost": "May 23",
+   "first_frost": "Sep 22",
+   "growing_days": 122,
+   "ecoregion": "Northeastern Highlands",
+   "ecoregion_code": "58",
+   "nws_office": "Gray, ME",
+   "nws_cwa": "GYX",
+   "nwr": [
+    {
+     "call": "WNG544",
+     "freq": "162.400",
+     "same": "033007"
+    },
+    {
+     "call": "KZZ41",
+     "freq": "162.500",
+     "same": "033007"
+    },
+    {
+     "call": "WWG50",
+     "freq": "162.425",
+     "same": "033007"
+    }
+   ],
+   "state_em": "New Hampshire Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.0,
+   "sun_hours_jun": 4.8
+  },
+  "Grafton County": {
+   "fips": "33009",
+   "centroid": [
+    43.9264,
+    -71.8424
+   ],
+   "latitude": 43.9,
+   "bbox": [
+    -72.3363,
+    43.5283,
+    -71.3468,
+    44.4064
+   ],
+   "coastal": false,
+   "elevation_ft": 1640,
+   "zone": "5b",
+   "jan_low_f": 7,
+   "jul_high_f": 77,
+   "record_low_f": -29,
+   "record_high_f": 95,
+   "precip_in": 41.2,
+   "snow_in": 71,
+   "last_frost": "May 15",
+   "first_frost": "Sep 28",
+   "growing_days": 133,
+   "ecoregion": "Northeastern Highlands",
+   "ecoregion_code": "58",
+   "nws_office": "Gray, ME",
+   "nws_cwa": "GYX",
+   "nwr": [
+    {
+     "call": "WNG546",
+     "freq": "162.525",
+     "same": "033009"
+    },
+    {
+     "call": "WNG545",
+     "freq": "162.550",
+     "same": "033009"
+    },
+    {
+     "call": "KZZ41",
+     "freq": "162.500",
+     "same": "033009"
+    },
+    {
+     "call": "WWG50",
+     "freq": "162.425",
+     "same": "033009"
+    },
+    {
+     "call": "WXM44",
+     "freq": "162.475",
+     "same": "033009"
+    }
+   ],
+   "state_em": "New Hampshire Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 4.9
+  },
+  "Hillsborough County": {
+   "fips": "33011",
+   "centroid": [
+    42.9115,
+    -71.7231
+   ],
+   "latitude": 42.9,
+   "bbox": [
+    -72.0624,
+    42.6971,
+    -71.2455,
+    43.2069
+   ],
+   "coastal": false,
+   "elevation_ft": 710,
+   "zone": "6a",
+   "jan_low_f": 13,
+   "jul_high_f": 80,
+   "record_low_f": -21,
+   "record_high_f": 100,
+   "precip_in": 49.5,
+   "snow_in": 75,
+   "last_frost": "May 2",
+   "first_frost": "Oct 8",
+   "growing_days": 158,
+   "ecoregion": "Northeastern Highlands",
+   "ecoregion_code": "58",
+   "nws_office": "Gray, ME",
+   "nws_cwa": "GYX",
+   "nwr": [
+    {
+     "call": "WXJ40",
+     "freq": "162.400",
+     "same": "033011"
+    },
+    {
+     "call": "KZZ40",
+     "freq": "162.450",
+     "same": "033011"
+    },
+    {
+     "call": "WNG575",
+     "freq": "162.525",
+     "same": "033011"
+    },
+    {
+     "call": "WXL93",
+     "freq": "162.550",
+     "same": "033011"
+    }
+   ],
+   "state_em": "New Hampshire Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.0
+  },
+  "Merrimack County": {
+   "fips": "33013",
+   "centroid": [
+    43.2996,
+    -71.68
+   ],
+   "latitude": 43.3,
+   "bbox": [
+    -72.09,
+    43.0096,
+    -71.236,
+    43.6117
+   ],
+   "coastal": false,
+   "elevation_ft": 440,
+   "zone": "5b",
+   "jan_low_f": 13,
+   "jul_high_f": 80,
+   "record_low_f": -20,
+   "record_high_f": 97,
+   "precip_in": 48.6,
+   "snow_in": 68,
+   "last_frost": "May 14",
+   "first_frost": "Sep 29",
+   "growing_days": 138,
+   "ecoregion": "Northeastern Highlands",
+   "ecoregion_code": "58",
+   "nws_office": "Gray, ME",
+   "nws_cwa": "GYX",
+   "nwr": [
+    {
+     "call": "WXJ40",
+     "freq": "162.400",
+     "same": "033013"
+    },
+    {
+     "call": "KZZ40",
+     "freq": "162.450",
+     "same": "033013"
+    },
+    {
+     "call": "WNG546",
+     "freq": "162.525",
+     "same": "033013"
+    },
+    {
+     "call": "WNG545",
+     "freq": "162.550",
+     "same": "033013"
+    },
+    {
+     "call": "KZZ41",
+     "freq": "162.500",
+     "same": "033013"
+    },
+    {
+     "call": "WNG575",
+     "freq": "162.525",
+     "same": "033013"
+    }
+   ],
+   "state_em": "New Hampshire Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 4.9
+  },
+  "Rockingham County": {
+   "fips": "33015",
+   "centroid": [
+    42.9887,
+    -71.0991
+   ],
+   "latitude": 43.0,
+   "bbox": [
+    -71.4503,
+    42.7377,
+    -70.6949,
+    43.2743
+   ],
+   "coastal": true,
+   "elevation_ft": 160,
+   "zone": "6a",
+   "jan_low_f": 14,
+   "jul_high_f": 82,
+   "record_low_f": -29,
+   "record_high_f": 100,
+   "precip_in": 46.3,
+   "snow_in": 57,
+   "last_frost": "May 7",
+   "first_frost": "Oct 4",
+   "growing_days": 148,
+   "ecoregion": "Northeastern Coastal Zone",
+   "ecoregion_code": "59",
+   "nws_office": "Gray, ME",
+   "nws_cwa": "GYX",
+   "nwr": [
+    {
+     "call": "WXJ40",
+     "freq": "162.400",
+     "same": "033015"
+    },
+    {
+     "call": "KZZ40",
+     "freq": "162.450",
+     "same": "033015"
+    },
+    {
+     "call": "KZZ41",
+     "freq": "162.500",
+     "same": "033015"
+    },
+    {
+     "call": "WNG575",
+     "freq": "162.525",
+     "same": "033015"
+    }
+   ],
+   "state_em": "New Hampshire Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.0
+  },
+  "Strafford County": {
+   "fips": "33017",
+   "centroid": [
+    43.2933,
+    -71.0356
+   ],
+   "latitude": 43.3,
+   "bbox": [
+    -71.247,
+    43.0809,
+    -70.8099,
+    43.5731
+   ],
+   "coastal": true,
+   "elevation_ft": 320,
+   "zone": "6a",
+   "jan_low_f": 15,
+   "jul_high_f": 82,
+   "record_low_f": -35,
+   "record_high_f": 103,
+   "precip_in": 41.2,
+   "snow_in": 39,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 9",
+   "growing_days": 161,
+   "ecoregion": "Northeastern Coastal Zone",
+   "ecoregion_code": "59",
+   "nws_office": "Gray, ME",
+   "nws_cwa": "GYX",
+   "nwr": [
+    {
+     "call": "WXJ40",
+     "freq": "162.400",
+     "same": "033017"
+    },
+    {
+     "call": "KZZ40",
+     "freq": "162.450",
+     "same": "033017"
+    },
+    {
+     "call": "KZZ41",
+     "freq": "162.500",
+     "same": "033017"
+    }
+   ],
+   "state_em": "New Hampshire Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 4.9
+  },
+  "Sullivan County": {
+   "fips": "33019",
+   "centroid": [
+    43.3612,
+    -72.2221
+   ],
+   "latitude": 43.4,
+   "bbox": [
+    -72.4524,
+    43.129,
+    -71.9354,
+    43.5998
+   ],
+   "coastal": false,
+   "elevation_ft": 710,
+   "zone": "5a",
+   "jan_low_f": 9,
+   "jul_high_f": 80,
+   "record_low_f": -40,
+   "record_high_f": 97,
+   "precip_in": 42.0,
+   "snow_in": 66,
+   "last_frost": "May 14",
+   "first_frost": "Oct 1",
+   "growing_days": 140,
+   "ecoregion": "Northeastern Highlands",
+   "ecoregion_code": "58",
+   "nws_office": "Gray, ME",
+   "nws_cwa": "GYX",
+   "nwr": [
+    {
+     "call": "WXJ40",
+     "freq": "162.400",
+     "same": "033019"
+    },
+    {
+     "call": "WNG546",
+     "freq": "162.525",
+     "same": "033019"
+    },
+    {
+     "call": "WNG545",
+     "freq": "162.550",
+     "same": "033019"
+    },
+    {
+     "call": "WNG575",
+     "freq": "162.525",
+     "same": "033019"
+    },
+    {
+     "call": "WXM44",
+     "freq": "162.475",
+     "same": "033019"
+    }
+   ],
+   "state_em": "New Hampshire Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 4.9
+  }
+ }
+}

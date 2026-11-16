@@ -1,0 +1,705 @@
+{
+ "state": "CT",
+ "state_name": "Connecticut",
+ "state_fips": "09",
+ "state_em": "Connecticut Division of Emergency Management and Homeland Security",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "ALY": "NWS Albany, NY",
+  "BOX": "NWS Norton, MA",
+  "OKX": "NWS Upton, NY"
+ },
+ "ecoregions": [
+  "Northeastern Highlands",
+  "Northeastern Coastal Zone"
+ ],
+ "counties": {
+  "Capitol Planning Region": {
+   "fips": "09110",
+   "centroid": [
+    41.817,
+    -72.5759
+   ],
+   "latitude": 41.8,
+   "bbox": [
+    -73.0295,
+    41.5453,
+    -72.0992,
+    42.0388
+   ],
+   "coastal": true,
+   "elevation_ft": 80,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 85,
+   "record_low_f": -24,
+   "record_high_f": 103,
+   "precip_in": 42.8,
+   "snow_in": 52,
+   "last_frost": "Apr 17",
+   "first_frost": "Oct 26",
+   "growing_days": 191,
+   "ecoregion": "Northeastern Coastal Zone",
+   "ecoregion_code": "59",
+   "nws_office": "Norton, MA",
+   "nws_cwa": "BOX",
+   "nwr": [
+    {
+     "call": "WWH33",
+     "freq": "162.500",
+     "same": "009003"
+    },
+    {
+     "call": "WXJ41",
+     "freq": "162.475",
+     "same": "009003"
+    },
+    {
+     "call": "WXJ42",
+     "freq": "162.400",
+     "same": "009003"
+    },
+    {
+     "call": "KHB47",
+     "freq": "162.550",
+     "same": "009003"
+    },
+    {
+     "call": "WXL93",
+     "freq": "162.550",
+     "same": "009013"
+    }
+   ],
+   "state_em": "Connecticut Division of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.2
+  },
+  "Greater Bridgeport Planning Region": {
+   "fips": "09120",
+   "centroid": [
+    41.1846,
+    -73.2094
+   ],
+   "latitude": 41.2,
+   "bbox": [
+    -73.727,
+    40.9799,
+    -73.0655,
+    41.6664
+   ],
+   "coastal": true,
+   "elevation_ft": 30,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 83,
+   "record_low_f": -7,
+   "record_high_f": 103,
+   "precip_in": 44.1,
+   "snow_in": 34,
+   "last_frost": "Apr 5",
+   "first_frost": "Nov 6",
+   "growing_days": 216,
+   "ecoregion": "Northeastern Coastal Zone",
+   "ecoregion_code": "59",
+   "nws_office": "Upton, NY",
+   "nws_cwa": "OKX",
+   "nwr": [
+    {
+     "call": "WWH33",
+     "freq": "162.500",
+     "same": "009001"
+    },
+    {
+     "call": "WXJ42",
+     "freq": "162.400",
+     "same": "009001"
+    },
+    {
+     "call": "KWO35",
+     "freq": "162.550",
+     "same": "009001"
+    },
+    {
+     "call": "WXM80",
+     "freq": "162.475",
+     "same": "009001"
+    }
+   ],
+   "state_em": "Connecticut Division of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.1
+  },
+  "Lower Connecticut River Valley Planning Region": {
+   "fips": "09130",
+   "centroid": [
+    41.4203,
+    -72.4935
+   ],
+   "latitude": 41.4,
+   "bbox": [
+    -72.7529,
+    41.2534,
+    -71.788,
+    41.7138
+   ],
+   "coastal": true,
+   "elevation_ft": 290,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 84,
+   "record_low_f": -24,
+   "record_high_f": 104,
+   "precip_in": 44.9,
+   "snow_in": 28,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 16",
+   "growing_days": 175,
+   "ecoregion": "Northeastern Coastal Zone",
+   "ecoregion_code": "59",
+   "nws_office": "Upton, NY",
+   "nws_cwa": "OKX",
+   "nwr": [
+    {
+     "call": "WXJ41",
+     "freq": "162.475",
+     "same": "009007"
+    },
+    {
+     "call": "WXJ42",
+     "freq": "162.400",
+     "same": "009007"
+    },
+    {
+     "call": "KHB47",
+     "freq": "162.550",
+     "same": "009007"
+    },
+    {
+     "call": "WXM80",
+     "freq": "162.475",
+     "same": "009007"
+    }
+   ],
+   "state_em": "Connecticut Division of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.2
+  },
+  "Naugatuck Valley Planning Region": {
+   "fips": "09140",
+   "centroid": [
+    41.5189,
+    -73.0879
+   ],
+   "latitude": 41.5,
+   "bbox": [
+    -73.727,
+    40.9799,
+    -72.4086,
+    42.0506
+   ],
+   "coastal": true,
+   "elevation_ft": 510,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 85,
+   "record_low_f": -24,
+   "record_high_f": 104,
+   "precip_in": 50.4,
+   "snow_in": 47,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 26",
+   "growing_days": 191,
+   "ecoregion": "Northeastern Coastal Zone",
+   "ecoregion_code": "59",
+   "nws_office": "Upton, NY",
+   "nws_cwa": "OKX",
+   "nwr": [
+    {
+     "call": "WWH33",
+     "freq": "162.500",
+     "same": "009001"
+    },
+    {
+     "call": "WXJ42",
+     "freq": "162.400",
+     "same": "009001"
+    },
+    {
+     "call": "KWO35",
+     "freq": "162.550",
+     "same": "009001"
+    },
+    {
+     "call": "WXM80",
+     "freq": "162.475",
+     "same": "009001"
+    },
+    {
+     "call": "WXJ41",
+     "freq": "162.475",
+     "same": "009003"
+    },
+    {
+     "call": "KHB47",
+     "freq": "162.550",
+     "same": "009003"
+    },
+    {
+     "call": "WXL37",
+     "freq": "162.475",
+     "same": "009005"
+    }
+   ],
+   "state_em": "Connecticut Division of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.1
+  },
+  "Northeastern Connecticut Planning Region": {
+   "fips": "09150",
+   "centroid": [
+    41.8424,
+    -71.9727
+   ],
+   "latitude": 41.8,
+   "bbox": [
+    -72.5183,
+    41.2774,
+    -71.787,
+    42.0341
+   ],
+   "coastal": true,
+   "elevation_ft": 310,
+   "zone": "6b",
+   "jan_low_f": 15,
+   "jul_high_f": 82,
+   "record_low_f": -23,
+   "record_high_f": 100,
+   "precip_in": 50.1,
+   "snow_in": 38,
+   "last_frost": "May 1",
+   "first_frost": "Oct 9",
+   "growing_days": 161,
+   "ecoregion": "Northeastern Coastal Zone",
+   "ecoregion_code": "59",
+   "nws_office": "Norton, MA",
+   "nws_cwa": "BOX",
+   "nwr": [
+    {
+     "call": "WXJ41",
+     "freq": "162.475",
+     "same": "009011"
+    },
+    {
+     "call": "WXJ42",
+     "freq": "162.400",
+     "same": "009011"
+    },
+    {
+     "call": "KHB47",
+     "freq": "162.550",
+     "same": "009011"
+    },
+    {
+     "call": "WXM80",
+     "freq": "162.475",
+     "same": "009011"
+    },
+    {
+     "call": "WXL93",
+     "freq": "162.550",
+     "same": "009013"
+    }
+   ],
+   "state_em": "Connecticut Division of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.3
+  },
+  "Northwest Hills Planning Region": {
+   "fips": "09160",
+   "centroid": [
+    41.8548,
+    -73.2215
+   ],
+   "latitude": 41.9,
+   "bbox": [
+    -73.5178,
+    41.4687,
+    -72.4086,
+    42.0506
+   ],
+   "coastal": false,
+   "elevation_ft": 1370,
+   "zone": "6a",
+   "jan_low_f": 14,
+   "jul_high_f": 78,
+   "record_low_f": -25,
+   "record_high_f": 98,
+   "precip_in": 52.9,
+   "snow_in": 75,
+   "last_frost": "May 3",
+   "first_frost": "Oct 11",
+   "growing_days": 161,
+   "ecoregion": "Northeastern Highlands",
+   "ecoregion_code": "58",
+   "nws_office": "Albany, NY",
+   "nws_cwa": "ALY",
+   "nwr": [
+    {
+     "call": "WWH33",
+     "freq": "162.500",
+     "same": "009003"
+    },
+    {
+     "call": "WXJ41",
+     "freq": "162.475",
+     "same": "009003"
+    },
+    {
+     "call": "WXJ42",
+     "freq": "162.400",
+     "same": "009003"
+    },
+    {
+     "call": "KHB47",
+     "freq": "162.550",
+     "same": "009003"
+    },
+    {
+     "call": "WXL37",
+     "freq": "162.475",
+     "same": "009005"
+    }
+   ],
+   "state_em": "Connecticut Division of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.1
+  },
+  "South Central Connecticut Planning Region": {
+   "fips": "09170",
+   "centroid": [
+    41.2902,
+    -72.837
+   ],
+   "latitude": 41.3,
+   "bbox": [
+    -73.3267,
+    41.1691,
+    -72.5245,
+    41.6443
+   ],
+   "coastal": true,
+   "elevation_ft": 40,
+   "zone": "7a",
+   "jan_low_f": 23,
+   "jul_high_f": 82,
+   "record_low_f": -8,
+   "record_high_f": 101,
+   "precip_in": 41.8,
+   "snow_in": 34,
+   "last_frost": "Apr 17",
+   "first_frost": "Oct 27",
+   "growing_days": 193,
+   "ecoregion": "Northeastern Coastal Zone",
+   "ecoregion_code": "59",
+   "nws_office": "Upton, NY",
+   "nws_cwa": "OKX",
+   "nwr": [
+    {
+     "call": "WWH33",
+     "freq": "162.500",
+     "same": "009009"
+    },
+    {
+     "call": "WXJ41",
+     "freq": "162.475",
+     "same": "009009"
+    },
+    {
+     "call": "WXJ42",
+     "freq": "162.400",
+     "same": "009009"
+    },
+    {
+     "call": "WXM80",
+     "freq": "162.475",
+     "same": "009009"
+    }
+   ],
+   "state_em": "Connecticut Division of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.2
+  },
+  "Southeastern Connecticut Planning Region": {
+   "fips": "09180",
+   "centroid": [
+    41.4848,
+    -72.1017
+   ],
+   "latitude": 41.5,
+   "bbox": [
+    -72.4667,
+    41.2774,
+    -71.787,
+    42.0288
+   ],
+   "coastal": true,
+   "elevation_ft": 130,
+   "zone": "6b",
+   "jan_low_f": 21,
+   "jul_high_f": 84,
+   "record_low_f": -21,
+   "record_high_f": 102,
+   "precip_in": 52.2,
+   "snow_in": 28,
+   "last_frost": "Apr 14",
+   "first_frost": "Oct 24",
+   "growing_days": 192,
+   "ecoregion": "Northeastern Coastal Zone",
+   "ecoregion_code": "59",
+   "nws_office": "Upton, NY",
+   "nws_cwa": "OKX",
+   "nwr": [
+    {
+     "call": "WXJ41",
+     "freq": "162.475",
+     "same": "009011"
+    },
+    {
+     "call": "WXJ42",
+     "freq": "162.400",
+     "same": "009011"
+    },
+    {
+     "call": "KHB47",
+     "freq": "162.550",
+     "same": "009011"
+    },
+    {
+     "call": "WXM80",
+     "freq": "162.475",
+     "same": "009011"
+    },
+    {
+     "call": "WXL93",
+     "freq": "162.550",
+     "same": "009015"
+    }
+   ],
+   "state_em": "Connecticut Division of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.2
+  },
+  "Western Connecticut Planning Region": {
+   "fips": "09190",
+   "centroid": [
+    41.2791,
+    -73.4466
+   ],
+   "latitude": 41.3,
+   "bbox": [
+    -73.727,
+    40.9799,
+    -72.8871,
+    42.0506
+   ],
+   "coastal": true,
+   "elevation_ft": 460,
+   "zone": "6b",
+   "jan_low_f": 18,
+   "jul_high_f": 82,
+   "record_low_f": -18,
+   "record_high_f": 106,
+   "precip_in": 48.0,
+   "snow_in": 49,
+   "last_frost": "May 1",
+   "first_frost": "Oct 14",
+   "growing_days": 166,
+   "ecoregion": "Northeastern Coastal Zone",
+   "ecoregion_code": "59",
+   "nws_office": "Upton, NY",
+   "nws_cwa": "OKX",
+   "nwr": [
+    {
+     "call": "WWH33",
+     "freq": "162.500",
+     "same": "009001"
+    },
+    {
+     "call": "WXJ42",
+     "freq": "162.400",
+     "same": "009001"
+    },
+    {
+     "call": "KWO35",
+     "freq": "162.550",
+     "same": "009001"
+    },
+    {
+     "call": "WXM80",
+     "freq": "162.475",
+     "same": "009001"
+    },
+    {
+     "call": "WXJ41",
+     "freq": "162.475",
+     "same": "009005"
+    },
+    {
+     "call": "WXL37",
+     "freq": "162.475",
+     "same": "009005"
+    }
+   ],
+   "state_em": "Connecticut Division of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.1
+  }
+ }
+}

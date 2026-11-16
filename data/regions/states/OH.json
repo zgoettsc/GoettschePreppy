@@ -1,0 +1,5501 @@
+{
+ "state": "OH",
+ "state_name": "Ohio",
+ "state_fips": "39",
+ "state_em": "Ohio Emergency Management Agency",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "CLE": "NWS Cleveland, OH",
+  "ILN": "NWS Wilmington, OH",
+  "IWX": "NWS Northern Indiana, IN",
+  "PBZ": "NWS Pittsburgh, PA",
+  "RLX": "NWS Charleston, WV"
+ },
+ "ecoregions": [
+  "Eastern Corn Belt Plains",
+  "Huron/Erie Lake Plains",
+  "Erie Drift Plain",
+  "Western Allegheny Plateau",
+  "Interior Plateau",
+  "Eastern Great Lakes Lowlands"
+ ],
+ "counties": {
+  "Adams County": {
+   "fips": "39001",
+   "centroid": [
+    38.8345,
+    -83.4781
+   ],
+   "latitude": 38.8,
+   "bbox": [
+    -83.7059,
+    38.5967,
+    -83.2679,
+    39.0555
+   ],
+   "coastal": false,
+   "elevation_ft": 720,
+   "zone": "6b",
+   "jan_low_f": 17,
+   "jul_high_f": 86,
+   "record_low_f": -28,
+   "record_high_f": 103,
+   "precip_in": 46.8,
+   "snow_in": 20,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 11",
+   "growing_days": 162,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "KZZ49",
+     "freq": "162.425",
+     "same": "039001"
+    },
+    {
+     "call": "WXM69",
+     "freq": "162.525",
+     "same": "039001"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Allen County": {
+   "fips": "39003",
+   "centroid": [
+    40.7716,
+    -84.1061
+   ],
+   "latitude": 40.8,
+   "bbox": [
+    -84.3975,
+    40.643,
+    -83.8797,
+    40.921
+   ],
+   "coastal": false,
+   "elevation_ft": 860,
+   "zone": "6a",
+   "jan_low_f": 19,
+   "jul_high_f": 84,
+   "record_low_f": -21,
+   "record_high_f": 109,
+   "precip_in": 41.2,
+   "snow_in": 18,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 24",
+   "growing_days": 182,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Northern Indiana, IN",
+   "nws_cwa": "IWX",
+   "nwr": [
+    {
+     "call": "WXJ93",
+     "freq": "162.400",
+     "same": "039003"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.4
+  },
+  "Ashland County": {
+   "fips": "39005",
+   "centroid": [
+    40.8433,
+    -82.2701
+   ],
+   "latitude": 40.8,
+   "bbox": [
+    -82.4367,
+    40.5551,
+    -82.125,
+    41.0658
+   ],
+   "coastal": false,
+   "elevation_ft": 1040,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 83,
+   "record_low_f": -23,
+   "record_high_f": 103,
+   "precip_in": 42.5,
+   "snow_in": 49,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 15",
+   "growing_days": 168,
+   "ecoregion": "Erie Drift Plain",
+   "ecoregion_code": "61",
+   "nws_office": "Cleveland, OH",
+   "nws_cwa": "CLE",
+   "nwr": [
+    {
+     "call": "KDO94",
+     "freq": "162.400",
+     "same": "039005"
+    },
+    {
+     "call": "WNG698",
+     "freq": "162.500",
+     "same": "039005"
+    },
+    {
+     "call": "WWG57",
+     "freq": "162.450",
+     "same": "039005"
+    },
+    {
+     "call": "KHB97",
+     "freq": "162.400",
+     "same": "039005"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.0,
+   "sun_hours_jun": 5.2
+  },
+  "Ashtabula County": {
+   "fips": "39007",
+   "centroid": [
+    41.9066,
+    -80.7456
+   ],
+   "latitude": 41.9,
+   "bbox": [
+    -81.0047,
+    41.4993,
+    -80.5191,
+    41.9776
+   ],
+   "coastal": false,
+   "elevation_ft": 640,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 81,
+   "record_low_f": -33,
+   "record_high_f": 100,
+   "precip_in": 37.1,
+   "snow_in": 90,
+   "last_frost": "May 2",
+   "first_frost": "Oct 21",
+   "growing_days": 171,
+   "ecoregion": "Eastern Great Lakes Lowlands",
+   "ecoregion_code": "83",
+   "nws_office": "Cleveland, OH",
+   "nws_cwa": "CLE",
+   "nwr": [
+    {
+     "call": "KHB59",
+     "freq": "162.550",
+     "same": "039007"
+    },
+    {
+     "call": "KEC58",
+     "freq": "162.400",
+     "same": "039007"
+    },
+    {
+     "call": "KZZ32",
+     "freq": "162.475",
+     "same": "039007"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.1
+  },
+  "Athens County": {
+   "fips": "39009",
+   "centroid": [
+    39.3328,
+    -82.0459
+   ],
+   "latitude": 39.3,
+   "bbox": [
+    -82.2986,
+    39.1803,
+    -81.7217,
+    39.5563
+   ],
+   "coastal": false,
+   "elevation_ft": 640,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 82,
+   "record_low_f": -26,
+   "record_high_f": 104,
+   "precip_in": 41.6,
+   "snow_in": 18,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 23",
+   "growing_days": 179,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "KZZ46",
+     "freq": "162.425",
+     "same": "039009"
+    },
+    {
+     "call": "WXM70",
+     "freq": "162.500",
+     "same": "039009"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.2
+  },
+  "Auglaize County": {
+   "fips": "39011",
+   "centroid": [
+    40.5613,
+    -84.224
+   ],
+   "latitude": 40.6,
+   "bbox": [
+    -84.456,
+    40.3545,
+    -83.8799,
+    40.686
+   ],
+   "coastal": false,
+   "elevation_ft": 880,
+   "zone": "6a",
+   "jan_low_f": 19,
+   "jul_high_f": 84,
+   "record_low_f": -21,
+   "record_high_f": 109,
+   "precip_in": 41.2,
+   "snow_in": 18,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 24",
+   "growing_days": 182,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "WXJ93",
+     "freq": "162.400",
+     "same": "039011"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.4
+  },
+  "Belmont County": {
+   "fips": "39013",
+   "centroid": [
+    40.0177,
+    -80.9677
+   ],
+   "latitude": 40.0,
+   "bbox": [
+    -81.2373,
+    39.8498,
+    -80.7036,
+    40.1727
+   ],
+   "coastal": false,
+   "elevation_ft": 1140,
+   "zone": "6b",
+   "jan_low_f": 21,
+   "jul_high_f": 83,
+   "record_low_f": -25,
+   "record_high_f": 103,
+   "precip_in": 42.6,
+   "snow_in": 26,
+   "last_frost": "Apr 27",
+   "first_frost": "Oct 22",
+   "growing_days": 177,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Pittsburgh, PA",
+   "nws_cwa": "PBZ",
+   "nwr": [
+    {
+     "call": "WWF35",
+     "freq": "162.525",
+     "same": "039013"
+    },
+    {
+     "call": "WXJ47",
+     "freq": "162.475",
+     "same": "039013"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.0,
+   "sun_hours_jun": 5.1
+  },
+  "Brown County": {
+   "fips": "39015",
+   "centroid": [
+    38.9314,
+    -83.8668
+   ],
+   "latitude": 38.9,
+   "bbox": [
+    -84.0524,
+    38.6398,
+    -83.673,
+    39.2542
+   ],
+   "coastal": false,
+   "elevation_ft": 960,
+   "zone": "6b",
+   "jan_low_f": 17,
+   "jul_high_f": 86,
+   "record_low_f": -28,
+   "record_high_f": 103,
+   "precip_in": 47.9,
+   "snow_in": 17,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 11",
+   "growing_days": 162,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "KIH42",
+     "freq": "162.550",
+     "same": "039015"
+    },
+    {
+     "call": "KZZ49",
+     "freq": "162.425",
+     "same": "039015"
+    },
+    {
+     "call": "WXM69",
+     "freq": "162.525",
+     "same": "039015"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Butler County": {
+   "fips": "39017",
+   "centroid": [
+    39.4397,
+    -84.5657
+   ],
+   "latitude": 39.4,
+   "bbox": [
+    -84.8194,
+    39.2919,
+    -84.3321,
+    39.59
+   ],
+   "coastal": false,
+   "elevation_ft": 790,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 87,
+   "record_low_f": -23,
+   "record_high_f": 111,
+   "precip_in": 41.4,
+   "snow_in": 10,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 18",
+   "growing_days": 178,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "KIH42",
+     "freq": "162.550",
+     "same": "039017"
+    },
+    {
+     "call": "WXJ46",
+     "freq": "162.475",
+     "same": "039017"
+    },
+    {
+     "call": "KHB52",
+     "freq": "162.500",
+     "same": "039017"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Carroll County": {
+   "fips": "39019",
+   "centroid": [
+    40.5799,
+    -81.0908
+   ],
+   "latitude": 40.6,
+   "bbox": [
+    -81.3217,
+    40.4247,
+    -80.8608,
+    40.7292
+   ],
+   "coastal": false,
+   "elevation_ft": 1180,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 82,
+   "record_low_f": -34,
+   "record_high_f": 103,
+   "precip_in": 42.9,
+   "snow_in": 32,
+   "last_frost": "May 2",
+   "first_frost": "Oct 13",
+   "growing_days": 165,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Pittsburgh, PA",
+   "nws_cwa": "PBZ",
+   "nwr": [
+    {
+     "call": "KDO94",
+     "freq": "162.400",
+     "same": "039019"
+    },
+    {
+     "call": "WWF35",
+     "freq": "162.525",
+     "same": "039019"
+    },
+    {
+     "call": "WXJ47",
+     "freq": "162.475",
+     "same": "039019"
+    },
+    {
+     "call": "WNG735",
+     "freq": "162.425",
+     "same": "039019"
+    },
+    {
+     "call": "WWG56",
+     "freq": "162.500",
+     "same": "039019"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.0,
+   "sun_hours_jun": 5.2
+  },
+  "Champaign County": {
+   "fips": "39021",
+   "centroid": [
+    40.1328,
+    -83.7676
+   ],
+   "latitude": 40.1,
+   "bbox": [
+    -84.0363,
+    40.0112,
+    -83.4941,
+    40.2739
+   ],
+   "coastal": false,
+   "elevation_ft": 1050,
+   "zone": "6a",
+   "jan_low_f": 19,
+   "jul_high_f": 85,
+   "record_low_f": -26,
+   "record_high_f": 110,
+   "precip_in": 44.0,
+   "snow_in": 19,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 19",
+   "growing_days": 179,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "KIG86",
+     "freq": "162.550",
+     "same": "039021"
+    },
+    {
+     "call": "WXJ46",
+     "freq": "162.475",
+     "same": "039021"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.3
+  },
+  "Clark County": {
+   "fips": "39023",
+   "centroid": [
+    39.917,
+    -83.7837
+   ],
+   "latitude": 39.9,
+   "bbox": [
+    -84.0537,
+    39.7688,
+    -83.5081,
+    40.04
+   ],
+   "coastal": false,
+   "elevation_ft": 1030,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 84,
+   "record_low_f": -26,
+   "record_high_f": 100,
+   "precip_in": 40.2,
+   "snow_in": 19,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 19",
+   "growing_days": 175,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "KIG86",
+     "freq": "162.550",
+     "same": "039023"
+    },
+    {
+     "call": "WXJ46",
+     "freq": "162.475",
+     "same": "039023"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.4
+  },
+  "Clermont County": {
+   "fips": "39025",
+   "centroid": [
+    39.0521,
+    -84.1495
+   ],
+   "latitude": 39.1,
+   "bbox": [
+    -84.3195,
+    38.7705,
+    -83.9934,
+    39.2705
+   ],
+   "coastal": false,
+   "elevation_ft": 780,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 87,
+   "record_low_f": -25,
+   "record_high_f": 104,
+   "precip_in": 43.4,
+   "snow_in": 14,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 18",
+   "growing_days": 177,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "KIH42",
+     "freq": "162.550",
+     "same": "039025"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Clinton County": {
+   "fips": "39027",
+   "centroid": [
+    39.4167,
+    -83.8046
+   ],
+   "latitude": 39.4,
+   "bbox": [
+    -84.0068,
+    39.2228,
+    -83.5763,
+    39.5692
+   ],
+   "coastal": false,
+   "elevation_ft": 1050,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 85,
+   "record_low_f": -14,
+   "record_high_f": 99,
+   "precip_in": 44.7,
+   "snow_in": 27,
+   "last_frost": "Apr 17",
+   "first_frost": "Oct 22",
+   "growing_days": 187,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "KIH42",
+     "freq": "162.550",
+     "same": "039027"
+    },
+    {
+     "call": "WXJ46",
+     "freq": "162.475",
+     "same": "039027"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.4
+  },
+  "Columbiana County": {
+   "fips": "39029",
+   "centroid": [
+    40.7701,
+    -80.7785
+   ],
+   "latitude": 40.8,
+   "bbox": [
+    -81.0873,
+    40.5822,
+    -80.5189,
+    40.9302
+   ],
+   "coastal": false,
+   "elevation_ft": 930,
+   "zone": "6a",
+   "jan_low_f": 19,
+   "jul_high_f": 82,
+   "record_low_f": -34,
+   "record_high_f": 103,
+   "precip_in": 41.7,
+   "snow_in": 32,
+   "last_frost": "May 2",
+   "first_frost": "Oct 13",
+   "growing_days": 165,
+   "ecoregion": "Erie Drift Plain",
+   "ecoregion_code": "61",
+   "nws_office": "Pittsburgh, PA",
+   "nws_cwa": "PBZ",
+   "nwr": [
+    {
+     "call": "KDO94",
+     "freq": "162.400",
+     "same": "039029"
+    },
+    {
+     "call": "WWF35",
+     "freq": "162.525",
+     "same": "039029"
+    },
+    {
+     "call": "KIH35",
+     "freq": "162.550",
+     "same": "039029"
+    },
+    {
+     "call": "WWG56",
+     "freq": "162.500",
+     "same": "039029"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.0,
+   "sun_hours_jun": 5.1
+  },
+  "Coshocton County": {
+   "fips": "39031",
+   "centroid": [
+    40.2967,
+    -81.9301
+   ],
+   "latitude": 40.3,
+   "bbox": [
+    -82.1962,
+    40.151,
+    -81.616,
+    40.4563
+   ],
+   "coastal": false,
+   "elevation_ft": 920,
+   "zone": "6a",
+   "jan_low_f": 20,
+   "jul_high_f": 83,
+   "record_low_f": -26,
+   "record_high_f": 106,
+   "precip_in": 43.6,
+   "snow_in": 15,
+   "last_frost": "Apr 27",
+   "first_frost": "Oct 18",
+   "growing_days": 174,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Pittsburgh, PA",
+   "nws_cwa": "PBZ",
+   "nwr": [
+    {
+     "call": "WWF35",
+     "freq": "162.525",
+     "same": "039031"
+    },
+    {
+     "call": "WXJ47",
+     "freq": "162.475",
+     "same": "039031"
+    },
+    {
+     "call": "WNG735",
+     "freq": "162.425",
+     "same": "039031"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.0,
+   "sun_hours_jun": 5.2
+  },
+  "Crawford County": {
+   "fips": "39033",
+   "centroid": [
+    40.8485,
+    -82.9248
+   ],
+   "latitude": 40.8,
+   "bbox": [
+    -83.113,
+    40.7029,
+    -82.7243,
+    40.997
+   ],
+   "coastal": false,
+   "elevation_ft": 1040,
+   "zone": "6a",
+   "jan_low_f": 20,
+   "jul_high_f": 86,
+   "record_low_f": -28,
+   "record_high_f": 111,
+   "precip_in": 38.5,
+   "snow_in": 23,
+   "last_frost": "Apr 19",
+   "first_frost": "Oct 27",
+   "growing_days": 190,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Cleveland, OH",
+   "nws_cwa": "CLE",
+   "nwr": [
+    {
+     "call": "KZZ47",
+     "freq": "162.525",
+     "same": "039033"
+    },
+    {
+     "call": "WWG57",
+     "freq": "162.450",
+     "same": "039033"
+    },
+    {
+     "call": "KHB97",
+     "freq": "162.400",
+     "same": "039033"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.0,
+   "sun_hours_jun": 5.2
+  },
+  "Cuyahoga County": {
+   "fips": "39035",
+   "centroid": [
+    41.555,
+    -81.605
+   ],
+   "latitude": 41.6,
+   "bbox": [
+    -81.9712,
+    41.2751,
+    -81.3744,
+    41.6314
+   ],
+   "coastal": false,
+   "elevation_ft": 610,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 81,
+   "record_low_f": -20,
+   "record_high_f": 104,
+   "precip_in": 33.3,
+   "snow_in": 64,
+   "last_frost": "Apr 8",
+   "first_frost": "Nov 12",
+   "growing_days": 217,
+   "ecoregion": "Eastern Great Lakes Lowlands",
+   "ecoregion_code": "83",
+   "nws_office": "Cleveland, OH",
+   "nws_cwa": "CLE",
+   "nwr": [
+    {
+     "call": "KHB59",
+     "freq": "162.550",
+     "same": "039035"
+    },
+    {
+     "call": "WNG698",
+     "freq": "162.500",
+     "same": "039035"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.2
+  },
+  "Darke County": {
+   "fips": "39037",
+   "centroid": [
+    40.1315,
+    -84.6212
+   ],
+   "latitude": 40.1,
+   "bbox": [
+    -84.8123,
+    39.9165,
+    -84.4261,
+    40.3545
+   ],
+   "coastal": false,
+   "elevation_ft": 1040,
+   "zone": "6a",
+   "jan_low_f": 19,
+   "jul_high_f": 85,
+   "record_low_f": -33,
+   "record_high_f": 105,
+   "precip_in": 40.3,
+   "snow_in": 26,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 20",
+   "growing_days": 180,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "WXJ46",
+     "freq": "162.475",
+     "same": "039037"
+    },
+    {
+     "call": "KHB52",
+     "freq": "162.500",
+     "same": "039037"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.4
+  },
+  "Defiance County": {
+   "fips": "39039",
+   "centroid": [
+    41.3217,
+    -84.4864
+   ],
+   "latitude": 41.3,
+   "bbox": [
+    -84.8041,
+    41.1654,
+    -84.2273,
+    41.4279
+   ],
+   "coastal": false,
+   "elevation_ft": 710,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 84,
+   "record_low_f": -26,
+   "record_high_f": 111,
+   "precip_in": 33.0,
+   "snow_in": 24,
+   "last_frost": "Apr 28",
+   "first_frost": "Oct 17",
+   "growing_days": 170,
+   "ecoregion": "Huron/Erie Lake Plains",
+   "ecoregion_code": "57",
+   "nws_office": "Northern Indiana, IN",
+   "nws_cwa": "IWX",
+   "nwr": [
+    {
+     "call": "KXI94",
+     "freq": "162.425",
+     "same": "039039"
+    },
+    {
+     "call": "WXJ58",
+     "freq": "162.550",
+     "same": "039039"
+    },
+    {
+     "call": "WXJ93",
+     "freq": "162.400",
+     "same": "039039"
+    },
+    {
+     "call": "WXL51",
+     "freq": "162.500",
+     "same": "039039"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.3
+  },
+  "Delaware County": {
+   "fips": "39041",
+   "centroid": [
+    40.2789,
+    -83.0075
+   ],
+   "latitude": 40.3,
+   "bbox": [
+    -83.2496,
+    40.1259,
+    -82.7447,
+    40.4439
+   ],
+   "coastal": false,
+   "elevation_ft": 950,
+   "zone": "6a",
+   "jan_low_f": 22,
+   "jul_high_f": 86,
+   "record_low_f": -27,
+   "record_high_f": 103,
+   "precip_in": 42.2,
+   "snow_in": 19,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 24",
+   "growing_days": 183,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "KIG86",
+     "freq": "162.550",
+     "same": "039041"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.3
+  },
+  "Erie County": {
+   "fips": "39043",
+   "centroid": [
+    41.3941,
+    -82.5868
+   ],
+   "latitude": 41.4,
+   "bbox": [
+    -82.8483,
+    41.2836,
+    -82.3425,
+    41.6245
+   ],
+   "coastal": false,
+   "elevation_ft": 600,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 82,
+   "record_low_f": -20,
+   "record_high_f": 105,
+   "precip_in": 34.0,
+   "snow_in": 33,
+   "last_frost": "Apr 10",
+   "first_frost": "Nov 5",
+   "growing_days": 209,
+   "ecoregion": "Huron/Erie Lake Plains",
+   "ecoregion_code": "57",
+   "nws_office": "Cleveland, OH",
+   "nws_cwa": "CLE",
+   "nwr": [
+    {
+     "call": "KHB59",
+     "freq": "162.550",
+     "same": "039043"
+    },
+    {
+     "call": "WNG698",
+     "freq": "162.500",
+     "same": "039043"
+    },
+    {
+     "call": "KHB97",
+     "freq": "162.400",
+     "same": "039043"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 5.3
+  },
+  "Fairfield County": {
+   "fips": "39045",
+   "centroid": [
+    39.7477,
+    -82.6267
+   ],
+   "latitude": 39.7,
+   "bbox": [
+    -82.8427,
+    39.5544,
+    -82.3661,
+    39.9412
+   ],
+   "coastal": false,
+   "elevation_ft": 920,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 84,
+   "record_low_f": -21,
+   "record_high_f": 100,
+   "precip_in": 40.3,
+   "snow_in": 17,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 13",
+   "growing_days": 169,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "KJY68",
+     "freq": "162.500",
+     "same": "039045"
+    },
+    {
+     "call": "KIG86",
+     "freq": "162.550",
+     "same": "039045"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.2
+  },
+  "Fayette County": {
+   "fips": "39047",
+   "centroid": [
+    39.5552,
+    -83.4619
+   ],
+   "latitude": 39.6,
+   "bbox": [
+    -83.6694,
+    39.3771,
+    -83.2524,
+    39.7171
+   ],
+   "coastal": false,
+   "elevation_ft": 990,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 84,
+   "record_low_f": -27,
+   "record_high_f": 107,
+   "precip_in": 40.8,
+   "snow_in": 18,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 21",
+   "growing_days": 181,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "KJY68",
+     "freq": "162.500",
+     "same": "039047"
+    },
+    {
+     "call": "KIG86",
+     "freq": "162.550",
+     "same": "039047"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.4
+  },
+  "Franklin County": {
+   "fips": "39049",
+   "centroid": [
+    39.9699,
+    -83.0091
+   ],
+   "latitude": 40.0,
+   "bbox": [
+    -83.2602,
+    39.7949,
+    -82.7621,
+    40.1431
+   ],
+   "coastal": false,
+   "elevation_ft": 730,
+   "zone": "6b",
+   "jan_low_f": 21,
+   "jul_high_f": 85,
+   "record_low_f": -28,
+   "record_high_f": 104,
+   "precip_in": 44.7,
+   "snow_in": 28,
+   "last_frost": "Apr 20",
+   "first_frost": "Oct 24",
+   "growing_days": 185,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "KIG86",
+     "freq": "162.550",
+     "same": "039049"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.4
+  },
+  "Fulton County": {
+   "fips": "39051",
+   "centroid": [
+    41.5973,
+    -84.1243
+   ],
+   "latitude": 41.6,
+   "bbox": [
+    -84.3994,
+    41.4855,
+    -83.8775,
+    41.7201
+   ],
+   "coastal": false,
+   "elevation_ft": 770,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 84,
+   "record_low_f": -24,
+   "record_high_f": 109,
+   "precip_in": 35.0,
+   "snow_in": 27,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 16",
+   "growing_days": 170,
+   "ecoregion": "Huron/Erie Lake Plains",
+   "ecoregion_code": "57",
+   "nws_office": "Northern Indiana, IN",
+   "nws_cwa": "IWX",
+   "nwr": [
+    {
+     "call": "WNG647",
+     "freq": "162.450",
+     "same": "039051"
+    },
+    {
+     "call": "KXI94",
+     "freq": "162.425",
+     "same": "039051"
+    },
+    {
+     "call": "WXL51",
+     "freq": "162.500",
+     "same": "039051"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.3
+  },
+  "Gallia County": {
+   "fips": "39053",
+   "centroid": [
+    38.817,
+    -82.3017
+   ],
+   "latitude": 38.8,
+   "bbox": [
+    -82.5821,
+    38.5815,
+    -82.0959,
+    39.0353
+   ],
+   "coastal": false,
+   "elevation_ft": 820,
+   "zone": "6b",
+   "jan_low_f": 23,
+   "jul_high_f": 86,
+   "record_low_f": -28,
+   "record_high_f": 113,
+   "precip_in": 44.5,
+   "snow_in": 14,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 28",
+   "growing_days": 192,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "KIH39",
+     "freq": "162.550",
+     "same": "039053"
+    },
+    {
+     "call": "KZZ46",
+     "freq": "162.425",
+     "same": "039053"
+    },
+    {
+     "call": "WXM70",
+     "freq": "162.500",
+     "same": "039053"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.3
+  },
+  "Geauga County": {
+   "fips": "39055",
+   "centroid": [
+    41.4993,
+    -81.1735
+   ],
+   "latitude": 41.5,
+   "bbox": [
+    -81.392,
+    41.3469,
+    -81.0014,
+    41.7151
+   ],
+   "coastal": false,
+   "elevation_ft": 1180,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 81,
+   "record_low_f": -29,
+   "record_high_f": 100,
+   "precip_in": 50.7,
+   "snow_in": 114,
+   "last_frost": "May 5",
+   "first_frost": "Oct 18",
+   "growing_days": 164,
+   "ecoregion": "Erie Drift Plain",
+   "ecoregion_code": "61",
+   "nws_office": "Cleveland, OH",
+   "nws_cwa": "CLE",
+   "nwr": [
+    {
+     "call": "KHB59",
+     "freq": "162.550",
+     "same": "039055"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.2
+  },
+  "Greene County": {
+   "fips": "39057",
+   "centroid": [
+    39.6875,
+    -83.8949
+   ],
+   "latitude": 39.7,
+   "bbox": [
+    -84.1139,
+    39.5502,
+    -83.6466,
+    39.8504
+   ],
+   "coastal": false,
+   "elevation_ft": 1020,
+   "zone": "6b",
+   "jan_low_f": 23,
+   "jul_high_f": 83,
+   "record_low_f": -28,
+   "record_high_f": 108,
+   "precip_in": 43.3,
+   "snow_in": 20,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 24",
+   "growing_days": 188,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "KIG86",
+     "freq": "162.550",
+     "same": "039057"
+    },
+    {
+     "call": "WXJ46",
+     "freq": "162.475",
+     "same": "039057"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.4
+  },
+  "Guernsey County": {
+   "fips": "39059",
+   "centroid": [
+    40.0567,
+    -81.4979
+   ],
+   "latitude": 40.1,
+   "bbox": [
+    -81.7286,
+    39.8393,
+    -81.226,
+    40.2225
+   ],
+   "coastal": false,
+   "elevation_ft": 950,
+   "zone": "6b",
+   "jan_low_f": 21,
+   "jul_high_f": 85,
+   "record_low_f": -32,
+   "record_high_f": 102,
+   "precip_in": 41.3,
+   "snow_in": 17,
+   "last_frost": "Apr 28",
+   "first_frost": "Oct 17",
+   "growing_days": 172,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Pittsburgh, PA",
+   "nws_cwa": "PBZ",
+   "nwr": [
+    {
+     "call": "WWF35",
+     "freq": "162.525",
+     "same": "039059"
+    },
+    {
+     "call": "WXJ47",
+     "freq": "162.475",
+     "same": "039059"
+    },
+    {
+     "call": "WNG735",
+     "freq": "162.425",
+     "same": "039059"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.0,
+   "sun_hours_jun": 5.2
+  },
+  "Hamilton County": {
+   "fips": "39061",
+   "centroid": [
+    39.1969,
+    -84.5442
+   ],
+   "latitude": 39.2,
+   "bbox": [
+    -84.8202,
+    39.022,
+    -84.2566,
+    39.312
+   ],
+   "coastal": false,
+   "elevation_ft": 890,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 85,
+   "record_low_f": -24,
+   "record_high_f": 103,
+   "precip_in": 48.2,
+   "snow_in": 16,
+   "last_frost": "Apr 17",
+   "first_frost": "Oct 26",
+   "growing_days": 191,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "KIH42",
+     "freq": "162.550",
+     "same": "039061"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Hancock County": {
+   "fips": "39063",
+   "centroid": [
+    41.0002,
+    -83.6659
+   ],
+   "latitude": 41.0,
+   "bbox": [
+    -83.8811,
+    40.8182,
+    -83.4203,
+    41.1684
+   ],
+   "coastal": false,
+   "elevation_ft": 800,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 85,
+   "record_low_f": -20,
+   "record_high_f": 104,
+   "precip_in": 33.8,
+   "snow_in": 24,
+   "last_frost": "Apr 19",
+   "first_frost": "Oct 23",
+   "growing_days": 185,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Cleveland, OH",
+   "nws_cwa": "CLE",
+   "nwr": [
+    {
+     "call": "KZZ47",
+     "freq": "162.525",
+     "same": "039063"
+    },
+    {
+     "call": "WXJ93",
+     "freq": "162.400",
+     "same": "039063"
+    },
+    {
+     "call": "KHB97",
+     "freq": "162.400",
+     "same": "039063"
+    },
+    {
+     "call": "WXL51",
+     "freq": "162.500",
+     "same": "039063"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.3
+  },
+  "Hardin County": {
+   "fips": "39065",
+   "centroid": [
+    40.6604,
+    -83.6641
+   ],
+   "latitude": 40.7,
+   "bbox": [
+    -83.8808,
+    40.504,
+    -83.4153,
+    40.8198
+   ],
+   "coastal": false,
+   "elevation_ft": 990,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 84,
+   "record_low_f": -24,
+   "record_high_f": 106,
+   "precip_in": 37.6,
+   "snow_in": 26,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 24",
+   "growing_days": 182,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "KZZ47",
+     "freq": "162.525",
+     "same": "039065"
+    },
+    {
+     "call": "WXJ93",
+     "freq": "162.400",
+     "same": "039065"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.3
+  },
+  "Harrison County": {
+   "fips": "39067",
+   "centroid": [
+    40.2923,
+    -81.0916
+   ],
+   "latitude": 40.3,
+   "bbox": [
+    -81.3394,
+    40.1595,
+    -80.8655,
+    40.4334
+   ],
+   "coastal": false,
+   "elevation_ft": 1080,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 82,
+   "record_low_f": -24,
+   "record_high_f": 106,
+   "precip_in": 42.6,
+   "snow_in": 26,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 25",
+   "growing_days": 186,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Pittsburgh, PA",
+   "nws_cwa": "PBZ",
+   "nwr": [
+    {
+     "call": "WWF35",
+     "freq": "162.525",
+     "same": "039067"
+    },
+    {
+     "call": "WXJ47",
+     "freq": "162.475",
+     "same": "039067"
+    },
+    {
+     "call": "WNG735",
+     "freq": "162.425",
+     "same": "039067"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.0,
+   "sun_hours_jun": 5.2
+  },
+  "Henry County": {
+   "fips": "39069",
+   "centroid": [
+    41.3316,
+    -84.0689
+   ],
+   "latitude": 41.3,
+   "bbox": [
+    -84.3423,
+    41.1659,
+    -83.8811,
+    41.4874
+   ],
+   "coastal": false,
+   "elevation_ft": 680,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 84,
+   "record_low_f": -24,
+   "record_high_f": 111,
+   "precip_in": 37.3,
+   "snow_in": 25,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 21",
+   "growing_days": 179,
+   "ecoregion": "Huron/Erie Lake Plains",
+   "ecoregion_code": "57",
+   "nws_office": "Northern Indiana, IN",
+   "nws_cwa": "IWX",
+   "nwr": [
+    {
+     "call": "WNG647",
+     "freq": "162.450",
+     "same": "039069"
+    },
+    {
+     "call": "KXI94",
+     "freq": "162.425",
+     "same": "039069"
+    },
+    {
+     "call": "WXL51",
+     "freq": "162.500",
+     "same": "039069"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.3
+  },
+  "Highland County": {
+   "fips": "39071",
+   "centroid": [
+    39.1844,
+    -83.6014
+   ],
+   "latitude": 39.2,
+   "bbox": [
+    -83.8717,
+    39.0189,
+    -83.3441,
+    39.3787
+   ],
+   "coastal": false,
+   "elevation_ft": 1060,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 85,
+   "record_low_f": -30,
+   "record_high_f": 105,
+   "precip_in": 46.7,
+   "snow_in": 18,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 20",
+   "growing_days": 178,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "KIH42",
+     "freq": "162.550",
+     "same": "039071"
+    },
+    {
+     "call": "WXM69",
+     "freq": "162.525",
+     "same": "039071"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.4
+  },
+  "Hocking County": {
+   "fips": "39073",
+   "centroid": [
+    39.4903,
+    -82.4834
+   ],
+   "latitude": 39.5,
+   "bbox": [
+    -82.7486,
+    39.3616,
+    -82.1592,
+    39.6617
+   ],
+   "coastal": false,
+   "elevation_ft": 890,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 84,
+   "record_low_f": -37,
+   "record_high_f": 107,
+   "precip_in": 43.2,
+   "snow_in": 15,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 14",
+   "growing_days": 167,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "KZZ46",
+     "freq": "162.425",
+     "same": "039073"
+    },
+    {
+     "call": "KJY68",
+     "freq": "162.500",
+     "same": "039073"
+    },
+    {
+     "call": "KIG86",
+     "freq": "162.550",
+     "same": "039073"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.2
+  },
+  "Holmes County": {
+   "fips": "39075",
+   "centroid": [
+    40.5656,
+    -81.93
+   ],
+   "latitude": 40.6,
+   "bbox": [
+    -82.2207,
+    40.444,
+    -81.6499,
+    40.6685
+   ],
+   "coastal": false,
+   "elevation_ft": 820,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 84,
+   "record_low_f": -35,
+   "record_high_f": 104,
+   "precip_in": 40.7,
+   "snow_in": 20,
+   "last_frost": "May 2",
+   "first_frost": "Oct 14",
+   "growing_days": 164,
+   "ecoregion": "Erie Drift Plain",
+   "ecoregion_code": "61",
+   "nws_office": "Cleveland, OH",
+   "nws_cwa": "CLE",
+   "nwr": [
+    {
+     "call": "KDO94",
+     "freq": "162.400",
+     "same": "039075"
+    },
+    {
+     "call": "WWG57",
+     "freq": "162.450",
+     "same": "039075"
+    },
+    {
+     "call": "WNG735",
+     "freq": "162.425",
+     "same": "039075"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.0,
+   "sun_hours_jun": 5.2
+  },
+  "Huron County": {
+   "fips": "39077",
+   "centroid": [
+    41.1451,
+    -82.5946
+   ],
+   "latitude": 41.1,
+   "bbox": [
+    -82.8413,
+    40.9931,
+    -82.3365,
+    41.2898
+   ],
+   "coastal": false,
+   "elevation_ft": 920,
+   "zone": "6a",
+   "jan_low_f": 19,
+   "jul_high_f": 83,
+   "record_low_f": -25,
+   "record_high_f": 108,
+   "precip_in": 40.1,
+   "snow_in": 33,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 25",
+   "growing_days": 183,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Cleveland, OH",
+   "nws_cwa": "CLE",
+   "nwr": [
+    {
+     "call": "KHB59",
+     "freq": "162.550",
+     "same": "039077"
+    },
+    {
+     "call": "KHB97",
+     "freq": "162.400",
+     "same": "039077"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 5.3
+  },
+  "Jackson County": {
+   "fips": "39079",
+   "centroid": [
+    39.0135,
+    -82.6141
+   ],
+   "latitude": 39.0,
+   "bbox": [
+    -82.8071,
+    38.8445,
+    -82.4247,
+    39.2078
+   ],
+   "coastal": false,
+   "elevation_ft": 690,
+   "zone": "6b",
+   "jan_low_f": 21,
+   "jul_high_f": 82,
+   "record_low_f": -31,
+   "record_high_f": 104,
+   "precip_in": 45.1,
+   "snow_in": 21,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 21",
+   "growing_days": 181,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "KIH39",
+     "freq": "162.550",
+     "same": "039079"
+    },
+    {
+     "call": "KZZ46",
+     "freq": "162.425",
+     "same": "039079"
+    },
+    {
+     "call": "KJY68",
+     "freq": "162.500",
+     "same": "039079"
+    },
+    {
+     "call": "WXM69",
+     "freq": "162.525",
+     "same": "039079"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.2
+  },
+  "Jefferson County": {
+   "fips": "39081",
+   "centroid": [
+    40.3994,
+    -80.7635
+   ],
+   "latitude": 40.4,
+   "bbox": [
+    -80.9416,
+    40.1551,
+    -80.5949,
+    40.5991
+   ],
+   "coastal": false,
+   "elevation_ft": 1180,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 83,
+   "record_low_f": -22,
+   "record_high_f": 102,
+   "precip_in": 43.2,
+   "snow_in": 26,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 20",
+   "growing_days": 175,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Pittsburgh, PA",
+   "nws_cwa": "PBZ",
+   "nwr": [
+    {
+     "call": "WWF35",
+     "freq": "162.525",
+     "same": "039081"
+    },
+    {
+     "call": "WXJ47",
+     "freq": "162.475",
+     "same": "039081"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.0,
+   "sun_hours_jun": 5.1
+  },
+  "Knox County": {
+   "fips": "39083",
+   "centroid": [
+    40.4036,
+    -82.4224
+   ],
+   "latitude": 40.4,
+   "bbox": [
+    -82.7528,
+    40.2391,
+    -82.1792,
+    40.573
+   ],
+   "coastal": false,
+   "elevation_ft": 1080,
+   "zone": "6a",
+   "jan_low_f": 15,
+   "jul_high_f": 82,
+   "record_low_f": -30,
+   "record_high_f": 102,
+   "precip_in": 42.4,
+   "snow_in": 42,
+   "last_frost": "May 1",
+   "first_frost": "Oct 10",
+   "growing_days": 161,
+   "ecoregion": "Erie Drift Plain",
+   "ecoregion_code": "61",
+   "nws_office": "Cleveland, OH",
+   "nws_cwa": "CLE",
+   "nwr": [
+    {
+     "call": "KIG86",
+     "freq": "162.550",
+     "same": "039083"
+    },
+    {
+     "call": "WWG57",
+     "freq": "162.450",
+     "same": "039083"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.0,
+   "sun_hours_jun": 5.2
+  },
+  "Lake County": {
+   "fips": "39085",
+   "centroid": [
+    41.7781,
+    -81.1973
+   ],
+   "latitude": 41.8,
+   "bbox": [
+    -81.4889,
+    41.5693,
+    -81.003,
+    41.8548
+   ],
+   "coastal": false,
+   "elevation_ft": 640,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 82,
+   "record_low_f": -19,
+   "record_high_f": 98,
+   "precip_in": 40.5,
+   "snow_in": 114,
+   "last_frost": "Apr 15",
+   "first_frost": "Nov 9",
+   "growing_days": 209,
+   "ecoregion": "Eastern Great Lakes Lowlands",
+   "ecoregion_code": "83",
+   "nws_office": "Cleveland, OH",
+   "nws_cwa": "CLE",
+   "nwr": [
+    {
+     "call": "KHB59",
+     "freq": "162.550",
+     "same": "039085"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.2
+  },
+  "Lawrence County": {
+   "fips": "39087",
+   "centroid": [
+    38.6039,
+    -82.5172
+   ],
+   "latitude": 38.6,
+   "bbox": [
+    -82.8153,
+    38.4032,
+    -82.2887,
+    38.8491
+   ],
+   "coastal": false,
+   "elevation_ft": 790,
+   "zone": "7a",
+   "jan_low_f": 20,
+   "jul_high_f": 86,
+   "record_low_f": -25,
+   "record_high_f": 107,
+   "precip_in": 45.7,
+   "snow_in": 14,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 15",
+   "growing_days": 167,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "KIH39",
+     "freq": "162.550",
+     "same": "039087"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.3
+  },
+  "Licking County": {
+   "fips": "39089",
+   "centroid": [
+    40.0915,
+    -82.4834
+   ],
+   "latitude": 40.1,
+   "bbox": [
+    -82.7825,
+    39.9132,
+    -82.1829,
+    40.277
+   ],
+   "coastal": false,
+   "elevation_ft": 1070,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 84,
+   "record_low_f": -26,
+   "record_high_f": 106,
+   "precip_in": 43.4,
+   "snow_in": 15,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 16",
+   "growing_days": 167,
+   "ecoregion": "Erie Drift Plain",
+   "ecoregion_code": "61",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "KIG86",
+     "freq": "162.550",
+     "same": "039089"
+    },
+    {
+     "call": "WXJ47",
+     "freq": "162.475",
+     "same": "039089"
+    },
+    {
+     "call": "WWG57",
+     "freq": "162.450",
+     "same": "039089"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.0,
+   "sun_hours_jun": 5.2
+  },
+  "Logan County": {
+   "fips": "39091",
+   "centroid": [
+    40.3876,
+    -83.7663
+   ],
+   "latitude": 40.4,
+   "bbox": [
+    -84.0146,
+    40.2295,
+    -83.5204,
+    40.5386
+   ],
+   "coastal": false,
+   "elevation_ft": 1250,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 83,
+   "record_low_f": -27,
+   "record_high_f": 106,
+   "precip_in": 42.6,
+   "snow_in": 26,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 20",
+   "growing_days": 175,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "WXJ46",
+     "freq": "162.475",
+     "same": "039091"
+    },
+    {
+     "call": "WXJ93",
+     "freq": "162.400",
+     "same": "039091"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.3
+  },
+  "Lorain County": {
+   "fips": "39093",
+   "centroid": [
+    41.4388,
+    -82.1797
+   ],
+   "latitude": 41.4,
+   "bbox": [
+    -82.3481,
+    41.0637,
+    -81.877,
+    41.5156
+   ],
+   "coastal": false,
+   "elevation_ft": 630,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 85,
+   "record_low_f": -22,
+   "record_high_f": 104,
+   "precip_in": 42.0,
+   "snow_in": 44,
+   "last_frost": "Apr 22",
+   "first_frost": "Nov 1",
+   "growing_days": 192,
+   "ecoregion": "Eastern Great Lakes Lowlands",
+   "ecoregion_code": "83",
+   "nws_office": "Cleveland, OH",
+   "nws_cwa": "CLE",
+   "nwr": [
+    {
+     "call": "KHB59",
+     "freq": "162.550",
+     "same": "039093"
+    },
+    {
+     "call": "WNG698",
+     "freq": "162.500",
+     "same": "039093"
+    },
+    {
+     "call": "KHB97",
+     "freq": "162.400",
+     "same": "039093"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 5.3
+  },
+  "Lucas County": {
+   "fips": "39095",
+   "centroid": [
+    41.6823,
+    -83.4689
+   ],
+   "latitude": 41.7,
+   "bbox": [
+    -83.8833,
+    41.4137,
+    -83.1018,
+    41.7425
+   ],
+   "coastal": false,
+   "elevation_ft": 570,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 85,
+   "record_low_f": -16,
+   "record_high_f": 105,
+   "precip_in": 32.4,
+   "snow_in": 37,
+   "last_frost": "Apr 20",
+   "first_frost": "Oct 27",
+   "growing_days": 188,
+   "ecoregion": "Huron/Erie Lake Plains",
+   "ecoregion_code": "57",
+   "nws_office": "Cleveland, OH",
+   "nws_cwa": "CLE",
+   "nwr": [
+    {
+     "call": "WNG647",
+     "freq": "162.450",
+     "same": "039095"
+    },
+    {
+     "call": "WXL51",
+     "freq": "162.500",
+     "same": "039095"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.3
+  },
+  "Madison County": {
+   "fips": "39097",
+   "centroid": [
+    39.8966,
+    -83.4009
+   ],
+   "latitude": 39.9,
+   "bbox": [
+    -83.6528,
+    39.6954,
+    -83.2064,
+    40.1113
+   ],
+   "coastal": false,
+   "elevation_ft": 1010,
+   "zone": "6a",
+   "jan_low_f": 19,
+   "jul_high_f": 82,
+   "record_low_f": -24,
+   "record_high_f": 109,
+   "precip_in": 42.3,
+   "snow_in": 20,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 18",
+   "growing_days": 175,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "KIG86",
+     "freq": "162.550",
+     "same": "039097"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.4
+  },
+  "Mahoning County": {
+   "fips": "39099",
+   "centroid": [
+    41.0109,
+    -80.7704
+   ],
+   "latitude": 41.0,
+   "bbox": [
+    -81.0868,
+    40.8997,
+    -80.5188,
+    41.1344
+   ],
+   "coastal": false,
+   "elevation_ft": 1160,
+   "zone": "6a",
+   "jan_low_f": 19,
+   "jul_high_f": 82,
+   "record_low_f": -34,
+   "record_high_f": 103,
+   "precip_in": 41.0,
+   "snow_in": 68,
+   "last_frost": "May 2",
+   "first_frost": "Oct 13",
+   "growing_days": 165,
+   "ecoregion": "Erie Drift Plain",
+   "ecoregion_code": "61",
+   "nws_office": "Cleveland, OH",
+   "nws_cwa": "CLE",
+   "nwr": [
+    {
+     "call": "KDO94",
+     "freq": "162.400",
+     "same": "039099"
+    },
+    {
+     "call": "WWG56",
+     "freq": "162.500",
+     "same": "039099"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.1
+  },
+  "Marion County": {
+   "fips": "39101",
+   "centroid": [
+    40.588,
+    -83.1688
+   ],
+   "latitude": 40.6,
+   "bbox": [
+    -83.4204,
+    40.4331,
+    -82.8583,
+    40.705
+   ],
+   "coastal": false,
+   "elevation_ft": 920,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 84,
+   "record_low_f": -23,
+   "record_high_f": 105,
+   "precip_in": 39.4,
+   "snow_in": 24,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 20",
+   "growing_days": 178,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Cleveland, OH",
+   "nws_cwa": "CLE",
+   "nwr": [
+    {
+     "call": "KZZ47",
+     "freq": "162.525",
+     "same": "039101"
+    },
+    {
+     "call": "KIG86",
+     "freq": "162.550",
+     "same": "039101"
+    },
+    {
+     "call": "WWG57",
+     "freq": "162.450",
+     "same": "039101"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.3
+  },
+  "Medina County": {
+   "fips": "39103",
+   "centroid": [
+    41.1162,
+    -81.8998
+   ],
+   "latitude": 41.1,
+   "bbox": [
+    -82.1734,
+    40.9882,
+    -81.685,
+    41.2772
+   ],
+   "coastal": false,
+   "elevation_ft": 1110,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 82,
+   "record_low_f": -26,
+   "record_high_f": 103,
+   "precip_in": 40.5,
+   "snow_in": 36,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 19",
+   "growing_days": 172,
+   "ecoregion": "Erie Drift Plain",
+   "ecoregion_code": "61",
+   "nws_office": "Cleveland, OH",
+   "nws_cwa": "CLE",
+   "nwr": [
+    {
+     "call": "KDO94",
+     "freq": "162.400",
+     "same": "039103"
+    },
+    {
+     "call": "KHB59",
+     "freq": "162.550",
+     "same": "039103"
+    },
+    {
+     "call": "WNG698",
+     "freq": "162.500",
+     "same": "039103"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.2
+  },
+  "Meigs County": {
+   "fips": "39105",
+   "centroid": [
+    39.0898,
+    -82.0284
+   ],
+   "latitude": 39.1,
+   "bbox": [
+    -82.3239,
+    38.874,
+    -81.7427,
+    39.2054
+   ],
+   "coastal": false,
+   "elevation_ft": 780,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 85,
+   "record_low_f": -24,
+   "record_high_f": 102,
+   "precip_in": 43.1,
+   "snow_in": 18,
+   "last_frost": "Apr 27",
+   "first_frost": "Oct 14",
+   "growing_days": 168,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "KZZ46",
+     "freq": "162.425",
+     "same": "039105"
+    },
+    {
+     "call": "WXM70",
+     "freq": "162.500",
+     "same": "039105"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.2
+  },
+  "Mercer County": {
+   "fips": "39107",
+   "centroid": [
+    40.5353,
+    -84.6321
+   ],
+   "latitude": 40.5,
+   "bbox": [
+    -84.8045,
+    40.3518,
+    -84.4345,
+    40.7285
+   ],
+   "coastal": false,
+   "elevation_ft": 870,
+   "zone": "6a",
+   "jan_low_f": 19,
+   "jul_high_f": 84,
+   "record_low_f": -24,
+   "record_high_f": 104,
+   "precip_in": 39.8,
+   "snow_in": 29,
+   "last_frost": "Apr 27",
+   "first_frost": "Oct 19",
+   "growing_days": 175,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "WXJ93",
+     "freq": "162.400",
+     "same": "039107"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.4
+  },
+  "Miami County": {
+   "fips": "39109",
+   "centroid": [
+    40.0533,
+    -84.2284
+   ],
+   "latitude": 40.1,
+   "bbox": [
+    -84.4364,
+    39.8798,
+    -84.0229,
+    40.1996
+   ],
+   "coastal": false,
+   "elevation_ft": 880,
+   "zone": "6a",
+   "jan_low_f": 21,
+   "jul_high_f": 84,
+   "record_low_f": -25,
+   "record_high_f": 106,
+   "precip_in": 40.7,
+   "snow_in": 15,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 23",
+   "growing_days": 186,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "WXJ46",
+     "freq": "162.475",
+     "same": "039109"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.4
+  },
+  "Monroe County": {
+   "fips": "39111",
+   "centroid": [
+    39.7263,
+    -81.091
+   ],
+   "latitude": 39.7,
+   "bbox": [
+    -81.3191,
+    39.5404,
+    -80.822,
+    39.8695
+   ],
+   "coastal": false,
+   "elevation_ft": 1030,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 83,
+   "record_low_f": -24,
+   "record_high_f": 101,
+   "precip_in": 45.0,
+   "snow_in": 27,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 26",
+   "growing_days": 182,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Pittsburgh, PA",
+   "nws_cwa": "PBZ",
+   "nwr": [
+    {
+     "call": "WWF35",
+     "freq": "162.525",
+     "same": "039111"
+    },
+    {
+     "call": "WXJ47",
+     "freq": "162.475",
+     "same": "039111"
+    },
+    {
+     "call": "WNG734",
+     "freq": "162.400",
+     "same": "039111"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.2
+  },
+  "Montgomery County": {
+   "fips": "39113",
+   "centroid": [
+    39.7537,
+    -84.2906
+   ],
+   "latitude": 39.8,
+   "bbox": [
+    -84.4857,
+    39.5779,
+    -84.0515,
+    39.9229
+   ],
+   "coastal": false,
+   "elevation_ft": 990,
+   "zone": "6a",
+   "jan_low_f": 20,
+   "jul_high_f": 87,
+   "record_low_f": -28,
+   "record_high_f": 108,
+   "precip_in": 41.6,
+   "snow_in": 12,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 25",
+   "growing_days": 189,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "WXJ46",
+     "freq": "162.475",
+     "same": "039113"
+    },
+    {
+     "call": "KHB52",
+     "freq": "162.500",
+     "same": "039113"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Morgan County": {
+   "fips": "39115",
+   "centroid": [
+    39.6249,
+    -81.8617
+   ],
+   "latitude": 39.6,
+   "bbox": [
+    -82.0802,
+    39.4492,
+    -81.5861,
+    39.7709
+   ],
+   "coastal": false,
+   "elevation_ft": 910,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 84,
+   "record_low_f": -32,
+   "record_high_f": 105,
+   "precip_in": 45.0,
+   "snow_in": 19,
+   "last_frost": "Apr 27",
+   "first_frost": "Oct 21",
+   "growing_days": 176,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "KZZ46",
+     "freq": "162.425",
+     "same": "039115"
+    },
+    {
+     "call": "WWF35",
+     "freq": "162.525",
+     "same": "039115"
+    },
+    {
+     "call": "WXJ47",
+     "freq": "162.475",
+     "same": "039115"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.2
+  },
+  "Morrow County": {
+   "fips": "39117",
+   "centroid": [
+    40.5253,
+    -82.7977
+   ],
+   "latitude": 40.5,
+   "bbox": [
+    -83.0215,
+    40.3454,
+    -82.6237,
+    40.7126
+   ],
+   "coastal": false,
+   "elevation_ft": 1180,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 84,
+   "record_low_f": -30,
+   "record_high_f": 102,
+   "precip_in": 43.0,
+   "snow_in": 26,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 20",
+   "growing_days": 176,
+   "ecoregion": "Erie Drift Plain",
+   "ecoregion_code": "61",
+   "nws_office": "Cleveland, OH",
+   "nws_cwa": "CLE",
+   "nwr": [
+    {
+     "call": "KIG86",
+     "freq": "162.550",
+     "same": "039117"
+    },
+    {
+     "call": "WWG57",
+     "freq": "162.450",
+     "same": "039117"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.0,
+   "sun_hours_jun": 5.2
+  },
+  "Muskingum County": {
+   "fips": "39119",
+   "centroid": [
+    39.966,
+    -81.9435
+   ],
+   "latitude": 40.0,
+   "bbox": [
+    -82.2341,
+    39.7555,
+    -81.6911,
+    40.1673
+   ],
+   "coastal": false,
+   "elevation_ft": 930,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 85,
+   "record_low_f": -25,
+   "record_high_f": 103,
+   "precip_in": 38.6,
+   "snow_in": 10,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 19",
+   "growing_days": 177,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Pittsburgh, PA",
+   "nws_cwa": "PBZ",
+   "nwr": [
+    {
+     "call": "WWF35",
+     "freq": "162.525",
+     "same": "039119"
+    },
+    {
+     "call": "KIG86",
+     "freq": "162.550",
+     "same": "039119"
+    },
+    {
+     "call": "WXJ47",
+     "freq": "162.475",
+     "same": "039119"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.2
+  },
+  "Noble County": {
+   "fips": "39121",
+   "centroid": [
+    39.7672,
+    -81.4525
+   ],
+   "latitude": 39.8,
+   "bbox": [
+    -81.6982,
+    39.5834,
+    -81.234,
+    39.9536
+   ],
+   "coastal": false,
+   "elevation_ft": 1100,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 82,
+   "record_low_f": -32,
+   "record_high_f": 102,
+   "precip_in": 41.3,
+   "snow_in": 17,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 14",
+   "growing_days": 167,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Pittsburgh, PA",
+   "nws_cwa": "PBZ",
+   "nwr": [
+    {
+     "call": "WWF35",
+     "freq": "162.525",
+     "same": "039121"
+    },
+    {
+     "call": "WXJ47",
+     "freq": "162.475",
+     "same": "039121"
+    },
+    {
+     "call": "WNG734",
+     "freq": "162.400",
+     "same": "039121"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.2
+  },
+  "Ottawa County": {
+   "fips": "39123",
+   "centroid": [
+    41.5455,
+    -83.0126
+   ],
+   "latitude": 41.5,
+   "bbox": [
+    -83.4155,
+    41.4525,
+    -82.71,
+    41.7245
+   ],
+   "coastal": false,
+   "elevation_ft": 570,
+   "zone": "6b",
+   "jan_low_f": 18,
+   "jul_high_f": 85,
+   "record_low_f": -20,
+   "record_high_f": 110,
+   "precip_in": 38.2,
+   "snow_in": 26,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 23",
+   "growing_days": 179,
+   "ecoregion": "Huron/Erie Lake Plains",
+   "ecoregion_code": "57",
+   "nws_office": "Cleveland, OH",
+   "nws_cwa": "CLE",
+   "nwr": [
+    {
+     "call": "KHB97",
+     "freq": "162.400",
+     "same": "039123"
+    },
+    {
+     "call": "WXL51",
+     "freq": "162.500",
+     "same": "039123"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.3
+  },
+  "Paulding County": {
+   "fips": "39125",
+   "centroid": [
+    41.1189,
+    -84.5821
+   ],
+   "latitude": 41.1,
+   "bbox": [
+    -84.8038,
+    40.9892,
+    -84.3414,
+    41.2535
+   ],
+   "coastal": false,
+   "elevation_ft": 730,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 85,
+   "record_low_f": -25,
+   "record_high_f": 111,
+   "precip_in": 37.0,
+   "snow_in": 24,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 19",
+   "growing_days": 175,
+   "ecoregion": "Huron/Erie Lake Plains",
+   "ecoregion_code": "57",
+   "nws_office": "Northern Indiana, IN",
+   "nws_cwa": "IWX",
+   "nwr": [
+    {
+     "call": "WXJ58",
+     "freq": "162.550",
+     "same": "039125"
+    },
+    {
+     "call": "WXJ93",
+     "freq": "162.400",
+     "same": "039125"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.3
+  },
+  "Perry County": {
+   "fips": "39127",
+   "centroid": [
+    39.7432,
+    -82.238
+   ],
+   "latitude": 39.7,
+   "bbox": [
+    -82.4722,
+    39.5502,
+    -82.0242,
+    39.9304
+   ],
+   "coastal": false,
+   "elevation_ft": 970,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 83,
+   "record_low_f": -35,
+   "record_high_f": 103,
+   "precip_in": 44.4,
+   "snow_in": 20,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 17",
+   "growing_days": 168,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "KZZ46",
+     "freq": "162.425",
+     "same": "039127"
+    },
+    {
+     "call": "WWF35",
+     "freq": "162.525",
+     "same": "039127"
+    },
+    {
+     "call": "KIG86",
+     "freq": "162.550",
+     "same": "039127"
+    },
+    {
+     "call": "WXJ47",
+     "freq": "162.475",
+     "same": "039127"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.2
+  },
+  "Pickaway County": {
+   "fips": "39129",
+   "centroid": [
+    39.6489,
+    -83.0528
+   ],
+   "latitude": 39.6,
+   "bbox": [
+    -83.2667,
+    39.4683,
+    -82.7321,
+    39.8134
+   ],
+   "coastal": false,
+   "elevation_ft": 750,
+   "zone": "6b",
+   "jan_low_f": 23,
+   "jul_high_f": 86,
+   "record_low_f": -23,
+   "record_high_f": 109,
+   "precip_in": 40.9,
+   "snow_in": 15,
+   "last_frost": "Apr 17",
+   "first_frost": "Oct 28",
+   "growing_days": 192,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "KJY68",
+     "freq": "162.500",
+     "same": "039129"
+    },
+    {
+     "call": "KIG86",
+     "freq": "162.550",
+     "same": "039129"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.4
+  },
+  "Pike County": {
+   "fips": "39131",
+   "centroid": [
+    39.0713,
+    -83.0529
+   ],
+   "latitude": 39.1,
+   "bbox": [
+    -83.3856,
+    38.9482,
+    -82.7859,
+    39.1978
+   ],
+   "coastal": false,
+   "elevation_ft": 880,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 86,
+   "record_low_f": -31,
+   "record_high_f": 107,
+   "precip_in": 43.6,
+   "snow_in": 12,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 22",
+   "growing_days": 182,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "KJY68",
+     "freq": "162.500",
+     "same": "039131"
+    },
+    {
+     "call": "WXM69",
+     "freq": "162.525",
+     "same": "039131"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.4
+  },
+  "Portage County": {
+   "fips": "39133",
+   "centroid": [
+    41.169,
+    -81.197
+   ],
+   "latitude": 41.2,
+   "bbox": [
+    -81.394,
+    40.9878,
+    -80.9997,
+    41.3485
+   ],
+   "coastal": false,
+   "elevation_ft": 1090,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 84,
+   "record_low_f": -14,
+   "record_high_f": 102,
+   "precip_in": 43.1,
+   "snow_in": 45,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 29",
+   "growing_days": 189,
+   "ecoregion": "Erie Drift Plain",
+   "ecoregion_code": "61",
+   "nws_office": "Cleveland, OH",
+   "nws_cwa": "CLE",
+   "nwr": [
+    {
+     "call": "KDO94",
+     "freq": "162.400",
+     "same": "039133"
+    },
+    {
+     "call": "KHB59",
+     "freq": "162.550",
+     "same": "039133"
+    },
+    {
+     "call": "WWG56",
+     "freq": "162.500",
+     "same": "039133"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.2
+  },
+  "Preble County": {
+   "fips": "39135",
+   "centroid": [
+    39.7388,
+    -84.6448
+   ],
+   "latitude": 39.7,
+   "bbox": [
+    -84.8151,
+    39.5665,
+    -84.4787,
+    39.9183
+   ],
+   "coastal": false,
+   "elevation_ft": 1030,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 85,
+   "record_low_f": -33,
+   "record_high_f": 102,
+   "precip_in": 43.1,
+   "snow_in": 12,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 20",
+   "growing_days": 176,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "WXJ46",
+     "freq": "162.475",
+     "same": "039135"
+    },
+    {
+     "call": "KHB52",
+     "freq": "162.500",
+     "same": "039135"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Putnam County": {
+   "fips": "39137",
+   "centroid": [
+    41.0245,
+    -84.1299
+   ],
+   "latitude": 41.0,
+   "bbox": [
+    -84.3994,
+    40.8591,
+    -83.8802,
+    41.1676
+   ],
+   "coastal": false,
+   "elevation_ft": 730,
+   "zone": "6a",
+   "jan_low_f": 19,
+   "jul_high_f": 84,
+   "record_low_f": -23,
+   "record_high_f": 103,
+   "precip_in": 38.7,
+   "snow_in": 32,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 22",
+   "growing_days": 180,
+   "ecoregion": "Huron/Erie Lake Plains",
+   "ecoregion_code": "57",
+   "nws_office": "Northern Indiana, IN",
+   "nws_cwa": "IWX",
+   "nwr": [
+    {
+     "call": "KZZ47",
+     "freq": "162.525",
+     "same": "039137"
+    },
+    {
+     "call": "WXJ93",
+     "freq": "162.400",
+     "same": "039137"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.3
+  },
+  "Richland County": {
+   "fips": "39139",
+   "centroid": [
+    40.7742,
+    -82.5428
+   ],
+   "latitude": 40.8,
+   "bbox": [
+    -82.7272,
+    40.5499,
+    -82.3361,
+    40.9959
+   ],
+   "coastal": false,
+   "elevation_ft": 1270,
+   "zone": "6a",
+   "jan_low_f": 19,
+   "jul_high_f": 83,
+   "record_low_f": -22,
+   "record_high_f": 101,
+   "precip_in": 42.5,
+   "snow_in": 49,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 22",
+   "growing_days": 177,
+   "ecoregion": "Erie Drift Plain",
+   "ecoregion_code": "61",
+   "nws_office": "Cleveland, OH",
+   "nws_cwa": "CLE",
+   "nwr": [
+    {
+     "call": "WWG57",
+     "freq": "162.450",
+     "same": "039139"
+    },
+    {
+     "call": "KHB97",
+     "freq": "162.400",
+     "same": "039139"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.0,
+   "sun_hours_jun": 5.2
+  },
+  "Ross County": {
+   "fips": "39141",
+   "centroid": [
+    39.3239,
+    -83.0595
+   ],
+   "latitude": 39.3,
+   "bbox": [
+    -83.3937,
+    39.168,
+    -82.7407,
+    39.5162
+   ],
+   "coastal": false,
+   "elevation_ft": 1020,
+   "zone": "6b",
+   "jan_low_f": 21,
+   "jul_high_f": 85,
+   "record_low_f": -29,
+   "record_high_f": 105,
+   "precip_in": 43.4,
+   "snow_in": 12,
+   "last_frost": "Apr 20",
+   "first_frost": "Oct 22",
+   "growing_days": 184,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "KJY68",
+     "freq": "162.500",
+     "same": "039141"
+    },
+    {
+     "call": "WXM69",
+     "freq": "162.525",
+     "same": "039141"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.4
+  },
+  "Sandusky County": {
+   "fips": "39143",
+   "centroid": [
+    41.3553,
+    -83.1428
+   ],
+   "latitude": 41.4,
+   "bbox": [
+    -83.4198,
+    41.2528,
+    -82.84,
+    41.501
+   ],
+   "coastal": false,
+   "elevation_ft": 630,
+   "zone": "6b",
+   "jan_low_f": 18,
+   "jul_high_f": 85,
+   "record_low_f": -20,
+   "record_high_f": 110,
+   "precip_in": 38.2,
+   "snow_in": 26,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 23",
+   "growing_days": 179,
+   "ecoregion": "Huron/Erie Lake Plains",
+   "ecoregion_code": "57",
+   "nws_office": "Cleveland, OH",
+   "nws_cwa": "CLE",
+   "nwr": [
+    {
+     "call": "KHB97",
+     "freq": "162.400",
+     "same": "039143"
+    },
+    {
+     "call": "WXL51",
+     "freq": "162.500",
+     "same": "039143"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.3
+  },
+  "Scioto County": {
+   "fips": "39145",
+   "centroid": [
+    38.8149,
+    -82.9987
+   ],
+   "latitude": 38.8,
+   "bbox": [
+    -83.2716,
+    38.5707,
+    -82.6501,
+    39.0168
+   ],
+   "coastal": false,
+   "elevation_ft": 520,
+   "zone": "7a",
+   "jan_low_f": 22,
+   "jul_high_f": 87,
+   "record_low_f": -29,
+   "record_high_f": 107,
+   "precip_in": 43.1,
+   "snow_in": 7,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 24",
+   "growing_days": 185,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "KIH39",
+     "freq": "162.550",
+     "same": "039145"
+    },
+    {
+     "call": "WXM69",
+     "freq": "162.525",
+     "same": "039145"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.3
+  },
+  "Seneca County": {
+   "fips": "39147",
+   "centroid": [
+    41.12,
+    -83.1275
+   ],
+   "latitude": 41.1,
+   "bbox": [
+    -83.4213,
+    40.992,
+    -82.8295,
+    41.2568
+   ],
+   "coastal": false,
+   "elevation_ft": 770,
+   "zone": "6a",
+   "jan_low_f": 19,
+   "jul_high_f": 84,
+   "record_low_f": -21,
+   "record_high_f": 106,
+   "precip_in": 38.7,
+   "snow_in": 30,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 23",
+   "growing_days": 184,
+   "ecoregion": "Huron/Erie Lake Plains",
+   "ecoregion_code": "57",
+   "nws_office": "Cleveland, OH",
+   "nws_cwa": "CLE",
+   "nwr": [
+    {
+     "call": "KZZ47",
+     "freq": "162.525",
+     "same": "039147"
+    },
+    {
+     "call": "KHB97",
+     "freq": "162.400",
+     "same": "039147"
+    },
+    {
+     "call": "WXL51",
+     "freq": "162.500",
+     "same": "039147"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.3
+  },
+  "Shelby County": {
+   "fips": "39149",
+   "centroid": [
+    40.3367,
+    -84.2041
+   ],
+   "latitude": 40.3,
+   "bbox": [
+    -84.4347,
+    40.184,
+    -84.002,
+    40.4833
+   ],
+   "coastal": false,
+   "elevation_ft": 1030,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 84,
+   "record_low_f": -31,
+   "record_high_f": 102,
+   "precip_in": 41.6,
+   "snow_in": 15,
+   "last_frost": "Apr 27",
+   "first_frost": "Oct 20",
+   "growing_days": 175,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "WXJ46",
+     "freq": "162.475",
+     "same": "039149"
+    },
+    {
+     "call": "WXJ93",
+     "freq": "162.400",
+     "same": "039149"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.4
+  },
+  "Stark County": {
+   "fips": "39151",
+   "centroid": [
+    40.8141,
+    -81.3657
+   ],
+   "latitude": 40.8,
+   "bbox": [
+    -81.6501,
+    40.6349,
+    -81.0859,
+    40.9886
+   ],
+   "coastal": false,
+   "elevation_ft": 1080,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 84,
+   "record_low_f": -25,
+   "record_high_f": 101,
+   "precip_in": 41.6,
+   "snow_in": 47,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 26",
+   "growing_days": 184,
+   "ecoregion": "Erie Drift Plain",
+   "ecoregion_code": "61",
+   "nws_office": "Cleveland, OH",
+   "nws_cwa": "CLE",
+   "nwr": [
+    {
+     "call": "KDO94",
+     "freq": "162.400",
+     "same": "039151"
+    },
+    {
+     "call": "WNG735",
+     "freq": "162.425",
+     "same": "039151"
+    },
+    {
+     "call": "WWG56",
+     "freq": "162.500",
+     "same": "039151"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.0,
+   "sun_hours_jun": 5.2
+  },
+  "Summit County": {
+   "fips": "39153",
+   "centroid": [
+    41.1218,
+    -81.5349
+   ],
+   "latitude": 41.1,
+   "bbox": [
+    -81.6889,
+    40.9066,
+    -81.3915,
+    41.3508
+   ],
+   "coastal": false,
+   "elevation_ft": 800,
+   "zone": "6b",
+   "jan_low_f": 18,
+   "jul_high_f": 82,
+   "record_low_f": -20,
+   "record_high_f": 104,
+   "precip_in": 41.6,
+   "snow_in": 45,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 21",
+   "growing_days": 173,
+   "ecoregion": "Erie Drift Plain",
+   "ecoregion_code": "61",
+   "nws_office": "Cleveland, OH",
+   "nws_cwa": "CLE",
+   "nwr": [
+    {
+     "call": "KDO94",
+     "freq": "162.400",
+     "same": "039153"
+    },
+    {
+     "call": "KHB59",
+     "freq": "162.550",
+     "same": "039153"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.2
+  },
+  "Trumbull County": {
+   "fips": "39155",
+   "centroid": [
+    41.3064,
+    -80.7704
+   ],
+   "latitude": 41.3,
+   "bbox": [
+    -81.0037,
+    41.1331,
+    -80.5187,
+    41.5017
+   ],
+   "coastal": false,
+   "elevation_ft": 920,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 82,
+   "record_low_f": -20,
+   "record_high_f": 99,
+   "precip_in": 42.7,
+   "snow_in": 40,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 23",
+   "growing_days": 176,
+   "ecoregion": "Erie Drift Plain",
+   "ecoregion_code": "61",
+   "nws_office": "Cleveland, OH",
+   "nws_cwa": "CLE",
+   "nwr": [
+    {
+     "call": "KDO94",
+     "freq": "162.400",
+     "same": "039155"
+    },
+    {
+     "call": "KZZ32",
+     "freq": "162.475",
+     "same": "039155"
+    },
+    {
+     "call": "WWG56",
+     "freq": "162.500",
+     "same": "039155"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.1
+  },
+  "Tuscarawas County": {
+   "fips": "39157",
+   "centroid": [
+    40.4474,
+    -81.4712
+   ],
+   "latitude": 40.4,
+   "bbox": [
+    -81.712,
+    40.2147,
+    -81.2647,
+    40.6665
+   ],
+   "coastal": false,
+   "elevation_ft": 1010,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 84,
+   "record_low_f": -22,
+   "record_high_f": 102,
+   "precip_in": 42.1,
+   "snow_in": 20,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 15",
+   "growing_days": 167,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Pittsburgh, PA",
+   "nws_cwa": "PBZ",
+   "nwr": [
+    {
+     "call": "KDO94",
+     "freq": "162.400",
+     "same": "039157"
+    },
+    {
+     "call": "WWF35",
+     "freq": "162.525",
+     "same": "039157"
+    },
+    {
+     "call": "WXJ47",
+     "freq": "162.475",
+     "same": "039157"
+    },
+    {
+     "call": "WNG735",
+     "freq": "162.425",
+     "same": "039157"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.0,
+   "sun_hours_jun": 5.2
+  },
+  "Union County": {
+   "fips": "39159",
+   "centroid": [
+    40.2959,
+    -83.367
+   ],
+   "latitude": 40.3,
+   "bbox": [
+    -83.5516,
+    40.1068,
+    -83.17,
+    40.507
+   ],
+   "coastal": false,
+   "elevation_ft": 1040,
+   "zone": "6a",
+   "jan_low_f": 21,
+   "jul_high_f": 85,
+   "record_low_f": -23,
+   "record_high_f": 109,
+   "precip_in": 40.5,
+   "snow_in": 24,
+   "last_frost": "Apr 19",
+   "first_frost": "Oct 26",
+   "growing_days": 188,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "KIG86",
+     "freq": "162.550",
+     "same": "039159"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.3
+  },
+  "Van Wert County": {
+   "fips": "39161",
+   "centroid": [
+    40.8555,
+    -84.5858
+   ],
+   "latitude": 40.9,
+   "bbox": [
+    -84.8033,
+    40.6848,
+    -84.3396,
+    40.9904
+   ],
+   "coastal": false,
+   "elevation_ft": 790,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 84,
+   "record_low_f": -24,
+   "record_high_f": 110,
+   "precip_in": 40.4,
+   "snow_in": 17,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 26",
+   "growing_days": 187,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Northern Indiana, IN",
+   "nws_cwa": "IWX",
+   "nwr": [
+    {
+     "call": "WXJ93",
+     "freq": "162.400",
+     "same": "039161"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.4
+  },
+  "Vinton County": {
+   "fips": "39163",
+   "centroid": [
+    39.252,
+    -82.486
+   ],
+   "latitude": 39.3,
+   "bbox": [
+    -82.7629,
+    39.0269,
+    -82.2602,
+    39.3958
+   ],
+   "coastal": false,
+   "elevation_ft": 780,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 85,
+   "record_low_f": -24,
+   "record_high_f": 102,
+   "precip_in": 46.5,
+   "snow_in": 23,
+   "last_frost": "Apr 27",
+   "first_frost": "Oct 14",
+   "growing_days": 168,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "KZZ46",
+     "freq": "162.425",
+     "same": "039163"
+    },
+    {
+     "call": "KJY68",
+     "freq": "162.500",
+     "same": "039163"
+    },
+    {
+     "call": "WXM69",
+     "freq": "162.525",
+     "same": "039163"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.2
+  },
+  "Warren County": {
+   "fips": "39165",
+   "centroid": [
+    39.4257,
+    -84.1699
+   ],
+   "latitude": 39.4,
+   "bbox": [
+    -84.3653,
+    39.2556,
+    -83.977,
+    39.5897
+   ],
+   "coastal": false,
+   "elevation_ft": 840,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 86,
+   "record_low_f": -25,
+   "record_high_f": 104,
+   "precip_in": 41.0,
+   "snow_in": 14,
+   "last_frost": "Apr 17",
+   "first_frost": "Oct 26",
+   "growing_days": 192,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "KIH42",
+     "freq": "162.550",
+     "same": "039165"
+    },
+    {
+     "call": "WXJ46",
+     "freq": "162.475",
+     "same": "039165"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Washington County": {
+   "fips": "39167",
+   "centroid": [
+    39.4507,
+    -81.4906
+   ],
+   "latitude": 39.5,
+   "bbox": [
+    -81.8535,
+    39.2162,
+    -81.0371,
+    39.646
+   ],
+   "coastal": false,
+   "elevation_ft": 730,
+   "zone": "6b",
+   "jan_low_f": 23,
+   "jul_high_f": 85,
+   "record_low_f": -23,
+   "record_high_f": 103,
+   "precip_in": 45.3,
+   "snow_in": 16,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 27",
+   "growing_days": 191,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "KZZ46",
+     "freq": "162.425",
+     "same": "039167"
+    },
+    {
+     "call": "WWF35",
+     "freq": "162.525",
+     "same": "039167"
+    },
+    {
+     "call": "WXM70",
+     "freq": "162.500",
+     "same": "039167"
+    },
+    {
+     "call": "WXJ47",
+     "freq": "162.475",
+     "same": "039167"
+    },
+    {
+     "call": "WNG734",
+     "freq": "162.400",
+     "same": "039167"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.2
+  },
+  "Wayne County": {
+   "fips": "39169",
+   "centroid": [
+    40.8297,
+    -81.8872
+   ],
+   "latitude": 40.8,
+   "bbox": [
+    -82.1292,
+    40.6668,
+    -81.6475,
+    40.9921
+   ],
+   "coastal": false,
+   "elevation_ft": 1130,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 82,
+   "record_low_f": -24,
+   "record_high_f": 105,
+   "precip_in": 36.9,
+   "snow_in": 29,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 14",
+   "growing_days": 167,
+   "ecoregion": "Erie Drift Plain",
+   "ecoregion_code": "61",
+   "nws_office": "Cleveland, OH",
+   "nws_cwa": "CLE",
+   "nwr": [
+    {
+     "call": "KDO94",
+     "freq": "162.400",
+     "same": "039169"
+    },
+    {
+     "call": "WWG57",
+     "freq": "162.450",
+     "same": "039169"
+    },
+    {
+     "call": "WNG735",
+     "freq": "162.425",
+     "same": "039169"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.0,
+   "sun_hours_jun": 5.2
+  },
+  "Williams County": {
+   "fips": "39171",
+   "centroid": [
+    41.565,
+    -84.5843
+   ],
+   "latitude": 41.6,
+   "bbox": [
+    -84.8061,
+    41.426,
+    -84.342,
+    41.7057
+   ],
+   "coastal": false,
+   "elevation_ft": 890,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 83,
+   "record_low_f": -25,
+   "record_high_f": 109,
+   "precip_in": 37.9,
+   "snow_in": 32,
+   "last_frost": "Apr 28",
+   "first_frost": "Oct 18",
+   "growing_days": 173,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Northern Indiana, IN",
+   "nws_cwa": "IWX",
+   "nwr": [
+    {
+     "call": "WNG647",
+     "freq": "162.450",
+     "same": "039171"
+    },
+    {
+     "call": "KXI94",
+     "freq": "162.425",
+     "same": "039171"
+    },
+    {
+     "call": "WXL51",
+     "freq": "162.500",
+     "same": "039171"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.3
+  },
+  "Wood County": {
+   "fips": "39173",
+   "centroid": [
+    41.3602,
+    -83.6227
+   ],
+   "latitude": 41.4,
+   "bbox": [
+    -83.8835,
+    41.1658,
+    -83.4144,
+    41.6189
+   ],
+   "coastal": false,
+   "elevation_ft": 670,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 84,
+   "record_low_f": -22,
+   "record_high_f": 110,
+   "precip_in": 35.2,
+   "snow_in": 21,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 25",
+   "growing_days": 186,
+   "ecoregion": "Huron/Erie Lake Plains",
+   "ecoregion_code": "57",
+   "nws_office": "Cleveland, OH",
+   "nws_cwa": "CLE",
+   "nwr": [
+    {
+     "call": "KZZ47",
+     "freq": "162.525",
+     "same": "039173"
+    },
+    {
+     "call": "KHB97",
+     "freq": "162.400",
+     "same": "039173"
+    },
+    {
+     "call": "WXL51",
+     "freq": "162.500",
+     "same": "039173"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.3
+  },
+  "Wyandot County": {
+   "fips": "39175",
+   "centroid": [
+    40.8398,
+    -83.3137
+   ],
+   "latitude": 40.8,
+   "bbox": [
+    -83.5159,
+    40.6867,
+    -83.1113,
+    40.9935
+   ],
+   "coastal": false,
+   "elevation_ft": 840,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 84,
+   "record_low_f": -23,
+   "record_high_f": 106,
+   "precip_in": 40.2,
+   "snow_in": 23,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 17",
+   "growing_days": 171,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Cleveland, OH",
+   "nws_cwa": "CLE",
+   "nwr": [
+    {
+     "call": "KZZ47",
+     "freq": "162.525",
+     "same": "039175"
+    },
+    {
+     "call": "WXJ93",
+     "freq": "162.400",
+     "same": "039175"
+    },
+    {
+     "call": "WWG57",
+     "freq": "162.450",
+     "same": "039175"
+    },
+    {
+     "call": "KHB97",
+     "freq": "162.400",
+     "same": "039175"
+    }
+   ],
+   "state_em": "Ohio Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.3
+  }
+ }
+}

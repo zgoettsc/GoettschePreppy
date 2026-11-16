@@ -1,0 +1,3443 @@
+{
+ "state": "WV",
+ "state_name": "West Virginia",
+ "state_fips": "54",
+ "state_em": "West Virginia Emergency Management Division",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "LWX": "NWS Baltimore MD/Washington, DC",
+  "PBZ": "NWS Pittsburgh, PA",
+  "RLX": "NWS Charleston, WV",
+  "RNK": "NWS Blacksburg, VA"
+ },
+ "ecoregions": [
+  "Blue Ridge",
+  "Ridge and Valley",
+  "Central Appalachians",
+  "Western Allegheny Plateau"
+ ],
+ "counties": {
+  "Barbour County": {
+   "fips": "54001",
+   "centroid": [
+    39.1397,
+    -79.9969
+   ],
+   "latitude": 39.1,
+   "bbox": [
+    -80.2277,
+    38.9458,
+    -79.8093,
+    39.3028
+   ],
+   "coastal": false,
+   "elevation_ft": 1860,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 82,
+   "record_low_f": -25,
+   "record_high_f": 99,
+   "precip_in": 51.6,
+   "snow_in": 57,
+   "last_frost": "May 6",
+   "first_frost": "Oct 13",
+   "growing_days": 159,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "KXI73",
+     "freq": "162.450",
+     "same": "054001"
+    },
+    {
+     "call": "WXJ85",
+     "freq": "162.550",
+     "same": "054001"
+    },
+    {
+     "call": "KWN36",
+     "freq": "162.500",
+     "same": "054001"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.1
+  },
+  "Berkeley County": {
+   "fips": "54003",
+   "centroid": [
+    39.4479,
+    -78.0378
+   ],
+   "latitude": 39.4,
+   "bbox": [
+    -78.2288,
+    39.2637,
+    -77.8236,
+    39.6203
+   ],
+   "coastal": false,
+   "elevation_ft": 650,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 87,
+   "record_low_f": -19,
+   "record_high_f": 112,
+   "precip_in": 39.0,
+   "snow_in": 23,
+   "last_frost": "Apr 20",
+   "first_frost": "Oct 22",
+   "growing_days": 183,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Baltimore MD/Washington, DC",
+   "nws_cwa": "LWX",
+   "nwr": [
+    {
+     "call": "WXM42",
+     "freq": "162.475",
+     "same": "054003"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.2
+  },
+  "Boone County": {
+   "fips": "54005",
+   "centroid": [
+    38.0228,
+    -81.7135
+   ],
+   "latitude": 38.0,
+   "bbox": [
+    -81.9803,
+    37.7638,
+    -81.454,
+    38.2309
+   ],
+   "coastal": false,
+   "elevation_ft": 1620,
+   "zone": "7a",
+   "jan_low_f": 25,
+   "jul_high_f": 87,
+   "record_low_f": -25,
+   "record_high_f": 104,
+   "precip_in": 49.5,
+   "snow_in": 17,
+   "last_frost": "Apr 16",
+   "first_frost": "Oct 27",
+   "growing_days": 192,
+   "ecoregion": "Central Appalachians",
+   "ecoregion_code": "69",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "WXJ84",
+     "freq": "162.400",
+     "same": "054005"
+    },
+    {
+     "call": "WXM75",
+     "freq": "162.475",
+     "same": "054005"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Braxton County": {
+   "fips": "54007",
+   "centroid": [
+    38.6993,
+    -80.7317
+   ],
+   "latitude": 38.7,
+   "bbox": [
+    -81.0317,
+    38.5074,
+    -80.4425,
+    38.9046
+   ],
+   "coastal": false,
+   "elevation_ft": 1100,
+   "zone": "6b",
+   "jan_low_f": 23,
+   "jul_high_f": 87,
+   "record_low_f": -24,
+   "record_high_f": 110,
+   "precip_in": 52.3,
+   "snow_in": 17,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 28",
+   "growing_days": 187,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "WXM74",
+     "freq": "162.450",
+     "same": "054007"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.2
+  },
+  "Brooke County": {
+   "fips": "54009",
+   "centroid": [
+    40.2726,
+    -80.5787
+   ],
+   "latitude": 40.3,
+   "bbox": [
+    -80.6814,
+    40.1597,
+    -80.518,
+    40.399
+   ],
+   "coastal": false,
+   "elevation_ft": 1160,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 83,
+   "record_low_f": -10,
+   "record_high_f": 99,
+   "precip_in": 37.5,
+   "snow_in": 15,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 25",
+   "growing_days": 185,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Pittsburgh, PA",
+   "nws_cwa": "PBZ",
+   "nwr": [
+    {
+     "call": "WWF35",
+     "freq": "162.525",
+     "same": "054009"
+    },
+    {
+     "call": "KIH35",
+     "freq": "162.550",
+     "same": "054009"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.0,
+   "sun_hours_jun": 5.1
+  },
+  "Cabell County": {
+   "fips": "54011",
+   "centroid": [
+    38.4196,
+    -82.2434
+   ],
+   "latitude": 38.4,
+   "bbox": [
+    -82.5077,
+    38.2282,
+    -82.0473,
+    38.5988
+   ],
+   "coastal": false,
+   "elevation_ft": 580,
+   "zone": "7a",
+   "jan_low_f": 27,
+   "jul_high_f": 88,
+   "record_low_f": -28,
+   "record_high_f": 105,
+   "precip_in": 46.6,
+   "snow_in": 10,
+   "last_frost": "Apr 8",
+   "first_frost": "Nov 1",
+   "growing_days": 205,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "KIH39",
+     "freq": "162.550",
+     "same": "054011"
+    },
+    {
+     "call": "WXJ84",
+     "freq": "162.400",
+     "same": "054011"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.3
+  },
+  "Calhoun County": {
+   "fips": "54013",
+   "centroid": [
+    38.8442,
+    -81.1155
+   ],
+   "latitude": 38.8,
+   "bbox": [
+    -81.2788,
+    38.6126,
+    -80.9857,
+    39.0446
+   ],
+   "coastal": false,
+   "elevation_ft": 1030,
+   "zone": "6b",
+   "jan_low_f": 21,
+   "jul_high_f": 86,
+   "record_low_f": -21,
+   "record_high_f": 102,
+   "precip_in": 49.7,
+   "snow_in": 24,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 20",
+   "growing_days": 175,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "WXM70",
+     "freq": "162.500",
+     "same": "054013"
+    },
+    {
+     "call": "WXM74",
+     "freq": "162.450",
+     "same": "054013"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Clay County": {
+   "fips": "54015",
+   "centroid": [
+    38.4598,
+    -81.0819
+   ],
+   "latitude": 38.5,
+   "bbox": [
+    -81.2833,
+    38.2638,
+    -80.8177,
+    38.6678
+   ],
+   "coastal": false,
+   "elevation_ft": 750,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 86,
+   "record_low_f": -22,
+   "record_high_f": 105,
+   "precip_in": 52.5,
+   "snow_in": 18,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 28",
+   "growing_days": 187,
+   "ecoregion": "Central Appalachians",
+   "ecoregion_code": "69",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "WXJ84",
+     "freq": "162.400",
+     "same": "054015"
+    },
+    {
+     "call": "WXM74",
+     "freq": "162.450",
+     "same": "054015"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Doddridge County": {
+   "fips": "54017",
+   "centroid": [
+    39.2643,
+    -80.7115
+   ],
+   "latitude": 39.3,
+   "bbox": [
+    -80.9138,
+    39.0908,
+    -80.5267,
+    39.4514
+   ],
+   "coastal": false,
+   "elevation_ft": 1100,
+   "zone": "6b",
+   "jan_low_f": 21,
+   "jul_high_f": 85,
+   "record_low_f": -33,
+   "record_high_f": 103,
+   "precip_in": 49.1,
+   "snow_in": 23,
+   "last_frost": "Apr 28",
+   "first_frost": "Oct 21",
+   "growing_days": 176,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "WXJ85",
+     "freq": "162.550",
+     "same": "054017"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.2
+  },
+  "Fayette County": {
+   "fips": "54019",
+   "centroid": [
+    38.031,
+    -81.0861
+   ],
+   "latitude": 38.0,
+   "bbox": [
+    -81.3793,
+    37.8192,
+    -80.7494,
+    38.2638
+   ],
+   "coastal": false,
+   "elevation_ft": 1910,
+   "zone": "6b",
+   "jan_low_f": 23,
+   "jul_high_f": 81,
+   "record_low_f": -20,
+   "record_high_f": 99,
+   "precip_in": 47.9,
+   "snow_in": 68,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 19",
+   "growing_days": 179,
+   "ecoregion": "Central Appalachians",
+   "ecoregion_code": "69",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "WXM71",
+     "freq": "162.550",
+     "same": "054019"
+    },
+    {
+     "call": "WXJ84",
+     "freq": "162.400",
+     "same": "054019"
+    },
+    {
+     "call": "WXM72",
+     "freq": "162.425",
+     "same": "054019"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Gilmer County": {
+   "fips": "54021",
+   "centroid": [
+    38.9159,
+    -80.8494
+   ],
+   "latitude": 38.9,
+   "bbox": [
+    -81.056,
+    38.7189,
+    -80.6076,
+    39.1083
+   ],
+   "coastal": false,
+   "elevation_ft": 860,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 85,
+   "record_low_f": -29,
+   "record_high_f": 107,
+   "precip_in": 47.1,
+   "snow_in": 22,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 24",
+   "growing_days": 180,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "WXM70",
+     "freq": "162.500",
+     "same": "054021"
+    },
+    {
+     "call": "WXM74",
+     "freq": "162.450",
+     "same": "054021"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.2
+  },
+  "Grant County": {
+   "fips": "54023",
+   "centroid": [
+    39.106,
+    -79.1951
+   ],
+   "latitude": 39.1,
+   "bbox": [
+    -79.4867,
+    38.8146,
+    -78.9791,
+    39.3279
+   ],
+   "coastal": false,
+   "elevation_ft": 1820,
+   "zone": "6b",
+   "jan_low_f": 23,
+   "jul_high_f": 88,
+   "record_low_f": -11,
+   "record_high_f": 104,
+   "precip_in": 40.3,
+   "snow_in": 55,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 20",
+   "growing_days": 179,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Baltimore MD/Washington, DC",
+   "nws_cwa": "LWX",
+   "nwr": [
+    {
+     "call": "KXI73",
+     "freq": "162.450",
+     "same": "054023"
+    },
+    {
+     "call": "WXM43",
+     "freq": "162.425",
+     "same": "054023"
+    },
+    {
+     "call": "WXM73",
+     "freq": "162.400",
+     "same": "054023"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.1
+  },
+  "Greenbrier County": {
+   "fips": "54025",
+   "centroid": [
+    37.9244,
+    -80.4506
+   ],
+   "latitude": 37.9,
+   "bbox": [
+    -80.8937,
+    37.6846,
+    -79.9602,
+    38.2673
+   ],
+   "coastal": false,
+   "elevation_ft": 2340,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 82,
+   "record_low_f": -37,
+   "record_high_f": 102,
+   "precip_in": 41.5,
+   "snow_in": 30,
+   "last_frost": "May 3",
+   "first_frost": "Oct 9",
+   "growing_days": 158,
+   "ecoregion": "Central Appalachians",
+   "ecoregion_code": "69",
+   "nws_office": "Blacksburg, VA",
+   "nws_cwa": "RNK",
+   "nwr": [
+    {
+     "call": "WXM71",
+     "freq": "162.550",
+     "same": "054025"
+    },
+    {
+     "call": "WXM72",
+     "freq": "162.425",
+     "same": "054025"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.4
+  },
+  "Hampshire County": {
+   "fips": "54027",
+   "centroid": [
+    39.3121,
+    -78.612
+   ],
+   "latitude": 39.3,
+   "bbox": [
+    -78.9791,
+    39.0889,
+    -78.3393,
+    39.5395
+   ],
+   "coastal": false,
+   "elevation_ft": 1210,
+   "zone": "7a",
+   "jan_low_f": 21,
+   "jul_high_f": 86,
+   "record_low_f": -20,
+   "record_high_f": 109,
+   "precip_in": 38.2,
+   "snow_in": 29,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 18",
+   "growing_days": 172,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Baltimore MD/Washington, DC",
+   "nws_cwa": "LWX",
+   "nwr": [
+    {
+     "call": "WXM43",
+     "freq": "162.425",
+     "same": "054027"
+    },
+    {
+     "call": "WXM42",
+     "freq": "162.475",
+     "same": "054027"
+    },
+    {
+     "call": "WXM73",
+     "freq": "162.400",
+     "same": "054027"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.2
+  },
+  "Hancock County": {
+   "fips": "54029",
+   "centroid": [
+    40.517,
+    -80.5702
+   ],
+   "latitude": 40.5,
+   "bbox": [
+    -80.6683,
+    40.3937,
+    -80.5177,
+    40.6379
+   ],
+   "coastal": false,
+   "elevation_ft": 1190,
+   "zone": "6b",
+   "jan_low_f": 21,
+   "jul_high_f": 84,
+   "record_low_f": -23,
+   "record_high_f": 109,
+   "precip_in": 41.7,
+   "snow_in": 44,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 28",
+   "growing_days": 186,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Pittsburgh, PA",
+   "nws_cwa": "PBZ",
+   "nwr": [
+    {
+     "call": "WWF35",
+     "freq": "162.525",
+     "same": "054029"
+    },
+    {
+     "call": "KIH35",
+     "freq": "162.550",
+     "same": "054029"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.0,
+   "sun_hours_jun": 5.1
+  },
+  "Hardy County": {
+   "fips": "54031",
+   "centroid": [
+    39.0114,
+    -78.8417
+   ],
+   "latitude": 39.0,
+   "bbox": [
+    -79.1333,
+    38.762,
+    -78.5088,
+    39.2373
+   ],
+   "coastal": false,
+   "elevation_ft": 2070,
+   "zone": "6a",
+   "jan_low_f": 19,
+   "jul_high_f": 84,
+   "record_low_f": -27,
+   "record_high_f": 112,
+   "precip_in": 35.2,
+   "snow_in": 21,
+   "last_frost": "May 3",
+   "first_frost": "Oct 12",
+   "growing_days": 160,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Baltimore MD/Washington, DC",
+   "nws_cwa": "LWX",
+   "nwr": [
+    {
+     "call": "WXM43",
+     "freq": "162.425",
+     "same": "054031"
+    },
+    {
+     "call": "WXM42",
+     "freq": "162.475",
+     "same": "054031"
+    },
+    {
+     "call": "WXM73",
+     "freq": "162.400",
+     "same": "054031"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.2
+  },
+  "Harrison County": {
+   "fips": "54033",
+   "centroid": [
+    39.2792,
+    -80.3865
+   ],
+   "latitude": 39.3,
+   "bbox": [
+    -80.6037,
+    39.1008,
+    -80.1656,
+    39.4688
+   ],
+   "coastal": false,
+   "elevation_ft": 1370,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 85,
+   "record_low_f": -24,
+   "record_high_f": 102,
+   "precip_in": 48.2,
+   "snow_in": 24,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 23",
+   "growing_days": 181,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "WXJ85",
+     "freq": "162.550",
+     "same": "054033"
+    },
+    {
+     "call": "KWN35",
+     "freq": "162.475",
+     "same": "054033"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.2
+  },
+  "Jackson County": {
+   "fips": "54035",
+   "centroid": [
+    38.8342,
+    -81.6777
+   ],
+   "latitude": 38.8,
+   "bbox": [
+    -81.9104,
+    38.5546,
+    -81.5028,
+    39.0954
+   ],
+   "coastal": false,
+   "elevation_ft": 810,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 88,
+   "record_low_f": -28,
+   "record_high_f": 107,
+   "precip_in": 46.0,
+   "snow_in": 12,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 21",
+   "growing_days": 178,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "KZZ46",
+     "freq": "162.425",
+     "same": "054035"
+    },
+    {
+     "call": "WXJ84",
+     "freq": "162.400",
+     "same": "054035"
+    },
+    {
+     "call": "WXM70",
+     "freq": "162.500",
+     "same": "054035"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Jefferson County": {
+   "fips": "54037",
+   "centroid": [
+    39.3074,
+    -77.8632
+   ],
+   "latitude": 39.3,
+   "bbox": [
+    -78.0351,
+    39.1331,
+    -77.7195,
+    39.4995
+   ],
+   "coastal": false,
+   "elevation_ft": 530,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 87,
+   "record_low_f": -19,
+   "record_high_f": 112,
+   "precip_in": 39.0,
+   "snow_in": 23,
+   "last_frost": "Apr 20",
+   "first_frost": "Oct 22",
+   "growing_days": 183,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Baltimore MD/Washington, DC",
+   "nws_cwa": "LWX",
+   "nwr": [
+    {
+     "call": "WXM42",
+     "freq": "162.475",
+     "same": "054037"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.3
+  },
+  "Kanawha County": {
+   "fips": "54039",
+   "centroid": [
+    38.3281,
+    -81.5235
+   ],
+   "latitude": 38.3,
+   "bbox": [
+    -81.9152,
+    37.9676,
+    -81.1941,
+    38.6259
+   ],
+   "coastal": false,
+   "elevation_ft": 1180,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 86,
+   "record_low_f": -16,
+   "record_high_f": 104,
+   "precip_in": 46.2,
+   "snow_in": 32,
+   "last_frost": "Apr 16",
+   "first_frost": "Oct 26",
+   "growing_days": 192,
+   "ecoregion": "Central Appalachians",
+   "ecoregion_code": "69",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "WXJ84",
+     "freq": "162.400",
+     "same": "054039"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Lewis County": {
+   "fips": "54041",
+   "centroid": [
+    38.9889,
+    -80.4955
+   ],
+   "latitude": 39.0,
+   "bbox": [
+    -80.7289,
+    38.7234,
+    -80.3003,
+    39.1689
+   ],
+   "coastal": false,
+   "elevation_ft": 1360,
+   "zone": "6b",
+   "jan_low_f": 21,
+   "jul_high_f": 84,
+   "record_low_f": -31,
+   "record_high_f": 105,
+   "precip_in": 51.5,
+   "snow_in": 24,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 23",
+   "growing_days": 179,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "WXJ85",
+     "freq": "162.550",
+     "same": "054041"
+    },
+    {
+     "call": "KXI74",
+     "freq": "162.525",
+     "same": "054041"
+    },
+    {
+     "call": "WXM74",
+     "freq": "162.450",
+     "same": "054041"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.2
+  },
+  "Lincoln County": {
+   "fips": "54043",
+   "centroid": [
+    38.1718,
+    -82.0776
+   ],
+   "latitude": 38.2,
+   "bbox": [
+    -82.3062,
+    37.9437,
+    -81.8021,
+    38.3767
+   ],
+   "coastal": false,
+   "elevation_ft": 960,
+   "zone": "6b",
+   "jan_low_f": 23,
+   "jul_high_f": 88,
+   "record_low_f": -28,
+   "record_high_f": 105,
+   "precip_in": 47.6,
+   "snow_in": 18,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 21",
+   "growing_days": 180,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "KIH39",
+     "freq": "162.550",
+     "same": "054043"
+    },
+    {
+     "call": "WXJ84",
+     "freq": "162.400",
+     "same": "054043"
+    },
+    {
+     "call": "WXM75",
+     "freq": "162.475",
+     "same": "054043"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.3
+  },
+  "Logan County": {
+   "fips": "54045",
+   "centroid": [
+    37.8306,
+    -81.9409
+   ],
+   "latitude": 37.8,
+   "bbox": [
+    -82.1971,
+    37.6417,
+    -81.607,
+    38.0255
+   ],
+   "coastal": false,
+   "elevation_ft": 1370,
+   "zone": "7a",
+   "jan_low_f": 27,
+   "jul_high_f": 89,
+   "record_low_f": -15,
+   "record_high_f": 105,
+   "precip_in": 49.2,
+   "snow_in": 15,
+   "last_frost": "Apr 8",
+   "first_frost": "Nov 2",
+   "growing_days": 208,
+   "ecoregion": "Central Appalachians",
+   "ecoregion_code": "69",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "WXM75",
+     "freq": "162.475",
+     "same": "054045"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.3
+  },
+  "McDowell County": {
+   "fips": "54047",
+   "centroid": [
+    37.3828,
+    -81.6582
+   ],
+   "latitude": 37.4,
+   "bbox": [
+    -81.9957,
+    37.2022,
+    -81.312,
+    37.5496
+   ],
+   "coastal": false,
+   "elevation_ft": 1790,
+   "zone": "7a",
+   "jan_low_f": 23,
+   "jul_high_f": 83,
+   "record_low_f": -17,
+   "record_high_f": 96,
+   "precip_in": 44.6,
+   "snow_in": 18,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 17",
+   "growing_days": 175,
+   "ecoregion": "Central Appalachians",
+   "ecoregion_code": "69",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "WXM71",
+     "freq": "162.550",
+     "same": "054047"
+    },
+    {
+     "call": "WXM75",
+     "freq": "162.475",
+     "same": "054047"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.3
+  },
+  "Marion County": {
+   "fips": "54049",
+   "centroid": [
+    39.5058,
+    -80.2434
+   ],
+   "latitude": 39.5,
+   "bbox": [
+    -80.4976,
+    39.3867,
+    -79.9382,
+    39.6421
+   ],
+   "coastal": false,
+   "elevation_ft": 1230,
+   "zone": "6b",
+   "jan_low_f": 24,
+   "jul_high_f": 84,
+   "record_low_f": -21,
+   "record_high_f": 108,
+   "precip_in": 47.8,
+   "snow_in": 26,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 28",
+   "growing_days": 192,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Pittsburgh, PA",
+   "nws_cwa": "PBZ",
+   "nwr": [
+    {
+     "call": "WXJ85",
+     "freq": "162.550",
+     "same": "054049"
+    },
+    {
+     "call": "KWN36",
+     "freq": "162.500",
+     "same": "054049"
+    },
+    {
+     "call": "KWN35",
+     "freq": "162.475",
+     "same": "054049"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.2
+  },
+  "Marshall County": {
+   "fips": "54051",
+   "centroid": [
+    39.8544,
+    -80.6718
+   ],
+   "latitude": 39.9,
+   "bbox": [
+    -80.87,
+    39.7204,
+    -80.5188,
+    40.0329
+   ],
+   "coastal": false,
+   "elevation_ft": 1120,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 86,
+   "record_low_f": -20,
+   "record_high_f": 105,
+   "precip_in": 46.1,
+   "snow_in": 16,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 21",
+   "growing_days": 177,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Pittsburgh, PA",
+   "nws_cwa": "PBZ",
+   "nwr": [
+    {
+     "call": "WWF35",
+     "freq": "162.525",
+     "same": "054051"
+    },
+    {
+     "call": "KIH35",
+     "freq": "162.550",
+     "same": "054051"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.2
+  },
+  "Mason County": {
+   "fips": "54053",
+   "centroid": [
+    38.7709,
+    -82.029
+   ],
+   "latitude": 38.8,
+   "bbox": [
+    -82.2217,
+    38.4745,
+    -81.7726,
+    39.0301
+   ],
+   "coastal": false,
+   "elevation_ft": 600,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 85,
+   "record_low_f": -28,
+   "record_high_f": 113,
+   "precip_in": 46.2,
+   "snow_in": 12,
+   "last_frost": "Apr 28",
+   "first_frost": "Oct 19",
+   "growing_days": 173,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "KIH39",
+     "freq": "162.550",
+     "same": "054053"
+    },
+    {
+     "call": "KZZ46",
+     "freq": "162.425",
+     "same": "054053"
+    },
+    {
+     "call": "WXJ84",
+     "freq": "162.400",
+     "same": "054053"
+    },
+    {
+     "call": "WXM70",
+     "freq": "162.500",
+     "same": "054053"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.3
+  },
+  "Mercer County": {
+   "fips": "54055",
+   "centroid": [
+    37.4034,
+    -81.1065
+   ],
+   "latitude": 37.4,
+   "bbox": [
+    -81.3626,
+    37.2347,
+    -80.8495,
+    37.5977
+   ],
+   "coastal": false,
+   "elevation_ft": 2400,
+   "zone": "7a",
+   "jan_low_f": 22,
+   "jul_high_f": 82,
+   "record_low_f": -22,
+   "record_high_f": 97,
+   "precip_in": 41.0,
+   "snow_in": 24,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 10",
+   "growing_days": 161,
+   "ecoregion": "Central Appalachians",
+   "ecoregion_code": "69",
+   "nws_office": "Blacksburg, VA",
+   "nws_cwa": "RNK",
+   "nwr": [
+    {
+     "call": "WXM71",
+     "freq": "162.550",
+     "same": "054055"
+    },
+    {
+     "call": "WXM72",
+     "freq": "162.425",
+     "same": "054055"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.3
+  },
+  "Mineral County": {
+   "fips": "54057",
+   "centroid": [
+    39.4048,
+    -78.9567
+   ],
+   "latitude": 39.4,
+   "bbox": [
+    -79.2715,
+    39.2373,
+    -78.6578,
+    39.6483
+   ],
+   "coastal": false,
+   "elevation_ft": 1100,
+   "zone": "6b",
+   "jan_low_f": 21,
+   "jul_high_f": 89,
+   "record_low_f": -11,
+   "record_high_f": 104,
+   "precip_in": 41.4,
+   "snow_in": 34,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 15",
+   "growing_days": 167,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Baltimore MD/Washington, DC",
+   "nws_cwa": "LWX",
+   "nwr": [
+    {
+     "call": "WXM43",
+     "freq": "162.425",
+     "same": "054057"
+    },
+    {
+     "call": "WXM42",
+     "freq": "162.475",
+     "same": "054057"
+    },
+    {
+     "call": "WXM73",
+     "freq": "162.400",
+     "same": "054057"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.2
+  },
+  "Mingo County": {
+   "fips": "54059",
+   "centroid": [
+    37.7212,
+    -82.159
+   ],
+   "latitude": 37.7,
+   "bbox": [
+    -82.4201,
+    37.5119,
+    -81.7958,
+    37.9742
+   ],
+   "coastal": false,
+   "elevation_ft": 1180,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 89,
+   "record_low_f": -16,
+   "record_high_f": 104,
+   "precip_in": 48.3,
+   "snow_in": 13,
+   "last_frost": "Apr 8",
+   "first_frost": "Nov 2",
+   "growing_days": 206,
+   "ecoregion": "Central Appalachians",
+   "ecoregion_code": "69",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "WXM75",
+     "freq": "162.475",
+     "same": "054059"
+    },
+    {
+     "call": "WWG81",
+     "freq": "162.500",
+     "same": "054059"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.3
+  },
+  "Monongalia County": {
+   "fips": "54061",
+   "centroid": [
+    39.6336,
+    -80.0591
+   ],
+   "latitude": 39.6,
+   "bbox": [
+    -80.4219,
+    39.4357,
+    -79.7638,
+    39.7214
+   ],
+   "coastal": false,
+   "elevation_ft": 1250,
+   "zone": "6b",
+   "jan_low_f": 24,
+   "jul_high_f": 84,
+   "record_low_f": -20,
+   "record_high_f": 108,
+   "precip_in": 43.1,
+   "snow_in": 14,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 24",
+   "growing_days": 182,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Pittsburgh, PA",
+   "nws_cwa": "PBZ",
+   "nwr": [
+    {
+     "call": "KWN36",
+     "freq": "162.500",
+     "same": "054061"
+    },
+    {
+     "call": "KWN35",
+     "freq": "162.475",
+     "same": "054061"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.2
+  },
+  "Monroe County": {
+   "fips": "54063",
+   "centroid": [
+    37.5541,
+    -80.5503
+   ],
+   "latitude": 37.6,
+   "bbox": [
+    -80.8577,
+    37.3726,
+    -80.221,
+    37.7317
+   ],
+   "coastal": false,
+   "elevation_ft": 2070,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 84,
+   "record_low_f": -35,
+   "record_high_f": 102,
+   "precip_in": 38.8,
+   "snow_in": 24,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 12",
+   "growing_days": 165,
+   "ecoregion": "Central Appalachians",
+   "ecoregion_code": "69",
+   "nws_office": "Blacksburg, VA",
+   "nws_cwa": "RNK",
+   "nwr": [
+    {
+     "call": "WXM71",
+     "freq": "162.550",
+     "same": "054063"
+    },
+    {
+     "call": "WXM72",
+     "freq": "162.425",
+     "same": "054063"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.4
+  },
+  "Morgan County": {
+   "fips": "54065",
+   "centroid": [
+    39.5573,
+    -78.2565
+   ],
+   "latitude": 39.6,
+   "bbox": [
+    -78.4688,
+    39.3917,
+    -78.0241,
+    39.6959
+   ],
+   "coastal": false,
+   "elevation_ft": 890,
+   "zone": "7a",
+   "jan_low_f": 21,
+   "jul_high_f": 85,
+   "record_low_f": -26,
+   "record_high_f": 104,
+   "precip_in": 42.8,
+   "snow_in": 23,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 21",
+   "growing_days": 180,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Baltimore MD/Washington, DC",
+   "nws_cwa": "LWX",
+   "nwr": [
+    {
+     "call": "WXM43",
+     "freq": "162.425",
+     "same": "054065"
+    },
+    {
+     "call": "WXM42",
+     "freq": "162.475",
+     "same": "054065"
+    },
+    {
+     "call": "WXM73",
+     "freq": "162.400",
+     "same": "054065"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.2
+  },
+  "Nicholas County": {
+   "fips": "54067",
+   "centroid": [
+    38.2914,
+    -80.7975
+   ],
+   "latitude": 38.3,
+   "bbox": [
+    -81.2291,
+    38.0791,
+    -80.4365,
+    38.5574
+   ],
+   "coastal": false,
+   "elevation_ft": 2090,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 81,
+   "record_low_f": -20,
+   "record_high_f": 99,
+   "precip_in": 55.4,
+   "snow_in": 68,
+   "last_frost": "May 5",
+   "first_frost": "Oct 7",
+   "growing_days": 154,
+   "ecoregion": "Central Appalachians",
+   "ecoregion_code": "69",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "WXM71",
+     "freq": "162.550",
+     "same": "054067"
+    },
+    {
+     "call": "WXJ84",
+     "freq": "162.400",
+     "same": "054067"
+    },
+    {
+     "call": "WXM72",
+     "freq": "162.425",
+     "same": "054067"
+    },
+    {
+     "call": "WXM74",
+     "freq": "162.450",
+     "same": "054067"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.2
+  },
+  "Ohio County": {
+   "fips": "54069",
+   "centroid": [
+    40.1003,
+    -80.6199
+   ],
+   "latitude": 40.1,
+   "bbox": [
+    -80.7386,
+    40.0166,
+    -80.5189,
+    40.1852
+   ],
+   "coastal": false,
+   "elevation_ft": 1240,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 83,
+   "record_low_f": -10,
+   "record_high_f": 99,
+   "precip_in": 37.5,
+   "snow_in": 15,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 25",
+   "growing_days": 185,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Pittsburgh, PA",
+   "nws_cwa": "PBZ",
+   "nwr": [
+    {
+     "call": "WWF35",
+     "freq": "162.525",
+     "same": "054069"
+    },
+    {
+     "call": "KIH35",
+     "freq": "162.550",
+     "same": "054069"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.0,
+   "sun_hours_jun": 5.1
+  },
+  "Pendleton County": {
+   "fips": "54071",
+   "centroid": [
+    38.6745,
+    -79.3406
+   ],
+   "latitude": 38.7,
+   "bbox": [
+    -79.6494,
+    38.4117,
+    -79.0574,
+    38.9581
+   ],
+   "coastal": false,
+   "elevation_ft": 2220,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 84,
+   "record_low_f": -17,
+   "record_high_f": 101,
+   "precip_in": 38.5,
+   "snow_in": 27,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 11",
+   "growing_days": 162,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Baltimore MD/Washington, DC",
+   "nws_cwa": "LWX",
+   "nwr": [
+    {
+     "call": "WXM73",
+     "freq": "162.400",
+     "same": "054071"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.2
+  },
+  "Pleasants County": {
+   "fips": "54073",
+   "centroid": [
+    39.3681,
+    -81.1612
+   ],
+   "latitude": 39.4,
+   "bbox": [
+    -81.371,
+    39.2683,
+    -81.0075,
+    39.4762
+   ],
+   "coastal": false,
+   "elevation_ft": 1110,
+   "zone": "7a",
+   "jan_low_f": 22,
+   "jul_high_f": 84,
+   "record_low_f": -24,
+   "record_high_f": 104,
+   "precip_in": 45.4,
+   "snow_in": 24,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 26",
+   "growing_days": 185,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "KZZ46",
+     "freq": "162.425",
+     "same": "054073"
+    },
+    {
+     "call": "WWF35",
+     "freq": "162.525",
+     "same": "054073"
+    },
+    {
+     "call": "WXM70",
+     "freq": "162.500",
+     "same": "054073"
+    },
+    {
+     "call": "WXJ47",
+     "freq": "162.475",
+     "same": "054073"
+    },
+    {
+     "call": "WNG734",
+     "freq": "162.400",
+     "same": "054073"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.2
+  },
+  "Pocahontas County": {
+   "fips": "54075",
+   "centroid": [
+    38.3326,
+    -80.0101
+   ],
+   "latitude": 38.3,
+   "bbox": [
+    -80.3631,
+    38.0363,
+    -79.6185,
+    38.7397
+   ],
+   "coastal": false,
+   "elevation_ft": 2840,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 78,
+   "record_low_f": -27,
+   "record_high_f": 100,
+   "precip_in": 47.8,
+   "snow_in": 51,
+   "last_frost": "May 10",
+   "first_frost": "Oct 5",
+   "growing_days": 149,
+   "ecoregion": "Central Appalachians",
+   "ecoregion_code": "69",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "WXM72",
+     "freq": "162.425",
+     "same": "054075"
+    },
+    {
+     "call": "KXI74",
+     "freq": "162.525",
+     "same": "054075"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.2
+  },
+  "Preston County": {
+   "fips": "54077",
+   "centroid": [
+    39.469,
+    -79.6689
+   ],
+   "latitude": 39.5,
+   "bbox": [
+    -79.8989,
+    39.194,
+    -79.476,
+    39.7213
+   ],
+   "coastal": false,
+   "elevation_ft": 1740,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 82,
+   "record_low_f": -21,
+   "record_high_f": 101,
+   "precip_in": 57.3,
+   "snow_in": 57,
+   "last_frost": "Apr 28",
+   "first_frost": "Oct 23",
+   "growing_days": 179,
+   "ecoregion": "Central Appalachians",
+   "ecoregion_code": "69",
+   "nws_office": "Pittsburgh, PA",
+   "nws_cwa": "PBZ",
+   "nwr": [
+    {
+     "call": "KXI73",
+     "freq": "162.450",
+     "same": "054077"
+    },
+    {
+     "call": "KWN36",
+     "freq": "162.500",
+     "same": "054077"
+    },
+    {
+     "call": "KWN35",
+     "freq": "162.475",
+     "same": "054077"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.1
+  },
+  "Putnam County": {
+   "fips": "54079",
+   "centroid": [
+    38.5105,
+    -81.9061
+   ],
+   "latitude": 38.5,
+   "bbox": [
+    -82.0642,
+    38.267,
+    -81.6959,
+    38.6838
+   ],
+   "coastal": false,
+   "elevation_ft": 820,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 87,
+   "record_low_f": -18,
+   "record_high_f": 103,
+   "precip_in": 39.5,
+   "snow_in": 11,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 30",
+   "growing_days": 193,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "KIH39",
+     "freq": "162.550",
+     "same": "054079"
+    },
+    {
+     "call": "WXJ84",
+     "freq": "162.400",
+     "same": "054079"
+    },
+    {
+     "call": "WXM70",
+     "freq": "162.500",
+     "same": "054079"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Raleigh County": {
+   "fips": "54081",
+   "centroid": [
+    37.7625,
+    -81.2647
+   ],
+   "latitude": 37.8,
+   "bbox": [
+    -81.5713,
+    37.5085,
+    -80.8775,
+    37.9899
+   ],
+   "coastal": false,
+   "elevation_ft": 2380,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 79,
+   "record_low_f": -23,
+   "record_high_f": 103,
+   "precip_in": 43.4,
+   "snow_in": 38,
+   "last_frost": "May 6",
+   "first_frost": "Oct 10",
+   "growing_days": 156,
+   "ecoregion": "Central Appalachians",
+   "ecoregion_code": "69",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "WXM71",
+     "freq": "162.550",
+     "same": "054081"
+    },
+    {
+     "call": "WXJ84",
+     "freq": "162.400",
+     "same": "054081"
+    },
+    {
+     "call": "WXM72",
+     "freq": "162.425",
+     "same": "054081"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.3
+  },
+  "Randolph County": {
+   "fips": "54083",
+   "centroid": [
+    38.7811,
+    -79.8678
+   ],
+   "latitude": 38.8,
+   "bbox": [
+    -80.2804,
+    38.3884,
+    -79.3498,
+    39.1179
+   ],
+   "coastal": false,
+   "elevation_ft": 2610,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 78,
+   "record_low_f": -33,
+   "record_high_f": 96,
+   "precip_in": 55.3,
+   "snow_in": 103,
+   "last_frost": "May 15",
+   "first_frost": "Oct 3",
+   "growing_days": 139,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "KXI73",
+     "freq": "162.450",
+     "same": "054083"
+    },
+    {
+     "call": "WXJ85",
+     "freq": "162.550",
+     "same": "054083"
+    },
+    {
+     "call": "KXI74",
+     "freq": "162.525",
+     "same": "054083"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.2
+  },
+  "Ritchie County": {
+   "fips": "54085",
+   "centroid": [
+    39.1771,
+    -81.0663
+   ],
+   "latitude": 39.2,
+   "bbox": [
+    -81.3284,
+    39.0087,
+    -80.8099,
+    39.389
+   ],
+   "coastal": false,
+   "elevation_ft": 970,
+   "zone": "6b",
+   "jan_low_f": 21,
+   "jul_high_f": 84,
+   "record_low_f": -33,
+   "record_high_f": 103,
+   "precip_in": 47.3,
+   "snow_in": 23,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 17",
+   "growing_days": 173,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "WXJ85",
+     "freq": "162.550",
+     "same": "054085"
+    },
+    {
+     "call": "WXM70",
+     "freq": "162.500",
+     "same": "054085"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.2
+  },
+  "Roane County": {
+   "fips": "54087",
+   "centroid": [
+    38.743,
+    -81.3545
+   ],
+   "latitude": 38.7,
+   "bbox": [
+    -81.5466,
+    38.5218,
+    -81.0831,
+    38.9403
+   ],
+   "coastal": false,
+   "elevation_ft": 1080,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 83,
+   "record_low_f": -31,
+   "record_high_f": 105,
+   "precip_in": 47.4,
+   "snow_in": 24,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 17",
+   "growing_days": 169,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "WXJ84",
+     "freq": "162.400",
+     "same": "054087"
+    },
+    {
+     "call": "WXM70",
+     "freq": "162.500",
+     "same": "054087"
+    },
+    {
+     "call": "WXM74",
+     "freq": "162.450",
+     "same": "054087"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Summers County": {
+   "fips": "54089",
+   "centroid": [
+    37.656,
+    -80.8563
+   ],
+   "latitude": 37.7,
+   "bbox": [
+    -81.0941,
+    37.4278,
+    -80.6606,
+    37.8686
+   ],
+   "coastal": false,
+   "elevation_ft": 1860,
+   "zone": "7a",
+   "jan_low_f": 25,
+   "jul_high_f": 85,
+   "record_low_f": -17,
+   "record_high_f": 103,
+   "precip_in": 41.0,
+   "snow_in": 19,
+   "last_frost": "Apr 10",
+   "first_frost": "Oct 30",
+   "growing_days": 200,
+   "ecoregion": "Central Appalachians",
+   "ecoregion_code": "69",
+   "nws_office": "Blacksburg, VA",
+   "nws_cwa": "RNK",
+   "nwr": [
+    {
+     "call": "WXM71",
+     "freq": "162.550",
+     "same": "054089"
+    },
+    {
+     "call": "WXM72",
+     "freq": "162.425",
+     "same": "054089"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.4
+  },
+  "Taylor County": {
+   "fips": "54091",
+   "centroid": [
+    39.3325,
+    -80.0466
+   ],
+   "latitude": 39.3,
+   "bbox": [
+    -80.2041,
+    39.2382,
+    -79.8947,
+    39.4522
+   ],
+   "coastal": false,
+   "elevation_ft": 1290,
+   "zone": "6b",
+   "jan_low_f": 21,
+   "jul_high_f": 81,
+   "record_low_f": -21,
+   "record_high_f": 108,
+   "precip_in": 48.6,
+   "snow_in": 26,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 22",
+   "growing_days": 178,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "WXJ85",
+     "freq": "162.550",
+     "same": "054091"
+    },
+    {
+     "call": "KWN36",
+     "freq": "162.500",
+     "same": "054091"
+    },
+    {
+     "call": "KWN35",
+     "freq": "162.475",
+     "same": "054091"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.2
+  },
+  "Tucker County": {
+   "fips": "54093",
+   "centroid": [
+    39.1112,
+    -79.56
+   ],
+   "latitude": 39.1,
+   "bbox": [
+    -79.8377,
+    38.9641,
+    -79.2923,
+    39.2713
+   ],
+   "coastal": false,
+   "elevation_ft": 3150,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 77,
+   "record_low_f": -25,
+   "record_high_f": 91,
+   "precip_in": 56.2,
+   "snow_in": 170,
+   "last_frost": "May 15",
+   "first_frost": "Oct 2",
+   "growing_days": 138,
+   "ecoregion": "Central Appalachians",
+   "ecoregion_code": "69",
+   "nws_office": "Pittsburgh, PA",
+   "nws_cwa": "PBZ",
+   "nwr": [
+    {
+     "call": "KXI73",
+     "freq": "162.450",
+     "same": "054093"
+    },
+    {
+     "call": "KWN36",
+     "freq": "162.500",
+     "same": "054093"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.1
+  },
+  "Tyler County": {
+   "fips": "54095",
+   "centroid": [
+    39.4656,
+    -80.8772
+   ],
+   "latitude": 39.5,
+   "bbox": [
+    -81.1215,
+    39.2951,
+    -80.6195,
+    39.6069
+   ],
+   "coastal": false,
+   "elevation_ft": 750,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 84,
+   "record_low_f": -34,
+   "record_high_f": 103,
+   "precip_in": 47.3,
+   "snow_in": 27,
+   "last_frost": "May 1",
+   "first_frost": "Oct 15",
+   "growing_days": 167,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "WWF35",
+     "freq": "162.525",
+     "same": "054095"
+    },
+    {
+     "call": "WXJ85",
+     "freq": "162.550",
+     "same": "054095"
+    },
+    {
+     "call": "WXM70",
+     "freq": "162.500",
+     "same": "054095"
+    },
+    {
+     "call": "WXJ47",
+     "freq": "162.475",
+     "same": "054095"
+    },
+    {
+     "call": "WNG734",
+     "freq": "162.400",
+     "same": "054095"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.2
+  },
+  "Upshur County": {
+   "fips": "54097",
+   "centroid": [
+    38.9025,
+    -80.2316
+   ],
+   "latitude": 38.9,
+   "bbox": [
+    -80.4095,
+    38.684,
+    -80.0447,
+    39.1139
+   ],
+   "coastal": false,
+   "elevation_ft": 1690,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 80,
+   "record_low_f": -23,
+   "record_high_f": 95,
+   "precip_in": 56.4,
+   "snow_in": 55,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 21",
+   "growing_days": 175,
+   "ecoregion": "Central Appalachians",
+   "ecoregion_code": "69",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "WXJ85",
+     "freq": "162.550",
+     "same": "054097"
+    },
+    {
+     "call": "KXI74",
+     "freq": "162.525",
+     "same": "054097"
+    },
+    {
+     "call": "WXM74",
+     "freq": "162.450",
+     "same": "054097"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.2
+  },
+  "Wayne County": {
+   "fips": "54099",
+   "centroid": [
+    38.1436,
+    -82.4227
+   ],
+   "latitude": 38.1,
+   "bbox": [
+    -82.6444,
+    37.8428,
+    -82.1922,
+    38.4215
+   ],
+   "coastal": false,
+   "elevation_ft": 980,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 84,
+   "record_low_f": -20,
+   "record_high_f": 100,
+   "precip_in": 49.1,
+   "snow_in": 17,
+   "last_frost": "Apr 13",
+   "first_frost": "Oct 26",
+   "growing_days": 197,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "KIH39",
+     "freq": "162.550",
+     "same": "054099"
+    },
+    {
+     "call": "WWG28",
+     "freq": "162.525",
+     "same": "054099"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.3
+  },
+  "Webster County": {
+   "fips": "54101",
+   "centroid": [
+    38.4835,
+    -80.4491
+   ],
+   "latitude": 38.5,
+   "bbox": [
+    -80.6777,
+    38.2258,
+    -80.1841,
+    38.7389
+   ],
+   "coastal": false,
+   "elevation_ft": 2370,
+   "zone": "6a",
+   "jan_low_f": 20,
+   "jul_high_f": 83,
+   "record_low_f": -27,
+   "record_high_f": 100,
+   "precip_in": 60.3,
+   "snow_in": 91,
+   "last_frost": "May 4",
+   "first_frost": "Oct 12",
+   "growing_days": 160,
+   "ecoregion": "Central Appalachians",
+   "ecoregion_code": "69",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "KXI74",
+     "freq": "162.525",
+     "same": "054101"
+    },
+    {
+     "call": "WXM74",
+     "freq": "162.450",
+     "same": "054101"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.2
+  },
+  "Wetzel County": {
+   "fips": "54103",
+   "centroid": [
+    39.5982,
+    -80.6354
+   ],
+   "latitude": 39.6,
+   "bbox": [
+    -80.9438,
+    39.4283,
+    -80.3902,
+    39.7223
+   ],
+   "coastal": false,
+   "elevation_ft": 1060,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 84,
+   "record_low_f": -34,
+   "record_high_f": 103,
+   "precip_in": 51.4,
+   "snow_in": 27,
+   "last_frost": "May 3",
+   "first_frost": "Oct 10",
+   "growing_days": 159,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Pittsburgh, PA",
+   "nws_cwa": "PBZ",
+   "nwr": [
+    {
+     "call": "WWF35",
+     "freq": "162.525",
+     "same": "054103"
+    },
+    {
+     "call": "WXJ85",
+     "freq": "162.550",
+     "same": "054103"
+    },
+    {
+     "call": "KWN35",
+     "freq": "162.475",
+     "same": "054103"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.2
+  },
+  "Wirt County": {
+   "fips": "54105",
+   "centroid": [
+    39.02,
+    -81.383
+   ],
+   "latitude": 39.0,
+   "bbox": [
+    -81.5815,
+    38.8959,
+    -81.1627,
+    39.1855
+   ],
+   "coastal": false,
+   "elevation_ft": 830,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 86,
+   "record_low_f": -30,
+   "record_high_f": 106,
+   "precip_in": 47.9,
+   "snow_in": 24,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 19",
+   "growing_days": 172,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "WXM70",
+     "freq": "162.500",
+     "same": "054105"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.2
+  },
+  "Wood County": {
+   "fips": "54107",
+   "centroid": [
+    39.2116,
+    -81.5162
+   ],
+   "latitude": 39.2,
+   "bbox": [
+    -81.7561,
+    39.0262,
+    -81.2396,
+    39.4103
+   ],
+   "coastal": false,
+   "elevation_ft": 600,
+   "zone": "6b",
+   "jan_low_f": 24,
+   "jul_high_f": 87,
+   "record_low_f": -26,
+   "record_high_f": 105,
+   "precip_in": 44.2,
+   "snow_in": 11,
+   "last_frost": "Apr 14",
+   "first_frost": "Oct 30",
+   "growing_days": 197,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "KZZ46",
+     "freq": "162.425",
+     "same": "054107"
+    },
+    {
+     "call": "WXM70",
+     "freq": "162.500",
+     "same": "054107"
+    },
+    {
+     "call": "WNG734",
+     "freq": "162.400",
+     "same": "054107"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.2
+  },
+  "Wyoming County": {
+   "fips": "54109",
+   "centroid": [
+    37.6037,
+    -81.549
+   ],
+   "latitude": 37.6,
+   "bbox": [
+    -81.8569,
+    37.4133,
+    -81.2225,
+    37.7925
+   ],
+   "coastal": false,
+   "elevation_ft": 1810,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 83,
+   "record_low_f": -17,
+   "record_high_f": 102,
+   "precip_in": 48.5,
+   "snow_in": 20,
+   "last_frost": "Apr 16",
+   "first_frost": "Oct 28",
+   "growing_days": 193,
+   "ecoregion": "Central Appalachians",
+   "ecoregion_code": "69",
+   "nws_office": "Charleston, WV",
+   "nws_cwa": "RLX",
+   "nwr": [
+    {
+     "call": "WXM71",
+     "freq": "162.550",
+     "same": "054109"
+    },
+    {
+     "call": "WXM75",
+     "freq": "162.475",
+     "same": "054109"
+    }
+   ],
+   "state_em": "West Virginia Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.3
+  }
+ }
+}

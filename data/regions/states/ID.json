@@ -1,0 +1,2561 @@
+{
+ "state": "ID",
+ "state_name": "Idaho",
+ "state_fips": "16",
+ "state_em": "Idaho Office of Emergency Management",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "BOI": "NWS Boise, ID",
+  "MSO": "NWS Missoula, MT",
+  "OTX": "NWS Spokane, WA",
+  "PIH": "NWS Pocatello, ID"
+ },
+ "ecoregions": [
+  "Columbia Plateau",
+  "Blue Mountains",
+  "Snake River Plain",
+  "Central Basin and Range",
+  "Northern Rockies",
+  "Idaho Batholith",
+  "Middle Rockies",
+  "Wyoming Basin",
+  "Wasatch and Uinta Mountains",
+  "Northern Basin and Range"
+ ],
+ "counties": {
+  "Ada County": {
+   "fips": "16001",
+   "centroid": [
+    43.4515,
+    -116.2444
+   ],
+   "latitude": 43.5,
+   "bbox": [
+    -116.5137,
+    43.1122,
+    -115.9742,
+    43.8075
+   ],
+   "coastal": false,
+   "elevation_ft": 2950,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 93,
+   "record_low_f": -25,
+   "record_high_f": 111,
+   "precip_in": 11.5,
+   "snow_in": 18,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 21",
+   "growing_days": 179,
+   "ecoregion": "Snake River Plain",
+   "ecoregion_code": "12",
+   "nws_office": "Boise, ID",
+   "nws_cwa": "BOI",
+   "nwr": [
+    {
+     "call": "WXK68",
+     "freq": "162.550",
+     "same": "016001"
+    }
+   ],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 3,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 6.6
+  },
+  "Adams County": {
+   "fips": "16003",
+   "centroid": [
+    44.877,
+    -116.4616
+   ],
+   "latitude": 44.9,
+   "bbox": [
+    -116.8991,
+    44.4434,
+    -116.0898,
+    45.2681
+   ],
+   "coastal": false,
+   "elevation_ft": 4330,
+   "zone": "6a",
+   "jan_low_f": 9,
+   "jul_high_f": 85,
+   "record_low_f": -49,
+   "record_high_f": 104,
+   "precip_in": 24.5,
+   "snow_in": 132,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 62,
+   "ecoregion": "Blue Mountains",
+   "ecoregion_code": "11",
+   "nws_office": "Boise, ID",
+   "nws_cwa": "BOI",
+   "nwr": [
+    {
+     "call": "WWF58",
+     "freq": "162.475",
+     "same": "016003"
+    }
+   ],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 6.4
+  },
+  "Bannock County": {
+   "fips": "16005",
+   "centroid": [
+    42.6929,
+    -112.229
+   ],
+   "latitude": 42.7,
+   "bbox": [
+    -112.7517,
+    42.2566,
+    -111.8756,
+    43.0224
+   ],
+   "coastal": false,
+   "elevation_ft": 4650,
+   "zone": "5b",
+   "jan_low_f": 15,
+   "jul_high_f": 87,
+   "record_low_f": -31,
+   "record_high_f": 103,
+   "precip_in": 15.5,
+   "snow_in": 45,
+   "last_frost": "May 23",
+   "first_frost": "Sep 24",
+   "growing_days": 121,
+   "ecoregion": "Northern Basin and Range",
+   "ecoregion_code": "80",
+   "nws_office": "Pocatello, ID",
+   "nws_cwa": "PIH",
+   "nwr": [
+    {
+     "call": "WXL33",
+     "freq": "162.550",
+     "same": "016005"
+    },
+    {
+     "call": "KZZ72",
+     "freq": "162.425",
+     "same": "016005"
+    }
+   ],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 6.6
+  },
+  "Bear Lake County": {
+   "fips": "16007",
+   "centroid": [
+    42.2859,
+    -111.3275
+   ],
+   "latitude": 42.3,
+   "bbox": [
+    -111.6345,
+    41.9995,
+    -111.0467,
+    42.6031
+   ],
+   "coastal": false,
+   "elevation_ft": 5930,
+   "zone": "5a",
+   "jan_low_f": 7,
+   "jul_high_f": 85,
+   "record_low_f": -30,
+   "record_high_f": 100,
+   "precip_in": 17.9,
+   "snow_in": 91,
+   "last_frost": "Jun 17",
+   "first_frost": "Sep 3",
+   "growing_days": 77,
+   "ecoregion": "Wyoming Basin",
+   "ecoregion_code": "18",
+   "nws_office": "Pocatello, ID",
+   "nws_cwa": "PIH",
+   "nwr": [
+    {
+     "call": "WXL63",
+     "freq": "162.500",
+     "same": "016007"
+    },
+    {
+     "call": "KZZ72",
+     "freq": "162.425",
+     "same": "016007"
+    }
+   ],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 6.6
+  },
+  "Benewah County": {
+   "fips": "16009",
+   "centroid": [
+    47.2185,
+    -116.6335
+   ],
+   "latitude": 47.2,
+   "bbox": [
+    -117.04,
+    47.0217,
+    -116.329,
+    47.4146
+   ],
+   "coastal": false,
+   "elevation_ft": 2980,
+   "zone": "6b",
+   "jan_low_f": 24,
+   "jul_high_f": 81,
+   "record_low_f": -15,
+   "record_high_f": 107,
+   "precip_in": 28.5,
+   "snow_in": 56,
+   "last_frost": "May 11",
+   "first_frost": "Oct 5",
+   "growing_days": 143,
+   "ecoregion": "Northern Rockies",
+   "ecoregion_code": "15",
+   "nws_office": "Spokane, WA",
+   "nws_cwa": "OTX",
+   "nwr": [
+    {
+     "call": "WXL86",
+     "freq": "162.400",
+     "same": "016009"
+    }
+   ],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.7
+  },
+  "Bingham County": {
+   "fips": "16011",
+   "centroid": [
+    43.2164,
+    -112.3992
+   ],
+   "latitude": 43.2,
+   "bbox": [
+    -113.008,
+    42.8629,
+    -111.5879,
+    43.6268
+   ],
+   "coastal": false,
+   "elevation_ft": 4480,
+   "zone": "5b",
+   "jan_low_f": 17,
+   "jul_high_f": 87,
+   "record_low_f": -40,
+   "record_high_f": 108,
+   "precip_in": 12.1,
+   "snow_in": 15,
+   "last_frost": "May 5",
+   "first_frost": "Oct 3",
+   "growing_days": 149,
+   "ecoregion": "Snake River Plain",
+   "ecoregion_code": "12",
+   "nws_office": "Pocatello, ID",
+   "nws_cwa": "PIH",
+   "nwr": [
+    {
+     "call": "WXL33",
+     "freq": "162.550",
+     "same": "016011"
+    },
+    {
+     "call": "KZZ72",
+     "freq": "162.425",
+     "same": "016011"
+    }
+   ],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 6.6
+  },
+  "Blaine County": {
+   "fips": "16013",
+   "centroid": [
+    43.3942,
+    -113.9554
+   ],
+   "latitude": 43.4,
+   "bbox": [
+    -114.9963,
+    42.6161,
+    -113.0064,
+    43.993
+   ],
+   "coastal": false,
+   "elevation_ft": 6650,
+   "zone": "6b",
+   "jan_low_f": 7,
+   "jul_high_f": 82,
+   "record_low_f": -37,
+   "record_high_f": 101,
+   "precip_in": 20.9,
+   "snow_in": 80,
+   "last_frost": "Jun 19",
+   "first_frost": "Sep 9",
+   "growing_days": 81,
+   "ecoregion": "Idaho Batholith",
+   "ecoregion_code": "16",
+   "nws_office": "Pocatello, ID",
+   "nws_cwa": "PIH",
+   "nwr": [
+    {
+     "call": "WNG605",
+     "freq": "162.475",
+     "same": "016013"
+    },
+    {
+     "call": "WXL33",
+     "freq": "162.550",
+     "same": "016013"
+    },
+    {
+     "call": "WZ2520",
+     "freq": "162.450",
+     "same": "016013"
+    }
+   ],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 6.5
+  },
+  "Boise County": {
+   "fips": "16015",
+   "centroid": [
+    43.9873,
+    -115.7151
+   ],
+   "latitude": 44.0,
+   "bbox": [
+    -116.2818,
+    43.587,
+    -114.9672,
+    44.3515
+   ],
+   "coastal": false,
+   "elevation_ft": 7100,
+   "zone": "6b",
+   "jan_low_f": 4,
+   "jul_high_f": 80,
+   "record_low_f": -54,
+   "record_high_f": 98,
+   "precip_in": 44.7,
+   "snow_in": 117,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 29,
+   "ecoregion": "Idaho Batholith",
+   "ecoregion_code": "16",
+   "nws_office": "Boise, ID",
+   "nws_cwa": "BOI",
+   "nwr": [
+    {
+     "call": "WXK68",
+     "freq": "162.550",
+     "same": "016015"
+    }
+   ],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 6.6
+  },
+  "Bonner County": {
+   "fips": "16017",
+   "centroid": [
+    48.3246,
+    -116.6274
+   ],
+   "latitude": 48.3,
+   "bbox": [
+    -117.0423,
+    47.8901,
+    -116.0487,
+    48.8474
+   ],
+   "coastal": false,
+   "elevation_ft": 3540,
+   "zone": "6b",
+   "jan_low_f": 23,
+   "jul_high_f": 82,
+   "record_low_f": -37,
+   "record_high_f": 106,
+   "precip_in": 34.0,
+   "snow_in": 62,
+   "last_frost": "May 8",
+   "first_frost": "Sep 28",
+   "growing_days": 141,
+   "ecoregion": "Northern Rockies",
+   "ecoregion_code": "15",
+   "nws_office": "Spokane, WA",
+   "nws_cwa": "OTX",
+   "nwr": [
+    {
+     "call": "WWG99",
+     "freq": "162.500",
+     "same": "016017"
+    },
+    {
+     "call": "WXL86",
+     "freq": "162.400",
+     "same": "016017"
+    }
+   ],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 1.6,
+   "sun_hours_jun": 5.3
+  },
+  "Bonneville County": {
+   "fips": "16019",
+   "centroid": [
+    43.3952,
+    -111.6219
+   ],
+   "latitude": 43.4,
+   "bbox": [
+    -112.5203,
+    43.0193,
+    -111.0439,
+    43.6273
+   ],
+   "coastal": false,
+   "elevation_ft": 6350,
+   "zone": "5b",
+   "jan_low_f": 14,
+   "jul_high_f": 81,
+   "record_low_f": -51,
+   "record_high_f": 100,
+   "precip_in": 17.3,
+   "snow_in": 66,
+   "last_frost": "Jun 9",
+   "first_frost": "Sep 11",
+   "growing_days": 93,
+   "ecoregion": "Middle Rockies",
+   "ecoregion_code": "17",
+   "nws_office": "Pocatello, ID",
+   "nws_cwa": "PIH",
+   "nwr": [
+    {
+     "call": "KJY57",
+     "freq": "162.450",
+     "same": "016019"
+    },
+    {
+     "call": "WXL33",
+     "freq": "162.550",
+     "same": "016019"
+    }
+   ],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 6.4
+  },
+  "Boundary County": {
+   "fips": "16021",
+   "centroid": [
+    48.7731,
+    -116.5247
+   ],
+   "latitude": 48.8,
+   "bbox": [
+    -117.0324,
+    48.5001,
+    -116.0489,
+    49.0008
+   ],
+   "coastal": false,
+   "elevation_ft": 5650,
+   "zone": "6a",
+   "jan_low_f": 24,
+   "jul_high_f": 85,
+   "record_low_f": -33,
+   "record_high_f": 108,
+   "precip_in": 75.2,
+   "snow_in": 54,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 4",
+   "growing_days": 154,
+   "ecoregion": "Northern Rockies",
+   "ecoregion_code": "15",
+   "nws_office": "Spokane, WA",
+   "nws_cwa": "OTX",
+   "nwr": [
+    {
+     "call": "WWG99",
+     "freq": "162.500",
+     "same": "016021"
+    }
+   ],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 1.6,
+   "sun_hours_jun": 5.3
+  },
+  "Butte County": {
+   "fips": "16023",
+   "centroid": [
+    43.6851,
+    -113.1776
+   ],
+   "latitude": 43.7,
+   "bbox": [
+    -113.798,
+    43.2846,
+    -112.6949,
+    44.2342
+   ],
+   "coastal": false,
+   "elevation_ft": 6090,
+   "zone": "6a",
+   "jan_low_f": 7,
+   "jul_high_f": 87,
+   "record_low_f": -46,
+   "record_high_f": 102,
+   "precip_in": 8.8,
+   "snow_in": 24,
+   "last_frost": "May 22",
+   "first_frost": "Sep 22",
+   "growing_days": 119,
+   "ecoregion": "Middle Rockies",
+   "ecoregion_code": "17",
+   "nws_office": "Pocatello, ID",
+   "nws_cwa": "PIH",
+   "nwr": [
+    {
+     "call": "WXL33",
+     "freq": "162.550",
+     "same": "016023"
+    }
+   ],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 6.5
+  },
+  "Camas County": {
+   "fips": "16025",
+   "centroid": [
+    43.5026,
+    -114.7721
+   ],
+   "latitude": 43.5,
+   "bbox": [
+    -115.0866,
+    43.1974,
+    -114.3747,
+    43.859
+   ],
+   "coastal": false,
+   "elevation_ft": 7560,
+   "zone": "6b",
+   "jan_low_f": 8,
+   "jul_high_f": 80,
+   "record_low_f": -46,
+   "record_high_f": 98,
+   "precip_in": 34.7,
+   "snow_in": 102,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 77,
+   "ecoregion": "Idaho Batholith",
+   "ecoregion_code": "16",
+   "nws_office": "Boise, ID",
+   "nws_cwa": "BOI",
+   "nwr": [],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 6.6
+  },
+  "Canyon County": {
+   "fips": "16027",
+   "centroid": [
+    43.6258,
+    -116.7091
+   ],
+   "latitude": 43.6,
+   "bbox": [
+    -117.0324,
+    43.2908,
+    -116.4734,
+    43.88
+   ],
+   "coastal": false,
+   "elevation_ft": 2470,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 90,
+   "record_low_f": -27,
+   "record_high_f": 107,
+   "precip_in": 10.0,
+   "snow_in": 10,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 18",
+   "growing_days": 178,
+   "ecoregion": "Snake River Plain",
+   "ecoregion_code": "12",
+   "nws_office": "Boise, ID",
+   "nws_cwa": "BOI",
+   "nwr": [
+    {
+     "call": "WXK68",
+     "freq": "162.550",
+     "same": "016027"
+    },
+    {
+     "call": "WXK88",
+     "freq": "162.400",
+     "same": "016027"
+    }
+   ],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 6.6
+  },
+  "Caribou County": {
+   "fips": "16029",
+   "centroid": [
+    42.7861,
+    -111.5443
+   ],
+   "latitude": 42.8,
+   "bbox": [
+    -112.1496,
+    42.4159,
+    -111.0435,
+    43.0223
+   ],
+   "coastal": false,
+   "elevation_ft": 6190,
+   "zone": "5a",
+   "jan_low_f": 10,
+   "jul_high_f": 87,
+   "record_low_f": -37,
+   "record_high_f": 102,
+   "precip_in": 15.7,
+   "snow_in": 88,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 69,
+   "ecoregion": "Northern Basin and Range",
+   "ecoregion_code": "80",
+   "nws_office": "Pocatello, ID",
+   "nws_cwa": "PIH",
+   "nwr": [
+    {
+     "call": "KZZ72",
+     "freq": "162.425",
+     "same": "016029"
+    }
+   ],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 6.6
+  },
+  "Cassia County": {
+   "fips": "16031",
+   "centroid": [
+    42.2823,
+    -113.6263
+   ],
+   "latitude": 42.3,
+   "bbox": [
+    -114.2867,
+    41.9881,
+    -113.0008,
+    42.6878
+   ],
+   "coastal": false,
+   "elevation_ft": 6300,
+   "zone": "6b",
+   "jan_low_f": 16,
+   "jul_high_f": 86,
+   "record_low_f": -24,
+   "record_high_f": 102,
+   "precip_in": 11.9,
+   "snow_in": 12,
+   "last_frost": "May 21",
+   "first_frost": "Oct 2",
+   "growing_days": 132,
+   "ecoregion": "Northern Basin and Range",
+   "ecoregion_code": "80",
+   "nws_office": "Pocatello, ID",
+   "nws_cwa": "PIH",
+   "nwr": [
+    {
+     "call": "WNG605",
+     "freq": "162.475",
+     "same": "016031"
+    },
+    {
+     "call": "WXL35",
+     "freq": "162.400",
+     "same": "016031"
+    }
+   ],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 6.6
+  },
+  "Clark County": {
+   "fips": "16033",
+   "centroid": [
+    44.2902,
+    -112.3546
+   ],
+   "latitude": 44.3,
+   "bbox": [
+    -112.9954,
+    43.9719,
+    -111.6141,
+    44.5708
+   ],
+   "coastal": false,
+   "elevation_ft": 5610,
+   "zone": "5b",
+   "jan_low_f": 11,
+   "jul_high_f": 83,
+   "record_low_f": -31,
+   "record_high_f": 103,
+   "precip_in": 12.5,
+   "snow_in": 47,
+   "last_frost": "Jun 5",
+   "first_frost": "Sep 20",
+   "growing_days": 106,
+   "ecoregion": "Snake River Plain",
+   "ecoregion_code": "12",
+   "nws_office": "Pocatello, ID",
+   "nws_cwa": "PIH",
+   "nwr": [
+    {
+     "call": "KJY57",
+     "freq": "162.450",
+     "same": "016033"
+    },
+    {
+     "call": "WXL33",
+     "freq": "162.550",
+     "same": "016033"
+    }
+   ],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 6.2
+  },
+  "Clearwater County": {
+   "fips": "16035",
+   "centroid": [
+    46.6726,
+    -115.6535
+   ],
+   "latitude": 46.7,
+   "bbox": [
+    -116.4558,
+    46.2659,
+    -114.5948,
+    46.935
+   ],
+   "coastal": false,
+   "elevation_ft": 4010,
+   "zone": "6b",
+   "jan_low_f": 18,
+   "jul_high_f": 80,
+   "record_low_f": -28,
+   "record_high_f": 108,
+   "precip_in": 40.9,
+   "snow_in": 119,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 81,
+   "ecoregion": "Northern Rockies",
+   "ecoregion_code": "15",
+   "nws_office": "Missoula, MT",
+   "nws_cwa": "MSO",
+   "nwr": [
+    {
+     "call": "WXK98",
+     "freq": "162.550",
+     "same": "016035"
+    },
+    {
+     "call": "WZ2535",
+     "freq": "162.500",
+     "same": "016035"
+    }
+   ],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.6
+  },
+  "Custer County": {
+   "fips": "16037",
+   "centroid": [
+    44.2734,
+    -114.2523
+   ],
+   "latitude": 44.3,
+   "bbox": [
+    -115.3051,
+    43.5689,
+    -113.3204,
+    44.8791
+   ],
+   "coastal": false,
+   "elevation_ft": 7390,
+   "zone": "6a",
+   "jan_low_f": 7,
+   "jul_high_f": 82,
+   "record_low_f": -42,
+   "record_high_f": 100,
+   "precip_in": 19.1,
+   "snow_in": 18,
+   "last_frost": "Jun 14",
+   "first_frost": "Sep 8",
+   "growing_days": 86,
+   "ecoregion": "Middle Rockies",
+   "ecoregion_code": "17",
+   "nws_office": "Pocatello, ID",
+   "nws_cwa": "PIH",
+   "nwr": [],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 6.1
+  },
+  "Elmore County": {
+   "fips": "16039",
+   "centroid": [
+    43.3947,
+    -115.4712
+   ],
+   "latitude": 43.4,
+   "bbox": [
+    -116.2672,
+    42.7677,
+    -114.9705,
+    44.0986
+   ],
+   "coastal": false,
+   "elevation_ft": 5590,
+   "zone": "6b",
+   "jan_low_f": 9,
+   "jul_high_f": 85,
+   "record_low_f": -49,
+   "record_high_f": 102,
+   "precip_in": 22.9,
+   "snow_in": 102,
+   "last_frost": "Jun 16",
+   "first_frost": "Sep 6",
+   "growing_days": 80,
+   "ecoregion": "Idaho Batholith",
+   "ecoregion_code": "16",
+   "nws_office": "Boise, ID",
+   "nws_cwa": "BOI",
+   "nwr": [
+    {
+     "call": "WXK68",
+     "freq": "162.550",
+     "same": "016039"
+    }
+   ],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 3,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 6.6
+  },
+  "Franklin County": {
+   "fips": "16041",
+   "centroid": [
+    42.1736,
+    -111.823
+   ],
+   "latitude": 42.2,
+   "bbox": [
+    -112.1245,
+    41.9975,
+    -111.5079,
+    42.4306
+   ],
+   "coastal": false,
+   "elevation_ft": 4570,
+   "zone": "6a",
+   "jan_low_f": 15,
+   "jul_high_f": 89,
+   "record_low_f": -31,
+   "record_high_f": 110,
+   "precip_in": 17.3,
+   "snow_in": 52,
+   "last_frost": "May 16",
+   "first_frost": "Sep 28",
+   "growing_days": 133,
+   "ecoregion": "Central Basin and Range",
+   "ecoregion_code": "13",
+   "nws_office": "Pocatello, ID",
+   "nws_cwa": "PIH",
+   "nwr": [
+    {
+     "call": "WXM22",
+     "freq": "162.400",
+     "same": "016041"
+    },
+    {
+     "call": "KZZ72",
+     "freq": "162.425",
+     "same": "016041"
+    }
+   ],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 6.6
+  },
+  "Fremont County": {
+   "fips": "16043",
+   "centroid": [
+    44.2181,
+    -111.4844
+   ],
+   "latitude": 44.2,
+   "bbox": [
+    -112.1563,
+    43.8833,
+    -111.0471,
+    44.755
+   ],
+   "coastal": false,
+   "elevation_ft": 6230,
+   "zone": "5a",
+   "jan_low_f": 6,
+   "jul_high_f": 77,
+   "record_low_f": -60,
+   "record_high_f": 97,
+   "precip_in": 28.8,
+   "snow_in": 70,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 49,
+   "ecoregion": "Middle Rockies",
+   "ecoregion_code": "17",
+   "nws_office": "Pocatello, ID",
+   "nws_cwa": "PIH",
+   "nwr": [
+    {
+     "call": "KJY57",
+     "freq": "162.450",
+     "same": "016043"
+    }
+   ],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 6.0
+  },
+  "Gem County": {
+   "fips": "16045",
+   "centroid": [
+    44.0615,
+    -116.3988
+   ],
+   "latitude": 44.1,
+   "bbox": [
+    -116.7129,
+    43.8068,
+    -116.1522,
+    44.5042
+   ],
+   "coastal": false,
+   "elevation_ft": 4250,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 88,
+   "record_low_f": -23,
+   "record_high_f": 106,
+   "precip_in": 18.0,
+   "snow_in": 57,
+   "last_frost": "May 17",
+   "first_frost": "Oct 12",
+   "growing_days": 147,
+   "ecoregion": "Snake River Plain",
+   "ecoregion_code": "12",
+   "nws_office": "Boise, ID",
+   "nws_cwa": "BOI",
+   "nwr": [
+    {
+     "call": "WXK68",
+     "freq": "162.550",
+     "same": "016045"
+    },
+    {
+     "call": "WXK88",
+     "freq": "162.400",
+     "same": "016045"
+    }
+   ],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 6.4
+  },
+  "Gooding County": {
+   "fips": "16047",
+   "centroid": [
+    42.9732,
+    -114.8214
+   ],
+   "latitude": 43.0,
+   "bbox": [
+    -115.0869,
+    42.6495,
+    -114.5956,
+    43.1983
+   ],
+   "coastal": false,
+   "elevation_ft": 3530,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 92,
+   "record_low_f": -25,
+   "record_high_f": 112,
+   "precip_in": 9.8,
+   "snow_in": 24,
+   "last_frost": "May 3",
+   "first_frost": "Oct 1",
+   "growing_days": 151,
+   "ecoregion": "Snake River Plain",
+   "ecoregion_code": "12",
+   "nws_office": "Boise, ID",
+   "nws_cwa": "BOI",
+   "nwr": [
+    {
+     "call": "WXL35",
+     "freq": "162.400",
+     "same": "016047"
+    }
+   ],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 6.7
+  },
+  "Idaho County": {
+   "fips": "16049",
+   "centroid": [
+    45.8496,
+    -115.4673
+   ],
+   "latitude": 45.8,
+   "bbox": [
+    -116.7938,
+    45.1064,
+    -114.3206,
+    46.6697
+   ],
+   "coastal": false,
+   "elevation_ft": 4200,
+   "zone": "5a",
+   "jan_low_f": 15,
+   "jul_high_f": 83,
+   "record_low_f": -48,
+   "record_high_f": 103,
+   "precip_in": 30.6,
+   "snow_in": 119,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 64,
+   "ecoregion": "Idaho Batholith",
+   "ecoregion_code": "16",
+   "nws_office": "Missoula, MT",
+   "nws_cwa": "MSO",
+   "nwr": [
+    {
+     "call": "KXI82",
+     "freq": "162.450",
+     "same": "016049"
+    },
+    {
+     "call": "WXK98",
+     "freq": "162.550",
+     "same": "016049"
+    },
+    {
+     "call": "WZ2535",
+     "freq": "162.500",
+     "same": "016049"
+    }
+   ],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 3,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.8
+  },
+  "Jefferson County": {
+   "fips": "16051",
+   "centroid": [
+    43.797,
+    -112.3186
+   ],
+   "latitude": 43.8,
+   "bbox": [
+    -112.6977,
+    43.623,
+    -111.6261,
+    44.0584
+   ],
+   "coastal": false,
+   "elevation_ft": 4790,
+   "zone": "5a",
+   "jan_low_f": 7,
+   "jul_high_f": 89,
+   "record_low_f": -48,
+   "record_high_f": 105,
+   "precip_in": 8.9,
+   "snow_in": 20,
+   "last_frost": "Jun 3",
+   "first_frost": "Sep 11",
+   "growing_days": 98,
+   "ecoregion": "Snake River Plain",
+   "ecoregion_code": "12",
+   "nws_office": "Pocatello, ID",
+   "nws_cwa": "PIH",
+   "nwr": [
+    {
+     "call": "KJY57",
+     "freq": "162.450",
+     "same": "016051"
+    },
+    {
+     "call": "WXL33",
+     "freq": "162.550",
+     "same": "016051"
+    }
+   ],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 6.6
+  },
+  "Jerome County": {
+   "fips": "16053",
+   "centroid": [
+    42.6914,
+    -114.2621
+   ],
+   "latitude": 42.7,
+   "bbox": [
+    -114.6174,
+    42.4958,
+    -113.9316,
+    42.8511
+   ],
+   "coastal": false,
+   "elevation_ft": 3960,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 87,
+   "record_low_f": -23,
+   "record_high_f": 104,
+   "precip_in": 10.8,
+   "snow_in": 24,
+   "last_frost": "May 6",
+   "first_frost": "Oct 3",
+   "growing_days": 150,
+   "ecoregion": "Snake River Plain",
+   "ecoregion_code": "12",
+   "nws_office": "Boise, ID",
+   "nws_cwa": "BOI",
+   "nwr": [
+    {
+     "call": "WNG605",
+     "freq": "162.475",
+     "same": "016053"
+    },
+    {
+     "call": "WXL35",
+     "freq": "162.400",
+     "same": "016053"
+    }
+   ],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 6.7
+  },
+  "Kootenai County": {
+   "fips": "16055",
+   "centroid": [
+    47.676,
+    -116.6959
+   ],
+   "latitude": 47.7,
+   "bbox": [
+    -117.0426,
+    47.366,
+    -116.3228,
+    47.9915
+   ],
+   "coastal": false,
+   "elevation_ft": 2950,
+   "zone": "6b",
+   "jan_low_f": 26,
+   "jul_high_f": 83,
+   "record_low_f": -30,
+   "record_high_f": 109,
+   "precip_in": 25.4,
+   "snow_in": 27,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 18",
+   "growing_days": 179,
+   "ecoregion": "Northern Rockies",
+   "ecoregion_code": "15",
+   "nws_office": "Spokane, WA",
+   "nws_cwa": "OTX",
+   "nwr": [
+    {
+     "call": "WWG99",
+     "freq": "162.500",
+     "same": "016055"
+    },
+    {
+     "call": "WXL86",
+     "freq": "162.400",
+     "same": "016055"
+    }
+   ],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.7
+  },
+  "Latah County": {
+   "fips": "16057",
+   "centroid": [
+    46.8189,
+    -116.731
+   ],
+   "latitude": 46.8,
+   "bbox": [
+    -117.0398,
+    46.5418,
+    -116.3293,
+    47.1308
+   ],
+   "coastal": false,
+   "elevation_ft": 2910,
+   "zone": "6b",
+   "jan_low_f": 26,
+   "jul_high_f": 82,
+   "record_low_f": -30,
+   "record_high_f": 110,
+   "precip_in": 24.5,
+   "snow_in": 41,
+   "last_frost": "May 15",
+   "first_frost": "Sep 21",
+   "growing_days": 126,
+   "ecoregion": "Northern Rockies",
+   "ecoregion_code": "15",
+   "nws_office": "Spokane, WA",
+   "nws_cwa": "OTX",
+   "nwr": [
+    {
+     "call": "WXK98",
+     "freq": "162.550",
+     "same": "016057"
+    }
+   ],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 5.9
+  },
+  "Lemhi County": {
+   "fips": "16059",
+   "centroid": [
+    44.9285,
+    -113.887
+   ],
+   "latitude": 44.9,
+   "bbox": [
+    -114.8199,
+    44.2302,
+    -112.8136,
+    45.7054
+   ],
+   "coastal": false,
+   "elevation_ft": 7550,
+   "zone": "6a",
+   "jan_low_f": 8,
+   "jul_high_f": 77,
+   "record_low_f": -41,
+   "record_high_f": 93,
+   "precip_in": 24.1,
+   "snow_in": 42,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 51,
+   "ecoregion": "Middle Rockies",
+   "ecoregion_code": "17",
+   "nws_office": "Missoula, MT",
+   "nws_cwa": "MSO",
+   "nwr": [
+    {
+     "call": "KPS509",
+     "freq": "162.500",
+     "same": "016059"
+    }
+   ],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 6.0
+  },
+  "Lewis County": {
+   "fips": "16061",
+   "centroid": [
+    46.2363,
+    -116.4238
+   ],
+   "latitude": 46.2,
+   "bbox": [
+    -116.7135,
+    45.9916,
+    -116.0133,
+    46.4692
+   ],
+   "coastal": false,
+   "elevation_ft": 3660,
+   "zone": "6a",
+   "jan_low_f": 23,
+   "jul_high_f": 78,
+   "record_low_f": -40,
+   "record_high_f": 98,
+   "precip_in": 21.8,
+   "snow_in": 86,
+   "last_frost": "May 23",
+   "first_frost": "Sep 25",
+   "growing_days": 121,
+   "ecoregion": "Columbia Plateau",
+   "ecoregion_code": "10",
+   "nws_office": "Spokane, WA",
+   "nws_cwa": "OTX",
+   "nwr": [
+    {
+     "call": "WXK98",
+     "freq": "162.550",
+     "same": "016061"
+    },
+    {
+     "call": "WZ2535",
+     "freq": "162.500",
+     "same": "016061"
+    }
+   ],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 5.9
+  },
+  "Lincoln County": {
+   "fips": "16063",
+   "centroid": [
+    42.9908,
+    -114.1531
+   ],
+   "latitude": 43.0,
+   "bbox": [
+    -114.5974,
+    42.7639,
+    -113.7138,
+    43.2003
+   ],
+   "coastal": false,
+   "elevation_ft": 4260,
+   "zone": "6a",
+   "jan_low_f": 14,
+   "jul_high_f": 89,
+   "record_low_f": -40,
+   "record_high_f": 105,
+   "precip_in": 10.5,
+   "snow_in": 29,
+   "last_frost": "May 24",
+   "first_frost": "Sep 26",
+   "growing_days": 123,
+   "ecoregion": "Snake River Plain",
+   "ecoregion_code": "12",
+   "nws_office": "Pocatello, ID",
+   "nws_cwa": "PIH",
+   "nwr": [
+    {
+     "call": "WNG605",
+     "freq": "162.475",
+     "same": "016063"
+    },
+    {
+     "call": "WXL35",
+     "freq": "162.400",
+     "same": "016063"
+    }
+   ],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 6.7
+  },
+  "Madison County": {
+   "fips": "16065",
+   "centroid": [
+    43.7886,
+    -111.657
+   ],
+   "latitude": 43.8,
+   "bbox": [
+    -111.9834,
+    43.6219,
+    -111.3988,
+    43.9302
+   ],
+   "coastal": false,
+   "elevation_ft": 5360,
+   "zone": "5a",
+   "jan_low_f": 14,
+   "jul_high_f": 85,
+   "record_low_f": -36,
+   "record_high_f": 102,
+   "precip_in": 12.6,
+   "snow_in": 70,
+   "last_frost": "May 12",
+   "first_frost": "Sep 24",
+   "growing_days": 132,
+   "ecoregion": "Snake River Plain",
+   "ecoregion_code": "12",
+   "nws_office": "Pocatello, ID",
+   "nws_cwa": "PIH",
+   "nwr": [
+    {
+     "call": "KJY57",
+     "freq": "162.450",
+     "same": "016065"
+    },
+    {
+     "call": "WXL33",
+     "freq": "162.550",
+     "same": "016065"
+    }
+   ],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 6.4
+  },
+  "Minidoka County": {
+   "fips": "16067",
+   "centroid": [
+    42.8572,
+    -113.6398
+   ],
+   "latitude": 42.9,
+   "bbox": [
+    -113.9329,
+    42.5188,
+    -113.413,
+    43.2001
+   ],
+   "coastal": false,
+   "elevation_ft": 4320,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 89,
+   "record_low_f": -41,
+   "record_high_f": 108,
+   "precip_in": 9.8,
+   "snow_in": 20,
+   "last_frost": "May 16",
+   "first_frost": "Oct 1",
+   "growing_days": 136,
+   "ecoregion": "Snake River Plain",
+   "ecoregion_code": "12",
+   "nws_office": "Pocatello, ID",
+   "nws_cwa": "PIH",
+   "nwr": [
+    {
+     "call": "WNG605",
+     "freq": "162.475",
+     "same": "016067"
+    }
+   ],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 6.6
+  },
+  "Nez Perce County": {
+   "fips": "16069",
+   "centroid": [
+    46.3338,
+    -116.7609
+   ],
+   "latitude": 46.3,
+   "bbox": [
+    -117.0627,
+    45.8551,
+    -116.3605,
+    46.6305
+   ],
+   "coastal": false,
+   "elevation_ft": 2360,
+   "zone": "7a",
+   "jan_low_f": 30,
+   "jul_high_f": 91,
+   "record_low_f": -22,
+   "record_high_f": 115,
+   "precip_in": 12.9,
+   "snow_in": 13,
+   "last_frost": "Apr 6",
+   "first_frost": "Oct 26",
+   "growing_days": 200,
+   "ecoregion": "Columbia Plateau",
+   "ecoregion_code": "10",
+   "nws_office": "Spokane, WA",
+   "nws_cwa": "OTX",
+   "nwr": [
+    {
+     "call": "WXK98",
+     "freq": "162.550",
+     "same": "016069"
+    },
+    {
+     "call": "WZ2535",
+     "freq": "162.500",
+     "same": "016069"
+    }
+   ],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 5.9
+  },
+  "Oneida County": {
+   "fips": "16071",
+   "centroid": [
+    42.1839,
+    -112.5204
+   ],
+   "latitude": 42.2,
+   "bbox": [
+    -113.0014,
+    41.9963,
+    -112.0706,
+    42.503
+   ],
+   "coastal": false,
+   "elevation_ft": 5690,
+   "zone": "6b",
+   "jan_low_f": 15,
+   "jul_high_f": 91,
+   "record_low_f": -35,
+   "record_high_f": 105,
+   "precip_in": 13.1,
+   "snow_in": 52,
+   "last_frost": "May 22",
+   "first_frost": "Sep 20",
+   "growing_days": 116,
+   "ecoregion": "Northern Basin and Range",
+   "ecoregion_code": "80",
+   "nws_office": "Pocatello, ID",
+   "nws_cwa": "PIH",
+   "nwr": [
+    {
+     "call": "KZZ72",
+     "freq": "162.425",
+     "same": "016071"
+    }
+   ],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 6.6
+  },
+  "Owyhee County": {
+   "fips": "16073",
+   "centroid": [
+    42.5729,
+    -116.1897
+   ],
+   "latitude": 42.6,
+   "bbox": [
+    -117.027,
+    41.9961,
+    -115.0373,
+    43.6818
+   ],
+   "coastal": false,
+   "elevation_ft": 5740,
+   "zone": "6a",
+   "jan_low_f": 22,
+   "jul_high_f": 82,
+   "record_low_f": -21,
+   "record_high_f": 105,
+   "precip_in": 16.8,
+   "snow_in": 47,
+   "last_frost": "May 31",
+   "first_frost": "Oct 6",
+   "growing_days": 128,
+   "ecoregion": "Northern Basin and Range",
+   "ecoregion_code": "80",
+   "nws_office": "Boise, ID",
+   "nws_cwa": "BOI",
+   "nwr": [
+    {
+     "call": "WXK68",
+     "freq": "162.550",
+     "same": "016073"
+    },
+    {
+     "call": "WXK88",
+     "freq": "162.400",
+     "same": "016073"
+    }
+   ],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 6.6
+  },
+  "Payette County": {
+   "fips": "16075",
+   "centroid": [
+    44.0024,
+    -116.7502
+   ],
+   "latitude": 44.0,
+   "bbox": [
+    -116.9838,
+    43.7926,
+    -116.452,
+    44.1527
+   ],
+   "coastal": false,
+   "elevation_ft": 2390,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 92,
+   "record_low_f": -33,
+   "record_high_f": 111,
+   "precip_in": 11.2,
+   "snow_in": 15,
+   "last_frost": "Apr 19",
+   "first_frost": "Oct 20",
+   "growing_days": 183,
+   "ecoregion": "Snake River Plain",
+   "ecoregion_code": "12",
+   "nws_office": "Boise, ID",
+   "nws_cwa": "BOI",
+   "nwr": [
+    {
+     "call": "WXK88",
+     "freq": "162.400",
+     "same": "016075"
+    }
+   ],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 6.4
+  },
+  "Power County": {
+   "fips": "16077",
+   "centroid": [
+    42.6941,
+    -112.8444
+   ],
+   "latitude": 42.7,
+   "bbox": [
+    -113.2439,
+    42.3274,
+    -112.3795,
+    43.1111
+   ],
+   "coastal": false,
+   "elevation_ft": 5010,
+   "zone": "6a",
+   "jan_low_f": 19,
+   "jul_high_f": 90,
+   "record_low_f": -38,
+   "record_high_f": 106,
+   "precip_in": 11.1,
+   "snow_in": 35,
+   "last_frost": "May 4",
+   "first_frost": "Oct 8",
+   "growing_days": 155,
+   "ecoregion": "Northern Basin and Range",
+   "ecoregion_code": "80",
+   "nws_office": "Pocatello, ID",
+   "nws_cwa": "PIH",
+   "nwr": [
+    {
+     "call": "WNG605",
+     "freq": "162.475",
+     "same": "016077"
+    },
+    {
+     "call": "WXL33",
+     "freq": "162.550",
+     "same": "016077"
+    }
+   ],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 6.6
+  },
+  "Shoshone County": {
+   "fips": "16079",
+   "centroid": [
+    47.3477,
+    -115.8851
+   ],
+   "latitude": 47.3,
+   "bbox": [
+    -116.3303,
+    46.9328,
+    -114.9598,
+    48.0696
+   ],
+   "coastal": false,
+   "elevation_ft": 4240,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 81,
+   "record_low_f": -23,
+   "record_high_f": 105,
+   "precip_in": 36.6,
+   "snow_in": 76,
+   "last_frost": "May 12",
+   "first_frost": "Sep 30",
+   "growing_days": 138,
+   "ecoregion": "Northern Rockies",
+   "ecoregion_code": "15",
+   "nws_office": "Spokane, WA",
+   "nws_cwa": "OTX",
+   "nwr": [],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.5
+  },
+  "Teton County": {
+   "fips": "16081",
+   "centroid": [
+    43.761,
+    -111.2118
+   ],
+   "latitude": 43.8,
+   "bbox": [
+    -111.401,
+    43.5017,
+    -111.0455,
+    43.9841
+   ],
+   "coastal": false,
+   "elevation_ft": 6000,
+   "zone": "5a",
+   "jan_low_f": 9,
+   "jul_high_f": 83,
+   "record_low_f": -50,
+   "record_high_f": 100,
+   "precip_in": 19.4,
+   "snow_in": 113,
+   "last_frost": "Jun 13",
+   "first_frost": "Sep 9",
+   "growing_days": 86,
+   "ecoregion": "Snake River Plain",
+   "ecoregion_code": "12",
+   "nws_office": "Pocatello, ID",
+   "nws_cwa": "PIH",
+   "nwr": [
+    {
+     "call": "KJY57",
+     "freq": "162.450",
+     "same": "016081"
+    }
+   ],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 6.4
+  },
+  "Twin Falls County": {
+   "fips": "16083",
+   "centroid": [
+    42.3523,
+    -114.6656
+   ],
+   "latitude": 42.4,
+   "bbox": [
+    -115.0384,
+    41.9943,
+    -114.0003,
+    42.9183
+   ],
+   "coastal": false,
+   "elevation_ft": 4530,
+   "zone": "6b",
+   "jan_low_f": 21,
+   "jul_high_f": 88,
+   "record_low_f": -26,
+   "record_high_f": 105,
+   "precip_in": 10.3,
+   "snow_in": 24,
+   "last_frost": "May 9",
+   "first_frost": "Oct 4",
+   "growing_days": 147,
+   "ecoregion": "Northern Basin and Range",
+   "ecoregion_code": "80",
+   "nws_office": "Boise, ID",
+   "nws_cwa": "BOI",
+   "nwr": [
+    {
+     "call": "WXL35",
+     "freq": "162.400",
+     "same": "016083"
+    }
+   ],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 6.7
+  },
+  "Valley County": {
+   "fips": "16085",
+   "centroid": [
+    44.856,
+    -115.6181
+   ],
+   "latitude": 44.9,
+   "bbox": [
+    -116.213,
+    44.1476,
+    -114.695,
+    45.2191
+   ],
+   "coastal": false,
+   "elevation_ft": 7900,
+   "zone": "6a",
+   "jan_low_f": 12,
+   "jul_high_f": 87,
+   "record_low_f": -35,
+   "record_high_f": 104,
+   "precip_in": 56.0,
+   "snow_in": 132,
+   "last_frost": "Jun 12",
+   "first_frost": "Sep 11",
+   "growing_days": 88,
+   "ecoregion": "Idaho Batholith",
+   "ecoregion_code": "16",
+   "nws_office": "Boise, ID",
+   "nws_cwa": "BOI",
+   "nwr": [
+    {
+     "call": "WWF58",
+     "freq": "162.475",
+     "same": "016085"
+    }
+   ],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 6.1
+  },
+  "Washington County": {
+   "fips": "16087",
+   "centroid": [
+    44.4482,
+    -116.7978
+   ],
+   "latitude": 44.4,
+   "bbox": [
+    -117.2427,
+    44.1511,
+    -116.3,
+    44.8406
+   ],
+   "coastal": false,
+   "elevation_ft": 3000,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 92,
+   "record_low_f": -35,
+   "record_high_f": 117,
+   "precip_in": 21.4,
+   "snow_in": 62,
+   "last_frost": "May 15",
+   "first_frost": "Sep 27",
+   "growing_days": 134,
+   "ecoregion": "Snake River Plain",
+   "ecoregion_code": "12",
+   "nws_office": "Boise, ID",
+   "nws_cwa": "BOI",
+   "nwr": [
+    {
+     "call": "WXK88",
+     "freq": "162.400",
+     "same": "016087"
+    }
+   ],
+   "state_em": "Idaho Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 6.4
+  }
+ }
+}

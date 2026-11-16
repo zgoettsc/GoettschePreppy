@@ -1,0 +1,885 @@
+{
+ "state": "VT",
+ "state_name": "Vermont",
+ "state_fips": "50",
+ "state_em": "Vermont Emergency Management",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "ALY": "NWS Albany, NY",
+  "BTV": "NWS Burlington, VT"
+ },
+ "ecoregions": [
+  "Northeastern Highlands",
+  "Northeastern Coastal Zone",
+  "Eastern Great Lakes Lowlands"
+ ],
+ "counties": {
+  "Addison County": {
+   "fips": "50001",
+   "centroid": [
+    44.0312,
+    -73.1416
+   ],
+   "latitude": 44.0,
+   "bbox": [
+    -73.4374,
+    43.7532,
+    -72.7418,
+    44.3029
+   ],
+   "coastal": false,
+   "elevation_ft": 370,
+   "zone": "5a",
+   "jan_low_f": 9,
+   "jul_high_f": 80,
+   "record_low_f": -32,
+   "record_high_f": 104,
+   "precip_in": 38.7,
+   "snow_in": 59,
+   "last_frost": "May 5",
+   "first_frost": "Oct 3",
+   "growing_days": 151,
+   "ecoregion": "Eastern Great Lakes Lowlands",
+   "ecoregion_code": "83",
+   "nws_office": "Burlington, VT",
+   "nws_cwa": "BTV",
+   "nwr": [
+    {
+     "call": "KIG60",
+     "freq": "162.400",
+     "same": "050001"
+    },
+    {
+     "call": "WNG671",
+     "freq": "162.500",
+     "same": "050001"
+    },
+    {
+     "call": "KSC43",
+     "freq": "162.450",
+     "same": "050001"
+    }
+   ],
+   "state_em": "Vermont Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 4.9
+  },
+  "Bennington County": {
+   "fips": "50003",
+   "centroid": [
+    43.0353,
+    -73.1115
+   ],
+   "latitude": 43.0,
+   "bbox": [
+    -73.2901,
+    42.7393,
+    -72.8194,
+    43.3145
+   ],
+   "coastal": false,
+   "elevation_ft": 1860,
+   "zone": "5a",
+   "jan_low_f": 8,
+   "jul_high_f": 75,
+   "record_low_f": -22,
+   "record_high_f": 89,
+   "precip_in": 51.0,
+   "snow_in": 130,
+   "last_frost": "May 16",
+   "first_frost": "Oct 2",
+   "growing_days": 140,
+   "ecoregion": "Northeastern Highlands",
+   "ecoregion_code": "58",
+   "nws_office": "Albany, NY",
+   "nws_cwa": "ALY",
+   "nwr": [
+    {
+     "call": "WNG671",
+     "freq": "162.500",
+     "same": "050003"
+    },
+    {
+     "call": "WXM68",
+     "freq": "162.425",
+     "same": "050003"
+    },
+    {
+     "call": "WWF48",
+     "freq": "162.525",
+     "same": "050003"
+    }
+   ],
+   "state_em": "Vermont Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.0
+  },
+  "Caledonia County": {
+   "fips": "50005",
+   "centroid": [
+    44.4688,
+    -72.1122
+   ],
+   "latitude": 44.5,
+   "bbox": [
+    -72.4343,
+    44.1575,
+    -71.8375,
+    44.769
+   ],
+   "coastal": false,
+   "elevation_ft": 1080,
+   "zone": "4b",
+   "jan_low_f": 8,
+   "jul_high_f": 80,
+   "record_low_f": -43,
+   "record_high_f": 101,
+   "precip_in": 39.3,
+   "snow_in": 87,
+   "last_frost": "May 10",
+   "first_frost": "Oct 3",
+   "growing_days": 147,
+   "ecoregion": "Northeastern Highlands",
+   "ecoregion_code": "58",
+   "nws_office": "Burlington, VT",
+   "nws_cwa": "BTV",
+   "nwr": [
+    {
+     "call": "KZZ41",
+     "freq": "162.500",
+     "same": "050005"
+    },
+    {
+     "call": "WWG50",
+     "freq": "162.425",
+     "same": "050005"
+    }
+   ],
+   "state_em": "Vermont Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 4.8
+  },
+  "Chittenden County": {
+   "fips": "50007",
+   "centroid": [
+    44.4633,
+    -73.0694
+   ],
+   "latitude": 44.5,
+   "bbox": [
+    -73.3607,
+    44.1614,
+    -72.8036,
+    44.7229
+   ],
+   "coastal": false,
+   "elevation_ft": 580,
+   "zone": "5a",
+   "jan_low_f": 10,
+   "jul_high_f": 81,
+   "record_low_f": -35,
+   "record_high_f": 100,
+   "precip_in": 42.3,
+   "snow_in": 86,
+   "last_frost": "May 2",
+   "first_frost": "Oct 11",
+   "growing_days": 160,
+   "ecoregion": "Eastern Great Lakes Lowlands",
+   "ecoregion_code": "83",
+   "nws_office": "Burlington, VT",
+   "nws_cwa": "BTV",
+   "nwr": [
+    {
+     "call": "KIG60",
+     "freq": "162.400",
+     "same": "050007"
+    }
+   ],
+   "state_em": "Vermont Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 4.9
+  },
+  "Essex County": {
+   "fips": "50009",
+   "centroid": [
+    44.724,
+    -71.7327
+   ],
+   "latitude": 44.7,
+   "bbox": [
+    -71.9742,
+    44.3474,
+    -71.4651,
+    45.0141
+   ],
+   "coastal": false,
+   "elevation_ft": 1830,
+   "zone": "4b",
+   "jan_low_f": -1,
+   "jul_high_f": 77,
+   "record_low_f": -43,
+   "record_high_f": 91,
+   "precip_in": 44.9,
+   "snow_in": 115,
+   "last_frost": "May 16",
+   "first_frost": "Sep 28",
+   "growing_days": 132,
+   "ecoregion": "Northeastern Highlands",
+   "ecoregion_code": "58",
+   "nws_office": "Burlington, VT",
+   "nws_cwa": "BTV",
+   "nwr": [
+    {
+     "call": "WNG544",
+     "freq": "162.400",
+     "same": "050009"
+    },
+    {
+     "call": "KZZ41",
+     "freq": "162.500",
+     "same": "050009"
+    },
+    {
+     "call": "WWG50",
+     "freq": "162.425",
+     "same": "050009"
+    }
+   ],
+   "state_em": "Vermont Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.0,
+   "sun_hours_jun": 4.8
+  },
+  "Franklin County": {
+   "fips": "50011",
+   "centroid": [
+    44.859,
+    -72.9094
+   ],
+   "latitude": 44.9,
+   "bbox": [
+    -73.259,
+    44.634,
+    -72.5326,
+    45.0166
+   ],
+   "coastal": false,
+   "elevation_ft": 700,
+   "zone": "4b",
+   "jan_low_f": 4,
+   "jul_high_f": 81,
+   "record_low_f": -44,
+   "record_high_f": 99,
+   "precip_in": 40.0,
+   "snow_in": 83,
+   "last_frost": "May 18",
+   "first_frost": "Sep 30",
+   "growing_days": 134,
+   "ecoregion": "Northeastern Highlands",
+   "ecoregion_code": "58",
+   "nws_office": "Burlington, VT",
+   "nws_cwa": "BTV",
+   "nwr": [
+    {
+     "call": "KIG60",
+     "freq": "162.400",
+     "same": "050011"
+    }
+   ],
+   "state_em": "Vermont Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 4.8
+  },
+  "Grand Isle County": {
+   "fips": "50013",
+   "centroid": [
+    44.8018,
+    -73.3008
+   ],
+   "latitude": 44.8,
+   "bbox": [
+    -73.39,
+    44.5633,
+    -73.1913,
+    45.0134
+   ],
+   "coastal": false,
+   "elevation_ft": 130,
+   "zone": "5a",
+   "jan_low_f": 10,
+   "jul_high_f": 82,
+   "record_low_f": -44,
+   "record_high_f": 104,
+   "precip_in": 36.0,
+   "snow_in": 50,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 12",
+   "growing_days": 164,
+   "ecoregion": "Eastern Great Lakes Lowlands",
+   "ecoregion_code": "83",
+   "nws_office": "Burlington, VT",
+   "nws_cwa": "BTV",
+   "nwr": [
+    {
+     "call": "KIG60",
+     "freq": "162.400",
+     "same": "050013"
+    }
+   ],
+   "state_em": "Vermont Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 4.9
+  },
+  "Lamoille County": {
+   "fips": "50015",
+   "centroid": [
+    44.6112,
+    -72.6327
+   ],
+   "latitude": 44.6,
+   "bbox": [
+    -72.9272,
+    44.3982,
+    -72.3679,
+    44.8016
+   ],
+   "coastal": false,
+   "elevation_ft": 800,
+   "zone": "4b",
+   "jan_low_f": 5,
+   "jul_high_f": 79,
+   "record_low_f": -34,
+   "record_high_f": 97,
+   "precip_in": 35.5,
+   "snow_in": 139,
+   "last_frost": "May 20",
+   "first_frost": "Sep 28",
+   "growing_days": 129,
+   "ecoregion": "Northeastern Highlands",
+   "ecoregion_code": "58",
+   "nws_office": "Burlington, VT",
+   "nws_cwa": "BTV",
+   "nwr": [
+    {
+     "call": "KIG60",
+     "freq": "162.400",
+     "same": "050015"
+    }
+   ],
+   "state_em": "Vermont Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 4.8
+  },
+  "Orange County": {
+   "fips": "50017",
+   "centroid": [
+    44.0034,
+    -72.3696
+   ],
+   "latitude": 44.0,
+   "bbox": [
+    -72.7918,
+    43.7723,
+    -72.0316,
+    44.221
+   ],
+   "coastal": false,
+   "elevation_ft": 1790,
+   "zone": "5a",
+   "jan_low_f": 7,
+   "jul_high_f": 76,
+   "record_low_f": -34,
+   "record_high_f": 97,
+   "precip_in": 42.4,
+   "snow_in": 89,
+   "last_frost": "May 9",
+   "first_frost": "Oct 1",
+   "growing_days": 143,
+   "ecoregion": "Northeastern Highlands",
+   "ecoregion_code": "58",
+   "nws_office": "Burlington, VT",
+   "nws_cwa": "BTV",
+   "nwr": [
+    {
+     "call": "WNG546",
+     "freq": "162.525",
+     "same": "050017"
+    },
+    {
+     "call": "WNG545",
+     "freq": "162.550",
+     "same": "050017"
+    },
+    {
+     "call": "KZZ41",
+     "freq": "162.500",
+     "same": "050017"
+    },
+    {
+     "call": "WWG50",
+     "freq": "162.425",
+     "same": "050017"
+    },
+    {
+     "call": "WXM44",
+     "freq": "162.475",
+     "same": "050017"
+    }
+   ],
+   "state_em": "Vermont Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 4.8
+  },
+  "Orleans County": {
+   "fips": "50019",
+   "centroid": [
+    44.8284,
+    -72.2516
+   ],
+   "latitude": 44.8,
+   "bbox": [
+    -72.5781,
+    44.5425,
+    -71.8752,
+    45.0088
+   ],
+   "coastal": false,
+   "elevation_ft": 970,
+   "zone": "4b",
+   "jan_low_f": 4,
+   "jul_high_f": 78,
+   "record_low_f": -40,
+   "record_high_f": 98,
+   "precip_in": 43.8,
+   "snow_in": 99,
+   "last_frost": "May 14",
+   "first_frost": "Sep 30",
+   "growing_days": 138,
+   "ecoregion": "Northeastern Highlands",
+   "ecoregion_code": "58",
+   "nws_office": "Burlington, VT",
+   "nws_cwa": "BTV",
+   "nwr": [
+    {
+     "call": "WWG50",
+     "freq": "162.425",
+     "same": "050019"
+    }
+   ],
+   "state_em": "Vermont Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 4.8
+  },
+  "Rutland County": {
+   "fips": "50021",
+   "centroid": [
+    43.6124,
+    -73.0603
+   ],
+   "latitude": 43.6,
+   "bbox": [
+    -73.4311,
+    43.2916,
+    -72.7009,
+    43.858
+   ],
+   "coastal": false,
+   "elevation_ft": 480,
+   "zone": "5a",
+   "jan_low_f": 8,
+   "jul_high_f": 80,
+   "record_low_f": -36,
+   "record_high_f": 98,
+   "precip_in": 40.3,
+   "snow_in": 75,
+   "last_frost": "May 15",
+   "first_frost": "Sep 27",
+   "growing_days": 132,
+   "ecoregion": "Northeastern Highlands",
+   "ecoregion_code": "58",
+   "nws_office": "Burlington, VT",
+   "nws_cwa": "BTV",
+   "nwr": [
+    {
+     "call": "WNG671",
+     "freq": "162.500",
+     "same": "050021"
+    },
+    {
+     "call": "KSC43",
+     "freq": "162.450",
+     "same": "050021"
+    }
+   ],
+   "state_em": "Vermont Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.0
+  },
+  "Washington County": {
+   "fips": "50023",
+   "centroid": [
+    44.275,
+    -72.6094
+   ],
+   "latitude": 44.3,
+   "bbox": [
+    -72.9529,
+    44.0131,
+    -72.2171,
+    44.5061
+   ],
+   "coastal": false,
+   "elevation_ft": 910,
+   "zone": "5a",
+   "jan_low_f": 7,
+   "jul_high_f": 82,
+   "record_low_f": -34,
+   "record_high_f": 97,
+   "precip_in": 41.4,
+   "snow_in": 76,
+   "last_frost": "May 5",
+   "first_frost": "Oct 9",
+   "growing_days": 157,
+   "ecoregion": "Northeastern Highlands",
+   "ecoregion_code": "58",
+   "nws_office": "Burlington, VT",
+   "nws_cwa": "BTV",
+   "nwr": [
+    {
+     "call": "KIG60",
+     "freq": "162.400",
+     "same": "050023"
+    }
+   ],
+   "state_em": "Vermont Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 4.8
+  },
+  "Windham County": {
+   "fips": "50025",
+   "centroid": [
+    42.9953,
+    -72.7219
+   ],
+   "latitude": 43.0,
+   "bbox": [
+    -73.0081,
+    42.7269,
+    -72.4327,
+    43.2616
+   ],
+   "coastal": false,
+   "elevation_ft": 1400,
+   "zone": "5b",
+   "jan_low_f": 11,
+   "jul_high_f": 75,
+   "record_low_f": -22,
+   "record_high_f": 89,
+   "precip_in": 56.2,
+   "snow_in": 130,
+   "last_frost": "May 14",
+   "first_frost": "Oct 4",
+   "growing_days": 143,
+   "ecoregion": "Northeastern Highlands",
+   "ecoregion_code": "58",
+   "nws_office": "Albany, NY",
+   "nws_cwa": "ALY",
+   "nwr": [
+    {
+     "call": "WXM68",
+     "freq": "162.425",
+     "same": "050025"
+    },
+    {
+     "call": "WWF48",
+     "freq": "162.525",
+     "same": "050025"
+    },
+    {
+     "call": "WNG575",
+     "freq": "162.525",
+     "same": "050025"
+    },
+    {
+     "call": "WXM44",
+     "freq": "162.475",
+     "same": "050025"
+    }
+   ],
+   "state_em": "Vermont Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.0
+  },
+  "Windsor County": {
+   "fips": "50027",
+   "centroid": [
+    43.5724,
+    -72.5988
+   ],
+   "latitude": 43.6,
+   "bbox": [
+    -72.9718,
+    43.2224,
+    -72.2033,
+    43.9617
+   ],
+   "coastal": false,
+   "elevation_ft": 1980,
+   "zone": "5b",
+   "jan_low_f": 8,
+   "jul_high_f": 75,
+   "record_low_f": -22,
+   "record_high_f": 89,
+   "precip_in": 51.0,
+   "snow_in": 91,
+   "last_frost": "May 16",
+   "first_frost": "Oct 2",
+   "growing_days": 140,
+   "ecoregion": "Northeastern Highlands",
+   "ecoregion_code": "58",
+   "nws_office": "Burlington, VT",
+   "nws_cwa": "BTV",
+   "nwr": [
+    {
+     "call": "WNG546",
+     "freq": "162.525",
+     "same": "050027"
+    },
+    {
+     "call": "WNG545",
+     "freq": "162.550",
+     "same": "050027"
+    },
+    {
+     "call": "WXM44",
+     "freq": "162.475",
+     "same": "050027"
+    }
+   ],
+   "state_em": "Vermont Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 4.9
+  }
+ }
+}

@@ -1,0 +1,9612 @@
+{
+ "state": "GA",
+ "state_name": "Georgia",
+ "state_fips": "13",
+ "state_em": "Georgia Emergency Management and Homeland Security Agency",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "CAE": "NWS Columbia, SC",
+  "CHS": "NWS Charleston, SC",
+  "FFC": "NWS Peachtree City, GA",
+  "GSP": "NWS Greenville-Spartanburg, SC",
+  "JAX": "NWS Jacksonville, FL",
+  "TAE": "NWS Tallahassee, FL"
+ },
+ "ecoregions": [
+  "Piedmont",
+  "Southeastern Plains",
+  "Blue Ridge",
+  "Ridge and Valley",
+  "Southwestern Appalachians",
+  "Southern Coastal Plain"
+ ],
+ "counties": {
+  "Appling County": {
+   "fips": "13001",
+   "centroid": [
+    31.7397,
+    -82.2901
+   ],
+   "latitude": 31.7,
+   "bbox": [
+    -82.5507,
+    31.4692,
+    -82.053,
+    31.9662
+   ],
+   "coastal": false,
+   "elevation_ft": 190,
+   "zone": "8b",
+   "jan_low_f": 39,
+   "jul_high_f": 92,
+   "record_low_f": 1,
+   "record_high_f": 106,
+   "precip_in": 45.7,
+   "snow_in": 0,
+   "last_frost": "Mar 17",
+   "first_frost": "Nov 16",
+   "growing_days": 245,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Jacksonville, FL",
+   "nws_cwa": "JAX",
+   "nwr": [
+    {
+     "call": "WXM65",
+     "freq": "162.525",
+     "same": "013001"
+    },
+    {
+     "call": "WXJ28",
+     "freq": "162.450",
+     "same": "013001"
+    },
+    {
+     "call": "WXK75",
+     "freq": "162.475",
+     "same": "013001"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.4
+  },
+  "Atkinson County": {
+   "fips": "13003",
+   "centroid": [
+    31.2968,
+    -82.8782
+   ],
+   "latitude": 31.3,
+   "bbox": [
+    -83.1402,
+    31.183,
+    -82.6291,
+    31.4211
+   ],
+   "coastal": false,
+   "elevation_ft": 210,
+   "zone": "9a",
+   "jan_low_f": 38,
+   "jul_high_f": 92,
+   "record_low_f": 1,
+   "record_high_f": 111,
+   "precip_in": 49.3,
+   "snow_in": 0,
+   "last_frost": "Mar 5",
+   "first_frost": "Nov 26",
+   "growing_days": 267,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Jacksonville, FL",
+   "nws_cwa": "JAX",
+   "nwr": [
+    {
+     "call": "WXK75",
+     "freq": "162.475",
+     "same": "013003"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.4
+  },
+  "Bacon County": {
+   "fips": "13005",
+   "centroid": [
+    31.5502,
+    -82.4514
+   ],
+   "latitude": 31.6,
+   "bbox": [
+    -82.6284,
+    31.4168,
+    -82.227,
+    31.7108
+   ],
+   "coastal": false,
+   "elevation_ft": 140,
+   "zone": "9a",
+   "jan_low_f": 39,
+   "jul_high_f": 93,
+   "record_low_f": -1,
+   "record_high_f": 105,
+   "precip_in": 44.8,
+   "snow_in": 0,
+   "last_frost": "Mar 11",
+   "first_frost": "Nov 20",
+   "growing_days": 256,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Jacksonville, FL",
+   "nws_cwa": "JAX",
+   "nwr": [
+    {
+     "call": "WXJ28",
+     "freq": "162.450",
+     "same": "013005"
+    },
+    {
+     "call": "WXK75",
+     "freq": "162.475",
+     "same": "013005"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.4
+  },
+  "Baker County": {
+   "fips": "13007",
+   "centroid": [
+    31.3196,
+    -84.4549
+   ],
+   "latitude": 31.3,
+   "bbox": [
+    -84.6419,
+    31.0785,
+    -84.1412,
+    31.4547
+   ],
+   "coastal": false,
+   "elevation_ft": 180,
+   "zone": "8b",
+   "jan_low_f": 38,
+   "jul_high_f": 92,
+   "record_low_f": 2,
+   "record_high_f": 107,
+   "precip_in": 52.9,
+   "snow_in": 0,
+   "last_frost": "Mar 11",
+   "first_frost": "Nov 13",
+   "growing_days": 245,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "WXK53",
+     "freq": "162.550",
+     "same": "013007"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.4
+  },
+  "Baldwin County": {
+   "fips": "13009",
+   "centroid": [
+    33.0595,
+    -83.2555
+   ],
+   "latitude": 33.1,
+   "bbox": [
+    -83.429,
+    32.926,
+    -83.0444,
+    33.1903
+   ],
+   "coastal": false,
+   "elevation_ft": 350,
+   "zone": "8b",
+   "jan_low_f": 33,
+   "jul_high_f": 93,
+   "record_low_f": -3,
+   "record_high_f": 110,
+   "precip_in": 48.2,
+   "snow_in": 1,
+   "last_frost": "Mar 25",
+   "first_frost": "Nov 9",
+   "growing_days": 231,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "KXI89",
+     "freq": "162.525",
+     "same": "013009"
+    },
+    {
+     "call": "KXI28",
+     "freq": "162.450",
+     "same": "013009"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.4
+  },
+  "Banks County": {
+   "fips": "13011",
+   "centroid": [
+    34.3519,
+    -83.4984
+   ],
+   "latitude": 34.4,
+   "bbox": [
+    -83.6693,
+    34.1973,
+    -83.3382,
+    34.4911
+   ],
+   "coastal": false,
+   "elevation_ft": 750,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 89,
+   "record_low_f": -5,
+   "record_high_f": 106,
+   "precip_in": 52.1,
+   "snow_in": 1,
+   "last_frost": "Mar 31",
+   "first_frost": "Nov 6",
+   "growing_days": 222,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXK56",
+     "freq": "162.400",
+     "same": "013011"
+    },
+    {
+     "call": "KXI81",
+     "freq": "162.450",
+     "same": "013011"
+    },
+    {
+     "call": "WXJ53",
+     "freq": "162.525",
+     "same": "013011"
+    },
+    {
+     "call": "WWH24",
+     "freq": "162.425",
+     "same": "013011"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.5
+  },
+  "Barrow County": {
+   "fips": "13013",
+   "centroid": [
+    33.992,
+    -83.7123
+   ],
+   "latitude": 34.0,
+   "bbox": [
+    -83.869,
+    33.895,
+    -83.5375,
+    34.1271
+   ],
+   "coastal": false,
+   "elevation_ft": 990,
+   "zone": "8b",
+   "jan_low_f": 32,
+   "jul_high_f": 89,
+   "record_low_f": -8,
+   "record_high_f": 104,
+   "precip_in": 50.9,
+   "snow_in": 0,
+   "last_frost": "Apr 3",
+   "first_frost": "Nov 7",
+   "growing_days": 219,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXK56",
+     "freq": "162.400",
+     "same": "013013"
+    },
+    {
+     "call": "WXJ53",
+     "freq": "162.525",
+     "same": "013013"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.4
+  },
+  "Bartow County": {
+   "fips": "13015",
+   "centroid": [
+    34.2409,
+    -84.8382
+   ],
+   "latitude": 34.2,
+   "bbox": [
+    -85.0471,
+    34.0753,
+    -84.645,
+    34.413
+   ],
+   "coastal": false,
+   "elevation_ft": 780,
+   "zone": "8a",
+   "jan_low_f": 28,
+   "jul_high_f": 91,
+   "record_low_f": -9,
+   "record_high_f": 108,
+   "precip_in": 51.9,
+   "snow_in": 0,
+   "last_frost": "Apr 11",
+   "first_frost": "Oct 26",
+   "growing_days": 197,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WWH23",
+     "freq": "162.425",
+     "same": "013015"
+    },
+    {
+     "call": "WXK52",
+     "freq": "162.400",
+     "same": "013015"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.4
+  },
+  "Ben Hill County": {
+   "fips": "13017",
+   "centroid": [
+    31.7408,
+    -83.1472
+   ],
+   "latitude": 31.7,
+   "bbox": [
+    -83.4838,
+    31.6516,
+    -82.9955,
+    31.8516
+   ],
+   "coastal": false,
+   "elevation_ft": 270,
+   "zone": "9a",
+   "jan_low_f": 39,
+   "jul_high_f": 92,
+   "record_low_f": -1,
+   "record_high_f": 106,
+   "precip_in": 47.6,
+   "snow_in": 0,
+   "last_frost": "Mar 2",
+   "first_frost": "Nov 25",
+   "growing_days": 268,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "KXI77",
+     "freq": "162.400",
+     "same": "013017"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.4
+  },
+  "Berrien County": {
+   "fips": "13019",
+   "centroid": [
+    31.2887,
+    -83.2279
+   ],
+   "latitude": 31.3,
+   "bbox": [
+    -83.4388,
+    31.0256,
+    -83.0345,
+    31.476
+   ],
+   "coastal": false,
+   "elevation_ft": 250,
+   "zone": "9a",
+   "jan_low_f": 37,
+   "jul_high_f": 90,
+   "record_low_f": 0,
+   "record_high_f": 106,
+   "precip_in": 48.2,
+   "snow_in": 0,
+   "last_frost": "Mar 11",
+   "first_frost": "Nov 19",
+   "growing_days": 254,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "WWH31",
+     "freq": "162.500",
+     "same": "013019"
+    },
+    {
+     "call": "WXK75",
+     "freq": "162.475",
+     "same": "013019"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.4
+  },
+  "Bibb County": {
+   "fips": "13021",
+   "centroid": [
+    32.809,
+    -83.6941
+   ],
+   "latitude": 32.8,
+   "bbox": [
+    -83.893,
+    32.6613,
+    -83.4897,
+    32.9529
+   ],
+   "coastal": false,
+   "elevation_ft": 370,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 94,
+   "record_low_f": -6,
+   "record_high_f": 108,
+   "precip_in": 46.9,
+   "snow_in": 0,
+   "last_frost": "Mar 21",
+   "first_frost": "Nov 10",
+   "growing_days": 235,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "KXI89",
+     "freq": "162.525",
+     "same": "013021"
+    },
+    {
+     "call": "WXK71",
+     "freq": "162.475",
+     "same": "013021"
+    },
+    {
+     "call": "WXJ31",
+     "freq": "162.500",
+     "same": "013021"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.4
+  },
+  "Bleckley County": {
+   "fips": "13023",
+   "centroid": [
+    32.4354,
+    -83.3317
+   ],
+   "latitude": 32.4,
+   "bbox": [
+    -83.4983,
+    32.2723,
+    -83.139,
+    32.5842
+   ],
+   "coastal": false,
+   "elevation_ft": 400,
+   "zone": "8b",
+   "jan_low_f": 35,
+   "jul_high_f": 92,
+   "record_low_f": -3,
+   "record_high_f": 110,
+   "precip_in": 48.5,
+   "snow_in": 0,
+   "last_frost": "Mar 20",
+   "first_frost": "Nov 12",
+   "growing_days": 239,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "KXI77",
+     "freq": "162.400",
+     "same": "013023"
+    },
+    {
+     "call": "WXK71",
+     "freq": "162.475",
+     "same": "013023"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.4
+  },
+  "Brantley County": {
+   "fips": "13025",
+   "centroid": [
+    31.1973,
+    -81.983
+   ],
+   "latitude": 31.2,
+   "bbox": [
+    -82.2846,
+    31.0106,
+    -81.7316,
+    31.3711
+   ],
+   "coastal": true,
+   "elevation_ft": 70,
+   "zone": "9a",
+   "jan_low_f": 37,
+   "jul_high_f": 91,
+   "record_low_f": 3,
+   "record_high_f": 104,
+   "precip_in": 50.4,
+   "snow_in": 0,
+   "last_frost": "Mar 25",
+   "first_frost": "Nov 15",
+   "growing_days": 236,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Jacksonville, FL",
+   "nws_cwa": "JAX",
+   "nwr": [
+    {
+     "call": "WWH39",
+     "freq": "162.425",
+     "same": "013025"
+    },
+    {
+     "call": "WXJ28",
+     "freq": "162.450",
+     "same": "013025"
+    },
+    {
+     "call": "WXK75",
+     "freq": "162.475",
+     "same": "013025"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.4
+  },
+  "Brooks County": {
+   "fips": "13027",
+   "centroid": [
+    30.8229,
+    -83.5819
+   ],
+   "latitude": 30.8,
+   "bbox": [
+    -83.7439,
+    30.6352,
+    -83.3156,
+    31.0779
+   ],
+   "coastal": false,
+   "elevation_ft": 170,
+   "zone": "9a",
+   "jan_low_f": 37,
+   "jul_high_f": 92,
+   "record_low_f": 2,
+   "record_high_f": 108,
+   "precip_in": 48.4,
+   "snow_in": 0,
+   "last_frost": "Mar 11",
+   "first_frost": "Nov 18",
+   "growing_days": 253,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "WXK53",
+     "freq": "162.550",
+     "same": "013027"
+    },
+    {
+     "call": "KIH24",
+     "freq": "162.400",
+     "same": "013027"
+    },
+    {
+     "call": "WWH31",
+     "freq": "162.500",
+     "same": "013027"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.1,
+   "sun_hours_jun": 5.2
+  },
+  "Bryan County": {
+   "fips": "13029",
+   "centroid": [
+    32.018,
+    -81.4385
+   ],
+   "latitude": 32.0,
+   "bbox": [
+    -81.7818,
+    31.7207,
+    -81.1383,
+    32.241
+   ],
+   "coastal": true,
+   "elevation_ft": 20,
+   "zone": "9a",
+   "jan_low_f": 40,
+   "jul_high_f": 92,
+   "record_low_f": 3,
+   "record_high_f": 105,
+   "precip_in": 48.1,
+   "snow_in": 0,
+   "last_frost": "Mar 2",
+   "first_frost": "Nov 30",
+   "growing_days": 270,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Charleston, SC",
+   "nws_cwa": "CHS",
+   "nwr": [
+    {
+     "call": "KEC85",
+     "freq": "162.400",
+     "same": "013029"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 5.5
+  },
+  "Bulloch County": {
+   "fips": "13031",
+   "centroid": [
+    32.3945,
+    -81.7414
+   ],
+   "latitude": 32.4,
+   "bbox": [
+    -82.0303,
+    32.1538,
+    -81.4334,
+    32.6533
+   ],
+   "coastal": false,
+   "elevation_ft": 190,
+   "zone": "9a",
+   "jan_low_f": 38,
+   "jul_high_f": 93,
+   "record_low_f": 1,
+   "record_high_f": 109,
+   "precip_in": 47.0,
+   "snow_in": 0,
+   "last_frost": "Mar 7",
+   "first_frost": "Nov 21",
+   "growing_days": 257,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Charleston, SC",
+   "nws_cwa": "CHS",
+   "nwr": [
+    {
+     "call": "WWH25",
+     "freq": "162.425",
+     "same": "013031"
+    },
+    {
+     "call": "KEC85",
+     "freq": "162.400",
+     "same": "013031"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 5.5
+  },
+  "Burke County": {
+   "fips": "13033",
+   "centroid": [
+    33.0602,
+    -82.0002
+   ],
+   "latitude": 33.1,
+   "bbox": [
+    -82.3161,
+    32.8041,
+    -81.5421,
+    33.2971
+   ],
+   "coastal": false,
+   "elevation_ft": 300,
+   "zone": "8b",
+   "jan_low_f": 34,
+   "jul_high_f": 92,
+   "record_low_f": -1,
+   "record_high_f": 110,
+   "precip_in": 48.2,
+   "snow_in": 0,
+   "last_frost": "Mar 21",
+   "first_frost": "Nov 9",
+   "growing_days": 233,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Columbia, SC",
+   "nws_cwa": "CAE",
+   "nwr": [
+    {
+     "call": "WXK54",
+     "freq": "162.550",
+     "same": "013033"
+    },
+    {
+     "call": "KHC29",
+     "freq": "162.500",
+     "same": "013033"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.5
+  },
+  "Butts County": {
+   "fips": "13035",
+   "centroid": [
+    33.2904,
+    -83.9582
+   ],
+   "latitude": 33.3,
+   "bbox": [
+    -84.1238,
+    33.1807,
+    -83.808,
+    33.4505
+   ],
+   "coastal": false,
+   "elevation_ft": 710,
+   "zone": "8b",
+   "jan_low_f": 32,
+   "jul_high_f": 92,
+   "record_low_f": -7,
+   "record_high_f": 109,
+   "precip_in": 51.1,
+   "snow_in": 1,
+   "last_frost": "Mar 31",
+   "first_frost": "Nov 6",
+   "growing_days": 220,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "KXI89",
+     "freq": "162.525",
+     "same": "013035"
+    },
+    {
+     "call": "WXJ31",
+     "freq": "162.500",
+     "same": "013035"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.4
+  },
+  "Calhoun County": {
+   "fips": "13037",
+   "centroid": [
+    31.5213,
+    -84.6263
+   ],
+   "latitude": 31.5,
+   "bbox": [
+    -84.8281,
+    31.4279,
+    -84.4132,
+    31.6437
+   ],
+   "coastal": false,
+   "elevation_ft": 220,
+   "zone": "8b",
+   "jan_low_f": 38,
+   "jul_high_f": 92,
+   "record_low_f": -2,
+   "record_high_f": 105,
+   "precip_in": 52.9,
+   "snow_in": 0,
+   "last_frost": "Mar 11",
+   "first_frost": "Nov 13",
+   "growing_days": 245,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "KZZ70",
+     "freq": "162.525",
+     "same": "013037"
+    },
+    {
+     "call": "WXK53",
+     "freq": "162.550",
+     "same": "013037"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.4
+  },
+  "Camden County": {
+   "fips": "13039",
+   "centroid": [
+    30.9134,
+    -81.642
+   ],
+   "latitude": 30.9,
+   "bbox": [
+    -81.9361,
+    30.7109,
+    -81.4022,
+    31.1692
+   ],
+   "coastal": true,
+   "elevation_ft": 20,
+   "zone": "9a",
+   "jan_low_f": 38,
+   "jul_high_f": 91,
+   "record_low_f": 5,
+   "record_high_f": 106,
+   "precip_in": 54.6,
+   "snow_in": 0,
+   "last_frost": "Mar 14",
+   "first_frost": "Nov 25",
+   "growing_days": 257,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Jacksonville, FL",
+   "nws_cwa": "JAX",
+   "nwr": [
+    {
+     "call": "WWH39",
+     "freq": "162.425",
+     "same": "013039"
+    },
+    {
+     "call": "KHB39",
+     "freq": "162.550",
+     "same": "013039"
+    },
+    {
+     "call": "WXK75",
+     "freq": "162.475",
+     "same": "013039"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.3
+  },
+  "Candler County": {
+   "fips": "13043",
+   "centroid": [
+    32.404,
+    -82.0713
+   ],
+   "latitude": 32.4,
+   "bbox": [
+    -82.2543,
+    32.27,
+    -81.92,
+    32.5597
+   ],
+   "coastal": false,
+   "elevation_ft": 200,
+   "zone": "8b",
+   "jan_low_f": 39,
+   "jul_high_f": 92,
+   "record_low_f": -2,
+   "record_high_f": 105,
+   "precip_in": 47.2,
+   "snow_in": 0,
+   "last_frost": "Mar 2",
+   "first_frost": "Nov 27",
+   "growing_days": 269,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Charleston, SC",
+   "nws_cwa": "CHS",
+   "nwr": [
+    {
+     "call": "WWH25",
+     "freq": "162.425",
+     "same": "013043"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.4
+  },
+  "Carroll County": {
+   "fips": "13045",
+   "centroid": [
+    33.5822,
+    -85.0805
+   ],
+   "latitude": 33.6,
+   "bbox": [
+    -85.3383,
+    33.4256,
+    -84.8092,
+    33.8122
+   ],
+   "coastal": false,
+   "elevation_ft": 1080,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 90,
+   "record_low_f": -9,
+   "record_high_f": 103,
+   "precip_in": 53.5,
+   "snow_in": 1,
+   "last_frost": "Mar 28",
+   "first_frost": "Nov 5",
+   "growing_days": 222,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "KIH58",
+     "freq": "162.475",
+     "same": "013045"
+    },
+    {
+     "call": "WWH23",
+     "freq": "162.425",
+     "same": "013045"
+    },
+    {
+     "call": "KXI76",
+     "freq": "162.450",
+     "same": "013045"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.3
+  },
+  "Catoosa County": {
+   "fips": "13047",
+   "centroid": [
+    34.9002,
+    -85.1394
+   ],
+   "latitude": 34.9,
+   "bbox": [
+    -85.2651,
+    34.7675,
+    -84.9797,
+    34.9876
+   ],
+   "coastal": false,
+   "elevation_ft": 830,
+   "zone": "8a",
+   "jan_low_f": 29,
+   "jul_high_f": 89,
+   "record_low_f": -13,
+   "record_high_f": 106,
+   "precip_in": 56.5,
+   "snow_in": 1,
+   "last_frost": "Apr 6",
+   "first_frost": "Oct 30",
+   "growing_days": 205,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXK52",
+     "freq": "162.400",
+     "same": "013047"
+    },
+    {
+     "call": "WXK48",
+     "freq": "162.550",
+     "same": "013047"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 5.4
+  },
+  "Charlton County": {
+   "fips": "13049",
+   "centroid": [
+    30.7799,
+    -82.1396
+   ],
+   "latitude": 30.8,
+   "bbox": [
+    -82.4204,
+    30.357,
+    -81.8923,
+    31.0756
+   ],
+   "coastal": true,
+   "elevation_ft": 120,
+   "zone": "9a",
+   "jan_low_f": 44,
+   "jul_high_f": 94,
+   "record_low_f": 5,
+   "record_high_f": 106,
+   "precip_in": 53.2,
+   "snow_in": 0,
+   "last_frost": "Feb 26",
+   "first_frost": "Dec 7",
+   "growing_days": 285,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Jacksonville, FL",
+   "nws_cwa": "JAX",
+   "nwr": [
+    {
+     "call": "KHB39",
+     "freq": "162.550",
+     "same": "013049"
+    },
+    {
+     "call": "WXK75",
+     "freq": "162.475",
+     "same": "013049"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.2
+  },
+  "Chatham County": {
+   "fips": "13051",
+   "centroid": [
+    31.9804,
+    -81.0852
+   ],
+   "latitude": 32.0,
+   "bbox": [
+    -81.3915,
+    31.7209,
+    -80.8401,
+    32.2376
+   ],
+   "coastal": true,
+   "elevation_ft": 20,
+   "zone": "9a",
+   "jan_low_f": 40,
+   "jul_high_f": 92,
+   "record_low_f": 3,
+   "record_high_f": 105,
+   "precip_in": 48.1,
+   "snow_in": 0,
+   "last_frost": "Mar 2",
+   "first_frost": "Nov 30",
+   "growing_days": 270,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Charleston, SC",
+   "nws_cwa": "CHS",
+   "nwr": [
+    {
+     "call": "WXJ23",
+     "freq": "162.450",
+     "same": "013051"
+    },
+    {
+     "call": "KEC85",
+     "freq": "162.400",
+     "same": "013051"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 2,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.4
+  },
+  "Chattahoochee County": {
+   "fips": "13053",
+   "centroid": [
+    32.3474,
+    -84.788
+   ],
+   "latitude": 32.3,
+   "bbox": [
+    -85.0081,
+    32.2209,
+    -84.6376,
+    32.5349
+   ],
+   "coastal": false,
+   "elevation_ft": 310,
+   "zone": "8b",
+   "jan_low_f": 32,
+   "jul_high_f": 93,
+   "record_low_f": 4,
+   "record_high_f": 107,
+   "precip_in": 48.8,
+   "snow_in": 0,
+   "last_frost": "Mar 26",
+   "first_frost": "Nov 8",
+   "growing_days": 228,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXM32",
+     "freq": "162.400",
+     "same": "013053"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.3
+  },
+  "Chattooga County": {
+   "fips": "13055",
+   "centroid": [
+    34.4742,
+    -85.3453
+   ],
+   "latitude": 34.5,
+   "bbox": [
+    -85.5272,
+    34.2861,
+    -85.1085,
+    34.5893
+   ],
+   "coastal": false,
+   "elevation_ft": 660,
+   "zone": "8a",
+   "jan_low_f": 29,
+   "jul_high_f": 90,
+   "record_low_f": -5,
+   "record_high_f": 108,
+   "precip_in": 58.3,
+   "snow_in": 0,
+   "last_frost": "Apr 7",
+   "first_frost": "Oct 30",
+   "growing_days": 204,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXK48",
+     "freq": "162.550",
+     "same": "013055"
+    },
+    {
+     "call": "WXJ72",
+     "freq": "162.450",
+     "same": "013055"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 5.4
+  },
+  "Cherokee County": {
+   "fips": "13057",
+   "centroid": [
+    34.2443,
+    -84.4751
+   ],
+   "latitude": 34.2,
+   "bbox": [
+    -84.6591,
+    34.0735,
+    -84.2574,
+    34.4125
+   ],
+   "coastal": false,
+   "elevation_ft": 880,
+   "zone": "8a",
+   "jan_low_f": 29,
+   "jul_high_f": 88,
+   "record_low_f": -6,
+   "record_high_f": 106,
+   "precip_in": 51.8,
+   "snow_in": 0,
+   "last_frost": "Apr 2",
+   "first_frost": "Nov 4",
+   "growing_days": 215,
+   "ecoregion": "Blue Ridge",
+   "ecoregion_code": "66",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "KEC80",
+     "freq": "162.550",
+     "same": "013057"
+    },
+    {
+     "call": "WXK52",
+     "freq": "162.400",
+     "same": "013057"
+    },
+    {
+     "call": "WXJ53",
+     "freq": "162.525",
+     "same": "013057"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.4
+  },
+  "Clarke County": {
+   "fips": "13059",
+   "centroid": [
+    33.9522,
+    -83.3672
+   ],
+   "latitude": 34.0,
+   "bbox": [
+    -83.5375,
+    33.8482,
+    -83.2408,
+    34.0405
+   ],
+   "coastal": false,
+   "elevation_ft": 640,
+   "zone": "8a",
+   "jan_low_f": 34,
+   "jul_high_f": 92,
+   "record_low_f": -4,
+   "record_high_f": 109,
+   "precip_in": 49.0,
+   "snow_in": 1,
+   "last_frost": "Mar 23",
+   "first_frost": "Nov 10",
+   "growing_days": 232,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXK56",
+     "freq": "162.400",
+     "same": "013059"
+    },
+    {
+     "call": "WXJ53",
+     "freq": "162.525",
+     "same": "013059"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.4
+  },
+  "Clay County": {
+   "fips": "13061",
+   "centroid": [
+    31.6198,
+    -84.9926
+   ],
+   "latitude": 31.6,
+   "bbox": [
+    -85.1401,
+    31.4859,
+    -84.8003,
+    31.781
+   ],
+   "coastal": false,
+   "elevation_ft": 380,
+   "zone": "8b",
+   "jan_low_f": 38,
+   "jul_high_f": 91,
+   "record_low_f": -2,
+   "record_high_f": 105,
+   "precip_in": 57.7,
+   "snow_in": 0,
+   "last_frost": "Mar 13",
+   "first_frost": "Nov 21",
+   "growing_days": 256,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "KZZ70",
+     "freq": "162.525",
+     "same": "013061"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.4
+  },
+  "Clayton County": {
+   "fips": "13063",
+   "centroid": [
+    33.5522,
+    -84.413
+   ],
+   "latitude": 33.6,
+   "bbox": [
+    -84.4589,
+    33.3523,
+    -84.2436,
+    33.6488
+   ],
+   "coastal": false,
+   "elevation_ft": 950,
+   "zone": "8b",
+   "jan_low_f": 32,
+   "jul_high_f": 90,
+   "record_low_f": 5,
+   "record_high_f": 104,
+   "precip_in": 52.9,
+   "snow_in": 1,
+   "last_frost": "Mar 25",
+   "first_frost": "Nov 12",
+   "growing_days": 235,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "KEC80",
+     "freq": "162.550",
+     "same": "013063"
+    },
+    {
+     "call": "WXJ31",
+     "freq": "162.500",
+     "same": "013063"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.3
+  },
+  "Clinch County": {
+   "fips": "13065",
+   "centroid": [
+    30.9177,
+    -82.7026
+   ],
+   "latitude": 30.9,
+   "bbox": [
+    -82.9719,
+    30.5819,
+    -82.4188,
+    31.1847
+   ],
+   "coastal": false,
+   "elevation_ft": 160,
+   "zone": "9a",
+   "jan_low_f": 38,
+   "jul_high_f": 92,
+   "record_low_f": 3,
+   "record_high_f": 104,
+   "precip_in": 49.3,
+   "snow_in": 0,
+   "last_frost": "Mar 11",
+   "first_frost": "Nov 17",
+   "growing_days": 253,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Jacksonville, FL",
+   "nws_cwa": "JAX",
+   "nwr": [
+    {
+     "call": "WXK75",
+     "freq": "162.475",
+     "same": "013065"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.2
+  },
+  "Cobb County": {
+   "fips": "13067",
+   "centroid": [
+    33.9399,
+    -84.5741
+   ],
+   "latitude": 33.9,
+   "bbox": [
+    -84.7396,
+    33.7432,
+    -84.3753,
+    34.0814
+   ],
+   "coastal": false,
+   "elevation_ft": 1060,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 84,
+   "record_low_f": -12,
+   "record_high_f": 104,
+   "precip_in": 56.2,
+   "snow_in": 1,
+   "last_frost": "Mar 27",
+   "first_frost": "Nov 7",
+   "growing_days": 225,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "KEC80",
+     "freq": "162.550",
+     "same": "013067"
+    },
+    {
+     "call": "WWH23",
+     "freq": "162.425",
+     "same": "013067"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.3
+  },
+  "Coffee County": {
+   "fips": "13069",
+   "centroid": [
+    31.5492,
+    -82.8449
+   ],
+   "latitude": 31.5,
+   "bbox": [
+    -83.1511,
+    31.3639,
+    -82.5963,
+    31.8162
+   ],
+   "coastal": false,
+   "elevation_ft": 260,
+   "zone": "9a",
+   "jan_low_f": 38,
+   "jul_high_f": 92,
+   "record_low_f": 1,
+   "record_high_f": 111,
+   "precip_in": 47.5,
+   "snow_in": 0,
+   "last_frost": "Mar 5",
+   "first_frost": "Nov 26",
+   "growing_days": 267,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Jacksonville, FL",
+   "nws_cwa": "JAX",
+   "nwr": [
+    {
+     "call": "WXK75",
+     "freq": "162.475",
+     "same": "013069"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.4
+  },
+  "Colquitt County": {
+   "fips": "13071",
+   "centroid": [
+    31.1897,
+    -83.7698
+   ],
+   "latitude": 31.2,
+   "bbox": [
+    -84.0139,
+    31.0259,
+    -83.5059,
+    31.3356
+   ],
+   "coastal": false,
+   "elevation_ft": 280,
+   "zone": "9a",
+   "jan_low_f": 39,
+   "jul_high_f": 90,
+   "record_low_f": 0,
+   "record_high_f": 105,
+   "precip_in": 50.0,
+   "snow_in": 0,
+   "last_frost": "Mar 6",
+   "first_frost": "Nov 27",
+   "growing_days": 268,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "WXK53",
+     "freq": "162.550",
+     "same": "013071"
+    },
+    {
+     "call": "WWH31",
+     "freq": "162.500",
+     "same": "013071"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.4
+  },
+  "Columbia County": {
+   "fips": "13073",
+   "centroid": [
+    33.5521,
+    -82.2496
+   ],
+   "latitude": 33.6,
+   "bbox": [
+    -82.4425,
+    33.3545,
+    -82.0286,
+    33.7005
+   ],
+   "coastal": false,
+   "elevation_ft": 390,
+   "zone": "8b",
+   "jan_low_f": 32,
+   "jul_high_f": 92,
+   "record_low_f": -4,
+   "record_high_f": 107,
+   "precip_in": 46.9,
+   "snow_in": 0,
+   "last_frost": "Mar 27",
+   "first_frost": "Nov 7",
+   "growing_days": 226,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Columbia, SC",
+   "nws_cwa": "CAE",
+   "nwr": [
+    {
+     "call": "WNG627",
+     "freq": "162.450",
+     "same": "013073"
+    },
+    {
+     "call": "WXK54",
+     "freq": "162.550",
+     "same": "013073"
+    },
+    {
+     "call": "KHC28",
+     "freq": "162.425",
+     "same": "013073"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.5
+  },
+  "Cook County": {
+   "fips": "13075",
+   "centroid": [
+    31.1525,
+    -83.4294
+   ],
+   "latitude": 31.2,
+   "bbox": [
+    -83.5755,
+    31.0277,
+    -83.2801,
+    31.3496
+   ],
+   "coastal": false,
+   "elevation_ft": 230,
+   "zone": "9a",
+   "jan_low_f": 39,
+   "jul_high_f": 90,
+   "record_low_f": 0,
+   "record_high_f": 105,
+   "precip_in": 50.0,
+   "snow_in": 0,
+   "last_frost": "Mar 6",
+   "first_frost": "Nov 27",
+   "growing_days": 268,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "WXK53",
+     "freq": "162.550",
+     "same": "013075"
+    },
+    {
+     "call": "WWH31",
+     "freq": "162.500",
+     "same": "013075"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.4
+  },
+  "Coweta County": {
+   "fips": "13077",
+   "centroid": [
+    33.3529,
+    -84.7621
+   ],
+   "latitude": 33.4,
+   "bbox": [
+    -85.0154,
+    33.19,
+    -84.4974,
+    33.5121
+   ],
+   "coastal": false,
+   "elevation_ft": 930,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 90,
+   "record_low_f": -8,
+   "record_high_f": 108,
+   "precip_in": 52.5,
+   "snow_in": 2,
+   "last_frost": "Apr 3",
+   "first_frost": "Nov 2",
+   "growing_days": 214,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "KXI76",
+     "freq": "162.450",
+     "same": "013077"
+    },
+    {
+     "call": "WXJ31",
+     "freq": "162.500",
+     "same": "013077"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.3
+  },
+  "Crawford County": {
+   "fips": "13079",
+   "centroid": [
+    32.7094,
+    -83.9792
+   ],
+   "latitude": 32.7,
+   "bbox": [
+    -84.2026,
+    32.5305,
+    -83.7202,
+    32.8571
+   ],
+   "coastal": false,
+   "elevation_ft": 500,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 94,
+   "record_low_f": -6,
+   "record_high_f": 108,
+   "precip_in": 46.9,
+   "snow_in": 0,
+   "last_frost": "Mar 21",
+   "first_frost": "Nov 10",
+   "growing_days": 235,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXK71",
+     "freq": "162.475",
+     "same": "013079"
+    },
+    {
+     "call": "WXJ31",
+     "freq": "162.500",
+     "same": "013079"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.4
+  },
+  "Crisp County": {
+   "fips": "13081",
+   "centroid": [
+    31.9203,
+    -83.7565
+   ],
+   "latitude": 31.9,
+   "bbox": [
+    -83.9614,
+    31.8035,
+    -83.6095,
+    32.0309
+   ],
+   "coastal": false,
+   "elevation_ft": 330,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 93,
+   "record_low_f": -3,
+   "record_high_f": 106,
+   "precip_in": 50.1,
+   "snow_in": 0,
+   "last_frost": "Mar 13",
+   "first_frost": "Nov 14",
+   "growing_days": 248,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXJ30",
+     "freq": "162.425",
+     "same": "013081"
+    },
+    {
+     "call": "KWN50",
+     "freq": "162.450",
+     "same": "013081"
+    },
+    {
+     "call": "KXI77",
+     "freq": "162.400",
+     "same": "013081"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.4
+  },
+  "Dade County": {
+   "fips": "13083",
+   "centroid": [
+    34.8524,
+    -85.5062
+   ],
+   "latitude": 34.9,
+   "bbox": [
+    -85.6043,
+    34.6245,
+    -85.3638,
+    34.9847
+   ],
+   "coastal": false,
+   "elevation_ft": 760,
+   "zone": "8a",
+   "jan_low_f": 33,
+   "jul_high_f": 89,
+   "record_low_f": -13,
+   "record_high_f": 106,
+   "precip_in": 57.0,
+   "snow_in": 2,
+   "last_frost": "Mar 25",
+   "first_frost": "Nov 9",
+   "growing_days": 232,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXK48",
+     "freq": "162.550",
+     "same": "013083"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 5.4
+  },
+  "Dawson County": {
+   "fips": "13085",
+   "centroid": [
+    34.4426,
+    -84.1733
+   ],
+   "latitude": 34.4,
+   "bbox": [
+    -84.346,
+    34.3338,
+    -83.9577,
+    34.6167
+   ],
+   "coastal": false,
+   "elevation_ft": 1460,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 84,
+   "record_low_f": -14,
+   "record_high_f": 103,
+   "precip_in": 58.6,
+   "snow_in": 2,
+   "last_frost": "Mar 31",
+   "first_frost": "Nov 5",
+   "growing_days": 221,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXJ53",
+     "freq": "162.525",
+     "same": "013085"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.4
+  },
+  "Decatur County": {
+   "fips": "13087",
+   "centroid": [
+    30.8806,
+    -84.5839
+   ],
+   "latitude": 30.9,
+   "bbox": [
+    -84.8713,
+    30.69,
+    -84.3758,
+    31.0795
+   ],
+   "coastal": false,
+   "elevation_ft": 120,
+   "zone": "9a",
+   "jan_low_f": 38,
+   "jul_high_f": 93,
+   "record_low_f": 3,
+   "record_high_f": 105,
+   "precip_in": 56.9,
+   "snow_in": 0,
+   "last_frost": "Mar 14",
+   "first_frost": "Nov 17",
+   "growing_days": 250,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "KZZ70",
+     "freq": "162.525",
+     "same": "013087"
+    },
+    {
+     "call": "WXK53",
+     "freq": "162.550",
+     "same": "013087"
+    },
+    {
+     "call": "WNG633",
+     "freq": "162.425",
+     "same": "013087"
+    },
+    {
+     "call": "KIH24",
+     "freq": "162.400",
+     "same": "013087"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 5.2
+  },
+  "DeKalb County": {
+   "fips": "13089",
+   "centroid": [
+    33.7707,
+    -84.2263
+   ],
+   "latitude": 33.8,
+   "bbox": [
+    -84.3502,
+    33.6149,
+    -84.0237,
+    33.9703
+   ],
+   "coastal": false,
+   "elevation_ft": 860,
+   "zone": "8a",
+   "jan_low_f": 33,
+   "jul_high_f": 89,
+   "record_low_f": -8,
+   "record_high_f": 106,
+   "precip_in": 51.4,
+   "snow_in": 0,
+   "last_frost": "Mar 25",
+   "first_frost": "Nov 9",
+   "growing_days": 228,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "KEC80",
+     "freq": "162.550",
+     "same": "013089"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.3
+  },
+  "Dodge County": {
+   "fips": "13091",
+   "centroid": [
+    32.1644,
+    -83.1679
+   ],
+   "latitude": 32.2,
+   "bbox": [
+    -83.3735,
+    31.9006,
+    -82.8718,
+    32.4517
+   ],
+   "coastal": false,
+   "elevation_ft": 280,
+   "zone": "8b",
+   "jan_low_f": 38,
+   "jul_high_f": 91,
+   "record_low_f": -2,
+   "record_high_f": 110,
+   "precip_in": 47.0,
+   "snow_in": 0,
+   "last_frost": "Mar 5",
+   "first_frost": "Nov 24",
+   "growing_days": 263,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "KXI77",
+     "freq": "162.400",
+     "same": "013091"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.4
+  },
+  "Dooly County": {
+   "fips": "13093",
+   "centroid": [
+    32.152,
+    -83.8072
+   ],
+   "latitude": 32.2,
+   "bbox": [
+    -84.0326,
+    32.0273,
+    -83.6062,
+    32.2919
+   ],
+   "coastal": false,
+   "elevation_ft": 360,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 93,
+   "record_low_f": -3,
+   "record_high_f": 106,
+   "precip_in": 50.1,
+   "snow_in": 0,
+   "last_frost": "Mar 13",
+   "first_frost": "Nov 14",
+   "growing_days": 248,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXJ30",
+     "freq": "162.425",
+     "same": "013093"
+    },
+    {
+     "call": "KXI77",
+     "freq": "162.400",
+     "same": "013093"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.4
+  },
+  "Dougherty County": {
+   "fips": "13095",
+   "centroid": [
+    31.5326,
+    -84.209
+   ],
+   "latitude": 31.5,
+   "bbox": [
+    -84.4575,
+    31.4359,
+    -83.9816,
+    31.6501
+   ],
+   "coastal": false,
+   "elevation_ft": 190,
+   "zone": "9a",
+   "jan_low_f": 39,
+   "jul_high_f": 93,
+   "record_low_f": 12,
+   "record_high_f": 106,
+   "precip_in": 46.6,
+   "snow_in": 0,
+   "last_frost": "Mar 8",
+   "first_frost": "Nov 21",
+   "growing_days": 260,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "KWN50",
+     "freq": "162.450",
+     "same": "013095"
+    },
+    {
+     "call": "WXK53",
+     "freq": "162.550",
+     "same": "013095"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.4
+  },
+  "Douglas County": {
+   "fips": "13097",
+   "centroid": [
+    33.7012,
+    -84.7673
+   ],
+   "latitude": 33.7,
+   "bbox": [
+    -84.911,
+    33.5733,
+    -84.5781,
+    33.806
+   ],
+   "coastal": false,
+   "elevation_ft": 1180,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 84,
+   "record_low_f": -8,
+   "record_high_f": 106,
+   "precip_in": 56.2,
+   "snow_in": 1,
+   "last_frost": "Mar 27",
+   "first_frost": "Nov 7",
+   "growing_days": 225,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "KEC80",
+     "freq": "162.550",
+     "same": "013097"
+    },
+    {
+     "call": "WWH23",
+     "freq": "162.425",
+     "same": "013097"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.3
+  },
+  "Early County": {
+   "fips": "13099",
+   "centroid": [
+    31.3242,
+    -84.9067
+   ],
+   "latitude": 31.3,
+   "bbox": [
+    -85.1145,
+    31.0726,
+    -84.6276,
+    31.5186
+   ],
+   "coastal": false,
+   "elevation_ft": 220,
+   "zone": "9a",
+   "jan_low_f": 39,
+   "jul_high_f": 91,
+   "record_low_f": 0,
+   "record_high_f": 108,
+   "precip_in": 56.9,
+   "snow_in": 0,
+   "last_frost": "Mar 6",
+   "first_frost": "Nov 23",
+   "growing_days": 264,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "KZZ70",
+     "freq": "162.525",
+     "same": "013099"
+    },
+    {
+     "call": "WXK53",
+     "freq": "162.550",
+     "same": "013099"
+    },
+    {
+     "call": "WNG633",
+     "freq": "162.425",
+     "same": "013099"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.4
+  },
+  "Echols County": {
+   "fips": "13101",
+   "centroid": [
+    30.714,
+    -82.8974
+   ],
+   "latitude": 30.7,
+   "bbox": [
+    -83.1366,
+    30.5918,
+    -82.5792,
+    30.8711
+   ],
+   "coastal": false,
+   "elevation_ft": 150,
+   "zone": "9a",
+   "jan_low_f": 38,
+   "jul_high_f": 90,
+   "record_low_f": 4,
+   "record_high_f": 104,
+   "precip_in": 52.6,
+   "snow_in": 0,
+   "last_frost": "Mar 11",
+   "first_frost": "Nov 22",
+   "growing_days": 258,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Jacksonville, FL",
+   "nws_cwa": "JAX",
+   "nwr": [
+    {
+     "call": "WWH31",
+     "freq": "162.500",
+     "same": "013101"
+    },
+    {
+     "call": "WXK75",
+     "freq": "162.475",
+     "same": "013101"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.2
+  },
+  "Effingham County": {
+   "fips": "13103",
+   "centroid": [
+    32.3617,
+    -81.3434
+   ],
+   "latitude": 32.4,
+   "bbox": [
+    -81.5471,
+    32.0955,
+    -81.1188,
+    32.5955
+   ],
+   "coastal": true,
+   "elevation_ft": 100,
+   "zone": "9a",
+   "jan_low_f": 40,
+   "jul_high_f": 92,
+   "record_low_f": 3,
+   "record_high_f": 105,
+   "precip_in": 52.8,
+   "snow_in": 0,
+   "last_frost": "Mar 2",
+   "first_frost": "Nov 30",
+   "growing_days": 270,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Charleston, SC",
+   "nws_cwa": "CHS",
+   "nwr": [
+    {
+     "call": "WXJ23",
+     "freq": "162.450",
+     "same": "013103"
+    },
+    {
+     "call": "KEC85",
+     "freq": "162.400",
+     "same": "013103"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 5.5
+  },
+  "Elbert County": {
+   "fips": "13105",
+   "centroid": [
+    34.1164,
+    -82.8419
+   ],
+   "latitude": 34.1,
+   "bbox": [
+    -83.1031,
+    33.9563,
+    -82.5653,
+    34.2888
+   ],
+   "coastal": false,
+   "elevation_ft": 610,
+   "zone": "8a",
+   "jan_low_f": 30,
+   "jul_high_f": 89,
+   "record_low_f": -6,
+   "record_high_f": 109,
+   "precip_in": 49.4,
+   "snow_in": 0,
+   "last_frost": "Apr 6",
+   "first_frost": "Oct 30",
+   "growing_days": 209,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "WXK56",
+     "freq": "162.400",
+     "same": "013105"
+    },
+    {
+     "call": "KHC28",
+     "freq": "162.425",
+     "same": "013105"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.6
+  },
+  "Emanuel County": {
+   "fips": "13107",
+   "centroid": [
+    32.5912,
+    -82.3002
+   ],
+   "latitude": 32.6,
+   "bbox": [
+    -82.6471,
+    32.2919,
+    -82.0022,
+    32.8411
+   ],
+   "coastal": false,
+   "elevation_ft": 270,
+   "zone": "8b",
+   "jan_low_f": 35,
+   "jul_high_f": 93,
+   "record_low_f": -10,
+   "record_high_f": 105,
+   "precip_in": 49.0,
+   "snow_in": 0,
+   "last_frost": "Mar 21",
+   "first_frost": "Nov 8",
+   "growing_days": 233,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXK54",
+     "freq": "162.550",
+     "same": "013107"
+    },
+    {
+     "call": "KXI28",
+     "freq": "162.450",
+     "same": "013107"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.4
+  },
+  "Evans County": {
+   "fips": "13109",
+   "centroid": [
+    32.1531,
+    -81.8902
+   ],
+   "latitude": 32.2,
+   "bbox": [
+    -82.0257,
+    32.0479,
+    -81.7177,
+    32.2788
+   ],
+   "coastal": false,
+   "elevation_ft": 160,
+   "zone": "9a",
+   "jan_low_f": 38,
+   "jul_high_f": 92,
+   "record_low_f": 1,
+   "record_high_f": 113,
+   "precip_in": 49.8,
+   "snow_in": 0,
+   "last_frost": "Mar 9",
+   "first_frost": "Nov 24",
+   "growing_days": 258,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Charleston, SC",
+   "nws_cwa": "CHS",
+   "nwr": [
+    {
+     "call": "WWH25",
+     "freq": "162.425",
+     "same": "013109"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 5.5
+  },
+  "Fannin County": {
+   "fips": "13111",
+   "centroid": [
+    34.8665,
+    -84.3173
+   ],
+   "latitude": 34.9,
+   "bbox": [
+    -84.6227,
+    34.6036,
+    -84.093,
+    34.9884
+   ],
+   "coastal": false,
+   "elevation_ft": 1670,
+   "zone": "7b",
+   "jan_low_f": 25,
+   "jul_high_f": 87,
+   "record_low_f": -16,
+   "record_high_f": 100,
+   "precip_in": 59.3,
+   "snow_in": 4,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 20",
+   "growing_days": 180,
+   "ecoregion": "Blue Ridge",
+   "ecoregion_code": "66",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "KXI75",
+     "freq": "162.475",
+     "same": "013111"
+    },
+    {
+     "call": "KXI22",
+     "freq": "162.500",
+     "same": "013111"
+    },
+    {
+     "call": "WXK52",
+     "freq": "162.400",
+     "same": "013111"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.4
+  },
+  "Fayette County": {
+   "fips": "13113",
+   "centroid": [
+    33.4127,
+    -84.4939
+   ],
+   "latitude": 33.4,
+   "bbox": [
+    -84.6269,
+    33.2565,
+    -84.3817,
+    33.552
+   ],
+   "coastal": false,
+   "elevation_ft": 780,
+   "zone": "8a",
+   "jan_low_f": 34,
+   "jul_high_f": 91,
+   "record_low_f": 2,
+   "record_high_f": 105,
+   "precip_in": 49.3,
+   "snow_in": 1,
+   "last_frost": "Mar 26",
+   "first_frost": "Nov 6",
+   "growing_days": 226,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "KEC80",
+     "freq": "162.550",
+     "same": "013113"
+    },
+    {
+     "call": "WXJ31",
+     "freq": "162.500",
+     "same": "013113"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.3
+  },
+  "Floyd County": {
+   "fips": "13115",
+   "centroid": [
+    34.2637,
+    -85.2137
+   ],
+   "latitude": 34.3,
+   "bbox": [
+    -85.4622,
+    34.0792,
+    -85.0052,
+    34.5874
+   ],
+   "coastal": false,
+   "elevation_ft": 610,
+   "zone": "8a",
+   "jan_low_f": 30,
+   "jul_high_f": 90,
+   "record_low_f": -9,
+   "record_high_f": 109,
+   "precip_in": 55.1,
+   "snow_in": 0,
+   "last_frost": "Apr 1",
+   "first_frost": "Nov 3",
+   "growing_days": 217,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WWH23",
+     "freq": "162.425",
+     "same": "013115"
+    },
+    {
+     "call": "WXJ72",
+     "freq": "162.450",
+     "same": "013115"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 5.4
+  },
+  "Forsyth County": {
+   "fips": "13117",
+   "centroid": [
+    34.2251,
+    -84.1274
+   ],
+   "latitude": 34.2,
+   "bbox": [
+    -84.2597,
+    34.0507,
+    -83.9261,
+    34.3352
+   ],
+   "coastal": false,
+   "elevation_ft": 1190,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 89,
+   "record_low_f": -8,
+   "record_high_f": 107,
+   "precip_in": 56.4,
+   "snow_in": 1,
+   "last_frost": "Apr 4",
+   "first_frost": "Nov 4",
+   "growing_days": 214,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "KEC80",
+     "freq": "162.550",
+     "same": "013117"
+    },
+    {
+     "call": "WXJ53",
+     "freq": "162.525",
+     "same": "013117"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.4
+  },
+  "Franklin County": {
+   "fips": "13119",
+   "centroid": [
+    34.3753,
+    -83.2275
+   ],
+   "latitude": 34.4,
+   "bbox": [
+    -83.3982,
+    34.224,
+    -83.0521,
+    34.5373
+   ],
+   "coastal": false,
+   "elevation_ft": 770,
+   "zone": "8b",
+   "jan_low_f": 33,
+   "jul_high_f": 89,
+   "record_low_f": -5,
+   "record_high_f": 109,
+   "precip_in": 51.8,
+   "snow_in": 1,
+   "last_frost": "Mar 20",
+   "first_frost": "Nov 15",
+   "growing_days": 241,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "WXK56",
+     "freq": "162.400",
+     "same": "013119"
+    },
+    {
+     "call": "KXI81",
+     "freq": "162.450",
+     "same": "013119"
+    },
+    {
+     "call": "WXJ53",
+     "freq": "162.525",
+     "same": "013119"
+    },
+    {
+     "call": "WWH24",
+     "freq": "162.425",
+     "same": "013119"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.5
+  },
+  "Fulton County": {
+   "fips": "13121",
+   "centroid": [
+    33.79,
+    -84.4682
+   ],
+   "latitude": 33.8,
+   "bbox": [
+    -84.85,
+    33.5012,
+    -84.0977,
+    34.1862
+   ],
+   "coastal": false,
+   "elevation_ft": 830,
+   "zone": "8a",
+   "jan_low_f": 34,
+   "jul_high_f": 90,
+   "record_low_f": -8,
+   "record_high_f": 106,
+   "precip_in": 48.1,
+   "snow_in": 0,
+   "last_frost": "Mar 24",
+   "first_frost": "Nov 8",
+   "growing_days": 231,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "KEC80",
+     "freq": "162.550",
+     "same": "013121"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.3
+  },
+  "Gilmer County": {
+   "fips": "13123",
+   "centroid": [
+    34.6905,
+    -84.4548
+   ],
+   "latitude": 34.7,
+   "bbox": [
+    -84.657,
+    34.5486,
+    -84.1936,
+    34.8555
+   ],
+   "coastal": false,
+   "elevation_ft": 1570,
+   "zone": "7b",
+   "jan_low_f": 31,
+   "jul_high_f": 84,
+   "record_low_f": -14,
+   "record_high_f": 103,
+   "precip_in": 58.6,
+   "snow_in": 2,
+   "last_frost": "Mar 31",
+   "first_frost": "Nov 5",
+   "growing_days": 221,
+   "ecoregion": "Blue Ridge",
+   "ecoregion_code": "66",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "KXI75",
+     "freq": "162.475",
+     "same": "013123"
+    },
+    {
+     "call": "WXK52",
+     "freq": "162.400",
+     "same": "013123"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.4
+  },
+  "Glascock County": {
+   "fips": "13125",
+   "centroid": [
+    33.2275,
+    -82.6069
+   ],
+   "latitude": 33.2,
+   "bbox": [
+    -82.7555,
+    33.1191,
+    -82.4322,
+    33.3272
+   ],
+   "coastal": false,
+   "elevation_ft": 450,
+   "zone": "8b",
+   "jan_low_f": 33,
+   "jul_high_f": 91,
+   "record_low_f": -3,
+   "record_high_f": 110,
+   "precip_in": 46.1,
+   "snow_in": 0,
+   "last_frost": "Mar 29",
+   "first_frost": "Nov 7",
+   "growing_days": 225,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXK54",
+     "freq": "162.550",
+     "same": "013125"
+    },
+    {
+     "call": "KXI28",
+     "freq": "162.450",
+     "same": "013125"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.5
+  },
+  "Glynn County": {
+   "fips": "13127",
+   "centroid": [
+    31.2127,
+    -81.4964
+   ],
+   "latitude": 31.2,
+   "bbox": [
+    -81.7819,
+    31.0036,
+    -81.2545,
+    31.4531
+   ],
+   "coastal": true,
+   "elevation_ft": 20,
+   "zone": "9a",
+   "jan_low_f": 44,
+   "jul_high_f": 90,
+   "record_low_f": 5,
+   "record_high_f": 106,
+   "precip_in": 50.3,
+   "snow_in": 0,
+   "last_frost": "Feb 8",
+   "first_frost": "Dec 25",
+   "growing_days": 314,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Jacksonville, FL",
+   "nws_cwa": "JAX",
+   "nwr": [
+    {
+     "call": "WWH39",
+     "freq": "162.425",
+     "same": "013127"
+    },
+    {
+     "call": "WXK75",
+     "freq": "162.475",
+     "same": "013127"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.4
+  },
+  "Gordon County": {
+   "fips": "13129",
+   "centroid": [
+    34.5097,
+    -84.8739
+   ],
+   "latitude": 34.5,
+   "bbox": [
+    -85.1116,
+    34.3842,
+    -84.6444,
+    34.6341
+   ],
+   "coastal": false,
+   "elevation_ft": 830,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 89,
+   "record_low_f": -10,
+   "record_high_f": 104,
+   "precip_in": 52.4,
+   "snow_in": 2,
+   "last_frost": "Apr 2",
+   "first_frost": "Nov 4",
+   "growing_days": 214,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXK52",
+     "freq": "162.400",
+     "same": "013129"
+    },
+    {
+     "call": "WXK48",
+     "freq": "162.550",
+     "same": "013129"
+    },
+    {
+     "call": "WXJ72",
+     "freq": "162.450",
+     "same": "013129"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.4
+  },
+  "Grady County": {
+   "fips": "13131",
+   "centroid": [
+    30.8759,
+    -84.245
+   ],
+   "latitude": 30.9,
+   "bbox": [
+    -84.3808,
+    30.6759,
+    -84.073,
+    31.079
+   ],
+   "coastal": false,
+   "elevation_ft": 260,
+   "zone": "9a",
+   "jan_low_f": 38,
+   "jul_high_f": 90,
+   "record_low_f": 7,
+   "record_high_f": 105,
+   "precip_in": 50.9,
+   "snow_in": 0,
+   "last_frost": "Mar 11",
+   "first_frost": "Nov 21",
+   "growing_days": 255,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "WXK53",
+     "freq": "162.550",
+     "same": "013131"
+    },
+    {
+     "call": "KIH24",
+     "freq": "162.400",
+     "same": "013131"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 5.2
+  },
+  "Greene County": {
+   "fips": "13133",
+   "centroid": [
+    33.5767,
+    -83.1666
+   ],
+   "latitude": 33.6,
+   "bbox": [
+    -83.4061,
+    33.3551,
+    -82.9514,
+    33.7614
+   ],
+   "coastal": false,
+   "elevation_ft": 640,
+   "zone": "8b",
+   "jan_low_f": 32,
+   "jul_high_f": 91,
+   "record_low_f": -7,
+   "record_high_f": 110,
+   "precip_in": 46.1,
+   "snow_in": 0,
+   "last_frost": "Mar 27",
+   "first_frost": "Nov 8",
+   "growing_days": 226,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXK56",
+     "freq": "162.400",
+     "same": "013133"
+    },
+    {
+     "call": "KXI89",
+     "freq": "162.525",
+     "same": "013133"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.4
+  },
+  "Gwinnett County": {
+   "fips": "13135",
+   "centroid": [
+    33.9588,
+    -84.0257
+   ],
+   "latitude": 34.0,
+   "bbox": [
+    -84.2763,
+    33.7528,
+    -83.7991,
+    34.1677
+   ],
+   "coastal": false,
+   "elevation_ft": 980,
+   "zone": "8a",
+   "jan_low_f": 33,
+   "jul_high_f": 89,
+   "record_low_f": -8,
+   "record_high_f": 104,
+   "precip_in": 51.4,
+   "snow_in": 0,
+   "last_frost": "Mar 25",
+   "first_frost": "Nov 9",
+   "growing_days": 228,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "KEC80",
+     "freq": "162.550",
+     "same": "013135"
+    },
+    {
+     "call": "WXJ53",
+     "freq": "162.525",
+     "same": "013135"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.3
+  },
+  "Habersham County": {
+   "fips": "13137",
+   "centroid": [
+    34.6344,
+    -83.5259
+   ],
+   "latitude": 34.6,
+   "bbox": [
+    -83.6814,
+    34.4316,
+    -83.3384,
+    34.8274
+   ],
+   "coastal": false,
+   "elevation_ft": 1430,
+   "zone": "8a",
+   "jan_low_f": 29,
+   "jul_high_f": 88,
+   "record_low_f": 1,
+   "record_high_f": 103,
+   "precip_in": 61.8,
+   "snow_in": 1,
+   "last_frost": "Apr 11",
+   "first_frost": "Oct 26",
+   "growing_days": 198,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "KXI81",
+     "freq": "162.450",
+     "same": "013137"
+    },
+    {
+     "call": "WXJ53",
+     "freq": "162.525",
+     "same": "013137"
+    },
+    {
+     "call": "WWH24",
+     "freq": "162.425",
+     "same": "013137"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.5
+  },
+  "Hall County": {
+   "fips": "13139",
+   "centroid": [
+    34.3176,
+    -83.8185
+   ],
+   "latitude": 34.3,
+   "bbox": [
+    -84.0632,
+    34.0984,
+    -83.615,
+    34.514
+   ],
+   "coastal": false,
+   "elevation_ft": 1230,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 88,
+   "record_low_f": -8,
+   "record_high_f": 107,
+   "precip_in": 55.6,
+   "snow_in": 2,
+   "last_frost": "Mar 27",
+   "first_frost": "Nov 12",
+   "growing_days": 231,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXK56",
+     "freq": "162.400",
+     "same": "013139"
+    },
+    {
+     "call": "KXI81",
+     "freq": "162.450",
+     "same": "013139"
+    },
+    {
+     "call": "WXJ53",
+     "freq": "162.525",
+     "same": "013139"
+    },
+    {
+     "call": "WWH24",
+     "freq": "162.425",
+     "same": "013139"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.5
+  },
+  "Hancock County": {
+   "fips": "13141",
+   "centroid": [
+    33.2692,
+    -83.0005
+   ],
+   "latitude": 33.3,
+   "bbox": [
+    -83.2752,
+    33.051,
+    -82.7464,
+    33.4701
+   ],
+   "coastal": false,
+   "elevation_ft": 500,
+   "zone": "8b",
+   "jan_low_f": 33,
+   "jul_high_f": 93,
+   "record_low_f": -3,
+   "record_high_f": 110,
+   "precip_in": 48.2,
+   "snow_in": 1,
+   "last_frost": "Mar 25",
+   "first_frost": "Nov 9",
+   "growing_days": 231,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXK54",
+     "freq": "162.550",
+     "same": "013141"
+    },
+    {
+     "call": "KXI89",
+     "freq": "162.525",
+     "same": "013141"
+    },
+    {
+     "call": "KXI28",
+     "freq": "162.450",
+     "same": "013141"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.4
+  },
+  "Haralson County": {
+   "fips": "13143",
+   "centroid": [
+    33.7952,
+    -85.2201
+   ],
+   "latitude": 33.8,
+   "bbox": [
+    -85.3865,
+    33.6521,
+    -85.0367,
+    33.9063
+   ],
+   "coastal": false,
+   "elevation_ft": 1180,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 90,
+   "record_low_f": -9,
+   "record_high_f": 103,
+   "precip_in": 53.5,
+   "snow_in": 1,
+   "last_frost": "Mar 28",
+   "first_frost": "Nov 5",
+   "growing_days": 222,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WWH23",
+     "freq": "162.425",
+     "same": "013143"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.3
+  },
+  "Harris County": {
+   "fips": "13145",
+   "centroid": [
+    32.7315,
+    -84.9124
+   ],
+   "latitude": 32.7,
+   "bbox": [
+    -85.1849,
+    32.5831,
+    -84.6829,
+    32.8725
+   ],
+   "coastal": false,
+   "elevation_ft": 630,
+   "zone": "8b",
+   "jan_low_f": 34,
+   "jul_high_f": 91,
+   "record_low_f": -2,
+   "record_high_f": 106,
+   "precip_in": 53.2,
+   "snow_in": 0,
+   "last_frost": "Mar 21",
+   "first_frost": "Nov 18",
+   "growing_days": 243,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXM32",
+     "freq": "162.400",
+     "same": "013145"
+    },
+    {
+     "call": "WXJ31",
+     "freq": "162.500",
+     "same": "013145"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.3
+  },
+  "Hart County": {
+   "fips": "13147",
+   "centroid": [
+    34.3487,
+    -82.9633
+   ],
+   "latitude": 34.3,
+   "bbox": [
+    -83.1155,
+    34.211,
+    -82.7733,
+    34.494
+   ],
+   "coastal": false,
+   "elevation_ft": 780,
+   "zone": "8a",
+   "jan_low_f": 33,
+   "jul_high_f": 89,
+   "record_low_f": -5,
+   "record_high_f": 109,
+   "precip_in": 51.8,
+   "snow_in": 1,
+   "last_frost": "Mar 20",
+   "first_frost": "Nov 15",
+   "growing_days": 241,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "WXK56",
+     "freq": "162.400",
+     "same": "013147"
+    },
+    {
+     "call": "KXI81",
+     "freq": "162.450",
+     "same": "013147"
+    },
+    {
+     "call": "WXJ53",
+     "freq": "162.525",
+     "same": "013147"
+    },
+    {
+     "call": "WWH24",
+     "freq": "162.425",
+     "same": "013147"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.6
+  },
+  "Heard County": {
+   "fips": "13149",
+   "centroid": [
+    33.2913,
+    -85.1379
+   ],
+   "latitude": 33.3,
+   "bbox": [
+    -85.2938,
+    33.1294,
+    -84.9399,
+    33.4283
+   ],
+   "coastal": false,
+   "elevation_ft": 720,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 89,
+   "record_low_f": -1,
+   "record_high_f": 107,
+   "precip_in": 53.0,
+   "snow_in": 2,
+   "last_frost": "Apr 2",
+   "first_frost": "Nov 3",
+   "growing_days": 216,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "KXI76",
+     "freq": "162.450",
+     "same": "013149"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.3
+  },
+  "Henry County": {
+   "fips": "13151",
+   "centroid": [
+    33.4529,
+    -84.154
+   ],
+   "latitude": 33.5,
+   "bbox": [
+    -84.3544,
+    33.2979,
+    -83.9235,
+    33.6469
+   ],
+   "coastal": false,
+   "elevation_ft": 780,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 92,
+   "record_low_f": 5,
+   "record_high_f": 104,
+   "precip_in": 51.1,
+   "snow_in": 1,
+   "last_frost": "Mar 31",
+   "first_frost": "Nov 6",
+   "growing_days": 220,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "KEC80",
+     "freq": "162.550",
+     "same": "013151"
+    },
+    {
+     "call": "KXI89",
+     "freq": "162.525",
+     "same": "013151"
+    },
+    {
+     "call": "WXJ31",
+     "freq": "162.500",
+     "same": "013151"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.3
+  },
+  "Houston County": {
+   "fips": "13153",
+   "centroid": [
+    32.4581,
+    -83.6623
+   ],
+   "latitude": 32.5,
+   "bbox": [
+    -83.8569,
+    32.2829,
+    -83.4828,
+    32.6917
+   ],
+   "coastal": false,
+   "elevation_ft": 320,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 91,
+   "record_low_f": -6,
+   "record_high_f": 108,
+   "precip_in": 51.8,
+   "snow_in": 0,
+   "last_frost": "Mar 11",
+   "first_frost": "Nov 19",
+   "growing_days": 256,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "KXI77",
+     "freq": "162.400",
+     "same": "013153"
+    },
+    {
+     "call": "WXK71",
+     "freq": "162.475",
+     "same": "013153"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.4
+  },
+  "Irwin County": {
+   "fips": "13155",
+   "centroid": [
+    31.6043,
+    -83.277
+   ],
+   "latitude": 31.6,
+   "bbox": [
+    -83.501,
+    31.4718,
+    -82.9985,
+    31.7696
+   ],
+   "coastal": false,
+   "elevation_ft": 330,
+   "zone": "9a",
+   "jan_low_f": 39,
+   "jul_high_f": 92,
+   "record_low_f": -1,
+   "record_high_f": 106,
+   "precip_in": 47.6,
+   "snow_in": 0,
+   "last_frost": "Mar 2",
+   "first_frost": "Nov 25",
+   "growing_days": 268,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "WXK75",
+     "freq": "162.475",
+     "same": "013155"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.4
+  },
+  "Jackson County": {
+   "fips": "13157",
+   "centroid": [
+    34.1309,
+    -83.5626
+   ],
+   "latitude": 34.1,
+   "bbox": [
+    -83.8169,
+    33.9662,
+    -83.3572,
+    34.2961
+   ],
+   "coastal": false,
+   "elevation_ft": 760,
+   "zone": "8b",
+   "jan_low_f": 31,
+   "jul_high_f": 89,
+   "record_low_f": -5,
+   "record_high_f": 106,
+   "precip_in": 52.1,
+   "snow_in": 1,
+   "last_frost": "Mar 31",
+   "first_frost": "Nov 6",
+   "growing_days": 222,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXK56",
+     "freq": "162.400",
+     "same": "013157"
+    },
+    {
+     "call": "WXJ53",
+     "freq": "162.525",
+     "same": "013157"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.5
+  },
+  "Jasper County": {
+   "fips": "13159",
+   "centroid": [
+    33.317,
+    -83.6892
+   ],
+   "latitude": 33.3,
+   "bbox": [
+    -83.8631,
+    33.1323,
+    -83.5335,
+    33.5259
+   ],
+   "coastal": false,
+   "elevation_ft": 590,
+   "zone": "8b",
+   "jan_low_f": 29,
+   "jul_high_f": 92,
+   "record_low_f": -7,
+   "record_high_f": 109,
+   "precip_in": 46.7,
+   "snow_in": 1,
+   "last_frost": "Apr 4",
+   "first_frost": "Nov 1",
+   "growing_days": 211,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "KXI89",
+     "freq": "162.525",
+     "same": "013159"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.4
+  },
+  "Jeff Davis County": {
+   "fips": "13161",
+   "centroid": [
+    31.8116,
+    -82.6368
+   ],
+   "latitude": 31.8,
+   "bbox": [
+    -82.8371,
+    31.6713,
+    -82.4305,
+    31.9714
+   ],
+   "coastal": false,
+   "elevation_ft": 240,
+   "zone": "9a",
+   "jan_low_f": 38,
+   "jul_high_f": 92,
+   "record_low_f": 10,
+   "record_high_f": 107,
+   "precip_in": 50.9,
+   "snow_in": 0,
+   "last_frost": "Mar 12",
+   "first_frost": "Nov 17",
+   "growing_days": 251,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Jacksonville, FL",
+   "nws_cwa": "JAX",
+   "nwr": [
+    {
+     "call": "WXM65",
+     "freq": "162.525",
+     "same": "013161"
+    },
+    {
+     "call": "WXK75",
+     "freq": "162.475",
+     "same": "013161"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.4
+  },
+  "Jefferson County": {
+   "fips": "13163",
+   "centroid": [
+    33.0582,
+    -82.42
+   ],
+   "latitude": 33.1,
+   "bbox": [
+    -82.6613,
+    32.7622,
+    -82.2332,
+    33.3135
+   ],
+   "coastal": false,
+   "elevation_ft": 340,
+   "zone": "8b",
+   "jan_low_f": 34,
+   "jul_high_f": 91,
+   "record_low_f": -2,
+   "record_high_f": 112,
+   "precip_in": 47.6,
+   "snow_in": 0,
+   "last_frost": "Mar 25",
+   "first_frost": "Nov 7",
+   "growing_days": 227,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXK54",
+     "freq": "162.550",
+     "same": "013163"
+    },
+    {
+     "call": "KXI28",
+     "freq": "162.450",
+     "same": "013163"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.5
+  },
+  "Jenkins County": {
+   "fips": "13165",
+   "centroid": [
+    32.7946,
+    -81.9715
+   ],
+   "latitude": 32.8,
+   "bbox": [
+    -82.1479,
+    32.6056,
+    -81.7682,
+    32.9529
+   ],
+   "coastal": false,
+   "elevation_ft": 140,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 92,
+   "record_low_f": -10,
+   "record_high_f": 105,
+   "precip_in": 48.4,
+   "snow_in": 0,
+   "last_frost": "Mar 14",
+   "first_frost": "Nov 15",
+   "growing_days": 248,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Charleston, SC",
+   "nws_cwa": "CHS",
+   "nwr": [
+    {
+     "call": "WXK54",
+     "freq": "162.550",
+     "same": "013165"
+    },
+    {
+     "call": "WWH25",
+     "freq": "162.425",
+     "same": "013165"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 5.5
+  },
+  "Johnson County": {
+   "fips": "13167",
+   "centroid": [
+    32.6946,
+    -82.664
+   ],
+   "latitude": 32.7,
+   "bbox": [
+    -82.9571,
+    32.5125,
+    -82.4344,
+    32.8222
+   ],
+   "coastal": false,
+   "elevation_ft": 340,
+   "zone": "8b",
+   "jan_low_f": 35,
+   "jul_high_f": 93,
+   "record_low_f": 0,
+   "record_high_f": 109,
+   "precip_in": 49.0,
+   "snow_in": 0,
+   "last_frost": "Mar 21",
+   "first_frost": "Nov 8",
+   "growing_days": 233,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXK54",
+     "freq": "162.550",
+     "same": "013167"
+    },
+    {
+     "call": "KXI77",
+     "freq": "162.400",
+     "same": "013167"
+    },
+    {
+     "call": "KXI28",
+     "freq": "162.450",
+     "same": "013167"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.4
+  },
+  "Jones County": {
+   "fips": "13169",
+   "centroid": [
+    33.0217,
+    -83.5622
+   ],
+   "latitude": 33.0,
+   "bbox": [
+    -83.8166,
+    32.8413,
+    -83.3579,
+    33.1856
+   ],
+   "coastal": false,
+   "elevation_ft": 520,
+   "zone": "8b",
+   "jan_low_f": 33,
+   "jul_high_f": 93,
+   "record_low_f": -3,
+   "record_high_f": 110,
+   "precip_in": 48.2,
+   "snow_in": 1,
+   "last_frost": "Mar 25",
+   "first_frost": "Nov 9",
+   "growing_days": 231,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "KXI89",
+     "freq": "162.525",
+     "same": "013169"
+    },
+    {
+     "call": "WXK71",
+     "freq": "162.475",
+     "same": "013169"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.4
+  },
+  "Lamar County": {
+   "fips": "13171",
+   "centroid": [
+    33.0744,
+    -84.1467
+   ],
+   "latitude": 33.1,
+   "bbox": [
+    -84.2701,
+    32.9315,
+    -84.0408,
+    33.2028
+   ],
+   "coastal": false,
+   "elevation_ft": 810,
+   "zone": "8b",
+   "jan_low_f": 34,
+   "jul_high_f": 90,
+   "record_low_f": -8,
+   "record_high_f": 104,
+   "precip_in": 54.2,
+   "snow_in": 0,
+   "last_frost": "Mar 18",
+   "first_frost": "Nov 14",
+   "growing_days": 239,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "KXI89",
+     "freq": "162.525",
+     "same": "013171"
+    },
+    {
+     "call": "WXJ31",
+     "freq": "162.500",
+     "same": "013171"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.3
+  },
+  "Lanier County": {
+   "fips": "13173",
+   "centroid": [
+    31.0382,
+    -83.0632
+   ],
+   "latitude": 31.0,
+   "bbox": [
+    -83.1979,
+    30.8453,
+    -82.9698,
+    31.1846
+   ],
+   "coastal": false,
+   "elevation_ft": 200,
+   "zone": "9a",
+   "jan_low_f": 38,
+   "jul_high_f": 92,
+   "record_low_f": 3,
+   "record_high_f": 104,
+   "precip_in": 49.3,
+   "snow_in": 0,
+   "last_frost": "Mar 11",
+   "first_frost": "Nov 17",
+   "growing_days": 253,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "WWH31",
+     "freq": "162.500",
+     "same": "013173"
+    },
+    {
+     "call": "WXK75",
+     "freq": "162.475",
+     "same": "013173"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.4
+  },
+  "Laurens County": {
+   "fips": "13175",
+   "centroid": [
+    32.3932,
+    -82.9263
+   ],
+   "latitude": 32.4,
+   "bbox": [
+    -83.2266,
+    32.1478,
+    -82.6342,
+    32.7157
+   ],
+   "coastal": false,
+   "elevation_ft": 260,
+   "zone": "8b",
+   "jan_low_f": 35,
+   "jul_high_f": 94,
+   "record_low_f": 0,
+   "record_high_f": 109,
+   "precip_in": 47.3,
+   "snow_in": 0,
+   "last_frost": "Mar 14",
+   "first_frost": "Nov 13",
+   "growing_days": 247,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "KXI77",
+     "freq": "162.400",
+     "same": "013175"
+    },
+    {
+     "call": "KXI28",
+     "freq": "162.450",
+     "same": "013175"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.4
+  },
+  "Lee County": {
+   "fips": "13177",
+   "centroid": [
+    31.8184,
+    -84.1467
+   ],
+   "latitude": 31.8,
+   "bbox": [
+    -84.3386,
+    31.622,
+    -83.9225,
+    31.9162
+   ],
+   "coastal": false,
+   "elevation_ft": 260,
+   "zone": "8b",
+   "jan_low_f": 37,
+   "jul_high_f": 92,
+   "record_low_f": 14,
+   "record_high_f": 110,
+   "precip_in": 48.9,
+   "snow_in": 0,
+   "last_frost": "Mar 12",
+   "first_frost": "Nov 19",
+   "growing_days": 253,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "WXJ30",
+     "freq": "162.425",
+     "same": "013177"
+    },
+    {
+     "call": "KWN50",
+     "freq": "162.450",
+     "same": "013177"
+    },
+    {
+     "call": "WXK53",
+     "freq": "162.550",
+     "same": "013177"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.4
+  },
+  "Liberty County": {
+   "fips": "13179",
+   "centroid": [
+    31.8075,
+    -81.4579
+   ],
+   "latitude": 31.8,
+   "bbox": [
+    -81.8244,
+    31.5585,
+    -81.129,
+    32.0922
+   ],
+   "coastal": true,
+   "elevation_ft": 10,
+   "zone": "9a",
+   "jan_low_f": 41,
+   "jul_high_f": 92,
+   "record_low_f": 0,
+   "record_high_f": 110,
+   "precip_in": 51.0,
+   "snow_in": 0,
+   "last_frost": "Mar 5",
+   "first_frost": "Nov 29",
+   "growing_days": 269,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Charleston, SC",
+   "nws_cwa": "CHS",
+   "nwr": [
+    {
+     "call": "WXJ28",
+     "freq": "162.450",
+     "same": "013179"
+    },
+    {
+     "call": "KEC85",
+     "freq": "162.400",
+     "same": "013179"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.4
+  },
+  "Lincoln County": {
+   "fips": "13181",
+   "centroid": [
+    33.7922,
+    -82.4483
+   ],
+   "latitude": 33.8,
+   "bbox": [
+    -82.646,
+    33.6373,
+    -82.2211,
+    33.9841
+   ],
+   "coastal": false,
+   "elevation_ft": 430,
+   "zone": "8b",
+   "jan_low_f": 33,
+   "jul_high_f": 92,
+   "record_low_f": -2,
+   "record_high_f": 109,
+   "precip_in": 47.3,
+   "snow_in": 0,
+   "last_frost": "Mar 28",
+   "first_frost": "Nov 7",
+   "growing_days": 226,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Columbia, SC",
+   "nws_cwa": "CAE",
+   "nwr": [
+    {
+     "call": "WXK54",
+     "freq": "162.550",
+     "same": "013181"
+    },
+    {
+     "call": "KHC28",
+     "freq": "162.425",
+     "same": "013181"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.5
+  },
+  "Long County": {
+   "fips": "13183",
+   "centroid": [
+    31.7496,
+    -81.7429
+   ],
+   "latitude": 31.7,
+   "bbox": [
+    -81.9816,
+    31.5383,
+    -81.4919,
+    32.0137
+   ],
+   "coastal": true,
+   "elevation_ft": 60,
+   "zone": "9a",
+   "jan_low_f": 41,
+   "jul_high_f": 92,
+   "record_low_f": 0,
+   "record_high_f": 110,
+   "precip_in": 51.0,
+   "snow_in": 0,
+   "last_frost": "Mar 5",
+   "first_frost": "Nov 29",
+   "growing_days": 269,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Charleston, SC",
+   "nws_cwa": "CHS",
+   "nwr": [
+    {
+     "call": "WXJ28",
+     "freq": "162.450",
+     "same": "013183"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.4
+  },
+  "Lowndes County": {
+   "fips": "13185",
+   "centroid": [
+    30.8331,
+    -83.269
+   ],
+   "latitude": 30.8,
+   "bbox": [
+    -83.4845,
+    30.6245,
+    -83.0208,
+    31.0312
+   ],
+   "coastal": false,
+   "elevation_ft": 210,
+   "zone": "9a",
+   "jan_low_f": 40,
+   "jul_high_f": 91,
+   "record_low_f": 7,
+   "record_high_f": 107,
+   "precip_in": 48.4,
+   "snow_in": 0,
+   "last_frost": "Mar 5",
+   "first_frost": "Nov 27",
+   "growing_days": 267,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "WXK53",
+     "freq": "162.550",
+     "same": "013185"
+    },
+    {
+     "call": "WWH31",
+     "freq": "162.500",
+     "same": "013185"
+    },
+    {
+     "call": "WXK75",
+     "freq": "162.475",
+     "same": "013185"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.1,
+   "sun_hours_jun": 5.2
+  },
+  "Lumpkin County": {
+   "fips": "13187",
+   "centroid": [
+    34.5681,
+    -83.9989
+   ],
+   "latitude": 34.6,
+   "bbox": [
+    -84.1934,
+    34.4186,
+    -83.8318,
+    34.7406
+   ],
+   "coastal": false,
+   "elevation_ft": 1540,
+   "zone": "8a",
+   "jan_low_f": 27,
+   "jul_high_f": 86,
+   "record_low_f": -12,
+   "record_high_f": 102,
+   "precip_in": 65.2,
+   "snow_in": 1,
+   "last_frost": "Apr 14",
+   "first_frost": "Oct 25",
+   "growing_days": 192,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "KXI22",
+     "freq": "162.500",
+     "same": "013187"
+    },
+    {
+     "call": "WXJ53",
+     "freq": "162.525",
+     "same": "013187"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.5
+  },
+  "McDuffie County": {
+   "fips": "13189",
+   "centroid": [
+    33.4806,
+    -82.4796
+   ],
+   "latitude": 33.5,
+   "bbox": [
+    -82.6492,
+    33.3111,
+    -82.2946,
+    33.6596
+   ],
+   "coastal": false,
+   "elevation_ft": 510,
+   "zone": "8b",
+   "jan_low_f": 35,
+   "jul_high_f": 91,
+   "record_low_f": -3,
+   "record_high_f": 110,
+   "precip_in": 46.1,
+   "snow_in": 0,
+   "last_frost": "Mar 14",
+   "first_frost": "Nov 17",
+   "growing_days": 252,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Columbia, SC",
+   "nws_cwa": "CAE",
+   "nwr": [
+    {
+     "call": "WXK54",
+     "freq": "162.550",
+     "same": "013189"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.5
+  },
+  "McIntosh County": {
+   "fips": "13191",
+   "centroid": [
+    31.4856,
+    -81.3721
+   ],
+   "latitude": 31.5,
+   "bbox": [
+    -81.6681,
+    31.2876,
+    -81.1784,
+    31.6995
+   ],
+   "coastal": true,
+   "elevation_ft": 20,
+   "zone": "9a",
+   "jan_low_f": 43,
+   "jul_high_f": 91,
+   "record_low_f": 3,
+   "record_high_f": 105,
+   "precip_in": 50.0,
+   "snow_in": 0,
+   "last_frost": "Feb 20",
+   "first_frost": "Dec 19",
+   "growing_days": 298,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Charleston, SC",
+   "nws_cwa": "CHS",
+   "nwr": [
+    {
+     "call": "WWH39",
+     "freq": "162.425",
+     "same": "013191"
+    },
+    {
+     "call": "WXJ28",
+     "freq": "162.450",
+     "same": "013191"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.4
+  },
+  "Macon County": {
+   "fips": "13193",
+   "centroid": [
+    32.3627,
+    -84.0512
+   ],
+   "latitude": 32.4,
+   "bbox": [
+    -84.2559,
+    32.1712,
+    -83.8367,
+    32.5305
+   ],
+   "coastal": false,
+   "elevation_ft": 290,
+   "zone": "8b",
+   "jan_low_f": 35,
+   "jul_high_f": 91,
+   "record_low_f": 2,
+   "record_high_f": 111,
+   "precip_in": 48.0,
+   "snow_in": 0,
+   "last_frost": "Mar 20",
+   "first_frost": "Nov 14",
+   "growing_days": 238,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXJ30",
+     "freq": "162.425",
+     "same": "013193"
+    },
+    {
+     "call": "WXK71",
+     "freq": "162.475",
+     "same": "013193"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.3
+  },
+  "Madison County": {
+   "fips": "13195",
+   "centroid": [
+    34.1275,
+    -83.2087
+   ],
+   "latitude": 34.1,
+   "bbox": [
+    -83.4025,
+    33.9992,
+    -82.9764,
+    34.2726
+   ],
+   "coastal": false,
+   "elevation_ft": 740,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 89,
+   "record_low_f": -4,
+   "record_high_f": 109,
+   "precip_in": 51.2,
+   "snow_in": 2,
+   "last_frost": "Mar 29",
+   "first_frost": "Nov 7",
+   "growing_days": 224,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXK56",
+     "freq": "162.400",
+     "same": "013195"
+    },
+    {
+     "call": "WXJ53",
+     "freq": "162.525",
+     "same": "013195"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.5
+  },
+  "Marion County": {
+   "fips": "13197",
+   "centroid": [
+    32.3593,
+    -84.5287
+   ],
+   "latitude": 32.4,
+   "bbox": [
+    -84.6589,
+    32.134,
+    -84.39,
+    32.5621
+   ],
+   "coastal": false,
+   "elevation_ft": 650,
+   "zone": "8b",
+   "jan_low_f": 32,
+   "jul_high_f": 89,
+   "record_low_f": -6,
+   "record_high_f": 110,
+   "precip_in": 52.2,
+   "snow_in": 0,
+   "last_frost": "Apr 1",
+   "first_frost": "Nov 3",
+   "growing_days": 216,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXJ30",
+     "freq": "162.425",
+     "same": "013197"
+    },
+    {
+     "call": "WXM32",
+     "freq": "162.400",
+     "same": "013197"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.3
+  },
+  "Meriwether County": {
+   "fips": "13199",
+   "centroid": [
+    33.0293,
+    -84.6671
+   ],
+   "latitude": 33.0,
+   "bbox": [
+    -84.8645,
+    32.8446,
+    -84.491,
+    33.2313
+   ],
+   "coastal": false,
+   "elevation_ft": 770,
+   "zone": "8a",
+   "jan_low_f": 34,
+   "jul_high_f": 91,
+   "record_low_f": -10,
+   "record_high_f": 104,
+   "precip_in": 50.7,
+   "snow_in": 0,
+   "last_frost": "Mar 31",
+   "first_frost": "Nov 5",
+   "growing_days": 221,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "KXI76",
+     "freq": "162.450",
+     "same": "013199"
+    },
+    {
+     "call": "WXJ31",
+     "freq": "162.500",
+     "same": "013199"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.3
+  },
+  "Miller County": {
+   "fips": "13201",
+   "centroid": [
+    31.1629,
+    -84.7304
+   ],
+   "latitude": 31.2,
+   "bbox": [
+    -84.9224,
+    31.0682,
+    -84.5371,
+    31.2595
+   ],
+   "coastal": false,
+   "elevation_ft": 130,
+   "zone": "9a",
+   "jan_low_f": 39,
+   "jul_high_f": 91,
+   "record_low_f": 3,
+   "record_high_f": 105,
+   "precip_in": 56.9,
+   "snow_in": 0,
+   "last_frost": "Mar 6",
+   "first_frost": "Nov 23",
+   "growing_days": 264,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "KZZ70",
+     "freq": "162.525",
+     "same": "013201"
+    },
+    {
+     "call": "WXK53",
+     "freq": "162.550",
+     "same": "013201"
+    },
+    {
+     "call": "WNG633",
+     "freq": "162.425",
+     "same": "013201"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.4
+  },
+  "Mitchell County": {
+   "fips": "13205",
+   "centroid": [
+    31.229,
+    -84.192
+   ],
+   "latitude": 31.2,
+   "bbox": [
+    -84.5084,
+    31.0772,
+    -83.9978,
+    31.4438
+   ],
+   "coastal": false,
+   "elevation_ft": 170,
+   "zone": "9a",
+   "jan_low_f": 38,
+   "jul_high_f": 90,
+   "record_low_f": 2,
+   "record_high_f": 107,
+   "precip_in": 51.6,
+   "snow_in": 0,
+   "last_frost": "Mar 10",
+   "first_frost": "Nov 18",
+   "growing_days": 254,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "WXK53",
+     "freq": "162.550",
+     "same": "013205"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.4
+  },
+  "Monroe County": {
+   "fips": "13207",
+   "centroid": [
+    33.0188,
+    -83.9218
+   ],
+   "latitude": 33.0,
+   "bbox": [
+    -84.1243,
+    32.8484,
+    -83.7064,
+    33.2026
+   ],
+   "coastal": false,
+   "elevation_ft": 650,
+   "zone": "8b",
+   "jan_low_f": 34,
+   "jul_high_f": 90,
+   "record_low_f": -5,
+   "record_high_f": 109,
+   "precip_in": 47.9,
+   "snow_in": 0,
+   "last_frost": "Mar 18",
+   "first_frost": "Nov 14",
+   "growing_days": 239,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "KXI89",
+     "freq": "162.525",
+     "same": "013207"
+    },
+    {
+     "call": "WXK71",
+     "freq": "162.475",
+     "same": "013207"
+    },
+    {
+     "call": "WXJ31",
+     "freq": "162.500",
+     "same": "013207"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.4
+  },
+  "Montgomery County": {
+   "fips": "13209",
+   "centroid": [
+    32.1721,
+    -82.5333
+   ],
+   "latitude": 32.2,
+   "bbox": [
+    -82.6567,
+    31.9488,
+    -82.4093,
+    32.3538
+   ],
+   "coastal": false,
+   "elevation_ft": 280,
+   "zone": "9a",
+   "jan_low_f": 38,
+   "jul_high_f": 92,
+   "record_low_f": 10,
+   "record_high_f": 107,
+   "precip_in": 50.9,
+   "snow_in": 0,
+   "last_frost": "Mar 12",
+   "first_frost": "Nov 17",
+   "growing_days": 251,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WWH25",
+     "freq": "162.425",
+     "same": "013209"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.4
+  },
+  "Morgan County": {
+   "fips": "13211",
+   "centroid": [
+    33.5986,
+    -83.4994
+   ],
+   "latitude": 33.6,
+   "bbox": [
+    -83.6869,
+    33.4345,
+    -83.2695,
+    33.8174
+   ],
+   "coastal": false,
+   "elevation_ft": 660,
+   "zone": "8a",
+   "jan_low_f": 34,
+   "jul_high_f": 90,
+   "record_low_f": -10,
+   "record_high_f": 110,
+   "precip_in": 47.8,
+   "snow_in": 1,
+   "last_frost": "Mar 24",
+   "first_frost": "Nov 12",
+   "growing_days": 234,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXK56",
+     "freq": "162.400",
+     "same": "013211"
+    },
+    {
+     "call": "KXI89",
+     "freq": "162.525",
+     "same": "013211"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.4
+  },
+  "Murray County": {
+   "fips": "13213",
+   "centroid": [
+    34.7971,
+    -84.738
+   ],
+   "latitude": 34.8,
+   "bbox": [
+    -84.9445,
+    34.5828,
+    -84.5828,
+    34.9883
+   ],
+   "coastal": false,
+   "elevation_ft": 800,
+   "zone": "8a",
+   "jan_low_f": 30,
+   "jul_high_f": 89,
+   "record_low_f": -10,
+   "record_high_f": 104,
+   "precip_in": 57.5,
+   "snow_in": 0,
+   "last_frost": "Apr 2",
+   "first_frost": "Nov 1",
+   "growing_days": 212,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXK52",
+     "freq": "162.400",
+     "same": "013213"
+    },
+    {
+     "call": "WXK48",
+     "freq": "162.550",
+     "same": "013213"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.4
+  },
+  "Muscogee County": {
+   "fips": "13215",
+   "centroid": [
+    32.5102,
+    -84.8749
+   ],
+   "latitude": 32.5,
+   "bbox": [
+    -85.0807,
+    32.3744,
+    -84.6681,
+    32.6081
+   ],
+   "coastal": false,
+   "elevation_ft": 290,
+   "zone": "8b",
+   "jan_low_f": 38,
+   "jul_high_f": 93,
+   "record_low_f": -2,
+   "record_high_f": 106,
+   "precip_in": 48.8,
+   "snow_in": 0,
+   "last_frost": "Mar 5",
+   "first_frost": "Nov 23",
+   "growing_days": 265,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXM32",
+     "freq": "162.400",
+     "same": "013215"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.3
+  },
+  "Newton County": {
+   "fips": "13217",
+   "centroid": [
+    33.5528,
+    -83.8514
+   ],
+   "latitude": 33.6,
+   "bbox": [
+    -84.0544,
+    33.3683,
+    -83.6748,
+    33.7444
+   ],
+   "coastal": false,
+   "elevation_ft": 680,
+   "zone": "8b",
+   "jan_low_f": 34,
+   "jul_high_f": 89,
+   "record_low_f": -10,
+   "record_high_f": 110,
+   "precip_in": 50.5,
+   "snow_in": 1,
+   "last_frost": "Mar 22",
+   "first_frost": "Nov 14",
+   "growing_days": 238,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "KEC80",
+     "freq": "162.550",
+     "same": "013217"
+    },
+    {
+     "call": "KXI89",
+     "freq": "162.525",
+     "same": "013217"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.4
+  },
+  "Oconee County": {
+   "fips": "13219",
+   "centroid": [
+    33.8341,
+    -83.4377
+   ],
+   "latitude": 33.8,
+   "bbox": [
+    -83.6413,
+    33.6982,
+    -83.2758,
+    33.9662
+   ],
+   "coastal": false,
+   "elevation_ft": 790,
+   "zone": "8b",
+   "jan_low_f": 34,
+   "jul_high_f": 90,
+   "record_low_f": -1,
+   "record_high_f": 107,
+   "precip_in": 47.8,
+   "snow_in": 0,
+   "last_frost": "Mar 24",
+   "first_frost": "Nov 12",
+   "growing_days": 234,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXK56",
+     "freq": "162.400",
+     "same": "013219"
+    },
+    {
+     "call": "WXJ53",
+     "freq": "162.525",
+     "same": "013219"
+    },
+    {
+     "call": "KXI89",
+     "freq": "162.525",
+     "same": "013219"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.4
+  },
+  "Oglethorpe County": {
+   "fips": "13221",
+   "centroid": [
+    33.8668,
+    -83.0741
+   ],
+   "latitude": 33.9,
+   "bbox": [
+    -83.3066,
+    33.6906,
+    -82.7787,
+    34.0472
+   ],
+   "coastal": false,
+   "elevation_ft": 650,
+   "zone": "8b",
+   "jan_low_f": 32,
+   "jul_high_f": 91,
+   "record_low_f": -4,
+   "record_high_f": 109,
+   "precip_in": 49.5,
+   "snow_in": 0,
+   "last_frost": "Mar 31",
+   "first_frost": "Nov 6",
+   "growing_days": 221,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXK56",
+     "freq": "162.400",
+     "same": "013221"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.4
+  },
+  "Paulding County": {
+   "fips": "13223",
+   "centroid": [
+    33.921,
+    -84.8672
+   ],
+   "latitude": 33.9,
+   "bbox": [
+    -85.0502,
+    33.7736,
+    -84.7233,
+    34.0826
+   ],
+   "coastal": false,
+   "elevation_ft": 960,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 90,
+   "record_low_f": -12,
+   "record_high_f": 104,
+   "precip_in": 54.3,
+   "snow_in": 4,
+   "last_frost": "Apr 2",
+   "first_frost": "Nov 4",
+   "growing_days": 218,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WWH23",
+     "freq": "162.425",
+     "same": "013223"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.3
+  },
+  "Peach County": {
+   "fips": "13225",
+   "centroid": [
+    32.5713,
+    -83.832
+   ],
+   "latitude": 32.6,
+   "bbox": [
+    -84.0183,
+    32.4389,
+    -83.7011,
+    32.693
+   ],
+   "coastal": false,
+   "elevation_ft": 450,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 91,
+   "record_low_f": -6,
+   "record_high_f": 108,
+   "precip_in": 51.8,
+   "snow_in": 0,
+   "last_frost": "Mar 11",
+   "first_frost": "Nov 19",
+   "growing_days": 256,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "KXI77",
+     "freq": "162.400",
+     "same": "013225"
+    },
+    {
+     "call": "WXK71",
+     "freq": "162.475",
+     "same": "013225"
+    },
+    {
+     "call": "WXJ31",
+     "freq": "162.500",
+     "same": "013225"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.4
+  },
+  "Pickens County": {
+   "fips": "13227",
+   "centroid": [
+    34.4568,
+    -84.4904
+   ],
+   "latitude": 34.5,
+   "bbox": [
+    -84.6544,
+    34.3733,
+    -84.2567,
+    34.5642
+   ],
+   "coastal": false,
+   "elevation_ft": 1570,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 84,
+   "record_low_f": -14,
+   "record_high_f": 103,
+   "precip_in": 58.6,
+   "snow_in": 2,
+   "last_frost": "Mar 31",
+   "first_frost": "Nov 5",
+   "growing_days": 221,
+   "ecoregion": "Blue Ridge",
+   "ecoregion_code": "66",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXK52",
+     "freq": "162.400",
+     "same": "013227"
+    },
+    {
+     "call": "WXJ53",
+     "freq": "162.525",
+     "same": "013227"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.4
+  },
+  "Pierce County": {
+   "fips": "13229",
+   "centroid": [
+    31.354,
+    -82.2104
+   ],
+   "latitude": 31.4,
+   "bbox": [
+    -82.4208,
+    31.2031,
+    -81.9932,
+    31.531
+   ],
+   "coastal": false,
+   "elevation_ft": 130,
+   "zone": "8b",
+   "jan_low_f": 37,
+   "jul_high_f": 94,
+   "record_low_f": 2,
+   "record_high_f": 108,
+   "precip_in": 50.4,
+   "snow_in": 0,
+   "last_frost": "Mar 15",
+   "first_frost": "Nov 17",
+   "growing_days": 246,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Jacksonville, FL",
+   "nws_cwa": "JAX",
+   "nwr": [
+    {
+     "call": "WXJ28",
+     "freq": "162.450",
+     "same": "013229"
+    },
+    {
+     "call": "WXK75",
+     "freq": "162.475",
+     "same": "013229"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.4
+  },
+  "Pike County": {
+   "fips": "13231",
+   "centroid": [
+    33.0811,
+    -84.3895
+   ],
+   "latitude": 33.1,
+   "bbox": [
+    -84.5377,
+    32.9691,
+    -84.2477,
+    33.2087
+   ],
+   "coastal": false,
+   "elevation_ft": 780,
+   "zone": "8b",
+   "jan_low_f": 34,
+   "jul_high_f": 90,
+   "record_low_f": -8,
+   "record_high_f": 104,
+   "precip_in": 50.7,
+   "snow_in": 0,
+   "last_frost": "Mar 18",
+   "first_frost": "Nov 14",
+   "growing_days": 239,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXJ31",
+     "freq": "162.500",
+     "same": "013231"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.3
+  },
+  "Polk County": {
+   "fips": "13233",
+   "centroid": [
+    33.996,
+    -85.1883
+   ],
+   "latitude": 34.0,
+   "bbox": [
+    -85.4219,
+    33.8992,
+    -84.9227,
+    34.1007
+   ],
+   "coastal": false,
+   "elevation_ft": 1030,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 91,
+   "record_low_f": -10,
+   "record_high_f": 105,
+   "precip_in": 52.8,
+   "snow_in": 1,
+   "last_frost": "Mar 30",
+   "first_frost": "Nov 4",
+   "growing_days": 219,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WWH23",
+     "freq": "162.425",
+     "same": "013233"
+    },
+    {
+     "call": "WXJ72",
+     "freq": "162.450",
+     "same": "013233"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.3
+  },
+  "Pulaski County": {
+   "fips": "13235",
+   "centroid": [
+    32.2388,
+    -83.4818
+   ],
+   "latitude": 32.2,
+   "bbox": [
+    -83.6159,
+    32.103,
+    -83.2913,
+    32.4021
+   ],
+   "coastal": false,
+   "elevation_ft": 250,
+   "zone": "8b",
+   "jan_low_f": 35,
+   "jul_high_f": 92,
+   "record_low_f": -3,
+   "record_high_f": 110,
+   "precip_in": 48.5,
+   "snow_in": 0,
+   "last_frost": "Mar 20",
+   "first_frost": "Nov 12",
+   "growing_days": 239,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "KXI77",
+     "freq": "162.400",
+     "same": "013235"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.4
+  },
+  "Putnam County": {
+   "fips": "13237",
+   "centroid": [
+    33.3211,
+    -83.3718
+   ],
+   "latitude": 33.3,
+   "bbox": [
+    -83.5453,
+    33.1679,
+    -83.1434,
+    33.4834
+   ],
+   "coastal": false,
+   "elevation_ft": 510,
+   "zone": "8b",
+   "jan_low_f": 29,
+   "jul_high_f": 92,
+   "record_low_f": -7,
+   "record_high_f": 109,
+   "precip_in": 46.7,
+   "snow_in": 1,
+   "last_frost": "Apr 4",
+   "first_frost": "Nov 1",
+   "growing_days": 211,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "KXI89",
+     "freq": "162.525",
+     "same": "013237"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.4
+  },
+  "Quitman County": {
+   "fips": "13239",
+   "centroid": [
+    31.8629,
+    -85.0048
+   ],
+   "latitude": 31.9,
+   "bbox": [
+    -85.1415,
+    31.7705,
+    -84.9075,
+    31.9919
+   ],
+   "coastal": false,
+   "elevation_ft": 360,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 88,
+   "record_low_f": 5,
+   "record_high_f": 106,
+   "precip_in": 53.3,
+   "snow_in": 0,
+   "last_frost": "Mar 15",
+   "first_frost": "Nov 18",
+   "growing_days": 250,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "KZZ70",
+     "freq": "162.525",
+     "same": "013239"
+    },
+    {
+     "call": "KIH56",
+     "freq": "162.475",
+     "same": "013239"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.4
+  },
+  "Rabun County": {
+   "fips": "13241",
+   "centroid": [
+    34.8839,
+    -83.4049
+   ],
+   "latitude": 34.9,
+   "bbox": [
+    -83.6615,
+    34.7162,
+    -83.0985,
+    35.0005
+   ],
+   "coastal": false,
+   "elevation_ft": 2050,
+   "zone": "7b",
+   "jan_low_f": 30,
+   "jul_high_f": 85,
+   "record_low_f": -11,
+   "record_high_f": 102,
+   "precip_in": 71.7,
+   "snow_in": 2,
+   "last_frost": "Apr 10",
+   "first_frost": "Oct 29",
+   "growing_days": 203,
+   "ecoregion": "Blue Ridge",
+   "ecoregion_code": "66",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "KXI81",
+     "freq": "162.450",
+     "same": "013241"
+    },
+    {
+     "call": "WWH24",
+     "freq": "162.425",
+     "same": "013241"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.5
+  },
+  "Randolph County": {
+   "fips": "13243",
+   "centroid": [
+    31.7627,
+    -84.7523
+   ],
+   "latitude": 31.8,
+   "bbox": [
+    -84.9591,
+    31.6185,
+    -84.5355,
+    31.9318
+   ],
+   "coastal": false,
+   "elevation_ft": 440,
+   "zone": "8b",
+   "jan_low_f": 35,
+   "jul_high_f": 92,
+   "record_low_f": -2,
+   "record_high_f": 105,
+   "precip_in": 55.7,
+   "snow_in": 0,
+   "last_frost": "Mar 21",
+   "first_frost": "Nov 13",
+   "growing_days": 236,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "WXJ30",
+     "freq": "162.425",
+     "same": "013243"
+    },
+    {
+     "call": "KZZ70",
+     "freq": "162.525",
+     "same": "013243"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.4
+  },
+  "Richmond County": {
+   "fips": "13245",
+   "centroid": [
+    33.3615,
+    -82.075
+   ],
+   "latitude": 33.4,
+   "bbox": [
+    -82.351,
+    33.2277,
+    -81.8294,
+    33.5447
+   ],
+   "coastal": false,
+   "elevation_ft": 320,
+   "zone": "8b",
+   "jan_low_f": 40,
+   "jul_high_f": 94,
+   "record_low_f": 11,
+   "record_high_f": 107,
+   "precip_in": 44.8,
+   "snow_in": 1,
+   "last_frost": "Feb 27",
+   "first_frost": "Dec 4",
+   "growing_days": 283,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Columbia, SC",
+   "nws_cwa": "CAE",
+   "nwr": [
+    {
+     "call": "WNG627",
+     "freq": "162.450",
+     "same": "013245"
+    },
+    {
+     "call": "WXK54",
+     "freq": "162.550",
+     "same": "013245"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.5
+  },
+  "Rockdale County": {
+   "fips": "13247",
+   "centroid": [
+    33.6521,
+    -84.0264
+   ],
+   "latitude": 33.7,
+   "bbox": [
+    -84.1844,
+    33.5263,
+    -83.9137,
+    33.7865
+   ],
+   "coastal": false,
+   "elevation_ft": 860,
+   "zone": "8b",
+   "jan_low_f": 34,
+   "jul_high_f": 89,
+   "record_low_f": -10,
+   "record_high_f": 110,
+   "precip_in": 50.5,
+   "snow_in": 1,
+   "last_frost": "Mar 22",
+   "first_frost": "Nov 14",
+   "growing_days": 238,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "KEC80",
+     "freq": "162.550",
+     "same": "013247"
+    },
+    {
+     "call": "KXI89",
+     "freq": "162.525",
+     "same": "013247"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.3
+  },
+  "Schley County": {
+   "fips": "13249",
+   "centroid": [
+    32.2634,
+    -84.3227
+   ],
+   "latitude": 32.3,
+   "bbox": [
+    -84.4302,
+    32.1591,
+    -84.1818,
+    32.428
+   ],
+   "coastal": false,
+   "elevation_ft": 520,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 90,
+   "record_low_f": -2,
+   "record_high_f": 105,
+   "precip_in": 50.7,
+   "snow_in": 0,
+   "last_frost": "Mar 15",
+   "first_frost": "Nov 17",
+   "growing_days": 249,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXJ30",
+     "freq": "162.425",
+     "same": "013249"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.3
+  },
+  "Screven County": {
+   "fips": "13251",
+   "centroid": [
+    32.7448,
+    -81.6176
+   ],
+   "latitude": 32.7,
+   "bbox": [
+    -81.8684,
+    32.4915,
+    -81.3896,
+    33.046
+   ],
+   "coastal": true,
+   "elevation_ft": 150,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 92,
+   "record_low_f": 1,
+   "record_high_f": 109,
+   "precip_in": 48.4,
+   "snow_in": 0,
+   "last_frost": "Mar 14",
+   "first_frost": "Nov 15",
+   "growing_days": 248,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Charleston, SC",
+   "nws_cwa": "CHS",
+   "nwr": [
+    {
+     "call": "WXK54",
+     "freq": "162.550",
+     "same": "013251"
+    },
+    {
+     "call": "KHC29",
+     "freq": "162.500",
+     "same": "013251"
+    },
+    {
+     "call": "WWH25",
+     "freq": "162.425",
+     "same": "013251"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 5.5
+  },
+  "Seminole County": {
+   "fips": "13253",
+   "centroid": [
+    30.934,
+    -84.8677
+   ],
+   "latitude": 30.9,
+   "bbox": [
+    -85.0286,
+    30.7115,
+    -84.7309,
+    31.0755
+   ],
+   "coastal": false,
+   "elevation_ft": 120,
+   "zone": "9a",
+   "jan_low_f": 39,
+   "jul_high_f": 91,
+   "record_low_f": 3,
+   "record_high_f": 105,
+   "precip_in": 56.9,
+   "snow_in": 0,
+   "last_frost": "Mar 6",
+   "first_frost": "Nov 23",
+   "growing_days": 264,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "KZZ70",
+     "freq": "162.525",
+     "same": "013253"
+    },
+    {
+     "call": "WXK53",
+     "freq": "162.550",
+     "same": "013253"
+    },
+    {
+     "call": "WNG633",
+     "freq": "162.425",
+     "same": "013253"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 5.2
+  },
+  "Spalding County": {
+   "fips": "13255",
+   "centroid": [
+    33.2623,
+    -84.2849
+   ],
+   "latitude": 33.3,
+   "bbox": [
+    -84.5084,
+    33.1787,
+    -84.0901,
+    33.3529
+   ],
+   "coastal": false,
+   "elevation_ft": 920,
+   "zone": "8a",
+   "jan_low_f": 34,
+   "jul_high_f": 90,
+   "record_low_f": -8,
+   "record_high_f": 104,
+   "precip_in": 54.2,
+   "snow_in": 1,
+   "last_frost": "Mar 20",
+   "first_frost": "Nov 13",
+   "growing_days": 239,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXJ31",
+     "freq": "162.500",
+     "same": "013255"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.3
+  },
+  "Stephens County": {
+   "fips": "13257",
+   "centroid": [
+    34.5536,
+    -83.2906
+   ],
+   "latitude": 34.6,
+   "bbox": [
+    -83.4608,
+    34.4604,
+    -83.1035,
+    34.6875
+   ],
+   "coastal": false,
+   "elevation_ft": 990,
+   "zone": "8b",
+   "jan_low_f": 33,
+   "jul_high_f": 89,
+   "record_low_f": -5,
+   "record_high_f": 107,
+   "precip_in": 59.0,
+   "snow_in": 1,
+   "last_frost": "Mar 23",
+   "first_frost": "Nov 11",
+   "growing_days": 233,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "KXI81",
+     "freq": "162.450",
+     "same": "013257"
+    },
+    {
+     "call": "WXJ53",
+     "freq": "162.525",
+     "same": "013257"
+    },
+    {
+     "call": "WWH24",
+     "freq": "162.425",
+     "same": "013257"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.5
+  },
+  "Stewart County": {
+   "fips": "13259",
+   "centroid": [
+    32.0732,
+    -84.8349
+   ],
+   "latitude": 32.1,
+   "bbox": [
+    -85.0682,
+    31.9203,
+    -84.6311,
+    32.2334
+   ],
+   "coastal": false,
+   "elevation_ft": 420,
+   "zone": "8b",
+   "jan_low_f": 34,
+   "jul_high_f": 92,
+   "record_low_f": -5,
+   "record_high_f": 106,
+   "precip_in": 52.8,
+   "snow_in": 0,
+   "last_frost": "Apr 1",
+   "first_frost": "Nov 4",
+   "growing_days": 217,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXJ30",
+     "freq": "162.425",
+     "same": "013259"
+    },
+    {
+     "call": "WXM32",
+     "freq": "162.400",
+     "same": "013259"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.3
+  },
+  "Sumter County": {
+   "fips": "13261",
+   "centroid": [
+    32.0423,
+    -84.2043
+   ],
+   "latitude": 32.0,
+   "bbox": [
+    -84.4438,
+    31.8733,
+    -83.9193,
+    32.2297
+   ],
+   "coastal": false,
+   "elevation_ft": 410,
+   "zone": "8b",
+   "jan_low_f": 35,
+   "jul_high_f": 91,
+   "record_low_f": 2,
+   "record_high_f": 111,
+   "precip_in": 53.4,
+   "snow_in": 0,
+   "last_frost": "Mar 20",
+   "first_frost": "Nov 14",
+   "growing_days": 238,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXJ30",
+     "freq": "162.425",
+     "same": "013261"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.3
+  },
+  "Talbot County": {
+   "fips": "13263",
+   "centroid": [
+    32.7046,
+    -84.53
+   ],
+   "latitude": 32.7,
+   "bbox": [
+    -84.7032,
+    32.5189,
+    -84.2869,
+    32.8834
+   ],
+   "coastal": false,
+   "elevation_ft": 700,
+   "zone": "8b",
+   "jan_low_f": 32,
+   "jul_high_f": 89,
+   "record_low_f": -6,
+   "record_high_f": 110,
+   "precip_in": 51.1,
+   "snow_in": 0,
+   "last_frost": "Apr 1",
+   "first_frost": "Nov 3",
+   "growing_days": 216,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXM32",
+     "freq": "162.400",
+     "same": "013263"
+    },
+    {
+     "call": "WXJ31",
+     "freq": "162.500",
+     "same": "013263"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.3
+  },
+  "Taliaferro County": {
+   "fips": "13265",
+   "centroid": [
+    33.5593,
+    -82.8753
+   ],
+   "latitude": 33.6,
+   "bbox": [
+    -83.0138,
+    33.4384,
+    -82.6809,
+    33.7333
+   ],
+   "coastal": false,
+   "elevation_ft": 510,
+   "zone": "8b",
+   "jan_low_f": 32,
+   "jul_high_f": 91,
+   "record_low_f": -7,
+   "record_high_f": 110,
+   "precip_in": 46.1,
+   "snow_in": 0,
+   "last_frost": "Mar 27",
+   "first_frost": "Nov 8",
+   "growing_days": 226,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXK54",
+     "freq": "162.550",
+     "same": "013265"
+    },
+    {
+     "call": "KXI89",
+     "freq": "162.525",
+     "same": "013265"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.5
+  },
+  "Tattnall County": {
+   "fips": "13267",
+   "centroid": [
+    32.0438,
+    -82.0592
+   ],
+   "latitude": 32.0,
+   "bbox": [
+    -82.2349,
+    31.7827,
+    -81.7617,
+    32.3199
+   ],
+   "coastal": false,
+   "elevation_ft": 190,
+   "zone": "9a",
+   "jan_low_f": 38,
+   "jul_high_f": 92,
+   "record_low_f": 1,
+   "record_high_f": 113,
+   "precip_in": 49.8,
+   "snow_in": 0,
+   "last_frost": "Mar 9",
+   "first_frost": "Nov 24",
+   "growing_days": 258,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Charleston, SC",
+   "nws_cwa": "CHS",
+   "nwr": [
+    {
+     "call": "WXM65",
+     "freq": "162.525",
+     "same": "013267"
+    },
+    {
+     "call": "WXJ28",
+     "freq": "162.450",
+     "same": "013267"
+    },
+    {
+     "call": "WWH25",
+     "freq": "162.425",
+     "same": "013267"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.4
+  },
+  "Taylor County": {
+   "fips": "13269",
+   "centroid": [
+    32.5547,
+    -84.2514
+   ],
+   "latitude": 32.6,
+   "bbox": [
+    -84.4532,
+    32.372,
+    -84.0026,
+    32.747
+   ],
+   "coastal": false,
+   "elevation_ft": 640,
+   "zone": "8b",
+   "jan_low_f": 32,
+   "jul_high_f": 89,
+   "record_low_f": -6,
+   "record_high_f": 110,
+   "precip_in": 51.1,
+   "snow_in": 0,
+   "last_frost": "Apr 1",
+   "first_frost": "Nov 3",
+   "growing_days": 216,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXJ30",
+     "freq": "162.425",
+     "same": "013269"
+    },
+    {
+     "call": "WXJ31",
+     "freq": "162.500",
+     "same": "013269"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.3
+  },
+  "Telfair County": {
+   "fips": "13271",
+   "centroid": [
+    31.9136,
+    -82.9311
+   ],
+   "latitude": 31.9,
+   "bbox": [
+    -83.2067,
+    31.7751,
+    -82.6447,
+    32.1526
+   ],
+   "coastal": false,
+   "elevation_ft": 260,
+   "zone": "8b",
+   "jan_low_f": 37,
+   "jul_high_f": 92,
+   "record_low_f": 10,
+   "record_high_f": 107,
+   "precip_in": 47.5,
+   "snow_in": 0,
+   "last_frost": "Mar 12",
+   "first_frost": "Nov 17",
+   "growing_days": 252,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "KXI77",
+     "freq": "162.400",
+     "same": "013271"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.4
+  },
+  "Terrell County": {
+   "fips": "13273",
+   "centroid": [
+    31.7772,
+    -84.4394
+   ],
+   "latitude": 31.8,
+   "bbox": [
+    -84.6031,
+    31.6211,
+    -84.2608,
+    31.9664
+   ],
+   "coastal": false,
+   "elevation_ft": 350,
+   "zone": "8b",
+   "jan_low_f": 37,
+   "jul_high_f": 92,
+   "record_low_f": 2,
+   "record_high_f": 111,
+   "precip_in": 55.4,
+   "snow_in": 0,
+   "last_frost": "Mar 12",
+   "first_frost": "Nov 19",
+   "growing_days": 253,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "WXJ30",
+     "freq": "162.425",
+     "same": "013273"
+    },
+    {
+     "call": "KZZ70",
+     "freq": "162.525",
+     "same": "013273"
+    },
+    {
+     "call": "WXK53",
+     "freq": "162.550",
+     "same": "013273"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.4
+  },
+  "Thomas County": {
+   "fips": "13275",
+   "centroid": [
+    30.8646,
+    -83.9198
+   ],
+   "latitude": 30.9,
+   "bbox": [
+    -84.1192,
+    30.6584,
+    -83.7363,
+    31.078
+   ],
+   "coastal": false,
+   "elevation_ft": 280,
+   "zone": "9a",
+   "jan_low_f": 38,
+   "jul_high_f": 90,
+   "record_low_f": 7,
+   "record_high_f": 105,
+   "precip_in": 50.9,
+   "snow_in": 0,
+   "last_frost": "Mar 11",
+   "first_frost": "Nov 21",
+   "growing_days": 255,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "WXK53",
+     "freq": "162.550",
+     "same": "013275"
+    },
+    {
+     "call": "KIH24",
+     "freq": "162.400",
+     "same": "013275"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.1,
+   "sun_hours_jun": 5.2
+  },
+  "Tift County": {
+   "fips": "13277",
+   "centroid": [
+    31.457,
+    -83.5259
+   ],
+   "latitude": 31.5,
+   "bbox": [
+    -83.6666,
+    31.3262,
+    -83.339,
+    31.5978
+   ],
+   "coastal": false,
+   "elevation_ft": 330,
+   "zone": "9a",
+   "jan_low_f": 37,
+   "jul_high_f": 90,
+   "record_low_f": 0,
+   "record_high_f": 106,
+   "precip_in": 48.2,
+   "snow_in": 0,
+   "last_frost": "Mar 11",
+   "first_frost": "Nov 19",
+   "growing_days": 254,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "KWN50",
+     "freq": "162.450",
+     "same": "013277"
+    },
+    {
+     "call": "WXK53",
+     "freq": "162.550",
+     "same": "013277"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.4
+  },
+  "Toombs County": {
+   "fips": "13279",
+   "centroid": [
+    32.1178,
+    -82.3306
+   ],
+   "latitude": 32.1,
+   "bbox": [
+    -82.4813,
+    31.9123,
+    -82.1821,
+    32.3538
+   ],
+   "coastal": false,
+   "elevation_ft": 220,
+   "zone": "9a",
+   "jan_low_f": 37,
+   "jul_high_f": 93,
+   "record_low_f": 10,
+   "record_high_f": 107,
+   "precip_in": 50.9,
+   "snow_in": 0,
+   "last_frost": "Mar 15",
+   "first_frost": "Nov 18",
+   "growing_days": 250,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXM65",
+     "freq": "162.525",
+     "same": "013279"
+    },
+    {
+     "call": "WWH25",
+     "freq": "162.425",
+     "same": "013279"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.4
+  },
+  "Towns County": {
+   "fips": "13281",
+   "centroid": [
+    34.9025,
+    -83.7323
+   ],
+   "latitude": 34.9,
+   "bbox": [
+    -83.9459,
+    34.7914,
+    -83.5469,
+    34.9925
+   ],
+   "coastal": false,
+   "elevation_ft": 2690,
+   "zone": "7b",
+   "jan_low_f": 26,
+   "jul_high_f": 80,
+   "record_low_f": -16,
+   "record_high_f": 100,
+   "precip_in": 74.1,
+   "snow_in": 3,
+   "last_frost": "Apr 10",
+   "first_frost": "Oct 26",
+   "growing_days": 199,
+   "ecoregion": "Blue Ridge",
+   "ecoregion_code": "66",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "KXI22",
+     "freq": "162.500",
+     "same": "013281"
+    },
+    {
+     "call": "KXI81",
+     "freq": "162.450",
+     "same": "013281"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.5
+  },
+  "Treutlen County": {
+   "fips": "13283",
+   "centroid": [
+    32.4096,
+    -82.5709
+   ],
+   "latitude": 32.4,
+   "bbox": [
+    -82.7479,
+    32.2937,
+    -82.3831,
+    32.513
+   ],
+   "coastal": false,
+   "elevation_ft": 320,
+   "zone": "8b",
+   "jan_low_f": 35,
+   "jul_high_f": 93,
+   "record_low_f": 0,
+   "record_high_f": 109,
+   "precip_in": 49.0,
+   "snow_in": 0,
+   "last_frost": "Mar 21",
+   "first_frost": "Nov 8",
+   "growing_days": 233,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "KXI77",
+     "freq": "162.400",
+     "same": "013283"
+    },
+    {
+     "call": "WWH25",
+     "freq": "162.425",
+     "same": "013283"
+    },
+    {
+     "call": "KXI28",
+     "freq": "162.450",
+     "same": "013283"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.4
+  },
+  "Troup County": {
+   "fips": "13285",
+   "centroid": [
+    33.0345,
+    -85.0284
+   ],
+   "latitude": 33.0,
+   "bbox": [
+    -85.2364,
+    32.8666,
+    -84.8615,
+    33.2246
+   ],
+   "coastal": false,
+   "elevation_ft": 710,
+   "zone": "8a",
+   "jan_low_f": 34,
+   "jul_high_f": 91,
+   "record_low_f": -10,
+   "record_high_f": 104,
+   "precip_in": 52.5,
+   "snow_in": 0,
+   "last_frost": "Mar 31",
+   "first_frost": "Nov 5",
+   "growing_days": 221,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "KXI76",
+     "freq": "162.450",
+     "same": "013285"
+    },
+    {
+     "call": "WXJ31",
+     "freq": "162.500",
+     "same": "013285"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.3
+  },
+  "Turner County": {
+   "fips": "13287",
+   "centroid": [
+    31.7248,
+    -83.6203
+   ],
+   "latitude": 31.7,
+   "bbox": [
+    -83.802,
+    31.5656,
+    -83.4527,
+    31.8541
+   ],
+   "coastal": false,
+   "elevation_ft": 380,
+   "zone": "9a",
+   "jan_low_f": 36,
+   "jul_high_f": 91,
+   "record_low_f": 1,
+   "record_high_f": 102,
+   "precip_in": 48.2,
+   "snow_in": 0,
+   "last_frost": "Mar 11",
+   "first_frost": "Nov 20",
+   "growing_days": 256,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "KWN50",
+     "freq": "162.450",
+     "same": "013287"
+    },
+    {
+     "call": "KXI77",
+     "freq": "162.400",
+     "same": "013287"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.4
+  },
+  "Twiggs County": {
+   "fips": "13289",
+   "centroid": [
+    32.6658,
+    -83.4259
+   ],
+   "latitude": 32.7,
+   "bbox": [
+    -83.6114,
+    32.4575,
+    -83.2266,
+    32.898
+   ],
+   "coastal": false,
+   "elevation_ft": 340,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 91,
+   "record_low_f": -6,
+   "record_high_f": 108,
+   "precip_in": 51.8,
+   "snow_in": 0,
+   "last_frost": "Mar 11",
+   "first_frost": "Nov 19",
+   "growing_days": 256,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "KXI77",
+     "freq": "162.400",
+     "same": "013289"
+    },
+    {
+     "call": "WXK71",
+     "freq": "162.475",
+     "same": "013289"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.4
+  },
+  "Union County": {
+   "fips": "13291",
+   "centroid": [
+    34.8333,
+    -83.9893
+   ],
+   "latitude": 34.8,
+   "bbox": [
+    -84.1788,
+    34.6407,
+    -83.7793,
+    34.9884
+   ],
+   "coastal": false,
+   "elevation_ft": 1890,
+   "zone": "7b",
+   "jan_low_f": 25,
+   "jul_high_f": 85,
+   "record_low_f": -16,
+   "record_high_f": 100,
+   "precip_in": 60.3,
+   "snow_in": 3,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 19",
+   "growing_days": 176,
+   "ecoregion": "Blue Ridge",
+   "ecoregion_code": "66",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "KXI22",
+     "freq": "162.500",
+     "same": "013291"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.5
+  },
+  "Upson County": {
+   "fips": "13293",
+   "centroid": [
+    32.8818,
+    -84.2923
+   ],
+   "latitude": 32.9,
+   "bbox": [
+    -84.5338,
+    32.6903,
+    -84.1222,
+    32.9997
+   ],
+   "coastal": false,
+   "elevation_ft": 690,
+   "zone": "8b",
+   "jan_low_f": 33,
+   "jul_high_f": 91,
+   "record_low_f": -5,
+   "record_high_f": 109,
+   "precip_in": 50.5,
+   "snow_in": 0,
+   "last_frost": "Mar 23",
+   "first_frost": "Nov 12",
+   "growing_days": 234,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXJ31",
+     "freq": "162.500",
+     "same": "013293"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.3
+  },
+  "Walker County": {
+   "fips": "13295",
+   "centroid": [
+    34.7358,
+    -85.3055
+   ],
+   "latitude": 34.7,
+   "bbox": [
+    -85.5338,
+    34.5822,
+    -85.0504,
+    34.9852
+   ],
+   "coastal": false,
+   "elevation_ft": 950,
+   "zone": "7b",
+   "jan_low_f": 33,
+   "jul_high_f": 89,
+   "record_low_f": -13,
+   "record_high_f": 106,
+   "precip_in": 57.0,
+   "snow_in": 2,
+   "last_frost": "Mar 25",
+   "first_frost": "Nov 9",
+   "growing_days": 232,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXK52",
+     "freq": "162.400",
+     "same": "013295"
+    },
+    {
+     "call": "WXK48",
+     "freq": "162.550",
+     "same": "013295"
+    },
+    {
+     "call": "WXJ72",
+     "freq": "162.450",
+     "same": "013295"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 5.4
+  },
+  "Walton County": {
+   "fips": "13297",
+   "centroid": [
+    33.7839,
+    -83.7318
+   ],
+   "latitude": 33.8,
+   "bbox": [
+    -83.9819,
+    33.5972,
+    -83.5063,
+    33.9303
+   ],
+   "coastal": false,
+   "elevation_ft": 800,
+   "zone": "8b",
+   "jan_low_f": 32,
+   "jul_high_f": 89,
+   "record_low_f": -8,
+   "record_high_f": 104,
+   "precip_in": 50.9,
+   "snow_in": 0,
+   "last_frost": "Apr 3",
+   "first_frost": "Nov 7",
+   "growing_days": 219,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXK56",
+     "freq": "162.400",
+     "same": "013297"
+    },
+    {
+     "call": "KEC80",
+     "freq": "162.550",
+     "same": "013297"
+    },
+    {
+     "call": "WXJ53",
+     "freq": "162.525",
+     "same": "013297"
+    },
+    {
+     "call": "KXI89",
+     "freq": "162.525",
+     "same": "013297"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.4
+  },
+  "Ware County": {
+   "fips": "13299",
+   "centroid": [
+    31.0509,
+    -82.4215
+   ],
+   "latitude": 31.1,
+   "bbox": [
+    -82.701,
+    30.5686,
+    -82.132,
+    31.4693
+   ],
+   "coastal": false,
+   "elevation_ft": 130,
+   "zone": "9a",
+   "jan_low_f": 37,
+   "jul_high_f": 94,
+   "record_low_f": 2,
+   "record_high_f": 108,
+   "precip_in": 50.4,
+   "snow_in": 0,
+   "last_frost": "Mar 15",
+   "first_frost": "Nov 17",
+   "growing_days": 246,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Jacksonville, FL",
+   "nws_cwa": "JAX",
+   "nwr": [
+    {
+     "call": "WXK75",
+     "freq": "162.475",
+     "same": "013299"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.4
+  },
+  "Warren County": {
+   "fips": "13301",
+   "centroid": [
+    33.4084,
+    -82.6757
+   ],
+   "latitude": 33.4,
+   "bbox": [
+    -82.8658,
+    33.2538,
+    -82.3839,
+    33.6106
+   ],
+   "coastal": false,
+   "elevation_ft": 480,
+   "zone": "8b",
+   "jan_low_f": 33,
+   "jul_high_f": 91,
+   "record_low_f": -3,
+   "record_high_f": 110,
+   "precip_in": 46.1,
+   "snow_in": 0,
+   "last_frost": "Mar 29",
+   "first_frost": "Nov 7",
+   "growing_days": 225,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXK54",
+     "freq": "162.550",
+     "same": "013301"
+    },
+    {
+     "call": "KXI28",
+     "freq": "162.450",
+     "same": "013301"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.5
+  },
+  "Washington County": {
+   "fips": "13303",
+   "centroid": [
+    32.9718,
+    -82.7981
+   ],
+   "latitude": 33.0,
+   "bbox": [
+    -83.0741,
+    32.7569,
+    -82.511,
+    33.2386
+   ],
+   "coastal": false,
+   "elevation_ft": 450,
+   "zone": "8b",
+   "jan_low_f": 35,
+   "jul_high_f": 92,
+   "record_low_f": -3,
+   "record_high_f": 109,
+   "precip_in": 48.6,
+   "snow_in": 0,
+   "last_frost": "Mar 19",
+   "first_frost": "Nov 13",
+   "growing_days": 241,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXK54",
+     "freq": "162.550",
+     "same": "013303"
+    },
+    {
+     "call": "KXI28",
+     "freq": "162.450",
+     "same": "013303"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.4
+  },
+  "Wayne County": {
+   "fips": "13305",
+   "centroid": [
+    31.5478,
+    -81.9124
+   ],
+   "latitude": 31.5,
+   "bbox": [
+    -82.1478,
+    31.3279,
+    -81.6126,
+    31.829
+   ],
+   "coastal": true,
+   "elevation_ft": 70,
+   "zone": "9a",
+   "jan_low_f": 35,
+   "jul_high_f": 93,
+   "record_low_f": 3,
+   "record_high_f": 107,
+   "precip_in": 45.7,
+   "snow_in": 0,
+   "last_frost": "Mar 24",
+   "first_frost": "Nov 10",
+   "growing_days": 233,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Jacksonville, FL",
+   "nws_cwa": "JAX",
+   "nwr": [
+    {
+     "call": "WXJ28",
+     "freq": "162.450",
+     "same": "013305"
+    },
+    {
+     "call": "WXK75",
+     "freq": "162.475",
+     "same": "013305"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.4
+  },
+  "Webster County": {
+   "fips": "13307",
+   "centroid": [
+    32.0467,
+    -84.5538
+   ],
+   "latitude": 32.0,
+   "bbox": [
+    -84.6557,
+    31.9192,
+    -84.4312,
+    32.233
+   ],
+   "coastal": false,
+   "elevation_ft": 410,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 90,
+   "record_low_f": -2,
+   "record_high_f": 105,
+   "precip_in": 50.7,
+   "snow_in": 0,
+   "last_frost": "Mar 15",
+   "first_frost": "Nov 17",
+   "growing_days": 249,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXJ30",
+     "freq": "162.425",
+     "same": "013307"
+    },
+    {
+     "call": "WXM32",
+     "freq": "162.400",
+     "same": "013307"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.3
+  },
+  "Wheeler County": {
+   "fips": "13309",
+   "centroid": [
+    32.1053,
+    -82.7338
+   ],
+   "latitude": 32.1,
+   "bbox": [
+    -82.9396,
+    31.9193,
+    -82.5391,
+    32.3095
+   ],
+   "coastal": false,
+   "elevation_ft": 180,
+   "zone": "8b",
+   "jan_low_f": 38,
+   "jul_high_f": 92,
+   "record_low_f": 10,
+   "record_high_f": 107,
+   "precip_in": 50.9,
+   "snow_in": 0,
+   "last_frost": "Mar 12",
+   "first_frost": "Nov 17",
+   "growing_days": 251,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "KXI77",
+     "freq": "162.400",
+     "same": "013309"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.4
+  },
+  "White County": {
+   "fips": "13311",
+   "centroid": [
+    34.6442,
+    -83.743
+   ],
+   "latitude": 34.6,
+   "bbox": [
+    -83.877,
+    34.5036,
+    -83.6158,
+    34.8013
+   ],
+   "coastal": false,
+   "elevation_ft": 1590,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 82,
+   "record_low_f": -12,
+   "record_high_f": 102,
+   "precip_in": 69.3,
+   "snow_in": 4,
+   "last_frost": "Apr 7",
+   "first_frost": "Nov 1",
+   "growing_days": 208,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "KXI22",
+     "freq": "162.500",
+     "same": "013311"
+    },
+    {
+     "call": "KXI81",
+     "freq": "162.450",
+     "same": "013311"
+    },
+    {
+     "call": "WXJ53",
+     "freq": "162.525",
+     "same": "013311"
+    },
+    {
+     "call": "WWH24",
+     "freq": "162.425",
+     "same": "013311"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.5
+  },
+  "Whitfield County": {
+   "fips": "13313",
+   "centroid": [
+    34.8017,
+    -84.9685
+   ],
+   "latitude": 34.8,
+   "bbox": [
+    -85.1687,
+    34.6157,
+    -84.8116,
+    34.9879
+   ],
+   "coastal": false,
+   "elevation_ft": 720,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 89,
+   "record_low_f": -10,
+   "record_high_f": 104,
+   "precip_in": 49.5,
+   "snow_in": 0,
+   "last_frost": "Apr 2",
+   "first_frost": "Nov 4",
+   "growing_days": 214,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXK52",
+     "freq": "162.400",
+     "same": "013313"
+    },
+    {
+     "call": "WXK48",
+     "freq": "162.550",
+     "same": "013313"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.4
+  },
+  "Wilcox County": {
+   "fips": "13315",
+   "centroid": [
+    31.9627,
+    -83.4383
+   ],
+   "latitude": 32.0,
+   "bbox": [
+    -83.6122,
+    31.8447,
+    -83.177,
+    32.1334
+   ],
+   "coastal": false,
+   "elevation_ft": 350,
+   "zone": "9a",
+   "jan_low_f": 36,
+   "jul_high_f": 93,
+   "record_low_f": -3,
+   "record_high_f": 106,
+   "precip_in": 50.1,
+   "snow_in": 0,
+   "last_frost": "Mar 13",
+   "first_frost": "Nov 14",
+   "growing_days": 248,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "KXI77",
+     "freq": "162.400",
+     "same": "013315"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.4
+  },
+  "Wilkes County": {
+   "fips": "13317",
+   "centroid": [
+    33.779,
+    -82.7479
+   ],
+   "latitude": 33.8,
+   "bbox": [
+    -82.9864,
+    33.5966,
+    -82.4797,
+    33.9907
+   ],
+   "coastal": false,
+   "elevation_ft": 510,
+   "zone": "8b",
+   "jan_low_f": 34,
+   "jul_high_f": 90,
+   "record_low_f": -5,
+   "record_high_f": 109,
+   "precip_in": 44.2,
+   "snow_in": 0,
+   "last_frost": "Mar 22",
+   "first_frost": "Nov 13",
+   "growing_days": 237,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "WXK56",
+     "freq": "162.400",
+     "same": "013317"
+    },
+    {
+     "call": "WXK54",
+     "freq": "162.550",
+     "same": "013317"
+    },
+    {
+     "call": "KPS506",
+     "freq": "162.500",
+     "same": "013317"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.5
+  },
+  "Wilkinson County": {
+   "fips": "13319",
+   "centroid": [
+    32.8043,
+    -83.1755
+   ],
+   "latitude": 32.8,
+   "bbox": [
+    -83.4072,
+    32.5842,
+    -82.9455,
+    33.0087
+   ],
+   "coastal": false,
+   "elevation_ft": 380,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 92,
+   "record_low_f": -4,
+   "record_high_f": 107,
+   "precip_in": 46.8,
+   "snow_in": 0,
+   "last_frost": "Mar 12",
+   "first_frost": "Nov 19",
+   "growing_days": 255,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Peachtree City, GA",
+   "nws_cwa": "FFC",
+   "nwr": [
+    {
+     "call": "KXI77",
+     "freq": "162.400",
+     "same": "013319"
+    },
+    {
+     "call": "WXK71",
+     "freq": "162.475",
+     "same": "013319"
+    },
+    {
+     "call": "KXI28",
+     "freq": "162.450",
+     "same": "013319"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.4
+  },
+  "Worth County": {
+   "fips": "13321",
+   "centroid": [
+    31.5518,
+    -83.85
+   ],
+   "latitude": 31.6,
+   "bbox": [
+    -84.0325,
+    31.3184,
+    -83.6496,
+    31.8493
+   ],
+   "coastal": false,
+   "elevation_ft": 400,
+   "zone": "9a",
+   "jan_low_f": 36,
+   "jul_high_f": 91,
+   "record_low_f": 1,
+   "record_high_f": 102,
+   "precip_in": 52.5,
+   "snow_in": 0,
+   "last_frost": "Mar 11",
+   "first_frost": "Nov 20",
+   "growing_days": 256,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "KWN50",
+     "freq": "162.450",
+     "same": "013321"
+    },
+    {
+     "call": "WXK53",
+     "freq": "162.550",
+     "same": "013321"
+    }
+   ],
+   "state_em": "Georgia Emergency Management and Homeland Security Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.4
+  }
+ }
+}

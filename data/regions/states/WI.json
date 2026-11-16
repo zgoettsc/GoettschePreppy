@@ -1,0 +1,4636 @@
+{
+ "state": "WI",
+ "state_name": "Wisconsin",
+ "state_fips": "55",
+ "state_em": "Wisconsin Emergency Management",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "ARX": "NWS La Crosse, WI",
+  "DLH": "NWS Duluth, MN",
+  "GRB": "NWS Green Bay, WI",
+  "MKX": "NWS Milwaukee/Sullivan, WI",
+  "MPX": "NWS Twin Cities/Chanhassen, MN"
+ },
+ "ecoregions": [
+  "Western Corn Belt Plains",
+  "Northern Lakes and Forests",
+  "North Central Hardwood Forests",
+  "Driftless Area",
+  "Southeastern Wisconsin Till Plains",
+  "Central Corn Belt Plains"
+ ],
+ "counties": {
+  "Adams County": {
+   "fips": "55001",
+   "centroid": [
+    43.9738,
+    -89.7672
+   ],
+   "latitude": 44.0,
+   "bbox": [
+    -90.0286,
+    43.6409,
+    -89.5972,
+    44.2494
+   ],
+   "coastal": false,
+   "elevation_ft": 970,
+   "zone": "4b",
+   "jan_low_f": 6,
+   "jul_high_f": 82,
+   "record_low_f": -40,
+   "record_high_f": 106,
+   "precip_in": 35.1,
+   "snow_in": 52,
+   "last_frost": "May 9",
+   "first_frost": "Oct 3",
+   "growing_days": 147,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "La Crosse, WI",
+   "nws_cwa": "ARX",
+   "nwr": [
+    {
+     "call": "KHA47",
+     "freq": "162.450",
+     "same": "055001"
+    },
+    {
+     "call": "WWF40",
+     "freq": "162.400",
+     "same": "055001"
+    },
+    {
+     "call": "KE2XKP",
+     "freq": "162.525",
+     "same": "055001"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.3
+  },
+  "Ashland County": {
+   "fips": "55003",
+   "centroid": [
+    46.5444,
+    -90.6797
+   ],
+   "latitude": 46.5,
+   "bbox": [
+    -90.9283,
+    45.9805,
+    -90.3002,
+    47.0809
+   ],
+   "coastal": false,
+   "elevation_ft": 640,
+   "zone": "5a",
+   "jan_low_f": 4,
+   "jul_high_f": 78,
+   "record_low_f": -35,
+   "record_high_f": 102,
+   "precip_in": 32.8,
+   "snow_in": 74,
+   "last_frost": "May 20",
+   "first_frost": "Oct 2",
+   "growing_days": 133,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Duluth, MN",
+   "nws_cwa": "DLH",
+   "nwr": [
+    {
+     "call": "KZZ78",
+     "freq": "162.525",
+     "same": "055003"
+    },
+    {
+     "call": "WXM91",
+     "freq": "162.500",
+     "same": "055003"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 5.2
+  },
+  "Barron County": {
+   "fips": "55005",
+   "centroid": [
+    45.4372,
+    -91.8529
+   ],
+   "latitude": 45.4,
+   "bbox": [
+    -92.1569,
+    45.2065,
+    -91.5395,
+    45.6403
+   ],
+   "coastal": false,
+   "elevation_ft": 1160,
+   "zone": "4b",
+   "jan_low_f": 2,
+   "jul_high_f": 81,
+   "record_low_f": -40,
+   "record_high_f": 101,
+   "precip_in": 31.4,
+   "snow_in": 52,
+   "last_frost": "May 8",
+   "first_frost": "Oct 2",
+   "growing_days": 145,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "WNG577",
+     "freq": "162.550",
+     "same": "055005"
+    },
+    {
+     "call": "WXJ88",
+     "freq": "162.400",
+     "same": "055005"
+    },
+    {
+     "call": "KZZ79",
+     "freq": "162.475",
+     "same": "055005"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.2
+  },
+  "Bayfield County": {
+   "fips": "55007",
+   "centroid": [
+    46.6342,
+    -91.1773
+   ],
+   "latitude": 46.6,
+   "bbox": [
+    -91.5536,
+    46.1542,
+    -90.7507,
+    47.0048
+   ],
+   "coastal": false,
+   "elevation_ft": 1210,
+   "zone": "4a",
+   "jan_low_f": 6,
+   "jul_high_f": 79,
+   "record_low_f": -44,
+   "record_high_f": 100,
+   "precip_in": 27.9,
+   "snow_in": 74,
+   "last_frost": "May 23",
+   "first_frost": "Sep 29",
+   "growing_days": 125,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Duluth, MN",
+   "nws_cwa": "DLH",
+   "nwr": [
+    {
+     "call": "KZZ78",
+     "freq": "162.525",
+     "same": "055007"
+    },
+    {
+     "call": "KIG64",
+     "freq": "162.550",
+     "same": "055007"
+    },
+    {
+     "call": "KZZ79",
+     "freq": "162.475",
+     "same": "055007"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 5.2
+  },
+  "Brown County": {
+   "fips": "55009",
+   "centroid": [
+    44.474,
+    -87.9961
+   ],
+   "latitude": 44.5,
+   "bbox": [
+    -88.2528,
+    44.2403,
+    -87.7582,
+    44.68
+   ],
+   "coastal": false,
+   "elevation_ft": 590,
+   "zone": "5b",
+   "jan_low_f": 11,
+   "jul_high_f": 81,
+   "record_low_f": -36,
+   "record_high_f": 104,
+   "precip_in": 31.6,
+   "snow_in": 56,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 9",
+   "growing_days": 161,
+   "ecoregion": "Southeastern Wisconsin Till Plains",
+   "ecoregion_code": "53",
+   "nws_office": "Green Bay, WI",
+   "nws_cwa": "GRB",
+   "nwr": [
+    {
+     "call": "KIG65",
+     "freq": "162.550",
+     "same": "055009"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.2
+  },
+  "Buffalo County": {
+   "fips": "55011",
+   "centroid": [
+    44.3856,
+    -91.7613
+   ],
+   "latitude": 44.4,
+   "bbox": [
+    -92.0839,
+    44.0257,
+    -91.5287,
+    44.5968
+   ],
+   "coastal": false,
+   "elevation_ft": 1230,
+   "zone": "4b",
+   "jan_low_f": 8,
+   "jul_high_f": 81,
+   "record_low_f": -38,
+   "record_high_f": 101,
+   "precip_in": 37.2,
+   "snow_in": 37,
+   "last_frost": "Apr 28",
+   "first_frost": "Oct 14",
+   "growing_days": 168,
+   "ecoregion": "Driftless Area",
+   "ecoregion_code": "52",
+   "nws_office": "La Crosse, WI",
+   "nws_cwa": "ARX",
+   "nwr": [
+    {
+     "call": "WXJ86",
+     "freq": "162.550",
+     "same": "055011"
+    },
+    {
+     "call": "WXJ88",
+     "freq": "162.400",
+     "same": "055011"
+    },
+    {
+     "call": "KJY80",
+     "freq": "162.450",
+     "same": "055011"
+    },
+    {
+     "call": "WXK41",
+     "freq": "162.475",
+     "same": "055011"
+    },
+    {
+     "call": "KGG95",
+     "freq": "162.425",
+     "same": "055011"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.3
+  },
+  "Burnett County": {
+   "fips": "55013",
+   "centroid": [
+    45.8669,
+    -92.3757
+   ],
+   "latitude": 45.9,
+   "bbox": [
+    -92.8868,
+    45.6397,
+    -92.0311,
+    46.1577
+   ],
+   "coastal": false,
+   "elevation_ft": 980,
+   "zone": "4a",
+   "jan_low_f": 2,
+   "jul_high_f": 80,
+   "record_low_f": -54,
+   "record_high_f": 108,
+   "precip_in": 30.1,
+   "snow_in": 53,
+   "last_frost": "May 11",
+   "first_frost": "Sep 30",
+   "growing_days": 138,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Duluth, MN",
+   "nws_cwa": "DLH",
+   "nwr": [
+    {
+     "call": "WNG678",
+     "freq": "162.425",
+     "same": "055013"
+    },
+    {
+     "call": "KZZ79",
+     "freq": "162.475",
+     "same": "055013"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.2
+  },
+  "Calumet County": {
+   "fips": "55015",
+   "centroid": [
+    44.0784,
+    -88.2121
+   ],
+   "latitude": 44.1,
+   "bbox": [
+    -88.4046,
+    43.8914,
+    -88.0412,
+    44.2444
+   ],
+   "coastal": false,
+   "elevation_ft": 930,
+   "zone": "5b",
+   "jan_low_f": 10,
+   "jul_high_f": 82,
+   "record_low_f": -34,
+   "record_high_f": 103,
+   "precip_in": 33.9,
+   "snow_in": 44,
+   "last_frost": "May 1",
+   "first_frost": "Oct 14",
+   "growing_days": 162,
+   "ecoregion": "Southeastern Wisconsin Till Plains",
+   "ecoregion_code": "53",
+   "nws_office": "Green Bay, WI",
+   "nws_cwa": "GRB",
+   "nwr": [
+    {
+     "call": "WWG87",
+     "freq": "162.500",
+     "same": "055015"
+    },
+    {
+     "call": "KIG65",
+     "freq": "162.550",
+     "same": "055015"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.3
+  },
+  "Chippewa County": {
+   "fips": "55017",
+   "centroid": [
+    45.0691,
+    -91.2835
+   ],
+   "latitude": 45.1,
+   "bbox": [
+    -91.6665,
+    44.8561,
+    -90.9223,
+    45.2922
+   ],
+   "coastal": false,
+   "elevation_ft": 1020,
+   "zone": "4b",
+   "jan_low_f": 7,
+   "jul_high_f": 81,
+   "record_low_f": -43,
+   "record_high_f": 104,
+   "precip_in": 32.6,
+   "snow_in": 42,
+   "last_frost": "May 1",
+   "first_frost": "Oct 8",
+   "growing_days": 158,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "WNG577",
+     "freq": "162.550",
+     "same": "055017"
+    },
+    {
+     "call": "WXJ88",
+     "freq": "162.400",
+     "same": "055017"
+    },
+    {
+     "call": "KZZ77",
+     "freq": "162.425",
+     "same": "055017"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.2
+  },
+  "Clark County": {
+   "fips": "55019",
+   "centroid": [
+    44.7392,
+    -90.6099
+   ],
+   "latitude": 44.7,
+   "bbox": [
+    -90.9234,
+    44.422,
+    -90.3147,
+    45.0338
+   ],
+   "coastal": false,
+   "elevation_ft": 1150,
+   "zone": "4b",
+   "jan_low_f": 5,
+   "jul_high_f": 80,
+   "record_low_f": -48,
+   "record_high_f": 106,
+   "precip_in": 35.5,
+   "snow_in": 44,
+   "last_frost": "May 10",
+   "first_frost": "Oct 1",
+   "growing_days": 144,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "La Crosse, WI",
+   "nws_cwa": "ARX",
+   "nwr": [
+    {
+     "call": "WNG564",
+     "freq": "162.500",
+     "same": "055019"
+    },
+    {
+     "call": "WXJ89",
+     "freq": "162.475",
+     "same": "055019"
+    },
+    {
+     "call": "KZZ77",
+     "freq": "162.425",
+     "same": "055019"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.3
+  },
+  "Columbia County": {
+   "fips": "55021",
+   "centroid": [
+    43.4719,
+    -89.3305
+   ],
+   "latitude": 43.5,
+   "bbox": [
+    -89.7854,
+    43.2809,
+    -89.0045,
+    43.6434
+   ],
+   "coastal": false,
+   "elevation_ft": 930,
+   "zone": "5a",
+   "jan_low_f": 10,
+   "jul_high_f": 82,
+   "record_low_f": -37,
+   "record_high_f": 111,
+   "precip_in": 38.3,
+   "snow_in": 39,
+   "last_frost": "Apr 28",
+   "first_frost": "Oct 10",
+   "growing_days": 164,
+   "ecoregion": "Southeastern Wisconsin Till Plains",
+   "ecoregion_code": "53",
+   "nws_office": "Milwaukee/Sullivan, WI",
+   "nws_cwa": "MKX",
+   "nwr": [
+    {
+     "call": "KHA47",
+     "freq": "162.450",
+     "same": "055021"
+    },
+    {
+     "call": "WXJ87",
+     "freq": "162.550",
+     "same": "055021"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.3
+  },
+  "Crawford County": {
+   "fips": "55023",
+   "centroid": [
+    43.2428,
+    -90.9352
+   ],
+   "latitude": 43.2,
+   "bbox": [
+    -91.2149,
+    42.988,
+    -90.6659,
+    43.4245
+   ],
+   "coastal": false,
+   "elevation_ft": 960,
+   "zone": "5a",
+   "jan_low_f": 8,
+   "jul_high_f": 82,
+   "record_low_f": -48,
+   "record_high_f": 103,
+   "precip_in": 37.4,
+   "snow_in": 36,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 20",
+   "growing_days": 179,
+   "ecoregion": "Driftless Area",
+   "ecoregion_code": "52",
+   "nws_office": "La Crosse, WI",
+   "nws_cwa": "ARX",
+   "nwr": [
+    {
+     "call": "WXJ86",
+     "freq": "162.550",
+     "same": "055023"
+    },
+    {
+     "call": "WWG86",
+     "freq": "162.500",
+     "same": "055023"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Dane County": {
+   "fips": "55025",
+   "centroid": [
+    43.0675,
+    -89.4179
+   ],
+   "latitude": 43.1,
+   "bbox": [
+    -89.8392,
+    42.845,
+    -89.0086,
+    43.2941
+   ],
+   "coastal": false,
+   "elevation_ft": 900,
+   "zone": "5b",
+   "jan_low_f": 11,
+   "jul_high_f": 82,
+   "record_low_f": -38,
+   "record_high_f": 108,
+   "precip_in": 40.2,
+   "snow_in": 38,
+   "last_frost": "May 1",
+   "first_frost": "Oct 9",
+   "growing_days": 161,
+   "ecoregion": "Southeastern Wisconsin Till Plains",
+   "ecoregion_code": "53",
+   "nws_office": "Milwaukee/Sullivan, WI",
+   "nws_cwa": "MKX",
+   "nwr": [
+    {
+     "call": "KHA47",
+     "freq": "162.450",
+     "same": "055025"
+    },
+    {
+     "call": "WWG90",
+     "freq": "162.425",
+     "same": "055025"
+    },
+    {
+     "call": "WXJ87",
+     "freq": "162.550",
+     "same": "055025"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.3
+  },
+  "Dodge County": {
+   "fips": "55027",
+   "centroid": [
+    43.4296,
+    -88.7019
+   ],
+   "latitude": 43.4,
+   "bbox": [
+    -89.0096,
+    43.1948,
+    -88.4003,
+    43.6336
+   ],
+   "coastal": false,
+   "elevation_ft": 920,
+   "zone": "5a",
+   "jan_low_f": 9,
+   "jul_high_f": 80,
+   "record_low_f": -36,
+   "record_high_f": 102,
+   "precip_in": 35.3,
+   "snow_in": 41,
+   "last_frost": "May 1",
+   "first_frost": "Oct 10",
+   "growing_days": 158,
+   "ecoregion": "Southeastern Wisconsin Till Plains",
+   "ecoregion_code": "53",
+   "nws_office": "Milwaukee/Sullivan, WI",
+   "nws_cwa": "MKX",
+   "nwr": [
+    {
+     "call": "WWG87",
+     "freq": "162.500",
+     "same": "055027"
+    },
+    {
+     "call": "WXJ87",
+     "freq": "162.550",
+     "same": "055027"
+    },
+    {
+     "call": "KEC60",
+     "freq": "162.400",
+     "same": "055027"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.3
+  },
+  "Door County": {
+   "fips": "55029",
+   "centroid": [
+    45.0934,
+    -87.0487
+   ],
+   "latitude": 45.1,
+   "bbox": [
+    -87.7363,
+    44.6743,
+    -86.8052,
+    45.4285
+   ],
+   "coastal": false,
+   "elevation_ft": 580,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 80,
+   "record_low_f": -27,
+   "record_high_f": 97,
+   "precip_in": 31.0,
+   "snow_in": 62,
+   "last_frost": "May 14",
+   "first_frost": "Oct 18",
+   "growing_days": 155,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "Green Bay, WI",
+   "nws_cwa": "GRB",
+   "nwr": [
+    {
+     "call": "KIG65",
+     "freq": "162.550",
+     "same": "055029"
+    },
+    {
+     "call": "WXN69",
+     "freq": "162.425",
+     "same": "055029"
+    },
+    {
+     "call": "WNG553",
+     "freq": "162.400",
+     "same": "055029"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.3
+  },
+  "Douglas County": {
+   "fips": "55031",
+   "centroid": [
+    46.4632,
+    -91.8925
+   ],
+   "latitude": 46.5,
+   "bbox": [
+    -92.2939,
+    46.157,
+    -91.5508,
+    46.7575
+   ],
+   "coastal": false,
+   "elevation_ft": 1200,
+   "zone": "4a",
+   "jan_low_f": 4,
+   "jul_high_f": 81,
+   "record_low_f": -49,
+   "record_high_f": 108,
+   "precip_in": 33.4,
+   "snow_in": 60,
+   "last_frost": "May 12",
+   "first_frost": "Oct 2",
+   "growing_days": 142,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Duluth, MN",
+   "nws_cwa": "DLH",
+   "nwr": [
+    {
+     "call": "KIG64",
+     "freq": "162.550",
+     "same": "055031"
+    },
+    {
+     "call": "KZZ79",
+     "freq": "162.475",
+     "same": "055031"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 5.2
+  },
+  "Dunn County": {
+   "fips": "55033",
+   "centroid": [
+    44.9478,
+    -91.8976
+   ],
+   "latitude": 44.9,
+   "bbox": [
+    -92.1571,
+    44.6835,
+    -91.6497,
+    45.2095
+   ],
+   "coastal": false,
+   "elevation_ft": 900,
+   "zone": "4b",
+   "jan_low_f": 4,
+   "jul_high_f": 82,
+   "record_low_f": -40,
+   "record_high_f": 101,
+   "precip_in": 34.2,
+   "snow_in": 41,
+   "last_frost": "May 9",
+   "first_frost": "Oct 1",
+   "growing_days": 143,
+   "ecoregion": "Driftless Area",
+   "ecoregion_code": "52",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "WXJ88",
+     "freq": "162.400",
+     "same": "055033"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.3
+  },
+  "Eau Claire County": {
+   "fips": "55035",
+   "centroid": [
+    44.7264,
+    -91.2864
+   ],
+   "latitude": 44.7,
+   "bbox": [
+    -91.6505,
+    44.5958,
+    -90.9214,
+    44.8577
+   ],
+   "coastal": false,
+   "elevation_ft": 960,
+   "zone": "4b",
+   "jan_low_f": 4,
+   "jul_high_f": 82,
+   "record_low_f": -45,
+   "record_high_f": 104,
+   "precip_in": 34.5,
+   "snow_in": 54,
+   "last_frost": "May 7",
+   "first_frost": "Oct 1",
+   "growing_days": 146,
+   "ecoregion": "Driftless Area",
+   "ecoregion_code": "52",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "WNG564",
+     "freq": "162.500",
+     "same": "055035"
+    },
+    {
+     "call": "WXJ88",
+     "freq": "162.400",
+     "same": "055035"
+    },
+    {
+     "call": "KZZ77",
+     "freq": "162.425",
+     "same": "055035"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.3
+  },
+  "Florence County": {
+   "fips": "55037",
+   "centroid": [
+    45.8718,
+    -88.407
+   ],
+   "latitude": 45.9,
+   "bbox": [
+    -88.6842,
+    45.7134,
+    -88.0579,
+    46.0207
+   ],
+   "coastal": false,
+   "elevation_ft": 1440,
+   "zone": "4b",
+   "jan_low_f": 3,
+   "jul_high_f": 78,
+   "record_low_f": -47,
+   "record_high_f": 103,
+   "precip_in": 30.4,
+   "snow_in": 66,
+   "last_frost": "May 24",
+   "first_frost": "Sep 25",
+   "growing_days": 121,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Green Bay, WI",
+   "nws_cwa": "GRB",
+   "nwr": [
+    {
+     "call": "WWG88",
+     "freq": "162.450",
+     "same": "055037"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.2
+  },
+  "Fond du Lac County": {
+   "fips": "55039",
+   "centroid": [
+    43.7547,
+    -88.4933
+   ],
+   "latitude": 43.8,
+   "bbox": [
+    -88.8859,
+    43.5423,
+    -88.1599,
+    43.938
+   ],
+   "coastal": false,
+   "elevation_ft": 830,
+   "zone": "5b",
+   "jan_low_f": 11,
+   "jul_high_f": 82,
+   "record_low_f": -28,
+   "record_high_f": 102,
+   "precip_in": 28.4,
+   "snow_in": 38,
+   "last_frost": "May 1",
+   "first_frost": "Oct 10",
+   "growing_days": 160,
+   "ecoregion": "Southeastern Wisconsin Till Plains",
+   "ecoregion_code": "53",
+   "nws_office": "Milwaukee/Sullivan, WI",
+   "nws_cwa": "MKX",
+   "nwr": [
+    {
+     "call": "WWG87",
+     "freq": "162.500",
+     "same": "055039"
+    },
+    {
+     "call": "KEC60",
+     "freq": "162.400",
+     "same": "055039"
+    },
+    {
+     "call": "WWG91",
+     "freq": "162.525",
+     "same": "055039"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.3
+  },
+  "Forest County": {
+   "fips": "55041",
+   "centroid": [
+    45.6669,
+    -88.7733
+   ],
+   "latitude": 45.7,
+   "bbox": [
+    -89.0479,
+    45.377,
+    -88.4254,
+    46.0737
+   ],
+   "coastal": false,
+   "elevation_ft": 1540,
+   "zone": "4b",
+   "jan_low_f": 4,
+   "jul_high_f": 73,
+   "record_low_f": -39,
+   "record_high_f": 102,
+   "precip_in": 34.1,
+   "snow_in": 80,
+   "last_frost": "May 19",
+   "first_frost": "Sep 29",
+   "growing_days": 131,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Green Bay, WI",
+   "nws_cwa": "GRB",
+   "nwr": [
+    {
+     "call": "WWG88",
+     "freq": "162.450",
+     "same": "055041"
+    },
+    {
+     "call": "WNG565",
+     "freq": "162.400",
+     "same": "055041"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.2
+  },
+  "Grant County": {
+   "fips": "55043",
+   "centroid": [
+    42.87,
+    -90.6942
+   ],
+   "latitude": 42.9,
+   "bbox": [
+    -91.1569,
+    42.5071,
+    -90.4259,
+    43.2115
+   ],
+   "coastal": false,
+   "elevation_ft": 1110,
+   "zone": "5a",
+   "jan_low_f": 9,
+   "jul_high_f": 81,
+   "record_low_f": -31,
+   "record_high_f": 108,
+   "precip_in": 38.5,
+   "snow_in": 37,
+   "last_frost": "Apr 27",
+   "first_frost": "Oct 11",
+   "growing_days": 166,
+   "ecoregion": "Driftless Area",
+   "ecoregion_code": "52",
+   "nws_office": "La Crosse, WI",
+   "nws_cwa": "ARX",
+   "nwr": [
+    {
+     "call": "WXL64",
+     "freq": "162.400",
+     "same": "055043"
+    },
+    {
+     "call": "WWG86",
+     "freq": "162.500",
+     "same": "055043"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.4
+  },
+  "Green County": {
+   "fips": "55045",
+   "centroid": [
+    42.6755,
+    -89.6051
+   ],
+   "latitude": 42.7,
+   "bbox": [
+    -89.8386,
+    42.5002,
+    -89.3659,
+    42.8575
+   ],
+   "coastal": false,
+   "elevation_ft": 960,
+   "zone": "5a",
+   "jan_low_f": 11,
+   "jul_high_f": 82,
+   "record_low_f": -28,
+   "record_high_f": 104,
+   "precip_in": 39.7,
+   "snow_in": 42,
+   "last_frost": "Apr 27",
+   "first_frost": "Oct 14",
+   "growing_days": 170,
+   "ecoregion": "Southeastern Wisconsin Till Plains",
+   "ecoregion_code": "53",
+   "nws_office": "Milwaukee/Sullivan, WI",
+   "nws_cwa": "MKX",
+   "nwr": [
+    {
+     "call": "KZZ56",
+     "freq": "162.450",
+     "same": "055045"
+    },
+    {
+     "call": "WWG90",
+     "freq": "162.425",
+     "same": "055045"
+    },
+    {
+     "call": "WXJ87",
+     "freq": "162.550",
+     "same": "055045"
+    },
+    {
+     "call": "KZZ57",
+     "freq": "162.475",
+     "same": "055045"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.4
+  },
+  "Green Lake County": {
+   "fips": "55047",
+   "centroid": [
+    43.7802,
+    -88.9704
+   ],
+   "latitude": 43.8,
+   "bbox": [
+    -89.2456,
+    43.6317,
+    -88.8851,
+    43.9834
+   ],
+   "coastal": false,
+   "elevation_ft": 950,
+   "zone": "5a",
+   "jan_low_f": 9,
+   "jul_high_f": 82,
+   "record_low_f": -22,
+   "record_high_f": 100,
+   "precip_in": 35.6,
+   "snow_in": 38,
+   "last_frost": "May 8",
+   "first_frost": "Oct 2",
+   "growing_days": 144,
+   "ecoregion": "Southeastern Wisconsin Till Plains",
+   "ecoregion_code": "53",
+   "nws_office": "Milwaukee/Sullivan, WI",
+   "nws_cwa": "MKX",
+   "nwr": [
+    {
+     "call": "WWF40",
+     "freq": "162.400",
+     "same": "055047"
+    },
+    {
+     "call": "WWG87",
+     "freq": "162.500",
+     "same": "055047"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.3
+  },
+  "Iowa County": {
+   "fips": "55049",
+   "centroid": [
+    43.001,
+    -90.1337
+   ],
+   "latitude": 43.0,
+   "bbox": [
+    -90.4302,
+    42.8129,
+    -89.8378,
+    43.2098
+   ],
+   "coastal": false,
+   "elevation_ft": 1190,
+   "zone": "5a",
+   "jan_low_f": 9,
+   "jul_high_f": 81,
+   "record_low_f": -33,
+   "record_high_f": 108,
+   "precip_in": 39.6,
+   "snow_in": 41,
+   "last_frost": "May 3",
+   "first_frost": "Oct 7",
+   "growing_days": 157,
+   "ecoregion": "Driftless Area",
+   "ecoregion_code": "52",
+   "nws_office": "Milwaukee/Sullivan, WI",
+   "nws_cwa": "MKX",
+   "nwr": [
+    {
+     "call": "KHA47",
+     "freq": "162.450",
+     "same": "055049"
+    },
+    {
+     "call": "WXJ87",
+     "freq": "162.550",
+     "same": "055049"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Iron County": {
+   "fips": "55051",
+   "centroid": [
+    46.3265,
+    -90.2613
+   ],
+   "latitude": 46.3,
+   "bbox": [
+    -90.5522,
+    45.9813,
+    -89.9281,
+    46.59
+   ],
+   "coastal": false,
+   "elevation_ft": 1620,
+   "zone": "4a",
+   "jan_low_f": 2,
+   "jul_high_f": 77,
+   "record_low_f": -36,
+   "record_high_f": 98,
+   "precip_in": 37.1,
+   "snow_in": 140,
+   "last_frost": "May 19",
+   "first_frost": "Sep 28",
+   "growing_days": 130,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Duluth, MN",
+   "nws_cwa": "DLH",
+   "nwr": [
+    {
+     "call": "KZZ78",
+     "freq": "162.525",
+     "same": "055051"
+    },
+    {
+     "call": "WNG683",
+     "freq": "162.550",
+     "same": "055051"
+    },
+    {
+     "call": "WXM91",
+     "freq": "162.500",
+     "same": "055051"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 5.2
+  },
+  "Jackson County": {
+   "fips": "55053",
+   "centroid": [
+    44.3246,
+    -90.7995
+   ],
+   "latitude": 44.3,
+   "bbox": [
+    -91.1664,
+    44.0708,
+    -90.3121,
+    44.5969
+   ],
+   "coastal": false,
+   "elevation_ft": 860,
+   "zone": "4b",
+   "jan_low_f": 4,
+   "jul_high_f": 81,
+   "record_low_f": -49,
+   "record_high_f": 109,
+   "precip_in": 36.8,
+   "snow_in": 41,
+   "last_frost": "May 9",
+   "first_frost": "Oct 1",
+   "growing_days": 143,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "La Crosse, WI",
+   "nws_cwa": "ARX",
+   "nwr": [
+    {
+     "call": "WNG564",
+     "freq": "162.500",
+     "same": "055053"
+    },
+    {
+     "call": "WXJ86",
+     "freq": "162.550",
+     "same": "055053"
+    },
+    {
+     "call": "KE2XKP",
+     "freq": "162.525",
+     "same": "055053"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.3
+  },
+  "Jefferson County": {
+   "fips": "55055",
+   "centroid": [
+    43.0138,
+    -88.774
+   ],
+   "latitude": 43.0,
+   "bbox": [
+    -89.0133,
+    42.842,
+    -88.5352,
+    43.1982
+   ],
+   "coastal": false,
+   "elevation_ft": 820,
+   "zone": "5b",
+   "jan_low_f": 11,
+   "jul_high_f": 82,
+   "record_low_f": -33,
+   "record_high_f": 110,
+   "precip_in": 38.7,
+   "snow_in": 42,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 18",
+   "growing_days": 173,
+   "ecoregion": "Southeastern Wisconsin Till Plains",
+   "ecoregion_code": "53",
+   "nws_office": "Milwaukee/Sullivan, WI",
+   "nws_cwa": "MKX",
+   "nwr": [
+    {
+     "call": "WXJ87",
+     "freq": "162.550",
+     "same": "055055"
+    },
+    {
+     "call": "KEC60",
+     "freq": "162.400",
+     "same": "055055"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.3
+  },
+  "Juneau County": {
+   "fips": "55057",
+   "centroid": [
+    43.9328,
+    -90.114
+   ],
+   "latitude": 43.9,
+   "bbox": [
+    -90.3135,
+    43.6409,
+    -89.7856,
+    44.2495
+   ],
+   "coastal": false,
+   "elevation_ft": 900,
+   "zone": "4b",
+   "jan_low_f": 6,
+   "jul_high_f": 84,
+   "record_low_f": -46,
+   "record_high_f": 105,
+   "precip_in": 34.1,
+   "snow_in": 34,
+   "last_frost": "May 17",
+   "first_frost": "Sep 25",
+   "growing_days": 131,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "La Crosse, WI",
+   "nws_cwa": "ARX",
+   "nwr": [
+    {
+     "call": "KHA47",
+     "freq": "162.450",
+     "same": "055057"
+    },
+    {
+     "call": "WWF40",
+     "freq": "162.400",
+     "same": "055057"
+    },
+    {
+     "call": "KE2XKP",
+     "freq": "162.525",
+     "same": "055057"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Kenosha County": {
+   "fips": "55059",
+   "centroid": [
+    42.5875,
+    -87.88
+   ],
+   "latitude": 42.6,
+   "bbox": [
+    -88.3059,
+    42.4918,
+    -87.8006,
+    42.6702
+   ],
+   "coastal": false,
+   "elevation_ft": 720,
+   "zone": "5b",
+   "jan_low_f": 16,
+   "jul_high_f": 84,
+   "record_low_f": -31,
+   "record_high_f": 105,
+   "precip_in": 31.9,
+   "snow_in": 36,
+   "last_frost": "Apr 28",
+   "first_frost": "Oct 19",
+   "growing_days": 174,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Milwaukee/Sullivan, WI",
+   "nws_cwa": "MKX",
+   "nwr": [
+    {
+     "call": "KXI41",
+     "freq": "162.500",
+     "same": "055059"
+    },
+    {
+     "call": "KEC60",
+     "freq": "162.400",
+     "same": "055059"
+    },
+    {
+     "call": "KZZ76",
+     "freq": "162.450",
+     "same": "055059"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.3
+  },
+  "Kewaunee County": {
+   "fips": "55061",
+   "centroid": [
+    44.6057,
+    -87.448
+   ],
+   "latitude": 44.6,
+   "bbox": [
+    -87.7662,
+    44.3272,
+    -87.3742,
+    44.6771
+   ],
+   "coastal": false,
+   "elevation_ft": 600,
+   "zone": "5b",
+   "jan_low_f": 11,
+   "jul_high_f": 77,
+   "record_low_f": -29,
+   "record_high_f": 104,
+   "precip_in": 30.1,
+   "snow_in": 53,
+   "last_frost": "May 6",
+   "first_frost": "Oct 17",
+   "growing_days": 163,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "Green Bay, WI",
+   "nws_cwa": "GRB",
+   "nwr": [
+    {
+     "call": "KIG65",
+     "freq": "162.550",
+     "same": "055061"
+    },
+    {
+     "call": "WXN69",
+     "freq": "162.425",
+     "same": "055061"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.2
+  },
+  "La Crosse County": {
+   "fips": "55063",
+   "centroid": [
+    43.9082,
+    -91.1118
+   ],
+   "latitude": 43.9,
+   "bbox": [
+    -91.4245,
+    43.7249,
+    -90.9101,
+    44.0894
+   ],
+   "coastal": false,
+   "elevation_ft": 750,
+   "zone": "5a",
+   "jan_low_f": 10,
+   "jul_high_f": 85,
+   "record_low_f": -37,
+   "record_high_f": 108,
+   "precip_in": 35.2,
+   "snow_in": 46,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 17",
+   "growing_days": 177,
+   "ecoregion": "Driftless Area",
+   "ecoregion_code": "52",
+   "nws_office": "La Crosse, WI",
+   "nws_cwa": "ARX",
+   "nwr": [
+    {
+     "call": "WXJ86",
+     "freq": "162.550",
+     "same": "055063"
+    },
+    {
+     "call": "KE2XKP",
+     "freq": "162.525",
+     "same": "055063"
+    },
+    {
+     "call": "KGG95",
+     "freq": "162.425",
+     "same": "055063"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Lafayette County": {
+   "fips": "55065",
+   "centroid": [
+    42.6556,
+    -90.1303
+   ],
+   "latitude": 42.7,
+   "bbox": [
+    -90.427,
+    42.5053,
+    -89.8373,
+    42.8148
+   ],
+   "coastal": false,
+   "elevation_ft": 970,
+   "zone": "5a",
+   "jan_low_f": 8,
+   "jul_high_f": 82,
+   "record_low_f": -41,
+   "record_high_f": 107,
+   "precip_in": 37.6,
+   "snow_in": 36,
+   "last_frost": "May 3",
+   "first_frost": "Oct 4",
+   "growing_days": 153,
+   "ecoregion": "Driftless Area",
+   "ecoregion_code": "52",
+   "nws_office": "Milwaukee/Sullivan, WI",
+   "nws_cwa": "MKX",
+   "nwr": [
+    {
+     "call": "WXL64",
+     "freq": "162.400",
+     "same": "055065"
+    },
+    {
+     "call": "KZZ56",
+     "freq": "162.450",
+     "same": "055065"
+    },
+    {
+     "call": "WXJ87",
+     "freq": "162.550",
+     "same": "055065"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.4
+  },
+  "Langlade County": {
+   "fips": "55067",
+   "centroid": [
+    45.2549,
+    -89.0671
+   ],
+   "latitude": 45.3,
+   "bbox": [
+    -89.426,
+    45.0288,
+    -88.6384,
+    45.47
+   ],
+   "coastal": false,
+   "elevation_ft": 1640,
+   "zone": "4b",
+   "jan_low_f": 4,
+   "jul_high_f": 78,
+   "record_low_f": -40,
+   "record_high_f": 101,
+   "precip_in": 29.4,
+   "snow_in": 54,
+   "last_frost": "May 14",
+   "first_frost": "Sep 30",
+   "growing_days": 139,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Green Bay, WI",
+   "nws_cwa": "GRB",
+   "nwr": [
+    {
+     "call": "WWG88",
+     "freq": "162.450",
+     "same": "055067"
+    },
+    {
+     "call": "WNG565",
+     "freq": "162.400",
+     "same": "055067"
+    },
+    {
+     "call": "WXJ89",
+     "freq": "162.475",
+     "same": "055067"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.2
+  },
+  "Lincoln County": {
+   "fips": "55069",
+   "centroid": [
+    45.3331,
+    -89.7322
+   ],
+   "latitude": 45.3,
+   "bbox": [
+    -90.0468,
+    45.1192,
+    -89.4242,
+    45.5562
+   ],
+   "coastal": false,
+   "elevation_ft": 1520,
+   "zone": "4b",
+   "jan_low_f": 2,
+   "jul_high_f": 76,
+   "record_low_f": -48,
+   "record_high_f": 110,
+   "precip_in": 31.5,
+   "snow_in": 62,
+   "last_frost": "May 10",
+   "first_frost": "Oct 4",
+   "growing_days": 146,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Green Bay, WI",
+   "nws_cwa": "GRB",
+   "nwr": [
+    {
+     "call": "WNG565",
+     "freq": "162.400",
+     "same": "055069"
+    },
+    {
+     "call": "WXJ89",
+     "freq": "162.475",
+     "same": "055069"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.2
+  },
+  "Manitowoc County": {
+   "fips": "55071",
+   "centroid": [
+    44.1561,
+    -87.5774
+   ],
+   "latitude": 44.2,
+   "bbox": [
+    -88.0438,
+    43.787,
+    -87.5072,
+    44.3284
+   ],
+   "coastal": false,
+   "elevation_ft": 590,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 76,
+   "record_low_f": -28,
+   "record_high_f": 99,
+   "precip_in": 32.0,
+   "snow_in": 46,
+   "last_frost": "Apr 27",
+   "first_frost": "Oct 21",
+   "growing_days": 175,
+   "ecoregion": "Southeastern Wisconsin Till Plains",
+   "ecoregion_code": "53",
+   "nws_office": "Green Bay, WI",
+   "nws_cwa": "GRB",
+   "nwr": [
+    {
+     "call": "WWG87",
+     "freq": "162.500",
+     "same": "055071"
+    },
+    {
+     "call": "KIG65",
+     "freq": "162.550",
+     "same": "055071"
+    },
+    {
+     "call": "WWG91",
+     "freq": "162.525",
+     "same": "055071"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.2
+  },
+  "Marathon County": {
+   "fips": "55073",
+   "centroid": [
+    44.898,
+    -89.7578
+   ],
+   "latitude": 44.9,
+   "bbox": [
+    -90.3169,
+    44.6812,
+    -89.2233,
+    45.1206
+   ],
+   "coastal": false,
+   "elevation_ft": 1350,
+   "zone": "4b",
+   "jan_low_f": 7,
+   "jul_high_f": 80,
+   "record_low_f": -40,
+   "record_high_f": 102,
+   "precip_in": 33.9,
+   "snow_in": 64,
+   "last_frost": "May 6",
+   "first_frost": "Oct 4",
+   "growing_days": 150,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "Green Bay, WI",
+   "nws_cwa": "GRB",
+   "nwr": [
+    {
+     "call": "WXJ89",
+     "freq": "162.475",
+     "same": "055073"
+    },
+    {
+     "call": "KZZ77",
+     "freq": "162.425",
+     "same": "055073"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.3
+  },
+  "Marinette County": {
+   "fips": "55075",
+   "centroid": [
+    45.3469,
+    -87.9912
+   ],
+   "latitude": 45.3,
+   "bbox": [
+    -88.4281,
+    44.966,
+    -87.5774,
+    45.7949
+   ],
+   "coastal": false,
+   "elevation_ft": 740,
+   "zone": "4b",
+   "jan_low_f": 4,
+   "jul_high_f": 79,
+   "record_low_f": -40,
+   "record_high_f": 104,
+   "precip_in": 32.1,
+   "snow_in": 58,
+   "last_frost": "May 26",
+   "first_frost": "Sep 22",
+   "growing_days": 118,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Green Bay, WI",
+   "nws_cwa": "GRB",
+   "nwr": [
+    {
+     "call": "WWG88",
+     "freq": "162.450",
+     "same": "055075"
+    },
+    {
+     "call": "KIG65",
+     "freq": "162.550",
+     "same": "055075"
+    },
+    {
+     "call": "WXN69",
+     "freq": "162.425",
+     "same": "055075"
+    },
+    {
+     "call": "WNG553",
+     "freq": "162.400",
+     "same": "055075"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.3
+  },
+  "Marquette County": {
+   "fips": "55077",
+   "centroid": [
+    43.8261,
+    -89.4091
+   ],
+   "latitude": 43.8,
+   "bbox": [
+    -89.6,
+    43.6423,
+    -89.1675,
+    43.9829
+   ],
+   "coastal": false,
+   "elevation_ft": 860,
+   "zone": "5a",
+   "jan_low_f": 8,
+   "jul_high_f": 82,
+   "record_low_f": -35,
+   "record_high_f": 104,
+   "precip_in": 36.3,
+   "snow_in": 42,
+   "last_frost": "May 3",
+   "first_frost": "Oct 5",
+   "growing_days": 153,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "Milwaukee/Sullivan, WI",
+   "nws_cwa": "MKX",
+   "nwr": [
+    {
+     "call": "KHA47",
+     "freq": "162.450",
+     "same": "055077"
+    },
+    {
+     "call": "WWF40",
+     "freq": "162.400",
+     "same": "055077"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.3
+  },
+  "Menominee County": {
+   "fips": "55078",
+   "centroid": [
+    44.9913,
+    -88.6693
+   ],
+   "latitude": 45.0,
+   "bbox": [
+    -88.9822,
+    44.8553,
+    -88.4837,
+    45.1181
+   ],
+   "coastal": false,
+   "elevation_ft": 1100,
+   "zone": "4b",
+   "jan_low_f": 5,
+   "jul_high_f": 78,
+   "record_low_f": -44,
+   "record_high_f": 101,
+   "precip_in": 33.8,
+   "snow_in": 55,
+   "last_frost": "May 13",
+   "first_frost": "Sep 30",
+   "growing_days": 141,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "Green Bay, WI",
+   "nws_cwa": "GRB",
+   "nwr": [
+    {
+     "call": "KIG65",
+     "freq": "162.550",
+     "same": "055078"
+    },
+    {
+     "call": "KC2XBZ",
+     "freq": "162.500",
+     "same": "055078"
+    },
+    {
+     "call": "WNG552",
+     "freq": "162.525",
+     "same": "055078"
+    },
+    {
+     "call": "WXJ89",
+     "freq": "162.475",
+     "same": "055078"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.3
+  },
+  "Milwaukee County": {
+   "fips": "55079",
+   "centroid": [
+    42.9126,
+    -87.8623
+   ],
+   "latitude": 42.9,
+   "bbox": [
+    -88.0699,
+    42.8421,
+    -87.8247,
+    43.2183
+   ],
+   "coastal": false,
+   "elevation_ft": 670,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 80,
+   "record_low_f": -26,
+   "record_high_f": 103,
+   "precip_in": 36.6,
+   "snow_in": 49,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 26",
+   "growing_days": 184,
+   "ecoregion": "Southeastern Wisconsin Till Plains",
+   "ecoregion_code": "53",
+   "nws_office": "Milwaukee/Sullivan, WI",
+   "nws_cwa": "MKX",
+   "nwr": [
+    {
+     "call": "KEC60",
+     "freq": "162.400",
+     "same": "055079"
+    },
+    {
+     "call": "KZZ76",
+     "freq": "162.450",
+     "same": "055079"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.3
+  },
+  "Monroe County": {
+   "fips": "55081",
+   "centroid": [
+    43.9452,
+    -90.62
+   ],
+   "latitude": 43.9,
+   "bbox": [
+    -90.9782,
+    43.7253,
+    -90.3118,
+    44.161
+   ],
+   "coastal": false,
+   "elevation_ft": 1020,
+   "zone": "4b",
+   "jan_low_f": 6,
+   "jul_high_f": 82,
+   "record_low_f": -48,
+   "record_high_f": 106,
+   "precip_in": 35.6,
+   "snow_in": 41,
+   "last_frost": "May 9",
+   "first_frost": "Oct 1",
+   "growing_days": 144,
+   "ecoregion": "Driftless Area",
+   "ecoregion_code": "52",
+   "nws_office": "La Crosse, WI",
+   "nws_cwa": "ARX",
+   "nwr": [
+    {
+     "call": "WNG564",
+     "freq": "162.500",
+     "same": "055081"
+    },
+    {
+     "call": "WXJ86",
+     "freq": "162.550",
+     "same": "055081"
+    },
+    {
+     "call": "KE2XKP",
+     "freq": "162.525",
+     "same": "055081"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Oconto County": {
+   "fips": "55083",
+   "centroid": [
+    44.9966,
+    -88.2065
+   ],
+   "latitude": 45.0,
+   "bbox": [
+    -88.6801,
+    44.6723,
+    -87.7601,
+    45.3787
+   ],
+   "coastal": false,
+   "elevation_ft": 830,
+   "zone": "5a",
+   "jan_low_f": 5,
+   "jul_high_f": 79,
+   "record_low_f": -44,
+   "record_high_f": 101,
+   "precip_in": 32.1,
+   "snow_in": 57,
+   "last_frost": "May 14",
+   "first_frost": "Oct 1",
+   "growing_days": 139,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "Green Bay, WI",
+   "nws_cwa": "GRB",
+   "nwr": [
+    {
+     "call": "WWG88",
+     "freq": "162.450",
+     "same": "055083"
+    },
+    {
+     "call": "KIG65",
+     "freq": "162.550",
+     "same": "055083"
+    },
+    {
+     "call": "WNG553",
+     "freq": "162.400",
+     "same": "055083"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.3
+  },
+  "Oneida County": {
+   "fips": "55085",
+   "centroid": [
+    45.7162,
+    -89.5345
+   ],
+   "latitude": 45.7,
+   "bbox": [
+    -90.0449,
+    45.4647,
+    -89.0463,
+    45.9015
+   ],
+   "coastal": false,
+   "elevation_ft": 1570,
+   "zone": "4b",
+   "jan_low_f": 4,
+   "jul_high_f": 80,
+   "record_low_f": -42,
+   "record_high_f": 108,
+   "precip_in": 29.6,
+   "snow_in": 62,
+   "last_frost": "May 26",
+   "first_frost": "Sep 23",
+   "growing_days": 120,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Green Bay, WI",
+   "nws_cwa": "GRB",
+   "nwr": [
+    {
+     "call": "WWG88",
+     "freq": "162.450",
+     "same": "055085"
+    },
+    {
+     "call": "WXM91",
+     "freq": "162.500",
+     "same": "055085"
+    },
+    {
+     "call": "WNG565",
+     "freq": "162.400",
+     "same": "055085"
+    },
+    {
+     "call": "WXJ89",
+     "freq": "162.475",
+     "same": "055085"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.2
+  },
+  "Outagamie County": {
+   "fips": "55087",
+   "centroid": [
+    44.4182,
+    -88.465
+   ],
+   "latitude": 44.4,
+   "bbox": [
+    -88.7398,
+    44.242,
+    -88.1899,
+    44.5919
+   ],
+   "coastal": false,
+   "elevation_ft": 820,
+   "zone": "5a",
+   "jan_low_f": 10,
+   "jul_high_f": 82,
+   "record_low_f": -32,
+   "record_high_f": 107,
+   "precip_in": 33.1,
+   "snow_in": 49,
+   "last_frost": "May 4",
+   "first_frost": "Oct 6",
+   "growing_days": 154,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "Green Bay, WI",
+   "nws_cwa": "GRB",
+   "nwr": [
+    {
+     "call": "KIG65",
+     "freq": "162.550",
+     "same": "055087"
+    },
+    {
+     "call": "WNG552",
+     "freq": "162.525",
+     "same": "055087"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.3
+  },
+  "Ozaukee County": {
+   "fips": "55089",
+   "centroid": [
+    43.5018,
+    -87.8476
+   ],
+   "latitude": 43.5,
+   "bbox": [
+    -88.0642,
+    43.1915,
+    -87.7921,
+    43.5434
+   ],
+   "coastal": false,
+   "elevation_ft": 730,
+   "zone": "5b",
+   "jan_low_f": 11,
+   "jul_high_f": 80,
+   "record_low_f": -29,
+   "record_high_f": 106,
+   "precip_in": 31.9,
+   "snow_in": 42,
+   "last_frost": "May 5",
+   "first_frost": "Oct 12",
+   "growing_days": 159,
+   "ecoregion": "Southeastern Wisconsin Till Plains",
+   "ecoregion_code": "53",
+   "nws_office": "Milwaukee/Sullivan, WI",
+   "nws_cwa": "MKX",
+   "nwr": [
+    {
+     "call": "KEC60",
+     "freq": "162.400",
+     "same": "055089"
+    },
+    {
+     "call": "WWG91",
+     "freq": "162.525",
+     "same": "055089"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.2
+  },
+  "Pepin County": {
+   "fips": "55091",
+   "centroid": [
+    44.6274,
+    -91.8349
+   ],
+   "latitude": 44.6,
+   "bbox": [
+    -92.3167,
+    44.4079,
+    -91.6503,
+    44.685
+   ],
+   "coastal": false,
+   "elevation_ft": 1250,
+   "zone": "4b",
+   "jan_low_f": 7,
+   "jul_high_f": 85,
+   "record_low_f": -45,
+   "record_high_f": 110,
+   "precip_in": 35.9,
+   "snow_in": 53,
+   "last_frost": "May 10",
+   "first_frost": "Oct 2",
+   "growing_days": 144,
+   "ecoregion": "Driftless Area",
+   "ecoregion_code": "52",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "WXJ88",
+     "freq": "162.400",
+     "same": "055091"
+    },
+    {
+     "call": "KJY80",
+     "freq": "162.450",
+     "same": "055091"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.3
+  },
+  "Pierce County": {
+   "fips": "55093",
+   "centroid": [
+    44.7253,
+    -92.4263
+   ],
+   "latitude": 44.7,
+   "bbox": [
+    -92.808,
+    44.5395,
+    -92.1348,
+    44.863
+   ],
+   "coastal": false,
+   "elevation_ft": 1060,
+   "zone": "4b",
+   "jan_low_f": 2,
+   "jul_high_f": 80,
+   "record_low_f": -40,
+   "record_high_f": 105,
+   "precip_in": 35.9,
+   "snow_in": 43,
+   "last_frost": "May 13",
+   "first_frost": "Sep 29",
+   "growing_days": 139,
+   "ecoregion": "Driftless Area",
+   "ecoregion_code": "52",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "WXJ88",
+     "freq": "162.400",
+     "same": "055093"
+    },
+    {
+     "call": "KEC65",
+     "freq": "162.550",
+     "same": "055093"
+    },
+    {
+     "call": "KJY80",
+     "freq": "162.450",
+     "same": "055093"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.3
+  },
+  "Polk County": {
+   "fips": "55095",
+   "centroid": [
+    45.462,
+    -92.4471
+   ],
+   "latitude": 45.5,
+   "bbox": [
+    -92.889,
+    45.2092,
+    -92.1544,
+    45.7287
+   ],
+   "coastal": false,
+   "elevation_ft": 1150,
+   "zone": "4b",
+   "jan_low_f": 5,
+   "jul_high_f": 81,
+   "record_low_f": -44,
+   "record_high_f": 101,
+   "precip_in": 32.9,
+   "snow_in": 61,
+   "last_frost": "May 6",
+   "first_frost": "Oct 4",
+   "growing_days": 149,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "WXJ88",
+     "freq": "162.400",
+     "same": "055095"
+    },
+    {
+     "call": "KEC65",
+     "freq": "162.550",
+     "same": "055095"
+    },
+    {
+     "call": "WNG678",
+     "freq": "162.425",
+     "same": "055095"
+    },
+    {
+     "call": "KZZ79",
+     "freq": "162.475",
+     "same": "055095"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.2
+  },
+  "Portage County": {
+   "fips": "55097",
+   "centroid": [
+    44.4762,
+    -89.4981
+   ],
+   "latitude": 44.5,
+   "bbox": [
+    -89.846,
+    44.2435,
+    -89.2231,
+    44.6859
+   ],
+   "coastal": false,
+   "elevation_ft": 1090,
+   "zone": "5a",
+   "jan_low_f": 7,
+   "jul_high_f": 80,
+   "record_low_f": -48,
+   "record_high_f": 108,
+   "precip_in": 34.0,
+   "snow_in": 49,
+   "last_frost": "May 4",
+   "first_frost": "Oct 7",
+   "growing_days": 155,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "Green Bay, WI",
+   "nws_cwa": "GRB",
+   "nwr": [
+    {
+     "call": "WWF40",
+     "freq": "162.400",
+     "same": "055097"
+    },
+    {
+     "call": "WNG552",
+     "freq": "162.525",
+     "same": "055097"
+    },
+    {
+     "call": "WXJ89",
+     "freq": "162.475",
+     "same": "055097"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.3
+  },
+  "Price County": {
+   "fips": "55099",
+   "centroid": [
+    45.6791,
+    -90.3597
+   ],
+   "latitude": 45.7,
+   "bbox": [
+    -90.6797,
+    45.3769,
+    -90.0423,
+    45.9821
+   ],
+   "coastal": false,
+   "elevation_ft": 1490,
+   "zone": "4a",
+   "jan_low_f": 0,
+   "jul_high_f": 79,
+   "record_low_f": -47,
+   "record_high_f": 107,
+   "precip_in": 32.4,
+   "snow_in": 62,
+   "last_frost": "May 23",
+   "first_frost": "Sep 23",
+   "growing_days": 124,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Duluth, MN",
+   "nws_cwa": "DLH",
+   "nwr": [
+    {
+     "call": "WNG577",
+     "freq": "162.550",
+     "same": "055099"
+    },
+    {
+     "call": "WXM91",
+     "freq": "162.500",
+     "same": "055099"
+    },
+    {
+     "call": "WNG565",
+     "freq": "162.400",
+     "same": "055099"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.2
+  },
+  "Racine County": {
+   "fips": "55101",
+   "centroid": [
+    42.7804,
+    -87.7716
+   ],
+   "latitude": 42.8,
+   "bbox": [
+    -88.308,
+    42.6108,
+    -87.7472,
+    42.8439
+   ],
+   "coastal": false,
+   "elevation_ft": 610,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 81,
+   "record_low_f": -31,
+   "record_high_f": 107,
+   "precip_in": 31.8,
+   "snow_in": 41,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 24",
+   "growing_days": 180,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Milwaukee/Sullivan, WI",
+   "nws_cwa": "MKX",
+   "nwr": [
+    {
+     "call": "KEC60",
+     "freq": "162.400",
+     "same": "055101"
+    },
+    {
+     "call": "KZZ76",
+     "freq": "162.450",
+     "same": "055101"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.3
+  },
+  "Richland County": {
+   "fips": "55103",
+   "centroid": [
+    43.3762,
+    -90.4357
+   ],
+   "latitude": 43.4,
+   "bbox": [
+    -90.6716,
+    43.1644,
+    -90.1915,
+    43.5549
+   ],
+   "coastal": false,
+   "elevation_ft": 770,
+   "zone": "4b",
+   "jan_low_f": 8,
+   "jul_high_f": 82,
+   "record_low_f": -46,
+   "record_high_f": 110,
+   "precip_in": 39.5,
+   "snow_in": 40,
+   "last_frost": "May 5",
+   "first_frost": "Oct 6",
+   "growing_days": 154,
+   "ecoregion": "Driftless Area",
+   "ecoregion_code": "52",
+   "nws_office": "La Crosse, WI",
+   "nws_cwa": "ARX",
+   "nwr": [
+    {
+     "call": "KHA47",
+     "freq": "162.450",
+     "same": "055103"
+    },
+    {
+     "call": "WWG89",
+     "freq": "162.475",
+     "same": "055103"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Rock County": {
+   "fips": "55105",
+   "centroid": [
+    42.6699,
+    -89.0753
+   ],
+   "latitude": 42.7,
+   "bbox": [
+    -89.3692,
+    42.492,
+    -88.7763,
+    42.8478
+   ],
+   "coastal": false,
+   "elevation_ft": 870,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 83,
+   "record_low_f": -31,
+   "record_high_f": 103,
+   "precip_in": 37.4,
+   "snow_in": 37,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 15",
+   "growing_days": 170,
+   "ecoregion": "Southeastern Wisconsin Till Plains",
+   "ecoregion_code": "53",
+   "nws_office": "Milwaukee/Sullivan, WI",
+   "nws_cwa": "MKX",
+   "nwr": [
+    {
+     "call": "WWG90",
+     "freq": "162.425",
+     "same": "055105"
+    },
+    {
+     "call": "WXJ87",
+     "freq": "162.550",
+     "same": "055105"
+    },
+    {
+     "call": "KZZ57",
+     "freq": "162.475",
+     "same": "055105"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.4
+  },
+  "Rusk County": {
+   "fips": "55107",
+   "centroid": [
+    45.4727,
+    -91.1367
+   ],
+   "latitude": 45.5,
+   "bbox": [
+    -91.5412,
+    45.2915,
+    -90.678,
+    45.6393
+   ],
+   "coastal": false,
+   "elevation_ft": 1160,
+   "zone": "4a",
+   "jan_low_f": 2,
+   "jul_high_f": 78,
+   "record_low_f": -42,
+   "record_high_f": 102,
+   "precip_in": 35.8,
+   "snow_in": 52,
+   "last_frost": "May 27",
+   "first_frost": "Sep 22",
+   "growing_days": 117,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "WNG577",
+     "freq": "162.550",
+     "same": "055107"
+    },
+    {
+     "call": "WXJ88",
+     "freq": "162.400",
+     "same": "055107"
+    },
+    {
+     "call": "KZZ77",
+     "freq": "162.425",
+     "same": "055107"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.2
+  },
+  "St. Croix County": {
+   "fips": "55109",
+   "centroid": [
+    45.029,
+    -92.4473
+   ],
+   "latitude": 45.0,
+   "bbox": [
+    -92.803,
+    44.8576,
+    -92.1353,
+    45.2104
+   ],
+   "coastal": false,
+   "elevation_ft": 1070,
+   "zone": "4b",
+   "jan_low_f": 2,
+   "jul_high_f": 79,
+   "record_low_f": -33,
+   "record_high_f": 100,
+   "precip_in": 33.0,
+   "snow_in": 43,
+   "last_frost": "May 6",
+   "first_frost": "Oct 2",
+   "growing_days": 148,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "WXJ88",
+     "freq": "162.400",
+     "same": "055109"
+    },
+    {
+     "call": "KEC65",
+     "freq": "162.550",
+     "same": "055109"
+    },
+    {
+     "call": "KJY80",
+     "freq": "162.450",
+     "same": "055109"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.2
+  },
+  "Sauk County": {
+   "fips": "55111",
+   "centroid": [
+    43.428,
+    -89.9433
+   ],
+   "latitude": 43.4,
+   "bbox": [
+    -90.3124,
+    43.1454,
+    -89.5993,
+    43.6422
+   ],
+   "coastal": false,
+   "elevation_ft": 1040,
+   "zone": "5a",
+   "jan_low_f": 12,
+   "jul_high_f": 80,
+   "record_low_f": -42,
+   "record_high_f": 104,
+   "precip_in": 39.6,
+   "snow_in": 44,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 20",
+   "growing_days": 178,
+   "ecoregion": "Driftless Area",
+   "ecoregion_code": "52",
+   "nws_office": "Milwaukee/Sullivan, WI",
+   "nws_cwa": "MKX",
+   "nwr": [
+    {
+     "call": "KHA47",
+     "freq": "162.450",
+     "same": "055111"
+    },
+    {
+     "call": "WXJ87",
+     "freq": "162.550",
+     "same": "055111"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.3
+  },
+  "Sawyer County": {
+   "fips": "55113",
+   "centroid": [
+    45.865,
+    -91.1471
+   ],
+   "latitude": 45.9,
+   "bbox": [
+    -91.5515,
+    45.6375,
+    -90.677,
+    46.1577
+   ],
+   "coastal": false,
+   "elevation_ft": 1460,
+   "zone": "4a",
+   "jan_low_f": 2,
+   "jul_high_f": 78,
+   "record_low_f": -52,
+   "record_high_f": 107,
+   "precip_in": 35.2,
+   "snow_in": 57,
+   "last_frost": "May 19",
+   "first_frost": "Sep 27",
+   "growing_days": 129,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Duluth, MN",
+   "nws_cwa": "DLH",
+   "nwr": [
+    {
+     "call": "WNG577",
+     "freq": "162.550",
+     "same": "055113"
+    },
+    {
+     "call": "WXM91",
+     "freq": "162.500",
+     "same": "055113"
+    },
+    {
+     "call": "KZZ79",
+     "freq": "162.475",
+     "same": "055113"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.2
+  },
+  "Shawano County": {
+   "fips": "55115",
+   "centroid": [
+    44.7896,
+    -88.7558
+   ],
+   "latitude": 44.8,
+   "bbox": [
+    -89.2244,
+    44.5848,
+    -88.2429,
+    45.0298
+   ],
+   "coastal": false,
+   "elevation_ft": 930,
+   "zone": "5a",
+   "jan_low_f": 6,
+   "jul_high_f": 81,
+   "record_low_f": -39,
+   "record_high_f": 109,
+   "precip_in": 33.1,
+   "snow_in": 48,
+   "last_frost": "May 9",
+   "first_frost": "Oct 2",
+   "growing_days": 144,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "Green Bay, WI",
+   "nws_cwa": "GRB",
+   "nwr": [
+    {
+     "call": "KIG65",
+     "freq": "162.550",
+     "same": "055115"
+    },
+    {
+     "call": "KC2XBZ",
+     "freq": "162.500",
+     "same": "055115"
+    },
+    {
+     "call": "WNG552",
+     "freq": "162.525",
+     "same": "055115"
+    },
+    {
+     "call": "WXJ89",
+     "freq": "162.475",
+     "same": "055115"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.3
+  },
+  "Sheboygan County": {
+   "fips": "55117",
+   "centroid": [
+    43.7387,
+    -87.7315
+   ],
+   "latitude": 43.7,
+   "bbox": [
+    -88.162,
+    43.5417,
+    -87.6956,
+    43.8925
+   ],
+   "coastal": false,
+   "elevation_ft": 660,
+   "zone": "5b",
+   "jan_low_f": 15,
+   "jul_high_f": 82,
+   "record_low_f": -26,
+   "record_high_f": 108,
+   "precip_in": 34.7,
+   "snow_in": 49,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 23",
+   "growing_days": 179,
+   "ecoregion": "Southeastern Wisconsin Till Plains",
+   "ecoregion_code": "53",
+   "nws_office": "Milwaukee/Sullivan, WI",
+   "nws_cwa": "MKX",
+   "nwr": [
+    {
+     "call": "WWG87",
+     "freq": "162.500",
+     "same": "055117"
+    },
+    {
+     "call": "KEC60",
+     "freq": "162.400",
+     "same": "055117"
+    },
+    {
+     "call": "WWG91",
+     "freq": "162.525",
+     "same": "055117"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.2
+  },
+  "Taylor County": {
+   "fips": "55119",
+   "centroid": [
+    45.2117,
+    -90.5049
+   ],
+   "latitude": 45.2,
+   "bbox": [
+    -90.926,
+    45.0308,
+    -90.0422,
+    45.3826
+   ],
+   "coastal": false,
+   "elevation_ft": 1460,
+   "zone": "4a",
+   "jan_low_f": 2,
+   "jul_high_f": 79,
+   "record_low_f": -45,
+   "record_high_f": 104,
+   "precip_in": 34.2,
+   "snow_in": 57,
+   "last_frost": "May 11",
+   "first_frost": "Oct 1",
+   "growing_days": 141,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "La Crosse, WI",
+   "nws_cwa": "ARX",
+   "nwr": [
+    {
+     "call": "WNG577",
+     "freq": "162.550",
+     "same": "055119"
+    },
+    {
+     "call": "WXJ89",
+     "freq": "162.475",
+     "same": "055119"
+    },
+    {
+     "call": "KZZ77",
+     "freq": "162.425",
+     "same": "055119"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.2
+  },
+  "Trempealeau County": {
+   "fips": "55121",
+   "centroid": [
+    44.303,
+    -91.3589
+   ],
+   "latitude": 44.3,
+   "bbox": [
+    -91.6127,
+    43.9841,
+    -91.1519,
+    44.5971
+   ],
+   "coastal": false,
+   "elevation_ft": 1220,
+   "zone": "4b",
+   "jan_low_f": 4,
+   "jul_high_f": 81,
+   "record_low_f": -49,
+   "record_high_f": 109,
+   "precip_in": 35.6,
+   "snow_in": 41,
+   "last_frost": "May 9",
+   "first_frost": "Oct 1",
+   "growing_days": 143,
+   "ecoregion": "Driftless Area",
+   "ecoregion_code": "52",
+   "nws_office": "La Crosse, WI",
+   "nws_cwa": "ARX",
+   "nwr": [
+    {
+     "call": "WNG564",
+     "freq": "162.500",
+     "same": "055121"
+    },
+    {
+     "call": "WXJ86",
+     "freq": "162.550",
+     "same": "055121"
+    },
+    {
+     "call": "WXJ88",
+     "freq": "162.400",
+     "same": "055121"
+    },
+    {
+     "call": "KGG95",
+     "freq": "162.425",
+     "same": "055121"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.3
+  },
+  "Vernon County": {
+   "fips": "55123",
+   "centroid": [
+    43.5994,
+    -90.822
+   ],
+   "latitude": 43.6,
+   "bbox": [
+    -91.273,
+    43.4223,
+    -90.3109,
+    43.7313
+   ],
+   "coastal": false,
+   "elevation_ft": 1230,
+   "zone": "5a",
+   "jan_low_f": 6,
+   "jul_high_f": 79,
+   "record_low_f": -42,
+   "record_high_f": 108,
+   "precip_in": 38.0,
+   "snow_in": 47,
+   "last_frost": "May 7",
+   "first_frost": "Oct 2",
+   "growing_days": 148,
+   "ecoregion": "Driftless Area",
+   "ecoregion_code": "52",
+   "nws_office": "La Crosse, WI",
+   "nws_cwa": "ARX",
+   "nwr": [
+    {
+     "call": "KHA47",
+     "freq": "162.450",
+     "same": "055123"
+    },
+    {
+     "call": "WXJ86",
+     "freq": "162.550",
+     "same": "055123"
+    },
+    {
+     "call": "WWG89",
+     "freq": "162.475",
+     "same": "055123"
+    },
+    {
+     "call": "KE2XKP",
+     "freq": "162.525",
+     "same": "055123"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Vilas County": {
+   "fips": "55125",
+   "centroid": [
+    46.0498,
+    -89.5013
+   ],
+   "latitude": 46.0,
+   "bbox": [
+    -90.044,
+    45.8566,
+    -88.9327,
+    46.2998
+   ],
+   "coastal": false,
+   "elevation_ft": 1680,
+   "zone": "4b",
+   "jan_low_f": 0,
+   "jul_high_f": 75,
+   "record_low_f": -43,
+   "record_high_f": 97,
+   "precip_in": 33.6,
+   "snow_in": 74,
+   "last_frost": "May 19",
+   "first_frost": "Oct 3",
+   "growing_days": 136,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Green Bay, WI",
+   "nws_cwa": "GRB",
+   "nwr": [
+    {
+     "call": "WWG88",
+     "freq": "162.450",
+     "same": "055125"
+    },
+    {
+     "call": "WNG683",
+     "freq": "162.550",
+     "same": "055125"
+    },
+    {
+     "call": "WXM91",
+     "freq": "162.500",
+     "same": "055125"
+    },
+    {
+     "call": "WNG565",
+     "freq": "162.400",
+     "same": "055125"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.2
+  },
+  "Walworth County": {
+   "fips": "55127",
+   "centroid": [
+    42.6681,
+    -88.5417
+   ],
+   "latitude": 42.7,
+   "bbox": [
+    -88.7788,
+    42.492,
+    -88.3043,
+    42.8433
+   ],
+   "coastal": false,
+   "elevation_ft": 1010,
+   "zone": "5b",
+   "jan_low_f": 13,
+   "jul_high_f": 83,
+   "record_low_f": -27,
+   "record_high_f": 106,
+   "precip_in": 36.7,
+   "snow_in": 40,
+   "last_frost": "Apr 28",
+   "first_frost": "Oct 14",
+   "growing_days": 168,
+   "ecoregion": "Southeastern Wisconsin Till Plains",
+   "ecoregion_code": "53",
+   "nws_office": "Milwaukee/Sullivan, WI",
+   "nws_cwa": "MKX",
+   "nwr": [
+    {
+     "call": "KXI41",
+     "freq": "162.500",
+     "same": "055127"
+    },
+    {
+     "call": "WWG90",
+     "freq": "162.425",
+     "same": "055127"
+    },
+    {
+     "call": "KEC60",
+     "freq": "162.400",
+     "same": "055127"
+    },
+    {
+     "call": "KZZ76",
+     "freq": "162.450",
+     "same": "055127"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Washburn County": {
+   "fips": "55129",
+   "centroid": [
+    45.8925,
+    -91.7964
+   ],
+   "latitude": 45.9,
+   "bbox": [
+    -92.0506,
+    45.6376,
+    -91.5402,
+    46.1579
+   ],
+   "coastal": false,
+   "elevation_ft": 1210,
+   "zone": "4a",
+   "jan_low_f": 1,
+   "jul_high_f": 80,
+   "record_low_f": -46,
+   "record_high_f": 110,
+   "precip_in": 31.6,
+   "snow_in": 56,
+   "last_frost": "May 14",
+   "first_frost": "Sep 28",
+   "growing_days": 135,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Duluth, MN",
+   "nws_cwa": "DLH",
+   "nwr": [
+    {
+     "call": "WNG577",
+     "freq": "162.550",
+     "same": "055129"
+    },
+    {
+     "call": "KZZ79",
+     "freq": "162.475",
+     "same": "055129"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.2
+  },
+  "Washington County": {
+   "fips": "55131",
+   "centroid": [
+    43.3912,
+    -88.2329
+   ],
+   "latitude": 43.4,
+   "bbox": [
+    -88.4194,
+    43.1915,
+    -88.0399,
+    43.5435
+   ],
+   "coastal": false,
+   "elevation_ft": 1130,
+   "zone": "5a",
+   "jan_low_f": 11,
+   "jul_high_f": 82,
+   "record_low_f": -30,
+   "record_high_f": 107,
+   "precip_in": 35.8,
+   "snow_in": 36,
+   "last_frost": "May 1",
+   "first_frost": "Oct 12",
+   "growing_days": 161,
+   "ecoregion": "Southeastern Wisconsin Till Plains",
+   "ecoregion_code": "53",
+   "nws_office": "Milwaukee/Sullivan, WI",
+   "nws_cwa": "MKX",
+   "nwr": [
+    {
+     "call": "WWG87",
+     "freq": "162.500",
+     "same": "055131"
+    },
+    {
+     "call": "KEC60",
+     "freq": "162.400",
+     "same": "055131"
+    },
+    {
+     "call": "WWG91",
+     "freq": "162.525",
+     "same": "055131"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.3
+  },
+  "Waukesha County": {
+   "fips": "55133",
+   "centroid": [
+    43.0184,
+    -88.3042
+   ],
+   "latitude": 43.0,
+   "bbox": [
+    -88.5423,
+    42.8413,
+    -88.0638,
+    43.196
+   ],
+   "coastal": false,
+   "elevation_ft": 1000,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 81,
+   "record_low_f": -28,
+   "record_high_f": 109,
+   "precip_in": 36.0,
+   "snow_in": 37,
+   "last_frost": "May 1",
+   "first_frost": "Oct 13",
+   "growing_days": 162,
+   "ecoregion": "Southeastern Wisconsin Till Plains",
+   "ecoregion_code": "53",
+   "nws_office": "Milwaukee/Sullivan, WI",
+   "nws_cwa": "MKX",
+   "nwr": [
+    {
+     "call": "KEC60",
+     "freq": "162.400",
+     "same": "055133"
+    },
+    {
+     "call": "KZZ76",
+     "freq": "162.450",
+     "same": "055133"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.3
+  },
+  "Waupaca County": {
+   "fips": "55135",
+   "centroid": [
+    44.478,
+    -88.967
+   ],
+   "latitude": 44.5,
+   "bbox": [
+    -89.2249,
+    44.2425,
+    -88.6052,
+    44.6815
+   ],
+   "coastal": false,
+   "elevation_ft": 850,
+   "zone": "5a",
+   "jan_low_f": 8,
+   "jul_high_f": 82,
+   "record_low_f": -41,
+   "record_high_f": 106,
+   "precip_in": 33.8,
+   "snow_in": 49,
+   "last_frost": "May 8",
+   "first_frost": "Oct 6",
+   "growing_days": 151,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "Green Bay, WI",
+   "nws_cwa": "GRB",
+   "nwr": [
+    {
+     "call": "KC2XBZ",
+     "freq": "162.500",
+     "same": "055135"
+    },
+    {
+     "call": "WNG552",
+     "freq": "162.525",
+     "same": "055135"
+    },
+    {
+     "call": "WXJ89",
+     "freq": "162.475",
+     "same": "055135"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.3
+  },
+  "Waushara County": {
+   "fips": "55137",
+   "centroid": [
+    44.1128,
+    -89.2398
+   ],
+   "latitude": 44.1,
+   "bbox": [
+    -89.5983,
+    43.982,
+    -88.8857,
+    44.2456
+   ],
+   "coastal": false,
+   "elevation_ft": 1010,
+   "zone": "4b",
+   "jan_low_f": 7,
+   "jul_high_f": 82,
+   "record_low_f": -43,
+   "record_high_f": 112,
+   "precip_in": 34.3,
+   "snow_in": 43,
+   "last_frost": "May 10",
+   "first_frost": "Oct 3",
+   "growing_days": 146,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "Green Bay, WI",
+   "nws_cwa": "GRB",
+   "nwr": [
+    {
+     "call": "WWF40",
+     "freq": "162.400",
+     "same": "055137"
+    },
+    {
+     "call": "WWG87",
+     "freq": "162.500",
+     "same": "055137"
+    },
+    {
+     "call": "WNG552",
+     "freq": "162.525",
+     "same": "055137"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.3
+  },
+  "Winnebago County": {
+   "fips": "55139",
+   "centroid": [
+    44.0857,
+    -88.6681
+   ],
+   "latitude": 44.1,
+   "bbox": [
+    -88.8868,
+    43.8928,
+    -88.403,
+    44.2444
+   ],
+   "coastal": false,
+   "elevation_ft": 750,
+   "zone": "5b",
+   "jan_low_f": 10,
+   "jul_high_f": 82,
+   "record_low_f": -34,
+   "record_high_f": 107,
+   "precip_in": 33.3,
+   "snow_in": 39,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 20",
+   "growing_days": 178,
+   "ecoregion": "Southeastern Wisconsin Till Plains",
+   "ecoregion_code": "53",
+   "nws_office": "Green Bay, WI",
+   "nws_cwa": "GRB",
+   "nwr": [
+    {
+     "call": "WWG87",
+     "freq": "162.500",
+     "same": "055139"
+    },
+    {
+     "call": "KIG65",
+     "freq": "162.550",
+     "same": "055139"
+    },
+    {
+     "call": "WNG552",
+     "freq": "162.525",
+     "same": "055139"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.3
+  },
+  "Wood County": {
+   "fips": "55141",
+   "centroid": [
+    44.4614,
+    -90.0388
+   ],
+   "latitude": 44.5,
+   "bbox": [
+    -90.3181,
+    44.2477,
+    -89.7245,
+    44.6854
+   ],
+   "coastal": false,
+   "elevation_ft": 1060,
+   "zone": "4b",
+   "jan_low_f": 8,
+   "jul_high_f": 82,
+   "record_low_f": -32,
+   "record_high_f": 102,
+   "precip_in": 31.3,
+   "snow_in": 48,
+   "last_frost": "May 8",
+   "first_frost": "Oct 1",
+   "growing_days": 145,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "Green Bay, WI",
+   "nws_cwa": "GRB",
+   "nwr": [
+    {
+     "call": "WNG564",
+     "freq": "162.500",
+     "same": "055141"
+    },
+    {
+     "call": "WWF40",
+     "freq": "162.400",
+     "same": "055141"
+    },
+    {
+     "call": "KE2XKP",
+     "freq": "162.525",
+     "same": "055141"
+    },
+    {
+     "call": "WXJ89",
+     "freq": "162.475",
+     "same": "055141"
+    },
+    {
+     "call": "KZZ77",
+     "freq": "162.425",
+     "same": "055141"
+    }
+   ],
+   "state_em": "Wisconsin Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.3
+  }
+ }
+}

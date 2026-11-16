@@ -1,0 +1,1911 @@
+{
+ "state": "NM",
+ "state_name": "New Mexico",
+ "state_fips": "35",
+ "state_em": "New Mexico Department of Homeland Security and Emergency Management",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "ABQ": "NWS Albuquerque, NM",
+  "EPZ": "NWS El Paso Tx/Santa Teresa, NM",
+  "MAF": "NWS Midland/Odessa, TX"
+ },
+ "ecoregions": [
+  "Colorado Plateaus",
+  "Southern Rockies",
+  "Arizona/New Mexico Plateau",
+  "Arizona/New Mexico Mountains",
+  "Chihuahuan Deserts",
+  "High Plains",
+  "Southwestern Tablelands",
+  "Madrean Archipelago"
+ ],
+ "counties": {
+  "Bernalillo County": {
+   "fips": "35001",
+   "centroid": [
+    35.0536,
+    -106.6691
+   ],
+   "latitude": 35.1,
+   "bbox": [
+    -107.1959,
+    34.8691,
+    -106.1496,
+    35.2196
+   ],
+   "coastal": false,
+   "elevation_ft": 4940,
+   "zone": "7b",
+   "jan_low_f": 22,
+   "jul_high_f": 92,
+   "record_low_f": -5,
+   "record_high_f": 105,
+   "precip_in": 9.7,
+   "snow_in": 7,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 24",
+   "growing_days": 189,
+   "ecoregion": "Arizona/New Mexico Plateau",
+   "ecoregion_code": "22",
+   "nws_office": "Albuquerque, NM",
+   "nws_cwa": "ABQ",
+   "nwr": [
+    {
+     "call": "WXJ34",
+     "freq": "162.400",
+     "same": "035001"
+    }
+   ],
+   "state_em": "New Mexico Department of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.8,
+   "sun_hours_jun": 7.2
+  },
+  "Catron County": {
+   "fips": "35003",
+   "centroid": [
+    33.9016,
+    -108.3919
+   ],
+   "latitude": 33.9,
+   "bbox": [
+    -109.0473,
+    33.2009,
+    -107.7113,
+    34.581
+   ],
+   "coastal": false,
+   "elevation_ft": 7730,
+   "zone": "6b",
+   "jan_low_f": 14,
+   "jul_high_f": 85,
+   "record_low_f": -32,
+   "record_high_f": 101,
+   "precip_in": 17.6,
+   "snow_in": 18,
+   "last_frost": "Jun 17",
+   "first_frost": "Sep 21",
+   "growing_days": 93,
+   "ecoregion": "Arizona/New Mexico Mountains",
+   "ecoregion_code": "23",
+   "nws_office": "Albuquerque, NM",
+   "nws_cwa": "ABQ",
+   "nwr": [],
+   "state_em": "New Mexico Department of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 5.1,
+   "sun_hours_jun": 6.9
+  },
+  "Chaves County": {
+   "fips": "35005",
+   "centroid": [
+    33.3616,
+    -104.4698
+   ],
+   "latitude": 33.4,
+   "bbox": [
+    -105.3539,
+    32.5186,
+    -103.5097,
+    34.0889
+   ],
+   "coastal": false,
+   "elevation_ft": 3550,
+   "zone": "7b",
+   "jan_low_f": 23,
+   "jul_high_f": 94,
+   "record_low_f": -19,
+   "record_high_f": 114,
+   "precip_in": 11.6,
+   "snow_in": 10,
+   "last_frost": "Apr 13",
+   "first_frost": "Oct 30",
+   "growing_days": 197,
+   "ecoregion": "Chihuahuan Deserts",
+   "ecoregion_code": "24",
+   "nws_office": "Albuquerque, NM",
+   "nws_cwa": "ABQ",
+   "nwr": [
+    {
+     "call": "WWG36",
+     "freq": "162.450",
+     "same": "035005"
+    },
+    {
+     "call": "WXJ38",
+     "freq": "162.550",
+     "same": "035005"
+    }
+   ],
+   "state_em": "New Mexico Department of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.9,
+   "sun_hours_jun": 6.9
+  },
+  "Cibola County": {
+   "fips": "35006",
+   "centroid": [
+    34.9283,
+    -107.9927
+   ],
+   "latitude": 34.9,
+   "bbox": [
+    -109.0462,
+    34.5776,
+    -107.0669,
+    35.3483
+   ],
+   "coastal": false,
+   "elevation_ft": 7110,
+   "zone": "6a",
+   "jan_low_f": 14,
+   "jul_high_f": 85,
+   "record_low_f": -38,
+   "record_high_f": 100,
+   "precip_in": 13.9,
+   "snow_in": 38,
+   "last_frost": "Jun 3",
+   "first_frost": "Sep 27",
+   "growing_days": 114,
+   "ecoregion": "Arizona/New Mexico Plateau",
+   "ecoregion_code": "22",
+   "nws_office": "Albuquerque, NM",
+   "nws_cwa": "ABQ",
+   "nwr": [
+    {
+     "call": "WWF99",
+     "freq": "162.550",
+     "same": "035006"
+    }
+   ],
+   "state_em": "New Mexico Department of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 5.0,
+   "sun_hours_jun": 7.0
+  },
+  "Colfax County": {
+   "fips": "35007",
+   "centroid": [
+    36.613,
+    -104.6401
+   ],
+   "latitude": 36.6,
+   "bbox": [
+    -105.3774,
+    36.2176,
+    -104.0075,
+    36.9962
+   ],
+   "coastal": false,
+   "elevation_ft": 6150,
+   "zone": "6a",
+   "jan_low_f": 12,
+   "jul_high_f": 86,
+   "record_low_f": -35,
+   "record_high_f": 100,
+   "precip_in": 14.1,
+   "snow_in": 21,
+   "last_frost": "May 17",
+   "first_frost": "Oct 1",
+   "growing_days": 135,
+   "ecoregion": "Southwestern Tablelands",
+   "ecoregion_code": "26",
+   "nws_office": "Albuquerque, NM",
+   "nws_cwa": "ABQ",
+   "nwr": [
+    {
+     "call": "WXL90",
+     "freq": "162.550",
+     "same": "035007"
+    }
+   ],
+   "state_em": "New Mexico Department of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.8,
+   "sun_hours_jun": 6.7
+  },
+  "Curry County": {
+   "fips": "35009",
+   "centroid": [
+    34.573,
+    -103.3461
+   ],
+   "latitude": 34.6,
+   "bbox": [
+    -103.74,
+    34.3025,
+    -103.0425,
+    34.9544
+   ],
+   "coastal": false,
+   "elevation_ft": 4430,
+   "zone": "7a",
+   "jan_low_f": 22,
+   "jul_high_f": 91,
+   "record_low_f": -17,
+   "record_high_f": 109,
+   "precip_in": 17.6,
+   "snow_in": 9,
+   "last_frost": "Apr 20",
+   "first_frost": "Oct 24",
+   "growing_days": 184,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Albuquerque, NM",
+   "nws_cwa": "ABQ",
+   "nwr": [
+    {
+     "call": "WXJ35",
+     "freq": "162.475",
+     "same": "035009"
+    },
+    {
+     "call": "WNG657",
+     "freq": "162.500",
+     "same": "035009"
+    }
+   ],
+   "state_em": "New Mexico Department of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.9,
+   "sun_hours_jun": 7.0
+  },
+  "De Baca County": {
+   "fips": "35011",
+   "centroid": [
+    34.3593,
+    -104.3687
+   ],
+   "latitude": 34.4,
+   "bbox": [
+    -104.893,
+    33.9954,
+    -103.9456,
+    34.7795
+   ],
+   "coastal": false,
+   "elevation_ft": 4400,
+   "zone": "7a",
+   "jan_low_f": 23,
+   "jul_high_f": 95,
+   "record_low_f": -27,
+   "record_high_f": 109,
+   "precip_in": 14.6,
+   "snow_in": 12,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 26",
+   "growing_days": 190,
+   "ecoregion": "Southwestern Tablelands",
+   "ecoregion_code": "26",
+   "nws_office": "Albuquerque, NM",
+   "nws_cwa": "ABQ",
+   "nwr": [],
+   "state_em": "New Mexico Department of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 5.0,
+   "sun_hours_jun": 7.1
+  },
+  "DoÃ±a Ana County": {
+   "fips": "35013",
+   "centroid": [
+    32.3499,
+    -106.835
+   ],
+   "latitude": 32.3,
+   "bbox": [
+    -107.2997,
+    31.7835,
+    -106.3405,
+    33.0528
+   ],
+   "coastal": false,
+   "elevation_ft": 3910,
+   "zone": "8b",
+   "jan_low_f": 30,
+   "jul_high_f": 96,
+   "record_low_f": -8,
+   "record_high_f": 110,
+   "precip_in": 9.1,
+   "snow_in": 1,
+   "last_frost": "Mar 12",
+   "first_frost": "Nov 13",
+   "growing_days": 241,
+   "ecoregion": "Chihuahuan Deserts",
+   "ecoregion_code": "24",
+   "nws_office": "El Paso Tx/Santa Teresa, NM",
+   "nws_cwa": "EPZ",
+   "nwr": [
+    {
+     "call": "WNG652",
+     "freq": "162.550",
+     "same": "035013"
+    },
+    {
+     "call": "WXK25",
+     "freq": "162.475",
+     "same": "035013"
+    },
+    {
+     "call": "WXL91",
+     "freq": "162.400",
+     "same": "035013"
+    }
+   ],
+   "state_em": "New Mexico Department of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 5.2,
+   "sun_hours_jun": 7.1
+  },
+  "Eddy County": {
+   "fips": "35015",
+   "centroid": [
+    32.4578,
+    -104.3064
+   ],
+   "latitude": 32.5,
+   "bbox": [
+    -104.8522,
+    31.9991,
+    -103.7223,
+    32.9657
+   ],
+   "coastal": false,
+   "elevation_ft": 3350,
+   "zone": "8a",
+   "jan_low_f": 28,
+   "jul_high_f": 96,
+   "record_low_f": -6,
+   "record_high_f": 116,
+   "precip_in": 12.8,
+   "snow_in": 4,
+   "last_frost": "Mar 25",
+   "first_frost": "Nov 8",
+   "growing_days": 226,
+   "ecoregion": "Chihuahuan Deserts",
+   "ecoregion_code": "24",
+   "nws_office": "Midland/Odessa, TX",
+   "nws_cwa": "MAF",
+   "nwr": [
+    {
+     "call": "WXN24",
+     "freq": "162.425",
+     "same": "035015"
+    },
+    {
+     "call": "WWF37",
+     "freq": "162.475",
+     "same": "035015"
+    },
+    {
+     "call": "WXJ36",
+     "freq": "162.400",
+     "same": "035015"
+    }
+   ],
+   "state_em": "New Mexico Department of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 5.1,
+   "sun_hours_jun": 7.0
+  },
+  "Grant County": {
+   "fips": "35017",
+   "centroid": [
+    32.7321,
+    -108.3815
+   ],
+   "latitude": 32.7,
+   "bbox": [
+    -109.0472,
+    31.8637,
+    -107.6186,
+    33.2099
+   ],
+   "coastal": false,
+   "elevation_ft": 5970,
+   "zone": "7b",
+   "jan_low_f": 26,
+   "jul_high_f": 88,
+   "record_low_f": -18,
+   "record_high_f": 104,
+   "precip_in": 15.2,
+   "snow_in": 13,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 26",
+   "growing_days": 185,
+   "ecoregion": "Arizona/New Mexico Mountains",
+   "ecoregion_code": "23",
+   "nws_office": "El Paso Tx/Santa Teresa, NM",
+   "nws_cwa": "EPZ",
+   "nwr": [
+    {
+     "call": "WZ2516",
+     "freq": "162.425",
+     "same": "035017"
+    }
+   ],
+   "state_em": "New Mexico Department of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 5.3,
+   "sun_hours_jun": 7.2
+  },
+  "Guadalupe County": {
+   "fips": "35019",
+   "centroid": [
+    34.8697,
+    -104.7849
+   ],
+   "latitude": 34.9,
+   "bbox": [
+    -105.313,
+    34.3467,
+    -104.1248,
+    35.2171
+   ],
+   "coastal": false,
+   "elevation_ft": 4920,
+   "zone": "7a",
+   "jan_low_f": 25,
+   "jul_high_f": 93,
+   "record_low_f": -25,
+   "record_high_f": 109,
+   "precip_in": 15.0,
+   "snow_in": 11,
+   "last_frost": "Apr 20",
+   "first_frost": "Oct 23",
+   "growing_days": 183,
+   "ecoregion": "Southwestern Tablelands",
+   "ecoregion_code": "26",
+   "nws_office": "Albuquerque, NM",
+   "nws_cwa": "ABQ",
+   "nwr": [],
+   "state_em": "New Mexico Department of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 5.0,
+   "sun_hours_jun": 7.1
+  },
+  "Harding County": {
+   "fips": "35021",
+   "centroid": [
+    35.8594,
+    -103.8534
+   ],
+   "latitude": 35.9,
+   "bbox": [
+    -104.439,
+    35.3895,
+    -103.3649,
+    36.2187
+   ],
+   "coastal": false,
+   "elevation_ft": 4900,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 90,
+   "record_low_f": -24,
+   "record_high_f": 106,
+   "precip_in": 15.8,
+   "snow_in": 20,
+   "last_frost": "May 3",
+   "first_frost": "Oct 12",
+   "growing_days": 160,
+   "ecoregion": "Southwestern Tablelands",
+   "ecoregion_code": "26",
+   "nws_office": "Albuquerque, NM",
+   "nws_cwa": "ABQ",
+   "nwr": [
+    {
+     "call": "WXL90",
+     "freq": "162.550",
+     "same": "035021"
+    }
+   ],
+   "state_em": "New Mexico Department of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.7,
+   "sun_hours_jun": 7.0
+  },
+  "Hidalgo County": {
+   "fips": "35023",
+   "centroid": [
+    31.8981,
+    -108.7519
+   ],
+   "latitude": 31.9,
+   "bbox": [
+    -109.0502,
+    31.3322,
+    -108.2081,
+    32.7778
+   ],
+   "coastal": false,
+   "elevation_ft": 4690,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 93,
+   "record_low_f": -19,
+   "record_high_f": 110,
+   "precip_in": 10.3,
+   "snow_in": 4,
+   "last_frost": "Apr 2",
+   "first_frost": "Nov 7",
+   "growing_days": 218,
+   "ecoregion": "Madrean Archipelago",
+   "ecoregion_code": "79",
+   "nws_office": "El Paso Tx/Santa Teresa, NM",
+   "nws_cwa": "EPZ",
+   "nwr": [
+    {
+     "call": "WZ2516",
+     "freq": "162.425",
+     "same": "035023"
+    }
+   ],
+   "state_em": "New Mexico Department of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 5.5,
+   "sun_hours_jun": 7.1
+  },
+  "Lea County": {
+   "fips": "35025",
+   "centroid": [
+    32.7957,
+    -103.4133
+   ],
+   "latitude": 32.8,
+   "bbox": [
+    -103.815,
+    32.0002,
+    -103.0526,
+    33.5714
+   ],
+   "coastal": false,
+   "elevation_ft": 3900,
+   "zone": "8a",
+   "jan_low_f": 30,
+   "jul_high_f": 92,
+   "record_low_f": -7,
+   "record_high_f": 114,
+   "precip_in": 14.8,
+   "snow_in": 1,
+   "last_frost": "Mar 28",
+   "first_frost": "Nov 13",
+   "growing_days": 230,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Midland/Odessa, TX",
+   "nws_cwa": "MAF",
+   "nwr": [
+    {
+     "call": "WWF37",
+     "freq": "162.475",
+     "same": "035025"
+    },
+    {
+     "call": "WXJ36",
+     "freq": "162.400",
+     "same": "035025"
+    },
+    {
+     "call": "WNG562",
+     "freq": "162.425",
+     "same": "035025"
+    }
+   ],
+   "state_em": "New Mexico Department of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 3,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 5.0,
+   "sun_hours_jun": 7.0
+  },
+  "Lincoln County": {
+   "fips": "35027",
+   "centroid": [
+    33.7408,
+    -105.4498
+   ],
+   "latitude": 33.7,
+   "bbox": [
+    -106.3739,
+    33.132,
+    -104.8848,
+    34.3473
+   ],
+   "coastal": false,
+   "elevation_ft": 6020,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 85,
+   "record_low_f": -23,
+   "record_high_f": 101,
+   "precip_in": 16.6,
+   "snow_in": 27,
+   "last_frost": "May 3",
+   "first_frost": "Oct 12",
+   "growing_days": 161,
+   "ecoregion": "Southwestern Tablelands",
+   "ecoregion_code": "26",
+   "nws_office": "Albuquerque, NM",
+   "nws_cwa": "ABQ",
+   "nwr": [
+    {
+     "call": "WXJ38",
+     "freq": "162.550",
+     "same": "035027"
+    }
+   ],
+   "state_em": "New Mexico Department of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 3,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 5.2,
+   "sun_hours_jun": 6.8
+  },
+  "Los Alamos County": {
+   "fips": "35028",
+   "centroid": [
+    35.87,
+    -106.308
+   ],
+   "latitude": 35.9,
+   "bbox": [
+    -106.4183,
+    35.7554,
+    -106.1725,
+    35.9734
+   ],
+   "coastal": false,
+   "elevation_ft": 7340,
+   "zone": "7a",
+   "jan_low_f": 20,
+   "jul_high_f": 82,
+   "record_low_f": -18,
+   "record_high_f": 98,
+   "precip_in": 17.5,
+   "snow_in": 42,
+   "last_frost": "May 2",
+   "first_frost": "Oct 12",
+   "growing_days": 162,
+   "ecoregion": "Southern Rockies",
+   "ecoregion_code": "21",
+   "nws_office": "Albuquerque, NM",
+   "nws_cwa": "ABQ",
+   "nwr": [
+    {
+     "call": "WXJ33",
+     "freq": "162.550",
+     "same": "035028"
+    }
+   ],
+   "state_em": "New Mexico Department of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.8,
+   "sun_hours_jun": 7.2
+  },
+  "Luna County": {
+   "fips": "35029",
+   "centroid": [
+    32.1845,
+    -107.7472
+   ],
+   "latitude": 32.2,
+   "bbox": [
+    -108.2301,
+    31.7835,
+    -107.2964,
+    32.6105
+   ],
+   "coastal": false,
+   "elevation_ft": 4270,
+   "zone": "8a",
+   "jan_low_f": 28,
+   "jul_high_f": 96,
+   "record_low_f": -7,
+   "record_high_f": 110,
+   "precip_in": 8.8,
+   "snow_in": 1,
+   "last_frost": "Apr 7",
+   "first_frost": "Nov 3",
+   "growing_days": 208,
+   "ecoregion": "Chihuahuan Deserts",
+   "ecoregion_code": "24",
+   "nws_office": "El Paso Tx/Santa Teresa, NM",
+   "nws_cwa": "EPZ",
+   "nwr": [
+    {
+     "call": "WZ2516",
+     "freq": "162.425",
+     "same": "035029"
+    }
+   ],
+   "state_em": "New Mexico Department of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 5.4,
+   "sun_hours_jun": 7.2
+  },
+  "McKinley County": {
+   "fips": "35031",
+   "centroid": [
+    35.5841,
+    -108.2533
+   ],
+   "latitude": 35.6,
+   "bbox": [
+    -109.0468,
+    34.959,
+    -107.3066,
+    36.003
+   ],
+   "coastal": false,
+   "elevation_ft": 7510,
+   "zone": "6b",
+   "jan_low_f": 12,
+   "jul_high_f": 89,
+   "record_low_f": -32,
+   "record_high_f": 99,
+   "precip_in": 12.2,
+   "snow_in": 31,
+   "last_frost": "May 29",
+   "first_frost": "Sep 26",
+   "growing_days": 118,
+   "ecoregion": "Arizona/New Mexico Plateau",
+   "ecoregion_code": "22",
+   "nws_office": "Albuquerque, NM",
+   "nws_cwa": "ABQ",
+   "nwr": [
+    {
+     "call": "WWF99",
+     "freq": "162.550",
+     "same": "035031"
+    }
+   ],
+   "state_em": "New Mexico Department of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 4.7,
+   "sun_hours_jun": 7.3
+  },
+  "Mora County": {
+   "fips": "35033",
+   "centroid": [
+    35.9828,
+    -104.9219
+   ],
+   "latitude": 36.0,
+   "bbox": [
+    -105.7205,
+    35.7546,
+    -104.3275,
+    36.2623
+   ],
+   "coastal": false,
+   "elevation_ft": 7730,
+   "zone": "6b",
+   "jan_low_f": 16,
+   "jul_high_f": 82,
+   "record_low_f": -32,
+   "record_high_f": 97,
+   "precip_in": 19.7,
+   "snow_in": 43,
+   "last_frost": "May 26",
+   "first_frost": "Sep 26",
+   "growing_days": 121,
+   "ecoregion": "Southwestern Tablelands",
+   "ecoregion_code": "26",
+   "nws_office": "Albuquerque, NM",
+   "nws_cwa": "ABQ",
+   "nwr": [
+    {
+     "call": "WXL90",
+     "freq": "162.550",
+     "same": "035033"
+    }
+   ],
+   "state_em": "New Mexico Department of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.9,
+   "sun_hours_jun": 6.9
+  },
+  "Otero County": {
+   "fips": "35035",
+   "centroid": [
+    32.6156,
+    -105.7513
+   ],
+   "latitude": 32.6,
+   "bbox": [
+    -106.3776,
+    32.0003,
+    -104.8476,
+    33.3908
+   ],
+   "coastal": false,
+   "elevation_ft": 6370,
+   "zone": "8a",
+   "jan_low_f": 26,
+   "jul_high_f": 81,
+   "record_low_f": -15,
+   "record_high_f": 101,
+   "precip_in": 19.3,
+   "snow_in": 17,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 21",
+   "growing_days": 173,
+   "ecoregion": "Arizona/New Mexico Mountains",
+   "ecoregion_code": "23",
+   "nws_office": "El Paso Tx/Santa Teresa, NM",
+   "nws_cwa": "EPZ",
+   "nwr": [
+    {
+     "call": "WNG652",
+     "freq": "162.550",
+     "same": "035035"
+    },
+    {
+     "call": "WXK25",
+     "freq": "162.475",
+     "same": "035035"
+    },
+    {
+     "call": "WXL91",
+     "freq": "162.400",
+     "same": "035035"
+    },
+    {
+     "call": "WXJ38",
+     "freq": "162.550",
+     "same": "035035"
+    }
+   ],
+   "state_em": "New Mexico Department of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 3,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 5.2,
+   "sun_hours_jun": 7.0
+  },
+  "Quay County": {
+   "fips": "35037",
+   "centroid": [
+    35.107,
+    -103.5481
+   ],
+   "latitude": 35.1,
+   "bbox": [
+    -104.1297,
+    34.6046,
+    -103.0413,
+    35.7401
+   ],
+   "coastal": false,
+   "elevation_ft": 4020,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 95,
+   "record_low_f": -19,
+   "record_high_f": 112,
+   "precip_in": 13.3,
+   "snow_in": 15,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 26",
+   "growing_days": 190,
+   "ecoregion": "Southwestern Tablelands",
+   "ecoregion_code": "26",
+   "nws_office": "Albuquerque, NM",
+   "nws_cwa": "ABQ",
+   "nwr": [],
+   "state_em": "New Mexico Department of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.7,
+   "sun_hours_jun": 7.0
+  },
+  "Rio Arriba County": {
+   "fips": "35039",
+   "centroid": [
+    36.5097,
+    -106.694
+   ],
+   "latitude": 36.5,
+   "bbox": [
+    -107.6268,
+    35.9307,
+    -105.5308,
+    37.0001
+   ],
+   "coastal": false,
+   "elevation_ft": 7230,
+   "zone": "6a",
+   "jan_low_f": 9,
+   "jul_high_f": 85,
+   "record_low_f": -45,
+   "record_high_f": 102,
+   "precip_in": 14.1,
+   "snow_in": 36,
+   "last_frost": "Jun 13",
+   "first_frost": "Sep 18",
+   "growing_days": 94,
+   "ecoregion": "Southern Rockies",
+   "ecoregion_code": "21",
+   "nws_office": "Albuquerque, NM",
+   "nws_cwa": "ABQ",
+   "nwr": [
+    {
+     "call": "KWN54",
+     "freq": "162.425",
+     "same": "035039"
+    },
+    {
+     "call": "WXJ33",
+     "freq": "162.550",
+     "same": "035039"
+    }
+   ],
+   "state_em": "New Mexico Department of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 4.6,
+   "sun_hours_jun": 7.0
+  },
+  "Roosevelt County": {
+   "fips": "35041",
+   "centroid": [
+    34.0212,
+    -103.483
+   ],
+   "latitude": 34.0,
+   "bbox": [
+    -103.9496,
+    33.5701,
+    -103.0434,
+    34.605
+   ],
+   "coastal": false,
+   "elevation_ft": 4250,
+   "zone": "7b",
+   "jan_low_f": 25,
+   "jul_high_f": 92,
+   "record_low_f": -19,
+   "record_high_f": 112,
+   "precip_in": 16.7,
+   "snow_in": 13,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 23",
+   "growing_days": 183,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Albuquerque, NM",
+   "nws_cwa": "ABQ",
+   "nwr": [
+    {
+     "call": "WXJ35",
+     "freq": "162.475",
+     "same": "035041"
+    }
+   ],
+   "state_em": "New Mexico Department of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 3,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.9,
+   "sun_hours_jun": 7.0
+  },
+  "Sandoval County": {
+   "fips": "35043",
+   "centroid": [
+    35.6851,
+    -106.8831
+   ],
+   "latitude": 35.7,
+   "bbox": [
+    -107.6265,
+    35.215,
+    -106.2452,
+    36.2198
+   ],
+   "coastal": false,
+   "elevation_ft": 6580,
+   "zone": "7a",
+   "jan_low_f": 19,
+   "jul_high_f": 89,
+   "record_low_f": -18,
+   "record_high_f": 102,
+   "precip_in": 15.2,
+   "snow_in": 23,
+   "last_frost": "May 9",
+   "first_frost": "Oct 11",
+   "growing_days": 153,
+   "ecoregion": "Southern Rockies",
+   "ecoregion_code": "21",
+   "nws_office": "Albuquerque, NM",
+   "nws_cwa": "ABQ",
+   "nwr": [
+    {
+     "call": "WXJ34",
+     "freq": "162.400",
+     "same": "035043"
+    },
+    {
+     "call": "WXJ33",
+     "freq": "162.550",
+     "same": "035043"
+    }
+   ],
+   "state_em": "New Mexico Department of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 4.8,
+   "sun_hours_jun": 7.2
+  },
+  "San Juan County": {
+   "fips": "35045",
+   "centroid": [
+    36.5116,
+    -108.3246
+   ],
+   "latitude": 36.5,
+   "bbox": [
+    -109.0462,
+    36.0003,
+    -107.4224,
+    37.0005
+   ],
+   "coastal": false,
+   "elevation_ft": 6080,
+   "zone": "7a",
+   "jan_low_f": 20,
+   "jul_high_f": 90,
+   "record_low_f": -16,
+   "record_high_f": 103,
+   "precip_in": 8.0,
+   "snow_in": 9,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 15",
+   "growing_days": 167,
+   "ecoregion": "Arizona/New Mexico Plateau",
+   "ecoregion_code": "22",
+   "nws_office": "Albuquerque, NM",
+   "nws_cwa": "ABQ",
+   "nwr": [
+    {
+     "call": "KWN54",
+     "freq": "162.425",
+     "same": "035045"
+    },
+    {
+     "call": "WXJ37",
+     "freq": "162.475",
+     "same": "035045"
+    },
+    {
+     "call": "WWF99",
+     "freq": "162.550",
+     "same": "035045"
+    }
+   ],
+   "state_em": "New Mexico Department of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 4.5,
+   "sun_hours_jun": 7.4
+  },
+  "San Miguel County": {
+   "fips": "35047",
+   "centroid": [
+    35.4769,
+    -104.8035
+   ],
+   "latitude": 35.5,
+   "bbox": [
+    -105.7219,
+    35.0415,
+    -103.637,
+    35.871
+   ],
+   "coastal": false,
+   "elevation_ft": 6100,
+   "zone": "6b",
+   "jan_low_f": 11,
+   "jul_high_f": 85,
+   "record_low_f": -32,
+   "record_high_f": 99,
+   "precip_in": 16.7,
+   "snow_in": 22,
+   "last_frost": "May 24",
+   "first_frost": "Sep 30",
+   "growing_days": 129,
+   "ecoregion": "Southwestern Tablelands",
+   "ecoregion_code": "26",
+   "nws_office": "Albuquerque, NM",
+   "nws_cwa": "ABQ",
+   "nwr": [
+    {
+     "call": "WXJ33",
+     "freq": "162.550",
+     "same": "035047"
+    }
+   ],
+   "state_em": "New Mexico Department of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.9,
+   "sun_hours_jun": 6.9
+  },
+  "Santa Fe County": {
+   "fips": "35049",
+   "centroid": [
+    35.5145,
+    -105.964
+   ],
+   "latitude": 35.5,
+   "bbox": [
+    -106.2496,
+    35.0394,
+    -105.7145,
+    36.0023
+   ],
+   "coastal": false,
+   "elevation_ft": 6560,
+   "zone": "7a",
+   "jan_low_f": 18,
+   "jul_high_f": 86,
+   "record_low_f": -24,
+   "record_high_f": 99,
+   "precip_in": 12.8,
+   "snow_in": 20,
+   "last_frost": "May 14",
+   "first_frost": "Oct 6",
+   "growing_days": 144,
+   "ecoregion": "Arizona/New Mexico Plateau",
+   "ecoregion_code": "22",
+   "nws_office": "Albuquerque, NM",
+   "nws_cwa": "ABQ",
+   "nwr": [
+    {
+     "call": "WXJ33",
+     "freq": "162.550",
+     "same": "035049"
+    }
+   ],
+   "state_em": "New Mexico Department of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 3,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 5.0,
+   "sun_hours_jun": 6.9
+  },
+  "Sierra County": {
+   "fips": "35051",
+   "centroid": [
+    33.1195,
+    -107.1882
+   ],
+   "latitude": 33.1,
+   "bbox": [
+    -108.0006,
+    32.6051,
+    -106.3405,
+    33.4801
+   ],
+   "coastal": false,
+   "elevation_ft": 4780,
+   "zone": "8b",
+   "jan_low_f": 30,
+   "jul_high_f": 96,
+   "record_low_f": -7,
+   "record_high_f": 111,
+   "precip_in": 9.9,
+   "snow_in": 1,
+   "last_frost": "Mar 13",
+   "first_frost": "Nov 15",
+   "growing_days": 243,
+   "ecoregion": "Chihuahuan Deserts",
+   "ecoregion_code": "24",
+   "nws_office": "El Paso Tx/Santa Teresa, NM",
+   "nws_cwa": "EPZ",
+   "nwr": [
+    {
+     "call": "WXL91",
+     "freq": "162.400",
+     "same": "035051"
+    },
+    {
+     "call": "WZ2516",
+     "freq": "162.425",
+     "same": "035051"
+    }
+   ],
+   "state_em": "New Mexico Department of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 5.3,
+   "sun_hours_jun": 6.9
+  },
+  "Socorro County": {
+   "fips": "35053",
+   "centroid": [
+    33.9917,
+    -106.9391
+   ],
+   "latitude": 34.0,
+   "bbox": [
+    -107.7266,
+    33.4752,
+    -105.924,
+    34.5806
+   ],
+   "coastal": false,
+   "elevation_ft": 5120,
+   "zone": "7b",
+   "jan_low_f": 23,
+   "jul_high_f": 92,
+   "record_low_f": -16,
+   "record_high_f": 109,
+   "precip_in": 10.1,
+   "snow_in": 2,
+   "last_frost": "Apr 16",
+   "first_frost": "Oct 25",
+   "growing_days": 191,
+   "ecoregion": "Chihuahuan Deserts",
+   "ecoregion_code": "24",
+   "nws_office": "Albuquerque, NM",
+   "nws_cwa": "ABQ",
+   "nwr": [],
+   "state_em": "New Mexico Department of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 5.2,
+   "sun_hours_jun": 7.1
+  },
+  "Taos County": {
+   "fips": "35055",
+   "centroid": [
+    36.5772,
+    -105.6389
+   ],
+   "latitude": 36.6,
+   "bbox": [
+    -106.0584,
+    36.0129,
+    -105.201,
+    36.996
+   ],
+   "coastal": false,
+   "elevation_ft": 7570,
+   "zone": "5b",
+   "jan_low_f": 8,
+   "jul_high_f": 83,
+   "record_low_f": -34,
+   "record_high_f": 100,
+   "precip_in": 13.4,
+   "snow_in": 62,
+   "last_frost": "May 31",
+   "first_frost": "Sep 26",
+   "growing_days": 116,
+   "ecoregion": "Southern Rockies",
+   "ecoregion_code": "21",
+   "nws_office": "Albuquerque, NM",
+   "nws_cwa": "ABQ",
+   "nwr": [
+    {
+     "call": "WXJ33",
+     "freq": "162.550",
+     "same": "035055"
+    }
+   ],
+   "state_em": "New Mexico Department of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 4.9,
+   "sun_hours_jun": 6.7
+  },
+  "Torrance County": {
+   "fips": "35057",
+   "centroid": [
+    34.555,
+    -105.8906
+   ],
+   "latitude": 34.6,
+   "bbox": [
+    -106.4711,
+    34.2597,
+    -105.2902,
+    35.0421
+   ],
+   "coastal": false,
+   "elevation_ft": 6250,
+   "zone": "6b",
+   "jan_low_f": 15,
+   "jul_high_f": 90,
+   "record_low_f": -37,
+   "record_high_f": 104,
+   "precip_in": 13.6,
+   "snow_in": 18,
+   "last_frost": "May 18",
+   "first_frost": "Oct 1",
+   "growing_days": 135,
+   "ecoregion": "Southwestern Tablelands",
+   "ecoregion_code": "26",
+   "nws_office": "Albuquerque, NM",
+   "nws_cwa": "ABQ",
+   "nwr": [
+    {
+     "call": "WXJ38",
+     "freq": "162.550",
+     "same": "035057"
+    },
+    {
+     "call": "WXJ33",
+     "freq": "162.550",
+     "same": "035057"
+    }
+   ],
+   "state_em": "New Mexico Department of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 5.1,
+   "sun_hours_jun": 7.0
+  },
+  "Union County": {
+   "fips": "35059",
+   "centroid": [
+    36.4881,
+    -103.4757
+   ],
+   "latitude": 36.5,
+   "bbox": [
+    -104.0093,
+    35.7394,
+    -103.0017,
+    37.0003
+   ],
+   "coastal": false,
+   "elevation_ft": 5600,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 86,
+   "record_low_f": -26,
+   "record_high_f": 104,
+   "precip_in": 16.6,
+   "snow_in": 18,
+   "last_frost": "May 5",
+   "first_frost": "Oct 9",
+   "growing_days": 156,
+   "ecoregion": "Southwestern Tablelands",
+   "ecoregion_code": "26",
+   "nws_office": "Albuquerque, NM",
+   "nws_cwa": "ABQ",
+   "nwr": [
+    {
+     "call": "WWQ50",
+     "freq": "162.425",
+     "same": "035059"
+    },
+    {
+     "call": "WXL90",
+     "freq": "162.550",
+     "same": "035059"
+    }
+   ],
+   "state_em": "New Mexico Department of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.6,
+   "sun_hours_jun": 6.8
+  },
+  "Valencia County": {
+   "fips": "35061",
+   "centroid": [
+    34.7168,
+    -106.8066
+   ],
+   "latitude": 34.7,
+   "bbox": [
+    -107.2047,
+    34.4371,
+    -106.4111,
+    34.958
+   ],
+   "coastal": false,
+   "elevation_ft": 5010,
+   "zone": "7b",
+   "jan_low_f": 19,
+   "jul_high_f": 93,
+   "record_low_f": -25,
+   "record_high_f": 108,
+   "precip_in": 9.2,
+   "snow_in": 5,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 21",
+   "growing_days": 178,
+   "ecoregion": "Arizona/New Mexico Plateau",
+   "ecoregion_code": "22",
+   "nws_office": "Albuquerque, NM",
+   "nws_cwa": "ABQ",
+   "nwr": [
+    {
+     "call": "WXJ34",
+     "freq": "162.400",
+     "same": "035061"
+    }
+   ],
+   "state_em": "New Mexico Department of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 5.0,
+   "sun_hours_jun": 7.2
+  }
+ }
+}

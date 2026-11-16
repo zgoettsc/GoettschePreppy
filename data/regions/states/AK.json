@@ -1,0 +1,1891 @@
+{
+ "state": "AK",
+ "state_name": "Alaska",
+ "state_fips": "02",
+ "state_em": "Alaska Division of Homeland Security and Emergency Management",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "AFC": "NWS Anchorage, AK",
+  "AFG": "NWS Fairbanks, AK",
+  "AJK": "NWS Juneau, AK"
+ },
+ "ecoregions": [
+  "Arctic Coastal Plain",
+  "Arctic Foothills",
+  "Brooks Range",
+  "Interior Forested Lowlands and Uplands",
+  "Interior Highlands",
+  "Interior Bottomlands",
+  "Yukon Flats",
+  "Ogilvie Mountains",
+  "Subarctic Coastal Plains",
+  "Seward Peninsula",
+  "Ahklun and Kilbuck Mountains",
+  "Bristol Bay-Nushagak Lowlands",
+  "Alaska Peninsula Mountains",
+  "Aleutian Islands",
+  "Cook Inlet",
+  "Alaska Range",
+  "Copper Plateau",
+  "Wrangell Mountains",
+  "Pacific Coastal Mountains",
+  "Coastal Western Hemlock-Sitka Spruce Forests"
+ ],
+ "counties": {
+  "Aleutians East Borough": {
+   "fips": "02013",
+   "centroid": [
+    55.245,
+    -161.9975
+   ],
+   "latitude": 55.2,
+   "bbox": [
+    -166.1968,
+    53.9521,
+    -158.8935,
+    56.8796
+   ],
+   "coastal": true,
+   "elevation_ft": 10,
+   "zone": "7b",
+   "jan_low_f": 24,
+   "jul_high_f": 56,
+   "record_low_f": -13,
+   "record_high_f": 77,
+   "precip_in": 42.7,
+   "snow_in": 67,
+   "last_frost": "May 25",
+   "first_frost": "Oct 4",
+   "growing_days": 131,
+   "ecoregion": "Alaska Peninsula Mountains",
+   "ecoregion_code": "113",
+   "nws_office": "Anchorage, AK",
+   "nws_cwa": "AFC",
+   "nwr": [
+    {
+     "call": "KJY87",
+     "freq": "162.425",
+     "same": "002013"
+    },
+    {
+     "call": "WNG714",
+     "freq": "162.550",
+     "same": "002013"
+    }
+   ],
+   "state_em": "Alaska Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 3,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 0.9,
+   "sun_hours_jun": 4.2
+  },
+  "Aleutians West Census Area": {
+   "fips": "02016",
+   "centroid": [
+    51.949,
+    -180.3788
+   ],
+   "latitude": 51.9,
+   "bbox": [
+    -179.1473,
+    51.2153,
+    179.7785,
+    57.2539
+   ],
+   "coastal": true,
+   "elevation_ft": 460,
+   "zone": "8b",
+   "jan_low_f": 23,
+   "jul_high_f": 51,
+   "record_low_f": null,
+   "record_high_f": null,
+   "precip_in": 20.4,
+   "snow_in": null,
+   "last_frost": "May 31",
+   "first_frost": "Oct 5",
+   "growing_days": 128,
+   "ecoregion": "Aleutian Islands",
+   "ecoregion_code": "114",
+   "nws_office": "Anchorage, AK",
+   "nws_cwa": "AFC",
+   "nwr": [
+    {
+     "call": "KJY73",
+     "freq": "162.525",
+     "same": "002016"
+    },
+    {
+     "call": "WXK89",
+     "freq": "162.550",
+     "same": "002016"
+    }
+   ],
+   "state_em": "Alaska Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 3,
+    "tsunami": 2,
+    "landslide": 2
+   },
+   "sun_hours_dec": 1.3,
+   "sun_hours_jun": 3.0
+  },
+  "Anchorage Municipality": {
+   "fips": "02020",
+   "centroid": [
+    61.1743,
+    -149.2843
+   ],
+   "latitude": 61.2,
+   "bbox": [
+    -150.2817,
+    60.733,
+    -148.4624,
+    61.4848
+   ],
+   "coastal": true,
+   "elevation_ft": 3990,
+   "zone": "5a",
+   "jan_low_f": 14,
+   "jul_high_f": 59,
+   "record_low_f": -37,
+   "record_high_f": 78,
+   "precip_in": 26.0,
+   "snow_in": 162,
+   "last_frost": "May 18",
+   "first_frost": "Sep 23",
+   "growing_days": 125,
+   "ecoregion": "Pacific Coastal Mountains",
+   "ecoregion_code": "119",
+   "nws_office": "Anchorage, AK",
+   "nws_cwa": "AFC",
+   "nwr": [
+    {
+     "call": "KEC43",
+     "freq": "162.550",
+     "same": "002020"
+    },
+    {
+     "call": "KZZ98",
+     "freq": "162.400",
+     "same": "002020"
+    }
+   ],
+   "state_em": "Alaska Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 0.5,
+   "sun_hours_jun": 4.5
+  },
+  "Bethel Census Area": {
+   "fips": "02050",
+   "centroid": [
+    60.9291,
+    -160.1526
+   ],
+   "latitude": 60.9,
+   "bbox": [
+    -173.1226,
+    58.5513,
+    -153.0015,
+    62.2926
+   ],
+   "coastal": true,
+   "elevation_ft": 590,
+   "zone": "4a",
+   "jan_low_f": 1,
+   "jul_high_f": 64,
+   "record_low_f": -52,
+   "record_high_f": 90,
+   "precip_in": 19.7,
+   "snow_in": 64,
+   "last_frost": "May 21",
+   "first_frost": "Sep 22",
+   "growing_days": 122,
+   "ecoregion": "Ahklun and Kilbuck Mountains",
+   "ecoregion_code": "111",
+   "nws_office": "Anchorage, AK",
+   "nws_cwa": "AFC",
+   "nwr": [
+    {
+     "call": "WNG675",
+     "freq": "162.550",
+     "same": "002050"
+    }
+   ],
+   "state_em": "Alaska Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 0.7,
+   "sun_hours_jun": 4.2
+  },
+  "Bristol Bay Borough": {
+   "fips": "02060",
+   "centroid": [
+    58.7305,
+    -156.9945
+   ],
+   "latitude": 58.7,
+   "bbox": [
+    -157.2587,
+    58.6159,
+    -156.316,
+    58.8851
+   ],
+   "coastal": true,
+   "elevation_ft": 70,
+   "zone": "4b",
+   "jan_low_f": 10,
+   "jul_high_f": 65,
+   "record_low_f": -48,
+   "record_high_f": 89,
+   "precip_in": 21.4,
+   "snow_in": 47,
+   "last_frost": "May 26",
+   "first_frost": "Sep 15",
+   "growing_days": 111,
+   "ecoregion": "Bristol Bay-Nushagak Lowlands",
+   "ecoregion_code": "112",
+   "nws_office": "Anchorage, AK",
+   "nws_cwa": "AFC",
+   "nwr": [
+    {
+     "call": "KZZ90",
+     "freq": "162.425",
+     "same": "002060"
+    }
+   ],
+   "state_em": "Alaska Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 0.9,
+   "sun_hours_jun": 4.5
+  },
+  "Chugach Census Area": {
+   "fips": "02063",
+   "centroid": [
+    60.4885,
+    -146.2031
+   ],
+   "latitude": 60.5,
+   "bbox": [
+    -148.7459,
+    59.4063,
+    -141.966,
+    61.4263
+   ],
+   "coastal": true,
+   "elevation_ft": 460,
+   "zone": "7b",
+   "jan_low_f": 26,
+   "jul_high_f": 62,
+   "record_low_f": -6,
+   "record_high_f": 81,
+   "precip_in": 168.6,
+   "snow_in": 99,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 13",
+   "growing_days": 169,
+   "ecoregion": "Coastal Western Hemlock-Sitka Spruce Forests",
+   "ecoregion_code": "120",
+   "nws_office": "Anchorage, AK",
+   "nws_cwa": "AFC",
+   "nwr": [
+    {
+     "call": "WNG532",
+     "freq": "162.525",
+     "same": "002063"
+    },
+    {
+     "call": "WXJ79",
+     "freq": "162.400",
+     "same": "002063"
+    },
+    {
+     "call": "WNG530",
+     "freq": "162.500",
+     "same": "002063"
+    },
+    {
+     "call": "KZZ93",
+     "freq": "162.450",
+     "same": "002063"
+    },
+    {
+     "call": "WNG527",
+     "freq": "162.425",
+     "same": "002063"
+    },
+    {
+     "call": "WXJ63",
+     "freq": "162.550",
+     "same": "002063"
+    },
+    {
+     "call": "KXI29",
+     "freq": "162.475",
+     "same": "002063"
+    }
+   ],
+   "state_em": "Alaska Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 0.4,
+   "sun_hours_jun": 4.2
+  },
+  "Copper River Census Area": {
+   "fips": "02066",
+   "centroid": [
+    62.0345,
+    -143.9222
+   ],
+   "latitude": 62.0,
+   "bbox": [
+    -147.7448,
+    60.3917,
+    -141.0016,
+    63.2178
+   ],
+   "coastal": true,
+   "elevation_ft": 9760,
+   "zone": "3a",
+   "jan_low_f": -11,
+   "jul_high_f": 66,
+   "record_low_f": -48,
+   "record_high_f": 87,
+   "precip_in": 12.4,
+   "snow_in": 48,
+   "last_frost": "Jun 4",
+   "first_frost": "Sep 1",
+   "growing_days": 85,
+   "ecoregion": "Wrangell Mountains",
+   "ecoregion_code": "118",
+   "nws_office": "Anchorage, AK",
+   "nws_cwa": "AFC",
+   "nwr": [
+    {
+     "call": "KPS503",
+     "freq": "162.550",
+     "same": "002066"
+    }
+   ],
+   "state_em": "Alaska Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 0.5,
+   "sun_hours_jun": 4.5
+  },
+  "Denali Borough": {
+   "fips": "02068",
+   "centroid": [
+    63.682,
+    -150.027
+   ],
+   "latitude": 63.7,
+   "bbox": [
+    -152.9996,
+    62.7258,
+    -146.9999,
+    64.3582
+   ],
+   "coastal": false,
+   "elevation_ft": 3150,
+   "zone": "3b",
+   "jan_low_f": -5,
+   "jul_high_f": 64,
+   "record_low_f": -54,
+   "record_high_f": 91,
+   "precip_in": 23.5,
+   "snow_in": 77,
+   "last_frost": "May 25",
+   "first_frost": "Sep 8",
+   "growing_days": 105,
+   "ecoregion": "Alaska Range",
+   "ecoregion_code": "116",
+   "nws_office": "Fairbanks, AK",
+   "nws_cwa": "AFG",
+   "nwr": [
+    {
+     "call": "KPS504",
+     "freq": "162.400",
+     "same": "002068"
+    }
+   ],
+   "state_em": "Alaska Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 0.3,
+   "sun_hours_jun": 4.3
+  },
+  "Dillingham Census Area": {
+   "fips": "02070",
+   "centroid": [
+    59.5433,
+    -158.2671
+   ],
+   "latitude": 59.5,
+   "bbox": [
+    -161.365,
+    58.3901,
+    -156.0001,
+    60.9928
+   ],
+   "coastal": true,
+   "elevation_ft": 220,
+   "zone": "4a",
+   "jan_low_f": 10,
+   "jul_high_f": 65,
+   "record_low_f": -48,
+   "record_high_f": 89,
+   "precip_in": 21.4,
+   "snow_in": 47,
+   "last_frost": "May 26",
+   "first_frost": "Sep 15",
+   "growing_days": 111,
+   "ecoregion": "Bristol Bay-Nushagak Lowlands",
+   "ecoregion_code": "112",
+   "nws_office": "Anchorage, AK",
+   "nws_cwa": "AFC",
+   "nwr": [
+    {
+     "call": "WNG681",
+     "freq": "162.500",
+     "same": "002070"
+    },
+    {
+     "call": "WNG525",
+     "freq": "162.425",
+     "same": "002070"
+    }
+   ],
+   "state_em": "Alaska Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 0.9,
+   "sun_hours_jun": 4.6
+  },
+  "Fairbanks North Star Borough": {
+   "fips": "02090",
+   "centroid": [
+    64.6705,
+    -146.4961
+   ],
+   "latitude": 64.7,
+   "bbox": [
+    -148.6633,
+    64.2572,
+    -143.8841,
+    65.4535
+   ],
+   "coastal": false,
+   "elevation_ft": 2070,
+   "zone": "4a",
+   "jan_low_f": -3,
+   "jul_high_f": 68,
+   "record_low_f": -64,
+   "record_high_f": 93,
+   "precip_in": 18.5,
+   "snow_in": 68,
+   "last_frost": "May 12",
+   "first_frost": "Sep 17",
+   "growing_days": 126,
+   "ecoregion": "Interior Highlands",
+   "ecoregion_code": "105",
+   "nws_office": "Fairbanks, AK",
+   "nws_cwa": "AFG",
+   "nwr": [
+    {
+     "call": "WXJ81",
+     "freq": "162.550",
+     "same": "002090"
+    }
+   ],
+   "state_em": "Alaska Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 0.2,
+   "sun_hours_jun": 4.6
+  },
+  "Haines Borough": {
+   "fips": "02100",
+   "centroid": [
+    59.0984,
+    -135.5758
+   ],
+   "latitude": 59.1,
+   "bbox": [
+    -136.4957,
+    58.1655,
+    -134.3134,
+    59.7284
+   ],
+   "coastal": true,
+   "elevation_ft": 2970,
+   "zone": "5a",
+   "jan_low_f": 18,
+   "jul_high_f": 65,
+   "record_low_f": -18,
+   "record_high_f": 98,
+   "precip_in": 63.1,
+   "snow_in": 164,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 7",
+   "growing_days": 160,
+   "ecoregion": "Pacific Coastal Mountains",
+   "ecoregion_code": "119",
+   "nws_office": "Juneau, AK",
+   "nws_cwa": "AJK",
+   "nwr": [
+    {
+     "call": "WXM97",
+     "freq": "162.400",
+     "same": "002100"
+    }
+   ],
+   "state_em": "Alaska Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 0.7,
+   "sun_hours_jun": 4.5
+  },
+  "Hoonah-Angoon Census Area": {
+   "fips": "02105",
+   "centroid": [
+    58.4033,
+    -135.8849
+   ],
+   "latitude": 58.4,
+   "bbox": [
+    -137.945,
+    57.0132,
+    -132.6498,
+    59.2662
+   ],
+   "coastal": true,
+   "elevation_ft": 100,
+   "zone": "7b",
+   "jan_low_f": 26,
+   "jul_high_f": 61,
+   "record_low_f": -11,
+   "record_high_f": 82,
+   "precip_in": 72.6,
+   "snow_in": 72,
+   "last_frost": "May 6",
+   "first_frost": "Oct 10",
+   "growing_days": 154,
+   "ecoregion": "Coastal Western Hemlock-Sitka Spruce Forests",
+   "ecoregion_code": "120",
+   "nws_office": "Juneau, AK",
+   "nws_cwa": "AJK",
+   "nwr": [
+    {
+     "call": "KZZ86",
+     "freq": "162.425",
+     "same": "002105"
+    },
+    {
+     "call": "WXJ25",
+     "freq": "162.550",
+     "same": "002105"
+    },
+    {
+     "call": "KZZ87",
+     "freq": "162.450",
+     "same": "002105"
+    }
+   ],
+   "state_em": "Alaska Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 0.7,
+   "sun_hours_jun": 4.3
+  },
+  "Juneau City and Borough": {
+   "fips": "02110",
+   "centroid": [
+    58.3729,
+    -134.1784
+   ],
+   "latitude": 58.4,
+   "bbox": [
+    -135.1766,
+    57.7926,
+    -133.1723,
+    58.9709
+   ],
+   "coastal": true,
+   "elevation_ft": 670,
+   "zone": "6a",
+   "jan_low_f": 20,
+   "jul_high_f": 59,
+   "record_low_f": -18,
+   "record_high_f": 84,
+   "precip_in": 164.8,
+   "snow_in": 88,
+   "last_frost": "May 3",
+   "first_frost": "Oct 14",
+   "growing_days": 164,
+   "ecoregion": "Pacific Coastal Mountains",
+   "ecoregion_code": "119",
+   "nws_office": "Juneau, AK",
+   "nws_cwa": "AJK",
+   "nwr": [
+    {
+     "call": "KZZ86",
+     "freq": "162.425",
+     "same": "002110"
+    },
+    {
+     "call": "KZZ88",
+     "freq": "162.425",
+     "same": "002110"
+    },
+    {
+     "call": "WXJ25",
+     "freq": "162.550",
+     "same": "002110"
+    },
+    {
+     "call": "KZZ87",
+     "freq": "162.450",
+     "same": "002110"
+    }
+   ],
+   "state_em": "Alaska Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 0.7,
+   "sun_hours_jun": 4.3
+  },
+  "Kenai Peninsula Borough": {
+   "fips": "02122",
+   "centroid": [
+    60.3667,
+    -152.3223
+   ],
+   "latitude": 60.4,
+   "bbox": [
+    -154.7489,
+    58.6527,
+    -148.563,
+    61.4262
+   ],
+   "coastal": true,
+   "elevation_ft": 40,
+   "zone": "5b",
+   "jan_low_f": 13,
+   "jul_high_f": 69,
+   "record_low_f": -38,
+   "record_high_f": 89,
+   "precip_in": 55.1,
+   "snow_in": 84,
+   "last_frost": "May 7",
+   "first_frost": "Oct 7",
+   "growing_days": 151,
+   "ecoregion": "Cook Inlet",
+   "ecoregion_code": "115",
+   "nws_office": "Anchorage, AK",
+   "nws_cwa": "AFC",
+   "nwr": [
+    {
+     "call": "KEC43",
+     "freq": "162.550",
+     "same": "002122"
+    },
+    {
+     "call": "WNG528",
+     "freq": "162.450",
+     "same": "002122"
+    },
+    {
+     "call": "WXJ24",
+     "freq": "162.400",
+     "same": "002122"
+    },
+    {
+     "call": "KZZ97",
+     "freq": "162.550",
+     "same": "002122"
+    },
+    {
+     "call": "WNG526",
+     "freq": "162.425",
+     "same": "002122"
+    },
+    {
+     "call": "KEC81",
+     "freq": "162.550",
+     "same": "002122"
+    },
+    {
+     "call": "WWG39",
+     "freq": "162.475",
+     "same": "002122"
+    }
+   ],
+   "state_em": "Alaska Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 2,
+    "landslide": 2
+   },
+   "sun_hours_dec": 0.6,
+   "sun_hours_jun": 4.6
+  },
+  "Ketchikan Gateway Borough": {
+   "fips": "02130",
+   "centroid": [
+    55.4499,
+    -131.1067
+   ],
+   "latitude": 55.4,
+   "bbox": [
+    -132.2023,
+    54.7185,
+    -129.994,
+    56.406
+   ],
+   "coastal": true,
+   "elevation_ft": 480,
+   "zone": "7b",
+   "jan_low_f": 31,
+   "jul_high_f": 65,
+   "record_low_f": -7,
+   "record_high_f": 96,
+   "precip_in": 104.7,
+   "snow_in": 35,
+   "last_frost": "Apr 20",
+   "first_frost": "Oct 26",
+   "growing_days": 189,
+   "ecoregion": "Coastal Western Hemlock-Sitka Spruce Forests",
+   "ecoregion_code": "120",
+   "nws_office": "Juneau, AK",
+   "nws_cwa": "AJK",
+   "nwr": [
+    {
+     "call": "KZZ92",
+     "freq": "162.450",
+     "same": "002130"
+    },
+    {
+     "call": "KZZ96",
+     "freq": "162.525",
+     "same": "002130"
+    },
+    {
+     "call": "WXJ26",
+     "freq": "162.550",
+     "same": "002130"
+    }
+   ],
+   "state_em": "Alaska Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.0,
+   "sun_hours_jun": 3.9
+  },
+  "Kodiak Island Borough": {
+   "fips": "02150",
+   "centroid": [
+    57.7044,
+    -153.9184
+   ],
+   "latitude": 57.7,
+   "bbox": [
+    -156.8071,
+    55.7394,
+    -151.7878,
+    58.975
+   ],
+   "coastal": true,
+   "elevation_ft": 50,
+   "zone": "7b",
+   "jan_low_f": 26,
+   "jul_high_f": 62,
+   "record_low_f": -16,
+   "record_high_f": 86,
+   "precip_in": 78.3,
+   "snow_in": 70,
+   "last_frost": "May 5",
+   "first_frost": "Oct 3",
+   "growing_days": 151,
+   "ecoregion": "Alaska Peninsula Mountains",
+   "ecoregion_code": "113",
+   "nws_office": "Anchorage, AK",
+   "nws_cwa": "AFC",
+   "nwr": [
+    {
+     "call": "WNG528",
+     "freq": "162.450",
+     "same": "002150"
+    },
+    {
+     "call": "WNG529",
+     "freq": "162.500",
+     "same": "002150"
+    },
+    {
+     "call": "WXJ78",
+     "freq": "162.550",
+     "same": "002150"
+    },
+    {
+     "call": "WNG716",
+     "freq": "162.500",
+     "same": "002150"
+    },
+    {
+     "call": "WZ2556",
+     "freq": "162.525",
+     "same": "002150"
+    },
+    {
+     "call": "WNG531",
+     "freq": "162.525",
+     "same": "002150"
+    },
+    {
+     "call": "KZZ90",
+     "freq": "162.425",
+     "same": "002150"
+    },
+    {
+     "call": "WNG718",
+     "freq": "162.450",
+     "same": "002150"
+    }
+   ],
+   "state_em": "Alaska Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 2,
+    "landslide": 2
+   },
+   "sun_hours_dec": 1.1,
+   "sun_hours_jun": 4.2
+  },
+  "Kusilvak Census Area": {
+   "fips": "02158",
+   "centroid": [
+    62.2836,
+    -163.1902
+   ],
+   "latitude": 62.3,
+   "bbox": [
+    -166.1826,
+    60.9202,
+    -160.1867,
+    63.2719
+   ],
+   "coastal": true,
+   "elevation_ft": 290,
+   "zone": "4a",
+   "jan_low_f": 1,
+   "jul_high_f": 64,
+   "record_low_f": -52,
+   "record_high_f": 90,
+   "precip_in": 19.7,
+   "snow_in": 64,
+   "last_frost": "May 21",
+   "first_frost": "Sep 22",
+   "growing_days": 122,
+   "ecoregion": "Subarctic Coastal Plains",
+   "ecoregion_code": "109",
+   "nws_office": "Fairbanks, AK",
+   "nws_cwa": "AFG",
+   "nwr": [],
+   "state_em": "Alaska Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 0.5,
+   "sun_hours_jun": 4.3
+  },
+  "Lake and Peninsula Borough": {
+   "fips": "02164",
+   "centroid": [
+    58.1085,
+    -156.4134
+   ],
+   "latitude": 58.1,
+   "bbox": [
+    -159.9001,
+    55.6388,
+    -153.3973,
+    60.9062
+   ],
+   "coastal": true,
+   "elevation_ft": 820,
+   "zone": "4b",
+   "jan_low_f": 10,
+   "jul_high_f": 62,
+   "record_low_f": -48,
+   "record_high_f": 89,
+   "precip_in": 32.1,
+   "snow_in": 47,
+   "last_frost": "Jun 9",
+   "first_frost": "Sep 11",
+   "growing_days": 93,
+   "ecoregion": "Bristol Bay-Nushagak Lowlands",
+   "ecoregion_code": "112",
+   "nws_office": "Anchorage, AK",
+   "nws_cwa": "AFC",
+   "nwr": [],
+   "state_em": "Alaska Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 0.9,
+   "sun_hours_jun": 4.5
+  },
+  "Matanuska-Susitna Borough": {
+   "fips": "02170",
+   "centroid": [
+    62.2656,
+    -149.504
+   ],
+   "latitude": 62.3,
+   "bbox": [
+    -153.0019,
+    61.1913,
+    -146.424,
+    63.4777
+   ],
+   "coastal": true,
+   "elevation_ft": 3200,
+   "zone": "5b",
+   "jan_low_f": 5,
+   "jul_high_f": 69,
+   "record_low_f": -53,
+   "record_high_f": 96,
+   "precip_in": 42.4,
+   "snow_in": 82,
+   "last_frost": "May 16",
+   "first_frost": "Sep 16",
+   "growing_days": 122,
+   "ecoregion": "Alaska Range",
+   "ecoregion_code": "116",
+   "nws_office": "Anchorage, AK",
+   "nws_cwa": "AFC",
+   "nwr": [
+    {
+     "call": "KEC43",
+     "freq": "162.550",
+     "same": "002170"
+    },
+    {
+     "call": "KPS503",
+     "freq": "162.550",
+     "same": "002170"
+    },
+    {
+     "call": "KZZ98",
+     "freq": "162.400",
+     "same": "002170"
+    }
+   ],
+   "state_em": "Alaska Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 0.4,
+   "sun_hours_jun": 4.2
+  },
+  "Nome Census Area": {
+   "fips": "02180",
+   "centroid": [
+    64.7837,
+    -164.1889
+   ],
+   "latitude": 64.8,
+   "bbox": [
+    -171.85,
+    62.9375,
+    -159.3774,
+    66.5811
+   ],
+   "coastal": true,
+   "elevation_ft": 1350,
+   "zone": "4a",
+   "jan_low_f": -2,
+   "jul_high_f": 58,
+   "record_low_f": -54,
+   "record_high_f": 86,
+   "precip_in": 15.2,
+   "snow_in": 81,
+   "last_frost": "Jun 5",
+   "first_frost": "Sep 3",
+   "growing_days": 88,
+   "ecoregion": "Seward Peninsula",
+   "ecoregion_code": "110",
+   "nws_office": "Fairbanks, AK",
+   "nws_cwa": "AFG",
+   "nwr": [
+    {
+     "call": "WXJ62",
+     "freq": "162.550",
+     "same": "002180"
+    }
+   ],
+   "state_em": "Alaska Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 0.2,
+   "sun_hours_jun": 4.8
+  },
+  "North Slope Borough": {
+   "fips": "02185",
+   "centroid": [
+    69.4493,
+    -153.4728
+   ],
+   "latitude": 69.4,
+   "bbox": [
+    -166.8506,
+    68.0,
+    -141.0006,
+    71.3896
+   ],
+   "coastal": true,
+   "elevation_ft": 510,
+   "zone": "2a",
+   "jan_low_f": -23,
+   "jul_high_f": 58,
+   "record_low_f": -62,
+   "record_high_f": 88,
+   "precip_in": 5.7,
+   "snow_in": 58,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 51,
+   "ecoregion": "Arctic Foothills",
+   "ecoregion_code": "102",
+   "nws_office": "Fairbanks, AK",
+   "nws_cwa": "AFG",
+   "nwr": [
+    {
+     "call": "KZZ53",
+     "freq": "162.550",
+     "same": "002185"
+    }
+   ],
+   "state_em": "Alaska Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 0.0,
+   "sun_hours_jun": 4.8
+  },
+  "Northwest Arctic Borough": {
+   "fips": "02188",
+   "centroid": [
+    67.0051,
+    -160.0211
+   ],
+   "latitude": 67.0,
+   "bbox": [
+    -165.3872,
+    65.4372,
+    -154.1462,
+    68.2946
+   ],
+   "coastal": true,
+   "elevation_ft": 180,
+   "zone": "2a",
+   "jan_low_f": -8,
+   "jul_high_f": 60,
+   "record_low_f": -58,
+   "record_high_f": 85,
+   "precip_in": 11.4,
+   "snow_in": 64,
+   "last_frost": "Jun 5",
+   "first_frost": "Sep 24",
+   "growing_days": 110,
+   "ecoregion": "Interior Forested Lowlands and Uplands",
+   "ecoregion_code": "104",
+   "nws_office": "Fairbanks, AK",
+   "nws_cwa": "AFG",
+   "nwr": [
+    {
+     "call": "KWN30",
+     "freq": "162.550",
+     "same": "002188"
+    }
+   ],
+   "state_em": "Alaska Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 0.0,
+   "sun_hours_jun": 4.9
+  },
+  "Petersburg Borough": {
+   "fips": "02195",
+   "centroid": [
+    57.1125,
+    -133.0086
+   ],
+   "latitude": 57.1,
+   "bbox": [
+    -133.699,
+    56.4473,
+    -132.0452,
+    57.8247
+   ],
+   "coastal": true,
+   "elevation_ft": 3150,
+   "zone": "6a",
+   "jan_low_f": 27,
+   "jul_high_f": 62,
+   "record_low_f": -19,
+   "record_high_f": 84,
+   "precip_in": 110.2,
+   "snow_in": 86,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 17",
+   "growing_days": 169,
+   "ecoregion": "Coastal Western Hemlock-Sitka Spruce Forests",
+   "ecoregion_code": "120",
+   "nws_office": "Juneau, AK",
+   "nws_cwa": "AJK",
+   "nwr": [
+    {
+     "call": "KZZ88",
+     "freq": "162.425",
+     "same": "002195"
+    },
+    {
+     "call": "KAD96",
+     "freq": "162.500",
+     "same": "002195"
+    }
+   ],
+   "state_em": "Alaska Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 1.0,
+   "sun_hours_jun": 4.8
+  },
+  "Prince of Wales-Hyder Census Area": {
+   "fips": "02198",
+   "centroid": [
+    55.6828,
+    -133.1624
+   ],
+   "latitude": 55.7,
+   "bbox": [
+    -134.6666,
+    54.6645,
+    -130.0035,
+    57.0995
+   ],
+   "coastal": true,
+   "elevation_ft": 1780,
+   "zone": "7a",
+   "jan_low_f": 31,
+   "jul_high_f": 63,
+   "record_low_f": -2,
+   "record_high_f": 86,
+   "precip_in": 89.2,
+   "snow_in": 56,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 16",
+   "growing_days": 169,
+   "ecoregion": "Coastal Western Hemlock-Sitka Spruce Forests",
+   "ecoregion_code": "120",
+   "nws_office": "Juneau, AK",
+   "nws_cwa": "AJK",
+   "nwr": [
+    {
+     "call": "KXI80",
+     "freq": "162.475",
+     "same": "002198"
+    },
+    {
+     "call": "KZZ89",
+     "freq": "162.425",
+     "same": "002198"
+    }
+   ],
+   "state_em": "Alaska Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 1.0,
+   "sun_hours_jun": 3.9
+  },
+  "Sitka City and Borough": {
+   "fips": "02220",
+   "centroid": [
+    57.1932,
+    -135.3674
+   ],
+   "latitude": 57.2,
+   "bbox": [
+    -136.4246,
+    56.1616,
+    -134.6163,
+    58.0013
+   ],
+   "coastal": true,
+   "elevation_ft": 30,
+   "zone": "8a",
+   "jan_low_f": 29,
+   "jul_high_f": 60,
+   "record_low_f": -1,
+   "record_high_f": 88,
+   "precip_in": 102.1,
+   "snow_in": 112,
+   "last_frost": "May 3",
+   "first_frost": "Oct 18",
+   "growing_days": 166,
+   "ecoregion": "Coastal Western Hemlock-Sitka Spruce Forests",
+   "ecoregion_code": "120",
+   "nws_office": "Juneau, AK",
+   "nws_cwa": "AJK",
+   "nwr": [
+    {
+     "call": "KZZ86",
+     "freq": "162.425",
+     "same": "002220"
+    },
+    {
+     "call": "WZ2555",
+     "freq": "162.525",
+     "same": "002220"
+    },
+    {
+     "call": "KZZ95",
+     "freq": "162.525",
+     "same": "002220"
+    },
+    {
+     "call": "WXJ80",
+     "freq": "162.550",
+     "same": "002220"
+    }
+   ],
+   "state_em": "Alaska Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 2,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 0.8,
+   "sun_hours_jun": 3.8
+  },
+  "Skagway Municipality": {
+   "fips": "02230",
+   "centroid": [
+    59.5604,
+    -135.3383
+   ],
+   "latitude": 59.6,
+   "bbox": [
+    -135.7231,
+    59.3463,
+    -134.9897,
+    59.798
+   ],
+   "coastal": true,
+   "elevation_ft": 90,
+   "zone": "6a",
+   "jan_low_f": 20,
+   "jul_high_f": 67,
+   "record_low_f": -15,
+   "record_high_f": 93,
+   "precip_in": 31.5,
+   "snow_in": 45,
+   "last_frost": "May 6",
+   "first_frost": "Oct 1",
+   "growing_days": 146,
+   "ecoregion": "Pacific Coastal Mountains",
+   "ecoregion_code": "119",
+   "nws_office": "Juneau, AK",
+   "nws_cwa": "AJK",
+   "nwr": [
+    {
+     "call": "WXM97",
+     "freq": "162.400",
+     "same": "002230"
+    }
+   ],
+   "state_em": "Alaska Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 0.7,
+   "sun_hours_jun": 4.5
+  },
+  "Southeast Fairbanks Census Area": {
+   "fips": "02240",
+   "centroid": [
+    63.865,
+    -143.2186
+   ],
+   "latitude": 63.9,
+   "bbox": [
+    -147.0,
+    61.904,
+    -141.0013,
+    65.8394
+   ],
+   "coastal": false,
+   "elevation_ft": 2410,
+   "zone": "1b",
+   "jan_low_f": -20,
+   "jul_high_f": 72,
+   "record_low_f": -71,
+   "record_high_f": 96,
+   "precip_in": 10.6,
+   "snow_in": 38,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 64,
+   "ecoregion": "Interior Highlands",
+   "ecoregion_code": "105",
+   "nws_office": "Fairbanks, AK",
+   "nws_cwa": "AFG",
+   "nwr": [
+    {
+     "call": "WXJ81",
+     "freq": "162.550",
+     "same": "002240"
+    },
+    {
+     "call": "KPS504",
+     "freq": "162.400",
+     "same": "002240"
+    }
+   ],
+   "state_em": "Alaska Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 0.3,
+   "sun_hours_jun": 4.5
+  },
+  "Wrangell City and Borough": {
+   "fips": "02275",
+   "centroid": [
+    56.1808,
+    -132.0268
+   ],
+   "latitude": 56.2,
+   "bbox": [
+    -133.0701,
+    55.6343,
+    -130.9979,
+    56.9033
+   ],
+   "coastal": true,
+   "elevation_ft": 590,
+   "zone": "7b",
+   "jan_low_f": 29,
+   "jul_high_f": 64,
+   "record_low_f": -10,
+   "record_high_f": 92,
+   "precip_in": 85.2,
+   "snow_in": 86,
+   "last_frost": "Apr 11",
+   "first_frost": "Nov 1",
+   "growing_days": 202,
+   "ecoregion": "Coastal Western Hemlock-Sitka Spruce Forests",
+   "ecoregion_code": "120",
+   "nws_office": "Juneau, AK",
+   "nws_cwa": "AJK",
+   "nwr": [
+    {
+     "call": "KZZ88",
+     "freq": "162.425",
+     "same": "002275"
+    },
+    {
+     "call": "WXJ83",
+     "freq": "162.400",
+     "same": "002275"
+    },
+    {
+     "call": "KZZ91",
+     "freq": "162.450",
+     "same": "002275"
+    }
+   ],
+   "state_em": "Alaska Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 0.9,
+   "sun_hours_jun": 4.0
+  },
+  "Yakutat City and Borough": {
+   "fips": "02282",
+   "centroid": [
+    60.0175,
+    -140.4168
+   ],
+   "latitude": 60.0,
+   "bbox": [
+    -143.8933,
+    58.8092,
+    -137.5,
+    60.5219
+   ],
+   "coastal": true,
+   "elevation_ft": 1610,
+   "zone": "6a",
+   "jan_low_f": 22,
+   "jul_high_f": 62,
+   "record_low_f": -24,
+   "record_high_f": 88,
+   "precip_in": 140.4,
+   "snow_in": 147,
+   "last_frost": "May 20",
+   "first_frost": "Sep 23",
+   "growing_days": 124,
+   "ecoregion": "Pacific Coastal Mountains",
+   "ecoregion_code": "119",
+   "nws_office": "Juneau, AK",
+   "nws_cwa": "AJK",
+   "nwr": [
+    {
+     "call": "WXK69",
+     "freq": "162.400",
+     "same": "002282"
+    }
+   ],
+   "state_em": "Alaska Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 0.7,
+   "sun_hours_jun": 5.4
+  },
+  "Yukon-Koyukuk Census Area": {
+   "fips": "02290",
+   "centroid": [
+    65.3757,
+    -151.5782
+   ],
+   "latitude": 65.4,
+   "bbox": [
+    -161.0482,
+    61.9459,
+    -141.0025,
+    68.5
+   ],
+   "coastal": false,
+   "elevation_ft": 2050,
+   "zone": "3b",
+   "jan_low_f": -17,
+   "jul_high_f": 71,
+   "record_low_f": -76,
+   "record_high_f": 94,
+   "precip_in": 11.5,
+   "snow_in": 50,
+   "last_frost": "May 29",
+   "first_frost": "Aug 28",
+   "growing_days": 89,
+   "ecoregion": "Interior Highlands",
+   "ecoregion_code": "105",
+   "nws_office": "Fairbanks, AK",
+   "nws_cwa": "AFG",
+   "nwr": [
+    {
+     "call": "WXJ81",
+     "freq": "162.550",
+     "same": "002290"
+    },
+    {
+     "call": "KPS504",
+     "freq": "162.400",
+     "same": "002290"
+    }
+   ],
+   "state_em": "Alaska Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 0.1,
+   "sun_hours_jun": 4.8
+  }
+ }
+}

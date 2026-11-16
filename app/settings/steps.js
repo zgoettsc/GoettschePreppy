@@ -86,6 +86,7 @@ export const STEPS = [
         text: 'At the end, offer me a file of my answers (profile.json) to keep on this device.',
         why: 'With that file you can come back to change answers, rebuild your binder, or upgrade from Small to Large, without typing it all again. The file stays with you.' }),
       env.keepToggleUI(),
+      relaySourceUI(),
     ],
   },
   {
@@ -266,6 +267,25 @@ export const STEPS = [
     ],
   },
 ];
+
+/** Privacy: the relay's own code, loaded only when opened. */
+function relaySourceUI() {
+  const body = h('div', { class: 'relay-src' }, h('p', { class: 'muted' }, 'Loading…'));
+  let loaded = false;
+  return h('details', { class: 'more privacy', id: 'relay-source', ontoggle: async (e) => {
+    if (!e.target.open || loaded) return;
+    loaded = true;
+    try {
+      const { RELAY_SOURCE } = await import('./relay-source.js');
+      body.replaceChildren(...[
+        h('p', {}, 'This is the complete code of the relay program your answers pass through. It checks your access key, adds the owner\'s AI key, passes the request to the AI service and passes the answer back. It keeps one count of requests per access key and nothing else.'),
+        RELAY_SOURCE.length ? RELAY_SOURCE.map(f => h('div', {}, h('h4', {}, f.name), h('pre', { tabindex: '0' }, f.text)))
+          : h('p', { class: 'warn' }, 'The relay code was not included in this copy of the page.')].flat());
+    } catch {
+      body.replaceChildren(h('p', { class: 'warn' }, 'The relay code could not be loaded.'));
+    }
+  } }, h('summary', {}, 'Privacy: read the relay\'s code'), body);
+}
 
 function noticeFull(n, cls) {
   return h('section', { class: 'notice ' + cls, 'aria-label': n.title },

@@ -1,0 +1,1332 @@
+{
+ "state": "NJ",
+ "state_name": "New Jersey",
+ "state_fips": "34",
+ "state_em": "New Jersey Office of Emergency Management",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "OKX": "NWS Upton, NY",
+  "PHI": "NWS Mount Holly, NJ"
+ },
+ "ecoregions": [
+  "Northeastern Highlands",
+  "Middle Atlantic Coastal Plain",
+  "Northern Piedmont",
+  "Ridge and Valley",
+  "Atlantic Coastal Pine Barrens"
+ ],
+ "counties": {
+  "Atlantic County": {
+   "fips": "34001",
+   "centroid": [
+    39.4694,
+    -74.6338
+   ],
+   "latitude": 39.5,
+   "bbox": [
+    -74.985,
+    39.2895,
+    -74.3022,
+    39.7294
+   ],
+   "coastal": true,
+   "elevation_ft": 70,
+   "zone": "7a",
+   "jan_low_f": 25,
+   "jul_high_f": 87,
+   "record_low_f": -11,
+   "record_high_f": 106,
+   "precip_in": 46.0,
+   "snow_in": 17,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 29",
+   "growing_days": 190,
+   "ecoregion": "Atlantic Coastal Pine Barrens",
+   "ecoregion_code": "84",
+   "nws_office": "Mount Holly, NJ",
+   "nws_cwa": "PHI",
+   "nwr": [
+    {
+     "call": "KHB38",
+     "freq": "162.400",
+     "same": "034001"
+    }
+   ],
+   "state_em": "New Jersey Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.3
+  },
+  "Bergen County": {
+   "fips": "34003",
+   "centroid": [
+    40.9597,
+    -74.0747
+   ],
+   "latitude": 41.0,
+   "bbox": [
+    -74.2725,
+    40.7623,
+    -73.894,
+    41.1344
+   ],
+   "coastal": true,
+   "elevation_ft": 50,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 87,
+   "record_low_f": -7,
+   "record_high_f": 104,
+   "precip_in": 46.3,
+   "snow_in": 30,
+   "last_frost": "Apr 3",
+   "first_frost": "Nov 4",
+   "growing_days": 215,
+   "ecoregion": "Northern Piedmont",
+   "ecoregion_code": "64",
+   "nws_office": "Upton, NY",
+   "nws_cwa": "OKX",
+   "nwr": [
+    {
+     "call": "KZZ31",
+     "freq": "162.500",
+     "same": "034003"
+    },
+    {
+     "call": "KWO35",
+     "freq": "162.550",
+     "same": "034003"
+    }
+   ],
+   "state_em": "New Jersey Office of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 2,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.2
+  },
+  "Burlington County": {
+   "fips": "34005",
+   "centroid": [
+    39.8758,
+    -74.663
+   ],
+   "latitude": 39.9,
+   "bbox": [
+    -75.0595,
+    39.5409,
+    -74.3896,
+    40.1834
+   ],
+   "coastal": true,
+   "elevation_ft": 100,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 87,
+   "record_low_f": -25,
+   "record_high_f": 107,
+   "precip_in": 50.4,
+   "snow_in": 24,
+   "last_frost": "Apr 28",
+   "first_frost": "Oct 15",
+   "growing_days": 169,
+   "ecoregion": "Atlantic Coastal Pine Barrens",
+   "ecoregion_code": "84",
+   "nws_office": "Mount Holly, NJ",
+   "nws_cwa": "PHI",
+   "nwr": [
+    {
+     "call": "KHB38",
+     "freq": "162.400",
+     "same": "034005"
+    },
+    {
+     "call": "KIH28",
+     "freq": "162.475",
+     "same": "034005"
+    },
+    {
+     "call": "WXM60",
+     "freq": "162.450",
+     "same": "034005"
+    }
+   ],
+   "state_em": "New Jersey Office of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 2,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.3
+  },
+  "Camden County": {
+   "fips": "34007",
+   "centroid": [
+    39.8024,
+    -74.9612
+   ],
+   "latitude": 39.8,
+   "bbox": [
+    -75.1402,
+    39.6088,
+    -74.7368,
+    39.9957
+   ],
+   "coastal": true,
+   "elevation_ft": 150,
+   "zone": "7a",
+   "jan_low_f": 25,
+   "jul_high_f": 87,
+   "record_low_f": -6,
+   "record_high_f": 104,
+   "precip_in": 48.1,
+   "snow_in": 22,
+   "last_frost": "Apr 8",
+   "first_frost": "Nov 1",
+   "growing_days": 205,
+   "ecoregion": "Atlantic Coastal Pine Barrens",
+   "ecoregion_code": "84",
+   "nws_office": "Mount Holly, NJ",
+   "nws_cwa": "PHI",
+   "nwr": [
+    {
+     "call": "KIH28",
+     "freq": "162.475",
+     "same": "034007"
+    }
+   ],
+   "state_em": "New Jersey Office of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 2,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.3
+  },
+  "Cape May County": {
+   "fips": "34009",
+   "centroid": [
+    39.0858,
+    -74.8464
+   ],
+   "latitude": 39.1,
+   "bbox": [
+    -74.972,
+    38.9285,
+    -74.5512,
+    39.3236
+   ],
+   "coastal": true,
+   "elevation_ft": 20,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 86,
+   "record_low_f": -3,
+   "record_high_f": 102,
+   "precip_in": 43.8,
+   "snow_in": 15,
+   "last_frost": "Apr 1",
+   "first_frost": "Nov 9",
+   "growing_days": 222,
+   "ecoregion": "Atlantic Coastal Pine Barrens",
+   "ecoregion_code": "84",
+   "nws_office": "Mount Holly, NJ",
+   "nws_cwa": "PHI",
+   "nwr": [
+    {
+     "call": "KHB38",
+     "freq": "162.400",
+     "same": "034009"
+    },
+    {
+     "call": "WXJ94",
+     "freq": "162.550",
+     "same": "034009"
+    }
+   ],
+   "state_em": "New Jersey Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.3
+  },
+  "Cumberland County": {
+   "fips": "34011",
+   "centroid": [
+    39.3284,
+    -75.1216
+   ],
+   "latitude": 39.3,
+   "bbox": [
+    -75.4191,
+    39.1757,
+    -74.8519,
+    39.5686
+   ],
+   "coastal": true,
+   "elevation_ft": 80,
+   "zone": "7b",
+   "jan_low_f": 24,
+   "jul_high_f": 86,
+   "record_low_f": -10,
+   "record_high_f": 103,
+   "precip_in": 43.4,
+   "snow_in": 12,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 23",
+   "growing_days": 181,
+   "ecoregion": "Atlantic Coastal Pine Barrens",
+   "ecoregion_code": "84",
+   "nws_office": "Mount Holly, NJ",
+   "nws_cwa": "PHI",
+   "nwr": [
+    {
+     "call": "KHB38",
+     "freq": "162.400",
+     "same": "034011"
+    },
+    {
+     "call": "KIH28",
+     "freq": "162.475",
+     "same": "034011"
+    },
+    {
+     "call": "WXK97",
+     "freq": "162.500",
+     "same": "034011"
+    }
+   ],
+   "state_em": "New Jersey Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.3
+  },
+  "Essex County": {
+   "fips": "34013",
+   "centroid": [
+    40.7874,
+    -74.2463
+   ],
+   "latitude": 40.8,
+   "bbox": [
+    -74.3764,
+    40.6748,
+    -74.1128,
+    40.9079
+   ],
+   "coastal": true,
+   "elevation_ft": 390,
+   "zone": "7a",
+   "jan_low_f": 21,
+   "jul_high_f": 86,
+   "record_low_f": -14,
+   "record_high_f": 105,
+   "precip_in": 48.6,
+   "snow_in": 24,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 24",
+   "growing_days": 187,
+   "ecoregion": "Northern Piedmont",
+   "ecoregion_code": "64",
+   "nws_office": "Upton, NY",
+   "nws_cwa": "OKX",
+   "nwr": [
+    {
+     "call": "KZZ31",
+     "freq": "162.500",
+     "same": "034013"
+    },
+    {
+     "call": "KWO35",
+     "freq": "162.550",
+     "same": "034013"
+    }
+   ],
+   "state_em": "New Jersey Office of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 2,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.2
+  },
+  "Gloucester County": {
+   "fips": "34015",
+   "centroid": [
+    39.7229,
+    -75.1457
+   ],
+   "latitude": 39.7,
+   "bbox": [
+    -75.4393,
+    39.5148,
+    -74.8781,
+    39.8883
+   ],
+   "coastal": true,
+   "elevation_ft": 140,
+   "zone": "7b",
+   "jan_low_f": 25,
+   "jul_high_f": 87,
+   "record_low_f": -6,
+   "record_high_f": 104,
+   "precip_in": 48.1,
+   "snow_in": 22,
+   "last_frost": "Apr 8",
+   "first_frost": "Nov 1",
+   "growing_days": 205,
+   "ecoregion": "Atlantic Coastal Pine Barrens",
+   "ecoregion_code": "84",
+   "nws_office": "Mount Holly, NJ",
+   "nws_cwa": "PHI",
+   "nwr": [
+    {
+     "call": "KIH28",
+     "freq": "162.475",
+     "same": "034015"
+    }
+   ],
+   "state_em": "New Jersey Office of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.3
+  },
+  "Hudson County": {
+   "fips": "34017",
+   "centroid": [
+    40.7314,
+    -74.0786
+   ],
+   "latitude": 40.7,
+   "bbox": [
+    -74.166,
+    40.6419,
+    -73.9849,
+    40.8235
+   ],
+   "coastal": true,
+   "elevation_ft": 40,
+   "zone": "7b",
+   "jan_low_f": 25,
+   "jul_high_f": 87,
+   "record_low_f": 0,
+   "record_high_f": 107,
+   "precip_in": 50.4,
+   "snow_in": 28,
+   "last_frost": "Apr 4",
+   "first_frost": "Nov 6",
+   "growing_days": 216,
+   "ecoregion": "Northern Piedmont",
+   "ecoregion_code": "64",
+   "nws_office": "Upton, NY",
+   "nws_cwa": "OKX",
+   "nwr": [
+    {
+     "call": "KWO35",
+     "freq": "162.550",
+     "same": "034017"
+    }
+   ],
+   "state_em": "New Jersey Office of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 2,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.2
+  },
+  "Hunterdon County": {
+   "fips": "34019",
+   "centroid": [
+    40.5653,
+    -74.912
+   ],
+   "latitude": 40.6,
+   "bbox": [
+    -75.195,
+    40.3399,
+    -74.7036,
+    40.7885
+   ],
+   "coastal": false,
+   "elevation_ft": 650,
+   "zone": "7a",
+   "jan_low_f": 21,
+   "jul_high_f": 86,
+   "record_low_f": -18,
+   "record_high_f": 108,
+   "precip_in": 50.9,
+   "snow_in": 27,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 21",
+   "growing_days": 179,
+   "ecoregion": "Northern Piedmont",
+   "ecoregion_code": "64",
+   "nws_office": "Mount Holly, NJ",
+   "nws_cwa": "PHI",
+   "nwr": [
+    {
+     "call": "WXL39",
+     "freq": "162.400",
+     "same": "034019"
+    },
+    {
+     "call": "KZZ31",
+     "freq": "162.500",
+     "same": "034019"
+    },
+    {
+     "call": "KWO35",
+     "freq": "162.550",
+     "same": "034019"
+    },
+    {
+     "call": "KIH28",
+     "freq": "162.475",
+     "same": "034019"
+    }
+   ],
+   "state_em": "New Jersey Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.2
+  },
+  "Mercer County": {
+   "fips": "34021",
+   "centroid": [
+    40.2825,
+    -74.7037
+   ],
+   "latitude": 40.3,
+   "bbox": [
+    -74.9425,
+    40.1375,
+    -74.4811,
+    40.4248
+   ],
+   "coastal": true,
+   "elevation_ft": 60,
+   "zone": "7a",
+   "jan_low_f": 23,
+   "jul_high_f": 86,
+   "record_low_f": -16,
+   "record_high_f": 102,
+   "precip_in": 47.4,
+   "snow_in": 24,
+   "last_frost": "Apr 17",
+   "first_frost": "Oct 28",
+   "growing_days": 192,
+   "ecoregion": "Northern Piedmont",
+   "ecoregion_code": "64",
+   "nws_office": "Mount Holly, NJ",
+   "nws_cwa": "PHI",
+   "nwr": [
+    {
+     "call": "WXL39",
+     "freq": "162.400",
+     "same": "034021"
+    },
+    {
+     "call": "KIH28",
+     "freq": "162.475",
+     "same": "034021"
+    },
+    {
+     "call": "WXM60",
+     "freq": "162.450",
+     "same": "034021"
+    }
+   ],
+   "state_em": "New Jersey Office of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.2
+  },
+  "Middlesex County": {
+   "fips": "34023",
+   "centroid": [
+    40.4396,
+    -74.4074
+   ],
+   "latitude": 40.4,
+   "bbox": [
+    -74.63,
+    40.2516,
+    -74.2045,
+    40.6084
+   ],
+   "coastal": true,
+   "elevation_ft": 100,
+   "zone": "7a",
+   "jan_low_f": 23,
+   "jul_high_f": 86,
+   "record_low_f": -13,
+   "record_high_f": 105,
+   "precip_in": 49.5,
+   "snow_in": 29,
+   "last_frost": "Apr 15",
+   "first_frost": "Oct 26",
+   "growing_days": 193,
+   "ecoregion": "Atlantic Coastal Pine Barrens",
+   "ecoregion_code": "84",
+   "nws_office": "Mount Holly, NJ",
+   "nws_cwa": "PHI",
+   "nwr": [
+    {
+     "call": "KWO35",
+     "freq": "162.550",
+     "same": "034023"
+    },
+    {
+     "call": "WXM60",
+     "freq": "162.450",
+     "same": "034023"
+    }
+   ],
+   "state_em": "New Jersey Office of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.2
+  },
+  "Monmouth County": {
+   "fips": "34025",
+   "centroid": [
+    40.287,
+    -74.1524
+   ],
+   "latitude": 40.3,
+   "bbox": [
+    -74.6135,
+    40.0792,
+    -73.971,
+    40.4765
+   ],
+   "coastal": true,
+   "elevation_ft": 90,
+   "zone": "7a",
+   "jan_low_f": 23,
+   "jul_high_f": 86,
+   "record_low_f": -20,
+   "record_high_f": 106,
+   "precip_in": 48.6,
+   "snow_in": 29,
+   "last_frost": "Apr 17",
+   "first_frost": "Oct 23",
+   "growing_days": 190,
+   "ecoregion": "Atlantic Coastal Pine Barrens",
+   "ecoregion_code": "84",
+   "nws_office": "Mount Holly, NJ",
+   "nws_cwa": "PHI",
+   "nwr": [
+    {
+     "call": "KWO35",
+     "freq": "162.550",
+     "same": "034025"
+    },
+    {
+     "call": "KIH28",
+     "freq": "162.475",
+     "same": "034025"
+    },
+    {
+     "call": "WXM60",
+     "freq": "162.450",
+     "same": "034025"
+    }
+   ],
+   "state_em": "New Jersey Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 2,
+    "extreme_heat": 3,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.2
+  },
+  "Morris County": {
+   "fips": "34027",
+   "centroid": [
+    40.8589,
+    -74.5473
+   ],
+   "latitude": 40.9,
+   "bbox": [
+    -74.8891,
+    40.649,
+    -74.2677,
+    41.0862
+   ],
+   "coastal": false,
+   "elevation_ft": 820,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 83,
+   "record_low_f": -26,
+   "record_high_f": 105,
+   "precip_in": 52.2,
+   "snow_in": 28,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 17",
+   "growing_days": 174,
+   "ecoregion": "Northeastern Highlands",
+   "ecoregion_code": "58",
+   "nws_office": "Mount Holly, NJ",
+   "nws_cwa": "PHI",
+   "nwr": [
+    {
+     "call": "WXL39",
+     "freq": "162.400",
+     "same": "034027"
+    },
+    {
+     "call": "KZZ31",
+     "freq": "162.500",
+     "same": "034027"
+    },
+    {
+     "call": "KWO35",
+     "freq": "162.550",
+     "same": "034027"
+    }
+   ],
+   "state_em": "New Jersey Office of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.2
+  },
+  "Ocean County": {
+   "fips": "34029",
+   "centroid": [
+    39.8657,
+    -74.2589
+   ],
+   "latitude": 39.9,
+   "bbox": [
+    -74.5533,
+    39.5029,
+    -74.0312,
+    40.1723
+   ],
+   "coastal": true,
+   "elevation_ft": 80,
+   "zone": "7a",
+   "jan_low_f": 22,
+   "jul_high_f": 86,
+   "record_low_f": -19,
+   "record_high_f": 105,
+   "precip_in": 52.0,
+   "snow_in": 10,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 20",
+   "growing_days": 179,
+   "ecoregion": "Atlantic Coastal Pine Barrens",
+   "ecoregion_code": "84",
+   "nws_office": "Mount Holly, NJ",
+   "nws_cwa": "PHI",
+   "nwr": [
+    {
+     "call": "KHB38",
+     "freq": "162.400",
+     "same": "034029"
+    },
+    {
+     "call": "WXM60",
+     "freq": "162.450",
+     "same": "034029"
+    }
+   ],
+   "state_em": "New Jersey Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 2,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.3
+  },
+  "Passaic County": {
+   "fips": "34031",
+   "centroid": [
+    41.0367,
+    -74.2994
+   ],
+   "latitude": 41.0,
+   "bbox": [
+    -74.5022,
+    40.8201,
+    -74.1068,
+    41.2029
+   ],
+   "coastal": true,
+   "elevation_ft": 240,
+   "zone": "7a",
+   "jan_low_f": 20,
+   "jul_high_f": 84,
+   "record_low_f": -20,
+   "record_high_f": 104,
+   "precip_in": 48.2,
+   "snow_in": 24,
+   "last_frost": "Apr 19",
+   "first_frost": "Oct 23",
+   "growing_days": 188,
+   "ecoregion": "Northeastern Highlands",
+   "ecoregion_code": "58",
+   "nws_office": "Upton, NY",
+   "nws_cwa": "OKX",
+   "nwr": [
+    {
+     "call": "KZZ31",
+     "freq": "162.500",
+     "same": "034031"
+    },
+    {
+     "call": "KWO35",
+     "freq": "162.550",
+     "same": "034031"
+    }
+   ],
+   "state_em": "New Jersey Office of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.0
+  },
+  "Salem County": {
+   "fips": "34033",
+   "centroid": [
+    39.5738,
+    -75.3574
+   ],
+   "latitude": 39.6,
+   "bbox": [
+    -75.5598,
+    39.3863,
+    -75.0625,
+    39.7862
+   ],
+   "coastal": true,
+   "elevation_ft": 40,
+   "zone": "7b",
+   "jan_low_f": 25,
+   "jul_high_f": 86,
+   "record_low_f": -24,
+   "record_high_f": 103,
+   "precip_in": 47.7,
+   "snow_in": 12,
+   "last_frost": "Apr 10",
+   "first_frost": "Nov 1",
+   "growing_days": 205,
+   "ecoregion": "Atlantic Coastal Pine Barrens",
+   "ecoregion_code": "84",
+   "nws_office": "Mount Holly, NJ",
+   "nws_cwa": "PHI",
+   "nwr": [
+    {
+     "call": "KIH28",
+     "freq": "162.475",
+     "same": "034033"
+    },
+    {
+     "call": "WXK97",
+     "freq": "162.500",
+     "same": "034033"
+    }
+   ],
+   "state_em": "New Jersey Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.3
+  },
+  "Somerset County": {
+   "fips": "34035",
+   "centroid": [
+    40.5655,
+    -74.6199
+   ],
+   "latitude": 40.6,
+   "bbox": [
+    -74.7966,
+    40.3751,
+    -74.4023,
+    40.7575
+   ],
+   "coastal": true,
+   "elevation_ft": 70,
+   "zone": "7a",
+   "jan_low_f": 19,
+   "jul_high_f": 86,
+   "record_low_f": -20,
+   "record_high_f": 109,
+   "precip_in": 46.7,
+   "snow_in": 21,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 20",
+   "growing_days": 172,
+   "ecoregion": "Northern Piedmont",
+   "ecoregion_code": "64",
+   "nws_office": "Mount Holly, NJ",
+   "nws_cwa": "PHI",
+   "nwr": [
+    {
+     "call": "WXL39",
+     "freq": "162.400",
+     "same": "034035"
+    },
+    {
+     "call": "KZZ31",
+     "freq": "162.500",
+     "same": "034035"
+    },
+    {
+     "call": "KWO35",
+     "freq": "162.550",
+     "same": "034035"
+    },
+    {
+     "call": "WXM60",
+     "freq": "162.450",
+     "same": "034035"
+    }
+   ],
+   "state_em": "New Jersey Office of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.2
+  },
+  "Sussex County": {
+   "fips": "34037",
+   "centroid": [
+    41.1375,
+    -74.6919
+   ],
+   "latitude": 41.1,
+   "bbox": [
+    -74.9922,
+    40.8997,
+    -74.3659,
+    41.3573
+   ],
+   "coastal": false,
+   "elevation_ft": 610,
+   "zone": "6b",
+   "jan_low_f": 17,
+   "jul_high_f": 84,
+   "record_low_f": -26,
+   "record_high_f": 105,
+   "precip_in": 48.7,
+   "snow_in": 39,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 16",
+   "growing_days": 176,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Mount Holly, NJ",
+   "nws_cwa": "PHI",
+   "nwr": [
+    {
+     "call": "WXL39",
+     "freq": "162.400",
+     "same": "034037"
+    },
+    {
+     "call": "KZZ31",
+     "freq": "162.500",
+     "same": "034037"
+    },
+    {
+     "call": "KWO35",
+     "freq": "162.550",
+     "same": "034037"
+    }
+   ],
+   "state_em": "New Jersey Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.0
+  },
+  "Union County": {
+   "fips": "34039",
+   "centroid": [
+    40.6599,
+    -74.3087
+   ],
+   "latitude": 40.7,
+   "bbox": [
+    -74.4626,
+    40.5925,
+    -74.1364,
+    40.7391
+   ],
+   "coastal": true,
+   "elevation_ft": 70,
+   "zone": "7a",
+   "jan_low_f": 25,
+   "jul_high_f": 86,
+   "record_low_f": -10,
+   "record_high_f": 104,
+   "precip_in": 50.4,
+   "snow_in": 26,
+   "last_frost": "Apr 11",
+   "first_frost": "Oct 31",
+   "growing_days": 202,
+   "ecoregion": "Northern Piedmont",
+   "ecoregion_code": "64",
+   "nws_office": "Upton, NY",
+   "nws_cwa": "OKX",
+   "nwr": [
+    {
+     "call": "KZZ31",
+     "freq": "162.500",
+     "same": "034039"
+    },
+    {
+     "call": "KWO35",
+     "freq": "162.550",
+     "same": "034039"
+    },
+    {
+     "call": "WXM60",
+     "freq": "162.450",
+     "same": "034039"
+    }
+   ],
+   "state_em": "New Jersey Office of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.2
+  },
+  "Warren County": {
+   "fips": "34041",
+   "centroid": [
+    40.8535,
+    -75.0095
+   ],
+   "latitude": 40.9,
+   "bbox": [
+    -75.2034,
+    40.5925,
+    -74.7682,
+    41.0937
+   ],
+   "coastal": false,
+   "elevation_ft": 1010,
+   "zone": "6b",
+   "jan_low_f": 18,
+   "jul_high_f": 84,
+   "record_low_f": -17,
+   "record_high_f": 101,
+   "precip_in": 48.2,
+   "snow_in": 23,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 18",
+   "growing_days": 168,
+   "ecoregion": "Northeastern Highlands",
+   "ecoregion_code": "58",
+   "nws_office": "Mount Holly, NJ",
+   "nws_cwa": "PHI",
+   "nwr": [
+    {
+     "call": "WXL39",
+     "freq": "162.400",
+     "same": "034041"
+    },
+    {
+     "call": "KZZ31",
+     "freq": "162.500",
+     "same": "034041"
+    },
+    {
+     "call": "KWO35",
+     "freq": "162.550",
+     "same": "034041"
+    }
+   ],
+   "state_em": "New Jersey Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.1
+  }
+ }
+}

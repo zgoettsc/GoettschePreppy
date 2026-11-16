@@ -1,0 +1,1396 @@
+{
+ "state": "WY",
+ "state_name": "Wyoming",
+ "state_fips": "56",
+ "state_em": "Wyoming Office of Homeland Security",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "BYZ": "NWS Billings, MT",
+  "CYS": "NWS Cheyenne, WY",
+  "RIW": "NWS Riverton, WY",
+  "SLC": "NWS Salt Lake City, UT",
+  "UNR": "NWS Rapid City, SD"
+ },
+ "ecoregions": [
+  "Middle Rockies",
+  "Wyoming Basin",
+  "Wasatch and Uinta Mountains",
+  "Southern Rockies",
+  "High Plains",
+  "Northwestern Great Plains"
+ ],
+ "counties": {
+  "Albany County": {
+   "fips": "56001",
+   "centroid": [
+    41.6655,
+    -105.7219
+   ],
+   "latitude": 41.7,
+   "bbox": [
+    -106.3233,
+    40.9967,
+    -105.2715,
+    42.4337
+   ],
+   "coastal": false,
+   "elevation_ft": 7110,
+   "zone": "4b",
+   "jan_low_f": 8,
+   "jul_high_f": 81,
+   "record_low_f": -43,
+   "record_high_f": 97,
+   "precip_in": 10.9,
+   "snow_in": 64,
+   "last_frost": "Jun 7",
+   "first_frost": "Sep 4",
+   "growing_days": 88,
+   "ecoregion": "Wyoming Basin",
+   "ecoregion_code": "18",
+   "nws_office": "Cheyenne, WY",
+   "nws_cwa": "CYS",
+   "nwr": [
+    {
+     "call": "WXM37",
+     "freq": "162.550",
+     "same": "056001"
+    }
+   ],
+   "state_em": "Wyoming Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 6.4
+  },
+  "Big Horn County": {
+   "fips": "56003",
+   "centroid": [
+    44.5251,
+    -107.9948
+   ],
+   "latitude": 44.5,
+   "bbox": [
+    -108.622,
+    44.1657,
+    -107.1455,
+    45.0016
+   ],
+   "coastal": false,
+   "elevation_ft": 4100,
+   "zone": "4b",
+   "jan_low_f": 6,
+   "jul_high_f": 91,
+   "record_low_f": -39,
+   "record_high_f": 109,
+   "precip_in": 5.5,
+   "snow_in": 19,
+   "last_frost": "May 4",
+   "first_frost": "Oct 1",
+   "growing_days": 149,
+   "ecoregion": "Wyoming Basin",
+   "ecoregion_code": "18",
+   "nws_office": "Riverton, WY",
+   "nws_cwa": "RIW",
+   "nwr": [
+    {
+     "call": "WNG563",
+     "freq": "162.400",
+     "same": "056003"
+    },
+    {
+     "call": "WNG568",
+     "freq": "162.525",
+     "same": "056003"
+    }
+   ],
+   "state_em": "Wyoming Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 6.3
+  },
+  "Campbell County": {
+   "fips": "56005",
+   "centroid": [
+    44.192,
+    -105.517
+   ],
+   "latitude": 44.2,
+   "bbox": [
+    -106.0249,
+    43.4948,
+    -105.0747,
+    45.0009
+   ],
+   "coastal": false,
+   "elevation_ft": 4900,
+   "zone": "5a",
+   "jan_low_f": 16,
+   "jul_high_f": 86,
+   "record_low_f": -40,
+   "record_high_f": 110,
+   "precip_in": 17.6,
+   "snow_in": 56,
+   "last_frost": "May 15",
+   "first_frost": "Oct 1",
+   "growing_days": 136,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Rapid City, SD",
+   "nws_cwa": "UNR",
+   "nwr": [
+    {
+     "call": "WXM46",
+     "freq": "162.475",
+     "same": "056005"
+    },
+    {
+     "call": "WNG660",
+     "freq": "162.500",
+     "same": "056005"
+    }
+   ],
+   "state_em": "Wyoming Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 6.2
+  },
+  "Carbon County": {
+   "fips": "56007",
+   "centroid": [
+    41.7036,
+    -106.9332
+   ],
+   "latitude": 41.7,
+   "bbox": [
+    -107.93,
+    40.9993,
+    -106.0684,
+    42.4347
+   ],
+   "coastal": false,
+   "elevation_ft": 6620,
+   "zone": "5a",
+   "jan_low_f": 13,
+   "jul_high_f": 85,
+   "record_low_f": -36,
+   "record_high_f": 98,
+   "precip_in": 9.0,
+   "snow_in": 93,
+   "last_frost": "Jun 1",
+   "first_frost": "Sep 15",
+   "growing_days": 105,
+   "ecoregion": "Wyoming Basin",
+   "ecoregion_code": "18",
+   "nws_office": "Cheyenne, WY",
+   "nws_cwa": "CYS",
+   "nwr": [
+    {
+     "call": "KXI37",
+     "freq": "162.425",
+     "same": "056007"
+    }
+   ],
+   "state_em": "Wyoming Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 6.6
+  },
+  "Converse County": {
+   "fips": "56009",
+   "centroid": [
+    42.9846,
+    -105.5248
+   ],
+   "latitude": 43.0,
+   "bbox": [
+    -106.0782,
+    42.2889,
+    -104.8923,
+    43.4996
+   ],
+   "coastal": false,
+   "elevation_ft": 5300,
+   "zone": "5a",
+   "jan_low_f": 13,
+   "jul_high_f": 89,
+   "record_low_f": -43,
+   "record_high_f": 106,
+   "precip_in": 11.2,
+   "snow_in": 59,
+   "last_frost": "May 23",
+   "first_frost": "Sep 22",
+   "growing_days": 122,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Cheyenne, WY",
+   "nws_cwa": "CYS",
+   "nwr": [
+    {
+     "call": "WXM47",
+     "freq": "162.400",
+     "same": "056009"
+    },
+    {
+     "call": "WNG571",
+     "freq": "162.450",
+     "same": "056009"
+    }
+   ],
+   "state_em": "Wyoming Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 6.4
+  },
+  "Crook County": {
+   "fips": "56011",
+   "centroid": [
+    44.5893,
+    -104.5673
+   ],
+   "latitude": 44.6,
+   "bbox": [
+    -105.0895,
+    44.1761,
+    -104.0545,
+    45.0004
+   ],
+   "coastal": false,
+   "elevation_ft": 4830,
+   "zone": "5a",
+   "jan_low_f": 13,
+   "jul_high_f": 82,
+   "record_low_f": -42,
+   "record_high_f": 105,
+   "precip_in": 20.4,
+   "snow_in": 81,
+   "last_frost": "May 21",
+   "first_frost": "Sep 25",
+   "growing_days": 124,
+   "ecoregion": "Middle Rockies",
+   "ecoregion_code": "17",
+   "nws_office": "Rapid City, SD",
+   "nws_cwa": "UNR",
+   "nwr": [
+    {
+     "call": "WNG660",
+     "freq": "162.500",
+     "same": "056011"
+    },
+    {
+     "call": "WXL23",
+     "freq": "162.525",
+     "same": "056011"
+    }
+   ],
+   "state_em": "Wyoming Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 6.2
+  },
+  "Fremont County": {
+   "fips": "56013",
+   "centroid": [
+    43.0548,
+    -108.6089
+   ],
+   "latitude": 43.1,
+   "bbox": [
+    -110.0574,
+    42.2613,
+    -107.5013,
+    44.0084
+   ],
+   "coastal": false,
+   "elevation_ft": 5370,
+   "zone": "5a",
+   "jan_low_f": 8,
+   "jul_high_f": 88,
+   "record_low_f": -31,
+   "record_high_f": 102,
+   "precip_in": 8.6,
+   "snow_in": 28,
+   "last_frost": "May 16",
+   "first_frost": "Sep 28",
+   "growing_days": 133,
+   "ecoregion": "Wyoming Basin",
+   "ecoregion_code": "18",
+   "nws_office": "Riverton, WY",
+   "nws_cwa": "RIW",
+   "nwr": [
+    {
+     "call": "WNG723",
+     "freq": "162.450",
+     "same": "056013"
+    },
+    {
+     "call": "WXM61",
+     "freq": "162.475",
+     "same": "056013"
+    },
+    {
+     "call": "WNG573",
+     "freq": "162.500",
+     "same": "056013"
+    }
+   ],
+   "state_em": "Wyoming Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 6.6
+  },
+  "Goshen County": {
+   "fips": "56015",
+   "centroid": [
+    42.0895,
+    -104.3535
+   ],
+   "latitude": 42.1,
+   "bbox": [
+    -104.6556,
+    41.5641,
+    -104.0514,
+    42.6121
+   ],
+   "coastal": false,
+   "elevation_ft": 4240,
+   "zone": "5a",
+   "jan_low_f": 12,
+   "jul_high_f": 88,
+   "record_low_f": -36,
+   "record_high_f": 109,
+   "precip_in": 14.8,
+   "snow_in": 31,
+   "last_frost": "May 20",
+   "first_frost": "Sep 22",
+   "growing_days": 122,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Cheyenne, WY",
+   "nws_cwa": "CYS",
+   "nwr": [
+    {
+     "call": "WXM37",
+     "freq": "162.550",
+     "same": "056015"
+    },
+    {
+     "call": "WNG571",
+     "freq": "162.450",
+     "same": "056015"
+    }
+   ],
+   "state_em": "Wyoming Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 6.4
+  },
+  "Hot Springs County": {
+   "fips": "56017",
+   "centroid": [
+    43.7202,
+    -108.4351
+   ],
+   "latitude": 43.7,
+   "bbox": [
+    -109.313,
+    43.4595,
+    -107.5949,
+    44.08
+   ],
+   "coastal": false,
+   "elevation_ft": 5030,
+   "zone": "4b",
+   "jan_low_f": 10,
+   "jul_high_f": 86,
+   "record_low_f": -40,
+   "record_high_f": 104,
+   "precip_in": 11.9,
+   "snow_in": 27,
+   "last_frost": "May 29",
+   "first_frost": "Sep 17",
+   "growing_days": 110,
+   "ecoregion": "Wyoming Basin",
+   "ecoregion_code": "18",
+   "nws_office": "Riverton, WY",
+   "nws_cwa": "RIW",
+   "nwr": [
+    {
+     "call": "WNG573",
+     "freq": "162.500",
+     "same": "056017"
+    }
+   ],
+   "state_em": "Wyoming Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 6.6
+  },
+  "Johnson County": {
+   "fips": "56019",
+   "centroid": [
+    44.044,
+    -106.5885
+   ],
+   "latitude": 44.0,
+   "bbox": [
+    -107.3707,
+    43.4915,
+    -106.0085,
+    44.564
+   ],
+   "coastal": false,
+   "elevation_ft": 4680,
+   "zone": "5a",
+   "jan_low_f": 12,
+   "jul_high_f": 86,
+   "record_low_f": -41,
+   "record_high_f": 107,
+   "precip_in": 13.4,
+   "snow_in": 36,
+   "last_frost": "May 19",
+   "first_frost": "Sep 21",
+   "growing_days": 123,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Riverton, WY",
+   "nws_cwa": "RIW",
+   "nwr": [
+    {
+     "call": "WNG662",
+     "freq": "162.550",
+     "same": "056019"
+    },
+    {
+     "call": "WXM46",
+     "freq": "162.475",
+     "same": "056019"
+    }
+   ],
+   "state_em": "Wyoming Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 6.2
+  },
+  "Laramie County": {
+   "fips": "56021",
+   "centroid": [
+    41.2928,
+    -104.6604
+   ],
+   "latitude": 41.3,
+   "bbox": [
+    -105.2807,
+    40.998,
+    -104.0521,
+    41.6574
+   ],
+   "coastal": false,
+   "elevation_ft": 5900,
+   "zone": "5b",
+   "jan_low_f": 14,
+   "jul_high_f": 88,
+   "record_low_f": -30,
+   "record_high_f": 104,
+   "precip_in": 16.1,
+   "snow_in": 47,
+   "last_frost": "May 21",
+   "first_frost": "Sep 24",
+   "growing_days": 124,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Cheyenne, WY",
+   "nws_cwa": "CYS",
+   "nwr": [
+    {
+     "call": "WXM37",
+     "freq": "162.550",
+     "same": "056021"
+    }
+   ],
+   "state_em": "Wyoming Office of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 6.3
+  },
+  "Lincoln County": {
+   "fips": "56023",
+   "centroid": [
+    42.23,
+    -110.683
+   ],
+   "latitude": 42.2,
+   "bbox": [
+    -111.0473,
+    41.5774,
+    -110.0464,
+    43.3161
+   ],
+   "coastal": false,
+   "elevation_ft": 8630,
+   "zone": "5b",
+   "jan_low_f": 2,
+   "jul_high_f": 83,
+   "record_low_f": -39,
+   "record_high_f": 99,
+   "precip_in": 27.8,
+   "snow_in": 50,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 66,
+   "ecoregion": "Middle Rockies",
+   "ecoregion_code": "17",
+   "nws_office": "Riverton, WY",
+   "nws_cwa": "RIW",
+   "nwr": [
+    {
+     "call": "WNG569",
+     "freq": "162.475",
+     "same": "056023"
+    },
+    {
+     "call": "WXL63",
+     "freq": "162.500",
+     "same": "056023"
+    },
+    {
+     "call": "KJY75",
+     "freq": "162.525",
+     "same": "056023"
+    }
+   ],
+   "state_em": "Wyoming Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 6.6
+  },
+  "Natrona County": {
+   "fips": "56025",
+   "centroid": [
+    42.9776,
+    -106.7682
+   ],
+   "latitude": 43.0,
+   "bbox": [
+    -107.5435,
+    42.4306,
+    -106.0707,
+    43.5019
+   ],
+   "coastal": false,
+   "elevation_ft": 5680,
+   "zone": "5a",
+   "jan_low_f": 10,
+   "jul_high_f": 88,
+   "record_low_f": -45,
+   "record_high_f": 109,
+   "precip_in": 13.0,
+   "snow_in": 72,
+   "last_frost": "May 23",
+   "first_frost": "Sep 20",
+   "growing_days": 121,
+   "ecoregion": "Wyoming Basin",
+   "ecoregion_code": "18",
+   "nws_office": "Riverton, WY",
+   "nws_cwa": "RIW",
+   "nwr": [
+    {
+     "call": "WXM47",
+     "freq": "162.400",
+     "same": "056025"
+    }
+   ],
+   "state_em": "Wyoming Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 6.6
+  },
+  "Niobrara County": {
+   "fips": "56027",
+   "centroid": [
+    43.0622,
+    -104.4684
+   ],
+   "latitude": 43.1,
+   "bbox": [
+    -104.9007,
+    42.6088,
+    -104.0526,
+    43.5031
+   ],
+   "coastal": false,
+   "elevation_ft": 4460,
+   "zone": "5a",
+   "jan_low_f": 12,
+   "jul_high_f": 90,
+   "record_low_f": -47,
+   "record_high_f": 112,
+   "precip_in": 14.3,
+   "snow_in": 41,
+   "last_frost": "May 17",
+   "first_frost": "Sep 25",
+   "growing_days": 129,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Cheyenne, WY",
+   "nws_cwa": "CYS",
+   "nwr": [
+    {
+     "call": "WNG571",
+     "freq": "162.450",
+     "same": "056027"
+    },
+    {
+     "call": "WNG661",
+     "freq": "162.475",
+     "same": "056027"
+    }
+   ],
+   "state_em": "Wyoming Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 6.4
+  },
+  "Park County": {
+   "fips": "56029",
+   "centroid": [
+    44.4924,
+    -109.5936
+   ],
+   "latitude": 44.5,
+   "bbox": [
+    -111.0569,
+    43.8019,
+    -108.55,
+    45.0059
+   ],
+   "coastal": false,
+   "elevation_ft": 7240,
+   "zone": "5a",
+   "jan_low_f": 4,
+   "jul_high_f": 78,
+   "record_low_f": -47,
+   "record_high_f": 100,
+   "precip_in": 26.1,
+   "snow_in": 180,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 43,
+   "ecoregion": "Middle Rockies",
+   "ecoregion_code": "17",
+   "nws_office": "Riverton, WY",
+   "nws_cwa": "RIW",
+   "nwr": [
+    {
+     "call": "WNG563",
+     "freq": "162.400",
+     "same": "056029"
+    },
+    {
+     "call": "WNG686",
+     "freq": "162.425",
+     "same": "056029"
+    },
+    {
+     "call": "WNG667",
+     "freq": "162.450",
+     "same": "056029"
+    }
+   ],
+   "state_em": "Wyoming Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.9
+  },
+  "Platte County": {
+   "fips": "56031",
+   "centroid": [
+    42.1316,
+    -104.954
+   ],
+   "latitude": 42.1,
+   "bbox": [
+    -105.2863,
+    41.6527,
+    -104.6533,
+    42.6103
+   ],
+   "coastal": false,
+   "elevation_ft": 4570,
+   "zone": "5a",
+   "jan_low_f": 17,
+   "jul_high_f": 90,
+   "record_low_f": -39,
+   "record_high_f": 112,
+   "precip_in": 14.1,
+   "snow_in": 40,
+   "last_frost": "May 19",
+   "first_frost": "Sep 22",
+   "growing_days": 125,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Cheyenne, WY",
+   "nws_cwa": "CYS",
+   "nwr": [
+    {
+     "call": "WXM37",
+     "freq": "162.550",
+     "same": "056031"
+    },
+    {
+     "call": "WNG571",
+     "freq": "162.450",
+     "same": "056031"
+    }
+   ],
+   "state_em": "Wyoming Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 6.4
+  },
+  "Sheridan County": {
+   "fips": "56033",
+   "centroid": [
+    44.7814,
+    -106.8812
+   ],
+   "latitude": 44.8,
+   "bbox": [
+    -107.9113,
+    44.5567,
+    -106.0097,
+    45.0015
+   ],
+   "coastal": false,
+   "elevation_ft": 4260,
+   "zone": "5a",
+   "jan_low_f": 15,
+   "jul_high_f": 84,
+   "record_low_f": -37,
+   "record_high_f": 107,
+   "precip_in": 18.6,
+   "snow_in": 81,
+   "last_frost": "May 17",
+   "first_frost": "Sep 28",
+   "growing_days": 132,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Billings, MT",
+   "nws_cwa": "BYZ",
+   "nwr": [
+    {
+     "call": "WXM46",
+     "freq": "162.475",
+     "same": "056033"
+    }
+   ],
+   "state_em": "Wyoming Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 6.2
+  },
+  "Sublette County": {
+   "fips": "56035",
+   "centroid": [
+    42.7679,
+    -109.9162
+   ],
+   "latitude": 42.8,
+   "bbox": [
+    -110.6238,
+    42.2633,
+    -109.0431,
+    43.4647
+   ],
+   "coastal": false,
+   "elevation_ft": 7530,
+   "zone": "4b",
+   "jan_low_f": 2,
+   "jul_high_f": 80,
+   "record_low_f": -49,
+   "record_high_f": 94,
+   "precip_in": 11.9,
+   "snow_in": 76,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 58,
+   "ecoregion": "Wyoming Basin",
+   "ecoregion_code": "18",
+   "nws_office": "Riverton, WY",
+   "nws_cwa": "RIW",
+   "nwr": [
+    {
+     "call": "WNG679",
+     "freq": "162.500",
+     "same": "056035"
+    }
+   ],
+   "state_em": "Wyoming Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 6.6
+  },
+  "Sweetwater County": {
+   "fips": "56037",
+   "centroid": [
+    41.6603,
+    -108.8757
+   ],
+   "latitude": 41.7,
+   "bbox": [
+    -110.0544,
+    40.9973,
+    -107.5038,
+    42.2707
+   ],
+   "coastal": false,
+   "elevation_ft": 6860,
+   "zone": "5b",
+   "jan_low_f": 14,
+   "jul_high_f": 84,
+   "record_low_f": -37,
+   "record_high_f": 98,
+   "precip_in": 7.5,
+   "snow_in": 54,
+   "last_frost": "May 22",
+   "first_frost": "Sep 28",
+   "growing_days": 126,
+   "ecoregion": "Wyoming Basin",
+   "ecoregion_code": "18",
+   "nws_office": "Riverton, WY",
+   "nws_cwa": "RIW",
+   "nwr": [
+    {
+     "call": "KXI37",
+     "freq": "162.425",
+     "same": "056037"
+    },
+    {
+     "call": "KXI34",
+     "freq": "162.550",
+     "same": "056037"
+    }
+   ],
+   "state_em": "Wyoming Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 6.8
+  },
+  "Teton County": {
+   "fips": "56039",
+   "centroid": [
+    44.0487,
+    -110.4261
+   ],
+   "latitude": 44.0,
+   "bbox": [
+    -111.0549,
+    43.235,
+    -110.051,
+    44.6668
+   ],
+   "coastal": false,
+   "elevation_ft": 8470,
+   "zone": "5a",
+   "jan_low_f": 1,
+   "jul_high_f": 77,
+   "record_low_f": -56,
+   "record_high_f": 97,
+   "precip_in": 43.0,
+   "snow_in": 294,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 23,
+   "ecoregion": "Middle Rockies",
+   "ecoregion_code": "17",
+   "nws_office": "Riverton, WY",
+   "nws_cwa": "RIW",
+   "nwr": [
+    {
+     "call": "WNG686",
+     "freq": "162.425",
+     "same": "056039"
+    },
+    {
+     "call": "WNG667",
+     "freq": "162.450",
+     "same": "056039"
+    },
+    {
+     "call": "KWN39",
+     "freq": "162.525",
+     "same": "056039"
+    }
+   ],
+   "state_em": "Wyoming Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.8
+  },
+  "Uinta County": {
+   "fips": "56041",
+   "centroid": [
+    41.2847,
+    -110.5589
+   ],
+   "latitude": 41.3,
+   "bbox": [
+    -111.0469,
+    40.9947,
+    -110.048,
+    41.5797
+   ],
+   "coastal": false,
+   "elevation_ft": 7440,
+   "zone": "5b",
+   "jan_low_f": 11,
+   "jul_high_f": 80,
+   "record_low_f": -41,
+   "record_high_f": 94,
+   "precip_in": 11.0,
+   "snow_in": 64,
+   "last_frost": "Jun 14",
+   "first_frost": "Sep 9",
+   "growing_days": 84,
+   "ecoregion": "Wyoming Basin",
+   "ecoregion_code": "18",
+   "nws_office": "Salt Lake City, UT",
+   "nws_cwa": "SLC",
+   "nwr": [
+    {
+     "call": "KXI85",
+     "freq": "162.450",
+     "same": "056041"
+    }
+   ],
+   "state_em": "Wyoming Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 6.8
+  },
+  "Washakie County": {
+   "fips": "56043",
+   "centroid": [
+    43.8788,
+    -107.6691
+   ],
+   "latitude": 43.9,
+   "bbox": [
+    -108.5508,
+    43.5,
+    -107.1107,
+    44.1685
+   ],
+   "coastal": false,
+   "elevation_ft": 4550,
+   "zone": "4b",
+   "jan_low_f": 1,
+   "jul_high_f": 86,
+   "record_low_f": -51,
+   "record_high_f": 103,
+   "precip_in": 14.0,
+   "snow_in": 63,
+   "last_frost": "May 22",
+   "first_frost": "Sep 18",
+   "growing_days": 117,
+   "ecoregion": "Wyoming Basin",
+   "ecoregion_code": "18",
+   "nws_office": "Riverton, WY",
+   "nws_cwa": "RIW",
+   "nwr": [
+    {
+     "call": "WNG568",
+     "freq": "162.525",
+     "same": "056043"
+    }
+   ],
+   "state_em": "Wyoming Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 6.7
+  },
+  "Weston County": {
+   "fips": "56045",
+   "centroid": [
+    43.8462,
+    -104.57
+   ],
+   "latitude": 43.8,
+   "bbox": [
+    -105.0818,
+    43.4984,
+    -104.0544,
+    44.1806
+   ],
+   "coastal": false,
+   "elevation_ft": 4240,
+   "zone": "4b",
+   "jan_low_f": 10,
+   "jul_high_f": 87,
+   "record_low_f": -45,
+   "record_high_f": 110,
+   "precip_in": 16.2,
+   "snow_in": 46,
+   "last_frost": "May 20",
+   "first_frost": "Sep 23",
+   "growing_days": 123,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Rapid City, SD",
+   "nws_cwa": "UNR",
+   "nwr": [
+    {
+     "call": "WNG660",
+     "freq": "162.500",
+     "same": "056045"
+    },
+    {
+     "call": "WXL23",
+     "freq": "162.525",
+     "same": "056045"
+    },
+    {
+     "call": "WNG661",
+     "freq": "162.475",
+     "same": "056045"
+    }
+   ],
+   "state_em": "Wyoming Office of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 6.4
+  }
+ }
+}

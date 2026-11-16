@@ -156,7 +156,7 @@ function statePage(s, i) {
     `Areas follow the National Weather Service office that forecasts for each ${unit} ${cite.nws}. Ranges run from the ` +
     `lowest to the highest ${unit} value in the area. Temperatures are 30-year averages; a hard winter or a heat wave ` +
     `goes well past them. Frost dates are the median: in half of years the last spring frost comes later than the date shown.`, '');
-  L.push(table(['Area (NWS office)', 'Units', 'Zone', 'Jan low F', 'Jul high F', 'Record low / high F', 'Precip in', 'Snow in',
+  L.push(table(['Area (NWS office)', units[0].toUpperCase() + units.slice(1), 'Zone', 'Jan low F', 'Jul high F', 'Record low / high F', 'Precip in', 'Snow in',
     'Last frost', 'First frost', 'Frost-free days', 'Sun hrs Dec / Jun'],
   areas.map(([w, cs]) => [offices[w]?.name || w, cs.length, zoneRange(cs), range(cs, 'jan_low_f'), range(cs, 'jul_high_f'),
     `${nums(cs, 'record_low_f').length ? Math.min(...nums(cs, 'record_low_f')) : dash} / ${nums(cs, 'record_high_f').length ? Math.max(...nums(cs, 'record_high_f')) : dash}`,
@@ -228,6 +228,9 @@ function statePage(s, i) {
       const list = (c.d.nwr_full || []).map(t => `${t.call} ${t.freq}${/PARTIAL|P\b/i.test(t.remarks || '') ? ' (part of the area)' : ''}`);
       return [shortName(c.name), same, list.length ? [...new Set(list)].join('; ') : 'No transmitter listed'];
     })), '');
+  if (C.some(c => (c.d.same_partial || []).length))
+    L.push(`Some ${units} are split into parts with their own SAME codes (the first digit is 1 to 9 instead of 0). ` +
+      `The code starting with 0, shown above, covers the whole ${unit}; a part code makes the radio sound only for that part.`, '');
   if (s.state === 'CT') L.push('Connecticut replaced its counties with planning regions in 2022, but weather radio still alerts by the old county SAME codes; each planning region lists the codes of the old counties it overlaps.', '');
 
   // Ecoregions
@@ -270,8 +273,8 @@ function introPage(pages) {
     'garden, solar, foraging). Use these pages for destinations, routes, and any place you end up.', '',
     '## How to read the state pages', '',
     '- **Climate** values are 30-year averages (1991 to 2020) from the National Weather Service cooperative and airport stations nearest each county, chosen with a penalty for a big difference in elevation. Real years swing well past them.',
-    '- **Frost dates** are medians: half of years have a later last spring frost, half an earlier first fall frost. Plant tender crops two weeks after the date to be safer. → 05-01',
-    '- **Record low and high** are the extremes in the full record of the station used, at least 30 years long.',
+    '- **Frost dates** are medians: half of years have a later last spring frost, half an earlier first fall frost. → 05-01',
+    '- **Record low and high** are the extremes in the full record of the station used: a station with at least 30 years of record within 80 km where there is one (in remote Alaska, at least 20 years within 250 km).',
     '- **Hardiness zone** is the 2023 USDA zone at the county centre: each zone is a 10 F band of the coldest night of a typical winter, split into a (colder half) and b.',
     '- **Peak sun hours** are kilowatt-hours of sunlight per square metre per day on a panel tilted at your latitude and facing south. → 09-05',
     '- **Weather radio:** program the six-digit SAME code of each county you care about, and tune the transmitter frequency listed. → 15-01',

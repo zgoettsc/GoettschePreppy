@@ -1,0 +1,4741 @@
+{
+ "state": "OK",
+ "state_name": "Oklahoma",
+ "state_fips": "40",
+ "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "AMA": "NWS Amarillo, TX",
+  "OUN": "NWS Norman, OK",
+  "SHV": "NWS Shreveport, LA",
+  "TSA": "NWS Tulsa, OK"
+ },
+ "ecoregions": [
+  "High Plains",
+  "Southwestern Tablelands",
+  "Central Great Plains",
+  "Flint Hills",
+  "Cross Timbers",
+  "East Central Texas Plains",
+  "South Central Plains",
+  "Ouachita Mountains",
+  "Arkansas Valley",
+  "Boston Mountains",
+  "Ozark Highlands",
+  "Central Irregular Plains"
+ ],
+ "counties": {
+  "Adair County": {
+   "fips": "40001",
+   "centroid": [
+    35.898,
+    -94.651
+   ],
+   "latitude": 35.9,
+   "bbox": [
+    -94.8078,
+    35.6382,
+    -94.473,
+    36.1621
+   ],
+   "coastal": false,
+   "elevation_ft": 1170,
+   "zone": "7a",
+   "jan_low_f": 27,
+   "jul_high_f": 90,
+   "record_low_f": -12,
+   "record_high_f": 108,
+   "precip_in": 49.8,
+   "snow_in": 6,
+   "last_frost": "Mar 31",
+   "first_frost": "Nov 4",
+   "growing_days": 217,
+   "ecoregion": "Ozark Highlands",
+   "ecoregion_code": "39",
+   "nws_office": "Tulsa, OK",
+   "nws_cwa": "TSA",
+   "nwr": [
+    {
+     "call": "WXJ52",
+     "freq": "162.475",
+     "same": "040001"
+    },
+    {
+     "call": "WXJ50",
+     "freq": "162.550",
+     "same": "040001"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.7
+  },
+  "Alfalfa County": {
+   "fips": "40003",
+   "centroid": [
+    36.7297,
+    -98.3234
+   ],
+   "latitude": 36.7,
+   "bbox": [
+    -98.545,
+    36.4629,
+    -98.1041,
+    36.999
+   ],
+   "coastal": false,
+   "elevation_ft": 1160,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 95,
+   "record_low_f": -16,
+   "record_high_f": 117,
+   "precip_in": 31.3,
+   "snow_in": 11,
+   "last_frost": "Apr 10",
+   "first_frost": "Oct 29",
+   "growing_days": 201,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "WXL48",
+     "freq": "162.475",
+     "same": "040003"
+    },
+    {
+     "call": "WZ2511",
+     "freq": "162.400",
+     "same": "040003"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 6.2
+  },
+  "Atoka County": {
+   "fips": "40005",
+   "centroid": [
+    34.3925,
+    -96.0366
+   ],
+   "latitude": 34.4,
+   "bbox": [
+    -96.4078,
+    34.1554,
+    -95.6717,
+    34.6808
+   ],
+   "coastal": false,
+   "elevation_ft": 640,
+   "zone": "8a",
+   "jan_low_f": 30,
+   "jul_high_f": 92,
+   "record_low_f": -8,
+   "record_high_f": 115,
+   "precip_in": 46.0,
+   "snow_in": 2,
+   "last_frost": "Mar 29",
+   "first_frost": "Nov 4",
+   "growing_days": 222,
+   "ecoregion": "Ouachita Mountains",
+   "ecoregion_code": "36",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "KJY77",
+     "freq": "162.400",
+     "same": "040005"
+    },
+    {
+     "call": "KWN49",
+     "freq": "162.500",
+     "same": "040005"
+    },
+    {
+     "call": "WXL49",
+     "freq": "162.475",
+     "same": "040005"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.8
+  },
+  "Beaver County": {
+   "fips": "40007",
+   "centroid": [
+    36.7483,
+    -100.4831
+   ],
+   "latitude": 36.7,
+   "bbox": [
+    -100.9542,
+    36.4993,
+    -100.0018,
+    37.0023
+   ],
+   "coastal": false,
+   "elevation_ft": 2520,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 94,
+   "record_low_f": -25,
+   "record_high_f": 115,
+   "precip_in": 21.1,
+   "snow_in": 11,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 21",
+   "growing_days": 181,
+   "ecoregion": "Southwestern Tablelands",
+   "ecoregion_code": "26",
+   "nws_office": "Amarillo, TX",
+   "nws_cwa": "AMA",
+   "nwr": [
+    {
+     "call": "KJY96",
+     "freq": "162.500",
+     "same": "040007"
+    },
+    {
+     "call": "WNG555",
+     "freq": "162.425",
+     "same": "040007"
+    },
+    {
+     "call": "KJY88",
+     "freq": "162.475",
+     "same": "040007"
+    },
+    {
+     "call": "WWG46",
+     "freq": "162.500",
+     "same": "040007"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.3,
+   "sun_hours_jun": 6.6
+  },
+  "Beckham County": {
+   "fips": "40009",
+   "centroid": [
+    35.2706,
+    -99.6901
+   ],
+   "latitude": 35.3,
+   "bbox": [
+    -100.0004,
+    35.0294,
+    -99.3599,
+    35.5091
+   ],
+   "coastal": false,
+   "elevation_ft": 1820,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 95,
+   "record_low_f": -17,
+   "record_high_f": 115,
+   "precip_in": 26.1,
+   "snow_in": 6,
+   "last_frost": "Apr 12",
+   "first_frost": "Oct 28",
+   "growing_days": 197,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "WXK87",
+     "freq": "162.525",
+     "same": "040009"
+    },
+    {
+     "call": "WNG713",
+     "freq": "162.450",
+     "same": "040009"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.3,
+   "sun_hours_jun": 6.4
+  },
+  "Blaine County": {
+   "fips": "40011",
+   "centroid": [
+    35.8778,
+    -98.429
+   ],
+   "latitude": 35.9,
+   "bbox": [
+    -98.6369,
+    35.5514,
+    -98.2068,
+    36.1658
+   ],
+   "coastal": false,
+   "elevation_ft": 1550,
+   "zone": "7b",
+   "jan_low_f": 24,
+   "jul_high_f": 95,
+   "record_low_f": -16,
+   "record_high_f": 112,
+   "precip_in": 31.8,
+   "snow_in": 5,
+   "last_frost": "Apr 14",
+   "first_frost": "Oct 27",
+   "growing_days": 194,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "WXK87",
+     "freq": "162.525",
+     "same": "040011"
+    },
+    {
+     "call": "WXL48",
+     "freq": "162.475",
+     "same": "040011"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.1,
+   "sun_hours_jun": 6.2
+  },
+  "Bryan County": {
+   "fips": "40013",
+   "centroid": [
+    33.964,
+    -96.2651
+   ],
+   "latitude": 34.0,
+   "bbox": [
+    -96.63,
+    33.6864,
+    -95.7536,
+    34.1575
+   ],
+   "coastal": false,
+   "elevation_ft": 590,
+   "zone": "8a",
+   "jan_low_f": 33,
+   "jul_high_f": 93,
+   "record_low_f": -11,
+   "record_high_f": 118,
+   "precip_in": 45.2,
+   "snow_in": 2,
+   "last_frost": "Mar 19",
+   "first_frost": "Nov 12",
+   "growing_days": 237,
+   "ecoregion": "East Central Texas Plains",
+   "ecoregion_code": "33",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "KJY77",
+     "freq": "162.400",
+     "same": "040013"
+    },
+    {
+     "call": "KWN49",
+     "freq": "162.500",
+     "same": "040013"
+    },
+    {
+     "call": "WXK20",
+     "freq": "162.550",
+     "same": "040013"
+    },
+    {
+     "call": "WXK22",
+     "freq": "162.475",
+     "same": "040013"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.7
+  },
+  "Caddo County": {
+   "fips": "40015",
+   "centroid": [
+    35.1679,
+    -98.381
+   ],
+   "latitude": 35.2,
+   "bbox": [
+    -98.6238,
+    34.8548,
+    -98.0911,
+    35.5518
+   ],
+   "coastal": false,
+   "elevation_ft": 1470,
+   "zone": "7b",
+   "jan_low_f": 27,
+   "jul_high_f": 93,
+   "record_low_f": -14,
+   "record_high_f": 117,
+   "precip_in": 32.9,
+   "snow_in": 5,
+   "last_frost": "Apr 5",
+   "first_frost": "Nov 3",
+   "growing_days": 210,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "KJY94",
+     "freq": "162.450",
+     "same": "040015"
+    },
+    {
+     "call": "WXK87",
+     "freq": "162.525",
+     "same": "040015"
+    },
+    {
+     "call": "WXK86",
+     "freq": "162.550",
+     "same": "040015"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.1,
+   "sun_hours_jun": 6.2
+  },
+  "Canadian County": {
+   "fips": "40017",
+   "centroid": [
+    35.5434,
+    -97.9799
+   ],
+   "latitude": 35.5,
+   "bbox": [
+    -98.3135,
+    35.3242,
+    -97.6712,
+    35.7266
+   ],
+   "coastal": false,
+   "elevation_ft": 1340,
+   "zone": "7b",
+   "jan_low_f": 25,
+   "jul_high_f": 94,
+   "record_low_f": -15,
+   "record_high_f": 112,
+   "precip_in": 34.5,
+   "snow_in": 4,
+   "last_frost": "Apr 6",
+   "first_frost": "Oct 31",
+   "growing_days": 206,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "KJY94",
+     "freq": "162.450",
+     "same": "040017"
+    },
+    {
+     "call": "WXK85",
+     "freq": "162.400",
+     "same": "040017"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 6.0
+  },
+  "Carter County": {
+   "fips": "40019",
+   "centroid": [
+    34.2518,
+    -97.2879
+   ],
+   "latitude": 34.3,
+   "bbox": [
+    -97.5627,
+    34.0708,
+    -96.9333,
+    34.5069
+   ],
+   "coastal": false,
+   "elevation_ft": 890,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 94,
+   "record_low_f": -17,
+   "record_high_f": 115,
+   "precip_in": 37.0,
+   "snow_in": 2,
+   "last_frost": "Mar 21",
+   "first_frost": "Nov 8",
+   "growing_days": 231,
+   "ecoregion": "Cross Timbers",
+   "ecoregion_code": "29",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "KXI57",
+     "freq": "162.525",
+     "same": "040019"
+    },
+    {
+     "call": "KHA99",
+     "freq": "162.425",
+     "same": "040019"
+    },
+    {
+     "call": "WXK22",
+     "freq": "162.475",
+     "same": "040019"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 6.0
+  },
+  "Cherokee County": {
+   "fips": "40021",
+   "centroid": [
+    35.9044,
+    -94.9968
+   ],
+   "latitude": 35.9,
+   "bbox": [
+    -95.2831,
+    35.6383,
+    -94.7969,
+    36.1618
+   ],
+   "coastal": false,
+   "elevation_ft": 840,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 93,
+   "record_low_f": -23,
+   "record_high_f": 118,
+   "precip_in": 51.0,
+   "snow_in": 4,
+   "last_frost": "Apr 4",
+   "first_frost": "Oct 31",
+   "growing_days": 209,
+   "ecoregion": "Ozark Highlands",
+   "ecoregion_code": "39",
+   "nws_office": "Tulsa, OK",
+   "nws_cwa": "TSA",
+   "nwr": [
+    {
+     "call": "WNG632",
+     "freq": "162.525",
+     "same": "040021"
+    },
+    {
+     "call": "KIH27",
+     "freq": "162.550",
+     "same": "040021"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.7
+  },
+  "Choctaw County": {
+   "fips": "40023",
+   "centroid": [
+    34.0277,
+    -95.5541
+   ],
+   "latitude": 34.0,
+   "bbox": [
+    -95.985,
+    33.8663,
+    -95.1557,
+    34.157
+   ],
+   "coastal": false,
+   "elevation_ft": 590,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 93,
+   "record_low_f": -8,
+   "record_high_f": 118,
+   "precip_in": 47.9,
+   "snow_in": 0,
+   "last_frost": "Mar 15",
+   "first_frost": "Nov 15",
+   "growing_days": 244,
+   "ecoregion": "South Central Plains",
+   "ecoregion_code": "35",
+   "nws_office": "Tulsa, OK",
+   "nws_cwa": "TSA",
+   "nwr": [
+    {
+     "call": "KJY77",
+     "freq": "162.400",
+     "same": "040023"
+    },
+    {
+     "call": "WXJ65",
+     "freq": "162.450",
+     "same": "040023"
+    },
+    {
+     "call": "WXK20",
+     "freq": "162.550",
+     "same": "040023"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.7
+  },
+  "Cimarron County": {
+   "fips": "40025",
+   "centroid": [
+    36.7484,
+    -102.5177
+   ],
+   "latitude": 36.7,
+   "bbox": [
+    -103.0026,
+    36.5002,
+    -102.0275,
+    37.0008
+   ],
+   "coastal": false,
+   "elevation_ft": 4180,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 94,
+   "record_low_f": -24,
+   "record_high_f": 109,
+   "precip_in": 18.3,
+   "snow_in": 32,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 17",
+   "growing_days": 173,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Amarillo, TX",
+   "nws_cwa": "AMA",
+   "nwr": [
+    {
+     "call": "WWQ50",
+     "freq": "162.425",
+     "same": "040025"
+    },
+    {
+     "call": "WXL90",
+     "freq": "162.550",
+     "same": "040025"
+    },
+    {
+     "call": "KJY96",
+     "freq": "162.500",
+     "same": "040025"
+    },
+    {
+     "call": "WWQ51",
+     "freq": "162.525",
+     "same": "040025"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.5,
+   "sun_hours_jun": 6.9
+  },
+  "Cleveland County": {
+   "fips": "40027",
+   "centroid": [
+    35.2064,
+    -97.3231
+   ],
+   "latitude": 35.2,
+   "bbox": [
+    -97.6715,
+    34.9285,
+    -97.1416,
+    35.3781
+   ],
+   "coastal": false,
+   "elevation_ft": 1070,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 92,
+   "record_low_f": -17,
+   "record_high_f": 116,
+   "precip_in": 37.6,
+   "snow_in": 4,
+   "last_frost": "Apr 3",
+   "first_frost": "Nov 3",
+   "growing_days": 212,
+   "ecoregion": "Cross Timbers",
+   "ecoregion_code": "29",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "KJY94",
+     "freq": "162.450",
+     "same": "040027"
+    },
+    {
+     "call": "WXK85",
+     "freq": "162.400",
+     "same": "040027"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 6.0
+  },
+  "Coal County": {
+   "fips": "40029",
+   "centroid": [
+    34.5829,
+    -96.288
+   ],
+   "latitude": 34.6,
+   "bbox": [
+    -96.5143,
+    34.4183,
+    -96.0918,
+    34.7676
+   ],
+   "coastal": false,
+   "elevation_ft": 700,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 92,
+   "record_low_f": -10,
+   "record_high_f": 115,
+   "precip_in": 45.6,
+   "snow_in": 3,
+   "last_frost": "Mar 31",
+   "first_frost": "Nov 4",
+   "growing_days": 219,
+   "ecoregion": "Arkansas Valley",
+   "ecoregion_code": "37",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "KWN49",
+     "freq": "162.500",
+     "same": "040029"
+    },
+    {
+     "call": "WXL49",
+     "freq": "162.475",
+     "same": "040029"
+    },
+    {
+     "call": "KJY95",
+     "freq": "162.550",
+     "same": "040029"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.8
+  },
+  "Comanche County": {
+   "fips": "40031",
+   "centroid": [
+    34.6626,
+    -98.4766
+   ],
+   "latitude": 34.7,
+   "bbox": [
+    -98.8263,
+    34.406,
+    -98.089,
+    34.8556
+   ],
+   "coastal": false,
+   "elevation_ft": 1220,
+   "zone": "8a",
+   "jan_low_f": 28,
+   "jul_high_f": 96,
+   "record_low_f": -11,
+   "record_high_f": 115,
+   "precip_in": 34.2,
+   "snow_in": 1,
+   "last_frost": "Mar 26",
+   "first_frost": "Nov 7",
+   "growing_days": 225,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "KJY94",
+     "freq": "162.450",
+     "same": "040031"
+    },
+    {
+     "call": "WXK86",
+     "freq": "162.550",
+     "same": "040031"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.2,
+   "sun_hours_jun": 6.2
+  },
+  "Cotton County": {
+   "fips": "40033",
+   "centroid": [
+    34.2907,
+    -98.3734
+   ],
+   "latitude": 34.3,
+   "bbox": [
+    -98.662,
+    34.0623,
+    -98.138,
+    34.507
+   ],
+   "coastal": false,
+   "elevation_ft": 1010,
+   "zone": "8a",
+   "jan_low_f": 27,
+   "jul_high_f": 97,
+   "record_low_f": -10,
+   "record_high_f": 114,
+   "precip_in": 33.3,
+   "snow_in": 2,
+   "last_frost": "Apr 1",
+   "first_frost": "Nov 5",
+   "growing_days": 218,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "WXK86",
+     "freq": "162.550",
+     "same": "040033"
+    },
+    {
+     "call": "WXK31",
+     "freq": "162.475",
+     "same": "040033"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.2,
+   "sun_hours_jun": 6.2
+  },
+  "Craig County": {
+   "fips": "40035",
+   "centroid": [
+    36.7639,
+    -95.2016
+   ],
+   "latitude": 36.8,
+   "bbox": [
+    -95.4324,
+    36.5098,
+    -94.9936,
+    36.9997
+   ],
+   "coastal": false,
+   "elevation_ft": 770,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 91,
+   "record_low_f": -28,
+   "record_high_f": 116,
+   "precip_in": 45.6,
+   "snow_in": 11,
+   "last_frost": "Apr 6",
+   "first_frost": "Oct 27",
+   "growing_days": 203,
+   "ecoregion": "Central Irregular Plains",
+   "ecoregion_code": "40",
+   "nws_office": "Tulsa, OK",
+   "nws_cwa": "TSA",
+   "nwr": [
+    {
+     "call": "WNG644",
+     "freq": "162.425",
+     "same": "040035"
+    },
+    {
+     "call": "WWH38",
+     "freq": "162.525",
+     "same": "040035"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.8
+  },
+  "Creek County": {
+   "fips": "40037",
+   "centroid": [
+    35.9074,
+    -96.3802
+   ],
+   "latitude": 35.9,
+   "bbox": [
+    -96.6229,
+    35.6388,
+    -96.0291,
+    36.1637
+   ],
+   "coastal": false,
+   "elevation_ft": 920,
+   "zone": "7b",
+   "jan_low_f": 26,
+   "jul_high_f": 92,
+   "record_low_f": -20,
+   "record_high_f": 115,
+   "precip_in": 42.1,
+   "snow_in": 7,
+   "last_frost": "Apr 9",
+   "first_frost": "Oct 25",
+   "growing_days": 196,
+   "ecoregion": "Cross Timbers",
+   "ecoregion_code": "29",
+   "nws_office": "Tulsa, OK",
+   "nws_cwa": "TSA",
+   "nwr": [
+    {
+     "call": "WNG654",
+     "freq": "162.500",
+     "same": "040037"
+    },
+    {
+     "call": "KIH27",
+     "freq": "162.550",
+     "same": "040037"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.8
+  },
+  "Custer County": {
+   "fips": "40039",
+   "centroid": [
+    35.6456,
+    -98.9974
+   ],
+   "latitude": 35.6,
+   "bbox": [
+    -99.377,
+    35.4643,
+    -98.6232,
+    35.8129
+   ],
+   "coastal": false,
+   "elevation_ft": 1750,
+   "zone": "7b",
+   "jan_low_f": 25,
+   "jul_high_f": 95,
+   "record_low_f": -14,
+   "record_high_f": 115,
+   "precip_in": 31.0,
+   "snow_in": 7,
+   "last_frost": "Apr 13",
+   "first_frost": "Oct 28",
+   "growing_days": 197,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "WXK87",
+     "freq": "162.525",
+     "same": "040039"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.1,
+   "sun_hours_jun": 6.2
+  },
+  "Delaware County": {
+   "fips": "40041",
+   "centroid": [
+    36.3934,
+    -94.8082
+   ],
+   "latitude": 36.4,
+   "bbox": [
+    -95.0114,
+    36.1612,
+    -94.5628,
+    36.6707
+   ],
+   "coastal": false,
+   "elevation_ft": 1050,
+   "zone": "7a",
+   "jan_low_f": 23,
+   "jul_high_f": 91,
+   "record_low_f": -13,
+   "record_high_f": 108,
+   "precip_in": 49.5,
+   "snow_in": 6,
+   "last_frost": "Apr 16",
+   "first_frost": "Oct 20",
+   "growing_days": 187,
+   "ecoregion": "Ozark Highlands",
+   "ecoregion_code": "39",
+   "nws_office": "Tulsa, OK",
+   "nws_cwa": "TSA",
+   "nwr": [
+    {
+     "call": "WXJ52",
+     "freq": "162.475",
+     "same": "040041"
+    },
+    {
+     "call": "WWH38",
+     "freq": "162.525",
+     "same": "040041"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.8
+  },
+  "Dewey County": {
+   "fips": "40043",
+   "centroid": [
+    35.978,
+    -99.0144
+   ],
+   "latitude": 36.0,
+   "bbox": [
+    -99.3823,
+    35.812,
+    -98.6321,
+    36.1647
+   ],
+   "coastal": false,
+   "elevation_ft": 1690,
+   "zone": "7a",
+   "jan_low_f": 21,
+   "jul_high_f": 95,
+   "record_low_f": -21,
+   "record_high_f": 113,
+   "precip_in": 28.8,
+   "snow_in": 12,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 21",
+   "growing_days": 185,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "WXK87",
+     "freq": "162.525",
+     "same": "040043"
+    },
+    {
+     "call": "WWG46",
+     "freq": "162.500",
+     "same": "040043"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.3,
+   "sun_hours_jun": 6.4
+  },
+  "Ellis County": {
+   "fips": "40045",
+   "centroid": [
+    36.2243,
+    -99.7501
+   ],
+   "latitude": 36.2,
+   "bbox": [
+    -100.0043,
+    35.8421,
+    -99.381,
+    36.5933
+   ],
+   "coastal": false,
+   "elevation_ft": 2340,
+   "zone": "7a",
+   "jan_low_f": 22,
+   "jul_high_f": 92,
+   "record_low_f": -18,
+   "record_high_f": 110,
+   "precip_in": 25.3,
+   "snow_in": 11,
+   "last_frost": "Apr 15",
+   "first_frost": "Oct 27",
+   "growing_days": 194,
+   "ecoregion": "Southwestern Tablelands",
+   "ecoregion_code": "26",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "WWG46",
+     "freq": "162.500",
+     "same": "040045"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.2,
+   "sun_hours_jun": 6.4
+  },
+  "Garfield County": {
+   "fips": "40047",
+   "centroid": [
+    36.3781,
+    -97.7887
+   ],
+   "latitude": 36.4,
+   "bbox": [
+    -98.1047,
+    36.1644,
+    -97.4605,
+    36.5937
+   ],
+   "coastal": false,
+   "elevation_ft": 1150,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 94,
+   "record_low_f": -20,
+   "record_high_f": 118,
+   "precip_in": 33.3,
+   "snow_in": 9,
+   "last_frost": "Apr 10",
+   "first_frost": "Oct 29",
+   "growing_days": 202,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "WXL48",
+     "freq": "162.475",
+     "same": "040047"
+    },
+    {
+     "call": "WWF42",
+     "freq": "162.450",
+     "same": "040047"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 6.1
+  },
+  "Garvin County": {
+   "fips": "40049",
+   "centroid": [
+    34.7094,
+    -97.3127
+   ],
+   "latitude": 34.7,
+   "bbox": [
+    -97.6685,
+    34.5064,
+    -96.9318,
+    34.8553
+   ],
+   "coastal": false,
+   "elevation_ft": 970,
+   "zone": "7b",
+   "jan_low_f": 27,
+   "jul_high_f": 95,
+   "record_low_f": -14,
+   "record_high_f": 114,
+   "precip_in": 38.4,
+   "snow_in": 4,
+   "last_frost": "Apr 5",
+   "first_frost": "Nov 1",
+   "growing_days": 210,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "KXI57",
+     "freq": "162.525",
+     "same": "040049"
+    },
+    {
+     "call": "KJY94",
+     "freq": "162.450",
+     "same": "040049"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 6.0
+  },
+  "Grady County": {
+   "fips": "40051",
+   "centroid": [
+    35.0211,
+    -97.8869
+   ],
+   "latitude": 35.0,
+   "bbox": [
+    -98.096,
+    34.6811,
+    -97.668,
+    35.381
+   ],
+   "coastal": false,
+   "elevation_ft": 1080,
+   "zone": "7b",
+   "jan_low_f": 27,
+   "jul_high_f": 95,
+   "record_low_f": -12,
+   "record_high_f": 112,
+   "precip_in": 36.6,
+   "snow_in": 5,
+   "last_frost": "Apr 6",
+   "first_frost": "Nov 1",
+   "growing_days": 207,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "KJY94",
+     "freq": "162.450",
+     "same": "040051"
+    },
+    {
+     "call": "WXK86",
+     "freq": "162.550",
+     "same": "040051"
+    },
+    {
+     "call": "WXK85",
+     "freq": "162.400",
+     "same": "040051"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 6.0
+  },
+  "Grant County": {
+   "fips": "40053",
+   "centroid": [
+    36.7883,
+    -97.7882
+   ],
+   "latitude": 36.8,
+   "bbox": [
+    -98.1119,
+    36.5932,
+    -97.4618,
+    36.9992
+   ],
+   "coastal": false,
+   "elevation_ft": 1060,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 94,
+   "record_low_f": -23,
+   "record_high_f": 118,
+   "precip_in": 34.8,
+   "snow_in": 9,
+   "last_frost": "Apr 10",
+   "first_frost": "Oct 28",
+   "growing_days": 199,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "WXL48",
+     "freq": "162.475",
+     "same": "040053"
+    },
+    {
+     "call": "WWF42",
+     "freq": "162.450",
+     "same": "040053"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 6.1
+  },
+  "Greer County": {
+   "fips": "40055",
+   "centroid": [
+    34.9339,
+    -99.553
+   ],
+   "latitude": 34.9,
+   "bbox": [
+    -99.8886,
+    34.7246,
+    -99.2464,
+    35.117
+   ],
+   "coastal": false,
+   "elevation_ft": 1600,
+   "zone": "7b",
+   "jan_low_f": 25,
+   "jul_high_f": 95,
+   "record_low_f": -11,
+   "record_high_f": 117,
+   "precip_in": 26.4,
+   "snow_in": 2,
+   "last_frost": "Apr 8",
+   "first_frost": "Nov 2",
+   "growing_days": 207,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "WWG97",
+     "freq": "162.425",
+     "same": "040055"
+    },
+    {
+     "call": "KJY97",
+     "freq": "162.525",
+     "same": "040055"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.3,
+   "sun_hours_jun": 6.4
+  },
+  "Harmon County": {
+   "fips": "40057",
+   "centroid": [
+    34.746,
+    -99.8442
+   ],
+   "latitude": 34.7,
+   "bbox": [
+    -100.0004,
+    34.5068,
+    -99.6664,
+    35.0308
+   ],
+   "coastal": false,
+   "elevation_ft": 1730,
+   "zone": "7b",
+   "jan_low_f": 26,
+   "jul_high_f": 96,
+   "record_low_f": -12,
+   "record_high_f": 117,
+   "precip_in": 25.8,
+   "snow_in": 3,
+   "last_frost": "Apr 5",
+   "first_frost": "Oct 31",
+   "growing_days": 208,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "WWG97",
+     "freq": "162.425",
+     "same": "040057"
+    },
+    {
+     "call": "KJY97",
+     "freq": "162.525",
+     "same": "040057"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.3,
+   "sun_hours_jun": 6.4
+  },
+  "Harper County": {
+   "fips": "40059",
+   "centroid": [
+    36.8004,
+    -99.6628
+   ],
+   "latitude": 36.8,
+   "bbox": [
+    -100.004,
+    36.592,
+    -99.2946,
+    37.0016
+   ],
+   "coastal": false,
+   "elevation_ft": 1930,
+   "zone": "7a",
+   "jan_low_f": 22,
+   "jul_high_f": 96,
+   "record_low_f": -17,
+   "record_high_f": 115,
+   "precip_in": 22.1,
+   "snow_in": 14,
+   "last_frost": "Apr 17",
+   "first_frost": "Oct 23",
+   "growing_days": 187,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "WWG46",
+     "freq": "162.500",
+     "same": "040059"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.2,
+   "sun_hours_jun": 6.4
+  },
+  "Haskell County": {
+   "fips": "40061",
+   "centroid": [
+    35.2324,
+    -95.1096
+   ],
+   "latitude": 35.2,
+   "bbox": [
+    -95.4554,
+    35.0575,
+    -94.8137,
+    35.4586
+   ],
+   "coastal": false,
+   "elevation_ft": 740,
+   "zone": "7b",
+   "jan_low_f": 32,
+   "jul_high_f": 94,
+   "record_low_f": -9,
+   "record_high_f": 111,
+   "precip_in": 50.9,
+   "snow_in": 5,
+   "last_frost": "Mar 23",
+   "first_frost": "Nov 5",
+   "growing_days": 228,
+   "ecoregion": "Arkansas Valley",
+   "ecoregion_code": "37",
+   "nws_office": "Tulsa, OK",
+   "nws_cwa": "TSA",
+   "nwr": [
+    {
+     "call": "WXL49",
+     "freq": "162.475",
+     "same": "040061"
+    },
+    {
+     "call": "WNG632",
+     "freq": "162.525",
+     "same": "040061"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.8
+  },
+  "Hughes County": {
+   "fips": "40063",
+   "centroid": [
+    35.0529,
+    -96.2512
+   ],
+   "latitude": 35.1,
+   "bbox": [
+    -96.4908,
+    34.7668,
+    -95.9811,
+    35.2902
+   ],
+   "coastal": false,
+   "elevation_ft": 870,
+   "zone": "7b",
+   "jan_low_f": 30,
+   "jul_high_f": 91,
+   "record_low_f": -13,
+   "record_high_f": 118,
+   "precip_in": 41.3,
+   "snow_in": 2,
+   "last_frost": "Mar 29",
+   "first_frost": "Nov 5",
+   "growing_days": 221,
+   "ecoregion": "Cross Timbers",
+   "ecoregion_code": "29",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "WXL49",
+     "freq": "162.475",
+     "same": "040063"
+    },
+    {
+     "call": "KJY95",
+     "freq": "162.550",
+     "same": "040063"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.8
+  },
+  "Jackson County": {
+   "fips": "40065",
+   "centroid": [
+    34.594,
+    -99.4122
+   ],
+   "latitude": 34.6,
+   "bbox": [
+    -99.8441,
+    34.3373,
+    -99.0375,
+    34.8594
+   ],
+   "coastal": false,
+   "elevation_ft": 1350,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 96,
+   "record_low_f": -11,
+   "record_high_f": 120,
+   "precip_in": 28.0,
+   "snow_in": 4,
+   "last_frost": "Apr 3",
+   "first_frost": "Nov 4",
+   "growing_days": 214,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "WWG97",
+     "freq": "162.425",
+     "same": "040065"
+    },
+    {
+     "call": "KJY97",
+     "freq": "162.525",
+     "same": "040065"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.3,
+   "sun_hours_jun": 6.4
+  },
+  "Jefferson County": {
+   "fips": "40067",
+   "centroid": [
+    34.1051,
+    -97.8389
+   ],
+   "latitude": 34.1,
+   "bbox": [
+    -98.1392,
+    33.8491,
+    -97.5381,
+    34.2903
+   ],
+   "coastal": false,
+   "elevation_ft": 930,
+   "zone": "8a",
+   "jan_low_f": 30,
+   "jul_high_f": 96,
+   "record_low_f": -10,
+   "record_high_f": 116,
+   "precip_in": 32.2,
+   "snow_in": 2,
+   "last_frost": "Mar 29",
+   "first_frost": "Nov 5",
+   "growing_days": 223,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "KXI57",
+     "freq": "162.525",
+     "same": "040067"
+    },
+    {
+     "call": "KHA99",
+     "freq": "162.425",
+     "same": "040067"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 6.0
+  },
+  "Johnston County": {
+   "fips": "40069",
+   "centroid": [
+    34.3135,
+    -96.6543
+   ],
+   "latitude": 34.3,
+   "bbox": [
+    -96.9337,
+    34.1141,
+    -96.4069,
+    34.5062
+   ],
+   "coastal": false,
+   "elevation_ft": 820,
+   "zone": "8a",
+   "jan_low_f": 30,
+   "jul_high_f": 93,
+   "record_low_f": -8,
+   "record_high_f": 112,
+   "precip_in": 42.5,
+   "snow_in": 2,
+   "last_frost": "Mar 29",
+   "first_frost": "Nov 5",
+   "growing_days": 222,
+   "ecoregion": "Cross Timbers",
+   "ecoregion_code": "29",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "KXI57",
+     "freq": "162.525",
+     "same": "040069"
+    },
+    {
+     "call": "KWN49",
+     "freq": "162.500",
+     "same": "040069"
+    },
+    {
+     "call": "WXK22",
+     "freq": "162.475",
+     "same": "040069"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.8
+  },
+  "Kay County": {
+   "fips": "40071",
+   "centroid": [
+    36.8149,
+    -97.1439
+   ],
+   "latitude": 36.8,
+   "bbox": [
+    -97.4625,
+    36.5934,
+    -96.7499,
+    36.9995
+   ],
+   "coastal": false,
+   "elevation_ft": 1090,
+   "zone": "7a",
+   "jan_low_f": 25,
+   "jul_high_f": 93,
+   "record_low_f": -25,
+   "record_high_f": 116,
+   "precip_in": 33.6,
+   "snow_in": 8,
+   "last_frost": "Apr 10",
+   "first_frost": "Oct 27",
+   "growing_days": 200,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "WWF42",
+     "freq": "162.450",
+     "same": "040071"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 6.1
+  },
+  "Kingfisher County": {
+   "fips": "40073",
+   "centroid": [
+    35.9494,
+    -97.9346
+   ],
+   "latitude": 35.9,
+   "bbox": [
+    -98.2105,
+    35.7251,
+    -97.6739,
+    36.165
+   ],
+   "coastal": false,
+   "elevation_ft": 1090,
+   "zone": "7a",
+   "jan_low_f": 25,
+   "jul_high_f": 95,
+   "record_low_f": -20,
+   "record_high_f": 118,
+   "precip_in": 36.5,
+   "snow_in": 5,
+   "last_frost": "Apr 8",
+   "first_frost": "Nov 1",
+   "growing_days": 206,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "WXL48",
+     "freq": "162.475",
+     "same": "040073"
+    },
+    {
+     "call": "WXK85",
+     "freq": "162.400",
+     "same": "040073"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 6.0
+  },
+  "Kiowa County": {
+   "fips": "40075",
+   "centroid": [
+    34.9215,
+    -98.9816
+   ],
+   "latitude": 34.9,
+   "bbox": [
+    -99.4093,
+    34.5942,
+    -98.6198,
+    35.1236
+   ],
+   "coastal": false,
+   "elevation_ft": 1540,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 97,
+   "record_low_f": -10,
+   "record_high_f": 117,
+   "precip_in": 28.0,
+   "snow_in": 3,
+   "last_frost": "Apr 4",
+   "first_frost": "Nov 4",
+   "growing_days": 214,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "WWG97",
+     "freq": "162.425",
+     "same": "040075"
+    },
+    {
+     "call": "WXK87",
+     "freq": "162.525",
+     "same": "040075"
+    },
+    {
+     "call": "WXK86",
+     "freq": "162.550",
+     "same": "040075"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.2,
+   "sun_hours_jun": 6.2
+  },
+  "Latimer County": {
+   "fips": "40077",
+   "centroid": [
+    34.8751,
+    -95.2723
+   ],
+   "latitude": 34.9,
+   "bbox": [
+    -95.5145,
+    34.6805,
+    -94.9277,
+    35.0584
+   ],
+   "coastal": false,
+   "elevation_ft": 1030,
+   "zone": "7b",
+   "jan_low_f": 30,
+   "jul_high_f": 94,
+   "record_low_f": -16,
+   "record_high_f": 113,
+   "precip_in": 50.9,
+   "snow_in": 3,
+   "last_frost": "Apr 2",
+   "first_frost": "Nov 5",
+   "growing_days": 218,
+   "ecoregion": "Ouachita Mountains",
+   "ecoregion_code": "36",
+   "nws_office": "Tulsa, OK",
+   "nws_cwa": "TSA",
+   "nwr": [
+    {
+     "call": "WXL49",
+     "freq": "162.475",
+     "same": "040077"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.7
+  },
+  "Le Flore County": {
+   "fips": "40079",
+   "centroid": [
+    34.8974,
+    -94.6951
+   ],
+   "latitude": 34.9,
+   "bbox": [
+    -95.0601,
+    34.5065,
+    -94.4317,
+    35.3779
+   ],
+   "coastal": false,
+   "elevation_ft": 580,
+   "zone": "7b",
+   "jan_low_f": 27,
+   "jul_high_f": 93,
+   "record_low_f": -14,
+   "record_high_f": 114,
+   "precip_in": 52.5,
+   "snow_in": 1,
+   "last_frost": "Apr 6",
+   "first_frost": "Nov 2",
+   "growing_days": 210,
+   "ecoregion": "Arkansas Valley",
+   "ecoregion_code": "37",
+   "nws_office": "Tulsa, OK",
+   "nws_cwa": "TSA",
+   "nwr": [
+    {
+     "call": "WXJ65",
+     "freq": "162.450",
+     "same": "040079"
+    },
+    {
+     "call": "WXJ50",
+     "freq": "162.550",
+     "same": "040079"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.6
+  },
+  "Lincoln County": {
+   "fips": "40081",
+   "centroid": [
+    35.7031,
+    -96.8814
+   ],
+   "latitude": 35.7,
+   "bbox": [
+    -97.1418,
+    35.4628,
+    -96.6191,
+    35.9422
+   ],
+   "coastal": false,
+   "elevation_ft": 950,
+   "zone": "7b",
+   "jan_low_f": 25,
+   "jul_high_f": 95,
+   "record_low_f": -20,
+   "record_high_f": 118,
+   "precip_in": 36.0,
+   "snow_in": 2,
+   "last_frost": "Apr 7",
+   "first_frost": "Oct 30",
+   "growing_days": 205,
+   "ecoregion": "Cross Timbers",
+   "ecoregion_code": "29",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "WXK85",
+     "freq": "162.400",
+     "same": "040081"
+    },
+    {
+     "call": "WNG654",
+     "freq": "162.500",
+     "same": "040081"
+    },
+    {
+     "call": "KJY95",
+     "freq": "162.550",
+     "same": "040081"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.8
+  },
+  "Logan County": {
+   "fips": "40083",
+   "centroid": [
+    35.9143,
+    -97.451
+   ],
+   "latitude": 35.9,
+   "bbox": [
+    -97.6759,
+    35.7244,
+    -97.1396,
+    36.1648
+   ],
+   "coastal": false,
+   "elevation_ft": 1010,
+   "zone": "7b",
+   "jan_low_f": 27,
+   "jul_high_f": 94,
+   "record_low_f": -24,
+   "record_high_f": 116,
+   "precip_in": 30.5,
+   "snow_in": 7,
+   "last_frost": "Apr 3",
+   "first_frost": "Nov 1",
+   "growing_days": 211,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "WXL48",
+     "freq": "162.475",
+     "same": "040083"
+    },
+    {
+     "call": "WXK85",
+     "freq": "162.400",
+     "same": "040083"
+    },
+    {
+     "call": "WNG654",
+     "freq": "162.500",
+     "same": "040083"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 6.0
+  },
+  "Love County": {
+   "fips": "40085",
+   "centroid": [
+    33.9578,
+    -97.2451
+   ],
+   "latitude": 34.0,
+   "bbox": [
+    -97.562,
+    33.717,
+    -96.9347,
+    34.0713
+   ],
+   "coastal": false,
+   "elevation_ft": 930,
+   "zone": "8a",
+   "jan_low_f": 30,
+   "jul_high_f": 94,
+   "record_low_f": -8,
+   "record_high_f": 112,
+   "precip_in": 39.8,
+   "snow_in": 4,
+   "last_frost": "Mar 31",
+   "first_frost": "Nov 4",
+   "growing_days": 218,
+   "ecoregion": "Cross Timbers",
+   "ecoregion_code": "29",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "KXI57",
+     "freq": "162.525",
+     "same": "040085"
+    },
+    {
+     "call": "KHA99",
+     "freq": "162.425",
+     "same": "040085"
+    },
+    {
+     "call": "WXK22",
+     "freq": "162.475",
+     "same": "040085"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.1,
+   "sun_hours_jun": 6.0
+  },
+  "McClain County": {
+   "fips": "40087",
+   "centroid": [
+    35.0164,
+    -97.4498
+   ],
+   "latitude": 35.0,
+   "bbox": [
+    -97.6714,
+    34.8545,
+    -96.9305,
+    35.3365
+   ],
+   "coastal": false,
+   "elevation_ft": 1230,
+   "zone": "7b",
+   "jan_low_f": 26,
+   "jul_high_f": 94,
+   "record_low_f": -13,
+   "record_high_f": 114,
+   "precip_in": 37.6,
+   "snow_in": 4,
+   "last_frost": "Apr 4",
+   "first_frost": "Nov 2",
+   "growing_days": 210,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "KJY94",
+     "freq": "162.450",
+     "same": "040087"
+    },
+    {
+     "call": "WXK85",
+     "freq": "162.400",
+     "same": "040087"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 6.0
+  },
+  "McCurtain County": {
+   "fips": "40089",
+   "centroid": [
+    34.1171,
+    -94.7661
+   ],
+   "latitude": 34.1,
+   "bbox": [
+    -95.1566,
+    33.6158,
+    -94.4612,
+    34.5082
+   ],
+   "coastal": false,
+   "elevation_ft": 640,
+   "zone": "8a",
+   "jan_low_f": 28,
+   "jul_high_f": 93,
+   "record_low_f": -11,
+   "record_high_f": 113,
+   "precip_in": 55.1,
+   "snow_in": 2,
+   "last_frost": "Apr 1",
+   "first_frost": "Nov 2",
+   "growing_days": 220,
+   "ecoregion": "Ouachita Mountains",
+   "ecoregion_code": "36",
+   "nws_office": "Shreveport, LA",
+   "nws_cwa": "SHV",
+   "nwr": [
+    {
+     "call": "WXJ65",
+     "freq": "162.450",
+     "same": "040089"
+    },
+    {
+     "call": "KXI97",
+     "freq": "162.400",
+     "same": "040089"
+    },
+    {
+     "call": "WXJ49",
+     "freq": "162.550",
+     "same": "040089"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.6
+  },
+  "McIntosh County": {
+   "fips": "40091",
+   "centroid": [
+    35.3691,
+    -95.6718
+   ],
+   "latitude": 35.4,
+   "bbox": [
+    -95.9837,
+    35.1426,
+    -95.3441,
+    35.5522
+   ],
+   "coastal": false,
+   "elevation_ft": 630,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 92,
+   "record_low_f": -11,
+   "record_high_f": 113,
+   "precip_in": 45.9,
+   "snow_in": 8,
+   "last_frost": "Apr 2",
+   "first_frost": "Nov 2",
+   "growing_days": 216,
+   "ecoregion": "Cross Timbers",
+   "ecoregion_code": "29",
+   "nws_office": "Tulsa, OK",
+   "nws_cwa": "TSA",
+   "nwr": [
+    {
+     "call": "WXL49",
+     "freq": "162.475",
+     "same": "040091"
+    },
+    {
+     "call": "WNG632",
+     "freq": "162.525",
+     "same": "040091"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.8
+  },
+  "Major County": {
+   "fips": "40093",
+   "centroid": [
+    36.3131,
+    -98.542
+   ],
+   "latitude": 36.3,
+   "bbox": [
+    -98.9609,
+    36.1612,
+    -98.1038,
+    36.5069
+   ],
+   "coastal": false,
+   "elevation_ft": 1320,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 96,
+   "record_low_f": -18,
+   "record_high_f": 117,
+   "precip_in": 31.1,
+   "snow_in": 9,
+   "last_frost": "Apr 5",
+   "first_frost": "Nov 1",
+   "growing_days": 208,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "WXL48",
+     "freq": "162.475",
+     "same": "040093"
+    },
+    {
+     "call": "WWG46",
+     "freq": "162.500",
+     "same": "040093"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 6.2
+  },
+  "Marshall County": {
+   "fips": "40095",
+   "centroid": [
+    34.027,
+    -96.7705
+   ],
+   "latitude": 34.0,
+   "bbox": [
+    -96.9701,
+    33.8244,
+    -96.5478,
+    34.1727
+   ],
+   "coastal": false,
+   "elevation_ft": 880,
+   "zone": "8a",
+   "jan_low_f": 30,
+   "jul_high_f": 95,
+   "record_low_f": -8,
+   "record_high_f": 112,
+   "precip_in": 41.4,
+   "snow_in": 2,
+   "last_frost": "Mar 27",
+   "first_frost": "Nov 8",
+   "growing_days": 227,
+   "ecoregion": "Cross Timbers",
+   "ecoregion_code": "29",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "KXI57",
+     "freq": "162.525",
+     "same": "040095"
+    },
+    {
+     "call": "WXK22",
+     "freq": "162.475",
+     "same": "040095"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.8
+  },
+  "Mayes County": {
+   "fips": "40097",
+   "centroid": [
+    36.3038,
+    -95.2356
+   ],
+   "latitude": 36.3,
+   "bbox": [
+    -95.4401,
+    36.0744,
+    -95.0055,
+    36.5105
+   ],
+   "coastal": false,
+   "elevation_ft": 650,
+   "zone": "7a",
+   "jan_low_f": 25,
+   "jul_high_f": 91,
+   "record_low_f": -21,
+   "record_high_f": 117,
+   "precip_in": 44.7,
+   "snow_in": 8,
+   "last_frost": "Apr 5",
+   "first_frost": "Oct 30",
+   "growing_days": 207,
+   "ecoregion": "Central Irregular Plains",
+   "ecoregion_code": "40",
+   "nws_office": "Tulsa, OK",
+   "nws_cwa": "TSA",
+   "nwr": [
+    {
+     "call": "WNG644",
+     "freq": "162.425",
+     "same": "040097"
+    },
+    {
+     "call": "WWH38",
+     "freq": "162.525",
+     "same": "040097"
+    },
+    {
+     "call": "KIH27",
+     "freq": "162.550",
+     "same": "040097"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.8
+  },
+  "Murray County": {
+   "fips": "40099",
+   "centroid": [
+    34.4858,
+    -97.0716
+   ],
+   "latitude": 34.5,
+   "bbox": [
+    -97.3522,
+    34.3323,
+    -96.8273,
+    34.6371
+   ],
+   "coastal": false,
+   "elevation_ft": 930,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 93,
+   "record_low_f": -12,
+   "record_high_f": 112,
+   "precip_in": 41.8,
+   "snow_in": 2,
+   "last_frost": "Apr 4",
+   "first_frost": "Oct 31",
+   "growing_days": 208,
+   "ecoregion": "Cross Timbers",
+   "ecoregion_code": "29",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "KXI57",
+     "freq": "162.525",
+     "same": "040099"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 6.0
+  },
+  "Muskogee County": {
+   "fips": "40101",
+   "centroid": [
+    35.6176,
+    -95.3839
+   ],
+   "latitude": 35.6,
+   "bbox": [
+    -95.7664,
+    35.2617,
+    -95.0492,
+    35.8568
+   ],
+   "coastal": false,
+   "elevation_ft": 580,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 92,
+   "record_low_f": -11,
+   "record_high_f": 113,
+   "precip_in": 43.2,
+   "snow_in": 6,
+   "last_frost": "Apr 2",
+   "first_frost": "Nov 2",
+   "growing_days": 216,
+   "ecoregion": "Central Irregular Plains",
+   "ecoregion_code": "40",
+   "nws_office": "Tulsa, OK",
+   "nws_cwa": "TSA",
+   "nwr": [
+    {
+     "call": "WNG632",
+     "freq": "162.525",
+     "same": "040101"
+    },
+    {
+     "call": "KIH27",
+     "freq": "162.550",
+     "same": "040101"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.8
+  },
+  "Noble County": {
+   "fips": "40103",
+   "centroid": [
+    36.3849,
+    -97.2363
+   ],
+   "latitude": 36.4,
+   "bbox": [
+    -97.4618,
+    36.1587,
+    -96.8882,
+    36.6007
+   ],
+   "coastal": false,
+   "elevation_ft": 990,
+   "zone": "7a",
+   "jan_low_f": 25,
+   "jul_high_f": 93,
+   "record_low_f": -20,
+   "record_high_f": 117,
+   "precip_in": 36.5,
+   "snow_in": 7,
+   "last_frost": "Apr 8",
+   "first_frost": "Oct 28",
+   "growing_days": 202,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "WWF42",
+     "freq": "162.450",
+     "same": "040103"
+    },
+    {
+     "call": "WNG654",
+     "freq": "162.500",
+     "same": "040103"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 6.1
+  },
+  "Nowata County": {
+   "fips": "40105",
+   "centroid": [
+    36.7896,
+    -95.6133
+   ],
+   "latitude": 36.8,
+   "bbox": [
+    -95.8101,
+    36.5974,
+    -95.4077,
+    36.9998
+   ],
+   "coastal": false,
+   "elevation_ft": 740,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 92,
+   "record_low_f": -13,
+   "record_high_f": 118,
+   "precip_in": 42.1,
+   "snow_in": 9,
+   "last_frost": "Apr 4",
+   "first_frost": "Nov 1",
+   "growing_days": 210,
+   "ecoregion": "Central Irregular Plains",
+   "ecoregion_code": "40",
+   "nws_office": "Tulsa, OK",
+   "nws_cwa": "TSA",
+   "nwr": [
+    {
+     "call": "WNG644",
+     "freq": "162.425",
+     "same": "040105"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.8
+  },
+  "Okfuskee County": {
+   "fips": "40107",
+   "centroid": [
+    35.4668,
+    -96.3278
+   ],
+   "latitude": 35.5,
+   "bbox": [
+    -96.625,
+    35.2896,
+    -95.9811,
+    35.6394
+   ],
+   "coastal": false,
+   "elevation_ft": 920,
+   "zone": "7b",
+   "jan_low_f": 30,
+   "jul_high_f": 93,
+   "record_low_f": -10,
+   "record_high_f": 115,
+   "precip_in": 43.5,
+   "snow_in": 5,
+   "last_frost": "Mar 24",
+   "first_frost": "Nov 9",
+   "growing_days": 229,
+   "ecoregion": "Cross Timbers",
+   "ecoregion_code": "29",
+   "nws_office": "Tulsa, OK",
+   "nws_cwa": "TSA",
+   "nwr": [
+    {
+     "call": "WXL49",
+     "freq": "162.475",
+     "same": "040107"
+    },
+    {
+     "call": "KJY95",
+     "freq": "162.550",
+     "same": "040107"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.8
+  },
+  "Oklahoma County": {
+   "fips": "40109",
+   "centroid": [
+    35.5546,
+    -97.4094
+   ],
+   "latitude": 35.6,
+   "bbox": [
+    -97.6742,
+    35.3769,
+    -97.1408,
+    35.7266
+   ],
+   "coastal": false,
+   "elevation_ft": 1170,
+   "zone": "7b",
+   "jan_low_f": 29,
+   "jul_high_f": 92,
+   "record_low_f": -13,
+   "record_high_f": 112,
+   "precip_in": 36.6,
+   "snow_in": 2,
+   "last_frost": "Apr 2",
+   "first_frost": "Nov 5",
+   "growing_days": 217,
+   "ecoregion": "Cross Timbers",
+   "ecoregion_code": "29",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "WXK85",
+     "freq": "162.400",
+     "same": "040109"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 6.0
+  },
+  "Okmulgee County": {
+   "fips": "40111",
+   "centroid": [
+    35.6435,
+    -95.9659
+   ],
+   "latitude": 35.6,
+   "bbox": [
+    -96.1928,
+    35.3763,
+    -95.7126,
+    35.8573
+   ],
+   "coastal": false,
+   "elevation_ft": 670,
+   "zone": "7b",
+   "jan_low_f": 26,
+   "jul_high_f": 93,
+   "record_low_f": -18,
+   "record_high_f": 114,
+   "precip_in": 47.3,
+   "snow_in": 1,
+   "last_frost": "Apr 8",
+   "first_frost": "Oct 28",
+   "growing_days": 203,
+   "ecoregion": "Central Irregular Plains",
+   "ecoregion_code": "40",
+   "nws_office": "Tulsa, OK",
+   "nws_cwa": "TSA",
+   "nwr": [
+    {
+     "call": "WXL49",
+     "freq": "162.475",
+     "same": "040111"
+    },
+    {
+     "call": "WNG632",
+     "freq": "162.525",
+     "same": "040111"
+    },
+    {
+     "call": "KIH27",
+     "freq": "162.550",
+     "same": "040111"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.8
+  },
+  "Osage County": {
+   "fips": "40113",
+   "centroid": [
+    36.6243,
+    -96.4081
+   ],
+   "latitude": 36.6,
+   "bbox": [
+    -97.0646,
+    36.1608,
+    -96.0004,
+    36.9994
+   ],
+   "coastal": false,
+   "elevation_ft": 980,
+   "zone": "7a",
+   "jan_low_f": 25,
+   "jul_high_f": 92,
+   "record_low_f": -26,
+   "record_high_f": 116,
+   "precip_in": 45.3,
+   "snow_in": 6,
+   "last_frost": "Apr 6",
+   "first_frost": "Oct 29",
+   "growing_days": 204,
+   "ecoregion": "Flint Hills",
+   "ecoregion_code": "28",
+   "nws_office": "Tulsa, OK",
+   "nws_cwa": "TSA",
+   "nwr": [
+    {
+     "call": "WNG644",
+     "freq": "162.425",
+     "same": "040113"
+    },
+    {
+     "call": "WWF42",
+     "freq": "162.450",
+     "same": "040113"
+    },
+    {
+     "call": "KIH27",
+     "freq": "162.550",
+     "same": "040113"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.9
+  },
+  "Ottawa County": {
+   "fips": "40115",
+   "centroid": [
+    36.8358,
+    -94.8027
+   ],
+   "latitude": 36.8,
+   "bbox": [
+    -95.0375,
+    36.6675,
+    -94.618,
+    36.9996
+   ],
+   "coastal": false,
+   "elevation_ft": 770,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 91,
+   "record_low_f": -28,
+   "record_high_f": 116,
+   "precip_in": 46.0,
+   "snow_in": 7,
+   "last_frost": "Apr 6",
+   "first_frost": "Oct 27",
+   "growing_days": 203,
+   "ecoregion": "Central Irregular Plains",
+   "ecoregion_code": "40",
+   "nws_office": "Tulsa, OK",
+   "nws_cwa": "TSA",
+   "nwr": [
+    {
+     "call": "WWH38",
+     "freq": "162.525",
+     "same": "040115"
+    },
+    {
+     "call": "KJY82",
+     "freq": "162.450",
+     "same": "040115"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.8
+  },
+  "Pawnee County": {
+   "fips": "40117",
+   "centroid": [
+    36.3137,
+    -96.6967
+   ],
+   "latitude": 36.3,
+   "bbox": [
+    -97.0322,
+    36.1589,
+    -96.2428,
+    36.5653
+   ],
+   "coastal": false,
+   "elevation_ft": 840,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 94,
+   "record_low_f": -29,
+   "record_high_f": 115,
+   "precip_in": 37.4,
+   "snow_in": 7,
+   "last_frost": "Apr 11",
+   "first_frost": "Oct 24",
+   "growing_days": 196,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Tulsa, OK",
+   "nws_cwa": "TSA",
+   "nwr": [
+    {
+     "call": "WNG644",
+     "freq": "162.425",
+     "same": "040117"
+    },
+    {
+     "call": "WNG654",
+     "freq": "162.500",
+     "same": "040117"
+    },
+    {
+     "call": "KIH27",
+     "freq": "162.550",
+     "same": "040117"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.9
+  },
+  "Payne County": {
+   "fips": "40119",
+   "centroid": [
+    36.0792,
+    -96.9753
+   ],
+   "latitude": 36.1,
+   "bbox": [
+    -97.354,
+    35.9407,
+    -96.621,
+    36.2466
+   ],
+   "coastal": false,
+   "elevation_ft": 840,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 94,
+   "record_low_f": -18,
+   "record_high_f": 115,
+   "precip_in": 36.0,
+   "snow_in": 6,
+   "last_frost": "Apr 5",
+   "first_frost": "Oct 30",
+   "growing_days": 206,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "WXK85",
+     "freq": "162.400",
+     "same": "040119"
+    },
+    {
+     "call": "WNG654",
+     "freq": "162.500",
+     "same": "040119"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.9
+  },
+  "Pittsburg County": {
+   "fips": "40121",
+   "centroid": [
+    34.9255,
+    -95.7481
+   ],
+   "latitude": 34.9,
+   "bbox": [
+    -96.0924,
+    34.5935,
+    -95.349,
+    35.3009
+   ],
+   "coastal": false,
+   "elevation_ft": 790,
+   "zone": "7b",
+   "jan_low_f": 30,
+   "jul_high_f": 93,
+   "record_low_f": -14,
+   "record_high_f": 113,
+   "precip_in": 42.6,
+   "snow_in": 2,
+   "last_frost": "Mar 31",
+   "first_frost": "Nov 3",
+   "growing_days": 216,
+   "ecoregion": "Arkansas Valley",
+   "ecoregion_code": "37",
+   "nws_office": "Tulsa, OK",
+   "nws_cwa": "TSA",
+   "nwr": [
+    {
+     "call": "WXL49",
+     "freq": "162.475",
+     "same": "040121"
+    },
+    {
+     "call": "WNG632",
+     "freq": "162.525",
+     "same": "040121"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.7
+  },
+  "Pontotoc County": {
+   "fips": "40123",
+   "centroid": [
+    34.7214,
+    -96.6918
+   ],
+   "latitude": 34.7,
+   "bbox": [
+    -96.9326,
+    34.5054,
+    -96.406,
+    34.9652
+   ],
+   "coastal": false,
+   "elevation_ft": 1120,
+   "zone": "7b",
+   "jan_low_f": 27,
+   "jul_high_f": 94,
+   "record_low_f": -10,
+   "record_high_f": 116,
+   "precip_in": 41.5,
+   "snow_in": 4,
+   "last_frost": "Apr 2",
+   "first_frost": "Nov 4",
+   "growing_days": 217,
+   "ecoregion": "Cross Timbers",
+   "ecoregion_code": "29",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "KXI57",
+     "freq": "162.525",
+     "same": "040123"
+    },
+    {
+     "call": "KWN49",
+     "freq": "162.500",
+     "same": "040123"
+    },
+    {
+     "call": "KJY95",
+     "freq": "162.550",
+     "same": "040123"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.8
+  },
+  "Pottawatomie County": {
+   "fips": "40125",
+   "centroid": [
+    35.2114,
+    -96.957
+   ],
+   "latitude": 35.2,
+   "bbox": [
+    -97.1423,
+    34.8988,
+    -96.6234,
+    35.464
+   ],
+   "coastal": false,
+   "elevation_ft": 1030,
+   "zone": "7b",
+   "jan_low_f": 29,
+   "jul_high_f": 93,
+   "record_low_f": -12,
+   "record_high_f": 114,
+   "precip_in": 36.7,
+   "snow_in": 1,
+   "last_frost": "Mar 30",
+   "first_frost": "Nov 5",
+   "growing_days": 221,
+   "ecoregion": "Cross Timbers",
+   "ecoregion_code": "29",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "WXK85",
+     "freq": "162.400",
+     "same": "040125"
+    },
+    {
+     "call": "KJY95",
+     "freq": "162.550",
+     "same": "040125"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.8
+  },
+  "Pushmataha County": {
+   "fips": "40127",
+   "centroid": [
+    34.3779,
+    -95.4081
+   ],
+   "latitude": 34.4,
+   "bbox": [
+    -95.7794,
+    34.1561,
+    -94.9374,
+    34.6811
+   ],
+   "coastal": false,
+   "elevation_ft": 740,
+   "zone": "8a",
+   "jan_low_f": 28,
+   "jul_high_f": 93,
+   "record_low_f": -13,
+   "record_high_f": 114,
+   "precip_in": 51.8,
+   "snow_in": 3,
+   "last_frost": "Apr 11",
+   "first_frost": "Oct 27",
+   "growing_days": 199,
+   "ecoregion": "Ouachita Mountains",
+   "ecoregion_code": "36",
+   "nws_office": "Tulsa, OK",
+   "nws_cwa": "TSA",
+   "nwr": [
+    {
+     "call": "KJY77",
+     "freq": "162.400",
+     "same": "040127"
+    },
+    {
+     "call": "WXJ65",
+     "freq": "162.450",
+     "same": "040127"
+    },
+    {
+     "call": "WXL49",
+     "freq": "162.475",
+     "same": "040127"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.7
+  },
+  "Roger Mills County": {
+   "fips": "40129",
+   "centroid": [
+    35.7086,
+    -99.7416
+   ],
+   "latitude": 35.7,
+   "bbox": [
+    -100.0004,
+    35.4215,
+    -99.364,
+    36.0134
+   ],
+   "coastal": false,
+   "elevation_ft": 2200,
+   "zone": "7a",
+   "jan_low_f": 28,
+   "jul_high_f": 94,
+   "record_low_f": -12,
+   "record_high_f": 114,
+   "precip_in": 26.8,
+   "snow_in": 6,
+   "last_frost": "Apr 3",
+   "first_frost": "Nov 3",
+   "growing_days": 212,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "WXK87",
+     "freq": "162.525",
+     "same": "040129"
+    },
+    {
+     "call": "WNG713",
+     "freq": "162.450",
+     "same": "040129"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.3,
+   "sun_hours_jun": 6.4
+  },
+  "Rogers County": {
+   "fips": "40131",
+   "centroid": [
+    36.3778,
+    -95.6014
+   ],
+   "latitude": 36.4,
+   "bbox": [
+    -95.8153,
+    36.0752,
+    -95.328,
+    36.5977
+   ],
+   "coastal": false,
+   "elevation_ft": 700,
+   "zone": "7b",
+   "jan_low_f": 24,
+   "jul_high_f": 92,
+   "record_low_f": -21,
+   "record_high_f": 116,
+   "precip_in": 45.9,
+   "snow_in": 8,
+   "last_frost": "Apr 7",
+   "first_frost": "Oct 30",
+   "growing_days": 205,
+   "ecoregion": "Central Irregular Plains",
+   "ecoregion_code": "40",
+   "nws_office": "Tulsa, OK",
+   "nws_cwa": "TSA",
+   "nwr": [
+    {
+     "call": "WNG644",
+     "freq": "162.425",
+     "same": "040131"
+    },
+    {
+     "call": "KIH27",
+     "freq": "162.550",
+     "same": "040131"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.8
+  },
+  "Seminole County": {
+   "fips": "40133",
+   "centroid": [
+    35.1584,
+    -96.6029
+   ],
+   "latitude": 35.2,
+   "bbox": [
+    -96.7771,
+    34.8568,
+    -96.4412,
+    35.4636
+   ],
+   "coastal": false,
+   "elevation_ft": 860,
+   "zone": "7b",
+   "jan_low_f": 26,
+   "jul_high_f": 95,
+   "record_low_f": -12,
+   "record_high_f": 114,
+   "precip_in": 43.2,
+   "snow_in": 4,
+   "last_frost": "Apr 5",
+   "first_frost": "Nov 1",
+   "growing_days": 210,
+   "ecoregion": "Cross Timbers",
+   "ecoregion_code": "29",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "KJY95",
+     "freq": "162.550",
+     "same": "040133"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.8
+  },
+  "Sequoyah County": {
+   "fips": "40135",
+   "centroid": [
+    35.5024,
+    -94.7508
+   ],
+   "latitude": 35.5,
+   "bbox": [
+    -95.1325,
+    35.2912,
+    -94.4313,
+    35.6393
+   ],
+   "coastal": false,
+   "elevation_ft": 580,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 91,
+   "record_low_f": -19,
+   "record_high_f": 115,
+   "precip_in": 47.4,
+   "snow_in": 2,
+   "last_frost": "Mar 30",
+   "first_frost": "Nov 7",
+   "growing_days": 223,
+   "ecoregion": "Arkansas Valley",
+   "ecoregion_code": "37",
+   "nws_office": "Tulsa, OK",
+   "nws_cwa": "TSA",
+   "nwr": [
+    {
+     "call": "WXJ50",
+     "freq": "162.550",
+     "same": "040135"
+    },
+    {
+     "call": "WNG632",
+     "freq": "162.525",
+     "same": "040135"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.7
+  },
+  "Stephens County": {
+   "fips": "40137",
+   "centroid": [
+    34.4814,
+    -97.8556
+   ],
+   "latitude": 34.5,
+   "bbox": [
+    -98.1421,
+    34.2889,
+    -97.5623,
+    34.6817
+   ],
+   "coastal": false,
+   "elevation_ft": 1090,
+   "zone": "8a",
+   "jan_low_f": 30,
+   "jul_high_f": 94,
+   "record_low_f": -8,
+   "record_high_f": 111,
+   "precip_in": 37.1,
+   "snow_in": 3,
+   "last_frost": "Mar 28",
+   "first_frost": "Nov 7",
+   "growing_days": 227,
+   "ecoregion": "Cross Timbers",
+   "ecoregion_code": "29",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "KXI57",
+     "freq": "162.525",
+     "same": "040137"
+    },
+    {
+     "call": "KJY94",
+     "freq": "162.450",
+     "same": "040137"
+    },
+    {
+     "call": "WXK86",
+     "freq": "162.550",
+     "same": "040137"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 6.0
+  },
+  "Texas County": {
+   "fips": "40139",
+   "centroid": [
+    36.7463,
+    -101.4839
+   ],
+   "latitude": 36.7,
+   "bbox": [
+    -102.0323,
+    36.4991,
+    -100.9453,
+    36.9983
+   ],
+   "coastal": false,
+   "elevation_ft": 3020,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 95,
+   "record_low_f": -22,
+   "record_high_f": 112,
+   "precip_in": 17.8,
+   "snow_in": 17,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 23",
+   "growing_days": 188,
+   "ecoregion": "Southwestern Tablelands",
+   "ecoregion_code": "26",
+   "nws_office": "Amarillo, TX",
+   "nws_cwa": "AMA",
+   "nwr": [
+    {
+     "call": "KJY96",
+     "freq": "162.500",
+     "same": "040139"
+    },
+    {
+     "call": "KJY88",
+     "freq": "162.475",
+     "same": "040139"
+    },
+    {
+     "call": "WWQ51",
+     "freq": "162.525",
+     "same": "040139"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.4,
+   "sun_hours_jun": 6.7
+  },
+  "Tillman County": {
+   "fips": "40141",
+   "centroid": [
+    34.3711,
+    -98.9317
+   ],
+   "latitude": 34.4,
+   "bbox": [
+    -99.2379,
+    34.1242,
+    -98.6095,
+    34.6379
+   ],
+   "coastal": false,
+   "elevation_ft": 1180,
+   "zone": "8a",
+   "jan_low_f": 30,
+   "jul_high_f": 97,
+   "record_low_f": -10,
+   "record_high_f": 117,
+   "precip_in": 27.9,
+   "snow_in": 1,
+   "last_frost": "Mar 26",
+   "first_frost": "Nov 10",
+   "growing_days": 229,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "WWG97",
+     "freq": "162.425",
+     "same": "040141"
+    },
+    {
+     "call": "WXK86",
+     "freq": "162.550",
+     "same": "040141"
+    },
+    {
+     "call": "WXK31",
+     "freq": "162.475",
+     "same": "040141"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.2,
+   "sun_hours_jun": 6.2
+  },
+  "Tulsa County": {
+   "fips": "40143",
+   "centroid": [
+    36.1203,
+    -95.9418
+   ],
+   "latitude": 36.1,
+   "bbox": [
+    -96.2981,
+    35.8559,
+    -95.7614,
+    36.4237
+   ],
+   "coastal": false,
+   "elevation_ft": 740,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 94,
+   "record_low_f": -13,
+   "record_high_f": 115,
+   "precip_in": 41.0,
+   "snow_in": 9,
+   "last_frost": "Mar 31",
+   "first_frost": "Nov 4",
+   "growing_days": 220,
+   "ecoregion": "Central Irregular Plains",
+   "ecoregion_code": "40",
+   "nws_office": "Tulsa, OK",
+   "nws_cwa": "TSA",
+   "nwr": [
+    {
+     "call": "WNG644",
+     "freq": "162.425",
+     "same": "040143"
+    },
+    {
+     "call": "KIH27",
+     "freq": "162.550",
+     "same": "040143"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.8
+  },
+  "Wagoner County": {
+   "fips": "40145",
+   "centroid": [
+    35.9634,
+    -95.5142
+   ],
+   "latitude": 36.0,
+   "bbox": [
+    -95.8198,
+    35.7647,
+    -95.2078,
+    36.1627
+   ],
+   "coastal": false,
+   "elevation_ft": 520,
+   "zone": "7b",
+   "jan_low_f": 29,
+   "jul_high_f": 92,
+   "record_low_f": -16,
+   "record_high_f": 117,
+   "precip_in": 44.8,
+   "snow_in": 3,
+   "last_frost": "Mar 29",
+   "first_frost": "Nov 5",
+   "growing_days": 223,
+   "ecoregion": "Central Irregular Plains",
+   "ecoregion_code": "40",
+   "nws_office": "Tulsa, OK",
+   "nws_cwa": "TSA",
+   "nwr": [
+    {
+     "call": "WNG632",
+     "freq": "162.525",
+     "same": "040145"
+    },
+    {
+     "call": "KIH27",
+     "freq": "162.550",
+     "same": "040145"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.8
+  },
+  "Washington County": {
+   "fips": "40147",
+   "centroid": [
+    36.7044,
+    -95.9063
+   ],
+   "latitude": 36.7,
+   "bbox": [
+    -96.0014,
+    36.4234,
+    -95.7868,
+    36.9995
+   ],
+   "coastal": false,
+   "elevation_ft": 720,
+   "zone": "7a",
+   "jan_low_f": 22,
+   "jul_high_f": 93,
+   "record_low_f": -28,
+   "record_high_f": 115,
+   "precip_in": 39.7,
+   "snow_in": 8,
+   "last_frost": "Apr 11",
+   "first_frost": "Oct 24",
+   "growing_days": 195,
+   "ecoregion": "Central Irregular Plains",
+   "ecoregion_code": "40",
+   "nws_office": "Tulsa, OK",
+   "nws_cwa": "TSA",
+   "nwr": [
+    {
+     "call": "WNG644",
+     "freq": "162.425",
+     "same": "040147"
+    },
+    {
+     "call": "KIH27",
+     "freq": "162.550",
+     "same": "040147"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.8
+  },
+  "Washita County": {
+   "fips": "40149",
+   "centroid": [
+    35.2899,
+    -98.9923
+   ],
+   "latitude": 35.3,
+   "bbox": [
+    -99.3649,
+    35.0974,
+    -98.6179,
+    35.4656
+   ],
+   "coastal": false,
+   "elevation_ft": 1530,
+   "zone": "7b",
+   "jan_low_f": 27,
+   "jul_high_f": 95,
+   "record_low_f": -14,
+   "record_high_f": 115,
+   "precip_in": 29.7,
+   "snow_in": 6,
+   "last_frost": "Apr 3",
+   "first_frost": "Nov 1",
+   "growing_days": 210,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "WXK87",
+     "freq": "162.525",
+     "same": "040149"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.1,
+   "sun_hours_jun": 6.2
+  },
+  "Woods County": {
+   "fips": "40151",
+   "centroid": [
+    36.727,
+    -98.8636
+   ],
+   "latitude": 36.7,
+   "bbox": [
+    -99.4561,
+    36.3909,
+    -98.5332,
+    37.0002
+   ],
+   "coastal": false,
+   "elevation_ft": 1570,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 95,
+   "record_low_f": -21,
+   "record_high_f": 114,
+   "precip_in": 28.2,
+   "snow_in": 9,
+   "last_frost": "Apr 11",
+   "first_frost": "Oct 26",
+   "growing_days": 198,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "WZ2511",
+     "freq": "162.400",
+     "same": "040151"
+    },
+    {
+     "call": "WWG46",
+     "freq": "162.500",
+     "same": "040151"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 6.2
+  },
+  "Woodward County": {
+   "fips": "40153",
+   "centroid": [
+    36.4256,
+    -99.2737
+   ],
+   "latitude": 36.4,
+   "bbox": [
+    -99.6057,
+    36.1616,
+    -98.9559,
+    36.8058
+   ],
+   "coastal": false,
+   "elevation_ft": 1830,
+   "zone": "7a",
+   "jan_low_f": 25,
+   "jul_high_f": 94,
+   "record_low_f": -19,
+   "record_high_f": 115,
+   "precip_in": 25.6,
+   "snow_in": 15,
+   "last_frost": "Apr 5",
+   "first_frost": "Oct 30",
+   "growing_days": 206,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Norman, OK",
+   "nws_cwa": "OUN",
+   "nwr": [
+    {
+     "call": "WWG46",
+     "freq": "162.500",
+     "same": "040153"
+    }
+   ],
+   "state_em": "Oklahoma Department of Emergency Management and Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.2,
+   "sun_hours_jun": 6.4
+  }
+ }
+}

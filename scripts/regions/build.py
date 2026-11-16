@@ -94,8 +94,11 @@ def load_counties():
         r = dict(zip(head, [c.strip() for c in line.split('\t')]))
         if r['GEOID'][:2] not in STATES:
             continue
+        lon = float(r['INTPTLONG'])
+        if lon > 0:  # Aleutians west of the antimeridian: keep longitudes continuous (-180.4, not 179.6)
+            lon -= 360.0
         out[r['GEOID']] = {'fips': r['GEOID'], 'state': r['USPS'], 'name': r['NAME'],
-                           'lat': float(r['INTPTLAT']), 'lon': float(r['INTPTLONG']),
+                           'lat': float(r['INTPTLAT']), 'lon': lon,
                            'land_sqmi': float(r['ALAND_SQMI'])}
     return out
 
@@ -181,6 +184,7 @@ class StationPicker:
         self.lat = np.radians(np.array([stations[k]['lat'] for k in self.ids]))
         self.lon = np.radians(np.array([stations[k]['lon'] for k in self.ids]))
         self.elev = np.array([stations[k]['elev_m'] if stations[k]['elev_m'] is not None else np.nan for k in self.ids])
+        self.cocorahs = np.array([1.0 if k.startswith('US1') else 0.0 for k in self.ids])
         self.mask = {k: np.array([bool(has(stations[i], k)) for i in self.ids]) for k in ('temp', 'frost', 'prcp', 'snow')}
 
     def pick(self, lat, lon, elev_m, kind, n=1, max_km=None):
@@ -189,6 +193,10 @@ class StationPicker:
         h = np.sin((self.lat - p1) / 2) ** 2 + math.cos(p1) * np.cos(self.lat) * np.sin((self.lon - l1) / 2) ** 2
         d = 6371.0 * 2 * np.arcsin(np.sqrt(h))
         pen = np.where(np.isnan(self.elev) | (elev_m is None), 0.0, np.abs(self.elev - (elev_m or 0)) / 10.0)
+        # CoCoRaHS volunteer gauges (ids US1...) have short records: prefer a cooperative or airport
+        # station unless the volunteer gauge is more than 30 km closer.
+        if kind in ('prcp', 'snow'):
+            pen = pen + self.cocorahs * 30.0
         score = np.where(self.mask[kind], d + pen, np.inf)
         if max_km is not None:
             score = np.where(d <= max_km, score, np.inf)
@@ -257,7 +265,7 @@ def main():
         el_ft = epqs.get(f)
         el_m = el_ft * 0.3048 if el_ft is not None else None
         p = {k: picker.pick(c['lat'], c['lon'], el_m, k, n=(4 if k == 'temp' else 1),
-                            max_km=(150 if k == 'snow' else None)) for k in ('temp', 'frost', 'prcp', 'snow')}
+                            max_km=((400 if c['state'] == 'AK' else 150) if k == 'snow' else None)) for k in ('temp', 'frost', 'prcp', 'snow')}
         pick[f] = p
         wanted.update(s for s, _, _ in p['temp'])
     json.dump(sorted(wanted), open(os.path.join(API, 'acis_wanted.json'), 'w'))
@@ -342,7 +350,7 @@ def main():
         # climate
         p = pick[f]
         temp = p['temp'][0] if p['temp'] else None
-        rec = None
+        rec = rec_fb = None
         for sid, dist, _ in p['temp']:
             a = acis.get(sid)
             if not a or not a.get('min') or not a.get('max') or a['min'][0] in ('M', '') or a['max'][0] in ('M', ''):
@@ -353,6 +361,10 @@ def main():
                 yrs = 0
             if yrs >= 30 and dist <= 80:
                 rec = (sid, dist, a, yrs); break
+            if rec_fb is None and yrs >= 20 and dist <= 250:
+                rec_fb = (sid, dist, a, yrs)
+        if rec is None:
+            rec = rec_fb  # remote places (mostly Alaska): shorter record or farther station, flagged in detail
         fr = p['frost'][0] if p['frost'] else None
         pr = p['prcp'][0] if p['prcp'] else None
         sn = p['snow'][0] if p['snow'] else None
@@ -411,20 +423,33 @@ def main():
             for i in nws_by_fips.get(lf, []):
                 cwas.append(nws_idx.rows[i]['CWA'])
         hit = nws_idx.locate(lon, lat)
+        if not cwas:  # county missing from the AWIPS layer (Kalawao, HI): nearest AWIPS county in the state
+            near = nws_idx.nearest(lon, lat, 1.0)
+            if near is not None:
+                cwas.append(nws_idx.rows[near]['CWA'])
         primary = nws_idx.rows[hit]['CWA'] if hit is not None and nws_idx.rows[hit]['STATE'] == st else (Counter(cwas).most_common(1)[0][0] if cwas else None)
         cwas = [primary] + sorted(set(cwas) - {primary}) if primary else sorted(set(cwas))
         d['cwa'] = cwas
         office = lambda w: f"{cwa_rows[w]['CITY']}, {cwa_rows[w]['ST']}" if w in cwa_rows else w
 
         # NOAA Weather Radio
-        tx, seen = [], set()
+        # One row per transmitter. SAME codes starting 1-9 are partial-county codes (Partial County
+        # Alerting); the code starting 0 covers the whole county, so the context list carries that one
+        # and the partial codes stay in counties-detail.json.
+        tx, partial = {}, set()
         for lf in legacy:
             for r in nwr.get(lf, []):
-                k = (r['call'], r['same'])
-                if k in seen:
+                if not r['call']:
                     continue
-                seen.add(k); tx.append(r)
+                if r['same'][0] != '0':
+                    partial.add(r['same'])
+                whole = '0' + lf
+                if r['call'] not in tx:
+                    tx[r['call']] = dict(r, same=whole)
+        tx = list(tx.values())
         d['nwr_full'] = tx
+        d['same_partial'] = sorted(partial)
+        d['nwr_none_note'] = next((r['remarks'] for lf in legacy for r in nwr.get(lf, []) if not r['call']), None)
 
         # hazards
         h = nri.get(f, {})
@@ -459,7 +484,7 @@ def main():
             ecoregions[k]['states'].add(st)
 
         # sun hours (NASA POWER, 1-degree cell)
-        cl = fetch_points.cell(lat, lon)
+        cl = fetch_points.cell(lat, lon + 360.0 if lon < -180 else lon)
         pw = power.get(f'{cl[0]},{cl[1]}')
         sun = None
         if pw:

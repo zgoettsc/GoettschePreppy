@@ -1,0 +1,5727 @@
+{
+ "state": "TN",
+ "state_name": "Tennessee",
+ "state_fips": "47",
+ "state_em": "Tennessee Emergency Management Agency",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "HUN": "NWS Huntsville, AL",
+  "MEG": "NWS Memphis, TN",
+  "MRX": "NWS Morristown, TN",
+  "OHX": "NWS Nashville, TN"
+ },
+ "ecoregions": [
+  "Southeastern Plains",
+  "Blue Ridge",
+  "Ridge and Valley",
+  "Southwestern Appalachians",
+  "Central Appalachians",
+  "Interior Plateau",
+  "Mississippi Alluvial Plain",
+  "Mississippi Valley Loess Plains"
+ ],
+ "counties": {
+  "Anderson County": {
+   "fips": "47001",
+   "centroid": [
+    36.1167,
+    -84.1954
+   ],
+   "latitude": 36.1,
+   "bbox": [
+    -84.4499,
+    35.91,
+    -83.9417,
+    36.3017
+   ],
+   "coastal": false,
+   "elevation_ft": 1200,
+   "zone": "7b",
+   "jan_low_f": 25,
+   "jul_high_f": 85,
+   "record_low_f": -19,
+   "record_high_f": 105,
+   "precip_in": 57.7,
+   "snow_in": 3,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 25",
+   "growing_days": 184,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Morristown, TN",
+   "nws_cwa": "MRX",
+   "nwr": [
+    {
+     "call": "WXK46",
+     "freq": "162.475",
+     "same": "047001"
+    },
+    {
+     "call": "WNG732",
+     "freq": "162.450",
+     "same": "047001"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.4
+  },
+  "Bedford County": {
+   "fips": "47003",
+   "centroid": [
+    35.5137,
+    -86.4583
+   ],
+   "latitude": 35.5,
+   "bbox": [
+    -86.6655,
+    35.3191,
+    -86.2348,
+    35.7028
+   ],
+   "coastal": false,
+   "elevation_ft": 780,
+   "zone": "7b",
+   "jan_low_f": 29,
+   "jul_high_f": 89,
+   "record_low_f": -20,
+   "record_high_f": 108,
+   "precip_in": 59.4,
+   "snow_in": 1,
+   "last_frost": "Apr 7",
+   "first_frost": "Oct 29",
+   "growing_days": 204,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Nashville, TN",
+   "nws_cwa": "OHX",
+   "nwr": [
+    {
+     "call": "WXK63",
+     "freq": "162.475",
+     "same": "047003"
+    },
+    {
+     "call": "WNG554",
+     "freq": "162.525",
+     "same": "047003"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.5
+  },
+  "Benton County": {
+   "fips": "47005",
+   "centroid": [
+    36.0709,
+    -88.0712
+   ],
+   "latitude": 36.1,
+   "bbox": [
+    -88.225,
+    35.811,
+    -87.9157,
+    36.3608
+   ],
+   "coastal": false,
+   "elevation_ft": 500,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 90,
+   "record_low_f": -22,
+   "record_high_f": 111,
+   "precip_in": 51.6,
+   "snow_in": 3,
+   "last_frost": "Apr 3",
+   "first_frost": "Nov 1",
+   "growing_days": 214,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "KWN52",
+     "freq": "162.525",
+     "same": "047005"
+    },
+    {
+     "call": "KHA46",
+     "freq": "162.450",
+     "same": "047005"
+    },
+    {
+     "call": "WXK62",
+     "freq": "162.400",
+     "same": "047005"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.6
+  },
+  "Bledsoe County": {
+   "fips": "47007",
+   "centroid": [
+    35.5936,
+    -85.2059
+   ],
+   "latitude": 35.6,
+   "bbox": [
+    -85.4351,
+    35.3546,
+    -84.9167,
+    35.771
+   ],
+   "coastal": false,
+   "elevation_ft": 890,
+   "zone": "7b",
+   "jan_low_f": 30,
+   "jul_high_f": 88,
+   "record_low_f": -20,
+   "record_high_f": 107,
+   "precip_in": 56.2,
+   "snow_in": 4,
+   "last_frost": "Apr 11",
+   "first_frost": "Oct 25",
+   "growing_days": 197,
+   "ecoregion": "Southwestern Appalachians",
+   "ecoregion_code": "68",
+   "nws_office": "Morristown, TN",
+   "nws_cwa": "MRX",
+   "nwr": [
+    {
+     "call": "WXK48",
+     "freq": "162.550",
+     "same": "047007"
+    },
+    {
+     "call": "WNG629",
+     "freq": "162.450",
+     "same": "047007"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.4
+  },
+  "Blount County": {
+   "fips": "47009",
+   "centroid": [
+    35.6882,
+    -83.923
+   ],
+   "latitude": 35.7,
+   "bbox": [
+    -84.1883,
+    35.4603,
+    -83.6628,
+    35.887
+   ],
+   "coastal": false,
+   "elevation_ft": 1120,
+   "zone": "7b",
+   "jan_low_f": 30,
+   "jul_high_f": 88,
+   "record_low_f": -24,
+   "record_high_f": 105,
+   "precip_in": 51.9,
+   "snow_in": 5,
+   "last_frost": "Apr 1",
+   "first_frost": "Nov 2",
+   "growing_days": 215,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Morristown, TN",
+   "nws_cwa": "MRX",
+   "nwr": [
+    {
+     "call": "WXK46",
+     "freq": "162.475",
+     "same": "047009"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.3
+  },
+  "Bradley County": {
+   "fips": "47011",
+   "centroid": [
+    35.1539,
+    -84.8594
+   ],
+   "latitude": 35.2,
+   "bbox": [
+    -85.0267,
+    34.9873,
+    -84.6974,
+    35.3576
+   ],
+   "coastal": false,
+   "elevation_ft": 950,
+   "zone": "7b",
+   "jan_low_f": 29,
+   "jul_high_f": 89,
+   "record_low_f": -16,
+   "record_high_f": 105,
+   "precip_in": 57.6,
+   "snow_in": 1,
+   "last_frost": "Apr 6",
+   "first_frost": "Oct 30",
+   "growing_days": 206,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Morristown, TN",
+   "nws_cwa": "MRX",
+   "nwr": [
+    {
+     "call": "WXK48",
+     "freq": "162.550",
+     "same": "047011"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.4
+  },
+  "Campbell County": {
+   "fips": "47013",
+   "centroid": [
+    36.4016,
+    -84.1592
+   ],
+   "latitude": 36.4,
+   "bbox": [
+    -84.3764,
+    36.178,
+    -83.9006,
+    36.5927
+   ],
+   "coastal": false,
+   "elevation_ft": 1880,
+   "zone": "7b",
+   "jan_low_f": 26,
+   "jul_high_f": 86,
+   "record_low_f": -19,
+   "record_high_f": 105,
+   "precip_in": 54.6,
+   "snow_in": 3,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 24",
+   "growing_days": 187,
+   "ecoregion": "Central Appalachians",
+   "ecoregion_code": "69",
+   "nws_office": "Morristown, TN",
+   "nws_cwa": "MRX",
+   "nwr": [
+    {
+     "call": "WXK46",
+     "freq": "162.475",
+     "same": "047013"
+    },
+    {
+     "call": "WNG732",
+     "freq": "162.450",
+     "same": "047013"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.4
+  },
+  "Cannon County": {
+   "fips": "47015",
+   "centroid": [
+    35.8084,
+    -86.0624
+   ],
+   "latitude": 35.8,
+   "bbox": [
+    -86.2085,
+    35.6435,
+    -85.8852,
+    35.9744
+   ],
+   "coastal": false,
+   "elevation_ft": 830,
+   "zone": "7b",
+   "jan_low_f": 27,
+   "jul_high_f": 90,
+   "record_low_f": -28,
+   "record_high_f": 110,
+   "precip_in": 57.6,
+   "snow_in": 3,
+   "last_frost": "Apr 17",
+   "first_frost": "Oct 21",
+   "growing_days": 184,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Nashville, TN",
+   "nws_cwa": "OHX",
+   "nwr": [
+    {
+     "call": "WXN74",
+     "freq": "162.500",
+     "same": "047015"
+    },
+    {
+     "call": "WXK63",
+     "freq": "162.475",
+     "same": "047015"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.5
+  },
+  "Carroll County": {
+   "fips": "47017",
+   "centroid": [
+    35.9657,
+    -88.4524
+   ],
+   "latitude": 36.0,
+   "bbox": [
+    -88.7068,
+    35.7892,
+    -88.1779,
+    36.151
+   ],
+   "coastal": false,
+   "elevation_ft": 450,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 89,
+   "record_low_f": -23,
+   "record_high_f": 106,
+   "precip_in": 55.9,
+   "snow_in": 3,
+   "last_frost": "Apr 2",
+   "first_frost": "Oct 31",
+   "growing_days": 211,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "WXK60",
+     "freq": "162.550",
+     "same": "047017"
+    },
+    {
+     "call": "KHA46",
+     "freq": "162.450",
+     "same": "047017"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.7
+  },
+  "Carter County": {
+   "fips": "47019",
+   "centroid": [
+    36.2847,
+    -82.1266
+   ],
+   "latitude": 36.3,
+   "bbox": [
+    -82.3415,
+    36.1026,
+    -81.9333,
+    36.5099
+   ],
+   "coastal": false,
+   "elevation_ft": 3050,
+   "zone": "7a",
+   "jan_low_f": 22,
+   "jul_high_f": 80,
+   "record_low_f": -24,
+   "record_high_f": 93,
+   "precip_in": 52.5,
+   "snow_in": 48,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 12",
+   "growing_days": 165,
+   "ecoregion": "Blue Ridge",
+   "ecoregion_code": "66",
+   "nws_office": "Morristown, TN",
+   "nws_cwa": "MRX",
+   "nwr": [
+    {
+     "call": "WXK47",
+     "freq": "162.550",
+     "same": "047019"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.3
+  },
+  "Cheatham County": {
+   "fips": "47021",
+   "centroid": [
+    36.2552,
+    -87.1008
+   ],
+   "latitude": 36.3,
+   "bbox": [
+    -87.2864,
+    36.0422,
+    -86.9063,
+    36.4557
+   ],
+   "coastal": false,
+   "elevation_ft": 570,
+   "zone": "7a",
+   "jan_low_f": 27,
+   "jul_high_f": 88,
+   "record_low_f": -25,
+   "record_high_f": 108,
+   "precip_in": 52.0,
+   "snow_in": 1,
+   "last_frost": "Apr 11",
+   "first_frost": "Oct 26",
+   "growing_days": 198,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Nashville, TN",
+   "nws_cwa": "OHX",
+   "nwr": [
+    {
+     "call": "KIG79",
+     "freq": "162.550",
+     "same": "047021"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.6
+  },
+  "Chester County": {
+   "fips": "47023",
+   "centroid": [
+    35.4203,
+    -88.6114
+   ],
+   "latitude": 35.4,
+   "bbox": [
+    -88.8421,
+    35.2475,
+    -88.3518,
+    35.592
+   ],
+   "coastal": false,
+   "elevation_ft": 480,
+   "zone": "7b",
+   "jan_low_f": 27,
+   "jul_high_f": 88,
+   "record_low_f": -21,
+   "record_high_f": 107,
+   "precip_in": 61.8,
+   "snow_in": 1,
+   "last_frost": "Apr 10",
+   "first_frost": "Oct 25",
+   "growing_days": 200,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "WXK60",
+     "freq": "162.550",
+     "same": "047023"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.7
+  },
+  "Claiborne County": {
+   "fips": "47025",
+   "centroid": [
+    36.5016,
+    -83.6607
+   ],
+   "latitude": 36.5,
+   "bbox": [
+    -83.9863,
+    36.3322,
+    -83.3694,
+    36.6009
+   ],
+   "coastal": false,
+   "elevation_ft": 1610,
+   "zone": "7a",
+   "jan_low_f": 23,
+   "jul_high_f": 85,
+   "record_low_f": -24,
+   "record_high_f": 103,
+   "precip_in": 54.7,
+   "snow_in": 8,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 19",
+   "growing_days": 177,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Morristown, TN",
+   "nws_cwa": "MRX",
+   "nwr": [
+    {
+     "call": "WXK46",
+     "freq": "162.475",
+     "same": "047025"
+    },
+    {
+     "call": "WNG732",
+     "freq": "162.450",
+     "same": "047025"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.4
+  },
+  "Clay County": {
+   "fips": "47027",
+   "centroid": [
+    36.5457,
+    -85.5457
+   ],
+   "latitude": 36.5,
+   "bbox": [
+    -85.8135,
+    36.4034,
+    -85.2674,
+    36.6264
+   ],
+   "coastal": false,
+   "elevation_ft": 830,
+   "zone": "7a",
+   "jan_low_f": 27,
+   "jul_high_f": 87,
+   "record_low_f": -25,
+   "record_high_f": 108,
+   "precip_in": 53.5,
+   "snow_in": 2,
+   "last_frost": "Apr 12",
+   "first_frost": "Oct 25",
+   "growing_days": 195,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Nashville, TN",
+   "nws_cwa": "OHX",
+   "nwr": [
+    {
+     "call": "WXK61",
+     "freq": "162.400",
+     "same": "047027"
+    },
+    {
+     "call": "WNG631",
+     "freq": "162.525",
+     "same": "047027"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.4
+  },
+  "Cocke County": {
+   "fips": "47029",
+   "centroid": [
+    35.9162,
+    -83.1192
+   ],
+   "latitude": 35.9,
+   "bbox": [
+    -83.3165,
+    35.713,
+    -82.8969,
+    36.1823
+   ],
+   "coastal": false,
+   "elevation_ft": 1900,
+   "zone": "7a",
+   "jan_low_f": 29,
+   "jul_high_f": 86,
+   "record_low_f": -17,
+   "record_high_f": 103,
+   "precip_in": 53.9,
+   "snow_in": 6,
+   "last_frost": "Apr 6",
+   "first_frost": "Nov 1",
+   "growing_days": 210,
+   "ecoregion": "Blue Ridge",
+   "ecoregion_code": "66",
+   "nws_office": "Morristown, TN",
+   "nws_cwa": "MRX",
+   "nwr": [
+    {
+     "call": "WXK47",
+     "freq": "162.550",
+     "same": "047029"
+    },
+    {
+     "call": "WXK46",
+     "freq": "162.475",
+     "same": "047029"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.3
+  },
+  "Coffee County": {
+   "fips": "47031",
+   "centroid": [
+    35.4888,
+    -86.0782
+   ],
+   "latitude": 35.5,
+   "bbox": [
+    -86.2799,
+    35.2888,
+    -85.8697,
+    35.706
+   ],
+   "coastal": false,
+   "elevation_ft": 1060,
+   "zone": "7b",
+   "jan_low_f": 26,
+   "jul_high_f": 86,
+   "record_low_f": -22,
+   "record_high_f": 106,
+   "precip_in": 59.3,
+   "snow_in": 3,
+   "last_frost": "Apr 13",
+   "first_frost": "Oct 24",
+   "growing_days": 192,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Nashville, TN",
+   "nws_cwa": "OHX",
+   "nwr": [
+    {
+     "call": "WXK63",
+     "freq": "162.475",
+     "same": "047031"
+    },
+    {
+     "call": "WNG554",
+     "freq": "162.525",
+     "same": "047031"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.5
+  },
+  "Crockett County": {
+   "fips": "47033",
+   "centroid": [
+    35.8188,
+    -89.1325
+   ],
+   "latitude": 35.8,
+   "bbox": [
+    -89.361,
+    35.6719,
+    -88.8935,
+    35.9999
+   ],
+   "coastal": false,
+   "elevation_ft": 340,
+   "zone": "7b",
+   "jan_low_f": 29,
+   "jul_high_f": 89,
+   "record_low_f": -13,
+   "record_high_f": 109,
+   "precip_in": 53.6,
+   "snow_in": 4,
+   "last_frost": "Mar 28",
+   "first_frost": "Nov 4",
+   "growing_days": 220,
+   "ecoregion": "Mississippi Valley Loess Plains",
+   "ecoregion_code": "74",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "WWH30",
+     "freq": "162.500",
+     "same": "047033"
+    },
+    {
+     "call": "WXK60",
+     "freq": "162.550",
+     "same": "047033"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 5.7
+  },
+  "Cumberland County": {
+   "fips": "47035",
+   "centroid": [
+    35.9524,
+    -84.9948
+   ],
+   "latitude": 36.0,
+   "bbox": [
+    -85.2731,
+    35.7464,
+    -84.6807,
+    36.1704
+   ],
+   "coastal": false,
+   "elevation_ft": 1840,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 83,
+   "record_low_f": -21,
+   "record_high_f": 102,
+   "precip_in": 57.5,
+   "snow_in": 14,
+   "last_frost": "Apr 16",
+   "first_frost": "Oct 23",
+   "growing_days": 189,
+   "ecoregion": "Southwestern Appalachians",
+   "ecoregion_code": "68",
+   "nws_office": "Nashville, TN",
+   "nws_cwa": "OHX",
+   "nwr": [
+    {
+     "call": "WXK61",
+     "freq": "162.400",
+     "same": "047035"
+    },
+    {
+     "call": "WNG629",
+     "freq": "162.450",
+     "same": "047035"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.4
+  },
+  "Davidson County": {
+   "fips": "47037",
+   "centroid": [
+    36.1691,
+    -86.7848
+   ],
+   "latitude": 36.2,
+   "bbox": [
+    -87.0549,
+    35.9678,
+    -86.5154,
+    36.4047
+   ],
+   "coastal": false,
+   "elevation_ft": 420,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 89,
+   "record_low_f": -17,
+   "record_high_f": 109,
+   "precip_in": 53.2,
+   "snow_in": 3,
+   "last_frost": "Apr 1",
+   "first_frost": "Oct 31",
+   "growing_days": 213,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Nashville, TN",
+   "nws_cwa": "OHX",
+   "nwr": [
+    {
+     "call": "KIG79",
+     "freq": "162.550",
+     "same": "047037"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.5
+  },
+  "Decatur County": {
+   "fips": "47039",
+   "centroid": [
+    35.6031,
+    -88.1103
+   ],
+   "latitude": 35.6,
+   "bbox": [
+    -88.248,
+    35.3804,
+    -87.9711,
+    35.8497
+   ],
+   "coastal": false,
+   "elevation_ft": 450,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 91,
+   "record_low_f": -18,
+   "record_high_f": 105,
+   "precip_in": 57.1,
+   "snow_in": 2,
+   "last_frost": "Apr 5",
+   "first_frost": "Oct 29",
+   "growing_days": 208,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "WZ2506",
+     "freq": "162.500",
+     "same": "047039"
+    },
+    {
+     "call": "KWN52",
+     "freq": "162.525",
+     "same": "047039"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.7
+  },
+  "DeKalb County": {
+   "fips": "47041",
+   "centroid": [
+    35.9822,
+    -85.8336
+   ],
+   "latitude": 36.0,
+   "bbox": [
+    -86.0626,
+    35.8258,
+    -85.6313,
+    36.1305
+   ],
+   "coastal": false,
+   "elevation_ft": 950,
+   "zone": "7b",
+   "jan_low_f": 26,
+   "jul_high_f": 88,
+   "record_low_f": -24,
+   "record_high_f": 105,
+   "precip_in": 57.0,
+   "snow_in": 3,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 22",
+   "growing_days": 187,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Nashville, TN",
+   "nws_cwa": "OHX",
+   "nwr": [
+    {
+     "call": "WXK61",
+     "freq": "162.400",
+     "same": "047041"
+    },
+    {
+     "call": "WXN74",
+     "freq": "162.500",
+     "same": "047041"
+    },
+    {
+     "call": "WNG629",
+     "freq": "162.450",
+     "same": "047041"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.4
+  },
+  "Dickson County": {
+   "fips": "47043",
+   "centroid": [
+    36.1455,
+    -87.3642
+   ],
+   "latitude": 36.1,
+   "bbox": [
+    -87.568,
+    35.9592,
+    -87.1397,
+    36.3347
+   ],
+   "coastal": false,
+   "elevation_ft": 730,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 87,
+   "record_low_f": -23,
+   "record_high_f": 110,
+   "precip_in": 54.1,
+   "snow_in": 2,
+   "last_frost": "Apr 13",
+   "first_frost": "Oct 25",
+   "growing_days": 195,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Nashville, TN",
+   "nws_cwa": "OHX",
+   "nwr": [
+    {
+     "call": "WWH37",
+     "freq": "162.500",
+     "same": "047043"
+    },
+    {
+     "call": "KIG79",
+     "freq": "162.550",
+     "same": "047043"
+    },
+    {
+     "call": "WXK62",
+     "freq": "162.400",
+     "same": "047043"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.6
+  },
+  "Dyer County": {
+   "fips": "47045",
+   "centroid": [
+    36.0542,
+    -89.3983
+   ],
+   "latitude": 36.1,
+   "bbox": [
+    -89.7329,
+    35.8805,
+    -89.1546,
+    36.2126
+   ],
+   "coastal": false,
+   "elevation_ft": 350,
+   "zone": "7b",
+   "jan_low_f": 29,
+   "jul_high_f": 90,
+   "record_low_f": -12,
+   "record_high_f": 105,
+   "precip_in": 53.2,
+   "snow_in": 4,
+   "last_frost": "Mar 28",
+   "first_frost": "Nov 2",
+   "growing_days": 221,
+   "ecoregion": "Mississippi Valley Loess Plains",
+   "ecoregion_code": "74",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "WWH30",
+     "freq": "162.500",
+     "same": "047045"
+    },
+    {
+     "call": "WXK60",
+     "freq": "162.550",
+     "same": "047045"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.7
+  },
+  "Fayette County": {
+   "fips": "47047",
+   "centroid": [
+    35.197,
+    -89.4138
+   ],
+   "latitude": 35.2,
+   "bbox": [
+    -89.6443,
+    34.9938,
+    -89.1839,
+    35.4045
+   ],
+   "coastal": false,
+   "elevation_ft": 440,
+   "zone": "8a",
+   "jan_low_f": 30,
+   "jul_high_f": 90,
+   "record_low_f": -14,
+   "record_high_f": 110,
+   "precip_in": 54.9,
+   "snow_in": 2,
+   "last_frost": "Mar 29",
+   "first_frost": "Nov 3",
+   "growing_days": 219,
+   "ecoregion": "Mississippi Valley Loess Plains",
+   "ecoregion_code": "74",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "WXK49",
+     "freq": "162.475",
+     "same": "047047"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 5.7
+  },
+  "Fentress County": {
+   "fips": "47049",
+   "centroid": [
+    36.3699,
+    -84.9378
+   ],
+   "latitude": 36.4,
+   "bbox": [
+    -85.1222,
+    36.1359,
+    -84.6608,
+    36.5813
+   ],
+   "coastal": false,
+   "elevation_ft": 1650,
+   "zone": "7a",
+   "jan_low_f": 27,
+   "jul_high_f": 82,
+   "record_low_f": -27,
+   "record_high_f": 104,
+   "precip_in": 59.8,
+   "snow_in": 13,
+   "last_frost": "Apr 17",
+   "first_frost": "Oct 23",
+   "growing_days": 188,
+   "ecoregion": "Southwestern Appalachians",
+   "ecoregion_code": "68",
+   "nws_office": "Nashville, TN",
+   "nws_cwa": "OHX",
+   "nwr": [
+    {
+     "call": "WXK61",
+     "freq": "162.400",
+     "same": "047049"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.4
+  },
+  "Franklin County": {
+   "fips": "47051",
+   "centroid": [
+    35.1559,
+    -86.0992
+   ],
+   "latitude": 35.2,
+   "bbox": [
+    -86.3329,
+    34.9884,
+    -85.8633,
+    35.3626
+   ],
+   "coastal": false,
+   "elevation_ft": 1030,
+   "zone": "7b",
+   "jan_low_f": 30,
+   "jul_high_f": 87,
+   "record_low_f": -10,
+   "record_high_f": 105,
+   "precip_in": 57.7,
+   "snow_in": 4,
+   "last_frost": "Apr 6",
+   "first_frost": "Oct 29",
+   "growing_days": 204,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Huntsville, AL",
+   "nws_cwa": "HUN",
+   "nwr": [
+    {
+     "call": "WXK63",
+     "freq": "162.475",
+     "same": "047051"
+    },
+    {
+     "call": "WNG554",
+     "freq": "162.525",
+     "same": "047051"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.5
+  },
+  "Gibson County": {
+   "fips": "47053",
+   "centroid": [
+    35.9916,
+    -88.9338
+   ],
+   "latitude": 36.0,
+   "bbox": [
+    -89.205,
+    35.7911,
+    -88.6928,
+    36.2233
+   ],
+   "coastal": false,
+   "elevation_ft": 310,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 90,
+   "record_low_f": -23,
+   "record_high_f": 110,
+   "precip_in": 56.2,
+   "snow_in": 3,
+   "last_frost": "Apr 4",
+   "first_frost": "Oct 28",
+   "growing_days": 206,
+   "ecoregion": "Mississippi Valley Loess Plains",
+   "ecoregion_code": "74",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "WWH30",
+     "freq": "162.500",
+     "same": "047053"
+    },
+    {
+     "call": "WXK60",
+     "freq": "162.550",
+     "same": "047053"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.7
+  },
+  "Giles County": {
+   "fips": "47055",
+   "centroid": [
+    35.2027,
+    -87.0353
+   ],
+   "latitude": 35.2,
+   "bbox": [
+    -87.2324,
+    34.9918,
+    -86.8278,
+    35.4555
+   ],
+   "coastal": false,
+   "elevation_ft": 740,
+   "zone": "7b",
+   "jan_low_f": 25,
+   "jul_high_f": 88,
+   "record_low_f": -16,
+   "record_high_f": 106,
+   "precip_in": 58.6,
+   "snow_in": 2,
+   "last_frost": "Apr 14",
+   "first_frost": "Oct 24",
+   "growing_days": 193,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Nashville, TN",
+   "nws_cwa": "OHX",
+   "nwr": [
+    {
+     "call": "KIH20",
+     "freq": "162.400",
+     "same": "047055"
+    },
+    {
+     "call": "WWF84",
+     "freq": "162.425",
+     "same": "047055"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.6
+  },
+  "Grainger County": {
+   "fips": "47057",
+   "centroid": [
+    36.2775,
+    -83.5095
+   ],
+   "latitude": 36.3,
+   "bbox": [
+    -83.7323,
+    36.0807,
+    -83.2565,
+    36.4203
+   ],
+   "coastal": false,
+   "elevation_ft": 1070,
+   "zone": "7b",
+   "jan_low_f": 24,
+   "jul_high_f": 87,
+   "record_low_f": -8,
+   "record_high_f": 102,
+   "precip_in": 48.5,
+   "snow_in": 3,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 17",
+   "growing_days": 175,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Morristown, TN",
+   "nws_cwa": "MRX",
+   "nwr": [
+    {
+     "call": "WXK46",
+     "freq": "162.475",
+     "same": "047057"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.4
+  },
+  "Greene County": {
+   "fips": "47059",
+   "centroid": [
+    36.1795,
+    -82.8475
+   ],
+   "latitude": 36.2,
+   "bbox": [
+    -83.1724,
+    35.9227,
+    -82.5774,
+    36.418
+   ],
+   "coastal": false,
+   "elevation_ft": 1410,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 87,
+   "record_low_f": -29,
+   "record_high_f": 104,
+   "precip_in": 46.4,
+   "snow_in": 8,
+   "last_frost": "Apr 20",
+   "first_frost": "Oct 22",
+   "growing_days": 185,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Morristown, TN",
+   "nws_cwa": "MRX",
+   "nwr": [
+    {
+     "call": "WXK47",
+     "freq": "162.550",
+     "same": "047059"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.3
+  },
+  "Grundy County": {
+   "fips": "47061",
+   "centroid": [
+    35.3934,
+    -85.7104
+   ],
+   "latitude": 35.4,
+   "bbox": [
+    -85.9136,
+    35.2153,
+    -85.4859,
+    35.5313
+   ],
+   "coastal": false,
+   "elevation_ft": 1840,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 83,
+   "record_low_f": -20,
+   "record_high_f": 101,
+   "precip_in": 63.2,
+   "snow_in": 5,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 20",
+   "growing_days": 182,
+   "ecoregion": "Southwestern Appalachians",
+   "ecoregion_code": "68",
+   "nws_office": "Nashville, TN",
+   "nws_cwa": "OHX",
+   "nwr": [
+    {
+     "call": "WXK63",
+     "freq": "162.475",
+     "same": "047061"
+    },
+    {
+     "call": "WNG629",
+     "freq": "162.450",
+     "same": "047061"
+    },
+    {
+     "call": "WNG554",
+     "freq": "162.525",
+     "same": "047061"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.4
+  },
+  "Hamblen County": {
+   "fips": "47063",
+   "centroid": [
+    36.2184,
+    -83.2661
+   ],
+   "latitude": 36.2,
+   "bbox": [
+    -83.4684,
+    36.0816,
+    -83.0817,
+    36.3453
+   ],
+   "coastal": false,
+   "elevation_ft": 1360,
+   "zone": "7b",
+   "jan_low_f": 27,
+   "jul_high_f": 86,
+   "record_low_f": -19,
+   "record_high_f": 103,
+   "precip_in": 48.1,
+   "snow_in": 9,
+   "last_frost": "Apr 10",
+   "first_frost": "Oct 28",
+   "growing_days": 201,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Morristown, TN",
+   "nws_cwa": "MRX",
+   "nwr": [
+    {
+     "call": "WXK46",
+     "freq": "162.475",
+     "same": "047063"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.4
+  },
+  "Hamilton County": {
+   "fips": "47065",
+   "centroid": [
+    35.1635,
+    -85.2018
+   ],
+   "latitude": 35.2,
+   "bbox": [
+    -85.4748,
+    34.9829,
+    -84.9426,
+    35.4592
+   ],
+   "coastal": false,
+   "elevation_ft": 670,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 90,
+   "record_low_f": -13,
+   "record_high_f": 107,
+   "precip_in": 55.0,
+   "snow_in": 4,
+   "last_frost": "Mar 24",
+   "first_frost": "Nov 9",
+   "growing_days": 230,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Morristown, TN",
+   "nws_cwa": "MRX",
+   "nwr": [
+    {
+     "call": "WXK48",
+     "freq": "162.550",
+     "same": "047065"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.4
+  },
+  "Hancock County": {
+   "fips": "47067",
+   "centroid": [
+    36.5214,
+    -83.2275
+   ],
+   "latitude": 36.5,
+   "bbox": [
+    -83.4721,
+    36.3885,
+    -82.8353,
+    36.5982
+   ],
+   "coastal": false,
+   "elevation_ft": 1570,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 86,
+   "record_low_f": -23,
+   "record_high_f": 104,
+   "precip_in": 48.8,
+   "snow_in": 6,
+   "last_frost": "Apr 14",
+   "first_frost": "Oct 24",
+   "growing_days": 192,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Morristown, TN",
+   "nws_cwa": "MRX",
+   "nwr": [
+    {
+     "call": "WXK47",
+     "freq": "162.550",
+     "same": "047067"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.4
+  },
+  "Hardeman County": {
+   "fips": "47069",
+   "centroid": [
+    35.2188,
+    -88.9887
+   ],
+   "latitude": 35.2,
+   "bbox": [
+    -89.1982,
+    34.9939,
+    -88.7819,
+    35.4328
+   ],
+   "coastal": false,
+   "elevation_ft": 400,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 90,
+   "record_low_f": -18,
+   "record_high_f": 109,
+   "precip_in": 56.1,
+   "snow_in": 2,
+   "last_frost": "Apr 3",
+   "first_frost": "Oct 30",
+   "growing_days": 210,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "KIH53",
+     "freq": "162.400",
+     "same": "047069"
+    },
+    {
+     "call": "WXK60",
+     "freq": "162.550",
+     "same": "047069"
+    },
+    {
+     "call": "WXK49",
+     "freq": "162.475",
+     "same": "047069"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.7
+  },
+  "Hardin County": {
+   "fips": "47071",
+   "centroid": [
+    35.2019,
+    -88.1857
+   ],
+   "latitude": 35.2,
+   "bbox": [
+    -88.3809,
+    34.9954,
+    -87.9817,
+    35.4208
+   ],
+   "coastal": false,
+   "elevation_ft": 460,
+   "zone": "7b",
+   "jan_low_f": 30,
+   "jul_high_f": 91,
+   "record_low_f": -13,
+   "record_high_f": 112,
+   "precip_in": 59.2,
+   "snow_in": 1,
+   "last_frost": "Mar 31",
+   "first_frost": "Nov 1",
+   "growing_days": 212,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "KIH53",
+     "freq": "162.400",
+     "same": "047071"
+    },
+    {
+     "call": "WZ2506",
+     "freq": "162.500",
+     "same": "047071"
+    },
+    {
+     "call": "WXK60",
+     "freq": "162.550",
+     "same": "047071"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.7
+  },
+  "Hawkins County": {
+   "fips": "47073",
+   "centroid": [
+    36.4521,
+    -82.9315
+   ],
+   "latitude": 36.5,
+   "bbox": [
+    -83.2887,
+    36.2424,
+    -82.6002,
+    36.594
+   ],
+   "coastal": false,
+   "elevation_ft": 1480,
+   "zone": "7b",
+   "jan_low_f": 26,
+   "jul_high_f": 86,
+   "record_low_f": -23,
+   "record_high_f": 104,
+   "precip_in": 48.8,
+   "snow_in": 6,
+   "last_frost": "Apr 14",
+   "first_frost": "Oct 24",
+   "growing_days": 192,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Morristown, TN",
+   "nws_cwa": "MRX",
+   "nwr": [
+    {
+     "call": "WXK47",
+     "freq": "162.550",
+     "same": "047073"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.3
+  },
+  "Haywood County": {
+   "fips": "47075",
+   "centroid": [
+    35.5867,
+    -89.2827
+   ],
+   "latitude": 35.6,
+   "bbox": [
+    -89.5016,
+    35.3972,
+    -89.0687,
+    35.8216
+   ],
+   "coastal": false,
+   "elevation_ft": 360,
+   "zone": "8a",
+   "jan_low_f": 30,
+   "jul_high_f": 91,
+   "record_low_f": -13,
+   "record_high_f": 109,
+   "precip_in": 56.1,
+   "snow_in": 2,
+   "last_frost": "Mar 29",
+   "first_frost": "Nov 5",
+   "growing_days": 221,
+   "ecoregion": "Mississippi Valley Loess Plains",
+   "ecoregion_code": "74",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "WWH30",
+     "freq": "162.500",
+     "same": "047075"
+    },
+    {
+     "call": "WXK60",
+     "freq": "162.550",
+     "same": "047075"
+    },
+    {
+     "call": "WXK49",
+     "freq": "162.475",
+     "same": "047075"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 5.7
+  },
+  "Henderson County": {
+   "fips": "47077",
+   "centroid": [
+    35.654,
+    -88.3877
+   ],
+   "latitude": 35.7,
+   "bbox": [
+    -88.6131,
+    35.4165,
+    -88.1792,
+    35.8247
+   ],
+   "coastal": false,
+   "elevation_ft": 470,
+   "zone": "7b",
+   "jan_low_f": 27,
+   "jul_high_f": 89,
+   "record_low_f": -17,
+   "record_high_f": 106,
+   "precip_in": 54.8,
+   "snow_in": 2,
+   "last_frost": "Apr 5",
+   "first_frost": "Oct 30",
+   "growing_days": 208,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "WXK60",
+     "freq": "162.550",
+     "same": "047077"
+    },
+    {
+     "call": "KWN52",
+     "freq": "162.525",
+     "same": "047077"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.7
+  },
+  "Henry County": {
+   "fips": "47079",
+   "centroid": [
+    36.3253,
+    -88.3003
+   ],
+   "latitude": 36.3,
+   "bbox": [
+    -88.5302,
+    36.1207,
+    -87.9907,
+    36.5014
+   ],
+   "coastal": false,
+   "elevation_ft": 440,
+   "zone": "7b",
+   "jan_low_f": 27,
+   "jul_high_f": 88,
+   "record_low_f": -22,
+   "record_high_f": 111,
+   "precip_in": 55.0,
+   "snow_in": 5,
+   "last_frost": "Apr 7",
+   "first_frost": "Oct 31",
+   "growing_days": 206,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "KIH46",
+     "freq": "162.475",
+     "same": "047079"
+    },
+    {
+     "call": "KHA46",
+     "freq": "162.450",
+     "same": "047079"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.6
+  },
+  "Hickman County": {
+   "fips": "47081",
+   "centroid": [
+    35.8023,
+    -87.4671
+   ],
+   "latitude": 35.8,
+   "bbox": [
+    -87.7431,
+    35.6086,
+    -87.2014,
+    35.995
+   ],
+   "coastal": false,
+   "elevation_ft": 630,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 90,
+   "record_low_f": -26,
+   "record_high_f": 103,
+   "precip_in": 53.3,
+   "snow_in": 2,
+   "last_frost": "Apr 11",
+   "first_frost": "Oct 24",
+   "growing_days": 196,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Nashville, TN",
+   "nws_cwa": "OHX",
+   "nwr": [
+    {
+     "call": "KWN53",
+     "freq": "162.450",
+     "same": "047081"
+    },
+    {
+     "call": "KWN52",
+     "freq": "162.525",
+     "same": "047081"
+    },
+    {
+     "call": "WXK62",
+     "freq": "162.400",
+     "same": "047081"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.6
+  },
+  "Houston County": {
+   "fips": "47083",
+   "centroid": [
+    36.2858,
+    -87.7056
+   ],
+   "latitude": 36.3,
+   "bbox": [
+    -87.9808,
+    36.1782,
+    -87.5135,
+    36.3682
+   ],
+   "coastal": false,
+   "elevation_ft": 640,
+   "zone": "7b",
+   "jan_low_f": 26,
+   "jul_high_f": 89,
+   "record_low_f": -24,
+   "record_high_f": 110,
+   "precip_in": 54.8,
+   "snow_in": 4,
+   "last_frost": "Apr 7",
+   "first_frost": "Nov 3",
+   "growing_days": 211,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Nashville, TN",
+   "nws_cwa": "OHX",
+   "nwr": [
+    {
+     "call": "KHA46",
+     "freq": "162.450",
+     "same": "047083"
+    },
+    {
+     "call": "WXK62",
+     "freq": "162.400",
+     "same": "047083"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.6
+  },
+  "Humphreys County": {
+   "fips": "47085",
+   "centroid": [
+    36.0408,
+    -87.7905
+   ],
+   "latitude": 36.0,
+   "bbox": [
+    -88.0226,
+    35.8039,
+    -87.5303,
+    36.2447
+   ],
+   "coastal": false,
+   "elevation_ft": 590,
+   "zone": "7b",
+   "jan_low_f": 27,
+   "jul_high_f": 88,
+   "record_low_f": -5,
+   "record_high_f": 106,
+   "precip_in": 51.6,
+   "snow_in": 3,
+   "last_frost": "Apr 2",
+   "first_frost": "Nov 4",
+   "growing_days": 218,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Nashville, TN",
+   "nws_cwa": "OHX",
+   "nwr": [
+    {
+     "call": "KWN52",
+     "freq": "162.525",
+     "same": "047085"
+    },
+    {
+     "call": "KHA46",
+     "freq": "162.450",
+     "same": "047085"
+    },
+    {
+     "call": "WXK62",
+     "freq": "162.400",
+     "same": "047085"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.6
+  },
+  "Jackson County": {
+   "fips": "47087",
+   "centroid": [
+    36.3543,
+    -85.6741
+   ],
+   "latitude": 36.4,
+   "bbox": [
+    -85.8464,
+    36.2135,
+    -85.4913,
+    36.5224
+   ],
+   "coastal": false,
+   "elevation_ft": 760,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 90,
+   "record_low_f": -17,
+   "record_high_f": 111,
+   "precip_in": 56.5,
+   "snow_in": 5,
+   "last_frost": "Apr 20",
+   "first_frost": "Oct 22",
+   "growing_days": 183,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Nashville, TN",
+   "nws_cwa": "OHX",
+   "nwr": [
+    {
+     "call": "WXK61",
+     "freq": "162.400",
+     "same": "047087"
+    },
+    {
+     "call": "WXN74",
+     "freq": "162.500",
+     "same": "047087"
+    },
+    {
+     "call": "WNG631",
+     "freq": "162.525",
+     "same": "047087"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.4
+  },
+  "Jefferson County": {
+   "fips": "47089",
+   "centroid": [
+    36.0485,
+    -83.4412
+   ],
+   "latitude": 36.0,
+   "bbox": [
+    -83.7102,
+    35.8955,
+    -83.2364,
+    36.1917
+   ],
+   "coastal": false,
+   "elevation_ft": 1360,
+   "zone": "7b",
+   "jan_low_f": 29,
+   "jul_high_f": 86,
+   "record_low_f": -8,
+   "record_high_f": 102,
+   "precip_in": 47.4,
+   "snow_in": 10,
+   "last_frost": "Mar 31",
+   "first_frost": "Nov 4",
+   "growing_days": 217,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Morristown, TN",
+   "nws_cwa": "MRX",
+   "nwr": [
+    {
+     "call": "WXK46",
+     "freq": "162.475",
+     "same": "047089"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.4
+  },
+  "Johnson County": {
+   "fips": "47091",
+   "centroid": [
+    36.4532,
+    -81.8612
+   ],
+   "latitude": 36.5,
+   "bbox": [
+    -82.0581,
+    36.2619,
+    -81.6476,
+    36.614
+   ],
+   "coastal": false,
+   "elevation_ft": 2640,
+   "zone": "7a",
+   "jan_low_f": 23,
+   "jul_high_f": 82,
+   "record_low_f": -24,
+   "record_high_f": 97,
+   "precip_in": 47.2,
+   "snow_in": 12,
+   "last_frost": "Apr 27",
+   "first_frost": "Oct 14",
+   "growing_days": 170,
+   "ecoregion": "Blue Ridge",
+   "ecoregion_code": "66",
+   "nws_office": "Morristown, TN",
+   "nws_cwa": "MRX",
+   "nwr": [
+    {
+     "call": "WXK47",
+     "freq": "162.550",
+     "same": "047091"
+    },
+    {
+     "call": "WNG588",
+     "freq": "162.500",
+     "same": "047091"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.3
+  },
+  "Knox County": {
+   "fips": "47093",
+   "centroid": [
+    35.9927,
+    -83.9377
+   ],
+   "latitude": 36.0,
+   "bbox": [
+    -84.2734,
+    35.7938,
+    -83.6512,
+    36.1864
+   ],
+   "coastal": false,
+   "elevation_ft": 960,
+   "zone": "7b",
+   "jan_low_f": 26,
+   "jul_high_f": 88,
+   "record_low_f": -20,
+   "record_high_f": 105,
+   "precip_in": 55.8,
+   "snow_in": 5,
+   "last_frost": "Apr 11",
+   "first_frost": "Oct 28",
+   "growing_days": 198,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Morristown, TN",
+   "nws_cwa": "MRX",
+   "nwr": [
+    {
+     "call": "WXK46",
+     "freq": "162.475",
+     "same": "047093"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.3
+  },
+  "Lake County": {
+   "fips": "47095",
+   "centroid": [
+    36.3339,
+    -89.4855
+   ],
+   "latitude": 36.3,
+   "bbox": [
+    -89.7053,
+    36.1853,
+    -89.3403,
+    36.503
+   ],
+   "coastal": false,
+   "elevation_ft": 290,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 88,
+   "record_low_f": -15,
+   "record_high_f": 106,
+   "precip_in": 48.8,
+   "snow_in": 7,
+   "last_frost": "Mar 25",
+   "first_frost": "Nov 7",
+   "growing_days": 227,
+   "ecoregion": "Mississippi Alluvial Plain",
+   "ecoregion_code": "73",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "WWH30",
+     "freq": "162.500",
+     "same": "047095"
+    },
+    {
+     "call": "WWG47",
+     "freq": "162.525",
+     "same": "047095"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.7
+  },
+  "Lauderdale County": {
+   "fips": "47097",
+   "centroid": [
+    35.763,
+    -89.6277
+   ],
+   "latitude": 35.8,
+   "bbox": [
+    -89.9588,
+    35.5379,
+    -89.3395,
+    35.9475
+   ],
+   "coastal": false,
+   "elevation_ft": 360,
+   "zone": "8a",
+   "jan_low_f": 29,
+   "jul_high_f": 90,
+   "record_low_f": -10,
+   "record_high_f": 105,
+   "precip_in": 56.8,
+   "snow_in": 2,
+   "last_frost": "Mar 26",
+   "first_frost": "Nov 6",
+   "growing_days": 227,
+   "ecoregion": "Mississippi Valley Loess Plains",
+   "ecoregion_code": "74",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "WWH30",
+     "freq": "162.500",
+     "same": "047097"
+    },
+    {
+     "call": "WXK49",
+     "freq": "162.475",
+     "same": "047097"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 5.7
+  },
+  "Lawrence County": {
+   "fips": "47099",
+   "centroid": [
+    35.2205,
+    -87.3965
+   ],
+   "latitude": 35.2,
+   "bbox": [
+    -87.6115,
+    34.9994,
+    -87.1979,
+    35.4578
+   ],
+   "coastal": false,
+   "elevation_ft": 930,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 88,
+   "record_low_f": -14,
+   "record_high_f": 106,
+   "precip_in": 58.8,
+   "snow_in": 1,
+   "last_frost": "Apr 8",
+   "first_frost": "Oct 31",
+   "growing_days": 204,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Nashville, TN",
+   "nws_cwa": "OHX",
+   "nwr": [
+    {
+     "call": "WWF84",
+     "freq": "162.425",
+     "same": "047099"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.6
+  },
+  "Lewis County": {
+   "fips": "47101",
+   "centroid": [
+    35.5232,
+    -87.497
+   ],
+   "latitude": 35.5,
+   "bbox": [
+    -87.7176,
+    35.3982,
+    -87.2696,
+    35.6596
+   ],
+   "coastal": false,
+   "elevation_ft": 920,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 87,
+   "record_low_f": -23,
+   "record_high_f": 108,
+   "precip_in": 57.1,
+   "snow_in": 1,
+   "last_frost": "Apr 5",
+   "first_frost": "Nov 1",
+   "growing_days": 210,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Nashville, TN",
+   "nws_cwa": "OHX",
+   "nwr": [
+    {
+     "call": "KWN53",
+     "freq": "162.450",
+     "same": "047101"
+    },
+    {
+     "call": "WWF84",
+     "freq": "162.425",
+     "same": "047101"
+    },
+    {
+     "call": "KWN52",
+     "freq": "162.525",
+     "same": "047101"
+    },
+    {
+     "call": "WXK62",
+     "freq": "162.400",
+     "same": "047101"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.6
+  },
+  "Lincoln County": {
+   "fips": "47103",
+   "centroid": [
+    35.1428,
+    -86.5934
+   ],
+   "latitude": 35.1,
+   "bbox": [
+    -86.8368,
+    34.9907,
+    -86.3178,
+    35.3706
+   ],
+   "coastal": false,
+   "elevation_ft": 660,
+   "zone": "7b",
+   "jan_low_f": 30,
+   "jul_high_f": 89,
+   "record_low_f": -26,
+   "record_high_f": 107,
+   "precip_in": 59.8,
+   "snow_in": 1,
+   "last_frost": "Apr 7",
+   "first_frost": "Oct 28",
+   "growing_days": 201,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Huntsville, AL",
+   "nws_cwa": "HUN",
+   "nwr": [
+    {
+     "call": "KIH20",
+     "freq": "162.400",
+     "same": "047103"
+    },
+    {
+     "call": "WWF84",
+     "freq": "162.425",
+     "same": "047103"
+    },
+    {
+     "call": "WNG554",
+     "freq": "162.525",
+     "same": "047103"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.5
+  },
+  "Loudon County": {
+   "fips": "47105",
+   "centroid": [
+    35.7351,
+    -84.3141
+   ],
+   "latitude": 35.7,
+   "bbox": [
+    -84.5845,
+    35.6078,
+    -84.1333,
+    35.9027
+   ],
+   "coastal": false,
+   "elevation_ft": 800,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 89,
+   "record_low_f": -14,
+   "record_high_f": 106,
+   "precip_in": 55.2,
+   "snow_in": 4,
+   "last_frost": "Apr 5",
+   "first_frost": "Nov 1",
+   "growing_days": 210,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Morristown, TN",
+   "nws_cwa": "MRX",
+   "nwr": [
+    {
+     "call": "WXK46",
+     "freq": "162.475",
+     "same": "047105"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.4
+  },
+  "McMinn County": {
+   "fips": "47107",
+   "centroid": [
+    35.4245,
+    -84.6199
+   ],
+   "latitude": 35.4,
+   "bbox": [
+    -84.8596,
+    35.2404,
+    -84.4006,
+    35.645
+   ],
+   "coastal": false,
+   "elevation_ft": 880,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 88,
+   "record_low_f": -16,
+   "record_high_f": 105,
+   "precip_in": 60.4,
+   "snow_in": 4,
+   "last_frost": "Apr 6",
+   "first_frost": "Oct 31",
+   "growing_days": 208,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Morristown, TN",
+   "nws_cwa": "MRX",
+   "nwr": [
+    {
+     "call": "WXK48",
+     "freq": "162.550",
+     "same": "047107"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.4
+  },
+  "McNairy County": {
+   "fips": "47109",
+   "centroid": [
+    35.1754,
+    -88.5637
+   ],
+   "latitude": 35.2,
+   "bbox": [
+    -88.7869,
+    34.9951,
+    -88.3626,
+    35.3853
+   ],
+   "coastal": false,
+   "elevation_ft": 520,
+   "zone": "7b",
+   "jan_low_f": 30,
+   "jul_high_f": 90,
+   "record_low_f": -21,
+   "record_high_f": 107,
+   "precip_in": 59.1,
+   "snow_in": 1,
+   "last_frost": "Apr 6",
+   "first_frost": "Oct 30",
+   "growing_days": 206,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "KIH53",
+     "freq": "162.400",
+     "same": "047109"
+    },
+    {
+     "call": "WZ2506",
+     "freq": "162.500",
+     "same": "047109"
+    },
+    {
+     "call": "WXK60",
+     "freq": "162.550",
+     "same": "047109"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.7
+  },
+  "Macon County": {
+   "fips": "47111",
+   "centroid": [
+    36.5378,
+    -86.001
+   ],
+   "latitude": 36.5,
+   "bbox": [
+    -86.2287,
+    36.4124,
+    -85.7881,
+    36.6397
+   ],
+   "coastal": false,
+   "elevation_ft": 960,
+   "zone": "7b",
+   "jan_low_f": 27,
+   "jul_high_f": 88,
+   "record_low_f": -20,
+   "record_high_f": 108,
+   "precip_in": 54.0,
+   "snow_in": 8,
+   "last_frost": "Apr 3",
+   "first_frost": "Nov 1",
+   "growing_days": 213,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Nashville, TN",
+   "nws_cwa": "OHX",
+   "nwr": [
+    {
+     "call": "WNG631",
+     "freq": "162.525",
+     "same": "047111"
+    },
+    {
+     "call": "KIG79",
+     "freq": "162.550",
+     "same": "047111"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.5
+  },
+  "Madison County": {
+   "fips": "47113",
+   "centroid": [
+    35.6061,
+    -88.8334
+   ],
+   "latitude": 35.6,
+   "bbox": [
+    -89.0786,
+    35.4275,
+    -88.6036,
+    35.7982
+   ],
+   "coastal": false,
+   "elevation_ft": 340,
+   "zone": "7b",
+   "jan_low_f": 27,
+   "jul_high_f": 91,
+   "record_low_f": -21,
+   "record_high_f": 110,
+   "precip_in": 56.9,
+   "snow_in": 3,
+   "last_frost": "Apr 2",
+   "first_frost": "Oct 29",
+   "growing_days": 207,
+   "ecoregion": "Mississippi Valley Loess Plains",
+   "ecoregion_code": "74",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "WXK60",
+     "freq": "162.550",
+     "same": "047113"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.7
+  },
+  "Marion County": {
+   "fips": "47115",
+   "centroid": [
+    35.1276,
+    -85.6074
+   ],
+   "latitude": 35.1,
+   "bbox": [
+    -85.873,
+    34.9831,
+    -85.3631,
+    35.319
+   ],
+   "coastal": false,
+   "elevation_ft": 1710,
+   "zone": "7b",
+   "jan_low_f": 26,
+   "jul_high_f": 83,
+   "record_low_f": -20,
+   "record_high_f": 101,
+   "precip_in": 67.0,
+   "snow_in": 5,
+   "last_frost": "Apr 10",
+   "first_frost": "Oct 28",
+   "growing_days": 201,
+   "ecoregion": "Southwestern Appalachians",
+   "ecoregion_code": "68",
+   "nws_office": "Morristown, TN",
+   "nws_cwa": "MRX",
+   "nwr": [
+    {
+     "call": "WXK48",
+     "freq": "162.550",
+     "same": "047115"
+    },
+    {
+     "call": "WNG629",
+     "freq": "162.450",
+     "same": "047115"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.4
+  },
+  "Marshall County": {
+   "fips": "47117",
+   "centroid": [
+    35.4683,
+    -86.7659
+   ],
+   "latitude": 35.5,
+   "bbox": [
+    -86.9607,
+    35.2529,
+    -86.5992,
+    35.7102
+   ],
+   "coastal": false,
+   "elevation_ft": 750,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 91,
+   "record_low_f": -20,
+   "record_high_f": 112,
+   "precip_in": 56.1,
+   "snow_in": 1,
+   "last_frost": "Apr 14",
+   "first_frost": "Oct 22",
+   "growing_days": 192,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Nashville, TN",
+   "nws_cwa": "OHX",
+   "nwr": [
+    {
+     "call": "WWF84",
+     "freq": "162.425",
+     "same": "047117"
+    },
+    {
+     "call": "WXK63",
+     "freq": "162.475",
+     "same": "047117"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.5
+  },
+  "Maury County": {
+   "fips": "47119",
+   "centroid": [
+    35.6157,
+    -87.0778
+   ],
+   "latitude": 35.6,
+   "bbox": [
+    -87.3543,
+    35.4092,
+    -86.7836,
+    35.8505
+   ],
+   "coastal": false,
+   "elevation_ft": 640,
+   "zone": "7b",
+   "jan_low_f": 27,
+   "jul_high_f": 89,
+   "record_low_f": -20,
+   "record_high_f": 109,
+   "precip_in": 56.8,
+   "snow_in": 1,
+   "last_frost": "Apr 10",
+   "first_frost": "Oct 27",
+   "growing_days": 199,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Nashville, TN",
+   "nws_cwa": "OHX",
+   "nwr": [
+    {
+     "call": "KWN53",
+     "freq": "162.450",
+     "same": "047119"
+    },
+    {
+     "call": "WWF84",
+     "freq": "162.425",
+     "same": "047119"
+    },
+    {
+     "call": "KIG79",
+     "freq": "162.550",
+     "same": "047119"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.6
+  },
+  "Meigs County": {
+   "fips": "47121",
+   "centroid": [
+    35.5122,
+    -84.8161
+   ],
+   "latitude": 35.5,
+   "bbox": [
+    -85.0311,
+    35.2876,
+    -84.619,
+    35.752
+   ],
+   "coastal": false,
+   "elevation_ft": 870,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 88,
+   "record_low_f": -15,
+   "record_high_f": 107,
+   "precip_in": 58.7,
+   "snow_in": 2,
+   "last_frost": "Apr 4",
+   "first_frost": "Oct 31",
+   "growing_days": 208,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Morristown, TN",
+   "nws_cwa": "MRX",
+   "nwr": [
+    {
+     "call": "WXK48",
+     "freq": "162.550",
+     "same": "047121"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.4
+  },
+  "Monroe County": {
+   "fips": "47123",
+   "centroid": [
+    35.4478,
+    -84.2497
+   ],
+   "latitude": 35.4,
+   "bbox": [
+    -84.5259,
+    35.2043,
+    -83.939,
+    35.6722
+   ],
+   "coastal": false,
+   "elevation_ft": 1140,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 90,
+   "record_low_f": -15,
+   "record_high_f": 105,
+   "precip_in": 55.2,
+   "snow_in": 3,
+   "last_frost": "Apr 13",
+   "first_frost": "Oct 24",
+   "growing_days": 193,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Morristown, TN",
+   "nws_cwa": "MRX",
+   "nwr": [
+    {
+     "call": "WXK48",
+     "freq": "162.550",
+     "same": "047123"
+    },
+    {
+     "call": "WXK46",
+     "freq": "162.475",
+     "same": "047123"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.4
+  },
+  "Montgomery County": {
+   "fips": "47125",
+   "centroid": [
+    36.5004,
+    -87.3809
+   ],
+   "latitude": 36.5,
+   "bbox": [
+    -87.6412,
+    36.3125,
+    -87.1132,
+    36.6424
+   ],
+   "coastal": false,
+   "elevation_ft": 430,
+   "zone": "7b",
+   "jan_low_f": 27,
+   "jul_high_f": 89,
+   "record_low_f": -20,
+   "record_high_f": 112,
+   "precip_in": 53.2,
+   "snow_in": 0,
+   "last_frost": "Apr 10",
+   "first_frost": "Oct 30",
+   "growing_days": 203,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Nashville, TN",
+   "nws_cwa": "OHX",
+   "nwr": [
+    {
+     "call": "WWH37",
+     "freq": "162.500",
+     "same": "047125"
+    },
+    {
+     "call": "KIG79",
+     "freq": "162.550",
+     "same": "047125"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.6
+  },
+  "Moore County": {
+   "fips": "47127",
+   "centroid": [
+    35.2889,
+    -86.3587
+   ],
+   "latitude": 35.3,
+   "bbox": [
+    -86.5385,
+    35.1227,
+    -86.2443,
+    35.4122
+   ],
+   "coastal": false,
+   "elevation_ft": 1000,
+   "zone": "7b",
+   "jan_low_f": 27,
+   "jul_high_f": 89,
+   "record_low_f": -22,
+   "record_high_f": 106,
+   "precip_in": 62.2,
+   "snow_in": 2,
+   "last_frost": "Apr 15",
+   "first_frost": "Oct 25",
+   "growing_days": 192,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Huntsville, AL",
+   "nws_cwa": "HUN",
+   "nwr": [
+    {
+     "call": "WXK63",
+     "freq": "162.475",
+     "same": "047127"
+    },
+    {
+     "call": "WNG554",
+     "freq": "162.525",
+     "same": "047127"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.5
+  },
+  "Morgan County": {
+   "fips": "47129",
+   "centroid": [
+    36.1387,
+    -84.6393
+   ],
+   "latitude": 36.1,
+   "bbox": [
+    -84.9139,
+    35.9081,
+    -84.343,
+    36.3761
+   ],
+   "coastal": false,
+   "elevation_ft": 1270,
+   "zone": "7b",
+   "jan_low_f": 26,
+   "jul_high_f": 86,
+   "record_low_f": -27,
+   "record_high_f": 104,
+   "precip_in": 56.4,
+   "snow_in": 5,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 17",
+   "growing_days": 177,
+   "ecoregion": "Southwestern Appalachians",
+   "ecoregion_code": "68",
+   "nws_office": "Morristown, TN",
+   "nws_cwa": "MRX",
+   "nwr": [
+    {
+     "call": "WXK46",
+     "freq": "162.475",
+     "same": "047129"
+    },
+    {
+     "call": "WNG732",
+     "freq": "162.450",
+     "same": "047129"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.4
+  },
+  "Obion County": {
+   "fips": "47131",
+   "centroid": [
+    36.3619,
+    -89.1481
+   ],
+   "latitude": 36.4,
+   "bbox": [
+    -89.4857,
+    36.2017,
+    -88.8143,
+    36.5071
+   ],
+   "coastal": false,
+   "elevation_ft": 430,
+   "zone": "7b",
+   "jan_low_f": 27,
+   "jul_high_f": 88,
+   "record_low_f": -22,
+   "record_high_f": 111,
+   "precip_in": 53.8,
+   "snow_in": 6,
+   "last_frost": "Apr 3",
+   "first_frost": "Oct 29",
+   "growing_days": 208,
+   "ecoregion": "Mississippi Valley Loess Plains",
+   "ecoregion_code": "74",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "WWH30",
+     "freq": "162.500",
+     "same": "047131"
+    },
+    {
+     "call": "KIH46",
+     "freq": "162.475",
+     "same": "047131"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.7
+  },
+  "Overton County": {
+   "fips": "47133",
+   "centroid": [
+    36.3449,
+    -85.2831
+   ],
+   "latitude": 36.3,
+   "bbox": [
+    -85.4976,
+    36.1446,
+    -85.0831,
+    36.5403
+   ],
+   "coastal": false,
+   "elevation_ft": 1060,
+   "zone": "7a",
+   "jan_low_f": 27,
+   "jul_high_f": 87,
+   "record_low_f": -25,
+   "record_high_f": 108,
+   "precip_in": 53.5,
+   "snow_in": 2,
+   "last_frost": "Apr 12",
+   "first_frost": "Oct 25",
+   "growing_days": 195,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Nashville, TN",
+   "nws_cwa": "OHX",
+   "nwr": [
+    {
+     "call": "WXK61",
+     "freq": "162.400",
+     "same": "047133"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.4
+  },
+  "Perry County": {
+   "fips": "47135",
+   "centroid": [
+    35.6638,
+    -87.8693
+   ],
+   "latitude": 35.7,
+   "bbox": [
+    -88.0435,
+    35.4234,
+    -87.649,
+    35.8409
+   ],
+   "coastal": false,
+   "elevation_ft": 630,
+   "zone": "7b",
+   "jan_low_f": 26,
+   "jul_high_f": 89,
+   "record_low_f": -18,
+   "record_high_f": 105,
+   "precip_in": 57.6,
+   "snow_in": 2,
+   "last_frost": "Apr 12",
+   "first_frost": "Oct 25",
+   "growing_days": 197,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Nashville, TN",
+   "nws_cwa": "OHX",
+   "nwr": [
+    {
+     "call": "WZ2506",
+     "freq": "162.500",
+     "same": "047135"
+    },
+    {
+     "call": "KWN52",
+     "freq": "162.525",
+     "same": "047135"
+    },
+    {
+     "call": "WXK62",
+     "freq": "162.400",
+     "same": "047135"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.6
+  },
+  "Pickett County": {
+   "fips": "47137",
+   "centroid": [
+    36.5594,
+    -85.0757
+   ],
+   "latitude": 36.6,
+   "bbox": [
+    -85.2851,
+    36.4057,
+    -84.7322,
+    36.6266
+   ],
+   "coastal": false,
+   "elevation_ft": 900,
+   "zone": "7a",
+   "jan_low_f": 27,
+   "jul_high_f": 84,
+   "record_low_f": -25,
+   "record_high_f": 108,
+   "precip_in": 54.6,
+   "snow_in": 4,
+   "last_frost": "Apr 12",
+   "first_frost": "Oct 25",
+   "growing_days": 196,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Nashville, TN",
+   "nws_cwa": "OHX",
+   "nwr": [
+    {
+     "call": "WXK61",
+     "freq": "162.400",
+     "same": "047137"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.4
+  },
+  "Polk County": {
+   "fips": "47139",
+   "centroid": [
+    35.1094,
+    -84.5411
+   ],
+   "latitude": 35.1,
+   "bbox": [
+    -84.776,
+    34.9878,
+    -84.2923,
+    35.2858
+   ],
+   "coastal": false,
+   "elevation_ft": 1350,
+   "zone": "7b",
+   "jan_low_f": 29,
+   "jul_high_f": 89,
+   "record_low_f": -16,
+   "record_high_f": 105,
+   "precip_in": 57.6,
+   "snow_in": 1,
+   "last_frost": "Apr 6",
+   "first_frost": "Oct 30",
+   "growing_days": 206,
+   "ecoregion": "Blue Ridge",
+   "ecoregion_code": "66",
+   "nws_office": "Morristown, TN",
+   "nws_cwa": "MRX",
+   "nwr": [
+    {
+     "call": "KXI75",
+     "freq": "162.475",
+     "same": "047139"
+    },
+    {
+     "call": "WXK48",
+     "freq": "162.550",
+     "same": "047139"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.4
+  },
+  "Putnam County": {
+   "fips": "47141",
+   "centroid": [
+    36.1409,
+    -85.4962
+   ],
+   "latitude": 36.1,
+   "bbox": [
+    -85.8088,
+    35.9785,
+    -85.1005,
+    36.3044
+   ],
+   "coastal": false,
+   "elevation_ft": 1170,
+   "zone": "7a",
+   "jan_low_f": 27,
+   "jul_high_f": 87,
+   "record_low_f": -22,
+   "record_high_f": 105,
+   "precip_in": 60.0,
+   "snow_in": 6,
+   "last_frost": "Apr 14",
+   "first_frost": "Oct 25",
+   "growing_days": 195,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Nashville, TN",
+   "nws_cwa": "OHX",
+   "nwr": [
+    {
+     "call": "WXK61",
+     "freq": "162.400",
+     "same": "047141"
+    },
+    {
+     "call": "WXN74",
+     "freq": "162.500",
+     "same": "047141"
+    },
+    {
+     "call": "WNG629",
+     "freq": "162.450",
+     "same": "047141"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.4
+  },
+  "Rhea County": {
+   "fips": "47143",
+   "centroid": [
+    35.6006,
+    -84.9495
+   ],
+   "latitude": 35.6,
+   "bbox": [
+    -85.1451,
+    35.4097,
+    -84.7115,
+    35.8251
+   ],
+   "coastal": false,
+   "elevation_ft": 1440,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 87,
+   "record_low_f": -15,
+   "record_high_f": 107,
+   "precip_in": 59.4,
+   "snow_in": 1,
+   "last_frost": "Apr 11",
+   "first_frost": "Oct 29",
+   "growing_days": 200,
+   "ecoregion": "Southwestern Appalachians",
+   "ecoregion_code": "68",
+   "nws_office": "Morristown, TN",
+   "nws_cwa": "MRX",
+   "nwr": [
+    {
+     "call": "WXK48",
+     "freq": "162.550",
+     "same": "047143"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.4
+  },
+  "Roane County": {
+   "fips": "47145",
+   "centroid": [
+    35.8473,
+    -84.5239
+   ],
+   "latitude": 35.8,
+   "bbox": [
+    -84.7892,
+    35.6444,
+    -84.2635,
+    36.0496
+   ],
+   "coastal": false,
+   "elevation_ft": 870,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 88,
+   "record_low_f": -12,
+   "record_high_f": 107,
+   "precip_in": 58.8,
+   "snow_in": 2,
+   "last_frost": "Apr 3",
+   "first_frost": "Nov 4",
+   "growing_days": 215,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Morristown, TN",
+   "nws_cwa": "MRX",
+   "nwr": [
+    {
+     "call": "WXK46",
+     "freq": "162.475",
+     "same": "047145"
+    },
+    {
+     "call": "WNG732",
+     "freq": "162.450",
+     "same": "047145"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.4
+  },
+  "Robertson County": {
+   "fips": "47147",
+   "centroid": [
+    36.5244,
+    -86.8726
+   ],
+   "latitude": 36.5,
+   "bbox": [
+    -87.1409,
+    36.3505,
+    -86.5634,
+    36.6525
+   ],
+   "coastal": false,
+   "elevation_ft": 620,
+   "zone": "7a",
+   "jan_low_f": 27,
+   "jul_high_f": 88,
+   "record_low_f": -18,
+   "record_high_f": 106,
+   "precip_in": 53.3,
+   "snow_in": 6,
+   "last_frost": "Apr 9",
+   "first_frost": "Oct 28",
+   "growing_days": 201,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Nashville, TN",
+   "nws_cwa": "OHX",
+   "nwr": [
+    {
+     "call": "WWH37",
+     "freq": "162.500",
+     "same": "047147"
+    },
+    {
+     "call": "KIG79",
+     "freq": "162.550",
+     "same": "047147"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.5
+  },
+  "Rutherford County": {
+   "fips": "47149",
+   "centroid": [
+    35.8434,
+    -86.4172
+   ],
+   "latitude": 35.8,
+   "bbox": [
+    -86.7001,
+    35.619,
+    -86.1418,
+    36.1004
+   ],
+   "coastal": false,
+   "elevation_ft": 580,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 89,
+   "record_low_f": -19,
+   "record_high_f": 109,
+   "precip_in": 55.9,
+   "snow_in": 2,
+   "last_frost": "Apr 9",
+   "first_frost": "Oct 27",
+   "growing_days": 202,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Nashville, TN",
+   "nws_cwa": "OHX",
+   "nwr": [
+    {
+     "call": "KIG79",
+     "freq": "162.550",
+     "same": "047149"
+    },
+    {
+     "call": "WXK63",
+     "freq": "162.475",
+     "same": "047149"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.5
+  },
+  "Scott County": {
+   "fips": "47151",
+   "centroid": [
+    36.4306,
+    -84.5041
+   ],
+   "latitude": 36.4,
+   "bbox": [
+    -84.7853,
+    36.1636,
+    -84.2496,
+    36.6034
+   ],
+   "coastal": false,
+   "elevation_ft": 1540,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 85,
+   "record_low_f": -26,
+   "record_high_f": 103,
+   "precip_in": 58.1,
+   "snow_in": 6,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 18",
+   "growing_days": 177,
+   "ecoregion": "Southwestern Appalachians",
+   "ecoregion_code": "68",
+   "nws_office": "Morristown, TN",
+   "nws_cwa": "MRX",
+   "nwr": [
+    {
+     "call": "WXK46",
+     "freq": "162.475",
+     "same": "047151"
+    },
+    {
+     "call": "WNG732",
+     "freq": "162.450",
+     "same": "047151"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.4
+  },
+  "Sequatchie County": {
+   "fips": "47153",
+   "centroid": [
+    35.3723,
+    -85.4101
+   ],
+   "latitude": 35.4,
+   "bbox": [
+    -85.6065,
+    35.1472,
+    -85.2257,
+    35.5667
+   ],
+   "coastal": false,
+   "elevation_ft": 1270,
+   "zone": "7b",
+   "jan_low_f": 32,
+   "jul_high_f": 88,
+   "record_low_f": -20,
+   "record_high_f": 107,
+   "precip_in": 63.7,
+   "snow_in": 3,
+   "last_frost": "Mar 26",
+   "first_frost": "Nov 8",
+   "growing_days": 228,
+   "ecoregion": "Southwestern Appalachians",
+   "ecoregion_code": "68",
+   "nws_office": "Morristown, TN",
+   "nws_cwa": "MRX",
+   "nwr": [
+    {
+     "call": "WXK48",
+     "freq": "162.550",
+     "same": "047153"
+    },
+    {
+     "call": "WNG629",
+     "freq": "162.450",
+     "same": "047153"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.4
+  },
+  "Sevier County": {
+   "fips": "47155",
+   "centroid": [
+    35.7878,
+    -83.5249
+   ],
+   "latitude": 35.8,
+   "bbox": [
+    -83.7936,
+    35.5629,
+    -83.2515,
+    36.0427
+   ],
+   "coastal": false,
+   "elevation_ft": 1140,
+   "zone": "7b",
+   "jan_low_f": 27,
+   "jul_high_f": 83,
+   "record_low_f": -18,
+   "record_high_f": 106,
+   "precip_in": 58.2,
+   "snow_in": 8,
+   "last_frost": "Apr 17",
+   "first_frost": "Oct 25",
+   "growing_days": 189,
+   "ecoregion": "Blue Ridge",
+   "ecoregion_code": "66",
+   "nws_office": "Morristown, TN",
+   "nws_cwa": "MRX",
+   "nwr": [
+    {
+     "call": "WXK46",
+     "freq": "162.475",
+     "same": "047155"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.3
+  },
+  "Shelby County": {
+   "fips": "47157",
+   "centroid": [
+    35.1846,
+    -89.8946
+   ],
+   "latitude": 35.2,
+   "bbox": [
+    -90.3103,
+    34.994,
+    -89.6333,
+    35.4095
+   ],
+   "coastal": false,
+   "elevation_ft": 250,
+   "zone": "8a",
+   "jan_low_f": 30,
+   "jul_high_f": 91,
+   "record_low_f": -6,
+   "record_high_f": 106,
+   "precip_in": 57.2,
+   "snow_in": 3,
+   "last_frost": "Mar 29",
+   "first_frost": "Nov 5",
+   "growing_days": 223,
+   "ecoregion": "Mississippi Valley Loess Plains",
+   "ecoregion_code": "74",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "WXK49",
+     "freq": "162.475",
+     "same": "047157"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 5.7
+  },
+  "Smith County": {
+   "fips": "47159",
+   "centroid": [
+    36.2566,
+    -85.9419
+   ],
+   "latitude": 36.3,
+   "bbox": [
+    -86.1361,
+    36.0823,
+    -85.7792,
+    36.4261
+   ],
+   "coastal": false,
+   "elevation_ft": 550,
+   "zone": "7b",
+   "jan_low_f": 27,
+   "jul_high_f": 89,
+   "record_low_f": -17,
+   "record_high_f": 111,
+   "precip_in": 52.5,
+   "snow_in": 2,
+   "last_frost": "Apr 10",
+   "first_frost": "Oct 29",
+   "growing_days": 201,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Nashville, TN",
+   "nws_cwa": "OHX",
+   "nwr": [
+    {
+     "call": "WXK61",
+     "freq": "162.400",
+     "same": "047159"
+    },
+    {
+     "call": "WXN74",
+     "freq": "162.500",
+     "same": "047159"
+    },
+    {
+     "call": "WNG631",
+     "freq": "162.525",
+     "same": "047159"
+    },
+    {
+     "call": "KIG79",
+     "freq": "162.550",
+     "same": "047159"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.4
+  },
+  "Stewart County": {
+   "fips": "47161",
+   "centroid": [
+    36.4585,
+    -87.8119
+   ],
+   "latitude": 36.5,
+   "bbox": [
+    -88.0705,
+    36.3289,
+    -87.5922,
+    36.678
+   ],
+   "coastal": false,
+   "elevation_ft": 460,
+   "zone": "7b",
+   "jan_low_f": 27,
+   "jul_high_f": 88,
+   "record_low_f": -24,
+   "record_high_f": 110,
+   "precip_in": 54.8,
+   "snow_in": 4,
+   "last_frost": "Apr 4",
+   "first_frost": "Oct 31",
+   "growing_days": 210,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Nashville, TN",
+   "nws_cwa": "OHX",
+   "nwr": [
+    {
+     "call": "WWH37",
+     "freq": "162.500",
+     "same": "047161"
+    },
+    {
+     "call": "KHA46",
+     "freq": "162.450",
+     "same": "047161"
+    },
+    {
+     "call": "WXK62",
+     "freq": "162.400",
+     "same": "047161"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.6
+  },
+  "Sullivan County": {
+   "fips": "47163",
+   "centroid": [
+    36.5097,
+    -82.3013
+   ],
+   "latitude": 36.5,
+   "bbox": [
+    -82.7015,
+    36.3926,
+    -81.827,
+    36.6162
+   ],
+   "coastal": false,
+   "elevation_ft": 1630,
+   "zone": "7b",
+   "jan_low_f": 26,
+   "jul_high_f": 86,
+   "record_low_f": -21,
+   "record_high_f": 103,
+   "precip_in": 44.0,
+   "snow_in": 9,
+   "last_frost": "Apr 16",
+   "first_frost": "Oct 24",
+   "growing_days": 190,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Morristown, TN",
+   "nws_cwa": "MRX",
+   "nwr": [
+    {
+     "call": "WXK47",
+     "freq": "162.550",
+     "same": "047163"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.3
+  },
+  "Sumner County": {
+   "fips": "47165",
+   "centroid": [
+    36.4724,
+    -86.4584
+   ],
+   "latitude": 36.5,
+   "bbox": [
+    -86.7547,
+    36.2441,
+    -86.2037,
+    36.6524
+   ],
+   "coastal": false,
+   "elevation_ft": 800,
+   "zone": "7b",
+   "jan_low_f": 27,
+   "jul_high_f": 89,
+   "record_low_f": -19,
+   "record_high_f": 106,
+   "precip_in": 54.3,
+   "snow_in": 2,
+   "last_frost": "Apr 5",
+   "first_frost": "Nov 1",
+   "growing_days": 210,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Nashville, TN",
+   "nws_cwa": "OHX",
+   "nwr": [
+    {
+     "call": "WNG631",
+     "freq": "162.525",
+     "same": "047165"
+    },
+    {
+     "call": "KIG79",
+     "freq": "162.550",
+     "same": "047165"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.5
+  },
+  "Tipton County": {
+   "fips": "47167",
+   "centroid": [
+    35.4988,
+    -89.7471
+   ],
+   "latitude": 35.5,
+   "bbox": [
+    -90.1791,
+    35.3726,
+    -89.4702,
+    35.6516
+   ],
+   "coastal": false,
+   "elevation_ft": 300,
+   "zone": "8a",
+   "jan_low_f": 28,
+   "jul_high_f": 89,
+   "record_low_f": -15,
+   "record_high_f": 108,
+   "precip_in": 55.8,
+   "snow_in": 2,
+   "last_frost": "Mar 27",
+   "first_frost": "Nov 4",
+   "growing_days": 222,
+   "ecoregion": "Mississippi Valley Loess Plains",
+   "ecoregion_code": "74",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "WXK49",
+     "freq": "162.475",
+     "same": "047167"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 5.7
+  },
+  "Trousdale County": {
+   "fips": "47169",
+   "centroid": [
+    36.393,
+    -86.1567
+   ],
+   "latitude": 36.4,
+   "bbox": [
+    -86.285,
+    36.2941,
+    -85.9714,
+    36.4887
+   ],
+   "coastal": false,
+   "elevation_ft": 480,
+   "zone": "7b",
+   "jan_low_f": 26,
+   "jul_high_f": 88,
+   "record_low_f": -20,
+   "record_high_f": 111,
+   "precip_in": 52.7,
+   "snow_in": 5,
+   "last_frost": "Apr 12",
+   "first_frost": "Oct 26",
+   "growing_days": 196,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Nashville, TN",
+   "nws_cwa": "OHX",
+   "nwr": [
+    {
+     "call": "WXK61",
+     "freq": "162.400",
+     "same": "047169"
+    },
+    {
+     "call": "WXN74",
+     "freq": "162.500",
+     "same": "047169"
+    },
+    {
+     "call": "WNG631",
+     "freq": "162.525",
+     "same": "047169"
+    },
+    {
+     "call": "KIG79",
+     "freq": "162.550",
+     "same": "047169"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.5
+  },
+  "Unicoi County": {
+   "fips": "47171",
+   "centroid": [
+    36.1001,
+    -82.4182
+   ],
+   "latitude": 36.1,
+   "bbox": [
+    -82.6149,
+    35.9543,
+    -82.2219,
+    36.2606
+   ],
+   "coastal": false,
+   "elevation_ft": 2480,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 85,
+   "record_low_f": -20,
+   "record_high_f": 102,
+   "precip_in": 47.0,
+   "snow_in": 9,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 23",
+   "growing_days": 183,
+   "ecoregion": "Blue Ridge",
+   "ecoregion_code": "66",
+   "nws_office": "Morristown, TN",
+   "nws_cwa": "MRX",
+   "nwr": [
+    {
+     "call": "WXK47",
+     "freq": "162.550",
+     "same": "047171"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.3
+  },
+  "Union County": {
+   "fips": "47173",
+   "centroid": [
+    36.2841,
+    -83.8361
+   ],
+   "latitude": 36.3,
+   "bbox": [
+    -84.0087,
+    36.1609,
+    -83.6668,
+    36.435
+   ],
+   "coastal": false,
+   "elevation_ft": 1380,
+   "zone": "7b",
+   "jan_low_f": 25,
+   "jul_high_f": 85,
+   "record_low_f": -19,
+   "record_high_f": 105,
+   "precip_in": 57.7,
+   "snow_in": 3,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 25",
+   "growing_days": 184,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Morristown, TN",
+   "nws_cwa": "MRX",
+   "nwr": [
+    {
+     "call": "WXK46",
+     "freq": "162.475",
+     "same": "047173"
+    },
+    {
+     "call": "WNG732",
+     "freq": "162.450",
+     "same": "047173"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.4
+  },
+  "Van Buren County": {
+   "fips": "47175",
+   "centroid": [
+    35.6992,
+    -85.4584
+   ],
+   "latitude": 35.7,
+   "bbox": [
+    -85.6147,
+    35.533,
+    -85.2537,
+    35.8221
+   ],
+   "coastal": false,
+   "elevation_ft": 1730,
+   "zone": "7a",
+   "jan_low_f": 25,
+   "jul_high_f": 85,
+   "record_low_f": -21,
+   "record_high_f": 102,
+   "precip_in": 59.0,
+   "snow_in": 14,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 19",
+   "growing_days": 180,
+   "ecoregion": "Southwestern Appalachians",
+   "ecoregion_code": "68",
+   "nws_office": "Nashville, TN",
+   "nws_cwa": "OHX",
+   "nwr": [
+    {
+     "call": "WXK61",
+     "freq": "162.400",
+     "same": "047175"
+    },
+    {
+     "call": "WNG629",
+     "freq": "162.450",
+     "same": "047175"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.4
+  },
+  "Warren County": {
+   "fips": "47177",
+   "centroid": [
+    35.6782,
+    -85.7773
+   ],
+   "latitude": 35.7,
+   "bbox": [
+    -85.9977,
+    35.5047,
+    -85.5575,
+    35.852
+   ],
+   "coastal": false,
+   "elevation_ft": 930,
+   "zone": "7b",
+   "jan_low_f": 31,
+   "jul_high_f": 89,
+   "record_low_f": -26,
+   "record_high_f": 106,
+   "precip_in": 54.4,
+   "snow_in": 4,
+   "last_frost": "Apr 7",
+   "first_frost": "Oct 30",
+   "growing_days": 203,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Nashville, TN",
+   "nws_cwa": "OHX",
+   "nwr": [
+    {
+     "call": "WXK63",
+     "freq": "162.475",
+     "same": "047177"
+    },
+    {
+     "call": "WNG629",
+     "freq": "162.450",
+     "same": "047177"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.4
+  },
+  "Washington County": {
+   "fips": "47179",
+   "centroid": [
+    36.2957,
+    -82.495
+   ],
+   "latitude": 36.3,
+   "bbox": [
+    -82.6992,
+    36.0961,
+    -82.2999,
+    36.4461
+   ],
+   "coastal": false,
+   "elevation_ft": 1770,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 85,
+   "record_low_f": -20,
+   "record_high_f": 102,
+   "precip_in": 47.0,
+   "snow_in": 9,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 23",
+   "growing_days": 183,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Morristown, TN",
+   "nws_cwa": "MRX",
+   "nwr": [
+    {
+     "call": "WXK47",
+     "freq": "162.550",
+     "same": "047179"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.3
+  },
+  "Wayne County": {
+   "fips": "47181",
+   "centroid": [
+    35.2428,
+    -87.8198
+   ],
+   "latitude": 35.2,
+   "bbox": [
+    -88.0251,
+    35.0035,
+    -87.5727,
+    35.4917
+   ],
+   "coastal": false,
+   "elevation_ft": 720,
+   "zone": "7b",
+   "jan_low_f": 27,
+   "jul_high_f": 88,
+   "record_low_f": -21,
+   "record_high_f": 108,
+   "precip_in": 61.8,
+   "snow_in": 1,
+   "last_frost": "Apr 14",
+   "first_frost": "Oct 24",
+   "growing_days": 192,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Nashville, TN",
+   "nws_cwa": "OHX",
+   "nwr": [
+    {
+     "call": "WZ2506",
+     "freq": "162.500",
+     "same": "047181"
+    },
+    {
+     "call": "WWF84",
+     "freq": "162.425",
+     "same": "047181"
+    },
+    {
+     "call": "KWN52",
+     "freq": "162.525",
+     "same": "047181"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.6
+  },
+  "Weakley County": {
+   "fips": "47183",
+   "centroid": [
+    36.3036,
+    -88.7212
+   ],
+   "latitude": 36.3,
+   "bbox": [
+    -88.9598,
+    36.0624,
+    -88.5167,
+    36.5029
+   ],
+   "coastal": false,
+   "elevation_ft": 470,
+   "zone": "7b",
+   "jan_low_f": 27,
+   "jul_high_f": 88,
+   "record_low_f": -17,
+   "record_high_f": 104,
+   "precip_in": 53.6,
+   "snow_in": 0,
+   "last_frost": "Apr 3",
+   "first_frost": "Nov 1",
+   "growing_days": 212,
+   "ecoregion": "Mississippi Valley Loess Plains",
+   "ecoregion_code": "74",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "WWH30",
+     "freq": "162.500",
+     "same": "047183"
+    },
+    {
+     "call": "WXK60",
+     "freq": "162.550",
+     "same": "047183"
+    },
+    {
+     "call": "KIH46",
+     "freq": "162.475",
+     "same": "047183"
+    },
+    {
+     "call": "KHA46",
+     "freq": "162.450",
+     "same": "047183"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.6
+  },
+  "White County": {
+   "fips": "47185",
+   "centroid": [
+    35.927,
+    -85.4558
+   ],
+   "latitude": 35.9,
+   "bbox": [
+    -85.6827,
+    35.7678,
+    -85.214,
+    36.082
+   ],
+   "coastal": false,
+   "elevation_ft": 960,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 88,
+   "record_low_f": -20,
+   "record_high_f": 108,
+   "precip_in": 58.7,
+   "snow_in": 5,
+   "last_frost": "Apr 15",
+   "first_frost": "Oct 23",
+   "growing_days": 191,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Nashville, TN",
+   "nws_cwa": "OHX",
+   "nwr": [
+    {
+     "call": "WXK61",
+     "freq": "162.400",
+     "same": "047185"
+    },
+    {
+     "call": "WNG629",
+     "freq": "162.450",
+     "same": "047185"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.4
+  },
+  "Williamson County": {
+   "fips": "47187",
+   "centroid": [
+    35.8948,
+    -86.8979
+   ],
+   "latitude": 35.9,
+   "bbox": [
+    -87.2147,
+    35.6989,
+    -86.6001,
+    36.0526
+   ],
+   "coastal": false,
+   "elevation_ft": 980,
+   "zone": "7b",
+   "jan_low_f": 29,
+   "jul_high_f": 91,
+   "record_low_f": -22,
+   "record_high_f": 108,
+   "precip_in": 53.8,
+   "snow_in": 2,
+   "last_frost": "Apr 3",
+   "first_frost": "Oct 31",
+   "growing_days": 210,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Nashville, TN",
+   "nws_cwa": "OHX",
+   "nwr": [
+    {
+     "call": "WWF84",
+     "freq": "162.425",
+     "same": "047187"
+    },
+    {
+     "call": "KIG79",
+     "freq": "162.550",
+     "same": "047187"
+    },
+    {
+     "call": "WXK63",
+     "freq": "162.475",
+     "same": "047187"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.5
+  },
+  "Wilson County": {
+   "fips": "47189",
+   "centroid": [
+    36.1494,
+    -86.2912
+   ],
+   "latitude": 36.1,
+   "bbox": [
+    -86.5944,
+    35.9544,
+    -86.0149,
+    36.3581
+   ],
+   "coastal": false,
+   "elevation_ft": 790,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 90,
+   "record_low_f": -20,
+   "record_high_f": 111,
+   "precip_in": 54.5,
+   "snow_in": 1,
+   "last_frost": "Apr 6",
+   "first_frost": "Oct 28",
+   "growing_days": 206,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Nashville, TN",
+   "nws_cwa": "OHX",
+   "nwr": [
+    {
+     "call": "WXN74",
+     "freq": "162.500",
+     "same": "047189"
+    },
+    {
+     "call": "WNG631",
+     "freq": "162.525",
+     "same": "047189"
+    },
+    {
+     "call": "KIG79",
+     "freq": "162.550",
+     "same": "047189"
+    },
+    {
+     "call": "WXK63",
+     "freq": "162.475",
+     "same": "047189"
+    }
+   ],
+   "state_em": "Tennessee Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.5
+  }
+ }
+}

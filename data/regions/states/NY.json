@@ -1,0 +1,3965 @@
+{
+ "state": "NY",
+ "state_name": "New York",
+ "state_fips": "36",
+ "state_em": "New York State Division of Homeland Security and Emergency Services",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "ALY": "NWS Albany, NY",
+  "BGM": "NWS Binghamton, NY",
+  "BTV": "NWS Burlington, VT",
+  "BUF": "NWS Buffalo, NY",
+  "BUFBGM": "NWS BUFBGM",
+  "OKX": "NWS Upton, NY"
+ },
+ "ecoregions": [
+  "Northeastern Highlands",
+  "Northeastern Coastal Zone",
+  "Northern Allegheny Plateau",
+  "Erie Drift Plain",
+  "North Central Appalachians",
+  "Northern Piedmont",
+  "Ridge and Valley",
+  "Eastern Great Lakes Lowlands",
+  "Atlantic Coastal Pine Barrens"
+ ],
+ "counties": {
+  "Albany County": {
+   "fips": "36001",
+   "centroid": [
+    42.5882,
+    -73.974
+   ],
+   "latitude": 42.6,
+   "bbox": [
+    -74.2648,
+    42.4082,
+    -73.6772,
+    42.8225
+   ],
+   "coastal": true,
+   "elevation_ft": 870,
+   "zone": "5b",
+   "jan_low_f": 13,
+   "jul_high_f": 80,
+   "record_low_f": -29,
+   "record_high_f": 102,
+   "precip_in": 42.5,
+   "snow_in": 46,
+   "last_frost": "May 3",
+   "first_frost": "Oct 12",
+   "growing_days": 160,
+   "ecoregion": "Northeastern Coastal Zone",
+   "ecoregion_code": "59",
+   "nws_office": "Albany, NY",
+   "nws_cwa": "ALY",
+   "nwr": [
+    {
+     "call": "WXL34",
+     "freq": "162.550",
+     "same": "036001"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.1
+  },
+  "Allegany County": {
+   "fips": "36003",
+   "centroid": [
+    42.2479,
+    -78.0262
+   ],
+   "latitude": 42.2,
+   "bbox": [
+    -78.3102,
+    41.9984,
+    -77.723,
+    42.5216
+   ],
+   "coastal": false,
+   "elevation_ft": 1730,
+   "zone": "5b",
+   "jan_low_f": 13,
+   "jul_high_f": 80,
+   "record_low_f": -40,
+   "record_high_f": 104,
+   "precip_in": 40.2,
+   "snow_in": 72,
+   "last_frost": "May 21",
+   "first_frost": "Sep 30",
+   "growing_days": 130,
+   "ecoregion": "Northern Allegheny Plateau",
+   "ecoregion_code": "60",
+   "nws_office": "Buffalo, NY",
+   "nws_cwa": "BUF",
+   "nwr": [
+    {
+     "call": "KEB98",
+     "freq": "162.550",
+     "same": "036003"
+    },
+    {
+     "call": "WXN29",
+     "freq": "162.425",
+     "same": "036003"
+    },
+    {
+     "call": "WXN55",
+     "freq": "162.450",
+     "same": "036003"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.1
+  },
+  "Bronx County": {
+   "fips": "36005",
+   "centroid": [
+    40.8487,
+    -73.8529
+   ],
+   "latitude": 40.8,
+   "bbox": [
+    -73.9342,
+    40.7857,
+    -73.7651,
+    40.9176
+   ],
+   "coastal": true,
+   "elevation_ft": 80,
+   "zone": "7b",
+   "jan_low_f": 27,
+   "jul_high_f": 86,
+   "record_low_f": -3,
+   "record_high_f": 102,
+   "precip_in": 49.9,
+   "snow_in": 30,
+   "last_frost": "Apr 1",
+   "first_frost": "Nov 16",
+   "growing_days": 230,
+   "ecoregion": "Northeastern Coastal Zone",
+   "ecoregion_code": "59",
+   "nws_office": "Upton, NY",
+   "nws_cwa": "OKX",
+   "nwr": [
+    {
+     "call": "KWO35",
+     "freq": "162.550",
+     "same": "036005"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 3,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Broome County": {
+   "fips": "36007",
+   "centroid": [
+    42.162,
+    -75.8303
+   ],
+   "latitude": 42.2,
+   "bbox": [
+    -76.1316,
+    41.9978,
+    -75.3606,
+    42.4154
+   ],
+   "coastal": false,
+   "elevation_ft": 990,
+   "zone": "6a",
+   "jan_low_f": 15,
+   "jul_high_f": 81,
+   "record_low_f": -20,
+   "record_high_f": 98,
+   "precip_in": 41.3,
+   "snow_in": 48,
+   "last_frost": "May 4",
+   "first_frost": "Oct 16",
+   "growing_days": 163,
+   "ecoregion": "Northern Allegheny Plateau",
+   "ecoregion_code": "60",
+   "nws_office": "Binghamton, NY",
+   "nws_cwa": "BGM",
+   "nwr": [
+    {
+     "call": "WXL38",
+     "freq": "162.475",
+     "same": "036007"
+    },
+    {
+     "call": "KHC49",
+     "freq": "162.525",
+     "same": "036007"
+    },
+    {
+     "call": "WWF43",
+     "freq": "162.400",
+     "same": "036007"
+    },
+    {
+     "call": "WWH34",
+     "freq": "162.425",
+     "same": "036007"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.0
+  },
+  "Cattaraugus County": {
+   "fips": "36009",
+   "centroid": [
+    42.2391,
+    -78.6623
+   ],
+   "latitude": 42.2,
+   "bbox": [
+    -79.0613,
+    41.9976,
+    -78.3079,
+    42.542
+   ],
+   "coastal": false,
+   "elevation_ft": 2100,
+   "zone": "5b",
+   "jan_low_f": 14,
+   "jul_high_f": 79,
+   "record_low_f": -28,
+   "record_high_f": 98,
+   "precip_in": 49.1,
+   "snow_in": 133,
+   "last_frost": "May 17",
+   "first_frost": "Oct 1",
+   "growing_days": 136,
+   "ecoregion": "North Central Appalachians",
+   "ecoregion_code": "62",
+   "nws_office": "Buffalo, NY",
+   "nws_cwa": "BUF",
+   "nwr": [
+    {
+     "call": "KEB98",
+     "freq": "162.550",
+     "same": "036009"
+    },
+    {
+     "call": "WWG32",
+     "freq": "162.425",
+     "same": "036009"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.1
+  },
+  "Cayuga County": {
+   "fips": "36011",
+   "centroid": [
+    43.0085,
+    -76.5746
+   ],
+   "latitude": 43.0,
+   "bbox": [
+    -76.7402,
+    42.6186,
+    -76.2656,
+    43.4181
+   ],
+   "coastal": false,
+   "elevation_ft": 650,
+   "zone": "6a",
+   "jan_low_f": 15,
+   "jul_high_f": 81,
+   "record_low_f": -32,
+   "record_high_f": 101,
+   "precip_in": 44.3,
+   "snow_in": 109,
+   "last_frost": "May 2",
+   "first_frost": "Oct 18",
+   "growing_days": 166,
+   "ecoregion": "Eastern Great Lakes Lowlands",
+   "ecoregion_code": "83",
+   "nws_office": "BUFBGM",
+   "nws_cwa": "BUFBGM",
+   "nwr": [
+    {
+     "call": "WXN59",
+     "freq": "162.500",
+     "same": "036011"
+    },
+    {
+     "call": "KHA53",
+     "freq": "162.400",
+     "same": "036011"
+    },
+    {
+     "call": "WXL31",
+     "freq": "162.550",
+     "same": "036011"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.6,
+   "sun_hours_jun": 5.4
+  },
+  "Chautauqua County": {
+   "fips": "36013",
+   "centroid": [
+    42.3042,
+    -79.4076
+   ],
+   "latitude": 42.3,
+   "bbox": [
+    -79.7622,
+    41.9982,
+    -79.0593,
+    42.5708
+   ],
+   "coastal": false,
+   "elevation_ft": 1630,
+   "zone": "6a",
+   "jan_low_f": 20,
+   "jul_high_f": 80,
+   "record_low_f": -31,
+   "record_high_f": 103,
+   "precip_in": 45.7,
+   "snow_in": 224,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 31",
+   "growing_days": 187,
+   "ecoregion": "Erie Drift Plain",
+   "ecoregion_code": "61",
+   "nws_office": "Buffalo, NY",
+   "nws_cwa": "BUF",
+   "nwr": [
+    {
+     "call": "KEB98",
+     "freq": "162.550",
+     "same": "036013"
+    },
+    {
+     "call": "WWG32",
+     "freq": "162.425",
+     "same": "036013"
+    },
+    {
+     "call": "KEC58",
+     "freq": "162.400",
+     "same": "036013"
+    },
+    {
+     "call": "WNG541",
+     "freq": "162.525",
+     "same": "036013"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.5
+  },
+  "Chemung County": {
+   "fips": "36015",
+   "centroid": [
+    42.1487,
+    -76.7525
+   ],
+   "latitude": 42.1,
+   "bbox": [
+    -76.966,
+    42.0002,
+    -76.5359,
+    42.2944
+   ],
+   "coastal": false,
+   "elevation_ft": 1450,
+   "zone": "5b",
+   "jan_low_f": 16,
+   "jul_high_f": 84,
+   "record_low_f": -24,
+   "record_high_f": 107,
+   "precip_in": 38.1,
+   "snow_in": 42,
+   "last_frost": "May 6",
+   "first_frost": "Oct 11",
+   "growing_days": 158,
+   "ecoregion": "Northern Allegheny Plateau",
+   "ecoregion_code": "60",
+   "nws_office": "Binghamton, NY",
+   "nws_cwa": "BGM",
+   "nwr": [
+    {
+     "call": "WXN29",
+     "freq": "162.425",
+     "same": "036015"
+    },
+    {
+     "call": "WXM31",
+     "freq": "162.400",
+     "same": "036015"
+    },
+    {
+     "call": "WXN59",
+     "freq": "162.500",
+     "same": "036015"
+    },
+    {
+     "call": "WXN55",
+     "freq": "162.450",
+     "same": "036015"
+    },
+    {
+     "call": "WXM95",
+     "freq": "162.525",
+     "same": "036015"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.1
+  },
+  "Chenango County": {
+   "fips": "36017",
+   "centroid": [
+    42.478,
+    -75.6022
+   ],
+   "latitude": 42.5,
+   "bbox": [
+    -75.8897,
+    42.195,
+    -75.2931,
+    42.7451
+   ],
+   "coastal": false,
+   "elevation_ft": 1470,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 81,
+   "record_low_f": -32,
+   "record_high_f": 101,
+   "precip_in": 45.3,
+   "snow_in": 75,
+   "last_frost": "May 13",
+   "first_frost": "Oct 4",
+   "growing_days": 142,
+   "ecoregion": "Northern Allegheny Plateau",
+   "ecoregion_code": "60",
+   "nws_office": "Binghamton, NY",
+   "nws_cwa": "BGM",
+   "nwr": [
+    {
+     "call": "WXL38",
+     "freq": "162.475",
+     "same": "036017"
+    },
+    {
+     "call": "WWH35",
+     "freq": "162.450",
+     "same": "036017"
+    },
+    {
+     "call": "KHC49",
+     "freq": "162.525",
+     "same": "036017"
+    },
+    {
+     "call": "WWF43",
+     "freq": "162.400",
+     "same": "036017"
+    },
+    {
+     "call": "WWH34",
+     "freq": "162.425",
+     "same": "036017"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.0
+  },
+  "Clinton County": {
+   "fips": "36019",
+   "centroid": [
+    44.7527,
+    -73.7056
+   ],
+   "latitude": 44.8,
+   "bbox": [
+    -74.0276,
+    44.4296,
+    -73.3332,
+    45.0107
+   ],
+   "coastal": false,
+   "elevation_ft": 1810,
+   "zone": "5a",
+   "jan_low_f": 8,
+   "jul_high_f": 79,
+   "record_low_f": -39,
+   "record_high_f": 98,
+   "precip_in": 43.4,
+   "snow_in": 107,
+   "last_frost": "May 6",
+   "first_frost": "Oct 11",
+   "growing_days": 157,
+   "ecoregion": "Northeastern Highlands",
+   "ecoregion_code": "58",
+   "nws_office": "Burlington, VT",
+   "nws_cwa": "BTV",
+   "nwr": [
+    {
+     "call": "KIG60",
+     "freq": "162.400",
+     "same": "036019"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 4.9
+  },
+  "Columbia County": {
+   "fips": "36021",
+   "centroid": [
+    42.2477,
+    -73.6267
+   ],
+   "latitude": 42.2,
+   "bbox": [
+    -73.9296,
+    41.978,
+    -73.3522,
+    42.5108
+   ],
+   "coastal": true,
+   "elevation_ft": 550,
+   "zone": "6a",
+   "jan_low_f": 14,
+   "jul_high_f": 83,
+   "record_low_f": -28,
+   "record_high_f": 100,
+   "precip_in": 43.5,
+   "snow_in": 50,
+   "last_frost": "May 4",
+   "first_frost": "Oct 11",
+   "growing_days": 160,
+   "ecoregion": "Northeastern Highlands",
+   "ecoregion_code": "58",
+   "nws_office": "Albany, NY",
+   "nws_cwa": "ALY",
+   "nwr": [
+    {
+     "call": "WXL34",
+     "freq": "162.550",
+     "same": "036021"
+    },
+    {
+     "call": "WXL37",
+     "freq": "162.475",
+     "same": "036021"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.1
+  },
+  "Cortland County": {
+   "fips": "36023",
+   "centroid": [
+    42.594,
+    -76.0762
+   ],
+   "latitude": 42.6,
+   "bbox": [
+    -76.2747,
+    42.4077,
+    -75.8642,
+    42.791
+   ],
+   "coastal": false,
+   "elevation_ft": 1440,
+   "zone": "5b",
+   "jan_low_f": 13,
+   "jul_high_f": 79,
+   "record_low_f": -29,
+   "record_high_f": 93,
+   "precip_in": 41.7,
+   "snow_in": 117,
+   "last_frost": "May 13",
+   "first_frost": "Oct 4",
+   "growing_days": 145,
+   "ecoregion": "Northern Allegheny Plateau",
+   "ecoregion_code": "60",
+   "nws_office": "Binghamton, NY",
+   "nws_cwa": "BGM",
+   "nwr": [
+    {
+     "call": "WXL38",
+     "freq": "162.475",
+     "same": "036023"
+    },
+    {
+     "call": "WXN59",
+     "freq": "162.500",
+     "same": "036023"
+    },
+    {
+     "call": "KHC49",
+     "freq": "162.525",
+     "same": "036023"
+    },
+    {
+     "call": "WXL31",
+     "freq": "162.550",
+     "same": "036023"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.1
+  },
+  "Delaware County": {
+   "fips": "36025",
+   "centroid": [
+    42.194,
+    -74.9667
+   ],
+   "latitude": 42.2,
+   "bbox": [
+    -75.4229,
+    41.8484,
+    -74.4282,
+    42.5174
+   ],
+   "coastal": false,
+   "elevation_ft": 1880,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 80,
+   "record_low_f": -33,
+   "record_high_f": 101,
+   "precip_in": 48.6,
+   "snow_in": 71,
+   "last_frost": "May 19",
+   "first_frost": "Oct 1",
+   "growing_days": 132,
+   "ecoregion": "Northern Allegheny Plateau",
+   "ecoregion_code": "60",
+   "nws_office": "Binghamton, NY",
+   "nws_cwa": "BGM",
+   "nwr": [
+    {
+     "call": "WXL38",
+     "freq": "162.475",
+     "same": "036025"
+    },
+    {
+     "call": "WWH35",
+     "freq": "162.450",
+     "same": "036025"
+    },
+    {
+     "call": "WNG705",
+     "freq": "162.450",
+     "same": "036025"
+    },
+    {
+     "call": "KHC49",
+     "freq": "162.525",
+     "same": "036025"
+    },
+    {
+     "call": "WWF43",
+     "freq": "162.400",
+     "same": "036025"
+    },
+    {
+     "call": "WWH34",
+     "freq": "162.425",
+     "same": "036025"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.0
+  },
+  "Dutchess County": {
+   "fips": "36027",
+   "centroid": [
+    41.7548,
+    -73.74
+   ],
+   "latitude": 41.8,
+   "bbox": [
+    -74.0001,
+    41.4385,
+    -73.4873,
+    42.0808
+   ],
+   "coastal": true,
+   "elevation_ft": 530,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 82,
+   "record_low_f": -30,
+   "record_high_f": 103,
+   "precip_in": 45.8,
+   "snow_in": 58,
+   "last_frost": "May 4",
+   "first_frost": "Oct 7",
+   "growing_days": 155,
+   "ecoregion": "Northeastern Highlands",
+   "ecoregion_code": "58",
+   "nws_office": "Albany, NY",
+   "nws_cwa": "ALY",
+   "nwr": [
+    {
+     "call": "WWH33",
+     "freq": "162.500",
+     "same": "036027"
+    },
+    {
+     "call": "WXL37",
+     "freq": "162.475",
+     "same": "036027"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.1
+  },
+  "Erie County": {
+   "fips": "36029",
+   "centroid": [
+    42.7528,
+    -78.7782
+   ],
+   "latitude": 42.8,
+   "bbox": [
+    -79.1367,
+    42.4383,
+    -78.4621,
+    43.0979
+   ],
+   "coastal": false,
+   "elevation_ft": 800,
+   "zone": "6a",
+   "jan_low_f": 15,
+   "jul_high_f": 78,
+   "record_low_f": -30,
+   "record_high_f": 96,
+   "precip_in": 40.7,
+   "snow_in": 95,
+   "last_frost": "May 7",
+   "first_frost": "Oct 11",
+   "growing_days": 156,
+   "ecoregion": "Eastern Great Lakes Lowlands",
+   "ecoregion_code": "83",
+   "nws_office": "Buffalo, NY",
+   "nws_cwa": "BUF",
+   "nwr": [
+    {
+     "call": "KEB98",
+     "freq": "162.550",
+     "same": "036029"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.1
+  },
+  "Essex County": {
+   "fips": "36031",
+   "centroid": [
+    44.1096,
+    -73.7784
+   ],
+   "latitude": 44.1,
+   "bbox": [
+    -74.3366,
+    43.7446,
+    -73.2937,
+    44.5455
+   ],
+   "coastal": false,
+   "elevation_ft": 2500,
+   "zone": "4a",
+   "jan_low_f": 6,
+   "jul_high_f": 74,
+   "record_low_f": -39,
+   "record_high_f": 97,
+   "precip_in": 43.8,
+   "snow_in": 104,
+   "last_frost": "May 27",
+   "first_frost": "Sep 22",
+   "growing_days": 118,
+   "ecoregion": "Northeastern Highlands",
+   "ecoregion_code": "58",
+   "nws_office": "Burlington, VT",
+   "nws_cwa": "BTV",
+   "nwr": [
+    {
+     "call": "KIG60",
+     "freq": "162.400",
+     "same": "036031"
+    },
+    {
+     "call": "WNG671",
+     "freq": "162.500",
+     "same": "036031"
+    },
+    {
+     "call": "KSC43",
+     "freq": "162.450",
+     "same": "036031"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 4.9
+  },
+  "Franklin County": {
+   "fips": "36033",
+   "centroid": [
+    44.5944,
+    -74.3107
+   ],
+   "latitude": 44.6,
+   "bbox": [
+    -74.7262,
+    44.0992,
+    -73.9105,
+    45.0052
+   ],
+   "coastal": false,
+   "elevation_ft": 1620,
+   "zone": "4a",
+   "jan_low_f": 2,
+   "jul_high_f": 77,
+   "record_low_f": -35,
+   "record_high_f": 96,
+   "precip_in": 36.6,
+   "snow_in": 104,
+   "last_frost": "Jun 2",
+   "first_frost": "Sep 9",
+   "growing_days": 97,
+   "ecoregion": "Northeastern Highlands",
+   "ecoregion_code": "58",
+   "nws_office": "Burlington, VT",
+   "nws_cwa": "BTV",
+   "nwr": [
+    {
+     "call": "KIG60",
+     "freq": "162.400",
+     "same": "036033"
+    },
+    {
+     "call": "KBS508",
+     "freq": "162.525",
+     "same": "036033"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 4.9
+  },
+  "Fulton County": {
+   "fips": "36035",
+   "centroid": [
+    43.1156,
+    -74.4237
+   ],
+   "latitude": 43.1,
+   "bbox": [
+    -74.774,
+    42.9828,
+    -74.0975,
+    43.289
+   ],
+   "coastal": false,
+   "elevation_ft": 1380,
+   "zone": "5a",
+   "jan_low_f": 7,
+   "jul_high_f": 77,
+   "record_low_f": -27,
+   "record_high_f": 96,
+   "precip_in": 50.7,
+   "snow_in": 129,
+   "last_frost": "May 11",
+   "first_frost": "Oct 3",
+   "growing_days": 143,
+   "ecoregion": "Northeastern Highlands",
+   "ecoregion_code": "58",
+   "nws_office": "Albany, NY",
+   "nws_cwa": "ALY",
+   "nwr": [
+    {
+     "call": "WXL34",
+     "freq": "162.550",
+     "same": "036035"
+    },
+    {
+     "call": "KSC43",
+     "freq": "162.450",
+     "same": "036035"
+    },
+    {
+     "call": "WXM45",
+     "freq": "162.425",
+     "same": "036035"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 4.9
+  },
+  "Genesee County": {
+   "fips": "36037",
+   "centroid": [
+    43.0009,
+    -78.1928
+   ],
+   "latitude": 43.0,
+   "bbox": [
+    -78.4655,
+    42.8619,
+    -77.9041,
+    43.1335
+   ],
+   "coastal": false,
+   "elevation_ft": 890,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 80,
+   "record_low_f": -28,
+   "record_high_f": 103,
+   "precip_in": 36.6,
+   "snow_in": 74,
+   "last_frost": "May 3",
+   "first_frost": "Oct 16",
+   "growing_days": 165,
+   "ecoregion": "Eastern Great Lakes Lowlands",
+   "ecoregion_code": "83",
+   "nws_office": "Buffalo, NY",
+   "nws_cwa": "BUF",
+   "nwr": [
+    {
+     "call": "KEB98",
+     "freq": "162.550",
+     "same": "036037"
+    },
+    {
+     "call": "KHA53",
+     "freq": "162.400",
+     "same": "036037"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 5.3
+  },
+  "Greene County": {
+   "fips": "36039",
+   "centroid": [
+    42.287,
+    -74.1495
+   ],
+   "latitude": 42.3,
+   "bbox": [
+    -74.5373,
+    42.0966,
+    -73.7737,
+    42.4641
+   ],
+   "coastal": true,
+   "elevation_ft": 2090,
+   "zone": "5b",
+   "jan_low_f": 11,
+   "jul_high_f": 77,
+   "record_low_f": -27,
+   "record_high_f": 95,
+   "precip_in": 56.0,
+   "snow_in": 94,
+   "last_frost": "May 20",
+   "first_frost": "Sep 27",
+   "growing_days": 129,
+   "ecoregion": "Northeastern Highlands",
+   "ecoregion_code": "58",
+   "nws_office": "Albany, NY",
+   "nws_cwa": "ALY",
+   "nwr": [
+    {
+     "call": "WXL34",
+     "freq": "162.550",
+     "same": "036039"
+    },
+    {
+     "call": "WXL37",
+     "freq": "162.475",
+     "same": "036039"
+    },
+    {
+     "call": "WWF43",
+     "freq": "162.400",
+     "same": "036039"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.0
+  },
+  "Hamilton County": {
+   "fips": "36041",
+   "centroid": [
+    43.6579,
+    -74.5025
+   ],
+   "latitude": 43.7,
+   "bbox": [
+    -74.8674,
+    43.2149,
+    -74.0465,
+    44.1205
+   ],
+   "coastal": false,
+   "elevation_ft": 2300,
+   "zone": "4a",
+   "jan_low_f": 6,
+   "jul_high_f": 75,
+   "record_low_f": -42,
+   "record_high_f": 105,
+   "precip_in": 43.5,
+   "snow_in": 102,
+   "last_frost": "May 23",
+   "first_frost": "Sep 27",
+   "growing_days": 125,
+   "ecoregion": "Northeastern Highlands",
+   "ecoregion_code": "58",
+   "nws_office": "Albany, NY",
+   "nws_cwa": "ALY",
+   "nwr": [
+    {
+     "call": "KSC43",
+     "freq": "162.450",
+     "same": "036041"
+    },
+    {
+     "call": "WXM45",
+     "freq": "162.425",
+     "same": "036041"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 4.9
+  },
+  "Herkimer County": {
+   "fips": "36043",
+   "centroid": [
+    43.571,
+    -74.8411
+   ],
+   "latitude": 43.6,
+   "bbox": [
+    -75.2191,
+    42.8251,
+    -74.6956,
+    44.0967
+   ],
+   "coastal": false,
+   "elevation_ft": 2370,
+   "zone": "4a",
+   "jan_low_f": 6,
+   "jul_high_f": 75,
+   "record_low_f": -52,
+   "record_high_f": 95,
+   "precip_in": 49.8,
+   "snow_in": 158,
+   "last_frost": "May 18",
+   "first_frost": "Sep 30",
+   "growing_days": 134,
+   "ecoregion": "Northeastern Highlands",
+   "ecoregion_code": "58",
+   "nws_office": "Albany, NY",
+   "nws_cwa": "ALY",
+   "nwr": [
+    {
+     "call": "WWH35",
+     "freq": "162.450",
+     "same": "036043"
+    },
+    {
+     "call": "WXM45",
+     "freq": "162.425",
+     "same": "036043"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 4.9
+  },
+  "Jefferson County": {
+   "fips": "36045",
+   "centroid": [
+    43.9964,
+    -76.053
+   ],
+   "latitude": 44.0,
+   "bbox": [
+    -76.4465,
+    43.6681,
+    -75.4466,
+    44.3983
+   ],
+   "coastal": false,
+   "elevation_ft": 290,
+   "zone": "5a",
+   "jan_low_f": 10,
+   "jul_high_f": 79,
+   "record_low_f": -43,
+   "record_high_f": 97,
+   "precip_in": 37.1,
+   "snow_in": 116,
+   "last_frost": "May 11",
+   "first_frost": "Oct 1",
+   "growing_days": 140,
+   "ecoregion": "Eastern Great Lakes Lowlands",
+   "ecoregion_code": "83",
+   "nws_office": "Buffalo, NY",
+   "nws_cwa": "BUF",
+   "nwr": [
+    {
+     "call": "WXL31",
+     "freq": "162.550",
+     "same": "036045"
+    },
+    {
+     "call": "WXN68",
+     "freq": "162.475",
+     "same": "036045"
+    },
+    {
+     "call": "KBS508",
+     "freq": "162.525",
+     "same": "036045"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.6,
+   "sun_hours_jun": 5.4
+  },
+  "Kings County": {
+   "fips": "36047",
+   "centroid": [
+    40.635,
+    -73.9506
+   ],
+   "latitude": 40.6,
+   "bbox": [
+    -74.0422,
+    40.5705,
+    -73.8309,
+    40.7393
+   ],
+   "coastal": true,
+   "elevation_ft": 20,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 85,
+   "record_low_f": -4,
+   "record_high_f": 105,
+   "precip_in": 47.1,
+   "snow_in": 24,
+   "last_frost": "Apr 1",
+   "first_frost": "Nov 19",
+   "growing_days": 233,
+   "ecoregion": "Northeastern Coastal Zone",
+   "ecoregion_code": "59",
+   "nws_office": "Upton, NY",
+   "nws_cwa": "OKX",
+   "nwr": [
+    {
+     "call": "KWO35",
+     "freq": "162.550",
+     "same": "036047"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 3,
+    "hurricane": 3,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Lewis County": {
+   "fips": "36049",
+   "centroid": [
+    43.7827,
+    -75.4441
+   ],
+   "latitude": 43.8,
+   "bbox": [
+    -75.8502,
+    43.4197,
+    -75.111,
+    44.2174
+   ],
+   "coastal": false,
+   "elevation_ft": 740,
+   "zone": "4b",
+   "jan_low_f": 8,
+   "jul_high_f": 78,
+   "record_low_f": -40,
+   "record_high_f": 100,
+   "precip_in": 41.8,
+   "snow_in": 127,
+   "last_frost": "May 8",
+   "first_frost": "Oct 1",
+   "growing_days": 145,
+   "ecoregion": "Eastern Great Lakes Lowlands",
+   "ecoregion_code": "83",
+   "nws_office": "Buffalo, NY",
+   "nws_cwa": "BUF",
+   "nwr": [
+    {
+     "call": "WXM45",
+     "freq": "162.425",
+     "same": "036049"
+    },
+    {
+     "call": "WXL31",
+     "freq": "162.550",
+     "same": "036049"
+    },
+    {
+     "call": "WXN68",
+     "freq": "162.475",
+     "same": "036049"
+    },
+    {
+     "call": "KBS508",
+     "freq": "162.525",
+     "same": "036049"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.6,
+   "sun_hours_jun": 5.1
+  },
+  "Livingston County": {
+   "fips": "36051",
+   "centroid": [
+    42.729,
+    -77.7785
+   ],
+   "latitude": 42.7,
+   "bbox": [
+    -78.0607,
+    42.4707,
+    -77.4872,
+    42.9885
+   ],
+   "coastal": false,
+   "elevation_ft": 1100,
+   "zone": "6a",
+   "jan_low_f": 15,
+   "jul_high_f": 81,
+   "record_low_f": -22,
+   "record_high_f": 102,
+   "precip_in": 33.0,
+   "snow_in": 70,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 17",
+   "growing_days": 170,
+   "ecoregion": "Northern Allegheny Plateau",
+   "ecoregion_code": "60",
+   "nws_office": "Buffalo, NY",
+   "nws_cwa": "BUF",
+   "nwr": [
+    {
+     "call": "WXN29",
+     "freq": "162.425",
+     "same": "036051"
+    },
+    {
+     "call": "WXN55",
+     "freq": "162.450",
+     "same": "036051"
+    },
+    {
+     "call": "KHA53",
+     "freq": "162.400",
+     "same": "036051"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.1
+  },
+  "Madison County": {
+   "fips": "36053",
+   "centroid": [
+    42.91,
+    -75.6636
+   ],
+   "latitude": 42.9,
+   "bbox": [
+    -75.993,
+    42.7234,
+    -75.2406,
+    43.185
+   ],
+   "coastal": false,
+   "elevation_ft": 1290,
+   "zone": "5b",
+   "jan_low_f": 11,
+   "jul_high_f": 77,
+   "record_low_f": -37,
+   "record_high_f": 100,
+   "precip_in": 48.1,
+   "snow_in": 77,
+   "last_frost": "May 6",
+   "first_frost": "Oct 9",
+   "growing_days": 156,
+   "ecoregion": "Northern Allegheny Plateau",
+   "ecoregion_code": "60",
+   "nws_office": "Binghamton, NY",
+   "nws_cwa": "BGM",
+   "nwr": [
+    {
+     "call": "WWH35",
+     "freq": "162.450",
+     "same": "036053"
+    },
+    {
+     "call": "WXM45",
+     "freq": "162.425",
+     "same": "036053"
+    },
+    {
+     "call": "KHC49",
+     "freq": "162.525",
+     "same": "036053"
+    },
+    {
+     "call": "WXL31",
+     "freq": "162.550",
+     "same": "036053"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.0
+  },
+  "Monroe County": {
+   "fips": "36055",
+   "centroid": [
+    43.2503,
+    -77.7005
+   ],
+   "latitude": 43.3,
+   "bbox": [
+    -77.9973,
+    42.94,
+    -77.3712,
+    43.3691
+   ],
+   "coastal": false,
+   "elevation_ft": 310,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 82,
+   "record_low_f": -22,
+   "record_high_f": 102,
+   "precip_in": 35.1,
+   "snow_in": 102,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 25",
+   "growing_days": 181,
+   "ecoregion": "Eastern Great Lakes Lowlands",
+   "ecoregion_code": "83",
+   "nws_office": "Buffalo, NY",
+   "nws_cwa": "BUF",
+   "nwr": [
+    {
+     "call": "KHA53",
+     "freq": "162.400",
+     "same": "036055"
+    },
+    {
+     "call": "WNG539",
+     "freq": "162.525",
+     "same": "036055"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.3
+  },
+  "Montgomery County": {
+   "fips": "36057",
+   "centroid": [
+    42.9009,
+    -74.4354
+   ],
+   "latitude": 42.9,
+   "bbox": [
+    -74.7633,
+    42.773,
+    -74.084,
+    43.0469
+   ],
+   "coastal": false,
+   "elevation_ft": 460,
+   "zone": "5b",
+   "jan_low_f": 13,
+   "jul_high_f": 84,
+   "record_low_f": -33,
+   "record_high_f": 96,
+   "precip_in": 42.5,
+   "snow_in": 54,
+   "last_frost": "May 2",
+   "first_frost": "Oct 13",
+   "growing_days": 163,
+   "ecoregion": "Eastern Great Lakes Lowlands",
+   "ecoregion_code": "83",
+   "nws_office": "Albany, NY",
+   "nws_cwa": "ALY",
+   "nwr": [
+    {
+     "call": "WXL34",
+     "freq": "162.550",
+     "same": "036057"
+    },
+    {
+     "call": "WWH35",
+     "freq": "162.450",
+     "same": "036057"
+    },
+    {
+     "call": "WXM45",
+     "freq": "162.425",
+     "same": "036057"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.0
+  },
+  "Nassau County": {
+   "fips": "36059",
+   "centroid": [
+    40.7296,
+    -73.5894
+   ],
+   "latitude": 40.7,
+   "bbox": [
+    -73.7672,
+    40.5829,
+    -73.4208,
+    40.9185
+   ],
+   "coastal": true,
+   "elevation_ft": 90,
+   "zone": "7b",
+   "jan_low_f": 27,
+   "jul_high_f": 86,
+   "record_low_f": -5,
+   "record_high_f": 108,
+   "precip_in": 45.3,
+   "snow_in": 18,
+   "last_frost": "Apr 2",
+   "first_frost": "Nov 12",
+   "growing_days": 224,
+   "ecoregion": "Northeastern Coastal Zone",
+   "ecoregion_code": "59",
+   "nws_office": "Upton, NY",
+   "nws_cwa": "OKX",
+   "nwr": [
+    {
+     "call": "WXJ42",
+     "freq": "162.400",
+     "same": "036059"
+    },
+    {
+     "call": "KWO35",
+     "freq": "162.550",
+     "same": "036059"
+    },
+    {
+     "call": "WXM80",
+     "freq": "162.475",
+     "same": "036059"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "New York County": {
+   "fips": "36061",
+   "centroid": [
+    40.7766,
+    -73.9702
+   ],
+   "latitude": 40.8,
+   "bbox": [
+    -74.0472,
+    40.6835,
+    -73.907,
+    40.8821
+   ],
+   "coastal": true,
+   "elevation_ft": 80,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 85,
+   "record_low_f": -15,
+   "record_high_f": 106,
+   "precip_in": 49.5,
+   "snow_in": 30,
+   "last_frost": "Mar 30",
+   "first_frost": "Nov 20",
+   "growing_days": 236,
+   "ecoregion": "Northeastern Coastal Zone",
+   "ecoregion_code": "59",
+   "nws_office": "Upton, NY",
+   "nws_cwa": "OKX",
+   "nwr": [
+    {
+     "call": "KWO35",
+     "freq": "162.550",
+     "same": "036061"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 3,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Niagara County": {
+   "fips": "36063",
+   "centroid": [
+    43.2727,
+    -78.8129
+   ],
+   "latitude": 43.3,
+   "bbox": [
+    -79.0732,
+    43.0187,
+    -78.4604,
+    43.3749
+   ],
+   "coastal": false,
+   "elevation_ft": 340,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 83,
+   "record_low_f": -24,
+   "record_high_f": 103,
+   "precip_in": 34.4,
+   "snow_in": 55,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 28",
+   "growing_days": 181,
+   "ecoregion": "Eastern Great Lakes Lowlands",
+   "ecoregion_code": "83",
+   "nws_office": "Buffalo, NY",
+   "nws_cwa": "BUF",
+   "nwr": [
+    {
+     "call": "KEB98",
+     "freq": "162.550",
+     "same": "036063"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 5.3
+  },
+  "Oneida County": {
+   "fips": "36065",
+   "centroid": [
+    43.2427,
+    -75.4343
+   ],
+   "latitude": 43.2,
+   "bbox": [
+    -75.8863,
+    42.8633,
+    -75.0698,
+    43.6148
+   ],
+   "coastal": false,
+   "elevation_ft": 470,
+   "zone": "5b",
+   "jan_low_f": 13,
+   "jul_high_f": 81,
+   "record_low_f": -28,
+   "record_high_f": 100,
+   "precip_in": 43.8,
+   "snow_in": 151,
+   "last_frost": "May 6",
+   "first_frost": "Oct 13",
+   "growing_days": 157,
+   "ecoregion": "Eastern Great Lakes Lowlands",
+   "ecoregion_code": "83",
+   "nws_office": "Binghamton, NY",
+   "nws_cwa": "BGM",
+   "nwr": [
+    {
+     "call": "WWH35",
+     "freq": "162.450",
+     "same": "036065"
+    },
+    {
+     "call": "WXM45",
+     "freq": "162.425",
+     "same": "036065"
+    },
+    {
+     "call": "WXL31",
+     "freq": "162.550",
+     "same": "036065"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.6,
+   "sun_hours_jun": 5.1
+  },
+  "Onondaga County": {
+   "fips": "36067",
+   "centroid": [
+    43.0065,
+    -76.1961
+   ],
+   "latitude": 43.0,
+   "bbox": [
+    -76.4993,
+    42.7712,
+    -75.8961,
+    43.2714
+   ],
+   "coastal": false,
+   "elevation_ft": 910,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 82,
+   "record_low_f": -26,
+   "record_high_f": 101,
+   "precip_in": 39.9,
+   "snow_in": 128,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 19",
+   "growing_days": 173,
+   "ecoregion": "Eastern Great Lakes Lowlands",
+   "ecoregion_code": "83",
+   "nws_office": "Binghamton, NY",
+   "nws_cwa": "BGM",
+   "nwr": [
+    {
+     "call": "WXL31",
+     "freq": "162.550",
+     "same": "036067"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.6,
+   "sun_hours_jun": 5.4
+  },
+  "Ontario County": {
+   "fips": "36069",
+   "centroid": [
+    42.8564,
+    -77.3035
+   ],
+   "latitude": 42.9,
+   "bbox": [
+    -77.6119,
+    42.5764,
+    -76.9634,
+    43.0399
+   ],
+   "coastal": false,
+   "elevation_ft": 1050,
+   "zone": "6b",
+   "jan_low_f": 18,
+   "jul_high_f": 81,
+   "record_low_f": -17,
+   "record_high_f": 101,
+   "precip_in": 35.2,
+   "snow_in": 55,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 22",
+   "growing_days": 175,
+   "ecoregion": "Northern Allegheny Plateau",
+   "ecoregion_code": "60",
+   "nws_office": "Buffalo, NY",
+   "nws_cwa": "BUF",
+   "nwr": [
+    {
+     "call": "WXN29",
+     "freq": "162.425",
+     "same": "036069"
+    },
+    {
+     "call": "WXN55",
+     "freq": "162.450",
+     "same": "036069"
+    },
+    {
+     "call": "KHA53",
+     "freq": "162.400",
+     "same": "036069"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.1
+  },
+  "Orange County": {
+   "fips": "36071",
+   "centroid": [
+    41.4024,
+    -74.3063
+   ],
+   "latitude": 41.4,
+   "bbox": [
+    -74.7619,
+    41.1432,
+    -73.9475,
+    41.6326
+   ],
+   "coastal": true,
+   "elevation_ft": 420,
+   "zone": "6b",
+   "jan_low_f": 17,
+   "jul_high_f": 84,
+   "record_low_f": -27,
+   "record_high_f": 100,
+   "precip_in": 41.0,
+   "snow_in": 44,
+   "last_frost": "May 1",
+   "first_frost": "Oct 11",
+   "growing_days": 163,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Upton, NY",
+   "nws_cwa": "OKX",
+   "nwr": [
+    {
+     "call": "KZZ31",
+     "freq": "162.500",
+     "same": "036071"
+    },
+    {
+     "call": "WXL37",
+     "freq": "162.475",
+     "same": "036071"
+    },
+    {
+     "call": "WNG705",
+     "freq": "162.450",
+     "same": "036071"
+    },
+    {
+     "call": "KWO35",
+     "freq": "162.550",
+     "same": "036071"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.0
+  },
+  "Orleans County": {
+   "fips": "36073",
+   "centroid": [
+    43.3399,
+    -78.207
+   ],
+   "latitude": 43.3,
+   "bbox": [
+    -78.4665,
+    43.1287,
+    -77.9948,
+    43.3765
+   ],
+   "coastal": false,
+   "elevation_ft": 310,
+   "zone": "6b",
+   "jan_low_f": 18,
+   "jul_high_f": 83,
+   "record_low_f": -20,
+   "record_high_f": 101,
+   "precip_in": 35.2,
+   "snow_in": 67,
+   "last_frost": "May 1",
+   "first_frost": "Oct 20",
+   "growing_days": 170,
+   "ecoregion": "Eastern Great Lakes Lowlands",
+   "ecoregion_code": "83",
+   "nws_office": "Buffalo, NY",
+   "nws_cwa": "BUF",
+   "nwr": [
+    {
+     "call": "KEB98",
+     "freq": "162.550",
+     "same": "036073"
+    },
+    {
+     "call": "KHA53",
+     "freq": "162.400",
+     "same": "036073"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 5.3
+  },
+  "Oswego County": {
+   "fips": "36075",
+   "centroid": [
+    43.4614,
+    -76.2093
+   ],
+   "latitude": 43.5,
+   "bbox": [
+    -76.6177,
+    43.1553,
+    -75.7557,
+    43.7065
+   ],
+   "coastal": false,
+   "elevation_ft": 410,
+   "zone": "5b",
+   "jan_low_f": 11,
+   "jul_high_f": 78,
+   "record_low_f": -37,
+   "record_high_f": 97,
+   "precip_in": 48.0,
+   "snow_in": 159,
+   "last_frost": "May 10",
+   "first_frost": "Oct 14",
+   "growing_days": 156,
+   "ecoregion": "Eastern Great Lakes Lowlands",
+   "ecoregion_code": "83",
+   "nws_office": "Buffalo, NY",
+   "nws_cwa": "BUF",
+   "nwr": [
+    {
+     "call": "WXL31",
+     "freq": "162.550",
+     "same": "036075"
+    },
+    {
+     "call": "WXN68",
+     "freq": "162.475",
+     "same": "036075"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.6,
+   "sun_hours_jun": 5.4
+  },
+  "Otsego County": {
+   "fips": "36077",
+   "centroid": [
+    42.6298,
+    -75.0288
+   ],
+   "latitude": 42.6,
+   "bbox": [
+    -75.4161,
+    42.3149,
+    -74.6308,
+    42.9084
+   ],
+   "coastal": false,
+   "elevation_ft": 1690,
+   "zone": "5b",
+   "jan_low_f": 14,
+   "jul_high_f": 73,
+   "record_low_f": -34,
+   "record_high_f": 99,
+   "precip_in": 47.6,
+   "snow_in": 86,
+   "last_frost": "May 7",
+   "first_frost": "Oct 7",
+   "growing_days": 154,
+   "ecoregion": "Northern Allegheny Plateau",
+   "ecoregion_code": "60",
+   "nws_office": "Binghamton, NY",
+   "nws_cwa": "BGM",
+   "nwr": [
+    {
+     "call": "WWH35",
+     "freq": "162.450",
+     "same": "036077"
+    },
+    {
+     "call": "WXM45",
+     "freq": "162.425",
+     "same": "036077"
+    },
+    {
+     "call": "KHC49",
+     "freq": "162.525",
+     "same": "036077"
+    },
+    {
+     "call": "WWF43",
+     "freq": "162.400",
+     "same": "036077"
+    },
+    {
+     "call": "WWH34",
+     "freq": "162.425",
+     "same": "036077"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.0
+  },
+  "Putnam County": {
+   "fips": "36079",
+   "centroid": [
+    41.4279,
+    -73.7439
+   ],
+   "latitude": 41.4,
+   "bbox": [
+    -73.9829,
+    41.321,
+    -73.5302,
+    41.5271
+   ],
+   "coastal": true,
+   "elevation_ft": 910,
+   "zone": "6b",
+   "jan_low_f": 17,
+   "jul_high_f": 83,
+   "record_low_f": -15,
+   "record_high_f": 100,
+   "precip_in": 48.9,
+   "snow_in": 58,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 25",
+   "growing_days": 185,
+   "ecoregion": "Northeastern Highlands",
+   "ecoregion_code": "58",
+   "nws_office": "Upton, NY",
+   "nws_cwa": "OKX",
+   "nwr": [
+    {
+     "call": "WWH33",
+     "freq": "162.500",
+     "same": "036079"
+    },
+    {
+     "call": "WXL37",
+     "freq": "162.475",
+     "same": "036079"
+    },
+    {
+     "call": "KWO35",
+     "freq": "162.550",
+     "same": "036079"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.1
+  },
+  "Queens County": {
+   "fips": "36081",
+   "centroid": [
+    40.6547,
+    -73.8412
+   ],
+   "latitude": 40.7,
+   "bbox": [
+    -73.9617,
+    40.5435,
+    -73.6998,
+    40.8055
+   ],
+   "coastal": true,
+   "elevation_ft": 10,
+   "zone": "7b",
+   "jan_low_f": 26,
+   "jul_high_f": 84,
+   "record_low_f": -2,
+   "record_high_f": 104,
+   "precip_in": 43.3,
+   "snow_in": 26,
+   "last_frost": "Apr 2",
+   "first_frost": "Nov 14",
+   "growing_days": 226,
+   "ecoregion": "Atlantic Coastal Pine Barrens",
+   "ecoregion_code": "84",
+   "nws_office": "Upton, NY",
+   "nws_cwa": "OKX",
+   "nwr": [
+    {
+     "call": "KWO35",
+     "freq": "162.550",
+     "same": "036081"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 3,
+    "hurricane": 3,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Rensselaer County": {
+   "fips": "36083",
+   "centroid": [
+    42.7104,
+    -73.5138
+   ],
+   "latitude": 42.7,
+   "bbox": [
+    -73.7861,
+    42.4639,
+    -73.265,
+    42.9586
+   ],
+   "coastal": true,
+   "elevation_ft": 1230,
+   "zone": "5b",
+   "jan_low_f": 14,
+   "jul_high_f": 78,
+   "record_low_f": -27,
+   "record_high_f": 95,
+   "precip_in": 47.1,
+   "snow_in": 53,
+   "last_frost": "May 1",
+   "first_frost": "Oct 11",
+   "growing_days": 162,
+   "ecoregion": "Northeastern Highlands",
+   "ecoregion_code": "58",
+   "nws_office": "Albany, NY",
+   "nws_cwa": "ALY",
+   "nwr": [
+    {
+     "call": "WXL34",
+     "freq": "162.550",
+     "same": "036083"
+    },
+    {
+     "call": "WWF48",
+     "freq": "162.525",
+     "same": "036083"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.1
+  },
+  "Richmond County": {
+   "fips": "36085",
+   "centroid": [
+    40.5613,
+    -74.1399
+   ],
+   "latitude": 40.6,
+   "bbox": [
+    -74.2591,
+    40.4961,
+    -74.0531,
+    40.6514
+   ],
+   "coastal": true,
+   "elevation_ft": 90,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 85,
+   "record_low_f": -4,
+   "record_high_f": 105,
+   "precip_in": 47.1,
+   "snow_in": 24,
+   "last_frost": "Apr 1",
+   "first_frost": "Nov 19",
+   "growing_days": 233,
+   "ecoregion": "Northern Piedmont",
+   "ecoregion_code": "64",
+   "nws_office": "Upton, NY",
+   "nws_cwa": "OKX",
+   "nwr": [
+    {
+     "call": "KWO35",
+     "freq": "162.550",
+     "same": "036085"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 2,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.2
+  },
+  "Rockland County": {
+   "fips": "36087",
+   "centroid": [
+    41.1546,
+    -74.0247
+   ],
+   "latitude": 41.2,
+   "bbox": [
+    -74.2339,
+    40.9967,
+    -73.8872,
+    41.3258
+   ],
+   "coastal": true,
+   "elevation_ft": 560,
+   "zone": "7a",
+   "jan_low_f": 17,
+   "jul_high_f": 83,
+   "record_low_f": -15,
+   "record_high_f": 100,
+   "precip_in": 50.3,
+   "snow_in": 40,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 19",
+   "growing_days": 174,
+   "ecoregion": "Northern Piedmont",
+   "ecoregion_code": "64",
+   "nws_office": "Upton, NY",
+   "nws_cwa": "OKX",
+   "nwr": [
+    {
+     "call": "KZZ31",
+     "freq": "162.500",
+     "same": "036087"
+    },
+    {
+     "call": "KWO35",
+     "freq": "162.550",
+     "same": "036087"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.0
+  },
+  "St. Lawrence County": {
+   "fips": "36089",
+   "centroid": [
+    44.4881,
+    -75.0743
+   ],
+   "latitude": 44.5,
+   "bbox": [
+    -75.84,
+    44.0504,
+    -74.5257,
+    45.0159
+   ],
+   "coastal": false,
+   "elevation_ft": 740,
+   "zone": "4b",
+   "jan_low_f": 6,
+   "jul_high_f": 80,
+   "record_low_f": -36,
+   "record_high_f": 102,
+   "precip_in": 42.0,
+   "snow_in": 77,
+   "last_frost": "May 5",
+   "first_frost": "Oct 8",
+   "growing_days": 156,
+   "ecoregion": "Eastern Great Lakes Lowlands",
+   "ecoregion_code": "83",
+   "nws_office": "Burlington, VT",
+   "nws_cwa": "BTV",
+   "nwr": [
+    {
+     "call": "WXN68",
+     "freq": "162.475",
+     "same": "036089"
+    },
+    {
+     "call": "KBS508",
+     "freq": "162.525",
+     "same": "036089"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.0
+  },
+  "Saratoga County": {
+   "fips": "36091",
+   "centroid": [
+    43.1061,
+    -73.8554
+   ],
+   "latitude": 43.1,
+   "bbox": [
+    -74.1601,
+    42.7759,
+    -73.5734,
+    43.3975
+   ],
+   "coastal": false,
+   "elevation_ft": 580,
+   "zone": "5b",
+   "jan_low_f": 14,
+   "jul_high_f": 84,
+   "record_low_f": -33,
+   "record_high_f": 99,
+   "precip_in": 46.4,
+   "snow_in": 64,
+   "last_frost": "May 2",
+   "first_frost": "Oct 7",
+   "growing_days": 158,
+   "ecoregion": "Northeastern Coastal Zone",
+   "ecoregion_code": "59",
+   "nws_office": "Albany, NY",
+   "nws_cwa": "ALY",
+   "nwr": [
+    {
+     "call": "WXL34",
+     "freq": "162.550",
+     "same": "036091"
+    },
+    {
+     "call": "KSC43",
+     "freq": "162.450",
+     "same": "036091"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.0
+  },
+  "Schenectady County": {
+   "fips": "36093",
+   "centroid": [
+    42.8176,
+    -74.0436
+   ],
+   "latitude": 42.8,
+   "bbox": [
+    -74.3063,
+    42.7109,
+    -73.8095,
+    42.9557
+   ],
+   "coastal": false,
+   "elevation_ft": 910,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 82,
+   "record_low_f": -28,
+   "record_high_f": 100,
+   "precip_in": 42.6,
+   "snow_in": 59,
+   "last_frost": "May 7",
+   "first_frost": "Oct 7",
+   "growing_days": 153,
+   "ecoregion": "Eastern Great Lakes Lowlands",
+   "ecoregion_code": "83",
+   "nws_office": "Albany, NY",
+   "nws_cwa": "ALY",
+   "nwr": [
+    {
+     "call": "WXL34",
+     "freq": "162.550",
+     "same": "036093"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.0
+  },
+  "Schoharie County": {
+   "fips": "36095",
+   "centroid": [
+    42.5913,
+    -74.4382
+   ],
+   "latitude": 42.6,
+   "bbox": [
+    -74.7117,
+    42.3554,
+    -74.1649,
+    42.8298
+   ],
+   "coastal": false,
+   "elevation_ft": 1930,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 80,
+   "record_low_f": -33,
+   "record_high_f": 96,
+   "precip_in": 40.7,
+   "snow_in": 54,
+   "last_frost": "May 9",
+   "first_frost": "Oct 4",
+   "growing_days": 148,
+   "ecoregion": "Northern Allegheny Plateau",
+   "ecoregion_code": "60",
+   "nws_office": "Albany, NY",
+   "nws_cwa": "ALY",
+   "nwr": [
+    {
+     "call": "WXL34",
+     "freq": "162.550",
+     "same": "036095"
+    },
+    {
+     "call": "WWH35",
+     "freq": "162.450",
+     "same": "036095"
+    },
+    {
+     "call": "WXM45",
+     "freq": "162.425",
+     "same": "036095"
+    },
+    {
+     "call": "WWF43",
+     "freq": "162.400",
+     "same": "036095"
+    },
+    {
+     "call": "WWH34",
+     "freq": "162.425",
+     "same": "036095"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.0
+  },
+  "Schuyler County": {
+   "fips": "36097",
+   "centroid": [
+    42.4198,
+    -76.9386
+   ],
+   "latitude": 42.4,
+   "bbox": [
+    -77.1068,
+    42.2339,
+    -76.6192,
+    42.5467
+   ],
+   "coastal": false,
+   "elevation_ft": 1400,
+   "zone": "6a",
+   "jan_low_f": 14,
+   "jul_high_f": 79,
+   "record_low_f": -20,
+   "record_high_f": 100,
+   "precip_in": 38.9,
+   "snow_in": 53,
+   "last_frost": "May 10",
+   "first_frost": "Oct 8",
+   "growing_days": 150,
+   "ecoregion": "Northern Allegheny Plateau",
+   "ecoregion_code": "60",
+   "nws_office": "Binghamton, NY",
+   "nws_cwa": "BGM",
+   "nwr": [
+    {
+     "call": "WXN29",
+     "freq": "162.425",
+     "same": "036097"
+    },
+    {
+     "call": "WXM31",
+     "freq": "162.400",
+     "same": "036097"
+    },
+    {
+     "call": "WXN59",
+     "freq": "162.500",
+     "same": "036097"
+    },
+    {
+     "call": "WXN55",
+     "freq": "162.450",
+     "same": "036097"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.1
+  },
+  "Seneca County": {
+   "fips": "36099",
+   "centroid": [
+    42.7823,
+    -76.8271
+   ],
+   "latitude": 42.8,
+   "bbox": [
+    -76.9814,
+    42.5415,
+    -76.586,
+    43.0239
+   ],
+   "coastal": false,
+   "elevation_ft": 670,
+   "zone": "6b",
+   "jan_low_f": 17,
+   "jul_high_f": 80,
+   "record_low_f": -21,
+   "record_high_f": 101,
+   "precip_in": 37.0,
+   "snow_in": 56,
+   "last_frost": "May 1",
+   "first_frost": "Oct 21",
+   "growing_days": 172,
+   "ecoregion": "Eastern Great Lakes Lowlands",
+   "ecoregion_code": "83",
+   "nws_office": "Binghamton, NY",
+   "nws_cwa": "BGM",
+   "nwr": [
+    {
+     "call": "WXN29",
+     "freq": "162.425",
+     "same": "036099"
+    },
+    {
+     "call": "WXN59",
+     "freq": "162.500",
+     "same": "036099"
+    },
+    {
+     "call": "WXN55",
+     "freq": "162.450",
+     "same": "036099"
+    },
+    {
+     "call": "KHA53",
+     "freq": "162.400",
+     "same": "036099"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.1
+  },
+  "Steuben County": {
+   "fips": "36101",
+   "centroid": [
+    42.2667,
+    -77.3855
+   ],
+   "latitude": 42.3,
+   "bbox": [
+    -77.7498,
+    41.9986,
+    -76.965,
+    42.5803
+   ],
+   "coastal": false,
+   "elevation_ft": 1620,
+   "zone": "5b",
+   "jan_low_f": 13,
+   "jul_high_f": 83,
+   "record_low_f": -25,
+   "record_high_f": 103,
+   "precip_in": 36.2,
+   "snow_in": 62,
+   "last_frost": "May 12",
+   "first_frost": "Oct 3",
+   "growing_days": 144,
+   "ecoregion": "Northern Allegheny Plateau",
+   "ecoregion_code": "60",
+   "nws_office": "Binghamton, NY",
+   "nws_cwa": "BGM",
+   "nwr": [
+    {
+     "call": "WXN29",
+     "freq": "162.425",
+     "same": "036101"
+    },
+    {
+     "call": "WXM31",
+     "freq": "162.400",
+     "same": "036101"
+    },
+    {
+     "call": "WXN55",
+     "freq": "162.450",
+     "same": "036101"
+    },
+    {
+     "call": "WXM95",
+     "freq": "162.525",
+     "same": "036101"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.1
+  },
+  "Suffolk County": {
+   "fips": "36103",
+   "centroid": [
+    40.9436,
+    -72.6922
+   ],
+   "latitude": 40.9,
+   "bbox": [
+    -73.4967,
+    40.6092,
+    -71.8561,
+    41.2922
+   ],
+   "coastal": true,
+   "elevation_ft": 60,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 84,
+   "record_low_f": -8,
+   "record_high_f": 100,
+   "precip_in": 47.2,
+   "snow_in": 27,
+   "last_frost": "Apr 6",
+   "first_frost": "Nov 9",
+   "growing_days": 215,
+   "ecoregion": "Atlantic Coastal Pine Barrens",
+   "ecoregion_code": "84",
+   "nws_office": "Upton, NY",
+   "nws_cwa": "OKX",
+   "nwr": [
+    {
+     "call": "WXJ42",
+     "freq": "162.400",
+     "same": "036103"
+    },
+    {
+     "call": "KHB47",
+     "freq": "162.550",
+     "same": "036103"
+    },
+    {
+     "call": "KWO35",
+     "freq": "162.550",
+     "same": "036103"
+    },
+    {
+     "call": "WXM80",
+     "freq": "162.475",
+     "same": "036103"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.3
+  },
+  "Sullivan County": {
+   "fips": "36105",
+   "centroid": [
+    41.72,
+    -74.7716
+   ],
+   "latitude": 41.7,
+   "bbox": [
+    -75.1411,
+    41.4216,
+    -74.3647,
+    42.0164
+   ],
+   "coastal": false,
+   "elevation_ft": 1340,
+   "zone": "6a",
+   "jan_low_f": 13,
+   "jul_high_f": 79,
+   "record_low_f": -26,
+   "record_high_f": 99,
+   "precip_in": 53.1,
+   "snow_in": 70,
+   "last_frost": "May 9",
+   "first_frost": "Oct 5",
+   "growing_days": 149,
+   "ecoregion": "Northern Allegheny Plateau",
+   "ecoregion_code": "60",
+   "nws_office": "Binghamton, NY",
+   "nws_cwa": "BGM",
+   "nwr": [
+    {
+     "call": "KZZ31",
+     "freq": "162.500",
+     "same": "036105"
+    },
+    {
+     "call": "WXL37",
+     "freq": "162.475",
+     "same": "036105"
+    },
+    {
+     "call": "WWF43",
+     "freq": "162.400",
+     "same": "036105"
+    },
+    {
+     "call": "WWH34",
+     "freq": "162.425",
+     "same": "036105"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.0
+  },
+  "Tioga County": {
+   "fips": "36107",
+   "centroid": [
+    42.1781,
+    -76.2975
+   ],
+   "latitude": 42.2,
+   "bbox": [
+    -76.5625,
+    41.9983,
+    -76.0807,
+    42.4103
+   ],
+   "coastal": false,
+   "elevation_ft": 1280,
+   "zone": "6a",
+   "jan_low_f": 14,
+   "jul_high_f": 80,
+   "record_low_f": -20,
+   "record_high_f": 98,
+   "precip_in": 41.6,
+   "snow_in": 64,
+   "last_frost": "May 12",
+   "first_frost": "Oct 3",
+   "growing_days": 143,
+   "ecoregion": "Northern Allegheny Plateau",
+   "ecoregion_code": "60",
+   "nws_office": "Binghamton, NY",
+   "nws_cwa": "BGM",
+   "nwr": [
+    {
+     "call": "WXL38",
+     "freq": "162.475",
+     "same": "036107"
+    },
+    {
+     "call": "WXM31",
+     "freq": "162.400",
+     "same": "036107"
+    },
+    {
+     "call": "WXM95",
+     "freq": "162.525",
+     "same": "036107"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.1
+  },
+  "Tompkins County": {
+   "fips": "36109",
+   "centroid": [
+    42.453,
+    -76.4735
+   ],
+   "latitude": 42.5,
+   "bbox": [
+    -76.6967,
+    42.263,
+    -76.2381,
+    42.627
+   ],
+   "coastal": false,
+   "elevation_ft": 850,
+   "zone": "6a",
+   "jan_low_f": 15,
+   "jul_high_f": 80,
+   "record_low_f": -25,
+   "record_high_f": 103,
+   "precip_in": 38.3,
+   "snow_in": 63,
+   "last_frost": "May 11",
+   "first_frost": "Oct 3",
+   "growing_days": 145,
+   "ecoregion": "Northern Allegheny Plateau",
+   "ecoregion_code": "60",
+   "nws_office": "Binghamton, NY",
+   "nws_cwa": "BGM",
+   "nwr": [
+    {
+     "call": "WXL38",
+     "freq": "162.475",
+     "same": "036109"
+    },
+    {
+     "call": "WXM31",
+     "freq": "162.400",
+     "same": "036109"
+    },
+    {
+     "call": "WXN59",
+     "freq": "162.500",
+     "same": "036109"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.1
+  },
+  "Ulster County": {
+   "fips": "36111",
+   "centroid": [
+    41.9472,
+    -74.2655
+   ],
+   "latitude": 41.9,
+   "bbox": [
+    -74.7807,
+    41.5806,
+    -73.911,
+    42.1769
+   ],
+   "coastal": true,
+   "elevation_ft": 710,
+   "zone": "6a",
+   "jan_low_f": 19,
+   "jul_high_f": 83,
+   "record_low_f": -24,
+   "record_high_f": 101,
+   "precip_in": 53.5,
+   "snow_in": 59,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 27",
+   "growing_days": 188,
+   "ecoregion": "Northern Allegheny Plateau",
+   "ecoregion_code": "60",
+   "nws_office": "Albany, NY",
+   "nws_cwa": "ALY",
+   "nwr": [
+    {
+     "call": "WXL37",
+     "freq": "162.475",
+     "same": "036111"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.0
+  },
+  "Warren County": {
+   "fips": "36113",
+   "centroid": [
+    43.5551,
+    -73.8381
+   ],
+   "latitude": 43.6,
+   "bbox": [
+    -74.2146,
+    43.2222,
+    -73.4367,
+    43.8036
+   ],
+   "coastal": false,
+   "elevation_ft": 730,
+   "zone": "5a",
+   "jan_low_f": 12,
+   "jul_high_f": 77,
+   "record_low_f": -30,
+   "record_high_f": 95,
+   "precip_in": 45.7,
+   "snow_in": 60,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 16",
+   "growing_days": 169,
+   "ecoregion": "Northeastern Highlands",
+   "ecoregion_code": "58",
+   "nws_office": "Albany, NY",
+   "nws_cwa": "ALY",
+   "nwr": [
+    {
+     "call": "KSC43",
+     "freq": "162.450",
+     "same": "036113"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.0
+  },
+  "Washington County": {
+   "fips": "36115",
+   "centroid": [
+    43.3124,
+    -73.4394
+   ],
+   "latitude": 43.3,
+   "bbox": [
+    -73.6361,
+    42.9412,
+    -73.242,
+    43.8084
+   ],
+   "coastal": false,
+   "elevation_ft": 500,
+   "zone": "5a",
+   "jan_low_f": 6,
+   "jul_high_f": 84,
+   "record_low_f": -34,
+   "record_high_f": 104,
+   "precip_in": 46.6,
+   "snow_in": 75,
+   "last_frost": "May 17",
+   "first_frost": "Sep 29",
+   "growing_days": 135,
+   "ecoregion": "Northeastern Coastal Zone",
+   "ecoregion_code": "59",
+   "nws_office": "Albany, NY",
+   "nws_cwa": "ALY",
+   "nwr": [
+    {
+     "call": "KSC43",
+     "freq": "162.450",
+     "same": "036115"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.0
+  },
+  "Wayne County": {
+   "fips": "36117",
+   "centroid": [
+    43.2181,
+    -77.0494
+   ],
+   "latitude": 43.2,
+   "bbox": [
+    -77.3747,
+    43.0122,
+    -76.7027,
+    43.3442
+   ],
+   "coastal": false,
+   "elevation_ft": 500,
+   "zone": "6b",
+   "jan_low_f": 16,
+   "jul_high_f": 79,
+   "record_low_f": -26,
+   "record_high_f": 102,
+   "precip_in": 39.9,
+   "snow_in": 105,
+   "last_frost": "May 6",
+   "first_frost": "Oct 10",
+   "growing_days": 158,
+   "ecoregion": "Eastern Great Lakes Lowlands",
+   "ecoregion_code": "83",
+   "nws_office": "Buffalo, NY",
+   "nws_cwa": "BUF",
+   "nwr": [
+    {
+     "call": "WZ2536",
+     "freq": "162.475",
+     "same": "036117"
+    },
+    {
+     "call": "KHA53",
+     "freq": "162.400",
+     "same": "036117"
+    },
+    {
+     "call": "WXL31",
+     "freq": "162.550",
+     "same": "036117"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.3
+  },
+  "Westchester County": {
+   "fips": "36119",
+   "centroid": [
+    41.1527,
+    -73.7458
+   ],
+   "latitude": 41.2,
+   "bbox": [
+    -73.9833,
+    40.8766,
+    -73.4827,
+    41.3664
+   ],
+   "coastal": true,
+   "elevation_ft": 580,
+   "zone": "7a",
+   "jan_low_f": 22,
+   "jul_high_f": 83,
+   "record_low_f": -10,
+   "record_high_f": 102,
+   "precip_in": 47.8,
+   "snow_in": 40,
+   "last_frost": "Apr 12",
+   "first_frost": "Oct 31",
+   "growing_days": 200,
+   "ecoregion": "Northeastern Coastal Zone",
+   "ecoregion_code": "59",
+   "nws_office": "Upton, NY",
+   "nws_cwa": "OKX",
+   "nwr": [
+    {
+     "call": "KWO35",
+     "freq": "162.550",
+     "same": "036119"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.1
+  },
+  "Wyoming County": {
+   "fips": "36121",
+   "centroid": [
+    42.7014,
+    -78.2286
+   ],
+   "latitude": 42.7,
+   "bbox": [
+    -78.4881,
+    42.5191,
+    -77.9549,
+    42.8703
+   ],
+   "coastal": false,
+   "elevation_ft": 1860,
+   "zone": "6a",
+   "jan_low_f": 13,
+   "jul_high_f": 76,
+   "record_low_f": -30,
+   "record_high_f": 99,
+   "precip_in": 45.2,
+   "snow_in": 70,
+   "last_frost": "May 7",
+   "first_frost": "Oct 10",
+   "growing_days": 156,
+   "ecoregion": "Northern Allegheny Plateau",
+   "ecoregion_code": "60",
+   "nws_office": "Buffalo, NY",
+   "nws_cwa": "BUF",
+   "nwr": [
+    {
+     "call": "KEB98",
+     "freq": "162.550",
+     "same": "036121"
+    },
+    {
+     "call": "WXN29",
+     "freq": "162.425",
+     "same": "036121"
+    },
+    {
+     "call": "WXN55",
+     "freq": "162.450",
+     "same": "036121"
+    },
+    {
+     "call": "KHA53",
+     "freq": "162.400",
+     "same": "036121"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.1
+  },
+  "Yates County": {
+   "fips": "36123",
+   "centroid": [
+    42.6382,
+    -77.1043
+   ],
+   "latitude": 42.6,
+   "bbox": [
+    -77.3671,
+    42.4596,
+    -76.8903,
+    42.7644
+   ],
+   "coastal": false,
+   "elevation_ft": 1190,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 81,
+   "record_low_f": -25,
+   "record_high_f": 103,
+   "precip_in": 30.2,
+   "snow_in": 57,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 22",
+   "growing_days": 173,
+   "ecoregion": "Northern Allegheny Plateau",
+   "ecoregion_code": "60",
+   "nws_office": "Binghamton, NY",
+   "nws_cwa": "BGM",
+   "nwr": [
+    {
+     "call": "WXN29",
+     "freq": "162.425",
+     "same": "036123"
+    },
+    {
+     "call": "WXN59",
+     "freq": "162.500",
+     "same": "036123"
+    },
+    {
+     "call": "KHA53",
+     "freq": "162.400",
+     "same": "036123"
+    }
+   ],
+   "state_em": "New York State Division of Homeland Security and Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.1
+  }
+ }
+}

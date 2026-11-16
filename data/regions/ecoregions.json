@@ -1,0 +1,1913 @@
+{
+ "Coast Range": {
+  "code": "1",
+  "na_code": "7.1.8",
+  "level2": "Marine West Coast Forest",
+  "level1": "Marine West Coast Forest",
+  "states": [
+   "CA",
+   "OR",
+   "WA"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Puget Lowland": {
+  "code": "2",
+  "na_code": "7.1.7",
+  "level2": "Marine West Coast Forest",
+  "level1": "Marine West Coast Forest",
+  "states": [
+   "WA"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Willamette Valley": {
+  "code": "3",
+  "na_code": "7.1.9",
+  "level2": "Marine West Coast Forest",
+  "level1": "Marine West Coast Forest",
+  "states": [
+   "OR",
+   "WA"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Cascades": {
+  "code": "4",
+  "na_code": "6.2.7",
+  "level2": "Western Cordillera",
+  "level1": "Northwestern Forested Mountains",
+  "states": [
+   "CA",
+   "OR",
+   "WA"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Sierra Nevada": {
+  "code": "5",
+  "na_code": "6.2.12",
+  "level2": "Western Cordillera",
+  "level1": "Northwestern Forested Mountains",
+  "states": [
+   "CA",
+   "NV"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Central California Foothills and Coastal Mountains": {
+  "code": "6",
+  "na_code": "11.1.1",
+  "level2": "Mediterranean California",
+  "level1": "Mediterranean California",
+  "states": [
+   "CA"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Central California Valley": {
+  "code": "7",
+  "na_code": "11.1.2",
+  "level2": "Mediterranean California",
+  "level1": "Mediterranean California",
+  "states": [
+   "CA"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Southern California Mountains": {
+  "code": "8",
+  "na_code": "11.1.3",
+  "level2": "Mediterranean California",
+  "level1": "Mediterranean California",
+  "states": [
+   "CA"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Eastern Cascades Slopes and Foothills": {
+  "code": "9",
+  "na_code": "6.2.8",
+  "level2": "Western Cordillera",
+  "level1": "Northwestern Forested Mountains",
+  "states": [
+   "CA",
+   "OR",
+   "WA"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Columbia Plateau": {
+  "code": "10",
+  "na_code": "10.1.2",
+  "level2": "Cold Deserts",
+  "level1": "North American Deserts",
+  "states": [
+   "ID",
+   "OR",
+   "WA"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Blue Mountains": {
+  "code": "11",
+  "na_code": "6.2.9",
+  "level2": "Western Cordillera",
+  "level1": "Northwestern Forested Mountains",
+  "states": [
+   "ID",
+   "OR",
+   "WA"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Snake River Plain": {
+  "code": "12",
+  "na_code": "10.1.8",
+  "level2": "Cold Deserts",
+  "level1": "North American Deserts",
+  "states": [
+   "ID",
+   "OR"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Central Basin and Range": {
+  "code": "13",
+  "na_code": "10.1.5",
+  "level2": "Cold Deserts",
+  "level1": "North American Deserts",
+  "states": [
+   "CA",
+   "ID",
+   "NV",
+   "UT"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Mojave Basin and Range": {
+  "code": "14",
+  "na_code": "10.2.1",
+  "level2": "Warm Deserts",
+  "level1": "North American Deserts",
+  "states": [
+   "AZ",
+   "CA",
+   "NV",
+   "UT"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Northern Rockies": {
+  "code": "15",
+  "na_code": "6.2.3",
+  "level2": "Western Cordillera",
+  "level1": "Northwestern Forested Mountains",
+  "states": [
+   "ID",
+   "MT",
+   "WA"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Idaho Batholith": {
+  "code": "16",
+  "na_code": "6.2.15",
+  "level2": "Western Cordillera",
+  "level1": "Northwestern Forested Mountains",
+  "states": [
+   "ID",
+   "MT"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Middle Rockies": {
+  "code": "17",
+  "na_code": "6.2.10",
+  "level2": "Western Cordillera",
+  "level1": "Northwestern Forested Mountains",
+  "states": [
+   "ID",
+   "MT",
+   "SD",
+   "WY"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Wyoming Basin": {
+  "code": "18",
+  "na_code": "10.1.4",
+  "level2": "Cold Deserts",
+  "level1": "North American Deserts",
+  "states": [
+   "CO",
+   "ID",
+   "MT",
+   "UT",
+   "WY"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Wasatch and Uinta Mountains": {
+  "code": "19",
+  "na_code": "6.2.13",
+  "level2": "Western Cordillera",
+  "level1": "Northwestern Forested Mountains",
+  "states": [
+   "ID",
+   "UT",
+   "WY"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Colorado Plateaus": {
+  "code": "20",
+  "na_code": "10.1.6",
+  "level2": "Cold Deserts",
+  "level1": "North American Deserts",
+  "states": [
+   "AZ",
+   "CO",
+   "NM",
+   "UT"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Southern Rockies": {
+  "code": "21",
+  "na_code": "6.2.14",
+  "level2": "Western Cordillera",
+  "level1": "Northwestern Forested Mountains",
+  "states": [
+   "CO",
+   "NM",
+   "UT",
+   "WY"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Arizona/New Mexico Plateau": {
+  "code": "22",
+  "na_code": "10.1.7",
+  "level2": "Cold Deserts",
+  "level1": "North American Deserts",
+  "states": [
+   "AZ",
+   "CO",
+   "NM"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Arizona/New Mexico Mountains": {
+  "code": "23",
+  "na_code": "13.1.1",
+  "level2": "Upper Gila Mountains",
+  "level1": "Temperate Sierras",
+  "states": [
+   "AZ",
+   "NM",
+   "TX"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Chihuahuan Deserts": {
+  "code": "24",
+  "na_code": "10.2.4",
+  "level2": "Warm Deserts",
+  "level1": "North American Deserts",
+  "states": [
+   "AZ",
+   "NM",
+   "TX"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "High Plains": {
+  "code": "25",
+  "na_code": "9.4.1",
+  "level2": "South Central Semi-Arid Prairies",
+  "level1": "Great Plains",
+  "states": [
+   "CO",
+   "KS",
+   "NE",
+   "NM",
+   "OK",
+   "SD",
+   "TX",
+   "WY"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Southwestern Tablelands": {
+  "code": "26",
+  "na_code": "9.4.3",
+  "level2": "South Central Semi-Arid Prairies",
+  "level1": "Great Plains",
+  "states": [
+   "CO",
+   "KS",
+   "NM",
+   "OK",
+   "TX"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Central Great Plains": {
+  "code": "27",
+  "na_code": "9.4.2",
+  "level2": "South Central Semi-Arid Prairies",
+  "level1": "Great Plains",
+  "states": [
+   "KS",
+   "NE",
+   "OK",
+   "TX"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Flint Hills": {
+  "code": "28",
+  "na_code": "9.4.4",
+  "level2": "South Central Semi-Arid Prairies",
+  "level1": "Great Plains",
+  "states": [
+   "KS",
+   "OK"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Cross Timbers": {
+  "code": "29",
+  "na_code": "9.4.5",
+  "level2": "South Central Semi-Arid Prairies",
+  "level1": "Great Plains",
+  "states": [
+   "KS",
+   "OK",
+   "TX"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Edwards Plateau": {
+  "code": "30",
+  "na_code": "9.4.6",
+  "level2": "South Central Semi-Arid Prairies",
+  "level1": "Great Plains",
+  "states": [
+   "TX"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Southern Texas Plains": {
+  "code": "31",
+  "na_code": "9.6.1",
+  "level2": "Tamaulipas-Texas Semiarid Plain",
+  "level1": "Great Plains",
+  "states": [
+   "TX"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Texas Blackland Prairies": {
+  "code": "32",
+  "na_code": "9.4.7",
+  "level2": "South Central Semi-Arid Prairies",
+  "level1": "Great Plains",
+  "states": [
+   "TX"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "East Central Texas Plains": {
+  "code": "33",
+  "na_code": "8.3.8",
+  "level2": "Southeastern Usa Plains",
+  "level1": "Eastern Temperate Forests",
+  "states": [
+   "OK",
+   "TX"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Western Gulf Coastal Plain": {
+  "code": "34",
+  "na_code": "9.5.1",
+  "level2": "Texas-Louisiana Coastal Plain",
+  "level1": "Great Plains",
+  "states": [
+   "LA",
+   "TX"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "South Central Plains": {
+  "code": "35",
+  "na_code": "8.3.7",
+  "level2": "Southeastern Usa Plains",
+  "level1": "Eastern Temperate Forests",
+  "states": [
+   "AR",
+   "LA",
+   "OK",
+   "TX"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Ouachita Mountains": {
+  "code": "36",
+  "na_code": "8.4.8",
+  "level2": "Ozark/Ouachita-Appalachian Forests",
+  "level1": "Eastern Temperate Forests",
+  "states": [
+   "AR",
+   "OK"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Arkansas Valley": {
+  "code": "37",
+  "na_code": "8.4.7",
+  "level2": "Ozark/Ouachita-Appalachian Forests",
+  "level1": "Eastern Temperate Forests",
+  "states": [
+   "AR",
+   "OK"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Boston Mountains": {
+  "code": "38",
+  "na_code": "8.4.6",
+  "level2": "Ozark/Ouachita-Appalachian Forests",
+  "level1": "Eastern Temperate Forests",
+  "states": [
+   "AR",
+   "OK"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Ozark Highlands": {
+  "code": "39",
+  "na_code": "8.4.5",
+  "level2": "Ozark/Ouachita-Appalachian Forests",
+  "level1": "Eastern Temperate Forests",
+  "states": [
+   "AR",
+   "KS",
+   "MO",
+   "OK"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Central Irregular Plains": {
+  "code": "40",
+  "na_code": "9.2.4",
+  "level2": "Temperate Prairies",
+  "level1": "Great Plains",
+  "states": [
+   "IA",
+   "KS",
+   "MO",
+   "OK"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Canadian Rockies": {
+  "code": "41",
+  "na_code": "6.2.4",
+  "level2": "Western Cordillera",
+  "level1": "Northwestern Forested Mountains",
+  "states": [
+   "MT"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Northwestern Glaciated Plains": {
+  "code": "42",
+  "na_code": "9.3.1",
+  "level2": "West-Central Semi-Arid Prairies",
+  "level1": "Great Plains",
+  "states": [
+   "MT",
+   "ND",
+   "NE",
+   "SD"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Northwestern Great Plains": {
+  "code": "43",
+  "na_code": "9.3.3",
+  "level2": "West-Central Semi-Arid Prairies",
+  "level1": "Great Plains",
+  "states": [
+   "MT",
+   "ND",
+   "NE",
+   "SD",
+   "WY"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Nebraska Sand Hills": {
+  "code": "44",
+  "na_code": "9.3.4",
+  "level2": "West-Central Semi-Arid Prairies",
+  "level1": "Great Plains",
+  "states": [
+   "NE",
+   "SD"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Piedmont": {
+  "code": "45",
+  "na_code": "8.3.4",
+  "level2": "Southeastern Usa Plains",
+  "level1": "Eastern Temperate Forests",
+  "states": [
+   "AL",
+   "GA",
+   "NC",
+   "SC",
+   "VA"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Northern Glaciated Plains": {
+  "code": "46",
+  "na_code": "9.2.1",
+  "level2": "Temperate Prairies",
+  "level1": "Great Plains",
+  "states": [
+   "MN",
+   "ND",
+   "SD"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Western Corn Belt Plains": {
+  "code": "47",
+  "na_code": "9.2.3",
+  "level2": "Temperate Prairies",
+  "level1": "Great Plains",
+  "states": [
+   "IA",
+   "KS",
+   "MN",
+   "MO",
+   "NE",
+   "SD",
+   "WI"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Lake Agassiz Plain": {
+  "code": "48",
+  "na_code": "9.2.2",
+  "level2": "Temperate Prairies",
+  "level1": "Great Plains",
+  "states": [
+   "MN",
+   "ND",
+   "SD"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Northern Minnesota Wetlands": {
+  "code": "49",
+  "na_code": "5.2.2",
+  "level2": "Mixed Wood Shield",
+  "level1": "Northern Forests",
+  "states": [
+   "MN"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Northern Lakes and Forests": {
+  "code": "50",
+  "na_code": "5.2.1",
+  "level2": "Mixed Wood Shield",
+  "level1": "Northern Forests",
+  "states": [
+   "MI",
+   "MN",
+   "WI"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "North Central Hardwood Forests": {
+  "code": "51",
+  "na_code": "8.1.4",
+  "level2": "Mixed Wood Plains",
+  "level1": "Eastern Temperate Forests",
+  "states": [
+   "MI",
+   "MN",
+   "WI"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Driftless Area": {
+  "code": "52",
+  "na_code": "8.1.5",
+  "level2": "Mixed Wood Plains",
+  "level1": "Eastern Temperate Forests",
+  "states": [
+   "IA",
+   "IL",
+   "MN",
+   "WI"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Southeastern Wisconsin Till Plains": {
+  "code": "53",
+  "na_code": "8.2.1",
+  "level2": "Central Usa Plains",
+  "level1": "Eastern Temperate Forests",
+  "states": [
+   "IL",
+   "WI"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Central Corn Belt Plains": {
+  "code": "54",
+  "na_code": "8.2.3",
+  "level2": "Central Usa Plains",
+  "level1": "Eastern Temperate Forests",
+  "states": [
+   "IL",
+   "IN",
+   "WI"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Eastern Corn Belt Plains": {
+  "code": "55",
+  "na_code": "8.2.4",
+  "level2": "Central Usa Plains",
+  "level1": "Eastern Temperate Forests",
+  "states": [
+   "IN",
+   "MI",
+   "OH"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Southern Michigan/Northern Indiana Drift Plains": {
+  "code": "56",
+  "na_code": "8.1.6",
+  "level2": "Mixed Wood Plains",
+  "level1": "Eastern Temperate Forests",
+  "states": [
+   "IN",
+   "MI"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Huron/Erie Lake Plains": {
+  "code": "57",
+  "na_code": "8.2.2",
+  "level2": "Central Usa Plains",
+  "level1": "Eastern Temperate Forests",
+  "states": [
+   "IN",
+   "MI",
+   "OH"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Northeastern Highlands": {
+  "code": "58",
+  "na_code": "5.3.1",
+  "level2": "Atlantic Highlands",
+  "level1": "Northern Forests",
+  "states": [
+   "CT",
+   "MA",
+   "ME",
+   "NH",
+   "NJ",
+   "NY",
+   "PA",
+   "VT"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Northeastern Coastal Zone": {
+  "code": "59",
+  "na_code": "8.1.7",
+  "level2": "Mixed Wood Plains",
+  "level1": "Eastern Temperate Forests",
+  "states": [
+   "CT",
+   "MA",
+   "ME",
+   "NH",
+   "NY",
+   "RI",
+   "VT"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Northern Allegheny Plateau": {
+  "code": "60",
+  "na_code": "8.1.3",
+  "level2": "Mixed Wood Plains",
+  "level1": "Eastern Temperate Forests",
+  "states": [
+   "NY",
+   "PA"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Erie Drift Plain": {
+  "code": "61",
+  "na_code": "8.1.10",
+  "level2": "Mixed Wood Plains",
+  "level1": "Eastern Temperate Forests",
+  "states": [
+   "NY",
+   "OH",
+   "PA"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "North Central Appalachians": {
+  "code": "62",
+  "na_code": "5.3.3",
+  "level2": "Atlantic Highlands",
+  "level1": "Northern Forests",
+  "states": [
+   "NY",
+   "PA"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Middle Atlantic Coastal Plain": {
+  "code": "63",
+  "na_code": "8.5.1",
+  "level2": "Mississippi Alluvial And Southeast Usa Coastal Plains",
+  "level1": "Eastern Temperate Forests",
+  "states": [
+   "DE",
+   "MD",
+   "NC",
+   "NJ",
+   "PA",
+   "SC",
+   "VA"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Northern Piedmont": {
+  "code": "64",
+  "na_code": "8.3.1",
+  "level2": "Southeastern Usa Plains",
+  "level1": "Eastern Temperate Forests",
+  "states": [
+   "DC",
+   "DE",
+   "MD",
+   "NJ",
+   "NY",
+   "PA",
+   "VA"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Southeastern Plains": {
+  "code": "65",
+  "na_code": "8.3.5",
+  "level2": "Southeastern Usa Plains",
+  "level1": "Eastern Temperate Forests",
+  "states": [
+   "AL",
+   "DC",
+   "DE",
+   "FL",
+   "GA",
+   "LA",
+   "MD",
+   "MS",
+   "NC",
+   "SC",
+   "TN",
+   "VA"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Blue Ridge": {
+  "code": "66",
+  "na_code": "8.4.4",
+  "level2": "Ozark/Ouachita-Appalachian Forests",
+  "level1": "Eastern Temperate Forests",
+  "states": [
+   "GA",
+   "MD",
+   "NC",
+   "PA",
+   "SC",
+   "TN",
+   "VA",
+   "WV"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Ridge and Valley": {
+  "code": "67",
+  "na_code": "8.4.1",
+  "level2": "Ozark/Ouachita-Appalachian Forests",
+  "level1": "Eastern Temperate Forests",
+  "states": [
+   "AL",
+   "GA",
+   "MD",
+   "NJ",
+   "NY",
+   "PA",
+   "TN",
+   "VA",
+   "WV"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Southwestern Appalachians": {
+  "code": "68",
+  "na_code": "8.4.9",
+  "level2": "Ozark/Ouachita-Appalachian Forests",
+  "level1": "Eastern Temperate Forests",
+  "states": [
+   "AL",
+   "GA",
+   "KY",
+   "TN"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Central Appalachians": {
+  "code": "69",
+  "na_code": "8.4.2",
+  "level2": "Ozark/Ouachita-Appalachian Forests",
+  "level1": "Eastern Temperate Forests",
+  "states": [
+   "KY",
+   "MD",
+   "PA",
+   "TN",
+   "VA",
+   "WV"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Western Allegheny Plateau": {
+  "code": "70",
+  "na_code": "8.4.3",
+  "level2": "Ozark/Ouachita-Appalachian Forests",
+  "level1": "Eastern Temperate Forests",
+  "states": [
+   "KY",
+   "OH",
+   "PA",
+   "WV"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Interior Plateau": {
+  "code": "71",
+  "na_code": "8.3.3",
+  "level2": "Southeastern Usa Plains",
+  "level1": "Eastern Temperate Forests",
+  "states": [
+   "AL",
+   "IL",
+   "IN",
+   "KY",
+   "OH",
+   "TN"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Interior River Valleys and Hills": {
+  "code": "72",
+  "na_code": "8.3.2",
+  "level2": "Southeastern Usa Plains",
+  "level1": "Eastern Temperate Forests",
+  "states": [
+   "IA",
+   "IL",
+   "IN",
+   "KY",
+   "MO"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Mississippi Alluvial Plain": {
+  "code": "73",
+  "na_code": "8.5.2",
+  "level2": "Mississippi Alluvial And Southeast Usa Coastal Plains",
+  "level1": "Eastern Temperate Forests",
+  "states": [
+   "AR",
+   "IL",
+   "KY",
+   "LA",
+   "MO",
+   "MS",
+   "TN"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Mississippi Valley Loess Plains": {
+  "code": "74",
+  "na_code": "8.3.6",
+  "level2": "Southeastern Usa Plains",
+  "level1": "Eastern Temperate Forests",
+  "states": [
+   "AR",
+   "KY",
+   "LA",
+   "MO",
+   "MS",
+   "TN"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Southern Coastal Plain": {
+  "code": "75",
+  "na_code": "8.5.3",
+  "level2": "Mississippi Alluvial And Southeast Usa Coastal Plains",
+  "level1": "Eastern Temperate Forests",
+  "states": [
+   "AL",
+   "FL",
+   "GA",
+   "LA",
+   "MS",
+   "SC"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Southern Florida Coastal Plain": {
+  "code": "76",
+  "na_code": "15.4.1",
+  "level2": "Everglades",
+  "level1": "Tropical Wet Forests",
+  "states": [
+   "FL"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "North Cascades": {
+  "code": "77",
+  "na_code": "6.2.5",
+  "level2": "Western Cordillera",
+  "level1": "Northwestern Forested Mountains",
+  "states": [
+   "WA"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Klamath Mountains/California High North Coast Range": {
+  "code": "78",
+  "na_code": "6.2.11",
+  "level2": "Western Cordillera",
+  "level1": "Northwestern Forested Mountains",
+  "states": [
+   "CA",
+   "OR"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Madrean Archipelago": {
+  "code": "79",
+  "na_code": "12.1.1",
+  "level2": "Western Sierra Madre Piedmont",
+  "level1": "Southern Semi-Arid Highlands",
+  "states": [
+   "AZ",
+   "NM"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Northern Basin and Range": {
+  "code": "80",
+  "na_code": "10.1.3",
+  "level2": "Cold Deserts",
+  "level1": "North American Deserts",
+  "states": [
+   "CA",
+   "ID",
+   "NV",
+   "OR",
+   "UT"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Sonoran Basin and Range": {
+  "code": "81",
+  "na_code": "10.2.2",
+  "level2": "Warm Deserts",
+  "level1": "North American Deserts",
+  "states": [
+   "AZ",
+   "CA"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Acadian Plains and Hills": {
+  "code": "82",
+  "na_code": "8.1.8",
+  "level2": "Mixed Wood Plains",
+  "level1": "Eastern Temperate Forests",
+  "states": [
+   "ME"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Eastern Great Lakes Lowlands": {
+  "code": "83",
+  "na_code": "8.1.1",
+  "level2": "Mixed Wood Plains",
+  "level1": "Eastern Temperate Forests",
+  "states": [
+   "NY",
+   "OH",
+   "PA",
+   "VT"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Atlantic Coastal Pine Barrens": {
+  "code": "84",
+  "na_code": "8.5.4",
+  "level2": "Mississippi Alluvial And Southeast Usa Coastal Plains",
+  "level1": "Eastern Temperate Forests",
+  "states": [
+   "MA",
+   "NJ",
+   "NY"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Southern California/Northern Baja Coast": {
+  "code": "85",
+  "na_code": "11.1.1",
+  "level2": "Mediterranean California",
+  "level1": "Mediterranean California",
+  "states": [
+   "CA"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Arctic Coastal Plain": {
+  "code": "101",
+  "na_code": "2.2.1",
+  "level2": "Alaska Tundra",
+  "level1": "Tundra",
+  "states": [
+   "AK"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Arctic Foothills": {
+  "code": "102",
+  "na_code": "2.2.2",
+  "level2": "Alaska Tundra",
+  "level1": "Tundra",
+  "states": [
+   "AK"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Brooks Range": {
+  "code": "103",
+  "na_code": "2.3.1",
+  "level2": "Brooks Range Tundra",
+  "level1": "Tundra",
+  "states": [
+   "AK"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Interior Forested Lowlands and Uplands": {
+  "code": "104",
+  "na_code": "3.1.1",
+  "level2": "Alaska Boreal Interior",
+  "level1": "Taiga",
+  "states": [
+   "AK"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Interior Highlands": {
+  "code": "105",
+  "na_code": "6.1.1",
+  "level2": "Boreal Cordillera",
+  "level1": "Northwestern Forested Mountains",
+  "states": [
+   "AK"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Interior Bottomlands": {
+  "code": "106",
+  "na_code": "3.1.2",
+  "level2": "Alaska Boreal Interior",
+  "level1": "Taiga",
+  "states": [
+   "AK"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Yukon Flats": {
+  "code": "107",
+  "na_code": "3.1.3",
+  "level2": "Alaska Boreal Interior",
+  "level1": "Taiga",
+  "states": [
+   "AK"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Ogilvie Mountains": {
+  "code": "108",
+  "na_code": "3.2.1",
+  "level2": "Taiga Cordillera",
+  "level1": "Taiga",
+  "states": [
+   "AK"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Subarctic Coastal Plains": {
+  "code": "109",
+  "na_code": "2.2.3",
+  "level2": "Alaska Tundra",
+  "level1": "Tundra",
+  "states": [
+   "AK"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Seward Peninsula": {
+  "code": "110",
+  "na_code": "2.2.4",
+  "level2": "Alaska Tundra",
+  "level1": "Tundra",
+  "states": [
+   "AK"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Ahklun and Kilbuck Mountains": {
+  "code": "111",
+  "na_code": "7.1.1",
+  "level2": "Marine West Coast Forest",
+  "level1": "Marine West Coast Forest",
+  "states": [
+   "AK"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Bristol Bay-Nushagak Lowlands": {
+  "code": "112",
+  "na_code": "2.2.5",
+  "level2": "Alaska Tundra",
+  "level1": "Tundra",
+  "states": [
+   "AK"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Alaska Peninsula Mountains": {
+  "code": "113",
+  "na_code": "7.1.2",
+  "level2": "Marine West Coast Forest",
+  "level1": "Marine West Coast Forest",
+  "states": [
+   "AK"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Aleutian Islands": {
+  "code": "114",
+  "na_code": "2.2.6",
+  "level2": "Alaska Tundra",
+  "level1": "Tundra",
+  "states": [
+   "AK"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Cook Inlet": {
+  "code": "115",
+  "na_code": "7.1.3",
+  "level2": "Marine West Coast Forest",
+  "level1": "Marine West Coast Forest",
+  "states": [
+   "AK"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Alaska Range": {
+  "code": "116",
+  "na_code": "6.1.2",
+  "level2": "Boreal Cordillera",
+  "level1": "Northwestern Forested Mountains",
+  "states": [
+   "AK"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Copper Plateau": {
+  "code": "117",
+  "na_code": "6.1.3",
+  "level2": "Boreal Cordillera",
+  "level1": "Northwestern Forested Mountains",
+  "states": [
+   "AK"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Wrangell Mountains": {
+  "code": "118",
+  "na_code": "6.1.4",
+  "level2": "Boreal Cordillera",
+  "level1": "Northwestern Forested Mountains",
+  "states": [
+   "AK"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Pacific Coastal Mountains": {
+  "code": "119",
+  "na_code": "7.1.4",
+  "level2": "Marine West Coast Forest",
+  "level1": "Marine West Coast Forest",
+  "states": [
+   "AK"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Coastal Western Hemlock-Sitka Spruce Forests": {
+  "code": "120",
+  "na_code": "7.1.5",
+  "level2": "Marine West Coast Forest",
+  "level1": "Marine West Coast Forest",
+  "states": [
+   "AK"
+  ],
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ },
+ "Hawaiian Islands (not mapped at EPA Level III)": {
+  "code": "HI",
+  "na_code": null,
+  "level2": null,
+  "level1": null,
+  "states": [
+   "HI"
+  ],
+  "note": "EPA has not published Level III ecoregions for Hawaii; kit placeholder.",
+  "plants": {
+   "deadly": [],
+   "edible": []
+  },
+  "trees": {
+   "firewood": []
+  }
+ }
+}

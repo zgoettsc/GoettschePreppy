@@ -143,6 +143,11 @@ details.more > summary { min-height: var(--tap); display: flex; align-items: cen
 details.more[open] { padding-bottom: 8px; }
 .grid2 { display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); column-gap: 16px; }
 
+/* privacy: relay code */
+.relay-src pre { white-space: pre-wrap; overflow-wrap: anywhere; max-height: 60vh; overflow: auto; font: 12.5px/1.45 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  background: var(--surface-2); border: 1px solid var(--line); border-radius: 6px; padding: 8px; }
+.relay-src h4 { margin: 10px 0 4px; font-size: 0.95rem; }
+
 /* decision cards */
 .card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 14px; }
 .card > legend { float: left; width: 100%; font-size: 1.05rem; margin-bottom: 6px; }

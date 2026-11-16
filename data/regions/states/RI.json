@@ -1,0 +1,312 @@
+{
+ "state": "RI",
+ "state_name": "Rhode Island",
+ "state_fips": "44",
+ "state_em": "Rhode Island Emergency Management Agency",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "BOX": "NWS Norton, MA"
+ },
+ "ecoregions": [
+  "Northeastern Coastal Zone"
+ ],
+ "counties": {
+  "Bristol County": {
+   "fips": "44001",
+   "centroid": [
+    41.7068,
+    -71.2867
+   ],
+   "latitude": 41.7,
+   "bbox": [
+    -71.3527,
+    41.6423,
+    -71.2253,
+    41.7763
+   ],
+   "coastal": true,
+   "elevation_ft": 30,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 85,
+   "record_low_f": -17,
+   "record_high_f": 104,
+   "precip_in": 49.4,
+   "snow_in": 38,
+   "last_frost": "Apr 11",
+   "first_frost": "Nov 2",
+   "growing_days": 203,
+   "ecoregion": "Northeastern Coastal Zone",
+   "ecoregion_code": "59",
+   "nws_office": "Norton, MA",
+   "nws_cwa": "BOX",
+   "nwr": [
+    {
+     "call": "WXJ39",
+     "freq": "162.400",
+     "same": "044001"
+    }
+   ],
+   "state_em": "Rhode Island Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.3
+  },
+  "Kent County": {
+   "fips": "44003",
+   "centroid": [
+    41.6751,
+    -71.5803
+   ],
+   "latitude": 41.7,
+   "bbox": [
+    -71.7896,
+    41.5962,
+    -71.3557,
+    41.768
+   ],
+   "coastal": true,
+   "elevation_ft": 260,
+   "zone": "6b",
+   "jan_low_f": 18,
+   "jul_high_f": 85,
+   "record_low_f": -17,
+   "record_high_f": 104,
+   "precip_in": 52.0,
+   "snow_in": 37,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 20",
+   "growing_days": 179,
+   "ecoregion": "Northeastern Coastal Zone",
+   "ecoregion_code": "59",
+   "nws_office": "Norton, MA",
+   "nws_cwa": "BOX",
+   "nwr": [
+    {
+     "call": "WXJ39",
+     "freq": "162.400",
+     "same": "044003"
+    }
+   ],
+   "state_em": "Rhode Island Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.3
+  },
+  "Newport County": {
+   "fips": "44005",
+   "centroid": [
+    41.501,
+    -71.2831
+   ],
+   "latitude": 41.5,
+   "bbox": [
+    -71.4047,
+    41.4486,
+    -71.1211,
+    41.675
+   ],
+   "coastal": true,
+   "elevation_ft": 100,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 80,
+   "record_low_f": -8,
+   "record_high_f": 98,
+   "precip_in": 42.2,
+   "snow_in": 26,
+   "last_frost": "Apr 11",
+   "first_frost": "Nov 4",
+   "growing_days": 206,
+   "ecoregion": "Northeastern Coastal Zone",
+   "ecoregion_code": "59",
+   "nws_office": "Norton, MA",
+   "nws_cwa": "BOX",
+   "nwr": [
+    {
+     "call": "WXJ39",
+     "freq": "162.400",
+     "same": "044005"
+    }
+   ],
+   "state_em": "Rhode Island Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.3
+  },
+  "Providence County": {
+   "fips": "44007",
+   "centroid": [
+    41.8698,
+    -71.5786
+   ],
+   "latitude": 41.9,
+   "bbox": [
+    -71.7992,
+    41.7247,
+    -71.3203,
+    42.0188
+   ],
+   "coastal": true,
+   "elevation_ft": 340,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 84,
+   "record_low_f": -11,
+   "record_high_f": 102,
+   "precip_in": 51.9,
+   "snow_in": 42,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 19",
+   "growing_days": 179,
+   "ecoregion": "Northeastern Coastal Zone",
+   "ecoregion_code": "59",
+   "nws_office": "Norton, MA",
+   "nws_cwa": "BOX",
+   "nwr": [
+    {
+     "call": "WXJ39",
+     "freq": "162.400",
+     "same": "044007"
+    },
+    {
+     "call": "WXL93",
+     "freq": "162.550",
+     "same": "044007"
+    }
+   ],
+   "state_em": "Rhode Island Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.3
+  },
+  "Washington County": {
+   "fips": "44009",
+   "centroid": [
+    41.3968,
+    -71.6203
+   ],
+   "latitude": 41.4,
+   "bbox": [
+    -71.8972,
+    41.1463,
+    -71.4021,
+    41.6544
+   ],
+   "coastal": true,
+   "elevation_ft": 140,
+   "zone": "7a",
+   "jan_low_f": 19,
+   "jul_high_f": 80,
+   "record_low_f": -23,
+   "record_high_f": 100,
+   "precip_in": 51.6,
+   "snow_in": 34,
+   "last_frost": "May 1",
+   "first_frost": "Oct 12",
+   "growing_days": 163,
+   "ecoregion": "Northeastern Coastal Zone",
+   "ecoregion_code": "59",
+   "nws_office": "Norton, MA",
+   "nws_cwa": "BOX",
+   "nwr": [
+    {
+     "call": "KHB47",
+     "freq": "162.550",
+     "same": "044009"
+    },
+    {
+     "call": "WXJ39",
+     "freq": "162.400",
+     "same": "044009"
+    }
+   ],
+   "state_em": "Rhode Island Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.3
+  }
+ }
+}

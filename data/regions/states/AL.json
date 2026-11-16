@@ -1,0 +1,4195 @@
+{
+ "state": "AL",
+ "state_name": "Alabama",
+ "state_fips": "01",
+ "state_em": "Alabama Emergency Management Agency",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "BMX": "NWS Birmingham, AL",
+  "HUN": "NWS Huntsville, AL",
+  "MOB": "NWS Mobile, AL",
+  "TAE": "NWS Tallahassee, FL"
+ },
+ "ecoregions": [
+  "Piedmont",
+  "Southeastern Plains",
+  "Ridge and Valley",
+  "Southwestern Appalachians",
+  "Interior Plateau",
+  "Southern Coastal Plain"
+ ],
+ "counties": {
+  "Autauga County": {
+   "fips": "01001",
+   "centroid": [
+    32.5322,
+    -86.6464
+   ],
+   "latitude": 32.5,
+   "bbox": [
+    -86.9211,
+    32.3076,
+    -86.411,
+    32.7082
+   ],
+   "coastal": false,
+   "elevation_ft": 440,
+   "zone": "8b",
+   "jan_low_f": 33,
+   "jul_high_f": 91,
+   "record_low_f": -9,
+   "record_high_f": 110,
+   "precip_in": 59.9,
+   "snow_in": 0,
+   "last_frost": "Mar 24",
+   "first_frost": "Nov 10",
+   "growing_days": 233,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Birmingham, AL",
+   "nws_cwa": "BMX",
+   "nwr": [
+    {
+     "call": "WNG607",
+     "freq": "162.425",
+     "same": "001001"
+    },
+    {
+     "call": "KIH55",
+     "freq": "162.400",
+     "same": "001001"
+    },
+    {
+     "call": "WNG635",
+     "freq": "162.450",
+     "same": "001001"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.4
+  },
+  "Baldwin County": {
+   "fips": "01003",
+   "centroid": [
+    30.6592,
+    -87.7461
+   ],
+   "latitude": 30.7,
+   "bbox": [
+    -88.0293,
+    30.2209,
+    -87.3892,
+    31.3033
+   ],
+   "coastal": true,
+   "elevation_ft": 150,
+   "zone": "9a",
+   "jan_low_f": 39,
+   "jul_high_f": 90,
+   "record_low_f": 3,
+   "record_high_f": 104,
+   "precip_in": 69.0,
+   "snow_in": 0,
+   "last_frost": "Mar 5",
+   "first_frost": "Nov 23",
+   "growing_days": 264,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Mobile, AL",
+   "nws_cwa": "MOB",
+   "nwr": [
+    {
+     "call": "WWF55",
+     "freq": "162.500",
+     "same": "001003"
+    },
+    {
+     "call": "KEC61",
+     "freq": "162.550",
+     "same": "001003"
+    },
+    {
+     "call": "KEC86",
+     "freq": "162.400",
+     "same": "001003"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.6
+  },
+  "Barbour County": {
+   "fips": "01005",
+   "centroid": [
+    31.8703,
+    -85.4051
+   ],
+   "latitude": 31.9,
+   "bbox": [
+    -85.7466,
+    31.6176,
+    -85.0489,
+    32.148
+   ],
+   "coastal": false,
+   "elevation_ft": 460,
+   "zone": "8b",
+   "jan_low_f": 37,
+   "jul_high_f": 91,
+   "record_low_f": -6,
+   "record_high_f": 105,
+   "precip_in": 55.6,
+   "snow_in": 0,
+   "last_frost": "Mar 11",
+   "first_frost": "Nov 19",
+   "growing_days": 254,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Birmingham, AL",
+   "nws_cwa": "BMX",
+   "nwr": [
+    {
+     "call": "KIH56",
+     "freq": "162.475",
+     "same": "001005"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.4
+  },
+  "Bibb County": {
+   "fips": "01007",
+   "centroid": [
+    33.0159,
+    -87.1271
+   ],
+   "latitude": 33.0,
+   "bbox": [
+    -87.422,
+    32.8315,
+    -86.876,
+    33.2469
+   ],
+   "coastal": false,
+   "elevation_ft": 360,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 91,
+   "record_low_f": -6,
+   "record_high_f": 105,
+   "precip_in": 57.0,
+   "snow_in": 1,
+   "last_frost": "Apr 2",
+   "first_frost": "Nov 2",
+   "growing_days": 215,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Birmingham, AL",
+   "nws_cwa": "BMX",
+   "nwr": [
+    {
+     "call": "KIH54",
+     "freq": "162.550",
+     "same": "001007"
+    },
+    {
+     "call": "WNG635",
+     "freq": "162.450",
+     "same": "001007"
+    },
+    {
+     "call": "KIH60",
+     "freq": "162.400",
+     "same": "001007"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.5
+  },
+  "Blount County": {
+   "fips": "01009",
+   "centroid": [
+    33.9774,
+    -86.5664
+   ],
+   "latitude": 34.0,
+   "bbox": [
+    -86.9634,
+    33.7651,
+    -86.303,
+    34.2601
+   ],
+   "coastal": false,
+   "elevation_ft": 570,
+   "zone": "8a",
+   "jan_low_f": 30,
+   "jul_high_f": 88,
+   "record_low_f": -15,
+   "record_high_f": 109,
+   "precip_in": 59.0,
+   "snow_in": 1,
+   "last_frost": "Apr 6",
+   "first_frost": "Oct 29",
+   "growing_days": 205,
+   "ecoregion": "Southwestern Appalachians",
+   "ecoregion_code": "68",
+   "nws_office": "Birmingham, AL",
+   "nws_cwa": "BMX",
+   "nwr": [
+    {
+     "call": "KIH54",
+     "freq": "162.550",
+     "same": "001009"
+    },
+    {
+     "call": "WNG606",
+     "freq": "162.425",
+     "same": "001009"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.4
+  },
+  "Bullock County": {
+   "fips": "01011",
+   "centroid": [
+    32.1018,
+    -85.7173
+   ],
+   "latitude": 32.1,
+   "bbox": [
+    -85.9992,
+    31.879,
+    -85.41,
+    32.3052
+   ],
+   "coastal": false,
+   "elevation_ft": 480,
+   "zone": "8b",
+   "jan_low_f": 34,
+   "jul_high_f": 89,
+   "record_low_f": -7,
+   "record_high_f": 107,
+   "precip_in": 57.2,
+   "snow_in": 1,
+   "last_frost": "Mar 25",
+   "first_frost": "Nov 6",
+   "growing_days": 226,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Birmingham, AL",
+   "nws_cwa": "BMX",
+   "nwr": [
+    {
+     "call": "WWF54",
+     "freq": "162.525",
+     "same": "001011"
+    },
+    {
+     "call": "KIH56",
+     "freq": "162.475",
+     "same": "001011"
+    },
+    {
+     "call": "KIH55",
+     "freq": "162.400",
+     "same": "001011"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.3
+  },
+  "Butler County": {
+   "fips": "01013",
+   "centroid": [
+    31.7517,
+    -86.682
+   ],
+   "latitude": 31.8,
+   "bbox": [
+    -86.9089,
+    31.5237,
+    -86.4384,
+    31.9646
+   ],
+   "coastal": false,
+   "elevation_ft": 360,
+   "zone": "8b",
+   "jan_low_f": 34,
+   "jul_high_f": 92,
+   "record_low_f": -1,
+   "record_high_f": 108,
+   "precip_in": 59.8,
+   "snow_in": 0,
+   "last_frost": "Mar 28",
+   "first_frost": "Nov 7",
+   "growing_days": 224,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Mobile, AL",
+   "nws_cwa": "MOB",
+   "nwr": [
+    {
+     "call": "KIH59",
+     "freq": "162.550",
+     "same": "001013"
+    },
+    {
+     "call": "WNG607",
+     "freq": "162.425",
+     "same": "001013"
+    },
+    {
+     "call": "KIH55",
+     "freq": "162.400",
+     "same": "001013"
+    },
+    {
+     "call": "WNG635",
+     "freq": "162.450",
+     "same": "001013"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.4
+  },
+  "Calhoun County": {
+   "fips": "01015",
+   "centroid": [
+    33.7705,
+    -85.8279
+   ],
+   "latitude": 33.8,
+   "bbox": [
+    -86.146,
+    33.5559,
+    -85.5294,
+    33.9681
+   ],
+   "coastal": false,
+   "elevation_ft": 720,
+   "zone": "8a",
+   "jan_low_f": 34,
+   "jul_high_f": 90,
+   "record_low_f": -5,
+   "record_high_f": 106,
+   "precip_in": 52.1,
+   "snow_in": 0,
+   "last_frost": "Mar 23",
+   "first_frost": "Nov 9",
+   "growing_days": 231,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Birmingham, AL",
+   "nws_cwa": "BMX",
+   "nwr": [
+    {
+     "call": "KIH58",
+     "freq": "162.475",
+     "same": "001015"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.3
+  },
+  "Chambers County": {
+   "fips": "01017",
+   "centroid": [
+    32.9155,
+    -85.394
+   ],
+   "latitude": 32.9,
+   "bbox": [
+    -85.5937,
+    32.7285,
+    -85.1223,
+    33.109
+   ],
+   "coastal": false,
+   "elevation_ft": 830,
+   "zone": "8a",
+   "jan_low_f": 30,
+   "jul_high_f": 90,
+   "record_low_f": -7,
+   "record_high_f": 107,
+   "precip_in": 56.5,
+   "snow_in": 0,
+   "last_frost": "Apr 9",
+   "first_frost": "Oct 30",
+   "growing_days": 204,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Birmingham, AL",
+   "nws_cwa": "BMX",
+   "nwr": [
+    {
+     "call": "KIH58",
+     "freq": "162.475",
+     "same": "001017"
+    },
+    {
+     "call": "WWF54",
+     "freq": "162.525",
+     "same": "001017"
+    },
+    {
+     "call": "KXI76",
+     "freq": "162.450",
+     "same": "001017"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.3
+  },
+  "Cherokee County": {
+   "fips": "01019",
+   "centroid": [
+    34.0695,
+    -85.6542
+   ],
+   "latitude": 34.1,
+   "bbox": [
+    -85.844,
+    33.9415,
+    -85.3988,
+    34.5262
+   ],
+   "coastal": false,
+   "elevation_ft": 600,
+   "zone": "8a",
+   "jan_low_f": 29,
+   "jul_high_f": 90,
+   "record_low_f": -6,
+   "record_high_f": 106,
+   "precip_in": 57.1,
+   "snow_in": 0,
+   "last_frost": "Apr 6",
+   "first_frost": "Oct 31",
+   "growing_days": 207,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Birmingham, AL",
+   "nws_cwa": "BMX",
+   "nwr": [
+    {
+     "call": "KIH58",
+     "freq": "162.475",
+     "same": "001019"
+    },
+    {
+     "call": "WWF44",
+     "freq": "162.500",
+     "same": "001019"
+    },
+    {
+     "call": "WXJ72",
+     "freq": "162.450",
+     "same": "001019"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 5.4
+  },
+  "Chilton County": {
+   "fips": "01021",
+   "centroid": [
+    32.8541,
+    -86.7266
+   ],
+   "latitude": 32.9,
+   "bbox": [
+    -87.0194,
+    32.6601,
+    -86.375,
+    33.0718
+   ],
+   "coastal": false,
+   "elevation_ft": 560,
+   "zone": "8a",
+   "jan_low_f": 34,
+   "jul_high_f": 90,
+   "record_low_f": -4,
+   "record_high_f": 104,
+   "precip_in": 56.4,
+   "snow_in": 0,
+   "last_frost": "Mar 22",
+   "first_frost": "Nov 10",
+   "growing_days": 237,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Birmingham, AL",
+   "nws_cwa": "BMX",
+   "nwr": [
+    {
+     "call": "KIH54",
+     "freq": "162.550",
+     "same": "001021"
+    },
+    {
+     "call": "KIH55",
+     "freq": "162.400",
+     "same": "001021"
+    },
+    {
+     "call": "WNG635",
+     "freq": "162.450",
+     "same": "001021"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.4
+  },
+  "Choctaw County": {
+   "fips": "01023",
+   "centroid": [
+    31.991,
+    -88.2489
+   ],
+   "latitude": 32.0,
+   "bbox": [
+    -88.4732,
+    31.6979,
+    -87.9285,
+    32.3112
+   ],
+   "coastal": false,
+   "elevation_ft": 340,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 92,
+   "record_low_f": -3,
+   "record_high_f": 105,
+   "precip_in": 61.5,
+   "snow_in": 0,
+   "last_frost": "Mar 14",
+   "first_frost": "Nov 16",
+   "growing_days": 247,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Mobile, AL",
+   "nws_cwa": "MOB",
+   "nwr": [
+    {
+     "call": "WXL72",
+     "freq": "162.475",
+     "same": "001023"
+    },
+    {
+     "call": "WWF55",
+     "freq": "162.500",
+     "same": "001023"
+    },
+    {
+     "call": "KIH49",
+     "freq": "162.550",
+     "same": "001023"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.4
+  },
+  "Clarke County": {
+   "fips": "01025",
+   "centroid": [
+    31.6855,
+    -87.8186
+   ],
+   "latitude": 31.7,
+   "bbox": [
+    -88.1799,
+    31.1361,
+    -87.5007,
+    31.9913
+   ],
+   "coastal": true,
+   "elevation_ft": 310,
+   "zone": "8b",
+   "jan_low_f": 33,
+   "jul_high_f": 91,
+   "record_low_f": -2,
+   "record_high_f": 104,
+   "precip_in": 61.4,
+   "snow_in": 0,
+   "last_frost": "Mar 22",
+   "first_frost": "Nov 8",
+   "growing_days": 231,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Mobile, AL",
+   "nws_cwa": "MOB",
+   "nwr": [
+    {
+     "call": "WXL72",
+     "freq": "162.475",
+     "same": "001025"
+    },
+    {
+     "call": "WWF55",
+     "freq": "162.500",
+     "same": "001025"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.4
+  },
+  "Clay County": {
+   "fips": "01027",
+   "centroid": [
+    33.2704,
+    -85.8635
+   ],
+   "latitude": 33.3,
+   "bbox": [
+    -86.1747,
+    33.0902,
+    -85.6412,
+    33.4989
+   ],
+   "coastal": false,
+   "elevation_ft": 1070,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 90,
+   "record_low_f": -7,
+   "record_high_f": 106,
+   "precip_in": 59.7,
+   "snow_in": 2,
+   "last_frost": "Apr 4",
+   "first_frost": "Nov 1",
+   "growing_days": 211,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Birmingham, AL",
+   "nws_cwa": "BMX",
+   "nwr": [
+    {
+     "call": "KIH58",
+     "freq": "162.475",
+     "same": "001027"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.3
+  },
+  "Cleburne County": {
+   "fips": "01029",
+   "centroid": [
+    33.672,
+    -85.5161
+   ],
+   "latitude": 33.7,
+   "bbox": [
+    -85.8878,
+    33.4692,
+    -85.3046,
+    33.9642
+   ],
+   "coastal": false,
+   "elevation_ft": 950,
+   "zone": "8a",
+   "jan_low_f": 30,
+   "jul_high_f": 88,
+   "record_low_f": -10,
+   "record_high_f": 107,
+   "precip_in": 57.4,
+   "snow_in": 1,
+   "last_frost": "Apr 6",
+   "first_frost": "Oct 31",
+   "growing_days": 206,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Birmingham, AL",
+   "nws_cwa": "BMX",
+   "nwr": [
+    {
+     "call": "KIH58",
+     "freq": "162.475",
+     "same": "001029"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.3
+  },
+  "Coffee County": {
+   "fips": "01031",
+   "centroid": [
+    31.4023,
+    -85.9896
+   ],
+   "latitude": 31.4,
+   "bbox": [
+    -86.1963,
+    31.182,
+    -85.7891,
+    31.6193
+   ],
+   "coastal": false,
+   "elevation_ft": 400,
+   "zone": "8b",
+   "jan_low_f": 38,
+   "jul_high_f": 92,
+   "record_low_f": -1,
+   "record_high_f": 104,
+   "precip_in": 57.9,
+   "snow_in": 0,
+   "last_frost": "Mar 9",
+   "first_frost": "Nov 21",
+   "growing_days": 260,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "KIH59",
+     "freq": "162.550",
+     "same": "001031"
+    },
+    {
+     "call": "KIH56",
+     "freq": "162.475",
+     "same": "001031"
+    },
+    {
+     "call": "WWH20",
+     "freq": "162.450",
+     "same": "001031"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.4
+  },
+  "Colbert County": {
+   "fips": "01033",
+   "centroid": [
+    34.7031,
+    -87.8015
+   ],
+   "latitude": 34.7,
+   "bbox": [
+    -88.14,
+    34.5665,
+    -87.4158,
+    34.9067
+   ],
+   "coastal": false,
+   "elevation_ft": 680,
+   "zone": "8a",
+   "jan_low_f": 29,
+   "jul_high_f": 90,
+   "record_low_f": -11,
+   "record_high_f": 107,
+   "precip_in": 58.0,
+   "snow_in": 1,
+   "last_frost": "Mar 30",
+   "first_frost": "Nov 3",
+   "growing_days": 220,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Huntsville, AL",
+   "nws_cwa": "HUN",
+   "nwr": [
+    {
+     "call": "KIH57",
+     "freq": "162.475",
+     "same": "001033"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.5
+  },
+  "Conecuh County": {
+   "fips": "01035",
+   "centroid": [
+    31.4309,
+    -86.9887
+   ],
+   "latitude": 31.4,
+   "bbox": [
+    -87.4273,
+    31.1821,
+    -86.6623,
+    31.7527
+   ],
+   "coastal": false,
+   "elevation_ft": 230,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 91,
+   "record_low_f": 0,
+   "record_high_f": 107,
+   "precip_in": 61.3,
+   "snow_in": 0,
+   "last_frost": "Mar 13",
+   "first_frost": "Nov 19",
+   "growing_days": 253,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Mobile, AL",
+   "nws_cwa": "MOB",
+   "nwr": [
+    {
+     "call": "WNG646",
+     "freq": "162.475",
+     "same": "001035"
+    },
+    {
+     "call": "KIH59",
+     "freq": "162.550",
+     "same": "001035"
+    },
+    {
+     "call": "WNG607",
+     "freq": "162.425",
+     "same": "001035"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.4
+  },
+  "Coosa County": {
+   "fips": "01037",
+   "centroid": [
+    32.9314,
+    -86.2435
+   ],
+   "latitude": 32.9,
+   "bbox": [
+    -86.5219,
+    32.7522,
+    -86.0029,
+    33.1047
+   ],
+   "coastal": false,
+   "elevation_ft": 450,
+   "zone": "8a",
+   "jan_low_f": 35,
+   "jul_high_f": 89,
+   "record_low_f": -6,
+   "record_high_f": 107,
+   "precip_in": 60.2,
+   "snow_in": 2,
+   "last_frost": "Mar 25",
+   "first_frost": "Nov 11",
+   "growing_days": 230,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Birmingham, AL",
+   "nws_cwa": "BMX",
+   "nwr": [
+    {
+     "call": "KIH58",
+     "freq": "162.475",
+     "same": "001037"
+    },
+    {
+     "call": "KIH54",
+     "freq": "162.550",
+     "same": "001037"
+    },
+    {
+     "call": "KIH55",
+     "freq": "162.400",
+     "same": "001037"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.4
+  },
+  "Covington County": {
+   "fips": "01039",
+   "centroid": [
+    31.244,
+    -86.4487
+   ],
+   "latitude": 31.2,
+   "bbox": [
+    -86.7025,
+    30.9932,
+    -86.1869,
+    31.5285
+   ],
+   "coastal": false,
+   "elevation_ft": 220,
+   "zone": "8b",
+   "jan_low_f": 35,
+   "jul_high_f": 91,
+   "record_low_f": 0,
+   "record_high_f": 105,
+   "precip_in": 60.3,
+   "snow_in": 0,
+   "last_frost": "Mar 25",
+   "first_frost": "Nov 9",
+   "growing_days": 230,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Mobile, AL",
+   "nws_cwa": "MOB",
+   "nwr": [
+    {
+     "call": "WNG646",
+     "freq": "162.475",
+     "same": "001039"
+    },
+    {
+     "call": "KIH59",
+     "freq": "162.550",
+     "same": "001039"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.4
+  },
+  "Crenshaw County": {
+   "fips": "01041",
+   "centroid": [
+    31.7303,
+    -86.32
+   ],
+   "latitude": 31.7,
+   "bbox": [
+    -86.504,
+    31.4401,
+    -86.144,
+    32.0517
+   ],
+   "coastal": false,
+   "elevation_ft": 370,
+   "zone": "8b",
+   "jan_low_f": 32,
+   "jul_high_f": 89,
+   "record_low_f": -4,
+   "record_high_f": 105,
+   "precip_in": 54.4,
+   "snow_in": 0,
+   "last_frost": "Mar 31",
+   "first_frost": "Nov 5",
+   "growing_days": 220,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Mobile, AL",
+   "nws_cwa": "MOB",
+   "nwr": [
+    {
+     "call": "KIH59",
+     "freq": "162.550",
+     "same": "001041"
+    },
+    {
+     "call": "WNG607",
+     "freq": "162.425",
+     "same": "001041"
+    },
+    {
+     "call": "KIH56",
+     "freq": "162.475",
+     "same": "001041"
+    },
+    {
+     "call": "KIH55",
+     "freq": "162.400",
+     "same": "001041"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.4
+  },
+  "Cullman County": {
+   "fips": "01043",
+   "centroid": [
+    34.1319,
+    -86.8693
+   ],
+   "latitude": 34.1,
+   "bbox": [
+    -87.1512,
+    33.8583,
+    -86.4515,
+    34.3136
+   ],
+   "coastal": false,
+   "elevation_ft": 670,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 90,
+   "record_low_f": -17,
+   "record_high_f": 110,
+   "precip_in": 60.3,
+   "snow_in": 1,
+   "last_frost": "Mar 31",
+   "first_frost": "Nov 1",
+   "growing_days": 215,
+   "ecoregion": "Southwestern Appalachians",
+   "ecoregion_code": "68",
+   "nws_office": "Huntsville, AL",
+   "nws_cwa": "HUN",
+   "nwr": [
+    {
+     "call": "WNG642",
+     "freq": "162.525",
+     "same": "001043"
+    },
+    {
+     "call": "WWF66",
+     "freq": "162.450",
+     "same": "001043"
+    },
+    {
+     "call": "KIH20",
+     "freq": "162.400",
+     "same": "001043"
+    },
+    {
+     "call": "WNG606",
+     "freq": "162.425",
+     "same": "001043"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 5.5
+  },
+  "Dale County": {
+   "fips": "01045",
+   "centroid": [
+    31.4307,
+    -85.6095
+   ],
+   "latitude": 31.4,
+   "bbox": [
+    -85.7918,
+    31.1953,
+    -85.4153,
+    31.6206
+   ],
+   "coastal": false,
+   "elevation_ft": 260,
+   "zone": "8b",
+   "jan_low_f": 40,
+   "jul_high_f": 93,
+   "record_low_f": 4,
+   "record_high_f": 105,
+   "precip_in": 53.9,
+   "snow_in": 0,
+   "last_frost": "Mar 1",
+   "first_frost": "Nov 24",
+   "growing_days": 270,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "KIH56",
+     "freq": "162.475",
+     "same": "001045"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.4
+  },
+  "Dallas County": {
+   "fips": "01047",
+   "centroid": [
+    32.3335,
+    -87.1144
+   ],
+   "latitude": 32.3,
+   "bbox": [
+    -87.473,
+    32.0472,
+    -86.8071,
+    32.7273
+   ],
+   "coastal": false,
+   "elevation_ft": 110,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 93,
+   "record_low_f": -5,
+   "record_high_f": 108,
+   "precip_in": 54.5,
+   "snow_in": 0,
+   "last_frost": "Mar 8",
+   "first_frost": "Nov 18",
+   "growing_days": 254,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Birmingham, AL",
+   "nws_cwa": "BMX",
+   "nwr": [
+    {
+     "call": "WXL72",
+     "freq": "162.475",
+     "same": "001047"
+    },
+    {
+     "call": "WNG607",
+     "freq": "162.425",
+     "same": "001047"
+    },
+    {
+     "call": "KIH55",
+     "freq": "162.400",
+     "same": "001047"
+    },
+    {
+     "call": "WNG635",
+     "freq": "162.450",
+     "same": "001047"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.5
+  },
+  "DeKalb County": {
+   "fips": "01049",
+   "centroid": [
+    34.4609,
+    -85.804
+   ],
+   "latitude": 34.5,
+   "bbox": [
+    -86.1189,
+    34.1993,
+    -85.5139,
+    34.86
+   ],
+   "coastal": false,
+   "elevation_ft": 1260,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 91,
+   "record_low_f": -18,
+   "record_high_f": 106,
+   "precip_in": 58.0,
+   "snow_in": 5,
+   "last_frost": "Mar 29",
+   "first_frost": "Nov 8",
+   "growing_days": 225,
+   "ecoregion": "Southwestern Appalachians",
+   "ecoregion_code": "68",
+   "nws_office": "Huntsville, AL",
+   "nws_cwa": "HUN",
+   "nwr": [
+    {
+     "call": "WNG642",
+     "freq": "162.525",
+     "same": "001049"
+    },
+    {
+     "call": "WWF44",
+     "freq": "162.500",
+     "same": "001049"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 5.4
+  },
+  "Elmore County": {
+   "fips": "01051",
+   "centroid": [
+    32.5972,
+    -86.1427
+   ],
+   "latitude": 32.6,
+   "bbox": [
+    -86.4133,
+    32.4061,
+    -85.8527,
+    32.7692
+   ],
+   "coastal": false,
+   "elevation_ft": 310,
+   "zone": "8b",
+   "jan_low_f": 34,
+   "jul_high_f": 90,
+   "record_low_f": -3,
+   "record_high_f": 107,
+   "precip_in": 53.3,
+   "snow_in": 0,
+   "last_frost": "Mar 25",
+   "first_frost": "Nov 8",
+   "growing_days": 228,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Birmingham, AL",
+   "nws_cwa": "BMX",
+   "nwr": [
+    {
+     "call": "WWF54",
+     "freq": "162.525",
+     "same": "001051"
+    },
+    {
+     "call": "KIH55",
+     "freq": "162.400",
+     "same": "001051"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.4
+  },
+  "Escambia County": {
+   "fips": "01053",
+   "centroid": [
+    31.1223,
+    -87.1684
+   ],
+   "latitude": 31.1,
+   "bbox": [
+    -87.6161,
+    30.9946,
+    -86.6883,
+    31.262
+   ],
+   "coastal": false,
+   "elevation_ft": 170,
+   "zone": "8b",
+   "jan_low_f": 38,
+   "jul_high_f": 89,
+   "record_low_f": 1,
+   "record_high_f": 104,
+   "precip_in": 61.5,
+   "snow_in": 0,
+   "last_frost": "Mar 14",
+   "first_frost": "Nov 16",
+   "growing_days": 248,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Mobile, AL",
+   "nws_cwa": "MOB",
+   "nwr": [
+    {
+     "call": "WNG646",
+     "freq": "162.475",
+     "same": "001053"
+    },
+    {
+     "call": "KIH59",
+     "freq": "162.550",
+     "same": "001053"
+    },
+    {
+     "call": "KEC86",
+     "freq": "162.400",
+     "same": "001053"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.4
+  },
+  "Etowah County": {
+   "fips": "01055",
+   "centroid": [
+    34.0476,
+    -86.0343
+   ],
+   "latitude": 34.0,
+   "bbox": [
+    -86.3694,
+    33.8416,
+    -85.7372,
+    34.2007
+   ],
+   "coastal": false,
+   "elevation_ft": 780,
+   "zone": "8a",
+   "jan_low_f": 33,
+   "jul_high_f": 91,
+   "record_low_f": -6,
+   "record_high_f": 106,
+   "precip_in": 57.6,
+   "snow_in": 0,
+   "last_frost": "Mar 19",
+   "first_frost": "Nov 13",
+   "growing_days": 240,
+   "ecoregion": "Southwestern Appalachians",
+   "ecoregion_code": "68",
+   "nws_office": "Birmingham, AL",
+   "nws_cwa": "BMX",
+   "nwr": [
+    {
+     "call": "KIH58",
+     "freq": "162.475",
+     "same": "001055"
+    },
+    {
+     "call": "WNG606",
+     "freq": "162.425",
+     "same": "001055"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 5.5
+  },
+  "Fayette County": {
+   "fips": "01057",
+   "centroid": [
+    33.7162,
+    -87.7643
+   ],
+   "latitude": 33.7,
+   "bbox": [
+    -87.9521,
+    33.5196,
+    -87.4237,
+    33.9202
+   ],
+   "coastal": false,
+   "elevation_ft": 590,
+   "zone": "8a",
+   "jan_low_f": 34,
+   "jul_high_f": 92,
+   "record_low_f": -5,
+   "record_high_f": 110,
+   "precip_in": 56.9,
+   "snow_in": 0,
+   "last_frost": "Mar 20",
+   "first_frost": "Nov 9",
+   "growing_days": 234,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Birmingham, AL",
+   "nws_cwa": "BMX",
+   "nwr": [
+    {
+     "call": "KIH60",
+     "freq": "162.400",
+     "same": "001057"
+    },
+    {
+     "call": "WWF53",
+     "freq": "162.525",
+     "same": "001057"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.5
+  },
+  "Franklin County": {
+   "fips": "01059",
+   "centroid": [
+    34.442,
+    -87.8428
+   ],
+   "latitude": 34.4,
+   "bbox": [
+    -88.1732,
+    34.3046,
+    -87.5296,
+    34.5817
+   ],
+   "coastal": false,
+   "elevation_ft": 840,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 91,
+   "record_low_f": -24,
+   "record_high_f": 106,
+   "precip_in": 56.7,
+   "snow_in": 1,
+   "last_frost": "Mar 31",
+   "first_frost": "Nov 4",
+   "growing_days": 221,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Huntsville, AL",
+   "nws_cwa": "HUN",
+   "nwr": [
+    {
+     "call": "KIH57",
+     "freq": "162.475",
+     "same": "001059"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.5
+  },
+  "Geneva County": {
+   "fips": "01061",
+   "centroid": [
+    31.0924,
+    -85.821
+   ],
+   "latitude": 31.1,
+   "bbox": [
+    -86.1933,
+    30.9928,
+    -85.4853,
+    31.1998
+   ],
+   "coastal": false,
+   "elevation_ft": 140,
+   "zone": "8b",
+   "jan_low_f": 35,
+   "jul_high_f": 92,
+   "record_low_f": 2,
+   "record_high_f": 103,
+   "precip_in": 62.3,
+   "snow_in": 0,
+   "last_frost": "Mar 23",
+   "first_frost": "Nov 7",
+   "growing_days": 231,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "KIH59",
+     "freq": "162.550",
+     "same": "001061"
+    },
+    {
+     "call": "KIH56",
+     "freq": "162.475",
+     "same": "001061"
+    },
+    {
+     "call": "WWH20",
+     "freq": "162.450",
+     "same": "001061"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.4
+  },
+  "Greene County": {
+   "fips": "01063",
+   "centroid": [
+    32.8445,
+    -87.9642
+   ],
+   "latitude": 32.8,
+   "bbox": [
+    -88.2072,
+    32.518,
+    -87.7063,
+    33.1525
+   ],
+   "coastal": false,
+   "elevation_ft": 150,
+   "zone": "8b",
+   "jan_low_f": 33,
+   "jul_high_f": 92,
+   "record_low_f": -2,
+   "record_high_f": 105,
+   "precip_in": 55.0,
+   "snow_in": 0,
+   "last_frost": "Mar 19",
+   "first_frost": "Nov 8",
+   "growing_days": 239,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Birmingham, AL",
+   "nws_cwa": "BMX",
+   "nwr": [
+    {
+     "call": "WXL72",
+     "freq": "162.475",
+     "same": "001063"
+    },
+    {
+     "call": "KIH60",
+     "freq": "162.400",
+     "same": "001063"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.5
+  },
+  "Hale County": {
+   "fips": "01065",
+   "centroid": [
+    32.7528,
+    -87.6231
+   ],
+   "latitude": 32.8,
+   "bbox": [
+    -87.8701,
+    32.4807,
+    -87.4201,
+    33.0068
+   ],
+   "coastal": false,
+   "elevation_ft": 230,
+   "zone": "8b",
+   "jan_low_f": 35,
+   "jul_high_f": 91,
+   "record_low_f": -5,
+   "record_high_f": 107,
+   "precip_in": 54.9,
+   "snow_in": 0,
+   "last_frost": "Mar 17",
+   "first_frost": "Nov 11",
+   "growing_days": 240,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Birmingham, AL",
+   "nws_cwa": "BMX",
+   "nwr": [
+    {
+     "call": "WXL72",
+     "freq": "162.475",
+     "same": "001065"
+    },
+    {
+     "call": "KIH60",
+     "freq": "162.400",
+     "same": "001065"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.5
+  },
+  "Henry County": {
+   "fips": "01067",
+   "centroid": [
+    31.517,
+    -85.24
+   ],
+   "latitude": 31.5,
+   "bbox": [
+    -85.418,
+    31.3077,
+    -85.0413,
+    31.7733
+   ],
+   "coastal": false,
+   "elevation_ft": 280,
+   "zone": "8b",
+   "jan_low_f": 38,
+   "jul_high_f": 93,
+   "record_low_f": 0,
+   "record_high_f": 108,
+   "precip_in": 56.7,
+   "snow_in": 0,
+   "last_frost": "Mar 5",
+   "first_frost": "Nov 24",
+   "growing_days": 264,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "KZZ70",
+     "freq": "162.525",
+     "same": "001067"
+    },
+    {
+     "call": "KIH56",
+     "freq": "162.475",
+     "same": "001067"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.4
+  },
+  "Houston County": {
+   "fips": "01069",
+   "centroid": [
+    31.1582,
+    -85.2964
+   ],
+   "latitude": 31.2,
+   "bbox": [
+    -85.7118,
+    30.9971,
+    -84.9994,
+    31.315
+   ],
+   "coastal": false,
+   "elevation_ft": 220,
+   "zone": "9a",
+   "jan_low_f": 38,
+   "jul_high_f": 93,
+   "record_low_f": 0,
+   "record_high_f": 108,
+   "precip_in": 56.7,
+   "snow_in": 0,
+   "last_frost": "Mar 5",
+   "first_frost": "Nov 24",
+   "growing_days": 264,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "KZZ70",
+     "freq": "162.525",
+     "same": "001069"
+    },
+    {
+     "call": "WNG633",
+     "freq": "162.425",
+     "same": "001069"
+    },
+    {
+     "call": "WWH20",
+     "freq": "162.450",
+     "same": "001069"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.4
+  },
+  "Jackson County": {
+   "fips": "01071",
+   "centroid": [
+    34.7641,
+    -85.9801
+   ],
+   "latitude": 34.8,
+   "bbox": [
+    -86.359,
+    34.4647,
+    -85.584,
+    34.9911
+   ],
+   "coastal": false,
+   "elevation_ft": 1290,
+   "zone": "7b",
+   "jan_low_f": 30,
+   "jul_high_f": 88,
+   "record_low_f": -13,
+   "record_high_f": 109,
+   "precip_in": 55.1,
+   "snow_in": 1,
+   "last_frost": "Apr 2",
+   "first_frost": "Oct 30",
+   "growing_days": 210,
+   "ecoregion": "Southwestern Appalachians",
+   "ecoregion_code": "68",
+   "nws_office": "Huntsville, AL",
+   "nws_cwa": "HUN",
+   "nwr": [
+    {
+     "call": "WNG642",
+     "freq": "162.525",
+     "same": "001071"
+    },
+    {
+     "call": "WWF44",
+     "freq": "162.500",
+     "same": "001071"
+    },
+    {
+     "call": "KIH20",
+     "freq": "162.400",
+     "same": "001071"
+    },
+    {
+     "call": "WNG554",
+     "freq": "162.525",
+     "same": "001071"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 5.4
+  },
+  "Jefferson County": {
+   "fips": "01073",
+   "centroid": [
+    33.5534,
+    -86.8965
+   ],
+   "latitude": 33.6,
+   "bbox": [
+    -87.3407,
+    33.246,
+    -86.5167,
+    33.8432
+   ],
+   "coastal": false,
+   "elevation_ft": 570,
+   "zone": "8a",
+   "jan_low_f": 35,
+   "jul_high_f": 91,
+   "record_low_f": -6,
+   "record_high_f": 107,
+   "precip_in": 56.6,
+   "snow_in": 1,
+   "last_frost": "Mar 21",
+   "first_frost": "Nov 11",
+   "growing_days": 236,
+   "ecoregion": "Southwestern Appalachians",
+   "ecoregion_code": "68",
+   "nws_office": "Birmingham, AL",
+   "nws_cwa": "BMX",
+   "nwr": [
+    {
+     "call": "KIH58",
+     "freq": "162.475",
+     "same": "001073"
+    },
+    {
+     "call": "KIH54",
+     "freq": "162.550",
+     "same": "001073"
+    },
+    {
+     "call": "WNG606",
+     "freq": "162.425",
+     "same": "001073"
+    },
+    {
+     "call": "KIH60",
+     "freq": "162.400",
+     "same": "001073"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.4
+  },
+  "Lamar County": {
+   "fips": "01075",
+   "centroid": [
+    33.7871,
+    -88.0874
+   ],
+   "latitude": 33.8,
+   "bbox": [
+    -88.2743,
+    33.5241,
+    -87.9464,
+    34.0583
+   ],
+   "coastal": false,
+   "elevation_ft": 310,
+   "zone": "8a",
+   "jan_low_f": 33,
+   "jul_high_f": 92,
+   "record_low_f": -11,
+   "record_high_f": 109,
+   "precip_in": 58.5,
+   "snow_in": 0,
+   "last_frost": "Mar 29",
+   "first_frost": "Nov 5",
+   "growing_days": 222,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Birmingham, AL",
+   "nws_cwa": "BMX",
+   "nwr": [
+    {
+     "call": "KUT404",
+     "freq": "162.450",
+     "same": "001075"
+    },
+    {
+     "call": "WWF53",
+     "freq": "162.525",
+     "same": "001075"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.6
+  },
+  "Lauderdale County": {
+   "fips": "01077",
+   "centroid": [
+    34.9042,
+    -87.6511
+   ],
+   "latitude": 34.9,
+   "bbox": [
+    -88.2023,
+    34.7319,
+    -87.2108,
+    35.0079
+   ],
+   "coastal": false,
+   "elevation_ft": 660,
+   "zone": "7b",
+   "jan_low_f": 31,
+   "jul_high_f": 89,
+   "record_low_f": -11,
+   "record_high_f": 107,
+   "precip_in": 57.6,
+   "snow_in": 1,
+   "last_frost": "Mar 27",
+   "first_frost": "Nov 3",
+   "growing_days": 220,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Huntsville, AL",
+   "nws_cwa": "HUN",
+   "nwr": [
+    {
+     "call": "WZ2506",
+     "freq": "162.500",
+     "same": "001077"
+    },
+    {
+     "call": "KIH57",
+     "freq": "162.475",
+     "same": "001077"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.5
+  },
+  "Lawrence County": {
+   "fips": "01079",
+   "centroid": [
+    34.5298,
+    -87.3219
+   ],
+   "latitude": 34.5,
+   "bbox": [
+    -87.531,
+    34.2991,
+    -87.1047,
+    34.805
+   ],
+   "coastal": false,
+   "elevation_ft": 620,
+   "zone": "8a",
+   "jan_low_f": 30,
+   "jul_high_f": 88,
+   "record_low_f": -13,
+   "record_high_f": 106,
+   "precip_in": 60.2,
+   "snow_in": 2,
+   "last_frost": "Apr 2",
+   "first_frost": "Oct 31",
+   "growing_days": 209,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Huntsville, AL",
+   "nws_cwa": "HUN",
+   "nwr": [
+    {
+     "call": "KIH57",
+     "freq": "162.475",
+     "same": "001079"
+    },
+    {
+     "call": "KIH20",
+     "freq": "162.400",
+     "same": "001079"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.5
+  },
+  "Lee County": {
+   "fips": "01081",
+   "centroid": [
+    32.6041,
+    -85.353
+   ],
+   "latitude": 32.6,
+   "bbox": [
+    -85.6969,
+    32.4094,
+    -85.0011,
+    32.7466
+   ],
+   "coastal": false,
+   "elevation_ft": 710,
+   "zone": "8b",
+   "jan_low_f": 33,
+   "jul_high_f": 90,
+   "record_low_f": -7,
+   "record_high_f": 103,
+   "precip_in": 55.2,
+   "snow_in": 0,
+   "last_frost": "Mar 29",
+   "first_frost": "Nov 5",
+   "growing_days": 223,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Birmingham, AL",
+   "nws_cwa": "BMX",
+   "nwr": [
+    {
+     "call": "WWF54",
+     "freq": "162.525",
+     "same": "001081"
+    },
+    {
+     "call": "WXM32",
+     "freq": "162.400",
+     "same": "001081"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.3
+  },
+  "Limestone County": {
+   "fips": "01083",
+   "centroid": [
+    34.8102,
+    -86.9814
+   ],
+   "latitude": 34.8,
+   "bbox": [
+    -87.2772,
+    34.5512,
+    -86.7837,
+    34.999
+   ],
+   "coastal": false,
+   "elevation_ft": 710,
+   "zone": "8a",
+   "jan_low_f": 34,
+   "jul_high_f": 90,
+   "record_low_f": -1,
+   "record_high_f": 104,
+   "precip_in": 59.1,
+   "snow_in": 1,
+   "last_frost": "Mar 20",
+   "first_frost": "Nov 12",
+   "growing_days": 238,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Huntsville, AL",
+   "nws_cwa": "HUN",
+   "nwr": [
+    {
+     "call": "KIH20",
+     "freq": "162.400",
+     "same": "001083"
+    },
+    {
+     "call": "WNG554",
+     "freq": "162.525",
+     "same": "001083"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 5.5
+  },
+  "Lowndes County": {
+   "fips": "01085",
+   "centroid": [
+    32.1479,
+    -86.6506
+   ],
+   "latitude": 32.1,
+   "bbox": [
+    -86.9087,
+    31.9616,
+    -86.3964,
+    32.4066
+   ],
+   "coastal": false,
+   "elevation_ft": 220,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 94,
+   "record_low_f": 0,
+   "record_high_f": 106,
+   "precip_in": 51.2,
+   "snow_in": 0,
+   "last_frost": "Mar 13",
+   "first_frost": "Nov 13",
+   "growing_days": 244,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Birmingham, AL",
+   "nws_cwa": "BMX",
+   "nwr": [
+    {
+     "call": "KIH59",
+     "freq": "162.550",
+     "same": "001085"
+    },
+    {
+     "call": "WNG607",
+     "freq": "162.425",
+     "same": "001085"
+    },
+    {
+     "call": "KIH55",
+     "freq": "162.400",
+     "same": "001085"
+    },
+    {
+     "call": "WNG635",
+     "freq": "162.450",
+     "same": "001085"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.4
+  },
+  "Macon County": {
+   "fips": "01087",
+   "centroid": [
+    32.387,
+    -85.6929
+   ],
+   "latitude": 32.4,
+   "bbox": [
+    -86.0227,
+    32.2321,
+    -85.4335,
+    32.5959
+   ],
+   "coastal": false,
+   "elevation_ft": 330,
+   "zone": "8b",
+   "jan_low_f": 34,
+   "jul_high_f": 90,
+   "record_low_f": -3,
+   "record_high_f": 107,
+   "precip_in": 54.0,
+   "snow_in": 0,
+   "last_frost": "Mar 25",
+   "first_frost": "Nov 8",
+   "growing_days": 228,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Birmingham, AL",
+   "nws_cwa": "BMX",
+   "nwr": [
+    {
+     "call": "WWF54",
+     "freq": "162.525",
+     "same": "001087"
+    },
+    {
+     "call": "KIH55",
+     "freq": "162.400",
+     "same": "001087"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.3
+  },
+  "Madison County": {
+   "fips": "01089",
+   "centroid": [
+    34.7642,
+    -86.5511
+   ],
+   "latitude": 34.8,
+   "bbox": [
+    -86.7901,
+    34.4759,
+    -86.2561,
+    34.9923
+   ],
+   "coastal": false,
+   "elevation_ft": 920,
+   "zone": "8a",
+   "jan_low_f": 33,
+   "jul_high_f": 92,
+   "record_low_f": -11,
+   "record_high_f": 106,
+   "precip_in": 54.3,
+   "snow_in": 2,
+   "last_frost": "Mar 24",
+   "first_frost": "Nov 8",
+   "growing_days": 229,
+   "ecoregion": "Southwestern Appalachians",
+   "ecoregion_code": "68",
+   "nws_office": "Huntsville, AL",
+   "nws_cwa": "HUN",
+   "nwr": [
+    {
+     "call": "WNG642",
+     "freq": "162.525",
+     "same": "001089"
+    },
+    {
+     "call": "KIH20",
+     "freq": "162.400",
+     "same": "001089"
+    },
+    {
+     "call": "WNG554",
+     "freq": "162.525",
+     "same": "001089"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 5.5
+  },
+  "Marengo County": {
+   "fips": "01091",
+   "centroid": [
+    32.2476,
+    -87.7911
+   ],
+   "latitude": 32.2,
+   "bbox": [
+    -88.118,
+    31.9894,
+    -87.472,
+    32.5471
+   ],
+   "coastal": false,
+   "elevation_ft": 190,
+   "zone": "8b",
+   "jan_low_f": 34,
+   "jul_high_f": 92,
+   "record_low_f": -2,
+   "record_high_f": 105,
+   "precip_in": 56.2,
+   "snow_in": 0,
+   "last_frost": "Mar 16",
+   "first_frost": "Nov 14",
+   "growing_days": 241,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Birmingham, AL",
+   "nws_cwa": "BMX",
+   "nwr": [
+    {
+     "call": "WXL72",
+     "freq": "162.475",
+     "same": "001091"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.5
+  },
+  "Marion County": {
+   "fips": "01093",
+   "centroid": [
+    34.1382,
+    -87.8816
+   ],
+   "latitude": 34.1,
+   "bbox": [
+    -88.2072,
+    33.9148,
+    -87.6343,
+    34.3216
+   ],
+   "coastal": false,
+   "elevation_ft": 520,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 92,
+   "record_low_f": -19,
+   "record_high_f": 109,
+   "precip_in": 61.7,
+   "snow_in": 1,
+   "last_frost": "Apr 11",
+   "first_frost": "Oct 27",
+   "growing_days": 198,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Birmingham, AL",
+   "nws_cwa": "BMX",
+   "nwr": [
+    {
+     "call": "KIH57",
+     "freq": "162.475",
+     "same": "001093"
+    },
+    {
+     "call": "WWF53",
+     "freq": "162.525",
+     "same": "001093"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.5
+  },
+  "Marshall County": {
+   "fips": "01095",
+   "centroid": [
+    34.3096,
+    -86.3217
+   ],
+   "latitude": 34.3,
+   "bbox": [
+    -86.5828,
+    34.0997,
+    -86.0633,
+    34.6001
+   ],
+   "coastal": false,
+   "elevation_ft": 610,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 89,
+   "record_low_f": 2,
+   "record_high_f": 108,
+   "precip_in": 56.7,
+   "snow_in": 1,
+   "last_frost": "Mar 17",
+   "first_frost": "Nov 19",
+   "growing_days": 247,
+   "ecoregion": "Southwestern Appalachians",
+   "ecoregion_code": "68",
+   "nws_office": "Huntsville, AL",
+   "nws_cwa": "HUN",
+   "nwr": [
+    {
+     "call": "WNG642",
+     "freq": "162.525",
+     "same": "001095"
+    },
+    {
+     "call": "WWF44",
+     "freq": "162.500",
+     "same": "001095"
+    },
+    {
+     "call": "KIH20",
+     "freq": "162.400",
+     "same": "001095"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 5.5
+  },
+  "Mobile County": {
+   "fips": "01097",
+   "centroid": [
+    30.6846,
+    -88.1966
+   ],
+   "latitude": 30.7,
+   "bbox": [
+    -88.432,
+    30.2281,
+    -87.8649,
+    31.1724
+   ],
+   "coastal": true,
+   "elevation_ft": 190,
+   "zone": "9a",
+   "jan_low_f": 41,
+   "jul_high_f": 91,
+   "record_low_f": 3,
+   "record_high_f": 106,
+   "precip_in": 67.1,
+   "snow_in": 0,
+   "last_frost": "Mar 3",
+   "first_frost": "Nov 25",
+   "growing_days": 268,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Mobile, AL",
+   "nws_cwa": "MOB",
+   "nwr": [
+    {
+     "call": "WNG640",
+     "freq": "162.425",
+     "same": "001097"
+    },
+    {
+     "call": "KEC61",
+     "freq": "162.550",
+     "same": "001097"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.5
+  },
+  "Monroe County": {
+   "fips": "01099",
+   "centroid": [
+    31.5804,
+    -87.3833
+   ],
+   "latitude": 31.6,
+   "bbox": [
+    -87.7857,
+    31.2278,
+    -86.9062,
+    31.8318
+   ],
+   "coastal": true,
+   "elevation_ft": 370,
+   "zone": "8b",
+   "jan_low_f": 33,
+   "jul_high_f": 91,
+   "record_low_f": -2,
+   "record_high_f": 104,
+   "precip_in": 61.4,
+   "snow_in": 0,
+   "last_frost": "Mar 22",
+   "first_frost": "Nov 8",
+   "growing_days": 231,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Mobile, AL",
+   "nws_cwa": "MOB",
+   "nwr": [
+    {
+     "call": "WNG646",
+     "freq": "162.475",
+     "same": "001099"
+    },
+    {
+     "call": "WNG607",
+     "freq": "162.425",
+     "same": "001099"
+    },
+    {
+     "call": "WWF55",
+     "freq": "162.500",
+     "same": "001099"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.4
+  },
+  "Montgomery County": {
+   "fips": "01101",
+   "centroid": [
+    32.2029,
+    -86.2045
+   ],
+   "latitude": 32.2,
+   "bbox": [
+    -86.4978,
+    31.9651,
+    -85.9191,
+    32.5012
+   ],
+   "coastal": false,
+   "elevation_ft": 250,
+   "zone": "8b",
+   "jan_low_f": 40,
+   "jul_high_f": 94,
+   "record_low_f": 0,
+   "record_high_f": 106,
+   "precip_in": 51.8,
+   "snow_in": 0,
+   "last_frost": "Mar 4",
+   "first_frost": "Nov 18",
+   "growing_days": 262,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Birmingham, AL",
+   "nws_cwa": "BMX",
+   "nwr": [
+    {
+     "call": "KIH59",
+     "freq": "162.550",
+     "same": "001101"
+    },
+    {
+     "call": "WNG607",
+     "freq": "162.425",
+     "same": "001101"
+    },
+    {
+     "call": "KIH55",
+     "freq": "162.400",
+     "same": "001101"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 2,
+    "extreme_heat": 3,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.4
+  },
+  "Morgan County": {
+   "fips": "01103",
+   "centroid": [
+    34.4545,
+    -86.8464
+   ],
+   "latitude": 34.5,
+   "bbox": [
+    -87.1101,
+    34.3047,
+    -86.5499,
+    34.6858
+   ],
+   "coastal": false,
+   "elevation_ft": 690,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 89,
+   "record_low_f": -11,
+   "record_high_f": 106,
+   "precip_in": 58.0,
+   "snow_in": 2,
+   "last_frost": "Mar 26",
+   "first_frost": "Nov 7",
+   "growing_days": 228,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Huntsville, AL",
+   "nws_cwa": "HUN",
+   "nwr": [
+    {
+     "call": "KIH20",
+     "freq": "162.400",
+     "same": "001103"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 5.5
+  },
+  "Perry County": {
+   "fips": "01105",
+   "centroid": [
+    32.639,
+    -87.2938
+   ],
+   "latitude": 32.6,
+   "bbox": [
+    -87.5257,
+    32.3073,
+    -87.0177,
+    32.8751
+   ],
+   "coastal": false,
+   "elevation_ft": 280,
+   "zone": "8b",
+   "jan_low_f": 34,
+   "jul_high_f": 93,
+   "record_low_f": -1,
+   "record_high_f": 108,
+   "precip_in": 54.6,
+   "snow_in": 0,
+   "last_frost": "Mar 19",
+   "first_frost": "Nov 9",
+   "growing_days": 238,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Birmingham, AL",
+   "nws_cwa": "BMX",
+   "nwr": [
+    {
+     "call": "WXL72",
+     "freq": "162.475",
+     "same": "001105"
+    },
+    {
+     "call": "WNG635",
+     "freq": "162.450",
+     "same": "001105"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.5
+  },
+  "Pickens County": {
+   "fips": "01107",
+   "centroid": [
+    33.2968,
+    -88.0969
+   ],
+   "latitude": 33.3,
+   "bbox": [
+    -88.3401,
+    32.9912,
+    -87.8366,
+    33.5344
+   ],
+   "coastal": false,
+   "elevation_ft": 270,
+   "zone": "8a",
+   "jan_low_f": 33,
+   "jul_high_f": 91,
+   "record_low_f": -2,
+   "record_high_f": 108,
+   "precip_in": 58.1,
+   "snow_in": 0,
+   "last_frost": "Mar 24",
+   "first_frost": "Nov 8",
+   "growing_days": 230,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Birmingham, AL",
+   "nws_cwa": "BMX",
+   "nwr": [
+    {
+     "call": "KIH60",
+     "freq": "162.400",
+     "same": "001107"
+    },
+    {
+     "call": "WWF53",
+     "freq": "162.525",
+     "same": "001107"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.6
+  },
+  "Pike County": {
+   "fips": "01109",
+   "centroid": [
+    31.7987,
+    -85.9416
+   ],
+   "latitude": 31.8,
+   "bbox": [
+    -86.1994,
+    31.6176,
+    -85.659,
+    32.0618
+   ],
+   "coastal": false,
+   "elevation_ft": 430,
+   "zone": "8b",
+   "jan_low_f": 37,
+   "jul_high_f": 91,
+   "record_low_f": -1,
+   "record_high_f": 108,
+   "precip_in": 52.8,
+   "snow_in": 0,
+   "last_frost": "Mar 10",
+   "first_frost": "Nov 21",
+   "growing_days": 257,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Birmingham, AL",
+   "nws_cwa": "BMX",
+   "nwr": [
+    {
+     "call": "KIH59",
+     "freq": "162.550",
+     "same": "001109"
+    },
+    {
+     "call": "KIH56",
+     "freq": "162.475",
+     "same": "001109"
+    },
+    {
+     "call": "KIH55",
+     "freq": "162.400",
+     "same": "001109"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.4
+  },
+  "Randolph County": {
+   "fips": "01111",
+   "centroid": [
+    33.2965,
+    -85.4641
+   ],
+   "latitude": 33.3,
+   "bbox": [
+    -85.6539,
+    33.1066,
+    -85.2324,
+    33.5006
+   ],
+   "coastal": false,
+   "elevation_ft": 950,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 89,
+   "record_low_f": -1,
+   "record_high_f": 107,
+   "precip_in": 53.0,
+   "snow_in": 2,
+   "last_frost": "Apr 2",
+   "first_frost": "Nov 3",
+   "growing_days": 216,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Birmingham, AL",
+   "nws_cwa": "BMX",
+   "nwr": [
+    {
+     "call": "KIH58",
+     "freq": "162.475",
+     "same": "001111"
+    },
+    {
+     "call": "KXI76",
+     "freq": "162.450",
+     "same": "001111"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.3
+  },
+  "Russell County": {
+   "fips": "01113",
+   "centroid": [
+    32.2898,
+    -85.187
+   ],
+   "latitude": 32.3,
+   "bbox": [
+    -85.4347,
+    32.0618,
+    -84.8887,
+    32.5106
+   ],
+   "coastal": false,
+   "elevation_ft": 360,
+   "zone": "8b",
+   "jan_low_f": 32,
+   "jul_high_f": 93,
+   "record_low_f": 4,
+   "record_high_f": 107,
+   "precip_in": 52.0,
+   "snow_in": 0,
+   "last_frost": "Mar 26",
+   "first_frost": "Nov 8",
+   "growing_days": 228,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Birmingham, AL",
+   "nws_cwa": "BMX",
+   "nwr": [
+    {
+     "call": "WWF54",
+     "freq": "162.525",
+     "same": "001113"
+    },
+    {
+     "call": "WXM32",
+     "freq": "162.400",
+     "same": "001113"
+    },
+    {
+     "call": "KIH56",
+     "freq": "162.475",
+     "same": "001113"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.3
+  },
+  "St. Clair County": {
+   "fips": "01115",
+   "centroid": [
+    33.7195,
+    -86.3113
+   ],
+   "latitude": 33.7,
+   "bbox": [
+    -86.5778,
+    33.3938,
+    -86.0439,
+    33.9888
+   ],
+   "coastal": false,
+   "elevation_ft": 920,
+   "zone": "8a",
+   "jan_low_f": 33,
+   "jul_high_f": 91,
+   "record_low_f": -15,
+   "record_high_f": 109,
+   "precip_in": 57.4,
+   "snow_in": 0,
+   "last_frost": "Mar 26",
+   "first_frost": "Nov 10",
+   "growing_days": 230,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Birmingham, AL",
+   "nws_cwa": "BMX",
+   "nwr": [
+    {
+     "call": "KIH58",
+     "freq": "162.475",
+     "same": "001115"
+    },
+    {
+     "call": "KIH54",
+     "freq": "162.550",
+     "same": "001115"
+    },
+    {
+     "call": "WNG606",
+     "freq": "162.425",
+     "same": "001115"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.4
+  },
+  "Shelby County": {
+   "fips": "01117",
+   "centroid": [
+    33.2669,
+    -86.661
+   ],
+   "latitude": 33.3,
+   "bbox": [
+    -87.0268,
+    33.0189,
+    -86.3411,
+    33.5461
+   ],
+   "coastal": false,
+   "elevation_ft": 640,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 91,
+   "record_low_f": 4,
+   "record_high_f": 105,
+   "precip_in": 56.2,
+   "snow_in": 0,
+   "last_frost": "Mar 12",
+   "first_frost": "Nov 16",
+   "growing_days": 248,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Birmingham, AL",
+   "nws_cwa": "BMX",
+   "nwr": [
+    {
+     "call": "KIH58",
+     "freq": "162.475",
+     "same": "001117"
+    },
+    {
+     "call": "KIH54",
+     "freq": "162.550",
+     "same": "001117"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.4
+  },
+  "Sumter County": {
+   "fips": "01119",
+   "centroid": [
+    32.5975,
+    -88.2001
+   ],
+   "latitude": 32.6,
+   "bbox": [
+    -88.4215,
+    32.3074,
+    -87.841,
+    32.9958
+   ],
+   "coastal": false,
+   "elevation_ft": 120,
+   "zone": "8b",
+   "jan_low_f": 34,
+   "jul_high_f": 92,
+   "record_low_f": -5,
+   "record_high_f": 106,
+   "precip_in": 55.0,
+   "snow_in": 0,
+   "last_frost": "Mar 20",
+   "first_frost": "Nov 9",
+   "growing_days": 234,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Birmingham, AL",
+   "nws_cwa": "BMX",
+   "nwr": [
+    {
+     "call": "WXL72",
+     "freq": "162.475",
+     "same": "001119"
+    },
+    {
+     "call": "KIH49",
+     "freq": "162.550",
+     "same": "001119"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.5
+  },
+  "Talladega County": {
+   "fips": "01121",
+   "centroid": [
+    33.3693,
+    -86.1759
+   ],
+   "latitude": 33.4,
+   "bbox": [
+    -86.5032,
+    33.1028,
+    -85.7949,
+    33.6995
+   ],
+   "coastal": false,
+   "elevation_ft": 600,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 91,
+   "record_low_f": -10,
+   "record_high_f": 109,
+   "precip_in": 56.5,
+   "snow_in": 1,
+   "last_frost": "Apr 5",
+   "first_frost": "Nov 1",
+   "growing_days": 208,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Birmingham, AL",
+   "nws_cwa": "BMX",
+   "nwr": [
+    {
+     "call": "KIH58",
+     "freq": "162.475",
+     "same": "001121"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.4
+  },
+  "Tallapoosa County": {
+   "fips": "01123",
+   "centroid": [
+    32.8633,
+    -85.7996
+   ],
+   "latitude": 32.9,
+   "bbox": [
+    -86.0131,
+    32.493,
+    -85.593,
+    33.1073
+   ],
+   "coastal": false,
+   "elevation_ft": 640,
+   "zone": "8a",
+   "jan_low_f": 28,
+   "jul_high_f": 91,
+   "record_low_f": -4,
+   "record_high_f": 109,
+   "precip_in": 52.9,
+   "snow_in": 1,
+   "last_frost": "Apr 11",
+   "first_frost": "Oct 27",
+   "growing_days": 201,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Birmingham, AL",
+   "nws_cwa": "BMX",
+   "nwr": [
+    {
+     "call": "KIH58",
+     "freq": "162.475",
+     "same": "001123"
+    },
+    {
+     "call": "WWF54",
+     "freq": "162.525",
+     "same": "001123"
+    },
+    {
+     "call": "KIH55",
+     "freq": "162.400",
+     "same": "001123"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.3
+  },
+  "Tuscaloosa County": {
+   "fips": "01125",
+   "centroid": [
+    33.2902,
+    -87.5228
+   ],
+   "latitude": 33.3,
+   "bbox": [
+    -87.8407,
+    33.0034,
+    -87.0657,
+    33.6098
+   ],
+   "coastal": false,
+   "elevation_ft": 320,
+   "zone": "8a",
+   "jan_low_f": 35,
+   "jul_high_f": 92,
+   "record_low_f": 7,
+   "record_high_f": 107,
+   "precip_in": 57.3,
+   "snow_in": 0,
+   "last_frost": "Mar 18",
+   "first_frost": "Nov 10",
+   "growing_days": 239,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Birmingham, AL",
+   "nws_cwa": "BMX",
+   "nwr": [
+    {
+     "call": "KIH54",
+     "freq": "162.550",
+     "same": "001125"
+    },
+    {
+     "call": "KIH60",
+     "freq": "162.400",
+     "same": "001125"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.5
+  },
+  "Walker County": {
+   "fips": "01127",
+   "centroid": [
+    33.7916,
+    -87.3011
+   ],
+   "latitude": 33.8,
+   "bbox": [
+    -87.6361,
+    33.5132,
+    -86.9536,
+    34.0052
+   ],
+   "coastal": false,
+   "elevation_ft": 530,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 90,
+   "record_low_f": -10,
+   "record_high_f": 108,
+   "precip_in": 61.8,
+   "snow_in": 1,
+   "last_frost": "Mar 30",
+   "first_frost": "Nov 4",
+   "growing_days": 220,
+   "ecoregion": "Southwestern Appalachians",
+   "ecoregion_code": "68",
+   "nws_office": "Birmingham, AL",
+   "nws_cwa": "BMX",
+   "nwr": [
+    {
+     "call": "KIH54",
+     "freq": "162.550",
+     "same": "001127"
+    },
+    {
+     "call": "WNG606",
+     "freq": "162.425",
+     "same": "001127"
+    },
+    {
+     "call": "WWF53",
+     "freq": "162.525",
+     "same": "001127"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.5
+  },
+  "Washington County": {
+   "fips": "01129",
+   "centroid": [
+    31.4085,
+    -88.2124
+   ],
+   "latitude": 31.4,
+   "bbox": [
+    -88.4644,
+    31.1141,
+    -87.8868,
+    31.6993
+   ],
+   "coastal": true,
+   "elevation_ft": 140,
+   "zone": "8b",
+   "jan_low_f": 34,
+   "jul_high_f": 92,
+   "record_low_f": 1,
+   "record_high_f": 107,
+   "precip_in": 60.2,
+   "snow_in": 0,
+   "last_frost": "Mar 26",
+   "first_frost": "Nov 8",
+   "growing_days": 228,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Mobile, AL",
+   "nws_cwa": "MOB",
+   "nwr": [
+    {
+     "call": "WWF55",
+     "freq": "162.500",
+     "same": "001129"
+    },
+    {
+     "call": "WNG640",
+     "freq": "162.425",
+     "same": "001129"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.4
+  },
+  "Wilcox County": {
+   "fips": "01131",
+   "centroid": [
+    31.9901,
+    -87.3049
+   ],
+   "latitude": 32.0,
+   "bbox": [
+    -87.6682,
+    31.8271,
+    -86.8566,
+    32.269
+   ],
+   "coastal": false,
+   "elevation_ft": 210,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 92,
+   "record_low_f": 0,
+   "record_high_f": 107,
+   "precip_in": 50.5,
+   "snow_in": 0,
+   "last_frost": "Mar 18",
+   "first_frost": "Nov 11",
+   "growing_days": 241,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Mobile, AL",
+   "nws_cwa": "MOB",
+   "nwr": [
+    {
+     "call": "WXL72",
+     "freq": "162.475",
+     "same": "001131"
+    },
+    {
+     "call": "WNG607",
+     "freq": "162.425",
+     "same": "001131"
+    },
+    {
+     "call": "KIH55",
+     "freq": "162.400",
+     "same": "001131"
+    },
+    {
+     "call": "WNG635",
+     "freq": "162.450",
+     "same": "001131"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.4
+  },
+  "Winston County": {
+   "fips": "01133",
+   "centroid": [
+    34.1546,
+    -87.3653
+   ],
+   "latitude": 34.2,
+   "bbox": [
+    -87.6366,
+    33.9851,
+    -87.1099,
+    34.307
+   ],
+   "coastal": false,
+   "elevation_ft": 740,
+   "zone": "7b",
+   "jan_low_f": 29,
+   "jul_high_f": 88,
+   "record_low_f": -19,
+   "record_high_f": 107,
+   "precip_in": 60.8,
+   "snow_in": 0,
+   "last_frost": "Apr 4",
+   "first_frost": "Nov 1",
+   "growing_days": 210,
+   "ecoregion": "Southwestern Appalachians",
+   "ecoregion_code": "68",
+   "nws_office": "Birmingham, AL",
+   "nws_cwa": "BMX",
+   "nwr": [
+    {
+     "call": "WWF53",
+     "freq": "162.525",
+     "same": "001133"
+    }
+   ],
+   "state_em": "Alabama Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.5
+  }
+ }
+}

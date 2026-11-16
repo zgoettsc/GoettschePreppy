@@ -1,0 +1,5979 @@
+{
+ "state": "IA",
+ "state_name": "Iowa",
+ "state_fips": "19",
+ "state_em": "Iowa Homeland Security and Emergency Management",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "ARX": "NWS La Crosse, WI",
+  "DMX": "NWS Des Moines, IA",
+  "DVN": "NWS Quad Cities, IL",
+  "FSD": "NWS Sioux Falls, SD",
+  "OAX": "NWS Omaha/Valley, NE"
+ },
+ "ecoregions": [
+  "Central Irregular Plains",
+  "Western Corn Belt Plains",
+  "Driftless Area",
+  "Interior River Valleys and Hills"
+ ],
+ "counties": {
+  "Adair County": {
+   "fips": "19001",
+   "centroid": [
+    41.3285,
+    -94.4782
+   ],
+   "latitude": 41.3,
+   "bbox": [
+    -94.701,
+    41.1571,
+    -94.2411,
+    41.5041
+   ],
+   "coastal": false,
+   "elevation_ft": 1250,
+   "zone": "5b",
+   "jan_low_f": 11,
+   "jul_high_f": 84,
+   "record_low_f": -34,
+   "record_high_f": 107,
+   "precip_in": 36.5,
+   "snow_in": 26,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 12",
+   "growing_days": 170,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "WXL57",
+     "freq": "162.550",
+     "same": "019001"
+    },
+    {
+     "call": "KZZ52",
+     "freq": "162.525",
+     "same": "019001"
+    },
+    {
+     "call": "KXI65",
+     "freq": "162.450",
+     "same": "019001"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.5
+  },
+  "Adams County": {
+   "fips": "19003",
+   "centroid": [
+    41.0217,
+    -94.6969
+   ],
+   "latitude": 41.0,
+   "bbox": [
+    -94.9288,
+    40.8993,
+    -94.4704,
+    41.1584
+   ],
+   "coastal": false,
+   "elevation_ft": 1190,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 85,
+   "record_low_f": -32,
+   "record_high_f": 115,
+   "precip_in": 35.3,
+   "snow_in": 28,
+   "last_frost": "Apr 27",
+   "first_frost": "Oct 12",
+   "growing_days": 168,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "KZZ52",
+     "freq": "162.525",
+     "same": "019003"
+    },
+    {
+     "call": "KXI65",
+     "freq": "162.450",
+     "same": "019003"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.5
+  },
+  "Allamakee County": {
+   "fips": "19005",
+   "centroid": [
+    43.275,
+    -91.3828
+   ],
+   "latitude": 43.3,
+   "bbox": [
+    -91.611,
+    43.0797,
+    -91.0579,
+    43.501
+   ],
+   "coastal": false,
+   "elevation_ft": 1120,
+   "zone": "5a",
+   "jan_low_f": 8,
+   "jul_high_f": 81,
+   "record_low_f": -34,
+   "record_high_f": 106,
+   "precip_in": 39.2,
+   "snow_in": 40,
+   "last_frost": "May 2",
+   "first_frost": "Oct 11",
+   "growing_days": 161,
+   "ecoregion": "Driftless Area",
+   "ecoregion_code": "52",
+   "nws_office": "La Crosse, WI",
+   "nws_cwa": "ARX",
+   "nwr": [
+    {
+     "call": "KXI60",
+     "freq": "162.525",
+     "same": "019005"
+    },
+    {
+     "call": "WXJ86",
+     "freq": "162.550",
+     "same": "019005"
+    },
+    {
+     "call": "WWG86",
+     "freq": "162.500",
+     "same": "019005"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Appanoose County": {
+   "fips": "19007",
+   "centroid": [
+    40.7442,
+    -92.8731
+   ],
+   "latitude": 40.7,
+   "bbox": [
+    -93.0982,
+    40.5841,
+    -92.6378,
+    40.8989
+   ],
+   "coastal": false,
+   "elevation_ft": 980,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 86,
+   "record_low_f": -30,
+   "record_high_f": 110,
+   "precip_in": 36.0,
+   "snow_in": 22,
+   "last_frost": "Apr 28",
+   "first_frost": "Oct 14",
+   "growing_days": 168,
+   "ecoregion": "Central Irregular Plains",
+   "ecoregion_code": "40",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "WXN91",
+     "freq": "162.425",
+     "same": "019007"
+    },
+    {
+     "call": "WXM36",
+     "freq": "162.550",
+     "same": "019007"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.5
+  },
+  "Audubon County": {
+   "fips": "19009",
+   "centroid": [
+    41.6792,
+    -94.9043
+   ],
+   "latitude": 41.7,
+   "bbox": [
+    -95.0933,
+    41.5041,
+    -94.7004,
+    41.8634
+   ],
+   "coastal": false,
+   "elevation_ft": 1310,
+   "zone": "5a",
+   "jan_low_f": 9,
+   "jul_high_f": 83,
+   "record_low_f": -35,
+   "record_high_f": 113,
+   "precip_in": 35.0,
+   "snow_in": 27,
+   "last_frost": "May 2",
+   "first_frost": "Oct 3",
+   "growing_days": 154,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "KZZ51",
+     "freq": "162.425",
+     "same": "019009"
+    },
+    {
+     "call": "KZZ52",
+     "freq": "162.525",
+     "same": "019009"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.5
+  },
+  "Benton County": {
+   "fips": "19011",
+   "centroid": [
+    42.0925,
+    -92.0576
+   ],
+   "latitude": 42.1,
+   "bbox": [
+    -92.2992,
+    41.8615,
+    -91.831,
+    42.2989
+   ],
+   "coastal": false,
+   "elevation_ft": 850,
+   "zone": "5a",
+   "jan_low_f": 8,
+   "jul_high_f": 81,
+   "record_low_f": -35,
+   "record_high_f": 105,
+   "precip_in": 37.9,
+   "snow_in": 34,
+   "last_frost": "May 3",
+   "first_frost": "Oct 3",
+   "growing_days": 151,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Quad Cities, IL",
+   "nws_cwa": "DVN",
+   "nwr": [
+    {
+     "call": "WXL61",
+     "freq": "162.475",
+     "same": "019011"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.4
+  },
+  "Black Hawk County": {
+   "fips": "19013",
+   "centroid": [
+    42.4711,
+    -92.3076
+   ],
+   "latitude": 42.5,
+   "bbox": [
+    -92.5549,
+    42.2971,
+    -92.064,
+    42.6424
+   ],
+   "coastal": false,
+   "elevation_ft": 840,
+   "zone": "5a",
+   "jan_low_f": 11,
+   "jul_high_f": 85,
+   "record_low_f": -34,
+   "record_high_f": 105,
+   "precip_in": 36.3,
+   "snow_in": 39,
+   "last_frost": "Apr 27",
+   "first_frost": "Oct 10",
+   "growing_days": 165,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "WXL94",
+     "freq": "162.550",
+     "same": "019013"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.4
+  },
+  "Boone County": {
+   "fips": "19015",
+   "centroid": [
+    42.0386,
+    -93.9386
+   ],
+   "latitude": 42.0,
+   "bbox": [
+    -94.1652,
+    41.8631,
+    -93.6982,
+    42.2101
+   ],
+   "coastal": false,
+   "elevation_ft": 900,
+   "zone": "5a",
+   "jan_low_f": 9,
+   "jul_high_f": 84,
+   "record_low_f": -35,
+   "record_high_f": 111,
+   "precip_in": 39.1,
+   "snow_in": 36,
+   "last_frost": "Apr 28",
+   "first_frost": "Oct 12",
+   "growing_days": 165,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "WXL57",
+     "freq": "162.550",
+     "same": "019015"
+    },
+    {
+     "call": "WXK84",
+     "freq": "162.400",
+     "same": "019015"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Bremer County": {
+   "fips": "19017",
+   "centroid": [
+    42.7809,
+    -92.3274
+   ],
+   "latitude": 42.8,
+   "bbox": [
+    -92.5549,
+    42.6419,
+    -92.0815,
+    42.9073
+   ],
+   "coastal": false,
+   "elevation_ft": 1050,
+   "zone": "5a",
+   "jan_low_f": 7,
+   "jul_high_f": 83,
+   "record_low_f": -32,
+   "record_high_f": 104,
+   "precip_in": 38.6,
+   "snow_in": 39,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 9",
+   "growing_days": 162,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "WXL94",
+     "freq": "162.550",
+     "same": "019017"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.4
+  },
+  "Buchanan County": {
+   "fips": "19019",
+   "centroid": [
+    42.4703,
+    -91.8387
+   ],
+   "latitude": 42.5,
+   "bbox": [
+    -92.0825,
+    42.2962,
+    -91.5969,
+    42.6439
+   ],
+   "coastal": false,
+   "elevation_ft": 970,
+   "zone": "5a",
+   "jan_low_f": 8,
+   "jul_high_f": 83,
+   "record_low_f": -31,
+   "record_high_f": 102,
+   "precip_in": 37.4,
+   "snow_in": 34,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 7",
+   "growing_days": 159,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Quad Cities, IL",
+   "nws_cwa": "DVN",
+   "nwr": [
+    {
+     "call": "KJY64",
+     "freq": "162.450",
+     "same": "019019"
+    },
+    {
+     "call": "WXL94",
+     "freq": "162.550",
+     "same": "019019"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.4
+  },
+  "Buena Vista County": {
+   "fips": "19021",
+   "centroid": [
+    42.7415,
+    -95.1414
+   ],
+   "latitude": 42.7,
+   "bbox": [
+    -95.3883,
+    42.5602,
+    -94.914,
+    42.9101
+   ],
+   "coastal": false,
+   "elevation_ft": 1310,
+   "zone": "5a",
+   "jan_low_f": 9,
+   "jul_high_f": 82,
+   "record_low_f": -34,
+   "record_high_f": 109,
+   "precip_in": 33.8,
+   "snow_in": 35,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 13",
+   "growing_days": 170,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "KWN47",
+     "freq": "162.450",
+     "same": "019021"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.6
+  },
+  "Butler County": {
+   "fips": "19023",
+   "centroid": [
+    42.7348,
+    -92.7802
+   ],
+   "latitude": 42.7,
+   "bbox": [
+    -93.0268,
+    42.5558,
+    -92.5536,
+    42.9077
+   ],
+   "coastal": false,
+   "elevation_ft": 1030,
+   "zone": "5a",
+   "jan_low_f": 8,
+   "jul_high_f": 83,
+   "record_low_f": -31,
+   "record_high_f": 109,
+   "precip_in": 35.4,
+   "snow_in": 32,
+   "last_frost": "Apr 27",
+   "first_frost": "Oct 8",
+   "growing_days": 165,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "WNG666",
+     "freq": "162.525",
+     "same": "019023"
+    },
+    {
+     "call": "WXL94",
+     "freq": "162.550",
+     "same": "019023"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.4
+  },
+  "Calhoun County": {
+   "fips": "19025",
+   "centroid": [
+    42.3861,
+    -94.6436
+   ],
+   "latitude": 42.4,
+   "bbox": [
+    -94.9149,
+    42.2091,
+    -94.3971,
+    42.5603
+   ],
+   "coastal": false,
+   "elevation_ft": 1220,
+   "zone": "5a",
+   "jan_low_f": 8,
+   "jul_high_f": 83,
+   "record_low_f": -35,
+   "record_high_f": 110,
+   "precip_in": 33.8,
+   "snow_in": 32,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 10",
+   "growing_days": 167,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "KZZ51",
+     "freq": "162.425",
+     "same": "019025"
+    },
+    {
+     "call": "WXK84",
+     "freq": "162.400",
+     "same": "019025"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.5
+  },
+  "Carroll County": {
+   "fips": "19027",
+   "centroid": [
+    42.0395,
+    -94.8676
+   ],
+   "latitude": 42.0,
+   "bbox": [
+    -95.0931,
+    41.8623,
+    -94.6287,
+    42.2102
+   ],
+   "coastal": false,
+   "elevation_ft": 1250,
+   "zone": "5a",
+   "jan_low_f": 10,
+   "jul_high_f": 84,
+   "record_low_f": -40,
+   "record_high_f": 112,
+   "precip_in": 33.7,
+   "snow_in": 34,
+   "last_frost": "Apr 27",
+   "first_frost": "Oct 10",
+   "growing_days": 166,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "KZZ51",
+     "freq": "162.425",
+     "same": "019027"
+    },
+    {
+     "call": "WNG668",
+     "freq": "162.550",
+     "same": "019027"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.5
+  },
+  "Cass County": {
+   "fips": "19029",
+   "centroid": [
+    41.3338,
+    -94.9333
+   ],
+   "latitude": 41.3,
+   "bbox": [
+    -95.1558,
+    41.1579,
+    -94.7001,
+    41.5052
+   ],
+   "coastal": false,
+   "elevation_ft": 1250,
+   "zone": "5a",
+   "jan_low_f": 10,
+   "jul_high_f": 86,
+   "record_low_f": -37,
+   "record_high_f": 117,
+   "precip_in": 37.1,
+   "snow_in": 27,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 2",
+   "growing_days": 153,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "KZZ52",
+     "freq": "162.525",
+     "same": "019029"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.5
+  },
+  "Cedar County": {
+   "fips": "19031",
+   "centroid": [
+    41.7724,
+    -91.1326
+   ],
+   "latitude": 41.8,
+   "bbox": [
+    -91.3665,
+    41.5971,
+    -90.8981,
+    41.9473
+   ],
+   "coastal": false,
+   "elevation_ft": 820,
+   "zone": "5a",
+   "jan_low_f": 12,
+   "jul_high_f": 84,
+   "record_low_f": -30,
+   "record_high_f": 108,
+   "precip_in": 36.5,
+   "snow_in": 40,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 15",
+   "growing_days": 175,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Quad Cities, IL",
+   "nws_cwa": "DVN",
+   "nwr": [
+    {
+     "call": "WXL61",
+     "freq": "162.475",
+     "same": "019031"
+    },
+    {
+     "call": "KZZ83",
+     "freq": "162.425",
+     "same": "019031"
+    },
+    {
+     "call": "WXJ73",
+     "freq": "162.550",
+     "same": "019031"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.4
+  },
+  "Cerro Gordo County": {
+   "fips": "19033",
+   "centroid": [
+    43.075,
+    -93.251
+   ],
+   "latitude": 43.1,
+   "bbox": [
+    -93.4991,
+    42.9075,
+    -93.0232,
+    43.2557
+   ],
+   "coastal": false,
+   "elevation_ft": 1220,
+   "zone": "5a",
+   "jan_low_f": 7,
+   "jul_high_f": 82,
+   "record_low_f": -32,
+   "record_high_f": 104,
+   "precip_in": 36.2,
+   "snow_in": 44,
+   "last_frost": "May 3",
+   "first_frost": "Oct 1",
+   "growing_days": 150,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "KJY63",
+     "freq": "162.500",
+     "same": "019033"
+    },
+    {
+     "call": "KXI68",
+     "freq": "162.450",
+     "same": "019033"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.4
+  },
+  "Cherokee County": {
+   "fips": "19035",
+   "centroid": [
+    42.7427,
+    -95.6333
+   ],
+   "latitude": 42.7,
+   "bbox": [
+    -95.8609,
+    42.5609,
+    -95.3875,
+    42.9104
+   ],
+   "coastal": false,
+   "elevation_ft": 1430,
+   "zone": "5a",
+   "jan_low_f": 7,
+   "jul_high_f": 84,
+   "record_low_f": -35,
+   "record_high_f": 109,
+   "precip_in": 31.2,
+   "snow_in": 38,
+   "last_frost": "May 4",
+   "first_frost": "Oct 4",
+   "growing_days": 152,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "WXL62",
+     "freq": "162.475",
+     "same": "019035"
+    },
+    {
+     "call": "KWN47",
+     "freq": "162.450",
+     "same": "019035"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.6
+  },
+  "Chickasaw County": {
+   "fips": "19037",
+   "centroid": [
+    43.0597,
+    -92.3172
+   ],
+   "latitude": 43.1,
+   "bbox": [
+    -92.5545,
+    42.9068,
+    -92.0809,
+    43.2136
+   ],
+   "coastal": false,
+   "elevation_ft": 1160,
+   "zone": "5a",
+   "jan_low_f": 6,
+   "jul_high_f": 81,
+   "record_low_f": -34,
+   "record_high_f": 110,
+   "precip_in": 40.6,
+   "snow_in": 38,
+   "last_frost": "May 2",
+   "first_frost": "Oct 5",
+   "growing_days": 155,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "La Crosse, WI",
+   "nws_cwa": "ARX",
+   "nwr": [
+    {
+     "call": "KXI60",
+     "freq": "162.525",
+     "same": "019037"
+    },
+    {
+     "call": "KXI68",
+     "freq": "162.450",
+     "same": "019037"
+    },
+    {
+     "call": "WXL94",
+     "freq": "162.550",
+     "same": "019037"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.3
+  },
+  "Clarke County": {
+   "fips": "19039",
+   "centroid": [
+    41.0297,
+    -93.7853
+   ],
+   "latitude": 41.0,
+   "bbox": [
+    -94.0149,
+    40.8967,
+    -93.5563,
+    41.162
+   ],
+   "coastal": false,
+   "elevation_ft": 1120,
+   "zone": "5b",
+   "jan_low_f": 11,
+   "jul_high_f": 86,
+   "record_low_f": -32,
+   "record_high_f": 107,
+   "precip_in": 38.7,
+   "snow_in": 28,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 9",
+   "growing_days": 162,
+   "ecoregion": "Central Irregular Plains",
+   "ecoregion_code": "40",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "WXL57",
+     "freq": "162.550",
+     "same": "019039"
+    },
+    {
+     "call": "KZZ68",
+     "freq": "162.475",
+     "same": "019039"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.5
+  },
+  "Clay County": {
+   "fips": "19041",
+   "centroid": [
+    43.0812,
+    -95.1499
+   ],
+   "latitude": 43.1,
+   "bbox": [
+    -95.3888,
+    42.9097,
+    -94.9134,
+    43.2556
+   ],
+   "coastal": false,
+   "elevation_ft": 1350,
+   "zone": "5a",
+   "jan_low_f": 7,
+   "jul_high_f": 84,
+   "record_low_f": -38,
+   "record_high_f": 113,
+   "precip_in": 31.0,
+   "snow_in": 43,
+   "last_frost": "May 1",
+   "first_frost": "Oct 3",
+   "growing_days": 154,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "KZZ80",
+     "freq": "162.550",
+     "same": "019041"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.5
+  },
+  "Clayton County": {
+   "fips": "19043",
+   "centroid": [
+    42.841,
+    -91.3236
+   ],
+   "latitude": 42.8,
+   "bbox": [
+    -91.6078,
+    42.6437,
+    -90.897,
+    43.0817
+   ],
+   "coastal": false,
+   "elevation_ft": 990,
+   "zone": "4b",
+   "jan_low_f": 6,
+   "jul_high_f": 82,
+   "record_low_f": -47,
+   "record_high_f": 111,
+   "precip_in": 38.8,
+   "snow_in": 36,
+   "last_frost": "May 8",
+   "first_frost": "Oct 1",
+   "growing_days": 146,
+   "ecoregion": "Driftless Area",
+   "ecoregion_code": "52",
+   "nws_office": "La Crosse, WI",
+   "nws_cwa": "ARX",
+   "nwr": [
+    {
+     "call": "KJY64",
+     "freq": "162.450",
+     "same": "019043"
+    },
+    {
+     "call": "WXL64",
+     "freq": "162.400",
+     "same": "019043"
+    },
+    {
+     "call": "WWG86",
+     "freq": "162.500",
+     "same": "019043"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.4
+  },
+  "Clinton County": {
+   "fips": "19045",
+   "centroid": [
+    41.8981,
+    -90.5342
+   ],
+   "latitude": 41.9,
+   "bbox": [
+    -90.8989,
+    41.7278,
+    -90.1403,
+    42.0341
+   ],
+   "coastal": false,
+   "elevation_ft": 780,
+   "zone": "5a",
+   "jan_low_f": 11,
+   "jul_high_f": 82,
+   "record_low_f": -37,
+   "record_high_f": 108,
+   "precip_in": 36.7,
+   "snow_in": 30,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 14",
+   "growing_days": 171,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Quad Cities, IL",
+   "nws_cwa": "DVN",
+   "nwr": [
+    {
+     "call": "KZZ83",
+     "freq": "162.425",
+     "same": "019045"
+    },
+    {
+     "call": "WXJ73",
+     "freq": "162.550",
+     "same": "019045"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.4
+  },
+  "Crawford County": {
+   "fips": "19047",
+   "centroid": [
+    42.0431,
+    -95.3891
+   ],
+   "latitude": 42.0,
+   "bbox": [
+    -95.6727,
+    41.8631,
+    -95.091,
+    42.2114
+   ],
+   "coastal": false,
+   "elevation_ft": 1320,
+   "zone": "5a",
+   "jan_low_f": 10,
+   "jul_high_f": 83,
+   "record_low_f": -40,
+   "record_high_f": 112,
+   "precip_in": 33.6,
+   "snow_in": 34,
+   "last_frost": "Apr 27",
+   "first_frost": "Oct 11",
+   "growing_days": 166,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "KZZ51",
+     "freq": "162.425",
+     "same": "019047"
+    },
+    {
+     "call": "WNG668",
+     "freq": "162.550",
+     "same": "019047"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.6
+  },
+  "Dallas County": {
+   "fips": "19049",
+   "centroid": [
+    41.6853,
+    -94.0407
+   ],
+   "latitude": 41.7,
+   "bbox": [
+    -94.2809,
+    41.5031,
+    -93.7901,
+    41.8637
+   ],
+   "coastal": false,
+   "elevation_ft": 960,
+   "zone": "5b",
+   "jan_low_f": 10,
+   "jul_high_f": 85,
+   "record_low_f": -34,
+   "record_high_f": 111,
+   "precip_in": 36.1,
+   "snow_in": 38,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 10",
+   "growing_days": 166,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "WXL57",
+     "freq": "162.550",
+     "same": "019049"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.5
+  },
+  "Davis County": {
+   "fips": "19051",
+   "centroid": [
+    40.7481,
+    -92.4103
+   ],
+   "latitude": 40.7,
+   "bbox": [
+    -92.6392,
+    40.5908,
+    -92.1782,
+    40.8999
+   ],
+   "coastal": false,
+   "elevation_ft": 870,
+   "zone": "5b",
+   "jan_low_f": 15,
+   "jul_high_f": 86,
+   "record_low_f": -29,
+   "record_high_f": 113,
+   "precip_in": 39.1,
+   "snow_in": 24,
+   "last_frost": "Apr 16",
+   "first_frost": "Oct 22",
+   "growing_days": 188,
+   "ecoregion": "Central Irregular Plains",
+   "ecoregion_code": "40",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "WXN85",
+     "freq": "162.400",
+     "same": "019051"
+    },
+    {
+     "call": "WXN91",
+     "freq": "162.425",
+     "same": "019051"
+    },
+    {
+     "call": "WXM36",
+     "freq": "162.550",
+     "same": "019051"
+    },
+    {
+     "call": "WNG730",
+     "freq": "162.500",
+     "same": "019051"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.5
+  },
+  "Decatur County": {
+   "fips": "19053",
+   "centroid": [
+    40.7364,
+    -93.7846
+   ],
+   "latitude": 40.7,
+   "bbox": [
+    -94.0155,
+    40.5739,
+    -93.5562,
+    40.8994
+   ],
+   "coastal": false,
+   "elevation_ft": 1070,
+   "zone": "5b",
+   "jan_low_f": 13,
+   "jul_high_f": 86,
+   "record_low_f": -36,
+   "record_high_f": 109,
+   "precip_in": 39.3,
+   "snow_in": 28,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 8",
+   "growing_days": 161,
+   "ecoregion": "Central Irregular Plains",
+   "ecoregion_code": "40",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "KZZ68",
+     "freq": "162.475",
+     "same": "019053"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.6
+  },
+  "Delaware County": {
+   "fips": "19055",
+   "centroid": [
+    42.473,
+    -91.3668
+   ],
+   "latitude": 42.5,
+   "bbox": [
+    -91.609,
+    42.2957,
+    -91.1301,
+    42.6458
+   ],
+   "coastal": false,
+   "elevation_ft": 1030,
+   "zone": "5a",
+   "jan_low_f": 8,
+   "jul_high_f": 82,
+   "record_low_f": -36,
+   "record_high_f": 102,
+   "precip_in": 38.6,
+   "snow_in": 35,
+   "last_frost": "May 3",
+   "first_frost": "Oct 4",
+   "growing_days": 154,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Quad Cities, IL",
+   "nws_cwa": "DVN",
+   "nwr": [
+    {
+     "call": "WXL61",
+     "freq": "162.475",
+     "same": "019055"
+    },
+    {
+     "call": "KJY64",
+     "freq": "162.450",
+     "same": "019055"
+    },
+    {
+     "call": "WXL64",
+     "freq": "162.400",
+     "same": "019055"
+    },
+    {
+     "call": "KZZ83",
+     "freq": "162.425",
+     "same": "019055"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.4
+  },
+  "Des Moines County": {
+   "fips": "19057",
+   "centroid": [
+    40.9153,
+    -91.1869
+   ],
+   "latitude": 40.9,
+   "bbox": [
+    -91.4093,
+    40.6963,
+    -90.9423,
+    41.0741
+   ],
+   "coastal": false,
+   "elevation_ft": 710,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 85,
+   "record_low_f": -27,
+   "record_high_f": 111,
+   "precip_in": 37.9,
+   "snow_in": 22,
+   "last_frost": "Apr 15",
+   "first_frost": "Oct 20",
+   "growing_days": 187,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Quad Cities, IL",
+   "nws_cwa": "DVN",
+   "nwr": [
+    {
+     "call": "WXN83",
+     "freq": "162.525",
+     "same": "019057"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Dickinson County": {
+   "fips": "19059",
+   "centroid": [
+    43.3896,
+    -95.1961
+   ],
+   "latitude": 43.4,
+   "bbox": [
+    -95.3882,
+    43.2551,
+    -94.9137,
+    43.5012
+   ],
+   "coastal": false,
+   "elevation_ft": 1460,
+   "zone": "5a",
+   "jan_low_f": 8,
+   "jul_high_f": 83,
+   "record_low_f": -34,
+   "record_high_f": 103,
+   "precip_in": 29.5,
+   "snow_in": 38,
+   "last_frost": "May 1",
+   "first_frost": "Oct 6",
+   "growing_days": 158,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "KZZ80",
+     "freq": "162.550",
+     "same": "019059"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.5
+  },
+  "Dubuque County": {
+   "fips": "19061",
+   "centroid": [
+    42.4635,
+    -90.8788
+   ],
+   "latitude": 42.5,
+   "bbox": [
+    -91.1344,
+    42.2946,
+    -90.4751,
+    42.6751
+   ],
+   "coastal": false,
+   "elevation_ft": 1050,
+   "zone": "5a",
+   "jan_low_f": 11,
+   "jul_high_f": 82,
+   "record_low_f": -31,
+   "record_high_f": 101,
+   "precip_in": 38.2,
+   "snow_in": 42,
+   "last_frost": "Apr 28",
+   "first_frost": "Oct 11",
+   "growing_days": 165,
+   "ecoregion": "Driftless Area",
+   "ecoregion_code": "52",
+   "nws_office": "Quad Cities, IL",
+   "nws_cwa": "DVN",
+   "nwr": [
+    {
+     "call": "KJY64",
+     "freq": "162.450",
+     "same": "019061"
+    },
+    {
+     "call": "WXL64",
+     "freq": "162.400",
+     "same": "019061"
+    },
+    {
+     "call": "KZZ83",
+     "freq": "162.425",
+     "same": "019061"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.4
+  },
+  "Emmet County": {
+   "fips": "19063",
+   "centroid": [
+    43.378,
+    -94.6694
+   ],
+   "latitude": 43.4,
+   "bbox": [
+    -94.9149,
+    43.2548,
+    -94.4423,
+    43.5007
+   ],
+   "coastal": false,
+   "elevation_ft": 1300,
+   "zone": "5a",
+   "jan_low_f": 5,
+   "jul_high_f": 82,
+   "record_low_f": -38,
+   "record_high_f": 108,
+   "precip_in": 31.7,
+   "snow_in": 37,
+   "last_frost": "May 2",
+   "first_frost": "Oct 3",
+   "growing_days": 153,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "KZZ80",
+     "freq": "162.550",
+     "same": "019063"
+    },
+    {
+     "call": "WNG688",
+     "freq": "162.475",
+     "same": "019063"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.4
+  },
+  "Fayette County": {
+   "fips": "19065",
+   "centroid": [
+    42.8641,
+    -91.8404
+   ],
+   "latitude": 42.9,
+   "bbox": [
+    -92.082,
+    42.6417,
+    -91.6053,
+    43.0828
+   ],
+   "coastal": false,
+   "elevation_ft": 1130,
+   "zone": "5a",
+   "jan_low_f": 6,
+   "jul_high_f": 82,
+   "record_low_f": -40,
+   "record_high_f": 110,
+   "precip_in": 39.5,
+   "snow_in": 41,
+   "last_frost": "May 4",
+   "first_frost": "Oct 4",
+   "growing_days": 151,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "La Crosse, WI",
+   "nws_cwa": "ARX",
+   "nwr": [
+    {
+     "call": "KXI60",
+     "freq": "162.525",
+     "same": "019065"
+    },
+    {
+     "call": "KJY64",
+     "freq": "162.450",
+     "same": "019065"
+    },
+    {
+     "call": "WWG86",
+     "freq": "162.500",
+     "same": "019065"
+    },
+    {
+     "call": "WXL94",
+     "freq": "162.550",
+     "same": "019065"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.4
+  },
+  "Floyd County": {
+   "fips": "19067",
+   "centroid": [
+    43.0527,
+    -92.7874
+   ],
+   "latitude": 43.1,
+   "bbox": [
+    -93.025,
+    42.907,
+    -92.554,
+    43.213
+   ],
+   "coastal": false,
+   "elevation_ft": 1070,
+   "zone": "5a",
+   "jan_low_f": 9,
+   "jul_high_f": 82,
+   "record_low_f": -34,
+   "record_high_f": 108,
+   "precip_in": 37.7,
+   "snow_in": 38,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 6",
+   "growing_days": 157,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "La Crosse, WI",
+   "nws_cwa": "ARX",
+   "nwr": [
+    {
+     "call": "KXI68",
+     "freq": "162.450",
+     "same": "019067"
+    },
+    {
+     "call": "WXL94",
+     "freq": "162.550",
+     "same": "019067"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.3
+  },
+  "Franklin County": {
+   "fips": "19069",
+   "centroid": [
+    42.7365,
+    -93.2714
+   ],
+   "latitude": 42.7,
+   "bbox": [
+    -93.4997,
+    42.5565,
+    -93.025,
+    42.9084
+   ],
+   "coastal": false,
+   "elevation_ft": 1210,
+   "zone": "5a",
+   "jan_low_f": 8,
+   "jul_high_f": 83,
+   "record_low_f": -35,
+   "record_high_f": 109,
+   "precip_in": 38.1,
+   "snow_in": 30,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 9",
+   "growing_days": 162,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "KJY63",
+     "freq": "162.500",
+     "same": "019069"
+    },
+    {
+     "call": "WNG666",
+     "freq": "162.525",
+     "same": "019069"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Fremont County": {
+   "fips": "19071",
+   "centroid": [
+    40.7426,
+    -95.5992
+   ],
+   "latitude": 40.7,
+   "bbox": [
+    -95.8888,
+    40.5805,
+    -95.3707,
+    40.9018
+   ],
+   "coastal": false,
+   "elevation_ft": 930,
+   "zone": "5b",
+   "jan_low_f": 13,
+   "jul_high_f": 86,
+   "record_low_f": -28,
+   "record_high_f": 109,
+   "precip_in": 33.3,
+   "snow_in": 21,
+   "last_frost": "Apr 19",
+   "first_frost": "Oct 19",
+   "growing_days": 182,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Omaha/Valley, NE",
+   "nws_cwa": "OAX",
+   "nwr": [
+    {
+     "call": "KZZ50",
+     "freq": "162.550",
+     "same": "019071"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.7
+  },
+  "Greene County": {
+   "fips": "19073",
+   "centroid": [
+    42.0425,
+    -94.3887
+   ],
+   "latitude": 42.0,
+   "bbox": [
+    -94.6298,
+    41.8628,
+    -94.1641,
+    42.2099
+   ],
+   "coastal": false,
+   "elevation_ft": 1040,
+   "zone": "5b",
+   "jan_low_f": 9,
+   "jul_high_f": 83,
+   "record_low_f": -37,
+   "record_high_f": 111,
+   "precip_in": 35.3,
+   "snow_in": 32,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 9",
+   "growing_days": 164,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "KZZ51",
+     "freq": "162.425",
+     "same": "019073"
+    },
+    {
+     "call": "WXL57",
+     "freq": "162.550",
+     "same": "019073"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.5
+  },
+  "Grundy County": {
+   "fips": "19075",
+   "centroid": [
+    42.4033,
+    -92.7902
+   ],
+   "latitude": 42.4,
+   "bbox": [
+    -93.0269,
+    42.2092,
+    -92.5326,
+    42.5568
+   ],
+   "coastal": false,
+   "elevation_ft": 1000,
+   "zone": "5a",
+   "jan_low_f": 9,
+   "jul_high_f": 83,
+   "record_low_f": -34,
+   "record_high_f": 108,
+   "precip_in": 36.8,
+   "snow_in": 32,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 9",
+   "growing_days": 160,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "WNG666",
+     "freq": "162.525",
+     "same": "019075"
+    },
+    {
+     "call": "KXI98",
+     "freq": "162.500",
+     "same": "019075"
+    },
+    {
+     "call": "WXL94",
+     "freq": "162.550",
+     "same": "019075"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.4
+  },
+  "Guthrie County": {
+   "fips": "19077",
+   "centroid": [
+    41.6836,
+    -94.5013
+   ],
+   "latitude": 41.7,
+   "bbox": [
+    -94.7448,
+    41.5036,
+    -94.2414,
+    41.8633
+   ],
+   "coastal": false,
+   "elevation_ft": 1160,
+   "zone": "5a",
+   "jan_low_f": 10,
+   "jul_high_f": 85,
+   "record_low_f": -35,
+   "record_high_f": 113,
+   "precip_in": 37.1,
+   "snow_in": 32,
+   "last_frost": "May 2",
+   "first_frost": "Oct 3",
+   "growing_days": 153,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "KZZ51",
+     "freq": "162.425",
+     "same": "019077"
+    },
+    {
+     "call": "WXL57",
+     "freq": "162.550",
+     "same": "019077"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.5
+  },
+  "Hamilton County": {
+   "fips": "19079",
+   "centroid": [
+    42.3908,
+    -93.7091
+   ],
+   "latitude": 42.4,
+   "bbox": [
+    -93.9718,
+    42.2091,
+    -93.4626,
+    42.558
+   ],
+   "coastal": false,
+   "elevation_ft": 1120,
+   "zone": "5a",
+   "jan_low_f": 7,
+   "jul_high_f": 83,
+   "record_low_f": -34,
+   "record_high_f": 109,
+   "precip_in": 37.2,
+   "snow_in": 33,
+   "last_frost": "May 3",
+   "first_frost": "Oct 2",
+   "growing_days": 150,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "WXK84",
+     "freq": "162.400",
+     "same": "019079"
+    },
+    {
+     "call": "WNG666",
+     "freq": "162.525",
+     "same": "019079"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Hancock County": {
+   "fips": "19081",
+   "centroid": [
+    43.0754,
+    -93.7437
+   ],
+   "latitude": 43.1,
+   "bbox": [
+    -93.9718,
+    42.9077,
+    -93.4976,
+    43.2557
+   ],
+   "coastal": false,
+   "elevation_ft": 1210,
+   "zone": "5a",
+   "jan_low_f": 6,
+   "jul_high_f": 82,
+   "record_low_f": -36,
+   "record_high_f": 111,
+   "precip_in": 34.3,
+   "snow_in": 35,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 7",
+   "growing_days": 161,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "KJY63",
+     "freq": "162.500",
+     "same": "019081"
+    },
+    {
+     "call": "WNG688",
+     "freq": "162.475",
+     "same": "019081"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.4
+  },
+  "Hardin County": {
+   "fips": "19083",
+   "centroid": [
+    42.3902,
+    -93.2417
+   ],
+   "latitude": 42.4,
+   "bbox": [
+    -93.4997,
+    42.2087,
+    -93.0011,
+    42.5576
+   ],
+   "coastal": false,
+   "elevation_ft": 1120,
+   "zone": "5a",
+   "jan_low_f": 8,
+   "jul_high_f": 84,
+   "record_low_f": -30,
+   "record_high_f": 108,
+   "precip_in": 37.9,
+   "snow_in": 33,
+   "last_frost": "Apr 27",
+   "first_frost": "Oct 10",
+   "growing_days": 165,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "WNG666",
+     "freq": "162.525",
+     "same": "019083"
+    },
+    {
+     "call": "KXI98",
+     "freq": "162.500",
+     "same": "019083"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Harrison County": {
+   "fips": "19085",
+   "centroid": [
+    41.6886,
+    -95.8271
+   ],
+   "latitude": 41.7,
+   "bbox": [
+    -96.1381,
+    41.506,
+    -95.4979,
+    41.8661
+   ],
+   "coastal": false,
+   "elevation_ft": 1100,
+   "zone": "5b",
+   "jan_low_f": 10,
+   "jul_high_f": 86,
+   "record_low_f": -35,
+   "record_high_f": 117,
+   "precip_in": 34.4,
+   "snow_in": 29,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 8",
+   "growing_days": 162,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Omaha/Valley, NE",
+   "nws_cwa": "OAX",
+   "nwr": [
+    {
+     "call": "KZZ52",
+     "freq": "162.525",
+     "same": "019085"
+    },
+    {
+     "call": "KIH61",
+     "freq": "162.400",
+     "same": "019085"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.6
+  },
+  "Henry County": {
+   "fips": "19087",
+   "centroid": [
+    40.9848,
+    -91.5473
+   ],
+   "latitude": 41.0,
+   "bbox": [
+    -91.7189,
+    40.8124,
+    -91.3704,
+    41.1635
+   ],
+   "coastal": false,
+   "elevation_ft": 730,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 85,
+   "record_low_f": -27,
+   "record_high_f": 114,
+   "precip_in": 38.5,
+   "snow_in": 25,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 10",
+   "growing_days": 163,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Quad Cities, IL",
+   "nws_cwa": "DVN",
+   "nwr": [
+    {
+     "call": "WXN83",
+     "freq": "162.525",
+     "same": "019087"
+    },
+    {
+     "call": "WXN85",
+     "freq": "162.400",
+     "same": "019087"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Howard County": {
+   "fips": "19089",
+   "centroid": [
+    43.3653,
+    -92.3219
+   ],
+   "latitude": 43.4,
+   "bbox": [
+    -92.5546,
+    43.2122,
+    -92.0797,
+    43.5018
+   ],
+   "coastal": false,
+   "elevation_ft": 1290,
+   "zone": "4b",
+   "jan_low_f": 6,
+   "jul_high_f": 83,
+   "record_low_f": -36,
+   "record_high_f": 106,
+   "precip_in": 38.0,
+   "snow_in": 40,
+   "last_frost": "May 8",
+   "first_frost": "Oct 1",
+   "growing_days": 147,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "La Crosse, WI",
+   "nws_cwa": "ARX",
+   "nwr": [
+    {
+     "call": "KXI60",
+     "freq": "162.525",
+     "same": "019089"
+    },
+    {
+     "call": "KXI68",
+     "freq": "162.450",
+     "same": "019089"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.3
+  },
+  "Humboldt County": {
+   "fips": "19091",
+   "centroid": [
+    42.7822,
+    -94.2028
+   ],
+   "latitude": 42.8,
+   "bbox": [
+    -94.4432,
+    42.6443,
+    -93.9716,
+    42.9088
+   ],
+   "coastal": false,
+   "elevation_ft": 1130,
+   "zone": "5a",
+   "jan_low_f": 8,
+   "jul_high_f": 83,
+   "record_low_f": -35,
+   "record_high_f": 110,
+   "precip_in": 35.8,
+   "snow_in": 39,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 12",
+   "growing_days": 169,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "WXK84",
+     "freq": "162.400",
+     "same": "019091"
+    },
+    {
+     "call": "WNG688",
+     "freq": "162.475",
+     "same": "019091"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.5
+  },
+  "Ida County": {
+   "fips": "19093",
+   "centroid": [
+    42.3919,
+    -95.5074
+   ],
+   "latitude": 42.4,
+   "bbox": [
+    -95.7422,
+    42.2106,
+    -95.3224,
+    42.5618
+   ],
+   "coastal": false,
+   "elevation_ft": 1370,
+   "zone": "5a",
+   "jan_low_f": 8,
+   "jul_high_f": 84,
+   "record_low_f": -32,
+   "record_high_f": 105,
+   "precip_in": 32.1,
+   "snow_in": 35,
+   "last_frost": "Apr 27",
+   "first_frost": "Oct 12",
+   "growing_days": 167,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "KZZ51",
+     "freq": "162.425",
+     "same": "019093"
+    },
+    {
+     "call": "WNG668",
+     "freq": "162.550",
+     "same": "019093"
+    },
+    {
+     "call": "WXL62",
+     "freq": "162.475",
+     "same": "019093"
+    },
+    {
+     "call": "KWN47",
+     "freq": "162.450",
+     "same": "019093"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.6
+  },
+  "Iowa County": {
+   "fips": "19095",
+   "centroid": [
+    41.6839,
+    -92.0591
+   ],
+   "latitude": 41.7,
+   "bbox": [
+    -92.3001,
+    41.5096,
+    -91.8271,
+    41.863
+   ],
+   "coastal": false,
+   "elevation_ft": 860,
+   "zone": "5a",
+   "jan_low_f": 10,
+   "jul_high_f": 84,
+   "record_low_f": -31,
+   "record_high_f": 111,
+   "precip_in": 37.7,
+   "snow_in": 28,
+   "last_frost": "Apr 28",
+   "first_frost": "Oct 9",
+   "growing_days": 164,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Quad Cities, IL",
+   "nws_cwa": "DVN",
+   "nwr": [
+    {
+     "call": "WXL61",
+     "freq": "162.475",
+     "same": "019095"
+    },
+    {
+     "call": "KXI62",
+     "freq": "162.450",
+     "same": "019095"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.5
+  },
+  "Jackson County": {
+   "fips": "19097",
+   "centroid": [
+    42.1642,
+    -90.5746
+   ],
+   "latitude": 42.2,
+   "bbox": [
+    -90.8987,
+    42.0326,
+    -90.1569,
+    42.3822
+   ],
+   "coastal": false,
+   "elevation_ft": 820,
+   "zone": "5a",
+   "jan_low_f": 11,
+   "jul_high_f": 82,
+   "record_low_f": -37,
+   "record_high_f": 108,
+   "precip_in": 36.7,
+   "snow_in": 30,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 14",
+   "growing_days": 171,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Quad Cities, IL",
+   "nws_cwa": "DVN",
+   "nwr": [
+    {
+     "call": "WXL64",
+     "freq": "162.400",
+     "same": "019097"
+    },
+    {
+     "call": "KZZ83",
+     "freq": "162.425",
+     "same": "019097"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.4
+  },
+  "Jasper County": {
+   "fips": "19099",
+   "centroid": [
+    41.6856,
+    -93.0541
+   ],
+   "latitude": 41.7,
+   "bbox": [
+    -93.3486,
+    41.5078,
+    -92.7565,
+    41.8631
+   ],
+   "coastal": false,
+   "elevation_ft": 910,
+   "zone": "5b",
+   "jan_low_f": 10,
+   "jul_high_f": 85,
+   "record_low_f": -34,
+   "record_high_f": 107,
+   "precip_in": 35.1,
+   "snow_in": 29,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 17",
+   "growing_days": 174,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "WXL57",
+     "freq": "162.550",
+     "same": "019099"
+    },
+    {
+     "call": "KXI98",
+     "freq": "162.500",
+     "same": "019099"
+    },
+    {
+     "call": "KXI62",
+     "freq": "162.450",
+     "same": "019099"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.5
+  },
+  "Jefferson County": {
+   "fips": "19101",
+   "centroid": [
+    41.0064,
+    -91.9666
+   ],
+   "latitude": 41.0,
+   "bbox": [
+    -92.18,
+    40.8997,
+    -91.716,
+    41.1643
+   ],
+   "coastal": false,
+   "elevation_ft": 780,
+   "zone": "5b",
+   "jan_low_f": 14,
+   "jul_high_f": 84,
+   "record_low_f": -31,
+   "record_high_f": 114,
+   "precip_in": 38.4,
+   "snow_in": 22,
+   "last_frost": "Apr 27",
+   "first_frost": "Oct 12",
+   "growing_days": 168,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Quad Cities, IL",
+   "nws_cwa": "DVN",
+   "nwr": [
+    {
+     "call": "WXN85",
+     "freq": "162.400",
+     "same": "019101"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.4
+  },
+  "Johnson County": {
+   "fips": "19103",
+   "centroid": [
+    41.6707,
+    -91.5905
+   ],
+   "latitude": 41.7,
+   "bbox": [
+    -91.834,
+    41.4233,
+    -91.3659,
+    41.862
+   ],
+   "coastal": false,
+   "elevation_ft": 710,
+   "zone": "5b",
+   "jan_low_f": 15,
+   "jul_high_f": 86,
+   "record_low_f": -34,
+   "record_high_f": 105,
+   "precip_in": 35.7,
+   "snow_in": 28,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 18",
+   "growing_days": 180,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Quad Cities, IL",
+   "nws_cwa": "DVN",
+   "nwr": [
+    {
+     "call": "WXL61",
+     "freq": "162.475",
+     "same": "019103"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.4
+  },
+  "Jones County": {
+   "fips": "19105",
+   "centroid": [
+    42.1251,
+    -91.1169
+   ],
+   "latitude": 42.1,
+   "bbox": [
+    -91.3658,
+    41.9452,
+    -90.898,
+    42.2962
+   ],
+   "coastal": false,
+   "elevation_ft": 980,
+   "zone": "5a",
+   "jan_low_f": 11,
+   "jul_high_f": 82,
+   "record_low_f": -37,
+   "record_high_f": 104,
+   "precip_in": 39.3,
+   "snow_in": 31,
+   "last_frost": "Apr 27",
+   "first_frost": "Oct 13",
+   "growing_days": 170,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Quad Cities, IL",
+   "nws_cwa": "DVN",
+   "nwr": [
+    {
+     "call": "WXL61",
+     "freq": "162.475",
+     "same": "019105"
+    },
+    {
+     "call": "KJY64",
+     "freq": "162.450",
+     "same": "019105"
+    },
+    {
+     "call": "WXL64",
+     "freq": "162.400",
+     "same": "019105"
+    },
+    {
+     "call": "KZZ83",
+     "freq": "162.425",
+     "same": "019105"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.4
+  },
+  "Keokuk County": {
+   "fips": "19107",
+   "centroid": [
+    41.3312,
+    -92.1677
+   ],
+   "latitude": 41.3,
+   "bbox": [
+    -92.4121,
+    41.1618,
+    -91.9447,
+    41.5107
+   ],
+   "coastal": false,
+   "elevation_ft": 700,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 85,
+   "record_low_f": -32,
+   "record_high_f": 113,
+   "precip_in": 37.4,
+   "snow_in": 34,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 15",
+   "growing_days": 172,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Quad Cities, IL",
+   "nws_cwa": "DVN",
+   "nwr": [
+    {
+     "call": "WXL61",
+     "freq": "162.475",
+     "same": "019107"
+    },
+    {
+     "call": "WXN85",
+     "freq": "162.400",
+     "same": "019107"
+    },
+    {
+     "call": "KXI62",
+     "freq": "162.450",
+     "same": "019107"
+    },
+    {
+     "call": "WNG730",
+     "freq": "162.500",
+     "same": "019107"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.5
+  },
+  "Kossuth County": {
+   "fips": "19109",
+   "centroid": [
+    43.2123,
+    -94.214
+   ],
+   "latitude": 43.2,
+   "bbox": [
+    -94.4434,
+    42.9077,
+    -93.9702,
+    43.5005
+   ],
+   "coastal": false,
+   "elevation_ft": 1180,
+   "zone": "5a",
+   "jan_low_f": 6,
+   "jul_high_f": 83,
+   "record_low_f": -36,
+   "record_high_f": 110,
+   "precip_in": 34.1,
+   "snow_in": 40,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 6",
+   "growing_days": 160,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "KJY63",
+     "freq": "162.500",
+     "same": "019109"
+    },
+    {
+     "call": "WNG688",
+     "freq": "162.475",
+     "same": "019109"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.4
+  },
+  "Lee County": {
+   "fips": "19111",
+   "centroid": [
+    40.6476,
+    -91.4772
+   ],
+   "latitude": 40.6,
+   "bbox": [
+    -91.7188,
+    40.3754,
+    -91.1128,
+    40.814
+   ],
+   "coastal": false,
+   "elevation_ft": 650,
+   "zone": "6a",
+   "jan_low_f": 15,
+   "jul_high_f": 86,
+   "record_low_f": -23,
+   "record_high_f": 107,
+   "precip_in": 39.2,
+   "snow_in": 27,
+   "last_frost": "Apr 17",
+   "first_frost": "Oct 22",
+   "growing_days": 187,
+   "ecoregion": "Central Irregular Plains",
+   "ecoregion_code": "40",
+   "nws_office": "Quad Cities, IL",
+   "nws_cwa": "DVN",
+   "nwr": [
+    {
+     "call": "WXN83",
+     "freq": "162.525",
+     "same": "019111"
+    },
+    {
+     "call": "WXN85",
+     "freq": "162.400",
+     "same": "019111"
+    },
+    {
+     "call": "WXL99",
+     "freq": "162.450",
+     "same": "019111"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Linn County": {
+   "fips": "19113",
+   "centroid": [
+    42.078,
+    -91.5977
+   ],
+   "latitude": 42.1,
+   "bbox": [
+    -91.8353,
+    41.8599,
+    -91.3631,
+    42.2989
+   ],
+   "coastal": false,
+   "elevation_ft": 860,
+   "zone": "5a",
+   "jan_low_f": 12,
+   "jul_high_f": 86,
+   "record_low_f": -33,
+   "record_high_f": 110,
+   "precip_in": 38.8,
+   "snow_in": 34,
+   "last_frost": "Apr 28",
+   "first_frost": "Oct 12",
+   "growing_days": 166,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Quad Cities, IL",
+   "nws_cwa": "DVN",
+   "nwr": [
+    {
+     "call": "WXL61",
+     "freq": "162.475",
+     "same": "019113"
+    },
+    {
+     "call": "KJY64",
+     "freq": "162.450",
+     "same": "019113"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.4
+  },
+  "Louisa County": {
+   "fips": "19115",
+   "centroid": [
+    41.2182,
+    -91.257
+   ],
+   "latitude": 41.2,
+   "bbox": [
+    -91.4861,
+    41.0727,
+    -90.9464,
+    41.4245
+   ],
+   "coastal": false,
+   "elevation_ft": 600,
+   "zone": "5b",
+   "jan_low_f": 11,
+   "jul_high_f": 84,
+   "record_low_f": -34,
+   "record_high_f": 110,
+   "precip_in": 38.8,
+   "snow_in": 31,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 10",
+   "growing_days": 167,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Quad Cities, IL",
+   "nws_cwa": "DVN",
+   "nwr": [
+    {
+     "call": "WXN83",
+     "freq": "162.525",
+     "same": "019115"
+    },
+    {
+     "call": "WXJ73",
+     "freq": "162.550",
+     "same": "019115"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.4
+  },
+  "Lucas County": {
+   "fips": "19117",
+   "centroid": [
+    41.0333,
+    -93.3315
+   ],
+   "latitude": 41.0,
+   "bbox": [
+    -93.5577,
+    40.8976,
+    -93.0976,
+    41.1613
+   ],
+   "coastal": false,
+   "elevation_ft": 1020,
+   "zone": "5b",
+   "jan_low_f": 11,
+   "jul_high_f": 84,
+   "record_low_f": -38,
+   "record_high_f": 114,
+   "precip_in": 37.3,
+   "snow_in": 24,
+   "last_frost": "May 5",
+   "first_frost": "Oct 5",
+   "growing_days": 151,
+   "ecoregion": "Central Irregular Plains",
+   "ecoregion_code": "40",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "WXN91",
+     "freq": "162.425",
+     "same": "019117"
+    },
+    {
+     "call": "KZZ68",
+     "freq": "162.475",
+     "same": "019117"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.5
+  },
+  "Lyon County": {
+   "fips": "19119",
+   "centroid": [
+    43.3836,
+    -96.2072
+   ],
+   "latitude": 43.4,
+   "bbox": [
+    -96.6018,
+    43.2573,
+    -95.8606,
+    43.5007
+   ],
+   "coastal": false,
+   "elevation_ft": 1410,
+   "zone": "5a",
+   "jan_low_f": 6,
+   "jul_high_f": 85,
+   "record_low_f": -40,
+   "record_high_f": 111,
+   "precip_in": 29.3,
+   "snow_in": 35,
+   "last_frost": "May 1",
+   "first_frost": "Oct 4",
+   "growing_days": 156,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "WXM28",
+     "freq": "162.400",
+     "same": "019119"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.6
+  },
+  "Madison County": {
+   "fips": "19121",
+   "centroid": [
+    41.3306,
+    -94.0152
+   ],
+   "latitude": 41.3,
+   "bbox": [
+    -94.2417,
+    41.1563,
+    -93.789,
+    41.5123
+   ],
+   "coastal": false,
+   "elevation_ft": 1100,
+   "zone": "5b",
+   "jan_low_f": 10,
+   "jul_high_f": 84,
+   "record_low_f": -35,
+   "record_high_f": 112,
+   "precip_in": 34.8,
+   "snow_in": 31,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 3",
+   "growing_days": 157,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "WXL57",
+     "freq": "162.550",
+     "same": "019121"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.5
+  },
+  "Mahaska County": {
+   "fips": "19123",
+   "centroid": [
+    41.3308,
+    -92.6364
+   ],
+   "latitude": 41.3,
+   "bbox": [
+    -92.8715,
+    41.1608,
+    -92.4101,
+    41.5095
+   ],
+   "coastal": false,
+   "elevation_ft": 760,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 86,
+   "record_low_f": -31,
+   "record_high_f": 112,
+   "precip_in": 38.7,
+   "snow_in": 24,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 16",
+   "growing_days": 176,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "KXI62",
+     "freq": "162.450",
+     "same": "019123"
+    },
+    {
+     "call": "WNG730",
+     "freq": "162.500",
+     "same": "019123"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.5
+  },
+  "Marion County": {
+   "fips": "19125",
+   "centroid": [
+    41.3314,
+    -93.0939
+   ],
+   "latitude": 41.3,
+   "bbox": [
+    -93.3292,
+    41.1606,
+    -92.8689,
+    41.5085
+   ],
+   "coastal": false,
+   "elevation_ft": 880,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 85,
+   "record_low_f": -30,
+   "record_high_f": 114,
+   "precip_in": 37.5,
+   "snow_in": 30,
+   "last_frost": "Apr 20",
+   "first_frost": "Oct 19",
+   "growing_days": 180,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "WXL57",
+     "freq": "162.550",
+     "same": "019125"
+    },
+    {
+     "call": "KXI62",
+     "freq": "162.450",
+     "same": "019125"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.5
+  },
+  "Marshall County": {
+   "fips": "19127",
+   "centroid": [
+    42.0417,
+    -92.9814
+   ],
+   "latitude": 42.0,
+   "bbox": [
+    -93.2326,
+    41.8621,
+    -92.7658,
+    42.2101
+   ],
+   "coastal": false,
+   "elevation_ft": 1030,
+   "zone": "5a",
+   "jan_low_f": 9,
+   "jul_high_f": 84,
+   "record_low_f": -35,
+   "record_high_f": 112,
+   "precip_in": 37.9,
+   "snow_in": 25,
+   "last_frost": "Apr 28",
+   "first_frost": "Oct 7",
+   "growing_days": 162,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "KXI98",
+     "freq": "162.500",
+     "same": "019127"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.4
+  },
+  "Mills County": {
+   "fips": "19129",
+   "centroid": [
+    41.0337,
+    -95.6191
+   ],
+   "latitude": 41.0,
+   "bbox": [
+    -95.8834,
+    40.9014,
+    -95.3833,
+    41.1603
+   ],
+   "coastal": false,
+   "elevation_ft": 1010,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 87,
+   "record_low_f": -30,
+   "record_high_f": 115,
+   "precip_in": 34.8,
+   "snow_in": 24,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 11",
+   "growing_days": 170,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Omaha/Valley, NE",
+   "nws_cwa": "OAX",
+   "nwr": [
+    {
+     "call": "KZZ50",
+     "freq": "162.550",
+     "same": "019129"
+    },
+    {
+     "call": "KZZ52",
+     "freq": "162.525",
+     "same": "019129"
+    },
+    {
+     "call": "KIH61",
+     "freq": "162.400",
+     "same": "019129"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.6
+  },
+  "Mitchell County": {
+   "fips": "19131",
+   "centroid": [
+    43.3486,
+    -92.7845
+   ],
+   "latitude": 43.3,
+   "bbox": [
+    -93.0248,
+    43.212,
+    -92.5532,
+    43.5003
+   ],
+   "coastal": false,
+   "elevation_ft": 1190,
+   "zone": "5a",
+   "jan_low_f": 6,
+   "jul_high_f": 81,
+   "record_low_f": -35,
+   "record_high_f": 107,
+   "precip_in": 37.6,
+   "snow_in": 40,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 9",
+   "growing_days": 163,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "La Crosse, WI",
+   "nws_cwa": "ARX",
+   "nwr": [
+    {
+     "call": "KXI68",
+     "freq": "162.450",
+     "same": "019131"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.3
+  },
+  "Monona County": {
+   "fips": "19133",
+   "centroid": [
+    42.0494,
+    -95.9566
+   ],
+   "latitude": 42.0,
+   "bbox": [
+    -96.3593,
+    41.8632,
+    -95.6707,
+    42.2157
+   ],
+   "coastal": false,
+   "elevation_ft": 1220,
+   "zone": "5a",
+   "jan_low_f": 10,
+   "jul_high_f": 84,
+   "record_low_f": -27,
+   "record_high_f": 104,
+   "precip_in": 32.1,
+   "snow_in": 29,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 12",
+   "growing_days": 170,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Omaha/Valley, NE",
+   "nws_cwa": "OAX",
+   "nwr": [
+    {
+     "call": "WNG668",
+     "freq": "162.550",
+     "same": "019133"
+    },
+    {
+     "call": "WXL62",
+     "freq": "162.475",
+     "same": "019133"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.6
+  },
+  "Monroe County": {
+   "fips": "19135",
+   "centroid": [
+    41.0288,
+    -92.8696
+   ],
+   "latitude": 41.0,
+   "bbox": [
+    -93.0993,
+    40.8982,
+    -92.6391,
+    41.1614
+   ],
+   "coastal": false,
+   "elevation_ft": 790,
+   "zone": "5b",
+   "jan_low_f": 13,
+   "jul_high_f": 84,
+   "record_low_f": -31,
+   "record_high_f": 113,
+   "precip_in": 36.5,
+   "snow_in": 30,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 16",
+   "growing_days": 173,
+   "ecoregion": "Central Irregular Plains",
+   "ecoregion_code": "40",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "WXN91",
+     "freq": "162.425",
+     "same": "019135"
+    },
+    {
+     "call": "WNG730",
+     "freq": "162.500",
+     "same": "019135"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.5
+  },
+  "Montgomery County": {
+   "fips": "19137",
+   "centroid": [
+    41.0217,
+    -95.1578
+   ],
+   "latitude": 41.0,
+   "bbox": [
+    -95.3849,
+    40.9006,
+    -94.9275,
+    41.1599
+   ],
+   "coastal": false,
+   "elevation_ft": 1200,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 86,
+   "record_low_f": -28,
+   "record_high_f": 109,
+   "precip_in": 37.2,
+   "snow_in": 27,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 13",
+   "growing_days": 169,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Omaha/Valley, NE",
+   "nws_cwa": "OAX",
+   "nwr": [
+    {
+     "call": "KZZ50",
+     "freq": "162.550",
+     "same": "019137"
+    },
+    {
+     "call": "KZZ52",
+     "freq": "162.525",
+     "same": "019137"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.6
+  },
+  "Muscatine County": {
+   "fips": "19139",
+   "centroid": [
+    41.4838,
+    -91.1187
+   ],
+   "latitude": 41.5,
+   "bbox": [
+    -91.3693,
+    41.3337,
+    -90.7837,
+    41.5984
+   ],
+   "coastal": false,
+   "elevation_ft": 700,
+   "zone": "5b",
+   "jan_low_f": 14,
+   "jul_high_f": 84,
+   "record_low_f": -34,
+   "record_high_f": 111,
+   "precip_in": 38.3,
+   "snow_in": 29,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 22",
+   "growing_days": 184,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Quad Cities, IL",
+   "nws_cwa": "DVN",
+   "nwr": [
+    {
+     "call": "WXJ73",
+     "freq": "162.550",
+     "same": "019139"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.4
+  },
+  "O'Brien County": {
+   "fips": "19141",
+   "centroid": [
+    43.0837,
+    -95.6256
+   ],
+   "latitude": 43.1,
+   "bbox": [
+    -95.8626,
+    42.9092,
+    -95.3876,
+    43.2585
+   ],
+   "coastal": false,
+   "elevation_ft": 1530,
+   "zone": "5a",
+   "jan_low_f": 9,
+   "jul_high_f": 85,
+   "record_low_f": -38,
+   "record_high_f": 110,
+   "precip_in": 31.4,
+   "snow_in": 35,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 10",
+   "growing_days": 163,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "KWN48",
+     "freq": "162.525",
+     "same": "019141"
+    },
+    {
+     "call": "WXL62",
+     "freq": "162.475",
+     "same": "019141"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.5
+  },
+  "Osceola County": {
+   "fips": "19143",
+   "centroid": [
+    43.3785,
+    -95.6338
+   ],
+   "latitude": 43.4,
+   "bbox": [
+    -95.8621,
+    43.2551,
+    -95.3875,
+    43.5011
+   ],
+   "coastal": false,
+   "elevation_ft": 1570,
+   "zone": "5a",
+   "jan_low_f": 5,
+   "jul_high_f": 82,
+   "record_low_f": -40,
+   "record_high_f": 108,
+   "precip_in": 30.2,
+   "snow_in": 42,
+   "last_frost": "May 5",
+   "first_frost": "Oct 3",
+   "growing_days": 152,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "KWN48",
+     "freq": "162.525",
+     "same": "019143"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.5
+  },
+  "Page County": {
+   "fips": "19145",
+   "centroid": [
+    40.7391,
+    -95.1443
+   ],
+   "latitude": 40.7,
+   "bbox": [
+    -95.3855,
+    40.5751,
+    -94.9131,
+    40.9015
+   ],
+   "coastal": false,
+   "elevation_ft": 1060,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 86,
+   "record_low_f": -31,
+   "record_high_f": 114,
+   "precip_in": 36.6,
+   "snow_in": 23,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 11",
+   "growing_days": 168,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Omaha/Valley, NE",
+   "nws_cwa": "OAX",
+   "nwr": [
+    {
+     "call": "KZZ50",
+     "freq": "162.550",
+     "same": "019145"
+    },
+    {
+     "call": "KZZ37",
+     "freq": "162.425",
+     "same": "019145"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.7
+  },
+  "Palo Alto County": {
+   "fips": "19147",
+   "centroid": [
+    43.0753,
+    -94.6691
+   ],
+   "latitude": 43.1,
+   "bbox": [
+    -94.9147,
+    42.908,
+    -94.4425,
+    43.2555
+   ],
+   "coastal": false,
+   "elevation_ft": 1210,
+   "zone": "5a",
+   "jan_low_f": 7,
+   "jul_high_f": 85,
+   "record_low_f": -33,
+   "record_high_f": 106,
+   "precip_in": 33.6,
+   "snow_in": 37,
+   "last_frost": "Apr 27",
+   "first_frost": "Oct 7",
+   "growing_days": 164,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "KZZ80",
+     "freq": "162.550",
+     "same": "019147"
+    },
+    {
+     "call": "WNG688",
+     "freq": "162.475",
+     "same": "019147"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.4
+  },
+  "Plymouth County": {
+   "fips": "19149",
+   "centroid": [
+    42.7376,
+    -96.216
+   ],
+   "latitude": 42.7,
+   "bbox": [
+    -96.6394,
+    42.5605,
+    -95.8588,
+    42.9102
+   ],
+   "coastal": false,
+   "elevation_ft": 1170,
+   "zone": "5a",
+   "jan_low_f": 7,
+   "jul_high_f": 84,
+   "record_low_f": -37,
+   "record_high_f": 111,
+   "precip_in": 30.0,
+   "snow_in": 31,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 4",
+   "growing_days": 157,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "WXL62",
+     "freq": "162.475",
+     "same": "019149"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.7
+  },
+  "Pocahontas County": {
+   "fips": "19151",
+   "centroid": [
+    42.734,
+    -94.6783
+   ],
+   "latitude": 42.7,
+   "bbox": [
+    -94.9159,
+    42.5587,
+    -94.4426,
+    42.9098
+   ],
+   "coastal": false,
+   "elevation_ft": 1240,
+   "zone": "5a",
+   "jan_low_f": 8,
+   "jul_high_f": 84,
+   "record_low_f": -36,
+   "record_high_f": 111,
+   "precip_in": 32.8,
+   "snow_in": 39,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 7",
+   "growing_days": 164,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "WXK84",
+     "freq": "162.400",
+     "same": "019151"
+    },
+    {
+     "call": "KWN47",
+     "freq": "162.450",
+     "same": "019151"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.5
+  },
+  "Polk County": {
+   "fips": "19153",
+   "centroid": [
+    41.6848,
+    -93.569
+   ],
+   "latitude": 41.7,
+   "bbox": [
+    -93.8165,
+    41.4818,
+    -93.3284,
+    41.8648
+   ],
+   "coastal": false,
+   "elevation_ft": 890,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 86,
+   "record_low_f": -34,
+   "record_high_f": 106,
+   "precip_in": 37.0,
+   "snow_in": 25,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 15",
+   "growing_days": 173,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "WXL57",
+     "freq": "162.550",
+     "same": "019153"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.5
+  },
+  "Pottawattamie County": {
+   "fips": "19155",
+   "centroid": [
+    41.3402,
+    -95.5449
+   ],
+   "latitude": 41.3,
+   "bbox": [
+    -96.0193,
+    41.159,
+    -95.1546,
+    41.5072
+   ],
+   "coastal": false,
+   "elevation_ft": 1210,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 85,
+   "record_low_f": -31,
+   "record_high_f": 116,
+   "precip_in": 36.4,
+   "snow_in": 28,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 14",
+   "growing_days": 174,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Omaha/Valley, NE",
+   "nws_cwa": "OAX",
+   "nwr": [
+    {
+     "call": "KZZ52",
+     "freq": "162.525",
+     "same": "019155"
+    },
+    {
+     "call": "KIH61",
+     "freq": "162.400",
+     "same": "019155"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.6
+  },
+  "Poweshiek County": {
+   "fips": "19157",
+   "centroid": [
+    41.6846,
+    -92.5229
+   ],
+   "latitude": 41.7,
+   "bbox": [
+    -92.7666,
+    41.5088,
+    -92.2974,
+    41.8628
+   ],
+   "coastal": false,
+   "elevation_ft": 940,
+   "zone": "5a",
+   "jan_low_f": 10,
+   "jul_high_f": 83,
+   "record_low_f": -35,
+   "record_high_f": 110,
+   "precip_in": 38.2,
+   "snow_in": 31,
+   "last_frost": "May 3",
+   "first_frost": "Oct 6",
+   "growing_days": 155,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "KXI98",
+     "freq": "162.500",
+     "same": "019157"
+    },
+    {
+     "call": "KXI62",
+     "freq": "162.450",
+     "same": "019157"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.5
+  },
+  "Ringgold County": {
+   "fips": "19159",
+   "centroid": [
+    40.7353,
+    -94.2443
+   ],
+   "latitude": 40.7,
+   "bbox": [
+    -94.4718,
+    40.5709,
+    -94.0148,
+    40.9
+   ],
+   "coastal": false,
+   "elevation_ft": 1090,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 85,
+   "record_low_f": -30,
+   "record_high_f": 112,
+   "precip_in": 37.0,
+   "snow_in": 20,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 12",
+   "growing_days": 169,
+   "ecoregion": "Central Irregular Plains",
+   "ecoregion_code": "40",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "KXI65",
+     "freq": "162.450",
+     "same": "019159"
+    },
+    {
+     "call": "KZZ68",
+     "freq": "162.475",
+     "same": "019159"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.6
+  },
+  "Sac County": {
+   "fips": "19161",
+   "centroid": [
+    42.3875,
+    -95.1052
+   ],
+   "latitude": 42.4,
+   "bbox": [
+    -95.3882,
+    42.2097,
+    -94.8568,
+    42.5616
+   ],
+   "coastal": false,
+   "elevation_ft": 1340,
+   "zone": "5a",
+   "jan_low_f": 8,
+   "jul_high_f": 83,
+   "record_low_f": -35,
+   "record_high_f": 114,
+   "precip_in": 33.0,
+   "snow_in": 31,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 6",
+   "growing_days": 158,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "KZZ51",
+     "freq": "162.425",
+     "same": "019161"
+    },
+    {
+     "call": "WNG668",
+     "freq": "162.550",
+     "same": "019161"
+    },
+    {
+     "call": "KWN47",
+     "freq": "162.450",
+     "same": "019161"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.6
+  },
+  "Scott County": {
+   "fips": "19163",
+   "centroid": [
+    41.6421,
+    -90.6223
+   ],
+   "latitude": 41.6,
+   "bbox": [
+    -90.8999,
+    41.4497,
+    -90.3127,
+    41.7759
+   ],
+   "coastal": false,
+   "elevation_ft": 740,
+   "zone": "5b",
+   "jan_low_f": 13,
+   "jul_high_f": 84,
+   "record_low_f": -28,
+   "record_high_f": 100,
+   "precip_in": 37.9,
+   "snow_in": 29,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 17",
+   "growing_days": 176,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Quad Cities, IL",
+   "nws_cwa": "DVN",
+   "nwr": [
+    {
+     "call": "WXJ73",
+     "freq": "162.550",
+     "same": "019163"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.4
+  },
+  "Shelby County": {
+   "fips": "19165",
+   "centroid": [
+    41.679,
+    -95.3089
+   ],
+   "latitude": 41.7,
+   "bbox": [
+    -95.5582,
+    41.5048,
+    -95.0407,
+    41.8642
+   ],
+   "coastal": false,
+   "elevation_ft": 1200,
+   "zone": "5b",
+   "jan_low_f": 10,
+   "jul_high_f": 86,
+   "record_low_f": -37,
+   "record_high_f": 114,
+   "precip_in": 34.3,
+   "snow_in": 30,
+   "last_frost": "Apr 27",
+   "first_frost": "Oct 9",
+   "growing_days": 165,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Omaha/Valley, NE",
+   "nws_cwa": "OAX",
+   "nwr": [
+    {
+     "call": "KZZ51",
+     "freq": "162.425",
+     "same": "019165"
+    },
+    {
+     "call": "WNG668",
+     "freq": "162.550",
+     "same": "019165"
+    },
+    {
+     "call": "KZZ52",
+     "freq": "162.525",
+     "same": "019165"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.6
+  },
+  "Sioux County": {
+   "fips": "19167",
+   "centroid": [
+    43.0826,
+    -96.178
+   ],
+   "latitude": 43.1,
+   "bbox": [
+    -96.5711,
+    42.9082,
+    -95.8595,
+    43.26
+   ],
+   "coastal": false,
+   "elevation_ft": 1440,
+   "zone": "5a",
+   "jan_low_f": 9,
+   "jul_high_f": 85,
+   "record_low_f": -37,
+   "record_high_f": 109,
+   "precip_in": 29.9,
+   "snow_in": 35,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 3",
+   "growing_days": 154,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "KWN48",
+     "freq": "162.525",
+     "same": "019167"
+    },
+    {
+     "call": "WXL62",
+     "freq": "162.475",
+     "same": "019167"
+    },
+    {
+     "call": "WXM28",
+     "freq": "162.400",
+     "same": "019167"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.6
+  },
+  "Story County": {
+   "fips": "19169",
+   "centroid": [
+    42.0375,
+    -93.4661
+   ],
+   "latitude": 42.0,
+   "bbox": [
+    -93.6989,
+    41.8627,
+    -93.2314,
+    42.2094
+   ],
+   "coastal": false,
+   "elevation_ft": 980,
+   "zone": "5b",
+   "jan_low_f": 10,
+   "jul_high_f": 83,
+   "record_low_f": -28,
+   "record_high_f": 104,
+   "precip_in": 36.5,
+   "snow_in": 31,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 12",
+   "growing_days": 170,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "WXL57",
+     "freq": "162.550",
+     "same": "019169"
+    },
+    {
+     "call": "KXI98",
+     "freq": "162.500",
+     "same": "019169"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Tama County": {
+   "fips": "19171",
+   "centroid": [
+    42.0748,
+    -92.5294
+   ],
+   "latitude": 42.1,
+   "bbox": [
+    -92.7681,
+    41.8621,
+    -92.2972,
+    42.2974
+   ],
+   "coastal": false,
+   "elevation_ft": 1020,
+   "zone": "5a",
+   "jan_low_f": 9,
+   "jul_high_f": 83,
+   "record_low_f": -34,
+   "record_high_f": 109,
+   "precip_in": 35.2,
+   "snow_in": 33,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 9",
+   "growing_days": 162,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "KXI98",
+     "freq": "162.500",
+     "same": "019171"
+    },
+    {
+     "call": "KXI62",
+     "freq": "162.450",
+     "same": "019171"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.4
+  },
+  "Taylor County": {
+   "fips": "19173",
+   "centroid": [
+    40.7379,
+    -94.6971
+   ],
+   "latitude": 40.7,
+   "bbox": [
+    -94.9289,
+    40.5707,
+    -94.4709,
+    40.9009
+   ],
+   "coastal": false,
+   "elevation_ft": 1250,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 86,
+   "record_low_f": -34,
+   "record_high_f": 110,
+   "precip_in": 38.4,
+   "snow_in": 18,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 15",
+   "growing_days": 173,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "KXI65",
+     "freq": "162.450",
+     "same": "019173"
+    },
+    {
+     "call": "KZZ37",
+     "freq": "162.425",
+     "same": "019173"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.6
+  },
+  "Union County": {
+   "fips": "19175",
+   "centroid": [
+    41.0286,
+    -94.2451
+   ],
+   "latitude": 41.0,
+   "bbox": [
+    -94.4712,
+    40.897,
+    -94.0142,
+    41.1575
+   ],
+   "coastal": false,
+   "elevation_ft": 1220,
+   "zone": "5b",
+   "jan_low_f": 11,
+   "jul_high_f": 85,
+   "record_low_f": -31,
+   "record_high_f": 111,
+   "precip_in": 37.9,
+   "snow_in": 28,
+   "last_frost": "Apr 28",
+   "first_frost": "Oct 11",
+   "growing_days": 164,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "KXI65",
+     "freq": "162.450",
+     "same": "019175"
+    },
+    {
+     "call": "KZZ68",
+     "freq": "162.475",
+     "same": "019175"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.5
+  },
+  "Van Buren County": {
+   "fips": "19177",
+   "centroid": [
+    40.7541,
+    -91.9529
+   ],
+   "latitude": 40.8,
+   "bbox": [
+    -92.1798,
+    40.5992,
+    -91.7166,
+    40.9013
+   ],
+   "coastal": false,
+   "elevation_ft": 650,
+   "zone": "5b",
+   "jan_low_f": 14,
+   "jul_high_f": 86,
+   "record_low_f": -36,
+   "record_high_f": 115,
+   "precip_in": 39.7,
+   "snow_in": 23,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 13",
+   "growing_days": 169,
+   "ecoregion": "Central Irregular Plains",
+   "ecoregion_code": "40",
+   "nws_office": "Quad Cities, IL",
+   "nws_cwa": "DVN",
+   "nwr": [
+    {
+     "call": "WXN85",
+     "freq": "162.400",
+     "same": "019177"
+    },
+    {
+     "call": "WXL99",
+     "freq": "162.450",
+     "same": "019177"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Wapello County": {
+   "fips": "19179",
+   "centroid": [
+    41.0313,
+    -92.4095
+   ],
+   "latitude": 41.0,
+   "bbox": [
+    -92.6406,
+    40.8985,
+    -92.179,
+    41.1625
+   ],
+   "coastal": false,
+   "elevation_ft": 820,
+   "zone": "5b",
+   "jan_low_f": 14,
+   "jul_high_f": 86,
+   "record_low_f": -27,
+   "record_high_f": 106,
+   "precip_in": 37.0,
+   "snow_in": 24,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 14",
+   "growing_days": 172,
+   "ecoregion": "Central Irregular Plains",
+   "ecoregion_code": "40",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "WXN85",
+     "freq": "162.400",
+     "same": "019179"
+    },
+    {
+     "call": "WXN91",
+     "freq": "162.425",
+     "same": "019179"
+    },
+    {
+     "call": "WNG730",
+     "freq": "162.500",
+     "same": "019179"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.5
+  },
+  "Warren County": {
+   "fips": "19181",
+   "centroid": [
+    41.3324,
+    -93.5688
+   ],
+   "latitude": 41.3,
+   "bbox": [
+    -93.7908,
+    41.1601,
+    -93.3273,
+    41.5123
+   ],
+   "coastal": false,
+   "elevation_ft": 820,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 86,
+   "record_low_f": -35,
+   "record_high_f": 113,
+   "precip_in": 37.8,
+   "snow_in": 31,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 12",
+   "growing_days": 168,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "WXL57",
+     "freq": "162.550",
+     "same": "019181"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.5
+  },
+  "Washington County": {
+   "fips": "19183",
+   "centroid": [
+    41.3294,
+    -91.7251
+   ],
+   "latitude": 41.3,
+   "bbox": [
+    -91.947,
+    41.1615,
+    -91.4838,
+    41.5116
+   ],
+   "coastal": false,
+   "elevation_ft": 760,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 85,
+   "record_low_f": -32,
+   "record_high_f": 113,
+   "precip_in": 37.9,
+   "snow_in": 25,
+   "last_frost": "Apr 28",
+   "first_frost": "Oct 11",
+   "growing_days": 165,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Quad Cities, IL",
+   "nws_cwa": "DVN",
+   "nwr": [
+    {
+     "call": "WXL61",
+     "freq": "162.475",
+     "same": "019183"
+    },
+    {
+     "call": "WXN85",
+     "freq": "162.400",
+     "same": "019183"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.4
+  },
+  "Wayne County": {
+   "fips": "19185",
+   "centroid": [
+    40.74,
+    -93.3326
+   ],
+   "latitude": 40.7,
+   "bbox": [
+    -93.5571,
+    40.5799,
+    -93.0973,
+    40.8984
+   ],
+   "coastal": false,
+   "elevation_ft": 1070,
+   "zone": "5b",
+   "jan_low_f": 13,
+   "jul_high_f": 85,
+   "record_low_f": -33,
+   "record_high_f": 108,
+   "precip_in": 40.4,
+   "snow_in": 28,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 19",
+   "growing_days": 178,
+   "ecoregion": "Central Irregular Plains",
+   "ecoregion_code": "40",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "WXN91",
+     "freq": "162.425",
+     "same": "019185"
+    },
+    {
+     "call": "KZZ68",
+     "freq": "162.475",
+     "same": "019185"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.6
+  },
+  "Webster County": {
+   "fips": "19187",
+   "centroid": [
+    42.4336,
+    -94.1758
+   ],
+   "latitude": 42.4,
+   "bbox": [
+    -94.4433,
+    42.2092,
+    -93.9316,
+    42.6451
+   ],
+   "coastal": false,
+   "elevation_ft": 1120,
+   "zone": "5a",
+   "jan_low_f": 7,
+   "jul_high_f": 83,
+   "record_low_f": -35,
+   "record_high_f": 110,
+   "precip_in": 35.1,
+   "snow_in": 39,
+   "last_frost": "Apr 28",
+   "first_frost": "Oct 8",
+   "growing_days": 162,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "WXK84",
+     "freq": "162.400",
+     "same": "019187"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.5
+  },
+  "Winnebago County": {
+   "fips": "19189",
+   "centroid": [
+    43.3781,
+    -93.7435
+   ],
+   "latitude": 43.4,
+   "bbox": [
+    -93.9708,
+    43.255,
+    -93.4974,
+    43.4998
+   ],
+   "coastal": false,
+   "elevation_ft": 1250,
+   "zone": "5a",
+   "jan_low_f": 6,
+   "jul_high_f": 81,
+   "record_low_f": -36,
+   "record_high_f": 108,
+   "precip_in": 35.9,
+   "snow_in": 38,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 7",
+   "growing_days": 159,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "KJY63",
+     "freq": "162.500",
+     "same": "019189"
+    },
+    {
+     "call": "WNG688",
+     "freq": "162.475",
+     "same": "019189"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.4
+  },
+  "Winneshiek County": {
+   "fips": "19191",
+   "centroid": [
+    43.293,
+    -91.8508
+   ],
+   "latitude": 43.3,
+   "bbox": [
+    -92.0812,
+    43.0816,
+    -91.604,
+    43.5008
+   ],
+   "coastal": false,
+   "elevation_ft": 1110,
+   "zone": "4b",
+   "jan_low_f": 10,
+   "jul_high_f": 84,
+   "record_low_f": -43,
+   "record_high_f": 111,
+   "precip_in": 37.6,
+   "snow_in": 38,
+   "last_frost": "May 3",
+   "first_frost": "Oct 7",
+   "growing_days": 157,
+   "ecoregion": "Driftless Area",
+   "ecoregion_code": "52",
+   "nws_office": "La Crosse, WI",
+   "nws_cwa": "ARX",
+   "nwr": [
+    {
+     "call": "KXI60",
+     "freq": "162.525",
+     "same": "019191"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Woodbury County": {
+   "fips": "19193",
+   "centroid": [
+    42.3932,
+    -96.0533
+   ],
+   "latitude": 42.4,
+   "bbox": [
+    -96.4985,
+    42.2112,
+    -95.6696,
+    42.5621
+   ],
+   "coastal": false,
+   "elevation_ft": 1200,
+   "zone": "5a",
+   "jan_low_f": 9,
+   "jul_high_f": 86,
+   "record_low_f": -35,
+   "record_high_f": 111,
+   "precip_in": 30.3,
+   "snow_in": 36,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 7",
+   "growing_days": 161,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "WXL62",
+     "freq": "162.475",
+     "same": "019193"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.7
+  },
+  "Worth County": {
+   "fips": "19195",
+   "centroid": [
+    43.3735,
+    -93.2485
+   ],
+   "latitude": 43.4,
+   "bbox": [
+    -93.4978,
+    43.255,
+    -93.024,
+    43.4997
+   ],
+   "coastal": false,
+   "elevation_ft": 1220,
+   "zone": "5a",
+   "jan_low_f": 4,
+   "jul_high_f": 79,
+   "record_low_f": -37,
+   "record_high_f": 107,
+   "precip_in": 35.5,
+   "snow_in": 40,
+   "last_frost": "May 4",
+   "first_frost": "Oct 4",
+   "growing_days": 152,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "KJY63",
+     "freq": "162.500",
+     "same": "019195"
+    },
+    {
+     "call": "KXI68",
+     "freq": "162.450",
+     "same": "019195"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.4
+  },
+  "Wright County": {
+   "fips": "19197",
+   "centroid": [
+    42.733,
+    -93.7347
+   ],
+   "latitude": 42.7,
+   "bbox": [
+    -93.9719,
+    42.5573,
+    -93.4986,
+    42.9087
+   ],
+   "coastal": false,
+   "elevation_ft": 1170,
+   "zone": "5a",
+   "jan_low_f": 6,
+   "jul_high_f": 85,
+   "record_low_f": -32,
+   "record_high_f": 103,
+   "precip_in": 34.3,
+   "snow_in": 31,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 10",
+   "growing_days": 162,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Des Moines, IA",
+   "nws_cwa": "DMX",
+   "nwr": [
+    {
+     "call": "KJY63",
+     "freq": "162.500",
+     "same": "019197"
+    },
+    {
+     "call": "WXK84",
+     "freq": "162.400",
+     "same": "019197"
+    },
+    {
+     "call": "WNG666",
+     "freq": "162.525",
+     "same": "019197"
+    }
+   ],
+   "state_em": "Iowa Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  }
+ }
+}

@@ -1,0 +1,1739 @@
+{
+ "state": "UT",
+ "state_name": "Utah",
+ "state_fips": "49",
+ "state_em": "Utah Division of Emergency Management",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "GJT": "NWS Grand Junction, CO",
+  "GJTSLC": "NWS GJTSLC",
+  "SLC": "NWS Salt Lake City, UT"
+ },
+ "ecoregions": [
+  "Central Basin and Range",
+  "Mojave Basin and Range",
+  "Wyoming Basin",
+  "Wasatch and Uinta Mountains",
+  "Colorado Plateaus",
+  "Southern Rockies",
+  "Northern Basin and Range"
+ ],
+ "counties": {
+  "Beaver County": {
+   "fips": "49001",
+   "centroid": [
+    38.3575,
+    -113.2389
+   ],
+   "latitude": 38.4,
+   "bbox": [
+    -114.0505,
+    38.1466,
+    -112.3358,
+    38.5765
+   ],
+   "coastal": false,
+   "elevation_ft": 6250,
+   "zone": "6b",
+   "jan_low_f": 18,
+   "jul_high_f": 95,
+   "record_low_f": -30,
+   "record_high_f": 107,
+   "precip_in": 8.7,
+   "snow_in": 60,
+   "last_frost": "May 13",
+   "first_frost": "Oct 4",
+   "growing_days": 143,
+   "ecoregion": "Central Basin and Range",
+   "ecoregion_code": "13",
+   "nws_office": "Salt Lake City, UT",
+   "nws_cwa": "SLC",
+   "nwr": [
+    {
+     "call": "WXM24",
+     "freq": "162.400",
+     "same": "049001"
+    }
+   ],
+   "state_em": "Utah Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 7.1
+  },
+  "Box Elder County": {
+   "fips": "49003",
+   "centroid": [
+    41.6226,
+    -113.0603
+   ],
+   "latitude": 41.6,
+   "bbox": [
+    -114.0425,
+    40.9999,
+    -111.8736,
+    42.0013
+   ],
+   "coastal": false,
+   "elevation_ft": 4200,
+   "zone": "6b",
+   "jan_low_f": 15,
+   "jul_high_f": 90,
+   "record_low_f": -29,
+   "record_high_f": 108,
+   "precip_in": 13.8,
+   "snow_in": 13,
+   "last_frost": "May 12",
+   "first_frost": "Oct 5",
+   "growing_days": 144,
+   "ecoregion": "Central Basin and Range",
+   "ecoregion_code": "13",
+   "nws_office": "Salt Lake City, UT",
+   "nws_cwa": "SLC",
+   "nwr": [
+    {
+     "call": "WXM22",
+     "freq": "162.400",
+     "same": "049003"
+    },
+    {
+     "call": "KEC78",
+     "freq": "162.550",
+     "same": "049003"
+    },
+    {
+     "call": "WWF46",
+     "freq": "162.450",
+     "same": "049003"
+    },
+    {
+     "call": "KXI30",
+     "freq": "162.475",
+     "same": "049003"
+    }
+   ],
+   "state_em": "Utah Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 6.2
+  },
+  "Cache County": {
+   "fips": "49005",
+   "centroid": [
+    41.7341,
+    -111.7454
+   ],
+   "latitude": 41.7,
+   "bbox": [
+    -112.1653,
+    41.3691,
+    -111.4017,
+    42.0
+   ],
+   "coastal": false,
+   "elevation_ft": 6840,
+   "zone": "6b",
+   "jan_low_f": 14,
+   "jul_high_f": 81,
+   "record_low_f": -37,
+   "record_high_f": 99,
+   "precip_in": 28.7,
+   "snow_in": 84,
+   "last_frost": "May 28",
+   "first_frost": "Sep 24",
+   "growing_days": 119,
+   "ecoregion": "Wasatch and Uinta Mountains",
+   "ecoregion_code": "19",
+   "nws_office": "Salt Lake City, UT",
+   "nws_cwa": "SLC",
+   "nwr": [
+    {
+     "call": "WXL63",
+     "freq": "162.500",
+     "same": "049005"
+    },
+    {
+     "call": "WXM22",
+     "freq": "162.400",
+     "same": "049005"
+    }
+   ],
+   "state_em": "Utah Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 6.9
+  },
+  "Carbon County": {
+   "fips": "49007",
+   "centroid": [
+    39.6733,
+    -110.5885
+   ],
+   "latitude": 39.7,
+   "bbox": [
+    -111.2475,
+    39.4673,
+    -109.8739,
+    39.8141
+   ],
+   "coastal": false,
+   "elevation_ft": 6490,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 88,
+   "record_low_f": -29,
+   "record_high_f": 105,
+   "precip_in": 15.3,
+   "snow_in": 22,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 25",
+   "growing_days": 181,
+   "ecoregion": "Colorado Plateaus",
+   "ecoregion_code": "20",
+   "nws_office": "Salt Lake City, UT",
+   "nws_cwa": "SLC",
+   "nwr": [
+    {
+     "call": "WNG669",
+     "freq": "162.500",
+     "same": "049007"
+    }
+   ],
+   "state_em": "Utah Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 7.0
+  },
+  "Daggett County": {
+   "fips": "49009",
+   "centroid": [
+    40.8901,
+    -109.5058
+   ],
+   "latitude": 40.9,
+   "bbox": [
+    -110.0003,
+    40.6536,
+    -109.0483,
+    41.002
+   ],
+   "coastal": false,
+   "elevation_ft": 6920,
+   "zone": "5b",
+   "jan_low_f": 13,
+   "jul_high_f": 87,
+   "record_low_f": -38,
+   "record_high_f": 102,
+   "precip_in": 11.8,
+   "snow_in": 44,
+   "last_frost": "May 26",
+   "first_frost": "Sep 23",
+   "growing_days": 120,
+   "ecoregion": "Wasatch and Uinta Mountains",
+   "ecoregion_code": "19",
+   "nws_office": "Grand Junction, CO",
+   "nws_cwa": "GJT",
+   "nwr": [
+    {
+     "call": "KXI34",
+     "freq": "162.550",
+     "same": "049009"
+    }
+   ],
+   "state_em": "Utah Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 6.8
+  },
+  "Davis County": {
+   "fips": "49011",
+   "centroid": [
+    41.0376,
+    -112.2019
+   ],
+   "latitude": 41.0,
+   "bbox": [
+    -112.4938,
+    40.7734,
+    -111.7388,
+    41.1536
+   ],
+   "coastal": false,
+   "elevation_ft": 4250,
+   "zone": "7a",
+   "jan_low_f": 22,
+   "jul_high_f": 91,
+   "record_low_f": -14,
+   "record_high_f": 105,
+   "precip_in": 20.6,
+   "snow_in": 50,
+   "last_frost": "Apr 19",
+   "first_frost": "Oct 19",
+   "growing_days": 181,
+   "ecoregion": "Central Basin and Range",
+   "ecoregion_code": "13",
+   "nws_office": "Salt Lake City, UT",
+   "nws_cwa": "SLC",
+   "nwr": [
+    {
+     "call": "KEC78",
+     "freq": "162.550",
+     "same": "049011"
+    },
+    {
+     "call": "WWF46",
+     "freq": "162.450",
+     "same": "049011"
+    },
+    {
+     "call": "WWF47",
+     "freq": "162.525",
+     "same": "049011"
+    }
+   ],
+   "state_em": "Utah Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 6.7
+  },
+  "Duchesne County": {
+   "fips": "49013",
+   "centroid": [
+    40.2894,
+    -110.4296
+   ],
+   "latitude": 40.3,
+   "bbox": [
+    -110.904,
+    39.806,
+    -109.9676,
+    40.8349
+   ],
+   "coastal": false,
+   "elevation_ft": 6290,
+   "zone": "6a",
+   "jan_low_f": 7,
+   "jul_high_f": 82,
+   "record_low_f": -32,
+   "record_high_f": 98,
+   "precip_in": 9.4,
+   "snow_in": 39,
+   "last_frost": "May 31",
+   "first_frost": "Sep 23",
+   "growing_days": 112,
+   "ecoregion": "Colorado Plateaus",
+   "ecoregion_code": "20",
+   "nws_office": "Salt Lake City, UT",
+   "nws_cwa": "SLC",
+   "nwr": [
+    {
+     "call": "KJY79",
+     "freq": "162.550",
+     "same": "049013"
+    },
+    {
+     "call": "WXM23",
+     "freq": "162.400",
+     "same": "049013"
+    }
+   ],
+   "state_em": "Utah Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 6.6
+  },
+  "Emery County": {
+   "fips": "49015",
+   "centroid": [
+    39.009,
+    -110.7211
+   ],
+   "latitude": 39.0,
+   "bbox": [
+    -111.3071,
+    38.4997,
+    -109.9881,
+    39.7044
+   ],
+   "coastal": false,
+   "elevation_ft": 5810,
+   "zone": "6b",
+   "jan_low_f": 10,
+   "jul_high_f": 91,
+   "record_low_f": -35,
+   "record_high_f": 107,
+   "precip_in": 8.0,
+   "snow_in": 17,
+   "last_frost": "May 18",
+   "first_frost": "Sep 27",
+   "growing_days": 128,
+   "ecoregion": "Colorado Plateaus",
+   "ecoregion_code": "20",
+   "nws_office": "Salt Lake City, UT",
+   "nws_cwa": "SLC",
+   "nwr": [
+    {
+     "call": "WNG669",
+     "freq": "162.500",
+     "same": "049015"
+    },
+    {
+     "call": "WNG556",
+     "freq": "162.475",
+     "same": "049015"
+    }
+   ],
+   "state_em": "Utah Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 7.0
+  },
+  "Garfield County": {
+   "fips": "49017",
+   "centroid": [
+    37.8317,
+    -111.4509
+   ],
+   "latitude": 37.8,
+   "bbox": [
+    -112.6892,
+    37.5356,
+    -109.9273,
+    38.154
+   ],
+   "coastal": false,
+   "elevation_ft": 6010,
+   "zone": "7b",
+   "jan_low_f": 19,
+   "jul_high_f": 92,
+   "record_low_f": -22,
+   "record_high_f": 106,
+   "precip_in": 10.6,
+   "snow_in": 26,
+   "last_frost": "May 8",
+   "first_frost": "Oct 10",
+   "growing_days": 155,
+   "ecoregion": "Colorado Plateaus",
+   "ecoregion_code": "20",
+   "nws_office": "Salt Lake City, UT",
+   "nws_cwa": "SLC",
+   "nwr": [
+    {
+     "call": "WNG669",
+     "freq": "162.500",
+     "same": "049017"
+    },
+    {
+     "call": "KJY61",
+     "freq": "162.425",
+     "same": "049017"
+    },
+    {
+     "call": "WXM89",
+     "freq": "162.550",
+     "same": "049017"
+    }
+   ],
+   "state_em": "Utah Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 4.3,
+   "sun_hours_jun": 7.3
+  },
+  "Grand County": {
+   "fips": "49019",
+   "centroid": [
+    38.9743,
+    -109.5734
+   ],
+   "latitude": 39.0,
+   "bbox": [
+    -110.1791,
+    38.4997,
+    -109.0508,
+    39.4994
+   ],
+   "coastal": false,
+   "elevation_ft": 4890,
+   "zone": "7a",
+   "jan_low_f": 17,
+   "jul_high_f": 96,
+   "record_low_f": -14,
+   "record_high_f": 107,
+   "precip_in": 6.7,
+   "snow_in": 15,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 20",
+   "growing_days": 179,
+   "ecoregion": "Colorado Plateaus",
+   "ecoregion_code": "20",
+   "nws_office": "Grand Junction, CO",
+   "nws_cwa": "GJT",
+   "nwr": [
+    {
+     "call": "WNG556",
+     "freq": "162.475",
+     "same": "049019"
+    }
+   ],
+   "state_em": "Utah Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 7.3
+  },
+  "Iron County": {
+   "fips": "49021",
+   "centroid": [
+    37.9093,
+    -113.3067
+   ],
+   "latitude": 37.9,
+   "bbox": [
+    -114.0525,
+    37.4741,
+    -112.4669,
+    38.1492
+   ],
+   "coastal": false,
+   "elevation_ft": 5170,
+   "zone": "5b",
+   "jan_low_f": 14,
+   "jul_high_f": 93,
+   "record_low_f": -34,
+   "record_high_f": 104,
+   "precip_in": 11.0,
+   "snow_in": 38,
+   "last_frost": "May 31",
+   "first_frost": "Sep 20",
+   "growing_days": 110,
+   "ecoregion": "Central Basin and Range",
+   "ecoregion_code": "13",
+   "nws_office": "Salt Lake City, UT",
+   "nws_cwa": "SLC",
+   "nwr": [
+    {
+     "call": "WXM24",
+     "freq": "162.400",
+     "same": "049021"
+    },
+    {
+     "call": "WWF51",
+     "freq": "162.475",
+     "same": "049021"
+    }
+   ],
+   "state_em": "Utah Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 3,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 4.2,
+   "sun_hours_jun": 7.4
+  },
+  "Juab County": {
+   "fips": "49023",
+   "centroid": [
+    39.7141,
+    -112.7905
+   ],
+   "latitude": 39.7,
+   "bbox": [
+    -114.0478,
+    39.3141,
+    -111.5849,
+    40.0115
+   ],
+   "coastal": false,
+   "elevation_ft": 4760,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 95,
+   "record_low_f": -30,
+   "record_high_f": 110,
+   "precip_in": 8.0,
+   "snow_in": 25,
+   "last_frost": "May 16",
+   "first_frost": "Sep 29",
+   "growing_days": 137,
+   "ecoregion": "Central Basin and Range",
+   "ecoregion_code": "13",
+   "nws_office": "Salt Lake City, UT",
+   "nws_cwa": "SLC",
+   "nwr": [
+    {
+     "call": "WNG594",
+     "freq": "162.425",
+     "same": "049023"
+    },
+    {
+     "call": "WXM24",
+     "freq": "162.400",
+     "same": "049023"
+    }
+   ],
+   "state_em": "Utah Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 7.0
+  },
+  "Kane County": {
+   "fips": "49025",
+   "centroid": [
+    37.2751,
+    -111.8153
+   ],
+   "latitude": 37.3,
+   "bbox": [
+    -112.9015,
+    36.9997,
+    -110.639,
+    37.5434
+   ],
+   "coastal": false,
+   "elevation_ft": 5460,
+   "zone": "7a",
+   "jan_low_f": 16,
+   "jul_high_f": 91,
+   "record_low_f": -25,
+   "record_high_f": 104,
+   "precip_in": 11.6,
+   "snow_in": 24,
+   "last_frost": "May 31",
+   "first_frost": "Sep 28",
+   "growing_days": 116,
+   "ecoregion": "Colorado Plateaus",
+   "ecoregion_code": "20",
+   "nws_office": "Salt Lake City, UT",
+   "nws_cwa": "SLC",
+   "nwr": [
+    {
+     "call": "WXM89",
+     "freq": "162.550",
+     "same": "049025"
+    }
+   ],
+   "state_em": "Utah Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 4.3,
+   "sun_hours_jun": 7.3
+  },
+  "Millard County": {
+   "fips": "49027",
+   "centroid": [
+    38.9567,
+    -113.1331
+   ],
+   "latitude": 39.0,
+   "bbox": [
+    -114.0501,
+    38.5707,
+    -112.0141,
+    39.5563
+   ],
+   "coastal": false,
+   "elevation_ft": 4520,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 95,
+   "record_low_f": -37,
+   "record_high_f": 108,
+   "precip_in": 8.8,
+   "snow_in": 24,
+   "last_frost": "May 23",
+   "first_frost": "Sep 27",
+   "growing_days": 124,
+   "ecoregion": "Central Basin and Range",
+   "ecoregion_code": "13",
+   "nws_office": "Salt Lake City, UT",
+   "nws_cwa": "SLC",
+   "nwr": [
+    {
+     "call": "WXM24",
+     "freq": "162.400",
+     "same": "049027"
+    }
+   ],
+   "state_em": "Utah Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 7.1
+  },
+  "Morgan County": {
+   "fips": "49029",
+   "centroid": [
+    41.091,
+    -111.5779
+   ],
+   "latitude": 41.1,
+   "bbox": [
+    -111.8762,
+    40.7801,
+    -111.2217,
+    41.3738
+   ],
+   "coastal": false,
+   "elevation_ft": 6360,
+   "zone": "6a",
+   "jan_low_f": 5,
+   "jul_high_f": 78,
+   "record_low_f": -34,
+   "record_high_f": 98,
+   "precip_in": 19.0,
+   "snow_in": 72,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 51,
+   "ecoregion": "Wasatch and Uinta Mountains",
+   "ecoregion_code": "19",
+   "nws_office": "Salt Lake City, UT",
+   "nws_cwa": "SLC",
+   "nwr": [
+    {
+     "call": "KJY60",
+     "freq": "162.475",
+     "same": "049029"
+    }
+   ],
+   "state_em": "Utah Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 6.9
+  },
+  "Piute County": {
+   "fips": "49031",
+   "centroid": [
+    38.3359,
+    -112.1294
+   ],
+   "latitude": 38.3,
+   "bbox": [
+    -112.5185,
+    38.1456,
+    -111.767,
+    38.5122
+   ],
+   "coastal": false,
+   "elevation_ft": 6320,
+   "zone": "6a",
+   "jan_low_f": 8,
+   "jul_high_f": 85,
+   "record_low_f": -32,
+   "record_high_f": 102,
+   "precip_in": 9.2,
+   "snow_in": 20,
+   "last_frost": "Jun 17",
+   "first_frost": "Sep 12",
+   "growing_days": 85,
+   "ecoregion": "Wasatch and Uinta Mountains",
+   "ecoregion_code": "19",
+   "nws_office": "Salt Lake City, UT",
+   "nws_cwa": "SLC",
+   "nwr": [],
+   "state_em": "Utah Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 7.1
+  },
+  "Rich County": {
+   "fips": "49033",
+   "centroid": [
+    41.6276,
+    -111.2402
+   ],
+   "latitude": 41.6,
+   "bbox": [
+    -111.5115,
+    41.1413,
+    -111.0458,
+    42.0016
+   ],
+   "coastal": false,
+   "elevation_ft": 6580,
+   "zone": "4b",
+   "jan_low_f": 4,
+   "jul_high_f": 82,
+   "record_low_f": -43,
+   "record_high_f": 97,
+   "precip_in": 14.4,
+   "snow_in": 71,
+   "last_frost": "Jun 14",
+   "first_frost": "Sep 1",
+   "growing_days": 76,
+   "ecoregion": "Wyoming Basin",
+   "ecoregion_code": "18",
+   "nws_office": "Salt Lake City, UT",
+   "nws_cwa": "SLC",
+   "nwr": [
+    {
+     "call": "WXL63",
+     "freq": "162.500",
+     "same": "049033"
+    },
+    {
+     "call": "KXI85",
+     "freq": "162.450",
+     "same": "049033"
+    },
+    {
+     "call": "WXM22",
+     "freq": "162.400",
+     "same": "049033"
+    }
+   ],
+   "state_em": "Utah Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 6.9
+  },
+  "Salt Lake County": {
+   "fips": "49035",
+   "centroid": [
+    40.6679,
+    -111.9242
+   ],
+   "latitude": 40.7,
+   "bbox": [
+    -112.2634,
+    40.4146,
+    -111.5531,
+    40.922
+   ],
+   "coastal": false,
+   "elevation_ft": 4280,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 91,
+   "record_low_f": -6,
+   "record_high_f": 103,
+   "precip_in": 17.7,
+   "snow_in": 49,
+   "last_frost": "Mar 31",
+   "first_frost": "Nov 8",
+   "growing_days": 224,
+   "ecoregion": "Central Basin and Range",
+   "ecoregion_code": "13",
+   "nws_office": "Salt Lake City, UT",
+   "nws_cwa": "SLC",
+   "nwr": [
+    {
+     "call": "KEC78",
+     "freq": "162.550",
+     "same": "049035"
+    }
+   ],
+   "state_em": "Utah Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 3,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 6.8
+  },
+  "San Juan County": {
+   "fips": "49037",
+   "centroid": [
+    37.6026,
+    -109.7916
+   ],
+   "latitude": 37.6,
+   "bbox": [
+    -111.3675,
+    36.9979,
+    -109.0411,
+    38.5008
+   ],
+   "coastal": false,
+   "elevation_ft": 7200,
+   "zone": "7a",
+   "jan_low_f": 20,
+   "jul_high_f": 89,
+   "record_low_f": -14,
+   "record_high_f": 103,
+   "precip_in": 12.0,
+   "snow_in": 32,
+   "last_frost": "May 5",
+   "first_frost": "Oct 13",
+   "growing_days": 157,
+   "ecoregion": "Colorado Plateaus",
+   "ecoregion_code": "20",
+   "nws_office": "GJTSLC",
+   "nws_cwa": "GJTSLC",
+   "nwr": [
+    {
+     "call": "WXM89",
+     "freq": "162.550",
+     "same": "049037"
+    },
+    {
+     "call": "WNG556",
+     "freq": "162.475",
+     "same": "049037"
+    },
+    {
+     "call": "WNG687",
+     "freq": "162.450",
+     "same": "049037"
+    }
+   ],
+   "state_em": "Utah Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 4.2,
+   "sun_hours_jun": 7.4
+  },
+  "Sanpete County": {
+   "fips": "49039",
+   "centroid": [
+    39.3734,
+    -111.5769
+   ],
+   "latitude": 39.4,
+   "bbox": [
+    -112.0163,
+    39.032,
+    -111.2469,
+    39.8131
+   ],
+   "coastal": false,
+   "elevation_ft": 5520,
+   "zone": "5b",
+   "jan_low_f": 11,
+   "jul_high_f": 91,
+   "record_low_f": -34,
+   "record_high_f": 108,
+   "precip_in": 11.7,
+   "snow_in": 20,
+   "last_frost": "May 28",
+   "first_frost": "Sep 20",
+   "growing_days": 113,
+   "ecoregion": "Wasatch and Uinta Mountains",
+   "ecoregion_code": "19",
+   "nws_office": "Salt Lake City, UT",
+   "nws_cwa": "SLC",
+   "nwr": [
+    {
+     "call": "WNG594",
+     "freq": "162.425",
+     "same": "049039"
+    }
+   ],
+   "state_em": "Utah Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 7.0
+  },
+  "Sevier County": {
+   "fips": "49041",
+   "centroid": [
+    38.7468,
+    -111.8119
+   ],
+   "latitude": 38.7,
+   "bbox": [
+    -112.5223,
+    38.5019,
+    -111.298,
+    39.0456
+   ],
+   "coastal": false,
+   "elevation_ft": 7070,
+   "zone": "6a",
+   "jan_low_f": 12,
+   "jul_high_f": 85,
+   "record_low_f": -32,
+   "record_high_f": 98,
+   "precip_in": 10.1,
+   "snow_in": 19,
+   "last_frost": "Jun 6",
+   "first_frost": "Sep 21",
+   "growing_days": 104,
+   "ecoregion": "Wasatch and Uinta Mountains",
+   "ecoregion_code": "19",
+   "nws_office": "Salt Lake City, UT",
+   "nws_cwa": "SLC",
+   "nwr": [
+    {
+     "call": "WNG669",
+     "freq": "162.500",
+     "same": "049041"
+    },
+    {
+     "call": "WNG594",
+     "freq": "162.425",
+     "same": "049041"
+    }
+   ],
+   "state_em": "Utah Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 7.1
+  },
+  "Summit County": {
+   "fips": "49043",
+   "centroid": [
+    40.8721,
+    -110.9685
+   ],
+   "latitude": 40.9,
+   "bbox": [
+    -111.6484,
+    40.5487,
+    -109.9996,
+    41.2518
+   ],
+   "coastal": false,
+   "elevation_ft": 9820,
+   "zone": "5b",
+   "jan_low_f": 11,
+   "jul_high_f": 72,
+   "record_low_f": -34,
+   "record_high_f": 87,
+   "precip_in": 37.5,
+   "snow_in": 458,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 79,
+   "ecoregion": "Wasatch and Uinta Mountains",
+   "ecoregion_code": "19",
+   "nws_office": "Salt Lake City, UT",
+   "nws_cwa": "SLC",
+   "nwr": [
+    {
+     "call": "KJY60",
+     "freq": "162.475",
+     "same": "049043"
+    },
+    {
+     "call": "KXI85",
+     "freq": "162.450",
+     "same": "049043"
+    }
+   ],
+   "state_em": "Utah Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 6.6
+  },
+  "Tooele County": {
+   "fips": "49045",
+   "centroid": [
+    40.4678,
+    -113.124
+   ],
+   "latitude": 40.5,
+   "bbox": [
+    -114.0471,
+    39.9033,
+    -112.1453,
+    41.0766
+   ],
+   "coastal": false,
+   "elevation_ft": 4310,
+   "zone": "6b",
+   "jan_low_f": 16,
+   "jul_high_f": 96,
+   "record_low_f": -29,
+   "record_high_f": 109,
+   "precip_in": 8.3,
+   "snow_in": 15,
+   "last_frost": "May 11",
+   "first_frost": "Oct 2",
+   "growing_days": 143,
+   "ecoregion": "Central Basin and Range",
+   "ecoregion_code": "13",
+   "nws_office": "Salt Lake City, UT",
+   "nws_cwa": "SLC",
+   "nwr": [
+    {
+     "call": "WWF46",
+     "freq": "162.450",
+     "same": "049045"
+    },
+    {
+     "call": "WWF47",
+     "freq": "162.525",
+     "same": "049045"
+    },
+    {
+     "call": "KXI30",
+     "freq": "162.475",
+     "same": "049045"
+    }
+   ],
+   "state_em": "Utah Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 6.5
+  },
+  "Uintah County": {
+   "fips": "49047",
+   "centroid": [
+    40.1259,
+    -109.5177
+   ],
+   "latitude": 40.1,
+   "bbox": [
+    -110.0474,
+    39.4612,
+    -109.048,
+    40.8587
+   ],
+   "coastal": false,
+   "elevation_ft": 4920,
+   "zone": "5b",
+   "jan_low_f": 5,
+   "jul_high_f": 95,
+   "record_low_f": -43,
+   "record_high_f": 108,
+   "precip_in": 7.0,
+   "snow_in": 16,
+   "last_frost": "May 2",
+   "first_frost": "Oct 3",
+   "growing_days": 152,
+   "ecoregion": "Colorado Plateaus",
+   "ecoregion_code": "20",
+   "nws_office": "Grand Junction, CO",
+   "nws_cwa": "GJT",
+   "nwr": [
+    {
+     "call": "KJY79",
+     "freq": "162.550",
+     "same": "049047"
+    },
+    {
+     "call": "WXM23",
+     "freq": "162.400",
+     "same": "049047"
+    }
+   ],
+   "state_em": "Utah Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 6.8
+  },
+  "Utah County": {
+   "fips": "49049",
+   "centroid": [
+    40.1204,
+    -111.6686
+   ],
+   "latitude": 40.1,
+   "bbox": [
+    -112.2139,
+    39.7763,
+    -110.8574,
+    40.5778
+   ],
+   "coastal": false,
+   "elevation_ft": 4560,
+   "zone": "7a",
+   "jan_low_f": 22,
+   "jul_high_f": 93,
+   "record_low_f": -20,
+   "record_high_f": 109,
+   "precip_in": 20.2,
+   "snow_in": 66,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 18",
+   "growing_days": 174,
+   "ecoregion": "Central Basin and Range",
+   "ecoregion_code": "13",
+   "nws_office": "Salt Lake City, UT",
+   "nws_cwa": "SLC",
+   "nwr": [
+    {
+     "call": "KEC78",
+     "freq": "162.550",
+     "same": "049049"
+    }
+   ],
+   "state_em": "Utah Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 3,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 6.8
+  },
+  "Wasatch County": {
+   "fips": "49051",
+   "centroid": [
+    40.3349,
+    -111.1616
+   ],
+   "latitude": 40.3,
+   "bbox": [
+    -111.6206,
+    39.8996,
+    -110.8914,
+    40.6907
+   ],
+   "coastal": false,
+   "elevation_ft": 8970,
+   "zone": "5b",
+   "jan_low_f": 11,
+   "jul_high_f": 72,
+   "record_low_f": -34,
+   "record_high_f": 87,
+   "precip_in": 39.9,
+   "snow_in": 458,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 79,
+   "ecoregion": "Wasatch and Uinta Mountains",
+   "ecoregion_code": "19",
+   "nws_office": "Salt Lake City, UT",
+   "nws_cwa": "SLC",
+   "nwr": [
+    {
+     "call": "KJY79",
+     "freq": "162.550",
+     "same": "049051"
+    }
+   ],
+   "state_em": "Utah Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 6.8
+  },
+  "Washington County": {
+   "fips": "49053",
+   "centroid": [
+    37.2625,
+    -113.4878
+   ],
+   "latitude": 37.3,
+   "bbox": [
+    -114.053,
+    37.0,
+    -112.8994,
+    37.6185
+   ],
+   "coastal": false,
+   "elevation_ft": 5260,
+   "zone": "7b",
+   "jan_low_f": 21,
+   "jul_high_f": 90,
+   "record_low_f": -20,
+   "record_high_f": 104,
+   "precip_in": 17.6,
+   "snow_in": 38,
+   "last_frost": "May 9",
+   "first_frost": "Oct 11",
+   "growing_days": 155,
+   "ecoregion": "Wasatch and Uinta Mountains",
+   "ecoregion_code": "19",
+   "nws_office": "Salt Lake City, UT",
+   "nws_cwa": "SLC",
+   "nwr": [
+    {
+     "call": "WWF51",
+     "freq": "162.475",
+     "same": "049053"
+    }
+   ],
+   "state_em": "Utah Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 3,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 4.2,
+   "sun_hours_jun": 7.4
+  },
+  "Wayne County": {
+   "fips": "49055",
+   "centroid": [
+    38.2599,
+    -110.9909
+   ],
+   "latitude": 38.3,
+   "bbox": [
+    -111.8489,
+    38.1501,
+    -109.8859,
+    38.5102
+   ],
+   "coastal": false,
+   "elevation_ft": 4880,
+   "zone": "7a",
+   "jan_low_f": 20,
+   "jul_high_f": 91,
+   "record_low_f": -9,
+   "record_high_f": 104,
+   "precip_in": 7.9,
+   "snow_in": 11,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 28",
+   "growing_days": 192,
+   "ecoregion": "Colorado Plateaus",
+   "ecoregion_code": "20",
+   "nws_office": "Salt Lake City, UT",
+   "nws_cwa": "SLC",
+   "nwr": [
+    {
+     "call": "WNG669",
+     "freq": "162.500",
+     "same": "049055"
+    }
+   ],
+   "state_em": "Utah Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 4.1,
+   "sun_hours_jun": 7.3
+  },
+  "Weber County": {
+   "fips": "49057",
+   "centroid": [
+    41.2703,
+    -111.8769
+   ],
+   "latitude": 41.3,
+   "bbox": [
+    -112.4938,
+    41.0767,
+    -111.4202,
+    41.4331
+   ],
+   "coastal": false,
+   "elevation_ft": 6170,
+   "zone": "6a",
+   "jan_low_f": 15,
+   "jul_high_f": 87,
+   "record_low_f": -39,
+   "record_high_f": 102,
+   "precip_in": 28.2,
+   "snow_in": 108,
+   "last_frost": "May 25",
+   "first_frost": "Sep 26",
+   "growing_days": 123,
+   "ecoregion": "Wasatch and Uinta Mountains",
+   "ecoregion_code": "19",
+   "nws_office": "Salt Lake City, UT",
+   "nws_cwa": "SLC",
+   "nwr": [
+    {
+     "call": "WXM22",
+     "freq": "162.400",
+     "same": "049057"
+    },
+    {
+     "call": "KEC78",
+     "freq": "162.550",
+     "same": "049057"
+    },
+    {
+     "call": "WWF46",
+     "freq": "162.450",
+     "same": "049057"
+    }
+   ],
+   "state_em": "Utah Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 6.9
+  }
+ }
+}

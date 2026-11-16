@@ -1,0 +1,5522 @@
+{
+ "state": "IN",
+ "state_name": "Indiana",
+ "state_fips": "18",
+ "state_em": "Indiana Department of Homeland Security",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "ILN": "NWS Wilmington, OH",
+  "IND": "NWS Indianapolis, IN",
+  "IWX": "NWS Northern Indiana, IN",
+  "LMK": "NWS Louisville, KY",
+  "LOT": "NWS Chicago, IL",
+  "PAH": "NWS Paducah, KY"
+ },
+ "ecoregions": [
+  "Central Corn Belt Plains",
+  "Eastern Corn Belt Plains",
+  "Southern Michigan/Northern Indiana Drift Plains",
+  "Huron/Erie Lake Plains",
+  "Interior Plateau",
+  "Interior River Valleys and Hills"
+ ],
+ "counties": {
+  "Adams County": {
+   "fips": "18001",
+   "centroid": [
+    40.7457,
+    -84.9361
+   ],
+   "latitude": 40.7,
+   "bbox": [
+    -85.0739,
+    40.5682,
+    -84.802,
+    40.9233
+   ],
+   "coastal": false,
+   "elevation_ft": 820,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 84,
+   "record_low_f": -24,
+   "record_high_f": 107,
+   "precip_in": 41.9,
+   "snow_in": 28,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 22",
+   "growing_days": 181,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Northern Indiana, IN",
+   "nws_cwa": "IWX",
+   "nwr": [
+    {
+     "call": "WXJ58",
+     "freq": "162.550",
+     "same": "018001"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.4
+  },
+  "Allen County": {
+   "fips": "18003",
+   "centroid": [
+    41.0919,
+    -85.0718
+   ],
+   "latitude": 41.1,
+   "bbox": [
+    -85.3385,
+    40.9164,
+    -84.8029,
+    41.271
+   ],
+   "coastal": false,
+   "elevation_ft": 780,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 84,
+   "record_low_f": -22,
+   "record_high_f": 106,
+   "precip_in": 39.5,
+   "snow_in": 34,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 21",
+   "growing_days": 178,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Northern Indiana, IN",
+   "nws_cwa": "IWX",
+   "nwr": [
+    {
+     "call": "WXJ58",
+     "freq": "162.550",
+     "same": "018003"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.3
+  },
+  "Bartholomew County": {
+   "fips": "18005",
+   "centroid": [
+    39.2058,
+    -85.898
+   ],
+   "latitude": 39.2,
+   "bbox": [
+    -86.0856,
+    39.0359,
+    -85.6847,
+    39.3501
+   ],
+   "coastal": false,
+   "elevation_ft": 630,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 86,
+   "record_low_f": -27,
+   "record_high_f": 111,
+   "precip_in": 47.3,
+   "snow_in": 16,
+   "last_frost": "Apr 11",
+   "first_frost": "Oct 25",
+   "growing_days": 195,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Indianapolis, IN",
+   "nws_cwa": "IND",
+   "nwr": [
+    {
+     "call": "WWG73",
+     "freq": "162.525",
+     "same": "018005"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.4
+  },
+  "Benton County": {
+   "fips": "18007",
+   "centroid": [
+    40.6009,
+    -87.3148
+   ],
+   "latitude": 40.6,
+   "bbox": [
+    -87.5266,
+    40.4755,
+    -87.093,
+    40.737
+   ],
+   "coastal": false,
+   "elevation_ft": 820,
+   "zone": "5b",
+   "jan_low_f": 15,
+   "jul_high_f": 83,
+   "record_low_f": -25,
+   "record_high_f": 104,
+   "precip_in": 40.2,
+   "snow_in": 17,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 13",
+   "growing_days": 169,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Chicago, IL",
+   "nws_cwa": "LOT",
+   "nwr": [
+    {
+     "call": "KXI86",
+     "freq": "162.500",
+     "same": "018007"
+    },
+    {
+     "call": "WXK74",
+     "freq": "162.475",
+     "same": "018007"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.4
+  },
+  "Blackford County": {
+   "fips": "18009",
+   "centroid": [
+    40.4727,
+    -85.3237
+   ],
+   "latitude": 40.5,
+   "bbox": [
+    -85.447,
+    40.3782,
+    -85.2007,
+    40.5676
+   ],
+   "coastal": false,
+   "elevation_ft": 890,
+   "zone": "6a",
+   "jan_low_f": 19,
+   "jul_high_f": 83,
+   "record_low_f": -26,
+   "record_high_f": 104,
+   "precip_in": 41.7,
+   "snow_in": 32,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 22",
+   "growing_days": 181,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Northern Indiana, IN",
+   "nws_cwa": "IWX",
+   "nwr": [
+    {
+     "call": "WXJ58",
+     "freq": "162.550",
+     "same": "018009"
+    },
+    {
+     "call": "WXM98",
+     "freq": "162.450",
+     "same": "018009"
+    },
+    {
+     "call": "KJY93",
+     "freq": "162.425",
+     "same": "018009"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.4
+  },
+  "Boone County": {
+   "fips": "18011",
+   "centroid": [
+    40.0509,
+    -86.469
+   ],
+   "latitude": 40.1,
+   "bbox": [
+    -86.6959,
+    39.9221,
+    -86.2403,
+    40.1808
+   ],
+   "coastal": false,
+   "elevation_ft": 930,
+   "zone": "6a",
+   "jan_low_f": 20,
+   "jul_high_f": 83,
+   "record_low_f": -27,
+   "record_high_f": 112,
+   "precip_in": 41.3,
+   "snow_in": 22,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 20",
+   "growing_days": 180,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Indianapolis, IN",
+   "nws_cwa": "IND",
+   "nwr": [
+    {
+     "call": "KEC74",
+     "freq": "162.550",
+     "same": "018011"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.4
+  },
+  "Brown County": {
+   "fips": "18013",
+   "centroid": [
+    39.1951,
+    -86.2301
+   ],
+   "latitude": 39.2,
+   "bbox": [
+    -86.3814,
+    39.0484,
+    -86.0792,
+    39.3442
+   ],
+   "coastal": false,
+   "elevation_ft": 650,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 86,
+   "record_low_f": -27,
+   "record_high_f": 111,
+   "precip_in": 47.3,
+   "snow_in": 16,
+   "last_frost": "Apr 11",
+   "first_frost": "Oct 25",
+   "growing_days": 195,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Indianapolis, IN",
+   "nws_cwa": "IND",
+   "nwr": [
+    {
+     "call": "WXM78",
+     "freq": "162.450",
+     "same": "018013"
+    },
+    {
+     "call": "WWG72",
+     "freq": "162.500",
+     "same": "018013"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.4
+  },
+  "Carroll County": {
+   "fips": "18015",
+   "centroid": [
+    40.585,
+    -86.5651
+   ],
+   "latitude": 40.6,
+   "bbox": [
+    -86.7745,
+    40.431,
+    -86.3734,
+    40.7375
+   ],
+   "coastal": false,
+   "elevation_ft": 660,
+   "zone": "6a",
+   "jan_low_f": 19,
+   "jul_high_f": 85,
+   "record_low_f": -25,
+   "record_high_f": 112,
+   "precip_in": 39.0,
+   "snow_in": 17,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 17",
+   "growing_days": 179,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Indianapolis, IN",
+   "nws_cwa": "IND",
+   "nwr": [
+    {
+     "call": "WXK74",
+     "freq": "162.475",
+     "same": "018015"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.4
+  },
+  "Cass County": {
+   "fips": "18017",
+   "centroid": [
+    40.7538,
+    -86.3552
+   ],
+   "latitude": 40.8,
+   "bbox": [
+    -86.5817,
+    40.5613,
+    -86.1651,
+    40.9109
+   ],
+   "coastal": false,
+   "elevation_ft": 620,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 84,
+   "record_low_f": -21,
+   "record_high_f": 106,
+   "precip_in": 41.3,
+   "snow_in": 19,
+   "last_frost": "Apr 20",
+   "first_frost": "Oct 23",
+   "growing_days": 185,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Northern Indiana, IN",
+   "nws_cwa": "IWX",
+   "nwr": [
+    {
+     "call": "WXK74",
+     "freq": "162.475",
+     "same": "018017"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.4
+  },
+  "Clark County": {
+   "fips": "18019",
+   "centroid": [
+    38.4762,
+    -85.7111
+   ],
+   "latitude": 38.5,
+   "bbox": [
+    -85.9947,
+    38.2672,
+    -85.4153,
+    38.6068
+   ],
+   "coastal": false,
+   "elevation_ft": 500,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 89,
+   "record_low_f": -32,
+   "record_high_f": 109,
+   "precip_in": 48.0,
+   "snow_in": 4,
+   "last_frost": "Mar 31",
+   "first_frost": "Nov 9",
+   "growing_days": 225,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH43",
+     "freq": "162.475",
+     "same": "018019"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.4
+  },
+  "Clay County": {
+   "fips": "18021",
+   "centroid": [
+    39.3939,
+    -87.1159
+   ],
+   "latitude": 39.4,
+   "bbox": [
+    -87.2407,
+    39.168,
+    -86.94,
+    39.6071
+   ],
+   "coastal": false,
+   "elevation_ft": 580,
+   "zone": "6a",
+   "jan_low_f": 20,
+   "jul_high_f": 86,
+   "record_low_f": -20,
+   "record_high_f": 110,
+   "precip_in": 41.8,
+   "snow_in": 15,
+   "last_frost": "Apr 14",
+   "first_frost": "Oct 24",
+   "growing_days": 192,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Indianapolis, IN",
+   "nws_cwa": "IND",
+   "nwr": [
+    {
+     "call": "WXK72",
+     "freq": "162.400",
+     "same": "018021"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.5
+  },
+  "Clinton County": {
+   "fips": "18023",
+   "centroid": [
+    40.3059,
+    -86.4776
+   ],
+   "latitude": 40.3,
+   "bbox": [
+    -86.6958,
+    40.1769,
+    -86.2423,
+    40.432
+   ],
+   "coastal": false,
+   "elevation_ft": 860,
+   "zone": "6a",
+   "jan_low_f": 19,
+   "jul_high_f": 84,
+   "record_low_f": -26,
+   "record_high_f": 108,
+   "precip_in": 43.3,
+   "snow_in": 24,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 21",
+   "growing_days": 181,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Indianapolis, IN",
+   "nws_cwa": "IND",
+   "nwr": [
+    {
+     "call": "WXK74",
+     "freq": "162.475",
+     "same": "018023"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.4
+  },
+  "Crawford County": {
+   "fips": "18025",
+   "centroid": [
+    38.2894,
+    -86.4409
+   ],
+   "latitude": 38.3,
+   "bbox": [
+    -86.6814,
+    38.1054,
+    -86.2457,
+    38.4229
+   ],
+   "coastal": false,
+   "elevation_ft": 660,
+   "zone": "6b",
+   "jan_low_f": 24,
+   "jul_high_f": 88,
+   "record_low_f": -31,
+   "record_high_f": 104,
+   "precip_in": 51.0,
+   "snow_in": 13,
+   "last_frost": "Apr 17",
+   "first_frost": "Oct 19",
+   "growing_days": 184,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH43",
+     "freq": "162.475",
+     "same": "018025"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.5
+  },
+  "Daviess County": {
+   "fips": "18027",
+   "centroid": [
+    38.6961,
+    -87.0769
+   ],
+   "latitude": 38.7,
+   "bbox": [
+    -87.2791,
+    38.4904,
+    -86.9041,
+    38.9042
+   ],
+   "coastal": false,
+   "elevation_ft": 490,
+   "zone": "6b",
+   "jan_low_f": 24,
+   "jul_high_f": 87,
+   "record_low_f": -19,
+   "record_high_f": 113,
+   "precip_in": 48.0,
+   "snow_in": 9,
+   "last_frost": "Apr 10",
+   "first_frost": "Oct 25",
+   "growing_days": 197,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Indianapolis, IN",
+   "nws_cwa": "IND",
+   "nwr": [
+    {
+     "call": "WWG83",
+     "freq": "162.425",
+     "same": "018027"
+    },
+    {
+     "call": "WWG72",
+     "freq": "162.500",
+     "same": "018027"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.6
+  },
+  "Dearborn County": {
+   "fips": "18029",
+   "centroid": [
+    39.1409,
+    -84.9759
+   ],
+   "latitude": 39.1,
+   "bbox": [
+    -85.1326,
+    38.9355,
+    -84.8193,
+    39.3071
+   ],
+   "coastal": false,
+   "elevation_ft": 880,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 83,
+   "record_low_f": -25,
+   "record_high_f": 104,
+   "precip_in": 46.7,
+   "snow_in": 16,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 16",
+   "growing_days": 168,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "KIH42",
+     "freq": "162.550",
+     "same": "018029"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Decatur County": {
+   "fips": "18031",
+   "centroid": [
+    39.306,
+    -85.4998
+   ],
+   "latitude": 39.3,
+   "bbox": [
+    -85.6875,
+    39.1306,
+    -85.2962,
+    39.4534
+   ],
+   "coastal": false,
+   "elevation_ft": 930,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 84,
+   "record_low_f": -21,
+   "record_high_f": 101,
+   "precip_in": 47.0,
+   "snow_in": 13,
+   "last_frost": "Apr 15",
+   "first_frost": "Oct 26",
+   "growing_days": 194,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Indianapolis, IN",
+   "nws_cwa": "IND",
+   "nwr": [
+    {
+     "call": "KEC74",
+     "freq": "162.550",
+     "same": "018031"
+    },
+    {
+     "call": "KHB52",
+     "freq": "162.500",
+     "same": "018031"
+    },
+    {
+     "call": "WWG73",
+     "freq": "162.525",
+     "same": "018031"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.4
+  },
+  "DeKalb County": {
+   "fips": "18033",
+   "centroid": [
+    41.3968,
+    -85.0027
+   ],
+   "latitude": 41.4,
+   "bbox": [
+    -85.1939,
+    41.2643,
+    -84.8036,
+    41.5303
+   ],
+   "coastal": false,
+   "elevation_ft": 870,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 81,
+   "record_low_f": -26,
+   "record_high_f": 102,
+   "precip_in": 39.5,
+   "snow_in": 36,
+   "last_frost": "May 2",
+   "first_frost": "Oct 10",
+   "growing_days": 159,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Northern Indiana, IN",
+   "nws_cwa": "IWX",
+   "nwr": [
+    {
+     "call": "KXI94",
+     "freq": "162.425",
+     "same": "018033"
+    },
+    {
+     "call": "WXJ58",
+     "freq": "162.550",
+     "same": "018033"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.3
+  },
+  "Delaware County": {
+   "fips": "18035",
+   "centroid": [
+    40.2275,
+    -85.3993
+   ],
+   "latitude": 40.2,
+   "bbox": [
+    -85.5793,
+    40.0764,
+    -85.2144,
+    40.3795
+   ],
+   "coastal": false,
+   "elevation_ft": 940,
+   "zone": "6a",
+   "jan_low_f": 21,
+   "jul_high_f": 86,
+   "record_low_f": -29,
+   "record_high_f": 106,
+   "precip_in": 40.3,
+   "snow_in": 19,
+   "last_frost": "Apr 16",
+   "first_frost": "Oct 25",
+   "growing_days": 190,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Indianapolis, IN",
+   "nws_cwa": "IND",
+   "nwr": [
+    {
+     "call": "KEC74",
+     "freq": "162.550",
+     "same": "018035"
+    },
+    {
+     "call": "WXM98",
+     "freq": "162.450",
+     "same": "018035"
+    },
+    {
+     "call": "KJY93",
+     "freq": "162.425",
+     "same": "018035"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.4
+  },
+  "Dubois County": {
+   "fips": "18037",
+   "centroid": [
+    38.3733,
+    -86.8734
+   ],
+   "latitude": 38.4,
+   "bbox": [
+    -87.0733,
+    38.203,
+    -86.6791,
+    38.5265
+   ],
+   "coastal": false,
+   "elevation_ft": 550,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 92,
+   "record_low_f": -25,
+   "record_high_f": 109,
+   "precip_in": 51.7,
+   "snow_in": 13,
+   "last_frost": "Apr 10",
+   "first_frost": "Nov 1",
+   "growing_days": 204,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "WWG83",
+     "freq": "162.425",
+     "same": "018037"
+    },
+    {
+     "call": "KIG76",
+     "freq": "162.550",
+     "same": "018037"
+    },
+    {
+     "call": "WWG72",
+     "freq": "162.500",
+     "same": "018037"
+    },
+    {
+     "call": "KIH43",
+     "freq": "162.475",
+     "same": "018037"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.5
+  },
+  "Elkhart County": {
+   "fips": "18039",
+   "centroid": [
+    41.6007,
+    -85.864
+   ],
+   "latitude": 41.6,
+   "bbox": [
+    -86.0627,
+    41.4349,
+    -85.6535,
+    41.7606
+   ],
+   "coastal": false,
+   "elevation_ft": 790,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 83,
+   "record_low_f": -25,
+   "record_high_f": 111,
+   "precip_in": 39.9,
+   "snow_in": 45,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 21",
+   "growing_days": 175,
+   "ecoregion": "Southern Michigan/Northern Indiana Drift Plains",
+   "ecoregion_code": "56",
+   "nws_office": "Northern Indiana, IN",
+   "nws_cwa": "IWX",
+   "nwr": [
+    {
+     "call": "KZZ36",
+     "freq": "162.500",
+     "same": "018039"
+    },
+    {
+     "call": "WXJ57",
+     "freq": "162.400",
+     "same": "018039"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.3
+  },
+  "Fayette County": {
+   "fips": "18041",
+   "centroid": [
+    39.6397,
+    -85.185
+   ],
+   "latitude": 39.6,
+   "bbox": [
+    -85.3015,
+    39.5254,
+    -85.0346,
+    39.7886
+   ],
+   "coastal": false,
+   "elevation_ft": 960,
+   "zone": "6a",
+   "jan_low_f": 19,
+   "jul_high_f": 83,
+   "record_low_f": -31,
+   "record_high_f": 108,
+   "precip_in": 45.6,
+   "snow_in": 16,
+   "last_frost": "Apr 19",
+   "first_frost": "Oct 23",
+   "growing_days": 185,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "KIH42",
+     "freq": "162.550",
+     "same": "018041"
+    },
+    {
+     "call": "WXJ46",
+     "freq": "162.475",
+     "same": "018041"
+    },
+    {
+     "call": "KHB52",
+     "freq": "162.500",
+     "same": "018041"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.4
+  },
+  "Floyd County": {
+   "fips": "18043",
+   "centroid": [
+    38.3181,
+    -85.9118
+   ],
+   "latitude": 38.3,
+   "bbox": [
+    -86.0332,
+    38.1783,
+    -85.7608,
+    38.4186
+   ],
+   "coastal": false,
+   "elevation_ft": 840,
+   "zone": "6b",
+   "jan_low_f": 26,
+   "jul_high_f": 89,
+   "record_low_f": -22,
+   "record_high_f": 106,
+   "precip_in": 48.0,
+   "snow_in": 4,
+   "last_frost": "Mar 31",
+   "first_frost": "Nov 9",
+   "growing_days": 225,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH43",
+     "freq": "162.475",
+     "same": "018043"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.4
+  },
+  "Fountain County": {
+   "fips": "18045",
+   "centroid": [
+    40.1212,
+    -87.2349
+   ],
+   "latitude": 40.1,
+   "bbox": [
+    -87.4393,
+    39.9518,
+    -87.0902,
+    40.3665
+   ],
+   "coastal": false,
+   "elevation_ft": 670,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 84,
+   "record_low_f": -26,
+   "record_high_f": 105,
+   "precip_in": 40.1,
+   "snow_in": 23,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 17",
+   "growing_days": 176,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Indianapolis, IN",
+   "nws_cwa": "IND",
+   "nwr": [
+    {
+     "call": "KZZ27",
+     "freq": "162.425",
+     "same": "018045"
+    },
+    {
+     "call": "WXK72",
+     "freq": "162.400",
+     "same": "018045"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.4
+  },
+  "Franklin County": {
+   "fips": "18047",
+   "centroid": [
+    39.4098,
+    -85.067
+   ],
+   "latitude": 39.4,
+   "bbox": [
+    -85.2987,
+    39.2683,
+    -84.8154,
+    39.5269
+   ],
+   "coastal": false,
+   "elevation_ft": 930,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 87,
+   "record_low_f": -31,
+   "record_high_f": 108,
+   "precip_in": 43.8,
+   "snow_in": 18,
+   "last_frost": "Apr 20",
+   "first_frost": "Oct 21",
+   "growing_days": 182,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "KIH42",
+     "freq": "162.550",
+     "same": "018047"
+    },
+    {
+     "call": "KHB52",
+     "freq": "162.500",
+     "same": "018047"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.4
+  },
+  "Fulton County": {
+   "fips": "18049",
+   "centroid": [
+    41.0504,
+    -86.265
+   ],
+   "latitude": 41.1,
+   "bbox": [
+    -86.4685,
+    40.9091,
+    -85.9456,
+    41.1729
+   ],
+   "coastal": false,
+   "elevation_ft": 760,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 83,
+   "record_low_f": -30,
+   "record_high_f": 109,
+   "precip_in": 40.8,
+   "snow_in": 30,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 21",
+   "growing_days": 180,
+   "ecoregion": "Southern Michigan/Northern Indiana Drift Plains",
+   "ecoregion_code": "56",
+   "nws_office": "Northern Indiana, IN",
+   "nws_cwa": "IWX",
+   "nwr": [
+    {
+     "call": "KJY62",
+     "freq": "162.500",
+     "same": "018049"
+    },
+    {
+     "call": "WXK74",
+     "freq": "162.475",
+     "same": "018049"
+    },
+    {
+     "call": "KZZ36",
+     "freq": "162.500",
+     "same": "018049"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.2
+  },
+  "Gibson County": {
+   "fips": "18051",
+   "centroid": [
+    38.3174,
+    -87.5805
+   ],
+   "latitude": 38.3,
+   "bbox": [
+    -87.9878,
+    38.165,
+    -87.316,
+    38.5327
+   ],
+   "coastal": false,
+   "elevation_ft": 500,
+   "zone": "6b",
+   "jan_low_f": 21,
+   "jul_high_f": 88,
+   "record_low_f": -20,
+   "record_high_f": 113,
+   "precip_in": 49.8,
+   "snow_in": 12,
+   "last_frost": "Apr 13",
+   "first_frost": "Oct 25",
+   "growing_days": 194,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "WWG83",
+     "freq": "162.425",
+     "same": "018051"
+    },
+    {
+     "call": "KIG76",
+     "freq": "162.550",
+     "same": "018051"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.6
+  },
+  "Grant County": {
+   "fips": "18053",
+   "centroid": [
+    40.5158,
+    -85.6549
+   ],
+   "latitude": 40.5,
+   "bbox": [
+    -85.8649,
+    40.3784,
+    -85.4443,
+    40.6536
+   ],
+   "coastal": false,
+   "elevation_ft": 850,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 84,
+   "record_low_f": -23,
+   "record_high_f": 108,
+   "precip_in": 41.8,
+   "snow_in": 24,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 20",
+   "growing_days": 175,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Northern Indiana, IN",
+   "nws_cwa": "IWX",
+   "nwr": [
+    {
+     "call": "WXJ58",
+     "freq": "162.550",
+     "same": "018053"
+    },
+    {
+     "call": "WXM98",
+     "freq": "162.450",
+     "same": "018053"
+    },
+    {
+     "call": "KJY93",
+     "freq": "162.425",
+     "same": "018053"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.4
+  },
+  "Greene County": {
+   "fips": "18055",
+   "centroid": [
+    39.0471,
+    -87.0048
+   ],
+   "latitude": 39.0,
+   "bbox": [
+    -87.241,
+    38.9025,
+    -86.6821,
+    39.1725
+   ],
+   "coastal": false,
+   "elevation_ft": 500,
+   "zone": "6b",
+   "jan_low_f": 23,
+   "jul_high_f": 88,
+   "record_low_f": -33,
+   "record_high_f": 104,
+   "precip_in": 49.6,
+   "snow_in": 18,
+   "last_frost": "Apr 9",
+   "first_frost": "Oct 25",
+   "growing_days": 197,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Indianapolis, IN",
+   "nws_cwa": "IND",
+   "nwr": [
+    {
+     "call": "WXM78",
+     "freq": "162.450",
+     "same": "018055"
+    },
+    {
+     "call": "WWG83",
+     "freq": "162.425",
+     "same": "018055"
+    },
+    {
+     "call": "WWG72",
+     "freq": "162.500",
+     "same": "018055"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.5
+  },
+  "Hamilton County": {
+   "fips": "18057",
+   "centroid": [
+    40.0535,
+    -86.0217
+   ],
+   "latitude": 40.1,
+   "bbox": [
+    -86.2427,
+    39.9259,
+    -85.8619,
+    40.219
+   ],
+   "coastal": false,
+   "elevation_ft": 790,
+   "zone": "6a",
+   "jan_low_f": 19,
+   "jul_high_f": 84,
+   "record_low_f": -25,
+   "record_high_f": 103,
+   "precip_in": 44.4,
+   "snow_in": 20,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 21",
+   "growing_days": 183,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Indianapolis, IN",
+   "nws_cwa": "IND",
+   "nwr": [
+    {
+     "call": "KEC74",
+     "freq": "162.550",
+     "same": "018057"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.4
+  },
+  "Hancock County": {
+   "fips": "18059",
+   "centroid": [
+    39.8225,
+    -85.7732
+   ],
+   "latitude": 39.8,
+   "bbox": [
+    -85.9539,
+    39.697,
+    -85.5764,
+    39.9461
+   ],
+   "coastal": false,
+   "elevation_ft": 910,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 84,
+   "record_low_f": -29,
+   "record_high_f": 109,
+   "precip_in": 47.8,
+   "snow_in": 20,
+   "last_frost": "Apr 19",
+   "first_frost": "Oct 22",
+   "growing_days": 185,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Indianapolis, IN",
+   "nws_cwa": "IND",
+   "nwr": [
+    {
+     "call": "KEC74",
+     "freq": "162.550",
+     "same": "018059"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.4
+  },
+  "Harrison County": {
+   "fips": "18061",
+   "centroid": [
+    38.1865,
+    -86.1038
+   ],
+   "latitude": 38.2,
+   "bbox": [
+    -86.3294,
+    37.9581,
+    -85.9006,
+    38.4226
+   ],
+   "coastal": false,
+   "elevation_ft": 660,
+   "zone": "7a",
+   "jan_low_f": 23,
+   "jul_high_f": 86,
+   "record_low_f": -22,
+   "record_high_f": 106,
+   "precip_in": 53.3,
+   "snow_in": 4,
+   "last_frost": "Apr 19",
+   "first_frost": "Oct 24",
+   "growing_days": 186,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH43",
+     "freq": "162.475",
+     "same": "018061"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.5
+  },
+  "Hendricks County": {
+   "fips": "18063",
+   "centroid": [
+    39.769,
+    -86.5099
+   ],
+   "latitude": 39.8,
+   "bbox": [
+    -86.6954,
+    39.6003,
+    -86.3254,
+    39.9242
+   ],
+   "coastal": false,
+   "elevation_ft": 910,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 83,
+   "record_low_f": -26,
+   "record_high_f": 102,
+   "precip_in": 43.3,
+   "snow_in": 14,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 19",
+   "growing_days": 178,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Indianapolis, IN",
+   "nws_cwa": "IND",
+   "nwr": [
+    {
+     "call": "KEC74",
+     "freq": "162.550",
+     "same": "018063"
+    },
+    {
+     "call": "WXK72",
+     "freq": "162.400",
+     "same": "018063"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.4
+  },
+  "Henry County": {
+   "fips": "18065",
+   "centroid": [
+    39.9296,
+    -85.3974
+   ],
+   "latitude": 39.9,
+   "bbox": [
+    -85.5969,
+    39.7864,
+    -85.2004,
+    40.0773
+   ],
+   "coastal": false,
+   "elevation_ft": 1060,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 83,
+   "record_low_f": -26,
+   "record_high_f": 107,
+   "precip_in": 44.4,
+   "snow_in": 25,
+   "last_frost": "Apr 27",
+   "first_frost": "Oct 17",
+   "growing_days": 173,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Indianapolis, IN",
+   "nws_cwa": "IND",
+   "nwr": [
+    {
+     "call": "KEC74",
+     "freq": "162.550",
+     "same": "018065"
+    },
+    {
+     "call": "KJY93",
+     "freq": "162.425",
+     "same": "018065"
+    },
+    {
+     "call": "KHB52",
+     "freq": "162.500",
+     "same": "018065"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.4
+  },
+  "Howard County": {
+   "fips": "18067",
+   "centroid": [
+    40.4835,
+    -86.1141
+   ],
+   "latitude": 40.5,
+   "bbox": [
+    -86.3757,
+    40.3736,
+    -85.8621,
+    40.5655
+   ],
+   "coastal": false,
+   "elevation_ft": 800,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 84,
+   "record_low_f": -26,
+   "record_high_f": 110,
+   "precip_in": 44.4,
+   "snow_in": 34,
+   "last_frost": "Apr 27",
+   "first_frost": "Oct 18",
+   "growing_days": 174,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Indianapolis, IN",
+   "nws_cwa": "IND",
+   "nwr": [
+    {
+     "call": "WXM98",
+     "freq": "162.450",
+     "same": "018067"
+    },
+    {
+     "call": "WXK74",
+     "freq": "162.475",
+     "same": "018067"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.4
+  },
+  "Huntington County": {
+   "fips": "18069",
+   "centroid": [
+    40.8264,
+    -85.4786
+   ],
+   "latitude": 40.8,
+   "bbox": [
+    -85.6439,
+    40.6529,
+    -85.3345,
+    41.0054
+   ],
+   "coastal": false,
+   "elevation_ft": 820,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 84,
+   "record_low_f": -28,
+   "record_high_f": 106,
+   "precip_in": 40.6,
+   "snow_in": 26,
+   "last_frost": "May 1",
+   "first_frost": "Oct 14",
+   "growing_days": 166,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Northern Indiana, IN",
+   "nws_cwa": "IWX",
+   "nwr": [
+    {
+     "call": "WXJ58",
+     "freq": "162.550",
+     "same": "018069"
+    },
+    {
+     "call": "WXM98",
+     "freq": "162.450",
+     "same": "018069"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.4
+  },
+  "Jackson County": {
+   "fips": "18071",
+   "centroid": [
+    38.912,
+    -86.0425
+   ],
+   "latitude": 38.9,
+   "bbox": [
+    -86.3181,
+    38.7256,
+    -85.7944,
+    39.0706
+   ],
+   "coastal": false,
+   "elevation_ft": 540,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 85,
+   "record_low_f": -23,
+   "record_high_f": 113,
+   "precip_in": 49.6,
+   "snow_in": 8,
+   "last_frost": "Apr 16",
+   "first_frost": "Oct 21",
+   "growing_days": 187,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Indianapolis, IN",
+   "nws_cwa": "IND",
+   "nwr": [
+    {
+     "call": "WWG73",
+     "freq": "162.525",
+     "same": "018071"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.5
+  },
+  "Jasper County": {
+   "fips": "18073",
+   "centroid": [
+    41.0177,
+    -87.1188
+   ],
+   "latitude": 41.0,
+   "bbox": [
+    -87.2766,
+    40.7364,
+    -86.9299,
+    41.2864
+   ],
+   "coastal": false,
+   "elevation_ft": 690,
+   "zone": "5b",
+   "jan_low_f": 16,
+   "jul_high_f": 84,
+   "record_low_f": -27,
+   "record_high_f": 116,
+   "precip_in": 40.1,
+   "snow_in": 25,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 18",
+   "growing_days": 177,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Chicago, IL",
+   "nws_cwa": "LOT",
+   "nwr": [
+    {
+     "call": "WNG689",
+     "freq": "162.450",
+     "same": "018073"
+    },
+    {
+     "call": "WXK74",
+     "freq": "162.475",
+     "same": "018073"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.2
+  },
+  "Jay County": {
+   "fips": "18075",
+   "centroid": [
+    40.435,
+    -85.0023
+   ],
+   "latitude": 40.4,
+   "bbox": [
+    -85.22,
+    40.3066,
+    -84.8023,
+    40.5722
+   ],
+   "coastal": false,
+   "elevation_ft": 920,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 84,
+   "record_low_f": -29,
+   "record_high_f": 104,
+   "precip_in": 39.9,
+   "snow_in": 19,
+   "last_frost": "Apr 28",
+   "first_frost": "Oct 15",
+   "growing_days": 171,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Northern Indiana, IN",
+   "nws_cwa": "IWX",
+   "nwr": [
+    {
+     "call": "WXJ58",
+     "freq": "162.550",
+     "same": "018075"
+    },
+    {
+     "call": "KJY93",
+     "freq": "162.425",
+     "same": "018075"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.4
+  },
+  "Jefferson County": {
+   "fips": "18077",
+   "centroid": [
+    38.7836,
+    -85.4401
+   ],
+   "latitude": 38.8,
+   "bbox": [
+    -85.6849,
+    38.586,
+    -85.2001,
+    38.915
+   ],
+   "coastal": false,
+   "elevation_ft": 820,
+   "zone": "6b",
+   "jan_low_f": 24,
+   "jul_high_f": 88,
+   "record_low_f": -20,
+   "record_high_f": 110,
+   "precip_in": 51.0,
+   "snow_in": 12,
+   "last_frost": "Apr 11",
+   "first_frost": "Oct 31",
+   "growing_days": 201,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH43",
+     "freq": "162.475",
+     "same": "018077"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.4
+  },
+  "Jennings County": {
+   "fips": "18079",
+   "centroid": [
+    38.9962,
+    -85.6281
+   ],
+   "latitude": 39.0,
+   "bbox": [
+    -85.7999,
+    38.8071,
+    -85.4401,
+    39.1954
+   ],
+   "coastal": false,
+   "elevation_ft": 740,
+   "zone": "6b",
+   "jan_low_f": 23,
+   "jul_high_f": 86,
+   "record_low_f": -24,
+   "record_high_f": 105,
+   "precip_in": 49.3,
+   "snow_in": 17,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 21",
+   "growing_days": 180,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Indianapolis, IN",
+   "nws_cwa": "IND",
+   "nwr": [
+    {
+     "call": "WWG73",
+     "freq": "162.525",
+     "same": "018079"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.4
+  },
+  "Johnson County": {
+   "fips": "18081",
+   "centroid": [
+    39.4961,
+    -86.0943
+   ],
+   "latitude": 39.5,
+   "bbox": [
+    -86.2517,
+    39.3417,
+    -85.9508,
+    39.6383
+   ],
+   "coastal": false,
+   "elevation_ft": 760,
+   "zone": "6b",
+   "jan_low_f": 18,
+   "jul_high_f": 84,
+   "record_low_f": -25,
+   "record_high_f": 108,
+   "precip_in": 45.4,
+   "snow_in": 17,
+   "last_frost": "Apr 20",
+   "first_frost": "Oct 19",
+   "growing_days": 180,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Indianapolis, IN",
+   "nws_cwa": "IND",
+   "nwr": [
+    {
+     "call": "KEC74",
+     "freq": "162.550",
+     "same": "018081"
+    },
+    {
+     "call": "WWG73",
+     "freq": "162.525",
+     "same": "018081"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.4
+  },
+  "Knox County": {
+   "fips": "18083",
+   "centroid": [
+    38.6884,
+    -87.4204
+   ],
+   "latitude": 38.7,
+   "bbox": [
+    -87.7568,
+    38.4145,
+    -87.091,
+    38.9078
+   ],
+   "coastal": false,
+   "elevation_ft": 540,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 89,
+   "record_low_f": -26,
+   "record_high_f": 107,
+   "precip_in": 46.8,
+   "snow_in": 8,
+   "last_frost": "Apr 11",
+   "first_frost": "Oct 26",
+   "growing_days": 197,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Indianapolis, IN",
+   "nws_cwa": "IND",
+   "nwr": [
+    {
+     "call": "WWG83",
+     "freq": "162.425",
+     "same": "018083"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.6
+  },
+  "Kosciusko County": {
+   "fips": "18085",
+   "centroid": [
+    41.2443,
+    -85.8616
+   ],
+   "latitude": 41.2,
+   "bbox": [
+    -86.0774,
+    41.042,
+    -85.6512,
+    41.4368
+   ],
+   "coastal": false,
+   "elevation_ft": 830,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 84,
+   "record_low_f": -25,
+   "record_high_f": 103,
+   "precip_in": 40.5,
+   "snow_in": 32,
+   "last_frost": "Apr 28",
+   "first_frost": "Oct 18",
+   "growing_days": 170,
+   "ecoregion": "Southern Michigan/Northern Indiana Drift Plains",
+   "ecoregion_code": "56",
+   "nws_office": "Northern Indiana, IN",
+   "nws_cwa": "IWX",
+   "nwr": [
+    {
+     "call": "WXJ58",
+     "freq": "162.550",
+     "same": "018085"
+    },
+    {
+     "call": "KZZ36",
+     "freq": "162.500",
+     "same": "018085"
+    },
+    {
+     "call": "WXJ57",
+     "freq": "162.400",
+     "same": "018085"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.3
+  },
+  "LaGrange County": {
+   "fips": "18087",
+   "centroid": [
+    41.6425,
+    -85.4278
+   ],
+   "latitude": 41.6,
+   "bbox": [
+    -85.6599,
+    41.5234,
+    -85.1939,
+    41.7601
+   ],
+   "coastal": false,
+   "elevation_ft": 940,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 83,
+   "record_low_f": -22,
+   "record_high_f": 104,
+   "precip_in": 38.5,
+   "snow_in": 24,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 21",
+   "growing_days": 176,
+   "ecoregion": "Southern Michigan/Northern Indiana Drift Plains",
+   "ecoregion_code": "56",
+   "nws_office": "Northern Indiana, IN",
+   "nws_cwa": "IWX",
+   "nwr": [
+    {
+     "call": "KXI94",
+     "freq": "162.425",
+     "same": "018087"
+    },
+    {
+     "call": "KZZ36",
+     "freq": "162.500",
+     "same": "018087"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.3
+  },
+  "Lake County": {
+   "fips": "18089",
+   "centroid": [
+    41.4722,
+    -87.3743
+   ],
+   "latitude": 41.5,
+   "bbox": [
+    -87.5268,
+    41.1623,
+    -87.2185,
+    41.7099
+   ],
+   "coastal": false,
+   "elevation_ft": 670,
+   "zone": "6a",
+   "jan_low_f": 15,
+   "jul_high_f": 84,
+   "record_low_f": -29,
+   "record_high_f": 104,
+   "precip_in": 39.9,
+   "snow_in": 30,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 16",
+   "growing_days": 171,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Chicago, IL",
+   "nws_cwa": "LOT",
+   "nwr": [
+    {
+     "call": "KWO39",
+     "freq": "162.550",
+     "same": "018089"
+    },
+    {
+     "call": "WNG689",
+     "freq": "162.450",
+     "same": "018089"
+    },
+    {
+     "call": "KZZ58",
+     "freq": "162.525",
+     "same": "018089"
+    },
+    {
+     "call": "KZZ81",
+     "freq": "162.425",
+     "same": "018089"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.2
+  },
+  "LaPorte County": {
+   "fips": "18091",
+   "centroid": [
+    41.549,
+    -86.7447
+   ],
+   "latitude": 41.5,
+   "bbox": [
+    -86.9332,
+    41.2369,
+    -86.4864,
+    41.7604
+   ],
+   "coastal": false,
+   "elevation_ft": 780,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 82,
+   "record_low_f": -23,
+   "record_high_f": 104,
+   "precip_in": 42.5,
+   "snow_in": 65,
+   "last_frost": "Apr 19",
+   "first_frost": "Oct 27",
+   "growing_days": 191,
+   "ecoregion": "Southern Michigan/Northern Indiana Drift Plains",
+   "ecoregion_code": "56",
+   "nws_office": "Northern Indiana, IN",
+   "nws_cwa": "IWX",
+   "nwr": [
+    {
+     "call": "WNG689",
+     "freq": "162.450",
+     "same": "018091"
+    },
+    {
+     "call": "KJY62",
+     "freq": "162.500",
+     "same": "018091"
+    },
+    {
+     "call": "WXJ57",
+     "freq": "162.400",
+     "same": "018091"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.2
+  },
+  "Lawrence County": {
+   "fips": "18093",
+   "centroid": [
+    38.8398,
+    -86.4878
+   ],
+   "latitude": 38.8,
+   "bbox": [
+    -86.6836,
+    38.6866,
+    -86.2753,
+    38.9924
+   ],
+   "coastal": false,
+   "elevation_ft": 500,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 85,
+   "record_low_f": -29,
+   "record_high_f": 111,
+   "precip_in": 48.0,
+   "snow_in": 16,
+   "last_frost": "Apr 20",
+   "first_frost": "Oct 20",
+   "growing_days": 181,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Indianapolis, IN",
+   "nws_cwa": "IND",
+   "nwr": [
+    {
+     "call": "WWG72",
+     "freq": "162.500",
+     "same": "018093"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.5
+  },
+  "Madison County": {
+   "fips": "18095",
+   "centroid": [
+    40.1662,
+    -85.7225
+   ],
+   "latitude": 40.2,
+   "bbox": [
+    -85.8635,
+    39.9436,
+    -85.5758,
+    40.3798
+   ],
+   "coastal": false,
+   "elevation_ft": 880,
+   "zone": "6a",
+   "jan_low_f": 21,
+   "jul_high_f": 84,
+   "record_low_f": -24,
+   "record_high_f": 106,
+   "precip_in": 43.8,
+   "snow_in": 21,
+   "last_frost": "Apr 19",
+   "first_frost": "Oct 23",
+   "growing_days": 186,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Indianapolis, IN",
+   "nws_cwa": "IND",
+   "nwr": [
+    {
+     "call": "KEC74",
+     "freq": "162.550",
+     "same": "018095"
+    },
+    {
+     "call": "WXM98",
+     "freq": "162.450",
+     "same": "018095"
+    },
+    {
+     "call": "KJY93",
+     "freq": "162.425",
+     "same": "018095"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.4
+  },
+  "Marion County": {
+   "fips": "18097",
+   "centroid": [
+    39.783,
+    -86.1358
+   ],
+   "latitude": 39.8,
+   "bbox": [
+    -86.3281,
+    39.632,
+    -85.9372,
+    39.9271
+   ],
+   "coastal": false,
+   "elevation_ft": 720,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 84,
+   "record_low_f": -22,
+   "record_high_f": 104,
+   "precip_in": 44.6,
+   "snow_in": 27,
+   "last_frost": "Apr 20",
+   "first_frost": "Oct 21",
+   "growing_days": 183,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Indianapolis, IN",
+   "nws_cwa": "IND",
+   "nwr": [
+    {
+     "call": "KEC74",
+     "freq": "162.550",
+     "same": "018097"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.4
+  },
+  "Marshall County": {
+   "fips": "18099",
+   "centroid": [
+    41.325,
+    -86.269
+   ],
+   "latitude": 41.3,
+   "bbox": [
+    -86.4671,
+    41.1716,
+    -86.0541,
+    41.4794
+   ],
+   "coastal": false,
+   "elevation_ft": 810,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 84,
+   "record_low_f": -22,
+   "record_high_f": 105,
+   "precip_in": 40.3,
+   "snow_in": 55,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 21",
+   "growing_days": 178,
+   "ecoregion": "Southern Michigan/Northern Indiana Drift Plains",
+   "ecoregion_code": "56",
+   "nws_office": "Northern Indiana, IN",
+   "nws_cwa": "IWX",
+   "nwr": [
+    {
+     "call": "KJY62",
+     "freq": "162.500",
+     "same": "018099"
+    },
+    {
+     "call": "KZZ36",
+     "freq": "162.500",
+     "same": "018099"
+    },
+    {
+     "call": "WXJ57",
+     "freq": "162.400",
+     "same": "018099"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.2
+  },
+  "Martin County": {
+   "fips": "18101",
+   "centroid": [
+    38.7053,
+    -86.8018
+   ],
+   "latitude": 38.7,
+   "bbox": [
+    -86.9244,
+    38.4948,
+    -86.6824,
+    38.9047
+   ],
+   "coastal": false,
+   "elevation_ft": 620,
+   "zone": "6b",
+   "jan_low_f": 23,
+   "jul_high_f": 88,
+   "record_low_f": -23,
+   "record_high_f": 114,
+   "precip_in": 50.0,
+   "snow_in": 14,
+   "last_frost": "Apr 15",
+   "first_frost": "Oct 23",
+   "growing_days": 189,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Indianapolis, IN",
+   "nws_cwa": "IND",
+   "nwr": [
+    {
+     "call": "WWG72",
+     "freq": "162.500",
+     "same": "018101"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.5
+  },
+  "Miami County": {
+   "fips": "18103",
+   "centroid": [
+    40.7729,
+    -86.0443
+   ],
+   "latitude": 40.8,
+   "bbox": [
+    -86.1691,
+    40.5627,
+    -85.8638,
+    40.9992
+   ],
+   "coastal": false,
+   "elevation_ft": 650,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 85,
+   "record_low_f": -24,
+   "record_high_f": 109,
+   "precip_in": 40.3,
+   "snow_in": 20,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 21",
+   "growing_days": 181,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Northern Indiana, IN",
+   "nws_cwa": "IWX",
+   "nwr": [
+    {
+     "call": "WXM98",
+     "freq": "162.450",
+     "same": "018103"
+    },
+    {
+     "call": "WXK74",
+     "freq": "162.475",
+     "same": "018103"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.4
+  },
+  "Monroe County": {
+   "fips": "18105",
+   "centroid": [
+    39.1607,
+    -86.5233
+   ],
+   "latitude": 39.2,
+   "bbox": [
+    -86.6857,
+    38.9907,
+    -86.3173,
+    39.3555
+   ],
+   "coastal": false,
+   "elevation_ft": 800,
+   "zone": "6b",
+   "jan_low_f": 21,
+   "jul_high_f": 85,
+   "record_low_f": -21,
+   "record_high_f": 110,
+   "precip_in": 49.4,
+   "snow_in": 18,
+   "last_frost": "Apr 15",
+   "first_frost": "Oct 26",
+   "growing_days": 192,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Indianapolis, IN",
+   "nws_cwa": "IND",
+   "nwr": [
+    {
+     "call": "WXM78",
+     "freq": "162.450",
+     "same": "018105"
+    },
+    {
+     "call": "WWG72",
+     "freq": "162.500",
+     "same": "018105"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.4
+  },
+  "Montgomery County": {
+   "fips": "18107",
+   "centroid": [
+    40.0403,
+    -86.8927
+   ],
+   "latitude": 40.0,
+   "bbox": [
+    -87.0922,
+    39.8649,
+    -86.695,
+    40.215
+   ],
+   "coastal": false,
+   "elevation_ft": 780,
+   "zone": "5b",
+   "jan_low_f": 17,
+   "jul_high_f": 83,
+   "record_low_f": -31,
+   "record_high_f": 102,
+   "precip_in": 44.2,
+   "snow_in": 22,
+   "last_frost": "Apr 27",
+   "first_frost": "Oct 12",
+   "growing_days": 167,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Indianapolis, IN",
+   "nws_cwa": "IND",
+   "nwr": [
+    {
+     "call": "WXK72",
+     "freq": "162.400",
+     "same": "018107"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.4
+  },
+  "Morgan County": {
+   "fips": "18109",
+   "centroid": [
+    39.4826,
+    -86.4475
+   ],
+   "latitude": 39.5,
+   "bbox": [
+    -86.6876,
+    39.3383,
+    -86.2498,
+    39.6336
+   ],
+   "coastal": false,
+   "elevation_ft": 680,
+   "zone": "6a",
+   "jan_low_f": 19,
+   "jul_high_f": 84,
+   "record_low_f": -35,
+   "record_high_f": 105,
+   "precip_in": 45.5,
+   "snow_in": 17,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 15",
+   "growing_days": 173,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Indianapolis, IN",
+   "nws_cwa": "IND",
+   "nwr": [
+    {
+     "call": "WXM78",
+     "freq": "162.450",
+     "same": "018109"
+    },
+    {
+     "call": "KEC74",
+     "freq": "162.550",
+     "same": "018109"
+    },
+    {
+     "call": "WXK72",
+     "freq": "162.400",
+     "same": "018109"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.4
+  },
+  "Newton County": {
+   "fips": "18111",
+   "centroid": [
+    40.9624,
+    -87.4022
+   ],
+   "latitude": 41.0,
+   "bbox": [
+    -87.5268,
+    40.7365,
+    -87.2665,
+    41.2187
+   ],
+   "coastal": false,
+   "elevation_ft": 690,
+   "zone": "5b",
+   "jan_low_f": 16,
+   "jul_high_f": 84,
+   "record_low_f": -27,
+   "record_high_f": 116,
+   "precip_in": 40.1,
+   "snow_in": 25,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 18",
+   "growing_days": 177,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Chicago, IL",
+   "nws_cwa": "LOT",
+   "nwr": [
+    {
+     "call": "KXI86",
+     "freq": "162.500",
+     "same": "018111"
+    },
+    {
+     "call": "WNG689",
+     "freq": "162.450",
+     "same": "018111"
+    },
+    {
+     "call": "KZZ58",
+     "freq": "162.525",
+     "same": "018111"
+    },
+    {
+     "call": "WXK74",
+     "freq": "162.475",
+     "same": "018111"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.4
+  },
+  "Noble County": {
+   "fips": "18113",
+   "centroid": [
+    41.4047,
+    -85.4173
+   ],
+   "latitude": 41.4,
+   "bbox": [
+    -85.6548,
+    41.2638,
+    -85.1921,
+    41.5268
+   ],
+   "coastal": false,
+   "elevation_ft": 960,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 83,
+   "record_low_f": -26,
+   "record_high_f": 102,
+   "precip_in": 39.8,
+   "snow_in": 47,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 24",
+   "growing_days": 182,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Northern Indiana, IN",
+   "nws_cwa": "IWX",
+   "nwr": [
+    {
+     "call": "KXI94",
+     "freq": "162.425",
+     "same": "018113"
+    },
+    {
+     "call": "WXJ58",
+     "freq": "162.550",
+     "same": "018113"
+    },
+    {
+     "call": "KZZ36",
+     "freq": "162.500",
+     "same": "018113"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.3
+  },
+  "Ohio County": {
+   "fips": "18115",
+   "centroid": [
+    38.9405,
+    -84.9643
+   ],
+   "latitude": 38.9,
+   "bbox": [
+    -85.1401,
+    38.9008,
+    -84.8301,
+    39.0311
+   ],
+   "coastal": false,
+   "elevation_ft": 750,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 85,
+   "record_low_f": -23,
+   "record_high_f": 104,
+   "precip_in": 47.7,
+   "snow_in": 16,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 21",
+   "growing_days": 179,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "KIH42",
+     "freq": "162.550",
+     "same": "018115"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.4
+  },
+  "Orange County": {
+   "fips": "18117",
+   "centroid": [
+    38.5474,
+    -86.4893
+   ],
+   "latitude": 38.5,
+   "bbox": [
+    -86.6831,
+    38.3941,
+    -86.3076,
+    38.6884
+   ],
+   "coastal": false,
+   "elevation_ft": 730,
+   "zone": "6b",
+   "jan_low_f": 21,
+   "jul_high_f": 87,
+   "record_low_f": -29,
+   "record_high_f": 111,
+   "precip_in": 49.5,
+   "snow_in": 13,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 18",
+   "growing_days": 178,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "WWG72",
+     "freq": "162.500",
+     "same": "018117"
+    },
+    {
+     "call": "KIH43",
+     "freq": "162.475",
+     "same": "018117"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.5
+  },
+  "Owen County": {
+   "fips": "18119",
+   "centroid": [
+    39.3173,
+    -86.8388
+   ],
+   "latitude": 39.3,
+   "bbox": [
+    -87.0548,
+    39.1657,
+    -86.6307,
+    39.4733
+   ],
+   "coastal": false,
+   "elevation_ft": 740,
+   "zone": "6a",
+   "jan_low_f": 20,
+   "jul_high_f": 85,
+   "record_low_f": -33,
+   "record_high_f": 107,
+   "precip_in": 49.7,
+   "snow_in": 16,
+   "last_frost": "Apr 20",
+   "first_frost": "Oct 20",
+   "growing_days": 180,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Indianapolis, IN",
+   "nws_cwa": "IND",
+   "nwr": [
+    {
+     "call": "WXM78",
+     "freq": "162.450",
+     "same": "018119"
+    },
+    {
+     "call": "WXK72",
+     "freq": "162.400",
+     "same": "018119"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.4
+  },
+  "Parke County": {
+   "fips": "18121",
+   "centroid": [
+    39.7743,
+    -87.197
+   ],
+   "latitude": 39.8,
+   "bbox": [
+    -87.4341,
+    39.6048,
+    -87.0095,
+    39.9534
+   ],
+   "coastal": false,
+   "elevation_ft": 680,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 86,
+   "record_low_f": -25,
+   "record_high_f": 109,
+   "precip_in": 47.4,
+   "snow_in": 13,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 12",
+   "growing_days": 164,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Indianapolis, IN",
+   "nws_cwa": "IND",
+   "nwr": [
+    {
+     "call": "KZZ27",
+     "freq": "162.425",
+     "same": "018121"
+    },
+    {
+     "call": "WXK72",
+     "freq": "162.400",
+     "same": "018121"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.5
+  },
+  "Perry County": {
+   "fips": "18123",
+   "centroid": [
+    38.0814,
+    -86.6265
+   ],
+   "latitude": 38.1,
+   "bbox": [
+    -86.8132,
+    37.8415,
+    -86.4301,
+    38.2662
+   ],
+   "coastal": false,
+   "elevation_ft": 570,
+   "zone": "6b",
+   "jan_low_f": 26,
+   "jul_high_f": 87,
+   "record_low_f": -26,
+   "record_high_f": 104,
+   "precip_in": 49.6,
+   "snow_in": 8,
+   "last_frost": "Apr 11",
+   "first_frost": "Oct 26",
+   "growing_days": 197,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIG76",
+     "freq": "162.550",
+     "same": "018123"
+    },
+    {
+     "call": "KZZ61",
+     "freq": "162.475",
+     "same": "018123"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.5
+  },
+  "Pike County": {
+   "fips": "18125",
+   "centroid": [
+    38.398,
+    -87.2325
+   ],
+   "latitude": 38.4,
+   "bbox": [
+    -87.4638,
+    38.231,
+    -87.0722,
+    38.5522
+   ],
+   "coastal": false,
+   "elevation_ft": 470,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 86,
+   "record_low_f": -11,
+   "record_high_f": 104,
+   "precip_in": 47.9,
+   "snow_in": 9,
+   "last_frost": "Apr 20",
+   "first_frost": "Oct 22",
+   "growing_days": 186,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "WWG83",
+     "freq": "162.425",
+     "same": "018125"
+    },
+    {
+     "call": "KIG76",
+     "freq": "162.550",
+     "same": "018125"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.6
+  },
+  "Porter County": {
+   "fips": "18127",
+   "centroid": [
+    41.5099,
+    -87.0713
+   ],
+   "latitude": 41.5,
+   "bbox": [
+    -87.2226,
+    41.2198,
+    -86.9294,
+    41.7102
+   ],
+   "coastal": false,
+   "elevation_ft": 830,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 83,
+   "record_low_f": -25,
+   "record_high_f": 105,
+   "precip_in": 40.3,
+   "snow_in": 40,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 25",
+   "growing_days": 185,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Chicago, IL",
+   "nws_cwa": "LOT",
+   "nwr": [
+    {
+     "call": "KWO39",
+     "freq": "162.550",
+     "same": "018127"
+    },
+    {
+     "call": "WNG689",
+     "freq": "162.450",
+     "same": "018127"
+    },
+    {
+     "call": "KJY62",
+     "freq": "162.500",
+     "same": "018127"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.2
+  },
+  "Posey County": {
+   "fips": "18129",
+   "centroid": [
+    38.0276,
+    -87.8687
+   ],
+   "latitude": 38.0,
+   "bbox": [
+    -88.0978,
+    37.7719,
+    -87.6882,
+    38.2303
+   ],
+   "coastal": false,
+   "elevation_ft": 380,
+   "zone": "7a",
+   "jan_low_f": 23,
+   "jul_high_f": 88,
+   "record_low_f": -21,
+   "record_high_f": 109,
+   "precip_in": 46.6,
+   "snow_in": 8,
+   "last_frost": "Apr 7",
+   "first_frost": "Oct 28",
+   "growing_days": 202,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "KIG76",
+     "freq": "162.550",
+     "same": "018129"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.6
+  },
+  "Pulaski County": {
+   "fips": "18131",
+   "centroid": [
+    41.0453,
+    -86.6925
+   ],
+   "latitude": 41.0,
+   "bbox": [
+    -86.9311,
+    40.9097,
+    -86.467,
+    41.1723
+   ],
+   "coastal": false,
+   "elevation_ft": 700,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 84,
+   "record_low_f": -29,
+   "record_high_f": 109,
+   "precip_in": 39.8,
+   "snow_in": 26,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 18",
+   "growing_days": 173,
+   "ecoregion": "Southern Michigan/Northern Indiana Drift Plains",
+   "ecoregion_code": "56",
+   "nws_office": "Northern Indiana, IN",
+   "nws_cwa": "IWX",
+   "nwr": [
+    {
+     "call": "WNG689",
+     "freq": "162.450",
+     "same": "018131"
+    },
+    {
+     "call": "KJY62",
+     "freq": "162.500",
+     "same": "018131"
+    },
+    {
+     "call": "WXK74",
+     "freq": "162.475",
+     "same": "018131"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.2
+  },
+  "Putnam County": {
+   "fips": "18133",
+   "centroid": [
+    39.6655,
+    -86.8534
+   ],
+   "latitude": 39.7,
+   "bbox": [
+    -87.0149,
+    39.4703,
+    -86.6424,
+    39.8667
+   ],
+   "coastal": false,
+   "elevation_ft": 680,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 83,
+   "record_low_f": -23,
+   "record_high_f": 108,
+   "precip_in": 46.1,
+   "snow_in": 22,
+   "last_frost": "Apr 27",
+   "first_frost": "Oct 15",
+   "growing_days": 169,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Indianapolis, IN",
+   "nws_cwa": "IND",
+   "nwr": [
+    {
+     "call": "WXK72",
+     "freq": "162.400",
+     "same": "018133"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.4
+  },
+  "Randolph County": {
+   "fips": "18135",
+   "centroid": [
+    40.1641,
+    -85.0058
+   ],
+   "latitude": 40.2,
+   "bbox": [
+    -85.2188,
+    40.0042,
+    -84.8039,
+    40.3101
+   ],
+   "coastal": false,
+   "elevation_ft": 1100,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 83,
+   "record_low_f": -26,
+   "record_high_f": 102,
+   "precip_in": 40.1,
+   "snow_in": 25,
+   "last_frost": "Apr 20",
+   "first_frost": "Oct 21",
+   "growing_days": 183,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Indianapolis, IN",
+   "nws_cwa": "IND",
+   "nwr": [
+    {
+     "call": "KJY93",
+     "freq": "162.425",
+     "same": "018135"
+    },
+    {
+     "call": "KHB52",
+     "freq": "162.500",
+     "same": "018135"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.4
+  },
+  "Ripley County": {
+   "fips": "18137",
+   "centroid": [
+    39.1002,
+    -85.2605
+   ],
+   "latitude": 39.1,
+   "bbox": [
+    -85.4449,
+    38.913,
+    -85.0654,
+    39.3103
+   ],
+   "coastal": false,
+   "elevation_ft": 970,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 83,
+   "record_low_f": -21,
+   "record_high_f": 101,
+   "precip_in": 48.2,
+   "snow_in": 16,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 16",
+   "growing_days": 168,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "KIH42",
+     "freq": "162.550",
+     "same": "018137"
+    },
+    {
+     "call": "WWG73",
+     "freq": "162.525",
+     "same": "018137"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.4
+  },
+  "Rush County": {
+   "fips": "18139",
+   "centroid": [
+    39.6224,
+    -85.4665
+   ],
+   "latitude": 39.6,
+   "bbox": [
+    -85.6335,
+    39.4523,
+    -85.2976,
+    39.7875
+   ],
+   "coastal": false,
+   "elevation_ft": 990,
+   "zone": "6a",
+   "jan_low_f": 19,
+   "jul_high_f": 83,
+   "record_low_f": -31,
+   "record_high_f": 108,
+   "precip_in": 45.6,
+   "snow_in": 16,
+   "last_frost": "Apr 19",
+   "first_frost": "Oct 23",
+   "growing_days": 185,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Indianapolis, IN",
+   "nws_cwa": "IND",
+   "nwr": [
+    {
+     "call": "KEC74",
+     "freq": "162.550",
+     "same": "018139"
+    },
+    {
+     "call": "KHB52",
+     "freq": "162.500",
+     "same": "018139"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.4
+  },
+  "St. Joseph County": {
+   "fips": "18141",
+   "centroid": [
+    41.6177,
+    -86.288
+   ],
+   "latitude": 41.6,
+   "bbox": [
+    -86.5267,
+    41.4328,
+    -86.0593,
+    41.7607
+   ],
+   "coastal": false,
+   "elevation_ft": 810,
+   "zone": "6a",
+   "jan_low_f": 15,
+   "jul_high_f": 82,
+   "record_low_f": -22,
+   "record_high_f": 100,
+   "precip_in": 41.9,
+   "snow_in": 37,
+   "last_frost": "May 1",
+   "first_frost": "Oct 13",
+   "growing_days": 163,
+   "ecoregion": "Southern Michigan/Northern Indiana Drift Plains",
+   "ecoregion_code": "56",
+   "nws_office": "Northern Indiana, IN",
+   "nws_cwa": "IWX",
+   "nwr": [
+    {
+     "call": "KJY62",
+     "freq": "162.500",
+     "same": "018141"
+    },
+    {
+     "call": "KZZ36",
+     "freq": "162.500",
+     "same": "018141"
+    },
+    {
+     "call": "WXJ57",
+     "freq": "162.400",
+     "same": "018141"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.2
+  },
+  "Scott County": {
+   "fips": "18143",
+   "centroid": [
+    38.6794,
+    -85.7519
+   ],
+   "latitude": 38.7,
+   "bbox": [
+    -85.8883,
+    38.5614,
+    -85.5697,
+    38.8317
+   ],
+   "coastal": false,
+   "elevation_ft": 580,
+   "zone": "6b",
+   "jan_low_f": 23,
+   "jul_high_f": 88,
+   "record_low_f": -32,
+   "record_high_f": 109,
+   "precip_in": 46.2,
+   "snow_in": 12,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 20",
+   "growing_days": 185,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH43",
+     "freq": "162.475",
+     "same": "018143"
+    },
+    {
+     "call": "WWG73",
+     "freq": "162.525",
+     "same": "018143"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.4
+  },
+  "Shelby County": {
+   "fips": "18145",
+   "centroid": [
+    39.5241,
+    -85.7922
+   ],
+   "latitude": 39.5,
+   "bbox": [
+    -85.9534,
+    39.3473,
+    -85.6294,
+    39.6991
+   ],
+   "coastal": false,
+   "elevation_ft": 750,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 85,
+   "record_low_f": -25,
+   "record_high_f": 108,
+   "precip_in": 44.0,
+   "snow_in": 15,
+   "last_frost": "Apr 17",
+   "first_frost": "Oct 22",
+   "growing_days": 187,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Indianapolis, IN",
+   "nws_cwa": "IND",
+   "nwr": [
+    {
+     "call": "KEC74",
+     "freq": "162.550",
+     "same": "018145"
+    },
+    {
+     "call": "WWG73",
+     "freq": "162.525",
+     "same": "018145"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.4
+  },
+  "Spencer County": {
+   "fips": "18147",
+   "centroid": [
+    38.0097,
+    -87.0104
+   ],
+   "latitude": 38.0,
+   "bbox": [
+    -87.2693,
+    37.7825,
+    -86.7658,
+    38.206
+   ],
+   "coastal": false,
+   "elevation_ft": 470,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 85,
+   "record_low_f": -17,
+   "record_high_f": 106,
+   "precip_in": 51.3,
+   "snow_in": 11,
+   "last_frost": "Apr 5",
+   "first_frost": "Nov 1",
+   "growing_days": 208,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "KIG76",
+     "freq": "162.550",
+     "same": "018147"
+    },
+    {
+     "call": "KZZ61",
+     "freq": "162.475",
+     "same": "018147"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.6
+  },
+  "Starke County": {
+   "fips": "18149",
+   "centroid": [
+    41.2845,
+    -86.6446
+   ],
+   "latitude": 41.3,
+   "bbox": [
+    -86.9303,
+    41.1713,
+    -86.4663,
+    41.433
+   ],
+   "coastal": false,
+   "elevation_ft": 710,
+   "zone": "5b",
+   "jan_low_f": 16,
+   "jul_high_f": 82,
+   "record_low_f": -25,
+   "record_high_f": 100,
+   "precip_in": 42.2,
+   "snow_in": 28,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 19",
+   "growing_days": 174,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Northern Indiana, IN",
+   "nws_cwa": "IWX",
+   "nwr": [
+    {
+     "call": "WNG689",
+     "freq": "162.450",
+     "same": "018149"
+    },
+    {
+     "call": "KJY62",
+     "freq": "162.500",
+     "same": "018149"
+    },
+    {
+     "call": "WXJ57",
+     "freq": "162.400",
+     "same": "018149"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.2
+  },
+  "Steuben County": {
+   "fips": "18151",
+   "centroid": [
+    41.6435,
+    -85.0024
+   ],
+   "latitude": 41.6,
+   "bbox": [
+    -85.1966,
+    41.5265,
+    -84.8047,
+    41.7603
+   ],
+   "coastal": false,
+   "elevation_ft": 1040,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 82,
+   "record_low_f": -27,
+   "record_high_f": 106,
+   "precip_in": 38.8,
+   "snow_in": 39,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 16",
+   "growing_days": 167,
+   "ecoregion": "Southern Michigan/Northern Indiana Drift Plains",
+   "ecoregion_code": "56",
+   "nws_office": "Northern Indiana, IN",
+   "nws_cwa": "IWX",
+   "nwr": [
+    {
+     "call": "KXI94",
+     "freq": "162.425",
+     "same": "018151"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.3
+  },
+  "Sullivan County": {
+   "fips": "18153",
+   "centroid": [
+    39.0892,
+    -87.4158
+   ],
+   "latitude": 39.1,
+   "bbox": [
+    -87.6586,
+    38.9015,
+    -87.2404,
+    39.26
+   ],
+   "coastal": false,
+   "elevation_ft": 490,
+   "zone": "6b",
+   "jan_low_f": 21,
+   "jul_high_f": 86,
+   "record_low_f": -33,
+   "record_high_f": 104,
+   "precip_in": 47.2,
+   "snow_in": 15,
+   "last_frost": "Apr 14",
+   "first_frost": "Oct 26",
+   "growing_days": 193,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Indianapolis, IN",
+   "nws_cwa": "IND",
+   "nwr": [
+    {
+     "call": "WWG83",
+     "freq": "162.425",
+     "same": "018153"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.5
+  },
+  "Switzerland County": {
+   "fips": "18155",
+   "centroid": [
+    38.8259,
+    -85.0297
+   ],
+   "latitude": 38.8,
+   "bbox": [
+    -85.2036,
+    38.6877,
+    -84.7847,
+    38.9296
+   ],
+   "coastal": false,
+   "elevation_ft": 840,
+   "zone": "6b",
+   "jan_low_f": 23,
+   "jul_high_f": 86,
+   "record_low_f": -23,
+   "record_high_f": 104,
+   "precip_in": 47.8,
+   "snow_in": 6,
+   "last_frost": "Apr 17",
+   "first_frost": "Oct 29",
+   "growing_days": 194,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "KIH42",
+     "freq": "162.550",
+     "same": "018155"
+    },
+    {
+     "call": "KZZ48",
+     "freq": "162.450",
+     "same": "018155"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.4
+  },
+  "Tippecanoe County": {
+   "fips": "18157",
+   "centroid": [
+    40.3891,
+    -86.8936
+   ],
+   "latitude": 40.4,
+   "bbox": [
+    -87.0953,
+    40.2144,
+    -86.6946,
+    40.5637
+   ],
+   "coastal": false,
+   "elevation_ft": 640,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 84,
+   "record_low_f": -23,
+   "record_high_f": 105,
+   "precip_in": 37.0,
+   "snow_in": 20,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 18",
+   "growing_days": 173,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Indianapolis, IN",
+   "nws_cwa": "IND",
+   "nwr": [
+    {
+     "call": "WXK74",
+     "freq": "162.475",
+     "same": "018157"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.4
+  },
+  "Tipton County": {
+   "fips": "18159",
+   "centroid": [
+    40.3102,
+    -86.0562
+   ],
+   "latitude": 40.3,
+   "bbox": [
+    -86.243,
+    40.2158,
+    -85.8604,
+    40.4068
+   ],
+   "coastal": false,
+   "elevation_ft": 870,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 85,
+   "record_low_f": -25,
+   "record_high_f": 103,
+   "precip_in": 42.4,
+   "snow_in": 34,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 17",
+   "growing_days": 174,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Indianapolis, IN",
+   "nws_cwa": "IND",
+   "nwr": [
+    {
+     "call": "KEC74",
+     "freq": "162.550",
+     "same": "018159"
+    },
+    {
+     "call": "WXM98",
+     "freq": "162.450",
+     "same": "018159"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.4
+  },
+  "Union County": {
+   "fips": "18161",
+   "centroid": [
+    39.6231,
+    -84.9251
+   ],
+   "latitude": 39.6,
+   "bbox": [
+    -85.0363,
+    39.522,
+    -84.8141,
+    39.7291
+   ],
+   "coastal": false,
+   "elevation_ft": 1000,
+   "zone": "6a",
+   "jan_low_f": 20,
+   "jul_high_f": 85,
+   "record_low_f": -27,
+   "record_high_f": 104,
+   "precip_in": 42.9,
+   "snow_in": 25,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 20",
+   "growing_days": 180,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "KIH42",
+     "freq": "162.550",
+     "same": "018161"
+    },
+    {
+     "call": "WXJ46",
+     "freq": "162.475",
+     "same": "018161"
+    },
+    {
+     "call": "KHB52",
+     "freq": "162.500",
+     "same": "018161"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Vanderburgh County": {
+   "fips": "18163",
+   "centroid": [
+    38.0201,
+    -87.5862
+   ],
+   "latitude": 38.0,
+   "bbox": [
+    -87.7002,
+    37.8258,
+    -87.4495,
+    38.1684
+   ],
+   "coastal": false,
+   "elevation_ft": 400,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 89,
+   "record_low_f": -23,
+   "record_high_f": 111,
+   "precip_in": 47.9,
+   "snow_in": 11,
+   "last_frost": "Apr 4",
+   "first_frost": "Oct 29",
+   "growing_days": 206,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "KIG76",
+     "freq": "162.550",
+     "same": "018163"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.6
+  },
+  "Vermillion County": {
+   "fips": "18165",
+   "centroid": [
+    39.854,
+    -87.4621
+   ],
+   "latitude": 39.9,
+   "bbox": [
+    -87.5333,
+    39.6073,
+    -87.3541,
+    40.1484
+   ],
+   "coastal": false,
+   "elevation_ft": 620,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 86,
+   "record_low_f": -25,
+   "record_high_f": 109,
+   "precip_in": 47.4,
+   "snow_in": 13,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 12",
+   "growing_days": 164,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Indianapolis, IN",
+   "nws_cwa": "IND",
+   "nwr": [
+    {
+     "call": "KZZ27",
+     "freq": "162.425",
+     "same": "018165"
+    },
+    {
+     "call": "WXK72",
+     "freq": "162.400",
+     "same": "018165"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.5
+  },
+  "Vigo County": {
+   "fips": "18167",
+   "centroid": [
+    39.4309,
+    -87.391
+   ],
+   "latitude": 39.4,
+   "bbox": [
+    -87.6209,
+    39.259,
+    -87.199,
+    39.6082
+   ],
+   "coastal": false,
+   "elevation_ft": 490,
+   "zone": "6a",
+   "jan_low_f": 19,
+   "jul_high_f": 90,
+   "record_low_f": -24,
+   "record_high_f": 109,
+   "precip_in": 44.7,
+   "snow_in": 15,
+   "last_frost": "Apr 15",
+   "first_frost": "Oct 19",
+   "growing_days": 187,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Indianapolis, IN",
+   "nws_cwa": "IND",
+   "nwr": [
+    {
+     "call": "KXI47",
+     "freq": "162.525",
+     "same": "018167"
+    },
+    {
+     "call": "WXK72",
+     "freq": "162.400",
+     "same": "018167"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.5
+  },
+  "Wabash County": {
+   "fips": "18169",
+   "centroid": [
+    40.8437,
+    -85.7952
+   ],
+   "latitude": 40.8,
+   "bbox": [
+    -85.9462,
+    40.6511,
+    -85.6386,
+    41.0472
+   ],
+   "coastal": false,
+   "elevation_ft": 800,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 85,
+   "record_low_f": -24,
+   "record_high_f": 109,
+   "precip_in": 40.3,
+   "snow_in": 20,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 21",
+   "growing_days": 181,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Northern Indiana, IN",
+   "nws_cwa": "IWX",
+   "nwr": [
+    {
+     "call": "WXJ58",
+     "freq": "162.550",
+     "same": "018169"
+    },
+    {
+     "call": "WXM98",
+     "freq": "162.450",
+     "same": "018169"
+    },
+    {
+     "call": "KZZ36",
+     "freq": "162.500",
+     "same": "018169"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.4
+  },
+  "Warren County": {
+   "fips": "18171",
+   "centroid": [
+    40.3525,
+    -87.3752
+   ],
+   "latitude": 40.4,
+   "bbox": [
+    -87.5314,
+    40.1268,
+    -87.0918,
+    40.4772
+   ],
+   "coastal": false,
+   "elevation_ft": 730,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 84,
+   "record_low_f": -25,
+   "record_high_f": 111,
+   "precip_in": 40.1,
+   "snow_in": 23,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 17",
+   "growing_days": 176,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Indianapolis, IN",
+   "nws_cwa": "IND",
+   "nwr": [
+    {
+     "call": "WXK74",
+     "freq": "162.475",
+     "same": "018171"
+    },
+    {
+     "call": "KZZ27",
+     "freq": "162.425",
+     "same": "018171"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.4
+  },
+  "Warrick County": {
+   "fips": "18173",
+   "centroid": [
+    38.0977,
+    -87.272
+   ],
+   "latitude": 38.1,
+   "bbox": [
+    -87.473,
+    37.8792,
+    -87.017,
+    38.2461
+   ],
+   "coastal": false,
+   "elevation_ft": 460,
+   "zone": "7a",
+   "jan_low_f": 25,
+   "jul_high_f": 89,
+   "record_low_f": -25,
+   "record_high_f": 107,
+   "precip_in": 51.2,
+   "snow_in": 11,
+   "last_frost": "Apr 12",
+   "first_frost": "Oct 25",
+   "growing_days": 196,
+   "ecoregion": "Interior River Valleys and Hills",
+   "ecoregion_code": "72",
+   "nws_office": "Paducah, KY",
+   "nws_cwa": "PAH",
+   "nwr": [
+    {
+     "call": "KIG76",
+     "freq": "162.550",
+     "same": "018173"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.6
+  },
+  "Washington County": {
+   "fips": "18175",
+   "centroid": [
+    38.6006,
+    -86.1048
+   ],
+   "latitude": 38.6,
+   "bbox": [
+    -86.3098,
+    38.4179,
+    -85.8476,
+    38.7833
+   ],
+   "coastal": false,
+   "elevation_ft": 730,
+   "zone": "6b",
+   "jan_low_f": 24,
+   "jul_high_f": 87,
+   "record_low_f": -32,
+   "record_high_f": 112,
+   "precip_in": 46.9,
+   "snow_in": 14,
+   "last_frost": "Apr 17",
+   "first_frost": "Oct 22",
+   "growing_days": 186,
+   "ecoregion": "Interior Plateau",
+   "ecoregion_code": "71",
+   "nws_office": "Louisville, KY",
+   "nws_cwa": "LMK",
+   "nwr": [
+    {
+     "call": "KIH43",
+     "freq": "162.475",
+     "same": "018175"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.5
+  },
+  "Wayne County": {
+   "fips": "18177",
+   "centroid": [
+    39.8631,
+    -85.0067
+   ],
+   "latitude": 39.9,
+   "bbox": [
+    -85.2211,
+    39.7146,
+    -84.8108,
+    40.0062
+   ],
+   "coastal": false,
+   "elevation_ft": 1030,
+   "zone": "6a",
+   "jan_low_f": 20,
+   "jul_high_f": 85,
+   "record_low_f": -27,
+   "record_high_f": 104,
+   "precip_in": 42.9,
+   "snow_in": 25,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 20",
+   "growing_days": 180,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Wilmington, OH",
+   "nws_cwa": "ILN",
+   "nwr": [
+    {
+     "call": "WXJ46",
+     "freq": "162.475",
+     "same": "018177"
+    },
+    {
+     "call": "KHB52",
+     "freq": "162.500",
+     "same": "018177"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.4
+  },
+  "Wells County": {
+   "fips": "18179",
+   "centroid": [
+    40.7355,
+    -85.2133
+   ],
+   "latitude": 40.7,
+   "bbox": [
+    -85.449,
+    40.5665,
+    -85.0685,
+    40.9178
+   ],
+   "coastal": false,
+   "elevation_ft": 830,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 83,
+   "record_low_f": -24,
+   "record_high_f": 104,
+   "precip_in": 40.0,
+   "snow_in": 23,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 20",
+   "growing_days": 179,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Northern Indiana, IN",
+   "nws_cwa": "IWX",
+   "nwr": [
+    {
+     "call": "WXJ58",
+     "freq": "162.550",
+     "same": "018179"
+    },
+    {
+     "call": "WXM98",
+     "freq": "162.450",
+     "same": "018179"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.4
+  },
+  "White County": {
+   "fips": "18181",
+   "centroid": [
+    40.751,
+    -86.8643
+   ],
+   "latitude": 40.8,
+   "bbox": [
+    -87.0998,
+    40.5615,
+    -86.5804,
+    40.9126
+   ],
+   "coastal": false,
+   "elevation_ft": 700,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 83,
+   "record_low_f": -25,
+   "record_high_f": 112,
+   "precip_in": 41.0,
+   "snow_in": 20,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 17",
+   "growing_days": 173,
+   "ecoregion": "Central Corn Belt Plains",
+   "ecoregion_code": "54",
+   "nws_office": "Northern Indiana, IN",
+   "nws_cwa": "IWX",
+   "nwr": [
+    {
+     "call": "WXK74",
+     "freq": "162.475",
+     "same": "018181"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.4
+  },
+  "Whitley County": {
+   "fips": "18183",
+   "centroid": [
+    41.1364,
+    -85.5019
+   ],
+   "latitude": 41.1,
+   "bbox": [
+    -85.6866,
+    41.0013,
+    -85.3078,
+    41.2957
+   ],
+   "coastal": false,
+   "elevation_ft": 830,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 82,
+   "record_low_f": -24,
+   "record_high_f": 103,
+   "precip_in": 39.1,
+   "snow_in": 21,
+   "last_frost": "Apr 27",
+   "first_frost": "Oct 17",
+   "growing_days": 171,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Northern Indiana, IN",
+   "nws_cwa": "IWX",
+   "nwr": [
+    {
+     "call": "WXJ58",
+     "freq": "162.550",
+     "same": "018183"
+    },
+    {
+     "call": "KZZ36",
+     "freq": "162.500",
+     "same": "018183"
+    }
+   ],
+   "state_em": "Indiana Department of Homeland Security",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.3
+  }
+ }
+}

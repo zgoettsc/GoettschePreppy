@@ -1,0 +1,6210 @@
+{
+ "state": "KS",
+ "state_name": "Kansas",
+ "state_fips": "20",
+ "state_em": "Kansas Division of Emergency Management",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "DDC": "NWS Dodge City, KS",
+  "EAX": "NWS Kansas City/Pleasant Hill, MO",
+  "GID": "NWS Hastings, NE",
+  "GLD": "NWS Goodland, KS",
+  "ICT": "NWS Wichita, KS",
+  "SGF": "NWS Springfield, MO",
+  "TOP": "NWS Topeka, KS"
+ },
+ "ecoregions": [
+  "High Plains",
+  "Southwestern Tablelands",
+  "Central Great Plains",
+  "Flint Hills",
+  "Cross Timbers",
+  "Ozark Highlands",
+  "Central Irregular Plains",
+  "Western Corn Belt Plains"
+ ],
+ "counties": {
+  "Allen County": {
+   "fips": "20001",
+   "centroid": [
+    37.8842,
+    -95.3009
+   ],
+   "latitude": 37.9,
+   "bbox": [
+    -95.526,
+    37.7324,
+    -95.0777,
+    38.0387
+   ],
+   "coastal": false,
+   "elevation_ft": 1000,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 88,
+   "record_low_f": -24,
+   "record_high_f": 109,
+   "precip_in": 42.0,
+   "snow_in": 7,
+   "last_frost": "Apr 8",
+   "first_frost": "Oct 26",
+   "growing_days": 200,
+   "ecoregion": "Central Irregular Plains",
+   "ecoregion_code": "40",
+   "nws_office": "Wichita, KS",
+   "nws_cwa": "ICT",
+   "nwr": [
+    {
+     "call": "WXK95",
+     "freq": "162.400",
+     "same": "020001"
+    },
+    {
+     "call": "KGG98",
+     "freq": "162.425",
+     "same": "020001"
+    },
+    {
+     "call": "WZ2512",
+     "freq": "162.525",
+     "same": "020001"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.8
+  },
+  "Anderson County": {
+   "fips": "20003",
+   "centroid": [
+    38.2151,
+    -95.292
+   ],
+   "latitude": 38.2,
+   "bbox": [
+    -95.5193,
+    38.0377,
+    -95.0649,
+    38.3906
+   ],
+   "coastal": false,
+   "elevation_ft": 1070,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 89,
+   "record_low_f": -23,
+   "record_high_f": 116,
+   "precip_in": 40.6,
+   "snow_in": 13,
+   "last_frost": "Apr 17",
+   "first_frost": "Oct 22",
+   "growing_days": 189,
+   "ecoregion": "Central Irregular Plains",
+   "ecoregion_code": "40",
+   "nws_office": "Topeka, KS",
+   "nws_cwa": "TOP",
+   "nwr": [
+    {
+     "call": "KGG98",
+     "freq": "162.425",
+     "same": "020003"
+    },
+    {
+     "call": "WZ2512",
+     "freq": "162.525",
+     "same": "020003"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.8
+  },
+  "Atchison County": {
+   "fips": "20005",
+   "centroid": [
+    39.5325,
+    -95.3134
+   ],
+   "latitude": 39.5,
+   "bbox": [
+    -95.5705,
+    39.4187,
+    -94.9713,
+    39.653
+   ],
+   "coastal": false,
+   "elevation_ft": 1060,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 88,
+   "record_low_f": -28,
+   "record_high_f": 111,
+   "precip_in": 36.4,
+   "snow_in": 17,
+   "last_frost": "Apr 11",
+   "first_frost": "Oct 29",
+   "growing_days": 199,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Kansas City/Pleasant Hill, MO",
+   "nws_cwa": "EAX",
+   "nwr": [
+    {
+     "call": "KEC77",
+     "freq": "162.400",
+     "same": "020005"
+    },
+    {
+     "call": "WXK91",
+     "freq": "162.475",
+     "same": "020005"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.8
+  },
+  "Barber County": {
+   "fips": "20007",
+   "centroid": [
+    37.2229,
+    -98.6851
+   ],
+   "latitude": 37.2,
+   "bbox": [
+    -99.0125,
+    36.9979,
+    -98.3472,
+    37.4711
+   ],
+   "coastal": false,
+   "elevation_ft": 1660,
+   "zone": "7a",
+   "jan_low_f": 22,
+   "jul_high_f": 94,
+   "record_low_f": -23,
+   "record_high_f": 113,
+   "precip_in": 27.8,
+   "snow_in": 9,
+   "last_frost": "Apr 13",
+   "first_frost": "Oct 23",
+   "growing_days": 191,
+   "ecoregion": "Southwestern Tablelands",
+   "ecoregion_code": "26",
+   "nws_office": "Dodge City, KS",
+   "nws_cwa": "DDC",
+   "nwr": [
+    {
+     "call": "WNG534",
+     "freq": "162.525",
+     "same": "020007"
+    },
+    {
+     "call": "WZ2511",
+     "freq": "162.400",
+     "same": "020007"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 6.2
+  },
+  "Barton County": {
+   "fips": "20009",
+   "centroid": [
+    38.4812,
+    -98.7678
+   ],
+   "latitude": 38.5,
+   "bbox": [
+    -99.0334,
+    38.2608,
+    -98.4798,
+    38.6971
+   ],
+   "coastal": false,
+   "elevation_ft": 1810,
+   "zone": "6b",
+   "jan_low_f": 18,
+   "jul_high_f": 91,
+   "record_low_f": -21,
+   "record_high_f": 111,
+   "precip_in": 27.3,
+   "snow_in": 12,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 15",
+   "growing_days": 172,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Wichita, KS",
+   "nws_cwa": "ICT",
+   "nwr": [
+    {
+     "call": "WXK92",
+     "freq": "162.400",
+     "same": "020009"
+    },
+    {
+     "call": "KPS511",
+     "freq": "162.500",
+     "same": "020009"
+    },
+    {
+     "call": "WXM35",
+     "freq": "162.450",
+     "same": "020009"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 6.2
+  },
+  "Bourbon County": {
+   "fips": "20011",
+   "centroid": [
+    37.8561,
+    -94.8509
+   ],
+   "latitude": 37.9,
+   "bbox": [
+    -95.0881,
+    37.6731,
+    -94.614,
+    38.0377
+   ],
+   "coastal": false,
+   "elevation_ft": 900,
+   "zone": "7a",
+   "jan_low_f": 22,
+   "jul_high_f": 91,
+   "record_low_f": -24,
+   "record_high_f": 120,
+   "precip_in": 44.5,
+   "snow_in": 8,
+   "last_frost": "Apr 5",
+   "first_frost": "Oct 28",
+   "growing_days": 204,
+   "ecoregion": "Central Irregular Plains",
+   "ecoregion_code": "40",
+   "nws_office": "Springfield, MO",
+   "nws_cwa": "SGF",
+   "nwr": [
+    {
+     "call": "WXK95",
+     "freq": "162.400",
+     "same": "020011"
+    },
+    {
+     "call": "KZZ30",
+     "freq": "162.475",
+     "same": "020011"
+    },
+    {
+     "call": "WZ2512",
+     "freq": "162.525",
+     "same": "020011"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.8
+  },
+  "Brown County": {
+   "fips": "20013",
+   "centroid": [
+    39.8259,
+    -95.5699
+   ],
+   "latitude": 39.8,
+   "bbox": [
+    -95.789,
+    39.6527,
+    -95.3395,
+    40.0006
+   ],
+   "coastal": false,
+   "elevation_ft": 1060,
+   "zone": "6a",
+   "jan_low_f": 15,
+   "jul_high_f": 87,
+   "record_low_f": -21,
+   "record_high_f": 104,
+   "precip_in": 34.7,
+   "snow_in": 17,
+   "last_frost": "Apr 14",
+   "first_frost": "Oct 22",
+   "growing_days": 188,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Topeka, KS",
+   "nws_cwa": "TOP",
+   "nwr": [
+    {
+     "call": "KWN41",
+     "freq": "162.500",
+     "same": "020013"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.8
+  },
+  "Butler County": {
+   "fips": "20015",
+   "centroid": [
+    37.7736,
+    -96.8388
+   ],
+   "latitude": 37.8,
+   "bbox": [
+    -97.1535,
+    37.4754,
+    -96.5228,
+    38.0876
+   ],
+   "coastal": false,
+   "elevation_ft": 1340,
+   "zone": "7a",
+   "jan_low_f": 20,
+   "jul_high_f": 91,
+   "record_low_f": -28,
+   "record_high_f": 117,
+   "precip_in": 38.7,
+   "snow_in": 4,
+   "last_frost": "Apr 13",
+   "first_frost": "Oct 25",
+   "growing_days": 193,
+   "ecoregion": "Flint Hills",
+   "ecoregion_code": "28",
+   "nws_office": "Wichita, KS",
+   "nws_cwa": "ICT",
+   "nwr": [
+    {
+     "call": "WWH22",
+     "freq": "162.500",
+     "same": "020015"
+    },
+    {
+     "call": "KEC59",
+     "freq": "162.550",
+     "same": "020015"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.9
+  },
+  "Chase County": {
+   "fips": "20017",
+   "centroid": [
+    38.2995,
+    -96.594
+   ],
+   "latitude": 38.3,
+   "bbox": [
+    -96.8412,
+    38.0854,
+    -96.3536,
+    38.5223
+   ],
+   "coastal": false,
+   "elevation_ft": 1440,
+   "zone": "6b",
+   "jan_low_f": 18,
+   "jul_high_f": 90,
+   "record_low_f": -30,
+   "record_high_f": 118,
+   "precip_in": 38.0,
+   "snow_in": 11,
+   "last_frost": "Apr 19",
+   "first_frost": "Oct 18",
+   "growing_days": 180,
+   "ecoregion": "Flint Hills",
+   "ecoregion_code": "28",
+   "nws_office": "Wichita, KS",
+   "nws_cwa": "ICT",
+   "nwr": [
+    {
+     "call": "WWH22",
+     "freq": "162.500",
+     "same": "020017"
+    },
+    {
+     "call": "KGG98",
+     "freq": "162.425",
+     "same": "020017"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.9
+  },
+  "Chautauqua County": {
+   "fips": "20019",
+   "centroid": [
+    37.1543,
+    -96.2454
+   ],
+   "latitude": 37.2,
+   "bbox": [
+    -96.5258,
+    36.9986,
+    -95.9641,
+    37.3027
+   ],
+   "coastal": false,
+   "elevation_ft": 950,
+   "zone": "7a",
+   "jan_low_f": 22,
+   "jul_high_f": 92,
+   "record_low_f": -27,
+   "record_high_f": 118,
+   "precip_in": 40.5,
+   "snow_in": 9,
+   "last_frost": "Apr 9",
+   "first_frost": "Oct 27",
+   "growing_days": 199,
+   "ecoregion": "Cross Timbers",
+   "ecoregion_code": "29",
+   "nws_office": "Wichita, KS",
+   "nws_cwa": "ICT",
+   "nwr": [
+    {
+     "call": "WNG644",
+     "freq": "162.425",
+     "same": "020019"
+    },
+    {
+     "call": "WWH22",
+     "freq": "162.500",
+     "same": "020019"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.9
+  },
+  "Cherokee County": {
+   "fips": "20021",
+   "centroid": [
+    37.1694,
+    -94.8457
+   ],
+   "latitude": 37.2,
+   "bbox": [
+    -95.0753,
+    36.9967,
+    -94.6176,
+    37.34
+   ],
+   "coastal": false,
+   "elevation_ft": 910,
+   "zone": "7a",
+   "jan_low_f": 23,
+   "jul_high_f": 90,
+   "record_low_f": -28,
+   "record_high_f": 117,
+   "precip_in": 46.0,
+   "snow_in": 7,
+   "last_frost": "Apr 5",
+   "first_frost": "Oct 31",
+   "growing_days": 208,
+   "ecoregion": "Central Irregular Plains",
+   "ecoregion_code": "40",
+   "nws_office": "Springfield, MO",
+   "nws_cwa": "SGF",
+   "nwr": [
+    {
+     "call": "WXJ61",
+     "freq": "162.425",
+     "same": "020021"
+    },
+    {
+     "call": "WXK95",
+     "freq": "162.400",
+     "same": "020021"
+    },
+    {
+     "call": "KJY82",
+     "freq": "162.450",
+     "same": "020021"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.8
+  },
+  "Cheyenne County": {
+   "fips": "20023",
+   "centroid": [
+    39.7899,
+    -101.7273
+   ],
+   "latitude": 39.8,
+   "bbox": [
+    -102.0517,
+    39.5681,
+    -101.4101,
+    40.0032
+   ],
+   "coastal": false,
+   "elevation_ft": 3460,
+   "zone": "6a",
+   "jan_low_f": 15,
+   "jul_high_f": 92,
+   "record_low_f": -31,
+   "record_high_f": 111,
+   "precip_in": 17.6,
+   "snow_in": 20,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 10",
+   "growing_days": 160,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Goodland, KS",
+   "nws_cwa": "GLD",
+   "nwr": [
+    {
+     "call": "WXK96",
+     "freq": "162.400",
+     "same": "020023"
+    },
+    {
+     "call": "WXM87",
+     "freq": "162.475",
+     "same": "020023"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 6.4
+  },
+  "Clark County": {
+   "fips": "20025",
+   "centroid": [
+    37.2338,
+    -99.8139
+   ],
+   "latitude": 37.2,
+   "bbox": [
+    -100.1073,
+    36.9995,
+    -99.5404,
+    37.4748
+   ],
+   "coastal": false,
+   "elevation_ft": 2060,
+   "zone": "6b",
+   "jan_low_f": 18,
+   "jul_high_f": 95,
+   "record_low_f": -20,
+   "record_high_f": 114,
+   "precip_in": 23.0,
+   "snow_in": 12,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 17",
+   "growing_days": 178,
+   "ecoregion": "Southwestern Tablelands",
+   "ecoregion_code": "26",
+   "nws_office": "Dodge City, KS",
+   "nws_cwa": "DDC",
+   "nwr": [
+    {
+     "call": "WXK93",
+     "freq": "162.475",
+     "same": "020025"
+    },
+    {
+     "call": "WNG555",
+     "freq": "162.425",
+     "same": "020025"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.1,
+   "sun_hours_jun": 6.4
+  },
+  "Clay County": {
+   "fips": "20027",
+   "centroid": [
+    39.345,
+    -97.1689
+   ],
+   "latitude": 39.3,
+   "bbox": [
+    -97.3712,
+    39.1319,
+    -96.9586,
+    39.5669
+   ],
+   "coastal": false,
+   "elevation_ft": 1230,
+   "zone": "6b",
+   "jan_low_f": 18,
+   "jul_high_f": 91,
+   "record_low_f": -35,
+   "record_high_f": 117,
+   "precip_in": 31.9,
+   "snow_in": 11,
+   "last_frost": "Apr 19",
+   "first_frost": "Oct 19",
+   "growing_days": 181,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Topeka, KS",
+   "nws_cwa": "TOP",
+   "nwr": [
+    {
+     "call": "WXL71",
+     "freq": "162.525",
+     "same": "020027"
+    },
+    {
+     "call": "WXK94",
+     "freq": "162.550",
+     "same": "020027"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 6.0
+  },
+  "Cloud County": {
+   "fips": "20029",
+   "centroid": [
+    39.4873,
+    -97.6414
+   ],
+   "latitude": 39.5,
+   "bbox": [
+    -97.932,
+    39.3062,
+    -97.3685,
+    39.654
+   ],
+   "coastal": false,
+   "elevation_ft": 1600,
+   "zone": "6a",
+   "jan_low_f": 19,
+   "jul_high_f": 90,
+   "record_low_f": -33,
+   "record_high_f": 116,
+   "precip_in": 28.4,
+   "snow_in": 19,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 19",
+   "growing_days": 183,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Topeka, KS",
+   "nws_cwa": "TOP",
+   "nwr": [
+    {
+     "call": "WXK94",
+     "freq": "162.550",
+     "same": "020029"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 6.0
+  },
+  "Coffey County": {
+   "fips": "20031",
+   "centroid": [
+    38.2364,
+    -95.7291
+   ],
+   "latitude": 38.2,
+   "bbox": [
+    -95.9595,
+    38.0382,
+    -95.5076,
+    38.4345
+   ],
+   "coastal": false,
+   "elevation_ft": 1070,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 90,
+   "record_low_f": -22,
+   "record_high_f": 110,
+   "precip_in": 37.2,
+   "snow_in": 8,
+   "last_frost": "Apr 11",
+   "first_frost": "Oct 26",
+   "growing_days": 199,
+   "ecoregion": "Central Irregular Plains",
+   "ecoregion_code": "40",
+   "nws_office": "Topeka, KS",
+   "nws_cwa": "TOP",
+   "nwr": [
+    {
+     "call": "KGG98",
+     "freq": "162.425",
+     "same": "020031"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.8
+  },
+  "Comanche County": {
+   "fips": "20033",
+   "centroid": [
+    37.1814,
+    -99.2513
+   ],
+   "latitude": 37.2,
+   "bbox": [
+    -99.5448,
+    36.9992,
+    -99.0007,
+    37.3844
+   ],
+   "coastal": false,
+   "elevation_ft": 1980,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 95,
+   "record_low_f": -18,
+   "record_high_f": 115,
+   "precip_in": 25.3,
+   "snow_in": 17,
+   "last_frost": "Apr 13",
+   "first_frost": "Oct 27",
+   "growing_days": 197,
+   "ecoregion": "Southwestern Tablelands",
+   "ecoregion_code": "26",
+   "nws_office": "Dodge City, KS",
+   "nws_cwa": "DDC",
+   "nwr": [
+    {
+     "call": "WNG534",
+     "freq": "162.525",
+     "same": "020033"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.1,
+   "sun_hours_jun": 6.4
+  },
+  "Cowley County": {
+   "fips": "20035",
+   "centroid": [
+    37.2345,
+    -96.8372
+   ],
+   "latitude": 37.2,
+   "bbox": [
+    -97.1533,
+    36.9987,
+    -96.5246,
+    37.4767
+   ],
+   "coastal": false,
+   "elevation_ft": 1290,
+   "zone": "7a",
+   "jan_low_f": 20,
+   "jul_high_f": 91,
+   "record_low_f": -27,
+   "record_high_f": 118,
+   "precip_in": 40.7,
+   "snow_in": 9,
+   "last_frost": "Apr 16",
+   "first_frost": "Oct 22",
+   "growing_days": 189,
+   "ecoregion": "Flint Hills",
+   "ecoregion_code": "28",
+   "nws_office": "Wichita, KS",
+   "nws_cwa": "ICT",
+   "nwr": [
+    {
+     "call": "WWH22",
+     "freq": "162.500",
+     "same": "020035"
+    },
+    {
+     "call": "WWF42",
+     "freq": "162.450",
+     "same": "020035"
+    },
+    {
+     "call": "KEC59",
+     "freq": "162.550",
+     "same": "020035"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.9
+  },
+  "Crawford County": {
+   "fips": "20037",
+   "centroid": [
+    37.5058,
+    -94.8539
+   ],
+   "latitude": 37.5,
+   "bbox": [
+    -95.0885,
+    37.3376,
+    -94.6167,
+    37.675
+   ],
+   "coastal": false,
+   "elevation_ft": 970,
+   "zone": "7a",
+   "jan_low_f": 22,
+   "jul_high_f": 90,
+   "record_low_f": -18,
+   "record_high_f": 110,
+   "precip_in": 45.6,
+   "snow_in": 6,
+   "last_frost": "Apr 4",
+   "first_frost": "Nov 1",
+   "growing_days": 209,
+   "ecoregion": "Central Irregular Plains",
+   "ecoregion_code": "40",
+   "nws_office": "Springfield, MO",
+   "nws_cwa": "SGF",
+   "nwr": [
+    {
+     "call": "WXJ61",
+     "freq": "162.425",
+     "same": "020037"
+    },
+    {
+     "call": "WXK95",
+     "freq": "162.400",
+     "same": "020037"
+    },
+    {
+     "call": "KZZ30",
+     "freq": "162.475",
+     "same": "020037"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.8
+  },
+  "Decatur County": {
+   "fips": "20039",
+   "centroid": [
+    39.7835,
+    -100.4597
+   ],
+   "latitude": 39.8,
+   "bbox": [
+    -100.7411,
+    39.5669,
+    -100.178,
+    40.0023
+   ],
+   "coastal": false,
+   "elevation_ft": 2670,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 91,
+   "record_low_f": -32,
+   "record_high_f": 114,
+   "precip_in": 21.8,
+   "snow_in": 25,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 11",
+   "growing_days": 163,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Goodland, KS",
+   "nws_cwa": "GLD",
+   "nwr": [
+    {
+     "call": "KEC39",
+     "freq": "162.525",
+     "same": "020039"
+    },
+    {
+     "call": "WXK96",
+     "freq": "162.400",
+     "same": "020039"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 6.4
+  },
+  "Dickinson County": {
+   "fips": "20041",
+   "centroid": [
+    38.8677,
+    -97.1579
+   ],
+   "latitude": 38.9,
+   "bbox": [
+    -97.3812,
+    38.6088,
+    -96.8902,
+    39.1334
+   ],
+   "coastal": false,
+   "elevation_ft": 1220,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 94,
+   "record_low_f": -29,
+   "record_high_f": 113,
+   "precip_in": 34.3,
+   "snow_in": 12,
+   "last_frost": "Apr 14",
+   "first_frost": "Oct 23",
+   "growing_days": 190,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Topeka, KS",
+   "nws_cwa": "TOP",
+   "nwr": [
+    {
+     "call": "WXL71",
+     "freq": "162.525",
+     "same": "020041"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 6.0
+  },
+  "Doniphan County": {
+   "fips": "20043",
+   "centroid": [
+    39.7885,
+    -95.1472
+   ],
+   "latitude": 39.8,
+   "bbox": [
+    -95.3402,
+    39.6235,
+    -94.8594,
+    40.0
+   ],
+   "coastal": false,
+   "elevation_ft": 1090,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 87,
+   "record_low_f": -23,
+   "record_high_f": 106,
+   "precip_in": 36.8,
+   "snow_in": 21,
+   "last_frost": "Apr 19",
+   "first_frost": "Oct 19",
+   "growing_days": 182,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Kansas City/Pleasant Hill, MO",
+   "nws_cwa": "EAX",
+   "nwr": [
+    {
+     "call": "KEC77",
+     "freq": "162.400",
+     "same": "020043"
+    },
+    {
+     "call": "KWN41",
+     "freq": "162.500",
+     "same": "020043"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.8
+  },
+  "Douglas County": {
+   "fips": "20045",
+   "centroid": [
+    38.8964,
+    -95.2909
+   ],
+   "latitude": 38.9,
+   "bbox": [
+    -95.501,
+    38.7383,
+    -95.0559,
+    39.0698
+   ],
+   "coastal": false,
+   "elevation_ft": 1030,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 89,
+   "record_low_f": -25,
+   "record_high_f": 114,
+   "precip_in": 39.4,
+   "snow_in": 10,
+   "last_frost": "Apr 12",
+   "first_frost": "Oct 28",
+   "growing_days": 199,
+   "ecoregion": "Central Irregular Plains",
+   "ecoregion_code": "40",
+   "nws_office": "Topeka, KS",
+   "nws_cwa": "TOP",
+   "nwr": [
+    {
+     "call": "KGG98",
+     "freq": "162.425",
+     "same": "020045"
+    },
+    {
+     "call": "KID77",
+     "freq": "162.550",
+     "same": "020045"
+    },
+    {
+     "call": "WXK91",
+     "freq": "162.475",
+     "same": "020045"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.8
+  },
+  "Edwards County": {
+   "fips": "20047",
+   "centroid": [
+    37.8836,
+    -99.3047
+   ],
+   "latitude": 37.9,
+   "bbox": [
+    -99.5702,
+    37.7328,
+    -99.0133,
+    38.0881
+   ],
+   "coastal": false,
+   "elevation_ft": 2180,
+   "zone": "6b",
+   "jan_low_f": 18,
+   "jul_high_f": 93,
+   "record_low_f": -19,
+   "record_high_f": 111,
+   "precip_in": 26.8,
+   "snow_in": 15,
+   "last_frost": "Apr 20",
+   "first_frost": "Oct 20",
+   "growing_days": 180,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Dodge City, KS",
+   "nws_cwa": "DDC",
+   "nwr": [
+    {
+     "call": "WNG534",
+     "freq": "162.525",
+     "same": "020047"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.1,
+   "sun_hours_jun": 6.4
+  },
+  "Elk County": {
+   "fips": "20049",
+   "centroid": [
+    37.456,
+    -96.2446
+   ],
+   "latitude": 37.5,
+   "bbox": [
+    -96.5263,
+    37.2992,
+    -95.961,
+    37.6072
+   ],
+   "coastal": false,
+   "elevation_ft": 1000,
+   "zone": "7a",
+   "jan_low_f": 20,
+   "jul_high_f": 90,
+   "record_low_f": -18,
+   "record_high_f": 115,
+   "precip_in": 38.6,
+   "snow_in": 6,
+   "last_frost": "Apr 17",
+   "first_frost": "Oct 22",
+   "growing_days": 186,
+   "ecoregion": "Flint Hills",
+   "ecoregion_code": "28",
+   "nws_office": "Wichita, KS",
+   "nws_cwa": "ICT",
+   "nwr": [
+    {
+     "call": "WWH22",
+     "freq": "162.500",
+     "same": "020049"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.9
+  },
+  "Ellis County": {
+   "fips": "20051",
+   "centroid": [
+    38.9146,
+    -99.3173
+   ],
+   "latitude": 38.9,
+   "bbox": [
+    -99.5985,
+    38.6965,
+    -99.0368,
+    39.1333
+   ],
+   "coastal": false,
+   "elevation_ft": 2140,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 93,
+   "record_low_f": -19,
+   "record_high_f": 113,
+   "precip_in": 24.8,
+   "snow_in": 13,
+   "last_frost": "Apr 19",
+   "first_frost": "Oct 22",
+   "growing_days": 184,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Dodge City, KS",
+   "nws_cwa": "DDC",
+   "nwr": [
+    {
+     "call": "WXM35",
+     "freq": "162.450",
+     "same": "020051"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 6.3
+  },
+  "Ellsworth County": {
+   "fips": "20053",
+   "centroid": [
+    38.7008,
+    -98.2054
+   ],
+   "latitude": 38.7,
+   "bbox": [
+    -98.4863,
+    38.5209,
+    -97.9243,
+    38.8715
+   ],
+   "coastal": false,
+   "elevation_ft": 1590,
+   "zone": "6b",
+   "jan_low_f": 18,
+   "jul_high_f": 93,
+   "record_low_f": -30,
+   "record_high_f": 117,
+   "precip_in": 30.8,
+   "snow_in": 16,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 16",
+   "growing_days": 175,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Wichita, KS",
+   "nws_cwa": "ICT",
+   "nwr": [
+    {
+     "call": "WXK92",
+     "freq": "162.400",
+     "same": "020053"
+    },
+    {
+     "call": "KPS511",
+     "freq": "162.500",
+     "same": "020053"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 6.2
+  },
+  "Finney County": {
+   "fips": "20055",
+   "centroid": [
+    38.0498,
+    -100.74
+   ],
+   "latitude": 38.0,
+   "bbox": [
+    -101.1039,
+    37.7363,
+    -100.2254,
+    38.2653
+   ],
+   "coastal": false,
+   "elevation_ft": 2890,
+   "zone": "6b",
+   "jan_low_f": 17,
+   "jul_high_f": 93,
+   "record_low_f": -22,
+   "record_high_f": 112,
+   "precip_in": 19.6,
+   "snow_in": 16,
+   "last_frost": "Apr 28",
+   "first_frost": "Oct 17",
+   "growing_days": 171,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Dodge City, KS",
+   "nws_cwa": "DDC",
+   "nwr": [
+    {
+     "call": "WNG535",
+     "freq": "162.525",
+     "same": "020055"
+    },
+    {
+     "call": "WXK93",
+     "freq": "162.475",
+     "same": "020055"
+    },
+    {
+     "call": "WXN81",
+     "freq": "162.450",
+     "same": "020055"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.1,
+   "sun_hours_jun": 6.4
+  },
+  "Ford County": {
+   "fips": "20057",
+   "centroid": [
+    37.6885,
+    -99.8847
+   ],
+   "latitude": 37.7,
+   "bbox": [
+    -100.2275,
+    37.467,
+    -99.5561,
+    37.914
+   ],
+   "coastal": false,
+   "elevation_ft": 2440,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 94,
+   "record_low_f": -21,
+   "record_high_f": 111,
+   "precip_in": 22.0,
+   "snow_in": 19,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 20",
+   "growing_days": 179,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Dodge City, KS",
+   "nws_cwa": "DDC",
+   "nwr": [
+    {
+     "call": "WXK93",
+     "freq": "162.475",
+     "same": "020057"
+    },
+    {
+     "call": "WNG555",
+     "freq": "162.425",
+     "same": "020057"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.1,
+   "sun_hours_jun": 6.4
+  },
+  "Franklin County": {
+   "fips": "20059",
+   "centroid": [
+    38.558,
+    -95.279
+   ],
+   "latitude": 38.6,
+   "bbox": [
+    -95.509,
+    38.3892,
+    -95.0563,
+    38.7388
+   ],
+   "coastal": false,
+   "elevation_ft": 950,
+   "zone": "6b",
+   "jan_low_f": 18,
+   "jul_high_f": 89,
+   "record_low_f": -28,
+   "record_high_f": 118,
+   "precip_in": 39.9,
+   "snow_in": 9,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 20",
+   "growing_days": 183,
+   "ecoregion": "Central Irregular Plains",
+   "ecoregion_code": "40",
+   "nws_office": "Topeka, KS",
+   "nws_cwa": "TOP",
+   "nwr": [
+    {
+     "call": "KGG98",
+     "freq": "162.425",
+     "same": "020059"
+    },
+    {
+     "call": "WZ2512",
+     "freq": "162.525",
+     "same": "020059"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.8
+  },
+  "Geary County": {
+   "fips": "20061",
+   "centroid": [
+    39.0021,
+    -96.7681
+   ],
+   "latitude": 39.0,
+   "bbox": [
+    -96.9637,
+    38.8699,
+    -96.5008,
+    39.2203
+   ],
+   "coastal": false,
+   "elevation_ft": 1280,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 89,
+   "record_low_f": -21,
+   "record_high_f": 112,
+   "precip_in": 32.9,
+   "snow_in": 7,
+   "last_frost": "Apr 12",
+   "first_frost": "Oct 26",
+   "growing_days": 193,
+   "ecoregion": "Flint Hills",
+   "ecoregion_code": "28",
+   "nws_office": "Topeka, KS",
+   "nws_cwa": "TOP",
+   "nwr": [
+    {
+     "call": "WXL71",
+     "freq": "162.525",
+     "same": "020061"
+    },
+    {
+     "call": "WXK91",
+     "freq": "162.475",
+     "same": "020061"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.8
+  },
+  "Gove County": {
+   "fips": "20063",
+   "centroid": [
+    38.9172,
+    -100.4874
+   ],
+   "latitude": 38.9,
+   "bbox": [
+    -100.8188,
+    38.6973,
+    -100.148,
+    39.1332
+   ],
+   "coastal": false,
+   "elevation_ft": 2750,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 90,
+   "record_low_f": -25,
+   "record_high_f": 113,
+   "precip_in": 23.5,
+   "snow_in": 20,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 18",
+   "growing_days": 176,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Goodland, KS",
+   "nws_cwa": "GLD",
+   "nwr": [
+    {
+     "call": "WNG535",
+     "freq": "162.525",
+     "same": "020063"
+    },
+    {
+     "call": "WXK96",
+     "freq": "162.400",
+     "same": "020063"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.1,
+   "sun_hours_jun": 6.4
+  },
+  "Graham County": {
+   "fips": "20065",
+   "centroid": [
+    39.355,
+    -99.8799
+   ],
+   "latitude": 39.4,
+   "bbox": [
+    -100.1644,
+    39.1316,
+    -99.6019,
+    39.5674
+   ],
+   "coastal": false,
+   "elevation_ft": 2160,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 91,
+   "record_low_f": -26,
+   "record_high_f": 114,
+   "precip_in": 24.2,
+   "snow_in": 17,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 13",
+   "growing_days": 166,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Goodland, KS",
+   "nws_cwa": "GLD",
+   "nwr": [
+    {
+     "call": "WXM35",
+     "freq": "162.450",
+     "same": "020065"
+    },
+    {
+     "call": "WWF87",
+     "freq": "162.425",
+     "same": "020065"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 6.2
+  },
+  "Grant County": {
+   "fips": "20067",
+   "centroid": [
+    37.5475,
+    -101.2994
+   ],
+   "latitude": 37.5,
+   "bbox": [
+    -101.5272,
+    37.3877,
+    -101.0892,
+    37.7365
+   ],
+   "coastal": false,
+   "elevation_ft": 3030,
+   "zone": "6b",
+   "jan_low_f": 16,
+   "jul_high_f": 93,
+   "record_low_f": -27,
+   "record_high_f": 116,
+   "precip_in": 17.8,
+   "snow_in": 18,
+   "last_frost": "Apr 28",
+   "first_frost": "Oct 16",
+   "growing_days": 171,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Dodge City, KS",
+   "nws_cwa": "DDC",
+   "nwr": [
+    {
+     "call": "WXN81",
+     "freq": "162.450",
+     "same": "020067"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.2,
+   "sun_hours_jun": 6.6
+  },
+  "Gray County": {
+   "fips": "20069",
+   "centroid": [
+    37.7445,
+    -100.4517
+   ],
+   "latitude": 37.7,
+   "bbox": [
+    -100.6651,
+    37.4748,
+    -100.2146,
+    38.0024
+   ],
+   "coastal": false,
+   "elevation_ft": 2720,
+   "zone": "6b",
+   "jan_low_f": 18,
+   "jul_high_f": 93,
+   "record_low_f": -22,
+   "record_high_f": 115,
+   "precip_in": 21.6,
+   "snow_in": 17,
+   "last_frost": "Apr 20",
+   "first_frost": "Oct 20",
+   "growing_days": 182,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Dodge City, KS",
+   "nws_cwa": "DDC",
+   "nwr": [
+    {
+     "call": "WXK93",
+     "freq": "162.475",
+     "same": "020069"
+    },
+    {
+     "call": "WNG555",
+     "freq": "162.425",
+     "same": "020069"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.2,
+   "sun_hours_jun": 6.5
+  },
+  "Greeley County": {
+   "fips": "20071",
+   "centroid": [
+    38.4804,
+    -101.806
+   ],
+   "latitude": 38.5,
+   "bbox": [
+    -102.0453,
+    38.2624,
+    -101.5671,
+    38.6996
+   ],
+   "coastal": false,
+   "elevation_ft": 3650,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 91,
+   "record_low_f": -25,
+   "record_high_f": 111,
+   "precip_in": 18.4,
+   "snow_in": 22,
+   "last_frost": "May 2",
+   "first_frost": "Oct 11",
+   "growing_days": 160,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Goodland, KS",
+   "nws_cwa": "GLD",
+   "nwr": [
+    {
+     "call": "WWG22",
+     "freq": "162.550",
+     "same": "020071"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.1,
+   "sun_hours_jun": 6.5
+  },
+  "Greenwood County": {
+   "fips": "20073",
+   "centroid": [
+    37.8793,
+    -96.2417
+   ],
+   "latitude": 37.9,
+   "bbox": [
+    -96.526,
+    37.6032,
+    -95.9581,
+    38.1728
+   ],
+   "coastal": false,
+   "elevation_ft": 1140,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 90,
+   "record_low_f": -22,
+   "record_high_f": 120,
+   "precip_in": 40.0,
+   "snow_in": 9,
+   "last_frost": "Apr 16",
+   "first_frost": "Oct 20",
+   "growing_days": 186,
+   "ecoregion": "Flint Hills",
+   "ecoregion_code": "28",
+   "nws_office": "Wichita, KS",
+   "nws_cwa": "ICT",
+   "nwr": [
+    {
+     "call": "WWH22",
+     "freq": "162.500",
+     "same": "020073"
+    },
+    {
+     "call": "KGG98",
+     "freq": "162.425",
+     "same": "020073"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.9
+  },
+  "Hamilton County": {
+   "fips": "20075",
+   "centroid": [
+    37.9952,
+    -101.7937
+   ],
+   "latitude": 38.0,
+   "bbox": [
+    -102.0447,
+    37.7362,
+    -101.5272,
+    38.2632
+   ],
+   "coastal": false,
+   "elevation_ft": 3270,
+   "zone": "6a",
+   "jan_low_f": 14,
+   "jul_high_f": 93,
+   "record_low_f": -27,
+   "record_high_f": 114,
+   "precip_in": 17.0,
+   "snow_in": 17,
+   "last_frost": "May 1",
+   "first_frost": "Oct 10",
+   "growing_days": 162,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Dodge City, KS",
+   "nws_cwa": "DDC",
+   "nwr": [
+    {
+     "call": "WWG22",
+     "freq": "162.550",
+     "same": "020075"
+    },
+    {
+     "call": "WXN81",
+     "freq": "162.450",
+     "same": "020075"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.2,
+   "sun_hours_jun": 6.6
+  },
+  "Harper County": {
+   "fips": "20077",
+   "centroid": [
+    37.1882,
+    -98.0666
+   ],
+   "latitude": 37.2,
+   "bbox": [
+    -98.3497,
+    36.9977,
+    -97.802,
+    37.3864
+   ],
+   "coastal": false,
+   "elevation_ft": 1370,
+   "zone": "7a",
+   "jan_low_f": 22,
+   "jul_high_f": 93,
+   "record_low_f": -20,
+   "record_high_f": 115,
+   "precip_in": 33.1,
+   "snow_in": 11,
+   "last_frost": "Apr 9",
+   "first_frost": "Oct 30",
+   "growing_days": 205,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Wichita, KS",
+   "nws_cwa": "ICT",
+   "nwr": [
+    {
+     "call": "WZ2511",
+     "freq": "162.400",
+     "same": "020077"
+    },
+    {
+     "call": "KEC59",
+     "freq": "162.550",
+     "same": "020077"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 6.2
+  },
+  "Harvey County": {
+   "fips": "20079",
+   "centroid": [
+    38.0501,
+    -97.4367
+   ],
+   "latitude": 38.1,
+   "bbox": [
+    -97.7025,
+    37.9121,
+    -97.1524,
+    38.1748
+   ],
+   "coastal": false,
+   "elevation_ft": 1430,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 92,
+   "record_low_f": -28,
+   "record_high_f": 117,
+   "precip_in": 33.8,
+   "snow_in": 9,
+   "last_frost": "Apr 14",
+   "first_frost": "Oct 25",
+   "growing_days": 193,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Wichita, KS",
+   "nws_cwa": "ICT",
+   "nwr": [
+    {
+     "call": "KEC59",
+     "freq": "162.550",
+     "same": "020079"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 6.0
+  },
+  "Haskell County": {
+   "fips": "20081",
+   "centroid": [
+    37.555,
+    -100.88
+   ],
+   "latitude": 37.6,
+   "bbox": [
+    -101.0905,
+    37.3875,
+    -100.6522,
+    37.7368
+   ],
+   "coastal": false,
+   "elevation_ft": 2940,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 94,
+   "record_low_f": -24,
+   "record_high_f": 112,
+   "precip_in": 18.3,
+   "snow_in": 15,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 21",
+   "growing_days": 179,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Dodge City, KS",
+   "nws_cwa": "DDC",
+   "nwr": [
+    {
+     "call": "WXK93",
+     "freq": "162.475",
+     "same": "020081"
+    },
+    {
+     "call": "WNG555",
+     "freq": "162.425",
+     "same": "020081"
+    },
+    {
+     "call": "WXN81",
+     "freq": "162.450",
+     "same": "020081"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.2,
+   "sun_hours_jun": 6.5
+  },
+  "Hodgeman County": {
+   "fips": "20083",
+   "centroid": [
+    38.0875,
+    -99.8984
+   ],
+   "latitude": 38.1,
+   "bbox": [
+    -100.2272,
+    37.9127,
+    -99.5695,
+    38.2622
+   ],
+   "coastal": false,
+   "elevation_ft": 2320,
+   "zone": "6b",
+   "jan_low_f": 18,
+   "jul_high_f": 94,
+   "record_low_f": -20,
+   "record_high_f": 113,
+   "precip_in": 23.7,
+   "snow_in": 21,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 18",
+   "growing_days": 175,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Dodge City, KS",
+   "nws_cwa": "DDC",
+   "nwr": [
+    {
+     "call": "WNG535",
+     "freq": "162.525",
+     "same": "020083"
+    },
+    {
+     "call": "WXK93",
+     "freq": "162.475",
+     "same": "020083"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 6.3
+  },
+  "Jackson County": {
+   "fips": "20085",
+   "centroid": [
+    39.4111,
+    -95.7945
+   ],
+   "latitude": 39.4,
+   "bbox": [
+    -96.0366,
+    39.2161,
+    -95.5642,
+    39.6532
+   ],
+   "coastal": false,
+   "elevation_ft": 1160,
+   "zone": "6a",
+   "jan_low_f": 15,
+   "jul_high_f": 88,
+   "record_low_f": -23,
+   "record_high_f": 110,
+   "precip_in": 37.4,
+   "snow_in": 10,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 14",
+   "growing_days": 172,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Topeka, KS",
+   "nws_cwa": "TOP",
+   "nwr": [
+    {
+     "call": "WXK91",
+     "freq": "162.475",
+     "same": "020085"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.8
+  },
+  "Jefferson County": {
+   "fips": "20087",
+   "centroid": [
+    39.2396,
+    -95.3753
+   ],
+   "latitude": 39.2,
+   "bbox": [
+    -95.5984,
+    39.0316,
+    -95.1794,
+    39.4208
+   ],
+   "coastal": false,
+   "elevation_ft": 1100,
+   "zone": "6b",
+   "jan_low_f": 18,
+   "jul_high_f": 90,
+   "record_low_f": -24,
+   "record_high_f": 110,
+   "precip_in": 38.3,
+   "snow_in": 16,
+   "last_frost": "Apr 16",
+   "first_frost": "Oct 22",
+   "growing_days": 188,
+   "ecoregion": "Central Irregular Plains",
+   "ecoregion_code": "40",
+   "nws_office": "Topeka, KS",
+   "nws_cwa": "TOP",
+   "nwr": [
+    {
+     "call": "WXK91",
+     "freq": "162.475",
+     "same": "020087"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.8
+  },
+  "Jewell County": {
+   "fips": "20089",
+   "centroid": [
+    39.777,
+    -98.2226
+   ],
+   "latitude": 39.8,
+   "bbox": [
+    -98.5051,
+    39.567,
+    -97.9316,
+    40.0026
+   ],
+   "coastal": false,
+   "elevation_ft": 1790,
+   "zone": "6a",
+   "jan_low_f": 14,
+   "jul_high_f": 90,
+   "record_low_f": -25,
+   "record_high_f": 111,
+   "precip_in": 28.3,
+   "snow_in": 25,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 14",
+   "growing_days": 165,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Hastings, NE",
+   "nws_cwa": "GID",
+   "nwr": [
+    {
+     "call": "WXK94",
+     "freq": "162.550",
+     "same": "020089"
+    },
+    {
+     "call": "WNG578",
+     "freq": "162.525",
+     "same": "020089"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 6.1
+  },
+  "Johnson County": {
+   "fips": "20091",
+   "centroid": [
+    38.8839,
+    -94.8223
+   ],
+   "latitude": 38.9,
+   "bbox": [
+    -95.0571,
+    38.7381,
+    -94.6071,
+    39.0616
+   ],
+   "coastal": false,
+   "elevation_ft": 1020,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 88,
+   "record_low_f": -29,
+   "record_high_f": 114,
+   "precip_in": 40.7,
+   "snow_in": 14,
+   "last_frost": "Apr 10",
+   "first_frost": "Oct 29",
+   "growing_days": 202,
+   "ecoregion": "Central Irregular Plains",
+   "ecoregion_code": "40",
+   "nws_office": "Kansas City/Pleasant Hill, MO",
+   "nws_cwa": "EAX",
+   "nwr": [
+    {
+     "call": "KID77",
+     "freq": "162.550",
+     "same": "020091"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.7
+  },
+  "Kearny County": {
+   "fips": "20093",
+   "centroid": [
+    37.9945,
+    -101.3081
+   ],
+   "latitude": 38.0,
+   "bbox": [
+    -101.5428,
+    37.736,
+    -101.0894,
+    38.2645
+   ],
+   "coastal": false,
+   "elevation_ft": 3230,
+   "zone": "6a",
+   "jan_low_f": 20,
+   "jul_high_f": 94,
+   "record_low_f": -23,
+   "record_high_f": 115,
+   "precip_in": 18.8,
+   "snow_in": 19,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 23",
+   "growing_days": 187,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Dodge City, KS",
+   "nws_cwa": "DDC",
+   "nwr": [
+    {
+     "call": "WWG22",
+     "freq": "162.550",
+     "same": "020093"
+    },
+    {
+     "call": "WXN81",
+     "freq": "162.450",
+     "same": "020093"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.2,
+   "sun_hours_jun": 6.6
+  },
+  "Kingman County": {
+   "fips": "20095",
+   "centroid": [
+    37.553,
+    -98.1445
+   ],
+   "latitude": 37.6,
+   "bbox": [
+    -98.465,
+    37.384,
+    -97.807,
+    37.7339
+   ],
+   "coastal": false,
+   "elevation_ft": 1640,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 93,
+   "record_low_f": -22,
+   "record_high_f": 116,
+   "precip_in": 33.2,
+   "snow_in": 9,
+   "last_frost": "Apr 15",
+   "first_frost": "Oct 21",
+   "growing_days": 187,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Wichita, KS",
+   "nws_cwa": "ICT",
+   "nwr": [
+    {
+     "call": "WZ2511",
+     "freq": "162.400",
+     "same": "020095"
+    },
+    {
+     "call": "KEC59",
+     "freq": "162.550",
+     "same": "020095"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 6.2
+  },
+  "Kiowa County": {
+   "fips": "20097",
+   "centroid": [
+    37.5612,
+    -99.2865
+   ],
+   "latitude": 37.6,
+   "bbox": [
+    -99.5597,
+    37.381,
+    -99.0115,
+    37.7349
+   ],
+   "coastal": false,
+   "elevation_ft": 2240,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 92,
+   "record_low_f": -20,
+   "record_high_f": 113,
+   "precip_in": 26.0,
+   "snow_in": 16,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 22",
+   "growing_days": 183,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Dodge City, KS",
+   "nws_cwa": "DDC",
+   "nwr": [
+    {
+     "call": "WNG534",
+     "freq": "162.525",
+     "same": "020097"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.1,
+   "sun_hours_jun": 6.4
+  },
+  "Labette County": {
+   "fips": "20099",
+   "centroid": [
+    37.1915,
+    -95.2975
+   ],
+   "latitude": 37.2,
+   "bbox": [
+    -95.5229,
+    36.9992,
+    -95.0735,
+    37.3844
+   ],
+   "coastal": false,
+   "elevation_ft": 910,
+   "zone": "7a",
+   "jan_low_f": 21,
+   "jul_high_f": 89,
+   "record_low_f": -26,
+   "record_high_f": 116,
+   "precip_in": 46.5,
+   "snow_in": 8,
+   "last_frost": "Apr 15",
+   "first_frost": "Oct 24",
+   "growing_days": 192,
+   "ecoregion": "Central Irregular Plains",
+   "ecoregion_code": "40",
+   "nws_office": "Wichita, KS",
+   "nws_cwa": "ICT",
+   "nwr": [
+    {
+     "call": "WNG644",
+     "freq": "162.425",
+     "same": "020099"
+    },
+    {
+     "call": "WXK95",
+     "freq": "162.400",
+     "same": "020099"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.8
+  },
+  "Lane County": {
+   "fips": "20101",
+   "centroid": [
+    38.4813,
+    -100.4662
+   ],
+   "latitude": 38.5,
+   "bbox": [
+    -100.6889,
+    38.2623,
+    -100.2443,
+    38.7002
+   ],
+   "coastal": false,
+   "elevation_ft": 2770,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 93,
+   "record_low_f": -31,
+   "record_high_f": 116,
+   "precip_in": 22.4,
+   "snow_in": 22,
+   "last_frost": "Apr 28",
+   "first_frost": "Oct 15",
+   "growing_days": 169,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Dodge City, KS",
+   "nws_cwa": "DDC",
+   "nwr": [
+    {
+     "call": "WNG535",
+     "freq": "162.525",
+     "same": "020101"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.1,
+   "sun_hours_jun": 6.4
+  },
+  "Leavenworth County": {
+   "fips": "20103",
+   "centroid": [
+    39.1895,
+    -95.039
+   ],
+   "latitude": 39.2,
+   "bbox": [
+    -95.1879,
+    38.9549,
+    -94.7764,
+    39.4198
+   ],
+   "coastal": false,
+   "elevation_ft": 850,
+   "zone": "6b",
+   "jan_low_f": 15,
+   "jul_high_f": 87,
+   "record_low_f": -27,
+   "record_high_f": 114,
+   "precip_in": 39.1,
+   "snow_in": 12,
+   "last_frost": "Apr 19",
+   "first_frost": "Oct 19",
+   "growing_days": 181,
+   "ecoregion": "Central Irregular Plains",
+   "ecoregion_code": "40",
+   "nws_office": "Kansas City/Pleasant Hill, MO",
+   "nws_cwa": "EAX",
+   "nwr": [
+    {
+     "call": "KID77",
+     "freq": "162.550",
+     "same": "020103"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.8
+  },
+  "Lincoln County": {
+   "fips": "20105",
+   "centroid": [
+    39.0473,
+    -98.2143
+   ],
+   "latitude": 39.0,
+   "bbox": [
+    -98.4901,
+    38.8707,
+    -97.9283,
+    39.2202
+   ],
+   "coastal": false,
+   "elevation_ft": 1380,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 93,
+   "record_low_f": -27,
+   "record_high_f": 119,
+   "precip_in": 29.1,
+   "snow_in": 15,
+   "last_frost": "Apr 28",
+   "first_frost": "Oct 15",
+   "growing_days": 170,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Wichita, KS",
+   "nws_cwa": "ICT",
+   "nwr": [
+    {
+     "call": "WXK92",
+     "freq": "162.400",
+     "same": "020105"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 6.1
+  },
+  "Linn County": {
+   "fips": "20107",
+   "centroid": [
+    38.2165,
+    -94.8449
+   ],
+   "latitude": 38.2,
+   "bbox": [
+    -95.0777,
+    38.0368,
+    -94.6126,
+    38.3899
+   ],
+   "coastal": false,
+   "elevation_ft": 860,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 88,
+   "record_low_f": -27,
+   "record_high_f": 117,
+   "precip_in": 41.3,
+   "snow_in": 14,
+   "last_frost": "Apr 13",
+   "first_frost": "Oct 23",
+   "growing_days": 192,
+   "ecoregion": "Central Irregular Plains",
+   "ecoregion_code": "40",
+   "nws_office": "Kansas City/Pleasant Hill, MO",
+   "nws_cwa": "EAX",
+   "nwr": [
+    {
+     "call": "WZ2512",
+     "freq": "162.525",
+     "same": "020107"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.7
+  },
+  "Logan County": {
+   "fips": "20109",
+   "centroid": [
+    38.9133,
+    -101.1574
+   ],
+   "latitude": 38.9,
+   "bbox": [
+    -101.4846,
+    38.6989,
+    -100.8119,
+    39.1355
+   ],
+   "coastal": false,
+   "elevation_ft": 2950,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 93,
+   "record_low_f": -28,
+   "record_high_f": 115,
+   "precip_in": 18.2,
+   "snow_in": 22,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 14",
+   "growing_days": 164,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Goodland, KS",
+   "nws_cwa": "GLD",
+   "nwr": [
+    {
+     "call": "WXK96",
+     "freq": "162.400",
+     "same": "020109"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.1,
+   "sun_hours_jun": 6.5
+  },
+  "Lyon County": {
+   "fips": "20111",
+   "centroid": [
+    38.4554,
+    -96.1616
+   ],
+   "latitude": 38.5,
+   "bbox": [
+    -96.3572,
+    38.1711,
+    -95.9454,
+    38.7393
+   ],
+   "coastal": false,
+   "elevation_ft": 1150,
+   "zone": "6b",
+   "jan_low_f": 18,
+   "jul_high_f": 88,
+   "record_low_f": -22,
+   "record_high_f": 111,
+   "precip_in": 35.8,
+   "snow_in": 16,
+   "last_frost": "Apr 15",
+   "first_frost": "Oct 23",
+   "growing_days": 190,
+   "ecoregion": "Flint Hills",
+   "ecoregion_code": "28",
+   "nws_office": "Topeka, KS",
+   "nws_cwa": "TOP",
+   "nwr": [
+    {
+     "call": "KGG98",
+     "freq": "162.425",
+     "same": "020111"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.9
+  },
+  "McPherson County": {
+   "fips": "20113",
+   "centroid": [
+    38.3958,
+    -97.6475
+   ],
+   "latitude": 38.4,
+   "bbox": [
+    -97.9254,
+    38.1734,
+    -97.3714,
+    38.61
+   ],
+   "coastal": false,
+   "elevation_ft": 1490,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 93,
+   "record_low_f": -22,
+   "record_high_f": 117,
+   "precip_in": 33.6,
+   "snow_in": 14,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 24",
+   "growing_days": 187,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Wichita, KS",
+   "nws_cwa": "ICT",
+   "nwr": [
+    {
+     "call": "WXL71",
+     "freq": "162.525",
+     "same": "020113"
+    },
+    {
+     "call": "WXK92",
+     "freq": "162.400",
+     "same": "020113"
+    },
+    {
+     "call": "KEC59",
+     "freq": "162.550",
+     "same": "020113"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 6.0
+  },
+  "Marion County": {
+   "fips": "20115",
+   "centroid": [
+    38.3596,
+    -97.1028
+   ],
+   "latitude": 38.4,
+   "bbox": [
+    -97.3721,
+    38.0855,
+    -96.8192,
+    38.6097
+   ],
+   "coastal": false,
+   "elevation_ft": 1360,
+   "zone": "6b",
+   "jan_low_f": 21,
+   "jul_high_f": 92,
+   "record_low_f": -24,
+   "record_high_f": 110,
+   "precip_in": 33.9,
+   "snow_in": 12,
+   "last_frost": "Apr 8",
+   "first_frost": "Oct 30",
+   "growing_days": 202,
+   "ecoregion": "Flint Hills",
+   "ecoregion_code": "28",
+   "nws_office": "Wichita, KS",
+   "nws_cwa": "ICT",
+   "nwr": [
+    {
+     "call": "WXL71",
+     "freq": "162.525",
+     "same": "020115"
+    },
+    {
+     "call": "KEC59",
+     "freq": "162.550",
+     "same": "020115"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 6.0
+  },
+  "Marshall County": {
+   "fips": "20117",
+   "centroid": [
+    39.7827,
+    -96.5212
+   ],
+   "latitude": 39.8,
+   "bbox": [
+    -96.8067,
+    39.566,
+    -96.2383,
+    40.0016
+   ],
+   "coastal": false,
+   "elevation_ft": 1260,
+   "zone": "6a",
+   "jan_low_f": 15,
+   "jul_high_f": 90,
+   "record_low_f": -28,
+   "record_high_f": 112,
+   "precip_in": 33.6,
+   "snow_in": 16,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 13",
+   "growing_days": 171,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Topeka, KS",
+   "nws_cwa": "TOP",
+   "nwr": [
+    {
+     "call": "KZZ67",
+     "freq": "162.425",
+     "same": "020117"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.8
+  },
+  "Meade County": {
+   "fips": "20119",
+   "centroid": [
+    37.2439,
+    -100.3601
+   ],
+   "latitude": 37.2,
+   "bbox": [
+    -100.6529,
+    37.0,
+    -100.0892,
+    37.4754
+   ],
+   "coastal": false,
+   "elevation_ft": 2450,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 94,
+   "record_low_f": -23,
+   "record_high_f": 114,
+   "precip_in": 23.0,
+   "snow_in": 17,
+   "last_frost": "Apr 20",
+   "first_frost": "Oct 22",
+   "growing_days": 183,
+   "ecoregion": "Southwestern Tablelands",
+   "ecoregion_code": "26",
+   "nws_office": "Dodge City, KS",
+   "nws_cwa": "DDC",
+   "nwr": [
+    {
+     "call": "WXK93",
+     "freq": "162.475",
+     "same": "020119"
+    },
+    {
+     "call": "WNG555",
+     "freq": "162.425",
+     "same": "020119"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.2,
+   "sun_hours_jun": 6.5
+  },
+  "Miami County": {
+   "fips": "20121",
+   "centroid": [
+    38.5668,
+    -94.833
+   ],
+   "latitude": 38.6,
+   "bbox": [
+    -95.066,
+    38.3887,
+    -94.6094,
+    38.7386
+   ],
+   "coastal": false,
+   "elevation_ft": 880,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 89,
+   "record_low_f": -22,
+   "record_high_f": 111,
+   "precip_in": 41.4,
+   "snow_in": 8,
+   "last_frost": "Apr 13",
+   "first_frost": "Oct 21",
+   "growing_days": 191,
+   "ecoregion": "Central Irregular Plains",
+   "ecoregion_code": "40",
+   "nws_office": "Kansas City/Pleasant Hill, MO",
+   "nws_cwa": "EAX",
+   "nwr": [
+    {
+     "call": "KID77",
+     "freq": "162.550",
+     "same": "020121"
+    },
+    {
+     "call": "WZ2512",
+     "freq": "162.525",
+     "same": "020121"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.7
+  },
+  "Mitchell County": {
+   "fips": "20123",
+   "centroid": [
+    39.393,
+    -98.2074
+   ],
+   "latitude": 39.4,
+   "bbox": [
+    -98.4901,
+    39.2187,
+    -97.9287,
+    39.5675
+   ],
+   "coastal": false,
+   "elevation_ft": 1530,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 92,
+   "record_low_f": -27,
+   "record_high_f": 113,
+   "precip_in": 29.1,
+   "snow_in": 16,
+   "last_frost": "Apr 19",
+   "first_frost": "Oct 19",
+   "growing_days": 181,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Hastings, NE",
+   "nws_cwa": "GID",
+   "nwr": [
+    {
+     "call": "WXK94",
+     "freq": "162.550",
+     "same": "020123"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 6.1
+  },
+  "Montgomery County": {
+   "fips": "20125",
+   "centroid": [
+    37.1895,
+    -95.7424
+   ],
+   "latitude": 37.2,
+   "bbox": [
+    -95.9648,
+    36.9991,
+    -95.518,
+    37.3867
+   ],
+   "coastal": false,
+   "elevation_ft": 820,
+   "zone": "7a",
+   "jan_low_f": 23,
+   "jul_high_f": 91,
+   "record_low_f": -23,
+   "record_high_f": 116,
+   "precip_in": 45.4,
+   "snow_in": 7,
+   "last_frost": "Apr 5",
+   "first_frost": "Oct 31",
+   "growing_days": 208,
+   "ecoregion": "Central Irregular Plains",
+   "ecoregion_code": "40",
+   "nws_office": "Wichita, KS",
+   "nws_cwa": "ICT",
+   "nwr": [
+    {
+     "call": "WNG644",
+     "freq": "162.425",
+     "same": "020125"
+    },
+    {
+     "call": "WXK95",
+     "freq": "162.400",
+     "same": "020125"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.8
+  },
+  "Morris County": {
+   "fips": "20127",
+   "centroid": [
+    38.6882,
+    -96.6514
+   ],
+   "latitude": 38.7,
+   "bbox": [
+    -96.9305,
+    38.5216,
+    -96.3528,
+    38.8704
+   ],
+   "coastal": false,
+   "elevation_ft": 1480,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 90,
+   "record_low_f": -24,
+   "record_high_f": 114,
+   "precip_in": 35.0,
+   "snow_in": 12,
+   "last_frost": "Apr 11",
+   "first_frost": "Oct 25",
+   "growing_days": 194,
+   "ecoregion": "Flint Hills",
+   "ecoregion_code": "28",
+   "nws_office": "Topeka, KS",
+   "nws_cwa": "TOP",
+   "nwr": [
+    {
+     "call": "WXL71",
+     "freq": "162.525",
+     "same": "020127"
+    },
+    {
+     "call": "WXK91",
+     "freq": "162.475",
+     "same": "020127"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.9
+  },
+  "Morton County": {
+   "fips": "20129",
+   "centroid": [
+    37.1852,
+    -101.8095
+   ],
+   "latitude": 37.2,
+   "bbox": [
+    -102.0422,
+    36.9928,
+    -101.5552,
+    37.3893
+   ],
+   "coastal": false,
+   "elevation_ft": 3430,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 94,
+   "record_low_f": -22,
+   "record_high_f": 111,
+   "precip_in": 17.7,
+   "snow_in": 18,
+   "last_frost": "Apr 27",
+   "first_frost": "Oct 19",
+   "growing_days": 173,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Dodge City, KS",
+   "nws_cwa": "DDC",
+   "nwr": [
+    {
+     "call": "WXN81",
+     "freq": "162.450",
+     "same": "020129"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.2,
+   "sun_hours_jun": 6.6
+  },
+  "Nemaha County": {
+   "fips": "20131",
+   "centroid": [
+    39.791,
+    -96.0054
+   ],
+   "latitude": 39.8,
+   "bbox": [
+    -96.2399,
+    39.5659,
+    -95.7879,
+    40.0008
+   ],
+   "coastal": false,
+   "elevation_ft": 1210,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 89,
+   "record_low_f": -35,
+   "record_high_f": 114,
+   "precip_in": 35.9,
+   "snow_in": 33,
+   "last_frost": "Apr 19",
+   "first_frost": "Oct 19",
+   "growing_days": 182,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Topeka, KS",
+   "nws_cwa": "TOP",
+   "nwr": [
+    {
+     "call": "KZZ67",
+     "freq": "162.425",
+     "same": "020131"
+    },
+    {
+     "call": "KWN41",
+     "freq": "162.500",
+     "same": "020131"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.8
+  },
+  "Neosho County": {
+   "fips": "20133",
+   "centroid": [
+    37.5643,
+    -95.3157
+   ],
+   "latitude": 37.6,
+   "bbox": [
+    -95.5261,
+    37.3833,
+    -95.0877,
+    37.7343
+   ],
+   "coastal": false,
+   "elevation_ft": 940,
+   "zone": "7a",
+   "jan_low_f": 22,
+   "jul_high_f": 88,
+   "record_low_f": -23,
+   "record_high_f": 116,
+   "precip_in": 44.6,
+   "snow_in": 10,
+   "last_frost": "Apr 8",
+   "first_frost": "Oct 29",
+   "growing_days": 203,
+   "ecoregion": "Central Irregular Plains",
+   "ecoregion_code": "40",
+   "nws_office": "Wichita, KS",
+   "nws_cwa": "ICT",
+   "nwr": [
+    {
+     "call": "WXK95",
+     "freq": "162.400",
+     "same": "020133"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.8
+  },
+  "Ness County": {
+   "fips": "20135",
+   "centroid": [
+    38.4804,
+    -99.9087
+   ],
+   "latitude": 38.5,
+   "bbox": [
+    -100.2488,
+    38.2615,
+    -99.5842,
+    38.6982
+   ],
+   "coastal": false,
+   "elevation_ft": 2320,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 93,
+   "record_low_f": -25,
+   "record_high_f": 114,
+   "precip_in": 22.6,
+   "snow_in": 15,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 14",
+   "growing_days": 166,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Dodge City, KS",
+   "nws_cwa": "DDC",
+   "nwr": [
+    {
+     "call": "WNG535",
+     "freq": "162.525",
+     "same": "020135"
+    },
+    {
+     "call": "WXM35",
+     "freq": "162.450",
+     "same": "020135"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 6.3
+  },
+  "Norton County": {
+   "fips": "20137",
+   "centroid": [
+    39.7839,
+    -99.8992
+   ],
+   "latitude": 39.8,
+   "bbox": [
+    -100.1805,
+    39.5668,
+    -99.6257,
+    40.0019
+   ],
+   "coastal": false,
+   "elevation_ft": 2410,
+   "zone": "6a",
+   "jan_low_f": 14,
+   "jul_high_f": 92,
+   "record_low_f": -28,
+   "record_high_f": 118,
+   "precip_in": 26.2,
+   "snow_in": 20,
+   "last_frost": "May 1",
+   "first_frost": "Oct 12",
+   "growing_days": 162,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Goodland, KS",
+   "nws_cwa": "GLD",
+   "nwr": [
+    {
+     "call": "KEC39",
+     "freq": "162.525",
+     "same": "020137"
+    },
+    {
+     "call": "KWN59",
+     "freq": "162.500",
+     "same": "020137"
+    },
+    {
+     "call": "WWF87",
+     "freq": "162.425",
+     "same": "020137"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 6.2
+  },
+  "Osage County": {
+   "fips": "20139",
+   "centroid": [
+    38.6502,
+    -95.7083
+   ],
+   "latitude": 38.7,
+   "bbox": [
+    -95.9503,
+    38.434,
+    -95.5007,
+    38.87
+   ],
+   "coastal": false,
+   "elevation_ft": 1100,
+   "zone": "6b",
+   "jan_low_f": 18,
+   "jul_high_f": 89,
+   "record_low_f": -26,
+   "record_high_f": 118,
+   "precip_in": 38.9,
+   "snow_in": 10,
+   "last_frost": "Apr 13",
+   "first_frost": "Oct 26",
+   "growing_days": 194,
+   "ecoregion": "Central Irregular Plains",
+   "ecoregion_code": "40",
+   "nws_office": "Topeka, KS",
+   "nws_cwa": "TOP",
+   "nwr": [
+    {
+     "call": "KGG98",
+     "freq": "162.425",
+     "same": "020139"
+    },
+    {
+     "call": "WXK91",
+     "freq": "162.475",
+     "same": "020139"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.8
+  },
+  "Osborne County": {
+   "fips": "20141",
+   "centroid": [
+    39.3483,
+    -98.7679
+   ],
+   "latitude": 39.3,
+   "bbox": [
+    -99.0486,
+    39.1327,
+    -98.4874,
+    39.5681
+   ],
+   "coastal": false,
+   "elevation_ft": 1700,
+   "zone": "6a",
+   "jan_low_f": 14,
+   "jul_high_f": 93,
+   "record_low_f": -31,
+   "record_high_f": 121,
+   "precip_in": 28.6,
+   "snow_in": 18,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 12",
+   "growing_days": 164,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Hastings, NE",
+   "nws_cwa": "GID",
+   "nwr": [
+    {
+     "call": "KWN59",
+     "freq": "162.500",
+     "same": "020141"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 6.1
+  },
+  "Ottawa County": {
+   "fips": "20143",
+   "centroid": [
+    39.138,
+    -97.6548
+   ],
+   "latitude": 39.1,
+   "bbox": [
+    -97.9318,
+    38.9579,
+    -97.3697,
+    39.3072
+   ],
+   "coastal": false,
+   "elevation_ft": 1280,
+   "zone": "6b",
+   "jan_low_f": 18,
+   "jul_high_f": 93,
+   "record_low_f": -29,
+   "record_high_f": 119,
+   "precip_in": 31.7,
+   "snow_in": 18,
+   "last_frost": "Apr 20",
+   "first_frost": "Oct 19",
+   "growing_days": 181,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Topeka, KS",
+   "nws_cwa": "TOP",
+   "nwr": [
+    {
+     "call": "WXL71",
+     "freq": "162.525",
+     "same": "020143"
+    },
+    {
+     "call": "WXK94",
+     "freq": "162.550",
+     "same": "020143"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 6.0
+  },
+  "Pawnee County": {
+   "fips": "20145",
+   "centroid": [
+    38.1815,
+    -99.2348
+   ],
+   "latitude": 38.2,
+   "bbox": [
+    -99.5848,
+    37.9996,
+    -98.9124,
+    38.3507
+   ],
+   "coastal": false,
+   "elevation_ft": 2040,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 94,
+   "record_low_f": -24,
+   "record_high_f": 114,
+   "precip_in": 27.5,
+   "snow_in": 15,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 22",
+   "growing_days": 182,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Dodge City, KS",
+   "nws_cwa": "DDC",
+   "nwr": [
+    {
+     "call": "KPS511",
+     "freq": "162.500",
+     "same": "020145"
+    },
+    {
+     "call": "WXM35",
+     "freq": "162.450",
+     "same": "020145"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 6.3
+  },
+  "Phillips County": {
+   "fips": "20147",
+   "centroid": [
+    39.7845,
+    -99.3422
+   ],
+   "latitude": 39.8,
+   "bbox": [
+    -99.6285,
+    39.5671,
+    -99.0659,
+    40.0023
+   ],
+   "coastal": false,
+   "elevation_ft": 1970,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 92,
+   "record_low_f": -30,
+   "record_high_f": 116,
+   "precip_in": 25.6,
+   "snow_in": 17,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 16",
+   "growing_days": 172,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Hastings, NE",
+   "nws_cwa": "GID",
+   "nwr": [
+    {
+     "call": "KWN59",
+     "freq": "162.500",
+     "same": "020147"
+    },
+    {
+     "call": "WWF87",
+     "freq": "162.425",
+     "same": "020147"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 6.2
+  },
+  "Pottawatomie County": {
+   "fips": "20149",
+   "centroid": [
+    39.3822,
+    -96.3371
+   ],
+   "latitude": 39.4,
+   "bbox": [
+    -96.7277,
+    39.1263,
+    -96.0346,
+    39.5664
+   ],
+   "coastal": false,
+   "elevation_ft": 1340,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 90,
+   "record_low_f": -26,
+   "record_high_f": 114,
+   "precip_in": 34.7,
+   "snow_in": 17,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 19",
+   "growing_days": 183,
+   "ecoregion": "Flint Hills",
+   "ecoregion_code": "28",
+   "nws_office": "Topeka, KS",
+   "nws_cwa": "TOP",
+   "nwr": [
+    {
+     "call": "KZZ67",
+     "freq": "162.425",
+     "same": "020149"
+    },
+    {
+     "call": "WXK91",
+     "freq": "162.475",
+     "same": "020149"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.8
+  },
+  "Pratt County": {
+   "fips": "20151",
+   "centroid": [
+    37.6476,
+    -98.7401
+   ],
+   "latitude": 37.6,
+   "bbox": [
+    -99.0153,
+    37.4701,
+    -98.4647,
+    37.8255
+   ],
+   "coastal": false,
+   "elevation_ft": 1900,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 92,
+   "record_low_f": -25,
+   "record_high_f": 115,
+   "precip_in": 27.6,
+   "snow_in": 15,
+   "last_frost": "Apr 20",
+   "first_frost": "Oct 20",
+   "growing_days": 183,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Dodge City, KS",
+   "nws_cwa": "DDC",
+   "nwr": [
+    {
+     "call": "WNG534",
+     "freq": "162.525",
+     "same": "020151"
+    },
+    {
+     "call": "WZ2511",
+     "freq": "162.400",
+     "same": "020151"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 6.2
+  },
+  "Rawlins County": {
+   "fips": "20153",
+   "centroid": [
+    39.7862,
+    -101.0767
+   ],
+   "latitude": 39.8,
+   "bbox": [
+    -101.4139,
+    39.5677,
+    -100.7387,
+    40.0027
+   ],
+   "coastal": false,
+   "elevation_ft": 2870,
+   "zone": "6a",
+   "jan_low_f": 15,
+   "jul_high_f": 92,
+   "record_low_f": -34,
+   "record_high_f": 118,
+   "precip_in": 22.1,
+   "snow_in": 29,
+   "last_frost": "May 2",
+   "first_frost": "Oct 8",
+   "growing_days": 157,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Goodland, KS",
+   "nws_cwa": "GLD",
+   "nwr": [
+    {
+     "call": "WXK96",
+     "freq": "162.400",
+     "same": "020153"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 6.4
+  },
+  "Reno County": {
+   "fips": "20155",
+   "centroid": [
+    37.9482,
+    -98.0783
+   ],
+   "latitude": 37.9,
+   "bbox": [
+    -98.4731,
+    37.7326,
+    -97.6987,
+    38.1738
+   ],
+   "coastal": false,
+   "elevation_ft": 1590,
+   "zone": "6b",
+   "jan_low_f": 18,
+   "jul_high_f": 92,
+   "record_low_f": -20,
+   "record_high_f": 113,
+   "precip_in": 30.3,
+   "snow_in": 9,
+   "last_frost": "Apr 20",
+   "first_frost": "Oct 19",
+   "growing_days": 181,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Wichita, KS",
+   "nws_cwa": "ICT",
+   "nwr": [
+    {
+     "call": "WZ2511",
+     "freq": "162.400",
+     "same": "020155"
+    },
+    {
+     "call": "KEC59",
+     "freq": "162.550",
+     "same": "020155"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 6.2
+  },
+  "Republic County": {
+   "fips": "20157",
+   "centroid": [
+    39.8289,
+    -97.6509
+   ],
+   "latitude": 39.8,
+   "bbox": [
+    -97.9333,
+    39.6535,
+    -97.3685,
+    40.0022
+   ],
+   "coastal": false,
+   "elevation_ft": 1520,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 90,
+   "record_low_f": -25,
+   "record_high_f": 114,
+   "precip_in": 30.6,
+   "snow_in": 15,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 17",
+   "growing_days": 175,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Topeka, KS",
+   "nws_cwa": "TOP",
+   "nwr": [
+    {
+     "call": "WXK94",
+     "freq": "162.550",
+     "same": "020157"
+    },
+    {
+     "call": "WNG578",
+     "freq": "162.525",
+     "same": "020157"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 6.0
+  },
+  "Rice County": {
+   "fips": "20159",
+   "centroid": [
+    38.3472,
+    -98.2014
+   ],
+   "latitude": 38.3,
+   "bbox": [
+    -98.4808,
+    38.1587,
+    -97.9222,
+    38.5227
+   ],
+   "coastal": false,
+   "elevation_ft": 1690,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 92,
+   "record_low_f": -18,
+   "record_high_f": 112,
+   "precip_in": 29.0,
+   "snow_in": 9,
+   "last_frost": "Apr 15",
+   "first_frost": "Oct 23",
+   "growing_days": 190,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Wichita, KS",
+   "nws_cwa": "ICT",
+   "nwr": [
+    {
+     "call": "WXK92",
+     "freq": "162.400",
+     "same": "020159"
+    },
+    {
+     "call": "KPS511",
+     "freq": "162.500",
+     "same": "020159"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 6.2
+  },
+  "Riley County": {
+   "fips": "20161",
+   "centroid": [
+    39.2912,
+    -96.7275
+   ],
+   "latitude": 39.3,
+   "bbox": [
+    -96.9616,
+    39.0432,
+    -96.3887,
+    39.5666
+   ],
+   "coastal": false,
+   "elevation_ft": 1300,
+   "zone": "6b",
+   "jan_low_f": 16,
+   "jul_high_f": 90,
+   "record_low_f": -28,
+   "record_high_f": 111,
+   "precip_in": 33.8,
+   "snow_in": 18,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 20",
+   "growing_days": 179,
+   "ecoregion": "Flint Hills",
+   "ecoregion_code": "28",
+   "nws_office": "Topeka, KS",
+   "nws_cwa": "TOP",
+   "nwr": [
+    {
+     "call": "WXL71",
+     "freq": "162.525",
+     "same": "020161"
+    },
+    {
+     "call": "KZZ67",
+     "freq": "162.425",
+     "same": "020161"
+    },
+    {
+     "call": "WXK91",
+     "freq": "162.475",
+     "same": "020161"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.8
+  },
+  "Rooks County": {
+   "fips": "20163",
+   "centroid": [
+    39.346,
+    -99.3245
+   ],
+   "latitude": 39.3,
+   "bbox": [
+    -99.6057,
+    39.132,
+    -99.0442,
+    39.568
+   ],
+   "coastal": false,
+   "elevation_ft": 1910,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 94,
+   "record_low_f": -25,
+   "record_high_f": 113,
+   "precip_in": 25.4,
+   "snow_in": 20,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 12",
+   "growing_days": 165,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Hastings, NE",
+   "nws_cwa": "GID",
+   "nwr": [
+    {
+     "call": "WXM35",
+     "freq": "162.450",
+     "same": "020163"
+    },
+    {
+     "call": "KWN59",
+     "freq": "162.500",
+     "same": "020163"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 6.2
+  },
+  "Rush County": {
+   "fips": "20165",
+   "centroid": [
+    38.5236,
+    -99.3092
+   ],
+   "latitude": 38.5,
+   "bbox": [
+    -99.5868,
+    38.3485,
+    -99.0326,
+    38.6973
+   ],
+   "coastal": false,
+   "elevation_ft": 2050,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 92,
+   "record_low_f": -24,
+   "record_high_f": 116,
+   "precip_in": 26.5,
+   "snow_in": 14,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 10",
+   "growing_days": 162,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Dodge City, KS",
+   "nws_cwa": "DDC",
+   "nwr": [
+    {
+     "call": "KPS511",
+     "freq": "162.500",
+     "same": "020165"
+    },
+    {
+     "call": "WXM35",
+     "freq": "162.450",
+     "same": "020165"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 6.3
+  },
+  "Russell County": {
+   "fips": "20167",
+   "centroid": [
+    38.916,
+    -98.7709
+   ],
+   "latitude": 38.9,
+   "bbox": [
+    -99.0426,
+    38.6967,
+    -98.4836,
+    39.1335
+   ],
+   "coastal": false,
+   "elevation_ft": 1780,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 93,
+   "record_low_f": -24,
+   "record_high_f": 114,
+   "precip_in": 24.8,
+   "snow_in": 14,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 17",
+   "growing_days": 176,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Wichita, KS",
+   "nws_cwa": "ICT",
+   "nwr": [
+    {
+     "call": "WXK92",
+     "freq": "162.400",
+     "same": "020167"
+    },
+    {
+     "call": "KPS511",
+     "freq": "162.500",
+     "same": "020167"
+    },
+    {
+     "call": "WXM35",
+     "freq": "162.450",
+     "same": "020167"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 6.2
+  },
+  "Saline County": {
+   "fips": "20169",
+   "centroid": [
+    38.7918,
+    -97.6515
+   ],
+   "latitude": 38.8,
+   "bbox": [
+    -97.9291,
+    38.6089,
+    -97.3719,
+    38.9582
+   ],
+   "coastal": false,
+   "elevation_ft": 1250,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 93,
+   "record_low_f": -24,
+   "record_high_f": 113,
+   "precip_in": 29.7,
+   "snow_in": 16,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 23",
+   "growing_days": 187,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Wichita, KS",
+   "nws_cwa": "ICT",
+   "nwr": [
+    {
+     "call": "WXL71",
+     "freq": "162.525",
+     "same": "020169"
+    },
+    {
+     "call": "WXK92",
+     "freq": "162.400",
+     "same": "020169"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 6.0
+  },
+  "Scott County": {
+   "fips": "20171",
+   "centroid": [
+    38.4819,
+    -100.9064
+   ],
+   "latitude": 38.5,
+   "bbox": [
+    -101.1286,
+    38.2642,
+    -100.6844,
+    38.7006
+   ],
+   "coastal": false,
+   "elevation_ft": 2980,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 92,
+   "record_low_f": -26,
+   "record_high_f": 114,
+   "precip_in": 20.2,
+   "snow_in": 20,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 15",
+   "growing_days": 167,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Dodge City, KS",
+   "nws_cwa": "DDC",
+   "nwr": [
+    {
+     "call": "WNG535",
+     "freq": "162.525",
+     "same": "020171"
+    },
+    {
+     "call": "WWG22",
+     "freq": "162.550",
+     "same": "020171"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.1,
+   "sun_hours_jun": 6.4
+  },
+  "Sedgwick County": {
+   "fips": "20173",
+   "centroid": [
+    37.681,
+    -97.4611
+   ],
+   "latitude": 37.7,
+   "bbox": [
+    -97.8086,
+    37.4731,
+    -97.1522,
+    37.9129
+   ],
+   "coastal": false,
+   "elevation_ft": 1320,
+   "zone": "7a",
+   "jan_low_f": 22,
+   "jul_high_f": 92,
+   "record_low_f": -21,
+   "record_high_f": 113,
+   "precip_in": 34.4,
+   "snow_in": 13,
+   "last_frost": "Apr 8",
+   "first_frost": "Oct 27",
+   "growing_days": 200,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Wichita, KS",
+   "nws_cwa": "ICT",
+   "nwr": [
+    {
+     "call": "KEC59",
+     "freq": "162.550",
+     "same": "020173"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 6.1
+  },
+  "Seward County": {
+   "fips": "20175",
+   "centroid": [
+    37.181,
+    -100.8553
+   ],
+   "latitude": 37.2,
+   "bbox": [
+    -101.0681,
+    36.998,
+    -100.633,
+    37.3879
+   ],
+   "coastal": false,
+   "elevation_ft": 2660,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 93,
+   "record_low_f": -20,
+   "record_high_f": 114,
+   "precip_in": 21.1,
+   "snow_in": 14,
+   "last_frost": "Apr 20",
+   "first_frost": "Oct 24",
+   "growing_days": 186,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Dodge City, KS",
+   "nws_cwa": "DDC",
+   "nwr": [
+    {
+     "call": "WXK93",
+     "freq": "162.475",
+     "same": "020175"
+    },
+    {
+     "call": "WNG555",
+     "freq": "162.425",
+     "same": "020175"
+    },
+    {
+     "call": "WXN81",
+     "freq": "162.450",
+     "same": "020175"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.2,
+   "sun_hours_jun": 6.5
+  },
+  "Shawnee County": {
+   "fips": "20177",
+   "centroid": [
+    39.0418,
+    -95.7557
+   ],
+   "latitude": 39.0,
+   "bbox": [
+    -96.0388,
+    38.8689,
+    -95.5003,
+    39.2169
+   ],
+   "coastal": false,
+   "elevation_ft": 970,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 88,
+   "record_low_f": -26,
+   "record_high_f": 112,
+   "precip_in": 37.3,
+   "snow_in": 17,
+   "last_frost": "Apr 16",
+   "first_frost": "Oct 22",
+   "growing_days": 189,
+   "ecoregion": "Central Irregular Plains",
+   "ecoregion_code": "40",
+   "nws_office": "Topeka, KS",
+   "nws_cwa": "TOP",
+   "nwr": [
+    {
+     "call": "WXK91",
+     "freq": "162.475",
+     "same": "020177"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.8
+  },
+  "Sheridan County": {
+   "fips": "20179",
+   "centroid": [
+    39.3505,
+    -100.4412
+   ],
+   "latitude": 39.4,
+   "bbox": [
+    -100.7215,
+    39.1319,
+    -100.1617,
+    39.568
+   ],
+   "coastal": false,
+   "elevation_ft": 2700,
+   "zone": "6a",
+   "jan_low_f": 19,
+   "jul_high_f": 90,
+   "record_low_f": -30,
+   "record_high_f": 114,
+   "precip_in": 22.0,
+   "snow_in": 24,
+   "last_frost": "Apr 20",
+   "first_frost": "Oct 20",
+   "growing_days": 180,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Goodland, KS",
+   "nws_cwa": "GLD",
+   "nwr": [
+    {
+     "call": "WXK96",
+     "freq": "162.400",
+     "same": "020179"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 6.4
+  },
+  "Sherman County": {
+   "fips": "20181",
+   "centroid": [
+    39.3514,
+    -101.7199
+   ],
+   "latitude": 39.4,
+   "bbox": [
+    -102.0498,
+    39.1331,
+    -101.3891,
+    39.5685
+   ],
+   "coastal": false,
+   "elevation_ft": 3690,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 90,
+   "record_low_f": -27,
+   "record_high_f": 111,
+   "precip_in": 19.1,
+   "snow_in": 30,
+   "last_frost": "May 2",
+   "first_frost": "Oct 11",
+   "growing_days": 158,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Goodland, KS",
+   "nws_cwa": "GLD",
+   "nwr": [
+    {
+     "call": "WXK96",
+     "freq": "162.400",
+     "same": "020181"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 6.4
+  },
+  "Smith County": {
+   "fips": "20183",
+   "centroid": [
+    39.7847,
+    -98.7854
+   ],
+   "latitude": 39.8,
+   "bbox": [
+    -99.067,
+    39.5674,
+    -98.5042,
+    40.0025
+   ],
+   "coastal": false,
+   "elevation_ft": 1810,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 92,
+   "record_low_f": -26,
+   "record_high_f": 113,
+   "precip_in": 26.1,
+   "snow_in": 18,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 15",
+   "growing_days": 173,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Hastings, NE",
+   "nws_cwa": "GID",
+   "nwr": [
+    {
+     "call": "KWN59",
+     "freq": "162.500",
+     "same": "020183"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 6.1
+  },
+  "Stafford County": {
+   "fips": "20185",
+   "centroid": [
+    38.0356,
+    -98.7199
+   ],
+   "latitude": 38.0,
+   "bbox": [
+    -99.0225,
+    37.8242,
+    -98.4719,
+    38.2613
+   ],
+   "coastal": false,
+   "elevation_ft": 1890,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 94,
+   "record_low_f": -20,
+   "record_high_f": 113,
+   "precip_in": 28.7,
+   "snow_in": 18,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 21",
+   "growing_days": 185,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Dodge City, KS",
+   "nws_cwa": "DDC",
+   "nwr": [
+    {
+     "call": "WNG534",
+     "freq": "162.525",
+     "same": "020185"
+    },
+    {
+     "call": "KPS511",
+     "freq": "162.500",
+     "same": "020185"
+    },
+    {
+     "call": "WZ2511",
+     "freq": "162.400",
+     "same": "020185"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 6.2
+  },
+  "Stanton County": {
+   "fips": "20187",
+   "centroid": [
+    37.5659,
+    -101.7894
+   ],
+   "latitude": 37.6,
+   "bbox": [
+    -102.0422,
+    37.3883,
+    -101.5257,
+    37.7385
+   ],
+   "coastal": false,
+   "elevation_ft": 3370,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 93,
+   "record_low_f": -18,
+   "record_high_f": 109,
+   "precip_in": 17.5,
+   "snow_in": 22,
+   "last_frost": "Apr 19",
+   "first_frost": "Oct 23",
+   "growing_days": 186,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Dodge City, KS",
+   "nws_cwa": "DDC",
+   "nwr": [
+    {
+     "call": "WXN81",
+     "freq": "162.450",
+     "same": "020187"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.2,
+   "sun_hours_jun": 6.6
+  },
+  "Stevens County": {
+   "fips": "20189",
+   "centroid": [
+    37.2017,
+    -101.3173
+   ],
+   "latitude": 37.2,
+   "bbox": [
+    -101.5567,
+    36.9954,
+    -101.0665,
+    37.3887
+   ],
+   "coastal": false,
+   "elevation_ft": 3110,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 92,
+   "record_low_f": -22,
+   "record_high_f": 116,
+   "precip_in": 19.7,
+   "snow_in": 13,
+   "last_frost": "Apr 20",
+   "first_frost": "Oct 22",
+   "growing_days": 183,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Dodge City, KS",
+   "nws_cwa": "DDC",
+   "nwr": [
+    {
+     "call": "WXN81",
+     "freq": "162.450",
+     "same": "020189"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.2,
+   "sun_hours_jun": 6.6
+  },
+  "Sumner County": {
+   "fips": "20191",
+   "centroid": [
+    37.2367,
+    -97.4934
+   ],
+   "latitude": 37.2,
+   "bbox": [
+    -97.8075,
+    36.9986,
+    -97.1477,
+    37.4772
+   ],
+   "coastal": false,
+   "elevation_ft": 1250,
+   "zone": "7a",
+   "jan_low_f": 22,
+   "jul_high_f": 92,
+   "record_low_f": -20,
+   "record_high_f": 120,
+   "precip_in": 36.1,
+   "snow_in": 9,
+   "last_frost": "Apr 15",
+   "first_frost": "Oct 29",
+   "growing_days": 195,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Wichita, KS",
+   "nws_cwa": "ICT",
+   "nwr": [
+    {
+     "call": "WWF42",
+     "freq": "162.450",
+     "same": "020191"
+    },
+    {
+     "call": "KEC59",
+     "freq": "162.550",
+     "same": "020191"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 6.1
+  },
+  "Thomas County": {
+   "fips": "20193",
+   "centroid": [
+    39.3577,
+    -101.0834
+   ],
+   "latitude": 39.4,
+   "bbox": [
+    -101.3917,
+    39.1328,
+    -100.72,
+    39.5684
+   ],
+   "coastal": false,
+   "elevation_ft": 3210,
+   "zone": "6a",
+   "jan_low_f": 15,
+   "jul_high_f": 91,
+   "record_low_f": -32,
+   "record_high_f": 113,
+   "precip_in": 20.4,
+   "snow_in": 27,
+   "last_frost": "May 2",
+   "first_frost": "Oct 9",
+   "growing_days": 156,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Goodland, KS",
+   "nws_cwa": "GLD",
+   "nwr": [
+    {
+     "call": "WXK96",
+     "freq": "162.400",
+     "same": "020193"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 6.4
+  },
+  "Trego County": {
+   "fips": "20195",
+   "centroid": [
+    38.9213,
+    -99.8654
+   ],
+   "latitude": 38.9,
+   "bbox": [
+    -100.1542,
+    38.6963,
+    -99.592,
+    39.1324
+   ],
+   "coastal": false,
+   "elevation_ft": 2440,
+   "zone": "6b",
+   "jan_low_f": 17,
+   "jul_high_f": 93,
+   "record_low_f": -25,
+   "record_high_f": 115,
+   "precip_in": 23.9,
+   "snow_in": 20,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 18",
+   "growing_days": 175,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Dodge City, KS",
+   "nws_cwa": "DDC",
+   "nwr": [
+    {
+     "call": "WXM35",
+     "freq": "162.450",
+     "same": "020195"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 6.3
+  },
+  "Wabaunsee County": {
+   "fips": "20197",
+   "centroid": [
+    38.9552,
+    -96.2013
+   ],
+   "latitude": 39.0,
+   "bbox": [
+    -96.502,
+    38.7388,
+    -95.9459,
+    39.2122
+   ],
+   "coastal": false,
+   "elevation_ft": 1280,
+   "zone": "6b",
+   "jan_low_f": 18,
+   "jul_high_f": 89,
+   "record_low_f": -25,
+   "record_high_f": 115,
+   "precip_in": 37.3,
+   "snow_in": 18,
+   "last_frost": "Apr 16",
+   "first_frost": "Oct 23",
+   "growing_days": 189,
+   "ecoregion": "Flint Hills",
+   "ecoregion_code": "28",
+   "nws_office": "Topeka, KS",
+   "nws_cwa": "TOP",
+   "nwr": [
+    {
+     "call": "WXK91",
+     "freq": "162.475",
+     "same": "020197"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.9
+  },
+  "Wallace County": {
+   "fips": "20199",
+   "centroid": [
+    38.9266,
+    -101.7711
+   ],
+   "latitude": 38.9,
+   "bbox": [
+    -102.0472,
+    38.6977,
+    -101.4782,
+    39.1348
+   ],
+   "coastal": false,
+   "elevation_ft": 3540,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 91,
+   "record_low_f": -23,
+   "record_high_f": 112,
+   "precip_in": 19.9,
+   "snow_in": 21,
+   "last_frost": "Apr 28",
+   "first_frost": "Oct 15",
+   "growing_days": 168,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Goodland, KS",
+   "nws_cwa": "GLD",
+   "nwr": [
+    {
+     "call": "WXK96",
+     "freq": "162.400",
+     "same": "020199"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.1,
+   "sun_hours_jun": 6.5
+  },
+  "Washington County": {
+   "fips": "20201",
+   "centroid": [
+    39.7767,
+    -97.0956
+   ],
+   "latitude": 39.8,
+   "bbox": [
+    -97.3691,
+    39.5664,
+    -96.8051,
+    40.0021
+   ],
+   "coastal": false,
+   "elevation_ft": 1430,
+   "zone": "6a",
+   "jan_low_f": 15,
+   "jul_high_f": 90,
+   "record_low_f": -29,
+   "record_high_f": 112,
+   "precip_in": 32.4,
+   "snow_in": 14,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 14",
+   "growing_days": 171,
+   "ecoregion": "Central Great Plains",
+   "ecoregion_code": "27",
+   "nws_office": "Topeka, KS",
+   "nws_cwa": "TOP",
+   "nwr": [
+    {
+     "call": "KZZ67",
+     "freq": "162.425",
+     "same": "020201"
+    },
+    {
+     "call": "WXK94",
+     "freq": "162.550",
+     "same": "020201"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 6.0
+  },
+  "Wichita County": {
+   "fips": "20203",
+   "centroid": [
+    38.4819,
+    -101.3474
+   ],
+   "latitude": 38.5,
+   "bbox": [
+    -101.5676,
+    38.2631,
+    -101.1254,
+    38.7014
+   ],
+   "coastal": false,
+   "elevation_ft": 3300,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 92,
+   "record_low_f": -26,
+   "record_high_f": 111,
+   "precip_in": 19.3,
+   "snow_in": 24,
+   "last_frost": "May 2",
+   "first_frost": "Oct 12",
+   "growing_days": 161,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Goodland, KS",
+   "nws_cwa": "GLD",
+   "nwr": [
+    {
+     "call": "WWG22",
+     "freq": "162.550",
+     "same": "020203"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.1,
+   "sun_hours_jun": 6.5
+  },
+  "Wilson County": {
+   "fips": "20205",
+   "centroid": [
+    37.5585,
+    -95.7452
+   ],
+   "latitude": 37.6,
+   "bbox": [
+    -95.9626,
+    37.3839,
+    -95.525,
+    37.7344
+   ],
+   "coastal": false,
+   "elevation_ft": 930,
+   "zone": "7a",
+   "jan_low_f": 22,
+   "jul_high_f": 90,
+   "record_low_f": -21,
+   "record_high_f": 121,
+   "precip_in": 41.8,
+   "snow_in": 6,
+   "last_frost": "Apr 12",
+   "first_frost": "Oct 26",
+   "growing_days": 197,
+   "ecoregion": "Central Irregular Plains",
+   "ecoregion_code": "40",
+   "nws_office": "Wichita, KS",
+   "nws_cwa": "ICT",
+   "nwr": [
+    {
+     "call": "WXK95",
+     "freq": "162.400",
+     "same": "020205"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.8
+  },
+  "Woodson County": {
+   "fips": "20207",
+   "centroid": [
+    37.8882,
+    -95.7585
+   ],
+   "latitude": 37.9,
+   "bbox": [
+    -95.9616,
+    37.7328,
+    -95.5191,
+    38.0404
+   ],
+   "coastal": false,
+   "elevation_ft": 1100,
+   "zone": "6b",
+   "jan_low_f": 21,
+   "jul_high_f": 89,
+   "record_low_f": -28,
+   "record_high_f": 111,
+   "precip_in": 41.8,
+   "snow_in": 9,
+   "last_frost": "Apr 10",
+   "first_frost": "Oct 28",
+   "growing_days": 198,
+   "ecoregion": "Central Irregular Plains",
+   "ecoregion_code": "40",
+   "nws_office": "Wichita, KS",
+   "nws_cwa": "ICT",
+   "nwr": [
+    {
+     "call": "WXK95",
+     "freq": "162.400",
+     "same": "020207"
+    },
+    {
+     "call": "KGG98",
+     "freq": "162.425",
+     "same": "020207"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.8
+  },
+  "Wyandotte County": {
+   "fips": "20209",
+   "centroid": [
+    39.1154,
+    -94.7631
+   ],
+   "latitude": 39.1,
+   "bbox": [
+    -94.9089,
+    38.9915,
+    -94.5899,
+    39.2021
+   ],
+   "coastal": false,
+   "elevation_ft": 920,
+   "zone": "6b",
+   "jan_low_f": 18,
+   "jul_high_f": 87,
+   "record_low_f": -19,
+   "record_high_f": 113,
+   "precip_in": 40.5,
+   "snow_in": 17,
+   "last_frost": "Apr 16",
+   "first_frost": "Oct 22",
+   "growing_days": 188,
+   "ecoregion": "Central Irregular Plains",
+   "ecoregion_code": "40",
+   "nws_office": "Kansas City/Pleasant Hill, MO",
+   "nws_cwa": "EAX",
+   "nwr": [
+    {
+     "call": "KID77",
+     "freq": "162.550",
+     "same": "020209"
+    }
+   ],
+   "state_em": "Kansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 5.7
+  }
+ }
+}

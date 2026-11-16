@@ -306,5 +306,16 @@
     "url": "https://www.fda.gov/food/buy-store-serve-safe-food/food-allergies-what-you-need-know",
     "household_cited_by": [],
     "cited_by": []
+  },
+  {
+    "key": "fda-homemade-infant-formula-advisory",
+    "title": "FDA Advises Parents and Caregivers to Not Make or Feed Homemade Infant Formula to Infants",
+    "org": "US FDA",
+    "date": "2021-02-24",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work.",
+    "url": "https://www.fda.gov/food/alerts-advisories-safety-information/fda-advises-parents-and-caregivers-not-make-or-feed-homemade-infant-formula-infants",
+    "household_cited_by": [],
+    "cited_by": []
   }
 ]

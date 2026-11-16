@@ -1,0 +1,4582 @@
+{
+ "state": "AR",
+ "state_name": "Arkansas",
+ "state_fips": "05",
+ "state_em": "Arkansas Division of Emergency Management",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "JAN": "NWS Jackson, MS",
+  "LZK": "NWS Little Rock, AR",
+  "MEG": "NWS Memphis, TN",
+  "SHV": "NWS Shreveport, LA",
+  "TSA": "NWS Tulsa, OK"
+ },
+ "ecoregions": [
+  "South Central Plains",
+  "Ouachita Mountains",
+  "Arkansas Valley",
+  "Boston Mountains",
+  "Ozark Highlands",
+  "Mississippi Alluvial Plain",
+  "Mississippi Valley Loess Plains"
+ ],
+ "counties": {
+  "Arkansas County": {
+   "fips": "05001",
+   "centroid": [
+    34.2896,
+    -91.3765
+   ],
+   "latitude": 34.3,
+   "bbox": [
+    -91.7113,
+    33.9383,
+    -91.0522,
+    34.5678
+   ],
+   "coastal": false,
+   "elevation_ft": 190,
+   "zone": "8b",
+   "jan_low_f": 33,
+   "jul_high_f": 91,
+   "record_low_f": -6,
+   "record_high_f": 109,
+   "precip_in": 50.6,
+   "snow_in": 1,
+   "last_frost": "Mar 11",
+   "first_frost": "Nov 17",
+   "growing_days": 250,
+   "ecoregion": "Mississippi Alluvial Plain",
+   "ecoregion_code": "73",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "WXJ55",
+     "freq": "162.550",
+     "same": "005001"
+    },
+    {
+     "call": "WXJ54",
+     "freq": "162.400",
+     "same": "005001"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.8
+  },
+  "Ashley County": {
+   "fips": "05003",
+   "centroid": [
+    33.1908,
+    -91.7723
+   ],
+   "latitude": 33.2,
+   "bbox": [
+    -92.1428,
+    33.0059,
+    -91.4575,
+    33.3981
+   ],
+   "coastal": false,
+   "elevation_ft": 170,
+   "zone": "8b",
+   "jan_low_f": 34,
+   "jul_high_f": 95,
+   "record_low_f": -9,
+   "record_high_f": 113,
+   "precip_in": 56.7,
+   "snow_in": 0,
+   "last_frost": "Mar 18",
+   "first_frost": "Nov 11",
+   "growing_days": 238,
+   "ecoregion": "South Central Plains",
+   "ecoregion_code": "35",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "WNG725",
+     "freq": "162.525",
+     "same": "005003"
+    },
+    {
+     "call": "KGG86",
+     "freq": "162.475",
+     "same": "005003"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.7
+  },
+  "Baxter County": {
+   "fips": "05005",
+   "centroid": [
+    36.2803,
+    -92.3299
+   ],
+   "latitude": 36.3,
+   "bbox": [
+    -92.5949,
+    35.9741,
+    -92.1503,
+    36.4987
+   ],
+   "coastal": false,
+   "elevation_ft": 770,
+   "zone": "7b",
+   "jan_low_f": 26,
+   "jul_high_f": 89,
+   "record_low_f": -16,
+   "record_high_f": 114,
+   "precip_in": 50.9,
+   "snow_in": 8,
+   "last_frost": "Mar 31",
+   "first_frost": "Nov 1",
+   "growing_days": 214,
+   "ecoregion": "Ozark Highlands",
+   "ecoregion_code": "39",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "WXL66",
+     "freq": "162.450",
+     "same": "005005"
+    },
+    {
+     "call": "WWG54",
+     "freq": "162.500",
+     "same": "005005"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.8
+  },
+  "Benton County": {
+   "fips": "05007",
+   "centroid": [
+    36.3378,
+    -94.2563
+   ],
+   "latitude": 36.3,
+   "bbox": [
+    -94.6178,
+    36.0994,
+    -93.8155,
+    36.4996
+   ],
+   "coastal": false,
+   "elevation_ft": 1240,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 89,
+   "record_low_f": -16,
+   "record_high_f": 114,
+   "precip_in": 47.3,
+   "snow_in": 10,
+   "last_frost": "Apr 12",
+   "first_frost": "Oct 26",
+   "growing_days": 195,
+   "ecoregion": "Ozark Highlands",
+   "ecoregion_code": "39",
+   "nws_office": "Tulsa, OK",
+   "nws_cwa": "TSA",
+   "nwr": [
+    {
+     "call": "WXJ52",
+     "freq": "162.475",
+     "same": "005007"
+    },
+    {
+     "call": "WWH38",
+     "freq": "162.525",
+     "same": "005007"
+    },
+    {
+     "call": "WNG694",
+     "freq": "162.400",
+     "same": "005007"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.8
+  },
+  "Boone County": {
+   "fips": "05009",
+   "centroid": [
+    36.3043,
+    -93.0792
+   ],
+   "latitude": 36.3,
+   "bbox": [
+    -93.3008,
+    36.1141,
+    -92.8534,
+    36.4985
+   ],
+   "coastal": false,
+   "elevation_ft": 1200,
+   "zone": "7b",
+   "jan_low_f": 27,
+   "jul_high_f": 89,
+   "record_low_f": -13,
+   "record_high_f": 112,
+   "precip_in": 44.5,
+   "snow_in": 10,
+   "last_frost": "Apr 3",
+   "first_frost": "Oct 30",
+   "growing_days": 210,
+   "ecoregion": "Ozark Highlands",
+   "ecoregion_code": "39",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "WXN92",
+     "freq": "162.525",
+     "same": "005009"
+    },
+    {
+     "call": "WXL66",
+     "freq": "162.450",
+     "same": "005009"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.8
+  },
+  "Bradley County": {
+   "fips": "05011",
+   "centroid": [
+    33.4665,
+    -92.1692
+   ],
+   "latitude": 33.5,
+   "bbox": [
+    -92.3821,
+    33.1612,
+    -91.9607,
+    33.7073
+   ],
+   "coastal": false,
+   "elevation_ft": 170,
+   "zone": "8b",
+   "jan_low_f": 32,
+   "jul_high_f": 91,
+   "record_low_f": -10,
+   "record_high_f": 112,
+   "precip_in": 59.1,
+   "snow_in": 2,
+   "last_frost": "Mar 20",
+   "first_frost": "Nov 11",
+   "growing_days": 235,
+   "ecoregion": "South Central Plains",
+   "ecoregion_code": "35",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "WNG725",
+     "freq": "162.525",
+     "same": "005011"
+    },
+    {
+     "call": "KGG86",
+     "freq": "162.475",
+     "same": "005011"
+    },
+    {
+     "call": "WXJ54",
+     "freq": "162.400",
+     "same": "005011"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.6
+  },
+  "Calhoun County": {
+   "fips": "05013",
+   "centroid": [
+    33.5605,
+    -92.5139
+   ],
+   "latitude": 33.6,
+   "bbox": [
+    -92.7764,
+    33.2706,
+    -92.3116,
+    33.8022
+   ],
+   "coastal": false,
+   "elevation_ft": 190,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 92,
+   "record_low_f": -10,
+   "record_high_f": 115,
+   "precip_in": 53.1,
+   "snow_in": 2,
+   "last_frost": "Mar 21",
+   "first_frost": "Nov 6",
+   "growing_days": 230,
+   "ecoregion": "South Central Plains",
+   "ecoregion_code": "35",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "WNG725",
+     "freq": "162.525",
+     "same": "005013"
+    },
+    {
+     "call": "KGG86",
+     "freq": "162.475",
+     "same": "005013"
+    },
+    {
+     "call": "WXJ48",
+     "freq": "162.475",
+     "same": "005013"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.6
+  },
+  "Carroll County": {
+   "fips": "05015",
+   "centroid": [
+    36.3374,
+    -93.541
+   ],
+   "latitude": 36.3,
+   "bbox": [
+    -93.8901,
+    36.1213,
+    -93.2957,
+    36.4992
+   ],
+   "coastal": false,
+   "elevation_ft": 1240,
+   "zone": "7a",
+   "jan_low_f": 27,
+   "jul_high_f": 88,
+   "record_low_f": -13,
+   "record_high_f": 112,
+   "precip_in": 45.5,
+   "snow_in": 7,
+   "last_frost": "Apr 8",
+   "first_frost": "Nov 2",
+   "growing_days": 209,
+   "ecoregion": "Ozark Highlands",
+   "ecoregion_code": "39",
+   "nws_office": "Tulsa, OK",
+   "nws_cwa": "TSA",
+   "nwr": [
+    {
+     "call": "WXJ52",
+     "freq": "162.475",
+     "same": "005015"
+    },
+    {
+     "call": "WXN92",
+     "freq": "162.525",
+     "same": "005015"
+    },
+    {
+     "call": "WNG694",
+     "freq": "162.400",
+     "same": "005015"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.8
+  },
+  "Chicot County": {
+   "fips": "05017",
+   "centroid": [
+    33.2671,
+    -91.2972
+   ],
+   "latitude": 33.3,
+   "bbox": [
+    -91.4605,
+    33.0038,
+    -91.0437,
+    33.5637
+   ],
+   "coastal": false,
+   "elevation_ft": 120,
+   "zone": "8b",
+   "jan_low_f": 34,
+   "jul_high_f": 93,
+   "record_low_f": 3,
+   "record_high_f": 108,
+   "precip_in": 60.4,
+   "snow_in": 0,
+   "last_frost": "Mar 13",
+   "first_frost": "Nov 14",
+   "growing_days": 244,
+   "ecoregion": "Mississippi Alluvial Plain",
+   "ecoregion_code": "73",
+   "nws_office": "Jackson, MS",
+   "nws_cwa": "JAN",
+   "nwr": [
+    {
+     "call": "KGG86",
+     "freq": "162.475",
+     "same": "005017"
+    },
+    {
+     "call": "KIH50",
+     "freq": "162.425",
+     "same": "005017"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.7
+  },
+  "Clark County": {
+   "fips": "05019",
+   "centroid": [
+    34.0533,
+    -93.1762
+   ],
+   "latitude": 34.1,
+   "bbox": [
+    -93.5022,
+    33.7704,
+    -92.8767,
+    34.3408
+   ],
+   "coastal": false,
+   "elevation_ft": 300,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 94,
+   "record_low_f": -6,
+   "record_high_f": 113,
+   "precip_in": 54.8,
+   "snow_in": 1,
+   "last_frost": "Mar 26",
+   "first_frost": "Nov 4",
+   "growing_days": 225,
+   "ecoregion": "South Central Plains",
+   "ecoregion_code": "35",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "WXJ48",
+     "freq": "162.475",
+     "same": "005019"
+    },
+    {
+     "call": "KXI92",
+     "freq": "162.425",
+     "same": "005019"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.6
+  },
+  "Clay County": {
+   "fips": "05021",
+   "centroid": [
+    36.3673,
+    -90.4187
+   ],
+   "latitude": 36.4,
+   "bbox": [
+    -90.8066,
+    36.2006,
+    -90.0636,
+    36.4994
+   ],
+   "coastal": false,
+   "elevation_ft": 290,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 90,
+   "record_low_f": -25,
+   "record_high_f": 113,
+   "precip_in": 49.5,
+   "snow_in": 5,
+   "last_frost": "Mar 27",
+   "first_frost": "Nov 4",
+   "growing_days": 224,
+   "ecoregion": "Mississippi Alluvial Plain",
+   "ecoregion_code": "73",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "WXJ51",
+     "freq": "162.550",
+     "same": "005021"
+    },
+    {
+     "call": "WWG47",
+     "freq": "162.525",
+     "same": "005021"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 5.8
+  },
+  "Cleburne County": {
+   "fips": "05023",
+   "centroid": [
+    35.5936,
+    -92.0089
+   ],
+   "latitude": 35.6,
+   "bbox": [
+    -92.2528,
+    35.3585,
+    -91.7898,
+    35.7122
+   ],
+   "coastal": false,
+   "elevation_ft": 970,
+   "zone": "8a",
+   "jan_low_f": 28,
+   "jul_high_f": 91,
+   "record_low_f": -7,
+   "record_high_f": 113,
+   "precip_in": 53.4,
+   "snow_in": 3,
+   "last_frost": "Mar 31",
+   "first_frost": "Nov 6",
+   "growing_days": 222,
+   "ecoregion": "Boston Mountains",
+   "ecoregion_code": "38",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "WXJ55",
+     "freq": "162.550",
+     "same": "005023"
+    },
+    {
+     "call": "WXL66",
+     "freq": "162.450",
+     "same": "005023"
+    },
+    {
+     "call": "KXI96",
+     "freq": "162.400",
+     "same": "005023"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.6
+  },
+  "Cleveland County": {
+   "fips": "05025",
+   "centroid": [
+    33.8932,
+    -92.1887
+   ],
+   "latitude": 33.9,
+   "bbox": [
+    -92.4755,
+    33.7042,
+    -91.9533,
+    34.0641
+   ],
+   "coastal": false,
+   "elevation_ft": 180,
+   "zone": "8a",
+   "jan_low_f": 34,
+   "jul_high_f": 91,
+   "record_low_f": -11,
+   "record_high_f": 115,
+   "precip_in": 57.6,
+   "snow_in": 1,
+   "last_frost": "Mar 17",
+   "first_frost": "Nov 14",
+   "growing_days": 241,
+   "ecoregion": "South Central Plains",
+   "ecoregion_code": "35",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "KGG86",
+     "freq": "162.475",
+     "same": "005025"
+    },
+    {
+     "call": "WXJ54",
+     "freq": "162.400",
+     "same": "005025"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.6
+  },
+  "Columbia County": {
+   "fips": "05027",
+   "centroid": [
+    33.223,
+    -93.2328
+   ],
+   "latitude": 33.2,
+   "bbox": [
+    -93.4904,
+    33.0173,
+    -92.9786,
+    33.455
+   ],
+   "coastal": false,
+   "elevation_ft": 310,
+   "zone": "8b",
+   "jan_low_f": 31,
+   "jul_high_f": 92,
+   "record_low_f": -4,
+   "record_high_f": 111,
+   "precip_in": 56.3,
+   "snow_in": 2,
+   "last_frost": "Mar 31",
+   "first_frost": "Nov 2",
+   "growing_days": 218,
+   "ecoregion": "South Central Plains",
+   "ecoregion_code": "35",
+   "nws_office": "Shreveport, LA",
+   "nws_cwa": "SHV",
+   "nwr": [
+    {
+     "call": "WNG725",
+     "freq": "162.525",
+     "same": "005027"
+    },
+    {
+     "call": "WXJ48",
+     "freq": "162.475",
+     "same": "005027"
+    },
+    {
+     "call": "WXJ49",
+     "freq": "162.550",
+     "same": "005027"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.6
+  },
+  "Conway County": {
+   "fips": "05029",
+   "centroid": [
+    35.2657,
+    -92.6892
+   ],
+   "latitude": 35.3,
+   "bbox": [
+    -93.041,
+    35.0717,
+    -92.4795,
+    35.4629
+   ],
+   "coastal": false,
+   "elevation_ft": 680,
+   "zone": "8a",
+   "jan_low_f": 29,
+   "jul_high_f": 92,
+   "record_low_f": -15,
+   "record_high_f": 115,
+   "precip_in": 51.2,
+   "snow_in": 2,
+   "last_frost": "Mar 30",
+   "first_frost": "Nov 2",
+   "growing_days": 219,
+   "ecoregion": "Arkansas Valley",
+   "ecoregion_code": "37",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "WXJ55",
+     "freq": "162.550",
+     "same": "005029"
+    },
+    {
+     "call": "KXI91",
+     "freq": "162.475",
+     "same": "005029"
+    },
+    {
+     "call": "WWF96",
+     "freq": "162.525",
+     "same": "005029"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.6
+  },
+  "Craighead County": {
+   "fips": "05031",
+   "centroid": [
+    35.8277,
+    -90.6314
+   ],
+   "latitude": 35.8,
+   "bbox": [
+    -91.0367,
+    35.7001,
+    -90.2867,
+    35.9964
+   ],
+   "coastal": false,
+   "elevation_ft": 240,
+   "zone": "8a",
+   "jan_low_f": 30,
+   "jul_high_f": 91,
+   "record_low_f": -18,
+   "record_high_f": 116,
+   "precip_in": 48.5,
+   "snow_in": 4,
+   "last_frost": "Mar 23",
+   "first_frost": "Nov 9",
+   "growing_days": 230,
+   "ecoregion": "Mississippi Alluvial Plain",
+   "ecoregion_code": "73",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "WXJ51",
+     "freq": "162.550",
+     "same": "005031"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 5.8
+  },
+  "Crawford County": {
+   "fips": "05033",
+   "centroid": [
+    35.583,
+    -94.2362
+   ],
+   "latitude": 35.6,
+   "bbox": [
+    -94.4931,
+    35.3508,
+    -93.8923,
+    35.7646
+   ],
+   "coastal": false,
+   "elevation_ft": 850,
+   "zone": "7b",
+   "jan_low_f": 26,
+   "jul_high_f": 92,
+   "record_low_f": -11,
+   "record_high_f": 111,
+   "precip_in": 53.4,
+   "snow_in": 3,
+   "last_frost": "Apr 9",
+   "first_frost": "Oct 28",
+   "growing_days": 201,
+   "ecoregion": "Boston Mountains",
+   "ecoregion_code": "38",
+   "nws_office": "Tulsa, OK",
+   "nws_cwa": "TSA",
+   "nwr": [
+    {
+     "call": "WXJ52",
+     "freq": "162.475",
+     "same": "005033"
+    },
+    {
+     "call": "WXJ50",
+     "freq": "162.550",
+     "same": "005033"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.7
+  },
+  "Crittenden County": {
+   "fips": "05035",
+   "centroid": [
+    35.1976,
+    -90.3051
+   ],
+   "latitude": 35.2,
+   "bbox": [
+    -90.5065,
+    34.8331,
+    -90.0647,
+    35.4417
+   ],
+   "coastal": false,
+   "elevation_ft": 220,
+   "zone": "8a",
+   "jan_low_f": 33,
+   "jul_high_f": 91,
+   "record_low_f": -12,
+   "record_high_f": 106,
+   "precip_in": 50.4,
+   "snow_in": 2,
+   "last_frost": "Mar 16",
+   "first_frost": "Nov 11",
+   "growing_days": 242,
+   "ecoregion": "Mississippi Alluvial Plain",
+   "ecoregion_code": "73",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "WXJ51",
+     "freq": "162.550",
+     "same": "005035"
+    },
+    {
+     "call": "WXK49",
+     "freq": "162.475",
+     "same": "005035"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 5.8
+  },
+  "Cross County": {
+   "fips": "05037",
+   "centroid": [
+    35.2857,
+    -90.764
+   ],
+   "latitude": 35.3,
+   "bbox": [
+    -91.0427,
+    35.1435,
+    -90.5022,
+    35.4497
+   ],
+   "coastal": false,
+   "elevation_ft": 350,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 92,
+   "record_low_f": -10,
+   "record_high_f": 110,
+   "precip_in": 50.6,
+   "snow_in": 2,
+   "last_frost": "Mar 23",
+   "first_frost": "Nov 7",
+   "growing_days": 231,
+   "ecoregion": "Mississippi Valley Loess Plains",
+   "ecoregion_code": "74",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "WXJ51",
+     "freq": "162.550",
+     "same": "005037"
+    },
+    {
+     "call": "WXK49",
+     "freq": "162.475",
+     "same": "005037"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 5.8
+  },
+  "Dallas County": {
+   "fips": "05039",
+   "centroid": [
+    33.9678,
+    -92.654
+   ],
+   "latitude": 34.0,
+   "bbox": [
+    -92.9611,
+    33.7953,
+    -92.3349,
+    34.1559
+   ],
+   "coastal": false,
+   "elevation_ft": 270,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 92,
+   "record_low_f": -10,
+   "record_high_f": 110,
+   "precip_in": 56.2,
+   "snow_in": 2,
+   "last_frost": "Mar 29",
+   "first_frost": "Nov 4",
+   "growing_days": 223,
+   "ecoregion": "South Central Plains",
+   "ecoregion_code": "35",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "WXJ48",
+     "freq": "162.475",
+     "same": "005039"
+    },
+    {
+     "call": "WXJ54",
+     "freq": "162.400",
+     "same": "005039"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.6
+  },
+  "Desha County": {
+   "fips": "05041",
+   "centroid": [
+    33.8288,
+    -91.2441
+   ],
+   "latitude": 33.8,
+   "bbox": [
+    -91.5573,
+    33.5171,
+    -90.8707,
+    34.1195
+   ],
+   "coastal": false,
+   "elevation_ft": 150,
+   "zone": "8b",
+   "jan_low_f": 34,
+   "jul_high_f": 90,
+   "record_low_f": -5,
+   "record_high_f": 105,
+   "precip_in": 54.6,
+   "snow_in": 1,
+   "last_frost": "Mar 12",
+   "first_frost": "Nov 14",
+   "growing_days": 247,
+   "ecoregion": "Mississippi Alluvial Plain",
+   "ecoregion_code": "73",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "KGG86",
+     "freq": "162.475",
+     "same": "005041"
+    },
+    {
+     "call": "WXJ54",
+     "freq": "162.400",
+     "same": "005041"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.7
+  },
+  "Drew County": {
+   "fips": "05043",
+   "centroid": [
+    33.5872,
+    -91.7228
+   ],
+   "latitude": 33.6,
+   "bbox": [
+    -92.0153,
+    33.389,
+    -91.4504,
+    33.7922
+   ],
+   "coastal": false,
+   "elevation_ft": 210,
+   "zone": "8b",
+   "jan_low_f": 34,
+   "jul_high_f": 92,
+   "record_low_f": -6,
+   "record_high_f": 109,
+   "precip_in": 53.0,
+   "snow_in": 1,
+   "last_frost": "Mar 18",
+   "first_frost": "Nov 12",
+   "growing_days": 238,
+   "ecoregion": "South Central Plains",
+   "ecoregion_code": "35",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "KGG86",
+     "freq": "162.475",
+     "same": "005043"
+    },
+    {
+     "call": "WXJ54",
+     "freq": "162.400",
+     "same": "005043"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.7
+  },
+  "Faulkner County": {
+   "fips": "05045",
+   "centroid": [
+    35.1465,
+    -92.3369
+   ],
+   "latitude": 35.1,
+   "bbox": [
+    -92.5984,
+    34.8429,
+    -92.1115,
+    35.3683
+   ],
+   "coastal": false,
+   "elevation_ft": 280,
+   "zone": "8a",
+   "jan_low_f": 28,
+   "jul_high_f": 92,
+   "record_low_f": -11,
+   "record_high_f": 111,
+   "precip_in": 50.5,
+   "snow_in": 2,
+   "last_frost": "Apr 9",
+   "first_frost": "Oct 25",
+   "growing_days": 198,
+   "ecoregion": "Arkansas Valley",
+   "ecoregion_code": "37",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "WXJ55",
+     "freq": "162.550",
+     "same": "005045"
+    },
+    {
+     "call": "KXI91",
+     "freq": "162.475",
+     "same": "005045"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.6
+  },
+  "Franklin County": {
+   "fips": "05047",
+   "centroid": [
+    35.5086,
+    -93.8877
+   ],
+   "latitude": 35.5,
+   "bbox": [
+    -94.0827,
+    35.1996,
+    -93.696,
+    35.7742
+   ],
+   "coastal": false,
+   "elevation_ft": 680,
+   "zone": "8a",
+   "jan_low_f": 28,
+   "jul_high_f": 92,
+   "record_low_f": -6,
+   "record_high_f": 114,
+   "precip_in": 52.2,
+   "snow_in": 1,
+   "last_frost": "Mar 30",
+   "first_frost": "Nov 6",
+   "growing_days": 222,
+   "ecoregion": "Arkansas Valley",
+   "ecoregion_code": "37",
+   "nws_office": "Tulsa, OK",
+   "nws_cwa": "TSA",
+   "nwr": [
+    {
+     "call": "WXJ52",
+     "freq": "162.475",
+     "same": "005047"
+    },
+    {
+     "call": "WXJ50",
+     "freq": "162.550",
+     "same": "005047"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.7
+  },
+  "Fulton County": {
+   "fips": "05049",
+   "centroid": [
+    36.3813,
+    -91.8193
+   ],
+   "latitude": 36.4,
+   "bbox": [
+    -92.1591,
+    36.25,
+    -91.4501,
+    36.4997
+   ],
+   "coastal": false,
+   "elevation_ft": 700,
+   "zone": "7a",
+   "jan_low_f": 25,
+   "jul_high_f": 90,
+   "record_low_f": -24,
+   "record_high_f": 110,
+   "precip_in": 49.5,
+   "snow_in": 5,
+   "last_frost": "Apr 8",
+   "first_frost": "Oct 30",
+   "growing_days": 204,
+   "ecoregion": "Ozark Highlands",
+   "ecoregion_code": "39",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "WNG639",
+     "freq": "162.475",
+     "same": "005049"
+    },
+    {
+     "call": "WXL66",
+     "freq": "162.450",
+     "same": "005049"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.8
+  },
+  "Garland County": {
+   "fips": "05051",
+   "centroid": [
+    34.5789,
+    -93.1469
+   ],
+   "latitude": 34.6,
+   "bbox": [
+    -93.4072,
+    34.3893,
+    -92.7916,
+    34.7735
+   ],
+   "coastal": false,
+   "elevation_ft": 470,
+   "zone": "8a",
+   "jan_low_f": 29,
+   "jul_high_f": 90,
+   "record_low_f": -8,
+   "record_high_f": 111,
+   "precip_in": 57.9,
+   "snow_in": 1,
+   "last_frost": "Apr 3",
+   "first_frost": "Nov 4",
+   "growing_days": 216,
+   "ecoregion": "Ouachita Mountains",
+   "ecoregion_code": "36",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "KXI92",
+     "freq": "162.425",
+     "same": "005051"
+    },
+    {
+     "call": "WXJ55",
+     "freq": "162.550",
+     "same": "005051"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.6
+  },
+  "Grant County": {
+   "fips": "05053",
+   "centroid": [
+    34.2856,
+    -92.423
+   ],
+   "latitude": 34.3,
+   "bbox": [
+    -92.6784,
+    34.0597,
+    -92.2078,
+    34.4957
+   ],
+   "coastal": false,
+   "elevation_ft": 300,
+   "zone": "8a",
+   "jan_low_f": 29,
+   "jul_high_f": 92,
+   "record_low_f": -8,
+   "record_high_f": 108,
+   "precip_in": 55.2,
+   "snow_in": 2,
+   "last_frost": "Apr 1",
+   "first_frost": "Nov 3",
+   "growing_days": 218,
+   "ecoregion": "South Central Plains",
+   "ecoregion_code": "35",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "WXJ55",
+     "freq": "162.550",
+     "same": "005053"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.6
+  },
+  "Greene County": {
+   "fips": "05055",
+   "centroid": [
+    36.1206,
+    -90.5663
+   ],
+   "latitude": 36.1,
+   "bbox": [
+    -90.8589,
+    35.9648,
+    -90.1947,
+    36.268
+   ],
+   "coastal": false,
+   "elevation_ft": 430,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 90,
+   "record_low_f": -14,
+   "record_high_f": 106,
+   "precip_in": 51.7,
+   "snow_in": 2,
+   "last_frost": "Mar 26",
+   "first_frost": "Nov 6",
+   "growing_days": 227,
+   "ecoregion": "Mississippi Valley Loess Plains",
+   "ecoregion_code": "74",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "WXJ51",
+     "freq": "162.550",
+     "same": "005055"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 5.8
+  },
+  "Hempstead County": {
+   "fips": "05057",
+   "centroid": [
+    33.736,
+    -93.6644
+   ],
+   "latitude": 33.7,
+   "bbox": [
+    -93.9691,
+    33.4761,
+    -93.4558,
+    34.0089
+   ],
+   "coastal": false,
+   "elevation_ft": 360,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 92,
+   "record_low_f": -8,
+   "record_high_f": 115,
+   "precip_in": 55.7,
+   "snow_in": 2,
+   "last_frost": "Mar 26",
+   "first_frost": "Nov 6",
+   "growing_days": 226,
+   "ecoregion": "South Central Plains",
+   "ecoregion_code": "35",
+   "nws_office": "Shreveport, LA",
+   "nws_cwa": "SHV",
+   "nwr": [
+    {
+     "call": "WXJ48",
+     "freq": "162.475",
+     "same": "005057"
+    },
+    {
+     "call": "KXI92",
+     "freq": "162.425",
+     "same": "005057"
+    },
+    {
+     "call": "KXI97",
+     "freq": "162.400",
+     "same": "005057"
+    },
+    {
+     "call": "WXJ49",
+     "freq": "162.550",
+     "same": "005057"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.6
+  },
+  "Hot Spring County": {
+   "fips": "05059",
+   "centroid": [
+    34.3152,
+    -92.9441
+   ],
+   "latitude": 34.3,
+   "bbox": [
+    -93.4086,
+    34.1496,
+    -92.6687,
+    34.5061
+   ],
+   "coastal": false,
+   "elevation_ft": 360,
+   "zone": "8a",
+   "jan_low_f": 29,
+   "jul_high_f": 92,
+   "record_low_f": -11,
+   "record_high_f": 114,
+   "precip_in": 57.5,
+   "snow_in": 1,
+   "last_frost": "Mar 31",
+   "first_frost": "Nov 5",
+   "growing_days": 220,
+   "ecoregion": "Ouachita Mountains",
+   "ecoregion_code": "36",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "WXJ48",
+     "freq": "162.475",
+     "same": "005059"
+    },
+    {
+     "call": "KXI92",
+     "freq": "162.425",
+     "same": "005059"
+    },
+    {
+     "call": "WXJ55",
+     "freq": "162.550",
+     "same": "005059"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.6
+  },
+  "Howard County": {
+   "fips": "05061",
+   "centroid": [
+    34.0831,
+    -93.9909
+   ],
+   "latitude": 34.1,
+   "bbox": [
+    -94.256,
+    33.7477,
+    -93.8208,
+    34.3556
+   ],
+   "coastal": false,
+   "elevation_ft": 430,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 93,
+   "record_low_f": -14,
+   "record_high_f": 113,
+   "precip_in": 55.0,
+   "snow_in": 3,
+   "last_frost": "Mar 26",
+   "first_frost": "Nov 9",
+   "growing_days": 227,
+   "ecoregion": "South Central Plains",
+   "ecoregion_code": "35",
+   "nws_office": "Shreveport, LA",
+   "nws_cwa": "SHV",
+   "nwr": [
+    {
+     "call": "WXJ65",
+     "freq": "162.450",
+     "same": "005061"
+    },
+    {
+     "call": "KXI92",
+     "freq": "162.425",
+     "same": "005061"
+    },
+    {
+     "call": "KXI97",
+     "freq": "162.400",
+     "same": "005061"
+    },
+    {
+     "call": "WXJ49",
+     "freq": "162.550",
+     "same": "005061"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.6
+  },
+  "Independence County": {
+   "fips": "05063",
+   "centroid": [
+    35.7375,
+    -91.5599
+   ],
+   "latitude": 35.7,
+   "bbox": [
+    -91.871,
+    35.5263,
+    -91.1983,
+    35.9429
+   ],
+   "coastal": false,
+   "elevation_ft": 330,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 91,
+   "record_low_f": -15,
+   "record_high_f": 112,
+   "precip_in": 50.8,
+   "snow_in": 2,
+   "last_frost": "Mar 30",
+   "first_frost": "Nov 5",
+   "growing_days": 221,
+   "ecoregion": "Ozark Highlands",
+   "ecoregion_code": "39",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "WXL66",
+     "freq": "162.450",
+     "same": "005063"
+    },
+    {
+     "call": "KXI96",
+     "freq": "162.400",
+     "same": "005063"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.8
+  },
+  "Izard County": {
+   "fips": "05065",
+   "centroid": [
+    36.0949,
+    -91.9136
+   ],
+   "latitude": 36.1,
+   "bbox": [
+    -92.2152,
+    35.8679,
+    -91.6741,
+    36.2612
+   ],
+   "coastal": false,
+   "elevation_ft": 660,
+   "zone": "7b",
+   "jan_low_f": 25,
+   "jul_high_f": 90,
+   "record_low_f": -15,
+   "record_high_f": 113,
+   "precip_in": 49.5,
+   "snow_in": 5,
+   "last_frost": "Apr 8",
+   "first_frost": "Oct 30",
+   "growing_days": 204,
+   "ecoregion": "Ozark Highlands",
+   "ecoregion_code": "39",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "WNG639",
+     "freq": "162.475",
+     "same": "005065"
+    },
+    {
+     "call": "WXL66",
+     "freq": "162.450",
+     "same": "005065"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.8
+  },
+  "Jackson County": {
+   "fips": "05067",
+   "centroid": [
+    35.5965,
+    -91.2232
+   ],
+   "latitude": 35.6,
+   "bbox": [
+    -91.5844,
+    35.3543,
+    -91.0327,
+    35.89
+   ],
+   "coastal": false,
+   "elevation_ft": 230,
+   "zone": "8a",
+   "jan_low_f": 30,
+   "jul_high_f": 89,
+   "record_low_f": -17,
+   "record_high_f": 114,
+   "precip_in": 51.2,
+   "snow_in": 3,
+   "last_frost": "Mar 18",
+   "first_frost": "Nov 11",
+   "growing_days": 240,
+   "ecoregion": "Mississippi Alluvial Plain",
+   "ecoregion_code": "73",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "WXJ51",
+     "freq": "162.550",
+     "same": "005067"
+    },
+    {
+     "call": "KXI96",
+     "freq": "162.400",
+     "same": "005067"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.8
+  },
+  "Jefferson County": {
+   "fips": "05069",
+   "centroid": [
+    34.2772,
+    -91.9297
+   ],
+   "latitude": 34.3,
+   "bbox": [
+    -92.2334,
+    34.0623,
+    -91.4319,
+    34.4928
+   ],
+   "coastal": false,
+   "elevation_ft": 210,
+   "zone": "8b",
+   "jan_low_f": 33,
+   "jul_high_f": 92,
+   "record_low_f": -6,
+   "record_high_f": 112,
+   "precip_in": 53.6,
+   "snow_in": 2,
+   "last_frost": "Mar 14",
+   "first_frost": "Nov 16",
+   "growing_days": 245,
+   "ecoregion": "Mississippi Alluvial Plain",
+   "ecoregion_code": "73",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "WXJ55",
+     "freq": "162.550",
+     "same": "005069"
+    },
+    {
+     "call": "WXJ54",
+     "freq": "162.400",
+     "same": "005069"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.8
+  },
+  "Johnson County": {
+   "fips": "05071",
+   "centroid": [
+    35.5734,
+    -93.4663
+   ],
+   "latitude": 35.6,
+   "bbox": [
+    -93.7101,
+    35.3269,
+    -93.1645,
+    35.7685
+   ],
+   "coastal": false,
+   "elevation_ft": 820,
+   "zone": "8a",
+   "jan_low_f": 29,
+   "jul_high_f": 90,
+   "record_low_f": -15,
+   "record_high_f": 110,
+   "precip_in": 52.8,
+   "snow_in": 2,
+   "last_frost": "Mar 25",
+   "first_frost": "Nov 10",
+   "growing_days": 232,
+   "ecoregion": "Arkansas Valley",
+   "ecoregion_code": "37",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "WWF96",
+     "freq": "162.525",
+     "same": "005071"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.7
+  },
+  "Lafayette County": {
+   "fips": "05073",
+   "centroid": [
+    33.2406,
+    -93.6115
+   ],
+   "latitude": 33.2,
+   "bbox": [
+    -93.8603,
+    33.0176,
+    -93.3663,
+    33.4821
+   ],
+   "coastal": false,
+   "elevation_ft": 250,
+   "zone": "8b",
+   "jan_low_f": 33,
+   "jul_high_f": 93,
+   "record_low_f": -1,
+   "record_high_f": 112,
+   "precip_in": 53.0,
+   "snow_in": 2,
+   "last_frost": "Mar 19",
+   "first_frost": "Nov 12",
+   "growing_days": 238,
+   "ecoregion": "South Central Plains",
+   "ecoregion_code": "35",
+   "nws_office": "Shreveport, LA",
+   "nws_cwa": "SHV",
+   "nwr": [
+    {
+     "call": "WXJ49",
+     "freq": "162.550",
+     "same": "005073"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.6
+  },
+  "Lawrence County": {
+   "fips": "05075",
+   "centroid": [
+    36.0411,
+    -91.1012
+   ],
+   "latitude": 36.0,
+   "bbox": [
+    -91.3572,
+    35.8809,
+    -90.7475,
+    36.2578
+   ],
+   "coastal": false,
+   "elevation_ft": 250,
+   "zone": "8a",
+   "jan_low_f": 28,
+   "jul_high_f": 88,
+   "record_low_f": -14,
+   "record_high_f": 113,
+   "precip_in": 47.5,
+   "snow_in": 4,
+   "last_frost": "Mar 27",
+   "first_frost": "Nov 5",
+   "growing_days": 224,
+   "ecoregion": "Mississippi Alluvial Plain",
+   "ecoregion_code": "73",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "WXJ51",
+     "freq": "162.550",
+     "same": "005075"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.8
+  },
+  "Lee County": {
+   "fips": "05077",
+   "centroid": [
+    34.7795,
+    -90.7797
+   ],
+   "latitude": 34.8,
+   "bbox": [
+    -91.1023,
+    34.6276,
+    -90.4077,
+    34.9119
+   ],
+   "coastal": false,
+   "elevation_ft": 220,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 91,
+   "record_low_f": -11,
+   "record_high_f": 109,
+   "precip_in": 52.1,
+   "snow_in": 1,
+   "last_frost": "Mar 18",
+   "first_frost": "Nov 11",
+   "growing_days": 238,
+   "ecoregion": "Mississippi Alluvial Plain",
+   "ecoregion_code": "73",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "WXK49",
+     "freq": "162.475",
+     "same": "005077"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.8
+  },
+  "Lincoln County": {
+   "fips": "05079",
+   "centroid": [
+    33.9564,
+    -91.7424
+   ],
+   "latitude": 34.0,
+   "bbox": [
+    -91.9764,
+    33.7834,
+    -91.4218,
+    34.1739
+   ],
+   "coastal": false,
+   "elevation_ft": 170,
+   "zone": "8b",
+   "jan_low_f": 33,
+   "jul_high_f": 92,
+   "record_low_f": -5,
+   "record_high_f": 112,
+   "precip_in": 56.5,
+   "snow_in": 2,
+   "last_frost": "Mar 15",
+   "first_frost": "Nov 17",
+   "growing_days": 246,
+   "ecoregion": "Mississippi Alluvial Plain",
+   "ecoregion_code": "73",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "WXJ54",
+     "freq": "162.400",
+     "same": "005079"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.7
+  },
+  "Little River County": {
+   "fips": "05081",
+   "centroid": [
+    33.7019,
+    -94.2363
+   ],
+   "latitude": 33.7,
+   "bbox": [
+    -94.4861,
+    33.5338,
+    -93.825,
+    33.9452
+   ],
+   "coastal": false,
+   "elevation_ft": 340,
+   "zone": "8b",
+   "jan_low_f": 32,
+   "jul_high_f": 93,
+   "record_low_f": -10,
+   "record_high_f": 124,
+   "precip_in": 53.2,
+   "snow_in": 2,
+   "last_frost": "Mar 24",
+   "first_frost": "Nov 11",
+   "growing_days": 233,
+   "ecoregion": "South Central Plains",
+   "ecoregion_code": "35",
+   "nws_office": "Shreveport, LA",
+   "nws_cwa": "SHV",
+   "nwr": [
+    {
+     "call": "WXJ65",
+     "freq": "162.450",
+     "same": "005081"
+    },
+    {
+     "call": "KXI97",
+     "freq": "162.400",
+     "same": "005081"
+    },
+    {
+     "call": "WXJ49",
+     "freq": "162.550",
+     "same": "005081"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.6
+  },
+  "Logan County": {
+   "fips": "05083",
+   "centroid": [
+    35.2187,
+    -93.7209
+   ],
+   "latitude": 35.2,
+   "bbox": [
+    -94.1419,
+    35.0188,
+    -93.2786,
+    35.4299
+   ],
+   "coastal": false,
+   "elevation_ft": 670,
+   "zone": "8a",
+   "jan_low_f": 29,
+   "jul_high_f": 92,
+   "record_low_f": -17,
+   "record_high_f": 117,
+   "precip_in": 49.3,
+   "snow_in": 2,
+   "last_frost": "Mar 28",
+   "first_frost": "Nov 5",
+   "growing_days": 223,
+   "ecoregion": "Arkansas Valley",
+   "ecoregion_code": "37",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "WXJ50",
+     "freq": "162.550",
+     "same": "005083"
+    },
+    {
+     "call": "WWF96",
+     "freq": "162.525",
+     "same": "005083"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.7
+  },
+  "Lonoke County": {
+   "fips": "05085",
+   "centroid": [
+    34.7551,
+    -91.8941
+   ],
+   "latitude": 34.8,
+   "bbox": [
+    -92.1212,
+    34.482,
+    -91.6338,
+    35.0755
+   ],
+   "coastal": false,
+   "elevation_ft": 240,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 90,
+   "record_low_f": -5,
+   "record_high_f": 107,
+   "precip_in": 50.5,
+   "snow_in": 3,
+   "last_frost": "Mar 21",
+   "first_frost": "Nov 9",
+   "growing_days": 235,
+   "ecoregion": "Mississippi Alluvial Plain",
+   "ecoregion_code": "73",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "WXJ55",
+     "freq": "162.550",
+     "same": "005085"
+    },
+    {
+     "call": "KXI96",
+     "freq": "162.400",
+     "same": "005085"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.8
+  },
+  "Madison County": {
+   "fips": "05087",
+   "centroid": [
+    36.0125,
+    -93.7241
+   ],
+   "latitude": 36.0,
+   "bbox": [
+    -93.9634,
+    35.7597,
+    -93.4458,
+    36.3074
+   ],
+   "coastal": false,
+   "elevation_ft": 1440,
+   "zone": "7a",
+   "jan_low_f": 30,
+   "jul_high_f": 88,
+   "record_low_f": -20,
+   "record_high_f": 110,
+   "precip_in": 45.6,
+   "snow_in": 6,
+   "last_frost": "Mar 30",
+   "first_frost": "Nov 7",
+   "growing_days": 224,
+   "ecoregion": "Boston Mountains",
+   "ecoregion_code": "38",
+   "nws_office": "Tulsa, OK",
+   "nws_cwa": "TSA",
+   "nwr": [
+    {
+     "call": "WXJ52",
+     "freq": "162.475",
+     "same": "005087"
+    },
+    {
+     "call": "WNG694",
+     "freq": "162.400",
+     "same": "005087"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.8
+  },
+  "Marion County": {
+   "fips": "05089",
+   "centroid": [
+    36.2667,
+    -92.6786
+   ],
+   "latitude": 36.3,
+   "bbox": [
+    -92.8907,
+    36.0627,
+    -92.4072,
+    36.4986
+   ],
+   "coastal": false,
+   "elevation_ft": 910,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 90,
+   "record_low_f": -28,
+   "record_high_f": 116,
+   "precip_in": 41.2,
+   "snow_in": 8,
+   "last_frost": "Apr 2",
+   "first_frost": "Nov 1",
+   "growing_days": 212,
+   "ecoregion": "Ozark Highlands",
+   "ecoregion_code": "39",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "WXN92",
+     "freq": "162.525",
+     "same": "005089"
+    },
+    {
+     "call": "WXL66",
+     "freq": "162.450",
+     "same": "005089"
+    },
+    {
+     "call": "WWG54",
+     "freq": "162.500",
+     "same": "005089"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.8
+  },
+  "Miller County": {
+   "fips": "05091",
+   "centroid": [
+    33.3055,
+    -93.9015
+   ],
+   "latitude": 33.3,
+   "bbox": [
+    -94.0442,
+    33.0182,
+    -93.6655,
+    33.614
+   ],
+   "coastal": false,
+   "elevation_ft": 290,
+   "zone": "8b",
+   "jan_low_f": 35,
+   "jul_high_f": 93,
+   "record_low_f": -9,
+   "record_high_f": 117,
+   "precip_in": 48.9,
+   "snow_in": 1,
+   "last_frost": "Mar 13",
+   "first_frost": "Nov 13",
+   "growing_days": 246,
+   "ecoregion": "South Central Plains",
+   "ecoregion_code": "35",
+   "nws_office": "Shreveport, LA",
+   "nws_cwa": "SHV",
+   "nwr": [
+    {
+     "call": "WXJ49",
+     "freq": "162.550",
+     "same": "005091"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.6
+  },
+  "Mississippi County": {
+   "fips": "05093",
+   "centroid": [
+    35.7669,
+    -90.0522
+   ],
+   "latitude": 35.8,
+   "bbox": [
+    -90.2888,
+    35.3893,
+    -89.645,
+    36.0006
+   ],
+   "coastal": false,
+   "elevation_ft": 230,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 91,
+   "record_low_f": -10,
+   "record_high_f": 106,
+   "precip_in": 52.2,
+   "snow_in": 2,
+   "last_frost": "Mar 23",
+   "first_frost": "Nov 6",
+   "growing_days": 229,
+   "ecoregion": "Mississippi Alluvial Plain",
+   "ecoregion_code": "73",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "WWH30",
+     "freq": "162.500",
+     "same": "005093"
+    },
+    {
+     "call": "WXJ51",
+     "freq": "162.550",
+     "same": "005093"
+    },
+    {
+     "call": "WXK49",
+     "freq": "162.475",
+     "same": "005093"
+    },
+    {
+     "call": "WWG47",
+     "freq": "162.525",
+     "same": "005093"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 5.8
+  },
+  "Monroe County": {
+   "fips": "05095",
+   "centroid": [
+    34.6795,
+    -91.2033
+   ],
+   "latitude": 34.7,
+   "bbox": [
+    -91.4475,
+    34.3362,
+    -91.0005,
+    35.0041
+   ],
+   "coastal": false,
+   "elevation_ft": 180,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 90,
+   "record_low_f": -4,
+   "record_high_f": 106,
+   "precip_in": 55.1,
+   "snow_in": 3,
+   "last_frost": "Mar 15",
+   "first_frost": "Nov 11",
+   "growing_days": 241,
+   "ecoregion": "Mississippi Alluvial Plain",
+   "ecoregion_code": "73",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "KXI96",
+     "freq": "162.400",
+     "same": "005095"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.8
+  },
+  "Montgomery County": {
+   "fips": "05097",
+   "centroid": [
+    34.5457,
+    -93.6642
+   ],
+   "latitude": 34.5,
+   "bbox": [
+    -93.9354,
+    34.3395,
+    -93.3939,
+    34.7462
+   ],
+   "coastal": false,
+   "elevation_ft": 940,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 90,
+   "record_low_f": -21,
+   "record_high_f": 116,
+   "precip_in": 57.9,
+   "snow_in": 4,
+   "last_frost": "Apr 8",
+   "first_frost": "Oct 26",
+   "growing_days": 201,
+   "ecoregion": "Ouachita Mountains",
+   "ecoregion_code": "36",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "KXI92",
+     "freq": "162.425",
+     "same": "005097"
+    },
+    {
+     "call": "KXI97",
+     "freq": "162.400",
+     "same": "005097"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.6
+  },
+  "Nevada County": {
+   "fips": "05099",
+   "centroid": [
+    33.6667,
+    -93.3051
+   ],
+   "latitude": 33.7,
+   "bbox": [
+    -93.484,
+    33.4406,
+    -93.1043,
+    33.961
+   ],
+   "coastal": false,
+   "elevation_ft": 310,
+   "zone": "8a",
+   "jan_low_f": 30,
+   "jul_high_f": 92,
+   "record_low_f": -9,
+   "record_high_f": 119,
+   "precip_in": 56.6,
+   "snow_in": 3,
+   "last_frost": "Mar 29",
+   "first_frost": "Nov 6",
+   "growing_days": 224,
+   "ecoregion": "South Central Plains",
+   "ecoregion_code": "35",
+   "nws_office": "Shreveport, LA",
+   "nws_cwa": "SHV",
+   "nwr": [
+    {
+     "call": "WXJ48",
+     "freq": "162.475",
+     "same": "005099"
+    },
+    {
+     "call": "WXJ49",
+     "freq": "162.550",
+     "same": "005099"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.6
+  },
+  "Newton County": {
+   "fips": "05101",
+   "centroid": [
+    35.9107,
+    -93.2159
+   ],
+   "latitude": 35.9,
+   "bbox": [
+    -93.5257,
+    35.7247,
+    -92.9385,
+    36.1252
+   ],
+   "coastal": false,
+   "elevation_ft": 1810,
+   "zone": "7b",
+   "jan_low_f": 26,
+   "jul_high_f": 82,
+   "record_low_f": -20,
+   "record_high_f": 106,
+   "precip_in": 56.3,
+   "snow_in": 10,
+   "last_frost": "Apr 7",
+   "first_frost": "Nov 4",
+   "growing_days": 211,
+   "ecoregion": "Boston Mountains",
+   "ecoregion_code": "38",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "WXN92",
+     "freq": "162.525",
+     "same": "005101"
+    },
+    {
+     "call": "WXL66",
+     "freq": "162.450",
+     "same": "005101"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.7
+  },
+  "Ouachita County": {
+   "fips": "05103",
+   "centroid": [
+    33.5912,
+    -92.8784
+   ],
+   "latitude": 33.6,
+   "bbox": [
+    -93.119,
+    33.3562,
+    -92.5663,
+    33.8219
+   ],
+   "coastal": false,
+   "elevation_ft": 150,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 92,
+   "record_low_f": -10,
+   "record_high_f": 115,
+   "precip_in": 53.1,
+   "snow_in": 2,
+   "last_frost": "Mar 21",
+   "first_frost": "Nov 6",
+   "growing_days": 230,
+   "ecoregion": "South Central Plains",
+   "ecoregion_code": "35",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "WNG725",
+     "freq": "162.525",
+     "same": "005103"
+    },
+    {
+     "call": "WXJ48",
+     "freq": "162.475",
+     "same": "005103"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.6
+  },
+  "Perry County": {
+   "fips": "05105",
+   "centroid": [
+    34.9464,
+    -92.9269
+   ],
+   "latitude": 34.9,
+   "bbox": [
+    -93.3059,
+    34.7718,
+    -92.5407,
+    35.1156
+   ],
+   "coastal": false,
+   "elevation_ft": 290,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 94,
+   "record_low_f": -11,
+   "record_high_f": 112,
+   "precip_in": 54.4,
+   "snow_in": 3,
+   "last_frost": "Mar 22",
+   "first_frost": "Nov 11",
+   "growing_days": 233,
+   "ecoregion": "Ouachita Mountains",
+   "ecoregion_code": "36",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "KXI92",
+     "freq": "162.425",
+     "same": "005105"
+    },
+    {
+     "call": "WXJ55",
+     "freq": "162.550",
+     "same": "005105"
+    },
+    {
+     "call": "KXI91",
+     "freq": "162.475",
+     "same": "005105"
+    },
+    {
+     "call": "WWF96",
+     "freq": "162.525",
+     "same": "005105"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.6
+  },
+  "Phillips County": {
+   "fips": "05107",
+   "centroid": [
+    34.4237,
+    -90.8556
+   ],
+   "latitude": 34.4,
+   "bbox": [
+    -91.1177,
+    34.1187,
+    -90.5408,
+    34.6457
+   ],
+   "coastal": false,
+   "elevation_ft": 160,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 90,
+   "record_low_f": -5,
+   "record_high_f": 111,
+   "precip_in": 51.9,
+   "snow_in": 1,
+   "last_frost": "Mar 17",
+   "first_frost": "Nov 10",
+   "growing_days": 238,
+   "ecoregion": "Mississippi Alluvial Plain",
+   "ecoregion_code": "73",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "WNG643",
+     "freq": "162.525",
+     "same": "005107"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.8
+  },
+  "Pike County": {
+   "fips": "05109",
+   "centroid": [
+    34.1582,
+    -93.6587
+   ],
+   "latitude": 34.2,
+   "bbox": [
+    -93.9369,
+    33.9437,
+    -93.372,
+    34.3502
+   ],
+   "coastal": false,
+   "elevation_ft": 650,
+   "zone": "8a",
+   "jan_low_f": 29,
+   "jul_high_f": 90,
+   "record_low_f": -13,
+   "record_high_f": 109,
+   "precip_in": 58.4,
+   "snow_in": 1,
+   "last_frost": "Apr 5",
+   "first_frost": "Nov 1",
+   "growing_days": 209,
+   "ecoregion": "Ouachita Mountains",
+   "ecoregion_code": "36",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "WXJ48",
+     "freq": "162.475",
+     "same": "005109"
+    },
+    {
+     "call": "KXI92",
+     "freq": "162.425",
+     "same": "005109"
+    },
+    {
+     "call": "KXI97",
+     "freq": "162.400",
+     "same": "005109"
+    },
+    {
+     "call": "WXJ49",
+     "freq": "162.550",
+     "same": "005109"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.6
+  },
+  "Poinsett County": {
+   "fips": "05111",
+   "centroid": [
+    35.5689,
+    -90.6811
+   ],
+   "latitude": 35.6,
+   "bbox": [
+    -91.0394,
+    35.4386,
+    -90.2863,
+    35.7089
+   ],
+   "coastal": false,
+   "elevation_ft": 350,
+   "zone": "8a",
+   "jan_low_f": 28,
+   "jul_high_f": 88,
+   "record_low_f": -18,
+   "record_high_f": 116,
+   "precip_in": 51.2,
+   "snow_in": 4,
+   "last_frost": "Mar 28",
+   "first_frost": "Nov 7",
+   "growing_days": 224,
+   "ecoregion": "Mississippi Valley Loess Plains",
+   "ecoregion_code": "74",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "WXJ51",
+     "freq": "162.550",
+     "same": "005111"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 5.8
+  },
+  "Polk County": {
+   "fips": "05113",
+   "centroid": [
+    34.491,
+    -94.2309
+   ],
+   "latitude": 34.5,
+   "bbox": [
+    -94.4703,
+    34.1899,
+    -93.9301,
+    34.7289
+   ],
+   "coastal": false,
+   "elevation_ft": 1420,
+   "zone": "8a",
+   "jan_low_f": 28,
+   "jul_high_f": 90,
+   "record_low_f": -15,
+   "record_high_f": 112,
+   "precip_in": 61.4,
+   "snow_in": 4,
+   "last_frost": "Apr 5",
+   "first_frost": "Nov 1",
+   "growing_days": 208,
+   "ecoregion": "Ouachita Mountains",
+   "ecoregion_code": "36",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "KXI92",
+     "freq": "162.425",
+     "same": "005113"
+    },
+    {
+     "call": "KXI97",
+     "freq": "162.400",
+     "same": "005113"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.6
+  },
+  "Pope County": {
+   "fips": "05115",
+   "centroid": [
+    35.4566,
+    -93.0268
+   ],
+   "latitude": 35.5,
+   "bbox": [
+    -93.299,
+    35.1174,
+    -92.8091,
+    35.7286
+   ],
+   "coastal": false,
+   "elevation_ft": 600,
+   "zone": "7b",
+   "jan_low_f": 30,
+   "jul_high_f": 92,
+   "record_low_f": -14,
+   "record_high_f": 113,
+   "precip_in": 46.4,
+   "snow_in": 2,
+   "last_frost": "Mar 29",
+   "first_frost": "Nov 2",
+   "growing_days": 219,
+   "ecoregion": "Arkansas Valley",
+   "ecoregion_code": "37",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "WXJ55",
+     "freq": "162.550",
+     "same": "005115"
+    },
+    {
+     "call": "KXI91",
+     "freq": "162.475",
+     "same": "005115"
+    },
+    {
+     "call": "WWF96",
+     "freq": "162.525",
+     "same": "005115"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.7
+  },
+  "Prairie County": {
+   "fips": "05117",
+   "centroid": [
+    34.8311,
+    -91.5536
+   ],
+   "latitude": 34.8,
+   "bbox": [
+    -91.8039,
+    34.4796,
+    -91.3443,
+    35.0912
+   ],
+   "coastal": false,
+   "elevation_ft": 210,
+   "zone": "8a",
+   "jan_low_f": 33,
+   "jul_high_f": 92,
+   "record_low_f": -8,
+   "record_high_f": 109,
+   "precip_in": 50.0,
+   "snow_in": 2,
+   "last_frost": "Mar 11",
+   "first_frost": "Nov 14",
+   "growing_days": 247,
+   "ecoregion": "Mississippi Alluvial Plain",
+   "ecoregion_code": "73",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "WXJ55",
+     "freq": "162.550",
+     "same": "005117"
+    },
+    {
+     "call": "KXI96",
+     "freq": "162.400",
+     "same": "005117"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.8
+  },
+  "Pulaski County": {
+   "fips": "05119",
+   "centroid": [
+    34.7703,
+    -92.313
+   ],
+   "latitude": 34.8,
+   "bbox": [
+    -92.7554,
+    34.4893,
+    -92.0295,
+    35.0145
+   ],
+   "coastal": false,
+   "elevation_ft": 380,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 92,
+   "record_low_f": -5,
+   "record_high_f": 114,
+   "precip_in": 50.4,
+   "snow_in": 4,
+   "last_frost": "Mar 21",
+   "first_frost": "Nov 10",
+   "growing_days": 234,
+   "ecoregion": "Arkansas Valley",
+   "ecoregion_code": "37",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "WXJ55",
+     "freq": "162.550",
+     "same": "005119"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.6
+  },
+  "Randolph County": {
+   "fips": "05121",
+   "centroid": [
+    36.3413,
+    -91.0284
+   ],
+   "latitude": 36.3,
+   "bbox": [
+    -91.4079,
+    36.1153,
+    -90.7485,
+    36.4987
+   ],
+   "coastal": false,
+   "elevation_ft": 500,
+   "zone": "7b",
+   "jan_low_f": 26,
+   "jul_high_f": 90,
+   "record_low_f": -22,
+   "record_high_f": 112,
+   "precip_in": 51.5,
+   "snow_in": 6,
+   "last_frost": "Mar 31",
+   "first_frost": "Nov 1",
+   "growing_days": 214,
+   "ecoregion": "Ozark Highlands",
+   "ecoregion_code": "39",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "WXJ51",
+     "freq": "162.550",
+     "same": "005121"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.8
+  },
+  "St. Francis County": {
+   "fips": "05123",
+   "centroid": [
+    35.0228,
+    -90.7515
+   ],
+   "latitude": 35.0,
+   "bbox": [
+    -91.1524,
+    34.8672,
+    -90.4007,
+    35.1489
+   ],
+   "coastal": false,
+   "elevation_ft": 280,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 92,
+   "record_low_f": -10,
+   "record_high_f": 110,
+   "precip_in": 50.6,
+   "snow_in": 2,
+   "last_frost": "Mar 23",
+   "first_frost": "Nov 7",
+   "growing_days": 231,
+   "ecoregion": "Mississippi Valley Loess Plains",
+   "ecoregion_code": "74",
+   "nws_office": "Memphis, TN",
+   "nws_cwa": "MEG",
+   "nwr": [
+    {
+     "call": "WXK49",
+     "freq": "162.475",
+     "same": "005123"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 5.8
+  },
+  "Saline County": {
+   "fips": "05125",
+   "centroid": [
+    34.6485,
+    -92.6745
+   ],
+   "latitude": 34.6,
+   "bbox": [
+    -93.0753,
+    34.4118,
+    -92.2442,
+    34.8591
+   ],
+   "coastal": false,
+   "elevation_ft": 510,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 93,
+   "record_low_f": -17,
+   "record_high_f": 112,
+   "precip_in": 53.4,
+   "snow_in": 1,
+   "last_frost": "Mar 24",
+   "first_frost": "Nov 7",
+   "growing_days": 229,
+   "ecoregion": "Ouachita Mountains",
+   "ecoregion_code": "36",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "KXI92",
+     "freq": "162.425",
+     "same": "005125"
+    },
+    {
+     "call": "WXJ55",
+     "freq": "162.550",
+     "same": "005125"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.6
+  },
+  "Scott County": {
+   "fips": "05127",
+   "centroid": [
+    34.8589,
+    -94.0636
+   ],
+   "latitude": 34.9,
+   "bbox": [
+    -94.4546,
+    34.6653,
+    -93.7049,
+    35.0998
+   ],
+   "coastal": false,
+   "elevation_ft": 930,
+   "zone": "8a",
+   "jan_low_f": 28,
+   "jul_high_f": 92,
+   "record_low_f": -20,
+   "record_high_f": 114,
+   "precip_in": 53.2,
+   "snow_in": 3,
+   "last_frost": "Apr 8",
+   "first_frost": "Oct 28",
+   "growing_days": 203,
+   "ecoregion": "Ouachita Mountains",
+   "ecoregion_code": "36",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "WXJ50",
+     "freq": "162.550",
+     "same": "005127"
+    },
+    {
+     "call": "KXI92",
+     "freq": "162.425",
+     "same": "005127"
+    },
+    {
+     "call": "KXI97",
+     "freq": "162.400",
+     "same": "005127"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.6
+  },
+  "Searcy County": {
+   "fips": "05129",
+   "centroid": [
+    35.8964,
+    -92.6959
+   ],
+   "latitude": 35.9,
+   "bbox": [
+    -92.9513,
+    35.7187,
+    -92.4115,
+    36.1152
+   ],
+   "coastal": false,
+   "elevation_ft": 790,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 89,
+   "record_low_f": -24,
+   "record_high_f": 113,
+   "precip_in": 47.5,
+   "snow_in": 4,
+   "last_frost": "Apr 11",
+   "first_frost": "Oct 26",
+   "growing_days": 197,
+   "ecoregion": "Ozark Highlands",
+   "ecoregion_code": "39",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "WXN92",
+     "freq": "162.525",
+     "same": "005129"
+    },
+    {
+     "call": "WXL66",
+     "freq": "162.450",
+     "same": "005129"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.6
+  },
+  "Sebastian County": {
+   "fips": "05131",
+   "centroid": [
+    35.197,
+    -94.275
+   ],
+   "latitude": 35.2,
+   "bbox": [
+    -94.4475,
+    34.931,
+    -94.0285,
+    35.4512
+   ],
+   "coastal": false,
+   "elevation_ft": 540,
+   "zone": "8a",
+   "jan_low_f": 30,
+   "jul_high_f": 94,
+   "record_low_f": -10,
+   "record_high_f": 115,
+   "precip_in": 47.3,
+   "snow_in": 3,
+   "last_frost": "Mar 25",
+   "first_frost": "Nov 6",
+   "growing_days": 224,
+   "ecoregion": "Arkansas Valley",
+   "ecoregion_code": "37",
+   "nws_office": "Tulsa, OK",
+   "nws_cwa": "TSA",
+   "nwr": [
+    {
+     "call": "WXJ52",
+     "freq": "162.475",
+     "same": "005131"
+    },
+    {
+     "call": "WXJ50",
+     "freq": "162.550",
+     "same": "005131"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.7
+  },
+  "Sevier County": {
+   "fips": "05133",
+   "centroid": [
+    33.9949,
+    -94.2433
+   ],
+   "latitude": 34.0,
+   "bbox": [
+    -94.4772,
+    33.7519,
+    -93.9591,
+    34.1925
+   ],
+   "coastal": false,
+   "elevation_ft": 390,
+   "zone": "8a",
+   "jan_low_f": 30,
+   "jul_high_f": 92,
+   "record_low_f": -14,
+   "record_high_f": 114,
+   "precip_in": 55.0,
+   "snow_in": 2,
+   "last_frost": "Mar 29",
+   "first_frost": "Nov 5",
+   "growing_days": 222,
+   "ecoregion": "South Central Plains",
+   "ecoregion_code": "35",
+   "nws_office": "Shreveport, LA",
+   "nws_cwa": "SHV",
+   "nwr": [
+    {
+     "call": "WXJ65",
+     "freq": "162.450",
+     "same": "005133"
+    },
+    {
+     "call": "KXI97",
+     "freq": "162.400",
+     "same": "005133"
+    },
+    {
+     "call": "WXJ49",
+     "freq": "162.550",
+     "same": "005133"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.6
+  },
+  "Sharp County": {
+   "fips": "05135",
+   "centroid": [
+    36.1734,
+    -91.4711
+   ],
+   "latitude": 36.2,
+   "bbox": [
+    -91.7107,
+    35.8906,
+    -91.2586,
+    36.4975
+   ],
+   "coastal": false,
+   "elevation_ft": 680,
+   "zone": "7b",
+   "jan_low_f": 26,
+   "jul_high_f": 89,
+   "record_low_f": -19,
+   "record_high_f": 112,
+   "precip_in": 51.4,
+   "snow_in": 7,
+   "last_frost": "Apr 4",
+   "first_frost": "Oct 31",
+   "growing_days": 210,
+   "ecoregion": "Ozark Highlands",
+   "ecoregion_code": "39",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "WNG639",
+     "freq": "162.475",
+     "same": "005135"
+    },
+    {
+     "call": "WXL66",
+     "freq": "162.450",
+     "same": "005135"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.8
+  },
+  "Stone County": {
+   "fips": "05137",
+   "centroid": [
+    35.857,
+    -92.1405
+   ],
+   "latitude": 35.9,
+   "bbox": [
+    -92.418,
+    35.705,
+    -91.8361,
+    36.1328
+   ],
+   "coastal": false,
+   "elevation_ft": 710,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 91,
+   "record_low_f": -12,
+   "record_high_f": 114,
+   "precip_in": 51.9,
+   "snow_in": 5,
+   "last_frost": "Apr 2",
+   "first_frost": "Oct 31",
+   "growing_days": 211,
+   "ecoregion": "Ozark Highlands",
+   "ecoregion_code": "39",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "WXL66",
+     "freq": "162.450",
+     "same": "005137"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.6
+  },
+  "Union County": {
+   "fips": "05139",
+   "centroid": [
+    33.1682,
+    -92.5981
+   ],
+   "latitude": 33.2,
+   "bbox": [
+    -92.9887,
+    33.0083,
+    -92.0693,
+    33.3879
+   ],
+   "coastal": false,
+   "elevation_ft": 190,
+   "zone": "8b",
+   "jan_low_f": 32,
+   "jul_high_f": 92,
+   "record_low_f": 0,
+   "record_high_f": 108,
+   "precip_in": 50.5,
+   "snow_in": 1,
+   "last_frost": "Mar 18",
+   "first_frost": "Nov 7",
+   "growing_days": 235,
+   "ecoregion": "South Central Plains",
+   "ecoregion_code": "35",
+   "nws_office": "Shreveport, LA",
+   "nws_cwa": "SHV",
+   "nwr": [
+    {
+     "call": "WNG725",
+     "freq": "162.525",
+     "same": "005139"
+    },
+    {
+     "call": "KGG86",
+     "freq": "162.475",
+     "same": "005139"
+    },
+    {
+     "call": "WXJ48",
+     "freq": "162.475",
+     "same": "005139"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.6
+  },
+  "Van Buren County": {
+   "fips": "05141",
+   "centroid": [
+    35.583,
+    -92.516
+   ],
+   "latitude": 35.6,
+   "bbox": [
+    -92.8506,
+    35.3637,
+    -92.2406,
+    35.7908
+   ],
+   "coastal": false,
+   "elevation_ft": 780,
+   "zone": "7b",
+   "jan_low_f": 26,
+   "jul_high_f": 89,
+   "record_low_f": -24,
+   "record_high_f": 113,
+   "precip_in": 53.8,
+   "snow_in": 3,
+   "last_frost": "Apr 11",
+   "first_frost": "Oct 26",
+   "growing_days": 197,
+   "ecoregion": "Boston Mountains",
+   "ecoregion_code": "38",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "WXJ55",
+     "freq": "162.550",
+     "same": "005141"
+    },
+    {
+     "call": "WXL66",
+     "freq": "162.450",
+     "same": "005141"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.6
+  },
+  "Washington County": {
+   "fips": "05143",
+   "centroid": [
+    35.978,
+    -94.2173
+   ],
+   "latitude": 36.0,
+   "bbox": [
+    -94.5521,
+    35.7504,
+    -93.8883,
+    36.2375
+   ],
+   "coastal": false,
+   "elevation_ft": 1350,
+   "zone": "7a",
+   "jan_low_f": 25,
+   "jul_high_f": 89,
+   "record_low_f": -20,
+   "record_high_f": 110,
+   "precip_in": 47.0,
+   "snow_in": 6,
+   "last_frost": "Apr 15",
+   "first_frost": "Oct 21",
+   "growing_days": 188,
+   "ecoregion": "Boston Mountains",
+   "ecoregion_code": "38",
+   "nws_office": "Tulsa, OK",
+   "nws_cwa": "TSA",
+   "nwr": [
+    {
+     "call": "WXJ52",
+     "freq": "162.475",
+     "same": "005143"
+    },
+    {
+     "call": "WNG694",
+     "freq": "162.400",
+     "same": "005143"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.7
+  },
+  "White County": {
+   "fips": "05145",
+   "centroid": [
+    35.2551,
+    -91.753
+   ],
+   "latitude": 35.3,
+   "bbox": [
+    -92.1196,
+    35.0212,
+    -91.3458,
+    35.5342
+   ],
+   "coastal": false,
+   "elevation_ft": 240,
+   "zone": "8a",
+   "jan_low_f": 30,
+   "jul_high_f": 93,
+   "record_low_f": -20,
+   "record_high_f": 115,
+   "precip_in": 51.8,
+   "snow_in": 2,
+   "last_frost": "Mar 27",
+   "first_frost": "Nov 8",
+   "growing_days": 228,
+   "ecoregion": "Arkansas Valley",
+   "ecoregion_code": "37",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "WXJ55",
+     "freq": "162.550",
+     "same": "005145"
+    },
+    {
+     "call": "KXI96",
+     "freq": "162.400",
+     "same": "005145"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.8
+  },
+  "Woodruff County": {
+   "fips": "05147",
+   "centroid": [
+    35.1928,
+    -91.2445
+   ],
+   "latitude": 35.2,
+   "bbox": [
+    -91.4791,
+    34.9124,
+    -91.0398,
+    35.4458
+   ],
+   "coastal": false,
+   "elevation_ft": 190,
+   "zone": "8a",
+   "jan_low_f": 33,
+   "jul_high_f": 92,
+   "record_low_f": -8,
+   "record_high_f": 109,
+   "precip_in": 50.0,
+   "snow_in": 2,
+   "last_frost": "Mar 11",
+   "first_frost": "Nov 14",
+   "growing_days": 247,
+   "ecoregion": "Mississippi Alluvial Plain",
+   "ecoregion_code": "73",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "WXJ51",
+     "freq": "162.550",
+     "same": "005147"
+    },
+    {
+     "call": "KXI96",
+     "freq": "162.400",
+     "same": "005147"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.8
+  },
+  "Yell County": {
+   "fips": "05149",
+   "centroid": [
+    34.9977,
+    -93.4083
+   ],
+   "latitude": 35.0,
+   "bbox": [
+    -93.7102,
+    34.743,
+    -92.9037,
+    35.3177
+   ],
+   "coastal": false,
+   "elevation_ft": 870,
+   "zone": "7b",
+   "jan_low_f": 31,
+   "jul_high_f": 94,
+   "record_low_f": -11,
+   "record_high_f": 112,
+   "precip_in": 54.4,
+   "snow_in": 3,
+   "last_frost": "Mar 22",
+   "first_frost": "Nov 11",
+   "growing_days": 233,
+   "ecoregion": "Ouachita Mountains",
+   "ecoregion_code": "36",
+   "nws_office": "Little Rock, AR",
+   "nws_cwa": "LZK",
+   "nwr": [
+    {
+     "call": "KXI92",
+     "freq": "162.425",
+     "same": "005149"
+    },
+    {
+     "call": "WXJ55",
+     "freq": "162.550",
+     "same": "005149"
+    },
+    {
+     "call": "WWF96",
+     "freq": "162.525",
+     "same": "005149"
+    }
+   ],
+   "state_em": "Arkansas Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.6
+  }
+ }
+}

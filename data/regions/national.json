@@ -1,0 +1,52 @@
+{
+ "poison_control": {
+  "name": "Poison Help line (America's Poison Centers)",
+  "phone": "1-800-222-1222",
+  "note": "Free, confidential, 24 hours, anywhere in the United States; connects to the local poison center."
+ },
+ "built": "2026-11-16",
+ "counts": {
+  "counties": 3144,
+  "states": 51
+ },
+ "nri_version": "December 2025",
+ "methods": {
+  "point": "Each county is represented by its Census 2024 Gazetteer internal point (a point inside the county near its centre), not the county seat.",
+  "elevation": "USGS 3DEP ground elevation at the internal point, rounded to 10 ft.",
+  "climate": "NOAA NCEI U.S. Climate Normals 1991-2020. For each value the station chosen is the one with that normal whose score (distance in km + elevation difference in m / 10) is lowest; station ids and distances are in counties-detail.json.",
+  "frost": "Median (50 percent probability) last spring and first fall dates of 32 F, and the median 32 F freeze-free period, from the same normals. \"None in most years\" where the station records no 32 F freeze in most years.",
+  "records": "Lowest and highest daily temperature in the period of record of the nearest of the four best temperature stations that has at least 30 years of record and lies within 80 km, from NOAA RCC ACIS; record dates in counties-detail.json.",
+  "zone": "USDA 2023 Plant Hardiness Zone at the internal point from the official PRISM grid (mean annual extreme minimum temperature, 1991-2020); zone_range in counties-detail.json samples the whole county.",
+  "hazards": "FEMA National Risk Index, hazard-type Risk Index rating per county. Very High and Relatively High -> 3 (High); Relatively Moderate -> 2 (Moderate); Relatively Low, Very Low, No Rating, Not Applicable, Insufficient Data -> 1 (Low). Blizzard uses Winter Weather; flood takes the higher of Inland (riverine) Flooding and Coastal Flooding; extreme heat uses Heat Wave; extreme cold uses Cold Wave; volcano uses Volcanic Activity.",
+  "nws": "NWS county warning area (AWIPS counties, 16 April 2026). The office whose area contains the internal point is listed first; counties split between offices list both in counties-detail.json.",
+  "nwr": "NOAA Weather Radio county coverage listing; every transmitter NWS lists for the county, with the county SAME code. Connecticut planning regions list the transmitters of the legacy counties they overlap, with the legacy SAME codes the radios still use.",
+  "ecoregion": "EPA Level III ecoregion containing the internal point; ecoregions_present samples the whole county. Hawaii is not mapped at Level III by EPA.",
+  "sun": "Peak sun hours = mean daily solar energy in kWh per square metre per day on a south-facing panel tilted at the local latitude (NASA POWER climatology 2001-2025, 1-degree cell). Flat (horizontal) values in counties-detail.json."
+ },
+ "hazard_rating_map": {
+  "Very High": 3,
+  "Relatively High": 3,
+  "Relatively Moderate": 2,
+  "Relatively Low": 1,
+  "Very Low": 1,
+  "No Rating": 1,
+  "Not Applicable": 1,
+  "Insufficient Data": 1,
+  "No Expected Annual Losses": 1
+ },
+ "hazard_order": [
+  "Tornado",
+  "Blizzard and winter storm",
+  "Ice storm",
+  "Flood (river and coastal)",
+  "Wildfire",
+  "Earthquake",
+  "Hurricane",
+  "Extreme heat",
+  "Extreme cold",
+  "Drought",
+  "Volcano",
+  "Tsunami",
+  "Landslide"
+ ]
+}

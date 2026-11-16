@@ -1,0 +1,3810 @@
+{
+ "state": "CO",
+ "state_name": "Colorado",
+ "state_fips": "08",
+ "state_em": "Colorado Division of Homeland Security and Emergency Management",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "BOU": "NWS Denver, CO",
+  "GJT": "NWS Grand Junction, CO",
+  "GLD": "NWS Goodland, KS",
+  "PUB": "NWS Pueblo, CO"
+ },
+ "ecoregions": [
+  "Wyoming Basin",
+  "Colorado Plateaus",
+  "Southern Rockies",
+  "Arizona/New Mexico Plateau",
+  "High Plains",
+  "Southwestern Tablelands"
+ ],
+ "counties": {
+  "Adams County": {
+   "fips": "08001",
+   "centroid": [
+    39.8743,
+    -104.3319
+   ],
+   "latitude": 39.9,
+   "bbox": [
+    -105.0537,
+    39.7379,
+    -103.7057,
+    40.0014
+   ],
+   "coastal": false,
+   "elevation_ft": 5180,
+   "zone": "5b",
+   "jan_low_f": 14,
+   "jul_high_f": 90,
+   "record_low_f": -36,
+   "record_high_f": 106,
+   "precip_in": 16.3,
+   "snow_in": 43,
+   "last_frost": "May 13",
+   "first_frost": "Oct 2",
+   "growing_days": 142,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Denver, CO",
+   "nws_cwa": "BOU",
+   "nwr": [
+    {
+     "call": "WXJ45",
+     "freq": "162.500",
+     "same": "008001"
+    },
+    {
+     "call": "KEC76",
+     "freq": "162.550",
+     "same": "008001"
+    },
+    {
+     "call": "WNG550",
+     "freq": "162.450",
+     "same": "008001"
+    },
+    {
+     "call": "WXM51",
+     "freq": "162.475",
+     "same": "008001"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.2,
+   "sun_hours_jun": 6.4
+  },
+  "Alamosa County": {
+   "fips": "08003",
+   "centroid": [
+    37.5684,
+    -105.788
+   ],
+   "latitude": 37.6,
+   "bbox": [
+    -106.0395,
+    37.3563,
+    -105.453,
+    37.7523
+   ],
+   "coastal": false,
+   "elevation_ft": 7530,
+   "zone": "4b",
+   "jan_low_f": 0,
+   "jul_high_f": 83,
+   "record_low_f": -50,
+   "record_high_f": 96,
+   "precip_in": 7.3,
+   "snow_in": 30,
+   "last_frost": "May 30",
+   "first_frost": "Sep 17",
+   "growing_days": 108,
+   "ecoregion": "Arizona/New Mexico Plateau",
+   "ecoregion_code": "22",
+   "nws_office": "Pueblo, CO",
+   "nws_cwa": "PUB",
+   "nwr": [
+    {
+     "call": "WXM54",
+     "freq": "162.475",
+     "same": "008003"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.9,
+   "sun_hours_jun": 6.8
+  },
+  "Arapahoe County": {
+   "fips": "08005",
+   "centroid": [
+    39.6446,
+    -104.3317
+   ],
+   "latitude": 39.6,
+   "bbox": [
+    -105.0542,
+    39.5627,
+    -103.7066,
+    39.7406
+   ],
+   "coastal": false,
+   "elevation_ft": 5580,
+   "zone": "5b",
+   "jan_low_f": 14,
+   "jul_high_f": 90,
+   "record_low_f": -36,
+   "record_high_f": 106,
+   "precip_in": 16.3,
+   "snow_in": 43,
+   "last_frost": "May 13",
+   "first_frost": "Oct 2",
+   "growing_days": 142,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Denver, CO",
+   "nws_cwa": "BOU",
+   "nwr": [
+    {
+     "call": "WXJ45",
+     "freq": "162.500",
+     "same": "008005"
+    },
+    {
+     "call": "KEC76",
+     "freq": "162.550",
+     "same": "008005"
+    },
+    {
+     "call": "WNG550",
+     "freq": "162.450",
+     "same": "008005"
+    },
+    {
+     "call": "WXM51",
+     "freq": "162.475",
+     "same": "008005"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.2,
+   "sun_hours_jun": 6.4
+  },
+  "Archuleta County": {
+   "fips": "08007",
+   "centroid": [
+    37.2024,
+    -107.0509
+   ],
+   "latitude": 37.2,
+   "bbox": [
+    -107.4823,
+    36.9924,
+    -106.4762,
+    37.4236
+   ],
+   "coastal": false,
+   "elevation_ft": 7260,
+   "zone": "6a",
+   "jan_low_f": 10,
+   "jul_high_f": 88,
+   "record_low_f": -48,
+   "record_high_f": 103,
+   "precip_in": 22.8,
+   "snow_in": 56,
+   "last_frost": "Jun 9",
+   "first_frost": "Sep 22",
+   "growing_days": 103,
+   "ecoregion": "Southern Rockies",
+   "ecoregion_code": "21",
+   "nws_office": "Grand Junction, CO",
+   "nws_cwa": "GJT",
+   "nwr": [
+    {
+     "call": "KWN54",
+     "freq": "162.425",
+     "same": "008007"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 4.3,
+   "sun_hours_jun": 6.9
+  },
+  "Baca County": {
+   "fips": "08009",
+   "centroid": [
+    37.3098,
+    -102.5437
+   ],
+   "latitude": 37.3,
+   "bbox": [
+    -103.0873,
+    36.9931,
+    -102.0415,
+    37.6444
+   ],
+   "coastal": false,
+   "elevation_ft": 4310,
+   "zone": "6b",
+   "jan_low_f": 17,
+   "jul_high_f": 90,
+   "record_low_f": -25,
+   "record_high_f": 109,
+   "precip_in": 15.2,
+   "snow_in": 23,
+   "last_frost": "May 3",
+   "first_frost": "Oct 10",
+   "growing_days": 158,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Pueblo, CO",
+   "nws_cwa": "PUB",
+   "nwr": [
+    {
+     "call": "KWN60",
+     "freq": "162.525",
+     "same": "008009"
+    },
+    {
+     "call": "WNG664",
+     "freq": "162.400",
+     "same": "008009"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.4,
+   "sun_hours_jun": 6.8
+  },
+  "Bent County": {
+   "fips": "08011",
+   "centroid": [
+    37.9319,
+    -103.0776
+   ],
+   "latitude": 37.9,
+   "bbox": [
+    -103.4044,
+    37.6433,
+    -102.7405,
+    38.2678
+   ],
+   "coastal": false,
+   "elevation_ft": 4080,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 94,
+   "record_low_f": -32,
+   "record_high_f": 114,
+   "precip_in": 13.6,
+   "snow_in": 16,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 12",
+   "growing_days": 166,
+   "ecoregion": "Southwestern Tablelands",
+   "ecoregion_code": "26",
+   "nws_office": "Pueblo, CO",
+   "nws_cwa": "PUB",
+   "nwr": [
+    {
+     "call": "WWG23",
+     "freq": "162.500",
+     "same": "008011"
+    },
+    {
+     "call": "KWN60",
+     "freq": "162.525",
+     "same": "008011"
+    },
+    {
+     "call": "WNG664",
+     "freq": "162.400",
+     "same": "008011"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.3,
+   "sun_hours_jun": 6.7
+  },
+  "Boulder County": {
+   "fips": "08013",
+   "centroid": [
+    40.095,
+    -105.3977
+   ],
+   "latitude": 40.1,
+   "bbox": [
+    -105.694,
+    39.9129,
+    -105.0528,
+    40.2629
+   ],
+   "coastal": false,
+   "elevation_ft": 8160,
+   "zone": "5b",
+   "jan_low_f": 17,
+   "jul_high_f": 79,
+   "record_low_f": -24,
+   "record_high_f": 95,
+   "precip_in": 20.3,
+   "snow_in": 99,
+   "last_frost": "May 24",
+   "first_frost": "Sep 23",
+   "growing_days": 120,
+   "ecoregion": "Southern Rockies",
+   "ecoregion_code": "21",
+   "nws_office": "Denver, CO",
+   "nws_cwa": "BOU",
+   "nwr": [
+    {
+     "call": "WXJ45",
+     "freq": "162.500",
+     "same": "008013"
+    },
+    {
+     "call": "WNG550",
+     "freq": "162.450",
+     "same": "008013"
+    },
+    {
+     "call": "WXM51",
+     "freq": "162.475",
+     "same": "008013"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 3,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 6.2
+  },
+  "Broomfield County": {
+   "fips": "08014",
+   "centroid": [
+    39.9536,
+    -105.0508
+   ],
+   "latitude": 40.0,
+   "bbox": [
+    -105.1658,
+    39.8892,
+    -104.9609,
+    40.0441
+   ],
+   "coastal": false,
+   "elevation_ft": 5330,
+   "zone": "6a",
+   "jan_low_f": 19,
+   "jul_high_f": 91,
+   "record_low_f": -24,
+   "record_high_f": 110,
+   "precip_in": 14.5,
+   "snow_in": 45,
+   "last_frost": "May 2",
+   "first_frost": "Oct 11",
+   "growing_days": 160,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Denver, CO",
+   "nws_cwa": "BOU",
+   "nwr": [
+    {
+     "call": "WXJ45",
+     "freq": "162.500",
+     "same": "008014"
+    },
+    {
+     "call": "KEC76",
+     "freq": "162.550",
+     "same": "008014"
+    },
+    {
+     "call": "WNG550",
+     "freq": "162.450",
+     "same": "008014"
+    },
+    {
+     "call": "WXM51",
+     "freq": "162.475",
+     "same": "008014"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.3,
+   "sun_hours_jun": 6.2
+  },
+  "Chaffee County": {
+   "fips": "08015",
+   "centroid": [
+    38.7346,
+    -106.3
+   ],
+   "latitude": 38.7,
+   "bbox": [
+    -106.6001,
+    38.4221,
+    -105.878,
+    39.0562
+   ],
+   "coastal": false,
+   "elevation_ft": 12490,
+   "zone": "5a",
+   "jan_low_f": 3,
+   "jul_high_f": 67,
+   "record_low_f": -33,
+   "record_high_f": 85,
+   "precip_in": 24.7,
+   "snow_in": 295,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 61,
+   "ecoregion": "Southern Rockies",
+   "ecoregion_code": "21",
+   "nws_office": "Pueblo, CO",
+   "nws_cwa": "PUB",
+   "nwr": [],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 4.4,
+   "sun_hours_jun": 6.6
+  },
+  "Cheyenne County": {
+   "fips": "08017",
+   "centroid": [
+    38.8356,
+    -102.6018
+   ],
+   "latitude": 38.8,
+   "bbox": [
+    -103.1729,
+    38.6124,
+    -102.045,
+    39.0471
+   ],
+   "coastal": false,
+   "elevation_ft": 4390,
+   "zone": "6a",
+   "jan_low_f": 12,
+   "jul_high_f": 91,
+   "record_low_f": -32,
+   "record_high_f": 109,
+   "precip_in": 15.9,
+   "snow_in": 18,
+   "last_frost": "May 7",
+   "first_frost": "Oct 6",
+   "growing_days": 151,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Goodland, KS",
+   "nws_cwa": "GLD",
+   "nwr": [
+    {
+     "call": "WWF77",
+     "freq": "162.525",
+     "same": "008017"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.2,
+   "sun_hours_jun": 6.7
+  },
+  "Clear Creek County": {
+   "fips": "08019",
+   "centroid": [
+    39.6894,
+    -105.6708
+   ],
+   "latitude": 39.7,
+   "bbox": [
+    -105.9266,
+    39.5649,
+    -105.3982,
+    39.8521
+   ],
+   "coastal": false,
+   "elevation_ft": 10670,
+   "zone": "5a",
+   "jan_low_f": 12,
+   "jul_high_f": 69,
+   "record_low_f": -28,
+   "record_high_f": 85,
+   "precip_in": 21.6,
+   "snow_in": 154,
+   "last_frost": "Jun 6",
+   "first_frost": "Sep 19",
+   "growing_days": 103,
+   "ecoregion": "Southern Rockies",
+   "ecoregion_code": "21",
+   "nws_office": "Denver, CO",
+   "nws_cwa": "BOU",
+   "nwr": [
+    {
+     "call": "WXJ45",
+     "freq": "162.500",
+     "same": "008019"
+    },
+    {
+     "call": "KEC76",
+     "freq": "162.550",
+     "same": "008019"
+    },
+    {
+     "call": "WNG550",
+     "freq": "162.450",
+     "same": "008019"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 4.3,
+   "sun_hours_jun": 6.2
+  },
+  "Conejos County": {
+   "fips": "08021",
+   "centroid": [
+    37.2134,
+    -106.1764
+   ],
+   "latitude": 37.2,
+   "bbox": [
+    -106.6787,
+    36.9937,
+    -105.7178,
+    37.4036
+   ],
+   "coastal": false,
+   "elevation_ft": 8360,
+   "zone": "5b",
+   "jan_low_f": 5,
+   "jul_high_f": 81,
+   "record_low_f": -37,
+   "record_high_f": 95,
+   "precip_in": 7.8,
+   "snow_in": 30,
+   "last_frost": "May 28",
+   "first_frost": "Sep 21",
+   "growing_days": 115,
+   "ecoregion": "Arizona/New Mexico Plateau",
+   "ecoregion_code": "22",
+   "nws_office": "Pueblo, CO",
+   "nws_cwa": "PUB",
+   "nwr": [
+    {
+     "call": "WXM54",
+     "freq": "162.475",
+     "same": "008021"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.8,
+   "sun_hours_jun": 6.8
+  },
+  "Costilla County": {
+   "fips": "08023",
+   "centroid": [
+    37.2775,
+    -105.4289
+   ],
+   "latitude": 37.3,
+   "bbox": [
+    -105.771,
+    36.9952,
+    -105.1303,
+    37.6581
+   ],
+   "coastal": false,
+   "elevation_ft": 8060,
+   "zone": "5b",
+   "jan_low_f": 6,
+   "jul_high_f": 82,
+   "record_low_f": -38,
+   "record_high_f": 97,
+   "precip_in": 9.0,
+   "snow_in": 48,
+   "last_frost": "May 31",
+   "first_frost": "Sep 23",
+   "growing_days": 115,
+   "ecoregion": "Arizona/New Mexico Plateau",
+   "ecoregion_code": "22",
+   "nws_office": "Pueblo, CO",
+   "nws_cwa": "PUB",
+   "nwr": [
+    {
+     "call": "WXM54",
+     "freq": "162.475",
+     "same": "008023"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.9,
+   "sun_hours_jun": 6.8
+  },
+  "Crowley County": {
+   "fips": "08025",
+   "centroid": [
+    38.3062,
+    -103.7727
+   ],
+   "latitude": 38.3,
+   "bbox": [
+    -104.0585,
+    38.1125,
+    -103.5014,
+    38.5232
+   ],
+   "coastal": false,
+   "elevation_ft": 4560,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 94,
+   "record_low_f": -29,
+   "record_high_f": 111,
+   "precip_in": 11.2,
+   "snow_in": 14,
+   "last_frost": "May 2",
+   "first_frost": "Oct 8",
+   "growing_days": 159,
+   "ecoregion": "Southwestern Tablelands",
+   "ecoregion_code": "26",
+   "nws_office": "Pueblo, CO",
+   "nws_cwa": "PUB",
+   "nwr": [
+    {
+     "call": "WWG44",
+     "freq": "162.425",
+     "same": "008025"
+    },
+    {
+     "call": "WWG23",
+     "freq": "162.500",
+     "same": "008025"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.2,
+   "sun_hours_jun": 6.7
+  },
+  "Custer County": {
+   "fips": "08027",
+   "centroid": [
+    38.102,
+    -105.3735
+   ],
+   "latitude": 38.1,
+   "bbox": [
+    -105.7971,
+    37.8901,
+    -105.0483,
+    38.266
+   ],
+   "coastal": false,
+   "elevation_ft": 8670,
+   "zone": "5a",
+   "jan_low_f": 8,
+   "jul_high_f": 81,
+   "record_low_f": -46,
+   "record_high_f": 96,
+   "precip_in": 19.0,
+   "snow_in": 84,
+   "last_frost": "Jun 11",
+   "first_frost": "Sep 9",
+   "growing_days": 89,
+   "ecoregion": "Southern Rockies",
+   "ecoregion_code": "21",
+   "nws_office": "Pueblo, CO",
+   "nws_cwa": "PUB",
+   "nwr": [
+    {
+     "call": "WXM52",
+     "freq": "162.400",
+     "same": "008027"
+    },
+    {
+     "call": "WNG579",
+     "freq": "162.450",
+     "same": "008027"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.7,
+   "sun_hours_jun": 6.4
+  },
+  "Delta County": {
+   "fips": "08029",
+   "centroid": [
+    38.8614,
+    -107.865
+   ],
+   "latitude": 38.9,
+   "bbox": [
+    -108.379,
+    38.6679,
+    -107.5006,
+    39.2177
+   ],
+   "coastal": false,
+   "elevation_ft": 6180,
+   "zone": "7a",
+   "jan_low_f": 19,
+   "jul_high_f": 86,
+   "record_low_f": -26,
+   "record_high_f": 105,
+   "precip_in": 12.5,
+   "snow_in": 40,
+   "last_frost": "May 3",
+   "first_frost": "Oct 9",
+   "growing_days": 156,
+   "ecoregion": "Colorado Plateaus",
+   "ecoregion_code": "20",
+   "nws_office": "Grand Junction, CO",
+   "nws_cwa": "GJT",
+   "nwr": [
+    {
+     "call": "KXI90",
+     "freq": "162.450",
+     "same": "008029"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 6.9
+  },
+  "Denver County": {
+   "fips": "08031",
+   "centroid": [
+    39.7619,
+    -104.8811
+   ],
+   "latitude": 39.8,
+   "bbox": [
+    -105.11,
+    39.6144,
+    -104.6003,
+    39.9142
+   ],
+   "coastal": false,
+   "elevation_ft": 5290,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 90,
+   "record_low_f": -25,
+   "record_high_f": 104,
+   "precip_in": 15.4,
+   "snow_in": 49,
+   "last_frost": "May 4",
+   "first_frost": "Oct 8",
+   "growing_days": 156,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Denver, CO",
+   "nws_cwa": "BOU",
+   "nwr": [
+    {
+     "call": "WXJ45",
+     "freq": "162.500",
+     "same": "008031"
+    },
+    {
+     "call": "KEC76",
+     "freq": "162.550",
+     "same": "008031"
+    },
+    {
+     "call": "WNG550",
+     "freq": "162.450",
+     "same": "008031"
+    },
+    {
+     "call": "WXM51",
+     "freq": "162.475",
+     "same": "008031"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 4.2,
+   "sun_hours_jun": 6.4
+  },
+  "Dolores County": {
+   "fips": "08033",
+   "centroid": [
+    37.7338,
+    -108.5062
+   ],
+   "latitude": 37.7,
+   "bbox": [
+    -109.0435,
+    37.4845,
+    -107.8612,
+    37.8954
+   ],
+   "coastal": false,
+   "elevation_ft": 7990,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 86,
+   "record_low_f": -26,
+   "record_high_f": 110,
+   "precip_in": 18.6,
+   "snow_in": 70,
+   "last_frost": "May 15",
+   "first_frost": "Oct 8",
+   "growing_days": 147,
+   "ecoregion": "Southern Rockies",
+   "ecoregion_code": "21",
+   "nws_office": "Grand Junction, CO",
+   "nws_cwa": "GJT",
+   "nwr": [
+    {
+     "call": "WNG687",
+     "freq": "162.450",
+     "same": "008033"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 4.2,
+   "sun_hours_jun": 7.3
+  },
+  "Douglas County": {
+   "fips": "08035",
+   "centroid": [
+    39.3254,
+    -104.926
+   ],
+   "latitude": 39.3,
+   "bbox": [
+    -105.3285,
+    39.1294,
+    -104.6605,
+    39.5663
+   ],
+   "coastal": false,
+   "elevation_ft": 6440,
+   "zone": "5b",
+   "jan_low_f": 18,
+   "jul_high_f": 86,
+   "record_low_f": -37,
+   "record_high_f": 102,
+   "precip_in": 17.6,
+   "snow_in": 58,
+   "last_frost": "May 9",
+   "first_frost": "Oct 2",
+   "growing_days": 143,
+   "ecoregion": "Southwestern Tablelands",
+   "ecoregion_code": "26",
+   "nws_office": "Denver, CO",
+   "nws_cwa": "BOU",
+   "nwr": [
+    {
+     "call": "WXJ45",
+     "freq": "162.500",
+     "same": "008035"
+    },
+    {
+     "call": "KEC76",
+     "freq": "162.550",
+     "same": "008035"
+    },
+    {
+     "call": "WNG550",
+     "freq": "162.450",
+     "same": "008035"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 3,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.2,
+   "sun_hours_jun": 6.4
+  },
+  "Eagle County": {
+   "fips": "08037",
+   "centroid": [
+    39.627,
+    -106.6952
+   ],
+   "latitude": 39.6,
+   "bbox": [
+    -107.114,
+    39.3501,
+    -106.1759,
+    39.9255
+   ],
+   "coastal": false,
+   "elevation_ft": 8500,
+   "zone": "6a",
+   "jan_low_f": 7,
+   "jul_high_f": 77,
+   "record_low_f": -32,
+   "record_high_f": 95,
+   "precip_in": 22.4,
+   "snow_in": 189,
+   "last_frost": "Jun 21",
+   "first_frost": "Sep 7",
+   "growing_days": 77,
+   "ecoregion": "Southern Rockies",
+   "ecoregion_code": "21",
+   "nws_office": "Grand Junction, CO",
+   "nws_cwa": "GJT",
+   "nwr": [
+    {
+     "call": "WZ2518",
+     "freq": "162.450",
+     "same": "008037"
+    },
+    {
+     "call": "WWG43",
+     "freq": "162.500",
+     "same": "008037"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 6.5
+  },
+  "Elbert County": {
+   "fips": "08039",
+   "centroid": [
+    39.3152,
+    -104.1141
+   ],
+   "latitude": 39.3,
+   "bbox": [
+    -104.6633,
+    38.8664,
+    -103.7141,
+    39.5666
+   ],
+   "coastal": false,
+   "elevation_ft": 6000,
+   "zone": "5b",
+   "jan_low_f": 15,
+   "jul_high_f": 86,
+   "record_low_f": -27,
+   "record_high_f": 104,
+   "precip_in": 20.3,
+   "snow_in": 31,
+   "last_frost": "May 12",
+   "first_frost": "Oct 2",
+   "growing_days": 141,
+   "ecoregion": "Southwestern Tablelands",
+   "ecoregion_code": "26",
+   "nws_office": "Denver, CO",
+   "nws_cwa": "BOU",
+   "nwr": [
+    {
+     "call": "WWH32",
+     "freq": "162.450",
+     "same": "008039"
+    },
+    {
+     "call": "KEC76",
+     "freq": "162.550",
+     "same": "008039"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.2,
+   "sun_hours_jun": 6.4
+  },
+  "El Paso County": {
+   "fips": "08041",
+   "centroid": [
+    38.8274,
+    -104.5275
+   ],
+   "latitude": 38.8,
+   "bbox": [
+    -105.0725,
+    38.5194,
+    -104.0515,
+    39.1299
+   ],
+   "coastal": false,
+   "elevation_ft": 6400,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 86,
+   "record_low_f": -27,
+   "record_high_f": 101,
+   "precip_in": 15.9,
+   "snow_in": 32,
+   "last_frost": "May 3",
+   "first_frost": "Oct 8",
+   "growing_days": 158,
+   "ecoregion": "Southwestern Tablelands",
+   "ecoregion_code": "26",
+   "nws_office": "Pueblo, CO",
+   "nws_cwa": "PUB",
+   "nwr": [
+    {
+     "call": "WXM56",
+     "freq": "162.475",
+     "same": "008041"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 3,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.4,
+   "sun_hours_jun": 6.6
+  },
+  "Fremont County": {
+   "fips": "08043",
+   "centroid": [
+    38.4552,
+    -105.425
+   ],
+   "latitude": 38.5,
+   "bbox": [
+    -106.0127,
+    38.2579,
+    -104.9404,
+    38.6976
+   ],
+   "coastal": false,
+   "elevation_ft": 6790,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 89,
+   "record_low_f": -30,
+   "record_high_f": 107,
+   "precip_in": 13.7,
+   "snow_in": 38,
+   "last_frost": "May 4",
+   "first_frost": "Oct 7",
+   "growing_days": 153,
+   "ecoregion": "Southern Rockies",
+   "ecoregion_code": "21",
+   "nws_office": "Pueblo, CO",
+   "nws_cwa": "PUB",
+   "nwr": [
+    {
+     "call": "KJY81",
+     "freq": "162.500",
+     "same": "008043"
+    },
+    {
+     "call": "WXM52",
+     "freq": "162.400",
+     "same": "008043"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 4.7,
+   "sun_hours_jun": 6.4
+  },
+  "Garfield County": {
+   "fips": "08045",
+   "centroid": [
+    39.5994,
+    -107.9098
+   ],
+   "latitude": 39.6,
+   "bbox": [
+    -109.0534,
+    39.3659,
+    -107.0318,
+    40.0915
+   ],
+   "coastal": false,
+   "elevation_ft": 8930,
+   "zone": "6a",
+   "jan_low_f": 6,
+   "jul_high_f": 68,
+   "record_low_f": -36,
+   "record_high_f": 82,
+   "precip_in": 32.4,
+   "snow_in": 203,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 79,
+   "ecoregion": "Colorado Plateaus",
+   "ecoregion_code": "20",
+   "nws_office": "Grand Junction, CO",
+   "nws_cwa": "GJT",
+   "nwr": [
+    {
+     "call": "WWG43",
+     "freq": "162.500",
+     "same": "008045"
+    },
+    {
+     "call": "WXM55",
+     "freq": "162.550",
+     "same": "008045"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 6.8
+  },
+  "Gilpin County": {
+   "fips": "08047",
+   "centroid": [
+    39.8612,
+    -105.5289
+   ],
+   "latitude": 39.9,
+   "bbox": [
+    -105.7005,
+    39.7461,
+    -105.3975,
+    39.9381
+   ],
+   "coastal": false,
+   "elevation_ft": 10110,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 68,
+   "record_low_f": -28,
+   "record_high_f": 85,
+   "precip_in": 33.9,
+   "snow_in": 154,
+   "last_frost": "Jun 21",
+   "first_frost": "Sep 2",
+   "growing_days": 71,
+   "ecoregion": "Southern Rockies",
+   "ecoregion_code": "21",
+   "nws_office": "Denver, CO",
+   "nws_cwa": "BOU",
+   "nwr": [
+    {
+     "call": "WXJ45",
+     "freq": "162.500",
+     "same": "008047"
+    },
+    {
+     "call": "KEC76",
+     "freq": "162.550",
+     "same": "008047"
+    },
+    {
+     "call": "WNG550",
+     "freq": "162.450",
+     "same": "008047"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.3,
+   "sun_hours_jun": 6.2
+  },
+  "Grand County": {
+   "fips": "08049",
+   "centroid": [
+    40.1131,
+    -106.1108
+   ],
+   "latitude": 40.1,
+   "bbox": [
+    -106.653,
+    39.6841,
+    -105.627,
+    40.4858
+   ],
+   "coastal": false,
+   "elevation_ft": 8610,
+   "zone": "5a",
+   "jan_low_f": 2,
+   "jul_high_f": 75,
+   "record_low_f": -46,
+   "record_high_f": 89,
+   "precip_in": 13.8,
+   "snow_in": 155,
+   "last_frost": "Jun 13",
+   "first_frost": "Sep 7",
+   "growing_days": 84,
+   "ecoregion": "Southern Rockies",
+   "ecoregion_code": "21",
+   "nws_office": "Denver, CO",
+   "nws_cwa": "BOU",
+   "nwr": [
+    {
+     "call": "WZ2544",
+     "freq": "162.500",
+     "same": "008049"
+    },
+    {
+     "call": "KWN56",
+     "freq": "162.525",
+     "same": "008049"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 6.6
+  },
+  "Gunnison County": {
+   "fips": "08051",
+   "centroid": [
+    38.6705,
+    -107.0569
+   ],
+   "latitude": 38.7,
+   "bbox": [
+    -107.635,
+    38.1469,
+    -106.2459,
+    39.2573
+   ],
+   "coastal": false,
+   "elevation_ft": 10340,
+   "zone": "5b",
+   "jan_low_f": -6,
+   "jul_high_f": 76,
+   "record_low_f": -47,
+   "record_high_f": 91,
+   "precip_in": 25.7,
+   "snow_in": 203,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 47,
+   "ecoregion": "Southern Rockies",
+   "ecoregion_code": "21",
+   "nws_office": "Grand Junction, CO",
+   "nws_cwa": "GJT",
+   "nwr": [
+    {
+     "call": "KXI90",
+     "freq": "162.450",
+     "same": "008051"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 6.9
+  },
+  "Hinsdale County": {
+   "fips": "08053",
+   "centroid": [
+    37.8115,
+    -107.384
+   ],
+   "latitude": 37.8,
+   "bbox": [
+    -107.5911,
+    37.4071,
+    -107.0008,
+    38.1481
+   ],
+   "coastal": false,
+   "elevation_ft": 11090,
+   "zone": "5a",
+   "jan_low_f": -4,
+   "jul_high_f": 76,
+   "record_low_f": -46,
+   "record_high_f": 89,
+   "precip_in": 26.7,
+   "snow_in": 108,
+   "last_frost": "Jun 15",
+   "first_frost": "Sep 11",
+   "growing_days": 85,
+   "ecoregion": "Southern Rockies",
+   "ecoregion_code": "21",
+   "nws_office": "Grand Junction, CO",
+   "nws_cwa": "GJT",
+   "nwr": [],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.3,
+   "sun_hours_jun": 6.9
+  },
+  "Huerfano County": {
+   "fips": "08055",
+   "centroid": [
+    37.6878,
+    -104.9599
+   ],
+   "latitude": 37.7,
+   "bbox": [
+    -105.5014,
+    37.2897,
+    -104.3507,
+    38.0186
+   ],
+   "coastal": false,
+   "elevation_ft": 6640,
+   "zone": "6a",
+   "jan_low_f": 21,
+   "jul_high_f": 87,
+   "record_low_f": -36,
+   "record_high_f": 106,
+   "precip_in": 17.3,
+   "snow_in": 92,
+   "last_frost": "May 6",
+   "first_frost": "Oct 4",
+   "growing_days": 149,
+   "ecoregion": "Southwestern Tablelands",
+   "ecoregion_code": "26",
+   "nws_office": "Pueblo, CO",
+   "nws_cwa": "PUB",
+   "nwr": [
+    {
+     "call": "WXM52",
+     "freq": "162.400",
+     "same": "008055"
+    },
+    {
+     "call": "WNG579",
+     "freq": "162.450",
+     "same": "008055"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.7,
+   "sun_hours_jun": 6.6
+  },
+  "Jackson County": {
+   "fips": "08057",
+   "centroid": [
+    40.6634,
+    -106.3292
+   ],
+   "latitude": 40.7,
+   "bbox": [
+    -106.8728,
+    40.324,
+    -105.8519,
+    41.0027
+   ],
+   "coastal": false,
+   "elevation_ft": 8120,
+   "zone": "4b",
+   "jan_low_f": 2,
+   "jul_high_f": 76,
+   "record_low_f": -48,
+   "record_high_f": 94,
+   "precip_in": 12.1,
+   "snow_in": 67,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 31,
+   "ecoregion": "Southern Rockies",
+   "ecoregion_code": "21",
+   "nws_office": "Denver, CO",
+   "nws_cwa": "BOU",
+   "nwr": [
+    {
+     "call": "KWN56",
+     "freq": "162.525",
+     "same": "008057"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 6.6
+  },
+  "Jefferson County": {
+   "fips": "08059",
+   "centroid": [
+    39.5795,
+    -105.2455
+   ],
+   "latitude": 39.6,
+   "bbox": [
+    -105.3997,
+    39.1296,
+    -105.0489,
+    39.9146
+   ],
+   "coastal": false,
+   "elevation_ft": 7560,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 81,
+   "record_low_f": -38,
+   "record_high_f": 97,
+   "precip_in": 18.6,
+   "snow_in": 81,
+   "last_frost": "May 23",
+   "first_frost": "Sep 22",
+   "growing_days": 118,
+   "ecoregion": "Southern Rockies",
+   "ecoregion_code": "21",
+   "nws_office": "Denver, CO",
+   "nws_cwa": "BOU",
+   "nwr": [
+    {
+     "call": "WXJ45",
+     "freq": "162.500",
+     "same": "008059"
+    },
+    {
+     "call": "KEC76",
+     "freq": "162.550",
+     "same": "008059"
+    },
+    {
+     "call": "WNG550",
+     "freq": "162.450",
+     "same": "008059"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 3,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 4.3,
+   "sun_hours_jun": 6.2
+  },
+  "Kiowa County": {
+   "fips": "08061",
+   "centroid": [
+    38.3877,
+    -102.7568
+   ],
+   "latitude": 38.4,
+   "bbox": [
+    -103.507,
+    38.265,
+    -102.0444,
+    38.6153
+   ],
+   "coastal": false,
+   "elevation_ft": 3980,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 91,
+   "record_low_f": -29,
+   "record_high_f": 110,
+   "precip_in": 15.7,
+   "snow_in": 14,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 13",
+   "growing_days": 165,
+   "ecoregion": "Southwestern Tablelands",
+   "ecoregion_code": "26",
+   "nws_office": "Pueblo, CO",
+   "nws_cwa": "PUB",
+   "nwr": [
+    {
+     "call": "WWG23",
+     "freq": "162.500",
+     "same": "008061"
+    },
+    {
+     "call": "KWN60",
+     "freq": "162.525",
+     "same": "008061"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.2,
+   "sun_hours_jun": 6.7
+  },
+  "Kit Carson County": {
+   "fips": "08063",
+   "centroid": [
+    39.3053,
+    -102.603
+   ],
+   "latitude": 39.3,
+   "bbox": [
+    -103.1632,
+    39.0377,
+    -102.0466,
+    39.574
+   ],
+   "coastal": false,
+   "elevation_ft": 4410,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 90,
+   "record_low_f": -26,
+   "record_high_f": 108,
+   "precip_in": 18.8,
+   "snow_in": 34,
+   "last_frost": "May 6",
+   "first_frost": "Oct 9",
+   "growing_days": 155,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Goodland, KS",
+   "nws_cwa": "GLD",
+   "nwr": [
+    {
+     "call": "WWF77",
+     "freq": "162.525",
+     "same": "008063"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 6.6
+  },
+  "Lake County": {
+   "fips": "08065",
+   "centroid": [
+    39.2053,
+    -106.3501
+   ],
+   "latitude": 39.2,
+   "bbox": [
+    -106.5863,
+    39.0557,
+    -106.1362,
+    39.3805
+   ],
+   "coastal": false,
+   "elevation_ft": 9470,
+   "zone": "5a",
+   "jan_low_f": 3,
+   "jul_high_f": 73,
+   "record_low_f": -55,
+   "record_high_f": 97,
+   "precip_in": 16.6,
+   "snow_in": 157,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 53,
+   "ecoregion": "Southern Rockies",
+   "ecoregion_code": "21",
+   "nws_office": "Pueblo, CO",
+   "nws_cwa": "PUB",
+   "nwr": [],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 6.5
+  },
+  "La Plata County": {
+   "fips": "08067",
+   "centroid": [
+    37.2874,
+    -107.8397
+   ],
+   "latitude": 37.3,
+   "bbox": [
+    -108.3801,
+    36.999,
+    -107.4814,
+    37.6403
+   ],
+   "coastal": false,
+   "elevation_ft": 7220,
+   "zone": "6b",
+   "jan_low_f": 13,
+   "jul_high_f": 85,
+   "record_low_f": -35,
+   "record_high_f": 102,
+   "precip_in": 19.6,
+   "snow_in": 64,
+   "last_frost": "May 21",
+   "first_frost": "Oct 2",
+   "growing_days": 134,
+   "ecoregion": "Colorado Plateaus",
+   "ecoregion_code": "20",
+   "nws_office": "Grand Junction, CO",
+   "nws_cwa": "GJT",
+   "nwr": [
+    {
+     "call": "KWN54",
+     "freq": "162.425",
+     "same": "008067"
+    },
+    {
+     "call": "WXJ37",
+     "freq": "162.475",
+     "same": "008067"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 4.3,
+   "sun_hours_jun": 6.9
+  },
+  "Larimer County": {
+   "fips": "08069",
+   "centroid": [
+    40.6581,
+    -105.4868
+   ],
+   "latitude": 40.7,
+   "bbox": [
+    -106.1951,
+    40.2575,
+    -104.9431,
+    40.9984
+   ],
+   "coastal": false,
+   "elevation_ft": 7690,
+   "zone": "5b",
+   "jan_low_f": 15,
+   "jul_high_f": 78,
+   "record_low_f": -27,
+   "record_high_f": 92,
+   "precip_in": 13.2,
+   "snow_in": 73,
+   "last_frost": "Jun 5",
+   "first_frost": "Sep 16",
+   "growing_days": 101,
+   "ecoregion": "Southern Rockies",
+   "ecoregion_code": "21",
+   "nws_office": "Denver, CO",
+   "nws_cwa": "BOU",
+   "nwr": [
+    {
+     "call": "WXJ45",
+     "freq": "162.500",
+     "same": "008069"
+    },
+    {
+     "call": "KEC76",
+     "freq": "162.550",
+     "same": "008069"
+    },
+    {
+     "call": "WXM92",
+     "freq": "162.450",
+     "same": "008069"
+    },
+    {
+     "call": "WXM50",
+     "freq": "162.400",
+     "same": "008069"
+    },
+    {
+     "call": "WXM51",
+     "freq": "162.475",
+     "same": "008069"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 3,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 6.2
+  },
+  "Las Animas County": {
+   "fips": "08071",
+   "centroid": [
+    37.3188,
+    -104.0441
+   ],
+   "latitude": 37.3,
+   "bbox": [
+    -105.1559,
+    36.9928,
+    -103.0747,
+    37.8174
+   ],
+   "coastal": false,
+   "elevation_ft": 5240,
+   "zone": "6a",
+   "jan_low_f": 19,
+   "jul_high_f": 90,
+   "record_low_f": -32,
+   "record_high_f": 104,
+   "precip_in": 12.7,
+   "snow_in": 55,
+   "last_frost": "May 4",
+   "first_frost": "Oct 9",
+   "growing_days": 156,
+   "ecoregion": "Southwestern Tablelands",
+   "ecoregion_code": "26",
+   "nws_office": "Pueblo, CO",
+   "nws_cwa": "PUB",
+   "nwr": [
+    {
+     "call": "WWG23",
+     "freq": "162.500",
+     "same": "008071"
+    },
+    {
+     "call": "WNG664",
+     "freq": "162.400",
+     "same": "008071"
+    },
+    {
+     "call": "WNG579",
+     "freq": "162.450",
+     "same": "008071"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.7,
+   "sun_hours_jun": 6.6
+  },
+  "Lincoln County": {
+   "fips": "08073",
+   "centroid": [
+    38.9937,
+    -103.5076
+   ],
+   "latitude": 39.0,
+   "bbox": [
+    -104.0553,
+    38.5164,
+    -103.1543,
+    39.5664
+   ],
+   "coastal": false,
+   "elevation_ft": 5180,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 89,
+   "record_low_f": -28,
+   "record_high_f": 104,
+   "precip_in": 15.3,
+   "snow_in": 24,
+   "last_frost": "May 10",
+   "first_frost": "Oct 2",
+   "growing_days": 143,
+   "ecoregion": "Southwestern Tablelands",
+   "ecoregion_code": "26",
+   "nws_office": "Denver, CO",
+   "nws_cwa": "BOU",
+   "nwr": [
+    {
+     "call": "WWH32",
+     "freq": "162.450",
+     "same": "008073"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.2,
+   "sun_hours_jun": 6.7
+  },
+  "Logan County": {
+   "fips": "08075",
+   "centroid": [
+    40.7281,
+    -103.0905
+   ],
+   "latitude": 40.7,
+   "bbox": [
+    -103.5819,
+    40.4353,
+    -102.6508,
+    41.0027
+   ],
+   "coastal": false,
+   "elevation_ft": 3850,
+   "zone": "5b",
+   "jan_low_f": 16,
+   "jul_high_f": 91,
+   "record_low_f": -35,
+   "record_high_f": 110,
+   "precip_in": 15.2,
+   "snow_in": 25,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 9",
+   "growing_days": 161,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Denver, CO",
+   "nws_cwa": "BOU",
+   "nwr": [
+    {
+     "call": "KWN40",
+     "freq": "162.525",
+     "same": "008075"
+    },
+    {
+     "call": "WXM53",
+     "freq": "162.400",
+     "same": "008075"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 6.5
+  },
+  "Mesa County": {
+   "fips": "08077",
+   "centroid": [
+    39.0195,
+    -108.4606
+   ],
+   "latitude": 39.0,
+   "bbox": [
+    -109.0603,
+    38.5,
+    -107.3779,
+    39.3667
+   ],
+   "coastal": false,
+   "elevation_ft": 4980,
+   "zone": "7a",
+   "jan_low_f": 19,
+   "jul_high_f": 93,
+   "record_low_f": -21,
+   "record_high_f": 107,
+   "precip_in": 8.9,
+   "snow_in": 13,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 20",
+   "growing_days": 179,
+   "ecoregion": "Colorado Plateaus",
+   "ecoregion_code": "20",
+   "nws_office": "Grand Junction, CO",
+   "nws_cwa": "GJT",
+   "nwr": [
+    {
+     "call": "WXM55",
+     "freq": "162.550",
+     "same": "008077"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 7.0
+  },
+  "Mineral County": {
+   "fips": "08079",
+   "centroid": [
+    37.5491,
+    -107.0032
+   ],
+   "latitude": 37.5,
+   "bbox": [
+    -107.1451,
+    37.3923,
+    -106.6911,
+    37.9742
+   ],
+   "coastal": false,
+   "elevation_ft": 11820,
+   "zone": "5b",
+   "jan_low_f": 2,
+   "jul_high_f": 72,
+   "record_low_f": -46,
+   "record_high_f": 89,
+   "precip_in": 37.1,
+   "snow_in": 108,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 64,
+   "ecoregion": "Southern Rockies",
+   "ecoregion_code": "21",
+   "nws_office": "Pueblo, CO",
+   "nws_cwa": "PUB",
+   "nwr": [
+    {
+     "call": "WXM54",
+     "freq": "162.475",
+     "same": "008079"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.3,
+   "sun_hours_jun": 6.9
+  },
+  "Moffat County": {
+   "fips": "08081",
+   "centroid": [
+    40.6109,
+    -108.2172
+   ],
+   "latitude": 40.6,
+   "bbox": [
+    -109.0509,
+    40.22,
+    -107.3134,
+    41.0031
+   ],
+   "coastal": false,
+   "elevation_ft": 6880,
+   "zone": "6a",
+   "jan_low_f": 1,
+   "jul_high_f": 86,
+   "record_low_f": -61,
+   "record_high_f": 102,
+   "precip_in": 12.6,
+   "snow_in": 55,
+   "last_frost": "Jun 16",
+   "first_frost": "Sep 9",
+   "growing_days": 83,
+   "ecoregion": "Wyoming Basin",
+   "ecoregion_code": "18",
+   "nws_office": "Grand Junction, CO",
+   "nws_cwa": "GJT",
+   "nwr": [
+    {
+     "call": "KWN56",
+     "freq": "162.525",
+     "same": "008081"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 6.9
+  },
+  "Montezuma County": {
+   "fips": "08083",
+   "centroid": [
+    37.338,
+    -108.5958
+   ],
+   "latitude": 37.3,
+   "bbox": [
+    -109.046,
+    36.9988,
+    -107.9726,
+    37.6395
+   ],
+   "coastal": false,
+   "elevation_ft": 6160,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 90,
+   "record_low_f": -31,
+   "record_high_f": 102,
+   "precip_in": 11.8,
+   "snow_in": 33,
+   "last_frost": "May 12",
+   "first_frost": "Oct 7",
+   "growing_days": 147,
+   "ecoregion": "Colorado Plateaus",
+   "ecoregion_code": "20",
+   "nws_office": "Grand Junction, CO",
+   "nws_cwa": "GJT",
+   "nwr": [
+    {
+     "call": "WNG687",
+     "freq": "162.450",
+     "same": "008083"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 4.2,
+   "sun_hours_jun": 7.3
+  },
+  "Montrose County": {
+   "fips": "08085",
+   "centroid": [
+    38.4075,
+    -108.2663
+   ],
+   "latitude": 38.4,
+   "bbox": [
+    -109.0603,
+    38.1522,
+    -107.5,
+    38.6694
+   ],
+   "coastal": false,
+   "elevation_ft": 8880,
+   "zone": "6a",
+   "jan_low_f": 14,
+   "jul_high_f": 78,
+   "record_low_f": -36,
+   "record_high_f": 96,
+   "precip_in": 33.1,
+   "snow_in": 131,
+   "last_frost": "May 20",
+   "first_frost": "Oct 1",
+   "growing_days": 132,
+   "ecoregion": "Southern Rockies",
+   "ecoregion_code": "21",
+   "nws_office": "Grand Junction, CO",
+   "nws_cwa": "GJT",
+   "nwr": [
+    {
+     "call": "KXI90",
+     "freq": "162.450",
+     "same": "008085"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 7.0
+  },
+  "Morgan County": {
+   "fips": "08087",
+   "centroid": [
+    40.2632,
+    -103.8122
+   ],
+   "latitude": 40.3,
+   "bbox": [
+    -104.1509,
+    40.0008,
+    -103.4645,
+    40.5245
+   ],
+   "coastal": false,
+   "elevation_ft": 4330,
+   "zone": "5b",
+   "jan_low_f": 13,
+   "jul_high_f": 90,
+   "record_low_f": -41,
+   "record_high_f": 109,
+   "precip_in": 14.3,
+   "snow_in": 23,
+   "last_frost": "May 6",
+   "first_frost": "Oct 6",
+   "growing_days": 153,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Denver, CO",
+   "nws_cwa": "BOU",
+   "nwr": [
+    {
+     "call": "KWN40",
+     "freq": "162.525",
+     "same": "008087"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 6.5
+  },
+  "Otero County": {
+   "fips": "08089",
+   "centroid": [
+    37.8842,
+    -103.7213
+   ],
+   "latitude": 37.9,
+   "bbox": [
+    -104.0621,
+    37.6429,
+    -103.3981,
+    38.2657
+   ],
+   "coastal": false,
+   "elevation_ft": 4360,
+   "zone": "5b",
+   "jan_low_f": 13,
+   "jul_high_f": 94,
+   "record_low_f": -30,
+   "record_high_f": 108,
+   "precip_in": 13.4,
+   "snow_in": 25,
+   "last_frost": "May 8",
+   "first_frost": "Oct 4",
+   "growing_days": 148,
+   "ecoregion": "Southwestern Tablelands",
+   "ecoregion_code": "26",
+   "nws_office": "Pueblo, CO",
+   "nws_cwa": "PUB",
+   "nwr": [
+    {
+     "call": "WWG44",
+     "freq": "162.425",
+     "same": "008089"
+    },
+    {
+     "call": "WWG23",
+     "freq": "162.500",
+     "same": "008089"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.3,
+   "sun_hours_jun": 6.7
+  },
+  "Ouray County": {
+   "fips": "08091",
+   "centroid": [
+    38.1547,
+    -107.7885
+   ],
+   "latitude": 38.2,
+   "bbox": [
+    -108.1324,
+    37.8923,
+    -107.5117,
+    38.3328
+   ],
+   "coastal": false,
+   "elevation_ft": 7340,
+   "zone": "5b",
+   "jan_low_f": 6,
+   "jul_high_f": 85,
+   "record_low_f": -36,
+   "record_high_f": 99,
+   "precip_in": 16.1,
+   "snow_in": 81,
+   "last_frost": "Jun 11",
+   "first_frost": "Sep 13",
+   "growing_days": 92,
+   "ecoregion": "Colorado Plateaus",
+   "ecoregion_code": "20",
+   "nws_office": "Grand Junction, CO",
+   "nws_cwa": "GJT",
+   "nwr": [
+    {
+     "call": "KXI90",
+     "freq": "162.450",
+     "same": "008091"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 6.9
+  },
+  "Park County": {
+   "fips": "08093",
+   "centroid": [
+    39.1189,
+    -105.7176
+   ],
+   "latitude": 39.1,
+   "bbox": [
+    -106.2092,
+    38.693,
+    -105.3282,
+    39.5682
+   ],
+   "coastal": false,
+   "elevation_ft": 9210,
+   "zone": "4b",
+   "jan_low_f": -4,
+   "jul_high_f": 76,
+   "record_low_f": -54,
+   "record_high_f": 88,
+   "precip_in": 10.6,
+   "snow_in": 49,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 57,
+   "ecoregion": "Southern Rockies",
+   "ecoregion_code": "21",
+   "nws_office": "Denver, CO",
+   "nws_cwa": "BOU",
+   "nwr": [
+    {
+     "call": "WXJ45",
+     "freq": "162.500",
+     "same": "008093"
+    },
+    {
+     "call": "KEC76",
+     "freq": "162.550",
+     "same": "008093"
+    },
+    {
+     "call": "WNG550",
+     "freq": "162.450",
+     "same": "008093"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 4.3,
+   "sun_hours_jun": 6.2
+  },
+  "Phillips County": {
+   "fips": "08095",
+   "centroid": [
+    40.5947,
+    -102.3451
+   ],
+   "latitude": 40.6,
+   "bbox": [
+    -102.6657,
+    40.4385,
+    -102.0513,
+    40.7498
+   ],
+   "coastal": false,
+   "elevation_ft": 3770,
+   "zone": "5b",
+   "jan_low_f": 13,
+   "jul_high_f": 88,
+   "record_low_f": -36,
+   "record_high_f": 110,
+   "precip_in": 17.9,
+   "snow_in": 30,
+   "last_frost": "May 11",
+   "first_frost": "Oct 3",
+   "growing_days": 144,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Denver, CO",
+   "nws_cwa": "BOU",
+   "nwr": [
+    {
+     "call": "WXM53",
+     "freq": "162.400",
+     "same": "008095"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 6.5
+  },
+  "Pitkin County": {
+   "fips": "08097",
+   "centroid": [
+    39.2175,
+    -106.9162
+   ],
+   "latitude": 39.2,
+   "bbox": [
+    -107.4653,
+    38.9782,
+    -106.428,
+    39.3663
+   ],
+   "coastal": false,
+   "elevation_ft": 8160,
+   "zone": "5b",
+   "jan_low_f": 10,
+   "jul_high_f": 76,
+   "record_low_f": -25,
+   "record_high_f": 91,
+   "precip_in": 24.4,
+   "snow_in": 171,
+   "last_frost": "Jun 2",
+   "first_frost": "Sep 23",
+   "growing_days": 113,
+   "ecoregion": "Southern Rockies",
+   "ecoregion_code": "21",
+   "nws_office": "Grand Junction, CO",
+   "nws_cwa": "GJT",
+   "nwr": [
+    {
+     "call": "WWG43",
+     "freq": "162.500",
+     "same": "008097"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 6.5
+  },
+  "Prowers County": {
+   "fips": "08099",
+   "centroid": [
+    37.9584,
+    -102.3918
+   ],
+   "latitude": 38.0,
+   "bbox": [
+    -102.7479,
+    37.6435,
+    -102.0416,
+    38.2688
+   ],
+   "coastal": false,
+   "elevation_ft": 3680,
+   "zone": "6a",
+   "jan_low_f": 14,
+   "jul_high_f": 93,
+   "record_low_f": -30,
+   "record_high_f": 111,
+   "precip_in": 16.2,
+   "snow_in": 30,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 10",
+   "growing_days": 163,
+   "ecoregion": "Southwestern Tablelands",
+   "ecoregion_code": "26",
+   "nws_office": "Pueblo, CO",
+   "nws_cwa": "PUB",
+   "nwr": [
+    {
+     "call": "KWN60",
+     "freq": "162.525",
+     "same": "008099"
+    },
+    {
+     "call": "WNG664",
+     "freq": "162.400",
+     "same": "008099"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.4,
+   "sun_hours_jun": 6.8
+  },
+  "Pueblo County": {
+   "fips": "08101",
+   "centroid": [
+    38.1628,
+    -104.4847
+   ],
+   "latitude": 38.2,
+   "bbox": [
+    -105.0507,
+    37.7345,
+    -104.0542,
+    38.5226
+   ],
+   "coastal": false,
+   "elevation_ft": 4820,
+   "zone": "6a",
+   "jan_low_f": 15,
+   "jul_high_f": 93,
+   "record_low_f": -28,
+   "record_high_f": 109,
+   "precip_in": 12.0,
+   "snow_in": 28,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 9",
+   "growing_days": 161,
+   "ecoregion": "Southwestern Tablelands",
+   "ecoregion_code": "26",
+   "nws_office": "Pueblo, CO",
+   "nws_cwa": "PUB",
+   "nwr": [
+    {
+     "call": "WWG44",
+     "freq": "162.425",
+     "same": "008101"
+    },
+    {
+     "call": "WXM52",
+     "freq": "162.400",
+     "same": "008101"
+    },
+    {
+     "call": "WNG579",
+     "freq": "162.450",
+     "same": "008101"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.4,
+   "sun_hours_jun": 6.6
+  },
+  "Rio Blanco County": {
+   "fips": "08103",
+   "centroid": [
+    39.9726,
+    -108.2007
+   ],
+   "latitude": 40.0,
+   "bbox": [
+    -109.0512,
+    39.6492,
+    -107.0374,
+    40.2258
+   ],
+   "coastal": false,
+   "elevation_ft": 6480,
+   "zone": "5b",
+   "jan_low_f": 8,
+   "jul_high_f": 87,
+   "record_low_f": -43,
+   "record_high_f": 103,
+   "precip_in": 15.3,
+   "snow_in": 65,
+   "last_frost": "May 30",
+   "first_frost": "Sep 22",
+   "growing_days": 117,
+   "ecoregion": "Colorado Plateaus",
+   "ecoregion_code": "20",
+   "nws_office": "Grand Junction, CO",
+   "nws_cwa": "GJT",
+   "nwr": [],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 7.0
+  },
+  "Rio Grande County": {
+   "fips": "08105",
+   "centroid": [
+    37.4859,
+    -106.4531
+   ],
+   "latitude": 37.5,
+   "bbox": [
+    -106.7118,
+    37.3995,
+    -106.0387,
+    37.8354
+   ],
+   "coastal": false,
+   "elevation_ft": 11370,
+   "zone": "5b",
+   "jan_low_f": 2,
+   "jul_high_f": 72,
+   "record_low_f": -46,
+   "record_high_f": 89,
+   "precip_in": 32.0,
+   "snow_in": 108,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 64,
+   "ecoregion": "Southern Rockies",
+   "ecoregion_code": "21",
+   "nws_office": "Pueblo, CO",
+   "nws_cwa": "PUB",
+   "nwr": [
+    {
+     "call": "WXM54",
+     "freq": "162.475",
+     "same": "008105"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 4.8,
+   "sun_hours_jun": 6.8
+  },
+  "Routt County": {
+   "fips": "08107",
+   "centroid": [
+    40.4837,
+    -106.9877
+   ],
+   "latitude": 40.5,
+   "bbox": [
+    -107.4426,
+    39.9187,
+    -106.6263,
+    41.0034
+   ],
+   "coastal": false,
+   "elevation_ft": 6520,
+   "zone": "4b",
+   "jan_low_f": 5,
+   "jul_high_f": 83,
+   "record_low_f": -54,
+   "record_high_f": 100,
+   "precip_in": 24.7,
+   "snow_in": 184,
+   "last_frost": "Jun 9",
+   "first_frost": "Sep 12",
+   "growing_days": 93,
+   "ecoregion": "Southern Rockies",
+   "ecoregion_code": "21",
+   "nws_office": "Grand Junction, CO",
+   "nws_cwa": "GJT",
+   "nwr": [
+    {
+     "call": "KWN56",
+     "freq": "162.525",
+     "same": "008107"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 6.6
+  },
+  "Saguache County": {
+   "fips": "08109",
+   "centroid": [
+    38.0317,
+    -106.2347
+   ],
+   "latitude": 38.0,
+   "bbox": [
+    -107.0019,
+    37.7479,
+    -105.4291,
+    38.4577
+   ],
+   "coastal": false,
+   "elevation_ft": 8620,
+   "zone": "5b",
+   "jan_low_f": 7,
+   "jul_high_f": 80,
+   "record_low_f": -34,
+   "record_high_f": 99,
+   "precip_in": 8.4,
+   "snow_in": 105,
+   "last_frost": "May 16",
+   "first_frost": "Sep 28",
+   "growing_days": 135,
+   "ecoregion": "Southern Rockies",
+   "ecoregion_code": "21",
+   "nws_office": "Pueblo, CO",
+   "nws_cwa": "PUB",
+   "nwr": [
+    {
+     "call": "WXM54",
+     "freq": "162.475",
+     "same": "008109"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 4.4,
+   "sun_hours_jun": 6.6
+  },
+  "San Juan County": {
+   "fips": "08111",
+   "centroid": [
+    37.781,
+    -107.6703
+   ],
+   "latitude": 37.8,
+   "bbox": [
+    -107.9745,
+    37.6395,
+    -107.4589,
+    37.9656
+   ],
+   "coastal": false,
+   "elevation_ft": 9760,
+   "zone": "4b",
+   "jan_low_f": -6,
+   "jul_high_f": 75,
+   "record_low_f": -39,
+   "record_high_f": 96,
+   "precip_in": 23.9,
+   "snow_in": 173,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 40,
+   "ecoregion": "Southern Rockies",
+   "ecoregion_code": "21",
+   "nws_office": "Grand Junction, CO",
+   "nws_cwa": "GJT",
+   "nwr": [],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.3,
+   "sun_hours_jun": 6.9
+  },
+  "San Miguel County": {
+   "fips": "08113",
+   "centroid": [
+    38.0093,
+    -108.4273
+   ],
+   "latitude": 38.0,
+   "bbox": [
+    -109.043,
+    37.7737,
+    -107.7328,
+    38.1548
+   ],
+   "coastal": false,
+   "elevation_ft": 8440,
+   "zone": "5b",
+   "jan_low_f": 0,
+   "jul_high_f": 77,
+   "record_low_f": -36,
+   "record_high_f": 96,
+   "precip_in": 20.4,
+   "snow_in": 131,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 60,
+   "ecoregion": "Colorado Plateaus",
+   "ecoregion_code": "20",
+   "nws_office": "Grand Junction, CO",
+   "nws_cwa": "GJT",
+   "nwr": [
+    {
+     "call": "WNG687",
+     "freq": "162.450",
+     "same": "008113"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 7.0
+  },
+  "Sedgwick County": {
+   "fips": "08115",
+   "centroid": [
+    40.8716,
+    -102.3554
+   ],
+   "latitude": 40.9,
+   "bbox": [
+    -102.6535,
+    40.7488,
+    -102.0513,
+    41.0029
+   ],
+   "coastal": false,
+   "elevation_ft": 3850,
+   "zone": "5b",
+   "jan_low_f": 15,
+   "jul_high_f": 90,
+   "record_low_f": -30,
+   "record_high_f": 110,
+   "precip_in": 17.6,
+   "snow_in": 31,
+   "last_frost": "May 6",
+   "first_frost": "Oct 7",
+   "growing_days": 152,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Denver, CO",
+   "nws_cwa": "BOU",
+   "nwr": [
+    {
+     "call": "WXM53",
+     "freq": "162.400",
+     "same": "008115"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 6.5
+  },
+  "Summit County": {
+   "fips": "08117",
+   "centroid": [
+    39.621,
+    -106.1376
+   ],
+   "latitude": 39.6,
+   "bbox": [
+    -106.4399,
+    39.3574,
+    -105.7761,
+    39.9248
+   ],
+   "coastal": false,
+   "elevation_ft": 12060,
+   "zone": "5b",
+   "jan_low_f": 3,
+   "jul_high_f": 67,
+   "record_low_f": -33,
+   "record_high_f": 85,
+   "precip_in": 25.2,
+   "snow_in": 295,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 61,
+   "ecoregion": "Southern Rockies",
+   "ecoregion_code": "21",
+   "nws_office": "Denver, CO",
+   "nws_cwa": "BOU",
+   "nwr": [
+    {
+     "call": "WNG737",
+     "freq": "162.400",
+     "same": "008117"
+    },
+    {
+     "call": "KWN56",
+     "freq": "162.525",
+     "same": "008117"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 6.5
+  },
+  "Teller County": {
+   "fips": "08119",
+   "centroid": [
+    38.87,
+    -105.1874
+   ],
+   "latitude": 38.9,
+   "bbox": [
+    -105.3306,
+    38.6475,
+    -104.939,
+    39.13
+   ],
+   "coastal": false,
+   "elevation_ft": 9300,
+   "zone": "5b",
+   "jan_low_f": 14,
+   "jul_high_f": 76,
+   "record_low_f": -35,
+   "record_high_f": 89,
+   "precip_in": 18.0,
+   "snow_in": 134,
+   "last_frost": "May 26",
+   "first_frost": "Sep 26",
+   "growing_days": 121,
+   "ecoregion": "Southern Rockies",
+   "ecoregion_code": "21",
+   "nws_office": "Pueblo, CO",
+   "nws_cwa": "PUB",
+   "nwr": [
+    {
+     "call": "WXM56",
+     "freq": "162.475",
+     "same": "008119"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 4.7,
+   "sun_hours_jun": 6.4
+  },
+  "Washington County": {
+   "fips": "08121",
+   "centroid": [
+    39.9658,
+    -103.2097
+   ],
+   "latitude": 40.0,
+   "bbox": [
+    -103.7075,
+    39.5657,
+    -102.7799,
+    40.4386
+   ],
+   "coastal": false,
+   "elevation_ft": 4690,
+   "zone": "5b",
+   "jan_low_f": 17,
+   "jul_high_f": 89,
+   "record_low_f": -29,
+   "record_high_f": 109,
+   "precip_in": 15.4,
+   "snow_in": 27,
+   "last_frost": "May 6",
+   "first_frost": "Oct 8",
+   "growing_days": 155,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Denver, CO",
+   "nws_cwa": "BOU",
+   "nwr": [
+    {
+     "call": "KJY84",
+     "freq": "162.425",
+     "same": "008121"
+    },
+    {
+     "call": "KWN40",
+     "freq": "162.525",
+     "same": "008121"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 6.6
+  },
+  "Weld County": {
+   "fips": "08123",
+   "centroid": [
+    40.556,
+    -104.3837
+   ],
+   "latitude": 40.6,
+   "bbox": [
+    -105.0566,
+    40.0001,
+    -103.5733,
+    41.002
+   ],
+   "coastal": false,
+   "elevation_ft": 4760,
+   "zone": "5a",
+   "jan_low_f": 10,
+   "jul_high_f": 90,
+   "record_low_f": -38,
+   "record_high_f": 106,
+   "precip_in": 13.4,
+   "snow_in": 19,
+   "last_frost": "May 12",
+   "first_frost": "Sep 28",
+   "growing_days": 135,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Denver, CO",
+   "nws_cwa": "BOU",
+   "nwr": [
+    {
+     "call": "WXJ45",
+     "freq": "162.500",
+     "same": "008123"
+    },
+    {
+     "call": "KEC76",
+     "freq": "162.550",
+     "same": "008123"
+    },
+    {
+     "call": "WXM92",
+     "freq": "162.450",
+     "same": "008123"
+    },
+    {
+     "call": "WNG550",
+     "freq": "162.450",
+     "same": "008123"
+    },
+    {
+     "call": "WXM50",
+     "freq": "162.400",
+     "same": "008123"
+    },
+    {
+     "call": "WXM51",
+     "freq": "162.475",
+     "same": "008123"
+    },
+    {
+     "call": "WXM53",
+     "freq": "162.400",
+     "same": "008123"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 6.4
+  },
+  "Yuma County": {
+   "fips": "08125",
+   "centroid": [
+    40.0008,
+    -102.4216
+   ],
+   "latitude": 40.0,
+   "bbox": [
+    -102.8036,
+    39.5677,
+    -102.0499,
+    40.44
+   ],
+   "coastal": false,
+   "elevation_ft": 3820,
+   "zone": "5b",
+   "jan_low_f": 16,
+   "jul_high_f": 91,
+   "record_low_f": -33,
+   "record_high_f": 112,
+   "precip_in": 18.4,
+   "snow_in": 28,
+   "last_frost": "May 7",
+   "first_frost": "Oct 6",
+   "growing_days": 151,
+   "ecoregion": "High Plains",
+   "ecoregion_code": "25",
+   "nws_office": "Goodland, KS",
+   "nws_cwa": "GLD",
+   "nwr": [
+    {
+     "call": "WWF77",
+     "freq": "162.525",
+     "same": "008125"
+    },
+    {
+     "call": "WXM87",
+     "freq": "162.475",
+     "same": "008125"
+    }
+   ],
+   "state_em": "Colorado Division of Homeland Security and Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 6.5
+  }
+ }
+}

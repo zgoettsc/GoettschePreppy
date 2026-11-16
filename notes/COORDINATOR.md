@@ -30,3 +30,7 @@ Collected from worker reports; resolved in the integration pass.
 - [ ] A3: topo maps can push Large past 400 MB; cap to home county + destinations, route counties optional with size shown.
 - [ ] A3: kit build should include only sources cited by kit pages (household-only sources such as the AAPS docs trip the owner-token check otherwise).
 - [ ] A3: refusal fallback written but disabled per G19.
+- [ ] A2: saved profile.json includes the access key by default. Change: never write the key into the saved file (schema: make access optional in saved files, required only at generate time); user re-enters the key when regenerating.
+- [ ] A2/A3: Large estimate 347-753 MB, over G11's 200-400 MB; driven by topo maps. Cap maps (home county + destinations by default; route counties opt-in) and render PDFs as compressed page images.
+- [ ] A2: DC-05 hidden without an attached garage (recorded undecided) — fine; check the card page prints "not applicable" rather than "not decided" in that case.
+- [ ] Owner deploy action: set relayBase in app/settings/config.js to the Worker address (docs/10-deploy.md).

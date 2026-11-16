@@ -1,0 +1,3577 @@
+{
+ "state": "CA",
+ "state_name": "California",
+ "state_fips": "06",
+ "state_em": "California Governor's Office of Emergency Services",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "EKA": "NWS Eureka, CA",
+  "HNX": "NWS Hanford, CA",
+  "HNXSTO": "NWS HNXSTO",
+  "LOX": "NWS Los Angeles/Oxnard, CA",
+  "MFR": "NWS Medford, OR",
+  "MFRREV": "NWS MFRREV",
+  "MTR": "NWS San Francisco, CA",
+  "PSR": "NWS Phoenix, AZ",
+  "REV": "NWS Reno, NV",
+  "REVSTO": "NWS REVSTO",
+  "SGX": "NWS San Diego, CA",
+  "SGXPSR": "NWS SGXPSR",
+  "STO": "NWS Sacramento, CA",
+  "STOREV": "NWS STOREV",
+  "VEF": "NWS Las Vegas, NV",
+  "VEFSGXPSR": "NWS VEFSGXPSR"
+ },
+ "ecoregions": [
+  "Coast Range",
+  "Cascades",
+  "Sierra Nevada",
+  "Central California Foothills and Coastal Mountains",
+  "Central California Valley",
+  "Southern California Mountains",
+  "Eastern Cascades Slopes and Foothills",
+  "Central Basin and Range",
+  "Mojave Basin and Range",
+  "Klamath Mountains/California High North Coast Range",
+  "Northern Basin and Range",
+  "Sonoran Basin and Range",
+  "Southern California/Northern Baja Coast"
+ ],
+ "counties": {
+  "Alameda County": {
+   "fips": "06001",
+   "centroid": [
+    37.6471,
+    -121.9125
+   ],
+   "latitude": 37.6,
+   "bbox": [
+    -122.3415,
+    37.4552,
+    -121.4698,
+    37.9051
+   ],
+   "coastal": true,
+   "elevation_ft": 830,
+   "zone": "9b",
+   "jan_low_f": 38,
+   "jul_high_f": 88,
+   "record_low_f": 18,
+   "record_high_f": 116,
+   "precip_in": 15.2,
+   "snow_in": 0,
+   "last_frost": "Feb 27",
+   "first_frost": "Dec 1",
+   "growing_days": 278,
+   "ecoregion": "Central California Foothills and Coastal Mountains",
+   "ecoregion_code": "6",
+   "nws_office": "San Francisco, CA",
+   "nws_cwa": "MTR",
+   "nwr": [
+    {
+     "call": "WNG655",
+     "freq": "162.425",
+     "same": "006001"
+    },
+    {
+     "call": "WWF64",
+     "freq": "162.450",
+     "same": "006001"
+    },
+    {
+     "call": "KEC49",
+     "freq": "162.550",
+     "same": "006001"
+    },
+    {
+     "call": "KHB49",
+     "freq": "162.400",
+     "same": "006001"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 3,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 7.3
+  },
+  "Alpine County": {
+   "fips": "06003",
+   "centroid": [
+    38.6218,
+    -119.7984
+   ],
+   "latitude": 38.6,
+   "bbox": [
+    -120.073,
+    38.3274,
+    -119.5427,
+    38.9365
+   ],
+   "coastal": false,
+   "elevation_ft": 7720,
+   "zone": "6b",
+   "jan_low_f": 23,
+   "jul_high_f": 75,
+   "record_low_f": -14,
+   "record_high_f": 91,
+   "precip_in": 32.5,
+   "snow_in": 77,
+   "last_frost": "Jun 7",
+   "first_frost": "Sep 28",
+   "growing_days": 113,
+   "ecoregion": "Sierra Nevada",
+   "ecoregion_code": "5",
+   "nws_office": "STOREV",
+   "nws_cwa": "STOREV",
+   "nwr": [
+    {
+     "call": "WXK58",
+     "freq": "162.550",
+     "same": "006003"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 7.2
+  },
+  "Amador County": {
+   "fips": "06005",
+   "centroid": [
+    38.4435,
+    -120.6539
+   ],
+   "latitude": 38.4,
+   "bbox": [
+    -121.0277,
+    38.2181,
+    -120.0723,
+    38.709
+   ],
+   "coastal": false,
+   "elevation_ft": 2300,
+   "zone": "9a",
+   "jan_low_f": 39,
+   "jul_high_f": 93,
+   "record_low_f": 20,
+   "record_high_f": 110,
+   "precip_in": 32.0,
+   "snow_in": 0,
+   "last_frost": "Mar 4",
+   "first_frost": "Dec 11",
+   "growing_days": 285,
+   "ecoregion": "Sierra Nevada",
+   "ecoregion_code": "5",
+   "nws_office": "Sacramento, CA",
+   "nws_cwa": "STO",
+   "nwr": [
+    {
+     "call": "KEC57",
+     "freq": "162.550",
+     "same": "006005"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 3,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 7.3
+  },
+  "Butte County": {
+   "fips": "06007",
+   "centroid": [
+    39.6653,
+    -121.6032
+   ],
+   "latitude": 39.7,
+   "bbox": [
+    -122.0688,
+    39.2949,
+    -121.0763,
+    40.1519
+   ],
+   "coastal": false,
+   "elevation_ft": 600,
+   "zone": "9b",
+   "jan_low_f": 40,
+   "jul_high_f": 97,
+   "record_low_f": 12,
+   "record_high_f": 116,
+   "precip_in": 30.6,
+   "snow_in": 0,
+   "last_frost": "Jan 30",
+   "first_frost": "Dec 13",
+   "growing_days": 321,
+   "ecoregion": "Central California Foothills and Coastal Mountains",
+   "ecoregion_code": "6",
+   "nws_office": "Sacramento, CA",
+   "nws_cwa": "STO",
+   "nwr": [
+    {
+     "call": "WWF67",
+     "freq": "162.400",
+     "same": "006007"
+    },
+    {
+     "call": "WXL88",
+     "freq": "162.550",
+     "same": "006007"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 3,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 7.2
+  },
+  "Calaveras County": {
+   "fips": "06009",
+   "centroid": [
+    38.1911,
+    -120.5541
+   ],
+   "latitude": 38.2,
+   "bbox": [
+    -120.9953,
+    37.8327,
+    -120.0199,
+    38.5097
+   ],
+   "coastal": false,
+   "elevation_ft": 2200,
+   "zone": "9a",
+   "jan_low_f": 33,
+   "jul_high_f": 93,
+   "record_low_f": 8,
+   "record_high_f": 113,
+   "precip_in": 32.8,
+   "snow_in": 0,
+   "last_frost": "Apr 9",
+   "first_frost": "Nov 9",
+   "growing_days": 213,
+   "ecoregion": "Sierra Nevada",
+   "ecoregion_code": "5",
+   "nws_office": "Sacramento, CA",
+   "nws_cwa": "STO",
+   "nwr": [
+    {
+     "call": "KEC57",
+     "freq": "162.550",
+     "same": "006009"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 3,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 7.3
+  },
+  "Colusa County": {
+   "fips": "06011",
+   "centroid": [
+    39.1777,
+    -122.2376
+   ],
+   "latitude": 39.2,
+   "bbox": [
+    -122.7846,
+    38.9239,
+    -121.7959,
+    39.4145
+   ],
+   "coastal": false,
+   "elevation_ft": 120,
+   "zone": "9b",
+   "jan_low_f": 38,
+   "jul_high_f": 92,
+   "record_low_f": 14,
+   "record_high_f": 114,
+   "precip_in": 17.2,
+   "snow_in": 0,
+   "last_frost": "Feb 14",
+   "first_frost": "Dec 1",
+   "growing_days": 293,
+   "ecoregion": "Central California Valley",
+   "ecoregion_code": "7",
+   "nws_office": "Sacramento, CA",
+   "nws_cwa": "STO",
+   "nwr": [
+    {
+     "call": "WWF67",
+     "freq": "162.400",
+     "same": "006011"
+    },
+    {
+     "call": "KEC57",
+     "freq": "162.550",
+     "same": "006011"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 7.2
+  },
+  "Contra Costa County": {
+   "fips": "06013",
+   "centroid": [
+    37.9195,
+    -121.9515
+   ],
+   "latitude": 37.9,
+   "bbox": [
+    -122.4298,
+    37.7186,
+    -121.5365,
+    38.0999
+   ],
+   "coastal": true,
+   "elevation_ft": 1030,
+   "zone": "9b",
+   "jan_low_f": 42,
+   "jul_high_f": 82,
+   "record_low_f": 14,
+   "record_high_f": 111,
+   "precip_in": 26.1,
+   "snow_in": 1,
+   "last_frost": "Mar 8",
+   "first_frost": "Dec 22",
+   "growing_days": 282,
+   "ecoregion": "Central California Foothills and Coastal Mountains",
+   "ecoregion_code": "6",
+   "nws_office": "San Francisco, CA",
+   "nws_cwa": "MTR",
+   "nwr": [
+    {
+     "call": "KDX54",
+     "freq": "162.500",
+     "same": "006013"
+    },
+    {
+     "call": "WNG655",
+     "freq": "162.425",
+     "same": "006013"
+    },
+    {
+     "call": "WWF64",
+     "freq": "162.450",
+     "same": "006013"
+    },
+    {
+     "call": "KEC49",
+     "freq": "162.550",
+     "same": "006013"
+    },
+    {
+     "call": "KHB49",
+     "freq": "162.400",
+     "same": "006013"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 7.3
+  },
+  "Del Norte County": {
+   "fips": "06015",
+   "centroid": [
+    41.7499,
+    -123.981
+   ],
+   "latitude": 41.7,
+   "bbox": [
+    -124.256,
+    41.3808,
+    -123.5178,
+    42.001
+   ],
+   "coastal": true,
+   "elevation_ft": 1270,
+   "zone": "9a",
+   "jan_low_f": 32,
+   "jul_high_f": 94,
+   "record_low_f": -6,
+   "record_high_f": 114,
+   "precip_in": 61.2,
+   "snow_in": 7,
+   "last_frost": "May 1",
+   "first_frost": "Oct 12",
+   "growing_days": 161,
+   "ecoregion": "Klamath Mountains/California High North Coast Range",
+   "ecoregion_code": "78",
+   "nws_office": "Eureka, CA",
+   "nws_cwa": "EKA",
+   "nwr": [
+    {
+     "call": "KIH37",
+     "freq": "162.550",
+     "same": "006015"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 3,
+    "landslide": 3
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 6.8
+  },
+  "El Dorado County": {
+   "fips": "06017",
+   "centroid": [
+    38.7856,
+    -120.5342
+   ],
+   "latitude": 38.8,
+   "bbox": [
+    -121.1401,
+    38.5025,
+    -119.8774,
+    39.0675
+   ],
+   "coastal": false,
+   "elevation_ft": 4100,
+   "zone": "9a",
+   "jan_low_f": 32,
+   "jul_high_f": 90,
+   "record_low_f": 9,
+   "record_high_f": 111,
+   "precip_in": 54.5,
+   "snow_in": 58,
+   "last_frost": "Apr 26",
+   "first_frost": "Nov 2",
+   "growing_days": 191,
+   "ecoregion": "Sierra Nevada",
+   "ecoregion_code": "5",
+   "nws_office": "STOREV",
+   "nws_cwa": "STOREV",
+   "nwr": [
+    {
+     "call": "WXK58",
+     "freq": "162.550",
+     "same": "006017"
+    },
+    {
+     "call": "KEC57",
+     "freq": "162.550",
+     "same": "006017"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 3,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 7.3
+  },
+  "Fresno County": {
+   "fips": "06019",
+   "centroid": [
+    36.761,
+    -119.655
+   ],
+   "latitude": 36.8,
+   "bbox": [
+    -120.9187,
+    35.907,
+    -118.3608,
+    37.5872
+   ],
+   "coastal": false,
+   "elevation_ft": 350,
+   "zone": "9b",
+   "jan_low_f": 38,
+   "jul_high_f": 102,
+   "record_low_f": 18,
+   "record_high_f": 114,
+   "precip_in": 11.8,
+   "snow_in": 0,
+   "last_frost": "Jan 30",
+   "first_frost": "Dec 11",
+   "growing_days": 319,
+   "ecoregion": "Central California Valley",
+   "ecoregion_code": "7",
+   "nws_office": "Hanford, CA",
+   "nws_cwa": "HNX",
+   "nwr": [
+    {
+     "call": "WXL89",
+     "freq": "162.550",
+     "same": "006019"
+    },
+    {
+     "call": "KIH62",
+     "freq": "162.400",
+     "same": "006019"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 3,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 7.4
+  },
+  "Glenn County": {
+   "fips": "06021",
+   "centroid": [
+    39.6025,
+    -122.4017
+   ],
+   "latitude": 39.6,
+   "bbox": [
+    -122.9384,
+    39.3829,
+    -121.8565,
+    39.8005
+   ],
+   "coastal": false,
+   "elevation_ft": 860,
+   "zone": "9a",
+   "jan_low_f": 34,
+   "jul_high_f": 96,
+   "record_low_f": 5,
+   "record_high_f": 116,
+   "precip_in": 21.4,
+   "snow_in": 0,
+   "last_frost": "Apr 5",
+   "first_frost": "Nov 13",
+   "growing_days": 220,
+   "ecoregion": "Central California Foothills and Coastal Mountains",
+   "ecoregion_code": "6",
+   "nws_office": "Sacramento, CA",
+   "nws_cwa": "STO",
+   "nwr": [
+    {
+     "call": "WWF67",
+     "freq": "162.400",
+     "same": "006021"
+    },
+    {
+     "call": "WXL88",
+     "freq": "162.550",
+     "same": "006021"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 7.2
+  },
+  "Humboldt County": {
+   "fips": "06023",
+   "centroid": [
+    40.7067,
+    -123.9262
+   ],
+   "latitude": 40.7,
+   "bbox": [
+    -124.4096,
+    40.0003,
+    -123.4066,
+    41.4658
+   ],
+   "coastal": true,
+   "elevation_ft": 2500,
+   "zone": "9b",
+   "jan_low_f": 30,
+   "jul_high_f": 96,
+   "record_low_f": 20,
+   "record_high_f": 87,
+   "precip_in": 54.4,
+   "snow_in": 1,
+   "last_frost": "Apr 27",
+   "first_frost": "Oct 21",
+   "growing_days": 176,
+   "ecoregion": "Coast Range",
+   "ecoregion_code": "1",
+   "nws_office": "Eureka, CA",
+   "nws_cwa": "EKA",
+   "nwr": [
+    {
+     "call": "KEC82",
+     "freq": "162.400",
+     "same": "006023"
+    },
+    {
+     "call": "WZ2550",
+     "freq": "162.450",
+     "same": "006023"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 3,
+    "landslide": 3
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 6.9
+  },
+  "Imperial County": {
+   "fips": "06025",
+   "centroid": [
+    33.0408,
+    -115.3554
+   ],
+   "latitude": 33.0,
+   "bbox": [
+    -116.1063,
+    32.6188,
+    -114.4629,
+    33.4338
+   ],
+   "coastal": false,
+   "elevation_ft": -40,
+   "zone": "9b",
+   "jan_low_f": 41,
+   "jul_high_f": 108,
+   "record_low_f": 4,
+   "record_high_f": 122,
+   "precip_in": 2.4,
+   "snow_in": 0,
+   "last_frost": "Jan 16",
+   "first_frost": "Dec 19",
+   "growing_days": 335,
+   "ecoregion": "Sonoran Basin and Range",
+   "ecoregion_code": "81",
+   "nws_office": "Phoenix, AZ",
+   "nws_cwa": "PSR",
+   "nwr": [
+    {
+     "call": "WNG712",
+     "freq": "162.525",
+     "same": "006025"
+    },
+    {
+     "call": "KIG78",
+     "freq": "162.400",
+     "same": "006025"
+    },
+    {
+     "call": "WXL87",
+     "freq": "162.550",
+     "same": "006025"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 5.0,
+   "sun_hours_jun": 7.5
+  },
+  "Inyo County": {
+   "fips": "06027",
+   "centroid": [
+    36.5622,
+    -117.4042
+   ],
+   "latitude": 36.6,
+   "bbox": [
+    -118.7899,
+    35.7867,
+    -115.6482,
+    37.4653
+   ],
+   "coastal": false,
+   "elevation_ft": 5020,
+   "zone": "8b",
+   "jan_low_f": 27,
+   "jul_high_f": 94,
+   "record_low_f": -6,
+   "record_high_f": 119,
+   "precip_in": 6.2,
+   "snow_in": 2,
+   "last_frost": "Apr 17",
+   "first_frost": "Nov 1",
+   "growing_days": 196,
+   "ecoregion": "Mojave Basin and Range",
+   "ecoregion_code": "14",
+   "nws_office": "Las Vegas, NV",
+   "nws_cwa": "VEF",
+   "nwr": [
+    {
+     "call": "WZ2524",
+     "freq": "162.425",
+     "same": "006027"
+    },
+    {
+     "call": "WNG659",
+     "freq": "162.425",
+     "same": "006027"
+    },
+    {
+     "call": "WNG634",
+     "freq": "162.400",
+     "same": "006027"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.7,
+   "sun_hours_jun": 7.5
+  },
+  "Kern County": {
+   "fips": "06029",
+   "centroid": [
+    35.3466,
+    -118.7295
+   ],
+   "latitude": 35.3,
+   "bbox": [
+    -120.1942,
+    34.7906,
+    -117.6162,
+    35.7982
+   ],
+   "coastal": false,
+   "elevation_ft": 1230,
+   "zone": "9b",
+   "jan_low_f": 39,
+   "jul_high_f": 97,
+   "record_low_f": 19,
+   "record_high_f": 115,
+   "precip_in": 6.7,
+   "snow_in": 0,
+   "last_frost": "Jan 31",
+   "first_frost": "Dec 8",
+   "growing_days": 312,
+   "ecoregion": "Central California Valley",
+   "ecoregion_code": "7",
+   "nws_office": "Hanford, CA",
+   "nws_cwa": "HNX",
+   "nwr": [
+    {
+     "call": "WXL89",
+     "freq": "162.550",
+     "same": "006029"
+    },
+    {
+     "call": "WNG659",
+     "freq": "162.425",
+     "same": "006029"
+    },
+    {
+     "call": "KIH62",
+     "freq": "162.400",
+     "same": "006029"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 3,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 4.3,
+   "sun_hours_jun": 7.5
+  },
+  "Kings County": {
+   "fips": "06031",
+   "centroid": [
+    36.0725,
+    -119.8155
+   ],
+   "latitude": 36.1,
+   "bbox": [
+    -120.3144,
+    35.7887,
+    -119.4744,
+    36.489
+   ],
+   "coastal": false,
+   "elevation_ft": 170,
+   "zone": "9a",
+   "jan_low_f": 36,
+   "jul_high_f": 99,
+   "record_low_f": 7,
+   "record_high_f": 116,
+   "precip_in": 7.5,
+   "snow_in": 0,
+   "last_frost": "Feb 19",
+   "first_frost": "Nov 29",
+   "growing_days": 281,
+   "ecoregion": "Central California Valley",
+   "ecoregion_code": "7",
+   "nws_office": "Hanford, CA",
+   "nws_cwa": "HNX",
+   "nwr": [
+    {
+     "call": "WXL89",
+     "freq": "162.550",
+     "same": "006031"
+    },
+    {
+     "call": "KIH62",
+     "freq": "162.400",
+     "same": "006031"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 7.4
+  },
+  "Lake County": {
+   "fips": "06033",
+   "centroid": [
+    39.108,
+    -122.7452
+   ],
+   "latitude": 39.1,
+   "bbox": [
+    -123.0942,
+    38.6685,
+    -122.3418,
+    39.5812
+   ],
+   "coastal": false,
+   "elevation_ft": 2700,
+   "zone": "9a",
+   "jan_low_f": 33,
+   "jul_high_f": 91,
+   "record_low_f": 6,
+   "record_high_f": 114,
+   "precip_in": 29.9,
+   "snow_in": 0,
+   "last_frost": "Apr 10",
+   "first_frost": "Nov 6",
+   "growing_days": 209,
+   "ecoregion": "Klamath Mountains/California High North Coast Range",
+   "ecoregion_code": "78",
+   "nws_office": "Eureka, CA",
+   "nws_cwa": "EKA",
+   "nwr": [
+    {
+     "call": "WNG720",
+     "freq": "162.525",
+     "same": "006033"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 3,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 2,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 7.2
+  },
+  "Lassen County": {
+   "fips": "06035",
+   "centroid": [
+    40.7153,
+    -120.6212
+   ],
+   "latitude": 40.7,
+   "bbox": [
+    -121.3319,
+    39.7076,
+    -119.9959,
+    41.1845
+   ],
+   "coastal": false,
+   "elevation_ft": 7050,
+   "zone": "7a",
+   "jan_low_f": 21,
+   "jul_high_f": 84,
+   "record_low_f": -33,
+   "record_high_f": 105,
+   "precip_in": 29.2,
+   "snow_in": 82,
+   "last_frost": "Jun 14",
+   "first_frost": "Sep 18",
+   "growing_days": 94,
+   "ecoregion": "Eastern Cascades Slopes and Foothills",
+   "ecoregion_code": "9",
+   "nws_office": "REVSTO",
+   "nws_cwa": "REVSTO",
+   "nwr": [
+    {
+     "call": "WWG20",
+     "freq": "162.450",
+     "same": "006035"
+    },
+    {
+     "call": "WZ2530",
+     "freq": "162.500",
+     "same": "006035"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 7.0
+  },
+  "Los Angeles County": {
+   "fips": "06037",
+   "centroid": [
+    34.1964,
+    -118.2619
+   ],
+   "latitude": 34.2,
+   "bbox": [
+    -118.9482,
+    32.7996,
+    -117.6456,
+    34.8231
+   ],
+   "coastal": true,
+   "elevation_ft": 2260,
+   "zone": "10a",
+   "jan_low_f": 47,
+   "jul_high_f": 94,
+   "record_low_f": 21,
+   "record_high_f": 115,
+   "precip_in": 24.8,
+   "snow_in": 0,
+   "last_frost": "Jan 8",
+   "first_frost": "Jan 1",
+   "growing_days": 365,
+   "ecoregion": "Southern California/Northern Baja Coast",
+   "ecoregion_code": "85",
+   "nws_office": "Los Angeles/Oxnard, CA",
+   "nws_cwa": "LOX",
+   "nwr": [
+    {
+     "call": "WNG584",
+     "freq": "162.525",
+     "same": "006037"
+    },
+    {
+     "call": "WNG659",
+     "freq": "162.425",
+     "same": "006037"
+    },
+    {
+     "call": "KWO37",
+     "freq": "162.550",
+     "same": "006037"
+    },
+    {
+     "call": "KWL22",
+     "freq": "162.425",
+     "same": "006037"
+    },
+    {
+     "call": "WZ2505",
+     "freq": "162.425",
+     "same": "006037"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 3,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 4.8,
+   "sun_hours_jun": 7.1
+  },
+  "Madera County": {
+   "fips": "06039",
+   "centroid": [
+    37.2098,
+    -119.7498
+   ],
+   "latitude": 37.2,
+   "bbox": [
+    -120.5448,
+    36.763,
+    -119.0223,
+    37.7785
+   ],
+   "coastal": false,
+   "elevation_ft": 1870,
+   "zone": "9a",
+   "jan_low_f": 37,
+   "jul_high_f": 94,
+   "record_low_f": 5,
+   "record_high_f": 114,
+   "precip_in": 25.1,
+   "snow_in": 2,
+   "last_frost": "Mar 25",
+   "first_frost": "Dec 3",
+   "growing_days": 253,
+   "ecoregion": "Central California Foothills and Coastal Mountains",
+   "ecoregion_code": "6",
+   "nws_office": "Hanford, CA",
+   "nws_cwa": "HNX",
+   "nwr": [
+    {
+     "call": "KIH62",
+     "freq": "162.400",
+     "same": "006039"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 3,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 7.3
+  },
+  "Marin County": {
+   "fips": "06041",
+   "centroid": [
+    38.0514,
+    -122.7464
+   ],
+   "latitude": 38.1,
+   "bbox": [
+    -123.0241,
+    37.8151,
+    -122.4187,
+    38.3205
+   ],
+   "coastal": true,
+   "elevation_ft": 360,
+   "zone": "9b",
+   "jan_low_f": 43,
+   "jul_high_f": 81,
+   "record_low_f": 20,
+   "record_high_f": 110,
+   "precip_in": 34.5,
+   "snow_in": 0,
+   "last_frost": "Jan 11",
+   "first_frost": "Dec 21",
+   "growing_days": 349,
+   "ecoregion": "Central California Foothills and Coastal Mountains",
+   "ecoregion_code": "6",
+   "nws_office": "San Francisco, CA",
+   "nws_cwa": "MTR",
+   "nwr": [
+    {
+     "call": "KDX54",
+     "freq": "162.500",
+     "same": "006041"
+    },
+    {
+     "call": "KHB49",
+     "freq": "162.400",
+     "same": "006041"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 2,
+    "landslide": 3
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 7.1
+  },
+  "Mariposa County": {
+   "fips": "06043",
+   "centroid": [
+    37.5743,
+    -119.9117
+   ],
+   "latitude": 37.6,
+   "bbox": [
+    -120.3949,
+    37.1828,
+    -119.3082,
+    37.904
+   ],
+   "coastal": false,
+   "elevation_ft": 3050,
+   "zone": "8b",
+   "jan_low_f": 31,
+   "jul_high_f": 91,
+   "record_low_f": -13,
+   "record_high_f": 109,
+   "precip_in": 38.7,
+   "snow_in": 4,
+   "last_frost": "Apr 22",
+   "first_frost": "Nov 2",
+   "growing_days": 192,
+   "ecoregion": "Sierra Nevada",
+   "ecoregion_code": "5",
+   "nws_office": "Hanford, CA",
+   "nws_cwa": "HNX",
+   "nwr": [
+    {
+     "call": "KIH62",
+     "freq": "162.400",
+     "same": "006043"
+    },
+    {
+     "call": "KAD94",
+     "freq": "162.450",
+     "same": "006043"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 3,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 7.3
+  },
+  "Mendocino County": {
+   "fips": "06045",
+   "centroid": [
+    39.4324,
+    -123.4429
+   ],
+   "latitude": 39.4,
+   "bbox": [
+    -124.0222,
+    38.7589,
+    -122.8211,
+    40.0012
+   ],
+   "coastal": true,
+   "elevation_ft": 1060,
+   "zone": "9a",
+   "jan_low_f": 33,
+   "jul_high_f": 84,
+   "record_low_f": 5,
+   "record_high_f": 112,
+   "precip_in": 49.2,
+   "snow_in": 0,
+   "last_frost": "May 5",
+   "first_frost": "Oct 9",
+   "growing_days": 157,
+   "ecoregion": "Coast Range",
+   "ecoregion_code": "1",
+   "nws_office": "Eureka, CA",
+   "nws_cwa": "EKA",
+   "nwr": [
+    {
+     "call": "KIH30",
+     "freq": "162.550",
+     "same": "006045"
+    },
+    {
+     "call": "WNG720",
+     "freq": "162.525",
+     "same": "006045"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 3,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 7.0
+  },
+  "Merced County": {
+   "fips": "06047",
+   "centroid": [
+    37.1948,
+    -120.7228
+   ],
+   "latitude": 37.2,
+   "bbox": [
+    -121.2482,
+    36.7404,
+    -120.053,
+    37.6348
+   ],
+   "coastal": false,
+   "elevation_ft": 90,
+   "zone": "9a",
+   "jan_low_f": 36,
+   "jul_high_f": 96,
+   "record_low_f": 14,
+   "record_high_f": 116,
+   "precip_in": 10.4,
+   "snow_in": 0,
+   "last_frost": "Mar 28",
+   "first_frost": "Nov 14",
+   "growing_days": 233,
+   "ecoregion": "Central California Valley",
+   "ecoregion_code": "7",
+   "nws_office": "Hanford, CA",
+   "nws_cwa": "HNX",
+   "nwr": [
+    {
+     "call": "KIH62",
+     "freq": "162.400",
+     "same": "006047"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 7.3
+  },
+  "Modoc County": {
+   "fips": "06049",
+   "centroid": [
+    41.5929,
+    -120.7184
+   ],
+   "latitude": 41.6,
+   "bbox": [
+    -121.4571,
+    41.1835,
+    -119.9983,
+    41.9976
+   ],
+   "coastal": false,
+   "elevation_ft": 5060,
+   "zone": "7a",
+   "jan_low_f": 21,
+   "jul_high_f": 89,
+   "record_low_f": -34,
+   "record_high_f": 108,
+   "precip_in": 11.7,
+   "snow_in": 22,
+   "last_frost": "Jun 3",
+   "first_frost": "Sep 12",
+   "growing_days": 97,
+   "ecoregion": "Eastern Cascades Slopes and Foothills",
+   "ecoregion_code": "9",
+   "nws_office": "MFRREV",
+   "nws_cwa": "MFRREV",
+   "nwr": [
+    {
+     "call": "WXL97",
+     "freq": "162.550",
+     "same": "006049"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 6.9
+  },
+  "Mono County": {
+   "fips": "06051",
+   "centroid": [
+    37.9158,
+    -118.8752
+   ],
+   "latitude": 37.9,
+   "bbox": [
+    -119.6501,
+    37.4626,
+    -117.8338,
+    38.7101
+   ],
+   "coastal": false,
+   "elevation_ft": 8070,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 78,
+   "record_low_f": -36,
+   "record_high_f": 91,
+   "precip_in": 23.7,
+   "snow_in": 94,
+   "last_frost": "Jun 10",
+   "first_frost": "Sep 17",
+   "growing_days": 98,
+   "ecoregion": "Central Basin and Range",
+   "ecoregion_code": "13",
+   "nws_office": "Reno, NV",
+   "nws_cwa": "REV",
+   "nwr": [
+    {
+     "call": "WNG595",
+     "freq": "162.525",
+     "same": "006051"
+    },
+    {
+     "call": "WWF59",
+     "freq": "162.475",
+     "same": "006051"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.2,
+   "sun_hours_jun": 7.3
+  },
+  "Monterey County": {
+   "fips": "06053",
+   "centroid": [
+    36.2401,
+    -121.3156
+   ],
+   "latitude": 36.2,
+   "bbox": [
+    -121.9787,
+    35.7891,
+    -120.2148,
+    36.9192
+   ],
+   "coastal": true,
+   "elevation_ft": 1230,
+   "zone": "9a",
+   "jan_low_f": 34,
+   "jul_high_f": 96,
+   "record_low_f": 10,
+   "record_high_f": 116,
+   "precip_in": 16.6,
+   "snow_in": 0,
+   "last_frost": "Apr 23",
+   "first_frost": "Nov 3",
+   "growing_days": 189,
+   "ecoregion": "Central California Foothills and Coastal Mountains",
+   "ecoregion_code": "6",
+   "nws_office": "San Francisco, CA",
+   "nws_cwa": "MTR",
+   "nwr": [
+    {
+     "call": "WWF64",
+     "freq": "162.450",
+     "same": "006053"
+    },
+    {
+     "call": "KEC49",
+     "freq": "162.550",
+     "same": "006053"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 3,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 7.1
+  },
+  "Napa County": {
+   "fips": "06055",
+   "centroid": [
+    38.5071,
+    -122.3259
+   ],
+   "latitude": 38.5,
+   "bbox": [
+    -122.6458,
+    38.1549,
+    -122.0615,
+    38.8639
+   ],
+   "coastal": true,
+   "elevation_ft": 1300,
+   "zone": "9b",
+   "jan_low_f": 39,
+   "jul_high_f": 85,
+   "record_low_f": 14,
+   "record_high_f": 110,
+   "precip_in": 39.7,
+   "snow_in": 0,
+   "last_frost": "Apr 7",
+   "first_frost": "Dec 5",
+   "growing_days": 245,
+   "ecoregion": "Central California Foothills and Coastal Mountains",
+   "ecoregion_code": "6",
+   "nws_office": "San Francisco, CA",
+   "nws_cwa": "MTR",
+   "nwr": [
+    {
+     "call": "KDX54",
+     "freq": "162.500",
+     "same": "006055"
+    },
+    {
+     "call": "WWF64",
+     "freq": "162.450",
+     "same": "006055"
+    },
+    {
+     "call": "KEC49",
+     "freq": "162.550",
+     "same": "006055"
+    },
+    {
+     "call": "KHB49",
+     "freq": "162.400",
+     "same": "006055"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 7.1
+  },
+  "Nevada County": {
+   "fips": "06057",
+   "centroid": [
+    39.2975,
+    -120.7713
+   ],
+   "latitude": 39.3,
+   "bbox": [
+    -121.2798,
+    39.0055,
+    -120.0032,
+    39.5259
+   ],
+   "coastal": false,
+   "elevation_ft": 4500,
+   "zone": "8b",
+   "jan_low_f": 34,
+   "jul_high_f": 78,
+   "record_low_f": 3,
+   "record_high_f": 97,
+   "precip_in": 62.4,
+   "snow_in": 82,
+   "last_frost": "May 4",
+   "first_frost": "Nov 4",
+   "growing_days": 183,
+   "ecoregion": "Sierra Nevada",
+   "ecoregion_code": "5",
+   "nws_office": "STOREV",
+   "nws_cwa": "STOREV",
+   "nwr": [
+    {
+     "call": "WWF67",
+     "freq": "162.400",
+     "same": "006057"
+    },
+    {
+     "call": "WXK58",
+     "freq": "162.550",
+     "same": "006057"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 3,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 7.2
+  },
+  "Orange County": {
+   "fips": "06059",
+   "centroid": [
+    33.6757,
+    -117.7772
+   ],
+   "latitude": 33.7,
+   "bbox": [
+    -118.115,
+    33.3865,
+    -117.413,
+    33.947
+   ],
+   "coastal": true,
+   "elevation_ft": 130,
+   "zone": "10b",
+   "jan_low_f": 43,
+   "jul_high_f": 85,
+   "record_low_f": 18,
+   "record_high_f": 111,
+   "precip_in": 14.1,
+   "snow_in": 0,
+   "last_frost": "Jan 5",
+   "first_frost": "Dec 25",
+   "growing_days": 365,
+   "ecoregion": "Southern California/Northern Baja Coast",
+   "ecoregion_code": "85",
+   "nws_office": "San Diego, CA",
+   "nws_cwa": "SGX",
+   "nwr": [
+    {
+     "call": "WWG21",
+     "freq": "162.450",
+     "same": "006059"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 3,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 4.6,
+   "sun_hours_jun": 6.5
+  },
+  "Placer County": {
+   "fips": "06061",
+   "centroid": [
+    39.062,
+    -120.7227
+   ],
+   "latitude": 39.1,
+   "bbox": [
+    -121.4845,
+    38.7115,
+    -120.0024,
+    39.3222
+   ],
+   "coastal": false,
+   "elevation_ft": 3280,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 91,
+   "record_low_f": 9,
+   "record_high_f": 111,
+   "precip_in": 50.6,
+   "snow_in": 3,
+   "last_frost": "Apr 12",
+   "first_frost": "Nov 21",
+   "growing_days": 221,
+   "ecoregion": "Sierra Nevada",
+   "ecoregion_code": "5",
+   "nws_office": "STOREV",
+   "nws_cwa": "STOREV",
+   "nwr": [
+    {
+     "call": "WWF67",
+     "freq": "162.400",
+     "same": "006061"
+    },
+    {
+     "call": "WXK58",
+     "freq": "162.550",
+     "same": "006061"
+    },
+    {
+     "call": "KEC57",
+     "freq": "162.550",
+     "same": "006061"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 3,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 7.2
+  },
+  "Plumas County": {
+   "fips": "06063",
+   "centroid": [
+    39.9923,
+    -120.8244
+   ],
+   "latitude": 40.0,
+   "bbox": [
+    -121.4978,
+    39.5976,
+    -120.0993,
+    40.4497
+   ],
+   "coastal": false,
+   "elevation_ft": 6410,
+   "zone": "7b",
+   "jan_low_f": 15,
+   "jul_high_f": 80,
+   "record_low_f": -33,
+   "record_high_f": 96,
+   "precip_in": 30.5,
+   "snow_in": 38,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 22,
+   "ecoregion": "Sierra Nevada",
+   "ecoregion_code": "5",
+   "nws_office": "STOREV",
+   "nws_cwa": "STOREV",
+   "nwr": [
+    {
+     "call": "WWG20",
+     "freq": "162.450",
+     "same": "006063"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 3,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 7.2
+  },
+  "Riverside County": {
+   "fips": "06065",
+   "centroid": [
+    33.7298,
+    -116.0022
+   ],
+   "latitude": 33.7,
+   "bbox": [
+    -117.6763,
+    33.4259,
+    -114.435,
+    34.08
+   ],
+   "coastal": false,
+   "elevation_ft": 2590,
+   "zone": "9b",
+   "jan_low_f": 38,
+   "jul_high_f": 102,
+   "record_low_f": 10,
+   "record_high_f": 118,
+   "precip_in": 4.4,
+   "snow_in": 1,
+   "last_frost": "Feb 28",
+   "first_frost": "Dec 1",
+   "growing_days": 273,
+   "ecoregion": "Mojave Basin and Range",
+   "ecoregion_code": "14",
+   "nws_office": "SGXPSR",
+   "nws_cwa": "SGXPSR",
+   "nwr": [
+    {
+     "call": "WNG712",
+     "freq": "162.525",
+     "same": "006065"
+    },
+    {
+     "call": "KIG78",
+     "freq": "162.400",
+     "same": "006065"
+    },
+    {
+     "call": "WWG21",
+     "freq": "162.450",
+     "same": "006065"
+    },
+    {
+     "call": "WXM66",
+     "freq": "162.500",
+     "same": "006065"
+    },
+    {
+     "call": "WXL87",
+     "freq": "162.550",
+     "same": "006065"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 3,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 4.9,
+   "sun_hours_jun": 7.4
+  },
+  "Sacramento County": {
+   "fips": "06067",
+   "centroid": [
+    38.4501,
+    -121.3443
+   ],
+   "latitude": 38.5,
+   "bbox": [
+    -121.8393,
+    38.0215,
+    -121.0265,
+    38.7364
+   ],
+   "coastal": true,
+   "elevation_ft": 60,
+   "zone": "9b",
+   "jan_low_f": 41,
+   "jul_high_f": 94,
+   "record_low_f": 17,
+   "record_high_f": 116,
+   "precip_in": 19.2,
+   "snow_in": 0,
+   "last_frost": "Jan 12",
+   "first_frost": "Dec 16",
+   "growing_days": 341,
+   "ecoregion": "Central California Valley",
+   "ecoregion_code": "7",
+   "nws_office": "Sacramento, CA",
+   "nws_cwa": "STO",
+   "nwr": [
+    {
+     "call": "KEC57",
+     "freq": "162.550",
+     "same": "006067"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 7.2
+  },
+  "San Benito County": {
+   "fips": "06069",
+   "centroid": [
+    36.6117,
+    -121.0858
+   ],
+   "latitude": 36.6,
+   "bbox": [
+    -121.6446,
+    36.1972,
+    -120.5967,
+    36.988
+   ],
+   "coastal": false,
+   "elevation_ft": 2910,
+   "zone": "9b",
+   "jan_low_f": 34,
+   "jul_high_f": 96,
+   "record_low_f": 10,
+   "record_high_f": 116,
+   "precip_in": 16.6,
+   "snow_in": 0,
+   "last_frost": "Apr 23",
+   "first_frost": "Nov 3",
+   "growing_days": 189,
+   "ecoregion": "Central California Foothills and Coastal Mountains",
+   "ecoregion_code": "6",
+   "nws_office": "San Francisco, CA",
+   "nws_cwa": "MTR",
+   "nwr": [
+    {
+     "call": "WWF64",
+     "freq": "162.450",
+     "same": "006069"
+    },
+    {
+     "call": "KEC49",
+     "freq": "162.550",
+     "same": "006069"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 7.1
+  },
+  "San Bernardino County": {
+   "fips": "06071",
+   "centroid": [
+    34.8567,
+    -116.1816
+   ],
+   "latitude": 34.9,
+   "bbox": [
+    -117.8029,
+    33.8701,
+    -114.1312,
+    35.8095
+   ],
+   "coastal": false,
+   "elevation_ft": 1300,
+   "zone": "9a",
+   "jan_low_f": 35,
+   "jul_high_f": 110,
+   "record_low_f": 13,
+   "record_high_f": 124,
+   "precip_in": 4.3,
+   "snow_in": 0,
+   "last_frost": "Feb 14",
+   "first_frost": "Nov 27",
+   "growing_days": 287,
+   "ecoregion": "Mojave Basin and Range",
+   "ecoregion_code": "14",
+   "nws_office": "VEFSGXPSR",
+   "nws_cwa": "VEFSGXPSR",
+   "nwr": [
+    {
+     "call": "KQC45",
+     "freq": "162.500",
+     "same": "006071"
+    },
+    {
+     "call": "WNG659",
+     "freq": "162.425",
+     "same": "006071"
+    },
+    {
+     "call": "KXI83",
+     "freq": "162.425",
+     "same": "006071"
+    },
+    {
+     "call": "KXI84",
+     "freq": "162.400",
+     "same": "006071"
+    },
+    {
+     "call": "WNG634",
+     "freq": "162.400",
+     "same": "006071"
+    },
+    {
+     "call": "WWG21",
+     "freq": "162.450",
+     "same": "006071"
+    },
+    {
+     "call": "WXM66",
+     "freq": "162.500",
+     "same": "006071"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 3,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 5.0,
+   "sun_hours_jun": 7.5
+  },
+  "San Diego County": {
+   "fips": "06073",
+   "centroid": [
+    33.0236,
+    -116.7761
+   ],
+   "latitude": 33.0,
+   "bbox": [
+    -117.5956,
+    32.5357,
+    -116.081,
+    33.5056
+   ],
+   "coastal": true,
+   "elevation_ft": 2420,
+   "zone": "9b",
+   "jan_low_f": 31,
+   "jul_high_f": 92,
+   "record_low_f": 8,
+   "record_high_f": 120,
+   "precip_in": 25.2,
+   "snow_in": 0,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 26",
+   "growing_days": 189,
+   "ecoregion": "Southern California/Northern Baja Coast",
+   "ecoregion_code": "85",
+   "nws_office": "San Diego, CA",
+   "nws_cwa": "SGX",
+   "nwr": [
+    {
+     "call": "WNG637",
+     "freq": "162.425",
+     "same": "006073"
+    },
+    {
+     "call": "KEC62",
+     "freq": "162.400",
+     "same": "006073"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 3,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 4.9,
+   "sun_hours_jun": 7.4
+  },
+  "San Francisco County": {
+   "fips": "06075",
+   "centroid": [
+    37.7272,
+    -123.0322
+   ],
+   "latitude": 37.7,
+   "bbox": [
+    -123.0326,
+    37.6931,
+    -122.3566,
+    37.8324
+   ],
+   "coastal": true,
+   "elevation_ft": -50,
+   "zone": "10b",
+   "jan_low_f": 46,
+   "jul_high_f": 62,
+   "record_low_f": 23,
+   "record_high_f": 96,
+   "precip_in": 20.6,
+   "snow_in": 0,
+   "last_frost": "Dec 30",
+   "first_frost": "Dec 25",
+   "growing_days": 365,
+   "ecoregion": "Coast Range",
+   "ecoregion_code": "1",
+   "nws_office": "San Francisco, CA",
+   "nws_cwa": "MTR",
+   "nwr": [
+    {
+     "call": "KDX54",
+     "freq": "162.500",
+     "same": "006075"
+    },
+    {
+     "call": "WWF64",
+     "freq": "162.450",
+     "same": "006075"
+    },
+    {
+     "call": "KEC49",
+     "freq": "162.550",
+     "same": "006075"
+    },
+    {
+     "call": "KHB49",
+     "freq": "162.400",
+     "same": "006075"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 2,
+    "landslide": 3
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 6.0
+  },
+  "San Joaquin County": {
+   "fips": "06077",
+   "centroid": [
+    37.935,
+    -121.2722
+   ],
+   "latitude": 37.9,
+   "bbox": [
+    -121.5869,
+    37.4826,
+    -120.9207,
+    38.2985
+   ],
+   "coastal": false,
+   "elevation_ft": 20,
+   "zone": "9b",
+   "jan_low_f": 39,
+   "jul_high_f": 95,
+   "record_low_f": 16,
+   "record_high_f": 115,
+   "precip_in": 13.4,
+   "snow_in": 0,
+   "last_frost": "Feb 6",
+   "first_frost": "Dec 1",
+   "growing_days": 304,
+   "ecoregion": "Central California Valley",
+   "ecoregion_code": "7",
+   "nws_office": "Sacramento, CA",
+   "nws_cwa": "STO",
+   "nwr": [
+    {
+     "call": "KEC57",
+     "freq": "162.550",
+     "same": "006077"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 7.3
+  },
+  "San Luis Obispo County": {
+   "fips": "06079",
+   "centroid": [
+    35.3882,
+    -120.4489
+   ],
+   "latitude": 35.4,
+   "bbox": [
+    -121.3496,
+    34.8975,
+    -119.4725,
+    35.7978
+   ],
+   "coastal": true,
+   "elevation_ft": 1940,
+   "zone": "8b",
+   "jan_low_f": 35,
+   "jul_high_f": 93,
+   "record_low_f": 8,
+   "record_high_f": 117,
+   "precip_in": 22.3,
+   "snow_in": 0,
+   "last_frost": "Apr 4",
+   "first_frost": "Nov 5",
+   "growing_days": 213,
+   "ecoregion": "Central California Foothills and Coastal Mountains",
+   "ecoregion_code": "6",
+   "nws_office": "Los Angeles/Oxnard, CA",
+   "nws_cwa": "LOX",
+   "nwr": [
+    {
+     "call": "KIH31",
+     "freq": "162.550",
+     "same": "006079"
+    },
+    {
+     "call": "WNG592",
+     "freq": "162.525",
+     "same": "006079"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 3,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 4.3,
+   "sun_hours_jun": 7.3
+  },
+  "San Mateo County": {
+   "fips": "06081",
+   "centroid": [
+    37.4147,
+    -122.3715
+   ],
+   "latitude": 37.4,
+   "bbox": [
+    -122.5207,
+    37.1071,
+    -122.1155,
+    37.7083
+   ],
+   "coastal": true,
+   "elevation_ft": 590,
+   "zone": "10a",
+   "jan_low_f": 38,
+   "jul_high_f": 88,
+   "record_low_f": 17,
+   "record_high_f": 114,
+   "precip_in": 30.4,
+   "snow_in": 0,
+   "last_frost": "Feb 25",
+   "first_frost": "Nov 25",
+   "growing_days": 274,
+   "ecoregion": "Coast Range",
+   "ecoregion_code": "1",
+   "nws_office": "San Francisco, CA",
+   "nws_cwa": "MTR",
+   "nwr": [
+    {
+     "call": "KDX54",
+     "freq": "162.500",
+     "same": "006081"
+    },
+    {
+     "call": "WWF64",
+     "freq": "162.450",
+     "same": "006081"
+    },
+    {
+     "call": "KEC49",
+     "freq": "162.550",
+     "same": "006081"
+    },
+    {
+     "call": "KHB49",
+     "freq": "162.400",
+     "same": "006081"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 2,
+    "landslide": 3
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 6.4
+  },
+  "Santa Barbara County": {
+   "fips": "06083",
+   "centroid": [
+    34.5367,
+    -120.0384
+   ],
+   "latitude": 34.5,
+   "bbox": [
+    -120.6721,
+    33.463,
+    -119.0279,
+    35.1146
+   ],
+   "coastal": true,
+   "elevation_ft": 2840,
+   "zone": "10a",
+   "jan_low_f": 34,
+   "jul_high_f": 92,
+   "record_low_f": 16,
+   "record_high_f": 120,
+   "precip_in": 21.1,
+   "snow_in": 0,
+   "last_frost": "Apr 11",
+   "first_frost": "Nov 8",
+   "growing_days": 209,
+   "ecoregion": "Southern California Mountains",
+   "ecoregion_code": "8",
+   "nws_office": "Los Angeles/Oxnard, CA",
+   "nws_cwa": "LOX",
+   "nwr": [
+    {
+     "call": "WWF62",
+     "freq": "162.475",
+     "same": "006083"
+    },
+    {
+     "call": "KIH34",
+     "freq": "162.400",
+     "same": "006083"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 3,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 4.4,
+   "sun_hours_jun": 6.3
+  },
+  "Santa Clara County": {
+   "fips": "06085",
+   "centroid": [
+    37.2216,
+    -121.6895
+   ],
+   "latitude": 37.2,
+   "bbox": [
+    -122.2022,
+    36.8941,
+    -121.2084,
+    37.4846
+   ],
+   "coastal": true,
+   "elevation_ft": 1020,
+   "zone": "10a",
+   "jan_low_f": 40,
+   "jul_high_f": 85,
+   "record_low_f": 16,
+   "record_high_f": 114,
+   "precip_in": 22.2,
+   "snow_in": 0,
+   "last_frost": "Feb 2",
+   "first_frost": "Dec 6",
+   "growing_days": 310,
+   "ecoregion": "Central California Foothills and Coastal Mountains",
+   "ecoregion_code": "6",
+   "nws_office": "San Francisco, CA",
+   "nws_cwa": "MTR",
+   "nwr": [
+    {
+     "call": "KDX54",
+     "freq": "162.500",
+     "same": "006085"
+    },
+    {
+     "call": "WWF64",
+     "freq": "162.450",
+     "same": "006085"
+    },
+    {
+     "call": "KEC49",
+     "freq": "162.550",
+     "same": "006085"
+    },
+    {
+     "call": "KHB49",
+     "freq": "162.400",
+     "same": "006085"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 7.3
+  },
+  "Santa Cruz County": {
+   "fips": "06087",
+   "centroid": [
+    37.0123,
+    -122.0078
+   ],
+   "latitude": 37.0,
+   "bbox": [
+    -122.3175,
+    36.8508,
+    -121.5812,
+    37.2859
+   ],
+   "coastal": true,
+   "elevation_ft": 360,
+   "zone": "9b",
+   "jan_low_f": 41,
+   "jul_high_f": 74,
+   "record_low_f": 19,
+   "record_high_f": 110,
+   "precip_in": 30.6,
+   "snow_in": 0,
+   "last_frost": "Jan 29",
+   "first_frost": "Dec 13",
+   "growing_days": 323,
+   "ecoregion": "Coast Range",
+   "ecoregion_code": "1",
+   "nws_office": "San Francisco, CA",
+   "nws_cwa": "MTR",
+   "nwr": [
+    {
+     "call": "WWF64",
+     "freq": "162.450",
+     "same": "006087"
+    },
+    {
+     "call": "KEC49",
+     "freq": "162.550",
+     "same": "006087"
+    },
+    {
+     "call": "KHB49",
+     "freq": "162.400",
+     "same": "006087"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 2,
+    "landslide": 3
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 6.4
+  },
+  "Shasta County": {
+   "fips": "06089",
+   "centroid": [
+    40.7605,
+    -122.0436
+   ],
+   "latitude": 40.8,
+   "bbox": [
+    -123.0685,
+    40.2854,
+    -121.32,
+    41.1849
+   ],
+   "coastal": false,
+   "elevation_ft": 1750,
+   "zone": "9a",
+   "jan_low_f": 40,
+   "jul_high_f": 97,
+   "record_low_f": 14,
+   "record_high_f": 115,
+   "precip_in": 60.3,
+   "snow_in": 19,
+   "last_frost": "Feb 8",
+   "first_frost": "Dec 28",
+   "growing_days": 322,
+   "ecoregion": "Klamath Mountains/California High North Coast Range",
+   "ecoregion_code": "78",
+   "nws_office": "Sacramento, CA",
+   "nws_cwa": "STO",
+   "nwr": [
+    {
+     "call": "WXL88",
+     "freq": "162.550",
+     "same": "006089"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 3,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 2,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 7.0
+  },
+  "Sierra County": {
+   "fips": "06091",
+   "centroid": [
+    39.5769,
+    -120.522
+   ],
+   "latitude": 39.6,
+   "bbox": [
+    -121.0581,
+    39.3917,
+    -120.0012,
+    39.7765
+   ],
+   "coastal": false,
+   "elevation_ft": 7440,
+   "zone": "7a",
+   "jan_low_f": 15,
+   "jul_high_f": 80,
+   "record_low_f": -33,
+   "record_high_f": 96,
+   "precip_in": 31.4,
+   "snow_in": 445,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 22,
+   "ecoregion": "Sierra Nevada",
+   "ecoregion_code": "5",
+   "nws_office": "STOREV",
+   "nws_cwa": "STOREV",
+   "nwr": [
+    {
+     "call": "WWG20",
+     "freq": "162.450",
+     "same": "006091"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 7.2
+  },
+  "Siskiyou County": {
+   "fips": "06093",
+   "centroid": [
+    41.588,
+    -122.5333
+   ],
+   "latitude": 41.6,
+   "bbox": [
+    -123.7187,
+    40.9925,
+    -121.446,
+    42.0095
+   ],
+   "coastal": false,
+   "elevation_ft": 2640,
+   "zone": "8a",
+   "jan_low_f": 27,
+   "jul_high_f": 93,
+   "record_low_f": -11,
+   "record_high_f": 112,
+   "precip_in": 18.9,
+   "snow_in": 12,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 18",
+   "growing_days": 169,
+   "ecoregion": "Eastern Cascades Slopes and Foothills",
+   "ecoregion_code": "9",
+   "nws_office": "Medford, OR",
+   "nws_cwa": "MFR",
+   "nwr": [
+    {
+     "call": "WXL97",
+     "freq": "162.550",
+     "same": "006093"
+    },
+    {
+     "call": "WWF97",
+     "freq": "162.475",
+     "same": "006093"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 3,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 3,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 7.0
+  },
+  "Solano County": {
+   "fips": "06095",
+   "centroid": [
+    38.2672,
+    -121.9396
+   ],
+   "latitude": 38.3,
+   "bbox": [
+    -122.4056,
+    38.0422,
+    -121.5971,
+    38.5393
+   ],
+   "coastal": true,
+   "elevation_ft": 60,
+   "zone": "9b",
+   "jan_low_f": 40,
+   "jul_high_f": 90,
+   "record_low_f": 15,
+   "record_high_f": 114,
+   "precip_in": 24.5,
+   "snow_in": 0,
+   "last_frost": "Jan 15",
+   "first_frost": "Dec 14",
+   "growing_days": 336,
+   "ecoregion": "Central California Foothills and Coastal Mountains",
+   "ecoregion_code": "6",
+   "nws_office": "Sacramento, CA",
+   "nws_cwa": "STO",
+   "nwr": [
+    {
+     "call": "KEC57",
+     "freq": "162.550",
+     "same": "006095"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 7.2
+  },
+  "Sonoma County": {
+   "fips": "06097",
+   "centroid": [
+    38.5252,
+    -122.9261
+   ],
+   "latitude": 38.5,
+   "bbox": [
+    -123.5337,
+    38.11,
+    -122.3497,
+    38.8528
+   ],
+   "coastal": true,
+   "elevation_ft": 1280,
+   "zone": "9b",
+   "jan_low_f": 42,
+   "jul_high_f": 78,
+   "record_low_f": 14,
+   "record_high_f": 115,
+   "precip_in": 53.8,
+   "snow_in": 0,
+   "last_frost": "Jan 29",
+   "first_frost": "Dec 30",
+   "growing_days": 347,
+   "ecoregion": "Central California Foothills and Coastal Mountains",
+   "ecoregion_code": "6",
+   "nws_office": "San Francisco, CA",
+   "nws_cwa": "MTR",
+   "nwr": [
+    {
+     "call": "KDX54",
+     "freq": "162.500",
+     "same": "006097"
+    },
+    {
+     "call": "KIH30",
+     "freq": "162.550",
+     "same": "006097"
+    },
+    {
+     "call": "KHB49",
+     "freq": "162.400",
+     "same": "006097"
+    },
+    {
+     "call": "WZ2504",
+     "freq": "162.475",
+     "same": "006097"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 3,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 7.1
+  },
+  "Stanislaus County": {
+   "fips": "06099",
+   "centroid": [
+    37.5623,
+    -121.0028
+   ],
+   "latitude": 37.6,
+   "bbox": [
+    -121.4861,
+    37.1347,
+    -120.3861,
+    38.0774
+   ],
+   "coastal": false,
+   "elevation_ft": 80,
+   "zone": "9b",
+   "jan_low_f": 39,
+   "jul_high_f": 95,
+   "record_low_f": 18,
+   "record_high_f": 113,
+   "precip_in": 12.3,
+   "snow_in": 0,
+   "last_frost": "Jan 31",
+   "first_frost": "Dec 5",
+   "growing_days": 312,
+   "ecoregion": "Central California Valley",
+   "ecoregion_code": "7",
+   "nws_office": "Sacramento, CA",
+   "nws_cwa": "STO",
+   "nwr": [
+    {
+     "call": "KEC57",
+     "freq": "162.550",
+     "same": "006099"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 7.3
+  },
+  "Sutter County": {
+   "fips": "06101",
+   "centroid": [
+    39.0362,
+    -121.7039
+   ],
+   "latitude": 39.0,
+   "bbox": [
+    -121.9483,
+    38.7346,
+    -121.4144,
+    39.3056
+   ],
+   "coastal": false,
+   "elevation_ft": 40,
+   "zone": "9b",
+   "jan_low_f": 38,
+   "jul_high_f": 96,
+   "record_low_f": 9,
+   "record_high_f": 118,
+   "precip_in": 20.1,
+   "snow_in": 0,
+   "last_frost": "Feb 11",
+   "first_frost": "Nov 30",
+   "growing_days": 289,
+   "ecoregion": "Central California Valley",
+   "ecoregion_code": "7",
+   "nws_office": "Sacramento, CA",
+   "nws_cwa": "STO",
+   "nwr": [
+    {
+     "call": "KEC57",
+     "freq": "162.550",
+     "same": "006101"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 7.2
+  },
+  "Tehama County": {
+   "fips": "06103",
+   "centroid": [
+    40.1262,
+    -122.2323
+   ],
+   "latitude": 40.1,
+   "bbox": [
+    -123.0656,
+    39.7975,
+    -121.3426,
+    40.4528
+   ],
+   "coastal": false,
+   "elevation_ft": 320,
+   "zone": "9b",
+   "jan_low_f": 38,
+   "jul_high_f": 98,
+   "record_low_f": 13,
+   "record_high_f": 121,
+   "precip_in": 23.1,
+   "snow_in": 0,
+   "last_frost": "Feb 22",
+   "first_frost": "Nov 29",
+   "growing_days": 281,
+   "ecoregion": "Central California Valley",
+   "ecoregion_code": "7",
+   "nws_office": "Sacramento, CA",
+   "nws_cwa": "STO",
+   "nwr": [
+    {
+     "call": "WXL88",
+     "freq": "162.550",
+     "same": "006103"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 3,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 7.0
+  },
+  "Trinity County": {
+   "fips": "06105",
+   "centroid": [
+    40.6479,
+    -123.1147
+   ],
+   "latitude": 40.6,
+   "bbox": [
+    -123.6232,
+    39.977,
+    -122.4457,
+    41.3678
+   ],
+   "coastal": false,
+   "elevation_ft": 5070,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 95,
+   "record_low_f": -10,
+   "record_high_f": 116,
+   "precip_in": 37.5,
+   "snow_in": 9,
+   "last_frost": "May 3",
+   "first_frost": "Oct 11",
+   "growing_days": 159,
+   "ecoregion": "Klamath Mountains/California High North Coast Range",
+   "ecoregion_code": "78",
+   "nws_office": "Eureka, CA",
+   "nws_cwa": "EKA",
+   "nwr": [],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 3,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 6.9
+  },
+  "Tulare County": {
+   "fips": "06107",
+   "centroid": [
+    36.2288,
+    -118.7811
+   ],
+   "latitude": 36.2,
+   "bbox": [
+    -119.573,
+    35.7894,
+    -117.9813,
+    36.7451
+   ],
+   "coastal": false,
+   "elevation_ft": 2310,
+   "zone": "9a",
+   "jan_low_f": 38,
+   "jul_high_f": 97,
+   "record_low_f": 17,
+   "record_high_f": 118,
+   "precip_in": 25.0,
+   "snow_in": 0,
+   "last_frost": "Mar 12",
+   "first_frost": "Dec 9",
+   "growing_days": 273,
+   "ecoregion": "Central California Foothills and Coastal Mountains",
+   "ecoregion_code": "6",
+   "nws_office": "Hanford, CA",
+   "nws_cwa": "HNX",
+   "nwr": [
+    {
+     "call": "WXL89",
+     "freq": "162.550",
+     "same": "006107"
+    },
+    {
+     "call": "KIH62",
+     "freq": "162.400",
+     "same": "006107"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 3,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 4.2,
+   "sun_hours_jun": 7.3
+  },
+  "Tuolumne County": {
+   "fips": "06109",
+   "centroid": [
+    38.0214,
+    -119.9647
+   ],
+   "latitude": 38.0,
+   "bbox": [
+    -120.6545,
+    37.6348,
+    -119.1966,
+    38.4327
+   ],
+   "coastal": false,
+   "elevation_ft": 6050,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 89,
+   "record_low_f": -3,
+   "record_high_f": 105,
+   "precip_in": 49.0,
+   "snow_in": 108,
+   "last_frost": "May 2",
+   "first_frost": "Nov 4",
+   "growing_days": 183,
+   "ecoregion": "Sierra Nevada",
+   "ecoregion_code": "5",
+   "nws_office": "HNXSTO",
+   "nws_cwa": "HNXSTO",
+   "nwr": [],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 3,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 7.2
+  },
+  "Ventura County": {
+   "fips": "06111",
+   "centroid": [
+    34.3587,
+    -119.1331
+   ],
+   "latitude": 34.4,
+   "bbox": [
+    -119.5789,
+    33.2142,
+    -118.6323,
+    34.9013
+   ],
+   "coastal": true,
+   "elevation_ft": 850,
+   "zone": "10a",
+   "jan_low_f": 34,
+   "jul_high_f": 89,
+   "record_low_f": 13,
+   "record_high_f": 119,
+   "precip_in": 20.7,
+   "snow_in": 0,
+   "last_frost": "Mar 21",
+   "first_frost": "Nov 15",
+   "growing_days": 235,
+   "ecoregion": "Southern California/Northern Baja Coast",
+   "ecoregion_code": "85",
+   "nws_office": "Los Angeles/Oxnard, CA",
+   "nws_cwa": "LOX",
+   "nwr": [
+    {
+     "call": "KWO37",
+     "freq": "162.550",
+     "same": "006111"
+    },
+    {
+     "call": "WWF62",
+     "freq": "162.475",
+     "same": "006111"
+    },
+    {
+     "call": "KIH34",
+     "freq": "162.400",
+     "same": "006111"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 3,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 4.6,
+   "sun_hours_jun": 7.0
+  },
+  "Yolo County": {
+   "fips": "06113",
+   "centroid": [
+    38.6796,
+    -121.9027
+   ],
+   "latitude": 38.7,
+   "bbox": [
+    -122.4215,
+    38.3128,
+    -121.5011,
+    38.9259
+   ],
+   "coastal": false,
+   "elevation_ft": 130,
+   "zone": "9b",
+   "jan_low_f": 38,
+   "jul_high_f": 95,
+   "record_low_f": 15,
+   "record_high_f": 116,
+   "precip_in": 20.5,
+   "snow_in": 0,
+   "last_frost": "Feb 7",
+   "first_frost": "Dec 5",
+   "growing_days": 301,
+   "ecoregion": "Central California Valley",
+   "ecoregion_code": "7",
+   "nws_office": "Sacramento, CA",
+   "nws_cwa": "STO",
+   "nwr": [
+    {
+     "call": "WWF67",
+     "freq": "162.400",
+     "same": "006113"
+    },
+    {
+     "call": "KEC57",
+     "freq": "162.550",
+     "same": "006113"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 7.2
+  },
+  "Yuba County": {
+   "fips": "06115",
+   "centroid": [
+    39.2701,
+    -121.3443
+   ],
+   "latitude": 39.3,
+   "bbox": [
+    -121.6365,
+    38.9191,
+    -121.0099,
+    39.6391
+   ],
+   "coastal": false,
+   "elevation_ft": 800,
+   "zone": "9b",
+   "jan_low_f": 34,
+   "jul_high_f": 94,
+   "record_low_f": 6,
+   "record_high_f": 111,
+   "precip_in": 34.8,
+   "snow_in": 0,
+   "last_frost": "Apr 1",
+   "first_frost": "Nov 17",
+   "growing_days": 229,
+   "ecoregion": "Central California Foothills and Coastal Mountains",
+   "ecoregion_code": "6",
+   "nws_office": "Sacramento, CA",
+   "nws_cwa": "STO",
+   "nwr": [
+    {
+     "call": "WWF67",
+     "freq": "162.400",
+     "same": "006115"
+    }
+   ],
+   "state_em": "California Governor's Office of Emergency Services",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 7.2
+  }
+ }
+}

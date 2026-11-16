@@ -1,0 +1,6201 @@
+{
+ "state": "NC",
+ "state_name": "North Carolina",
+ "state_fips": "37",
+ "state_em": "North Carolina Emergency Management",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "AKQ": "NWS Wakefield, VA",
+  "GSP": "NWS Greenville-Spartanburg, SC",
+  "ILM": "NWS Wilmington, NC",
+  "MHX": "NWS Newport/Morehead City, NC",
+  "MRX": "NWS Morristown, TN",
+  "RAH": "NWS Raleigh, NC",
+  "RNK": "NWS Blacksburg, VA"
+ },
+ "ecoregions": [
+  "Piedmont",
+  "Middle Atlantic Coastal Plain",
+  "Southeastern Plains",
+  "Blue Ridge"
+ ],
+ "counties": {
+  "Alamance County": {
+   "fips": "37001",
+   "centroid": [
+    36.044,
+    -79.4006
+   ],
+   "latitude": 36.0,
+   "bbox": [
+    -79.5425,
+    35.8434,
+    -79.2371,
+    36.25
+   ],
+   "coastal": false,
+   "elevation_ft": 600,
+   "zone": "8a",
+   "jan_low_f": 29,
+   "jul_high_f": 90,
+   "record_low_f": -6,
+   "record_high_f": 105,
+   "precip_in": 47.2,
+   "snow_in": 2,
+   "last_frost": "Apr 4",
+   "first_frost": "Nov 3",
+   "growing_days": 215,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Raleigh, NC",
+   "nws_cwa": "RAH",
+   "nwr": [
+    {
+     "call": "WXL58",
+     "freq": "162.550",
+     "same": "037001"
+    },
+    {
+     "call": "WXL42",
+     "freq": "162.400",
+     "same": "037001"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.5
+  },
+  "Alexander County": {
+   "fips": "37003",
+   "centroid": [
+    35.921,
+    -81.1775
+   ],
+   "latitude": 35.9,
+   "bbox": [
+    -81.3436,
+    35.7797,
+    -81.0036,
+    36.0457
+   ],
+   "coastal": false,
+   "elevation_ft": 1230,
+   "zone": "8a",
+   "jan_low_f": 29,
+   "jul_high_f": 87,
+   "record_low_f": 3,
+   "record_high_f": 102,
+   "precip_in": 52.6,
+   "snow_in": 4,
+   "last_frost": "Apr 2",
+   "first_frost": "Nov 4",
+   "growing_days": 217,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "WXL70",
+     "freq": "162.475",
+     "same": "037003"
+    },
+    {
+     "call": "WNG538",
+     "freq": "162.450",
+     "same": "037003"
+    },
+    {
+     "call": "WNG588",
+     "freq": "162.500",
+     "same": "037003"
+    },
+    {
+     "call": "KJY85",
+     "freq": "162.525",
+     "same": "037003"
+    },
+    {
+     "call": "WXL42",
+     "freq": "162.400",
+     "same": "037003"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.5
+  },
+  "Alleghany County": {
+   "fips": "37005",
+   "centroid": [
+    36.4894,
+    -81.1323
+   ],
+   "latitude": 36.5,
+   "bbox": [
+    -81.355,
+    36.3636,
+    -80.9022,
+    36.575
+   ],
+   "coastal": false,
+   "elevation_ft": 3100,
+   "zone": "7a",
+   "jan_low_f": 22,
+   "jul_high_f": 84,
+   "record_low_f": -24,
+   "record_high_f": 94,
+   "precip_in": 57.1,
+   "snow_in": 19,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 22",
+   "growing_days": 180,
+   "ecoregion": "Blue Ridge",
+   "ecoregion_code": "66",
+   "nws_office": "Blacksburg, VA",
+   "nws_cwa": "RNK",
+   "nwr": [
+    {
+     "call": "WNG588",
+     "freq": "162.500",
+     "same": "037005"
+    },
+    {
+     "call": "WZ2500",
+     "freq": "162.450",
+     "same": "037005"
+    },
+    {
+     "call": "WXL42",
+     "freq": "162.400",
+     "same": "037005"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.3
+  },
+  "Anson County": {
+   "fips": "37007",
+   "centroid": [
+    34.975,
+    -80.1098
+   ],
+   "latitude": 35.0,
+   "bbox": [
+    -80.3204,
+    34.8062,
+    -79.8485,
+    35.211
+   ],
+   "coastal": false,
+   "elevation_ft": 300,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 91,
+   "record_low_f": -4,
+   "record_high_f": 107,
+   "precip_in": 47.8,
+   "snow_in": 3,
+   "last_frost": "Mar 24",
+   "first_frost": "Nov 9",
+   "growing_days": 231,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Raleigh, NC",
+   "nws_cwa": "RAH",
+   "nwr": [
+    {
+     "call": "WWF60",
+     "freq": "162.500",
+     "same": "037007"
+    },
+    {
+     "call": "WXL70",
+     "freq": "162.475",
+     "same": "037007"
+    },
+    {
+     "call": "WXK90",
+     "freq": "162.450",
+     "same": "037007"
+    },
+    {
+     "call": "WNG597",
+     "freq": "162.400",
+     "same": "037007"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.6
+  },
+  "Ashe County": {
+   "fips": "37009",
+   "centroid": [
+    36.4435,
+    -81.4993
+   ],
+   "latitude": 36.4,
+   "bbox": [
+    -81.7412,
+    36.2402,
+    -81.2445,
+    36.588
+   ],
+   "coastal": false,
+   "elevation_ft": 3550,
+   "zone": "7a",
+   "jan_low_f": 22,
+   "jul_high_f": 81,
+   "record_low_f": -20,
+   "record_high_f": 98,
+   "precip_in": 51.0,
+   "snow_in": 14,
+   "last_frost": "May 7",
+   "first_frost": "Oct 8",
+   "growing_days": 154,
+   "ecoregion": "Blue Ridge",
+   "ecoregion_code": "66",
+   "nws_office": "Blacksburg, VA",
+   "nws_cwa": "RNK",
+   "nwr": [
+    {
+     "call": "WXK47",
+     "freq": "162.550",
+     "same": "037009"
+    },
+    {
+     "call": "WNG588",
+     "freq": "162.500",
+     "same": "037009"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.3
+  },
+  "Avery County": {
+   "fips": "37011",
+   "centroid": [
+    36.0721,
+    -81.9203
+   ],
+   "latitude": 36.1,
+   "bbox": [
+    -82.0805,
+    35.9115,
+    -81.7364,
+    36.2862
+   ],
+   "coastal": false,
+   "elevation_ft": 3730,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 77,
+   "record_low_f": -31,
+   "record_high_f": 98,
+   "precip_in": 53.8,
+   "snow_in": 31,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 14",
+   "growing_days": 167,
+   "ecoregion": "Blue Ridge",
+   "ecoregion_code": "66",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "WXL56",
+     "freq": "162.400",
+     "same": "037011"
+    },
+    {
+     "call": "WXK47",
+     "freq": "162.550",
+     "same": "037011"
+    },
+    {
+     "call": "WNG538",
+     "freq": "162.450",
+     "same": "037011"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.3
+  },
+  "Beaufort County": {
+   "fips": "37013",
+   "centroid": [
+    35.4823,
+    -76.842
+   ],
+   "latitude": 35.5,
+   "bbox": [
+    -77.1952,
+    35.216,
+    -76.4722,
+    35.7394
+   ],
+   "coastal": true,
+   "elevation_ft": 20,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 89,
+   "record_low_f": -1,
+   "record_high_f": 103,
+   "precip_in": 51.6,
+   "snow_in": 0,
+   "last_frost": "Mar 8",
+   "first_frost": "Dec 5",
+   "growing_days": 272,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Newport/Morehead City, NC",
+   "nws_cwa": "MHX",
+   "nwr": [
+    {
+     "call": "KEC84",
+     "freq": "162.400",
+     "same": "037013"
+    },
+    {
+     "call": "WNG537",
+     "freq": "162.525",
+     "same": "037013"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.4
+  },
+  "Bertie County": {
+   "fips": "37015",
+   "centroid": [
+    36.059,
+    -76.9624
+   ],
+   "latitude": 36.1,
+   "bbox": [
+    -77.3277,
+    35.8117,
+    -76.6741,
+    36.2468
+   ],
+   "coastal": true,
+   "elevation_ft": 30,
+   "zone": "8a",
+   "jan_low_f": 33,
+   "jul_high_f": 89,
+   "record_low_f": -5,
+   "record_high_f": 107,
+   "precip_in": 49.5,
+   "snow_in": 1,
+   "last_frost": "Mar 29",
+   "first_frost": "Nov 7",
+   "growing_days": 223,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Wakefield, VA",
+   "nws_cwa": "AKQ",
+   "nwr": [
+    {
+     "call": "KIG77",
+     "freq": "162.475",
+     "same": "037015"
+    },
+    {
+     "call": "WWG33",
+     "freq": "162.450",
+     "same": "037015"
+    },
+    {
+     "call": "KHB37",
+     "freq": "162.550",
+     "same": "037015"
+    },
+    {
+     "call": "WXL59",
+     "freq": "162.475",
+     "same": "037015"
+    },
+    {
+     "call": "WNG537",
+     "freq": "162.525",
+     "same": "037015"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.5
+  },
+  "Bladen County": {
+   "fips": "37017",
+   "centroid": [
+    34.5919,
+    -78.5395
+   ],
+   "latitude": 34.6,
+   "bbox": [
+    -78.9013,
+    34.3674,
+    -78.1774,
+    34.8558
+   ],
+   "coastal": true,
+   "elevation_ft": 30,
+   "zone": "8b",
+   "jan_low_f": 32,
+   "jul_high_f": 91,
+   "record_low_f": -3,
+   "record_high_f": 105,
+   "precip_in": 53.3,
+   "snow_in": 1,
+   "last_frost": "Mar 29",
+   "first_frost": "Nov 8",
+   "growing_days": 226,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Wilmington, NC",
+   "nws_cwa": "ILM",
+   "nwr": [
+    {
+     "call": "WXL50",
+     "freq": "162.475",
+     "same": "037017"
+    },
+    {
+     "call": "KXI95",
+     "freq": "162.425",
+     "same": "037017"
+    },
+    {
+     "call": "KHB31",
+     "freq": "162.550",
+     "same": "037017"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.5
+  },
+  "Brunswick County": {
+   "fips": "37019",
+   "centroid": [
+    34.0388,
+    -78.2278
+   ],
+   "latitude": 34.0,
+   "bbox": [
+    -78.6507,
+    33.8398,
+    -77.9309,
+    34.3721
+   ],
+   "coastal": true,
+   "elevation_ft": 30,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 87,
+   "record_low_f": -3,
+   "record_high_f": 103,
+   "precip_in": 56.5,
+   "snow_in": 0,
+   "last_frost": "Mar 20",
+   "first_frost": "Nov 17",
+   "growing_days": 243,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Wilmington, NC",
+   "nws_cwa": "ILM",
+   "nwr": [
+    {
+     "call": "KEC95",
+     "freq": "162.400",
+     "same": "037019"
+    },
+    {
+     "call": "KHB31",
+     "freq": "162.550",
+     "same": "037019"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.5
+  },
+  "Buncombe County": {
+   "fips": "37021",
+   "centroid": [
+    35.6094,
+    -82.5304
+   ],
+   "latitude": 35.6,
+   "bbox": [
+    -82.8872,
+    35.4217,
+    -82.1702,
+    35.8236
+   ],
+   "coastal": false,
+   "elevation_ft": 2350,
+   "zone": "7b",
+   "jan_low_f": 29,
+   "jul_high_f": 86,
+   "record_low_f": -17,
+   "record_high_f": 100,
+   "precip_in": 40.6,
+   "snow_in": 12,
+   "last_frost": "Apr 6",
+   "first_frost": "Oct 31",
+   "growing_days": 205,
+   "ecoregion": "Blue Ridge",
+   "ecoregion_code": "66",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "WXL56",
+     "freq": "162.400",
+     "same": "037021"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.4
+  },
+  "Burke County": {
+   "fips": "37023",
+   "centroid": [
+    35.7462,
+    -81.7062
+   ],
+   "latitude": 35.7,
+   "bbox": [
+    -81.9862,
+    35.5584,
+    -81.3649,
+    36.0
+   ],
+   "coastal": false,
+   "elevation_ft": 1020,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 88,
+   "record_low_f": -10,
+   "record_high_f": 106,
+   "precip_in": 51.5,
+   "snow_in": 4,
+   "last_frost": "Apr 7",
+   "first_frost": "Oct 28",
+   "growing_days": 202,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "WXL56",
+     "freq": "162.400",
+     "same": "037023"
+    },
+    {
+     "call": "WNG538",
+     "freq": "162.450",
+     "same": "037023"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.5
+  },
+  "Cabarrus County": {
+   "fips": "37025",
+   "centroid": [
+    35.3883,
+    -80.5527
+   ],
+   "latitude": 35.4,
+   "bbox": [
+    -80.7868,
+    35.1851,
+    -80.2954,
+    35.5076
+   ],
+   "coastal": false,
+   "elevation_ft": 630,
+   "zone": "8a",
+   "jan_low_f": 29,
+   "jul_high_f": 92,
+   "record_low_f": -5,
+   "record_high_f": 107,
+   "precip_in": 47.9,
+   "snow_in": 3,
+   "last_frost": "Apr 1",
+   "first_frost": "Nov 2",
+   "growing_days": 215,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "WWF60",
+     "freq": "162.500",
+     "same": "037025"
+    },
+    {
+     "call": "WXL70",
+     "freq": "162.475",
+     "same": "037025"
+    },
+    {
+     "call": "KJY85",
+     "freq": "162.525",
+     "same": "037025"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.6
+  },
+  "Caldwell County": {
+   "fips": "37027",
+   "centroid": [
+    35.9664,
+    -81.5125
+   ],
+   "latitude": 36.0,
+   "bbox": [
+    -81.809,
+    35.7571,
+    -81.3268,
+    36.1225
+   ],
+   "coastal": false,
+   "elevation_ft": 1410,
+   "zone": "7b",
+   "jan_low_f": 27,
+   "jul_high_f": 88,
+   "record_low_f": -18,
+   "record_high_f": 106,
+   "precip_in": 49.7,
+   "snow_in": 4,
+   "last_frost": "Apr 7",
+   "first_frost": "Oct 31",
+   "growing_days": 207,
+   "ecoregion": "Blue Ridge",
+   "ecoregion_code": "66",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "WNG538",
+     "freq": "162.450",
+     "same": "037027"
+    },
+    {
+     "call": "WNG588",
+     "freq": "162.500",
+     "same": "037027"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.5
+  },
+  "Camden County": {
+   "fips": "37029",
+   "centroid": [
+    36.3423,
+    -76.1625
+   ],
+   "latitude": 36.3,
+   "bbox": [
+    -76.5417,
+    36.1422,
+    -75.887,
+    36.5509
+   ],
+   "coastal": true,
+   "elevation_ft": 0,
+   "zone": "8a",
+   "jan_low_f": 34,
+   "jul_high_f": 89,
+   "record_low_f": -3,
+   "record_high_f": 107,
+   "precip_in": 51.3,
+   "snow_in": 0,
+   "last_frost": "Mar 27",
+   "first_frost": "Nov 17",
+   "growing_days": 238,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Wakefield, VA",
+   "nws_cwa": "AKQ",
+   "nwr": [
+    {
+     "call": "WWH26",
+     "freq": "162.425",
+     "same": "037029"
+    },
+    {
+     "call": "KHB37",
+     "freq": "162.550",
+     "same": "037029"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.5
+  },
+  "Carteret County": {
+   "fips": "37031",
+   "centroid": [
+    34.8583,
+    -76.5359
+   ],
+   "latitude": 34.9,
+   "bbox": [
+    -77.1669,
+    34.5813,
+    -76.0186,
+    35.1063
+   ],
+   "coastal": true,
+   "elevation_ft": 10,
+   "zone": "8b",
+   "jan_low_f": 38,
+   "jul_high_f": 87,
+   "record_low_f": 1,
+   "record_high_f": 103,
+   "precip_in": 55.7,
+   "snow_in": 0,
+   "last_frost": "Mar 10",
+   "first_frost": "Dec 1",
+   "growing_days": 265,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Newport/Morehead City, NC",
+   "nws_cwa": "MHX",
+   "nwr": [
+    {
+     "call": "KEC84",
+     "freq": "162.400",
+     "same": "037031"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.6
+  },
+  "Caswell County": {
+   "fips": "37033",
+   "centroid": [
+    36.3943,
+    -79.3396
+   ],
+   "latitude": 36.4,
+   "bbox": [
+    -79.532,
+    36.2421,
+    -79.1371,
+    36.5419
+   ],
+   "coastal": false,
+   "elevation_ft": 470,
+   "zone": "7b",
+   "jan_low_f": 29,
+   "jul_high_f": 90,
+   "record_low_f": -5,
+   "record_high_f": 107,
+   "precip_in": 48.1,
+   "snow_in": 9,
+   "last_frost": "Mar 31",
+   "first_frost": "Nov 4",
+   "growing_days": 218,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Blacksburg, VA",
+   "nws_cwa": "RNK",
+   "nwr": [
+    {
+     "call": "WXL60",
+     "freq": "162.475",
+     "same": "037033"
+    },
+    {
+     "call": "KJY86",
+     "freq": "162.525",
+     "same": "037033"
+    },
+    {
+     "call": "WXL42",
+     "freq": "162.400",
+     "same": "037033"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.5
+  },
+  "Catawba County": {
+   "fips": "37035",
+   "centroid": [
+    35.6619,
+    -81.2149
+   ],
+   "latitude": 35.7,
+   "bbox": [
+    -81.5338,
+    35.548,
+    -80.9245,
+    35.8292
+   ],
+   "coastal": false,
+   "elevation_ft": 960,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 89,
+   "record_low_f": -8,
+   "record_high_f": 105,
+   "precip_in": 46.6,
+   "snow_in": 0,
+   "last_frost": "Mar 24",
+   "first_frost": "Nov 8",
+   "growing_days": 230,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "WXL70",
+     "freq": "162.475",
+     "same": "037035"
+    },
+    {
+     "call": "WNG538",
+     "freq": "162.450",
+     "same": "037035"
+    },
+    {
+     "call": "WNG588",
+     "freq": "162.500",
+     "same": "037035"
+    },
+    {
+     "call": "KJY85",
+     "freq": "162.525",
+     "same": "037035"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.5
+  },
+  "Chatham County": {
+   "fips": "37037",
+   "centroid": [
+    35.705,
+    -79.2515
+   ],
+   "latitude": 35.7,
+   "bbox": [
+    -79.5559,
+    35.5151,
+    -78.906,
+    35.877
+   ],
+   "coastal": false,
+   "elevation_ft": 470,
+   "zone": "8a",
+   "jan_low_f": 30,
+   "jul_high_f": 88,
+   "record_low_f": -11,
+   "record_high_f": 107,
+   "precip_in": 45.9,
+   "snow_in": 2,
+   "last_frost": "Mar 31",
+   "first_frost": "Nov 4",
+   "growing_days": 220,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Raleigh, NC",
+   "nws_cwa": "RAH",
+   "nwr": [
+    {
+     "call": "WXL58",
+     "freq": "162.550",
+     "same": "037037"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.5
+  },
+  "Cherokee County": {
+   "fips": "37039",
+   "centroid": [
+    35.1371,
+    -84.0614
+   ],
+   "latitude": 35.1,
+   "bbox": [
+    -84.3215,
+    34.987,
+    -83.6902,
+    35.292
+   ],
+   "coastal": false,
+   "elevation_ft": 1750,
+   "zone": "7b",
+   "jan_low_f": 25,
+   "jul_high_f": 87,
+   "record_low_f": -16,
+   "record_high_f": 100,
+   "precip_in": 59.3,
+   "snow_in": 4,
+   "last_frost": "Apr 22",
+   "first_frost": "Oct 20",
+   "growing_days": 180,
+   "ecoregion": "Blue Ridge",
+   "ecoregion_code": "66",
+   "nws_office": "Morristown, TN",
+   "nws_cwa": "MRX",
+   "nwr": [
+    {
+     "call": "KXI75",
+     "freq": "162.475",
+     "same": "037039"
+    },
+    {
+     "call": "WWG82",
+     "freq": "162.525",
+     "same": "037039"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.4
+  },
+  "Chowan County": {
+   "fips": "37041",
+   "centroid": [
+    36.129,
+    -76.6028
+   ],
+   "latitude": 36.1,
+   "bbox": [
+    -76.7373,
+    36.006,
+    -76.4086,
+    36.3513
+   ],
+   "coastal": true,
+   "elevation_ft": 20,
+   "zone": "8a",
+   "jan_low_f": 34,
+   "jul_high_f": 89,
+   "record_low_f": -4,
+   "record_high_f": 105,
+   "precip_in": 51.0,
+   "snow_in": 2,
+   "last_frost": "Mar 24",
+   "first_frost": "Nov 14",
+   "growing_days": 238,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Wakefield, VA",
+   "nws_cwa": "AKQ",
+   "nwr": [
+    {
+     "call": "KHB37",
+     "freq": "162.550",
+     "same": "037041"
+    },
+    {
+     "call": "WNG537",
+     "freq": "162.525",
+     "same": "037041"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.5
+  },
+  "Clay County": {
+   "fips": "37043",
+   "centroid": [
+    35.053,
+    -83.7523
+   ],
+   "latitude": 35.1,
+   "bbox": [
+    -84.0056,
+    34.9866,
+    -83.4842,
+    35.1608
+   ],
+   "coastal": false,
+   "elevation_ft": 2230,
+   "zone": "7b",
+   "jan_low_f": 24,
+   "jul_high_f": 84,
+   "record_low_f": -18,
+   "record_high_f": 99,
+   "precip_in": 72.2,
+   "snow_in": 3,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 21",
+   "growing_days": 182,
+   "ecoregion": "Blue Ridge",
+   "ecoregion_code": "66",
+   "nws_office": "Morristown, TN",
+   "nws_cwa": "MRX",
+   "nwr": [
+    {
+     "call": "KXI22",
+     "freq": "162.500",
+     "same": "037043"
+    },
+    {
+     "call": "KXI81",
+     "freq": "162.450",
+     "same": "037043"
+    },
+    {
+     "call": "WWG82",
+     "freq": "162.525",
+     "same": "037043"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.3
+  },
+  "Cleveland County": {
+   "fips": "37045",
+   "centroid": [
+    35.3346,
+    -81.5571
+   ],
+   "latitude": 35.3,
+   "bbox": [
+    -81.7681,
+    35.1636,
+    -81.3194,
+    35.5837
+   ],
+   "coastal": false,
+   "elevation_ft": 780,
+   "zone": "8a",
+   "jan_low_f": 27,
+   "jul_high_f": 91,
+   "record_low_f": -11,
+   "record_high_f": 107,
+   "precip_in": 50.4,
+   "snow_in": 4,
+   "last_frost": "Apr 12",
+   "first_frost": "Oct 25",
+   "growing_days": 195,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "WXL70",
+     "freq": "162.475",
+     "same": "037045"
+    },
+    {
+     "call": "KHC27",
+     "freq": "162.425",
+     "same": "037045"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.5
+  },
+  "Columbus County": {
+   "fips": "37047",
+   "centroid": [
+    34.2616,
+    -78.6393
+   ],
+   "latitude": 34.3,
+   "bbox": [
+    -79.073,
+    33.9454,
+    -78.1618,
+    34.4836
+   ],
+   "coastal": true,
+   "elevation_ft": 50,
+   "zone": "8b",
+   "jan_low_f": 32,
+   "jul_high_f": 90,
+   "record_low_f": -2,
+   "record_high_f": 105,
+   "precip_in": 50.9,
+   "snow_in": 1,
+   "last_frost": "Mar 29",
+   "first_frost": "Nov 6",
+   "growing_days": 224,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Wilmington, NC",
+   "nws_cwa": "ILM",
+   "nwr": [
+    {
+     "call": "KEC95",
+     "freq": "162.400",
+     "same": "037047"
+    },
+    {
+     "call": "WXL50",
+     "freq": "162.475",
+     "same": "037047"
+    },
+    {
+     "call": "KHB31",
+     "freq": "162.550",
+     "same": "037047"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.5
+  },
+  "Craven County": {
+   "fips": "37049",
+   "centroid": [
+    35.1168,
+    -77.0813
+   ],
+   "latitude": 35.1,
+   "bbox": [
+    -77.4732,
+    34.8028,
+    -76.658,
+    35.419
+   ],
+   "coastal": true,
+   "elevation_ft": 20,
+   "zone": "8b",
+   "jan_low_f": 34,
+   "jul_high_f": 90,
+   "record_low_f": -4,
+   "record_high_f": 106,
+   "precip_in": 53.0,
+   "snow_in": 1,
+   "last_frost": "Mar 23",
+   "first_frost": "Nov 15",
+   "growing_days": 237,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Newport/Morehead City, NC",
+   "nws_cwa": "MHX",
+   "nwr": [
+    {
+     "call": "KEC84",
+     "freq": "162.400",
+     "same": "037049"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.6
+  },
+  "Cumberland County": {
+   "fips": "37051",
+   "centroid": [
+    35.0502,
+    -78.8287
+   ],
+   "latitude": 35.1,
+   "bbox": [
+    -79.1126,
+    34.8343,
+    -78.4952,
+    35.2668
+   ],
+   "coastal": true,
+   "elevation_ft": 90,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 91,
+   "record_low_f": -5,
+   "record_high_f": 107,
+   "precip_in": 47.9,
+   "snow_in": 1,
+   "last_frost": "Mar 30",
+   "first_frost": "Nov 10",
+   "growing_days": 227,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Raleigh, NC",
+   "nws_cwa": "RAH",
+   "nwr": [
+    {
+     "call": "WXL50",
+     "freq": "162.475",
+     "same": "037051"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.6
+  },
+  "Currituck County": {
+   "fips": "37053",
+   "centroid": [
+    36.3722,
+    -75.9412
+   ],
+   "latitude": 36.4,
+   "bbox": [
+    -76.3132,
+    36.0717,
+    -75.7732,
+    36.5519
+   ],
+   "coastal": true,
+   "elevation_ft": 0,
+   "zone": "8b",
+   "jan_low_f": 33,
+   "jul_high_f": 88,
+   "record_low_f": 2,
+   "record_high_f": 104,
+   "precip_in": 46.5,
+   "snow_in": 0,
+   "last_frost": "Mar 28",
+   "first_frost": "Nov 12",
+   "growing_days": 230,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Wakefield, VA",
+   "nws_cwa": "AKQ",
+   "nwr": [
+    {
+     "call": "WWH26",
+     "freq": "162.425",
+     "same": "037053"
+    },
+    {
+     "call": "KHB37",
+     "freq": "162.550",
+     "same": "037053"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.6
+  },
+  "Dare County": {
+   "fips": "37055",
+   "centroid": [
+    35.6063,
+    -75.7675
+   ],
+   "latitude": 35.6,
+   "bbox": [
+    -76.014,
+    35.1894,
+    -75.46,
+    36.2315
+   ],
+   "coastal": true,
+   "elevation_ft": 0,
+   "zone": "9a",
+   "jan_low_f": 33,
+   "jul_high_f": 88,
+   "record_low_f": -2,
+   "record_high_f": 101,
+   "precip_in": 55.3,
+   "snow_in": 1,
+   "last_frost": "Mar 29",
+   "first_frost": "Nov 13",
+   "growing_days": 231,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Newport/Morehead City, NC",
+   "nws_cwa": "MHX",
+   "nwr": [
+    {
+     "call": "KIG77",
+     "freq": "162.475",
+     "same": "037055"
+    },
+    {
+     "call": "WWH26",
+     "freq": "162.425",
+     "same": "037055"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 5.6
+  },
+  "Davidson County": {
+   "fips": "37057",
+   "centroid": [
+    35.7951,
+    -80.2071
+   ],
+   "latitude": 35.8,
+   "bbox": [
+    -80.4876,
+    35.5043,
+    -80.0434,
+    36.0267
+   ],
+   "coastal": false,
+   "elevation_ft": 720,
+   "zone": "8a",
+   "jan_low_f": 28,
+   "jul_high_f": 89,
+   "record_low_f": -6,
+   "record_high_f": 107,
+   "precip_in": 45.5,
+   "snow_in": 3,
+   "last_frost": "Apr 11",
+   "first_frost": "Oct 28",
+   "growing_days": 199,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Raleigh, NC",
+   "nws_cwa": "RAH",
+   "nwr": [
+    {
+     "call": "WWF60",
+     "freq": "162.500",
+     "same": "037057"
+    },
+    {
+     "call": "KJY85",
+     "freq": "162.525",
+     "same": "037057"
+    },
+    {
+     "call": "WXL42",
+     "freq": "162.400",
+     "same": "037057"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.6
+  },
+  "Davie County": {
+   "fips": "37059",
+   "centroid": [
+    35.9294,
+    -80.5426
+   ],
+   "latitude": 35.9,
+   "bbox": [
+    -80.7076,
+    35.7486,
+    -80.3653,
+    36.0627
+   ],
+   "coastal": false,
+   "elevation_ft": 740,
+   "zone": "7b",
+   "jan_low_f": 25,
+   "jul_high_f": 88,
+   "record_low_f": -7,
+   "record_high_f": 103,
+   "precip_in": 46.9,
+   "snow_in": 4,
+   "last_frost": "Apr 15",
+   "first_frost": "Oct 25",
+   "growing_days": 192,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "WNG588",
+     "freq": "162.500",
+     "same": "037059"
+    },
+    {
+     "call": "KJY85",
+     "freq": "162.525",
+     "same": "037059"
+    },
+    {
+     "call": "WXL42",
+     "freq": "162.400",
+     "same": "037059"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.6
+  },
+  "Duplin County": {
+   "fips": "37061",
+   "centroid": [
+    34.9344,
+    -77.9335
+   ],
+   "latitude": 34.9,
+   "bbox": [
+    -78.2002,
+    34.7098,
+    -77.6511,
+    35.1936
+   ],
+   "coastal": true,
+   "elevation_ft": 90,
+   "zone": "8a",
+   "jan_low_f": 30,
+   "jul_high_f": 88,
+   "record_low_f": -4,
+   "record_high_f": 110,
+   "precip_in": 52.0,
+   "snow_in": 2,
+   "last_frost": "Apr 7",
+   "first_frost": "Oct 30",
+   "growing_days": 204,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Newport/Morehead City, NC",
+   "nws_cwa": "MHX",
+   "nwr": [
+    {
+     "call": "KEC84",
+     "freq": "162.400",
+     "same": "037061"
+    },
+    {
+     "call": "KXI95",
+     "freq": "162.425",
+     "same": "037061"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.7
+  },
+  "Durham County": {
+   "fips": "37063",
+   "centroid": [
+    36.0338,
+    -78.8781
+   ],
+   "latitude": 36.0,
+   "bbox": [
+    -79.0161,
+    35.8635,
+    -78.6993,
+    36.2391
+   ],
+   "coastal": false,
+   "elevation_ft": 350,
+   "zone": "8a",
+   "jan_low_f": 28,
+   "jul_high_f": 87,
+   "record_low_f": 0,
+   "record_high_f": 105,
+   "precip_in": 48.6,
+   "snow_in": 2,
+   "last_frost": "Apr 2",
+   "first_frost": "Nov 4",
+   "growing_days": 217,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Raleigh, NC",
+   "nws_cwa": "RAH",
+   "nwr": [
+    {
+     "call": "WXL58",
+     "freq": "162.550",
+     "same": "037063"
+    },
+    {
+     "call": "WNG706",
+     "freq": "162.450",
+     "same": "037063"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.6
+  },
+  "Edgecombe County": {
+   "fips": "37065",
+   "centroid": [
+    35.9171,
+    -77.6027
+   ],
+   "latitude": 35.9,
+   "bbox": [
+    -77.8279,
+    35.6773,
+    -77.3426,
+    36.1542
+   ],
+   "coastal": true,
+   "elevation_ft": 110,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 88,
+   "record_low_f": -8,
+   "record_high_f": 106,
+   "precip_in": 48.6,
+   "snow_in": 3,
+   "last_frost": "Mar 31",
+   "first_frost": "Nov 7",
+   "growing_days": 223,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Raleigh, NC",
+   "nws_cwa": "RAH",
+   "nwr": [
+    {
+     "call": "WXL59",
+     "freq": "162.475",
+     "same": "037065"
+    },
+    {
+     "call": "WNG537",
+     "freq": "162.525",
+     "same": "037065"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.6
+  },
+  "Forsyth County": {
+   "fips": "37067",
+   "centroid": [
+    36.1325,
+    -80.257
+   ],
+   "latitude": 36.1,
+   "bbox": [
+    -80.5163,
+    35.9733,
+    -80.0355,
+    36.2615
+   ],
+   "coastal": false,
+   "elevation_ft": 940,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 88,
+   "record_low_f": -10,
+   "record_high_f": 105,
+   "precip_in": 43.2,
+   "snow_in": 6,
+   "last_frost": "Mar 26",
+   "first_frost": "Nov 9",
+   "growing_days": 228,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Raleigh, NC",
+   "nws_cwa": "RAH",
+   "nwr": [
+    {
+     "call": "WXL42",
+     "freq": "162.400",
+     "same": "037067"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.5
+  },
+  "Franklin County": {
+   "fips": "37069",
+   "centroid": [
+    36.0882,
+    -78.2831
+   ],
+   "latitude": 36.1,
+   "bbox": [
+    -78.5469,
+    35.8172,
+    -78.0062,
+    36.2662
+   ],
+   "coastal": false,
+   "elevation_ft": 200,
+   "zone": "8a",
+   "jan_low_f": 28,
+   "jul_high_f": 90,
+   "record_low_f": -10,
+   "record_high_f": 107,
+   "precip_in": 48.3,
+   "snow_in": 2,
+   "last_frost": "Apr 11",
+   "first_frost": "Oct 29",
+   "growing_days": 201,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Raleigh, NC",
+   "nws_cwa": "RAH",
+   "nwr": [
+    {
+     "call": "WXL58",
+     "freq": "162.550",
+     "same": "037069"
+    },
+    {
+     "call": "WNG706",
+     "freq": "162.450",
+     "same": "037069"
+    },
+    {
+     "call": "WNG586",
+     "freq": "162.500",
+     "same": "037069"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.6
+  },
+  "Gaston County": {
+   "fips": "37071",
+   "centroid": [
+    35.2928,
+    -81.1774
+   ],
+   "latitude": 35.3,
+   "bbox": [
+    -81.456,
+    35.1486,
+    -80.9232,
+    35.4196
+   ],
+   "coastal": false,
+   "elevation_ft": 720,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 91,
+   "record_low_f": -5,
+   "record_high_f": 107,
+   "precip_in": 44.0,
+   "snow_in": 1,
+   "last_frost": "Mar 27",
+   "first_frost": "Nov 9",
+   "growing_days": 228,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "WXL70",
+     "freq": "162.475",
+     "same": "037071"
+    },
+    {
+     "call": "KHC27",
+     "freq": "162.425",
+     "same": "037071"
+    },
+    {
+     "call": "KJY85",
+     "freq": "162.525",
+     "same": "037071"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.5
+  },
+  "Gates County": {
+   "fips": "37073",
+   "centroid": [
+    36.4421,
+    -76.7024
+   ],
+   "latitude": 36.4,
+   "bbox": [
+    -76.9513,
+    36.2962,
+    -76.4537,
+    36.5521
+   ],
+   "coastal": true,
+   "elevation_ft": 30,
+   "zone": "8a",
+   "jan_low_f": 29,
+   "jul_high_f": 89,
+   "record_low_f": -5,
+   "record_high_f": 106,
+   "precip_in": 47.9,
+   "snow_in": 4,
+   "last_frost": "Apr 7",
+   "first_frost": "Nov 2",
+   "growing_days": 208,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Wakefield, VA",
+   "nws_cwa": "AKQ",
+   "nwr": [
+    {
+     "call": "WWG33",
+     "freq": "162.450",
+     "same": "037073"
+    },
+    {
+     "call": "KHB37",
+     "freq": "162.550",
+     "same": "037073"
+    },
+    {
+     "call": "WNG537",
+     "freq": "162.525",
+     "same": "037073"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.5
+  },
+  "Graham County": {
+   "fips": "37075",
+   "centroid": [
+    35.3484,
+    -83.8309
+   ],
+   "latitude": 35.3,
+   "bbox": [
+    -84.0376,
+    35.2171,
+    -83.5827,
+    35.4664
+   ],
+   "coastal": false,
+   "elevation_ft": 2000,
+   "zone": "7b",
+   "jan_low_f": 26,
+   "jul_high_f": 83,
+   "record_low_f": -19,
+   "record_high_f": 100,
+   "precip_in": 63.6,
+   "snow_in": 9,
+   "last_frost": "Apr 13",
+   "first_frost": "Oct 26",
+   "growing_days": 194,
+   "ecoregion": "Blue Ridge",
+   "ecoregion_code": "66",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "WWG82",
+     "freq": "162.525",
+     "same": "037075"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.3
+  },
+  "Granville County": {
+   "fips": "37077",
+   "centroid": [
+    36.2999,
+    -78.6576
+   ],
+   "latitude": 36.3,
+   "bbox": [
+    -78.8072,
+    36.0219,
+    -78.4545,
+    36.5429
+   ],
+   "coastal": false,
+   "elevation_ft": 500,
+   "zone": "8a",
+   "jan_low_f": 30,
+   "jul_high_f": 89,
+   "record_low_f": 2,
+   "record_high_f": 105,
+   "precip_in": 46.6,
+   "snow_in": 2,
+   "last_frost": "Mar 30",
+   "first_frost": "Nov 6",
+   "growing_days": 222,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Raleigh, NC",
+   "nws_cwa": "RAH",
+   "nwr": [
+    {
+     "call": "WXL58",
+     "freq": "162.550",
+     "same": "037077"
+    },
+    {
+     "call": "WNG586",
+     "freq": "162.500",
+     "same": "037077"
+    },
+    {
+     "call": "KJY86",
+     "freq": "162.525",
+     "same": "037077"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.6
+  },
+  "Greene County": {
+   "fips": "37079",
+   "centroid": [
+    35.482,
+    -77.6817
+   ],
+   "latitude": 35.5,
+   "bbox": [
+    -77.8272,
+    35.3477,
+    -77.475,
+    35.6517
+   ],
+   "coastal": true,
+   "elevation_ft": 50,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 91,
+   "record_low_f": -2,
+   "record_high_f": 103,
+   "precip_in": 50.6,
+   "snow_in": 1,
+   "last_frost": "Mar 26",
+   "first_frost": "Nov 12",
+   "growing_days": 232,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Newport/Morehead City, NC",
+   "nws_cwa": "MHX",
+   "nwr": [
+    {
+     "call": "KEC84",
+     "freq": "162.400",
+     "same": "037079"
+    },
+    {
+     "call": "WXL59",
+     "freq": "162.475",
+     "same": "037079"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.6
+  },
+  "Guilford County": {
+   "fips": "37081",
+   "centroid": [
+    36.0791,
+    -79.7887
+   ],
+   "latitude": 36.1,
+   "bbox": [
+    -80.0468,
+    35.8998,
+    -79.5324,
+    36.2575
+   ],
+   "coastal": false,
+   "elevation_ft": 800,
+   "zone": "8a",
+   "jan_low_f": 30,
+   "jul_high_f": 89,
+   "record_low_f": -1,
+   "record_high_f": 104,
+   "precip_in": 45.9,
+   "snow_in": 7,
+   "last_frost": "Apr 1",
+   "first_frost": "Nov 4",
+   "growing_days": 217,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Raleigh, NC",
+   "nws_cwa": "RAH",
+   "nwr": [
+    {
+     "call": "WXL42",
+     "freq": "162.400",
+     "same": "037081"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.5
+  },
+  "Halifax County": {
+   "fips": "37083",
+   "centroid": [
+    36.2514,
+    -77.6448
+   ],
+   "latitude": 36.3,
+   "bbox": [
+    -78.0062,
+    36.0035,
+    -77.23,
+    36.512
+   ],
+   "coastal": true,
+   "elevation_ft": 110,
+   "zone": "8a",
+   "jan_low_f": 29,
+   "jul_high_f": 89,
+   "record_low_f": -8,
+   "record_high_f": 105,
+   "precip_in": 50.9,
+   "snow_in": 5,
+   "last_frost": "Apr 5",
+   "first_frost": "Nov 1",
+   "growing_days": 211,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Raleigh, NC",
+   "nws_cwa": "RAH",
+   "nwr": [
+    {
+     "call": "WWG33",
+     "freq": "162.450",
+     "same": "037083"
+    },
+    {
+     "call": "WXL59",
+     "freq": "162.475",
+     "same": "037083"
+    },
+    {
+     "call": "WNG537",
+     "freq": "162.525",
+     "same": "037083"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.6
+  },
+  "Harnett County": {
+   "fips": "37085",
+   "centroid": [
+    35.3687,
+    -78.8717
+   ],
+   "latitude": 35.4,
+   "bbox": [
+    -79.2221,
+    35.1918,
+    -78.5304,
+    35.5833
+   ],
+   "coastal": false,
+   "elevation_ft": 190,
+   "zone": "8a",
+   "jan_low_f": 29,
+   "jul_high_f": 90,
+   "record_low_f": -4,
+   "record_high_f": 105,
+   "precip_in": 46.6,
+   "snow_in": 2,
+   "last_frost": "Mar 30",
+   "first_frost": "Nov 6",
+   "growing_days": 223,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Raleigh, NC",
+   "nws_cwa": "RAH",
+   "nwr": [
+    {
+     "call": "WXL58",
+     "freq": "162.550",
+     "same": "037085"
+    },
+    {
+     "call": "WNG706",
+     "freq": "162.450",
+     "same": "037085"
+    },
+    {
+     "call": "WXL50",
+     "freq": "162.475",
+     "same": "037085"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.6
+  },
+  "Haywood County": {
+   "fips": "37087",
+   "centroid": [
+    35.5589,
+    -82.9813
+   ],
+   "latitude": 35.6,
+   "bbox": [
+    -83.257,
+    35.2919,
+    -82.7447,
+    35.792
+   ],
+   "coastal": false,
+   "elevation_ft": 3270,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 82,
+   "record_low_f": -22,
+   "record_high_f": 98,
+   "precip_in": 50.2,
+   "snow_in": 11,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 14",
+   "growing_days": 167,
+   "ecoregion": "Blue Ridge",
+   "ecoregion_code": "66",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "WXL56",
+     "freq": "162.400",
+     "same": "037087"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.4
+  },
+  "Henderson County": {
+   "fips": "37089",
+   "centroid": [
+    35.3364,
+    -82.4796
+   ],
+   "latitude": 35.3,
+   "bbox": [
+    -82.7447,
+    35.1446,
+    -82.2607,
+    35.4996
+   ],
+   "coastal": false,
+   "elevation_ft": 2180,
+   "zone": "7b",
+   "jan_low_f": 26,
+   "jul_high_f": 84,
+   "record_low_f": -14,
+   "record_high_f": 101,
+   "precip_in": 59.0,
+   "snow_in": 7,
+   "last_frost": "Apr 14",
+   "first_frost": "Oct 25",
+   "growing_days": 192,
+   "ecoregion": "Blue Ridge",
+   "ecoregion_code": "66",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "WXL56",
+     "freq": "162.400",
+     "same": "037089"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.4
+  },
+  "Hertford County": {
+   "fips": "37091",
+   "centroid": [
+    36.3635,
+    -76.9816
+   ],
+   "latitude": 36.4,
+   "bbox": [
+    -77.2086,
+    36.2382,
+    -76.6893,
+    36.5454
+   ],
+   "coastal": true,
+   "elevation_ft": 50,
+   "zone": "8a",
+   "jan_low_f": 29,
+   "jul_high_f": 88,
+   "record_low_f": -7,
+   "record_high_f": 105,
+   "precip_in": 49.6,
+   "snow_in": 3,
+   "last_frost": "Apr 6",
+   "first_frost": "Nov 1",
+   "growing_days": 208,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Wakefield, VA",
+   "nws_cwa": "AKQ",
+   "nwr": [
+    {
+     "call": "WWG33",
+     "freq": "162.450",
+     "same": "037091"
+    },
+    {
+     "call": "KHB37",
+     "freq": "162.550",
+     "same": "037091"
+    },
+    {
+     "call": "WNG537",
+     "freq": "162.525",
+     "same": "037091"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.5
+  },
+  "Hoke County": {
+   "fips": "37093",
+   "centroid": [
+    35.0172,
+    -79.242
+   ],
+   "latitude": 35.0,
+   "bbox": [
+    -79.4601,
+    34.8337,
+    -79.0349,
+    35.2136
+   ],
+   "coastal": false,
+   "elevation_ft": 200,
+   "zone": "8a",
+   "jan_low_f": 30,
+   "jul_high_f": 90,
+   "record_low_f": -3,
+   "record_high_f": 107,
+   "precip_in": 48.6,
+   "snow_in": 3,
+   "last_frost": "Apr 3",
+   "first_frost": "Nov 3",
+   "growing_days": 214,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Raleigh, NC",
+   "nws_cwa": "RAH",
+   "nwr": [
+    {
+     "call": "WNG597",
+     "freq": "162.400",
+     "same": "037093"
+    },
+    {
+     "call": "WXL50",
+     "freq": "162.475",
+     "same": "037093"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.5
+  },
+  "Hyde County": {
+   "fips": "37095",
+   "centroid": [
+    35.4082,
+    -76.1537
+   ],
+   "latitude": 35.4,
+   "bbox": [
+    -76.6377,
+    35.0651,
+    -75.7569,
+    35.7052
+   ],
+   "coastal": true,
+   "elevation_ft": 0,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 90,
+   "record_low_f": 13,
+   "record_high_f": 99,
+   "precip_in": 53.4,
+   "snow_in": 2,
+   "last_frost": "Mar 18",
+   "first_frost": "Nov 25",
+   "growing_days": 253,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Newport/Morehead City, NC",
+   "nws_cwa": "MHX",
+   "nwr": [
+    {
+     "call": "KIG77",
+     "freq": "162.475",
+     "same": "037095"
+    },
+    {
+     "call": "KEC84",
+     "freq": "162.400",
+     "same": "037095"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.4
+  },
+  "Iredell County": {
+   "fips": "37097",
+   "centroid": [
+    35.8063,
+    -80.8745
+   ],
+   "latitude": 35.8,
+   "bbox": [
+    -81.1124,
+    35.4865,
+    -80.6927,
+    36.0579
+   ],
+   "coastal": false,
+   "elevation_ft": 790,
+   "zone": "7b",
+   "jan_low_f": 26,
+   "jul_high_f": 87,
+   "record_low_f": -8,
+   "record_high_f": 106,
+   "precip_in": 46.6,
+   "snow_in": 5,
+   "last_frost": "Apr 16",
+   "first_frost": "Oct 25",
+   "growing_days": 191,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "WXL70",
+     "freq": "162.475",
+     "same": "037097"
+    },
+    {
+     "call": "WNG588",
+     "freq": "162.500",
+     "same": "037097"
+    },
+    {
+     "call": "KJY85",
+     "freq": "162.525",
+     "same": "037097"
+    },
+    {
+     "call": "WXL42",
+     "freq": "162.400",
+     "same": "037097"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.6
+  },
+  "Jackson County": {
+   "fips": "37099",
+   "centroid": [
+    35.2855,
+    -83.124
+   ],
+   "latitude": 35.3,
+   "bbox": [
+    -83.363,
+    35.0004,
+    -82.9196,
+    35.5248
+   ],
+   "coastal": false,
+   "elevation_ft": 2470,
+   "zone": "7b",
+   "jan_low_f": 26,
+   "jul_high_f": 85,
+   "record_low_f": -19,
+   "record_high_f": 99,
+   "precip_in": 54.2,
+   "snow_in": 4,
+   "last_frost": "Apr 19",
+   "first_frost": "Oct 22",
+   "growing_days": 184,
+   "ecoregion": "Blue Ridge",
+   "ecoregion_code": "66",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "WXL56",
+     "freq": "162.400",
+     "same": "037099"
+    },
+    {
+     "call": "WWG82",
+     "freq": "162.525",
+     "same": "037099"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.3
+  },
+  "Johnston County": {
+   "fips": "37101",
+   "centroid": [
+    35.5134,
+    -78.3673
+   ],
+   "latitude": 35.5,
+   "bbox": [
+    -78.7078,
+    35.2565,
+    -78.0646,
+    35.8172
+   ],
+   "coastal": false,
+   "elevation_ft": 120,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 92,
+   "record_low_f": -5,
+   "record_high_f": 106,
+   "precip_in": 49.4,
+   "snow_in": 1,
+   "last_frost": "Mar 29",
+   "first_frost": "Nov 5",
+   "growing_days": 220,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Raleigh, NC",
+   "nws_cwa": "RAH",
+   "nwr": [
+    {
+     "call": "WXL58",
+     "freq": "162.550",
+     "same": "037101"
+    },
+    {
+     "call": "WNG706",
+     "freq": "162.450",
+     "same": "037101"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.6
+  },
+  "Jones County": {
+   "fips": "37103",
+   "centroid": [
+    35.0323,
+    -77.3562
+   ],
+   "latitude": 35.0,
+   "bbox": [
+    -77.7308,
+    34.7801,
+    -77.0496,
+    35.2418
+   ],
+   "coastal": true,
+   "elevation_ft": 40,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 90,
+   "record_low_f": -5,
+   "record_high_f": 104,
+   "precip_in": 55.5,
+   "snow_in": 2,
+   "last_frost": "Apr 5",
+   "first_frost": "Nov 4",
+   "growing_days": 214,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Newport/Morehead City, NC",
+   "nws_cwa": "MHX",
+   "nwr": [
+    {
+     "call": "KEC84",
+     "freq": "162.400",
+     "same": "037103"
+    },
+    {
+     "call": "KXI95",
+     "freq": "162.425",
+     "same": "037103"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.6
+  },
+  "Lee County": {
+   "fips": "37105",
+   "centroid": [
+    35.4763,
+    -79.1721
+   ],
+   "latitude": 35.5,
+   "bbox": [
+    -79.3599,
+    35.3072,
+    -78.9705,
+    35.6279
+   ],
+   "coastal": false,
+   "elevation_ft": 370,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 90,
+   "record_low_f": -3,
+   "record_high_f": 107,
+   "precip_in": 46.9,
+   "snow_in": 2,
+   "last_frost": "Apr 10",
+   "first_frost": "Oct 30",
+   "growing_days": 203,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Raleigh, NC",
+   "nws_cwa": "RAH",
+   "nwr": [
+    {
+     "call": "WXL58",
+     "freq": "162.550",
+     "same": "037105"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.5
+  },
+  "Lenoir County": {
+   "fips": "37107",
+   "centroid": [
+    35.2401,
+    -77.6355
+   ],
+   "latitude": 35.2,
+   "bbox": [
+    -77.8343,
+    35.0081,
+    -77.3909,
+    35.4274
+   ],
+   "coastal": true,
+   "elevation_ft": 30,
+   "zone": "8b",
+   "jan_low_f": 35,
+   "jul_high_f": 91,
+   "record_low_f": -2,
+   "record_high_f": 103,
+   "precip_in": 52.9,
+   "snow_in": 1,
+   "last_frost": "Mar 25",
+   "first_frost": "Nov 11",
+   "growing_days": 232,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Newport/Morehead City, NC",
+   "nws_cwa": "MHX",
+   "nwr": [
+    {
+     "call": "KEC84",
+     "freq": "162.400",
+     "same": "037107"
+    },
+    {
+     "call": "KXI95",
+     "freq": "162.425",
+     "same": "037107"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.6
+  },
+  "Lincoln County": {
+   "fips": "37109",
+   "centroid": [
+    35.4885,
+    -81.2269
+   ],
+   "latitude": 35.5,
+   "bbox": [
+    -81.5374,
+    35.4005,
+    -80.9417,
+    35.5693
+   ],
+   "coastal": false,
+   "elevation_ft": 890,
+   "zone": "8a",
+   "jan_low_f": 30,
+   "jul_high_f": 89,
+   "record_low_f": -6,
+   "record_high_f": 105,
+   "precip_in": 49.5,
+   "snow_in": 6,
+   "last_frost": "Apr 9",
+   "first_frost": "Oct 28",
+   "growing_days": 201,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "WXL70",
+     "freq": "162.475",
+     "same": "037109"
+    },
+    {
+     "call": "KJY85",
+     "freq": "162.525",
+     "same": "037109"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.5
+  },
+  "McDowell County": {
+   "fips": "37111",
+   "centroid": [
+    35.6823,
+    -82.048
+   ],
+   "latitude": 35.7,
+   "bbox": [
+    -82.2946,
+    35.518,
+    -81.8242,
+    35.9588
+   ],
+   "coastal": false,
+   "elevation_ft": 1480,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 85,
+   "record_low_f": -11,
+   "record_high_f": 106,
+   "precip_in": 56.6,
+   "snow_in": 7,
+   "last_frost": "Apr 5",
+   "first_frost": "Nov 1",
+   "growing_days": 209,
+   "ecoregion": "Blue Ridge",
+   "ecoregion_code": "66",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "WXL56",
+     "freq": "162.400",
+     "same": "037111"
+    },
+    {
+     "call": "WNG538",
+     "freq": "162.450",
+     "same": "037111"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.4
+  },
+  "Macon County": {
+   "fips": "37113",
+   "centroid": [
+    35.153,
+    -83.4219
+   ],
+   "latitude": 35.2,
+   "bbox": [
+    -83.7385,
+    34.9935,
+    -83.108,
+    35.331
+   ],
+   "coastal": false,
+   "elevation_ft": 2060,
+   "zone": "7b",
+   "jan_low_f": 26,
+   "jul_high_f": 84,
+   "record_low_f": -15,
+   "record_high_f": 101,
+   "precip_in": 55.5,
+   "snow_in": 3,
+   "last_frost": "Apr 17",
+   "first_frost": "Oct 23",
+   "growing_days": 187,
+   "ecoregion": "Blue Ridge",
+   "ecoregion_code": "66",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "KXI81",
+     "freq": "162.450",
+     "same": "037113"
+    },
+    {
+     "call": "WWG82",
+     "freq": "162.525",
+     "same": "037113"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.3
+  },
+  "Madison County": {
+   "fips": "37115",
+   "centroid": [
+    35.8642,
+    -82.7126
+   ],
+   "latitude": 35.9,
+   "bbox": [
+    -82.9621,
+    35.6774,
+    -82.4095,
+    36.0657
+   ],
+   "coastal": false,
+   "elevation_ft": 2220,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 85,
+   "record_low_f": -18,
+   "record_high_f": 102,
+   "precip_in": 41.6,
+   "snow_in": 26,
+   "last_frost": "Apr 28",
+   "first_frost": "Oct 18",
+   "growing_days": 173,
+   "ecoregion": "Blue Ridge",
+   "ecoregion_code": "66",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "WXL56",
+     "freq": "162.400",
+     "same": "037115"
+    },
+    {
+     "call": "WXK47",
+     "freq": "162.550",
+     "same": "037115"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.4
+  },
+  "Martin County": {
+   "fips": "37117",
+   "centroid": [
+    35.8473,
+    -77.1196
+   ],
+   "latitude": 35.8,
+   "bbox": [
+    -77.4091,
+    35.6585,
+    -76.7714,
+    36.0749
+   ],
+   "coastal": true,
+   "elevation_ft": 70,
+   "zone": "8a",
+   "jan_low_f": 33,
+   "jul_high_f": 88,
+   "record_low_f": -3,
+   "record_high_f": 101,
+   "precip_in": 53.2,
+   "snow_in": 0,
+   "last_frost": "Mar 20",
+   "first_frost": "Nov 12",
+   "growing_days": 239,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Newport/Morehead City, NC",
+   "nws_cwa": "MHX",
+   "nwr": [
+    {
+     "call": "KEC84",
+     "freq": "162.400",
+     "same": "037117"
+    },
+    {
+     "call": "WXL59",
+     "freq": "162.475",
+     "same": "037117"
+    },
+    {
+     "call": "WNG537",
+     "freq": "162.525",
+     "same": "037117"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.6
+  },
+  "Mecklenburg County": {
+   "fips": "37119",
+   "centroid": [
+    35.2469,
+    -80.8338
+   ],
+   "latitude": 35.2,
+   "bbox": [
+    -81.058,
+    35.002,
+    -80.5503,
+    35.5149
+   ],
+   "coastal": false,
+   "elevation_ft": 740,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 90,
+   "record_low_f": -5,
+   "record_high_f": 104,
+   "precip_in": 43.6,
+   "snow_in": 4,
+   "last_frost": "Mar 30",
+   "first_frost": "Nov 3",
+   "growing_days": 221,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "WXL70",
+     "freq": "162.475",
+     "same": "037119"
+    },
+    {
+     "call": "KHC27",
+     "freq": "162.425",
+     "same": "037119"
+    },
+    {
+     "call": "KJY85",
+     "freq": "162.525",
+     "same": "037119"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.6
+  },
+  "Mitchell County": {
+   "fips": "37121",
+   "centroid": [
+    36.0131,
+    -82.1636
+   ],
+   "latitude": 36.0,
+   "bbox": [
+    -82.4159,
+    35.8241,
+    -81.9792,
+    36.1588
+   ],
+   "coastal": false,
+   "elevation_ft": 2450,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 83,
+   "record_low_f": -16,
+   "record_high_f": 97,
+   "precip_in": 45.9,
+   "snow_in": 13,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 19",
+   "growing_days": 180,
+   "ecoregion": "Blue Ridge",
+   "ecoregion_code": "66",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "WXL56",
+     "freq": "162.400",
+     "same": "037121"
+    },
+    {
+     "call": "WXK47",
+     "freq": "162.550",
+     "same": "037121"
+    },
+    {
+     "call": "WNG538",
+     "freq": "162.450",
+     "same": "037121"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.3
+  },
+  "Montgomery County": {
+   "fips": "37123",
+   "centroid": [
+    35.3275,
+    -79.9108
+   ],
+   "latitude": 35.3,
+   "bbox": [
+    -80.182,
+    35.1372,
+    -79.615,
+    35.5115
+   ],
+   "coastal": false,
+   "elevation_ft": 490,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 89,
+   "record_low_f": -7,
+   "record_high_f": 109,
+   "precip_in": 48.3,
+   "snow_in": 1,
+   "last_frost": "Mar 29",
+   "first_frost": "Nov 4",
+   "growing_days": 220,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Raleigh, NC",
+   "nws_cwa": "RAH",
+   "nwr": [
+    {
+     "call": "WWF60",
+     "freq": "162.500",
+     "same": "037123"
+    },
+    {
+     "call": "WXL70",
+     "freq": "162.475",
+     "same": "037123"
+    },
+    {
+     "call": "WNG597",
+     "freq": "162.400",
+     "same": "037123"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.5
+  },
+  "Moore County": {
+   "fips": "37125",
+   "centroid": [
+    35.3083,
+    -79.4927
+   ],
+   "latitude": 35.3,
+   "bbox": [
+    -79.7689,
+    35.0424,
+    -79.0965,
+    35.518
+   ],
+   "coastal": false,
+   "elevation_ft": 480,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 90,
+   "record_low_f": 4,
+   "record_high_f": 107,
+   "precip_in": 47.8,
+   "snow_in": 1,
+   "last_frost": "Apr 1",
+   "first_frost": "Nov 5",
+   "growing_days": 219,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Raleigh, NC",
+   "nws_cwa": "RAH",
+   "nwr": [
+    {
+     "call": "WWF60",
+     "freq": "162.500",
+     "same": "037125"
+    },
+    {
+     "call": "WXL58",
+     "freq": "162.550",
+     "same": "037125"
+    },
+    {
+     "call": "WNG597",
+     "freq": "162.400",
+     "same": "037125"
+    },
+    {
+     "call": "WXL50",
+     "freq": "162.475",
+     "same": "037125"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.5
+  },
+  "Nash County": {
+   "fips": "37127",
+   "centroid": [
+    35.9659,
+    -77.9876
+   ],
+   "latitude": 36.0,
+   "bbox": [
+    -78.2563,
+    35.7281,
+    -77.6997,
+    36.2023
+   ],
+   "coastal": false,
+   "elevation_ft": 190,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 90,
+   "record_low_f": -8,
+   "record_high_f": 106,
+   "precip_in": 44.4,
+   "snow_in": 1,
+   "last_frost": "Apr 1",
+   "first_frost": "Nov 5",
+   "growing_days": 219,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Raleigh, NC",
+   "nws_cwa": "RAH",
+   "nwr": [
+    {
+     "call": "WNG706",
+     "freq": "162.450",
+     "same": "037127"
+    },
+    {
+     "call": "WXL59",
+     "freq": "162.475",
+     "same": "037127"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.6
+  },
+  "New Hanover County": {
+   "fips": "37129",
+   "centroid": [
+    34.1834,
+    -77.8642
+   ],
+   "latitude": 34.2,
+   "bbox": [
+    -78.0299,
+    33.9286,
+    -77.7241,
+    34.3888
+   ],
+   "coastal": true,
+   "elevation_ft": 20,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 90,
+   "record_low_f": 0,
+   "record_high_f": 104,
+   "precip_in": 65.1,
+   "snow_in": 1,
+   "last_frost": "Mar 20",
+   "first_frost": "Nov 15",
+   "growing_days": 241,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Wilmington, NC",
+   "nws_cwa": "ILM",
+   "nwr": [
+    {
+     "call": "KHB31",
+     "freq": "162.550",
+     "same": "037129"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.7
+  },
+  "Northampton County": {
+   "fips": "37131",
+   "centroid": [
+    36.4218,
+    -77.3984
+   ],
+   "latitude": 36.4,
+   "bbox": [
+    -77.9002,
+    36.165,
+    -77.0664,
+    36.5473
+   ],
+   "coastal": true,
+   "elevation_ft": 110,
+   "zone": "8a",
+   "jan_low_f": 29,
+   "jul_high_f": 89,
+   "record_low_f": -8,
+   "record_high_f": 105,
+   "precip_in": 50.9,
+   "snow_in": 5,
+   "last_frost": "Apr 5",
+   "first_frost": "Nov 1",
+   "growing_days": 211,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Wakefield, VA",
+   "nws_cwa": "AKQ",
+   "nwr": [
+    {
+     "call": "WWG33",
+     "freq": "162.450",
+     "same": "037131"
+    },
+    {
+     "call": "KHB37",
+     "freq": "162.550",
+     "same": "037131"
+    },
+    {
+     "call": "WXL59",
+     "freq": "162.475",
+     "same": "037131"
+    },
+    {
+     "call": "WNG537",
+     "freq": "162.525",
+     "same": "037131"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.6
+  },
+  "Onslow County": {
+   "fips": "37133",
+   "centroid": [
+    34.7631,
+    -77.4995
+   ],
+   "latitude": 34.8,
+   "bbox": [
+    -77.6858,
+    34.4404,
+    -77.0984,
+    34.9842
+   ],
+   "coastal": true,
+   "elevation_ft": 40,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 90,
+   "record_low_f": -5,
+   "record_high_f": 102,
+   "precip_in": 58.9,
+   "snow_in": 1,
+   "last_frost": "Mar 31",
+   "first_frost": "Nov 8",
+   "growing_days": 224,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Newport/Morehead City, NC",
+   "nws_cwa": "MHX",
+   "nwr": [
+    {
+     "call": "KEC84",
+     "freq": "162.400",
+     "same": "037133"
+    },
+    {
+     "call": "KXI95",
+     "freq": "162.425",
+     "same": "037133"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.7
+  },
+  "Orange County": {
+   "fips": "37135",
+   "centroid": [
+    36.0625,
+    -79.12
+   ],
+   "latitude": 36.1,
+   "bbox": [
+    -79.2645,
+    35.8612,
+    -78.9513,
+    36.2439
+   ],
+   "coastal": false,
+   "elevation_ft": 800,
+   "zone": "8a",
+   "jan_low_f": 30,
+   "jul_high_f": 88,
+   "record_low_f": 0,
+   "record_high_f": 105,
+   "precip_in": 46.7,
+   "snow_in": 3,
+   "last_frost": "Mar 31",
+   "first_frost": "Nov 4",
+   "growing_days": 217,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Raleigh, NC",
+   "nws_cwa": "RAH",
+   "nwr": [
+    {
+     "call": "WXL58",
+     "freq": "162.550",
+     "same": "037135"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.5
+  },
+  "Pamlico County": {
+   "fips": "37137",
+   "centroid": [
+    35.1476,
+    -76.6653
+   ],
+   "latitude": 35.1,
+   "bbox": [
+    -76.9871,
+    34.9646,
+    -76.4669,
+    35.331
+   ],
+   "coastal": true,
+   "elevation_ft": 10,
+   "zone": "8b",
+   "jan_low_f": 34,
+   "jul_high_f": 88,
+   "record_low_f": -4,
+   "record_high_f": 107,
+   "precip_in": 58.8,
+   "snow_in": 1,
+   "last_frost": "Mar 30",
+   "first_frost": "Nov 8",
+   "growing_days": 224,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Newport/Morehead City, NC",
+   "nws_cwa": "MHX",
+   "nwr": [
+    {
+     "call": "KEC84",
+     "freq": "162.400",
+     "same": "037137"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.4
+  },
+  "Pasquotank County": {
+   "fips": "37139",
+   "centroid": [
+    36.2652,
+    -76.2607
+   ],
+   "latitude": 36.3,
+   "bbox": [
+    -76.4915,
+    36.1147,
+    -76.027,
+    36.5105
+   ],
+   "coastal": true,
+   "elevation_ft": 10,
+   "zone": "8a",
+   "jan_low_f": 34,
+   "jul_high_f": 89,
+   "record_low_f": -3,
+   "record_high_f": 107,
+   "precip_in": 51.3,
+   "snow_in": 0,
+   "last_frost": "Mar 27",
+   "first_frost": "Nov 17",
+   "growing_days": 238,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Wakefield, VA",
+   "nws_cwa": "AKQ",
+   "nwr": [
+    {
+     "call": "WWH26",
+     "freq": "162.425",
+     "same": "037139"
+    },
+    {
+     "call": "KHB37",
+     "freq": "162.550",
+     "same": "037139"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.5
+  },
+  "Pender County": {
+   "fips": "37141",
+   "centroid": [
+    34.5126,
+    -77.8881
+   ],
+   "latitude": 34.5,
+   "bbox": [
+    -78.272,
+    34.2855,
+    -77.5182,
+    34.7321
+   ],
+   "coastal": true,
+   "elevation_ft": 40,
+   "zone": "8a",
+   "jan_low_f": 33,
+   "jul_high_f": 89,
+   "record_low_f": 0,
+   "record_high_f": 106,
+   "precip_in": 63.5,
+   "snow_in": 0,
+   "last_frost": "Mar 29",
+   "first_frost": "Nov 8",
+   "growing_days": 226,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Wilmington, NC",
+   "nws_cwa": "ILM",
+   "nwr": [
+    {
+     "call": "KXI95",
+     "freq": "162.425",
+     "same": "037141"
+    },
+    {
+     "call": "KHB31",
+     "freq": "162.550",
+     "same": "037141"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.7
+  },
+  "Perquimans County": {
+   "fips": "37143",
+   "centroid": [
+    36.1809,
+    -76.4032
+   ],
+   "latitude": 36.2,
+   "bbox": [
+    -76.5896,
+    36.0749,
+    -76.1842,
+    36.378
+   ],
+   "coastal": true,
+   "elevation_ft": 10,
+   "zone": "8a",
+   "jan_low_f": 33,
+   "jul_high_f": 88,
+   "record_low_f": 2,
+   "record_high_f": 104,
+   "precip_in": 46.5,
+   "snow_in": 2,
+   "last_frost": "Mar 28",
+   "first_frost": "Nov 12",
+   "growing_days": 230,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Wakefield, VA",
+   "nws_cwa": "AKQ",
+   "nwr": [
+    {
+     "call": "KHB37",
+     "freq": "162.550",
+     "same": "037143"
+    },
+    {
+     "call": "WNG537",
+     "freq": "162.525",
+     "same": "037143"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.5
+  },
+  "Person County": {
+   "fips": "37145",
+   "centroid": [
+    36.3864,
+    -78.9656
+   ],
+   "latitude": 36.4,
+   "bbox": [
+    -79.1535,
+    36.2359,
+    -78.7948,
+    36.5421
+   ],
+   "coastal": false,
+   "elevation_ft": 750,
+   "zone": "7b",
+   "jan_low_f": 26,
+   "jul_high_f": 89,
+   "record_low_f": -9,
+   "record_high_f": 104,
+   "precip_in": 47.3,
+   "snow_in": 3,
+   "last_frost": "Apr 15",
+   "first_frost": "Oct 26",
+   "growing_days": 194,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Raleigh, NC",
+   "nws_cwa": "RAH",
+   "nwr": [
+    {
+     "call": "WXL58",
+     "freq": "162.550",
+     "same": "037145"
+    },
+    {
+     "call": "WNG586",
+     "freq": "162.500",
+     "same": "037145"
+    },
+    {
+     "call": "KJY86",
+     "freq": "162.525",
+     "same": "037145"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.6
+  },
+  "Pitt County": {
+   "fips": "37147",
+   "centroid": [
+    35.5925,
+    -77.3727
+   ],
+   "latitude": 35.6,
+   "bbox": [
+    -77.6992,
+    35.3283,
+    -77.0847,
+    35.8321
+   ],
+   "coastal": true,
+   "elevation_ft": 60,
+   "zone": "8a",
+   "jan_low_f": 33,
+   "jul_high_f": 90,
+   "record_low_f": -4,
+   "record_high_f": 104,
+   "precip_in": 53.4,
+   "snow_in": 3,
+   "last_frost": "Mar 27",
+   "first_frost": "Nov 8",
+   "growing_days": 227,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Newport/Morehead City, NC",
+   "nws_cwa": "MHX",
+   "nwr": [
+    {
+     "call": "KEC84",
+     "freq": "162.400",
+     "same": "037147"
+    },
+    {
+     "call": "WXL59",
+     "freq": "162.475",
+     "same": "037147"
+    },
+    {
+     "call": "WNG537",
+     "freq": "162.525",
+     "same": "037147"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.6
+  },
+  "Polk County": {
+   "fips": "37149",
+   "centroid": [
+    35.2779,
+    -82.1676
+   ],
+   "latitude": 35.3,
+   "bbox": [
+    -82.3593,
+    35.1849,
+    -81.9622,
+    35.4089
+   ],
+   "coastal": false,
+   "elevation_ft": 1050,
+   "zone": "8a",
+   "jan_low_f": 28,
+   "jul_high_f": 88,
+   "record_low_f": -8,
+   "record_high_f": 105,
+   "precip_in": 59.3,
+   "snow_in": 3,
+   "last_frost": "Apr 5",
+   "first_frost": "Oct 30",
+   "growing_days": 207,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "WXL56",
+     "freq": "162.400",
+     "same": "037149"
+    },
+    {
+     "call": "WXJ21",
+     "freq": "162.550",
+     "same": "037149"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.4
+  },
+  "Randolph County": {
+   "fips": "37151",
+   "centroid": [
+    35.7099,
+    -79.8062
+   ],
+   "latitude": 35.7,
+   "bbox": [
+    -80.0666,
+    35.5059,
+    -79.5418,
+    35.9206
+   ],
+   "coastal": false,
+   "elevation_ft": 770,
+   "zone": "8a",
+   "jan_low_f": 29,
+   "jul_high_f": 88,
+   "record_low_f": -8,
+   "record_high_f": 105,
+   "precip_in": 46.6,
+   "snow_in": 5,
+   "last_frost": "Apr 5",
+   "first_frost": "Oct 31",
+   "growing_days": 207,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Raleigh, NC",
+   "nws_cwa": "RAH",
+   "nwr": [
+    {
+     "call": "WWF60",
+     "freq": "162.500",
+     "same": "037151"
+    },
+    {
+     "call": "WXL58",
+     "freq": "162.550",
+     "same": "037151"
+    },
+    {
+     "call": "WNG597",
+     "freq": "162.400",
+     "same": "037151"
+    },
+    {
+     "call": "WXL42",
+     "freq": "162.400",
+     "same": "037151"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.5
+  },
+  "Richmond County": {
+   "fips": "37153",
+   "centroid": [
+    35.0046,
+    -79.7557
+   ],
+   "latitude": 35.0,
+   "bbox": [
+    -80.0756,
+    34.8049,
+    -79.4601,
+    35.1834
+   ],
+   "coastal": false,
+   "elevation_ft": 290,
+   "zone": "8a",
+   "jan_low_f": 33,
+   "jul_high_f": 92,
+   "record_low_f": -6,
+   "record_high_f": 108,
+   "precip_in": 49.5,
+   "snow_in": 0,
+   "last_frost": "Mar 30",
+   "first_frost": "Nov 4",
+   "growing_days": 220,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Raleigh, NC",
+   "nws_cwa": "RAH",
+   "nwr": [
+    {
+     "call": "WWF60",
+     "freq": "162.500",
+     "same": "037153"
+    },
+    {
+     "call": "WXL70",
+     "freq": "162.475",
+     "same": "037153"
+    },
+    {
+     "call": "WXK90",
+     "freq": "162.450",
+     "same": "037153"
+    },
+    {
+     "call": "WNG597",
+     "freq": "162.400",
+     "same": "037153"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.5
+  },
+  "Robeson County": {
+   "fips": "37155",
+   "centroid": [
+    34.6392,
+    -79.1009
+   ],
+   "latitude": 34.6,
+   "bbox": [
+    -79.4616,
+    34.2989,
+    -78.8052,
+    34.954
+   ],
+   "coastal": false,
+   "elevation_ft": 150,
+   "zone": "8b",
+   "jan_low_f": 35,
+   "jul_high_f": 91,
+   "record_low_f": 6,
+   "record_high_f": 107,
+   "precip_in": 42.6,
+   "snow_in": 0,
+   "last_frost": "Mar 24",
+   "first_frost": "Nov 10",
+   "growing_days": 233,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Wilmington, NC",
+   "nws_cwa": "ILM",
+   "nwr": [
+    {
+     "call": "WXL50",
+     "freq": "162.475",
+     "same": "037155"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.6
+  },
+  "Rockingham County": {
+   "fips": "37157",
+   "centroid": [
+    36.3818,
+    -79.7828
+   ],
+   "latitude": 36.4,
+   "bbox": [
+    -80.0355,
+    36.2414,
+    -79.5107,
+    36.5428
+   ],
+   "coastal": false,
+   "elevation_ft": 730,
+   "zone": "7b",
+   "jan_low_f": 27,
+   "jul_high_f": 89,
+   "record_low_f": -9,
+   "record_high_f": 103,
+   "precip_in": 47.1,
+   "snow_in": 4,
+   "last_frost": "Apr 11",
+   "first_frost": "Oct 29",
+   "growing_days": 201,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Blacksburg, VA",
+   "nws_cwa": "RNK",
+   "nwr": [
+    {
+     "call": "WXL60",
+     "freq": "162.475",
+     "same": "037157"
+    },
+    {
+     "call": "WXL42",
+     "freq": "162.400",
+     "same": "037157"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.5
+  },
+  "Rowan County": {
+   "fips": "37159",
+   "centroid": [
+    35.6414,
+    -80.5217
+   ],
+   "latitude": 35.6,
+   "bbox": [
+    -80.7715,
+    35.5019,
+    -80.182,
+    35.8628
+   ],
+   "coastal": false,
+   "elevation_ft": 770,
+   "zone": "8a",
+   "jan_low_f": 29,
+   "jul_high_f": 88,
+   "record_low_f": -11,
+   "record_high_f": 105,
+   "precip_in": 43.7,
+   "snow_in": 2,
+   "last_frost": "Apr 6",
+   "first_frost": "Oct 30",
+   "growing_days": 208,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "WWF60",
+     "freq": "162.500",
+     "same": "037159"
+    },
+    {
+     "call": "WXL70",
+     "freq": "162.475",
+     "same": "037159"
+    },
+    {
+     "call": "KJY85",
+     "freq": "162.525",
+     "same": "037159"
+    },
+    {
+     "call": "WXL42",
+     "freq": "162.400",
+     "same": "037159"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.6
+  },
+  "Rutherford County": {
+   "fips": "37161",
+   "centroid": [
+    35.4027,
+    -81.9196
+   ],
+   "latitude": 35.4,
+   "bbox": [
+    -82.2804,
+    35.1805,
+    -81.6925,
+    35.6117
+   ],
+   "coastal": false,
+   "elevation_ft": 870,
+   "zone": "7b",
+   "jan_low_f": 27,
+   "jul_high_f": 89,
+   "record_low_f": -11,
+   "record_high_f": 107,
+   "precip_in": 52.1,
+   "snow_in": 4,
+   "last_frost": "Apr 11",
+   "first_frost": "Oct 27",
+   "growing_days": 198,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "WXL56",
+     "freq": "162.400",
+     "same": "037161"
+    },
+    {
+     "call": "WXJ21",
+     "freq": "162.550",
+     "same": "037161"
+    },
+    {
+     "call": "WNG538",
+     "freq": "162.450",
+     "same": "037161"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.5
+  },
+  "Sampson County": {
+   "fips": "37163",
+   "centroid": [
+    34.9893,
+    -78.3713
+   ],
+   "latitude": 35.0,
+   "bbox": [
+    -78.6717,
+    34.5535,
+    -78.113,
+    35.3146
+   ],
+   "coastal": true,
+   "elevation_ft": 100,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 90,
+   "record_low_f": -2,
+   "record_high_f": 104,
+   "precip_in": 51.0,
+   "snow_in": 2,
+   "last_frost": "Mar 26",
+   "first_frost": "Nov 7",
+   "growing_days": 226,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Raleigh, NC",
+   "nws_cwa": "RAH",
+   "nwr": [
+    {
+     "call": "WXL50",
+     "freq": "162.475",
+     "same": "037163"
+    },
+    {
+     "call": "KXI95",
+     "freq": "162.425",
+     "same": "037163"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.5
+  },
+  "Scotland County": {
+   "fips": "37165",
+   "centroid": [
+    34.84,
+    -79.4773
+   ],
+   "latitude": 34.8,
+   "bbox": [
+    -79.6881,
+    34.6303,
+    -79.3311,
+    35.0424
+   ],
+   "coastal": false,
+   "elevation_ft": 260,
+   "zone": "8a",
+   "jan_low_f": 33,
+   "jul_high_f": 93,
+   "record_low_f": -3,
+   "record_high_f": 107,
+   "precip_in": 46.6,
+   "snow_in": 1,
+   "last_frost": "Mar 21",
+   "first_frost": "Nov 14",
+   "growing_days": 239,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Raleigh, NC",
+   "nws_cwa": "RAH",
+   "nwr": [
+    {
+     "call": "WXK90",
+     "freq": "162.450",
+     "same": "037165"
+    },
+    {
+     "call": "WNG597",
+     "freq": "162.400",
+     "same": "037165"
+    },
+    {
+     "call": "WXL50",
+     "freq": "162.475",
+     "same": "037165"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.6
+  },
+  "Stanly County": {
+   "fips": "37167",
+   "centroid": [
+    35.3104,
+    -80.2544
+   ],
+   "latitude": 35.3,
+   "bbox": [
+    -80.5062,
+    35.1433,
+    -80.0514,
+    35.5043
+   ],
+   "coastal": false,
+   "elevation_ft": 510,
+   "zone": "8a",
+   "jan_low_f": 31,
+   "jul_high_f": 89,
+   "record_low_f": -7,
+   "record_high_f": 109,
+   "precip_in": 48.3,
+   "snow_in": 1,
+   "last_frost": "Mar 29",
+   "first_frost": "Nov 4",
+   "growing_days": 220,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Raleigh, NC",
+   "nws_cwa": "RAH",
+   "nwr": [
+    {
+     "call": "WWF60",
+     "freq": "162.500",
+     "same": "037167"
+    },
+    {
+     "call": "WXL70",
+     "freq": "162.475",
+     "same": "037167"
+    },
+    {
+     "call": "WNG597",
+     "freq": "162.400",
+     "same": "037167"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.6
+  },
+  "Stokes County": {
+   "fips": "37169",
+   "centroid": [
+    36.3938,
+    -80.2699
+   ],
+   "latitude": 36.4,
+   "bbox": [
+    -80.452,
+    36.2574,
+    -80.0273,
+    36.5506
+   ],
+   "coastal": false,
+   "elevation_ft": 1730,
+   "zone": "7b",
+   "jan_low_f": 29,
+   "jul_high_f": 87,
+   "record_low_f": -10,
+   "record_high_f": 103,
+   "precip_in": 47.4,
+   "snow_in": 9,
+   "last_frost": "Apr 11",
+   "first_frost": "Oct 30",
+   "growing_days": 202,
+   "ecoregion": "Blue Ridge",
+   "ecoregion_code": "66",
+   "nws_office": "Blacksburg, VA",
+   "nws_cwa": "RNK",
+   "nwr": [
+    {
+     "call": "WXL42",
+     "freq": "162.400",
+     "same": "037169"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.5
+  },
+  "Surry County": {
+   "fips": "37171",
+   "centroid": [
+    36.4154,
+    -80.6865
+   ],
+   "latitude": 36.4,
+   "bbox": [
+    -80.9761,
+    36.2367,
+    -80.4401,
+    36.5623
+   ],
+   "coastal": false,
+   "elevation_ft": 1100,
+   "zone": "7b",
+   "jan_low_f": 25,
+   "jul_high_f": 86,
+   "record_low_f": -10,
+   "record_high_f": 105,
+   "precip_in": 50.5,
+   "snow_in": 8,
+   "last_frost": "Apr 19",
+   "first_frost": "Oct 23",
+   "growing_days": 186,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Blacksburg, VA",
+   "nws_cwa": "RNK",
+   "nwr": [
+    {
+     "call": "WNG588",
+     "freq": "162.500",
+     "same": "037171"
+    },
+    {
+     "call": "WXL42",
+     "freq": "162.400",
+     "same": "037171"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.5
+  },
+  "Swain County": {
+   "fips": "37173",
+   "centroid": [
+    35.5688,
+    -83.4656
+   ],
+   "latitude": 35.6,
+   "bbox": [
+    -83.9525,
+    35.2793,
+    -83.1566,
+    35.6959
+   ],
+   "coastal": false,
+   "elevation_ft": 4460,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 74,
+   "record_low_f": -16,
+   "record_high_f": 92,
+   "precip_in": 73.9,
+   "snow_in": 77,
+   "last_frost": "May 3",
+   "first_frost": "Oct 15",
+   "growing_days": 162,
+   "ecoregion": "Blue Ridge",
+   "ecoregion_code": "66",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "WWG82",
+     "freq": "162.525",
+     "same": "037173"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.3
+  },
+  "Transylvania County": {
+   "fips": "37175",
+   "centroid": [
+    35.2101,
+    -82.8167
+   ],
+   "latitude": 35.2,
+   "bbox": [
+    -83.0562,
+    35.0283,
+    -82.5752,
+    35.4231
+   ],
+   "coastal": false,
+   "elevation_ft": 3130,
+   "zone": "7a",
+   "jan_low_f": 28,
+   "jul_high_f": 79,
+   "record_low_f": -3,
+   "record_high_f": 98,
+   "precip_in": 96.3,
+   "snow_in": 12,
+   "last_frost": "Apr 15",
+   "first_frost": "Oct 26",
+   "growing_days": 193,
+   "ecoregion": "Blue Ridge",
+   "ecoregion_code": "66",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "WXL56",
+     "freq": "162.400",
+     "same": "037175"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.4
+  },
+  "Tyrrell County": {
+   "fips": "37177",
+   "centroid": [
+    35.8704,
+    -76.1653
+   ],
+   "latitude": 35.9,
+   "bbox": [
+    -76.4035,
+    35.598,
+    -76.0123,
+    35.9952
+   ],
+   "coastal": true,
+   "elevation_ft": 0,
+   "zone": "8b",
+   "jan_low_f": 33,
+   "jul_high_f": 88,
+   "record_low_f": -4,
+   "record_high_f": 105,
+   "precip_in": 55.3,
+   "snow_in": 2,
+   "last_frost": "Mar 29",
+   "first_frost": "Nov 13",
+   "growing_days": 231,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Newport/Morehead City, NC",
+   "nws_cwa": "MHX",
+   "nwr": [
+    {
+     "call": "KIG77",
+     "freq": "162.475",
+     "same": "037177"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.4
+  },
+  "Union County": {
+   "fips": "37179",
+   "centroid": [
+    34.9918,
+    -80.5304
+   ],
+   "latitude": 35.0,
+   "bbox": [
+    -80.8402,
+    34.814,
+    -80.2763,
+    35.2084
+   ],
+   "coastal": false,
+   "elevation_ft": 570,
+   "zone": "8a",
+   "jan_low_f": 30,
+   "jul_high_f": 91,
+   "record_low_f": -10,
+   "record_high_f": 107,
+   "precip_in": 47.8,
+   "snow_in": 2,
+   "last_frost": "Apr 3",
+   "first_frost": "Nov 1",
+   "growing_days": 213,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "WWF60",
+     "freq": "162.500",
+     "same": "037179"
+    },
+    {
+     "call": "WXL70",
+     "freq": "162.475",
+     "same": "037179"
+    },
+    {
+     "call": "KHC27",
+     "freq": "162.425",
+     "same": "037179"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.6
+  },
+  "Vance County": {
+   "fips": "37181",
+   "centroid": [
+    36.3655,
+    -78.4054
+   ],
+   "latitude": 36.4,
+   "bbox": [
+    -78.5113,
+    36.1638,
+    -78.2775,
+    36.5438
+   ],
+   "coastal": false,
+   "elevation_ft": 380,
+   "zone": "7b",
+   "jan_low_f": 26,
+   "jul_high_f": 90,
+   "record_low_f": -8,
+   "record_high_f": 106,
+   "precip_in": 48.6,
+   "snow_in": 2,
+   "last_frost": "Apr 16",
+   "first_frost": "Oct 26",
+   "growing_days": 193,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Raleigh, NC",
+   "nws_cwa": "RAH",
+   "nwr": [
+    {
+     "call": "WXL58",
+     "freq": "162.550",
+     "same": "037181"
+    },
+    {
+     "call": "WNG586",
+     "freq": "162.500",
+     "same": "037181"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.6
+  },
+  "Wake County": {
+   "fips": "37183",
+   "centroid": [
+    35.7898,
+    -78.6506
+   ],
+   "latitude": 35.8,
+   "bbox": [
+    -78.9956,
+    35.5189,
+    -78.2552,
+    36.0763
+   ],
+   "coastal": false,
+   "elevation_ft": 330,
+   "zone": "8a",
+   "jan_low_f": 32,
+   "jul_high_f": 91,
+   "record_low_f": -6,
+   "record_high_f": 107,
+   "precip_in": 49.4,
+   "snow_in": 4,
+   "last_frost": "Mar 28",
+   "first_frost": "Nov 8",
+   "growing_days": 229,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Raleigh, NC",
+   "nws_cwa": "RAH",
+   "nwr": [
+    {
+     "call": "WXL58",
+     "freq": "162.550",
+     "same": "037183"
+    },
+    {
+     "call": "WNG706",
+     "freq": "162.450",
+     "same": "037183"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 3,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.6
+  },
+  "Warren County": {
+   "fips": "37185",
+   "centroid": [
+    36.3981,
+    -78.0999
+   ],
+   "latitude": 36.4,
+   "bbox": [
+    -78.3239,
+    36.2023,
+    -77.8978,
+    36.5447
+   ],
+   "coastal": false,
+   "elevation_ft": 350,
+   "zone": "8a",
+   "jan_low_f": 29,
+   "jul_high_f": 89,
+   "record_low_f": -7,
+   "record_high_f": 104,
+   "precip_in": 47.7,
+   "snow_in": 6,
+   "last_frost": "Apr 3",
+   "first_frost": "Nov 5",
+   "growing_days": 217,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Raleigh, NC",
+   "nws_cwa": "RAH",
+   "nwr": [
+    {
+     "call": "WXL58",
+     "freq": "162.550",
+     "same": "037185"
+    },
+    {
+     "call": "WNG586",
+     "freq": "162.500",
+     "same": "037185"
+    },
+    {
+     "call": "WXL59",
+     "freq": "162.475",
+     "same": "037185"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.6
+  },
+  "Washington County": {
+   "fips": "37187",
+   "centroid": [
+    35.8447,
+    -76.5723
+   ],
+   "latitude": 35.8,
+   "bbox": [
+    -76.8469,
+    35.6975,
+    -76.3539,
+    35.9829
+   ],
+   "coastal": true,
+   "elevation_ft": 10,
+   "zone": "8a",
+   "jan_low_f": 34,
+   "jul_high_f": 89,
+   "record_low_f": -5,
+   "record_high_f": 103,
+   "precip_in": 54.6,
+   "snow_in": 1,
+   "last_frost": "Mar 31",
+   "first_frost": "Nov 7",
+   "growing_days": 221,
+   "ecoregion": "Middle Atlantic Coastal Plain",
+   "ecoregion_code": "63",
+   "nws_office": "Newport/Morehead City, NC",
+   "nws_cwa": "MHX",
+   "nwr": [
+    {
+     "call": "KIG77",
+     "freq": "162.475",
+     "same": "037187"
+    },
+    {
+     "call": "WNG537",
+     "freq": "162.525",
+     "same": "037187"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.4
+  },
+  "Watauga County": {
+   "fips": "37189",
+   "centroid": [
+    36.2354,
+    -81.7099
+   ],
+   "latitude": 36.2,
+   "bbox": [
+    -81.9178,
+    36.1115,
+    -81.4612,
+    36.3916
+   ],
+   "coastal": false,
+   "elevation_ft": 4180,
+   "zone": "6b",
+   "jan_low_f": 21,
+   "jul_high_f": 77,
+   "record_low_f": -24,
+   "record_high_f": 92,
+   "precip_in": 53.8,
+   "snow_in": 31,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 21",
+   "growing_days": 178,
+   "ecoregion": "Blue Ridge",
+   "ecoregion_code": "66",
+   "nws_office": "Blacksburg, VA",
+   "nws_cwa": "RNK",
+   "nwr": [
+    {
+     "call": "WXK47",
+     "freq": "162.550",
+     "same": "037189"
+    },
+    {
+     "call": "WNG538",
+     "freq": "162.450",
+     "same": "037189"
+    },
+    {
+     "call": "WNG588",
+     "freq": "162.500",
+     "same": "037189"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.3
+  },
+  "Wayne County": {
+   "fips": "37191",
+   "centroid": [
+    35.3542,
+    -78.0087
+   ],
+   "latitude": 35.4,
+   "bbox": [
+    -78.3047,
+    35.1472,
+    -77.8006,
+    35.5978
+   ],
+   "coastal": false,
+   "elevation_ft": 70,
+   "zone": "8a",
+   "jan_low_f": 35,
+   "jul_high_f": 91,
+   "record_low_f": 0,
+   "record_high_f": 108,
+   "precip_in": 52.3,
+   "snow_in": 2,
+   "last_frost": "Mar 15",
+   "first_frost": "Nov 18",
+   "growing_days": 250,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Raleigh, NC",
+   "nws_cwa": "RAH",
+   "nwr": [
+    {
+     "call": "WNG706",
+     "freq": "162.450",
+     "same": "037191"
+    },
+    {
+     "call": "KXI95",
+     "freq": "162.425",
+     "same": "037191"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.6
+  },
+  "Wilkes County": {
+   "fips": "37193",
+   "centroid": [
+    36.2089,
+    -81.1661
+   ],
+   "latitude": 36.2,
+   "bbox": [
+    -81.5455,
+    35.9955,
+    -80.869,
+    36.4373
+   ],
+   "coastal": false,
+   "elevation_ft": 1210,
+   "zone": "7b",
+   "jan_low_f": 27,
+   "jul_high_f": 87,
+   "record_low_f": -9,
+   "record_high_f": 102,
+   "precip_in": 51.7,
+   "snow_in": 6,
+   "last_frost": "Apr 10",
+   "first_frost": "Oct 29",
+   "growing_days": 201,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Blacksburg, VA",
+   "nws_cwa": "RNK",
+   "nwr": [
+    {
+     "call": "WNG538",
+     "freq": "162.450",
+     "same": "037193"
+    },
+    {
+     "call": "WNG588",
+     "freq": "162.500",
+     "same": "037193"
+    },
+    {
+     "call": "WXL42",
+     "freq": "162.400",
+     "same": "037193"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 5.3
+  },
+  "Wilson County": {
+   "fips": "37195",
+   "centroid": [
+    35.7004,
+    -77.9216
+   ],
+   "latitude": 35.7,
+   "bbox": [
+    -78.1919,
+    35.5727,
+    -77.6615,
+    35.867
+   ],
+   "coastal": false,
+   "elevation_ft": 120,
+   "zone": "8a",
+   "jan_low_f": 33,
+   "jul_high_f": 90,
+   "record_low_f": -5,
+   "record_high_f": 107,
+   "precip_in": 50.3,
+   "snow_in": 2,
+   "last_frost": "Mar 22",
+   "first_frost": "Nov 12",
+   "growing_days": 236,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Raleigh, NC",
+   "nws_cwa": "RAH",
+   "nwr": [
+    {
+     "call": "WNG706",
+     "freq": "162.450",
+     "same": "037195"
+    },
+    {
+     "call": "WXL59",
+     "freq": "162.475",
+     "same": "037195"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.7,
+   "sun_hours_jun": 5.6
+  },
+  "Yadkin County": {
+   "fips": "37197",
+   "centroid": [
+    36.1588,
+    -80.6652
+   ],
+   "latitude": 36.2,
+   "bbox": [
+    -80.8822,
+    36.0466,
+    -80.4321,
+    36.2876
+   ],
+   "coastal": false,
+   "elevation_ft": 880,
+   "zone": "7b",
+   "jan_low_f": 25,
+   "jul_high_f": 87,
+   "record_low_f": -8,
+   "record_high_f": 105,
+   "precip_in": 46.6,
+   "snow_in": 7,
+   "last_frost": "Apr 16",
+   "first_frost": "Oct 25",
+   "growing_days": 191,
+   "ecoregion": "Piedmont",
+   "ecoregion_code": "45",
+   "nws_office": "Blacksburg, VA",
+   "nws_cwa": "RNK",
+   "nwr": [
+    {
+     "call": "WNG588",
+     "freq": "162.500",
+     "same": "037197"
+    },
+    {
+     "call": "WXL42",
+     "freq": "162.400",
+     "same": "037197"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.5,
+   "sun_hours_jun": 5.5
+  },
+  "Yancey County": {
+   "fips": "37199",
+   "centroid": [
+    35.8893,
+    -82.304
+   ],
+   "latitude": 35.9,
+   "bbox": [
+    -82.5053,
+    35.6989,
+    -82.134,
+    36.0844
+   ],
+   "coastal": false,
+   "elevation_ft": 3250,
+   "zone": "6b",
+   "jan_low_f": 26,
+   "jul_high_f": 83,
+   "record_low_f": -16,
+   "record_high_f": 97,
+   "precip_in": 45.9,
+   "snow_in": 13,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 19",
+   "growing_days": 180,
+   "ecoregion": "Blue Ridge",
+   "ecoregion_code": "66",
+   "nws_office": "Greenville-Spartanburg, SC",
+   "nws_cwa": "GSP",
+   "nwr": [
+    {
+     "call": "WXL56",
+     "freq": "162.400",
+     "same": "037199"
+    },
+    {
+     "call": "WXK47",
+     "freq": "162.550",
+     "same": "037199"
+    },
+    {
+     "call": "WNG538",
+     "freq": "162.450",
+     "same": "037199"
+    }
+   ],
+   "state_em": "North Carolina Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 3.6,
+   "sun_hours_jun": 5.4
+  }
+ }
+}

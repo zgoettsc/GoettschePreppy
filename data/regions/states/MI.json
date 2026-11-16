@@ -1,0 +1,4905 @@
+{
+ "state": "MI",
+ "state_name": "Michigan",
+ "state_fips": "26",
+ "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "APX": "NWS Gaylord, MI",
+  "DTX": "NWS Detroit/Pontiac, MI",
+  "GRR": "NWS Grand Rapids, MI",
+  "IWX": "NWS Northern Indiana, IN",
+  "MQT": "NWS Marquette, MI"
+ },
+ "ecoregions": [
+  "Northern Lakes and Forests",
+  "North Central Hardwood Forests",
+  "Eastern Corn Belt Plains",
+  "Southern Michigan/Northern Indiana Drift Plains",
+  "Huron/Erie Lake Plains"
+ ],
+ "counties": {
+  "Alcona County": {
+   "fips": "26001",
+   "centroid": [
+    44.6575,
+    -83.2946
+   ],
+   "latitude": 44.7,
+   "bbox": [
+    -83.8886,
+    44.5088,
+    -83.2692,
+    44.8595
+   ],
+   "coastal": false,
+   "elevation_ft": 630,
+   "zone": "6a",
+   "jan_low_f": 14,
+   "jul_high_f": 74,
+   "record_low_f": -22,
+   "record_high_f": 103,
+   "precip_in": 29.1,
+   "snow_in": 52,
+   "last_frost": "May 8",
+   "first_frost": "Oct 16",
+   "growing_days": 160,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Gaylord, MI",
+   "nws_cwa": "APX",
+   "nwr": [
+    {
+     "call": "KIG83",
+     "freq": "162.550",
+     "same": "026001"
+    },
+    {
+     "call": "WNG701",
+     "freq": "162.525",
+     "same": "026001"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 5.3
+  },
+  "Alger County": {
+   "fips": "26003",
+   "centroid": [
+    46.5217,
+    -86.6571
+   ],
+   "latitude": 46.5,
+   "bbox": [
+    -87.1165,
+    46.1582,
+    -85.8642,
+    46.6909
+   ],
+   "coastal": false,
+   "elevation_ft": 730,
+   "zone": "5b",
+   "jan_low_f": 11,
+   "jul_high_f": 73,
+   "record_low_f": -33,
+   "record_high_f": 103,
+   "precip_in": 39.9,
+   "snow_in": 161,
+   "last_frost": "May 16",
+   "first_frost": "Oct 14",
+   "growing_days": 148,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Marquette, MI",
+   "nws_cwa": "MQT",
+   "nwr": [
+    {
+     "call": "WZ2515",
+     "freq": "162.425",
+     "same": "026003"
+    },
+    {
+     "call": "WNG684",
+     "freq": "162.525",
+     "same": "026003"
+    },
+    {
+     "call": "KIG66",
+     "freq": "162.550",
+     "same": "026003"
+    },
+    {
+     "call": "WZ2514",
+     "freq": "162.475",
+     "same": "026003"
+    },
+    {
+     "call": "WNG576",
+     "freq": "162.450",
+     "same": "026003"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.2
+  },
+  "Allegan County": {
+   "fips": "26005",
+   "centroid": [
+    42.4213,
+    -86.2614
+   ],
+   "latitude": 42.4,
+   "bbox": [
+    -86.274,
+    42.4188,
+    -85.543,
+    42.769
+   ],
+   "coastal": false,
+   "elevation_ft": 650,
+   "zone": "7a",
+   "jan_low_f": 22,
+   "jul_high_f": 80,
+   "record_low_f": -22,
+   "record_high_f": 100,
+   "precip_in": 37.2,
+   "snow_in": 109,
+   "last_frost": "Apr 17",
+   "first_frost": "Nov 5",
+   "growing_days": 201,
+   "ecoregion": "Southern Michigan/Northern Indiana Drift Plains",
+   "ecoregion_code": "56",
+   "nws_office": "Grand Rapids, MI",
+   "nws_cwa": "GRR",
+   "nwr": [
+    {
+     "call": "WZ2560",
+     "freq": "162.550",
+     "same": "026005"
+    },
+    {
+     "call": "WWF34",
+     "freq": "162.475",
+     "same": "026005"
+    },
+    {
+     "call": "WXN99",
+     "freq": "162.425",
+     "same": "026005"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.7
+  },
+  "Alpena County": {
+   "fips": "26007",
+   "centroid": [
+    44.895,
+    -83.4266
+   ],
+   "latitude": 44.9,
+   "bbox": [
+    -83.8897,
+    44.8564,
+    -83.191,
+    45.2072
+   ],
+   "coastal": false,
+   "elevation_ft": 630,
+   "zone": "6a",
+   "jan_low_f": 13,
+   "jul_high_f": 77,
+   "record_low_f": -28,
+   "record_high_f": 104,
+   "precip_in": 31.9,
+   "snow_in": 59,
+   "last_frost": "May 5",
+   "first_frost": "Oct 17",
+   "growing_days": 163,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Gaylord, MI",
+   "nws_cwa": "APX",
+   "nwr": [
+    {
+     "call": "KIG83",
+     "freq": "162.550",
+     "same": "026007"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 5.3
+  },
+  "Antrim County": {
+   "fips": "26009",
+   "centroid": [
+    45.0055,
+    -85.1756
+   ],
+   "latitude": 45.0,
+   "bbox": [
+    -85.4243,
+    44.8133,
+    -84.8476,
+    45.2079
+   ],
+   "coastal": false,
+   "elevation_ft": 820,
+   "zone": "5b",
+   "jan_low_f": 15,
+   "jul_high_f": 83,
+   "record_low_f": -41,
+   "record_high_f": 103,
+   "precip_in": 32.8,
+   "snow_in": 122,
+   "last_frost": "May 23",
+   "first_frost": "Oct 2",
+   "growing_days": 131,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Gaylord, MI",
+   "nws_cwa": "APX",
+   "nwr": [
+    {
+     "call": "KIH22",
+     "freq": "162.400",
+     "same": "026009"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.6,
+   "sun_hours_jun": 5.4
+  },
+  "Arenac County": {
+   "fips": "26011",
+   "centroid": [
+    44.0368,
+    -83.7407
+   ],
+   "latitude": 44.0,
+   "bbox": [
+    -84.1666,
+    43.9105,
+    -83.4271,
+    44.1635
+   ],
+   "coastal": false,
+   "elevation_ft": 590,
+   "zone": "6a",
+   "jan_low_f": 14,
+   "jul_high_f": 80,
+   "record_low_f": -28,
+   "record_high_f": 100,
+   "precip_in": 30.7,
+   "snow_in": 49,
+   "last_frost": "May 5",
+   "first_frost": "Oct 10",
+   "growing_days": 156,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Gaylord, MI",
+   "nws_cwa": "APX",
+   "nwr": [
+    {
+     "call": "WNG701",
+     "freq": "162.525",
+     "same": "026011"
+    },
+    {
+     "call": "KXI33",
+     "freq": "162.450",
+     "same": "026011"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 5.3
+  },
+  "Baraga County": {
+   "fips": "26013",
+   "centroid": [
+    46.6959,
+    -88.3618
+   ],
+   "latitude": 46.7,
+   "bbox": [
+    -88.6801,
+    46.4194,
+    -87.9911,
+    46.9667
+   ],
+   "coastal": false,
+   "elevation_ft": 1460,
+   "zone": "4b",
+   "jan_low_f": 7,
+   "jul_high_f": 75,
+   "record_low_f": -40,
+   "record_high_f": 96,
+   "precip_in": 38.3,
+   "snow_in": 208,
+   "last_frost": "May 31",
+   "first_frost": "Sep 22",
+   "growing_days": 115,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Marquette, MI",
+   "nws_cwa": "MQT",
+   "nwr": [
+    {
+     "call": "WXK73",
+     "freq": "162.400",
+     "same": "026013"
+    },
+    {
+     "call": "KIG66",
+     "freq": "162.550",
+     "same": "026013"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.2
+  },
+  "Barry County": {
+   "fips": "26015",
+   "centroid": [
+    42.5828,
+    -85.3145
+   ],
+   "latitude": 42.6,
+   "bbox": [
+    -85.5455,
+    42.4195,
+    -85.0716,
+    42.7707
+   ],
+   "coastal": false,
+   "elevation_ft": 860,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 82,
+   "record_low_f": -31,
+   "record_high_f": 109,
+   "precip_in": 39.6,
+   "snow_in": 68,
+   "last_frost": "May 3",
+   "first_frost": "Oct 12",
+   "growing_days": 158,
+   "ecoregion": "Southern Michigan/Northern Indiana Drift Plains",
+   "ecoregion_code": "56",
+   "nws_office": "Grand Rapids, MI",
+   "nws_cwa": "GRR",
+   "nwr": [
+    {
+     "call": "WZ2560",
+     "freq": "162.550",
+     "same": "026015"
+    },
+    {
+     "call": "WWF34",
+     "freq": "162.475",
+     "same": "026015"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.4
+  },
+  "Bay County": {
+   "fips": "26017",
+   "centroid": [
+    43.6997,
+    -83.9787
+   ],
+   "latitude": 43.7,
+   "bbox": [
+    -84.1679,
+    43.478,
+    -83.6981,
+    43.9973
+   ],
+   "coastal": false,
+   "elevation_ft": 600,
+   "zone": "6a",
+   "jan_low_f": 14,
+   "jul_high_f": 83,
+   "record_low_f": -18,
+   "record_high_f": 101,
+   "precip_in": 33.1,
+   "snow_in": 49,
+   "last_frost": "May 3",
+   "first_frost": "Oct 14",
+   "growing_days": 161,
+   "ecoregion": "Huron/Erie Lake Plains",
+   "ecoregion_code": "57",
+   "nws_office": "Detroit/Pontiac, MI",
+   "nws_cwa": "DTX",
+   "nwr": [
+    {
+     "call": "KIH29",
+     "freq": "162.475",
+     "same": "026017"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 5.4
+  },
+  "Benzie County": {
+   "fips": "26019",
+   "centroid": [
+    44.6368,
+    -86.232
+   ],
+   "latitude": 44.6,
+   "bbox": [
+    -86.2591,
+    44.5129,
+    -85.8151,
+    44.7787
+   ],
+   "coastal": false,
+   "elevation_ft": 610,
+   "zone": "6b",
+   "jan_low_f": 18,
+   "jul_high_f": 77,
+   "record_low_f": -32,
+   "record_high_f": 99,
+   "precip_in": 34.3,
+   "snow_in": 93,
+   "last_frost": "May 2",
+   "first_frost": "Oct 26",
+   "growing_days": 175,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "Gaylord, MI",
+   "nws_cwa": "APX",
+   "nwr": [
+    {
+     "call": "KIH22",
+     "freq": "162.400",
+     "same": "026019"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.6,
+   "sun_hours_jun": 5.6
+  },
+  "Berrien County": {
+   "fips": "26021",
+   "centroid": [
+    41.7914,
+    -86.7425
+   ],
+   "latitude": 41.8,
+   "bbox": [
+    -86.8245,
+    41.7594,
+    -86.2228,
+    42.2436
+   ],
+   "coastal": false,
+   "elevation_ft": 640,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 82,
+   "record_low_f": -23,
+   "record_high_f": 104,
+   "precip_in": 42.5,
+   "snow_in": 65,
+   "last_frost": "Apr 19",
+   "first_frost": "Oct 27",
+   "growing_days": 191,
+   "ecoregion": "Southern Michigan/Northern Indiana Drift Plains",
+   "ecoregion_code": "56",
+   "nws_office": "Northern Indiana, IN",
+   "nws_cwa": "IWX",
+   "nwr": [
+    {
+     "call": "KJY62",
+     "freq": "162.500",
+     "same": "026021"
+    },
+    {
+     "call": "WWF34",
+     "freq": "162.475",
+     "same": "026021"
+    },
+    {
+     "call": "WXJ57",
+     "freq": "162.400",
+     "same": "026021"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.2
+  },
+  "Branch County": {
+   "fips": "26023",
+   "centroid": [
+    41.9185,
+    -85.0669
+   ],
+   "latitude": 41.9,
+   "bbox": [
+    -85.2935,
+    41.7594,
+    -84.8251,
+    42.073
+   ],
+   "coastal": false,
+   "elevation_ft": 980,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 82,
+   "record_low_f": -29,
+   "record_high_f": 108,
+   "precip_in": 39.1,
+   "snow_in": 43,
+   "last_frost": "May 2",
+   "first_frost": "Oct 13",
+   "growing_days": 163,
+   "ecoregion": "Southern Michigan/Northern Indiana Drift Plains",
+   "ecoregion_code": "56",
+   "nws_office": "Northern Indiana, IN",
+   "nws_cwa": "IWX",
+   "nwr": [
+    {
+     "call": "KXI94",
+     "freq": "162.425",
+     "same": "026023"
+    },
+    {
+     "call": "WXK81",
+     "freq": "162.400",
+     "same": "026023"
+    },
+    {
+     "call": "WWF34",
+     "freq": "162.475",
+     "same": "026023"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.3
+  },
+  "Calhoun County": {
+   "fips": "26025",
+   "centroid": [
+    42.243,
+    -85.0124
+   ],
+   "latitude": 42.2,
+   "bbox": [
+    -85.2999,
+    42.0704,
+    -84.7096,
+    42.4224
+   ],
+   "coastal": false,
+   "elevation_ft": 940,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 83,
+   "record_low_f": -24,
+   "record_high_f": 104,
+   "precip_in": 31.5,
+   "snow_in": 40,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 19",
+   "growing_days": 170,
+   "ecoregion": "Southern Michigan/Northern Indiana Drift Plains",
+   "ecoregion_code": "56",
+   "nws_office": "Grand Rapids, MI",
+   "nws_cwa": "GRR",
+   "nwr": [
+    {
+     "call": "WXK81",
+     "freq": "162.400",
+     "same": "026025"
+    },
+    {
+     "call": "WWF34",
+     "freq": "162.475",
+     "same": "026025"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.4
+  },
+  "Cass County": {
+   "fips": "26027",
+   "centroid": [
+    41.9172,
+    -86.0001
+   ],
+   "latitude": 41.9,
+   "bbox": [
+    -86.2261,
+    41.759,
+    -85.7602,
+    42.0715
+   ],
+   "coastal": false,
+   "elevation_ft": 910,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 82,
+   "record_low_f": -23,
+   "record_high_f": 103,
+   "precip_in": 41.7,
+   "snow_in": 87,
+   "last_frost": "May 4",
+   "first_frost": "Oct 11",
+   "growing_days": 158,
+   "ecoregion": "Southern Michigan/Northern Indiana Drift Plains",
+   "ecoregion_code": "56",
+   "nws_office": "Northern Indiana, IN",
+   "nws_cwa": "IWX",
+   "nwr": [
+    {
+     "call": "WWF34",
+     "freq": "162.475",
+     "same": "026027"
+    },
+    {
+     "call": "WXJ57",
+     "freq": "162.400",
+     "same": "026027"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.2
+  },
+  "Charlevoix County": {
+   "fips": "26029",
+   "centroid": [
+    45.6186,
+    -85.5437
+   ],
+   "latitude": 45.6,
+   "bbox": [
+    -85.8442,
+    45.1147,
+    -84.7334,
+    45.841
+   ],
+   "coastal": false,
+   "elevation_ft": 690,
+   "zone": "6a",
+   "jan_low_f": 15,
+   "jul_high_f": 76,
+   "record_low_f": -25,
+   "record_high_f": 95,
+   "precip_in": 33.2,
+   "snow_in": 80,
+   "last_frost": "May 11",
+   "first_frost": "Oct 19",
+   "growing_days": 159,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Gaylord, MI",
+   "nws_cwa": "APX",
+   "nwr": [
+    {
+     "call": "KIH22",
+     "freq": "162.400",
+     "same": "026029"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.6,
+   "sun_hours_jun": 5.4
+  },
+  "Cheboygan County": {
+   "fips": "26031",
+   "centroid": [
+    45.476,
+    -84.4954
+   ],
+   "latitude": 45.5,
+   "bbox": [
+    -84.7351,
+    45.1986,
+    -84.203,
+    45.7883
+   ],
+   "coastal": false,
+   "elevation_ft": 710,
+   "zone": "5a",
+   "jan_low_f": 11,
+   "jul_high_f": 77,
+   "record_low_f": -35,
+   "record_high_f": 104,
+   "precip_in": 32.0,
+   "snow_in": 88,
+   "last_frost": "May 11",
+   "first_frost": "Oct 11",
+   "growing_days": 152,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Gaylord, MI",
+   "nws_cwa": "APX",
+   "nwr": [
+    {
+     "call": "WNG572",
+     "freq": "162.475",
+     "same": "026031"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.6,
+   "sun_hours_jun": 5.4
+  },
+  "Chippewa County": {
+   "fips": "26033",
+   "centroid": [
+    46.3218,
+    -84.5206
+   ],
+   "latitude": 46.3,
+   "bbox": [
+    -85.2395,
+    45.9124,
+    -83.4729,
+    46.7729
+   ],
+   "coastal": false,
+   "elevation_ft": 680,
+   "zone": "4b",
+   "jan_low_f": 8,
+   "jul_high_f": 79,
+   "record_low_f": -34,
+   "record_high_f": 99,
+   "precip_in": 35.5,
+   "snow_in": 94,
+   "last_frost": "May 24",
+   "first_frost": "Oct 1",
+   "growing_days": 127,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Gaylord, MI",
+   "nws_cwa": "APX",
+   "nwr": [
+    {
+     "call": "WNG576",
+     "freq": "162.450",
+     "same": "026033"
+    },
+    {
+     "call": "KIG74",
+     "freq": "162.550",
+     "same": "026033"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.6,
+   "sun_hours_jun": 5.4
+  },
+  "Clare County": {
+   "fips": "26035",
+   "centroid": [
+    43.9911,
+    -84.8383
+   ],
+   "latitude": 44.0,
+   "bbox": [
+    -85.0888,
+    43.8136,
+    -84.6061,
+    44.1643
+   ],
+   "coastal": false,
+   "elevation_ft": 1200,
+   "zone": "5a",
+   "jan_low_f": 10,
+   "jul_high_f": 80,
+   "record_low_f": -48,
+   "record_high_f": 107,
+   "precip_in": 32.4,
+   "snow_in": 75,
+   "last_frost": "May 20",
+   "first_frost": "Oct 1",
+   "growing_days": 136,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Grand Rapids, MI",
+   "nws_cwa": "GRR",
+   "nwr": [
+    {
+     "call": "KZZ33",
+     "freq": "162.525",
+     "same": "026035"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 5.4
+  },
+  "Clinton County": {
+   "fips": "26037",
+   "centroid": [
+    42.9505,
+    -84.5917
+   ],
+   "latitude": 43.0,
+   "bbox": [
+    -84.8377,
+    42.7695,
+    -84.3629,
+    43.1189
+   ],
+   "coastal": false,
+   "elevation_ft": 760,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 83,
+   "record_low_f": -25,
+   "record_high_f": 102,
+   "precip_in": 34.0,
+   "snow_in": 50,
+   "last_frost": "Apr 28",
+   "first_frost": "Oct 24",
+   "growing_days": 179,
+   "ecoregion": "Southern Michigan/Northern Indiana Drift Plains",
+   "ecoregion_code": "56",
+   "nws_office": "Grand Rapids, MI",
+   "nws_cwa": "GRR",
+   "nwr": [
+    {
+     "call": "WXK81",
+     "freq": "162.400",
+     "same": "026037"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 5.4
+  },
+  "Crawford County": {
+   "fips": "26039",
+   "centroid": [
+    44.6802,
+    -84.6113
+   ],
+   "latitude": 44.7,
+   "bbox": [
+    -84.8509,
+    44.5069,
+    -84.3701,
+    44.8587
+   ],
+   "coastal": false,
+   "elevation_ft": 1140,
+   "zone": "5a",
+   "jan_low_f": 10,
+   "jul_high_f": 80,
+   "record_low_f": -42,
+   "record_high_f": 104,
+   "precip_in": 33.2,
+   "snow_in": 88,
+   "last_frost": "May 23",
+   "first_frost": "Sep 27",
+   "growing_days": 124,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Gaylord, MI",
+   "nws_cwa": "APX",
+   "nwr": [
+    {
+     "call": "WWF70",
+     "freq": "162.500",
+     "same": "026039"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.4
+  },
+  "Delta County": {
+   "fips": "26041",
+   "centroid": [
+    45.8052,
+    -86.9019
+   ],
+   "latitude": 45.8,
+   "bbox": [
+    -87.3681,
+    45.4783,
+    -86.4586,
+    46.1592
+   ],
+   "coastal": false,
+   "elevation_ft": 680,
+   "zone": "5a",
+   "jan_low_f": 7,
+   "jul_high_f": 77,
+   "record_low_f": -32,
+   "record_high_f": 100,
+   "precip_in": 31.3,
+   "snow_in": 47,
+   "last_frost": "May 18",
+   "first_frost": "Oct 4",
+   "growing_days": 137,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Marquette, MI",
+   "nws_cwa": "MQT",
+   "nwr": [
+    {
+     "call": "KZZ35",
+     "freq": "162.500",
+     "same": "026041"
+    },
+    {
+     "call": "KIG66",
+     "freq": "162.550",
+     "same": "026041"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.3
+  },
+  "Dickinson County": {
+   "fips": "26043",
+   "centroid": [
+    46.0128,
+    -87.8661
+   ],
+   "latitude": 46.0,
+   "bbox": [
+    -88.1359,
+    45.7221,
+    -87.6159,
+    46.2475
+   ],
+   "coastal": false,
+   "elevation_ft": 1120,
+   "zone": "4b",
+   "jan_low_f": 6,
+   "jul_high_f": 80,
+   "record_low_f": -28,
+   "record_high_f": 99,
+   "precip_in": 20.8,
+   "snow_in": 61,
+   "last_frost": "May 25",
+   "first_frost": "Sep 24",
+   "growing_days": 121,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Marquette, MI",
+   "nws_cwa": "MQT",
+   "nwr": [
+    {
+     "call": "KZZ35",
+     "freq": "162.500",
+     "same": "026043"
+    },
+    {
+     "call": "KIG66",
+     "freq": "162.550",
+     "same": "026043"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.2
+  },
+  "Eaton County": {
+   "fips": "26045",
+   "centroid": [
+    42.5895,
+    -84.8465
+   ],
+   "latitude": 42.6,
+   "bbox": [
+    -85.0757,
+    42.4214,
+    -84.6008,
+    42.7707
+   ],
+   "coastal": false,
+   "elevation_ft": 940,
+   "zone": "6a",
+   "jan_low_f": 15,
+   "jul_high_f": 82,
+   "record_low_f": -31,
+   "record_high_f": 106,
+   "precip_in": 35.8,
+   "snow_in": 38,
+   "last_frost": "May 1",
+   "first_frost": "Oct 15",
+   "growing_days": 164,
+   "ecoregion": "Southern Michigan/Northern Indiana Drift Plains",
+   "ecoregion_code": "56",
+   "nws_office": "Grand Rapids, MI",
+   "nws_cwa": "GRR",
+   "nwr": [
+    {
+     "call": "WXK81",
+     "freq": "162.400",
+     "same": "026045"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 5.4
+  },
+  "Emmet County": {
+   "fips": "26047",
+   "centroid": [
+    45.5901,
+    -84.9868
+   ],
+   "latitude": 45.6,
+   "bbox": [
+    -85.1197,
+    45.2708,
+    -84.4569,
+    45.7893
+   ],
+   "coastal": false,
+   "elevation_ft": 950,
+   "zone": "5a",
+   "jan_low_f": 13,
+   "jul_high_f": 74,
+   "record_low_f": -29,
+   "record_high_f": 95,
+   "precip_in": 33.2,
+   "snow_in": 80,
+   "last_frost": "May 15",
+   "first_frost": "Oct 16",
+   "growing_days": 152,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Gaylord, MI",
+   "nws_cwa": "APX",
+   "nwr": [
+    {
+     "call": "WNG572",
+     "freq": "162.475",
+     "same": "026047"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.6,
+   "sun_hours_jun": 5.4
+  },
+  "Genesee County": {
+   "fips": "26049",
+   "centroid": [
+    43.0211,
+    -83.7064
+   ],
+   "latitude": 43.0,
+   "bbox": [
+    -83.9322,
+    42.7809,
+    -83.453,
+    43.2232
+   ],
+   "coastal": false,
+   "elevation_ft": 790,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 82,
+   "record_low_f": -28,
+   "record_high_f": 108,
+   "precip_in": 32.0,
+   "snow_in": 52,
+   "last_frost": "May 6",
+   "first_frost": "Oct 10",
+   "growing_days": 155,
+   "ecoregion": "Southern Michigan/Northern Indiana Drift Plains",
+   "ecoregion_code": "56",
+   "nws_office": "Detroit/Pontiac, MI",
+   "nws_cwa": "DTX",
+   "nwr": [
+    {
+     "call": "KIH29",
+     "freq": "162.475",
+     "same": "026049"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 5.4
+  },
+  "Gladwin County": {
+   "fips": "26051",
+   "centroid": [
+    43.9898,
+    -84.3898
+   ],
+   "latitude": 44.0,
+   "bbox": [
+    -84.6081,
+    43.8136,
+    -84.1657,
+    44.1618
+   ],
+   "coastal": false,
+   "elevation_ft": 740,
+   "zone": "5b",
+   "jan_low_f": 13,
+   "jul_high_f": 82,
+   "record_low_f": -39,
+   "record_high_f": 105,
+   "precip_in": 34.0,
+   "snow_in": 48,
+   "last_frost": "May 9",
+   "first_frost": "Oct 4",
+   "growing_days": 148,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Gaylord, MI",
+   "nws_cwa": "APX",
+   "nwr": [
+    {
+     "call": "KXI33",
+     "freq": "162.450",
+     "same": "026051"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 5.4
+  },
+  "Gogebic County": {
+   "fips": "26053",
+   "centroid": [
+    46.4881,
+    -89.7883
+   ],
+   "latitude": 46.5,
+   "bbox": [
+    -90.4182,
+    46.0973,
+    -88.9906,
+    46.7659
+   ],
+   "coastal": false,
+   "elevation_ft": 1330,
+   "zone": "4a",
+   "jan_low_f": 3,
+   "jul_high_f": 78,
+   "record_low_f": -48,
+   "record_high_f": 100,
+   "precip_in": 42.6,
+   "snow_in": 180,
+   "last_frost": "May 26",
+   "first_frost": "Sep 27",
+   "growing_days": 123,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Marquette, MI",
+   "nws_cwa": "MQT",
+   "nwr": [
+    {
+     "call": "KZZ78",
+     "freq": "162.525",
+     "same": "026053"
+    },
+    {
+     "call": "WXK73",
+     "freq": "162.400",
+     "same": "026053"
+    },
+    {
+     "call": "WNG683",
+     "freq": "162.550",
+     "same": "026053"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.2
+  },
+  "Grand Traverse County": {
+   "fips": "26055",
+   "centroid": [
+    44.7187,
+    -85.5538
+   ],
+   "latitude": 44.7,
+   "bbox": [
+    -85.8176,
+    44.512,
+    -85.3327,
+    44.9916
+   ],
+   "coastal": false,
+   "elevation_ft": 690,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 81,
+   "record_low_f": -37,
+   "record_high_f": 105,
+   "precip_in": 29.1,
+   "snow_in": 101,
+   "last_frost": "May 12",
+   "first_frost": "Oct 16",
+   "growing_days": 155,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "Gaylord, MI",
+   "nws_cwa": "APX",
+   "nwr": [
+    {
+     "call": "KIH22",
+     "freq": "162.400",
+     "same": "026055"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.5,
+   "sun_hours_jun": 5.4
+  },
+  "Gratiot County": {
+   "fips": "26057",
+   "centroid": [
+    43.2923,
+    -84.6047
+   ],
+   "latitude": 43.3,
+   "bbox": [
+    -84.846,
+    43.1175,
+    -84.3678,
+    43.4662
+   ],
+   "coastal": false,
+   "elevation_ft": 790,
+   "zone": "6a",
+   "jan_low_f": 15,
+   "jul_high_f": 82,
+   "record_low_f": -29,
+   "record_high_f": 108,
+   "precip_in": 34.5,
+   "snow_in": 39,
+   "last_frost": "May 1",
+   "first_frost": "Oct 13",
+   "growing_days": 164,
+   "ecoregion": "Southern Michigan/Northern Indiana Drift Plains",
+   "ecoregion_code": "56",
+   "nws_office": "Grand Rapids, MI",
+   "nws_cwa": "GRR",
+   "nwr": [
+    {
+     "call": "KZZ33",
+     "freq": "162.525",
+     "same": "026057"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 5.4
+  },
+  "Hillsdale County": {
+   "fips": "26059",
+   "centroid": [
+    41.9275,
+    -84.6375
+   ],
+   "latitude": 41.9,
+   "bbox": [
+    -84.8264,
+    41.6964,
+    -84.3599,
+    42.0735
+   ],
+   "coastal": false,
+   "elevation_ft": 1080,
+   "zone": "6a",
+   "jan_low_f": 15,
+   "jul_high_f": 82,
+   "record_low_f": -22,
+   "record_high_f": 107,
+   "precip_in": 39.5,
+   "snow_in": 44,
+   "last_frost": "May 3",
+   "first_frost": "Oct 12",
+   "growing_days": 161,
+   "ecoregion": "Southern Michigan/Northern Indiana Drift Plains",
+   "ecoregion_code": "56",
+   "nws_office": "Northern Indiana, IN",
+   "nws_cwa": "IWX",
+   "nwr": [
+    {
+     "call": "WNG647",
+     "freq": "162.450",
+     "same": "026059"
+    },
+    {
+     "call": "KXI94",
+     "freq": "162.425",
+     "same": "026059"
+    },
+    {
+     "call": "WXK81",
+     "freq": "162.400",
+     "same": "026059"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.3
+  },
+  "Houghton County": {
+   "fips": "26061",
+   "centroid": [
+    46.9984,
+    -88.6519
+   ],
+   "latitude": 47.0,
+   "bbox": [
+    -88.9913,
+    46.4196,
+    -88.2287,
+    47.2863
+   ],
+   "coastal": false,
+   "elevation_ft": 1000,
+   "zone": "5a",
+   "jan_low_f": 10,
+   "jul_high_f": 75,
+   "record_low_f": -30,
+   "record_high_f": 102,
+   "precip_in": 31.6,
+   "snow_in": 178,
+   "last_frost": "May 17",
+   "first_frost": "Oct 1",
+   "growing_days": 138,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Marquette, MI",
+   "nws_cwa": "MQT",
+   "nwr": [
+    {
+     "call": "WXK73",
+     "freq": "162.400",
+     "same": "026061"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.2
+  },
+  "Huron County": {
+   "fips": "26063",
+   "centroid": [
+    43.9076,
+    -82.857
+   ],
+   "latitude": 43.9,
+   "bbox": [
+    -83.4784,
+    43.6678,
+    -82.6059,
+    44.0706
+   ],
+   "coastal": false,
+   "elevation_ft": 710,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 77,
+   "record_low_f": -23,
+   "record_high_f": 103,
+   "precip_in": 32.9,
+   "snow_in": 47,
+   "last_frost": "May 5",
+   "first_frost": "Oct 24",
+   "growing_days": 169,
+   "ecoregion": "Huron/Erie Lake Plains",
+   "ecoregion_code": "57",
+   "nws_office": "Detroit/Pontiac, MI",
+   "nws_cwa": "DTX",
+   "nwr": [
+    {
+     "call": "WNG701",
+     "freq": "162.525",
+     "same": "026063"
+    },
+    {
+     "call": "KIH29",
+     "freq": "162.475",
+     "same": "026063"
+    },
+    {
+     "call": "WNG582",
+     "freq": "162.450",
+     "same": "026063"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.1
+  },
+  "Ingham County": {
+   "fips": "26065",
+   "centroid": [
+    42.6035,
+    -84.3738
+   ],
+   "latitude": 42.6,
+   "bbox": [
+    -84.6032,
+    42.4218,
+    -84.1399,
+    42.7766
+   ],
+   "coastal": false,
+   "elevation_ft": 950,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 83,
+   "record_low_f": -20,
+   "record_high_f": 101,
+   "precip_in": 34.3,
+   "snow_in": 36,
+   "last_frost": "Apr 28",
+   "first_frost": "Oct 17",
+   "growing_days": 173,
+   "ecoregion": "Southern Michigan/Northern Indiana Drift Plains",
+   "ecoregion_code": "56",
+   "nws_office": "Grand Rapids, MI",
+   "nws_cwa": "GRR",
+   "nwr": [
+    {
+     "call": "WXK81",
+     "freq": "162.400",
+     "same": "026065"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 5.4
+  },
+  "Ionia County": {
+   "fips": "26067",
+   "centroid": [
+    42.9447,
+    -85.0738
+   ],
+   "latitude": 42.9,
+   "bbox": [
+    -85.3125,
+    42.7695,
+    -84.8368,
+    43.1203
+   ],
+   "coastal": false,
+   "elevation_ft": 810,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 81,
+   "record_low_f": -25,
+   "record_high_f": 103,
+   "precip_in": 35.9,
+   "snow_in": 54,
+   "last_frost": "May 3",
+   "first_frost": "Oct 12",
+   "growing_days": 161,
+   "ecoregion": "Southern Michigan/Northern Indiana Drift Plains",
+   "ecoregion_code": "56",
+   "nws_office": "Grand Rapids, MI",
+   "nws_cwa": "GRR",
+   "nwr": [
+    {
+     "call": "WZ2560",
+     "freq": "162.550",
+     "same": "026067"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.4
+  },
+  "Iosco County": {
+   "fips": "26069",
+   "centroid": [
+    44.3869,
+    -83.3801
+   ],
+   "latitude": 44.4,
+   "bbox": [
+    -83.8867,
+    44.1618,
+    -83.317,
+    44.5119
+   ],
+   "coastal": false,
+   "elevation_ft": 610,
+   "zone": "6a",
+   "jan_low_f": 13,
+   "jul_high_f": 80,
+   "record_low_f": -29,
+   "record_high_f": 106,
+   "precip_in": 32.3,
+   "snow_in": 49,
+   "last_frost": "May 8",
+   "first_frost": "Oct 5",
+   "growing_days": 148,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Gaylord, MI",
+   "nws_cwa": "APX",
+   "nwr": [
+    {
+     "call": "WNG701",
+     "freq": "162.525",
+     "same": "026069"
+    },
+    {
+     "call": "KXI33",
+     "freq": "162.450",
+     "same": "026069"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 5.3
+  },
+  "Iron County": {
+   "fips": "26071",
+   "centroid": [
+    46.1703,
+    -88.5405
+   ],
+   "latitude": 46.2,
+   "bbox": [
+    -88.9912,
+    45.9208,
+    -88.1165,
+    46.4204
+   ],
+   "coastal": false,
+   "elevation_ft": 1600,
+   "zone": "4a",
+   "jan_low_f": 0,
+   "jul_high_f": 79,
+   "record_low_f": -47,
+   "record_high_f": 98,
+   "precip_in": 31.4,
+   "snow_in": 67,
+   "last_frost": "Jun 6",
+   "first_frost": "Sep 9",
+   "growing_days": 94,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Marquette, MI",
+   "nws_cwa": "MQT",
+   "nwr": [
+    {
+     "call": "KJY76",
+     "freq": "162.475",
+     "same": "026071"
+    },
+    {
+     "call": "KIG66",
+     "freq": "162.550",
+     "same": "026071"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.2
+  },
+  "Isabella County": {
+   "fips": "26073",
+   "centroid": [
+    43.6452,
+    -84.8394
+   ],
+   "latitude": 43.6,
+   "bbox": [
+    -85.0888,
+    43.4659,
+    -84.606,
+    43.8152
+   ],
+   "coastal": false,
+   "elevation_ft": 800,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 84,
+   "record_low_f": -30,
+   "record_high_f": 108,
+   "precip_in": 35.5,
+   "snow_in": 39,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 20",
+   "growing_days": 171,
+   "ecoregion": "Southern Michigan/Northern Indiana Drift Plains",
+   "ecoregion_code": "56",
+   "nws_office": "Grand Rapids, MI",
+   "nws_cwa": "GRR",
+   "nwr": [
+    {
+     "call": "KZZ33",
+     "freq": "162.525",
+     "same": "026073"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 5.4
+  },
+  "Jackson County": {
+   "fips": "26075",
+   "centroid": [
+    42.2485,
+    -84.4209
+   ],
+   "latitude": 42.2,
+   "bbox": [
+    -84.7186,
+    42.0704,
+    -84.1309,
+    42.4248
+   ],
+   "coastal": false,
+   "elevation_ft": 1000,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 82,
+   "record_low_f": -20,
+   "record_high_f": 103,
+   "precip_in": 32.2,
+   "snow_in": 40,
+   "last_frost": "May 1",
+   "first_frost": "Oct 14",
+   "growing_days": 164,
+   "ecoregion": "Southern Michigan/Northern Indiana Drift Plains",
+   "ecoregion_code": "56",
+   "nws_office": "Grand Rapids, MI",
+   "nws_cwa": "GRR",
+   "nwr": [
+    {
+     "call": "WNG647",
+     "freq": "162.450",
+     "same": "026075"
+    },
+    {
+     "call": "WXK81",
+     "freq": "162.400",
+     "same": "026075"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 5.4
+  },
+  "Kalamazoo County": {
+   "fips": "26077",
+   "centroid": [
+    42.2463,
+    -85.5329
+   ],
+   "latitude": 42.2,
+   "bbox": [
+    -85.7662,
+    42.069,
+    -85.2933,
+    42.4214
+   ],
+   "coastal": false,
+   "elevation_ft": 840,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 83,
+   "record_low_f": -21,
+   "record_high_f": 108,
+   "precip_in": 33.2,
+   "snow_in": 65,
+   "last_frost": "Apr 28",
+   "first_frost": "Oct 18",
+   "growing_days": 172,
+   "ecoregion": "Southern Michigan/Northern Indiana Drift Plains",
+   "ecoregion_code": "56",
+   "nws_office": "Grand Rapids, MI",
+   "nws_cwa": "GRR",
+   "nwr": [
+    {
+     "call": "WWF34",
+     "freq": "162.475",
+     "same": "026077"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.4
+  },
+  "Kalkaska County": {
+   "fips": "26079",
+   "centroid": [
+    44.6789,
+    -85.089
+   ],
+   "latitude": 44.7,
+   "bbox": [
+    -85.3341,
+    44.5102,
+    -84.8469,
+    44.8595
+   ],
+   "coastal": false,
+   "elevation_ft": 1160,
+   "zone": "5a",
+   "jan_low_f": 11,
+   "jul_high_f": 79,
+   "record_low_f": -34,
+   "record_high_f": 97,
+   "precip_in": 33.7,
+   "snow_in": 132,
+   "last_frost": "May 24",
+   "first_frost": "Oct 1",
+   "growing_days": 128,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Gaylord, MI",
+   "nws_cwa": "APX",
+   "nwr": [
+    {
+     "call": "KIH22",
+     "freq": "162.400",
+     "same": "026079"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.5,
+   "sun_hours_jun": 5.4
+  },
+  "Kent County": {
+   "fips": "26081",
+   "centroid": [
+    43.0325,
+    -85.5474
+   ],
+   "latitude": 43.0,
+   "bbox": [
+    -85.7916,
+    42.768,
+    -85.3097,
+    43.2947
+   ],
+   "coastal": false,
+   "elevation_ft": 620,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 82,
+   "record_low_f": -22,
+   "record_high_f": 104,
+   "precip_in": 39.6,
+   "snow_in": 75,
+   "last_frost": "May 6",
+   "first_frost": "Oct 10",
+   "growing_days": 157,
+   "ecoregion": "Southern Michigan/Northern Indiana Drift Plains",
+   "ecoregion_code": "56",
+   "nws_office": "Grand Rapids, MI",
+   "nws_cwa": "GRR",
+   "nwr": [
+    {
+     "call": "WZ2560",
+     "freq": "162.550",
+     "same": "026081"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.4
+  },
+  "Keweenaw County": {
+   "fips": "26083",
+   "centroid": [
+    47.3673,
+    -88.3513
+   ],
+   "latitude": 47.4,
+   "bbox": [
+    -89.2652,
+    47.1994,
+    -87.5861,
+    48.1911
+   ],
+   "coastal": false,
+   "elevation_ft": 1020,
+   "zone": "5b",
+   "jan_low_f": 10,
+   "jul_high_f": 75,
+   "record_low_f": -30,
+   "record_high_f": 102,
+   "precip_in": 34.7,
+   "snow_in": 132,
+   "last_frost": "May 17",
+   "first_frost": "Oct 1",
+   "growing_days": 138,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Marquette, MI",
+   "nws_cwa": "MQT",
+   "nwr": [
+    {
+     "call": "WZ2513",
+     "freq": "162.500",
+     "same": "026083"
+    },
+    {
+     "call": "WXK73",
+     "freq": "162.400",
+     "same": "026083"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.6
+  },
+  "Lake County": {
+   "fips": "26085",
+   "centroid": [
+    43.9952,
+    -85.8114
+   ],
+   "latitude": 44.0,
+   "bbox": [
+    -86.0422,
+    43.814,
+    -85.5624,
+    44.168
+   ],
+   "coastal": false,
+   "elevation_ft": 1010,
+   "zone": "5a",
+   "jan_low_f": 12,
+   "jul_high_f": 81,
+   "record_low_f": -36,
+   "record_high_f": 103,
+   "precip_in": 38.0,
+   "snow_in": 120,
+   "last_frost": "May 28",
+   "first_frost": "Sep 25",
+   "growing_days": 119,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Grand Rapids, MI",
+   "nws_cwa": "GRR",
+   "nwr": [
+    {
+     "call": "WNG672",
+     "freq": "162.425",
+     "same": "026085"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.4
+  },
+  "Lapeer County": {
+   "fips": "26087",
+   "centroid": [
+    43.0886,
+    -83.2243
+   ],
+   "latitude": 43.1,
+   "bbox": [
+    -83.4616,
+    42.88,
+    -82.9838,
+    43.3269
+   ],
+   "coastal": false,
+   "elevation_ft": 860,
+   "zone": "6a",
+   "jan_low_f": 15,
+   "jul_high_f": 82,
+   "record_low_f": -26,
+   "record_high_f": 100,
+   "precip_in": 31.9,
+   "snow_in": 34,
+   "last_frost": "May 4",
+   "first_frost": "Oct 14",
+   "growing_days": 160,
+   "ecoregion": "Southern Michigan/Northern Indiana Drift Plains",
+   "ecoregion_code": "56",
+   "nws_office": "Detroit/Pontiac, MI",
+   "nws_cwa": "DTX",
+   "nwr": [
+    {
+     "call": "KIH29",
+     "freq": "162.475",
+     "same": "026087"
+    },
+    {
+     "call": "WNG582",
+     "freq": "162.450",
+     "same": "026087"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 5.4
+  },
+  "Leelanau County": {
+   "fips": "26089",
+   "centroid": [
+    45.1462,
+    -86.0516
+   ],
+   "latitude": 45.1,
+   "bbox": [
+    -86.1567,
+    44.7744,
+    -85.5267,
+    45.4443
+   ],
+   "coastal": false,
+   "elevation_ft": 940,
+   "zone": "6b",
+   "jan_low_f": 18,
+   "jul_high_f": 75,
+   "record_low_f": -24,
+   "record_high_f": 102,
+   "precip_in": 32.9,
+   "snow_in": 91,
+   "last_frost": "May 9",
+   "first_frost": "Oct 26",
+   "growing_days": 169,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "Gaylord, MI",
+   "nws_cwa": "APX",
+   "nwr": [
+    {
+     "call": "KIH22",
+     "freq": "162.400",
+     "same": "026089"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.3
+  },
+  "Lenawee County": {
+   "fips": "26091",
+   "centroid": [
+    41.896,
+    -84.0744
+   ],
+   "latitude": 41.9,
+   "bbox": [
+    -84.3632,
+    41.7066,
+    -83.7634,
+    42.0823
+   ],
+   "coastal": false,
+   "elevation_ft": 820,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 84,
+   "record_low_f": -26,
+   "record_high_f": 108,
+   "precip_in": 29.9,
+   "snow_in": 26,
+   "last_frost": "Apr 27",
+   "first_frost": "Oct 20",
+   "growing_days": 173,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Detroit/Pontiac, MI",
+   "nws_cwa": "DTX",
+   "nwr": [
+    {
+     "call": "WNG647",
+     "freq": "162.450",
+     "same": "026091"
+    },
+    {
+     "call": "KEC63",
+     "freq": "162.550",
+     "same": "026091"
+    },
+    {
+     "call": "WXL51",
+     "freq": "162.500",
+     "same": "026091"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.3
+  },
+  "Livingston County": {
+   "fips": "26093",
+   "centroid": [
+    42.6025,
+    -83.9117
+   ],
+   "latitude": 42.6,
+   "bbox": [
+    -84.1582,
+    42.4238,
+    -83.6642,
+    42.7839
+   ],
+   "coastal": false,
+   "elevation_ft": 930,
+   "zone": "6a",
+   "jan_low_f": 14,
+   "jul_high_f": 83,
+   "record_low_f": -28,
+   "record_high_f": 106,
+   "precip_in": 33.1,
+   "snow_in": 33,
+   "last_frost": "May 4",
+   "first_frost": "Oct 7",
+   "growing_days": 156,
+   "ecoregion": "Southern Michigan/Northern Indiana Drift Plains",
+   "ecoregion_code": "56",
+   "nws_office": "Detroit/Pontiac, MI",
+   "nws_cwa": "DTX",
+   "nwr": [
+    {
+     "call": "KEC63",
+     "freq": "162.550",
+     "same": "026093"
+    },
+    {
+     "call": "KIH29",
+     "freq": "162.475",
+     "same": "026093"
+    },
+    {
+     "call": "WXK81",
+     "freq": "162.400",
+     "same": "026093"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.0,
+   "sun_hours_jun": 5.3
+  },
+  "Luce County": {
+   "fips": "26095",
+   "centroid": [
+    46.511,
+    -85.5176
+   ],
+   "latitude": 46.5,
+   "bbox": [
+    -85.8652,
+    46.2445,
+    -85.2371,
+    46.7552
+   ],
+   "coastal": false,
+   "elevation_ft": 800,
+   "zone": "5a",
+   "jan_low_f": 10,
+   "jul_high_f": 77,
+   "record_low_f": -32,
+   "record_high_f": 103,
+   "precip_in": 33.8,
+   "snow_in": 170,
+   "last_frost": "May 21",
+   "first_frost": "Oct 5",
+   "growing_days": 135,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Marquette, MI",
+   "nws_cwa": "MQT",
+   "nwr": [
+    {
+     "call": "WNG576",
+     "freq": "162.450",
+     "same": "026095"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.6,
+   "sun_hours_jun": 5.4
+  },
+  "Mackinac County": {
+   "fips": "26097",
+   "centroid": [
+    46.1679,
+    -85.3038
+   ],
+   "latitude": 46.2,
+   "bbox": [
+    -85.8652,
+    45.72,
+    -84.1142,
+    46.2457
+   ],
+   "coastal": false,
+   "elevation_ft": 850,
+   "zone": "5a",
+   "jan_low_f": 9,
+   "jul_high_f": 76,
+   "record_low_f": -43,
+   "record_high_f": 96,
+   "precip_in": 33.5,
+   "snow_in": 98,
+   "last_frost": "May 21",
+   "first_frost": "Oct 1",
+   "growing_days": 131,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Gaylord, MI",
+   "nws_cwa": "APX",
+   "nwr": [
+    {
+     "call": "WNG576",
+     "freq": "162.450",
+     "same": "026097"
+    },
+    {
+     "call": "KIG74",
+     "freq": "162.550",
+     "same": "026097"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.6,
+   "sun_hours_jun": 5.4
+  },
+  "Macomb County": {
+   "fips": "26099",
+   "centroid": [
+    42.6716,
+    -82.9115
+   ],
+   "latitude": 42.7,
+   "bbox": [
+    -83.1008,
+    42.4472,
+    -82.7139,
+    42.8973
+   ],
+   "coastal": false,
+   "elevation_ft": 600,
+   "zone": "6b",
+   "jan_low_f": 18,
+   "jul_high_f": 82,
+   "record_low_f": -24,
+   "record_high_f": 106,
+   "precip_in": 35.0,
+   "snow_in": 32,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 24",
+   "growing_days": 174,
+   "ecoregion": "Huron/Erie Lake Plains",
+   "ecoregion_code": "57",
+   "nws_office": "Detroit/Pontiac, MI",
+   "nws_cwa": "DTX",
+   "nwr": [
+    {
+     "call": "KEC63",
+     "freq": "162.550",
+     "same": "026099"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.0,
+   "sun_hours_jun": 5.4
+  },
+  "Manistee County": {
+   "fips": "26101",
+   "centroid": [
+    44.2453,
+    -86.3275
+   ],
+   "latitude": 44.2,
+   "bbox": [
+    -86.3884,
+    44.1642,
+    -85.8175,
+    44.5296
+   ],
+   "coastal": false,
+   "elevation_ft": 650,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 80,
+   "record_low_f": -38,
+   "record_high_f": 100,
+   "precip_in": 36.3,
+   "snow_in": 93,
+   "last_frost": "May 14",
+   "first_frost": "Oct 12",
+   "growing_days": 151,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "Gaylord, MI",
+   "nws_cwa": "APX",
+   "nwr": [
+    {
+     "call": "KIH22",
+     "freq": "162.400",
+     "same": "026101"
+    },
+    {
+     "call": "WNG672",
+     "freq": "162.425",
+     "same": "026101"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.6,
+   "sun_hours_jun": 5.6
+  },
+  "Marquette County": {
+   "fips": "26103",
+   "centroid": [
+    46.6566,
+    -87.584
+   ],
+   "latitude": 46.7,
+   "bbox": [
+    -88.1176,
+    45.985,
+    -87.1158,
+    46.9664
+   ],
+   "coastal": false,
+   "elevation_ft": 960,
+   "zone": "5b",
+   "jan_low_f": 7,
+   "jul_high_f": 76,
+   "record_low_f": -34,
+   "record_high_f": 99,
+   "precip_in": 36.7,
+   "snow_in": 197,
+   "last_frost": "May 22",
+   "first_frost": "Sep 29",
+   "growing_days": 129,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Marquette, MI",
+   "nws_cwa": "MQT",
+   "nwr": [
+    {
+     "call": "KIG66",
+     "freq": "162.550",
+     "same": "026103"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.2
+  },
+  "Mason County": {
+   "fips": "26105",
+   "centroid": [
+    43.9572,
+    -86.4429
+   ],
+   "latitude": 44.0,
+   "bbox": [
+    -86.5155,
+    43.8157,
+    -86.0385,
+    44.1789
+   ],
+   "coastal": false,
+   "elevation_ft": 620,
+   "zone": "6b",
+   "jan_low_f": 17,
+   "jul_high_f": 79,
+   "record_low_f": -37,
+   "record_high_f": 99,
+   "precip_in": 37.3,
+   "snow_in": 78,
+   "last_frost": "May 17",
+   "first_frost": "Oct 7",
+   "growing_days": 144,
+   "ecoregion": "Southern Michigan/Northern Indiana Drift Plains",
+   "ecoregion_code": "56",
+   "nws_office": "Grand Rapids, MI",
+   "nws_cwa": "GRR",
+   "nwr": [
+    {
+     "call": "WNG672",
+     "freq": "162.425",
+     "same": "026105"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.7
+  },
+  "Mecosta County": {
+   "fips": "26107",
+   "centroid": [
+    43.6353,
+    -85.3328
+   ],
+   "latitude": 43.6,
+   "bbox": [
+    -85.5629,
+    43.4662,
+    -85.0849,
+    43.8155
+   ],
+   "coastal": false,
+   "elevation_ft": 1020,
+   "zone": "5b",
+   "jan_low_f": 13,
+   "jul_high_f": 81,
+   "record_low_f": -36,
+   "record_high_f": 103,
+   "precip_in": 37.9,
+   "snow_in": 61,
+   "last_frost": "May 13",
+   "first_frost": "Oct 2",
+   "growing_days": 142,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Grand Rapids, MI",
+   "nws_cwa": "GRR",
+   "nwr": [
+    {
+     "call": "KZZ33",
+     "freq": "162.525",
+     "same": "026107"
+    },
+    {
+     "call": "WNG672",
+     "freq": "162.425",
+     "same": "026107"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.4
+  },
+  "Menominee County": {
+   "fips": "26109",
+   "centroid": [
+    45.5356,
+    -87.5015
+   ],
+   "latitude": 45.5,
+   "bbox": [
+    -87.889,
+    45.0943,
+    -87.2639,
+    45.9861
+   ],
+   "coastal": false,
+   "elevation_ft": 740,
+   "zone": "5a",
+   "jan_low_f": 5,
+   "jul_high_f": 81,
+   "record_low_f": -45,
+   "record_high_f": 101,
+   "precip_in": 31.3,
+   "snow_in": 70,
+   "last_frost": "May 22",
+   "first_frost": "Sep 27",
+   "growing_days": 126,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Marquette, MI",
+   "nws_cwa": "MQT",
+   "nwr": [
+    {
+     "call": "KZZ35",
+     "freq": "162.500",
+     "same": "026109"
+    },
+    {
+     "call": "KIG66",
+     "freq": "162.550",
+     "same": "026109"
+    },
+    {
+     "call": "WXN69",
+     "freq": "162.425",
+     "same": "026109"
+    },
+    {
+     "call": "WNG553",
+     "freq": "162.400",
+     "same": "026109"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.3
+  },
+  "Midland County": {
+   "fips": "26111",
+   "centroid": [
+    43.6482,
+    -84.3794
+   ],
+   "latitude": 43.6,
+   "bbox": [
+    -84.608,
+    43.466,
+    -84.1667,
+    43.8286
+   ],
+   "coastal": false,
+   "elevation_ft": 640,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 82,
+   "record_low_f": -19,
+   "record_high_f": 103,
+   "precip_in": 33.4,
+   "snow_in": 49,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 16",
+   "growing_days": 167,
+   "ecoregion": "Huron/Erie Lake Plains",
+   "ecoregion_code": "57",
+   "nws_office": "Detroit/Pontiac, MI",
+   "nws_cwa": "DTX",
+   "nwr": [
+    {
+     "call": "KIH29",
+     "freq": "162.475",
+     "same": "026111"
+    },
+    {
+     "call": "KZZ33",
+     "freq": "162.525",
+     "same": "026111"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 5.4
+  },
+  "Missaukee County": {
+   "fips": "26113",
+   "centroid": [
+    44.3254,
+    -85.0855
+   ],
+   "latitude": 44.3,
+   "bbox": [
+    -85.3383,
+    44.1612,
+    -84.8509,
+    44.5125
+   ],
+   "coastal": false,
+   "elevation_ft": 1220,
+   "zone": "5a",
+   "jan_low_f": 10,
+   "jul_high_f": 80,
+   "record_low_f": -41,
+   "record_high_f": 106,
+   "precip_in": 33.4,
+   "snow_in": 74,
+   "last_frost": "May 22",
+   "first_frost": "Sep 26",
+   "growing_days": 125,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Gaylord, MI",
+   "nws_cwa": "APX",
+   "nwr": [
+    {
+     "call": "KIH22",
+     "freq": "162.400",
+     "same": "026113"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.5,
+   "sun_hours_jun": 5.4
+  },
+  "Monroe County": {
+   "fips": "26115",
+   "centroid": [
+    41.9161,
+    -83.4871
+   ],
+   "latitude": 41.9,
+   "bbox": [
+    -83.774,
+    41.7235,
+    -83.1646,
+    42.0942
+   ],
+   "coastal": false,
+   "elevation_ft": 620,
+   "zone": "6b",
+   "jan_low_f": 18,
+   "jul_high_f": 84,
+   "record_low_f": -15,
+   "record_high_f": 101,
+   "precip_in": 34.8,
+   "snow_in": 39,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 23",
+   "growing_days": 182,
+   "ecoregion": "Huron/Erie Lake Plains",
+   "ecoregion_code": "57",
+   "nws_office": "Detroit/Pontiac, MI",
+   "nws_cwa": "DTX",
+   "nwr": [
+    {
+     "call": "WNG647",
+     "freq": "162.450",
+     "same": "026115"
+    },
+    {
+     "call": "KEC63",
+     "freq": "162.550",
+     "same": "026115"
+    },
+    {
+     "call": "WXL51",
+     "freq": "162.500",
+     "same": "026115"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.3
+  },
+  "Montcalm County": {
+   "fips": "26117",
+   "centroid": [
+    43.3128,
+    -85.1495
+   ],
+   "latitude": 43.3,
+   "bbox": [
+    -85.5629,
+    43.1181,
+    -84.8352,
+    43.4684
+   ],
+   "coastal": false,
+   "elevation_ft": 940,
+   "zone": "5b",
+   "jan_low_f": 13,
+   "jul_high_f": 84,
+   "record_low_f": -26,
+   "record_high_f": 108,
+   "precip_in": 36.6,
+   "snow_in": 73,
+   "last_frost": "May 18",
+   "first_frost": "Sep 28",
+   "growing_days": 133,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Grand Rapids, MI",
+   "nws_cwa": "GRR",
+   "nwr": [
+    {
+     "call": "WZ2560",
+     "freq": "162.550",
+     "same": "026117"
+    },
+    {
+     "call": "KZZ33",
+     "freq": "162.525",
+     "same": "026117"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.4
+  },
+  "Montmorency County": {
+   "fips": "26119",
+   "centroid": [
+    45.0241,
+    -84.1301
+   ],
+   "latitude": 45.0,
+   "bbox": [
+    -84.372,
+    44.8547,
+    -83.8808,
+    45.2021
+   ],
+   "coastal": false,
+   "elevation_ft": 940,
+   "zone": "5a",
+   "jan_low_f": 10,
+   "jul_high_f": 80,
+   "record_low_f": -46,
+   "record_high_f": 104,
+   "precip_in": 32.0,
+   "snow_in": 84,
+   "last_frost": "May 22",
+   "first_frost": "Sep 27",
+   "growing_days": 127,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Gaylord, MI",
+   "nws_cwa": "APX",
+   "nwr": [
+    {
+     "call": "KIG83",
+     "freq": "162.550",
+     "same": "026119"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.6,
+   "sun_hours_jun": 5.4
+  },
+  "Muskegon County": {
+   "fips": "26121",
+   "centroid": [
+    43.4287,
+    -86.4209
+   ],
+   "latitude": 43.4,
+   "bbox": [
+    -86.4616,
+    43.1173,
+    -85.7905,
+    43.4729
+   ],
+   "coastal": false,
+   "elevation_ft": 650,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 79,
+   "record_low_f": -27,
+   "record_high_f": 98,
+   "precip_in": 35.2,
+   "snow_in": 69,
+   "last_frost": "May 19",
+   "first_frost": "Oct 4",
+   "growing_days": 136,
+   "ecoregion": "Southern Michigan/Northern Indiana Drift Plains",
+   "ecoregion_code": "56",
+   "nws_office": "Grand Rapids, MI",
+   "nws_cwa": "GRR",
+   "nwr": [
+    {
+     "call": "WWF36",
+     "freq": "162.475",
+     "same": "026121"
+    },
+    {
+     "call": "WXN99",
+     "freq": "162.425",
+     "same": "026121"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.7
+  },
+  "Newaygo County": {
+   "fips": "26123",
+   "centroid": [
+    43.5627,
+    -85.7914
+   ],
+   "latitude": 43.6,
+   "bbox": [
+    -86.0397,
+    43.2929,
+    -85.5621,
+    43.8157
+   ],
+   "coastal": false,
+   "elevation_ft": 880,
+   "zone": "5b",
+   "jan_low_f": 16,
+   "jul_high_f": 80,
+   "record_low_f": -35,
+   "record_high_f": 101,
+   "precip_in": 37.5,
+   "snow_in": 64,
+   "last_frost": "May 8",
+   "first_frost": "Oct 11",
+   "growing_days": 155,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Grand Rapids, MI",
+   "nws_cwa": "GRR",
+   "nwr": [
+    {
+     "call": "WWF36",
+     "freq": "162.475",
+     "same": "026123"
+    },
+    {
+     "call": "WNG672",
+     "freq": "162.425",
+     "same": "026123"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.4
+  },
+  "Oakland County": {
+   "fips": "26125",
+   "centroid": [
+    42.6605,
+    -83.3842
+   ],
+   "latitude": 42.7,
+   "bbox": [
+    -83.6895,
+    42.4318,
+    -83.0831,
+    42.8884
+   ],
+   "coastal": false,
+   "elevation_ft": 970,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 82,
+   "record_low_f": -22,
+   "record_high_f": 104,
+   "precip_in": 29.2,
+   "snow_in": 62,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 20",
+   "growing_days": 172,
+   "ecoregion": "Southern Michigan/Northern Indiana Drift Plains",
+   "ecoregion_code": "56",
+   "nws_office": "Detroit/Pontiac, MI",
+   "nws_cwa": "DTX",
+   "nwr": [
+    {
+     "call": "KEC63",
+     "freq": "162.550",
+     "same": "026125"
+    },
+    {
+     "call": "KIH29",
+     "freq": "162.475",
+     "same": "026125"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.0,
+   "sun_hours_jun": 5.3
+  },
+  "Oceana County": {
+   "fips": "26127",
+   "centroid": [
+    43.604,
+    -86.4672
+   ],
+   "latitude": 43.6,
+   "bbox": [
+    -86.541,
+    43.4673,
+    -86.0384,
+    43.8196
+   ],
+   "coastal": false,
+   "elevation_ft": 720,
+   "zone": "6b",
+   "jan_low_f": 16,
+   "jul_high_f": 80,
+   "record_low_f": -35,
+   "record_high_f": 104,
+   "precip_in": 38.9,
+   "snow_in": 78,
+   "last_frost": "May 12",
+   "first_frost": "Oct 10",
+   "growing_days": 151,
+   "ecoregion": "Southern Michigan/Northern Indiana Drift Plains",
+   "ecoregion_code": "56",
+   "nws_office": "Grand Rapids, MI",
+   "nws_cwa": "GRR",
+   "nwr": [
+    {
+     "call": "WWF36",
+     "freq": "162.475",
+     "same": "026127"
+    },
+    {
+     "call": "WNG672",
+     "freq": "162.425",
+     "same": "026127"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.7
+  },
+  "Ogemaw County": {
+   "fips": "26129",
+   "centroid": [
+    44.3333,
+    -84.1281
+   ],
+   "latitude": 44.3,
+   "bbox": [
+    -84.3707,
+    44.1607,
+    -83.8834,
+    44.5089
+   ],
+   "coastal": false,
+   "elevation_ft": 930,
+   "zone": "5a",
+   "jan_low_f": 10,
+   "jul_high_f": 80,
+   "record_low_f": -36,
+   "record_high_f": 107,
+   "precip_in": 33.6,
+   "snow_in": 53,
+   "last_frost": "May 15",
+   "first_frost": "Oct 4",
+   "growing_days": 143,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Gaylord, MI",
+   "nws_cwa": "APX",
+   "nwr": [
+    {
+     "call": "KXI33",
+     "freq": "162.450",
+     "same": "026129"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.4
+  },
+  "Ontonagon County": {
+   "fips": "26131",
+   "centroid": [
+    46.8352,
+    -89.2769
+   ],
+   "latitude": 46.8,
+   "bbox": [
+    -89.8886,
+    46.3326,
+    -88.8637,
+    47.0314
+   ],
+   "coastal": false,
+   "elevation_ft": 780,
+   "zone": "5a",
+   "jan_low_f": 9,
+   "jul_high_f": 79,
+   "record_low_f": -42,
+   "record_high_f": 101,
+   "precip_in": 32.9,
+   "snow_in": 178,
+   "last_frost": "May 27",
+   "first_frost": "Oct 1",
+   "growing_days": 127,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Marquette, MI",
+   "nws_cwa": "MQT",
+   "nwr": [
+    {
+     "call": "WXK73",
+     "freq": "162.400",
+     "same": "026131"
+    },
+    {
+     "call": "WNG683",
+     "freq": "162.550",
+     "same": "026131"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.2
+  },
+  "Osceola County": {
+   "fips": "26133",
+   "centroid": [
+    43.9976,
+    -85.3223
+   ],
+   "latitude": 44.0,
+   "bbox": [
+    -85.5647,
+    43.8134,
+    -85.0862,
+    44.1651
+   ],
+   "coastal": false,
+   "elevation_ft": 1450,
+   "zone": "5a",
+   "jan_low_f": 11,
+   "jul_high_f": 79,
+   "record_low_f": -43,
+   "record_high_f": 104,
+   "precip_in": 37.3,
+   "snow_in": 74,
+   "last_frost": "May 15",
+   "first_frost": "Oct 1",
+   "growing_days": 139,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Grand Rapids, MI",
+   "nws_cwa": "GRR",
+   "nwr": [
+    {
+     "call": "KZZ33",
+     "freq": "162.525",
+     "same": "026133"
+    },
+    {
+     "call": "WNG672",
+     "freq": "162.425",
+     "same": "026133"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.4
+  },
+  "Oscoda County": {
+   "fips": "26135",
+   "centroid": [
+    44.6873,
+    -84.1269
+   ],
+   "latitude": 44.7,
+   "bbox": [
+    -84.3721,
+    44.5069,
+    -83.8867,
+    44.8567
+   ],
+   "coastal": false,
+   "elevation_ft": 1030,
+   "zone": "5a",
+   "jan_low_f": 11,
+   "jul_high_f": 81,
+   "record_low_f": -47,
+   "record_high_f": 112,
+   "precip_in": 32.0,
+   "snow_in": 57,
+   "last_frost": "May 20",
+   "first_frost": "Oct 1",
+   "growing_days": 133,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Gaylord, MI",
+   "nws_cwa": "APX",
+   "nwr": [
+    {
+     "call": "KIG83",
+     "freq": "162.550",
+     "same": "026135"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.4
+  },
+  "Otsego County": {
+   "fips": "26137",
+   "centroid": [
+    45.0218,
+    -84.5766
+   ],
+   "latitude": 45.0,
+   "bbox": [
+    -84.858,
+    44.8548,
+    -84.3665,
+    45.202
+   ],
+   "coastal": false,
+   "elevation_ft": 1260,
+   "zone": "5a",
+   "jan_low_f": 11,
+   "jul_high_f": 78,
+   "record_low_f": -37,
+   "record_high_f": 101,
+   "precip_in": 29.5,
+   "snow_in": 140,
+   "last_frost": "May 22",
+   "first_frost": "Sep 30",
+   "growing_days": 130,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Gaylord, MI",
+   "nws_cwa": "APX",
+   "nwr": [
+    {
+     "call": "WWF70",
+     "freq": "162.500",
+     "same": "026137"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.6,
+   "sun_hours_jun": 5.4
+  },
+  "Ottawa County": {
+   "fips": "26139",
+   "centroid": [
+    43.055,
+    -86.2193
+   ],
+   "latitude": 43.1,
+   "bbox": [
+    -86.271,
+    42.7672,
+    -85.7819,
+    43.2061
+   ],
+   "coastal": false,
+   "elevation_ft": 600,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 80,
+   "record_low_f": -30,
+   "record_high_f": 99,
+   "precip_in": 37.6,
+   "snow_in": 87,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 24",
+   "growing_days": 175,
+   "ecoregion": "Southern Michigan/Northern Indiana Drift Plains",
+   "ecoregion_code": "56",
+   "nws_office": "Grand Rapids, MI",
+   "nws_cwa": "GRR",
+   "nwr": [
+    {
+     "call": "WZ2560",
+     "freq": "162.550",
+     "same": "026139"
+    },
+    {
+     "call": "WXN99",
+     "freq": "162.425",
+     "same": "026139"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.7
+  },
+  "Presque Isle County": {
+   "fips": "26141",
+   "centroid": [
+    45.2524,
+    -83.4323
+   ],
+   "latitude": 45.3,
+   "bbox": [
+    -84.252,
+    45.1983,
+    -83.3817,
+    45.6266
+   ],
+   "coastal": false,
+   "elevation_ft": 600,
+   "zone": "6a",
+   "jan_low_f": 11,
+   "jul_high_f": 79,
+   "record_low_f": -28,
+   "record_high_f": 104,
+   "precip_in": 31.9,
+   "snow_in": 59,
+   "last_frost": "May 13",
+   "first_frost": "Oct 3",
+   "growing_days": 141,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Gaylord, MI",
+   "nws_cwa": "APX",
+   "nwr": [
+    {
+     "call": "KIG83",
+     "freq": "162.550",
+     "same": "026141"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.3
+  },
+  "Roscommon County": {
+   "fips": "26143",
+   "centroid": [
+    44.3395,
+    -84.6113
+   ],
+   "latitude": 44.3,
+   "bbox": [
+    -84.856,
+    44.1599,
+    -84.3662,
+    44.5115
+   ],
+   "coastal": false,
+   "elevation_ft": 1160,
+   "zone": "5a",
+   "jan_low_f": 11,
+   "jul_high_f": 80,
+   "record_low_f": -34,
+   "record_high_f": 103,
+   "precip_in": 29.6,
+   "snow_in": 66,
+   "last_frost": "May 19",
+   "first_frost": "Sep 23",
+   "growing_days": 125,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Gaylord, MI",
+   "nws_cwa": "APX",
+   "nwr": [
+    {
+     "call": "KXI33",
+     "freq": "162.450",
+     "same": "026143"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.4
+  },
+  "Saginaw County": {
+   "fips": "26145",
+   "centroid": [
+    43.3283,
+    -84.0554
+   ],
+   "latitude": 43.3,
+   "bbox": [
+    -84.3701,
+    43.1283,
+    -83.6953,
+    43.5688
+   ],
+   "coastal": false,
+   "elevation_ft": 580,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 83,
+   "record_low_f": -23,
+   "record_high_f": 111,
+   "precip_in": 34.0,
+   "snow_in": 41,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 21",
+   "growing_days": 175,
+   "ecoregion": "Huron/Erie Lake Plains",
+   "ecoregion_code": "57",
+   "nws_office": "Detroit/Pontiac, MI",
+   "nws_cwa": "DTX",
+   "nwr": [
+    {
+     "call": "KIH29",
+     "freq": "162.475",
+     "same": "026145"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 5.4
+  },
+  "St. Clair County": {
+   "fips": "26147",
+   "centroid": [
+    42.9288,
+    -82.6689
+   ],
+   "latitude": 42.9,
+   "bbox": [
+    -82.9964,
+    42.5186,
+    -82.4186,
+    43.1691
+   ],
+   "coastal": false,
+   "elevation_ft": 690,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 83,
+   "record_low_f": -19,
+   "record_high_f": 103,
+   "precip_in": 35.9,
+   "snow_in": 47,
+   "last_frost": "May 1",
+   "first_frost": "Oct 20",
+   "growing_days": 170,
+   "ecoregion": "Huron/Erie Lake Plains",
+   "ecoregion_code": "57",
+   "nws_office": "Detroit/Pontiac, MI",
+   "nws_cwa": "DTX",
+   "nwr": [
+    {
+     "call": "KEC63",
+     "freq": "162.550",
+     "same": "026147"
+    },
+    {
+     "call": "WNG582",
+     "freq": "162.450",
+     "same": "026147"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.0,
+   "sun_hours_jun": 5.4
+  },
+  "St. Joseph County": {
+   "fips": "26149",
+   "centroid": [
+    41.9115,
+    -85.5229
+   ],
+   "latitude": 41.9,
+   "bbox": [
+    -85.7899,
+    41.759,
+    -85.2919,
+    42.0715
+   ],
+   "coastal": false,
+   "elevation_ft": 880,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 82,
+   "record_low_f": -23,
+   "record_high_f": 107,
+   "precip_in": 39.7,
+   "snow_in": 41,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 17",
+   "growing_days": 170,
+   "ecoregion": "Southern Michigan/Northern Indiana Drift Plains",
+   "ecoregion_code": "56",
+   "nws_office": "Northern Indiana, IN",
+   "nws_cwa": "IWX",
+   "nwr": [
+    {
+     "call": "KXI94",
+     "freq": "162.425",
+     "same": "026149"
+    },
+    {
+     "call": "WWF34",
+     "freq": "162.475",
+     "same": "026149"
+    },
+    {
+     "call": "WXJ57",
+     "freq": "162.400",
+     "same": "026149"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.3
+  },
+  "Sanilac County": {
+   "fips": "26151",
+   "centroid": [
+    43.4492,
+    -82.6428
+   ],
+   "latitude": 43.4,
+   "bbox": [
+    -83.1204,
+    43.1541,
+    -82.5034,
+    43.6908
+   ],
+   "coastal": false,
+   "elevation_ft": 780,
+   "zone": "6a",
+   "jan_low_f": 15,
+   "jul_high_f": 80,
+   "record_low_f": -28,
+   "record_high_f": 103,
+   "precip_in": 35.4,
+   "snow_in": 41,
+   "last_frost": "May 2",
+   "first_frost": "Oct 16",
+   "growing_days": 165,
+   "ecoregion": "Huron/Erie Lake Plains",
+   "ecoregion_code": "57",
+   "nws_office": "Detroit/Pontiac, MI",
+   "nws_cwa": "DTX",
+   "nwr": [
+    {
+     "call": "WNG701",
+     "freq": "162.525",
+     "same": "026151"
+    },
+    {
+     "call": "WNG582",
+     "freq": "162.450",
+     "same": "026151"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.1
+  },
+  "Schoolcraft County": {
+   "fips": "26153",
+   "centroid": [
+    46.0211,
+    -86.197
+   ],
+   "latitude": 46.0,
+   "bbox": [
+    -86.616,
+    45.7569,
+    -85.8642,
+    46.5058
+   ],
+   "coastal": false,
+   "elevation_ft": 620,
+   "zone": "5b",
+   "jan_low_f": 10,
+   "jul_high_f": 73,
+   "record_low_f": -33,
+   "record_high_f": 101,
+   "precip_in": 33.3,
+   "snow_in": 161,
+   "last_frost": "May 9",
+   "first_frost": "Oct 10",
+   "growing_days": 154,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Marquette, MI",
+   "nws_cwa": "MQT",
+   "nwr": [
+    {
+     "call": "WNG684",
+     "freq": "162.525",
+     "same": "026153"
+    },
+    {
+     "call": "KIG66",
+     "freq": "162.550",
+     "same": "026153"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.2
+  },
+  "Shiawassee County": {
+   "fips": "26155",
+   "centroid": [
+    42.9515,
+    -84.1464
+   ],
+   "latitude": 43.0,
+   "bbox": [
+    -84.3679,
+    42.7758,
+    -83.9227,
+    43.1327
+   ],
+   "coastal": false,
+   "elevation_ft": 770,
+   "zone": "6a",
+   "jan_low_f": 15,
+   "jul_high_f": 83,
+   "record_low_f": -26,
+   "record_high_f": 105,
+   "precip_in": 33.6,
+   "snow_in": 38,
+   "last_frost": "May 5",
+   "first_frost": "Oct 14",
+   "growing_days": 160,
+   "ecoregion": "Southern Michigan/Northern Indiana Drift Plains",
+   "ecoregion_code": "56",
+   "nws_office": "Detroit/Pontiac, MI",
+   "nws_cwa": "DTX",
+   "nwr": [
+    {
+     "call": "KIH29",
+     "freq": "162.475",
+     "same": "026155"
+    },
+    {
+     "call": "WXK81",
+     "freq": "162.400",
+     "same": "026155"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 5.4
+  },
+  "Tuscola County": {
+   "fips": "26157",
+   "centroid": [
+    43.4879,
+    -83.4366
+   ],
+   "latitude": 43.5,
+   "bbox": [
+    -83.6999,
+    43.2214,
+    -83.1038,
+    43.729
+   ],
+   "coastal": false,
+   "elevation_ft": 770,
+   "zone": "6a",
+   "jan_low_f": 15,
+   "jul_high_f": 82,
+   "record_low_f": -30,
+   "record_high_f": 108,
+   "precip_in": 34.3,
+   "snow_in": 42,
+   "last_frost": "May 7",
+   "first_frost": "Oct 9",
+   "growing_days": 154,
+   "ecoregion": "Huron/Erie Lake Plains",
+   "ecoregion_code": "57",
+   "nws_office": "Detroit/Pontiac, MI",
+   "nws_cwa": "DTX",
+   "nwr": [
+    {
+     "call": "WNG701",
+     "freq": "162.525",
+     "same": "026157"
+    },
+    {
+     "call": "KIH29",
+     "freq": "162.475",
+     "same": "026157"
+    },
+    {
+     "call": "WNG582",
+     "freq": "162.450",
+     "same": "026157"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 5.4
+  },
+  "Van Buren County": {
+   "fips": "26159",
+   "centroid": [
+    42.2822,
+    -86.3061
+   ],
+   "latitude": 42.3,
+   "bbox": [
+    -86.3647,
+    42.069,
+    -85.7627,
+    42.4207
+   ],
+   "coastal": false,
+   "elevation_ft": 620,
+   "zone": "6b",
+   "jan_low_f": 22,
+   "jul_high_f": 80,
+   "record_low_f": -22,
+   "record_high_f": 100,
+   "precip_in": 37.2,
+   "snow_in": 78,
+   "last_frost": "Apr 17",
+   "first_frost": "Nov 5",
+   "growing_days": 201,
+   "ecoregion": "Southern Michigan/Northern Indiana Drift Plains",
+   "ecoregion_code": "56",
+   "nws_office": "Grand Rapids, MI",
+   "nws_cwa": "GRR",
+   "nwr": [
+    {
+     "call": "WWF34",
+     "freq": "162.475",
+     "same": "026159"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.7
+  },
+  "Washtenaw County": {
+   "fips": "26161",
+   "centroid": [
+    42.2522,
+    -83.8434
+   ],
+   "latitude": 42.3,
+   "bbox": [
+    -84.1338,
+    42.0721,
+    -83.5394,
+    42.4347
+   ],
+   "coastal": false,
+   "elevation_ft": 960,
+   "zone": "6a",
+   "jan_low_f": 15,
+   "jul_high_f": 84,
+   "record_low_f": -30,
+   "record_high_f": 102,
+   "precip_in": 29.8,
+   "snow_in": 59,
+   "last_frost": "May 8",
+   "first_frost": "Oct 4",
+   "growing_days": 147,
+   "ecoregion": "Eastern Corn Belt Plains",
+   "ecoregion_code": "55",
+   "nws_office": "Detroit/Pontiac, MI",
+   "nws_cwa": "DTX",
+   "nwr": [
+    {
+     "call": "WNG647",
+     "freq": "162.450",
+     "same": "026161"
+    },
+    {
+     "call": "KEC63",
+     "freq": "162.550",
+     "same": "026161"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.0,
+   "sun_hours_jun": 5.3
+  },
+  "Wayne County": {
+   "fips": "26163",
+   "centroid": [
+    42.2847,
+    -83.262
+   ],
+   "latitude": 42.3,
+   "bbox": [
+    -83.5517,
+    42.0313,
+    -82.8702,
+    42.4511
+   ],
+   "coastal": false,
+   "elevation_ft": 620,
+   "zone": "6b",
+   "jan_low_f": 18,
+   "jul_high_f": 84,
+   "record_low_f": -20,
+   "record_high_f": 104,
+   "precip_in": 35.0,
+   "snow_in": 31,
+   "last_frost": "May 1",
+   "first_frost": "Oct 15",
+   "growing_days": 166,
+   "ecoregion": "Huron/Erie Lake Plains",
+   "ecoregion_code": "57",
+   "nws_office": "Detroit/Pontiac, MI",
+   "nws_cwa": "DTX",
+   "nwr": [
+    {
+     "call": "KEC63",
+     "freq": "162.550",
+     "same": "026163"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.0,
+   "sun_hours_jun": 5.3
+  },
+  "Wexford County": {
+   "fips": "26165",
+   "centroid": [
+    44.3314,
+    -85.57
+   ],
+   "latitude": 44.3,
+   "bbox": [
+    -85.822,
+    44.1643,
+    -85.3341,
+    44.513
+   ],
+   "coastal": false,
+   "elevation_ft": 1430,
+   "zone": "5a",
+   "jan_low_f": 12,
+   "jul_high_f": 80,
+   "record_low_f": -43,
+   "record_high_f": 104,
+   "precip_in": 35.2,
+   "snow_in": 74,
+   "last_frost": "May 19",
+   "first_frost": "Oct 1",
+   "growing_days": 135,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Gaylord, MI",
+   "nws_cwa": "APX",
+   "nwr": [
+    {
+     "call": "KIH22",
+     "freq": "162.400",
+     "same": "026165"
+    },
+    {
+     "call": "WNG672",
+     "freq": "162.425",
+     "same": "026165"
+    }
+   ],
+   "state_em": "Michigan State Police, Emergency Management and Homeland Security Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.5,
+   "sun_hours_jun": 5.4
+  }
+ }
+}

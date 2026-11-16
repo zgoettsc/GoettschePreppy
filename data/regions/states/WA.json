@@ -1,0 +1,2328 @@
+{
+ "state": "WA",
+ "state_name": "Washington",
+ "state_fips": "53",
+ "state_em": "Washington Emergency Management Division",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "OTX": "NWS Spokane, WA",
+  "PDT": "NWS Pendleton, OR",
+  "PQR": "NWS Portland, OR",
+  "SEW": "NWS Seattle, WA"
+ },
+ "ecoregions": [
+  "Coast Range",
+  "Puget Lowland",
+  "Willamette Valley",
+  "Cascades",
+  "Eastern Cascades Slopes and Foothills",
+  "Columbia Plateau",
+  "Blue Mountains",
+  "Northern Rockies",
+  "North Cascades"
+ ],
+ "counties": {
+  "Adams County": {
+   "fips": "53001",
+   "centroid": [
+    47.0112,
+    -118.5129
+   ],
+   "latitude": 47.0,
+   "bbox": [
+    -119.3696,
+    46.7354,
+    -117.9589,
+    47.2616
+   ],
+   "coastal": false,
+   "elevation_ft": 1580,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 89,
+   "record_low_f": -26,
+   "record_high_f": 114,
+   "precip_in": 10.1,
+   "snow_in": 15,
+   "last_frost": "May 7",
+   "first_frost": "Oct 4",
+   "growing_days": 150,
+   "ecoregion": "Columbia Plateau",
+   "ecoregion_code": "10",
+   "nws_office": "Spokane, WA",
+   "nws_cwa": "OTX",
+   "nwr": [
+    {
+     "call": "WWF56",
+     "freq": "162.450",
+     "same": "053001"
+    }
+   ],
+   "state_em": "Washington Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 6.1
+  },
+  "Asotin County": {
+   "fips": "53003",
+   "centroid": [
+    46.1819,
+    -117.2278
+   ],
+   "latitude": 46.2,
+   "bbox": [
+    -117.4801,
+    45.9958,
+    -116.9178,
+    46.4624
+   ],
+   "coastal": false,
+   "elevation_ft": 3450,
+   "zone": "7a",
+   "jan_low_f": 18,
+   "jul_high_f": 88,
+   "record_low_f": -33,
+   "record_high_f": 108,
+   "precip_in": 15.2,
+   "snow_in": 10,
+   "last_frost": "Jun 8",
+   "first_frost": "Sep 5",
+   "growing_days": 84,
+   "ecoregion": "Columbia Plateau",
+   "ecoregion_code": "10",
+   "nws_office": "Spokane, WA",
+   "nws_cwa": "OTX",
+   "nwr": [
+    {
+     "call": "WXK98",
+     "freq": "162.550",
+     "same": "053003"
+    }
+   ],
+   "state_em": "Washington Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 5.9
+  },
+  "Benton County": {
+   "fips": "53005",
+   "centroid": [
+    46.2281,
+    -119.5167
+   ],
+   "latitude": 46.2,
+   "bbox": [
+    -119.8765,
+    45.8359,
+    -118.9415,
+    46.7271
+   ],
+   "coastal": false,
+   "elevation_ft": 1470,
+   "zone": "7b",
+   "jan_low_f": 27,
+   "jul_high_f": 90,
+   "record_low_f": -20,
+   "record_high_f": 114,
+   "precip_in": 8.7,
+   "snow_in": 10,
+   "last_frost": "Apr 14",
+   "first_frost": "Oct 22",
+   "growing_days": 189,
+   "ecoregion": "Columbia Plateau",
+   "ecoregion_code": "10",
+   "nws_office": "Pendleton, OR",
+   "nws_cwa": "PDT",
+   "nwr": [
+    {
+     "call": "WWF56",
+     "freq": "162.450",
+     "same": "053005"
+    }
+   ],
+   "state_em": "Washington Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 6.3
+  },
+  "Chelan County": {
+   "fips": "53007",
+   "centroid": [
+    47.861,
+    -120.619
+   ],
+   "latitude": 47.9,
+   "bbox": [
+    -121.1801,
+    47.261,
+    -119.8602,
+    48.55
+   ],
+   "coastal": false,
+   "elevation_ft": 4210,
+   "zone": "7a",
+   "jan_low_f": 17,
+   "jul_high_f": 76,
+   "record_low_f": -32,
+   "record_high_f": 101,
+   "precip_in": 34.6,
+   "snow_in": 274,
+   "last_frost": "May 25",
+   "first_frost": "Sep 19",
+   "growing_days": 114,
+   "ecoregion": "North Cascades",
+   "ecoregion_code": "77",
+   "nws_office": "Spokane, WA",
+   "nws_cwa": "OTX",
+   "nwr": [
+    {
+     "call": "WWF49",
+     "freq": "162.525",
+     "same": "053007"
+    },
+    {
+     "call": "WXM48",
+     "freq": "162.475",
+     "same": "053007"
+    }
+   ],
+   "state_em": "Washington Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 3,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.6
+  },
+  "Clallam County": {
+   "fips": "53009",
+   "centroid": [
+    48.1109,
+    -123.8899
+   ],
+   "latitude": 48.1,
+   "bbox": [
+    -124.7626,
+    47.8667,
+    -122.9149,
+    48.395
+   ],
+   "coastal": true,
+   "elevation_ft": 1880,
+   "zone": "8b",
+   "jan_low_f": 33,
+   "jul_high_f": 74,
+   "record_low_f": 2,
+   "record_high_f": 97,
+   "precip_in": 57.9,
+   "snow_in": 2,
+   "last_frost": "Apr 9",
+   "first_frost": "Nov 3",
+   "growing_days": 209,
+   "ecoregion": "Coast Range",
+   "ecoregion_code": "1",
+   "nws_office": "Seattle, WA",
+   "nws_cwa": "SEW",
+   "nwr": [
+    {
+     "call": "KXI27",
+     "freq": "162.425",
+     "same": "053009"
+    },
+    {
+     "call": "KIH36",
+     "freq": "162.550",
+     "same": "053009"
+    },
+    {
+     "call": "WWG24",
+     "freq": "162.425",
+     "same": "053009"
+    }
+   ],
+   "state_em": "Washington Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 2,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.6,
+   "sun_hours_jun": 5.2
+  },
+  "Clark County": {
+   "fips": "53011",
+   "centroid": [
+    45.7717,
+    -122.486
+   ],
+   "latitude": 45.8,
+   "bbox": [
+    -122.796,
+    45.5435,
+    -122.2447,
+    46.0595
+   ],
+   "coastal": true,
+   "elevation_ft": 500,
+   "zone": "8b",
+   "jan_low_f": 32,
+   "jul_high_f": 79,
+   "record_low_f": -11,
+   "record_high_f": 112,
+   "precip_in": 52.4,
+   "snow_in": 1,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 16",
+   "growing_days": 174,
+   "ecoregion": "Willamette Valley",
+   "ecoregion_code": "3",
+   "nws_office": "Portland, OR",
+   "nws_cwa": "PQR",
+   "nwr": [
+    {
+     "call": "WNG604",
+     "freq": "162.525",
+     "same": "053011"
+    },
+    {
+     "call": "KIG98",
+     "freq": "162.550",
+     "same": "053011"
+    }
+   ],
+   "state_em": "Washington Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.2
+  },
+  "Columbia County": {
+   "fips": "53013",
+   "centroid": [
+    46.2929,
+    -117.9116
+   ],
+   "latitude": 46.3,
+   "bbox": [
+    -118.2425,
+    45.9989,
+    -117.6032,
+    46.6247
+   ],
+   "coastal": false,
+   "elevation_ft": 2530,
+   "zone": "7a",
+   "jan_low_f": 26,
+   "jul_high_f": 88,
+   "record_low_f": -25,
+   "record_high_f": 114,
+   "precip_in": 18.8,
+   "snow_in": 16,
+   "last_frost": "Apr 28",
+   "first_frost": "Oct 13",
+   "growing_days": 168,
+   "ecoregion": "Columbia Plateau",
+   "ecoregion_code": "10",
+   "nws_office": "Pendleton, OR",
+   "nws_cwa": "PDT",
+   "nwr": [
+    {
+     "call": "KZZ73",
+     "freq": "162.525",
+     "same": "053013"
+    }
+   ],
+   "state_em": "Washington Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 5.9
+  },
+  "Cowlitz County": {
+   "fips": "53015",
+   "centroid": [
+    46.1968,
+    -122.6785
+   ],
+   "latitude": 46.2,
+   "bbox": [
+    -123.2179,
+    45.8505,
+    -122.24,
+    46.388
+   ],
+   "coastal": true,
+   "elevation_ft": 1190,
+   "zone": "8b",
+   "jan_low_f": 35,
+   "jul_high_f": 79,
+   "record_low_f": -6,
+   "record_high_f": 108,
+   "precip_in": 48.1,
+   "snow_in": 16,
+   "last_frost": "Apr 8",
+   "first_frost": "Nov 5",
+   "growing_days": 210,
+   "ecoregion": "Cascades",
+   "ecoregion_code": "4",
+   "nws_office": "Portland, OR",
+   "nws_cwa": "PQR",
+   "nwr": [
+    {
+     "call": "WNG604",
+     "freq": "162.525",
+     "same": "053015"
+    },
+    {
+     "call": "KIG98",
+     "freq": "162.550",
+     "same": "053015"
+    }
+   ],
+   "state_em": "Washington Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 3,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.0
+  },
+  "Douglas County": {
+   "fips": "53017",
+   "centroid": [
+    47.7418,
+    -119.6946
+   ],
+   "latitude": 47.7,
+   "bbox": [
+    -120.3179,
+    47.2202,
+    -118.9509,
+    48.151
+   ],
+   "coastal": false,
+   "elevation_ft": 2320,
+   "zone": "6b",
+   "jan_low_f": 17,
+   "jul_high_f": 84,
+   "record_low_f": -33,
+   "record_high_f": 105,
+   "precip_in": 11.2,
+   "snow_in": 20,
+   "last_frost": "May 14",
+   "first_frost": "Oct 1",
+   "growing_days": 140,
+   "ecoregion": "Columbia Plateau",
+   "ecoregion_code": "10",
+   "nws_office": "Spokane, WA",
+   "nws_cwa": "OTX",
+   "nwr": [
+    {
+     "call": "WWF49",
+     "freq": "162.525",
+     "same": "053017"
+    },
+    {
+     "call": "WXM48",
+     "freq": "162.475",
+     "same": "053017"
+    }
+   ],
+   "state_em": "Washington Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 6.1
+  },
+  "Ferry County": {
+   "fips": "53019",
+   "centroid": [
+    48.4733,
+    -118.5336
+   ],
+   "latitude": 48.5,
+   "bbox": [
+    -118.8699,
+    47.8304,
+    -118.1046,
+    49.0001
+   ],
+   "coastal": false,
+   "elevation_ft": 4590,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 84,
+   "record_low_f": -38,
+   "record_high_f": 109,
+   "precip_in": 22.9,
+   "snow_in": 52,
+   "last_frost": "May 30",
+   "first_frost": "Sep 10",
+   "growing_days": 102,
+   "ecoregion": "Northern Rockies",
+   "ecoregion_code": "15",
+   "nws_office": "Spokane, WA",
+   "nws_cwa": "OTX",
+   "nwr": [
+    {
+     "call": "WWF49",
+     "freq": "162.525",
+     "same": "053019"
+    }
+   ],
+   "state_em": "Washington Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.6
+  },
+  "Franklin County": {
+   "fips": "53021",
+   "centroid": [
+    46.5375,
+    -118.9039
+   ],
+   "latitude": 46.5,
+   "bbox": [
+    -119.4575,
+    46.1928,
+    -118.1983,
+    46.7391
+   ],
+   "coastal": false,
+   "elevation_ft": 1120,
+   "zone": "7a",
+   "jan_low_f": 27,
+   "jul_high_f": 90,
+   "record_low_f": -19,
+   "record_high_f": 116,
+   "precip_in": 8.8,
+   "snow_in": 14,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 12",
+   "growing_days": 165,
+   "ecoregion": "Columbia Plateau",
+   "ecoregion_code": "10",
+   "nws_office": "Pendleton, OR",
+   "nws_cwa": "PDT",
+   "nwr": [
+    {
+     "call": "WWF56",
+     "freq": "162.450",
+     "same": "053021"
+    }
+   ],
+   "state_em": "Washington Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 6.3
+  },
+  "Garfield County": {
+   "fips": "53023",
+   "centroid": [
+    46.4293,
+    -117.5367
+   ],
+   "latitude": 46.4,
+   "bbox": [
+    -117.8633,
+    45.9979,
+    -117.2288,
+    46.7037
+   ],
+   "coastal": false,
+   "elevation_ft": 2850,
+   "zone": "7a",
+   "jan_low_f": 27,
+   "jul_high_f": 85,
+   "record_low_f": -27,
+   "record_high_f": 112,
+   "precip_in": 17.6,
+   "snow_in": 8,
+   "last_frost": "May 2",
+   "first_frost": "Oct 4",
+   "growing_days": 155,
+   "ecoregion": "Columbia Plateau",
+   "ecoregion_code": "10",
+   "nws_office": "Spokane, WA",
+   "nws_cwa": "OTX",
+   "nwr": [
+    {
+     "call": "KZZ73",
+     "freq": "162.525",
+     "same": "053023"
+    },
+    {
+     "call": "WXK98",
+     "freq": "162.550",
+     "same": "053023"
+    }
+   ],
+   "state_em": "Washington Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 5.9
+  },
+  "Grant County": {
+   "fips": "53025",
+   "centroid": [
+    47.2136,
+    -119.4678
+   ],
+   "latitude": 47.2,
+   "bbox": [
+    -120.0427,
+    46.6252,
+    -118.973,
+    47.9622
+   ],
+   "coastal": false,
+   "elevation_ft": 1170,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 90,
+   "record_low_f": -22,
+   "record_high_f": 114,
+   "precip_in": 7.8,
+   "snow_in": 14,
+   "last_frost": "Apr 27",
+   "first_frost": "Oct 8",
+   "growing_days": 165,
+   "ecoregion": "Columbia Plateau",
+   "ecoregion_code": "10",
+   "nws_office": "Spokane, WA",
+   "nws_cwa": "OTX",
+   "nwr": [
+    {
+     "call": "WWF49",
+     "freq": "162.525",
+     "same": "053025"
+    },
+    {
+     "call": "WWF56",
+     "freq": "162.450",
+     "same": "053025"
+    },
+    {
+     "call": "WXM48",
+     "freq": "162.475",
+     "same": "053025"
+    }
+   ],
+   "state_em": "Washington Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 6.1
+  },
+  "Grays Harbor County": {
+   "fips": "53027",
+   "centroid": [
+    47.1137,
+    -123.8267
+   ],
+   "latitude": 47.1,
+   "bbox": [
+    -124.3635,
+    46.7912,
+    -123.1585,
+    47.5339
+   ],
+   "coastal": true,
+   "elevation_ft": 280,
+   "zone": "8b",
+   "jan_low_f": 35,
+   "jul_high_f": 69,
+   "record_low_f": 4,
+   "record_high_f": 101,
+   "precip_in": 115.6,
+   "snow_in": 1,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 22",
+   "growing_days": 180,
+   "ecoregion": "Coast Range",
+   "ecoregion_code": "1",
+   "nws_office": "Seattle, WA",
+   "nws_cwa": "SEW",
+   "nwr": [
+    {
+     "call": "KEC91",
+     "freq": "162.400",
+     "same": "053027"
+    },
+    {
+     "call": "WXM62",
+     "freq": "162.475",
+     "same": "053027"
+    },
+    {
+     "call": "KXI27",
+     "freq": "162.425",
+     "same": "053027"
+    }
+   ],
+   "state_em": "Washington Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 3,
+    "landslide": 2
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.0
+  },
+  "Island County": {
+   "fips": "53029",
+   "centroid": [
+    48.1586,
+    -122.6706
+   ],
+   "latitude": 48.2,
+   "bbox": [
+    -122.7701,
+    47.9041,
+    -122.3495,
+    48.4115
+   ],
+   "coastal": true,
+   "elevation_ft": 10,
+   "zone": "8b",
+   "jan_low_f": 37,
+   "jul_high_f": 70,
+   "record_low_f": 3,
+   "record_high_f": 98,
+   "precip_in": 21.7,
+   "snow_in": 2,
+   "last_frost": "Mar 17",
+   "first_frost": "Nov 11",
+   "growing_days": 237,
+   "ecoregion": "Puget Lowland",
+   "ecoregion_code": "2",
+   "nws_office": "Seattle, WA",
+   "nws_cwa": "SEW",
+   "nwr": [
+    {
+     "call": "WWG24",
+     "freq": "162.425",
+     "same": "053029"
+    }
+   ],
+   "state_em": "Washington Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 1.6,
+   "sun_hours_jun": 5.2
+  },
+  "Jefferson County": {
+   "fips": "53031",
+   "centroid": [
+    47.8057,
+    -123.5271
+   ],
+   "latitude": 47.8,
+   "bbox": [
+    -124.6138,
+    47.5177,
+    -122.6103,
+    48.1444
+   ],
+   "coastal": true,
+   "elevation_ft": 4060,
+   "zone": "8a",
+   "jan_low_f": 33,
+   "jul_high_f": 74,
+   "record_low_f": 2,
+   "record_high_f": 97,
+   "precip_in": 47.0,
+   "snow_in": 2,
+   "last_frost": "Apr 9",
+   "first_frost": "Nov 3",
+   "growing_days": 209,
+   "ecoregion": "North Cascades",
+   "ecoregion_code": "77",
+   "nws_office": "Seattle, WA",
+   "nws_cwa": "SEW",
+   "nwr": [
+    {
+     "call": "KXI27",
+     "freq": "162.425",
+     "same": "053031"
+    },
+    {
+     "call": "KIH36",
+     "freq": "162.550",
+     "same": "053031"
+    },
+    {
+     "call": "WWG24",
+     "freq": "162.425",
+     "same": "053031"
+    }
+   ],
+   "state_em": "Washington Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.0
+  },
+  "King County": {
+   "fips": "53033",
+   "centroid": [
+    47.4906,
+    -121.834
+   ],
+   "latitude": 47.5,
+   "bbox": [
+    -122.5281,
+    47.0844,
+    -121.0659,
+    47.7806
+   ],
+   "coastal": true,
+   "elevation_ft": 2280,
+   "zone": "8b",
+   "jan_low_f": 32,
+   "jul_high_f": 70,
+   "record_low_f": -4,
+   "record_high_f": 101,
+   "precip_in": 99.8,
+   "snow_in": 42,
+   "last_frost": "Apr 23",
+   "first_frost": "Nov 1",
+   "growing_days": 193,
+   "ecoregion": "Cascades",
+   "ecoregion_code": "4",
+   "nws_office": "Seattle, WA",
+   "nws_cwa": "SEW",
+   "nwr": [
+    {
+     "call": "KHB60",
+     "freq": "162.550",
+     "same": "053033"
+    }
+   ],
+   "state_em": "Washington Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 3,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.6
+  },
+  "Kitsap County": {
+   "fips": "53035",
+   "centroid": [
+    47.6397,
+    -122.6496
+   ],
+   "latitude": 47.6,
+   "bbox": [
+    -123.0233,
+    47.4031,
+    -122.4703,
+    47.9408
+   ],
+   "coastal": true,
+   "elevation_ft": 260,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 76,
+   "record_low_f": 7,
+   "record_high_f": 102,
+   "precip_in": 56.9,
+   "snow_in": 3,
+   "last_frost": "Mar 29",
+   "first_frost": "Nov 14",
+   "growing_days": 227,
+   "ecoregion": "Puget Lowland",
+   "ecoregion_code": "2",
+   "nws_office": "Seattle, WA",
+   "nws_cwa": "SEW",
+   "nwr": [
+    {
+     "call": "WWG24",
+     "freq": "162.425",
+     "same": "053035"
+    },
+    {
+     "call": "KHB60",
+     "freq": "162.550",
+     "same": "053035"
+    }
+   ],
+   "state_em": "Washington Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.0
+  },
+  "Kittitas County": {
+   "fips": "53037",
+   "centroid": [
+    47.1244,
+    -120.6767
+   ],
+   "latitude": 47.1,
+   "bbox": [
+    -121.4657,
+    46.7354,
+    -119.9257,
+    47.5974
+   ],
+   "coastal": false,
+   "elevation_ft": 2150,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 86,
+   "record_low_f": -29,
+   "record_high_f": 114,
+   "precip_in": 9.2,
+   "snow_in": 80,
+   "last_frost": "Apr 28",
+   "first_frost": "Oct 7",
+   "growing_days": 163,
+   "ecoregion": "Columbia Plateau",
+   "ecoregion_code": "10",
+   "nws_office": "Pendleton, OR",
+   "nws_cwa": "PDT",
+   "nwr": [
+    {
+     "call": "WXN21",
+     "freq": "162.400",
+     "same": "053037"
+    },
+    {
+     "call": "WXM48",
+     "freq": "162.475",
+     "same": "053037"
+    },
+    {
+     "call": "KIG75",
+     "freq": "162.550",
+     "same": "053037"
+    }
+   ],
+   "state_em": "Washington Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 3,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.6
+  },
+  "Klickitat County": {
+   "fips": "53039",
+   "centroid": [
+    45.8704,
+    -120.7793
+   ],
+   "latitude": 45.9,
+   "bbox": [
+    -121.6128,
+    45.6061,
+    -119.8663,
+    46.0449
+   ],
+   "coastal": false,
+   "elevation_ft": 2040,
+   "zone": "7a",
+   "jan_low_f": 24,
+   "jul_high_f": 86,
+   "record_low_f": -26,
+   "record_high_f": 113,
+   "precip_in": 16.5,
+   "snow_in": 27,
+   "last_frost": "May 19",
+   "first_frost": "Sep 25",
+   "growing_days": 126,
+   "ecoregion": "Eastern Cascades Slopes and Foothills",
+   "ecoregion_code": "9",
+   "nws_office": "Pendleton, OR",
+   "nws_cwa": "PDT",
+   "nwr": [
+    {
+     "call": "WWF56",
+     "freq": "162.450",
+     "same": "053039"
+    },
+    {
+     "call": "WXM34",
+     "freq": "162.400",
+     "same": "053039"
+    }
+   ],
+   "state_em": "Washington Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 3,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.0,
+   "sun_hours_jun": 6.3
+  },
+  "Lewis County": {
+   "fips": "53041",
+   "centroid": [
+    46.5801,
+    -122.3774
+   ],
+   "latitude": 46.6,
+   "bbox": [
+    -123.3717,
+    46.3842,
+    -121.3528,
+    46.7944
+   ],
+   "coastal": false,
+   "elevation_ft": 760,
+   "zone": "8b",
+   "jan_low_f": 32,
+   "jul_high_f": 79,
+   "record_low_f": -11,
+   "record_high_f": 108,
+   "precip_in": 58.7,
+   "snow_in": 3,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 15",
+   "growing_days": 176,
+   "ecoregion": "Cascades",
+   "ecoregion_code": "4",
+   "nws_office": "Seattle, WA",
+   "nws_cwa": "SEW",
+   "nwr": [
+    {
+     "call": "WXM62",
+     "freq": "162.475",
+     "same": "053041"
+    },
+    {
+     "call": "WZ2502",
+     "freq": "162.425",
+     "same": "053041"
+    }
+   ],
+   "state_em": "Washington Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 2,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.0
+  },
+  "Lincoln County": {
+   "fips": "53043",
+   "centroid": [
+    47.5827,
+    -118.4177
+   ],
+   "latitude": 47.6,
+   "bbox": [
+    -118.9795,
+    47.2602,
+    -117.8196,
+    47.9577
+   ],
+   "coastal": false,
+   "elevation_ft": 2210,
+   "zone": "6b",
+   "jan_low_f": 23,
+   "jul_high_f": 85,
+   "record_low_f": -27,
+   "record_high_f": 106,
+   "precip_in": 12.6,
+   "snow_in": 24,
+   "last_frost": "May 31",
+   "first_frost": "Sep 12",
+   "growing_days": 101,
+   "ecoregion": "Columbia Plateau",
+   "ecoregion_code": "10",
+   "nws_office": "Spokane, WA",
+   "nws_cwa": "OTX",
+   "nwr": [
+    {
+     "call": "WWF49",
+     "freq": "162.525",
+     "same": "053043"
+    },
+    {
+     "call": "WXL86",
+     "freq": "162.400",
+     "same": "053043"
+    }
+   ],
+   "state_em": "Washington Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 6.1
+  },
+  "Mason County": {
+   "fips": "53045",
+   "centroid": [
+    47.3508,
+    -123.1731
+   ],
+   "latitude": 47.4,
+   "bbox": [
+    -123.5061,
+    47.0823,
+    -122.8005,
+    47.6075
+   ],
+   "coastal": true,
+   "elevation_ft": 390,
+   "zone": "8b",
+   "jan_low_f": 36,
+   "jul_high_f": 76,
+   "record_low_f": 11,
+   "record_high_f": 105,
+   "precip_in": 92.0,
+   "snow_in": 4,
+   "last_frost": "Mar 24",
+   "first_frost": "Nov 15",
+   "growing_days": 235,
+   "ecoregion": "Puget Lowland",
+   "ecoregion_code": "2",
+   "nws_office": "Seattle, WA",
+   "nws_cwa": "SEW",
+   "nwr": [
+    {
+     "call": "WXM62",
+     "freq": "162.475",
+     "same": "053045"
+    },
+    {
+     "call": "KHB60",
+     "freq": "162.550",
+     "same": "053045"
+    }
+   ],
+   "state_em": "Washington Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.0
+  },
+  "Okanogan County": {
+   "fips": "53047",
+   "centroid": [
+    48.5485,
+    -119.7422
+   ],
+   "latitude": 48.5,
+   "bbox": [
+    -120.885,
+    47.9408,
+    -118.8352,
+    49.0005
+   ],
+   "coastal": false,
+   "elevation_ft": 2580,
+   "zone": "6a",
+   "jan_low_f": 23,
+   "jul_high_f": 89,
+   "record_low_f": -48,
+   "record_high_f": 109,
+   "precip_in": 11.6,
+   "snow_in": 59,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 7",
+   "growing_days": 160,
+   "ecoregion": "Columbia Plateau",
+   "ecoregion_code": "10",
+   "nws_office": "Spokane, WA",
+   "nws_cwa": "OTX",
+   "nwr": [
+    {
+     "call": "WWF49",
+     "freq": "162.525",
+     "same": "053047"
+    }
+   ],
+   "state_em": "Washington Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 3,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.6
+  },
+  "Pacific County": {
+   "fips": "53049",
+   "centroid": [
+    46.5566,
+    -123.7824
+   ],
+   "latitude": 46.6,
+   "bbox": [
+    -124.0981,
+    46.1487,
+    -123.3269,
+    46.7943
+   ],
+   "coastal": true,
+   "elevation_ft": 670,
+   "zone": "8a",
+   "jan_low_f": 33,
+   "jul_high_f": 71,
+   "record_low_f": 3,
+   "record_high_f": 107,
+   "precip_in": 83.7,
+   "snow_in": 1,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 17",
+   "growing_days": 177,
+   "ecoregion": "Coast Range",
+   "ecoregion_code": "1",
+   "nws_office": "Portland, OR",
+   "nws_cwa": "PQR",
+   "nwr": [
+    {
+     "call": "KEC91",
+     "freq": "162.400",
+     "same": "053049"
+    },
+    {
+     "call": "WXM62",
+     "freq": "162.475",
+     "same": "053049"
+    }
+   ],
+   "state_em": "Washington Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 3,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.0
+  },
+  "Pend Oreille County": {
+   "fips": "53051",
+   "centroid": [
+    48.5438,
+    -117.2322
+   ],
+   "latitude": 48.5,
+   "bbox": [
+    -117.6295,
+    48.0182,
+    -117.0321,
+    49.0004
+   ],
+   "coastal": false,
+   "elevation_ft": 3540,
+   "zone": "6a",
+   "jan_low_f": 22,
+   "jul_high_f": 83,
+   "record_low_f": -36,
+   "record_high_f": 108,
+   "precip_in": 32.6,
+   "snow_in": 74,
+   "last_frost": "May 20",
+   "first_frost": "Sep 13",
+   "growing_days": 114,
+   "ecoregion": "Northern Rockies",
+   "ecoregion_code": "15",
+   "nws_office": "Spokane, WA",
+   "nws_cwa": "OTX",
+   "nwr": [
+    {
+     "call": "WXL86",
+     "freq": "162.400",
+     "same": "053051"
+    }
+   ],
+   "state_em": "Washington Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 1.6,
+   "sun_hours_jun": 5.3
+  },
+  "Pierce County": {
+   "fips": "53053",
+   "centroid": [
+    47.0514,
+    -122.1532
+   ],
+   "latitude": 47.1,
+   "bbox": [
+    -122.8415,
+    46.7284,
+    -121.3739,
+    47.4037
+   ],
+   "coastal": true,
+   "elevation_ft": 1360,
+   "zone": "8b",
+   "jan_low_f": 33,
+   "jul_high_f": 75,
+   "record_low_f": -2,
+   "record_high_f": 107,
+   "precip_in": 60.1,
+   "snow_in": 6,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 31",
+   "growing_days": 196,
+   "ecoregion": "Cascades",
+   "ecoregion_code": "4",
+   "nws_office": "Seattle, WA",
+   "nws_cwa": "SEW",
+   "nwr": [
+    {
+     "call": "WXM62",
+     "freq": "162.475",
+     "same": "053053"
+    },
+    {
+     "call": "KHB60",
+     "freq": "162.550",
+     "same": "053053"
+    }
+   ],
+   "state_em": "Washington Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 3,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.0
+  },
+  "San Juan County": {
+   "fips": "53055",
+   "centroid": [
+    48.5072,
+    -123.1038
+   ],
+   "latitude": 48.5,
+   "bbox": [
+    -123.2378,
+    48.4129,
+    -122.7421,
+    48.7892
+   ],
+   "coastal": true,
+   "elevation_ft": 190,
+   "zone": "9a",
+   "jan_low_f": 37,
+   "jul_high_f": 72,
+   "record_low_f": -4,
+   "record_high_f": 93,
+   "precip_in": 18.5,
+   "snow_in": 6,
+   "last_frost": "Mar 26",
+   "first_frost": "Nov 10",
+   "growing_days": 230,
+   "ecoregion": "Puget Lowland",
+   "ecoregion_code": "2",
+   "nws_office": "Seattle, WA",
+   "nws_cwa": "SEW",
+   "nwr": [
+    {
+     "call": "KAD93",
+     "freq": "162.525",
+     "same": "053055"
+    },
+    {
+     "call": "WWG24",
+     "freq": "162.425",
+     "same": "053055"
+    }
+   ],
+   "state_em": "Washington Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.6,
+   "sun_hours_jun": 5.2
+  },
+  "Skagit County": {
+   "fips": "53057",
+   "centroid": [
+    48.4933,
+    -121.8158
+   ],
+   "latitude": 48.5,
+   "bbox": [
+    -122.7405,
+    48.2959,
+    -120.6856,
+    48.6574
+   ],
+   "coastal": true,
+   "elevation_ft": 1620,
+   "zone": "8b",
+   "jan_low_f": 29,
+   "jul_high_f": 74,
+   "record_low_f": -2,
+   "record_high_f": 110,
+   "precip_in": 98.2,
+   "snow_in": 42,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 29",
+   "growing_days": 190,
+   "ecoregion": "North Cascades",
+   "ecoregion_code": "77",
+   "nws_office": "Seattle, WA",
+   "nws_cwa": "SEW",
+   "nwr": [
+    {
+     "call": "WWG24",
+     "freq": "162.425",
+     "same": "053057"
+    }
+   ],
+   "state_em": "Washington Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 3,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.1
+  },
+  "Skamania County": {
+   "fips": "53059",
+   "centroid": [
+    46.0248,
+    -121.9532
+   ],
+   "latitude": 46.0,
+   "bbox": [
+    -122.2501,
+    45.5477,
+    -121.5155,
+    46.3889
+   ],
+   "coastal": true,
+   "elevation_ft": 3310,
+   "zone": "7b",
+   "jan_low_f": 26,
+   "jul_high_f": 84,
+   "record_low_f": -22,
+   "record_high_f": 109,
+   "precip_in": 101.1,
+   "snow_in": 55,
+   "last_frost": "May 18",
+   "first_frost": "Sep 25",
+   "growing_days": 125,
+   "ecoregion": "Cascades",
+   "ecoregion_code": "4",
+   "nws_office": "Portland, OR",
+   "nws_cwa": "PQR",
+   "nwr": [
+    {
+     "call": "KIG98",
+     "freq": "162.550",
+     "same": "053059"
+    },
+    {
+     "call": "WXM34",
+     "freq": "162.400",
+     "same": "053059"
+    }
+   ],
+   "state_em": "Washington Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 3,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.0,
+   "sun_hours_jun": 6.0
+  },
+  "Snohomish County": {
+   "fips": "53061",
+   "centroid": [
+    48.0549,
+    -121.765
+   ],
+   "latitude": 48.1,
+   "bbox": [
+    -122.4048,
+    47.7753,
+    -120.9064,
+    48.299
+   ],
+   "coastal": true,
+   "elevation_ft": 4840,
+   "zone": "8a",
+   "jan_low_f": 25,
+   "jul_high_f": 68,
+   "record_low_f": -32,
+   "record_high_f": 101,
+   "precip_in": 162.9,
+   "snow_in": 274,
+   "last_frost": "May 14",
+   "first_frost": "Oct 17",
+   "growing_days": 154,
+   "ecoregion": "North Cascades",
+   "ecoregion_code": "77",
+   "nws_office": "Seattle, WA",
+   "nws_cwa": "SEW",
+   "nwr": [
+    {
+     "call": "WWG24",
+     "freq": "162.425",
+     "same": "053061"
+    },
+    {
+     "call": "KHB60",
+     "freq": "162.550",
+     "same": "053061"
+    }
+   ],
+   "state_em": "Washington Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 2,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.1
+  },
+  "Spokane County": {
+   "fips": "53063",
+   "centroid": [
+    47.6204,
+    -117.4034
+   ],
+   "latitude": 47.6,
+   "bbox": [
+    -117.8237,
+    47.2593,
+    -117.0397,
+    48.0479
+   ],
+   "coastal": false,
+   "elevation_ft": 2350,
+   "zone": "6b",
+   "jan_low_f": 25,
+   "jul_high_f": 84,
+   "record_low_f": -30,
+   "record_high_f": 109,
+   "precip_in": 16.4,
+   "snow_in": 45,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 12",
+   "growing_days": 168,
+   "ecoregion": "Northern Rockies",
+   "ecoregion_code": "15",
+   "nws_office": "Spokane, WA",
+   "nws_cwa": "OTX",
+   "nwr": [
+    {
+     "call": "WWG99",
+     "freq": "162.500",
+     "same": "053063"
+    },
+    {
+     "call": "WXL86",
+     "freq": "162.400",
+     "same": "053063"
+    }
+   ],
+   "state_em": "Washington Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.7
+  },
+  "Stevens County": {
+   "fips": "53065",
+   "centroid": [
+    48.3887,
+    -117.8545
+   ],
+   "latitude": 48.4,
+   "bbox": [
+    -118.4023,
+    47.7921,
+    -117.4294,
+    49.0007
+   ],
+   "coastal": false,
+   "elevation_ft": 1610,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 86,
+   "record_low_f": -38,
+   "record_high_f": 110,
+   "precip_in": 21.4,
+   "snow_in": 43,
+   "last_frost": "May 16",
+   "first_frost": "Sep 15",
+   "growing_days": 120,
+   "ecoregion": "Northern Rockies",
+   "ecoregion_code": "15",
+   "nws_office": "Spokane, WA",
+   "nws_cwa": "OTX",
+   "nwr": [
+    {
+     "call": "WXL86",
+     "freq": "162.400",
+     "same": "053065"
+    }
+   ],
+   "state_em": "Washington Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 1.6,
+   "sun_hours_jun": 5.3
+  },
+  "Thurston County": {
+   "fips": "53067",
+   "centroid": [
+    46.9358,
+    -122.8302
+   ],
+   "latitude": 46.9,
+   "bbox": [
+    -123.2031,
+    46.762,
+    -122.2031,
+    47.1872
+   ],
+   "coastal": true,
+   "elevation_ft": 360,
+   "zone": "8a",
+   "jan_low_f": 33,
+   "jul_high_f": 78,
+   "record_low_f": -8,
+   "record_high_f": 110,
+   "precip_in": 50.6,
+   "snow_in": 4,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 14",
+   "growing_days": 169,
+   "ecoregion": "Puget Lowland",
+   "ecoregion_code": "2",
+   "nws_office": "Seattle, WA",
+   "nws_cwa": "SEW",
+   "nwr": [
+    {
+     "call": "WXM62",
+     "freq": "162.475",
+     "same": "053067"
+    }
+   ],
+   "state_em": "Washington Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 2,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.0
+  },
+  "Wahkiakum County": {
+   "fips": "53069",
+   "centroid": [
+    46.2946,
+    -123.4245
+   ],
+   "latitude": 46.3,
+   "bbox": [
+    -123.7266,
+    46.1509,
+    -123.2131,
+    46.3856
+   ],
+   "coastal": true,
+   "elevation_ft": 260,
+   "zone": "8b",
+   "jan_low_f": 34,
+   "jul_high_f": 77,
+   "record_low_f": 2,
+   "record_high_f": 105,
+   "precip_in": 103.5,
+   "snow_in": 2,
+   "last_frost": "Apr 27",
+   "first_frost": "Oct 22",
+   "growing_days": 178,
+   "ecoregion": "Coast Range",
+   "ecoregion_code": "1",
+   "nws_office": "Portland, OR",
+   "nws_cwa": "PQR",
+   "nwr": [
+    {
+     "call": "KEC91",
+     "freq": "162.400",
+     "same": "053069"
+    }
+   ],
+   "state_em": "Washington Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.0
+  },
+  "Walla Walla County": {
+   "fips": "53071",
+   "centroid": [
+    46.2546,
+    -118.4804
+   ],
+   "latitude": 46.3,
+   "bbox": [
+    -119.0414,
+    45.9998,
+    -117.9914,
+    46.6068
+   ],
+   "coastal": false,
+   "elevation_ft": 1140,
+   "zone": "7a",
+   "jan_low_f": 31,
+   "jul_high_f": 90,
+   "record_low_f": -24,
+   "record_high_f": 116,
+   "precip_in": 18.7,
+   "snow_in": 6,
+   "last_frost": "Mar 27",
+   "first_frost": "Oct 31",
+   "growing_days": 219,
+   "ecoregion": "Columbia Plateau",
+   "ecoregion_code": "10",
+   "nws_office": "Pendleton, OR",
+   "nws_cwa": "PDT",
+   "nwr": [
+    {
+     "call": "WWF56",
+     "freq": "162.450",
+     "same": "053071"
+    },
+    {
+     "call": "WXL95",
+     "freq": "162.400",
+     "same": "053071"
+    }
+   ],
+   "state_em": "Washington Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 6.3
+  },
+  "Whatcom County": {
+   "fips": "53073",
+   "centroid": [
+    48.8427,
+    -121.8364
+   ],
+   "latitude": 48.8,
+   "bbox": [
+    -123.0906,
+    48.6404,
+    -120.655,
+    49.0024
+   ],
+   "coastal": true,
+   "elevation_ft": 4650,
+   "zone": "7a",
+   "jan_low_f": 29,
+   "jul_high_f": 74,
+   "record_low_f": -2,
+   "record_high_f": 110,
+   "precip_in": 116.9,
+   "snow_in": 42,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 29",
+   "growing_days": 190,
+   "ecoregion": "North Cascades",
+   "ecoregion_code": "77",
+   "nws_office": "Seattle, WA",
+   "nws_cwa": "SEW",
+   "nwr": [
+    {
+     "call": "KAD93",
+     "freq": "162.525",
+     "same": "053073"
+    }
+   ],
+   "state_em": "Washington Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 2,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.1
+  },
+  "Whitman County": {
+   "fips": "53075",
+   "centroid": [
+    46.9059,
+    -117.5354
+   ],
+   "latitude": 46.9,
+   "bbox": [
+    -118.2489,
+    46.4171,
+    -117.0394,
+    47.2876
+   ],
+   "coastal": false,
+   "elevation_ft": 2180,
+   "zone": "7a",
+   "jan_low_f": 29,
+   "jul_high_f": 84,
+   "record_low_f": -28,
+   "record_high_f": 108,
+   "precip_in": 17.1,
+   "snow_in": 27,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 4",
+   "growing_days": 161,
+   "ecoregion": "Columbia Plateau",
+   "ecoregion_code": "10",
+   "nws_office": "Spokane, WA",
+   "nws_cwa": "OTX",
+   "nwr": [
+    {
+     "call": "KZZ73",
+     "freq": "162.525",
+     "same": "053075"
+    },
+    {
+     "call": "WXK98",
+     "freq": "162.550",
+     "same": "053075"
+    }
+   ],
+   "state_em": "Washington Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 1.9,
+   "sun_hours_jun": 5.9
+  },
+  "Yakima County": {
+   "fips": "53077",
+   "centroid": [
+    46.4566,
+    -120.7401
+   ],
+   "latitude": 46.5,
+   "bbox": [
+    -121.5243,
+    46.0401,
+    -119.8654,
+    47.0887
+   ],
+   "coastal": false,
+   "elevation_ft": 1230,
+   "zone": "7a",
+   "jan_low_f": 27,
+   "jul_high_f": 88,
+   "record_low_f": -25,
+   "record_high_f": 113,
+   "precip_in": 8.6,
+   "snow_in": 20,
+   "last_frost": "Apr 8",
+   "first_frost": "Oct 23",
+   "growing_days": 196,
+   "ecoregion": "Columbia Plateau",
+   "ecoregion_code": "10",
+   "nws_office": "Pendleton, OR",
+   "nws_cwa": "PDT",
+   "nwr": [
+    {
+     "call": "WWF56",
+     "freq": "162.450",
+     "same": "053077"
+    },
+    {
+     "call": "KIG75",
+     "freq": "162.550",
+     "same": "053077"
+    }
+   ],
+   "state_em": "Washington Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 3,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 2.0,
+   "sun_hours_jun": 6.0
+  }
+ }
+}

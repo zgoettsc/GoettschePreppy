@@ -55,11 +55,11 @@ export function cardsFromKit(kit) {
   const consider = (p) => {
     if (!p || typeof p !== 'object') return;
     const fm = p.frontmatter || p.data || p.meta || p;
-    const id = fm.card || p.card;
+    const id = fm.card || p.card || (/^DC-\d{2}$/.test(p.id || '') ? p.id : null);
     if (!id || !/^DC-\d{2}$/.test(id)) return;
     seen.set(id, {
       card: id,
-      title: fm.title || p.title || id,
+      title: String(fm.title || p.title || id).replace(/^DC-\d{2}[.:]?\s*/, '') || id,
       settings_summary: fm.settings_summary || p.settings_summary || '',
       options: Array.isArray(fm.options || p.options) ? (fm.options || p.options).filter(o => o && o.id) : [],
     });

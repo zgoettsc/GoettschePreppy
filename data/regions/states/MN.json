@@ -1,0 +1,5538 @@
+{
+ "state": "MN",
+ "state_name": "Minnesota",
+ "state_fips": "27",
+ "state_em": "Minnesota Homeland Security and Emergency Management Division",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "ABR": "NWS Aberdeen, SD",
+  "ARX": "NWS La Crosse, WI",
+  "DLH": "NWS Duluth, MN",
+  "FGF": "NWS Grand Forks, ND",
+  "FSD": "NWS Sioux Falls, SD",
+  "MPX": "NWS Twin Cities/Chanhassen, MN"
+ },
+ "ecoregions": [
+  "Northern Glaciated Plains",
+  "Western Corn Belt Plains",
+  "Lake Agassiz Plain",
+  "Northern Minnesota Wetlands",
+  "Northern Lakes and Forests",
+  "North Central Hardwood Forests",
+  "Driftless Area"
+ ],
+ "counties": {
+  "Aitkin County": {
+   "fips": "27001",
+   "centroid": [
+    46.6024,
+    -93.4197
+   ],
+   "latitude": 46.6,
+   "bbox": [
+    -93.8122,
+    46.1542,
+    -93.0538,
+    47.0304
+   ],
+   "coastal": false,
+   "elevation_ft": 1240,
+   "zone": "4a",
+   "jan_low_f": 0,
+   "jul_high_f": 79,
+   "record_low_f": -47,
+   "record_high_f": 100,
+   "precip_in": 31.9,
+   "snow_in": 43,
+   "last_frost": "May 16",
+   "first_frost": "Sep 28",
+   "growing_days": 133,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Duluth, MN",
+   "nws_cwa": "DLH",
+   "nwr": [
+    {
+     "call": "KZZ84",
+     "freq": "162.450",
+     "same": "027001"
+    },
+    {
+     "call": "WNG678",
+     "freq": "162.425",
+     "same": "027001"
+    },
+    {
+     "call": "KZZ29",
+     "freq": "162.400",
+     "same": "027001"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.2
+  },
+  "Anoka County": {
+   "fips": "27003",
+   "centroid": [
+    45.2741,
+    -93.2427
+   ],
+   "latitude": 45.3,
+   "bbox": [
+    -93.5125,
+    45.0354,
+    -93.0184,
+    45.415
+   ],
+   "coastal": false,
+   "elevation_ft": 910,
+   "zone": "4b",
+   "jan_low_f": 2,
+   "jul_high_f": 82,
+   "record_low_f": -40,
+   "record_high_f": 103,
+   "precip_in": 28.8,
+   "snow_in": 44,
+   "last_frost": "May 5",
+   "first_frost": "Oct 2",
+   "growing_days": 148,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "WNG676",
+     "freq": "162.500",
+     "same": "027003"
+    },
+    {
+     "call": "KEC65",
+     "freq": "162.550",
+     "same": "027003"
+    },
+    {
+     "call": "WNG678",
+     "freq": "162.425",
+     "same": "027003"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.2
+  },
+  "Becker County": {
+   "fips": "27005",
+   "centroid": [
+    46.9376,
+    -95.7418
+   ],
+   "latitude": 46.9,
+   "bbox": [
+    -96.1947,
+    46.7154,
+    -95.1621,
+    47.1525
+   ],
+   "coastal": false,
+   "elevation_ft": 1460,
+   "zone": "4a",
+   "jan_low_f": -4,
+   "jul_high_f": 79,
+   "record_low_f": -52,
+   "record_high_f": 98,
+   "precip_in": 29.4,
+   "snow_in": 48,
+   "last_frost": "May 5",
+   "first_frost": "Oct 3",
+   "growing_days": 150,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "Grand Forks, ND",
+   "nws_cwa": "FGF",
+   "nwr": [
+    {
+     "call": "WXM64",
+     "freq": "162.400",
+     "same": "027005"
+    },
+    {
+     "call": "WNG680",
+     "freq": "162.500",
+     "same": "027005"
+    },
+    {
+     "call": "WWG98",
+     "freq": "162.475",
+     "same": "027005"
+    },
+    {
+     "call": "WNG610",
+     "freq": "162.450",
+     "same": "027005"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.3
+  },
+  "Beltrami County": {
+   "fips": "27007",
+   "centroid": [
+    47.8795,
+    -95.005
+   ],
+   "latitude": 47.9,
+   "bbox": [
+    -95.6031,
+    47.4095,
+    -94.4143,
+    48.5404
+   ],
+   "coastal": false,
+   "elevation_ft": 1220,
+   "zone": "3b",
+   "jan_low_f": -3,
+   "jul_high_f": 77,
+   "record_low_f": -48,
+   "record_high_f": 101,
+   "precip_in": 22.8,
+   "snow_in": 49,
+   "last_frost": "May 12",
+   "first_frost": "Oct 4",
+   "growing_days": 142,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Grand Forks, ND",
+   "nws_cwa": "FGF",
+   "nwr": [
+    {
+     "call": "WXM99",
+     "freq": "162.425",
+     "same": "027007"
+    },
+    {
+     "call": "WWF45",
+     "freq": "162.450",
+     "same": "027007"
+    },
+    {
+     "call": "WXK43",
+     "freq": "162.550",
+     "same": "027007"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.2
+  },
+  "Benton County": {
+   "fips": "27009",
+   "centroid": [
+    45.7012,
+    -94.0014
+   ],
+   "latitude": 45.7,
+   "bbox": [
+    -94.3524,
+    45.559,
+    -93.7598,
+    45.8244
+   ],
+   "coastal": false,
+   "elevation_ft": 1110,
+   "zone": "4a",
+   "jan_low_f": 0,
+   "jul_high_f": 80,
+   "record_low_f": -43,
+   "record_high_f": 107,
+   "precip_in": 30.1,
+   "snow_in": 48,
+   "last_frost": "May 10",
+   "first_frost": "Sep 29",
+   "growing_days": 140,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "WNG676",
+     "freq": "162.500",
+     "same": "027009"
+    },
+    {
+     "call": "WXL65",
+     "freq": "162.400",
+     "same": "027009"
+    },
+    {
+     "call": "WXK44",
+     "freq": "162.475",
+     "same": "027009"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.3
+  },
+  "Big Stone County": {
+   "fips": "27011",
+   "centroid": [
+    45.4199,
+    -96.4022
+   ],
+   "latitude": 45.4,
+   "bbox": [
+    -96.8346,
+    45.1777,
+    -96.1036,
+    45.5861
+   ],
+   "coastal": false,
+   "elevation_ft": 1100,
+   "zone": "4b",
+   "jan_low_f": 3,
+   "jul_high_f": 83,
+   "record_low_f": -39,
+   "record_high_f": 109,
+   "precip_in": 26.4,
+   "snow_in": 43,
+   "last_frost": "May 1",
+   "first_frost": "Oct 8",
+   "growing_days": 159,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Aberdeen, SD",
+   "nws_cwa": "ABR",
+   "nwr": [
+    {
+     "call": "KXI32",
+     "freq": "162.550",
+     "same": "027011"
+    },
+    {
+     "call": "WNG707",
+     "freq": "162.400",
+     "same": "027011"
+    },
+    {
+     "call": "WXM41",
+     "freq": "162.425",
+     "same": "027011"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.5
+  },
+  "Blue Earth County": {
+   "fips": "27013",
+   "centroid": [
+    44.0337,
+    -94.064
+   ],
+   "latitude": 44.0,
+   "bbox": [
+    -94.3722,
+    43.8477,
+    -93.7678,
+    44.2645
+   ],
+   "coastal": false,
+   "elevation_ft": 1010,
+   "zone": "5a",
+   "jan_low_f": 6,
+   "jul_high_f": 82,
+   "record_low_f": -35,
+   "record_high_f": 107,
+   "precip_in": 33.9,
+   "snow_in": 39,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 9",
+   "growing_days": 161,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "WXK40",
+     "freq": "162.400",
+     "same": "027013"
+    },
+    {
+     "call": "KXI39",
+     "freq": "162.525",
+     "same": "027013"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.3
+  },
+  "Brown County": {
+   "fips": "27015",
+   "centroid": [
+    44.2465,
+    -94.7336
+   ],
+   "latitude": 44.2,
+   "bbox": [
+    -95.1086,
+    44.1077,
+    -94.3689,
+    44.4967
+   ],
+   "coastal": false,
+   "elevation_ft": 1000,
+   "zone": "5a",
+   "jan_low_f": 4,
+   "jul_high_f": 82,
+   "record_low_f": -32,
+   "record_high_f": 105,
+   "precip_in": 29.6,
+   "snow_in": 42,
+   "last_frost": "May 4",
+   "first_frost": "Oct 1",
+   "growing_days": 150,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "KXI31",
+     "freq": "162.450",
+     "same": "027015"
+    },
+    {
+     "call": "WXK40",
+     "freq": "162.400",
+     "same": "027015"
+    },
+    {
+     "call": "KXI39",
+     "freq": "162.525",
+     "same": "027015"
+    },
+    {
+     "call": "WNG711",
+     "freq": "162.400",
+     "same": "027015"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.3
+  },
+  "Carlton County": {
+   "fips": "27017",
+   "centroid": [
+    46.6038,
+    -92.671
+   ],
+   "latitude": 46.6,
+   "bbox": [
+    -93.0649,
+    46.4172,
+    -92.2917,
+    46.7692
+   ],
+   "coastal": false,
+   "elevation_ft": 1280,
+   "zone": "4a",
+   "jan_low_f": 2,
+   "jul_high_f": 78,
+   "record_low_f": -45,
+   "record_high_f": 105,
+   "precip_in": 32.7,
+   "snow_in": 71,
+   "last_frost": "May 26",
+   "first_frost": "Sep 23",
+   "growing_days": 118,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Duluth, MN",
+   "nws_cwa": "DLH",
+   "nwr": [
+    {
+     "call": "KZZ84",
+     "freq": "162.450",
+     "same": "027017"
+    },
+    {
+     "call": "KIG64",
+     "freq": "162.550",
+     "same": "027017"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.2
+  },
+  "Carver County": {
+   "fips": "27019",
+   "centroid": [
+    44.8213,
+    -93.8001
+   ],
+   "latitude": 44.8,
+   "bbox": [
+    -94.0125,
+    44.6346,
+    -93.5204,
+    44.9786
+   ],
+   "coastal": false,
+   "elevation_ft": 960,
+   "zone": "4b",
+   "jan_low_f": 4,
+   "jul_high_f": 83,
+   "record_low_f": -35,
+   "record_high_f": 100,
+   "precip_in": 34.1,
+   "snow_in": 52,
+   "last_frost": "May 5",
+   "first_frost": "Oct 5",
+   "growing_days": 151,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "WNG676",
+     "freq": "162.500",
+     "same": "027019"
+    },
+    {
+     "call": "KEC65",
+     "freq": "162.550",
+     "same": "027019"
+    },
+    {
+     "call": "WNG685",
+     "freq": "162.425",
+     "same": "027019"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Cass County": {
+   "fips": "27021",
+   "centroid": [
+    46.9517,
+    -94.3337
+   ],
+   "latitude": 47.0,
+   "bbox": [
+    -94.787,
+    46.2769,
+    -93.774,
+    47.4807
+   ],
+   "coastal": false,
+   "elevation_ft": 1340,
+   "zone": "4a",
+   "jan_low_f": 0,
+   "jul_high_f": 80,
+   "record_low_f": -44,
+   "record_high_f": 103,
+   "precip_in": 28.0,
+   "snow_in": 48,
+   "last_frost": "May 5",
+   "first_frost": "Oct 5",
+   "growing_days": 150,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Duluth, MN",
+   "nws_cwa": "DLH",
+   "nwr": [
+    {
+     "call": "WXJ64",
+     "freq": "162.550",
+     "same": "027021"
+    },
+    {
+     "call": "WNG673",
+     "freq": "162.525",
+     "same": "027021"
+    },
+    {
+     "call": "WXM99",
+     "freq": "162.425",
+     "same": "027021"
+    },
+    {
+     "call": "KZZ29",
+     "freq": "162.400",
+     "same": "027021"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.3
+  },
+  "Chippewa County": {
+   "fips": "27023",
+   "centroid": [
+    45.0286,
+    -95.5641
+   ],
+   "latitude": 45.0,
+   "bbox": [
+    -96.037,
+    44.7513,
+    -95.2465,
+    45.1527
+   ],
+   "coastal": false,
+   "elevation_ft": 1020,
+   "zone": "4b",
+   "jan_low_f": 2,
+   "jul_high_f": 82,
+   "record_low_f": -39,
+   "record_high_f": 110,
+   "precip_in": 29.4,
+   "snow_in": 46,
+   "last_frost": "May 4",
+   "first_frost": "Oct 1",
+   "growing_days": 149,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "KXI32",
+     "freq": "162.550",
+     "same": "027023"
+    },
+    {
+     "call": "WNG711",
+     "freq": "162.400",
+     "same": "027023"
+    },
+    {
+     "call": "WXK44",
+     "freq": "162.475",
+     "same": "027023"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.3
+  },
+  "Chisago County": {
+   "fips": "27025",
+   "centroid": [
+    45.5054,
+    -92.9038
+   ],
+   "latitude": 45.5,
+   "bbox": [
+    -93.142,
+    45.2957,
+    -92.6466,
+    45.731
+   ],
+   "coastal": false,
+   "elevation_ft": 890,
+   "zone": "4b",
+   "jan_low_f": 0,
+   "jul_high_f": 82,
+   "record_low_f": -46,
+   "record_high_f": 102,
+   "precip_in": 32.4,
+   "snow_in": 52,
+   "last_frost": "May 19",
+   "first_frost": "Sep 25",
+   "growing_days": 128,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "KEC65",
+     "freq": "162.550",
+     "same": "027025"
+    },
+    {
+     "call": "WNG678",
+     "freq": "162.425",
+     "same": "027025"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.2
+  },
+  "Clay County": {
+   "fips": "27027",
+   "centroid": [
+    46.8984,
+    -96.4949
+   ],
+   "latitude": 46.9,
+   "bbox": [
+    -96.84,
+    46.6286,
+    -96.1723,
+    47.1515
+   ],
+   "coastal": false,
+   "elevation_ft": 940,
+   "zone": "4a",
+   "jan_low_f": 0,
+   "jul_high_f": 82,
+   "record_low_f": -48,
+   "record_high_f": 114,
+   "precip_in": 26.1,
+   "snow_in": 53,
+   "last_frost": "May 5",
+   "first_frost": "Oct 3",
+   "growing_days": 150,
+   "ecoregion": "Lake Agassiz Plain",
+   "ecoregion_code": "48",
+   "nws_office": "Grand Forks, ND",
+   "nws_cwa": "FGF",
+   "nwr": [
+    {
+     "call": "WXM64",
+     "freq": "162.400",
+     "same": "027027"
+    },
+    {
+     "call": "WXK42",
+     "freq": "162.475",
+     "same": "027027"
+    },
+    {
+     "call": "WNG680",
+     "freq": "162.500",
+     "same": "027027"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.4
+  },
+  "Clearwater County": {
+   "fips": "27029",
+   "centroid": [
+    47.5759,
+    -95.3711
+   ],
+   "latitude": 47.6,
+   "bbox": [
+    -95.5829,
+    47.1511,
+    -95.1691,
+    48.0206
+   ],
+   "coastal": false,
+   "elevation_ft": 1480,
+   "zone": "3b",
+   "jan_low_f": -5,
+   "jul_high_f": 78,
+   "record_low_f": -54,
+   "record_high_f": 110,
+   "precip_in": 26.6,
+   "snow_in": 52,
+   "last_frost": "May 15",
+   "first_frost": "Sep 26",
+   "growing_days": 132,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Grand Forks, ND",
+   "nws_cwa": "FGF",
+   "nwr": [
+    {
+     "call": "WXM99",
+     "freq": "162.425",
+     "same": "027029"
+    },
+    {
+     "call": "WXK43",
+     "freq": "162.550",
+     "same": "027029"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.2
+  },
+  "Cook County": {
+   "fips": "27031",
+   "centroid": [
+    47.7586,
+    -90.3443
+   ],
+   "latitude": 47.8,
+   "bbox": [
+    -91.0325,
+    47.4652,
+    -89.4838,
+    48.2458
+   ],
+   "coastal": false,
+   "elevation_ft": 870,
+   "zone": "4b",
+   "jan_low_f": 7,
+   "jul_high_f": 70,
+   "record_low_f": -34,
+   "record_high_f": 100,
+   "precip_in": 25.9,
+   "snow_in": 51,
+   "last_frost": "May 22",
+   "first_frost": "Oct 9",
+   "growing_days": 136,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Duluth, MN",
+   "nws_cwa": "DLH",
+   "nwr": [
+    {
+     "call": "KXI43",
+     "freq": "162.450",
+     "same": "027031"
+    },
+    {
+     "call": "KXI45",
+     "freq": "162.525",
+     "same": "027031"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.1
+  },
+  "Cottonwood County": {
+   "fips": "27033",
+   "centroid": [
+    44.0106,
+    -95.1832
+   ],
+   "latitude": 44.0,
+   "bbox": [
+    -95.4629,
+    43.8474,
+    -94.859,
+    44.1961
+   ],
+   "coastal": false,
+   "elevation_ft": 1460,
+   "zone": "5a",
+   "jan_low_f": 8,
+   "jul_high_f": 84,
+   "record_low_f": -36,
+   "record_high_f": 105,
+   "precip_in": 31.7,
+   "snow_in": 44,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 10",
+   "growing_days": 162,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "KXI31",
+     "freq": "162.450",
+     "same": "027033"
+    },
+    {
+     "call": "KXI39",
+     "freq": "162.525",
+     "same": "027033"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.4
+  },
+  "Crow Wing County": {
+   "fips": "27035",
+   "centroid": [
+    46.4917,
+    -94.0707
+   ],
+   "latitude": 46.5,
+   "bbox": [
+    -94.3957,
+    46.1559,
+    -93.776,
+    46.8055
+   ],
+   "coastal": false,
+   "elevation_ft": 1220,
+   "zone": "4a",
+   "jan_low_f": 0,
+   "jul_high_f": 82,
+   "record_low_f": -43,
+   "record_high_f": 103,
+   "precip_in": 24.5,
+   "snow_in": 39,
+   "last_frost": "May 13",
+   "first_frost": "Sep 27",
+   "growing_days": 138,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Duluth, MN",
+   "nws_cwa": "DLH",
+   "nwr": [
+    {
+     "call": "KZZ84",
+     "freq": "162.450",
+     "same": "027035"
+    },
+    {
+     "call": "WXJ64",
+     "freq": "162.550",
+     "same": "027035"
+    },
+    {
+     "call": "WNG673",
+     "freq": "162.525",
+     "same": "027035"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.3
+  },
+  "Dakota County": {
+   "fips": "27037",
+   "centroid": [
+    44.6709,
+    -93.0625
+   ],
+   "latitude": 44.7,
+   "bbox": [
+    -93.3295,
+    44.4711,
+    -92.7324,
+    44.9232
+   ],
+   "coastal": false,
+   "elevation_ft": 860,
+   "zone": "5a",
+   "jan_low_f": 3,
+   "jul_high_f": 81,
+   "record_low_f": -38,
+   "record_high_f": 105,
+   "precip_in": 34.1,
+   "snow_in": 41,
+   "last_frost": "May 2",
+   "first_frost": "Oct 5",
+   "growing_days": 155,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "KEC65",
+     "freq": "162.550",
+     "same": "027037"
+    },
+    {
+     "call": "KJY80",
+     "freq": "162.450",
+     "same": "027037"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Dodge County": {
+   "fips": "27039",
+   "centroid": [
+    44.0207,
+    -92.8694
+   ],
+   "latitude": 44.0,
+   "bbox": [
+    -93.046,
+    43.8483,
+    -92.6779,
+    44.1969
+   ],
+   "coastal": false,
+   "elevation_ft": 1300,
+   "zone": "5a",
+   "jan_low_f": 4,
+   "jul_high_f": 81,
+   "record_low_f": -42,
+   "record_high_f": 108,
+   "precip_in": 36.0,
+   "snow_in": 44,
+   "last_frost": "May 12",
+   "first_frost": "Sep 28",
+   "growing_days": 139,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "La Crosse, WI",
+   "nws_cwa": "ARX",
+   "nwr": [
+    {
+     "call": "WXK40",
+     "freq": "162.400",
+     "same": "027039"
+    },
+    {
+     "call": "WXK41",
+     "freq": "162.475",
+     "same": "027039"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.3
+  },
+  "Douglas County": {
+   "fips": "27041",
+   "centroid": [
+    45.9368,
+    -95.4622
+   ],
+   "latitude": 45.9,
+   "bbox": [
+    -95.7699,
+    45.7587,
+    -95.1389,
+    46.1082
+   ],
+   "coastal": false,
+   "elevation_ft": 1400,
+   "zone": "4b",
+   "jan_low_f": 2,
+   "jul_high_f": 80,
+   "record_low_f": -38,
+   "record_high_f": 104,
+   "precip_in": 24.1,
+   "snow_in": 46,
+   "last_frost": "May 2",
+   "first_frost": "Oct 8",
+   "growing_days": 159,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "WNG707",
+     "freq": "162.400",
+     "same": "027041"
+    },
+    {
+     "call": "WNG673",
+     "freq": "162.525",
+     "same": "027041"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.3
+  },
+  "Faribault County": {
+   "fips": "27043",
+   "centroid": [
+    43.6765,
+    -93.9472
+   ],
+   "latitude": 43.7,
+   "bbox": [
+    -94.2479,
+    43.4995,
+    -93.6482,
+    43.8482
+   ],
+   "coastal": false,
+   "elevation_ft": 1100,
+   "zone": "5a",
+   "jan_low_f": 5,
+   "jul_high_f": 82,
+   "record_low_f": -32,
+   "record_high_f": 101,
+   "precip_in": 34.5,
+   "snow_in": 40,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 6",
+   "growing_days": 158,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "KJY63",
+     "freq": "162.500",
+     "same": "027043"
+    },
+    {
+     "call": "WXK40",
+     "freq": "162.400",
+     "same": "027043"
+    },
+    {
+     "call": "KXI39",
+     "freq": "162.525",
+     "same": "027043"
+    },
+    {
+     "call": "WNG688",
+     "freq": "162.475",
+     "same": "027043"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.4
+  },
+  "Fillmore County": {
+   "fips": "27045",
+   "centroid": [
+    43.6792,
+    -92.0939
+   ],
+   "latitude": 43.7,
+   "bbox": [
+    -92.4496,
+    43.5002,
+    -91.7302,
+    43.8483
+   ],
+   "coastal": false,
+   "elevation_ft": 1060,
+   "zone": "4b",
+   "jan_low_f": 4,
+   "jul_high_f": 81,
+   "record_low_f": -45,
+   "record_high_f": 101,
+   "precip_in": 36.8,
+   "snow_in": 42,
+   "last_frost": "May 14",
+   "first_frost": "Sep 28",
+   "growing_days": 136,
+   "ecoregion": "Driftless Area",
+   "ecoregion_code": "52",
+   "nws_office": "La Crosse, WI",
+   "nws_cwa": "ARX",
+   "nwr": [
+    {
+     "call": "KXI60",
+     "freq": "162.525",
+     "same": "027045"
+    },
+    {
+     "call": "WXK41",
+     "freq": "162.475",
+     "same": "027045"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.3
+  },
+  "Freeborn County": {
+   "fips": "27047",
+   "centroid": [
+    43.6742,
+    -93.3503
+   ],
+   "latitude": 43.7,
+   "bbox": [
+    -93.6488,
+    43.4991,
+    -93.0491,
+    43.8486
+   ],
+   "coastal": false,
+   "elevation_ft": 1260,
+   "zone": "5a",
+   "jan_low_f": 6,
+   "jul_high_f": 82,
+   "record_low_f": -41,
+   "record_high_f": 104,
+   "precip_in": 35.8,
+   "snow_in": 40,
+   "last_frost": "Apr 27",
+   "first_frost": "Oct 9",
+   "growing_days": 164,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "KJY63",
+     "freq": "162.500",
+     "same": "027047"
+    },
+    {
+     "call": "WXK40",
+     "freq": "162.400",
+     "same": "027047"
+    },
+    {
+     "call": "KXI68",
+     "freq": "162.450",
+     "same": "027047"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.4
+  },
+  "Goodhue County": {
+   "fips": "27049",
+   "centroid": [
+    44.4062,
+    -92.716
+   ],
+   "latitude": 44.4,
+   "bbox": [
+    -93.0409,
+    44.1945,
+    -92.2426,
+    44.7137
+   ],
+   "coastal": false,
+   "elevation_ft": 1160,
+   "zone": "4b",
+   "jan_low_f": 4,
+   "jul_high_f": 81,
+   "record_low_f": -45,
+   "record_high_f": 109,
+   "precip_in": 35.2,
+   "snow_in": 44,
+   "last_frost": "May 9",
+   "first_frost": "Sep 30",
+   "growing_days": 144,
+   "ecoregion": "Driftless Area",
+   "ecoregion_code": "52",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "KEC65",
+     "freq": "162.550",
+     "same": "027049"
+    },
+    {
+     "call": "KJY80",
+     "freq": "162.450",
+     "same": "027049"
+    },
+    {
+     "call": "WXK41",
+     "freq": "162.475",
+     "same": "027049"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.3
+  },
+  "Grant County": {
+   "fips": "27051",
+   "centroid": [
+    45.9307,
+    -96.0107
+   ],
+   "latitude": 45.9,
+   "bbox": [
+    -96.2664,
+    45.7594,
+    -95.7582,
+    46.1087
+   ],
+   "coastal": false,
+   "elevation_ft": 1150,
+   "zone": "4b",
+   "jan_low_f": 0,
+   "jul_high_f": 81,
+   "record_low_f": -41,
+   "record_high_f": 109,
+   "precip_in": 26.9,
+   "snow_in": 45,
+   "last_frost": "May 4",
+   "first_frost": "Oct 1",
+   "growing_days": 150,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Grand Forks, ND",
+   "nws_cwa": "FGF",
+   "nwr": [
+    {
+     "call": "WNG680",
+     "freq": "162.500",
+     "same": "027051"
+    },
+    {
+     "call": "WNG707",
+     "freq": "162.400",
+     "same": "027051"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.5
+  },
+  "Hennepin County": {
+   "fips": "27053",
+   "centroid": [
+    45.0061,
+    -93.4752
+   ],
+   "latitude": 45.0,
+   "bbox": [
+    -93.767,
+    44.7854,
+    -93.1768,
+    45.2464
+   ],
+   "coastal": false,
+   "elevation_ft": 980,
+   "zone": "5a",
+   "jan_low_f": 7,
+   "jul_high_f": 82,
+   "record_low_f": -33,
+   "record_high_f": 105,
+   "precip_in": 34.7,
+   "snow_in": 54,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 12",
+   "growing_days": 163,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "WNG676",
+     "freq": "162.500",
+     "same": "027053"
+    },
+    {
+     "call": "KEC65",
+     "freq": "162.550",
+     "same": "027053"
+    },
+    {
+     "call": "WNG685",
+     "freq": "162.425",
+     "same": "027053"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.2
+  },
+  "Houston County": {
+   "fips": "27055",
+   "centroid": [
+    43.667,
+    -91.5016
+   ],
+   "latitude": 43.7,
+   "bbox": [
+    -91.7307,
+    43.5001,
+    -91.2176,
+    43.8472
+   ],
+   "coastal": false,
+   "elevation_ft": 1210,
+   "zone": "5a",
+   "jan_low_f": 8,
+   "jul_high_f": 81,
+   "record_low_f": -37,
+   "record_high_f": 104,
+   "precip_in": 38.3,
+   "snow_in": 45,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 10",
+   "growing_days": 165,
+   "ecoregion": "Driftless Area",
+   "ecoregion_code": "52",
+   "nws_office": "La Crosse, WI",
+   "nws_cwa": "ARX",
+   "nwr": [
+    {
+     "call": "KXI60",
+     "freq": "162.525",
+     "same": "027055"
+    },
+    {
+     "call": "WXJ86",
+     "freq": "162.550",
+     "same": "027055"
+    },
+    {
+     "call": "WXK41",
+     "freq": "162.475",
+     "same": "027055"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Hubbard County": {
+   "fips": "27057",
+   "centroid": [
+    47.0956,
+    -94.9133
+   ],
+   "latitude": 47.1,
+   "bbox": [
+    -95.1837,
+    46.8036,
+    -94.6584,
+    47.4128
+   ],
+   "coastal": false,
+   "elevation_ft": 1440,
+   "zone": "3b",
+   "jan_low_f": -3,
+   "jul_high_f": 80,
+   "record_low_f": -51,
+   "record_high_f": 107,
+   "precip_in": 23.9,
+   "snow_in": 52,
+   "last_frost": "May 14",
+   "first_frost": "Sep 25",
+   "growing_days": 133,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Grand Forks, ND",
+   "nws_cwa": "FGF",
+   "nwr": [
+    {
+     "call": "WXM99",
+     "freq": "162.425",
+     "same": "027057"
+    },
+    {
+     "call": "WWG98",
+     "freq": "162.475",
+     "same": "027057"
+    },
+    {
+     "call": "WNG610",
+     "freq": "162.450",
+     "same": "027057"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.2
+  },
+  "Isanti County": {
+   "fips": "27059",
+   "centroid": [
+    45.5624,
+    -93.2963
+   ],
+   "latitude": 45.6,
+   "bbox": [
+    -93.5137,
+    45.411,
+    -93.0193,
+    45.7354
+   ],
+   "coastal": false,
+   "elevation_ft": 940,
+   "zone": "4b",
+   "jan_low_f": 4,
+   "jul_high_f": 82,
+   "record_low_f": -42,
+   "record_high_f": 109,
+   "precip_in": 29.7,
+   "snow_in": 44,
+   "last_frost": "May 2",
+   "first_frost": "Oct 4",
+   "growing_days": 153,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "WNG676",
+     "freq": "162.500",
+     "same": "027059"
+    },
+    {
+     "call": "WNG678",
+     "freq": "162.425",
+     "same": "027059"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.2
+  },
+  "Itasca County": {
+   "fips": "27061",
+   "centroid": [
+    47.4908,
+    -93.6111
+   ],
+   "latitude": 47.5,
+   "bbox": [
+    -94.4192,
+    47.0252,
+    -93.0558,
+    47.8989
+   ],
+   "coastal": false,
+   "elevation_ft": 1400,
+   "zone": "3b",
+   "jan_low_f": -5,
+   "jul_high_f": 77,
+   "record_low_f": -59,
+   "record_high_f": 103,
+   "precip_in": 31.1,
+   "snow_in": 64,
+   "last_frost": "May 14",
+   "first_frost": "Oct 2",
+   "growing_days": 140,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Duluth, MN",
+   "nws_cwa": "DLH",
+   "nwr": [
+    {
+     "call": "WXM99",
+     "freq": "162.425",
+     "same": "027061"
+    },
+    {
+     "call": "KZZ29",
+     "freq": "162.400",
+     "same": "027061"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.0,
+   "sun_hours_jun": 5.1
+  },
+  "Jackson County": {
+   "fips": "27063",
+   "centroid": [
+    43.6711,
+    -95.1497
+   ],
+   "latitude": 43.7,
+   "bbox": [
+    -95.4547,
+    43.5001,
+    -94.8544,
+    43.8481
+   ],
+   "coastal": false,
+   "elevation_ft": 1500,
+   "zone": "5a",
+   "jan_low_f": 5,
+   "jul_high_f": 81,
+   "record_low_f": -31,
+   "record_high_f": 98,
+   "precip_in": 30.5,
+   "snow_in": 48,
+   "last_frost": "May 2",
+   "first_frost": "Oct 2",
+   "growing_days": 153,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "KXI31",
+     "freq": "162.450",
+     "same": "027063"
+    },
+    {
+     "call": "KZZ80",
+     "freq": "162.550",
+     "same": "027063"
+    },
+    {
+     "call": "KXI39",
+     "freq": "162.525",
+     "same": "027063"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.5
+  },
+  "Kanabec County": {
+   "fips": "27065",
+   "centroid": [
+    45.9478,
+    -93.2978
+   ],
+   "latitude": 45.9,
+   "bbox": [
+    -93.5189,
+    45.7305,
+    -93.0539,
+    46.1594
+   ],
+   "coastal": false,
+   "elevation_ft": 1050,
+   "zone": "4a",
+   "jan_low_f": 0,
+   "jul_high_f": 80,
+   "record_low_f": -52,
+   "record_high_f": 108,
+   "precip_in": 31.7,
+   "snow_in": 52,
+   "last_frost": "May 9",
+   "first_frost": "Sep 30",
+   "growing_days": 142,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "KZZ84",
+     "freq": "162.450",
+     "same": "027065"
+    },
+    {
+     "call": "WNG678",
+     "freq": "162.425",
+     "same": "027065"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.2
+  },
+  "Kandiyohi County": {
+   "fips": "27067",
+   "centroid": [
+    45.1527,
+    -95.005
+   ],
+   "latitude": 45.2,
+   "bbox": [
+    -95.2553,
+    44.8913,
+    -94.7571,
+    45.413
+   ],
+   "coastal": false,
+   "elevation_ft": 1180,
+   "zone": "4b",
+   "jan_low_f": 1,
+   "jul_high_f": 81,
+   "record_low_f": -41,
+   "record_high_f": 107,
+   "precip_in": 29.5,
+   "snow_in": 46,
+   "last_frost": "May 1",
+   "first_frost": "Oct 6",
+   "growing_days": 156,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "KXI32",
+     "freq": "162.550",
+     "same": "027067"
+    },
+    {
+     "call": "WNG711",
+     "freq": "162.400",
+     "same": "027067"
+    },
+    {
+     "call": "WXK44",
+     "freq": "162.475",
+     "same": "027067"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.3
+  },
+  "Kittson County": {
+   "fips": "27069",
+   "centroid": [
+    48.776,
+    -96.7803
+   ],
+   "latitude": 48.8,
+   "bbox": [
+    -97.2389,
+    48.5432,
+    -96.3866,
+    49.0
+   ],
+   "coastal": false,
+   "elevation_ft": 900,
+   "zone": "3b",
+   "jan_low_f": -4,
+   "jul_high_f": 79,
+   "record_low_f": -49,
+   "record_high_f": 109,
+   "precip_in": 22.3,
+   "snow_in": 44,
+   "last_frost": "May 8",
+   "first_frost": "Sep 30",
+   "growing_days": 142,
+   "ecoregion": "Lake Agassiz Plain",
+   "ecoregion_code": "48",
+   "nws_office": "Grand Forks, ND",
+   "nws_cwa": "FGF",
+   "nwr": [
+    {
+     "call": "WNG583",
+     "freq": "162.525",
+     "same": "027069"
+    },
+    {
+     "call": "WXK43",
+     "freq": "162.550",
+     "same": "027069"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.2
+  },
+  "Koochiching County": {
+   "fips": "27071",
+   "centroid": [
+    48.2454,
+    -93.7829
+   ],
+   "latitude": 48.2,
+   "bbox": [
+    -94.4303,
+    47.8458,
+    -93.0809,
+    48.7119
+   ],
+   "coastal": false,
+   "elevation_ft": 1200,
+   "zone": "3b",
+   "jan_low_f": -5,
+   "jul_high_f": 76,
+   "record_low_f": -53,
+   "record_high_f": 106,
+   "precip_in": 27.3,
+   "snow_in": 54,
+   "last_frost": "May 24",
+   "first_frost": "Sep 20",
+   "growing_days": 117,
+   "ecoregion": "Northern Minnesota Wetlands",
+   "ecoregion_code": "49",
+   "nws_office": "Duluth, MN",
+   "nws_cwa": "DLH",
+   "nwr": [
+    {
+     "call": "KZZ44",
+     "freq": "162.450",
+     "same": "027071"
+    },
+    {
+     "call": "WXK45",
+     "freq": "162.550",
+     "same": "027071"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.0
+  },
+  "Lac qui Parle County": {
+   "fips": "27073",
+   "centroid": [
+    44.9998,
+    -96.1769
+   ],
+   "latitude": 45.0,
+   "bbox": [
+    -96.453,
+    44.8048,
+    -95.7367,
+    45.2692
+   ],
+   "coastal": false,
+   "elevation_ft": 1080,
+   "zone": "4b",
+   "jan_low_f": 3,
+   "jul_high_f": 82,
+   "record_low_f": -36,
+   "record_high_f": 110,
+   "precip_in": 25.6,
+   "snow_in": 47,
+   "last_frost": "May 3",
+   "first_frost": "Oct 2",
+   "growing_days": 151,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "KXI32",
+     "freq": "162.550",
+     "same": "027073"
+    },
+    {
+     "call": "WXM41",
+     "freq": "162.425",
+     "same": "027073"
+    },
+    {
+     "call": "WXK44",
+     "freq": "162.475",
+     "same": "027073"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Lake County": {
+   "fips": "27075",
+   "centroid": [
+    47.5171,
+    -91.4117
+   ],
+   "latitude": 47.5,
+   "bbox": [
+    -91.8004,
+    46.9418,
+    -91.0213,
+    48.2058
+   ],
+   "coastal": false,
+   "elevation_ft": 1960,
+   "zone": "3b",
+   "jan_low_f": -5,
+   "jul_high_f": 76,
+   "record_low_f": -40,
+   "record_high_f": 98,
+   "precip_in": 29.9,
+   "snow_in": 94,
+   "last_frost": "May 31",
+   "first_frost": "Sep 15",
+   "growing_days": 104,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Duluth, MN",
+   "nws_cwa": "DLH",
+   "nwr": [
+    {
+     "call": "KIG64",
+     "freq": "162.550",
+     "same": "027075"
+    },
+    {
+     "call": "KXI44",
+     "freq": "162.500",
+     "same": "027075"
+    },
+    {
+     "call": "WNG630",
+     "freq": "162.425",
+     "same": "027075"
+    },
+    {
+     "call": "KXI45",
+     "freq": "162.525",
+     "same": "027075"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.1
+  },
+  "Lake of the Woods County": {
+   "fips": "27077",
+   "centroid": [
+    48.7681,
+    -94.9046
+   ],
+   "latitude": 48.8,
+   "bbox": [
+    -95.3426,
+    48.366,
+    -94.4287,
+    49.3884
+   ],
+   "coastal": false,
+   "elevation_ft": 1140,
+   "zone": "3b",
+   "jan_low_f": -4,
+   "jul_high_f": 78,
+   "record_low_f": -41,
+   "record_high_f": 98,
+   "precip_in": 23.2,
+   "snow_in": 46,
+   "last_frost": "May 15",
+   "first_frost": "Sep 26",
+   "growing_days": 132,
+   "ecoregion": "Northern Minnesota Wetlands",
+   "ecoregion_code": "49",
+   "nws_office": "Grand Forks, ND",
+   "nws_cwa": "FGF",
+   "nwr": [
+    {
+     "call": "WWF45",
+     "freq": "162.450",
+     "same": "027077"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.1
+  },
+  "Le Sueur County": {
+   "fips": "27079",
+   "centroid": [
+    44.3734,
+    -93.7301
+   ],
+   "latitude": 44.4,
+   "bbox": [
+    -94.0248,
+    44.1952,
+    -93.5232,
+    44.5439
+   ],
+   "coastal": false,
+   "elevation_ft": 1070,
+   "zone": "4b",
+   "jan_low_f": 3,
+   "jul_high_f": 82,
+   "record_low_f": -40,
+   "record_high_f": 109,
+   "precip_in": 32.4,
+   "snow_in": 38,
+   "last_frost": "May 2",
+   "first_frost": "Oct 4",
+   "growing_days": 153,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "WXK40",
+     "freq": "162.400",
+     "same": "027079"
+    },
+    {
+     "call": "WNG685",
+     "freq": "162.425",
+     "same": "027079"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Lincoln County": {
+   "fips": "27081",
+   "centroid": [
+    44.4082,
+    -96.272
+   ],
+   "latitude": 44.4,
+   "bbox": [
+    -96.4527,
+    44.1966,
+    -96.0787,
+    44.6313
+   ],
+   "coastal": false,
+   "elevation_ft": 1740,
+   "zone": "4b",
+   "jan_low_f": 3,
+   "jul_high_f": 80,
+   "record_low_f": -41,
+   "record_high_f": 109,
+   "precip_in": 29.9,
+   "snow_in": 42,
+   "last_frost": "May 6",
+   "first_frost": "Oct 3",
+   "growing_days": 150,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "KXI50",
+     "freq": "162.500",
+     "same": "027081"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Lyon County": {
+   "fips": "27083",
+   "centroid": [
+    44.4092,
+    -95.8473
+   ],
+   "latitude": 44.4,
+   "bbox": [
+    -96.0933,
+    44.1951,
+    -95.5933,
+    44.6309
+   ],
+   "coastal": false,
+   "elevation_ft": 1260,
+   "zone": "5a",
+   "jan_low_f": 4,
+   "jul_high_f": 85,
+   "record_low_f": -36,
+   "record_high_f": 109,
+   "precip_in": 28.9,
+   "snow_in": 44,
+   "last_frost": "May 5",
+   "first_frost": "Oct 3",
+   "growing_days": 150,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "KXI50",
+     "freq": "162.500",
+     "same": "027083"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.4
+  },
+  "McLeod County": {
+   "fips": "27085",
+   "centroid": [
+    44.8217,
+    -94.2723
+   ],
+   "latitude": 44.8,
+   "bbox": [
+    -94.5023,
+    44.6298,
+    -94.0097,
+    44.9796
+   ],
+   "coastal": false,
+   "elevation_ft": 1030,
+   "zone": "4b",
+   "jan_low_f": 3,
+   "jul_high_f": 81,
+   "record_low_f": -39,
+   "record_high_f": 104,
+   "precip_in": 31.7,
+   "snow_in": 50,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 4",
+   "growing_days": 156,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "WNG676",
+     "freq": "162.500",
+     "same": "027085"
+    },
+    {
+     "call": "KXI39",
+     "freq": "162.525",
+     "same": "027085"
+    },
+    {
+     "call": "WNG685",
+     "freq": "162.425",
+     "same": "027085"
+    },
+    {
+     "call": "WXK44",
+     "freq": "162.475",
+     "same": "027085"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.3
+  },
+  "Mahnomen County": {
+   "fips": "27087",
+   "centroid": [
+    47.3284,
+    -95.8111
+   ],
+   "latitude": 47.3,
+   "bbox": [
+    -96.0675,
+    47.15,
+    -95.5509,
+    47.5003
+   ],
+   "coastal": false,
+   "elevation_ft": 1280,
+   "zone": "4a",
+   "jan_low_f": -2,
+   "jul_high_f": 78,
+   "record_low_f": -53,
+   "record_high_f": 103,
+   "precip_in": 26.4,
+   "snow_in": 52,
+   "last_frost": "May 7",
+   "first_frost": "Sep 28",
+   "growing_days": 143,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "Grand Forks, ND",
+   "nws_cwa": "FGF",
+   "nwr": [
+    {
+     "call": "WXM64",
+     "freq": "162.400",
+     "same": "027087"
+    },
+    {
+     "call": "WNG610",
+     "freq": "162.450",
+     "same": "027087"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.2
+  },
+  "Marshall County": {
+   "fips": "27089",
+   "centroid": [
+    48.3627,
+    -96.3578
+   ],
+   "latitude": 48.4,
+   "bbox": [
+    -97.1634,
+    48.1716,
+    -95.5928,
+    48.5451
+   ],
+   "coastal": false,
+   "elevation_ft": 1090,
+   "zone": "3b",
+   "jan_low_f": -3,
+   "jul_high_f": 80,
+   "record_low_f": -45,
+   "record_high_f": 108,
+   "precip_in": 24.4,
+   "snow_in": 44,
+   "last_frost": "May 14",
+   "first_frost": "Sep 28",
+   "growing_days": 135,
+   "ecoregion": "Lake Agassiz Plain",
+   "ecoregion_code": "48",
+   "nws_office": "Grand Forks, ND",
+   "nws_cwa": "FGF",
+   "nwr": [
+    {
+     "call": "WXM38",
+     "freq": "162.400",
+     "same": "027089"
+    },
+    {
+     "call": "WXK43",
+     "freq": "162.550",
+     "same": "027089"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.2
+  },
+  "Martin County": {
+   "fips": "27091",
+   "centroid": [
+    43.6772,
+    -94.5471
+   ],
+   "latitude": 43.7,
+   "bbox": [
+    -94.8548,
+    43.5001,
+    -94.2473,
+    43.8481
+   ],
+   "coastal": false,
+   "elevation_ft": 1220,
+   "zone": "5a",
+   "jan_low_f": 7,
+   "jul_high_f": 83,
+   "record_low_f": -35,
+   "record_high_f": 109,
+   "precip_in": 33.5,
+   "snow_in": 40,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 14",
+   "growing_days": 171,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "WXK40",
+     "freq": "162.400",
+     "same": "027091"
+    },
+    {
+     "call": "KXI39",
+     "freq": "162.525",
+     "same": "027091"
+    },
+    {
+     "call": "WNG688",
+     "freq": "162.475",
+     "same": "027091"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.4
+  },
+  "Meeker County": {
+   "fips": "27093",
+   "centroid": [
+    45.1232,
+    -94.5273
+   ],
+   "latitude": 45.1,
+   "bbox": [
+    -94.7636,
+    44.8918,
+    -94.2557,
+    45.3267
+   ],
+   "coastal": false,
+   "elevation_ft": 1130,
+   "zone": "4b",
+   "jan_low_f": 0,
+   "jul_high_f": 81,
+   "record_low_f": -37,
+   "record_high_f": 104,
+   "precip_in": 29.8,
+   "snow_in": 41,
+   "last_frost": "May 6",
+   "first_frost": "Oct 2",
+   "growing_days": 147,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "WNG676",
+     "freq": "162.500",
+     "same": "027093"
+    },
+    {
+     "call": "WNG685",
+     "freq": "162.425",
+     "same": "027093"
+    },
+    {
+     "call": "WXK44",
+     "freq": "162.475",
+     "same": "027093"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.3
+  },
+  "Mille Lacs County": {
+   "fips": "27095",
+   "centroid": [
+    45.9293,
+    -93.6327
+   ],
+   "latitude": 45.9,
+   "bbox": [
+    -93.8109,
+    45.5589,
+    -93.4296,
+    46.2471
+   ],
+   "coastal": false,
+   "elevation_ft": 1230,
+   "zone": "4a",
+   "jan_low_f": 0,
+   "jul_high_f": 80,
+   "record_low_f": -48,
+   "record_high_f": 108,
+   "precip_in": 30.8,
+   "snow_in": 49,
+   "last_frost": "May 8",
+   "first_frost": "Oct 1",
+   "growing_days": 143,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "KZZ84",
+     "freq": "162.450",
+     "same": "027095"
+    },
+    {
+     "call": "WNG676",
+     "freq": "162.500",
+     "same": "027095"
+    },
+    {
+     "call": "WNG678",
+     "freq": "162.425",
+     "same": "027095"
+    },
+    {
+     "call": "WXL65",
+     "freq": "162.400",
+     "same": "027095"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.2
+  },
+  "Morrison County": {
+   "fips": "27097",
+   "centroid": [
+    46.0205,
+    -94.2666
+   ],
+   "latitude": 46.0,
+   "bbox": [
+    -94.6535,
+    45.774,
+    -93.764,
+    46.3484
+   ],
+   "coastal": false,
+   "elevation_ft": 1150,
+   "zone": "4a",
+   "jan_low_f": 4,
+   "jul_high_f": 85,
+   "record_low_f": -46,
+   "record_high_f": 106,
+   "precip_in": 27.2,
+   "snow_in": 53,
+   "last_frost": "May 4",
+   "first_frost": "Oct 5",
+   "growing_days": 151,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "KZZ84",
+     "freq": "162.450",
+     "same": "027097"
+    },
+    {
+     "call": "WXJ64",
+     "freq": "162.550",
+     "same": "027097"
+    },
+    {
+     "call": "WNG673",
+     "freq": "162.525",
+     "same": "027097"
+    },
+    {
+     "call": "WXL65",
+     "freq": "162.400",
+     "same": "027097"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.3
+  },
+  "Mower County": {
+   "fips": "27099",
+   "centroid": [
+    43.6662,
+    -92.7595
+   ],
+   "latitude": 43.7,
+   "bbox": [
+    -93.0498,
+    43.4995,
+    -92.4489,
+    43.8487
+   ],
+   "coastal": false,
+   "elevation_ft": 1360,
+   "zone": "4b",
+   "jan_low_f": 5,
+   "jul_high_f": 79,
+   "record_low_f": -38,
+   "record_high_f": 107,
+   "precip_in": 37.4,
+   "snow_in": 51,
+   "last_frost": "May 6",
+   "first_frost": "Oct 1",
+   "growing_days": 146,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "La Crosse, WI",
+   "nws_cwa": "ARX",
+   "nwr": [
+    {
+     "call": "WXK40",
+     "freq": "162.400",
+     "same": "027099"
+    },
+    {
+     "call": "WXK41",
+     "freq": "162.475",
+     "same": "027099"
+    },
+    {
+     "call": "KXI68",
+     "freq": "162.450",
+     "same": "027099"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.3
+  },
+  "Murray County": {
+   "fips": "27101",
+   "centroid": [
+    44.0156,
+    -95.7616
+   ],
+   "latitude": 44.0,
+   "bbox": [
+    -96.0644,
+    43.8477,
+    -95.4615,
+    44.1966
+   ],
+   "coastal": false,
+   "elevation_ft": 1580,
+   "zone": "5a",
+   "jan_low_f": 4,
+   "jul_high_f": 81,
+   "record_low_f": -33,
+   "record_high_f": 105,
+   "precip_in": 30.1,
+   "snow_in": 46,
+   "last_frost": "May 7",
+   "first_frost": "Sep 29",
+   "growing_days": 145,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "WNG702",
+     "freq": "162.425",
+     "same": "027101"
+    },
+    {
+     "call": "KXI31",
+     "freq": "162.450",
+     "same": "027101"
+    },
+    {
+     "call": "KXI50",
+     "freq": "162.500",
+     "same": "027101"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.4
+  },
+  "Nicollet County": {
+   "fips": "27103",
+   "centroid": [
+    44.3588,
+    -94.2457
+   ],
+   "latitude": 44.4,
+   "bbox": [
+    -94.7858,
+    44.154,
+    -93.9278,
+    44.4579
+   ],
+   "coastal": false,
+   "elevation_ft": 990,
+   "zone": "4b",
+   "jan_low_f": 4,
+   "jul_high_f": 81,
+   "record_low_f": -34,
+   "record_high_f": 105,
+   "precip_in": 32.8,
+   "snow_in": 38,
+   "last_frost": "May 2",
+   "first_frost": "Oct 7",
+   "growing_days": 157,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "WXK40",
+     "freq": "162.400",
+     "same": "027103"
+    },
+    {
+     "call": "KXI39",
+     "freq": "162.525",
+     "same": "027103"
+    },
+    {
+     "call": "WNG685",
+     "freq": "162.425",
+     "same": "027103"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.3
+  },
+  "Nobles County": {
+   "fips": "27105",
+   "centroid": [
+    43.6777,
+    -95.7631
+   ],
+   "latitude": 43.7,
+   "bbox": [
+    -96.0538,
+    43.4997,
+    -95.4522,
+    43.8492
+   ],
+   "coastal": false,
+   "elevation_ft": 1660,
+   "zone": "5a",
+   "jan_low_f": 5,
+   "jul_high_f": 82,
+   "record_low_f": -31,
+   "record_high_f": 104,
+   "precip_in": 30.5,
+   "snow_in": 45,
+   "last_frost": "May 3",
+   "first_frost": "Oct 4",
+   "growing_days": 153,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "WNG702",
+     "freq": "162.425",
+     "same": "027105"
+    },
+    {
+     "call": "KXI31",
+     "freq": "162.450",
+     "same": "027105"
+    },
+    {
+     "call": "WXM28",
+     "freq": "162.400",
+     "same": "027105"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.5
+  },
+  "Norman County": {
+   "fips": "27107",
+   "centroid": [
+    47.3295,
+    -96.4638
+   ],
+   "latitude": 47.3,
+   "bbox": [
+    -96.8664,
+    47.1505,
+    -96.0666,
+    47.4997
+   ],
+   "coastal": false,
+   "elevation_ft": 910,
+   "zone": "4a",
+   "jan_low_f": -4,
+   "jul_high_f": 81,
+   "record_low_f": -53,
+   "record_high_f": 111,
+   "precip_in": 25.0,
+   "snow_in": 41,
+   "last_frost": "May 11",
+   "first_frost": "Sep 27",
+   "growing_days": 137,
+   "ecoregion": "Lake Agassiz Plain",
+   "ecoregion_code": "48",
+   "nws_office": "Grand Forks, ND",
+   "nws_cwa": "FGF",
+   "nwr": [
+    {
+     "call": "WXM64",
+     "freq": "162.400",
+     "same": "027107"
+    },
+    {
+     "call": "WXK42",
+     "freq": "162.475",
+     "same": "027107"
+    },
+    {
+     "call": "WNG610",
+     "freq": "162.450",
+     "same": "027107"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Olmsted County": {
+   "fips": "27109",
+   "centroid": [
+    43.9995,
+    -92.4101
+   ],
+   "latitude": 44.0,
+   "bbox": [
+    -92.6898,
+    43.8336,
+    -92.0785,
+    44.1956
+   ],
+   "coastal": false,
+   "elevation_ft": 1210,
+   "zone": "4b",
+   "jan_low_f": 7,
+   "jul_high_f": 80,
+   "record_low_f": -42,
+   "record_high_f": 108,
+   "precip_in": 34.7,
+   "snow_in": 53,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 6",
+   "growing_days": 159,
+   "ecoregion": "Driftless Area",
+   "ecoregion_code": "52",
+   "nws_office": "La Crosse, WI",
+   "nws_cwa": "ARX",
+   "nwr": [
+    {
+     "call": "WXK41",
+     "freq": "162.475",
+     "same": "027109"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.3
+  },
+  "Otter Tail County": {
+   "fips": "27111",
+   "centroid": [
+    46.4057,
+    -95.7146
+   ],
+   "latitude": 46.4,
+   "bbox": [
+    -96.2812,
+    46.1067,
+    -95.1456,
+    46.7183
+   ],
+   "coastal": false,
+   "elevation_ft": 1330,
+   "zone": "4a",
+   "jan_low_f": -2,
+   "jul_high_f": 79,
+   "record_low_f": -45,
+   "record_high_f": 102,
+   "precip_in": 28.2,
+   "snow_in": 46,
+   "last_frost": "May 5",
+   "first_frost": "Oct 5",
+   "growing_days": 153,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "Grand Forks, ND",
+   "nws_cwa": "FGF",
+   "nwr": [
+    {
+     "call": "WXM64",
+     "freq": "162.400",
+     "same": "027111"
+    },
+    {
+     "call": "WNG680",
+     "freq": "162.500",
+     "same": "027111"
+    },
+    {
+     "call": "WXJ64",
+     "freq": "162.550",
+     "same": "027111"
+    },
+    {
+     "call": "WNG673",
+     "freq": "162.525",
+     "same": "027111"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.3
+  },
+  "Pennington County": {
+   "fips": "27113",
+   "centroid": [
+    48.0692,
+    -96.0377
+   ],
+   "latitude": 48.1,
+   "bbox": [
+    -96.501,
+    47.934,
+    -95.5822,
+    48.1751
+   ],
+   "coastal": false,
+   "elevation_ft": 1140,
+   "zone": "3b",
+   "jan_low_f": -3,
+   "jul_high_f": 80,
+   "record_low_f": -45,
+   "record_high_f": 108,
+   "precip_in": 24.4,
+   "snow_in": 50,
+   "last_frost": "May 14",
+   "first_frost": "Sep 28",
+   "growing_days": 135,
+   "ecoregion": "Lake Agassiz Plain",
+   "ecoregion_code": "48",
+   "nws_office": "Grand Forks, ND",
+   "nws_cwa": "FGF",
+   "nwr": [
+    {
+     "call": "WXK43",
+     "freq": "162.550",
+     "same": "027113"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.2
+  },
+  "Pine County": {
+   "fips": "27115",
+   "centroid": [
+    46.1009,
+    -92.7631
+   ],
+   "latitude": 46.1,
+   "bbox": [
+    -93.1432,
+    45.7294,
+    -92.2928,
+    46.4194
+   ],
+   "coastal": false,
+   "elevation_ft": 1080,
+   "zone": "4a",
+   "jan_low_f": 2,
+   "jul_high_f": 79,
+   "record_low_f": -41,
+   "record_high_f": 102,
+   "precip_in": 33.3,
+   "snow_in": 45,
+   "last_frost": "May 13",
+   "first_frost": "Sep 29",
+   "growing_days": 137,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Duluth, MN",
+   "nws_cwa": "DLH",
+   "nwr": [
+    {
+     "call": "KZZ84",
+     "freq": "162.450",
+     "same": "027115"
+    },
+    {
+     "call": "KIG64",
+     "freq": "162.550",
+     "same": "027115"
+    },
+    {
+     "call": "WNG678",
+     "freq": "162.425",
+     "same": "027115"
+    },
+    {
+     "call": "KZZ79",
+     "freq": "162.475",
+     "same": "027115"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.2
+  },
+  "Pipestone County": {
+   "fips": "27117",
+   "centroid": [
+    44.0154,
+    -96.257
+   ],
+   "latitude": 44.0,
+   "bbox": [
+    -96.4535,
+    43.8485,
+    -96.0635,
+    44.1975
+   ],
+   "coastal": false,
+   "elevation_ft": 1750,
+   "zone": "4b",
+   "jan_low_f": 5,
+   "jul_high_f": 82,
+   "record_low_f": -44,
+   "record_high_f": 108,
+   "precip_in": 28.6,
+   "snow_in": 40,
+   "last_frost": "May 4",
+   "first_frost": "Oct 2",
+   "growing_days": 152,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "KXI50",
+     "freq": "162.500",
+     "same": "027117"
+    },
+    {
+     "call": "WXM28",
+     "freq": "162.400",
+     "same": "027117"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Polk County": {
+   "fips": "27119",
+   "centroid": [
+    47.7743,
+    -96.4
+   ],
+   "latitude": 47.8,
+   "bbox": [
+    -97.1475,
+    47.4982,
+    -95.5533,
+    48.1741
+   ],
+   "coastal": false,
+   "elevation_ft": 1000,
+   "zone": "4a",
+   "jan_low_f": -3,
+   "jul_high_f": 79,
+   "record_low_f": -50,
+   "record_high_f": 110,
+   "precip_in": 24.3,
+   "snow_in": 50,
+   "last_frost": "May 9",
+   "first_frost": "Sep 30",
+   "growing_days": 142,
+   "ecoregion": "Lake Agassiz Plain",
+   "ecoregion_code": "48",
+   "nws_office": "Grand Forks, ND",
+   "nws_cwa": "FGF",
+   "nwr": [
+    {
+     "call": "WWF83",
+     "freq": "162.475",
+     "same": "027119"
+    },
+    {
+     "call": "WXK43",
+     "freq": "162.550",
+     "same": "027119"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Pope County": {
+   "fips": "27121",
+   "centroid": [
+    45.5896,
+    -95.4467
+   ],
+   "latitude": 45.6,
+   "bbox": [
+    -95.7589,
+    45.4119,
+    -95.1313,
+    45.76
+   ],
+   "coastal": false,
+   "elevation_ft": 1260,
+   "zone": "4b",
+   "jan_low_f": 2,
+   "jul_high_f": 83,
+   "record_low_f": -41,
+   "record_high_f": 103,
+   "precip_in": 26.4,
+   "snow_in": 46,
+   "last_frost": "May 11",
+   "first_frost": "Sep 27",
+   "growing_days": 139,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "KXI32",
+     "freq": "162.550",
+     "same": "027121"
+    },
+    {
+     "call": "WNG707",
+     "freq": "162.400",
+     "same": "027121"
+    },
+    {
+     "call": "WNG673",
+     "freq": "162.525",
+     "same": "027121"
+    },
+    {
+     "call": "WXK44",
+     "freq": "162.475",
+     "same": "027121"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.3
+  },
+  "Ramsey County": {
+   "fips": "27123",
+   "centroid": [
+    45.0152,
+    -93.1
+   ],
+   "latitude": 45.0,
+   "bbox": [
+    -93.2277,
+    44.8874,
+    -92.9838,
+    45.1245
+   ],
+   "coastal": false,
+   "elevation_ft": 950,
+   "zone": "5a",
+   "jan_low_f": 8,
+   "jul_high_f": 83,
+   "record_low_f": -40,
+   "record_high_f": 107,
+   "precip_in": 33.1,
+   "snow_in": 40,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 20",
+   "growing_days": 177,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "KEC65",
+     "freq": "162.550",
+     "same": "027123"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.2
+  },
+  "Red Lake County": {
+   "fips": "27125",
+   "centroid": [
+    47.8655,
+    -96.0872
+   ],
+   "latitude": 47.9,
+   "bbox": [
+    -96.4827,
+    47.7597,
+    -95.7091,
+    47.9646
+   ],
+   "coastal": false,
+   "elevation_ft": 1110,
+   "zone": "3b",
+   "jan_low_f": -3,
+   "jul_high_f": 79,
+   "record_low_f": -50,
+   "record_high_f": 110,
+   "precip_in": 24.3,
+   "snow_in": 50,
+   "last_frost": "May 9",
+   "first_frost": "Sep 30",
+   "growing_days": 142,
+   "ecoregion": "Lake Agassiz Plain",
+   "ecoregion_code": "48",
+   "nws_office": "Grand Forks, ND",
+   "nws_cwa": "FGF",
+   "nwr": [
+    {
+     "call": "WXK43",
+     "freq": "162.550",
+     "same": "027125"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Redwood County": {
+   "fips": "27127",
+   "centroid": [
+    44.4035,
+    -95.2542
+   ],
+   "latitude": 44.4,
+   "bbox": [
+    -95.5949,
+    44.195,
+    -94.8653,
+    44.6992
+   ],
+   "coastal": false,
+   "elevation_ft": 1080,
+   "zone": "4b",
+   "jan_low_f": 5,
+   "jul_high_f": 82,
+   "record_low_f": -34,
+   "record_high_f": 106,
+   "precip_in": 29.3,
+   "snow_in": 46,
+   "last_frost": "May 3",
+   "first_frost": "Oct 2",
+   "growing_days": 152,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "KXI31",
+     "freq": "162.450",
+     "same": "027127"
+    },
+    {
+     "call": "KXI39",
+     "freq": "162.525",
+     "same": "027127"
+    },
+    {
+     "call": "WNG711",
+     "freq": "162.400",
+     "same": "027127"
+    },
+    {
+     "call": "KXI50",
+     "freq": "162.500",
+     "same": "027127"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.4
+  },
+  "Renville County": {
+   "fips": "27129",
+   "centroid": [
+    44.7237,
+    -94.9556
+   ],
+   "latitude": 44.7,
+   "bbox": [
+    -95.4834,
+    44.4561,
+    -94.4977,
+    44.8925
+   ],
+   "coastal": false,
+   "elevation_ft": 1100,
+   "zone": "4b",
+   "jan_low_f": 2,
+   "jul_high_f": 82,
+   "record_low_f": -37,
+   "record_high_f": 108,
+   "precip_in": 27.9,
+   "snow_in": 38,
+   "last_frost": "May 6",
+   "first_frost": "Oct 1",
+   "growing_days": 146,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "KXI32",
+     "freq": "162.550",
+     "same": "027129"
+    },
+    {
+     "call": "KXI39",
+     "freq": "162.525",
+     "same": "027129"
+    },
+    {
+     "call": "WNG685",
+     "freq": "162.425",
+     "same": "027129"
+    },
+    {
+     "call": "WNG711",
+     "freq": "162.400",
+     "same": "027129"
+    },
+    {
+     "call": "WXK44",
+     "freq": "162.475",
+     "same": "027129"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.3
+  },
+  "Rice County": {
+   "fips": "27131",
+   "centroid": [
+    44.3508,
+    -93.2985
+   ],
+   "latitude": 44.4,
+   "bbox": [
+    -93.5258,
+    44.196,
+    -93.0392,
+    44.5439
+   ],
+   "coastal": false,
+   "elevation_ft": 1110,
+   "zone": "4b",
+   "jan_low_f": 5,
+   "jul_high_f": 82,
+   "record_low_f": -40,
+   "record_high_f": 110,
+   "precip_in": 35.5,
+   "snow_in": 43,
+   "last_frost": "May 5",
+   "first_frost": "Oct 5",
+   "growing_days": 152,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "WXK40",
+     "freq": "162.400",
+     "same": "027131"
+    },
+    {
+     "call": "KEC65",
+     "freq": "162.550",
+     "same": "027131"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Rock County": {
+   "fips": "27133",
+   "centroid": [
+    43.6696,
+    -96.2632
+   ],
+   "latitude": 43.7,
+   "bbox": [
+    -96.4535,
+    43.5001,
+    -96.0521,
+    43.8496
+   ],
+   "coastal": false,
+   "elevation_ft": 1520,
+   "zone": "5a",
+   "jan_low_f": 6,
+   "jul_high_f": 83,
+   "record_low_f": -40,
+   "record_high_f": 111,
+   "precip_in": 30.0,
+   "snow_in": 35,
+   "last_frost": "May 1",
+   "first_frost": "Oct 4",
+   "growing_days": 155,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "WXM28",
+     "freq": "162.400",
+     "same": "027133"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.6
+  },
+  "Roseau County": {
+   "fips": "27135",
+   "centroid": [
+    48.7611,
+    -95.8215
+   ],
+   "latitude": 48.8,
+   "bbox": [
+    -96.4056,
+    48.5385,
+    -95.0895,
+    48.9999
+   ],
+   "coastal": false,
+   "elevation_ft": 1110,
+   "zone": "3b",
+   "jan_low_f": -8,
+   "jul_high_f": 77,
+   "record_low_f": -55,
+   "record_high_f": 103,
+   "precip_in": 27.7,
+   "snow_in": 46,
+   "last_frost": "May 16",
+   "first_frost": "Sep 24",
+   "growing_days": 129,
+   "ecoregion": "Lake Agassiz Plain",
+   "ecoregion_code": "48",
+   "nws_office": "Grand Forks, ND",
+   "nws_cwa": "FGF",
+   "nwr": [
+    {
+     "call": "WNG583",
+     "freq": "162.525",
+     "same": "027135"
+    },
+    {
+     "call": "WWF45",
+     "freq": "162.450",
+     "same": "027135"
+    },
+    {
+     "call": "WXK43",
+     "freq": "162.550",
+     "same": "027135"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.1
+  },
+  "St. Louis County": {
+   "fips": "27137",
+   "centroid": [
+    47.5786,
+    -92.5146
+   ],
+   "latitude": 47.6,
+   "bbox": [
+    -93.0977,
+    46.6506,
+    -91.7854,
+    48.6315
+   ],
+   "coastal": false,
+   "elevation_ft": 1590,
+   "zone": "4a",
+   "jan_low_f": -2,
+   "jul_high_f": 77,
+   "record_low_f": -44,
+   "record_high_f": 98,
+   "precip_in": 27.6,
+   "snow_in": 69,
+   "last_frost": "May 12",
+   "first_frost": "Oct 1",
+   "growing_days": 141,
+   "ecoregion": "Northern Lakes and Forests",
+   "ecoregion_code": "50",
+   "nws_office": "Duluth, MN",
+   "nws_cwa": "DLH",
+   "nwr": [
+    {
+     "call": "KZZ44",
+     "freq": "162.450",
+     "same": "027137"
+    },
+    {
+     "call": "KXI44",
+     "freq": "162.500",
+     "same": "027137"
+    },
+    {
+     "call": "KZZ29",
+     "freq": "162.400",
+     "same": "027137"
+    },
+    {
+     "call": "KZZ45",
+     "freq": "162.475",
+     "same": "027137"
+    },
+    {
+     "call": "KIG64",
+     "freq": "162.550",
+     "same": "027137"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.0,
+   "sun_hours_jun": 5.1
+  },
+  "Scott County": {
+   "fips": "27139",
+   "centroid": [
+    44.6518,
+    -93.5337
+   ],
+   "latitude": 44.7,
+   "bbox": [
+    -93.9115,
+    44.5426,
+    -93.2779,
+    44.8121
+   ],
+   "coastal": false,
+   "elevation_ft": 940,
+   "zone": "4b",
+   "jan_low_f": 5,
+   "jul_high_f": 81,
+   "record_low_f": -41,
+   "record_high_f": 105,
+   "precip_in": 33.3,
+   "snow_in": 40,
+   "last_frost": "May 2",
+   "first_frost": "Oct 5",
+   "growing_days": 153,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "KEC65",
+     "freq": "162.550",
+     "same": "027139"
+    },
+    {
+     "call": "WNG685",
+     "freq": "162.425",
+     "same": "027139"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Sherburne County": {
+   "fips": "27141",
+   "centroid": [
+    45.4532,
+    -93.7692
+   ],
+   "latitude": 45.5,
+   "bbox": [
+    -94.1501,
+    45.2448,
+    -93.5098,
+    45.5602
+   ],
+   "coastal": false,
+   "elevation_ft": 970,
+   "zone": "4b",
+   "jan_low_f": 4,
+   "jul_high_f": 81,
+   "record_low_f": -41,
+   "record_high_f": 105,
+   "precip_in": 30.7,
+   "snow_in": 49,
+   "last_frost": "May 7",
+   "first_frost": "Sep 28",
+   "growing_days": 144,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "WNG676",
+     "freq": "162.500",
+     "same": "027141"
+    },
+    {
+     "call": "WXL65",
+     "freq": "162.400",
+     "same": "027141"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.2
+  },
+  "Sibley County": {
+   "fips": "27143",
+   "centroid": [
+    44.5757,
+    -94.2301
+   ],
+   "latitude": 44.6,
+   "bbox": [
+    -94.6298,
+    44.456,
+    -93.7646,
+    44.718
+   ],
+   "coastal": false,
+   "elevation_ft": 1010,
+   "zone": "4b",
+   "jan_low_f": 6,
+   "jul_high_f": 82,
+   "record_low_f": -34,
+   "record_high_f": 105,
+   "precip_in": 31.7,
+   "snow_in": 50,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 15",
+   "growing_days": 170,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "KXI39",
+     "freq": "162.525",
+     "same": "027143"
+    },
+    {
+     "call": "WNG685",
+     "freq": "162.425",
+     "same": "027143"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.3
+  },
+  "Stearns County": {
+   "fips": "27145",
+   "centroid": [
+    45.5552,
+    -94.6105
+   ],
+   "latitude": 45.6,
+   "bbox": [
+    -95.1398,
+    45.2823,
+    -94.0492,
+    45.7754
+   ],
+   "coastal": false,
+   "elevation_ft": 1200,
+   "zone": "4b",
+   "jan_low_f": 4,
+   "jul_high_f": 81,
+   "record_low_f": -39,
+   "record_high_f": 106,
+   "precip_in": 31.0,
+   "snow_in": 57,
+   "last_frost": "May 3",
+   "first_frost": "Oct 7",
+   "growing_days": 155,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "WNG676",
+     "freq": "162.500",
+     "same": "027145"
+    },
+    {
+     "call": "WNG673",
+     "freq": "162.525",
+     "same": "027145"
+    },
+    {
+     "call": "WXL65",
+     "freq": "162.400",
+     "same": "027145"
+    },
+    {
+     "call": "WXK44",
+     "freq": "162.475",
+     "same": "027145"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.3
+  },
+  "Steele County": {
+   "fips": "27147",
+   "centroid": [
+    44.0153,
+    -93.2205
+   ],
+   "latitude": 44.0,
+   "bbox": [
+    -93.4068,
+    43.848,
+    -93.0453,
+    44.1965
+   ],
+   "coastal": false,
+   "elevation_ft": 1180,
+   "zone": "4b",
+   "jan_low_f": 5,
+   "jul_high_f": 82,
+   "record_low_f": -35,
+   "record_high_f": 102,
+   "precip_in": 35.5,
+   "snow_in": 44,
+   "last_frost": "May 5",
+   "first_frost": "Oct 6",
+   "growing_days": 154,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "WXK40",
+     "freq": "162.400",
+     "same": "027147"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Stevens County": {
+   "fips": "27149",
+   "centroid": [
+    45.5935,
+    -95.9923
+   ],
+   "latitude": 45.6,
+   "bbox": [
+    -96.2541,
+    45.4119,
+    -95.7475,
+    45.76
+   ],
+   "coastal": false,
+   "elevation_ft": 1110,
+   "zone": "4b",
+   "jan_low_f": 0,
+   "jul_high_f": 81,
+   "record_low_f": -41,
+   "record_high_f": 109,
+   "precip_in": 26.9,
+   "snow_in": 45,
+   "last_frost": "May 4",
+   "first_frost": "Oct 1",
+   "growing_days": 150,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "KXI32",
+     "freq": "162.550",
+     "same": "027149"
+    },
+    {
+     "call": "WNG707",
+     "freq": "162.400",
+     "same": "027149"
+    },
+    {
+     "call": "WXK44",
+     "freq": "162.475",
+     "same": "027149"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.3
+  },
+  "Swift County": {
+   "fips": "27151",
+   "centroid": [
+    45.2758,
+    -95.6901
+   ],
+   "latitude": 45.3,
+   "bbox": [
+    -96.1183,
+    45.1512,
+    -95.2461,
+    45.4129
+   ],
+   "coastal": false,
+   "elevation_ft": 1030,
+   "zone": "4b",
+   "jan_low_f": 1,
+   "jul_high_f": 83,
+   "record_low_f": -35,
+   "record_high_f": 104,
+   "precip_in": 28.1,
+   "snow_in": 43,
+   "last_frost": "May 4",
+   "first_frost": "Oct 3",
+   "growing_days": 151,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "KXI32",
+     "freq": "162.550",
+     "same": "027151"
+    },
+    {
+     "call": "WXK44",
+     "freq": "162.475",
+     "same": "027151"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.3
+  },
+  "Todd County": {
+   "fips": "27153",
+   "centroid": [
+    46.0666,
+    -94.9006
+   ],
+   "latitude": 46.1,
+   "bbox": [
+    -95.1556,
+    45.7734,
+    -94.6436,
+    46.3697
+   ],
+   "coastal": false,
+   "elevation_ft": 1330,
+   "zone": "4a",
+   "jan_low_f": -1,
+   "jul_high_f": 79,
+   "record_low_f": -45,
+   "record_high_f": 105,
+   "precip_in": 31.0,
+   "snow_in": 54,
+   "last_frost": "May 13",
+   "first_frost": "Sep 27",
+   "growing_days": 134,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "WXJ64",
+     "freq": "162.550",
+     "same": "027153"
+    },
+    {
+     "call": "WNG673",
+     "freq": "162.525",
+     "same": "027153"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.3
+  },
+  "Traverse County": {
+   "fips": "27155",
+   "centroid": [
+    45.7699,
+    -96.4748
+   ],
+   "latitude": 45.8,
+   "bbox": [
+    -96.8573,
+    45.5852,
+    -96.2531,
+    46.0225
+   ],
+   "coastal": false,
+   "elevation_ft": 1020,
+   "zone": "4b",
+   "jan_low_f": 3,
+   "jul_high_f": 82,
+   "record_low_f": -38,
+   "record_high_f": 113,
+   "precip_in": 25.3,
+   "snow_in": 43,
+   "last_frost": "May 1",
+   "first_frost": "Oct 9",
+   "growing_days": 160,
+   "ecoregion": "Lake Agassiz Plain",
+   "ecoregion_code": "48",
+   "nws_office": "Aberdeen, SD",
+   "nws_cwa": "ABR",
+   "nwr": [
+    {
+     "call": "WNG707",
+     "freq": "162.400",
+     "same": "027155"
+    },
+    {
+     "call": "WXM41",
+     "freq": "162.425",
+     "same": "027155"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.5
+  },
+  "Wabasha County": {
+   "fips": "27157",
+   "centroid": [
+    44.2896,
+    -92.2335
+   ],
+   "latitude": 44.3,
+   "bbox": [
+    -92.5513,
+    44.1069,
+    -91.8591,
+    44.4552
+   ],
+   "coastal": false,
+   "elevation_ft": 950,
+   "zone": "4b",
+   "jan_low_f": 4,
+   "jul_high_f": 83,
+   "record_low_f": -44,
+   "record_high_f": 104,
+   "precip_in": 35.5,
+   "snow_in": 48,
+   "last_frost": "May 7",
+   "first_frost": "Oct 2",
+   "growing_days": 148,
+   "ecoregion": "Driftless Area",
+   "ecoregion_code": "52",
+   "nws_office": "La Crosse, WI",
+   "nws_cwa": "ARX",
+   "nwr": [
+    {
+     "call": "KJY80",
+     "freq": "162.450",
+     "same": "027157"
+    },
+    {
+     "call": "WXK41",
+     "freq": "162.475",
+     "same": "027157"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.3
+  },
+  "Wadena County": {
+   "fips": "27159",
+   "centroid": [
+    46.587,
+    -94.9886
+   ],
+   "latitude": 46.6,
+   "bbox": [
+    -95.1639,
+    46.3683,
+    -94.7285,
+    46.8056
+   ],
+   "coastal": false,
+   "elevation_ft": 1350,
+   "zone": "4a",
+   "jan_low_f": -2,
+   "jul_high_f": 78,
+   "record_low_f": -43,
+   "record_high_f": 112,
+   "precip_in": 29.3,
+   "snow_in": 51,
+   "last_frost": "May 10",
+   "first_frost": "Sep 30",
+   "growing_days": 141,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "Grand Forks, ND",
+   "nws_cwa": "FGF",
+   "nwr": [
+    {
+     "call": "WXM64",
+     "freq": "162.400",
+     "same": "027159"
+    },
+    {
+     "call": "WXJ64",
+     "freq": "162.550",
+     "same": "027159"
+    },
+    {
+     "call": "WNG673",
+     "freq": "162.525",
+     "same": "027159"
+    },
+    {
+     "call": "WWG98",
+     "freq": "162.475",
+     "same": "027159"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.3
+  },
+  "Waseca County": {
+   "fips": "27161",
+   "centroid": [
+    44.0185,
+    -93.5898
+   ],
+   "latitude": 44.0,
+   "bbox": [
+    -93.7684,
+    43.848,
+    -93.4061,
+    44.1963
+   ],
+   "coastal": false,
+   "elevation_ft": 1080,
+   "zone": "4b",
+   "jan_low_f": 5,
+   "jul_high_f": 81,
+   "record_low_f": -37,
+   "record_high_f": 106,
+   "precip_in": 37.9,
+   "snow_in": 52,
+   "last_frost": "May 2",
+   "first_frost": "Oct 4",
+   "growing_days": 155,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "WXK40",
+     "freq": "162.400",
+     "same": "027161"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Washington County": {
+   "fips": "27163",
+   "centroid": [
+    45.0379,
+    -92.8901
+   ],
+   "latitude": 45.0,
+   "bbox": [
+    -93.0225,
+    44.7456,
+    -92.7399,
+    45.2974
+   ],
+   "coastal": false,
+   "elevation_ft": 930,
+   "zone": "5a",
+   "jan_low_f": 5,
+   "jul_high_f": 79,
+   "record_low_f": -40,
+   "record_high_f": 106,
+   "precip_in": 33.2,
+   "snow_in": 40,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 11",
+   "growing_days": 163,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "KEC65",
+     "freq": "162.550",
+     "same": "027163"
+    },
+    {
+     "call": "KJY80",
+     "freq": "162.450",
+     "same": "027163"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.2
+  },
+  "Watonwan County": {
+   "fips": "27165",
+   "centroid": [
+    43.9781,
+    -94.6138
+   ],
+   "latitude": 44.0,
+   "bbox": [
+    -94.8599,
+    43.8472,
+    -94.3685,
+    44.1089
+   ],
+   "coastal": false,
+   "elevation_ft": 1060,
+   "zone": "5a",
+   "jan_low_f": 5,
+   "jul_high_f": 83,
+   "record_low_f": -30,
+   "record_high_f": 105,
+   "precip_in": 33.1,
+   "snow_in": 50,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 7",
+   "growing_days": 160,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "KXI31",
+     "freq": "162.450",
+     "same": "027165"
+    },
+    {
+     "call": "WXK40",
+     "freq": "162.400",
+     "same": "027165"
+    },
+    {
+     "call": "KXI39",
+     "freq": "162.525",
+     "same": "027165"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.4
+  },
+  "Wilkin County": {
+   "fips": "27167",
+   "centroid": [
+    46.3623,
+    -96.4767
+   ],
+   "latitude": 46.4,
+   "bbox": [
+    -96.7914,
+    46.0214,
+    -96.2647,
+    46.6309
+   ],
+   "coastal": false,
+   "elevation_ft": 970,
+   "zone": "4a",
+   "jan_low_f": -1,
+   "jul_high_f": 82,
+   "record_low_f": -39,
+   "record_high_f": 105,
+   "precip_in": 24.8,
+   "snow_in": 50,
+   "last_frost": "May 4",
+   "first_frost": "Oct 3",
+   "growing_days": 152,
+   "ecoregion": "Lake Agassiz Plain",
+   "ecoregion_code": "48",
+   "nws_office": "Grand Forks, ND",
+   "nws_cwa": "FGF",
+   "nwr": [
+    {
+     "call": "WXK42",
+     "freq": "162.475",
+     "same": "027167"
+    },
+    {
+     "call": "WNG680",
+     "freq": "162.500",
+     "same": "027167"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.4
+  },
+  "Winona County": {
+   "fips": "27169",
+   "centroid": [
+    43.9814,
+    -91.777
+   ],
+   "latitude": 44.0,
+   "bbox": [
+    -92.0796,
+    43.8462,
+    -91.2852,
+    44.1932
+   ],
+   "coastal": false,
+   "elevation_ft": 1190,
+   "zone": "4b",
+   "jan_low_f": 11,
+   "jul_high_f": 85,
+   "record_low_f": -35,
+   "record_high_f": 108,
+   "precip_in": 34.4,
+   "snow_in": 38,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 19",
+   "growing_days": 180,
+   "ecoregion": "Driftless Area",
+   "ecoregion_code": "52",
+   "nws_office": "La Crosse, WI",
+   "nws_cwa": "ARX",
+   "nwr": [
+    {
+     "call": "WXJ86",
+     "freq": "162.550",
+     "same": "027169"
+    },
+    {
+     "call": "WXK41",
+     "freq": "162.475",
+     "same": "027169"
+    },
+    {
+     "call": "KGG95",
+     "freq": "162.425",
+     "same": "027169"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.3
+  },
+  "Wright County": {
+   "fips": "27171",
+   "centroid": [
+    45.1751,
+    -93.9664
+   ],
+   "latitude": 45.2,
+   "bbox": [
+    -94.2615,
+    44.9779,
+    -93.5155,
+    45.4231
+   ],
+   "coastal": false,
+   "elevation_ft": 1040,
+   "zone": "4b",
+   "jan_low_f": 3,
+   "jul_high_f": 81,
+   "record_low_f": -38,
+   "record_high_f": 105,
+   "precip_in": 31.7,
+   "snow_in": 40,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 9",
+   "growing_days": 163,
+   "ecoregion": "North Central Hardwood Forests",
+   "ecoregion_code": "51",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "WNG676",
+     "freq": "162.500",
+     "same": "027171"
+    },
+    {
+     "call": "KEC65",
+     "freq": "162.550",
+     "same": "027171"
+    },
+    {
+     "call": "WNG685",
+     "freq": "162.425",
+     "same": "027171"
+    },
+    {
+     "call": "WXK44",
+     "freq": "162.475",
+     "same": "027171"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.2
+  },
+  "Yellow Medicine County": {
+   "fips": "27173",
+   "centroid": [
+    44.7157,
+    -95.8628
+   ],
+   "latitude": 44.7,
+   "bbox": [
+    -96.4519,
+    44.5415,
+    -95.3602,
+    44.935
+   ],
+   "coastal": false,
+   "elevation_ft": 1060,
+   "zone": "4b",
+   "jan_low_f": 2,
+   "jul_high_f": 82,
+   "record_low_f": -39,
+   "record_high_f": 110,
+   "precip_in": 29.4,
+   "snow_in": 46,
+   "last_frost": "May 4",
+   "first_frost": "Oct 1",
+   "growing_days": 149,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Twin Cities/Chanhassen, MN",
+   "nws_cwa": "MPX",
+   "nwr": [
+    {
+     "call": "KXI32",
+     "freq": "162.550",
+     "same": "027173"
+    },
+    {
+     "call": "WNG711",
+     "freq": "162.400",
+     "same": "027173"
+    },
+    {
+     "call": "KXI50",
+     "freq": "162.500",
+     "same": "027173"
+    },
+    {
+     "call": "WXK44",
+     "freq": "162.475",
+     "same": "027173"
+    }
+   ],
+   "state_em": "Minnesota Homeland Security and Emergency Management Division",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.4
+  }
+ }
+}

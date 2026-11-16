@@ -1,0 +1,4141 @@
+{
+ "state": "PA",
+ "state_name": "Pennsylvania",
+ "state_fips": "42",
+ "state_em": "Pennsylvania Emergency Management Agency",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "BGM": "NWS Binghamton, NY",
+  "CLE": "NWS Cleveland, OH",
+  "CTP": "NWS State College, PA",
+  "PBZ": "NWS Pittsburgh, PA",
+  "PHI": "NWS Mount Holly, NJ"
+ },
+ "ecoregions": [
+  "Northeastern Highlands",
+  "Northern Allegheny Plateau",
+  "Erie Drift Plain",
+  "North Central Appalachians",
+  "Middle Atlantic Coastal Plain",
+  "Northern Piedmont",
+  "Blue Ridge",
+  "Ridge and Valley",
+  "Central Appalachians",
+  "Western Allegheny Plateau",
+  "Eastern Great Lakes Lowlands"
+ ],
+ "counties": {
+  "Adams County": {
+   "fips": "42001",
+   "centroid": [
+    39.8694,
+    -77.2177
+   ],
+   "latitude": 39.9,
+   "bbox": [
+    -77.4708,
+    39.7199,
+    -76.9554,
+    40.0695
+   ],
+   "coastal": false,
+   "elevation_ft": 510,
+   "zone": "7a",
+   "jan_low_f": 21,
+   "jul_high_f": 86,
+   "record_low_f": -18,
+   "record_high_f": 102,
+   "precip_in": 44.5,
+   "snow_in": 27,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 21",
+   "growing_days": 180,
+   "ecoregion": "Northern Piedmont",
+   "ecoregion_code": "64",
+   "nws_office": "State College, PA",
+   "nws_cwa": "CTP",
+   "nwr": [
+    {
+     "call": "KEC83",
+     "freq": "162.400",
+     "same": "042001"
+    },
+    {
+     "call": "WXM42",
+     "freq": "162.475",
+     "same": "042001"
+    },
+    {
+     "call": "WXL40",
+     "freq": "162.550",
+     "same": "042001"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.3
+  },
+  "Allegheny County": {
+   "fips": "42003",
+   "centroid": [
+    40.4698,
+    -79.9805
+   ],
+   "latitude": 40.5,
+   "bbox": [
+    -80.3615,
+    40.1944,
+    -79.6889,
+    40.6744
+   ],
+   "coastal": false,
+   "elevation_ft": 950,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 85,
+   "record_low_f": -13,
+   "record_high_f": 102,
+   "precip_in": 38.3,
+   "snow_in": 25,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 27",
+   "growing_days": 186,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Pittsburgh, PA",
+   "nws_cwa": "PBZ",
+   "nwr": [
+    {
+     "call": "KIH35",
+     "freq": "162.550",
+     "same": "042003"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.0,
+   "sun_hours_jun": 5.1
+  },
+  "Armstrong County": {
+   "fips": "42005",
+   "centroid": [
+    40.8124,
+    -79.4641
+   ],
+   "latitude": 40.8,
+   "bbox": [
+    -79.6927,
+    40.525,
+    -79.2102,
+    41.1706
+   ],
+   "coastal": false,
+   "elevation_ft": 1000,
+   "zone": "6b",
+   "jan_low_f": 17,
+   "jul_high_f": 84,
+   "record_low_f": -29,
+   "record_high_f": 104,
+   "precip_in": 44.3,
+   "snow_in": 42,
+   "last_frost": "May 4",
+   "first_frost": "Oct 16",
+   "growing_days": 164,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Pittsburgh, PA",
+   "nws_cwa": "PBZ",
+   "nwr": [
+    {
+     "call": "WWG53",
+     "freq": "162.425",
+     "same": "042005"
+    },
+    {
+     "call": "KIH35",
+     "freq": "162.550",
+     "same": "042005"
+    },
+    {
+     "call": "KZZ42",
+     "freq": "162.500",
+     "same": "042005"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.0,
+   "sun_hours_jun": 5.1
+  },
+  "Beaver County": {
+   "fips": "42007",
+   "centroid": [
+    40.6841,
+    -80.3507
+   ],
+   "latitude": 40.7,
+   "bbox": [
+    -80.5202,
+    40.4773,
+    -80.1454,
+    40.8546
+   ],
+   "coastal": false,
+   "elevation_ft": 1140,
+   "zone": "6b",
+   "jan_low_f": 21,
+   "jul_high_f": 82,
+   "record_low_f": -18,
+   "record_high_f": 105,
+   "precip_in": 40.7,
+   "snow_in": 44,
+   "last_frost": "Apr 28",
+   "first_frost": "Oct 26",
+   "growing_days": 178,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Pittsburgh, PA",
+   "nws_cwa": "PBZ",
+   "nwr": [
+    {
+     "call": "WWG53",
+     "freq": "162.425",
+     "same": "042007"
+    },
+    {
+     "call": "KIH35",
+     "freq": "162.550",
+     "same": "042007"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.0,
+   "sun_hours_jun": 5.1
+  },
+  "Bedford County": {
+   "fips": "42009",
+   "centroid": [
+    39.9986,
+    -78.4947
+   ],
+   "latitude": 40.0,
+   "bbox": [
+    -78.808,
+    39.7225,
+    -78.1346,
+    40.3272
+   ],
+   "coastal": false,
+   "elevation_ft": 1330,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 86,
+   "record_low_f": -27,
+   "record_high_f": 108,
+   "precip_in": 40.5,
+   "snow_in": 38,
+   "last_frost": "Apr 29",
+   "first_frost": "Oct 13",
+   "growing_days": 167,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "State College, PA",
+   "nws_cwa": "CTP",
+   "nwr": [
+    {
+     "call": "WNG589",
+     "freq": "162.425",
+     "same": "042009"
+    },
+    {
+     "call": "WXM43",
+     "freq": "162.425",
+     "same": "042009"
+    },
+    {
+     "call": "WXM42",
+     "freq": "162.475",
+     "same": "042009"
+    },
+    {
+     "call": "WWG52",
+     "freq": "162.525",
+     "same": "042009"
+    },
+    {
+     "call": "WXM33",
+     "freq": "162.400",
+     "same": "042009"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.2
+  },
+  "Berks County": {
+   "fips": "42011",
+   "centroid": [
+    40.414,
+    -75.9269
+   ],
+   "latitude": 40.4,
+   "bbox": [
+    -76.4387,
+    40.1372,
+    -75.5305,
+    40.6775
+   ],
+   "coastal": false,
+   "elevation_ft": 360,
+   "zone": "7a",
+   "jan_low_f": 23,
+   "jul_high_f": 86,
+   "record_low_f": -20,
+   "record_high_f": 102,
+   "precip_in": 45.2,
+   "snow_in": 21,
+   "last_frost": "Apr 10",
+   "first_frost": "Oct 31",
+   "growing_days": 202,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Mount Holly, NJ",
+   "nws_cwa": "PHI",
+   "nwr": [
+    {
+     "call": "WXL39",
+     "freq": "162.400",
+     "same": "042011"
+    },
+    {
+     "call": "WXL40",
+     "freq": "162.550",
+     "same": "042011"
+    },
+    {
+     "call": "WNG704",
+     "freq": "162.425",
+     "same": "042011"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.1
+  },
+  "Blair County": {
+   "fips": "42013",
+   "centroid": [
+    40.4987,
+    -78.3096
+   ],
+   "latitude": 40.5,
+   "bbox": [
+    -78.6203,
+    40.2448,
+    -78.1168,
+    40.7434
+   ],
+   "coastal": false,
+   "elevation_ft": 1370,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 81,
+   "record_low_f": -20,
+   "record_high_f": 99,
+   "precip_in": 44.7,
+   "snow_in": 38,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 21",
+   "growing_days": 176,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "State College, PA",
+   "nws_cwa": "CTP",
+   "nwr": [
+    {
+     "call": "WNG589",
+     "freq": "162.425",
+     "same": "042013"
+    },
+    {
+     "call": "WWG52",
+     "freq": "162.525",
+     "same": "042013"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.1
+  },
+  "Bradford County": {
+   "fips": "42015",
+   "centroid": [
+    41.7915,
+    -76.5021
+   ],
+   "latitude": 41.8,
+   "bbox": [
+    -76.9266,
+    41.5421,
+    -76.1155,
+    42.0019
+   ],
+   "coastal": false,
+   "elevation_ft": 1120,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 84,
+   "record_low_f": -31,
+   "record_high_f": 104,
+   "precip_in": 38.6,
+   "snow_in": 38,
+   "last_frost": "May 2",
+   "first_frost": "Oct 15",
+   "growing_days": 165,
+   "ecoregion": "Northern Allegheny Plateau",
+   "ecoregion_code": "60",
+   "nws_office": "Binghamton, NY",
+   "nws_cwa": "BGM",
+   "nwr": [
+    {
+     "call": "WXL38",
+     "freq": "162.475",
+     "same": "042015"
+    },
+    {
+     "call": "WXM31",
+     "freq": "162.400",
+     "same": "042015"
+    },
+    {
+     "call": "WXM95",
+     "freq": "162.525",
+     "same": "042015"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.1
+  },
+  "Bucks County": {
+   "fips": "42017",
+   "centroid": [
+    40.3369,
+    -75.1071
+   ],
+   "latitude": 40.3,
+   "bbox": [
+    -75.4831,
+    40.0487,
+    -74.7215,
+    40.6083
+   ],
+   "coastal": true,
+   "elevation_ft": 370,
+   "zone": "7a",
+   "jan_low_f": 23,
+   "jul_high_f": 86,
+   "record_low_f": -9,
+   "record_high_f": 104,
+   "precip_in": 47.7,
+   "snow_in": 22,
+   "last_frost": "Apr 13",
+   "first_frost": "Oct 30",
+   "growing_days": 198,
+   "ecoregion": "Northern Piedmont",
+   "ecoregion_code": "64",
+   "nws_office": "Mount Holly, NJ",
+   "nws_cwa": "PHI",
+   "nwr": [
+    {
+     "call": "WXL39",
+     "freq": "162.400",
+     "same": "042017"
+    },
+    {
+     "call": "KIH28",
+     "freq": "162.475",
+     "same": "042017"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.1
+  },
+  "Butler County": {
+   "fips": "42019",
+   "centroid": [
+    40.9138,
+    -79.919
+   ],
+   "latitude": 40.9,
+   "bbox": [
+    -80.1652,
+    40.6692,
+    -79.6899,
+    41.1734
+   ],
+   "coastal": false,
+   "elevation_ft": 1160,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 82,
+   "record_low_f": -20,
+   "record_high_f": 102,
+   "precip_in": 43.2,
+   "snow_in": 35,
+   "last_frost": "May 7",
+   "first_frost": "Oct 14",
+   "growing_days": 159,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Pittsburgh, PA",
+   "nws_cwa": "PBZ",
+   "nwr": [
+    {
+     "call": "WWG53",
+     "freq": "162.425",
+     "same": "042019"
+    },
+    {
+     "call": "KIH35",
+     "freq": "162.550",
+     "same": "042019"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.0,
+   "sun_hours_jun": 5.1
+  },
+  "Cambria County": {
+   "fips": "42021",
+   "centroid": [
+    40.5102,
+    -78.7105
+   ],
+   "latitude": 40.5,
+   "bbox": [
+    -79.0559,
+    40.243,
+    -78.3484,
+    40.726
+   ],
+   "coastal": false,
+   "elevation_ft": 2090,
+   "zone": "5b",
+   "jan_low_f": 16,
+   "jul_high_f": 79,
+   "record_low_f": -28,
+   "record_high_f": 99,
+   "precip_in": 48.7,
+   "snow_in": 80,
+   "last_frost": "May 17",
+   "first_frost": "Oct 2",
+   "growing_days": 136,
+   "ecoregion": "Central Appalachians",
+   "ecoregion_code": "69",
+   "nws_office": "State College, PA",
+   "nws_cwa": "CTP",
+   "nwr": [
+    {
+     "call": "WNG589",
+     "freq": "162.425",
+     "same": "042021"
+    },
+    {
+     "call": "WXL52",
+     "freq": "162.550",
+     "same": "042021"
+    },
+    {
+     "call": "WXM33",
+     "freq": "162.400",
+     "same": "042021"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.1
+  },
+  "Cameron County": {
+   "fips": "42023",
+   "centroid": [
+    41.4383,
+    -78.1983
+   ],
+   "latitude": 41.4,
+   "bbox": [
+    -78.4211,
+    41.2169,
+    -77.9885,
+    41.6182
+   ],
+   "coastal": false,
+   "elevation_ft": 1620,
+   "zone": "5b",
+   "jan_low_f": 16,
+   "jul_high_f": 82,
+   "record_low_f": -28,
+   "record_high_f": 101,
+   "precip_in": 43.8,
+   "snow_in": 47,
+   "last_frost": "May 7",
+   "first_frost": "Oct 15",
+   "growing_days": 160,
+   "ecoregion": "North Central Appalachians",
+   "ecoregion_code": "62",
+   "nws_office": "State College, PA",
+   "nws_cwa": "CTP",
+   "nwr": [
+    {
+     "call": "WXL52",
+     "freq": "162.550",
+     "same": "042023"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.0
+  },
+  "Carbon County": {
+   "fips": "42025",
+   "centroid": [
+    40.9184,
+    -75.705
+   ],
+   "latitude": 40.9,
+   "bbox": [
+    -75.9973,
+    40.7359,
+    -75.4742,
+    41.134
+   ],
+   "coastal": false,
+   "elevation_ft": 1440,
+   "zone": "6b",
+   "jan_low_f": 16,
+   "jul_high_f": 79,
+   "record_low_f": -28,
+   "record_high_f": 98,
+   "precip_in": 48.8,
+   "snow_in": 42,
+   "last_frost": "May 7",
+   "first_frost": "Oct 6",
+   "growing_days": 153,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Mount Holly, NJ",
+   "nws_cwa": "PHI",
+   "nwr": [
+    {
+     "call": "WXL39",
+     "freq": "162.400",
+     "same": "042025"
+    },
+    {
+     "call": "WXL43",
+     "freq": "162.550",
+     "same": "042025"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.1
+  },
+  "Centre County": {
+   "fips": "42027",
+   "centroid": [
+    40.9093,
+    -77.8477
+   ],
+   "latitude": 40.9,
+   "bbox": [
+    -78.3765,
+    40.6916,
+    -77.1438,
+    41.2512
+   ],
+   "coastal": false,
+   "elevation_ft": 1160,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 81,
+   "record_low_f": -20,
+   "record_high_f": 102,
+   "precip_in": 41.5,
+   "snow_in": 44,
+   "last_frost": "Apr 20",
+   "first_frost": "Oct 26",
+   "growing_days": 187,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "State College, PA",
+   "nws_cwa": "CTP",
+   "nwr": [
+    {
+     "call": "WXM59",
+     "freq": "162.475",
+     "same": "042027"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.2
+  },
+  "Chester County": {
+   "fips": "42029",
+   "centroid": [
+    39.974,
+    -75.7498
+   ],
+   "latitude": 40.0,
+   "bbox": [
+    -76.1357,
+    39.7209,
+    -75.3592,
+    40.2449
+   ],
+   "coastal": true,
+   "elevation_ft": 530,
+   "zone": "7a",
+   "jan_low_f": 22,
+   "jul_high_f": 85,
+   "record_low_f": -16,
+   "record_high_f": 105,
+   "precip_in": 52.1,
+   "snow_in": 32,
+   "last_frost": "Apr 19",
+   "first_frost": "Oct 25",
+   "growing_days": 190,
+   "ecoregion": "Northern Piedmont",
+   "ecoregion_code": "64",
+   "nws_office": "Mount Holly, NJ",
+   "nws_cwa": "PHI",
+   "nwr": [
+    {
+     "call": "WNG704",
+     "freq": "162.425",
+     "same": "042029"
+    },
+    {
+     "call": "KIH28",
+     "freq": "162.475",
+     "same": "042029"
+    },
+    {
+     "call": "WXK97",
+     "freq": "162.500",
+     "same": "042029"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.3
+  },
+  "Clarion County": {
+   "fips": "42031",
+   "centroid": [
+    41.1982,
+    -79.4204
+   ],
+   "latitude": 41.2,
+   "bbox": [
+    -79.7001,
+    40.9685,
+    -79.2071,
+    41.4362
+   ],
+   "coastal": false,
+   "elevation_ft": 1430,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 82,
+   "record_low_f": -26,
+   "record_high_f": 104,
+   "precip_in": 46.9,
+   "snow_in": 34,
+   "last_frost": "May 9",
+   "first_frost": "Oct 11",
+   "growing_days": 154,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Pittsburgh, PA",
+   "nws_cwa": "PBZ",
+   "nwr": [
+    {
+     "call": "WWG53",
+     "freq": "162.425",
+     "same": "042031"
+    },
+    {
+     "call": "KZZ42",
+     "freq": "162.500",
+     "same": "042031"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.1
+  },
+  "Clearfield County": {
+   "fips": "42033",
+   "centroid": [
+    41.0069,
+    -78.4777
+   ],
+   "latitude": 41.0,
+   "bbox": [
+    -78.8066,
+    40.7245,
+    -78.0386,
+    41.2537
+   ],
+   "coastal": false,
+   "elevation_ft": 1480,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 82,
+   "record_low_f": -28,
+   "record_high_f": 101,
+   "precip_in": 40.3,
+   "snow_in": 63,
+   "last_frost": "May 4",
+   "first_frost": "Oct 11",
+   "growing_days": 161,
+   "ecoregion": "Central Appalachians",
+   "ecoregion_code": "69",
+   "nws_office": "State College, PA",
+   "nws_cwa": "CTP",
+   "nwr": [
+    {
+     "call": "WXL52",
+     "freq": "162.550",
+     "same": "042033"
+    },
+    {
+     "call": "KZZ42",
+     "freq": "162.500",
+     "same": "042033"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.0
+  },
+  "Clinton County": {
+   "fips": "42035",
+   "centroid": [
+    41.2395,
+    -77.629
+   ],
+   "latitude": 41.2,
+   "bbox": [
+    -78.0935,
+    40.9627,
+    -77.1437,
+    41.4786
+   ],
+   "coastal": false,
+   "elevation_ft": 1440,
+   "zone": "6b",
+   "jan_low_f": 14,
+   "jul_high_f": 82,
+   "record_low_f": -23,
+   "record_high_f": 105,
+   "precip_in": 44.5,
+   "snow_in": 50,
+   "last_frost": "May 21",
+   "first_frost": "Sep 27",
+   "growing_days": 130,
+   "ecoregion": "North Central Appalachians",
+   "ecoregion_code": "62",
+   "nws_office": "State College, PA",
+   "nws_cwa": "CTP",
+   "nwr": [
+    {
+     "call": "WXL52",
+     "freq": "162.550",
+     "same": "042035"
+    },
+    {
+     "call": "WXL55",
+     "freq": "162.400",
+     "same": "042035"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.1
+  },
+  "Columbia County": {
+   "fips": "42037",
+   "centroid": [
+    41.0455,
+    -76.4043
+   ],
+   "latitude": 41.0,
+   "bbox": [
+    -76.6408,
+    40.776,
+    -76.2078,
+    41.3087
+   ],
+   "coastal": false,
+   "elevation_ft": 720,
+   "zone": "6b",
+   "jan_low_f": 16,
+   "jul_high_f": 80,
+   "record_low_f": -15,
+   "record_high_f": 102,
+   "precip_in": 48.4,
+   "snow_in": 46,
+   "last_frost": "May 4",
+   "first_frost": "Oct 11",
+   "growing_days": 159,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "State College, PA",
+   "nws_cwa": "CTP",
+   "nwr": [
+    {
+     "call": "WXL43",
+     "freq": "162.550",
+     "same": "042037"
+    },
+    {
+     "call": "WXL55",
+     "freq": "162.400",
+     "same": "042037"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.1
+  },
+  "Crawford County": {
+   "fips": "42039",
+   "centroid": [
+    41.6879,
+    -80.1078
+   ],
+   "latitude": 41.7,
+   "bbox": [
+    -80.5195,
+    41.4805,
+    -79.6121,
+    41.8517
+   ],
+   "coastal": false,
+   "elevation_ft": 1270,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 80,
+   "record_low_f": -28,
+   "record_high_f": 101,
+   "precip_in": 41.4,
+   "snow_in": 64,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 23",
+   "growing_days": 175,
+   "ecoregion": "Erie Drift Plain",
+   "ecoregion_code": "61",
+   "nws_office": "Cleveland, OH",
+   "nws_cwa": "CLE",
+   "nwr": [
+    {
+     "call": "KEC58",
+     "freq": "162.400",
+     "same": "042039"
+    },
+    {
+     "call": "KZZ32",
+     "freq": "162.475",
+     "same": "042039"
+    },
+    {
+     "call": "WWG53",
+     "freq": "162.425",
+     "same": "042039"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.1
+  },
+  "Cumberland County": {
+   "fips": "42041",
+   "centroid": [
+    40.1648,
+    -77.2634
+   ],
+   "latitude": 40.2,
+   "bbox": [
+    -77.6259,
+    39.9454,
+    -76.8591,
+    40.3284
+   ],
+   "coastal": false,
+   "elevation_ft": 560,
+   "zone": "7a",
+   "jan_low_f": 20,
+   "jul_high_f": 86,
+   "record_low_f": -12,
+   "record_high_f": 103,
+   "precip_in": 48.0,
+   "snow_in": 28,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 18",
+   "growing_days": 177,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "State College, PA",
+   "nws_cwa": "CTP",
+   "nwr": [
+    {
+     "call": "WXL40",
+     "freq": "162.550",
+     "same": "042041"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.2
+  },
+  "Dauphin County": {
+   "fips": "42043",
+   "centroid": [
+    40.4126,
+    -76.7926
+   ],
+   "latitude": 40.4,
+   "bbox": [
+    -77.029,
+    40.12,
+    -76.5341,
+    40.6593
+   ],
+   "coastal": false,
+   "elevation_ft": 570,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 84,
+   "record_low_f": -9,
+   "record_high_f": 107,
+   "precip_in": 50.9,
+   "snow_in": 28,
+   "last_frost": "May 1",
+   "first_frost": "Oct 16",
+   "growing_days": 168,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "State College, PA",
+   "nws_cwa": "CTP",
+   "nwr": [
+    {
+     "call": "WXL40",
+     "freq": "162.550",
+     "same": "042043"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.2
+  },
+  "Delaware County": {
+   "fips": "42045",
+   "centroid": [
+    39.9167,
+    -75.3988
+   ],
+   "latitude": 39.9,
+   "bbox": [
+    -75.601,
+    39.8021,
+    -75.211,
+    40.0661
+   ],
+   "coastal": true,
+   "elevation_ft": 230,
+   "zone": "7b",
+   "jan_low_f": 27,
+   "jul_high_f": 89,
+   "record_low_f": -12,
+   "record_high_f": 108,
+   "precip_in": 41.6,
+   "snow_in": 12,
+   "last_frost": "Mar 30",
+   "first_frost": "Nov 16",
+   "growing_days": 230,
+   "ecoregion": "Northern Piedmont",
+   "ecoregion_code": "64",
+   "nws_office": "Mount Holly, NJ",
+   "nws_cwa": "PHI",
+   "nwr": [
+    {
+     "call": "KIH28",
+     "freq": "162.475",
+     "same": "042045"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 2,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.3
+  },
+  "Elk County": {
+   "fips": "42047",
+   "centroid": [
+    41.4273,
+    -78.6539
+   ],
+   "latitude": 41.4,
+   "bbox": [
+    -79.095,
+    41.2018,
+    -78.235,
+    41.6299
+   ],
+   "coastal": false,
+   "elevation_ft": 1980,
+   "zone": "5b",
+   "jan_low_f": 13,
+   "jul_high_f": 78,
+   "record_low_f": -25,
+   "record_high_f": 100,
+   "precip_in": 46.4,
+   "snow_in": 66,
+   "last_frost": "May 14",
+   "first_frost": "Oct 6",
+   "growing_days": 143,
+   "ecoregion": "North Central Appalachians",
+   "ecoregion_code": "62",
+   "nws_office": "State College, PA",
+   "nws_cwa": "CTP",
+   "nwr": [
+    {
+     "call": "WXL52",
+     "freq": "162.550",
+     "same": "042047"
+    },
+    {
+     "call": "WWG51",
+     "freq": "162.450",
+     "same": "042047"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.0
+  },
+  "Erie County": {
+   "fips": "42049",
+   "centroid": [
+    42.118,
+    -80.0964
+   ],
+   "latitude": 42.1,
+   "bbox": [
+    -80.5194,
+    41.8491,
+    -79.61,
+    42.2698
+   ],
+   "coastal": false,
+   "elevation_ft": 680,
+   "zone": "7a",
+   "jan_low_f": 21,
+   "jul_high_f": 81,
+   "record_low_f": -18,
+   "record_high_f": 100,
+   "precip_in": 43.0,
+   "snow_in": 104,
+   "last_frost": "Apr 26",
+   "first_frost": "Nov 4",
+   "growing_days": 192,
+   "ecoregion": "Eastern Great Lakes Lowlands",
+   "ecoregion_code": "83",
+   "nws_office": "Cleveland, OH",
+   "nws_cwa": "CLE",
+   "nwr": [
+    {
+     "call": "KEC58",
+     "freq": "162.400",
+     "same": "042049"
+    },
+    {
+     "call": "KZZ32",
+     "freq": "162.475",
+     "same": "042049"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.5
+  },
+  "Fayette County": {
+   "fips": "42051",
+   "centroid": [
+    39.9189,
+    -79.6403
+   ],
+   "latitude": 39.9,
+   "bbox": [
+    -80.0107,
+    39.7207,
+    -79.2938,
+    40.1434
+   ],
+   "coastal": false,
+   "elevation_ft": 1700,
+   "zone": "6a",
+   "jan_low_f": 15,
+   "jul_high_f": 79,
+   "record_low_f": -27,
+   "record_high_f": 95,
+   "precip_in": 55.7,
+   "snow_in": 89,
+   "last_frost": "May 19",
+   "first_frost": "Oct 1",
+   "growing_days": 135,
+   "ecoregion": "Central Appalachians",
+   "ecoregion_code": "69",
+   "nws_office": "Pittsburgh, PA",
+   "nws_cwa": "PBZ",
+   "nwr": [
+    {
+     "call": "KWN35",
+     "freq": "162.475",
+     "same": "042051"
+    },
+    {
+     "call": "KIH35",
+     "freq": "162.550",
+     "same": "042051"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.1
+  },
+  "Forest County": {
+   "fips": "42053",
+   "centroid": [
+    41.5133,
+    -79.2497
+   ],
+   "latitude": 41.5,
+   "bbox": [
+    -79.5221,
+    41.3241,
+    -78.956,
+    41.6277
+   ],
+   "coastal": false,
+   "elevation_ft": 1810,
+   "zone": "6a",
+   "jan_low_f": 13,
+   "jul_high_f": 80,
+   "record_low_f": -28,
+   "record_high_f": 102,
+   "precip_in": 46.7,
+   "snow_in": 74,
+   "last_frost": "May 13",
+   "first_frost": "Oct 7",
+   "growing_days": 143,
+   "ecoregion": "North Central Appalachians",
+   "ecoregion_code": "62",
+   "nws_office": "Pittsburgh, PA",
+   "nws_cwa": "PBZ",
+   "nwr": [
+    {
+     "call": "WWG53",
+     "freq": "162.425",
+     "same": "042053"
+    },
+    {
+     "call": "WWG51",
+     "freq": "162.450",
+     "same": "042053"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.1
+  },
+  "Franklin County": {
+   "fips": "42055",
+   "centroid": [
+    39.9268,
+    -77.7245
+   ],
+   "latitude": 39.9,
+   "bbox": [
+    -78.0981,
+    39.7196,
+    -77.4548,
+    40.2904
+   ],
+   "coastal": false,
+   "elevation_ft": 640,
+   "zone": "7a",
+   "jan_low_f": 23,
+   "jul_high_f": 85,
+   "record_low_f": -21,
+   "record_high_f": 107,
+   "precip_in": 43.5,
+   "snow_in": 31,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 25",
+   "growing_days": 188,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "State College, PA",
+   "nws_cwa": "CTP",
+   "nwr": [
+    {
+     "call": "WXM42",
+     "freq": "162.475",
+     "same": "042055"
+    },
+    {
+     "call": "WWG52",
+     "freq": "162.525",
+     "same": "042055"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.3
+  },
+  "Fulton County": {
+   "fips": "42057",
+   "centroid": [
+    39.9108,
+    -78.1226
+   ],
+   "latitude": 39.9,
+   "bbox": [
+    -78.3803,
+    39.7217,
+    -77.8637,
+    40.1649
+   ],
+   "coastal": false,
+   "elevation_ft": 780,
+   "zone": "7a",
+   "jan_low_f": 21,
+   "jul_high_f": 85,
+   "record_low_f": -27,
+   "record_high_f": 108,
+   "precip_in": 40.4,
+   "snow_in": 27,
+   "last_frost": "Apr 27",
+   "first_frost": "Oct 17",
+   "growing_days": 170,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "State College, PA",
+   "nws_cwa": "CTP",
+   "nwr": [
+    {
+     "call": "WXM43",
+     "freq": "162.425",
+     "same": "042057"
+    },
+    {
+     "call": "WXM42",
+     "freq": "162.475",
+     "same": "042057"
+    },
+    {
+     "call": "WWG52",
+     "freq": "162.525",
+     "same": "042057"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.7,
+   "sun_hours_jun": 5.2
+  },
+  "Greene County": {
+   "fips": "42059",
+   "centroid": [
+    39.8477,
+    -80.2257
+   ],
+   "latitude": 39.8,
+   "bbox": [
+    -80.5195,
+    39.7205,
+    -79.9033,
+    40.0204
+   ],
+   "coastal": false,
+   "elevation_ft": 1070,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 83,
+   "record_low_f": -25,
+   "record_high_f": 102,
+   "precip_in": 43.1,
+   "snow_in": 30,
+   "last_frost": "May 3",
+   "first_frost": "Oct 15",
+   "growing_days": 164,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Pittsburgh, PA",
+   "nws_cwa": "PBZ",
+   "nwr": [
+    {
+     "call": "WWF35",
+     "freq": "162.525",
+     "same": "042059"
+    },
+    {
+     "call": "KWN35",
+     "freq": "162.475",
+     "same": "042059"
+    },
+    {
+     "call": "KIH35",
+     "freq": "162.550",
+     "same": "042059"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.2,
+   "sun_hours_jun": 5.2
+  },
+  "Huntingdon County": {
+   "fips": "42061",
+   "centroid": [
+    40.4223,
+    -77.9686
+   ],
+   "latitude": 40.4,
+   "bbox": [
+    -78.2567,
+    40.0616,
+    -77.6766,
+    40.7435
+   ],
+   "coastal": false,
+   "elevation_ft": 1560,
+   "zone": "6b",
+   "jan_low_f": 21,
+   "jul_high_f": 85,
+   "record_low_f": -15,
+   "record_high_f": 104,
+   "precip_in": 40.7,
+   "snow_in": 26,
+   "last_frost": "Apr 19",
+   "first_frost": "Oct 28",
+   "growing_days": 191,
+   "ecoregion": "Central Appalachians",
+   "ecoregion_code": "69",
+   "nws_office": "State College, PA",
+   "nws_cwa": "CTP",
+   "nwr": [
+    {
+     "call": "WNG589",
+     "freq": "162.425",
+     "same": "042061"
+    },
+    {
+     "call": "WWG52",
+     "freq": "162.525",
+     "same": "042061"
+    },
+    {
+     "call": "WXM59",
+     "freq": "162.475",
+     "same": "042061"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.2
+  },
+  "Indiana County": {
+   "fips": "42063",
+   "centroid": [
+    40.6514,
+    -79.0875
+   ],
+   "latitude": 40.7,
+   "bbox": [
+    -79.4598,
+    40.3688,
+    -78.7998,
+    40.9118
+   ],
+   "coastal": false,
+   "elevation_ft": 1470,
+   "zone": "6b",
+   "jan_low_f": 18,
+   "jul_high_f": 82,
+   "record_low_f": -26,
+   "record_high_f": 99,
+   "precip_in": 47.9,
+   "snow_in": 46,
+   "last_frost": "May 8",
+   "first_frost": "Oct 13",
+   "growing_days": 157,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Pittsburgh, PA",
+   "nws_cwa": "PBZ",
+   "nwr": [
+    {
+     "call": "WXM33",
+     "freq": "162.400",
+     "same": "042063"
+    },
+    {
+     "call": "WWG53",
+     "freq": "162.425",
+     "same": "042063"
+    },
+    {
+     "call": "KIH35",
+     "freq": "162.550",
+     "same": "042063"
+    },
+    {
+     "call": "KZZ42",
+     "freq": "162.500",
+     "same": "042063"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 3
+   },
+   "sun_hours_dec": 2.0,
+   "sun_hours_jun": 5.1
+  },
+  "Jefferson County": {
+   "fips": "42065",
+   "centroid": [
+    41.138,
+    -79.0124
+   ],
+   "latitude": 41.1,
+   "bbox": [
+    -79.2156,
+    40.906,
+    -78.7101,
+    41.3761
+   ],
+   "coastal": false,
+   "elevation_ft": 1510,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 79,
+   "record_low_f": -26,
+   "record_high_f": 101,
+   "precip_in": 42.4,
+   "snow_in": 34,
+   "last_frost": "May 6",
+   "first_frost": "Oct 14",
+   "growing_days": 160,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Pittsburgh, PA",
+   "nws_cwa": "PBZ",
+   "nwr": [
+    {
+     "call": "WXL52",
+     "freq": "162.550",
+     "same": "042065"
+    },
+    {
+     "call": "WWG53",
+     "freq": "162.425",
+     "same": "042065"
+    },
+    {
+     "call": "KZZ42",
+     "freq": "162.500",
+     "same": "042065"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.1
+  },
+  "Juniata County": {
+   "fips": "42067",
+   "centroid": [
+    40.5307,
+    -77.4004
+   ],
+   "latitude": 40.5,
+   "bbox": [
+    -77.7513,
+    40.264,
+    -76.9392,
+    40.6936
+   ],
+   "coastal": false,
+   "elevation_ft": 520,
+   "zone": "7a",
+   "jan_low_f": 21,
+   "jul_high_f": 85,
+   "record_low_f": -17,
+   "record_high_f": 106,
+   "precip_in": 42.1,
+   "snow_in": 26,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 24",
+   "growing_days": 185,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "State College, PA",
+   "nws_cwa": "CTP",
+   "nwr": [
+    {
+     "call": "WXL40",
+     "freq": "162.550",
+     "same": "042067"
+    },
+    {
+     "call": "WWG52",
+     "freq": "162.525",
+     "same": "042067"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.2
+  },
+  "Lackawanna County": {
+   "fips": "42069",
+   "centroid": [
+    41.4366,
+    -75.6088
+   ],
+   "latitude": 41.4,
+   "bbox": [
+    -75.8342,
+    41.1617,
+    -75.4413,
+    41.6425
+   ],
+   "coastal": false,
+   "elevation_ft": 1040,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 85,
+   "record_low_f": -21,
+   "record_high_f": 101,
+   "precip_in": 38.7,
+   "snow_in": 45,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 20",
+   "growing_days": 178,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Binghamton, NY",
+   "nws_cwa": "BGM",
+   "nwr": [
+    {
+     "call": "WNG705",
+     "freq": "162.450",
+     "same": "042069"
+    },
+    {
+     "call": "WXL43",
+     "freq": "162.550",
+     "same": "042069"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.0
+  },
+  "Lancaster County": {
+   "fips": "42071",
+   "centroid": [
+    40.042,
+    -76.2502
+   ],
+   "latitude": 40.0,
+   "bbox": [
+    -76.7214,
+    39.7203,
+    -75.8746,
+    40.3159
+   ],
+   "coastal": false,
+   "elevation_ft": 360,
+   "zone": "7a",
+   "jan_low_f": 22,
+   "jul_high_f": 87,
+   "record_low_f": -16,
+   "record_high_f": 103,
+   "precip_in": 44.1,
+   "snow_in": 21,
+   "last_frost": "Apr 19",
+   "first_frost": "Oct 24",
+   "growing_days": 186,
+   "ecoregion": "Northern Piedmont",
+   "ecoregion_code": "64",
+   "nws_office": "State College, PA",
+   "nws_cwa": "CTP",
+   "nwr": [
+    {
+     "call": "WXL40",
+     "freq": "162.550",
+     "same": "042071"
+    },
+    {
+     "call": "WNG704",
+     "freq": "162.425",
+     "same": "042071"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.2
+  },
+  "Lawrence County": {
+   "fips": "42073",
+   "centroid": [
+    40.9927,
+    -80.3344
+   ],
+   "latitude": 41.0,
+   "bbox": [
+    -80.5203,
+    40.85,
+    -80.0977,
+    41.128
+   ],
+   "coastal": false,
+   "elevation_ft": 970,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 86,
+   "record_low_f": -27,
+   "record_high_f": 105,
+   "precip_in": 41.8,
+   "snow_in": 28,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 23",
+   "growing_days": 175,
+   "ecoregion": "Erie Drift Plain",
+   "ecoregion_code": "61",
+   "nws_office": "Pittsburgh, PA",
+   "nws_cwa": "PBZ",
+   "nwr": [
+    {
+     "call": "WWG53",
+     "freq": "162.425",
+     "same": "042073"
+    },
+    {
+     "call": "KIH35",
+     "freq": "162.550",
+     "same": "042073"
+    },
+    {
+     "call": "WWG56",
+     "freq": "162.500",
+     "same": "042073"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.0,
+   "sun_hours_jun": 5.1
+  },
+  "Lebanon County": {
+   "fips": "42075",
+   "centroid": [
+    40.3714,
+    -76.4648
+   ],
+   "latitude": 40.4,
+   "bbox": [
+    -76.678,
+    40.1955,
+    -76.1517,
+    40.5543
+   ],
+   "coastal": false,
+   "elevation_ft": 570,
+   "zone": "7a",
+   "jan_low_f": 22,
+   "jul_high_f": 84,
+   "record_low_f": -22,
+   "record_high_f": 103,
+   "precip_in": 46.4,
+   "snow_in": 24,
+   "last_frost": "Apr 20",
+   "first_frost": "Oct 25",
+   "growing_days": 185,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "State College, PA",
+   "nws_cwa": "CTP",
+   "nwr": [
+    {
+     "call": "WXL40",
+     "freq": "162.550",
+     "same": "042075"
+    },
+    {
+     "call": "WNG704",
+     "freq": "162.425",
+     "same": "042075"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.2
+  },
+  "Lehigh County": {
+   "fips": "42077",
+   "centroid": [
+    40.6142,
+    -75.5906
+   ],
+   "latitude": 40.6,
+   "bbox": [
+    -75.891,
+    40.4181,
+    -75.3341,
+    40.7875
+   ],
+   "coastal": false,
+   "elevation_ft": 570,
+   "zone": "7a",
+   "jan_low_f": 20,
+   "jul_high_f": 85,
+   "record_low_f": -14,
+   "record_high_f": 103,
+   "precip_in": 48.7,
+   "snow_in": 33,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 14",
+   "growing_days": 171,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Mount Holly, NJ",
+   "nws_cwa": "PHI",
+   "nwr": [
+    {
+     "call": "WXL39",
+     "freq": "162.400",
+     "same": "042077"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.1
+  },
+  "Luzerne County": {
+   "fips": "42079",
+   "centroid": [
+    41.1731,
+    -75.9761
+   ],
+   "latitude": 41.2,
+   "bbox": [
+    -76.3197,
+    40.9021,
+    -75.6012,
+    41.4276
+   ],
+   "coastal": false,
+   "elevation_ft": 1070,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 85,
+   "record_low_f": -21,
+   "record_high_f": 101,
+   "precip_in": 38.7,
+   "snow_in": 45,
+   "last_frost": "Apr 23",
+   "first_frost": "Oct 20",
+   "growing_days": 178,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Binghamton, NY",
+   "nws_cwa": "BGM",
+   "nwr": [
+    {
+     "call": "WNG705",
+     "freq": "162.450",
+     "same": "042079"
+    },
+    {
+     "call": "WXL43",
+     "freq": "162.550",
+     "same": "042079"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.0
+  },
+  "Lycoming County": {
+   "fips": "42081",
+   "centroid": [
+    41.3439,
+    -77.0553
+   ],
+   "latitude": 41.3,
+   "bbox": [
+    -77.5996,
+    41.0681,
+    -76.4475,
+    41.5969
+   ],
+   "coastal": false,
+   "elevation_ft": 1650,
+   "zone": "6a",
+   "jan_low_f": 20,
+   "jul_high_f": 86,
+   "record_low_f": -20,
+   "record_high_f": 103,
+   "precip_in": 42.7,
+   "snow_in": 33,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 24",
+   "growing_days": 181,
+   "ecoregion": "North Central Appalachians",
+   "ecoregion_code": "62",
+   "nws_office": "State College, PA",
+   "nws_cwa": "CTP",
+   "nwr": [
+    {
+     "call": "WXL55",
+     "freq": "162.400",
+     "same": "042081"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.1
+  },
+  "McKean County": {
+   "fips": "42083",
+   "centroid": [
+    41.8146,
+    -78.5725
+   ],
+   "latitude": 41.8,
+   "bbox": [
+    -78.956,
+    41.6022,
+    -78.2034,
+    42.0
+   ],
+   "coastal": false,
+   "elevation_ft": 2110,
+   "zone": "5b",
+   "jan_low_f": 16,
+   "jul_high_f": 79,
+   "record_low_f": -30,
+   "record_high_f": 97,
+   "precip_in": 41.9,
+   "snow_in": 80,
+   "last_frost": "May 18",
+   "first_frost": "Oct 1",
+   "growing_days": 136,
+   "ecoregion": "North Central Appalachians",
+   "ecoregion_code": "62",
+   "nws_office": "State College, PA",
+   "nws_cwa": "CTP",
+   "nwr": [
+    {
+     "call": "WNG591",
+     "freq": "162.500",
+     "same": "042083"
+    },
+    {
+     "call": "WWG51",
+     "freq": "162.450",
+     "same": "042083"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.8,
+   "sun_hours_jun": 5.0
+  },
+  "Mercer County": {
+   "fips": "42085",
+   "centroid": [
+    41.3,
+    -80.2528
+   ],
+   "latitude": 41.3,
+   "bbox": [
+    -80.5193,
+    41.0694,
+    -79.9992,
+    41.4921
+   ],
+   "coastal": false,
+   "elevation_ft": 1300,
+   "zone": "6a",
+   "jan_low_f": 16,
+   "jul_high_f": 82,
+   "record_low_f": -32,
+   "record_high_f": 101,
+   "precip_in": 45.2,
+   "snow_in": 62,
+   "last_frost": "May 15",
+   "first_frost": "Oct 3",
+   "growing_days": 140,
+   "ecoregion": "Erie Drift Plain",
+   "ecoregion_code": "61",
+   "nws_office": "Pittsburgh, PA",
+   "nws_cwa": "PBZ",
+   "nwr": [
+    {
+     "call": "KZZ32",
+     "freq": "162.475",
+     "same": "042085"
+    },
+    {
+     "call": "WWG53",
+     "freq": "162.425",
+     "same": "042085"
+    },
+    {
+     "call": "WWG56",
+     "freq": "162.500",
+     "same": "042085"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.1
+  },
+  "Mifflin County": {
+   "fips": "42087",
+   "centroid": [
+    40.6016,
+    -77.6518
+   ],
+   "latitude": 40.6,
+   "bbox": [
+    -77.914,
+    40.3606,
+    -77.2879,
+    40.8473
+   ],
+   "coastal": false,
+   "elevation_ft": 960,
+   "zone": "7a",
+   "jan_low_f": 21,
+   "jul_high_f": 85,
+   "record_low_f": -17,
+   "record_high_f": 106,
+   "precip_in": 42.1,
+   "snow_in": 26,
+   "last_frost": "Apr 21",
+   "first_frost": "Oct 24",
+   "growing_days": 185,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "State College, PA",
+   "nws_cwa": "CTP",
+   "nwr": [
+    {
+     "call": "WWG52",
+     "freq": "162.525",
+     "same": "042087"
+    },
+    {
+     "call": "WXM59",
+     "freq": "162.475",
+     "same": "042087"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.2
+  },
+  "Monroe County": {
+   "fips": "42089",
+   "centroid": [
+    41.0562,
+    -75.3291
+   ],
+   "latitude": 41.1,
+   "bbox": [
+    -75.6489,
+    40.8148,
+    -74.9668,
+    41.2528
+   ],
+   "coastal": false,
+   "elevation_ft": 1150,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 84,
+   "record_low_f": -35,
+   "record_high_f": 106,
+   "precip_in": 53.5,
+   "snow_in": 42,
+   "last_frost": "May 1",
+   "first_frost": "Oct 12",
+   "growing_days": 163,
+   "ecoregion": "North Central Appalachians",
+   "ecoregion_code": "62",
+   "nws_office": "Mount Holly, NJ",
+   "nws_cwa": "PHI",
+   "nwr": [
+    {
+     "call": "WXL39",
+     "freq": "162.400",
+     "same": "042089"
+    },
+    {
+     "call": "KZZ31",
+     "freq": "162.500",
+     "same": "042089"
+    },
+    {
+     "call": "WNG705",
+     "freq": "162.450",
+     "same": "042089"
+    },
+    {
+     "call": "WXL43",
+     "freq": "162.550",
+     "same": "042089"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.0
+  },
+  "Montgomery County": {
+   "fips": "42091",
+   "centroid": [
+    40.21,
+    -75.3702
+   ],
+   "latitude": 40.2,
+   "bbox": [
+    -75.6966,
+    39.9769,
+    -75.0154,
+    40.4477
+   ],
+   "coastal": true,
+   "elevation_ft": 200,
+   "zone": "7a",
+   "jan_low_f": 20,
+   "jul_high_f": 86,
+   "record_low_f": -17,
+   "record_high_f": 106,
+   "precip_in": 48.5,
+   "snow_in": 13,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 15",
+   "growing_days": 173,
+   "ecoregion": "Northern Piedmont",
+   "ecoregion_code": "64",
+   "nws_office": "Mount Holly, NJ",
+   "nws_cwa": "PHI",
+   "nwr": [
+    {
+     "call": "WXL39",
+     "freq": "162.400",
+     "same": "042091"
+    },
+    {
+     "call": "WNG704",
+     "freq": "162.425",
+     "same": "042091"
+    },
+    {
+     "call": "KIH28",
+     "freq": "162.475",
+     "same": "042091"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 2,
+    "hurricane": 2,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.1
+  },
+  "Montour County": {
+   "fips": "42093",
+   "centroid": [
+    41.0293,
+    -76.6652
+   ],
+   "latitude": 41.0,
+   "bbox": [
+    -76.7944,
+    40.8825,
+    -76.5127,
+    41.172
+   ],
+   "coastal": false,
+   "elevation_ft": 750,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 84,
+   "record_low_f": -15,
+   "record_high_f": 102,
+   "precip_in": 43.7,
+   "snow_in": 29,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 13",
+   "growing_days": 166,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "State College, PA",
+   "nws_cwa": "CTP",
+   "nwr": [
+    {
+     "call": "WXL55",
+     "freq": "162.400",
+     "same": "042093"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.1
+  },
+  "Northampton County": {
+   "fips": "42095",
+   "centroid": [
+    40.7528,
+    -75.3074
+   ],
+   "latitude": 40.8,
+   "bbox": [
+    -75.6084,
+    40.5369,
+    -75.0508,
+    40.968
+   ],
+   "coastal": false,
+   "elevation_ft": 520,
+   "zone": "7a",
+   "jan_low_f": 22,
+   "jul_high_f": 86,
+   "record_low_f": -13,
+   "record_high_f": 103,
+   "precip_in": 51.0,
+   "snow_in": 33,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 25",
+   "growing_days": 188,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "Mount Holly, NJ",
+   "nws_cwa": "PHI",
+   "nwr": [
+    {
+     "call": "WXL39",
+     "freq": "162.400",
+     "same": "042095"
+    },
+    {
+     "call": "KZZ31",
+     "freq": "162.500",
+     "same": "042095"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.1
+  },
+  "Northumberland County": {
+   "fips": "42097",
+   "centroid": [
+    40.8515,
+    -76.7099
+   ],
+   "latitude": 40.9,
+   "bbox": [
+    -76.9493,
+    40.6043,
+    -76.3804,
+    41.1754
+   ],
+   "coastal": false,
+   "elevation_ft": 570,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 84,
+   "record_low_f": -15,
+   "record_high_f": 102,
+   "precip_in": 43.7,
+   "snow_in": 29,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 13",
+   "growing_days": 166,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "State College, PA",
+   "nws_cwa": "CTP",
+   "nwr": [
+    {
+     "call": "WXL55",
+     "freq": "162.400",
+     "same": "042097"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.2
+  },
+  "Perry County": {
+   "fips": "42099",
+   "centroid": [
+    40.3978,
+    -77.2663
+   ],
+   "latitude": 40.4,
+   "bbox": [
+    -77.6713,
+    40.1855,
+    -76.9147,
+    40.6281
+   ],
+   "coastal": false,
+   "elevation_ft": 730,
+   "zone": "7a",
+   "jan_low_f": 22,
+   "jul_high_f": 84,
+   "record_low_f": -19,
+   "record_high_f": 102,
+   "precip_in": 43.7,
+   "snow_in": 28,
+   "last_frost": "Apr 18",
+   "first_frost": "Oct 26",
+   "growing_days": 191,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "State College, PA",
+   "nws_cwa": "CTP",
+   "nwr": [
+    {
+     "call": "WXL40",
+     "freq": "162.550",
+     "same": "042099"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.2
+  },
+  "Philadelphia County": {
+   "fips": "42101",
+   "centroid": [
+    40.0094,
+    -75.1333
+   ],
+   "latitude": 40.0,
+   "bbox": [
+    -75.2794,
+    39.8665,
+    -74.9555,
+    40.1374
+   ],
+   "coastal": true,
+   "elevation_ft": 100,
+   "zone": "7b",
+   "jan_low_f": 28,
+   "jul_high_f": 89,
+   "record_low_f": -5,
+   "record_high_f": 104,
+   "precip_in": 50.7,
+   "snow_in": 16,
+   "last_frost": "Mar 30",
+   "first_frost": "Nov 17",
+   "growing_days": 232,
+   "ecoregion": "Northern Piedmont",
+   "ecoregion_code": "64",
+   "nws_office": "Mount Holly, NJ",
+   "nws_cwa": "PHI",
+   "nwr": [
+    {
+     "call": "KIH28",
+     "freq": "162.475",
+     "same": "042101"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 3,
+    "hurricane": 3,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.6,
+   "sun_hours_jun": 5.1
+  },
+  "Pike County": {
+   "fips": "42103",
+   "centroid": [
+    41.3259,
+    -75.0315
+   ],
+   "latitude": 41.3,
+   "bbox": [
+    -75.3567,
+    41.0802,
+    -74.6895,
+    41.6017
+   ],
+   "coastal": false,
+   "elevation_ft": 1510,
+   "zone": "6a",
+   "jan_low_f": 14,
+   "jul_high_f": 81,
+   "record_low_f": -31,
+   "record_high_f": 100,
+   "precip_in": 45.1,
+   "snow_in": 47,
+   "last_frost": "May 10",
+   "first_frost": "Oct 4",
+   "growing_days": 146,
+   "ecoregion": "North Central Appalachians",
+   "ecoregion_code": "62",
+   "nws_office": "Binghamton, NY",
+   "nws_cwa": "BGM",
+   "nwr": [
+    {
+     "call": "WXL39",
+     "freq": "162.400",
+     "same": "042103"
+    },
+    {
+     "call": "KZZ31",
+     "freq": "162.500",
+     "same": "042103"
+    },
+    {
+     "call": "WNG705",
+     "freq": "162.450",
+     "same": "042103"
+    },
+    {
+     "call": "WXL43",
+     "freq": "162.550",
+     "same": "042103"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.0
+  },
+  "Potter County": {
+   "fips": "42105",
+   "centroid": [
+    41.7486,
+    -77.8944
+   ],
+   "latitude": 41.7,
+   "bbox": [
+    -78.2066,
+    41.4748,
+    -77.5981,
+    42.0004
+   ],
+   "coastal": false,
+   "elevation_ft": 2400,
+   "zone": "5b",
+   "jan_low_f": 14,
+   "jul_high_f": 78,
+   "record_low_f": -25,
+   "record_high_f": 101,
+   "precip_in": 46.7,
+   "snow_in": 78,
+   "last_frost": "May 14",
+   "first_frost": "Oct 4",
+   "growing_days": 143,
+   "ecoregion": "North Central Appalachians",
+   "ecoregion_code": "62",
+   "nws_office": "State College, PA",
+   "nws_cwa": "CTP",
+   "nwr": [
+    {
+     "call": "WXN29",
+     "freq": "162.425",
+     "same": "042105"
+    },
+    {
+     "call": "WNG591",
+     "freq": "162.500",
+     "same": "042105"
+    },
+    {
+     "call": "WXN55",
+     "freq": "162.450",
+     "same": "042105"
+    },
+    {
+     "call": "WXM94",
+     "freq": "162.475",
+     "same": "042105"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.1
+  },
+  "Schuylkill County": {
+   "fips": "42107",
+   "centroid": [
+    40.7037,
+    -76.2178
+   ],
+   "latitude": 40.7,
+   "bbox": [
+    -76.702,
+    40.4955,
+    -75.7584,
+    40.9497
+   ],
+   "coastal": false,
+   "elevation_ft": 900,
+   "zone": "6b",
+   "jan_low_f": 19,
+   "jul_high_f": 84,
+   "record_low_f": -20,
+   "record_high_f": 107,
+   "precip_in": 48.0,
+   "snow_in": 34,
+   "last_frost": "Apr 27",
+   "first_frost": "Oct 20",
+   "growing_days": 172,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "State College, PA",
+   "nws_cwa": "CTP",
+   "nwr": [
+    {
+     "call": "WXL39",
+     "freq": "162.400",
+     "same": "042107"
+    },
+    {
+     "call": "WXL40",
+     "freq": "162.550",
+     "same": "042107"
+    },
+    {
+     "call": "WXL43",
+     "freq": "162.550",
+     "same": "042107"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.2
+  },
+  "Snyder County": {
+   "fips": "42109",
+   "centroid": [
+    40.7554,
+    -77.073
+   ],
+   "latitude": 40.8,
+   "bbox": [
+    -77.3566,
+    40.636,
+    -76.7986,
+    40.8894
+   ],
+   "coastal": false,
+   "elevation_ft": 1060,
+   "zone": "6b",
+   "jan_low_f": 21,
+   "jul_high_f": 85,
+   "record_low_f": -22,
+   "record_high_f": 105,
+   "precip_in": 47.4,
+   "snow_in": 34,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 19",
+   "growing_days": 175,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "State College, PA",
+   "nws_cwa": "CTP",
+   "nwr": [
+    {
+     "call": "WXL55",
+     "freq": "162.400",
+     "same": "042109"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.2
+  },
+  "Somerset County": {
+   "fips": "42111",
+   "centroid": [
+    39.9813,
+    -79.0285
+   ],
+   "latitude": 40.0,
+   "bbox": [
+    -79.417,
+    39.7216,
+    -78.6582,
+    40.2854
+   ],
+   "coastal": false,
+   "elevation_ft": 2360,
+   "zone": "6a",
+   "jan_low_f": 17,
+   "jul_high_f": 80,
+   "record_low_f": -25,
+   "record_high_f": 98,
+   "precip_in": 41.7,
+   "snow_in": 46,
+   "last_frost": "May 12",
+   "first_frost": "Oct 5",
+   "growing_days": 146,
+   "ecoregion": "Central Appalachians",
+   "ecoregion_code": "69",
+   "nws_office": "State College, PA",
+   "nws_cwa": "CTP",
+   "nwr": [
+    {
+     "call": "WXM43",
+     "freq": "162.425",
+     "same": "042111"
+    },
+    {
+     "call": "WXM33",
+     "freq": "162.400",
+     "same": "042111"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.3,
+   "sun_hours_jun": 5.1
+  },
+  "Sullivan County": {
+   "fips": "42113",
+   "centroid": [
+    41.4393,
+    -76.5117
+   ],
+   "latitude": 41.4,
+   "bbox": [
+    -76.8138,
+    41.2757,
+    -76.2206,
+    41.5902
+   ],
+   "coastal": false,
+   "elevation_ft": 1860,
+   "zone": "6a",
+   "jan_low_f": 14,
+   "jul_high_f": 78,
+   "record_low_f": -12,
+   "record_high_f": 94,
+   "precip_in": 53.3,
+   "snow_in": 70,
+   "last_frost": "May 6",
+   "first_frost": "Oct 7",
+   "growing_days": 154,
+   "ecoregion": "North Central Appalachians",
+   "ecoregion_code": "62",
+   "nws_office": "State College, PA",
+   "nws_cwa": "CTP",
+   "nwr": [
+    {
+     "call": "WXM95",
+     "freq": "162.525",
+     "same": "042113"
+    },
+    {
+     "call": "WXL55",
+     "freq": "162.400",
+     "same": "042113"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.1
+  },
+  "Susquehanna County": {
+   "fips": "42115",
+   "centroid": [
+    41.8197,
+    -75.801
+   ],
+   "latitude": 41.8,
+   "bbox": [
+    -76.1469,
+    41.6414,
+    -75.4624,
+    41.9993
+   ],
+   "coastal": false,
+   "elevation_ft": 1340,
+   "zone": "5b",
+   "jan_low_f": 12,
+   "jul_high_f": 80,
+   "record_low_f": -27,
+   "record_high_f": 100,
+   "precip_in": 46.7,
+   "snow_in": 83,
+   "last_frost": "May 14",
+   "first_frost": "Oct 2",
+   "growing_days": 141,
+   "ecoregion": "Northern Allegheny Plateau",
+   "ecoregion_code": "60",
+   "nws_office": "Binghamton, NY",
+   "nws_cwa": "BGM",
+   "nwr": [
+    {
+     "call": "WXL38",
+     "freq": "162.475",
+     "same": "042115"
+    },
+    {
+     "call": "WNG705",
+     "freq": "162.450",
+     "same": "042115"
+    },
+    {
+     "call": "WXL43",
+     "freq": "162.550",
+     "same": "042115"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.0
+  },
+  "Tioga County": {
+   "fips": "42117",
+   "centroid": [
+    41.7669,
+    -77.2573
+   ],
+   "latitude": 41.8,
+   "bbox": [
+    -77.6098,
+    41.5423,
+    -76.8747,
+    42.0017
+   ],
+   "coastal": false,
+   "elevation_ft": 1540,
+   "zone": "5b",
+   "jan_low_f": 14,
+   "jul_high_f": 79,
+   "record_low_f": -30,
+   "record_high_f": 104,
+   "precip_in": 42.3,
+   "snow_in": 61,
+   "last_frost": "May 10",
+   "first_frost": "Oct 5",
+   "growing_days": 148,
+   "ecoregion": "Northern Allegheny Plateau",
+   "ecoregion_code": "60",
+   "nws_office": "State College, PA",
+   "nws_cwa": "CTP",
+   "nwr": [
+    {
+     "call": "WXN29",
+     "freq": "162.425",
+     "same": "042117"
+    },
+    {
+     "call": "WXN55",
+     "freq": "162.450",
+     "same": "042117"
+    },
+    {
+     "call": "WXM95",
+     "freq": "162.525",
+     "same": "042117"
+    },
+    {
+     "call": "WXM94",
+     "freq": "162.475",
+     "same": "042117"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.1
+  },
+  "Union County": {
+   "fips": "42119",
+   "centroid": [
+    40.9622,
+    -77.0555
+   ],
+   "latitude": 41.0,
+   "bbox": [
+    -77.3652,
+    40.8067,
+    -76.8003,
+    41.1488
+   ],
+   "coastal": false,
+   "elevation_ft": 670,
+   "zone": "6b",
+   "jan_low_f": 21,
+   "jul_high_f": 85,
+   "record_low_f": -22,
+   "record_high_f": 105,
+   "precip_in": 45.0,
+   "snow_in": 29,
+   "last_frost": "Apr 25",
+   "first_frost": "Oct 19",
+   "growing_days": 175,
+   "ecoregion": "Ridge and Valley",
+   "ecoregion_code": "67",
+   "nws_office": "State College, PA",
+   "nws_cwa": "CTP",
+   "nwr": [
+    {
+     "call": "WXL55",
+     "freq": "162.400",
+     "same": "042119"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.4,
+   "sun_hours_jun": 5.2
+  },
+  "Venango County": {
+   "fips": "42121",
+   "centroid": [
+    41.4007,
+    -79.7658
+   ],
+   "latitude": 41.4,
+   "bbox": [
+    -79.9998,
+    41.1716,
+    -79.4778,
+    41.6245
+   ],
+   "coastal": false,
+   "elevation_ft": 1280,
+   "zone": "6a",
+   "jan_low_f": 18,
+   "jul_high_f": 83,
+   "record_low_f": -30,
+   "record_high_f": 106,
+   "precip_in": 46.3,
+   "snow_in": 54,
+   "last_frost": "May 2",
+   "first_frost": "Oct 23",
+   "growing_days": 171,
+   "ecoregion": "North Central Appalachians",
+   "ecoregion_code": "62",
+   "nws_office": "Pittsburgh, PA",
+   "nws_cwa": "PBZ",
+   "nwr": [
+    {
+     "call": "KEC58",
+     "freq": "162.400",
+     "same": "042121"
+    },
+    {
+     "call": "KZZ32",
+     "freq": "162.475",
+     "same": "042121"
+    },
+    {
+     "call": "WWG53",
+     "freq": "162.425",
+     "same": "042121"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.1
+  },
+  "Warren County": {
+   "fips": "42123",
+   "centroid": [
+    41.8343,
+    -79.2982
+   ],
+   "latitude": 41.8,
+   "bbox": [
+    -79.613,
+    41.6239,
+    -78.9157,
+    41.9999
+   ],
+   "coastal": false,
+   "elevation_ft": 1540,
+   "zone": "6a",
+   "jan_low_f": 13,
+   "jul_high_f": 80,
+   "record_low_f": -34,
+   "record_high_f": 102,
+   "precip_in": 48.9,
+   "snow_in": 116,
+   "last_frost": "May 22",
+   "first_frost": "Sep 30",
+   "growing_days": 131,
+   "ecoregion": "North Central Appalachians",
+   "ecoregion_code": "62",
+   "nws_office": "State College, PA",
+   "nws_cwa": "CTP",
+   "nwr": [
+    {
+     "call": "KEC58",
+     "freq": "162.400",
+     "same": "042123"
+    },
+    {
+     "call": "WWG51",
+     "freq": "162.450",
+     "same": "042123"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 1.7,
+   "sun_hours_jun": 5.1
+  },
+  "Washington County": {
+   "fips": "42125",
+   "centroid": [
+    40.2,
+    -80.2521
+   ],
+   "latitude": 40.2,
+   "bbox": [
+    -80.5193,
+    39.9522,
+    -79.8391,
+    40.4778
+   ],
+   "coastal": false,
+   "elevation_ft": 1230,
+   "zone": "6b",
+   "jan_low_f": 20,
+   "jul_high_f": 83,
+   "record_low_f": -25,
+   "record_high_f": 100,
+   "precip_in": 41.3,
+   "snow_in": 32,
+   "last_frost": "Apr 24",
+   "first_frost": "Oct 23",
+   "growing_days": 181,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Pittsburgh, PA",
+   "nws_cwa": "PBZ",
+   "nwr": [
+    {
+     "call": "KIH35",
+     "freq": "162.550",
+     "same": "042125"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.0,
+   "sun_hours_jun": 5.1
+  },
+  "Wayne County": {
+   "fips": "42127",
+   "centroid": [
+    41.6466,
+    -75.2925
+   ],
+   "latitude": 41.6,
+   "bbox": [
+    -75.5053,
+    41.2327,
+    -75.044,
+    41.9997
+   ],
+   "coastal": false,
+   "elevation_ft": 1370,
+   "zone": "6a",
+   "jan_low_f": 12,
+   "jul_high_f": 77,
+   "record_low_f": -25,
+   "record_high_f": 96,
+   "precip_in": 51.4,
+   "snow_in": 69,
+   "last_frost": "May 14",
+   "first_frost": "Oct 1",
+   "growing_days": 140,
+   "ecoregion": "Northern Allegheny Plateau",
+   "ecoregion_code": "60",
+   "nws_office": "Binghamton, NY",
+   "nws_cwa": "BGM",
+   "nwr": [
+    {
+     "call": "KZZ31",
+     "freq": "162.500",
+     "same": "042127"
+    },
+    {
+     "call": "WNG705",
+     "freq": "162.450",
+     "same": "042127"
+    },
+    {
+     "call": "WXL43",
+     "freq": "162.550",
+     "same": "042127"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.0
+  },
+  "Westmoreland County": {
+   "fips": "42129",
+   "centroid": [
+    40.3111,
+    -79.4667
+   ],
+   "latitude": 40.3,
+   "bbox": [
+    -79.9049,
+    40.0404,
+    -78.9747,
+    40.6798
+   ],
+   "coastal": false,
+   "elevation_ft": 1290,
+   "zone": "6b",
+   "jan_low_f": 21,
+   "jul_high_f": 82,
+   "record_low_f": -33,
+   "record_high_f": 101,
+   "precip_in": 43.9,
+   "snow_in": 30,
+   "last_frost": "May 1",
+   "first_frost": "Oct 13",
+   "growing_days": 164,
+   "ecoregion": "Western Allegheny Plateau",
+   "ecoregion_code": "70",
+   "nws_office": "Pittsburgh, PA",
+   "nws_cwa": "PBZ",
+   "nwr": [
+    {
+     "call": "WXM33",
+     "freq": "162.400",
+     "same": "042129"
+    },
+    {
+     "call": "KIH35",
+     "freq": "162.550",
+     "same": "042129"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 2
+   },
+   "sun_hours_dec": 2.0,
+   "sun_hours_jun": 5.1
+  },
+  "Wyoming County": {
+   "fips": "42131",
+   "centroid": [
+    41.5252,
+    -76.0087
+   ],
+   "latitude": 41.5,
+   "bbox": [
+    -76.2826,
+    41.3773,
+    -75.7192,
+    41.6522
+   ],
+   "coastal": false,
+   "elevation_ft": 1400,
+   "zone": "6a",
+   "jan_low_f": 15,
+   "jul_high_f": 80,
+   "record_low_f": -27,
+   "record_high_f": 100,
+   "precip_in": 43.4,
+   "snow_in": 41,
+   "last_frost": "May 14",
+   "first_frost": "Oct 2",
+   "growing_days": 143,
+   "ecoregion": "Northern Allegheny Plateau",
+   "ecoregion_code": "60",
+   "nws_office": "Binghamton, NY",
+   "nws_cwa": "BGM",
+   "nwr": [
+    {
+     "call": "WXM95",
+     "freq": "162.525",
+     "same": "042131"
+    },
+    {
+     "call": "WXL43",
+     "freq": "162.550",
+     "same": "042131"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.1,
+   "sun_hours_jun": 5.1
+  },
+  "York County": {
+   "fips": "42133",
+   "centroid": [
+    39.9218,
+    -76.7289
+   ],
+   "latitude": 39.9,
+   "bbox": [
+    -77.1363,
+    39.7198,
+    -76.2389,
+    40.2261
+   ],
+   "coastal": false,
+   "elevation_ft": 610,
+   "zone": "7a",
+   "jan_low_f": 21,
+   "jul_high_f": 88,
+   "record_low_f": -21,
+   "record_high_f": 107,
+   "precip_in": 46.5,
+   "snow_in": 25,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 19",
+   "growing_days": 177,
+   "ecoregion": "Northern Piedmont",
+   "ecoregion_code": "64",
+   "nws_office": "State College, PA",
+   "nws_cwa": "CTP",
+   "nwr": [
+    {
+     "call": "KEC83",
+     "freq": "162.400",
+     "same": "042133"
+    },
+    {
+     "call": "WXL40",
+     "freq": "162.550",
+     "same": "042133"
+    }
+   ],
+   "state_em": "Pennsylvania Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.4
+  }
+ }
+}

@@ -1,0 +1,3876 @@
+{
+ "state": "SD",
+ "state_name": "South Dakota",
+ "state_fips": "46",
+ "state_em": "South Dakota Office of Emergency Management",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "ABR": "NWS Aberdeen, SD",
+  "FSD": "NWS Sioux Falls, SD",
+  "UNR": "NWS Rapid City, SD"
+ },
+ "ecoregions": [
+  "Middle Rockies",
+  "High Plains",
+  "Northwestern Glaciated Plains",
+  "Northwestern Great Plains",
+  "Nebraska Sand Hills",
+  "Northern Glaciated Plains",
+  "Western Corn Belt Plains",
+  "Lake Agassiz Plain"
+ ],
+ "counties": {
+  "Aurora County": {
+   "fips": "46003",
+   "centroid": [
+    43.7247,
+    -98.5776
+   ],
+   "latitude": 43.7,
+   "bbox": [
+    -98.8078,
+    43.4987,
+    -98.3206,
+    43.9379
+   ],
+   "coastal": false,
+   "elevation_ft": 1570,
+   "zone": "5a",
+   "jan_low_f": 8,
+   "jul_high_f": 86,
+   "record_low_f": -32,
+   "record_high_f": 116,
+   "precip_in": 23.9,
+   "snow_in": 38,
+   "last_frost": "May 3",
+   "first_frost": "Oct 5",
+   "growing_days": 153,
+   "ecoregion": "Northwestern Glaciated Plains",
+   "ecoregion_code": "42",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "WWH36",
+     "freq": "162.450",
+     "same": "046003"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.7
+  },
+  "Beadle County": {
+   "fips": "46005",
+   "centroid": [
+    44.4183,
+    -98.2794
+   ],
+   "latitude": 44.4,
+   "bbox": [
+    -98.7059,
+    44.1945,
+    -97.8532,
+    44.6341
+   ],
+   "coastal": false,
+   "elevation_ft": 1290,
+   "zone": "4b",
+   "jan_low_f": 6,
+   "jul_high_f": 86,
+   "record_low_f": -43,
+   "record_high_f": 112,
+   "precip_in": 23.3,
+   "snow_in": 44,
+   "last_frost": "May 6",
+   "first_frost": "Oct 2",
+   "growing_days": 146,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "WXM27",
+     "freq": "162.550",
+     "same": "046005"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.7
+  },
+  "Bennett County": {
+   "fips": "46007",
+   "centroid": [
+    43.1869,
+    -101.6772
+   ],
+   "latitude": 43.2,
+   "bbox": [
+    -102.1108,
+    42.9962,
+    -101.2272,
+    43.3902
+   ],
+   "coastal": false,
+   "elevation_ft": 3250,
+   "zone": "5a",
+   "jan_low_f": 13,
+   "jul_high_f": 87,
+   "record_low_f": -28,
+   "record_high_f": 113,
+   "precip_in": 20.7,
+   "snow_in": 48,
+   "last_frost": "May 13",
+   "first_frost": "Oct 2",
+   "growing_days": 141,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Rapid City, SD",
+   "nws_cwa": "UNR",
+   "nwr": [
+    {
+     "call": "WXL76",
+     "freq": "162.400",
+     "same": "046007"
+    },
+    {
+     "call": "KZZ59",
+     "freq": "162.500",
+     "same": "046007"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 6.1
+  },
+  "Bon Homme County": {
+   "fips": "46009",
+   "centroid": [
+    42.9857,
+    -97.8842
+   ],
+   "latitude": 43.0,
+   "bbox": [
+    -98.1626,
+    42.7624,
+    -97.635,
+    43.1696
+   ],
+   "coastal": false,
+   "elevation_ft": 1420,
+   "zone": "5a",
+   "jan_low_f": 9,
+   "jul_high_f": 86,
+   "record_low_f": -41,
+   "record_high_f": 115,
+   "precip_in": 26.2,
+   "snow_in": 37,
+   "last_frost": "May 1",
+   "first_frost": "Oct 7",
+   "growing_days": 158,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "KXI21",
+     "freq": "162.500",
+     "same": "046009"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.7
+  },
+  "Brookings County": {
+   "fips": "46011",
+   "centroid": [
+    44.3767,
+    -96.7978
+   ],
+   "latitude": 44.4,
+   "bbox": [
+    -97.1296,
+    44.1955,
+    -96.4518,
+    44.5439
+   ],
+   "coastal": false,
+   "elevation_ft": 1680,
+   "zone": "4b",
+   "jan_low_f": 4,
+   "jul_high_f": 81,
+   "record_low_f": -41,
+   "record_high_f": 109,
+   "precip_in": 25.2,
+   "snow_in": 36,
+   "last_frost": "May 6",
+   "first_frost": "Oct 1",
+   "growing_days": 145,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "KXI71",
+     "freq": "162.525",
+     "same": "046011"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Brown County": {
+   "fips": "46013",
+   "centroid": [
+    45.5893,
+    -98.3522
+   ],
+   "latitude": 45.6,
+   "bbox": [
+    -98.7254,
+    45.2403,
+    -97.9786,
+    45.9387
+   ],
+   "coastal": false,
+   "elevation_ft": 1300,
+   "zone": "4a",
+   "jan_low_f": 0,
+   "jul_high_f": 83,
+   "record_low_f": -45,
+   "record_high_f": 108,
+   "precip_in": 22.5,
+   "snow_in": 38,
+   "last_frost": "May 7",
+   "first_frost": "Sep 29",
+   "growing_days": 145,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Aberdeen, SD",
+   "nws_cwa": "ABR",
+   "nwr": [
+    {
+     "call": "WXM25",
+     "freq": "162.475",
+     "same": "046013"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.7
+  },
+  "Brule County": {
+   "fips": "46015",
+   "centroid": [
+    43.7299,
+    -99.0929
+   ],
+   "latitude": 43.7,
+   "bbox": [
+    -99.4691,
+    43.4993,
+    -98.7943,
+    43.9352
+   ],
+   "coastal": false,
+   "elevation_ft": 1690,
+   "zone": "5a",
+   "jan_low_f": 9,
+   "jul_high_f": 87,
+   "record_low_f": -34,
+   "record_high_f": 113,
+   "precip_in": 24.1,
+   "snow_in": 43,
+   "last_frost": "May 3",
+   "first_frost": "Oct 7",
+   "growing_days": 156,
+   "ecoregion": "Northwestern Glaciated Plains",
+   "ecoregion_code": "42",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "KZZ60",
+     "freq": "162.525",
+     "same": "046015"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.8
+  },
+  "Buffalo County": {
+   "fips": "46017",
+   "centroid": [
+    44.0443,
+    -99.204
+   ],
+   "latitude": 44.0,
+   "bbox": [
+    -99.5759,
+    43.9331,
+    -98.9263,
+    44.1966
+   ],
+   "coastal": false,
+   "elevation_ft": 1720,
+   "zone": "4b",
+   "jan_low_f": 6,
+   "jul_high_f": 87,
+   "record_low_f": -44,
+   "record_high_f": 120,
+   "precip_in": 22.7,
+   "snow_in": 41,
+   "last_frost": "May 6",
+   "first_frost": "Oct 1",
+   "growing_days": 148,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Aberdeen, SD",
+   "nws_cwa": "ABR",
+   "nwr": [
+    {
+     "call": "WXM26",
+     "freq": "162.400",
+     "same": "046017"
+    },
+    {
+     "call": "KZZ60",
+     "freq": "162.525",
+     "same": "046017"
+    },
+    {
+     "call": "WXM27",
+     "freq": "162.550",
+     "same": "046017"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.8
+  },
+  "Butte County": {
+   "fips": "46019",
+   "centroid": [
+    44.8962,
+    -103.5014
+   ],
+   "latitude": 44.9,
+   "bbox": [
+    -104.0577,
+    44.5712,
+    -102.9576,
+    45.2134
+   ],
+   "coastal": false,
+   "elevation_ft": 3150,
+   "zone": "4b",
+   "jan_low_f": 10,
+   "jul_high_f": 86,
+   "record_low_f": -38,
+   "record_high_f": 110,
+   "precip_in": 16.6,
+   "snow_in": 40,
+   "last_frost": "May 8",
+   "first_frost": "Oct 1",
+   "growing_days": 144,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Rapid City, SD",
+   "nws_cwa": "UNR",
+   "nwr": [
+    {
+     "call": "WXL23",
+     "freq": "162.525",
+     "same": "046019"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 6.0
+  },
+  "Campbell County": {
+   "fips": "46021",
+   "centroid": [
+    45.7856,
+    -100.0021
+   ],
+   "latitude": 45.8,
+   "bbox": [
+    -100.4996,
+    45.593,
+    -99.7175,
+    45.9436
+   ],
+   "coastal": false,
+   "elevation_ft": 1770,
+   "zone": "4b",
+   "jan_low_f": 3,
+   "jul_high_f": 85,
+   "record_low_f": -51,
+   "record_high_f": 118,
+   "precip_in": 17.8,
+   "snow_in": 39,
+   "last_frost": "May 8",
+   "first_frost": "Sep 30",
+   "growing_days": 143,
+   "ecoregion": "Northwestern Glaciated Plains",
+   "ecoregion_code": "42",
+   "nws_office": "Aberdeen, SD",
+   "nws_cwa": "ABR",
+   "nwr": [
+    {
+     "call": "WXM40",
+     "freq": "162.500",
+     "same": "046021"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.9
+  },
+  "Charles Mix County": {
+   "fips": "46023",
+   "centroid": [
+    43.2062,
+    -98.5951
+   ],
+   "latitude": 43.2,
+   "bbox": [
+    -99.3107,
+    42.8371,
+    -98.0696,
+    43.4998
+   ],
+   "coastal": false,
+   "elevation_ft": 1580,
+   "zone": "5a",
+   "jan_low_f": 12,
+   "jul_high_f": 87,
+   "record_low_f": -28,
+   "record_high_f": 112,
+   "precip_in": 24.4,
+   "snow_in": 31,
+   "last_frost": "Apr 30",
+   "first_frost": "Oct 13",
+   "growing_days": 165,
+   "ecoregion": "Northwestern Glaciated Plains",
+   "ecoregion_code": "42",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "KXI25",
+     "freq": "162.425",
+     "same": "046023"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.7
+  },
+  "Clark County": {
+   "fips": "46025",
+   "centroid": [
+    44.8552,
+    -97.7249
+   ],
+   "latitude": 44.9,
+   "bbox": [
+    -97.9832,
+    44.5439,
+    -97.4912,
+    45.1533
+   ],
+   "coastal": false,
+   "elevation_ft": 1790,
+   "zone": "4b",
+   "jan_low_f": 4,
+   "jul_high_f": 82,
+   "record_low_f": -42,
+   "record_high_f": 110,
+   "precip_in": 24.4,
+   "snow_in": 22,
+   "last_frost": "May 5",
+   "first_frost": "Oct 5",
+   "growing_days": 153,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Aberdeen, SD",
+   "nws_cwa": "ABR",
+   "nwr": [
+    {
+     "call": "WXM25",
+     "freq": "162.475",
+     "same": "046025"
+    },
+    {
+     "call": "KXI71",
+     "freq": "162.525",
+     "same": "046025"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.6
+  },
+  "Clay County": {
+   "fips": "46027",
+   "centroid": [
+    42.9162,
+    -96.9805
+   ],
+   "latitude": 42.9,
+   "bbox": [
+    -97.1607,
+    42.7041,
+    -96.8055,
+    43.0836
+   ],
+   "coastal": false,
+   "elevation_ft": 1230,
+   "zone": "5a",
+   "jan_low_f": 7,
+   "jul_high_f": 84,
+   "record_low_f": -44,
+   "record_high_f": 113,
+   "precip_in": 26.9,
+   "snow_in": 30,
+   "last_frost": "May 2",
+   "first_frost": "Oct 1",
+   "growing_days": 151,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "KXI21",
+     "freq": "162.500",
+     "same": "046027"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.7
+  },
+  "Codington County": {
+   "fips": "46029",
+   "centroid": [
+    44.9663,
+    -97.1988
+   ],
+   "latitude": 45.0,
+   "bbox": [
+    -97.4947,
+    44.8034,
+    -96.8822,
+    45.1518
+   ],
+   "coastal": false,
+   "elevation_ft": 1750,
+   "zone": "4b",
+   "jan_low_f": 2,
+   "jul_high_f": 82,
+   "record_low_f": -40,
+   "record_high_f": 110,
+   "precip_in": 23.4,
+   "snow_in": 32,
+   "last_frost": "May 7",
+   "first_frost": "Sep 28",
+   "growing_days": 143,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Aberdeen, SD",
+   "nws_cwa": "ABR",
+   "nwr": [
+    {
+     "call": "WXM41",
+     "freq": "162.425",
+     "same": "046029"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.6
+  },
+  "Corson County": {
+   "fips": "46031",
+   "centroid": [
+    45.6857,
+    -101.1797
+   ],
+   "latitude": 45.7,
+   "bbox": [
+    -102.0008,
+    45.4721,
+    -100.3084,
+    45.9445
+   ],
+   "coastal": false,
+   "elevation_ft": 2060,
+   "zone": "4b",
+   "jan_low_f": 7,
+   "jul_high_f": 86,
+   "record_low_f": -58,
+   "record_high_f": 114,
+   "precip_in": 17.3,
+   "snow_in": 43,
+   "last_frost": "May 9",
+   "first_frost": "Sep 30",
+   "growing_days": 143,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Aberdeen, SD",
+   "nws_cwa": "ABR",
+   "nwr": [
+    {
+     "call": "WNG551",
+     "freq": "162.425",
+     "same": "046031"
+    },
+    {
+     "call": "WXM40",
+     "freq": "162.500",
+     "same": "046031"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.9
+  },
+  "Custer County": {
+   "fips": "46033",
+   "centroid": [
+    43.6849,
+    -103.4622
+   ],
+   "latitude": 43.7,
+   "bbox": [
+    -104.0556,
+    43.4769,
+    -102.6871,
+    43.8568
+   ],
+   "coastal": false,
+   "elevation_ft": 4740,
+   "zone": "5b",
+   "jan_low_f": 15,
+   "jul_high_f": 85,
+   "record_low_f": -32,
+   "record_high_f": 105,
+   "precip_in": 21.2,
+   "snow_in": 46,
+   "last_frost": "May 15",
+   "first_frost": "Sep 29",
+   "growing_days": 133,
+   "ecoregion": "Middle Rockies",
+   "ecoregion_code": "17",
+   "nws_office": "Rapid City, SD",
+   "nws_cwa": "UNR",
+   "nwr": [
+    {
+     "call": "WXK64",
+     "freq": "162.425",
+     "same": "046033"
+    },
+    {
+     "call": "WNG661",
+     "freq": "162.475",
+     "same": "046033"
+    },
+    {
+     "call": "WXM63",
+     "freq": "162.550",
+     "same": "046033"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 6.2
+  },
+  "Davison County": {
+   "fips": "46035",
+   "centroid": [
+    43.6804,
+    -98.1559
+   ],
+   "latitude": 43.7,
+   "bbox": [
+    -98.326,
+    43.498,
+    -97.9646,
+    43.8517
+   ],
+   "coastal": false,
+   "elevation_ft": 1390,
+   "zone": "5a",
+   "jan_low_f": 9,
+   "jul_high_f": 87,
+   "record_low_f": -40,
+   "record_high_f": 116,
+   "precip_in": 25.8,
+   "snow_in": 41,
+   "last_frost": "Apr 27",
+   "first_frost": "Oct 11",
+   "growing_days": 167,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "WWH36",
+     "freq": "162.450",
+     "same": "046035"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.7
+  },
+  "Day County": {
+   "fips": "46037",
+   "centroid": [
+    45.3552,
+    -97.5814
+   ],
+   "latitude": 45.4,
+   "bbox": [
+    -97.9816,
+    45.1511,
+    -97.2262,
+    45.5893
+   ],
+   "coastal": false,
+   "elevation_ft": 1830,
+   "zone": "4b",
+   "jan_low_f": 2,
+   "jul_high_f": 81,
+   "record_low_f": -43,
+   "record_high_f": 108,
+   "precip_in": 26.1,
+   "snow_in": 43,
+   "last_frost": "May 4",
+   "first_frost": "Oct 6",
+   "growing_days": 156,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Aberdeen, SD",
+   "nws_cwa": "ABR",
+   "nwr": [
+    {
+     "call": "WXM25",
+     "freq": "162.475",
+     "same": "046037"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.5
+  },
+  "Deuel County": {
+   "fips": "46039",
+   "centroid": [
+    44.7563,
+    -96.6902
+   ],
+   "latitude": 44.8,
+   "bbox": [
+    -96.8856,
+    44.5435,
+    -96.4512,
+    44.9774
+   ],
+   "coastal": false,
+   "elevation_ft": 1840,
+   "zone": "4b",
+   "jan_low_f": 2,
+   "jul_high_f": 80,
+   "record_low_f": -37,
+   "record_high_f": 107,
+   "precip_in": 27.5,
+   "snow_in": 61,
+   "last_frost": "May 7",
+   "first_frost": "Oct 1",
+   "growing_days": 146,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Aberdeen, SD",
+   "nws_cwa": "ABR",
+   "nwr": [
+    {
+     "call": "KXI32",
+     "freq": "162.550",
+     "same": "046039"
+    },
+    {
+     "call": "KXI71",
+     "freq": "162.525",
+     "same": "046039"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Dewey County": {
+   "fips": "46041",
+   "centroid": [
+    45.148,
+    -100.838
+   ],
+   "latitude": 45.1,
+   "bbox": [
+    -101.5011,
+    44.7241,
+    -100.2574,
+    45.4734
+   ],
+   "coastal": false,
+   "elevation_ft": 2270,
+   "zone": "4b",
+   "jan_low_f": 7,
+   "jul_high_f": 86,
+   "record_low_f": -46,
+   "record_high_f": 115,
+   "precip_in": 19.4,
+   "snow_in": 41,
+   "last_frost": "May 10",
+   "first_frost": "Sep 30",
+   "growing_days": 141,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Aberdeen, SD",
+   "nws_cwa": "ABR",
+   "nwr": [
+    {
+     "call": "WNG551",
+     "freq": "162.425",
+     "same": "046041"
+    },
+    {
+     "call": "WXM40",
+     "freq": "162.500",
+     "same": "046041"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.9
+  },
+  "Douglas County": {
+   "fips": "46043",
+   "centroid": [
+    43.3915,
+    -98.3584
+   ],
+   "latitude": 43.4,
+   "bbox": [
+    -98.7074,
+    43.1972,
+    -98.1089,
+    43.4994
+   ],
+   "coastal": false,
+   "elevation_ft": 1570,
+   "zone": "5a",
+   "jan_low_f": 10,
+   "jul_high_f": 88,
+   "record_low_f": -45,
+   "record_high_f": 116,
+   "precip_in": 25.4,
+   "snow_in": 34,
+   "last_frost": "May 3",
+   "first_frost": "Oct 6",
+   "growing_days": 157,
+   "ecoregion": "Northwestern Glaciated Plains",
+   "ecoregion_code": "42",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "WWH36",
+     "freq": "162.450",
+     "same": "046043"
+    },
+    {
+     "call": "KXI25",
+     "freq": "162.425",
+     "same": "046043"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.7
+  },
+  "Edmunds County": {
+   "fips": "46045",
+   "centroid": [
+    45.4117,
+    -99.2054
+   ],
+   "latitude": 45.4,
+   "bbox": [
+    -99.7094,
+    45.2438,
+    -98.722,
+    45.5934
+   ],
+   "coastal": false,
+   "elevation_ft": 1720,
+   "zone": "4b",
+   "jan_low_f": 3,
+   "jul_high_f": 83,
+   "record_low_f": -37,
+   "record_high_f": 112,
+   "precip_in": 21.4,
+   "snow_in": 47,
+   "last_frost": "May 7",
+   "first_frost": "Oct 3",
+   "growing_days": 148,
+   "ecoregion": "Northwestern Glaciated Plains",
+   "ecoregion_code": "42",
+   "nws_office": "Aberdeen, SD",
+   "nws_cwa": "ABR",
+   "nwr": [
+    {
+     "call": "WXM25",
+     "freq": "162.475",
+     "same": "046045"
+    },
+    {
+     "call": "WXM40",
+     "freq": "162.500",
+     "same": "046045"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.7
+  },
+  "Fall River County": {
+   "fips": "46047",
+   "centroid": [
+    43.2216,
+    -103.5126
+   ],
+   "latitude": 43.2,
+   "bbox": [
+    -104.0548,
+    43.0005,
+    -103.0007,
+    43.4788
+   ],
+   "coastal": false,
+   "elevation_ft": 3670,
+   "zone": "5a",
+   "jan_low_f": 14,
+   "jul_high_f": 88,
+   "record_low_f": -41,
+   "record_high_f": 112,
+   "precip_in": 18.6,
+   "snow_in": 32,
+   "last_frost": "May 16",
+   "first_frost": "Sep 27",
+   "growing_days": 133,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Rapid City, SD",
+   "nws_cwa": "UNR",
+   "nwr": [
+    {
+     "call": "WXK64",
+     "freq": "162.425",
+     "same": "046047"
+    },
+    {
+     "call": "WNG661",
+     "freq": "162.475",
+     "same": "046047"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.4,
+   "sun_hours_jun": 6.2
+  },
+  "Faulk County": {
+   "fips": "46049",
+   "centroid": [
+    45.0655,
+    -99.1536
+   ],
+   "latitude": 45.1,
+   "bbox": [
+    -99.5738,
+    44.897,
+    -98.7164,
+    45.2455
+   ],
+   "coastal": false,
+   "elevation_ft": 1610,
+   "zone": "4b",
+   "jan_low_f": 4,
+   "jul_high_f": 84,
+   "record_low_f": -41,
+   "record_high_f": 114,
+   "precip_in": 22.0,
+   "snow_in": 44,
+   "last_frost": "May 10",
+   "first_frost": "Sep 28",
+   "growing_days": 139,
+   "ecoregion": "Northwestern Glaciated Plains",
+   "ecoregion_code": "42",
+   "nws_office": "Aberdeen, SD",
+   "nws_cwa": "ABR",
+   "nwr": [
+    {
+     "call": "WXM25",
+     "freq": "162.475",
+     "same": "046049"
+    },
+    {
+     "call": "WXM40",
+     "freq": "162.500",
+     "same": "046049"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.7
+  },
+  "Grant County": {
+   "fips": "46051",
+   "centroid": [
+    45.1726,
+    -96.7723
+   ],
+   "latitude": 45.2,
+   "bbox": [
+    -97.2265,
+    44.9761,
+    -96.4519,
+    45.3269
+   ],
+   "coastal": false,
+   "elevation_ft": 1290,
+   "zone": "4b",
+   "jan_low_f": 4,
+   "jul_high_f": 81,
+   "record_low_f": -44,
+   "record_high_f": 110,
+   "precip_in": 25.4,
+   "snow_in": 51,
+   "last_frost": "May 5",
+   "first_frost": "Oct 2",
+   "growing_days": 150,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Aberdeen, SD",
+   "nws_cwa": "ABR",
+   "nwr": [
+    {
+     "call": "KXI32",
+     "freq": "162.550",
+     "same": "046051"
+    },
+    {
+     "call": "WXM41",
+     "freq": "162.425",
+     "same": "046051"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.5
+  },
+  "Gregory County": {
+   "fips": "46053",
+   "centroid": [
+    43.1751,
+    -99.2066
+   ],
+   "latitude": 43.2,
+   "bbox": [
+    -99.5346,
+    42.9979,
+    -98.4985,
+    43.4998
+   ],
+   "coastal": false,
+   "elevation_ft": 2080,
+   "zone": "5a",
+   "jan_low_f": 10,
+   "jul_high_f": 87,
+   "record_low_f": -36,
+   "record_high_f": 114,
+   "precip_in": 26.7,
+   "snow_in": 45,
+   "last_frost": "May 6",
+   "first_frost": "Oct 3",
+   "growing_days": 149,
+   "ecoregion": "Northwestern Glaciated Plains",
+   "ecoregion_code": "42",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "KXI25",
+     "freq": "162.425",
+     "same": "046053"
+    },
+    {
+     "call": "KZZ60",
+     "freq": "162.525",
+     "same": "046053"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.8
+  },
+  "Haakon County": {
+   "fips": "46055",
+   "centroid": [
+    44.2881,
+    -101.5409
+   ],
+   "latitude": 44.3,
+   "bbox": [
+    -102.0077,
+    43.9945,
+    -101.0466,
+    44.747
+   ],
+   "coastal": false,
+   "elevation_ft": 2490,
+   "zone": "5a",
+   "jan_low_f": 10,
+   "jul_high_f": 88,
+   "record_low_f": -41,
+   "record_high_f": 116,
+   "precip_in": 20.0,
+   "snow_in": 45,
+   "last_frost": "May 8",
+   "first_frost": "Oct 2",
+   "growing_days": 147,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Rapid City, SD",
+   "nws_cwa": "UNR",
+   "nwr": [
+    {
+     "call": "KXI59",
+     "freq": "162.450",
+     "same": "046055"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 6.0
+  },
+  "Hamlin County": {
+   "fips": "46057",
+   "centroid": [
+    44.6806,
+    -97.1786
+   ],
+   "latitude": 44.7,
+   "bbox": [
+    -97.4922,
+    44.543,
+    -96.8845,
+    44.8045
+   ],
+   "coastal": false,
+   "elevation_ft": 1790,
+   "zone": "4b",
+   "jan_low_f": 2,
+   "jul_high_f": 82,
+   "record_low_f": -44,
+   "record_high_f": 109,
+   "precip_in": 24.3,
+   "snow_in": 34,
+   "last_frost": "May 6",
+   "first_frost": "Oct 1",
+   "growing_days": 145,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Aberdeen, SD",
+   "nws_cwa": "ABR",
+   "nwr": [
+    {
+     "call": "KXI71",
+     "freq": "162.525",
+     "same": "046057"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.6
+  },
+  "Hand County": {
+   "fips": "46059",
+   "centroid": [
+    44.5467,
+    -99.0046
+   ],
+   "latitude": 44.5,
+   "bbox": [
+    -99.3125,
+    44.1946,
+    -98.7008,
+    44.8973
+   ],
+   "coastal": false,
+   "elevation_ft": 1560,
+   "zone": "4b",
+   "jan_low_f": 7,
+   "jul_high_f": 85,
+   "record_low_f": -48,
+   "record_high_f": 113,
+   "precip_in": 22.3,
+   "snow_in": 44,
+   "last_frost": "May 3",
+   "first_frost": "Oct 3",
+   "growing_days": 152,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Aberdeen, SD",
+   "nws_cwa": "ABR",
+   "nwr": [
+    {
+     "call": "WXM25",
+     "freq": "162.475",
+     "same": "046059"
+    },
+    {
+     "call": "KZZ60",
+     "freq": "162.525",
+     "same": "046059"
+    },
+    {
+     "call": "WXM27",
+     "freq": "162.550",
+     "same": "046059"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.8
+  },
+  "Hanson County": {
+   "fips": "46061",
+   "centroid": [
+    43.6806,
+    -97.7968
+   ],
+   "latitude": 43.7,
+   "bbox": [
+    -97.9684,
+    43.4993,
+    -97.6064,
+    43.8506
+   ],
+   "coastal": false,
+   "elevation_ft": 1340,
+   "zone": "5a",
+   "jan_low_f": 6,
+   "jul_high_f": 84,
+   "record_low_f": -41,
+   "record_high_f": 114,
+   "precip_in": 25.3,
+   "snow_in": 36,
+   "last_frost": "May 8",
+   "first_frost": "Sep 29",
+   "growing_days": 143,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "WWH36",
+     "freq": "162.450",
+     "same": "046061"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.7
+  },
+  "Harding County": {
+   "fips": "46063",
+   "centroid": [
+    45.5966,
+    -103.4739
+   ],
+   "latitude": 45.6,
+   "bbox": [
+    -104.0454,
+    45.2125,
+    -102.9419,
+    45.9453
+   ],
+   "coastal": false,
+   "elevation_ft": 2840,
+   "zone": "4b",
+   "jan_low_f": 11,
+   "jul_high_f": 86,
+   "record_low_f": -38,
+   "record_high_f": 115,
+   "precip_in": 13.4,
+   "snow_in": 51,
+   "last_frost": "May 10",
+   "first_frost": "Oct 1",
+   "growing_days": 141,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Rapid City, SD",
+   "nws_cwa": "UNR",
+   "nwr": [
+    {
+     "call": "WXK57",
+     "freq": "162.550",
+     "same": "046063"
+    },
+    {
+     "call": "WXL23",
+     "freq": "162.525",
+     "same": "046063"
+    },
+    {
+     "call": "WNG658",
+     "freq": "162.525",
+     "same": "046063"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 6.0
+  },
+  "Hughes County": {
+   "fips": "46065",
+   "centroid": [
+    44.3845,
+    -99.9757
+   ],
+   "latitude": 44.4,
+   "bbox": [
+    -100.5809,
+    44.0979,
+    -99.5989,
+    44.5484
+   ],
+   "coastal": false,
+   "elevation_ft": 1870,
+   "zone": "4b",
+   "jan_low_f": 3,
+   "jul_high_f": 87,
+   "record_low_f": -44,
+   "record_high_f": 113,
+   "precip_in": 18.6,
+   "snow_in": 40,
+   "last_frost": "May 17",
+   "first_frost": "Sep 24",
+   "growing_days": 129,
+   "ecoregion": "Northwestern Glaciated Plains",
+   "ecoregion_code": "42",
+   "nws_office": "Aberdeen, SD",
+   "nws_cwa": "ABR",
+   "nwr": [
+    {
+     "call": "WXM26",
+     "freq": "162.400",
+     "same": "046065"
+    },
+    {
+     "call": "KZZ60",
+     "freq": "162.525",
+     "same": "046065"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.8
+  },
+  "Hutchinson County": {
+   "fips": "46067",
+   "centroid": [
+    43.3367,
+    -97.7494
+   ],
+   "latitude": 43.3,
+   "bbox": [
+    -98.1142,
+    43.1683,
+    -97.3992,
+    43.4998
+   ],
+   "coastal": false,
+   "elevation_ft": 1310,
+   "zone": "5a",
+   "jan_low_f": 10,
+   "jul_high_f": 86,
+   "record_low_f": -42,
+   "record_high_f": 117,
+   "precip_in": 25.0,
+   "snow_in": 39,
+   "last_frost": "May 1",
+   "first_frost": "Oct 4",
+   "growing_days": 156,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "WWH36",
+     "freq": "162.450",
+     "same": "046067"
+    },
+    {
+     "call": "KXI21",
+     "freq": "162.500",
+     "same": "046067"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.7
+  },
+  "Hyde County": {
+   "fips": "46069",
+   "centroid": [
+    44.5372,
+    -99.4727
+   ],
+   "latitude": 44.5,
+   "bbox": [
+    -99.6766,
+    44.1923,
+    -99.2999,
+    44.8977
+   ],
+   "coastal": false,
+   "elevation_ft": 1860,
+   "zone": "4b",
+   "jan_low_f": 7,
+   "jul_high_f": 86,
+   "record_low_f": -45,
+   "record_high_f": 113,
+   "precip_in": 22.8,
+   "snow_in": 40,
+   "last_frost": "May 12",
+   "first_frost": "Oct 1",
+   "growing_days": 142,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Aberdeen, SD",
+   "nws_cwa": "ABR",
+   "nwr": [
+    {
+     "call": "WXM26",
+     "freq": "162.400",
+     "same": "046069"
+    },
+    {
+     "call": "KZZ60",
+     "freq": "162.525",
+     "same": "046069"
+    },
+    {
+     "call": "WXM27",
+     "freq": "162.550",
+     "same": "046069"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.8
+  },
+  "Jackson County": {
+   "fips": "46071",
+   "centroid": [
+    43.6775,
+    -101.6263
+   ],
+   "latitude": 43.7,
+   "bbox": [
+    -102.1401,
+    43.3888,
+    -101.0636,
+    43.9951
+   ],
+   "coastal": false,
+   "elevation_ft": 2530,
+   "zone": "5a",
+   "jan_low_f": 14,
+   "jul_high_f": 88,
+   "record_low_f": -35,
+   "record_high_f": 115,
+   "precip_in": 21.0,
+   "snow_in": 38,
+   "last_frost": "May 9",
+   "first_frost": "Oct 1",
+   "growing_days": 143,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Rapid City, SD",
+   "nws_cwa": "UNR",
+   "nwr": [
+    {
+     "call": "KXI59",
+     "freq": "162.450",
+     "same": "046071"
+    },
+    {
+     "call": "KZZ59",
+     "freq": "162.500",
+     "same": "046071"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 6.1
+  },
+  "Jerauld County": {
+   "fips": "46073",
+   "centroid": [
+    44.0634,
+    -98.6232
+   ],
+   "latitude": 44.1,
+   "bbox": [
+    -98.9273,
+    43.9351,
+    -98.3316,
+    44.1969
+   ],
+   "coastal": false,
+   "elevation_ft": 1840,
+   "zone": "5a",
+   "jan_low_f": 7,
+   "jul_high_f": 84,
+   "record_low_f": -39,
+   "record_high_f": 111,
+   "precip_in": 25.7,
+   "snow_in": 44,
+   "last_frost": "May 2",
+   "first_frost": "Oct 8",
+   "growing_days": 157,
+   "ecoregion": "Northwestern Glaciated Plains",
+   "ecoregion_code": "42",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "WXM27",
+     "freq": "162.550",
+     "same": "046073"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.7
+  },
+  "Jones County": {
+   "fips": "46075",
+   "centroid": [
+    43.952,
+    -100.6861
+   ],
+   "latitude": 44.0,
+   "bbox": [
+    -101.0644,
+    43.7082,
+    -100.3388,
+    44.1686
+   ],
+   "coastal": false,
+   "elevation_ft": 2280,
+   "zone": "5a",
+   "jan_low_f": 12,
+   "jul_high_f": 87,
+   "record_low_f": -35,
+   "record_high_f": 116,
+   "precip_in": 21.6,
+   "snow_in": 49,
+   "last_frost": "May 3",
+   "first_frost": "Oct 9",
+   "growing_days": 158,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Aberdeen, SD",
+   "nws_cwa": "ABR",
+   "nwr": [
+    {
+     "call": "WXM26",
+     "freq": "162.400",
+     "same": "046075"
+    },
+    {
+     "call": "WNG558",
+     "freq": "162.550",
+     "same": "046075"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 6.0
+  },
+  "Kingsbury County": {
+   "fips": "46077",
+   "centroid": [
+    44.363,
+    -97.4993
+   ],
+   "latitude": 44.4,
+   "bbox": [
+    -97.8537,
+    44.1947,
+    -97.1281,
+    44.5443
+   ],
+   "coastal": false,
+   "elevation_ft": 1700,
+   "zone": "4b",
+   "jan_low_f": 5,
+   "jul_high_f": 82,
+   "record_low_f": -44,
+   "record_high_f": 111,
+   "precip_in": 25.9,
+   "snow_in": 41,
+   "last_frost": "May 5",
+   "first_frost": "Oct 4",
+   "growing_days": 151,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "KXI71",
+     "freq": "162.525",
+     "same": "046077"
+    },
+    {
+     "call": "WXM27",
+     "freq": "162.550",
+     "same": "046077"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.6
+  },
+  "Lake County": {
+   "fips": "46079",
+   "centroid": [
+    44.0284,
+    -97.1232
+   ],
+   "latitude": 44.0,
+   "bbox": [
+    -97.3704,
+    43.8479,
+    -96.8886,
+    44.1961
+   ],
+   "coastal": false,
+   "elevation_ft": 1710,
+   "zone": "4b",
+   "jan_low_f": 5,
+   "jul_high_f": 83,
+   "record_low_f": -33,
+   "record_high_f": 105,
+   "precip_in": 26.4,
+   "snow_in": 37,
+   "last_frost": "May 5",
+   "first_frost": "Sep 30",
+   "growing_days": 148,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "KXI71",
+     "freq": "162.525",
+     "same": "046079"
+    },
+    {
+     "call": "WXM28",
+     "freq": "162.400",
+     "same": "046079"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.6
+  },
+  "Lawrence County": {
+   "fips": "46081",
+   "centroid": [
+    44.3485,
+    -103.8064
+   ],
+   "latitude": 44.3,
+   "bbox": [
+    -104.056,
+    44.1406,
+    -103.4524,
+    44.6048
+   ],
+   "coastal": false,
+   "elevation_ft": 5670,
+   "zone": "5a",
+   "jan_low_f": 18,
+   "jul_high_f": 82,
+   "record_low_f": -40,
+   "record_high_f": 101,
+   "precip_in": 31.8,
+   "snow_in": 184,
+   "last_frost": "May 18",
+   "first_frost": "Sep 29",
+   "growing_days": 133,
+   "ecoregion": "Middle Rockies",
+   "ecoregion_code": "17",
+   "nws_office": "Rapid City, SD",
+   "nws_cwa": "UNR",
+   "nwr": [
+    {
+     "call": "WXL23",
+     "freq": "162.525",
+     "same": "046081"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 6.0
+  },
+  "Lincoln County": {
+   "fips": "46083",
+   "centroid": [
+    43.2794,
+    -96.7223
+   ],
+   "latitude": 43.3,
+   "bbox": [
+    -96.9251,
+    43.0834,
+    -96.437,
+    43.5006
+   ],
+   "coastal": false,
+   "elevation_ft": 1330,
+   "zone": "5a",
+   "jan_low_f": 6,
+   "jul_high_f": 83,
+   "record_low_f": -47,
+   "record_high_f": 115,
+   "precip_in": 27.8,
+   "snow_in": 36,
+   "last_frost": "May 2",
+   "first_frost": "Oct 2",
+   "growing_days": 151,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "WXM28",
+     "freq": "162.400",
+     "same": "046083"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.6
+  },
+  "Lyman County": {
+   "fips": "46085",
+   "centroid": [
+    43.8948,
+    -99.8419
+   ],
+   "latitude": 43.9,
+   "bbox": [
+    -100.3673,
+    43.4995,
+    -99.2815,
+    44.2176
+   ],
+   "coastal": false,
+   "elevation_ft": 1700,
+   "zone": "4b",
+   "jan_low_f": 9,
+   "jul_high_f": 90,
+   "record_low_f": -45,
+   "record_high_f": 119,
+   "precip_in": 20.8,
+   "snow_in": 40,
+   "last_frost": "May 12",
+   "first_frost": "Sep 28",
+   "growing_days": 137,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Aberdeen, SD",
+   "nws_cwa": "ABR",
+   "nwr": [
+    {
+     "call": "WXM26",
+     "freq": "162.400",
+     "same": "046085"
+    },
+    {
+     "call": "KZZ60",
+     "freq": "162.525",
+     "same": "046085"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.8
+  },
+  "McCook County": {
+   "fips": "46087",
+   "centroid": [
+    43.6804,
+    -97.358
+   ],
+   "latitude": 43.7,
+   "bbox": [
+    -97.6092,
+    43.4996,
+    -97.129,
+    43.8489
+   ],
+   "coastal": false,
+   "elevation_ft": 1520,
+   "zone": "5a",
+   "jan_low_f": 5,
+   "jul_high_f": 83,
+   "record_low_f": -35,
+   "record_high_f": 107,
+   "precip_in": 26.9,
+   "snow_in": 31,
+   "last_frost": "May 7",
+   "first_frost": "Sep 29",
+   "growing_days": 144,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "WWH36",
+     "freq": "162.450",
+     "same": "046087"
+    },
+    {
+     "call": "WXM28",
+     "freq": "162.400",
+     "same": "046087"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.7
+  },
+  "McPherson County": {
+   "fips": "46089",
+   "centroid": [
+    45.7842,
+    -99.2114
+   ],
+   "latitude": 45.8,
+   "bbox": [
+    -99.7182,
+    45.5912,
+    -98.7244,
+    45.9411
+   ],
+   "coastal": false,
+   "elevation_ft": 1970,
+   "zone": "4b",
+   "jan_low_f": 4,
+   "jul_high_f": 81,
+   "record_low_f": -48,
+   "record_high_f": 114,
+   "precip_in": 19.9,
+   "snow_in": 42,
+   "last_frost": "May 10",
+   "first_frost": "Sep 30",
+   "growing_days": 143,
+   "ecoregion": "Northwestern Glaciated Plains",
+   "ecoregion_code": "42",
+   "nws_office": "Aberdeen, SD",
+   "nws_cwa": "ABR",
+   "nwr": [
+    {
+     "call": "WXM25",
+     "freq": "162.475",
+     "same": "046089"
+    },
+    {
+     "call": "WXM40",
+     "freq": "162.500",
+     "same": "046089"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.7
+  },
+  "Marshall County": {
+   "fips": "46091",
+   "centroid": [
+    45.737,
+    -97.5809
+   ],
+   "latitude": 45.7,
+   "bbox": [
+    -97.9797,
+    45.5581,
+    -97.2268,
+    45.9359
+   ],
+   "coastal": false,
+   "elevation_ft": 1820,
+   "zone": "4a",
+   "jan_low_f": 3,
+   "jul_high_f": 82,
+   "record_low_f": -44,
+   "record_high_f": 114,
+   "precip_in": 25.0,
+   "snow_in": 48,
+   "last_frost": "May 2",
+   "first_frost": "Oct 9",
+   "growing_days": 160,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Aberdeen, SD",
+   "nws_cwa": "ABR",
+   "nwr": [
+    {
+     "call": "WXM25",
+     "freq": "162.475",
+     "same": "046091"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.5
+  },
+  "Meade County": {
+   "fips": "46093",
+   "centroid": [
+    44.6053,
+    -102.7142
+   ],
+   "latitude": 44.6,
+   "bbox": [
+    -103.5744,
+    44.1401,
+    -102.0,
+    45.0395
+   ],
+   "coastal": false,
+   "elevation_ft": 3050,
+   "zone": "5a",
+   "jan_low_f": 9,
+   "jul_high_f": 85,
+   "record_low_f": -40,
+   "record_high_f": 109,
+   "precip_in": 18.9,
+   "snow_in": 48,
+   "last_frost": "May 16",
+   "first_frost": "Sep 26",
+   "growing_days": 131,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Rapid City, SD",
+   "nws_cwa": "UNR",
+   "nwr": [
+    {
+     "call": "WNG557",
+     "freq": "162.475",
+     "same": "046093"
+    },
+    {
+     "call": "WXM63",
+     "freq": "162.550",
+     "same": "046093"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 6.0
+  },
+  "Mellette County": {
+   "fips": "46095",
+   "centroid": [
+    43.5813,
+    -100.7552
+   ],
+   "latitude": 43.6,
+   "bbox": [
+    -101.2284,
+    43.3891,
+    -100.2141,
+    43.8578
+   ],
+   "coastal": false,
+   "elevation_ft": 2110,
+   "zone": "5a",
+   "jan_low_f": 11,
+   "jul_high_f": 88,
+   "record_low_f": -36,
+   "record_high_f": 116,
+   "precip_in": 20.5,
+   "snow_in": 50,
+   "last_frost": "May 10",
+   "first_frost": "Oct 1",
+   "growing_days": 143,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Rapid City, SD",
+   "nws_cwa": "UNR",
+   "nwr": [
+    {
+     "call": "WNG558",
+     "freq": "162.550",
+     "same": "046095"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 6.0
+  },
+  "Miner County": {
+   "fips": "46097",
+   "centroid": [
+    44.0215,
+    -97.6081
+   ],
+   "latitude": 44.0,
+   "bbox": [
+    -97.8514,
+    43.8485,
+    -97.3691,
+    44.1954
+   ],
+   "coastal": false,
+   "elevation_ft": 1470,
+   "zone": "5a",
+   "jan_low_f": 5,
+   "jul_high_f": 87,
+   "record_low_f": -46,
+   "record_high_f": 113,
+   "precip_in": 26.4,
+   "snow_in": 36,
+   "last_frost": "May 5",
+   "first_frost": "Oct 2",
+   "growing_days": 149,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "KXI71",
+     "freq": "162.525",
+     "same": "046097"
+    },
+    {
+     "call": "WWH36",
+     "freq": "162.450",
+     "same": "046097"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.6
+  },
+  "Minnehaha County": {
+   "fips": "46099",
+   "centroid": [
+    43.6675,
+    -96.7957
+   ],
+   "latitude": 43.7,
+   "bbox": [
+    -97.1295,
+    43.4996,
+    -96.4531,
+    43.8496
+   ],
+   "coastal": false,
+   "elevation_ft": 1570,
+   "zone": "5a",
+   "jan_low_f": 7,
+   "jul_high_f": 85,
+   "record_low_f": -42,
+   "record_high_f": 110,
+   "precip_in": 28.3,
+   "snow_in": 45,
+   "last_frost": "Apr 26",
+   "first_frost": "Oct 13",
+   "growing_days": 169,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "WXM28",
+     "freq": "162.400",
+     "same": "046099"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.6
+  },
+  "Moody County": {
+   "fips": "46101",
+   "centroid": [
+    44.0124,
+    -96.6761
+   ],
+   "latitude": 44.0,
+   "bbox": [
+    -96.8895,
+    43.8475,
+    -96.4527,
+    44.1969
+   ],
+   "coastal": false,
+   "elevation_ft": 1570,
+   "zone": "4b",
+   "jan_low_f": 4,
+   "jul_high_f": 81,
+   "record_low_f": -40,
+   "record_high_f": 112,
+   "precip_in": 28.5,
+   "snow_in": 40,
+   "last_frost": "May 5",
+   "first_frost": "Oct 1",
+   "growing_days": 148,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "WXM28",
+     "freq": "162.400",
+     "same": "046101"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.5
+  },
+  "Oglala Lakota County": {
+   "fips": "46102",
+   "centroid": [
+    43.3334,
+    -102.5615
+   ],
+   "latitude": 43.3,
+   "bbox": [
+    -103.0011,
+    42.9991,
+    -102.0811,
+    43.706
+   ],
+   "coastal": false,
+   "elevation_ft": 2960,
+   "zone": "5a",
+   "jan_low_f": 14,
+   "jul_high_f": 88,
+   "record_low_f": -39,
+   "record_high_f": 110,
+   "precip_in": 19.9,
+   "snow_in": 37,
+   "last_frost": "May 9",
+   "first_frost": "Oct 4",
+   "growing_days": 147,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Rapid City, SD",
+   "nws_cwa": "UNR",
+   "nwr": [
+    {
+     "call": "KZZ59",
+     "freq": "162.500",
+     "same": "046102"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.3,
+   "sun_hours_jun": 6.2
+  },
+  "Pennington County": {
+   "fips": "46103",
+   "centroid": [
+    44.0023,
+    -102.8238
+   ],
+   "latitude": 44.0,
+   "bbox": [
+    -104.0556,
+    43.6853,
+    -102.0006,
+    44.5115
+   ],
+   "coastal": false,
+   "elevation_ft": 3030,
+   "zone": "5a",
+   "jan_low_f": 13,
+   "jul_high_f": 86,
+   "record_low_f": -31,
+   "record_high_f": 111,
+   "precip_in": 17.4,
+   "snow_in": 48,
+   "last_frost": "May 12",
+   "first_frost": "Oct 1",
+   "growing_days": 139,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Rapid City, SD",
+   "nws_cwa": "UNR",
+   "nwr": [
+    {
+     "call": "WXL23",
+     "freq": "162.525",
+     "same": "046103"
+    },
+    {
+     "call": "KXI59",
+     "freq": "162.450",
+     "same": "046103"
+    },
+    {
+     "call": "WXM63",
+     "freq": "162.550",
+     "same": "046103"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 6.0
+  },
+  "Perkins County": {
+   "fips": "46105",
+   "centroid": [
+    45.4834,
+    -102.468
+   ],
+   "latitude": 45.5,
+   "bbox": [
+    -102.9581,
+    45.0385,
+    -101.9997,
+    45.9454
+   ],
+   "coastal": false,
+   "elevation_ft": 2680,
+   "zone": "4b",
+   "jan_low_f": 10,
+   "jul_high_f": 86,
+   "record_low_f": -42,
+   "record_high_f": 111,
+   "precip_in": 18.1,
+   "snow_in": 40,
+   "last_frost": "May 10",
+   "first_frost": "Oct 1",
+   "growing_days": 144,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Rapid City, SD",
+   "nws_cwa": "UNR",
+   "nwr": [
+    {
+     "call": "WNG557",
+     "freq": "162.475",
+     "same": "046105"
+    },
+    {
+     "call": "WNG658",
+     "freq": "162.525",
+     "same": "046105"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 6.0
+  },
+  "Potter County": {
+   "fips": "46107",
+   "centroid": [
+    45.0527,
+    -99.962
+   ],
+   "latitude": 45.1,
+   "bbox": [
+    -100.4242,
+    44.8973,
+    -99.5727,
+    45.2468
+   ],
+   "coastal": false,
+   "elevation_ft": 2160,
+   "zone": "4b",
+   "jan_low_f": 5,
+   "jul_high_f": 84,
+   "record_low_f": -34,
+   "record_high_f": 114,
+   "precip_in": 20.2,
+   "snow_in": 39,
+   "last_frost": "May 7",
+   "first_frost": "Oct 2",
+   "growing_days": 147,
+   "ecoregion": "Northwestern Glaciated Plains",
+   "ecoregion_code": "42",
+   "nws_office": "Aberdeen, SD",
+   "nws_cwa": "ABR",
+   "nwr": [
+    {
+     "call": "WXM40",
+     "freq": "162.500",
+     "same": "046107"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.7
+  },
+  "Roberts County": {
+   "fips": "46109",
+   "centroid": [
+    45.6234,
+    -96.9476
+   ],
+   "latitude": 45.6,
+   "bbox": [
+    -97.2283,
+    45.2969,
+    -96.4704,
+    45.936
+   ],
+   "coastal": false,
+   "elevation_ft": 1240,
+   "zone": "4b",
+   "jan_low_f": 4,
+   "jul_high_f": 83,
+   "record_low_f": -37,
+   "record_high_f": 113,
+   "precip_in": 22.9,
+   "snow_in": 36,
+   "last_frost": "May 3",
+   "first_frost": "Sep 30",
+   "growing_days": 149,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Aberdeen, SD",
+   "nws_cwa": "ABR",
+   "nwr": [
+    {
+     "call": "WXM41",
+     "freq": "162.425",
+     "same": "046109"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.5,
+   "sun_hours_jun": 5.5
+  },
+  "Sanborn County": {
+   "fips": "46111",
+   "centroid": [
+    44.0189,
+    -98.0917
+   ],
+   "latitude": 44.0,
+   "bbox": [
+    -98.3321,
+    43.8499,
+    -97.8495,
+    44.1968
+   ],
+   "coastal": false,
+   "elevation_ft": 1270,
+   "zone": "4b",
+   "jan_low_f": 5,
+   "jul_high_f": 86,
+   "record_low_f": -46,
+   "record_high_f": 116,
+   "precip_in": 24.6,
+   "snow_in": 26,
+   "last_frost": "May 9",
+   "first_frost": "Sep 28",
+   "growing_days": 140,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "WWH36",
+     "freq": "162.450",
+     "same": "046111"
+    },
+    {
+     "call": "WXM27",
+     "freq": "162.550",
+     "same": "046111"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.7
+  },
+  "Spink County": {
+   "fips": "46115",
+   "centroid": [
+    44.9238,
+    -98.3396
+   ],
+   "latitude": 44.9,
+   "bbox": [
+    -98.7179,
+    44.6317,
+    -97.9771,
+    45.2437
+   ],
+   "coastal": false,
+   "elevation_ft": 1300,
+   "zone": "4b",
+   "jan_low_f": 3,
+   "jul_high_f": 84,
+   "record_low_f": -47,
+   "record_high_f": 114,
+   "precip_in": 22.8,
+   "snow_in": 23,
+   "last_frost": "May 8",
+   "first_frost": "Oct 1",
+   "growing_days": 145,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Aberdeen, SD",
+   "nws_cwa": "ABR",
+   "nwr": [
+    {
+     "call": "WXM25",
+     "freq": "162.475",
+     "same": "046115"
+    },
+    {
+     "call": "WXM27",
+     "freq": "162.550",
+     "same": "046115"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.7
+  },
+  "Stanley County": {
+   "fips": "46117",
+   "centroid": [
+    44.414,
+    -100.7478
+   ],
+   "latitude": 44.4,
+   "bbox": [
+    -101.1669,
+    44.168,
+    -99.8928,
+    44.7834
+   ],
+   "coastal": false,
+   "elevation_ft": 1950,
+   "zone": "4b",
+   "jan_low_f": 8,
+   "jul_high_f": 90,
+   "record_low_f": -47,
+   "record_high_f": 120,
+   "precip_in": 18.3,
+   "snow_in": 31,
+   "last_frost": "May 10",
+   "first_frost": "Sep 27",
+   "growing_days": 138,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Aberdeen, SD",
+   "nws_cwa": "ABR",
+   "nwr": [
+    {
+     "call": "WXM26",
+     "freq": "162.400",
+     "same": "046117"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.9
+  },
+  "Sully County": {
+   "fips": "46119",
+   "centroid": [
+    44.7223,
+    -100.1314
+   ],
+   "latitude": 44.7,
+   "bbox": [
+    -100.7293,
+    44.5474,
+    -99.6742,
+    44.8983
+   ],
+   "coastal": false,
+   "elevation_ft": 1870,
+   "zone": "4b",
+   "jan_low_f": 7,
+   "jul_high_f": 87,
+   "record_low_f": -40,
+   "record_high_f": 116,
+   "precip_in": 21.1,
+   "snow_in": 49,
+   "last_frost": "May 8",
+   "first_frost": "Oct 2",
+   "growing_days": 147,
+   "ecoregion": "Northwestern Glaciated Plains",
+   "ecoregion_code": "42",
+   "nws_office": "Aberdeen, SD",
+   "nws_cwa": "ABR",
+   "nwr": [
+    {
+     "call": "WXM40",
+     "freq": "162.500",
+     "same": "046119"
+    },
+    {
+     "call": "WXM26",
+     "freq": "162.400",
+     "same": "046119"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.9,
+   "sun_hours_jun": 5.9
+  },
+  "Todd County": {
+   "fips": "46121",
+   "centroid": [
+    43.2088,
+    -100.7077
+   ],
+   "latitude": 43.2,
+   "bbox": [
+    -101.2283,
+    42.9975,
+    -100.1984,
+    43.3906
+   ],
+   "coastal": false,
+   "elevation_ft": 2810,
+   "zone": "5a",
+   "jan_low_f": 11,
+   "jul_high_f": 87,
+   "record_low_f": -31,
+   "record_high_f": 114,
+   "precip_in": 22.5,
+   "snow_in": 41,
+   "last_frost": "May 11",
+   "first_frost": "Oct 2",
+   "growing_days": 145,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Rapid City, SD",
+   "nws_cwa": "UNR",
+   "nwr": [
+    {
+     "call": "WXN82",
+     "freq": "162.450",
+     "same": "046121"
+    },
+    {
+     "call": "WNG558",
+     "freq": "162.550",
+     "same": "046121"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 3,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.2,
+   "sun_hours_jun": 6.0
+  },
+  "Tripp County": {
+   "fips": "46123",
+   "centroid": [
+    43.3497,
+    -99.8762
+   ],
+   "latitude": 43.3,
+   "bbox": [
+    -100.2316,
+    42.9978,
+    -99.5337,
+    43.7665
+   ],
+   "coastal": false,
+   "elevation_ft": 1990,
+   "zone": "5a",
+   "jan_low_f": 12,
+   "jul_high_f": 90,
+   "record_low_f": -38,
+   "record_high_f": 115,
+   "precip_in": 23.2,
+   "snow_in": 49,
+   "last_frost": "May 1",
+   "first_frost": "Oct 9",
+   "growing_days": 159,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Rapid City, SD",
+   "nws_cwa": "UNR",
+   "nwr": [
+    {
+     "call": "KZZ60",
+     "freq": "162.525",
+     "same": "046123"
+    },
+    {
+     "call": "WXN82",
+     "freq": "162.450",
+     "same": "046123"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 5.8
+  },
+  "Turner County": {
+   "fips": "46125",
+   "centroid": [
+    43.3087,
+    -97.1502
+   ],
+   "latitude": 43.3,
+   "bbox": [
+    -97.4015,
+    43.083,
+    -96.924,
+    43.5003
+   ],
+   "coastal": false,
+   "elevation_ft": 1320,
+   "zone": "5a",
+   "jan_low_f": 10,
+   "jul_high_f": 86,
+   "record_low_f": -42,
+   "record_high_f": 117,
+   "precip_in": 25.0,
+   "snow_in": 39,
+   "last_frost": "May 1",
+   "first_frost": "Oct 4",
+   "growing_days": 156,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "WXM28",
+     "freq": "162.400",
+     "same": "046125"
+    },
+    {
+     "call": "KXI21",
+     "freq": "162.500",
+     "same": "046125"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.7
+  },
+  "Union County": {
+   "fips": "46127",
+   "centroid": [
+    42.8311,
+    -96.6508
+   ],
+   "latitude": 42.8,
+   "bbox": [
+    -96.8069,
+    42.4796,
+    -96.4469,
+    43.0837
+   ],
+   "coastal": false,
+   "elevation_ft": 1300,
+   "zone": "5a",
+   "jan_low_f": 7,
+   "jul_high_f": 85,
+   "record_low_f": -33,
+   "record_high_f": 109,
+   "precip_in": 29.9,
+   "snow_in": 31,
+   "last_frost": "May 1",
+   "first_frost": "Oct 4",
+   "growing_days": 155,
+   "ecoregion": "Western Corn Belt Plains",
+   "ecoregion_code": "47",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "WXL62",
+     "freq": "162.475",
+     "same": "046127"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 2,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.7
+  },
+  "Walworth County": {
+   "fips": "46129",
+   "centroid": [
+    45.4276,
+    -100.0279
+   ],
+   "latitude": 45.4,
+   "bbox": [
+    -100.4863,
+    45.2457,
+    -99.7077,
+    45.595
+   ],
+   "coastal": false,
+   "elevation_ft": 1980,
+   "zone": "4b",
+   "jan_low_f": 4,
+   "jul_high_f": 84,
+   "record_low_f": -41,
+   "record_high_f": 112,
+   "precip_in": 19.2,
+   "snow_in": 33,
+   "last_frost": "May 8",
+   "first_frost": "Oct 1",
+   "growing_days": 145,
+   "ecoregion": "Northwestern Glaciated Plains",
+   "ecoregion_code": "42",
+   "nws_office": "Aberdeen, SD",
+   "nws_cwa": "ABR",
+   "nwr": [
+    {
+     "call": "WXM40",
+     "freq": "162.500",
+     "same": "046129"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 2.8,
+   "sun_hours_jun": 5.9
+  },
+  "Yankton County": {
+   "fips": "46135",
+   "centroid": [
+    43.0066,
+    -97.3884
+   ],
+   "latitude": 43.0,
+   "bbox": [
+    -97.6378,
+    42.7998,
+    -97.16,
+    43.17
+   ],
+   "coastal": false,
+   "elevation_ft": 1320,
+   "zone": "5a",
+   "jan_low_f": 10,
+   "jul_high_f": 87,
+   "record_low_f": -28,
+   "record_high_f": 116,
+   "precip_in": 28.7,
+   "snow_in": 38,
+   "last_frost": "Apr 27",
+   "first_frost": "Oct 11",
+   "growing_days": 164,
+   "ecoregion": "Northern Glaciated Plains",
+   "ecoregion_code": "46",
+   "nws_office": "Sioux Falls, SD",
+   "nws_cwa": "FSD",
+   "nwr": [
+    {
+     "call": "KXI21",
+     "freq": "162.500",
+     "same": "046135"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 3,
+    "ice_storm": 3,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.0,
+   "sun_hours_jun": 5.7
+  },
+  "Ziebach County": {
+   "fips": "46137",
+   "centroid": [
+    44.9898,
+    -101.6608
+   ],
+   "latitude": 45.0,
+   "bbox": [
+    -102.0006,
+    44.5115,
+    -101.1369,
+    45.473
+   ],
+   "coastal": false,
+   "elevation_ft": 2460,
+   "zone": "4b",
+   "jan_low_f": 10,
+   "jul_high_f": 90,
+   "record_low_f": -39,
+   "record_high_f": 114,
+   "precip_in": 18.9,
+   "snow_in": 41,
+   "last_frost": "May 8",
+   "first_frost": "Oct 1",
+   "growing_days": 144,
+   "ecoregion": "Northwestern Great Plains",
+   "ecoregion_code": "43",
+   "nws_office": "Rapid City, SD",
+   "nws_cwa": "UNR",
+   "nwr": [
+    {
+     "call": "WNG557",
+     "freq": "162.475",
+     "same": "046137"
+    },
+    {
+     "call": "WNG551",
+     "freq": "162.425",
+     "same": "046137"
+    }
+   ],
+   "state_em": "South Dakota Office of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.1,
+   "sun_hours_jun": 6.0
+  }
+ }
+}

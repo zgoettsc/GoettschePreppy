@@ -1,0 +1,4130 @@
+{
+ "state": "FL",
+ "state_name": "Florida",
+ "state_fips": "12",
+ "state_em": "Florida Division of Emergency Management",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "JAX": "NWS Jacksonville, FL",
+  "KEY": "NWS Key West, FL",
+  "MFL": "NWS Miami, FL",
+  "MLB": "NWS Melbourne, FL",
+  "MOB": "NWS Mobile, AL",
+  "TAE": "NWS Tallahassee, FL",
+  "TBW": "NWS Tampa Bay Ruskin, FL"
+ },
+ "ecoregions": [
+  "Southeastern Plains",
+  "Southern Coastal Plain",
+  "Southern Florida Coastal Plain"
+ ],
+ "counties": {
+  "Alachua County": {
+   "fips": "12001",
+   "centroid": [
+    29.6757,
+    -82.3572
+   ],
+   "latitude": 29.7,
+   "bbox": [
+    -82.6584,
+    29.4176,
+    -82.0498,
+    29.945
+   ],
+   "coastal": true,
+   "elevation_ft": 160,
+   "zone": "9a",
+   "jan_low_f": 43,
+   "jul_high_f": 91,
+   "record_low_f": 10,
+   "record_high_f": 103,
+   "precip_in": 48.3,
+   "snow_in": 0,
+   "last_frost": "Mar 3",
+   "first_frost": "Dec 2",
+   "growing_days": 277,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Jacksonville, FL",
+   "nws_cwa": "JAX",
+   "nwr": [
+    {
+     "call": "WXJ60",
+     "freq": "162.475",
+     "same": "012001"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.2,
+   "sun_hours_jun": 5.2
+  },
+  "Baker County": {
+   "fips": "12003",
+   "centroid": [
+    30.3244,
+    -82.3023
+   ],
+   "latitude": 30.3,
+   "bbox": [
+    -82.4595,
+    30.1364,
+    -82.0488,
+    30.5843
+   ],
+   "coastal": true,
+   "elevation_ft": 140,
+   "zone": "9a",
+   "jan_low_f": 40,
+   "jul_high_f": 93,
+   "record_low_f": 7,
+   "record_high_f": 104,
+   "precip_in": 53.2,
+   "snow_in": 0,
+   "last_frost": "Mar 8",
+   "first_frost": "Dec 1",
+   "growing_days": 272,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Jacksonville, FL",
+   "nws_cwa": "JAX",
+   "nwr": [
+    {
+     "call": "WXJ60",
+     "freq": "162.475",
+     "same": "012003"
+    },
+    {
+     "call": "KHB39",
+     "freq": "162.550",
+     "same": "012003"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.2
+  },
+  "Bay County": {
+   "fips": "12005",
+   "centroid": [
+    30.1591,
+    -85.5344
+   ],
+   "latitude": 30.2,
+   "bbox": [
+    -85.9957,
+    29.9245,
+    -85.3842,
+    30.5678
+   ],
+   "coastal": true,
+   "elevation_ft": 40,
+   "zone": "9a",
+   "jan_low_f": 45,
+   "jul_high_f": 90,
+   "record_low_f": 6,
+   "record_high_f": 102,
+   "precip_in": 61.3,
+   "snow_in": 0,
+   "last_frost": "Feb 7",
+   "first_frost": "Dec 24",
+   "growing_days": 318,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "KGG67",
+     "freq": "162.550",
+     "same": "012005"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.1,
+   "sun_hours_jun": 5.3
+  },
+  "Bradford County": {
+   "fips": "12007",
+   "centroid": [
+    29.9524,
+    -82.1667
+   ],
+   "latitude": 30.0,
+   "bbox": [
+    -82.4175,
+    29.7184,
+    -82.0461,
+    30.1432
+   ],
+   "coastal": true,
+   "elevation_ft": 140,
+   "zone": "9a",
+   "jan_low_f": 45,
+   "jul_high_f": 92,
+   "record_low_f": 8,
+   "record_high_f": 101,
+   "precip_in": 53.4,
+   "snow_in": 0,
+   "last_frost": "Feb 8",
+   "first_frost": "Dec 24",
+   "growing_days": 313,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Jacksonville, FL",
+   "nws_cwa": "JAX",
+   "nwr": [
+    {
+     "call": "WXJ60",
+     "freq": "162.475",
+     "same": "012007"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.2,
+   "sun_hours_jun": 5.2
+  },
+  "Brevard County": {
+   "fips": "12009",
+   "centroid": [
+    28.2983,
+    -80.7003
+   ],
+   "latitude": 28.3,
+   "bbox": [
+    -80.9872,
+    27.8221,
+    -80.447,
+    28.7931
+   ],
+   "coastal": true,
+   "elevation_ft": 10,
+   "zone": "10a",
+   "jan_low_f": 50,
+   "jul_high_f": 91,
+   "record_low_f": 19,
+   "record_high_f": 102,
+   "precip_in": 55.3,
+   "snow_in": 0,
+   "last_frost": "Jan 24",
+   "first_frost": "Jan 9",
+   "growing_days": 359,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Melbourne, FL",
+   "nws_cwa": "MLB",
+   "nwr": [
+    {
+     "call": "KIH26",
+     "freq": "162.400",
+     "same": "012009"
+    },
+    {
+     "call": "WXJ70",
+     "freq": "162.550",
+     "same": "012009"
+    },
+    {
+     "call": "KIH63",
+     "freq": "162.475",
+     "same": "012009"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.2,
+   "sun_hours_jun": 5.2
+  },
+  "Broward County": {
+   "fips": "12011",
+   "centroid": [
+    26.1935,
+    -80.4767
+   ],
+   "latitude": 26.2,
+   "bbox": [
+    -80.8814,
+    25.9567,
+    -80.0745,
+    26.3347
+   ],
+   "coastal": true,
+   "elevation_ft": 10,
+   "zone": "10b",
+   "jan_low_f": 58,
+   "jul_high_f": 91,
+   "record_low_f": 28,
+   "record_high_f": 100,
+   "precip_in": 68.8,
+   "snow_in": 0,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 365,
+   "ecoregion": "Southern Florida Coastal Plain",
+   "ecoregion_code": "76",
+   "nws_office": "Miami, FL",
+   "nws_cwa": "MFL",
+   "nwr": [
+    {
+     "call": "WZ2531",
+     "freq": "162.500",
+     "same": "012011"
+    },
+    {
+     "call": "KHB34",
+     "freq": "162.550",
+     "same": "012011"
+    },
+    {
+     "call": "KEC50",
+     "freq": "162.475",
+     "same": "012011"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.4,
+   "sun_hours_jun": 4.8
+  },
+  "Calhoun County": {
+   "fips": "12013",
+   "centroid": [
+    30.3888,
+    -85.1979
+   ],
+   "latitude": 30.4,
+   "bbox": [
+    -85.3896,
+    30.1989,
+    -84.9325,
+    30.6081
+   ],
+   "coastal": true,
+   "elevation_ft": 90,
+   "zone": "9a",
+   "jan_low_f": 40,
+   "jul_high_f": 89,
+   "record_low_f": 11,
+   "record_high_f": 105,
+   "precip_in": 63.1,
+   "snow_in": 0,
+   "last_frost": "Mar 1",
+   "first_frost": "Nov 29",
+   "growing_days": 271,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "KGG67",
+     "freq": "162.550",
+     "same": "012013"
+    },
+    {
+     "call": "WNG633",
+     "freq": "162.425",
+     "same": "012013"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.1,
+   "sun_hours_jun": 5.3
+  },
+  "Charlotte County": {
+   "fips": "12015",
+   "centroid": [
+    26.9064,
+    -82.0037
+   ],
+   "latitude": 26.9,
+   "bbox": [
+    -82.375,
+    26.7687,
+    -81.5627,
+    27.0352
+   ],
+   "coastal": true,
+   "elevation_ft": 20,
+   "zone": "10a",
+   "jan_low_f": 52,
+   "jul_high_f": 94,
+   "record_low_f": 23,
+   "record_high_f": 102,
+   "precip_in": 54.0,
+   "snow_in": 0,
+   "last_frost": "Jan 21",
+   "first_frost": "Jan 14",
+   "growing_days": 365,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Tampa Bay Ruskin, FL",
+   "nws_cwa": "TBW",
+   "nwr": [
+    {
+     "call": "WXK83",
+     "freq": "162.475",
+     "same": "012015"
+    },
+    {
+     "call": "WWG59",
+     "freq": "162.400",
+     "same": "012015"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.5,
+   "sun_hours_jun": 5.7
+  },
+  "Citrus County": {
+   "fips": "12017",
+   "centroid": [
+    28.8503,
+    -82.5956
+   ],
+   "latitude": 28.9,
+   "bbox": [
+    -82.7558,
+    28.6657,
+    -82.1695,
+    29.0529
+   ],
+   "coastal": true,
+   "elevation_ft": 0,
+   "zone": "9b",
+   "jan_low_f": 43,
+   "jul_high_f": 91,
+   "record_low_f": 15,
+   "record_high_f": 105,
+   "precip_in": 52.4,
+   "snow_in": 0,
+   "last_frost": "Mar 3",
+   "first_frost": "Dec 5",
+   "growing_days": 279,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Tampa Bay Ruskin, FL",
+   "nws_cwa": "TBW",
+   "nwr": [
+    {
+     "call": "WWF38",
+     "freq": "162.400",
+     "same": "012017"
+    },
+    {
+     "call": "KWN38",
+     "freq": "162.550",
+     "same": "012017"
+    },
+    {
+     "call": "KPS505",
+     "freq": "162.500",
+     "same": "012017"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.3,
+   "sun_hours_jun": 5.3
+  },
+  "Clay County": {
+   "fips": "12019",
+   "centroid": [
+    29.9866,
+    -81.865
+   ],
+   "latitude": 30.0,
+   "bbox": [
+    -82.0494,
+    29.7187,
+    -81.5808,
+    30.193
+   ],
+   "coastal": true,
+   "elevation_ft": 90,
+   "zone": "9a",
+   "jan_low_f": 45,
+   "jul_high_f": 92,
+   "record_low_f": 8,
+   "record_high_f": 101,
+   "precip_in": 53.4,
+   "snow_in": 0,
+   "last_frost": "Feb 8",
+   "first_frost": "Dec 24",
+   "growing_days": 313,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Jacksonville, FL",
+   "nws_cwa": "JAX",
+   "nwr": [
+    {
+     "call": "WXJ60",
+     "freq": "162.475",
+     "same": "012019"
+    },
+    {
+     "call": "KHB39",
+     "freq": "162.550",
+     "same": "012019"
+    },
+    {
+     "call": "WNG522",
+     "freq": "162.425",
+     "same": "012019"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.1,
+   "sun_hours_jun": 5.1
+  },
+  "Collier County": {
+   "fips": "12021",
+   "centroid": [
+    26.1188,
+    -81.401
+   ],
+   "latitude": 26.1,
+   "bbox": [
+    -81.846,
+    25.7991,
+    -80.8729,
+    26.5171
+   ],
+   "coastal": true,
+   "elevation_ft": 10,
+   "zone": "10a",
+   "jan_low_f": 53,
+   "jul_high_f": 92,
+   "record_low_f": 26,
+   "record_high_f": 99,
+   "precip_in": 55.3,
+   "snow_in": 0,
+   "last_frost": "Jan 24",
+   "first_frost": "Jan 20",
+   "growing_days": 365,
+   "ecoregion": "Southern Florida Coastal Plain",
+   "ecoregion_code": "76",
+   "nws_office": "Miami, FL",
+   "nws_cwa": "MFL",
+   "nwr": [
+    {
+     "call": "WXK83",
+     "freq": "162.475",
+     "same": "012021"
+    },
+    {
+     "call": "WWG92",
+     "freq": "162.525",
+     "same": "012021"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.7,
+   "sun_hours_jun": 5.0
+  },
+  "Columbia County": {
+   "fips": "12023",
+   "centroid": [
+    30.2217,
+    -82.6234
+   ],
+   "latitude": 30.2,
+   "bbox": [
+    -82.7994,
+    29.8263,
+    -82.4527,
+    30.5973
+   ],
+   "coastal": true,
+   "elevation_ft": 170,
+   "zone": "9a",
+   "jan_low_f": 41,
+   "jul_high_f": 90,
+   "record_low_f": 6,
+   "record_high_f": 106,
+   "precip_in": 54.0,
+   "snow_in": 0,
+   "last_frost": "Mar 1",
+   "first_frost": "Nov 28",
+   "growing_days": 273,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Jacksonville, FL",
+   "nws_cwa": "JAX",
+   "nwr": [
+    {
+     "call": "WXJ60",
+     "freq": "162.475",
+     "same": "012023"
+    },
+    {
+     "call": "KEB97",
+     "freq": "162.400",
+     "same": "012023"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.2
+  },
+  "DeSoto County": {
+   "fips": "12027",
+   "centroid": [
+    27.1906,
+    -81.8063
+   ],
+   "latitude": 27.2,
+   "bbox": [
+    -82.0576,
+    27.0316,
+    -81.5623,
+    27.3407
+   ],
+   "coastal": true,
+   "elevation_ft": 60,
+   "zone": "9b",
+   "jan_low_f": 47,
+   "jul_high_f": 91,
+   "record_low_f": 18,
+   "record_high_f": 104,
+   "precip_in": 53.9,
+   "snow_in": 0,
+   "last_frost": "Feb 7",
+   "first_frost": "Jan 4",
+   "growing_days": 324,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Tampa Bay Ruskin, FL",
+   "nws_cwa": "TBW",
+   "nwr": [
+    {
+     "call": "WXK83",
+     "freq": "162.475",
+     "same": "012027"
+    },
+    {
+     "call": "WWG59",
+     "freq": "162.400",
+     "same": "012027"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.5,
+   "sun_hours_jun": 5.1
+  },
+  "Dixie County": {
+   "fips": "12029",
+   "centroid": [
+    29.5527,
+    -83.2362
+   ],
+   "latitude": 29.6,
+   "bbox": [
+    -83.445,
+    29.2894,
+    -82.9068,
+    29.8254
+   ],
+   "coastal": true,
+   "elevation_ft": 20,
+   "zone": "9a",
+   "jan_low_f": 42,
+   "jul_high_f": 90,
+   "record_low_f": 14,
+   "record_high_f": 103,
+   "precip_in": 51.5,
+   "snow_in": 0,
+   "last_frost": "Mar 5",
+   "first_frost": "Nov 26",
+   "growing_days": 268,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "WXJ60",
+     "freq": "162.475",
+     "same": "012029"
+    },
+    {
+     "call": "KWN38",
+     "freq": "162.550",
+     "same": "012029"
+    },
+    {
+     "call": "WWF88",
+     "freq": "162.425",
+     "same": "012029"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.2,
+   "sun_hours_jun": 5.6
+  },
+  "Duval County": {
+   "fips": "12031",
+   "centroid": [
+    30.3352,
+    -81.6481
+   ],
+   "latitude": 30.3,
+   "bbox": [
+    -82.0494,
+    30.1038,
+    -81.3805,
+    30.5859
+   ],
+   "coastal": true,
+   "elevation_ft": 20,
+   "zone": "9b",
+   "jan_low_f": 47,
+   "jul_high_f": 92,
+   "record_low_f": 9,
+   "record_high_f": 104,
+   "precip_in": 47.6,
+   "snow_in": 0,
+   "last_frost": "Feb 1",
+   "first_frost": "Jan 5",
+   "growing_days": 330,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Jacksonville, FL",
+   "nws_cwa": "JAX",
+   "nwr": [
+    {
+     "call": "KHB39",
+     "freq": "162.550",
+     "same": "012031"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 2,
+    "hurricane": 3,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.3
+  },
+  "Escambia County": {
+   "fips": "12033",
+   "centroid": [
+    30.53,
+    -87.3203
+   ],
+   "latitude": 30.5,
+   "bbox": [
+    -87.6343,
+    30.2805,
+    -86.9197,
+    30.9989
+   ],
+   "coastal": true,
+   "elevation_ft": 120,
+   "zone": "9a",
+   "jan_low_f": 42,
+   "jul_high_f": 91,
+   "record_low_f": 5,
+   "record_high_f": 106,
+   "precip_in": 67.8,
+   "snow_in": 0,
+   "last_frost": "Feb 17",
+   "first_frost": "Dec 9",
+   "growing_days": 299,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Mobile, AL",
+   "nws_cwa": "MOB",
+   "nwr": [
+    {
+     "call": "WNG646",
+     "freq": "162.475",
+     "same": "012033"
+    },
+    {
+     "call": "KEC86",
+     "freq": "162.400",
+     "same": "012033"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 2,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.6
+  },
+  "Flagler County": {
+   "fips": "12035",
+   "centroid": [
+    29.4749,
+    -81.2863
+   ],
+   "latitude": 29.5,
+   "bbox": [
+    -81.5237,
+    29.2611,
+    -81.1026,
+    29.6725
+   ],
+   "coastal": true,
+   "elevation_ft": 20,
+   "zone": "9b",
+   "jan_low_f": 49,
+   "jul_high_f": 88,
+   "record_low_f": 14,
+   "record_high_f": 108,
+   "precip_in": 51.4,
+   "snow_in": 0,
+   "last_frost": "Jan 24",
+   "first_frost": "Jan 11",
+   "growing_days": 356,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Jacksonville, FL",
+   "nws_cwa": "JAX",
+   "nwr": [
+    {
+     "call": "KIH26",
+     "freq": "162.400",
+     "same": "012035"
+    },
+    {
+     "call": "WNG522",
+     "freq": "162.425",
+     "same": "012035"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.1,
+   "sun_hours_jun": 5.1
+  },
+  "Franklin County": {
+   "fips": "12037",
+   "centroid": [
+    29.6778,
+    -84.8152
+   ],
+   "latitude": 29.7,
+   "bbox": [
+    -85.2228,
+    29.5867,
+    -84.3337,
+    30.0139
+   ],
+   "coastal": true,
+   "elevation_ft": 0,
+   "zone": "9b",
+   "jan_low_f": 44,
+   "jul_high_f": 92,
+   "record_low_f": 9,
+   "record_high_f": 103,
+   "precip_in": 57.9,
+   "snow_in": 0,
+   "last_frost": "Feb 20",
+   "first_frost": "Dec 13",
+   "growing_days": 299,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "WWF86",
+     "freq": "162.500",
+     "same": "012037"
+    },
+    {
+     "call": "KIH24",
+     "freq": "162.400",
+     "same": "012037"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 5.6
+  },
+  "Gadsden County": {
+   "fips": "12039",
+   "centroid": [
+    30.5787,
+    -84.6126
+   ],
+   "latitude": 30.6,
+   "bbox": [
+    -84.9327,
+    30.3878,
+    -84.2846,
+    30.7115
+   ],
+   "coastal": false,
+   "elevation_ft": 240,
+   "zone": "9a",
+   "jan_low_f": 40,
+   "jul_high_f": 91,
+   "record_low_f": 4,
+   "record_high_f": 102,
+   "precip_in": 59.8,
+   "snow_in": 0,
+   "last_frost": "Mar 13",
+   "first_frost": "Nov 22",
+   "growing_days": 256,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "WNG633",
+     "freq": "162.425",
+     "same": "012039"
+    },
+    {
+     "call": "KIH24",
+     "freq": "162.400",
+     "same": "012039"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 5.2
+  },
+  "Gilchrist County": {
+   "fips": "12041",
+   "centroid": [
+    29.7235,
+    -82.7958
+   ],
+   "latitude": 29.7,
+   "bbox": [
+    -82.9733,
+    29.5625,
+    -82.6563,
+    29.9354
+   ],
+   "coastal": true,
+   "elevation_ft": 90,
+   "zone": "9a",
+   "jan_low_f": 40,
+   "jul_high_f": 90,
+   "record_low_f": 0,
+   "record_high_f": 107,
+   "precip_in": 54.4,
+   "snow_in": 0,
+   "last_frost": "Mar 14",
+   "first_frost": "Nov 22",
+   "growing_days": 254,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Jacksonville, FL",
+   "nws_cwa": "JAX",
+   "nwr": [
+    {
+     "call": "WXJ60",
+     "freq": "162.475",
+     "same": "012041"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.2,
+   "sun_hours_jun": 5.2
+  },
+  "Glades County": {
+   "fips": "12043",
+   "centroid": [
+    26.9548,
+    -81.1908
+   ],
+   "latitude": 27.0,
+   "bbox": [
+    -81.5661,
+    26.7682,
+    -80.8705,
+    27.211
+   ],
+   "coastal": true,
+   "elevation_ft": 20,
+   "zone": "10a",
+   "jan_low_f": 51,
+   "jul_high_f": 94,
+   "record_low_f": 23,
+   "record_high_f": 103,
+   "precip_in": 48.6,
+   "snow_in": 0,
+   "last_frost": "Jan 31",
+   "first_frost": "Jan 12",
+   "growing_days": 347,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Miami, FL",
+   "nws_cwa": "MFL",
+   "nwr": [
+    {
+     "call": "WXM58",
+     "freq": "162.400",
+     "same": "012043"
+    },
+    {
+     "call": "WXK83",
+     "freq": "162.475",
+     "same": "012043"
+    },
+    {
+     "call": "WWG92",
+     "freq": "162.525",
+     "same": "012043"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.7,
+   "sun_hours_jun": 5.0
+  },
+  "Gulf County": {
+   "fips": "12045",
+   "centroid": [
+    29.8592,
+    -85.272
+   ],
+   "latitude": 29.9,
+   "bbox": [
+    -85.418,
+    29.6547,
+    -85.0089,
+    30.2022
+   ],
+   "coastal": true,
+   "elevation_ft": 10,
+   "zone": "9b",
+   "jan_low_f": 44,
+   "jul_high_f": 90,
+   "record_low_f": 9,
+   "record_high_f": 103,
+   "precip_in": 53.1,
+   "snow_in": 0,
+   "last_frost": "Feb 15",
+   "first_frost": "Dec 18",
+   "growing_days": 307,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "WWF86",
+     "freq": "162.500",
+     "same": "012045"
+    },
+    {
+     "call": "KGG67",
+     "freq": "162.550",
+     "same": "012045"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.7
+  },
+  "Hamilton County": {
+   "fips": "12047",
+   "centroid": [
+    30.4984,
+    -82.9511
+   ],
+   "latitude": 30.5,
+   "bbox": [
+    -83.3093,
+    30.3175,
+    -82.6458,
+    30.6342
+   ],
+   "coastal": false,
+   "elevation_ft": 120,
+   "zone": "9a",
+   "jan_low_f": 38,
+   "jul_high_f": 90,
+   "record_low_f": 4,
+   "record_high_f": 104,
+   "precip_in": 52.6,
+   "snow_in": 0,
+   "last_frost": "Mar 11",
+   "first_frost": "Nov 22",
+   "growing_days": 258,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Jacksonville, FL",
+   "nws_cwa": "JAX",
+   "nwr": [
+    {
+     "call": "KEB97",
+     "freq": "162.400",
+     "same": "012047"
+    },
+    {
+     "call": "WWH31",
+     "freq": "162.500",
+     "same": "012047"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.2
+  },
+  "Hardee County": {
+   "fips": "12049",
+   "centroid": [
+    27.4928,
+    -81.8216
+   ],
+   "latitude": 27.5,
+   "bbox": [
+    -82.0558,
+    27.3367,
+    -81.563,
+    27.6471
+   ],
+   "coastal": true,
+   "elevation_ft": 50,
+   "zone": "9b",
+   "jan_low_f": 48,
+   "jul_high_f": 92,
+   "record_low_f": 20,
+   "record_high_f": 104,
+   "precip_in": 52.0,
+   "snow_in": 0,
+   "last_frost": "Feb 4",
+   "first_frost": "Jan 8",
+   "growing_days": 332,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Tampa Bay Ruskin, FL",
+   "nws_cwa": "TBW",
+   "nwr": [
+    {
+     "call": "WXK83A",
+     "freq": "162.500",
+     "same": "012049"
+    },
+    {
+     "call": "KHB32",
+     "freq": "162.550",
+     "same": "012049"
+    },
+    {
+     "call": "WWG59",
+     "freq": "162.400",
+     "same": "012049"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.5,
+   "sun_hours_jun": 5.1
+  },
+  "Hendry County": {
+   "fips": "12051",
+   "centroid": [
+    26.54,
+    -81.1521
+   ],
+   "latitude": 26.5,
+   "bbox": [
+    -81.5664,
+    26.2531,
+    -80.8799,
+    26.7836
+   ],
+   "coastal": true,
+   "elevation_ft": 30,
+   "zone": "10a",
+   "jan_low_f": 52,
+   "jul_high_f": 92,
+   "record_low_f": 20,
+   "record_high_f": 102,
+   "precip_in": 53.8,
+   "snow_in": 0,
+   "last_frost": "Jan 25",
+   "first_frost": "Jan 13",
+   "growing_days": 365,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Miami, FL",
+   "nws_cwa": "MFL",
+   "nwr": [
+    {
+     "call": "WXM58",
+     "freq": "162.400",
+     "same": "012051"
+    },
+    {
+     "call": "WXK83",
+     "freq": "162.475",
+     "same": "012051"
+    },
+    {
+     "call": "WWG92",
+     "freq": "162.525",
+     "same": "012051"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.7,
+   "sun_hours_jun": 5.0
+  },
+  "Hernando County": {
+   "fips": "12053",
+   "centroid": [
+    28.556,
+    -82.526
+   ],
+   "latitude": 28.6,
+   "bbox": [
+    -82.6878,
+    28.4335,
+    -82.0546,
+    28.6971
+   ],
+   "coastal": true,
+   "elevation_ft": 40,
+   "zone": "9b",
+   "jan_low_f": 47,
+   "jul_high_f": 92,
+   "record_low_f": 13,
+   "record_high_f": 105,
+   "precip_in": 51.9,
+   "snow_in": 0,
+   "last_frost": "Feb 5",
+   "first_frost": "Jan 1",
+   "growing_days": 322,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Tampa Bay Ruskin, FL",
+   "nws_cwa": "TBW",
+   "nwr": [
+    {
+     "call": "WWF38",
+     "freq": "162.400",
+     "same": "012053"
+    },
+    {
+     "call": "KPS505",
+     "freq": "162.500",
+     "same": "012053"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.3,
+   "sun_hours_jun": 5.3
+  },
+  "Highlands County": {
+   "fips": "12055",
+   "centroid": [
+    27.3411,
+    -81.3424
+   ],
+   "latitude": 27.3,
+   "bbox": [
+    -81.5641,
+    27.0323,
+    -80.9428,
+    27.6467
+   ],
+   "coastal": false,
+   "elevation_ft": 80,
+   "zone": "9b",
+   "jan_low_f": 48,
+   "jul_high_f": 93,
+   "record_low_f": 13,
+   "record_high_f": 103,
+   "precip_in": 54.2,
+   "snow_in": 0,
+   "last_frost": "Feb 26",
+   "first_frost": "Dec 22",
+   "growing_days": 300,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Tampa Bay Ruskin, FL",
+   "nws_cwa": "TBW",
+   "nwr": [
+    {
+     "call": "WXK83A",
+     "freq": "162.500",
+     "same": "012055"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.5,
+   "sun_hours_jun": 5.1
+  },
+  "Hillsborough County": {
+   "fips": "12057",
+   "centroid": [
+    27.8932,
+    -82.38
+   ],
+   "latitude": 27.9,
+   "bbox": [
+    -82.7666,
+    27.5771,
+    -82.054,
+    28.1734
+   ],
+   "coastal": true,
+   "elevation_ft": 10,
+   "zone": "10a",
+   "jan_low_f": 53,
+   "jul_high_f": 91,
+   "record_low_f": 18,
+   "record_high_f": 100,
+   "precip_in": 49.5,
+   "snow_in": 0,
+   "last_frost": "Jan 20",
+   "first_frost": "Jan 12",
+   "growing_days": 365,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Tampa Bay Ruskin, FL",
+   "nws_cwa": "TBW",
+   "nwr": [
+    {
+     "call": "KEC38",
+     "freq": "162.450",
+     "same": "012057"
+    },
+    {
+     "call": "KHB32",
+     "freq": "162.550",
+     "same": "012057"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.4,
+   "sun_hours_jun": 5.4
+  },
+  "Holmes County": {
+   "fips": "12059",
+   "centroid": [
+    30.862,
+    -85.8159
+   ],
+   "latitude": 30.9,
+   "bbox": [
+    -86.0378,
+    30.7019,
+    -85.4991,
+    30.9968
+   ],
+   "coastal": true,
+   "elevation_ft": 80,
+   "zone": "8b",
+   "jan_low_f": 39,
+   "jul_high_f": 91,
+   "record_low_f": 2,
+   "record_high_f": 103,
+   "precip_in": 62.3,
+   "snow_in": 0,
+   "last_frost": "Mar 10",
+   "first_frost": "Nov 20",
+   "growing_days": 259,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "KGG67",
+     "freq": "162.550",
+     "same": "012059"
+    },
+    {
+     "call": "WWH20",
+     "freq": "162.450",
+     "same": "012059"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.1,
+   "sun_hours_jun": 5.3
+  },
+  "Indian River County": {
+   "fips": "12061",
+   "centroid": [
+    27.7005,
+    -80.5748
+   ],
+   "latitude": 27.7,
+   "bbox": [
+    -80.8815,
+    27.5559,
+    -80.321,
+    27.8597
+   ],
+   "coastal": true,
+   "elevation_ft": 20,
+   "zone": "10a",
+   "jan_low_f": 54,
+   "jul_high_f": 91,
+   "record_low_f": 23,
+   "record_high_f": 103,
+   "precip_in": 56.4,
+   "snow_in": 0,
+   "last_frost": "Jan 18",
+   "first_frost": "Jan 13",
+   "growing_days": 365,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Melbourne, FL",
+   "nws_cwa": "MLB",
+   "nwr": [
+    {
+     "call": "WWF69",
+     "freq": "162.425",
+     "same": "012061"
+    },
+    {
+     "call": "WXJ70",
+     "freq": "162.550",
+     "same": "012061"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.4,
+   "sun_hours_jun": 5.1
+  },
+  "Jackson County": {
+   "fips": "12063",
+   "centroid": [
+    30.7892,
+    -85.2088
+   ],
+   "latitude": 30.8,
+   "bbox": [
+    -85.6002,
+    30.5645,
+    -84.8584,
+    31.001
+   ],
+   "coastal": false,
+   "elevation_ft": 80,
+   "zone": "9a",
+   "jan_low_f": 41,
+   "jul_high_f": 92,
+   "record_low_f": 15,
+   "record_high_f": 105,
+   "precip_in": 51.1,
+   "snow_in": 0,
+   "last_frost": "Mar 1",
+   "first_frost": "Nov 27",
+   "growing_days": 270,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "KZZ70",
+     "freq": "162.525",
+     "same": "012063"
+    },
+    {
+     "call": "WNG633",
+     "freq": "162.425",
+     "same": "012063"
+    },
+    {
+     "call": "WWH20",
+     "freq": "162.450",
+     "same": "012063"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.1,
+   "sun_hours_jun": 5.3
+  },
+  "Jefferson County": {
+   "fips": "12065",
+   "centroid": [
+    30.3969,
+    -83.9218
+   ],
+   "latitude": 30.4,
+   "bbox": [
+    -84.077,
+    30.0854,
+    -83.6041,
+    30.6721
+   ],
+   "coastal": true,
+   "elevation_ft": 160,
+   "zone": "9a",
+   "jan_low_f": 42,
+   "jul_high_f": 91,
+   "record_low_f": 3,
+   "record_high_f": 109,
+   "precip_in": 58.5,
+   "snow_in": 0,
+   "last_frost": "Feb 25",
+   "first_frost": "Dec 3",
+   "growing_days": 286,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "KIH24",
+     "freq": "162.400",
+     "same": "012065"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.1,
+   "sun_hours_jun": 5.2
+  },
+  "Lafayette County": {
+   "fips": "12067",
+   "centroid": [
+    29.9901,
+    -83.1785
+   ],
+   "latitude": 30.0,
+   "bbox": [
+    -83.3709,
+    29.8222,
+    -82.8752,
+    30.2607
+   ],
+   "coastal": true,
+   "elevation_ft": 70,
+   "zone": "9a",
+   "jan_low_f": 41,
+   "jul_high_f": 92,
+   "record_low_f": 7,
+   "record_high_f": 104,
+   "precip_in": 55.6,
+   "snow_in": 0,
+   "last_frost": "Mar 8",
+   "first_frost": "Nov 25",
+   "growing_days": 264,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "WXJ60",
+     "freq": "162.475",
+     "same": "012067"
+    },
+    {
+     "call": "WWF88",
+     "freq": "162.425",
+     "same": "012067"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.2,
+   "sun_hours_jun": 5.6
+  },
+  "Lake County": {
+   "fips": "12069",
+   "centroid": [
+    28.7641,
+    -81.7123
+   ],
+   "latitude": 28.8,
+   "bbox": [
+    -81.9576,
+    28.3452,
+    -81.3517,
+    29.2737
+   ],
+   "coastal": true,
+   "elevation_ft": 90,
+   "zone": "9b",
+   "jan_low_f": 49,
+   "jul_high_f": 91,
+   "record_low_f": 24,
+   "record_high_f": 100,
+   "precip_in": 43.8,
+   "snow_in": 0,
+   "last_frost": "Jan 26",
+   "first_frost": "Jan 9",
+   "growing_days": 346,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Melbourne, FL",
+   "nws_cwa": "MLB",
+   "nwr": [
+    {
+     "call": "KIH26",
+     "freq": "162.400",
+     "same": "012069"
+    },
+    {
+     "call": "KIH63",
+     "freq": "162.475",
+     "same": "012069"
+    },
+    {
+     "call": "KPS505",
+     "freq": "162.500",
+     "same": "012069"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.4,
+   "sun_hours_jun": 5.0
+  },
+  "Lee County": {
+   "fips": "12071",
+   "centroid": [
+    26.5633,
+    -81.9842
+   ],
+   "latitude": 26.6,
+   "bbox": [
+    -82.2715,
+    26.3162,
+    -81.5622,
+    26.7895
+   ],
+   "coastal": true,
+   "elevation_ft": 10,
+   "zone": "10b",
+   "jan_low_f": 54,
+   "jul_high_f": 92,
+   "record_low_f": 24,
+   "record_high_f": 103,
+   "precip_in": 57.4,
+   "snow_in": 0,
+   "last_frost": "Jan 16",
+   "first_frost": "Jan 13",
+   "growing_days": 365,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Tampa Bay Ruskin, FL",
+   "nws_cwa": "TBW",
+   "nwr": [
+    {
+     "call": "WXK83",
+     "freq": "162.475",
+     "same": "012071"
+    },
+    {
+     "call": "WWG92",
+     "freq": "162.525",
+     "same": "012071"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.7,
+   "sun_hours_jun": 5.0
+  },
+  "Leon County": {
+   "fips": "12073",
+   "centroid": [
+    30.4593,
+    -84.2778
+   ],
+   "latitude": 30.5,
+   "bbox": [
+    -84.7149,
+    30.2725,
+    -83.9779,
+    30.6851
+   ],
+   "coastal": true,
+   "elevation_ft": 200,
+   "zone": "9a",
+   "jan_low_f": 40,
+   "jul_high_f": 92,
+   "record_low_f": 6,
+   "record_high_f": 105,
+   "precip_in": 58.8,
+   "snow_in": 0,
+   "last_frost": "Mar 11",
+   "first_frost": "Nov 21",
+   "growing_days": 255,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "KIH24",
+     "freq": "162.400",
+     "same": "012073"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 5.2
+  },
+  "Levy County": {
+   "fips": "12075",
+   "centroid": [
+    29.2719,
+    -82.8312
+   ],
+   "latitude": 29.3,
+   "bbox": [
+    -83.165,
+    28.993,
+    -82.4032,
+    29.5913
+   ],
+   "coastal": true,
+   "elevation_ft": 10,
+   "zone": "9a",
+   "jan_low_f": 44,
+   "jul_high_f": 89,
+   "record_low_f": 9,
+   "record_high_f": 105,
+   "precip_in": 57.1,
+   "snow_in": 0,
+   "last_frost": "Feb 28",
+   "first_frost": "Dec 2",
+   "growing_days": 279,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Tampa Bay Ruskin, FL",
+   "nws_cwa": "TBW",
+   "nwr": [
+    {
+     "call": "WXJ60",
+     "freq": "162.475",
+     "same": "012075"
+    },
+    {
+     "call": "WWF38",
+     "freq": "162.400",
+     "same": "012075"
+    },
+    {
+     "call": "KWN38",
+     "freq": "162.550",
+     "same": "012075"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.2,
+   "sun_hours_jun": 5.2
+  },
+  "Liberty County": {
+   "fips": "12077",
+   "centroid": [
+    30.2598,
+    -84.8686
+   ],
+   "latitude": 30.3,
+   "bbox": [
+    -85.154,
+    29.9719,
+    -84.5443,
+    30.6063
+   ],
+   "coastal": true,
+   "elevation_ft": 90,
+   "zone": "9a",
+   "jan_low_f": 40,
+   "jul_high_f": 89,
+   "record_low_f": 11,
+   "record_high_f": 105,
+   "precip_in": 63.1,
+   "snow_in": 0,
+   "last_frost": "Mar 1",
+   "first_frost": "Nov 29",
+   "growing_days": 271,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "WWF86",
+     "freq": "162.500",
+     "same": "012077"
+    },
+    {
+     "call": "WNG633",
+     "freq": "162.425",
+     "same": "012077"
+    },
+    {
+     "call": "KIH24",
+     "freq": "162.400",
+     "same": "012077"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 5.2
+  },
+  "Madison County": {
+   "fips": "12079",
+   "centroid": [
+    30.4472,
+    -83.4704
+   ],
+   "latitude": 30.4,
+   "bbox": [
+    -83.8208,
+    30.259,
+    -83.1712,
+    30.6512
+   ],
+   "coastal": false,
+   "elevation_ft": 140,
+   "zone": "9a",
+   "jan_low_f": 40,
+   "jul_high_f": 91,
+   "record_low_f": 5,
+   "record_high_f": 106,
+   "precip_in": 52.8,
+   "snow_in": 0,
+   "last_frost": "Mar 5",
+   "first_frost": "Nov 29",
+   "growing_days": 273,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "WWF88",
+     "freq": "162.425",
+     "same": "012079"
+    },
+    {
+     "call": "KIH24",
+     "freq": "162.400",
+     "same": "012079"
+    },
+    {
+     "call": "WWH31",
+     "freq": "162.500",
+     "same": "012079"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.1,
+   "sun_hours_jun": 5.2
+  },
+  "Manatee County": {
+   "fips": "12081",
+   "centroid": [
+    27.4756,
+    -82.3931
+   ],
+   "latitude": 27.5,
+   "bbox": [
+    -82.7463,
+    27.2078,
+    -82.0545,
+    27.6471
+   ],
+   "coastal": true,
+   "elevation_ft": 40,
+   "zone": "10a",
+   "jan_low_f": 52,
+   "jul_high_f": 92,
+   "record_low_f": 20,
+   "record_high_f": 101,
+   "precip_in": 56.3,
+   "snow_in": 0,
+   "last_frost": "Jan 16",
+   "first_frost": "Jan 11",
+   "growing_days": 365,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Tampa Bay Ruskin, FL",
+   "nws_cwa": "TBW",
+   "nwr": [
+    {
+     "call": "KEC38",
+     "freq": "162.450",
+     "same": "012081"
+    },
+    {
+     "call": "KHB32",
+     "freq": "162.550",
+     "same": "012081"
+    },
+    {
+     "call": "WWG59",
+     "freq": "162.400",
+     "same": "012081"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.4,
+   "sun_hours_jun": 5.4
+  },
+  "Marion County": {
+   "fips": "12083",
+   "centroid": [
+    29.2028,
+    -82.0431
+   ],
+   "latitude": 29.2,
+   "bbox": [
+    -82.5362,
+    28.9594,
+    -81.639,
+    29.5214
+   ],
+   "coastal": true,
+   "elevation_ft": 60,
+   "zone": "9a",
+   "jan_low_f": 46,
+   "jul_high_f": 92,
+   "record_low_f": 11,
+   "record_high_f": 105,
+   "precip_in": 51.6,
+   "snow_in": 0,
+   "last_frost": "Feb 25",
+   "first_frost": "Dec 12",
+   "growing_days": 293,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Jacksonville, FL",
+   "nws_cwa": "JAX",
+   "nwr": [
+    {
+     "call": "WXJ60",
+     "freq": "162.475",
+     "same": "012083"
+    },
+    {
+     "call": "WWF38",
+     "freq": "162.400",
+     "same": "012083"
+    },
+    {
+     "call": "WWF85",
+     "freq": "162.525",
+     "same": "012083"
+    },
+    {
+     "call": "KPS505",
+     "freq": "162.500",
+     "same": "012083"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.2,
+   "sun_hours_jun": 5.2
+  },
+  "Martin County": {
+   "fips": "12085",
+   "centroid": [
+    27.0836,
+    -80.3982
+   ],
+   "latitude": 27.1,
+   "bbox": [
+    -80.6779,
+    26.9566,
+    -80.08,
+    27.2641
+   ],
+   "coastal": true,
+   "elevation_ft": 30,
+   "zone": "10a",
+   "jan_low_f": 54,
+   "jul_high_f": 90,
+   "record_low_f": 23,
+   "record_high_f": 105,
+   "precip_in": 64.2,
+   "snow_in": 0,
+   "last_frost": "Jan 26",
+   "first_frost": "Jan 15",
+   "growing_days": 365,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Melbourne, FL",
+   "nws_cwa": "MLB",
+   "nwr": [
+    {
+     "call": "WWF69",
+     "freq": "162.425",
+     "same": "012085"
+    },
+    {
+     "call": "KEC50",
+     "freq": "162.475",
+     "same": "012085"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.4,
+   "sun_hours_jun": 5.1
+  },
+  "Miami-Dade County": {
+   "fips": "12086",
+   "centroid": [
+    25.616,
+    -80.5037
+   ],
+   "latitude": 25.6,
+   "bbox": [
+    -80.8736,
+    25.1374,
+    -80.1098,
+    25.9795
+   ],
+   "coastal": true,
+   "elevation_ft": 10,
+   "zone": "10b",
+   "jan_low_f": 55,
+   "jul_high_f": 90,
+   "record_low_f": 29,
+   "record_high_f": 98,
+   "precip_in": 66.5,
+   "snow_in": 0,
+   "last_frost": "Jan 18",
+   "first_frost": "Jan 13",
+   "growing_days": 365,
+   "ecoregion": "Southern Florida Coastal Plain",
+   "ecoregion_code": "76",
+   "nws_office": "Miami, FL",
+   "nws_cwa": "MFL",
+   "nwr": [
+    {
+     "call": "WZ2531",
+     "freq": "162.500",
+     "same": "012086"
+    },
+    {
+     "call": "KHB34",
+     "freq": "162.550",
+     "same": "012086"
+    },
+    {
+     "call": "WNG663",
+     "freq": "162.425",
+     "same": "012086"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.6,
+   "sun_hours_jun": 5.0
+  },
+  "Monroe County": {
+   "fips": "12087",
+   "centroid": [
+    25.5861,
+    -81.0226
+   ],
+   "latitude": 25.6,
+   "bbox": [
+    -82.9264,
+    24.5211,
+    -80.2526,
+    25.8058
+   ],
+   "coastal": true,
+   "elevation_ft": 0,
+   "zone": "10b",
+   "jan_low_f": 59,
+   "jul_high_f": 92,
+   "record_low_f": 28,
+   "record_high_f": 102,
+   "precip_in": 60.4,
+   "snow_in": 0,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 365,
+   "ecoregion": "Southern Florida Coastal Plain",
+   "ecoregion_code": "76",
+   "nws_office": "Miami, FL",
+   "nws_cwa": "MFL",
+   "nwr": [
+    {
+     "call": "WXJ95",
+     "freq": "162.400",
+     "same": "012087"
+    },
+    {
+     "call": "WWG92",
+     "freq": "162.525",
+     "same": "012087"
+    },
+    {
+     "call": "WNG663",
+     "freq": "162.425",
+     "same": "012087"
+    },
+    {
+     "call": "WWG60",
+     "freq": "162.450",
+     "same": "012087"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.9,
+   "sun_hours_jun": 5.3
+  },
+  "Nassau County": {
+   "fips": "12089",
+   "centroid": [
+    30.606,
+    -81.7651
+   ],
+   "latitude": 30.6,
+   "bbox": [
+    -82.0505,
+    30.2734,
+    -81.4267,
+    30.8294
+   ],
+   "coastal": true,
+   "elevation_ft": 20,
+   "zone": "9a",
+   "jan_low_f": 43,
+   "jul_high_f": 92,
+   "record_low_f": 7,
+   "record_high_f": 105,
+   "precip_in": 53.4,
+   "snow_in": 0,
+   "last_frost": "Feb 25",
+   "first_frost": "Dec 7",
+   "growing_days": 288,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Jacksonville, FL",
+   "nws_cwa": "JAX",
+   "nwr": [
+    {
+     "call": "KHB39",
+     "freq": "162.550",
+     "same": "012089"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.8,
+   "sun_hours_jun": 5.3
+  },
+  "Okaloosa County": {
+   "fips": "12091",
+   "centroid": [
+    30.6143,
+    -86.5911
+   ],
+   "latitude": 30.6,
+   "bbox": [
+    -86.8003,
+    30.3785,
+    -86.3884,
+    30.997
+   ],
+   "coastal": true,
+   "elevation_ft": 210,
+   "zone": "9a",
+   "jan_low_f": 38,
+   "jul_high_f": 90,
+   "record_low_f": 4,
+   "record_high_f": 107,
+   "precip_in": 73.4,
+   "snow_in": 0,
+   "last_frost": "Mar 12",
+   "first_frost": "Nov 19",
+   "growing_days": 253,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Mobile, AL",
+   "nws_cwa": "MOB",
+   "nwr": [
+    {
+     "call": "WNG646",
+     "freq": "162.475",
+     "same": "012091"
+    },
+    {
+     "call": "KIH59",
+     "freq": "162.550",
+     "same": "012091"
+    },
+    {
+     "call": "KEC86",
+     "freq": "162.400",
+     "same": "012091"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 5.5
+  },
+  "Okeechobee County": {
+   "fips": "12093",
+   "centroid": [
+    27.3856,
+    -80.8874
+   ],
+   "latitude": 27.4,
+   "bbox": [
+    -81.2131,
+    27.1217,
+    -80.6774,
+    27.6443
+   ],
+   "coastal": true,
+   "elevation_ft": 30,
+   "zone": "10a",
+   "jan_low_f": 52,
+   "jul_high_f": 92,
+   "record_low_f": 16,
+   "record_high_f": 101,
+   "precip_in": 50.3,
+   "snow_in": 0,
+   "last_frost": "Jan 31",
+   "first_frost": "Jan 11",
+   "growing_days": 355,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Melbourne, FL",
+   "nws_cwa": "MLB",
+   "nwr": [
+    {
+     "call": "WXM58",
+     "freq": "162.400",
+     "same": "012093"
+    },
+    {
+     "call": "WWF69",
+     "freq": "162.425",
+     "same": "012093"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.4,
+   "sun_hours_jun": 5.1
+  },
+  "Orange County": {
+   "fips": "12095",
+   "centroid": [
+    28.5144,
+    -81.3233
+   ],
+   "latitude": 28.5,
+   "bbox": [
+    -81.6586,
+    28.3467,
+    -80.8635,
+    28.7861
+   ],
+   "coastal": true,
+   "elevation_ft": 110,
+   "zone": "10a",
+   "jan_low_f": 52,
+   "jul_high_f": 92,
+   "record_low_f": 18,
+   "record_high_f": 103,
+   "precip_in": 51.5,
+   "snow_in": 0,
+   "last_frost": "Jan 17",
+   "first_frost": "Jan 13",
+   "growing_days": 365,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Melbourne, FL",
+   "nws_cwa": "MLB",
+   "nwr": [
+    {
+     "call": "KIH26",
+     "freq": "162.400",
+     "same": "012095"
+    },
+    {
+     "call": "WXJ70",
+     "freq": "162.550",
+     "same": "012095"
+    },
+    {
+     "call": "KIH63",
+     "freq": "162.475",
+     "same": "012095"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.4,
+   "sun_hours_jun": 5.0
+  },
+  "Osceola County": {
+   "fips": "12097",
+   "centroid": [
+    28.059,
+    -81.1393
+   ],
+   "latitude": 28.1,
+   "bbox": [
+    -81.6573,
+    27.642,
+    -80.8614,
+    28.3487
+   ],
+   "coastal": false,
+   "elevation_ft": 80,
+   "zone": "9b",
+   "jan_low_f": 49,
+   "jul_high_f": 91,
+   "record_low_f": 19,
+   "record_high_f": 103,
+   "precip_in": 54.9,
+   "snow_in": 0,
+   "last_frost": "Jan 26",
+   "first_frost": "Jan 10",
+   "growing_days": 354,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Melbourne, FL",
+   "nws_cwa": "MLB",
+   "nwr": [
+    {
+     "call": "WXJ70",
+     "freq": "162.550",
+     "same": "012097"
+    },
+    {
+     "call": "KIH63",
+     "freq": "162.475",
+     "same": "012097"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.4,
+   "sun_hours_jun": 5.0
+  },
+  "Palm Beach County": {
+   "fips": "12099",
+   "centroid": [
+    26.6491,
+    -80.4484
+   ],
+   "latitude": 26.6,
+   "bbox": [
+    -80.8861,
+    26.3205,
+    -80.032,
+    26.9715
+   ],
+   "coastal": true,
+   "elevation_ft": 10,
+   "zone": "10b",
+   "jan_low_f": 52,
+   "jul_high_f": 92,
+   "record_low_f": 21,
+   "record_high_f": 100,
+   "precip_in": 55.2,
+   "snow_in": 0,
+   "last_frost": "Jan 27",
+   "first_frost": "Jan 16",
+   "growing_days": 365,
+   "ecoregion": "Southern Florida Coastal Plain",
+   "ecoregion_code": "76",
+   "nws_office": "Miami, FL",
+   "nws_cwa": "MFL",
+   "nwr": [
+    {
+     "call": "WXM58",
+     "freq": "162.400",
+     "same": "012099"
+    },
+    {
+     "call": "KEC50",
+     "freq": "162.475",
+     "same": "012099"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 3,
+    "extreme_cold": 3,
+    "drought": 3,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.4,
+   "sun_hours_jun": 4.8
+  },
+  "Pasco County": {
+   "fips": "12101",
+   "centroid": [
+    28.3098,
+    -82.511
+   ],
+   "latitude": 28.3,
+   "bbox": [
+    -82.8524,
+    28.171,
+    -82.0553,
+    28.4785
+   ],
+   "coastal": true,
+   "elevation_ft": 70,
+   "zone": "9b",
+   "jan_low_f": 44,
+   "jul_high_f": 91,
+   "record_low_f": 14,
+   "record_high_f": 100,
+   "precip_in": 51.9,
+   "snow_in": 0,
+   "last_frost": "Mar 1",
+   "first_frost": "Dec 5",
+   "growing_days": 281,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Tampa Bay Ruskin, FL",
+   "nws_cwa": "TBW",
+   "nwr": [
+    {
+     "call": "KEC38",
+     "freq": "162.450",
+     "same": "012101"
+    },
+    {
+     "call": "KHB32",
+     "freq": "162.550",
+     "same": "012101"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.3,
+   "sun_hours_jun": 5.3
+  },
+  "Pinellas County": {
+   "fips": "12103",
+   "centroid": [
+    27.9053,
+    -82.7981
+   ],
+   "latitude": 27.9,
+   "bbox": [
+    -82.8511,
+    27.6112,
+    -82.5822,
+    28.1769
+   ],
+   "coastal": true,
+   "elevation_ft": 70,
+   "zone": "10a",
+   "jan_low_f": 52,
+   "jul_high_f": 90,
+   "record_low_f": 22,
+   "record_high_f": 100,
+   "precip_in": 53.6,
+   "snow_in": 0,
+   "last_frost": "Jan 17",
+   "first_frost": "Jan 14",
+   "growing_days": 365,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Tampa Bay Ruskin, FL",
+   "nws_cwa": "TBW",
+   "nwr": [
+    {
+     "call": "KEC38",
+     "freq": "162.450",
+     "same": "012103"
+    },
+    {
+     "call": "KHB32",
+     "freq": "162.550",
+     "same": "012103"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 3,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.4,
+   "sun_hours_jun": 5.4
+  },
+  "Polk County": {
+   "fips": "12105",
+   "centroid": [
+    27.9537,
+    -81.6935
+   ],
+   "latitude": 28.0,
+   "bbox": [
+    -82.1062,
+    27.6429,
+    -81.1312,
+    28.3619
+   ],
+   "coastal": false,
+   "elevation_ft": 140,
+   "zone": "10a",
+   "jan_low_f": 52,
+   "jul_high_f": 93,
+   "record_low_f": 19,
+   "record_high_f": 103,
+   "precip_in": 52.0,
+   "snow_in": 0,
+   "last_frost": "Jan 16",
+   "first_frost": "Jan 9",
+   "growing_days": 365,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Tampa Bay Ruskin, FL",
+   "nws_cwa": "TBW",
+   "nwr": [
+    {
+     "call": "KIH63",
+     "freq": "162.475",
+     "same": "012105"
+    },
+    {
+     "call": "WXK83A",
+     "freq": "162.500",
+     "same": "012105"
+    },
+    {
+     "call": "KHB32",
+     "freq": "162.550",
+     "same": "012105"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.5,
+   "sun_hours_jun": 5.1
+  },
+  "Putnam County": {
+   "fips": "12107",
+   "centroid": [
+    29.5939,
+    -81.732
+   ],
+   "latitude": 29.6,
+   "bbox": [
+    -82.0561,
+    29.3239,
+    -81.4344,
+    29.8397
+   ],
+   "coastal": true,
+   "elevation_ft": 20,
+   "zone": "9b",
+   "jan_low_f": 47,
+   "jul_high_f": 90,
+   "record_low_f": 11,
+   "record_high_f": 107,
+   "precip_in": 51.4,
+   "snow_in": 0,
+   "last_frost": "Jan 31",
+   "first_frost": "Jan 4",
+   "growing_days": 337,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Jacksonville, FL",
+   "nws_cwa": "JAX",
+   "nwr": [
+    {
+     "call": "KIH26",
+     "freq": "162.400",
+     "same": "012107"
+    },
+    {
+     "call": "WXJ60",
+     "freq": "162.475",
+     "same": "012107"
+    },
+    {
+     "call": "WNG522",
+     "freq": "162.425",
+     "same": "012107"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.1,
+   "sun_hours_jun": 5.1
+  },
+  "St. Johns County": {
+   "fips": "12109",
+   "centroid": [
+    29.8905,
+    -81.4
+   ],
+   "latitude": 29.9,
+   "bbox": [
+    -81.6904,
+    29.6225,
+    -81.2137,
+    30.2529
+   ],
+   "coastal": true,
+   "elevation_ft": 40,
+   "zone": "9b",
+   "jan_low_f": 48,
+   "jul_high_f": 91,
+   "record_low_f": 10,
+   "record_high_f": 103,
+   "precip_in": 50.6,
+   "snow_in": 0,
+   "last_frost": "Feb 1",
+   "first_frost": "Jan 5",
+   "growing_days": 334,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Jacksonville, FL",
+   "nws_cwa": "JAX",
+   "nwr": [
+    {
+     "call": "KHB39",
+     "freq": "162.550",
+     "same": "012109"
+    },
+    {
+     "call": "WNG522",
+     "freq": "162.425",
+     "same": "012109"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.1,
+   "sun_hours_jun": 5.1
+  },
+  "St. Lucie County": {
+   "fips": "12111",
+   "centroid": [
+    27.3798,
+    -80.4435
+   ],
+   "latitude": 27.4,
+   "bbox": [
+    -80.68,
+    27.2057,
+    -80.1997,
+    27.5587
+   ],
+   "coastal": true,
+   "elevation_ft": 20,
+   "zone": "10a",
+   "jan_low_f": 53,
+   "jul_high_f": 89,
+   "record_low_f": 19,
+   "record_high_f": 101,
+   "precip_in": 55.9,
+   "snow_in": 0,
+   "last_frost": "Jan 22",
+   "first_frost": "Jan 12",
+   "growing_days": 365,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Melbourne, FL",
+   "nws_cwa": "MLB",
+   "nwr": [
+    {
+     "call": "WWF69",
+     "freq": "162.425",
+     "same": "012111"
+    },
+    {
+     "call": "KEC50",
+     "freq": "162.475",
+     "same": "012111"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 2,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.4,
+   "sun_hours_jun": 5.1
+  },
+  "Santa Rosa County": {
+   "fips": "12113",
+   "centroid": [
+    30.6753,
+    -87.0189
+   ],
+   "latitude": 30.7,
+   "bbox": [
+    -87.3134,
+    30.3419,
+    -86.7859,
+    30.9995
+   ],
+   "coastal": true,
+   "elevation_ft": 80,
+   "zone": "9a",
+   "jan_low_f": 42,
+   "jul_high_f": 93,
+   "record_low_f": 11,
+   "record_high_f": 105,
+   "precip_in": 66.4,
+   "snow_in": 0,
+   "last_frost": "Feb 28",
+   "first_frost": "Nov 27",
+   "growing_days": 276,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Mobile, AL",
+   "nws_cwa": "MOB",
+   "nwr": [
+    {
+     "call": "WNG646",
+     "freq": "162.475",
+     "same": "012113"
+    },
+    {
+     "call": "KIH59",
+     "freq": "162.550",
+     "same": "012113"
+    },
+    {
+     "call": "KEC86",
+     "freq": "162.400",
+     "same": "012113"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.6
+  },
+  "Sarasota County": {
+   "fips": "12115",
+   "centroid": [
+    27.2253,
+    -82.4237
+   ],
+   "latitude": 27.2,
+   "bbox": [
+    -82.6428,
+    26.945,
+    -82.0565,
+    27.3906
+   ],
+   "coastal": true,
+   "elevation_ft": 20,
+   "zone": "10a",
+   "jan_low_f": 50,
+   "jul_high_f": 92,
+   "record_low_f": 18,
+   "record_high_f": 105,
+   "precip_in": 61.1,
+   "snow_in": 0,
+   "last_frost": "Feb 1",
+   "first_frost": "Jan 6",
+   "growing_days": 336,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Tampa Bay Ruskin, FL",
+   "nws_cwa": "TBW",
+   "nwr": [
+    {
+     "call": "WWG59",
+     "freq": "162.400",
+     "same": "012115"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.4,
+   "sun_hours_jun": 5.4
+  },
+  "Seminole County": {
+   "fips": "12117",
+   "centroid": [
+    28.6901,
+    -81.132
+   ],
+   "latitude": 28.7,
+   "bbox": [
+    -81.4597,
+    28.6105,
+    -80.9871,
+    28.8757
+   ],
+   "coastal": true,
+   "elevation_ft": 20,
+   "zone": "9b",
+   "jan_low_f": 50,
+   "jul_high_f": 93,
+   "record_low_f": 22,
+   "record_high_f": 101,
+   "precip_in": 49.6,
+   "snow_in": 0,
+   "last_frost": "Jan 24",
+   "first_frost": "Jan 9",
+   "growing_days": 352,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Melbourne, FL",
+   "nws_cwa": "MLB",
+   "nwr": [
+    {
+     "call": "KIH26",
+     "freq": "162.400",
+     "same": "012117"
+    },
+    {
+     "call": "KIH63",
+     "freq": "162.475",
+     "same": "012117"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.4,
+   "sun_hours_jun": 5.0
+  },
+  "Sumter County": {
+   "fips": "12119",
+   "centroid": [
+    28.7133,
+    -82.0695
+   ],
+   "latitude": 28.7,
+   "bbox": [
+    -82.3117,
+    28.3048,
+    -81.9533,
+    28.9609
+   ],
+   "coastal": false,
+   "elevation_ft": 70,
+   "zone": "9b",
+   "jan_low_f": 43,
+   "jul_high_f": 91,
+   "record_low_f": 12,
+   "record_high_f": 104,
+   "precip_in": 52.4,
+   "snow_in": 0,
+   "last_frost": "Mar 2",
+   "first_frost": "Dec 5",
+   "growing_days": 281,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Tampa Bay Ruskin, FL",
+   "nws_cwa": "TBW",
+   "nwr": [
+    {
+     "call": "WWF38",
+     "freq": "162.400",
+     "same": "012119"
+    },
+    {
+     "call": "KPS505",
+     "freq": "162.500",
+     "same": "012119"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.3,
+   "sun_hours_jun": 5.3
+  },
+  "Suwannee County": {
+   "fips": "12121",
+   "centroid": [
+    30.1892,
+    -82.9928
+   ],
+   "latitude": 30.2,
+   "bbox": [
+    -83.2531,
+    29.8829,
+    -82.7594,
+    30.4422
+   ],
+   "coastal": true,
+   "elevation_ft": 100,
+   "zone": "9a",
+   "jan_low_f": 45,
+   "jul_high_f": 94,
+   "record_low_f": 5,
+   "record_high_f": 106,
+   "precip_in": 51.9,
+   "snow_in": 0,
+   "last_frost": "Feb 20",
+   "first_frost": "Dec 6",
+   "growing_days": 292,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Jacksonville, FL",
+   "nws_cwa": "JAX",
+   "nwr": [
+    {
+     "call": "WXJ60",
+     "freq": "162.475",
+     "same": "012121"
+    },
+    {
+     "call": "KEB97",
+     "freq": "162.400",
+     "same": "012121"
+    },
+    {
+     "call": "WWF88",
+     "freq": "162.425",
+     "same": "012121"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.2
+  },
+  "Taylor County": {
+   "fips": "12123",
+   "centroid": [
+    29.9671,
+    -83.6396
+   ],
+   "latitude": 30.0,
+   "bbox": [
+    -83.9974,
+    29.6658,
+    -83.319,
+    30.3043
+   ],
+   "coastal": true,
+   "elevation_ft": 30,
+   "zone": "9a",
+   "jan_low_f": 41,
+   "jul_high_f": 92,
+   "record_low_f": 7,
+   "record_high_f": 104,
+   "precip_in": 51.4,
+   "snow_in": 0,
+   "last_frost": "Mar 5",
+   "first_frost": "Nov 25",
+   "growing_days": 268,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "WWF88",
+     "freq": "162.425",
+     "same": "012123"
+    },
+    {
+     "call": "KIH24",
+     "freq": "162.400",
+     "same": "012123"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.2,
+   "sun_hours_jun": 5.6
+  },
+  "Union County": {
+   "fips": "12125",
+   "centroid": [
+    30.0543,
+    -82.3669
+   ],
+   "latitude": 30.1,
+   "bbox": [
+    -82.5753,
+    29.9202,
+    -82.1382,
+    30.1431
+   ],
+   "coastal": true,
+   "elevation_ft": 130,
+   "zone": "9a",
+   "jan_low_f": 45,
+   "jul_high_f": 92,
+   "record_low_f": 8,
+   "record_high_f": 101,
+   "precip_in": 53.4,
+   "snow_in": 0,
+   "last_frost": "Feb 8",
+   "first_frost": "Dec 24",
+   "growing_days": 313,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Jacksonville, FL",
+   "nws_cwa": "JAX",
+   "nwr": [
+    {
+     "call": "WXJ60",
+     "freq": "162.475",
+     "same": "012125"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 3.9,
+   "sun_hours_jun": 5.2
+  },
+  "Volusia County": {
+   "fips": "12127",
+   "centroid": [
+    29.0578,
+    -81.1618
+   ],
+   "latitude": 29.1,
+   "bbox": [
+    -81.6805,
+    28.613,
+    -80.7328,
+    29.4286
+   ],
+   "coastal": true,
+   "elevation_ft": 40,
+   "zone": "9b",
+   "jan_low_f": 45,
+   "jul_high_f": 91,
+   "record_low_f": 15,
+   "record_high_f": 102,
+   "precip_in": 55.5,
+   "snow_in": 0,
+   "last_frost": "Feb 17",
+   "first_frost": "Dec 30",
+   "growing_days": 310,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Melbourne, FL",
+   "nws_cwa": "MLB",
+   "nwr": [
+    {
+     "call": "KIH26",
+     "freq": "162.400",
+     "same": "012127"
+    },
+    {
+     "call": "KIH63",
+     "freq": "162.475",
+     "same": "012127"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 3,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 2,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.1,
+   "sun_hours_jun": 5.1
+  },
+  "Wakulla County": {
+   "fips": "12129",
+   "centroid": [
+    30.0913,
+    -84.3591
+   ],
+   "latitude": 30.1,
+   "bbox": [
+    -84.7378,
+    29.969,
+    -84.0756,
+    30.3035
+   ],
+   "coastal": true,
+   "elevation_ft": 10,
+   "zone": "9a",
+   "jan_low_f": 39,
+   "jul_high_f": 92,
+   "record_low_f": 6,
+   "record_high_f": 105,
+   "precip_in": 59.8,
+   "snow_in": 0,
+   "last_frost": "Mar 8",
+   "first_frost": "Nov 22",
+   "growing_days": 262,
+   "ecoregion": "Southern Coastal Plain",
+   "ecoregion_code": "75",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "WWF86",
+     "freq": "162.500",
+     "same": "012129"
+    },
+    {
+     "call": "KIH24",
+     "freq": "162.400",
+     "same": "012129"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 2,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 5.2
+  },
+  "Walton County": {
+   "fips": "12131",
+   "centroid": [
+    30.5712,
+    -86.1628
+   ],
+   "latitude": 30.6,
+   "bbox": [
+    -86.3947,
+    30.2669,
+    -85.8444,
+    30.9945
+   ],
+   "coastal": true,
+   "elevation_ft": 120,
+   "zone": "9a",
+   "jan_low_f": 40,
+   "jul_high_f": 92,
+   "record_low_f": 0,
+   "record_high_f": 107,
+   "precip_in": 64.6,
+   "snow_in": 0,
+   "last_frost": "Feb 28",
+   "first_frost": "Nov 28",
+   "growing_days": 275,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "KIH59",
+     "freq": "162.550",
+     "same": "012131"
+    },
+    {
+     "call": "KGG67",
+     "freq": "162.550",
+     "same": "012131"
+    },
+    {
+     "call": "WWH20",
+     "freq": "162.450",
+     "same": "012131"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 3,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.0,
+   "sun_hours_jun": 5.5
+  },
+  "Washington County": {
+   "fips": "12133",
+   "centroid": [
+    30.6021,
+    -85.6558
+   ],
+   "latitude": 30.6,
+   "bbox": [
+    -86.0041,
+    30.3896,
+    -85.4324,
+    30.8305
+   ],
+   "coastal": true,
+   "elevation_ft": 110,
+   "zone": "9a",
+   "jan_low_f": 39,
+   "jul_high_f": 93,
+   "record_low_f": 2,
+   "record_high_f": 104,
+   "precip_in": 60.8,
+   "snow_in": 0,
+   "last_frost": "Mar 5",
+   "first_frost": "Nov 21",
+   "growing_days": 263,
+   "ecoregion": "Southeastern Plains",
+   "ecoregion_code": "65",
+   "nws_office": "Tallahassee, FL",
+   "nws_cwa": "TAE",
+   "nwr": [
+    {
+     "call": "KGG67",
+     "freq": "162.550",
+     "same": "012133"
+    },
+    {
+     "call": "WWH20",
+     "freq": "162.450",
+     "same": "012133"
+    }
+   ],
+   "state_em": "Florida Division of Emergency Management",
+   "hazards": {
+    "tornado": 2,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 2,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.1,
+   "sun_hours_jun": 5.3
+  }
+ }
+}

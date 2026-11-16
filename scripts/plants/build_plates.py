@@ -71,6 +71,11 @@ def sniff(b):
 def compress(raw):
     im = Image.open(io.BytesIO(raw))
     im = im.convert('RGB')
+    # Line drawings and black-and-white photographs: store as one-channel greyscale (smaller, same look).
+    small = im.copy(); small.thumbnail((200, 200))
+    px = list(small.getdata())
+    if max(max(r, g, b) - min(r, g, b) for r, g, b in px) <= 24:
+        im = im.convert('L')
     if max(im.size) > MAX_SIDE:
         im.thumbnail((MAX_SIDE, MAX_SIDE), Image.LANCZOS)
     best = None

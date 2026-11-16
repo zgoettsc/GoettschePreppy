@@ -1,0 +1,319 @@
+{
+ "state": "HI",
+ "state_name": "Hawaii",
+ "state_fips": "15",
+ "state_em": "Hawaii Emergency Management Agency",
+ "sources": [
+  "census-gazetteer-2024",
+  "usgs-3dep-epqs",
+  "noaa-ncei-normals-1991-2020",
+  "noaa-rcc-acis",
+  "usda-phzm-2023",
+  "nws-awips-counties-cwa",
+  "noaa-national-weather-service-nwr-county-coverage-an-c6207f",
+  "fema-nri-counties",
+  "epa-ecoregions-level3",
+  "nasa-power-climatology",
+  "fema-state-ema-list"
+ ],
+ "nws_offices": {
+  "HFO": "NWS Honolulu, HI"
+ },
+ "ecoregions": [],
+ "counties": {
+  "Hawaii County": {
+   "fips": "15001",
+   "centroid": [
+    19.5978,
+    -155.5024
+   ],
+   "latitude": 19.6,
+   "bbox": [
+    -156.0618,
+    18.9107,
+    -154.8067,
+    20.2684
+   ],
+   "coastal": true,
+   "elevation_ft": 8250,
+   "zone": "10a",
+   "jan_low_f": 35,
+   "jul_high_f": 58,
+   "record_low_f": 34,
+   "record_high_f": 87,
+   "precip_in": 23.9,
+   "snow_in": 0,
+   "last_frost": "Apr 12",
+   "first_frost": "Dec 1",
+   "growing_days": 235,
+   "ecoregion": "Hawaiian Islands (not mapped at EPA Level III)",
+   "ecoregion_code": "HI",
+   "nws_office": "Honolulu, HI",
+   "nws_cwa": "HFO",
+   "nwr": [
+    {
+     "call": "WWG76",
+     "freq": "162.550",
+     "same": "015001"
+    },
+    {
+     "call": "WWG75",
+     "freq": "162.400",
+     "same": "015001"
+    },
+    {
+     "call": "WZ2540",
+     "freq": "162.500",
+     "same": "015001"
+    },
+    {
+     "call": "WWG27",
+     "freq": "162.550",
+     "same": "015001"
+    }
+   ],
+   "state_em": "Hawaii Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 3,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 3,
+    "tsunami": 2,
+    "landslide": 1
+   },
+   "sun_hours_dec": 4.8,
+   "sun_hours_jun": 5.4
+  },
+  "Honolulu County": {
+   "fips": "15003",
+   "centroid": [
+    21.4614,
+    -158.202
+   ],
+   "latitude": 21.5,
+   "bbox": [
+    -158.2802,
+    21.2546,
+    -157.6484,
+    21.7126
+   ],
+   "coastal": true,
+   "elevation_ft": 20,
+   "zone": "12b",
+   "jan_low_f": 65,
+   "jul_high_f": 85,
+   "record_low_f": 50,
+   "record_high_f": 100,
+   "precip_in": 21.8,
+   "snow_in": 0,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 365,
+   "ecoregion": "Hawaiian Islands (not mapped at EPA Level III)",
+   "ecoregion_code": "HI",
+   "nws_office": "Honolulu, HI",
+   "nws_cwa": "HFO",
+   "nwr": [
+    {
+     "call": "WWF39",
+     "freq": "162.450",
+     "same": "015003"
+    },
+    {
+     "call": "WWG75",
+     "freq": "162.400",
+     "same": "015003"
+    },
+    {
+     "call": "KBA99",
+     "freq": "162.550",
+     "same": "015003"
+    }
+   ],
+   "state_em": "Hawaii Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 2,
+    "flood": 3,
+    "wildfire": 3,
+    "earthquake": 3,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 3,
+    "landslide": 3
+   },
+   "sun_hours_dec": 5.3,
+   "sun_hours_jun": 6.6
+  },
+  "Kalawao County": {
+   "fips": "15005",
+   "centroid": [
+    21.2188,
+    -156.974
+   ],
+   "latitude": 21.2,
+   "bbox": null,
+   "coastal": true,
+   "elevation_ft": 0,
+   "zone": "12b",
+   "jan_low_f": 64,
+   "jul_high_f": 86,
+   "record_low_f": 46,
+   "record_high_f": 94,
+   "precip_in": 21.7,
+   "snow_in": 0,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 365,
+   "ecoregion": "Hawaiian Islands (not mapped at EPA Level III)",
+   "ecoregion_code": "HI",
+   "nws_office": "Honolulu, HI",
+   "nws_cwa": "HFO",
+   "nwr": [],
+   "state_em": "Hawaii Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 1,
+    "wildfire": 1,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 1,
+    "landslide": 1
+   },
+   "sun_hours_dec": 5.1,
+   "sun_hours_jun": 6.5
+  },
+  "Kauai County": {
+   "fips": "15007",
+   "centroid": [
+    22.012,
+    -159.706
+   ],
+   "latitude": 22.0,
+   "bbox": [
+    -160.2474,
+    21.7764,
+    -159.2927,
+    22.2329
+   ],
+   "coastal": true,
+   "elevation_ft": 830,
+   "zone": "12a",
+   "jan_low_f": 62,
+   "jul_high_f": 87,
+   "record_low_f": 43,
+   "record_high_f": 97,
+   "precip_in": 17.8,
+   "snow_in": 0,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 365,
+   "ecoregion": "Hawaiian Islands (not mapped at EPA Level III)",
+   "ecoregion_code": "HI",
+   "nws_office": "Honolulu, HI",
+   "nws_cwa": "HFO",
+   "nwr": [
+    {
+     "call": "WWG74",
+     "freq": "162.400",
+     "same": "015007"
+    },
+    {
+     "call": "WZ2557",
+     "freq": "162.450",
+     "same": "015007"
+    }
+   ],
+   "state_em": "Hawaii Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 2,
+    "wildfire": 2,
+    "earthquake": 1,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 1,
+    "tsunami": 2,
+    "landslide": 2
+   },
+   "sun_hours_dec": 5.0,
+   "sun_hours_jun": 6.5
+  },
+  "Maui County": {
+   "fips": "15009",
+   "centroid": [
+    20.8559,
+    -156.6016
+   ],
+   "latitude": 20.9,
+   "bbox": [
+    -157.3112,
+    20.5005,
+    -155.9793,
+    21.2242
+   ],
+   "coastal": true,
+   "elevation_ft": 2760,
+   "zone": "11a",
+   "jan_low_f": 51,
+   "jul_high_f": 74,
+   "record_low_f": 38,
+   "record_high_f": 91,
+   "precip_in": 31.0,
+   "snow_in": 0,
+   "last_frost": "None in most years",
+   "first_frost": "None in most years",
+   "growing_days": 365,
+   "ecoregion": "Hawaiian Islands (not mapped at EPA Level III)",
+   "ecoregion_code": "HI",
+   "nws_office": "Honolulu, HI",
+   "nws_cwa": "HFO",
+   "nwr": [
+    {
+     "call": "WWG75",
+     "freq": "162.400",
+     "same": "015009"
+    }
+   ],
+   "state_em": "Hawaii Emergency Management Agency",
+   "hazards": {
+    "tornado": 1,
+    "blizzard": 1,
+    "ice_storm": 1,
+    "flood": 3,
+    "wildfire": 2,
+    "earthquake": 2,
+    "hurricane": 1,
+    "extreme_heat": 1,
+    "extreme_cold": 1,
+    "drought": 1,
+    "volcano": 3,
+    "tsunami": 3,
+    "landslide": 1
+   },
+   "sun_hours_dec": 5.3,
+   "sun_hours_jun": 6.4
+  }
+ }
+}

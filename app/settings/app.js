@@ -175,7 +175,7 @@ function render() {
   const s = STEPS[app.step];
   main.append(stepNav());
   if (app.step === FINAL) { renderFinal(); return; }
-  main.append(
+  main.append(...[
     h('h1', { id: 'step-title', tabindex: '-1' }, s.title),
     config.dryRun ? h('p', { class: 'warn' }, 'Dry run (test mode): your key is checked by a stand-in and nothing is sent anywhere.') : null,
     noticeBlock(NOTICE.neverStored, { collapsedTail: app.step !== 0, cls: 'never-stored' }),
@@ -187,7 +187,7 @@ function render() {
     h('div', { class: 'bottomnav' },
       h('button', { type: 'button', class: 'btn ghost', id: 'back-btn', disabled: app.step === 0 || undefined, onclick: () => goto(app.step - 1) }, 'Back'),
       h('button', { type: 'button', class: 'btn primary', id: 'next-btn', onclick: next },
-        app.step === STEPS.length - 1 ? 'Review and make my binder' : 'Next')));
+        app.step === STEPS.length - 1 ? 'Review and finish' : 'Next'))].filter(Boolean));
   refreshErrors();
 }
 
