@@ -67,3 +67,7 @@ Collected from worker reports; resolved in the integration pass.
 - [x] C10: context adds members ham_callsign, gear.firearms.platforms, has.suppressor, destination nwr list, region.home.nearby_same (A3 to implement; D1 to supply adjacency).
 - [ ] C10: owner question: does keeping one loaded firearm in a quick-access lockbox need its own decision card? (Currently covered by the child-access floor and 14-14.)
 - [ ] C10: sources for the current NFA tax amount and pepper-spray legality (pre-collapse notes).
+- [x] C02: members[].meds checked: renders correctly (elder's rows print; members with no meds print a fill-in blank). Not a bug.
+- [ ] C02: merge duplicate source keys: usda-phzm-2023 vs usda-ars-plant-hardiness-zone-map; the two FSIS food-dating keys.
+- [ ] C02: tourniquet "conversion" line omitted on the bleeding card (conflicts with the never-loosen floor) — consistent with C09; owner question.
+- [ ] C02: missing slots requested (spare tire and towing limits, epinephrine locations, kit-check dates, route-county map list).
