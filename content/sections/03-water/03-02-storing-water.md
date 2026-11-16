@@ -86,7 +86,7 @@ the CDC bleach dose (→ 03-04) before you store it.{{/if}}
 | Option | Gallons | Good | Bad |
 |---|---|---|---|
 | Bottled water, sealed | varies | Safest, no preparation, portable | Costs most per gallon; bulky |
-| 5 to 7 gal jugs | 5 to 7 | Can be moved when full, stack, good for leaving home | Modest volume; about 50 lb each |
+| 5 to 7 gal jugs | 5 to 7 | Can be moved when full, stack, good for leaving home | Modest volume; about 40 to 60 lb each full |
 | 55-gal food-grade drum | 55 | Cheapest per gallon; two weeks in one container | About 460 lb full: it never moves again; needs a pump |
 | Bathtub bladder | about 100 | Huge and cheap | Only works if filled **before** the water stops |
 | Clean 2-liter soda bottles | 0.5 | Free, tough, good for freezing and for children to carry | Work to fill and rotate |
@@ -145,11 +145,14 @@ bottom, refill before the heat goes back on).
    SCALDING.** Wear gloves and long sleeves and keep children out of the room. If you can, let
    the tank cool for hours first, or run the first water into a lidded bucket and walk away
    from it.
-5. **The first gallon or two carries sediment** (sand and scale from the bottom of the tank).
+5. **The first water out carries sediment** (sand and scale from the bottom of the tank).
    Let it settle, pour off the clear water and throw away the sludge. If the tank has sat for
    weeks, treat the water before drinking (→ 03-04).
 6. **Do not turn the heat back on until the tank is full again:** inlet valve open, hot tap
-   running steadily with no air. A heater fired empty burns out.
+   running steadily with no air. A heater fired empty burns out. On a gas heater, turning it
+   back on means relighting the pilot by the lighting label on the heater. FEMA says a
+   professional is needed to turn gas back on once it has been shut off; whether you relight
+   it yourself when nobody can come is a household decision: {{choice DC-28}} (→ 30-29).
 
 Every other page that says "drain the water heater" means this procedure.
 
@@ -189,7 +192,7 @@ Every other page that says "drain the water heater" means this procedure.
 
 - **A (sheltering at home):** fill the bladder and every container the moment a warning is
   issued, before pressure is lost.
-- **B (moving):** only jugs and bottles travel. Water weighs 8.3 lb a gallon; carry one to two
+- **B (moving):** only jugs and bottles travel. Water weighs about 8.34 lb a gallon; carry one to two
   days and a way to treat more, not a week.
 - **C (rural or at a destination):** set up storage at once (a cistern, drums or barrels) so
   you are not hauling water every day. The same cleaning rules apply to anything you press

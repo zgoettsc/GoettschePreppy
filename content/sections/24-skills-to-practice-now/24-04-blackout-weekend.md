@@ -2,7 +2,7 @@
 id: 24-04-blackout-weekend
 section: 24-skills-to-practice-now
 title: "Running a blackout weekend"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -114,7 +114,7 @@ thinks it is the best night of the year{{/if}}.
 
 **Friday evening to Saturday evening.** One full night and three meals.
 *What it usually finds:* charging is the bottleneck, water is heavier than you think, cooking
-takes three times as long, and nobody planned lunch.
+takes far longer, and nobody planned lunch.
 
 ## Level 3: a full weekend, water off too
 

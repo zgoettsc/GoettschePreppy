@@ -26,6 +26,7 @@ sources:
   - niosh-npg-gasoline-r3
   - niosh-npg-propane-r3
   - medlineplus-us-national-library-of-medicine-nih-pois-665b85
+  - cdc-atsdr-medical-management-guidelines-for-calcium-d7733b
 related:
   - 03-04-purifying-water
   - 03-08-keeping-water-from-going-bad
@@ -278,7 +279,7 @@ vehicle: keep its fuel clearly apart from gasoline.{{/if}}
 
 | Keep apart | Why |
 |---|---|
-| Fuels and **pool shock (calcium hypochlorite)** | A strong oxidiser plus petroleum is a fire and explosion risk (→ 29-05) |
+| Fuels and **pool shock (calcium hypochlorite)** | An oxidiser: with combustible material it can start a fire or react explosively (CDC/ATSDR, Calcium Hypochlorite; → 29-05) |
 | Fuels and anything that lights: water heater, furnace, garage heater, electrical panel, engines | Vapour travels to the flame or spark |
 | **Kerosene and gasoline** | One wrong pour puts gasoline in a heater: an explosion (→ 08-10) |
 | Fuels and living or sleeping space | Vapour, fire, carbon monoxide |

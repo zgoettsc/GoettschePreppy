@@ -2,7 +2,7 @@
 id: 24-03-seasonal-practice-plan
 section: 24-skills-to-practice-now
 title: "Seasonal practice plan"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: none
@@ -169,8 +169,8 @@ strongest single reason to start the wood cycle now (→ 23-04).
 Full detail is on → 25-01, built from your zone ({{ region.home.zone }}) and frost dates. The
 rhythm in most of the country:
 - **Midwinter:** order seed; start onions and slow crops indoors.
-- **6 to 10 weeks before the last frost:** start warm-season transplants indoors; sow cool
-  crops outside as soon as the soil can be worked, **before** the last frost.
+- **Some weeks before the last frost** (the seed packet gives the number for each crop): start
+  warm-season transplants indoors; sow cool crops outside as soon as the soil can be worked, **before** the last frost.
 - **After the last frost** ({{ region.home.last_frost }}): warm-season transplants go out.
 - **Summer:** sow in succession, water, preserve as things come in.
 - **Late summer:** save seed; plant garlic and cover crops; last plantings under cover.

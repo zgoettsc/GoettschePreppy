@@ -2,7 +2,7 @@
 id: 24-01-skills-checklist
 section: 24-skills-to-practice-now
 title: "Skills checklist and practice schedule"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -77,14 +77,15 @@ cites.
 
 ### How fast skills fade, and how often to practise
 
-| Fades | Skills | Practise again |
+| Fades | Skills | Practise again (our suggestion) |
 |---|---|---|
 | **Fast** | Anything done under stress: bleeding control, epinephrine, the grab-and-go, medical device fallbacks | **Every 3 to 6 months** |
 | **Medium** | Fire in bad weather, cooking on coals, map and compass, radio, sharpening | **Every year** |
 | **Slow** | Gardening, canning, sewing, soap, butchering | **Each season it applies** |
 | **Hardly** | Knots, knowing the plan | At the yearly review (→ 25-10) |
 
-**The fast list is also the life-safety list.** That is why → 24-02 exists.
+The intervals are this binder's suggestion, not a published standard; a course you take may set its
+own. **The fast list is also the life-safety list.** That is why → 24-02 exists.
 
 ## The checklist
 
@@ -226,7 +227,7 @@ for your household still matter; they are just not first.
 
 | ★ | Skill | A1 | A2 | A3 | Last done | Page |
 |---|---|---|---|---|---|---|
-| {{#if has.child}}★{{/if}} | **Every child knows the plan** at their level{{#if has.child}} ({{#each children as c}}{{c.label}}, {{c.age_text}}; {{/each}}){{/if}}. Which jobs each child may do: {{choice DC-24}} → 30-25 | | | | | → 20-04 |
+| {{#if has.child}}★{{/if}} | **Every child knows the plan** at their level{{#if has.child}}: {{#each children as c}}{{c.label}} ({{c.age_text}}). {{/each}}{{else}}. {{/if}}Which jobs each child may do: {{choice DC-24}} → 30-25 | | | | | → 20-04 |
 | ★ | **Complete the inventory** and work out the runways | | | | | → 22-04, → 23-02 |
 | {{#if has.child}}★{{/if}} | Run a school day with no screens | | | | | → 20-03 |
 | | Keep the routine through a blackout weekend | | | | | → 24-04, → 21-04 |
