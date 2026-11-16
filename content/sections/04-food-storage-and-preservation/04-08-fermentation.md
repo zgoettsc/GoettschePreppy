@@ -13,7 +13,7 @@ sources:
   - national-center-for-home-food-preservation-nchfp-fer-fa6335
   - usda-nchfp-usda-complete-guide-to-home-canning-2015-76e0fa
   - national-center-for-home-food-preservation-nchfp-gen-c43991
-  - iowa-state-extension-storing-winter-storage-vegetables
+  - wsu-extension-storing-your-garden-harvest-2019-r12
 related: [04-04-canning-water-bath, 04-05-canning-pressure, 04-06-dehydrating, 04-09-winter-cold-storage, 04-13-salt-sugar-vinegar, 04-16-sprouting, 05-01-a-small-high-yield-garden, 06-04-wood-supply-and-depletion, 08-01-heating-one-room, 02-04-cl04-food-allergy, 29-08-ex08-canning-words]
 cards: []
 explainers: [EX-08]
@@ -94,20 +94,20 @@ fermented food needs its own tested recipe (→ 04-04).
 ## Root cellaring: storage that costs nothing
 
 Many crops keep raw for months, with **no processing at all,** in the right conditions. The
-temperatures below are Iowa State University Extension's (Storing Winter Storage Vegetables,
-reviewed 2025); rows without a number keep the general rule.
+four storage groups below are Washington State University Extension's (Storing Your Garden
+Harvest, 2019).
 
 | Crop | Wants | Keeps |
 |---|---|---|
-| **Potatoes** | 40 °F, dark, humid; **never next to apples** | Months |
-| **Carrots, beets, turnips** | Just above freezing (32 to 35 °F), very humid: pack in damp sand | Beets 1 to 3 months; carrots and turnips longer |
-| **Cabbage** | Cold, humid | Months (and it smells) |
-| **Onions, garlic** | Cold (32 to 40 °F), **dry,** airy | Months |
-| **Winter squash, pumpkins** | Cool (50 to 55 °F), **dry**; away from ripening fruit | Weeks (acorn) to months (butternut, Hubbard) |
-| **Apples** | Cold, humid, **away from potatoes** | Months |
+| **Potatoes, cabbage, apples** | Cold and moist: 32 to 40 °F, 80 to 90 percent humidity, dark; **apples kept apart from the vegetables** | Months |
+| **Carrots, beets, turnips, parsnips** | Cold and very moist: 32 to 40 °F, 90 to 95 percent humidity: pack in damp sand | Months |
+| **Onions, garlic** | Cold and **dry:** 32 to 50 °F, 60 to 70 percent humidity, airy | Months |
+| **Winter squash, pumpkins** | Cool and **dry:** 50 to 60 °F, 60 to 70 percent humidity | Months |
 
-**Two rules:** **apples and other ripening fruit give off ethylene gas,** which makes potatoes
-sprout and shortens squash storage; keep them apart (Iowa State University Extension).
+Potatoes are the fussiest: check them often (WSU).
+
+**Two rules:** **apples, pears and tomatoes give off ethylene gas,** which ages other crops
+faster; keep them away from cabbage, carrots, potatoes and onions (WSU Extension).
 And **onions and squash want dry air** while roots want humid air: two different corners.
 
 **Where to do it.** {{#if has.basement}}Your basement is the asset here.{{else}}Any unheated room,

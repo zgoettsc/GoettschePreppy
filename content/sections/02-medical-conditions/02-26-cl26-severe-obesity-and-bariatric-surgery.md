@@ -91,8 +91,8 @@ the wrong food. This module covers both, without judgement.
 ## 1. What it is
 
 **Severe obesity** is a level of body weight high enough to affect health and daily function. It
-often comes with type 2 diabetes, high blood pressure, sleep apnoea and joint pain (NIDDK,
-Bariatric Surgery). **Bariatric surgery** makes the stomach smaller and, in some operations,
+often comes with health problems such as type 2 diabetes, high blood pressure and sleep apnoea
+(NIDDK, Bariatric Surgery). **Bariatric surgery** makes the stomach smaller and, in some operations,
 bypasses part of the small intestine. The common operations are the **sleeve gastrectomy**, the
 **gastric bypass**, the **adjustable band**, and the **duodenal switch** (NIDDK, Bariatric
 Surgery). After surgery a person eats small amounts, needs protein first, and takes vitamins and

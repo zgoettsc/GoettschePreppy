@@ -1,0 +1,112 @@
+[
+  {
+    "key": "niddk-low-blood-glucose-hypoglycemia-r10",
+    "title": "Low Blood Glucose (Hypoglycemia)",
+    "org": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK), NIH",
+    "date": "2021-07",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work. Read by R10 on 2026-11-16 (last reviewed July 2021): low is usually below 70 mg/dL; two types of diabetes pills can cause lows (sulfonylureas, meglitinides); skipped or delayed meals, alcohol, illness and more physical activity than usual lower glucose, activity for up to 24 hours afterwards; treat with 15 to 20 g, wait 15 minutes, recheck; with medicines that slow carbohydrate digestion use glucose tablets or gel; glucagon by injection or nasal spray for severe lows.",
+    "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/low-blood-glucose-hypoglycemia",
+    "household_cited_by": [],
+    "cited_by": ["02-01-cl01-type-1-diabetes-injections", "02-05-cl05-type-2-diabetes", "02-06-cl06-type-2-diabetes-on-insulin"]
+  },
+  {
+    "key": "cdc-diabetes-symptoms-r10",
+    "title": "Diabetes Symptoms",
+    "org": "CDC",
+    "date": "2026-11-16",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work. Read by R10 on 2026-11-16 through the web fetcher (cdc.gov refuses curl): frequent urination, thirst and hunger, weight loss, fatigue, irritability, blurry vision, frequent urinary tract or yeast infections; numbness or tingling in hands or feet listed among symptoms more common in type 2.",
+    "url": "https://www.cdc.gov/diabetes/signs-symptoms/index.html",
+    "household_cited_by": [],
+    "cited_by": ["02-05-cl05-type-2-diabetes"]
+  },
+  {
+    "key": "nhlbi-asthma-action-plan-2020-r10",
+    "title": "Asthma Action Plan (2020, sample plan)",
+    "org": "National Heart, Lung, and Blood Institute (NHLBI), NIH",
+    "date": "2020",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work. Read by R10 on 2026-11-16 (PDF): green zone (no cough, wheeze, chest tightness or shortness of breath, day or night; usual activities); yellow zone (cough, wheeze, chest tightness or shortness of breath, or waking at night, or some but not all usual activities); red zone (very short of breath, quick-relief medicines have not helped, cannot do usual activities, or same or worse after 24 hours in yellow); danger signs (trouble walking and talking due to shortness of breath; lips or fingernails blue): go to the hospital or call an ambulance now.",
+    "url": "https://www.nhlbi.nih.gov/sites/default/files/publications/Asthma-Action-Plan-2020_rev_508.pdf",
+    "household_cited_by": [],
+    "cited_by": ["02-07-cl07-asthma"]
+  },
+  {
+    "key": "nhlbi-asthma-attack-r10",
+    "title": "Asthma Attack",
+    "org": "National Heart, Lung, and Blood Institute (NHLBI), NIH",
+    "date": "2024-04-17",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work. Read by R10 on 2026-11-16: call 9-1-1 if medicines are not relieving symptoms during an attack or breathing is still very hard; for young children call 9-1-1 if drowsy, confused, blue tint to skin and lips, or fast heartbeat.",
+    "url": "https://www.nhlbi.nih.gov/health/asthma/attacks",
+    "household_cited_by": [],
+    "cited_by": ["02-07-cl07-asthma"]
+  },
+  {
+    "key": "usfa-oxygen-tank-safety-r10",
+    "title": "Pictograph: Oxygen Tank Safety",
+    "org": "US Fire Administration (FEMA)",
+    "date": "2026-11-16",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work. Read by R10 on 2026-11-16: keep oxygen tanks at least 5 feet from a heat source, open flames or electrical devices; never use a candle, match, lighter or other open flame near medical oxygen. Replaces the unreadable NFPA tip sheet (nfpa.org returned 500/404) for the 5-ft rule.",
+    "url": "https://www.usfa.fema.gov/gallery/pictographs/pictograph45.html",
+    "household_cited_by": [],
+    "cited_by": ["02-08-cl08-copd-and-oxygen"]
+  },
+  {
+    "key": "american-lung-association-using-oxygen-safely-r10",
+    "title": "Oxygen Therapy: Using Oxygen Safely",
+    "org": "American Lung Association",
+    "date": "2026-11-16",
+    "licence_class": "restricted",
+    "licence_note": "Copyright American Lung Association. Read by R10 on 2026-11-16: oxygen is non-flammable but supports combustion; never change the prescribed flow rate; no smoking, No Smoking and No Open Flames signs; heat and flame at least five feet away; no oxygen while cooking with gas; no aerosols, vapor rubs, petroleum jelly or oil-based lotions; never oil the unit; liquid oxygen upright; not in a closet or trunk; turn off when not in use; concentrators several inches from walls and curtains.",
+    "url": "https://www.lung.org/lung-health-diseases/lung-procedures-and-tests/oxygen-therapy/using-oxygen-safely",
+    "household_cited_by": [],
+    "cited_by": ["02-08-cl08-copd-and-oxygen"]
+  },
+  {
+    "key": "medlineplus-gestational-age-r10",
+    "title": "Gestational age",
+    "org": "MedlinePlus, US National Library of Medicine (A.D.A.M.)",
+    "date": "2025-10-01",
+    "licence_class": "restricted",
+    "licence_note": "A.D.A.M. encyclopedia content on MedlinePlus (copyrighted). Read by R10 on 2026-11-16: gestational age is measured in weeks from the first day of the last menstrual cycle; a normal pregnancy ranges from 38 to 42 weeks; born before 37 weeks is premature.",
+    "url": "https://medlineplus.gov/ency/article/002367.htm",
+    "household_cited_by": [],
+    "cited_by": ["02-12-cl12-pregnancy-birth-and-postpartum"]
+  },
+  {
+    "key": "usda-hhs-dietary-guidelines-2020-2025-pdf-r10",
+    "title": "Dietary Guidelines for Americans, 2020-2025 (9th edition, full text)",
+    "org": "US Department of Agriculture and US Department of Health and Human Services",
+    "date": "2020-12",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work. Read by R10 on 2026-11-16 (PDF), chapter 6 table of estimated calorie needs compared to prepregnancy needs: lactation first 6 months +330 calories, second 6 months +400 calories (pregnancy 2nd trimester +340, 3rd +452). The older index key usda-hhs-dietary-guidelines-for-americans-2020-2025-4b2013 now points at the dietaryguidelines.gov landing page, which announces the newer edition.",
+    "url": "https://www.dietaryguidelines.gov/sites/default/files/2020-12/Dietary_Guidelines_for_Americans_2020-2025.pdf",
+    "household_cited_by": [],
+    "cited_by": ["02-12-cl12-pregnancy-birth-and-postpartum", "02-13-cl13-infant-feeding"]
+  },
+  {
+    "key": "cdc-clean-sanitize-store-infant-feeding-items-r10",
+    "title": "How to Clean, Sanitize, and Store Infant Feeding Items",
+    "org": "CDC",
+    "date": "2025-03-19",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work. Read by R10 on 2026-11-16 through the web fetcher: clean basin used only for infant feeding items, hot soapy water, air dry thoroughly; sanitize daily (or more often) if the baby is less than 2 months old, born prematurely, or has a weakened immune system; boil method 5 minutes, remove with clean tongs; do not rinse after sanitizing. The index key cdc-cleaning-infant-feeding-items points at a URL that now returns 404.",
+    "url": "https://www.cdc.gov/hygiene/about/clean-sanitize-store-infant-feeding-items.html",
+    "household_cited_by": [],
+    "cited_by": ["02-13-cl13-infant-feeding"]
+  },
+  {
+    "key": "cdc-cows-milk-and-milk-alternatives-r10",
+    "title": "Cow's Milk and Milk Alternatives",
+    "org": "CDC, Infant and Toddler Nutrition",
+    "date": "2026-11-16",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work. Read by R10 on 2026-11-16 through the web fetcher: whole cow's milk can be introduced at 12 months (but not before); 12 through 23 months, about 2 servings of dairy a day, unflavored, unsweetened whole milk is one option; fortified dairy alternatives are the only milk alternatives that help meet dairy needs, not before 12 months, discuss with the child's doctor.",
+    "url": "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/cows-milk-and-milk-alternatives.html",
+    "household_cited_by": [],
+    "cited_by": ["02-13-cl13-infant-feeding"]
+  }
+]
