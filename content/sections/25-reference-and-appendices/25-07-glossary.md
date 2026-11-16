@@ -155,7 +155,7 @@ definitions orient you; the page in the last column does the work. The explainer
 | **The seal** | The lid pulled down by vacuum as a jar cools; an unsealed jar is refrigerated or reprocessed | → 29-08 |
 | **Curing / fermentation** | Preserving with salt (and sometimes nitrite) / with helpful microbes that make acid | → 04-07, → 04-08 |
 | **Oxygen absorber / mylar** | A sachet that removes oxygen / a metallised bag that keeps it out; together they make dry food keep for years | → 04-03 |
-| **"Best if used by", "Sell by", "Use by"** | Quality dates, mostly, not safety dates; "Use by" on infant formula is a safety date | → 29-14 |
+| **"Best if used by", "Sell by", "Use by"** | Quality and display dates, not safety dates. Infant formula is the exception: its date is required by federal law, and it is followed | → 29-14 |
 | **Open-pollinated (heirloom) / hybrid (F1)** | Seed that comes true when saved / seed from a cross that does not | → 05-03 |
 | **Frost date** | The median date of the last spring or first fall frost; half of years are worse | → 25-01 |
 | **Hardiness zone** | The USDA zone for a place's average coldest winter night; tells which perennials survive | → 25-01 |
