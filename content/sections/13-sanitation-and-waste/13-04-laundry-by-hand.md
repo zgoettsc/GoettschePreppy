@@ -22,7 +22,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Spot-checked (no figures needing a source); no change." }
 ---
 
 # Laundry without power

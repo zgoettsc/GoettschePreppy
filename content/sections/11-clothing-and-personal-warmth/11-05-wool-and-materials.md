@@ -2,7 +2,7 @@
 id: 11-05-wool-and-materials
 section: 11-clothing-and-personal-warmth
 title: "Materials: wool, synthetics and what fails"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -13,8 +13,7 @@ sources:
   - osha-cold-stress-protecting-workers-in-cold-environm-56bc81
   - cdc-preventing-hypothermia-c53e0c
   - noaa-national-weather-service-during-extremely-cold-9c1973
-  - osha-chain-saw-safety-protective-equipment-for-chain-a71d7d
-  - osha-logging-etool-chain-saw-manual-operations-and-p-19dacc
+  - osha-logging-operations-29-cfr-1910-266-r3
 related:
   - 11-01-cold-weather-layering
   - 11-02-keeping-kids-warm
@@ -46,7 +45,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Chain-saw PPE re-sourced to 29 CFR 1910.266 (eTool archive empty, OSHA 3269 blocked); cotton claim restated as CDC publishes it." }
 ---
 
 # Materials: wool, synthetics and what fails
@@ -55,9 +54,10 @@ review_pass: null
 unlabelled fabric by a burn test, what to wear for saw and wood work, and how to make materials last.
 
 > **CAUTION. Two material facts matter more than any brand.**
-> **(1) Cotton is dangerous in the cold.** Wet cotton loses nearly all its insulation and holds water
-> against your skin. OSHA and CDC guidance is to avoid it in cold and to get out of wet clothing
-> (OSHA, Cold Stress; CDC, Preventing Hypothermia). Not in base layers, not in socks, not in the
+> **(1) Cotton is dangerous in the cold.** Wet cotton loses most of its insulation and holds water
+> against your skin, and being wet can bring on hypothermia even above 40 °F (CDC, Preventing
+> Hypothermia). OSHA and CDC guidance is to dress properly for cold and wet and to get out of wet
+> clothing (OSHA, Cold Stress; CDC). Not in base layers, not in socks, not in the
 > winter kit.
 > **(2) Synthetics melt.** Fleece, nylon and polyester near an open flame or a hot stove **melt onto
 > skin** and cause burns far worse than a fabric that just chars. **Wear wool, not fleece, around
@@ -154,8 +154,9 @@ wool; keep it.**
 
 Wood heat usually means a chainsaw (→ 06-04, → 16-06). With an emergency room, saw protection is
 sensible; without one, a chainsaw cut to the leg can be a barely survivable wound (→ 12-02). OSHA's
-chain-saw guidance covers leg, eye and face, hearing, hand and foot protection (OSHA, Chain Saw Safety;
-OSHA, Logging eTool):
+logging standard requires chain-saw operators to wear cut-resistant leg protection from the thigh to
+the top of the boot and cut-resistant foot protection, with head, eye and face protection where
+objects can fall or fly (OSHA, Logging Operations, 29 CFR 1910.266). The household list, with hearing added:
 
 - **Chainsaw chaps or cut-resistant trousers.** The thigh is where saws land. Cut-resistant fibres pull
   out and jam the chain. Check the label for the cut-resistance standard. Wear them for **every** cut,

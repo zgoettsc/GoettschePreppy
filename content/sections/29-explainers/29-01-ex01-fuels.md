@@ -2,14 +2,14 @@
 id: 29-01-ex01-fuels
 section: 29-explainers
 title: "Fuels: gasoline, diesel, kerosene, propane, butane, white gas, lamp oil, wood, charcoal"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: explainer
 danger_level: critical
 phase: [A, B, C]
 tags: [fuel, gasoline, diesel, kerosene, propane, butane, white gas, lamp oil, wood, charcoal, explainer, carbon monoxide]
 derived_from: [06-05-alternative-fuels, 06-06-fuel-storage-safety, 06-07-moving-and-transferring-fuel, 10-02-fuel-lamps-and-candles, 08-02-carbon-monoxide-safety]
-sources: [eia-gasoline-explained, eia-diesel-fuel-explained, eia-heating-oil-explained, eia-hydrocarbon-gas-liquids-explained, honda-eu-generator-fuel-recommendations, cdc-carbon-monoxide-poisoning-basics-772153, university-of-missouri-extension-unvented-portable-k-e850fe, nfpa-nfpa-58-liquefied-petroleum-gas-code-storage-of-13af35, us-consumer-product-safety-commission-cpsc-promotes-994cab, osha-flammable-liquids-29-cfr-1910-106-1e7192, fema-ready-gov-utility-shut-off-and-safety-natural-g-7965ad, cdc-mmwr-hydrocarbon-kerosene-lamp-oil-ingestion-in-106f3a, national-capital-poison-center-poison-control-1-800-e428c9, us-epa-burn-wise-heating-with-wood-safe-operation-se-ba0e76]
+sources: [eia-gasoline-explained, eia-diesel-fuel-explained, eia-heating-oil-explained, eia-hydrocarbon-gas-liquids-explained, honda-eu-generator-fuel-recommendations, cdc-carbon-monoxide-poisoning-basics-772153, university-of-missouri-extension-unvented-portable-k-e850fe, nfpa-nfpa-58-liquefied-petroleum-gas-code-storage-of-13af35, us-consumer-product-safety-commission-cpsc-promotes-994cab, osha-flammable-liquids-29-cfr-1910-106-1e7192, fema-ready-gov-utility-shut-off-and-safety-natural-g-7965ad, cdc-mmwr-hydrocarbon-kerosene-lamp-oil-ingestion-in-106f3a, national-capital-poison-center-poison-control-1-800-e428c9, us-epa-burn-wise-heating-with-wood-safe-operation-se-ba0e76, epa-burn-wise-tips-r8, ysn-flame-king-manufacturer-training-program-1a-fill-a69318]
 related: [06-05-alternative-fuels, 06-06-fuel-storage-safety, 06-07-moving-and-transferring-fuel, 06-08-fuel-transport, 08-02-carbon-monoxide-safety, 08-09-portable-propane-heaters, 08-10-wick-kerosene-heaters, 10-02-fuel-lamps-and-candles, 12-17-poisoning-and-ingestion, 29-03-ex03-carbon-monoxide, 29-14-ex14-reading-a-label, 30-01-the-floors]
 cards: [DC-01, DC-02, DC-03, DC-05, DC-06, DC-17, DC-20, DC-21]
 explainers: [EX-03, EX-14]
@@ -22,7 +22,7 @@ condition: null
 gear: null
 explainer: EX-01
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "EIA 10 % ethanol, 15 ppm ULSD, red dye; Honda stabiliser facts (months, not years) re-read; wood 6 months now cites the EPA tip sheet read; 1-lb indoor limit tied to a read source; consistent with 06-03, 08-09." }
 ---
 
 # Fuels, explained from the beginning
@@ -62,7 +62,7 @@ used indoors and why, and how to tell them apart.
 | **Butane** | A close relative of propane, also stored as a liquid under pressure (EIA) | Small canister stoves, lighters | Small thin metal canisters | Printed canister |
 | **White gas** ("camp fuel") | A very volatile refined petroleum liquid, as dangerous to store as gasoline | Liquid-fuel camp stoves and pressurised lanterns | Clear, solvent smell; sold in metal cans labelled camp fuel | Printed metal can |
 | **Lamp oil** | Refined liquid paraffin for oil lamps. "Tiki" or citronella oil is a different product, outdoor only | Oil lamps made for it; K-1 kerosene also burns in flat-wick kerosene lamps | Clear or coloured; often sold in bottles that look like drinks | Plastic bottle |
-| **Wood** | Logs, split and dried ("seasoned") | Fireplaces, wood stoves, outdoor fires | Seasoned wood is lighter, cracked at the ends, and sounds hollow when two pieces are knocked together (EPA, Burn Wise) | — |
+| **Wood** | Logs, split and dried ("seasoned") | Fireplaces, wood stoves, outdoor fires | Seasoned wood is lighter, cracked at the ends, and sounds hollow when two pieces are knocked together | — |
 | **Charcoal** | Wood already partly burned, sold as lumps or briquettes | Outdoor grills only | Black, light, dusty | Paper bag |
 
 **Colours are a habit, not a guarantee.** Red for gasoline, yellow for diesel and blue for
@@ -80,11 +80,11 @@ into anything until you know what is in it. → 29-14
 | **Gasoline** | Months, not years. Air and heat age it; ethanol pulls water from the air; stabiliser slows ageing but cannot fix stale fuel and has its own shelf life (Honda Power Equipment, Fuel Recommendations) | **Never.** Not in a heater, a lamp or a stove | Too volatile. In a kerosene heater it is an explosion. Engines that burn it make lethal CO (floor above) |
 | **Diesel** | Ages too: water collects at the bottom of a tank and it thickens in hard cold. Follow your additive's label | **Only** in a heater whose exhaust is ducted outdoors, installed as its manual says | Burning it in the room puts the exhaust in the room |
 | **Kerosene** | Keeps longer than gasoline when full, sealed and dark, but water creeps in. Before use, a sample in a clear jar must be clear, with no water layer and no cloudiness. How old is too old is a choice → 30-18 | **Only** K-1, only in a heater or lamp made for indoor use, with the ventilation its manual requires and a CO alarm | Unvented heaters put all their exhaust into the room. Overnight use is a choice → 30-02 |
-| **Propane** | Does not go stale in a sealed cylinder; the cylinder itself has a date (→ 29-14) | **Only** appliances rated for indoor use. NFPA 58 limits cylinders inside a home to the 1-lb class | A leaking valve lays heavy gas along the floor where a pilot light can light it. Larger cylinders inside → 30-03 |
+| **Propane** | Does not go stale in a sealed cylinder; the cylinder itself has a date (→ 29-14) | **Only** appliances rated for indoor use. The propane code (NFPA 58) allows only 1-lb cylinders to be kept inside a home, two at most (Flame King filling training, citing NFPA 58) | A leaking valve lays heavy gas along the floor where a pilot light can light it. Larger cylinders inside → 30-03 |
 | **Butane** | Keeps sealed; check the canister | **No.** CDC: never use a portable camp stove indoors | Fails in freezing weather because it stops turning to gas |
 | **White gas** | Keeps sealed | **No** | Same reasons as gasoline. Never in a wick lamp or kerosene heater |
 | **Lamp oil** | Keeps sealed | In a lamp made for it, in a ventilated room | A swallowed mouthful can enter the lungs. **Do not make the person vomit; call Poison Control, 1-800-222-1222** (CDC MMWR; Poison Control) → 12-17 |
-| **Wood** | Years if dry; must dry 6 months or more before it burns well (EPA, Burn Wise) | **Only** in an installed, vented fireplace or wood stove | The chimney carries the smoke and CO out. Never burn painted, treated or plywood scrap (EPA) |
+| **Wood** | Years if dry; split, covered and aged at least 6 months before it burns well (EPA, Burn Wise tips) | **Only** in an installed, vented fireplace or wood stove | The chimney carries the smoke and CO out. Never burn trash or treated wood (EPA) |
 | **Charcoal** | Years if dry | **Never.** Not in a fireplace, not "for a while" | Very high CO output (CDC). This is a floor |
 
 ## If the wrong fuel goes in

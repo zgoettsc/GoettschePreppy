@@ -2,7 +2,7 @@
 id: 05-17-wild-edibles-by-season
 section: 05-food-production-and-foraging
 title: "Wild edibles by season"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: region
 danger_level: critical
@@ -15,7 +15,6 @@ sources:
   - usda-ars-poisonous-plant-research-laboratory-water-h-ab9a68
   - cdc-water-hemlock-poisoning-maine-1992-mmwr-43-13-bf58c2
   - university-of-minnesota-extension-poison-and-water-h-680b86
-  - sdsu-extension-poisonous-plants-on-rangelands-hemloc-0c4ddd
 related: [05-06-foraging-and-deadly-look-alikes, 05-19-destination-foraging-and-hazards, 05-13-perennials-and-fruit, 05-07-hunting, 05-08-fishing-and-ice-fishing, 05-15-trapping-small-game, 04-04-canning-water-bath, 04-06-dehydrating, 04-18-meal-planning-scarcity, 30-01-the-floors, 30-19-dc18-unlabeled-food-and-allergies, 02-04-cl04-food-allergy, 20-09-pets, 25-04-maps]
 cards: [DC-18]
 explainers: []
@@ -27,7 +26,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Look-alike notes aligned with species.json (groundsel, spurge, buckthorn, pokeweed, Virginia creeper); hemlock attribution corrected; state-specific source dropped; plates pointers fixed" }
 ---
 
 # Wild edibles by season
@@ -38,9 +37,9 @@ Read → 05-06 before you pick anything.
 
 > **SAFETY.** **No wild plant or mushroom is eaten on a "test"; identification or nothing.**
 > The deadly ones are not detectable by taste tests and the dose is small (→ 30-01). **Water
-> hemlock, regarded as the most violently poisonous plant in North America, where a 2 to 3 cm
-> piece of root can kill an adult (CDC MMWR, 1994), grows in wet ditches and low meadows in every
-> region, and comes up in spring looking like a carrot-family green.** **Mushrooms are
+> hemlock, the most violently toxic plant in North America (USDA ARS), where a 2 to 3 cm piece of
+> root can kill an adult (CDC MMWR, 1994), grows in wet ditches and low meadows in every region,
+> and comes up in spring looking like a carrot-family green.** **Mushrooms are
 > deliberately left off this page**: deadly look-alikes exist and printed text is not an adequate
 > teacher.
 
@@ -87,16 +86,18 @@ plates and your field guide.
 Wild greens are tender and worth eating for a short window; most turn bitter and tough once the
 plant flowers.
 - **Dandelion:** young leaves before flowering, roots, flower buds. Lawns everywhere. The easiest
-  plant on this page.
+  plant on this page: one yellow flower on each hollow, leafless stalk. Groundsel, the look-alike,
+  has leafy, branching stems with many small flower heads (→ 05-06).
 - **Stinging nettle:** cooked only (cooking removes the sting). Moist edges, ditches, old
   farmsteads. Gloves.
 - **Lamb's quarters, purslane, plantain, violet, chickweed:** common yard and garden weeds into
   summer. **Lamb's quarters and amaranth build up nitrate and oxalate:** boil and throw out the
   water, eat them as part of a varied diet, skip plants from heavily manured or drought-stressed
-  ground, and use the household's rule for young children (→ 05-06).
+  ground, and use the household's rule for young children (→ 05-06). **Purslane** has clear
+  juice; spotted spurge, which grows in the same cracks, has milky sap and is not food.
 - **Wild onion and wild garlic:** **every bulb must smell of onion, checked with clean hands**;
-  death camas, lily-of-the-valley and false hellebore grow in similar places and are poisonous
-  (→ 05-06). Ramps grow only in parts of the East; a ramp look-alike in a shady yard is more
+  death camas, fly poison, star-of-Bethlehem and daffodil have onion-like bulbs, no onion smell,
+  and are poisonous (→ 05-06). Ramps grow only in parts of the East; a ramp look-alike in a shady yard is more
   likely lily-of-the-valley.
 - **This is peak hemlock season.** Young carrot-family plants (a lacy leaf, a hollow stem, a wet
   spot) are where people die. If you cannot identify it beyond doubt, walk away.
@@ -114,11 +115,14 @@ plant flowers.
 Almost everything worth preserving comes at once.
 - **Wild plum:** thickets on fence lines and field edges. Excellent dried, as sauce or leather.
 - **Chokecherry:** astringent raw; good cooked into syrup or jelly. **The pits contain
-  cyanide-forming compounds: never crush or grind them.**
-- **Elderberry:** **cook them**; raw berries and all green parts cause vomiting.
+  cyanide-forming compounds: never crush or grind them.** Chokecherries hang in long strings;
+  buckthorn berries, the look-alike, cluster tight against the twig.
+- **Elderberry:** **cook them**; raw berries and all green parts cause vomiting. Pokeweed, whose
+  berries hang in long strings on soft magenta stems, is poisonous (→ 05-06).
 - **Crabapple, wild and abandoned apple and pear:** cook or dry.
 - **Wild grape and muscadine:** **moonseed is the poisonous look-alike.** Grapes have tendrils
-  and several small seeds; moonseed has no tendrils and one crescent-shaped seed.
+  and several small seeds; moonseed has no tendrils and one crescent-shaped seed: cut a fruit and
+  look before eating any. Virginia creeper berries (five leaflets per leaf) are not grapes.
 - **Pawpaw** (eastern woods): eat only ripe flesh; skin and seeds cause stomach upset; try a
   small amount first.
 - **Sunflower, amaranth and lamb's-quarters seed:** real calories, tedious to process. **Rinse
@@ -159,9 +163,10 @@ Almost everything worth preserving comes at once.
 
 {{plates}}
 
-These are the plates for your home region ({{ region.home.ecoregion }},
-{{ region.home.state_name }}): the safe starters and their look-alikes. **The plates for every
-region in the US are in Section 32 (→ 32-00), with your home region first.**
+The plates in this section are the edible plants recorded for your home region ({{ region.home.ecoregion }},
+{{ region.home.state_name }}). Their deadly look-alikes are on → 05-06. **Every state's page in
+Section 32 lists its ecoregions (→ 32-00), and the national plate pages carry every plate in the
+binder: safe starters (→ 32-61) and deadly plants (→ 32-60).**
 
 ### The rules that keep you alive
 
@@ -172,8 +177,9 @@ region in the US are in Section 32 (→ 32-00), with your home region first.**
 3. **Never forage where you do not know the spray history.** Roadsides, rail lines, park edges,
    power-line corridors and lawns are often sprayed with weedkiller. Ditches collect road salt
    and runoff.
-4. **One new food at a time, a small amount, one person, wait a day**, even when the plant is
-   correctly identified: some people react to correctly identified wild plants.
+4. **One new food at a time, a small amount, one person, then wait and watch before eating
+   more**, even when the plant is correctly identified: some people react to correctly identified
+   wild plants.
 5. **Cook what must be cooked:** nettle, elderberry, acorns. (Milkweed is deliberately left off:
    its look-alike, dogbane, is a heart poison, and printed features are not enough to tell them
    apart.)
@@ -211,8 +217,8 @@ region in the US are in Section 32 (→ 32-00), with your home region first.**
 ## When it runs out
 
 Wild food does not run out so much as **arrive and vanish**. The failure is being unready during
-the two weeks a plant is ripe.
-- **Runway:** almost none without preserving. A plum thicket is a ten-day event. **Preserving
+the short window when a plant is ripe.
+- **Runway:** almost none without preserving. A plum thicket is ripe for days, not weeks. **Preserving
   capacity is the limit, not the plants.**
 - **Competition:** in a long emergency every wild food near town is stripped fast, by people and
   by deer, birds and raccoons. **Town fruit trees will be picked clean in the first season.**

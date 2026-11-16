@@ -29,7 +29,7 @@ related:
   - 30-01-the-floors
   - 30-05-dc04-expired-medication
   - 30-16-dc15-someone-elses-prescription
-cards: [DC-04, DC-15, DC-19]
+cards: [DC-04, DC-15, DC-19, DC-25]
 explainers: [EX-14]
 promote_when: [has.condition.CL-10]
 photo_slots: []
@@ -60,8 +60,9 @@ questions for the prescriber now.
 > - **Do not stop or skip a blood thinner on your own.** Stopping raises the risk of a clot or
 >   stroke; what to do about missed doses is the prescriber's, in their words, in part 12
 >   (AHRQ, Blood Thinner Pills).
-> - **Never loosen a tourniquet once placed; mark the time.** Re-bleeding and clot release kill
->   (floor, → 30-01). On a blood thinner, a limb wound may need one sooner.
+> - **Never loosen a tourniquet once placed while help can still come; mark the time.**
+>   Re-bleeding and clot release kill (floor, → 30-01). If no help will ever come, the
+>   conversion decision is DC-25 (→ 30-26). On a blood thinner, a limb wound may need one sooner.
 > - **This page never calculates, adjusts or suggests a dose.**
 
 ## Do this now: bleeding

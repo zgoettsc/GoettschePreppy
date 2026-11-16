@@ -15,8 +15,9 @@ sources:
   - foodsafety-gov-usda-hhs-cook-to-a-safe-minimum-inter-13daf3
   - us-fda-food-allergies-627fb6
   - national-center-for-home-food-preservation-nchfp-gen-c43991
-related: [04-06-dehydrating, 04-09-winter-cold-storage, 04-17-food-safety-power-outage, 05-04-backyard-chickens, 07-01-cooking-on-an-open-fire, 12-05-common-illness-and-dehydration, 18-02-barter-and-trade-goods, 20-02-child-safety-offgrid, 02-03-cl03-anaphylaxis, 02-04-cl04-food-allergy, 30-15-dc14-questionable-food, 30-19-dc18-unlabeled-food-and-allergies]
-cards: [DC-14, DC-18]
+  - penn-state-extension-eggs-from-home-flock-2024
+related: [04-06-dehydrating, 04-09-winter-cold-storage, 04-17-food-safety-power-outage, 05-04-backyard-chickens, 07-01-cooking-on-an-open-fire, 12-05-common-illness-and-dehydration, 18-02-barter-and-trade-goods, 20-02-child-safety-offgrid, 02-03-cl03-anaphylaxis, 02-04-cl04-food-allergy, 30-15-dc14-questionable-food, 30-19-dc18-unlabeled-food-and-allergies, 30-28-dc27-water-glassed-eggs]
+cards: [DC-27, DC-18]
 explainers: []
 promote_when: [has.chickens]
 photo_slots: []
@@ -106,15 +107,18 @@ Two methods are **tested and recommended** (freezing, and drying cooked egg). Tw
 **Why Extension says no to water glassing and oiling:** *Salmonella* already inside an egg can
 multiply over months at room temperature, and the lime solution has never been tested as a
 barrier (Utah State University Extension, Storing Eggs Safely; Colorado State University
-Extension, Preserving Eggs).
+Extension, Preserving Eggs). Penn State Extension adds that the membrane under the shell lets
+water, and any germs in it, into the egg (How to Safely Handle and Store Eggs from Your Home
+Flock, 2024).
 
 **The trade-off.** Some households water-glass anyway, because the alternative is no eggs
 through a winter with no fresh food. Those that do usually apply four conditions together:
 candle every egg before use (below), cook it hard (never runny; 160 °F in dishes), keep it from
 anyone at higher risk or with an egg allergy, and treat the bucket as a roughly 6-month food, not
 a 12-month one. Thorough cooking is what reduces the *Salmonella* risk; it does not make the
-method tested. How strictly your household follows the published food rules when food is short
-is a decision card: {{choice DC-14}} → 30-15.
+method tested. Whether your household water-glasses at all is a decision card: following
+Extension means no stored eggs once cold storage fails; water-glassing accepts a *Salmonella*
+risk that cooking reduces but does not remove. {{choice DC-27}} → 30-28.
 
 **Pickling lime is caustic.** Store it sealed and out of children's reach (→ 20-02). A bucket of
 eggs in solution on the floor is exactly the wrong container in a house with small children:
@@ -184,4 +188,4 @@ sealed, labelled, raised, out of reach.
 
 → 05-04 backyard chickens · → 04-06 drying · → 04-09 winter cold · → 04-17 food safety in an
 outage · → 07-01 safe cooking temperatures · → 02-04 food allergy · → 02-03 anaphylaxis ·
-→ 30-15 questionable food
+→ 30-15 questionable food · → 30-28 water-glassed eggs

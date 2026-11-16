@@ -2,7 +2,7 @@
 id: 05-11-soil-and-compost
 section: 05-food-production-and-foraging
 title: "Soil, compost and fertility without bought inputs"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -10,7 +10,6 @@ phase: [A, C]
 tags: [soil, compost, manure, fertility, sheet mulching, cover crops, human waste, toxoplasma]
 derived_from: [05-11-soil-and-compost]
 sources:
-  - sdsu-extension-vegetable-gardening-in-south-dakota-p-b8fdbd
   - university-of-minnesota-extension-composting-in-home-01e436
   - cdc-guidelines-for-testing-well-water-382a7a
   - ecfr-7-cfr-205-203-soil-fertility
@@ -25,7 +24,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Raw-manure 120/90-day intervals verified in 7 CFR 205.203; unsourced browns-to-greens ratio and mulch depth removed; compost pile size and heat added from UMN; state-specific source dropped" }
 ---
 
 # Soil, compost and fertility without bought inputs
@@ -67,9 +66,10 @@ organic goes back into the soil.
 | **Water** | | Damp as a wrung-out sponge |
 | **Air** | Turning the pile | Stops it going sour and smelly |
 
-**Roughly 2 to 3 parts browns to 1 part greens by volume.** Too much green goes slimy and
-smells; too much brown just sits there (University of Minnesota Extension, Composting in Home
-Gardens).
+**Mix browns and greens**, with more browns than greens by volume. Too much green goes slimy
+and smells; too much brown just sits there. A pile about **3 to 5 feet each way** works best:
+smaller does not heat, larger does not let air and water in, and an active pile heats to
+**130 to 160 °F** (University of Minnesota Extension, Composting in Home Gardens).
 
 **Hot or cold:** a hot pile (turned, balanced, big enough) heats up and finishes in months, and
 the heat helps kill germs and weed seeds. A cold pile works too; it takes a year or more and
@@ -122,7 +122,7 @@ resource.
 
 The way to turn lawn into garden with no digging:
 1. **Lay cardboard directly on the grass**, overlapping, and wet it.
-2. **Pile leaves, compost, grass clippings and straw** on top: 6 to 12 inches.
+2. **Pile leaves, compost, grass clippings and straw** on top, in a thick layer.
 3. **Wait a season**, or plant straight into pockets of compost.
 
 It smothers grass, feeds the soil, holds water, and needs no tools and no fuel. Fall is the

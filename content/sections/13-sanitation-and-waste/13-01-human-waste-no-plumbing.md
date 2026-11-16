@@ -2,14 +2,14 @@
 id: 13-01-human-waste-no-plumbing
 section: 13-sanitation-and-waste
 title: "Human waste without plumbing"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
 phase: [A, B, C]
 tags: [sanitation, toilet, bucket toilet, pour flush, sewer backup, waste disposal, urine separation]
 derived_from: [13-01-human-waste-no-plumbing]
-sources: [cdc-global-water-sanitation-and-hygiene-about-global-2d18c4, cdc-global-water-sanitation-and-hygiene-protecting-w-052c1c, cdc-guidelines-for-personal-hygiene-during-an-emerge-ddfe8d, world-health-organization-sanitation-285e03, us-epa-septic-systems-septicsmart-how-onsite-systems-b09325]
+sources: [cdc-global-water-sanitation-and-hygiene-about-global-2d18c4, cdc-global-water-sanitation-and-hygiene-protecting-w-052c1c, cdc-guidelines-for-personal-hygiene-during-an-emerge-ddfe8d, world-health-organization-sanitation-285e03, us-epa-septic-systems-septicsmart-how-onsite-systems-b09325, who-sanitation-fact-sheet, us-epa-septicsmart-how-to-care-for-your-septic-syste-297074]
 related: [13-02-hygiene-and-handwashing, 13-04-laundry-by-hand, 13-05-winter-sanitation, 13-06-composting-toilet, 13-07-latrine-siting, 13-08-menstrual-and-diapers, 13-11-disease-outbreak, 13-12-septic-off-grid, 03-01-daily-water-needs, 03-03-pool-water-desalination, 03-04-purifying-water, 12-05-common-illness-and-dehydration, 20-02-child-safety-offgrid, 20-06-diapers-and-hygiene, 23-02-master-consumables-table, 22-01-master-acquisition-list, 16-12-grid-down-house-repairs, 01-02-go-no-go-decision]
 cards: []
 explainers: []
@@ -23,7 +23,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "WHO claim replaced with fact-sheet wording; pour-flush volume from EPA toilet figures; unsourced bucket-maths planning figures replaced by a count-your-own worksheet; pit distances match 13-07." }
 ---
 
 # Human waste without plumbing
@@ -33,9 +33,10 @@ broken, how to build and run a bucket toilet, and where the waste goes. Getting 
 one of the highest-value things in this binder, and it costs almost nothing.
 
 > **SAFETY.** **Sanitation failure is one of the classic ways a survivable situation becomes a
-> deadly one.** In long disasters, diarrheal disease is often the leading cause of death
-> *after* the event itself (WHO, Sanitation). **Human waste that gets into land or water
-> spreads disease to everyone downstream** (CDC, About Global Sanitation).
+> deadly one.** Poor sanitation spreads diarrheal diseases such as cholera and dysentery, and
+> typhoid and intestinal worms; WHO counts hundreds of thousands of deaths a year from unsafe
+> sanitation, mostly from diarrhea (WHO, Sanitation fact sheet). **Human waste that gets into
+> land or water spreads disease to everyone downstream** (CDC, About Global Sanitation).
 >
 > Diarrhea dehydrates infants and young children dangerously fast (→ 12-05), and it is a
 > serious sick-day event for anyone with diabetes{{#if has.condition.CL-01}} (→ 02-01){{/if}}.
@@ -69,9 +70,11 @@ one of the highest-value things in this binder, and it costs almost nothing.
 | **Flooding, sewer backing up into the street** | Do not use the toilet; sewage will come back up into the house |
 | **Septic system** | **Keep using it carefully: → 13-12.** A gravity septic system needs no power, only water and a working drain field (EPA) |
 
-**A pour-flush uses a gallon or two.** That is a lot when water is rationed (→ 03-01). **Pour
-it fast, straight into the BOWL, not the tank**, and the toilet flushes normally at about 1.5
-gallons. **Flush for solids only and let urine collect between flushes.** "If it's yellow, let
+**A pour-flush uses about as much water as the toilet's own flush:** EPA says newer
+high-efficiency toilets use 1.6 gallons or less, and many older ones 3.5 to 5 gallons (US EPA,
+How to Care for Your Septic System). That is a lot when water is rationed (→ 03-01). **Pour it
+fast, straight into the BOWL, not the tank.** Try it once now with a marked bucket to learn
+the least that clears your toilet. **Flush for solids only and let urine collect between flushes.** "If it's yellow, let
 it mellow" is correct water-saving practice in a crisis.{{#if has.pool}} Your pool can supply
 flush water (→ 03-03).{{/if}}
 
@@ -119,8 +122,7 @@ Simple, cheap and effective, and it works indoors in winter, which very few alte
 - **Keep the lid closed.**
 - **Collect urine separately if you can.** Urine is most of the volume, and it is what makes
   the bucket heavy, smelly and quick to fill. A separate jug or bucket for urine makes the
-  solids bucket last several times longer (roughly three times is a planning figure, not a
-  published one) and cuts smell sharply. **This is the biggest single improvement you can
+  solids bucket last much longer and cuts smell sharply. **This is the biggest single improvement you can
   make.**
 - **Wash hands with soap and water straight afterwards** (→ 13-02). Put a handwashing station
   right next to the toilet. This is not optional.
@@ -137,17 +139,19 @@ Simple, cheap and effective, and it works indoors in winter, which very few alte
 
 ### Bucket maths for your household
 
-These are **planning figures, not published ones**: no federal source publishes a table of
-this. Count your real use in the first two weeks and correct them.
+No federal source publishes a table of how fast a household uses these. **Count your own:**
+run the bucket toilet for a weekend now (or count the first week of a real outage) and fill in
+the rates. Then the runway is simple division.
 
-| Supply | Rate per person (planning figure) | For your {{ household.size }} people |
-|---|---|---|
-| **Bucket bags** | A lined bucket fills in about a day for a family of four; slower with urine separated | About 1 to 2 bags a day. A 50-count box of contractor bags lasts roughly 25 to 50 bucket-days |
-| **Cover material** | About 1 cup per use; about 1 gallon a day for a family of four | Store it dry, by the bucketful; a winter needs many buckets' worth |
-| **Toilet paper** | About 1 roll per person per week | {{ household.size }} rolls a week; a bidet bottle cuts this hard |
-| **Bucket changes** | Solids bucket lasts 1 to 2 days without urine separation; several days with it | Why the urine jug is the first upgrade |
+| Supply | Your rate for {{ household.size }} people (count it) | On hand | Days it lasts (on hand ÷ rate) |
+|---|---|---|---|
+| **Bucket bags** | ______ a day | ______ | ______ |
+| **Cover material** | ______ buckets a week | ______ | ______ |
+| **Toilet paper** | ______ rolls a week | ______ | ______ |
+| **Bucket changes** (solids bucket full) | every ______ days | | |
 
-Write these into the consumables table now, in the sanitation rows (→ 23-02).
+Separating urine and using a bidet bottle both slow every row. Write the results into the
+consumables table, in the sanitation rows (→ 23-02).
 {{#if has.infant}}Diapers are counted separately (→ 13-08).{{/if}}
 
 ### When the bucket is full
@@ -158,10 +162,10 @@ Write these into the consumables table now, in the sanitation rows (→ 23-02).
    storage and food. In winter, the cold side of the house: **frozen waste is inert and does
    not smell.**
 4. **When trash collection and sewers are gone for good:** bury it by the distances on
-   → 13-07 (at least 100 feet from any well or surface water, downhill, with at least 5 feet of
-   dry soil under the bottom of the pit), or add it to a running compost or latrine system
-   (→ 13-06). The 200-foot figure on → 13-07 is for shallow catholes while traveling, not for
-   pits; the two do not conflict.
+   → 13-07 (at least 100 feet from any well, spring or surface water, downhill, with at least
+   5 feet of dry soil between the bottom of the pit and the water table), or add it to a
+   running compost or latrine system (→ 13-06). The 200-foot figure on → 13-07 is for shallow
+   catholes while traveling, not for pits; the two do not conflict.
 5. **Wash hands with soap. Every time.**
 
 {{photo waste-storage}}

@@ -2,7 +2,7 @@
 id: 03-06-winter-water
 section: 03-water
 title: "Water when everything is frozen"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -22,7 +22,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Frozen-pipe sequence aligned with American Red Cross (tap open, no flame, main off only if split); unsourced snow ratio and cover-opening distance removed; floor capitalised." }
 ---
 
 # Water when everything is frozen

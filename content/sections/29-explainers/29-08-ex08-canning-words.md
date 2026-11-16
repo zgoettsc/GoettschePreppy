@@ -21,7 +21,7 @@ condition: null
 gear: null
 explainer: EX-08
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "pH 4.6, 240-250 F, dial gauge yearly and 2 psi, 1,000 ft, 1943 re-read in the USDA Guide/NCHFP; CDC 10 min + 1 min per 1,000 ft re-read on CDC Botulism Prevention; matches 04-05 and floor 4." }
 ---
 
 # Canning words, explained from the beginning

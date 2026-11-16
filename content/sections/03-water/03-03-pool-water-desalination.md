@@ -2,14 +2,14 @@
 id: 03-03-pool-water-desalination
 section: 03-water
 title: "Pool and hot tub water: utility water, and distilling it to drink"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: gear
 danger_level: critical
 phase: [A, C]
 tags: [water, pool, saltwater pool, hot tub, distillation, still, desalination]
 derived_from: [03-03-pool-water-desalination]
-sources: [cdc-how-to-make-water-safe-in-an-emergency-5d78b5, us-epa-emergency-disinfection-of-drinking-water-6aa91f, awwa-water-technology-distillation-ensures-safe-drin-7ba482]
+sources: [cdc-how-to-make-water-safe-in-an-emergency-5d78b5, us-epa-emergency-disinfection-of-drinking-water-6aa91f, awwa-water-technology-distillation-ensures-safe-drin-7ba482, fema-477-food-and-water-in-an-emergency, fema-ready-gov-water]
 related: [03-01-daily-water-needs, 03-04-purifying-water, 03-05-rain-and-snow-water, 03-08-keeping-water-from-going-bad, 06-04-wood-supply-and-depletion, 09-02-solar-basics, 23-02-master-consumables-table, 29-05-ex05-chlorine-products, 29-06-ex06-water-words, 30-01-the-floors, 30-14-dc13-drinking-pool-or-surface-water]
 cards: [DC-13]
 explainers: [EX-05, EX-06]
@@ -22,7 +22,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Distillation method re-sourced to FEMA 477 (not on current CDC page); hot tub aligned with DC-13 (always distil); unsourced yield/wood/Wh estimates replaced by measure-your-own method." }
 ---
 
 # Pool and hot tub water: utility water, and distilling it to drink
@@ -102,10 +102,10 @@ Boiling and bleach kill germs but leave salt and chemicals in place (EPA).
    (FEMA). Let it cool before drinking.
 
 **Yield:** measure it. Pour the cup into a measuring cup after a timed run and write the
-result here: ______ cups an hour. FEMA says a normally active person needs at least two quarts
-(half a gallon) of water to drink each day: for your {{ household.size }} people that is
-{{ household.size }} half-gallons a day before cooking. Divide by your measured rate to see
-how many hours of boiling that takes. For most households the cup-on-lid still is a
+result here: ______ cups an hour. FEMA says a normally active person needs about three quarters of
+a gallon of fluid a day (FEMA, Ready.gov Water; → 03-01): about 12 cups each, for each of your
+{{ household.size }} people, before cooking. Divide by your measured rate to see how many
+hours of boiling that takes. For most households the cup-on-lid still is a
 demonstration and a stopgap, not a supply. That is why the tube still below, fuel, and rain
 and snow (→ 03-05) matter.
 
@@ -166,10 +166,10 @@ home-built still; it depends on the seal, the fire and how cold the coil is.
 **Do not distil on battery power.** Turning water to steam takes several times the energy of
 bringing the same water to a boil, and a battery holds very little heat energy by that
 standard. {{#if has.power_station}}Your power stations hold about
-{{ gear.station_wh_total }} watt-hours in total; an electric distiller's label gives its
-watts and its output per hour, so divide to see how few liters a full charge would make.{{else}}An
-electric distiller's label gives its watts and its output per hour: divide a power station's
-watt-hours by that to see how few liters a full charge would make.{{/if}}
+{{ gear.station_wh_total }} watt-hours in total.{{else}}A power station's label gives its
+watt-hours.{{/if}} An electric distiller's label gives its watts and the liters it makes per
+hour. Watts ÷ liters per hour = watt-hours per liter; divide the station's watt-hours by that
+to see how few liters a full charge would make.
 Distillation is a wood-fire job. An electric countertop distiller running on a strong solar
 day nets only a few liters: useful for drinking water, never the household's supply
 (→ 09-02).

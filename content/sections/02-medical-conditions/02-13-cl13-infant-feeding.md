@@ -88,7 +88,9 @@ pinch that goes back slowly (WHO, The Treatment of Diarrhoea).
 1. **Keep feeding.** Keep breastfeeding, more often; WHO says breastfeeding continues during
    diarrhoea. Formula-fed babies keep their formula, mixed correctly.
 2. **Oral rehydration solution** from a packet, mixed exactly as the packet says, in small sips
-   or spoonfuls between feeds (→ 12-05).
+   or spoonfuls between feeds (→ 12-05). WHO's published amounts for the first 4 hours of treating
+   dehydration, by weight and age (including under 4 months and 4 to 11 months), are printed
+   on → 12-05.
 3. **A baby with any danger sign, a young baby with fever, or a soft spot on the head that is
    sunken: seek any care that exists, now.**
 

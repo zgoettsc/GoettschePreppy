@@ -2,7 +2,7 @@
 id: 13-11-disease-outbreak
 section: 13-sanitation-and-waste
 title: "Preventing a disease outbreak in the household"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -22,7 +22,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Surface table checked against CDC bleach (5 tbsp/gal, 1 min) and norovirus (5-25 tbsp of 5-8% bleach, 5 min) pages; strength note corrected; floor wording fixed." }
 ---
 
 # Preventing a disease outbreak in the household
@@ -46,8 +46,8 @@ the cleanup, and the bleach strengths to use.
 > **Norovirus:** alcohol hand sanitizer is **not** good enough against it (CDC, Preventing
 > Norovirus). **Soap and water.**
 >
-> **Floor:** bleach is never mixed with ammonia, acids or other cleaners. The mix gives off a
-> gas that can kill. (→ 30-01)
+> **Floor:** Bleach or pool shock is never mixed with ammonia, acids or other cleaners. The mix
+> gives off a gas that can kill. (→ 30-01)
 
 ## Do this now
 
@@ -118,11 +118,12 @@ Published amounts, printed as published:
 | Job | Recipe (per gallon of room-temperature water) | Contact time |
 |---|---|---|
 | **General surface disinfection** (counters, door handles, the sick corner) | **5 tablespoons (1/3 cup)** of household bleach, or 4 teaspoons per quart | **At least 1 minute, visibly wet** |
-| **Norovirus: vomit and stool cleanup** | **5 to 25 tablespoons** (1,000 to 5,000 ppm). **Use the strong end (up to 25 tablespoons, about 1½ cups plus 1 tablespoon) on the spill itself and on porous or heavily soiled surfaces**; the low end on the hard surfaces around it | **At least 5 minutes** |
+| **Norovirus: vomit and stool cleanup** | **5 to 25 tablespoons** of household bleach (5% to 8%) per gallon: a 1,000 to 5,000 ppm solution (CDC, Preventing Norovirus). **Use the strong end (up to 25 tablespoons, which is 1½ cups plus 1 tablespoon) on the spill itself and on porous or heavily soiled surfaces**; the low end on the hard surfaces around it | **At least 5 minutes** |
 
-**Bleach strength:** these recipes are for **plain unscented household bleach at 5 to 9 percent
-sodium hypochlorite.** The common US strengths (6 percent and 8.25 percent "concentrated") both fall
-in that range, so the same spoon counts apply to either. If the label says anything outside 5 to 9
+**Bleach strength:** the general recipe is for **plain unscented household bleach at 5 to 9
+percent sodium hypochlorite** (CDC); CDC's norovirus recipe is written for 5 to 8 percent
+bleach. The common US strengths (6 percent and 8.25 percent "concentrated") both fall in those
+ranges, so the same spoon counts apply to either. If the label says anything outside 5 to 9
 percent, or the product is splash-less, scented or a gel, do not use it for disinfecting.
 
 **Rules that make the table work (CDC):**

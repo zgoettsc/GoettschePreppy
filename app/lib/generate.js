@@ -77,7 +77,7 @@ export function estimateSizes(kit) {
 
 // Topo maps before generating (Large): counts and MB for home + destinations, and for the
 // optional route counties ({ routeMaps: true }), so the download screen can show the size.
-export function mapPlan(profile, kit) { return mapPlanFor(kit, buildContext(profile, kit, { size: 'large' })); }
+export function mapPlan(profile, kit, { maxMaps = 12 } = {}) { return mapPlanFor(kit, buildContext(profile, kit, { size: 'large' }), { maxMaps }); }
 
 // ---- page set ----------------------------------------------------------------------------------
 function promotedFor(page, ctx) {

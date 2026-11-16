@@ -2,7 +2,7 @@
 id: 10-02-fuel-lamps-and-candles
 section: 10-lighting
 title: "Fuel lamps and candles (fire risk)"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -17,6 +17,9 @@ sources:
   - american-red-cross-power-outage-safety-6d07a8
   - university-of-missouri-extension-unvented-portable-k-e850fe
   - usfa-smoke-alarms
+  - medlineplus-us-national-library-of-medicine-nih-pois-665b85
+  - cdc-niosh-methanol-systemic-agent-r3
+  - ghp-group-inc-dyna-glo-manufacturer-portable-kerosen-477cfd
 related:
   - 06-01-fire-starting
   - 06-06-fuel-storage-safety
@@ -51,7 +54,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Candle risk restated per USFA; vomiting wording aligned with MedlinePlus and watch period deferred to 12-17 (was 'several hours' vs 12-17's 24 h); unsupported 'no milk' removed; methanol per CDC/NIOSH; smoke alarm monthly test per USFA; 'doubles' removed." }
 ---
 
 # Fuel lamps and candles (fire risk)
@@ -63,17 +66,17 @@ fuel.
 
 > **SAFETY.**
 > - **In a power outage, use flashlights, not candles** (US Fire Administration, Candle Fire
->   Safety). Open flame is a leading cause of home fires. USFA says **do not use lit candles in
->   bedrooms, bathrooms or sleeping areas.**
+>   Safety). About 20 home candle fires are reported in the US every day (USFA, citing NFPA).
+>   USFA says **do not use lit candles in bedrooms, bathrooms or sleeping areas.**
 > - **Children do not have access to firearms, fuel, medications or chlorine products.** Fixed
 >   in every source. Lamp oil, kerosene and lighters count.
 > - **Fuel is never stored or transferred near an open flame or a running appliance.** Vapour
 >   ignition. Fill lamps away from any flame, never while lit or hot.
 > - **Swallowed lamp oil or kerosene:** these thin fuels slip into the lungs and cause a chemical
->   pneumonia, and **making the person vomit is what causes that lung injury.** **Do not make them
->   vomit; do not give milk, oil or charcoal; wipe out the mouth; call Poison Control,
->   1-800-222-1222** (CDC MMWR; Poison Control). Watch for coughing, choking or fast breathing for
->   the next several hours. Full protocol: → 12-17.
+>   pneumonia, and **vomiting can carry more of it into the lungs.** **Do not make them vomit;
+>   wipe out the mouth; call Poison Control, 1-800-222-1222** (CDC MMWR; MedlinePlus, Poisoning
+>   first aid). Coughing, choking or fast breathing means it reached the lungs. How long to keep
+>   watching, and the full protocol: → 12-17.
 >
 > **Four hazards:** (1) **fire**; (2) **carbon monoxide (CO) and fumes**: any flame in a closed
 > room uses oxygen and makes CO, which you cannot smell (→ 29-03); (3) **burns and spilled fuel**:
@@ -86,7 +89,8 @@ fuel.
 
 1. **Make LED the default; this page is the backup** (→ 10-01).
 2. **Smoke alarms and CO alarms on every level, battery-powered, tested**, before any lamp is ever
-   lit indoors. This is the prerequisite, not an extra (USFA, Smoke Alarms; → 29-12).
+   lit indoors. Test them monthly (USFA, Smoke Alarms). This is the prerequisite, not an extra
+   (→ 29-12).
 3. **Set the house rules now, out loud, with every adult, and teach the children:** no flame in
    bedrooms; no flame left alone, ever, even for a minute; no flame under anything that can burn;
    no child carries a flame; nothing burning when everyone goes to sleep.
@@ -150,7 +154,8 @@ and a little heat.
   are outdoor-only**: soot and irritating fumes. They are the most common thing in a garage
   labelled "lamp oil". Read the label before it goes in a lamp.
 - **Kerosene grades:** only clear K-1 belongs indoors; red-dyed or unknown pump kerosene is treated
-  as the sootier K-2 and kept outdoors (MU Extension, G1999; → 06-06).
+  as the sootier K-2 and kept outdoors (MU Extension, G1999; GHP Group/Dyna-Glo kerosene heater
+  manual: "never use any fuel other than water-clear 1-K"; → 06-06).
 - **Labels:** kerosene is usually kept in a **blue** can, gasoline in **red**. Trust the label,
   not the colour: **read it aloud, smell, then pour** (→ 06-06).
 - **Old kerosene:** water gets into part-full cans, and wet or dirty fuel smokes, smells and makes
@@ -182,8 +187,9 @@ invisible in daylight**, and spilled burning alcohol spreads and is hard to see.
   burner).
 - **Alcohol never goes in an open or improvised wick lamp** (→ 10-03, → 10-04): it turns to vapour
   and the jar becomes a fireball. An open dish of alcohol is not a lamp.
-- **Denatured alcohol contains methanol.** Its fumes are toxic in a closed room, and a swallowed
-  mouthful can blind or kill. Same storage rules as lamp oil, same Poison Control number (→ 12-17).
+- **Denatured alcohol contains methanol.** Swallowed methanol can cause blindness and death, and
+  breathing a lot of its vapour is as harmful as swallowing it (CDC/NIOSH, Methanol). Same storage
+  rules as lamp oil, same Poison Control number (→ 12-17).
 
 ### Fat, tallow and oil lamps: the ones you can make
 
@@ -231,7 +237,7 @@ which is why it is in this binder. In a jar, low, stable, and watched.
 - **Fuel:** cooking oil, rendered fat, tallow, old candle wax, paraffin. **Never gasoline, camp fuel
   or solvents in a lamp.**
 - **Holders:** canning jars, cans, ceramic dishes, hurricane glass.
-- **Reflectors:** foil behind a lamp roughly doubles the useful light for free (→ 10-03).
+- **Reflectors:** foil behind a lamp sends its backward light forward, for free (→ 10-03).
 - **What you cannot improvise:** a working smoke alarm and a working CO alarm. Buy several now, with
   batteries.
 

@@ -2,7 +2,7 @@
 id: 17-18-hail-and-damaging-wind
 section: 17-weather-and-regional-hazards
 title: "Hail and damaging wind"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -16,6 +16,7 @@ sources:
   - noaa-storm-prediction-center-about-derechos-definiti-f84a2c
   - noaa-storm-prediction-center-tornado-safety-faq-vehi-aba867
   - nws-dust-storm-safety
+  - fema-nri-counties
 related: [17-02-tornadoes, 17-06-tornado-shelter, 17-10-reading-the-sky, 17-08-power-grid-failure, 17-13-hurricanes-and-tropical-storms, 09-02-solar-basics, 05-01-a-small-high-yield-garden, 05-04-backyard-chickens, 16-06-axes-and-saws, 16-12-grid-down-house-repairs, 19-04-insurance-and-claims, 22-05-kit-vehicle, 29-10-ex10-weather-alert-words]
 cards: []
 explainers: [EX-10]
@@ -27,7 +28,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Tornado rating no longer read as storm frequency; NSSL hail, wind and NWS dust-storm figures verified." }
 ---
 
 # Hail and damaging wind
@@ -36,8 +37,9 @@ review_pass: null
 winds make up about half of all severe weather reports in the lower 48 states (NSSL, Damaging
 Winds). Hail breaks windows, panels, roofs, gardens and sometimes people. This page covers both,
 plus strong wind without a storm (high wind and dust). Tornadoes are on → 17-02.
-{{#if is.tornado_region}}Your home county is rated 2 or 3 for tornadoes, which usually means
-frequent severe thunderstorms with hail and wind as well.{{/if}}
+{{#if is.tornado_region}}Your home county's tornado rating is 2 or 3. That rating is FEMA's
+National Risk Index: expected harm to people and property, not how often storms come (→ 29-10).
+Hail and damaging wind come from the same severe thunderstorms as tornadoes.{{/if}}
 
 > **CAUTION.**
 > - **Treat a severe thunderstorm warning tagged "destructive" like a tornado warning**: wind of

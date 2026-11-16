@@ -2,14 +2,14 @@
 id: 13-02-hygiene-and-handwashing
 section: 13-sanitation-and-waste
 title: "Hygiene and handwashing (disease prevention)"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
 phase: [A, B, C]
 tags: [hygiene, handwashing, soap, tippy-tap, hand sanitizer, body washing, children]
 derived_from: [13-02-hygiene-and-handwashing]
-sources: [cdc-about-handwashing-when-and-how-to-wash-your-hand-14c15a, cdc-about-hygiene-handwashing-and-infection-preventi-61142e, cdc-guidelines-for-personal-hygiene-during-an-emerge-ddfe8d, world-health-organization-sanitation-285e03]
+sources: [cdc-about-handwashing-when-and-how-to-wash-your-hand-14c15a, cdc-about-hygiene-handwashing-and-infection-preventi-61142e, cdc-guidelines-for-personal-hygiene-during-an-emerge-ddfe8d, world-health-organization-sanitation-285e03, cdc-preventing-norovirus-682487]
 related: [13-01-human-waste-no-plumbing, 13-03-greywater-and-trash, 13-04-laundry-by-hand, 13-08-menstrual-and-diapers, 13-09-soap-making, 13-10-dishwashing-and-food-hygiene, 13-11-disease-outbreak, 03-01-daily-water-needs, 03-05-rain-and-snow-water, 12-02-bleeding-and-wounds, 12-05-common-illness-and-dehydration, 12-06-dental-emergencies, 12-07-meds-stockpile, 11-03-staying-dry, 11-04-footwear-and-extremities, 20-02-child-safety-offgrid, 20-04-teaching-kids-the-plan, 20-06-diapers-and-hygiene, 20-09-pets, 05-04-backyard-chickens, 21-02-long-haul-morale, 23-02-master-consumables-table, 02-04-cl04-food-allergy]
 cards: []
 explainers: []
@@ -22,7 +22,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CDC handwashing steps and sanitizer limits checked; emergency-water wording matches CDC; unsourced age removed. Untreated-water handwashing left as household blank (open owner question)." }
 ---
 
 # Hygiene and handwashing (disease prevention)
@@ -48,8 +48,8 @@ handwashing station you can build, washing the body when water is short, and chi
 3. **Learn the tippy-tap** (below). It uses very little water per wash.
 4. **Stock alcohol-based hand sanitizer with at least 60 percent alcohol** (CDC) for when
    water is short or you are on the move. Know its limits: it works less well on visibly
-   dirty or greasy hands, and it does not work on everything (not norovirus, the "stomach
-   bug", → 13-11).
+   dirty or greasy hands (CDC), and it does not work well against norovirus, the "stomach
+   bug" (CDC, Preventing Norovirus; → 13-11).
 5. **Learn to make soap** (→ 13-09) from wood ash and fat.
 
 ## The key moments
@@ -75,9 +75,10 @@ travel on hands (→ 02-04).{{/if}}
 
 ## How to wash properly (CDC)
 
-1. **Wet hands** with clean running water, warm or cold.
+1. **Wet hands** with clean running water, warm or cold, then apply soap.
 2. **Lather with soap:** backs of hands, between fingers, under nails.
-3. **Scrub for at least 20 seconds** (about two rounds of "Happy Birthday").
+3. **Scrub for at least 20 seconds** (CDC's tip: hum a familiar tune twice, such as "Happy
+   Birthday").
 4. **Rinse** under clean running water.
 5. **Dry** with a clean towel, or air dry.
 
@@ -106,8 +107,9 @@ pedal:
 Handwashing competes with drinking water (→ 03-01). Be deliberate:
 
 - **A tippy-tap wash uses a small fraction of a tap wash.**
-- **The CDC's emergency guidance is boiled or disinfected water for handwashing**, from a jug
-  station of clean water (CDC, Guidelines for Personal Hygiene During an Emergency).
+- **The CDC's emergency guidance:** wash with soap and water, use boiled or disinfected water
+  when authorities advise extra precautions, and make a temporary station from a large water
+  jug when there is no tap (CDC, Guidelines for Personal Hygiene During an Emergency).
 - **Some households use untreated rain, snowmelt or pool water for ordinary washes** to save
   treated water, relying on soap and water that runs off. If you do, three limits hold
   whatever you decide:
@@ -145,7 +147,7 @@ The priorities:
 
 ## Children
 
-- **Children from about age 3 or 4 can learn to wash properly.** Make it a routine with a song
+- **Young children can learn to wash properly** with practice. Make it a routine with a song
   to time it, and put the station at their height. **They will not do it unless it is easy and
   expected** (→ 20-04).
 - **Babies and toddlers put everything in their mouths.** That is the highest-risk habit in any

@@ -2,14 +2,14 @@
 id: 03-10-well-water-without-power
 section: 03-water
 title: "Well water without power"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: gear
 danger_level: caution
 phase: [A, C]
 tags: [water, well, submersible pump, pressure tank, generator, well bucket, bailer, hand pump, shock chlorination]
 derived_from: [03-10-well-water-without-power]
-sources: [cdc-guidelines-for-testing-well-water-382a7a, cdc-how-to-disinfect-wells-after-an-emergency, university-of-nebraska-lincoln-extension-private-dri-332afd, university-of-arizona-cooperative-extension-private-f2355a, water-systems-council-wellcare-information-sheet-wha-7d070e, simple-pump-co-manufacturer-deep-well-hand-pumps-bac-bd4b3b]
+sources: [cdc-guidelines-for-testing-well-water-382a7a, cdc-how-to-disinfect-wells-after-an-emergency, university-of-nebraska-lincoln-extension-private-dri-332afd, university-of-arizona-cooperative-extension-private-f2355a, simple-pump-co-manufacturer-deep-well-hand-pumps-bac-bd4b3b, us-epa-protect-your-homes-water]
 related: [03-01-daily-water-needs, 03-02-storing-water, 03-04-purifying-water, 03-06-winter-water, 03-07-testing-water, 01-04-phase-c-establish, 01-05-choosing-a-destination, 09-04-generators, 09-08-wiring-and-safety, 13-11-disease-outbreak, 13-12-septic-off-grid, 18-01-mutual-aid, 28-03-generators, 29-04-ex04-electricity-in-the-house, 30-01-the-floors, 30-08-dc07-diy-cord-and-plug-conversion]
 cards: [DC-07]
 explainers: [EX-04, EX-05]
@@ -23,7 +23,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CDC drilled-well bleach table checked cell by cell and notes added; CDC steps completed; floors reworded as 30-01; unsourced pump surge, casing and bailer sizes replaced by manual/survey method; UNL tank figures corrected." }
 ---
 
 # Well water without power

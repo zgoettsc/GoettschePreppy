@@ -2,7 +2,7 @@
 id: 28-02-solar-panels-and-controllers
 section: 28-gear-reference
 title: "Solar panels and charge controllers: the label numbers and common models"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: gear
 danger_level: caution
@@ -30,7 +30,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "All 6 panel and 2 controller rows re-read against the maker documents (all match); worked example arithmetic checked; added why 1.20 covers the RSP200D to -40 F." }
 ---
 
 # Solar panels and charge controllers: the label numbers and common models
@@ -69,7 +69,9 @@ year comes at sunrise on a clear, frozen morning (→ 09-02). The rule this kit 
 3. That number must be **below** the controller's or station's maximum solar input voltage.
 
 **A worked example with published numbers.** The Renogy RSP200D datasheet (third-generation
-sheet) gives Voc 23.0 V and a Voc coefficient of −0.28 % per °C.
+sheet) gives Voc 23.0 V and a Voc coefficient of −0.28 % per °C. At −40 °F (−40 °C, 65 °C below the
+lab's 77 °F) that panel's Voc rises by 0.28 × 65 ≈ 18 %, so the 1.20 factor covers it. A panel
+with a larger coefficient, or a place colder than that, needs its own factor (method: → 09-02).
 
 - Two in series: 46.0 V × 1.20 = **55.2 V cold**. Under a 60 V station limit. **Over** a 50 V
   limit: on such a station, that string will damage it.

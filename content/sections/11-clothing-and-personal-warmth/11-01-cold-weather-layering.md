@@ -2,7 +2,7 @@
 id: 11-01-cold-weather-layering
 section: 11-clothing-and-personal-warmth
 title: "Layering for extreme cold"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -14,6 +14,8 @@ sources:
   - noaa-national-weather-service-during-extremely-cold-9c1973
   - cdc-preventing-hypothermia-c53e0c
   - osha-cold-stress-protecting-workers-in-cold-environm-56bc81
+  - nws-wind-chill-chart-graphic-2001-r3
+  - nws-cold-hazard-simplification-2024
 related:
   - 08-01-heating-one-room
   - 08-05-hypothermia-frostbite
@@ -48,7 +50,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Wind chill cells recomputed from the NWS formula (exact); frostbite bands re-read from the NWS chart graphic (old 30-min band start of -22 F contradicted NWS's own -19 F example; 10-min band starts at -37 F at 25 mph); temperature-labelled clothing table made relative; trench foot 60 F per OSHA; Extreme Cold Warning naming per NWS 2024." }
 ---
 
 # Layering for extreme cold
@@ -59,9 +61,9 @@ cold house indoors, and a count sheet of what each person needs.
 
 > **SAFETY.** In hard cold, clothing is life-support equipment. **Exposed skin can freeze in
 > minutes**: read the time from the NWS wind chill chart for today's temperature and wind, not
-> from a guess (NWS, Wind Chill Chart). **The two things that injure are wet and wind.** Wet
-> clothing loses most of its insulation and pulls heat out of you far faster than dry (CDC,
-> Preventing Hypothermia). **Cotton, when wet, is dangerous** (→ 11-05). Shivering hard, confused,
+> from a guess (NWS, Wind Chill Chart). **The two things that injure are wet and wind.** Being
+> wet, from rain, sweat or cold water, can bring on hypothermia even above 40 °F (CDC, Preventing
+> Hypothermia). **Cotton, when wet, is dangerous** (→ 11-05). Shivering hard, confused,
 > clumsy, or no longer shivering while still cold: that is hypothermia, → 08-05 now.
 
 {{#if is.cold_winters}}**Your home climate:** January average low about {{ region.home.jan_low_f }} °F,
@@ -79,9 +81,10 @@ record low {{ region.home.record_low_f }} °F, about {{ region.home.snow_in }} i
 4. **Read the wind chill table before anyone goes out.** "It's −5 and windy" and "20 minutes to
    frostbite" are different facts, and only the second changes what people do.
 5. **Set your stop line:** when your NWS office ({{ region.home.nws_office }}) issues an **Extreme
-   Cold Warning** (→ 29-10), nobody goes out except for essential minutes with no skin showing,
-   children stay in, and vehicles stay home. Your office's criterion: wind chill at or below
-   ______ °F.
+   Cold Warning** (the product called a Wind Chill Warning before October 2024; NWS; → 29-10),
+   nobody goes out except for essential minutes with no skin showing,
+   children stay in, and vehicles stay home. Criteria are set by each office (NWS, Wind Chill
+   Chart). Your office's criterion: wind chill at or below ______ °F.
 
 ## The system, not the coat
 
@@ -109,9 +112,10 @@ shed heat before you sweat, and dries in stages.
 
 ## The rule that matters most: don't sweat
 
-**Sweat is the main way people get into trouble in hard cold,** and it happens while they feel
-great. You shovel, carry wood or walk, you overheat, you sweat into your base layer, then you stop
-and **that wet layer chills you** (OSHA, Cold Stress).
+**Sweat is one of the main ways people get into trouble in hard cold,** and it happens while they
+feel great. You shovel, carry wood or walk, you overheat, you sweat into your base layer, then you
+stop and **that wet layer chills you**. OSHA lists wetness, dressing improperly and exhaustion
+among the risk factors for cold stress (OSHA, Cold Stress).
 
 - **Start slightly cold.** Comfortable standing still means overdressed for working.
 - **Vent before you sweat, not after:** open zips, open the front, take the hat off. Your head is
@@ -122,13 +126,16 @@ and **that wet layer chills you** (OSHA, Cold Stress).
 
 ## What to wear, roughly
 
+A starting point, not a rule: adjust by how you feel standing still, and let the wind chill chart
+below decide the face and the time limit.
+
 | Conditions | What is needed |
 |---|---|
-| 32 °F, dry, calm | Base + light mid + shell |
-| 10 °F, light wind | Base + fleece + insulated shell; hat, gloves |
-| −10 °F | Base + heavy mid + insulated parka; wool hat and hood, mittens, insulated boots, face covered |
-| −20 °F with wind | Everything: **no exposed skin at all**, goggles or a face mask, mittens over liner gloves, and **a time limit outdoors set before going out** |
-| Working hard at 0 °F | **Fewer layers than standing at 0 °F.** Vent hard; layer up the moment you stop |
+| Around freezing, dry, calm | Base + light mid + shell |
+| Well below freezing, light wind | Base + fleece + insulated shell; hat, gloves |
+| Below zero °F | Base + heavy mid + insulated parka; wool hat and hood, mittens, insulated boots, face covered |
+| Wind chill in a frostbite band on the chart | Everything: **no exposed skin at all**, goggles or a face mask, mittens over liner gloves, and **a time limit outdoors set before going out** |
+| Working hard in any of these | **Fewer layers than standing still.** Vent hard; layer up the moment you stop |
 
 **Extremities are where people get hurt** (→ 11-04). Mittens are much warmer than gloves because
 the fingers share heat; a thin liner glove inside lets you do fiddly work briefly without bare skin.
@@ -152,15 +159,19 @@ down from the steady wind speed; the cell is the wind chill in °F (NWS, Wind Ch
 **Frostbite time on exposed skin: read it from the NWS chart's shading, not from the wind chill
 number alone.** The chart shades frostbite time by temperature and wind together, so the same wind
 chill can fall in a different band at a different wind speed. At ordinary winds of 10 to 25 mph,
-the chart's bands run approximately:
+read from the chart itself (NWS, Wind Chill Chart, 2001 graphic):
 
-- **About 30 minutes:** wind chill roughly −22 °F down to about −40 °F.
-- **About 10 minutes:** wind chill roughly −42 °F down to about −61 °F.
-- **About 5 minutes:** wind chill roughly −64 °F and colder.
+- **About 30 minutes** begins at a wind chill of about −19 to −24 °F. NWS's own example: 0 °F
+  air with a 15 mph wind is −19 °F, and exposed skin can freeze in 30 minutes.
+- **About 10 minutes** begins at about −37 °F with a 25 mph wind, about −42 °F at 20 mph, and
+  about −45 °F at 10 to 15 mph. The stronger the wind, the sooner this band starts.
+- **About 5 minutes** begins at about −58 to −64 °F with a 20 to 25 mph wind, and about −71 °F
+  at 15 mph. At 10 mph the table above never reaches it.
 
-Example: −20 °F air with a 20 mph wind reads **−48 °F: about ten minutes to frostbite** on any
-exposed skin (NWS chart). The chart was built for adults, so **be more cautious with children**
-(→ 11-02).
+**When the number sits near a boundary, use the shorter time.** Example: −20 °F air with a 20 mph
+wind reads **−48 °F: about ten minutes to frostbite** on any exposed skin (NWS chart). The chart was
+built for adults, so **be more cautious with children, older people and anyone in poor health**
+(NWS; → 11-02).
 
 ## Wet cold near freezing
 
@@ -170,9 +181,10 @@ this instead.{{/if}}
 
 - **A waterproof shell over wool or synthetic fill beats down.** In freezing rain the shell does the
   work, and the insulation under it must keep working when damp. **Down fails wet** (→ 11-05).
-- **Trench foot** (non-freezing cold injury) is the wet-and-just-above-freezing injury: hours of wet
-  feet, no hard freeze needed (OSHA, Cold Stress; → 11-04). **Dry socks at least twice a day; feet
-  dried, warmed and checked at every change; boots dried every night** (→ 11-03).
+- **Trench foot** (non-freezing cold injury) is the wet-feet injury: no freeze needed, and OSHA
+  says it can happen at temperatures as high as 60 °F if feet stay wet (OSHA, Cold Stress;
+  → 11-04). **Dry socks whenever they are damp; feet dried, warmed and checked at every change;
+  boots dried every night** (→ 11-03).
 - **Pack for it:** rain shell, waterproof boots and extra wool socks outrank an expedition parka.
 
 ## The gear under the layers
@@ -209,16 +221,18 @@ takes enormous heat. Sleeping together shares heat.
 - **Bare hands "just for a minute"** at −20 °F. Keep liner gloves on.
 - **Sweating into your only dry base layer.**
 - **A shell that is not windproof.**
-- **Alcohol:** it makes you feel warm while you lose heat faster, and it impairs judgment (CDC).
+- **Alcohol:** it makes you feel warm while you lose heat faster, and it impairs judgment. CDC
+  lists drinking alcohol as a hypothermia risk, and OSHA says no alcohol in the cold (CDC; OSHA).
 - **Not eating or drinking.** Staying warm burns calories, and you get dehydrated in the cold without
   feeling thirsty (→ 03-01).
 
 ## Count sheet (fill in, in pencil)
 
-Standard count per person. Write the number each person owns; circle any shortfall. The household
+A suggested starting count per person, built on the rule of two (one worn, one drying); change it
+to suit your climate. Write the number each person owns; circle any shortfall. The household
 inventory (→ 22-04) audits this sheet.
 
-| Item | Standard per person |
+| Item | Suggested per person |
 |---|---|
 | Wool or synthetic base layer sets (top and bottom) | 2 |
 | Mid layers (fleece or wool) | 2 |

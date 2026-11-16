@@ -2,7 +2,7 @@
 id: 11-04-footwear-and-extremities
 section: 11-clothing-and-personal-warmth
 title: "Feet, hands and face: protecting the extremities"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -14,6 +14,7 @@ sources:
   - noaa-national-weather-service-wind-chill-chart-frost-89f6d7
   - osha-cold-stress-protecting-workers-in-cold-environm-56bc81
   - cdc-preventing-hypothermia-c53e0c
+  - american-academy-of-family-physicians-afp-frostbite-e337db
 related:
   - 08-05-hypothermia-frostbite
   - 11-01-cold-weather-layering
@@ -37,7 +38,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Unsourced check intervals replaced by a chart-linked method; refreeze rule and tight-footwear/alcohol advice sourced to AFP (WMS guideline summary); trench foot 60 F per OSHA; CDC rub/heat rules verified." }
 ---
 
 # Feet, hands and face: protecting the extremities
@@ -75,7 +76,9 @@ protect the heart and brain. Two useful consequences:
    cross-legged for a long time. **Snug is the enemy.**
 
 Nicotine narrows blood vessels; alcohol sends core heat to the skin and loses it; dehydration
-thickens the blood. All three make cold injury more likely.
+thickens the blood. All three make cold injury more likely. The Wilderness Medical Society's advice
+for preventing frostbite includes avoiding alcohol and anything that reduces blood flow, and not
+wearing tight clothing or footwear (AFP, Frostbite: Prevention and Initial Management).
 
 ## Feet
 
@@ -85,9 +88,10 @@ ground, doing all the work.**
 **Two different injuries, both serious:**
 
 - **Frostbite:** tissue actually freezes. Needs temperatures below freezing.
-- **Trench foot (non-freezing cold injury):** hours of wet and cold **above** freezing. No hard freeze
-  needed, just wet socks and time. Painful and disabling (OSHA, Cold Stress). When drying is hard
-  (→ 11-03), it is a likely injury.
+- **Trench foot (non-freezing cold injury):** feet kept wet and cold **above** freezing. No freeze
+  needed, just wet socks and time; OSHA says it can happen at temperatures as high as 60 °F if feet
+  stay wet. Painful and disabling (OSHA, Cold Stress). When drying is hard (→ 11-03), it is a likely
+  injury.
 
 **The rules that prevent both:**
 
@@ -128,8 +132,9 @@ ground, doing all the work.**
 
 ## Check and respond
 
-**Check** every 10 to 20 minutes in hard cold; **children every 10 to 15 minutes, and every few minutes
-when a child is carried** (→ 11-02):
+**Check** often in hard cold, at an interval you set before going out and shorten as the wind
+chill falls toward the chart's frostbite bands (→ 11-01); **check children more often than adults,
+and every few minutes when a child is carried** (→ 11-02):
 
 - Can everyone feel and wiggle all fingers and toes?
 - Is anyone's face showing white or waxy patches?
@@ -142,7 +147,8 @@ when a child is carried** (→ 11-02):
 - **Do not rub** frostbitten skin (CDC).
 - **No direct high heat:** stove, heater, hot water. Numb skin burns without feeling it (CDC).
 - **Do not thaw a frostbitten foot if the person then has to walk on it and it may freeze again.**
-  Refreezing is far worse than staying frozen until you can rewarm for good (→ 01-03).
+  A frostbitten part is rewarmed only if there is no risk of it refreezing (AFP, Frostbite;
+  → 01-03).
 - **Skin-to-skin** (armpits, groin, a companion's belly) is the safe way to rewarm cold-but-not-frozen
   fingers and toes.
 

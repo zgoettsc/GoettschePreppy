@@ -2,14 +2,14 @@
 id: 29-10-ex10-weather-alert-words
 section: 29-explainers
 title: "Weather alert words: watch, warning, advisory, wind chill, heat index"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: explainer
 danger_level: caution
 phase: [A, B, C]
 tags: [weather, watch, warning, advisory, wind chill, heat index, tornado, flood, red flag, hazard rating, explainer]
 derived_from: [15-01-weather-alerts, 17-02-tornadoes, 17-04-extreme-cold-and-heat, 25-02-conversions-and-math]
-sources: [noaa-national-weather-service-weather-ready-nation-b0a52f, noaa-national-weather-service-tornado-safety-ba75e0, noaa-national-weather-service-wind-chill-chart-frost-89f6d7, noaa-national-weather-service-heat-index-categories-f3dbb9, noaa-national-weather-service-during-extremely-cold-9c1973, noaa-national-weather-service-nws-glossary-red-flag-753d33, noaa-national-weather-service-turn-around-don-t-drow-a6f9ff, noaa-national-weather-service-noaa-weather-radio-all-5f13d8]
+sources: [noaa-national-weather-service-weather-ready-nation-b0a52f, noaa-national-weather-service-tornado-safety-ba75e0, noaa-national-weather-service-wind-chill-chart-frost-89f6d7, noaa-national-weather-service-heat-index-categories-f3dbb9, noaa-national-weather-service-during-extremely-cold-9c1973, noaa-national-weather-service-nws-glossary-red-flag-753d33, noaa-national-weather-service-turn-around-don-t-drow-a6f9ff, noaa-national-weather-service-noaa-weather-radio-all-5f13d8, nws-amarillo-heat-index-r8, nws-cold-hazard-simplification-2024, nws-heat-hazard-renaming-2025, fema-nri-counties]
 related: [15-01-weather-alerts, 17-01-blizzards-and-ice, 17-02-tornadoes, 17-03-floods, 17-04-extreme-cold-and-heat, 17-05-grassland-fire, 17-06-tornado-shelter, 08-05-hypothermia-frostbite, 29-09-ex09-radios]
 cards: [DC-19]
 explainers: [EX-09]
@@ -21,7 +21,7 @@ condition: null
 gear: null
 explainer: EX-10
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Heat index effects corrected to NWS wording (Amarillo table read); 2024/2025 renamings sourced, Cold Weather Advisory added; hazard rating text matched to D1 NRI mapping and 15-01; TADD 6/12 in, full sun +15 F, wind chill re-read." }
 ---
 
 # Weather alert words, explained from the beginning
@@ -50,8 +50,10 @@ Other alerts you will hear:
   burning (NWS Glossary). → 17-05
 - **Winter storm, ice storm, blizzard warning** — travel becomes dangerous and power loss is
   likely. → 17-01
-- **Extreme cold warning** and **extreme heat warning** — dangerous cold or heat. Older radios
-  and pages may say "wind chill warning" or "excessive heat warning"; treat them the same.
+- **Extreme cold warning** and **extreme heat warning** — dangerous cold or heat. The NWS
+  renamed these in 2024 (cold: Wind Chill Warning became Extreme Cold Warning, and the cold
+  advisory is now a **Cold Weather Advisory**) and 2025 (Excessive Heat Warning became Extreme
+  Heat Warning). Older radios and pages may use the old names; treat them the same.
 
 Each NWS office sets its own trigger numbers for its area, so the same word can start at a
 different temperature in different states. Your office: {{ region.home.nws_office }}.
@@ -64,14 +66,14 @@ shows, for each air temperature and wind speed, whether bare skin freezes in 30,
 (NWS, Wind Chill Chart). Use the chart, not a feeling. → 08-05
 
 **Heat index** is how hot it feels when humidity is added to heat, because damp air stops sweat
-from cooling you. The NWS categories (NWS, Heat Index):
+from cooling you. The NWS categories (NWS Amarillo, Heat Index):
 
 | Heat index | Category | What can happen with long exposure or work |
 |---|---|---|
 | 80°F to 90°F | Caution | Tiredness |
-| 90°F to 103°F | Extreme caution | Heat cramps and heat exhaustion possible |
-| 103°F to 124°F | Danger | Cramps and exhaustion likely; heat stroke possible |
-| 125°F and up | Extreme danger | Heat stroke imminent |
+| 90°F to 103°F | Extreme caution | Heat stroke, heat cramps or heat exhaustion possible |
+| 103°F to 124°F | Danger | Heat cramps or heat exhaustion likely; heat stroke possible |
+| 125°F and up | Extreme danger | Heat stroke highly likely |
 
 The published heat index assumes shade and a light wind. **Full sun can add up to 15°F** (NWS).
 → 17-04
@@ -82,9 +84,13 @@ The published heat index assumes shade and a light wind. **Full sun can add up t
 
 ## The hazard ratings in your region pages
 
-The region appendix rates each natural hazard for every county on a scale of **1 to 3**: 1 is
-lower, 3 is higher, and each rating is printed with its words. The rating says how much a hazard
-deserves planning where you live; it does not predict any single day. Your home county:
+The region appendix rates each natural hazard for every county on a scale of **1 to 3**, from
+FEMA's National Risk Index: **3** means FEMA rates the county's risk from that hazard very high or
+relatively high, **2** relatively moderate, and **1** relatively low, very low or not rated. The
+index weighs how much a hazard could cost the county (what there is to damage, and how well the
+community recovers), **not how likely it is on any day**: a big city can rate high for a rare
+hazard, and a thinly settled county can rate low for a real one. Use it to decide what to plan
+for, then read the hazard page. Your home county:
 
 | Hazard | Rating | Meaning |
 |---|---|---|

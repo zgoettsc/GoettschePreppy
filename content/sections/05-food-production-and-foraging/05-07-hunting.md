@@ -2,7 +2,7 @@
 id: 05-07-hunting
 section: 05-food-production-and-foraging
 title: "Hunting for food"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: region
 danger_level: caution
@@ -11,9 +11,9 @@ tags: [hunting, deer, venison, small game, birds, waterfowl, lead, copper bullet
 derived_from: [05-07-hunting-sd]
 sources:
   - foodsafety-gov-usda-hhs-cook-to-a-safe-minimum-inter-13daf3
-  - minnesota-dnr-summarising-the-2008-north-dakota-dept-98d5dd
-  - cdc-chronic-wasting-disease-prevention-test-before-e-cbd361
-  - south-dakota-game-fish-and-parks-hunting-in-south-da-91fd62
+  - minnesota-dnr-tips-for-deer-hunters-lead
+  - cdc-about-chronic-wasting-disease
+  - minnesota-dnr-cwd-questions-and-answers
 related: [05-09-field-dressing-and-butchering, 05-15-trapping-small-game, 05-08-fishing-and-ice-fishing, 05-16-processing-poultry, 04-05-canning-pressure, 04-06-dehydrating, 04-07-smoking-and-curing, 04-09-winter-cold-storage, 04-12-fats-and-oils, 14-04-caliber-roles-and-inventory, 14-08-ammunition-sourcing, 14-09-zeroing-and-optics, 14-10-suppressors-and-nfa, 18-01-mutual-aid, 29-11-ex11-firearms-basics, 30-12-dc11-shooting-on-your-property, 19-01-document-grab-kit]
 cards: [DC-11]
 explainers: [EX-11]
@@ -25,7 +25,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Venison cooking corrected to FoodSafety.gov 160 F; lead figures re-traced to MN DNR tips (unsupported ND study figures removed); unsourced yield, calorie and timing numbers removed; state-specific source dropped" }
 ---
 
 # Hunting for food
@@ -36,9 +36,9 @@ pregnancy. Laws appear only as notes for while government works.
 
 > **CAUTION.** Hunting gives the **largest single return** of any food-gathering method: one
 > deer is a lot of protein. But it is **seasonal, and useless without a way to keep the meat.**
-> A deer taken with no plan for the next 48 hours is mostly waste. And **a lead-core bullet puts
-> lead in the meat** (below), which matters most for children under 6 and anyone pregnant or
-> nursing. If you are new to firearms, read → 29-11 first.
+> A deer taken with no plan for keeping the meat is mostly waste. And **a lead-core bullet puts
+> lead in the meat** (below), which matters most for children under 6 and anyone pregnant. If
+> you are new to firearms, read → 29-11 first.
 
 > **Before the collapse:** seasons, licences, tags, legal methods and calibres, hunter-education
 > cards, blaze-orange rules and non-toxic-shot rules are set by your state's fish and wildlife
@@ -65,10 +65,10 @@ US the useful groups are:
 
 | Game | Typical firearm | Yield |
 |---|---|---|
-| **Deer** (whitetail almost everywhere; mule deer in the West) | Centrefire rifle, or shotgun with slugs. **Copper bullets** (below) | **About 40 to 70 lb of boneless meat**: the big prize |
+| **Deer** (whitetail almost everywhere; mule deer in the West) | Centrefire rifle, or shotgun with slugs. **Copper bullets** (below) | **The most meat of any common game**: the big prize |
 | **Elk, moose, pronghorn** (where present) | Centrefire rifle | Very large, regional |
 | **Wild turkey** | Shotgun | Substantial |
-| **Upland birds** (pheasant, grouse, quail, dove) | Shotgun | Small, about a pound or less each |
+| **Upland birds** (pheasant, grouse, quail, dove) | Shotgun | Small |
 | **Waterfowl** (ducks, geese) | Shotgun with **steel or bismuth shot** | Good, and fatty, which matters (→ 04-12) |
 | **Rabbit, hare, squirrel** | **.22 LR** rifle or shotgun | Small, steady, near towns |
 | **Feral hogs** (mainly the South) | Centrefire rifle | Large and fatty. Wear gloves: they carry diseases (→ 05-09) |
@@ -77,10 +77,9 @@ US the useful groups are:
 
 ### The calorie reality
 
-- **One deer is about 40 to 70 lb of boneless meat**: on the order of 30,000 or more calories,
-  several weeks of protein for a family.
+- **One deer is weeks of protein for a family**, if you can keep it (→ 05-09).
 - **A day of small-game hunting** might give a rabbit or two: real food, not comparable.
-- **Ammunition matters** (→ 14-08). A deer costs one or two rounds. Shooting squirrels with
+- **Ammunition matters** (→ 14-08). A deer costs very little ammunition. Shooting squirrels with
   centrefire is waste. **Use .22 LR for small game**; that is its job.
 - **Traps and snares** (→ 05-15) take small game while you do other work, with **no ammunition
   at all**. In a long emergency they beat hunting for small game.
@@ -101,25 +100,26 @@ you learn the timing while it is not urgent.
 1. **Shoot cleanly.** A wounded animal that runs is meat lost and needless suffering.
 2. **Field dress immediately** (→ 05-09). Body heat spoils meat fast.
 3. **Cool it fast.** Easy in cold weather; in a warm early season it is the whole problem.
-4. **Butcher and preserve within a day or two.** Pressure canning (→ 04-05) is the most
+4. **Butcher and preserve promptly**; cold weather buys time, warm weather does not. Pressure canning (→ 04-05) is the most
    reliable answer without a freezer. **Low-acid foods are pressure-canned to the published
    time and pressure, or not canned.** Meat is a low-acid food (→ 30-01).
-5. **Cook it through.** FoodSafety.gov gives **160 °F for ground meat** and **145 °F with a
-   3-minute rest for whole cuts**. Cooking all wild game to 160 °F adds a margin when there is
-   no medical care. Cooking does not destroy the chronic wasting disease agent in deer (→ 05-09).
+5. **Cook it through.** FoodSafety.gov gives **160 °F for venison and rabbit, wild or
+   farm-raised**, whole cuts and ground alike. Cooking does not remove the chronic wasting disease
+   agent in deer (Minnesota DNR; → 05-09): test where CWD is known, and never eat an animal that
+   tested positive or looked sick (CDC).
 
 ### Lead in the meat
 
-A standard lead-core rifle bullet sheds fragments **up to 12 to 18 inches from the wound
-channel**, too small to see or feel. A 2008 study by the North Dakota Department of Health and
-CDC found lead in roughly 60 % of ground-venison packages tested, and higher blood lead in people
-who ate venison; **children under 6 and pregnant or nursing women** were the groups advised to
-avoid venison taken with lead bullets (Minnesota DNR, Lead in venison).
-{{#if has.young_child}}This household has a child under 6.{{/if}}{{#if has.pregnant}} This household has a pregnant member.{{/if}}{{#if has.nursing}} This household has a nursing mother.{{/if}}
+Lead-core bullets break up inside the animal. In a Minnesota DNR study, lead particles turned
+up **as far as 18 inches from the wound channel**, too small to see, feel or notice when chewing,
+and Minnesota testing found lead fragments in **26 % of packages of ground venison** and 2 % of
+whole-muscle cuts. **Pregnant women and children under 6 should never be in a position to eat
+lead particles** (Minnesota DNR, Tips for Deer Hunters).
+{{#if has.young_child}}This household has a child under 6.{{/if}}{{#if has.pregnant}} This household has a pregnant member.{{/if}}
 
-- **Copper (monolithic) bullets** for deer remove the problem. Buy them now.
-- **If a deer was shot with lead:** trim **12 to 18 inches around the wound channel** and throw
-  out all bloodshot meat. Ground meat, trim, stew meat and sausage from that deer carry the most
+- **Copper (monolithic) bullets** for deer fragment very little. Buy them now.
+- **If a deer was shot with lead:** trim liberally around the wound channel (there is no
+  distance known to be safe) and throw out all bloodshot meat. Ground meat, trim, stew meat and sausage from that deer carry the most
   risk, because fragments get mixed through them. Whole-muscle cuts far from the wound carry the
   least.
 - **Lead shot in birds and rabbits:** pick out the pellets; steel or bismuth shot keeps lead out

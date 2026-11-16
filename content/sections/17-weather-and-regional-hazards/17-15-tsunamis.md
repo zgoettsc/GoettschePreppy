@@ -2,7 +2,7 @@
 id: 17-15-tsunamis
 section: 17-weather-and-regional-hazards
 title: "Tsunamis"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -14,6 +14,7 @@ sources:
   - ready-gov-tsunamis
   - ready-gov-earthquakes
   - noaa-national-weather-service-noaa-weather-radio-all-5f13d8
+  - fema-nri-counties
 related: [17-12-earthquakes, 17-13-hurricanes-and-tropical-storms, 17-03-floods, 17-10-reading-the-sky, 15-01-weather-alerts, 15-03-family-comms-plan, 19-01-document-grab-kit, 22-03-go-bags-and-kits, 24-02-drills, 01-05-choosing-a-destination, 29-10-ex10-weather-alert-words]
 cards: []
 explainers: [EX-10]
@@ -26,7 +27,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "NRI note; NWS tsunami natural warnings verified." }
 ---
 
 # Tsunamis
@@ -39,6 +40,7 @@ the natural warnings and getting to high ground fast.
 your route this week.**{{else}}{{#if is.coastal}}Your home county is on the coast; keep this page
 even though the rating is lower.{{else}}Your home is not on the coast, but if you visit or move to
 one, this page applies.{{/if}}{{/if}}
+Ratings in this binder are FEMA's National Risk Index for your county, on a 1-to-3 scale: they measure expected harm to people and property there, not how likely the hazard is (→ 29-10).
 
 > **SAFETY.**
 > - **Natural warnings: a strong or long earthquake; the ocean suddenly rising like a fast flood

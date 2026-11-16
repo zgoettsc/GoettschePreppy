@@ -36,8 +36,8 @@ export const REQUIRED_PATHS = new Set([
 
 export const FLOORS = [
   'Never run a generator, charcoal, or any engine indoors, in a garage, or near an open window.',
-  'Never connect a generator to house wiring without a transfer switch, interlock, or a cord-and-plug conversion with the main breaker locked off. Never backfeed through an outlet.',
-  'Never loosen a tourniquet once placed; mark the time.',
+  'Never connect a generator to house wiring except through a transfer switch, or an interlock kit with the main breaker off. Never backfeed through an outlet with a double-male ("suicide") cord.',
+  'Never loosen a tourniquet once placed while help can still come; mark the time. If no help will ever come, the conversion decision is DC-25 (→ 30-26).',
   'Low-acid foods are pressure-canned to the published time and pressure, or not canned.',
   'No wild plant or mushroom is eaten on a "test"; identification or nothing.',
   'Fuel is never stored or transferred near an open flame or a running appliance.',

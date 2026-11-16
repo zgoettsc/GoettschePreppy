@@ -22,7 +22,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Pore sizes, virus limits, clogging and recontamination checked against CDC Yellow Book and CDC emergency page; no change." }
 ---
 
 # Filter care: straws, bottles, squeeze and gravity filters

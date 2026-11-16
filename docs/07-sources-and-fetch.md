@@ -45,7 +45,8 @@ reference (to be re-classified as restricted or open per document), 88 hosts blo
    behind the citing page. HTML sources are captured to a readable article view.
 4. Blocked or failed sources go on the "sources not captured" page with the kit's own summary
    paragraph for that source, so the binder is still complete in substance.
-5. This step runs only for the **Large** download (decision G11). **Small** skips it: citations
+5. This step runs for **Large** (sources cited by the life-safety sections 02, 03, 04, 06, 08, 09, 12,
+   17, 20, 27 and 30) and **Everything** (every cited source), decision G25. **Small** skips it: citations
    show title, publisher and date, and the page text stands on its own. The download screen shows
    both sizes before fetching; Small can be upgraded to Large later from the saved profile file.
 

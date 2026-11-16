@@ -2,14 +2,14 @@
 id: 03-01-daily-water-needs
 section: 03-water
 title: "How much water we need (household math)"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
 phase: [A, B, C]
 tags: [water, planning, math, storage, household, runway]
 derived_from: [03-01-daily-water-needs]
-sources: [cdc-how-to-create-and-store-an-emergency-water-suppl-f0c412, cdc-how-to-make-water-safe-in-an-emergency-5d78b5]
+sources: [cdc-how-to-create-and-store-an-emergency-water-suppl-f0c412, cdc-how-to-make-water-safe-in-an-emergency-5d78b5, fema-ready-gov-water, fema-477-food-and-water-in-an-emergency]
 related: [03-02-storing-water, 03-03-pool-water-desalination, 03-04-purifying-water, 03-05-rain-and-snow-water, 03-06-winter-water, 03-10-well-water-without-power, 23-02-master-consumables-table, 07-07-freeze-dried-rehydration, 20-05-infant-feeding, 20-09-pets, 22-05-kit-vehicle, 02-01-cl01-type-1-diabetes-injections]
 cards: []
 explainers: [EX-06]
@@ -21,7 +21,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Needs-go-up and 3/4-gal drinking figures re-attributed to FEMA/Ready.gov; kit allowances labelled; toilet-tank water flagged as last reserve, disinfect first (FEMA); destination water source slot." }
 ---
 
 # How much water we need (household math)
@@ -160,8 +160,9 @@ water matter so much.
   use the step-by-step procedure on → 03-02.
 {{/if}}
 - The water in your **pipes** and **ice** in the freezer, which FEMA lists as safe sources.
-  Toilet **tanks** (the box behind the seat, never the bowl) are **not** drinking water:
-  FEMA says not to drink them. Use tank water for washing and flushing.
+- Toilet **tanks** (the box behind the seat, never the bowl), only if no cleaning tablet or dye
+  is in them. They are the last of the in-house reserves: FEMA's guide says not to drink tank
+  water, so disinfect it before drinking (→ 03-04), or keep it for washing and flushing.
 - Any clean food-grade container: soda bottles, juice jugs. **Not** milk jugs (milk protein
   is hard to clean out and the water spoils), and never containers that held chemicals.
 

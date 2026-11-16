@@ -14,8 +14,8 @@ sources:
   - cdc-managing-sick-days-18c7c8
   - us-fda-bad-bug-book-2nd-ed-phytohaemagglutinin-kidne-bb3b21
   - foodsafety-gov-fda-sprouts-what-you-should-know-777c53
-related: [04-01-calorie-and-stockpile-math, 04-03-bulk-staples-storage, 04-05-canning-pressure, 04-06-dehydrating, 04-08-fermentation, 04-10-rotation-and-inventory, 04-13-salt-sugar-vinegar, 04-14-powdered-and-canned-dairy, 04-16-sprouting, 06-02-sustaining-fire, 06-04-wood-supply-and-depletion, 07-01-cooking-on-an-open-fire, 07-02-rocket-stove, 07-04-dutch-oven-and-baking, 20-07-kids-jobs, 21-02-long-haul-morale, 21-04-routine-and-structure, 02-01-cl01-type-1-diabetes-injections, 02-04-cl04-food-allergy, 02-05-cl05-type-2-diabetes, 02-19-cl19-celiac-and-severe-gi-disease]
-cards: []
+related: [04-01-calorie-and-stockpile-math, 04-03-bulk-staples-storage, 04-05-canning-pressure, 04-06-dehydrating, 04-08-fermentation, 04-10-rotation-and-inventory, 04-13-salt-sugar-vinegar, 04-14-powdered-and-canned-dairy, 04-16-sprouting, 06-02-sustaining-fire, 06-04-wood-supply-and-depletion, 07-01-cooking-on-an-open-fire, 07-02-rocket-stove, 07-04-dutch-oven-and-baking, 20-07-kids-jobs, 21-02-long-haul-morale, 21-04-routine-and-structure, 02-01-cl01-type-1-diabetes-injections, 02-04-cl04-food-allergy, 02-05-cl05-type-2-diabetes, 02-19-cl19-celiac-and-severe-gi-disease, 30-27-dc26-allergy-safe-food-reserve]
+cards: [DC-26]
 explainers: []
 promote_when: []
 photo_slots: []
@@ -154,9 +154,10 @@ a scale and a printed reference, not later by candlelight.
 - **Runway:** this page does not use anything up; it decides **how fast everything else goes.**
   Good meal planning stretches both food (→ 04-01) and fuel (→ 06-04).
 - **Ration:** many households shrink adult portions before children's. Keep a diabetic's
-  carbohydrate steady rather than cutting it. Where one person eats a restricted diet, agree in
-  advance whether their safe stock is held as their reserve while everyone else eats from the
-  general stock (→ 02-04).
+  carbohydrate steady rather than cutting it. Where one person eats an allergy-safe diet,
+  whether their safe stock is shared or held as their reserve is a decision card: sharing
+  shortens their runway, reserving means everyone else eats other food first.
+  {{choice DC-26}} → 30-27 (→ 02-04).
 - **Resupply:** garden, game and trade (Section 05, → 18-02).
 - **The combined effect:** batch cooking plus a haybox plus lids on pots can cut cooking fuel by
   more than half. Over a winter, that is a lot of wood (→ 06-04).

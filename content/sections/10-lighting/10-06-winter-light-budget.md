@@ -41,7 +41,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Spot-checked: arithmetic (Wh tiers, kerosene 280 and 1,400 lamp-hours, cell counts) consistent; planning figures labelled; 85 percent usable matches 09-03; no changes." }
 ---
 
 # The winter light budget (watt-hours, cells and fuel)

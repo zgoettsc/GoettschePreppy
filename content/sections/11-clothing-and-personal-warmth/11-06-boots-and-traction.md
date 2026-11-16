@@ -2,7 +2,7 @@
 id: 11-06-boots-and-traction
 section: 11-clothing-and-personal-warmth
 title: "Boots, traction and winter footwear"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -14,6 +14,7 @@ sources:
   - osha-cold-stress-protecting-workers-in-cold-environm-56bc81
   - american-red-cross-winter-storm-preparedness-and-bli-4bb6c0
   - noaa-national-weather-service-during-extremely-cold-9c1973
+  - american-academy-of-family-physicians-afp-frostbite-e337db
 related:
   - 11-01-cold-weather-layering
   - 11-02-keeping-kids-warm
@@ -42,7 +43,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Unsourced 'most likely injury' and 'faster than cold air' claims softened; tight footwear tied to AFP/WMS guidance." }
 ---
 
 # Boots, traction and winter footwear
@@ -50,12 +51,12 @@ review_pass: null
 **What this page is for.** What makes a winter boot work, how to fit it, how to stop falls on ice, and
 how to keep boots alive through a long winter.
 
-> **CAUTION.** **A fall on ice is one of the most likely serious injuries in a winter outage,** and
-> with no emergency room behind it a broken wrist, hip or a head injury is a crisis (→ 12-09, → 12-19,
+> **CAUTION.** **A fall on ice is a serious injury in a winter outage,** and with no emergency
+> room behind it a broken wrist, hip or a head injury is a crisis (→ 12-09, → 12-19,
 > → 12-16). **An adult carrying a small child across ice is the situation to design against.**
 > Traction devices cost little and prevent it. **The second hazard is the boot itself: a boot that is
-> too tight freezes your feet,** because squeezed circulation causes frostbite faster than cold air
-> does (→ 11-04).
+> too tight freezes your feet,** because squeezed circulation makes frostbite more likely; frostbite
+> prevention guidance says avoid tight footwear (AFP, Frostbite; → 11-04).
 
 ## Do this now
 

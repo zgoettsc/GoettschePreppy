@@ -16,7 +16,7 @@ sources:
   - cdc-carbon-monoxide-poisoning-basics-772153
   - osha-hand-and-power-tools-safe-use-maintenance-and-h-77254c
 related: [23-05-skills-that-replace-supplies, 24-02-drills, 24-03-seasonal-practice-plan, 24-04-blackout-weekend, 22-03-go-bags-and-kits, 22-04-household-inventory, 25-10-annual-review, 18-07-teaching-and-knowledge, 20-04-teaching-kids-the-plan, 30-01-the-floors, 30-02-dc01-unvented-heater-overnight, 30-25-dc24-children-and-dangerous-jobs]
-cards: [DC-01, DC-11, DC-24]
+cards: [DC-01, DC-11, DC-24, DC-25]
 explainers: [EX-03, EX-05, EX-11, EX-12]
 promote_when: []
 photo_slots: []
@@ -100,7 +100,7 @@ for your household still matter; they are just not first.
 | {{#if has.anaphylaxis}}★{{/if}} | **Recognise anaphylaxis** and act in under a minute | | | | | → 02-03 |
 | {{#if has.condition.CL-02}}★{{/if}} | **Pump-to-injection fallback**, start to finish, as your clinician wrote it | | | | | → 02-02 |
 | {{#if has.diabetes}}★{{/if}} | **Recognise and act on low and high blood sugar and diabetic ketoacidosis** | | | | | → 02-01, → 02-05 |
-| ★ | **Use a tourniquet and pack a wound** (a Stop the Bleed course). **Never loosen a tourniquet once placed; mark the time.** | | | | | → 12-02 |
+| ★ | **Use a tourniquet and pack a wound** (a Stop the Bleed course). **Never loosen a tourniquet once placed while help can still come; mark the time.** If no help will ever come, the conversion decision is DC-25 (→ 30-26). | | | | | → 12-02 |
 | ★ | **Recognise hypothermia and frostbite**, and rewarm correctly | | | | | → 08-05 |
 | ★ | **Test the carbon monoxide alarms, and know what to do when one sounds**: everyone out, then call | | | | | → 08-02 |
 | ★ | **The grab-and-go**: people{{#if has.pets}}, pets{{/if}}, medical kit, bags, out | | | | | → 22-03 |

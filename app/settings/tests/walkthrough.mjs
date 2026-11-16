@@ -653,13 +653,16 @@ async function scenarioC(browser, base) {
   await page.goto(base + '?dryrun=1');
   await page.waitForSelector('#step-title');
 
-  await step('real kit: 24 decision cards with settings_summary and options', async () => {
+  await step('real kit: every decision card (24 or more) with settings_summary and options', async () => {
     await page.setInputFiles('#load-file', path.join(OUT, 'profile-a.json'));
     await page.waitForFunction(() => /Loaded your answers/.test(document.querySelector('#toolbar-status').textContent));
     await page.fill(sel.input('access-access_key'), 'dry-run-key-1234');
     await page.evaluate(() => window.__settings.goto(8));
     await page.waitForSelector('.card');
-    assert.equal(await page.$$eval('.card', els => els.length), 24);
+    // DC-01 to DC-24, plus any card added since (G23 DC-25, G26 DC-26 to DC-29)
+    const kitCards = new Set(JSON.parse(fs.readFileSync(kitFile, 'utf8')).cards.map(c => c.id)).size;
+    assert.ok(kitCards >= 24, `kit has ${kitCards} cards`);
+    assert.equal(await page.$$eval('.card', els => els.length), kitCards);
     assert.ok(await page.isChecked(sel.radio('decision_cards-DC-01', 'never')));
     await layoutChecks(page, 'step 8 (real kit)');
     await shot(page, '08-decisions-real-kit');

@@ -2,7 +2,7 @@
 id: 28-04-portable-heaters
 section: 28-gear-reference
 title: "Portable fuel heaters: the specs that keep you safe, and common models"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: gear
 danger_level: critical
@@ -32,7 +32,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "All 8 heater rows re-read against the manuals; Big Buddy run time filled from its manual; WK11C8 ODS cell reworded to what the manual says; 170 cu ft (Matheson 8.62 cu ft/lb) and 15-lb fill (NIST) re-read; LFL arithmetic added to match 08-09." }
 ---
 
 # Portable fuel heaters: the specs that keep you safe, and common models
@@ -67,7 +67,8 @@ and run one: propane → 08-09, kerosene wick → 08-10, the warm room → 08-01
    Go by the label on yours.
 4. **Oxygen depletion sensor (ODS) and tip-over switch.** An ODS shuts off the gas when the room's
    oxygen drops. A tip-over switch shuts it off if knocked over. Wick kerosene heaters usually
-   have a tip-and-jar shut-off but **no ODS** (Dyna-Glo WK11C8 manual). **Neither device measures
+   have a tip-and-jar shut-off and **no ODS**: the Dyna-Glo WK11C8 manual lists only its automatic
+   shut-off for when the heater is jarred or tipped. **Neither device measures
    CO** (→ 08-09).
 5. **The fresh-air opening the manual specifies.** Each manual gives its own: a size of opening in
    square inches, or a rule based on room volume. It is part of the heater's safe operation, not
@@ -89,12 +90,16 @@ heater: {{choice DC-17}} → 30-18. Each card explains the hazard, the maker's r
 ## How much gas is in a propane cylinder
 
 - A "20-lb" cylinder is named for the most propane it can safely hold. **Most are filled and
-  labelled to 15 lb net** at exchange cages; a refill can bring it to 20 lb (NIST, Liquefied
+  labelled to 15 lb net**, even though the cylinder can safely hold 20 lb (NIST, Liquefied
   Petroleum Gas 20 Pound Cylinders). Weigh it: empty weight (stamped "TW" on the collar, → 28-07)
   plus the propane.
 - One pound of propane makes about **8.6 cubic feet of gas** (8.62 cu ft per lb at 70 °F;
   Matheson, propane physical properties). So a full 20-lb cylinder holds about **170 cubic feet
-  of gas**, and a 15-lb exchange fill about 130. **Watch the decimal point: 170, not 1,700.**
+  of gas**, and a 15-lb fill about 130. **Watch the decimal point: 170, not 1,700.**
+- Propane burns when it makes up between 2.1 % and 9.5 % of the air (Matheson). At 2.1 %, the
+  170 cubic feet in a full cylinder is enough to make about 8,000 cubic feet of air able to
+  burn: more than a whole room. The Buddy heater manuals allow a 20-lb cylinder only outdoors
+  (→ 08-09); whether one ever comes inside is a decision card (→ 30-03).
 - Gallons, total BTU and the hours-per-cylinder method: → 06-05.
 
 ## Common models, from the makers' own manuals
@@ -106,8 +111,8 @@ summary come from the kit pages that were written from that manual (→ 08-09, �
 |---|---|---|---|---|---|---|---|---|---|
 | Mr. Heater Little Buddy MH4B | Propane, 1-lb cylinder | 3,800 | About 5 h per 1-lb cylinder | "Emergency indoor use"; recreational or commercial enclosure with a window or roof vent; outdoors | Yes | Yes | **4 sq in** (2 × 2 in) | May shut off above 7,000 ft | Mr. Heater, MH4B owner's manual |
 | Mr. Heater Portable Buddy MH9BX | Propane, 1-lb or outdoor cylinder up to 20 lb on hose | 4,000 LO / 9,000 HI | 3–6 h per 1-lb; 48–110 h per 20-lb | Indoor, with openings; bathroom LO only; never while sleeping | Yes | Yes | **9 sq in at ceiling level and 9 sq in at floor level** | Weak burning, possible shut-off above 7,000 ft | Enerco/Mr. Heater, Portable Buddy manual (→ 08-09) |
-| Mr. Heater Big Buddy MH18B (edition read) | Propane, 1-lb or outdoor cylinder up to 20 lb on hose | 4,000 / 9,000 / 18,000 | See label | **"For Outdoor Use Only"** on this edition; check yours | See label | Yes | **18 sq in** (4.25 × 4.25 in) | May shut off above 7,000 ft | Mr. Heater, MH18B owner's manual |
-| Dyna-Glo WK11C8 (wick, convection) | 1-K kerosene | 10,500 | 0.079 gal/h; about 13 h per 1.1 gal tank | Indoor, with ventilation; off before bed | **No** | Tip-and-jar shut-off | If room has under **200 cu ft per 1,000 BTU/h**, open a window **at least 1 in** or open doors to other rooms; never a bathroom or small closed room | Not given | GHP Group/Dyna-Glo, WK11C8 manual (→ 08-10) |
+| Mr. Heater Big Buddy MH18B (edition read) | Propane, 1-lb or outdoor cylinder up to 20 lb on hose | 4,000 / 9,000 / 18,000 | Rough guide: 1.5–6 h per 1-lb cylinder; 24–108 h per 20-lb | **"For Outdoor Use Only"** on this edition; check yours | See label | Yes | **18 sq in** (4.25 × 4.25 in) | May shut off above 7,000 ft | Mr. Heater, MH18B owner's manual |
+| Dyna-Glo WK11C8 (wick, convection) | 1-K kerosene | 10,500 | 0.079 gal/h; about 13 h per 1.1 gal tank | Indoor, with ventilation; off before bed | **None listed** | Tip-and-jar shut-off | If room has under **200 cu ft per 1,000 BTU/h**, open a window **at least 1 in** or open doors to other rooms; never a bathroom or small closed room | Not given | GHP Group/Dyna-Glo, WK11C8 manual (→ 08-10) |
 | Toyotomi Omni 230 (wick) | Kerosene only | 23,000 | 0.659 L/h; 12–16 h per 7.5 L tank | See label and manual | See label | Automatic shut-off when bumped or tipped | See manual | See label | Toyotomi, Omni 230 product introduction |
 | Dyna-Glo KFA50DGD (forced air) | 1-K kerosene preferred; manual also allows #1/#2 diesel or fuel oil, Jet A, JP-8; 120 V fan | 50,000 | 0.38 gal/h; 5.0 gal tank | **"Never use this heater in living or sleeping areas"** | No (flame-out sensor) | See label | **3 sq ft** of fresh outside air per 100,000 BTU/h | See label | GHP Group/Dyna-Glo, KFA forced-air manual |
 | Dyna-Glo KFA80DGD (forced air) | As above | 80,000 | 0.60 gal/h; 5.0 gal tank | As above | No | See label | As above | See label | Same manual |

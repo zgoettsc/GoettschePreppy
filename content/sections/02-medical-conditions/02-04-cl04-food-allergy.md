@@ -32,7 +32,8 @@ related:
   - 30-19-dc18-unlabeled-food-and-allergies
   - 30-15-dc14-questionable-food
   - 30-05-dc04-expired-medication
-cards: [DC-18, DC-14, DC-04, DC-19]
+  - 30-27-dc26-allergy-safe-food-reserve
+cards: [DC-18, DC-14, DC-04, DC-19, DC-26]
 explainers: [EX-14]
 promote_when: [has.condition.CL-04, has.anaphylaxis]
 photo_slots:
@@ -120,9 +121,9 @@ line.
 
 When safe food runs short, the pressure to "just try" a doubtful food rises every day. That is
 the danger point. Plan now:
-- **Many households choose to eat the flexible food first** and save the allergy-safe food for
-  the allergic person, because the others can eat things they cannot. Write the household's rule:
-  ______________________________________________
+- **Who eats the safe food, and when.** Sharing the allergy-safe food with everyone shortens the
+  allergic person's runway; holding it as their reserve means everyone else eats other food first.
+  This is a decision card: {{choice DC-26}} (→ 30-27).
 - **Hunger is survivable; anaphylaxis without epinephrine may not be.** If safe food runs out and
   only unverifiable food remains, that is a reason to move toward supply (→ 01-02), the same way a
   short medicine clock is.
@@ -238,6 +239,7 @@ by them.
 ## 11. Decision cards that apply
 
 - **Unlabelled, traded or scavenged food for the allergic person:** {{choice DC-18}} (→ 30-19).
+- **Allergy-safe food held in reserve for the allergic person:** {{choice DC-26}} (→ 30-27).
 - **Food past its date, dented cans, failed freezer:** {{choice DC-14}} (→ 30-15).
 - **Expired epinephrine:** {{choice DC-04}} (→ 30-05).
 - **When to leave:** {{choice DC-19}} (→ 30-20). Running out of safe food is a trigger.

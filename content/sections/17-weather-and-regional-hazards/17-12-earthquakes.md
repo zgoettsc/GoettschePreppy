@@ -2,7 +2,7 @@
 id: 17-12-earthquakes
 section: 17-weather-and-regional-hazards
 title: "Earthquakes"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -14,8 +14,9 @@ sources:
   - usgs-earthquake-early-warning
   - nws-tsunami-during
   - cdc-carbon-monoxide-poisoning-basics-772153
+  - fema-nri-counties
 related: [17-15-tsunamis, 17-17-landslides-and-debris-flows, 17-08-power-grid-failure, 03-02-storing-water, 13-01-human-waste-no-plumbing, 16-12-grid-down-house-repairs, 12-02-bleeding-and-wounds, 12-09-splints-and-fractures, 12-16-triage-and-hard-calls, 15-03-family-comms-plan, 18-01-mutual-aid, 19-01-document-grab-kit, 22-03-go-bags-and-kits, 24-02-drills, 06-09-chimney-and-creosote, 30-01-the-floors, 30-22-dc21-uninspected-fireplace-or-stove]
-cards: [DC-21]
+cards: [DC-21, DC-28]
 explainers: [EX-03]
 promote_when: [is.earthquake_region]
 photo_slots:
@@ -27,7 +28,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "NRI note with Cook County example; Ready.gov and USGS claims verified." }
 ---
 
 # Earthquakes
@@ -39,6 +40,7 @@ reflex) and what you do in the first hour after. This page covers both.
 data.** Do the "Do this now" list this month.{{else}}Your home county is rated lower for
 earthquakes, but you may travel or move to a place that is not; the reflex below is worth knowing
 everywhere.{{/if}}
+Ratings in this binder are FEMA's National Risk Index for your county, on a 1-to-3 scale: they measure expected harm to people and property there, not how likely the hazard is. A big city can rate 3 for a rare hazard because so much is exposed (Cook County, Illinois, rates 3 for earthquakes), and a thinly settled county can rate 1 for a hazard that does strike it (→ 29-10).
 
 > **SAFETY.**
 > - **Drop, Cover, and Hold On.** Drop to your hands and knees, cover your head and neck (under a
@@ -103,7 +105,8 @@ everywhere.{{/if}}
 1. **Check yourself, then others, for injuries** (→ 12-02, → 12-09). Shoes on before you walk.
 2. **Gas:** if you smell gas or hear hissing, **get everyone out and shut it off at the meter**
    (→ 16-12). Do not use matches, lighters or switches. Do not turn the gas back on yourself while
-   a utility exists.
+   a utility exists; if none will come, relighting yourself is a decision card:
+   {{choice DC-28}} → 30-29.
 3. **Fire:** small fires are common after earthquakes. Put them out if you safely can (→ 29-12).
 4. **Damaged buildings:** leave if there are large cracks, a shifted foundation, or a leaning
    chimney, and do not go back in until it has been checked.

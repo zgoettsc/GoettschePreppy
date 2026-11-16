@@ -23,10 +23,10 @@ card: DC-28
 options:
   - id: utility-only
     label: "Utility only: wait for the gas company or a technician"
-    summary: "Once the gas has been shut off, or a pilot has gone out after a supply interruption, the household does not turn the gas back on or relight anything itself. It waits for the gas utility, the propane supplier or a qualified technician, however long that takes, and heats and cooks by other means meanwhile."
+    summary: "Once the gas is shut off or a pilot goes out, the household does not turn the gas back on or relight anything itself. It waits for the gas utility, the propane supplier or a qualified technician, however long that takes, and heats and cooks by other means meanwhile."
   - id: relight-with-rules
     label: "Relight ourselves, with rules"
-    summary: "Only when no gas company or technician will come: every appliance valve closed before gas is restored, no gas smell anywhere (including at floor level), no appliance that has been under water, each appliance relit by the lighting instructions on its own label, one at a time, a working CO alarm in place, and gas shut off again at once if any smell returns."
+    summary: "Only when no one qualified will come: every appliance valve closed before gas is restored, no gas smell anywhere (floor level too), nothing that has been under water, each appliance relit one at a time by its own lighting label, a working CO alarm, gas off at once if a smell returns."
 settings_summary: "Gas appliances such as water heaters, furnaces and some stoves have a pilot: a small flame that lights the main burner. When the gas is shut off or runs out, every pilot goes out. FEMA says that once gas is turned off, only a qualified professional should turn it back on, and propane safety guidance strongly recommends that only a technician relight a pilot. The danger is gas that has leaked or pooled: propane is heavier than air and settles at the floor, and a flame or spark sets it off. A damaged appliance can also make carbon monoxide. With no gas company coming, waiting may mean no hot water, no furnace, no stove. What helps most: a technician or the utility does it (removes it); every appliance valve closed first, the appliance's own lighting label followed exactly, and a CO alarm (reduces it a lot)."
 review_pass: null
 ---

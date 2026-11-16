@@ -26,7 +26,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "No changes; NOAA G-scale frequencies and FDA/Ready.gov/CDC claims traced to archived sources." }
 ---
 
 # How to think about CBRN and EMP

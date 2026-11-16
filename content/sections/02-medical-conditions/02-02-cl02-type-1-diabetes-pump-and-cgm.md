@@ -77,7 +77,8 @@ rules there apply in full.
 >   meter and strips, and the prescriber's written fallback plan. A pump household without them
 >   is one broken device away from DKA.
 > - **This page never calculates or converts a dose.** The fallback plan is the prescriber's,
->   written in part 7 below.
+>   written in part 7 below. FDA's emergency switching text is printed there as published,
+>   for the prescriber to confirm.
 
 ## Do this now: the device has failed
 
@@ -224,7 +225,84 @@ Target sugar ____________   Average total daily insulin (from the pump) ________
 guidance on switching from a pump to injections, and both say it should be done with a
 physician (FDA; ADA, Switching Between Insulin Products in Disaster Response Situations). Both
 documents are bound behind this page in the Large download. **This binder does not convert
-doses.**
+doses**; FDA's published text follows, for your prescriber to confirm.
+
+### As published, for your prescriber to confirm
+
+FDA's emergency guidance on switching insulin is printed here **exactly as published**, so that
+you can show it to the prescriber **now** and have them confirm or change it for this person
+(FDA, Information Regarding Insulin Storage and Switching Between Products in an Emergency,
+content current as of 09/28/2026). It is not this binder's advice, and the binder does not work
+out any amount from it. Brand names are FDA's examples.
+
+> **FDA:** "Always switch insulin under a doctor's care, with close monitoring of your blood
+> sugar. If you cannot reach a doctor during an emergency, follow the guidance below — but
+> monitor your blood sugar closely and see a doctor as soon as you can."
+
+> **FDA, Insulin Pumps:** "If your pump supplies are not available or your pump is not working
+> properly, you may need to switch to injected insulin. This should be done with a doctor's
+> guidance and close blood sugar monitoring whenever possible.
+>
+> Using a Different Insulin in Your Insulin Pump: In an emergency, you may be able to swap one
+> rapid-acting insulin (such as Apidra, Fiasp, Humalog, NovoLog) for another on a unit-per-unit
+> basis. Check your pump's instructions to make sure the available insulins are compatible with
+> your devices.
+>
+> Note: Not all rapid-acting insulins are approved for pump use. Merilog (insulin aspart-szjj) is
+> not currently labeled for insulin pump use. Humalog U-200 and Lyumjev U-200 must NOT be used in
+> insulin pumps. Always check the specific insulin product labeling before use in a pump.
+>
+> Switching from an Insulin Pump to Injected Insulin: If you must switch from your pump to
+> injected insulin, use the following guidance:
+>
+> Replace your pump's total 24-hour basal (background) dose with insulin on a unit-per-unit
+> basis.
+>
+> For intermediate-acting insulin, split the 24-hour basal (background) dose into two equal
+> injections per day. For example, if your 24-hour basal (background) dose is 24 units, inject
+> 12 units twice daily.
+>
+> For long-acting insulin, give the full 24-hour basal (background) dose as one injection per
+> day.
+>
+> If regular or rapid-acting insulin is also available, use it with each meal. Match your pump's
+> bolus (mealtime) dose on a unit-per-unit basis.
+>
+> For example, if your pump gives a bolus (mealtime) of 5 units to cover breakfast, inject 5
+> units of regular or rapid-acting insulin to cover that meal"
+
+> **FDA, Intermediate and Long-acting Insulins:** "In an emergency, you can switch one brand of
+> intermediate-acting insulin (such as, Humulin N, Novolin N) for another intermediate-acting
+> insulin on a unit-per-unit basis. You can also switch intermediate-acting insulins for
+> long-acting insulins (e.g., Lantus, Toujeo, Tresiba) on a total unit-per-day basis, or vice
+> versa.
+>
+> Important: If you switch from a once-daily long-acting insulin (e.g., Lantus, Toujeo, Tresiba)
+> to an intermediate-acting insulin, keep your total daily dose the same but split it into two
+> equal injections. Give half in the morning with breakfast and half in the evening with dinner
+> to avoid a dangerously low blood sugar.
+>
+> If you switch from an intermediate-acting to a once-daily long-acting insulin, add up the total
+> amount of intermediate-acting insulin units for one day, and give it as a single long-acting
+> insulin dose once a day.
+>
+> Close monitoring of blood sugar and adjustment of your insulin dose may be needed in the
+> transition."
+
+> **FDA, Short-acting (regular insulin) and Rapid-acting Insulins:** "In an emergency, you can
+> switch one brand of regular insulin (such as Humulin R or Novolin R) for another brand of
+> regular insulin, or for a rapid-acting insulin (such as Apidra, Fiasp, Humalog, or NovoLog),
+> and vice versa. Use the same number of units.
+>
+> Inject regular insulins approximately 30 minutes before the start of each meal. Rapid-acting
+> insulins begin working more rapidly than regular insulin and are to be injected no more than
+> 15 minutes before the start of each meal to avoid dangerously low blood sugar levels."
+
+**Prescriber, please read the FDA text above and confirm it for this person, or write what to
+do instead.** Person: ____________________
+Agree as printed ☐  Change as written here: _________________________________________________
+_____________________________________________________________________________________________
+Prescriber: ____________________ Initials: ______ Date: __________
 
 **Ask your prescriber now, while you can, and write it here** (have them write it, and initial it):
 - Long-acting insulin product: ______________ Amount: ________ When: ______________

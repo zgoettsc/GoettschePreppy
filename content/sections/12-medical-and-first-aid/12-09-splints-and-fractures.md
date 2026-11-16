@@ -14,6 +14,8 @@ sources:
   - cdc-about-sepsis-a8304b
   - cdc-preventing-hypothermia-c53e0c
   - american-red-cross-winter-storm-preparedness-and-bli-4bb6c0
+  - medlineplus-broken-bone
+  - wfa-minimum-guidelines-scope-of-practice-2012
 related:
   - 12-01-first-aid-kit
   - 12-02-bleeding-and-wounds
@@ -25,7 +27,8 @@ related:
   - 16-06-axes-and-saws
   - 17-01-blizzards-and-ice
   - 00-07-household-roles
-cards: []
+  - 30-30-dc29-pulseless-limb-traction
+cards: [DC-29]
 explainers: []
 promote_when: [is.cold_winters]
 photo_slots: []
@@ -48,7 +51,8 @@ sprains, and planning for the weeks when an injured adult cannot work.
 >   infection risk (→ 12-04). It is beyond household care.
 > - **Do not try to straighten (realign) a broken bone from this page.** Realigning is a
 >   procedure with real risk to nerves and blood vessels. It is taught hands-on in wilderness
->   first-aid courses; take one now (→ 24-01).
+>   first-aid courses; take one now (→ 24-01). The one exception, a limb with no pulse below the
+>   break when no care is coming, is a decision card (→ 30-30).
 > - **After any high-energy fall, check the head, neck, back, pelvis and belly before the
 >   obvious limb.**
 > - **A person lying still on cold ground is becoming hypothermic** (dangerously cold; CDC,
@@ -100,8 +104,11 @@ costs far more.
 - **Bone showing, or a wound over the break** (open fracture)
 - **The hand or foot beyond the injury is pale, cold, blue, numb or has no pulse.** Blood flow
   may be cut off, and the limb can be lost within hours. If any care exists, go now (→ 12-16).
-  Wilderness first-aid courses teach what trained responders do in this exact situation when
-  care is far away; it must be learned hands-on, not from a page.
+  When no care is coming, published first-aid guidance says to try to bring the limb back toward
+  its normal position, and wilderness first aid teaches gentle traction for it (MedlinePlus,
+  Broken Bone; Wilderness First Aid Scope of Practice); splinting as found risks the limb, one
+  gentle pull risks pain and added injury. Your household's choice: {{choice DC-29}} → 30-30.
+  It must be learned hands-on, not from a page.
 - **Suspected spine, neck, pelvis or hip fracture**: do not move the person except to save them
   from an immediate hazard
 - **Suspected skull fracture or significant head injury** (→ 12-19)

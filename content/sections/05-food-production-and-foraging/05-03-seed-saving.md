@@ -2,7 +2,7 @@
 id: 05-03-seed-saving
 section: 05-food-production-and-foraging
 title: "Seed saving and a survival seed stock"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -10,8 +10,8 @@ phase: [A, B, C]
 tags: [seed saving, open-pollinated, heirloom, hybrid, germination test, seed storage, barter]
 derived_from: [05-03-seed-saving]
 sources:
-  - sdsu-extension-the-basics-of-seed-starting-for-flowe-fcfb31
-  - sdsu-extension-vegetable-gardening-in-south-dakota-p-b8fdbd
+  - umn-extension-saving-vegetable-seeds
+  - illinois-extension-will-my-seeds-still-grow
 related: [05-01-a-small-high-yield-garden, 05-02-season-extension, 05-13-perennials-and-fruit, 05-14-indoor-growing, 05-18-destination-garden-calendar, 04-09-winter-cold-storage, 04-16-sprouting, 18-02-barter-and-trade-goods, 01-03-phase-b-movement, 02-04-cl04-food-allergy]
 cards: []
 explainers: []
@@ -24,7 +24,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "state-specific citations replaced; seed-life table, germination test, storage temperature and tomato fermentation re-traced to Illinois and UMN Extension; unsourced corn isolation distance removed" }
 ---
 
 # Seed saving and a survival seed stock
@@ -86,15 +86,17 @@ and are rich in calories and protein.
 | Beans, peas, lettuce, tomato | A few feet between varieties is enough |
 | **Peppers** | **Bag the blossoms** (tie a scrap of row cover over a flower cluster until fruit sets) **or grow one variety** |
 | Squash, cucumber, melon | One variety per species, or hand-pollinate at dawn and tape the flower shut (→ 05-12) |
-| Corn | One variety, or at least ¼ mile from any other |
+| Corn | One variety, or keep it far from any other corn: wind carries corn pollen, and popcorn crosses with sweet corn (University of Minnesota Extension) |
 | Cabbage family, beets, chard, onions, carrots | One variety flowering per year (beets and chard cross; so do all the cabbage-family crops) |
 
 ### Saving the easy three, and peppers
 
-- **Beans and peas:** let the pods dry brown and rattly on the plant. Shell, dry further
+- **Beans and peas:** let the pods dry brown and rattly on the plant (up to a month after you
+  would pick them to eat). Dry them indoors at least two weeks before shelling, dry further
   indoors, store.
-- **Tomatoes:** scoop the seeds and gel into a jar with a little water and let it ferment for
-  2 to 4 days (this removes a coating that stops sprouting). Rinse, then dry thoroughly on a
+- **Tomatoes:** scoop the seeds and gel into a jar with a little water, swirl it twice a day and
+  let it ferment until the seeds sink, within about five days (University of Minnesota
+  Extension, Saving Vegetable Seeds). Pour off the liquid, rinse, then dry thoroughly on a
   plate.
 - **Peppers:** from a bagged blossom or your only variety, let the fruit ripen fully, scrape the
   seed, dry it.
@@ -104,7 +106,9 @@ necessary, then store it with a desiccant (a drying agent such as silica gel pac
 
 ### Storing seed
 
-- **Cool, dark, dry and steady.** A basement or the coldest corner of the house, sealed.
+- **Cool, dark, dry and steady.** Between 32 and 41 °F is ideal, so a refrigerator works,
+  sealed in a glass jar (University of Minnesota Extension). Otherwise a basement or the coldest
+  corner of the house, sealed.
 - **Sealed jars with silica gel.** Silica gel can be dried out again in a warm oven and reused.
 - **Freezing extends life a lot** for thoroughly dried seed, if it stays sealed against
   moisture. A winter outbuilding or a freezer works.
@@ -112,16 +116,26 @@ necessary, then store it with a desiccant (a drying agent such as silica gel pac
 
 ### How long seed lasts
 
-| Seed | Typical life (cool, dry) |
-|---|---|
-| Onion, parsnip, leek | 1 to 2 years (short) |
-| Corn, pepper, carrot, pea | 2 to 3 years |
-| Bean, tomato, radish, beet | 3 to 5 years |
-| Cucumber, squash, melon, lettuce, cabbage family | 4 to 6 years |
+Approximate seed life, stored cool and dry (University of Illinois Extension, Will My Seeds
+Still Grow?):
 
-**Germination test:** put 10 seeds in a damp paper towel in a bag somewhere warm; count how
-many sprout in one to two weeks. Seven of ten means 70 %: sow more thickly rather than
-throwing it out.
+| Seed | Approximate life |
+|---|---|
+| Onion, parsnip, parsley | 1 year |
+| Leek, sweet corn, pepper, okra | 2 years |
+| Bean, pea, carrot, broccoli, kohlrabi, spinach, celery | 3 years |
+| Tomato, beet, cabbage, cauliflower, kale, squash, pumpkin, watermelon, chard, eggplant | 4 years |
+| Cucumber, muskmelon, radish, collards, endive | 5 years |
+| Lettuce | 6 years |
+
+The University of Minnesota advises using your own saved seed within a year where you can; older
+seed sprouts less and grows weaker plants.
+
+**Germination test** (University of Illinois Extension): put 10 seeds on a damp paper towel,
+fold it into a bag or box so it stays damp, label it, and leave it somewhere warm (no light
+needed) for the days to sprouting on the packet. **All 10 sprout:** sow as normal. **7 to 9:**
+sow more thickly. **6 or fewer:** replace the seed if you can; the plants it makes will be
+weak.
 
 ### Building the stock
 

@@ -2,14 +2,14 @@
 id: 13-07-latrine-siting
 section: 13-sanitation-and-waste
 title: "Siting a latrine away from water"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
 phase: [A, B, C]
 tags: [sanitation, latrine, pit latrine, setback distances, water table, cathole, groundwater]
 derived_from: [13-07-latrine-siting]
-sources: [cdc-global-water-sanitation-and-hygiene-about-global-2d18c4, cdc-private-drinking-water-and-public-health-dc08f9, us-epa-septic-systems-septicsmart-how-onsite-systems-b09325, world-health-organization-sanitation-285e03]
+sources: [cdc-global-water-sanitation-and-hygiene-about-global-2d18c4, cdc-private-drinking-water-and-public-health-dc08f9, us-epa-septic-systems-septicsmart-how-onsite-systems-b09325, world-health-organization-sanitation-285e03, msf-cholera-guidelines-excreta-pit, wedc-emergency-sanitation-assessment-and-programme-design-ch5, who-technical-note-13-planning-for-excreta-disposal-in-emergencies, nps-leave-no-trace-seven-principles]
 related: [13-01-human-waste-no-plumbing, 13-02-hygiene-and-handwashing, 13-05-winter-sanitation, 13-06-composting-toilet, 13-11-disease-outbreak, 13-12-septic-off-grid, 03-04-purifying-water, 03-07-testing-water, 03-10-well-water-without-power, 01-04-phase-c-establish, 01-05-choosing-a-destination, 06-02-sustaining-fire, 11-06-boots-and-traction, 16-01-essential-hand-tools, 17-03-floods, 18-01-mutual-aid, 21-02-long-haul-morale, 22-03-go-bags-and-kits, 23-02-master-consumables-table, 25-04-maps]
 cards: []
 explainers: []
@@ -22,7 +22,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Setbacks now sourced: 30 m wells (MSF), 30 m surface water and 1.5 m above wet-season water table (WEDC), 6 m from dwellings (WHO TN13, replaces unsourced 50 ft); cathole 6-8 in / 200 ft from NPS." }
 ---
 
 # Siting a latrine away from water
@@ -40,7 +40,7 @@ how to build one, and how to deal with waste while traveling.
 > later.
 >
 > **Safe distances depend on soil, slope and how deep the groundwater is.** The numbers here are
-> cautious planning minimums. When in doubt, go further.
+> the published emergency minimums (MSF; WHO and WEDC). When in doubt, go further.
 
 ## Do this now
 
@@ -70,17 +70,18 @@ soil, and it moves downhill. Everything else is detail on that one rule.
 
 {{figure fig-latrine-setbacks}}
 
-**These are minimums to plan around. Further is better.**
+**These are minimums to plan around. Further is better.** The published figures are metric:
+30 metres is about 100 feet, 1.5 metres about 5 feet, 6 metres about 20 feet.
 
 | From | Minimum distance | Notes |
 |---|---|---|
-| **A well or spring** | **At least 100 ft, and further in sandy or cracked rock ground** | **Downhill of the well, never uphill** |
-| **Any surface water** (creek, pond, river, ditch) | **At least 100 ft, more on a slope** | Includes drainage channels that only run in spring |
-| The house or living space | 50 ft or more | Far enough for smell and flies, close enough to actually use in winter |
+| **A well, borehole or spring** | **At least 100 ft (30 m)** (MSF, Medical Guidelines), and further in sandy or cracked rock ground | **Downhill of the well, never uphill** |
+| **Any surface water** (creek, pond, river, ditch) | **At least 100 ft (30 m)** (WEDC, Emergency Sanitation), more on a slope | Includes drainage channels that only run in spring |
+| The house or living space | **At least 20 ft (6 m)** (WHO, Technical Note 13), further if you can | Far enough for smell and flies, close enough to actually use in winter |
 | The edible garden | Well apart | And downhill |
 | Food storage, kitchen | Well apart | |
 | Property line, neighbors | As far as possible | Their water matters too |
-| **The groundwater (water table)** | **At least 5 ft (1.5 m) of dry soil under the bottom of the pit.** Dig a test hole and wait a day to see if water seeps in | **The one people miss** |
+| **The groundwater (water table)** | **The bottom of the pit at least 5 ft (1.5 m) above the water table at its wettest season** (MSF; WEDC). Dig a test hole and wait a day to see if water seeps in | **The one people miss** |
 
 **The water table matters most.** A pit dug into or near groundwater empties straight into the
 water people pump from wells. **Near rivers and in low ground the water table can be very
@@ -115,8 +116,9 @@ store, → 13-01).
 1. **Dig a test hole first** to check for groundwater and rock.
 2. **Dig deep and narrow rather than wide and shallow:** more room, less surface, less smell,
    easier to cover.
-3. **Put a slab or platform over the pit.** This is what makes it an "improved" latrine in CDC
-   and WHO terms: it keeps people from touching the waste and keeps rain out. **A wooden
+3. **Put a slab or platform over the pit.** A pit latrine with a slab counts as an "improved"
+   facility in CDC's terms and one without a slab does not (CDC, About Global Sanitation): it
+   keeps people from touching the waste and keeps rain out. **A wooden
    platform with a seat and a lid.**
 4. **A lid that closes.** Flies breeding in a latrine and then landing on food is a textbook
    way disease spreads.
@@ -124,15 +126,16 @@ store, → 13-01).
    smell and flies.
 6. **A handwashing station at the latrine** (→ 13-02). A tippy-tap costs nothing, and it is the
    whole point.
-7. **When it is about two-thirds full, close it:** fill with soil, mound it so water runs off,
-   mark it, and **do not plant food crops there.** Dig the next one somewhere else.
+7. **Close it well before it is full**, leaving room for a thick cap of soil: fill with soil,
+   mound it so water runs off, mark it, and **do not plant food crops there.** Dig the next
+   one somewhere else.
 8. **Keep a record of where old pits are** (→ 25-04).
 
 ## Waste while traveling
 
-- **200 feet (about 70 paces) from any water, camp or trail.**
-- **A "cathole" 6 to 8 inches deep** in the dark top layer of soil, filled in and covered.
-- **Pack out toilet paper**, or bury it deep with the waste; **never leave it on the surface.**
+- **A "cathole" 6 to 8 inches deep, at least 200 feet from water, camp and trails**; cover
+  and disguise it when finished (National Park Service, Leave No Trace Seven Principles).
+- **Pack out toilet paper and hygiene products** (NPS); **never leave them on the surface.**
 - **Never near a water source anyone might drink from** (→ 03-04).
 - **In frozen ground you often cannot dig:** pack it out. Carry bags for exactly this.
 - **Wash hands:** carry sanitizer for when there is no water (→ 13-02).
@@ -183,8 +186,7 @@ unlined scrape on the move gets more distance.
 - **A pit fills.** Plan for **more than one pit** over a long event. Pick the second and third
   sites when you dig the first, so you are not choosing under pressure.
 - **Capacity:** a household fills a pit faster than expected, **especially if urine goes in.**
-  Separating urine (→ 13-01, → 13-06) makes a pit last several times longer (roughly three times
-  is a planning figure, not a published one).
+  Separating urine (→ 13-01, → 13-06) makes a pit last much longer.
 - **Runway:** estimate pit volume against your household's use and put it in → 23-02. A slow
   clock, but a clock.
 - **Substitute:** compost system (→ 13-06), bag and store (→ 13-01), or the sewer or septic if it

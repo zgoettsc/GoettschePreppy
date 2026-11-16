@@ -2,7 +2,7 @@
 id: 03-05-rain-and-snow-water
 section: 03-water
 title: "Rain catchment and melting snow and ice"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -22,7 +22,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CDC mosquito rule corrected to screen or empty every 10 days; roof yield uses dwelling.roof_area_sqft and derived.rain_gal_per_inch (0.623); unsourced snow ratio removed." }
 ---
 
 # Rain catchment and melting snow and ice

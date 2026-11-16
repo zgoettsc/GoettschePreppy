@@ -2,7 +2,7 @@
 id: 27-02-emp-and-geomagnetic-storm
 section: 27-cbrn-and-emp
 title: "EMP and geomagnetic storms: what actually happens"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -12,6 +12,8 @@ derived_from: [27-02-emp-and-geomagnetic-storm]
 sources:
   - noaa-space-weather-prediction-center-noaa-space-weat-038109
   - noaa-space-weather-prediction-center-noaa-space-weat-10d973
+  - noaa-swpc-coronal-mass-ejections
+  - cisa-electromagnetic-pulse
   - noaa-national-weather-service-noaa-weather-radio-all-5f13d8
   - american-red-cross-power-outage-safety-6d07a8
 related: [27-01-how-to-think-about-this, 27-03-protecting-electronics, 17-08-power-grid-failure, 09-01-power-priorities, 09-10-power-for-medical, 15-01-weather-alerts, 23-02-master-consumables-table, 00-06-first-60-minutes, 09-16-outage-day-one]
@@ -25,7 +27,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CME lead time sourced to SWPC; HEMP row sourced to CISA; household-electronics and transformer claims softened to what NOAA states." }
 ---
 
 # EMP and geomagnetic storms: what actually happens
@@ -57,9 +59,9 @@ away**, which the rest of this binder already plans for.
 |---|---|---|
 | **Cause** | The sun: a burst of charged particles (a coronal mass ejection) hitting Earth's magnetic field | A nuclear weapon set off high in the atmosphere |
 | **How likely** | **Recurring.** NOAA expects about 4 G5 storms per 11-year solar cycle | Low, and needs a nuclear attack |
-| **Warning** | **Yes: hours to days**, from NOAA | None |
-| **Main way it does damage** | Currents pushed into **very long conductors**: power lines, pipelines, and the large transformers at their ends | A fast pulse into electronics and wiring, plus the same long-line effects |
-| **Household electronics** | Mostly not affected directly; you lose power because the grid does | Unpredictable; published claims vary wildly |
+| **Warning** | **Yes: hours to days.** NOAA: the fastest Earth-directed solar storms arrive in as little as 15 to 18 hours, slower ones take several days (NOAA SWPC, Coronal Mass Ejections) | None |
+| **Main way it does damage** | Currents pushed into **very long conductors**: power lines, pipelines, and the large transformers at their ends (NOAA scale) | CISA: it may damage or disable large sections of the national electric grid, and can harm electronics that are not protected, directly or through the systems they depend on (CISA, Electromagnetic Pulse) |
+| **Household electronics** | NOAA's scale lists effects on power grids, satellites, radio and navigation, not on household devices; you lose power because the grid does | Unpredictable; published claims vary wildly |
 
 **The practical point:** both end in the same place for you: **no grid, possibly for a long time,
 possibly over a wide area.** This binder already treats that as its starting point.
@@ -99,7 +101,8 @@ So do not plan around one. Plan around the two things that are reliable:
 The honest difference between "the power is out" and these scenarios:
 - **It is regional, not local.** No repair crews coming from the next state, because the next
   state has the same problem. Neighbours matter more, not less (→ 18-01).
-- **Repair is slow.** Large transformers are built to order and take a long time to make.
+- **Repair can be slow.** NOAA's scale says a G5 storm can damage transformers, and large
+  transformers are not kept on a shelf.
 - **Fuel stops moving** once pumps and card payments are down (→ 06-06, → 22-05).
 - **Water and sewage run on electricity.** Town water may fail or lose pressure (→ 03-02)
   {{#if has.well}}, and your well pump stops (→ 03-10){{/if}}.

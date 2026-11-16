@@ -2,7 +2,7 @@
 id: 17-09-pandemic-and-illness
 section: 17-weather-and-regional-hazards
 title: "Pandemic and widespread illness"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -16,6 +16,8 @@ sources:
   - cdc-about-sepsis-a8304b
   - cdc-preventing-spread-of-respiratory-viruses-when-yo-1008e8
   - cdc-masks-and-respiratory-viruses-prevention-respira-2c187e
+  - cdc-preventing-norovirus-682487
+  - epa-reduce-smoke-exposure-factsheet-2026
 related: [13-02-hygiene-and-handwashing, 13-10-dishwashing-and-food-hygiene, 13-11-disease-outbreak, 12-04-infection-and-antibiotics, 12-05-common-illness-and-dehydration, 12-07-meds-stockpile, 12-11-chronic-conditions, 12-15-mental-health-crisis, 12-16-triage-and-hard-calls, 04-01-calorie-and-stockpile-math, 04-02-building-a-pantry, 01-02-go-no-go-decision, 18-01-mutual-aid, 18-06-conflict-resolution, 19-02-cash-and-value, 20-03-routine-and-schooling, 21-02-long-haul-morale, 23-02-master-consumables-table, 02-27-a-condition-not-in-the-library, 30-16-dc15-someone-elses-prescription, 30-17-dc16-antibiotics-without-a-prescription]
 cards: [DC-15, DC-16]
 explainers: [EX-07]
@@ -27,7 +29,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Return-to-activity rule, mask ranking (KF94 dropped) and norovirus 48 h resourced to CDC; under-2 to EPA." }
 ---
 
 # Pandemic and widespread illness
@@ -105,15 +107,17 @@ Layered, and none is complete alone:
 Germ-specific public health guidance overrides this. When there is none to be had, run this (CDC,
 Preventing Spread of Respiratory Viruses When You're Sick):
 - **The sick person stays home and apart from others while they have symptoms.** They go back to
-  normal activity when **symptoms are improving overall and they have had no fever for 24 hours
-  without fever-reducing medicine**, then take **added precautions for 5 more days**: mask,
-  distance, fresh air, hand washing.
-- **Stomach illness:** the same shape; the sick person stays apart until 48 hours after the
-  last vomiting or diarrhoea (→ 13-11).
-- **Masks, best first:** a NIOSH-approved **N95** respirator, then **KN95 or KF94**, then a
-  **surgical mask**, then **cloth**. Fit is most of the protection: a gapping N95 works like a
-  surgical mask (CDC, Masks). **No mask on a child under 2**: their protection is distance and the
-  sick adult wearing one.
+  normal activity when, **for at least 24 hours, their symptoms are getting better overall and they
+  have had no fever without using fever-reducing medicine**, then take **added precautions over
+  the next 5 days**: cleaner air, hygiene, a well-fitted mask, distance.
+- **Stomach illness:** the same shape. CDC: a person who has had norovirus does not prepare or
+  handle food or care for others until at least 2 days (48 hours) after symptoms stop (CDC, How
+  to Prevent Norovirus; → 13-11).
+- **Masks, best first:** a NIOSH-approved **N95** respirator, then an international respirator
+  such as a **KN95**, then a **surgical** (disposable) mask, then **cloth**. Fit matters: gaps let
+  air leak in and out (CDC, Masks and Respiratory Viruses Prevention). **No respirator on a child
+  under 2** (EPA, Reduce Your Smoke Exposure): their protection is distance and the sick adult
+  wearing one.
 - **Hands:** soap and water for **20 seconds**, before eating or feeding a child, after coughing or
   caring for the sick, after the toilet. Hand sanitizer with **at least 60% alcohol** when hands are
   not visibly dirty (CDC, Handwashing; → 13-02).

@@ -190,6 +190,8 @@ for (const [i, f] of profiles.entries()) {
   const relay = createDryRunRelay();
   const plan = mapPlan(profile, fkit);
   ok(plan.base.count === 2 && plan.route.count >= 1 && plan.route.max_mb > 0, `fixture: map plan home+destination ${plan.base.count}, route counties ${plan.route.count} (${plan.route.min_mb}-${plan.route.max_mb} MB, opt-in)`);
+  const capped = mapPlan(profile, fkit, { maxMaps: 2 });
+  ok(capped.route.bound === 0 && capped.route.max_mb === 0 && capped.base.bound === 2, 'fixture: map plan counts only the maps kept under the cap');
   kitFor.set(profile, fkit);
   const fx = await generateBinder(profile, fkit, { relay, size: 'large', routeMaps: true, loadAsset: async p => { try { return new Uint8Array(fs.readFileSync(path.join(fxOut, p))); } catch { return null; } } });
   const fhtml = await fx.text();

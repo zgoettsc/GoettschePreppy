@@ -2,14 +2,14 @@
 id: 29-04-ex04-electricity-in-the-house
 section: 29-explainers
 title: "Electricity in the house: the panel, breakers, transfer switches and backfeeding"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: explainer
 danger_level: critical
 phase: [A, C]
 tags: [electricity, panel, breaker, main breaker, transfer switch, interlock, backfeed, extension cord, GFCI, generator, explainer]
 derived_from: [09-04-generators, 09-08-wiring-and-safety, 09-12-ac-dc-cables-and-connectors]
-sources: [osha-quickcard-portable-generator-safety, osha-electrical-safety-and-health-topics-a7a68f, us-consumer-product-safety-commission-cpsc-what-to-k-3390a4, fema-ready-gov-utility-shut-off-and-safety-natural-g-7965ad]
+sources: [osha-quickcard-portable-generator-safety, osha-electrical-safety-and-health-topics-a7a68f, us-consumer-product-safety-commission-cpsc-what-to-k-3390a4, fema-ready-gov-utility-shut-off-and-safety-natural-g-7965ad, cpsc-safety-alert-portable-generator-hazards-r8]
 related: [09-04-generators, 09-08-wiring-and-safety, 09-12-ac-dc-cables-and-connectors, 09-16-outage-day-one, 28-03-generators, 29-02-ex02-batteries-and-power-stations, 30-01-the-floors, 30-08-dc07-diy-cord-and-plug-conversion]
 cards: [DC-07]
 explainers: [EX-02]
@@ -22,7 +22,7 @@ condition: null
 gear: null
 explainer: EX-04
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Floor 2 reworded to 30-01 (old wording required the main off for a cord-and-plug conversion); backfeed consequences now from the CPSC safety alert read (the OSHA card does not mention fire or generator damage); OSHA quick card transfer-switch and cord lines re-read." }
 ---
 
 # Electricity in the house, explained from the beginning
@@ -33,9 +33,11 @@ the parts, explains backfeeding (the mistake that kills line workers), and says 
 generator connection looks like.
 
 > **SAFETY — the floor that applies (→ 30-01).** **Never connect a generator to house wiring
-> without a transfer switch, interlock, or a cord-and-plug conversion with the main breaker
-> locked off. Never backfeed through an outlet.** Electrocutes line workers and neighbours;
-> fire.
+> except through a transfer switch, or an interlock kit with the main breaker off. Never
+> backfeed through an outlet with a double-male ("suicide") cord.** Electrocutes line workers
+> and neighbours; fire. A cord-and-plug conversion is not a connection to house wiring: the
+> appliance is unplugged from the house outlet and plugged into the generator cord, so nothing
+> reaches the panel.
 
 ## The parts
 
@@ -63,9 +65,9 @@ supply. → 29-02, → 28-03
 flow out through the service to the street. The usual way people do it is a homemade cord with a
 plug on both ends, pushed into a wall outlet. The power goes backward through your meter, up to
 the transformer, which raises it to the high voltage of the street line, and **can electrocute a utility worker
-repairing a line they believe is dead**, or a neighbour near a downed wire. It can also start a
-fire in your walls and destroy the generator when the grid comes back (OSHA, Portable Generator
-Safety).
+repairing a line they believe is dead**, or a neighbour served by the same transformer. It also
+bypasses some of the house's own circuit protection (CPSC, Safety Alert: Portable Generator
+Hazards).
 
 OSHA's rule: **never attach a generator directly to a building's electrical system unless it
 has a properly installed transfer switch**, because of the electrocution risk to utility
@@ -78,8 +80,9 @@ workers. A cord with two plug ends is never used for anything.
 2. **A transfer switch or interlock with an inlet**, installed by an electrician. You then power
    chosen circuits through the panel with no path to the street.
 3. **A cord-and-plug conversion** of one hard-wired appliance (such as a furnace) so it can be
-   unplugged from the house and plugged into a generator cord, with the main breaker locked off.
-   Whether you do this yourself or have an electrician do it is a choice: {{choice DC-07}} → 30-08
+   unplugged from the house outlet and plugged into a generator cord. Nothing then reaches the
+   panel. Whether you do this yourself or have an electrician do it is a choice:
+   {{choice DC-07}} → 30-08
 
 Generators run outdoors, at least 20 feet from the house (CPSC). → 29-03
 
@@ -104,8 +107,8 @@ connection to house circuits: a qualified electrician (OSHA, Electrical).
 ## This household
 
 {{#if has.generator}}Your generator connects to the house by: {{ gear.house_connection }}.
-{{#if has.house_connection}}Before you ever use it, check that the main breaker is off, or the
-transfer switch is set to generator, every single time. → 09-04{{else}}Use extension cords to
+{{#if has.house_connection}}Before you ever use it, check that the transfer switch is set to
+generator, or with an interlock that the main breaker is off, every single time. → 09-04{{else}}Use extension cords to
 individual appliances only. → 09-04{{/if}}{{else}}No generator is listed. Extension cords from a
 power station follow the same cord rules. → 09-03{{/if}}
 

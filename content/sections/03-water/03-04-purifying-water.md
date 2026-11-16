@@ -2,14 +2,14 @@
 id: 03-04-purifying-water
 section: 03-water
 title: "Purifying water: boil, chemical, filter"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
 phase: [A, B, C]
 tags: [water, purification, boil, bleach, pool shock, calcium hypochlorite, filter, UV, SODIS]
 derived_from: [03-04-purifying-water]
-sources: [cdc-how-to-make-water-safe-in-an-emergency-5d78b5, us-epa-emergency-disinfection-of-drinking-water-6aa91f, cdc-atsdr-medical-management-guidelines-for-calcium-d7733b]
+sources: [cdc-how-to-make-water-safe-in-an-emergency-5d78b5, us-epa-emergency-disinfection-of-drinking-water-6aa91f, cdc-atsdr-medical-management-guidelines-for-calcium-d7733b, cdc-cleaning-and-disinfecting-with-bleach-a0118f]
 related: [03-03-pool-water-desalination, 03-05-rain-and-snow-water, 03-06-winter-water, 03-07-testing-water, 03-08-keeping-water-from-going-bad, 03-09-filter-care-and-maintenance, 06-04-wood-supply-and-depletion, 06-06-fuel-storage-safety, 12-05-common-illness-and-dehydration, 12-17-poisoning-and-ingestion, 20-02-child-safety-offgrid, 22-04-household-inventory, 28-06-water-filters, 29-05-ex05-chlorine-products, 29-06-ex06-water-words, 30-01-the-floors, 30-24-dc23-extra-strength-chlorination]
 cards: [DC-23]
 explainers: [EX-05, EX-06]
@@ -22,7 +22,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CDC bleach table verbatim plus EPA 6/8.25% table verbatim; EPA HTH two-step verbatim; ATSDR storage 120 F; unsourced 65-73%, SODIS 2 L and filter 0.1-0.2 micron removed." }
 ---
 
 # Purifying water: boil, chemical, filter

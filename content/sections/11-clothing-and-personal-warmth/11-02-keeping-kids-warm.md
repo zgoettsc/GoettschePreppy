@@ -2,7 +2,7 @@
 id: 11-02-keeping-kids-warm
 section: 11-clothing-and-personal-warmth
 title: "Keeping babies and children warm"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -55,7 +55,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Removed unsourced CDC growth-chart claim and touch-check intervals; AAP sleep guidance quoted as published (room-share at least 6 months, one layer more, overheating signs); CDC infant hypothermia signs exact; DC-09 wording matches card; counts reframed as suggestions." }
 ---
 
 # Keeping babies and children warm
@@ -79,14 +79,16 @@ sleeps safely in a cold house.
 
 ## Do this now
 
-1. **Get the next sizes now.** Children outgrow winter gear every year, and toddlers change size
-   about every six months until about age 3 (CDC growth charts). In a long outage there is no store.
-   {{#if has.toddler}}You have a toddler: plan **three sizes ahead** for them.{{/if}} For older
-   children, two sizes ahead. The ledger that tracks this is → 11-09.
+1. **Get the next sizes now.** Children outgrow winter gear every year, and babies and toddlers
+   faster: their clothing sizes step every few months (→ 11-09). In a long outage there is no store.
+   A reasonable target is two sizes ahead for older children{{#if has.toddler}}, and for your
+   toddler **three sizes ahead**{{else}} and three for a toddler{{/if}}. The ledger that tracks
+   this is → 11-09.
 2. **Wool or synthetic base layers, not cotton,** for every child.
 3. **Start the touch-check habit:** feel the **back of the neck and the belly**, not the hands (small
-   hands run cold normally). Every 10 to 15 minutes outdoors, every few minutes when a child is
-   carried or pulled on a sled, and every hour in a cold house.
+   hands run cold normally). Often outdoors, every few minutes when a child is carried or pulled on
+   a sled, and regularly through the day in a cold house. Set the interval before you go out, and
+   shorten it as the wind chill drops (→ 11-01).
 4. **Teach children old enough to talk to report:** "Tell a grown-up if any part of you hurts,
    tingles, or stops feeling" (→ 20-04). Babies cannot, so they are checked, always.
 
@@ -99,10 +101,12 @@ sleeps safely in a cold house.
   adults around them work hard and feel warm. **The adult is a bad thermometer for the child.**
 - **They don't report.** They get quiet, clingy, sleepy or fussy, which looks like ordinary child
   behaviour.
-- **They get wet:** snow down the neck, wet mittens, a soaked nappy, drool, puddles. **Wet is the main
-  route to cold injury in children** (→ 11-03).
-- **Thinner skin:** frostbite comes faster on cheeks, ears and fingers. The NWS wind chill chart was
-  built for adults; be more cautious with children (NWS, Wind Chill Chart; → 11-01).
+- **They get wet:** snow down the neck, wet mittens, a soaked nappy, drool, puddles. **Wet is a fast
+  route to cold injury**: CDC notes hypothermia can happen above 40 °F in someone who is wet (CDC,
+  Preventing Hypothermia; → 11-03).
+- **Frostbite on cheeks, ears and fingers.** The NWS wind chill chart was tested on adults only;
+  NWS says use it as a starting point and be even more cautious with children (NWS, Wind Chill
+  Chart; → 11-01).
 
 ## Dressing children
 
@@ -110,8 +114,9 @@ The same three layers as → 11-01, with these differences:
 
 - **One-piece garments win.** A bunting or one-piece snowsuit for a baby or toddler and **bib
   overalls** for an older child close the waist gap where snow gets in and warmth gets out.
-- **One more layer than an adult** in the same conditions, because the child is not working.
-- **Mittens, always, on a string through the sleeves.** Two spare pairs at least; they will be wet.
+- **One more layer than an adult** in the same conditions, because the child is not working (AAP:
+  as a rule of thumb, infants wear one more layer than adults).
+- **Mittens, always, on a string through the sleeves.** Keep spare pairs; they will be wet.
 - **Hats that cover the ears and stay on:** a balaclava or a chin-strap hat for a toddler.
 - **Boots sized for thick wool socks,** not tight (→ 11-06).
 - **Neck gaiter, not a scarf.** A loose scarf on a small child is a strangling hazard on play
@@ -141,9 +146,9 @@ cannot tell you (AAP). Also follow the car seat maker's instructions.
 then **stopping** complaining, pale or waxy skin on cheeks, ears or fingers, "my fingers don't feel
 like anything".
 
-**Babies and toddlers:** unusually sleepy or hard to wake, unusually quiet or floppy, **bright red or
-pale, cold skin**, weak cry, cold belly and back of neck, not wanting to feed (CDC, Preventing
-Hypothermia).
+**Babies and toddlers:** CDC's signs in infants are **bright red, cold skin and very low energy**
+(CDC, Preventing Hypothermia). Watch also for unusually sleepy or hard to wake, quiet or floppy,
+a weak cry, a cold belly and back of neck, not wanting to feed.
 
 **Any of these: get warm now, and → 08-05.** In a baby, **sleepy and hard to wake in the cold is an
 emergency,** not a nap.
@@ -153,7 +158,8 @@ emergency,** not a nap.
 - **Inside and out of every wet layer at once.**
 - **Dry, warm layers;** cover the head.
 - **Skin-to-skin under a blanket** with an adult: one of the best ways to rewarm a small child.
-- **Warm drinks** for a child who is fully alert and swallowing normally.
+- **Warm drinks** for a child who is fully alert and swallowing normally; never a drink for a child who is
+  unconscious (CDC), and nothing for one who is too drowsy to swallow safely.
 - **No direct heat on cold skin:** not a stove, heater, hot water or heating pad. Cold, numb skin burns
   without feeling it (CDC, Preventing Frostbite).
 - **No rubbing frostbitten skin.**
@@ -180,14 +186,18 @@ overheating (AAP, How to Keep Your Sleeping Baby Safe). CDC lists **babies sleep
 among those most at risk of hypothermia (CDC). In a cold house:
 
 - **Warmth is worn, not piled on.** A snug base layer, a fleece footed sleeper over it, and **one
-  wearable sleep sack** rated for the room; a thicker (higher-TOG) sack is sold for cold rooms. Follow
-  the room-temperature chart on its label. **Do not stack two sacks:** the makers say not to, and
-  overheating is its own risk. A sack cannot be kicked off at 3 a.m.; a blanket can.
-- **The overheating check:** feel the **neck and chest.** Sweaty or hot means take a layer off. Cool
-  hands and feet are normal.
+  wearable sleep sack** rated for the room; a thicker (higher-TOG, a warmth rating) sack is sold for
+  cold rooms. Follow the room-temperature chart on its label. AAP: if you are worried about a baby
+  getting cold, dress them in layers or use a wearable blanket, generally one layer more than you
+  are wearing; no loose blankets, no weighted sleepers (AAP, How to Keep Your Sleeping Baby Safe).
+  **Do not stack two sacks:** overheating raises the risk of SIDS (sudden infant death) too (AAP).
+  A sack cannot be kicked off at 3 a.m.; a blanket can.
+- **The overheating check:** feel the **neck and chest.** Sweating, a hot chest or flushed skin
+  means take a layer off (AAP). Cool hands and feet are normal.
 - **The baby sleeps in the warm room**, next to the adults (→ 08-01).
-- **Bed-sharing for warmth is a decision card.** The AAP says babies under 1 year sleep in the
-  parents' room but on their **own firm, flat surface, never in an adult bed**. The card offers
+- **Bed-sharing for warmth is a decision card.** The AAP says share a room with your baby for at
+  least the first 6 months, but **never a bed**: the baby sleeps on their own firm, flat surface
+  (AAP). The card offers
   bed-sharing on cold nights only for children over 12 months, with its own rules:
   {{choice DC-09}} (→ 30-10).
   {{#if has.infant}}Your children under 2: {{#each infants as c}}{{c.label}} ({{c.age_text}}); {{/each}}check each one's age against the card.{{/if}}
@@ -215,7 +225,7 @@ fast, in the warm room** (→ 20-06). This competes directly with your water and
 | Item | Why | Notes |
 |---|---|---|
 | **Winter gear in the next sizes** (three for toddlers, two for older children) | They outgrow it and there is no store | Tracked on → 11-09 |
-| Wool or synthetic base layers, 2 to 3 sets per child | Cotton fails; children get wet | Thrift stores |
+| Wool or synthetic base layers, 2 to 3 sets per child (suggested) | Cotton fails; children get wet | Thrift stores |
 | One-piece snowsuit (baby, toddler) or bibs (older) | Closes the waist gap | |
 | Wool socks, 6 pairs per child | Always wet, always lost | Count sheet on → 11-01 |
 | Mittens, 3 pairs per child, and mitten clips | Warmer than gloves | Clipped through the sleeves |

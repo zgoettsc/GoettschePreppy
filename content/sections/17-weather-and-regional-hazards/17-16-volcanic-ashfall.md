@@ -2,7 +2,7 @@
 id: 17-16-volcanic-ashfall
 section: 17-weather-and-regional-hazards
 title: "Volcanic ashfall"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -13,6 +13,7 @@ sources:
   - ready-gov-volcanoes
   - usgs-volcanic-ash-roof-loading
   - epa-clean-room-wildfire
+  - fema-nri-counties
 related: [17-14-wildfire-smoke-and-evacuation, 17-17-landslides-and-debris-flows, 17-12-earthquakes, 17-08-power-grid-failure, 03-02-storing-water, 03-04-purifying-water, 03-05-rain-and-snow-water, 02-07-cl07-asthma, 02-08-cl08-copd-and-oxygen, 22-05-kit-vehicle, 16-12-grid-down-house-repairs, 29-10-ex10-weather-alert-words]
 cards: []
 explainers: [EX-06, EX-10]
@@ -24,7 +25,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "NRI note; roof-clearing contradiction with Ready.gov fixed; ash load figures to USGS wording." }
 ---
 
 # Volcanic ashfall
@@ -36,13 +37,16 @@ Closer to a volcano there are other dangers, below. This page is about living th
 {{#if is.volcano_region}}**Your home county is rated 2 or 3 for volcanic hazard in the region
 data.**{{else}}Your home county is rated lower for volcanic hazard; ash travels far, so keep this
 page if you live downwind of the western volcanoes or travel near them.{{/if}}
+Ratings in this binder are FEMA's National Risk Index for your county, on a 1-to-3 scale: they measure expected harm to people and property there, not how likely the hazard is (→ 29-10).
 
 > **CAUTION.**
-> - **Stay indoors during ashfall** with windows, doors and vents closed (Ready.gov, Volcanoes).
-> - **Outside, wear a well-fitting N95 respirator**; a cloth mask only as a last resort.
+> - **Stay indoors during ashfall** with windows, doors and vents closed, until officials say it
+>   is safe to go out (Ready.gov, Volcanoes).
+> - **Outside, wear a well-fitting N95 respirator**; a dust or cloth mask only as a last resort
+>   (Ready.gov).
 > - **Avoid driving in heavy ash.** It cuts visibility, makes roads slick, and clogs engines.
-> - **Do not climb onto the roof to clear ash unless you have guidance or training.** Wet ash is
->   heavy and roofs are slippery.
+> - **Do not get on your roof to remove ash** (Ready.gov, Volcanoes). Wet ash is heavy and roofs
+>   are slippery.
 > - **Near a volcano, valleys and river channels are where mudflows (lahars) run.** Get to high
 >   ground out of the valley if one is reported.
 
@@ -76,8 +80,9 @@ page if you live downwind of the western volcanoes or travel near them.{{/if}}
 - **Bring pets and livestock in** or under cover; give them clean water.
 - **If you must go out:** N95, goggles or glasses, long sleeves. Change and leave dusty clothes at
   the door.
-- **Driving:** avoid it. If you must, go slowly with headlights on, windows up, and the air
-  conditioning off (Ready.gov). Ash stirred up by traffic stalls engines.
+- **Driving:** avoid driving in heavy ash. If you must, keep the windows up and do not use the air
+  conditioning (Ready.gov); go slowly with headlights on. Ash stirred up by traffic stalls
+  engines.
 
 {{#if has.mobile_home}}**Mobile or manufactured home:** many have low-pitched roofs with long spans,
 the shape most at risk from ash load. Keep gutters clear and plan where you would go if ash builds
@@ -87,15 +92,16 @@ make the clean room inside your unit.{{/if}}
 
 ## Roofs: the ash load
 
-- **Roof collapse from ash is rare** and usually needs very thick ash, generally more than about 4
+- **Roof collapse from ash is rare** and usually needs very thick ash, typically more than about 4
   inches (100 mm) (USGS, Roof Loading).
-- **Rain makes it much worse.** Wet ash can be roughly twice as heavy as dry ash (USGS).
-- **Long, low-pitched roofs** (carports, barns, wide spans) are the most at risk; ordinary small
-  house roofs are stronger.
+- **Rain makes it much worse.** Wet ash is up to twice as dense as dry ash, so the load is up to
+  twice as heavy (USGS).
+- **Long-span, low-pitched roofs that were not engineered** (carports, barns, wide spans) are the
+  most at risk, possibly at about 4 inches or less (USGS).
 - **Gutters fill with ash,** stop draining and add weight. Clear them.
-- **Clearing:** where you can, work from the ground with long-handled tools. Damp the ash lightly to
-  keep dust down, but **do not soak it**: water adds weight. Anyone who goes up follows the safety
-  guidance, is tied off, and works with a partner (Ready.gov; USGS).
+- **Clearing:** Ready.gov's advice is not to get on the roof. Where you can reach, work from the
+  ground with long-handled tools. Damp the ash lightly to keep dust down, but **do not soak it**:
+  water adds weight.
 
 ## After
 

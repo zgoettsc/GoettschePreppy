@@ -2,15 +2,14 @@
 id: 11-09-kids-sizing-ledger
 section: 11-clothing-and-personal-warmth
 title: "Children's sizing ledger and next-size pipeline"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: household
 danger_level: caution
 phase: [A, B, C]
 tags: [children, sizing, clothing, growth, next size, stockpile, hand-me-downs, ledger]
 derived_from: [11-09-kids-sizing-ledger]
-sources:
-  - cdc-national-center-for-health-statistics-clinical-g-8c6561
+sources: []
 related:
   - 11-01-cold-weather-layering
   - 11-02-keeping-kids-warm
@@ -34,7 +33,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Unread CDC growth-chart citation (blocked) removed; sizing pace restated from the US age-labelled size convention, with the household's own measurements as authority; targets framed as suggestions." }
 ---
 
 # Children's sizing ledger and next-size pipeline
@@ -45,10 +44,12 @@ the next sizes you own and where they are stored, and check it every season. The
 clothing rules are on → 11-02. **Everything below is filled in by the household, in pencil: it
 changes.**
 
-> **CAUTION.** Children usually move up about one clothing size a year, and **babies and toddlers about
-> every six months until about age 3**, then yearly (CDC growth charts show how fast children grow at
-> each age). In a long emergency there is no store for the next size. **Own the next two sizes for
-> older children and the next three for toddlers,** or buy for a toddler twice a year.
+> **CAUTION.** US children's clothing is sized by age, so the labels themselves show the pace: baby
+> sizes step every 3 to 6 months (0-3, 3-6, 6-9, 9-12, 12-18, 18-24 months), and from toddler sizes
+> on (2T, 3T, 4T, then 4, 5, 6) about one size a year. A child's own pace varies; the measurements
+> below are what count. In a long emergency there is no store for the next size. **A reasonable
+> target: the next two sizes for older children and the next three for toddlers,** or buy for a
+> toddler twice a year.
 
 ## Do this now
 
@@ -77,7 +78,8 @@ When the table fills up, print the page again: the history shows how fast each c
 
 "N" is the child's current size. Tick the box when the item is **in hand**, and write **where it is
 stored** (a bin in the house, the vehicle, a destination). One grid per child. For a toddler, fill the
-N+3 column too: a toddler size lasts about six months, so N+2 is only about a year of runway.
+N+3 column too: a toddler moves through sizes faster than an older child, so N+2 may be only about
+a year of runway.
 
 {{#each children as c}}
 **{{c.label}} ({{c.age_text}}): current size N = ______**
@@ -135,8 +137,9 @@ worse than a known gap.
 
 ## When it runs out
 
-- **This ledger is the plan** for the fastest-depleting supply in the house. A full grid buys about two
-  years for an older child at N+2, and about one and a half years for a toddler at N+3.
+- **This ledger is the plan** for the fastest-depleting supply in the house. At the pace the size labels
+  imply, a full grid buys roughly two years for an older child at N+2, less for a toddler; your own
+  measurements tell you the real runway.
 - **Beyond the grid:** cut down adult clothing (→ 11-07, → 16-04), trade outgrown gear (→ 18-02), and
   keep measuring.
 

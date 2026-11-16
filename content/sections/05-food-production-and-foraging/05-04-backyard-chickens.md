@@ -2,7 +2,7 @@
 id: 05-04-backyard-chickens
 section: 05-food-production-and-foraging
 title: "Backyard chickens"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -11,12 +11,14 @@ tags: [chickens, eggs, poultry, coop, avian influenza, bird flu, salmonella, win
 derived_from: [05-04-backyard-chickens]
 sources:
   - usda-aphis-defend-the-flock-biosecurity-and-signs-of-7dc7f9
-  - cdc-bird-flu-in-backyard-flocks-protecting-yourself-cbd1bd
+  - usda-aphis-defend-the-flock-how-to-spot-sickness
+  - cdc-preventing-bird-flu-infections
+  - umn-extension-raising-chickens-for-eggs
   - cdc-backyard-poultry
   - foodsafety-gov-usda-hhs-cook-to-a-safe-minimum-inter-13daf3
   - us-fda-food-allergies-627fb6
-related: [05-05-rabbits, 05-11-soil-and-compost, 05-16-processing-poultry, 04-15-eggs-storage, 04-16-sprouting, 04-03-bulk-staples-storage, 04-11-pests-and-rodents, 03-06-winter-water, 08-05-hypothermia-frostbite, 06-06-fuel-storage-safety, 18-02-barter-and-trade-goods, 23-02-master-consumables-table, 02-03-cl03-anaphylaxis, 02-04-cl04-food-allergy, 20-02-child-safety-offgrid]
-cards: []
+related: [30-28-dc27-water-glassed-eggs, 05-05-rabbits, 05-11-soil-and-compost, 05-16-processing-poultry, 04-15-eggs-storage, 04-16-sprouting, 04-03-bulk-staples-storage, 04-11-pests-and-rodents, 03-06-winter-water, 08-05-hypothermia-frostbite, 06-06-fuel-storage-safety, 18-02-barter-and-trade-goods, 23-02-master-consumables-table, 02-03-cl03-anaphylaxis, 02-04-cl04-food-allergy, 20-02-child-safety-offgrid]
+cards: [DC-27]
 explainers: []
 promote_when: [has.chickens]
 photo_slots:
@@ -27,7 +29,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Coop space re-sourced to UMN Extension (3-5 sq ft; unsourced run figure removed); bird-flu signs and reporting re-traced to USDA APHIS; dead CDC link replaced; egg storage card DC-27 referenced" }
 ---
 
 # Backyard chickens
@@ -80,21 +82,23 @@ Write the household's decision and the allergist's input here: _________________
 
 ### Breeds and space
 
-Where winters are cold, choose cold-hardy, dual-purpose breeds (eggs and meat): **Rhode Island
+Where winters are cold, choose medium to large, cold-hardy, dual-purpose breeds (eggs and meat;
+University of Minnesota Extension, Raising Chickens for Eggs): **Rhode Island
 Red, Plymouth Rock, Wyandotte, Orpington, Australorp, Brahma, Chantecler.** **Small combs are
 better:** large single combs get frostbite. Rose-comb and pea-comb breeds handle cold better.
 Where summers are hot, lighter breeds and shade matter more than combs.
 
-**Space:** about **4 square feet per bird inside the coop and 10 square feet per bird in the
-run**. Six hens need about 24 square feet inside plus a 60-square-foot run. Crowding turns a
+**Space:** at least **3 to 5 square feet of indoor floor per bird**, and **one nest box for every
+4 to 5 hens** (University of Minnesota Extension). Six hens need 18 to 30 square feet inside; give
+more where birds are shut in all winter, and as large an outdoor run as you can. Crowding turns a
 winter coop into pecking and disease.
 
 ### Winter management
 
 - **Dry and draft-free, but ventilated.** Moisture, not cold, causes frostbitten combs and
   breathing problems. This is the most common beginner mistake.
-- **No heat lamps. Ever.** Cold-hardy hens do not need heat; a dry coop and deep litter is the
-  method. Heat-lamp fires are a leading cause of lost coops, and they spread to garages and
+- **Avoid heat lamps.** Cold-hardy hens do not need heat; a dry coop and deep litter is the
+  method. Heat-lamp fires destroy coops, and they spread to garages and
   houses, especially where fuel is stored nearby (→ 06-06). A lamp over dusty bedding is how
   you lose the birds and the house.
 - **Deep litter:** keep adding bedding (straw, wood shavings) on top. The lower layers compost
@@ -127,16 +131,19 @@ the runway (→ 23-02).
   snuggle birds, and keep coop shoes outside the house.{{#if has.young_child}} This household
   has a child under 6: keep them out of the coop and away from bird handling.{{/if}}
 - **Bird flu (avian influenza, HPAI H5N1)** has been found in backyard flocks across the
-  country, and people have been infected through contact with sick poultry (USDA APHIS, Defend
-  the Flock; CDC, Bird Flu in Backyard Flocks). **Signs: sudden death of several birds, swollen
-  heads, purple combs or wattles, a sharp drop in laying.** If you see them, assume bird flu:
-  **do not eat them, do not compost them**, wear gloves and a mask to handle them, bury them
-  deep. While phones work, report it to your state veterinarian or animal health agency.
+  country, and people have been infected through unprotected contact with sick birds (USDA
+  APHIS, Defend the Flock; CDC, Preventing Bird Flu Infections). **Signs: sudden death, more
+  birds dying, swelling of the head, comb or wattles, purple combs, wattles or legs, gasping,
+  a sharp drop in laying, soft or misshapen eggs** (USDA APHIS, How To Spot Sickness). If you see
+  them, assume bird flu: **do not eat them, do not compost them**, wear gloves, a mask and eye
+  protection to handle them (CDC), bury them deep. While phones work, report sick or dying birds
+  to your state veterinarian or to USDA at 1-866-536-7593 (USDA APHIS).
   **Prevention:** keep feed and water where wild birds, especially ducks and geese, cannot reach
   them, and keep wild birds out of the coop.
 - **A bird that died on its own is never food** (→ 05-16).
-- **Do not wash eggs until you use them** (→ 04-15). The natural coating ("bloom") is what
-  keeps them.
+- **Collect eggs often and throw away cracked ones** (CDC, Backyard Poultry). How to keep
+  them, washed or unwashed, is on → 04-15; whether to store them in lime water ("water-glassing")
+  is a decision card (→ 30-28): {{choice DC-27}}.
 - **Cook poultry to 165 °F and egg dishes to 160 °F** (FoodSafety.gov).
 - **Put the coop away from the house**, downwind, and well away from stored water (→ 03-08).
 

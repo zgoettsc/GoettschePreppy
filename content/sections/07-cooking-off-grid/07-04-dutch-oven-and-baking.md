@@ -2,7 +2,7 @@
 id: 07-04-dutch-oven-and-baking
 section: 07-cooking-off-grid
 title: "Dutch-oven cooking and baking without an oven"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -12,6 +12,7 @@ derived_from: [07-04-dutch-oven-and-baking]
 sources:
   - foodsafety-gov-usda-hhs-cook-to-a-safe-minimum-inter-13daf3
   - cdc-carbon-monoxide-poisoning-basics-772153
+  - missouri-dept-of-conservation-dutch-oven-cooking-101
 related: [07-01-cooking-on-an-open-fire, 07-02-rocket-stove, 07-05-propane-and-camp-stoves, 06-02-sustaining-fire, 06-04-wood-supply-and-depletion, 04-03-bulk-staples-storage, 08-02-carbon-monoxide-safety, 02-04-cl04-food-allergy, 21-02-long-haul-morale, 20-02-child-safety-offgrid, 29-03-ex03-carbon-monoxide, 30-01-the-floors]
 cards: []
 explainers: [EX-03]
@@ -23,7 +24,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Unsourced rule-of-3 coal counts replaced by a published state-agency rule (MDC Dutch Oven Cooking 101): 2 x diameter about 325 F, two-thirds on the lid, 2 briquettes per 25 F, quarter turn every 15 min, briquettes last about 30 min" }
 ---
 
 # Dutch-oven cooking and baking without an oven
@@ -62,14 +63,15 @@ real oven.
 
 ### Controlling the temperature with coals
 
-The traditional **"rule of 3"** (a camp-cooking rule of thumb, not an agency figure; check with a
-thermometer):
-- **Total charcoal briquettes = 2 × the oven's diameter in inches ≈ 350 °F.** A 12-inch oven →
-  **24 briquettes**; a 10-inch → 20.
-- **For baking, put the diameter + 3 on the lid and the diameter − 3 underneath.** 12-inch oven →
-  **15 on the lid, 9 underneath.** The other way round burns the bottom before the top browns.
-- **Each briquette added or removed ≈ 10 to 15 °F.** For 400 °F in a 12-inch oven, about 28.
-- **In deep cold or wind, add about a quarter more.**
+A starting rule, from the Missouri Department of Conservation (Dutch Oven Cooking 101); check
+with a thermometer, because wind, cold and the brand of charcoal all change it:
+- **Total charcoal briquettes = 2 × the oven's diameter in inches, for about 325 °F.** A 12-inch
+  oven → **24 briquettes**; a 10-inch → 20.
+- **For baking, two-thirds of them on the lid and one-third underneath.** 12-inch oven →
+  **16 on the lid, 8 underneath.** The other way round burns the bottom before the top browns.
+- **Add or remove 2 briquettes to change the heat by about 25 °F.** For about 350 °F in a
+  12-inch oven, 26.
+- **In cold or wind, expect to need more**, and check with the thermometer.
 
 | Job | Heat pattern |
 |---|---|
@@ -80,10 +82,12 @@ thermometer):
 
 {{figure fig-dutch-oven-coals}}
 
-**Turn it to avoid hot spots:** every 10 to 15 minutes, turn the oven a third of a turn one way
-and the lid a third of a turn the other. That habit is the difference between burnt and even.
+**Turn it to avoid hot spots:** every 15 minutes, lift the oven and turn it a quarter turn, and
+turn the lid a quarter turn the other way (Missouri Department of Conservation). That habit is
+the difference between burnt and even.
 
-**Keep coals coming:** briquettes give about 45 to 60 minutes of useful heat; wood coals less.
+**Keep coals coming:** briquettes last about 30 minutes (Missouri Department of Conservation);
+wood coals less.
 For long bakes, keep a second fire making fresh coals (→ 06-02).
 
 **Use a thermometer** rather than trusting coal counts: an oven thermometer inside the pot, an

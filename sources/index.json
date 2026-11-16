@@ -43,7 +43,8 @@
    "21-02-long-haul-morale",
    "21-03-grief-and-trauma",
    "21-05-conflict-between-adults",
-   "25-03-regional-contacts"
+   "25-03-regional-contacts",
+   "25-08-quick-reference-cards"
   ]
  },
  {
@@ -103,6 +104,8 @@
   ],
   "cited_by": [
    "08-05-hypothermia-frostbite",
+   "11-04-footwear-and-extremities",
+   "11-06-boots-and-traction",
    "12-10-hypothermia-cross-ref"
   ]
  },
@@ -136,7 +139,15 @@
   "cited_by": [
    "02-03-cl03-anaphylaxis",
    "02-04-cl04-food-allergy",
-   "30-19-dc18-unlabeled-food-and-allergies"
+   "22-01-master-acquisition-list",
+   "22-03-go-bags-and-kits",
+   "22-06-kit-medical",
+   "25-08-quick-reference-cards",
+   "25-09-family-medical-summary",
+   "26-03-checklist-life-safety",
+   "26-08-expiry-and-rotation-tracker",
+   "30-19-dc18-unlabeled-food-and-allergies",
+   "30-27-dc26-allergy-safe-food-reserve"
   ]
  },
  {
@@ -266,6 +277,7 @@
   ],
   "cited_by": [
    "12-17-poisoning-and-ingestion",
+   "14-13-de-escalation",
    "20-02-child-safety-offgrid",
    "30-01-the-floors",
    "30-25-dc24-children-and-dangerous-jobs"
@@ -415,7 +427,8 @@
    "25-08-quick-reference-cards",
    "26-03-checklist-life-safety",
    "30-01-the-floors",
-   "30-13-dc12-defensive-use-of-force"
+   "30-13-dc12-defensive-use-of-force",
+   "30-26-dc25-tourniquet-conversion-no-help-coming"
   ]
  },
  {
@@ -519,7 +532,8 @@
    "12-18-choking-and-cpr"
   ],
   "cited_by": [
-   "12-18-choking-and-cpr"
+   "12-18-choking-and-cpr",
+   "25-08-quick-reference-cards"
   ]
  },
  {
@@ -704,6 +718,7 @@
    "17-08-power-grid-failure",
    "19-02-cash-and-value",
    "22-01-master-acquisition-list",
+   "22-05-kit-vehicle",
    "22-07-priority-purchase-order",
    "23-01-depletion-framework",
    "24-04-blackout-weekend",
@@ -801,11 +816,7 @@
    "17-01-blizzards-and-ice",
    "20-03-routine-and-schooling",
    "22-01-master-acquisition-list",
-   "22-03-go-bags-and-kits",
-   "22-05-kit-vehicle",
-   "23-03-substitution-catalog",
    "24-02-drills",
-   "25-08-quick-reference-cards",
    "26-02-walk-the-house",
    "26-05-checklist-heat-power-light",
    "26-09-shopping-list-and-budget",
@@ -1014,7 +1025,6 @@
    "14-11-defense-and-sd-law"
   ],
   "cited_by": [
-   "14-10-suppressors-and-nfa",
    "14-11-defensive-use-of-force"
   ]
  },
@@ -1072,9 +1082,7 @@
   "household_cited_by": [
    "17-05-grassland-fire"
   ],
-  "cited_by": [
-   "17-05-grassland-fire"
-  ]
+  "cited_by": []
  },
  {
   "key": "cdc-about-childhood-lead-poisoning-prevention-9ed85b",
@@ -1431,6 +1439,8 @@
   ],
   "cited_by": [
    "03-04-purifying-water",
+   "03-08-keeping-water-from-going-bad",
+   "06-06-fuel-storage-safety",
    "29-05-ex05-chlorine-products",
    "30-01-the-floors",
    "30-24-dc23-extra-strength-chlorination"
@@ -1465,7 +1475,6 @@
    "06-07-moving-and-transferring-fuel"
   ],
   "cited_by": [
-   "06-06-fuel-storage-safety",
    "06-07-moving-and-transferring-fuel",
    "06-08-fuel-transport",
    "30-01-the-floors",
@@ -1485,7 +1494,8 @@
    "05-15-trapping-small-game"
   ],
   "cited_by": [
-   "05-15-trapping-small-game"
+   "05-15-trapping-small-game",
+   "05-16-processing-poultry"
   ]
  },
  {
@@ -1499,9 +1509,7 @@
   "household_cited_by": [
    "05-04-backyard-chickens"
   ],
-  "cited_by": [
-   "05-04-backyard-chickens"
-  ]
+  "cited_by": []
  },
  {
   "key": "cdc-botulism-prevention-d03ef9",
@@ -1521,6 +1529,7 @@
    "04-05-canning-pressure",
    "18-02-barter-and-trade-goods",
    "20-01-toddler-and-infant-needs",
+   "23-03-substitution-catalog",
    "29-08-ex08-canning-words",
    "30-01-the-floors",
    "30-15-dc14-questionable-food"
@@ -1696,10 +1705,7 @@
   "household_cited_by": [
    "05-09-field-dressing-and-butchering"
   ],
-  "cited_by": [
-   "05-07-hunting",
-   "05-09-field-dressing-and-butchering"
-  ]
+  "cited_by": []
  },
  {
   "key": "cdc-cistern-safety-and-disasters-before-during-and-a-a1228c",
@@ -1743,6 +1749,7 @@
    "13-11-disease-outbreak"
   ],
   "cited_by": [
+   "03-04-purifying-water",
    "04-11-pests-and-rodents",
    "04-13-salt-sugar-vinegar",
    "13-11-disease-outbreak",
@@ -2230,8 +2237,7 @@
   ],
   "cited_by": [
    "02-18-cl18-immunosuppression-and-transplant",
-   "17-09-pandemic-and-illness",
-   "17-14-wildfire-smoke-and-evacuation"
+   "17-09-pandemic-and-illness"
   ]
  },
  {
@@ -2264,7 +2270,6 @@
   ],
   "cited_by": [
    "06-07-moving-and-transferring-fuel",
-   "07-05-propane-and-camp-stoves",
    "08-10-wick-kerosene-heaters",
    "10-02-fuel-lamps-and-candles",
    "10-04-candles-and-oil",
@@ -2286,8 +2291,7 @@
    "11-09-kids-sizing-ledger"
   ],
   "cited_by": [
-   "11-02-keeping-kids-warm",
-   "11-09-kids-sizing-ledger"
+   "11-02-keeping-kids-warm"
   ]
  },
  {
@@ -2393,8 +2397,7 @@
    "27-05-fallout-sheltering"
   ],
   "cited_by": [
-   "20-09-pets",
-   "27-05-fallout-sheltering"
+   "20-09-pets"
   ]
  },
  {
@@ -2568,7 +2571,10 @@
    "13-11-disease-outbreak"
   ],
   "cited_by": [
-   "13-11-disease-outbreak"
+   "13-02-hygiene-and-handwashing",
+   "13-11-disease-outbreak",
+   "17-09-pandemic-and-illness",
+   "29-05-ex05-chlorine-products"
   ]
  },
  {
@@ -2702,13 +2708,9 @@
    "12-11-chronic-conditions",
    "12-18-choking-and-cpr",
    "20-04-teaching-kids-the-plan",
-   "22-03-go-bags-and-kits",
    "22-06-kit-medical",
    "24-02-drills",
    "25-08-quick-reference-cards",
-   "25-09-family-medical-summary",
-   "26-03-checklist-life-safety",
-   "26-08-expiry-and-rotation-tracker",
    "30-05-dc04-expired-medication",
    "30-19-dc18-unlabeled-food-and-allergies"
   ]
@@ -2835,6 +2837,7 @@
    "03-09-filter-care-and-maintenance"
   ],
   "cited_by": [
+   "03-08-keeping-water-from-going-bad",
    "03-09-filter-care-and-maintenance",
    "29-06-ex06-water-words",
    "30-14-dc13-drinking-pool-or-surface-water",
@@ -2957,6 +2960,7 @@
   ],
   "cited_by": [
    "01-04-phase-c-establish",
+   "06-02-sustaining-fire",
    "06-09-chimney-and-creosote",
    "08-08-wood-heat-operation",
    "30-22-dc21-uninspected-fireplace-or-stove"
@@ -3250,6 +3254,12 @@
    "08-08-wood-heat-operation"
   ],
   "cited_by": [
+   "06-01-fire-starting",
+   "06-02-sustaining-fire",
+   "06-03-firewood-basics",
+   "06-04-wood-supply-and-depletion",
+   "06-05-alternative-fuels",
+   "06-09-chimney-and-creosote",
    "08-08-wood-heat-operation"
   ]
  },
@@ -3313,9 +3323,6 @@
   ],
   "cited_by": [
    "01-07-evacuating-with-medical-needs",
-   "15-03-family-comms-plan",
-   "15-08-destination-comms",
-   "15-09-corridor-comms",
    "20-04-teaching-kids-the-plan",
    "25-03-regional-contacts"
   ]
@@ -3413,7 +3420,8 @@
    "25-03-regional-contacts",
    "26-02-walk-the-house",
    "29-01-ex01-fuels",
-   "29-04-ex04-electricity-in-the-house"
+   "29-04-ex04-electricity-in-the-house",
+   "30-29-dc28-relighting-gas-appliances"
   ],
   "capture_blocked": true
  },
@@ -3445,7 +3453,6 @@
   ],
   "cited_by": [
    "08-09-portable-propane-heaters",
-   "29-14-ex14-reading-a-label",
    "30-04-dc03-refilling-1-lb-cylinders"
   ]
  },
@@ -3597,6 +3604,7 @@
    "08-01-heating-one-room",
    "08-04-emergency-heat-options",
    "08-10-wick-kerosene-heaters",
+   "10-02-fuel-lamps-and-candles",
    "23-04-resource-lifecycles",
    "28-04-portable-heaters",
    "30-02-dc01-unvented-heater-overnight",
@@ -3794,7 +3802,8 @@
    "12-18-choking-and-cpr"
   ],
   "cited_by": [
-   "12-18-choking-and-cpr"
+   "12-18-choking-and-cpr",
+   "25-08-quick-reference-cards"
   ]
  },
  {
@@ -3875,6 +3884,7 @@
   ],
   "cited_by": [
    "02-23-cl23-hearing-and-vision-aids",
+   "06-07-moving-and-transferring-fuel",
    "12-02-bleeding-and-wounds"
   ]
  },
@@ -3922,6 +3932,10 @@
    "12-17-poisoning-and-ingestion"
   ],
   "cited_by": [
+   "06-06-fuel-storage-safety",
+   "06-07-moving-and-transferring-fuel",
+   "10-02-fuel-lamps-and-candles",
+   "10-04-candles-and-oil",
    "12-17-poisoning-and-ingestion",
    "30-16-dc15-someone-elses-prescription"
   ]
@@ -3965,10 +3979,7 @@
   "household_cited_by": [
    "05-07-hunting-sd"
   ],
-  "cited_by": [
-   "05-07-hunting",
-   "05-09-field-dressing-and-butchering"
-  ]
+  "cited_by": []
  },
  {
   "key": "mintplex-labs-anythingllm-mobile-documentation-8bbeb0",
@@ -4326,7 +4337,6 @@
   "cited_by": [
    "08-04-emergency-heat-options",
    "08-08-wood-heat-operation",
-   "29-12-ex12-extinguishers-blankets-and-alarms",
    "30-21-dc20-open-flame-indoors"
   ]
  },
@@ -4366,8 +4376,7 @@
    "10-03-diy-and-conservation",
    "22-01-master-acquisition-list",
    "28-01-power-stations",
-   "29-02-ex02-batteries-and-power-stations",
-   "29-12-ex12-extinguishers-blankets-and-alarms"
+   "29-02-ex02-batteries-and-power-stations"
   ]
  },
  {
@@ -4442,8 +4451,7 @@
   "cited_by": [
    "01-03-phase-b-movement",
    "01-06-phase-transition-checklists",
-   "16-11-trailer-maintenance-and-repair",
-   "22-05-kit-vehicle"
+   "16-11-trailer-maintenance-and-repair"
   ]
  },
  {
@@ -5064,10 +5072,8 @@
   ],
   "cited_by": [
    "01-03-phase-b-movement",
-   "15-09-corridor-comms",
    "17-01-blizzards-and-ice",
    "17-11-corridor-hazards",
-   "22-05-kit-vehicle",
    "24-03-seasonal-practice-plan",
    "25-04-maps"
   ]
@@ -5176,6 +5182,7 @@
    "14-05-weapon-maintenance",
    "14-06-spare-parts-and-armorer",
    "14-09-zeroing-and-optics",
+   "14-10-suppressors-and-nfa",
    "14-11-defensive-use-of-force",
    "14-14-safe-storage-and-child-access",
    "14-15-dry-practice-doctrine",
@@ -5233,7 +5240,6 @@
    "11-05-wool-and-materials"
   ],
   "cited_by": [
-   "11-05-wool-and-materials",
    "16-06-axes-and-saws",
    "30-25-dc24-children-and-dangerous-jobs"
   ]
@@ -5384,7 +5390,6 @@
    "11-05-wool-and-materials"
   ],
   "cited_by": [
-   "11-05-wool-and-materials",
    "16-06-axes-and-saws"
   ]
  },
@@ -5548,7 +5553,8 @@
    "21-02-long-haul-morale",
    "21-03-grief-and-trauma",
    "21-05-conflict-between-adults",
-   "25-03-regional-contacts"
+   "25-03-regional-contacts",
+   "25-08-quick-reference-cards"
   ]
  },
  {
@@ -5597,10 +5603,7 @@
    "24-03-seasonal-practice-plan",
    "25-01-planting-calendar"
   ],
-  "cited_by": [
-   "05-01-a-small-high-yield-garden",
-   "05-02-season-extension"
-  ]
+  "cited_by": []
  },
  {
   "key": "sdsu-extension-fruit-variety-recommendations-for-sou-e87fa1",
@@ -5613,9 +5616,7 @@
   "household_cited_by": [
    "05-13-perennials-and-fruit"
   ],
-  "cited_by": [
-   "05-13-perennials-and-fruit"
-  ]
+  "cited_by": []
  },
  {
   "key": "sdsu-extension-growing-microgreens-at-home-006258",
@@ -5628,9 +5629,7 @@
   "household_cited_by": [
    "05-14-indoor-growing"
   ],
-  "cited_by": [
-   "05-14-indoor-growing"
-  ]
+  "cited_by": []
  },
  {
   "key": "sdsu-extension-how-much-meat-can-you-expect-from-a-f-dbae97",
@@ -5661,10 +5660,7 @@
    "24-03-seasonal-practice-plan",
    "25-01-planting-calendar"
   ],
-  "cited_by": [
-   "05-01-a-small-high-yield-garden",
-   "05-02-season-extension"
-  ]
+  "cited_by": []
  },
  {
   "key": "sdsu-extension-poisonous-plants-on-rangelands-hemloc-0c4ddd",
@@ -5678,10 +5674,7 @@
    "05-06-foraging-northern-plains",
    "05-17-wild-edibles-calendar"
   ],
-  "cited_by": [
-   "05-06-foraging-and-deadly-look-alikes",
-   "05-17-wild-edibles-by-season"
-  ]
+  "cited_by": []
  },
  {
   "key": "sdsu-extension-sioux-falls-regional-center-2bdf24",
@@ -5709,11 +5702,7 @@
    "05-14-indoor-growing",
    "25-01-planting-calendar"
   ],
-  "cited_by": [
-   "05-03-seed-saving",
-   "05-14-indoor-growing",
-   "25-01-planting-calendar"
-  ]
+  "cited_by": []
  },
  {
   "key": "sdsu-extension-vegetable-gardening-in-south-dakota-p-b8fdbd",
@@ -5733,15 +5722,7 @@
    "05-11-soil-and-compost",
    "05-18-goshen-ozark-garden-calendar"
   ],
-  "cited_by": [
-   "05-01-a-small-high-yield-garden",
-   "05-02-season-extension",
-   "05-03-seed-saving",
-   "05-05-rabbits",
-   "05-10-container-and-vertical",
-   "05-11-soil-and-compost",
-   "05-18-destination-garden-calendar"
-  ]
+  "cited_by": []
  },
  {
   "key": "simple-pump-co-manufacturer-deep-well-hand-pumps-bac-bd4b3b",
@@ -5769,9 +5750,7 @@
   "household_cited_by": [
    "05-05-rabbits"
   ],
-  "cited_by": [
-   "05-05-rabbits"
-  ]
+  "cited_by": []
  },
  {
   "key": "south-dakota-board-of-dentistry-south-dakota-board-o-88f00d",
@@ -5810,9 +5789,7 @@
   "household_cited_by": [
    "05-08-fishing-and-ice-fishing"
   ],
-  "cited_by": [
-   "05-08-fishing-and-ice-fishing"
-  ]
+  "cited_by": []
  },
  {
   "key": "south-dakota-department-of-public-safety-south-dakot-3c444a",
@@ -5858,10 +5835,7 @@
    "14-10-suppressors-and-nfa",
    "14-11-defense-and-sd-law"
   ],
-  "cited_by": [
-   "05-07-hunting",
-   "05-09-field-dressing-and-butchering"
-  ]
+  "cited_by": []
  },
  {
   "key": "south-dakota-game-fish-and-parks-trapping-in-south-d-cc1d7a",
@@ -5874,9 +5848,7 @@
   "household_cited_by": [
    "05-15-trapping-small-game"
   ],
-  "cited_by": [
-   "05-15-trapping-small-game"
-  ]
+  "cited_by": []
  },
  {
   "key": "south-dakota-legislature-sdcl-22-14-23-courthouse-ca-e73cb3",
@@ -6082,7 +6054,6 @@
    "14-14-safe-storage-and-child-access"
   ],
   "cited_by": [
-   "14-14-safe-storage-and-child-access",
    "29-11-ex11-firearms-basics"
   ]
  },
@@ -6113,6 +6084,8 @@
    "08-08-wood-heat-operation"
   ],
   "cited_by": [
+   "06-01-fire-starting",
+   "06-02-sustaining-fire",
    "06-09-chimney-and-creosote",
    "07-01-cooking-on-an-open-fire",
    "08-08-wood-heat-operation",
@@ -6145,10 +6118,7 @@
   "household_cited_by": [
    "05-18-goshen-ozark-garden-calendar"
   ],
-  "cited_by": [
-   "05-01-a-small-high-yield-garden",
-   "05-18-destination-garden-calendar"
-  ]
+  "cited_by": []
  },
  {
   "key": "university-of-arkansas-cooperative-extension-service-818f88",
@@ -6161,9 +6131,7 @@
   "household_cited_by": [
    "05-19-ozark-foraging-and-hazards"
   ],
-  "cited_by": [
-   "05-19-destination-foraging-and-hazards"
-  ]
+  "cited_by": []
  },
  {
   "key": "university-of-arkansas-cooperative-extension-service-857a3c",
@@ -6176,10 +6144,7 @@
   "household_cited_by": [
    "05-18-goshen-ozark-garden-calendar"
   ],
-  "cited_by": [
-   "05-01-a-small-high-yield-garden",
-   "05-18-destination-garden-calendar"
-  ]
+  "cited_by": []
  },
  {
   "key": "university-of-arkansas-cooperative-extension-service-ac5acb",
@@ -6192,9 +6157,7 @@
   "household_cited_by": [
    "05-19-ozark-foraging-and-hazards"
   ],
-  "cited_by": [
-   "05-19-destination-foraging-and-hazards"
-  ]
+  "cited_by": []
  },
  {
   "key": "university-of-arkansas-cooperative-extension-service-c96a64",
@@ -6207,9 +6170,7 @@
   "household_cited_by": [
    "05-18-goshen-ozark-garden-calendar"
   ],
-  "cited_by": [
-   "05-18-destination-garden-calendar"
-  ]
+  "cited_by": []
  },
  {
   "key": "university-of-minnesota-extension-companion-planting-ab86d8",
@@ -6307,6 +6268,7 @@
    "13-12-septic-off-grid"
   ],
   "cited_by": [
+   "13-05-winter-sanitation",
    "13-12-septic-off-grid"
   ]
  },
@@ -6325,7 +6287,9 @@
   ],
   "cited_by": [
    "05-01-a-small-high-yield-garden",
+   "05-02-season-extension",
    "05-10-container-and-vertical",
+   "05-18-destination-garden-calendar",
    "24-03-seasonal-practice-plan",
    "25-01-planting-calendar"
   ]
@@ -6360,7 +6324,9 @@
    "25-01-planting-calendar"
   ],
   "cited_by": [
+   "05-01-a-small-high-yield-garden",
    "05-14-indoor-growing",
+   "05-18-destination-garden-calendar",
    "25-01-planting-calendar"
   ]
  },
@@ -6783,8 +6749,7 @@
   ],
   "cited_by": [
    "06-05-alternative-fuels",
-   "25-02-conversions-and-math",
-   "29-14-ex14-reading-a-label"
+   "25-02-conversions-and-math"
   ]
  },
  {
@@ -6853,12 +6818,6 @@
    "07-02-rocket-stove"
   ],
   "cited_by": [
-   "06-01-fire-starting",
-   "06-02-sustaining-fire",
-   "06-03-firewood-basics",
-   "06-04-wood-supply-and-depletion",
-   "06-05-alternative-fuels",
-   "06-09-chimney-and-creosote",
    "07-01-cooking-on-an-open-fire",
    "07-02-rocket-stove",
    "08-08-wood-heat-operation",
@@ -6902,8 +6861,11 @@
   "cited_by": [
    "00-01-how-to-use-this-binder",
    "00-05-safety-disclaimer",
+   "03-02-storing-water",
    "03-03-pool-water-desalination",
    "03-04-purifying-water",
+   "03-07-testing-water",
+   "03-08-keeping-water-from-going-bad",
    "03-09-filter-care-and-maintenance",
    "22-01-master-acquisition-list",
    "22-02-scavenging-field-guide",
@@ -6940,10 +6902,7 @@
    "27-04-nuclear-first-hour",
    "27-05-fallout-sheltering"
   ],
-  "cited_by": [
-   "27-04-nuclear-first-hour",
-   "27-05-fallout-sheltering"
-  ]
+  "cited_by": []
  },
  {
   "key": "us-epa-septic-systems-septicsmart-how-onsite-systems-b09325",
@@ -6977,6 +6936,7 @@
    "13-12-septic-off-grid"
   ],
   "cited_by": [
+   "13-01-human-waste-no-plumbing",
    "13-12-septic-off-grid"
   ]
  },
@@ -7111,7 +7071,9 @@
    "13-10-dishwashing-and-food-hygiene",
    "18-02-barter-and-trade-goods",
    "20-01-toddler-and-infant-needs",
-   "30-19-dc18-unlabeled-food-and-allergies"
+   "30-19-dc18-unlabeled-food-and-allergies",
+   "30-27-dc26-allergy-safe-food-reserve",
+   "30-28-dc27-water-glassed-eggs"
   ]
  },
  {
@@ -7523,7 +7485,6 @@
    "04-02-building-a-pantry",
    "04-10-rotation-and-inventory",
    "04-19-freeze-dried-stockpile",
-   "07-07-freeze-dried-rehydration",
    "30-15-dc14-questionable-food"
   ]
  },
@@ -7744,7 +7705,8 @@
    "04-15-eggs-storage"
   ],
   "cited_by": [
-   "04-15-eggs-storage"
+   "04-15-eggs-storage",
+   "30-28-dc27-water-glassed-eggs"
   ]
  },
  {
@@ -7771,9 +7733,7 @@
   "household_cited_by": [
    "03-10-well-water-without-power"
   ],
-  "cited_by": [
-   "03-10-well-water-without-power"
-  ]
+  "cited_by": []
  },
  {
   "key": "westinghouse-outdoor-power-equipment-igen4500df-digi-c55d64",
@@ -7967,6 +7927,7 @@
   ],
   "cited_by": [
    "08-09-portable-propane-heaters",
+   "29-01-ex01-fuels",
    "29-14-ex14-reading-a-label",
    "30-04-dc03-refilling-1-lb-cylinders"
   ]
@@ -8119,8 +8080,11 @@
   "url": "https://www.weather.gov/news/243009-cold-hazard-simplification",
   "household_cited_by": [],
   "cited_by": [
+   "11-01-cold-weather-layering",
+   "15-01-weather-alerts",
    "17-01-blizzards-and-ice",
-   "17-04-extreme-cold-and-heat"
+   "17-04-extreme-cold-and-heat",
+   "29-10-ex10-weather-alert-words"
   ],
   "added_by": "C12a"
  },
@@ -8134,7 +8098,10 @@
   "url": "https://www.weather.gov/news/250310-heat-hazard",
   "household_cited_by": [],
   "cited_by": [
-   "17-04-extreme-cold-and-heat"
+   "11-08-summer-heat-clothing",
+   "15-01-weather-alerts",
+   "17-04-extreme-cold-and-heat",
+   "29-10-ex10-weather-alert-words"
   ],
   "added_by": "C12a"
  },
@@ -8448,10 +8415,7 @@
   "licence_note": "US federal government work (FEMA); public domain.",
   "url": "https://www.fema.gov/sites/default/files/documents/fema_nuc-detonation-planning-guide.pdf",
   "household_cited_by": [],
-  "cited_by": [
-   "27-04-nuclear-first-hour",
-   "27-05-fallout-sheltering"
-  ],
+  "cited_by": [],
   "added_by": "C12b"
  },
  {
@@ -8655,6 +8619,8 @@
   "url": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
   "household_cited_by": [],
   "cited_by": [
+   "05-01-a-small-high-yield-garden",
+   "05-18-destination-garden-calendar",
    "32-00-section-intro",
    "32-01-alabama",
    "32-02-alaska",
@@ -8919,6 +8885,21 @@
   "url": "https://hazards.fema.gov/nri/",
   "household_cited_by": [],
   "cited_by": [
+   "15-01-weather-alerts",
+   "17-02-tornadoes",
+   "17-03-floods",
+   "17-05-grassland-fire",
+   "17-07-drought-and-water-scarcity",
+   "17-11-corridor-hazards",
+   "17-12-earthquakes",
+   "17-13-hurricanes-and-tropical-storms",
+   "17-14-wildfire-smoke-and-evacuation",
+   "17-15-tsunamis",
+   "17-16-volcanic-ashfall",
+   "17-17-landslides-and-debris-flows",
+   "17-18-hail-and-damaging-wind",
+   "19-04-insurance-and-claims",
+   "29-10-ex10-weather-alert-words",
    "32-00-section-intro",
    "32-01-alabama",
    "32-02-alaska",
@@ -9481,8 +9462,7 @@
   "household_cited_by": [],
   "cited_by": [
    "02-07-cl07-asthma",
-   "02-08-cl08-copd-and-oxygen",
-   "17-14-wildfire-smoke-and-evacuation"
+   "02-08-cl08-copd-and-oxygen"
   ],
   "added_by": "L1"
  },
@@ -11325,6 +11305,7 @@
   "url": "https://www.nist.gov/document/j-034-liquified-petroleum-gas-20-pound-cylinders",
   "household_cited_by": [],
   "cited_by": [
+   "06-05-alternative-fuels",
    "28-04-portable-heaters",
    "28-07-reading-your-own-gear"
   ],
@@ -11567,5 +11548,1626 @@
    "28-07-reading-your-own-gear"
   ],
   "added_by": "L5"
+ },
+ {
+  "key": "cotccc-tccc-guidelines-2026",
+  "title": "Tactical Combat Casualty Care (TCCC) Guidelines, 01 May 2026 (Tactical Field Care: Tourniquet Reassessment)",
+  "org": "Committee on Tactical Combat Casualty Care (CoTCCC), Joint Trauma System, US Department of Defense (published on Deployed Medicine)",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "US Department of Defense work. Read by L6 on 2026-11-16: limb tourniquets converted to hemostatic or pressure dressings as soon as possible if three criteria are met (not in shock; wound can be watched closely; not an amputation); every effort to convert in less than 2 hours if bleeding can be controlled by other means; do not remove a tourniquet in place more than 6 hours unless close monitoring and lab capability are available; ASM/CLS-trained personnel should not convert beyond 2 hours without medical direction.",
+  "url": "https://learning-media.allogy.com/api/v1/pdf/4bd1a980-a47e-4d5d-910b-da0a6d536e3d/contents",
+  "household_cited_by": [],
+  "cited_by": [
+   "12-02-bleeding-and-wounds",
+   "30-01-the-floors",
+   "30-26-dc25-tourniquet-conversion-no-help-coming"
+  ],
+  "added_by": "L6"
+ },
+ {
+  "key": "jts-prolonged-casualty-care-cpg-91-2021",
+  "title": "Prolonged Casualty Care Guidelines (Clinical Practice Guideline ID 91), 21 December 2021",
+  "org": "Joint Trauma System, US Department of Defense",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "US Department of Defense work. Read by L6 on 2026-11-16 (Deployed Medicine copy of the JTS PDF): check tourniquets have not shifted or loosened; consider tourniquet conversion (more than 2 hours but before 6 hours) at Role 1b; convert per TCCC guidelines in less than 2 hours if bleeding can be controlled by other means; DO NOT remove a tourniquet in place more than 6 hours; do not remove a tourniquet to relieve pain; re-check all pulses after splint placement.",
+  "url": "https://learning-media.allogy.com/api/v1/pdf/8b28df78-a36a-4529-8d77-89ae3c2d8b9e/contents",
+  "household_cited_by": [],
+  "cited_by": [
+   "30-26-dc25-tourniquet-conversion-no-help-coming",
+   "30-30-dc29-pulseless-limb-traction"
+  ],
+  "added_by": "L6"
+ },
+ {
+  "key": "tccc-cmc-skill-tourniquet-conversion-2021",
+  "title": "TCCC Combat Medic/Corpsman Skill Instructions: Tourniquet Conversion (TCCC-CMC-09-01, 23 Jan 2021)",
+  "org": "Committee on Tactical Combat Casualty Care (CoTCCC), Joint Trauma System, US Department of Defense",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "US Department of Defense work. Read by L6 on 2026-11-16: condition (non-amputated limb, not in shock, wound amenable to dressing and/or extended evacuation expected); pack the wound, firm pressure at least 3 minutes, pressure bandage, release the tourniquet slowly over one minute while watching the bandage; convert in less than 2 hours if possible, do not remove one in place more than 6 hours; if bleeding recurs, retighten the original tourniquet until bleeding is controlled and the distal pulse is absent.",
+  "url": "https://learning-media.allogy.com/api/v1/pdf/da23a740-85d8-4300-93b8-3786d904f078/contents",
+  "household_cited_by": [],
+  "cited_by": [
+   "30-26-dc25-tourniquet-conversion-no-help-coming"
+  ],
+  "added_by": "L6"
+ },
+ {
+  "key": "wfa-minimum-guidelines-scope-of-practice-2012",
+  "title": "Minimum Guidelines and Scope of Practice for Wilderness First Aid (version of 14 December 2012; published in Wilderness & Environmental Medicine 2013;24(4):456-62)",
+  "org": "Wilderness First Aid writing group (Johnson DE, Schimelpfenig T and others), published in Wilderness & Environmental Medicine, journal of the Wilderness Medical Society",
+  "date": "2026-11-16",
+  "licence_class": "restricted",
+  "licence_note": "Copyright the writing group and the journal publisher. Read by L6 on 2026-11-16 (the writing group's Dec 2012 PDF): treat unstable injuries with gentle traction into position for angulated long bones; traction into position for joints only if circulation, sensation and movement are impaired or splinting in position is impossible; splints that allow ongoing monitoring of perfusion. WFA scope does not include releasing tourniquets placed to control life-threatening bleeding.",
+  "url": "https://www.outdoored.com/wp-content/uploads/WFA-SOP-v-Dec-2012.pdf",
+  "household_cited_by": [],
+  "cited_by": [
+   "12-09-splints-and-fractures",
+   "30-26-dc25-tourniquet-conversion-no-help-coming",
+   "30-30-dc29-pulseless-limb-traction"
+  ],
+  "added_by": "L6"
+ },
+ {
+  "key": "medlineplus-broken-bone",
+  "title": "Broken bone (first aid)",
+  "org": "MedlinePlus (US National Library of Medicine / NIH)",
+  "date": "2026-11-16",
+  "licence_class": "restricted",
+  "licence_note": "MedlinePlus encyclopedia text licensed from A.D.A.M.; review date 1/14/2026. Read by L6 on 2026-11-16: signs of poor circulation (pale or blue skin, numbness or tingling, loss of pulse); if circulation is poor and trained personnel are NOT quickly available, try to realign the limb into a normal resting position; DO NOT attempt to straighten a bone unless circulation appears hampered and no medically trained personnel are nearby; never reposition a suspected spine injury.",
+  "url": "https://medlineplus.gov/ency/article/000001.htm",
+  "household_cited_by": [],
+  "cited_by": [
+   "12-09-splints-and-fractures",
+   "30-26-dc25-tourniquet-conversion-no-help-coming",
+   "30-30-dc29-pulseless-limb-traction"
+  ],
+  "added_by": "L6"
+ },
+ {
+  "key": "penn-state-extension-eggs-from-home-flock-2024",
+  "title": "How to Safely Handle and Store Eggs from Your Home Flock (updated September 12, 2024)",
+  "org": "Penn State Extension",
+  "date": "2026-11-16",
+  "licence_class": "restricted",
+  "licence_note": "Copyright The Pennsylvania State University. Read by L6 on 2026-11-16: water glassing is not recommended; the shell membrane lets water and pathogens pass; a home pantry or basement will not hold 40 °F or below; recommended alternatives are refrigeration, freezing out of the shell, refrigerated pickled eggs and freeze-drying.",
+  "url": "https://extension.psu.edu/how-to-safely-handle-and-store-eggs-from-your-home-flock",
+  "household_cited_by": [],
+  "cited_by": [
+   "04-15-eggs-storage",
+   "30-28-dc27-water-glassed-eggs"
+  ],
+  "added_by": "L6"
+ },
+ {
+  "key": "k-state-research-and-extension-storing-eggs-safely-2020",
+  "title": "Storing Eggs Safely (You Asked It!, November 13, 2020)",
+  "org": "Kansas State University Research and Extension, Rapid Response Center",
+  "date": "2026-11-16",
+  "licence_class": "restricted",
+  "licence_note": "Copyright Kansas State University. Read by L6 on 2026-11-16: storing eggs in lime water is not recommended; Salmonella enteritidis can be inside the egg before it is laid; small home flocks have a higher incidence; lime water could seep through the shell; refrigeration is best for safety and quality.",
+  "url": "https://www.k-state.edu/news/you-asked-it/articles/2020/11/storing-eggs-safely.html",
+  "household_cited_by": [],
+  "cited_by": [
+   "30-28-dc27-water-glassed-eggs"
+  ],
+  "added_by": "L6"
+ },
+ {
+  "key": "nchfp-freezing-eggs",
+  "title": "Freezing Eggs",
+  "org": "National Center for Home Food Preservation (University of Georgia)",
+  "date": "2026-11-16",
+  "licence_class": "restricted",
+  "licence_note": "Copyright National Center for Home Food Preservation. Read by L6 on 2026-11-16: eggs keep at least 1 month covered in the refrigerator; freeze out of the shell, each egg broken separately and examined; whole eggs mixed (not whipped) with sugar, corn syrup or salt against graininess, 1/2-inch headspace.",
+  "url": "https://nchfp.uga.edu/how/freeze/dairy-products/freezing-eggs/",
+  "household_cited_by": [],
+  "cited_by": [
+   "30-28-dc27-water-glassed-eggs"
+  ],
+  "added_by": "L6"
+ },
+ {
+  "key": "fda-what-you-need-to-know-about-egg-safety",
+  "title": "What You Need to Know About Egg Safety (content current as of 03/05/2024)",
+  "org": "US Food and Drug Administration",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work. Read by L6 on 2026-11-16: clean uncracked eggs may contain Salmonella; symptoms 12 to 72 hours after infection; children, older adults, pregnant women and people with weakened immune systems at greater risk; refrigerate at 40 °F or below; cook until yolk and white are firm; egg dishes to 160 °F.",
+  "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+  "household_cited_by": [],
+  "cited_by": [
+   "30-28-dc27-water-glassed-eggs"
+  ],
+  "added_by": "L6"
+ },
+ {
+  "key": "ao-smith-residential-gas-water-heater-manual-196293",
+  "title": "Residential Gas Water Heaters Instruction Manual (part no. 196293-002), lighting instructions label 'For your safety read before lighting'",
+  "org": "A. O. Smith Corporation (manufacturer)",
+  "date": "2026-11-16",
+  "licence_class": "restricted",
+  "licence_note": "Manufacturer manual, copyright A. O. Smith. Read by L6 on 2026-11-16: before lighting, smell all around the appliance and next to the floor; what to do if you smell gas (do not light, no switches or phones, call the gas supplier from a neighbour's phone); turn the knob by hand only, never tools; do not use if any part has been under water; turn to OFF, wait five minutes to clear gas, smell again, then light the pilot per the steps; if the pilot will not stay lit, turn off and call a technician.",
+  "url": "https://assets.aosmith.com/damroot/Original/10005/196293-002.pdf",
+  "household_cited_by": [],
+  "cited_by": [
+   "30-29-dc28-relighting-gas-appliances"
+  ],
+  "added_by": "L6"
+ },
+ {
+  "key": "perc-important-propane-safety-information-2005",
+  "title": "Important Propane Safety Information (brochure PRC 003121, 2005), as distributed by the Mississippi State Fire Marshal",
+  "org": "Propane Education & Research Council",
+  "date": "2026-11-16",
+  "licence_class": "restricted",
+  "licence_note": "Copyright Propane Education & Research Council. Read by L6 on 2026-11-16: if you smell gas, no flames or sparks, leave, shut off the tank valve if safe, report from a neighbour's home, do not return until the retailer says it is safe; running out of gas puts pilots out and an open valve can leak when the system is recharged; a leak check is required in many states before turning on the gas; strongly recommended that only a qualified service technician light a pilot that has gone out; lighting it yourself risks fire or explosion; follow the manufacturer's instructions.",
+  "url": "https://apps.mid.ms.gov/sfm/pdf/PropaneSafetyInformation.pdf",
+  "household_cited_by": [],
+  "cited_by": [
+   "16-12-grid-down-house-repairs",
+   "30-29-dc28-relighting-gas-appliances"
+  ],
+  "added_by": "L6"
+ },
+ {
+  "key": "railroad-commission-of-texas-home-safe-home-propane",
+  "title": "Home Safe Home: Propane Safety Tips for the Home",
+  "org": "Railroad Commission of Texas (state propane regulator)",
+  "date": "2026-11-16",
+  "licence_class": "restricted",
+  "licence_note": "State agency publication. Read by L6 on 2026-11-16: never light a pilot if you smell gas; if gas smell continues after lighting, close the appliance valve and call the supplier; in most situations best to have a trained technician light pilots; a flooded gas control must be replaced; after a leak, a technician checks all appliances and relights pilots.",
+  "url": "https://rrc.texas.gov/media/rtyfcsh0/homesafehome.pdf",
+  "household_cited_by": [],
+  "cited_by": [
+   "30-29-dc28-relighting-gas-appliances"
+  ],
+  "added_by": "L6"
+ },
+ {
+  "key": "cpsc-464-carbon-monoxide-invisible-killer",
+  "title": "The \"Invisible\" Killer: Carbon Monoxide (CPSC Publication 464)",
+  "org": "US Consumer Product Safety Commission",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work. Read by L6 on 2026-11-16: always follow the appliance manufacturer's directions for safe operation; have heating systems inspected annually by a trained technician; signs of improper operation (sooting, unfamiliar or burning odour, moisture on windows); only a trained technician can detect hidden problems such as improper burner adjustment or hidden chimney blockage; CO alarms near sleeping areas.",
+  "url": "https://www.cpsc.gov/s3fs-public/464.pdf",
+  "household_cited_by": [],
+  "cited_by": [
+   "30-29-dc28-relighting-gas-appliances"
+  ],
+  "added_by": "L6"
+ },
+ {
+  "key": "fema-ready-gov-water",
+  "title": "Water (Ready.gov)",
+  "org": "FEMA / Ready.gov",
+  "date": "undated",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work (FEMA).",
+  "url": "https://www.ready.gov/water",
+  "household_cited_by": [],
+  "cited_by": [
+   "03-01-daily-water-needs",
+   "03-03-pool-water-desalination"
+  ],
+  "added_by": "R1"
+ },
+ {
+  "key": "fema-477-food-and-water-in-an-emergency",
+  "title": "Food and Water in an Emergency (FEMA 477 / American Red Cross A5055)",
+  "org": "FEMA and American Red Cross",
+  "date": "2004-08",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work (FEMA); co-branded with the American Red Cross.",
+  "url": "https://www.fema.gov/pdf/library/f&web.pdf",
+  "household_cited_by": [],
+  "cited_by": [
+   "03-01-daily-water-needs",
+   "03-02-storing-water",
+   "03-03-pool-water-desalination"
+  ],
+  "added_by": "R1"
+ },
+ {
+  "key": "us-epa-national-primary-drinking-water-regulations",
+  "title": "National Primary Drinking Water Regulations",
+  "org": "US EPA",
+  "date": "2026-08-31",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work.",
+  "url": "https://www.epa.gov/ground-water-and-drinking-water/national-primary-drinking-water-regulations",
+  "household_cited_by": [],
+  "cited_by": [
+   "03-07-testing-water"
+  ],
+  "added_by": "R1"
+ },
+ {
+  "key": "cdc-guidelines-for-keeping-your-pool-safe-and-healthy",
+  "title": "Guidelines for Keeping Your Pool Safe and Healthy",
+  "org": "CDC",
+  "date": "2025-05-29",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work.",
+  "url": "https://www.cdc.gov/healthy-swimming/safety/what-you-can-do-to-stay-healthy-in-swimming-pools.html",
+  "household_cited_by": [],
+  "cited_by": [
+   "03-08-keeping-water-from-going-bad"
+  ],
+  "added_by": "R1"
+ },
+ {
+  "key": "us-epa-protect-your-homes-water",
+  "title": "Protect Your Home's Water (private wells)",
+  "org": "US EPA",
+  "date": "2026-02-26",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work.",
+  "url": "https://www.epa.gov/privatewells/protect-your-homes-water",
+  "household_cited_by": [],
+  "cited_by": [
+   "03-10-well-water-without-power"
+  ],
+  "added_by": "R1"
+ },
+ {
+  "key": "who-sanitation-fact-sheet",
+  "title": "Sanitation (fact sheet)",
+  "org": "World Health Organization",
+  "date": "2026-11-05",
+  "licence_class": "restricted",
+  "licence_note": "© World Health Organization. Cite, do not redistribute.",
+  "url": "https://www.who.int/news-room/fact-sheets/detail/sanitation",
+  "household_cited_by": [],
+  "cited_by": [
+   "13-01-human-waste-no-plumbing"
+  ],
+  "added_by": "R1"
+ },
+ {
+  "key": "msf-cholera-guidelines-excreta-pit",
+  "title": "Management of a cholera epidemic, Appendix 14: Excreta pit (stools and vomit)",
+  "org": "Médecins Sans Frontières (MSF Medical Guidelines)",
+  "date": "undated",
+  "licence_class": "restricted",
+  "licence_note": "© Médecins Sans Frontières. Cite, do not redistribute.",
+  "url": "https://medicalguidelines.msf.org/en/viewport/CHOL/english/appendix-14-excreta-pit-stools-and-vomit-32409860.html",
+  "household_cited_by": [],
+  "cited_by": [
+   "13-07-latrine-siting"
+  ],
+  "added_by": "R1"
+ },
+ {
+  "key": "wedc-emergency-sanitation-assessment-and-programme-design-ch5",
+  "title": "Emergency Sanitation: Assessment and programme design, Chapter 5 (Recommended minimum objectives)",
+  "org": "WEDC, Loughborough University (Harvey, Baghri and Reed)",
+  "date": "2002",
+  "licence_class": "restricted",
+  "licence_note": "© WEDC, Loughborough University. Cite, do not redistribute.",
+  "url": "https://wedc-knowledge.lboro.ac.uk/resources/books/Emergency_Sanitation_-_Ch_05.pdf",
+  "household_cited_by": [],
+  "cited_by": [
+   "13-07-latrine-siting"
+  ],
+  "added_by": "R1"
+ },
+ {
+  "key": "who-technical-note-13-planning-for-excreta-disposal-in-emergencies",
+  "title": "Technical Notes on Drinking-Water, Sanitation and Hygiene in Emergencies, 13: Planning for excreta disposal in emergencies",
+  "org": "World Health Organization (prepared by WEDC)",
+  "date": "2013",
+  "licence_class": "restricted",
+  "licence_note": "© World Health Organization 2013. All rights reserved. Cite, do not redistribute.",
+  "url": "https://cdn.who.int/media/docs/default-source/wash-documents/who-tn-13-planning-for-excreta-disposal-in-emergencies.pdf",
+  "household_cited_by": [],
+  "cited_by": [
+   "13-07-latrine-siting"
+  ],
+  "added_by": "R1"
+ },
+ {
+  "key": "nps-leave-no-trace-seven-principles",
+  "title": "Leave No Trace Seven Principles",
+  "org": "US National Park Service",
+  "date": "undated",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work (NPS); the principles are those of the Leave No Trace Center for Outdoor Ethics.",
+  "url": "https://www.nps.gov/articles/leave-no-trace-seven-principles.htm",
+  "household_cited_by": [],
+  "cited_by": [
+   "13-07-latrine-siting"
+  ],
+  "added_by": "R1"
+ },
+ {
+  "key": "cdc-atsdr-medical-management-guidelines-for-sodium-hydroxide",
+  "title": "Medical Management Guidelines for Sodium Hydroxide",
+  "org": "CDC / ATSDR",
+  "date": "undated",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work.",
+  "url": "https://wwwn.cdc.gov/TSP/MMG/MMGDetails.aspx?mmgid=246&toxid=45",
+  "household_cited_by": [],
+  "cited_by": [
+   "13-09-soap-making"
+  ],
+  "added_by": "R1"
+ },
+ {
+  "key": "us-epa-septic-frequent-questions",
+  "title": "Frequent Questions on Septic Systems",
+  "org": "US EPA — SepticSmart",
+  "date": "undated",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work.",
+  "url": "https://www.epa.gov/septic/frequent-questions-septic-systems",
+  "household_cited_by": [],
+  "cited_by": [
+   "13-12-septic-off-grid"
+  ],
+  "added_by": "R1"
+ },
+ {
+  "key": "umn-extension-home-processing-of-poultry",
+  "title": "Home processing of poultry",
+  "org": "University of Minnesota Extension",
+  "date": "2018",
+  "licence_class": "restricted",
+  "licence_note": "University Extension page; copyright the University of Minnesota. Cite, do not redistribute.",
+  "url": "https://extension.umn.edu/small-scale-poultry/home-processing-poultry",
+  "household_cited_by": [],
+  "cited_by": [
+   "05-16-processing-poultry"
+  ],
+  "added_by": "R2"
+ },
+ {
+  "key": "umn-extension-raising-chickens-for-eggs",
+  "title": "Raising chickens for eggs",
+  "org": "University of Minnesota Extension",
+  "date": "2025",
+  "licence_class": "restricted",
+  "licence_note": "University Extension page; copyright the University of Minnesota. Cite, do not redistribute.",
+  "url": "https://extension.umn.edu/small-scale-poultry/raising-chickens-eggs",
+  "household_cited_by": [],
+  "cited_by": [
+   "05-04-backyard-chickens"
+  ],
+  "added_by": "R2"
+ },
+ {
+  "key": "umn-extension-watering-the-vegetable-garden",
+  "title": "Watering the vegetable garden",
+  "org": "University of Minnesota Extension",
+  "date": "2026",
+  "licence_class": "restricted",
+  "licence_note": "University Extension page; copyright the University of Minnesota. Cite, do not redistribute.",
+  "url": "https://extension.umn.edu/vegetables/watering-vegetable-garden",
+  "household_cited_by": [],
+  "cited_by": [
+   "05-01-a-small-high-yield-garden"
+  ],
+  "added_by": "R2"
+ },
+ {
+  "key": "umn-extension-saving-vegetable-seeds",
+  "title": "Saving vegetable seeds",
+  "org": "University of Minnesota Extension",
+  "date": "2024",
+  "licence_class": "restricted",
+  "licence_note": "University Extension page; copyright the University of Minnesota. Cite, do not redistribute.",
+  "url": "https://extension.umn.edu/planting-and-growing-guides/saving-vegetable-seeds",
+  "household_cited_by": [],
+  "cited_by": [
+   "05-03-seed-saving"
+  ],
+  "added_by": "R2"
+ },
+ {
+  "key": "iowa-state-extension-good-site-for-vegetable-garden",
+  "title": "What would be a good site for a vegetable garden?",
+  "org": "Iowa State University Extension and Outreach (Yard and Garden)",
+  "date": "undated",
+  "licence_class": "restricted",
+  "licence_note": "University Extension page; copyright Iowa State University. Cite, do not redistribute.",
+  "url": "https://yardandgarden.extension.iastate.edu/faq/what-would-be-good-site-vegetable-garden",
+  "household_cited_by": [],
+  "cited_by": [
+   "05-01-a-small-high-yield-garden",
+   "05-10-container-and-vertical"
+  ],
+  "added_by": "R2"
+ },
+ {
+  "key": "illinois-extension-will-my-seeds-still-grow",
+  "title": "Will My Seeds Still Grow? Seed Viability and Germination (info sheet)",
+  "org": "University of Illinois Extension",
+  "date": "2021",
+  "licence_class": "restricted",
+  "licence_note": "Copyright 2021 University of Illinois Board of Trustees. Cite, do not redistribute.",
+  "url": "https://extension.illinois.edu/sites/default/files/infosheet_seed_viability.pdf",
+  "household_cited_by": [],
+  "cited_by": [
+   "05-03-seed-saving"
+  ],
+  "added_by": "R2"
+ },
+ {
+  "key": "penn-state-extension-growing-microgreens",
+  "title": "Growing Microgreens",
+  "org": "Penn State Extension",
+  "date": "2025-12-16",
+  "licence_class": "restricted",
+  "licence_note": "University Extension page; copyright The Pennsylvania State University. Cite, do not redistribute.",
+  "url": "https://extension.psu.edu/growing-microgreens",
+  "household_cited_by": [],
+  "cited_by": [
+   "05-14-indoor-growing"
+  ],
+  "added_by": "R2"
+ },
+ {
+  "key": "uga-extension-low-hoop-houses",
+  "title": "Low hoop houses can extend the growing season",
+  "org": "University of Georgia Extension (Forsyth County; H. N. Kolich)",
+  "date": "2023-10-06",
+  "licence_class": "restricted",
+  "licence_note": "University Extension page; copyright the University of Georgia. Cite, do not redistribute.",
+  "url": "https://site.extension.uga.edu/forsyth/low-hoop-houses-can-extend-the-growing-season",
+  "household_cited_by": [],
+  "cited_by": [
+   "05-02-season-extension"
+  ],
+  "added_by": "R2"
+ },
+ {
+  "key": "penn-state-extension-cwd-precautions-for-deer-hunters",
+  "title": "Precautions for Deer Hunters in Areas with Chronic Wasting Disease",
+  "org": "Penn State Extension",
+  "date": "2025-08-04",
+  "licence_class": "restricted",
+  "licence_note": "University Extension page; copyright The Pennsylvania State University. Cite, do not redistribute.",
+  "url": "https://extension.psu.edu/precautions-for-deer-hunters-in-areas-with-chronic-wasting-disease",
+  "household_cited_by": [],
+  "cited_by": [
+   "05-09-field-dressing-and-butchering"
+  ],
+  "added_by": "R2"
+ },
+ {
+  "key": "minnesota-dnr-cwd-questions-and-answers",
+  "title": "CWD questions and answers",
+  "org": "Minnesota Department of Natural Resources",
+  "date": "undated",
+  "licence_class": "restricted",
+  "licence_note": "State agency page; copyright the State of Minnesota. Cite, do not redistribute.",
+  "url": "https://dnr.state.mn.us/cwd/qa.html",
+  "household_cited_by": [],
+  "cited_by": [
+   "05-07-hunting",
+   "05-09-field-dressing-and-butchering"
+  ],
+  "added_by": "R2"
+ },
+ {
+  "key": "cdc-about-chronic-wasting-disease",
+  "title": "About Chronic Wasting Disease (CWD)",
+  "org": "CDC",
+  "date": "2026-01-21",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work.",
+  "url": "https://www.cdc.gov/chronic-wasting/about/index.html",
+  "household_cited_by": [],
+  "cited_by": [
+   "05-07-hunting",
+   "05-09-field-dressing-and-butchering"
+  ],
+  "added_by": "R2"
+ },
+ {
+  "key": "minnesota-dnr-tips-for-deer-hunters-lead",
+  "title": "Tips for Deer Hunters (lead bullet fragmentation study)",
+  "org": "Minnesota Department of Natural Resources",
+  "date": "undated",
+  "licence_class": "restricted",
+  "licence_note": "State agency document; copyright the State of Minnesota. Cite, do not redistribute.",
+  "url": "https://files.dnr.state.mn.us/wildlife/lead/huntertips.pdf",
+  "household_cited_by": [],
+  "cited_by": [
+   "05-07-hunting",
+   "05-09-field-dressing-and-butchering"
+  ],
+  "added_by": "R2"
+ },
+ {
+  "key": "missouri-dept-of-conservation-rabbit-safety-and-health",
+  "title": "Rabbit: Safety and Health",
+  "org": "Missouri Department of Conservation",
+  "date": "undated",
+  "licence_class": "restricted",
+  "licence_note": "State agency page; copyright the Missouri Department of Conservation. Cite, do not redistribute.",
+  "url": "https://mdc.mo.gov/hunting-trapping/species/rabbit/rabbit-safety-health",
+  "household_cited_by": [],
+  "cited_by": [
+   "05-09-field-dressing-and-butchering",
+   "05-15-trapping-small-game",
+   "05-16-processing-poultry"
+  ],
+  "added_by": "R2"
+ },
+ {
+  "key": "minnesota-board-of-animal-health-rabbit-hemorrhagic-disease",
+  "title": "Rabbit Hemorrhagic Disease",
+  "org": "Minnesota Board of Animal Health",
+  "date": "undated",
+  "licence_class": "restricted",
+  "licence_note": "State agency page; copyright the State of Minnesota. Cite, do not redistribute.",
+  "url": "https://www.bah.state.mn.us/rabbit-hemorrhagic-disease",
+  "household_cited_by": [],
+  "cited_by": [
+   "05-05-rabbits"
+  ],
+  "added_by": "R2"
+ },
+ {
+  "key": "usda-aphis-defend-the-flock-how-to-spot-sickness",
+  "title": "How To Spot Sickness (Defend the Flock)",
+  "org": "USDA APHIS",
+  "date": "undated",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work.",
+  "url": "https://www.aphis.usda.gov/livestock-poultry-disease/avian/defend-the-flock/how-to-spot-sickness",
+  "household_cited_by": [],
+  "cited_by": [
+   "05-04-backyard-chickens",
+   "05-16-processing-poultry"
+  ],
+  "added_by": "R2"
+ },
+ {
+  "key": "cdc-preventing-bird-flu-infections",
+  "title": "Preventing Bird Flu Infections",
+  "org": "CDC",
+  "date": "2025-04-23",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work.",
+  "url": "https://www.cdc.gov/bird-flu/prevention/index.html",
+  "household_cited_by": [],
+  "cited_by": [
+   "05-04-backyard-chickens"
+  ],
+  "added_by": "R2"
+ },
+ {
+  "key": "cdc-what-to-do-after-a-tick-bite",
+  "title": "What to Do After a Tick Bite",
+  "org": "CDC",
+  "date": "2026-06-09",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work.",
+  "url": "https://www.cdc.gov/ticks/after-a-tick-bite/index.html",
+  "household_cited_by": [],
+  "cited_by": [
+   "05-19-destination-foraging-and-hazards"
+  ],
+  "added_by": "R2"
+ },
+ {
+  "key": "cdc-symptoms-of-alpha-gal-syndrome",
+  "title": "Symptoms of Alpha-gal Syndrome",
+  "org": "CDC",
+  "date": "undated",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work.",
+  "url": "https://www.cdc.gov/alpha-gal-syndrome/signs-symptoms/index.html",
+  "household_cited_by": [],
+  "cited_by": [
+   "05-19-destination-foraging-and-hazards"
+  ],
+  "added_by": "R2"
+ },
+ {
+  "key": "cdc-preventing-food-poisoning",
+  "title": "Preventing Food Poisoning",
+  "org": "CDC",
+  "date": "2025-11-24",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work.",
+  "url": "https://www.cdc.gov/food-safety/prevention/index.html",
+  "household_cited_by": [],
+  "cited_by": [
+   "07-02-rocket-stove"
+  ],
+  "added_by": "R2"
+ },
+ {
+  "key": "medlineplus-methanol-poisoning",
+  "title": "Methanol poisoning (Medical Encyclopedia)",
+  "org": "MedlinePlus (US National Library of Medicine)",
+  "date": "2025-01-08",
+  "licence_class": "restricted",
+  "licence_note": "MedlinePlus encyclopedia text is licensed from A.D.A.M.; cite, do not redistribute.",
+  "url": "https://medlineplus.gov/ency/article/002680.htm",
+  "household_cited_by": [],
+  "cited_by": [
+   "07-05-propane-and-camp-stoves"
+  ],
+  "added_by": "R2"
+ },
+ {
+  "key": "mountain-house-faq",
+  "title": "Frequently Asked Questions (rehydration, cold water, pre-cooked meals)",
+  "org": "Mountain House (manufacturer)",
+  "date": "undated",
+  "licence_class": "restricted",
+  "licence_note": "Manufacturer page; cite, do not redistribute.",
+  "url": "https://mountainhouse.com/pages/faq",
+  "household_cited_by": [],
+  "cited_by": [
+   "07-07-freeze-dried-rehydration"
+  ],
+  "added_by": "R2"
+ },
+ {
+  "key": "missouri-dept-of-conservation-dutch-oven-cooking-101",
+  "title": "Dutch Oven Cooking 101 (Missouri Conservationist, June 2009)",
+  "org": "Missouri Department of Conservation (J. Low)",
+  "date": "2009-06-02",
+  "licence_class": "restricted",
+  "licence_note": "State agency magazine article; cite, do not redistribute.",
+  "url": "https://mdc.mo.gov/node/246451",
+  "household_cited_by": [],
+  "cited_by": [
+   "07-04-dutch-oven-and-baking"
+  ],
+  "added_by": "R2"
+ },
+ {
+  "key": "maryland-mde-gasoline-safety-r3",
+  "title": "Gasoline Safety (consumer fact sheet: refuelling, filling containers, storage, disposal; guidance from the American Petroleum Institute)",
+  "org": "Maryland Department of the Environment",
+  "date": "2026-11-16",
+  "licence_class": "restricted",
+  "licence_note": "State government fact sheet reproducing American Petroleum Institute consumer guidance; archived for personal offline reference. Read 2026-11-16 by R3: place a portable container on the ground and keep the nozzle in contact with it while filling; never fill a container inside a vehicle, trunk, pickup bed, flat bed or trailer floor; fill slowly; do not get back into the vehicle while refuelling; never siphon by mouth, and if gasoline is swallowed do not induce vomiting; fill no more than 95 percent full; gasoline vapours are heavier than air and can travel along the floor to an ignition source; store away from water heaters, space heaters and furnaces; never pour old gasoline on the ground or into a drain.",
+  "url": "https://mde.maryland.gov/programs/ResearchCenter/FactSheets/Documents/www.mde.state.md.us/assets/document/Gasoline_Safety.pdf",
+  "household_cited_by": [],
+  "cited_by": [
+   "06-06-fuel-storage-safety",
+   "06-07-moving-and-transferring-fuel",
+   "06-08-fuel-transport"
+  ],
+  "added_by": "R3"
+ },
+ {
+  "key": "niosh-fire-hazard-filling-gas-cans-in-pickups-1998-r3",
+  "title": "Fire Hazard from Filling Portable Gas Cans in Pickup Trucks and Cars (Hazard ID, July 1998)",
+  "org": "National Institute for Occupational Safety and Health (NIOSH); copy hosted by eLCOSH (CPWR)",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work (NIOSH). Read 2026-11-16 by R3: fires occurred when portable gasoline containers were filled in pickup beds (plastic bed liners) and cars; remove containers from the vehicle and place them on the ground before filling; touch the container with the nozzle before removing the lid; keep the nozzle in contact with the container inlet while filling.",
+  "url": "https://elcosh.org/document/1200/d000372/Fire+Hazard+from+Filling+Portable+Gas+Cans+in+Pickup+Trucks+and+Cars.html",
+  "household_cited_by": [],
+  "cited_by": [
+   "06-06-fuel-storage-safety",
+   "06-07-moving-and-transferring-fuel",
+   "06-08-fuel-transport"
+  ],
+  "added_by": "R3"
+ },
+ {
+  "key": "pei-stop-static-campaign-r3",
+  "title": "Stop Static Campaign (three rules for safe refuelling)",
+  "org": "Petroleum Equipment Institute (PEI)",
+  "date": "2026-11-16",
+  "licence_class": "restricted",
+  "licence_note": "PEI grants permission to use the information unaltered and not for profit, with acknowledgment. Read 2026-11-16 by R3: static electricity can ignite gasoline vapours at the pump; almost 200 incidents reported to PEI; rules: turn off the engine, do not smoke, never re-enter the vehicle while refuelling.",
+  "url": "https://www.pei.org/resources/stop-static",
+  "household_cited_by": [],
+  "cited_by": [
+   "06-07-moving-and-transferring-fuel"
+  ],
+  "added_by": "R3"
+ },
+ {
+  "key": "hawaii-gas-engineering-guide-lp-tank-vapor-r3",
+  "title": "Gas Engineering Guide: LP-Gas Tank, Vapor LPG Tanks (Note A, DOT cylinders, quoting NFPA 58 6.3.7)",
+  "org": "Hawaii Gas",
+  "date": "2026-11-16",
+  "licence_class": "restricted",
+  "licence_note": "Gas utility engineering guide; archived for personal offline reference. Read 2026-11-16 by R3: for DOT cylinders, the pressure relief device is at least 3 ft horizontally from any building opening below the level of discharge, and at least 5 ft horizontally from any exterior source of ignition, openings into direct-vent appliances, or mechanical ventilation air intakes (NFPA 58 6.3.7).",
+  "url": "https://www.hawaiigas.com/engineering-guide-2/installations-lp-gas-tank-vapor-lpg-tanks",
+  "household_cited_by": [],
+  "cited_by": [
+   "06-06-fuel-storage-safety"
+  ],
+  "added_by": "R3"
+ },
+ {
+  "key": "minnesota-sfm-lp-gas-inside-buildings-r3",
+  "title": "LP gas inside buildings (fire code information sheet)",
+  "org": "Minnesota Department of Public Safety, State Fire Marshal Division",
+  "date": "2026-11-16",
+  "licence_class": "restricted",
+  "licence_note": "State fire marshal guidance; archived for personal offline reference. Read 2026-11-16 by R3: cylinders larger than 1 pound must not be stored or used indoors at a residential property, including attached and detached garages; maximum container size in residential occupancies is 1 lb.",
+  "url": "https://dps.mn.gov/divisions/sfm/fire-code/fire-code-information-topic/lp-gas-inside-buildings",
+  "household_cited_by": [],
+  "cited_by": [
+   "06-05-alternative-fuels",
+   "06-06-fuel-storage-safety"
+  ],
+  "added_by": "R3"
+ },
+ {
+  "key": "ecfr-49-cfr-173-6-materials-of-trade-r3",
+  "title": "49 CFR 173.6, Materials of trade exceptions (regulation text)",
+  "org": "US Department of Transportation, Pipeline and Hazardous Materials Safety Administration (Code of Federal Regulations)",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "US federal regulation. Read 2026-11-16 by R3: Packing Group II or III materials in packagings of not over 30 kg (66 lb) or 30 L (8 gallons); packagings leak tight for liquids, securely closed, secured against shifting and protected against damage; aggregate gross weight of all materials of trade on a motor vehicle not over 200 kg (440 lb).",
+  "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-173/subpart-A/section-173.6",
+  "household_cited_by": [],
+  "cited_by": [
+   "06-08-fuel-transport"
+  ],
+  "added_by": "R3"
+ },
+ {
+  "key": "niosh-npg-gasoline-r3",
+  "title": "NIOSH Pocket Guide to Chemical Hazards: Gasoline",
+  "org": "CDC / NIOSH",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work. Read 2026-11-16 by R3: flash point -45 F; lower explosive limit 1.4 percent.",
+  "url": "https://www.cdc.gov/niosh/npg/npgd0299.html",
+  "household_cited_by": [],
+  "cited_by": [
+   "06-06-fuel-storage-safety"
+  ],
+  "added_by": "R3"
+ },
+ {
+  "key": "niosh-npg-n-butane-r3",
+  "title": "NIOSH Pocket Guide to Chemical Hazards: n-Butane",
+  "org": "CDC / NIOSH",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work. Read 2026-11-16 by R3: boiling point 31 F; relative gas density 2.11 (heavier than air).",
+  "url": "https://www.cdc.gov/niosh/npg/npgd0068.html",
+  "household_cited_by": [],
+  "cited_by": [
+   "06-01-fire-starting",
+   "06-05-alternative-fuels"
+  ],
+  "added_by": "R3"
+ },
+ {
+  "key": "niosh-npg-propane-r3",
+  "title": "NIOSH Pocket Guide to Chemical Hazards: Propane",
+  "org": "CDC / NIOSH",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work. Read 2026-11-16 by R3: boiling point -44 F; relative gas density 1.55 (heavier than air).",
+  "url": "https://www.cdc.gov/niosh/npg/npgd0524.html",
+  "household_cited_by": [],
+  "cited_by": [
+   "06-05-alternative-fuels",
+   "06-06-fuel-storage-safety"
+  ],
+  "added_by": "R3"
+ },
+ {
+  "key": "niosh-npg-paraffin-wax-fume-r3",
+  "title": "NIOSH Pocket Guide to Chemical Hazards: Paraffin wax fume",
+  "org": "CDC / NIOSH",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work. Read 2026-11-16 by R3: melting point 115-154 F; flash point 390 F.",
+  "url": "https://www.cdc.gov/niosh/npg/npgd0477.html",
+  "household_cited_by": [],
+  "cited_by": [
+   "10-04-candles-and-oil"
+  ],
+  "added_by": "R3"
+ },
+ {
+  "key": "cdc-niosh-methanol-systemic-agent-r3",
+  "title": "Methanol: Systemic Agent (Emergency Response Safety and Health Database)",
+  "org": "CDC / NIOSH",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work. Read 2026-11-16 by R3: swallowed methanol can cause metabolic acidosis, blindness and death; breathing high vapour concentrations is as effective as swallowing in producing toxic effects; the odour does not warn of low exposures.",
+  "url": "https://www.cdc.gov/niosh/ershdb/emergencyresponsecard_29750029.html",
+  "household_cited_by": [],
+  "cited_by": [
+   "10-02-fuel-lamps-and-candles"
+  ],
+  "added_by": "R3"
+ },
+ {
+  "key": "csia-homeowner-resources-faqs-r3",
+  "title": "Homeowner Resources and FAQs (how often to sweep; chemical cleaners; glazed creosote)",
+  "org": "Chimney Safety Institute of America (CSIA)",
+  "date": "2026-11-16",
+  "licence_class": "restricted",
+  "licence_note": "© CSIA; archived for personal offline reference. Read 2026-11-16 by R3: quotes NFPA 211, 'Chimneys, fireplaces, and vents shall be inspected at least once a year for soundness, freedom from deposits, and correct clearances'; masonry fireplaces should be swept at 1/8 inch of sooty buildup, sooner if any glaze is present; hard or tacky glazed creosote cannot be removed by normal brushing and needs a professional's chemical treatment.",
+  "url": "https://csia.org/homeowner-resources",
+  "household_cited_by": [],
+  "cited_by": [
+   "06-09-chimney-and-creosote"
+  ],
+  "added_by": "R3"
+ },
+ {
+  "key": "nws-wind-chill-chart-graphic-2001-r3",
+  "title": "Wind Chill Chart (chart graphic with frostbite times, effective 11/01/01)",
+  "org": "NOAA / National Weather Service",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work. Read 2026-11-16 by R3: wind chill formula and table by temperature and wind; frostbite-time shading of 30, 10 and 5 minutes. At 10-25 mph the 30-minute band begins at about -19 to -24 F wind chill; the 10-minute band at about -37 F (25 mph), -42 F (20 mph), -45 F (10-15 mph); the 5-minute band at about -58 to -64 F (20-25 mph) and -71 F (15 mph).",
+  "url": "https://www.weather.gov/media/safety/windchillchart3.pdf",
+  "household_cited_by": [],
+  "cited_by": [
+   "11-01-cold-weather-layering"
+  ],
+  "added_by": "R3"
+ },
+ {
+  "key": "nws-during-a-heat-wave-r3",
+  "title": "During a Heat Wave",
+  "org": "NOAA / National Weather Service",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work. Read 2026-11-16 by R3: wear lightweight, loose-fitting, light-coloured clothing; sunburn reduces the body's ability to get rid of heat; use fans to exhaust hot air or draw in cooler air; do not direct a fan at yourself when the room is hotter than 90 F; infants and young children are particularly vulnerable; never leave children in a car.",
+  "url": "https://www.weather.gov/safety/heat-during",
+  "household_cited_by": [],
+  "cited_by": [
+   "11-08-summer-heat-clothing"
+  ],
+  "added_by": "R3"
+ },
+ {
+  "key": "nws-understanding-heat-alerts-r3",
+  "title": "Understanding Heat Alerts (Extreme Heat Warning, Extreme Heat Watch, Heat Advisory)",
+  "org": "NOAA / National Weather Service",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work. Read 2026-11-16 by R3: an Extreme Heat Warning is issued when extremely dangerous heat is expected or occurring; a Heat Advisory for dangerous heat below warning criteria; avoid outdoor activity in the heat of the day, drink plenty of water, rest in shade.",
+  "url": "https://www.weather.gov/safety/heat-ww",
+  "household_cited_by": [],
+  "cited_by": [
+   "11-08-summer-heat-clothing"
+  ],
+  "added_by": "R3"
+ },
+ {
+  "key": "osha-logging-operations-29-cfr-1910-266-r3",
+  "title": "Logging operations, 29 CFR 1910.266 (personal protective equipment, paragraph (d)(1))",
+  "org": "OSHA",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "US federal regulation. Read 2026-11-16 by R3: chain-saw operators wear cut-resistant leg protection covering the thigh to the top of the boot, and cut-resistant foot protection; head protection where objects can fall or fly; eye and face protection; hand protection against cuts and punctures.",
+  "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-R/section-1910.266",
+  "household_cited_by": [],
+  "cited_by": [
+   "11-05-wool-and-materials"
+  ],
+  "added_by": "R3"
+ },
+ {
+  "key": "atf-open-letter-nfa-guidance-2026",
+  "title": "Open Letter: NFA Guidance (non-enforcement of NFA approval and registration for suppressors, short-barreled rifles and shotguns, and any other weapons)",
+  "org": "Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF), U.S. Department of Justice",
+  "date": "2026-10-09",
+  "licence_class": "blocked",
+  "licence_note": "US federal government work (public domain), but atf.gov returned 403 to the reviewer's fetches, as for the other ATF keys. Content confirmed from consistent secondary reports and the court filing in Silencer Shop Foundation v. ATF (N.D. Tex. 6:25-cv-00056). Used only for the 14-10 pre-collapse note.",
+  "url": "https://www.atf.gov/sites/default/files/2026-10/OPEN%20LETTER%20-%20NFA%20Guidance.pdf",
+  "household_cited_by": [],
+  "cited_by": [
+   "14-10-suppressors-and-nfa"
+  ],
+  "added_by": "R4"
+ },
+ {
+  "key": "cpsc-fortress-biometric-gun-safe-recall-2023",
+  "title": "Fortress Safe Announces Recall of Biometric Gun Safes Due to Serious Injury Hazard and Risk of Death; One Death Reported (Recall 24-011)",
+  "org": "U.S. Consumer Product Safety Commission (CPSC)",
+  "date": "2023-10-19",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work; public domain.",
+  "url": "https://www.cpsc.gov/Recalls/2024/Fortress-Safe-Announces-Recall-of-Biometric-Gun-Safes-Due-to-Serious-Injury-Hazard-and-Risk-of-Death-One-Death-Reported",
+  "household_cited_by": [],
+  "cited_by": [
+   "14-14-safe-storage-and-child-access"
+  ],
+  "added_by": "R4"
+ },
+ {
+  "key": "nws-partial-county-alerting-technical",
+  "title": "Partial County Alerting: Technical Discussion (6-digit SAME location code, county partitions)",
+  "org": "NOAA / National Weather Service",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work; public domain.",
+  "url": "https://www.weather.gov/pca/technical",
+  "household_cited_by": [],
+  "cited_by": [
+   "15-01-weather-alerts"
+  ],
+  "added_by": "R4"
+ },
+ {
+  "key": "ecfr-47-cfr-part-9-911-requirements",
+  "title": "47 CFR Part 9 — 911 Requirements (§ 9.10(b) basic 911 service: carriers transmit all wireless 911 calls)",
+  "org": "U.S. Government Publishing Office (eCFR) / Federal Communications Commission",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "Text of a US federal regulation; not subject to copyright.",
+  "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-A/part-9",
+  "household_cited_by": [],
+  "cited_by": [
+   "15-03-family-comms-plan",
+   "15-08-destination-comms",
+   "15-09-corridor-comms"
+  ],
+  "added_by": "R4"
+ },
+ {
+  "key": "fema-ready-gov-kids-make-a-plan",
+  "title": "Make a Plan (Ready Kids): pick someone out of town; text, don't talk",
+  "org": "FEMA / Ready.gov",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work; public domain.",
+  "url": "https://www.ready.gov/kids/make-a-plan",
+  "household_cited_by": [],
+  "cited_by": [
+   "15-03-family-comms-plan"
+  ],
+  "added_by": "R4"
+ },
+ {
+  "key": "nws-winter-storm-during",
+  "title": "What To Do If You're Caught in a Winter Storm",
+  "org": "NOAA / National Weather Service",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work; public domain.",
+  "url": "https://www.weather.gov/safety/winter-during",
+  "household_cited_by": [],
+  "cited_by": [
+   "15-09-corridor-comms",
+   "17-01-blizzards-and-ice",
+   "17-11-corridor-hazards"
+  ],
+  "added_by": "R4"
+ },
+ {
+  "key": "arrl-single-band-dipoles",
+  "title": "Single Band Dipoles",
+  "org": "ARRL, the National Association for Amateur Radio",
+  "date": "2026-11-16",
+  "licence_class": "restricted",
+  "licence_note": "Copyright ARRL; cited for the 468/f dipole formula and the trimming method only.",
+  "url": "http://www.arrl.org/single-band-dipoles",
+  "household_cited_by": [],
+  "cited_by": [
+   "15-06-antennas-and-range"
+  ],
+  "added_by": "R4"
+ },
+ {
+  "key": "cdc-potassium-iodide-ki-2025",
+  "title": "Potassium Iodide (KI)",
+  "org": "CDC",
+  "date": "2025-01-30",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work (17 U.S.C. 105); public domain. Read 2026-11-16 by R5: do not use table salt or iodine-containing foods as a substitute; iodine supplements may not work and can hurt you.",
+  "url": "https://www.cdc.gov/radiation-emergencies/treatment/potassium-iodide.html",
+  "household_cited_by": [],
+  "cited_by": [
+   "27-06-potassium-iodide"
+  ],
+  "added_by": "R5"
+ },
+ {
+  "key": "fema-nuclear-detonation-response-guidance-72-hours-2023",
+  "title": "Nuclear Detonation Response Guidance: Planning for the First 72 Hours",
+  "org": "FEMA Office of Emerging Threats",
+  "date": "2023-03",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work (17 U.S.C. 105); public domain. Read 2026-11-16 by R5: get inside, stay inside, stay tuned; stay inside at least 24 hours; dose reduction factor example (200 = 1/200th of the dose outdoors); no hair conditioner.",
+  "url": "https://www.fema.gov/sites/default/files/documents/fema_oet-72-hour-nuclear-detonation-response-guidance.pdf",
+  "household_cited_by": [],
+  "cited_by": [
+   "27-04-nuclear-first-hour",
+   "27-05-fallout-sheltering"
+  ],
+  "added_by": "R5"
+ },
+ {
+  "key": "cdc-what-to-do-get-inside-2024",
+  "title": "What to Do: Get Inside (Radiation Emergencies)",
+  "org": "CDC",
+  "date": "2024-04-15",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work (17 U.S.C. 105); public domain. Read 2026-11-16 by R5: get inside a building right away; basement or middle of the building; cover mouth and nose if you must be outside; turn off fans and units that bring in outside air; bring pets inside; at least 24 hours.",
+  "url": "https://www.cdc.gov/radiation-emergencies/response/get-inside.html",
+  "household_cited_by": [],
+  "cited_by": [
+   "27-04-nuclear-first-hour"
+  ],
+  "added_by": "R5"
+ },
+ {
+  "key": "cdc-food-drinking-water-medicine-safety-radiation-2024",
+  "title": "Food, Drinking Water, and Medicine Safety in a Radiation Emergency",
+  "org": "CDC",
+  "date": "2024-04-15",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work (17 U.S.C. 105); public domain. Read 2026-11-16 by R5: boiling tap water will not get rid of radioactive material; sealed drinks safe; toilet tank (not bowl) and water heater water free of contamination; wipe containers; do not eat garden food until officials say.",
+  "url": "https://www.cdc.gov/radiation-emergencies/safety/food-drinking-water-medicine-safety.html",
+  "household_cited_by": [],
+  "cited_by": [
+   "27-05-fallout-sheltering"
+  ],
+  "added_by": "R5"
+ },
+ {
+  "key": "noaa-swpc-coronal-mass-ejections",
+  "title": "Coronal Mass Ejections",
+  "org": "NOAA Space Weather Prediction Center",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work (17 U.S.C. 105); public domain. Read 2026-11-16 by R5: fastest Earth-directed CMEs arrive in as little as 15-18 hours; slower ones take several days.",
+  "url": "https://www.spaceweather.gov/phenomena/coronal-mass-ejections",
+  "household_cited_by": [],
+  "cited_by": [
+   "27-02-emp-and-geomagnetic-storm"
+  ],
+  "added_by": "R5"
+ },
+ {
+  "key": "cisa-electromagnetic-pulse",
+  "title": "Electromagnetic Pulse (EMP) and Geomagnetic Disturbance",
+  "org": "Cybersecurity and Infrastructure Security Agency (CISA)",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work (17 U.S.C. 105); public domain. Read 2026-11-16 by R5: high-altitude EMP may damage or disable large sections of the national electric grid; unprotected electronics may be harmed directly or through systems they depend on.",
+  "url": "https://www.cisa.gov/topics/risk-management/electromagnetic-pulse-and-geomagnetic-disturbance",
+  "household_cited_by": [],
+  "cited_by": [
+   "27-02-emp-and-geomagnetic-storm"
+  ],
+  "added_by": "R5"
+ },
+ {
+  "key": "ready-gov-hazardous-materials-incidents",
+  "title": "Hazardous Materials Incidents",
+  "org": "Ready.gov (FEMA)",
+  "date": "2023-04-24",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work (17 U.S.C. 105); public domain. Read 2026-11-16 by R5: above-ground shelter room with few openings; seal with duct tape and plastic; if outside, move away immediately in a direction upwind of the source.",
+  "url": "https://www.ready.gov/hazardous-materials-incidents",
+  "household_cited_by": [],
+  "cited_by": [
+   "27-07-chemical-and-biological"
+  ],
+  "added_by": "R5"
+ },
+ {
+  "key": "fema-faq-shelter-in-place-room-duration",
+  "title": "How long to remain in shelter-in-place room?",
+  "org": "FEMA",
+  "date": "2020-02-05",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work (17 U.S.C. 105); public domain. Read 2026-11-16 by R5: ten square feet of floor space per person prevents carbon dioxide build-up for up to 5 hours at a resting breathing rate; most chemical releases dilute within a few hours.",
+  "url": "https://www.fema.gov/faq/how-long-remain-shelter-place-room",
+  "household_cited_by": [],
+  "cited_by": [
+   "27-07-chemical-and-biological"
+  ],
+  "added_by": "R5"
+ },
+ {
+  "key": "nws-hazard-simplification-2017",
+  "title": "Hazard Simplification changes set to be implemented",
+  "org": "NOAA / National Weather Service",
+  "date": "2017-07-03",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work (17 U.S.C. 105); public domain. Read 2026-11-16 by R5: Blizzard Watch and Lake Effect Snow Watch consolidated into Winter Storm Watch; Freezing Rain and Lake Effect Snow Advisories into Winter Weather Advisory; Flash Flood Watch into Flood Watch.",
+  "url": "https://www.weather.gov/news/170307-hazard-simplification",
+  "household_cited_by": [],
+  "cited_by": [
+   "17-01-blizzards-and-ice"
+  ],
+  "added_by": "R5"
+ },
+ {
+  "key": "nws-hazard-simplification-faq",
+  "title": "Hazard Simplification Project: FAQs Sheet (removal of the Advisory headline)",
+  "org": "NOAA / National Weather Service",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work (17 U.S.C. 105); public domain. Read 2026-11-16 by R5: NWS is removing 'Advisory' and 'Special Weather Statement' headlines in favour of plain-language headlines starting with the hazard name; no earlier than 2025, date not set in the sheet; watches and warnings unchanged.",
+  "url": "https://www.weather.gov/media/hazardsimplification/Haz%20Simp%20FAQ%20sheet.pdf",
+  "household_cited_by": [],
+  "cited_by": [
+   "17-01-blizzards-and-ice",
+   "17-04-extreme-cold-and-heat"
+  ],
+  "added_by": "R5"
+ },
+ {
+  "key": "nws-lightning-brochure-2018",
+  "title": "Lightning Safety brochure (When Thunder Roars, Go Indoors)",
+  "org": "NOAA / National Weather Service",
+  "date": "2018",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work (17 U.S.C. 105); public domain. Read 2026-11-16 by R5: stay inside a safe building or hard-topped metal vehicle at least 30 minutes after the last thunder; sheds, picnic shelters, tents and covered porches are not safe; victims carry no electrical charge, cardiac arrest is the cause of death, begin CPR.",
+  "url": "https://www.weather.gov/media/safety/Lightning-Brochure18.pdf",
+  "household_cited_by": [],
+  "cited_by": [
+   "17-02-tornadoes"
+  ],
+  "added_by": "R5"
+ },
+ {
+  "key": "nws-lightning-tips",
+  "title": "Lightning Tips",
+  "org": "NOAA / National Weather Service",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work (17 U.S.C. 105); public domain. Read 2026-11-16 by R5: 30 minutes after the last thunder; substantial building with electricity or plumbing or enclosed metal-topped vehicle; stay off corded phones and equipment; avoid plumbing.",
+  "url": "https://www.weather.gov/safety/lightning-tips",
+  "household_cited_by": [],
+  "cited_by": [
+   "17-02-tornadoes"
+  ],
+  "added_by": "R5"
+ },
+ {
+  "key": "cdc-keep-food-safe-after-disaster-2025",
+  "title": "Keep Food Safe After a Disaster or Emergency",
+  "org": "CDC",
+  "date": "2025-11-24",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work (17 U.S.C. 105); public domain. Read 2026-11-16 by R5: discard flood-touched food in non-waterproof packaging, cardboard, screw-cap and similar containers, home-canned, or damaged cans; sanitize undamaged commercial cans and retort pouches (1 cup bleach per 5 gallons for 15 minutes, or boil 2 minutes).",
+  "url": "https://www.cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html",
+  "household_cited_by": [],
+  "cited_by": [
+   "17-03-floods"
+  ],
+  "added_by": "R5"
+ },
+ {
+  "key": "cdc-heat-related-illnesses-poster-2026",
+  "title": "Heat-Related Illnesses: What to Look For, What to Do (poster)",
+  "org": "CDC",
+  "date": "2026-09",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work (17 U.S.C. 105); public domain. Read 2026-11-16 by R5: heat stroke 103 F or higher, do not give anything to drink; heat exhaustion: get medical help if throwing up, worse, or longer than 1 hour.",
+  "url": "https://cdc.gov/natural-disasters/media/pdfs/2026/09/Heat_Related_Illness-NEWLOGO.pdf",
+  "household_cited_by": [],
+  "cited_by": [
+   "17-04-extreme-cold-and-heat"
+  ],
+  "added_by": "R5"
+ },
+ {
+  "key": "usfa-wui-take-action",
+  "title": "Take Action (wildland-urban interface: home ignition zones)",
+  "org": "U.S. Fire Administration (FEMA)",
+  "date": "2021-02-09",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work (17 U.S.C. 105); public domain. Read 2026-11-16 by R5: Zone 1 0-5 ft, Zone 2 5-30 ft, Zone 3 30-100 ft; woodpiles at least 30 ft from the home.",
+  "url": "https://www.usfa.fema.gov/wui/communities/take-action.html",
+  "household_cited_by": [],
+  "cited_by": [
+   "17-05-grassland-fire"
+  ],
+  "added_by": "R5"
+ },
+ {
+  "key": "cpsc-carbon-monoxide-information-center",
+  "title": "Carbon Monoxide Information Center",
+  "org": "U.S. Consumer Product Safety Commission",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work (17 U.S.C. 105); public domain. Read 2026-11-16 by R5: one portable generator produces the same amount of CO as hundreds of cars; never use inside homes or garages even with doors and windows open.",
+  "url": "https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Carbon-Monoxide-Information-Center",
+  "household_cited_by": [],
+  "cited_by": [
+   "17-08-power-grid-failure"
+  ],
+  "added_by": "R5"
+ },
+ {
+  "key": "epa-reduce-smoke-exposure-factsheet-2026",
+  "title": "Reduce Your Smoke Exposure (Wildfire Smoke Guide fact sheet)",
+  "org": "US EPA",
+  "date": "2026-06",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work (17 U.S.C. 105); public domain. Read 2026-11-16 by R5: sensitive groups; do not rely on dust masks or bandanas; respirators do not come in children's sizes; children under 2 should not wear a respirator.",
+  "url": "https://www.epa.gov/system/files/documents/2026-06/reduce-smoke-exposure-factsheet.pdf",
+  "household_cited_by": [],
+  "cited_by": [
+   "17-09-pandemic-and-illness",
+   "17-14-wildfire-smoke-and-evacuation"
+  ],
+  "added_by": "R5"
+ },
+ {
+  "key": "epa-protect-your-lungs-factsheet-2026",
+  "title": "Protect Your Lungs From Wildfire Smoke and Ash (fact sheet EPA-452/F-26-004)",
+  "org": "US EPA",
+  "date": "2026-06",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work (17 U.S.C. 105); public domain. Read 2026-11-16 by R5: NIOSH N95 or P100, two head straps, seal check, no seal with facial hair; children 2 and older; ask a doctor if heart or lung disease or pregnant; heat illness risk.",
+  "url": "https://www.epa.gov/system/files/documents/2026-06/protect-your-lungs-factsheet.pdf",
+  "household_cited_by": [],
+  "cited_by": [
+   "17-14-wildfire-smoke-and-evacuation"
+  ],
+  "added_by": "R5"
+ },
+ {
+  "key": "metoffice-high-clouds",
+  "title": "High clouds (cirrus, cirrocumulus, cirrostratus)",
+  "org": "Met Office (UK national weather service)",
+  "date": "2026-11-16",
+  "licence_class": "restricted",
+  "licence_note": "Crown copyright, Met Office; archived for personal offline reference. Read 2026-11-16 by R5: cirrostratus nebulosus means an incoming warm front is likely to bring persistent rain within a day; halos.",
+  "url": "https://weather.metoffice.gov.uk/learn-about/weather/types-of-weather/clouds/high-clouds",
+  "household_cited_by": [],
+  "cited_by": [
+   "17-10-reading-the-sky"
+  ],
+  "added_by": "R5"
+ },
+ {
+  "key": "noaa-jetstream-four-core-types-of-clouds",
+  "title": "The Four Core Types of Clouds (JetStream)",
+  "org": "NOAA / National Weather Service JetStream",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work (17 U.S.C. 105); public domain. Read 2026-11-16 by R5: cirrus are the high wispy clouds that first appear in advance of a low-pressure area.",
+  "url": "https://www.noaa.gov/jetstream/clouds/four-core-types-of-clouds",
+  "household_cited_by": [],
+  "cited_by": [
+   "17-10-reading-the-sky"
+  ],
+  "added_by": "R5"
+ },
+ {
+  "key": "fema-nfip-floodsmart-buy-a-policy",
+  "title": "Buy a Policy — flood insurance FAQs (waiting period; what is and is not covered)",
+  "org": "FEMA / National Flood Insurance Program (FloodSmart)",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "Public domain (U.S. federal government work) — FEMA",
+  "url": "https://www.floodsmart.gov/get-insured/buy-a-policy",
+  "household_cited_by": [],
+  "cited_by": [
+   "19-04-insurance-and-claims"
+  ],
+  "added_by": "R6"
+ },
+ {
+  "key": "fdic-understanding-deposit-insurance",
+  "title": "Understanding Deposit Insurance",
+  "org": "Federal Deposit Insurance Corporation",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "Public domain (U.S. federal government work) — FDIC",
+  "url": "https://www.fdic.gov/resources/deposit-insurance/understanding-deposit-insurance",
+  "household_cited_by": [],
+  "cited_by": [
+   "19-02-cash-and-value",
+   "19-06-bank-access-in-crisis"
+  ],
+  "added_by": "R6"
+ },
+ {
+  "key": "ncua-share-insurance-coverage",
+  "title": "Share Insurance Coverage",
+  "org": "National Credit Union Administration",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "Public domain (U.S. federal government work) — NCUA",
+  "url": "https://ncua.gov/consumers/share-insurance-coverage",
+  "household_cited_by": [],
+  "cited_by": [
+   "19-02-cash-and-value"
+  ],
+  "added_by": "R6"
+ },
+ {
+  "key": "ftc-identity-theft-a-recovery-plan",
+  "title": "Identity Theft: A Recovery Plan",
+  "org": "Federal Trade Commission",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "Public domain (U.S. federal government work) — FTC",
+  "url": "https://www.bulkorder.ftc.gov/system/files/publications/501a_idt_a_recovery_plan_508.pdf",
+  "household_cited_by": [],
+  "cited_by": [
+   "19-05-identity-protection"
+  ],
+  "added_by": "R6"
+ },
+ {
+  "key": "ftc-credit-freezes-and-fraud-alerts",
+  "title": "What To Know About Credit Freezes and Fraud Alerts",
+  "org": "Federal Trade Commission (Consumer Advice)",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "Public domain (U.S. federal government work) — FTC",
+  "url": "https://consumer.ftc.gov/articles/what-know-about-credit-freezes-and-fraud-alerts",
+  "household_cited_by": [],
+  "cited_by": [
+   "19-05-identity-protection"
+  ],
+  "added_by": "R6"
+ },
+ {
+  "key": "ftc-free-credit-reports",
+  "title": "Free Credit Reports",
+  "org": "Federal Trade Commission (Consumer Advice)",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "Public domain (U.S. federal government work) — FTC",
+  "url": "https://consumer.ftc.gov/articles/free-credit-reports",
+  "household_cited_by": [],
+  "cited_by": [
+   "19-05-identity-protection"
+  ],
+  "added_by": "R6"
+ },
+ {
+  "key": "fema-disaster-fraud",
+  "title": "Disaster Fraud",
+  "org": "FEMA",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "Public domain (U.S. federal government work) — FEMA",
+  "url": "https://www.fema.gov/disaster-fraud",
+  "household_cited_by": [],
+  "cited_by": [
+   "19-05-identity-protection"
+  ],
+  "added_by": "R6"
+ },
+ {
+  "key": "nws-winter-safety-during",
+  "title": "Winter Weather Safety: During a winter storm",
+  "org": "NOAA / National Weather Service",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "Public domain (U.S. federal government work) — NOAA/NWS",
+  "url": "https://www.weather.gov/safety/winter-during",
+  "household_cited_by": [],
+  "cited_by": [
+   "23-03-substitution-catalog"
+  ],
+  "added_by": "R6"
+ },
+ {
+  "key": "fda-should-you-give-kids-medicine-for-coughs-and-colds",
+  "title": "Should You Give Kids Medicine for Coughs and Colds?",
+  "org": "US FDA (Consumer Updates)",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "Public domain (U.S. federal government work) — FDA",
+  "url": "https://www.fda.gov/consumers/consumer-updates/should-you-give-kids-medicine-coughs-and-colds",
+  "household_cited_by": [],
+  "cited_by": [
+   "21-07-sleep"
+  ],
+  "added_by": "R6"
+ },
+ {
+  "key": "dailymed-benadryl-diphenhydramine-drug-facts",
+  "title": "BENADRYL (diphenhydramine hydrochloride) tablet — Drug Facts label",
+  "org": "DailyMed (US National Library of Medicine); labeling supplied by the manufacturer",
+  "date": "2026-11-16",
+  "licence_class": "restricted",
+  "licence_note": "Manufacturer's FDA-required Drug Facts labeling as posted on DailyMed; treated as restricted (manufacturer text) pending licence check.",
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=702f9786-7ce9-43e4-921d-e1db09612127&audience=consumer",
+  "household_cited_by": [],
+  "cited_by": [
+   "21-07-sleep"
+  ],
+  "added_by": "R6"
+ },
+ {
+  "key": "cdc-tips-for-relying-on-routines-and-rules",
+  "title": "Tips for Relying on Routines and Rules (Essentials for Parenting Toddlers and Preschoolers)",
+  "org": "CDC",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "Public domain (U.S. federal government work) — CDC",
+  "url": "https://www.cdc.gov/parenting-toddlers/structure-rules/index.html",
+  "household_cited_by": [],
+  "cited_by": [
+   "21-04-routine-and-structure"
+  ],
+  "added_by": "R6"
+ },
+ {
+  "key": "noaa-national-weather-service-during-a-winter-storm-r7",
+  "title": "Winter Storm Safety: During a Winter Storm (if your car gets stuck)",
+  "org": "NOAA / National Weather Service",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work (NOAA/NWS). Read 2026-11-16 by R7: stay in the vehicle; run the motor about 10 minutes each hour; open a window a little; clear the exhaust pipe; dome light at night when running the engine; bright cloth on the antenna or door.",
+  "url": "https://www.weather.gov/safety/winter-during",
+  "household_cited_by": [],
+  "cited_by": [
+   "22-03-go-bags-and-kits",
+   "22-05-kit-vehicle",
+   "25-08-quick-reference-cards"
+  ],
+  "added_by": "R7"
+ },
+ {
+  "key": "usuhs-ncdmph-stop-the-bleed-apply-a-tourniquet-r7",
+  "title": "Stop the Bleed: just-in-time instructions (apply pressure, apply a tourniquet)",
+  "org": "National Center for Disaster Medicine and Public Health, Uniformed Services University (USUHS)",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work (Uniformed Services University, DoD). Read 2026-11-16 by R7: place the tourniquet 2-3 inches above the wound, between the torso and the wound; twist until bleeding stops; a second tourniquet above the first if it still bleeds; do not loosen or remove the tourniquet.",
+  "url": "https://stopthebleed.usuhs.edu/pdf/jit.pdf",
+  "household_cited_by": [],
+  "cited_by": [
+   "22-06-kit-medical",
+   "25-08-quick-reference-cards"
+  ],
+  "added_by": "R7"
+ },
+ {
+  "key": "cdc-treatment-of-low-blood-sugar-r7",
+  "title": "Treatment of Low Blood Sugar (Hypoglycemia)",
+  "org": "CDC",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work. Read 2026-11-16 by R7: the 15-15 rule (15 grams of carbohydrate, wait 15 minutes, recheck, repeat until in range, then a snack or meal); glucagon for severe lows, then emergency care.",
+  "url": "https://www.cdc.gov/diabetes/treatment/treatment-low-blood-sugar-hypoglycemia.html",
+  "household_cited_by": [],
+  "cited_by": [
+   "25-08-quick-reference-cards"
+  ],
+  "added_by": "R7"
+ },
+ {
+  "key": "cpsc-warns-of-dangers-after-a-hurricane-or-power-outage-2006-r7",
+  "title": "CPSC Warns of Dangers After a Hurricane or Power Outage Hits (news release, 2006)",
+  "org": "US Consumer Product Safety Commission",
+  "date": "2006",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work. Carries the CPSC statement that the carbon monoxide from one generator equals that of hundreds of idling cars. cpsc.gov returned 403 to R7's fetch on 2026-11-16; the wording was confirmed from the release as indexed by web search, so the archiver should capture the page.",
+  "url": "https://www.cpsc.gov/Newsroom/News-Releases/2006/CPSC-Warns-of-Dangers-After-a-Hurricane-or-Power-Outage-Hits",
+  "household_cited_by": [],
+  "cited_by": [
+   "26-05-checklist-heat-power-light"
+  ],
+  "added_by": "R7"
+ },
+ {
+  "key": "jackery-explorer-1000-v2-us-product-page-r8",
+  "title": "Jackery Explorer 1000 v2 Portable Power Station: tech specs (US product page)",
+  "org": "Jackery",
+  "date": "2026-11-16",
+  "licence_class": "restricted",
+  "licence_note": "© Jackery. Manufacturer page; archived for personal offline reference; do not redistribute. Read 2026-11-16 by R8: 1070 Wh LiFePO4; AC 3x 120 V 60 Hz, 1500 W rated, 3000 W surge; DC input 2x 8 mm, 12-16 V 8 A and 16-60 V 10.5 A, 400 W max; charge 32-113 F, discharge 14-113 F.",
+  "url": "https://www.jackery.com/products/jackery-explorer-1000-v2",
+  "household_cited_by": [],
+  "cited_by": [
+   "28-01-power-stations"
+  ],
+  "added_by": "R8"
+ },
+ {
+  "key": "first-alert-co-alarm-users-manual-m08-0534-r8",
+  "title": "User's Manual: 10-Year Sealed Battery Carbon Monoxide Alarm with Digital Temperature Display (M08-0534, Rev B)",
+  "org": "BRK Brands (First Alert)",
+  "date": "2018-01",
+  "licence_class": "restricted",
+  "licence_note": "© BRK Brands. Manufacturer manual hosted by Resideo; archived for personal offline reference; do not redistribute. Read 2026-11-16 by R8: UL 2034 required alarm points 400 ppm 4-15 min, 150 ppm 10-50 min, 70 ppm 60-240 min; designed not to alarm at a constant 30 ppm for 30 days.",
+  "url": "https://customer.resideo.com/resources/Techlit/TechLitDocuments/BRK-First%20Alert/M08-0534-160326-US-1039751-1039752-1039753_RevB_D1.pdf",
+  "household_cited_by": [],
+  "cited_by": [
+   "29-03-ex03-carbon-monoxide"
+  ],
+  "added_by": "R8"
+ },
+ {
+  "key": "cpsc-safety-alert-portable-generator-hazards-r8",
+  "title": "CPSC Safety Alert: Portable Generator Hazards (Publication 5123)",
+  "org": "US Consumer Product Safety Commission (CPSC)",
+  "date": "2021-10",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work. Read 2026-11-16 by R8: never power house wiring by plugging the generator into a wall outlet (backfeeding); electrocution risk to utility workers and neighbors served by the same transformer; bypasses household circuit protection.",
+  "url": "https://www.cpsc.gov/s3fs-public/5123_SafetyAlert_PortableGenerators_102021.pdf",
+  "household_cited_by": [],
+  "cited_by": [
+   "29-04-ex04-electricity-in-the-house"
+  ],
+  "added_by": "R8"
+ },
+ {
+  "key": "epa-burn-wise-tips-r8",
+  "title": "Burn Wise: Burn the Right Wood, the Right Way, in the Right Wood-Burning Appliance (tip sheet)",
+  "org": "US Environmental Protection Agency (EPA)",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work. Read 2026-11-16 by R8: firewood split, covered and aged at least six months; never burn trash or treated wood; never start a fire with gasoline, kerosene, charcoal starter or a propane torch.",
+  "url": "https://www.epa.gov/sites/default/files/documents/burnwisetips.pdf",
+  "household_cited_by": [],
+  "cited_by": [
+   "29-01-ex01-fuels"
+  ],
+  "added_by": "R8"
+ },
+ {
+  "key": "nws-amarillo-heat-index-r8",
+  "title": "Heat Index (classification table)",
+  "org": "NOAA / National Weather Service, Amarillo TX office",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work. Read 2026-11-16 by R8: Caution 80-90 F, Extreme Caution 90-103 F, Danger 103-124 F, Extreme Danger 125 F or higher, with the effect-on-the-body wording.",
+  "url": "https://www.weather.gov/ama/heatindex",
+  "household_cited_by": [],
+  "cited_by": [
+   "17-04-extreme-cold-and-heat",
+   "29-10-ex10-weather-alert-words"
+  ],
+  "added_by": "R8"
+ },
+ {
+  "key": "usfa-heating-fire-safety-r8",
+  "title": "Heating Fire Safety",
+  "org": "US Fire Administration (FEMA)",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work. Read 2026-11-16 by R8: keep anything that can burn at least 3 feet from all heat sources including fireplaces, wood stoves, radiators, space heaters or candles.",
+  "url": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/heating/",
+  "household_cited_by": [],
+  "cited_by": [
+   "29-12-ex12-extinguishers-blankets-and-alarms"
+  ],
+  "added_by": "R8"
+ },
+ {
+  "key": "usfa-blog-lithium-ion-batteries-2026-r8",
+  "title": "Lithium-Ion Batteries: Everyday Convenience, Hidden Fire Risks",
+  "org": "US Fire Administration (FEMA)",
+  "date": "2026-10-13",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work. Read 2026-11-16 by R8: batteries can bulge, leak or ignite; fires produce very hot jet flames, are fast and difficult to extinguish; burning batteries release harmful chemicals; stop using a battery that is smoking, hissing, punctured or swollen.",
+  "url": "https://www.usfa.fema.gov/blog/lithium-ion-batteries/",
+  "household_cited_by": [],
+  "cited_by": [
+   "29-02-ex02-batteries-and-power-stations",
+   "29-12-ex12-extinguishers-blankets-and-alarms"
+  ],
+  "added_by": "R8"
+ },
+ {
+  "key": "eia-british-thermal-units-r8",
+  "title": "British thermal units (Btu): Energy explained",
+  "org": "US Energy Information Administration (EIA)",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work. Read 2026-11-16 by R8: 1 kilowatthour = 3,412 Btu.",
+  "url": "https://www.eia.gov/energyexplained/units-and-calculators/british-thermal-units.php",
+  "household_cited_by": [],
+  "cited_by": [
+   "29-14-ex14-reading-a-label"
+  ],
+  "added_by": "R8"
  }
 ]

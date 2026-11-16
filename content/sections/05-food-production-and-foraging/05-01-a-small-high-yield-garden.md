@@ -2,7 +2,7 @@
 id: 05-01-a-small-high-yield-garden
 section: 05-food-production-and-foraging
 title: "A small high-yield garden for your climate"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: region
 danger_level: caution
@@ -10,12 +10,11 @@ phase: [A, C]
 tags: [garden, vegetables, frost dates, hardiness zone, growing season, calories, succession planting]
 derived_from: [05-01-small-urban-garden, 05-18-goshen-ozark-garden-calendar]
 sources:
-  - sdsu-extension-vegetable-gardening-in-south-dakota-p-b8fdbd
-  - sdsu-extension-last-spring-frost-dates-1b4cff
-  - sdsu-extension-first-fall-frost-dates-ac0fa0
-  - university-of-arkansas-cooperative-extension-service-6f780b
-  - university-of-arkansas-cooperative-extension-service-857a3c
   - university-of-minnesota-extension-planting-the-veget-acacfa
+  - university-of-minnesota-extension-starting-seeds-ind-2449d5
+  - umn-extension-watering-the-vegetable-garden
+  - iowa-state-extension-good-site-for-vegetable-garden
+  - noaa-ncei-normals-1991-2020
   - usda-phzm-2023
 related: [05-02-season-extension, 05-03-seed-saving, 05-06-foraging-and-deadly-look-alikes, 05-10-container-and-vertical, 05-11-soil-and-compost, 05-12-pollination-and-pests, 05-13-perennials-and-fruit, 05-14-indoor-growing, 05-18-destination-garden-calendar, 03-03-pool-water-desalination, 03-05-rain-and-snow-water, 04-09-winter-cold-storage, 25-01-planting-calendar, 14-03-opsec]
 cards: []
@@ -29,7 +28,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "State-specific Extension citations replaced with UMN, Iowa State and NOAA; seed-start weeks, soil temperatures, water and sun figures re-traced; indoor-start order corrected" }
 ---
 
 # A small high-yield garden for your climate
@@ -52,9 +51,12 @@ below from your home region's data. The methods work anywhere in the US.
    "Median" means half of all years are worse. Plan tender crops to be ripe well before the
    first frost date, not on it. Write your own observed dates here each year:
    last spring frost ________ · first fall frost ________.
-2. **Start warm-season seeds indoors** 4 to 12 weeks before they go outside (→ 05-14).
-3. **Plant cool-season crops 2 to 4 weeks before the last frost.** They sprout in soil as cool
-   as 40 °F (SDSU Extension, Vegetable Gardening in South Dakota).
+2. **Start seeds indoors on the packet's schedule**, counted back from the date they go
+   outside: about 5 to 6 weeks for tomatoes, 9 for peppers, 10 to 11 for cabbage-family crops and
+   14 to 15 for onions (University of Minnesota Extension, Starting Seeds Indoors; → 05-14).
+3. **Sow cool-season crops before the last frost.** Peas, spinach, lettuce and radish can be
+   sown straight into the garden once the soil is 40 to 50 °F (University of Minnesota
+   Extension, Planting the Vegetable Garden).
 4. **Build the soil now** (→ 05-11). Soil takes years; seeds take days.
 5. **Buy and store seed now** (→ 05-03), choosing varieties that ripen inside your season.
 
@@ -62,16 +64,17 @@ below from your home region's data. The methods work anywhere in the US.
 
 ### Your season, in one table
 
-Words first. A **frost** is a night cold enough (32 °F or below) to kill tender plants.
+Words first. A **frost** is a night cold enough (32 °F or below) to kill tender plants; the
+frost dates in this binder are for that 32 °F mark, from NOAA's climate normals (→ 32-00).
 **Cool-season crops** (peas, lettuce, spinach, kale, cabbage, radish, carrots, onions,
 potatoes) tolerate light frost and grow best in cool weather. **Warm-season crops** (tomatoes,
-peppers, beans, squash, cucumbers, corn, melons) are killed by frost and want warm soil and
-air above about 60 °F (SDSU Extension).
+peppers, beans, squash, cucumbers, corn, melons) are killed by frost and want soil at 50 to
+60 °F or warmer before they go in (University of Minnesota Extension).
 
 | Milestone | When, at home |
 |---|---|
-| Start warm-season seeds indoors | 4 to 12 weeks before {{ region.home.last_frost }} (tomatoes and peppers earliest) |
-| Sow cool-season crops outside | 2 to 4 weeks before {{ region.home.last_frost }} |
+| Start seeds indoors | 5 to 15 weeks before transplanting (onions earliest, then cabbage family, peppers, tomatoes); transplants go out after {{ region.home.last_frost }} |
+| Sow cool-season crops outside | Before {{ region.home.last_frost }}, once the soil is 40 to 50 °F |
 | **Last spring frost (median)** | **{{ region.home.last_frost }}** (a cold year runs later) |
 | Transplant warm-season crops | After the last frost, once nights stay warm |
 | **First fall frost (median)** | **{{ region.home.first_frost }}** (a cold year comes earlier) |
@@ -100,7 +103,7 @@ local authority.
 |---|---|---|
 | **Zones 3 to 4, short season** | Late spring, early fall, one warm stretch | One main planting. Start tomatoes, peppers and squash indoors. Choose short-season varieties (the shortest "days to maturity" on the rack). Potatoes, cabbage, carrots, peas and greens are the reliable crops. Season extension (→ 05-02) adds real weeks at both ends. |
 | **Zones 5 to 6, middle season** | One full warm season, cool spring and fall shoulders | A spring cool-season planting, a summer warm-season planting, and a fall cool-season planting sown in late summer. Most of the crop list works. |
-| **Zones 7 to 8, long season** | Early spring, late fall, hot summers | **Two full plantings**: a spring garden and a fall garden. Potatoes twice. Heat-tolerant crops such as sweet potatoes, okra and southern peas (cowpeas) thrive. Fungal disease and summer heat, not cold, are the main limits (University of Arkansas Extension, Year-Round Home Garden Planting Chart). |
+| **Zones 7 to 8, long season** | Early spring, late fall, hot summers | **Two full plantings**: a spring garden and a fall garden. Potatoes twice. Heat-tolerant crops such as sweet potatoes, okra and southern peas (cowpeas) thrive. Fungal disease and summer heat, not cold, are the main limits. Your state Extension planting chart gives the spring and fall dates. |
 | **Zones 9 and warmer, mild winter** | Frost rare or absent; summer is the hard season | Cool-season crops grow **through the winter**. Midsummer heat stops many crops from setting fruit, so plant warm-season crops in late winter and again in late summer. Shade cloth and water become the limits. |
 
 Your binder carries a month-by-month planting calendar for home in → 25-01, and one for each
@@ -130,7 +133,7 @@ dug before summer heat.
 - **Succession planting:** as soon as one crop finishes, another goes in the same spot.
 - **Interplanting:** fast crops (radish, lettuce) between slow ones (tomatoes, squash).
 - **Containers** on the patio and along the fence add real growing area (→ 05-10).
-- **Full sun:** 6 to 8 hours of direct sun a day for fruiting crops. Map your yard's sun before
+- **Full sun:** at least 6 hours of direct sun a day (Iowa State University Extension). Map your yard's sun before
   you dig: check it in the morning, at noon and in late afternoon.
 
 {{photo garden-sun-map}}
@@ -146,8 +149,9 @@ in the trash: not the compost, not the rabbits (→ 05-05), and never into a chi
 
 ### Water, and one important warning
 
-- A vegetable garden needs **roughly 1 inch of water a week** from rain or watering (SDSU
-  Extension). In a dry spell that is a lot of hauling.
+- A vegetable garden needs **about 1 inch of water a week** from rain or watering: **62 gallons
+  for every 100 square feet** (University of Minnesota Extension, Watering the Vegetable Garden).
+  In a dry spell that is a lot of hauling.
 - **Do not water the garden with saltwater-pool water** (→ 03-03). Salt damages soil and kills
   plants, and the damage lasts for seasons.
 - **Rain barrels are the right source** (→ 03-05). Used wash water ("greywater") works with

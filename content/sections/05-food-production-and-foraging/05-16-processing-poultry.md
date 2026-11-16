@@ -2,7 +2,7 @@
 id: 05-16-processing-poultry
 section: 05-food-production-and-foraging
 title: "Processing poultry and small game"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -16,6 +16,10 @@ sources:
   - cdc-tularemia-prevention-hunters-gloves-spotted-live-6dcb9d
   - cdc-trichinellosis-wild-carnivores-raccoon-bear-as-t-18d2f4
   - usda-aphis-defend-the-flock-biosecurity-and-signs-of-7dc7f9
+  - usda-aphis-defend-the-flock-how-to-spot-sickness
+  - umn-extension-home-processing-of-poultry
+  - missouri-dept-of-conservation-rabbit-safety-and-health
+  - cdc-baylisascaris-raccoon-roundworm-risk-to-small-ch-61be79
 related: [05-04-backyard-chickens, 05-05-rabbits, 05-09-field-dressing-and-butchering, 05-15-trapping-small-game, 04-05-canning-pressure, 04-09-winter-cold-storage, 04-12-fats-and-oils, 03-01-daily-water-needs, 03-08-keeping-water-from-going-bad, 06-04-wood-supply-and-depletion, 12-05-common-illness-and-dehydration, 13-02-hygiene-and-handwashing, 13-03-greywater-and-trash, 14-03-opsec, 20-03-routine-and-schooling, 21-03-grief-and-trauma, 02-04-cl04-food-allergy, 30-25-dc24-children-and-dangerous-jobs, 30-01-the-floors]
 cards: [DC-24]
 explainers: []
@@ -27,7 +31,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Scald and chill temperatures restored from University of Minnesota Extension; liver check and wild-carnivore cooking re-traced (MDC, CDC, FoodSafety.gov)" }
 ---
 
 # Processing poultry and small game
@@ -58,8 +62,13 @@ the order of work, the hygiene that protects you, and how to handle it with chil
 ### First rule: what is never food
 
 **A bird that died on its own is never food**, and neither is any bird from a flock with sudden
-multiple deaths, swollen heads or purple combs. Assume bird flu (→ 05-04; USDA APHIS, Defend the
-Flock): gloves and a mask, do not compost it, bury it deep, and process nothing from that flock.
+multiple deaths, swollen heads or purple combs or wattles. Assume bird flu (→ 05-04; USDA APHIS,
+Defend the Flock): gloves, a mask and eye protection, do not compost it, bury it deep, and process
+nothing from that flock. While phones work, report sick or dying birds to your state veterinarian
+or to USDA at 1-866-536-7593 (USDA APHIS).
+
+At gutting, **a liver with lumps or spots of any size, or fluid in the body cavity, means that bird
+is not used** (University of Minnesota Extension, Home Processing of Poultry).
 
 ### Poultry: the sequence
 
@@ -71,16 +80,21 @@ Flock): gloves and a mask, do not compost it, bury it deep, and process nothing 
 3. **Bleed out** fully.
 4. **Scald or skin.**
    - **Scalding** (a short dip in hot water, well below boiling) loosens feathers for plucking.
-     Test by pulling a wing feather: when it comes out easily, the bird is ready. Too hot tears
-     the skin; too cool and the feathers hold.
+     Hold the bird by the feet, dip it head first and move it up and down and side to side.
+     University of Minnesota Extension gives: **young birds 125 to 130 °F for 30 to 75 seconds;
+     older birds near 140 °F for 30 to 75 seconds; ducks and geese 160 to 170 °F for 1 to
+     2 minutes.** Check the water with a thermometer and keep a pot of boiling water nearby to
+     top it up. The bird is ready when the tail and wing feathers pull out easily. Too hot tears
+     the skin; too cool and the feathers hold. Pluck straight away.
    - **Skinning** is faster and needs no hot water. You lose the skin and some fat, but when fuel
      is short (→ 06-04) you avoid heating a big pot.
 5. **Pluck** (if scalded): main feathers, then the small pin feathers.
 6. **Gut it** ("eviscerate"): cut carefully around the vent (the rear opening), then remove the
    insides **without cutting the intestines or the gall bladder** (bile ruins meat). Save heart,
    liver and gizzard if you want them.
-7. **Rinse and chill at once:** cold water or an ice bath, then cold storage.
-8. **Rest** the carcass a day cold before cooking or preserving; freshly killed birds are tough.
+7. **Rinse and chill at once** in ice and water until the carcass is down to **40 °F**, then cold
+   storage. Small birds take a couple of hours (University of Minnesota Extension).
+8. **Rest** the carcass cold before cooking or preserving; a just-killed bird is tough.
 
 ### Rabbit: simpler
 
@@ -88,19 +102,23 @@ Flock): gloves and a mask, do not compost it, bury it deep, and process nothing 
 2. **Skin:** rabbit hide peels off readily.
 3. **Gut it**, avoiding the bladder and intestines.
 4. **Rinse, chill, rest.**
-5. **Gloves, and check the liver and spleen before keeping the meat.** In a **wild** rabbit,
-   **small white or yellow spots on the liver or spleen, or an enlarged liver, mean tularemia:
-   throw out the whole animal, bury it, wash up, eat none of it** (CDC; → 05-15). In a
+5. **Gloves, and check the liver before keeping the meat.** In a **wild** rabbit, **many
+   pinhead-size white spots on the liver mean possible tularemia: throw out the whole animal,
+   bury it, wash up, eat none of it** (Missouri Department of Conservation, Rabbit: Safety and
+   Health; CDC; → 05-15). In a
    **domestic** rabbit the same spots are coccidiosis: the meat is fine cooked to 160 °F; throw
    out the liver (→ 05-05). No rubbing eyes or face while skinning; clean the knife after.
 
 ### Raccoon and opossum, if the trapline brings them
 
-The same sequence as rabbit, with two hard rules (→ 05-15): **cook every part to 160 °F
-throughout** (trichinosis; freezing, smoking and curing do not make wild-carnivore meat safe;
-CDC), and treat raccoon **droppings and fur as hazardous** (a roundworm that can cripple or kill
-toddlers): gloves, no children anywhere near the carcass or gut pile, burn or deep-bury the
-remains, never process near the kitchen.
+The same sequence as rabbit, with two hard rules (→ 05-15): **cook every part right through,
+checked with a thermometer.** FoodSafety.gov gives no separate figure for raccoon or opossum; use
+at least the 160 °F it gives for venison and rabbit. Freezing, curing, smoking and drying do not
+reliably kill the trichinosis worms of wild meat-eaters (CDC, Trichinellosis). And treat raccoon
+**droppings and fur as hazardous**: they carry a roundworm whose eggs can damage the brain and
+eyes, mostly in young children who put dirt in their mouths (CDC, Baylisascaris). Gloves, no
+children anywhere near the carcass or gut pile, burn or deep-bury the remains, never process near
+the kitchen.
 
 ### Hygiene: the part that protects you
 
@@ -110,7 +128,7 @@ remains, never process near the kitchen.
 - **Wash hands** at every change of task (→ 13-02).
 - **Get rid of guts and feathers properly:** bury deep away from water and the garden, or compost
   with care (→ 05-11). Left out, they draw predators, rats (→ 04-11) and attention (→ 14-03).
-- **Clean and sanitise tools** after: hot soapy water, then a bleach solution if you have it.
+- **Clean and sanitise tools** after: hot soapy water, then a bleach solution if you have it (→ 29-05 for the mix).
 
 ### Preserving
 

@@ -2,7 +2,7 @@
 id: 17-07-drought-and-water-scarcity
 section: 17-weather-and-regional-hazards
 title: "Drought and water scarcity"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: region
 danger_level: caution
@@ -14,6 +14,7 @@ sources:
   - cdc-private-drinking-water-and-public-health-dc08f9
   - noaa-national-weather-service-heat-safety-66fd15
   - noaa-national-weather-service-wildfire-safety-b17a66
+  - fema-nri-counties
 related: [03-01-daily-water-needs, 03-02-storing-water, 03-03-pool-water-desalination, 03-04-purifying-water, 03-05-rain-and-snow-water, 03-06-winter-water, 03-08-keeping-water-from-going-bad, 03-10-well-water-without-power, 05-10-container-and-vertical, 05-11-soil-and-compost, 05-13-perennials-and-fruit, 13-02-hygiene-and-handwashing, 13-03-greywater-and-trash, 13-04-laundry-by-hand, 13-11-disease-outbreak, 17-04-extreme-cold-and-heat, 17-05-grassland-fire, 17-14-wildfire-smoke-and-evacuation, 01-02-go-no-go-decision, 01-05-choosing-a-destination, 23-02-master-consumables-table, 30-14-dc13-drinking-pool-or-surface-water]
 cards: [DC-13]
 explainers: [EX-06]
@@ -25,7 +26,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "NRI note; unsupported CDC well attribution removed; water figures are derived slots." }
 ---
 
 # Drought and water scarcity
@@ -36,6 +37,7 @@ creeks shrink, rain barrels stay empty), **the garden**, and **fire safety**, be
 dries out (→ 17-05). This page is about doing the water math honestly, cutting use in a planned
 order, and knowing when storage is no longer enough.
 {{#if is.drought_region}}**Your home county is rated 2 or 3 for drought in the region data.**{{/if}}
+Ratings in this binder are FEMA's National Risk Index for your county, on a 1-to-3 scale: they measure expected harm to people and property there, not how likely the hazard is (→ 29-10).
 Your area gets about **{{ region.home.precip_in }} inches** of rain and melted snow in a normal
 year.
 
@@ -65,7 +67,7 @@ year.
 |---|---|
 | **Town water** | Restrictions first, then possibly rationing. Usually the last to fail |
 | **Rain barrels** (→ 03-05) | **Empty exactly when you need them** |
-| **Wells** | The water table drops; yield falls; shallow wells can go dry. Deeper wells hold up better (CDC, Private Drinking Water) |
+| **Wells** | The water table drops; yield falls; shallow wells can go dry first |
 | **Creeks, ponds, sloughs** | Shrink, then stop. What is left is warm, concentrated and dirtier (→ 03-04) |
 | **Rivers** | Low, warm and poorer in quality; treatable with work |
 | **Snowpack** | A dry winter means a dry spring. **Drought often starts the winter before** |

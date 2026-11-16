@@ -16,7 +16,7 @@ sources:
   - cdc-recognizing-and-responding-to-anaphylaxis-645825
   - us-epa-emergency-disinfection-of-drinking-water-6aa91f
 related: [00-09-private-copy-notice, 00-01-how-to-use-this-binder, 00-10-install-and-charge-discipline, 29-15-ex15-how-this-binder-was-made, 30-01-the-floors, 12-16-triage-and-hard-calls, 23-04-resource-lifecycles, 25-10-annual-review]
-cards: []
+cards: [DC-25]
 explainers: [EX-15]
 promote_when: []
 photo_slots: []
@@ -109,7 +109,8 @@ list, with the reasons, is → 30-01. In short:
 - Never run a generator, charcoal, or any engine indoors, in a garage, or near an open window.
 - Never connect a generator to house wiring without a transfer switch, interlock, or a
   cord-and-plug conversion with the main breaker locked off. Never backfeed through an outlet.
-- Never loosen a tourniquet once placed; mark the time.
+- Never loosen a tourniquet once placed while help can still come; mark the time. If no help
+  will ever come, the conversion decision is DC-25 (→ 30-26).
 - Low-acid foods are pressure-canned to the published time and pressure, or not canned.
 - No wild plant or mushroom is eaten on a "test"; identification or nothing.
 - Fuel is never stored or transferred near an open flame or a running appliance.

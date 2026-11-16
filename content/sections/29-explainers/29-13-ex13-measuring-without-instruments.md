@@ -21,7 +21,7 @@ condition: null
 gear: null
 explainer: EX-13
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Spot-checked: cord 128 cu ft (MU Extension), fridge 4 h and full freezer 48 h, 40 F (FoodSafety.gov); other figures point to 25-02." }
 ---
 
 # Measuring without instruments, explained from the beginning

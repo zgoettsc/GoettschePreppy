@@ -2,7 +2,7 @@
 id: 05-19-destination-foraging-and-hazards
 section: 05-food-production-and-foraging
 title: "Foraging and field hazards at each destination"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: household
 danger_level: critical
@@ -11,10 +11,10 @@ tags: [destination, foraging, venomous snakes, snakebite, ticks, alpha-gal, ehrl
 derived_from: [05-19-ozark-foraging-and-hazards]
 sources:
   - cdc-niosh-venomous-snakes-recommended-first-aid-do-n-c30eed
-  - university-of-arkansas-cooperative-extension-service-ac5acb
-  - university-of-arkansas-cooperative-extension-service-818f88
   - cdc-preventing-tick-bites-permethrin-repellents-chec-cdfbea
+  - cdc-what-to-do-after-a-tick-bite
   - cdc-alpha-gal-syndrome-233d09
+  - cdc-symptoms-of-alpha-gal-syndrome
   - cdc-ehrlichiosis-d0f708
   - usda-nrcs-plants-database-plant-profiles-and-image-l-a7089c
 related: [05-06-foraging-and-deadly-look-alikes, 05-17-wild-edibles-by-season, 05-18-destination-garden-calendar, 05-08-fishing-and-ice-fishing, 01-05-choosing-a-destination, 01-07-evacuating-with-medical-needs, 02-03-cl03-anaphylaxis, 02-04-cl04-food-allergy, 12-01-first-aid-kit, 12-04-infection-and-antibiotics, 12-02-bleeding-and-wounds, 17-05-grassland-fire, 20-09-pets, 25-03-regional-contacts, 30-01-the-floors, 30-19-dc18-unlabeled-food-and-allergies]
@@ -28,7 +28,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "State Extension snake sources replaced with CDC/NIOSH; snakebite and tick steps re-traced to CDC; ehrlichiosis symptoms corrected; destination plates now rendered per destination" }
 ---
 
 # Foraging and field hazards at each destination
@@ -42,13 +42,14 @@ full. This page adds what changes when the ground is new to you.
 > The deadly ones are not detectable by taste tests and the dose is small (→ 30-01). **Snakebite:
 > do not cut the wound, suck the venom, apply a tourniquet or ice, or give alcohol; keep the
 > person still and get them to medical care, because antivenom is the treatment and only
-> hospitals have it** (CDC/NIOSH, Venomous Snakes). **A fever in the weeks after a tick bite is a
-> tick-borne disease until proven otherwise** (CDC, Ehrlichiosis).
+> hospitals have it** (CDC/NIOSH, Venomous Snakes). **A fever or rash in the weeks after a tick
+> bite is a tick-borne disease until proven otherwise** (CDC, What to Do After a Tick Bite;
+> CDC, Ehrlichiosis).
 
 ## Do this now
 
-1. **Look at each destination's plates in Section 32** (→ 32-00) before your next visit: the
-   deadly plants first, then the edibles.
+1. **Look at each destination's plates** (below, and that state's page in Section 32, → 32-00)
+   before your next visit: the deadly plants first, then the edibles.
 2. **Find out which venomous snakes live at each destination** (the state Extension service
    publishes a guide) and write them in the table below.
 3. **Treat outdoor clothing with permethrin** before tick season, and pack fine-tipped tweezers in
@@ -64,7 +65,7 @@ full. This page adds what changes when the ground is new to you.
 
 | Destination | Ecoregion | Zone | July high | Annual precipitation | Plates |
 |---|---|---|---|---|---|
-{{#each destinations as x}}| **{{x.name}}** ({{x.county}}, {{x.state_name}}) | {{x.region.ecoregion}} | {{x.region.zone}} | {{x.region.jul_high_f}} °F | {{x.region.precip_in}} in | {{x.state_name}} pages, Section 32 |
+{{#each destinations as x}}| **{{x.name}}** ({{x.county}}, {{x.state_name}}) | {{x.region.ecoregion}} | {{x.region.zone}} | {{x.region.jul_high_f}} °F | {{x.region.precip_in}} in | Below; {{x.state_name}} page in Section 32 |
 {{else}}| **No destinations entered** | | | | | |
 {{/each}}
 
@@ -74,10 +75,14 @@ full. This page adds what changes when the ground is new to you.
 - Venomous snakes there: ______________________ (from the state Extension snake guide)
 - Ticks there, and the diseases they carry: ______________________
 - Poison ivy, oak or sumac there: ______________________
-- Wild foods worth learning there (from the {{x.state_name}} plates): ______________________
+- Wild foods worth learning there (from the plates below): ______________________
 - Nut trees on or near the property (hickory, walnut, oak, pecan): ______________________
 - Nearest hospital for snakebite and anaphylaxis, and drive time: ______________________
 - Checked on (date): __________
+
+Plates recorded for {{x.name}}:
+
+{{plates}}
 
 {{/each}}
 
@@ -125,27 +130,30 @@ state; write yours in the destination notes above.
 
 | Snake | What to look for | Where |
 |---|---|---|
-| **Copperhead** | Coppery-tan with **hourglass-shaped crossbands** seen from the side; superbly camouflaged in leaf litter | Woods in the East and South; the one people most often step on |
+| **Copperhead** | Coppery-tan with **hourglass-shaped crossbands** seen from the side; superbly camouflaged in leaf litter | Woods in the East and South |
 | **Rattlesnakes** | Heavy body, blotches or chevrons, a **rattle** on the tail; usually rattles, not always | Many species across the country |
-| **Cottonmouth (water moccasin)** | Heavy, dark, blocky head; threatened, it holds its ground and gapes a **white mouth**; swims with its **whole body on the surface** (harmless water snakes swim mostly submerged and flee) | Streams, ponds and swamps in the South and Southeast |
+| **Cottonmouth (water moccasin)** | Heavy, dark, blocky head; threatened, it holds its ground and gapes a **white mouth**. Harmless water snakes look similar: treat every snake at the water's edge as venomous | Streams, ponds and swamps in the South and Southeast |
 | **Coral snake** | Red, yellow and black rings | Southern states |
 
 **Avoidance is nearly everything:** boots and long trousers off mowed ground; **never put hands
 or feet where you cannot see** (woodpiles, rock ledges, stepping over logs); a light at night in
-warm months; children on cleared paths; leave every snake alone. **Many bites happen to people
-trying to kill or handle the snake** (University of Arkansas Extension, Education and caution key
-to avoiding venomous snakes). Clear brush, rock piles and lumber near the house and play areas.
+warm months; children on cleared paths; leave every snake alone. **Never handle a venomous
+snake, not even a dead one or its cut-off head, and never try to pick one up or trap it**
+(CDC/NIOSH, Venomous Snakes). Clear brush, rock piles and lumber near the house and play areas.
 Look before you step down a bank or reach into brush at the water's edge (→ 05-08).
 
 **Snakebite response (CDC/NIOSH):**
-1. **Move away from the snake.** No second bite, no revenge hunt; a dead snake's head can still
-   bite by reflex.
-2. **Do NOT cut the wound, suck the venom, apply a tourniquet or ice, or give alcohol.** Suction
-   "extractor" kits do not work.
+1. **Move away from the snake.** No second bite, no revenge hunt; do not pick it up or trap it,
+   even dead.
+2. **Do NOT cut the wound, suck the venom (no suction kits), apply a tourniquet, ice or electric
+   shock, or soak the wound in water.** No alcohol, and no aspirin, ibuprofen or naproxen for the
+   pain.
 3. **Remove rings, watches and tight clothing** near the bite before swelling starts.
-4. **Keep the person calm and still**; keep the bitten limb still, roughly at heart level.
-5. **Get to medical care. Antivenom is the treatment and only hospitals have it.** Mark the time
-   of the bite and draw a line at the edge of the swelling with a pen, with the time.
+4. **Keep the person calm and still**, lying or sitting with the bite in a comfortable, neutral
+   position. Wash the bite with soap and water and cover it with a clean, dry dressing.
+5. **Get to medical care at once; do not wait for symptoms. Antivenom is the treatment and only
+   hospitals have it.** The bitten person does not drive. Mark the edge of the tenderness or
+   swelling on the skin with a pen and write the time beside it; repeat as it spreads.
 6. **If care truly cannot be reached:** rest, fluids, wound care and watching for infection
    (→ 12-04) are what you have. That is why **avoidance is the real medical plan.**
 
@@ -154,11 +162,12 @@ Look before you step down a bank or reach into brush at the water's edge (→ 05
 Ticks carry several serious diseases, and some regions have very heavy tick loads (the lone star
 tick across the South and East above all). Two to know by name:
 - **Alpha-gal syndrome:** a lone star tick bite can cause an **allergy to red meat** (beef, pork,
-  venison, rabbit and other mammals), with reactions **delayed 2 to 6 hours** after eating: hives,
-  stomach symptoms, up to anaphylaxis (CDC, Alpha-gal Syndrome). For a household whose protein
+  venison, rabbit and other mammals), with reactions **usually 2 to 6 hours** after eating red
+  meat or dairy: hives, stomach symptoms, up to anaphylaxis (CDC, Alpha-gal Syndrome; CDC,
+  Symptoms of Alpha-gal Syndrome). For a household whose protein
   plan is game and livestock, this is a serious threat.
-- **Ehrlichiosis:** **fever, chills, severe headache, muscle aches, sometimes a rash, about 1 to
-  2 weeks after a bite.** Untreated it can be severe; **doxycycline is the treatment** (CDC,
+- **Ehrlichiosis:** **fever, chills, headache, muscle aches, sometimes an upset stomach, 1 to
+  2 weeks after a bite.** It can become severe; **doxycycline is the treatment** (CDC,
   Ehrlichiosis; → 12-04).
 
 **The routine (CDC, Preventing Tick Bites):**
@@ -169,10 +178,12 @@ tick across the South and East above all). Two to know by name:
 - **Trousers tucked into socks; light-coloured clothes; stay in the middle of paths.**
 - **Daily full-body tick checks on everyone** after any time outdoors. Children at bath time:
   hairline, ears, waistband, groin, behind the knees. Check pets too.
-- **Removal: fine-tipped tweezers, grip as close to the skin as possible, pull straight up with
-  steady pressure.** No matches, no petroleum jelly, no twisting. Wash the site; write the date
-  down and watch for fever or rash for the next weeks.
-- **Clothes into a hot dryer for 10 minutes** after field days kills ticks that rode home.
+- **Removal: clean, fine-tipped tweezers, grip as close to the skin as possible, pull straight
+  out with steady, even pressure.** No twisting or jerking; no petroleum jelly, heat or nail
+  polish. Wash the site and your hands; write the date down and watch for fever or rash for
+  several weeks (CDC, What to Do After a Tick Bite).
+- **Dry clothes into a dryer on high heat for 10 minutes** after field days kills ticks that
+  rode home (CDC, Preventing Tick Bites).
 
 {{figure fig-tick-removal}}
 

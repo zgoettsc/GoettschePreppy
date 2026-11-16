@@ -2,7 +2,7 @@
 id: 17-08-power-grid-failure
 section: 17-weather-and-regional-hazards
 title: "Power grid failure: hours, days and weeks"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -16,6 +16,7 @@ sources:
   - ready-gov-power-outages
   - american-red-cross-power-outage-safety-6d07a8
   - us-fire-administration-fema-candle-fire-safety-use-f-6eeda1
+  - cpsc-carbon-monoxide-information-center
 related: [09-01-power-priorities, 09-03-batteries-and-storage, 09-04-generators, 09-06-charging-medical-devices, 09-10-power-for-medical, 09-16-outage-day-one, 08-01-heating-one-room, 08-02-carbon-monoxide-safety, 08-04-emergency-heat-options, 04-09-winter-cold-storage, 04-17-food-safety-power-outage, 03-02-storing-water, 03-04-purifying-water, 03-10-well-water-without-power, 13-01-human-waste-no-plumbing, 15-01-weather-alerts, 15-04-monitoring-and-info, 19-02-cash-and-value, 01-02-go-no-go-decision, 24-04-blackout-weekend, 17-01-blizzards-and-ice, 17-03-floods, 29-02-ex02-batteries-and-power-stations, 29-03-ex03-carbon-monoxide, 29-04-ex04-electricity-in-the-house, 30-01-the-floors, 30-02-dc01-unvented-heater-overnight, 30-03-dc02-propane-cylinder-indoors, 30-08-dc07-diy-cord-and-plug-conversion, 30-15-dc14-questionable-food]
 cards: [DC-01, DC-02, DC-07, DC-14]
 explainers: [EX-02, EX-03, EX-04]
@@ -28,7 +29,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CPSC hundreds-of-cars claim resourced; generator 20 ft to Ready.gov; fridge/freezer hours verified." }
 ---
 
 # Power grid failure: hours, days and weeks
@@ -40,8 +41,9 @@ next is where households get caught. Start from the safety box; it is what kills
 > **SAFETY.**
 > - **Never run a generator, charcoal, or any engine indoors, in a garage, or near an open
 >   window.** Carbon monoxide (CO) is the main killer after a power outage. CPSC says one portable
->   generator can make as much CO as hundreds of cars, and opening doors or windows does not make
->   it safe (CPSC, Portable Generator Safety; → 29-03).
+>   generator produces the same amount of CO as hundreds of cars, and opening doors or windows does
+>   not make it safe (CPSC, Carbon Monoxide Information Center; CPSC, Portable Generator Safety;
+>   → 29-03).
 > - **Never connect a generator to house wiring except through a transfer switch, or an interlock
 >   kit with the main breaker off. Never backfeed through an outlet with a double-male ("suicide")
 >   cord.** Backfed power can kill line workers and neighbours (→ 29-04, → 30-01).
@@ -126,7 +128,8 @@ from the start.**
    roughly **{{ derived.station_fridge_days }} days** of a typical full-size fridge if nothing else
    ran (an estimate; → 29-02). Give each station a job before the outage, by priority (→ 09-01).{{/if}}
    {{#if has.generator}}Your generator ({{ gear.generator_watts }} running watts, {{ gear.generator_fuel }})
-   is a **bridge**: run it outdoors, at least 20 feet from windows and doors, in bursts to charge
+   is a **bridge**: run it outdoors, at least 20 feet from windows, doors and attached garages
+   (Ready.gov, Power Outages), in bursts to charge
    batteries, not all day (→ 09-04). House connection: {{ gear.house_connection }}.{{/if}}
 6. **Sump pump.** Power out means sump out (→ 17-03). A pump draws a large surge when it starts;
    read the nameplate and test it on your backup power before you need it. If both the sump and

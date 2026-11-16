@@ -24,7 +24,8 @@ related:
   - 17-01-blizzards-and-ice
   - 09-06-charging-medical-devices
   - 29-07-ex07-refrigerated-medicines
-cards: []
+  - 30-29-dc28-relighting-gas-appliances
+cards: [DC-28]
 explainers: [EX-03, EX-07]
 promote_when: [is.cold_winters]
 photo_slots:
@@ -90,6 +91,8 @@ water left to freeze and split, and it is **drinkable reserve water first** (→
    open a hot tap upstairs so air can enter.
 4. **Restart only after it is full again,** with the inlet open, and only by the instructions on
    its label. Heating an empty tank destroys it.
+   Relighting a gas water heater's pilot yourself when the gas company cannot come is a
+   decision card: {{choice DC-28}} → 30-29.
 
 {{photo water-heater-valves}}
 

@@ -20,7 +20,7 @@ sources:
   - 988-suicide-and-crisis-lifeline-samhsa-988-suicide-a-5f45b0
   - us-fda-information-regarding-insulin-storage-and-swi-6448d3
 related: [00-06-first-60-minutes, 25-08-quick-reference-cards, 25-03-regional-contacts, 12-02-bleeding-and-wounds, 12-18-choking-and-cpr, 08-02-carbon-monoxide-safety, 17-02-tornadoes, 17-06-tornado-shelter, 02-03-cl03-anaphylaxis, 12-17-poisoning-and-ingestion, 09-16-outage-day-one, 01-02-go-no-go-decision]
-cards: [DC-01, DC-08]
+cards: [DC-01, DC-08, DC-25]
 explainers: [EX-03, EX-07]
 promote_when: []
 photo_slots: []
@@ -62,7 +62,7 @@ medicine is kept:** __________________________
 | If this is happening | Do this first | Then go to |
 |---|---|---|
 | **Anaphylaxis** (throat tightening, trouble breathing, swelling of lips or tongue, hives over the body, repeated vomiting, collapse, often minutes after a food, sting or medicine) | **EPINEPHRINE INTO THE OUTER THIGH, NOW.** Then call 911. **A second dose 5 to 15 minutes later if not improving** (CDC, Recognizing and Responding to Anaphylaxis). Antihistamines are not a treatment. *No 911: lie them down (on their side if vomiting), keep watching for hours* | → 02-03 |
-| **Severe bleeding** | **Hard direct pressure.** Life-threatening limb bleed: **tourniquet 2 to 3 inches above the wound (never over a joint), tight until the bleeding stops, write the time. Never loosen it.** *No 911: the rules in → 12-02 change when no one is coming* | → 12-02 |
+| **Severe bleeding** | **Hard direct pressure.** Life-threatening limb bleed: **tourniquet 2 to 3 inches above the wound (never over a joint), tight until the bleeding stops, write the time. Never loosen it while help can still come.** *No help will ever come: the conversion decision is DC-25 (→ 30-26)* | → 12-02 |
 | **Not breathing, no pulse** | **CPR. Call 911.** *No 911: CPR is unchanged; → 12-18 is the memory aid, → 12-16 the hard calls* | → 12-18 |
 | **CO alarm, or several people with headache, nausea or dizziness at once** | **EVERYONE OUTSIDE. CALL 911. DO NOT GO BACK IN.** Turn a heater off only if it is within arm's reach on the way out. *No 911: fresh air is the treatment; rest outside for hours; find and stop the source, then air the house out before anyone goes back in* | → 08-02 |
 | **Severe low blood sugar** (someone with diabetes is unconscious, seizing or cannot swallow) | **NOTHING BY MOUTH. Glucagon if they have it. Call 911.** *No 911: on their side; fast sugar once awake and able to swallow; recheck every 15 minutes* | → 02-01, → 02-05 |

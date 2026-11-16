@@ -2,7 +2,7 @@
 id: 17-02-tornadoes
 section: 17-weather-and-regional-hazards
 title: "Tornadoes, severe thunderstorms, derechos and lightning"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: region
 danger_level: critical
@@ -19,8 +19,11 @@ sources:
   - noaa-national-weather-service-noaa-weather-radio-all-5f13d8
   - nws-destructive-thunderstorm-wea-2021
   - nssl-damaging-winds-basics
+  - fema-nri-counties
+  - nws-lightning-brochure-2018
+  - nws-lightning-tips
 related: [17-06-tornado-shelter, 17-10-reading-the-sky, 17-11-corridor-hazards, 17-18-hail-and-damaging-wind, 17-08-power-grid-failure, 15-01-weather-alerts, 15-07-signals-and-codes, 12-02-bleeding-and-wounds, 12-08-medical-kit-tiers, 12-18-choking-and-cpr, 16-12-grid-down-house-repairs, 18-01-mutual-aid, 20-04-teaching-kids-the-plan, 20-08-kids-and-fear, 24-02-drills, 29-10-ex10-weather-alert-words, 30-20-dc19-when-to-leave]
-cards: [DC-19]
+cards: [DC-19, DC-28]
 explainers: [EX-10, EX-09]
 promote_when: [is.tornado_region]
 photo_slots:
@@ -31,7 +34,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "NRI rating note; 2020 derecho figures corrected to NWS DMX; derecho lead time softened per SPC; lightning to NWS brochure and tips." }
 ---
 
 # Tornadoes, severe thunderstorms, derechos and lightning
@@ -44,6 +47,7 @@ wind (including derechos) and lightning. Hail is on → 17-18; preparing the she
 {{#if is.tornado_region}}**Your home county is rated 2 or 3 for tornadoes in the region data:
 plan for this every spring and summer.**{{else}}Your home county is rated lower for tornadoes, but
 tornadoes have struck every state; keep this page.{{/if}}
+Ratings in this binder are FEMA's National Risk Index for your county, on a 1-to-3 scale: they measure expected harm to people and property there, not how likely the hazard is (→ 29-10).
 
 > **SAFETY.** **Tornado warning: go now.** Lowest floor, most interior room, away from windows,
 > as many walls between you and the outside as you can, and **protect your head and neck**
@@ -99,8 +103,8 @@ outside as possible, and protect your head (NWS, Tornadoes: During the Event).
   even if it is tied down. Leave for a sturdy building or a community shelter when the watch is
   issued or the sky turns bad, not when the warning sounds** (NWS; SPC: "Get out!"). Know now
   where you will go and how long it takes to get there: ______________.{{/if}}
-- **Cover your head and neck.** Helmets (bicycle helmets work) help; most tornado deaths and
-  injuries come from flying debris and head injuries.
+- **Cover your head and neck.** Helmets (bicycle helmets work) help: SPC says flying debris is
+  the greatest danger in tornadoes.
 - **Put a mattress, heavy blankets or couch cushions over you.**
 - **Shoes on.** After a tornado the ground is glass, nails and broken wood (→ 12-02).
 - **Never:** a room with windows, a big open room (gym, warehouse, big store aisle), a garage, a
@@ -155,9 +159,8 @@ Safety FAQ):
 - **Shoes and gloves before you move** (→ 12-02).
 - **Downed power lines:** assume every line is live. Keep everyone, children and pets well back.
 - **Gas:** if you smell gas, get everyone out and shut the gas off at the meter (→ 16-12). **Do
-  not turn it back on yourself while a utility exists.** If no utility will come, only after the
-  leak is found and fixed, every appliance valve closed, then relight one appliance at a time
-  with windows open (→ 16-12).
+  not turn it back on yourself while a utility exists.** If no utility will come, relighting
+  yourself is a decision card: {{choice DC-28}} → 30-29 (→ 16-12).
 - **Do not go into a badly damaged building.**
 - **Check on neighbours** (→ 18-01). Right after a tornado, neighbours are the only rescue there
   is.
@@ -173,10 +176,13 @@ a damage swath of **at least about 250 miles**, gusts of **at least 58 mph** alo
 several well-separated gusts of **75 mph or more**.
 
 - **What one looks like:** on August 10, 2020, a derecho crossed Iowa and beyond. Its path ran
-  **over 750 miles**, it brought measured gusts to **99 mph**, and **over 1.9 million customers
-  lost power**, many for **days to weeks** (NWS Des Moines, event summary).
-- **Warning signs:** a shelf cloud across the whole horizon, an advancing wall of dust or rain, a
-  sudden temperature drop and wind blast. Minutes of lead time (→ 17-10).
+  **over 750 miles**, winds passed **100 mph** in two areas (gusts near Cedar Rapids were estimated
+  at 120 mph or more), and **over 1.9 million customers** lost power, 1.4 million of them at once
+  (NWS Des Moines, event summary).
+- **Warning signs:** sometimes a shelf cloud across the horizon, an advancing wall of dust or
+  rain, then a sudden wind blast. SPC: derechos usually move at 50 mph or more, so these signs
+  appear on very short notice, often too short to act on; the radio warning is what gives you
+  time (→ 17-10).
 - **What you do:** the tornado posture without waiting for rotation. Same shelter, same helmets.
   Trees and power lines come down everywhere at once.
 - **Afterward it is a long, wide outage** (→ 17-08). Plan on days, not hours.
@@ -184,17 +190,20 @@ several well-separated gusts of **75 mph or more**.
 ## Lightning: the everyday killer in the same storms
 
 - **"When thunder roars, go indoors,"** and stay in until **30 minutes after the last thunder**
-  (NWS, Lightning Safety). If you can hear thunder, you are close enough to be struck.
-- **Safe places:** a substantial building with wiring and plumbing, or a hard-topped metal vehicle
-  with the windows up. Inside, stay off corded devices and out of showers and sinks during the
-  storm.
-- **Never safe:** open fields, hilltops, lone trees, water, metal fences, tractors and mowers,
-  picnic shelters, sheds, tents and porches.
+  (NWS, Lightning Safety brochure). If you can hear thunder, it is time to get to a safe building
+  or vehicle.
+- **Safe places:** a substantial building with electricity or plumbing, or a hard-topped metal
+  vehicle with the windows up (NWS). Inside, stay off corded phones and other equipment wired to
+  the mains, and away from plumbing: sinks, baths and taps (NWS, Lightning Tips).
+- **Never safe:** open areas, hilltops, lone trees, water, wire fences and power lines, and
+  sheds, picnic shelters, tents or covered porches (NWS); add tractors and mowers in the open.
 {{#if has.pool}}- **Pool or hot tub:** thunder means everyone out of the water, and it stays
   closed until 30 minutes after the last thunder.{{/if}}
 - **Grid-down life means more hours outside.** The 30-minute clock does not shrink because the
   chores are urgent. Use the time for indoor work.
-- **If someone is struck:** they carry no charge. Touch them and **start CPR at once** (→ 12-18).
+- **If someone is struck:** NWS says lightning victims do not carry an electrical charge and may
+  need first aid at once; cardiac arrest is what kills. Touch them and **start CPR at once**
+  (→ 12-18).
   Move everyone else out of the open; lightning does strike the same place twice.
 
 ## When the warning systems are gone

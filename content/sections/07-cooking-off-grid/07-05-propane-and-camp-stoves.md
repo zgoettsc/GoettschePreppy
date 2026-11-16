@@ -2,7 +2,7 @@
 id: 07-05-propane-and-camp-stoves
 section: 07-cooking-off-grid
 title: "Propane and camp stoves, and why they stay outdoors"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -15,7 +15,7 @@ sources:
   - foodsafety-gov-usda-hhs-cook-to-a-safe-minimum-inter-13daf3
   - propane-education-and-research-council-perc-safety-g-40ea6b
   - nfpa-nfpa-58-liquefied-petroleum-gas-code-storage-of-13af35
-  - cdc-mmwr-hydrocarbon-kerosene-lamp-oil-ingestion-in-106f3a
+  - medlineplus-methanol-poisoning
 related: [06-05-alternative-fuels, 06-06-fuel-storage-safety, 06-07-moving-and-transferring-fuel, 07-01-cooking-on-an-open-fire, 07-02-rocket-stove, 07-06-electric-kettle-cooking, 08-02-carbon-monoxide-safety, 08-04-emergency-heat-options, 08-09-portable-propane-heaters, 09-04-generators, 23-02-master-consumables-table, 29-01-ex01-fuels, 29-03-ex03-carbon-monoxide, 29-12-ex12-extinguishers-blankets-and-alarms, 30-01-the-floors, 30-03-dc02-propane-cylinder-indoors, 30-04-dc03-refilling-1-lb-cylinders, 30-06-dc05-fuel-in-attached-garage, 30-21-dc20-open-flame-indoors, 12-17-poisoning-and-ingestion]
 cards: [DC-02, DC-03, DC-05, DC-20]
 explainers: [EX-01, EX-03, EX-12]
@@ -28,7 +28,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CO floor and camp-stove rule match 30-01 and DC-20 (camp stoves under the floor, match-lit range under DC-20); methanol toxicity re-sourced to MedlinePlus; unsourced butane freezing threshold made qualitative; venison and rabbit added to temperatures" }
 ---
 
 # Propane and camp stoves, and why they stay outdoors
@@ -51,8 +51,8 @@ keeps people alive in winter outages.
 1. **Cook outdoors** with any camp stove, grill or charcoal, including in winter. Build a
    sheltered outdoor spot (windbreak, roof or tarp, light) so weather is never the reason to bring
    it inside.
-2. **Choose propane or white gas over butane** where winters are cold: butane canisters largely
-   **stop working below freezing**; propane keeps working, more weakly, in the cold.
+2. **Choose propane or white gas over butane** where winters are cold: butane canisters lose
+   pressure badly in the cold and may barely work; propane keeps working, more weakly.
 3. **Store cylinders outdoors**, upright and secured, away from doors, windows and anything that
    sparks (→ 06-06).
 4. **Keep battery CO alarms** on every level and where people sleep (→ 08-02).
@@ -86,7 +86,7 @@ The fuels are explained on → 29-01.
 |---|---|---|---|
 | **Two-burner propane camp stove** | 1-lb cylinders, or a 20-lb tank with an adapter hose | **Fair to good** | The best all-round backup for a family |
 | **Single-burner propane** | 1-lb cylinders | Fair to good | Compact, cheap, good as a spare |
-| **Butane canister stove** | Butane cartridges | **Poor below freezing** | Fine in summer; unreliable exactly when you need it |
+| **Butane canister stove** | Butane cartridges | **Poor in the cold** | Fine in summer; unreliable exactly when you need it |
 | **Liquid-fuel (white gas) stove** | White gas or multi-fuel | **Excellent** | Best in deep cold; needs priming and care |
 | **Alcohol stove** | Denatured alcohol | Moderate | Simple, quiet, low output |
 | **Wood or twig stove** | Sticks | Good | No fuel to carry (→ 07-02) |
@@ -155,8 +155,8 @@ a working stove when the lights are not.
 
 ### Safe temperatures
 
-A camp stove does not change the numbers: **165 °F poultry, 160 °F ground meat, 145 °F whole cuts
-with a 3-minute rest** (FoodSafety.gov). Use a thermometer (→ 07-01).
+A camp stove does not change the numbers: **165 °F poultry, 160 °F ground meat, venison and
+rabbit, 145 °F whole cuts of beef, pork, lamb and veal with a 3-minute rest** (FoodSafety.gov). Use a thermometer (→ 07-01).
 
 ## Gear / items
 
@@ -184,7 +184,9 @@ with a 3-minute rest** (FoodSafety.gov). Use a thermometer (→ 07-01).
 - **Alcohol stoves** can be made from cans. **Yellow-bottle fuel-line antifreeze is methanol. It
   burns, with three cautions: the flame is nearly invisible in daylight (never refuel a stove that
   might still be lit; pour water on it first); its vapour and fumes are toxic (outdoors only); and
-  a mouthful can blind or kill a child.** **Children do not have access to firearms, fuel,
+  swallowed, as little as 2 tablespoons can kill a child, and blindness is common and often
+  permanent** (MedlinePlus, Methanol Poisoning). If anyone swallows it: Poison Control,
+  1-800-222-1222, and do not make them vomit. **Children do not have access to firearms, fuel,
   medications or chlorine products** (→ 30-01): locked, labelled, never in a drink bottle
   (→ 12-17). Red-bottle (isopropyl) antifreeze is a poor, sooty fuel.
 

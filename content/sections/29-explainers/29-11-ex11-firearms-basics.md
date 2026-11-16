@@ -2,7 +2,7 @@
 id: 29-11-ex11-firearms-basics
 section: 29-explainers
 title: "Firearms basics for a non-shooter in the house"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: explainer
 danger_level: critical
@@ -22,7 +22,7 @@ condition: null
 gear: null
 explainer: EX-11
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "SAAMI interchangeability (357 Magnum/38 Special, designation on the barrel) and 150 F storage re-read; four-rules attribution reworded to what the NSSF page says; floor 9 as on 30-01." }
 ---
 
 # Firearms basics, for someone who does not shoot
@@ -38,8 +38,11 @@ whether or not the household owns a firearm, because guns turn up in other peopl
 
 ## The four rules
 
-These are the same in every safety course (NSSF, Firearm Safety). Every accident breaks at least
-one of them.
+These four are taught in every safety course. NSSF's longer list of ten starts from the same
+ideas: keep the muzzle pointed in a safe direction, never touch the trigger until you mean to
+shoot, be sure of your target and what is beyond it, and a gun is only certain not to fire when
+its action is open and it is completely empty (NSSF, Firearm Safety). Every accident breaks at
+least one of them.
 
 1. **Treat every gun as if it is loaded.** Always, including one someone just told you is empty.
 2. **Never point a gun at anything you are not willing to destroy.** Keep the muzzle (the open

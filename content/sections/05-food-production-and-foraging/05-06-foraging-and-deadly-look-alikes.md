@@ -2,7 +2,7 @@
 id: 05-06-foraging-and-deadly-look-alikes
 section: 05-food-production-and-foraging
 title: "Foraging wild plants, and the deadly look-alikes"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: region
 danger_level: critical
@@ -16,7 +16,6 @@ sources:
   - cdc-water-hemlock-poisoning-maine-1992-mmwr-43-13-bf58c2
   - usda-nrcs-plants-database-plant-profiles-and-image-l-a7089c
   - university-of-minnesota-extension-poison-and-water-h-680b86
-  - sdsu-extension-poisonous-plants-on-rangelands-hemloc-0c4ddd
   - national-capital-poison-center-poison-control-1-800-e428c9
 related: [05-17-wild-edibles-by-season, 05-19-destination-foraging-and-hazards, 05-01-a-small-high-yield-garden, 05-07-hunting, 05-08-fishing-and-ice-fishing, 05-15-trapping-small-game, 05-13-perennials-and-fruit, 30-01-the-floors, 30-19-dc18-unlabeled-food-and-allergies, 02-03-cl03-anaphylaxis, 02-04-cl04-food-allergy, 12-17-poisoning-and-ingestion, 03-07-testing-water, 17-05-grassland-fire, 20-09-pets, 31-17-food]
 cards: [DC-18]
@@ -29,7 +28,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Hemlock heights and onset times re-traced to USDA ARS/FS and CDC MMWR; look-alike table aligned with species.json; state-specific source dropped; plates pointers fixed" }
 ---
 
 # Foraging wild plants, and the deadly look-alikes
@@ -41,13 +40,15 @@ recognise the plants that kill, not so you can identify food.
 
 > **SAFETY.** **No wild plant or mushroom is eaten on a "test"; identification or nothing.**
 > The deadly ones are not detectable by taste tests and the dose is small (→ 30-01).
-> **Water hemlock is regarded as the most violently poisonous plant in North America**; a
-> piece of root 2 to 3 cm long can kill an adult (CDC MMWR, Water Hemlock Poisoning, 1994). It
-> grows in wet ground in every region and resembles plants people forage. There is no antidote.
+> **Water hemlock is the most violently toxic plant that grows in North America** (USDA
+> Agricultural Research Service); a piece of root 2 to 3 cm long (about an inch) can kill an
+> adult (CDC MMWR, Water Hemlock Poisoning, 1994). It grows in wet ground in every region and
+> resembles plants people forage. There is no antidote.
 
 > **If someone has eaten a suspect plant:** call **Poison Control, 1-800-222-1222**, while
-> phones work, and keep a piece of the plant. **Do not make them vomit.** Water hemlock causes
-> seizures within 15 to 60 minutes: lay the person on their side, keep the airway clear, give
+> phones work, and keep a piece of the plant. **Do not make them vomit.** Water hemlock sickness
+> starts within 15 to 90 minutes of eating (CDC MMWR, 1994), and seizures can follow within the
+> hour (USDA Forest Service). In a seizure: lay the person on their side, keep the airway clear, give
 > nothing by mouth, and protect them from injury until the seizure passes. Wash skin that
 > touched the sap; the poison (cicutoxin) is absorbed through skin (CDC MMWR, 1994). → 12-17.
 
@@ -96,8 +97,9 @@ at far lower risk. The garden (→ 05-01) is foraging with the risk removed.
 
 ### The hemlocks, side by side
 
-Both hemlocks are **2 to 7 feet tall**, with **hollow stems that branch at the top**, often
-**mottled or streaked with purple**. **Smell proves nothing, either way.** Crushed poison
+Both hemlocks are **tall** (water hemlock up to about 6 feet, USDA Forest Service; poison
+hemlock up to 2 to 3 metres, about 6 to 10 feet, USDA ARS), with **hollow stems that branch at
+the top**, often **mottled or streaked with purple**. **Smell proves nothing, either way.** Crushed poison
 hemlock usually smells musty or mousy; water hemlock's root smells of carrot or parsnip. A
 carrot-family plant that smells "right" can still be hemlock. **Do not crush and sniff unknown
 plants as a test.** Use stem, leaf and habitat.
@@ -122,12 +124,17 @@ These are the pairs where people die. Learn the dangerous half first.
 
 | You are looking for | It is confused with | The difference |
 |---|---|---|
-| Wild carrot, wild parsnip, wild celery | **Water hemlock, poison hemlock** | Do not eat this family at all (above) |
-| Wild onion, wild garlic | **Death camas**; in shady yards, **lily-of-the-valley** and **false hellebore** | **Onion smell from every bulb, checked with clean hands.** If any bulb in a clump does not smell of onion, throw out the whole clump |
+| Wild carrot, wild parsnip, wild celery | **Water hemlock, poison hemlock**, fool's parsley | Do not eat this family at all (above) |
+| Wild onion, wild garlic | **Death camas**, fly poison, star-of-Bethlehem, daffodil bulbs | **Onion smell from every bulb, checked with clean hands** (onion on your fingers carries to the next bulb). If any bulb in a clump does not smell of onion, throw out the whole clump |
+| Ramps (wild leeks, eastern woods) | **Lily-of-the-valley, false hellebore**, autumn crocus | Crush a leaf from **each** plant: no onion-garlic smell means poison. False hellebore has pleated leaves on a stem |
 | Cattail shoots | **Blue flag iris** (and other irises), toxic to gut and skin | Only harvest shoots or roots from a stand you identified **by its brown spikes the previous summer**. Cattail leaves are flat and spongy with a rounded base; iris leaves fan out from a flat base |
-| Wild grape | **Moonseed**, poisonous | Grapes have **tendrils** and several small seeds; moonseed has **no tendrils** and **one crescent-shaped seed** |
+| Wild grape | **Moonseed**, poisonous; also Virginia creeper and pokeweed | Grapes have **tendrils** and several small seeds; moonseed has **no tendrils** and **one crescent-shaped seed**: cut a fruit and look. Virginia creeper has five separate leaflets; pokeweed is an upright plant with berries in long strings on magenta stems |
 | Milkweed shoots | **Dogbane**, a heart poison, in the same ground with the same milky sap | Left off the edible list in this binder: the features are too fine for printed text |
-| Elderberry (cooked) | **Water hemlock** in the same wet ground | Elderberry is a woody shrub; hemlock is a soft, hollow-stemmed herb. Raw elderberries and all green parts of elder cause vomiting: cook the berries |
+| Elderberry (cooked) | **Water hemlock** in the same wet ground; **pokeweed**; red elderberry | Elderberry is a woody shrub with paired leaves; hemlock is a soft, hollow-stemmed plant that dies back each winter. Pokeweed berries hang in long strings on soft magenta stems. Red elderberry has dome-shaped flower clusters and red berries. Raw elderberries and all green parts of elder cause vomiting: cook the berries |
+| Dandelion | Common groundsel | Dandelion has one flower per **hollow, leafless** stalk and leaves only at the ground; groundsel has leafy branching stems with many small flower heads |
+| Purslane | **Spotted spurge** (milky sap, irritant) | Break a stem: purslane has clear juice and fleshy leaves; spurge has **milky** sap and thin leaves |
+| Chokecherry | Common buckthorn | Chokecherries hang in long strings; buckthorn berries cluster tight against the twig, often with a thorn at the twig tip |
+| Blueberries | **Nightshades** (deadly nightshade, black nightshade) | Learn blueberries in person first; never let children pick dark berries unsupervised |
 | Staghorn sumac (red upright cones) | **Poison sumac** | Poison sumac has **drooping white berries** and grows in swamps |
 | Morel mushrooms | **False morels**, which can kill | See mushrooms, below. Not on the edible list |
 
@@ -142,9 +149,11 @@ the food value is negligible. **It is the worst risk-reward trade in foraging.**
 
 {{plates}}
 
-The plates above are for your home region ({{ region.home.ecoregion }},
-{{ region.home.state_name }}). **The plates for every region in the US are in Section 32
-(→ 32-00), with your home region first.** Look at a destination's plates before you go there.
+The plates in this section are the deadly plants and look-alikes recorded for your home region
+({{ region.home.ecoregion }}, {{ region.home.state_name }}). **Every state's page in Section 32
+lists its ecoregions (→ 32-00), and the national plate pages carry every plate in the binder:
+deadly plants and look-alikes (→ 32-60) and safe starters (→ 32-61).** Look at a destination's
+plates before you go there (→ 05-19).
 
 **What the plates can and cannot do.** They can make you say *"that might be hemlock: stay
 away."* They cannot make you say *"that is safe to eat."* Recognising danger is a low bar, and
@@ -158,9 +167,9 @@ plant in your hand, and ideally a person who knows it.
 2. **Learn the poisonous plants first.**
 3. **Never eat from the carrot family** unless you are expert.
 4. **No mushrooms.**
-5. **One new plant at a time**, a small amount, wait 24 hours, for **plants you have already
-   identified for certain**: this checks personal tolerance and allergy. It is not a way to
-   identify anything.
+5. **One new plant at a time**, a small amount, then wait and watch before eating more, and only
+   for **plants you have already identified for certain**: this checks personal tolerance and
+   allergy. It is not a way to identify anything.
 6. **Never children first.** Teach "we only eat what a grown-up hands us."
 7. **Cover up and wash.** Long sleeves and gloves in brush; wash skin and clothes after, and
    wash pets that have been in it (→ 20-09).
@@ -173,9 +182,11 @@ plant in your hand, and ideally a person who knows it.
 
 These grow across most of the country, mostly as **weeds in your own yard**. Learn them in
 person, from a guide and ideally a person who knows them. Check that each one appears on your
-region's plates (→ 32-00); not every plant grows everywhere.
+region's safe-starter plates (→ 05-17, → 32-61); not every plant grows everywhere. Each one's
+look-alike is in the table above.
 
-- **Dandelion:** leaves, roots, flower buds. Unmistakable.
+- **Dandelion:** leaves, roots, flower buds. Hard to mistake once you check the stalk (hollow,
+  leafless, one flower).
 - **Broadleaf plantain:** common lawn weed; leaves edible.
 - **Lamb's quarters and amaranth (pigweed):** good cooked greens, **with a caution**: both build
   up nitrate and oxalate. Boil them and throw out the water; eat them as part of a varied diet,
@@ -183,13 +194,13 @@ region's plates (→ 32-00); not every plant grows everywhere.
   dangerous to babies and toddlers (it stops blood carrying oxygen). Write the household's rule
   for young children here: ______________________{{#if has.young_child}} (this household has a
   child under 6){{/if}}.
-- **Purslane:** succulent garden weed.
+- **Purslane:** succulent garden weed. Clear juice, never milky (spurge, above).
 - **Stinging nettle:** cooked only (cooking removes the sting). Wear gloves to pick it.
 - **Wild onion and garlic:** **only if every bulb smells of onion** (look-alike table above).
 - **Cattail:** only from a stand identified by its brown spikes (above), and beware the water it
   grows in (→ 03-07).
 - **Berries you already know:** mulberry, raspberry and blackberry, wild plum. **Chokecherry
-  pits contain cyanide-forming compounds: never crush or eat the pits.**
+  and wild plum pits contain cyanide-forming compounds: never crush or eat the pits.**
 
 ### Food allergies and wild food
 

@@ -2,7 +2,7 @@
 id: 17-17-landslides-and-debris-flows
 section: 17-weather-and-regional-hazards
 title: "Landslides and debris flows"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -13,6 +13,7 @@ sources:
   - ready-gov-landslides-debris-flow
   - usgs-landslide-preparedness
   - noaa-national-weather-service-flood-safety-c02f3a
+  - fema-nri-counties
 related: [17-03-floods, 17-05-grassland-fire, 17-12-earthquakes, 17-13-hurricanes-and-tropical-storms, 17-14-wildfire-smoke-and-evacuation, 17-16-volcanic-ashfall, 15-01-weather-alerts, 16-12-grid-down-house-repairs, 22-03-go-bags-and-kits, 01-03-phase-b-movement, 01-05-choosing-a-destination, 29-10-ex10-weather-alert-words, 30-20-dc19-when-to-leave]
 cards: [DC-19]
 explainers: [EX-10]
@@ -25,7 +26,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "NRI note; Ready.gov and USGS warning signs verified." }
 ---
 
 # Landslides and debris flows
@@ -38,6 +39,7 @@ page covers the warning signs and what to do before, during and after.
 {{#if is.landslide_region}}**Your home county is rated 2 or 3 for landslides in the region
 data.**{{else}}Your home county is rated lower for landslides, but any steep slope, road cut or
 burned hillside can slide.{{/if}}
+Ratings in this binder are FEMA's National Risk Index for your county, on a 1-to-3 scale: they measure expected harm to people and property there, not how likely the hazard is (→ 29-10).
 
 > **SAFETY.**
 > - **Stay alert and awake during a storm that could cause a landslide** (Ready.gov). Many debris

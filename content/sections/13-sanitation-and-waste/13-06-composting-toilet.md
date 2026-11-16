@@ -2,7 +2,7 @@
 id: 13-06-composting-toilet
 section: 13-sanitation-and-waste
 title: "Building a composting or bucket toilet"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -22,7 +22,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Unsourced one-year rest and 10:1 urine dilution removed (no published figure for this use); method and cautions kept." }
 ---
 
 # Building a composting or bucket toilet
@@ -76,8 +76,7 @@ To kill germs, a compost pile needs:
 - **turning**, so every part passes through the hot zone;
 - **the right mix of carbon (dry brown material) and nitrogen (the waste), and moisture**, to
   keep the heat going;
-- **a long curing time afterwards**: typically a year or more for human waste, and some worm
-  eggs survive a long time;
+- **a long curing time afterwards**: some germs, especially worm eggs, survive a long time;
 - **enough volume**: small piles do not hold heat.
 
 **In practice:**{{#if is.cold_winters}} where you live, a pile freezes solid for months each
@@ -94,8 +93,9 @@ not confidence in the process.
 
 1. **Bin one receives.** Bucket contents are tipped in and **covered at once** with a thick layer
    of carbon material (straw, leaves, sawdust). Covering stops smell, flies and exposure.
-2. **When it is full, it rests:** closed and undisturbed for a long time (**a year at the very
-   least; longer is better**). Meanwhile bin two receives.
+2. **When it is full, it rests:** closed and undisturbed for as long as you can possibly manage
+   (this binder gives no safe minimum, because no published one fits a backyard bin; longer is
+   always safer). Meanwhile bin two receives.
 3. **Swap.**
 
 {{photo compost-bins}}
@@ -130,9 +130,9 @@ not confidence in the process.
 - It keeps the pile from going soggy and airless, which stops the heat and causes smell.
 - **Urine from a healthy person is fairly low-risk** and can be diluted heavily and used on
   plants you do not eat and on trees. It is salty and rich in nitrogen, so **dilute it well,
-  pour it on soil not leaves, and move where you pour it.** A dilution of about 10 parts water
-  to 1 part urine is commonly quoted; it is a convention, not a published standard. The
-  direction of the rule is solid: undiluted urine poured again and again in one place burns
+  pour it on soil not leaves, and move where you pour it.** This binder gives no dilution
+  figure because none is published for this use; dilute generously. The direction of the rule
+  is solid: undiluted urine poured again and again in one place burns
   plants and builds salt in soil. **Never on the edible parts of food crops.**
 
 ## Winter

@@ -11,6 +11,7 @@ tags: [medical, bleeding, wounds, tourniquet, infection, trauma, eye injury]
 derived_from: [12-02-bleeding-and-wounds]
 sources:
   - american-college-of-surgeons-stop-the-bleed-stop-the-8d1b5b
+  - cotccc-tccc-guidelines-2026
   - cdc-about-tetanus-3fc6c0
   - cdc-about-sepsis-a8304b
   - cdc-about-hygiene-handwashing-and-infection-preventi-61142e
@@ -27,7 +28,8 @@ related:
   - 16-06-axes-and-saws
   - 13-02-hygiene-and-handwashing
   - 30-01-the-floors
-cards: []
+  - 30-26-dc25-tourniquet-conversion-no-help-coming
+cards: [DC-25]
 explainers: []
 promote_when: []
 photo_slots: []
@@ -49,8 +51,10 @@ card for people who have taken a hands-on course, not the course itself.
 > **SAFETY**
 > - **Reading this page does not make you able to do this.** Bleeding control is a physical
 >   skill. **Take a Stop the Bleed course now**, while classes exist. It takes about an hour.
-> - **Never loosen a tourniquet once placed; mark the time.** Re-bleeding and clot release
->   kill. This is one of the binder's floors (→ 30-01): it is not offered as a choice.
+> - **Never loosen a tourniquet once placed while help can still come; mark the time. If no help
+>   will ever come, the conversion decision is DC-25 (→ 30-26).** Re-bleeding and clot release
+>   kill. While help can come, this is one of the binder's floors (→ 30-01): it is not offered
+>   as a choice.
 > - **Severe bleeding kills in minutes.** That is why the trauma kit lives where the work
 >   happens (→ 12-01, → 12-08).
 > - **Infection is the bigger long-term killer** when there is no clinic (→ 12-04). A wound
@@ -66,7 +70,7 @@ card for people who have taken a hands-on course, not the course itself.
 4. **Arm or leg still bleeding through pressure? Tourniquet:** 2 to 3 inches above the
    wound, never over a joint. Tighten until the bleeding stops **and** there is no pulse
    below it. Still bleeding? A second tourniquet above the first. **Write the time on it.
-   Never loosen it.**
+   Never loosen it while help can still come.**
 5. **Groin, armpit or neck?** Pack the wound with gauze and press hard.
    **Chest or belly?** Do **not** pack. Cover and press.
 6. **Keep them warm and lying flat.** Watch breathing. Then read → 12-16.
@@ -122,13 +126,20 @@ class; use this page as the reminder.
 
 ### Once a tourniquet is on
 
-**Never loosen a tourniquet once placed; mark the time.** Loosening lets the wound bleed again
-and can release clots into the blood, and both kill. This is a floor (→ 30-01).
+**Never loosen a tourniquet once placed while help can still come; mark the time. If no help
+will ever come, the conversion decision is DC-25 (→ 30-26).** Loosening lets the wound bleed
+again and can release clots into the blood, and both kill. While help can come, this is a floor
+(→ 30-01).
 
 Be honest about what this means with no hospital. A tourniquet left on for many hours costs
-the limb below it. That is the price of the life. Keep the person warm, keep them lying down,
-give fluids by mouth if they are awake and can swallow, and move toward any care that exists
-(→ 12-16).
+the limb below it. Keep the person warm, keep them lying down, give fluids by mouth if they are
+awake and can swallow, and move toward any care that exists (→ 12-16).
+
+**When no help will ever come.** Military guidance for long, remote care converts a tourniquet
+to wound packing and a pressure bandage under strict conditions (not in shock, the wound watched
+closely, not an amputation, early, never after 6 hours), and tells people without medic training
+to leave it on (TCCC Guidelines, 2026). Keeping it on risks the limb; converting risks the
+bleeding starting again. Your household's choice: {{choice DC-25}} → 30-26.
 
 **Myths that persist anyway:** a tourniquet does **not** automatically cost the limb when care
 arrives within a few hours; pressing "pressure points" and raising the limb are **not**

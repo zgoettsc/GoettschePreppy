@@ -26,7 +26,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "No numbers; floor wording matches 30-01; claims are qualitative and hedged." }
 ---
 
 # Protecting electronics, and the medical devices

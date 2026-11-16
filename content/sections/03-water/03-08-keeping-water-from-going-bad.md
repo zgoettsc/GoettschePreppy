@@ -2,14 +2,14 @@
 id: 03-08-keeping-water-from-going-bad
 section: 03-water
 title: "Keeping stored and pool water from going bad (algae, bacteria, mosquitoes)"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
 phase: [A, B, C]
 tags: [water, pool, algae, mosquitoes, Bti, chlorine, larvicide, pool cover, stored water]
 derived_from: [03-08-keeping-water-from-going-bad]
-sources: [cdc-how-to-create-and-store-an-emergency-water-suppl-f0c412, cdc-how-to-make-water-safe-in-an-emergency-5d78b5, cdc-larvicides-for-mosquito-control-bti-methoprene-o-3374e9, us-epa-bti-for-mosquito-control-1027be]
+sources: [cdc-how-to-create-and-store-an-emergency-water-suppl-f0c412, cdc-how-to-make-water-safe-in-an-emergency-5d78b5, cdc-larvicides-for-mosquito-control-bti-methoprene-o-3374e9, us-epa-bti-for-mosquito-control-1027be, cdc-guidelines-for-keeping-your-pool-safe-and-healthy, cdc-atsdr-medical-management-guidelines-for-calcium-d7733b, us-epa-emergency-disinfection-of-drinking-water-6aa91f, cdc-water-disinfection-for-travelers-cdc-yellow-book-df8e45]
 related: [03-02-storing-water, 03-03-pool-water-desalination, 03-04-purifying-water, 03-05-rain-and-snow-water, 03-06-winter-water, 06-06-fuel-storage-safety, 12-02-bleeding-and-wounds, 13-03-greywater-and-trash, 13-10-dishwashing-and-food-hygiene, 17-03-floods, 29-05-ex05-chlorine-products, 30-01-the-floors, 30-14-dc13-drinking-pool-or-surface-water]
 cards: [DC-13]
 explainers: [EX-05, EX-06]
@@ -22,7 +22,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Pool 1-4 ppm/pH 7.0-7.8 sourced to CDC; larvicides limited to non-drinking water per CDC; alum method from Yellow Book; unsourced cal-hypo %, Bti 30-day and cover 3-4 ft removed." }
 ---
 
 # Keeping stored and pool water from going bad (algae, bacteria, mosquitoes)

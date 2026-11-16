@@ -190,8 +190,8 @@ out. Build up, not down.
 A fireplace or wood stove is the only indoor place for a wood fire. Before the first fire of
 the season, check the chimney (→ 06-09). Using one that has not been inspected this year is a
 trade-off: {{choice DC-21}} → 30-22. Candles and open-flame cooking indoors are a separate
-trade-off: {{choice DC-20}} → 30-21. Keep CO alarms working in every room with a flame
-(→ 08-02).
+trade-off: {{choice DC-20}} → 30-21. Keep battery CO alarms on every level and where people
+sleep, as the floors page says (→ 30-01, → 08-02).
 
 ## Children and fire
 

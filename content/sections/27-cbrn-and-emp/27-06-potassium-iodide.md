@@ -2,7 +2,7 @@
 id: 27-06-potassium-iodide
 section: 27-cbrn-and-emp
 title: "Potassium iodide: what it does and does not do"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -15,6 +15,7 @@ sources:
   - us-fda-home-preparation-procedure-for-emergency-admi-4a5837
   - us-department-of-health-and-human-services-remm-pota-2e6be8
   - cdc-radiation-emergencies-62e24d
+  - cdc-potassium-iodide-ki-2025
 related: [27-05-fallout-sheltering, 27-04-nuclear-first-hour, 27-01-how-to-think-about-this, 30-23-dc22-potassium-iodide-over-40, 25-09-family-medical-summary, 02-14-cl14-thyroid-disease, 12-11-chronic-conditions, 22-06-kit-medical, 26-08-expiry-and-rotation-tracker, 15-01-weather-alerts, 00-05-safety-disclaimer]
 cards: [DC-22]
 explainers: [EX-14]
@@ -26,7 +27,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "FDA FAQ KI table now verbatim (> signs, row labels, all three footnotes) with note on the guidance PDF ≥; over-40 reason and child sensitivity resourced to FDA/REMM; CDC KI substitutes added." }
 ---
 
 # Potassium iodide: what it does and does not do
@@ -103,9 +104,9 @@ to buy a bottle and assume it is good for everyone (HHS REMM, Potassium Iodide).
 
 ## Children, and why this page names them
 
-Children's thyroids take up iodine more readily, and children exposed to radioactive iodine have a
-greater risk of thyroid cancer later than adults, which is why public health guidance puts them
-first (FDA). **That changes none of the rules above**: it is given on official direction, with a
+Children are the group most sensitive to radioactive iodine (HHS REMM, Potassium Iodide), and
+children exposed to it have a greater risk of thyroid cancer than adults do, which is why public
+health guidance puts them first (FDA, KI Preparation and Dosing Instructions, 2012). **That changes none of the rules above**: it is given on official direction, with a
 clinician's advice where you can get it. Children's doses are fractions of an adult tablet, and
 guessing fractions from memory in the dark is the error this page exists to prevent: so FDA's
 table **and** FDA's measuring method are both printed below.
@@ -119,24 +120,36 @@ If you keep KI, keep the children's guidance from your paediatrician with it, an
 > it.** Nothing in this table starts a dose. Officials start it; the table only answers how much,
 > in FDA's own numbers.
 
-**FDA, Frequently Asked Questions on Potassium Iodide (KI); FDA, Potassium Iodide as a Thyroid
-Blocking Agent in Radiation Emergencies.** "Predicted thyroid exposure" is the radiation dose to
-the thyroid at which FDA recommends KI for that group; officials work this out, not households.
+**FDA, Frequently Asked Questions on Potassium Iodide (KI)**, question 5, "Threshold Thyroid
+Radioactive Exposures and Recommended Doses of KI for Different Risk Groups", printed as FDA
+publishes it. "Predicted thyroid gland exposure" is the radiation dose to the thyroid at which FDA
+recommends KI for that group; officials work this out, not households.
 
-| Group | Predicted thyroid exposure (cGy) | KI dose (mg) | Number of 130 mg tablets | Number of 65 mg tablets | Millilitres of oral solution, 65 mg/mL |
+| | Predicted Thyroid gland exposure (cGy) | KI dose (mg) | Number or fraction of 130 mg tablets | Number or fraction of 65 mg tablets | Milliliters (mL) of oral solution, 65 mg/mL\*\*\* |
 |---|---|---|---|---|---|
-| Adults over 40 years | ≥ 500 | 130 | 1 | 2 | 2 mL |
-| Adults over 18 through 40 years | ≥ 10 | 130 | 1 | 2 | 2 mL |
-| Pregnant or lactating women | ≥ 5 | 130 | 1 | 2 | 2 mL |
-| Adolescents, over 12 through 18 years* | ≥ 5 | 65 | ½ | 1 | 1 mL |
-| Children over 3 through 12 years | ≥ 5 | 65 | ½ | 1 | 1 mL |
-| Over 1 month through 3 years | ≥ 5 | 32 | Use KI oral solution** | ½ | 0.5 mL |
-| Birth through 1 month | ≥ 5 | 16 | Use KI oral solution** | Use KI oral solution** | 0.25 mL |
+| Adults over 40 years | > 500 | 130 | 1 | 2 | 2 mL |
+| Adults over 18 through 40 years | > 10 | 130 | 1 | 2 | 2 mL |
+| Pregnant or Lactating Women | > 5 | 130 | 1 | 2 | 2 mL |
+| Adolescents, 12 through 18 years\* | > 5 | 65 | ½ | 1 | 1 mL |
+| Children over 3 years through 12 years | > 5 | 65 | ½ | 1 | 1 mL |
+| Children over 1 month through 3 years | > 5 | 32 | Use KI oral solution\*\* | ½ | 0.5 mL |
+| Infants birth through 1 month | > 5 | 16 | Use KI oral solution\*\* | Use KI oral solution\*\* | 0.25 mL |
 
-\* Adolescents approaching adult size (≥ 150 lb / 70 kg) should receive the full adult dose
-(130 mg).
-\*\* See FDA's home preparation procedure (below). Commercial KI oral solution comes with a
-dropper marked for 1, 0.5 and 0.25 mL; each mL contains 65 mg of KI.
+\* Adolescents approaching adult size (> 150 lbs or > 70 kg) should receive the full adult dose
+(130 mg)
+
+\*\* Potassium iodide oral solution is supplied in 1 oz (30 mL) bottles with a dropper marked for
+1, 0.5, and 0.25 mL dosing. Each mL contains 65 mg potassium iodide.
+
+\*\*\* See the Home Preparation and Dosing Instructions for Making KI Solution using KI Tablets
+for the Emergency Administration of Potassium Iodide to Infants and Small Children (printed
+below on this page).
+
+**About the ">" sign.** FDA's 2001 guidance, which this table comes from, prints each threshold as
+"at or above" (≥ 500, ≥ 10, ≥ 5 cGy) and the adolescent footnote as ≥ 70 kg; FDA's FAQ web page,
+copied above, prints ">" (FDA, Potassium Iodide as a Thyroid Blocking Agent in Radiation
+Emergencies, 2001). The difference never matters to a household: officials, not you, decide
+whether a threshold has been reached.
 
 **The rules FDA attaches to the table:**
 - **One dose a day**, only while officials say the exposure risk continues. More often is not
@@ -144,9 +157,11 @@ dropper marked for 1, 0.5 and 0.25 mL; each mL contains 65 mg of KI.
 - **Pregnant women and newborns: FDA does not recommend repeat dosing** unless other protective
   measures are not available. FDA also says pregnant women and newborns should get priority for
   evacuation and sheltering.{{#if has.pregnant}} **Someone in your household is pregnant.**{{/if}}{{#if has.infant}} **There is a baby in your household**: check whether they are in the birth-to-1-month row.{{/if}}{{#if has.nursing}} **Someone in your household is breastfeeding**: they are in the "pregnant or lactating" row; ask a clinician now about repeat doses and write the answer on → 25-09.{{/if}}
-- **Adults over 40:** FDA advises KI for them only at a predicted exposure high enough to destroy
-  the thyroid (the ≥ 500 cGy row), because their risk of thyroid cancer from radioactive iodine is
-  lowest and their risk of side effects is highest. Whether your household follows that is a
+- **Adults over 40:** FDA says anyone over 40 should take KI only if the predicted exposure is high
+  enough to destroy the thyroid and cause lifelong hypothyroidism (the 500 cGy row) (FDA). HHS
+  REMM gives the reason: adults over 40 have the lowest risk of thyroid cancer from radioactive
+  iodine and a greater risk of an allergic reaction to KI than younger people (HHS REMM,
+  Potassium Iodide). Whether your household follows that is a
   decision card: {{choice DC-22}} → 30-23{{#if has.adult_over_40}} **Your household has at least one adult aged 40 or over.**{{/if}}
 - **A dose given wrongly is not corrected with another dose.** Write down who got what and when
   (→ 25-05). Do not re-dose early.
@@ -226,8 +241,11 @@ Honestly, **this is optional and ranks below almost everything on → 26-09.** I
 in-date supply suited to your household, chosen with your clinicians, stored with the medical
 kit, with the children's guidance attached and the expiry tracked (→ 26-08).
 
-**No substitute, and do not improvise one.** Iodised salt, iodine tincture and povidone-iodine
-antiseptic are **not** substitutes, and some are poisonous if swallowed. **If you have no KI and
+**No substitute, and do not improvise one.** CDC: do not use table salt or foods that contain
+iodine as a substitute for KI; they do not help, and eating large amounts could be harmful.
+Dietary supplements that contain iodine may not work to protect the thyroid and can hurt you
+(CDC, Potassium Iodide (KI), 2025). Iodine antiseptics (tincture of iodine, povidone-iodine) are
+for skin, not for swallowing, and are not substitutes either. **If you have no KI and
 officials recommend it, shelter and follow their instructions**, which is the bigger protection
 anyway.
 

@@ -172,10 +172,44 @@ top of normal drinking and continued feeding):
 | 2 to 10 years | **100 to 200 mL** (half to one cup) |
 | Older children and adults | As much as wanted |
 
-For a child who already shows dehydration signs, the WHO manual gives a larger amount over the
-first 4 hours (75 mL per kg of body weight). Treat that as a pace to understand, not a number to
-chase: steady small sips every 1 to 2 minutes, kept up for hours, until wet diapers, tears and
-alertness come back.
+### For someone already dehydrated: WHO's first-4-hours amounts, as published
+
+WHO calls this **"some dehydration"** when a person has **two or more** of these signs:
+restless or irritable; sunken eyes; thirsty, drinks eagerly; a skin pinch that goes back slowly
+(WHO, The Treatment of Diarrhoea, 4th rev., 2005, Table 1). For them WHO uses Treatment Plan B,
+ORS solution over 4 hours. WHO's Table 2, **"Approximate amount of ORS solution to give in the
+first 4 hours"**, printed as published:
+
+| Age | Less than 4 months | 4–11 months | 12–23 months | 2–4 years | 5–14 years | 15 years or older |
+|---|---|---|---|---|---|---|
+| Weight | Less than 5 kg | 5–7.9 kg | 8–10.9 kg | 11–15.9 kg | 16–29.9 kg | 30 kg or more |
+| In ml | 200–400 | 400–600 | 600–800 | 800–1200 | 1200–2200 | 2200–4000 |
+
+WHO's notes to the table, as published:
+- "Use the patient's age only when you do not know the weight. The approximate amount of ORS
+  required (in ml) can also be calculated by multiplying the patient's weight in kg by 75."
+- "If the patient wants more ORS than shown, give more."
+- "Encourage the mother to continue breastfeeding her child."
+- "For infants under 6 months who are not breastfed, if using the old WHO ORS solution containing
+  90 mmol/L of sodium, also give 100-200ml clean water during this period. However, if using the
+  new reduced (low) osmolarity ORS solution containing 75mmol/L of sodium, this is not
+  necessary."
+- "During the initial stages of therapy, while still dehydrated, adults can consume up to 750 ml
+  per hour, if necessary, and children up to 20 ml per kg body weight per hour."
+
+And from the same section of the manual: "Children under 2 years of age should be offered a
+teaspoonful every 1-2 minutes; older children (and adults) may take frequent sips directly from
+the cup." "If the child vomits, wait 5-10 minutes and then start giving ORS solution again, but
+more slowly." "Oedematous (puffy) eyelids are a sign of over-hydration. If this occurs, stop
+giving ORS solution, but give breastmilk or plain water, and food." "After four hours, reassess
+the child fully." WHO counts rehydration as complete when "the skin pinch is normal; thirst has
+subsided; urine is passed; the child becomes quiet, is no longer irritable and often falls
+asleep."
+
+This binder prints WHO's table; it does not work out an amount for anyone. **Two or more of
+these signs is WHO's "severe dehydration"**: lethargic or unconscious; sunken eyes; drinks poorly
+or not able to drink; skin pinch goes back very slowly. WHO treats that with fluids into a vein
+(Plan C), which a household cannot give: that is the line for moving toward care (→ 12-16).
 
 **When to stop giving fluids by mouth: a rule, not a feeling.** **Nothing by mouth to anyone who
 is unconscious, too drowsy to swallow safely, or cannot swallow** (it goes into the lungs). Stop

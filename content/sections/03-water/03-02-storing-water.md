@@ -2,16 +2,16 @@
 id: 03-02-storing-water
 section: 03-water
 title: "Storing water safely"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
 phase: [A, B, C]
 tags: [water, storage, containers, bleach, water heater, rotation]
 derived_from: [03-02-storing-water]
-sources: [cdc-how-to-create-and-store-an-emergency-water-suppl-f0c412, cdc-how-to-make-water-safe-in-an-emergency-5d78b5, us-consumer-product-safety-commission-tap-water-scal-4cdd1a]
-related: [03-01-daily-water-needs, 03-04-purifying-water, 03-05-rain-and-snow-water, 03-06-winter-water, 03-08-keeping-water-from-going-bad, 13-02-hygiene-and-handwashing, 13-10-dishwashing-and-food-hygiene, 13-05-winter-sanitation, 22-04-household-inventory, 29-05-ex05-chlorine-products, 30-01-the-floors]
-cards: []
+sources: [cdc-how-to-create-and-store-an-emergency-water-suppl-f0c412, cdc-how-to-make-water-safe-in-an-emergency-5d78b5, us-consumer-product-safety-commission-tap-water-scal-4cdd1a, fema-477-food-and-water-in-an-emergency, us-epa-emergency-disinfection-of-drinking-water-6aa91f]
+related: [03-01-daily-water-needs, 03-04-purifying-water, 03-05-rain-and-snow-water, 03-06-winter-water, 03-08-keeping-water-from-going-bad, 13-02-hygiene-and-handwashing, 13-10-dishwashing-and-food-hygiene, 13-05-winter-sanitation, 22-04-household-inventory, 29-05-ex05-chlorine-products, 30-01-the-floors, 30-29-dc28-relighting-gas-appliances]
+cards: [DC-28]
 explainers: [EX-05, EX-06]
 promote_when: []
 photo_slots:
@@ -23,7 +23,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Unsourced pressure/bladder times removed; CPSC scald figures corrected to the source; CDC container steps exact; DC-28 relight reference added." }
 ---
 
 # Storing water safely
@@ -174,7 +174,8 @@ Every other page that says "drain the water heater" means this procedure.
 - Clean 2-liter soda bottles are good containers: free and strong.
 - Food-grade buckets from bakeries or restaurants. Ask what was in them; avoid anything oily.
 - The water heater (above), the water in the pipes and ice in the freezer (FEMA). Toilet
-  tanks are washing and flushing water only, never drinking water (FEMA).
+  tanks (never bowls) with no cleaning tablet in them are the last reserve: FEMA says not to
+  drink tank water, so disinfect it first (→ 03-04) or keep it for washing and flushing.
 
 ## When it runs out
 

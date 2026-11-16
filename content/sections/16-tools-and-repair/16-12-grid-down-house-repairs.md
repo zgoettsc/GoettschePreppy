@@ -11,12 +11,13 @@ tags: [house repair, gas leak, gas shutoff, meter, roof tarp, ladder safety, bro
 derived_from: [16-12-grid-down-house-repairs]
 sources:
   - fema-ready-gov-utility-shut-off-and-safety-natural-g-7965ad
+  - perc-important-propane-safety-information-2005
   - osha-fall-protection-ladders-roofs-and-working-at-he-b15a02
   - us-army-corps-of-engineers-blue-roof-information-tem-162ca8
   - american-red-cross-fema-repairing-your-flooded-home-eafdda
   - american-red-cross-preventing-and-thawing-frozen-pip-003044
-related: [16-05-basic-repairs, 16-03-knots-and-cordage, 16-07-fasteners-and-hardware, 16-11-trailer-maintenance-and-repair, 03-06-winter-water, 03-04-purifying-water, 03-05-rain-and-snow-water, 08-01-heating-one-room, 08-02-carbon-monoxide-safety, 08-03-winterizing-the-home, 00-04-family-emergency-plan, 09-04-generators, 09-08-wiring-and-safety, 17-02-tornadoes, 17-06-tornado-shelter, 17-08-power-grid-failure, 17-18-hail-and-damaging-wind, 12-02-bleeding-and-wounds, 19-01-document-grab-kit, 22-04-household-inventory, 24-01-skills-checklist, 25-10-annual-review, 30-01-the-floors, 29-04-ex04-electricity-in-the-house]
-cards: []
+related: [16-05-basic-repairs, 16-03-knots-and-cordage, 16-07-fasteners-and-hardware, 16-11-trailer-maintenance-and-repair, 03-06-winter-water, 03-04-purifying-water, 03-05-rain-and-snow-water, 08-01-heating-one-room, 08-02-carbon-monoxide-safety, 08-03-winterizing-the-home, 00-04-family-emergency-plan, 09-04-generators, 09-08-wiring-and-safety, 17-02-tornadoes, 17-06-tornado-shelter, 17-08-power-grid-failure, 17-18-hail-and-damaging-wind, 12-02-bleeding-and-wounds, 19-01-document-grab-kit, 22-04-household-inventory, 24-01-skills-checklist, 25-10-annual-review, 30-01-the-floors, 29-04-ex04-electricity-in-the-house, 30-29-dc28-relighting-gas-appliances]
+cards: [DC-28]
 explainers: [EX-03, EX-04]
 promote_when: [has.gas_any, is.snow_region, is.cold_winters]
 photo_slots:
@@ -103,9 +104,12 @@ meter (natural gas) or at the tank (propane).
     restores service and relights pilots (FEMA).
 ```
 
-**If the utility is gone for good:** turn gas back on only after the leak is found and fixed, with
-every appliance valve closed first, then relight one appliance at a time, windows open, with a
-working carbon monoxide alarm in the room (→ 08-02).
+**If the utility is gone for good:** FEMA says only a qualified professional turns the gas back
+on, and propane safety guidance says only a technician should relight a pilot (Ready.gov, Safety
+Skills; Propane Education & Research Council). Waiting may mean no hot water, furnace or stove; relighting yourself risks a fire,
+explosion or carbon monoxide. Your household's choice: {{choice DC-28}} → 30-29. Whatever you
+chose, the gas stays off until the leak is found and fixed, and nothing is lit while anyone
+smells gas (→ 08-02).
 
 A gas smell also changes where you shelter from a tornado: not in a room near the leak (→ 17-06).
 

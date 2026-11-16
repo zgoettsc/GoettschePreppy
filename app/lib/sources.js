@@ -15,7 +15,7 @@ import { URL_RE } from './review.js';
 //   everything  + every cited document (about 1 GB in the owner's estimate; meant for a laptop)
 // ctx flags: size.large is true for Large AND Everything; size.everything only for Everything.
 export const SIZES = Object.freeze(['small', 'large', 'everything']);
-export const LIFE_SAFETY_SECTIONS = Object.freeze(['02', '03', '06', '08', '09', '12', '17', '20', '27', '30']);
+export const LIFE_SAFETY_SECTIONS = Object.freeze(['02', '03', '04', '06', '08', '09', '12', '17', '20', '27', '30']);
 export const SIZE_LABEL = Object.freeze({ small: 'Small', large: 'Large', everything: 'Everything' });
 export const normalizeSize = s => (SIZES.includes(s) ? s : 'small');
 export const bindsSources = size => normalizeSize(size) !== 'small';

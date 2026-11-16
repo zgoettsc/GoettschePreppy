@@ -2,7 +2,7 @@
 id: 11-03-staying-dry
 section: 11-clothing-and-personal-warmth
 title: "Staying dry, and drying gear without a dryer"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -45,7 +45,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Wet-clothing claim restated as CDC/OSHA publish it (above 40 F when wet); EPA 30-50 percent humidity, below 60, verified." }
 ---
 
 # Staying dry, and drying gear without a dryer
@@ -53,9 +53,10 @@ review_pass: null
 **What this page is for.** How clothes get wet in winter and how to stop it, how to dry clothes and
 boots in a cold house with no dryer, and how to deal with the damp air that drying creates.
 
-> **CAUTION.** **Wet is what turns cold into injury.** Wet clothing loses most of its insulation and
-> pulls heat from the body far faster than dry; it is a recognised hypothermia risk (CDC, Preventing
-> Hypothermia; OSHA, Cold Stress). Two hazards on this page: **(1) fire:** clothing hung on or too
+> **CAUTION.** **Wet is what turns cold into injury.** Wet clothing loses much of its insulation and
+> pulls heat from the body faster than dry. CDC says hypothermia can happen even above 40 °F in
+> someone who is wet from rain, sweat or cold water, and OSHA lists wetness among the causes of
+> cold stress (CDC, Preventing Hypothermia; OSHA, Cold Stress). Two hazards on this page: **(1) fire:** clothing hung on or too
 > near a stove or heater is a classic house fire; **(2) damp air:** drying laundry in a sealed winter
 > house puts a lot of water into the air, which condenses on cold surfaces and grows mould. **Never
 > use an unvented fuel heater to speed drying in a closed room** (→ 08-02), and never hang anything

@@ -14,8 +14,8 @@ sources:
   - usda-food-safety-and-inspection-service-fsis-shelf-s-942af8
   - us-fda-food-allergies-627fb6
   - usda-hhs-dietary-guidelines-for-americans-2020-2025-4b2013
-related: [04-01-calorie-and-stockpile-math, 04-02-building-a-pantry, 04-03-bulk-staples-storage, 04-06-dehydrating, 04-09-winter-cold-storage, 04-10-rotation-and-inventory, 04-11-pests-and-rodents, 03-01-daily-water-needs, 07-01-cooking-on-an-open-fire, 07-05-propane-and-camp-stoves, 07-06-electric-kettle-cooking, 07-07-freeze-dried-rehydration, 01-03-phase-b-movement, 23-02-master-consumables-table, 22-04-household-inventory, 02-04-cl04-food-allergy, 02-03-cl03-anaphylaxis, 29-14-ex14-reading-a-label, 30-19-dc18-unlabeled-food-and-allergies]
-cards: [DC-18]
+related: [04-01-calorie-and-stockpile-math, 04-02-building-a-pantry, 04-03-bulk-staples-storage, 04-06-dehydrating, 04-09-winter-cold-storage, 04-10-rotation-and-inventory, 04-11-pests-and-rodents, 03-01-daily-water-needs, 07-01-cooking-on-an-open-fire, 07-05-propane-and-camp-stoves, 07-06-electric-kettle-cooking, 07-07-freeze-dried-rehydration, 01-03-phase-b-movement, 23-02-master-consumables-table, 22-04-household-inventory, 02-04-cl04-food-allergy, 02-03-cl03-anaphylaxis, 29-14-ex14-reading-a-label, 30-19-dc18-unlabeled-food-and-allergies, 30-27-dc26-allergy-safe-food-reserve]
+cards: [DC-18, DC-26]
 explainers: [EX-14]
 promote_when: []
 photo_slots:
@@ -212,8 +212,9 @@ Extension). Treat every "25-year" label as conditional on:
   (→ 04-01). The figure on → 23-02 is the SUM. Work out each restricted diet's runway separately.
 - **Ration:** it is the best travel and no-fuel food. Many households save it for moving days and
   days when power or fuel is rationed, and eat staples on ordinary days when the stove works.
-  Where one person eats a restricted diet, agree in advance whether their safe pouches are held as
-  their reserve while everyone else eats the general stock (→ 02-04).
+  Where one person eats an allergy-safe diet, whether their safe pouches are shared or held as
+  their reserve is a decision card: sharing shortens their runway, reserving means everyone else
+  eats other food first. {{choice DC-26}} → 30-27 (→ 02-04).
 - **Resupply:** most households cannot make freeze-dried food; the substitutes are drying
   (→ 04-06), canning (→ 04-04, → 04-05) and production (Section 05).
 - **The honest limit:** this layer is bought, not renewable. It buys months of certainty;

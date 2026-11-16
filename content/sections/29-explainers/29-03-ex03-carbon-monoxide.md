@@ -2,14 +2,14 @@
 id: 29-03-ex03-carbon-monoxide
 section: 29-explainers
 title: "Carbon monoxide: the gas you cannot see or smell"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: explainer
 danger_level: critical
 phase: [A, B, C]
 tags: [carbon monoxide, CO, CO alarm, generator, heater, charcoal, explainer, safety]
 derived_from: [08-02-carbon-monoxide-safety, 09-04-generators]
-sources: [cdc-carbon-monoxide-poisoning-basics-772153, cpsc-carbon-monoxide-questions-and-answers-783766, cpsc-carbon-monoxide-fact-sheet-e97206, epa-carbon-monoxide-s-impact-on-indoor-air-quality-a995e7, us-consumer-product-safety-commission-cpsc-what-to-k-3390a4, cdc-winter-weather-before-during-and-after-13bbd5]
+sources: [cdc-carbon-monoxide-poisoning-basics-772153, cpsc-carbon-monoxide-questions-and-answers-783766, cpsc-carbon-monoxide-fact-sheet-e97206, epa-carbon-monoxide-s-impact-on-indoor-air-quality-a995e7, us-consumer-product-safety-commission-cpsc-what-to-k-3390a4, cdc-winter-weather-before-during-and-after-13bbd5, first-alert-co-alarm-users-manual-m08-0534-r8]
 related: [08-02-carbon-monoxide-safety, 08-01-heating-one-room, 08-04-emergency-heat-options, 09-04-generators, 07-05-propane-and-camp-stoves, 29-01-ex01-fuels, 30-01-the-floors, 30-02-dc01-unvented-heater-overnight, 30-03-dc02-propane-cylinder-indoors, 30-21-dc20-open-flame-indoors]
 cards: [DC-01, DC-02, DC-20]
 explainers: [EX-01]
@@ -22,7 +22,7 @@ condition: null
 gear: null
 explainer: EX-03
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "UL 2034 alarm points now cite a manufacturer manual that prints them (CPSC pages read do not); EPA 9 ppm (not on the EPA page cited) replaced by that page's own indoor figures; CDC 400 deaths/100,000 ED visits, CPSC placement and 20 ft re-read." }
 ---
 
 # Carbon monoxide, explained from the beginning
@@ -63,18 +63,21 @@ people, or the pets, feel ill at the same time and feel better outdoors.
 
 An alarm measures CO in **parts per million (ppm)**: how many CO molecules there are in every
 million molecules of air. Alarms are designed to stay **silent at low levels** so they do not
-go off constantly (CPSC, citing the UL 2034 alarm standard):
+go off constantly. The home CO alarm standard, UL 2034, sets these alarm points (as printed in
+a First Alert CO alarm manual; CPSC says alarms are designed to sound before levels become
+life-threatening):
 
 | CO level | What the alarm standard requires |
 |---|---|
-| Below 30 ppm | No alarm, even for 30 days |
+| 30 ppm, steady | No alarm, even after 30 days |
 | 70 ppm | Alarm within 1 to 4 hours |
 | 150 ppm | Alarm within 10 to 50 minutes |
 | 400 ppm | Alarm within 4 to 15 minutes |
 
-For comparison, the outdoor air standard is 9 ppm averaged over 8 hours (EPA). So **a quiet
-alarm is not proof the air is clean**, and a reading that sits above zero means something is
-making CO. An alarm with a number display tells you more than one that only beeps.
+For comparison, homes without gas stoves average 0.5 to 5 ppm, and the air near a properly
+adjusted gas stove 5 to 15 ppm (EPA, Carbon Monoxide's Impact on Indoor Air Quality). So **a
+quiet alarm is not proof the air is clean**, and a reading that stays above those levels means something
+is making CO. An alarm with a number display tells you more than one that only beeps.
 
 - **Where:** on every level of the home and outside each sleeping area (CPSC). In a room where
   people sleep near a heater, at the height of sleeping heads, on the wall away from the heater,

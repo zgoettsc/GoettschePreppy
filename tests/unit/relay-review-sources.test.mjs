@@ -109,18 +109,18 @@ test('htmlToReadable strips scripts, links, attributes and addresses', () => {
 });
 
 test('download sizes (G25): Large binds life-safety citations, Everything binds all', () => {
-  assert.deepEqual([...LIFE_SAFETY_SECTIONS], ['02', '03', '06', '08', '09', '12', '17', '20', '27', '30']);
+  assert.deepEqual([...LIFE_SAFETY_SECTIONS], ['02', '03', '04', '06', '08', '09', '12', '17', '20', '27', '30']);
   assert.equal(normalizeSize('everything'), 'everything');
   assert.equal(normalizeSize('huge'), 'small');
-  const cited = new Map([['a', ['05-01-x', '12-03-y']], ['b', ['04-04-z']], ['c', ['30-01-floors']]]);
+  const cited = new Map([['a', ['05-01-x', '12-03-y']], ['b', ['07-04-z']], ['c', ['30-01-floors']], ['d', ['04-04-canning']]]);
   const small = sourcesForSize(cited, 'small');
   assert.equal(small.bind.size + small.elsewhere.size, 0);
   const large = sourcesForSize(cited, 'large');
-  assert.deepEqual([...large.bind.keys()], ['a', 'c']);
+  assert.deepEqual([...large.bind.keys()], ['a', 'c', 'd']); // 04 canning is life-safety (botulism)
   assert.equal(large.bind.get('a').section, '12'); // placed behind its first life-safety citing section
   assert.deepEqual([...large.elsewhere.keys()], ['b']);
   const all = sourcesForSize(cited, 'everything');
-  assert.deepEqual([...all.bind.keys()], ['a', 'b', 'c']);
+  assert.deepEqual([...all.bind.keys()], ['a', 'b', 'c', 'd']);
   assert.equal(all.bind.get('a').section, '05');
   assert.equal(all.elsewhere.size, 0);
 });

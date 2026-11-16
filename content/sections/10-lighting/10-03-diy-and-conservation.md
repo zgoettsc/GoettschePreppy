@@ -2,7 +2,7 @@
 id: 10-03-diy-and-conservation
 section: 10-lighting
 title: "DIY lamps and conserving light"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -44,7 +44,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Spot claims softened (stairs 'most likely injury', 'ten times'); night-light watts labelled planning figures consistent with 10-06; wick length made a method." }
 ---
 
 # DIY lamps and conserving light
@@ -98,8 +98,8 @@ cutting board, the wound, the pump**. Headlamps and clip lights use a tiny fract
 of lighting a whole room.
 
 **5. Use the lowest setting that works.** Your eyes adapt. In a dark house a "moonlight" mode is
-often plenty, and low often runs **ten times or more** as long as high. Make low the default; keep
-high for outside.
+often plenty, and low runs many times as long as high (your light's packaging gives both run
+times). Make low the default; keep high for outside.
 
 **6. Red at night.** Keeps your night vision, disturbs sleeping children less, and is far harder to
 see from outside (→ 10-05).
@@ -113,16 +113,17 @@ block, not five.
 
 ## The stairs: where light is a safety system
 
-**Falls on dark stairs are one of the most likely serious injuries in a long outage**, and there
-may be no emergency room. Engineer the stairs; do not improvise them.
+**A fall on dark stairs is a serious injury**, and in a long outage there may be no emergency
+room. Engineer the stairs; do not improvise them.
 
 - **Glow-in-the-dark (photoluminescent) safety tape on every stair edge.** It charges from daylight
   or lamplight and glows for hours, right where feet go: **no power, no batteries, no upkeep.** A
   strip along the edge of each step marks every tread in a fully dark house. Buy real
   photoluminescent safety tape, not novelty stickers.
-- **A small night light (about half a watt) at the top and bottom of the stairs**: plug-in while the
-  grid is up, battery or USB LED after. Two of them through a long winter night use about 12
-  watt-hours, and they are a **fixed line in the light budget** (→ 10-06).
+- **A small night light at the top and bottom of the stairs**: plug-in while the grid is up,
+  battery or USB LED after. A typical LED night light draws about half a watt, so two of them
+  through a 12-hour winter night use about 12 watt-hours (a planning figure; check your own), and
+  they are a **fixed line in the light budget** (→ 10-06).
 - **Wrap the ends of the handrail** with the same glow tape. Make one hand on the rail the habit for
   every adult, every trip, especially when carrying anything.
 - **Never carry a small child on dark stairs.** Light first: the night lights on, or your headlamp
@@ -161,7 +162,7 @@ and softens it. Free and safe.
 a cotton wick, and any liquid cooking oil or rendered fat:
 - Wick: cotton string, a cotton fabric strip, jute twine. **Never synthetic: it melts and drips
   flame.**
-- Keep the wick short: about an eighth of an inch showing is plenty. A long wick smokes.
+- Keep the wick short: just enough showing for a small, steady flame. A long wick smokes.
 - The oil does not catch fire easily; **the wick burns and draws the oil up.** That makes an oil
   lamp safer than a puddle of fuel, but a tipped lamp still spreads burning oil.
 - **Contained, low, stable, on a surface that cannot burn, watched; never in a bedroom, never

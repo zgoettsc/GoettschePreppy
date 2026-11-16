@@ -2,7 +2,7 @@
 id: 05-10-container-and-vertical
 section: 05-food-production-and-foraging
 title: "Container and vertical growing in a small space"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: none
@@ -12,7 +12,7 @@ derived_from: [05-10-container-and-vertical]
 sources:
   - university-of-minnesota-extension-fertilizing-and-wa-f6cf48
   - university-of-minnesota-extension-planting-the-veget-acacfa
-  - sdsu-extension-vegetable-gardening-in-south-dakota-p-b8fdbd
+  - iowa-state-extension-good-site-for-vegetable-garden
 related: [05-01-a-small-high-yield-garden, 05-02-season-extension, 05-03-seed-saving, 05-11-soil-and-compost, 05-14-indoor-growing, 03-02-storing-water, 13-03-greywater-and-trash, 13-06-composting-toilet, 22-01-master-acquisition-list, 22-05-kit-vehicle]
 cards: []
 explainers: []
@@ -24,7 +24,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Spot-checked (none page): 6 h sun re-sourced to Iowa State Extension, daily container watering to UMN; state-specific source dropped" }
 ---
 
 # Container and vertical growing in a small space
@@ -35,7 +35,7 @@ trellises, on a patio, a balcony, a driveway or a small yard.
 ## Do this now
 
 1. **Count your real sun.** Check the space at about 9 a.m., noon and 4 p.m. and mark where you
-   get **6 or more hours of direct sun**. That map, not the size of the space, sets how much food
+   get **6 or more hours of direct sun** (Iowa State University Extension). That map, not the size of the space, sets how much food
    you can grow. A fenced town lot usually has less full sun than it looks.
 2. **Buy containers big.** The most common failure is a pot too small: it dries out by noon and
    the plant stalls. Use the size table below and err large.
@@ -52,7 +52,7 @@ which matters in town where ground soil may hold lead, old fill or weedkiller. B
 three permanent costs:
 
 1. **Water.** A container has no deep soil to draw from. In summer a 5-gallon pot in full sun
-   can need water **every day**, sometimes twice. Push a finger an inch down; if it is dry,
+   can need water **every day**, sometimes more than once (University of Minnesota Extension). Push a finger an inch down; if it is dry,
    water until it runs out of the bottom. **Every container needs drainage holes**; without them
    the roots drown.
 2. **Nutrients.** Every watering washes nutrients out of the bottom. Container plants must be

@@ -2,14 +2,14 @@
 id: 13-05-winter-sanitation
 section: 13-sanitation-and-waste
 title: "Sanitation when water lines are frozen"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
 phase: [A, B, C]
 tags: [sanitation, winter, frozen pipes, frozen drain, bucket toilet, RV antifreeze, septic freezing, spring thaw]
 derived_from: [13-05-winter-sanitation]
-sources: [american-red-cross-preventing-and-thawing-frozen-pip-003044, cdc-guidelines-for-personal-hygiene-during-an-emerge-ddfe8d, noaa-national-weather-service-during-extremely-cold-9c1973, us-epa-septic-systems-septicsmart-how-onsite-systems-b09325]
+sources: [american-red-cross-preventing-and-thawing-frozen-pip-003044, cdc-guidelines-for-personal-hygiene-during-an-emerge-ddfe8d, noaa-national-weather-service-during-extremely-cold-9c1973, us-epa-septic-systems-septicsmart-how-onsite-systems-b09325, university-of-minnesota-extension-onsite-sewage-trea-2d6219]
 related: [13-01-human-waste-no-plumbing, 13-02-hygiene-and-handwashing, 13-03-greywater-and-trash, 13-06-composting-toilet, 13-07-latrine-siting, 13-11-disease-outbreak, 13-12-septic-off-grid, 03-02-storing-water, 03-04-purifying-water, 03-05-rain-and-snow-water, 03-06-winter-water, 06-04-wood-supply-and-depletion, 07-01-cooking-on-an-open-fire, 08-01-heating-one-room, 08-02-carbon-monoxide-safety, 08-03-winterizing-the-home, 10-01-lighting-options, 11-04-footwear-and-extremities, 11-06-boots-and-traction, 12-03-burns, 12-04-infection-and-antibiotics, 12-10-hypothermia-cross-ref, 16-05-basic-repairs, 17-01-blizzards-and-ice, 01-02-go-no-go-decision, 20-02-child-safety-offgrid, 21-02-long-haul-morale, 22-04-household-inventory]
 cards: []
 explainers: [EX-03]
@@ -21,7 +21,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Septic freezing claims re-attributed from EPA to UMN Extension; unsupported 'leading cause of fires' claim removed; Red Cross thaw wording." }
 ---
 
 # Sanitation when water lines are frozen
@@ -31,10 +31,11 @@ the house goes unheated, and planning for the spring thaw.
 {{#if is.cold_winters}}Your January nights average about {{ region.home.jan_low_f }} °F: plan
 for months of this, not a two-week outage.{{/if}}
 
-> **CAUTION. Never thaw a frozen pipe with an open flame:** no torch, no propane heater, no
-> blowtorch. It is a leading cause of house fires during cold snaps (American Red Cross,
-> Preventing and Thawing Frozen Pipes). Use a hair dryer, a heating pad, warm towels, or an
-> electric space heater kept at a safe distance, working **from the tap end back toward the
+> **CAUTION. Never thaw a frozen pipe with an open flame:** no blowtorch, no kerosene or
+> propane heater, no charcoal stove (American Red Cross, Preventing and Thawing Frozen Pipes).
+> An open flame on a pipe inside a wall or crawlspace is how houses catch fire. Use a hair
+> dryer, an electric heating pad, towels soaked in hot water, or an electric space heater kept
+> away from anything that can burn, working **from the tap end back toward the
 > frozen part, with the tap open.**
 >
 > **A frozen supply pipe and a frozen drain pipe are different problems.** Pouring water into a
@@ -61,7 +62,8 @@ Everything gets harder at once:
 - **Drain pipes freeze**, especially in cold or unheated parts of the house.
 - **Outdoor options become impractical.** You cannot dig a latrine in frozen ground, and going
   outside in deep cold with a small child is a serious undertaking.
-- **A septic drain field can freeze** (EPA) (→ 13-12).
+- **A septic drain field can freeze**, especially with little snow cover (University of
+  Minnesota Extension) (→ 13-12).
 - **Handwashing water is harder to get** (→ 13-02) exactly when the household is packed into
   one heated room and illness spreads most easily (→ 13-11).
 
@@ -76,7 +78,7 @@ insects. **Winter is easier for *storing* waste even as it is harder for *handli
 | **Water runs in but the drain will not take it** | **Frozen drain. Stop adding water.** It will back up. Warm the drain pipe if you can reach it; otherwise use the bucket toilet (→ 13-01) |
 | **House going unheated** | **Drain the system, after every container is filled:** main water valve off, all taps open, toilets flushed, RV antifreeze in traps and toilet bowls, and **drain the water heater by the six-step procedure on → 03-02** (heat off first; the water can be scalding). Never from memory, never with the burner or elements on |
 | **Pipe already burst** | Shut off the main at once. Deal with the water; repair is on → 16-05 |
-| **Septic system** | Keep normal use if you can: regular flow helps stop freezing (EPA). Add an insulating cover of snow, straw or mulch over the drain field (→ 13-12) |
+| **Septic system** | Keep normal use if you can: regular use helps stop freezing (University of Minnesota Extension). Leave snow undisturbed, or add loose straw or mulch, over the tank and drain field (→ 13-12) |
 
 Your main water shutoff is at: __________ (→ 22-04).
 

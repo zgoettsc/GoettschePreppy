@@ -2,7 +2,7 @@
 id: 28-03-generators
 section: 28-gear-reference
 title: "Portable generators: the specs that keep you safe, and common models"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: gear
 danger_level: critical
@@ -31,7 +31,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "All 7 generator rows re-read against the manuals and maker pages (all match); 3.5 %/1,000 ft and 8-104 F (Generac), 3 ft (Honda), floors as on 30-01; generator volts line labelled so a blank reads right." }
 ---
 
 # Portable generators: the specs that keep you safe, and common models
@@ -128,7 +128,7 @@ it is a trade-off between cost and the risk of a wiring mistake: {{choice DC-07}
 ## Our generator
 
 {{#if has.generator}}From settings: **{{ gear.generator_watts }} running watts**,
-**{{ gear.generator_fuel }}**, **{{ gear.generator_volts }}**.
+**{{ gear.generator_fuel }}**, output volts: **{{ gear.generator_volts }}**.
 {{#if has.inverter_generator}}It is an inverter generator.{{else}}It is a conventional (not
 inverter) generator: test your battery chargers and electronics on it before you rely on it.{{/if}}
 {{else}}We have not entered a generator. If you get one, fill this in from its data plate.{{/if}}

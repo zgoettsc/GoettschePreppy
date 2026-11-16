@@ -2,14 +2,14 @@
 id: 03-07-testing-water
 section: 03-water
 title: "Judging and testing water quality"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
 phase: [A, B, C]
 tags: [water, testing, nitrate, coliform, TDS, pH, well, source ranking]
 derived_from: [03-07-testing-water]
-sources: [cdc-guidelines-for-testing-well-water-382a7a, cdc-private-drinking-water-and-public-health-dc08f9, cdc-how-to-make-water-safe-in-an-emergency-5d78b5]
+sources: [cdc-guidelines-for-testing-well-water-382a7a, cdc-private-drinking-water-and-public-health-dc08f9, cdc-how-to-make-water-safe-in-an-emergency-5d78b5, us-epa-national-primary-drinking-water-regulations, us-epa-emergency-disinfection-of-drinking-water-6aa91f]
 related: [03-03-pool-water-desalination, 03-04-purifying-water, 03-05-rain-and-snow-water, 03-08-keeping-water-from-going-bad, 03-10-well-water-without-power, 12-05-common-illness-and-dehydration, 17-03-floods, 20-01-toddler-and-infant-needs, 20-05-infant-feeding, 29-06-ex06-water-words]
 cards: []
 explainers: [EX-06]
@@ -21,7 +21,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Nitrate 10 mg/L sourced to EPA NPDWR (as nitrogen); CDC retest triggers corrected; boiling-nitrate wording tied to EPA; destination water source slot." }
 ---
 
 # Judging and testing water quality

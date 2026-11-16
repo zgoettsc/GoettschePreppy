@@ -2,7 +2,7 @@
 id: 17-13-hurricanes-and-tropical-storms
 section: 17-weather-and-regional-hazards
 title: "Hurricanes and tropical storms"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -18,6 +18,7 @@ sources:
   - noaa-national-weather-service-turn-around-don-t-drow-a6f9ff
   - us-consumer-product-safety-commission-cpsc-what-to-k-3390a4
   - foodsafety-gov-usda-hhs-food-safety-during-a-power-o-3894c1
+  - fema-nri-counties
 related: [17-03-floods, 17-02-tornadoes, 17-06-tornado-shelter, 17-08-power-grid-failure, 17-04-extreme-cold-and-heat, 17-11-corridor-hazards, 01-02-go-no-go-decision, 01-03-phase-b-movement, 01-07-evacuating-with-medical-needs, 03-02-storing-water, 08-02-carbon-monoxide-safety, 09-04-generators, 16-12-grid-down-house-repairs, 19-01-document-grab-kit, 19-04-insurance-and-claims, 20-09-pets, 22-03-go-bags-and-kits, 29-10-ex10-weather-alert-words, 30-01-the-floors, 30-20-dc19-when-to-leave]
 cards: [DC-19]
 explainers: [EX-03, EX-10]
@@ -30,7 +31,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "NRI note; NHC/NWS watch-warning lead times and Saffir-Simpson verified." }
 ---
 
 # Hurricanes and tropical storms
@@ -42,6 +43,7 @@ evacuation decision, sheltering, and the long, hot, powerless aftermath.
 {{#if is.hurricane_region}}**Your home county is rated 2 or 3 for hurricanes in the region data.**
 Plan before each season.{{else}}Your home county is rated lower for hurricanes, but their rain and
 tornadoes can reach hundreds of miles inland.{{/if}}
+Ratings in this binder are FEMA's National Risk Index for your county, on a 1-to-3 scale: they measure expected harm to people and property there, not how likely the hazard is (→ 29-10).
 {{#if is.coastal}}**Your home county is on the coast: find your evacuation zone this week.**{{/if}}
 
 > **SAFETY.**

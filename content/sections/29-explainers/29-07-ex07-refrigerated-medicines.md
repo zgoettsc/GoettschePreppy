@@ -2,7 +2,7 @@
 id: 29-07-ex07-refrigerated-medicines
 section: 29-explainers
 title: "Refrigerated medicines: the cold chain without power"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: explainer
 danger_level: critical
@@ -22,7 +22,7 @@ condition: null
 gear: null
 explainer: EX-07
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "FDA insulin 36-46 F and 59-86 F for up to 28 days re-read, matches 02-01 and 30-09; EpiPen storage re-read (label says nothing about freezing; that claim removed); floor 7 as on 30-01." }
 ---
 
 # Refrigerated medicines, explained from the beginning
@@ -63,8 +63,8 @@ Two examples, as published:
   unrefrigerated at 59°F to 86°F for up to 28 days (FDA, Insulin Storage in an Emergency;
   American Diabetes Association). Never frozen. Each product's own label gives its in-use days.
 - **Epinephrine auto-injector:** room temperature, 68°F to 77°F, with excursions to 59°F to 86°F
-  allowed; **do not refrigerate**; protect from freezing and light; replace if the liquid is
-  discoloured or has particles (FDA, EpiPen prescribing information).
+  allowed; **do not refrigerate**; keep it in its carrier tube to protect it from light; replace
+  it if the liquid is discoloured, cloudy or has particles (FDA, EpiPen prescribing information).
 
 Expiry dates and lot numbers: → 29-14.
 

@@ -2,7 +2,7 @@
 id: 27-04-nuclear-first-hour
 section: 27-cbrn-and-emp
 title: "Nuclear detonation: the first hour"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -12,10 +12,10 @@ derived_from: [27-04-nuclear-first-hour]
 sources:
   - us-department-of-health-and-human-services-remm-nucl-652eb0
   - cdc-radiation-emergencies-62e24d
-  - us-epa-radiation-protection-25aa78
   - ready-gov-fema-nuclear-explosion-dac8c3
   - noaa-national-weather-service-noaa-weather-radio-all-5f13d8
-  - fema-planning-guidance-nuclear-detonation-2022
+  - fema-nuclear-detonation-response-guidance-72-hours-2023
+  - cdc-what-to-do-get-inside-2024
 related: [27-05-fallout-sheltering, 27-06-potassium-iodide, 27-01-how-to-think-about-this, 08-01-heating-one-room, 15-01-weather-alerts, 22-06-kit-medical, 00-04-family-emergency-plan, 01-01-phase-a-shelter-in-place, 01-02-go-no-go-decision, 17-06-tornado-shelter, 30-02-dc01-unvented-heater-overnight, 30-23-dc22-potassium-iodide-over-40]
 cards: [DC-01, DC-22]
 explainers: [EX-09]
@@ -28,7 +28,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Fallout timing corrected to Ready.gov (10 minutes or more); blast-wave minutes removed; protection factor and 24 h sourced to FEMA 72-hour guidance and REMM; CDC get-inside added." }
 ---
 
 # Nuclear detonation: the first hour
@@ -50,24 +50,27 @@ a distance, and **sheltering inside is what protects you from it.**
 
 ```
 IF YOU SEE A BRIGHT FLASH
-[ ] DO NOT LOOK AT IT. Get down, face down, hands over your head, away from
-    windows.
-[ ] STAY DOWN for a couple of minutes. A blast wave can arrive well after the
-    light, and flying glass is the main injury in buildings at a distance.
+[ ] DO NOT LOOK AT IT. Take cover behind anything that might protect you;
+    outside, lie face down to protect bare skin from heat and flying
+    debris (Ready.gov). Inside, get down away from windows.
+[ ] STAY DOWN until the blast wave has passed. It can arrive some time
+    after the flash, and it breaks windows and throws debris.
 
 THEN, AT ONCE
-[ ] GET INSIDE the best building you can reach in a FEW MINUTES. Do not travel
-    further to reach a "better" one: time outside is what hurts you.
-    Fallout from a distant explosion may take 15 minutes or more to arrive;
-    be inside within about 10 minutes (Ready.gov).
+[ ] GET INSIDE the best building you can reach in a FEW MINUTES. Ready.gov:
+    you will have 10 minutes or more to find an adequate shelter before
+    fallout arrives; if a multi-story building or basement is a few minutes
+    away, go there immediately. Do not travel further for a "better" one:
+    time outside is what hurts you.
 [ ] GO DOWN AND IN: below ground if you can, otherwise the centre of the
     building, away from outside walls, windows and the roof. YOUR SPOT is
     in the box below this list.
 [ ] COUNT EVERYONE: every person, and the pets.
 [ ] TAKE THE MEDICAL KIT with you (22-06): medicines, epinephrine, go-bags.
-[ ] CLOSE windows, doors and vents. Turn off fans and units that BRING AIR
-    IN FROM OUTSIDE (Ready.gov): bathroom and kitchen exhaust fans, fresh-air
-    intakes, window or central air conditioning, the fireplace damper.
+[ ] CLOSE windows, doors and vents. Turn off fans, air conditioners and
+    forced-air heating units that BRING AIR IN FROM OUTSIDE (Ready.gov;
+    CDC): bathroom and kitchen exhaust fans, fresh-air intakes, window
+    units. Close the fireplace damper.
     A furnace that only recirculates indoor air may keep running if it has
     power: in winter it is the shelter's heat.
 
@@ -77,10 +80,11 @@ WITHIN THE FIRST 10 TO 15 MINUTES
     minutes outside perfecting it.
 [ ] IF YOU WERE OUTSIDE: take off outer clothing before going into the
     shelter space, bag it, leave it outside the living space, and wash
-    exposed skin and hair gently with soap and water. This removes most of
-    the contamination (CDC). No hair conditioner. Do not scrub skin raw.
-    Full routine: 27-05.
-[ ] Bring pets in. If they were outside, wipe them down before they join you.
+    exposed skin and hair gently with soap and water. Removing the outer
+    layer of clothing can remove up to 90% of radioactive material (CDC).
+    No hair conditioner (FEMA). Do not scrub skin raw. Full routine: 27-05.
+[ ] Bring pets in (CDC). If they were outside, brush and wipe the coat
+    before they join you (Ready.gov).
 [ ] TURN ON A BATTERY RADIO (NOAA Weather Radio or AM/FM). It is your only
     reliable source of instructions. (15-01)
 
@@ -98,9 +102,10 @@ WITHIN THE FIRST HOUR
 
 {{figure fig-shelter-by-dwelling}}
 
-{{#if has.mobile_home}}**You live in a mobile or manufactured home. It gives very little protection from fallout.** If a
-sturdy brick or concrete building (a school, church, store, a neighbour's basement) is a few
-minutes away, **go there now**, before fallout arrives. If not, go to the centre of the home,
+{{#if has.mobile_home}}**You live in a mobile or manufactured home. It gives very little protection from fallout**: it is
+a light frame building, the weakest kind in HHS REMM's ranking. If a sturdy brick or concrete
+building (a school, church, store, a neighbour's basement) is a few minutes away, **go there
+now**, before fallout arrives: Ready.gov says the safest buildings have brick or concrete walls. If not, go to the centre of the home,
 the lowest point, and pile the heaviest things you own around you. Nearby sturdy building:
 ______________ minutes away: ______
 {{/if}}{{#if has.basement}}**Basement.** Go to the corner that is most below ground, away from windows and window wells, and
@@ -126,14 +131,18 @@ air openings open (→ 08-01). Running one while people sleep: {{choice DC-01}} 
 This is the part that goes most against instinct, and where people get hurt.
 - **Fallout is most intense early and fades quickly** (→ 27-05). The hours when it is worst
   outside are the hours you would spend driving.
-- **A car gives almost no protection.** It is thin metal and glass.
+- **A car gives almost no protection.** It is thin metal and glass; Ready.gov marks a car as not
+  safe, and CDC says to get inside a building right away.
 - **You do not know where the fallout is heading.** Officials, with monitoring, do. That is what
   the radio is for.
 - **Roads will be blocked** by everyone else who decided to run.
 
 **Federal guidance is consistent.** CDC: the best way to protect yourself in a radiation
-emergency is to **get inside, stay inside, and stay tuned** (CDC, Radiation Emergencies). The
-exception is when officials order an evacuation: then follow the route they give.
+emergency is to **get inside, stay inside, and stay tuned** (CDC, Radiation Emergencies). FEMA's
+message for the public after a detonation is the same, and adds: prepare to stay inside for at
+least 24 hours unless officials say otherwise or the building is threatened by fire or collapse
+(FEMA, Nuclear Detonation Response Guidance, 2023). The exception is when officials order an
+evacuation: then follow the route they give.
 
 ## What protects you: mass and distance
 
@@ -141,9 +150,10 @@ HHS REMM puts it plainly: a brick building protects better than a brick-veneer o
 protects better than a wood-frame one, and there is less exposure in interior rooms and below
 ground (HHS REMM, Nuclear Explosion).
 
-Planners measure a shelter by its **protection factor**: a protection factor of 10 means a person
-inside gets one-tenth of the dose they would get outside. Higher is better (FEMA, Planning
-Guidance for Response to a Nuclear Detonation).
+Planners measure a shelter by its **protection factor** (also called a dose reduction factor).
+FEMA's example: a factor of 200 means a person in that spot would receive 1/200th of the dose of
+a person out in the open (FEMA, Nuclear Detonation Response Guidance: Planning for the First 72
+Hours, 2023; HHS REMM). So a protection factor of 10 means one-tenth. Higher is better.
 
 | Best to worst | Where |
 |---|---|

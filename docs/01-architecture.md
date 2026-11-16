@@ -52,10 +52,11 @@ A full run is 10 to 20 minutes with the tab open; the page says so and shows pro
 Same family as the household binder's phone app: a single HTML file with every page, every bound
 source (PDF pages rendered to images or text), every plate and figure inline, full-text search, a
 region picker for the national appendix, a condition picker for the library, and a PDF export
-button that produces the printed volumes with the sources behind each tab. Two sizes (decision G11):
-**Small**, no sources, roughly 30 to 60 MB; **Large**, every cited document inside, roughly 200 to
-400 MB. The download screen shows both sizes before fetching. Small can be upgraded to Large later
-from the saved profile file without regenerating pages.
+button that produces the printed volumes with the sources behind each tab. Three sizes (decisions G11, G25): **Small**, no fetched sources, about 41 to 55 MB; **Large**, sources
+for the life-safety sections (02, 03, 04, 06, 08, 09, 12, 17, 20, 27, 30) plus home and destination
+topo maps, about 160 to 370 MB; **Everything**, every cited source, about 0.4 to 0.8 GB, for a laptop.
+Sizes are measured at build time and shown before generating. Any size upgrades to a larger one from
+the earlier binder file with no new model calls.
 
 Install guidance is the first page after the disclaimer and notice: how to keep the file on a phone
 and a laptop, how to open it with no connection, why a printed copy still matters, and a charging

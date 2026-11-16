@@ -2,7 +2,7 @@
 id: 13-10-dishwashing-and-food-hygiene
 section: 13-sanitation-and-waste
 title: "Dishwashing and kitchen hygiene with little water"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -22,7 +22,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Dish sanitizing 1 tbsp/gal and air dry per CDC; unsourced 1-minute soak and 180 F/30 s removed (not on cited CDC page); floor wording fixed." }
 ---
 
 # Dishwashing and kitchen hygiene with little water
@@ -43,8 +43,8 @@ without a fridge, and keeping allergy-safe food safe.
 >    module governs (→ 02-04, → 02-03), and it does not relax because water is short.{{else}}If
 >    anyone you feed has a food allergy, the food-allergy module governs (→ 02-04).{{/if}}
 >
-> **Floor:** bleach is never mixed with ammonia, acids or other cleaners. The mix gives off
-> toxic gas. (→ 30-01)
+> **Floor:** Bleach or pool shock is never mixed with ammonia, acids or other cleaners. The mix
+> gives off toxic gas. (→ 30-01)
 
 ## Do this now
 
@@ -71,12 +71,12 @@ How commercial kitchens and campsites do it, with very little water.
 2. **Tub 1: WASH.** Hot water and soap. Wash from cleanest to dirtiest (glasses, then plates,
    then pots) so the water lasts.
 3. **Tub 2: RINSE.** Clean warm water, to remove the soap.
-4. **Tub 3: SANITIZE. 1 tablespoon of unscented 5 to 9 percent household bleach per 1 gallon
-   of clean water; dishes fully under the water for at least 1 minute; then air dry** (CDC,
-   Cleaning and Sanitizing with Bleach After an Emergency). The hot-water alternative is
-   **water at 180 °F or hotter for 30 seconds**: on a fire that is a pot too hot to put your
-   hand near, so use tongs. **Clean first, then sanitize: sanitizing a dirty surface does not
-   work** (CDC). **This tub is NOT drinkable.** Label it, mix it fresh daily, and keep children
+4. **Tub 3: SANITIZE. 1 tablespoon of unscented 5 to 9 percent household bleach in 1 gallon
+   of clean water; dishes fully under the water; then air dry** (CDC, Cleaning and Sanitizing
+   with Bleach After an Emergency: wash with soap and hot clean water, rinse, sanitize in this solution,
+   air dry). CDC gives no soak time for dishes; leaving them in while you wash the next load is
+   a reasonable habit. Without bleach, dishes can go into boiling water instead (use tongs).
+   **Clean first, then sanitize: sanitizing a dirty surface does not work** (CDC). **This tub is NOT drinkable.** Label it, mix it fresh daily, and keep children
    away from it. It is a weak sanitizing solution, not the much stronger disinfecting mixes in
    the table on → 13-11.
 5. **Air dry on a rack.** **Do not towel dry:** a damp towel used all day spreads germs to
@@ -126,7 +126,7 @@ feed has a food allergy.{{/if}}
 - **Clean first with soap and water; sanitize after** (CDC). Cleaning removes dirt and germs;
   sanitizing reduces what is left. Doing only the second does not work.
 - **Sanitize food-contact surfaces after raw meat** with the Tub 3 solution (1 tablespoon per
-  gallon, 1 minute, air dry). **To disinfect after illness, use the surface-bleach table on
+  gallon, air dry) (CDC). **To disinfect after illness, use the surface-bleach table on
   → 13-11, then rinse food-contact surfaces with clean water** before food touches them.
 - **Dishcloths and sponges are the dirtiest things in most kitchens.** Wash and dry them daily,
   boil them now and then, and rotate them. A cloth that is always damp spreads more than it
@@ -164,7 +164,7 @@ but **it does need soap and scrubbing before it touches allergy-safe food.**
 | **Separate cookware, board and utensils for the allergic person** (if needed) | → 02-04 | Stored apart |
 | **Food thermometers, two** | The main control with no fridge | FoodSafety.gov |
 | Dish soap in bulk | Used heavily | Plus → 13-09 |
-| Unscented bleach, 5 to 9 percent | Sanitizing: **1 tablespoon per gallon, at least 1 minute** (CDC); disinfecting by the → 13-11 table | Weakens over time; rotate (→ 29-05) |
+| Unscented bleach, 5 to 9 percent | Sanitizing: **1 tablespoon per gallon** (CDC); disinfecting by the → 13-11 table | Weakens over time; rotate (→ 29-05) |
 | Dish rack or drying rack | **Air dry, don't towel dry** | Cleaner, saves towels |
 | Several dishcloths and brushes | Rotate and dry daily | Boil now and then |
 | Separate cutting boards (raw meat, produce, allergy-safe) | Stops germs and allergens crossing | Color-coded |
@@ -175,7 +175,7 @@ but **it does need soap and scrubbing before it touches allergy-safe food.**
 **If you don't have it:**
 
 - **Tubs:** buckets, totes, pots, a sink basin. **Keep the sets separate and marked.**
-- **Sanitizing:** very hot water (180 °F or more, 30 seconds) sanitizes; boiling settles it.
+- **Sanitizing:** boiling water sanitizes washed dishes when you have no bleach.
 - **Soap:** home-made (→ 13-09), or any soap. Plain soap is better than detergent for greywater
   you reuse (→ 13-03).
 - **Scrubbers:** a cloth, a wad of grass, sand and a rag, a pine cone, steel wool, wood ash as a

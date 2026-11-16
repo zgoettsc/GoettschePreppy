@@ -2,7 +2,7 @@
 id: 17-04-extreme-cold-and-heat
 section: 17-weather-and-regional-hazards
 title: "Extreme cold and extreme heat"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: region
 danger_level: critical
@@ -19,6 +19,9 @@ sources:
   - cdc-niosh-heat-related-illnesses-symptoms-and-first-0b89bb
   - cdc-about-heat-and-your-health-112caf
   - cdc-preventing-hypothermia-c53e0c
+  - nws-amarillo-heat-index-r8
+  - cdc-heat-related-illnesses-poster-2026
+  - nws-hazard-simplification-faq
 related: [17-01-blizzards-and-ice, 17-07-drought-and-water-scarcity, 17-08-power-grid-failure, 08-01-heating-one-room, 08-03-winterizing-the-home, 08-05-hypothermia-frostbite, 12-10-hypothermia-cross-ref, 11-01-cold-weather-layering, 11-02-keeping-kids-warm, 11-08-summer-heat-clothing, 03-01-daily-water-needs, 04-09-winter-cold-storage, 04-13-salt-sugar-vinegar, 06-04-wood-supply-and-depletion, 09-05-solar-in-winter, 09-10-power-for-medical, 12-05-common-illness-and-dehydration, 12-16-triage-and-hard-calls, 23-02-master-consumables-table, 29-07-ex07-refrigerated-medicines, 29-10-ex10-weather-alert-words, 30-01-the-floors, 30-09-dc08-heat-exposed-medication, 30-10-dc09-infant-bed-sharing]
 cards: [DC-08, DC-09]
 explainers: [EX-07, EX-10]
@@ -30,7 +33,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Heat index effects to NWS table; heat stroke 103 F and heat exhaustion 1-hour rule to CDC poster; fan 90 F rule to CDC; Advisory change noted." }
 ---
 
 # Extreme cold and extreme heat
@@ -94,9 +97,11 @@ best and free when solar is worst.
 | **Extreme Heat Watch / Warning** | Dangerous, possibly deadly heat possible / expected |
 
 **Name changes.** The NWS renamed the wind chill alerts to Extreme Cold and Cold Weather Advisory in
-October 2024 (NWS, 2024), and renamed the Excessive Heat Watch and Warning to **Extreme Heat** in
-March 2025 (NWS, 2025). The Heat Advisory kept its name. Old cards and radios may still use the old
-words; treat them the same. Each office sets its own trigger numbers. Your office,
+October 2024 (NWS, 2024), and renamed the Excessive Heat Watch and Warning to **Extreme Heat** on
+March 4, 2025 (NWS, 2025). Old cards and radios may still use the old words; treat them the same.
+The NWS has also announced that it will replace the word "Advisory" with plain-language headlines
+that start with the hazard (for example "HEAT: ..."); watches and warnings keep their names (NWS,
+Hazard Simplification FAQ). Each office sets its own trigger numbers. Your office,
 **{{ region.home.nws_office }}**, issues an Extreme Cold Warning at ______ °F and an Extreme Heat
 Warning at a heat index of ______ °F.
 
@@ -117,34 +122,38 @@ Warning at a heat index of ______ °F.
 ## Extreme heat
 
 **The heat index** (temperature plus humidity) is how hot it feels, because damp air stops sweat
-cooling you. The NWS categories (NWS, Heat Index):
+cooling you. The NWS categories (NWS Amarillo, Heat Index; NWS, Heat Index chart):
 
-| Heat index | Category | With long exposure or work |
+| Heat index | Category | Effect on the body, with long exposure or physical activity |
 |---|---|---|
-| 80 to 90 °F | Caution | Tiredness |
-| 90 to 103 °F | Extreme caution | Heat cramps and heat exhaustion possible |
-| 103 to 124 °F | Danger | Cramps and exhaustion likely; heat stroke possible |
-| 125 °F and up | Extreme danger | Heat stroke imminent |
+| 80 to 90 °F | Caution | Fatigue possible |
+| 90 to 103 °F | Extreme caution | Heat stroke, heat cramps or heat exhaustion possible |
+| 103 to 124 °F | Danger | Heat cramps or heat exhaustion likely; heat stroke possible |
+| 125 °F and up | Extreme danger | Heat stroke highly likely |
 
 **The published heat index assumes shade and a light wind. Full sun can add up to 15 °F** (NWS).
 
 {{figure fig-heat-index-chart}}
 
-**Heat illness gets worse in steps** (CDC/NIOSH, Heat-Related Illnesses):
-- **Heat exhaustion:** heavy sweating, weakness, dizziness, nausea, headache, cool clammy skin, a
-  fast weak pulse. **Move to a cool place, loosen clothing, cool wet cloths or a cool bath, sips of
-  water.** If they vomit, get worse, or are not better within an hour, treat it as heat stroke.
-- **Heat stroke:** hot skin (wet or dry), **confusion**, slurred speech, passing out, a body
-  temperature around 104 °F or higher. **Cool hard and at once:** cold water immersion if you can,
-  otherwise soak the skin and fan it, cold packs or ice at neck, armpits and groin. **Do not rely
-  on the person to drink.** Call for help if help exists; cooling comes first. With no help, see
-  → 12-16.
+**Heat illness gets worse in steps** (CDC, Heat-Related Illnesses; CDC/NIOSH):
+- **Heat exhaustion:** heavy sweating, cold, pale and clammy skin, a fast weak pulse, nausea or
+  vomiting, muscle cramps, tiredness or weakness, dizziness, headache, fainting. **Move to a cool
+  place, loosen clothes, cool wet cloths or a cool bath, sips of water.** CDC: get medical help
+  right away if they are throwing up, the symptoms get worse, or they last longer than 1 hour.
+  With no help coming, keep cooling and watch for the heat stroke signs below.
+- **Heat stroke:** a high body temperature (103 °F or higher), hot, red, dry or damp skin, a fast
+  strong pulse, headache, dizziness, nausea, **confusion**, passing out (CDC). **Cool hard and at
+  once:** a cold water or ice bath if you can, otherwise wet the skin, soak the clothing, move air
+  over them, and cold wet cloths or ice on the head, neck, armpits and groin (CDC/NIOSH). **Do not
+  give the person anything to drink** (CDC). Call for help if help exists; cooling comes first.
+  With no help, see → 12-16.
 
 **Living through heat with no air conditioning** (NWS, Heat Safety; CDC):
 - **Close up by day, open up at night**, live on the lowest floor, block sun **outside** the
   glass, move air with a fan (→ 11-08).
-- **Fans alone do not prevent heat illness once it is very hot** (CDC). Cool the body: wet cloths,
-  a cool shower or bath, wet clothing in moving air.
+- **Fans have a limit.** CDC: use fans only if indoor temperatures are below 90 °F; above 90 °F a
+  fan can increase body temperature (CDC, About Heat and Your Health). Cool the body instead: wet
+  cloths, a cool shower or bath.
 - **Water on a schedule, not on thirst**, and more with work. Over days of heavy sweating, salt
   and electrolytes matter (→ 04-13, → 12-05).
 - **Shift the work:** heavy jobs at dawn and evening, rest through the worst of the day. Write your

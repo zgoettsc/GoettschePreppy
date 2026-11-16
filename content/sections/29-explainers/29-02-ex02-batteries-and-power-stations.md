@@ -2,14 +2,14 @@
 id: 29-02-ex02-batteries-and-power-stations
 section: 29-explainers
 title: "Batteries and power stations: volts, amps, watts and watt-hours"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: explainer
 danger_level: caution
 phase: [A, B, C]
 tags: [power, battery, power station, watt-hours, inverter, lithium, LiFePO4, lead-acid, solar, explainer]
 derived_from: [09-01-power-priorities, 09-03-batteries-and-storage, 09-07-battery-chemistry, 09-12-ac-dc-cables-and-connectors, 09-14-car-batteries-in-practice, 25-02-conversions-and-math]
-sources: [us-department-of-energy-consumer-guide-to-residentia-1d87da, us-department-of-energy-solar-energy-technologies-of-2a534a, nfpa-national-fire-protection-association-lithium-io-0c7d64, osha-batteries-and-battery-charging-29-cfr-1926-441-9def7d, osha-electrical-safety-and-health-topics-a7a68f]
+sources: [us-department-of-energy-consumer-guide-to-residentia-1d87da, us-department-of-energy-solar-energy-technologies-of-2a534a, nfpa-national-fire-protection-association-lithium-io-0c7d64, usfa-blog-lithium-ion-batteries-2026-r8, osha-batteries-and-battery-charging-29-cfr-1926-441-9def7d, osha-electrical-safety-and-health-topics-a7a68f]
 related: [09-01-power-priorities, 09-02-solar-basics, 09-03-batteries-and-storage, 09-05-solar-in-winter, 09-07-battery-chemistry, 09-08-wiring-and-safety, 09-12-ac-dc-cables-and-connectors, 09-14-car-batteries-in-practice, 28-01-power-stations, 28-07-reading-your-own-gear, 29-04-ex04-electricity-in-the-house, 29-14-ex14-reading-a-label]
 cards: []
 explainers: [EX-04, EX-14]
@@ -21,7 +21,7 @@ condition: null
 gear: null
 explainer: EX-02
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Arithmetic checked (100 Ah x 12 V; 1,000 Wh / 100 W); NFPA warning signs and OSHA 1926.441 hydrogen line as on 09-07; appliance figures labelled typical (accepted); lead-acid half-charge rule matches 09-03/09-07 and now points there." }
 ---
 
 # Batteries and power stations, explained from the beginning
@@ -33,7 +33,8 @@ battery types last, and why a car battery makes a poor house battery.
 
 > **SAFETY.** A lithium battery that is **hot, swelling, leaking, smoking, smells odd or makes
 > an unusual noise** is a fire about to happen: get people away from it and call for help; do not
-> carry it (NFPA, Lithium-Ion Batteries). Lead-acid batteries give off explosive hydrogen while
+> carry it (NFPA, Lithium-Ion Batteries; USFA, Lithium-Ion Batteries: Everyday Convenience,
+> Hidden Fire Risks). Lead-acid batteries give off explosive hydrogen while
 > charging and hold sulfuric acid: charge them only where the air moves, with eye protection
 > (OSHA, 29 CFR 1926.441).
 
@@ -90,7 +91,7 @@ ports where you can, and switch the AC side off when you are not using it. → 0
 |---|---|---|
 | **Lithium iron phosphate (LiFePO4, "LFP")** | The usual chemistry in newer power stations. Light, lasts thousands of charge cycles, needs no maintenance, most of its capacity is usable | **Must not be charged below freezing** unless its battery management system blocks cold charging. Read the datasheet |
 | **Other lithium-ion** (phones, laptops, tools, many older stations) | Light and powerful | Shorter life; more prone to fire when damaged. Never take packs apart |
-| **Lead-acid (car, marine, AGM)** | Heavy, cheap, found everywhere | Using more than about half its charge shortens its life sharply; flooded types vent hydrogen and need distilled-water top-ups |
+| **Lead-acid (car, marine, AGM)** | Heavy, cheap, found everywhere | Using more than about half its charge shortens its life sharply; flooded types vent hydrogen and need distilled-water top-ups (→ 09-03, → 09-07) |
 | **NiMH rechargeable AA/AAA** | Small, safe, common | Lose charge sitting on a shelf unless "pre-charged" type |
 
 **Cold and heat.** Cold reduces what any battery delivers; lithium cannot be charged when

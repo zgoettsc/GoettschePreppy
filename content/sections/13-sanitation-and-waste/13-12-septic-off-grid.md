@@ -2,14 +2,14 @@
 id: 13-12-septic-off-grid
 section: 13-sanitation-and-waste
 title: "Operating a septic system off-grid"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: gear
 danger_level: critical
 phase: [A, C]
 tags: [septic, septic tank, drainfield, never-flush list, water load, winter septic, failure signs]
 derived_from: [13-12-septic-off-grid]
-sources: [us-epa-septicsmart-how-your-septic-system-works-f01cfd, us-epa-septicsmart-how-to-care-for-your-septic-syste-297074, university-of-minnesota-extension-onsite-sewage-trea-2d6219]
+sources: [us-epa-septicsmart-how-your-septic-system-works-f01cfd, us-epa-septicsmart-how-to-care-for-your-septic-syste-297074, university-of-minnesota-extension-onsite-sewage-trea-2d6219, us-epa-septic-frequent-questions]
 related: [13-01-human-waste-no-plumbing, 13-03-greywater-and-trash, 13-04-laundry-by-hand, 13-05-winter-sanitation, 13-07-latrine-siting, 13-11-disease-outbreak, 01-04-phase-c-establish, 01-05-choosing-a-destination, 03-07-testing-water, 03-10-well-water-without-power, 20-02-child-safety-offgrid, 22-01-master-acquisition-list, 23-02-master-consumables-table]
 cards: []
 explainers: []
@@ -22,7 +22,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "EPA pumping, never-flush and failure signs checked; tank distance corrected to EPA 'about 10 feet'; UMN mulch 8-12 in and frozen-system don'ts added." }
 ---
 
 # Operating a septic system off-grid
@@ -92,9 +92,10 @@ Two facts drive everything on this page:
 - **Cooking grease or oil**
 - **Household chemicals:** gasoline, oil, pesticides, antifreeze, paint, paint thinner, photo
   chemicals, drain cleaner
-- **Large amounts of bleach.** Normal cleaning amounts are fine, but pouring disinfecting batches
-  (→ 13-11), sanitizing tubs, or well-disinfection water (→ 03-10) down the drain poisons the
-  tank. Pour those outside, away from water and the field
+- **Large volumes of toxic cleaners, including bleach** (EPA: never pour large volumes of toxic
+  cleaners down the drain). Disinfecting batches (→ 13-11), sanitizing tubs and
+  well-disinfection water (→ 03-10) poured down the drain can kill the tank's microbes. Pour
+  those outside, away from water and the field
 - **Pads, tampons, condoms, dental floss, diapers, paper towels, cigarette butts, coffee grounds,
   cat litter** (litter: → 13-03)
 - **Medicines**
@@ -117,8 +118,9 @@ Two facts drive everything on this page:
 - **Paperwork first:** the county health or environmental office's permit drawings, the
   inspection from when the house was sold, the pumper's receipts (which also date the last
   pump-out).
-- **Look:** the drain pipe leaving the house points toward the tank, usually 10 to 25 feet out.
-  Look for tank lids or risers, a rectangle of grass that grows differently, snow that melts
+- **Look:** follow the drain pipe where it leaves the house; EPA says the tank is usually about
+  10 feet from the building (US EPA, Frequent Questions on Septic Systems). Look for tank lids
+  or risers (often a black or green disc), a rectangle of grass that grows differently, snow that melts
   first.
 - **Probe gently** with a thin rod along that line to find the tank's edges. **Do not drive
   machinery around guessing:** crushing a lid or a pipe causes the failure you fear.
@@ -143,15 +145,16 @@ Two facts drive everything on this page:
 
 ## Signs of failure, and what to do
 
-**Signs (EPA):** sewage backing up into drains or toilets · **wet, spongy ground or pooling water
-over the field** · sewage smell outdoors · unusually lush, bright green grass over the field.
+**Signs (EPA):** sewage backing up into drains or toilets, slow drains, gurgling pipes · **standing
+water, damp spots or soft, spongy ground over the tank or field** · sewage smell around the tank
+or field · bright green, spongy, lush grass over the field even in dry weather.
 
 **What to do, in order:**
 
 1. **Stop putting water in. All of it.** Move the household to the bucket toilet (→ 13-01) at
    once: this is exactly what it is for.
-2. **Let the system rest** for days, not hours. Many overloaded fields recover once they drain
-   down.
+2. **Let the system rest** for days, not hours. An overloaded field may recover once it drains
+   down; there is no way to know how long without trying.
 3. **Do NOT dig into a field with sewage on the surface:** the soil is soaked with germs. Fence it
    off from children and animals; sprinkle lime on pooling if you have it (→ 13-07).
 4. **Start again slowly** with less water, and keep the bucket toilet in use for part of the
@@ -162,14 +165,17 @@ over the field** · sewage smell outdoors · unusually lush, bright green grass 
 ## Winter (University of Minnesota Extension)
 
 - **Snow and mulch are the insulation.** An undisturbed blanket of snow insulates the tank and
-  field. In a cold snap with bare ground, 8 to 12 inches of loose straw, leaves or hay over the
-  pipes, tank and field does the same job. Let the grass grow long over it in autumn.
+  field. In a cold snap with bare ground, a layer of mulch **8 to 12 inches** deep (straw,
+  leaves, hay or any loose material that will not pack down) over the pipes, tank and field does
+  the same job. Let the grass grow a little longer over it in late summer and fall.
 - **Never drive over, park on, or pack down snow over the tank or field.** Packed snow loses its
   insulation and drives frost deep, and vehicles crush parts (EPA).
 - **Regular warm water helps prevent freezing.** A house in daily use keeps its own lines warm; a
-  little use beats none.
-- **If it freezes anyway:** stop using water, move to the bucket toilet, and wait for the thaw. Do
-  not pour antifreeze into it, and no open flame anywhere near it (→ 13-05).
+  little use beats none. Do not leave water running all the time to prevent freezing: it can
+  overload the field. Fix dripping fixtures: a slow trickle freezes in the pipe.
+- **If it freezes anyway:** stop using water, move to the bucket toilet, and wait for the thaw.
+  **Do not add antifreeze, salt or septic additives, do not light a fire over the system to thaw
+  it, and never pump sewage onto the ground** (University of Minnesota Extension) (→ 13-05).
 
 ## The bucket toilet is the relief valve
 

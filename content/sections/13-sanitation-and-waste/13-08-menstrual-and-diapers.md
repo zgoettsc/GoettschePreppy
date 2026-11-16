@@ -2,7 +2,7 @@
 id: 13-08-menstrual-and-diapers
 section: 13-sanitation-and-waste
 title: "Menstrual supplies and diapering without stores"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -22,7 +22,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CDC tampon/pad change times and 1-2 minute cup boil added; unsourced diaper planning figures replaced by count-your-own worksheet; floor wording fixed." }
 ---
 
 # Menstrual supplies and diapering without stores
@@ -46,7 +46,7 @@ cloth diapers.
    purchases in this binder: **one purchase that permanently removes a recurring
    consumable.** There is a learning curve; get through it before a crisis.
 2. **Buy cloth diapers and covers** in the sizes your child will need next.{{#if has.infant}}
-   Even if you use disposables day to day, 24 to 36 cloth diapers turn an impossible
+   Even if you use disposables day to day, a stock of cloth diapers turns an impossible
    shortage into a laundry job.{{/if}}
 3. **Stock disposables deeply as the buffer.** Bulky, but they get you through the first weeks
    without adding laundry to everything else.
@@ -70,14 +70,16 @@ boiling between periods. It works on the move when nothing else does. Get one an
 **Hygiene rules (CDC, Menstrual Hygiene):**
 
 - **Wash hands with soap and water before and after** changing any product.
-- **Change regularly, by the product's own label.** This binder gives no wear times. For tampons
-  and cups the label matters: toxic shock syndrome (a rare, dangerous infection) is real.
+- **Change regularly, and follow the product's own instructions.** CDC: change pads every few
+  hours whatever the flow, more often for heavy periods; change tampons every 4 to 8 hours and
+  never wear one longer than 8 hours; use the lowest absorbency you need. For tampons and cups
+  the label matters: toxic shock syndrome (a rare, dangerous infection) is real.
 - **Wash reusable products thoroughly and dry them completely.** Sunlight helps and is free
   (→ 13-04). Soak cloth in **cold** water first; hot water sets blood.
 - **Throw away used disposables in a closed, lidded bin:** not into a compost system (→ 13-06)
   and not into a pit you will use later (→ 13-07).
-- **Boil a cup between periods:** a small pot for a few minutes, on a fire already going for
-  cooking (→ 07-01).
+- **Clean a cup daily, and boil it for 1 to 2 minutes after each period** (CDC), in a small
+  pot on a fire already going for cooking (→ 07-01).
 
 **Making cloth pads:** flannel or old cotton (a worn flannel sheet, a soft towel), several
 absorbent layers, and a tightly woven or waterproof backing, sewn (→ 16-04). **Snap or tie it
@@ -95,33 +97,32 @@ for a year or more. Disposables at that rate are a very large volume of stock an
 
 ### Diaper worksheet: fill it in, then copy to → 23-02
 
-**Planning figure (not a published one): a typical 1-year-old uses about 5 to 7 diapers a
-day.** Count your child's real week and correct it.
+No published figure fits every child: newborns use far more diapers a day than toddlers.
+**Count your child's real week**, then work out the stock.
 
 - Child's current diaper size: ______ · Next size up: ______
 - Diapers on hand now (count the packs): ______
 - Wipes packs on hand: ______ · Barrier cream tubes on hand: ______
 - Real diapers per day this week (count once, honestly): ______
-- **Days of stock = diapers on hand ÷ diapers per day = ______ days.** Use 6 a day until you
-  have counted.
-- **A 90-day buffer at about 6 a day is about 540 diapers.** Round up: illness (diarrhea,
+- **Days of stock = diapers on hand ÷ diapers per day = ______ days.**
+- **A 90-day buffer = diapers per day x 90 = ______ diapers.** Round up: illness (diarrhea,
   → 12-05) raises the rate exactly when resupply is least likely.
 - **Buy for the next sizes, not just today's.** A diaper one size too big still works (snugger
   waist, more leaks); one size too small does not close. A child outgrows a size during a long
   event, so split the stock across the current size and the next one or two, heavier on the
   next size (→ 11-09).
-- **Wipes: about 1 pack a week (planning figure),** so about 13 packs for 90 days. Washcloths
-  and warm soapy water are the fully renewable substitute.
+- **Wipes:** count how long one pack lasts: ______ days; packs for 90 days = 90 ÷ that =
+  ______. Washcloths and warm soapy water are the fully renewable substitute.
 
 ### Cloth diapers: the system
 
 {{figure fig-flat-diaper-fold}}
 
-- **24 to 36 diapers at least** for one child, so you can wash every other day instead of daily.
-  **Flats** (a single large square of cotton you fold) or **prefolds** (a pre-sewn thicker
+- **Enough diapers for at least two days of changes**, so you can wash every other day instead
+  of daily: your diapers per day x 2, plus spares for the day they do not dry. **Flats** (a single large square of cotton you fold) or **prefolds** (a pre-sewn thicker
   rectangle), plus covers, are the toughest, cheapest and most repairable setup. **Flats dry
   fastest**, which matters a lot in a cold house (→ 11-03).
-- **Covers** (waterproof outer pants): six to eight; reused between changes unless soiled.
+- **Covers** (waterproof outer pants): several per size; reused between changes unless soiled.
 - **A lidded pail.** A dry pail (just a lidded container) is simpler and safer around a toddler
   than a pail full of water, which is a drowning risk.
 - **Fasteners:** snap-style fasteners or safety pins, with spares.
@@ -141,7 +142,7 @@ day.** Count your child's real week and correct it.
    free), freeze-dry outdoors in winter, or use the indoor line (→ 11-03).
 6. **Wash your hands** properly after every change and after handling the pail (CDC).
 
-> **Floor:** bleach is never mixed with ammonia, acids or other cleaners. Urine-soaked diapers
+> **Floor:** Bleach or pool shock is never mixed with ammonia, acids or other cleaners. Urine-soaked diapers
 > contain ammonia: rinse them before any bleach rinse, and never add bleach to a pail of soiled
 > diapers. The mix gives off toxic gas. (→ 30-01)
 
@@ -166,8 +167,8 @@ common (→ 20-08). Have some larger cloth options and treat it as unremarkable.
 
 - **Diaper laundry is an almost daily job:** real water, soap, fuel for hot water and drying
   space (→ 13-04, → 11-03).
-- **In winter, drying is the limit:** that is why **flats** are the right choice, and why 24 to
-  36 diapers rather than 12.
+- **In winter, drying is the limit:** that is why **flats** are the right choice, and why you
+  keep more than two days' worth when drying is slow.
 - **Put water, soap and fuel for diaper laundry in the household budget** (→ 03-01, → 23-02).
   It is easy to leave out.
 - **This is the case for the disposable buffer:** use disposables during illness, on a move,
@@ -180,14 +181,14 @@ common (→ 20-08). Have some larger cloth options and treat it as unremarkable.
 | **Menstrual cups, two per person who menstruates** | Years of use, no consumables, works on the move | **Learn to use them now** |
 | **Cloth pads or period underwear** | Reusable backup | Can be made (→ 16-04) |
 | Disposable menstrual supplies | Buffer for the first weeks and travel | Deep stock |
-| **Cloth diapers, 24 to 36 (flats or prefolds)** | Flats dry fastest | Plus the next size |
+| **Cloth diapers, at least two days' changes plus spares (flats or prefolds)** | Flats dry fastest | Plus the next size |
 | Diaper covers, six to eight | Reused between changes | Waterproof |
 | Snap fasteners or pins | Fastening | Spares |
 | **Lidded diaper pail** | Containment, smell, keeps a toddler out | Dry pail |
 | A wash tub and large pot kept for diapers | Diaper laundry is its own job | → 13-04 |
 | Barrier ointment or petroleum jelly | Rash prevention without a doctor | Many uses |
-| **Disposable diapers, deep buffer** | Illness, travel, cold snaps, chaos | About 540 for 90 days, split across sizes |
-| Wipes, about 13 packs per 90 days | Planning figure | Washcloths substitute |
+| **Disposable diapers, deep buffer** | Illness, travel, cold snaps, chaos | Your daily count x 90, split across sizes |
+| Wipes, by your own count | 90 days' worth | Washcloths substitute |
 | Soap in bulk | Diaper laundry uses a lot | → 13-09 |
 | Drying lines and racks | The real limit | → 11-03 |
 | Hand sanitizer at the changing area | For when washing is not immediate | Not a replacement (CDC) |

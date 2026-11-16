@@ -2,7 +2,7 @@
 id: 28-01-power-stations
 section: 28-gear-reference
 title: "Power stations: the specs that keep you safe, and common models"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: gear
 danger_level: caution
@@ -16,6 +16,7 @@ sources:
   - ecoflow-river-2-pro-user-manual
   - jackery-explorer-300-plus-user-manual
   - jackery-explorer-1000-v2-user-manual
+  - jackery-explorer-1000-v2-us-product-page-r8
   - jackery-explorer-2000-plus-user-manual
   - anker-solix-c1000-gen-2-user-guide
   - anker-solix-f3800-user-guide
@@ -36,7 +37,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "All 13 station rows re-read against the maker documents; Jackery 1000 v2 moved to the US product page (120 V); Anker F3800 given US outlet figures and both firmware current limits from Anker US page (still 60 V); F3800 Plus switch-over filled; DELTA 2 US manual not reachable, AC cell marked." }
 ---
 
 # Power stations: the specs that keep you safe, and common models
@@ -91,22 +92,23 @@ this table every time** (→ 28-07).
 ## Common models, from the makers' own documents
 
 Every number is copied from the document named in the last column. "See label" means the maker's
-document read for this kit did not publish it. Some manuals read were the European edition
-(230 V); they are marked, and the US unit's AC outlet figures may differ, so check your label.
-Solar input is per port unless it says total.
+document read for this kit did not publish it. The EcoFlow DELTA 2 manual read is the European
+edition (230 V outlets) and the Anker F3800 guide the British one. The F3800 row takes its US
+outlet figures from Anker's US page; the DELTA 2 row is marked, and a US unit's AC outlet figures
+may differ. Check those two rows against your own label, the solar input line first. Solar input is per port unless it says total.
 
 | Model | Capacity, chemistry | AC continuous / surge | Solar (DC) input: volts, amps, watts, connector | Car charging | UPS switch-over | Charge / discharge temperature | Source |
 |---|---|---|---|---|---|---|---|
 | EcoFlow RIVER 2 Pro | 768 Wh, LFP | 800 W / 1,600 W surge, 120 V | 11–50 V, 13 A, 220 W max; XT60 | See label (shares the DC input) | See label | 32–113 °F / 14–113 °F | EcoFlow, RIVER 2 Pro user manual |
-| EcoFlow DELTA 2 | 1,024 Wh, LFP | 1,800 W / 2,700 W surge (EU edition, 230 V) | 11–60 V, 15 A, 500 W max; XT60 | 12 V or 24 V battery, default 8 A | Within 30 ms (EPS) | 32–113 °F / 14–113 °F | EcoFlow, DELTA 2 user manual |
+| EcoFlow DELTA 2 | 1,024 Wh, LFP | 1,800 W / 2,700 W surge in the EU edition (230 V); US outlets: see label | 11–60 V, 15 A, 500 W max; XT60 | 12 V or 24 V battery, default 8 A | Within 30 ms (EPS) | 32–113 °F / 14–113 °F | EcoFlow, DELTA 2 user manual |
 | EcoFlow DELTA 2 Max | 2,048 Wh, LFP | 2,400 W / 4,800 W surge, 120 V | 2 ports, each 11–60 V, 15 A, 500 W; 1,000 W both; XT60 | 12 V or 24 V battery, default 8 A | Within 30 ms (EPS) | 32–113 °F / 14–113 °F | EcoFlow, DELTA 2 Max user manual |
 | EcoFlow DELTA 3 Max Plus | 2,048 Wh, LFP | 3,000 W / 6,000 W surge, 120 V (US) | 2 ports, each 11–60 V, 18 A; watts: see label; XT60i | 12 V or 24 V at 8 A; 48 V at 10.4 A (same ports) | See label | 32–113 °F / 14–113 °F | EcoFlow, DELTA 3 Max Plus user manual |
 | Jackery Explorer 300 Plus | 288 Wh, lithium-ion | 300 W / 600 W surge, 120 V | USB-C input, 12–27 V, 5 A, 100 W max | 12 V car charger; rate: see label | Within 20 ms | 32–113 °F / 14–113 °F | Jackery, Explorer 300 Plus user manual (JE-300B) |
-| Jackery Explorer 1000 v2 | 1,070 Wh, LiFePO4 | 1,500 W / 3,000 W surge (EU edition, 230 V) | 2 × 8 mm (DC8020): 16–60 V at up to 10.5 A each, 400 W max both | Low-voltage range of the same ports: 12–16 V, up to 8 A | Within 20 ms | 32–113 °F / 14–113 °F | Jackery, Explorer 1000 v2 user manual (JE-1000D) |
+| Jackery Explorer 1000 v2 | 1,070 Wh, LiFePO4 | 1,500 W / 3,000 W surge, 120 V | 2 × 8 mm (DC8020): 16–60 V at up to 10.5 A each, 400 W max both | Low-voltage range of the same ports: 12–16 V, up to 8 A | Within 20 ms (manual) | 32–113 °F / 14–113 °F | Jackery, Explorer 1000 v2 US product page; user manual (JE-1000D) for the switch-over time |
 | Jackery Explorer 2000 Plus | 2,042.8 Wh, lithium-ion | 3,000 W / 6,000 W surge, 120 V | 2 × 8 mm (DC8020): 17.5–60 V at up to 12 A each, 1,400 W max both | Low-voltage range of the same ports: 11–17.5 V, up to 8 A | Within 20 ms | 32–113 °F / 14–113 °F | Jackery, Explorer 2000 Plus user manual (JE-2000C) |
 | Anker SOLIX C1000 Gen 2 | 1,024 Wh, LFP | 2,000 W; heating loads up to 2,400 W ("SurgePad"); not for motors per Anker | See label | See label | Within 10 ms | 32–104 °F / −4–104 °F | Anker, C1000 Gen 2 user guide |
-| Anker SOLIX F3800 | 3,840 Wh, LiFePO4 | 6,000 W max total (UK edition, 230 V; US outlets: see label) | 2 ports, each 11–60 V: 10 A below 32 V, 25 A from 32 to 60 V; 1,200 W each; XT-60. **Over 60 V damages it** | Shares the solar ports; see label | 20 ms | 32–104 °F / −4–104 °F (given in °C) | Anker, F3800 user guide (A1790) |
-| Anker SOLIX F3800 Plus | 3,840 Wh, LFP | 6,000 W max; 120 V and 120/240 V (L14-30R) | 2 ports, each 11–165 V, 17 A, 1,600 W | See label | See label | See label | Anker, F3800 Plus product page |
+| Anker SOLIX F3800 | 3,840 Wh, LiFePO4 | 6,000 W max; 120 V and 120/240 V (US, from Anker's comparison table) | 2 ports, each 11–60 V, 1,200 W each; XT-60. Current limit depends on firmware: 10 A below 32 V and 25 A from 32 to 60 V (older), or 10 A below 15 V and 27 A from 15 to 60 V (newer). **Over 60 V damages it** | Shares the solar ports; see label | 20 ms | 32–104 °F / −4–104 °F (given in °C) | Anker, F3800 user guide (A1790, UK edition), and the F3800 vs F3800 Plus table on Anker's US F3800 Plus page |
+| Anker SOLIX F3800 Plus | 3,840 Wh, LFP | 6,000 W max; 120 V and 120/240 V (L14-30R) | 2 ports, each 11–165 V, 17 A, 1,600 W | See label | 20 ms, on the UPS outlets, when plugged into a 120 V wall outlet | See label | Anker, F3800 Plus product page |
 | BLUETTI AC70 | 768 Wh, LiFePO4 | 1,000 W; resistive loads to 2,000 W ("Power Lifting") | 12–58 V, 10 A, 500 W max; XT60. **Panels over 58 V Voc must not be used** | 12 V or 24 V socket, through the DC input | 20 ms or less | 32–104 °F / −4–104 °F | BLUETTI, AC70 user manual |
 | BLUETTI AC180 | 1,152 Wh, LiFePO4 | 1,800 W; resistive loads to 2,700 W ("Power Lifting") | 12–60 V, 10 A, 500 W max; DC7909 (MC4 cable supplied). **Over 60 V Voc damages it** | 12 V socket, through the DC input | 20 ms or less | 32–104 °F / −4–104 °F (1,500 W max above 86 °F) | BLUETTI, AC180 user manual |
 | Goal Zero Yeti 1500X | 1,516 Wh, lithium-ion NMC | 2,000 W / 3,500 W surge, 120 V | High-power port 14–50 V, up to 50 A, 600 W max; 8 mm ports 14–50 V, up to 10 A, 150 W max | Goal Zero 12 V lithium car cable only | See label | Operating 32–104 °F | Goal Zero, Yeti 1500X product page |

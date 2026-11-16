@@ -2,7 +2,7 @@
 id: 29-06-ex06-water-words
 section: 29-explainers
 title: "Water words: boil, filter, micron, germs, turbidity, potable"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: explainer
 danger_level: caution
@@ -21,7 +21,7 @@ condition: null
 gear: null
 explainer: EX-06
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Boil times (EPA 5,000 ft, CDC 6,500 ft), filter pore sizes, SODIS, 6-month storage, yearly well test re-read on CDC/EPA archives; virus-filter line aligned with 28-06 (purifiers exist)." }
 ---
 
 # Water words, explained from the beginning
@@ -60,8 +60,9 @@ germs but, on its own, not all of them.
   - **Parasites** (protozoa), such as *Giardia* and *Cryptosporidium*. Larger. Killed by
     boiling; removed by a filter of 1 micron or finer. **Chlorine works poorly on them, and
     iodine does not kill *Cryptosporidium*** (CDC).
-  - **Viruses** — far smaller than either. Killed by boiling and chlorine. **No common portable
-    filter removes viruses**, so filtered water still needs chlorine or boiling (CDC).
+  - **Viruses** — far smaller than either. Killed by boiling and chlorine. **Most portable filters
+    do not remove viruses** (CDC); only a few, sold as purifiers, are rated for them (→ 28-06).
+    Unless the box says viruses, filtered water still needs chlorine or boiling.
 - **Micron** — one millionth of a metre. A filter's **absolute** pore size is the largest gap it
   lets through; a "nominal" size is an average and promises less. Read which one the package
   states (→ 28-06).

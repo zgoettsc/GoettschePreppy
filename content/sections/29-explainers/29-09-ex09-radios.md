@@ -21,7 +21,7 @@ condition: null
 gear: null
 explainer: EX-09
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Part 95 power limits and GMRS licence re-read (Cornell LII copy of 47 CFR); seven NWR frequencies re-read; everyday ranges are labelled planning figures; 28-05 now points here for range." }
 ---
 
 # Radios, explained from the beginning

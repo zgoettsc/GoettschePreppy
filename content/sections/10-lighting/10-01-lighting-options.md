@@ -2,7 +2,7 @@
 id: 10-01-lighting-options
 section: 10-lighting
 title: "Lighting options ranked (safety and runtime)"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -45,7 +45,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Headlamp and power-bank figures labelled typical planning values (as EX-02) with the user's own packaging as authority; candle risk restated as USFA's 20 fires a day; 'doubles' removed." }
 ---
 
 # Lighting options ranked (safety and runtime)
@@ -109,7 +109,7 @@ fallback.
 
 | Option | Safety | Efficiency | How you get more | Verdict |
 |---|---|---|---|---|
-| **LED headlamp** | Excellent | Excellent: 30 to 150 hours on low | Rechargeable or AA cells | **First choice for tasks and moving around** |
+| **LED headlamp** | Excellent | Excellent: tens of hours on low | Rechargeable or AA cells | **First choice for tasks and moving around** |
 | **LED lantern** (AA or USB-rechargeable) | Excellent | Excellent | Rechargeable or AA cells | **First choice for a room** |
 | **LED flashlight** | Excellent | Excellent | Rechargeable or AA cells | Good, but uses a hand |
 | **USB light run from a power bank or power station** | Excellent | Excellent | Solar, if you have it (→ 09-03) | The house solution if you own stored power |
@@ -117,7 +117,7 @@ fallback.
 | Solar garden or path light | Excellent | Dim, but free | Sun | Bring them in at dusk |
 | Chemical light stick | Excellent | Single use | None | Children, marking, one-time use |
 | **Oil or kerosene lamp** | **Fire, CO, fumes** | Good run time, warm light | Needs fuel | Backup only (→ 10-02) |
-| **Candle** | **Worst: open flame is a leading cause of home fires** | Poor | Can be made (→ 10-04) | Last resort, with rules |
+| **Candle** | **Worst: about 20 home candle fires are reported every day in the US** (USFA, citing NFPA) | Poor | Can be made (→ 10-04) | Last resort, with rules |
 | Propane or white-gas lantern | **Fire and serious CO** | Bright | Needs fuel | **Outdoors only** |
 | Fireplace or stove glow | Already burning | Free | Wood | Background light only, not for tasks |
 
@@ -140,13 +140,16 @@ as an allocation, not a wish:
 
 ## The numbers that matter
 
-- **A modern LED headlamp on low (10 to 50 lumens)** draws about 0.1 to 0.5 watts and runs about
-  **30 to 150 hours** on one set of three AA or AAA cells. **On high (200 to 300 lumens)** it draws
-  2 to 3 watts and lasts only **2 to 5 hours**. Three cells hold only about 3 to 7 watt-hours, so
-  both numbers cannot be large. Some dim "moonlight" modes run for weeks. **Low is almost always
-  enough**: your eyes adapt in a dark house. High is for going outside. Check your own lights'
-  packaging for their ratings.
-- **A 20,000 mAh power bank** (about 70 watt-hours) runs a 2-watt lamp for over 30 hours.
+These are **typical planning figures**, not measurements of your lights. Your own lights'
+packaging lists their run time on each mode; use those numbers in → 10-06.
+
+- **A modern LED headlamp on low (10 to 50 lumens)** typically draws about 0.1 to 0.5 watts and
+  runs for tens of hours on one set of three AA or AAA cells. **On high (200 to 300 lumens)** it
+  draws a few watts and lasts only a few hours. Three cells hold only a few watt-hours, so both
+  numbers cannot be large. **Low is almost always enough**: your eyes adapt in a dark house. High
+  is for going outside.
+- **A 20,000 mAh power bank** (about 70 watt-hours at its 3.7-volt cell rating) runs a 2-watt
+  lamp for about 30 hours, after conversion losses.
 - **Lighting is a small load** next to refrigeration (→ 09-10), which is why it is affordable even
   on a small solar setup, and why it should be electric rather than flame.
 - **A candle gives a small fraction of the useful light of an LED lantern**, and brings fire risk.
@@ -201,7 +204,7 @@ at night.
 | Alkaline cell reserve | Keeps for years; no charging | Stored **outside** devices |
 | Children's flameless night lights | Safety and sleep | Dim, warm, never a flame |
 | Clip-on book light | Long-evening morale | Low draw |
-| White paper, foil or a white sheet | Spreads light and roughly doubles how bright a room feels | Costs nothing |
+| White paper, foil or a white sheet | Spreads light and makes a room feel much brighter | Costs nothing |
 | Chemical light sticks (a box) | Children, marking hazards, one-time use | No heat, no flame, no batteries |
 | Spare lights and cells in each go-bag | Redundancy | → 22-03 |
 | 12-volt LED strip, wire, fuses | Later efficiency project | → 09-08; low priority |

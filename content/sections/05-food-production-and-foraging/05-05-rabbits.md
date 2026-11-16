@@ -2,7 +2,7 @@
 id: 05-05-rabbits
 section: 05-food-production-and-foraging
 title: "Meat rabbits in a small yard"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -11,8 +11,7 @@ tags: [rabbits, livestock, meat, manure, RHDV2, coccidiosis, rabbit starvation, 
 derived_from: [05-05-rabbits]
 sources:
   - foodsafety-gov-usda-hhs-cook-to-a-safe-minimum-inter-13daf3
-  - south-dakota-animal-industry-board-rabbit-hemorrhagi-b74727
-  - sdsu-extension-vegetable-gardening-in-south-dakota-p-b8fdbd
+  - minnesota-board-of-animal-health-rabbit-hemorrhagic-disease
   - ecfr-7-cfr-205-203-soil-fertility
 related: [05-04-backyard-chickens, 05-06-foraging-and-deadly-look-alikes, 05-09-field-dressing-and-butchering, 05-11-soil-and-compost, 05-15-trapping-small-game, 05-16-processing-poultry, 04-12-fats-and-oils, 04-03-bulk-staples-storage, 04-11-pests-and-rodents, 04-16-sprouting, 03-06-winter-water, 20-03-routine-and-schooling, 22-05-kit-vehicle, 29-05-ex05-chlorine-products]
 cards: []
@@ -26,7 +25,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "RHDV2 mortality, signs, quarantine and bleach dilution re-traced to Minnesota Board of Animal Health; unsourced fat percent and hutch dimensions removed; state-specific sources dropped" }
 ---
 
 # Meat rabbits in a small yard
@@ -103,12 +102,15 @@ Their advantage is that they eat **hay, weeds, garden waste and forage** instead
   spotted liver in a wild rabbit means tularemia, and the whole animal is thrown out**
   (→ 05-15, → 05-09). Keep the two facts side by side.
 - **RHDV2 (rabbit haemorrhagic disease virus 2)** has spread through wild and domestic rabbits
-  in many US states in recent years. It kills **80 to 100 % of a herd in days: sudden deaths, often
-  with blood at the nose** (South Dakota Animal Industry Board, RHDV2). If it happens: do not
-  eat them, double-bag the carcasses, disinfect hutches and tools with a bleach solution
-  (→ 29-05), and, while phones work, report it to your state veterinarian. **Vaccinate the
+  in many US states in recent years. It kills **70 to 90 % of infected rabbits: sudden deaths in
+  rabbits that looked healthy, sometimes with bleeding from the nose or mouth**. It spreads by
+  contact with sick rabbits, carcasses, blood, urine and droppings, and on insects, scavengers and
+  birds (Minnesota Board of Animal Health, Rabbit Hemorrhagic Disease). If it happens: do not
+  eat them, double-bag the carcasses, disinfect hutches and tools with **1 part household bleach
+  to 9 parts water, left on 10 minutes, then rinsed and dried** (Minnesota Board of Animal
+  Health; → 29-05), and, while phones work, report it to your state veterinarian. **Vaccinate the
   breeding stock while veterinarians exist**; the vaccine is sold through vets. **Quarantine any
-  new rabbit for 30 days** before it meets the herd.
+  new rabbit for 30 days** before it meets the herd (Minnesota Board of Animal Health).
 - **Introduce fresh greens to young rabbits gradually.** A sudden switch to wet greens causes
   the gut illness that kills them. Hay first, greens a little at a time.
 
@@ -123,7 +125,7 @@ Their advantage is that they eat **hay, weeds, garden waste and forage** instead
 
 ### The lean-meat problem
 
-Rabbit is roughly 8 % fat or less. A diet of little but rabbit causes protein poisoning. It
+Rabbit meat carries very little fat. A diet of little but rabbit causes protein poisoning. It
 killed explorers and trappers, and it is why rabbit alone is not a survival plan.
 
 **Pair rabbit with:** stored fats and oils (→ 04-12); rendered fat from fattier animals; and
@@ -141,7 +143,7 @@ honest and matter-of-fact (→ 20-03). Do the processing out of sight (→ 05-16
 
 | Item | Why | Notes |
 |---|---|---|
-| Hutches: wire floors, sheltered, off the ground | Housing; wire floors control coccidiosis | **At least 30 × 36 inches floor and 18 inches high per meat-breed doe** |
+| Hutches: wire floors, sheltered, off the ground | Housing; wire floors control coccidiosis | Big enough for a doe to stretch out full length and sit up; more for a doe with a litter |
 | Breeding trio (1 buck, 2 does) | The working unit | Meat breeds such as New Zealand and Californian |
 | **Dry, rodent-proof hay storage** | The staple feed | → 04-11 |
 | Water bottles or crocks, and a freeze plan | Twice-daily winter work | → 03-06 |

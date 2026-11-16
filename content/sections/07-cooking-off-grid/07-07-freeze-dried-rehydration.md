@@ -2,7 +2,7 @@
 id: 07-07-freeze-dried-rehydration
 section: 07-cooking-off-grid
 title: "Freeze-dried and dehydrated meals: rehydrating them safely"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -11,10 +11,10 @@ tags: [freeze-dried, dehydrated, pouches, rehydration, cold water, food allergy,
 derived_from: [07-07-freeze-dried-rehydration]
 sources:
   - us-fda-food-allergies-627fb6
-  - usda-food-safety-and-inspection-service-fsis-shelf-s-942af8
+  - mountain-house-faq
   - foodsafety-gov-usda-hhs-cook-to-a-safe-minimum-inter-13daf3
-related: [04-19-freeze-dried-stockpile, 04-01-calorie-and-stockpile-math, 04-12-fats-and-oils, 04-17-food-safety-power-outage, 03-01-daily-water-needs, 07-06-electric-kettle-cooking, 07-02-rocket-stove, 07-01-cooking-on-an-open-fire, 07-05-propane-and-camp-stoves, 02-03-cl03-anaphylaxis, 02-04-cl04-food-allergy, 12-03-burns, 20-01-toddler-and-infant-needs, 13-02-hygiene-and-handwashing, 30-19-dc18-unlabeled-food-and-allergies]
-cards: [DC-18]
+related: [30-27-dc26-allergy-safe-food-reserve, 04-19-freeze-dried-stockpile, 04-01-calorie-and-stockpile-math, 04-12-fats-and-oils, 04-17-food-safety-power-outage, 03-01-daily-water-needs, 07-06-electric-kettle-cooking, 07-02-rocket-stove, 07-01-cooking-on-an-open-fire, 07-05-propane-and-camp-stoves, 02-03-cl03-anaphylaxis, 02-04-cl04-food-allergy, 12-03-burns, 20-01-toddler-and-infant-needs, 13-02-hygiene-and-handwashing, 30-19-dc18-unlabeled-food-and-allergies]
+cards: [DC-18, DC-26]
 explainers: []
 promote_when: []
 photo_slots:
@@ -25,7 +25,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Household-only rehydration figures (1-2 h cold, 10-15 min, 1-2.5 cups, 10 min cool-down) replaced with label-first wording and one maker's published FAQ; unreadable FSIS source replaced; allergy-reserve rule now points to card DC-26" }
 ---
 
 # Freeze-dried and dehydrated meals: rehydrating them safely
@@ -51,24 +51,27 @@ chance of cross-contact.
      pasta or rice meals): its pasta, beans and textured soy protein are **not pre-cooked**. It
      needs a **real boil on a stove** (→ 07-05, → 07-01). **It is not a cold-water meal**, and a
      kettle pour alone will not make it safe or edible. Note the type in your inventory (→ 04-19).
-2. **Water per pouch = the figure on the label.** Products range roughly from 1 to 2½ cups;
-   measure it. Extra water is wasted energy and soup where you wanted stew.
+2. **Water per pouch = the figure on the label.** Products differ; measure it. Extra water is
+   wasted energy and soup where you wanted stew.
 3. **Boil in batches:** one litre of water is about two pouches (→ 07-06).
-4. **Seal the pouch and wait** the time on the label (usually 10 to 15 minutes). Stir once half-way,
+4. **Seal the pouch and wait** the time on the label (15 minutes or less for one common maker's
+   meals; Mountain House FAQ). Stir once half-way,
    reseal, keep waiting. Opening early gives crunchy centres and loses heat.
 5. **The allergic person's pouch first**, with their own marked tools, before any other pouch or
    pot is opened (procedure below).
 6. **No way to boil? Cold water works, for true freeze-dried pouches only:** same pouch, cold or
-   room-temperature water, **1 to 2 hours**. It is safe because the food was fully cooked before
-   it was dried; it is just cold and less cheering. **A "boil or simmer" pouch in cold water is
+   room-temperature water, **at least twice the label's hot-water time** (one common maker's
+   advice; Mountain House FAQ), longer in a cold room; check that the centre is soft. It is safe
+   because the food was fully cooked before it was dried; it is just cold and less cheering. **A "boil or simmer" pouch in cold water is
    raw pasta and raw beans: wait for a stove.**
 
 ## Why / how it works
 
 ### Why true freeze-dried food is safe cold
 
-True freeze-dried meals are cooked, then frozen and dried under vacuum, and sealed. Kept intact
-they are shelf-stable (USDA FSIS, Shelf-Stable Food Safety). Adding water **reconstitutes** them;
+True freeze-dried meals are cooked, then frozen and dried under vacuum, and sealed; makers of
+true freeze-dried meals state that they are pre-cooked (for example, Mountain House FAQ). Kept
+intact they keep on the shelf for years. Adding water **reconstitutes** them;
 it does not cook them. That is why cold water is safe for them and not for dehydrated blends that
 were never cooked.
 
@@ -108,15 +111,15 @@ Allergies on record:
 {{/each}}
 
 Whether the allergic person ever eats unlabeled, traded or scavenged food is a decision card
-(→ 30-19). The household's choice: {{choice DC-18}}. Some households also keep the allergy-safe
-pouches as that person's reserve and eat the others first; write the household's rule here:
-______________________
+(→ 30-19). The household's choice: {{choice DC-18}}. Whether the allergy-safe pouches are held as
+that person's reserve while everyone else eats other stock first is a second card (→ 30-27). The
+household's choice: {{choice DC-26}}.
 
 ### Feeding small children
 
 {{#if has.young_child}}This household has a child under 6.{{/if}}
-- **Cooling takes time.** Food made with boiling water stays scalding for 10 minutes or more
-  **after** the rest time, longer if wrapped for warmth. Stir to let steam out, taste a test
+- **Cooling takes time.** Food made with boiling water is still scalding **after** the rest
+  time, and longer if wrapped for warmth. Stir to let steam out, taste a test
   spoonful, and check it on your wrist like a bottle.
 - **Thin and mash for toddlers:** a splash of warm (not boiling) water and a mash with the spoon
   makes most pouch meals soft. Cut or mash anything chunky; choking rules do not relax in an

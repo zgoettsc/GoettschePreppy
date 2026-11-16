@@ -2,7 +2,7 @@
 id: 17-03-floods
 section: 17-weather-and-regional-hazards
 title: "Floods and flash floods"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: region
 danger_level: critical
@@ -18,6 +18,8 @@ sources:
   - cdc-preparing-for-floods-safety-cleanup-and-hygiene-d00a5d
   - cdc-guidelines-for-personal-hygiene-during-an-emerge-ddfe8d
   - cdc-how-to-disinfect-wells-after-an-emergency
+  - fema-nri-counties
+  - cdc-keep-food-safe-after-disaster-2025
 related: [03-02-storing-water, 03-04-purifying-water, 03-05-rain-and-snow-water, 03-07-testing-water, 03-10-well-water-without-power, 13-01-human-waste-no-plumbing, 13-07-latrine-siting, 13-11-disease-outbreak, 12-02-bleeding-and-wounds, 12-04-infection-and-antibiotics, 12-05-common-illness-and-dehydration, 08-02-carbon-monoxide-safety, 09-04-generators, 17-08-power-grid-failure, 17-13-hurricanes-and-tropical-storms, 17-17-landslides-and-debris-flows, 15-01-weather-alerts, 01-03-phase-b-movement, 01-05-choosing-a-destination, 19-01-document-grab-kit, 19-04-insurance-and-claims, 22-03-go-bags-and-kits, 25-04-maps, 29-05-ex05-chlorine-products, 29-10-ex10-weather-alert-words, 30-01-the-floors, 30-15-dc14-questionable-food, 30-20-dc19-when-to-leave]
 cards: [DC-14, DC-19]
 explainers: [EX-05, EX-06, EX-10]
@@ -30,17 +32,19 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "NRI note; flood-death framing to NWS; flood food discard and can sanitising to CDC 2025." }
 ---
 
 # Floods and flash floods
 
-**What this page is for.** Floods kill more people than most weather, and most of those deaths
-are in vehicles. This page covers the kinds of flooding, the alert words, the rules for water on
+**What this page is for.** Flooding kills more people each year than any other
+thunderstorm-related hazard, and over half of flood drownings happen when a vehicle is driven into
+floodwater (NWS, Turn Around Don't Drown). This page covers the kinds of flooding, the alert words, the rules for water on
 roads, getting out fast, and the long tail: contaminated water, food and mold.
 {{#if is.flood_region}}**Your home county is rated 2 or 3 for flooding in the region data.** Do
 the "Do this now" list this month.{{else}}Your home county is rated lower for flooding, but
 flash floods and basement floods happen almost anywhere it rains.{{/if}}
+Ratings in this binder are FEMA's National Risk Index for your county, on a 1-to-3 scale: they measure expected harm to people and property there, not how likely the hazard is (→ 29-10).
 
 > **SAFETY. Turn Around, Don't Drown.** Never drive or walk into moving water. The NWS numbers,
 > printed so they work offline:
@@ -155,9 +159,14 @@ to stay up high with supplies or leave.{{/if}}
   the day (→ 13-11, → 12-05).
 
 **Food, garden and belongings** (CDC, Preparing for Floods):
-- **Throw out food that touched floodwater**, including anything in paper, plastic, cardboard or
-  screw-top containers. Undamaged, sealed commercial metal cans can be kept only after the
-  cleaning and disinfecting steps in the CDC guidance. Food from a freezer that lost power is a
+- **Throw out food that touched floodwater** if it was in packaging that is not waterproof, in
+  cardboard (including juice, milk and formula boxes), in containers with screw caps, snap lids,
+  crimped or twist caps or flip tops, home-canned, or in cans that are bulging, open or damaged
+  (CDC, Keep Food Safe After a Disaster or Emergency, 2025).
+- **Undamaged commercial cans and retort pouches can be saved**: remove labels, brush off silt,
+  wash in hot soapy water, rinse in safe water, then either soak 15 minutes in 1 cup (8 oz)
+  unscented household bleach per 5 gallons of water or boil for 2 minutes; relabel with the
+  contents and expiry date, and use them soon (CDC). Food from a freezer that lost power is a
   separate question: {{choice DC-14}} → 30-15
 - **Do not eat garden produce that floodwater touched.**
 - **Porous things that got wet** (mattresses, upholstery, carpet, drywall) grow mold and usually

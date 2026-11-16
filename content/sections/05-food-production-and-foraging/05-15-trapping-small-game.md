@@ -2,7 +2,7 @@
 id: 05-15-trapping-small-game
 section: 05-food-production-and-foraging
 title: "Trapping small game and pest animals"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -14,7 +14,7 @@ sources:
   - cdc-trichinellosis-wild-carnivores-raccoon-bear-as-t-18d2f4
   - cdc-baylisascaris-raccoon-roundworm-risk-to-small-ch-61be79
   - foodsafety-gov-usda-hhs-cook-to-a-safe-minimum-inter-13daf3
-  - south-dakota-game-fish-and-parks-trapping-in-south-d-cc1d7a
+  - missouri-dept-of-conservation-rabbit-safety-and-health
 related: [05-07-hunting, 05-09-field-dressing-and-butchering, 05-05-rabbits, 05-16-processing-poultry, 04-11-pests-and-rodents, 04-12-fats-and-oils, 14-03-opsec, 14-08-ammunition-sourcing, 13-02-hygiene-and-handwashing, 20-02-child-safety-offgrid, 20-09-pets, 30-25-dc24-children-and-dangerous-jobs, 19-01-document-grab-kit]
 cards: [DC-24]
 explainers: []
@@ -27,7 +27,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Tularemia liver check re-sourced (MDC); 160 F traced to FoodSafety.gov; trichinosis and raccoon roundworm wording matched to CDC; state-specific source dropped" }
 ---
 
 # Trapping small game and pest animals
@@ -38,10 +38,11 @@ from the diseases wild animals carry.
 
 > **SAFETY.** **Traps injure children and pets:** the trap does not know whose foot it has.
 > **Wild rabbits and hares carry tularemia:** gloves, the spotted-liver check, cook to 160 °F
-> (CDC). **Raccoons and other wild meat-eaters carry trichinosis:** cook every part to 160 °F
-> throughout; freezing does not make wild-carnivore meat safe (CDC). **Raccoon droppings carry a
-> roundworm that causes severe, sometimes fatal brain disease, mostly in toddlers** (CDC):
-> handle droppings, carcasses and gut piles as hazardous waste.
+> (CDC; FoodSafety.gov). **Wild meat-eaters (bear, wild boar, fox; treat raccoon and opossum the
+> same) can carry trichinosis:** cook every part right through, to at least 160 °F; freezing does
+> not reliably make their meat safe (CDC). **Raccoon droppings carry a roundworm whose eggs can
+> damage the brain and eyes, mostly in young children** (CDC): handle droppings, carcasses and gut
+> piles as hazardous waste.
 
 ## Do this now
 
@@ -89,7 +90,7 @@ Which animals are near you depends on your region; these are widespread.
 - **Rabbits and hares:** the main small-game target. Cage traps and snares on their runs.
   **Gloves, the spotted-liver check, 160 °F.**
 - **Squirrels:** common, even in town.
-- **Raccoon, opossum:** edible **cooked to 160 °F throughout** (trichinosis). Also pests that
+- **Raccoon, opossum:** edible **cooked right through, to at least 160 °F** (trichinosis, below). Also pests that
   raid stored food (→ 04-11). **Raccoon droppings and latrine sites are hazardous** (below).
 - **Muskrat, beaver** where present: good meat, and **fat**, which matters (→ 04-12).
 - **Rats and mice** around food storage: a different job, and always worth doing (→ 04-11).
@@ -125,17 +126,23 @@ Trapping is reading animal behaviour, not buying traps.
 
 ### Handling and disease
 
-- **Tularemia:** wild rabbits and hares carry it. **The field check:** a rabbit whose **liver or
-  spleen shows small white or yellow spots, or whose liver is enlarged, is thrown out whole**:
-  bury it, wash up, eat none of it. **Gloves when dressing, no rubbing eyes or face, clean the
-  knife**: the bacterium enters through skin and through dust from skinning. Avoid animals that
-  seemed sick or sluggish. **Cook to 160 °F.** Cold weather after hard frosts reduces but does
-  not remove the risk (CDC, Tularemia Prevention). (The same spotted liver in a **domestic**
-  rabbit is coccidiosis, → 05-05.)
-- **Raccoon, opossum, bear and other wild meat-eaters: trichinosis.** Cook all of it to **160 °F
-  throughout**. Do not rely on freezing, smoking or curing (CDC, Trichinellosis).
-- **Raccoon roundworm (*Baylisascaris*):** eggs in raccoon droppings and fur cause severe,
-  sometimes fatal brain disease, overwhelmingly in toddlers who put things in their mouths (CDC).
+- **Tularemia:** wild rabbits and hares carry it. **The field check:** a rabbit whose **liver
+  shows many white spots about the size of a pinhead is thrown out whole**: bury it, wash up, eat
+  none of it (Missouri Department of Conservation, Rabbit: Safety and Health). **Nitrile or latex
+  gloves when dressing, no rubbing eyes or face, clean the knife**: the germ gets in through skin
+  and eyes. Avoid animals that seemed sick or sluggish. **Cook to 160 °F** (FoodSafety.gov). Waiting
+  for cold weather to trap rabbits reduces the risk but does not remove it (Missouri Department
+  of Conservation; CDC, Tularemia Prevention). Flu-like illness after handling rabbits needs a
+  doctor, while there is one: say "possible tularemia". (The same spotted liver in a
+  **domestic** rabbit is coccidiosis, → 05-05.)
+- **Bear, wild boar, fox and other wild meat-eaters: trichinosis** (CDC, Trichinellosis); treat
+  raccoon and opossum the same way. FoodSafety.gov gives no separate figure for these animals:
+  cook all of it right through, to at least the **160 °F** it gives for venison and rabbit. Do not
+  rely on freezing, smoking, curing or drying: they do not reliably kill the worms in wild meat
+  (CDC).
+- **Raccoon roundworm (*Baylisascaris*):** eggs in raccoon droppings can damage the brain and
+  eyes (blindness, coma); most infections are in young children who put dirt in their mouths
+  (CDC).
   **Gloves; no children anywhere near carcasses, gut piles or raccoon latrines** (raccoons use
   the same toilet spots: flat roofs, woodpiles, the base of big trees, decks); **burn or
   deep-bury gut piles; never process near the kitchen; wash hands and tools** (→ 13-02).

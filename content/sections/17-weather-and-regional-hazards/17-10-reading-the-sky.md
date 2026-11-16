@@ -2,7 +2,7 @@
 id: 17-10-reading-the-sky
 section: 17-weather-and-regional-hazards
 title: "Reading the sky: forecasting with no forecast"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -16,6 +16,8 @@ sources:
   - noaa-jetstream-cloud-classification-and-frontal-clou-dcf102
   - noaa-national-weather-service-noaa-weather-radio-all-5f13d8
   - world-storm-central-compiled-small-craft-convention-b4b8f6
+  - metoffice-high-clouds
+  - noaa-jetstream-four-core-types-of-clouds
 related: [17-01-blizzards-and-ice, 17-02-tornadoes, 17-05-grassland-fire, 17-06-tornado-shelter, 17-08-power-grid-failure, 17-11-corridor-hazards, 17-13-hurricanes-and-tropical-storms, 17-15-tsunamis, 17-18-hail-and-damaging-wind, 15-01-weather-alerts, 15-02-radio-options, 15-04-monitoring-and-info, 22-01-master-acquisition-list, 24-02-drills, 01-03-phase-b-movement, 29-09-ex09-radios]
 cards: []
 explainers: [EX-09, EX-10]
@@ -27,7 +29,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Unsourced lead times removed or resourced (Met Office within a day); barometer rule cut to the 1 mb/h the source gives; derecho and hail-calm signs aligned with SPC." }
 ---
 
 # Reading the sky: forecasting with no forecast
@@ -59,14 +61,14 @@ Weather Radio** are the whole warning system. This page teaches the signs that m
 | **A lowered, often rotating cloud under the rain-free base** (wall cloud) | Tornado possible within minutes | **Shelter now** (→ 17-06) |
 | **A long, low, wedge-shaped cloud on the storm's leading edge** (shelf cloud) | Damaging straight-line wind about to arrive | Inside, interior room, away from windows (→ 17-18) |
 | **Dark greenish sky** | Not a reliable sign (NSSL): treat it as "a severe storm is near" | Inside; vehicles and portable gear under cover if time |
-| **Large hail, then sudden calm** | You may be near the part of the storm where tornadoes form | **Shelter now** |
+| **Large hail, or a sudden calm** | A dangerous storm. SPC: these can come before a tornado but are not a reliable sign either way | **Shelter now** |
 | **A continuous roar like a freight train** | Tornado, close | **Shelter now** |
-| **Shelf cloud plus advancing wall of dust or rain, sudden pressure jump and wind blast** | Derecho or severe squall line | Tornado posture (→ 17-02) |
-| **Halo around the sun or moon** | Moisture arriving high up; rain or snow often within about 12 to 24 hours (rule of thumb, not an NWS figure) | Check supplies; watch for the sequence below |
-| **High thin cloud thickening and lowering until the sun is a dim smear** | A storm system arriving within hours to about 12 hours (rule of thumb) | In winter, start storm preparation (→ 17-01) |
+| **Shelf cloud plus advancing wall of dust or rain, then a wind blast** | Derecho or severe squall line | Tornado posture (→ 17-02) |
+| **Halo around the sun or moon** (thin high cloud, cirrostratus) | Moisture arriving high up; a warm front may bring persistent rain within a day (Met Office) | Check supplies; watch for the sequence below |
+| **High thin cloud thickening and lowering until the sun is a dim smear** | The storm system is getting closer: hours, not days | In winter, start storm preparation (→ 17-01) |
 | **Wind backing (turning counter-clockwise, for example west to south to east) plus a falling barometer** | A low-pressure storm approaching | Prepare; do not start a trip |
-| **Barometer falling more than 1 millibar an hour for 2 to 3 hours** | Storm coming | Storm preparation |
-| **Barometer falling more than 2 millibars an hour** | Severe storm or a fast-deepening low | Full preparation; no travel |
+| **Barometer falling more than about 1 millibar an hour** | A storm may be approaching (mariners' rule of thumb) | Storm preparation |
+| **Barometer falling faster, or for hours on end** | A stronger storm | Full preparation; no travel |
 | **Winter: temperature rising toward freezing as snow starts, east or southeast wind** | Snow that may turn to freezing rain | Ice-storm preparation (→ 17-01, → 17-08) |
 | **Winter: sharp wind shift to the northwest and temperature crashing after the snow** | Cold front behind the storm; blowing snow | Nobody travels (→ 17-11) |
 | **At the coast: the sea drawing back suddenly, or a roar from the ocean** | Possible tsunami | **High ground now** (→ 17-15) |
@@ -86,7 +88,8 @@ Weather Radio** are the whole warning system. This page teaches the signs that m
     cloud = back of the storm, hanging down like a wall, often turning.
 - **A green sky is folklore-grade.** NSSL says scientists do not agree why the sky turns green,
   though it is often reported near hail; SPC lists no sky colour as a tornado sign.
-- **Large hail then sudden calm:** the quiet is not the all-clear.
+- **Large hail, or a sudden calm:** SPC says neither is a reliable predictor of a tornado, but
+  large hail does mean an unusually dangerous storm. The quiet is not the all-clear.
 - **A roar that does not fade like thunder:** tornado.
 - **At night:** this is what the radio is for. Lightning flickering in one part of the sky at least
   shows where the storm is.
@@ -95,19 +98,23 @@ Weather Radio** are the whole warning system. This page teaches the signs that m
 
 ## Derecho signature
 
-A derecho (a long, wide windstorm; → 17-02) announces itself minutes ahead: **a shelf cloud across
-the horizon**, an **advancing wall of dust and rain** below it, then an abrupt **temperature drop,
-pressure jump and wind blast** (SPC). From first sight of the shelf to hurricane-force wind can be
-under 10 minutes. **Take the tornado posture without waiting for rotation.**
+A derecho (a long, wide windstorm; → 17-02) may show **a shelf cloud across the horizon** and an
+**advancing wall of dust and rain** below it, then an abrupt **wind blast**. SPC is blunt about the
+limits: shelf clouds are not always present, and because derechos usually move at 50 mph or more,
+the signs appear on very short notice, often too short to act on (SPC, About Derechos). **When
+you see them, take the tornado posture at once, without waiting for rotation**; the radio is what
+gives real warning.
 
 ## Winter storm onset: a day's notice
 
-The classic warm-front cloud sequence. NOAA JetStream describes the clouds; **the lead times below
-are rules of thumb, not NWS figures**:
-1. **A halo** around the sun or moon (thin ice-crystal cloud): moisture arriving high up. Rain or
-   snow often 12 to 24 hours out; the faster the sky thickens, the sooner.
-2. **High cloud thickens and lowers** until the sun is a dim smear behind grey: hours to about 12
-   hours.
+The classic warm-front cloud sequence. High wispy cirrus is often the first cloud to appear ahead
+of a low-pressure system (NOAA JetStream, The Four Core Types of Clouds):
+1. **A halo** around the sun or moon (thin ice-crystal cloud, cirrostratus): moisture arriving high
+   up. The Met Office says that when a sheet of cirrostratus covers the sky, a warm front is likely
+   to bring persistent rain within a day (Met Office, High clouds). The faster the sky thickens,
+   the sooner.
+2. **High cloud thickens and lowers** until the sun is a dim smear behind grey: the weather is
+   hours away, not days.
 3. **The wind backs** and **the barometer falls steadily.**
 4. **Temperature tells you which storm it is.** Rising toward freezing as precipitation starts
    means snow that can turn to **freezing rain**, the outage maker (→ 17-08). Falling hard behind a
@@ -121,18 +128,19 @@ An analog barometer needs no power and no internet. **Set it once** to the sea-l
 out on the NOAA Weather Radio observation (the nearest airport's reading), not to a guessed number.
 Your home sits at about **{{ region.home.elevation_ft }} ft**, and a barometer set without a real
 reading at that height can be far off. **The number matters less than the trend.**
-- **Falling more than 1 millibar an hour for 2 to 3 hours:** a storm is coming.
-- **Falling more than 2 millibars an hour:** a severe storm or fast-deepening low. Full
-  preparation, no travel.
+- **Falling more than about 1 millibar an hour:** a storm may be approaching. Read it every hour
+  or two while it falls.
+- **Falling faster than that, or falling for hours on end:** a stronger storm or a fast-deepening
+  low. Full preparation, no travel.
 - **Rising fast after a storm:** clearing, but in winter often wind and bitter cold behind it.
-- These fall rates are a **mariners' convention**, not an NWS product, but they err on the safe
-  side.
+- The 1-millibar-an-hour figure is a **mariners' rule of thumb** (Barometer Rules), not an NWS
+  product. Treat it as a reason to prepare, never as a reason to relax.
 
 **Pressure and wind together** beat either alone:
 
 | Barometer | Wind from | Read it as |
 |---|---|---|
-| Falling fast | East to southeast | A major low approaching; storm within about 12 to 24 hours |
+| Falling fast | East to southeast | A major low approaching |
 | Falling fast | South to southwest, warm and humid | Severe thunderstorms possible today: watch the sky hourly |
 | Steady or rising | West to northwest | Fair, or clearing |
 | Rising fast | Northwest, in winter | Clearing, wind and plunging cold: blowing snow on open roads |

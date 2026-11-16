@@ -15,6 +15,7 @@ sources:
   - cpsc-carbon-monoxide-questions-and-answers-783766
   - osha-electrical-safety-and-health-topics-a7a68f
   - american-college-of-surgeons-stop-the-bleed-stop-the-8d1b5b
+  - cotccc-tccc-guidelines-2026
   - usda-nchfp-usda-complete-guide-to-home-canning-2015-452df1
   - national-center-for-home-food-preservation-principle-20736b
   - cdc-botulism-prevention-d03ef9
@@ -31,17 +32,18 @@ sources:
   - american-academy-of-pediatrics-healthychildren-org-g-a22b8d
   - nssf-national-shooting-sports-foundation-project-chi-7e7bc9
   - cdc-mmwr-hydrocarbon-kerosene-lamp-oil-ingestion-in-106f3a
-related: [08-02-carbon-monoxide-safety, 09-04-generators, 12-02-bleeding-and-wounds, 04-05-canning-pressure, 05-06-foraging-and-deadly-look-alikes, 06-06-fuel-storage-safety, 06-07-moving-and-transferring-fuel, 02-01-cl01-type-1-diabetes-injections, 03-04-purifying-water, 20-02-child-safety-offgrid, 14-14-safe-storage-and-child-access, 29-03-ex03-carbon-monoxide, 29-04-ex04-electricity-in-the-house, 29-05-ex05-chlorine-products, 29-07-ex07-refrigerated-medicines, 29-08-ex08-canning-words]
+related: [08-02-carbon-monoxide-safety, 09-04-generators, 12-02-bleeding-and-wounds, 04-05-canning-pressure, 05-06-foraging-and-deadly-look-alikes, 06-06-fuel-storage-safety, 06-07-moving-and-transferring-fuel, 02-01-cl01-type-1-diabetes-injections, 03-04-purifying-water, 20-02-child-safety-offgrid, 14-14-safe-storage-and-child-access, 29-03-ex03-carbon-monoxide, 29-04-ex04-electricity-in-the-house, 29-05-ex05-chlorine-products, 29-07-ex07-refrigerated-medicines, 29-08-ex08-canning-words, 30-26-dc25-tourniquet-conversion-no-help-coming]
 explainers: [EX-01, EX-03, EX-04, EX-05, EX-07, EX-08]
 promote_when: []
 figures: [fig-generator-distance, fig-backfeed-path]
+cards: [DC-25]
 review_pass: null
 ---
 
 # The floors: nine rules that are not choices
 
 **What this page is for.** Most hard calls in this binder are trade-offs, and the household
-makes them on the decision cards (→ 30-02 to → 30-25). The nine rules on this page are
+makes them on the decision cards (→ 30-02 to → 30-30). The nine rules on this page are
 different. Each one guards against something that kills or maims **without warning and with no
 fix afterwards**. No mitigation makes the risky version safe every time, so there is no card,
 no options box and no "our choice" line. Other pages copy the rule sentences below word for
@@ -99,7 +101,7 @@ work is a decision card (→ 30-08). Backfeeding is never on that card.
 
 ## 3. A tourniquet stays on
 
-**Never loosen a tourniquet once placed; mark the time.**
+**Never loosen a tourniquet once placed while help can still come; mark the time. If no help will ever come, the conversion decision is DC-25 (→ 30-26).**
 
 **Why there is no choice.** A tourniquet is a tight band that stops blood flow to a bleeding
 arm or leg. Loosening it "to check" or "to give the limb some blood" lets the bleeding start
@@ -107,9 +109,16 @@ again. The person has already lost blood, so the second bleed can be the one tha
 the clots that had begun to form are washed away. Writing the time lets anyone who takes over
 know how long it has been on (Stop the Bleed, American College of Surgeons).
 
+The rule assumes someone will take over: an ambulance, a clinic, a trained medic. When no help
+will ever come, military guidance for long, remote care (TCCC Guidelines, 2026) describes converting a tourniquet to
+wound packing and a pressure bandage under strict conditions, and a limb left without blood for
+many hours is lost. That is a trade-off, not a floor, so it is a decision card (→ 30-26). While
+any help can still come, the tourniquet stays on.
+
 **Do this instead.** Place it 2 to 3 inches above the wound, not over a joint, and tighten
 until the bleeding stops. If it still bleeds, add a second one above the first. Write the
-time on the strap or the skin. Take a Stop the Bleed course while courses exist. → 12-02.
+time on the strap or the skin. Take a Stop the Bleed course while courses exist. → 12-02,
+→ 30-26.
 
 ## 4. Low-acid food is pressure-canned or not canned
 

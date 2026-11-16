@@ -2,7 +2,7 @@
 id: 05-13-perennials-and-fruit
 section: 05-food-production-and-foraging
 title: "Perennials, fruit trees and berries for your zone"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: region
 danger_level: none
@@ -12,7 +12,6 @@ derived_from: [05-13-perennials-and-fruit]
 sources:
   - university-of-minnesota-extension-growing-apples-in-645b29
   - university-of-minnesota-extension-fruits-and-vegetab-1b002c
-  - sdsu-extension-fruit-variety-recommendations-for-sou-e87fa1
   - usda-phzm-2023
 related: [05-01-a-small-high-yield-garden, 05-06-foraging-and-deadly-look-alikes, 05-10-container-and-vertical, 05-12-pollination-and-pests, 05-17-wild-edibles-by-season, 05-18-destination-garden-calendar, 04-04-canning-water-bath, 04-06-dehydrating, 02-04-cl04-food-allergy, 16-02-sharpening, 24-01-skills-checklist]
 cards: []
@@ -26,7 +25,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Spot-checked (none page): zone bands match USDA PHZM, apple pollination matches UMN; state fruit-variety source dropped (body already points to the state Extension list)" }
 ---
 
 # Perennials, fruit trees and berries for your zone

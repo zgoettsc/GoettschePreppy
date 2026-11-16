@@ -2,7 +2,7 @@
 id: 05-12-pollination-and-pests
 section: 05-food-production-and-foraging
 title: "Pollination and garden pests without chemicals"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -25,7 +25,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "No owner residue or state-specific citations; one unsourced fraction (half the garden) made qualitative; rest qualitative and UMN/Iowa State cited" }
 ---
 
 # Pollination and garden pests without chemicals
@@ -43,7 +43,7 @@ and how to control pests when there is nothing to buy.
 
 ## Do this now
 
-1. **Learn which of your crops actually need an insect.** Half the garden does not. If
+1. **Learn which of your crops actually need an insect.** Many do not. If
    pollinators crash, you want to know at once which beds are at risk (table below).
 2. **Learn to hand-pollinate squash, cucumbers and melons.** Five minutes a morning, and the vine
    crops no longer depend on insects.

@@ -70,6 +70,8 @@ fuller storage detail on → 02-01.
 >   sugar within reach and know the first aid below.
 > - **This page never calculates, adjusts or suggests a dose.** What to do when food is short,
 >   when sick, or when insulin runs low comes from the prescriber, written in the blanks below.
+>   FDA's emergency switching text is printed as published in part 8, for the prescriber to
+>   confirm.
 
 ## Do this now
 
@@ -212,7 +214,99 @@ veterinary insulin, never unlabelled vials, never insulin of unknown storage.**
 **If only a different insulin can be found:** FDA and the ADA publish emergency switching
 guidance and both say switching should be done with a physician and close sugar checks (FDA;
 ADA, Switching Between Insulin Products in Disaster Response Situations). Both are bound behind
-this page in the Large download. **This binder does not convert doses.**
+this page in the Large download. **This binder does not convert doses**; FDA's published text
+follows, for your prescriber to confirm.
+
+### As published, for your prescriber to confirm
+
+FDA's emergency guidance on switching insulin is printed here **exactly as published**, so that
+you can show it to the prescriber **now** and have them confirm or change it for this person
+(FDA, Information Regarding Insulin Storage and Switching Between Products in an Emergency,
+content current as of 09/28/2026). It is not this binder's advice, and the binder does not work
+out any amount from it. Brand names are FDA's examples.
+
+> **FDA:** "Always switch insulin under a doctor's care, with close monitoring of your blood
+> sugar. If you cannot reach a doctor during an emergency, follow the guidance below — but
+> monitor your blood sugar closely and see a doctor as soon as you can."
+
+> **FDA, Short-acting (regular insulin) and Rapid-acting Insulins:** "In an emergency, you can
+> switch one brand of regular insulin (such as Humulin R or Novolin R) for another brand of
+> regular insulin, or for a rapid-acting insulin (such as Apidra, Fiasp, Humalog, or NovoLog),
+> and vice versa. Use the same number of units.
+>
+> Inject regular insulins approximately 30 minutes before the start of each meal. Rapid-acting
+> insulins begin working more rapidly than regular insulin and are to be injected no more than
+> 15 minutes before the start of each meal to avoid dangerously low blood sugar levels."
+
+> **FDA, Intermediate and Long-acting Insulins:** "In an emergency, you can switch one brand of
+> intermediate-acting insulin (such as, Humulin N, Novolin N) for another intermediate-acting
+> insulin on a unit-per-unit basis. You can also switch intermediate-acting insulins for
+> long-acting insulins (e.g., Lantus, Toujeo, Tresiba) on a total unit-per-day basis, or vice
+> versa.
+>
+> Important: If you switch from a once-daily long-acting insulin (e.g., Lantus, Toujeo, Tresiba)
+> to an intermediate-acting insulin, keep your total daily dose the same but split it into two
+> equal injections. Give half in the morning with breakfast and half in the evening with dinner
+> to avoid a dangerously low blood sugar.
+>
+> If you switch from an intermediate-acting to a once-daily long-acting insulin, add up the total
+> amount of intermediate-acting insulin units for one day, and give it as a single long-acting
+> insulin dose once a day.
+>
+> Close monitoring of blood sugar and adjustment of your insulin dose may be needed in the
+> transition."
+
+> **FDA, Once-weekly Long-acting Insulin:** "If you use the once-weekly long-acting insulin,
+> Awiqli (insulin icodec) and need to switch to a once-daily long-acting or intermediate-acting
+> insulin in an emergency, base your dose on your total weekly dose.
+>
+> When switching from a once-daily long-acting insulin to insulin icodec, give the first insulin
+> icodec dose on the day after your last daily long-acting insulin dose. For Week 1, multiply
+> your previous total daily dose by 7, then by 1.5, and round to the nearest 10 units.
+>
+> Important: Because insulin icodec stays active for about one week, its blood sugar-lowering
+> effect continues for several days after the last dose. If you switch from Awiqli to a basal
+> (background) long-acting insulin, switching should be done under close medical supervision
+> with increased blood sugar monitoring to avoid low blood sugar (hypoglycemia).
+>
+> Note: Insulin icodec must not be used in an insulin pump, mixed with other insulins, or drawn
+> from the pen into a syringe."
+
+> **FDA, Insulin Mixes:** "Switching between types of insulin should be done with a doctor's
+> guidance and close blood sugar monitoring. [...] Insulin mixes combine two types of insulin,
+> intermediate- and short/rapid-acting, in one dose. The first number shows how much
+> intermediate insulin is in the mix and the second number shows how much short/rapid-acting
+> insulin. For example, each dose of a 70/30 mix contains 70% intermediate-acting insulin and
+> 30% short/rapid-acting insulin.
+>
+> [...] If you use a pre-mixed insulin (e.g., Humulin 70/30, Humalog Mix 75/25, Novolin 70/30,
+> NovoLog Mix 70/30), here are your options in an emergency:
+>
+> In an emergency, you can switch one insulin mix for another on a unit-per-unit basis.
+>
+> Insulin mixes with rapid-acting insulin analog (e.g., Humalog Mix, NovoLog Mix) should be
+> injected closer (within 15 minutes) to the start of the meal compared to mixes containing
+> regular insulin (e.g., Humulin 70/30).
+>
+> If an insulin mix is not available, patients should follow this two-step process:
+>
+> Step one: replace an intermediate-acting part of the mix (about 70% of the total units for
+> each dose) with an intermediate-acting or a long-acting insulin on a unit-per-unit basis.
+> With an intermediate-acting insulin: Give 70% of total units for each dose. With a long-acting
+> insulin: Add up the total insulin units given in one day. Give 70% as one daily dose.
+>
+> Step two: if regular or rapid-acting insulins are also available, use them before major meals.
+> The dose should be about 30% of your total of pre-mixed insulin for that meal, in addition to
+> the intermediate- or long-acting.
+>
+> Note: Inject longer and shorter acting insulins separately unless your doctor tells you
+> otherwise."
+
+**Prescriber, please read the FDA text above and confirm it for this person, or write what to
+do instead.** Person: ____________________
+Agree as printed ☐  Change as written here: _________________________________________________
+_____________________________________________________________________________________________
+Prescriber: ____________________ Initials: ______ Date: __________
 
 **Ask your prescriber now, while you can, and write it here:** "If all we can get is ________,
 what do we give, how much, and when?"

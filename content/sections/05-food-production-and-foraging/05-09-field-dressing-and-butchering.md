@@ -2,7 +2,7 @@
 id: 05-09-field-dressing-and-butchering
 section: 05-food-production-and-foraging
 title: "Field dressing and butchering"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -11,11 +11,13 @@ tags: [field dressing, butchering, deer, venison, chronic wasting disease, tular
 derived_from: [05-09-field-dressing-and-butchering]
 sources:
   - foodsafety-gov-usda-hhs-cook-to-a-safe-minimum-inter-13daf3
-  - cdc-chronic-wasting-disease-prevention-test-before-e-cbd361
+  - cdc-about-chronic-wasting-disease
+  - penn-state-extension-cwd-precautions-for-deer-hunters
+  - minnesota-dnr-cwd-questions-and-answers
   - cdc-tularemia-prevention-hunters-gloves-spotted-live-6dcb9d
+  - missouri-dept-of-conservation-rabbit-safety-and-health
   - national-center-for-home-food-preservation-nchfp-can-992460
-  - minnesota-dnr-summarising-the-2008-north-dakota-dept-98d5dd
-  - south-dakota-game-fish-and-parks-hunting-in-south-da-91fd62
+  - minnesota-dnr-tips-for-deer-hunters-lead
 related: [05-07-hunting, 05-05-rabbits, 05-15-trapping-small-game, 05-16-processing-poultry, 04-05-canning-pressure, 04-06-dehydrating, 04-07-smoking-and-curing, 04-09-winter-cold-storage, 04-12-fats-and-oils, 04-13-salt-sugar-vinegar, 12-02-bleeding-and-wounds, 13-03-greywater-and-trash, 16-02-sharpening, 30-01-the-floors, 29-08-ex08-canning-words]
 cards: []
 explainers: [EX-08]
@@ -27,7 +29,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Venison cooking corrected to FoodSafety.gov 160 F; CWD steps re-traced (CDC, Penn State, MN DNR); lead distance re-traced (MN DNR tips); state-specific source dropped" }
 ---
 
 # Field dressing and butchering
@@ -38,9 +40,9 @@ substitute for hands-on teaching or an illustrated guide.
 
 > **SAFETY.** Three hazards. **Spoilage:** body heat ruins meat within hours. **Contamination:**
 > a cut gut spreads bacteria over the carcass. **Disease:** chronic wasting disease (CWD) in
-> deer, elk and moose is caused by a prion, an infectious protein, and **cooking does not
-> destroy it**: never eat meat from an animal that tested positive or looked sick, however it is
-> cooked (CDC). **Low-acid foods are pressure-canned to the published time and pressure, or not
+> deer, elk and moose is caused by a prion, an infectious protein, and **cooking or freezing
+> does not remove it** (Minnesota DNR, CWD Questions and Answers): never eat meat from an animal
+> that tested positive, looked sick or was found dead, however it is cooked (CDC). **Low-acid foods are pressure-canned to the published time and pressure, or not
 > canned** (→ 30-01): meat is low-acid. And **sharp knives and tired hands cut people**; with no
 > emergency room a deep hand cut is a serious injury (→ 12-02).
 
@@ -86,22 +88,25 @@ the hide** if you have the skill and time.
 
 ### Disease and safety
 
-- **Chronic wasting disease** is in deer in many states, and **cooking does not destroy the
-  prion.** CDC's advice: **test before eating** where CWD is known; **bone out the meat**, do not
-  saw through spine or skull; **trim away the lymph nodes**; do not eat brain, spinal cord, eyes,
-  spleen or lymph nodes; use dedicated knives, not the kitchen's; wear gloves. Never eat an
-  animal that tested positive or looked sick.
-- **Lead fragments** (→ 05-07): a lead-core bullet sheds fragments **12 to 18 inches from the
-  wound channel**, too small to see. Trim that far and throw out bloodshot meat. Children under 6
-  and pregnant or nursing women were the groups advised to avoid venison from lead-shot deer
-  (Minnesota DNR, Lead in venison). Copper bullets remove the problem.
+- **Chronic wasting disease** is in deer in many states, and **cooking does not remove the
+  prion** (Minnesota DNR). CDC's advice: **strongly consider testing before eating** where CWD
+  is known; wear gloves; avoid handling the brain and spine; do not use your kitchen knives; never
+  eat an animal that tested positive, looked sick or was found dead (CDC, About Chronic Wasting
+  Disease). Penn State Extension adds: **bone out the meat** and do not saw through bone or cut
+  through the brain or spinal cord; **do not eat brain, spinal cord, eyes, spleen, tonsils or
+  lymph nodes**; wash hands and tools after (Penn State Extension, Precautions for Deer Hunters).
+- **Lead fragments** (→ 05-07): lead particles from a lead-core bullet were found **as far as
+  18 inches from the wound channel**, too small to see, feel or notice when chewing, and there is
+  no distance that is known to be safe. **Trim liberally** and throw out bloodshot meat.
+  **Pregnant women and children under 6 should never be in a position to eat lead particles**
+  (Minnesota DNR, Tips for Deer Hunters). Copper bullets fragment very little.
 - **Wear gloves.** Nitrile gloves are cheap and sensible.
 - **Do not eat an animal that looked or behaved sick:** thin, confused, or with abnormal tissue.
 - **Tularemia** ("rabbit fever") is a real risk in rabbits and hares. **The field check:** a wild
-  rabbit whose **liver or spleen shows small white or yellow spots, or whose liver is enlarged,
-  is thrown out whole**: bury it, eat none of it, wash up (CDC). **Gloves when dressing rabbits,
-  no rubbing eyes or face, clean the knife after**: the bacterium enters through skin and through
-  dust from skinning. Cold weather after hard frosts reduces but does not remove the risk. (The
+  rabbit whose **liver shows many white spots about the size of a pinhead is thrown out whole**:
+  bury it, eat none of it, wash up (Missouri Department of Conservation, Rabbit: Safety and
+  Health). **Gloves when dressing rabbits, no rubbing eyes or face, clean the knife after** (CDC):
+  the germ gets in through skin and eyes. Cold weather reduces but does not remove the risk. (The
   same spotted liver in a **domestic** rabbit is coccidiosis, → 05-05.)
 - **Wash hands and tools thoroughly**, and keep the work away from your water supply (→ 03-08).
 
@@ -113,8 +118,8 @@ the hide** if you have the skill and time.
 - **Everything else** (shoulders, neck, ribs, trim) becomes **ground meat, stew meat, jerky or
   canned meat**. In a survival setting this is most of the animal. From a lead-shot deer this is
   also the meat most likely to hold fragments.
-- **Cooking:** FoodSafety.gov gives **160 °F for ground meat** and **145 °F with a 3-minute rest
-  for whole cuts**. Cooking all game to 160 °F adds a margin when there is no medical care.
+- **Cooking:** FoodSafety.gov gives **160 °F for venison and rabbit, wild or farm-raised**, whole
+  cuts and ground alike. Check the thickest part with a thermometer (→ 07-01).
 - **Trim silver skin** (the tough shiny membrane) and connective tissue.
 - **Keep it cold throughout.** Work in batches so the rest stays cool.
 

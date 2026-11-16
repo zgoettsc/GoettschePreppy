@@ -2,7 +2,7 @@
 id: 17-11-corridor-hazards
 section: 17-weather-and-regional-hazards
 title: "Hazards on the road to each destination"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: household
 danger_level: critical
@@ -16,6 +16,8 @@ sources:
   - noaa-national-severe-storms-laboratory-severe-weathe-62747d
   - noaa-national-weather-service-winter-weather-safety-49fc7a
   - ready-gov-floods
+  - fema-nri-counties
+  - nws-winter-storm-during
 related: [01-02-go-no-go-decision, 01-03-phase-b-movement, 01-05-choosing-a-destination, 01-07-evacuating-with-medical-needs, 17-01-blizzards-and-ice, 17-02-tornadoes, 17-03-floods, 17-04-extreme-cold-and-heat, 17-06-tornado-shelter, 17-10-reading-the-sky, 17-13-hurricanes-and-tropical-storms, 17-14-wildfire-smoke-and-evacuation, 15-09-corridor-comms, 16-11-trailer-maintenance-and-repair, 22-05-kit-vehicle, 25-04-maps, 09-11-hand-and-alt-generation, 30-07-dc06-fuel-in-passenger-vehicle, 30-20-dc19-when-to-leave]
 cards: [DC-06, DC-19]
 explainers: [EX-10]
@@ -28,7 +30,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "NRI meaning explained under the hazard table; empty-destination table fixed; NWS vehicle source." }
 ---
 
 # Hazards on the road to each destination
@@ -79,20 +81,32 @@ family or medical help. Add destinations in settings and regenerate.
 {{#each region.home.hazards as h}}| {{h.name}} | {{h.rating_text}} |
 {{/each}}
 
-Each destination's full hazard list is on its state page in Section 32.
+**What the rating means.** The ratings come from FEMA's National Risk Index for each county, on a
+1-to-3 scale (low, moderate, high). They measure expected harm to people and property, not how
+likely the hazard is: a big city can rate high for a rare hazard because so much is exposed (Cook
+County, Illinois, rates high for earthquakes), and a thinly settled county can rate low for a
+hazard that does strike it. Use them to choose which pages to read first, never to decide that a
+hazard on your route cannot happen (→ 29-10). Each destination's full hazard list is on its state
+page in Section 32.
 
 ## Season and route: decide before you need to
 
 When to leave is a household decision written in advance: {{choice DC-19}} → 30-20. For each
 destination, fill in the table before the season starts.
 
-| Season or situation | {{#each destinations as x}}{{x.name}} | {{/each}}
+{{#if has.destinations}}| Season or situation | {{#each destinations as x}}{{x.name}} | {{/each}}
 |---|{{#each destinations as x}}---|{{/each}}
 | Winter, storm anywhere on the route | {{#each destinations as x}}Wait / go: ____ | {{/each}}
 | Winter, clear multi-day window | {{#each destinations as x}}Wait / go: ____ | {{/each}}
 | Spring and summer storm season | {{#each destinations as x}}Wait / go: ____ | {{/each}}
 | Hurricane or wildfire season | {{#each destinations as x}}Wait / go: ____ | {{/each}}
-| Short warning, any season | {{#each destinations as x}}Wait / go: ____ | {{/each}}
+| Short warning, any season | {{#each destinations as x}}Wait / go: ____ | {{/each}}{{else}}| Season or situation | Any trip you might make: wait or go? |
+|---|---|
+| Winter, storm anywhere on the route | ____ |
+| Winter, clear multi-day window | ____ |
+| Spring and summer storm season | ____ |
+| Hurricane or wildfire season | ____ |
+| Short warning, any season | ____ |{{/if}}
 
 **General rules that fit almost any route:**
 - **Short trips can wait for a weather window.** A day's delay costs little; driving into a storm
@@ -114,7 +128,7 @@ trap: you leave in sunshine and an hour later the road disappears.
   or patrols them, and people die on them.
 - **Whiteout while driving:** do not stop in a travel lane. Exit if you can; otherwise pull as far
   off the road as possible, lights on, and **stay with the vehicle** (→ 17-01: tailpipe clear,
-  engine 10 minutes an hour, a bright marker).
+  engine about 10 minutes each hour, a bright marker; NWS).
 - **Fuel:** keep the tank at least half full in winter and fill at every chance (→ 22-05).
 
 ## Tornado while driving

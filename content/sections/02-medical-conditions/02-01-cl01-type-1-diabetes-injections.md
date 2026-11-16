@@ -76,7 +76,8 @@ Pumps and sensors have their own module (→ 02-02); read this one first either 
 > - **Heat is different from freezing.** Warm insulin loses strength slowly. Whether to use it
 >   past the published window is your household's decision card: {{choice DC-08}} (→ 30-09).
 > - **This page never calculates, adjusts or suggests a dose.** Your doses, and what to do when
->   sick or short, come from the prescriber and go in the blanks below.
+>   sick or short, come from the prescriber and go in the blanks below. FDA's emergency
+>   switching text is printed as published in part 8, for the prescriber to confirm.
 
 ## Do this now
 
@@ -291,7 +292,52 @@ instead of the person's usual insulin): switching changes timing and amounts. FD
 both publish emergency switching guidance, and both say switching should be done with a
 physician and close sugar monitoring (FDA; ADA, Switching Between Insulin Products in Disaster
 Response Situations). In the Large download both documents are bound behind this page. **This
-binder does not convert doses.**
+binder does not convert doses**; FDA's published text follows, for your prescriber to confirm.
+
+### As published, for your prescriber to confirm
+
+FDA's emergency guidance on switching insulin is printed here **exactly as published**, so that
+you can show it to the prescriber **now** and have them confirm or change it for this person
+(FDA, Information Regarding Insulin Storage and Switching Between Products in an Emergency,
+content current as of 09/28/2026). It is not this binder's advice, and the binder does not work
+out any amount from it. Brand names are FDA's examples.
+
+> **FDA:** "Always switch insulin under a doctor's care, with close monitoring of your blood
+> sugar. If you cannot reach a doctor during an emergency, follow the guidance below — but
+> monitor your blood sugar closely and see a doctor as soon as you can."
+
+> **FDA, Short-acting (regular insulin) and Rapid-acting Insulins:** "In an emergency, you can
+> switch one brand of regular insulin (such as Humulin R or Novolin R) for another brand of
+> regular insulin, or for a rapid-acting insulin (such as Apidra, Fiasp, Humalog, or NovoLog),
+> and vice versa. Use the same number of units.
+>
+> Inject regular insulins approximately 30 minutes before the start of each meal. Rapid-acting
+> insulins begin working more rapidly than regular insulin and are to be injected no more than
+> 15 minutes before the start of each meal to avoid dangerously low blood sugar levels."
+
+> **FDA, Intermediate and Long-acting Insulins:** "In an emergency, you can switch one brand of
+> intermediate-acting insulin (such as, Humulin N, Novolin N) for another intermediate-acting
+> insulin on a unit-per-unit basis. You can also switch intermediate-acting insulins for
+> long-acting insulins (e.g., Lantus, Toujeo, Tresiba) on a total unit-per-day basis, or vice
+> versa.
+>
+> Important: If you switch from a once-daily long-acting insulin (e.g., Lantus, Toujeo, Tresiba)
+> to an intermediate-acting insulin, keep your total daily dose the same but split it into two
+> equal injections. Give half in the morning with breakfast and half in the evening with dinner
+> to avoid a dangerously low blood sugar.
+>
+> If you switch from an intermediate-acting to a once-daily long-acting insulin, add up the total
+> amount of intermediate-acting insulin units for one day, and give it as a single long-acting
+> insulin dose once a day.
+>
+> Close monitoring of blood sugar and adjustment of your insulin dose may be needed in the
+> transition."
+
+**Prescriber, please read the FDA text above and confirm it for this person, or write what to
+do instead.** Person: ____________________
+Agree as printed ☐  Change as written here: _________________________________________________
+_____________________________________________________________________________________________
+Prescriber: ____________________ Initials: ______ Date: __________
 
 **Ask your prescriber now, while you can, and write it here:** "If all we can get is ________
 insulin, what do we give, how much, and when?"

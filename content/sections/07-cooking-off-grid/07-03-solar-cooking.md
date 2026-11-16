@@ -2,7 +2,7 @@
 id: 07-03-solar-cooking
 section: 07-cooking-off-grid
 title: "Solar cookers"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -23,7 +23,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "SODIS times verified against CDC; FoodSafety.gov temperatures re-read (venison and rabbit added); unsourced box-cooker temperature range made qualitative" }
 ---
 
 # Solar cookers
@@ -33,8 +33,8 @@ solar cooker does well, what it cannot do, and how to build one from boxes and f
 
 > **CAUTION.** Solar cooking is **free but slow and depends on the weather**, and it does not
 > excuse you from food safety: meat must still reach safe internal temperatures, checked with a
-> thermometer (165 °F poultry, 160 °F ground meat, 145 °F whole cuts with a 3-minute rest;
-> FoodSafety.gov). Do not make a solar cooker your only plan for anything that must be cooked
+> thermometer (165 °F poultry, 160 °F ground meat, venison and rabbit, 145 °F whole cuts of beef,
+> pork, lamb and veal with a 3-minute rest; FoodSafety.gov). Do not make a solar cooker your only plan for anything that must be cooked
 > through.
 
 ## Do this now
@@ -50,8 +50,8 @@ solar cooker does well, what it cannot do, and how to build one from boxes and f
 
 Sunlight passes through a clear cover, is soaked up by dark surfaces, and the heat is trapped:
 a greenhouse in a box. **Reflectors** bounce extra light in; **insulation** keeps the heat from
-escaping. A decent box cooker reaches roughly **200 to 300 °F** on a clear day: slow-oven
-temperatures. Plenty for stews, beans, rice, bread and casseroles; not searing heat.
+escaping. A decent box cooker reaches **slow-oven temperatures** on a clear day (check it
+with an oven thermometer). Plenty for stews, beans, rice, bread and casseroles; not searing heat.
 
 ### What it is good for
 

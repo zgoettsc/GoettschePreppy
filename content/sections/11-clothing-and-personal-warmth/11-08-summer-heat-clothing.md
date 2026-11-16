@@ -2,7 +2,7 @@
 id: 11-08-summer-heat-clothing
 section: 11-clothing-and-personal-warmth
 title: "Summer heat and sun protection"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -14,6 +14,9 @@ sources:
   - cdc-niosh-heat-related-illnesses-symptoms-and-first-0b89bb
   - noaa-national-weather-service-heat-safety-66fd15
   - cdc-how-to-create-and-store-an-emergency-water-suppl-f0c412
+  - nws-understanding-heat-alerts-r3
+  - nws-during-a-heat-wave-r3
+  - nws-heat-hazard-renaming-2025
 related:
   - 11-01-cold-weather-layering
   - 11-05-wool-and-materials
@@ -52,7 +55,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Added NWS Extreme Heat Warning/Heat Advisory (2025 names); fan caution above 90 F per CDC and NWS (was missing); clothing and sunburn claims re-sourced to NWS (CDC page did not say them); NIOSH 15-20 min fluids, no salt tablets; risk groups per CDC/NWS." }
 ---
 
 # Summer heat and sun protection
@@ -73,23 +76,27 @@ power is dangerous; this page applies when it comes.{{/if}}
 
 ## Do this now
 
-1. **Wide-brim hats and light long-sleeved sun shirts for everyone,** children included. Covering up
+1. **Know the heat alerts.** NWS issues a **Heat Advisory** for dangerous heat and an **Extreme
+   Heat Warning** (called an Excessive Heat Warning before March 2025) for extremely dangerous heat
+   (NWS, Understanding Heat Alerts). Under a warning: heavy work stops in the heat of the day, and
+   children and older people stay in the coolest place you have.
+2. **Wide-brim hats and light long-sleeved sun shirts for everyone,** children included. Covering up
    beats sunscreen over a long event: **sunscreen runs out, cloth does not.**
-2. **Stock sunscreen anyway,** check its dates, and plan as if it will run out.
-3. **Find the coolest part of the house** (a basement, the north side, the ground floor) and make it the
+3. **Stock sunscreen anyway,** check its dates, and plan as if it will run out.
+4. **Find the coolest part of the house** (a basement, the north side, the ground floor) and make it the
    hot-day room, the summer version of the winter warm room (→ 08-01).
-4. **Work out the summer water figure** (→ 03-01). Heat and hard work raise water needs a great deal
+5. **Work out the summer water figure** (→ 03-01). Heat and hard work raise water needs a great deal
    (CDC, How to Create and Store an Emergency Water Supply).
 
 ## Dressing for heat
 
 The instinct is to wear less. **In strong sun, the better answer is to wear more of the right thing:**
-loose, light-coloured, breathable fabric over the skin (CDC, About Heat and Your Health).
+lightweight, loose-fitting, light-coloured clothing over the skin (NWS, During a Heat Wave).
 
 - **Loose and light-coloured.** Air moving between fabric and skin cools you; tight clothes block
   evaporation.
-- **Cover up in direct sun.** A light long-sleeved shirt is cooler in sun than a bare arm, because it
-  blocks the sun's heat and prevents sunburn, and **sunburned skin cools itself badly** (CDC).
+- **Cover up in direct sun.** A light long-sleeved shirt blocks the sun's heat and prevents sunburn,
+  and **sunburn reduces the body's ability to get rid of heat** (NWS, During a Heat Wave).
 - **A wide brim, not a ball cap.** Ears and the back of the neck are where people burn.
 - **Cotton and linen are good in heat.** This is the one place cotton is right, the opposite of winter
   (→ 11-05): the water it holds cools you as it evaporates.
@@ -108,8 +115,9 @@ Know the stages; the signs and first aid are from CDC/NIOSH (Heat-Related Illnes
   slurred speech, loss of consciousness. **Cool the person fast and get help.** Confusion in a hot
   person is the sign that matters most.
 
-**Who is at greater risk:** young children, older adults, people working in the sun, and people with
-chronic illness (CDC, About Heat and Your Health).{{#if has.young_child}} Your household has a young
+**Who is at greater risk:** infants and young children, people 65 and older, pregnant women, people
+working in the sun, and people with chronic illness (CDC, About Heat and Your Health; NWS, Heat
+Safety).{{#if has.young_child}} Your household has a young
 child.{{/if}}{{#if has.elder}} Your household has an older member.{{/if}} **Heat and diabetes affect
 each other:** high blood sugar increases urination and dehydration, and dehydration affects blood sugar;
 plan fluids and checks and follow your clinician's sick-day guidance.{{#if has.condition.CL-01}} Your
@@ -126,8 +134,11 @@ The winter warm room run backwards:
   south and west windows) works far better than inside curtains.
 - **Live low.** Heat rises; the basement or ground floor is cooler.{{#if has.basement}} Your basement is
   the summer room.{{/if}}
-- **A fan is worth far more than its watts** (→ 09-01). At night a fan in a window pulling cool air in
-  transforms a room.
+- **A fan is worth far more than its watts** (→ 09-01), used the right way. At night a fan in a
+  window pulling cool air in transforms a room (NWS). **Above 90 °F indoors, do not point a fan at
+  a person**: CDC says a fan can then raise body temperature, and NWS says the hot blowing air
+  dries you out faster (CDC, About Heat and Your Health; NWS, During a Heat Wave). Use it to move
+  hot air out instead, and cool people with water.
 - **Do not cook indoors.** Cook outdoors (→ 07-01, → 07-02, → 07-03).
 - **Wet towels and damp sheets** in a breezy window cool the incoming air, especially in dry heat.
 {{#if has.pool}}- **Your pool** ({{ dwelling.pool_gallons }} gallons) is a real cooling asset for people
@@ -136,13 +147,16 @@ The winter warm room run backwards:
 ## Work, rest and water
 
 - **Move the workday:** heavy work early morning and evening; rest through the hottest hours.
-- **Work-rest cycles and fluids:** take them from the NIOSH guidance (CDC/NIOSH, Heat-Related
-  Illnesses). In real heat the rest is longer than people want.
+- **Work-rest cycles and fluids:** rest in shade often and drink before you are thirsty. For heat
+  cramps, NIOSH's first aid is water plus a snack or a drink that replaces salts and carbohydrates
+  every 15 to 20 minutes, and no salt tablets (CDC/NIOSH, Heat-Related Illnesses). In real heat the
+  rest is longer than people want.
 - **Water is the limit** (→ 03-01). Heat plus hard work can multiply water needs; reconcile that with
   storage, purification (→ 03-04) and the garden.
-- **Salt matters** when sweating heavily for days. Large amounts of plain water without salt replacement
-  cause their own problems. Keep salt available (→ 04-13).
-- **Urine colour** is a free rough check of hydration: dark means drink more.
+- **Salt matters** when sweating heavily for days: replace it with food or an electrolyte drink, not
+  salt tablets (CDC/NIOSH). Keep salt available (→ 04-13).
+- **Urine colour** is a free rough check of hydration: light yellow or clear usually means you are
+  drinking enough; dark means drink more (CDC, About Heat and Your Health).
 
 ## Sun protection that does not run out
 
@@ -157,8 +171,8 @@ The winter warm room run backwards:
 - **Babies and toddlers cannot cool themselves well or tell you.** Watch for hot skin, flushing, unusual
   fussiness or sleepiness, and **fewer wet nappies** (a hydration sign).
 - **Hats and sun shirts on every child** outdoors.
-- **Never leave a child in a parked vehicle,** in any weather that is even mildly warm. Inside
-  temperatures rise fast and kill (NWS, Heat Safety).
+- **Never leave a child in a parked vehicle,** in any weather. NWS says it is never safe, even in
+  winter; inside temperatures rise fast and kill (NWS, Heat Safety).
 - **Water play cools and lifts morale, under the water-watcher and barrier rules on → 20-02,** which do
   not relax in a heat wave: an exhausted household and an inviting pool or tub is how drownings happen.
 - **Shade the play area.**

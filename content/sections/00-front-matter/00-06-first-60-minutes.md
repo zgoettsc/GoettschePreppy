@@ -18,7 +18,7 @@ sources:
   - cdc-how-to-create-and-store-an-emergency-water-suppl-f0c412
   - us-consumer-product-safety-commission-cpsc-what-to-k-3390a4
 related: [00-02-emergency-quick-reference, 25-08-quick-reference-cards, 01-01-phase-a-shelter-in-place, 01-02-go-no-go-decision, 08-02-carbon-monoxide-safety, 08-01-heating-one-room, 03-02-storing-water, 22-03-go-bags-and-kits, 09-16-outage-day-one, 09-06-charging-medical-devices, 12-21-evaporative-cooling-pouches]
-cards: [DC-01, DC-02, DC-20]
+cards: [DC-01, DC-02, DC-20, DC-25]
 explainers: [EX-03, EX-07, EX-02]
 promote_when: []
 photo_slots: []
@@ -45,7 +45,9 @@ minutes.
 > - **Never connect a generator to house wiring without a transfer switch, interlock, or a
 >   cord-and-plug conversion with the main breaker locked off. Never backfeed through an
 >   outlet.** It electrocutes line workers and neighbours and starts fires.
-> - **Never loosen a tourniquet once placed; mark the time.** Re-bleeding and clot release kill.
+> - **Never loosen a tourniquet once placed while help can still come; mark the time.**
+>   Re-bleeding and clot release kill. If no help will ever come, the conversion decision is
+>   DC-25 (→ 30-26).
 > - **Fuel is never stored or transferred near an open flame or a running appliance.** Vapour
 >   ignites.
 > - **A frozen-then-thawed insulin vial or pen is discarded.** It loses strength with no way to

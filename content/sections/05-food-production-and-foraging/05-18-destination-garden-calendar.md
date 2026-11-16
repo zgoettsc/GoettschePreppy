@@ -2,7 +2,7 @@
 id: 05-18-destination-garden-calendar
 section: 05-food-production-and-foraging
 title: "Garden calendar for each destination"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: household
 danger_level: none
@@ -10,10 +10,9 @@ phase: [A, C]
 tags: [garden, destination, frost dates, hardiness zone, growing season, fall garden, seed cache, planting calendar]
 derived_from: [05-18-goshen-ozark-garden-calendar, 05-01-small-urban-garden]
 sources:
-  - university-of-arkansas-cooperative-extension-service-6f780b
-  - university-of-arkansas-cooperative-extension-service-c96a64
-  - university-of-arkansas-cooperative-extension-service-857a3c
-  - sdsu-extension-vegetable-gardening-in-south-dakota-p-b8fdbd
+  - university-of-minnesota-extension-planting-the-veget-acacfa
+  - university-of-minnesota-extension-starting-seeds-ind-2449d5
+  - noaa-ncei-normals-1991-2020
   - usda-phzm-2023
 related: [05-01-a-small-high-yield-garden, 05-02-season-extension, 05-03-seed-saving, 05-11-soil-and-compost, 05-12-pollination-and-pests, 05-13-perennials-and-fruit, 05-19-destination-foraging-and-hazards, 01-05-choosing-a-destination, 01-04-phase-c-establish, 25-01-planting-calendar, 19-01-document-grab-kit]
 cards: []
@@ -26,7 +25,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "State-specific Extension citations replaced; calendar row timings aligned with 05-01 (UMN); unsourced 'double the seed' figure made qualitative" }
 ---
 
 # Garden calendar for each destination
@@ -78,8 +77,8 @@ about **{{x.region.precip_in}} inches** of precipitation a year.
 
 | When | What to plant there |
 |---|---|
-| 4 to 12 weeks before {{x.region.last_frost}} | Start tomatoes, peppers, cabbage family indoors: ______________________ |
-| 2 to 4 weeks before {{x.region.last_frost}} | Cool-season crops outside (potatoes, peas, onions, greens, roots): ______________________ |
+| 5 to 15 weeks before transplanting (→ 05-01) | Start onions, cabbage family, peppers, tomatoes indoors: ______________________ |
+| Before {{x.region.last_frost}}, soil 40 to 50 °F | Cool-season crops outside (potatoes, peas, onions, greens, roots): ______________________ |
 | After {{x.region.last_frost}}, nights warm | Warm-season crops (beans, corn, squash, tomatoes, peppers; sweet potatoes in long seasons): ______________________ |
 | Midsummer | Second warm-season planting, if the season allows: ______________________ |
 | Late summer, counting back from {{x.region.first_frost}} | **The fall garden:** cabbage family, greens, roots, fall potatoes in long seasons: ______________________ |
@@ -99,8 +98,8 @@ No destinations are entered. Add them in settings, or plan from the home calenda
 ### What usually changes in a longer, warmer season
 
 - **Plantings per year:** two full gardens, spring and fall, instead of one. Potatoes twice: an
-  early spring planting dug before summer heat, a midsummer planting dug in fall (University of
-  Arkansas Extension, Year-Round Home Garden Planting Chart).
+  early spring planting dug before summer heat, a midsummer planting dug in fall. The
+  destination state's Extension chart gives the dates.
 - **The fall planting is often the better one:** fewer insects, milder finish, greens sweetened
   by light frost.
 - **Overwintering:** spinach, kale, collards and garlic planted in fall feed you through a mild
@@ -110,8 +109,7 @@ No destinations are entered. Add them in settings, or plan from the home calenda
   summer.
 - **Crops worth adding:** sweet potatoes (a top survival calorie crop where the season allows),
   okra, southern peas (cowpeas).
-- **Plan seed for two plantings**, not one: roughly double the amounts of succession crops in that
-  cache.
+- **Plan seed for two plantings**, not one: more of the succession crops in that cache.
 
 ### What usually changes in a wetter climate
 

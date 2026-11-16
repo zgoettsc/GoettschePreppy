@@ -2,7 +2,7 @@
 id: 27-05-fallout-sheltering
 section: 27-cbrn-and-emp
 title: "Fallout: sheltering, time and decontamination"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -12,11 +12,10 @@ derived_from: [27-05-fallout-sheltering]
 sources:
   - us-department-of-health-and-human-services-remm-nucl-652eb0
   - cdc-radiation-emergencies-62e24d
-  - us-epa-radiation-protection-25aa78
   - us-epa-emergency-disinfection-of-drinking-water-6aa91f
   - ready-gov-fema-nuclear-explosion-dac8c3
-  - cdc-pets-and-radiation-emergencies-ed2146
-  - fema-planning-guidance-nuclear-detonation-2022
+  - fema-nuclear-detonation-response-guidance-72-hours-2023
+  - cdc-food-drinking-water-medicine-safety-radiation-2024
 related: [27-04-nuclear-first-hour, 27-06-potassium-iodide, 27-07-chemical-and-biological, 08-01-heating-one-room, 03-02-storing-water, 03-04-purifying-water, 13-01-human-waste-no-plumbing, 20-08-kids-and-fear, 21-04-routine-and-structure, 22-06-kit-medical, 15-01-weather-alerts, 17-06-tornado-shelter, 30-01-the-floors, 30-02-dc01-unvented-heater-overnight, 30-03-dc02-propane-cylinder-indoors]
 cards: [DC-01, DC-02, DC-22]
 explainers: [EX-03, EX-06]
@@ -30,7 +29,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Water claims corrected to CDC (toilet tank and water heater; no pipes, no filter claim); protection factor resourced; pets to Ready.gov; unreadable sources dropped." }
 ---
 
 # Fallout: sheltering, time and decontamination
@@ -51,10 +50,11 @@ pets, what to eat and drink, and when to come out. The first hour is → 27-04.
 1. **Choose the shelter spot** using the guide below, write it down, and photograph it. It may not
    be your tornado spot: a tornado spot is for twenty minutes; a fallout spot is for a day or two
    and needs room for water, a toilet, bedding and heat or cooling (→ 17-06).
-2. **Keep stored, covered water near it** (→ 03-02). **Boiling and chemical disinfection do
-   nothing to radioactive material** (→ 03-04). Covered water stored before the event{{#if has.water_heater_tank}}, then the
-   water heater ({{ dwelling.water_heater_gallons }} gal){{/if}} and the water in the pipes, is the answer
-   (CDC, Radiation Emergencies), not treatment.
+2. **Keep stored, covered water near it** (→ 03-02). CDC: **boiling tap water will not get rid
+   of radioactive material**, and chlorine only kills germs (→ 03-04). Water in sealed containers
+   from before the event{{#if has.water_heater_tank}}, then the water heater
+   ({{ dwelling.water_heater_gallons }} gal){{/if}} and the toilet tank (not the bowl), is the answer,
+   not treatment (CDC, Food, Drinking Water, and Medicine Safety in a Radiation Emergency).
 3. **Put a bucket toilet and cover material there** (→ 13-01). Two days with
    {{ household.size }} people and no plan for waste is its own emergency.
 4. {{#if has.child}}**Put something there for the children** (→ 20-08).{{else}}**Put something there to pass the time**: cards, books (→ 21-02).{{/if}}
@@ -87,10 +87,11 @@ You are being asked to stay put for a day or two with supplies you should have a
 3. **Shielding (mass)**: put heavy material between you and the outside. Earth is best;
    concrete, brick, water and books all work.
 
-**Shelters are measured by protection factor.** A protection factor of 10 means a person inside
-gets one-tenth of the dose they would get outside; higher is better (FEMA, Planning Guidance for
-Response to a Nuclear Detonation). Below ground, and the centre of large brick or concrete
-buildings, score far higher than the ground floor of a small wood-frame house.
+**Shelters are measured by protection factor** (a "dose reduction factor"): a factor of 200 means
+a person in that spot gets 1/200th of the dose of a person out in the open, so a factor of 10
+means one-tenth; higher is better (FEMA, Nuclear Detonation Response Guidance, 2023; HHS REMM).
+Interior spots and below ground score higher, and a brick building beats brick veneer, which
+beats a wood frame (HHS REMM, Nuclear Explosion).
 
 ## The best shelter for your home
 
@@ -164,7 +165,7 @@ REMM; CDC, Radiation Emergencies).
 [ ] BAG IT and put it outside the living space, well away from people.
 [ ] WASH exposed skin and hair with soap and lukewarm water, gently.
     Do NOT scrub skin raw: broken skin lets contamination in.
-    Do NOT use hair conditioner: it binds contamination to hair.
+    Do NOT use hair conditioner (FEMA): it can hold contamination in hair.
 [ ] Blow your nose; wipe eyelids and ears with a clean damp cloth.
 [ ] Put on clean clothing that was stored inside.
 [ ] Wipe down pets that were outside before they come into the shelter space.
@@ -196,7 +197,8 @@ garage, a trailer or a bin outside, away from doors and people.
 than outside contamination can plausibly hurt them. Warm the water first.
 {{/if}}{{/if}}
 
-{{#if has.pets}}**Pets** (CDC, Pets and Radiation Emergencies):
+{{#if has.pets}}**Pets** (Ready.gov: pets come inside too; gently brush the coat, then wash with soap
+and water if you have it):
 ```
 [ ] BRING PETS IN and CONFINE them (crate or small room) as soon as you can.
     An animal that grooms a contaminated coat swallows the contamination.
@@ -213,17 +215,18 @@ than outside contamination can plausibly hurt them. Warm the water first.
 
 ## Food and water in the shelter
 
-- **Water: use stored, covered water** (→ 03-02). Anything sealed from before the event is fine;
-  the water heater and the pipes hold pre-event water too (CDC). **Boiling and chlorine do nothing
-  to radioactive material; a filter removes fallout particles but not what is dissolved**
-  (EPA, Radiation Protection; → 03-04). Treating water is a last resort for settled, filtered
-  water once stored water is gone, not a plan.
-- **Food: sealed, packaged food is fine.** The packaging is what matters. Wipe the outside of a
-  container before opening it.
-- **Do not eat from the garden, collect rainwater or use open water** (→ 03-05) until officials
-  say it is safe.
-- **Local milk and fresh produce** are the usual way contamination enters the food chain;
-  official advisories will cover them.
+- **Water: use stored, covered water** (→ 03-02). CDC: drinks in sealed containers are safe, and
+  water in the toilet tank (not the bowl) or the water heater is free of radioactive material.
+  **Boiling tap water will not get rid of radioactive material** (CDC, Food, Drinking Water, and
+  Medicine Safety in a Radiation Emergency); chlorine only kills germs (→ 03-04). Other water is
+  a last resort once stored water is gone, not a plan.
+- **Food: sealed, packaged food is fine**, and so is food that was in the refrigerator or freezer
+  (CDC). Wipe the outside of a container with a damp cloth before opening it (CDC).{{#if has.pets}}
+  Pet food in sealed containers is safe for the animals (CDC).{{/if}}
+- **Do not pick or eat food from the garden** until officials say it is safe (CDC), and do not
+  collect rainwater or use open water until then (→ 03-05).
+- **Fallout can contaminate soil, food and water** (HHS REMM); official advisories will say what
+  local food is safe.
 
 ## 48 hours in one space: the list
 

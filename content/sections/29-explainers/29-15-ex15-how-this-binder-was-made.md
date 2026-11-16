@@ -2,12 +2,12 @@
 id: 29-15-ex15-how-this-binder-was-made
 section: 29-explainers
 title: "How this binder was made, and what to trust"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: explainer
 danger_level: none
 phase: [A, B, C]
-tags: [about this binder, AI-reviewed, layers, decision cards, floors, sources, Small, Large, profile file, regenerate, private copy, explainer]
+tags: [about this binder, AI-reviewed, layers, decision cards, floors, sources, Small, Large, Everything, profile file, regenerate, private copy, explainer]
 derived_from: []
 sources: []
 related: [00-01-how-to-use-this-binder, 00-05-safety-disclaimer, 00-09-private-copy-notice, 00-10-install-and-charge-discipline, 02-27-a-condition-not-in-the-library, 25-06-source-bibliography, 30-01-the-floors]
@@ -21,14 +21,14 @@ condition: null
 gear: null
 explainer: EX-15
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Small/Large/Everything rewritten to G25 and the app (size.everything, life-safety sections, maps, upgrade); review stamp section matches review.js (kit-build review plus per-binder checks)." }
 ---
 
 # How this binder was made, and what to trust
 
 **What this page is for.** Before you rely on a reference in an emergency, you should know who
 wrote it, how it was checked, and where its limits are. This page explains how
-{{ household.name }}'s binder was put together, what the stamp on every page means, and how to
+this binder was put together, what the stamp on every page means, and how to
 change or rebuild it later.
 
 ## Built in layers
@@ -37,7 +37,7 @@ change or rebuild it later.
 |---|---|---|
 | **Core** | Method and fact that are true everywhere: water, food, fire and fuel, heat, power, first aid, sanitation, tools, communications. Plus these explainers (Section 29) and the decision cards (Section 30) | Written once from a fact-checked family binder, with that family's details removed, then frozen. Every household gets the same text |
 | **Region** | Climate, hazards, plants, trees, weather offices and radio codes for every state and DC (Section 32). Your home base is moved to the front; the rest stays one tap away, because you may have to cross the country | Built from public datasets, not from memory |
-| **Household** | Your people, contacts, meeting places, destinations, house, gear and supply lists | Filled in by the AI from your answers in settings. Every number on these pages traces to something you typed or to a dataset |
+| **Household** | Your people, contacts, meeting places, destinations, house, gear and supply lists | Filled in from your answers in settings; a few paragraphs, such as the story of the route to a destination, are written by the AI from those answers. Every number on these pages traces to something you typed or to a dataset |
 | **Condition library** | Modules for common medical conditions (Section 02). The whole library is in every binder; the ones you ticked are moved to the front | Written once and frozen. No doses are worked out for anyone; published tables are printed as published |
 | **Gear library** | How to read and run common classes of gear (Section 28) | Written once; your models are filled in from your answers |
 
@@ -48,16 +48,19 @@ back.
 ## "AI-reviewed, not human-verified": what the stamp means
 
 Every page carries this stamp. It means exactly what it says. **No doctor, engineer,
-electrician or other professional has checked your copy.** After your binder was generated, an
-AI ran automatic review passes over it:
+electrician or other professional has checked your copy.** Two kinds of automatic check were run
+instead:
 
-- every fill-in slot was checked against your answers;
-- every page was compared with every other, so one rule, one number and one name are used
-  throughout;
-- every number on a page marked critical was traced back to a named source, your answers, or a
-  dataset;
-- the binder was scanned for anything left over from the family whose binder the core came from;
-- the text was checked for plain language.
+- **When the kit was built**, an AI reviewed every page of the shared text once. Every number on
+  a page marked critical or caution was traced to a named source that was read, or the number
+  was corrected or removed. Pages were compared so that one rule, one number and one name are
+  used throughout, and the floors are worded the same everywhere. Anything left over from the
+  family whose binder the core came from was removed, and the text was checked for plain
+  language.
+- **When your binder was generated**, checks ran on your copy: no web address anywhere, nothing
+  left from that family, and every fill-in slot checked against your answers. The pages whose
+  text depends on your answers were then reviewed again by the AI for consistency, numbers,
+  stray names and plain language.
 
 Anything the review could not fix is listed on the **review notes** page. **The known limit:**
 if every public source is wrong in the same way, an AI review will not catch it. Where this
@@ -86,20 +89,28 @@ or permanent injury without warning, such as an engine running indoors or mixing
 ammonia. They are stated as rules with the reason, the same words every time, and no options
 box. → 30-01
 
-## Small and Large
+## Small, Large and Everything
 
-{{#if size.large}}**This is the Large copy.**{{else}}**This is the Small copy.**{{/if}}
+{{#if size.everything}}**This is the Everything copy.**{{else}}{{#if size.large}}**This is the Large copy.**{{else}}**This is the Small copy.**{{/if}}{{/if}}
 
 - **Small** has every page, explainer, card, condition and gear module, the national region
-  appendix and all plant plates. Each citation shows title, publisher and date. It carries only
-  this kit's own text and public-domain material.
-- **Large** is the same, plus the full text of every cited document bound behind the page that
-  cites it, fetched for your household when you downloaded, and topographic maps for your home
-  and route counties. Some publishers refuse automatic fetching: those are listed on the
-  **sources not captured** page with the binder's own summary in their place, so you can save
-  them yourself while the internet works.
-- A Small copy can be upgraded to Large later from your saved profile file, without rewriting
-  the pages.
+  appendix and all plant plates. Each citation shows title, publisher and date; no source
+  document is bound inside. It carries only this kit's own text and public-domain material, and
+  fits on any phone.
+- **Large** is Small plus the full documents cited by the life-safety sections (medical
+  conditions, water, fire and fuel, heating, power, first aid, hazards, kids, CBRN, and the
+  decision cards and floors), each bound behind the page that cites it. It also carries
+  topographic maps for your home county and destinations, and for the counties along your routes
+  if you chose them. Documents cited only by other sections are listed as "in the Everything
+  download". It needs a phone with room to spare.
+- **Everything** is Large plus every other cited document. It is the largest file and is meant
+  for a laptop.
+- In Large and Everything, the documents are fetched for your household when you download. Some
+  publishers refuse automatic fetching: those are listed on the **Sources not captured** page.
+  The page that cites each one still stands on its own text; save the document yourself while
+  the internet works.
+- A Small copy can be upgraded to Large or Everything later from your saved answers file and
+  this binder file, without the pages being written again.
 
 ## Changing it later
 

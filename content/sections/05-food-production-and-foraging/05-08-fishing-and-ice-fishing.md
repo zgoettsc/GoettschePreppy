@@ -2,7 +2,7 @@
 id: 05-08-fishing-and-ice-fishing
 section: 05-food-production-and-foraging
 title: "Fishing and ice fishing"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -15,7 +15,6 @@ sources:
   - foodsafety-gov-usda-hhs-cook-to-a-safe-minimum-inter-13daf3
   - cdc-diphyllobothriasis-broad-fish-tapeworm-raw-and-u-1962fc
   - fda-epa-advice-about-eating-fish
-  - south-dakota-department-of-health-fish-consumption-a-2ccb1f
 related: [05-07-hunting, 05-15-trapping-small-game, 05-19-destination-foraging-and-hazards, 04-05-canning-pressure, 04-07-smoking-and-curing, 04-09-winter-cold-storage, 04-12-fats-and-oils, 04-13-salt-sugar-vinegar, 08-05-hypothermia-frostbite, 12-18-choking-and-cpr, 03-07-testing-water, 17-03-floods, 02-04-cl04-food-allergy, 30-25-dc24-children-and-dangerous-jobs, 14-08-ammunition-sourcing, 19-01-document-grab-kit]
 cards: [DC-24]
 explainers: []
@@ -28,7 +27,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Fish advice rewritten to FDA/EPA (local-catch rule, child servings); ice table row corrected to MN DNR; tapeworm and hypothermia wording re-traced to CDC; state advisory source dropped; unsourced spacing figures removed" }
 ---
 
 # Fishing and ice fishing
@@ -36,11 +35,13 @@ review_pass: null
 **What this page is for.** Why fishing is one of the best food-gathering methods there is, how
 to fish passively, how to keep the catch safe to eat, and how not to die on the ice.
 
-> **SAFETY.** **Ice kills people every winter.** No ice is ever guaranteed safe, and cold-water
-> immersion disables a person within minutes (CDC, Preventing Hypothermia; → 08-05). **Under
+> **SAFETY.** **Ice kills people every winter.** No ice is ever guaranteed safe, and a fall into
+> cold water brings on hypothermia fast, even on a day above 40 °F (CDC, Preventing Hypothermia;
+> → 08-05). **Under
 > 4 inches of new, clear ice, nobody goes out** (Minnesota DNR). **Never eat local freshwater
 > fish raw, lightly pickled or cold-smoked** unless it was first frozen solid at −4 °F for
-> 7 days: it can carry the broad fish tapeworm (CDC). **Cook fish to 145 °F**, or until the
+> 7 days: it can carry the broad fish tapeworm, and salting, smoking or pickling does not kill it
+> (CDC). **Cook fish to 145 °F**, or until the
 > flesh is opaque and flakes apart (FoodSafety.gov).
 
 ## Do this now
@@ -79,7 +80,7 @@ abundant, catchable in numbers and reliable. Trophy fish are not a food plan.
 - **Set line:** a baited hook on a line tied to a stake or the bank, left in place.
 - **Limb line:** the same, tied to an overhanging branch so the branch flexes.
 - **Trotline:** a long main line across the water with short baited lines hanging from it,
-  hooks spaced about 24 inches apart.
+  spaced so the hooks cannot tangle.
 - **Fish trap or weir:** a funnel or fence that lets fish in and makes them hard to leave.
 
 In an emergency, set what feeds you, **check every line daily** (fish spoil and suffer on an
@@ -90,13 +91,16 @@ when there is no warden.
 
 - **After a flood, assume contamination** (→ 17-03). Prefer moving, cleaner water, cook
   thoroughly, and avoid fishing just downstream of towns, sewage outfalls or feedlots (→ 03-07).
-- **Mercury:** long-lived predatory fish (walleye, pike, bass, large catfish and others)
-  build up mercury. FDA and EPA advise **children and anyone pregnant or breastfeeding** to
-  choose fish lower in mercury and to limit the rest (FDA/EPA, Advice about Eating Fish).
-  **Cooking does nothing to mercury.** Panfish are usually lower on the list.
+- **Mercury:** FDA and EPA advise **anyone who is or might become pregnant, anyone
+  breastfeeding, and children aged 1 to 11** to choose fish lower in mercury (FDA/EPA, Advice
+  about Eating Fish). **For fish caught by family or friends: check the local advisory, and if
+  there is none, eat only one serving that week and no other fish.** Larger carp, catfish, trout
+  and perch are more likely to carry advisories. A child's serving is about 1 ounce at age 1 to
+  3, 2 ounces at 4 to 7, 3 ounces at 8 to 10 and 4 ounces at 11 (FDA/EPA). Cooking does not
+  remove mercury.
 - **Your state's advisories** name specific lakes, species and sizes. Write the ones for your
   waters here: ______________________
-{{#if has.young_child}}- This household has a child under 6: favour panfish for children.{{/if}}
+{{#if has.young_child}}- This household has a young child: follow the FDA/EPA advice and child servings above.{{/if}}
 {{#if has.pregnant}}- This household has a pregnant member: follow the FDA/EPA advice above.{{/if}}
 {{#if has.nursing}}- This household has a nursing mother: follow the FDA/EPA advice above.{{/if}}
 
@@ -128,13 +132,15 @@ lakes may not freeze reliably; January lows at home average {{ region.home.jan_l
 | **Under 4 in** | **Stay off** |
 | **4 in** | Walking, ice fishing on foot |
 | 5 to 7 in | Snowmobile or small ATV |
+| 7 to 8 in | Side-by-side ATV |
 | 9 to 10 in | Small car or SUV |
-| 11 to 12 in | Small truck |
+| 11 to 12 in | Medium SUV or small truck |
 | 13 in | Medium truck |
 
-**White, snow-covered or refrozen ice is about half as strong: double every figure.** Check with
-a spud bar (a heavy steel chisel on a pole) or an auger **about every 150 feet** as you go out,
-and again on the way back if the day warmed. Many families never drive onto ice at all. Write
+**White ice (snow that melted and refroze on top) is only about half as strong as new, clear
+ice: double every figure** (Minnesota DNR). Ice can be two feet thick in one place and one inch
+thick a few yards away, so check with a spud bar (a heavy steel chisel on a pole) or an auger
+**again and again** as you go out, and again on the way back if the day warmed. Many families never drive onto ice at all. Write
 yours: vehicles on the ice? ________
 
 {{figure fig-ice-thickness}}

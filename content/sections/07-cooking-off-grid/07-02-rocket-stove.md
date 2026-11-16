@@ -2,7 +2,7 @@
 id: 07-02-rocket-stove
 section: 07-cooking-off-grid
 title: "Rocket stoves, hayboxes and fuel-efficient cooking"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -15,6 +15,7 @@ sources:
   - university-of-missouri-extension-wood-fuel-for-heati-b63761
   - us-fda-bad-bug-book-2nd-ed-phytohaemagglutinin-kidne-bb3b21
   - foodsafety-gov-usda-hhs-cook-to-a-safe-minimum-inter-13daf3
+  - cdc-preventing-food-poisoning
 related: [06-03-firewood-basics, 06-04-wood-supply-and-depletion, 07-01-cooking-on-an-open-fire, 07-03-solar-cooking, 07-04-dutch-oven-and-baking, 07-05-propane-and-camp-stoves, 07-06-electric-kettle-cooking, 07-07-freeze-dried-rehydration, 04-03-bulk-staples-storage, 08-02-carbon-monoxide-safety, 20-02-child-safety-offgrid, 29-03-ex03-carbon-monoxide, 30-01-the-floors, 14-03-opsec]
 cards: []
 explainers: [EX-03]
@@ -26,7 +27,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Kidney-bean steps corrected to FDA Bad Bug Book as published (5 h soak, 30 min boil); haybox holding rule re-sourced to CDC (40-140 F, 2 hours, reheat 165 F); unsourced wood-saving ratio made qualitative" }
 ---
 
 # Rocket stoves, hayboxes and fuel-efficient cooking
@@ -43,8 +44,8 @@ that finishes cooking with no fuel at all, the vacuum flask, and the small habit
 
 ## Do this now
 
-1. **Get or build a rocket stove.** For everyday cooking it uses **roughly half the wood** an
-   open fire does: the biggest fuel saving you can make (→ 06-04).
+1. **Get or build a rocket stove.** For everyday cooking it uses **much less wood** than an
+   open fire: the biggest fuel saving you can make (→ 06-04).
 2. **Feed it small:** twigs, sticks and split scraps, fuel you would not bother putting on a
    fireplace.
 3. **Always put a lid on the pot.** It is the biggest free saving there is.
@@ -64,8 +65,8 @@ A rocket stove is an **insulated L- or J-shaped burn chamber**. Three things hap
    "rocket" roar.
 
 A handful of sticks boils a pot of water. An open fire loses most of its heat to the air. Expect
-**roughly half the wood** of an open fire in practice: a large saving, but not the "ten times"
-that gets repeated. Plan your woodpile on that basis (→ 06-04). With a lid, a windscreen and a
+**a real saving** over an open fire in practice, but not the "ten times" that gets
+repeated. Plan your woodpile on that basis (→ 06-04). With a lid, a windscreen and a
 haybox on top, the saving grows further.
 
 {{figure fig-rocket-stove-cutaway}}
@@ -88,7 +89,7 @@ Every one of these is free and they add up:
 
 ### The haybox: the cheapest trick there is
 
-Bring food to a **full rolling boil and hold it there for at least 10 minutes**, then move the
+Bring food to a **full rolling boil, right through the pot, not just at the edges**, then move the
 covered pot into a heavily insulated box: blankets, straw, crumpled paper, or a cooler stuffed
 with towels. It keeps cooking for hours **with no fuel**. Stews, grains, soups and soaked beans
 finish well this way. **Boil hard, then insulate.** It also keeps food hot for people eating at
@@ -97,16 +98,19 @@ different times.
 {{figure fig-haybox}}
 
 **Two rules the box does not forgive:**
-- **Dry kidney beans, and any red, white, pinto or black bean: soak at least 5 hours, THROW AWAY
-  the soak water, then boil hard for at least 10 minutes (FDA advises 30) BEFORE the box. Never
-  cook dry beans from raw in a haybox or any slow, low-heat method.** Raw or undercooked kidney
-  beans contain a natural toxin (phytohaemagglutinin): **4 or 5 raw beans can cause hours of
-  violent vomiting and diarrhoea**, and slow, low-temperature cooking, which is what a haybox is
-  after the first minutes, can make it **worse** (FDA, Bad Bug Book). Canned beans are already
+- **Dry kidney beans (and other dry beans of the same family: red, white, pinto, black): soak at
+  least 5 hours, THROW AWAY the soak water, then boil in fresh water for at least 30 minutes
+  BEFORE the box (FDA). Never cook dry beans from raw in a haybox or any slow, low-heat method.**
+  Raw or undercooked kidney beans contain a natural toxin (phytohaemagglutinin): **as few as 4 or
+  5 raw beans can cause severe vomiting and diarrhoea** within 1 to 3 hours, and slow cookers,
+  which are what a haybox becomes after the first minutes, do not get hot enough to destroy it
+  (FDA, Bad Bug Book). Canned beans are already
   safe; dry beans from storage (→ 04-03) are not until boiled.
-- **The box must keep food above 140 °F.** Food that has sat in the box **more than about
-  4 hours**, or is no longer too hot to touch, is **boiled again before serving**. An overnight
-  haybox has spent hours in the 40 to 140 °F range where bacteria grow (FoodSafety.gov). It is
+- **The box must keep food hot, above 140 °F.** Bacteria multiply fast in the "danger zone"
+  between 40 and 140 °F (CDC, Preventing Food Poisoning). **Check with a thermometer before
+  serving.** Food still above 140 °F is fine; food that has just dropped below it is **reheated
+  to 165 °F** before serving (CDC); food that has sat below 140 °F for **more than 2 hours** is
+  thrown out (CDC's 2-hour rule). An overnight haybox has spent hours in the danger zone. It is
   not breakfast.
 
 ### The vacuum flask: the haybox's twin

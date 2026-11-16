@@ -2,7 +2,7 @@
 id: 17-01-blizzards-and-ice
 section: 17-weather-and-regional-hazards
 title: "Blizzards, ice storms and winter storms"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: region
 danger_level: critical
@@ -18,6 +18,9 @@ sources:
   - cdc-preventing-hypothermia-c53e0c
   - cdc-winter-weather-before-during-and-after-13bbd5
   - american-red-cross-winter-storm-preparedness-and-bli-4bb6c0
+  - nws-winter-storm-during
+  - nws-hazard-simplification-2017
+  - nws-hazard-simplification-faq
 related: [17-04-extreme-cold-and-heat, 17-08-power-grid-failure, 17-10-reading-the-sky, 17-11-corridor-hazards, 08-01-heating-one-room, 08-02-carbon-monoxide-safety, 08-03-winterizing-the-home, 08-04-emergency-heat-options, 08-05-hypothermia-frostbite, 12-10-hypothermia-cross-ref, 03-05-rain-and-snow-water, 03-06-winter-water, 13-05-winter-sanitation, 06-04-wood-supply-and-depletion, 09-05-solar-in-winter, 11-01-cold-weather-layering, 11-02-keeping-kids-warm, 11-06-boots-and-traction, 15-01-weather-alerts, 22-05-kit-vehicle, 24-04-blackout-weekend, 29-10-ex10-weather-alert-words, 30-01-the-floors, 30-02-dc01-unvented-heater-overnight, 30-21-dc20-open-flame-indoors]
 cards: [DC-01, DC-20]
 explainers: [EX-03, EX-10]
@@ -30,7 +33,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Blizzard criteria to NSSL wording; stranded-vehicle steps to NWS; Blizzard Watch consolidation and Advisory plain-language change noted." }
 ---
 
 # Blizzards, ice storms and winter storms
@@ -86,17 +89,23 @@ copy your office's numbers into the blanks. Your office: **{{ region.home.nws_of
 
 | NWS alert | What it means | What the household does |
 |---|---|---|
-| **Blizzard Warning** | Sustained wind or frequent gusts of 35 mph or more with falling or blowing snow, cutting visibility to a quarter mile or less for 3 hours or more (NSSL, Winter Weather Types) | **Nobody travels.** Lifeline rules in force. Full storm preparation should already be done at the watch |
+| **Blizzard Warning** | Blizzard conditions: wind over 35 mph with snow and blowing snow, cutting visibility to a quarter mile or less for at least 3 hours (NSSL, Winter Weather Types) | **Nobody travels.** Lifeline rules in force. Full storm preparation should already be done at the watch |
 | **Winter Storm Warning** | Heavy snow or sleet, or a mix with big impact. Your office's amount: snow over ______ in | Run the "before" list below; no travel plans for 48 hours |
 | **Ice Storm Warning** | Damaging ice on lines and trees. Your office's amount: ______ in of ice | **Treat it as a power-outage warning** (→ 17-08): charge everything, fill water, stay off roads |
 | **Extreme Cold Warning** | Dangerously cold air temperature or wind chill. Your office's line: ______ °F | Outside only for essential minutes, no bare skin, children stay in, no unnecessary travel |
 | **Cold Weather Advisory** | Cold enough to be dangerous without care. Your office's line: ______ °F | Short, supervised time outside; full layers (→ 11-01) |
 | **Winter Weather Advisory** | Snow, sleet or light ice that makes travel hazardous | Errands early; vehicle kit in the car (→ 22-05) |
 
-> **Old names.** In October 2024 the NWS replaced the Wind Chill Watch, Wind Chill Warning and Wind
-> Chill Advisory with the **Extreme Cold Watch**, **Extreme Cold Warning** and **Cold Weather
-> Advisory**, because cold is dangerous with or without wind (NWS, cold product changes, 2024).
-> An old card or radio that says "wind chill warning" means the same thing.
+> **Old names.** In October 2024 the NWS renamed the Wind Chill Watch, Wind Chill Warning and Wind
+> Chill Advisory to the **Extreme Cold Watch**, **Extreme Cold Warning** and **Cold Weather
+> Advisory** (NWS, cold product changes, 2024). An old card or radio that says "wind chill
+> warning" means the same thing. There is no separate **Blizzard Watch**: since 2017 a possible
+> blizzard comes as a **Winter Storm Watch** (NWS, Hazard Simplification, 2017).
+>
+> **Coming change.** The NWS has announced that it will stop using the word "Advisory" and use
+> plain-language headlines that start with the hazard in capitals (for example "SNOW: hazardous
+> travel"); watches and warnings stay as they are (NWS, Hazard Simplification FAQ). If your alerts
+> read that way, treat them as the advisory rows in this table.
 
 **Wind chill** is how cold it feels on bare skin when wind is added (→ 29-10). The NWS wind chill
 chart shows whether bare skin freezes in 30, 10 or 5 minutes at each temperature and wind speed
@@ -133,18 +142,19 @@ already on the ground can make a whiteout under a clear sky; this is a **ground 
 
 ## Stranded in a vehicle
 
-This kills people in cold regions every winter, and the guidance is specific (NWS, Winter Weather
-Safety; Red Cross, Winter Storm Safety):
+This kills people in cold regions every winter, and the guidance is specific (NWS, What To Do If
+You're Caught in a Winter Storm):
 
 - **Stay with the vehicle.** It is shelter, it is visible, and searchers look for vehicles.
   Walking for help in a whiteout is how people die.
 - **Run the engine about 10 minutes each hour** for heat, and **first make sure the exhaust pipe
   is clear of snow.** A drifted-in tailpipe pushes CO into the cabin; this is a recurring cause of
   death.
-- **Open a downwind window slightly** while the engine runs.
-- **Move arms and legs** to keep blood flowing (→ 11-04).
-- **Be visible:** a bright cloth on the antenna; **raise the hood once the snow stops**; dome
-  light on at night if the battery allows (→ 15-07).
+- **Open a window a little** for fresh air while the engine runs.
+- **Move arms, legs, fingers and toes** now and then to keep blood flowing and stay warm
+  (→ 11-04).
+- **Be visible:** a bright cloth, preferably red, on the antenna or door; **raise the hood once
+  the snow stops**; dome light on at night while the engine runs (→ 15-07).
 - **The vehicle kit is why this works** (→ 22-05): blankets, hats, mittens, hand warmers, food,
   water, a light, a shovel. Stock it before the first storm.
 
@@ -172,8 +182,9 @@ That is an open flame in a closed space, which is a trade-off: {{choice DC-20}} 
   heated room with you, off cold floors and outside walls.
 
 **After:**
-- **Dig out carefully.** Shoveling heavy snow causes heart attacks and back injuries (CDC, Winter
-  Weather). Take breaks; share the work.
+- **Dig out carefully.** The NWS warns that the strain of cold and hard work such as shoveling
+  heavy snow may cause a heart attack; anyone not in good health should avoid it (NWS, What To Do
+  If You're Caught in a Winter Storm). Take breaks; share the work.
 - **Clear the tailpipe before starting any vehicle**, and clear snow from furnace and dryer vents
   outside the house before running them.
 - Sweep snow off solar panels (→ 09-05). Check on neighbours, especially older people living

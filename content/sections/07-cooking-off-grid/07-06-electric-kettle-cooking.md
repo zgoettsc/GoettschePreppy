@@ -2,7 +2,7 @@
 id: 07-06-electric-kettle-cooking
 section: 07-cooking-off-grid
 title: "Electric kettle cooking from stored power"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -23,7 +23,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Kettle figures match Section 09 (135 Wh per litre-boil, x0.85 usable, x0.75 solar; 1,200-1,800 W typical as in 09-01/EX-02); pouch water tied to the label instead of a fixed figure" }
 ---
 
 # Electric kettle cooking from stored power
@@ -45,7 +45,8 @@ takes, and when to stop and move to another method.
    Most kettles draw 1,200 to 1,800 W.
 2. **Medical loads come first.** If anyone depends on a refrigerated medicine, oxygen or CPAP,
    that device's power is never the one spent on the kettle (→ 09-10).
-3. **Boil in full litres, not cupfuls.** One litre is about two freeze-dried pouches (→ 07-07).
+3. **Boil in full litres, not cupfuls.** One litre (about 4 cups) covers two pouches whose labels
+   each ask for 2 cups (→ 07-07).
    Batching is free efficiency.
 4. **Boil in the afternoon, from the day's solar surplus**, not at night from stored charge
    (→ 09-16).
@@ -76,8 +77,8 @@ much energy it uses in total, and how much a battery holds.
   takes roughly 100 Wh of heat (physics: about 1.16 Wh per litre per °C). Add kettle and inverter
   losses and **plan on about 135 Wh out of the battery per one-litre boil**, the figure used across
   Section 09 (→ 09-03).
-- **A freeze-dried pouch** takes about 2 cups (half a litre) of boiling water: roughly half a
-  litre-boil.
+- **A freeze-dried pouch** takes the water on its label; a pouch that asks for 2 cups (about half
+  a litre) is roughly half a litre-boil.
 - **Boils per full charge ≈ station Wh × 0.85 ÷ 135** (the 0.85 allows for the part of the battery
   you cannot use and inverter losses; → 09-03).
 

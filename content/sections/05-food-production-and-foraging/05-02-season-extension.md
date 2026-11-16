@@ -2,7 +2,7 @@
 id: 05-02-season-extension
 section: 05-food-production-and-foraging
 title: "Season extension: row cover, low tunnels and cold frames"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -10,9 +10,8 @@ phase: [A, C]
 tags: [season extension, cold frame, low tunnel, row cover, frost protection, fall garden, overwintering]
 derived_from: [05-02-season-extension]
 sources:
-  - sdsu-extension-vegetable-gardening-in-south-dakota-p-b8fdbd
-  - sdsu-extension-last-spring-frost-dates-1b4cff
-  - sdsu-extension-first-fall-frost-dates-ac0fa0
+  - university-of-minnesota-extension-planting-the-veget-acacfa
+  - uga-extension-low-hoop-houses
 related: [05-01-a-small-high-yield-garden, 05-06-foraging-and-deadly-look-alikes, 05-11-soil-and-compost, 05-12-pollination-and-pests, 05-14-indoor-growing, 04-09-winter-cold-storage, 04-16-sprouting, 08-04-emergency-heat-options, 06-04-wood-supply-and-depletion]
 cards: []
 explainers: []
@@ -25,7 +24,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "state-specific citations replaced (UMN, UGA Extension); unsourced per-method degree figures replaced by the UGA 2-8 F range; overheating example made qualitative" }
 ---
 
 # Season extension: row cover, low tunnels and cold frames
@@ -36,16 +35,17 @@ from about **{{ region.home.last_frost }}** to **{{ region.home.first_frost }}**
 ({{ region.home.growing_days }} days).
 
 > **CAUTION.** Season extension is one of the highest-value garden techniques there is, but
-> covered structures **overheat very fast** on a sunny day, even in early spring: a closed cold
-> frame at 35 °F outside can reach 90 °F inside and cook everything. **Vent it, and
-> put a thermometer in it.**
+> covered structures **overheat very fast** on a sunny day, even in early spring when the air
+> outside is near freezing, and can cook everything inside. Plastic covers must be opened every
+> day to let the heat out (UGA Extension, Low Hoop Houses). **Vent it, and put a thermometer in
+> it.**
 
 ## Do this now
 
 1. **Build or buy one cold frame this season.** It is the cheapest way to add real weeks.
 2. **Put a thermometer inside** every covered structure, and open it on sunny days.
-3. **Plant cool-season crops early**: 2 to 4 weeks before {{ region.home.last_frost }}, in
-   soil as cool as 40 °F (SDSU Extension).
+3. **Plant cool-season crops early**: before {{ region.home.last_frost }}, once the soil is 40 to
+   50 °F (University of Minnesota Extension, Planting the Vegetable Garden).
 4. **Plan a fall planting**, not just a spring one. Fall is usually the easier win.
 5. **Use row cover**: cheap, light, reusable, and it buys several degrees.
 
@@ -63,14 +63,16 @@ from about **{{ region.home.last_frost }}** to **{{ region.home.first_frost }}**
 
 | Method | Frost protection | Cost | Notes |
 |---|---|---|---|
-| **Row cover** | ~2 to 6 °F | Very low | Lay directly on crops; also keeps out pests (→ 05-12) |
-| **Low tunnel** | ~5 to 10 °F | Low | The best value per dollar |
-| **Cold frame** | ~10 °F or more | Low to moderate | Durable; reusable for decades |
+| **Row cover** | A few degrees; heavier fabric gives more (read the label) | Very low | Lay directly on crops; also keeps out pests (→ 05-12) |
+| **Low tunnel** | Typically 2 to 8 °F warmer inside than out (UGA Extension) | Low | The best value per dollar |
+| **Cold frame** | More than a tunnel, with a solid frame and a clear lid | Low to moderate | Durable; reusable for decades |
 | **Cold frame inside a low tunnel** | Substantial | Low | Layering multiplies protection |
 | **Hoop house / greenhouse** | Large | High | A project, not a weekend |
 | **Deep mulch** | Protects roots | Free | Lets carrots and parsnips sit in the ground into winter |
 
-**Layering is the trick.** Row cover inside a low tunnel is much warmer than either alone.
+**Fabric must reach the ground on all sides** to hold in the heat that rises from the soil
+overnight (UGA Extension). **Layering is the trick.** Row cover inside a low tunnel is much
+warmer than either alone.
 That is how gardeners in cold places pick greens in midwinter.
 
 {{figure fig-cold-frame}}

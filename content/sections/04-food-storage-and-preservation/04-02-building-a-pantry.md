@@ -14,8 +14,8 @@ sources:
   - foodsafety-gov-usda-hhs-cook-to-a-safe-minimum-inter-13daf3
   - us-fda-food-allergies-627fb6
   - usda-food-safety-and-inspection-service-fsis-shelf-s-942af8
-related: [04-01-calorie-and-stockpile-math, 04-03-bulk-staples-storage, 04-10-rotation-and-inventory, 04-12-fats-and-oils, 04-13-salt-sugar-vinegar, 04-14-powdered-and-canned-dairy, 04-19-freeze-dried-stockpile, 02-04-cl04-food-allergy, 22-01-master-acquisition-list, 22-04-household-inventory, 29-14-ex14-reading-a-label, 30-19-dc18-unlabeled-food-and-allergies]
-cards: [DC-18]
+related: [04-01-calorie-and-stockpile-math, 04-03-bulk-staples-storage, 04-10-rotation-and-inventory, 04-12-fats-and-oils, 04-13-salt-sugar-vinegar, 04-14-powdered-and-canned-dairy, 04-19-freeze-dried-stockpile, 02-04-cl04-food-allergy, 22-01-master-acquisition-list, 22-04-household-inventory, 29-14-ex14-reading-a-label, 30-19-dc18-unlabeled-food-and-allergies, 30-27-dc26-allergy-safe-food-reserve]
+cards: [DC-18, DC-26]
 explainers: [EX-14]
 promote_when: [experience.new]
 photo_slots:
@@ -151,9 +151,9 @@ Dented, rusted, bulging or leaking cans: → 04-10 and → 04-17.
 
 - **Runway:** see → 04-01. Track the household total and any restricted diet's separate number.
 - **Ration:** eat perishables first, then the working pantry, then bulk staples. Where one
-  person eats a restricted diet, some households keep that person's safe stock as their
-  reserve and have everyone else eat from the general stock first; others share it out. Agree
-  your rule in advance and write it on the allergy plan (→ 02-04).
+  person eats an allergy-safe diet, whether their safe stock is shared by everyone or held as
+  their reserve is a decision card: sharing shortens their runway, reserving means everyone
+  else eats other food first. {{choice DC-26}} → 30-27. Write it on the allergy plan (→ 02-04).
 - **Resupply:** preserving (→ 04-04 to → 04-08) and production (Section 05).
 - **The rotation failure:** the most common way a stockpile fails is quietly expiring while
   unused. A pantry you cook from never has that problem.

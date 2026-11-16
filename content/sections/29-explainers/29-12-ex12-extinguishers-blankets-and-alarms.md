@@ -2,14 +2,14 @@
 id: 29-12-ex12-extinguishers-blankets-and-alarms
 section: 29-explainers
 title: "Fire extinguishers, fire blankets and smoke alarms"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: explainer
 danger_level: caution
 phase: [A, C]
 tags: [fire, extinguisher, PASS, fire classes, fire blanket, smoke alarm, escape plan, explainer]
 derived_from: [12-03-burns, 06-06-fuel-storage-safety, 09-07-battery-chemistry]
-sources: [usfa-choosing-and-using-fire-extinguishers, usfa-smoke-alarms, nfpa-heating-fire-safety-5cb9e6, nfpa-national-fire-protection-association-lithium-io-0c7d64, us-fire-administration-fema-candle-fire-safety-use-f-6eeda1]
+sources: [usfa-choosing-and-using-fire-extinguishers, usfa-smoke-alarms, usfa-heating-fire-safety-r8, usfa-blog-lithium-ion-batteries-2026-r8, us-fire-administration-fema-candle-fire-safety-use-f-6eeda1]
 related: [06-06-fuel-storage-safety, 08-01-heating-one-room, 08-08-wood-heat-operation, 10-02-fuel-lamps-and-candles, 12-03-burns, 26-03-checklist-life-safety, 29-03-ex03-carbon-monoxide, 30-21-dc20-open-flame-indoors]
 cards: [DC-20]
 explainers: [EX-03]
@@ -22,7 +22,7 @@ condition: null
 gear: null
 explainer: EX-12
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "USFA smoke alarm and extinguisher pages re-read (monthly test, yearly battery, 10 years, 1A = 1.25 gal, 10B = 10 sq ft, PASS, who should not use one); 3 ft now cites the USFA heating page read (NFPA page unreadable); sensor-type detail trimmed to what USFA says; lithium fire line now from the USFA page read (NFPA page unreadable)." }
 ---
 
 # Fire extinguishers, fire blankets and alarms, explained from the beginning
@@ -44,8 +44,8 @@ stop fighting and leave.
 - **Test monthly** with the test button. Replace 9-volt batteries yearly; hard-wired alarms need
   their backup battery replaced yearly. **Replace the whole alarm 10 years from the manufacture
   date** printed on it (USFA).
-- **Two kinds of sensor:** ionization (quicker to flaming fires) and photoelectric (quicker to
-  smouldering fires). Because you cannot predict the fire, have both kinds or dual-sensor alarms
+- **Two kinds of sensor:** ionization and photoelectric. They detect different kinds of fire,
+  and you cannot predict which fire you will have, so have both kinds or dual-sensor alarms
   (USFA).
 - **Smoke alarms do not detect carbon monoxide.** A combination alarm does both; otherwise you
   need separate CO alarms. → 29-03
@@ -93,8 +93,9 @@ blanket on it and turn off the heat. A wool blanket can stand in; synthetic blan
 
 - The fire is spreading, or bigger than you can cover with one extinguisher.
 - Smoke is filling the room, or you cannot see the exit.
-- It is a **lithium battery** fire (power station, e-bike, tool pack): it burns fiercely, makes
-  toxic smoke and can re-light. Get out and call for help (NFPA, Lithium-Ion Batteries). → 29-02
+- It is a **lithium battery** fire (power station, e-bike, tool pack): it can throw very hot
+  jets of flame, spreads fast, is hard to put out, and the smoke is toxic. Get out and call for
+  help (USFA, Lithium-Ion Batteries: Everyday Convenience, Hidden Fire Risks). → 29-02
 - Fuel is involved and the fire is near more fuel. → 29-01
 
 **Plan two ways out of every room** and a meeting place outside, and practise it. Close doors
@@ -102,8 +103,8 @@ behind you: a closed door slows fire and smoke.
 
 ## In an outage
 
-Flashlights, not candles (USFA, Candle Fire Safety). Every heater gets 3 feet of clear space
-around it (NFPA, Heating Fire Safety). Open flame indoors is a decision your household makes:
+Flashlights, not candles (USFA, Candle Fire Safety). Keep anything that can burn at least 3 feet from
+every heater, fireplace, stove and candle (USFA, Heating Fire Safety). Open flame indoors is a decision your household makes:
 {{choice DC-20}} → 30-21
 
 ## This household

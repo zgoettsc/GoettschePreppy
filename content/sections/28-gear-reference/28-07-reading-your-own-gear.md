@@ -30,7 +30,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Spot-checked: OSHA NRTL wording, CPSC test-button and replacement-age lines, Generac 3.5 %, Big Buddy 11 in W.C., Renogy -0.28 %/C, Victron 100/30, NIST 15-lb fill." }
 ---
 
 # Reading your own gear: data plates, panel labels, BTU plates, safety marks and dates

@@ -2,7 +2,7 @@
 id: 05-14-indoor-growing
 section: 05-food-production-and-foraging
 title: "Growing indoors: microgreens and seed starting in winter"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -10,9 +10,8 @@ phase: [A, C]
 tags: [indoor growing, microgreens, sprouts, seed starting, grow light, damping off, winter greens]
 derived_from: [05-14-indoor-growing]
 sources:
-  - sdsu-extension-growing-microgreens-at-home-006258
+  - penn-state-extension-growing-microgreens
   - university-of-minnesota-extension-starting-seeds-ind-2449d5
-  - sdsu-extension-the-basics-of-seed-starting-for-flowe-fcfb31
   - university-of-minnesota-extension-fertilizing-and-wa-f6cf48
 related: [05-01-a-small-high-yield-garden, 05-02-season-extension, 05-03-seed-saving, 05-10-container-and-vertical, 05-11-soil-and-compost, 04-16-sprouting, 04-18-meal-planning-scarcity, 08-01-heating-one-room, 09-01-power-priorities, 09-02-solar-basics, 10-01-lighting-options, 02-04-cl04-food-allergy, 21-02-long-haul-morale]
 cards: []
@@ -25,7 +24,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "state-specific citations replaced with Penn State and UMN; microgreen days (7-21) and yield, light hours (12-16) and hardening-off time (about two weeks) corrected to sources" }
 ---
 
 # Growing indoors: microgreens and seed starting in winter
@@ -46,8 +45,8 @@ garden transplants indoors so the outdoor season produces more.
 
 1. **Buy microgreen seed by the pound, not the packet.** Sunflower, pea, radish and broccoli
    seed keep for years cool and dry, and a pound goes a long way.
-2. **Grow one tray this week and eat it.** It takes 7 to 14 days from sowing to harvest: cheap
-   practice.
+2. **Grow one tray this week and eat it.** It takes 7 to 21 days from sowing to harvest (Penn
+   State Extension, Growing Microgreens): cheap practice.
 3. **Find your best south-facing window.** Winter sun through it is weak but free.
 4. **Check seed against your household's food allergies** before you buy (→ 02-04). Soybean and
    sesame are common sprouting seeds and major allergens.
@@ -60,13 +59,13 @@ morale, in midwinter** (→ 04-18).
 
 ### 1. Microgreens: the best return; master this one
 
-Seedlings cut at their first true leaves, 7 to 14 days after sowing. Grown in a shallow tray of
-potting mix, watered gently, cut above the soil with clean scissors (SDSU Extension, Growing
-Microgreens at Home).
+Seedlings cut young, about 1½ to 3 inches tall, 7 to 21 days after sowing. Grown in a shallow
+tray of potting mix, watered from below, cut above the soil with clean scissors (Penn State
+Extension, Growing Microgreens).
 - **Light:** a bright south window is enough for most; more light means less stretching. They
   need far less light than a full-grown plant, which is why this works with the grid down.
-- **Yield:** one 10 × 20-inch tray gives several servings every 10 days or so, from a few
-  tablespoons of seed.
+- **Yield:** a standard 10 × 20-inch tray gave about a third of a pound per crop in Penn State's
+  trials, from about one tablespoon (10 to 15 grams) of seed.
 - **Best crops:** sunflower (most bulk), pea shoots (sweet; children eat them), radish (fast,
   spicy), broccoli, kale, mustard, arugula, beet, cabbage.
 - **Food safety:** wash hands before sowing and harvesting; clean trays and scissors; **cut above
@@ -81,15 +80,16 @@ Every transplant you start indoors in late winter is a plant producing outdoors 
 short-season climates (→ 05-01, your frost-free days: {{ region.home.growing_days }}), tomatoes,
 peppers, cabbage-family crops and onions often **only** make a crop if started indoors.
 - **Light is where people fail.** A window alone usually gives pale, stretched, weak seedlings.
-  If you have any power (→ 09-02), a cheap LED shop light a few inches above the plants for
-  14 to 16 hours a day is one of the best uses of stored power in late winter (University of
-  Minnesota Extension, Starting Seeds Indoors).
+  If you have any power (→ 09-02), a cheap LED shop light 2 to 4 inches above the plants for
+  12 to 16 hours a day, with a dark period each night, is one of the best uses of stored power in
+  late winter (University of Minnesota Extension, Starting Seeds Indoors).
 - **Warm to sprout, cool to grow.** Most seeds want warm soil to sprout, then cooler, brighter
   conditions to grow stocky.
 - **Damping off** (seedlings collapsing at the soil line) is a fungus of overwatered, still,
   dirty conditions. Prevent it with clean containers, fresh sterile mix, watering from below and
   **moving air**.
-- **Harden off** over 7 to 10 days before transplanting: a little more outdoor time each day.
+- **Harden off** over about two weeks before transplanting: a little more outdoor time each day
+  (University of Minnesota Extension).
   Skip it and the first wind or sun kills them.
 
 ### 3. Full-grown food plants indoors: the weakest option

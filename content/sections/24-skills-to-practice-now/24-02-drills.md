@@ -20,7 +20,7 @@ sources:
   - ready-gov-older-adults
   - ready-gov-individuals-with-disabilities
 related: [24-01-skills-checklist, 24-03-seasonal-practice-plan, 24-04-blackout-weekend, 22-03-go-bags-and-kits, 15-03-family-comms-plan, 17-02-tornadoes, 17-06-tornado-shelter, 12-02-bleeding-and-wounds, 20-04-teaching-kids-the-plan, 20-08-kids-and-fear, 08-02-carbon-monoxide-safety, 09-04-generators, 17-10-reading-the-sky, 30-01-the-floors, 30-02-dc01-unvented-heater-overnight, 30-03-dc02-propane-cylinder-indoors, 30-25-dc24-children-and-dangerous-jobs]
-cards: [DC-01, DC-02, DC-24]
+cards: [DC-01, DC-02, DC-24, DC-25]
 explainers: [EX-03, EX-09, EX-12]
 promote_when: [has.child]
 photo_slots:
@@ -189,7 +189,8 @@ These are fast-fade skills (→ 24-01). Run one each quarter.
 
 **4c. Bleeding.**
 - Tourniquet on a limb (a practice device), wound packing on a trainer, and **saying the time
-  aloud and writing it down**. **Never loosen a tourniquet once placed; mark the time.**
+  aloud and writing it down**. **Never loosen a tourniquet once placed while help can still
+  come; mark the time.** If no help will ever come, the conversion decision is DC-25 (→ 30-26).
   (→ 12-02)
 
 **4d. Your household's own condition.**

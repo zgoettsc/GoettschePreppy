@@ -2,7 +2,7 @@
 id: 17-14-wildfire-smoke-and-evacuation
 section: 17-weather-and-regional-hazards
 title: "Wildfire smoke and fire evacuation"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -11,11 +11,12 @@ tags: [wildfire, smoke, air quality, AQI, clean room, N95, box fan filter, evacu
 derived_from: []
 sources:
   - airnow-aqi-basics
-  - epa-wildfire-smoke-guide
   - epa-clean-room-wildfire
   - ready-gov-fema-wildfires-preparedness-and-if-trapped-edecd3
   - noaa-national-weather-service-wildfire-safety-b17a66
-  - cdc-masks-and-respiratory-viruses-prevention-respira-2c187e
+  - fema-nri-counties
+  - epa-reduce-smoke-exposure-factsheet-2026
+  - epa-protect-your-lungs-factsheet-2026
 related: [17-05-grassland-fire, 17-07-drought-and-water-scarcity, 17-11-corridor-hazards, 17-17-landslides-and-debris-flows, 17-04-extreme-cold-and-heat, 01-02-go-no-go-decision, 01-03-phase-b-movement, 01-07-evacuating-with-medical-needs, 02-07-cl07-asthma, 02-08-cl08-copd-and-oxygen, 02-09-cl09-high-blood-pressure-and-heart-disease, 09-01-power-priorities, 19-01-document-grab-kit, 20-09-pets, 22-03-go-bags-and-kits, 29-10-ex10-weather-alert-words, 30-20-dc19-when-to-leave]
 cards: [DC-19]
 explainers: [EX-10]
@@ -28,7 +29,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "NRI note; AQI table to AirNow wording; masks and under-2 to EPA 2026 fact sheets; clean room to EPA." }
 ---
 
 # Wildfire smoke and fire evacuation
@@ -41,13 +42,14 @@ house is on → 17-05.
 {{#if is.wildfire_region}}**Your home county is rated 2 or 3 for wildfire in the region data.**{{else}}Your
 home county is rated lower for wildfire, but smoke travels far; the smoke half of this page applies
 almost everywhere.{{/if}}
+Ratings in this binder are FEMA's National Risk Index for your county, on a 1-to-3 scale: they measure expected harm to people and property there, not how likely the hazard is (→ 29-10).
 
 > **SAFETY.**
 > - **When officials say evacuate, go at once.** Fire can move faster than the warnings. Do not wait
 >   to see the flames.
-> - **Smoke harms children, elders, pregnant people and anyone with heart or lung disease first**
->   (EPA, Wildfire Smoke guide). Act for them at a lower air quality number.
-> - **No mask on a child under 2.** Their protection is clean indoor air and distance.
+> - **Smoke harms children, older adults, pregnant women and anyone with heart or lung disease
+>   first** (EPA, Reduce Your Smoke Exposure). Act for them at a lower air quality number.
+> - **No respirator on a child under 2** (EPA). Their protection is clean indoor air and distance.
 > - **Never run a generator, charcoal, or any engine indoors, in a garage, or near an open
 >   window**, even to power an air cleaner (→ 30-01).
 
@@ -69,11 +71,11 @@ The **Air Quality Index (AQI)** is a 0 to 500 scale for how polluted the air is.
 | AQI | Colour | Category | What it means |
 |---|---|---|---|
 | 0 to 50 | Green | Good | Little or no risk |
-| 51 to 100 | Yellow | Moderate | Acceptable; unusually sensitive people may be affected |
-| 101 to 150 | Orange | Unhealthy for sensitive groups | Children, elders, pregnant people and those with heart or lung disease may be affected |
-| 151 to 200 | Red | Unhealthy | Anyone may be affected; sensitive groups more seriously |
-| 201 to 300 | Purple | Very unhealthy | Health alert: everyone's risk is raised |
-| 301 and up | Maroon | Hazardous | Emergency conditions: everyone is likely affected |
+| 51 to 100 | Yellow | Moderate | Acceptable; some risk for people unusually sensitive to air pollution |
+| 101 to 150 | Orange | Unhealthy for sensitive groups | Sensitive groups (children, older adults, pregnant women, heart or lung disease) may have health effects; the general public less likely |
+| 151 to 200 | Red | Unhealthy | Some of the general public may have health effects; sensitive groups more serious ones |
+| 201 to 300 | Purple | Very unhealthy | Health alert: the risk of health effects is increased for everyone |
+| 301 and up | Maroon | Hazardous | Health warning of emergency conditions: everyone is more likely to be affected |
 
 **Alert words:** an **Air Quality Alert** means the air is or will be unhealthy; a **Dense Smoke
 Advisory** means smoke is cutting visibility; a **Red Flag Warning** means fire weather (→ 17-05,
@@ -89,9 +91,11 @@ normally can, treat the air as unhealthy. If eyes sting and people cough, it is 
   a Clean Room):
   1. **Pick a room** big enough for everyone, ideally with a bathroom, whose door you can keep
      shut.
-  2. **Close its windows and doors.** Use exhaust fans only briefly; they pull smoke in from
-     elsewhere.
-  3. **Keep it cool** with fans or air conditioning set to recirculate.
+  2. **Close its windows and doors**, as long as you can still get out quickly. If the room has an
+     exhaust fan or range hood, use it only briefly: it can pull smoke in from elsewhere in the
+     house.
+  3. **Keep it cool.** If your heating, cooling or window unit has a fresh-air setting, turn it
+     off, close the intake, or set it to recirculate.
   4. **Filter the air** with a portable air cleaner sized for the room, on its highest setting, of
      a type that makes no ozone. **If you have none, a box fan with a furnace filter taped to it**
      is a temporary substitute that EPA describes for when better options are not available.
@@ -109,11 +113,16 @@ can carry (→ 09-01). The generator stays outside, far from the house.
 
 ## Masks
 
-- **A NIOSH-approved N95 (or better) respirator, well fitted,** filters smoke particles. Cloth and
-  surgical masks do little against smoke (EPA, Wildfire Smoke guide).
-- **Fit is most of it:** no gaps at the nose and cheeks; facial hair breaks the seal.
-- **No mask on a child under 2.** Older children can wear a well-fitting child-size respirator,
-  but for them too, clean indoor air and distance come first.
+- **A NIOSH-approved N95 or P100 respirator, well fitted,** significantly reduces the smoke you
+  breathe. Choose one with two head straps, not ear loops. Do not rely on dust masks or bandanas
+  (EPA, Protect Your Lungs From Wildfire Smoke and Ash; EPA, Reduce Your Smoke Exposure).
+- **Fit is most of it:** no gaps at the nose and cheeks; a good seal is not possible with facial
+  hair (EPA).
+- **No respirator on a child under 2** (EPA). Respirators do not come in children's sizes; some
+  older children can use an adult small one if it fits and they will keep it on. For them too,
+  clean indoor air and distance come first.
+- **Ask a doctor first** if you have heart or lung disease or are pregnant: a respirator makes
+  breathing harder, and in heat it raises the risk of heat illness (EPA).
 - A mask helps when you must be outside; it is not a reason to stay out longer.
 
 ## Who needs protecting first
@@ -140,7 +149,8 @@ air shelter, a town upwind) is the next step. Leave before people are struggling
 leave now; leave already if you need extra time, have animals, or have someone who moves slowly),
 and **go** (leave now). Names differ by place. Your area's words: ______________.
 
-**When you get the order, go.** Before you leave, if there is time (Ready.gov, Wildfires):
+**When you get the order, go**, and do not return until officials say it is safe (Ready.gov,
+Wildfires). Before you leave, if there is time:
 - **Medicines and devices first**, then documents, bags, phones, chargers (→ 01-07, → 19-01).
 - **People who move slowly leave first.** Children into car seats and pets into carriers take
   time; start them first (→ 20-09).

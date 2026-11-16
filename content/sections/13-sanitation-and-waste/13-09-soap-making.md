@@ -2,14 +2,14 @@
 id: 13-09-soap-making
 section: 13-sanitation-and-waste
 title: "Making soap from ash and fat"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
 phase: [A, C]
 tags: [soap, lye, wood ash, tallow, rendering fat, saponification, caustic]
 derived_from: [13-09-soap-making]
-sources: [cdc-about-handwashing-when-and-how-to-wash-your-hand-14c15a, cdc-about-hygiene-handwashing-and-infection-preventi-61142e, cdc-guidelines-for-personal-hygiene-during-an-emerge-ddfe8d, cdc-when-and-how-to-clean-and-disinfect-your-home-880947]
+sources: [cdc-about-handwashing-when-and-how-to-wash-your-hand-14c15a, cdc-about-hygiene-handwashing-and-infection-preventi-61142e, cdc-guidelines-for-personal-hygiene-during-an-emerge-ddfe8d, cdc-when-and-how-to-clean-and-disinfect-your-home-880947, cdc-atsdr-medical-management-guidelines-for-sodium-hydroxide]
 related: [13-02-hygiene-and-handwashing, 13-04-laundry-by-hand, 13-10-dishwashing-and-food-hygiene, 04-12-fats-and-oils, 05-09-field-dressing-and-butchering, 05-16-processing-poultry, 06-02-sustaining-fire, 06-04-wood-supply-and-depletion, 06-06-fuel-storage-safety, 10-04-candles-and-oil, 12-02-bleeding-and-wounds, 12-03-burns, 12-05-common-illness-and-dehydration, 12-17-poisoning-and-ingestion, 18-02-barter-and-trade-goods, 18-03-skills-as-currency, 20-02-child-safety-offgrid, 24-01-skills-checklist, 02-04-cl04-food-allergy]
 cards: []
 explainers: []
@@ -21,7 +21,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Lye heat and metal-reaction facts sourced to ATSDR sodium hydroxide; child-access floor reworded as 30-01." }
 ---
 
 # Making soap from ash and fat
@@ -36,8 +36,9 @@ bought lye) and animal fat, so that a household can keep making it once the shop
 >
 > **Always: eye protection (goggles, not glasses), gloves, long sleeves, outdoors or with real
 > ventilation, and always add LYE TO WATER, never water to lye.** Keep plenty of clean water
-> within reach. **Children and pets nowhere near it** (→ 20-02). **Floor:** children do not have
-> access to dangerous chemicals; store lye like fuel and chlorine, locked and labeled (→ 30-01).
+> within reach. **Children and pets nowhere near it** (→ 20-02). **Floor:** Children do not have
+> access to firearms, fuel, medications or chlorine products (→ 30-01). Store lye the same way:
+> locked and labeled.
 >
 > **This page gives no recipe and no ratios**, because lye made from ash has an **unknown and
 > changing strength**, which is exactly what makes traditional soap-making unpredictable and
@@ -125,13 +126,16 @@ fat that is no longer good food, → 04-12).
 2. **Chemical-resistant gloves and long sleeves.**
 3. **Outdoors or with real ventilation.** Lye and water give off fumes.
 4. **Always add lye to water, never water to lye.** The reverse can boil violently.
-5. **The mixture gets very hot.** Use heat-proof containers.
-6. **Never aluminum.** Lye reacts with aluminum and gives off hydrogen, a flammable gas. Use
+5. **The mixture gets very hot:** lye dissolving in water gives off a great deal of heat (CDC/
+   ATSDR, Medical Management Guidelines for Sodium Hydroxide). Use heat-proof containers.
+6. **Never aluminum.** Lye reacts with aluminum, tin and zinc and corrodes most metals (ATSDR);
+   with aluminum it gives off hydrogen, a flammable gas. Use
    stainless steel, heavy plastic, or glass (lye slowly etches and weakens glass).
 7. **Equipment kept only for soap**, never anything that touches food. {{#if has.condition.CL-04}}Never
    the allergy-safe cookware (→ 02-04).{{/if}} Label everything.
 8. **Plenty of clean water within reach.** For a splash on skin, **flush with lots of water at
-   once, and for a long time.** An eye splash is a medical emergency: flush and keep flushing
+   once, and for a long time** (ATSDR). An eye splash is a medical emergency: lye can burn the
+   eye badly, and ATSDR warns the damage may not be clear for days. Flush and keep flushing
    (→ 12-03). If anyone swallows lye, call Poison Control (→ 12-17).
 9. **Children and pets nowhere near it:** the process and the curing soap.
 10. **Fresh soap is caustic and must cure for weeks before use.** Do not rush it, and test it

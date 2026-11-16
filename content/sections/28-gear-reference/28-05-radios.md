@@ -2,7 +2,7 @@
 id: 28-05-radios
 section: 28-gear-reference
 title: "Two-way and weather radios: what the specs mean, and common models"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: gear
 danger_level: none
@@ -31,7 +31,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "47 CFR 95.567/1767/967/2767/1705 re-read; 5 of 8 model rows re-read (BaoFeng UV-5R corrected to the 4 W/1 W the maker page now gives); range line now points to EX-09 instead of a second figure." }
 ---
 
 # Two-way and weather radios: what the specs mean, and common models
@@ -49,18 +49,19 @@ for and how far it really reaches: → 29-09 and → 15-02. Family channel plan:
    Weather Radio**. Radios on the same service talk to each other; across services, mostly not.
    FRS and GMRS share channel numbers 1 to 22, so FRS and GMRS radios can talk.
 2. **Transmit power, in watts.** The federal limits are fixed by service: FRS up to 2 W on
-   channels 1–7 and 15–22 and 0.5 W on 8–14; GMRS up to 5 W handheld on 1–7, 0.5 W on 8–14, and
-   up to 50 W from a mobile or base on the main channels; CB 4 W AM or FM, 12 W single-sideband;
+   channels 1–7 and 15–22 and 0.5 W on 8–14; GMRS up to 5 W on 1–7, 0.5 W (handhelds only) on
+   8–14, and up to 50 W from a mobile, base or repeater on the main channels 15–22; CB 4 W AM or FM, 12 W single-sideband;
    MURS 2 W (47 CFR Part 95). More watts helps a little. **Antenna height helps far more**
    (→ 15-06).
 3. **Range claims.** "Up to 30 miles" or "35 miles" on a box is mountain-top to valley in ideal
-   conditions; makers say so in the small print. Plan on a mile or two between handhelds in town
-   (→ 29-09).
+   conditions; makers say so in the small print. Plan on the everyday ranges on → 29-09, and
+   test your own (→ 15-06).
 4. **Licence (before the collapse).** See the box below.
 5. **NOAA weather and SAME alert.** Many two-way radios can listen to the seven NOAA weather
    channels. A **SAME** radio sounds an alarm only for the counties you program (→ 15-01,
-   → 29-10). {{#each region.home.nwr as t}}Our nearest transmitter: {{t.call}} on {{t.freq}} MHz,
-   SAME code {{t.same}}. {{/each}}
+   → 29-10). Transmitters near our home, from the region appendix:
+   {{#each region.home.nwr as t}}{{t.call}} on {{t.freq}} MHz (SAME code {{t.same}}).
+   {{else}}none listed for our county; see → 15-01.{{/each}}
 6. **Power source.** Radios that also take ordinary AA or AAA cells keep working when the
    rechargeable pack is flat and you have no way to charge it. Mobiles run from 12 V.
 7. **Repeater capable and removable antenna.** GMRS radios that work through a repeater (a relay
@@ -86,7 +87,7 @@ for and how far it really reaches: → 29-09 and → 15-02. Family channel plan:
 | Midland GXT1000VP4 | GMRS handheld (drops to FRS power on 8–14) | See label | GMRS licence required (Midland) | Weather alert and scan | Rechargeable packs; desktop, AC and DC chargers | 50 channels | Midland, GXT1000VP4 page |
 | Midland MXT275 | GMRS mobile ("MicroMobile") | 15 W | GMRS licence | Weather scan and alert | 12 V vehicle power cord | 15 high-power channels; 8 repeater channels; external magnetic antenna | Midland, MXT275 page |
 | BTECH GMRS-V2 | GMRS handheld, repeater compatible | 0.5 W / 5 W; low power only on 8–14 | GMRS licence (47 CFR 95.1705) | NOAA receiver and scan | 7.4 V Li-ion pack, USB-C charging | 200 programmable channels; IP54 splash resistant; −4 to 140 °F | BTECH, GMRS-V2 page |
-| BaoFeng UV-5R | Amateur dual-band (136–174 and 400–520 MHz) | 5 W / 1 W (first-generation page text says 4 W / 1 W) | Amateur licence; "legal for use on amateur frequencies" (maker) | Not stated | 7.4 V 1,500 mAh Li-ion pack | 128 channels; also receives FM broadcast | BaoFeng Tech, UV-5R page |
+| BaoFeng UV-5R | Amateur dual-band (136–174 and 400–520 MHz) | 4 W / 1 W (maker's page) | Amateur licence; "legal for use on amateur frequencies" (maker) | Not stated | 7.4 V 1,500 mAh Li-ion pack | 128 channels; also receives FM broadcast | BaoFeng Tech, UV-5R page |
 | Cobra 29 LTD | CB, 40 channels, AM/FM | 4 W | See box above and → 15-05 | Not stated | Vehicle power; volts: see label | No single-sideband | Cobra, 29 LTD page |
 | Uniden PRO520XL | CB, 40 channels | 4 W | See box above and → 15-05 | Not stated | See label | Emergency channel 9 key; PA function | Uniden, PRO520XL page |
 | Midland WR120B | NOAA Weather Radio, receive only | Does not transmit | None | SAME; 25 programmable locations; 90 dB siren | AC adapter, 3 AA backup | Midland's page gives both 60 and 85+ alert types | Midland, WR120B page |

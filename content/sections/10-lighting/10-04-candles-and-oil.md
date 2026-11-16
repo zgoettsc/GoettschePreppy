@@ -2,7 +2,7 @@
 id: 10-04-candles-and-oil
 section: 10-lighting
 title: "Making candles and oil lamps"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -16,6 +16,8 @@ sources:
   - foodsafety-gov-usda-hhs-cook-to-a-safe-minimum-inter-13daf3
   - cdc-carbon-monoxide-poisoning-basics-772153
   - usfa-choosing-and-using-fire-extinguishers
+  - niosh-npg-paraffin-wax-fume-r3
+  - medlineplus-us-national-library-of-medicine-nih-pois-665b85
 related:
   - 02-04-cl04-food-allergy
   - 04-12-fats-and-oils
@@ -43,7 +45,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "C06 item: wax and fat temperatures now sourced (NIOSH NPG paraffin: melt 115-154 F, flash 390 F) or removed (pour/ceiling/tallow smoke point); wick lengths made a method; vomiting wording aligned with MedlinePlus." }
 ---
 
 # Making candles and oil lamps
@@ -65,8 +67,9 @@ safely. Making them is more dangerous than burning them.
 >    household decision: {{choice DC-20}} → 30-21.
 > 3. **Bought lamp oil or kerosene in any of these lamps is a poison in the room.** Cooking oil and
 >    tallow are food; lamp oil and kerosene are thin fuels a child can breathe into the lungs with
->    one swallow. **Do not make the child vomit**: that causes the lung injury. **Call Poison
->    Control, 1-800-222-1222**; with no phone, → 12-17 (CDC MMWR; Poison Control).
+>    one swallow. **Do not make the child vomit**: vomiting can carry more into the lungs. **Call
+>    Poison Control, 1-800-222-1222**; with no phone, → 12-17 (CDC MMWR; MedlinePlus, Poisoning
+>    first aid).
 > 4. **Children do not have access to firearms, fuel, medications or chlorine products.** Fixed in
 >    every source. Children stay out of the kitchen while fat is hot.
 
@@ -116,13 +119,12 @@ kitchen.**
 ## Making candles
 
 1. **Melt wax or tallow in a double boiler**: a can or jar standing in a pot of simmering water.
-   **Never direct heat.** The water bath cannot get hotter than boiling, 212 °F (100 °C), and that
-   is what makes it safe. **Typical figures:** paraffin and tallow melt at about 120 to 150 °F (50
-   to 65 °C); **pour at about 175 °F (80 °C)**; never let the melt pass about 200 °F (95 °C).
-   Paraffin can catch fire at roughly 390 to 465 °F (200 to 240 °C), and tallow smokes at about
-   390 °F (200 °C): temperatures a pot on direct heat reaches in minutes and a water bath never
-   can. These are typical material values; your wax may differ, so stay low. **Smoke means you are
-   already too hot: turn off the heat.**
+   **Never direct heat.** The water bath cannot get hotter than boiling, 212 °F (100 °C) at sea
+   level, and that is what makes it safe. Paraffin melts at about 115 to 154 °F, and its **flash
+   point**, where its vapour can catch fire, is about 390 °F (NIOSH Pocket Guide, Paraffin wax
+   fume): a pot on direct heat can get there, a water bath cannot. Tallow and other fats also
+   smoke and then catch fire when overheated. Melt only until it is liquid and pour soon after;
+   your wax may differ, so stay low. **Smoke means you are already too hot: turn off the heat.**
 2. **Prepare the wick.** Cotton string, ideally dipped in melted wax and pulled straight first (a
    "primed" wick burns better). **Wick size matters most:** too thin and the candle drowns in its
    own melted wax; too thick and it smokes and burns fast. **Expect to experiment**: start with
@@ -132,8 +134,8 @@ kitchen.**
 4. **Pour slowly** into the jar or mould. Too hot and it shrinks and cracks; too cool and it does
    not fill.
 5. **Cool slowly, undisturbed.** A dip usually forms around the wick; top it up with a second pour.
-6. **Trim the wick to about 1/4 inch** before lighting. A long wick is the main cause of smoking,
-   sooty candles.
+6. **Trim the wick short** before lighting. A long wick is the main cause of smoking, sooty
+   candles.
 
 {{figure fig-double-boiler}}
 
@@ -152,7 +154,8 @@ Faster, cheaper and safer, and it uses liquid oil or fat directly.
 1. A wide-mouth jar, half to two-thirds full of oil or melted fat.
 2. A **float** to hold the wick upright: a bottle cap, or a disc of cork or metal with a hole
    punched through, floating on the oil, the wick threaded through it.
-3. **Only about 1/8 inch of wick above the float.** More smokes badly.
+3. **Only a short stub of wick above the float**, just enough for a small flame. More smokes
+   badly.
 4. Light it. The float keeps the flame at the surface as the oil drops; it burns until the oil is
    gone and then goes out.
 
@@ -186,7 +189,7 @@ are working rather than one in the middle of the room, and keep it close to the 
 | Wide-mouth canning jars (many) | Candle jars, lamp bodies, everything else | Buy in quantity |
 | **Cotton** wick material: butcher's twine, string, rag | The consumable in every candle and lamp | **Never synthetic** |
 | A melting pot or large can, and a pot for the water bath | The double boiler is the safety mechanism | Kept apart from food cookware |
-| Candy or fat thermometer | Keeps you well below the smoke point | Pour at about 175 °F; never over about 200 °F |
+| Candy or fat thermometer | Keeps you well below the smoke and flash points | Paraffin melts by about 154 °F; its flash point is about 390 °F (NIOSH) |
 | Fire extinguisher, metal lid, fire blanket | Hot-fat fire: **never water** | Within reach before you start (→ 29-12) |
 | Fine strainer and cloth | Clean tallow burns cleaner | Strain twice |
 | Washers, nuts or bottle caps | Wick anchors and floats | Easy to improvise |
@@ -211,7 +214,7 @@ are working rather than one in the middle of the room, and keep it close to the 
   with the fire you are already burning.** List fat on the master consumables table (→ 23-02) as
   one resource shared between food, cooking, soap and light.
 - **How long it lasts:** a small jar lamp burns for many hours on a modest amount of oil; a jar
-  candle runs for tens of hours. Still a countdown unless you are producing fat.
+  candle runs for many hours too. Still a countdown unless you are producing fat.
 - **Resupply:** animals you butcher (→ 05-09, → 05-16), cooking fat saved instead of thrown out, and
   beeswax if you keep bees. **Beekeeping is one of the few truly renewable light sources**, and it
   gives food and pollination too (→ 05-12).

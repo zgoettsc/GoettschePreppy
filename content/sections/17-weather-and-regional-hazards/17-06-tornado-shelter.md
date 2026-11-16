@@ -2,7 +2,7 @@
 id: 17-06-tornado-shelter
 section: 17-weather-and-regional-hazards
 title: "Preparing a storm shelter spot"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: region
 danger_level: critical
@@ -28,7 +28,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Debris claim to SPC; fallout-room heater sentence aligned with DC-01 instead of a stated rule." }
 ---
 
 # Preparing a storm shelter spot
@@ -104,7 +104,7 @@ The goal: **you can go down with nothing in your hands and still be equipped.**
 
 | What | Items |
 |---|---|
-| **Heads** | **A helmet for everyone** (bike helmets are fine). Debris head injury is the main injury |
+| **Heads** | **A helmet for everyone** (bike helmets are fine). SPC: flying debris is the greatest danger in tornadoes |
 | **Feet** | **Shoes for everyone**, children included: the aftermath is glass and nails (→ 12-02) |
 | **Light** | Two or three headlamps or flashlights, spare batteries, a lantern, a chemical light stick (no battery to go flat) |
 | **Warning** | **A second battery or crank NOAA Weather Radio** (→ 15-01) |
@@ -174,8 +174,9 @@ That is why the spot holds water, food, medicine, papers, shoes and a pry bar.
 ## A tornado spot is not a fallout room
 
 The spot is chosen for minutes. Sheltering for a day or two from fallout (→ 27-05) needs space,
-heat, air and sanitation, and **no heater may run in a small room with a gas appliance or no
-air**. Choose the fallout room separately on → 27-05; the tornado stock can be its supply.
+heat, air and sanitation, and any fuel-burning heater there needs its fresh-air openings kept open
+(→ 08-01; a heater running while people sleep is card DC-01, → 30-02). Choose the fallout room
+separately on → 27-05; the tornado stock can be its supply.
 
 ## Gear
 

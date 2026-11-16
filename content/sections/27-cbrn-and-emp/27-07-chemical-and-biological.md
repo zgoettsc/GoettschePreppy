@@ -2,7 +2,7 @@
 id: 27-07-chemical-and-biological
 section: 27-cbrn-and-emp
 title: "Chemical and biological release"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -14,6 +14,8 @@ sources:
   - cdc-atsdr-medical-management-guidelines-for-ammonia-cb84b8
   - cdc-atsdr-medical-management-guidelines-for-chlorine-8adec0
   - fema-ready-gov-shelter-8572d8
+  - ready-gov-hazardous-materials-incidents
+  - fema-faq-shelter-in-place-room-duration
   - cdc-when-and-how-to-clean-and-disinfect-your-home-880947
   - cdc-about-handwashing-when-and-how-to-wash-your-hand-14c15a
   - noaa-national-weather-service-noaa-weather-radio-all-5f13d8
@@ -29,7 +31,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "10 sq ft per person sourced to FEMA FAQ; crosswind advice replaced by Ready.gov upwind; ATSDR ammonia/chlorine wording aligned; plastic cut margin per Ready.gov." }
 ---
 
 # Chemical and biological release
@@ -67,7 +69,8 @@ and → 13-11. This page is mostly about the chemical half.
 
 ## Chemical: shelter in place, properly
 
-The cloud passes. Your job is to be inside and sealed while it does (FEMA/Ready.gov, Shelter).
+The cloud passes. Your job is to be inside and sealed while it does (FEMA/Ready.gov, Shelter;
+Ready.gov, Hazardous Materials Incidents).
 
 {{figure fig-up-for-vapour-down-for-fallout}}
 
@@ -75,9 +78,10 @@ The cloud passes. Your job is to be inside and sealed while it does (FEMA/Ready.
 [ ] GET INSIDE. Bring everyone and the pets in. Close all doors and windows.
 [ ] SHUT OFF anything that moves outside air in: furnace and air-conditioning
     fans, bathroom and kitchen exhaust fans, fireplace dampers, the dryer.
-[ ] GO UP, NOT DOWN. Many chemical vapours are heavier than air, so a basement
-    is the WRONG place here: the opposite of the fallout answer (27-05).
-    Choose an interior room, upstairs if you have one, with few windows.
+[ ] GO UP, NOT DOWN. Ready.gov: an above-ground room with as few openings as
+    possible. Some chemical gases, chlorine among them, are heavier than air
+    and collect low (ATSDR), so a basement is the WRONG place here: the
+    opposite of the fallout answer (27-05).
 [ ] SEAL that room: plastic sheeting and tape over windows, vents and the gaps
     round the door. A wet towel along the bottom of the door helps.
 [ ] TAKE IN: water, the medical kit (22-06), phones, a battery radio, and
@@ -98,8 +102,10 @@ advise it){{/if}}
 
 ### The sealed room, by the numbers
 
-- **Room size: about 10 square feet of floor space per person** (FEMA/Ready.gov, Shelter): enough
-  air to keep carbon dioxide from building up for the few hours a cloud takes to pass. For
+- **Room size: about 10 square feet of floor space per person.** FEMA: that gives enough air to
+  prevent carbon dioxide build-up for up to 5 hours, assuming a normal breathing rate while
+  resting, and many chemical releases would be diluted within a few hours (FEMA, How long to
+  remain in a shelter-in-place room?). For
   {{ household.size }} people{{#if has.pets}} and the pets{{/if}}, most normal bedrooms clear that
   bar; pick the room for its position (interior, upstairs, few windows), not its size.
 - **It is temporary.** A taped room with people breathing in it goes stale in **hours**. You seal,
@@ -110,10 +116,11 @@ advise it){{/if}}
   passed. Do not let a taped window outrank the people inside.
 
 **Pre-cut the plastic now, to the room's actual openings.** Cutting sheeting during a release
-wastes the minutes that matter. Measure once, cut oversize (about 6 inches extra on every side so
-the tape lands on wall, not frame), label each piece, and write the sizes here:
+wastes the minutes that matter. Ready.gov: cut the plastic several inches wider than the openings,
+label each sheet, and tape the corners first, then all the edges (Ready.gov, Shelter). Write the
+sizes here:
 
-| Opening | Width | Height | Cut size (about 6 in extra per side) | Piece labelled? |
+| Opening | Width | Height | Cut size (several inches extra per side) | Piece labelled? |
 |---|---|---|---|---|
 | Window 1 | ____ | ____ | ____ | [ ] |
 | Window 2 | ____ | ____ | ____ | [ ] |
@@ -157,13 +164,13 @@ for Ammonia; for Chlorine):
 
 | Chemical | Where it comes from | What you would notice | Where the cloud goes (ATSDR) | The trap |
 |---|---|---|---|---|
-| **Anhydrous ammonia** | Rail, and farm supply stores and field tanks in farming areas{{#if is.rural}} (likely near you){{/if}} | Sharp, choking smell; a **white cloud** | The gas is **lighter than air and eventually rises and disperses**, **but** a release of the cold, compressed liquid makes a dense cloud that **hugs the ground at first** | Do not read "lighter than air" as "safe low down". The early cloud, the dangerous one, behaves heavy. Treat it as ground-hugging until it visibly lifts |
-| **Chlorine** | Rail (water treatment and industry) | **Yellow-green gas**; strong bleach-like, irritating smell | **Heavier than air**: settles and pools in **low areas** and stays there | **A basement is the worst room in a chlorine release.** This is the down-for-fallout, up-for-vapour reversal at its sharpest |
+| **Anhydrous ammonia** | Rail, and farm supply stores and field tanks in farming areas{{#if is.rural}} (likely near you){{/if}} | Sharp, choking, suffocating smell; you may see a cloud | ATSDR: the gas is **lighter than air and will rise**, **but** vapour from the liquefied gas is **at first heavier than air and may spread along the ground** | Do not read "lighter than air" as "safe low down". The early cloud, the dangerous one, behaves heavy. Treat it as ground-hugging until it visibly lifts |
+| **Chlorine** | Rail (water treatment and industry) | **Yellow-green gas**; sharp, irritating smell, like strong bleach | ATSDR: **heavier than air** and **may collect in low-lying areas** | **A basement is the worst room in a chlorine release.** This is the down-for-fallout, up-for-vapour reversal at its sharpest |
 
 **You will not identify the chemical in time, and you do not need to.** Caught outside near a
-visible cloud or a choking smell: **move crosswind first** (at a right angle to the wind, out of
-the cloud's path; not upwind into it and never downwind along it), **then get inside, seal,
-listen** (→ 15-01). Both chemicals above, and everything else on a rail car, are answered by the
+visible cloud or a choking smell: **move away at once, in a direction upwind of the source**
+(Ready.gov, Hazardous Materials Incidents), never through the cloud and never downwind along it,
+**then get inside, seal, listen** (→ 15-01). Both chemicals above, and everything else on a rail car, are answered by the
 same sealed upstairs room.
 
 ## Biological: read → 17-09, not this page

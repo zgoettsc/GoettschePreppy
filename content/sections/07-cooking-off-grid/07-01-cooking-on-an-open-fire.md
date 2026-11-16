@@ -2,7 +2,7 @@
 id: 07-01-cooking-on-an-open-fire
 section: 07-cooking-off-grid
 title: "Cooking on an open fire: fire pit, outdoor fireplace or hearth"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -26,7 +26,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "FoodSafety.gov temperatures re-read (venison and rabbit 160 F added); unsourced burn-down time and rocket-stove wood ratio made qualitative; CO floor and DC-20/DC-21 references consistent" }
 ---
 
 # Cooking on an open fire: fire pit, outdoor fireplace or hearth
@@ -47,8 +47,9 @@ how to keep allergens and children away from the fire.
 
 1. **Cook over coals, not flames.** Flames scorch the outside and leave the middle raw. Burn down
    to a deep bed of glowing coals first; that is the cooking surface.
-2. **Use a thermometer:** **165 °F for all poultry, 160 °F for ground meat, 145 °F for whole cuts
-   of beef, pork, lamb and veal with a 3-minute rest** (FoodSafety.gov).
+2. **Use a thermometer:** **165 °F for all poultry, 160 °F for ground meat and for venison and
+   rabbit, 145 °F for whole cuts of beef, pork, lamb and veal with a 3-minute rest**
+   (FoodSafety.gov).
 3. **Make every fire do several jobs:** cook the meal, boil water (→ 03-04), heat wash water, dry
    boots. Never light a fire for one job (→ 06-04).
 4. **Mark a child line** around the fire and enforce it every time (→ 20-02).
@@ -64,7 +65,7 @@ A wood fire has three useful stages:
 2. **Coals:** steady, controllable heat. **This is where you cook.**
 3. **Embers and ash:** dying heat for simmering, keeping food warm and banking the fire (→ 06-02).
 
-Build the fire, let it burn down for 20 to 45 minutes to a glowing bed, then rake the coals into
+Build the fire, let it burn down until the flames die back to a glowing bed, then rake the coals into
 zones. Burn only dry, seasoned, untreated wood; wet wood smokes and gives little heat (EPA, Burn
 Wise; → 06-03).
 
@@ -126,7 +127,8 @@ household has a wood stove.{{/if}}
 ### Food safety without a fridge
 
 - **Use a thermometer.** Appearance and colour do not reliably show doneness (FoodSafety.gov).
-- **Poultry 165 °F. Ground meat 160 °F. Whole cuts 145 °F plus a 3-minute rest.**
+- **Poultry 165 °F. Ground meat, venison and rabbit 160 °F. Whole cuts of beef, pork, lamb and
+  veal 145 °F plus a 3-minute rest. Fish 145 °F** (FoodSafety.gov).
 - **Never partly cook food to finish later.** That is how you grow bacteria.
 - **Cool leftovers fast.** In winter, use the cold as a refrigerator (→ 04-09), with a
   thermometer, and do not let food freeze and thaw over and over.
@@ -191,8 +193,8 @@ household's worksheet on children and dangerous jobs (→ 30-25): {{choice DC-24
 
 - **Runway:** this is a firewood question (→ 06-04). An open fire is the **least** fuel-efficient
   way you have to cook.
-- **Ration:** move everyday cooking to a **rocket stove** (→ 07-02), which uses **roughly half the
-  wood** of an open fire for the same cooking; keep the open fire for
+- **Ration:** move everyday cooking to a **rocket stove** (→ 07-02), which uses **much less
+  wood** than an open fire for the same cooking; keep the open fire for
   big-batch cooking, boiling volume, and when you want the heat anyway.
 - **Resupply or substitute:** solar cooking in summer (→ 07-03) costs no fuel; propane (→ 07-05)
   for speed and bad weather; the kettle (→ 07-06) wherever there is stored power.
