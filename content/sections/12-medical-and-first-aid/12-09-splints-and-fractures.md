@@ -38,7 +38,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "DC-29 wired in quick steps and fracture section; MedlinePlus realign wording verified; unsourced re-check interval and 6-12 week figures removed." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "DC-29 wired in quick steps and fracture section; MedlinePlus realign wording verified; unsourced re-check interval and 6-12 week figures removed.; WFA traction quoted as published, one-pull limit labelled as the card's own (30-30)" }
 ---
 
 # Splints, sprains and broken bones
@@ -106,10 +106,13 @@ costs far more.
 - **Bone showing, or a wound over the break** (open fracture)
 - **The hand or foot beyond the injury is pale, cold, blue, numb or has no pulse.** Blood flow
   may be cut off, and the limb can be lost. If any care exists, go now (→ 12-16).
-  When no trained help is quickly available, MedlinePlus says to try to realign the limb into a
-  normal resting position, and wilderness first aid teaches gentle traction for it (MedlinePlus,
-  Broken Bone; Wilderness First Aid Scope of Practice). Splinting as found risks the limb; one
-  gentle pull risks pain and added injury. That trade-off is card DC-29 (→ 30-30). Your
+  If circulation is poor and trained help is not quickly available, MedlinePlus says to "try to
+  realign the limb into a normal resting position" (MedlinePlus, Broken Bone). The wilderness
+  first-aid standard treats unstable injuries with "gentle traction into position for angulated
+  long bones" (Minimum Guidelines and Scope of Practice for Wilderness First Aid, 2012/2013).
+  Neither says how many attempts or when to stop; the card's "one gentle pull, stop at firm
+  resistance" limits are the card's own, not a published rule. Splinting as found risks the
+  limb; a pull risks pain and added injury. That trade-off is card DC-29 (→ 30-30). Your
   household's choice: {{choice DC-29}} (→ 30-30). It must be learned hands-on, not from a page.
 - **Suspected spine, neck, pelvis or hip fracture**: do not move the person except to save them
   from an immediate hazard

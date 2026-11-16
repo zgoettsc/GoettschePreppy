@@ -78,7 +78,7 @@ everything in the mouth.{{/if}}
    house and yard, with a self-closing, self-latching gate (CDC; CPSC). Do it now, not next
    summer.{{else}}If you have or reach a pool, hot tub or pond, the barrier rules below come
    first.{{/if}}
-2. **Carbon monoxide alarms** on every level and outside sleeping areas, and in any room where a
+2. **Carbon monoxide alarms** on every level and where people sleep, and in any room where a
    fuel heater runs; test them monthly (CPSC; → 08-02). No fuel heater is lit until the alarm in
    its room is up and tested.
 3. **An anchored barrier around every heater or stove** before it is first lit (block below).

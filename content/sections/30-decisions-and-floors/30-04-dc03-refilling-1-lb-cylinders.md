@@ -23,8 +23,8 @@ options:
     label: "Never refill (the makers' position)"
     summary: "Use only new, factory-filled 1-lb cylinders indoors and on camp gear. When they run out, use a 20-lb tank outdoors with the maker's hose, or another fuel."
   - id: by-weight
-    label: "Refill refillable-rated cylinders only, by the maker's method"
-    summary: "Only cylinders built and stamped as refillable; never a disposable. Filled outdoors, away from flame, by the maker's method (stop at its fill gauge), then checked on a scale against the stamped tare weight; leak-tested; any cylinder that is overfilled, hisses or has a stiff valve is set aside outdoors."
+    label: "Refill refillable-rated cylinders only, maker's method"
+    summary: "Only cylinders stamped as refillable; never a disposable. Filled outdoors, away from flame, stopping at the maker's fill gauge, then weighed against the stamped tare weight and leak-tested; any overfilled, hissing or stiff-valved cylinder is set aside outdoors."
 settings_summary: "The small green 1-lb propane cylinders sold for camp stoves and indoor heaters are made to be filled once at the factory. Adapters sold online let you refill them from a grill tank. Heater makers allow only factory-filled disposable cylinders indoors, and refillable cylinder makers say never refill a disposable. The real dangers are overfilling (a 1-lb cylinder has no automatic overfill stop; the person filling must stop at the maximum level, and an overfilled one can vent gas when it warms indoors) and a worn valve that leaks in the room. What helps most: buy new cylinders, or use a 20-lb tank outdoors with a hose (removes it); cylinders built to be refilled, filled outdoors by the maker's method, weighed and leak-tested (reduces it a lot)."
 review_pass: null
 ---
@@ -120,7 +120,7 @@ You give up: cheap small cylinders; you rely on new ones, which run out, or on a
 outdoors with a hose. You accept: fewer hours of small-cylinder heat or cooking once the stock
 is gone.
 
-**`by-weight`: Refill refillable-rated cylinders only, by the maker's method.**
+**`by-weight`: Refill refillable-rated cylinders only, maker's method.**
 You give up: the heater maker's disposable-only rule. You accept: that the fill gauge, the
 scale, the leak test and the retire-a-bad-valve rule are the only things preventing an
 overfilled or leaking cylinder from venting gas indoors. Refilling disposables is not part of

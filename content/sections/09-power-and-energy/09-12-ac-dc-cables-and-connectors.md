@@ -2,7 +2,7 @@
 id: 09-12-ac-dc-cables-and-connectors
 section: 09-power-and-energy
 title: "AC versus DC, cables, connectors and adapters"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -11,9 +11,9 @@ tags: [power, ac, dc, cables, connectors, usb-c, mc4, anderson, adapters, invert
 derived_from: [09-12-ac-dc-cables-and-connectors]
 sources:
   - osha-electrical-safety-and-health-topics-a7a68f
-  - us-department-of-energy-solar-energy-technologies-of-2a534a
-  - nfpa-national-fire-protection-association-lithium-io-0c7d64
-  - osha-hand-and-power-tools-safe-use-maintenance-and-h-77254c
+  - victron-wiring-unlimited-r14
+  - trojan-users-guide-r14
+  - battle-born-bb10012-data-sheet-r14
 related:
   - 09-03-batteries-and-storage
   - 09-06-charging-medical-devices
@@ -37,7 +37,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "12 V range and socket limit sourced (Trojan, Battle Born, Victron); MC4 polarity worded as the figure (label, then meter) instead of pin gender; misattributed OSHA cites removed" }
 ---
 
 # AC versus DC, cables, connectors and adapters
@@ -49,7 +49,7 @@ something. Volts, amps and watts: → 29-02. House wiring: → 29-04.
 > **CAUTION.** Mismatched equipment is exactly when people connect something backwards and destroy
 > it, or start a fire. **Three rules prevent almost every disaster here: check polarity before
 > connecting, check voltage before connecting, and fuse the battery side** (→ 09-08). **Anything
-> touching house wiring is an electrician's job** (OSHA, Electrical).
+> touching house wiring is an electrician's job** (Victron Energy, Wiring Unlimited).
 
 ## Do this now
 - **Buy a cheap multimeter and learn three measurements:** DC volts, AC volts, continuity. It costs
@@ -101,7 +101,7 @@ for anything sensitive (→ 09-08).
 |---|---|
 | **3.6 to 3.7 V** | A single lithium cell |
 | **5 V** | USB-A, basic USB-C charging, most small electronics |
-| **12 V nominal** | Vehicles, most portable solar setups, RV and marine gear. **Real range about 11.8 to 14.6 V** depending on charge and charging |
+| **12 V nominal** | Vehicles, most portable solar setups, RV and marine gear. **Real range about 11.8 to 14.6 V** depending on charge and charging (a resting lead-acid battery at about 30% reads 11.8 V, Trojan; lithium charging goes up to 14.6 V, Battle Born) |
 | **9, 15, 20 V** | USB-C Power Delivery levels; laptops typically 20 V |
 | **18 to 24 V** | Cordless tool packs |
 | **24 and 48 V** | Larger off-grid systems: fewer amps, thinner wire |
@@ -115,8 +115,8 @@ Salvaged power fails at the connector far more often than at the battery.
 
 | Connector | Where it lives | Notes |
 |---|---|---|
-| **MC4** | Solar panels, almost universally | Weatherproof, locking. **Panels are live in daylight; treat them as live.** The + side has the male pin. {{figure fig-mc4-polarity-check}} |
-| **12 V socket** ("cigarette lighter") | Vehicles, power stations, RVs | Convenient, **loose-fitting, limited current**: typically fused around 10 to 15 A |
+| **MC4** | Solar panels, almost universally | Weatherproof, locking. **Panels are live in daylight; treat them as live.** Find the + lead as marked on the panel label or cable, then confirm with the meter. {{figure fig-mc4-polarity-check}} |
+| **12 V socket** ("cigarette lighter") | Vehicles, power stations, RVs | Convenient, **loose-fitting, limited current**: Victron says they are not made for currents beyond about 10 A, and the car's circuit may be fused lower |
 | **Anderson Powerpole** | Ham radio, RV, home-built systems | **Excellent**: genderless, high current, hard to connect wrong. Worth standardising on |
 | **XT60 / XT90** | Hobby gear, e-bikes, many power station solar inputs | High current, polarised |
 | **Barrel jack** (commonly 5.5 × 2.1 mm) | Small electronics, routers, LED strips, some panels and stations | **Polarity varies by device**: centre-positive is common, not universal. **Check first** |
@@ -151,7 +151,7 @@ Salvaged power fails at the connector far more often than at the battery.
 - **Thicker is safer.** Undersized wire heats up (→ 09-08).
 - **Stranded flexes, solid does not.** Use stranded anywhere that moves or vibrates.
 - **Extension cords are AC wire.** In a pinch they work as heavy DC wire, but keep them fully unrolled
-  under load: a coiled cord heats (OSHA).
+  under load: a coiled cord heats.
 - **Worth salvaging:** jumper cables (very heavy), speaker wire, thermostat wire (light duty only),
   vehicle harnesses, welding cable.
 - **Never assume a salvaged cable's rating.** If you cannot read a gauge marking, size

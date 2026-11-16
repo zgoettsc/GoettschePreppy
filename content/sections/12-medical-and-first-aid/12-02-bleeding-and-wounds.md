@@ -43,7 +43,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Tourniquet steps re-sourced (USUHS/DoD STB/TCCC); floor wording matches 30-01; tetanus rule aligned to CDC clinical guidance (no 48-72 h); lye eye flush 30 min (ATSDR); unsourced child-age and syringe figures removed." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Tourniquet steps re-sourced (USUHS/DoD STB/TCCC); floor wording matches 30-01; tetanus rule aligned to CDC clinical guidance (no 48-72 h); lye eye flush 30 min (ATSDR); unsourced child-age and syringe figures removed.; conversion paragraph carries TCCC 2-hour non-medic limit as on 30-26" }
 ---
 
 # Bleeding control and wound care
@@ -144,9 +144,12 @@ the limb below it. Keep the person warm, keep them lying down, give fluids by mo
 awake and can swallow, and move toward any care that exists (→ 12-16).
 
 **When no help will ever come.** Military guidance for long, remote care converts a tourniquet
-to wound packing and a pressure bandage under strict conditions (not in shock, the wound watched
-closely, not an amputation, early, never after 6 hours), and tells people without medic training
-to leave it on (TCCC Guidelines, 2026). Keeping it on risks the limb; converting risks the
+to wound packing and a pressure bandage only when all its criteria are met: not in shock, the
+wound can be watched closely, not an amputation, and every effort to convert in less than 2
+hours. **People trained below medic level "should not attempt tourniquet conversion beyond 2
+hours"** without a medic's direction, and otherwise keep the tourniquet in place; the 6-hour
+limit applies only where close monitoring and laboratory tests exist (TCCC Guidelines, 2026). For
+a household, that means within 2 hours or not at all (→ 30-26). Keeping it on risks the limb; converting risks the
 bleeding starting again. Your household's choice: {{choice DC-25}} → 30-26.
 
 **Myths that persist anyway:** a tourniquet does **not** automatically cost the limb when care

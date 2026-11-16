@@ -2,7 +2,7 @@
 id: 09-09-small-solar-build
 section: 09-power-and-energy
 title: "Building a small solar system step by step"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -12,8 +12,9 @@ derived_from: [09-09-small-solar-build]
 sources:
   - us-department-of-energy-solar-energy-technologies-of-2a534a
   - us-department-of-energy-solar-energy-technologies-of-7bba95
-  - us-department-of-energy-consumer-guide-to-residentia-1d87da
-  - nfpa-national-fire-protection-association-lithium-io-0c7d64
+  - victron-wiring-unlimited-r14
+  - battle-born-bb10012-data-sheet-r14
+  - trojan-battery-maintenance-r14
 related:
   - 09-01-power-priorities
   - 09-02-solar-basics
@@ -36,7 +37,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Worked example arithmetic checked (715 Wh, 381 W, 2,145/2,383/4,290 Wh); depth-of-discharge tied to Battle Born/Trojan; fusing steps consistent with 09-08 (Victron); unused NFPA/DOE keys swapped" }
 ---
 
 # Building a small solar system step by step
@@ -78,8 +79,8 @@ x 1.3 for inverter/charge losses ............   715 Wh/day  <- design target
 December sun hours (09-05) ..................   2.5
 Panel watts = 715 / (2.5 x 0.75) ............   ~380 W  -> buy 400-600 W (over-panel)
 Battery for 3 days' autonomy = 715 x 3 ......   ~2,150 Wh usable
-   LiFePO4 (use ~90%) .......................   ~2,400 Wh  -> 2 x 100 Ah 12 V
-   Lead-acid (use ~50%) .....................   ~4,300 Wh  -> 4 x 100 Ah 12 V, and heavy
+   LiFePO4 (plan on ~90%) ...................   ~2,400 Wh  -> 2 x 100 Ah 12 V
+   Lead-acid (50% or less, Trojan) ..........   ~4,300 Wh  -> 4 x 100 Ah 12 V, and heavy
 Inverter = largest set of AC loads at once ..   ~600 W running -> 1,000 W pure sine
 ```
 Yours:
@@ -117,7 +118,7 @@ the shunt, or the monitor reads nothing.
 **Step 3: main fuse on the battery positive**, then to the positive bus. **This fuse goes in last,
 after everything else is wired:** it is your master disconnect during the build.
 
-**Step 4: charge controller to the battery**, fused as its manual says, **correct polarity**. Most
+**Step 4: charge controller to the battery**, fused as its manual says, **correct polarity**. Many
 MPPT controllers must see the **battery first, panels second**; read the manual, because the wrong
 order damages some controllers.
 

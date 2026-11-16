@@ -2,7 +2,7 @@
 id: 09-11-hand-and-alt-generation
 section: 09-power-and-energy
 title: "Hand-crank, vehicle, wind and other backup generation"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -14,6 +14,7 @@ sources:
   - us-department-of-energy-solar-energy-technologies-of-2a534a
   - cdc-carbon-monoxide-poisoning-basics-772153
   - us-consumer-product-safety-commission-cpsc-what-to-k-3390a4
+  - victron-wiring-unlimited-r14
 related:
   - 09-01-power-priorities
   - 09-02-solar-basics
@@ -38,7 +39,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Unsourced output ranges replaced by rough relative sizes and label/manual methods; socket limit from Victron; wind siting from DOE consumer guide; CO floor wording checked" }
 ---
 
 # Hand-crank, vehicle, wind and other backup generation
@@ -68,16 +69,19 @@ options by what they actually deliver, and covers the one that is dangerous, a r
 
 **Sort the options by what they deliver:**
 
-| Method | Realistic output | Honest verdict |
+These are rough sizes, from largest to smallest; the device's own label or manual gives the real
+figure, and a watt meter tells you what you actually get.
+
+| Method | Rough output | Honest verdict |
 |---|---|---|
-| **Hybrid vehicle in "ready" mode** | Hundreds of watts of charging, engine starting and stopping only as needed | The best vehicle option, far more fuel-efficient than idling a conventional engine |
-| Conventional vehicle alternator, engine idling | **500 to 2,000 W** | Good, but fuel-hungry at idle. Limited by fuel |
-| Vehicle 12 V socket, engine off | About 100 W from the 12 V battery | Small loads only; do not flatten a battery you need to start the vehicle (→ 09-14) |
-| Small wind turbine (400 to 1,000 W rated) | Very variable; often 10 to 30% of rated over time | Worth it only with open exposure and a tall tower |
-| Hand crank (radio, charger) | **2 to 6 W while cranking hard** | Real but tiny: a phone charge is an hour or more of work |
-| Bicycle generator | 50 to 150 W by a fit person, briefly | Exercise, not a power supply |
-| Thermoelectric (TEG) stove generator | 5 to 15 W while a fire burns | Free power from a fire you were burning anyway |
-| Micro-hydro | 100 W or more, continuously, with real drop and flow | The best of all, **if** you have year-round moving water |
+| **Hybrid vehicle in "ready" mode** | Whatever the 12 V socket or inverter allows, engine starting and stopping only as needed | The best vehicle option, far more fuel-efficient than idling a conventional engine |
+| Conventional vehicle alternator, engine idling | Hundreds of watts and more through an inverter on the battery | Good, but fuel-hungry at idle. Limited by fuel |
+| Vehicle 12 V socket, engine off | Limited by the socket's fuse (Victron: these plugs are not made for more than about 10 A, roughly 120 W) | Small loads only; do not flatten a battery you need to start the vehicle (→ 09-14) |
+| Small wind turbine | Far below its rating except in strong, steady wind | Worth it only with open exposure and a tall tower |
+| Hand crank (radio, charger) | A few watts while cranking hard | Real but tiny: slow, tiring work for a small charge |
+| Bicycle generator | More than a hand crank, for as long as the rider lasts | Exercise, not a power supply |
+| Thermoelectric (TEG) stove generator | A few watts while a fire burns | Free power from a fire you were burning anyway |
+| Micro-hydro | Continuous, day and night, with real drop and flow | The best of all, **if** you have year-round moving water |
 
 ### The vehicle as a generator
 **The vehicle is a generator, not a battery.** The engine and alternator make the power; the 12 V
@@ -117,8 +121,8 @@ vehicle-to-load adapter. The traction-battery rule above applies.{{/if}}
 |---|---|---|
 | Phones, power banks, small DC stations | High-wattage USB-C car charger in the 12 V socket | The main use: refills the pocket tier |
 | A 12 V medicine cooler | 12 V socket, directly | Native 12 V; no adapter needed (→ 09-10) |
-| A larger power station | The station maker's 12 V car-charging cable | **Slow: often about 100 to 200 W**, so an all-day trickle, not a bulk refill |
-| AC loads | An inverter on the 12 V system, fused (→ 09-08) | Small inverters only through the socket (typically fused 10 to 15 A) |
+| A larger power station | The station maker's 12 V car-charging cable | **Slow** (the manual gives its car-charging watts, → 28-01): an all-day trickle, not a bulk refill |
+| AC loads | An inverter on the 12 V system, fused (→ 09-08) | Small inverters only through the socket (about 10 A at most; → 09-14) |
 
 ### Wind: worth it only in the right place
 Wind can produce at night, in overcast, and in the middle of a dark winter that has flattened your
@@ -126,8 +130,10 @@ solar, and in many open places the windiest months are the least sunny. The cave
 - **Small turbines routinely make far less than their rating**, because the rating assumes a wind
   speed you rarely get.
 - **Height is everything.** A turbine on a short pole between houses and trees is close to useless.
-  Real production needs a **tall, clear tower**: impractical and conspicuous on a town lot, and often
-  against local rules.
+  DOE's guidance for a home wind system is at least one acre and an average wind speed of at least
+  10 mph, with the tower chosen to clear nearby obstructions and typically 60 to 140 feet tall (US
+  Department of Energy, Consumer Guide to Residential Renewable Energy): impractical and
+  conspicuous on a town lot, and often against local rules.
 - **Moving parts fail:** ice, hail, bearings, gusts.
 - **It is noisy and visible** (→ 14-03).
 
@@ -140,8 +146,8 @@ stove. Little, but **you are already burning that fire** to cook or heat, so it 
 night and in a blizzard, and a few watts charges a phone over a few hours. A good winter backup.
 
 ### Hand crank and pedal: the honest floor
-Hand-crank output is **a few watts of hard, continuous cranking**: charging a phone from empty is an
-hour or more of steady work. Do not build a plan on it. **Do** own a hand-crank radio: the radio
+Hand-crank output is **a few watts of hard, continuous cranking**: a full phone charge is long,
+steady work. Do not build a plan on it. **Do** own a hand-crank radio: the radio
 itself uses almost nothing, and information with **no** power dependency is worth a lot (→ 15-02).
 A bicycle generator does better but needs a stand, a generator head, a controller and a willing
 rider: a settled-site project, not a preparation.
