@@ -160,7 +160,7 @@ for your household still matter; they are just not first.
 
 | ★ | Skill | A1 | A2 | A3 | Last done | Page |
 |---|---|---|---|---|---|---|
-| {{#if has.refrigerated_meds}}★{{/if}}{{#if has.cpap}}★{{/if}}{{#if has.oxygen}}★{{/if}} | **Run the medical devices and medicine cooling for 72 hours off-grid**, measured | | | | | → 09-10, → 09-06 |
+| {{#if has.refrigerated_meds}}★{{else}}{{#if has.cpap}}★{{else}}{{#if has.oxygen}}★{{/if}}{{/if}}{{/if}} | **Run the medical devices and medicine cooling for 72 hours off-grid**, measured | | | | | → 09-10, → 09-06 |
 | {{#if has.refrigerated_meds}}★{{/if}} | **Set up the medicine cooler from its box** on battery power, thermometer inside, and check it holds the label's temperature over 24 hours | | | | | → 09-10, → 29-07 |
 | | Set up panel, controller and battery, and read the numbers | | | | | → 09-09 |
 | | Charge from the vehicle safely (engine running outdoors only) | | | | | → 09-11 |

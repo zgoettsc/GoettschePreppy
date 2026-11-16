@@ -71,3 +71,6 @@ Collected from worker reports; resolved in the integration pass.
 - [ ] C02: merge duplicate source keys: usda-phzm-2023 vs usda-ars-plant-hardiness-zone-map; the two FSIS food-dating keys.
 - [ ] C02: tourniquet "conversion" line omitted on the bleeding card (conflicts with the never-loosen floor) — consistent with C09; owner question.
 - [ ] C02: missing slots requested (spare tire and towing limits, epinephrine locations, kit-check dates, route-county map list).
+- [ ] C12b: KI table wording ("≥" vs ">" in the threshold column; adolescent footnote) to confirm against FDA's published table in the source-trace pass.
+- [x] C12b: Dyna-Glo manual citation kept (widely sold consumer product; same decision as C07).
+- [ ] C12b: requested a medical devices list and per-member age in years (age_months exists; add age_years in integration).
