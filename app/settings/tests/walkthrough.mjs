@@ -113,6 +113,9 @@ async function scenarioA(browser, base) {
   const context = await browser.newContext({ viewport: { width: 375, height: 812 }, acceptDownloads: true, colorScheme: 'dark' });
   const relayCalls = [];
   await mockRelay(context, relayCalls);
+  // pretend A3's outputs are not built yet, whatever is on disk
+  for (const g of ['**/app/build/kit.json', '**/app/build/regions-lite.json', '**/app/lib/generate.js'])
+    await context.route(g, r => r.fulfill({ status: 404, body: 'not found' }));
   const page = await context.newPage();
   page.setDefaultTimeout(8000);
   const pageErrors = [];
@@ -539,12 +542,63 @@ async function scenarioB(browser, base) {
 }
 
 // ---------------------------------------------------------------------------------------------
+async function scenarioC(browser, base) {
+  const kitFile = path.join(ROOT, 'app/build/kit.json');
+  const genFile = path.join(ROOT, 'app/lib/generate.js');
+  if (!fs.existsSync(kitFile) || !fs.existsSync(genFile)) { console.log('Scenario C skipped: app/build/kit.json or app/lib/generate.js not built'); return; }
+  console.log('Scenario C: the real built kit and generator, ?dryrun=1 (fake relay inside the tab)');
+  const context = await browser.newContext({ viewport: { width: 375, height: 812 }, acceptDownloads: true, colorScheme: 'dark' });
+  const outside = [];
+  await context.route('**/*', r => { const u = new URL(r.request().url()); if (u.hostname !== '127.0.0.1') { outside.push(u.href); return r.abort(); } return r.continue(); });
+  const page = await context.newPage();
+  page.setDefaultTimeout(8000);
+  const pageErrors = [];
+  page.on('pageerror', e => pageErrors.push(e.message));
+  page.on('dialog', d => d.accept());
+  await page.goto(base + '?dryrun=1');
+  await page.waitForSelector('#step-title');
+
+  await step('real kit: 24 decision cards with settings_summary and options', async () => {
+    await page.setInputFiles('#load-file', path.join(OUT, 'profile-a.json'));
+    await page.waitForFunction(() => /Loaded your answers/.test(document.querySelector('#toolbar-status').textContent));
+    await page.evaluate(() => window.__settings.goto(8));
+    await page.waitForSelector('.card');
+    assert.equal(await page.$$eval('.card', els => els.length), 24);
+    assert.ok(await page.isChecked(sel.radio('decision_cards-DC-01', 'never')));
+    await layoutChecks(page, 'step 8 (real kit)');
+    await shot(page, '08-decisions-real-kit');
+  });
+
+  await step('real generator, dry-run relay: Small binder downloads', async () => {
+    await page.evaluate(() => window.__settings.goto(9));
+    const est = await page.textContent('.sizes');
+    assert.match(est, /Small\s*about \d+/);
+    await page.waitForSelector('#dryrun-banner');
+    await page.check('#size-small');
+    await page.click('#generate-btn');
+    await page.waitForSelector('#download-link', { timeout: 240000 });
+    await shot(page, '09-generate-real-dryrun');
+    const [dl] = await Promise.all([page.waitForEvent('download'), page.click('#download-link')]);
+    const file = path.join(OUT, 'binder-dryrun-small.html');
+    await dl.saveAs(file);
+    const html = fs.readFileSync(file, 'utf8');
+    assert.ok(html.length > 100000, 'binder is substantial: ' + html.length);
+    assert.match(html, /Your answers are never stored/);
+    assert.deepEqual(outside, [], 'no request left this machine');
+  });
+
+  assert.deepEqual(pageErrors, [], 'page errors: ' + pageErrors.join('; '));
+  await context.close();
+}
+
+// ---------------------------------------------------------------------------------------------
 const srv = await serve();
 const base = `http://127.0.0.1:${srv.address().port}/app/settings/`;
 const browser = await chromium.launch();
 try {
   await scenarioA(browser, base);
   await scenarioB(browser, base);
+  await scenarioC(browser, base);
 } finally {
   await browser.close();
   srv.close();
