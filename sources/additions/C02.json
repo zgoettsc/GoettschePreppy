@@ -8,18 +8,12 @@
     "licence_note": "US federal government work (FEMA); public domain.",
     "url": "https://www.ready.gov/kit",
     "household_cited_by": [],
-    "cited_by": ["22-01-master-acquisition-list", "22-03-go-bags-and-kits", "22-07-priority-purchase-order", "26-01-how-to-run-the-check"]
-  },
-  {
-    "key": "usda-ars-plant-hardiness-zone-map-2023",
-    "title": "USDA Plant Hardiness Zone Map (2023)",
-    "org": "USDA Agricultural Research Service",
-    "date": "2023",
-    "licence_class": "public-domain",
-    "licence_note": "US federal government work (USDA ARS); public domain.",
-    "url": "https://planthardiness.ars.usda.gov/",
-    "household_cited_by": [],
-    "cited_by": ["25-01-planting-calendar"]
+    "cited_by": [
+      "22-01-master-acquisition-list",
+      "22-03-go-bags-and-kits",
+      "22-07-priority-purchase-order",
+      "26-01-how-to-run-the-check"
+    ]
   },
   {
     "key": "ready-gov-earthquakes",
@@ -30,7 +24,9 @@
     "licence_note": "US federal government work (FEMA); public domain.",
     "url": "https://www.ready.gov/earthquakes",
     "household_cited_by": [],
-    "cited_by": ["25-08-quick-reference-cards"]
+    "cited_by": [
+      "25-08-quick-reference-cards"
+    ]
   },
   {
     "key": "ready-gov-hurricanes",
@@ -41,6 +37,8 @@
     "licence_note": "US federal government work (FEMA); public domain.",
     "url": "https://www.ready.gov/hurricanes",
     "household_cited_by": [],
-    "cited_by": ["25-08-quick-reference-cards"]
+    "cited_by": [
+      "25-08-quick-reference-cards"
+    ]
   }
 ]

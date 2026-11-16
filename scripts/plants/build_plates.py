@@ -38,6 +38,45 @@ COLLECTIONS = {
         'license': 'Public domain: US Government work (USDA Agricultural Research Service).',
         'tier': 1},
 }
+COLLECTIONS['wikimedia-commons'] = {
+    'org': 'Wikimedia Commons (files tagged public domain or CC0 only)',
+    'source_key': None,
+    'license': ('Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author '
+                'credit are recorded per image and re-checked at build time. Anything else is refused.'),
+    'tier': 2}
+
+
+def commons_rows():
+    import hashlib as _h, re as _re, time as _t, urllib.parse as _u
+    rows = []
+    for line in open(ROOT / 'scripts' / 'plants' / 'commons_selections.tsv', encoding='utf-8'):
+        if not line.strip() or line.startswith('#'):
+            continue
+        k, title, feat, cap = line.rstrip('\n').split('\t')
+        q = dict(action='query', format='json', titles=title, prop='imageinfo',
+                 iiprop='extmetadata|url|mime', iiurlwidth='1200')
+        url = 'https://commons.wikimedia.org/w/api.php?' + _u.urlencode(q)
+        def f():
+            for i in range(6):
+                _t.sleep(3.0 + 10 * i)
+                try:
+                    return http(url, tries=1)
+                except Exception as e:
+                    last = e
+            raise last
+        info = json.loads(cached(RAW / 'commons' / 'info' / (_h.sha1(title.encode()).hexdigest() + '.json'), f))
+        page = next(iter(info['query']['pages'].values()))
+        ii = page['imageinfo'][0]; md = ii.get('extmetadata', {})
+        lic = (md.get('License', {}) or {}).get('value', '').lower()
+        strip = lambda v: _re.sub(r'\s+', ' ', _re.sub(r'<[^>]+>', '', v or '')).strip()
+        rows.append(dict(key=k, imageId=None, feature=feat, caption=cap, collection='wikimedia-commons',
+                         lic=lic, url=ii.get('thumburl') or ii['url'], page=ii.get('descriptionurl'),
+                         credit=strip((md.get('Artist') or {}).get('value'))[:200] or None,
+                         provider='Wikimedia Commons: ' + strip((md.get('LicenseShortName') or {}).get('value')),
+                         fname=_re.sub(r'[^A-Za-z0-9]+', '-', title[5:].rsplit('.', 1)[0]).strip('-').lower()[:60] + '.jpg'))
+    return rows
+
+
 EXTRA = [  # non-PLANTS plates (each licence-checked by hand)
     dict(key='western-water-hemlock', collection='usda-ars-pprl', imageId=None, feature='root',
          url='https://www.ars.usda.gov/ARSUserFiles/20801500/Images/whemlock3.gif',
@@ -109,6 +148,10 @@ def main():
         plates_by_key.setdefault(r['key'], []).append(dict(r, collection='usda-plants'))
     for x in EXTRA:
         plates_by_key.setdefault(x['key'], []).append(x)
+    for x in commons_rows():
+        if x['lic'] not in ('cc0', 'pd'):
+            refused.append((x['key'], x['page'], 'commons licence ' + x['lic'])); continue
+        plates_by_key.setdefault(x['key'], []).append(x)
 
     manifest_plants, index_plants = [], []
     total_bytes = 0
@@ -140,11 +183,25 @@ def main():
                     provider = f"{provider + ' - ' if provider else ''}{rec['LiteratureTitle']}" + \
                                (f" ({rec['LiteratureYear']})" if rec.get('LiteratureYear') else '')
                 fname = path.rsplit('/', 1)[-1].rsplit('.', 1)[0] + '.jpg'
+            elif p['collection'] == 'wikimedia-commons':
+                url, credit, provider, fname = p['url'], p['credit'], p['provider'], p['fname']
             else:
                 url, credit, provider = p['url'], p['credit'], p['provider']
                 fname = url.rsplit('/', 1)[-1].rsplit('.', 1)[0] + '.jpg'
             try:
-                raw = cached(RAW / 'large' / url.rsplit('/', 1)[-1], lambda: http(url))
+                cache_name = (p['fname'] if p['collection'] == 'wikimedia-commons' else url.rsplit('/', 1)[-1])
+                def _get(u=url, c=p['collection']):
+                    if c != 'wikimedia-commons':
+                        return http(u)
+                    import time as _t
+                    for i in range(6):
+                        _t.sleep(3.0 + 10 * i)
+                        try:
+                            return http(u, tries=1)
+                        except Exception as e:
+                            last = e
+                    raise last
+                raw = cached(RAW / 'large' / cache_name, _get)
             except Exception as e:
                 failed.append((key, p.get('imageId'), f'download: {e}')); continue
             if not sniff(raw):
@@ -161,7 +218,7 @@ def main():
             entry_m['plates'].append(dict(collection=p['collection'], imageId=p.get('imageId'), file=rel,
                                           feature=p['feature'], shows=p['caption']))
             entry_i['plates'].append(dict(file=rel, shows=p['caption'], feature=p['feature'],
-                                          collection=p['collection'], url=url, credit=credit, provider=provider,
+                                          collection=p['collection'], url=p.get('page') or url, credit=credit, provider=provider,
                                           license=COLLECTIONS[p['collection']]['license'],
                                           imageId=p.get('imageId'), width=w, height=h, bytes=len(b),
                                           sha256=hashlib.sha256(b).hexdigest()))

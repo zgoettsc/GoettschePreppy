@@ -10,12 +10,11 @@ phase: [A, B, C]
 tags: [family plan, out-of-area contact, rally point, reunification, note protocol, medical card, relay, PACE, text, "911", satellite, GMRS channel, children]
 derived_from: [15-03-family-comms-plan]
 sources: [noaa-national-weather-service-weather-ready-nation-b0a52f, american-red-cross-power-outage-safety-6d07a8, american-red-cross-winter-storm-preparedness-and-bli-4bb6c0, noaa-national-weather-service-noaa-weather-radio-all-5f13d8, apple-support-use-emergency-sos-via-satellite-messag-68d4e2, federal-communications-commission-9-1-1-and-e9-1-1-s-a8c9c7, fema-ready-gov-create-your-family-emergency-communic-584e89]
-related: [00-04-family-emergency-plan, 15-01-weather-alerts, 15-02-radio-options, 15-05-ham-and-licensing, 15-06-antennas-and-range, 15-07-signals-and-codes, 15-08-destination-comms, 15-09-corridor-comms, 14-03-opsec, 12-11-chronic-conditions, 01-07-evacuating-with-medical-needs, 02-03-cl03-anaphylaxis, 02-04-cl04-food-allergy, 20-04-teaching-kids-the-plan, 20-05-infant-feeding, 20-08-kids-and-fear, 18-01-mutual-aid, 24-02-drills, 25-03-regional-contacts, 25-04-maps, 25-08-quick-reference-cards, 25-09-family-medical-summary, 25-10-annual-review, 01-03-phase-b-movement]
+related: [00-04-family-emergency-plan, 15-01-weather-alerts, 15-02-radio-options, 15-05-ham-and-licensing, 15-06-antennas-and-range, 15-07-signals-and-codes, 15-08-destination-comms, 15-09-corridor-comms, 14-03-opsec, 12-11-chronic-conditions, 01-07-evacuating-with-medical-needs, 02-03-cl03-anaphylaxis, 02-04-cl04-food-allergy, 20-04-teaching-kids-the-plan, 20-05-infant-feeding, 20-08-kids-and-fear, 18-01-mutual-aid, 24-02-drills, 25-03-regional-contacts, 25-04-maps, 25-08-quick-reference-cards, 25-09-family-medical-summary, 25-10-annual-review, 01-03-phase-b-movement, 10-01-lighting-options]
 cards: []
 explainers: [EX-09]
 promote_when: [has.child, has.anaphylaxis, has.refrigerated_meds]
-photo_slots:
-  - { id: note-spot, caption: "Our hidden note spot at each rally point (photo kept private)" }
+photo_slots: []
 figures: []
 plates: []
 condition: null
@@ -97,8 +96,6 @@ communication plan approach (FEMA, Create Your Family Emergency Communication Pl
   back or where to follow. **Nothing about supplies, weapons or the household's situation.**
 - **Everyone knows the spot, and everyone checks it.** Keep the spots off any list a stranger
   could read.
-
-{{photo note-spot}}
 
 ## Medical and identity cards
 

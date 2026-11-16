@@ -34,6 +34,7 @@ sources:
   - noaa-national-weather-service-lightning-safety-when-455ad7
   - ready-gov-earthquakes
   - ready-gov-hurricanes
+  - ready-gov-tsunamis
   - national-capital-poison-center-poison-control-1-800-e428c9
   - university-of-missouri-extension-unvented-portable-k-e850fe
 related: [00-02-emergency-quick-reference, 00-06-first-60-minutes, 25-03-regional-contacts, 25-09-family-medical-summary, 22-03-go-bags-and-kits, 02-03-cl03-anaphylaxis, 02-01-cl01-type-1-diabetes-injections, 03-04-purifying-water, 08-02-carbon-monoxide-safety, 12-02-bleeding-and-wounds, 12-18-choking-and-cpr, 17-02-tornadoes, 17-06-tornado-shelter, 15-03-family-comms-plan, 29-10-ex10-weather-alert-words, 30-01-the-floors]
@@ -325,7 +326,7 @@ Open-flame cooking and candles indoors: {{choice DC-20}} → 30-21. Our heaters:
 | **Lightning** | When thunder roars, go indoors; a hard-topped car is next best (NWS, Lightning Safety) | → 17-18 |
 | **Flood** | Higher ground; **turn around, do not drown** (NWS, Flood Safety) | → 17-03 |
 | **Poisoning** | **Poison Help 1-800-222-1222**; do not make the person vomit unless told to | → 12-17 |
-{{#if is.coastal}}| **Tsunami (coast)** | Strong shaking or the sea pulling back: go to high ground or inland at once | → 17-15 |
+{{#if is.coastal}}| **Tsunami (coast)** | Strong shaking or the sea pulling back: go to high ground or inland at once (Ready.gov, Tsunamis) | → 17-15 |
 {{/if}}
 
 ## Printing and keeping them current

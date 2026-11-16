@@ -64,3 +64,6 @@ Collected from worker reports; resolved in the integration pass.
 - [ ] A3: is.humid always false until D1 adds jul_dewpoint_f or humid_climate per county.
 - [ ] A2: add a "maps for counties along the route" opt-in using mapPlan(profile, kit) (counts and size range) on the Generate screen.
 - [ ] A3: owner-token check now also allows tokens present in the household's own home/destination region data (e.g. NWS office "Sioux Falls, SD"). Accept.
+- [x] C10: context adds members ham_callsign, gear.firearms.platforms, has.suppressor, destination nwr list, region.home.nearby_same (A3 to implement; D1 to supply adjacency).
+- [ ] C10: owner question: does keeping one loaded firearm in a quick-access lockbox need its own decision card? (Currently covered by the child-access floor and 14-14.)
+- [ ] C10: sources for the current NFA tax amount and pepper-spray legality (pre-collapse notes).

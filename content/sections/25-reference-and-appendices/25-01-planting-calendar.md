@@ -10,7 +10,7 @@ phase: [A, C]
 tags: [garden, planting calendar, frost dates, hardiness zone, seed starting, season extension, storage crops]
 derived_from: [25-01-planting-calendar]
 sources:
-  - usda-ars-plant-hardiness-zone-map-2023
+  - usda-phzm-2023
   - university-of-minnesota-extension-planting-the-veget-acacfa
   - university-of-minnesota-extension-starting-seeds-ind-2449d5
   - sdsu-extension-the-basics-of-seed-starting-for-flowe-fcfb31

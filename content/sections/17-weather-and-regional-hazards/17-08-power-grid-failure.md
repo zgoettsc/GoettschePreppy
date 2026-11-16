@@ -51,6 +51,8 @@ next is where households get caught. Start from the safety box; it is what kills
 
 {{figure fig-generator-distance}}
 
+{{figure fig-backfeed-path}}
+
 ## Do this now
 
 1. **Install and test the CO alarms**, with spare batteries. This is the single most valuable step

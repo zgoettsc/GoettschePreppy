@@ -10,7 +10,7 @@ phase: [A, B, C]
 tags: [NOAA Weather Radio, SAME, weather alerts, watch, warning, tornado, blizzard, flood, batteries, hand-crank, barometer]
 derived_from: [15-01-weather-alerts]
 sources: [noaa-national-weather-service-noaa-weather-radio-all-5f13d8, noaa-national-weather-service-nwr-county-coverage-an-c6207f, noaa-national-weather-service-weather-ready-nation-b0a52f, american-red-cross-winter-storm-preparedness-and-bli-4bb6c0]
-related: [29-10-ex10-weather-alert-words, 29-09-ex09-radios, 15-02-radio-options, 15-03-family-comms-plan, 15-04-monitoring-and-info, 15-05-ham-and-licensing, 15-06-antennas-and-range, 15-09-corridor-comms, 00-04-family-emergency-plan, 17-01-blizzards-and-ice, 17-02-tornadoes, 17-03-floods, 17-04-extreme-cold-and-heat, 17-05-grassland-fire, 17-06-tornado-shelter, 17-10-reading-the-sky, 17-13-hurricanes-and-tropical-storms, 17-14-wildfire-smoke-and-evacuation, 09-05-solar-in-winter, 09-07-battery-chemistry, 09-11-hand-and-alt-generation, 24-02-drills, 25-03-regional-contacts, 25-08-quick-reference-cards]
+related: [29-10-ex10-weather-alert-words, 29-09-ex09-radios, 15-02-radio-options, 15-03-family-comms-plan, 15-04-monitoring-and-info, 15-05-ham-and-licensing, 15-06-antennas-and-range, 15-09-corridor-comms, 00-04-family-emergency-plan, 17-01-blizzards-and-ice, 17-02-tornadoes, 17-03-floods, 17-04-extreme-cold-and-heat, 17-05-grassland-fire, 17-06-tornado-shelter, 17-10-reading-the-sky, 17-13-hurricanes-and-tropical-storms, 17-14-wildfire-smoke-and-evacuation, 09-05-solar-in-winter, 09-07-battery-chemistry, 09-11-hand-and-alt-generation, 24-02-drills, 25-03-regional-contacts, 25-08-quick-reference-cards, 01-03-phase-b-movement, 01-05-choosing-a-destination, 03-04-purifying-water, 08-05-hypothermia-frostbite, 11-08-summer-heat-clothing, 18-01-mutual-aid]
 cards: []
 explainers: [EX-09, EX-10]
 promote_when: [is.tornado_region, is.hurricane_region, is.flood_region, is.snow_region]
@@ -74,7 +74,7 @@ stepping through seven channels.
 
 ## Your numbers
 
-Home: {{ home.county }} County, {{ region.home.state_name }}. NWS forecast office:
+Home: {{ home.county }}, {{ region.home.state_name }}. NWS forecast office:
 **{{ region.home.nws_office }}**.
 
 Your home transmitters (from the region appendix; NWS, NOAA Weather Radio Coverage by County):
@@ -96,7 +96,7 @@ Section 32, and check each against the transmitter's county list):
 
 {{#if has.destinations}}**Destinations and route counties:** program these on arrival, from the
 local transmitter's county list, not from here (→ 15-09).
-{{#each destinations as x}}- {{x.name}} ({{x.county}} County, {{x.state_name}}): NWS office
+{{#each destinations as x}}- {{x.name}} ({{x.county}}, {{x.state_name}}): NWS office
   {{x.region.nws_office}}. SAME code: ______ ☐
 {{/each}}{{/if}}
 

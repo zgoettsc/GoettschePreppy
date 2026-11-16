@@ -10,7 +10,7 @@ phase: [A, B, C]
 tags: [destination, node, relay, overdue, check-in, travel, arrival signal, missing traveller, GMRS, satellite, medical]
 derived_from: [15-08-destination-comms]
 sources: [fema-ready-gov-create-your-family-emergency-communic-584e89, noaa-national-weather-service-weather-ready-nation-b0a52f, us-government-publishing-office-ecfr-47-cfr-part-95-c8b55a, american-red-cross-power-outage-safety-6d07a8, federal-communications-commission-9-1-1-and-e9-1-1-s-a8c9c7]
-related: [15-09-corridor-comms, 15-03-family-comms-plan, 15-02-radio-options, 15-05-ham-and-licensing, 15-06-antennas-and-range, 15-07-signals-and-codes, 01-05-choosing-a-destination, 01-07-evacuating-with-medical-needs, 01-03-phase-b-movement, 12-11-chronic-conditions, 17-11-corridor-hazards, 00-04-family-emergency-plan, 14-03-opsec, 25-03-regional-contacts, 25-04-maps, 25-10-annual-review]
+related: [15-09-corridor-comms, 15-03-family-comms-plan, 15-02-radio-options, 15-05-ham-and-licensing, 15-06-antennas-and-range, 15-07-signals-and-codes, 01-05-choosing-a-destination, 01-07-evacuating-with-medical-needs, 01-03-phase-b-movement, 12-11-chronic-conditions, 17-11-corridor-hazards, 00-04-family-emergency-plan, 14-03-opsec, 25-03-regional-contacts, 25-04-maps, 25-10-annual-review, 30-20-dc19-when-to-leave]
 cards: [DC-19]
 explainers: [EX-09]
 promote_when: [has.destinations]
@@ -55,13 +55,13 @@ Most lines below are blank on purpose: **fill them in ink, then brief each node 
 
 ## The network
 
-Home: {{ home.county }} County, {{ home.state_name }}. The out-of-area relay:
+Home: {{ home.county }}, {{ home.state_name }}. The out-of-area relay:
 **{{ contacts.out_of_area.name }}** (→ 15-03), far enough away that a regional disaster at home
 does not take their phone down too, and the fixed point everyone reports through when direct
 lines fail.
 
 {{#if has.destinations}}Your destinations:
-{{#each destinations as x}}- **{{x.name}}**, {{x.county}} County, {{x.state_name}}, about
+{{#each destinations as x}}- **{{x.name}}**, {{x.county}}, {{x.state_name}}, about
   {{x.approximate_miles}} miles. Status: **{{x.status_text}}**.
 {{/each}}{{else}}No destination is entered in your profile. The relay card still applies to any
 trip, and you can add destinations in settings and regenerate (→ 01-05).{{/if}}
@@ -83,7 +83,7 @@ trip, and you can add destinations in settings and regenerate (→ 01-05).{{/if}
 
 | Field | Value |
 |---|---|
-| Where | {{x.county}} County, {{x.state_name}}; about {{x.approximate_miles}} miles |
+| Where | {{x.county}}, {{x.state_name}}; about {{x.approximate_miles}} miles |
 | Who is there | {{x.who_is_there}} |
 | How to reach them | {{x.how_to_reach_them}} |
 | Second phone | ____________________ |
