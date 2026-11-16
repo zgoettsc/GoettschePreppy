@@ -1,0 +1,193 @@
+{
+  "_comment": "FIXTURE for the settings page until app/build/kit.json carries the real card pages (content/sections/30-decisions-and-floors). Written by worker A2 from docs/05-decision-cards.md part C. Option ids match that table exactly. The real card pages' settings_summary and options replace this file automatically when kit.json exists.",
+  "cards": [
+    {
+      "card": "DC-01", "title": "An unvented heater running while people sleep",
+      "settings_summary": "An unvented heater (portable propane or wick kerosene) burns fuel inside the room and leaves its exhaust there, including carbon monoxide, a gas you cannot see or smell. Makers say not to run them while you sleep because a sleeping person does not notice the headache and drowsiness that warn an awake person. People die when the heater runs low on air or burns badly overnight. What helps most: not running it while asleep; then a tested CO alarm at pillow height, two vents open, and someone awake.",
+      "options": [
+        { "id": "never", "label": "Never while sleeping", "summary": "Keep warm overnight by other means (warm room, layers, sleeping bags). You give up a warm night; you accept nothing extra." },
+        { "id": "alarm-and-wake", "label": "Lowest setting, alarm, vents, someone wakes", "summary": "Lowest setting, tested CO alarm at pillow height, two vents open, a barrier round it, and someone wakes every 3 hours to check. Less risk, not none." },
+        { "id": "run-it", "label": "Run it with alarms and vents", "summary": "Run it overnight with alarms and vents but no one waking. You accept that if the alarm fails, nobody is awake to notice." }
+      ]
+    },
+    {
+      "card": "DC-02", "title": "A propane cylinder larger than 1 lb inside the house",
+      "settings_summary": "Propane is heavier than air. The fire code keeps tanks over 1 lb outdoors because a leaking valve fills a room with gas that pools at floor level and can explode from a pilot light or a spark. A 20-lb tank holds far more gas than a 1-lb one. Keeping the cylinder outside with a hose through a window removes most of the leak risk indoors; closing the valve whenever it is not burning and having no pilot-light appliances nearby reduces it.",
+      "options": [
+        { "id": "never", "label": "Never indoors", "summary": "Only 1-lb cylinders indoors. You give up longer run times." },
+        { "id": "last-resort", "label": "Cylinder outside, hose through a window", "summary": "As a last resort only: the cylinder stays outdoors and a hose runs in through a window. You accept a hose that can leak or be damaged." },
+        { "id": "indoors-with-rules", "label": "Indoors with strict rules", "summary": "Cylinder indoors, valve closed whenever not burning, no pilot-light appliances, alarm. You accept the risk the fire code is written to prevent." }
+      ]
+    },
+    {
+      "card": "DC-03", "title": "Refilling 1-lb propane cylinders from a 20-lb tank",
+      "settings_summary": "The small green 1-lb cylinders are sold as single-use. Makers say not to refill them because overfilling leaves no room for the gas to expand when warm, and a worn valve can leak. Refilled cylinders have leaked and caught fire. Weighing each refill, using only cylinders rated as refillable, filling outdoors and leak-checking with soapy water all reduce the risk.",
+      "options": [
+        { "id": "never", "label": "Never refill (maker's position)", "summary": "Use each 1-lb cylinder once. You give up the cheaper, longer supply." },
+        { "id": "by-weight", "label": "Refill by weight, with rules", "summary": "Only refillable-rated cylinders, weighed, filled outdoors, leak-checked every time. You accept a small leak and fire risk." }
+      ]
+    },
+    {
+      "card": "DC-04", "title": "Using expired or heat-exposed medication when nothing in-date exists",
+      "settings_summary": "Medicines, including epinephrine (the allergy auto-injector), lose strength after their expiry date or after heat or cold. Makers and agencies say to replace them because a weaker dose may not work when it matters. In an emergency with no in-date supply, the choice is between an old dose and no dose. Clear, colourless epinephrine is more likely to still work than brown or cloudy; keep looking for in-date stock either way.",
+      "options": [
+        { "id": "discard", "label": "Discard expired medication", "summary": "Follow the label. You may be left with nothing when it is needed." },
+        { "id": "use-if-clear", "label": "Use if clear, keep seeking in-date stock", "summary": "Use expired epinephrine or medication if the solution looks clear and colourless, while still trying to get in-date stock. You accept it may be weaker." }
+      ]
+    },
+    {
+      "card": "DC-05", "title": "Storing gasoline, kerosene or propane in an attached garage",
+      "settings_summary": "Fuel gives off vapour. In an attached garage that vapour can reach a water heater pilot, a spark from a switch or a car, and a fire there spreads into the house. Fire codes limit how much fuel a garage may hold. An outbuilding away from the house removes most of that risk; approved cans, a quantity cap and doing every transfer outdoors reduce it.",
+      "options": [
+        { "id": "outbuilding-only", "label": "Outbuilding only", "summary": "Store fuel in a shed or outbuilding away from the house. You give up convenience." },
+        { "id": "garage-with-rules", "label": "Garage, with rules", "summary": "Approved cans, away from ignition sources, transfers done outdoors, a quantity cap written on the card. You accept a fire risk next to the house." }
+      ]
+    },
+    {
+      "card": "DC-06", "title": "Carrying fuel inside a passenger vehicle",
+      "settings_summary": "A fuel can inside a car can leak vapour into the space where people breathe, and in a crash it can rupture inside the cabin. Carriers outside the vehicle (roof, hitch, trailer) keep vapour and spills away from people. Sealed cans in the cargo area with windows cracked, for the shortest leg possible, reduce the risk but do not remove it.",
+      "options": [
+        { "id": "never-inside", "label": "Never inside: roof, hitch or trailer only", "summary": "Fuel travels outside the passenger space. You need a carrier or trailer." },
+        { "id": "cargo-area-shortest-time", "label": "Cargo area, shortest time", "summary": "Sealed cans in the cargo area, windows cracked, shortest possible leg. You accept vapour and crash risk." }
+      ]
+    },
+    {
+      "card": "DC-07", "title": "Converting a furnace or well pump to cord-and-plug yourself",
+      "settings_summary": "To run a hard-wired furnace or well pump from a generator, it has to be disconnected from house wiring and given a plug. Done wrong, this can shock you, start a fire, or feed power back into the street lines. Electricians are trained to do it safely. The kit's write-up, with the main breaker off and locked and the setup tested before you need it, reduces the risk if no electrician is available. Feeding power back through an outlet is never an option.",
+      "options": [
+        { "id": "electrician-only", "label": "Electrician only", "summary": "Have an electrician do it before it is needed. You may not get it done in time." },
+        { "id": "diy-with-write-up", "label": "Do it ourselves with the write-up", "summary": "Follow the kit's write-up, main breaker off and locked, tested before it is needed. You accept shock and fire risk from your own work." }
+      ]
+    },
+    {
+      "card": "DC-08", "title": "Using insulin or other refrigerated medication after a heat excursion",
+      "settings_summary": "Insulin and some other medicines lose strength if kept too warm for too long. Makers publish how long each one is good unrefrigerated. After that window the medicine may be weaker, and there is no way to see this. With no other supply, using it with closer checks may be better than none. Frozen insulin is always discarded; that is not a choice.",
+      "options": [
+        { "id": "discard-after-window", "label": "Follow the published window exactly", "summary": "Discard once the maker's unrefrigerated window has passed. You may run out sooner." },
+        { "id": "use-and-watch", "label": "Use beyond the window and watch closely", "summary": "Only if no alternative: keep using it with closer monitoring. You accept doses that may be weaker than the label says." }
+      ]
+    },
+    {
+      "card": "DC-09", "title": "An infant or toddler sharing a bed with adults for warmth",
+      "settings_summary": "Babies can suffocate in adult beds: soft mattresses, pillows, heavy blankets and a sleeping adult rolling over. Paediatric agencies advise a separate firm sleep surface for every baby. In a cold house, sharing body heat is tempting. Risk is highest under 12 months; a firm surface, no heavy covers over the child and sober adults reduce it for older toddlers.",
+      "options": [
+        { "id": "separate-sleep-surface", "label": "Separate sleep surface always", "summary": "Keep the child warm with layers and a warm room instead. You give up shared warmth." },
+        { "id": "bed-share-with-rules", "label": "Bed-share with rules, over 12 months only", "summary": "Over 12 months, firm surface, no heavy covers over the child, sober adults only. You accept a suffocation risk." }
+      ]
+    },
+    {
+      "card": "DC-10", "title": "Pets when keeping them becomes impossible",
+      "settings_summary": "In a long emergency, food, water or travel may make it impossible to keep every animal. This card asks you to decide ahead, calmly, what you would do, so it is not decided in a panic. Every option has a cost to the animal or to the family. The binder gives the facts for each and does not judge your choice.",
+      "options": [
+        { "id": "keep-at-all-costs", "label": "Keep them at all costs", "summary": "Pets share the household's food, water and travel. You accept less for the people." },
+        { "id": "release-with-food-out", "label": "Release with food out", "summary": "Release animals with food and water left out. You accept they may suffer or not survive." },
+        { "id": "humane-end", "label": "Humane end, with the method page", "summary": "End the animal's life humanely using the method page. You accept a hard, final choice." }
+      ]
+    },
+    {
+      "card": "DC-11", "title": "Firing weapons on your own property for practice or zeroing",
+      "settings_summary": "A bullet can travel more than a mile and still kill. Ranges use a backstop (a berm or hill) to stop every round. Shooting on your own land without one risks hitting a person, animal or building you cannot see. A known backstop, no one downrange and neighbours told reduce that risk.",
+      "options": [
+        { "id": "never", "label": "Never on our property", "summary": "Practise only at a range. You give up practice when ranges are closed." },
+        { "id": "with-backstop-rule", "label": "Only against a known backstop", "summary": "Known backstop, no one downrange, neighbours told. You accept the risk of a round escaping." }
+      ]
+    },
+    {
+      "card": "DC-12", "title": "Defensive use of force",
+      "settings_summary": "This card is a worksheet, not a multiple choice. You read the page and write your household's rule in your own words on the printed card. The state law line is printed as a note about the time before the collapse. Nothing to pick here.",
+      "options": []
+    },
+    {
+      "card": "DC-13", "title": "Drinking water from a pool, hot tub or untreated surface source",
+      "settings_summary": "Pool and hot-tub water carry chemicals (chlorine, stabiliser, salt, algaecide) and germs; streams and ponds carry germs and sometimes farm or industrial chemicals. Filters remove germs but most do not remove dissolved chemicals. Distilling removes both but uses fuel. The water page gives a treatment ladder for each source.",
+      "options": [
+        { "id": "distill-only", "label": "Distil only", "summary": "Drink pool or surface water only after distilling. You spend fuel and time." },
+        { "id": "filter-and-chlorinate", "label": "Filter and chlorinate fresh pools", "summary": "For a recently maintained pool: filter, then chlorinate. You accept some chemical exposure." },
+        { "id": "drink-treated-surface-water", "label": "Treated surface water, with the ladder", "summary": "Drink surface water after the treatment ladder on the page. You accept chemicals that treatment may not remove." }
+      ]
+    },
+    {
+      "card": "DC-14", "title": "Eating food past its date, dented or rusted cans, or food from a failed freezer",
+      "settings_summary": "Dates on food mostly mark quality, not safety, but some old or damaged food can make you sick. A dent in a seam or deep rust can let germs into a can. Thawed freezer food is safe only within limits. Bulging, leaking or spurting cans are always thrown away, because they can carry botulism; that is not a choice.",
+      "options": [
+        { "id": "label-strict", "label": "Follow the label strictly", "summary": "Discard anything past date or damaged. You waste food you may need." },
+        { "id": "inspect-and-eat", "label": "Inspect and eat, with the rules", "summary": "Use the page's rules for each case. You accept a small risk of food illness." }
+      ]
+    },
+    {
+      "card": "DC-15", "title": "Giving someone else's prescription medication",
+      "settings_summary": "A prescription is written for one person: their weight, other drugs, allergies, kidneys and liver. Another person can have a dangerous reaction or interaction. When the pharmacy is gone and someone is running out, sharing the same drug at the same strength is the narrowest form of this risk.",
+      "options": [
+        { "id": "never", "label": "Never", "summary": "Each person uses only their own prescription. Someone may run out." },
+        { "id": "same-drug-same-strength-only", "label": "Same drug, same strength only", "summary": "Only when it is the exact same drug and strength the person already takes, with the page's cautions. You accept interaction and mix-up risks." }
+      ]
+    },
+    {
+      "card": "DC-16", "title": "Antibiotics without a prescription (veterinary or stockpiled)",
+      "settings_summary": "Antibiotics treat some bacterial infections and do nothing for viruses. The wrong drug, dose or length can cause allergic reactions, side effects and resistant infections, and can hide a problem that needs a doctor. Veterinary products are not made for people. If chosen, the binder prints only the published adult table as published; it does not cover children.",
+      "options": [
+        { "id": "never", "label": "Never without a prescriber", "summary": "Use antibiotics only when prescribed. Some infections may go untreated." },
+        { "id": "last-resort", "label": "Last resort, with the published table", "summary": "Only with the infection-signs page and the published adult table printed as published; children excluded. You accept reaction and wrong-drug risk." }
+      ]
+    },
+    {
+      "card": "DC-17", "title": "Old kerosene, diesel or gasoline in a heater or engine",
+      "settings_summary": "Fuel goes stale. Old gasoline gums up engines; old kerosene or diesel can pick up water and grow sludge, so a heater burns badly and smokier, making more carbon monoxide. Rotating fuel on a schedule keeps it fresh. A simple jar test (look for water, haze, sediment and colour) catches most bad fuel.",
+      "options": [
+        { "id": "fresh-only", "label": "Fresh fuel only, rotated", "summary": "Follow the rotation schedule and burn only fresh fuel. You need to buy and rotate regularly." },
+        { "id": "jar-test-and-use", "label": "Jar-test old fuel, then use", "summary": "Use older fuel that passes the jar test on the page. You accept worse burning and more upkeep." }
+      ]
+    },
+    {
+      "card": "DC-18", "title": "Feeding a food-allergic person unlabeled, traded or scavenged food",
+      "settings_summary": "Without a label you cannot know if food contains or touched the allergen. For someone with a severe allergy, a trace can cause anaphylaxis, a reaction that can kill in minutes. Single-ingredient foods you can see are lower risk; having epinephrine in hand when trying new food does not prevent a reaction but treats it.",
+      "options": [
+        { "id": "never", "label": "Never", "summary": "Only labeled or home-prepared safe food. You may have less to eat." },
+        { "id": "single-ingredient-only", "label": "Single-ingredient foods only", "summary": "Plain foods you can identify by eye. You accept cross-contact risk." },
+        { "id": "with-epinephrine-in-hand", "label": "With epinephrine in hand", "summary": "Try unlabeled food only with epinephrine ready, under the household's own written rule. You accept a reaction may happen." }
+      ]
+    },
+    {
+      "card": "DC-19", "title": "When to leave home",
+      "settings_summary": "This card is a worksheet. You read the triggers page and write your household's own thresholds for leaving on the printed card. Nothing to pick here.",
+      "options": []
+    },
+    {
+      "card": "DC-20", "title": "Open-flame cooking or candles indoors",
+      "settings_summary": "Candles and open flames are a leading cause of house fires during power cuts, and burning fuel indoors makes carbon monoxide. An extinguisher in reach, a working smoke and CO alarm, and never leaving a flame alone reduce the risk.",
+      "options": [
+        { "id": "never-indoors", "label": "Never indoors", "summary": "Battery lights indoors, cooking outdoors. You give up warmth and convenience." },
+        { "id": "with-extinguisher-and-alarm", "label": "With extinguisher and alarm", "summary": "Flame indoors only with an extinguisher in reach and working alarms. You accept a fire and CO risk." }
+      ]
+    },
+    {
+      "card": "DC-21", "title": "Using a fireplace or wood stove that has not been inspected this year",
+      "settings_summary": "Chimneys build up creosote, a tar that can catch fire inside the flue. Cracks let smoke and carbon monoxide into the house. Fire agencies advise a yearly inspection. The page gives a do-it-yourself inspection; small fires, watched, reduce the risk from an unchecked chimney.",
+      "options": [
+        { "id": "inspect-first", "label": "Inspect first", "summary": "Use the page's own inspection before the first fire. Takes time and a ladder." },
+        { "id": "use-with-small-fires-and-watch", "label": "Small fires and watch", "summary": "Use it uninspected with small fires and someone watching. You accept a chimney-fire risk." }
+      ]
+    },
+    {
+      "card": "DC-22", "title": "Potassium iodide for adults over 40",
+      "settings_summary": "Potassium iodide (KI) protects the thyroid from radioactive iodine after a nuclear accident. The FDA does not recommend it for adults over 40 unless exposure is very high, because the risk of side effects rises with age and the thyroid benefit falls. The binder prints the FDA table as published.",
+      "options": [
+        { "id": "follow-fda-table", "label": "Follow the FDA table", "summary": "Over 40, take KI only if exposure is very high, as the table says." },
+        { "id": "take-anyway", "label": "Take it anyway", "summary": "Adults over 40 take KI regardless. You accept side-effect risk the FDA advises against." }
+      ]
+    },
+    {
+      "card": "DC-23", "title": "Chlorinating water beyond label strength when it is very dirty",
+      "settings_summary": "Dirt in water uses up chlorine, so germs can survive a normal dose. Labels and agencies say to filter or settle cloudy water first, then use the normal dose. Doubling the dose and waiting longer is the usual fallback when water cannot be cleared; it leaves a stronger chlorine taste.",
+      "options": [
+        { "id": "label-dose-and-filter-first", "label": "Label dose, filter first", "summary": "Settle and filter first, then the label dose. Takes more time and gear." },
+        { "id": "double-dose-and-wait", "label": "Double dose and wait", "summary": "Double the dose and wait longer when water cannot be cleared. You accept more chlorine." }
+      ]
+    },
+    {
+      "card": "DC-24", "title": "Letting children do dangerous jobs because hands are short",
+      "settings_summary": "This card is a worksheet. You write, for each age band, which jobs (fire, fuel, tools, animals) your children may do and under what rule, on the printed card. Nothing to pick here.",
+      "options": []
+    }
+  ]
+}
