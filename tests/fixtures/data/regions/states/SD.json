@@ -3,7 +3,7 @@
   "sources": [],
   "defaults": { "zone": "4b" },
   "counties": {
-    "Beadle County": { "fips": "46005", "zone": "4b", "last_frost": "May 10", "first_frost": "Sep 25", "growing_days": 138,
+    "Beadle County": { "fips": "46005", "zone": "4q", "last_frost": "May 10", "first_frost": "Sep 25", "growing_days": 138,
       "jan_low_f": 3, "jul_high_f": 86, "record_low_f": -41, "record_high_f": 112, "precip_in": 21.5, "snow_in": 38, "elevation_ft": 1290,
       "ecoregion": "Fixture Plains", "nws_office": "Fixture NWS office",
       "nwr": [ { "call": "WXF01", "freq": "162.475", "same": "046005" } ],

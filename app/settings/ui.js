@@ -65,6 +65,13 @@ export function q(o) {
       });
       return wrap(o, o.after ? h('div', { class: 'row' }, input, o.after) : input);
     }
+    case 'date': {
+      const input = h('input', {
+        ...common, type: 'date', value: v ?? '', min: o.min, max: o.max,
+        oninput: (e) => { setAt(o.path, e.target.value === '' ? undefined : e.target.value); hooks.changed(); },
+      });
+      return wrap(o, input);
+    }
     case 'textarea': {
       const ta = h('textarea', {
         ...common, rows: o.rows || 3, maxlength: o.maxlength, placeholder: o.placeholder,

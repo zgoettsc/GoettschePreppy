@@ -72,7 +72,7 @@ export const STEPS = [
       noticeFull(NOTICE.privateCopy, 'private-copy'),
       noticeFull(NOTICE.whatItIs, 'what-it-is'),
       q({ kind: 'password', path: P('access', 'access_key'), label: 'Your access key', required: true, maxlength: 128,
-        why: 'The key shows the relay that the owner invited you. It is checked, then forgotten. This page never stores it.',
+        why: 'The key shows the relay that the owner invited you. It is checked, then forgotten. This page never stores it, and it is never put in your saved answers file.',
         autocomplete: 'off', reveal: env.revealKey,
         after: [
           h('button', { type: 'button', class: 'btn small ghost', 'aria-pressed': env.revealKey ? 'true' : 'false',
@@ -122,6 +122,9 @@ export const STEPS = [
           why: 'An inside room with no windows, on the lowest floor, is where you shelter from a tornado.' }),
         d.windowless_interior_room?.present === true ? q({ kind: 'text', path: P('dwelling', 'windowless_interior_room', 'which'), label: 'Which room?', maxlength: 80,
           placeholder: 'For example: downstairs bathroom', why: 'So your family plan can name the room.' }) : null,
+        q({ kind: 'text', path: P('dwelling', 'warm_room'), label: 'Which room would you heat if you could only heat one?', maxlength: 80,
+          placeholder: 'For example: the living room',
+          why: 'In a long winter outage you keep one room warm, not the whole house. The binder plans the warm room (heater spot, vents, alarm) around the room you name.' }),
         q({ kind: 'radio', path: P('dwelling', 'water_supply'), label: 'Where does your water come from?', required: true, options: E.water,
           why: 'How you get water when the taps stop depends on where it comes from now. A well adds the well-pump pages.' }),
         q({ kind: 'radio', path: P('dwelling', 'sewer'), label: 'Where does your toilet drain?', required: true, options: E.sewer,
@@ -326,8 +329,10 @@ function memberFields(ip) {
     ageQ, wQ,
     q({ kind: 'select', path: [...ip, 'sex'], label: 'Sex', options: E.sex, rerender: true,
       why: 'Only used to put the pregnancy and menstrual pages near the front.' }),
-    showsPregnancy(m) ? q({ kind: 'select', path: [...ip, 'pregnant_or_nursing'], label: 'Pregnant or nursing?', options: E.pregnant,
+    showsPregnancy(m) ? q({ kind: 'select', path: [...ip, 'pregnant_or_nursing'], label: 'Pregnant or nursing?', options: E.pregnant, rerender: true,
       why: 'Adds water and food allowances and the infant-feeding pages.' }) : null,
+    showsPregnancy(m) && ['pregnant', 'both'].includes(m.pregnant_or_nursing) ? q({ kind: 'date', path: [...ip, 'due_date'], label: 'Due date',
+      why: 'Puts the birth and newborn pages at the front as the date gets close, and goes on your family plan.' }) : null,
     h('details', { class: 'more', id: idOf(ip, 'conditions-more'), open: (conds.length || m.conditions_other) ? true : undefined },
       h('summary', {}, `Medical conditions${conds.length ? ` (${conds.length} ticked)` : ''}`),
       q({ kind: 'multi', path: [...ip, 'conditions'], label: 'Tick any that apply', options: CONDITIONS.map(([id, n]) => ({ value: id, label: n })),
@@ -339,6 +344,9 @@ function memberFields(ip) {
       make: () => ({}), itemTitle: (x) => (x.name ? ` · ${x.name}` : ''),
       item: (mp) => [
         q({ kind: 'text', path: [...mp, 'name'], label: 'Name', required: true, maxlength: 80, why: 'As it is written on the bottle or box.' }),
+        q({ kind: 'select', path: [...mp, 'for_condition'], label: 'What it is for', emptyLabel: 'Not sure, skip',
+          options: [...CONDITIONS.map(([id, n]) => [id, n]), ['other', 'Something else, not in this list']],
+          why: 'Links the medicine to its condition pages, so its storage and supply notes sit together. Optional.' }),
         q({ kind: 'text', path: [...mp, 'strength'], label: 'Strength', maxlength: 40, placeholder: 'For example: 10 mg', why: 'From the label, so the right box is packed.' }),
         q({ kind: 'text', path: [...mp, 'schedule'], label: 'How often', maxlength: 80, placeholder: 'For example: once a day', why: 'From the label. Printed as written.' }),
         q({ kind: 'int', path: [...mp, 'days_on_hand'], label: 'Days of it on hand', unit: 'days',
@@ -380,6 +388,11 @@ function gearFields() {
         item: (ip) => [
           q({ kind: 'text', path: [...ip, 'model'], label: 'Model', maxlength: 60, why: 'If we know the model, the binder prints its specs.' }),
           q({ kind: 'number', path: [...ip, 'wh'], label: 'Capacity', unit: 'Wh', why: 'On the label. Leave blank if unsure; the binder prints a blank row.' }),
+          labelHelp('Read these two off the label or the manual, next to the solar (PV, DC) input port. They are the most a solar panel may feed in.'),
+          q({ kind: 'number', path: [...ip, 'pv_input_max_v'], label: 'Solar input, highest volts', unit: 'V',
+            why: 'Panels wired together must stay under this voltage or they can damage the station. The binder checks your panels against it.' }),
+          q({ kind: 'number', path: [...ip, 'pv_input_max_w'], label: 'Solar input, most watts', unit: 'W',
+            why: 'More panel watts than this are wasted. Sets how many panels are worth carrying.' }),
         ] }),
       list({ path: P('gear', 'solar_panels'), title: 'Solar panels', itemName: 'Panel type', max: 10, make: () => ({ count: 1 }),
         why: 'Panel watts and count set how much you can recharge each day.',
@@ -387,6 +400,11 @@ function gearFields() {
           q({ kind: 'text', path: [...ip, 'model'], label: 'Model', maxlength: 60, why: 'If we know the model, the binder prints its specs.' }),
           q({ kind: 'number', path: [...ip, 'watts'], label: 'Watts each', unit: 'W', why: 'On the label on the back of the panel.' }),
           q({ kind: 'int', path: [...ip, 'count'], label: 'How many', why: 'Multiplies the watts.' }),
+          labelHelp('Read these two off the label on the back of the panel. Voc is "open-circuit voltage"; Isc is "short-circuit current".'),
+          q({ kind: 'number', path: [...ip, 'voc'], label: 'Voc (open-circuit voltage)', unit: 'V',
+            why: 'Used to check that panels wired in a chain stay under your power station\'s solar voltage limit, even on a cold morning.' }),
+          q({ kind: 'number', path: [...ip, 'isc'], label: 'Isc (short-circuit current)', unit: 'A',
+            why: 'Used to check that panels wired side by side stay under the station\'s current limit.' }),
         ] }),
       generatorToggle(),
       ui.hasGenerator ? h('div', { class: 'subgroup' },
@@ -405,6 +423,8 @@ function gearFields() {
         item: (ip) => [
           q({ kind: 'select', path: [...ip, 'kind'], label: 'Kind', required: true, options: E.heaterKind, why: 'Each kind has its own safety pages.' }),
           q({ kind: 'text', path: [...ip, 'model'], label: 'Model', maxlength: 60, why: 'If we know the model, the binder prints its specs.' }),
+          q({ kind: 'int', path: [...ip, 'btu'], label: 'Heat output', unit: 'BTU per hour',
+            why: 'On the label. Sets how big a room it can warm and how fast it uses fuel.' }),
         ] })),
     group('Fuel on hand', 'Fuel amounts set how many days of heat, cooking and power you have. Rough numbers are fine; leave blank for none.',
       h('div', { class: 'grid2' },
@@ -455,6 +475,9 @@ function gearFields() {
         why: 'Changes the travel and carrying pages if vehicles cannot be used.' })),
   ];
 }
+
+/** A plain help line for questions read off a label. */
+function labelHelp(text) { return h('p', { class: 'label-help' }, text); }
 
 /** UI-only answer (not in the profile): whether the generator questions apply. */
 function generatorToggle() {

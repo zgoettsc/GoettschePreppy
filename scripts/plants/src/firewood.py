@@ -14,7 +14,7 @@ F = []
 def f(key, sci, common, heat, id, notes, habitat, season='12', src=None, groups=None, use='', look=None, **kw):
     F.append(dict(key=key, sci=sci, common=common, group='firewood', groups=groups or ['firewood'], kind='plant',
                   burn=dict(heat=heat, season_months=season, notes=notes), id=id, use=use, habitat=habitat,
-                  look=look or {}, src=src or ['plants', 'missouri-wood-fuel', 'fpl-wood-handbook', 'silvics'], **kw))
+                  look=look or {}, src=src or ['plants', 'missouri-wood-fuel', 'fpl-wood-handbook', 'silvics', 'feis'], **kw))
 
 # ---------------------------------------------------------------- oaks
 f('post-oak', 'Quercus stellata', ['Post oak'], 'high',

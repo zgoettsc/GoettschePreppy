@@ -107,6 +107,27 @@ export function platesHtml(keys, env) {
   return `\n\n<section class="platesec">${blocks}<p class="dim">Real photographs from the credited public-domain sources, never AI-generated. Photographs support recognition; certainty needs the full description. No wild plant is eaten on a test (→ 30-01).</p></section>\n\n`;
 }
 
+// `{{plates}}` on a page whose `plates:` is empty: the plates of the region in scope (inside
+// `#each destinations as x` that destination's region, else the home region), filtered by the
+// page's subject: 05-06 deadly plants and look-alikes, 05-17 edibles, 06-03 firewood trees, any
+// other page all three. Home ecoregion lists come from data/regions/ecoregions.json.
+const PAGE_PLATE_KINDS = { '05-06': ['deadly'], '05-17': ['edible'], '06-03': ['firewood'] };
+const NATIONAL = { deadly: '32-60', edible: '32-61', firewood: '32-62' };
+function regionPlates(page, scopes, env) {
+  let region = env.ctx.region?.home, where = 'your home area';
+  for (let i = scopes.length - 1; i > 0; i--) {
+    const item = Object.values(scopes[i] || {}).find(v => v && typeof v === 'object' && v.region && typeof v.region === 'object');
+    if (item) { region = item.region; where = item.name ? `${item.name}` : 'this destination'; break; }
+  }
+  const kinds = PAGE_PLATE_KINDS[page.id.slice(0, 5)] || ['deadly', 'edible', 'firewood'];
+  const keys = [];
+  for (const k of kinds) for (const x of (k === 'firewood' ? region?.trees?.firewood : region?.plants?.[k]) || []) if (x?.key && !keys.includes(x.key)) keys.push(x.key);
+  const national = kinds.map(k => NATIONAL[k]).filter(pre => env.labels[pre]).map(pre => `→ ${pre}`).join(', ');
+  const eco = region?.ecoregion ? ` (${escapeValue(region.ecoregion)})` : '';
+  if (!keys.length) return `\n\n<p class="dim">The plant list for ${escapeValue(where)}${eco} is not in this build of the region data.${national ? ` Every plate of this kind is in the national appendix: ${national}.` : ''} Never identify a plant from text alone.</p>\n\n`;
+  return `\n\n<p class="dim">Plates for ${escapeValue(where)}${eco}.${national ? ` The national appendix has the rest: ${national}.` : ''}</p>` + platesHtml(keys, env);
+}
+
 // ai blocks: a token now, the model's text later (generate.js substitutes before Markdown).
 function aiToken(id, scopes, env) {
   const spec = env.kit.ai_blocks?.[id];
@@ -129,7 +150,7 @@ export function renderPageMarkdown(page, env) {
     card: id => cardBox(id, env),
     photo: id => photoSlot(id, env),
     figure: id => figureBlock(id, env),
-    plates: () => platesHtml(page.plates, env),
+    plates: scopes => ((page.plates || []).length ? platesHtml(page.plates, env) : regionPlates(page, scopes, env)),
     ai: (id, scopes) => aiToken(id, scopes, env),
     onBlank: p => blanks.push(p),
   });

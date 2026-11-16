@@ -38,7 +38,8 @@ strict.required = [...new Set([...strict.required, 'access'])];
 strict.properties.access.required = [...new Set(['access_key', ...strict.properties.access.required])];
 const ajv = new Ajv2020({ code: { source: true, esm: true }, allErrors: true, strict: false,
   schemas: [schema, strict] });
-let code = standaloneCode(ajv, { validateSaved: schema.$id, validateGenerate: strict.$id, default: strict.$id });
+let code = standaloneCode(ajv, { validateSaved: schema.$id, validateGenerate: strict.$id }) +
+  '\nexport default validateGenerate;\n';
 
 // ajv's standalone output still `require`s small runtime helpers. Inline them as CommonJS
 // shims so the file is a plain browser module. Only the modules listed here may appear.

@@ -131,6 +131,11 @@ input.num { max-width: 10rem; }
 .hint { color: var(--muted); font-size: 0.9rem; font-weight: 400; }
 .choice.single { margin: 0; }
 
+/* help for questions read off a label */
+.label-help { font-size: 0.92rem; background: var(--accent-soft); border-radius: 6px; padding: 8px 10px; margin: 0 0 10px; }
+input[type=date] { width: 100%; min-height: var(--tap); padding: 10px 12px; font: inherit; font-size: 17px;
+  color: var(--text); background: var(--surface); border: 2px solid var(--line); border-radius: 8px; }
+
 /* add-remove lists */
 .list > .muted { margin: 4px 0; }
 .item { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 14px; margin: 0 0 12px; }

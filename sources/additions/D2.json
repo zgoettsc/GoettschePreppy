@@ -1,0 +1,134 @@
+[
+ {
+  "key": "usda-ars-poisonous-plant-research-laboratory-poisono-d2a001",
+  "title": "Poisonous Plant Research (Logan, Utah): poisonous plants of western rangelands",
+  "org": "USDA ARS Poisonous Plant Research Laboratory",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "US Government work; public domain.",
+  "url": "https://www.ars.usda.gov/pacific-west-area/logan-ut/poisonous-plant-research/",
+  "household_cited_by": [],
+  "cited_by": []
+ },
+ {
+  "key": "cornell-university-department-of-animal-science-plan-d2a002",
+  "title": "Plants Poisonous to Livestock and other Animals",
+  "org": "Cornell University Department of Animal Science",
+  "date": "2026-11-16",
+  "licence_class": "restricted",
+  "licence_note": "© Cornell University. Fetched per household for Large downloads only.",
+  "url": "https://poisonousplants.ansci.cornell.edu/",
+  "household_cited_by": [],
+  "cited_by": []
+ },
+ {
+  "key": "nc-state-extension-north-carolina-extension-gardener-d2a003",
+  "title": "North Carolina Extension Gardener Plant Toolbox (poisonous and edible plant profiles)",
+  "org": "NC State Extension",
+  "date": "2026-11-16",
+  "licence_class": "restricted",
+  "licence_note": "© NC State University. Fetched per household for Large downloads only.",
+  "url": "https://plants.ces.ncsu.edu/",
+  "household_cited_by": [],
+  "cited_by": []
+ },
+ {
+  "key": "cdc-niosh-poisonous-plants-outdoor-workers-d2a004",
+  "title": "Poisonous Plants (outdoor workers): poison ivy, oak and sumac; never burn them",
+  "org": "CDC / NIOSH",
+  "date": "2026-11-16",
+  "licence_class": "blocked",
+  "licence_note": "US Government work; public domain. The CDC host refused automated capture from the build session (HTTP 403); attempt again at download.",
+  "url": "https://www.cdc.gov/niosh/outdoor-workers/about/poisonous-plants.html",
+  "household_cited_by": [],
+  "cited_by": []
+ },
+ {
+  "key": "us-fda-bad-bug-book-2nd-edition-natural-toxins-mushr-d2a005",
+  "title": "Bad Bug Book, 2nd edition: Handbook of Foodborne Pathogenic Microorganisms and Natural Toxins (mushroom toxins chapter)",
+  "org": "US FDA",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "US Government work; public domain.",
+  "url": "https://www.fda.gov/food/foodborne-pathogens/bad-bug-book-second-edition",
+  "household_cited_by": [],
+  "cited_by": []
+ },
+ {
+  "key": "cdc-amanita-phalloides-mushroom-poisonings-northern-d2a006",
+  "title": "Amanita phalloides Mushroom Poisonings — Northern California, December 2016 (MMWR 66(21))",
+  "org": "CDC",
+  "date": "2026-11-16",
+  "licence_class": "blocked",
+  "licence_note": "US Government work; public domain. The CDC host refused automated capture from the build session (HTTP 403); attempt again at download.",
+  "url": "https://www.cdc.gov/mmwr/volumes/66/wr/mm6621a1.htm",
+  "household_cited_by": [],
+  "cited_by": []
+ },
+ {
+  "key": "cdc-ricin-chemical-fact-sheet-d2a007",
+  "title": "Ricin: chemical fact sheet",
+  "org": "CDC",
+  "date": "2026-11-16",
+  "licence_class": "blocked",
+  "licence_note": "US Government work; public domain. The CDC host refused automated capture from the build session (HTTP 403); attempt again at download.",
+  "url": "https://www.cdc.gov/chemical-emergencies/chemical-fact-sheets/ricin.html",
+  "household_cited_by": [],
+  "cited_by": []
+ },
+ {
+  "key": "usda-forest-service-fpl-wood-handbook-wood-as-an-engi-d2a008",
+  "title": "Wood Handbook: Wood as an Engineering Material (FPL-GTR-282)",
+  "org": "USDA Forest Service, Forest Products Laboratory",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "US Government work; public domain. Host not reachable from the build session; fetch at download.",
+  "url": "https://www.fpl.fs.usda.gov/documnts/fplgtr/fplgtr282/fpl_gtr282.pdf",
+  "household_cited_by": [],
+  "cited_by": []
+ },
+ {
+  "key": "usda-forest-service-silvics-of-north-america-agricul-d2a009",
+  "title": "Silvics of North America (Agriculture Handbook 654)",
+  "org": "USDA Forest Service",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "US Government work; public domain. Host not reachable from the build session; fetch at download.",
+  "url": "https://www.srs.fs.usda.gov/pubs/misc/ag_654/table_of_contents.htm",
+  "household_cited_by": [],
+  "cited_by": []
+ },
+ {
+  "key": "usda-forest-service-fire-effects-information-system-d2a010",
+  "title": "Fire Effects Information System (FEIS): species reviews",
+  "org": "USDA Forest Service, Rocky Mountain Research Station, Fire Sciences Laboratory",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "US Government work; public domain.",
+  "url": "https://www.feis-crs.org/feis/",
+  "household_cited_by": [],
+  "cited_by": []
+ },
+ {
+  "key": "us-epa-level-iii-and-iv-ecoregions-of-the-continenta-d2a011",
+  "title": "Level III and IV Ecoregions of the Continental United States",
+  "org": "US EPA",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "US Government work; public domain.",
+  "url": "https://www.epa.gov/eco-research/level-iii-and-iv-ecoregions-continental-united-states",
+  "household_cited_by": [],
+  "cited_by": []
+ },
+ {
+  "key": "university-of-maine-cooperative-extension-facts-on-f-d2a012",
+  "title": "Facts on Fiddleheads (Bulletin #4198)",
+  "org": "University of Maine Cooperative Extension",
+  "date": "2026-11-16",
+  "licence_class": "restricted",
+  "licence_note": "© University of Maine. Fetched per household for Large downloads only.",
+  "url": "https://extension.umaine.edu/publications/4198e/",
+  "household_cited_by": [],
+  "cited_by": []
+ }
+]

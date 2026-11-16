@@ -184,7 +184,7 @@ e('ostrich-fern', 'Matteuccia struthiopteris', ['Ostrich fern', 'Fiddlehead fern
    'Brown papery scales on the coils; no fuzz.'],
   'Tightly coiled fiddleheads, boiled 15 minutes (raw or lightly cooked fiddleheads have caused food poisoning). Take only half the coils from a crown.',
   'Floodplain woods of the North and upper Midwest.',
-  {'bracken-fern': 'Bracken fiddleheads are fuzzy and branch into three; ostrich fern fiddleheads are smooth with a U-shaped groove.'})
+  src=['plants', 'umaine-fiddleheads'], look={'bracken-fern': 'Bracken fiddleheads are fuzzy and branch into three; ostrich fern fiddleheads are smooth with a U-shaped groove.'})
 e('broadleaf-cattail', 'Typha latifolia', ['Broadleaf cattail', 'Common cattail'], 'caution',
   ['Grows standing in shallow water in large stands.',
    'Long flat leaves, spongy inside, with a rounded base.',
@@ -669,7 +669,7 @@ e('eastern-white-pine', 'Pinus strobus', ['Eastern white pine'], 'caution',
 e('sugar-maple', 'Acer saccharum', ['Sugar maple'], 'starter',
   ['Large tree with paired five-lobed leaves with smooth-edged lobes and U-shaped notches.',
    'Paired winged seeds.'],
-  'Sap in late winter, boiled down to syrup (40 parts sap to 1 of syrup); drink fresh sap.',
+  'Sap in late winter, drunk fresh or boiled down to syrup (it takes many gallons of sap for one of syrup).',
   'Woods of the Northeast and Midwest.', groups=['edible', 'firewood'])
 e('paper-birch', 'Betula papyrifera', ['Paper birch'], 'starter',
   ['Tree with chalky white bark peeling in papery sheets.',

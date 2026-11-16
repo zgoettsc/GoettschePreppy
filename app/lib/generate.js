@@ -27,7 +27,7 @@ import { renderPageMarkdown, markdownToHtml, articleHtml, buildLabels, esc } fro
 import { localChecks, checkAiText, modelReview, ownerTokenRegexes, URL_RE } from './review.js';
 import { MODEL, messageText, createRelay } from './relay-client.js';
 import { sourceBlock, toBase64 } from './sources.js';
-import { mapTargets, fetchTopoMaps } from './maps.js';
+import { mapTargets, fetchTopoMaps, mapPlan as mapPlanFor } from './maps.js';
 import { shellParts, jsonEmbed } from '../binder/shell.js';
 
 export const REVIEW_NOTES_ID = '25-11-review-notes';
@@ -64,6 +64,10 @@ export function estimateSizes(kit) {
   return { small: s.small_bytes || 0, large: s.large_bytes || 0, note: s.note || '' };
 }
 
+// Topo maps before generating (Large): counts and MB for home + destinations, and for the
+// optional route counties ({ routeMaps: true }), so the download screen can show the size.
+export function mapPlan(profile, kit) { return mapPlanFor(kit, buildContext(profile, kit, { size: 'large' })); }
+
 // ---- page set ----------------------------------------------------------------------------------
 function promotedFor(page, ctx) {
   const st = page._state;
@@ -76,7 +80,7 @@ function promotedFor(page, ctx) {
 }
 
 function fallbackPage(id, title, body, extra = {}) {
-  return { id, section: '', title, version: 1, revised: '', layer: 'generated', danger_level: 'none', sources: [], derived_from: [], body, ...extra };
+  return { id, section: '', title, version: 1, revised: '', layer: 'generated', danger_level: 'none', sources: [], body, ...extra };
 }
 
 export function selectPages(kit, ctx, size) {
@@ -284,7 +288,8 @@ export async function generateBinder(profile, kit, opts = {}) {
   // assets
   const assets = createAssets(kit, loadAsset, notes);
   progress('assets', 0, 1, 'Loading plates and figures');
-  await assets.preloadPlates(new Set(all.flatMap(p => p.plates || [])));
+  // every binder carries every plate (G21); each image is stored once as a CSS class
+  await assets.preloadPlates(new Set([...Object.keys(kit.plates || {}), ...all.flatMap(p => p.plates || [])]));
   await assets.preloadFigures(new Set(all.flatMap(p => p.figures || [])));
   abort();
 
@@ -412,7 +417,7 @@ export async function generateBinder(profile, kit, opts = {}) {
       progress('sources', ++done, keys.length, 'Binding source documents');
     });
     // maps (G16): home county, destinations and the counties on the straight line between
-    const maps = await fetchTopoMaps(relay, mapTargets(kit, ctx), { maxMaps: opts.maxMaps ?? 12, signal });
+    const maps = await fetchTopoMaps(relay, mapTargets(kit, ctx, { route: !!opts.routeMaps }), { maxMaps: opts.maxMaps ?? 12, signal });
     maps.forEach((m, n) => {
       if (m.ok) {
         if (!srcParts.has('25')) srcParts.set('25', []);

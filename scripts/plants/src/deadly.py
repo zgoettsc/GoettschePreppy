@@ -28,7 +28,7 @@ d('water-hemlock', 'Cicuta maculata', ['Water hemlock', 'Spotted water hemlock',
    'Leaves divided into narrow toothed leaflets; the side veins of each leaflet run to the NOTCHES between the teeth, not to the tooth tips.',
    'Stout hollow stem, often streaked or blotched purple.',
    'Thick base with finger-like roots; cut lengthwise the base shows hollow chambers with a yellowish liquid (never cut one to check).'],
-  'Every part, most of all the root, contains cicutoxin. A piece of root the size of a walnut can kill an adult. Violent seizures start 15 to 60 minutes after eating. Sap can be absorbed through skin.',
+  'Every part, most of all the root, contains cicutoxin. A 2 to 3 cm piece of root can kill an adult (CDC MMWR, 1994). Violent seizures start 15 to 60 minutes after eating. Sap can be absorbed through skin.',
   'Wet ground in every lower-48 state.',
   'wild carrot, wild parsnip, water parsnip, cow parsnip, angelica, elderberry flower heads',
   {'wild-carrot': 'Wild carrot has a hairy stem, a single central dark floret in many flower heads, and grows on dry ground. Water hemlock has a smooth stem and grows in wet ground. Do not rely on either difference to eat a carrot-family plant.',
@@ -427,7 +427,7 @@ d('japanese-yew', 'Taxus cuspidata', ['Japanese yew'], 'lethal',
   ['The commonest yew in American foundation plantings and hedges.',
    'Flat needles, dark green above with two yellowish bands beneath, in two rows or a V.',
    'Red cup-shaped berries with a seed in the open end.'],
-  'Lethal like all yews: needles, bark and seeds. A handful of needles can stop the heart.',
+  'Lethal like all yews: needles, bark and seeds. Eating the needles can stop the heart with little warning.',
   'Planted nationwide around houses, schools and parks.',
   'pine, fir (for needle tea)',
   {'eastern-white-pine': 'Pine needles grow in bundles; yew needles are single and flat.'}, P)
@@ -947,7 +947,7 @@ d('crown-flower', 'Calotropis gigantea', ['Crown flower'], 'serious',
 # ---------------------------------------------------------------- fungi
 _ama = ('Contains amatoxins. Symptoms start 6 to 24 hours after eating, then seem to improve, '
         'then the liver and kidneys fail over the next days. Cooking does not destroy the toxin. '
-        'Half a cap can kill an adult.')
+        'A single mushroom can be enough to kill an adult.')
 _no_mush = 'This binder lists no edible mushrooms. Do not eat wild mushrooms.'
 d('death-cap', 'Amanita phalloides', ['Death cap'], 'lethal',
   ['Cap 2 to 6 inches, greenish-yellow to olive or bronze, smooth, sometimes almost white.',

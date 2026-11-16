@@ -19,7 +19,6 @@ const app = {
   shown: new Set(),          // steps whose errors are visible (after a Next attempt)
   key: { key: '', status: 'idle', label: '' },
   keep: false,               // opt-in browser storage
-  includeKeyInFile: true,
   dirty: false,
   flash: null,               // { text, kind } shown once in the Save/Load bar
   size: 'small',
@@ -39,7 +38,7 @@ function extraChecks(p) {
   return out;
 }
 function currentValidation() {
-  const p = toProfile();
+  const p = toProfile({ forGenerate: true });
   return { profile: p, ...validate(p, extraChecks(p)) };
 }
 
@@ -57,7 +56,7 @@ function rerender(opts = {}) {
 }
 function changed() {
   app.dirty = true;
-  if (app.keep) writeKept(toProfile({ includeKey: false }), app.step);
+  if (app.keep) writeKept(toProfile(), app.step);
   if (app.shown.has(app.step) || app.step === FINAL) refreshErrors();
   // the key status belongs to the key that was checked
   const k = draft.access?.access_key || '';
@@ -68,7 +67,7 @@ env.rerender = (o) => { changed(); rerender(o); };
 
 function goto(step, { focusHeading = true } = {}) {
   app.step = Math.max(0, Math.min(FINAL, step));
-  if (app.keep) writeKept(toProfile({ includeKey: false }), app.step);
+  if (app.keep) writeKept(toProfile(), app.step);
   render();
   window.scrollTo(0, 0);
   if (focusHeading) document.getElementById('step-title')?.focus();
@@ -248,7 +247,7 @@ env.keepToggleUI = () => h('fieldset', { class: 'q keep' },
     h('input', { type: 'checkbox', id: 'keep-toggle', checked: app.keep || undefined, 'aria-describedby': 'keep-why',
       onchange: (e) => {
         app.keep = e.target.checked;
-        if (app.keep) writeKept(toProfile({ includeKey: false }), app.step); else eraseKept();
+        if (app.keep) writeKept(toProfile(), app.step); else eraseKept();
         flash(app.keep ? 'Your answers are now kept in this browser.' : 'Kept answers erased from this browser.', 'ok');
       } }),
     h('span', { class: 'choice-text' }, 'Keep my answers in this browser')));
@@ -268,13 +267,13 @@ function download(blob, name) {
   setTimeout(() => URL.revokeObjectURL(url), 10000);
 }
 function saveAnswers() {
-  const p = toProfile({ includeKey: app.includeKeyInFile });
-  const { errors } = validate(toProfile(), extraChecks(p));
+  const p = toProfile(); // never contains the access key
+  const { errors } = validate(p, extraChecks(p), { saved: true });
   download(new Blob([JSON.stringify(p, null, 2) + '\n'], { type: 'application/json' }), 'profile.json');
   app.dirty = false;
   flash(errors.length
     ? `Saved profile.json to your device. ${errors.length === 1 ? 'One answer is' : `${errors.length} answers are`} still missing or need a look; you can finish later by loading this file.`
-    : 'Saved profile.json to your device. Keep it private; it holds your household\'s answers.', 'ok');
+    : 'Saved profile.json to your device. It does not contain your access key. Keep it private; it holds your household\'s answers.', 'ok');
 }
 async function loadFromFile(file) {
   let p;
@@ -293,19 +292,24 @@ async function loadFromFile(file) {
     flash('That file could not be loaded. Nothing was changed.', 'bad');
     return;
   }
-  app.key = { key: '', status: 'idle', label: '' };
+  const needKey = !draft.access?.access_key;
+  if (needKey) app.key = { key: '', status: 'idle', label: '' };
   app.dirty = false;
   const { errors } = currentValidation();
-  if (errors.length) for (const e of errors) app.shown.add(e.step);
-  if (app.keep) writeKept(toProfile({ includeKey: false }), app.step);
+  // the missing key is asked for below; do not count it as a gap in the file
+  const gaps = errors.filter(e => e.pointer !== '/access/access_key' && e.pointer !== '/access');
+  if (gaps.length) for (const e of gaps) app.shown.add(e.step);
+  if (app.keep) writeKept(toProfile(), app.step);
+  const keyNote = needKey ? ' Your access key is never saved in the file: please type it again.' : '';
   app.flash = {
-    text: errors.length
-      ? `Loaded your answers. ${errors.length === 1 ? 'One answer needs' : `${errors.length} answers need`} a look; they are marked in the steps.`
-      : 'Loaded your answers from the file.',
-    kind: errors.length ? 'warnflash' : 'ok',
+    text: (gaps.length
+      ? `Loaded your answers. ${gaps.length === 1 ? 'One answer needs' : `${gaps.length} answers need`} a look; they are marked in the steps.`
+      : 'Loaded your answers from the file.') + keyNote,
+    kind: gaps.length || needKey ? 'warnflash' : 'ok',
   };
+  if (needKey) app.step = 0;
   render();
-  document.getElementById('toolbar-status')?.focus?.();
+  if (needKey) document.getElementById(idOf(['access', 'access_key']))?.focus();
 }
 
 // ---- final screen: check, size, generate, download --------------------------------------------
@@ -454,10 +458,7 @@ function renderFinal() {
       h('p', {}, draft.access?.save_profile_locally
         ? 'You asked for a file of your answers. Save it now, before you generate; it is the only way to come back later without typing everything again.'
         : 'A file of your answers lets you rebuild or upgrade your binder later without typing everything again. It stays on your device.'),
-      h('label', { class: 'choice single', for: 'include-key' },
-        h('input', { type: 'checkbox', id: 'include-key', checked: app.includeKeyInFile || undefined,
-          onchange: (e) => { app.includeKeyInFile = e.target.checked; } }),
-        h('span', { class: 'choice-text' }, 'Include my access key in the file (so the file works on its own; keep it private)')),
+      h('p', { class: 'muted' }, 'The file never contains your access key. When you load it later, you type the key again.'),
       h('button', { type: 'button', class: 'btn' + (draft.access?.save_profile_locally ? ' primary' : ''), id: 'final-save-btn', onclick: saveAnswers }, 'Save my answers (profile.json)'),
       h('p', { id: 'final-status', class: 'final-status', role: 'status', 'aria-live': 'polite' }),
       env.keepToggleUI()),

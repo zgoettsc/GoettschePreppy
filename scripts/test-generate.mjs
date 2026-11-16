@@ -14,7 +14,7 @@ import path from 'node:path';
 import url from 'node:url';
 import { spawnSync } from 'node:child_process';
 import { createRequire } from 'node:module';
-import { generateBinder } from '../app/lib/generate.js';
+import { generateBinder, mapPlan } from '../app/lib/generate.js';
 import { createDryRunRelay } from '../app/lib/relay-dryrun.js';
 
 const ROOT = path.resolve(path.dirname(url.fileURLToPath(import.meta.url)), '..');
@@ -60,8 +60,10 @@ function staticChecks(name, html, report, profile) {
   ok(articles.includes('25-11-review-notes') && articles.includes('25-12-sources-not-captured'), `${name}: Review notes and Sources not captured pages present`);
   ok(!/\{\{|GPAIBLOCK/.test(html.replace(/<script[\s\S]*?<\/script>/g, '')), `${name}: no unfilled template syntax`);
   const tokens = JSON.parse(fs.readFileSync(path.join(ROOT, 'scripts/owner-tokens.json'), 'utf8'));
-  // Section 31 (verbatim handbook), generated pages and citation lists (publisher titles) are exempt
-  const body = html.replace(/<article [^>]*id="(31-|25-06|25-11|25-12)[\s\S]*?<\/article>/g, '').replace(/<aside class="cites">[\s\S]*?<\/aside>/g, '')
+  // Exempt: Section 31 (verbatim handbook), Section 32 (national region appendix: public place
+  // names such as towns and ecoregions), generated pages and citation lists (publisher titles).
+  // Every other section is still checked.
+  const body = html.replace(/<article [^>]*id="(31-|32-|25-06|25-11|25-12)[\s\S]*?<\/article>/g, '').replace(/<aside class="cites">[\s\S]*?<\/aside>/g, '')
     .replace(/<section class="srcdoc"[\s\S]*?<\/section>/g, '').replace(/<script[\s\S]*?<\/script>/g, '');
   const prof = JSON.stringify(profile).toLowerCase();
   const leaked = tokens.words.filter(w => new RegExp(`(^|[^A-Za-z0-9])${w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}([^A-Za-z0-9]|$)`).test(body) && !prof.includes(w.toLowerCase()));
@@ -119,13 +121,17 @@ for (const [i, f] of profiles.entries()) {
   const fb = spawnSync(process.execPath, ['scripts/build-kit.mjs'], { cwd: ROOT, encoding: 'utf8', env: { ...process.env, GP_DATA_ROOT: 'tests/fixtures', GP_KIT_OUT: fxOut } });
   ok(fb.status === 0, 'fixture kit builds from tests/fixtures (regions, plates, figures)');
   const fkit = JSON.parse(fs.readFileSync(path.join(fxOut, 'kit.json'), 'utf8'));
-  ok(fkit.pages.some(p => p.id === '32-42-south-dakota') && fkit.pages.some(p => p.id.startsWith('32-60-')), 'fixture: state pages and plate pages generated for Section 32');
+  // state pages may be authored (content/) or generated from data/regions/; plate pages are always generated
+  ok(fkit.pages.some(p => p.id.startsWith('32-42-')) && fkit.pages.some(p => p.id.startsWith('32-28-')), 'fixture: Section 32 state pages present (authored or generated)');
+  ok(fkit.pages.some(p => p.id.startsWith('32-60-') && (p.plates || []).includes('test-hemlock')), 'fixture: national plate page generated with every plate');
   ok(!/never-copied|xmlns|<script|onload/.test(JSON.stringify(fkit.plates) + fkit.figures['fig-fixture'].svg), 'fixture: plate URLs dropped, SVG sanitised');
   const fxLite = JSON.parse(fs.readFileSync(path.join(fxOut, 'regions-lite.json'), 'utf8'));
   ok(fxLite.SD.counties.includes('Beadle County'), 'fixture: regions-lite lists counties');
   const profile = JSON.parse(fs.readFileSync(path.join(ROOT, 'tests/profiles/sd-rural-farm-infant-well.json'), 'utf8'));
   const relay = createDryRunRelay();
-  const fx = await generateBinder(profile, fkit, { relay, size: 'large', loadAsset: async p => { try { return new Uint8Array(fs.readFileSync(path.join(fxOut, p))); } catch { return null; } } });
+  const plan = mapPlan(profile, fkit);
+  ok(plan.base.count === 2 && plan.route.count >= 1 && plan.route.max_mb > 0, `fixture: map plan home+destination ${plan.base.count}, route counties ${plan.route.count} (${plan.route.min_mb}-${plan.route.max_mb} MB, opt-in)`);
+  const fx = await generateBinder(profile, fkit, { relay, size: 'large', routeMaps: true, loadAsset: async p => { try { return new Uint8Array(fs.readFileSync(path.join(fxOut, p))); } catch { return null; } } });
   const fhtml = await fx.text();
   fs.writeFileSync(path.join(OUT, 'fixture-sd-large.html'), fhtml);
   const meta = JSON.parse(/<script type="application\/json" id="gp-meta">([\s\S]*?)<\/script>/.exec(fhtml)[1].replace(/\\u003c/g, '<'));
@@ -133,7 +139,8 @@ for (const [i, f] of profiles.entries()) {
   ok(meta.pages.find(p => p.id === '32-28-nebraska')?.pr, 'fixture: destination state region page promoted');
   const plateRules = (fhtml.match(/\.pl[a-z0-9]+\{background-image:url\(data:image\/jpeg;base64,/g) || []).length;
   ok(plateRules === 2, `fixture: each plate image stored once as CSS (${plateRules} rules for 2 images)`);
-  ok(/Fixture State Office of Emergency Management/.test(fhtml), 'fixture: region values reach the pages');
+  ok(/\b4q\b/.test(fhtml), 'fixture: region values (home zone 4q) reach the pages');
+  ok(/Plates for your home area \(Fixture Plains\)/.test(fhtml) && /aria-label="Test hemlock/.test(fhtml), 'fixture: {{plates}} with empty plates: shows the home ecoregion plates');
   ok(relay.calls.map >= 3 && /on the way to Grandparents/.test(fhtml), `fixture: topo maps requested for home, destination and route counties (${relay.calls.map} map calls)`);
   staticChecks('fixture-sd (Large)', fhtml, fx.report, profile);
   outputs.push({ name: 'fixture-sd', file: path.join(OUT, 'fixture-sd-large.html'), profile, html: fhtml });

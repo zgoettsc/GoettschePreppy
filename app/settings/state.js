@@ -4,7 +4,7 @@
 // still typing. `toProfile()` turns it into a clean profile (empty answers dropped, hidden
 // follow-up answers dropped, every card given a value). Nothing here touches storage.
 
-import validateProfile from './profile-validate.js';
+import { validateGenerate, validateSaved } from './profile-validate.js';
 import { CARD_IDS } from './data.js';
 
 export const draft = blankDraft();
@@ -77,7 +77,10 @@ export function showsPregnancy(m) {
   return m && m.sex !== 'male' && !['child', 'infant-toddler'].includes(m.role);
 }
 
-/** The profile as it would be saved or sent. `opts.includeKey` false leaves the access key out. */
+/**
+ * The profile as it would be saved (default: never with the access key) or, with
+ * `opts.forGenerate`, as it is handed to generateBinder() (access key included).
+ */
 export function toProfile(opts = {}) {
   const d = structuredClone(draft);
   const dw = d.dwelling || {};
@@ -95,6 +98,7 @@ export function toProfile(opts = {}) {
       delete m.age;
     }
     if (!showsPregnancy(m)) delete m.pregnant_or_nursing;
+    if (!['pregnant', 'both'].includes(m.pregnant_or_nursing)) delete m.due_date;
     if (!(m.skills || []).includes('ham-licence')) delete m.ham_callsign;
     if ((m.mobility_or_sensory || []).includes('none') && m.mobility_or_sensory.length > 1)
       m.mobility_or_sensory = m.mobility_or_sensory.filter(x => x !== 'none');
@@ -122,7 +126,7 @@ export function toProfile(opts = {}) {
   out.dwelling ??= {};
   out.decision_cards = cards; // always present, even if every card is undecided
   if (out.access) {
-    if (opts.includeKey === false) delete out.access.access_key;
+    if (!opts.forGenerate) delete out.access.access_key; // a saved file NEVER holds the key
     if (out.access.save_profile_locally === undefined) out.access.save_profile_locally = false;
   } else out.access = { save_profile_locally: false };
   // keep a stable key order (schema order) so saved files are easy to read
@@ -158,8 +162,12 @@ export function draftFromProfile(p) {
   if (d.access.save_profile_locally === undefined) d.access.save_profile_locally = false;
   return d;
 }
+/** Load a saved profile. Any access key in the file is ignored; the key typed in this tab stays. */
 export function loadProfile(p) {
   const d = draftFromProfile(p);
+  delete d.access.access_key;
+  const typed = draft.access?.access_key;
+  if (typed) d.access.access_key = typed;
   replaceDraft(d);
   ui.hasGenerator = !!(d.gear && d.gear.generator && Object.keys(d.gear.generator).length);
 }
@@ -197,7 +205,8 @@ function plain(e) {
  * Validate a profile. Returns { ok, errors: [{ pointer, step, message }] }.
  * `extra` adds checks the schema cannot express (county against the state's list).
  */
-export function validate(profile, extra = []) {
+export function validate(profile, extra = [], { saved = false } = {}) {
+  const validateProfile = saved ? validateSaved : validateGenerate;
   const ok = validateProfile(profile);
   const errors = [];
   const seen = new Set();

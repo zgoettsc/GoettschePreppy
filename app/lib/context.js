@@ -72,6 +72,10 @@ const W = {
     mechanic: 'mechanic', hunter: 'hunter', 'ham-licence': 'HAM licence', 'farmer-gardener': 'farmer or gardener',
     'firearms-trained': 'firearms trained', none: null },
 };
+// has.food_allergy: an allergy row whose allergen is a food. The allergen is free text, so this is a
+// word list: the nine major US food allergens (FDA, FALCPA and the FASTER Act) and common others.
+const FOOD_WORDS = /\b(peanuts?|tree ?nuts?|nuts?|almonds?|cashews?|walnuts?|pecans?|pistachios?|hazelnuts?|milk|dairy|lactose|eggs?|wheat|gluten|soy|soya|fish|shellfish|shrimp|crab|lobster|sesame|corn|mustard|celery|lupin|kiwi|strawberr(y|ies)|food)\b/i;
+export const isFoodAllergen = a => FOOD_WORDS.test(String(a || ''));
 const word = (map, v) => (v == null ? null : (map[v] ?? v));
 const nz = v => (v === undefined || v === '' ? null : v);
 const num = v => (typeof v === 'number' && Number.isFinite(v) ? v : null);
@@ -90,12 +94,27 @@ export function findCounty(stateObj, county) {
   return null;
 }
 
+// Region plant lists: entries are plate keys (or objects with a key and extra fields); names and
+// details come from the plate record (images/index.json via kit.plates).
+const nameOf = (kit, k) => kit?.plates?.[k]?.common || String(k).replace(/-/g, ' ');
 function plantList(keys, kit) {
-  return (keys || []).map(k => {
-    const p = kit?.plates?.[k];
-    const common = p?.common || k.replace(/-/g, ' ');
-    return { key: k, common, scientific: p?.scientific || null, text: p?.scientific ? `${common} (${p.scientific})` : common };
-  });
+  return (keys || []).map(e => {
+    const k = typeof e === 'string' ? e : e?.key;
+    if (!k) return null;
+    const x = typeof e === 'object' ? e : {};
+    const p = kit?.plates?.[k] || {};
+    const common = x.common_name || p.common || k.replace(/-/g, ' ');
+    const scientific = x.scientific_name || p.scientific || null;
+    const looks = x.deadly_look_alikes || p.deadly_look_alikes || p.lookalikes || [];
+    return {
+      key: k, common, scientific, common_name: common, scientific_name: scientific,
+      look_alike_of: (x.look_alike_of || p.look_alike_of || []).map?.(j => nameOf(kit, j)) ?? null,
+      season: x.season || p.season || null,
+      deadly_look_alikes: looks.map(j => nameOf(kit, j)),
+      burn_quality: x.burn_quality || p.burn_quality || null,
+      text: scientific ? `${common} (${scientific})` : common,
+    };
+  }).filter(Boolean);
 }
 
 export function resolveRegion(kit, state, county) {
@@ -138,6 +157,8 @@ export function resolveRegion(kit, state, county) {
     sun_hours_jun: num(d.sun_hours_jun),
     latitude: num(d.latitude) ?? (Array.isArray(d.centroid) && typeof d.centroid[0] === 'number' ? Math.round(d.centroid[0] * 10) / 10 : null),
     coastal: d.coastal === true ? true : d.coastal === false ? false : null,
+    jul_dewpoint_f: num(d.jul_dewpoint_f),
+    humid_climate: d.humid_climate === true ? true : d.humid_climate === false ? false : null,
     text: [hit?.name || county, st?.state_name || STATE_NAMES[state]].filter(Boolean).join(', '),
   };
 }
@@ -169,6 +190,8 @@ export function buildContext(profile, kit = {}, opts = {}) {
       if_missed: nz(x.if_missed) ?? null,
       days_on_hand: num(x.days_on_hand),
       where_kept: nz(x.where_kept) ?? null, expiry: nz(x.expiry) ?? null,
+      for_condition: x.for_condition || null,
+      condition_text: x.for_condition ? (x.for_condition === 'other' ? (nz(m.conditions_other) ?? 'other') : CONDITIONS[x.for_condition] || x.for_condition) : null,
       text: [x.name, x.strength].filter(Boolean).join(' '),
     }));
     const mAll = (m.allergies || []).map(x => ({
@@ -182,6 +205,7 @@ export function buildContext(profile, kit = {}, opts = {}) {
     return {
       label: m.label, role: word(W.role, m.role), age_text: ageText(m), age_months: ageMonths(m),
       weight_text: m.weight ? `${m.weight.value} ${m.weight.unit}` : null,
+      due_date: nz(m.due_date) ?? null,
       sex: word(W.sex, m.sex) ?? null, pregnant_or_nursing: word(W.pn, m.pregnant_or_nursing) ?? null,
       conditions: conds, allergies: mAll, meds: mMeds,
       skills: (m.skills || []).map(s => word(W.skill, s)).filter(Boolean),
@@ -207,7 +231,7 @@ export function buildContext(profile, kit = {}, opts = {}) {
   const pets = (p.pets || []).map(x => ({ type: x.type, count: x.count, medications: nz(x.medications) ?? null,
     food_per_day: nz(x.food_per_day) ?? null, text: `${x.count} ${x.type}${x.count > 1 && x.type !== 'other' ? 's' : ''}` }));
   const livestock = (p.livestock || []).map(x => ({ type: x.type, count: x.count, text: `${x.count} ${x.type}` }));
-  const heaters = (gear.heaters || []).map(h => ({ kind: h.kind, kind_text: word(W.heater, h.kind), model: nz(h.model) ?? null,
+  const heaters = (gear.heaters || []).map(h => ({ kind: h.kind, kind_text: word(W.heater, h.kind), model: nz(h.model) ?? null, btu: num(h.btu),
     text: [word(W.heater, h.kind), h.model].filter(Boolean).join(': ') }));
   const stations = (gear.power_stations || []).map(s => ({ model: nz(s.model) ?? null, wh: num(s.wh),
     pv_input_max_v: num(s.pv_input_max_v), pv_input_max_w: num(s.pv_input_max_w), text: [s.model, s.wh && `${s.wh} Wh`].filter(Boolean).join(', ') }));
@@ -252,6 +276,8 @@ export function buildContext(profile, kit = {}, opts = {}) {
     livestock: livestock.length > 0,
     chickens: livestock.some(x => x.type === 'chickens'),
     condition: conditionFlags,
+    diabetes: ['CL-01', 'CL-02', 'CL-05', 'CL-06'].some(id => conditionFlags[id]),
+    food_allergy: membersRaw.some(m => (m.allergies || []).some(x => isFoodAllergen(x.allergen))),
     refrigerated_meds: membersRaw.some(m => (m.medications || []).some(x => x.refrigerated === true)),
     anaphylaxis: membersRaw.some(m => (m.allergies || []).some(x => x.severity === 'anaphylaxis')),
     epinephrine: membersRaw.some(m => (m.allergies || []).some(x => x.carries_epinephrine === true)),
@@ -311,6 +337,9 @@ export function buildContext(profile, kit = {}, opts = {}) {
     urban: ['urban', 'suburban'].includes(home.setting),
     rural: ['rural', 'remote'].includes(home.setting),
     cold_winters: typeof regHome.jan_low_f === 'number' && regHome.jan_low_f < 20,
+    // humid: July mean dew point 60 F or more when the region data carries it (D1 field
+    // jul_dewpoint_f), else a humid_climate flag; with neither the flag is false (noted in A3.md).
+    humid: typeof regHome.jul_dewpoint_f === 'number' ? regHome.jul_dewpoint_f >= 60 : regHome.humid_climate === true,
     extreme_cold: typeof regHome.record_low_f === 'number' && regHome.record_low_f < -20,
     hot_summers: typeof regHome.jul_high_f === 'number' && regHome.jul_high_f > 90,
     high_altitude: typeof regHome.elevation_ft === 'number' ? regHome.elevation_ft > 5000 : home.elevation_band === 'high',
@@ -352,6 +381,7 @@ export function buildContext(profile, kit = {}, opts = {}) {
       type: word(W.dwelling, dw.dwelling_type) ?? null,
       basement: word(W.basement, dw.basement) ?? null,
       shelter_room: dw.windowless_interior_room?.present ? (nz(dw.windowless_interior_room.which) ?? null) : null,
+      warm_room: nz(dw.warm_room) ?? null,
       water_supply: word(W.water, dw.water_supply) ?? null,
       sewer: word(W.sewer, dw.sewer) ?? null,
       primary_heat: word(W.heat, dw.primary_heat) ?? null,

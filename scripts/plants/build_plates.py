@@ -17,7 +17,7 @@ No image is generated or altered beyond resizing and recompression. No AI imager
 import hashlib, io, json, sys
 from datetime import date
 from PIL import Image
-from common import ROOT, RAW, IMG_BASE, http, cached, plants_profile, plants_images, load_sources
+from common import ROOT, RAW, IMG_BASE, http, cached, plants_profile, plants_images, load_sources, merged_species
 
 FORCE = '--force' in sys.argv
 OUT = ROOT / 'images' / 'plates'
@@ -98,7 +98,7 @@ def compress(raw):
 
 def main():
     D, E, F = load_sources()
-    meta = {s['key']: s for s in D + E + F if not s.get('alias_of')}
+    meta = merged_species()
     res = json.load(open(RAW / 'resolved.json'))
     rows = read_tsv('household_reuse.tsv') + read_tsv('selections.tsv')
     seen, plates_by_key, refused, failed = set(), {}, [], []
@@ -115,8 +115,11 @@ def main():
     for key in [s['key'] for s in D + E + F if s['key'] in plates_by_key and not s.get('alias_of')]:
         s = meta[key]
         sym = res.get(key, {}).get('symbol')
+        main_txt = s.get('harm') or s.get('use') or (s.get('burn') or {}).get('notes', '')
         entry_m = dict(key=key, common=s['common'][0], scientific=s['sci'], symbol=sym, **{'class': s['group']},
-                       groups=s.get('groups', [s['group']]), risk=s.get('risk'), plates=[])
+                       groups=s.get('groups', [s['group']]), risk=s.get('risk'),
+                       note=f"{main_txt} Where: {s.get('habitat', '')}".strip(),
+                       lookalikes=sorted(s['look']), plates=[])
         entry_i = dict(entry_m, plates=[])
         recs = {}
         if sym:

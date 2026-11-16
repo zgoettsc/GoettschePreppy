@@ -26,6 +26,12 @@
     "deadly"
    ],
    "risk": "lethal",
+   "note": "Every part, most of all the root, contains cicutoxin. A piece of root the size of a walnut can kill an adult. Violent seizures start 15 to 60 minutes after eating. Sap can be absorbed through skin. Where: Wet ground in every lower-48 state.",
+   "lookalikes": [
+    "american-elderberry",
+    "cow-parsnip",
+    "wild-carrot"
+   ],
    "plates": [
     {
      "file": "images/plates/water-hemlock/cima2_002_lhp.jpg",
@@ -69,6 +75,10 @@
     "deadly"
    ],
    "risk": "lethal",
+   "note": "All parts, most of all the root, are lethal. Seizures start within an hour. One of the most poisonous plants in North America. Where: Wet sites in the western states and Alaska.",
+   "lookalikes": [
+    "wild-carrot"
+   ],
    "plates": [
     {
      "file": "images/plates/western-water-hemlock/cido_001_lhp.jpg",
@@ -127,6 +137,8 @@
     "deadly"
    ],
    "risk": "lethal",
+   "note": "Contains cicutoxin like the other water hemlocks. Treat every part as lethal. Where: Northern wetlands from the Pacific Northwest to New England.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/bulblet-water-hemlock/cibu_001_lvd.jpg",
@@ -155,6 +167,10 @@
     "deadly"
    ],
    "risk": "lethal",
+   "note": "All parts are lethal to eat, including the seeds and the first-year leaves. Causes paralysis that stops breathing. Sap can irritate skin. Where: Dry, disturbed ground: ditches, roadsides, fence lines, field edges, garden beds. Nearly every state.",
+   "lookalikes": [
+    "wild-carrot"
+   ],
    "plates": [
     {
      "file": "images/plates/poison-hemlock/coma2_013_lhp.jpg",
@@ -213,6 +229,10 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Contains the same kind of alkaloids as poison hemlock. Nausea, sweating, weakness; deaths recorded in Europe. Where: Scattered weed in the Northeast, Great Lakes and Pacific Northwest.",
+   "lookalikes": [
+    "wild-carrot"
+   ],
    "plates": [
     {
      "file": "images/plates/fools-parsley/aecy2_001_lvd.jpg",
@@ -241,6 +261,8 @@
     "deadly"
    ],
    "risk": "contact",
+   "note": "The sap plus sunlight burns skin: blisters within a day, brown scars for months. Eye contact can harm sight. The root is the garden parsnip gone wild, but handling the plant is the real hazard. Where: Roadsides, ditches, old fields and prairie edges in most states.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/wild-parsnip/pasa2_001_lhd.jpg",
@@ -284,6 +306,11 @@
     "deadly"
    ],
    "risk": "contact",
+   "note": "Sap plus sunlight blisters skin, like wild parsnip. Where: Moist meadows, stream banks and woodland edges in most states, mainly the North and West.",
+   "lookalikes": [
+    "giant-hogweed",
+    "water-hemlock"
+   ],
    "plates": [
     {
      "file": "images/plates/cow-parsnip/hela4_002_lhp.jpg",
@@ -342,6 +369,13 @@
     "deadly"
    ],
    "risk": "lethal",
+   "note": "Lethal: the bulb and leaves contain zygacine. Where: Prairies and rocky ground of the southern Plains (Kansas, Oklahoma, Texas, Arkansas and nearby).",
+   "lookalikes": [
+    "field-garlic",
+    "meadow-garlic",
+    "nodding-onion",
+    "textile-onion"
+   ],
    "plates": [
     {
      "file": "images/plates/nuttalls-death-camas/tonu2_001_lvd.jpg",
@@ -370,6 +404,14 @@
     "deadly"
    ],
    "risk": "lethal",
+   "note": "Lethal; all parts. Where: Mountain meadows, prairies and northern wetlands across the West, northern Plains and upper Midwest.",
+   "lookalikes": [
+    "camas",
+    "field-garlic",
+    "meadow-garlic",
+    "nodding-onion",
+    "textile-onion"
+   ],
    "plates": [
     {
      "file": "images/plates/mountain-death-camas/ziel2_008_lvp.jpg",
@@ -428,6 +470,13 @@
     "deadly"
    ],
    "risk": "lethal",
+   "note": "All parts, most of all the bulb, are poisonous (alkaloids similar to death camas). Where: Open woods and bogs of the East, from New York to Florida and west to Oklahoma.",
+   "lookalikes": [
+    "field-garlic",
+    "meadow-garlic",
+    "nodding-onion",
+    "textile-onion"
+   ],
    "plates": [
     {
      "file": "images/plates/fly-poison/chmu5_001_lvd.jpg",
@@ -456,6 +505,10 @@
     "deadly"
    ],
    "risk": "lethal",
+   "note": "All parts, most of all the root. Vomiting, very slow heart, low blood pressure. Poisonings come from people who mistook the young shoots for ramps. Where: Wet woods, swamps and mountain meadows in the East, the Appalachians, the Northwest and Alaska.",
+   "lookalikes": [
+    "ramps"
+   ],
    "plates": [
     {
      "file": "images/plates/green-false-hellebore/vevi_005_lvp.jpg",
@@ -499,6 +552,10 @@
     "deadly"
    ],
    "risk": "lethal",
+   "note": "All parts, most of all the root. Slow heart, low blood pressure. Causes birth defects in sheep. Where: Wet mountain meadows of the West.",
+   "lookalikes": [
+    "ramps"
+   ],
    "plates": [
     {
      "file": "images/plates/california-corn-lily/veca2_010_lhp.jpg",
@@ -557,6 +614,13 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "All parts, most of all the bulb, contain heart-acting glycosides. Vomiting and heart rhythm problems. Where: Escaped garden bulb in lawns, fields and woods, mostly the East and Midwest.",
+   "lookalikes": [
+    "field-garlic",
+    "meadow-garlic",
+    "nodding-onion",
+    "textile-onion"
+   ],
    "plates": [
     {
      "file": "images/plates/star-of-bethlehem/orum_001_lvd.jpg",
@@ -585,6 +649,13 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Bulbs mistaken for onions cause severe vomiting, diarrhoea and, in large amounts, heart rhythm problems. Where: Escaped from gardens around old homesites and roadsides in the East, Midwest and Northwest.",
+   "lookalikes": [
+    "field-garlic",
+    "meadow-garlic",
+    "nodding-onion",
+    "textile-onion"
+   ],
    "plates": [
     {
      "file": "images/plates/daffodil/naps_001_lvd.jpg",
@@ -613,6 +684,10 @@
     "deadly"
    ],
    "risk": "lethal",
+   "note": "All parts contain heart glycosides (like foxglove). Vomiting, very slow or irregular heart. The water in a vase is toxic. Where: Gardens and escaped into shady woods in the North and East.",
+   "lookalikes": [
+    "ramps"
+   ],
    "plates": [
     {
      "file": "images/plates/lily-of-the-valley/coma7_001_lvd.jpg",
@@ -641,6 +716,8 @@
     "deadly"
    ],
    "risk": "lethal",
+   "note": "All parts, most of all the root, contain aconitine. Numbness and tingling of mouth and skin, vomiting, then deadly heart rhythm. Can be absorbed through cut skin. Where: Moist mountain sites of the West.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/western-monkshood/acco4_009_lvp.jpg",
@@ -684,6 +761,8 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "All parts, most of all the young plant and seeds, contain toxic alkaloids. Burning mouth, weakness, slowed heart. Where: Rich woods of the Midwest and East.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/dwarf-larkspur/detr_001_lvd.jpg",
@@ -712,6 +791,8 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Berries and roots are poisonous; a few berries cause burning mouth, vomiting, dizziness. Children are attracted to the berries. Where: Moist woods in the North, the mountains and Alaska.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/red-baneberry/acru2_008_lhp.jpg",
@@ -755,6 +836,8 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Berries and roots contain cardiogenic toxins; nausea, dizziness, heart effects. Very bitter. Where: Rich deciduous woods of the East and Midwest.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/white-baneberry/acpa_001_lvp.jpg",
@@ -813,6 +896,10 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Sap blisters skin and the mouth; eating it causes severe stomach and gut injury. Where: Muddy shores and ditches across most of the US.",
+   "lookalikes": [
+    "watercress"
+   ],
    "plates": [
     {
      "file": "images/plates/cursed-buttercup/rasc3_002_lhp.jpg",
@@ -871,6 +958,8 @@
     "deadly"
    ],
    "risk": "lethal",
+   "note": "All parts, most of all the seeds, contain atropine-like alkaloids. Dry mouth, hot dry skin, wide pupils, confusion, hallucinations, fast heart, seizures, death. Children and teenagers are poisoned most. Where: Farmyards, fields, gardens and waste ground in almost every state.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/jimsonweed/dast_001_lvd.jpg",
@@ -899,6 +988,8 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Berries and leaves contain solanine; vomiting, diarrhoea, slow pulse. Children eat the bright berries. Where: Thickets, fence lines, stream banks and yards in the North and West.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/bittersweet-nightshade/sodu_001_lvd.jpg",
@@ -927,6 +1018,8 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Berries and leaves contain solanine; stomach pain, vomiting, and in large amounts, breathing trouble. Where: Fields, pastures, gardens and roadsides across the East, Midwest and South.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/horse-nettle/soca3_002_shp.jpg",
@@ -970,6 +1063,8 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Berries and leaves contain solanine; poisoning in livestock and people. Where: Dry fields and roadsides in the Southwest, southern Plains and California.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/silverleaf-nightshade/soel_001_lvd.jpg",
@@ -998,6 +1093,8 @@
     "deadly"
    ],
    "risk": "lethal",
+   "note": "All parts contain hyoscyamine and scopolamine; delirium, seizures, coma. Where: Waste ground and roadsides, mostly in the northern and western states.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/black-henbane/hyni_001_lvd.jpg",
@@ -1026,6 +1123,14 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Root, mature stems, leaves and seeds are poisonous: severe vomiting, diarrhoea, low blood pressure; deaths in children and adults recorded. Berry juice stains purple. Some people eat young shoots after repeated boiling; this binder does not recommend it. Where: Field edges, yards, clearings and roadsides in the East, Midwest and South; scattered west.",
+   "lookalikes": [
+    "american-elderberry",
+    "fox-grape",
+    "muscadine",
+    "riverbank-grape",
+    "summer-grape"
+   ],
    "plates": [
     {
      "file": "images/plates/pokeweed/pham4_002_lvp.jpg",
@@ -1069,6 +1174,8 @@
     "deadly"
    ],
    "risk": "lethal",
+   "note": "The seeds contain ricin. Chewing a few seeds can kill a child; symptoms are delayed for hours. Where: Garden plant, escaped in the South, California, Hawaii and Puerto Rico.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/castor-bean/rico3_002_lhp.jpg",
@@ -1112,6 +1219,8 @@
     "deadly"
    ],
    "risk": "contact",
+   "note": "Milky sap burns skin and eyes; eating it causes vomiting and diarrhoea. Where: Prairies and roadsides of the Great Plains; garden escape elsewhere.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/snow-on-the-mountain/euma8_001_svp.jpg",
@@ -1155,6 +1264,10 @@
     "deadly"
    ],
    "risk": "contact",
+   "note": "Milky sap irritates skin and eyes; eating it causes stomach upset. Where: Gardens, lawns and sidewalks in most states.",
+   "lookalikes": [
+    "purslane"
+   ],
    "plates": [
     {
      "file": "images/plates/spotted-spurge/chma15_005_lhp.jpg",
@@ -1213,6 +1326,8 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Seeds cause severe vomiting and diarrhoea; children are poisoned eating the sweet-tasting seeds. Where: South Florida, Hawaii, Puerto Rico and the Virgin Islands.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/physic-nut/jacu2_003_lhp.jpg",
@@ -1271,6 +1386,8 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Contains heart glycosides; vomiting and heart rhythm problems. Young shoots look like milkweed shoots. Where: Fields, roadsides and open woods in every lower-48 state.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/dogbane/apsi_002_lvp.jpg",
@@ -1314,6 +1431,8 @@
     "deadly"
    ],
    "risk": "lethal",
+   "note": "Among the most poisonous milkweeds: heart glycosides and nerve toxins; seizures in livestock. Where: Dry Plains and Southwest rangeland and roadsides.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/horsetail-milkweed/asga4_001_lvd.jpg",
@@ -1342,6 +1461,8 @@
     "deadly"
    ],
    "risk": "lethal",
+   "note": "All parts contain digitalis heart glycosides; vomiting, slow or irregular heart, death. The first-year leaves have been mistaken for comfrey, borage and mullein. Where: Escaped from gardens in the Pacific Northwest, northern California and the Northeast.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/foxglove/dipu_010_lvp.jpg",
@@ -1385,6 +1506,10 @@
     "deadly"
    ],
    "risk": "lethal",
+   "note": "Needles, bark and seeds contain taxine; sudden heart stoppage, often with few warning signs. The red flesh around the seed is the only non-toxic part, but the seed inside is deadly. Where: Planted in yards and parks nationwide.",
+   "lookalikes": [
+    "eastern-white-pine"
+   ],
    "plates": [
     {
      "file": "images/plates/english-yew/taba80_005_lvp.jpg",
@@ -1413,6 +1538,10 @@
     "deadly"
    ],
    "risk": "lethal",
+   "note": "Needles, bark and seeds are lethal. Where: Moist forests of the Pacific Northwest, northern California, Idaho and Montana.",
+   "lookalikes": [
+    "eastern-white-pine"
+   ],
    "plates": [
     {
      "file": "images/plates/pacific-yew/tabr2_009_lvp.jpg",
@@ -1456,6 +1585,10 @@
     "deadly"
    ],
    "risk": "lethal",
+   "note": "Needles and seeds contain taxine; deadly to livestock and people. Where: Northern forests from Minnesota to Maine and south in the Appalachians.",
+   "lookalikes": [
+    "eastern-white-pine"
+   ],
    "plates": [
     {
      "file": "images/plates/canada-yew/taca7_003_lhp.jpg",
@@ -1499,6 +1632,14 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Nuts look like chestnuts but are poisonous: severe vomiting, diarrhoea, weakness, paralysis in large amounts. Leaves, bark and young shoots are also poisonous. Where: Woods and stream bottoms of the Midwest and Ohio Valley.",
+   "lookalikes": [
+    "allegheny-chinkapin",
+    "american-chestnut",
+    "bur-oak",
+    "northern-red-oak",
+    "white-oak"
+   ],
    "plates": [
     {
      "file": "images/plates/ohio-buckeye/aegl_002_lhp.jpg",
@@ -1557,6 +1698,14 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Nuts look like chestnuts but are poisonous: severe vomiting, diarrhoea, weakness, paralysis in large amounts. Leaves, bark and young shoots are also poisonous. Where: Appalachian cove forests and the Ohio Valley.",
+   "lookalikes": [
+    "allegheny-chinkapin",
+    "american-chestnut",
+    "bur-oak",
+    "northern-red-oak",
+    "white-oak"
+   ],
    "plates": [
     {
      "file": "images/plates/yellow-buckeye/aeoc2_004_lvp.jpg",
@@ -1615,6 +1764,14 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Nuts look like chestnuts but are poisonous: severe vomiting, diarrhoea, weakness, paralysis in large amounts. Leaves, bark and young shoots are also poisonous. Where: Woods of the South and Southeast.",
+   "lookalikes": [
+    "allegheny-chinkapin",
+    "american-chestnut",
+    "bur-oak",
+    "northern-red-oak",
+    "white-oak"
+   ],
    "plates": [
     {
      "file": "images/plates/red-buckeye/aepa_005_lhp.jpg",
@@ -1673,6 +1830,14 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Nuts look like chestnuts but are poisonous: severe vomiting, diarrhoea, weakness, paralysis in large amounts. Leaves, bark and young shoots are also poisonous. Where: Planted in towns and parks, mostly in the North and East.",
+   "lookalikes": [
+    "allegheny-chinkapin",
+    "american-chestnut",
+    "bur-oak",
+    "northern-red-oak",
+    "white-oak"
+   ],
    "plates": [
     {
      "file": "images/plates/horse-chestnut/aehi_002_lhp.jpg",
@@ -1716,6 +1881,8 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Contains pyrrolizidine alkaloids that cause slow, permanent liver damage; poisoning from herbal teas and contaminated milk or honey. Where: Pastures and clearings of the Pacific Northwest and northern California; scattered in the Northeast.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/tansy-ragwort/seja_001_lvd.jpg",
@@ -1744,6 +1911,10 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Pyrrolizidine alkaloids damage the liver over time; harmful if eaten as a green. Where: Gardens and disturbed ground in most states.",
+   "lookalikes": [
+    "dandelion"
+   ],
    "plates": [
     {
      "file": "images/plates/common-groundsel/sevu_001_lvd.jpg",
@@ -1772,6 +1943,8 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Oil contains thujone; large amounts cause seizures, and deaths were recorded from its use as a home remedy. Where: Roadsides and fields in the North and West.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/common-tansy/tavu_001_lvd.jpg",
@@ -1800,6 +1973,8 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Seedlings (the two-leaf stage) and seeds contain carboxyatractyloside; liver failure and low blood sugar; deaths in people who ate it as a wild green. Where: Fields, river bars and lakeshores in every state.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/cocklebur/xast_001_lvp.jpg",
@@ -1858,6 +2033,8 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Poisons sheep on rangeland; harmful to people if eaten. Where: Dry rangeland of west Texas, New Mexico, Arizona and the southern Plains.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/bitterweed/hyod_002_shp.jpg",
@@ -1902,6 +2079,8 @@
     "firewood"
    ],
    "risk": "serious",
+   "note": "Bark, leaves, seeds and pods contain robin and robitin; vomiting, weakness, collapse. The cooked flowers are eaten in some places; this binder does not list them. Where: Planted and naturalised in every lower-48 state.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/black-locust/rops_002_lvp.jpg",
@@ -1960,6 +2139,8 @@
     "deadly"
    ],
    "risk": "lethal",
+   "note": "All parts, most of all the seeds, contain cytisine; vomiting, seizures, breathing failure. Where: Planted in yards in the Pacific Northwest, the Northeast and the upper Midwest.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/golden-chain/laan2_004_lhp.jpg",
@@ -2003,6 +2184,10 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Raw seeds and pulp contain cytisine; vomiting and heart effects. Roasting was used by settlers for a coffee substitute; raw seeds poison. Where: Bottomland woods of the Midwest and Ohio Valley; planted in towns.",
+   "lookalikes": [
+    "honey-locust"
+   ],
    "plates": [
     {
      "file": "images/plates/kentucky-coffeetree/gydi_002_lvp.jpg",
@@ -2061,6 +2246,8 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Contains swainsonine; livestock that graze it go \"loco\" and starve. Do not eat; do not let animals graze it. Where: Prairies and rangeland of the Great Plains and Rocky Mountains.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/lambert-locoweed/oxla3_001_lvd.jpg",
@@ -2089,6 +2276,8 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Contains swainsonine; nerve damage and starvation in livestock. Where: Shortgrass prairie of the southern Plains and Southwest.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/woolly-locoweed/asmo7_001_lvd.jpg",
@@ -2117,6 +2306,8 @@
     "deadly"
    ],
    "risk": "lethal",
+   "note": "Seeds contain cytisine; one chewed seed can kill a child (vomiting, seizures, breathing failure). Where: Texas and southern New Mexico; planted in the Southwest.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/mescal-bean/sose3_001_svp.jpg",
@@ -2160,6 +2351,8 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Seeds are poisonous (alkaloids that cause paralysis). Where: Coastal plain of the Southeast and Texas.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/coralbean/erhe4_002_lhp.jpg",
@@ -2203,6 +2396,10 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Leaves and nectar contain grayanotoxins: burning mouth, vomiting, very slow heart, low blood pressure. Honey from these flowers (\"mad honey\") poisons people. Where: Rocky woods and mountains of the East, from New England to the Gulf.",
+   "lookalikes": [
+    "wintergreen"
+   ],
    "plates": [
     {
      "file": "images/plates/mountain-laurel/kala_020_lhp.jpg",
@@ -2261,6 +2458,8 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Leaves and nectar contain grayanotoxins: burning mouth, vomiting, very slow heart, low blood pressure. Honey from these flowers (\"mad honey\") poisons people. Where: Bogs, barrens and pine woods of the Northeast and upper Midwest.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/sheep-laurel/kaan_002_lhp.jpg",
@@ -2304,6 +2503,8 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Leaves and nectar contain grayanotoxins: burning mouth, vomiting, very slow heart, low blood pressure. Honey from these flowers (\"mad honey\") poisons people. Where: Appalachian streams and ravines.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/great-rhododendron/rhma4_012_lhp.jpg",
@@ -2362,6 +2563,8 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Leaves and nectar contain grayanotoxins: burning mouth, vomiting, very slow heart, low blood pressure. Honey from these flowers (\"mad honey\") poisons people. Where: Planted around houses in the East and Pacific Northwest.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/japanese-pieris/pija3_008_lvp.jpg",
@@ -2390,6 +2593,13 @@
     "deadly"
    ],
    "risk": "lethal",
+   "note": "Fruit and seeds contain dauricine; deaths recorded in people who ate them as wild grapes. Where: Moist woods, stream banks and fence rows of the East and Midwest.",
+   "lookalikes": [
+    "fox-grape",
+    "muscadine",
+    "riverbank-grape",
+    "summer-grape"
+   ],
    "plates": [
     {
      "file": "images/plates/moonseed/meca3_003_lvp.jpg",
@@ -2433,6 +2643,14 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Berries contain oxalate crystals; kidney injury reported in children. Sap irritates some people's skin. Where: Woods, fences and walls in the East, Midwest and South; planted elsewhere.",
+   "lookalikes": [
+    "fox-grape",
+    "muscadine",
+    "poison-ivy",
+    "riverbank-grape",
+    "summer-grape"
+   ],
    "plates": [
     {
      "file": "images/plates/virginia-creeper/paqu2_003_lhp.jpg",
@@ -2476,6 +2694,10 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Raw berries, seeds, leaves, stems and roots contain cyanide-forming compounds; vomiting and diarrhoea. Where: Moist woods and clearings in the North, the mountains, the Pacific coast and Alaska.",
+   "lookalikes": [
+    "american-elderberry"
+   ],
    "plates": [
     {
      "file": "images/plates/red-elderberry/sara2_001_lvd.jpg",
@@ -2504,6 +2726,11 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Berries are a strong purgative: severe cramps and diarrhoea. Where: Woods and hedgerows across the North and Midwest.",
+   "lookalikes": [
+    "black-cherry",
+    "chokecherry"
+   ],
    "plates": [
     {
      "file": "images/plates/common-buckthorn/rhca3_001_lvd.jpg",
@@ -2532,6 +2759,8 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Berries cause vomiting and diarrhoea, most often in children. Where: Woods of the East and South.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/american-holly/ilop_002_lhp.jpg",
@@ -2590,6 +2819,8 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Berries and leaves cause vomiting and diarrhoea; tea made from them has caused serious poisoning. Where: On hardwood trees in the East and South.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/american-mistletoe/phfl2_001_lvd.jpg",
@@ -2618,6 +2849,8 @@
     "deadly"
    ],
    "risk": "lethal",
+   "note": "Berries and bark blister the mouth and gut; a few berries can kill a child. Where: Planted and sometimes escaped in the Northeast and Great Lakes.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/february-daphne/dame3_001_lvd.jpg",
@@ -2646,6 +2879,8 @@
     "deadly"
    ],
    "risk": "lethal",
+   "note": "Berries cause vomiting, then seizures and paralysis; deaths in children recorded. Where: Escaped in the South, Southwest and California.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/chinaberry/meaz_003_lhp.jpg",
@@ -2674,6 +2909,8 @@
     "deadly"
    ],
    "risk": "lethal",
+   "note": "All parts contain gelsemine; muscle weakness and breathing failure. Children have been poisoned sucking nectar as from honeysuckle. Where: Woods and fence rows of the Southeast and east Texas.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/carolina-jessamine/gese_004_shp.jpg",
@@ -2732,6 +2969,8 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Seeds contain saponins; contaminated grain flour causes poisoning. Where: Grain fields and roadsides, scattered in most states.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/corn-cockle/aggi_001_lvd.jpg",
@@ -2760,6 +2999,10 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Contains saponins and other toxins; harmful if eaten; sap can irritate skin. Where: Gardens, lawns and waste places in most states.",
+   "lookalikes": [
+    "common-chickweed"
+   ],
    "plates": [
     {
      "file": "images/plates/scarlet-pimpernel/anar_008_shp.jpg",
@@ -2803,6 +3046,10 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Contains ptaquiloside, a cancer-causing compound, and thiaminase. Eating it regularly is linked to stomach cancer. Where: Woods, burns and pastures in every state.",
+   "lookalikes": [
+    "ostrich-fern"
+   ],
    "plates": [
     {
      "file": "images/plates/bracken-fern/ptaq_001_lvd.jpg",
@@ -2831,6 +3078,8 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Roots, leaves, stems and unripe fruit contain podophyllin: severe vomiting, diarrhoea, nerve damage. Only the fully ripe yellow fruit flesh is eaten, without seeds or rind. Where: Rich woods of the East and Midwest.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/mayapple/pope_003_lvp.jpg",
@@ -2889,6 +3138,8 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Seeds and roots are poisonous; harmful to heart and pregnancy. Where: Rich moist woods of the East and Midwest.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/blue-cohosh/cath2_001_lvd.jpg",
@@ -2917,6 +3168,8 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Sap and root contain sanguinarine: vomiting, collapse; the sap destroys skin (do not use as a salve). Where: Rich woods of the East and Midwest.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/bloodroot/saca13_003_lhp.jpg",
@@ -2975,6 +3228,8 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Sap irritates skin; eating it or its herbal teas has caused liver injury. Where: Woods edges, yards and roadsides of the Northeast and Midwest.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/greater-celandine/chma2_001_lvd.jpg",
@@ -3003,6 +3258,8 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "All parts contain toxic alkaloids; trembling, staggering, seizures in livestock. Where: Rich woods of the East and Midwest; also the Pacific Northwest.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/dutchmans-breeches/dicu_002_lhp.jpg",
@@ -3046,6 +3303,8 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Seeds contain sanguinarine; seed contamination of cooking oil causes \"epidemic dropsy\". Where: Dry disturbed ground of the South, Southwest and Hawaii.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/mexican-prickly-poppy/arme4_002_shp.jpg",
@@ -3089,6 +3348,8 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Raw root and all parts are packed with oxalate needles: intense burning and swelling of mouth and throat. Where: Moist woods of the East and Midwest.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/jack-in-the-pulpit/artr_002_lhp.jpg",
@@ -3132,6 +3393,8 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Raw leaves and roots contain oxalate crystals: burning mouth and throat. Where: Swamps and wet woods of the Northeast and Midwest.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/eastern-skunk-cabbage/syfo_001_lvp.jpg",
@@ -3175,6 +3438,10 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Raw plant contains oxalate crystals: severe burning of mouth and throat. Where: Marshes and shallows of the East, South and Great Lakes.",
+   "lookalikes": [
+    "broadleaf-arrowhead"
+   ],
    "plates": [
     {
      "file": "images/plates/arrow-arum/pevi_002_lhp.jpg",
@@ -3218,6 +3485,11 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Rootstock and leaves cause vomiting, diarrhoea and burning of the mouth; sap irritates skin. Where: Marshes and wet shores in the Northeast and upper Midwest.",
+   "lookalikes": [
+    "broadleaf-cattail",
+    "narrowleaf-cattail"
+   ],
    "plates": [
     {
      "file": "images/plates/blue-flag-iris/irve2_005_lhp.jpg",
@@ -3261,6 +3533,11 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Rootstock and leaves cause vomiting, diarrhoea and burning of the mouth; sap irritates skin. Where: Marshes and wet ditches of the East, South and Midwest.",
+   "lookalikes": [
+    "broadleaf-cattail",
+    "narrowleaf-cattail"
+   ],
    "plates": [
     {
      "file": "images/plates/southern-blue-flag/irve2_003_lvp.jpg",
@@ -3319,6 +3596,11 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Rootstock and leaves cause vomiting, diarrhoea and burning of the mouth; sap irritates skin. Where: Invasive along shores and marshes in most states.",
+   "lookalikes": [
+    "broadleaf-cattail",
+    "narrowleaf-cattail"
+   ],
    "plates": [
     {
      "file": "images/plates/yellow-flag-iris/irps_002_lhp.jpg",
@@ -3362,6 +3644,11 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Rootstock and leaves cause vomiting, diarrhoea and burning of the mouth; sap irritates skin. Where: Wet meadows of the West and northern Plains.",
+   "lookalikes": [
+    "broadleaf-cattail",
+    "narrowleaf-cattail"
+   ],
    "plates": [
     {
      "file": "images/plates/rocky-mountain-iris/irmi_014_lvp.jpg",
@@ -3405,6 +3692,12 @@
     "deadly"
    ],
    "risk": "contact",
+   "note": "Urushiol oil causes a blistering rash 12 to 72 hours after contact. The oil stays active on clothes, tools and animal fur. NEVER BURN IT: the smoke carries the oil into the lungs and can cause life-threatening breathing problems. Where: Woods edges, fence lines, river banks and yards in the East, Midwest and South.",
+   "lookalikes": [
+    "box-elder",
+    "fragrant-sumac",
+    "virginia-creeper"
+   ],
    "plates": [
     {
      "file": "images/plates/poison-ivy/tora2_002_lhp.jpg",
@@ -3463,6 +3756,8 @@
     "deadly"
    ],
    "risk": "contact",
+   "note": "Urushiol oil causes a blistering rash 12 to 72 hours after contact. The oil stays active on clothes, tools and animal fur. NEVER BURN IT: the smoke carries the oil into the lungs and can cause life-threatening breathing problems. Where: Sandy pine and oak woods of the Southeast.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/atlantic-poison-oak/toqu_001_lhp.jpg",
@@ -3506,6 +3801,11 @@
     "deadly"
    ],
    "risk": "contact",
+   "note": "Urushiol oil causes a blistering rash 12 to 72 hours after contact. The oil stays active on clothes, tools and animal fur. NEVER BURN IT: the smoke carries the oil into the lungs and can cause life-threatening breathing problems. Poison sumac is more potent than poison ivy. Where: Swamps and bogs of the East, South and Great Lakes.",
+   "lookalikes": [
+    "smooth-sumac",
+    "staghorn-sumac"
+   ],
    "plates": [
     {
      "file": "images/plates/poison-sumac/tove_002_lhp.jpg",
@@ -3549,6 +3849,8 @@
     "deadly"
    ],
    "risk": "contact",
+   "note": "Urushiol oil causes a blistering rash 12 to 72 hours after contact. The oil stays active on clothes, tools and animal fur. NEVER BURN IT: the smoke carries the oil into the lungs and can cause life-threatening breathing problems. Where: South Florida, the Keys and the Caribbean.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/poisonwood/meto3_001_lhp.jpg",
@@ -3607,6 +3909,8 @@
     "deadly"
    ],
    "risk": "serious",
+   "note": "Contains lobeline (nicotine-like): vomiting, sweating, seizures; deaths from home remedies recorded. Where: Fields, roadsides and open woods of the East and Midwest.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/indian-tobacco/loin_001_lvd.jpg",
@@ -3635,6 +3939,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Young leaves raw or cooked; older leaves are stringy, cook them. Crushed leaf used on stings and scrapes. Where: Lawns, paths and packed ground in every state.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/broadleaf-plantain/plma2_006_lvp.jpg",
@@ -3693,6 +3999,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Young leaves cooked; seeds. Where: Lawns, roadsides and fields in every state.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/narrowleaf-plantain/plla_001_lvd.jpg",
@@ -3721,6 +4029,8 @@
     "edible"
    ],
    "risk": "caution",
+   "note": "Young leaves and tips cooked like spinach. Boil and discard the water: it piles up nitrate and oxalate. Not from heavily manured or drought-stressed ground, and not a staple. No wild greens for children under 2 (nitrate). Where: Gardens, fields and disturbed ground in every state.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/lambs-quarters/chal7_002_lvp.jpg",
@@ -3764,6 +4074,10 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Leaves and stems raw or cooked. Contains oxalate: eat as part of a varied diet. Where: Gardens, sidewalk cracks and bare ground in every state.",
+   "lookalikes": [
+    "spotted-spurge"
+   ],
    "plates": [
     {
      "file": "images/plates/purslane/pool_001_lvd.jpg",
@@ -3792,6 +4106,8 @@
     "edible"
    ],
    "risk": "caution",
+   "note": "Young leaves cooked; seeds. Like lamb's quarters it piles up nitrate and oxalate: boil and discard the water; not from manured ground; not for children under 2. Where: Gardens, fields and feedlots in every state.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/redroot-amaranth/amre_002_lvp.jpg",
@@ -3835,6 +4151,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Young tops (before flowering) cooked; cooking or drying removes the sting. Wear gloves to pick. Where: Moist rich ground, stream banks and farmsteads in nearly every state.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/stinging-nettle/urdi_007_lvp.jpg",
@@ -3893,6 +4211,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Young tops cooked like stinging nettle. Gloves. Where: Moist woods and floodplains of the East and Midwest.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/wood-nettle/laca3_001_lhp.jpg",
@@ -3936,6 +4256,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Leaves, flowers and pods raw as a nibble. High in oxalate: small amounts only. Where: Lawns, gardens and woods in nearly every state.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/yellow-wood-sorrel/xabu_001_lvd.jpg",
@@ -3964,6 +4286,8 @@
     "edible"
    ],
    "risk": "caution",
+   "note": "Young leaves cooked, changing the water once. High oxalate: small amounts, not daily. Where: Fields, roadsides and ditches in every state.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/curly-dock/rucr_003_lhp.jpg",
@@ -4022,6 +4346,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Leaves raw as a sour nibble. High oxalate: small amounts. Where: Acid sandy soils, lawns and fields in every state.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/sheep-sorrel/ruac3_003_lhp.jpg",
@@ -4080,6 +4406,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Leaves and flowering tops raw or cooked; roots like horseradish. Invasive: pick all you like. Where: Woods and shady edges of the East, Midwest and Northwest.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/garlic-mustard/alal8_001_lvd.jpg",
@@ -4108,6 +4436,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Young leaves raw or cooked; seed pods. Where: Gardens, lawns and roadsides in every state.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/shepherds-purse/cabu2_001_lvp.jpg",
@@ -4166,6 +4496,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Young leaves and flowers raw or cooked. Not the roots or seeds. Where: Lawns, woods and yards of the East and Midwest.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/common-blue-violet/vila7_001_lvd.jpg",
@@ -4194,6 +4526,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Flowers and young leaves, cooked or dried for tea (raw in quantity is hard to digest). Where: Lawns and pastures in every state.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/white-clover/trre3_001_lvd.jpg",
@@ -4222,6 +4556,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Flowers fresh or dried for tea; young leaves cooked. Where: Fields and roadsides in every state.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/red-clover/trpr2_002_lvp.jpg",
@@ -4265,6 +4601,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Young leaves cooked; roasted root as a coffee substitute. Where: Roadsides and fields in every state.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/chicory/ciin_001_lvd.jpg",
@@ -4293,6 +4631,8 @@
     "edible"
    ],
    "risk": "caution",
+   "note": "First-year root, peeled and cooked; young peeled leaf stalks. Dig only plants you saw in bur the year before: rosettes of rhubarb (poisonous leaves) and foxglove are confused with it. Where: Farmyards, roadsides and waste ground in nearly every state.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/common-burdock/armi2_001_lvd.jpg",
@@ -4321,6 +4661,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Leaves and stems raw or cooked. Where: Gardens and lawns in early spring, in every state.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/henbit/laam_001_lvd.jpg",
@@ -4349,6 +4691,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Leaves raw or cooked. Where: Gardens, lawns and fields in the East, Midwest and Northwest.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/purple-deadnettle/lapu2_001_lvd.jpg",
@@ -4377,6 +4721,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Young leaves cooked; flower buds; seeds as a spice. Where: Fields and roadsides in most states, abundant in California.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/black-mustard/brni_002_lvp.jpg",
@@ -4420,6 +4766,10 @@
     "edible"
    ],
    "risk": "caution",
+   "note": "Leaves raw or cooked. Water may carry parasites (liver fluke) and farm runoff: cook it unless the water source is known clean. Where: Springs, streams and ditches in nearly every state.",
+   "lookalikes": [
+    "cursed-buttercup"
+   ],
    "plates": [
     {
      "file": "images/plates/watercress/naof_001_lhp.jpg",
@@ -4463,6 +4813,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Young leaves raw or cooked. Where: Gardens, fields and roadsides in every state.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/common-sow-thistle/sool_001_lvd.jpg",
@@ -4491,6 +4843,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Very young leaves cooked (bitter). Where: Roadsides and waste ground in every state.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/prickly-lettuce/lase_002_lvp.jpg",
@@ -4549,6 +4903,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Leaves raw or cooked; tubers cooked. Take few: it is slow to recover. Where: Woods and lawns of the East and Midwest.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/spring-beauty/clvi3_003_lhp.jpg",
@@ -4592,6 +4948,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Young spears raw or cooked. The red berries are poisonous. Where: Ditches, fence lines and roadsides in nearly every state, most of all the Midwest and West.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/wild-asparagus/asof_002_lhp.jpg",
@@ -4635,6 +4993,10 @@
     "edible"
    ],
    "risk": "caution",
+   "note": "Tightly coiled fiddleheads, boiled 15 minutes (raw or lightly cooked fiddleheads have caused food poisoning). Take only half the coils from a crown. Where: Floodplain woods of the North and upper Midwest.",
+   "lookalikes": [
+    "bracken-fern"
+   ],
    "plates": [
     {
      "file": "images/plates/ostrich-fern/mast_002_lhp.jpg",
@@ -4678,6 +5040,13 @@
     "edible"
    ],
    "risk": "caution",
+   "note": "Young shoots (peeled), green flower spikes cooked, pollen, and starchy rootstocks. Harvest only from a stand you identified by its brown spikes the summer before: iris grows in the same water and is toxic. The water may be polluted. Where: Marshes, ditches and pond edges in every state.",
+   "lookalikes": [
+    "blue-flag-iris",
+    "rocky-mountain-iris",
+    "southern-blue-flag",
+    "yellow-flag-iris"
+   ],
    "plates": [
     {
      "file": "images/plates/broadleaf-cattail/tyla_002_lvp.jpg",
@@ -4736,6 +5105,13 @@
     "edible"
    ],
    "risk": "caution",
+   "note": "Same uses and same rule: harvest only from stands identified by their spikes. Where: Marshes and ditches in most states.",
+   "lookalikes": [
+    "blue-flag-iris",
+    "rocky-mountain-iris",
+    "southern-blue-flag",
+    "yellow-flag-iris"
+   ],
    "plates": [
     {
      "file": "images/plates/narrowleaf-cattail/tyan_002_svp.jpg",
@@ -4794,6 +5170,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Tubers raw or cooked (cause gas). Dig in fall after frost. Where: Moist fields, roadsides and stream banks of the East, Midwest and Plains.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/jerusalem-artichoke/hetu_011_shp.jpg",
@@ -4852,6 +5230,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Seeds. Where: Fields and roadsides of the Plains and West; nearly every state.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/common-sunflower/hean3_007_shp.jpg",
@@ -4910,6 +5290,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Tubers, cooked (some people react to raw ones). Seeds cooked. Where: Moist thickets and stream banks of the East and Midwest.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/groundnut/apam_001_lhp.jpg",
@@ -4953,6 +5335,10 @@
     "edible"
    ],
    "risk": "caution",
+   "note": "Tubers, cooked. Water may be polluted. Where: Marshes and pond edges in every state.",
+   "lookalikes": [
+    "arrow-arum"
+   ],
    "plates": [
     {
      "file": "images/plates/broadleaf-arrowhead/sala2_002_lvp.jpg",
@@ -5011,6 +5397,17 @@
     "edible"
    ],
    "risk": "caution",
+   "note": "Bulbs and leaves raw or cooked, ONLY if every bulb smells of onion or garlic. Smell EACH bulb with clean hands: onion smell on your fingers carries to the next bulb. If any bulb in a clump does not smell of onion, throw the whole clump away. No onion smell means death camas. Where: Prairies, meadows, open woods and roadsides of the East, Midwest and Plains.",
+   "lookalikes": [
+    "daffodil",
+    "fly-poison",
+    "foothill-death-camas",
+    "fremonts-death-camas",
+    "meadow-death-camas",
+    "mountain-death-camas",
+    "nuttalls-death-camas",
+    "star-of-bethlehem"
+   ],
    "plates": [
     {
      "file": "images/plates/meadow-garlic/alca3_003_shp.jpg",
@@ -5054,6 +5451,17 @@
     "edible"
    ],
    "risk": "caution",
+   "note": "Bulbs and leaves raw or cooked, ONLY if every bulb smells of onion or garlic. Smell EACH bulb with clean hands: onion smell on your fingers carries to the next bulb. If any bulb in a clump does not smell of onion, throw the whole clump away. No onion smell means death camas. Where: Lawns, pastures and fields of the East, Midwest and South.",
+   "lookalikes": [
+    "daffodil",
+    "fly-poison",
+    "foothill-death-camas",
+    "fremonts-death-camas",
+    "meadow-death-camas",
+    "mountain-death-camas",
+    "nuttalls-death-camas",
+    "star-of-bethlehem"
+   ],
    "plates": [
     {
      "file": "images/plates/field-garlic/alvi_001_lvd.jpg",
@@ -5082,6 +5490,17 @@
     "edible"
    ],
    "risk": "caution",
+   "note": "Bulbs and leaves raw or cooked, ONLY if every bulb smells of onion or garlic. Smell EACH bulb with clean hands: onion smell on your fingers carries to the next bulb. If any bulb in a clump does not smell of onion, throw the whole clump away. No onion smell means death camas. Where: Prairies, rocky slopes and open woods across most of the country.",
+   "lookalikes": [
+    "daffodil",
+    "fly-poison",
+    "foothill-death-camas",
+    "fremonts-death-camas",
+    "meadow-death-camas",
+    "mountain-death-camas",
+    "nuttalls-death-camas",
+    "star-of-bethlehem"
+   ],
    "plates": [
     {
      "file": "images/plates/nodding-onion/alce2_001_lvd.jpg",
@@ -5110,6 +5529,17 @@
     "edible"
    ],
    "risk": "caution",
+   "note": "Bulbs and leaves raw or cooked, ONLY if every bulb smells of onion or garlic. Smell EACH bulb with clean hands: onion smell on your fingers carries to the next bulb. If any bulb in a clump does not smell of onion, throw the whole clump away. No onion smell means death camas. Where: Dry prairies and plains of the Great Plains and Rockies.",
+   "lookalikes": [
+    "daffodil",
+    "fly-poison",
+    "foothill-death-camas",
+    "fremonts-death-camas",
+    "meadow-death-camas",
+    "mountain-death-camas",
+    "nuttalls-death-camas",
+    "star-of-bethlehem"
+   ],
    "plates": [
     {
      "file": "images/plates/textile-onion/alre5_001_lvd.jpg",
@@ -5138,6 +5568,13 @@
     "edible"
    ],
    "risk": "caution",
+   "note": "Leaves raw or cooked; bulbs sparingly (slow-growing). Crush a leaf from EACH plant: no onion-garlic smell means lily of the valley or false hellebore. Where: Rich moist woods of the Northeast, Appalachians and upper Midwest.",
+   "lookalikes": [
+    "autumn-crocus",
+    "california-corn-lily",
+    "green-false-hellebore",
+    "lily-of-the-valley"
+   ],
    "plates": [
     {
      "file": "images/plates/ramps/altr3_001_lvd.jpg",
@@ -5166,6 +5603,12 @@
     "edible"
    ],
    "risk": "do-not-eat",
+   "note": "A traditional staple food, slow-roasted. Listed here because death camas grows in the same meadows and the bulbs are nearly identical out of flower. Do not dig camas for food. Where: Wet meadows of the Pacific Northwest, northern Rockies and Great Basin.",
+   "lookalikes": [
+    "foothill-death-camas",
+    "meadow-death-camas",
+    "mountain-death-camas"
+   ],
    "plates": [
     {
      "file": "images/plates/camas/caqu2_001_lvp.jpg",
@@ -5209,6 +5652,13 @@
     "edible"
    ],
    "risk": "do-not-eat",
+   "note": "The ancestor of the garden carrot. Listed here only because poison hemlock and water hemlock kill people who think they found it. The binder's rule: never eat carrot-family plants from the wild. Where: Fields, roadsides and waste ground in every state.",
+   "lookalikes": [
+    "fools-parsley",
+    "poison-hemlock",
+    "water-hemlock",
+    "western-water-hemlock"
+   ],
    "plates": [
     {
      "file": "images/plates/wild-carrot/daca6_012_lhp.jpg",
@@ -5267,6 +5717,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Berries raw; leaves for tea (fresh or fully dried, not wilted). Where: Fields, prairies, woods edges in nearly every state.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/wild-strawberry/frvi_001_lvd.jpg",
@@ -5295,6 +5747,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Berries raw or cooked; young peeled shoots; leaves for tea (fresh or fully dried). Where: Fields, clearings and woods edges of the East and Midwest.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/common-blackberry/rual_005_lhp.jpg",
@@ -5353,6 +5807,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Berries raw or cooked. Where: Fields, roadsides and open woods of the East and Midwest.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/northern-dewberry/ruen_001_lhp.jpg",
@@ -5411,6 +5867,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Berries raw or cooked. Where: Woods edges and fence rows of the East, Midwest and Plains.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/black-raspberry/ruoc_002_lhp.jpg",
@@ -5454,6 +5912,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Berries raw or cooked; leaves for tea (fresh or fully dried). Where: Clearings, burns and woods edges across the North, the mountains and Alaska.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/red-raspberry/ruid_001_lhp.jpg",
@@ -5497,6 +5957,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Berries raw. Where: Woods edges and clearings of the West, Alaska and the upper Great Lakes.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/thimbleberry/rupa_001_lvd.jpg",
@@ -5526,6 +5988,8 @@
     "firewood"
    ],
    "risk": "starter",
+   "note": "Ripe fruit raw or cooked. Unripe fruit and the milky sap upset the stomach. Where: Bottomland woods of the East, Midwest and Plains.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/red-mulberry/moru2_008_lvp.jpg",
@@ -5584,6 +6048,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Ripe fruit raw or cooked. Unripe fruit upsets the stomach. Where: Yards, fence rows and towns in nearly every state.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/white-mulberry/moal_004_lvp.jpg",
@@ -5627,6 +6093,11 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Berries raw or cooked. Where: Barrens, burns and pine woods of the Northeast and upper Midwest.",
+   "lookalikes": [
+    "deadly-nightshade",
+    "eastern-black-nightshade"
+   ],
    "plates": [
     {
      "file": "images/plates/lowbush-blueberry/vaan_001_lvd.jpg",
@@ -5655,6 +6126,10 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Berries raw or cooked. Where: Swamps, bogs and acid woods of the East.",
+   "lookalikes": [
+    "eastern-black-nightshade"
+   ],
    "plates": [
     {
      "file": "images/plates/highbush-blueberry/vaco_002_lhp.jpg",
@@ -5698,6 +6173,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Berries raw or cooked. Where: Mountain forests of the Northwest and northern Rockies.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/big-huckleberry/vame_004_lvp.jpg",
@@ -5756,6 +6233,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Berries cooked or raw. Where: Bogs of the Northeast and upper Midwest.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/large-cranberry/oxma6_001_lvd.jpg",
@@ -5784,6 +6263,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Berries cooked or raw. Where: Northern forests, bogs and tundra of Alaska, the far North and northern New England.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/lingonberry/vavi_001_lvd.jpg",
@@ -5812,6 +6293,12 @@
     "edible"
    ],
    "risk": "caution",
+   "note": "Ripe berries COOKED (raw berries, seeds, stems and leaves cause vomiting); flowers cooked or for tea. Strip berries from all stems. Where: Moist ground, ditches and woods edges of the East, Midwest and Plains; related elders in the West.",
+   "lookalikes": [
+    "pokeweed",
+    "red-elderberry",
+    "water-hemlock"
+   ],
    "plates": [
     {
      "file": "images/plates/american-elderberry/saca12_002_lhp.jpg",
@@ -5870,6 +6357,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Berries raw or dried. Seeds contain small amounts of cyanide-forming compounds: do not grind them. Where: Prairies, coulees and woods edges of the Plains, West and Alaska.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/saskatoon/amal2_001_lvd.jpg",
@@ -5898,6 +6387,10 @@
     "edible"
    ],
    "risk": "caution",
+   "note": "Ripe fruit cooked or in jelly, pits removed. Pits, leaves (especially wilted) and bark contain cyanide-forming compounds: do not crush or eat the pits. Where: Fence rows, coulees and woods edges in nearly every state.",
+   "lookalikes": [
+    "common-buckthorn"
+   ],
    "plates": [
     {
      "file": "images/plates/chokecherry/prvi_010_lhp.jpg",
@@ -5956,6 +6449,8 @@
     "edible"
    ],
    "risk": "caution",
+   "note": "Ripe fruit raw or cooked. Do not crack or eat the pits (cyanide-forming). Where: Thickets, fence rows and stream banks of the East, Midwest and Plains.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/american-plum/pram_004_lhp.jpg",
@@ -6015,6 +6510,10 @@
     "firewood"
    ],
    "risk": "caution",
+   "note": "Ripe fruit raw or cooked, pits removed. Leaves (especially wilted), bark and pits contain cyanide-forming compounds. Where: Woods and fence rows of the East, Midwest and Southwest mountains.",
+   "lookalikes": [
+    "common-buckthorn"
+   ],
    "plates": [
     {
      "file": "images/plates/black-cherry/prse2_006_lvp.jpg",
@@ -6058,6 +6557,8 @@
     "edible"
    ],
    "risk": "caution",
+   "note": "Ripe fruit cooked or raw, pits removed. Where: Coastal dunes from Maine to Maryland.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/beach-plum/prma2_001_lvd.jpg",
@@ -6086,6 +6587,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Ripe fruit flesh raw. Do not eat the seeds or skin. Some people get stomach upset. Where: Bottomland woods of the East, Midwest and South.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/pawpaw/astr_002_lvp.jpg",
@@ -6145,6 +6648,8 @@
     "firewood"
    ],
    "risk": "starter",
+   "note": "Fruit raw only when fully soft and ripe, usually after frost; unripe fruit is astringent. Do not eat large amounts of skins and seeds on an empty stomach (stomach blockage). Where: Old fields, fence rows and woods of the East, South and lower Midwest.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/american-persimmon/divi5_002_lvp.jpg",
@@ -6203,6 +6708,12 @@
     "edible"
    ],
    "risk": "caution",
+   "note": "Ripe grapes raw or cooked; young leaves cooked. Cut a grape and check the seeds before eating. Where: Stream banks, fence rows and woods edges of the North, Midwest and Plains.",
+   "lookalikes": [
+    "moonseed",
+    "pokeweed",
+    "virginia-creeper"
+   ],
    "plates": [
     {
      "file": "images/plates/riverbank-grape/viri_001_lhp.jpg",
@@ -6231,6 +6742,12 @@
     "edible"
    ],
    "risk": "caution",
+   "note": "Ripe grapes raw or cooked. Check the seeds. Where: Woods edges and thickets of the Northeast and Appalachians.",
+   "lookalikes": [
+    "moonseed",
+    "pokeweed",
+    "virginia-creeper"
+   ],
    "plates": [
     {
      "file": "images/plates/fox-grape/vila8_002_lhp.jpg",
@@ -6274,6 +6791,12 @@
     "edible"
    ],
    "risk": "caution",
+   "note": "Ripe grapes raw or cooked. Check the seeds. Where: Woods and thickets of the East and South.",
+   "lookalikes": [
+    "moonseed",
+    "pokeweed",
+    "virginia-creeper"
+   ],
    "plates": [
     {
      "file": "images/plates/summer-grape/viae_002_lhp.jpg",
@@ -6317,6 +6840,12 @@
     "edible"
    ],
    "risk": "caution",
+   "note": "Ripe grapes raw or cooked. Check the seeds. Where: Woods of the Southeast and Gulf Coast.",
+   "lookalikes": [
+    "moonseed",
+    "pokeweed",
+    "virginia-creeper"
+   ],
    "plates": [
     {
      "file": "images/plates/muscadine/viro3_003_lvp.jpg",
@@ -6375,6 +6904,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Hips (fruit) raw or for tea; remove the hairy seeds. Petals. Where: Prairies, stream banks and woods edges of the West and Plains.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/woods-rose/rowo_009_lhp.jpg",
@@ -6433,6 +6964,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Hips and petals. Invasive. Where: Pastures, fence rows and woods edges of the East and Midwest.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/multiflora-rose/romu_001_lvp.jpg",
@@ -6461,6 +6994,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Hips and petals. Where: Coastal dunes of the Northeast and Great Lakes; planted widely.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/rugosa-rose/roru_001_lhp.jpg",
@@ -6489,6 +7024,8 @@
     "edible"
    ],
    "risk": "caution",
+   "note": "Fruit raw or cooked. Do not eat the seeds (cyanide-forming). Where: Woods edges and pastures of the Midwest and East.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/downy-hawthorn/cral7_001_lvd.jpg",
@@ -6517,6 +7054,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Berries cooked (sour); raw in quantity upsets the stomach. Where: Moist woods and swamps of the North and Alaska.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/highbush-cranberry/vitr8_004_lhp.jpg",
@@ -6575,6 +7114,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Ripe berries raw; spit out the flat seed. Where: Woods edges and stream banks of the North and Plains.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/nannyberry/vile_005_lhp.jpg",
@@ -6633,6 +7174,8 @@
     "edible"
    ],
    "risk": "caution",
+   "note": "Berries after frost, cooked or raw in small amounts (saponins). Where: Coulees and river breaks of the Plains and West.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/silver-buffaloberry/shar_001_lhp.jpg",
@@ -6676,6 +7219,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Berries raw or cooked. Where: Moist woods and stream banks of the North and Plains.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/american-black-currant/riam2_001_lvd.jpg",
@@ -6704,6 +7249,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Berries raw or cooked. Where: Woods of the Midwest and Plains.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/missouri-gooseberry/grmi2_001_lvd.jpg",
@@ -6732,6 +7279,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Pulp of fully ripe fruit raw. Where: Fields, fence rows and roadsides of the Southeast.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/maypop/pain6_006_shp.jpg",
@@ -6790,6 +7339,8 @@
     "edible"
    ],
    "risk": "caution",
+   "note": "Young pads and ripe fruit, cooked or raw, after burning or scraping off the tiny bristles; bristles in the mouth and skin are miserable. Where: Sandy and rocky ground of the East and Midwest.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/eastern-prickly-pear/ophu_001_lvd.jpg",
@@ -6819,6 +7370,8 @@
     "firewood"
    ],
    "risk": "starter",
+   "note": "Dry ripe pods ground to flour (avoid mouldy pods). Wood is a top fuel. Where: Grassland and desert of Texas, Oklahoma, New Mexico and the Southwest.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/honey-mesquite/prgl2_001_lvd.jpg",
@@ -6847,6 +7400,8 @@
     "edible"
    ],
    "risk": "caution",
+   "note": "Flowers and young pods, cooked. Roots are soap (saponins), not food. Where: Prairies and rocky slopes of the Great Plains.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/soapweed-yucca/yugl_002_svp.jpg",
@@ -6890,6 +7445,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Ripe fruit (strong flavour). Where: Pine flatwoods of Florida and the coastal Southeast.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/saw-palmetto/sere2_011_lhp.jpg",
@@ -6933,6 +7490,8 @@
     "edible"
    ],
    "risk": "caution",
+   "note": "The heart (bud) raw or cooked: taking it kills the tree. Emergency food only. Where: Coastal Southeast and Florida.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/cabbage-palmetto/sapa_006_lvp.jpg",
@@ -6976,6 +7535,10 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Berries raw; leaves for tea in moderation (contain methyl salicylate, an aspirin relative; not for people allergic to aspirin). Where: Acid woods of the Northeast, Appalachians and upper Midwest.",
+   "lookalikes": [
+    "mountain-laurel"
+   ],
    "plates": [
     {
      "file": "images/plates/wintergreen/gapr2_001_lvd.jpg",
@@ -7004,6 +7567,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Nuts raw or roasted. Where: Woods edges and thickets of the East, Midwest and Plains.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/american-hazelnut/coam3_001_lvd.jpg",
@@ -7032,6 +7597,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Nuts raw or roasted. Husk bristles irritate skin. Where: Woods of the North, the mountains and the Pacific coast.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/beaked-hazelnut/coco6_002_lvp.jpg",
@@ -7061,6 +7628,8 @@
     "firewood"
    ],
    "risk": "starter",
+   "note": "Nuts raw or roasted, after removing the husk and drying. Discard mouldy nuts. Where: Bottomland and fence rows of the East, Midwest and Plains.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/black-walnut/juni_003_lhp.jpg",
@@ -7104,6 +7673,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Nuts raw or roasted. Discard mouldy nuts. Where: Woods of the Northeast and Midwest.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/butternut/juci_002_lvp.jpg",
@@ -7163,6 +7734,8 @@
     "firewood"
    ],
    "risk": "starter",
+   "note": "Nuts raw or roasted. Where: Woods of the East and Midwest.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/shagbark-hickory/caov2_001_lvp.jpg",
@@ -7222,6 +7795,8 @@
     "firewood"
    ],
    "risk": "starter",
+   "note": "Nuts raw or roasted. Where: River bottoms of the southern Midwest, South and Texas.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/pecan/cail2_002_lvp.jpg",
@@ -7281,6 +7856,11 @@
     "firewood"
    ],
    "risk": "caution",
+   "note": "Acorns, shelled and leached of tannin in changes of water until no longer bitter, then roasted or ground to flour. Where: Woods of the East and Midwest.",
+   "lookalikes": [
+    "horse-chestnut",
+    "ohio-buckeye"
+   ],
    "plates": [
     {
      "file": "images/plates/white-oak/qual_007_lvp.jpg",
@@ -7340,6 +7920,11 @@
     "firewood"
    ],
    "risk": "caution",
+   "note": "Acorns, shelled and leached of tannin in changes of water until no longer bitter, then roasted or ground to flour. Where: Prairies, savannas and river bottoms of the Midwest and Plains.",
+   "lookalikes": [
+    "horse-chestnut",
+    "ohio-buckeye"
+   ],
    "plates": [
     {
      "file": "images/plates/bur-oak/quma2_002_lhp.jpg",
@@ -7399,6 +7984,11 @@
     "firewood"
    ],
    "risk": "caution",
+   "note": "Acorns, shelled and leached of tannin in changes of water until no longer bitter, then roasted or ground to flour. Red-oak acorns are more bitter and need longer leaching. Where: Woods of the East and Midwest.",
+   "lookalikes": [
+    "horse-chestnut",
+    "ohio-buckeye"
+   ],
    "plates": [
     {
      "file": "images/plates/northern-red-oak/quru_006_lvp.jpg",
@@ -7458,6 +8048,8 @@
     "firewood"
    ],
    "risk": "caution",
+   "note": "Acorns, shelled and leached of tannin in changes of water until no longer bitter, then roasted or ground to flour. Where: Foothills and mountains of the Southwest and southern Rockies.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/gambel-oak/quga_007_lvp.jpg",
@@ -7502,6 +8094,8 @@
     "firewood"
    ],
    "risk": "starter",
+   "note": "Nuts raw or roasted (large amounts raw upset the stomach). Where: Woods of the East and Midwest.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/american-beech/fagr_002_lvp.jpg",
@@ -7560,6 +8154,14 @@
     "edible"
    ],
    "risk": "caution",
+   "note": "Nuts roasted or boiled. Where: Woods of the Appalachians and the East (sprouts).",
+   "lookalikes": [
+    "california-buckeye",
+    "horse-chestnut",
+    "ohio-buckeye",
+    "red-buckeye",
+    "yellow-buckeye"
+   ],
    "plates": [
     {
      "file": "images/plates/american-chestnut/cade12_006_lhp.jpg",
@@ -7618,6 +8220,14 @@
     "edible"
    ],
    "risk": "caution",
+   "note": "Nuts raw or roasted. Where: Dry woods of the Southeast.",
+   "lookalikes": [
+    "california-buckeye",
+    "horse-chestnut",
+    "ohio-buckeye",
+    "red-buckeye",
+    "yellow-buckeye"
+   ],
    "plates": [
     {
      "file": "images/plates/allegheny-chinkapin/capu9_003_lvp.jpg",
@@ -7662,6 +8272,8 @@
     "firewood"
    ],
    "risk": "starter",
+   "note": "Pine nuts raw or roasted. Wood is good fuel. Where: Plateaus and foothills of Colorado, Utah, New Mexico and Arizona.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/twoneedle-pinyon/pied_015_lvp.jpg",
@@ -7721,6 +8333,8 @@
     "firewood"
    ],
    "risk": "starter",
+   "note": "Pine nuts raw or roasted. Where: Mountains of Nevada, Utah, eastern California and Arizona.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/singleleaf-pinyon/pimo_008_lvp.jpg",
@@ -7765,6 +8379,13 @@
     "firewood"
    ],
    "risk": "caution",
+   "note": "Needle tea (vitamin C); inner bark in emergencies. Not during pregnancy. Never use flat single needles: those are yew or hemlock. Where: Woods of the Northeast, Great Lakes and Appalachians.",
+   "lookalikes": [
+    "canada-yew",
+    "english-yew",
+    "japanese-yew",
+    "pacific-yew"
+   ],
    "plates": [
     {
      "file": "images/plates/eastern-white-pine/pist_002_lhp.jpg",
@@ -7824,6 +8445,8 @@
     "firewood"
    ],
    "risk": "starter",
+   "note": "Sap in late winter, boiled down to syrup (40 parts sap to 1 of syrup); drink fresh sap. Where: Woods of the Northeast and Midwest.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/sugar-maple/acsa3_007_lvp.jpg",
@@ -7883,6 +8506,8 @@
     "firewood"
    ],
    "risk": "starter",
+   "note": "Sap in early spring, drunk fresh or boiled down. Bark is excellent tinder. Where: Northern forests, the mountains and Alaska.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/paper-birch/bepa_005_lhp.jpg",
@@ -7941,6 +8566,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Twig and leaf tea; dried berries as a spice. Where: Moist woods of the East and Midwest.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/spicebush/LIBE3_006_lhp.jpg",
@@ -7984,6 +8611,10 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Red berry clusters soaked in cold water for a lemonade-like drink (strain the hairs). Where: Dry open ground of the Northeast and Great Lakes.",
+   "lookalikes": [
+    "poison-sumac"
+   ],
    "plates": [
     {
      "file": "images/plates/staghorn-sumac/rhty_002_lhp.jpg",
@@ -8042,6 +8673,10 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Red berry clusters soaked in cold water for a drink. Where: Prairies, roadsides and woods edges in every lower-48 state.",
+   "lookalikes": [
+    "poison-sumac"
+   ],
    "plates": [
     {
      "file": "images/plates/smooth-sumac/rhgl_006_lvp.jpg",
@@ -8100,6 +8735,11 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Red berries soaked in cold water for a drink. Where: Prairies, rocky slopes and woods edges across most of the country.",
+   "lookalikes": [
+    "poison-ivy",
+    "western-poison-ivy"
+   ],
    "plates": [
     {
      "file": "images/plates/fragrant-sumac/rhar4_004_lvp.jpg",
@@ -8144,6 +8784,8 @@
     "firewood"
    ],
    "risk": "starter",
+   "note": "Young leaves raw; flowers for tea. Where: Woods of the East, Midwest and Plains.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/american-basswood/tiam_003_lhp.jpg",
@@ -8202,6 +8844,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Flowers raw; very young pods cooked. Where: Woods edges of the East, South and lower Midwest.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/eastern-redbud/ceca4_013_lvp.jpg",
@@ -8260,6 +8904,8 @@
     "edible"
    ],
    "risk": "starter",
+   "note": "Leaves dried and roasted for a caffeinated tea. Berries are poisonous. Where: Coastal plain of the Southeast and east Texas.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/yaupon/ilvo_008_lvp.jpg",
@@ -8303,6 +8949,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Long hot coals. Seasons slowly. Where: Dry upland woods of the South, lower Midwest and Texas.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/post-oak/qust_002_lvp.jpg",
@@ -8346,6 +8994,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Very dense, very hot, hard to split. Where: Coastal Southeast and Texas.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/southern-live-oak/quvi_010_lhp.jpg",
@@ -8404,6 +9054,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Good fuel; rots fast if left on the ground. Where: Bottomlands and towns of the Southeast.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/water-oak/quni_002_lhp.jpg",
@@ -8462,6 +9114,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Very hot, long burning. Bitter nuts are not food. Where: Woods of the East and Midwest.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/bitternut-hickory/caco15_004_lvp.jpg",
@@ -8520,6 +9174,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Among the hottest North American woods. Where: Woods of the East and South.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/mockernut-hickory/cato6_005_lvp.jpg",
@@ -8578,6 +9234,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Splits easily and burns well even when only partly seasoned. Many ash trees are dying of emerald ash borer: abundant fuel, but do not move ash wood out of the area. Where: Woods of the East and Midwest.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/white-ash/fram2_002_lhp.jpg",
@@ -8636,6 +9294,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Splits easily, burns well; one of the most common shelterbelt and street trees. Emerald ash borer: do not move ash wood. Where: River bottoms, shelterbelts and towns of the East, Midwest and Plains.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/green-ash/frpe_002_lvp.jpg",
@@ -8679,6 +9339,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Good general fuel. Where: Woods and swamps of the East.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/red-maple/acru_004_lvp.jpg",
@@ -8737,6 +9399,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Moderate heat; brittle trees drop many limbs in storms. Where: River bottoms and towns of the East and Midwest.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/silver-maple/acsa2_002_lhp.jpg",
@@ -8795,6 +9459,10 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Light wood; quick fires, short burns. Where: River bottoms, shelterbelts and towns in nearly every state.",
+   "lookalikes": [
+    "poison-ivy"
+   ],
    "plates": [
     {
      "file": "images/plates/box-elder/acne2_006_lhp.jpg",
@@ -8838,6 +9506,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "The main hardwood fuel in western Oregon and Washington. Where: Pacific coast forests.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/bigleaf-maple/acma3_009_lvp.jpg",
@@ -8866,6 +9536,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Hot fire; the curling bark lights even when wet. Where: Northern hardwood forests and the Appalachians.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/yellow-birch/beal2_002_lhp.jpg",
@@ -8924,6 +9596,10 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Hot and long-burning. Where: Bottomlands, pastures and towns of the East, Midwest and Plains.",
+   "lookalikes": [
+    "kentucky-coffeetree"
+   ],
    "plates": [
     {
      "file": "images/plates/honey-locust/gltr_002_lhp.jpg",
@@ -8982,6 +9658,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "One of the hottest woods; throws many sparks: use a screened stove, not an open fire indoors. Where: Hedgerows of the southern Plains and Midwest; planted widely.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/osage-orange/mapo_005_lvp.jpg",
@@ -9041,6 +9719,8 @@
     "edible"
    ],
    "risk": null,
+   "note": "Fruit raw, or crushed whole (seed and all) into a paste. Where: River bottoms, woods and towns of the East, Midwest and Plains.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/hackberry/ceoc_002_lvp.jpg",
@@ -9084,6 +9764,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Interlocked grain makes it very hard to split; split in deep cold. Dead (Dutch elm disease) standing trees are often already dry. Where: River bottoms and towns of the East, Midwest and Plains.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/american-elm/ulam_002_lvp.jpg",
@@ -9112,6 +9794,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Hard to split; moderate heat. Invasive: cut freely. Where: Shelterbelts, towns and pastures of the Plains and West.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/siberian-elm/ulpu_002_lhp.jpg",
@@ -9170,6 +9854,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Light, quick-burning; wet when cut and smells when green. Good for spring and fall fires. Where: River bottoms, shelterbelts and towns of the East, Midwest and Plains.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/eastern-cottonwood/pode3_004_lhp.jpg",
@@ -9213,6 +9899,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Light, quick-burning. Where: Streams and washes of the Southwest and California.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/fremont-cottonwood/pofr2_007_lvp.jpg",
@@ -9271,6 +9959,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Light, quick-burning. Where: Rivers of the Pacific Northwest, northern Rockies and Alaska.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/black-cottonwood/potr15_002_lvp.jpg",
@@ -9314,6 +10004,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Light, low smoke, few sparks; burns fast. Where: Mountains of the West, the North and Alaska.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/quaking-aspen/potr10_001_lhp.jpg",
@@ -9372,6 +10064,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Light, quick-burning; poor heat. Where: Stream banks of the East, Midwest and Plains.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/black-willow/sani_007_lvp.jpg",
@@ -9415,6 +10109,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Moderate heat; very hard to split. Where: Stream banks of the East and Midwest.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/american-sycamore/ploc_005_lvp.jpg",
@@ -9473,6 +10169,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Moderate heat; hard to split. Where: Woods and towns of the Southeast.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/sweetgum/list2_009_lvp.jpg",
@@ -9531,6 +10229,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Light; good kindling and shoulder-season wood. Where: Woods of the East and Appalachians.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/tuliptree/litu_002_lvp.jpg",
@@ -9589,6 +10289,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Among the densest woods; very hot. Small trunks. Where: Woods of the East, Midwest and Plains.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/eastern-hophornbeam/osvi_004_lhp.jpg",
@@ -9647,6 +10349,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Dense, hot; small trunks. Where: Stream banks and moist woods of the East.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/american-hornbeam/caca18_002_lvp.jpg",
@@ -9705,6 +10409,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Interlocked grain: very hard to split. Where: Woods and swamps of the East and South.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/black-tupelo/nysy_007_lvp.jpg",
@@ -9763,6 +10469,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Dense and hot. Where: Coastal forests of California, Oregon and Washington.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/pacific-madrone/arme_015_lhp.jpg",
@@ -9806,6 +10514,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Dense, hot fuel. Sudden oak death: do not move wood out of infested counties. Where: Coastal forests of California and southwest Oregon.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/tanoak/lide3_005_lhp.jpg",
@@ -9864,6 +10574,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Burns cleanly; the Northwest's common firewood, used for smoking fish. Where: Moist lowlands of the Pacific coast.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/red-alder/alru2_011_lhp.jpg",
@@ -9892,6 +10604,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Moderate to good heat. Invasive: cut freely; watch the thorns. Where: River bottoms and shelterbelts of the West and Plains.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/russian-olive/elan_007_lhp.jpg",
@@ -9950,6 +10664,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Extremely dense; burns very hot and long. Where: Dry mountain slopes of the Great Basin and Rockies.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/curlleaf-mountain-mahogany/cele3_008_lhp.jpg",
@@ -10008,6 +10724,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Lights easily and smells pleasant; pops and throws sparks. Good kindling. Where: Pastures, fence rows and prairies of the East, Midwest and Plains.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/eastern-redcedar/juvi_004_lhp.jpg",
@@ -10066,6 +10784,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Good heat, aromatic; sparks. Where: Pinyon-juniper woodland of the Great Basin and Colorado Plateau.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/utah-juniper/juos_017_lhp.jpg",
@@ -10109,6 +10829,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Good heat, aromatic; sparks. Where: Rocky slopes and breaks of the Rockies and western Plains.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/rocky-mountain-juniper/jusc2_004_lhp.jpg",
@@ -10167,6 +10889,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Resinous: lights fast and burns hot but short; seasoned wood keeps creosote down. Fat pine (resin-soaked stumps) is the best fire-starter there is. Where: Mountains and foothills across the West, the Black Hills and Pine Ridge.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/ponderosa-pine/pipo_026_lhp.jpg",
@@ -10225,6 +10949,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Resinous: lights fast and burns hot but short; seasoned wood keeps creosote down. Fat pine (resin-soaked stumps) is the best fire-starter there is. Where: Mountains of the West and Alaska.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/lodgepole-pine/pico_012_lvp.jpg",
@@ -10268,6 +10994,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Resinous: lights fast and burns hot but short; seasoned wood keeps creosote down. Fat pine (resin-soaked stumps) is the best fire-starter there is. Where: Woods and plantations of the Southeast.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/loblolly-pine/pita_002_lhp.jpg",
@@ -10311,6 +11039,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Resinous: lights fast and burns hot but short; seasoned wood keeps creosote down. Fat pine (resin-soaked stumps) is the best fire-starter there is. Where: Coastal plain of the Southeast.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/longleaf-pine/pipa2_011_lhp.jpg",
@@ -10354,6 +11084,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Resinous: lights fast and burns hot but short; seasoned wood keeps creosote down. Fat pine (resin-soaked stumps) is the best fire-starter there is. Where: Woods of the South and Ozarks.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/shortleaf-pine/piec2_009_lhp.jpg",
@@ -10397,6 +11129,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Resinous: lights fast and burns hot but short; seasoned wood keeps creosote down. Fat pine (resin-soaked stumps) is the best fire-starter there is. Where: Flatwoods of Florida and the Gulf Coast.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/slash-pine/piel_007_lvp.jpg",
@@ -10455,6 +11189,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Resinous: lights fast and burns hot but short; seasoned wood keeps creosote down. Fat pine (resin-soaked stumps) is the best fire-starter there is. Where: Sandy ground of the upper Great Lakes.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/jack-pine/piba2_005_lhp.jpg",
@@ -10513,6 +11249,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Resinous: lights fast and burns hot but short; seasoned wood keeps creosote down. Fat pine (resin-soaked stumps) is the best fire-starter there is. Where: Northern forests of the Great Lakes and Northeast.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/red-pine/pire_005_lvp.jpg",
@@ -10571,6 +11309,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "The best softwood fuel: dense for a conifer, burns hot. Where: Forests of the West.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/douglas-fir/psme_018_lvp.jpg",
@@ -10614,6 +11354,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Light; pops and sparks. Good kindling. Where: High mountains of the West.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/engelmann-spruce/pien_013_lhp.jpg",
@@ -10672,6 +11414,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Light; sparks. Where: Northern forests, Alaska, and the Black Hills.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/white-spruce/pigl_002_lvp.jpg",
@@ -10730,6 +11474,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Light; sparks. Where: Bogs of the far North and Alaska.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/black-spruce/pima_003_lvp.jpg",
@@ -10788,6 +11534,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Light; poor heat. Where: High mountains of the West.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/subalpine-fir/abla_006_lvp.jpg",
@@ -10831,6 +11579,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Light; poor heat; good kindling. Where: Northern forests of the Northeast and Great Lakes.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/balsam-fir/abba_002_lhp.jpg",
@@ -10889,6 +11639,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Light. Where: Mountains of the Southwest, California and the Great Basin.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/white-fir/abco_001_lhp.jpg",
@@ -10947,6 +11699,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Good heat for a softwood; sparks. Where: Bogs of the North and Alaska.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/tamarack/lala_002_lvp.jpg",
@@ -11005,6 +11759,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Good heat for a softwood. Where: Mountains of the inland Northwest.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/western-larch/laoc_010_lvp.jpg",
@@ -11048,6 +11804,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Light; sparks. Not related to poison hemlock (a plant). Where: Cool ravines and forests of the Northeast and Appalachians.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/eastern-hemlock/tsca_002_lhp.jpg",
@@ -11106,6 +11864,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Light; sparks. Where: Coastal forests of the Pacific Northwest and Alaska.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/western-hemlock/tshe_003_lhp.jpg",
@@ -11164,6 +11924,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Light, pops; superb kindling (splits fine). Where: Wet forests of the Pacific Northwest and northern Rockies.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/western-redcedar/thpl_010_lvp.jpg",
@@ -11222,6 +11984,8 @@
     "firewood"
    ],
    "risk": null,
+   "note": "Light, pops; kindling. Where: Swamps and limestone of the Great Lakes and Northeast.",
+   "lookalikes": [],
    "plates": [
     {
      "file": "images/plates/northern-white-cedar/thoc2_013_lvp.jpg",

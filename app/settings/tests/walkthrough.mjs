@@ -195,6 +195,7 @@ async function scenarioA(browser, base) {
     await page.check(sel.check('dwelling-fire_features', 'fire-pit'));
     await page.selectOption(sel.input('dwelling-pool_or_hot_tub-kind'), 'none');
     await page.fill(sel.input('dwelling-roof_area_sqft'), '1800');
+    await page.fill(sel.input('dwelling-warm_room'), 'Living room');
     await page.selectOption(sel.input('dwelling-garden_space'), 'large-yard');
     await page.check(sel.radio('dwelling-attached_garage', 'true'));
     await page.click('#f-dwelling-vehicles-add');
@@ -225,6 +226,7 @@ async function scenarioA(browser, base) {
     await page.fill(sel.input('members-0-medications-0-strength'), '10 mg');
     await page.fill(sel.input('members-0-medications-0-schedule'), 'once a day');
     await page.fill(sel.input('members-0-medications-0-days_on_hand'), '45');
+    await page.selectOption(sel.input('members-0-medications-0-for_condition'), 'CL-09');
     await page.check(sel.radio('members-0-medications-0-refrigerated', 'false'));
     await page.fill(sel.input('members-0-medications-0-if_missed'), 'Blood pressure rises over days; call the doctor.');
     await page.click('#f-members-0-allergies-add');
@@ -250,9 +252,18 @@ async function scenarioA(browser, base) {
     await page.check(sel.check('members-1-mobility_or_sensory', 'glasses-contacts'));
 
     await page.click('#f-members-add');
-    assert.equal(await page.$$eval('section.item[aria-labelledby$="-head"]', els => els.filter(e => /^f-members-\d+-head$/.test(e.getAttribute('aria-labelledby'))).length), 3);
-    await page.click('button[aria-label="Remove person 3"]');
-    assert.equal(await page.$(sel.input('members-2-label')), null, 'third person removed');
+    await page.fill(sel.input('members-2-label'), 'Robin');
+    await page.check(sel.radio('members-2-role', 'adult'));
+    await page.fill(sel.input('members-2-age-value'), '34');
+    await page.selectOption(sel.input('members-2-sex'), 'female');
+    assert.equal(await page.$(sel.input('members-2-due_date')), null, 'due date hidden until pregnant');
+    await page.selectOption(sel.input('members-2-pregnant_or_nursing'), 'pregnant');
+    await page.fill(sel.input('members-2-due_date'), '2027-03-14');
+
+    await page.click('#f-members-add');
+    assert.equal(await page.$$eval('section.item[aria-labelledby$="-head"]', els => els.filter(e => /^f-members-\d+-head$/.test(e.getAttribute('aria-labelledby'))).length), 4);
+    await page.click('button[aria-label="Remove person 4"]');
+    assert.equal(await page.$(sel.input('members-3-label')), null, 'fourth person removed');
     await layoutChecks(page, 'step 3');
     await shot(page, '03-members');
     await next(page);
@@ -306,6 +317,14 @@ async function scenarioA(browser, base) {
     await page.click('#f-gear-power_stations-add');
     await page.fill(sel.input('gear-power_stations-0-model'), 'Generic 1000');
     await page.fill(sel.input('gear-power_stations-0-wh'), '1024');
+    assert.match(await page.textContent('.label-help'), /off the label/);
+    await page.fill(sel.input('gear-power_stations-0-pv_input_max_v'), '60');
+    await page.fill(sel.input('gear-power_stations-0-pv_input_max_w'), '400');
+    await page.click('#f-gear-solar_panels-add');
+    await page.fill(sel.input('gear-solar_panels-0-watts'), '100');
+    await page.fill(sel.input('gear-solar_panels-0-count'), '2');
+    await page.fill(sel.input('gear-solar_panels-0-voc'), '22.5');
+    await page.fill(sel.input('gear-solar_panels-0-isc'), '5.8');
     await page.check('#f-has-generator');
     await page.selectOption(sel.input('gear-generator-fuel'), 'dual-fuel');
     await page.selectOption(sel.input('gear-generator-volts'), '120-240');
@@ -313,6 +332,7 @@ async function scenarioA(browser, base) {
     await page.selectOption(sel.input('gear-house_connection'), 'interlock');
     await page.click('#f-gear-heaters-add');
     await page.selectOption(sel.input('gear-heaters-0-kind'), 'portable-propane');
+    await page.fill(sel.input('gear-heaters-0-btu'), '9000');
     await page.fill(sel.input('gear-fuel_on_hand-gasoline_gal'), '15');
     await page.fill(sel.input('gear-fuel_on_hand-propane_20lb'), '3');
     await page.fill(sel.input('gear-water-stored_gal'), '30');
@@ -359,8 +379,13 @@ async function scenarioA(browser, base) {
     saved = await saveProfile(page, path.join(OUT, 'profile-a.json'));
     const ok = validateProfile(saved);
     assert.ok(ok, 'schema errors: ' + JSON.stringify(validateProfile.errors, null, 1));
-    assert.equal(saved.access.access_key, GOOD_KEY);
-    assert.equal(saved.members.length, 2);
+    assert.equal(saved.members.length, 3);
+    assert.equal(saved.members[2].due_date, '2027-03-14');
+    assert.equal(saved.members[0].medications[0].for_condition, 'CL-09');
+    assert.equal(saved.dwelling.warm_room, 'Living room');
+    assert.deepEqual(saved.gear.solar_panels[0], { watts: 100, count: 2, voc: 22.5, isc: 5.8 });
+    assert.equal(saved.gear.power_stations[0].pv_input_max_v, 60);
+    assert.equal(saved.gear.heaters[0].btu, 9000);
     assert.equal(saved.members[1].pregnant_or_nursing, undefined);
     assert.deepEqual(saved.members[0].age, { value: 41, unit: 'years' });
     assert.equal(saved.members[0].ham_callsign, 'KD0ABC');
@@ -376,6 +401,13 @@ async function scenarioA(browser, base) {
     assert.equal(saved.gear.generator.volts, '120-240');
     assert.equal(saved.destinations[0].water_source, 'well');
     assert.equal(saved.destinations[0].sewer, 'septic');
+  });
+
+  await step('saved file contains no access key', async () => {
+    const text = fs.readFileSync(path.join(OUT, 'profile-a.json'), 'utf8');
+    assert.ok(!text.includes(GOOD_KEY), 'the key text appears in profile.json');
+    assert.ok(!/access_key/.test(text), 'an access_key field appears in profile.json');
+    assert.equal(await page.$('#include-key'), null, 'no option to include the key');
   });
 
   await step('final: Small vs Large estimates, generate with stub (progress, then download)', async () => {
@@ -414,7 +446,10 @@ async function scenarioA(browser, base) {
     assert.equal(await page.inputValue(sel.input('access-access_key')), '');
     await page.setInputFiles('#load-file', path.join(OUT, 'profile-a.json'));
     await page.waitForFunction(() => /Loaded your answers/.test(document.querySelector('#toolbar-status').textContent));
-    assert.equal(await page.inputValue(sel.input('access-access_key')), GOOD_KEY);
+    assert.match(await page.textContent('#toolbar-status'), /type it again/);
+    assert.equal(await page.textContent('#step-title'), 'Access and privacy');
+    assert.equal(await page.evaluate(() => document.activeElement.id), 'f-access-access_key');
+    assert.equal(await page.inputValue(sel.input('access-access_key')), '');
     await page.evaluate(() => window.__settings.goto(3));
     assert.equal(await page.inputValue(sel.input('members-1-label')), 'Sam');
     await page.evaluate(() => window.__settings.goto(9));
@@ -426,6 +461,7 @@ async function scenarioA(browser, base) {
     const bad = path.join(OUT, 'not-a-profile.json');
     fs.writeFileSync(bad, '[1,2,3]');
     await page.evaluate(() => window.__settings.goto(0));
+    await page.fill(sel.input('access-access_key'), GOOD_KEY);
     await page.setInputFiles('#load-file', bad);
     await page.waitForFunction(() => /Nothing was changed/.test(document.querySelector('#toolbar-status').textContent));
     assert.equal(await page.inputValue(sel.input('access-access_key')), GOOD_KEY);
@@ -511,6 +547,7 @@ async function scenarioB(browser, base) {
   await step('a loaded profile keeps its county selected; destination counties too', async () => {
     await page.setInputFiles('#load-file', path.join(OUT, 'profile-a.json'));
     await page.waitForFunction(() => /Loaded your answers/.test(document.querySelector('#toolbar-status').textContent));
+    await page.fill(sel.input('access-access_key'), GOOD_KEY);
     await page.evaluate(() => window.__settings.goto(1));
     assert.equal(await page.inputValue(sel.input('home-county')), 'Minnehaha County');
     await page.evaluate(() => window.__settings.goto(5));
@@ -536,7 +573,7 @@ async function scenarioB(browser, base) {
     await page.click('#generate-btn');
     await page.waitForSelector('#download-link', { timeout: 10000 });
     const args = await page.evaluate(() => window.__genArgs);
-    assert.deepEqual(args, { members: 2, kitPages: 1, relay: '', size: 'small', hasProgress: true, hasSignal: true });
+    assert.deepEqual(args, { members: 3, kitPages: 1, relay: '', size: 'small', hasProgress: true, hasSignal: true });
     await shot(page, '09-generate-real-adapter');
   });
 
@@ -564,6 +601,7 @@ async function scenarioC(browser, base) {
   await step('real kit: 24 decision cards with settings_summary and options', async () => {
     await page.setInputFiles('#load-file', path.join(OUT, 'profile-a.json'));
     await page.waitForFunction(() => /Loaded your answers/.test(document.querySelector('#toolbar-status').textContent));
+    await page.fill(sel.input('access-access_key'), 'dry-run-key-1234');
     await page.evaluate(() => window.__settings.goto(8));
     await page.waitForSelector('.card');
     assert.equal(await page.$$eval('.card', els => els.length), 24);

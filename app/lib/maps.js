@@ -1,7 +1,7 @@
 // maps.js — USGS topo maps for the Large download (decision G16).
 //
-// Which maps: the home county, each destination county, and every county the straight line from
-// home to a destination crosses (docs/02 step 5: the kit does not compute a driving route).
+// Which maps: the home county and each destination county; with opts.routeMaps also every county
+// the straight line from home to a destination crosses (docs/02 step 5: no driving route).
 // Where from: the county's own `topo_maps` list in the region data when D1 supplies one; otherwise a
 // search of the USGS National Map (TNM Access API, "US Topo" GeoPDF) for the quad at the county's
 // centroid, all through the relay's /fetch-map (A1 allows tnmaccess.nationalmap.gov/api/v1/ and the
@@ -42,15 +42,26 @@ export function routeCounties(kit, from, to, stepMiles = 5) {
     .map(c => countyGeo(kit, c.st, c.name));
 }
 
-export function mapTargets(kit, ctx) {
+// Route counties are opt-in (opts.route): each is another 20 to 60 MB map. mapPlan() gives the
+// settings page the counts and a size range to show before the household decides.
+export const MAP_MB = { min: 20, max: 60 };
+export function mapTargets(kit, ctx, { route = false } = {}) {
   const home = countyGeo(kit, ctx.home.state, ctx.region.home.county);
   const targets = [];
   const add = (g, why) => { if (g && !targets.some(t => t.state === g.state && t.county === g.county)) targets.push({ ...g, why }); };
   add(home, 'home county');
   const dests = ctx.destinations.map(d => countyGeo(kit, d.region?.state, d.region?.county));
   dests.forEach((g, i) => add(g, `destination: ${ctx.destinations[i].name}`));
-  dests.forEach((g, i) => { for (const r of routeCounties(kit, home, g)) add(r, `on the way to ${ctx.destinations[i].name}`); });
+  if (route) dests.forEach((g, i) => { for (const r of routeCounties(kit, home, g)) add(r, `on the way to ${ctx.destinations[i].name}`); });
   return targets;
+}
+
+export function mapPlan(kit, ctx) {
+  const base = mapTargets(kit, ctx);
+  const all = mapTargets(kit, ctx, { route: true });
+  const mb = n => ({ min_mb: n * MAP_MB.min, max_mb: n * MAP_MB.max });
+  return { base: { count: base.length, ...mb(base.length), counties: base.map(t => `${t.county}, ${t.state}`) },
+    route: { count: all.length - base.length, ...mb(all.length - base.length), counties: all.slice(base.length).map(t => `${t.county}, ${t.state}`) } };
 }
 
 async function searchTopo(relay, t, signal) {

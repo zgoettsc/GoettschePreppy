@@ -255,17 +255,28 @@ const cards = pages.filter(p => p.card || p.layer === 'card').map(p => ({
 // ---- generated pages ---------------------------------------------------------------------------
 const gen = [];
 const genPage = (id, title, body, extra = {}) => ({ id, section: sections[id.slice(0, 2)]?.folder || `${id.slice(0, 2)}-generated`, title, version: 1, revised: TODAY,
-  layer: 'generated', danger_level: 'none', phase: ['A', 'B', 'C'], tags: [], derived_from: [], sources: [], related: [], photo_slots: [], figures: [], plates: [], ...extra, body });
+  layer: 'generated', danger_level: 'none', phase: ['A', 'B', 'C'], tags: [], sources: [], related: [], photo_slots: [], figures: [], plates: [], ...extra, body });
 const mdEsc = s => String(s).replace(/([|*_`[\]])/g, '\\$1');
 
 // Section 32 from data/regions/ when nobody authored it
-const authored32 = pages.some(p => p.id.startsWith('32-') && !p.id.startsWith('32-00'));
-if (!authored32 && Object.keys(regions).length) {
-  const order = Object.keys(STATE_NAMES).sort((a, b) => STATE_NAMES[a].localeCompare(STATE_NAMES[b]));
-  const classes = [['32-60-plates-deadly-plants-and-look-alikes', 'Plates: deadly plants and look-alikes', p => ['deadly', 'lookalike', 'caution'].includes(p.class)],
+// National plate pages (32-60 to 32-63): every binder carries every plate (G21), whoever wrote the
+// state pages. Each image is stored once in a binder however many pages show it.
+const PLATE_CLASSES = [['32-60-plates-deadly-plants-and-look-alikes', 'Plates: deadly plants and look-alikes', p => ['deadly', 'lookalike', 'caution'].includes(p.class)],
     ['32-61-plates-safe-starter-edibles', 'Plates: safe starter edibles', p => ['edible', 'medicinal'].includes(p.class)],
     ['32-62-plates-firewood-trees', 'Plates: firewood trees', p => p.class === 'firewood'],
     ['32-63-plates-other-plants', 'Plates: other plants', p => !['deadly', 'lookalike', 'caution', 'edible', 'medicinal', 'firewood'].includes(p.class)]];
+for (const [id, title, test] of PLATE_CLASSES) {
+  if (have.has(id.slice(0, 5))) continue;
+  const keys = Object.entries(plates).filter(([, p]) => test(p)).sort((a, b) => a[1].common.localeCompare(b[1].common)).map(([k]) => k);
+  if (!keys.length) continue;
+  gen.push(genPage(id, title, `# ${title}\n\n**What this page is for.** Identification photographs for the whole country, so you can recognise these plants wherever you end up. Each state page lists which ones grow in its ecoregions.\n\n> **SAFETY.** No wild plant or mushroom is eaten on a "test"; identification or nothing (→ 30-01). A photograph helps you recognise a plant; certainty needs every feature in the description.\n\n{{plates}}\n`, { plates: keys, tags: ['plants', 'plates', 'foraging'], danger_level: id.startsWith('32-60') ? 'critical' : 'caution' }));
+}
+
+// Section 32 state pages from data/regions/ when nobody authored them
+const authored32 = pages.some(p => p.id.startsWith('32-') && !p.id.startsWith('32-00') && !/^32-6[0-3]/.test(p.id));
+if (!authored32 && Object.keys(regions).length) {
+  const order = Object.keys(STATE_NAMES).sort((a, b) => STATE_NAMES[a].localeCompare(STATE_NAMES[b]));
+  const classes = PLATE_CLASSES;
   const plateRef = key => { const p = plates[key]; if (!p) return mdEsc(key.replace(/-/g, ' ')); const c = classes.find(x => x[2](p)); return `${mdEsc(p.common)} (→ ${c[0].slice(0, 5)})`; };
   order.forEach((code, i) => {
     const st = regions[code];
@@ -302,11 +313,6 @@ ${ecos.length ? ecos.map(e => { const eco = ecoregions[e] || {}; return `### ${m
 `;
     gen.push(genPage(id, `${STATE_NAMES[code]}: region data`, body, { layer: 'generated', tags: ['region', `state-${code.toLowerCase()}`, STATE_NAMES[code].toLowerCase()], sources: (st.sources || []).filter(k => sources[k]) }));
   });
-  for (const [id, title, test] of classes) {
-    const keys = Object.entries(plates).filter(([, p]) => test(p)).sort((a, b) => a[1].common.localeCompare(b[1].common)).map(([k]) => k);
-    if (!keys.length) continue;
-    gen.push(genPage(id, title, `# ${title}\n\n**What this page is for.** Identification photographs for the whole country, so you can recognise these plants wherever you end up. Each state page lists which ones grow in its ecoregions.\n\n> **SAFETY.** No wild plant or mushroom is eaten on a "test"; identification or nothing (→ 30-01). A photograph helps you recognise a plant; certainty needs every feature in the description.\n\n{{plates}}\n`, { plates: keys, tags: ['plants', 'plates', 'foraging'], danger_level: id.startsWith('32-60') ? 'critical' : 'caution' }));
-  }
 }
 
 const allPages = () => [...pages, ...gen];

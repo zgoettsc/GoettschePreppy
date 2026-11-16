@@ -29,8 +29,8 @@ test('DGA 2020-2025 moderately active calories', () => {
   assert.equal(dgaModerate({ age: { value: 18, unit: 'months' } }), 1000);
   assert.equal(dgaModerate({ age: { value: 44, unit: 'years' }, sex: 'not-said' }), 2600);
   const c = calories(load('sd-rural-farm-infant-well.json'));
-  // Anna 31 F 2000 + nursing 450, Ben 33 M 2600, Clara 6 F 1400, Theo under 12 months left out
-  assert.equal(c.day, 2450 + 2600 + 1400);
+  // Anna 31 F 2000 + nursing 330 (DGA 2020-2025, first 6 months), Ben 33 M 2600, Clara 6 F 1400, Theo under 12 months left out
+  assert.equal(c.day, 2330 + 2600 + 1400);
   assert.equal(c.two_weeks, c.day * 14);
   assert.deepEqual(c.left_out, ['Baby Theo']);
 });
@@ -43,6 +43,9 @@ test('station fridge days', () => {
 test('context flags and lists from each test profile', () => {
   const il = buildContext(load('il-urban-apartment-t2d-elder.json'), {});
   assert.equal(il.has.apartment, true);
+  assert.equal(il.has.diabetes, true);
+  assert.equal(il.has.food_allergy, false);
+  assert.equal(il.has.hybrid, true);
   assert.equal(il.has.elder, true);
   assert.equal(il.has.condition['CL-05'], true);
   assert.equal(il.has.condition['CL-01'], false);
@@ -61,7 +64,7 @@ test('context flags and lists from each test profile', () => {
   assert.equal(sd.children.length, 2);
   assert.equal(sd.has.agreed_destination, false);
   const oh = buildContext(load('oh-suburban-allergy-generator.json'), {}, { size: 'large' });
-  for (const f of ['anaphylaxis', 'epinephrine', 'pool', 'inverter_generator', 'power_station', 'solar', 'ev', 'teen', 'fireplace'])
+  for (const f of ['anaphylaxis', 'epinephrine', 'pool', 'inverter_generator', 'power_station', 'solar', 'ev', 'teen', 'fireplace', 'food_allergy', 'adult_over_40'])
     assert.equal(oh.has[f], true, f);
   assert.equal(oh.gear.station_wh_total, 2560);
   assert.equal(oh.gear.solar_w_total, 400);
@@ -88,6 +91,7 @@ test('region resolution and county matching', () => {
   assert.equal(r.zone, '4b');
   assert.equal(r.hazards[0].rating, 3);
   assert.equal(r.plants.deadly[0].text, 'Water hemlock (Cicuta maculata)');
+  for (const f of ['key', 'common_name', 'scientific_name', 'look_alike_of']) assert.ok(f in r.plants.deadly[0], f);
   const ctx = buildContext(load('sd-rural-farm-infant-well.json'), kit);
   assert.equal(ctx.is.cold_winters, true);
   assert.equal(ctx.is.extreme_cold, true);
