@@ -40,7 +40,7 @@ This page holds the public reference data for South Dakota: climate by area and 
 - Hardiness zones: 4a to 5b (USDA Agricultural Research Service and Oregon State University, 2023 USDA Plant Hardiness Zone Map, 2023).
 - January mean low: 0 to 18 F. July mean high: 80 to 90 F (NOAA National Centers for Environmental Information, U.S. Climate Normals 1991-2020, 2021).
 - Coldest and hottest on record at the stations used: -58 F and 120 F (NOAA Regional Climate Centers, Applied Climate Information System, station records through 2025).
-- NWS forecast offices serving the counties: NWS &#83;ioux Falls, SD; NWS Rapid City, SD; NWS Aberdeen, SD.
+- NWS forecast offices serving the counties: NWS Sioux Falls, SD; NWS Rapid City, SD; NWS Aberdeen, SD.
 - Ecoregions at county centres: Northwestern Glaciated Plains; Northern Glaciated Plains; Northwestern Great Plains; Middle Rockies; Western Corn Belt Plains.
 
 ## Climate by area
@@ -50,7 +50,7 @@ Areas follow the National Weather Service office that forecasts for each county 
 | Area (NWS office) | Counties | Zone | Jan low F | Jul high F | Record low / high F | Precip in | Snow in | Last frost | First frost | Frost-free days | Sun hrs Dec / Jun |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | NWS Aberdeen, SD | 26 | 4a to 5a | 0 to 12 | 80 to 90 | -58 / 120 | 17.3 to 27.5 | 22 to 61 | May 2 to May 17 | Sep 24 to Oct 9 | 129 to 160 | 2.5 to 3.2 / 5.5 to 6 |
-| NWS &#83;ioux Falls, SD | 24 | 4b to 5a | 4 to 12 | 81 to 88 | -47 / 117 | 23.3 to 29.9 | 26 to 45 | Apr 26 to May 9 | Sep 28 to Oct 13 | 140 to 169 | 2.8 to 3.1 / 5.5 to 5.8 |
+| NWS Sioux Falls, SD | 24 | 4b to 5a | 4 to 12 | 81 to 88 | -47 / 117 | 23.3 to 29.9 | 26 to 45 | Apr 26 to May 9 | Sep 28 to Oct 13 | 140 to 169 | 2.8 to 3.1 / 5.5 to 5.8 |
 | NWS Rapid City, SD | 16 | 4b to 5b | 9 to 18 | 82 to 90 | -42 / 116 | 13.4 to 31.8 | 32 to 184 | May 1 to May 18 | Sep 26 to Oct 9 | 131 to 159 | 3 to 3.4 / 5.8 to 6.2 |
 
 Sun hours are peak sun hours: the average daily solar energy on a south-facing panel tilted at the local latitude, in kilowatt-hours per square metre (NASA POWER project, Climatology 2001-2025, 2026). A 100-watt panel makes roughly 100 watt-hours per peak sun hour before losses. → 09-05
@@ -109,7 +109,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Meade | 5a | 3,050 | 9 | 85 | -40 / 109 | 18.9 | 48 | May 16 | Sep 26 | 131 |
 | Mellette | 5a | 2,110 | 11 | 88 | -36 / 116 | 20.5 | 50 | May 10 | Oct 1 | 143 |
 | Miner | 5a | 1,470 | 5 | 87 | -46 / 113 | 26.4 | 36 | May 5 | Oct 2 | 149 |
-| &#77;innehaha | 5a | 1,570 | 7 | 85 | -42 / 110 | 28.3 | 45 | Apr 26 | Oct 13 | 169 |
+| Minnehaha | 5a | 1,570 | 7 | 85 | -42 / 110 | 28.3 | 45 | Apr 26 | Oct 13 | 169 |
 | Moody | 4b | 1,570 | 4 | 81 | -40 / 112 | 28.5 | 40 | May 5 | Oct 1 | 148 |
 | Oglala Lakota | 5a | 2,960 | 14 | 88 | -39 / 110 | 19.9 | 37 | May 9 | Oct 4 | 147 |
 | Pennington | 5a | 3,030 | 13 | 86 | -31 / 111 | 17.4 | 48 | May 12 | Oct 1 | 139 |
@@ -204,7 +204,7 @@ Key: Torn = tornado; Bliz = blizzard and winter storm; Ice = ice storm; Flood = 
 | Meade | 1 | 3 | 1 | 1 | 2 | 1 | 1 | 1 |
 | Mellette | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 | Miner | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 2 |
-| &#77;innehaha | 3 | 3 | 3 | 2 | 1 | 2 | 3 | 2 |
+| Minnehaha | 3 | 3 | 3 | 2 | 1 | 2 | 3 | 2 |
 | Moody | 1 | 2 | 3 | 1 | 1 | 1 | 1 | 1 |
 | Oglala Lakota | 1 | 2 | 1 | 1 | 2 | 1 | 2 | 1 |
 | Pennington | 1 | 3 | 3 | 2 | 2 | 1 | 2 | 1 |
@@ -230,7 +230,7 @@ Each office issues the watches and warnings for its counties (NOAA National Weat
 | Office | Code | Counties (main office) | Shared counties |
 | --- | --- | --- | --- |
 | NWS Aberdeen, SD | ABR | 26 | 0 |
-| NWS &#83;ioux Falls, SD | FSD | 24 | 0 |
+| NWS Sioux Falls, SD | FSD | 24 | 0 |
 | NWS Rapid City, SD | UNR | 16 | 0 |
 
 ## NOAA Weather Radio
@@ -261,7 +261,7 @@ A weather radio receives these transmitters with no power grid or internet. Prog
 | KZZ60 | 162.525 | Reliance, SD | 8 | Normal |
 | WNG658 | 162.525 | Scranton, ND | 2 | Normal |
 | WXL62 | 162.475 | Sioux City, IA | 1 | Normal |
-| WXM28 | 162.400 | &#83;ioux Falls, SD | 6 | Normal |
+| WXM28 | 162.400 | Sioux Falls, SD | 6 | Normal |
 | WXM41 | 162.425 | South Shore, SD | 3 | Normal |
 | WXN82 | 162.450 | Valentine, NE | 2 | Normal |
 | WXM27 | 162.550 | Wessington, SD | 8 | Normal |
@@ -320,7 +320,7 @@ A weather radio receives these transmitters with no power grid or internet. Prog
 | Meade | 046093 | WNG557 162.475; WXM63 162.550 |
 | Mellette | 046095 | WNG558 162.550 |
 | Miner | 046097 | KXI71 162.525; WWH36 162.450 |
-| &#77;innehaha | 046099 | WXM28 162.400 |
+| Minnehaha | 046099 | WXM28 162.400 |
 | Moody | 046101 | WXM28 162.400 |
 | Oglala Lakota | 046102 | KZZ59 162.500 |
 | Pennington | 046103 | WXL23 162.525; KXI59 162.450; WXM63 162.550 |

@@ -66,7 +66,7 @@ for (const { rel, dir, f, text } of pages) {
   if (data.id && f !== `${data.id}.md`) err(`filename does not match id ${data.id}`);
   if (data.section && data.section !== dir) err(`section ${data.section} does not match folder ${dir}`);
   if (data.id && data.id.slice(0, 2) !== dir.slice(0, 2)) err('id prefix does not match section number');
-  const exempt = dir.startsWith('31-');
+  const exempt = dir.startsWith('31-') || dir.startsWith('32-');
   // links
   if (/https?:\/\/|www\.[a-z0-9-]+\.[a-z]/i.test(text)) err('contains a URL (no links anywhere)');
   if (/\]\((?!#)[^)]*\)/.test(body)) err('contains a Markdown link (cross-reference with → NN-MM instead)');

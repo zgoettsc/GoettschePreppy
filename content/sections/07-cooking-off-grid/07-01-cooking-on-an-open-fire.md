@@ -191,8 +191,8 @@ household's worksheet on children and dangerous jobs (→ 30-25): {{choice DC-24
 
 - **Runway:** this is a firewood question (→ 06-04). An open fire is the **least** fuel-efficient
   way you have to cook.
-- **Ration:** move everyday cooking to a **rocket stove** (→ 07-02), which in published stove tests
-  uses **roughly half the wood** of an open fire for the same cooking; keep the open fire for
+- **Ration:** move everyday cooking to a **rocket stove** (→ 07-02), which uses **roughly half the
+  wood** of an open fire for the same cooking; keep the open fire for
   big-batch cooking, boiling volume, and when you want the heat anyway.
 - **Resupply or substitute:** solar cooking in summer (→ 07-03) costs no fuel; propane (→ 07-05)
   for speed and bad weather; the kettle (→ 07-06) wherever there is stored power.

@@ -159,7 +159,7 @@ A weather radio receives these transmitters with no power grid or internet. Prog
 | WNG634 | 162.400 | Pahrump, NV | 4 | Normal |
 | WXK58 | 162.550 | Reno, NV | 5 | Normal |
 | WWF51 | 162.475 | St. George, UT | 2 | Normal |
-| WZ2519 | 162.400 | &#84;onopah, NV | 2 | Normal |
+| WZ2519 | 162.400 | Tonopah, NV | 2 | Normal |
 | KXI30 | 162.475 | Wendover, UT | 1 | Normal |
 | WXL29 | 162.400 | Winnemucca, NV | 2 | Normal |
 

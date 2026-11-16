@@ -70,7 +70,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Converse | 5a | 5,300 | 13 | 89 | -43 / 106 | 11.2 | 59 | May 23 | Sep 22 | 122 |
 | Crook | 5a | 4,830 | 13 | 82 | -42 / 105 | 20.4 | 81 | May 21 | Sep 25 | 124 |
 | Fremont | 5a | 5,370 | 8 | 88 | -31 / 102 | 8.6 | 28 | May 16 | Sep 28 | 133 |
-| &#71;oshen | 5a | 4,240 | 12 | 88 | -36 / 109 | 14.8 | 31 | May 20 | Sep 22 | 122 |
+| Goshen | 5a | 4,240 | 12 | 88 | -36 / 109 | 14.8 | 31 | May 20 | Sep 22 | 122 |
 | Hot Springs | 4b | 5,030 | 10 | 86 | -40 / 104 | 11.9 | 27 | May 29 | Sep 17 | 110 |
 | Johnson | 5a | 4,680 | 12 | 86 | -41 / 107 | 13.4 | 36 | May 19 | Sep 21 | 123 |
 | Laramie | 5b | 5,900 | 14 | 88 | -30 / 104 | 16.1 | 47 | May 21 | Sep 24 | 124 |
@@ -122,7 +122,7 @@ Key: Torn = tornado; Bliz = blizzard and winter storm; Ice = ice storm; Flood = 
 | Converse | 1 | 2 | 1 | 1 | 2 | 2 | 1 |
 | Crook | 1 | 2 | 1 | 1 | 1 | 1 | 1 |
 | Fremont | 1 | 2 | 1 | 1 | 2 | 2 | 2 |
-| &#71;oshen | 1 | 2 | 1 | 1 | 1 | 2 | 1 |
+| Goshen | 1 | 2 | 1 | 1 | 1 | 2 | 1 |
 | Hot Springs | 1 | 1 | 1 | 1 | 1 | 1 | 2 |
 | Johnson | 1 | 2 | 1 | 1 | 1 | 1 | 1 |
 | Laramie | 2 | 3 | 3 | 1 | 2 | 3 | 1 |
@@ -194,7 +194,7 @@ A weather radio receives these transmitters with no power grid or internet. Prog
 | Converse | 056009 | WXM47 162.400; WNG571 162.450 |
 | Crook | 056011 | WNG660 162.500; WXL23 162.525 |
 | Fremont | 056013 | WNG723 162.450; WXM61 162.475; WNG573 162.500 |
-| &#71;oshen | 056015 | WXM37 162.550; WNG571 162.450 |
+| Goshen | 056015 | WXM37 162.550; WNG571 162.450 |
 | Hot Springs | 056017 | WNG573 162.500 |
 | Johnson | 056019 | WNG662 162.550; WXM46 162.475 |
 | Laramie | 056021 | WXM37 162.550 |

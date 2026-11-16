@@ -484,7 +484,7 @@ An ecoregion is an area where the land, climate, soils and plants are alike (US 
 | Western Corn Belt Plains | 6 | 10 |
 | Southwestern Tablelands | 3 | 7 |
 | Cross Timbers | 1 | 6 |
-| &#79;zark Highlands | 0 | 1 |
+| Ozark Highlands | 0 | 1 |
 
 ### Plants and trees to know (plates being added)
 

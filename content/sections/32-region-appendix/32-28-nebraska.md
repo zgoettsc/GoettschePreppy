@@ -40,7 +40,7 @@ This page holds the public reference data for Nebraska: climate by area and by c
 - Hardiness zones: 4b to 6a (USDA Agricultural Research Service and Oregon State University, 2023 USDA Plant Hardiness Zone Map, 2023).
 - January mean low: 9 to 18 F. July mean high: 83 to 92 F (NOAA National Centers for Environmental Information, U.S. Climate Normals 1991-2020, 2021).
 - Coldest and hottest on record at the stations used: -47 F and 118 F (NOAA Regional Climate Centers, Applied Climate Information System, station records through 2025).
-- NWS forecast offices serving the counties: NWS Hastings, NE; NWS Omaha/Valley, NE; NWS North Platte, NE; NWS Cheyenne, WY; NWS &#83;ioux Falls, SD; NWS Goodland, KS.
+- NWS forecast offices serving the counties: NWS Hastings, NE; NWS Omaha/Valley, NE; NWS North Platte, NE; NWS Cheyenne, WY; NWS Sioux Falls, SD; NWS Goodland, KS.
 - Ecoregions at county centres: Central Great Plains; Western Corn Belt Plains; Nebraska Sand Hills; High Plains; Northwestern Glaciated Plains; Northwestern Great Plains.
 
 ## Climate by area
@@ -54,7 +54,7 @@ Areas follow the National Weather Service office that forecasts for each county 
 | NWS Hastings, NE | 24 | 5a to 6a | 11 to 17 | 85 to 92 | -39 / 118 | 23.4 to 31.1 | 18 to 35 | Apr 19 to May 5 | Oct 2 to Oct 20 | 149 to 181 | 3.3 to 3.6 / 5.9 to 6.2 |
 | NWS Cheyenne, WY | 8 | 4b to 5b | 11 to 17 | 86 to 92 | -47 / 114 | 14.9 to 18.8 | 29 to 50 | May 8 to May 30 | Sep 11 to Oct 5 | 103 to 149 | 3.5 to 3.8 / 6.3 to 6.5 |
 | NWS Goodland, KS | 3 | 5b to 6a | 15 to 16 | 91 | -34 / 115 | 19.7 to 20.3 | 22 to 30 | Apr 29 to May 1 | Oct 9 to Oct 13 | 160 to 166 | 3.7 / 6.3 to 6.4 |
-| NWS &#83;ioux Falls, SD | 2 | 5a | 9 | 85 to 86 | -35 / 111 | 28.8 to 30.3 | 36 | Apr 29 to May 2 | Oct 4 to Oct 7 | 154 to 161 | 3 / 5.7 |
+| NWS Sioux Falls, SD | 2 | 5a | 9 | 85 to 86 | -35 / 111 | 28.8 to 30.3 | 36 | Apr 29 to May 2 | Oct 4 to Oct 7 | 154 to 161 | 3 / 5.7 |
 
 Sun hours are peak sun hours: the average daily solar energy on a south-facing panel tilted at the local latitude, in kilowatt-hours per square metre (NASA POWER project, Climatology 2001-2025, 2026). A 100-watt panel makes roughly 100 watt-hours per peak sun hour before losses. → 09-05
 
@@ -116,7 +116,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Kearney | 5b | 2,150 | 14 | 87 | -33 / 118 | 25.7 | 25 | Apr 26 | Oct 12 | 168 |
 | Keith | 6a | 3,400 | 18 | 87 | -25 / 111 | 19.2 | 21 | Apr 22 | Oct 18 | 176 |
 | Keya Paha | 5a | 2,300 | 9 | 88 | -34 / 113 | 23.8 | 36 | May 10 | Oct 1 | 143 |
-| &#75;imball | 5b | 4,930 | 13 | 86 | -36 / 110 | 15.8 | 30 | May 15 | Sep 26 | 132 |
+| Kimball | 5b | 4,930 | 13 | 86 | -36 / 110 | 15.8 | 30 | May 15 | Sep 26 | 132 |
 | Knox | 5a | 1,520 | 10 | 86 | -36 / 114 | 29.1 | 36 | Apr 30 | Oct 6 | 158 |
 | Lancaster | 6a | 1,220 | 14 | 89 | -33 / 108 | 29.3 | 26 | Apr 24 | Oct 13 | 171 |
 | Lincoln | 5b | 3,050 | 14 | 87 | -36 / 111 | 21.2 | 28 | May 3 | Oct 10 | 158 |
@@ -238,7 +238,7 @@ Key: Torn = tornado; Bliz = blizzard and winter storm; Ice = ice storm; Flood = 
 | Kearney | 1 | 2 | 1 | 1 | 1 | 1 | 1 | 2 |
 | Keith | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 2 |
 | Keya Paha | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| &#75;imball | 1 | 1 | 2 | 1 | 1 | 1 | 1 | 2 |
+| Kimball | 1 | 1 | 2 | 1 | 1 | 1 | 1 | 2 |
 | Knox | 1 | 2 | 2 | 1 | 1 | 1 | 1 | 2 |
 | Lancaster | 3 | 3 | 3 | 2 | 2 | 1 | 2 | 2 |
 | Lincoln | 1 | 3 | 1 | 1 | 1 | 1 | 1 | 2 |
@@ -291,7 +291,7 @@ Each office issues the watches and warnings for its counties (NOAA National Weat
 | NWS Hastings, NE | GID | 24 | 0 |
 | NWS Cheyenne, WY | CYS | 8 | 0 |
 | NWS Goodland, KS | GLD | 3 | 0 |
-| NWS &#83;ioux Falls, SD | FSD | 2 | 0 |
+| NWS Sioux Falls, SD | FSD | 2 | 0 |
 
 ## NOAA Weather Radio
 
@@ -388,7 +388,7 @@ A weather radio receives these transmitters with no power grid or internet. Prog
 | Kearney | 031099 | WXL75 162.475 |
 | Keith | 031101 | WXL68 162.550; KHA55 162.525 |
 | Keya Paha | 031103 | WXL73 162.475 |
-| &#75;imball | 031105 | WXL67 162.475; WXN61 162.500 |
+| Kimball | 031105 | WXL67 162.475; WXN61 162.500 |
 | Knox | 031107 | WXL77 162.550; KXI21 162.500 |
 | Lancaster | 031109 | WXM20 162.475 |
 | Lincoln | 031111 | WXL68 162.550 |

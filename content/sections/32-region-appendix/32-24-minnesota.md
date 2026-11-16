@@ -40,7 +40,7 @@ This page holds the public reference data for Minnesota: climate by area and by 
 - Hardiness zones: 3b to 5a (USDA Agricultural Research Service and Oregon State University, 2023 USDA Plant Hardiness Zone Map, 2023).
 - January mean low: -8 to 11 F. July mean high: 70 to 85 F (NOAA National Centers for Environmental Information, U.S. Climate Normals 1991-2020, 2021).
 - Coldest and hottest on record at the stations used: -59 F and 114 F (NOAA Regional Climate Centers, Applied Climate Information System, station records through 2025).
-- NWS forecast offices serving the counties: NWS Duluth, MN; NWS Twin Cities/Chanhassen, MN; NWS Grand Forks, ND; NWS Aberdeen, SD; NWS &#83;ioux Falls, SD; NWS La Crosse, WI.
+- NWS forecast offices serving the counties: NWS Duluth, MN; NWS Twin Cities/Chanhassen, MN; NWS Grand Forks, ND; NWS Aberdeen, SD; NWS Sioux Falls, SD; NWS La Crosse, WI.
 - Ecoregions at county centres: Northern Lakes and Forests; North Central Hardwood Forests; Northern Glaciated Plains; Western Corn Belt Plains; Lake Agassiz Plain; Driftless Area; Northern Minnesota Wetlands.
 
 ## Climate by area
@@ -52,7 +52,7 @@ Areas follow the National Weather Service office that forecasts for each county 
 | NWS Twin Cities/Chanhassen, MN | 42 | 4a to 5a | -1 to 8 | 79 to 85 | -52 / 110 | 24.1 to 37.9 | 38 to 57 | Apr 23 to May 19 | Sep 25 to Oct 20 | 128 to 177 | 2.2 to 2.8 / 5.2 to 5.5 |
 | NWS Grand Forks, ND | 18 | 3b to 4b | -8 to 0 | 77 to 82 | -55 / 114 | 22.3 to 29.4 | 41 to 53 | May 4 to May 16 | Sep 24 to Oct 5 | 129 to 153 | 2.1 to 2.5 / 5.1 to 5.5 |
 | NWS Duluth, MN | 10 | 3b to 4b | -5 to 7 | 70 to 82 | -59 / 106 | 24.5 to 33.3 | 39 to 94 | May 5 to May 31 | Sep 15 to Oct 9 | 104 to 150 | 1.8 to 2.2 / 5 to 5.3 |
-| NWS &#83;ioux Falls, SD | 8 | 4b to 5a | 3 to 8 | 80 to 85 | -44 / 111 | 28.6 to 31.7 | 35 to 48 | Apr 30 to May 7 | Sep 29 to Oct 10 | 145 to 162 | 2.8 to 3 / 5.4 to 5.6 |
+| NWS Sioux Falls, SD | 8 | 4b to 5a | 3 to 8 | 80 to 85 | -44 / 111 | 28.6 to 31.7 | 35 to 48 | Apr 30 to May 7 | Sep 29 to Oct 10 | 145 to 162 | 2.8 to 3 / 5.4 to 5.6 |
 | NWS La Crosse, WI | 7 | 4b to 5a | 4 to 11 | 79 to 85 | -45 / 108 | 34.4 to 38.3 | 38 to 53 | Apr 21 to May 14 | Sep 28 to Oct 19 | 136 to 180 | 2.4 to 2.6 / 5.3 |
 | NWS Aberdeen, SD | 2 | 4b | 3 | 82 to 83 | -39 / 113 | 25.3 to 26.4 | 43 | May 1 | Oct 8 to Oct 9 | 159 to 160 | 2.5 / 5.5 |
 
@@ -277,7 +277,7 @@ Each office issues the watches and warnings for its counties (NOAA National Weat
 | NWS Twin Cities/Chanhassen, MN | MPX | 42 | 0 |
 | NWS Grand Forks, ND | FGF | 18 | 0 |
 | NWS Duluth, MN | DLH | 10 | 0 |
-| NWS &#83;ioux Falls, SD | FSD | 8 | 0 |
+| NWS Sioux Falls, SD | FSD | 8 | 0 |
 | NWS La Crosse, WI | ARX | 7 | 0 |
 | NWS Aberdeen, SD | ABR | 2 | 0 |
 
@@ -328,7 +328,7 @@ A weather radio receives these transmitters with no power grid or internet. Prog
 | WXK41 | 162.475 | Rochester, MN | 8 | Normal |
 | WWF45 | 162.450 | Roosevelt, MN | 3 | Normal |
 | KXI50 | 162.500 | Russell, MN | 6 | Normal |
-| WXM28 | 162.400 | &#83;ioux Falls, SD | 3 | Normal |
+| WXM28 | 162.400 | Sioux Falls, SD | 3 | Normal |
 | WXM41 | 162.425 | South Shore, SD | 3 | Normal |
 | KZZ79 | 162.475 | Spooner, WI | 1 | Normal |
 | KXI68 | 162.450 | St. Ansgar, IA | 2 | Normal |

@@ -41,7 +41,7 @@ This page holds the public reference data for Oklahoma: climate by area and by c
 - January mean low: 19 to 33 F. July mean high: 90 to 97 F (NOAA National Centers for Environmental Information, U.S. Climate Normals 1991-2020, 2021).
 - Coldest and hottest on record at the stations used: -29 F and 120 F (NOAA Regional Climate Centers, Applied Climate Information System, station records through 2025).
 - NWS forecast offices serving the counties: NWS Tulsa, OK; NWS Norman, OK; NWS Amarillo, TX; NWS Shreveport, LA.
-- Ecoregions at county centres: &#79;zark Highlands; Central Great Plains; Ouachita Mountains; Southwestern Tablelands; East Central Texas Plains; Cross Timbers; South Central Plains; High Plains; Arkansas Valley; Central Irregular Plains; Flint Hills.
+- Ecoregions at county centres: Ozark Highlands; Central Great Plains; Ouachita Mountains; Southwestern Tablelands; East Central Texas Plains; Cross Timbers; South Central Plains; High Plains; Arkansas Valley; Central Irregular Plains; Flint Hills.
 
 ## Climate by area
 
@@ -274,7 +274,7 @@ A weather radio receives these transmitters with no power grid or internet. Prog
 | KJY94 | 162.450 | Chickasha, OK | 8 | Normal |
 | KJY97 | 162.525 | Childress, TX | 3 | Normal |
 | WXK87 | 162.525 | Clinton, OK | 8 | Normal |
-| WWQ50 | 162.425 | &#68;alhart, TX | 1 | Normal |
+| WWQ50 | 162.425 | Dalhart, TX | 1 | Normal |
 | WXL90 | 162.550 | Des Moines, NM | 1 | Normal |
 | WXL48 | 162.475 | Enid, OK | 7 | Normal |
 | WXJ52 | 162.475 | Fayetteville, AR | 2 | Normal |
@@ -396,7 +396,7 @@ An ecoregion is an area where the land, climate, soils and plants are alike (US 
 | Central Irregular Plains | 9 | 13 |
 | Arkansas Valley | 6 | 11 |
 | Southwestern Tablelands | 2 | 9 |
-| &#79;zark Highlands | 3 | 7 |
+| Ozark Highlands | 3 | 7 |
 | South Central Plains | 2 | 7 |
 | Ouachita Mountains | 3 | 6 |
 | Boston Mountains | 0 | 4 |

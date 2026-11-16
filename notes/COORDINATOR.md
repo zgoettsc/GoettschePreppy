@@ -41,3 +41,8 @@ Collected from worker reports; resolved in the integration pass.
 - [x] C06: 32-00 added to the page plan; lists region.home.trees.firewood / plants.deadly / plants.edible added (A3 and D1/D2 to supply).
 - [ ] C06: 10-04 wax and fat temperatures on a critical page are unsourced "typical values"; source or soften.
 - [ ] C06: 06-03 species burn-quality groups beyond the single cited density figure; align with D2's firewood data (USDA Forest Products Lab).
+- [x] D1: Section 32 exempted from owner tokens (public place names); pages regenerated plainly. Binder-side check already skips generated pages.
+- [ ] D1: state EM agency names from a 2016 FEMA archive with 15 manual renames; re-check when fema.gov reachable.
+- [ ] D1: NRI ratings weigh exposure, so big cities rate high for rare hazards (Cook IL earthquake 3). Hazard pages and EX-10 should say the rating is FEMA's risk-to-property index, not likelihood.
+- [ ] D1: Hawaii counties carry a placeholder ecoregion (EPA has no Level III for HI).
+- [ ] D1: is.humid input not supplied yet (C04 flag).

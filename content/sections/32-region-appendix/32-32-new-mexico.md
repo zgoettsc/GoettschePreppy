@@ -178,7 +178,7 @@ A weather radio receives these transmitters with no power grid or internet. Prog
 | WXJ34 | 162.400 | Albuquerque, NM | 3 | Normal |
 | WXN24 | 162.425 | Artesia, NM | 1 | out of service |
 | WWF37 | 162.475 | Carlsbad, NM | 2 | out of service |
-| WWQ50 | 162.425 | &#68;alhart, TX | 1 | Normal |
+| WWQ50 | 162.425 | Dalhart, TX | 1 | Normal |
 | WXL90 | 162.550 | Des Moines, NM | 4 | Normal |
 | KWN54 | 162.425 | Durango, CO | 2 | Normal |
 | WXK25 | 162.475 | El Paso, TX | 2 | Normal |

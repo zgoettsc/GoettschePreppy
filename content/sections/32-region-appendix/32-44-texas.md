@@ -657,7 +657,7 @@ A weather radio receives these transmitters with no power grid or internet. Prog
 | KXI87 | 162.525 | Corsicana, TX | 9 | Normal |
 | KWN31 | 162.500 | Cumby, TX | 11 | Normal |
 | WNG600 | 162.525 | D'Hanis, TX | 3 | Normal |
-| WWQ50 | 162.425 | &#68;alhart, TX | 2 | Normal |
+| WWQ50 | 162.425 | Dalhart, TX | 2 | Normal |
 | KEC56 | 162.400 | Dallas, TX | 12 | Normal |
 | WXJ98 | 162.400 | Del Rio, TX | 3 | Normal |
 | WZ2507 | 162.500 | Dickens, TX | 9 | Normal |

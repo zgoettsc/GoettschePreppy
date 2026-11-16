@@ -41,7 +41,7 @@ This page holds the public reference data for Missouri: climate by area and by c
 - January mean low: 13 to 30 F. July mean high: 85 to 92 F (NOAA National Centers for Environmental Information, U.S. Climate Normals 1991-2020, 2021).
 - Coldest and hottest on record at the stations used: -34 F and 118 F (NOAA Regional Climate Centers, Applied Climate Information System, station records through 2025).
 - NWS forecast offices serving the counties: NWS Kansas City/Pleasant Hill, MO; NWS St Louis, MO; NWS Springfield, MO; NWS Paducah, KY; NWS Quad Cities, IL; NWS Memphis, TN.
-- Ecoregions at county centres: Central Irregular Plains; Western Corn Belt Plains; &#79;zark Highlands; Mississippi Alluvial Plain; Interior River Valleys and Hills; Mississippi Valley Loess Plains.
+- Ecoregions at county centres: Central Irregular Plains; Western Corn Belt Plains; Ozark Highlands; Mississippi Alluvial Plain; Interior River Valleys and Hills; Mississippi Valley Loess Plains.
 
 ## Climate by area
 
@@ -140,7 +140,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Nodaway | 5b | 1,150 | 14 | 87 | -32 / 113 | 38.4 | 15 | Apr 19 | Oct 17 | 180 |
 | Oregon | 7a | 800 | 22 | 88 | -18 / 109 | 47.2 | 4 | Apr 17 | Oct 21 | 187 |
 | Osage | 6b | 920 | 20 | 88 | -21 / 111 | 44.3 | 10 | Apr 11 | Oct 21 | 191 |
-| &#79;zark | 7a | 1,140 | 23 | 89 | -22 / 111 | 46 | 6 | Apr 14 | Oct 25 | 193 |
+| Ozark | 7a | 1,140 | 23 | 89 | -22 / 111 | 46 | 6 | Apr 14 | Oct 25 | 193 |
 | Pemiscot | 7b | 260 | 30 | 90 | -22 / 111 | 55.3 | 7 | Mar 24 | Nov 9 | 230 |
 | Perry | 6b | 530 | 21 | 88 | -19 / 110 | 46.2 | 5 | Apr 19 | Oct 20 | 182 |
 | Pettis | 6b | 760 | 19 | 87 | -30 / 116 | 43.6 | 13 | Apr 18 | Oct 22 | 186 |
@@ -284,7 +284,7 @@ Key: Torn = tornado; Bliz = blizzard and winter storm; Ice = ice storm; Flood = 
 | Nodaway | 2 | 1 | 1 | 1 | 1 | 1 | 1 | 2 | 1 |
 | Oregon | 1 | 1 | 2 | 1 | 1 | 1 | 2 | 1 | 1 |
 | Osage | 1 | 1 | 2 | 1 | 1 | 2 | 1 | 1 | 1 |
-| &#79;zark | 1 | 1 | 3 | 1 | 1 | 2 | 1 | 1 | 1 |
+| Ozark | 1 | 1 | 3 | 1 | 1 | 2 | 1 | 1 | 1 |
 | Pemiscot | 2 | 2 | 3 | 1 | 2 | 2 | 1 | 3 | 1 |
 | Perry | 1 | 1 | 2 | 1 | 1 | 1 | 1 | 1 | 1 |
 | Pettis | 2 | 2 | 2 | 1 | 1 | 2 | 2 | 2 | 1 |
@@ -472,7 +472,7 @@ A weather radio receives these transmitters with no power grid or internet. Prog
 | Nodaway | 029147 | KZZ37 162.425 |
 | Oregon | 029149 | KXI35 162.500; WWF76 162.475; KXI38 162.525 |
 | Osage | 029151 | WXL45 162.400; WZ2548 162.550 |
-| &#79;zark | 029153 | KZZ82 162.425; KXI38 162.525 |
+| Ozark | 029153 | KZZ82 162.425; KXI38 162.525 |
 | Pemiscot | 029155 | WWH30 162.500; WXJ51 162.550; WWG47 162.525 |
 | Perry | 029157 | KXI93 162.550; KXI42 162.450; WWG49 162.500 |
 | Pettis | 029159 | KZZ34 162.450; KZZ39 162.500 |
@@ -518,7 +518,7 @@ An ecoregion is an area where the land, climate, soils and plants are alike (US 
 
 | Ecoregion | Main ecoregion in (counties) | Present in (counties) |
 | --- | --- | --- |
-| &#79;zark Highlands | 47 | 57 |
+| Ozark Highlands | 47 | 57 |
 | Central Irregular Plains | 36 | 54 |
 | Interior River Valleys and Hills | 16 | 31 |
 | Western Corn Belt Plains | 9 | 15 |

@@ -41,7 +41,7 @@ This page holds the public reference data for Arkansas: climate by area and by c
 - January mean low: 24 to 35 F. July mean high: 82 to 95 F (NOAA National Centers for Environmental Information, U.S. Climate Normals 1991-2020, 2021).
 - Coldest and hottest on record at the stations used: -28 F and 124 F (NOAA Regional Climate Centers, Applied Climate Information System, station records through 2025).
 - NWS forecast offices serving the counties: NWS Little Rock, AR; NWS Jackson, MS; NWS Tulsa, OK; NWS Memphis, TN; NWS Shreveport, LA.
-- Ecoregions at county centres: Mississippi Alluvial Plain; South Central Plains; &#79;zark Highlands; Boston Mountains; Arkansas Valley; Mississippi Valley Loess Plains; Ouachita Mountains.
+- Ecoregions at county centres: Mississippi Alluvial Plain; South Central Plains; Ozark Highlands; Boston Mountains; Arkansas Valley; Mississippi Valley Loess Plains; Ouachita Mountains.
 
 ## Climate by area
 
@@ -379,7 +379,7 @@ An ecoregion is an area where the land, climate, soils and plants are alike (US 
 | Mississippi Alluvial Plain | 22 | 27 |
 | South Central Plains | 19 | 24 |
 | Arkansas Valley | 8 | 17 |
-| &#79;zark Highlands | 12 | 16 |
+| Ozark Highlands | 12 | 16 |
 | Ouachita Mountains | 8 | 15 |
 | Boston Mountains | 6 | 14 |
 | Mississippi Valley Loess Plains | 0 | 8 |
