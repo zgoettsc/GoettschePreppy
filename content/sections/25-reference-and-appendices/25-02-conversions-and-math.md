@@ -2,7 +2,7 @@
 id: 25-02-conversions-and-math
 section: 25-reference-and-appendices
 title: "Conversions, water and calorie math"
-version: 3
+version: 4
 revised: 2026-11-16
 layer: core
 danger_level: none
@@ -33,7 +33,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Arithmetic verified; calorie rows aligned with 04-01; honey, canned goods, powdered milk, cord weight and seasoning corrected; kerosene AFDC mis-citation removed. Wave 2 (R18): unsourced propane 4.7 gal/430,000 BTU and 1-lb 21,500 BTU removed (no readable source for propane lb per gallon), runtime example now from AFDC BTU a gallon; toilet tank now last reserve, disinfect first (FEMA 477), unsourced 3 gal removed; boil line already EPA 5,000 / CDC 6,500 as 03-04." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Arithmetic verified; calorie rows aligned with 04-01; honey, canned goods, powdered milk, cord weight and seasoning corrected; kerosene AFDC mis-citation removed. Wave 2 (R18): unsourced propane 4.7 gal/430,000 BTU and 1-lb 21,500 BTU removed (no readable source for propane lb per gallon), runtime example now from AFDC BTU a gallon; toilet tank now last reserve, disinfect first (FEMA 477), unsourced 3 gal removed; boil line already EPA 5,000 / CDC 6,500 as 03-04. R19: drinking-minimum row to FEMA Ready.gov 3/4 gal as 03-01; toilet flush row to EPA figures as 13-01." }
 ---
 
 # Conversions, water and calorie math

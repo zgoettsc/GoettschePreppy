@@ -2,7 +2,7 @@
 id: 25-03-regional-contacts
 section: 25-reference-and-appendices
 title: "Regional contacts and resources"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: region
 danger_level: none
@@ -36,7 +36,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Only national constants, household-typed numbers and region data printed; no guessed local number; no change." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Only national constants, household-typed numbers and region data printed; no guessed local number; no change. R19: sources sentence follows the three tiers as 00-09." }
 ---
 
 # Regional contacts and resources

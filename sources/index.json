@@ -164,11 +164,12 @@
   "household_cited_by": [
    "02-07-epinephrine-storage-and-supply"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "american-academy-of-pediatrics-healthychildren-org-a-b3b884",
-  "title": "Acetaminophen dosing chart (pictographic; 160 mg/5 mL weight bands)",
+  "title": "Acetaminophen dosing chart (pictographic; 160 mg/5 mL weight bands), 2026 edition",
   "org": "American Academy of Pediatrics (HealthyChildren.org)",
   "date": "2026-11-02",
   "licence_class": "restricted",
@@ -179,7 +180,8 @@
   ],
   "cited_by": [
    "12-13-pain-and-fever"
-  ]
+  ],
+  "capture_note": "Checked 2026-11-16 (R19): title now names the 2026 edition held in the archive (R15)."
  },
  {
   "key": "american-academy-of-pediatrics-healthychildren-org-d-c874bb",
@@ -192,7 +194,8 @@
   "household_cited_by": [
    "20-02-child-safety-offgrid"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "american-academy-of-pediatrics-healthychildren-org-g-a22b8d",
@@ -346,7 +349,8 @@
   "household_cited_by": [
    "12-18-choking-and-cpr"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "american-association-of-endodontists-knocked-out-tee-db230b",
@@ -393,7 +397,8 @@
   "cited_by": [
    "02-03-cl03-anaphylaxis",
    "30-05-dc04-expired-medication"
-  ]
+  ],
+  "capture_note": "Checked 2026-11-16 (R19): the EurekAlert release URL is current (HTTP 200) but the archived capture was empty (R10); re-capture at download. Note the release does not support \"the same dose volume\" as the title said before R10's page fix; see 02-03."
  },
  {
   "key": "american-college-of-surgeons-stop-the-bleed-stop-the-8d1b5b",
@@ -402,7 +407,7 @@
   "date": "2026-11-02",
   "licence_class": "restricted",
   "licence_note": "© www.stopthebleed.org. Archived for personal offline reference; do not redistribute.",
-  "url": "https://www.stopthebleed.org/",
+  "url": "https://www.stopthebleed.org/media/qk5jgpgs/lay-public-stop-the-bleed-presentation-pdf.pdf",
   "household_cited_by": [
    "12-01-first-aid-kit",
    "12-02-bleeding-and-wounds",
@@ -424,7 +429,8 @@
    "22-06-kit-medical",
    "25-08-quick-reference-cards",
    "26-03-checklist-life-safety"
-  ]
+  ],
+  "capture_note": "Checked 2026-11-16 (R19): stopthebleed.org/ is a landing page (R7, R15). ACS publishes no free booklet PDF on the site (home page and media page checked); URL now the official lay-public STOP THE BLEED course presentation PDF (HTTP 200). It is about 98 MB: the Large build may want to cap its pages. The kit's tourniquet numbers rest on usuhs-ncdmph-stop-the-bleed-apply-a-tourniquet-r7 and dod-stop-the-bleed-faq-r15."
  },
  {
   "key": "american-dental-association-mouthhealthy-dental-emer-9ef19d",
@@ -637,7 +643,8 @@
   "household_cited_by": [
    "16-12-grid-down-house-repairs"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "american-red-cross-power-outage-safety-6d07a8",
@@ -752,7 +759,7 @@
   "date": "2026-11-02",
   "licence_class": "restricted",
   "licence_note": "© www.redcross.org. Archived for personal offline reference; do not redistribute.",
-  "url": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/winter-storm.html",
+  "url": "https://www.redcross.org/content/dam/redcross/get-help/pdfs/winter-storm/EN_Winter-Storm-Preparedness-Checklist.pdf",
   "household_cited_by": [
    "00-02-emergency-quick-reference",
    "00-04-family-emergency-plan",
@@ -807,7 +814,8 @@
    "26-02-walk-the-house",
    "26-05-checklist-heat-power-light",
    "26-09-shopping-list-and-budget"
-  ]
+  ],
+  "capture_note": "Checked 2026-11-16 (R19): the redcross.org winter storm page captured a landing page (R7, R9, R17); URL now the Red Cross Winter Storm Preparedness Checklist PDF (HTTP 200, application/pdf). R9 noted 30-20 cites it for \"avoid winter travel\"; re-check that against this PDF."
  },
  {
   "key": "androidaps-openaps-community-aaps-official-documenta-96e2ab",
@@ -851,7 +859,8 @@
   "household_cited_by": [
    "02-11-diabetes-rig-offline-docs-and-assistant"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "annals-of-internal-medicine-epinephrine-auto-injecto-ea9564",
@@ -898,7 +907,8 @@
   "household_cited_by": [
    "02-12-evacuation-medical-logistics"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "arkansas-game-and-fish-commission-fishing-license-de-2c0200",
@@ -911,7 +921,8 @@
   "household_cited_by": [
    "05-08-fishing-and-ice-fishing"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "arkansas-game-and-fish-commission-hunting-license-de-6a6303",
@@ -924,7 +935,8 @@
   "household_cited_by": [
    "05-07-hunting-sd"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "arrl-the-national-association-for-amateur-radio-amat-0ae5a4",
@@ -994,7 +1006,8 @@
   "household_cited_by": [
    "08-03-winterizing-the-home"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "atf-national-firearms-act-interstate-transportation-06c17b",
@@ -1038,7 +1051,8 @@
   "household_cited_by": [
    "07-06-electric-kettle-cooking"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "bluetti-elite-100-v2-portable-power-station-product-96dab4",
@@ -1052,7 +1066,8 @@
    "09-03-batteries-and-storage",
    "09-16-outage-day-one"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "cal-fire-ready-for-wildfire-go-evacuation-guide-trap-d2041a",
@@ -1065,7 +1080,8 @@
   "household_cited_by": [
    "17-05-grassland-fire"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "cdc-about-childhood-lead-poisoning-prevention-9ed85b",
@@ -1374,7 +1390,7 @@
   "date": "2026-11-02",
   "licence_class": "public-domain",
   "licence_note": "Public domain (U.S. federal government work) — CDC",
-  "url": "https://www.cdc.gov/antibiotic-use/index.html",
+  "url": "https://www.cdc.gov/antibiotic-use/about/index.html",
   "household_cited_by": [
    "12-04-infection-and-antibiotics",
    "12-07-meds-stockpile",
@@ -1390,7 +1406,8 @@
    "12-13-pain-and-fever",
    "12-14-wound-closure",
    "18-02-barter-and-trade-goods"
-  ]
+  ],
+  "capture_note": "Checked 2026-11-16 (R19): the /antibiotic-use/index.html hub lacks the sharing and virus text (R17); URL now CDC \"Healthy Habits: Antibiotic Do's and Don'ts\" (read through the web fetcher: \"Do not share your antibiotics with others\"; \"Do not take antibiotics prescribed for someone else\"; \"Antibiotics DO NOT work on viruses\")."
  },
  {
   "key": "cdc-atsdr-medical-management-guidelines-for-ammonia-cb84b8",
@@ -1487,7 +1504,8 @@
   "household_cited_by": [
    "05-04-backyard-chickens"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "cdc-botulism-prevention-d03ef9",
@@ -1682,7 +1700,8 @@
   "household_cited_by": [
    "05-09-field-dressing-and-butchering"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "cdc-cistern-safety-and-disasters-before-during-and-a-a1228c",
@@ -2304,7 +2323,9 @@
   "household_cited_by": [
    "20-02-child-safety-offgrid"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "capture_note": "Checked 2026-11-16 (R19): URL returns 404 (R17); NIOSH removed the page and no archived copy was found. No kit page cites this key any more (R17 re-cited to NIOSH 2011-129 on archive.cdc.gov).",
+  "retired": true
  },
  {
   "key": "cdc-niosh-heat-related-illnesses-symptoms-and-first-0b89bb",
@@ -2369,7 +2390,8 @@
   "household_cited_by": [
    "27-05-fallout-sheltering"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "cdc-positive-parenting-tips-child-development-by-age-1e16c6",
@@ -2635,7 +2657,8 @@
    "27-05-fallout-sheltering",
    "27-06-potassium-iodide",
    "27-07-chemical-and-biological"
-  ]
+  ],
+  "capture_note": "Checked 2026-11-16 (R19): URL is current, but the page has no potassium iodide text (R17); KI statements rest on cdc-potassium-iodide-ki-2025 and fda-ki-guidance-2001-r17."
  },
  {
   "key": "cdc-recognizing-and-responding-to-anaphylaxis-645825",
@@ -2907,7 +2930,8 @@
    "12-05-common-illness-and-dehydration",
    "12-07-meds-stockpile",
    "30-14-dc13-drinking-pool-or-surface-water"
-  ]
+  ],
+  "capture_note": "Checked 2026-11-16 (R19): URL is the current page (read through the web fetcher: \"In mild cases, rehydration can be maintained with any preferred liquid (including sports drinks)\"); cdc.gov refuses plain curl (403), which is why the archive holds a landing page (R15). Re-capture with a browser-like fetch."
  },
  {
   "key": "chimney-safety-institute-of-america-csia-preventing-73b734",
@@ -2955,7 +2979,8 @@
    "05-04-backyard-chickens",
    "05-05-rabbits"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "city-of-sioux-falls-emergency-management-additional-8d5948",
@@ -2968,7 +2993,8 @@
   "household_cited_by": [
    "17-02-tornadoes"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "cochrane-human-insulin-less-temperature-sensitive-th-28a2b9",
@@ -2998,7 +3024,8 @@
   "household_cited_by": [
    "04-15-eggs-storage"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "consumer-financial-protection-bureau-disasters-and-e-44eaa3",
@@ -3112,13 +3139,14 @@
   "date": "2026-11-02",
   "licence_class": "restricted",
   "licence_note": "© www.dexcom.com. Archived for personal offline reference; do not redistribute.",
-  "url": "https://www.dexcom.com/en-us/guides",
+  "url": "https://dexcompdf.s3.us-west-2.amazonaws.com/en-us/G7-CGM-Users-Guide.pdf",
   "household_cited_by": [
    "02-02-insulin-without-the-grid"
   ],
   "cited_by": [
    "02-02-cl02-type-1-diabetes-pump-and-cgm"
-  ]
+  ],
+  "capture_note": "Checked 2026-11-16 (R19): dexcom.com/en-us/guides is a landing page (R10); URL now the US G7 user guide PDF on Dexcom's document host (HTTP 200, 6.9 MB), which reads \"between 36°F and 86°F, but not in the freezer\"."
  },
  {
   "key": "dexter-axle-trailer-axle-operation-maintenance-and-s-4cf250",
@@ -3131,7 +3159,8 @@
   "household_cited_by": [
    "16-11-trailer-maintenance-and-repair"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "eli-lilly-lilly-glucagon-emergency-kit-discontinuati-635aae",
@@ -3144,7 +3173,8 @@
   "household_cited_by": [
    "02-04-cgm-conservation-and-dka"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "enerco-group-mr-heater-manufacturer-mh9bx-buddy-powe-d748af",
@@ -3199,7 +3229,8 @@
    "10-01-lighting-options",
    "10-06-winter-light-budget"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "epa-burn-wise-best-wood-burning-practices-0c1680",
@@ -3250,7 +3281,8 @@
   "household_cited_by": [
    "16-11-trailer-maintenance-and-repair"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "fda-accessgudid-omnipod-dash-pod-device-record-stora-d28d08",
@@ -3580,7 +3612,8 @@
   "household_cited_by": [
    "08-10-dyna-glo-kerosene-heater"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "google-android-developers-android-developer-verifica-3ff483",
@@ -3593,7 +3626,8 @@
   "household_cited_by": [
    "29-09-spare-phones"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "hcalory-manufacturer-hcalory-tb-max-diesel-air-parki-b67d4a",
@@ -3606,7 +3640,8 @@
   "household_cited_by": [
    "08-07-ducted-heater-operation"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "insulet-omnipod-dash-quick-start-guide-fill-syringe-7ecb9e",
@@ -3619,7 +3654,8 @@
   "household_cited_by": [
    "29-03-operating-the-loop"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "internal-revenue-service-reconstructing-records-afte-28669f",
@@ -3679,7 +3715,8 @@
   "household_cited_by": [
    "30-19-juggluco-complete-guide"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "loopdocs-loop-and-learn-community-omnipod-faqs-a-pod-98ac37",
@@ -3720,7 +3757,7 @@
   "date": "2026-11-02",
   "licence_class": "restricted",
   "licence_note": "© doi.org. Archived for personal offline reference; do not redistribute.",
-  "url": "https://doi.org/10.1002/jps.20636",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/16721796/",
   "household_cited_by": [
    "12-07-meds-stockpile"
   ],
@@ -3728,7 +3765,8 @@
    "12-07-meds-stockpile",
    "30-05-dc04-expired-medication",
    "30-17-dc16-antibiotics-without-a-prescription"
-  ]
+  ],
+  "capture_note": "Checked 2026-11-16 (R19): the DOI resolves to the publisher landing page (paywalled), so the capture was a landing page (R15); URL now the PubMed abstract (PMID 16721796; J Pharm Sci 2006;95(7):1549-60), which is what R15 read (3,005 lots, 122 products, 88%, mean 66 months)."
  },
  {
   "key": "master-lock-padlock-care-and-lubrication-lock-care-f-3e2f8d",
@@ -3906,7 +3944,8 @@
   "household_cited_by": [
    "14-11-defense-and-sd-law"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "minnesota-dnr-ice-thickness-guidelines-new-clear-ice-3017ac",
@@ -3934,7 +3973,8 @@
   "household_cited_by": [
    "05-07-hunting-sd"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "mintplex-labs-anythingllm-mobile-documentation-8bbeb0",
@@ -3947,7 +3987,8 @@
   "household_cited_by": [
    "02-11-diabetes-rig-offline-docs-and-assistant"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "mobile-internet-resource-center-starlink-changes-in-6d5f78",
@@ -4240,7 +4281,8 @@
   ],
   "cited_by": [
    "06-09-chimney-and-creosote"
-  ]
+  ],
+  "capture_note": "Checked 2026-11-16 (R19): URL is NFPA's document-information page; the standard itself is paywalled (free read-only access needs an NFPA account), so the capture is empty (R13, R17). The annual-inspection rule on 06-09 is supported through CSIA's quotation of NFPA 211."
  },
  {
   "key": "national-institute-of-justice-u-s-doj-the-effectiven-6e5288",
@@ -4270,7 +4312,8 @@
   "household_cited_by": [
    "12-13-pain-and-fever"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "nfpa-heating-fire-safety-5cb9e6",
@@ -4279,11 +4322,13 @@
   "date": "2026-11-02",
   "licence_class": "restricted",
   "licence_note": "© www.nfpa.org. Archived for personal offline reference; do not redistribute.",
-  "url": "https://www.nfpa.org/education-and-research/home-fire-safety/heating",
+  "url": "https://content.nfpa.org/-/media/project/storefront/catalog/files/safety-tip-sheets/heatingsafetytips.pdf?rev=28632068e8784f83bc0092317fa78672",
   "household_cited_by": [
    "08-08-wood-heat-operation"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "capture_note": "Checked 2026-11-16 (R19): the NFPA heating page captured empty (R13, R17); URL now NFPA's Heating Safety tip sheet PDF (HTTP 200, application/pdf; 2017 edition). No kit page cites this key any more.",
+  "retired": true
  },
  {
   "key": "nfpa-national-fire-protection-association-lithium-io-0c7d64",
@@ -4362,7 +4407,8 @@
    "16-10-tire-failures-roadside",
    "16-11-trailer-maintenance-and-repair"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "nhtsa-us-department-of-transportation-trailer-safety-807982",
@@ -4375,7 +4421,8 @@
   "household_cited_by": [
    "16-11-trailer-maintenance-and-repair"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "nightscout-foundation-xdrip-documentation-00fb59",
@@ -4388,7 +4435,8 @@
   "household_cited_by": [
    "02-11-diabetes-rig-offline-docs-and-assistant"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "nightscout-foundation-xdrip-official-documentation-o-e8cef0",
@@ -4401,7 +4449,8 @@
   "household_cited_by": [
    "30-18-xdrip-official-docs"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "nih-medlineplus-bismuth-subsalicylate-drug-informati-190927",
@@ -4772,7 +4821,8 @@
   "household_cited_by": [
    "15-01-weather-alerts"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "noaa-national-weather-service-nws-glossary-red-flag-753d33",
@@ -4801,7 +4851,8 @@
   "household_cited_by": [
    "25-03-regional-contacts"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "noaa-national-weather-service-tornado-safety-ba75e0",
@@ -4924,7 +4975,8 @@
    "17-01-blizzards-and-ice",
    "17-11-corridor-hazards"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "noaa-national-weather-service-wildfire-safety-b17a66",
@@ -5154,11 +5206,13 @@
   "date": "2026-11-02",
   "licence_class": "blocked",
   "licence_note": "© www.osha.gov. Archived for personal offline reference; do not redistribute.",
-  "url": "https://www.osha.gov/sites/default/files/publications/OSHA3269.pdf",
+  "url": "https://www.osha.gov/OshDoc/data_Hurricane_Facts/chain_saw_safety.pdf",
   "household_cited_by": [
    "11-05-wool-and-materials"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "capture_note": "Checked 2026-11-16 (R19): OSHA3269.pdf returns 404 (R17); OSHA's chain saw safety fact sheet is at the URL now given (found by search; osha.gov refuses plain curl with 403, so not fetched here). The current QuickCard is listed at osha.gov/publications/bytopic/chainsaw. No kit page cites this key any more (16-06 re-cited to 29 CFR 1910.266 and OSHA 3080).",
+  "retired": true
  },
  {
   "key": "osha-cold-stress-protecting-workers-in-cold-environm-56bc81",
@@ -5294,7 +5348,8 @@
   "household_cited_by": [
    "11-05-wool-and-materials"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "paho-who-with-icrc-and-ifrc-management-of-dead-bodie-450e97",
@@ -5504,7 +5559,8 @@
    "24-03-seasonal-practice-plan",
    "25-01-planting-calendar"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "sdsu-extension-fruit-variety-recommendations-for-sou-e87fa1",
@@ -5517,7 +5573,8 @@
   "household_cited_by": [
    "05-13-perennials-and-fruit"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "sdsu-extension-growing-microgreens-at-home-006258",
@@ -5530,7 +5587,8 @@
   "household_cited_by": [
    "05-14-indoor-growing"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "sdsu-extension-how-much-meat-can-you-expect-from-a-f-dbae97",
@@ -5543,7 +5601,8 @@
   "household_cited_by": [
    "05-20-kimball-ranch-food-plan"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "sdsu-extension-last-spring-frost-dates-1b4cff",
@@ -5561,7 +5620,8 @@
    "24-03-seasonal-practice-plan",
    "25-01-planting-calendar"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "sdsu-extension-poisonous-plants-on-rangelands-hemloc-0c4ddd",
@@ -5588,7 +5648,8 @@
   "household_cited_by": [
    "25-03-regional-contacts"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "sdsu-extension-the-basics-of-seed-starting-for-flowe-fcfb31",
@@ -5603,7 +5664,8 @@
    "05-14-indoor-growing",
    "25-01-planting-calendar"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "sdsu-extension-vegetable-gardening-in-south-dakota-p-b8fdbd",
@@ -5623,7 +5685,8 @@
    "05-11-soil-and-compost",
    "05-18-goshen-ozark-garden-calendar"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "simple-pump-co-manufacturer-deep-well-hand-pumps-bac-bd4b3b",
@@ -5651,7 +5714,8 @@
   "household_cited_by": [
    "05-05-rabbits"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "south-dakota-board-of-dentistry-south-dakota-board-o-88f00d",
@@ -5664,7 +5728,8 @@
   "household_cited_by": [
    "19-08-practice-continuity"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "south-dakota-danr-water-rights-program-water-use-dom-adf8a8",
@@ -5677,7 +5742,8 @@
   "household_cited_by": [
    "03-05-rain-and-snow-water"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "south-dakota-department-of-health-fish-consumption-a-2ccb1f",
@@ -5690,7 +5756,8 @@
   "household_cited_by": [
    "05-08-fishing-and-ice-fishing"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "south-dakota-department-of-public-safety-south-dakot-3c444a",
@@ -5703,7 +5770,8 @@
   "household_cited_by": [
    "25-03-regional-contacts"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "south-dakota-game-fish-and-parks-fishing-in-south-da-b98a3c",
@@ -5717,7 +5785,8 @@
    "05-08-fishing-and-ice-fishing",
    "05-20-kimball-ranch-food-plan"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "south-dakota-game-fish-and-parks-hunting-in-south-da-91fd62",
@@ -5736,7 +5805,8 @@
    "14-10-suppressors-and-nfa",
    "14-11-defense-and-sd-law"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "south-dakota-game-fish-and-parks-trapping-in-south-d-cc1d7a",
@@ -5749,7 +5819,8 @@
   "household_cited_by": [
    "05-15-trapping-small-game"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "south-dakota-legislature-sdcl-22-14-23-courthouse-ca-e73cb3",
@@ -5762,7 +5833,8 @@
   "household_cited_by": [
    "14-11-defense-and-sd-law"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "south-dakota-legislature-sdcl-22-18-4-1-22-18-4-2-ju-a89def",
@@ -5775,7 +5847,8 @@
   "household_cited_by": [
    "14-11-defense-and-sd-law"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "south-dakota-legislature-south-dakota-codified-laws-5b6ac7",
@@ -5791,7 +5864,8 @@
    "18-05-trust-and-vetting",
    "18-06-conflict-resolution"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "south-dakota-legislature-south-dakota-codified-laws-76c582",
@@ -5804,7 +5878,8 @@
   "household_cited_by": [
    "18-08-dental-care-as-community-asset"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "south-dakota-state-university-extension-altitude-adj-239e7e",
@@ -5862,7 +5937,8 @@
   "household_cited_by": [
    "25-03-regional-contacts"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "afh-10-644",
@@ -5969,7 +6045,8 @@
   "household_cited_by": [
    "08-08-wood-heat-operation"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "u-s-fire-administration-fema-fireplace-and-wood-stov-851c8d",
@@ -6017,7 +6094,8 @@
   "household_cited_by": [
    "05-18-goshen-ozark-garden-calendar"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "university-of-arkansas-cooperative-extension-service-818f88",
@@ -6030,7 +6108,8 @@
   "household_cited_by": [
    "05-19-ozark-foraging-and-hazards"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "university-of-arkansas-cooperative-extension-service-857a3c",
@@ -6043,7 +6122,8 @@
   "household_cited_by": [
    "05-18-goshen-ozark-garden-calendar"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "university-of-arkansas-cooperative-extension-service-ac5acb",
@@ -6056,7 +6136,8 @@
   "household_cited_by": [
    "05-19-ozark-foraging-and-hazards"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "university-of-arkansas-cooperative-extension-service-c96a64",
@@ -6069,7 +6150,8 @@
   "household_cited_by": [
    "05-18-goshen-ozark-garden-calendar"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "university-of-minnesota-extension-companion-planting-ab86d8",
@@ -6285,7 +6367,7 @@
   "date": "2026-11-02",
   "licence_class": "blocked",
   "licence_note": "© issuing university (Extension). Archived for personal educational use.",
-  "url": "https://extension.missouri.edu/publications/g1999",
+  "url": "http://web.archive.org/web/20231004062908/https://extension.missouri.edu/publications/g1999",
   "household_cited_by": [
    "06-06-fuel-storage-safety",
    "08-10-dyna-glo-kerosene-heater"
@@ -6295,7 +6377,8 @@
    "10-02-fuel-lamps-and-candles",
    "25-08-quick-reference-cards",
    "29-01-ex01-fuels"
-  ]
+  ],
+  "capture_note": "Checked 2026-11-16 (R19): extension.missouri.edu/publications/g1999 returns 404 and MU has no replacement (R17); URL points to the Internet Archive copy of 4 Oct 2023 (Wayback availability API)."
  },
  {
   "key": "university-of-missouri-extension-wood-fuel-for-heati-b63761",
@@ -6361,7 +6444,8 @@
   "household_cited_by": [
    "16-12-grid-down-house-repairs"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "us-army-rigging-techniques-procedures-and-applicatio-404793",
@@ -6389,7 +6473,8 @@
   "household_cited_by": [
    "20-02-child-safety-offgrid"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "us-consumer-product-safety-commission-cpsc-in-home-d-c7151d",
@@ -6774,7 +6859,8 @@
    "27-04-nuclear-first-hour",
    "27-05-fallout-sheltering"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "us-epa-septic-systems-septicsmart-how-onsite-systems-b09325",
@@ -6809,7 +6895,8 @@
   ],
   "cited_by": [
    "13-01-human-waste-no-plumbing",
-   "13-12-septic-off-grid"
+   "13-12-septic-off-grid",
+   "25-02-conversions-and-math"
   ]
  },
  {
@@ -6888,7 +6975,7 @@
  },
  {
   "key": "us-fda-fda-drug-safety-communication-diphenhydramine-bab442",
-  "title": "FDA Drug Safety Communication — diphenhydramine: do not use to sedate children; not for children under 2",
+  "title": "FDA warns about serious problems with high doses of the allergy medicine diphenhydramine (Benadryl)",
   "org": "US FDA",
   "date": "2026-11-02",
   "licence_class": "public-domain",
@@ -6903,7 +6990,8 @@
    "12-07-meds-stockpile",
    "12-13-pain-and-fever",
    "21-07-sleep"
-  ]
+  ],
+  "capture_note": "Checked 2026-11-16 (R19): title corrected: the 2020 communication covers overdose (\"Benadryl Challenge\") only, not sedating children or under-2 use (R6). The under-2 and sedation lines rest on dailymed-benadryl-diphenhydramine-drug-facts."
  },
  {
   "key": "us-fda-food-allergies-627fb6",
@@ -7081,14 +7169,15 @@
   "date": "2026-11-02",
   "licence_class": "public-domain",
   "licence_note": "Public domain (U.S. federal government work) — FDA",
-  "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/potassium-iodide-thyroid-blocking-agent-radiation-emergencies",
+  "url": "https://www.fda.gov/media/72510/download",
   "household_cited_by": [
    "27-06-potassium-iodide"
   ],
   "cited_by": [
    "27-06-potassium-iodide",
    "30-23-dc22-potassium-iodide-over-40"
-  ]
+  ],
+  "capture_note": "Checked 2026-11-16 (R19): the guidance-search page captured no text (R17); URL now the guidance PDF itself (HTTP 200, title page \"Potassium Iodide as a Thyroid Blocking Agent in Radiation Emergencies\"), the same file as fda-ki-guidance-2001-r17."
  },
  {
   "key": "us-fire-administration-fema-candle-fire-safety-use-f-6eeda1",
@@ -7353,7 +7442,8 @@
    "04-19-freeze-dried-stockpile",
    "07-07-freeze-dried-rehydration"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "usda-forest-service-water-hemlock-cicuta-maculata-c0a866",
@@ -7379,7 +7469,7 @@
   "date": "2026-11-02",
   "licence_class": "restricted",
   "licence_note": "© www.dietaryguidelines.gov. Archived for personal offline reference; do not redistribute.",
-  "url": "https://www.dietaryguidelines.gov",
+  "url": "https://www.dietaryguidelines.gov/sites/default/files/2020-12/Dietary_Guidelines_for_Americans_2020-2025.pdf",
   "household_cited_by": [
    "04-01-calorie-and-stockpile-math"
   ],
@@ -7389,7 +7479,8 @@
    "20-01-toddler-and-infant-needs",
    "20-05-infant-feeding",
    "25-02-conversions-and-math"
-  ]
+  ],
+  "capture_note": "Checked 2026-11-16 (R19): the dietaryguidelines.gov home page now lands on the newer edition, so a capture got the wrong document (R10); URL now the 2020-2025 PDF itself (about 32 MB; HTTP 200), the same file as usda-hhs-dietary-guidelines-2020-2025-pdf-r10."
  },
  {
   "key": "usda-nchfp-usda-complete-guide-to-home-canning-2015-138452",
@@ -7585,7 +7676,8 @@
   "household_cited_by": [
    "02-12-evacuation-medical-logistics"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "water-systems-council-wellcare-information-sheet-wha-7d070e",
@@ -7598,7 +7690,8 @@
   "household_cited_by": [
    "03-10-well-water-without-power"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "westinghouse-outdoor-power-equipment-igen4500df-digi-c55d64",
@@ -7612,7 +7705,8 @@
    "09-04-generators",
    "09-15-generator-maintenance"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "westinghouse-outdoor-power-equipment-igen4500df-quic-b4e1f9",
@@ -7625,7 +7719,8 @@
   "household_cited_by": [
    "09-04-generators"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "wilderness-medical-society-mcintosh-se-et-al-wildern-efe780",
@@ -7691,7 +7786,8 @@
   "household_cited_by": [
    "12-05-common-illness-and-dehydration"
   ],
-  "cited_by": []
+  "cited_by": [],
+  "retired": true
  },
  {
   "key": "world-health-organization-maternal-health-warning-si-97b289",
@@ -7737,13 +7833,14 @@
   "date": "2026-11-02",
   "licence_class": "public-domain",
   "licence_note": "Public domain (U.S. federal government work) — NIH",
-  "url": "https://www.ncbi.nlm.nih.gov/books/NBK609536/",
+  "url": "https://iris.who.int/server/api/core/bitstreams/641f740d-c4ca-41a4-a721-31f2b8ae2d3d/content",
   "household_cited_by": [
    "12-03-burns"
   ],
   "cited_by": [
    "12-03-burns"
-  ]
+  ],
+  "capture_note": "Checked 2026-11-16 (R19): the NCBI Bookshelf address captured a landing page or captcha (R15); URL now the WHO IRIS PDF (HTTP 200, application/pdf, title page \"Standards and recommendations for burns care in mass casualty incidents\")."
  },
  {
   "key": "world-health-organization-the-treatment-of-diarrhoea-49d09e",
@@ -7752,7 +7849,7 @@
   "date": "2026-11-02",
   "licence_class": "restricted",
   "licence_note": "© www.who.int. Archived for personal offline reference; do not redistribute.",
-  "url": "https://www.who.int/publications/i/item/9241593180",
+  "url": "https://iris.who.int/server/api/core/bitstreams/df59ceab-2498-4a64-bd93-ad7566addb4e/content",
   "household_cited_by": [
    "12-05-common-illness-and-dehydration"
   ],
@@ -7760,7 +7857,8 @@
    "02-13-cl13-infant-feeding",
    "12-05-common-illness-and-dehydration",
    "20-01-toddler-and-infant-needs"
-  ]
+  ],
+  "capture_note": "Checked 2026-11-16 (R19): the who.int/publications item page is a landing page and the old IRIS handle returns an HTML stub (R15); URL now the IRIS PDF bitstream (HTTP 200, application/pdf, title page \"THE TREATMENT OF DIARRHOEA: A manual for physicians and other senior health workers\")."
  },
  {
   "key": "world-storm-central-compiled-small-craft-convention-b4b8f6",
@@ -8282,7 +8380,8 @@
   "url": "https://www.fema.gov/sites/default/files/documents/fema_nuc-detonation-planning-guide.pdf",
   "household_cited_by": [],
   "cited_by": [],
-  "added_by": "C12b"
+  "added_by": "C12b",
+  "retired": true
  },
  {
   "key": "aap-choking-prevention",
@@ -9270,12 +9369,13 @@
   "date": "2019-05-17",
   "licence_class": "public-domain",
   "licence_note": "US federal government work.",
-  "url": "https://www.fda.gov/medical-devices/safety-communications/fda-warns-people-diabetes-and-health-care-providers-against-use-devices-diabetes-management-not",
+  "url": "http://web.archive.org/web/20220622025836/http://www.fda.gov/medical-devices/safety-communications/fda-warns-people-diabetes-and-health-care-providers-against-use-devices-diabetes-management-not",
   "household_cited_by": [],
   "cited_by": [
    "02-02-cl02-type-1-diabetes-pump-and-cgm"
   ],
-  "added_by": "L1"
+  "added_by": "L1",
+  "capture_note": "Checked 2026-11-16 (R19): the fda.gov safety communication (17 May 2019) returns 404; URL points to the Internet Archive copy of 22 Jun 2022 (R10)."
  },
  {
   "key": "fda-sglt2-ketoacidosis-dsc-2015",
@@ -9284,12 +9384,13 @@
   "date": "2015-12-04",
   "licence_class": "public-domain",
   "licence_note": "US federal government work.",
-  "url": "https://www.fda.gov/drugs/drug-safety-and-availability/fda-revises-labels-sglt2-inhibitors-diabetes-include-warnings-about-too-much-acid-blood-and-serious",
+  "url": "http://web.archive.org/web/20250107173505/https://www.fda.gov/drugs/drug-safety-and-availability/fda-revises-labels-sglt2-inhibitors-diabetes-include-warnings-about-too-much-acid-blood-and-serious",
   "household_cited_by": [],
   "cited_by": [
    "02-05-cl05-type-2-diabetes"
   ],
-  "added_by": "L1"
+  "added_by": "L1",
+  "capture_note": "Checked 2026-11-16 (R19): the fda.gov page (and its older drug-safety-communication and ucm475463 addresses) now returns 404; FDA has taken the 2015 communication down. URL points to the Internet Archive copy of 7 Jan 2025 (Wayback availability API). Current SGLT2 inhibitor labels on Drugs@FDA carry the same ketoacidosis warning (R10)."
  },
  {
   "key": "nhlbi-asthma-treatment-action-plan",
@@ -9355,10 +9456,12 @@
   "date": "2026-11-16",
   "licence_class": "public-domain",
   "licence_note": "US federal government work.",
-  "url": "https://www.nhlbi.nih.gov/health/oxygen-therapy",
+  "url": "https://www.nhlbi.nih.gov/node/3451",
   "household_cited_by": [],
   "cited_by": [],
-  "added_by": "L1"
+  "added_by": "L1",
+  "capture_note": "Checked 2026-11-16 (R19): the /health/oxygen-therapy address returns 404 (R10); NHLBI still serves the risks section of the Oxygen Therapy topic at node/3451. No kit page cites this key any more (removed from 02-08).",
+  "retired": true
  },
  {
   "key": "nfpa-medical-oxygen-safety",
@@ -9370,7 +9473,8 @@
   "url": "https://www.nfpa.org/-/media/Files/Public-Education/Resources/Safety-tip-sheets/MedicalOxygenSafety.pdf",
   "household_cited_by": [],
   "cited_by": [],
-  "added_by": "L1"
+  "added_by": "L1",
+  "retired": true
  },
  {
   "key": "nhlbi-high-blood-pressure",
@@ -9496,7 +9600,8 @@
   "url": "https://www.who.int/publications/i/item/9789241508209",
   "household_cited_by": [],
   "cited_by": [],
-  "added_by": "L1"
+  "added_by": "L1",
+  "retired": true
  },
  {
   "key": "cdc-folic-acid",
@@ -9562,12 +9667,13 @@
   "date": "2026-11-16",
   "licence_class": "public-domain",
   "licence_note": "US federal government work.",
-  "url": "https://www.cdc.gov/hygiene/about/infant-feeding-items.html",
+  "url": "https://www.cdc.gov/hygiene/about/clean-sanitize-store-infant-feeding-items.html",
   "household_cited_by": [],
   "cited_by": [
    "20-05-infant-feeding"
   ],
-  "added_by": "L1"
+  "added_by": "L1",
+  "capture_note": "Checked 2026-11-16 (R19): the old /hygiene/about/infant-feeding-items.html address returns 404 (R10); CDC moved the page to the URL now given, which R10 read as cdc-clean-sanitize-store-infant-feeding-items-r10 (same document)."
  },
  {
   "key": "who-powdered-infant-formula-2007",
@@ -9778,7 +9884,8 @@
   "url": "https://www.medicare.gov/Pubs/pdf/10150-preparing-for-emergencies.pdf",
   "household_cited_by": [],
   "cited_by": [],
-  "added_by": "L2"
+  "added_by": "L2",
+  "retired": true
  },
  {
   "key": "nimh-mental-health-medications",
@@ -9944,7 +10051,8 @@
   "url": "https://www.fda.gov/drugs/drug-safety-and-availability/fda-identifies-harm-reported-sudden-discontinuation-opioid-pain-medicines-and-requires-label-changes",
   "household_cited_by": [],
   "cited_by": [],
-  "added_by": "L2"
+  "added_by": "L2",
+  "retired": true
  },
  {
   "key": "cdc-opioid-prescribing-guideline-2022",
@@ -9970,7 +10078,8 @@
   "url": "https://www.dea.gov/onepill",
   "household_cited_by": [],
   "cited_by": [],
-  "added_by": "L2"
+  "added_by": "L2",
+  "retired": true
  },
  {
   "key": "cdc-preventing-infections-cancer-patients",
@@ -9982,7 +10091,8 @@
   "url": "https://www.cdc.gov/cancer/preventinfections/index.htm",
   "household_cited_by": [],
   "cited_by": [],
-  "added_by": "L2"
+  "added_by": "L2",
+  "retired": true
  },
  {
   "key": "foodsafety-gov-weakened-immune-systems",
@@ -9994,7 +10104,8 @@
   "url": "https://www.foodsafety.gov/people-at-risk/people-with-weakened-immune-systems",
   "household_cited_by": [],
   "cited_by": [],
-  "added_by": "L2"
+  "added_by": "L2",
+  "retired": true
  },
  {
   "key": "medlineplus-tacrolimus",
@@ -10265,7 +10376,8 @@
   "url": "https://www.ftc.gov/legal-library/browse/rules/eyeglass-rule",
   "household_cited_by": [],
   "cited_by": [],
-  "added_by": "L2"
+  "added_by": "L2",
+  "retired": true
  },
  {
   "key": "fda-contact-lens-safety",
@@ -10277,7 +10389,8 @@
   "url": "https://www.fda.gov/consumers/consumer-updates/focusing-contact-lens-safety",
   "household_cited_by": [],
   "cited_by": [],
-  "added_by": "L2"
+  "added_by": "L2",
+  "retired": true
  },
  {
   "key": "nhlbi-sleep-apnea",
@@ -10374,7 +10487,8 @@
   "url": "https://fphandbook.org/",
   "household_cited_by": [],
   "cited_by": [],
-  "added_by": "L2"
+  "added_by": "L2",
+  "retired": true
  },
  {
   "key": "niddk-bariatric-surgery",
@@ -10414,7 +10528,8 @@
   "url": "https://doi.org/10.1016/j.soard.2019.10.025",
   "household_cited_by": [],
   "cited_by": [],
-  "added_by": "L2"
+  "added_by": "L2",
+  "retired": true
  },
  {
   "key": "fda-safe-drug-use-after-natural-disaster",
@@ -10443,7 +10558,8 @@
   "url": "https://www.fda.gov/drugs/drug-safety-and-availability/fda-drug-safety-communication-fda-warns-about-serious-heart-problems-high-doses-antidiarrheal",
   "household_cited_by": [],
   "cited_by": [],
-  "added_by": "L2"
+  "added_by": "L2",
+  "retired": true
  },
  {
   "key": "medlineplus-baclofen",
@@ -11630,7 +11746,8 @@
   "household_cited_by": [],
   "cited_by": [
    "03-01-daily-water-needs",
-   "03-03-pool-water-desalination"
+   "03-03-pool-water-desalination",
+   "25-02-conversions-and-math"
   ],
   "added_by": "R1"
  },
@@ -12867,7 +12984,9 @@
   "household_cited_by": [],
   "cited_by": [],
   "added_by": "R6",
-  "duplicate_of": "nws-winter-storm-during"
+  "duplicate_of": "nws-winter-storm-during",
+  "capture_note": "Checked 2026-11-16 (R19): duplicate of nws-winter-storm-during (same URL; R18 merge). No kit page cites it.",
+  "retired": true
  },
  {
   "key": "fda-should-you-give-kids-medicine-for-coughs-and-colds",
@@ -12923,7 +13042,9 @@
   "household_cited_by": [],
   "cited_by": [],
   "added_by": "R7",
-  "duplicate_of": "nws-winter-storm-during"
+  "duplicate_of": "nws-winter-storm-during",
+  "capture_note": "Checked 2026-11-16 (R19): duplicate of nws-winter-storm-during (same URL; R18 merge). No kit page cites it.",
+  "retired": true
  },
  {
   "key": "usuhs-ncdmph-stop-the-bleed-apply-a-tourniquet-r7",

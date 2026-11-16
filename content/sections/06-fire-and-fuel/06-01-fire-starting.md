@@ -2,7 +2,7 @@
 id: 06-01-fire-starting
 section: 06-fire-and-fuel
 title: "Starting fire reliably (multiple methods)"
-version: 2
+version: 3
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -41,7 +41,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Butane cold failure sourced (NIOSH NPG 31 F); Red Flag example criteria from NWS glossary; ash rule per USFA (10 ft); unsourced 'thousands of strikes' and 'hot for days' softened; EPA Burn Wise stub replaced by Best Wood-Burning Practices." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Butane cold failure sourced (NIOSH NPG 31 F); Red Flag example criteria from NWS glossary; ash rule per USFA (10 ft); unsourced 'thousands of strikes' and 'hot for days' softened; EPA Burn Wise stub replaced by Best Wood-Burning Practices. R19: CO alarm placement to 08-02 (every level and outside each sleeping area)." }
 ---
 
 # Starting fire reliably (multiple methods)

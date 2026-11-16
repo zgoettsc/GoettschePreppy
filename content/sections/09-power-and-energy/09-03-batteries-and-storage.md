@@ -2,7 +2,7 @@
 id: 09-03-batteries-and-storage
 section: 09-power-and-energy
 title: "Batteries and power stations"
-version: 2
+version: 3
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -56,7 +56,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Lithium safety re-cited to USFA (NFPA archive empty); storage charge per maker manuals (they differ); lead-acid voltages/DoD from Trojan; LiFePO4 cycles/cold limits from Battle Born and station manuals; cooler from Dometic; motor start 3x (Generac)" }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Lithium safety re-cited to USFA (NFPA archive empty); storage charge per maker manuals (they differ); lead-acid voltages/DoD from Trojan; LiFePO4 cycles/cold limits from Battle Born and station manuals; cooler from Dometic; motor start 3x (Generac) R19: fridge Wh/day stated as 09-01's 1,000 to 2,000 Wh (estimate uses 1,200)." }
 ---
 
 # Batteries and power stations

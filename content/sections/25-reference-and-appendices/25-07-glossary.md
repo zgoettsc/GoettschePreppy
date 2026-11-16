@@ -2,7 +2,7 @@
 id: 25-07-glossary
 section: 25-reference-and-appendices
 title: "Glossary: every term in plain words"
-version: 3
+version: 4
 revised: 2026-11-16
 layer: core
 danger_level: none
@@ -26,7 +26,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Card range DC-01 to DC-29; tourniquet and second-dose wording aligned; hazard rating aligned with EX-10; hardening off aligned with 25-01. Wave 2 (R18): tourniquet entry quotes the 30-01 floor verbatim." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Card range DC-01 to DC-29; tourniquet and second-dose wording aligned; hazard rating aligned with EX-10; hardening off aligned with 25-01. Wave 2 (R18): tourniquet entry quotes the 30-01 floor verbatim. R19: sizes row names all three tiers as 00-09." }
 ---
 
 # Glossary: every term in plain words

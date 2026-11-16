@@ -2,7 +2,7 @@
 id: 24-04-blackout-weekend
 section: 24-skills-to-practice-now
 title: "Running a blackout weekend"
-version: 2
+version: 3
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -27,7 +27,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "FoodSafety.gov 4 h / 48 h / 24 h and CDC 20 ft verified; 'three times as long' removed." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "FoodSafety.gov 4 h / 48 h / 24 h and CDC 20 ft verified; 'three times as long' removed. R19: CO alarm placement to 08-02 (every level and outside each sleeping area)." }
 ---
 
 # Running a blackout weekend

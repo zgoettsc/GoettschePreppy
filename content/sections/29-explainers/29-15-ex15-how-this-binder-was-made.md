@@ -2,7 +2,7 @@
 id: 29-15-ex15-how-this-binder-was-made
 section: 29-explainers
 title: "How this binder was made, and what to trust"
-version: 2
+version: 3
 revised: 2026-11-16
 layer: explainer
 danger_level: none
@@ -21,7 +21,7 @@ condition: null
 gear: null
 explainer: EX-15
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Small/Large/Everything rewritten to G25 and the app (size.everything, life-safety sections, maps, upgrade); review stamp section matches review.js (kit-build review plus per-binder checks)." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Small/Large/Everything rewritten to G25 and the app (size.everything, life-safety sections, maps, upgrade); review stamp section matches review.js (kit-build review plus per-binder checks). R19: Large life-safety list adds food storage and canning (section 04) as 00-09." }
 ---
 
 # How this binder was made, and what to trust

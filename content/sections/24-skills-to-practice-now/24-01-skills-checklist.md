@@ -2,7 +2,7 @@
 id: 24-01-skills-checklist
 section: 24-skills-to-practice-now
 title: "Skills checklist and practice schedule"
-version: 3
+version: 4
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -26,7 +26,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Generator 20 ft (CDC) verified; practice intervals labelled as suggestions; child list punctuation fixed. Wave 2 (R18): tourniquet floor bolded whole, verbatim 30-01." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Generator 20 ft (CDC) verified; practice intervals labelled as suggestions; child list punctuation fixed. Wave 2 (R18): tourniquet floor bolded whole, verbatim 30-01. R19: CO alarm placement to 08-02 (every level and outside each sleeping area); floor 2 completed word for word." }
 ---
 
 # Skills checklist and practice schedule

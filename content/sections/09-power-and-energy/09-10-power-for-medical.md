@@ -2,7 +2,7 @@
 id: 09-10-power-for-medical
 section: 09-power-and-energy
 title: "Power for refrigerated medicine"
-version: 2
+version: 3
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -43,7 +43,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Cooling table re-sourced: compressor cooler (Dometic), thermoelectric limit (Igloo), fridge matched to EX-02/1.2 kWh; EpiPen storage as labelled (no 'frozen' claim); insulin 36-46 F and frozen floor checked against FDA" }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Cooling table re-sourced: compressor cooler (Dometic), thermoelectric limit (Igloo), fridge matched to EX-02/1.2 kWh; EpiPen storage as labelled (no 'frozen' claim); insulin 36-46 F and frozen floor checked against FDA R19: fridge Wh/day stated as 09-01's 1,000 to 2,000 Wh (estimate uses 1,200)." }
 ---
 
 # Power for refrigerated medicine

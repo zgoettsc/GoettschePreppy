@@ -2,7 +2,7 @@
 id: 25-08-quick-reference-cards
 section: 25-reference-and-appendices
 title: "Quick-reference cards"
-version: 3
+version: 4
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -57,7 +57,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Floors checked word for word against 30-01/docs 05; anaphylaxis card re-sourced to AAP plan; tourniquet, hypo, boil, winter-vehicle and lightning rows corrected and sourced. Wave 2 (R18): tourniquet floor now verbatim from 30-01 (both sentences); toilet tank last reserve, disinfect first (FEMA 477); boil line EPA 5,000 / CDC 6,500 as 03-04; NWS winter key merged to nws-winter-storm-during." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Floors checked word for word against 30-01/docs 05; anaphylaxis card re-sourced to AAP plan; tourniquet, hypo, boil, winter-vehicle and lightning rows corrected and sourced. Wave 2 (R18): tourniquet floor now verbatim from 30-01 (both sentences); toilet tank last reserve, disinfect first (FEMA 477); boil line EPA 5,000 / CDC 6,500 as 03-04; NWS winter key merged to nws-winter-storm-during. R19: card 2 position row to AAP plan positions as on 02-03 (back; side if vomiting or trouble breathing)." }
 ---
 
 # Quick-reference cards

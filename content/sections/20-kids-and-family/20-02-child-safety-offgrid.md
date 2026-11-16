@@ -2,7 +2,7 @@
 id: 20-02-child-safety-offgrid
 section: 20-kids-and-family
 title: "Keeping children safe in a house without the grid"
-version: 2
+version: 3
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -38,7 +38,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Drowning re-read (CPSC 2 in, CDC seconds, 83% four-sided fence, CPSC 362 48 in/F1346); button battery 2 h to NCPC; unread CPSC/AAP/NIOSH keys dropped; floors as 30-01." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Drowning re-read (CPSC 2 in, CDC seconds, 83% four-sided fence, CPSC 362 48 in/F1346); button battery 2 h to NCPC; unread CPSC/AAP/NIOSH keys dropped; floors as 30-01. R19: CO alarm placement to 08-02 (every level and outside each sleeping area); floor 8 restated word for word." }
 ---
 
 # Keeping children safe in a house without the grid

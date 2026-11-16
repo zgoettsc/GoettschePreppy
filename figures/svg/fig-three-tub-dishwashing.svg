@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 370" width="360" height="370" color="#1b1b1b" font-family="Helvetica, Arial, sans-serif" font-size="13" class="gpfig fig-three-tub-dishwashing" aria-label="Three-tub dishwashing">
+<title>Three-tub dishwashing</title>
+<text x="6" y="18" font-size="11.5" font-weight="bold" fill="currentColor">0. SCRAPE first</text>
+<ellipse cx="44" cy="52" rx="30" ry="8" fill="currentColor" fill-opacity="0.1" stroke="currentColor" stroke-width="1.6"/>
+<line x1="40" y1="62" x2="40.0" y2="82.0" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M40,88 L43.0,82.0 L37.0,82.0 Z" fill="currentColor" stroke="none"/><rect x="24" y="90" width="32" height="26" rx="2" fill="currentColor" fill-opacity="0.15" stroke="currentColor" stroke-width="1.4"/><text x="40" y="130" font-size="9.5" text-anchor="middle" fill="currentColor">waste</text>
+<text x="126" y="18" font-size="11.5" text-anchor="middle" font-weight="bold" fill="currentColor">1. WASH</text>
+<path d="M86,40 L94,110 L158,110 L166,40" fill="#1e6fc0" fill-opacity="0.15" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="126" y="70" font-size="10" text-anchor="middle" fill="currentColor">hot water</text>
+<text x="126" y="82" font-size="10" text-anchor="middle" fill="currentColor">and soap</text>
+<line x1="168" y1="76" x2="171.0" y2="76.0" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M176,76 L171.0,73.5 L171.0,78.5 Z" fill="currentColor" stroke="none"/>
+<text x="218" y="18" font-size="11.5" text-anchor="middle" font-weight="bold" fill="currentColor">2. RINSE</text>
+<path d="M178,40 L186,110 L250,110 L258,40" fill="#1e6fc0" fill-opacity="0.08" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="218" y="70" font-size="10" text-anchor="middle" fill="currentColor">clean</text>
+<text x="218" y="82" font-size="10" text-anchor="middle" fill="currentColor">warm water</text>
+<line x1="260" y1="76" x2="263.0" y2="76.0" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M268,76 L263.0,73.5 L263.0,78.5 Z" fill="currentColor" stroke="none"/>
+<text x="310" y="18" font-size="11.5" text-anchor="middle" font-weight="bold" fill="#d97a00">3. SANITIZE</text>
+<path d="M270,40 L278,110 L342,110 L350,40" fill="#d97a00" fill-opacity="0.25" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="310" y="70" font-size="10" text-anchor="middle" fill="currentColor">1 Tbsp bleach</text>
+<text x="310" y="82" font-size="10" text-anchor="middle" fill="currentColor">per 1 gal</text>
+<text x="270" y="128" font-size="10" text-anchor="middle" font-weight="bold" fill="#c62828">fully under;</text>
+<text x="270" y="140" font-size="10" text-anchor="middle" font-weight="bold" fill="#c62828">NOT drinkable</text>
+<text x="130" y="128" font-size="9.5" text-anchor="middle" font-style="italic" fill="currentColor">cleanest to dirtiest</text>
+<line x1="4" y1="160" x2="356" y2="160" stroke="currentColor" stroke-width="0.8" stroke-linecap="round" opacity="0.4"/>
+<text x="200" y="182" font-size="11.5" font-weight="bold" fill="#2e7d32">4. AIR DRY on a rack</text>
+<rect x="200" y="240" width="140" height="8" rx="2" fill="currentColor" fill-opacity="0.2" stroke="currentColor" stroke-width="1.4"/>
+<ellipse cx="220" cy="218" rx="6" ry="22" fill="currentColor" fill-opacity="0.08" stroke="currentColor" stroke-width="1.4"/>
+<ellipse cx="240" cy="218" rx="6" ry="22" fill="currentColor" fill-opacity="0.08" stroke="currentColor" stroke-width="1.4"/>
+<ellipse cx="260" cy="218" rx="6" ry="22" fill="currentColor" fill-opacity="0.08" stroke="currentColor" stroke-width="1.4"/>
+<ellipse cx="280" cy="218" rx="6" ry="22" fill="currentColor" fill-opacity="0.08" stroke="currentColor" stroke-width="1.4"/>
+<ellipse cx="300" cy="218" rx="6" ry="22" fill="currentColor" fill-opacity="0.08" stroke="currentColor" stroke-width="1.4"/>
+<ellipse cx="320" cy="218" rx="6" ry="22" fill="currentColor" fill-opacity="0.08" stroke="currentColor" stroke-width="1.4"/>
+<text x="270" y="266" font-size="10.5" text-anchor="middle" font-weight="bold" fill="#c62828">no towel</text>
+<path d="M126,112 Q120,170 74,200 M218,112 Q200,180 90,206" fill="none" stroke="#1e6fc0" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="4 3"/>
+<rect x="46" y="200" width="52" height="46" rx="4" fill="#1e6fc0" fill-opacity="0.15" stroke="currentColor" stroke-width="1.6"/><text x="72" y="262.0" font-size="9.5" text-anchor="middle" fill="currentColor">greywater:</text>
+<text x="72" y="273.5" font-size="9.5" text-anchor="middle" fill="currentColor">flush or</text>
+<text x="72" y="285.0" font-size="9.5" text-anchor="middle" fill="currentColor">non-food plants</text>
+<text x="8" y="312" font-size="11.5" fill="currentColor">Unscented 5 to 9 percent household bleach. Mix fresh</text>
+<text x="8" y="327" font-size="11.5" fill="currentColor">daily; label the tub; children away. No bleach: dishes</text>
+<text x="8" y="342" font-size="11.5" fill="currentColor">into boiling water (tongs). Clean first, then sanitize.</text>
+<text x="354" y="364" font-size="10.5" text-anchor="end" fill="currentColor" opacity="0.75">Diagram, not to scale</text>
+</svg>

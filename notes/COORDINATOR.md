@@ -124,3 +124,5 @@ Collected from worker reports; resolved in the integration pass.
 - [ ] Naloxone figure request says "other nostril"; Narcan label says either nostril, new device per dose.
 - [x] R16: 30-01 citations fixed; DC-02 options made mutually exclusive (ids kept); DC-03 follows the refill maker's training (docs/05 updated); AAP bed-sharing quoted on DC-09; toddler milk 16 oz/day (AAP).
 - [ ] R16: AVMA gunshot-site figure must be redrawn from the text (AVMA licence), not copied. Owner question: keep the gunshot procedure in the 20-09 humane-end section?
+- [x] R19: kit-wide numeric consistency sweep done; 16 source URLs fixed, 94 uncited keys retired; figures corrected (CPR/choking diagrams to 2025 guidance). Diphenhydramine claims verified cited to the Drug Facts label (FDA notice kept for overdose only).
+- [ ] Stop the Bleed: only official PDF found is a 98 MB course deck; keep USUHS instructions as the bound source.

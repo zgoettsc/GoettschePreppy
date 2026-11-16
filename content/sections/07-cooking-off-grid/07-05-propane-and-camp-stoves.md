@@ -2,7 +2,7 @@
 id: 07-05-propane-and-camp-stoves
 section: 07-cooking-off-grid
 title: "Propane and camp stoves, and why they stay outdoors"
-version: 2
+version: 3
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -28,7 +28,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CO floor and camp-stove rule match 30-01 and DC-20 (camp stoves under the floor, match-lit range under DC-20); methanol toxicity re-sourced to MedlinePlus; unsourced butane freezing threshold made qualitative; venison and rabbit added to temperatures" }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CO floor and camp-stove rule match 30-01 and DC-20 (camp stoves under the floor, match-lit range under DC-20); methanol toxicity re-sourced to MedlinePlus; unsourced butane freezing threshold made qualitative; venison and rabbit added to temperatures R19: CO alarm placement to 08-02 (every level and outside each sleeping area)." }
 ---
 
 # Propane and camp stoves, and why they stay outdoors

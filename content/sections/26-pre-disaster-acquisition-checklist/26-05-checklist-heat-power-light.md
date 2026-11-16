@@ -2,7 +2,7 @@
 id: 26-05-checklist-heat-power-light
 section: 26-pre-disaster-acquisition-checklist
 title: "Checklist 3: heat, power and light"
-version: 2
+version: 3
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -27,7 +27,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Generator 20 ft added (CPSC); 'hundreds of cars' re-cited to CPSC release; seasoning aligned with G5450." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Generator 20 ft added (CPSC); 'hundreds of cars' re-cited to CPSC release; seasoning aligned with G5450. R19: CO alarm row adds every level as 08-02." }
 ---
 
 # Checklist 3: heat, power and light

@@ -2,7 +2,7 @@
 id: 17-08-power-grid-failure
 section: 17-weather-and-regional-hazards
 title: "Power grid failure: hours, days and weeks"
-version: 2
+version: 3
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -29,7 +29,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CPSC hundreds-of-cars claim resourced; generator 20 ft to Ready.gov; fridge/freezer hours verified." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CPSC hundreds-of-cars claim resourced; generator 20 ft to Ready.gov; fridge/freezer hours verified. R19: CO alarm placement to 08-02 (every level and outside each sleeping area)." }
 ---
 
 # Power grid failure: hours, days and weeks

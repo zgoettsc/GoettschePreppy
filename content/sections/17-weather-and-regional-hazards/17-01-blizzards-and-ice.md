@@ -2,7 +2,7 @@
 id: 17-01-blizzards-and-ice
 section: 17-weather-and-regional-hazards
 title: "Blizzards, ice storms and winter storms"
-version: 2
+version: 3
 revised: 2026-11-16
 layer: region
 danger_level: critical
@@ -33,7 +33,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Blizzard criteria to NSSL wording; stranded-vehicle steps to NWS; Blizzard Watch consolidation and Advisory plain-language change noted." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Blizzard criteria to NSSL wording; stranded-vehicle steps to NWS; Blizzard Watch consolidation and Advisory plain-language change noted. R19: CO alarm placement to 08-02 (every level and outside each sleeping area)." }
 ---
 
 # Blizzards, ice storms and winter storms
