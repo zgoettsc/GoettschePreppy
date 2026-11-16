@@ -2,7 +2,7 @@
 id: 02-23-cl23-hearing-and-vision-aids
 section: 02-medical-conditions
 title: "CL-23. Hearing and vision aids"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: condition
 danger_level: caution
@@ -52,7 +52,7 @@ condition: CL-23
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Contact lens water rule per FDA (any water); FTC prescription rule re-cited; strobe/vibrating alarms per USFA; meds_for tables." }
 ---
 
 # CL-23. Hearing and vision aids

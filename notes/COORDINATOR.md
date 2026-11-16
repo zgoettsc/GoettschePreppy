@@ -113,3 +113,6 @@ Collected from worker reports; resolved in the integration pass.
 - [ ] DC-16 "published adult table": R15 to resolve on 12-04 and the card wording.
 - [x] R10: FDA insulin-switching text matched word for word to fda.gov (09/28/2026); AAP second-dose rule on CL-03; part-12 tables use meds_for with fallback. Remaining cross-page items moved to notes/REVIEW-WAVE3.md.
 - [ ] R10 owner questions: CL-02 names Dexcom, Omnipod, LoopDocs as one-maker examples (acceptable?); print ADA switching amounts next to FDA's?
+- [x] R15: full AAP acetaminophen (9 bands x 6 columns) and ibuprofen (9 x 4) charts on 12-13; WHO ORS table word for word; CPR/choking to 2025 AHA via MedlinePlus; tetanus, head injury, burns, childbirth signs, pouches corrected.
+- [ ] Aspirin (G24): AHA unreadable (403 everywhere). Owner question: print the 2024 AHA/Red Cross first-aid recommendation once someone reads it, or use NIH MedlinePlus wording (call 911 first; aspirin only if a doctor or 911 operator says so).
+- [ ] DC-16 owner question: print TCCC 2026 section 12 (antibiotics, written for military medics) verbatim, or keep "no table"?

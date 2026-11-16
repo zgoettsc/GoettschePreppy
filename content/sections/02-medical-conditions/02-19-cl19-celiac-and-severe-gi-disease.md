@@ -2,7 +2,7 @@
 id: 02-19-cl19-celiac-and-severe-gi-disease
 section: 02-medical-conditions
 title: "CL-19. Celiac and severe gut disease"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: condition
 danger_level: caution
@@ -59,7 +59,7 @@ condition: CL-19
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Gluten-free 20 ppm re-cited to NIDDK; celiac symptoms per NIDDK; stoma warning signs per MedlinePlus; meds_for tables." }
 ---
 
 # CL-19. Celiac and severe gut disease

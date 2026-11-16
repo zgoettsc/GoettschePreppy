@@ -2,7 +2,7 @@
 id: 02-20-cl20-adrenal-insufficiency
 section: 02-medical-conditions
 title: "CL-20. Adrenal insufficiency"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: condition
 danger_level: critical
@@ -50,7 +50,7 @@ condition: CL-20
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Adrenal crisis signs per NIDDK, Endocrine Society and MedlinePlus; unsourced timings and legs-raised removed; meds_for tables." }
 ---
 
 # CL-20. Adrenal insufficiency

@@ -2,7 +2,7 @@
 id: 02-21-cl21-dementia-and-elderly-care
 section: 02-medical-conditions
 title: "CL-21. Dementia and elderly care"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: condition
 danger_level: critical
@@ -62,7 +62,7 @@ condition: CL-21
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "NIA 68 F and 60-65 F, wandering tips, hypothermia signs; STEADI checklist; delirium causes per MedlinePlus; Ready.gov claim corrected; meds_for tables." }
 ---
 
 # CL-21. Dementia and elderly care

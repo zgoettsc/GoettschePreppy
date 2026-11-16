@@ -2,7 +2,7 @@
 id: 02-25-cl25-contraception-and-menstrual-health
 section: 02-medical-conditions
 title: "CL-25. Contraception and menstrual health"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: condition
 danger_level: caution
@@ -50,7 +50,7 @@ condition: CL-25
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CDC typical-use table printed as published (withdrawal row removed: not on CDC page); TSS signs per FDA; CDC device durations; DC-08 misuse fixed; meds_for tables." }
 ---
 
 # CL-25. Contraception and menstrual health

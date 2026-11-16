@@ -2,7 +2,7 @@
 id: 02-14-cl14-thyroid-disease
 section: 02-medical-conditions
 title: "CL-14. Thyroid disease"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: condition
 danger_level: caution
@@ -47,7 +47,7 @@ condition: CL-14
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Thyroid storm and myxoedema signs re-cited to MedlinePlus; missed-dose line per ATA; KI cautions per FDA FAQ; meds_for tables." }
 ---
 
 # CL-14. Thyroid disease

@@ -2,7 +2,7 @@
 id: 02-24-cl24-sleep-apnea-cpap
 section: 02-medical-conditions
 title: "CL-24. Sleep apnoea (CPAP)"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: condition
 danger_level: caution
@@ -55,7 +55,7 @@ condition: CL-24
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CPAP power planning figure matched to 09-01/09-06 placeholder; NHLBI claims re-checked; unsourced raised-head and water advice softened; meds_for tables." }
 ---
 
 # CL-24. Sleep apnoea (CPAP)

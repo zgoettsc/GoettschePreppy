@@ -2,7 +2,7 @@
 id: 02-17-cl17-opioid-dependence-and-chronic-pain
 section: 02-medical-conditions
 title: "CL-17. Opioid dependence and chronic pain"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: condition
 danger_level: critical
@@ -57,7 +57,7 @@ condition: CL-17
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "SAMHSA TIP 63 Exhibit 2.10 timeline printed as published (L2 table was wrong); naloxone steps per OTC Drug Facts and CDC; FDA/DEA dead links replaced; meds_for tables." }
 ---
 
 # CL-17. Opioid dependence and chronic pain

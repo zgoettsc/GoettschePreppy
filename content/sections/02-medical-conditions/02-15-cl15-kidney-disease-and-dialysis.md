@@ -2,7 +2,7 @@
 id: 02-15-cl15-kidney-disease-and-dialysis
 section: 02-medical-conditions
 title: "CL-15. Kidney disease and dialysis"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: condition
 danger_level: critical
@@ -61,7 +61,7 @@ condition: CL-15
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CMS 2026 dialysis guide read: 3-day limit and diet stated honestly; potassium/uraemia signs re-cited to MedlinePlus; FDA lifesaving-drug flood exception; meds_for tables." }
 ---
 
 # CL-15. Kidney disease and dialysis

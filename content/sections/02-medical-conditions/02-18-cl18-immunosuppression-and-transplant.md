@@ -2,7 +2,7 @@
 id: 02-18-cl18-immunosuppression-and-transplant
 section: 02-medical-conditions
 title: "CL-18. Immunosuppression and transplant"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: condition
 danger_level: critical
@@ -64,7 +64,7 @@ condition: CL-18
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CDC 100.4 F chemo fever re-cited (Watch Out for Fever); rejection signs per MedlinePlus; Listeria food rules per CDC; FDA flood exception; meds_for tables." }
 ---
 
 # CL-18. Immunosuppression and transplant

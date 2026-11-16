@@ -2,7 +2,7 @@
 id: 02-26-cl26-severe-obesity-and-bariatric-surgery
 section: 02-medical-conditions
 title: "CL-26. Severe obesity and bariatric surgery"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: condition
 danger_level: caution
@@ -54,7 +54,7 @@ condition: CL-26
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Unreadable 2019 guideline replaced by MedlinePlus (gastric bypass discharge, Wernicke) and NIDDK dumping pages; meds_for tables." }
 ---
 
 # CL-26. Severe obesity and bariatric surgery

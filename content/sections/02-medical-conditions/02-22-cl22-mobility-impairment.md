@@ -2,7 +2,7 @@
 id: 02-22-cl22-mobility-impairment
 section: 02-medical-conditions
 title: "CL-22. Mobility impairment"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: condition
 danger_level: caution
@@ -59,7 +59,7 @@ condition: CL-22
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Pressure-injury intervals corrected to MedlinePlus (1-2 h, 15-20 min); autonomic dysreflexia per MedlinePlus; Li-ion per USFA; meds_for tables." }
 ---
 
 # CL-22. Mobility impairment

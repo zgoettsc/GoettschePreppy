@@ -2,7 +2,7 @@
 id: 02-16-cl16-mental-health-medications
 section: 02-medical-conditions
 title: "CL-16. Mental-health medicines"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: condition
 danger_level: critical
@@ -69,7 +69,7 @@ condition: CL-16
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Sudden-stop table rebuilt from FDA boxed warning and MedlinePlus drug pages; lithium toxicity now says stop and call (MedlinePlus); SSRI withdrawal includes seizures; meds_for tables." }
 ---
 
 # CL-16. Mental-health medicines

@@ -2,7 +2,7 @@
 id: 02-27-a-condition-not-in-the-library
 section: 02-medical-conditions
 title: "A condition that is not in the library"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: condition
 danger_level: caution
@@ -39,7 +39,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Children floor sentence punctuation aligned with 30-01; no numbers; full meds table kept (no condition id)." }
 ---
 
 # A condition that is not in the library
