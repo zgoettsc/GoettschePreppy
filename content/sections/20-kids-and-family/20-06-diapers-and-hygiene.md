@@ -14,6 +14,7 @@ sources:
   - cdc-about-handwashing-when-and-how-to-wash-your-hand-14c15a
   - cdc-guidelines-for-personal-hygiene-during-an-emerge-ddfe8d
   - cdc-when-and-how-to-clean-and-disinfect-your-home-880947
+  - aap-diaper-rash-r16
 related: [13-08-menstrual-and-diapers, 13-04-laundry-by-hand, 13-02-hygiene-and-handwashing, 13-01-human-waste-no-plumbing, 13-11-disease-outbreak, 20-01-toddler-and-infant-needs, 20-02-child-safety-offgrid, 20-08-kids-and-fear, 12-04-infection-and-antibiotics, 12-05-common-illness-and-dehydration, 12-06-dental-emergencies, 12-07-meds-stockpile, 11-02-keeping-kids-warm, 11-03-staying-dry, 10-01-lighting-options]
 cards: []
 explainers: []
@@ -93,12 +94,13 @@ Changes may be less frequent, drying incomplete and washing imperfect.
 - **Watch for rash that is not improving, spreads, has open sores, or comes with fever.** It may
   be a yeast or bacterial infection (→ 12-04).
 
-**Telling yeast rash apart:** **beefy red with a sharp edge, small red "satellite" spots beyond
-the main patch, worst in the skin folds** (an ordinary irritant rash spares the folds), and **not
-better after 2 to 3 days of barrier cream and diaper-free time.** Yeast needs an antifungal cream
-(clotrimazole 1% or miconazole 2%, sold over the counter and stocked on → 12-07), **used as its
-label directs**, with barrier ointment over the top; boil-wash the cloth diapers. Spreading
-pus-filled blisters, crusting or fever is bacterial, not yeast: → 12-04.
+**Telling yeast rash apart** (AAP, Diaper Rash): **shiny, bright red or pink patches with sharp
+edges, sometimes with little pink bumps or pimples, usually worse in the groin folds**, unlike
+an ordinary irritant rash. The AAP says call the doctor if a rash is not going away, or is
+getting worse, after 2 to 3 days of treatment, and that the doctor may recommend an antifungal
+cream. Ask now which one, and stock it (over-the-counter antifungal creams such as clotrimazole
+or miconazole, → 12-07), **used as its label directs**; boil-wash the cloth diapers. Spreading
+pus-filled blisters, crusting or fever is not ordinary diaper rash: → 12-04.
 
 ## Washing a small child with little water
 
@@ -143,7 +145,7 @@ pus-filled blisters, crusting or fever is bacterial, not yeast: → 12-04.
 | **Lidded pail, out of reach** | Containment and toddler safety | → 13-08, → 20-02 |
 | Diapers: a disposable buffer plus cloth | The relentless consumable | → 13-08 |
 | **Barrier ointment / petroleum jelly** | Rash prevention without a doctor | Many uses |
-| **Antifungal cream** (clotrimazole 1% or miconazole 2%) | Yeast rash, which barrier cream will not fix | → 12-07 |
+| **Antifungal cream** (clotrimazole or miconazole, the one your doctor names) | Yeast rash, which barrier cream will not fix | → 12-07 |
 | Soap in quantity; a way to warm water | The main control | → 13-02, → 13-09 |
 | Cloth wipes or disposable wipes | Wipes run out fast; cloth is reusable | Wash with the diapers |
 | Washable changing pad and spares | Cleaned after each change | |

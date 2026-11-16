@@ -193,7 +193,7 @@
   "experience.some": "Experience = some.",
   "experience.experienced": "Experience = experienced.",
   "size.large": "Download size is Large or Everything (source documents inside; decision G25).",
-  "size.everything": "Download size is Everything (every cited source document inside; decision G25). Large binds only the documents cited by the life-safety sections 02, 03, 06, 08, 09, 12, 17, 20, 27 and 30.",
+  "size.everything": "Download size is Everything (every cited source document inside; decision G25). Large binds only the documents cited by the life-safety sections 02, 03, 04, 06, 08, 09, 12, 17, 20, 27 and 30.",
   "is.tsunami_region": "Home tsunami rating 2 or 3.",
   "is.volcano_region": "Home volcanic rating 2 or 3.",
   "is.landslide_region": "Home landslide rating 2 or 3.",

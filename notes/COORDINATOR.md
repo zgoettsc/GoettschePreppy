@@ -116,3 +116,6 @@ Collected from worker reports; resolved in the integration pass.
 - [x] R15: full AAP acetaminophen (9 bands x 6 columns) and ibuprofen (9 x 4) charts on 12-13; WHO ORS table word for word; CPR/choking to 2025 AHA via MedlinePlus; tetanus, head injury, burns, childbirth signs, pouches corrected.
 - [ ] Aspirin (G24): AHA unreadable (403 everywhere). Owner question: print the 2024 AHA/Red Cross first-aid recommendation once someone reads it, or use NIH MedlinePlus wording (call 911 first; aspirin only if a doctor or 911 operator says so).
 - [ ] DC-16 owner question: print TCCC 2026 section 12 (antibiotics, written for military medics) verbatim, or keep "no table"?
+- [x] R12: size.everything description and generate.js tier intros now include section 04.
+- [ ] R12: FSIS 403: jerky drying temperature, canned food above 90 F and dry-ice figures removed; restore when FSIS is reachable.
+- [ ] R12 owner questions: Dietary Guidelines 2020-2025 vs the newer edition (verify it exists and its tables before switching); one water-bath row still cites SDSU Extension (owner's home state; no neutral source with the same rule).

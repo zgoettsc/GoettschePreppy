@@ -2,7 +2,7 @@
 id: 09-05-solar-in-winter
 section: 09-power-and-energy
 title: "Solar in winter: short days, snow and cold"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: region
 danger_level: caution
@@ -13,6 +13,11 @@ sources:
   - us-department-of-energy-solar-energy-technologies-of-2a534a
   - us-department-of-energy-solar-photovoltaic-technolog-ca10f6
   - noaa-national-weather-service-during-extremely-cold-9c1973
+  - noaa-gml-solar-calculator-r14
+  - renogy-rsp200d-g3-datasheet
+  - mike-holt-nec-690-table-690-7-r14
+  - battle-born-temperature-limits-r14
+  - trojan-faqs-r14
   - american-red-cross-winter-storm-preparedness-and-bli-4bb6c0
 related:
   - 09-01-power-priorities
@@ -39,7 +44,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Day lengths checked against NOAA solar geometry; cold factor wording matches 09-02 and the series/parallel figure; lithium cold limit and lead-acid freeze point re-sourced (Battle Born, Trojan); worked example arithmetic checked" }
 ---
 
 # Solar in winter: short days, snow and cold
@@ -57,10 +62,11 @@ home, and how to get through a dark week. The sizing method itself is on → 09-
   summer convenience.
 - **Buy a soft-headed snow rake or long-handled broom** and keep it with the panels. A snowed-over
   panel makes **nothing**, and that can last for days.
-- **Keep every battery and power station indoors, in the heated room** (→ 08-01). Charging lithium
-  iron phosphate below freezing causes permanent damage (→ 09-03, → 09-07).
-- **Set the panel tilt steep in winter:** roughly your latitude plus 15°. It catches the low sun and
-  sheds snow. {{figure fig-winter-panel-tilt}}
+- **Keep every battery and power station indoors, in the heated room** (→ 08-01). Lithium batteries
+  are not charged below their makers' cold limit, about 32 °F for stations, because charging cold
+  can damage the cells (Battle Born; → 09-03, → 09-07).
+- **Set the panel tilt steep in winter:** roughly your latitude plus 15° (why: → 09-02). It catches
+  the low sun and sheds snow. {{figure fig-winter-panel-tilt}}
 - **Over-panel deliberately.** Panels are the cheapest part. Extra panel watts turn a bad December
   week into a survivable one.
 - **Choose the winter panel spot and the cable's route indoors now**, and photograph it.
@@ -70,9 +76,10 @@ home, and how to get through a dark week. The sizing method itself is on → 09-
 
 ### The four winter penalties, stacked
 
-**1. Short days.** The further north you are, the shorter a December day: in the northern states
-a midwinter day has only about 9 hours between sunrise and sunset, against more than 15 in June, and
-only the middle part of that is useful generation.
+**1. Short days.** The further north you are, the shorter a December day: between 45° and 49° north
+(the northern states) a midwinter day has only about 8 to 9 hours between sunrise and sunset,
+against 15½ to 16 in June (NOAA Solar Calculator), and only the middle part of that is useful
+generation.
 
 **2. Low sun.** In December the sun stays low in the southern sky all day. A panel lying flat, or
 tilted for summer, presents a poor face to it. Low sunlight also passes through more atmosphere,
@@ -87,17 +94,20 @@ safely sweep a snowy roof in deep cold, and that is when you will need to.
 plan for clearing as a routine, like shovelling the walk.{{/if}}
 
 **4. Cold: one benefit, two hazards.**
-- *Benefit:* **cold panels are more efficient.** On a clear, cold day with snow on the ground
+- *Benefit:* **cold panels are more efficient.** A panel's power rises as it cools (Renogy's
+  RSP200D gains about 0.37% per °C below 77 °F). On a clear, cold day with snow on the ground
   reflecting light, a well-aimed panel can briefly beat its summer output.
 - *Hazard A:* **panel voltage rises as temperature falls.** A station or controller can be
   **over-volted and destroyed** on a clear frozen morning. Use the cold-voltage check on → 09-02
-  (string Voc × 1.20, more for very cold places). Home's record low is
+  (string Voc × 1.20; the code table rises to 1.25 at −40 °F when the panel's coefficient is not
+  known: NEC Table 690.7). Home's record low is
   **{{ region.home.record_low_f }} °F**; January's average low is **{{ region.home.jan_low_f }} °F**.
   Panels are rated at 77 °F, so every winter morning is far below the rating; never drop the factor
   on a "mild" morning.
-- *Hazard B:* **charging most lithium batteries below freezing permanently damages them**
-  (→ 09-07). Lead-acid charges poorly when cold, and a discharged lead-acid battery can **freeze and
-  split.** Batteries live inside.
+- *Hazard B:* **lithium batteries are not charged below their makers' cold limit** (32 °F for
+  stations; charging cold can damage the cells: Battle Born; → 09-07). A discharged lead-acid
+  battery can **freeze and split**: at 40% charge its electrolyte freezes at about 16 °F (Trojan).
+  Batteries live inside.
 
 ### The number that should worry you
 

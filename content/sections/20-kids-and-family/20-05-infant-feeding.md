@@ -19,6 +19,9 @@ sources:
   - ife-core-group-operational-guidance-v3
   - usda-hhs-dietary-guidelines-for-americans-2020-2025-4b2013
   - aap-choking-prevention
+  - fda-homemade-infant-formula-advisory
+  - cdc-breast-milk-storage-and-preparation
+  - aap-recommended-drinks-young-children-r16
 related: [20-01-toddler-and-infant-needs, 20-06-diapers-and-hygiene, 02-13-cl13-infant-feeding, 02-12-cl12-pregnancy-birth-and-postpartum, 03-01-daily-water-needs, 03-04-purifying-water, 04-01-calorie-and-stockpile-math, 04-14-powdered-and-canned-dairy, 04-17-food-safety-power-outage, 12-05-common-illness-and-dehydration, 12-18-choking-and-cpr, 13-10-dishwashing-and-food-hygiene, 01-02-go-no-go-decision, 22-03-go-bags-and-kits, 23-02-master-consumables-table, 02-04-cl04-food-allergy]
 cards: []
 explainers: [EX-06]
@@ -102,11 +105,13 @@ Every month a child moves along the third path, the household loses a supply-cha
 - **Stress and exhaustion affect supply**, and a crisis brings both. Rest, food, water and support
   are the practical help (→ 21-02). Sudden weaning under stress is a real risk: protecting the
   nursing parent **is** the baby's food security.
-- **Expressing and storing milk** (CDC, as published):
+- **Expressing and storing milk** (CDC, Breast Milk Storage and Preparation, as published):
   - Freshly expressed: **up to 4 hours at room temperature** (77 °F or cooler); **up to 4 days in
     a fridge** (40 °F or colder); frozen, **about 6 months is best, 12 months acceptable**.
-  - Thawed milk: 1 to 2 hours at room temperature, 24 hours in the fridge; **never refreeze**.
-  - Left over from a feed: use within 2 hours or throw away. Never microwave breast milk.
+  - Thawed milk: once at room temperature or warmed, within 2 hours; thawed in the fridge,
+    within 24 hours of fully thawing; **never refreeze**.
+  - Left over from a feed: use within 2 hours or throw away. Never thaw or heat breast milk in a
+    microwave.
   - In winter an unheated porch or shed works as a fridge only if a thermometer shows it holding
     between 32 and 40 °F (→ 04-09). In summer it does not (→ 09-10).
 - **Clean pump parts and bottles** as in CDC's infant feeding-item guidance: wash, then sanitise
@@ -123,8 +128,12 @@ Every month a child moves along the third path, the household loses a supply-cha
   water of at least **158 °F (70 °C)** (CDC, Infant Formula Preparation and Storage; WHO/FAO,
   Safe Preparation of Powdered Infant Formula). **Then cool the bottle** and test a few drops on
   your wrist: warm, not hot. Never microwave a bottle (CDC).
-- **Clean bottles and feeding items:** washed, then sanitised (CDC). This costs real water and
-  fuel (→ 13-10); budget it.
+- **Clean bottles and feeding items** after every use. CDC says sanitise them daily (or more
+  often) if the baby is less than 2 months old, was born prematurely, or has a weakened immune
+  system; one way is to boil the taken-apart items for 5 minutes. Daily sanitising may not be
+  needed for older, healthy babies if items are cleaned carefully after each use (CDC, How to
+  Clean, Sanitize, and Store Infant Feeding Items). This costs real water and fuel (→ 13-10);
+  budget it.
 - **Holding times** (CDC, as published):
   - Mixed formula: **use within 2 hours of mixing**; if it will not be used within 2 hours,
     refrigerate it at once and use it within 24 hours.

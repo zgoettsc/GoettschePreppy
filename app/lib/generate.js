@@ -257,8 +257,8 @@ function notCapturedMarkdown(rows, size, elsewhere = []) {
   const cell = s => String(s || '').replace(/\|/g, '/');
   const cites = r => r.citedBy.map(id => '→ ' + id.slice(0, 5)).join(' ');
   const intro = {
-    small: 'This is the Small binder: it carries citations only (title, publisher, date) and binds no documents. The Large download binds the documents cited by the life-safety sections (medical, water, fire and fuel, heating, power, hazards, kids, CBRN, decisions and floors), and the Everything download binds every cited document. You can upgrade from your saved answers file and this binder file without paying for the writing again.',
-    large: 'This is the Large binder: it binds the documents cited by the life-safety sections (medical conditions, water, fire and fuel, heating, power, first aid, hazards, kids, CBRN, decisions and floors). Documents cited only by other sections are listed further down as "in the Everything download".',
+    small: 'This is the Small binder: it carries citations only (title, publisher, date) and binds no documents. The Large download binds the documents cited by the life-safety sections (medical, water, food storage and canning, fire and fuel, heating, power, hazards, kids, CBRN, decisions and floors), and the Everything download binds every cited document. You can upgrade from your saved answers file and this binder file without paying for the writing again.',
+    large: 'This is the Large binder: it binds the documents cited by the life-safety sections (medical conditions, water, food storage and canning, fire and fuel, heating, power, first aid, hazards, kids, CBRN, decisions and floors). Documents cited only by other sections are listed further down as "in the Everything download".',
     everything: 'This is the Everything binder: every document the binder cites should be bound inside it, behind the page that cites it.',
   }[size];
   const missing = size === 'small' ? 'Nothing to list in the Small binder.'

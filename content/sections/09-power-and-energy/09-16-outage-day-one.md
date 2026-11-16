@@ -2,7 +2,7 @@
 id: 09-16-outage-day-one
 section: 09-power-and-energy
 title: "Outage day one: the live grid-down procedure"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -12,11 +12,15 @@ derived_from: [09-16-outage-day-one]
 sources:
   - american-red-cross-power-outage-safety-6d07a8
   - us-consumer-product-safety-commission-cpsc-what-to-k-3390a4
-  - nfpa-national-fire-protection-association-lithium-io-0c7d64
+  - cpsc-safety-alert-portable-generator-hazards-r8
+  - usfa-battery-fire-safety-r14
   - foodsafety-gov-usda-hhs-food-safety-during-a-power-o-3894c1
   - us-fire-administration-fema-candle-fire-safety-use-f-6eeda1
   - us-fda-information-regarding-insulin-storage-and-swi-6448d3
-  - fema-ready-gov-utility-shut-off-and-safety-natural-g-7965ad
+  - southwire-spec-70065-sjeoow-r14
+  - ecoflow-river-2-pro-user-manual
+  - jackery-explorer-2000-plus-user-manual
+  - anker-solix-c1000-gen-2-user-guide
 related:
   - 09-01-power-priorities
   - 09-03-batteries-and-storage
@@ -51,7 +55,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Backfeed floor as 30-01; Red Cross surge advice checked on the live page (archive capture partial); unreadable FEMA gas page dropped; storage charge per manual; MC4 polarity worded as the figure; 12 AWG cord rating sourced" }
 ---
 
 # Outage day one: the live grid-down procedure
@@ -64,10 +68,12 @@ stations and panels: print it and keep it with the panels.
 > **SAFETY.** **Never run a generator, charcoal, or any engine indoors, in a garage, or near an open
 > window**: carbon monoxide kills in minutes with no warning; alarms fail (→ 30-01). Generator outdoors
 > only, 20 feet or more from the house, exhaust away (CPSC, Portable Generator Safety).
-> **Never connect a generator to house wiring without a transfer switch, interlock, or a cord-and-plug
-> conversion with the main breaker locked off. Never backfeed through an outlet**: it electrocutes
-> line workers and neighbours and causes fires (→ 30-01). The same goes for a power station's AC
-> output.
+> **Never connect a generator to house wiring except through a transfer switch, or an interlock kit
+> with the main breaker off. Never backfeed through an outlet with a double-male ("suicide")
+> cord.** It electrocutes line workers and neighbours (→ 30-01; CPSC, Portable Generator Hazards).
+> A cord-and-plug conversion is not a connection to house wiring: the appliance is unplugged from
+> the house outlet and plugged into the generator cord, so nothing reaches the panel (DC-07,
+> → 30-08). A power station's AC output never goes into house wiring or a wall outlet either.
 > **The one wiring mistake that destroys a station instantly** is a panel string whose voltage is over
 > the station's solar input limit. Use only the configurations on the card at the bottom. When in
 > doubt, stop and read the card.
@@ -84,13 +90,13 @@ stations and panels: print it and keep it with the panels.
 4. {{#if has.refrigerated_meds}}**Refrigerated medicine: set up the cooler within the first hour**
    (step 3 below), and move the medicine once the cooler's thermometer reads within the label range.
    {{else}}Any refrigerated medicine: set up a cooler within the first hour (step 3 below).{{/if}}
-5. **Switch off and unplug non-essential loads and sensitive electronics** so a surge when the grid
-   returns cannot damage them (American Red Cross, Power Outage Safety). Leave one light switched on so
+5. **Switch off and unplug appliances and electronics** to avoid overloads and damage from power
+   surges when the grid returns (American Red Cross, Power Outage Safety). Leave one light switched on so
    you know when power is back. Leave smoke and carbon monoxide alarms alone.
 6. **Light: flashlights and lanterns, not candles** (US Fire Administration, Candle Fire Safety).
    Candles indoors are a decision: {{choice DC-20}} (→ 30-21).
-7. **If you smell gas, leave first and call from outside** ({{ contacts.utility.gas.phone }}; FEMA,
-   Utility Shut-off and Safety).
+7. **If you smell gas, leave first and call from outside** ({{ contacts.utility.gas.phone }}). Once
+   gas has been shut off, only a qualified professional turns it back on (American Red Cross).
 8. **Decide what kind of outage this is** (→ 17-08): hours, overnight, or unknown. Overnight or
    unknown: carry on down this page.
 
@@ -103,7 +109,8 @@ stations and panels: print it and keep it with the panels.
   thermometer are staged. Ours: ________________________________.
 - **Test the cooler for 24 hours on the station's 12 V port** with the designated thermometer inside;
   turn the station's power-saving ("ECO") setting off for that port (→ 09-03).
-- **Stations:** stored at 40 to 60%, charged to 100% when a storm is forecast. Power banks charged.
+- **Stations:** stored at the charge level each manual gives (→ 09-03), charged to 100% when a storm
+  is forecast. Power banks charged.
   Panel bag staged with cables, Y-branch and multimeter. {{photo station-ports}}
 - **Carbon monoxide alarms installed** (we have {{ gear.co_alarms }}), tested, spare batteries.
 - **Walk this sequence once on a calm day and time it.** The first real run should be the second run.
@@ -144,8 +151,8 @@ night. In this order (→ 08-04):
    one room. The warm room must meet the heater's air rules.
 3. **Carbon monoxide alarms on and tested BEFORE any heater is lit:** one in the warm room, one where
    people sleep (→ 08-02).
-4. **One combustion heater at a time.** Portable heater manuals generally forbid another fuel-burning
-   appliance in the same space. Kerosene: → 08-10. Propane: → 08-09; a cylinder larger than 1 lb
+4. **One combustion heater at a time,** used exactly as its manual says for room size and fresh
+   air. Kerosene: → 08-10. Propane: → 08-09; a cylinder larger than 1 lb
    indoors is a decision: {{choice DC-02}} (→ 30-03). Shared propane also feeds the generator and
    any cooking stove: count it (→ 06-05).
 5. **Overnight:** an unvented heater running while people sleep is a decision card:
@@ -160,7 +167,7 @@ plug into a station that is switched off → switch on.**
 **Decision rule: charge whichever station is lowest.** Use **only the standing configurations on the
 card** (worked out on → 09-03). {{figure fig-series-vs-parallel}}
 - **Before the first connection of any string, measure its voltage (Voc)** with the multimeter: red
-  probe to the + end (the MC4 connector with the male pin). **A minus sign means a connector is
+  probe to the + lead (as marked on the panel label or cable). **A minus sign means a connector is
   reversed: swap it.**
 - **Re-check the card every time you move panels between stations.**
 - **Suitcase kits:** the panel's bare MC4 leads only. A separate controller box never joins a string
@@ -190,8 +197,8 @@ card** (worked out on → 09-03). {{figure fig-series-vs-parallel}}
 {{#if is.cold_winters}}### Winter variant
 - **Panels go out only in usable sun.** A grey whiteout day is not worth the cold exposure or the wind
   risk (→ 09-05).
-- **Stations charge INDOORS, above 32 °F, always.** Lithium iron phosphate charged below freezing is
-  permanently damaged (→ 09-03). Run the panel cable in through a window or door gap with a towel seal.
+- **Stations charge INDOORS, above 32 °F, always.** Station manuals give 32 °F (0 °C) as the lowest
+  charging temperature (EcoFlow, Jackery, Anker; → 09-03). Run the panel cable in through a window or door gap with a towel seal.
 - **Check winter's gift first:** below-freezing outdoor air may let the cooler's job move to passive
   cold, with freeze protection and a min/max thermometer (→ 09-10, → 04-09).
 {{/if}}
@@ -199,7 +206,8 @@ card** (worked out on → 09-03). {{figure fig-series-vs-parallel}}
 ### When solar fails for two days or more: the generator bridge
 {{#if has.generator}}Our generator: {{ gear.generator_watts }} W, {{ gear.generator_fuel }}.{{/if}}
 Outdoors, 20 feet or more, exhaust away, carbon monoxide alarms on (→ 09-04). Run it long enough to
-refill a station at the station's **standard** charge rate on a 12 AWG cord, then off. That cycle is
+refill a station at the station's **standard** charge rate on a 12 AWG cord (rated 20 A; Southwire),
+then off. That cycle is
 the storm plan, not continuous running. In deep cold, start it warm and bring it back in between
 runs (→ 09-04). **If it has never been run, follow the first-start steps on → 09-04 (oil
 first).**
@@ -207,7 +215,7 @@ first).**
 ### When the power comes back
 1. Leave the generator running only until the house is back on the grid; then switch it off, outdoors.
 2. If the furnace or a pump was on the generator cord, **unplug it from the cord, plug it back into its
-   wall receptacle**, then switch the breakers back on (→ 09-04).
+   wall receptacle**, then switch the main breaker back on (→ 09-04).
 3. Plug things back in one at a time.
 4. Check the fridge and freezer and decide on food (→ 04-17). Medicine goes back to its normal
    storage.

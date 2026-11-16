@@ -2,7 +2,7 @@
 id: 09-15-generator-maintenance
 section: 09-power-and-energy
 title: "Generator maintenance, storage and fuel rotation"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -12,8 +12,10 @@ derived_from: [09-15-generator-maintenance]
 sources:
   - us-consumer-product-safety-commission-cpsc-what-to-k-3390a4
   - us-consumer-product-safety-commission-cpsc-promotes-994cab
+  - cpsc-safety-alert-portable-generator-hazards-r8
   - cdc-carbon-monoxide-poisoning-basics-772153
-  - osha-hand-and-power-tools-safe-use-maintenance-and-h-77254c
+  - honda-eu-generator-fuel-recommendations
+  - honda-eu2200i-owners-manual
 related:
   - 09-04-generators
   - 09-14-car-batteries-in-practice
@@ -40,7 +42,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Fuel storage re-cited to CPSC 5123; stale-fuel, stabiliser, drain and 12-month rotation facts to Honda; unsourced 20-30 min run and 'most common cause' removed" }
 ---
 
 # Generator maintenance, storage and fuel rotation
@@ -55,8 +57,10 @@ the first start are on → 09-04.
 > kills in minutes with no warning (→ 30-01). Run it outdoors, 20 feet or more from the house,
 > exhaust pointed away (CPSC, Portable Generator Safety). {{figure fig-generator-siting}}
 > **Fuel is never stored or transferred near an open flame or a running appliance** (vapour ignition,
-> → 30-01). Never refuel it hot or running. Store fuel in approved, closed containers, cool,
-> ventilated, away from ignition and out of children's reach (CPSC, Fuel Container Safety; → 06-06).
+> → 30-01). Never refuel it hot or running. Store fuel outside living areas in properly labelled,
+> non-glass safety containers, not near a fuel-burning appliance (CPSC, Portable Generator Hazards),
+> and out of children's reach (→ 30-01, → 06-06). Fuel vapour that meets a spark or flame can flash
+> back into the can and explode it (CPSC, Fuel Container Safety).
 > **Your engine's manual governs every interval and specification on this page.**
 
 ## Do this now
@@ -76,8 +80,9 @@ the first start are on → 09-04.
 ## Why it works this way
 
 ### The three things that kill generators
-1. **Stale fuel in the carburettor.** Ethanol gasoline absorbs water, separates, and leaves varnish in
-   passages narrower than a pin. **The most common cause of a no-start.**
+1. **Stale fuel in the carburettor.** Ethanol attracts water from the air into the fuel, and fuel in
+   the small carburettor bowl goes stale faster than in the tank; stale fuel causes starting and
+   running problems (Honda, Fuel Recommendations). **A common cause of a no-start.**
 2. **No oil, or oil never changed.** Small engines hold very little oil and forgive nothing.
 3. **Rodents.** Nests in the shroud and air box; chewed wiring. Stored equipment is where mice live.
 
@@ -90,7 +95,7 @@ There are three defensible strategies. **The failure is having none.**
 | Strategy | How | Best for |
 |---|---|---|
 | **Run it dry** | Shut the fuel valve and let the engine stall, so the carburettor empties | Gasoline machines used now and then |
-| **Store it wet, stabilised** | Fill with stabilised, ideally ethanol-free fuel; run it long enough to draw stabilised fuel through the carburettor | Machines that must start instantly |
+| **Store it wet, stabilised** | Fill the tank with fresh, stabilised fuel (a full tank leaves less air); the first time you add stabiliser, run it outdoors about 10 minutes so treated fuel replaces untreated fuel throughout (Honda) | Machines that must start instantly; Honda advises draining the carburettor instead if the generator runs less than once a month, and draining everything for storage over a year |
 | **Never wet it: run on propane** | Dual- and tri-fuel machines | **The strongest option for long storage** |
 
 > **On a multi-fuel generator, running on propane and never putting gasoline in it removes the most
@@ -118,7 +123,7 @@ A thirty-second idle proves almost nothing.
 [ ] LOAD IT: a space heater, kettle, battery charger, power station on charge.
     A generator run with no load does not clear its carburettor or warm properly.
     (A new machine: stay within the manual's break-in limit.)
-[ ] Run 20-30 minutes under that load.
+[ ] Run it under that load until it is fully warm.
 [ ] Listen and look: surging, misfiring, smoke colour, fuel or oil leaks, hot smells.
 [ ] Shut down per the manual. If storing dry, shut the fuel valve and let it stall.
 [ ] Log the date, run hours, and anything you noticed.
@@ -128,8 +133,8 @@ your storage strategy needs.
 
 ### Oil: the ten-second check that saves the machine
 - **Check the level before every run.** Small engines use and lose oil.
-- **Change it on the manual's schedule**, and early on a new machine (break-in). If oil has sat unused
-  for years, **change it anyway**: it absorbs moisture.
+- **Change it on the manual's schedule**, and early on a new machine (break-in; Honda's EU2200i
+  manual puts the first change at 20 hours). If oil has sat unused for years, **change it anyway**.
 - **Use the grade the manual gives for the temperatures you will run in.** Cold starting is a real
   load on thick oil; manuals usually list a lower-viscosity grade for cold weather. Ours: ________ ,
   capacity ________. Keep two changes' worth with the machine and write the grade on the label.
@@ -156,10 +161,12 @@ Stored fuel that is never rotated becomes the thing that ruins the engine you we
 ```
 [ ] LABEL every can with contents and FILL DATE.                       (06-07)
 [ ] Rotate stored gasoline through the VEHICLES on a schedule, and refill
-    the cans with fresh. Vehicles tolerate older fuel far better than small engines.
+    the cans with fresh. (Honda: stabilised fuel that has sat 12 months in a
+    can goes into a car's fairly full tank, per EPA's suggestion.)
 [ ] Buy ethanol-free fuel for small engines if you can get it. It stores better.
 [ ] Use stabiliser per ITS instructions, added when the fuel is FRESH:
-    stabiliser does not repair fuel that has already gone off.
+    stabiliser does not repair fuel that has already gone off, and it has
+    its own shelf life (Honda).
 [ ] Putting old or questionable fuel in the generator is a decision: DC-17.
 [ ] Propane needs no rotation at all. That is the reason to prefer it. (06-05)
 [ ] Record fill dates on 26-08 with everything else that expires.
