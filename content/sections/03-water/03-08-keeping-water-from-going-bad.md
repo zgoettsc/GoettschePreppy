@@ -33,7 +33,7 @@ in it, and how to make bad water usable. It matters most for pools, hot tubs, ra
 ponds, but stored drinking water is covered too.
 
 > **SAFETY.**
-> - Water that has "gone bad" carries **bacteria and parasites that cause diarrhoeal
+> - Water that has "gone bad" carries **bacteria and parasites that cause diarrheal
 >   disease**, which can kill infants and young children, and **breeds mosquitoes** that
 >   spread **West Nile virus** and other illnesses. **Never drink scummy, green or smelly
 >   water untreated.** For drinking, distil it (→ 03-03).
@@ -54,7 +54,7 @@ ponds, but stored drinking water is covered too.
    fresh pool water any other way is a household decision: {{choice DC-13}} (→ 30-14).
 3. **Kill mosquito larvae** in standing water with **Bti "mosquito dunks" or "bits"**. Bti is
    safe for people and pets and kills only larvae. Re-apply about **monthly** (per the label).
-4. **Empty every other container of standing water** in the yard each week: buckets, tyres,
+4. **Empty every other container of standing water** in the yard each week: buckets, tires,
    toys, gutters, plant saucers.
 5. **Replace stored drinking water about every 6 months** (CDC). Keep it cool, dark and
    sealed (→ 03-02).
@@ -62,7 +62,7 @@ ponds, but stored drinking water is covered too.
 ## If your pool has an automatic (electric) safety cover
 
 **If the cover cannot be worked without power, the pool is not a water source.** Find the
-manual override in the cover's manual now, while the power is on, and practise it.
+manual override in the cover's manual now, while the power is on, and practice it.
 
 - **Many covers open with a hand tool (often a ratchet on the drive shaft) but close only by
   pulling, which can take two strong people.** The rule most cover makers print: **confirm you
@@ -105,7 +105,7 @@ your guide.
   other pool chemicals.** Store it as described on → 03-04.
 - **Sodium hypochlorite** (liquid pool chlorine, or plain unscented bleach at 5 to 9 percent):
   easy to measure, but **weakens within months** and is mostly water, so heavy to store.
-- **Dichlor granules:** contain stabiliser (cyanuric acid), dissolve cleanly, store well.
+- **Dichlor granules:** contain stabilizer (cyanuric acid), dissolve cleanly, store well.
 - **Trichlor tablets:** release slowly, store very well, acidic, need a floating feeder.
   **Never store trichlor with calcium hypochlorite, or use a scoop that touched one for the
   other.** The two react to make chlorine gas or fire. Keep them on different walls.
@@ -144,7 +144,7 @@ it is worth it.
   clear it first.
 - **For utility use** (flushing, firefighting, laundry): use it as it is.
 - **"Utility" stops where mouths begin.** Dishes, hands before cooking, food surfaces, teeth
-  brushing and washing a child's face all get **treated** water, or a sanitising final rinse
+  brushing and washing a child's face all get **treated** water, or a sanitizing final rinse
   (→ 13-10). Stale raw water on an eating surface ends up swallowed.
 - **"Utility" stops at broken skin.** Untreated pool or pond water (and salty water from a
   saltwater pool) on an open cut, a cracked winter hand or a scraped knee is an infection
@@ -183,7 +183,7 @@ it is worth it.
 - **Resupply:** pool shops, hardware stores and pool sheds are where chlorine and dunks are
   found. Bleach is everywhere but weak and does not keep. Long term, **prevention beats
   treatment**: keep water covered and shaded.
-- **Disease is the real cost of failure.** A mosquito-borne illness or a diarrhoea outbreak
+- **Disease is the real cost of failure.** A mosquito-borne illness or a diarrhea outbreak
   with no clinic is a catastrophe, not an inconvenience.
 
 ## Phase notes

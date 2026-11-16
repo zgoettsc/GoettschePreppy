@@ -28,11 +28,11 @@ review_pass: null
 # Siting a latrine away from water
 
 **What this page is for.** Where to put a pit toilet (latrine) so it does not poison the water,
-how to build one, and how to deal with waste while travelling.
+how to build one, and how to deal with waste while traveling.
 
 > **SAFETY. This is a decision you make once and cannot undo.** A latrine placed too close to,
 > or uphill of, a water source contaminates that water, possibly for years, and possibly your
-> neighbours' water too. **Groundwater contamination cannot be seen, and by the time people are
+> neighbors' water too. **Groundwater contamination cannot be seen, and by the time people are
 > sick the damage is done.**
 >
 > **Get it right on the first day at any new site.** It is one of the most important decisions
@@ -52,8 +52,8 @@ how to build one, and how to deal with waste while travelling.
    water, wood and access. **A site with nowhere safe to put waste is a worse site than it
    looks.**
 3. **In town, a pit latrine is usually not possible** on a house lot: the distances cannot be
-   met and neighbours are close. **Bucket and bag** (→ 13-01) is the answer at home in town.
-4. **Learn the rules of thumb below** so you can apply them fast while travelling or at a new
+   met and neighbors are close. **Bucket and bag** (→ 13-01) is the answer at home in town.
+4. **Learn the rules of thumb below** so you can apply them fast while traveling or at a new
    site.
 5. **If you will need a pit in winter, dig it in autumn.** Frozen ground cannot be dug
    (→ 13-05).
@@ -79,7 +79,7 @@ soil, and it moves downhill. Everything else is detail on that one rule.
 | The house or living space | 50 ft or more | Far enough for smell and flies, close enough to actually use in winter |
 | The edible garden | Well apart | And downhill |
 | Food storage, kitchen | Well apart | |
-| Property line, neighbours | As far as possible | Their water matters too |
+| Property line, neighbors | As far as possible | Their water matters too |
 | **The groundwater (water table)** | **At least 5 ft (1.5 m) of dry soil under the bottom of the pit.** Dig a test hole and wait a day to see if water seeps in | **The one people miss** |
 
 **The water table matters most.** A pit dug into or near groundwater empties straight into the
@@ -128,14 +128,14 @@ store, → 13-01).
    mark it, and **do not plant food crops there.** Dig the next one somewhere else.
 8. **Keep a record of where old pits are** (→ 25-04).
 
-## Waste while travelling
+## Waste while traveling
 
 - **200 feet (about 70 paces) from any water, camp or trail.**
 - **A "cathole" 6 to 8 inches deep** in the dark top layer of soil, filled in and covered.
 - **Pack out toilet paper**, or bury it deep with the waste; **never leave it on the surface.**
 - **Never near a water source anyone might drink from** (→ 03-04).
 - **In frozen ground you often cannot dig:** pack it out. Carry bags for exactly this.
-- **Wash hands:** carry sanitiser for when there is no water (→ 13-02).
+- **Wash hands:** carry sanitizer for when there is no water (→ 13-02).
 
 The 100-foot pit distance and the 200-foot cathole distance do not conflict: a shallow,
 unlined scrape on the move gets more distance.
@@ -149,7 +149,7 @@ unlined scrape on the move gets more distance.
 - **No lid, no cover material:** flies, smell and disease.
 - **No handwashing station**, which cancels most of the benefit.
 - **Digging where you will later want a well or a garden.**
-- **Ignoring the neighbours' water.** In a community, sanitation is a shared problem (→ 18-01):
+- **Ignoring the neighbors' water.** In a community, sanitation is a shared problem (→ 18-01):
   one bad latrine uphill affects everyone.
 
 ## Gear and supplies
@@ -164,7 +164,7 @@ unlined scrape on the move gets more distance.
 | Screen or netting for the shelter | Flies spread disease | |
 | A shovel kept only for the latrine | Touches nothing else | Label it |
 | Marker stakes, a record of old pits | So nobody digs or plants there later | → 25-04 |
-| Trowel and bags for travelling | Catholes, or packing out when frozen | → 22-03 |
+| Trowel and bags for traveling | Catholes, or packing out when frozen | → 22-03 |
 | A site map with distances marked | Get the decision right once | → 25-04 |
 
 **If you don't have it:**
@@ -191,7 +191,7 @@ unlined scrape on the move gets more distance.
   works.
 - **What never runs out is the siting rule:** downhill, far from water, above the water table,
   out of the drainage path, with a lid and a handwashing station.
-- **The community side matters over time** (→ 18-01). If neighbours are also improvising, **where
+- **The community side matters over time** (→ 18-01). If neighbors are also improvising, **where
   they put waste affects your water.** Agreeing where waste goes is one of the most useful early
   conversations in a group, and one of the least contentious, because everyone benefits.
 

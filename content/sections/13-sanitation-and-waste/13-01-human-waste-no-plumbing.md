@@ -33,11 +33,11 @@ broken, how to build and run a bucket toilet, and where the waste goes. Getting 
 one of the highest-value things in this binder, and it costs almost nothing.
 
 > **SAFETY.** **Sanitation failure is one of the classic ways a survivable situation becomes a
-> deadly one.** In long disasters, diarrhoeal disease is often the leading cause of death
+> deadly one.** In long disasters, diarrheal disease is often the leading cause of death
 > *after* the event itself (WHO, Sanitation). **Human waste that gets into land or water
 > spreads disease to everyone downstream** (CDC, About Global Sanitation).
 >
-> Diarrhoea dehydrates infants and young children dangerously fast (→ 12-05), and it is a
+> Diarrhea dehydrates infants and young children dangerously fast (→ 12-05), and it is a
 > serious sick-day event for anyone with diabetes{{#if has.condition.CL-01}} (→ 02-01){{/if}}.
 >
 > **Always: gloves for handling waste, hands washed with soap and water straight after, and
@@ -157,10 +157,10 @@ Write these into the consumables table now, in the sanitation rows (→ 23-02).
 3. **Into a lidded, animal-proof storage container**, outdoors, away from living space, water
    storage and food. In winter, the cold side of the house: **frozen waste is inert and does
    not smell.**
-4. **When rubbish collection and sewers are gone for good:** bury it by the distances on
+4. **When trash collection and sewers are gone for good:** bury it by the distances on
    → 13-07 (at least 100 feet from any well or surface water, downhill, with at least 5 feet of
    dry soil under the bottom of the pit), or add it to a running compost or latrine system
-   (→ 13-06). The 200-foot figure on → 13-07 is for shallow catholes while travelling, not for
+   (→ 13-06). The 200-foot figure on → 13-07 is for shallow catholes while traveling, not for
    pits; the two do not conflict.
 5. **Wash hands with soap. Every time.**
 
@@ -171,7 +171,7 @@ Write these into the consumables table now, in the sanitation rows (→ 23-02).
 This is the part people skip, and the part that matters.
 
 {{#if is.urban}}**In a town or city this is genuinely difficult.** A town lot has no room for a
-latrine at safe distances from neighbours and water (→ 13-07), neighbours close on all sides,
+latrine at safe distances from neighbors and water (→ 13-07), neighbors close on all sides,
 local rules about waste, and sometimes a high water table or a river nearby.{{else}}**Even on
 a rural property,** check the distances to wells, streams and the house before choosing a spot
 (→ 13-07).{{/if}}
@@ -274,7 +274,7 @@ where a month's worth goes before you are a month in.**
   bucket toilet indoors, urine separated, waste bagged and stored in a sealed container in a
   cold spot. Plan the disposal path before storage fills.
 - **B (moving):** bury waste properly and away from water (→ 13-07), pack out what you must,
-  and **carry soap and hand sanitiser**. Hygiene slips exactly when illness would be most
+  and **carry soap and hand sanitizer**. Hygiene slips exactly when illness would be most
   dangerous (→ 12-05).
 - **C (rural or at a destination):** finally solvable properly. **Place the latrine or compost
   system correctly on the first day** (→ 13-07): well away from and downhill of any water

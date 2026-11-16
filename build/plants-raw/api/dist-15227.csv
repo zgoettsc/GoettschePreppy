@@ -1,0 +1,110 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+JUOS,United States,Arizona,04,,
+JUOS,United States,Arizona,04,Apache,001
+JUOS,United States,Arizona,04,Coconino,005
+JUOS,United States,Arizona,04,Gila,007
+JUOS,United States,Arizona,04,Graham,009
+JUOS,United States,Arizona,04,Greenlee,011
+JUOS,United States,Arizona,04,Maricopa,013
+JUOS,United States,Arizona,04,Mohave,015
+JUOS,United States,Arizona,04,Navajo,017
+JUOS,United States,Arizona,04,Yavapai,025
+JUOS,United States,California,06,,
+JUOS,United States,California,06,Alpine,003
+JUOS,United States,California,06,Inyo,027
+JUOS,United States,California,06,Lassen,035
+JUOS,United States,California,06,Modoc,049
+JUOS,United States,California,06,Mono,051
+JUOS,United States,California,06,Plumas,063
+JUOS,United States,California,06,Riverside,065
+JUOS,United States,California,06,San Bernardino,071
+JUOS,United States,Colorado,08,,
+JUOS,United States,Colorado,08,Archuleta,007
+JUOS,United States,Colorado,08,Delta,029
+JUOS,United States,Colorado,08,Eagle,037
+JUOS,United States,Colorado,08,Garfield,045
+JUOS,United States,Colorado,08,Grand,049
+JUOS,United States,Colorado,08,La Plata,067
+JUOS,United States,Colorado,08,Mesa,077
+JUOS,United States,Colorado,08,Moffat,081
+JUOS,United States,Colorado,08,Montezuma,083
+JUOS,United States,Colorado,08,Montrose,085
+JUOS,United States,Colorado,08,Rio Blanco,103
+JUOS,United States,Colorado,08,San Miguel,113
+JUOS,United States,Idaho,16,,
+JUOS,United States,Idaho,16,Bannock,005
+JUOS,United States,Idaho,16,Bingham,011
+JUOS,United States,Idaho,16,Bonneville,019
+JUOS,United States,Idaho,16,Butte,023
+JUOS,United States,Idaho,16,Cassia,031
+JUOS,United States,Idaho,16,Elmore,039
+JUOS,United States,Idaho,16,Franklin,041
+JUOS,United States,Idaho,16,Jefferson,051
+JUOS,United States,Idaho,16,Oneida,071
+JUOS,United States,Idaho,16,Power,077
+JUOS,United States,Montana,30,,
+JUOS,United States,Nevada,32,,
+JUOS,United States,Nevada,32,Carson City,510
+JUOS,United States,Nevada,32,Churchill,001
+JUOS,United States,Nevada,32,Clark,003
+JUOS,United States,Nevada,32,Douglas,005
+JUOS,United States,Nevada,32,Elko,007
+JUOS,United States,Nevada,32,Esmeralda,009
+JUOS,United States,Nevada,32,Eureka,011
+JUOS,United States,Nevada,32,Humboldt,013
+JUOS,United States,Nevada,32,Lander,015
+JUOS,United States,Nevada,32,Lincoln,017
+JUOS,United States,Nevada,32,Lyon,019
+JUOS,United States,Nevada,32,Mineral,021
+JUOS,United States,Nevada,32,Nye,023
+JUOS,United States,Nevada,32,Pershing,027
+JUOS,United States,Nevada,32,Storey,029
+JUOS,United States,Nevada,32,Washoe,031
+JUOS,United States,Nevada,32,White Pine,033
+JUOS,United States,New Mexico,35,,
+JUOS,United States,New Mexico,35,Catron,003
+JUOS,United States,New Mexico,35,McKinley,031
+JUOS,United States,New Mexico,35,Rio Arriba,039
+JUOS,United States,New Mexico,35,Roosevelt,041
+JUOS,United States,New Mexico,35,San Juan,045
+JUOS,United States,New Mexico,35,Sandoval,043
+JUOS,United States,Utah,49,,
+JUOS,United States,Utah,49,Beaver,001
+JUOS,United States,Utah,49,Box Elder,003
+JUOS,United States,Utah,49,Cache,005
+JUOS,United States,Utah,49,Carbon,007
+JUOS,United States,Utah,49,Daggett,009
+JUOS,United States,Utah,49,Davis,011
+JUOS,United States,Utah,49,Duchesne,013
+JUOS,United States,Utah,49,Emery,015
+JUOS,United States,Utah,49,Garfield,017
+JUOS,United States,Utah,49,Grand,019
+JUOS,United States,Utah,49,Iron,021
+JUOS,United States,Utah,49,Juab,023
+JUOS,United States,Utah,49,Kane,025
+JUOS,United States,Utah,49,Millard,027
+JUOS,United States,Utah,49,Morgan,029
+JUOS,United States,Utah,49,Piute,031
+JUOS,United States,Utah,49,Rich,033
+JUOS,United States,Utah,49,Salt Lake,035
+JUOS,United States,Utah,49,San Juan,037
+JUOS,United States,Utah,49,Sanpete,039
+JUOS,United States,Utah,49,Sevier,041
+JUOS,United States,Utah,49,Summit,043
+JUOS,United States,Utah,49,Tooele,045
+JUOS,United States,Utah,49,Uintah,047
+JUOS,United States,Utah,49,Utah,049
+JUOS,United States,Utah,49,Wasatch,051
+JUOS,United States,Utah,49,Washington,053
+JUOS,United States,Utah,49,Wayne,055
+JUOS,United States,Utah,49,Weber,057
+JUOS,United States,Wyoming,56,,
+JUOS,United States,Wyoming,56,Big Horn,003
+JUOS,United States,Wyoming,56,Carbon,007
+JUOS,United States,Wyoming,56,Fremont,013
+JUOS,United States,Wyoming,56,Hot Springs,017
+JUOS,United States,Wyoming,56,Natrona,025
+JUOS,United States,Wyoming,56,Sweetwater,037
+JUOS,United States,Wyoming,56,Uinta,041
+JUOS,United States,Wyoming,56,Washakie,043

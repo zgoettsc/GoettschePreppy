@@ -15,7 +15,7 @@ cards: []
 explainers: [EX-05]
 promote_when: [has.anaphylaxis]
 photo_slots:
-  - { id: dish-tubs, caption: "Our three dish tubs, labelled, and the separate allergy-safe set" }
+  - { id: dish-tubs, caption: "Our three dish tubs, labeled, and the separate allergy-safe set" }
 figures: [fig-three-tub-dishwashing]
 plates: []
 condition: null
@@ -33,10 +33,10 @@ without a fridge, and keeping allergy-safe food safe.
 > **SAFETY. Two separate reasons this matters.**
 >
 > 1. **Food poisoning.** A kitchen with no fridge, no hot running water and food cooked over a
->    fire is a kitchen where germs spread easily. Diarrhoeal illness is the most likely serious
+>    fire is a kitchen where germs spread easily. Diarrheal illness is the most likely serious
 >    health problem without services (→ 12-05). It dehydrates babies fast and is dangerous for
 >    anyone with diabetes.
-> 2. **Allergen cross-contact.** **Sanitiser does not remove allergen proteins. Only washing
+> 2. **Allergen cross-contact.** **Sanitizer does not remove allergen proteins. Only washing
 >    with soap and water does** (US FDA, Food Allergies). A plate that was rinsed but not
 >    washed, or an allergic person's plate washed in a tub that just held egg, is a real risk.
 >    {{#if has.anaphylaxis}}**Someone in your household has a severe allergy.** The food-allergy
@@ -49,8 +49,8 @@ without a fridge, and keeping allergy-safe food safe.
 ## Do this now
 
 1. **Set up the three-tub system** (below).{{#if has.condition.CL-04}} Add **a separate,
-   clearly marked set of tubs and cloths for the allergic person's dishes**, labelled
-   permanently with a different colour, tape or paint.{{/if}}
+   clearly marked set of tubs and cloths for the allergic person's dishes**, labeled
+   permanently with a different color, tape or paint.{{/if}}
 2. {{#if has.condition.CL-04}}**Keep cookware, utensils and a cutting board only for the
    allergic person**, stored separately.{{else}}**If anyone you feed has a food allergy, keep
    cookware, utensils and a cutting board only for them**, stored separately.{{/if}}
@@ -71,13 +71,13 @@ How commercial kitchens and campsites do it, with very little water.
 2. **Tub 1: WASH.** Hot water and soap. Wash from cleanest to dirtiest (glasses, then plates,
    then pots) so the water lasts.
 3. **Tub 2: RINSE.** Clean warm water, to remove the soap.
-4. **Tub 3: SANITISE. 1 tablespoon of unscented 5 to 9 percent household bleach per 1 gallon
+4. **Tub 3: SANITIZE. 1 tablespoon of unscented 5 to 9 percent household bleach per 1 gallon
    of clean water; dishes fully under the water for at least 1 minute; then air dry** (CDC,
    Cleaning and Sanitizing with Bleach After an Emergency). The hot-water alternative is
    **water at 180 °F or hotter for 30 seconds**: on a fire that is a pot too hot to put your
-   hand near, so use tongs. **Clean first, then sanitise: sanitising a dirty surface does not
+   hand near, so use tongs. **Clean first, then sanitize: sanitizing a dirty surface does not
    work** (CDC). **This tub is NOT drinkable.** Label it, mix it fresh daily, and keep children
-   away from it. It is a weak sanitising solution, not the much stronger disinfecting mixes in
+   away from it. It is a weak sanitizing solution, not the much stronger disinfecting mixes in
    the table on → 13-11.
 5. **Air dry on a rack.** **Do not towel dry:** a damp towel used all day spreads germs to
    everything it touches. Air drying is cleaner and needs no towels.
@@ -97,7 +97,7 @@ feed has a food allergy.{{/if}}
 - **Wash the allergic person's dishes FIRST**, in clean water, before anything else touches the
   tubs.
 - **Soap and water, scrubbed by hand.** This is what removes allergen protein. **Rinsing is not
-  enough. Sanitiser is not enough** (FDA).
+  enough. Sanitizer is not enough** (FDA).
 - **Their own cookware, cutting board and utensils**, stored separately.
 - **Wash hands with a clean towel before preparing their food** (→ 13-02).
 - **Shared cooking surfaces are washed with soap and water before their food touches them:** a
@@ -105,7 +105,7 @@ feed has a food allergy.{{/if}}
 - **This holds when water is short.** If there is not enough water to do it properly, there is
   not enough water to feed them from shared equipment: **use their own gear and simple safe
   foods** instead of bending the rule.
-- Feeding an allergic person traded, scavenged or unlabelled food is a separate decision:
+- Feeding an allergic person traded, scavenged or unlabeled food is a separate decision:
   your household's choice {{choice DC-18}} (→ 30-19).
 
 ## Food safety without a fridge
@@ -123,9 +123,9 @@ feed has a food allergy.{{/if}}
 
 ## Kitchen surfaces and cloths
 
-- **Clean first with soap and water; sanitise after** (CDC). Cleaning removes dirt and germs;
-  sanitising reduces what is left. Doing only the second does not work.
-- **Sanitise food-contact surfaces after raw meat** with the Tub 3 solution (1 tablespoon per
+- **Clean first with soap and water; sanitize after** (CDC). Cleaning removes dirt and germs;
+  sanitizing reduces what is left. Doing only the second does not work.
+- **Sanitize food-contact surfaces after raw meat** with the Tub 3 solution (1 tablespoon per
   gallon, 1 minute, air dry). **To disinfect after illness, use the surface-bleach table on
   → 13-11, then rinse food-contact surfaces with clean water** before food touches them.
 - **Dishcloths and sponges are the dirtiest things in most kitchens.** Wash and dry them daily,
@@ -141,7 +141,7 @@ feed has a food allergy.{{/if}}
 | Water available | Approach |
 |---|---|
 | Normal | Three-tub system; reuse the greywater |
-| Short | **Scrape harder**, wash fewer dishes (one plate per person, reused), heat less water, sanitise only what needs it |
+| Short | **Scrape harder**, wash fewer dishes (one plate per person, reused), heat less water, sanitize only what needs it |
 | Very short | **Personal dishes:** each person has one plate, cup and set of utensils, wiped and reused; wash properly less often. **Allergy-safe dishes still get washed properly, always** |
 | None | Eat from foil, leaves or clean hands; **cook one-pot meals** to cut dishes; **put handwashing before dishwashing** (→ 13-02) |
 
@@ -159,15 +159,15 @@ but **it does need soap and scrubbing before it touches allergy-safe food.**
 
 | Item | Why | Notes |
 |---|---|---|
-| **Three wash tubs (wash, rinse, sanitise)** | The standard low-water system | Labelled, kept for dishes |
-| **A separate, clearly marked tub set for allergy-safe dishes** (if needed) | Allergen control is not optional | Different colour; never swapped |
+| **Three wash tubs (wash, rinse, sanitize)** | The standard low-water system | Labeled, kept for dishes |
+| **A separate, clearly marked tub set for allergy-safe dishes** (if needed) | Allergen control is not optional | Different color; never swapped |
 | **Separate cookware, board and utensils for the allergic person** (if needed) | → 02-04 | Stored apart |
 | **Food thermometers, two** | The main control with no fridge | FoodSafety.gov |
 | Dish soap in bulk | Used heavily | Plus → 13-09 |
-| Unscented bleach, 5 to 9 percent | Sanitising: **1 tablespoon per gallon, at least 1 minute** (CDC); disinfecting by the → 13-11 table | Weakens over time; rotate (→ 29-05) |
+| Unscented bleach, 5 to 9 percent | Sanitizing: **1 tablespoon per gallon, at least 1 minute** (CDC); disinfecting by the → 13-11 table | Weakens over time; rotate (→ 29-05) |
 | Dish rack or drying rack | **Air dry, don't towel dry** | Cleaner, saves towels |
 | Several dishcloths and brushes | Rotate and dry daily | Boil now and then |
-| Separate cutting boards (raw meat, produce, allergy-safe) | Stops germs and allergens crossing | Colour-coded |
+| Separate cutting boards (raw meat, produce, allergy-safe) | Stops germs and allergens crossing | Color-coded |
 | Scrapers, spatulas | Scraping saves the water | |
 | A large pot for heating wash water | On a fire already running | → 07-01 |
 | Measuring spoons for bleach | Strength matters | 1 tablespoon per gallon for dishes; → 13-11 for surfaces |
@@ -175,7 +175,7 @@ but **it does need soap and scrubbing before it touches allergy-safe food.**
 **If you don't have it:**
 
 - **Tubs:** buckets, totes, pots, a sink basin. **Keep the sets separate and marked.**
-- **Sanitising:** very hot water (180 °F or more, 30 seconds) sanitises; boiling settles it.
+- **Sanitizing:** very hot water (180 °F or more, 30 seconds) sanitizes; boiling settles it.
 - **Soap:** home-made (→ 13-09), or any soap. Plain soap is better than detergent for greywater
   you reuse (→ 13-03).
 - **Scrubbers:** a cloth, a wad of grass, sand and a rag, a pine cone, steel wool, wood ash as a
@@ -187,7 +187,7 @@ but **it does need soap and scrubbing before it touches allergy-safe food.**
 ## When it runs out
 
 - **Dish soap and bleach are the consumables.** Soap can be made (→ 13-09); **bleach cannot,
-  and it weakens in storage.** Rotate it; **hot water and boiling replace sanitiser** when it is
+  and it weakens in storage.** Rotate it; **hot water and boiling replace sanitizer** when it is
   gone.
 - **Water is the real limit** (→ 03-01). Put dishwashing in the water budget: it is a daily
   line and easy to forget.

@@ -136,12 +136,17 @@ export function createRelay({ base = '/api/v1', accessKey, fetch: fetchImpl = gl
       return res.json();
     },
 
-    async messages(request, { onText, signal } = {}) {
+    // fallback: a model id (e.g. 'claude-opus-4-8') to re-run a refused request on, server-side.
+    // Off by default: decision G19 says Opus 5.5 throughout; turning it on is the owner's call.
+    async messages(request, { onText, signal, fallback } = {}) {
       const body = { ...request, model: MODEL, stream: true };
+      const extra = {};
+      if (fallback) { body.fallbacks = [{ model: fallback }]; extra.betas = ['server-side-fallback-2026-07-01']; }
+      for (const k of ['temperature', 'top_p', 'top_k']) delete body[k]; // 400 on API version 2026-10-21
       let attempt = 0;
       for (;;) {
         try {
-          const res = await post('/messages', { access_key: accessKey, request: body }, signal);
+          const res = await post('/messages', { access_key: accessKey, request: body, ...extra }, signal);
           if (!res.ok) throw await errorFrom(res);
           const acc = createMessageAccumulator({ onText });
           const sse = createSSEParser((ev, data) => acc.event(ev, data));

@@ -36,14 +36,14 @@ the cleanup, and the bleach strengths to use.
 > water, tend the fire and care for the sick at the moment care is most needed.
 >
 > **For some people a routine stomach bug is not routine:** babies and young children dehydrate
-> dangerously fast (→ 12-05), and vomiting and diarrhoea are a dangerous sick day for anyone with
+> dangerously fast (→ 12-05), and vomiting and diarrhea are a dangerous sick day for anyone with
 > type 1 diabetes{{#if has.condition.CL-01}} (→ 02-01){{/if}}.
 >
 > **The structural problem: you may be living in one heated room** (→ 08-01). That is right for
 > heat, fuel and morale, and **the worst possible arrangement for containing an illness.** This
 > page manages that tension on purpose.
 >
-> **Norovirus:** alcohol hand sanitiser is **not** good enough against it (CDC, Preventing
+> **Norovirus:** alcohol hand sanitizer is **not** good enough against it (CDC, Preventing
 > Norovirus). **Soap and water.**
 >
 > **Floor:** bleach is never mixed with ammonia, acids or other cleaners. The mix gives off a
@@ -65,7 +65,7 @@ the cleanup, and the bleach strengths to use.
 
 | Route | What spreads | The control |
 |---|---|---|
-| **Faecal-oral** (from stool to mouth) | Norovirus, diarrhoeal illness, hepatitis A | **Handwashing with soap** (→ 13-02), waste handling (→ 13-01), dishwashing (→ 13-10) |
+| **Fecal-oral** (from stool to mouth) | Norovirus, diarrheal illness, hepatitis A | **Handwashing with soap** (→ 13-02), waste handling (→ 13-01), dishwashing (→ 13-10) |
 | **Coughs, sneezes, breath** | Colds, flu, most chest illness | Distance, fresh air, covering coughs, separation |
 | **Surfaces** | Norovirus survives a long time on surfaces | Clean, **then** disinfect (CDC) |
 | **Food and water** | Food poisoning, waterborne illness | → 04-17, → 03-04, → 13-10 |
@@ -92,7 +92,7 @@ You cannot fully isolate someone in a household living in one heated room. What 
 
 ## The sick kit
 
-Put this together in advance, in one labelled container:
+Put this together in advance, in one labeled container:
 
 - **A bucket with a lid kept only for vomiting and waste** (→ 13-01), kept with the sick person
   and emptied carefully with gloves.
@@ -132,11 +132,11 @@ percent, or the product is splash-less, scented or a gel, do not use it for disi
 - **NEVER mix bleach with ammonia or any other cleaner.** The fumes can kill. Open windows while
   using it indoors.
 - **Food-contact surfaces and dishes:** after the contact time, **rinse with clean, safe water**
-  before food touches them. The dish-sanitising tub on → 13-10 uses a much weaker solution, not
+  before food touches them. The dish-sanitizing tub on → 13-10 uses a much weaker solution, not
   this table.
 - **Wear gloves; keep it off skin and out of children's reach** (→ 20-02).
 
-## Cleaning up vomit and diarrhoea: the riskiest moment
+## Cleaning up vomit and diarrhea: the riskiest moment
 
 Norovirus spreads very easily during cleanup (CDC).
 
@@ -146,7 +146,7 @@ Norovirus spreads very easily during cleanup (CDC).
   tablespoons per gallon, at least 5 minutes wet. **Cleaning first is required.**
 - **Handle soiled laundry carefully:** gloves, as little shaking as possible (shaking throws
   germs into the air), wash hot and separately, dry completely (→ 13-04; CDC).
-- **Wash your hands with soap and water afterwards**, **not sanitiser alone** (CDC).
+- **Wash your hands with soap and water afterwards**, **not sanitizer alone** (CDC).
 - **Air the room** afterwards.
 
 ## Watching the whole household
@@ -175,7 +175,7 @@ This page's controls come after the ones that stop an outbreak starting:
 4. **Food safety:** cooking to temperature, raw and cooked kept apart (→ 13-10, → 04-17).
 5. **Proper dishwashing** (→ 13-10).
 6. **Personal items, not shared.**
-7. **Managing outside contact.** Anyone who comes in (a neighbour, a trader, → 18-02) can bring
+7. **Managing outside contact.** Anyone who comes in (a neighbor, a trader, → 18-02) can bring
    illness. **Handwashing on arrival is a reasonable, friendly household rule.** Start it early.
 8. **Keeping everyone fed, warm and rested.** A cold, hungry, exhausted household gets sicker and
    stays sicker (→ 08-01, → 21-07).
@@ -191,7 +191,7 @@ It happens. Plan for it:
   going. **Have enough wood indoors that nobody has to go out** for several days (→ 06-04).
 - **Medical routines do not pause.** Insulin and other daily medicines continue through illness,
   and matter **more**, not less.
-- **Neighbours** (→ 18-01). A household on good terms with its neighbours has somewhere to turn
+- **Neighbors** (→ 18-01). A household on good terms with its neighbors has somewhere to turn
   when everyone is ill at once.
 
 ## Gear and supplies
@@ -223,7 +223,7 @@ It happens. Plan for it:
   while.
 - **Personal items:** mark existing cups and plates with tape and marker.
 - **Masks:** cloth is partial protection; better than nothing.
-- **What not to substitute:** **alcohol sanitiser for handwashing during a norovirus outbreak**
+- **What not to substitute:** **alcohol sanitizer for handwashing during a norovirus outbreak**
   (CDC). Soap and water.
 
 ## When it runs out
@@ -231,12 +231,12 @@ It happens. Plan for it:
 - **Bleach is the consumable you cannot make**, and it weakens in storage. Rotate it; **boiling
   and thorough soap-and-water cleaning** replace most of what it does.
 - **Soap can be made** (→ 13-09), and matters more anyway.
-- **ORS is the stock that matters most** in a real outbreak (→ 12-05): count it in litres and in
+- **ORS is the stock that matters most** in a real outbreak (→ 12-05): count it in liters and in
   days of a sick child.
 - **Water use jumps in an outbreak:** sick people drink more, and laundry, cleaning and washing all
   increase, while the people who haul water are ill. **That is a specific reason to store more
   water than the daily maths suggests** (→ 03-02, → 23-02).
-- **When supplies run out, behaviour substitutes:** thorough handwashing, personal items,
+- **When supplies run out, behavior substitutes:** thorough handwashing, personal items,
   separation, fresh air and careful cleanup need almost no supplies. **When the disinfectant runs
   out, be more careful, not less.**
 - **The big point:** an outbreak is one of the few household emergencies that is **almost entirely
@@ -250,7 +250,7 @@ It happens. Plan for it:
   personal-item rule, decide the sick-corner plan, and **be willing to burn extra wood to heat a
   second room during an illness.**
 - **B (moving):** hygiene slips and everyone is exhausted, which is exactly when illness spreads.
-  **Hand sanitiser and soap for each person**, strict discipline before eating and after any waste
+  **Hand sanitizer and soap for each person**, strict discipline before eating and after any waste
   handling, and treat all water (→ 03-04). **An outbreak while moving is a reason to stop and
   shelter** (→ 01-02).
 - **C (rural or at a destination):** more room to isolate properly. But further from any care

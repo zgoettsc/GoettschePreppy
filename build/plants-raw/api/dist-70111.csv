@@ -1,0 +1,646 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+CADE12,United States,Alabama,01,,
+CADE12,United States,Alabama,01,Bibb,007
+CADE12,United States,Alabama,01,Calhoun,015
+CADE12,United States,Alabama,01,Choctaw,023
+CADE12,United States,Alabama,01,Clay,027
+CADE12,United States,Alabama,01,Cleburne,029
+CADE12,United States,Alabama,01,Coosa,037
+CADE12,United States,Alabama,01,Cullman,043
+CADE12,United States,Alabama,01,Franklin,059
+CADE12,United States,Alabama,01,Jefferson,073
+CADE12,United States,Alabama,01,Lauderdale,077
+CADE12,United States,Alabama,01,Lawrence,079
+CADE12,United States,Alabama,01,Marshall,095
+CADE12,United States,Alabama,01,Perry,105
+CADE12,United States,Alabama,01,St. Clair,115
+CADE12,United States,Alabama,01,Winston,133
+CADE12,Canada,Ontario,08,,
+CADE12,United States,Connecticut,09,,
+CADE12,United States,Delaware,10,,
+CADE12,United States,Delaware,10,Kent,001
+CADE12,United States,Delaware,10,New Castle,003
+CADE12,United States,Delaware,10,Sussex,005
+CADE12,United States,District of Columbia,11,,
+CADE12,United States,District of Columbia,11,District of Columbia,001
+CADE12,United States,Florida,12,,
+CADE12,United States,Florida,12,Escambia,033
+CADE12,United States,Florida,12,Okaloosa,091
+CADE12,United States,Georgia,13,,
+CADE12,United States,Georgia,13,Bartow,015
+CADE12,United States,Georgia,13,Clarke,059
+CADE12,United States,Georgia,13,Clay,061
+CADE12,United States,Georgia,13,Dade,083
+CADE12,United States,Georgia,13,Forsyth,117
+CADE12,United States,Georgia,13,Gilmer,123
+CADE12,United States,Georgia,13,Gwinnett,135
+CADE12,United States,Georgia,13,Hall,139
+CADE12,United States,Georgia,13,Jackson,157
+CADE12,United States,Georgia,13,Lincoln,181
+CADE12,United States,Georgia,13,Meriwether,199
+CADE12,United States,Georgia,13,Morgan,211
+CADE12,United States,Georgia,13,Murray,213
+CADE12,United States,Georgia,13,Newton,217
+CADE12,United States,Georgia,13,Pike,231
+CADE12,United States,Georgia,13,Rabun,241
+CADE12,United States,Georgia,13,Randolph,243
+CADE12,United States,Georgia,13,Spalding,255
+CADE12,United States,Georgia,13,Stephens,257
+CADE12,United States,Georgia,13,Taliaferro,265
+CADE12,United States,Georgia,13,Towns,281
+CADE12,United States,Georgia,13,Union,291
+CADE12,United States,Georgia,13,Upson,293
+CADE12,United States,Georgia,13,Walton,297
+CADE12,United States,Illinois,17,,
+CADE12,United States,Illinois,17,Cumberland,035
+CADE12,United States,Illinois,17,Hancock,067
+CADE12,United States,Illinois,17,Jo Daviess,085
+CADE12,United States,Illinois,17,Massac,127
+CADE12,United States,Illinois,17,Pulaski,153
+CADE12,United States,Illinois,17,St. Clair,163
+CADE12,United States,Illinois,17,Wabash,185
+CADE12,United States,Illinois,17,Williamson,199
+CADE12,United States,Indiana,18,,
+CADE12,United States,Indiana,18,Clark,019
+CADE12,United States,Indiana,18,Crawford,025
+CADE12,United States,Indiana,18,Floyd,043
+CADE12,United States,Indiana,18,Harrison,061
+CADE12,United States,Indiana,18,Jackson,071
+CADE12,United States,Indiana,18,Jefferson,077
+CADE12,United States,Indiana,18,Lawrence,093
+CADE12,United States,Indiana,18,Martin,101
+CADE12,United States,Indiana,18,Monroe,105
+CADE12,United States,Indiana,18,Morgan,109
+CADE12,United States,Indiana,18,Orange,117
+CADE12,United States,Indiana,18,Putnam,133
+CADE12,United States,Indiana,18,Ripley,137
+CADE12,United States,Indiana,18,Washington,175
+CADE12,United States,Iowa,19,,
+CADE12,United States,Kentucky,21,,
+CADE12,United States,Kentucky,21,Adair,001
+CADE12,United States,Kentucky,21,Allen,003
+CADE12,United States,Kentucky,21,Barren,009
+CADE12,United States,Kentucky,21,Bath,011
+CADE12,United States,Kentucky,21,Bell,013
+CADE12,United States,Kentucky,21,Boyd,019
+CADE12,United States,Kentucky,21,Boyle,021
+CADE12,United States,Kentucky,21,Breathitt,025
+CADE12,United States,Kentucky,21,Breckinridge,027
+CADE12,United States,Kentucky,21,Bullitt,029
+CADE12,United States,Kentucky,21,Butler,031
+CADE12,United States,Kentucky,21,Calloway,035
+CADE12,United States,Kentucky,21,Carlisle,039
+CADE12,United States,Kentucky,21,Carter,043
+CADE12,United States,Kentucky,21,Casey,045
+CADE12,United States,Kentucky,21,Clark,049
+CADE12,United States,Kentucky,21,Clay,051
+CADE12,United States,Kentucky,21,Clinton,053
+CADE12,United States,Kentucky,21,Cumberland,057
+CADE12,United States,Kentucky,21,Daviess,059
+CADE12,United States,Kentucky,21,Edmonson,061
+CADE12,United States,Kentucky,21,Elliott,063
+CADE12,United States,Kentucky,21,Estill,065
+CADE12,United States,Kentucky,21,Fleming,069
+CADE12,United States,Kentucky,21,Floyd,071
+CADE12,United States,Kentucky,21,Garrard,079
+CADE12,United States,Kentucky,21,Graves,083
+CADE12,United States,Kentucky,21,Grayson,085
+CADE12,United States,Kentucky,21,Green,087
+CADE12,United States,Kentucky,21,Greenup,089
+CADE12,United States,Kentucky,21,Hancock,091
+CADE12,United States,Kentucky,21,Hardin,093
+CADE12,United States,Kentucky,21,Harlan,095
+CADE12,United States,Kentucky,21,Hart,099
+CADE12,United States,Kentucky,21,Jackson,109
+CADE12,United States,Kentucky,21,Jefferson,111
+CADE12,United States,Kentucky,21,Johnson,115
+CADE12,United States,Kentucky,21,Knott,119
+CADE12,United States,Kentucky,21,Knox,121
+CADE12,United States,Kentucky,21,Larue,123
+CADE12,United States,Kentucky,21,Laurel,125
+CADE12,United States,Kentucky,21,Lawrence,127
+CADE12,United States,Kentucky,21,Lee,129
+CADE12,United States,Kentucky,21,Leslie,131
+CADE12,United States,Kentucky,21,Letcher,133
+CADE12,United States,Kentucky,21,Lewis,135
+CADE12,United States,Kentucky,21,Lincoln,137
+CADE12,United States,Kentucky,21,Logan,141
+CADE12,United States,Kentucky,21,Madison,151
+CADE12,United States,Kentucky,21,Magoffin,153
+CADE12,United States,Kentucky,21,Marion,155
+CADE12,United States,Kentucky,21,Marshall,157
+CADE12,United States,Kentucky,21,Martin,159
+CADE12,United States,Kentucky,21,McCreary,147
+CADE12,United States,Kentucky,21,Meade,163
+CADE12,United States,Kentucky,21,Menifee,165
+CADE12,United States,Kentucky,21,Metcalfe,169
+CADE12,United States,Kentucky,21,Monroe,171
+CADE12,United States,Kentucky,21,Montgomery,173
+CADE12,United States,Kentucky,21,Morgan,175
+CADE12,United States,Kentucky,21,Muhlenberg,177
+CADE12,United States,Kentucky,21,Nelson,179
+CADE12,United States,Kentucky,21,Ohio,183
+CADE12,United States,Kentucky,21,Oldham,185
+CADE12,United States,Kentucky,21,Owsley,189
+CADE12,United States,Kentucky,21,Perry,193
+CADE12,United States,Kentucky,21,Pike,195
+CADE12,United States,Kentucky,21,Powell,197
+CADE12,United States,Kentucky,21,Pulaski,199
+CADE12,United States,Kentucky,21,Rockcastle,203
+CADE12,United States,Kentucky,21,Rowan,205
+CADE12,United States,Kentucky,21,Russell,207
+CADE12,United States,Kentucky,21,Taylor,217
+CADE12,United States,Kentucky,21,Todd,219
+CADE12,United States,Kentucky,21,Warren,227
+CADE12,United States,Kentucky,21,Wayne,231
+CADE12,United States,Kentucky,21,Whitley,235
+CADE12,United States,Kentucky,21,Wolfe,237
+CADE12,United States,Louisiana,22,,
+CADE12,United States,Louisiana,22,Morehouse,067
+CADE12,United States,Louisiana,22,Webster,119
+CADE12,United States,Maine,23,,
+CADE12,United States,Maine,23,Androscoggin,001
+CADE12,United States,Maine,23,Aroostook,003
+CADE12,United States,Maine,23,Cumberland,005
+CADE12,United States,Maine,23,Kennebec,011
+CADE12,United States,Maine,23,Knox,013
+CADE12,United States,Maine,23,Lincoln,015
+CADE12,United States,Maine,23,Oxford,017
+CADE12,United States,Maine,23,Penobscot,019
+CADE12,United States,Maine,23,Somerset,025
+CADE12,United States,Maine,23,Waldo,027
+CADE12,United States,Maine,23,York,031
+CADE12,United States,Maryland,24,,
+CADE12,United States,Maryland,24,Anne Arundel,003
+CADE12,United States,Maryland,24,Baltimore,005
+CADE12,United States,Maryland,24,Charles,017
+CADE12,United States,Maryland,24,Harford,025
+CADE12,United States,Maryland,24,Montgomery,031
+CADE12,United States,Maryland,24,Wicomico,045
+CADE12,United States,Massachusetts,25,,
+CADE12,United States,Massachusetts,25,Barnstable,001
+CADE12,United States,Massachusetts,25,Berkshire,003
+CADE12,United States,Massachusetts,25,Bristol,005
+CADE12,United States,Massachusetts,25,Dukes,007
+CADE12,United States,Massachusetts,25,Essex,009
+CADE12,United States,Massachusetts,25,Franklin,011
+CADE12,United States,Massachusetts,25,Hampden,013
+CADE12,United States,Massachusetts,25,Hampshire,015
+CADE12,United States,Massachusetts,25,Middlesex,017
+CADE12,United States,Massachusetts,25,Nantucket,019
+CADE12,United States,Massachusetts,25,Norfolk,021
+CADE12,United States,Massachusetts,25,Plymouth,023
+CADE12,United States,Massachusetts,25,Suffolk,025
+CADE12,United States,Massachusetts,25,Worcester,027
+CADE12,United States,Michigan,26,,
+CADE12,United States,Michigan,26,Benzie,019
+CADE12,United States,Michigan,26,Leelanau,089
+CADE12,United States,Michigan,26,Missaukee,113
+CADE12,United States,Michigan,26,Monroe,115
+CADE12,United States,Michigan,26,Oakland,125
+CADE12,United States,Michigan,26,St. Clair,147
+CADE12,United States,Michigan,26,Van Buren,159
+CADE12,United States,Michigan,26,Wayne,163
+CADE12,United States,Mississippi,28,,
+CADE12,United States,Mississippi,28,Alcorn,003
+CADE12,United States,Mississippi,28,Calhoun,013
+CADE12,United States,Mississippi,28,Clarke,023
+CADE12,United States,Mississippi,28,Forrest,035
+CADE12,United States,Mississippi,28,Jefferson Davis,065
+CADE12,United States,Mississippi,28,Lafayette,071
+CADE12,United States,Mississippi,28,Lee,081
+CADE12,United States,Mississippi,28,Marion,091
+CADE12,United States,Mississippi,28,Marshall,093
+CADE12,United States,Mississippi,28,Monroe,095
+CADE12,United States,Mississippi,28,Simpson,127
+CADE12,United States,Mississippi,28,Smith,129
+CADE12,United States,Mississippi,28,Tishomingo,141
+CADE12,United States,Mississippi,28,Winston,159
+CADE12,United States,Missouri,29,,
+CADE12,United States,Missouri,29,Crawford,055
+CADE12,United States,Missouri,29,Howell,091
+CADE12,United States,Missouri,29,Texas,215
+CADE12,United States,New Hampshire,33,,
+CADE12,United States,New Hampshire,33,Belknap,001
+CADE12,United States,New Hampshire,33,Carroll,003
+CADE12,United States,New Hampshire,33,Cheshire,005
+CADE12,United States,New Hampshire,33,Hillsborough,011
+CADE12,United States,New Hampshire,33,Merrimack,013
+CADE12,United States,New Hampshire,33,Rockingham,015
+CADE12,United States,New Hampshire,33,Strafford,017
+CADE12,United States,New Hampshire,33,Sullivan,019
+CADE12,United States,New Jersey,34,,
+CADE12,United States,New Jersey,34,Atlantic,001
+CADE12,United States,New Jersey,34,Bergen,003
+CADE12,United States,New Jersey,34,Burlington,005
+CADE12,United States,New Jersey,34,Camden,007
+CADE12,United States,New Jersey,34,Cape May,009
+CADE12,United States,New Jersey,34,Cumberland,011
+CADE12,United States,New Jersey,34,Essex,013
+CADE12,United States,New Jersey,34,Hudson,017
+CADE12,United States,New Jersey,34,Hunterdon,019
+CADE12,United States,New Jersey,34,Mercer,021
+CADE12,United States,New Jersey,34,Middlesex,023
+CADE12,United States,New Jersey,34,Monmouth,025
+CADE12,United States,New Jersey,34,Morris,027
+CADE12,United States,New Jersey,34,Ocean,029
+CADE12,United States,New Jersey,34,Passaic,031
+CADE12,United States,New Jersey,34,Salem,033
+CADE12,United States,New Jersey,34,Somerset,035
+CADE12,United States,New Jersey,34,Sussex,037
+CADE12,United States,New Jersey,34,Union,039
+CADE12,United States,New Jersey,34,Warren,041
+CADE12,United States,New York,36,,
+CADE12,United States,New York,36,Albany,001
+CADE12,United States,New York,36,Allegany,003
+CADE12,United States,New York,36,Bronx,005
+CADE12,United States,New York,36,Cattaraugus,009
+CADE12,United States,New York,36,Chautauqua,013
+CADE12,United States,New York,36,Chemung,015
+CADE12,United States,New York,36,Columbia,021
+CADE12,United States,New York,36,Delaware,025
+CADE12,United States,New York,36,Dutchess,027
+CADE12,United States,New York,36,Erie,029
+CADE12,United States,New York,36,Fulton,035
+CADE12,United States,New York,36,Greene,039
+CADE12,United States,New York,36,Jefferson,045
+CADE12,United States,New York,36,Kings,047
+CADE12,United States,New York,36,Madison,053
+CADE12,United States,New York,36,Monroe,055
+CADE12,United States,New York,36,Nassau,059
+CADE12,United States,New York,36,New York,061
+CADE12,United States,New York,36,Niagara,063
+CADE12,United States,New York,36,Onondaga,067
+CADE12,United States,New York,36,Ontario,069
+CADE12,United States,New York,36,Orange,071
+CADE12,United States,New York,36,Oswego,075
+CADE12,United States,New York,36,Otsego,077
+CADE12,United States,New York,36,Putnam,079
+CADE12,United States,New York,36,Queens,081
+CADE12,United States,New York,36,Rensselaer,083
+CADE12,United States,New York,36,Richmond,085
+CADE12,United States,New York,36,Rockland,087
+CADE12,United States,New York,36,Saratoga,091
+CADE12,United States,New York,36,Schenectady,093
+CADE12,United States,New York,36,Steuben,101
+CADE12,United States,New York,36,Suffolk,103
+CADE12,United States,New York,36,Sullivan,105
+CADE12,United States,New York,36,Tompkins,109
+CADE12,United States,New York,36,Ulster,111
+CADE12,United States,New York,36,Warren,113
+CADE12,United States,New York,36,Washington,115
+CADE12,United States,New York,36,Wayne,117
+CADE12,United States,New York,36,Westchester,119
+CADE12,United States,North Carolina,37,,
+CADE12,United States,North Carolina,37,Alexander,003
+CADE12,United States,North Carolina,37,Avery,011
+CADE12,United States,North Carolina,37,Buncombe,021
+CADE12,United States,North Carolina,37,Caldwell,027
+CADE12,United States,North Carolina,37,Cherokee,039
+CADE12,United States,North Carolina,37,Clay,043
+CADE12,United States,North Carolina,37,Cleveland,045
+CADE12,United States,North Carolina,37,Cumberland,051
+CADE12,United States,North Carolina,37,Forsyth,067
+CADE12,United States,North Carolina,37,Gaston,071
+CADE12,United States,North Carolina,37,Graham,075
+CADE12,United States,North Carolina,37,Guilford,081
+CADE12,United States,North Carolina,37,Haywood,087
+CADE12,United States,North Carolina,37,Henderson,089
+CADE12,United States,North Carolina,37,Iredell,097
+CADE12,United States,North Carolina,37,Jackson,099
+CADE12,United States,North Carolina,37,Macon,113
+CADE12,United States,North Carolina,37,Madison,115
+CADE12,United States,North Carolina,37,McDowell,111
+CADE12,United States,North Carolina,37,Mitchell,121
+CADE12,United States,North Carolina,37,Orange,135
+CADE12,United States,North Carolina,37,Polk,149
+CADE12,United States,North Carolina,37,Randolph,151
+CADE12,United States,North Carolina,37,Stanly,167
+CADE12,United States,North Carolina,37,Stokes,169
+CADE12,United States,North Carolina,37,Surry,171
+CADE12,United States,North Carolina,37,Swain,173
+CADE12,United States,North Carolina,37,Transylvania,175
+CADE12,United States,North Carolina,37,Watauga,189
+CADE12,United States,North Carolina,37,Yancey,199
+CADE12,United States,Ohio,39,,
+CADE12,United States,Ohio,39,Adams,001
+CADE12,United States,Ohio,39,Ashland,005
+CADE12,United States,Ohio,39,Ashtabula,007
+CADE12,United States,Ohio,39,Athens,009
+CADE12,United States,Ohio,39,Belmont,013
+CADE12,United States,Ohio,39,Carroll,019
+CADE12,United States,Ohio,39,Clermont,025
+CADE12,United States,Ohio,39,Columbiana,029
+CADE12,United States,Ohio,39,Coshocton,031
+CADE12,United States,Ohio,39,Cuyahoga,035
+CADE12,United States,Ohio,39,Delaware,041
+CADE12,United States,Ohio,39,Erie,043
+CADE12,United States,Ohio,39,Fairfield,045
+CADE12,United States,Ohio,39,Franklin,049
+CADE12,United States,Ohio,39,Gallia,053
+CADE12,United States,Ohio,39,Geauga,055
+CADE12,United States,Ohio,39,Guernsey,059
+CADE12,United States,Ohio,39,Harrison,067
+CADE12,United States,Ohio,39,Highland,071
+CADE12,United States,Ohio,39,Hocking,073
+CADE12,United States,Ohio,39,Holmes,075
+CADE12,United States,Ohio,39,Huron,077
+CADE12,United States,Ohio,39,Jackson,079
+CADE12,United States,Ohio,39,Jefferson,081
+CADE12,United States,Ohio,39,Knox,083
+CADE12,United States,Ohio,39,Lake,085
+CADE12,United States,Ohio,39,Lawrence,087
+CADE12,United States,Ohio,39,Licking,089
+CADE12,United States,Ohio,39,Lorain,093
+CADE12,United States,Ohio,39,Mahoning,099
+CADE12,United States,Ohio,39,Medina,103
+CADE12,United States,Ohio,39,Meigs,105
+CADE12,United States,Ohio,39,Monroe,111
+CADE12,United States,Ohio,39,Morrow,117
+CADE12,United States,Ohio,39,Muskingum,119
+CADE12,United States,Ohio,39,Noble,121
+CADE12,United States,Ohio,39,Ottawa,123
+CADE12,United States,Ohio,39,Pike,131
+CADE12,United States,Ohio,39,Portage,133
+CADE12,United States,Ohio,39,Richland,139
+CADE12,United States,Ohio,39,Ross,141
+CADE12,United States,Ohio,39,Sandusky,143
+CADE12,United States,Ohio,39,Scioto,145
+CADE12,United States,Ohio,39,Stark,151
+CADE12,United States,Ohio,39,Summit,153
+CADE12,United States,Ohio,39,Trumbull,155
+CADE12,United States,Ohio,39,Tuscarawas,157
+CADE12,United States,Ohio,39,Vinton,163
+CADE12,United States,Ohio,39,Washington,167
+CADE12,United States,Ohio,39,Wayne,169
+CADE12,United States,Pennsylvania,42,,
+CADE12,United States,Pennsylvania,42,Adams,001
+CADE12,United States,Pennsylvania,42,Allegheny,003
+CADE12,United States,Pennsylvania,42,Armstrong,005
+CADE12,United States,Pennsylvania,42,Beaver,007
+CADE12,United States,Pennsylvania,42,Bedford,009
+CADE12,United States,Pennsylvania,42,Berks,011
+CADE12,United States,Pennsylvania,42,Blair,013
+CADE12,United States,Pennsylvania,42,Bradford,015
+CADE12,United States,Pennsylvania,42,Bucks,017
+CADE12,United States,Pennsylvania,42,Butler,019
+CADE12,United States,Pennsylvania,42,Cambria,021
+CADE12,United States,Pennsylvania,42,Cameron,023
+CADE12,United States,Pennsylvania,42,Carbon,025
+CADE12,United States,Pennsylvania,42,Centre,027
+CADE12,United States,Pennsylvania,42,Chester,029
+CADE12,United States,Pennsylvania,42,Clarion,031
+CADE12,United States,Pennsylvania,42,Clearfield,033
+CADE12,United States,Pennsylvania,42,Clinton,035
+CADE12,United States,Pennsylvania,42,Columbia,037
+CADE12,United States,Pennsylvania,42,Crawford,039
+CADE12,United States,Pennsylvania,42,Cumberland,041
+CADE12,United States,Pennsylvania,42,Dauphin,043
+CADE12,United States,Pennsylvania,42,Delaware,045
+CADE12,United States,Pennsylvania,42,Elk,047
+CADE12,United States,Pennsylvania,42,Erie,049
+CADE12,United States,Pennsylvania,42,Fayette,051
+CADE12,United States,Pennsylvania,42,Forest,053
+CADE12,United States,Pennsylvania,42,Franklin,055
+CADE12,United States,Pennsylvania,42,Fulton,057
+CADE12,United States,Pennsylvania,42,Greene,059
+CADE12,United States,Pennsylvania,42,Huntingdon,061
+CADE12,United States,Pennsylvania,42,Indiana,063
+CADE12,United States,Pennsylvania,42,Jefferson,065
+CADE12,United States,Pennsylvania,42,Juniata,067
+CADE12,United States,Pennsylvania,42,Lackawanna,069
+CADE12,United States,Pennsylvania,42,Lancaster,071
+CADE12,United States,Pennsylvania,42,Lawrence,073
+CADE12,United States,Pennsylvania,42,Lebanon,075
+CADE12,United States,Pennsylvania,42,Lehigh,077
+CADE12,United States,Pennsylvania,42,Luzerne,079
+CADE12,United States,Pennsylvania,42,Lycoming,081
+CADE12,United States,Pennsylvania,42,McKean,083
+CADE12,United States,Pennsylvania,42,Mercer,085
+CADE12,United States,Pennsylvania,42,Mifflin,087
+CADE12,United States,Pennsylvania,42,Monroe,089
+CADE12,United States,Pennsylvania,42,Montgomery,091
+CADE12,United States,Pennsylvania,42,Montour,093
+CADE12,United States,Pennsylvania,42,Northampton,095
+CADE12,United States,Pennsylvania,42,Northumberland,097
+CADE12,United States,Pennsylvania,42,Perry,099
+CADE12,United States,Pennsylvania,42,Philadelphia,101
+CADE12,United States,Pennsylvania,42,Pike,103
+CADE12,United States,Pennsylvania,42,Potter,105
+CADE12,United States,Pennsylvania,42,Schuylkill,107
+CADE12,United States,Pennsylvania,42,Snyder,109
+CADE12,United States,Pennsylvania,42,Somerset,111
+CADE12,United States,Pennsylvania,42,Sullivan,113
+CADE12,United States,Pennsylvania,42,Susquehanna,115
+CADE12,United States,Pennsylvania,42,Tioga,117
+CADE12,United States,Pennsylvania,42,Union,119
+CADE12,United States,Pennsylvania,42,Venango,121
+CADE12,United States,Pennsylvania,42,Warren,123
+CADE12,United States,Pennsylvania,42,Washington,125
+CADE12,United States,Pennsylvania,42,Wayne,127
+CADE12,United States,Pennsylvania,42,Westmoreland,129
+CADE12,United States,Pennsylvania,42,Wyoming,131
+CADE12,United States,Pennsylvania,42,York,133
+CADE12,United States,Rhode Island,44,,
+CADE12,United States,Rhode Island,44,Kent,003
+CADE12,United States,Rhode Island,44,Providence,007
+CADE12,United States,Rhode Island,44,Washington,009
+CADE12,United States,South Carolina,45,,
+CADE12,United States,South Carolina,45,Abbeville,001
+CADE12,United States,South Carolina,45,Cherokee,021
+CADE12,United States,South Carolina,45,Greenville,045
+CADE12,United States,South Carolina,45,Lancaster,057
+CADE12,United States,South Carolina,45,Pickens,077
+CADE12,United States,South Carolina,45,York,091
+CADE12,United States,Tennessee,47,,
+CADE12,United States,Tennessee,47,Anderson,001
+CADE12,United States,Tennessee,47,Benton,005
+CADE12,United States,Tennessee,47,Bledsoe,007
+CADE12,United States,Tennessee,47,Blount,009
+CADE12,United States,Tennessee,47,Campbell,013
+CADE12,United States,Tennessee,47,Carroll,017
+CADE12,United States,Tennessee,47,Carter,019
+CADE12,United States,Tennessee,47,Cheatham,021
+CADE12,United States,Tennessee,47,Chester,023
+CADE12,United States,Tennessee,47,Coffee,031
+CADE12,United States,Tennessee,47,Cumberland,035
+CADE12,United States,Tennessee,47,Davidson,037
+CADE12,United States,Tennessee,47,DeKalb,041
+CADE12,United States,Tennessee,47,Dickson,043
+CADE12,United States,Tennessee,47,Fayette,047
+CADE12,United States,Tennessee,47,Fentress,049
+CADE12,United States,Tennessee,47,Franklin,051
+CADE12,United States,Tennessee,47,Grainger,057
+CADE12,United States,Tennessee,47,Greene,059
+CADE12,United States,Tennessee,47,Grundy,061
+CADE12,United States,Tennessee,47,Hardeman,069
+CADE12,United States,Tennessee,47,Hardin,071
+CADE12,United States,Tennessee,47,Hawkins,073
+CADE12,United States,Tennessee,47,Haywood,075
+CADE12,United States,Tennessee,47,Henderson,077
+CADE12,United States,Tennessee,47,Henry,079
+CADE12,United States,Tennessee,47,Hickman,081
+CADE12,United States,Tennessee,47,Johnson,091
+CADE12,United States,Tennessee,47,Knox,093
+CADE12,United States,Tennessee,47,Lauderdale,097
+CADE12,United States,Tennessee,47,Lawrence,099
+CADE12,United States,Tennessee,47,Lewis,101
+CADE12,United States,Tennessee,47,Lincoln,103
+CADE12,United States,Tennessee,47,Madison,113
+CADE12,United States,Tennessee,47,Marion,115
+CADE12,United States,Tennessee,47,McNairy,109
+CADE12,United States,Tennessee,47,Monroe,123
+CADE12,United States,Tennessee,47,Montgomery,125
+CADE12,United States,Tennessee,47,Morgan,129
+CADE12,United States,Tennessee,47,Pickett,137
+CADE12,United States,Tennessee,47,Polk,139
+CADE12,United States,Tennessee,47,Rhea,143
+CADE12,United States,Tennessee,47,Roane,145
+CADE12,United States,Tennessee,47,Scott,151
+CADE12,United States,Tennessee,47,Sevier,155
+CADE12,United States,Tennessee,47,Stewart,161
+CADE12,United States,Tennessee,47,Sullivan,163
+CADE12,United States,Tennessee,47,Sumner,165
+CADE12,United States,Tennessee,47,Trousdale,169
+CADE12,United States,Tennessee,47,Unicoi,171
+CADE12,United States,Tennessee,47,Van Buren,175
+CADE12,United States,Tennessee,47,Warren,177
+CADE12,United States,Tennessee,47,Washington,179
+CADE12,United States,Tennessee,47,Wayne,181
+CADE12,United States,Tennessee,47,Williamson,187
+CADE12,United States,Vermont,50,,
+CADE12,United States,Vermont,50,Addison,001
+CADE12,United States,Vermont,50,Bennington,003
+CADE12,United States,Vermont,50,Chittenden,007
+CADE12,United States,Vermont,50,Franklin,011
+CADE12,United States,Vermont,50,Lamoille,015
+CADE12,United States,Vermont,50,Orange,017
+CADE12,United States,Vermont,50,Rutland,021
+CADE12,United States,Vermont,50,Washington,023
+CADE12,United States,Vermont,50,Windham,025
+CADE12,United States,Vermont,50,Windsor,027
+CADE12,United States,Virginia,51,,
+CADE12,United States,Virginia,51,Accomack,001
+CADE12,United States,Virginia,51,Albemarle,003
+CADE12,United States,Virginia,51,Alleghany,005
+CADE12,United States,Virginia,51,Amherst,009
+CADE12,United States,Virginia,51,Appomattox,011
+CADE12,United States,Virginia,51,Arlington,013
+CADE12,United States,Virginia,51,Augusta,015
+CADE12,United States,Virginia,51,Bath,017
+CADE12,United States,Virginia,51,Bedford,019
+CADE12,United States,Virginia,51,Bland,021
+CADE12,United States,Virginia,51,Botetourt,023
+CADE12,United States,Virginia,51,Buckingham,029
+CADE12,United States,Virginia,51,Campbell,031
+CADE12,United States,Virginia,51,Caroline,033
+CADE12,United States,Virginia,51,Carroll,035
+CADE12,United States,Virginia,51,"Chesapeake ",550
+CADE12,United States,Virginia,51,Chesterfield,041
+CADE12,United States,Virginia,51,Clarke,043
+CADE12,United States,Virginia,51,Craig,045
+CADE12,United States,Virginia,51,Dickenson,051
+CADE12,United States,Virginia,51,Essex,057
+CADE12,United States,Virginia,51,Fairfax,059
+CADE12,United States,Virginia,51,Fauquier,061
+CADE12,United States,Virginia,51,Floyd,063
+CADE12,United States,Virginia,51,Fluvanna,065
+CADE12,United States,Virginia,51,Franklin,067
+CADE12,United States,Virginia,51,Frederick,069
+CADE12,United States,Virginia,51,Giles,071
+CADE12,United States,Virginia,51,Gloucester,073
+CADE12,United States,Virginia,51,Grayson,077
+CADE12,United States,Virginia,51,Greene,079
+CADE12,United States,Virginia,51,Henry,089
+CADE12,United States,Virginia,51,Highland,091
+CADE12,United States,Virginia,51,Isle of Wight,093
+CADE12,United States,Virginia,51,James City,095
+CADE12,United States,Virginia,51,King George,099
+CADE12,United States,Virginia,51,Lancaster,103
+CADE12,United States,Virginia,51,Lee,105
+CADE12,United States,Virginia,51,Loudoun,107
+CADE12,United States,Virginia,51,Louisa,109
+CADE12,United States,Virginia,51,Madison,113
+CADE12,United States,Virginia,51,Mathews,115
+CADE12,United States,Virginia,51,Middlesex,119
+CADE12,United States,Virginia,51,Montgomery,121
+CADE12,United States,Virginia,51,Nelson,125
+CADE12,United States,Virginia,51,New Kent,127
+CADE12,United States,Virginia,51,Northampton,131
+CADE12,United States,Virginia,51,Northumberland,133
+CADE12,United States,Virginia,51,Orange,137
+CADE12,United States,Virginia,51,Page,139
+CADE12,United States,Virginia,51,Patrick,141
+CADE12,United States,Virginia,51,Pittsylvania,143
+CADE12,United States,Virginia,51,Powhatan,145
+CADE12,United States,Virginia,51,Prince William,153
+CADE12,United States,Virginia,51,Pulaski,155
+CADE12,United States,Virginia,51,Rappahannock,157
+CADE12,United States,Virginia,51,Richmond,159
+CADE12,United States,Virginia,51,Roanoke,161
+CADE12,United States,Virginia,51,Rockbridge,163
+CADE12,United States,Virginia,51,Rockingham,165
+CADE12,United States,Virginia,51,Russell,167
+CADE12,United States,Virginia,51,Scott,169
+CADE12,United States,Virginia,51,Shenandoah,171
+CADE12,United States,Virginia,51,Smyth,173
+CADE12,United States,Virginia,51,Southampton,175
+CADE12,United States,Virginia,51,Spotsylvania,177
+CADE12,United States,Virginia,51,Stafford,179
+CADE12,United States,Virginia,51,"Suffolk ",800
+CADE12,United States,Virginia,51,Surry,181
+CADE12,United States,Virginia,51,Tazewell,185
+CADE12,United States,Virginia,51,"Virginia Beach ",810
+CADE12,United States,Virginia,51,Warren,187
+CADE12,United States,Virginia,51,Washington,191
+CADE12,United States,Virginia,51,Westmoreland,193
+CADE12,United States,Virginia,51,Wise,195
+CADE12,United States,Virginia,51,Wythe,197
+CADE12,United States,West Virginia,54,,
+CADE12,United States,West Virginia,54,Barbour,001
+CADE12,United States,West Virginia,54,Berkeley,003
+CADE12,United States,West Virginia,54,Braxton,007
+CADE12,United States,West Virginia,54,Brooke,009
+CADE12,United States,West Virginia,54,Calhoun,013
+CADE12,United States,West Virginia,54,Clay,015
+CADE12,United States,West Virginia,54,Fayette,019
+CADE12,United States,West Virginia,54,Grant,023
+CADE12,United States,West Virginia,54,Greenbrier,025
+CADE12,United States,West Virginia,54,Hampshire,027
+CADE12,United States,West Virginia,54,Hancock,029
+CADE12,United States,West Virginia,54,Hardy,031
+CADE12,United States,West Virginia,54,Jackson,035
+CADE12,United States,West Virginia,54,Kanawha,039
+CADE12,United States,West Virginia,54,Marion,049
+CADE12,United States,West Virginia,54,McDowell,047
+CADE12,United States,West Virginia,54,Mercer,055
+CADE12,United States,West Virginia,54,Mineral,057
+CADE12,United States,West Virginia,54,Mingo,059
+CADE12,United States,West Virginia,54,Monongalia,061
+CADE12,United States,West Virginia,54,Monroe,063
+CADE12,United States,West Virginia,54,Nicholas,067
+CADE12,United States,West Virginia,54,Ohio,069
+CADE12,United States,West Virginia,54,Pendleton,071
+CADE12,United States,West Virginia,54,Pocahontas,075
+CADE12,United States,West Virginia,54,Preston,077
+CADE12,United States,West Virginia,54,Putnam,079
+CADE12,United States,West Virginia,54,Raleigh,081
+CADE12,United States,West Virginia,54,Randolph,083
+CADE12,United States,West Virginia,54,Ritchie,085
+CADE12,United States,West Virginia,54,Summers,089
+CADE12,United States,West Virginia,54,Taylor,091
+CADE12,United States,West Virginia,54,Tucker,093
+CADE12,United States,West Virginia,54,Tyler,095
+CADE12,United States,West Virginia,54,Upshur,097
+CADE12,United States,West Virginia,54,Wayne,099
+CADE12,United States,West Virginia,54,Webster,101
+CADE12,United States,West Virginia,54,Wetzel,103
+CADE12,United States,West Virginia,54,Wirt,105
+CADE12,United States,Wisconsin,55,,
+CADE12,United States,Wisconsin,55,Adams,001
+CADE12,United States,Wisconsin,55,Sauk,111
+CADE12,United States,Wisconsin,55,Trempealeau,121
+CADE12,United States,Wisconsin,55,Vernon,123
+CADE12,United States,Wisconsin,55,Walworth,127
+CADE12,United States,Wisconsin,55,Waukesha,133

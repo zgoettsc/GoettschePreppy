@@ -34,13 +34,13 @@ an **electric pump** at the bottom of a narrow pipe: no power, no pump, no water
 have planned one of the four ways round it below.
 {{#if has.well}}Your home is on a well: this page is for you now.{{else}}Your home is on
 {{ dwelling.water_supply }}. Keep this page for a destination, a relative's farm, or a
-neighbour's well.{{/if}}
+neighbor's well.{{/if}}
 
 > **CAUTION.** Two ways to get hurt here.
 > - **Electricity.** Generator-to-pump wiring is dangerous (→ 09-04, → 09-08, → 29-04).
 >   **Floor:** never connect a generator to house wiring without a transfer switch, an
 >   interlock, or a cord-and-plug conversion with the main breaker locked off. Never backfeed
->   through an outlet. Backfeeding electrocutes line workers and neighbours and starts fires.
+>   through an outlet. Backfeeding electrocutes line workers and neighbors and starts fires.
 >   (→ 30-01)
 > - **Floor:** never run a generator indoors, in a garage, or near an open window. Carbon
 >   monoxide kills in minutes with no warning. (→ 30-01)
@@ -74,7 +74,7 @@ neighbour's well.{{/if}}
 - **The pitless adapter:** the underground fitting where the water line leaves the casing
   **below the frost line** and runs to the house. It is why a well works in winter.
 - **The pressure tank and switch:** inside the house or a well house, a tank (commonly
-  labelled 20 to 80 gallons) holds water under pressure so the pump starts and stops instead
+  labeled 20 to 80 gallons) holds water under pressure so the pump starts and stops instead
   of running at every tap. The pressure switch (often set at 30/50 or 40/60 psi) turns the
   pump on and off.
 
@@ -85,7 +85,7 @@ neighbour's well.{{/if}}
 ### 1. What is left in the pressure tank (minutes of water, not days)
 
 The tank keeps delivering until its pressure is gone. A tank delivers only about a quarter of
-its labelled size before the pump would normally restart: a "30-gallon" tank gives perhaps
+its labeled size before the pump would normally restart: a "30-gallon" tank gives perhaps
 **5 to 10 usable gallons** (University of Nebraska-Lincoln Extension). Draw it into containers
 from the lowest tap, on purpose, before it disappears into toilet flushes and hand washing.
 
@@ -117,7 +117,7 @@ Check, in this order:
 ### 3. The well bucket (no power, no information needed: buy now)
 
 A 4 to 6 inch casing takes no ordinary container. A **purpose-made well bucket** is a slim
-cylinder, about **3 to 3.5 inches across and 3 to 6 feet long**, of galvanised steel or
+cylinder, about **3 to 3.5 inches across and 3 to 6 feet long**, of galvanized steel or
 plastic pipe with a one-way valve in the foot. It holds **1 to 2 gallons per pull**. Lower it
 on rope past the drop pipe and the pump wires (go slowly; do not snag the wire), let it fill,
 haul it up. Slow, honest work, and it works at any depth your rope reaches. This plus good rope
@@ -230,7 +230,7 @@ target (→ 29-05).
 
 - A bailer can be made from **3-inch plastic pipe, a foot check valve and an eye bolt**: farm
   store parts and one afternoon.
-- A neighbour's larger generator that can supply 240 volts can run a pump yours cannot: a
+- A neighbor's larger generator that can supply 240 volts can run a pump yours cannot: a
   mutual-aid trade waiting to happen (→ 18-01).
 - A windmill or solar stock well elsewhere on a farm is water already solved. Ask where the
   animals drink in winter.

@@ -1,0 +1,91 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+ACMA3,Canada,British Columbia,02,,
+ACMA3,United States,California,06,,
+ACMA3,United States,California,06,Alameda,001
+ACMA3,United States,California,06,Amador,005
+ACMA3,United States,California,06,Butte,007
+ACMA3,United States,California,06,Calaveras,009
+ACMA3,United States,California,06,Colusa,011
+ACMA3,United States,California,06,Contra Costa,013
+ACMA3,United States,California,06,Del Norte,015
+ACMA3,United States,California,06,El Dorado,017
+ACMA3,United States,California,06,Fresno,019
+ACMA3,United States,California,06,Glenn,021
+ACMA3,United States,California,06,Humboldt,023
+ACMA3,United States,California,06,Kern,029
+ACMA3,United States,California,06,Lake,033
+ACMA3,United States,California,06,Los Angeles,037
+ACMA3,United States,California,06,Marin,041
+ACMA3,United States,California,06,Mariposa,043
+ACMA3,United States,California,06,Mendocino,045
+ACMA3,United States,California,06,Monterey,053
+ACMA3,United States,California,06,Napa,055
+ACMA3,United States,California,06,Nevada,057
+ACMA3,United States,California,06,Orange,059
+ACMA3,United States,California,06,Placer,061
+ACMA3,United States,California,06,Plumas,063
+ACMA3,United States,California,06,Riverside,065
+ACMA3,United States,California,06,San Benito,069
+ACMA3,United States,California,06,San Bernardino,071
+ACMA3,United States,California,06,San Diego,073
+ACMA3,United States,California,06,San Luis Obispo,079
+ACMA3,United States,California,06,San Mateo,081
+ACMA3,United States,California,06,Santa Barbara,083
+ACMA3,United States,California,06,Santa Clara,085
+ACMA3,United States,California,06,Santa Cruz,087
+ACMA3,United States,California,06,Shasta,089
+ACMA3,United States,California,06,Sierra,091
+ACMA3,United States,California,06,Siskiyou,093
+ACMA3,United States,California,06,Solano,095
+ACMA3,United States,California,06,Sonoma,097
+ACMA3,United States,California,06,Tehama,103
+ACMA3,United States,California,06,Trinity,105
+ACMA3,United States,California,06,Tulare,107
+ACMA3,United States,California,06,Tuolumne,109
+ACMA3,United States,California,06,Ventura,111
+ACMA3,United States,California,06,Yolo,113
+ACMA3,United States,California,06,Yuba,115
+ACMA3,United States,Oregon,41,,
+ACMA3,United States,Oregon,41,Benton,003
+ACMA3,United States,Oregon,41,Clackamas,005
+ACMA3,United States,Oregon,41,Clatsop,007
+ACMA3,United States,Oregon,41,Coos,011
+ACMA3,United States,Oregon,41,Curry,015
+ACMA3,United States,Oregon,41,Douglas,019
+ACMA3,United States,Oregon,41,Hood River,027
+ACMA3,United States,Oregon,41,Jackson,029
+ACMA3,United States,Oregon,41,Josephine,033
+ACMA3,United States,Oregon,41,Lane,039
+ACMA3,United States,Oregon,41,Lincoln,041
+ACMA3,United States,Oregon,41,Linn,043
+ACMA3,United States,Oregon,41,Marion,047
+ACMA3,United States,Oregon,41,Multnomah,051
+ACMA3,United States,Oregon,41,Polk,053
+ACMA3,United States,Oregon,41,Tillamook,057
+ACMA3,United States,Oregon,41,Wasco,065
+ACMA3,United States,Oregon,41,Washington,067
+ACMA3,United States,Oregon,41,Yamhill,071
+ACMA3,United States,Washington,53,,
+ACMA3,United States,Washington,53,Chelan,007
+ACMA3,United States,Washington,53,Clallam,009
+ACMA3,United States,Washington,53,Clark,011
+ACMA3,United States,Washington,53,Cowlitz,015
+ACMA3,United States,Washington,53,Grays Harbor,027
+ACMA3,United States,Washington,53,Island,029
+ACMA3,United States,Washington,53,King,033
+ACMA3,United States,Washington,53,Kitsap,035
+ACMA3,United States,Washington,53,Klickitat,039
+ACMA3,United States,Washington,53,Lewis,041
+ACMA3,United States,Washington,53,Mason,045
+ACMA3,United States,Washington,53,Okanogan,047
+ACMA3,United States,Washington,53,Pacific,049
+ACMA3,United States,Washington,53,Pierce,053
+ACMA3,United States,Washington,53,San Juan,055
+ACMA3,United States,Washington,53,Skagit,057
+ACMA3,United States,Washington,53,Skamania,059
+ACMA3,United States,Washington,53,Snohomish,061
+ACMA3,United States,Washington,53,Thurston,067
+ACMA3,United States,Washington,53,Wahkiakum,069
+ACMA3,United States,Washington,53,Whatcom,073
+ACMA3,United States,Washington,53,Whitman,075

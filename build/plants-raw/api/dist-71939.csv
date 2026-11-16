@@ -1,0 +1,380 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+CHMA2,Canada,British Columbia,02,,
+CHMA2,Canada,Manitoba,03,,
+CHMA2,Canada,New Brunswick,04,,
+CHMA2,Canada,Nova Scotia,07,,
+CHMA2,Canada,Ontario,08,,
+CHMA2,Canada,Prince Edward Island,09,,
+CHMA2,United States,Connecticut,09,,
+CHMA2,Canada,Quebec,10,,
+CHMA2,United States,Delaware,10,,
+CHMA2,United States,Delaware,10,New Castle,003
+CHMA2,United States,District of Columbia,11,,
+CHMA2,United States,District of Columbia,11,District of Columbia,001
+CHMA2,United States,Georgia,13,,
+CHMA2,United States,Illinois,17,,
+CHMA2,United States,Illinois,17,Boone,007
+CHMA2,United States,Illinois,17,Carroll,015
+CHMA2,United States,Illinois,17,Cook,031
+CHMA2,United States,Illinois,17,DuPage,043
+CHMA2,United States,Illinois,17,Hancock,067
+CHMA2,United States,Illinois,17,Jackson,077
+CHMA2,United States,Illinois,17,Kane,089
+CHMA2,United States,Illinois,17,Kendall,093
+CHMA2,United States,Illinois,17,Ogle,141
+CHMA2,United States,Illinois,17,Peoria,143
+CHMA2,United States,Illinois,17,Richland,159
+CHMA2,United States,Illinois,17,Stephenson,177
+CHMA2,United States,Illinois,17,Tazewell,179
+CHMA2,United States,Illinois,17,Wabash,185
+CHMA2,United States,Illinois,17,Will,197
+CHMA2,United States,Illinois,17,Winnebago,201
+CHMA2,United States,Indiana,18,,
+CHMA2,United States,Indiana,18,DeKalb,033
+CHMA2,United States,Indiana,18,Elkhart,039
+CHMA2,United States,Indiana,18,Lagrange,087
+CHMA2,United States,Indiana,18,Madison,095
+CHMA2,United States,Indiana,18,St. Joseph,141
+CHMA2,United States,Indiana,18,Steuben,151
+CHMA2,United States,Indiana,18,Tippecanoe,157
+CHMA2,United States,Indiana,18,Wayne,177
+CHMA2,United States,Indiana,18,Wells,179
+CHMA2,United States,Iowa,19,,
+CHMA2,United States,Kentucky,21,,
+CHMA2,United States,Kentucky,21,Boone,015
+CHMA2,United States,Kentucky,21,Fayette,067
+CHMA2,United States,Kentucky,21,Scott,209
+CHMA2,United States,Maine,23,,
+CHMA2,United States,Maine,23,Androscoggin,001
+CHMA2,United States,Maine,23,Cumberland,005
+CHMA2,United States,Maine,23,Franklin,007
+CHMA2,United States,Maine,23,Hancock,009
+CHMA2,United States,Maine,23,Kennebec,011
+CHMA2,United States,Maine,23,Knox,013
+CHMA2,United States,Maine,23,Oxford,017
+CHMA2,United States,Maine,23,Penobscot,019
+CHMA2,United States,Maine,23,Sagadahoc,023
+CHMA2,United States,Maine,23,Somerset,025
+CHMA2,United States,Maine,23,Waldo,027
+CHMA2,United States,Maine,23,York,031
+CHMA2,United States,Maryland,24,,
+CHMA2,United States,Massachusetts,25,,
+CHMA2,United States,Massachusetts,25,Barnstable,001
+CHMA2,United States,Massachusetts,25,Berkshire,003
+CHMA2,United States,Massachusetts,25,Bristol,005
+CHMA2,United States,Massachusetts,25,Dukes,007
+CHMA2,United States,Massachusetts,25,Essex,009
+CHMA2,United States,Massachusetts,25,Franklin,011
+CHMA2,United States,Massachusetts,25,Hampden,013
+CHMA2,United States,Massachusetts,25,Hampshire,015
+CHMA2,United States,Massachusetts,25,Middlesex,017
+CHMA2,United States,Massachusetts,25,Nantucket,019
+CHMA2,United States,Massachusetts,25,Norfolk,021
+CHMA2,United States,Massachusetts,25,Plymouth,023
+CHMA2,United States,Massachusetts,25,Suffolk,025
+CHMA2,United States,Massachusetts,25,Worcester,027
+CHMA2,United States,Michigan,26,,
+CHMA2,United States,Michigan,26,Berrien,021
+CHMA2,United States,Michigan,26,Delta,041
+CHMA2,United States,Michigan,26,Emmet,047
+CHMA2,United States,Michigan,26,Ingham,065
+CHMA2,United States,Michigan,26,Jackson,075
+CHMA2,United States,Michigan,26,Kalamazoo,077
+CHMA2,United States,Michigan,26,Kent,081
+CHMA2,United States,Michigan,26,Oakland,125
+CHMA2,United States,Michigan,26,Schoolcraft,153
+CHMA2,United States,Michigan,26,Van Buren,159
+CHMA2,United States,Michigan,26,Washtenaw,161
+CHMA2,United States,Michigan,26,Wayne,163
+CHMA2,United States,Minnesota,27,,
+CHMA2,United States,Minnesota,27,Hennepin,053
+CHMA2,United States,Minnesota,27,Itasca,061
+CHMA2,United States,Minnesota,27,Ramsey,123
+CHMA2,United States,Minnesota,27,Sherburne,141
+CHMA2,United States,Minnesota,27,Wright,171
+CHMA2,United States,Missouri,29,,
+CHMA2,United States,Missouri,29,Jackson,095
+CHMA2,United States,Montana,30,,
+CHMA2,United States,Montana,30,Missoula,063
+CHMA2,United States,Nebraska,31,,
+CHMA2,United States,New Hampshire,33,,
+CHMA2,United States,New Hampshire,33,Belknap,001
+CHMA2,United States,New Hampshire,33,Carroll,003
+CHMA2,United States,New Hampshire,33,Cheshire,005
+CHMA2,United States,New Hampshire,33,Coos,007
+CHMA2,United States,New Hampshire,33,Grafton,009
+CHMA2,United States,New Hampshire,33,Hillsborough,011
+CHMA2,United States,New Hampshire,33,Merrimack,013
+CHMA2,United States,New Hampshire,33,Rockingham,015
+CHMA2,United States,New Hampshire,33,Strafford,017
+CHMA2,United States,New Hampshire,33,Sullivan,019
+CHMA2,United States,New Jersey,34,,
+CHMA2,United States,New Jersey,34,Bergen,003
+CHMA2,United States,New Jersey,34,Camden,007
+CHMA2,United States,New Jersey,34,Cape May,009
+CHMA2,United States,New Jersey,34,Essex,013
+CHMA2,United States,New Jersey,34,Hunterdon,019
+CHMA2,United States,New Jersey,34,Mercer,021
+CHMA2,United States,New Jersey,34,Middlesex,023
+CHMA2,United States,New Jersey,34,Monmouth,025
+CHMA2,United States,New Jersey,34,Morris,027
+CHMA2,United States,New Jersey,34,Passaic,031
+CHMA2,United States,New Jersey,34,Salem,033
+CHMA2,United States,New Jersey,34,Somerset,035
+CHMA2,United States,New Jersey,34,Sussex,037
+CHMA2,United States,New Jersey,34,Union,039
+CHMA2,United States,New Jersey,34,Warren,041
+CHMA2,United States,New York,36,,
+CHMA2,United States,New York,36,Albany,001
+CHMA2,United States,New York,36,Allegany,003
+CHMA2,United States,New York,36,Bronx,005
+CHMA2,United States,New York,36,Cattaraugus,009
+CHMA2,United States,New York,36,Cayuga,011
+CHMA2,United States,New York,36,Chemung,015
+CHMA2,United States,New York,36,Chenango,017
+CHMA2,United States,New York,36,Clinton,019
+CHMA2,United States,New York,36,Columbia,021
+CHMA2,United States,New York,36,Cortland,023
+CHMA2,United States,New York,36,Delaware,025
+CHMA2,United States,New York,36,Dutchess,027
+CHMA2,United States,New York,36,Erie,029
+CHMA2,United States,New York,36,Herkimer,043
+CHMA2,United States,New York,36,Kings,047
+CHMA2,United States,New York,36,Lewis,049
+CHMA2,United States,New York,36,Livingston,051
+CHMA2,United States,New York,36,Madison,053
+CHMA2,United States,New York,36,Monroe,055
+CHMA2,United States,New York,36,Nassau,059
+CHMA2,United States,New York,36,New York,061
+CHMA2,United States,New York,36,Niagara,063
+CHMA2,United States,New York,36,Oneida,065
+CHMA2,United States,New York,36,Onondaga,067
+CHMA2,United States,New York,36,Ontario,069
+CHMA2,United States,New York,36,Orange,071
+CHMA2,United States,New York,36,Putnam,079
+CHMA2,United States,New York,36,Queens,081
+CHMA2,United States,New York,36,Rensselaer,083
+CHMA2,United States,New York,36,Richmond,085
+CHMA2,United States,New York,36,Rockland,087
+CHMA2,United States,New York,36,Saratoga,091
+CHMA2,United States,New York,36,Schenectady,093
+CHMA2,United States,New York,36,Schoharie,095
+CHMA2,United States,New York,36,Seneca,099
+CHMA2,United States,New York,36,Steuben,101
+CHMA2,United States,New York,36,Suffolk,103
+CHMA2,United States,New York,36,Tioga,107
+CHMA2,United States,New York,36,Tompkins,109
+CHMA2,United States,New York,36,Ulster,111
+CHMA2,United States,New York,36,Warren,113
+CHMA2,United States,New York,36,Washington,115
+CHMA2,United States,New York,36,Westchester,119
+CHMA2,United States,New York,36,Yates,123
+CHMA2,United States,North Carolina,37,,
+CHMA2,United States,North Carolina,37,Ashe,009
+CHMA2,United States,North Carolina,37,Watauga,189
+CHMA2,United States,Ohio,39,,
+CHMA2,United States,Ohio,39,Ashland,005
+CHMA2,United States,Ohio,39,Ashtabula,007
+CHMA2,United States,Ohio,39,Belmont,013
+CHMA2,United States,Ohio,39,Carroll,019
+CHMA2,United States,Ohio,39,Clark,023
+CHMA2,United States,Ohio,39,Columbiana,029
+CHMA2,United States,Ohio,39,Coshocton,031
+CHMA2,United States,Ohio,39,Cuyahoga,035
+CHMA2,United States,Ohio,39,Darke,037
+CHMA2,United States,Ohio,39,Delaware,041
+CHMA2,United States,Ohio,39,Fairfield,045
+CHMA2,United States,Ohio,39,Franklin,049
+CHMA2,United States,Ohio,39,Geauga,055
+CHMA2,United States,Ohio,39,Greene,057
+CHMA2,United States,Ohio,39,Hamilton,061
+CHMA2,United States,Ohio,39,Hancock,063
+CHMA2,United States,Ohio,39,Highland,071
+CHMA2,United States,Ohio,39,Hocking,073
+CHMA2,United States,Ohio,39,Holmes,075
+CHMA2,United States,Ohio,39,Jackson,079
+CHMA2,United States,Ohio,39,Jefferson,081
+CHMA2,United States,Ohio,39,Knox,083
+CHMA2,United States,Ohio,39,Lake,085
+CHMA2,United States,Ohio,39,Licking,089
+CHMA2,United States,Ohio,39,Logan,091
+CHMA2,United States,Ohio,39,Lorain,093
+CHMA2,United States,Ohio,39,Mahoning,099
+CHMA2,United States,Ohio,39,Medina,103
+CHMA2,United States,Ohio,39,Meigs,105
+CHMA2,United States,Ohio,39,Miami,109
+CHMA2,United States,Ohio,39,Monroe,111
+CHMA2,United States,Ohio,39,Montgomery,113
+CHMA2,United States,Ohio,39,Muskingum,119
+CHMA2,United States,Ohio,39,Perry,127
+CHMA2,United States,Ohio,39,Pike,131
+CHMA2,United States,Ohio,39,Portage,133
+CHMA2,United States,Ohio,39,Richland,139
+CHMA2,United States,Ohio,39,Ross,141
+CHMA2,United States,Ohio,39,Sandusky,143
+CHMA2,United States,Ohio,39,Stark,151
+CHMA2,United States,Ohio,39,Summit,153
+CHMA2,United States,Ohio,39,Trumbull,155
+CHMA2,United States,Ohio,39,Tuscarawas,157
+CHMA2,United States,Ohio,39,Wayne,169
+CHMA2,United States,Ohio,39,Williams,171
+CHMA2,United States,Ohio,39,Wood,173
+CHMA2,United States,Ohio,39,Wyandot,175
+CHMA2,United States,Pennsylvania,42,,
+CHMA2,United States,Pennsylvania,42,Adams,001
+CHMA2,United States,Pennsylvania,42,Allegheny,003
+CHMA2,United States,Pennsylvania,42,Armstrong,005
+CHMA2,United States,Pennsylvania,42,Beaver,007
+CHMA2,United States,Pennsylvania,42,Bedford,009
+CHMA2,United States,Pennsylvania,42,Berks,011
+CHMA2,United States,Pennsylvania,42,Blair,013
+CHMA2,United States,Pennsylvania,42,Bradford,015
+CHMA2,United States,Pennsylvania,42,Bucks,017
+CHMA2,United States,Pennsylvania,42,Butler,019
+CHMA2,United States,Pennsylvania,42,Cambria,021
+CHMA2,United States,Pennsylvania,42,Cameron,023
+CHMA2,United States,Pennsylvania,42,Carbon,025
+CHMA2,United States,Pennsylvania,42,Centre,027
+CHMA2,United States,Pennsylvania,42,Chester,029
+CHMA2,United States,Pennsylvania,42,Clarion,031
+CHMA2,United States,Pennsylvania,42,Clearfield,033
+CHMA2,United States,Pennsylvania,42,Clinton,035
+CHMA2,United States,Pennsylvania,42,Columbia,037
+CHMA2,United States,Pennsylvania,42,Crawford,039
+CHMA2,United States,Pennsylvania,42,Cumberland,041
+CHMA2,United States,Pennsylvania,42,Dauphin,043
+CHMA2,United States,Pennsylvania,42,Delaware,045
+CHMA2,United States,Pennsylvania,42,Erie,049
+CHMA2,United States,Pennsylvania,42,Fayette,051
+CHMA2,United States,Pennsylvania,42,Franklin,055
+CHMA2,United States,Pennsylvania,42,Fulton,057
+CHMA2,United States,Pennsylvania,42,Greene,059
+CHMA2,United States,Pennsylvania,42,Huntingdon,061
+CHMA2,United States,Pennsylvania,42,Indiana,063
+CHMA2,United States,Pennsylvania,42,Jefferson,065
+CHMA2,United States,Pennsylvania,42,Juniata,067
+CHMA2,United States,Pennsylvania,42,Lackawanna,069
+CHMA2,United States,Pennsylvania,42,Lancaster,071
+CHMA2,United States,Pennsylvania,42,Lawrence,073
+CHMA2,United States,Pennsylvania,42,Lebanon,075
+CHMA2,United States,Pennsylvania,42,Lehigh,077
+CHMA2,United States,Pennsylvania,42,Luzerne,079
+CHMA2,United States,Pennsylvania,42,Lycoming,081
+CHMA2,United States,Pennsylvania,42,Mercer,085
+CHMA2,United States,Pennsylvania,42,Mifflin,087
+CHMA2,United States,Pennsylvania,42,Monroe,089
+CHMA2,United States,Pennsylvania,42,Montgomery,091
+CHMA2,United States,Pennsylvania,42,Northampton,095
+CHMA2,United States,Pennsylvania,42,Northumberland,097
+CHMA2,United States,Pennsylvania,42,Perry,099
+CHMA2,United States,Pennsylvania,42,Philadelphia,101
+CHMA2,United States,Pennsylvania,42,Pike,103
+CHMA2,United States,Pennsylvania,42,Potter,105
+CHMA2,United States,Pennsylvania,42,Schuylkill,107
+CHMA2,United States,Pennsylvania,42,Snyder,109
+CHMA2,United States,Pennsylvania,42,Somerset,111
+CHMA2,United States,Pennsylvania,42,Sullivan,113
+CHMA2,United States,Pennsylvania,42,Tioga,117
+CHMA2,United States,Pennsylvania,42,Union,119
+CHMA2,United States,Pennsylvania,42,Venango,121
+CHMA2,United States,Pennsylvania,42,Warren,123
+CHMA2,United States,Pennsylvania,42,Washington,125
+CHMA2,United States,Pennsylvania,42,Wayne,127
+CHMA2,United States,Pennsylvania,42,Westmoreland,129
+CHMA2,United States,Pennsylvania,42,Wyoming,131
+CHMA2,United States,Pennsylvania,42,York,133
+CHMA2,United States,Rhode Island,44,,
+CHMA2,United States,Rhode Island,44,Kent,003
+CHMA2,United States,Rhode Island,44,Newport,005
+CHMA2,United States,Rhode Island,44,Providence,007
+CHMA2,United States,Rhode Island,44,Washington,009
+CHMA2,United States,Tennessee,47,,
+CHMA2,United States,Utah,49,,
+CHMA2,United States,Vermont,50,,
+CHMA2,United States,Vermont,50,Addison,001
+CHMA2,United States,Vermont,50,Bennington,003
+CHMA2,United States,Vermont,50,Chittenden,007
+CHMA2,United States,Vermont,50,Lamoille,015
+CHMA2,United States,Vermont,50,Orange,017
+CHMA2,United States,Vermont,50,Rutland,021
+CHMA2,United States,Vermont,50,Washington,023
+CHMA2,United States,Vermont,50,Windham,025
+CHMA2,United States,Vermont,50,Windsor,027
+CHMA2,United States,Virginia,51,,
+CHMA2,United States,Virginia,51,Albemarle,003
+CHMA2,United States,Virginia,51,Amherst,009
+CHMA2,United States,Virginia,51,Arlington,013
+CHMA2,United States,Virginia,51,Augusta,015
+CHMA2,United States,Virginia,51,Bland,021
+CHMA2,United States,Virginia,51,Botetourt,023
+CHMA2,United States,Virginia,51,Campbell,031
+CHMA2,United States,Virginia,51,Caroline,033
+CHMA2,United States,Virginia,51,Clarke,043
+CHMA2,United States,Virginia,51,Craig,045
+CHMA2,United States,Virginia,51,Culpeper,047
+CHMA2,United States,Virginia,51,Cumberland,049
+CHMA2,United States,Virginia,51,Fairfax,059
+CHMA2,United States,Virginia,51,Fauquier,061
+CHMA2,United States,Virginia,51,Floyd,063
+CHMA2,United States,Virginia,51,Frederick,069
+CHMA2,United States,Virginia,51,Giles,071
+CHMA2,United States,Virginia,51,Goochland,075
+CHMA2,United States,Virginia,51,Grayson,077
+CHMA2,United States,Virginia,51,Greene,079
+CHMA2,United States,Virginia,51,Henrico,087
+CHMA2,United States,Virginia,51,Highland,091
+CHMA2,United States,Virginia,51,Loudoun,107
+CHMA2,United States,Virginia,51,Nelson,125
+CHMA2,United States,Virginia,51,New Kent,127
+CHMA2,United States,Virginia,51,Page,139
+CHMA2,United States,Virginia,51,Pulaski,155
+CHMA2,United States,Virginia,51,Rappahannock,157
+CHMA2,United States,Virginia,51,Rockbridge,163
+CHMA2,United States,Virginia,51,Rockingham,165
+CHMA2,United States,Virginia,51,Russell,167
+CHMA2,United States,Virginia,51,Shenandoah,171
+CHMA2,United States,Virginia,51,Smyth,173
+CHMA2,United States,Virginia,51,Warren,187
+CHMA2,United States,Virginia,51,Wythe,197
+CHMA2,United States,Washington,53,,
+CHMA2,United States,Washington,53,Grant,025
+CHMA2,United States,Washington,53,King,033
+CHMA2,United States,Washington,53,Okanogan,047
+CHMA2,United States,West Virginia,54,,
+CHMA2,United States,West Virginia,54,Barbour,001
+CHMA2,United States,West Virginia,54,Berkeley,003
+CHMA2,United States,West Virginia,54,Boone,005
+CHMA2,United States,West Virginia,54,Fayette,019
+CHMA2,United States,West Virginia,54,Grant,023
+CHMA2,United States,West Virginia,54,Greenbrier,025
+CHMA2,United States,West Virginia,54,Hampshire,027
+CHMA2,United States,West Virginia,54,Hancock,029
+CHMA2,United States,West Virginia,54,Hardy,031
+CHMA2,United States,West Virginia,54,Jefferson,037
+CHMA2,United States,West Virginia,54,Mercer,055
+CHMA2,United States,West Virginia,54,Mineral,057
+CHMA2,United States,West Virginia,54,Monongalia,061
+CHMA2,United States,West Virginia,54,Monroe,063
+CHMA2,United States,West Virginia,54,Ohio,069
+CHMA2,United States,West Virginia,54,Pendleton,071
+CHMA2,United States,West Virginia,54,Pocahontas,075
+CHMA2,United States,West Virginia,54,Preston,077
+CHMA2,United States,West Virginia,54,Raleigh,081
+CHMA2,United States,West Virginia,54,Summers,089
+CHMA2,United States,West Virginia,54,Upshur,097
+CHMA2,United States,Wisconsin,55,,
+CHMA2,United States,Wisconsin,55,Dane,025
+CHMA2,United States,Wisconsin,55,Door,029
+CHMA2,United States,Wisconsin,55,Fond du Lac,039
+CHMA2,United States,Wisconsin,55,Grant,043
+CHMA2,United States,Wisconsin,55,Green,045
+CHMA2,United States,Wisconsin,55,Lafayette,065
+CHMA2,United States,Wisconsin,55,Milwaukee,079
+CHMA2,United States,Wisconsin,55,Richland,103
+CHMA2,United States,Wisconsin,55,Sauk,111
+CHMA2,United States,Wisconsin,55,Sheboygan,117
+CHMA2,United States,Wisconsin,55,Vernon,123
+CHMA2,United States,Wisconsin,55,Walworth,127
+CHMA2,United States,Wisconsin,55,Waukesha,133
+CHMA2,United States,Wisconsin,55,Waupaca,135

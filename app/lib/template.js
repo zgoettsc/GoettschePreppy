@@ -119,10 +119,12 @@ export function escapeValue(s) {
 export function formatValue(v) {
   if (isEmpty(v)) return null;
   if (typeof v === 'boolean') return v ? 'yes' : 'no';
-  if (typeof v === 'number') return Number.isInteger(v) && Math.abs(v) >= 10000 ? v.toLocaleString('en-US') : String(v);
+  // schema/context.json "formatting": numbers with thousands separators, arrays as "a, b and c"
+  if (typeof v === 'number') return v.toLocaleString('en-US', { maximumFractionDigits: 2 });
   if (Array.isArray(v)) {
     const parts = v.map(formatValue).filter(x => x !== null);
-    return parts.length ? parts.join(', ') : null;
+    if (!parts.length) return null;
+    return parts.length === 1 ? parts[0] : parts.slice(0, -1).join(', ') + ' and ' + parts[parts.length - 1];
   }
   if (typeof v === 'object') return v.text != null ? formatValue(v.text) : (v.name != null ? formatValue(v.name) : null);
   return String(v);

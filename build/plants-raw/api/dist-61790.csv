@@ -1,0 +1,414 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+ALPE4,Canada,British Columbia,02,,
+ALPE4,United States,Alaska,02,,
+ALPE4,United States,Alaska,02,Juneau,110
+ALPE4,Canada,New Brunswick,04,,
+ALPE4,United States,Arkansas,05,,
+ALPE4,United States,Arkansas,05,Benton,007
+ALPE4,United States,Arkansas,05,Franklin,047
+ALPE4,United States,Arkansas,05,Washington,143
+ALPE4,Canada,Nova Scotia,07,,
+ALPE4,Canada,Ontario,08,,
+ALPE4,United States,Colorado,08,,
+ALPE4,United States,Colorado,08,El Paso,041
+ALPE4,United States,Colorado,08,Jefferson,059
+ALPE4,United States,Connecticut,09,,
+ALPE4,Canada,Quebec,10,,
+ALPE4,United States,Delaware,10,,
+ALPE4,United States,Delaware,10,New Castle,003
+ALPE4,United States,District of Columbia,11,,
+ALPE4,United States,District of Columbia,11,District of Columbia,001
+ALPE4,United States,Georgia,13,,
+ALPE4,United States,Idaho,16,,
+ALPE4,United States,Illinois,17,,
+ALPE4,United States,Illinois,17,Boone,007
+ALPE4,United States,Illinois,17,Carroll,015
+ALPE4,United States,Illinois,17,Champaign,019
+ALPE4,United States,Illinois,17,Clark,023
+ALPE4,United States,Illinois,17,Coles,029
+ALPE4,United States,Illinois,17,Cook,031
+ALPE4,United States,Illinois,17,Crawford,033
+ALPE4,United States,Illinois,17,De Witt,039
+ALPE4,United States,Illinois,17,DeKalb,037
+ALPE4,United States,Illinois,17,DuPage,043
+ALPE4,United States,Illinois,17,Grundy,063
+ALPE4,United States,Illinois,17,Jackson,077
+ALPE4,United States,Illinois,17,Kane,089
+ALPE4,United States,Illinois,17,Kendall,093
+ALPE4,United States,Illinois,17,Lake,097
+ALPE4,United States,Illinois,17,LaSalle,099
+ALPE4,United States,Illinois,17,Macon,115
+ALPE4,United States,Illinois,17,Mason,125
+ALPE4,United States,Illinois,17,McHenry,111
+ALPE4,United States,Illinois,17,Peoria,143
+ALPE4,United States,Illinois,17,Piatt,147
+ALPE4,United States,Illinois,17,Sangamon,167
+ALPE4,United States,Illinois,17,Tazewell,179
+ALPE4,United States,Illinois,17,Will,197
+ALPE4,United States,Illinois,17,Winnebago,201
+ALPE4,United States,Indiana,18,,
+ALPE4,United States,Indiana,18,Clark,019
+ALPE4,United States,Indiana,18,Harrison,061
+ALPE4,United States,Indiana,18,Madison,095
+ALPE4,United States,Indiana,18,Monroe,105
+ALPE4,United States,Indiana,18,Morgan,109
+ALPE4,United States,Indiana,18,Tippecanoe,157
+ALPE4,United States,Indiana,18,White,181
+ALPE4,United States,Iowa,19,,
+ALPE4,United States,Kansas,20,,
+ALPE4,United States,Kansas,20,Bourbon,011
+ALPE4,United States,Kansas,20,Douglas,045
+ALPE4,United States,Kansas,20,Elk,049
+ALPE4,United States,Kansas,20,Franklin,059
+ALPE4,United States,Kansas,20,Johnson,091
+ALPE4,United States,Kansas,20,Lyon,111
+ALPE4,United States,Kansas,20,Marshall,117
+ALPE4,United States,Kansas,20,Osage,139
+ALPE4,United States,Kansas,20,Riley,161
+ALPE4,United States,Kansas,20,Shawnee,177
+ALPE4,United States,Kansas,20,Wabaunsee,197
+ALPE4,United States,Kansas,20,Washington,201
+ALPE4,United States,Kansas,20,Wilson,205
+ALPE4,United States,Kentucky,21,,
+ALPE4,United States,Kentucky,21,Anderson,005
+ALPE4,United States,Kentucky,21,Barren,009
+ALPE4,United States,Kentucky,21,Boone,015
+ALPE4,United States,Kentucky,21,Bourbon,017
+ALPE4,United States,Kentucky,21,Bracken,023
+ALPE4,United States,Kentucky,21,Breckinridge,027
+ALPE4,United States,Kentucky,21,Campbell,037
+ALPE4,United States,Kentucky,21,Carroll,041
+ALPE4,United States,Kentucky,21,Carter,043
+ALPE4,United States,Kentucky,21,Clark,049
+ALPE4,United States,Kentucky,21,Edmonson,061
+ALPE4,United States,Kentucky,21,Fayette,067
+ALPE4,United States,Kentucky,21,Fleming,069
+ALPE4,United States,Kentucky,21,Franklin,073
+ALPE4,United States,Kentucky,21,Gallatin,077
+ALPE4,United States,Kentucky,21,Garrard,079
+ALPE4,United States,Kentucky,21,Grant,081
+ALPE4,United States,Kentucky,21,Greenup,089
+ALPE4,United States,Kentucky,21,Harrison,097
+ALPE4,United States,Kentucky,21,Henry,103
+ALPE4,United States,Kentucky,21,Jackson,109
+ALPE4,United States,Kentucky,21,Jefferson,111
+ALPE4,United States,Kentucky,21,Jessamine,113
+ALPE4,United States,Kentucky,21,Kenton,117
+ALPE4,United States,Kentucky,21,Laurel,125
+ALPE4,United States,Kentucky,21,Leslie,131
+ALPE4,United States,Kentucky,21,Logan,141
+ALPE4,United States,Kentucky,21,Madison,151
+ALPE4,United States,Kentucky,21,Martin,159
+ALPE4,United States,Kentucky,21,Mason,161
+ALPE4,United States,Kentucky,21,Meade,163
+ALPE4,United States,Kentucky,21,Mercer,167
+ALPE4,United States,Kentucky,21,Muhlenberg,177
+ALPE4,United States,Kentucky,21,Nelson,179
+ALPE4,United States,Kentucky,21,Nicholas,181
+ALPE4,United States,Kentucky,21,Oldham,185
+ALPE4,United States,Kentucky,21,Owen,187
+ALPE4,United States,Kentucky,21,Pendleton,191
+ALPE4,United States,Kentucky,21,Pike,195
+ALPE4,United States,Kentucky,21,Powell,197
+ALPE4,United States,Kentucky,21,Robertson,201
+ALPE4,United States,Kentucky,21,Scott,209
+ALPE4,United States,Kentucky,21,Shelby,211
+ALPE4,United States,Kentucky,21,Trimble,223
+ALPE4,United States,Kentucky,21,Union,225
+ALPE4,United States,Kentucky,21,Woodford,239
+ALPE4,United States,Maine,23,,
+ALPE4,United States,Maine,23,Penobscot,019
+ALPE4,United States,Maryland,24,,
+ALPE4,United States,Massachusetts,25,,
+ALPE4,United States,Massachusetts,25,Barnstable,001
+ALPE4,United States,Massachusetts,25,Berkshire,003
+ALPE4,United States,Massachusetts,25,Bristol,005
+ALPE4,United States,Massachusetts,25,Essex,009
+ALPE4,United States,Massachusetts,25,Franklin,011
+ALPE4,United States,Massachusetts,25,Hampden,013
+ALPE4,United States,Massachusetts,25,Hampshire,015
+ALPE4,United States,Massachusetts,25,Middlesex,017
+ALPE4,United States,Massachusetts,25,Norfolk,021
+ALPE4,United States,Massachusetts,25,Plymouth,023
+ALPE4,United States,Massachusetts,25,Suffolk,025
+ALPE4,United States,Massachusetts,25,Worcester,027
+ALPE4,United States,Michigan,26,,
+ALPE4,United States,Michigan,26,Barry,015
+ALPE4,United States,Michigan,26,Benzie,019
+ALPE4,United States,Michigan,26,Berrien,021
+ALPE4,United States,Michigan,26,Cass,027
+ALPE4,United States,Michigan,26,Eaton,045
+ALPE4,United States,Michigan,26,Gratiot,057
+ALPE4,United States,Michigan,26,Jackson,075
+ALPE4,United States,Michigan,26,Kalamazoo,077
+ALPE4,United States,Michigan,26,Kent,081
+ALPE4,United States,Michigan,26,Lenawee,091
+ALPE4,United States,Michigan,26,Mackinac,097
+ALPE4,United States,Michigan,26,Marquette,103
+ALPE4,United States,Michigan,26,Ottawa,139
+ALPE4,United States,Michigan,26,Shiawassee,155
+ALPE4,United States,Minnesota,27,,
+ALPE4,United States,Minnesota,27,Clay,027
+ALPE4,United States,Minnesota,27,Hennepin,053
+ALPE4,United States,Minnesota,27,Pine,115
+ALPE4,United States,Minnesota,27,Ramsey,123
+ALPE4,United States,Missouri,29,,
+ALPE4,United States,Nebraska,31,,
+ALPE4,United States,New Hampshire,33,,
+ALPE4,United States,New Jersey,34,,
+ALPE4,United States,New Jersey,34,Bergen,003
+ALPE4,United States,New Jersey,34,Burlington,005
+ALPE4,United States,New Jersey,34,Essex,013
+ALPE4,United States,New Jersey,34,Hudson,017
+ALPE4,United States,New Jersey,34,Hunterdon,019
+ALPE4,United States,New Jersey,34,Mercer,021
+ALPE4,United States,New Jersey,34,Middlesex,023
+ALPE4,United States,New Jersey,34,Monmouth,025
+ALPE4,United States,New Jersey,34,Morris,027
+ALPE4,United States,New Jersey,34,Passaic,031
+ALPE4,United States,New Jersey,34,Somerset,035
+ALPE4,United States,New Jersey,34,Sussex,037
+ALPE4,United States,New Jersey,34,Union,039
+ALPE4,United States,New Jersey,34,Warren,041
+ALPE4,United States,New York,36,,
+ALPE4,United States,New York,36,Albany,001
+ALPE4,United States,New York,36,Bronx,005
+ALPE4,United States,New York,36,Cattaraugus,009
+ALPE4,United States,New York,36,Cayuga,011
+ALPE4,United States,New York,36,Columbia,021
+ALPE4,United States,New York,36,Delaware,025
+ALPE4,United States,New York,36,Dutchess,027
+ALPE4,United States,New York,36,Erie,029
+ALPE4,United States,New York,36,Greene,039
+ALPE4,United States,New York,36,Kings,047
+ALPE4,United States,New York,36,Madison,053
+ALPE4,United States,New York,36,Monroe,055
+ALPE4,United States,New York,36,Nassau,059
+ALPE4,United States,New York,36,New York,061
+ALPE4,United States,New York,36,Oneida,065
+ALPE4,United States,New York,36,Onondaga,067
+ALPE4,United States,New York,36,Orange,071
+ALPE4,United States,New York,36,Otsego,077
+ALPE4,United States,New York,36,Putnam,079
+ALPE4,United States,New York,36,Queens,081
+ALPE4,United States,New York,36,Richmond,085
+ALPE4,United States,New York,36,Rockland,087
+ALPE4,United States,New York,36,Saratoga,091
+ALPE4,United States,New York,36,Schenectady,093
+ALPE4,United States,New York,36,Suffolk,103
+ALPE4,United States,New York,36,Sullivan,105
+ALPE4,United States,New York,36,Ulster,111
+ALPE4,United States,New York,36,Westchester,119
+ALPE4,United States,North Carolina,37,,
+ALPE4,United States,North Carolina,37,Rockingham,157
+ALPE4,United States,North Dakota,38,,
+ALPE4,United States,North Dakota,38,Cass,017
+ALPE4,United States,Ohio,39,,
+ALPE4,United States,Ohio,39,Ashland,005
+ALPE4,United States,Ohio,39,Ashtabula,007
+ALPE4,United States,Ohio,39,Belmont,013
+ALPE4,United States,Ohio,39,Butler,017
+ALPE4,United States,Ohio,39,Carroll,019
+ALPE4,United States,Ohio,39,Champaign,021
+ALPE4,United States,Ohio,39,Clark,023
+ALPE4,United States,Ohio,39,Clinton,027
+ALPE4,United States,Ohio,39,Columbiana,029
+ALPE4,United States,Ohio,39,Crawford,033
+ALPE4,United States,Ohio,39,Cuyahoga,035
+ALPE4,United States,Ohio,39,Delaware,041
+ALPE4,United States,Ohio,39,Erie,043
+ALPE4,United States,Ohio,39,Fairfield,045
+ALPE4,United States,Ohio,39,Franklin,049
+ALPE4,United States,Ohio,39,Hamilton,061
+ALPE4,United States,Ohio,39,Henry,069
+ALPE4,United States,Ohio,39,Knox,083
+ALPE4,United States,Ohio,39,Lake,085
+ALPE4,United States,Ohio,39,Lawrence,087
+ALPE4,United States,Ohio,39,Lorain,093
+ALPE4,United States,Ohio,39,Lucas,095
+ALPE4,United States,Ohio,39,Marion,101
+ALPE4,United States,Ohio,39,Ottawa,123
+ALPE4,United States,Ohio,39,Portage,133
+ALPE4,United States,Ohio,39,Richland,139
+ALPE4,United States,Ohio,39,Ross,141
+ALPE4,United States,Ohio,39,Sandusky,143
+ALPE4,United States,Ohio,39,Seneca,147
+ALPE4,United States,Ohio,39,Stark,151
+ALPE4,United States,Ohio,39,Summit,153
+ALPE4,United States,Ohio,39,Trumbull,155
+ALPE4,United States,Ohio,39,Van Wert,161
+ALPE4,United States,Ohio,39,Warren,165
+ALPE4,United States,Ohio,39,Washington,167
+ALPE4,United States,Ohio,39,Wood,173
+ALPE4,United States,Ohio,39,Wyandot,175
+ALPE4,United States,Oklahoma,40,,
+ALPE4,United States,Oregon,41,,
+ALPE4,United States,Oregon,41,Lane,039
+ALPE4,United States,Oregon,41,Multnomah,051
+ALPE4,United States,Oregon,41,Wallowa,063
+ALPE4,United States,Pennsylvania,42,,
+ALPE4,United States,Pennsylvania,42,Adams,001
+ALPE4,United States,Pennsylvania,42,Allegheny,003
+ALPE4,United States,Pennsylvania,42,Armstrong,005
+ALPE4,United States,Pennsylvania,42,Beaver,007
+ALPE4,United States,Pennsylvania,42,Bedford,009
+ALPE4,United States,Pennsylvania,42,Berks,011
+ALPE4,United States,Pennsylvania,42,Blair,013
+ALPE4,United States,Pennsylvania,42,Bradford,015
+ALPE4,United States,Pennsylvania,42,Bucks,017
+ALPE4,United States,Pennsylvania,42,Butler,019
+ALPE4,United States,Pennsylvania,42,Centre,027
+ALPE4,United States,Pennsylvania,42,Chester,029
+ALPE4,United States,Pennsylvania,42,Clarion,031
+ALPE4,United States,Pennsylvania,42,Cumberland,041
+ALPE4,United States,Pennsylvania,42,Dauphin,043
+ALPE4,United States,Pennsylvania,42,Delaware,045
+ALPE4,United States,Pennsylvania,42,Erie,049
+ALPE4,United States,Pennsylvania,42,Forest,053
+ALPE4,United States,Pennsylvania,42,Franklin,055
+ALPE4,United States,Pennsylvania,42,Fulton,057
+ALPE4,United States,Pennsylvania,42,Greene,059
+ALPE4,United States,Pennsylvania,42,Huntingdon,061
+ALPE4,United States,Pennsylvania,42,Lancaster,071
+ALPE4,United States,Pennsylvania,42,Lawrence,073
+ALPE4,United States,Pennsylvania,42,Lehigh,077
+ALPE4,United States,Pennsylvania,42,Luzerne,079
+ALPE4,United States,Pennsylvania,42,Montgomery,091
+ALPE4,United States,Pennsylvania,42,Montour,093
+ALPE4,United States,Pennsylvania,42,Northampton,095
+ALPE4,United States,Pennsylvania,42,Northumberland,097
+ALPE4,United States,Pennsylvania,42,Philadelphia,101
+ALPE4,United States,Pennsylvania,42,Pike,103
+ALPE4,United States,Pennsylvania,42,Somerset,111
+ALPE4,United States,Pennsylvania,42,Venango,121
+ALPE4,United States,Pennsylvania,42,Warren,123
+ALPE4,United States,Pennsylvania,42,Washington,125
+ALPE4,United States,Pennsylvania,42,Westmoreland,129
+ALPE4,United States,Pennsylvania,42,York,133
+ALPE4,United States,South Carolina,45,,
+ALPE4,United States,Tennessee,47,,
+ALPE4,United States,Tennessee,47,Anderson,001
+ALPE4,United States,Tennessee,47,Bedford,003
+ALPE4,United States,Tennessee,47,Cocke,029
+ALPE4,United States,Tennessee,47,Coffee,031
+ALPE4,United States,Tennessee,47,Cumberland,035
+ALPE4,United States,Tennessee,47,Davidson,037
+ALPE4,United States,Tennessee,47,Grundy,061
+ALPE4,United States,Tennessee,47,Lake,095
+ALPE4,United States,Tennessee,47,Lincoln,103
+ALPE4,United States,Tennessee,47,Marshall,117
+ALPE4,United States,Tennessee,47,Montgomery,125
+ALPE4,United States,Tennessee,47,Robertson,147
+ALPE4,United States,Tennessee,47,Rutherford,149
+ALPE4,United States,Tennessee,47,Sevier,155
+ALPE4,United States,Tennessee,47,Smith,159
+ALPE4,United States,Tennessee,47,Sullivan,163
+ALPE4,United States,Utah,49,,
+ALPE4,United States,Utah,49,Summit,043
+ALPE4,United States,Vermont,50,,
+ALPE4,United States,Vermont,50,Grand Isle,013
+ALPE4,United States,Vermont,50,Windsor,027
+ALPE4,United States,Virginia,51,,
+ALPE4,United States,Virginia,51,Albemarle,003
+ALPE4,United States,Virginia,51,Alleghany,005
+ALPE4,United States,Virginia,51,Amherst,009
+ALPE4,United States,Virginia,51,Appomattox,011
+ALPE4,United States,Virginia,51,Arlington,013
+ALPE4,United States,Virginia,51,Augusta,015
+ALPE4,United States,Virginia,51,Bath,017
+ALPE4,United States,Virginia,51,Bedford,019
+ALPE4,United States,Virginia,51,Botetourt,023
+ALPE4,United States,Virginia,51,Buckingham,029
+ALPE4,United States,Virginia,51,Campbell,031
+ALPE4,United States,Virginia,51,Caroline,033
+ALPE4,United States,Virginia,51,Charles City,036
+ALPE4,United States,Virginia,51,Charlotte,037
+ALPE4,United States,Virginia,51,Chesterfield,041
+ALPE4,United States,Virginia,51,Clarke,043
+ALPE4,United States,Virginia,51,Craig,045
+ALPE4,United States,Virginia,51,Culpeper,047
+ALPE4,United States,Virginia,51,Cumberland,049
+ALPE4,United States,Virginia,51,Fairfax,059
+ALPE4,United States,Virginia,51,Fauquier,061
+ALPE4,United States,Virginia,51,Fluvanna,065
+ALPE4,United States,Virginia,51,Frederick,069
+ALPE4,United States,Virginia,51,Giles,071
+ALPE4,United States,Virginia,51,Goochland,075
+ALPE4,United States,Virginia,51,Greene,079
+ALPE4,United States,Virginia,51,Halifax,083
+ALPE4,United States,Virginia,51,Henrico,087
+ALPE4,United States,Virginia,51,Henry,089
+ALPE4,United States,Virginia,51,Loudoun,107
+ALPE4,United States,Virginia,51,Louisa,109
+ALPE4,United States,Virginia,51,Madison,113
+ALPE4,United States,Virginia,51,Montgomery,121
+ALPE4,United States,Virginia,51,Nelson,125
+ALPE4,United States,Virginia,51,New Kent,127
+ALPE4,United States,Virginia,51,Orange,137
+ALPE4,United States,Virginia,51,Page,139
+ALPE4,United States,Virginia,51,Pittsylvania,143
+ALPE4,United States,Virginia,51,Powhatan,145
+ALPE4,United States,Virginia,51,Prince William,153
+ALPE4,United States,Virginia,51,Rappahannock,157
+ALPE4,United States,Virginia,51,Rockbridge,163
+ALPE4,United States,Virginia,51,Rockingham,165
+ALPE4,United States,Virginia,51,Scott,169
+ALPE4,United States,Virginia,51,Shenandoah,171
+ALPE4,United States,Virginia,51,Smyth,173
+ALPE4,United States,Virginia,51,Spotsylvania,177
+ALPE4,United States,Virginia,51,Stafford,179
+ALPE4,United States,Virginia,51,Warren,187
+ALPE4,United States,Virginia,51,Washington,191
+ALPE4,United States,Virginia,51,York,199
+ALPE4,United States,Washington,53,,
+ALPE4,United States,Washington,53,King,033
+ALPE4,United States,West Virginia,54,,
+ALPE4,United States,West Virginia,54,Berkeley,003
+ALPE4,United States,West Virginia,54,Brooke,009
+ALPE4,United States,West Virginia,54,Fayette,019
+ALPE4,United States,West Virginia,54,Grant,023
+ALPE4,United States,West Virginia,54,Greenbrier,025
+ALPE4,United States,West Virginia,54,Hampshire,027
+ALPE4,United States,West Virginia,54,Hardy,031
+ALPE4,United States,West Virginia,54,Jefferson,037
+ALPE4,United States,West Virginia,54,Kanawha,039
+ALPE4,United States,West Virginia,54,Lewis,041
+ALPE4,United States,West Virginia,54,Marshall,051
+ALPE4,United States,West Virginia,54,Mercer,055
+ALPE4,United States,West Virginia,54,Mineral,057
+ALPE4,United States,West Virginia,54,Monongalia,061
+ALPE4,United States,West Virginia,54,Morgan,065
+ALPE4,United States,West Virginia,54,Ohio,069
+ALPE4,United States,West Virginia,54,Pendleton,071
+ALPE4,United States,West Virginia,54,Pocahontas,075
+ALPE4,United States,West Virginia,54,Preston,077
+ALPE4,United States,West Virginia,54,Summers,089
+ALPE4,United States,West Virginia,54,Webster,101
+ALPE4,United States,Wisconsin,55,,
+ALPE4,United States,Wisconsin,55,Brown,009
+ALPE4,United States,Wisconsin,55,Calumet,015
+ALPE4,United States,Wisconsin,55,Columbia,021
+ALPE4,United States,Wisconsin,55,Crawford,023
+ALPE4,United States,Wisconsin,55,Dane,025
+ALPE4,United States,Wisconsin,55,Door,029
+ALPE4,United States,Wisconsin,55,Forest,041
+ALPE4,United States,Wisconsin,55,Grant,043
+ALPE4,United States,Wisconsin,55,Green,045
+ALPE4,United States,Wisconsin,55,Jefferson,055
+ALPE4,United States,Wisconsin,55,Kenosha,059
+ALPE4,United States,Wisconsin,55,Lafayette,065
+ALPE4,United States,Wisconsin,55,Langlade,067
+ALPE4,United States,Wisconsin,55,Manitowoc,071
+ALPE4,United States,Wisconsin,55,Milwaukee,079
+ALPE4,United States,Wisconsin,55,Outagamie,087
+ALPE4,United States,Wisconsin,55,Ozaukee,089
+ALPE4,United States,Wisconsin,55,Racine,101
+ALPE4,United States,Wisconsin,55,Rock,105
+ALPE4,United States,Wisconsin,55,Sauk,111
+ALPE4,United States,Wisconsin,55,Sheboygan,117
+ALPE4,United States,Wisconsin,55,Vernon,123
+ALPE4,United States,Wisconsin,55,Walworth,127
+ALPE4,United States,Wisconsin,55,Washington,131
+ALPE4,United States,Wisconsin,55,Waukesha,133
+ALPE4,United States,Wisconsin,55,Wood,141

@@ -32,7 +32,7 @@ household with no clinic can take. This page covers when and how to wash, a low-
 handwashing station you can build, washing the body when water is short, and children.
 
 > **SAFETY.** Handwashing with soap breaks the chain that carries germs from human waste to
-> mouths (the "faecal-oral" route), which causes diarrhoeal illness: the most likely serious
+> mouths (the "fecal-oral" route), which causes diarrheal illness: the most likely serious
 > health problem a household will face without services (→ 12-05). It costs a little water and
 > a bar of soap.
 >
@@ -46,7 +46,7 @@ handwashing station you can build, washing the body when water is short, and chi
 2. **Build a handwashing station** at the toilet (→ 13-01) and at the kitchen: **a jug with a
    spigot, soap and a towel.** It has to be effortless or it will not happen.
 3. **Learn the tippy-tap** (below). It uses very little water per wash.
-4. **Stock alcohol-based hand sanitiser with at least 60 percent alcohol** (CDC) for when
+4. **Stock alcohol-based hand sanitizer with at least 60 percent alcohol** (CDC) for when
    water is short or you are on the move. Know its limits: it works less well on visibly
    dirty or greasy hands, and it does not work on everything (not norovirus, the "stomach
    bug", → 13-11).
@@ -63,7 +63,7 @@ Washing at the *right times* beats washing constantly. The CDC says wash hands:
 - **Before and after caring for anyone who is sick** (→ 13-11)
 - **Before and after treating a wound or changing a dressing** (→ 12-02)
 - **After touching animals, animal feed or animal waste** (→ 20-09, → 05-04)
-- **After handling rubbish** (→ 13-03)
+- **After handling trash** (→ 13-03)
 - **After blowing your nose, coughing or sneezing**
 - **After touching anything from outside the household** during an outbreak
 
@@ -118,7 +118,7 @@ Handwashing competes with drinking water (→ 03-01). Be deliberate:
   - **the final rinse before preparing food, and before handling an infant, is treated water.**
 
   Your household's handwashing-water rule: ______________________________
-- **Hand sanitiser (at least 60 percent alcohol)** where water is truly scarce. The CDC says it
+- **Hand sanitizer (at least 60 percent alcohol)** where water is truly scarce. The CDC says it
   works less well on visibly dirty hands and does not handle everything (not norovirus), so it
   is a supplement, not a replacement.
 - **Do not cut handwashing below the key moments.** If water is that short, the answer is the
@@ -161,7 +161,7 @@ The priorities:
 |---|---|---|
 | **Bar soap, a large stock** | The cheapest, most valuable medical supply | Keeps for years cool and dry |
 | Liquid soap and refills | Convenient at stations | Bar soap stores better |
-| **Hand sanitiser, at least 60 percent alcohol** | Backup when water is scarce or on the move | Not for norovirus; not on dirty hands |
+| **Hand sanitizer, at least 60 percent alcohol** | Backup when water is scarce or on the move | Not for norovirus; not on dirty hands |
 | Jugs with spigots, two or three | Stations at toilet and kitchen | Or build tippy-taps |
 | Basins or wash tubs, two or three | Basin washing; kept apart from dish tubs | Label them |
 | Washcloths and towels, many | Basin washing; rotate and wash | → 13-04 |
@@ -177,8 +177,8 @@ The priorities:
   own** (→ 13-09).
 - **A station:** a jug with a nail hole, a bottle with a pinhole in the cap, a tippy-tap from
   sticks and cord, a bucket with a hardware-store spigot.
-- **Sanitiser:** it must be **at least 60 percent alcohol** (CDC). 70 percent isopropyl rubbing
-  alcohol works. 40 to 50 percent spirits (vodka, whisky) and 50 percent rubbing alcohol do
+- **Sanitizer:** it must be **at least 60 percent alcohol** (CDC). 70 percent isopropyl rubbing
+  alcohol works. 40 to 50 percent spirits (vodka, whiskey) and 50 percent rubbing alcohol do
   **not**. **Do not improvise strengths**: weak alcohol does not work.
 - **Towels:** any clean cloth, dried between uses. **Damp towels grow bacteria.**
 - **Ash and sand** scrub hands when there is no soap. Better than nothing, and a real
@@ -187,13 +187,13 @@ The priorities:
 ## When it runs out
 
 - **Soap is the one to plan for, and you can make it** (→ 13-09). Ash from the stove plus
-  rendered fat is a renewable supply. **Practise before you need it.**
+  rendered fat is a renewable supply. **Practice before you need it.**
 - **Runway:** a bar of soap lasts a household a surprisingly long time for handwashing. Count
   bars and put them in the consumables table (→ 23-02). Soap competes with nothing; there is no
   reason to under-stock it.
 - **Ration:** wash at the key moments rather than constantly; use tippy-taps; never go below
   the key moments.
-- **Substitute:** ash and sand scrubbing; hand sanitiser; and **more careful behaviour**: not
+- **Substitute:** ash and sand scrubbing; hand sanitizer; and **more careful behavior**: not
   touching your face, keeping the waste system separate, keeping small children's hands out of
   their mouths as far as possible.
 - **It compounds both ways.** Good hygiene prevents illness, which saves water, energy,
@@ -205,7 +205,7 @@ The priorities:
 - **A (sheltering at home):** water is still around, so make hygiene **easy and strict**. Build
   the stations, set the habits, and get children's routines in place now, so they survive later
   fatigue.
-- **B (moving):** hygiene slips exactly when illness risk rises. **Hand sanitiser and a small
+- **B (moving):** hygiene slips exactly when illness risk rises. **Hand sanitizer and a small
   bar of soap per person**; wash properly at every real water source; be strict before eating
   and after any waste handling.
 - **C (rural or at a destination):** more animals, more dirt, more hard work, further from care.

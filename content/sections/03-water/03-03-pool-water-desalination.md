@@ -36,7 +36,7 @@ and how to distil it (boil it and collect the steam) when you must.
 > - **A saltwater pool cannot be made drinkable by boiling, bleach or an ordinary filter.**
 >   None of them removes salt, and drinking salt water makes dehydration worse. Only
 >   **distillation** removes salt.
-> - **Pool and hot tub water also holds chemicals:** chlorine or bromine, stabiliser
+> - **Pool and hot tub water also holds chemicals:** chlorine or bromine, stabilizer
 >   (cyanuric acid), and sometimes algaecide or metals. Distillation removes salts and most of
 >   these.
 > - **Floor:** bleach or pool shock is never mixed with ammonia, acids or other cleaners.
@@ -62,8 +62,8 @@ and how to distil it (boil it and collect the steam) when you must.
 
 | Water | What is in it | Without distilling it is | To drink |
 |---|---|---|---|
-| **Saltwater pool** (salt chlorinator) | Dissolved salt, chlorine made from the salt, stabiliser, maybe algaecide or metals | Utility water only | **Distil.** No other home method removes salt |
-| **Chlorine pool** (fresh water) | Chlorine, stabiliser, maybe algaecide or metals; bacteria and algae once the pump stops | Utility water | Distil; or the household's choice on → 30-14 |
+| **Saltwater pool** (salt chlorinator) | Dissolved salt, chlorine made from the salt, stabilizer, maybe algaecide or metals | Utility water only | **Distil.** No other home method removes salt |
+| **Chlorine pool** (fresh water) | Chlorine, stabilizer, maybe algaecide or metals; bacteria and algae once the pump stops | Utility water | Distil; or the household's choice on → 30-14 |
 | **Hot tub or spa** | Bromine or chlorine, body oils and sweat from bathers, often a warm breeding ground for germs | Utility water | Distil; or the household's choice on → 30-14 |
 
 A home saltwater pool is much less salty than the sea, but **far too salty to drink**. Your
@@ -71,7 +71,7 @@ salt chlorinator's manual gives the salt level it runs at; write it here: ______
 means parts per million, → 29-05). Less salty does not mean safe to sip.
 
 **The trade-off for fresh pools and hot tubs, in one sentence:** filtering and chlorinating
-a fresh pool uses far less fuel than distilling it, but leaves in the stabiliser, algaecide
+a fresh pool uses far less fuel than distilling it, but leaves in the stabilizer, algaecide
 and any metals that distilling would remove, and hot tubs start dirtier than pools. The card
 lays out the risks and options (→ 30-14).
 
@@ -115,7 +115,7 @@ outside the pot captures nearly all of it: same fire, several times the water.
   handles steam. Food-grade silicone tubing is fine for a short flexible joint. **Never use
   vinyl or PVC tubing**: it releases chemicals at steam temperature.
 - **A lid you can seal the tube into:** drill a spare pot lid and fit a compression or barbed
-  fitting, or, with no tools, seal heavy aluminium foil over the pot with the tube pushed
+  fitting, or, with no tools, seal heavy aluminum foil over the pot with the tube pushed
   through and crimped tight.
 - **A cooling bath:** a bucket or basin of cold water (snow in winter works well) that the
   copper coil runs through, sloping **downhill** the whole way to the collection jar.
@@ -156,22 +156,22 @@ the pot.
   seal is leaking boiling splash into the tube. Reseat the seal and fix the slope.
 
 **Do not distil on battery power.** Turning water to steam takes roughly **700 to 1,400
-watt-hours per litre**, against about 110 watt-hours just to boil a litre for purification.
+watt-hours per liter**, against about 110 watt-hours just to boil a liter for purification.
 {{#if has.power_station}}Your power stations hold about {{ gear.station_wh_total }} watt-hours
-in total: divide that by 700 to 1,400 to see how few litres a full charge would make.{{else}}A
-large 2,000 watt-hour power station would make only about 1.5 to 3 litres.{{/if}}
+in total: divide that by 700 to 1,400 to see how few liters a full charge would make.{{else}}A
+large 2,000 watt-hour power station would make only about 1.5 to 3 liters.{{/if}}
 Distillation is a wood-fire job. An electric countertop distiller running on a strong solar
-day nets only a few litres: useful for drinking water, never the household's supply
+day nets only a few liters: useful for drinking water, never the household's supply
 (→ 09-02).
 
 ## Gear and supplies
 
 | Item | Why | Notes |
 |---|---|---|
-| Large stockpot with a domed lid that can sit upside down | The still | Stainless steel; a rounded lid sends drips to the centre |
+| Large stockpot with a domed lid that can sit upside down | The still | Stainless steel; a rounded lid sends drips to the center |
 | Heat-safe cup and wire or cord | Catches the distilled water | A metal cup will not melt |
 | 10 to 20 ft soft copper tubing, 3/8 to 1/2 inch, and a fitting | The tube still | Never vinyl tubing |
-| A drilled spare lid, or heavy aluminium foil | Seals the tube into the pot | Foil needs no tools |
+| A drilled spare lid, or heavy aluminum foil | Seals the tube into the pot | Foil needs no tools |
 | Cloth or coffee filters | Pre-filter | Cheap; stock many |
 | Unscented bleach or pool shock | Disinfecting distilled water before storage | **Dose only from → 03-04.** Pool shock only by the two-step method there, never as dry granules |
 | TDS meter | Confirms the still is working | Reads near zero on good distillate |
@@ -180,11 +180,11 @@ day nets only a few litres: useful for drinking water, never the household's sup
 
 **If you don't have it:**
 
-- Any pot with a bowl set inside and an upside-down domed lid is a still. Weight the centre of
+- Any pot with a bowl set inside and an upside-down domed lid is a still. Weight the center of
   the lid so drips fall into the bowl.
 - Clear tubing and two sealed containers over heat make a rough condenser.
 - Plastic sheeting over a frame floating on the pool surface makes a solar still: roughly a
-  litre per square metre per day for no fuel.
+  liter per square meter per day for no fuel.
 
 ## When it runs out
 

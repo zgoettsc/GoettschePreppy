@@ -43,7 +43,7 @@ for months of this, not a two-week outage.{{/if}}
 
 ## Do this now
 
-1. **Winterise before the first hard freeze** (→ 08-03): insulate exposed pipes, seal the
+1. **Winterize before the first hard freeze** (→ 08-03): insulate exposed pipes, seal the
    crawlspace and the gaps where the walls meet the foundation, keep cabinet doors open on
    outside-wall plumbing, and know where the main shutoff is.
 2. **Decide now whether you will drain the plumbing** if the house goes unheated. It is the
@@ -80,7 +80,7 @@ insects. **Winter is easier for *storing* waste even as it is harder for *handli
 
 Your main water shutoff is at: __________ (→ 22-04).
 
-**Prevention beats all of it:** insulate, seal draughts near outside-wall plumbing, keep a
+**Prevention beats all of it:** insulate, seal drafts near outside-wall plumbing, keep a
 **slow drip running** through pipes at risk during extreme cold, and keep cabinet doors open so
 warm air reaches the pipes.
 
@@ -179,7 +179,7 @@ warms up.
   containers, water from snow and storage.
 - **B (moving):** **avoid moving in deep winter unless you must** (→ 01-02). Sanitation on the
   move in hard cold means ground too frozen to dig, worse hygiene, and cold injury while doing
-  it. Carry hand sanitiser and deal with waste well away from water and camp.
+  it. Carry hand sanitizer and deal with waste well away from water and camp.
 - **C (rural or at a destination):** you cannot dig a latrine in frozen ground, so **dig it in
   autumn** (→ 13-07). A septic system benefits from regular use and an insulating cover of snow
   or straw over the drain field (EPA). Plan the whole winter system before the first freeze.
@@ -188,4 +188,4 @@ warms up.
 
 → 13-01 human waste · → 13-02 hygiene · → 13-06 composting toilet · → 13-07 latrine siting ·
 → 13-03 greywater · → 03-06 winter water · → 03-02 draining the water heater ·
-→ 08-03 winterising · → 08-01 heating one room · → 17-01 blizzards and ice
+→ 08-03 winterizing · → 08-01 heating one room · → 17-01 blizzards and ice

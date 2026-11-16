@@ -27,6 +27,7 @@ import { renderPageMarkdown, markdownToHtml, articleHtml, buildLabels, esc } fro
 import { localChecks, checkAiText, modelReview, ownerTokenRegexes, URL_RE } from './review.js';
 import { MODEL, messageText } from './relay-client.js';
 import { sourceBlock, toBase64 } from './sources.js';
+import { mapTargets, fetchTopoMaps } from './maps.js';
 import { shellParts, jsonEmbed } from '../binder/shell.js';
 
 export const REVIEW_NOTES_ID = '25-11-review-notes';
@@ -310,7 +311,7 @@ export async function generateBinder(profile, kit, opts = {}) {
       let text = prev?.ai?.[key] ?? null;
       if (text === null && job.spec && countCalls) {
         try {
-          const msg = await countCalls.messages(aiRequest(job, system, rendered.get(job.page)?.page.title || job.page), { signal });
+          const msg = await countCalls.messages(aiRequest(job, system, rendered.get(job.page)?.page.title || job.page), { signal, fallback: opts.refusalFallback });
           if (msg.stop_reason === 'refusal') notes.push({ page: job.page, pass: 'ai-blocks', severity: 'warning', fixed: false, message: `The model declined to write the "${job.id}" passage; fill it in by hand.` });
           else if (msg.stop_reason === 'max_tokens') notes.push({ page: job.page, pass: 'ai-blocks', severity: 'warning', fixed: false, message: `The "${job.id}" passage was cut off and left out; fill it in by hand.` });
           else text = messageText(msg).trim();
@@ -352,7 +353,7 @@ export async function generateBinder(profile, kit, opts = {}) {
     modelSkipped = 'results reused from the earlier build of the same answers';
   } else if (opts.modelReview !== false && countCalls && toModel.length) {
     const reviewPages = toModel.map(r => ({ id: r.page.id, layer: r.page.layer, danger_level: r.page.danger_level, title: r.page.title, md: r.md }));
-    const res = await modelReview(reviewPages, { relay: countCalls, kit, ctx, signal, onProgress: opts.onProgress });
+    const res = await modelReview(reviewPages, { relay: countCalls, kit, ctx, signal, onProgress: opts.onProgress, fallback: opts.refusalFallback });
     for (const p of reviewPages) rendered.get(p.id).md = p.md;
     notes.push(...res.findings); report.fixes.push(...res.fixes);
   } else modelSkipped = countCalls ? 'model review switched off for this build' : 'no relay: model review not run';
@@ -397,21 +398,15 @@ export async function generateBinder(profile, kit, opts = {}) {
       }
       progress('sources', ++done, keys.length, 'Binding source documents');
     });
-    // maps (G16): home county and destinations, when the region data names them
-    const maps = [];
-    for (const r of [ctx.region.home, ...ctx.destinations.map(d => d.region)]) {
-      const st = kit.maps?.[r.state]?.[r.county] || [];
-      for (const m of st) maps.push(m);
-    }
-    for (const [n, m] of maps.entries()) {
-      try {
-        const r = relay ? await relay.fetchMap(m.url, { signal }) : { ok: false, status: 0 };
-        if (r.ok) {
-          if (!srcParts.has('25')) srcParts.set('25', []);
-          srcParts.get('25').push({ key: `map-${n}`, parts: sourceBlock({ key: `map-${n}`, src: { title: m.title, org: 'U.S. Geological Survey', date: m.date || '' }, bytes: r.bytes, contentType: r.contentType }, { citedBy: [], sectionNo: '25' }) });
-        } else notCaptured.push({ key: `map-${n}`, title: m.title, org: 'U.S. Geological Survey', reason: 'map download failed', citedBy: [] });
-      } catch (e) { if (e.name === 'AbortError') throw e; }
-    }
+    // maps (G16): home county, destinations and the counties on the straight line between
+    const maps = await fetchTopoMaps(relay, mapTargets(kit, ctx), { maxMaps: opts.maxMaps ?? 12, signal });
+    maps.forEach((m, n) => {
+      if (m.ok) {
+        if (!srcParts.has('25')) srcParts.set('25', []);
+        srcParts.get('25').push({ key: `map-${String(n).padStart(2, '0')}`, parts: sourceBlock({ key: `map-${String(n).padStart(2, '0')}`, src: { title: m.title, org: 'U.S. Geological Survey', date: m.date || '', licence_note: `Public domain. ${m.why}.` }, bytes: m.bytes, contentType: m.contentType }, { citedBy: [], sectionNo: '25' }) });
+        report.maps = (report.maps || 0) + 1;
+      } else notCaptured.push({ key: `map-${n}`, title: m.title, org: 'U.S. Geological Survey', reason: `${m.reason} (${m.why})`, citedBy: [] });
+    });
   } else {
     for (const [key, citedBy] of cited) { const s = kit.sources?.[key]; if (!s) notes.push({ page: citedBy[0], pass: 'sources', severity: 'info', fixed: false, message: `Cited source "${key}" is not in the source index.` }); }
   }

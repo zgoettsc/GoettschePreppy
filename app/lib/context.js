@@ -163,6 +163,7 @@ export function buildContext(profile, kit = {}, opts = {}) {
       member: m.label, name: nz(x.name) ?? null, strength: nz(x.strength) ?? null, schedule: nz(x.schedule) ?? null,
       refrigerated: x.refrigerated === true ? 'yes' : x.refrigerated === false ? 'no' : null,
       if_missed: nz(x.if_missed) ?? null,
+      days_on_hand: num(x.days_on_hand),
       text: [x.name, x.strength].filter(Boolean).join(' '),
     }));
     const mAll = (m.allergies || []).map(x => ({
@@ -363,6 +364,14 @@ export function buildContext(profile, kit = {}, opts = {}) {
     derived,
     region: { home: regHome },
     members, meds, allergies, pets, livestock, destinations, local_contacts, heaters, stations, panels, vehicles,
+    // member subsets (same fields as members)
+    adults: members.filter(m => ['adult', 'elder'].includes(membersRaw[members.indexOf(m)].role)),
+    children: members.filter(m => (m.age_months ?? 999) < 156 || ['child', 'infant-toddler'].includes(membersRaw[members.indexOf(m)].role)),
+    infants: members.filter(m => m.age_months !== null ? m.age_months < 24 : membersRaw[members.indexOf(m)].role === 'infant-toddler'),
+    teens: members.filter(m => (m.age_months !== null && m.age_months >= 156 && m.age_months < 216) || membersRaw[members.indexOf(m)].role === 'teen'),
+    elders: members.filter(m => (m.age_months ?? 0) > 840 || membersRaw[members.indexOf(m)].role === 'elder'),
+    refrigerated_meds: meds.filter(x => x.refrigerated === 'yes'),
+    agreed_destinations: destinations.filter(d => d.status === 'agreed'),
     has, is, experience,
     size: { large: opts.size === 'large' },
     // not template paths; used by generate.js

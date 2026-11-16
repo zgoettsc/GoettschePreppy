@@ -1,0 +1,224 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+ASMO7,United States,Arizona,04,,
+ASMO7,United States,Arizona,04,Apache,001
+ASMO7,United States,Arizona,04,Cochise,003
+ASMO7,United States,Arizona,04,Coconino,005
+ASMO7,United States,Arizona,04,Gila,007
+ASMO7,United States,Arizona,04,Navajo,017
+ASMO7,United States,Arizona,04,Pima,019
+ASMO7,United States,Arizona,04,Santa Cruz,023
+ASMO7,United States,Colorado,08,,
+ASMO7,United States,Colorado,08,Adams,001
+ASMO7,United States,Colorado,08,Baca,009
+ASMO7,United States,Colorado,08,Bent,011
+ASMO7,United States,Colorado,08,Cheyenne,017
+ASMO7,United States,Colorado,08,Delta,029
+ASMO7,United States,Colorado,08,Dolores,033
+ASMO7,United States,Colorado,08,El Paso,041
+ASMO7,United States,Colorado,08,Kiowa,061
+ASMO7,United States,Colorado,08,Kit Carson,063
+ASMO7,United States,Colorado,08,Larimer,069
+ASMO7,United States,Colorado,08,Las Animas,071
+ASMO7,United States,Colorado,08,Lincoln,073
+ASMO7,United States,Colorado,08,Mesa,077
+ASMO7,United States,Colorado,08,Montezuma,083
+ASMO7,United States,Colorado,08,Montrose,085
+ASMO7,United States,Colorado,08,Park,093
+ASMO7,United States,Colorado,08,Pueblo,101
+ASMO7,United States,Colorado,08,San Miguel,113
+ASMO7,United States,Colorado,08,Sedgwick,115
+ASMO7,United States,Colorado,08,Weld,123
+ASMO7,United States,Colorado,08,Yuma,125
+ASMO7,United States,Kansas,20,,
+ASMO7,United States,Kansas,20,Barber,007
+ASMO7,United States,Kansas,20,Cheyenne,023
+ASMO7,United States,Kansas,20,Clark,025
+ASMO7,United States,Kansas,20,Comanche,033
+ASMO7,United States,Kansas,20,Decatur,039
+ASMO7,United States,Kansas,20,Edwards,047
+ASMO7,United States,Kansas,20,Ellis,051
+ASMO7,United States,Kansas,20,Finney,055
+ASMO7,United States,Kansas,20,Ford,057
+ASMO7,United States,Kansas,20,Gove,063
+ASMO7,United States,Kansas,20,Graham,065
+ASMO7,United States,Kansas,20,Grant,067
+ASMO7,United States,Kansas,20,Gray,069
+ASMO7,United States,Kansas,20,Greeley,071
+ASMO7,United States,Kansas,20,Hamilton,075
+ASMO7,United States,Kansas,20,Harper,077
+ASMO7,United States,Kansas,20,Haskell,081
+ASMO7,United States,Kansas,20,Hodgeman,083
+ASMO7,United States,Kansas,20,Kearny,093
+ASMO7,United States,Kansas,20,Kingman,095
+ASMO7,United States,Kansas,20,Kiowa,097
+ASMO7,United States,Kansas,20,Lane,101
+ASMO7,United States,Kansas,20,Logan,109
+ASMO7,United States,Kansas,20,Meade,119
+ASMO7,United States,Kansas,20,Morton,129
+ASMO7,United States,Kansas,20,Ness,135
+ASMO7,United States,Kansas,20,Norton,137
+ASMO7,United States,Kansas,20,Osborne,141
+ASMO7,United States,Kansas,20,Pawnee,145
+ASMO7,United States,Kansas,20,Phillips,147
+ASMO7,United States,Kansas,20,Pratt,151
+ASMO7,United States,Kansas,20,Rawlins,153
+ASMO7,United States,Kansas,20,Rooks,163
+ASMO7,United States,Kansas,20,Rush,165
+ASMO7,United States,Kansas,20,Russell,167
+ASMO7,United States,Kansas,20,Scott,171
+ASMO7,United States,Kansas,20,Seward,175
+ASMO7,United States,Kansas,20,Sheridan,179
+ASMO7,United States,Kansas,20,Sherman,181
+ASMO7,United States,Kansas,20,Smith,183
+ASMO7,United States,Kansas,20,Stafford,185
+ASMO7,United States,Kansas,20,Stanton,187
+ASMO7,United States,Kansas,20,Stevens,189
+ASMO7,United States,Kansas,20,Thomas,193
+ASMO7,United States,Kansas,20,Trego,195
+ASMO7,United States,Kansas,20,Wallace,199
+ASMO7,United States,Kansas,20,Wichita,203
+ASMO7,United States,Nebraska,31,,
+ASMO7,United States,Nebraska,31,Box Butte,013
+ASMO7,United States,Nebraska,31,Chase,029
+ASMO7,United States,Nebraska,31,Dawes,045
+ASMO7,United States,Nebraska,31,Dundy,057
+ASMO7,United States,Nebraska,31,Franklin,061
+ASMO7,United States,Nebraska,31,Furnas,065
+ASMO7,United States,Nebraska,31,Garden,069
+ASMO7,United States,Nebraska,31,Harlan,083
+ASMO7,United States,Nebraska,31,Hitchcock,087
+ASMO7,United States,Nebraska,31,Kearney,099
+ASMO7,United States,Nebraska,31,Keith,101
+ASMO7,United States,Nebraska,31,Kimball,105
+ASMO7,United States,Nebraska,31,Lincoln,111
+ASMO7,United States,Nebraska,31,Perkins,135
+ASMO7,United States,Nebraska,31,Red Willow,145
+ASMO7,United States,Nebraska,31,Scotts Bluff,157
+ASMO7,United States,Nebraska,31,Sheridan,161
+ASMO7,United States,Nebraska,31,Sioux,165
+ASMO7,United States,Nebraska,31,Webster,181
+ASMO7,United States,Nevada,32,,
+ASMO7,United States,Nevada,32,Lincoln,017
+ASMO7,United States,New Mexico,35,,
+ASMO7,United States,New Mexico,35,Bernalillo,001
+ASMO7,United States,New Mexico,35,Catron,003
+ASMO7,United States,New Mexico,35,Chaves,005
+ASMO7,United States,New Mexico,35,Cibola,006
+ASMO7,United States,New Mexico,35,Colfax,007
+ASMO7,United States,New Mexico,35,Curry,009
+ASMO7,United States,New Mexico,35,De Baca,011
+ASMO7,United States,New Mexico,35,Dona Ana,013
+ASMO7,United States,New Mexico,35,Eddy,015
+ASMO7,United States,New Mexico,35,Grant,017
+ASMO7,United States,New Mexico,35,Guadalupe,019
+ASMO7,United States,New Mexico,35,Harding,021
+ASMO7,United States,New Mexico,35,Hidalgo,023
+ASMO7,United States,New Mexico,35,Lea,025
+ASMO7,United States,New Mexico,35,Lincoln,027
+ASMO7,United States,New Mexico,35,Luna,029
+ASMO7,United States,New Mexico,35,McKinley,031
+ASMO7,United States,New Mexico,35,Mora,033
+ASMO7,United States,New Mexico,35,Otero,035
+ASMO7,United States,New Mexico,35,Quay,037
+ASMO7,United States,New Mexico,35,Rio Arriba,039
+ASMO7,United States,New Mexico,35,Roosevelt,041
+ASMO7,United States,New Mexico,35,San Juan,045
+ASMO7,United States,New Mexico,35,San Miguel,047
+ASMO7,United States,New Mexico,35,Sandoval,043
+ASMO7,United States,New Mexico,35,Santa Fe,049
+ASMO7,United States,New Mexico,35,Sierra,051
+ASMO7,United States,New Mexico,35,Socorro,053
+ASMO7,United States,New Mexico,35,Torrance,057
+ASMO7,United States,New Mexico,35,Union,059
+ASMO7,United States,New Mexico,35,Valencia,061
+ASMO7,United States,Oklahoma,40,,
+ASMO7,United States,Oklahoma,40,Alfalfa,003
+ASMO7,United States,Oklahoma,40,Beaver,007
+ASMO7,United States,Oklahoma,40,Beckham,009
+ASMO7,United States,Oklahoma,40,Cimarron,025
+ASMO7,United States,Oklahoma,40,Dewey,043
+ASMO7,United States,Oklahoma,40,Ellis,045
+ASMO7,United States,Oklahoma,40,Garfield,047
+ASMO7,United States,Oklahoma,40,Greer,055
+ASMO7,United States,Oklahoma,40,Harmon,057
+ASMO7,United States,Oklahoma,40,Jackson,065
+ASMO7,United States,Oklahoma,40,Logan,083
+ASMO7,United States,Oklahoma,40,Major,093
+ASMO7,United States,Oklahoma,40,Roger Mills,129
+ASMO7,United States,Oklahoma,40,Texas,139
+ASMO7,United States,Oklahoma,40,Woods,151
+ASMO7,United States,Oklahoma,40,Woodward,153
+ASMO7,United States,South Dakota,46,,
+ASMO7,United States,Texas,48,,
+ASMO7,United States,Texas,48,Andrews,003
+ASMO7,United States,Texas,48,Armstrong,011
+ASMO7,United States,Texas,48,Bailey,017
+ASMO7,United States,Texas,48,Brewster,043
+ASMO7,United States,Texas,48,Briscoe,045
+ASMO7,United States,Texas,48,Carson,065
+ASMO7,United States,Texas,48,Castro,069
+ASMO7,United States,Texas,48,Childress,075
+ASMO7,United States,Texas,48,Cottle,101
+ASMO7,United States,Texas,48,Crockett,105
+ASMO7,United States,Texas,48,Culberson,109
+ASMO7,United States,Texas,48,Dallam,111
+ASMO7,United States,Texas,48,Deaf Smith,117
+ASMO7,United States,Texas,48,Dickens,125
+ASMO7,United States,Texas,48,Fisher,151
+ASMO7,United States,Texas,48,Floyd,153
+ASMO7,United States,Texas,48,Garza,169
+ASMO7,United States,Texas,48,Hall,191
+ASMO7,United States,Texas,48,Hardeman,197
+ASMO7,United States,Texas,48,Hartley,205
+ASMO7,United States,Texas,48,Hemphill,211
+ASMO7,United States,Texas,48,Howard,227
+ASMO7,United States,Texas,48,Hudspeth,229
+ASMO7,United States,Texas,48,Hutchinson,233
+ASMO7,United States,Texas,48,Irion,235
+ASMO7,United States,Texas,48,Jeff Davis,243
+ASMO7,United States,Texas,48,Lamb,279
+ASMO7,United States,Texas,48,Lipscomb,295
+ASMO7,United States,Texas,48,Lubbock,303
+ASMO7,United States,Texas,48,Martin,317
+ASMO7,United States,Texas,48,Mitchell,335
+ASMO7,United States,Texas,48,Motley,345
+ASMO7,United States,Texas,48,Nolan,353
+ASMO7,United States,Texas,48,Parmer,369
+ASMO7,United States,Texas,48,Pecos,371
+ASMO7,United States,Texas,48,Potter,375
+ASMO7,United States,Texas,48,Presidio,377
+ASMO7,United States,Texas,48,Randall,381
+ASMO7,United States,Texas,48,Reagan,383
+ASMO7,United States,Texas,48,Reeves,389
+ASMO7,United States,Texas,48,Schleicher,413
+ASMO7,United States,Texas,48,Scurry,415
+ASMO7,United States,Texas,48,Sterling,431
+ASMO7,United States,Texas,48,Swisher,437
+ASMO7,United States,Texas,48,Terrell,443
+ASMO7,United States,Texas,48,Terry,445
+ASMO7,United States,Texas,48,Upton,461
+ASMO7,United States,Texas,48,Yoakum,501
+ASMO7,United States,Utah,49,,
+ASMO7,United States,Utah,49,Beaver,001
+ASMO7,United States,Utah,49,Carbon,007
+ASMO7,United States,Utah,49,Daggett,009
+ASMO7,United States,Utah,49,Duchesne,013
+ASMO7,United States,Utah,49,Emery,015
+ASMO7,United States,Utah,49,Garfield,017
+ASMO7,United States,Utah,49,Grand,019
+ASMO7,United States,Utah,49,Iron,021
+ASMO7,United States,Utah,49,Juab,023
+ASMO7,United States,Utah,49,Kane,025
+ASMO7,United States,Utah,49,Millard,027
+ASMO7,United States,Utah,49,Piute,031
+ASMO7,United States,Utah,49,San Juan,037
+ASMO7,United States,Utah,49,Sanpete,039
+ASMO7,United States,Utah,49,Sevier,041
+ASMO7,United States,Utah,49,Tooele,045
+ASMO7,United States,Utah,49,Uintah,047
+ASMO7,United States,Utah,49,Washington,053
+ASMO7,United States,Utah,49,Wayne,055
+ASMO7,United States,Wyoming,56,,
+ASMO7,United States,Wyoming,56,Goshen,015
+ASMO7,United States,Wyoming,56,Laramie,021

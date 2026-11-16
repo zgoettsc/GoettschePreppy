@@ -54,7 +54,7 @@ your house (including the water heater) out safely.
    {{#if has.municipal_water}}Your water utility: {{ contacts.utility.water.provider }},
    phone {{ contacts.utility.water.phone }} (check it against a current bill).{{/if}}
 3. **Use food-grade containers** with tight lids: water jugs and drums made for drinking
-   water, or clean 2-litre soda bottles. **Never** reuse containers that held chemicals, and
+   water, or clean 2-liter soda bottles. **Never** reuse containers that held chemicals, and
    do not use milk jugs.
 4. **Sanitize before filling:** wash with soap, rinse, then swirl **1 teaspoon of unscented
    5 to 9 percent household bleach in 1 quart of water** over the whole inside. Wait
@@ -87,7 +87,7 @@ long storage.{{/if}}
 | 5 to 7 gal jugs | 5 to 7 | Can be moved when full, stack, good for leaving home | Modest volume; about 50 lb each |
 | 55-gal food-grade drum | 55 | Cheapest per gallon; two weeks in one container | About 460 lb full: it never moves again; needs a pump |
 | Bathtub bladder | about 100 | Huge and cheap | Only works if filled **before** the water stops |
-| Clean 2-litre soda bottles | 0.5 | Free, tough, good for freezing and for children to carry | Work to fill and rotate |
+| Clean 2-liter soda bottles | 0.5 | Free, tough, good for freezing and for children to carry | Work to fill and rotate |
 
 ### Where to put it
 
@@ -157,11 +157,11 @@ Every other page that says "drain the water heater" means this procedure.
 | Unscented household bleach, 5 to 9 percent | Cleaning containers **and** treating water | Buy fresh; it weakens within months (→ 29-05) |
 | A scoop, pour spout or pump kept only for water | Keeps hands out of the supply | Store it capped and clean |
 | Waterproof labels and a marker | Date and name every container | "DRINKING" or "UTILITY" |
-| Bathtub bladder | Large cheap volume at the warning stage | Practise putting it in the tub once |
+| Bathtub bladder | Large cheap volume at the warning stage | Practice putting it in the tub once |
 
 **If you don't have it:**
 
-- Clean 2-litre soda bottles are good containers: free and strong.
+- Clean 2-liter soda bottles are good containers: free and strong.
 - Food-grade buckets from bakeries or restaurants. Ask what was in them; avoid anything oily.
 - The water heater (above), toilet tanks (not bowls) and ice in the freezer.
 

@@ -120,7 +120,7 @@ a spigot above the sediment → **filter** → **boil or disinfect** (→ 03-04)
 - **Volume is disappointing.** Fresh fluffy snow is mostly air: it can take around **10 pots of
   snow to make 1 pot of water**. Wet, dense snow and ice give far more.
 - **Ice beats snow** for yield and fuel. Take icicles or hard-packed snow over powder.
-- **Take clean snow.** Not near roads (salt, exhaust), not near the driveway, not discoloured,
+- **Take clean snow.** Not near roads (salt, exhaust), not near the driveway, not discolored,
   not where pets or wildlife have been. The middle of an untouched yard, or a clean tarp, is
   best.
 - **Still treat it.** Snow is not sterile. Clean fresh snowmelt is usually low-risk and has
@@ -148,7 +148,7 @@ source on effort, but it costs **fuel**, so it competes with cooking and heat (�
 - **Any clean container under a downspout:** trash cans, storage totes, buckets. Volume beats
   neatness.
 - A **tarp strung as a funnel** into a barrel.
-- Paddling pools, coolers and totes all hold water; cover them against mosquitoes and debris.
+- Kiddie pools, coolers and totes all hold water; cover them against mosquitoes and debris.
 - A **sled** is the best tool for hauling snow to the pot.
 
 ## When it runs out

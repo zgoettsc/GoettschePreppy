@@ -104,7 +104,7 @@ day.** Count your child's real week and correct it.
 - Real diapers per day this week (count once, honestly): ______
 - **Days of stock = diapers on hand ÷ diapers per day = ______ days.** Use 6 a day until you
   have counted.
-- **A 90-day buffer at about 6 a day is about 540 diapers.** Round up: illness (diarrhoea,
+- **A 90-day buffer at about 6 a day is about 540 diapers.** Round up: illness (diarrhea,
   → 12-05) raises the rate exactly when resupply is least likely.
 - **Buy for the next sizes, not just today's.** A diaper one size too big still works (snugger
   waist, more leaks); one size too small does not close. A child outgrows a size during a long
@@ -134,8 +134,8 @@ day.** Count your child's real week and correct it.
 2. **Store in the lidded pail** until wash day.
 3. **Wash:** soak, then **hot water and soap**, agitate, **rinse thoroughly**: leftover soap
    causes rashes, so rinse more than you think (→ 13-04).
-4. **After a stomach illness,** add a sanitising rinse of diluted bleach to the diapers
-   themselves, following the bleach label's laundry-sanitising directions, then extra
+4. **After a stomach illness,** add a sanitizing rinse of diluted bleach to the diapers
+   themselves, following the bleach label's laundry-sanitizing directions, then extra
    clean-water rinses. Never bleach the covers: bleach ruins the waterproof layer.
 5. **Dry completely.** Sun-dry when you can (sunlight bleaches stains and helps kill germs, for
    free), freeze-dry outdoors in winter, or use the indoor line (→ 11-03).
@@ -190,7 +190,7 @@ common (→ 20-08). Have some larger cloth options and treat it as unremarkable.
 | Wipes, about 13 packs per 90 days | Planning figure | Washcloths substitute |
 | Soap in bulk | Diaper laundry uses a lot | → 13-09 |
 | Drying lines and racks | The real limit | → 11-03 |
-| Hand sanitiser at the changing area | For when washing is not immediate | Not a replacement (CDC) |
+| Hand sanitizer at the changing area | For when washing is not immediate | Not a replacement (CDC) |
 
 **If you don't have it:**
 
@@ -228,7 +228,7 @@ common (→ 20-08). Have some larger cloth options and treat it as unremarkable.
   while it is still easy.
 - **B (moving):** **disposables, without hesitation.** You cannot wash and dry diapers on the
   move in winter, and a wet child in the cold is a serious problem (→ 11-02). The menstrual cup
-  is the one item here that is actually *better* while travelling. Pack out diaper waste or bury
+  is the one item here that is actually *better* while traveling. Pack out diaper waste or bury
   it properly, away from water (→ 13-07).
 - **C (rural or at a destination):** cloth throughout, with more drying space and water. **Build
   a real laundry setup near the stove** and make diaper washing a fixed daily job.
@@ -236,5 +236,5 @@ common (→ 20-08). Have some larger cloth options and treat it as unremarkable.
 ## Cross-references
 
 → 13-02 hygiene · → 13-04 laundry · → 13-01 human waste · → 13-09 soap making ·
-→ 13-03 rubbish · → 12-12 women's health · → 12-04 infection · → 20-06 diapers and hygiene ·
+→ 13-03 trash · → 12-12 women's health · → 12-04 infection · → 20-06 diapers and hygiene ·
 → 20-08 regression · → 11-03 drying · → 23-02 consumables

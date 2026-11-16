@@ -1,0 +1,1555 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+ARTR,United States,Alabama,01,,
+ARTR,United States,Alabama,01,Autauga,001
+ARTR,United States,Alabama,01,Baldwin,003
+ARTR,United States,Alabama,01,Bibb,007
+ARTR,United States,Alabama,01,Blount,009
+ARTR,United States,Alabama,01,Bullock,011
+ARTR,United States,Alabama,01,Calhoun,015
+ARTR,United States,Alabama,01,Chilton,021
+ARTR,United States,Alabama,01,Clarke,025
+ARTR,United States,Alabama,01,Cleburne,029
+ARTR,United States,Alabama,01,Colbert,033
+ARTR,United States,Alabama,01,Conecuh,035
+ARTR,United States,Alabama,01,Dallas,047
+ARTR,United States,Alabama,01,DeKalb,049
+ARTR,United States,Alabama,01,Elmore,051
+ARTR,United States,Alabama,01,Etowah,055
+ARTR,United States,Alabama,01,Hale,065
+ARTR,United States,Alabama,01,Henry,067
+ARTR,United States,Alabama,01,Houston,069
+ARTR,United States,Alabama,01,Jackson,071
+ARTR,United States,Alabama,01,Jefferson,073
+ARTR,United States,Alabama,01,Lauderdale,077
+ARTR,United States,Alabama,01,Lawrence,079
+ARTR,United States,Alabama,01,Lee,081
+ARTR,United States,Alabama,01,Macon,087
+ARTR,United States,Alabama,01,Madison,089
+ARTR,United States,Alabama,01,Marion,093
+ARTR,United States,Alabama,01,Marshall,095
+ARTR,United States,Alabama,01,Monroe,099
+ARTR,United States,Alabama,01,Morgan,103
+ARTR,United States,Alabama,01,Shelby,117
+ARTR,United States,Alabama,01,St. Clair,115
+ARTR,United States,Alabama,01,Sumter,119
+ARTR,United States,Alabama,01,Talladega,121
+ARTR,United States,Alabama,01,Tallapoosa,123
+ARTR,United States,Alabama,01,Tuscaloosa,125
+ARTR,United States,Alabama,01,Walker,127
+ARTR,United States,Alabama,01,Wilcox,131
+ARTR,United States,Alabama,01,Winston,133
+ARTR,Canada,Manitoba,03,,
+ARTR,Canada,New Brunswick,04,,
+ARTR,United States,Arkansas,05,,
+ARTR,United States,Arkansas,05,Ashley,003
+ARTR,United States,Arkansas,05,Baxter,005
+ARTR,United States,Arkansas,05,Benton,007
+ARTR,United States,Arkansas,05,Boone,009
+ARTR,United States,Arkansas,05,Bradley,011
+ARTR,United States,Arkansas,05,Carroll,015
+ARTR,United States,Arkansas,05,Clark,019
+ARTR,United States,Arkansas,05,Cleburne,023
+ARTR,United States,Arkansas,05,Columbia,027
+ARTR,United States,Arkansas,05,Conway,029
+ARTR,United States,Arkansas,05,Craighead,031
+ARTR,United States,Arkansas,05,Crawford,033
+ARTR,United States,Arkansas,05,Crittenden,035
+ARTR,United States,Arkansas,05,Dallas,039
+ARTR,United States,Arkansas,05,Desha,041
+ARTR,United States,Arkansas,05,Faulkner,045
+ARTR,United States,Arkansas,05,Franklin,047
+ARTR,United States,Arkansas,05,Garland,051
+ARTR,United States,Arkansas,05,Hempstead,057
+ARTR,United States,Arkansas,05,Hot Spring,059
+ARTR,United States,Arkansas,05,Howard,061
+ARTR,United States,Arkansas,05,Independence,063
+ARTR,United States,Arkansas,05,Johnson,071
+ARTR,United States,Arkansas,05,Lee,077
+ARTR,United States,Arkansas,05,Logan,083
+ARTR,United States,Arkansas,05,Lonoke,085
+ARTR,United States,Arkansas,05,Madison,087
+ARTR,United States,Arkansas,05,Marion,089
+ARTR,United States,Arkansas,05,Miller,091
+ARTR,United States,Arkansas,05,Montgomery,097
+ARTR,United States,Arkansas,05,Nevada,099
+ARTR,United States,Arkansas,05,Newton,101
+ARTR,United States,Arkansas,05,Ouachita,103
+ARTR,United States,Arkansas,05,Phillips,107
+ARTR,United States,Arkansas,05,Pike,109
+ARTR,United States,Arkansas,05,Polk,113
+ARTR,United States,Arkansas,05,Pope,115
+ARTR,United States,Arkansas,05,Randolph,121
+ARTR,United States,Arkansas,05,Searcy,129
+ARTR,United States,Arkansas,05,Sevier,133
+ARTR,United States,Arkansas,05,St. Francis,123
+ARTR,United States,Arkansas,05,Stone,137
+ARTR,United States,Arkansas,05,Union,139
+ARTR,United States,Arkansas,05,Van Buren,141
+ARTR,United States,Arkansas,05,Washington,143
+ARTR,United States,Arkansas,05,White,145
+ARTR,Canada,Nova Scotia,07,,
+ARTR,Canada,Ontario,08,,
+ARTR,Canada,Prince Edward Island,09,,
+ARTR,United States,Connecticut,09,,
+ARTR,Canada,Quebec,10,,
+ARTR,United States,Delaware,10,,
+ARTR,United States,Delaware,10,Kent,001
+ARTR,United States,Delaware,10,New Castle,003
+ARTR,United States,Delaware,10,Sussex,005
+ARTR,United States,District of Columbia,11,,
+ARTR,United States,District of Columbia,11,District of Columbia,001
+ARTR,United States,Florida,12,,
+ARTR,United States,Florida,12,Alachua,001
+ARTR,United States,Florida,12,Brevard,009
+ARTR,United States,Florida,12,Calhoun,013
+ARTR,United States,Florida,12,Citrus,017
+ARTR,United States,Florida,12,Collier,021
+ARTR,United States,Florida,12,Columbia,023
+ARTR,United States,Florida,12,DeSoto,027
+ARTR,United States,Florida,12,Duval,031
+ARTR,United States,Florida,12,Escambia,033
+ARTR,United States,Florida,12,Gadsden,039
+ARTR,United States,Florida,12,Hamilton,047
+ARTR,United States,Florida,12,Hardee,049
+ARTR,United States,Florida,12,Hernando,053
+ARTR,United States,Florida,12,Highlands,055
+ARTR,United States,Florida,12,Hillsborough,057
+ARTR,United States,Florida,12,Holmes,059
+ARTR,United States,Florida,12,Jackson,063
+ARTR,United States,Florida,12,Jefferson,065
+ARTR,United States,Florida,12,Lake,069
+ARTR,United States,Florida,12,Lee,071
+ARTR,United States,Florida,12,Leon,073
+ARTR,United States,Florida,12,Levy,075
+ARTR,United States,Florida,12,Liberty,077
+ARTR,United States,Florida,12,Manatee,081
+ARTR,United States,Florida,12,Marion,083
+ARTR,United States,Florida,12,Martin,085
+ARTR,United States,Florida,12,Okeechobee,093
+ARTR,United States,Florida,12,Orange,095
+ARTR,United States,Florida,12,Osceola,097
+ARTR,United States,Florida,12,Palm Beach,099
+ARTR,United States,Florida,12,Pinellas,103
+ARTR,United States,Florida,12,Polk,105
+ARTR,United States,Florida,12,Putnam,107
+ARTR,United States,Florida,12,Seminole,117
+ARTR,United States,Florida,12,St. Lucie,111
+ARTR,United States,Florida,12,Sumter,119
+ARTR,United States,Florida,12,Volusia,127
+ARTR,United States,Florida,12,Walton,131
+ARTR,United States,Georgia,13,,
+ARTR,United States,Georgia,13,Bartow,015
+ARTR,United States,Georgia,13,Ben Hill,017
+ARTR,United States,Georgia,13,Burke,033
+ARTR,United States,Georgia,13,Calhoun,037
+ARTR,United States,Georgia,13,Carroll,045
+ARTR,United States,Georgia,13,Catoosa,047
+ARTR,United States,Georgia,13,Cherokee,057
+ARTR,United States,Georgia,13,Clarke,059
+ARTR,United States,Georgia,13,Clay,061
+ARTR,United States,Georgia,13,Cobb,067
+ARTR,United States,Georgia,13,Columbia,073
+ARTR,United States,Georgia,13,Coweta,077
+ARTR,United States,Georgia,13,Dade,083
+ARTR,United States,Georgia,13,Dawson,085
+ARTR,United States,Georgia,13,Decatur,087
+ARTR,United States,Georgia,13,DeKalb,089
+ARTR,United States,Georgia,13,Dodge,091
+ARTR,United States,Georgia,13,Dougherty,095
+ARTR,United States,Georgia,13,Early,099
+ARTR,United States,Georgia,13,Elbert,105
+ARTR,United States,Georgia,13,Fannin,111
+ARTR,United States,Georgia,13,Floyd,115
+ARTR,United States,Georgia,13,Franklin,119
+ARTR,United States,Georgia,13,Gilmer,123
+ARTR,United States,Georgia,13,Grady,131
+ARTR,United States,Georgia,13,Hall,139
+ARTR,United States,Georgia,13,Haralson,143
+ARTR,United States,Georgia,13,Harris,145
+ARTR,United States,Georgia,13,Jackson,157
+ARTR,United States,Georgia,13,Jasper,159
+ARTR,United States,Georgia,13,Jenkins,165
+ARTR,United States,Georgia,13,Lincoln,181
+ARTR,United States,Georgia,13,Lumpkin,187
+ARTR,United States,Georgia,13,Murray,213
+ARTR,United States,Georgia,13,Oglethorpe,221
+ARTR,United States,Georgia,13,Pickens,227
+ARTR,United States,Georgia,13,Pike,231
+ARTR,United States,Georgia,13,Rabun,241
+ARTR,United States,Georgia,13,Stephens,257
+ARTR,United States,Georgia,13,Talbot,263
+ARTR,United States,Georgia,13,Thomas,275
+ARTR,United States,Georgia,13,Towns,281
+ARTR,United States,Georgia,13,Union,291
+ARTR,United States,Georgia,13,Walker,295
+ARTR,United States,Georgia,13,Walton,297
+ARTR,United States,Georgia,13,White,311
+ARTR,United States,Illinois,17,,
+ARTR,United States,Illinois,17,Adams,001
+ARTR,United States,Illinois,17,Alexander,003
+ARTR,United States,Illinois,17,Bond,005
+ARTR,United States,Illinois,17,Boone,007
+ARTR,United States,Illinois,17,Brown,009
+ARTR,United States,Illinois,17,Bureau,011
+ARTR,United States,Illinois,17,Calhoun,013
+ARTR,United States,Illinois,17,Carroll,015
+ARTR,United States,Illinois,17,Cass,017
+ARTR,United States,Illinois,17,Champaign,019
+ARTR,United States,Illinois,17,Christian,021
+ARTR,United States,Illinois,17,Clark,023
+ARTR,United States,Illinois,17,Clay,025
+ARTR,United States,Illinois,17,Clinton,027
+ARTR,United States,Illinois,17,Coles,029
+ARTR,United States,Illinois,17,Cook,031
+ARTR,United States,Illinois,17,Crawford,033
+ARTR,United States,Illinois,17,Cumberland,035
+ARTR,United States,Illinois,17,De Witt,039
+ARTR,United States,Illinois,17,DeKalb,037
+ARTR,United States,Illinois,17,Douglas,041
+ARTR,United States,Illinois,17,DuPage,043
+ARTR,United States,Illinois,17,Edgar,045
+ARTR,United States,Illinois,17,Edwards,047
+ARTR,United States,Illinois,17,Effingham,049
+ARTR,United States,Illinois,17,Fayette,051
+ARTR,United States,Illinois,17,Ford,053
+ARTR,United States,Illinois,17,Franklin,055
+ARTR,United States,Illinois,17,Fulton,057
+ARTR,United States,Illinois,17,Gallatin,059
+ARTR,United States,Illinois,17,Greene,061
+ARTR,United States,Illinois,17,Grundy,063
+ARTR,United States,Illinois,17,Hamilton,065
+ARTR,United States,Illinois,17,Hancock,067
+ARTR,United States,Illinois,17,Hardin,069
+ARTR,United States,Illinois,17,Henderson,071
+ARTR,United States,Illinois,17,Henry,073
+ARTR,United States,Illinois,17,Iroquois,075
+ARTR,United States,Illinois,17,Jackson,077
+ARTR,United States,Illinois,17,Jasper,079
+ARTR,United States,Illinois,17,Jefferson,081
+ARTR,United States,Illinois,17,Jersey,083
+ARTR,United States,Illinois,17,Jo Daviess,085
+ARTR,United States,Illinois,17,Johnson,087
+ARTR,United States,Illinois,17,Kane,089
+ARTR,United States,Illinois,17,Kankakee,091
+ARTR,United States,Illinois,17,Kendall,093
+ARTR,United States,Illinois,17,Knox,095
+ARTR,United States,Illinois,17,Lake,097
+ARTR,United States,Illinois,17,LaSalle,099
+ARTR,United States,Illinois,17,Lawrence,101
+ARTR,United States,Illinois,17,Lee,103
+ARTR,United States,Illinois,17,Livingston,105
+ARTR,United States,Illinois,17,Logan,107
+ARTR,United States,Illinois,17,Macon,115
+ARTR,United States,Illinois,17,Macoupin,117
+ARTR,United States,Illinois,17,Madison,119
+ARTR,United States,Illinois,17,Marion,121
+ARTR,United States,Illinois,17,Marshall,123
+ARTR,United States,Illinois,17,Mason,125
+ARTR,United States,Illinois,17,Massac,127
+ARTR,United States,Illinois,17,McDonough,109
+ARTR,United States,Illinois,17,McHenry,111
+ARTR,United States,Illinois,17,McLean,113
+ARTR,United States,Illinois,17,Menard,129
+ARTR,United States,Illinois,17,Mercer,131
+ARTR,United States,Illinois,17,Monroe,133
+ARTR,United States,Illinois,17,Montgomery,135
+ARTR,United States,Illinois,17,Morgan,137
+ARTR,United States,Illinois,17,Moultrie,139
+ARTR,United States,Illinois,17,Ogle,141
+ARTR,United States,Illinois,17,Peoria,143
+ARTR,United States,Illinois,17,Perry,145
+ARTR,United States,Illinois,17,Piatt,147
+ARTR,United States,Illinois,17,Pike,149
+ARTR,United States,Illinois,17,Pope,151
+ARTR,United States,Illinois,17,Pulaski,153
+ARTR,United States,Illinois,17,Putnam,155
+ARTR,United States,Illinois,17,Randolph,157
+ARTR,United States,Illinois,17,Richland,159
+ARTR,United States,Illinois,17,Rock Island,161
+ARTR,United States,Illinois,17,Saline,165
+ARTR,United States,Illinois,17,Sangamon,167
+ARTR,United States,Illinois,17,Schuyler,169
+ARTR,United States,Illinois,17,Scott,171
+ARTR,United States,Illinois,17,Shelby,173
+ARTR,United States,Illinois,17,St. Clair,163
+ARTR,United States,Illinois,17,Stark,175
+ARTR,United States,Illinois,17,Stephenson,177
+ARTR,United States,Illinois,17,Tazewell,179
+ARTR,United States,Illinois,17,Union,181
+ARTR,United States,Illinois,17,Vermilion,183
+ARTR,United States,Illinois,17,Wabash,185
+ARTR,United States,Illinois,17,Warren,187
+ARTR,United States,Illinois,17,Washington,189
+ARTR,United States,Illinois,17,Wayne,191
+ARTR,United States,Illinois,17,White,193
+ARTR,United States,Illinois,17,Whiteside,195
+ARTR,United States,Illinois,17,Will,197
+ARTR,United States,Illinois,17,Williamson,199
+ARTR,United States,Illinois,17,Winnebago,201
+ARTR,United States,Illinois,17,Woodford,203
+ARTR,United States,Indiana,18,,
+ARTR,United States,Indiana,18,Adams,001
+ARTR,United States,Indiana,18,Allen,003
+ARTR,United States,Indiana,18,Bartholomew,005
+ARTR,United States,Indiana,18,Blackford,009
+ARTR,United States,Indiana,18,Brown,013
+ARTR,United States,Indiana,18,Carroll,015
+ARTR,United States,Indiana,18,Cass,017
+ARTR,United States,Indiana,18,Clark,019
+ARTR,United States,Indiana,18,Clay,021
+ARTR,United States,Indiana,18,Crawford,025
+ARTR,United States,Indiana,18,Daviess,027
+ARTR,United States,Indiana,18,Dearborn,029
+ARTR,United States,Indiana,18,Decatur,031
+ARTR,United States,Indiana,18,DeKalb,033
+ARTR,United States,Indiana,18,Delaware,035
+ARTR,United States,Indiana,18,Elkhart,039
+ARTR,United States,Indiana,18,Fayette,041
+ARTR,United States,Indiana,18,Floyd,043
+ARTR,United States,Indiana,18,Fountain,045
+ARTR,United States,Indiana,18,Franklin,047
+ARTR,United States,Indiana,18,Fulton,049
+ARTR,United States,Indiana,18,Gibson,051
+ARTR,United States,Indiana,18,Grant,053
+ARTR,United States,Indiana,18,Greene,055
+ARTR,United States,Indiana,18,Hamilton,057
+ARTR,United States,Indiana,18,Harrison,061
+ARTR,United States,Indiana,18,Henry,065
+ARTR,United States,Indiana,18,Howard,067
+ARTR,United States,Indiana,18,Huntington,069
+ARTR,United States,Indiana,18,Jackson,071
+ARTR,United States,Indiana,18,Jasper,073
+ARTR,United States,Indiana,18,Jay,075
+ARTR,United States,Indiana,18,Jefferson,077
+ARTR,United States,Indiana,18,Jennings,079
+ARTR,United States,Indiana,18,Johnson,081
+ARTR,United States,Indiana,18,Knox,083
+ARTR,United States,Indiana,18,Kosciusko,085
+ARTR,United States,Indiana,18,Lagrange,087
+ARTR,United States,Indiana,18,Lake,089
+ARTR,United States,Indiana,18,LaPorte,091
+ARTR,United States,Indiana,18,Lawrence,093
+ARTR,United States,Indiana,18,Madison,095
+ARTR,United States,Indiana,18,Marion,097
+ARTR,United States,Indiana,18,Martin,101
+ARTR,United States,Indiana,18,Miami,103
+ARTR,United States,Indiana,18,Monroe,105
+ARTR,United States,Indiana,18,Montgomery,107
+ARTR,United States,Indiana,18,Morgan,109
+ARTR,United States,Indiana,18,Newton,111
+ARTR,United States,Indiana,18,Noble,113
+ARTR,United States,Indiana,18,Ohio,115
+ARTR,United States,Indiana,18,Orange,117
+ARTR,United States,Indiana,18,Owen,119
+ARTR,United States,Indiana,18,Parke,121
+ARTR,United States,Indiana,18,Perry,123
+ARTR,United States,Indiana,18,Porter,127
+ARTR,United States,Indiana,18,Posey,129
+ARTR,United States,Indiana,18,Pulaski,131
+ARTR,United States,Indiana,18,Putnam,133
+ARTR,United States,Indiana,18,Randolph,135
+ARTR,United States,Indiana,18,Ripley,137
+ARTR,United States,Indiana,18,Rush,139
+ARTR,United States,Indiana,18,Shelby,145
+ARTR,United States,Indiana,18,Spencer,147
+ARTR,United States,Indiana,18,St. Joseph,141
+ARTR,United States,Indiana,18,Steuben,151
+ARTR,United States,Indiana,18,Sullivan,153
+ARTR,United States,Indiana,18,Switzerland,155
+ARTR,United States,Indiana,18,Tippecanoe,157
+ARTR,United States,Indiana,18,Union,161
+ARTR,United States,Indiana,18,Vermillion,165
+ARTR,United States,Indiana,18,Vigo,167
+ARTR,United States,Indiana,18,Wabash,169
+ARTR,United States,Indiana,18,Warren,171
+ARTR,United States,Indiana,18,Washington,175
+ARTR,United States,Indiana,18,Wayne,177
+ARTR,United States,Indiana,18,Wells,179
+ARTR,United States,Indiana,18,White,181
+ARTR,United States,Iowa,19,,
+ARTR,United States,Iowa,19,Cherokee,035
+ARTR,United States,Iowa,19,Fremont,071
+ARTR,United States,Iowa,19,Guthrie,077
+ARTR,United States,Iowa,19,Harrison,085
+ARTR,United States,Iowa,19,Lyon,119
+ARTR,United States,Iowa,19,Mills,129
+ARTR,United States,Iowa,19,Monona,133
+ARTR,United States,Iowa,19,O'Brien,141
+ARTR,United States,Iowa,19,Plymouth,149
+ARTR,United States,Iowa,19,Pottawattamie,155
+ARTR,United States,Iowa,19,Shelby,165
+ARTR,United States,Iowa,19,Story,169
+ARTR,United States,Iowa,19,Washington,183
+ARTR,United States,Iowa,19,Webster,187
+ARTR,United States,Iowa,19,Winneshiek,191
+ARTR,United States,Kansas,20,,
+ARTR,United States,Kansas,20,Allen,001
+ARTR,United States,Kansas,20,Anderson,003
+ARTR,United States,Kansas,20,Atchison,005
+ARTR,United States,Kansas,20,Bourbon,011
+ARTR,United States,Kansas,20,Brown,013
+ARTR,United States,Kansas,20,Cherokee,021
+ARTR,United States,Kansas,20,Coffey,031
+ARTR,United States,Kansas,20,Crawford,037
+ARTR,United States,Kansas,20,Doniphan,043
+ARTR,United States,Kansas,20,Douglas,045
+ARTR,United States,Kansas,20,Franklin,059
+ARTR,United States,Kansas,20,Jackson,085
+ARTR,United States,Kansas,20,Jefferson,087
+ARTR,United States,Kansas,20,Johnson,091
+ARTR,United States,Kansas,20,Labette,099
+ARTR,United States,Kansas,20,Leavenworth,103
+ARTR,United States,Kansas,20,Linn,107
+ARTR,United States,Kansas,20,Lyon,111
+ARTR,United States,Kansas,20,Miami,121
+ARTR,United States,Kansas,20,Nemaha,131
+ARTR,United States,Kansas,20,Neosho,133
+ARTR,United States,Kansas,20,Osage,139
+ARTR,United States,Kansas,20,Riley,161
+ARTR,United States,Kansas,20,Shawnee,177
+ARTR,United States,Kansas,20,Wabaunsee,197
+ARTR,United States,Kansas,20,Wilson,205
+ARTR,United States,Kansas,20,Wyandotte,209
+ARTR,United States,Kentucky,21,,
+ARTR,United States,Kentucky,21,Adair,001
+ARTR,United States,Kentucky,21,Allen,003
+ARTR,United States,Kentucky,21,Anderson,005
+ARTR,United States,Kentucky,21,Barren,009
+ARTR,United States,Kentucky,21,Bath,011
+ARTR,United States,Kentucky,21,Bell,013
+ARTR,United States,Kentucky,21,Boone,015
+ARTR,United States,Kentucky,21,Bourbon,017
+ARTR,United States,Kentucky,21,Boyle,021
+ARTR,United States,Kentucky,21,Bracken,023
+ARTR,United States,Kentucky,21,Breathitt,025
+ARTR,United States,Kentucky,21,Breckinridge,027
+ARTR,United States,Kentucky,21,Bullitt,029
+ARTR,United States,Kentucky,21,Caldwell,033
+ARTR,United States,Kentucky,21,Calloway,035
+ARTR,United States,Kentucky,21,Campbell,037
+ARTR,United States,Kentucky,21,Carlisle,039
+ARTR,United States,Kentucky,21,Carter,043
+ARTR,United States,Kentucky,21,Casey,045
+ARTR,United States,Kentucky,21,Christian,047
+ARTR,United States,Kentucky,21,Clark,049
+ARTR,United States,Kentucky,21,Clinton,053
+ARTR,United States,Kentucky,21,Crittenden,055
+ARTR,United States,Kentucky,21,Edmonson,061
+ARTR,United States,Kentucky,21,Elliott,063
+ARTR,United States,Kentucky,21,Estill,065
+ARTR,United States,Kentucky,21,Fayette,067
+ARTR,United States,Kentucky,21,Fleming,069
+ARTR,United States,Kentucky,21,Floyd,071
+ARTR,United States,Kentucky,21,Franklin,073
+ARTR,United States,Kentucky,21,Fulton,075
+ARTR,United States,Kentucky,21,Garrard,079
+ARTR,United States,Kentucky,21,Grayson,085
+ARTR,United States,Kentucky,21,Green,087
+ARTR,United States,Kentucky,21,Greenup,089
+ARTR,United States,Kentucky,21,Hancock,091
+ARTR,United States,Kentucky,21,Hardin,093
+ARTR,United States,Kentucky,21,Harlan,095
+ARTR,United States,Kentucky,21,Hart,099
+ARTR,United States,Kentucky,21,Henry,103
+ARTR,United States,Kentucky,21,Hickman,105
+ARTR,United States,Kentucky,21,Hopkins,107
+ARTR,United States,Kentucky,21,Jackson,109
+ARTR,United States,Kentucky,21,Jefferson,111
+ARTR,United States,Kentucky,21,Jessamine,113
+ARTR,United States,Kentucky,21,Johnson,115
+ARTR,United States,Kentucky,21,Kenton,117
+ARTR,United States,Kentucky,21,Knox,121
+ARTR,United States,Kentucky,21,Larue,123
+ARTR,United States,Kentucky,21,Laurel,125
+ARTR,United States,Kentucky,21,Lawrence,127
+ARTR,United States,Kentucky,21,Lee,129
+ARTR,United States,Kentucky,21,Leslie,131
+ARTR,United States,Kentucky,21,Letcher,133
+ARTR,United States,Kentucky,21,Lewis,135
+ARTR,United States,Kentucky,21,Lincoln,137
+ARTR,United States,Kentucky,21,Livingston,139
+ARTR,United States,Kentucky,21,Logan,141
+ARTR,United States,Kentucky,21,Lyon,143
+ARTR,United States,Kentucky,21,Madison,151
+ARTR,United States,Kentucky,21,Magoffin,153
+ARTR,United States,Kentucky,21,Marion,155
+ARTR,United States,Kentucky,21,Martin,159
+ARTR,United States,Kentucky,21,Mason,161
+ARTR,United States,Kentucky,21,McCreary,147
+ARTR,United States,Kentucky,21,McLean,149
+ARTR,United States,Kentucky,21,Meade,163
+ARTR,United States,Kentucky,21,Menifee,165
+ARTR,United States,Kentucky,21,Mercer,167
+ARTR,United States,Kentucky,21,Metcalfe,169
+ARTR,United States,Kentucky,21,Montgomery,173
+ARTR,United States,Kentucky,21,Morgan,175
+ARTR,United States,Kentucky,21,Muhlenberg,177
+ARTR,United States,Kentucky,21,Nelson,179
+ARTR,United States,Kentucky,21,Nicholas,181
+ARTR,United States,Kentucky,21,Oldham,185
+ARTR,United States,Kentucky,21,Owen,187
+ARTR,United States,Kentucky,21,Pendleton,191
+ARTR,United States,Kentucky,21,Pike,195
+ARTR,United States,Kentucky,21,Powell,197
+ARTR,United States,Kentucky,21,Pulaski,199
+ARTR,United States,Kentucky,21,Robertson,201
+ARTR,United States,Kentucky,21,Rockcastle,203
+ARTR,United States,Kentucky,21,Rowan,205
+ARTR,United States,Kentucky,21,Taylor,217
+ARTR,United States,Kentucky,21,Todd,219
+ARTR,United States,Kentucky,21,Trigg,221
+ARTR,United States,Kentucky,21,Trimble,223
+ARTR,United States,Kentucky,21,Union,225
+ARTR,United States,Kentucky,21,Warren,227
+ARTR,United States,Kentucky,21,Whitley,235
+ARTR,United States,Kentucky,21,Wolfe,237
+ARTR,United States,Kentucky,21,Woodford,239
+ARTR,United States,Louisiana,22,,
+ARTR,United States,Louisiana,22,Acadia,001
+ARTR,United States,Louisiana,22,Allen,003
+ARTR,United States,Louisiana,22,Ascension,005
+ARTR,United States,Louisiana,22,Beauregard,011
+ARTR,United States,Louisiana,22,Bienville,013
+ARTR,United States,Louisiana,22,Bossier,015
+ARTR,United States,Louisiana,22,Caddo,017
+ARTR,United States,Louisiana,22,Calcasieu,019
+ARTR,United States,Louisiana,22,Caldwell,021
+ARTR,United States,Louisiana,22,Catahoula,025
+ARTR,United States,Louisiana,22,Claiborne,027
+ARTR,United States,Louisiana,22,De Soto,031
+ARTR,United States,Louisiana,22,East Baton Rouge,033
+ARTR,United States,Louisiana,22,East Carroll,035
+ARTR,United States,Louisiana,22,East Feliciana,037
+ARTR,United States,Louisiana,22,Evangeline,039
+ARTR,United States,Louisiana,22,Franklin,041
+ARTR,United States,Louisiana,22,Grant,043
+ARTR,United States,Louisiana,22,Jackson,049
+ARTR,United States,Louisiana,22,LaSalle,059
+ARTR,United States,Louisiana,22,Lincoln,061
+ARTR,United States,Louisiana,22,Livingston,063
+ARTR,United States,Louisiana,22,Madison,065
+ARTR,United States,Louisiana,22,Morehouse,067
+ARTR,United States,Louisiana,22,Natchitoches,069
+ARTR,United States,Louisiana,22,Ouachita,073
+ARTR,United States,Louisiana,22,Rapides,079
+ARTR,United States,Louisiana,22,Red River,081
+ARTR,United States,Louisiana,22,Richland,083
+ARTR,United States,Louisiana,22,Sabine,085
+ARTR,United States,Louisiana,22,St. Helena,091
+ARTR,United States,Louisiana,22,St. Landry,097
+ARTR,United States,Louisiana,22,St. Mary,101
+ARTR,United States,Louisiana,22,St. Tammany,103
+ARTR,United States,Louisiana,22,Tangipahoa,105
+ARTR,United States,Louisiana,22,Union,111
+ARTR,United States,Louisiana,22,Vernon,115
+ARTR,United States,Louisiana,22,Washington,117
+ARTR,United States,Louisiana,22,Webster,119
+ARTR,United States,Louisiana,22,West Carroll,123
+ARTR,United States,Louisiana,22,West Feliciana,125
+ARTR,United States,Louisiana,22,Winn,127
+ARTR,United States,Maine,23,,
+ARTR,United States,Maine,23,Androscoggin,001
+ARTR,United States,Maine,23,Aroostook,003
+ARTR,United States,Maine,23,Cumberland,005
+ARTR,United States,Maine,23,Franklin,007
+ARTR,United States,Maine,23,Hancock,009
+ARTR,United States,Maine,23,Kennebec,011
+ARTR,United States,Maine,23,Knox,013
+ARTR,United States,Maine,23,Lincoln,015
+ARTR,United States,Maine,23,Oxford,017
+ARTR,United States,Maine,23,Penobscot,019
+ARTR,United States,Maine,23,Piscataquis,021
+ARTR,United States,Maine,23,Sagadahoc,023
+ARTR,United States,Maine,23,Somerset,025
+ARTR,United States,Maine,23,Waldo,027
+ARTR,United States,Maine,23,Washington,029
+ARTR,United States,Maine,23,York,031
+ARTR,United States,Maryland,24,,
+ARTR,United States,Massachusetts,25,,
+ARTR,United States,Massachusetts,25,Barnstable,001
+ARTR,United States,Massachusetts,25,Berkshire,003
+ARTR,United States,Massachusetts,25,Bristol,005
+ARTR,United States,Massachusetts,25,Dukes,007
+ARTR,United States,Massachusetts,25,Essex,009
+ARTR,United States,Massachusetts,25,Franklin,011
+ARTR,United States,Massachusetts,25,Hampden,013
+ARTR,United States,Massachusetts,25,Hampshire,015
+ARTR,United States,Massachusetts,25,Middlesex,017
+ARTR,United States,Massachusetts,25,Nantucket,019
+ARTR,United States,Massachusetts,25,Norfolk,021
+ARTR,United States,Massachusetts,25,Plymouth,023
+ARTR,United States,Massachusetts,25,Suffolk,025
+ARTR,United States,Massachusetts,25,Worcester,027
+ARTR,United States,Michigan,26,,
+ARTR,United States,Michigan,26,Alcona,001
+ARTR,United States,Michigan,26,Alger,003
+ARTR,United States,Michigan,26,Allegan,005
+ARTR,United States,Michigan,26,Alpena,007
+ARTR,United States,Michigan,26,Antrim,009
+ARTR,United States,Michigan,26,Arenac,011
+ARTR,United States,Michigan,26,Baraga,013
+ARTR,United States,Michigan,26,Barry,015
+ARTR,United States,Michigan,26,Bay,017
+ARTR,United States,Michigan,26,Benzie,019
+ARTR,United States,Michigan,26,Berrien,021
+ARTR,United States,Michigan,26,Branch,023
+ARTR,United States,Michigan,26,Calhoun,025
+ARTR,United States,Michigan,26,Cass,027
+ARTR,United States,Michigan,26,Charlevoix,029
+ARTR,United States,Michigan,26,Cheboygan,031
+ARTR,United States,Michigan,26,Chippewa,033
+ARTR,United States,Michigan,26,Clare,035
+ARTR,United States,Michigan,26,Clinton,037
+ARTR,United States,Michigan,26,Crawford,039
+ARTR,United States,Michigan,26,Delta,041
+ARTR,United States,Michigan,26,Dickinson,043
+ARTR,United States,Michigan,26,Eaton,045
+ARTR,United States,Michigan,26,Emmet,047
+ARTR,United States,Michigan,26,Genesee,049
+ARTR,United States,Michigan,26,Gogebic,053
+ARTR,United States,Michigan,26,Grand Traverse,055
+ARTR,United States,Michigan,26,Gratiot,057
+ARTR,United States,Michigan,26,Hillsdale,059
+ARTR,United States,Michigan,26,Houghton,061
+ARTR,United States,Michigan,26,Huron,063
+ARTR,United States,Michigan,26,Ingham,065
+ARTR,United States,Michigan,26,Ionia,067
+ARTR,United States,Michigan,26,Iron,071
+ARTR,United States,Michigan,26,Isabella,073
+ARTR,United States,Michigan,26,Jackson,075
+ARTR,United States,Michigan,26,Kalamazoo,077
+ARTR,United States,Michigan,26,Kalkaska,079
+ARTR,United States,Michigan,26,Kent,081
+ARTR,United States,Michigan,26,Keweenaw,083
+ARTR,United States,Michigan,26,Lake,085
+ARTR,United States,Michigan,26,Lapeer,087
+ARTR,United States,Michigan,26,Leelanau,089
+ARTR,United States,Michigan,26,Lenawee,091
+ARTR,United States,Michigan,26,Livingston,093
+ARTR,United States,Michigan,26,Luce,095
+ARTR,United States,Michigan,26,Mackinac,097
+ARTR,United States,Michigan,26,Macomb,099
+ARTR,United States,Michigan,26,Marquette,103
+ARTR,United States,Michigan,26,Mason,105
+ARTR,United States,Michigan,26,Mecosta,107
+ARTR,United States,Michigan,26,Menominee,109
+ARTR,United States,Michigan,26,Midland,111
+ARTR,United States,Michigan,26,Missaukee,113
+ARTR,United States,Michigan,26,Monroe,115
+ARTR,United States,Michigan,26,Montcalm,117
+ARTR,United States,Michigan,26,Montmorency,119
+ARTR,United States,Michigan,26,Muskegon,121
+ARTR,United States,Michigan,26,Newaygo,123
+ARTR,United States,Michigan,26,Oakland,125
+ARTR,United States,Michigan,26,Oceana,127
+ARTR,United States,Michigan,26,Ogemaw,129
+ARTR,United States,Michigan,26,Ontonagon,131
+ARTR,United States,Michigan,26,Osceola,133
+ARTR,United States,Michigan,26,Oscoda,135
+ARTR,United States,Michigan,26,Ottawa,139
+ARTR,United States,Michigan,26,Presque Isle,141
+ARTR,United States,Michigan,26,Roscommon,143
+ARTR,United States,Michigan,26,Saginaw,145
+ARTR,United States,Michigan,26,Sanilac,151
+ARTR,United States,Michigan,26,Schoolcraft,153
+ARTR,United States,Michigan,26,Shiawassee,155
+ARTR,United States,Michigan,26,St. Clair,147
+ARTR,United States,Michigan,26,St. Joseph,149
+ARTR,United States,Michigan,26,Tuscola,157
+ARTR,United States,Michigan,26,Van Buren,159
+ARTR,United States,Michigan,26,Washtenaw,161
+ARTR,United States,Michigan,26,Wayne,163
+ARTR,United States,Michigan,26,Wexford,165
+ARTR,United States,Minnesota,27,,
+ARTR,United States,Minnesota,27,Aitkin,001
+ARTR,United States,Minnesota,27,Anoka,003
+ARTR,United States,Minnesota,27,Becker,005
+ARTR,United States,Minnesota,27,Beltrami,007
+ARTR,United States,Minnesota,27,Benton,009
+ARTR,United States,Minnesota,27,Big Stone,011
+ARTR,United States,Minnesota,27,Blue Earth,013
+ARTR,United States,Minnesota,27,Brown,015
+ARTR,United States,Minnesota,27,Carlton,017
+ARTR,United States,Minnesota,27,Carver,019
+ARTR,United States,Minnesota,27,Cass,021
+ARTR,United States,Minnesota,27,Chippewa,023
+ARTR,United States,Minnesota,27,Chisago,025
+ARTR,United States,Minnesota,27,Clay,027
+ARTR,United States,Minnesota,27,Clearwater,029
+ARTR,United States,Minnesota,27,Cook,031
+ARTR,United States,Minnesota,27,Crow Wing,035
+ARTR,United States,Minnesota,27,Dakota,037
+ARTR,United States,Minnesota,27,Douglas,041
+ARTR,United States,Minnesota,27,Fillmore,045
+ARTR,United States,Minnesota,27,Goodhue,049
+ARTR,United States,Minnesota,27,Grant,051
+ARTR,United States,Minnesota,27,Hennepin,053
+ARTR,United States,Minnesota,27,Houston,055
+ARTR,United States,Minnesota,27,Hubbard,057
+ARTR,United States,Minnesota,27,Isanti,059
+ARTR,United States,Minnesota,27,Itasca,061
+ARTR,United States,Minnesota,27,Jackson,063
+ARTR,United States,Minnesota,27,Kanabec,065
+ARTR,United States,Minnesota,27,Kandiyohi,067
+ARTR,United States,Minnesota,27,Kittson,069
+ARTR,United States,Minnesota,27,Koochiching,071
+ARTR,United States,Minnesota,27,Lac qui Parle,073
+ARTR,United States,Minnesota,27,Lake,075
+ARTR,United States,Minnesota,27,Lake of the Woods,077
+ARTR,United States,Minnesota,27,Le Sueur,079
+ARTR,United States,Minnesota,27,Lincoln,081
+ARTR,United States,Minnesota,27,Lyon,083
+ARTR,United States,Minnesota,27,Marshall,089
+ARTR,United States,Minnesota,27,Martin,091
+ARTR,United States,Minnesota,27,McLeod,085
+ARTR,United States,Minnesota,27,Meeker,093
+ARTR,United States,Minnesota,27,Mille Lacs,095
+ARTR,United States,Minnesota,27,Morrison,097
+ARTR,United States,Minnesota,27,Mower,099
+ARTR,United States,Minnesota,27,Nicollet,103
+ARTR,United States,Minnesota,27,Norman,107
+ARTR,United States,Minnesota,27,Olmsted,109
+ARTR,United States,Minnesota,27,Otter Tail,111
+ARTR,United States,Minnesota,27,Pine,115
+ARTR,United States,Minnesota,27,Polk,119
+ARTR,United States,Minnesota,27,Pope,121
+ARTR,United States,Minnesota,27,Ramsey,123
+ARTR,United States,Minnesota,27,Red Lake,125
+ARTR,United States,Minnesota,27,Renville,129
+ARTR,United States,Minnesota,27,Rice,131
+ARTR,United States,Minnesota,27,Rock,133
+ARTR,United States,Minnesota,27,Roseau,135
+ARTR,United States,Minnesota,27,Scott,139
+ARTR,United States,Minnesota,27,Sherburne,141
+ARTR,United States,Minnesota,27,St. Louis,137
+ARTR,United States,Minnesota,27,Stearns,145
+ARTR,United States,Minnesota,27,Steele,147
+ARTR,United States,Minnesota,27,Swift,151
+ARTR,United States,Minnesota,27,Todd,153
+ARTR,United States,Minnesota,27,Traverse,155
+ARTR,United States,Minnesota,27,Wabasha,157
+ARTR,United States,Minnesota,27,Waseca,161
+ARTR,United States,Minnesota,27,Washington,163
+ARTR,United States,Minnesota,27,Wilkin,167
+ARTR,United States,Minnesota,27,Winona,169
+ARTR,United States,Minnesota,27,Wright,171
+ARTR,United States,Mississippi,28,,
+ARTR,United States,Mississippi,28,Adams,001
+ARTR,United States,Mississippi,28,Amite,005
+ARTR,United States,Mississippi,28,Attala,007
+ARTR,United States,Mississippi,28,Benton,009
+ARTR,United States,Mississippi,28,Carroll,015
+ARTR,United States,Mississippi,28,Chickasaw,017
+ARTR,United States,Mississippi,28,Clarke,023
+ARTR,United States,Mississippi,28,Copiah,029
+ARTR,United States,Mississippi,28,DeSoto,033
+ARTR,United States,Mississippi,28,Forrest,035
+ARTR,United States,Mississippi,28,Franklin,037
+ARTR,United States,Mississippi,28,George,039
+ARTR,United States,Mississippi,28,Grenada,043
+ARTR,United States,Mississippi,28,Hancock,045
+ARTR,United States,Mississippi,28,Hinds,049
+ARTR,United States,Mississippi,28,Holmes,051
+ARTR,United States,Mississippi,28,Jackson,059
+ARTR,United States,Mississippi,28,Jasper,061
+ARTR,United States,Mississippi,28,Jefferson,063
+ARTR,United States,Mississippi,28,Kemper,069
+ARTR,United States,Mississippi,28,Lafayette,071
+ARTR,United States,Mississippi,28,Lamar,073
+ARTR,United States,Mississippi,28,Lauderdale,075
+ARTR,United States,Mississippi,28,Lee,081
+ARTR,United States,Mississippi,28,Lincoln,085
+ARTR,United States,Mississippi,28,Madison,089
+ARTR,United States,Mississippi,28,Monroe,095
+ARTR,United States,Mississippi,28,Montgomery,097
+ARTR,United States,Mississippi,28,Noxubee,103
+ARTR,United States,Mississippi,28,Panola,107
+ARTR,United States,Mississippi,28,Pearl River,109
+ARTR,United States,Mississippi,28,Perry,111
+ARTR,United States,Mississippi,28,Pike,113
+ARTR,United States,Mississippi,28,Pontotoc,115
+ARTR,United States,Mississippi,28,Rankin,121
+ARTR,United States,Mississippi,28,Scott,123
+ARTR,United States,Mississippi,28,Smith,129
+ARTR,United States,Mississippi,28,Sunflower,133
+ARTR,United States,Mississippi,28,Tate,137
+ARTR,United States,Mississippi,28,Tishomingo,141
+ARTR,United States,Mississippi,28,Warren,149
+ARTR,United States,Mississippi,28,Washington,151
+ARTR,United States,Mississippi,28,Wilkinson,157
+ARTR,United States,Mississippi,28,Winston,159
+ARTR,United States,Mississippi,28,Yalobusha,161
+ARTR,United States,Mississippi,28,Yazoo,163
+ARTR,United States,Missouri,29,,
+ARTR,United States,Missouri,29,Adair,001
+ARTR,United States,Missouri,29,Barry,009
+ARTR,United States,Missouri,29,Bates,013
+ARTR,United States,Missouri,29,Bollinger,017
+ARTR,United States,Missouri,29,Boone,019
+ARTR,United States,Missouri,29,Butler,023
+ARTR,United States,Missouri,29,Camden,029
+ARTR,United States,Missouri,29,Cape Girardeau,031
+ARTR,United States,Missouri,29,Carter,035
+ARTR,United States,Missouri,29,Cass,037
+ARTR,United States,Missouri,29,Chariton,041
+ARTR,United States,Missouri,29,Christian,043
+ARTR,United States,Missouri,29,Cole,051
+ARTR,United States,Missouri,29,Crawford,055
+ARTR,United States,Missouri,29,Dade,057
+ARTR,United States,Missouri,29,Dallas,059
+ARTR,United States,Missouri,29,Dent,065
+ARTR,United States,Missouri,29,Douglas,067
+ARTR,United States,Missouri,29,Franklin,071
+ARTR,United States,Missouri,29,Gasconade,073
+ARTR,United States,Missouri,29,Gentry,075
+ARTR,United States,Missouri,29,Greene,077
+ARTR,United States,Missouri,29,Harrison,081
+ARTR,United States,Missouri,29,Hickory,085
+ARTR,United States,Missouri,29,Holt,087
+ARTR,United States,Missouri,29,Howard,089
+ARTR,United States,Missouri,29,Howell,091
+ARTR,United States,Missouri,29,Iron,093
+ARTR,United States,Missouri,29,Jackson,095
+ARTR,United States,Missouri,29,Jasper,097
+ARTR,United States,Missouri,29,Jefferson,099
+ARTR,United States,Missouri,29,Johnson,101
+ARTR,United States,Missouri,29,Laclede,105
+ARTR,United States,Missouri,29,Lafayette,107
+ARTR,United States,Missouri,29,Lincoln,113
+ARTR,United States,Missouri,29,Macon,121
+ARTR,United States,Missouri,29,Madison,123
+ARTR,United States,Missouri,29,Marion,127
+ARTR,United States,Missouri,29,McDonald,119
+ARTR,United States,Missouri,29,Miller,131
+ARTR,United States,Missouri,29,Montgomery,139
+ARTR,United States,Missouri,29,Morgan,141
+ARTR,United States,Missouri,29,Newton,145
+ARTR,United States,Missouri,29,Oregon,149
+ARTR,United States,Missouri,29,Perry,157
+ARTR,United States,Missouri,29,Pettis,159
+ARTR,United States,Missouri,29,Phelps,161
+ARTR,United States,Missouri,29,Pike,163
+ARTR,United States,Missouri,29,Polk,167
+ARTR,United States,Missouri,29,Pulaski,169
+ARTR,United States,Missouri,29,Ralls,173
+ARTR,United States,Missouri,29,Randolph,175
+ARTR,United States,Missouri,29,Scott,201
+ARTR,United States,Missouri,29,Shannon,203
+ARTR,United States,Missouri,29,St. Charles,183
+ARTR,United States,Missouri,29,St. Clair,185
+ARTR,United States,Missouri,29,St. Francois,187
+ARTR,United States,Missouri,29,St. Louis,189
+ARTR,United States,Missouri,29,Ste. Genevieve,186
+ARTR,United States,Missouri,29,Stoddard,207
+ARTR,United States,Missouri,29,Stone,209
+ARTR,United States,Missouri,29,Sullivan,211
+ARTR,United States,Missouri,29,Taney,213
+ARTR,United States,Missouri,29,Texas,215
+ARTR,United States,Missouri,29,Warren,219
+ARTR,United States,Missouri,29,Wayne,223
+ARTR,United States,Missouri,29,Webster,225
+ARTR,United States,Nebraska,31,,
+ARTR,United States,Nebraska,31,Butler,023
+ARTR,United States,Nebraska,31,Cass,025
+ARTR,United States,Nebraska,31,Cuming,039
+ARTR,United States,Nebraska,31,Dixon,051
+ARTR,United States,Nebraska,31,Douglas,055
+ARTR,United States,Nebraska,31,Nemaha,127
+ARTR,United States,Nebraska,31,Otoe,131
+ARTR,United States,Nebraska,31,Pawnee,133
+ARTR,United States,Nebraska,31,Richardson,147
+ARTR,United States,Nebraska,31,Rock,149
+ARTR,United States,Nebraska,31,Sarpy,153
+ARTR,United States,Nebraska,31,Saunders,155
+ARTR,United States,Nebraska,31,Seward,159
+ARTR,United States,Nebraska,31,Thayer,169
+ARTR,United States,Nebraska,31,Thurston,173
+ARTR,United States,Nebraska,31,Washington,177
+ARTR,United States,Nebraska,31,York,185
+ARTR,United States,New Hampshire,33,,
+ARTR,United States,New Hampshire,33,Belknap,001
+ARTR,United States,New Hampshire,33,Carroll,003
+ARTR,United States,New Hampshire,33,Cheshire,005
+ARTR,United States,New Hampshire,33,Coos,007
+ARTR,United States,New Hampshire,33,Grafton,009
+ARTR,United States,New Hampshire,33,Hillsborough,011
+ARTR,United States,New Hampshire,33,Merrimack,013
+ARTR,United States,New Hampshire,33,Rockingham,015
+ARTR,United States,New Hampshire,33,Strafford,017
+ARTR,United States,New Hampshire,33,Sullivan,019
+ARTR,United States,New Jersey,34,,
+ARTR,United States,New Jersey,34,Atlantic,001
+ARTR,United States,New Jersey,34,Bergen,003
+ARTR,United States,New Jersey,34,Burlington,005
+ARTR,United States,New Jersey,34,Camden,007
+ARTR,United States,New Jersey,34,Cape May,009
+ARTR,United States,New Jersey,34,Cumberland,011
+ARTR,United States,New Jersey,34,Essex,013
+ARTR,United States,New Jersey,34,Gloucester,015
+ARTR,United States,New Jersey,34,Hudson,017
+ARTR,United States,New Jersey,34,Hunterdon,019
+ARTR,United States,New Jersey,34,Mercer,021
+ARTR,United States,New Jersey,34,Middlesex,023
+ARTR,United States,New Jersey,34,Monmouth,025
+ARTR,United States,New Jersey,34,Morris,027
+ARTR,United States,New Jersey,34,Ocean,029
+ARTR,United States,New Jersey,34,Passaic,031
+ARTR,United States,New Jersey,34,Salem,033
+ARTR,United States,New Jersey,34,Somerset,035
+ARTR,United States,New Jersey,34,Sussex,037
+ARTR,United States,New Jersey,34,Union,039
+ARTR,United States,New Jersey,34,Warren,041
+ARTR,United States,New York,36,,
+ARTR,United States,New York,36,Albany,001
+ARTR,United States,New York,36,Allegany,003
+ARTR,United States,New York,36,Bronx,005
+ARTR,United States,New York,36,Broome,007
+ARTR,United States,New York,36,Cattaraugus,009
+ARTR,United States,New York,36,Cayuga,011
+ARTR,United States,New York,36,Chautauqua,013
+ARTR,United States,New York,36,Chemung,015
+ARTR,United States,New York,36,Chenango,017
+ARTR,United States,New York,36,Clinton,019
+ARTR,United States,New York,36,Columbia,021
+ARTR,United States,New York,36,Cortland,023
+ARTR,United States,New York,36,Delaware,025
+ARTR,United States,New York,36,Dutchess,027
+ARTR,United States,New York,36,Erie,029
+ARTR,United States,New York,36,Essex,031
+ARTR,United States,New York,36,Fulton,035
+ARTR,United States,New York,36,Genesee,037
+ARTR,United States,New York,36,Hamilton,041
+ARTR,United States,New York,36,Herkimer,043
+ARTR,United States,New York,36,Jefferson,045
+ARTR,United States,New York,36,Kings,047
+ARTR,United States,New York,36,Lewis,049
+ARTR,United States,New York,36,Madison,053
+ARTR,United States,New York,36,Monroe,055
+ARTR,United States,New York,36,Montgomery,057
+ARTR,United States,New York,36,Nassau,059
+ARTR,United States,New York,36,New York,061
+ARTR,United States,New York,36,Niagara,063
+ARTR,United States,New York,36,Oneida,065
+ARTR,United States,New York,36,Onondaga,067
+ARTR,United States,New York,36,Ontario,069
+ARTR,United States,New York,36,Orange,071
+ARTR,United States,New York,36,Orleans,073
+ARTR,United States,New York,36,Oswego,075
+ARTR,United States,New York,36,Otsego,077
+ARTR,United States,New York,36,Putnam,079
+ARTR,United States,New York,36,Queens,081
+ARTR,United States,New York,36,Rensselaer,083
+ARTR,United States,New York,36,Richmond,085
+ARTR,United States,New York,36,Rockland,087
+ARTR,United States,New York,36,Saratoga,091
+ARTR,United States,New York,36,Schenectady,093
+ARTR,United States,New York,36,Schoharie,095
+ARTR,United States,New York,36,Schuyler,097
+ARTR,United States,New York,36,Seneca,099
+ARTR,United States,New York,36,St. Lawrence,089
+ARTR,United States,New York,36,Steuben,101
+ARTR,United States,New York,36,Suffolk,103
+ARTR,United States,New York,36,Sullivan,105
+ARTR,United States,New York,36,Tompkins,109
+ARTR,United States,New York,36,Ulster,111
+ARTR,United States,New York,36,Warren,113
+ARTR,United States,New York,36,Washington,115
+ARTR,United States,New York,36,Wayne,117
+ARTR,United States,New York,36,Westchester,119
+ARTR,United States,New York,36,Wyoming,121
+ARTR,United States,New York,36,Yates,123
+ARTR,United States,North Carolina,37,,
+ARTR,United States,North Carolina,37,Alamance,001
+ARTR,United States,North Carolina,37,Alexander,003
+ARTR,United States,North Carolina,37,Alleghany,005
+ARTR,United States,North Carolina,37,Ashe,009
+ARTR,United States,North Carolina,37,Avery,011
+ARTR,United States,North Carolina,37,Bertie,015
+ARTR,United States,North Carolina,37,Bladen,017
+ARTR,United States,North Carolina,37,Brunswick,019
+ARTR,United States,North Carolina,37,Buncombe,021
+ARTR,United States,North Carolina,37,Burke,023
+ARTR,United States,North Carolina,37,Caldwell,027
+ARTR,United States,North Carolina,37,Catawba,035
+ARTR,United States,North Carolina,37,Chatham,037
+ARTR,United States,North Carolina,37,Cherokee,039
+ARTR,United States,North Carolina,37,Chowan,041
+ARTR,United States,North Carolina,37,Clay,043
+ARTR,United States,North Carolina,37,Craven,049
+ARTR,United States,North Carolina,37,Davie,059
+ARTR,United States,North Carolina,37,Duplin,061
+ARTR,United States,North Carolina,37,Durham,063
+ARTR,United States,North Carolina,37,Forsyth,067
+ARTR,United States,North Carolina,37,Gates,073
+ARTR,United States,North Carolina,37,Graham,075
+ARTR,United States,North Carolina,37,Granville,077
+ARTR,United States,North Carolina,37,Guilford,081
+ARTR,United States,North Carolina,37,Harnett,085
+ARTR,United States,North Carolina,37,Haywood,087
+ARTR,United States,North Carolina,37,Henderson,089
+ARTR,United States,North Carolina,37,Iredell,097
+ARTR,United States,North Carolina,37,Jackson,099
+ARTR,United States,North Carolina,37,Jones,103
+ARTR,United States,North Carolina,37,Lee,105
+ARTR,United States,North Carolina,37,Macon,113
+ARTR,United States,North Carolina,37,Madison,115
+ARTR,United States,North Carolina,37,Martin,117
+ARTR,United States,North Carolina,37,McDowell,111
+ARTR,United States,North Carolina,37,Mecklenburg,119
+ARTR,United States,North Carolina,37,Mitchell,121
+ARTR,United States,North Carolina,37,Moore,125
+ARTR,United States,North Carolina,37,New Hanover,129
+ARTR,United States,North Carolina,37,Onslow,133
+ARTR,United States,North Carolina,37,Orange,135
+ARTR,United States,North Carolina,37,Pender,141
+ARTR,United States,North Carolina,37,Perquimans,143
+ARTR,United States,North Carolina,37,Pitt,147
+ARTR,United States,North Carolina,37,Polk,149
+ARTR,United States,North Carolina,37,Randolph,151
+ARTR,United States,North Carolina,37,Robeson,155
+ARTR,United States,North Carolina,37,Rockingham,157
+ARTR,United States,North Carolina,37,Rowan,159
+ARTR,United States,North Carolina,37,Rutherford,161
+ARTR,United States,North Carolina,37,Stokes,169
+ARTR,United States,North Carolina,37,Surry,171
+ARTR,United States,North Carolina,37,Swain,173
+ARTR,United States,North Carolina,37,Vance,181
+ARTR,United States,North Carolina,37,Wake,183
+ARTR,United States,North Carolina,37,Watauga,189
+ARTR,United States,North Carolina,37,Wilkes,193
+ARTR,United States,North Carolina,37,Wilson,195
+ARTR,United States,North Carolina,37,Yancey,199
+ARTR,United States,North Dakota,38,,
+ARTR,United States,North Dakota,38,Cass,017
+ARTR,United States,North Dakota,38,Grand Forks,035
+ARTR,United States,North Dakota,38,Ransom,073
+ARTR,United States,North Dakota,38,Richland,077
+ARTR,United States,North Dakota,38,Sargent,081
+ARTR,United States,Ohio,39,,
+ARTR,United States,Ohio,39,Adams,001
+ARTR,United States,Ohio,39,Allen,003
+ARTR,United States,Ohio,39,Ashland,005
+ARTR,United States,Ohio,39,Ashtabula,007
+ARTR,United States,Ohio,39,Athens,009
+ARTR,United States,Ohio,39,Auglaize,011
+ARTR,United States,Ohio,39,Belmont,013
+ARTR,United States,Ohio,39,Brown,015
+ARTR,United States,Ohio,39,Butler,017
+ARTR,United States,Ohio,39,Carroll,019
+ARTR,United States,Ohio,39,Champaign,021
+ARTR,United States,Ohio,39,Clark,023
+ARTR,United States,Ohio,39,Clermont,025
+ARTR,United States,Ohio,39,Clinton,027
+ARTR,United States,Ohio,39,Columbiana,029
+ARTR,United States,Ohio,39,Coshocton,031
+ARTR,United States,Ohio,39,Crawford,033
+ARTR,United States,Ohio,39,Cuyahoga,035
+ARTR,United States,Ohio,39,Darke,037
+ARTR,United States,Ohio,39,Defiance,039
+ARTR,United States,Ohio,39,Delaware,041
+ARTR,United States,Ohio,39,Erie,043
+ARTR,United States,Ohio,39,Fairfield,045
+ARTR,United States,Ohio,39,Fayette,047
+ARTR,United States,Ohio,39,Franklin,049
+ARTR,United States,Ohio,39,Fulton,051
+ARTR,United States,Ohio,39,Gallia,053
+ARTR,United States,Ohio,39,Geauga,055
+ARTR,United States,Ohio,39,Greene,057
+ARTR,United States,Ohio,39,Guernsey,059
+ARTR,United States,Ohio,39,Hamilton,061
+ARTR,United States,Ohio,39,Hardin,065
+ARTR,United States,Ohio,39,Harrison,067
+ARTR,United States,Ohio,39,Highland,071
+ARTR,United States,Ohio,39,Hocking,073
+ARTR,United States,Ohio,39,Holmes,075
+ARTR,United States,Ohio,39,Huron,077
+ARTR,United States,Ohio,39,Jackson,079
+ARTR,United States,Ohio,39,Jefferson,081
+ARTR,United States,Ohio,39,Knox,083
+ARTR,United States,Ohio,39,Lake,085
+ARTR,United States,Ohio,39,Lawrence,087
+ARTR,United States,Ohio,39,Licking,089
+ARTR,United States,Ohio,39,Logan,091
+ARTR,United States,Ohio,39,Lorain,093
+ARTR,United States,Ohio,39,Lucas,095
+ARTR,United States,Ohio,39,Mahoning,099
+ARTR,United States,Ohio,39,Medina,103
+ARTR,United States,Ohio,39,Meigs,105
+ARTR,United States,Ohio,39,Monroe,111
+ARTR,United States,Ohio,39,Montgomery,113
+ARTR,United States,Ohio,39,Morgan,115
+ARTR,United States,Ohio,39,Morrow,117
+ARTR,United States,Ohio,39,Muskingum,119
+ARTR,United States,Ohio,39,Noble,121
+ARTR,United States,Ohio,39,Ottawa,123
+ARTR,United States,Ohio,39,Perry,127
+ARTR,United States,Ohio,39,Pickaway,129
+ARTR,United States,Ohio,39,Pike,131
+ARTR,United States,Ohio,39,Portage,133
+ARTR,United States,Ohio,39,Preble,135
+ARTR,United States,Ohio,39,Richland,139
+ARTR,United States,Ohio,39,Ross,141
+ARTR,United States,Ohio,39,Sandusky,143
+ARTR,United States,Ohio,39,Scioto,145
+ARTR,United States,Ohio,39,Seneca,147
+ARTR,United States,Ohio,39,Stark,151
+ARTR,United States,Ohio,39,Summit,153
+ARTR,United States,Ohio,39,Trumbull,155
+ARTR,United States,Ohio,39,Tuscarawas,157
+ARTR,United States,Ohio,39,Union,159
+ARTR,United States,Ohio,39,Van Wert,161
+ARTR,United States,Ohio,39,Vinton,163
+ARTR,United States,Ohio,39,Warren,165
+ARTR,United States,Ohio,39,Washington,167
+ARTR,United States,Ohio,39,Wayne,169
+ARTR,United States,Ohio,39,Williams,171
+ARTR,United States,Ohio,39,Wood,173
+ARTR,United States,Oklahoma,40,,
+ARTR,United States,Oklahoma,40,Adair,001
+ARTR,United States,Oklahoma,40,Cherokee,021
+ARTR,United States,Oklahoma,40,Cleveland,027
+ARTR,United States,Oklahoma,40,Creek,037
+ARTR,United States,Oklahoma,40,Delaware,041
+ARTR,United States,Oklahoma,40,Le Flore,079
+ARTR,United States,Oklahoma,40,Mayes,097
+ARTR,United States,Oklahoma,40,Muskogee,101
+ARTR,United States,Oklahoma,40,Payne,119
+ARTR,United States,Oklahoma,40,Pushmataha,127
+ARTR,United States,Oklahoma,40,Tulsa,143
+ARTR,United States,Pennsylvania,42,,
+ARTR,United States,Pennsylvania,42,Adams,001
+ARTR,United States,Pennsylvania,42,Allegheny,003
+ARTR,United States,Pennsylvania,42,Armstrong,005
+ARTR,United States,Pennsylvania,42,Beaver,007
+ARTR,United States,Pennsylvania,42,Bedford,009
+ARTR,United States,Pennsylvania,42,Berks,011
+ARTR,United States,Pennsylvania,42,Blair,013
+ARTR,United States,Pennsylvania,42,Bradford,015
+ARTR,United States,Pennsylvania,42,Bucks,017
+ARTR,United States,Pennsylvania,42,Butler,019
+ARTR,United States,Pennsylvania,42,Cambria,021
+ARTR,United States,Pennsylvania,42,Cameron,023
+ARTR,United States,Pennsylvania,42,Carbon,025
+ARTR,United States,Pennsylvania,42,Centre,027
+ARTR,United States,Pennsylvania,42,Chester,029
+ARTR,United States,Pennsylvania,42,Clarion,031
+ARTR,United States,Pennsylvania,42,Clearfield,033
+ARTR,United States,Pennsylvania,42,Clinton,035
+ARTR,United States,Pennsylvania,42,Columbia,037
+ARTR,United States,Pennsylvania,42,Crawford,039
+ARTR,United States,Pennsylvania,42,Cumberland,041
+ARTR,United States,Pennsylvania,42,Dauphin,043
+ARTR,United States,Pennsylvania,42,Delaware,045
+ARTR,United States,Pennsylvania,42,Elk,047
+ARTR,United States,Pennsylvania,42,Erie,049
+ARTR,United States,Pennsylvania,42,Fayette,051
+ARTR,United States,Pennsylvania,42,Forest,053
+ARTR,United States,Pennsylvania,42,Franklin,055
+ARTR,United States,Pennsylvania,42,Fulton,057
+ARTR,United States,Pennsylvania,42,Greene,059
+ARTR,United States,Pennsylvania,42,Huntingdon,061
+ARTR,United States,Pennsylvania,42,Indiana,063
+ARTR,United States,Pennsylvania,42,Jefferson,065
+ARTR,United States,Pennsylvania,42,Juniata,067
+ARTR,United States,Pennsylvania,42,Lackawanna,069
+ARTR,United States,Pennsylvania,42,Lancaster,071
+ARTR,United States,Pennsylvania,42,Lawrence,073
+ARTR,United States,Pennsylvania,42,Lebanon,075
+ARTR,United States,Pennsylvania,42,Lehigh,077
+ARTR,United States,Pennsylvania,42,Luzerne,079
+ARTR,United States,Pennsylvania,42,Lycoming,081
+ARTR,United States,Pennsylvania,42,McKean,083
+ARTR,United States,Pennsylvania,42,Mercer,085
+ARTR,United States,Pennsylvania,42,Mifflin,087
+ARTR,United States,Pennsylvania,42,Monroe,089
+ARTR,United States,Pennsylvania,42,Montgomery,091
+ARTR,United States,Pennsylvania,42,Montour,093
+ARTR,United States,Pennsylvania,42,Northampton,095
+ARTR,United States,Pennsylvania,42,Northumberland,097
+ARTR,United States,Pennsylvania,42,Perry,099
+ARTR,United States,Pennsylvania,42,Philadelphia,101
+ARTR,United States,Pennsylvania,42,Pike,103
+ARTR,United States,Pennsylvania,42,Potter,105
+ARTR,United States,Pennsylvania,42,Schuylkill,107
+ARTR,United States,Pennsylvania,42,Snyder,109
+ARTR,United States,Pennsylvania,42,Somerset,111
+ARTR,United States,Pennsylvania,42,Sullivan,113
+ARTR,United States,Pennsylvania,42,Susquehanna,115
+ARTR,United States,Pennsylvania,42,Tioga,117
+ARTR,United States,Pennsylvania,42,Union,119
+ARTR,United States,Pennsylvania,42,Venango,121
+ARTR,United States,Pennsylvania,42,Warren,123
+ARTR,United States,Pennsylvania,42,Washington,125
+ARTR,United States,Pennsylvania,42,Wayne,127
+ARTR,United States,Pennsylvania,42,Westmoreland,129
+ARTR,United States,Pennsylvania,42,Wyoming,131
+ARTR,United States,Pennsylvania,42,York,133
+ARTR,United States,Rhode Island,44,,
+ARTR,United States,Rhode Island,44,Bristol,001
+ARTR,United States,Rhode Island,44,Newport,005
+ARTR,United States,Rhode Island,44,Providence,007
+ARTR,United States,Rhode Island,44,Washington,009
+ARTR,United States,South Carolina,45,,
+ARTR,United States,South Carolina,45,Abbeville,001
+ARTR,United States,South Carolina,45,Allendale,005
+ARTR,United States,South Carolina,45,Anderson,007
+ARTR,United States,South Carolina,45,Barnwell,011
+ARTR,United States,South Carolina,45,Beaufort,013
+ARTR,United States,South Carolina,45,Berkeley,015
+ARTR,United States,South Carolina,45,Calhoun,017
+ARTR,United States,South Carolina,45,Charleston,019
+ARTR,United States,South Carolina,45,Chesterfield,025
+ARTR,United States,South Carolina,45,Clarendon,027
+ARTR,United States,South Carolina,45,Colleton,029
+ARTR,United States,South Carolina,45,Dorchester,035
+ARTR,United States,South Carolina,45,Florence,041
+ARTR,United States,South Carolina,45,Georgetown,043
+ARTR,United States,South Carolina,45,Hampton,049
+ARTR,United States,South Carolina,45,Horry,051
+ARTR,United States,South Carolina,45,Jasper,053
+ARTR,United States,South Carolina,45,Lancaster,057
+ARTR,United States,South Carolina,45,Laurens,059
+ARTR,United States,South Carolina,45,Lexington,063
+ARTR,United States,South Carolina,45,Marlboro,069
+ARTR,United States,South Carolina,45,McCormick,065
+ARTR,United States,South Carolina,45,Oconee,073
+ARTR,United States,South Carolina,45,Orangeburg,075
+ARTR,United States,South Carolina,45,Pickens,077
+ARTR,United States,South Carolina,45,Richland,079
+ARTR,United States,South Carolina,45,Saluda,081
+ARTR,United States,South Carolina,45,Williamsburg,089
+ARTR,United States,South Dakota,46,,
+ARTR,United States,South Dakota,46,Clay,027
+ARTR,United States,South Dakota,46,Deuel,039
+ARTR,United States,South Dakota,46,Grant,051
+ARTR,United States,South Dakota,46,Lincoln,083
+ARTR,United States,South Dakota,46,Marshall,091
+ARTR,United States,South Dakota,46,Minnehaha,099
+ARTR,United States,South Dakota,46,Roberts,109
+ARTR,United States,South Dakota,46,Union,127
+ARTR,United States,Tennessee,47,,
+ARTR,United States,Tennessee,47,Anderson,001
+ARTR,United States,Tennessee,47,Benton,005
+ARTR,United States,Tennessee,47,Bledsoe,007
+ARTR,United States,Tennessee,47,Blount,009
+ARTR,United States,Tennessee,47,Bradley,011
+ARTR,United States,Tennessee,47,Campbell,013
+ARTR,United States,Tennessee,47,Cannon,015
+ARTR,United States,Tennessee,47,Carter,019
+ARTR,United States,Tennessee,47,Cheatham,021
+ARTR,United States,Tennessee,47,Claiborne,025
+ARTR,United States,Tennessee,47,Cocke,029
+ARTR,United States,Tennessee,47,Coffee,031
+ARTR,United States,Tennessee,47,Cumberland,035
+ARTR,United States,Tennessee,47,Davidson,037
+ARTR,United States,Tennessee,47,DeKalb,041
+ARTR,United States,Tennessee,47,Dickson,043
+ARTR,United States,Tennessee,47,Dyer,045
+ARTR,United States,Tennessee,47,Fentress,049
+ARTR,United States,Tennessee,47,Franklin,051
+ARTR,United States,Tennessee,47,Giles,055
+ARTR,United States,Tennessee,47,Grainger,057
+ARTR,United States,Tennessee,47,Greene,059
+ARTR,United States,Tennessee,47,Grundy,061
+ARTR,United States,Tennessee,47,Hamilton,065
+ARTR,United States,Tennessee,47,Hancock,067
+ARTR,United States,Tennessee,47,Hardeman,069
+ARTR,United States,Tennessee,47,Hardin,071
+ARTR,United States,Tennessee,47,Hawkins,073
+ARTR,United States,Tennessee,47,Henry,079
+ARTR,United States,Tennessee,47,Hickman,081
+ARTR,United States,Tennessee,47,Houston,083
+ARTR,United States,Tennessee,47,Jackson,087
+ARTR,United States,Tennessee,47,Jefferson,089
+ARTR,United States,Tennessee,47,Johnson,091
+ARTR,United States,Tennessee,47,Knox,093
+ARTR,United States,Tennessee,47,Lake,095
+ARTR,United States,Tennessee,47,Lauderdale,097
+ARTR,United States,Tennessee,47,Lawrence,099
+ARTR,United States,Tennessee,47,Lewis,101
+ARTR,United States,Tennessee,47,Lincoln,103
+ARTR,United States,Tennessee,47,Macon,111
+ARTR,United States,Tennessee,47,Marion,115
+ARTR,United States,Tennessee,47,Marshall,117
+ARTR,United States,Tennessee,47,Maury,119
+ARTR,United States,Tennessee,47,McNairy,109
+ARTR,United States,Tennessee,47,Monroe,123
+ARTR,United States,Tennessee,47,Montgomery,125
+ARTR,United States,Tennessee,47,Morgan,129
+ARTR,United States,Tennessee,47,Obion,131
+ARTR,United States,Tennessee,47,Overton,133
+ARTR,United States,Tennessee,47,Perry,135
+ARTR,United States,Tennessee,47,Pickett,137
+ARTR,United States,Tennessee,47,Polk,139
+ARTR,United States,Tennessee,47,Putnam,141
+ARTR,United States,Tennessee,47,Roane,145
+ARTR,United States,Tennessee,47,Robertson,147
+ARTR,United States,Tennessee,47,Rutherford,149
+ARTR,United States,Tennessee,47,Scott,151
+ARTR,United States,Tennessee,47,Sequatchie,153
+ARTR,United States,Tennessee,47,Sevier,155
+ARTR,United States,Tennessee,47,Shelby,157
+ARTR,United States,Tennessee,47,Smith,159
+ARTR,United States,Tennessee,47,Stewart,161
+ARTR,United States,Tennessee,47,Sumner,165
+ARTR,United States,Tennessee,47,Tipton,167
+ARTR,United States,Tennessee,47,Trousdale,169
+ARTR,United States,Tennessee,47,Unicoi,171
+ARTR,United States,Tennessee,47,Van Buren,175
+ARTR,United States,Tennessee,47,Wayne,181
+ARTR,United States,Tennessee,47,White,185
+ARTR,United States,Tennessee,47,Williamson,187
+ARTR,United States,Tennessee,47,Wilson,189
+ARTR,United States,Texas,48,,
+ARTR,United States,Texas,48,Anderson,001
+ARTR,United States,Texas,48,Angelina,005
+ARTR,United States,Texas,48,Cass,067
+ARTR,United States,Texas,48,Chambers,071
+ARTR,United States,Texas,48,Cherokee,073
+ARTR,United States,Texas,48,Gregg,183
+ARTR,United States,Texas,48,Hardin,199
+ARTR,United States,Texas,48,Henderson,213
+ARTR,United States,Texas,48,Houston,225
+ARTR,United States,Texas,48,Jasper,241
+ARTR,United States,Texas,48,Jefferson,245
+ARTR,United States,Texas,48,Marion,315
+ARTR,United States,Texas,48,Montgomery,339
+ARTR,United States,Texas,48,Nacogdoches,347
+ARTR,United States,Texas,48,Newton,351
+ARTR,United States,Texas,48,Parker,367
+ARTR,United States,Texas,48,Polk,373
+ARTR,United States,Texas,48,Rusk,401
+ARTR,United States,Texas,48,Sabine,403
+ARTR,United States,Texas,48,San Augustine,405
+ARTR,United States,Texas,48,San Jacinto,407
+ARTR,United States,Texas,48,Shelby,419
+ARTR,United States,Texas,48,Tyler,457
+ARTR,United States,Texas,48,Wood,499
+ARTR,United States,Vermont,50,,
+ARTR,United States,Vermont,50,Addison,001
+ARTR,United States,Vermont,50,Bennington,003
+ARTR,United States,Vermont,50,Chittenden,007
+ARTR,United States,Vermont,50,Essex,009
+ARTR,United States,Vermont,50,Franklin,011
+ARTR,United States,Vermont,50,Grand Isle,013
+ARTR,United States,Vermont,50,Lamoille,015
+ARTR,United States,Vermont,50,Orange,017
+ARTR,United States,Vermont,50,Orleans,019
+ARTR,United States,Vermont,50,Rutland,021
+ARTR,United States,Vermont,50,Washington,023
+ARTR,United States,Vermont,50,Windham,025
+ARTR,United States,Vermont,50,Windsor,027
+ARTR,United States,Virginia,51,,
+ARTR,United States,Virginia,51,Accomack,001
+ARTR,United States,Virginia,51,Albemarle,003
+ARTR,United States,Virginia,51,Alleghany,005
+ARTR,United States,Virginia,51,Amelia,007
+ARTR,United States,Virginia,51,Amherst,009
+ARTR,United States,Virginia,51,Appomattox,011
+ARTR,United States,Virginia,51,Arlington,013
+ARTR,United States,Virginia,51,Augusta,015
+ARTR,United States,Virginia,51,Bath,017
+ARTR,United States,Virginia,51,Bedford,019
+ARTR,United States,Virginia,51,Bland,021
+ARTR,United States,Virginia,51,Botetourt,023
+ARTR,United States,Virginia,51,Brunswick,025
+ARTR,United States,Virginia,51,Buchanan,027
+ARTR,United States,Virginia,51,Buckingham,029
+ARTR,United States,Virginia,51,Campbell,031
+ARTR,United States,Virginia,51,Caroline,033
+ARTR,United States,Virginia,51,Carroll,035
+ARTR,United States,Virginia,51,Charles City,036
+ARTR,United States,Virginia,51,Charlotte,037
+ARTR,United States,Virginia,51,"Chesapeake ",550
+ARTR,United States,Virginia,51,Chesterfield,041
+ARTR,United States,Virginia,51,Clarke,043
+ARTR,United States,Virginia,51,Culpeper,047
+ARTR,United States,Virginia,51,Cumberland,049
+ARTR,United States,Virginia,51,Dickenson,051
+ARTR,United States,Virginia,51,Dinwiddie,053
+ARTR,United States,Virginia,51,Essex,057
+ARTR,United States,Virginia,51,Fairfax,059
+ARTR,United States,Virginia,51,Fauquier,061
+ARTR,United States,Virginia,51,Floyd,063
+ARTR,United States,Virginia,51,Fluvanna,065
+ARTR,United States,Virginia,51,Franklin,067
+ARTR,United States,Virginia,51,Frederick,069
+ARTR,United States,Virginia,51,Giles,071
+ARTR,United States,Virginia,51,Gloucester,073
+ARTR,United States,Virginia,51,Goochland,075
+ARTR,United States,Virginia,51,Grayson,077
+ARTR,United States,Virginia,51,Greene,079
+ARTR,United States,Virginia,51,Greensville,081
+ARTR,United States,Virginia,51,Halifax,083
+ARTR,United States,Virginia,51,"Hampton ",650
+ARTR,United States,Virginia,51,Hanover,085
+ARTR,United States,Virginia,51,Henrico,087
+ARTR,United States,Virginia,51,Henry,089
+ARTR,United States,Virginia,51,Highland,091
+ARTR,United States,Virginia,51,Isle of Wight,093
+ARTR,United States,Virginia,51,James City,095
+ARTR,United States,Virginia,51,King and Queen,097
+ARTR,United States,Virginia,51,King George,099
+ARTR,United States,Virginia,51,King William,101
+ARTR,United States,Virginia,51,Lancaster,103
+ARTR,United States,Virginia,51,Lee,105
+ARTR,United States,Virginia,51,Loudoun,107
+ARTR,United States,Virginia,51,Louisa,109
+ARTR,United States,Virginia,51,Lunenburg,111
+ARTR,United States,Virginia,51,Madison,113
+ARTR,United States,Virginia,51,Mecklenburg,117
+ARTR,United States,Virginia,51,Middlesex,119
+ARTR,United States,Virginia,51,Montgomery,121
+ARTR,United States,Virginia,51,Nelson,125
+ARTR,United States,Virginia,51,New Kent,127
+ARTR,United States,Virginia,51,"Newport News ",700
+ARTR,United States,Virginia,51,Northumberland,133
+ARTR,United States,Virginia,51,Nottoway,135
+ARTR,United States,Virginia,51,Orange,137
+ARTR,United States,Virginia,51,Page,139
+ARTR,United States,Virginia,51,Patrick,141
+ARTR,United States,Virginia,51,Pittsylvania,143
+ARTR,United States,Virginia,51,Powhatan,145
+ARTR,United States,Virginia,51,Prince Edward,147
+ARTR,United States,Virginia,51,Prince George,149
+ARTR,United States,Virginia,51,Prince William,153
+ARTR,United States,Virginia,51,Pulaski,155
+ARTR,United States,Virginia,51,Rappahannock,157
+ARTR,United States,Virginia,51,Richmond,159
+ARTR,United States,Virginia,51,Roanoke,161
+ARTR,United States,Virginia,51,Rockbridge,163
+ARTR,United States,Virginia,51,Rockingham,165
+ARTR,United States,Virginia,51,Russell,167
+ARTR,United States,Virginia,51,Scott,169
+ARTR,United States,Virginia,51,Shenandoah,171
+ARTR,United States,Virginia,51,Smyth,173
+ARTR,United States,Virginia,51,Southampton,175
+ARTR,United States,Virginia,51,Spotsylvania,177
+ARTR,United States,Virginia,51,Stafford,179
+ARTR,United States,Virginia,51,"Suffolk ",800
+ARTR,United States,Virginia,51,Surry,181
+ARTR,United States,Virginia,51,Sussex,183
+ARTR,United States,Virginia,51,Tazewell,185
+ARTR,United States,Virginia,51,"Virginia Beach ",810
+ARTR,United States,Virginia,51,Warren,187
+ARTR,United States,Virginia,51,Washington,191
+ARTR,United States,Virginia,51,Westmoreland,193
+ARTR,United States,Virginia,51,Wise,195
+ARTR,United States,Virginia,51,Wythe,197
+ARTR,United States,Virginia,51,York,199
+ARTR,United States,West Virginia,54,,
+ARTR,United States,West Virginia,54,Barbour,001
+ARTR,United States,West Virginia,54,Berkeley,003
+ARTR,United States,West Virginia,54,Boone,005
+ARTR,United States,West Virginia,54,Braxton,007
+ARTR,United States,West Virginia,54,Brooke,009
+ARTR,United States,West Virginia,54,Cabell,011
+ARTR,United States,West Virginia,54,Calhoun,013
+ARTR,United States,West Virginia,54,Fayette,019
+ARTR,United States,West Virginia,54,Gilmer,021
+ARTR,United States,West Virginia,54,Grant,023
+ARTR,United States,West Virginia,54,Greenbrier,025
+ARTR,United States,West Virginia,54,Hampshire,027
+ARTR,United States,West Virginia,54,Hancock,029
+ARTR,United States,West Virginia,54,Hardy,031
+ARTR,United States,West Virginia,54,Jefferson,037
+ARTR,United States,West Virginia,54,Kanawha,039
+ARTR,United States,West Virginia,54,Logan,045
+ARTR,United States,West Virginia,54,Marion,049
+ARTR,United States,West Virginia,54,Marshall,051
+ARTR,United States,West Virginia,54,McDowell,047
+ARTR,United States,West Virginia,54,Mercer,055
+ARTR,United States,West Virginia,54,Mineral,057
+ARTR,United States,West Virginia,54,Mingo,059
+ARTR,United States,West Virginia,54,Monongalia,061
+ARTR,United States,West Virginia,54,Morgan,065
+ARTR,United States,West Virginia,54,Nicholas,067
+ARTR,United States,West Virginia,54,Ohio,069
+ARTR,United States,West Virginia,54,Pendleton,071
+ARTR,United States,West Virginia,54,Pleasants,073
+ARTR,United States,West Virginia,54,Pocahontas,075
+ARTR,United States,West Virginia,54,Preston,077
+ARTR,United States,West Virginia,54,Raleigh,081
+ARTR,United States,West Virginia,54,Randolph,083
+ARTR,United States,West Virginia,54,Ritchie,085
+ARTR,United States,West Virginia,54,Roane,087
+ARTR,United States,West Virginia,54,Summers,089
+ARTR,United States,West Virginia,54,Taylor,091
+ARTR,United States,West Virginia,54,Tucker,093
+ARTR,United States,West Virginia,54,Tyler,095
+ARTR,United States,West Virginia,54,Upshur,097
+ARTR,United States,West Virginia,54,Wayne,099
+ARTR,United States,West Virginia,54,Webster,101
+ARTR,United States,West Virginia,54,Wetzel,103
+ARTR,United States,West Virginia,54,Wirt,105
+ARTR,United States,West Virginia,54,Wyoming,109
+ARTR,United States,Wisconsin,55,,
+ARTR,United States,Wisconsin,55,Adams,001
+ARTR,United States,Wisconsin,55,Ashland,003
+ARTR,United States,Wisconsin,55,Barron,005
+ARTR,United States,Wisconsin,55,Bayfield,007
+ARTR,United States,Wisconsin,55,Brown,009
+ARTR,United States,Wisconsin,55,Buffalo,011
+ARTR,United States,Wisconsin,55,Burnett,013
+ARTR,United States,Wisconsin,55,Calumet,015
+ARTR,United States,Wisconsin,55,Chippewa,017
+ARTR,United States,Wisconsin,55,Clark,019
+ARTR,United States,Wisconsin,55,Columbia,021
+ARTR,United States,Wisconsin,55,Crawford,023
+ARTR,United States,Wisconsin,55,Dane,025
+ARTR,United States,Wisconsin,55,Dodge,027
+ARTR,United States,Wisconsin,55,Door,029
+ARTR,United States,Wisconsin,55,Douglas,031
+ARTR,United States,Wisconsin,55,Dunn,033
+ARTR,United States,Wisconsin,55,Eau Claire,035
+ARTR,United States,Wisconsin,55,Florence,037
+ARTR,United States,Wisconsin,55,Fond du Lac,039
+ARTR,United States,Wisconsin,55,Forest,041
+ARTR,United States,Wisconsin,55,Grant,043
+ARTR,United States,Wisconsin,55,Green,045
+ARTR,United States,Wisconsin,55,Iowa,049
+ARTR,United States,Wisconsin,55,Iron,051
+ARTR,United States,Wisconsin,55,Jackson,053
+ARTR,United States,Wisconsin,55,Jefferson,055
+ARTR,United States,Wisconsin,55,Kenosha,059
+ARTR,United States,Wisconsin,55,Kewaunee,061
+ARTR,United States,Wisconsin,55,La Crosse,063
+ARTR,United States,Wisconsin,55,Lafayette,065
+ARTR,United States,Wisconsin,55,Langlade,067
+ARTR,United States,Wisconsin,55,Lincoln,069
+ARTR,United States,Wisconsin,55,Manitowoc,071
+ARTR,United States,Wisconsin,55,Marathon,073
+ARTR,United States,Wisconsin,55,Marinette,075
+ARTR,United States,Wisconsin,55,Marquette,077
+ARTR,United States,Wisconsin,55,Menominee,078
+ARTR,United States,Wisconsin,55,Milwaukee,079
+ARTR,United States,Wisconsin,55,Monroe,081
+ARTR,United States,Wisconsin,55,Oconto,083
+ARTR,United States,Wisconsin,55,Oneida,085
+ARTR,United States,Wisconsin,55,Outagamie,087
+ARTR,United States,Wisconsin,55,Ozaukee,089
+ARTR,United States,Wisconsin,55,Pepin,091
+ARTR,United States,Wisconsin,55,Pierce,093
+ARTR,United States,Wisconsin,55,Polk,095
+ARTR,United States,Wisconsin,55,Portage,097
+ARTR,United States,Wisconsin,55,Price,099
+ARTR,United States,Wisconsin,55,Racine,101
+ARTR,United States,Wisconsin,55,Richland,103
+ARTR,United States,Wisconsin,55,Rock,105
+ARTR,United States,Wisconsin,55,Rusk,107
+ARTR,United States,Wisconsin,55,Sauk,111
+ARTR,United States,Wisconsin,55,Sawyer,113
+ARTR,United States,Wisconsin,55,Shawano,115
+ARTR,United States,Wisconsin,55,Sheboygan,117
+ARTR,United States,Wisconsin,55,St. Croix,109
+ARTR,United States,Wisconsin,55,Taylor,119
+ARTR,United States,Wisconsin,55,Trempealeau,121
+ARTR,United States,Wisconsin,55,Vernon,123
+ARTR,United States,Wisconsin,55,Vilas,125
+ARTR,United States,Wisconsin,55,Walworth,127
+ARTR,United States,Wisconsin,55,Washington,131
+ARTR,United States,Wisconsin,55,Waukesha,133
+ARTR,United States,Wisconsin,55,Waushara,137
+ARTR,United States,Wisconsin,55,Winnebago,139
+ARTR,United States,Wisconsin,55,Wood,141

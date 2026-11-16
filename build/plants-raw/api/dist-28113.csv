@@ -1,0 +1,289 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+AMMU,United States,Alabama,01,,
+AMMU,United States,Alabama,01,Autauga,001
+AMMU,United States,Alabama,01,Baldwin,003
+AMMU,United States,Alabama,01,Bibb,007
+AMMU,United States,Alabama,01,Chilton,021
+AMMU,United States,Alabama,01,Clarke,025
+AMMU,United States,Alabama,01,Conecuh,035
+AMMU,United States,Alabama,01,Covington,039
+AMMU,United States,Alabama,01,DeKalb,049
+AMMU,United States,Alabama,01,Escambia,053
+AMMU,United States,Alabama,01,Hale,065
+AMMU,United States,Alabama,01,Jackson,071
+AMMU,United States,Alabama,01,Lee,081
+AMMU,United States,Alabama,01,Mobile,097
+AMMU,United States,Alabama,01,Monroe,099
+AMMU,United States,Alabama,01,Sumter,119
+AMMU,United States,Alabama,01,Talladega,121
+AMMU,United States,Alabama,01,Tallapoosa,123
+AMMU,United States,Arkansas,05,,
+AMMU,United States,Arkansas,05,Baxter,005
+AMMU,United States,Arkansas,05,Benton,007
+AMMU,United States,Arkansas,05,Cleburne,023
+AMMU,United States,Arkansas,05,Faulkner,045
+AMMU,United States,Arkansas,05,Garland,051
+AMMU,United States,Arkansas,05,Hempstead,057
+AMMU,United States,Arkansas,05,Hot Spring,059
+AMMU,United States,Arkansas,05,Logan,083
+AMMU,United States,Arkansas,05,Madison,087
+AMMU,United States,Arkansas,05,Montgomery,097
+AMMU,United States,Arkansas,05,Newton,101
+AMMU,United States,Arkansas,05,Pike,109
+AMMU,United States,Arkansas,05,Polk,113
+AMMU,United States,Arkansas,05,Pope,115
+AMMU,United States,Arkansas,05,Pulaski,119
+AMMU,United States,Arkansas,05,Saline,125
+AMMU,United States,Arkansas,05,Stone,137
+AMMU,United States,Arkansas,05,Van Buren,141
+AMMU,United States,Arkansas,05,Washington,143
+AMMU,United States,Delaware,10,,
+AMMU,United States,Delaware,10,New Castle,003
+AMMU,United States,Florida,12,,
+AMMU,United States,Florida,12,Bay,005
+AMMU,United States,Florida,12,Calhoun,013
+AMMU,United States,Florida,12,Gadsden,039
+AMMU,United States,Florida,12,Holmes,059
+AMMU,United States,Florida,12,Leon,073
+AMMU,United States,Florida,12,Liberty,077
+AMMU,United States,Florida,12,Okaloosa,091
+AMMU,United States,Florida,12,Santa Rosa,113
+AMMU,United States,Florida,12,Wakulla,129
+AMMU,United States,Florida,12,Walton,131
+AMMU,United States,Florida,12,Washington,133
+AMMU,United States,Georgia,13,,
+AMMU,United States,Georgia,13,Ben Hill,017
+AMMU,United States,Georgia,13,Bibb,021
+AMMU,United States,Georgia,13,Bulloch,031
+AMMU,United States,Georgia,13,Candler,043
+AMMU,United States,Georgia,13,Charlton,049
+AMMU,United States,Georgia,13,Cherokee,057
+AMMU,United States,Georgia,13,Clarke,059
+AMMU,United States,Georgia,13,Cobb,067
+AMMU,United States,Georgia,13,Coffee,069
+AMMU,United States,Georgia,13,Dawson,085
+AMMU,United States,Georgia,13,Decatur,087
+AMMU,United States,Georgia,13,DeKalb,089
+AMMU,United States,Georgia,13,Floyd,115
+AMMU,United States,Georgia,13,Forsyth,117
+AMMU,United States,Georgia,13,Grady,131
+AMMU,United States,Georgia,13,Hall,139
+AMMU,United States,Georgia,13,Jackson,157
+AMMU,United States,Georgia,13,Meriwether,199
+AMMU,United States,Georgia,13,Morgan,211
+AMMU,United States,Georgia,13,Rabun,241
+AMMU,United States,Georgia,13,Spalding,255
+AMMU,United States,Georgia,13,Thomas,275
+AMMU,United States,Georgia,13,Tift,277
+AMMU,United States,Georgia,13,Union,291
+AMMU,United States,Georgia,13,Walker,295
+AMMU,United States,Kentucky,21,,
+AMMU,United States,Kentucky,21,Bell,013
+AMMU,United States,Kentucky,21,Harlan,095
+AMMU,United States,Kentucky,21,Todd,219
+AMMU,United States,Louisiana,22,,
+AMMU,United States,Louisiana,22,Orleans,071
+AMMU,United States,Louisiana,22,Washington,117
+AMMU,United States,Maryland,24,,
+AMMU,United States,Maryland,24,Anne Arundel,003
+AMMU,United States,Maryland,24,Frederick,021
+AMMU,United States,Maryland,24,Garrett,023
+AMMU,United States,Mississippi,28,,
+AMMU,United States,Mississippi,28,Clarke,023
+AMMU,United States,Mississippi,28,Forrest,035
+AMMU,United States,Mississippi,28,Lamar,073
+AMMU,United States,Mississippi,28,Lauderdale,075
+AMMU,United States,Mississippi,28,Stone,131
+AMMU,United States,Mississippi,28,Wayne,153
+AMMU,United States,Missouri,29,,
+AMMU,United States,Missouri,29,Barry,009
+AMMU,United States,Missouri,29,Butler,023
+AMMU,United States,Missouri,29,Carter,035
+AMMU,United States,Missouri,29,Cooper,053
+AMMU,United States,Missouri,29,Douglas,067
+AMMU,United States,Missouri,29,Howell,091
+AMMU,United States,Missouri,29,Jackson,095
+AMMU,United States,Missouri,29,Oregon,149
+AMMU,United States,Missouri,29,Ripley,181
+AMMU,United States,Missouri,29,St. Francois,187
+AMMU,United States,Missouri,29,Wayne,223
+AMMU,United States,New Jersey,34,,
+AMMU,United States,New Jersey,34,Bergen,003
+AMMU,United States,New Jersey,34,Burlington,005
+AMMU,United States,New Jersey,34,Camden,007
+AMMU,United States,New Jersey,34,Cumberland,011
+AMMU,United States,New Jersey,34,Gloucester,015
+AMMU,United States,New Jersey,34,Mercer,021
+AMMU,United States,New Jersey,34,Ocean,029
+AMMU,United States,New Jersey,34,Salem,033
+AMMU,United States,New Jersey,34,Sussex,037
+AMMU,United States,New Jersey,34,Warren,041
+AMMU,United States,New York,36,,
+AMMU,United States,New York,36,Nassau,059
+AMMU,United States,New York,36,Queens,081
+AMMU,United States,North Carolina,37,,
+AMMU,United States,North Carolina,37,Alamance,001
+AMMU,United States,North Carolina,37,Alleghany,005
+AMMU,United States,North Carolina,37,Ashe,009
+AMMU,United States,North Carolina,37,Avery,011
+AMMU,United States,North Carolina,37,Beaufort,013
+AMMU,United States,North Carolina,37,Bertie,015
+AMMU,United States,North Carolina,37,Brunswick,019
+AMMU,United States,North Carolina,37,Buncombe,021
+AMMU,United States,North Carolina,37,Burke,023
+AMMU,United States,North Carolina,37,Craven,049
+AMMU,United States,North Carolina,37,Davidson,057
+AMMU,United States,North Carolina,37,Duplin,061
+AMMU,United States,North Carolina,37,Durham,063
+AMMU,United States,North Carolina,37,Edgecombe,065
+AMMU,United States,North Carolina,37,Gaston,071
+AMMU,United States,North Carolina,37,Gates,073
+AMMU,United States,North Carolina,37,Granville,077
+AMMU,United States,North Carolina,37,Harnett,085
+AMMU,United States,North Carolina,37,Haywood,087
+AMMU,United States,North Carolina,37,Henderson,089
+AMMU,United States,North Carolina,37,Iredell,097
+AMMU,United States,North Carolina,37,Jackson,099
+AMMU,United States,North Carolina,37,Johnston,101
+AMMU,United States,North Carolina,37,Lee,105
+AMMU,United States,North Carolina,37,Lenoir,107
+AMMU,United States,North Carolina,37,Macon,113
+AMMU,United States,North Carolina,37,Martin,117
+AMMU,United States,North Carolina,37,McDowell,111
+AMMU,United States,North Carolina,37,Mitchell,121
+AMMU,United States,North Carolina,37,Montgomery,123
+AMMU,United States,North Carolina,37,Moore,125
+AMMU,United States,North Carolina,37,Orange,135
+AMMU,United States,North Carolina,37,Pamlico,137
+AMMU,United States,North Carolina,37,Pitt,147
+AMMU,United States,North Carolina,37,Randolph,151
+AMMU,United States,North Carolina,37,Richmond,153
+AMMU,United States,North Carolina,37,Robeson,155
+AMMU,United States,North Carolina,37,Rowan,159
+AMMU,United States,North Carolina,37,Sampson,163
+AMMU,United States,North Carolina,37,Stokes,169
+AMMU,United States,North Carolina,37,Surry,171
+AMMU,United States,North Carolina,37,Swain,173
+AMMU,United States,North Carolina,37,Transylvania,175
+AMMU,United States,North Carolina,37,Wake,183
+AMMU,United States,North Carolina,37,Watauga,189
+AMMU,United States,North Carolina,37,Wayne,191
+AMMU,United States,North Carolina,37,Wilkes,193
+AMMU,United States,North Carolina,37,Wilson,195
+AMMU,United States,North Carolina,37,Yancey,199
+AMMU,United States,Oklahoma,40,,
+AMMU,United States,Pennsylvania,42,,
+AMMU,United States,Pennsylvania,42,Adams,001
+AMMU,United States,Pennsylvania,42,Berks,011
+AMMU,United States,Pennsylvania,42,Bucks,017
+AMMU,United States,Pennsylvania,42,Cameron,023
+AMMU,United States,Pennsylvania,42,Carbon,025
+AMMU,United States,Pennsylvania,42,Chester,029
+AMMU,United States,Pennsylvania,42,Clinton,035
+AMMU,United States,Pennsylvania,42,Columbia,037
+AMMU,United States,Pennsylvania,42,Cumberland,041
+AMMU,United States,Pennsylvania,42,Dauphin,043
+AMMU,United States,Pennsylvania,42,Franklin,055
+AMMU,United States,Pennsylvania,42,Lackawanna,069
+AMMU,United States,Pennsylvania,42,Lancaster,071
+AMMU,United States,Pennsylvania,42,Lebanon,075
+AMMU,United States,Pennsylvania,42,Lehigh,077
+AMMU,United States,Pennsylvania,42,Luzerne,079
+AMMU,United States,Pennsylvania,42,Lycoming,081
+AMMU,United States,Pennsylvania,42,Monroe,089
+AMMU,United States,Pennsylvania,42,Montgomery,091
+AMMU,United States,Pennsylvania,42,Northampton,095
+AMMU,United States,Pennsylvania,42,Northumberland,097
+AMMU,United States,Pennsylvania,42,Philadelphia,101
+AMMU,United States,Pennsylvania,42,Pike,103
+AMMU,United States,Pennsylvania,42,Schuylkill,107
+AMMU,United States,Pennsylvania,42,Snyder,109
+AMMU,United States,Pennsylvania,42,Wayne,127
+AMMU,United States,Pennsylvania,42,York,133
+AMMU,United States,South Carolina,45,,
+AMMU,United States,South Carolina,45,Abbeville,001
+AMMU,United States,South Carolina,45,Aiken,003
+AMMU,United States,South Carolina,45,Bamberg,009
+AMMU,United States,South Carolina,45,Barnwell,011
+AMMU,United States,South Carolina,45,Beaufort,013
+AMMU,United States,South Carolina,45,Berkeley,015
+AMMU,United States,South Carolina,45,Cherokee,021
+AMMU,United States,South Carolina,45,Colleton,029
+AMMU,United States,South Carolina,45,Darlington,031
+AMMU,United States,South Carolina,45,Edgefield,037
+AMMU,United States,South Carolina,45,Florence,041
+AMMU,United States,South Carolina,45,Hampton,049
+AMMU,United States,South Carolina,45,Horry,051
+AMMU,United States,South Carolina,45,Jasper,053
+AMMU,United States,South Carolina,45,Lancaster,057
+AMMU,United States,South Carolina,45,Laurens,059
+AMMU,United States,South Carolina,45,Oconee,073
+AMMU,United States,South Carolina,45,Orangeburg,075
+AMMU,United States,South Carolina,45,Richland,079
+AMMU,United States,South Carolina,45,Spartanburg,083
+AMMU,United States,South Carolina,45,Sumter,085
+AMMU,United States,Tennessee,47,,
+AMMU,United States,Tennessee,47,Anderson,001
+AMMU,United States,Tennessee,47,Campbell,013
+AMMU,United States,Tennessee,47,Carter,019
+AMMU,United States,Tennessee,47,Cocke,029
+AMMU,United States,Tennessee,47,Coffee,031
+AMMU,United States,Tennessee,47,Franklin,051
+AMMU,United States,Tennessee,47,Loudon,105
+AMMU,United States,Tennessee,47,Meigs,121
+AMMU,United States,Tennessee,47,Roane,145
+AMMU,United States,Tennessee,47,Sevier,155
+AMMU,United States,Tennessee,47,Unicoi,171
+AMMU,United States,Tennessee,47,Union,173
+AMMU,United States,Tennessee,47,Wayne,181
+AMMU,United States,Virginia,51,,
+AMMU,United States,Virginia,51,Albemarle,003
+AMMU,United States,Virginia,51,Alleghany,005
+AMMU,United States,Virginia,51,Amherst,009
+AMMU,United States,Virginia,51,Augusta,015
+AMMU,United States,Virginia,51,Bath,017
+AMMU,United States,Virginia,51,Bedford,019
+AMMU,United States,Virginia,51,Bland,021
+AMMU,United States,Virginia,51,Botetourt,023
+AMMU,United States,Virginia,51,Brunswick,025
+AMMU,United States,Virginia,51,Carroll,035
+AMMU,United States,Virginia,51,Chesterfield,041
+AMMU,United States,Virginia,51,Craig,045
+AMMU,United States,Virginia,51,Floyd,063
+AMMU,United States,Virginia,51,Fluvanna,065
+AMMU,United States,Virginia,51,Franklin,067
+AMMU,United States,Virginia,51,Frederick,069
+AMMU,United States,Virginia,51,Giles,071
+AMMU,United States,Virginia,51,Grayson,077
+AMMU,United States,Virginia,51,Greene,079
+AMMU,United States,Virginia,51,Henrico,087
+AMMU,United States,Virginia,51,Henry,089
+AMMU,United States,Virginia,51,Highland,091
+AMMU,United States,Virginia,51,Isle of Wight,093
+AMMU,United States,Virginia,51,James City,095
+AMMU,United States,Virginia,51,Madison,113
+AMMU,United States,Virginia,51,Nelson,125
+AMMU,United States,Virginia,51,Nottoway,135
+AMMU,United States,Virginia,51,Page,139
+AMMU,United States,Virginia,51,Patrick,141
+AMMU,United States,Virginia,51,Pittsylvania,143
+AMMU,United States,Virginia,51,Pulaski,155
+AMMU,United States,Virginia,51,Rappahannock,157
+AMMU,United States,Virginia,51,Roanoke,161
+AMMU,United States,Virginia,51,Rockbridge,163
+AMMU,United States,Virginia,51,Rockingham,165
+AMMU,United States,Virginia,51,Scott,169
+AMMU,United States,Virginia,51,Shenandoah,171
+AMMU,United States,Virginia,51,Southampton,175
+AMMU,United States,Virginia,51,"Suffolk ",800
+AMMU,United States,Virginia,51,Tazewell,185
+AMMU,United States,Virginia,51,Warren,187
+AMMU,United States,Virginia,51,Wise,195
+AMMU,United States,West Virginia,54,,
+AMMU,United States,West Virginia,54,Grant,023
+AMMU,United States,West Virginia,54,Greenbrier,025
+AMMU,United States,West Virginia,54,Hardy,031
+AMMU,United States,West Virginia,54,Monroe,063
+AMMU,United States,West Virginia,54,Pendleton,071
+AMMU,United States,West Virginia,54,Pocahontas,075

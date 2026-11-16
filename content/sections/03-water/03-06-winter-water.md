@@ -56,7 +56,7 @@ this page applies to you every winter.{{/if}}
 
 {{photo water-main-shutoff}}
 
-Your main water shutoff is at: __________ (→ 22-04). Practise finding it in the dark now.
+Your main water shutoff is at: __________ (→ 22-04). Practice finding it in the dark now.
 
 ## Why pipes burst
 
@@ -146,7 +146,7 @@ any container that might freeze. Do not store water in glass where it can freeze
 |---|---|---|
 | Pipe insulation sleeves, heat tape | Prevention beats repair | UL-listed heat tape only |
 | Hair dryer, heating pads, towels | Thawing pipes safely | Never an open flame |
-| The main shutoff, its tool, and knowing where the drain valves are | Draining before a burst | Practise in the dark now |
+| The main shutoff, its tool, and knowing where the drain valves are | Draining before a burst | Practice in the dark now |
 | Plumbing or RV antifreeze (non-toxic) | Protects drain traps and toilets once drained | |
 | Snow shovel, sled, large pot | Collecting and hauling snow | The sled saves the most work |
 | Insulated containers or a cooler | Keeps stored water from freezing | Also keeps it cool in summer |

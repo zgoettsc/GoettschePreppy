@@ -1,0 +1,45 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+ABPR3,United States,Alabama,01,,
+ABPR3,United States,Arkansas,05,,
+ABPR3,United States,Florida,12,,
+ABPR3,United States,Florida,12,Brevard,009
+ABPR3,United States,Florida,12,Broward,011
+ABPR3,United States,Florida,12,Charlotte,015
+ABPR3,United States,Florida,12,Collier,021
+ABPR3,United States,Florida,12,DeSoto,027
+ABPR3,United States,Florida,12,Hardee,049
+ABPR3,United States,Florida,12,Hendry,051
+ABPR3,United States,Florida,12,Hernando,053
+ABPR3,United States,Florida,12,Highlands,055
+ABPR3,United States,Florida,12,Hillsborough,057
+ABPR3,United States,Florida,12,Indian River,061
+ABPR3,United States,Florida,12,Lake,069
+ABPR3,United States,Florida,12,Lee,071
+ABPR3,United States,Florida,12,Manatee,081
+ABPR3,United States,Florida,12,Marion,083
+ABPR3,United States,Florida,12,Martin,085
+ABPR3,United States,Florida,12,Miami-Dade,086
+ABPR3,United States,Florida,12,Monroe,087
+ABPR3,United States,Florida,12,Okeechobee,093
+ABPR3,United States,Florida,12,Orange,095
+ABPR3,United States,Florida,12,Osceola,097
+ABPR3,United States,Florida,12,Palm Beach,099
+ABPR3,United States,Florida,12,Pasco,101
+ABPR3,United States,Florida,12,Pinellas,103
+ABPR3,United States,Florida,12,Polk,105
+ABPR3,United States,Florida,12,Sarasota,115
+ABPR3,United States,Florida,12,St. Lucie,111
+ABPR3,United States,Florida,12,Volusia,127
+ABPR3,United States,Georgia,13,,
+ABPR3,United States,Hawaii,15,,
+ABPR3,United States,Hawaii,15,Hawaii,001
+ABPR3,United States,Hawaii,15,Honolulu,003
+ABPR3,United States,Hawaii,15,Kauai,007
+ABPR3,United States,Hawaii,15,Maui,009
+ABPR3,United States,Guam,66,,
+ABPR3,United States,Palau,70,,
+ABPR3,United States,Palau,70,Angaur,010
+ABPR3,United States,Palau,70,Koror,150
+ABPR3,United States,Puerto Rico,72,,
+ABPR3,United States,Virgin Islands,78,,

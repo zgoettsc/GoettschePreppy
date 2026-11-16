@@ -37,11 +37,11 @@ bought lye) and animal fat, so that a household can keep making it once the shop
 > **Always: eye protection (goggles, not glasses), gloves, long sleeves, outdoors or with real
 > ventilation, and always add LYE TO WATER, never water to lye.** Keep plenty of clean water
 > within reach. **Children and pets nowhere near it** (→ 20-02). **Floor:** children do not have
-> access to dangerous chemicals; store lye like fuel and chlorine, locked and labelled (→ 30-01).
+> access to dangerous chemicals; store lye like fuel and chlorine, locked and labeled (→ 30-01).
 >
 > **This page gives no recipe and no ratios**, because lye made from ash has an **unknown and
 > changing strength**, which is exactly what makes traditional soap-making unpredictable and
-> sometimes caustic. **Learn from a real soap-making reference, practise with measured
+> sometimes caustic. **Learn from a real soap-making reference, practice with measured
 > bought lye and a tested recipe first**, and only then try the ash version.
 
 ## Do this now
@@ -126,7 +126,7 @@ fat that is no longer good food, → 04-12).
 3. **Outdoors or with real ventilation.** Lye and water give off fumes.
 4. **Always add lye to water, never water to lye.** The reverse can boil violently.
 5. **The mixture gets very hot.** Use heat-proof containers.
-6. **Never aluminium.** Lye reacts with aluminium and gives off hydrogen, a flammable gas. Use
+6. **Never aluminum.** Lye reacts with aluminum and gives off hydrogen, a flammable gas. Use
    stainless steel, heavy plastic, or glass (lye slowly etches and weakens glass).
 7. **Equipment kept only for soap**, never anything that touches food. {{#if has.condition.CL-04}}Never
    the allergy-safe cookware (→ 02-04).{{/if}} Label everything.
@@ -136,7 +136,7 @@ fat that is no longer good food, → 04-12).
 9. **Children and pets nowhere near it:** the process and the curing soap.
 10. **Fresh soap is caustic and must cure for weeks before use.** Do not rush it, and test it
     before it touches skin.
-11. **Store lye and ash lye sealed, labelled and locked** (→ 06-06).
+11. **Store lye and ash lye sealed, labeled and locked** (→ 06-06).
 
 ## What you get, realistically
 
@@ -152,16 +152,16 @@ fat that is no longer good food, → 04-12).
 | Item | Why | Notes |
 |---|---|---|
 | **Bar soap, a very large stock** | The real answer for the first year or two | Cheap now; keeps |
-| **Bought lye (sodium hydroxide) and a tested recipe** | Learn safely with a known strength | Sealed, labelled, locked |
+| **Bought lye (sodium hydroxide) and a tested recipe** | Learn safely with a known strength | Sealed, labeled, locked |
 | **Goggles, chemical gloves, apron** | Protection that is not optional | Goggles, not glasses |
-| Stainless steel or heavy plastic pots and utensils kept for soap | **Never aluminium, never food equipment** | Label them permanently |
+| Stainless steel or heavy plastic pots and utensils kept for soap | **Never aluminum, never food equipment** | Label them permanently |
 | Digital kitchen scale | Soap is a ratio; cups and spoons are not accurate enough | Essential for a real recipe |
 | Thermometer | Fat and lye temperatures matter | Kept for soap |
 | Covered metal ash container | Dry ash keeps its strength | Also safe ash storage (→ 06-02) |
 | Jars for saving fat | Every trimming and drippings | → 04-12 |
 | A paper soap-making book | Ratios, safety, troubleshooting | **Learn before you need it** |
 | Plenty of clean water | Splash response | Within arm's reach |
-| Moulds kept for soap | Paper-lined boxes, silicone, old tins | Never food containers |
+| Molds kept for soap | Paper-lined boxes, silicone, old pans | Never food containers |
 
 **If you don't have it:**
 
@@ -170,8 +170,8 @@ fat that is no longer good food, → 04-12).
   by → 10-04.
 - **Ash hopper:** a barrel or bucket with a false bottom of gravel and cloth, a spout at the
   bottom, ash on top.
-- **Containers:** stainless steel, heavy plastic buckets, glazed crockery. **Never aluminium.**
-- **Moulds:** paper-lined cardboard boxes, wooden frames, a loaf tin you will never cook in
+- **Containers:** stainless steel, heavy plastic buckets, glazed crockery. **Never aluminum.**
+- **Molds:** paper-lined cardboard boxes, wooden frames, a loaf pan you will never cook in
   again.
 - **Cleaning with no soap at all:** ash and sand scrub hands, and ash is mildly alkaline. A real
   traditional method, and better than nothing (→ 13-02).
@@ -195,7 +195,7 @@ fat that is no longer good food, → 04-12).
 - **A (sheltering at home):** stock soap deeply and **learn the process now**, with bought lye,
   outdoors, once. Start saving ash and fat. Do not make ash lye under pressure as your first
   attempt.
-- **B (moving):** carry soap; do not make it. A small bar per person, and hand sanitiser
+- **B (moving):** carry soap; do not make it. A small bar per person, and hand sanitizer
   (→ 13-02).
 - **C (rural or at a destination):** **soap-making becomes a real household job:** the stove makes
   ash every day, animals give tallow (→ 05-16), and soap is made in batches a few times a year.

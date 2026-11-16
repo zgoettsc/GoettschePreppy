@@ -212,7 +212,7 @@ export function parseFindings(msg) {
 
 // Run the model passes over pages [{id, layer, danger_level, title, md}].
 // Returns { pages: Map id→md, findings: [], fixes: [] }.
-export async function modelReview(pages, { relay, kit, ctx, signal, onProgress, concurrency = 2 }) {
+export async function modelReview(pages, { relay, kit, ctx, signal, onProgress, concurrency = 2, fallback }) {
   const system = reviewSystemPrompt(kit);
   const digest = householdDigest(ctx);
   const byId = new Map(pages.map(p => [p.id, p]));
@@ -223,7 +223,7 @@ export async function modelReview(pages, { relay, kit, ctx, signal, onProgress, 
     signal?.throwIfAborted?.();
     let res;
     try {
-      const msg = await relay.messages(reviewRequest(batch, { system, digest }), { signal });
+      const msg = await relay.messages(reviewRequest(batch, { system, digest }), { signal, fallback });
       res = parseFindings(msg);
     } catch (e) {
       if (e.name === 'AbortError') throw e;

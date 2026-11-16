@@ -15,7 +15,7 @@ cards: []
 explainers: []
 promote_when: []
 photo_slots:
-  - { id: laundry-setup, caption: "Our laundry setup: the labelled tubs, the agitator, the wringer, the drying line" }
+  - { id: laundry-setup, caption: "Our laundry setup: the labeled tubs, the agitator, the wringer, the drying line" }
 figures: [fig-plunger-agitator]
 plates: []
 condition: null
@@ -101,7 +101,7 @@ honest plan:
 - **Freeze-drying works.** Hang clothes outside in below-freezing air; the ice slowly turns
   straight to vapour. Bring them in stiff and finish indoors. **No fuel at all.**
 - **Indoor drying adds damp to a closed-up house.** Vent on purpose and watch for condensation
-  and mould (→ 11-03, → 08-03).
+  and mold (→ 11-03, → 08-03).
 - **Never dry laundry on a stove or heater.** That is how house fires start (→ 12-03). **Near,
   never on.**
 - **Stagger the wet work.** If everything is wet at once, nobody has dry clothes for days, in
@@ -138,10 +138,10 @@ honest plan:
 | Item | Why | Notes |
 |---|---|---|
 | **Mop-bucket wringer or hand wringer** | The biggest saver of work and drying time | Transforms the job |
-| Wash tubs or basins, three, labelled | Wash, rinse, soak; kept apart from dish tubs | Galvanised or plastic |
+| Wash tubs or basins, three, labeled | Wash, rinse, soak; kept apart from dish tubs | Galvanised or plastic |
 | **Plunger-style agitator** (or a plunger and a drill) | A hand washing machine for a few dollars | Drill holes in it |
 | Washboard | Collars, cuffs, stubborn spots | Old-fashioned and effective |
-| Clothesline and pegs (indoor high line and outdoor) | Drying is the limit | → 11-03 |
+| Clothesline and pins (indoor high line and outdoor) | Drying is the limit | → 11-03 |
 | Drying racks, two or three | Near the heat, never on it | |
 | Absorbent towels for pressing | Squeezing water out beats waiting for it to evaporate | |
 | **Soap in bulk, or soap-making supplies** | Laundry uses the most soap | → 13-09 |
@@ -157,7 +157,7 @@ honest plan:
 - **Washboard:** a sheet of corrugated metal, a ridged panel, a smooth rock.
 - **Wringer:** two people twisting the item in opposite directions; pressing between boards;
   rolling in a towel and standing on it.
-- **Line:** cord, wire, rope, branches. **Pegs:** clothes pegs, clips, split twigs, or just
+- **Line:** cord, wire, rope, branches. **Pins:** clothespins, clips, split twigs, or just
   drape it.
 - **Soap:** any soap; home-made (→ 13-09); water soaked through wood ash (lye water) is a
   traditional laundry cleaner. **It is caustic (burns skin): handle carefully and rinse

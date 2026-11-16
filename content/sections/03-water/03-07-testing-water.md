@@ -64,7 +64,7 @@ or nursing lives in the house.
 | Test | What it means | Why it matters |
 |---|---|---|
 | **Total coliform** | Indicator bacteria. If they are present, harmful bacteria, viruses or parasites probably are too | The disease test. Positive means do not drink it untreated |
-| **Nitrate** | Runoff from fertiliser, manure, septic systems, flooded sewers | **Dangerous to infants.** A real risk in farm country |
+| **Nitrate** | Runoff from fertilizer, manure, septic systems, flooded sewers | **Dangerous to infants.** A real risk in farm country |
 | **TDS** (total dissolved solids) | How much salt and mineral is dissolved in the water | Tells you whether distilling is needed (pool water, brackish sources) |
 | **pH** | How acidic the water is | Affects pipe corrosion and how well chlorine works |
 
@@ -101,7 +101,7 @@ snow or ice → a working well or spring → a clear flowing stream → a still 
   fix that, and boiling makes some of it worse.
 - **A sheen, foam or oily rainbow on the surface:** reject.
 - **A strong rotten-egg or sewage smell:** reject for drinking.
-- **Dark colour, very cloudy, floating material:** do not use it. If you must, clear it, then
+- **Dark color, very cloudy, floating material:** do not use it. If you must, clear it, then
   distil rather than only disinfect.
 - **Dead animals, mats of algae or livestock upstream:** heavy germ load. Boil or distil,
   never chemicals alone.
@@ -143,7 +143,7 @@ nearby creek or pond.{{/if}}
   a new smell, or anyone falling ill.
 - **Resupply:** when tests run out, rank sources and use the strongest treatment you can
   afford in fuel. Distil anything doubtful.
-- **The health signal:** if people start having diarrhoea, treat the water supply as guilty
+- **The health signal:** if people start having diarrhea, treat the water supply as guilty
   until proven otherwise (→ 12-05).
 
 ## Phase notes

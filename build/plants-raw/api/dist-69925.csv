@@ -1,0 +1,76 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+ALRU2,Canada,British Columbia,02,,
+ALRU2,United States,Alaska,02,,
+ALRU2,United States,Alaska,02,Haines,100
+ALRU2,United States,Alaska,02,Juneau,110
+ALRU2,United States,Alaska,02,Ketchikan Gateway,130
+ALRU2,United States,Alaska,02,Sitka,220
+ALRU2,United States,California,06,,
+ALRU2,United States,California,06,Alameda,001
+ALRU2,United States,California,06,Del Norte,015
+ALRU2,United States,California,06,Humboldt,023
+ALRU2,United States,California,06,Marin,041
+ALRU2,United States,California,06,Mendocino,045
+ALRU2,United States,California,06,Monterey,053
+ALRU2,United States,California,06,San Luis Obispo,079
+ALRU2,United States,California,06,San Mateo,081
+ALRU2,United States,California,06,Santa Barbara,083
+ALRU2,United States,California,06,Santa Cruz,087
+ALRU2,United States,California,06,Sonoma,097
+ALRU2,United States,Idaho,16,,
+ALRU2,United States,Idaho,16,Ada,001
+ALRU2,United States,Idaho,16,Bonner,017
+ALRU2,United States,Idaho,16,Boundary,021
+ALRU2,United States,Idaho,16,Clearwater,035
+ALRU2,United States,Idaho,16,Idaho,049
+ALRU2,United States,Idaho,16,Kootenai,055
+ALRU2,United States,Idaho,16,Latah,057
+ALRU2,United States,Idaho,16,Lewis,061
+ALRU2,United States,Idaho,16,Shoshone,079
+ALRU2,United States,Idaho,16,Valley,085
+ALRU2,United States,Montana,30,,
+ALRU2,United States,Oregon,41,,
+ALRU2,United States,Oregon,41,Benton,003
+ALRU2,United States,Oregon,41,Clackamas,005
+ALRU2,United States,Oregon,41,Clatsop,007
+ALRU2,United States,Oregon,41,Columbia,009
+ALRU2,United States,Oregon,41,Coos,011
+ALRU2,United States,Oregon,41,Curry,015
+ALRU2,United States,Oregon,41,Douglas,019
+ALRU2,United States,Oregon,41,Hood River,027
+ALRU2,United States,Oregon,41,Jackson,029
+ALRU2,United States,Oregon,41,Josephine,033
+ALRU2,United States,Oregon,41,Lane,039
+ALRU2,United States,Oregon,41,Lincoln,041
+ALRU2,United States,Oregon,41,Linn,043
+ALRU2,United States,Oregon,41,Marion,047
+ALRU2,United States,Oregon,41,Morrow,049
+ALRU2,United States,Oregon,41,Multnomah,051
+ALRU2,United States,Oregon,41,Polk,053
+ALRU2,United States,Oregon,41,Tillamook,057
+ALRU2,United States,Oregon,41,Wasco,065
+ALRU2,United States,Oregon,41,Washington,067
+ALRU2,United States,Oregon,41,Yamhill,071
+ALRU2,United States,Washington,53,,
+ALRU2,United States,Washington,53,Chelan,007
+ALRU2,United States,Washington,53,Clallam,009
+ALRU2,United States,Washington,53,Clark,011
+ALRU2,United States,Washington,53,Cowlitz,015
+ALRU2,United States,Washington,53,Grays Harbor,027
+ALRU2,United States,Washington,53,Island,029
+ALRU2,United States,Washington,53,Jefferson,031
+ALRU2,United States,Washington,53,King,033
+ALRU2,United States,Washington,53,Klickitat,039
+ALRU2,United States,Washington,53,Lewis,041
+ALRU2,United States,Washington,53,Mason,045
+ALRU2,United States,Washington,53,Pacific,049
+ALRU2,United States,Washington,53,Pierce,053
+ALRU2,United States,Washington,53,San Juan,055
+ALRU2,United States,Washington,53,Skagit,057
+ALRU2,United States,Washington,53,Skamania,059
+ALRU2,United States,Washington,53,Snohomish,061
+ALRU2,United States,Washington,53,Spokane,063
+ALRU2,United States,Washington,53,Thurston,067
+ALRU2,United States,Washington,53,Wahkiakum,069
+ALRU2,United States,Washington,53,Whatcom,073

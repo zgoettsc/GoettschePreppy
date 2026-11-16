@@ -1,0 +1,628 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+GYDI,United States,Alabama,01,,
+GYDI,United States,Alabama,01,Madison,089
+GYDI,United States,Arkansas,05,,
+GYDI,United States,Arkansas,05,Arkansas,001
+GYDI,United States,Arkansas,05,Baxter,005
+GYDI,United States,Arkansas,05,Benton,007
+GYDI,United States,Arkansas,05,Boone,009
+GYDI,United States,Arkansas,05,Carroll,015
+GYDI,United States,Arkansas,05,Clark,019
+GYDI,United States,Arkansas,05,Cleburne,023
+GYDI,United States,Arkansas,05,Crawford,033
+GYDI,United States,Arkansas,05,Crittenden,035
+GYDI,United States,Arkansas,05,Faulkner,045
+GYDI,United States,Arkansas,05,Franklin,047
+GYDI,United States,Arkansas,05,Fulton,049
+GYDI,United States,Arkansas,05,Garland,051
+GYDI,United States,Arkansas,05,Independence,063
+GYDI,United States,Arkansas,05,Izard,065
+GYDI,United States,Arkansas,05,Jefferson,069
+GYDI,United States,Arkansas,05,Lawrence,075
+GYDI,United States,Arkansas,05,Lee,077
+GYDI,United States,Arkansas,05,Madison,087
+GYDI,United States,Arkansas,05,Marion,089
+GYDI,United States,Arkansas,05,Mississippi,093
+GYDI,United States,Arkansas,05,Newton,101
+GYDI,United States,Arkansas,05,Phillips,107
+GYDI,United States,Arkansas,05,Pope,115
+GYDI,United States,Arkansas,05,Pulaski,119
+GYDI,United States,Arkansas,05,Randolph,121
+GYDI,United States,Arkansas,05,Saline,125
+GYDI,United States,Arkansas,05,Searcy,129
+GYDI,United States,Arkansas,05,Sebastian,131
+GYDI,United States,Arkansas,05,Sharp,135
+GYDI,United States,Arkansas,05,St. Francis,123
+GYDI,United States,Arkansas,05,Stone,137
+GYDI,United States,Arkansas,05,Van Buren,141
+GYDI,United States,Arkansas,05,Washington,143
+GYDI,United States,Arkansas,05,White,145
+GYDI,Canada,Ontario,08,,
+GYDI,United States,Connecticut,09,,
+GYDI,United States,Delaware,10,,
+GYDI,United States,Georgia,13,,
+GYDI,United States,Georgia,13,Richmond,245
+GYDI,United States,Georgia,13,Stephens,257
+GYDI,United States,Illinois,17,,
+GYDI,United States,Illinois,17,Adams,001
+GYDI,United States,Illinois,17,Alexander,003
+GYDI,United States,Illinois,17,Boone,007
+GYDI,United States,Illinois,17,Brown,009
+GYDI,United States,Illinois,17,Bureau,011
+GYDI,United States,Illinois,17,Calhoun,013
+GYDI,United States,Illinois,17,Carroll,015
+GYDI,United States,Illinois,17,Cass,017
+GYDI,United States,Illinois,17,Champaign,019
+GYDI,United States,Illinois,17,Clinton,027
+GYDI,United States,Illinois,17,Coles,029
+GYDI,United States,Illinois,17,Cook,031
+GYDI,United States,Illinois,17,Crawford,033
+GYDI,United States,Illinois,17,Cumberland,035
+GYDI,United States,Illinois,17,De Witt,039
+GYDI,United States,Illinois,17,Douglas,041
+GYDI,United States,Illinois,17,Edgar,045
+GYDI,United States,Illinois,17,Effingham,049
+GYDI,United States,Illinois,17,Fayette,051
+GYDI,United States,Illinois,17,Fulton,057
+GYDI,United States,Illinois,17,Gallatin,059
+GYDI,United States,Illinois,17,Greene,061
+GYDI,United States,Illinois,17,Grundy,063
+GYDI,United States,Illinois,17,Hancock,067
+GYDI,United States,Illinois,17,Hardin,069
+GYDI,United States,Illinois,17,Henry,073
+GYDI,United States,Illinois,17,Jackson,077
+GYDI,United States,Illinois,17,Jersey,083
+GYDI,United States,Illinois,17,Jo Daviess,085
+GYDI,United States,Illinois,17,Johnson,087
+GYDI,United States,Illinois,17,Kane,089
+GYDI,United States,Illinois,17,Kankakee,091
+GYDI,United States,Illinois,17,Kendall,093
+GYDI,United States,Illinois,17,LaSalle,099
+GYDI,United States,Illinois,17,Lawrence,101
+GYDI,United States,Illinois,17,Livingston,105
+GYDI,United States,Illinois,17,Logan,107
+GYDI,United States,Illinois,17,Macon,115
+GYDI,United States,Illinois,17,Macoupin,117
+GYDI,United States,Illinois,17,Marshall,123
+GYDI,United States,Illinois,17,Mason,125
+GYDI,United States,Illinois,17,Massac,127
+GYDI,United States,Illinois,17,McDonough,109
+GYDI,United States,Illinois,17,McLean,113
+GYDI,United States,Illinois,17,Menard,129
+GYDI,United States,Illinois,17,Mercer,131
+GYDI,United States,Illinois,17,Monroe,133
+GYDI,United States,Illinois,17,Ogle,141
+GYDI,United States,Illinois,17,Peoria,143
+GYDI,United States,Illinois,17,Piatt,147
+GYDI,United States,Illinois,17,Pike,149
+GYDI,United States,Illinois,17,Pope,151
+GYDI,United States,Illinois,17,Pulaski,153
+GYDI,United States,Illinois,17,Randolph,157
+GYDI,United States,Illinois,17,Rock Island,161
+GYDI,United States,Illinois,17,Saline,165
+GYDI,United States,Illinois,17,Sangamon,167
+GYDI,United States,Illinois,17,Scott,171
+GYDI,United States,Illinois,17,Shelby,173
+GYDI,United States,Illinois,17,St. Clair,163
+GYDI,United States,Illinois,17,Stark,175
+GYDI,United States,Illinois,17,Tazewell,179
+GYDI,United States,Illinois,17,Union,181
+GYDI,United States,Illinois,17,Vermilion,183
+GYDI,United States,Illinois,17,Wabash,185
+GYDI,United States,Illinois,17,Wayne,191
+GYDI,United States,Illinois,17,Will,197
+GYDI,United States,Illinois,17,Winnebago,201
+GYDI,United States,Illinois,17,Woodford,203
+GYDI,United States,Indiana,18,,
+GYDI,United States,Indiana,18,Adams,001
+GYDI,United States,Indiana,18,Blackford,009
+GYDI,United States,Indiana,18,Carroll,015
+GYDI,United States,Indiana,18,Cass,017
+GYDI,United States,Indiana,18,Clark,019
+GYDI,United States,Indiana,18,Clinton,023
+GYDI,United States,Indiana,18,Delaware,035
+GYDI,United States,Indiana,18,Floyd,043
+GYDI,United States,Indiana,18,Fountain,045
+GYDI,United States,Indiana,18,Franklin,047
+GYDI,United States,Indiana,18,Fulton,049
+GYDI,United States,Indiana,18,Gibson,051
+GYDI,United States,Indiana,18,Hancock,059
+GYDI,United States,Indiana,18,Harrison,061
+GYDI,United States,Indiana,18,Henry,065
+GYDI,United States,Indiana,18,Howard,067
+GYDI,United States,Indiana,18,Huntington,069
+GYDI,United States,Indiana,18,Jay,075
+GYDI,United States,Indiana,18,Jefferson,077
+GYDI,United States,Indiana,18,Jennings,079
+GYDI,United States,Indiana,18,Knox,083
+GYDI,United States,Indiana,18,Lagrange,087
+GYDI,United States,Indiana,18,Lake,089
+GYDI,United States,Indiana,18,Lawrence,093
+GYDI,United States,Indiana,18,Madison,095
+GYDI,United States,Indiana,18,Marion,097
+GYDI,United States,Indiana,18,Miami,103
+GYDI,United States,Indiana,18,Monroe,105
+GYDI,United States,Indiana,18,Montgomery,107
+GYDI,United States,Indiana,18,Newton,111
+GYDI,United States,Indiana,18,Noble,113
+GYDI,United States,Indiana,18,Orange,117
+GYDI,United States,Indiana,18,Parke,121
+GYDI,United States,Indiana,18,Porter,127
+GYDI,United States,Indiana,18,Posey,129
+GYDI,United States,Indiana,18,Pulaski,131
+GYDI,United States,Indiana,18,Putnam,133
+GYDI,United States,Indiana,18,Rush,139
+GYDI,United States,Indiana,18,St. Joseph,141
+GYDI,United States,Indiana,18,Steuben,151
+GYDI,United States,Indiana,18,Sullivan,153
+GYDI,United States,Indiana,18,Tippecanoe,157
+GYDI,United States,Indiana,18,Vanderburgh,163
+GYDI,United States,Indiana,18,Vermillion,165
+GYDI,United States,Indiana,18,Vigo,167
+GYDI,United States,Indiana,18,Warren,171
+GYDI,United States,Indiana,18,Warrick,173
+GYDI,United States,Indiana,18,Wayne,177
+GYDI,United States,Indiana,18,Wells,179
+GYDI,United States,Iowa,19,,
+GYDI,United States,Iowa,19,Adams,003
+GYDI,United States,Iowa,19,Cherokee,035
+GYDI,United States,Iowa,19,Fremont,071
+GYDI,United States,Iowa,19,Harrison,085
+GYDI,United States,Iowa,19,Lyon,119
+GYDI,United States,Iowa,19,Madison,121
+GYDI,United States,Iowa,19,Mills,129
+GYDI,United States,Iowa,19,Monona,133
+GYDI,United States,Iowa,19,Plymouth,149
+GYDI,United States,Iowa,19,Pottawattamie,155
+GYDI,United States,Iowa,19,Shelby,165
+GYDI,United States,Iowa,19,Webster,187
+GYDI,United States,Iowa,19,Woodbury,193
+GYDI,United States,Kansas,20,,
+GYDI,United States,Kansas,20,Allen,001
+GYDI,United States,Kansas,20,Anderson,003
+GYDI,United States,Kansas,20,Atchison,005
+GYDI,United States,Kansas,20,Bourbon,011
+GYDI,United States,Kansas,20,Brown,013
+GYDI,United States,Kansas,20,Butler,015
+GYDI,United States,Kansas,20,Chase,017
+GYDI,United States,Kansas,20,Chautauqua,019
+GYDI,United States,Kansas,20,Cherokee,021
+GYDI,United States,Kansas,20,Clay,027
+GYDI,United States,Kansas,20,Cloud,029
+GYDI,United States,Kansas,20,Coffey,031
+GYDI,United States,Kansas,20,Cowley,035
+GYDI,United States,Kansas,20,Crawford,037
+GYDI,United States,Kansas,20,Dickinson,041
+GYDI,United States,Kansas,20,Doniphan,043
+GYDI,United States,Kansas,20,Douglas,045
+GYDI,United States,Kansas,20,Elk,049
+GYDI,United States,Kansas,20,Franklin,059
+GYDI,United States,Kansas,20,Geary,061
+GYDI,United States,Kansas,20,Greenwood,073
+GYDI,United States,Kansas,20,Harvey,079
+GYDI,United States,Kansas,20,Jackson,085
+GYDI,United States,Kansas,20,Jefferson,087
+GYDI,United States,Kansas,20,Jewell,089
+GYDI,United States,Kansas,20,Johnson,091
+GYDI,United States,Kansas,20,Labette,099
+GYDI,United States,Kansas,20,Leavenworth,103
+GYDI,United States,Kansas,20,Lincoln,105
+GYDI,United States,Kansas,20,Linn,107
+GYDI,United States,Kansas,20,Lyon,111
+GYDI,United States,Kansas,20,Marion,115
+GYDI,United States,Kansas,20,Marshall,117
+GYDI,United States,Kansas,20,McPherson,113
+GYDI,United States,Kansas,20,Miami,121
+GYDI,United States,Kansas,20,Montgomery,125
+GYDI,United States,Kansas,20,Morris,127
+GYDI,United States,Kansas,20,Nemaha,131
+GYDI,United States,Kansas,20,Neosho,133
+GYDI,United States,Kansas,20,Osage,139
+GYDI,United States,Kansas,20,Ottawa,143
+GYDI,United States,Kansas,20,Pottawatomie,149
+GYDI,United States,Kansas,20,Republic,157
+GYDI,United States,Kansas,20,Riley,161
+GYDI,United States,Kansas,20,Saline,169
+GYDI,United States,Kansas,20,Sedgwick,173
+GYDI,United States,Kansas,20,Shawnee,177
+GYDI,United States,Kansas,20,Sumner,191
+GYDI,United States,Kansas,20,Wabaunsee,197
+GYDI,United States,Kansas,20,Washington,201
+GYDI,United States,Kansas,20,Wilson,205
+GYDI,United States,Kansas,20,Woodson,207
+GYDI,United States,Kansas,20,Wyandotte,209
+GYDI,United States,Kentucky,21,,
+GYDI,United States,Kentucky,21,Anderson,005
+GYDI,United States,Kentucky,21,Ballard,007
+GYDI,United States,Kentucky,21,Bath,011
+GYDI,United States,Kentucky,21,Boone,015
+GYDI,United States,Kentucky,21,Bourbon,017
+GYDI,United States,Kentucky,21,Boyle,021
+GYDI,United States,Kentucky,21,Bracken,023
+GYDI,United States,Kentucky,21,Breckinridge,027
+GYDI,United States,Kentucky,21,Bullitt,029
+GYDI,United States,Kentucky,21,Calloway,035
+GYDI,United States,Kentucky,21,Campbell,037
+GYDI,United States,Kentucky,21,Carlisle,039
+GYDI,United States,Kentucky,21,Carroll,041
+GYDI,United States,Kentucky,21,Clark,049
+GYDI,United States,Kentucky,21,Crittenden,055
+GYDI,United States,Kentucky,21,Cumberland,057
+GYDI,United States,Kentucky,21,Daviess,059
+GYDI,United States,Kentucky,21,Edmonson,061
+GYDI,United States,Kentucky,21,Estill,065
+GYDI,United States,Kentucky,21,Fayette,067
+GYDI,United States,Kentucky,21,Fleming,069
+GYDI,United States,Kentucky,21,Franklin,073
+GYDI,United States,Kentucky,21,Fulton,075
+GYDI,United States,Kentucky,21,Gallatin,077
+GYDI,United States,Kentucky,21,Garrard,079
+GYDI,United States,Kentucky,21,Grayson,085
+GYDI,United States,Kentucky,21,Green,087
+GYDI,United States,Kentucky,21,Hancock,091
+GYDI,United States,Kentucky,21,Harrison,097
+GYDI,United States,Kentucky,21,Hart,099
+GYDI,United States,Kentucky,21,Henderson,101
+GYDI,United States,Kentucky,21,Henry,103
+GYDI,United States,Kentucky,21,Hickman,105
+GYDI,United States,Kentucky,21,Jefferson,111
+GYDI,United States,Kentucky,21,Jessamine,113
+GYDI,United States,Kentucky,21,Kenton,117
+GYDI,United States,Kentucky,21,Leslie,131
+GYDI,United States,Kentucky,21,Livingston,139
+GYDI,United States,Kentucky,21,Madison,151
+GYDI,United States,Kentucky,21,Mason,161
+GYDI,United States,Kentucky,21,McCracken,145
+GYDI,United States,Kentucky,21,McLean,149
+GYDI,United States,Kentucky,21,Meade,163
+GYDI,United States,Kentucky,21,Mercer,167
+GYDI,United States,Kentucky,21,Metcalfe,169
+GYDI,United States,Kentucky,21,Monroe,171
+GYDI,United States,Kentucky,21,Nicholas,181
+GYDI,United States,Kentucky,21,Ohio,183
+GYDI,United States,Kentucky,21,Oldham,185
+GYDI,United States,Kentucky,21,Owsley,189
+GYDI,United States,Kentucky,21,Pendleton,191
+GYDI,United States,Kentucky,21,Perry,193
+GYDI,United States,Kentucky,21,Pike,195
+GYDI,United States,Kentucky,21,Powell,197
+GYDI,United States,Kentucky,21,Robertson,201
+GYDI,United States,Kentucky,21,Scott,209
+GYDI,United States,Kentucky,21,Shelby,211
+GYDI,United States,Kentucky,21,Simpson,213
+GYDI,United States,Kentucky,21,Spencer,215
+GYDI,United States,Kentucky,21,Trigg,221
+GYDI,United States,Kentucky,21,Trimble,223
+GYDI,United States,Kentucky,21,Union,225
+GYDI,United States,Kentucky,21,Warren,227
+GYDI,United States,Kentucky,21,Washington,229
+GYDI,United States,Kentucky,21,Webster,233
+GYDI,United States,Kentucky,21,Woodford,239
+GYDI,United States,Maine,23,,
+GYDI,United States,Maryland,24,,
+GYDI,United States,Maryland,24,Anne Arundel,003
+GYDI,United States,Maryland,24,Baltimore,005
+GYDI,United States,Maryland,24,Garrett,023
+GYDI,United States,Maryland,24,Washington,043
+GYDI,United States,Massachusetts,25,,
+GYDI,United States,Massachusetts,25,Hampden,013
+GYDI,United States,Michigan,26,,
+GYDI,United States,Michigan,26,Berrien,021
+GYDI,United States,Michigan,26,Eaton,045
+GYDI,United States,Michigan,26,Ingham,065
+GYDI,United States,Michigan,26,Ionia,067
+GYDI,United States,Michigan,26,Kalamazoo,077
+GYDI,United States,Michigan,26,Kent,081
+GYDI,United States,Michigan,26,Lenawee,091
+GYDI,United States,Michigan,26,Macomb,099
+GYDI,United States,Michigan,26,Van Buren,159
+GYDI,United States,Michigan,26,Washtenaw,161
+GYDI,United States,Michigan,26,Wayne,163
+GYDI,United States,Minnesota,27,,
+GYDI,United States,Minnesota,27,Blue Earth,013
+GYDI,United States,Minnesota,27,Brown,015
+GYDI,United States,Minnesota,27,Carver,019
+GYDI,United States,Minnesota,27,Dakota,037
+GYDI,United States,Minnesota,27,Houston,055
+GYDI,United States,Minnesota,27,Le Sueur,079
+GYDI,United States,Minnesota,27,Ramsey,123
+GYDI,United States,Minnesota,27,Renville,129
+GYDI,United States,Minnesota,27,Wabasha,157
+GYDI,United States,Minnesota,27,Waseca,161
+GYDI,United States,Minnesota,27,Washington,163
+GYDI,United States,Minnesota,27,Winona,169
+GYDI,United States,Mississippi,28,,
+GYDI,United States,Mississippi,28,Chickasaw,017
+GYDI,United States,Mississippi,28,Tishomingo,141
+GYDI,United States,Mississippi,28,Tunica,143
+GYDI,United States,Missouri,29,,
+GYDI,United States,Missouri,29,Andrew,003
+GYDI,United States,Missouri,29,Atchison,005
+GYDI,United States,Missouri,29,Audrain,007
+GYDI,United States,Missouri,29,Barton,011
+GYDI,United States,Missouri,29,Bates,013
+GYDI,United States,Missouri,29,Benton,015
+GYDI,United States,Missouri,29,Boone,019
+GYDI,United States,Missouri,29,Buchanan,021
+GYDI,United States,Missouri,29,Caldwell,025
+GYDI,United States,Missouri,29,Callaway,027
+GYDI,United States,Missouri,29,Camden,029
+GYDI,United States,Missouri,29,Cape Girardeau,031
+GYDI,United States,Missouri,29,Carroll,033
+GYDI,United States,Missouri,29,Carter,035
+GYDI,United States,Missouri,29,Cass,037
+GYDI,United States,Missouri,29,Cedar,039
+GYDI,United States,Missouri,29,Chariton,041
+GYDI,United States,Missouri,29,Clark,045
+GYDI,United States,Missouri,29,Clay,047
+GYDI,United States,Missouri,29,Clinton,049
+GYDI,United States,Missouri,29,Cole,051
+GYDI,United States,Missouri,29,Cooper,053
+GYDI,United States,Missouri,29,Dade,057
+GYDI,United States,Missouri,29,Dallas,059
+GYDI,United States,Missouri,29,Daviess,061
+GYDI,United States,Missouri,29,DeKalb,063
+GYDI,United States,Missouri,29,Douglas,067
+GYDI,United States,Missouri,29,Dunklin,069
+GYDI,United States,Missouri,29,Franklin,071
+GYDI,United States,Missouri,29,Gasconade,073
+GYDI,United States,Missouri,29,Gentry,075
+GYDI,United States,Missouri,29,Grundy,079
+GYDI,United States,Missouri,29,Harrison,081
+GYDI,United States,Missouri,29,Henry,083
+GYDI,United States,Missouri,29,Hickory,085
+GYDI,United States,Missouri,29,Holt,087
+GYDI,United States,Missouri,29,Howard,089
+GYDI,United States,Missouri,29,Howell,091
+GYDI,United States,Missouri,29,Jackson,095
+GYDI,United States,Missouri,29,Jasper,097
+GYDI,United States,Missouri,29,Jefferson,099
+GYDI,United States,Missouri,29,Johnson,101
+GYDI,United States,Missouri,29,Lafayette,107
+GYDI,United States,Missouri,29,Lawrence,109
+GYDI,United States,Missouri,29,Lincoln,113
+GYDI,United States,Missouri,29,Linn,115
+GYDI,United States,Missouri,29,Livingston,117
+GYDI,United States,Missouri,29,Madison,123
+GYDI,United States,Missouri,29,Maries,125
+GYDI,United States,Missouri,29,Marion,127
+GYDI,United States,Missouri,29,McDonald,119
+GYDI,United States,Missouri,29,Miller,131
+GYDI,United States,Missouri,29,Mississippi,133
+GYDI,United States,Missouri,29,Moniteau,135
+GYDI,United States,Missouri,29,Monroe,137
+GYDI,United States,Missouri,29,Montgomery,139
+GYDI,United States,Missouri,29,Morgan,141
+GYDI,United States,Missouri,29,New Madrid,143
+GYDI,United States,Missouri,29,Newton,145
+GYDI,United States,Missouri,29,Nodaway,147
+GYDI,United States,Missouri,29,Oregon,149
+GYDI,United States,Missouri,29,Osage,151
+GYDI,United States,Missouri,29,Ozark,153
+GYDI,United States,Missouri,29,Pemiscot,155
+GYDI,United States,Missouri,29,Perry,157
+GYDI,United States,Missouri,29,Pettis,159
+GYDI,United States,Missouri,29,Pike,163
+GYDI,United States,Missouri,29,Platte,165
+GYDI,United States,Missouri,29,Polk,167
+GYDI,United States,Missouri,29,Putnam,171
+GYDI,United States,Missouri,29,Ralls,173
+GYDI,United States,Missouri,29,Randolph,175
+GYDI,United States,Missouri,29,Ray,177
+GYDI,United States,Missouri,29,Ripley,181
+GYDI,United States,Missouri,29,Saline,195
+GYDI,United States,Missouri,29,Scott,201
+GYDI,United States,Missouri,29,Shelby,205
+GYDI,United States,Missouri,29,St. Charles,183
+GYDI,United States,Missouri,29,St. Clair,185
+GYDI,United States,Missouri,29,St. Francois,187
+GYDI,United States,Missouri,29,St. Louis,189
+GYDI,United States,Missouri,29,Stoddard,207
+GYDI,United States,Missouri,29,Stone,209
+GYDI,United States,Missouri,29,Taney,213
+GYDI,United States,Missouri,29,Texas,215
+GYDI,United States,Missouri,29,Vernon,217
+GYDI,United States,Missouri,29,Warren,219
+GYDI,United States,Missouri,29,Washington,221
+GYDI,United States,Missouri,29,Wayne,223
+GYDI,United States,Missouri,29,Worth,227
+GYDI,United States,Missouri,29,Wright,229
+GYDI,United States,Nebraska,31,,
+GYDI,United States,Nebraska,31,Adams,001
+GYDI,United States,Nebraska,31,Cass,025
+GYDI,United States,Nebraska,31,Cedar,027
+GYDI,United States,Nebraska,31,Colfax,037
+GYDI,United States,Nebraska,31,Cuming,039
+GYDI,United States,Nebraska,31,Douglas,055
+GYDI,United States,Nebraska,31,Franklin,061
+GYDI,United States,Nebraska,31,Otoe,131
+GYDI,United States,Nebraska,31,Richardson,147
+GYDI,United States,Nebraska,31,Sarpy,153
+GYDI,United States,Nebraska,31,Washington,177
+GYDI,United States,New Jersey,34,,
+GYDI,United States,New Jersey,34,Essex,013
+GYDI,United States,New Jersey,34,Hudson,017
+GYDI,United States,New Jersey,34,Hunterdon,019
+GYDI,United States,New Jersey,34,Mercer,021
+GYDI,United States,New Jersey,34,Morris,027
+GYDI,United States,New Jersey,34,Passaic,031
+GYDI,United States,New Jersey,34,Somerset,035
+GYDI,United States,New York,36,,
+GYDI,United States,New York,36,Bronx,005
+GYDI,United States,New York,36,Cayuga,011
+GYDI,United States,New York,36,Columbia,021
+GYDI,United States,New York,36,Jefferson,045
+GYDI,United States,New York,36,Kings,047
+GYDI,United States,New York,36,Nassau,059
+GYDI,United States,New York,36,New York,061
+GYDI,United States,New York,36,Oneida,065
+GYDI,United States,New York,36,Onondaga,067
+GYDI,United States,New York,36,Ontario,069
+GYDI,United States,New York,36,Orange,071
+GYDI,United States,New York,36,Queens,081
+GYDI,United States,New York,36,Tompkins,109
+GYDI,United States,New York,36,Westchester,119
+GYDI,United States,North Carolina,37,,
+GYDI,United States,North Dakota,38,,
+GYDI,United States,North Dakota,38,Cass,017
+GYDI,United States,Ohio,39,,
+GYDI,United States,Ohio,39,Adams,001
+GYDI,United States,Ohio,39,Allen,003
+GYDI,United States,Ohio,39,Ashland,005
+GYDI,United States,Ohio,39,Auglaize,011
+GYDI,United States,Ohio,39,Brown,015
+GYDI,United States,Ohio,39,Butler,017
+GYDI,United States,Ohio,39,Champaign,021
+GYDI,United States,Ohio,39,Clark,023
+GYDI,United States,Ohio,39,Clermont,025
+GYDI,United States,Ohio,39,Crawford,033
+GYDI,United States,Ohio,39,Darke,037
+GYDI,United States,Ohio,39,Defiance,039
+GYDI,United States,Ohio,39,Delaware,041
+GYDI,United States,Ohio,39,Erie,043
+GYDI,United States,Ohio,39,Franklin,049
+GYDI,United States,Ohio,39,Fulton,051
+GYDI,United States,Ohio,39,Gallia,053
+GYDI,United States,Ohio,39,Hamilton,061
+GYDI,United States,Ohio,39,Hancock,063
+GYDI,United States,Ohio,39,Hardin,065
+GYDI,United States,Ohio,39,Henry,069
+GYDI,United States,Ohio,39,Highland,071
+GYDI,United States,Ohio,39,Hocking,073
+GYDI,United States,Ohio,39,Huron,077
+GYDI,United States,Ohio,39,Jackson,079
+GYDI,United States,Ohio,39,Jefferson,081
+GYDI,United States,Ohio,39,Knox,083
+GYDI,United States,Ohio,39,Lawrence,087
+GYDI,United States,Ohio,39,Licking,089
+GYDI,United States,Ohio,39,Logan,091
+GYDI,United States,Ohio,39,Lorain,093
+GYDI,United States,Ohio,39,Lucas,095
+GYDI,United States,Ohio,39,Madison,097
+GYDI,United States,Ohio,39,Marion,101
+GYDI,United States,Ohio,39,Medina,103
+GYDI,United States,Ohio,39,Meigs,105
+GYDI,United States,Ohio,39,Mercer,107
+GYDI,United States,Ohio,39,Miami,109
+GYDI,United States,Ohio,39,Montgomery,113
+GYDI,United States,Ohio,39,Ottawa,123
+GYDI,United States,Ohio,39,Paulding,125
+GYDI,United States,Ohio,39,Pike,131
+GYDI,United States,Ohio,39,Preble,135
+GYDI,United States,Ohio,39,Putnam,137
+GYDI,United States,Ohio,39,Richland,139
+GYDI,United States,Ohio,39,Ross,141
+GYDI,United States,Ohio,39,Sandusky,143
+GYDI,United States,Ohio,39,Seneca,147
+GYDI,United States,Ohio,39,Shelby,149
+GYDI,United States,Ohio,39,Stark,151
+GYDI,United States,Ohio,39,Tuscarawas,157
+GYDI,United States,Ohio,39,Van Wert,161
+GYDI,United States,Ohio,39,Williams,171
+GYDI,United States,Ohio,39,Wood,173
+GYDI,United States,Ohio,39,Wyandot,175
+GYDI,United States,Oklahoma,40,,
+GYDI,United States,Oklahoma,40,Bryan,013
+GYDI,United States,Oklahoma,40,Caddo,015
+GYDI,United States,Oklahoma,40,Canadian,017
+GYDI,United States,Oklahoma,40,Cherokee,021
+GYDI,United States,Oklahoma,40,Cleveland,027
+GYDI,United States,Oklahoma,40,Custer,039
+GYDI,United States,Oklahoma,40,Delaware,041
+GYDI,United States,Oklahoma,40,Ellis,045
+GYDI,United States,Oklahoma,40,Grady,051
+GYDI,United States,Oklahoma,40,Johnston,069
+GYDI,United States,Oklahoma,40,Kay,071
+GYDI,United States,Oklahoma,40,Muskogee,101
+GYDI,United States,Oklahoma,40,Oklahoma,109
+GYDI,United States,Oklahoma,40,Pawnee,117
+GYDI,United States,Oklahoma,40,Payne,119
+GYDI,United States,Oklahoma,40,Roger Mills,129
+GYDI,United States,Oklahoma,40,Sequoyah,135
+GYDI,United States,Oklahoma,40,Tulsa,143
+GYDI,United States,Oklahoma,40,Washington,147
+GYDI,United States,Oklahoma,40,Woods,151
+GYDI,United States,Pennsylvania,42,,
+GYDI,United States,Pennsylvania,42,Adams,001
+GYDI,United States,Pennsylvania,42,Allegheny,003
+GYDI,United States,Pennsylvania,42,Beaver,007
+GYDI,United States,Pennsylvania,42,Berks,011
+GYDI,United States,Pennsylvania,42,Bucks,017
+GYDI,United States,Pennsylvania,42,Chester,029
+GYDI,United States,Pennsylvania,42,Cumberland,041
+GYDI,United States,Pennsylvania,42,Delaware,045
+GYDI,United States,Pennsylvania,42,Fayette,051
+GYDI,United States,Pennsylvania,42,Franklin,055
+GYDI,United States,Pennsylvania,42,Jefferson,065
+GYDI,United States,Pennsylvania,42,Lehigh,077
+GYDI,United States,Pennsylvania,42,Montgomery,091
+GYDI,United States,Pennsylvania,42,Northampton,095
+GYDI,United States,Pennsylvania,42,Philadelphia,101
+GYDI,United States,Pennsylvania,42,Washington,125
+GYDI,United States,Pennsylvania,42,York,133
+GYDI,United States,South Carolina,45,,
+GYDI,United States,South Dakota,46,,
+GYDI,United States,South Dakota,46,Clay,027
+GYDI,United States,South Dakota,46,Lincoln,083
+GYDI,United States,South Dakota,46,Union,127
+GYDI,United States,Tennessee,47,,
+GYDI,United States,Tennessee,47,Anderson,001
+GYDI,United States,Tennessee,47,Bedford,003
+GYDI,United States,Tennessee,47,Blount,009
+GYDI,United States,Tennessee,47,Cheatham,021
+GYDI,United States,Tennessee,47,Davidson,037
+GYDI,United States,Tennessee,47,Dyer,045
+GYDI,United States,Tennessee,47,Knox,093
+GYDI,United States,Tennessee,47,Lake,095
+GYDI,United States,Tennessee,47,Lauderdale,097
+GYDI,United States,Tennessee,47,Maury,119
+GYDI,United States,Tennessee,47,Montgomery,125
+GYDI,United States,Tennessee,47,Obion,131
+GYDI,United States,Tennessee,47,Shelby,157
+GYDI,United States,Tennessee,47,Smith,159
+GYDI,United States,Tennessee,47,Stewart,161
+GYDI,United States,Tennessee,47,Sumner,165
+GYDI,United States,Tennessee,47,Tipton,167
+GYDI,United States,Tennessee,47,Trousdale,169
+GYDI,United States,Tennessee,47,Washington,179
+GYDI,United States,Tennessee,47,Williamson,187
+GYDI,United States,Tennessee,47,Wilson,189
+GYDI,United States,Texas,48,,
+GYDI,United States,Texas,48,Tarrant,439
+GYDI,United States,Texas,48,Walker,471
+GYDI,United States,Virginia,51,,
+GYDI,United States,Virginia,51,Giles,071
+GYDI,United States,Virginia,51,Lee,105
+GYDI,United States,Virginia,51,Russell,167
+GYDI,United States,Virginia,51,Scott,169
+GYDI,United States,Virginia,51,Washington,191
+GYDI,United States,West Virginia,54,,
+GYDI,United States,West Virginia,54,Berkeley,003
+GYDI,United States,West Virginia,54,Doddridge,017
+GYDI,United States,West Virginia,54,Fayette,019
+GYDI,United States,West Virginia,54,Jackson,035
+GYDI,United States,West Virginia,54,Mason,053
+GYDI,United States,West Virginia,54,Mineral,057
+GYDI,United States,West Virginia,54,Ohio,069
+GYDI,United States,West Virginia,54,Pleasants,073
+GYDI,United States,West Virginia,54,Preston,077
+GYDI,United States,West Virginia,54,Putnam,079
+GYDI,United States,West Virginia,54,Raleigh,081
+GYDI,United States,West Virginia,54,Summers,089
+GYDI,United States,West Virginia,54,Wayne,099
+GYDI,United States,Wisconsin,55,,
+GYDI,United States,Wisconsin,55,Adams,001
+GYDI,United States,Wisconsin,55,Buffalo,011
+GYDI,United States,Wisconsin,55,Columbia,021
+GYDI,United States,Wisconsin,55,Crawford,023
+GYDI,United States,Wisconsin,55,Dane,025
+GYDI,United States,Wisconsin,55,Dodge,027
+GYDI,United States,Wisconsin,55,Grant,043
+GYDI,United States,Wisconsin,55,Green,045
+GYDI,United States,Wisconsin,55,Milwaukee,079
+GYDI,United States,Wisconsin,55,Richland,103
+GYDI,United States,Wisconsin,55,Rock,105
+GYDI,United States,Wisconsin,55,Trempealeau,121
+GYDI,United States,Wisconsin,55,Waukesha,133
+GYDI,United States,Wisconsin,55,Winnebago,139

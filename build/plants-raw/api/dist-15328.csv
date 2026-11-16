@@ -1,0 +1,173 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+ABLA,Canada,Alberta,01,,
+ABLA,Canada,British Columbia,02,,
+ABLA,United States,Alaska,02,,
+ABLA,United States,Alaska,02,Haines,100
+ABLA,United States,Alaska,02,Juneau,110
+ABLA,United States,Arizona,04,,
+ABLA,United States,Arizona,04,Apache,001
+ABLA,United States,Arizona,04,Coconino,005
+ABLA,United States,Arizona,04,Graham,009
+ABLA,United States,Arizona,04,Pima,019
+ABLA,United States,California,06,,
+ABLA,United States,California,06,Siskiyou,093
+ABLA,United States,Colorado,08,,
+ABLA,United States,Colorado,08,Alamosa,003
+ABLA,United States,Colorado,08,Boulder,013
+ABLA,United States,Colorado,08,Clear Creek,019
+ABLA,United States,Colorado,08,Custer,027
+ABLA,United States,Colorado,08,Delta,029
+ABLA,United States,Colorado,08,Garfield,045
+ABLA,United States,Colorado,08,Grand,049
+ABLA,United States,Colorado,08,Hinsdale,053
+ABLA,United States,Colorado,08,Huerfano,055
+ABLA,United States,Colorado,08,Jackson,057
+ABLA,United States,Colorado,08,Larimer,069
+ABLA,United States,Colorado,08,Mesa,077
+ABLA,United States,Colorado,08,Mineral,079
+ABLA,United States,Colorado,08,Montezuma,083
+ABLA,United States,Colorado,08,Montrose,085
+ABLA,United States,Colorado,08,Ouray,091
+ABLA,United States,Colorado,08,Park,093
+ABLA,United States,Colorado,08,Pueblo,101
+ABLA,United States,Colorado,08,Routt,107
+ABLA,United States,Colorado,08,San Juan,111
+ABLA,United States,Colorado,08,Summit,117
+ABLA,Canada,Yukon,12,,
+ABLA,Canada,Northwest Territories,13,,
+ABLA,United States,Idaho,16,,
+ABLA,United States,Idaho,16,Adams,003
+ABLA,United States,Idaho,16,Bannock,005
+ABLA,United States,Idaho,16,Bear Lake,007
+ABLA,United States,Idaho,16,Blaine,013
+ABLA,United States,Idaho,16,Boise,015
+ABLA,United States,Idaho,16,Bonner,017
+ABLA,United States,Idaho,16,Bonneville,019
+ABLA,United States,Idaho,16,Caribou,029
+ABLA,United States,Idaho,16,Cassia,031
+ABLA,United States,Idaho,16,Clearwater,035
+ABLA,United States,Idaho,16,Custer,037
+ABLA,United States,Idaho,16,Elmore,039
+ABLA,United States,Idaho,16,Franklin,041
+ABLA,United States,Idaho,16,Fremont,043
+ABLA,United States,Idaho,16,Idaho,049
+ABLA,United States,Idaho,16,Latah,057
+ABLA,United States,Idaho,16,Lemhi,059
+ABLA,United States,Idaho,16,Owyhee,073
+ABLA,United States,Idaho,16,Shoshone,079
+ABLA,United States,Idaho,16,Teton,081
+ABLA,United States,Idaho,16,Twin Falls,083
+ABLA,United States,Idaho,16,Valley,085
+ABLA,United States,Montana,30,,
+ABLA,United States,Montana,30,Flathead,029
+ABLA,United States,Montana,30,Gallatin,031
+ABLA,United States,Montana,30,Lincoln,053
+ABLA,United States,Montana,30,Madison,057
+ABLA,United States,Montana,30,Stillwater,095
+ABLA,United States,Nevada,32,,
+ABLA,United States,Nevada,32,Elko,007
+ABLA,United States,Nevada,32,Lincoln,017
+ABLA,United States,Nevada,32,Nye,023
+ABLA,United States,Nevada,32,White Pine,033
+ABLA,United States,New Mexico,35,,
+ABLA,United States,New Mexico,35,Bernalillo,001
+ABLA,United States,New Mexico,35,Catron,003
+ABLA,United States,New Mexico,35,Cibola,006
+ABLA,United States,New Mexico,35,Colfax,007
+ABLA,United States,New Mexico,35,Grant,017
+ABLA,United States,New Mexico,35,Lincoln,027
+ABLA,United States,New Mexico,35,Los Alamos,028
+ABLA,United States,New Mexico,35,Mora,033
+ABLA,United States,New Mexico,35,Rio Arriba,039
+ABLA,United States,New Mexico,35,San Miguel,047
+ABLA,United States,New Mexico,35,Sandoval,043
+ABLA,United States,New Mexico,35,Santa Fe,049
+ABLA,United States,New Mexico,35,Socorro,053
+ABLA,United States,New Mexico,35,Taos,055
+ABLA,United States,Oregon,41,,
+ABLA,United States,Oregon,41,Baker,001
+ABLA,United States,Oregon,41,Clackamas,005
+ABLA,United States,Oregon,41,Deschutes,017
+ABLA,United States,Oregon,41,Douglas,019
+ABLA,United States,Oregon,41,Grant,023
+ABLA,United States,Oregon,41,Hood River,027
+ABLA,United States,Oregon,41,Jackson,029
+ABLA,United States,Oregon,41,Jefferson,031
+ABLA,United States,Oregon,41,Josephine,033
+ABLA,United States,Oregon,41,Klamath,035
+ABLA,United States,Oregon,41,Lake,037
+ABLA,United States,Oregon,41,Lane,039
+ABLA,United States,Oregon,41,Linn,043
+ABLA,United States,Oregon,41,Marion,047
+ABLA,United States,Oregon,41,Umatilla,059
+ABLA,United States,Oregon,41,Union,061
+ABLA,United States,Oregon,41,Wallowa,063
+ABLA,United States,Utah,49,,
+ABLA,United States,Utah,49,Beaver,001
+ABLA,United States,Utah,49,Box Elder,003
+ABLA,United States,Utah,49,Cache,005
+ABLA,United States,Utah,49,Carbon,007
+ABLA,United States,Utah,49,Daggett,009
+ABLA,United States,Utah,49,Duchesne,013
+ABLA,United States,Utah,49,Emery,015
+ABLA,United States,Utah,49,Garfield,017
+ABLA,United States,Utah,49,Grand,019
+ABLA,United States,Utah,49,Iron,021
+ABLA,United States,Utah,49,Juab,023
+ABLA,United States,Utah,49,Kane,025
+ABLA,United States,Utah,49,Morgan,029
+ABLA,United States,Utah,49,Piute,031
+ABLA,United States,Utah,49,Rich,033
+ABLA,United States,Utah,49,Salt Lake,035
+ABLA,United States,Utah,49,San Juan,037
+ABLA,United States,Utah,49,Sanpete,039
+ABLA,United States,Utah,49,Sevier,041
+ABLA,United States,Utah,49,Summit,043
+ABLA,United States,Utah,49,Tooele,045
+ABLA,United States,Utah,49,Uintah,047
+ABLA,United States,Utah,49,Utah,049
+ABLA,United States,Utah,49,Wasatch,051
+ABLA,United States,Utah,49,Washington,053
+ABLA,United States,Utah,49,Wayne,055
+ABLA,United States,Utah,49,Weber,057
+ABLA,United States,Washington,53,,
+ABLA,United States,Washington,53,Asotin,003
+ABLA,United States,Washington,53,Chelan,007
+ABLA,United States,Washington,53,Clallam,009
+ABLA,United States,Washington,53,Columbia,013
+ABLA,United States,Washington,53,Cowlitz,015
+ABLA,United States,Washington,53,Ferry,019
+ABLA,United States,Washington,53,Garfield,023
+ABLA,United States,Washington,53,Jefferson,031
+ABLA,United States,Washington,53,Kittitas,037
+ABLA,United States,Washington,53,Lewis,041
+ABLA,United States,Washington,53,Mason,045
+ABLA,United States,Washington,53,Okanogan,047
+ABLA,United States,Washington,53,Pend Oreille,051
+ABLA,United States,Washington,53,Pierce,053
+ABLA,United States,Washington,53,Skagit,057
+ABLA,United States,Washington,53,Skamania,059
+ABLA,United States,Washington,53,Snohomish,061
+ABLA,United States,Washington,53,Spokane,063
+ABLA,United States,Washington,53,Stevens,065
+ABLA,United States,Washington,53,Walla Walla,071
+ABLA,United States,Washington,53,Whatcom,073
+ABLA,United States,Washington,53,Yakima,077
+ABLA,United States,Wyoming,56,,
+ABLA,United States,Wyoming,56,Albany,001
+ABLA,United States,Wyoming,56,Big Horn,003
+ABLA,United States,Wyoming,56,Carbon,007
+ABLA,United States,Wyoming,56,Converse,009
+ABLA,United States,Wyoming,56,Fremont,013
+ABLA,United States,Wyoming,56,Hot Springs,017
+ABLA,United States,Wyoming,56,Johnson,019
+ABLA,United States,Wyoming,56,Lincoln,023
+ABLA,United States,Wyoming,56,Natrona,025
+ABLA,United States,Wyoming,56,Park,029
+ABLA,United States,Wyoming,56,Sheridan,033
+ABLA,United States,Wyoming,56,Sublette,035
+ABLA,United States,Wyoming,56,Sweetwater,037
+ABLA,United States,Wyoming,56,Teton,039
+ABLA,United States,Wyoming,56,Uinta,041
+ABLA,United States,Wyoming,56,Washakie,043

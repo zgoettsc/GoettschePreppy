@@ -1,0 +1,897 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+CATH2,United States,Alabama,01,,
+CATH2,United States,Alabama,01,Blount,009
+CATH2,United States,Alabama,01,DeKalb,049
+CATH2,United States,Alabama,01,Etowah,055
+CATH2,United States,Alabama,01,Jackson,071
+CATH2,United States,Alabama,01,Lawrence,079
+CATH2,United States,Alabama,01,Madison,089
+CATH2,United States,Alabama,01,Marshall,095
+CATH2,Canada,Manitoba,03,,
+CATH2,Canada,New Brunswick,04,,
+CATH2,United States,Arkansas,05,,
+CATH2,United States,Arkansas,05,Benton,007
+CATH2,United States,Arkansas,05,Logan,083
+CATH2,United States,Arkansas,05,Newton,101
+CATH2,United States,Arkansas,05,Stone,137
+CATH2,Canada,Nova Scotia,07,,
+CATH2,Canada,Ontario,08,,
+CATH2,United States,Connecticut,09,,
+CATH2,Canada,Quebec,10,,
+CATH2,United States,Delaware,10,,
+CATH2,United States,Delaware,10,New Castle,003
+CATH2,United States,Georgia,13,,
+CATH2,United States,Georgia,13,Fannin,111
+CATH2,United States,Georgia,13,Floyd,115
+CATH2,United States,Georgia,13,Gilmer,123
+CATH2,United States,Georgia,13,Rabun,241
+CATH2,United States,Georgia,13,Stephens,257
+CATH2,United States,Georgia,13,Towns,281
+CATH2,United States,Georgia,13,Union,291
+CATH2,United States,Georgia,13,Walker,295
+CATH2,United States,Georgia,13,White,311
+CATH2,United States,Illinois,17,,
+CATH2,United States,Illinois,17,Adams,001
+CATH2,United States,Illinois,17,Alexander,003
+CATH2,United States,Illinois,17,Bond,005
+CATH2,United States,Illinois,17,Boone,007
+CATH2,United States,Illinois,17,Brown,009
+CATH2,United States,Illinois,17,Bureau,011
+CATH2,United States,Illinois,17,Calhoun,013
+CATH2,United States,Illinois,17,Carroll,015
+CATH2,United States,Illinois,17,Cass,017
+CATH2,United States,Illinois,17,Champaign,019
+CATH2,United States,Illinois,17,Christian,021
+CATH2,United States,Illinois,17,Clark,023
+CATH2,United States,Illinois,17,Coles,029
+CATH2,United States,Illinois,17,Cook,031
+CATH2,United States,Illinois,17,Crawford,033
+CATH2,United States,Illinois,17,Cumberland,035
+CATH2,United States,Illinois,17,De Witt,039
+CATH2,United States,Illinois,17,DeKalb,037
+CATH2,United States,Illinois,17,Douglas,041
+CATH2,United States,Illinois,17,DuPage,043
+CATH2,United States,Illinois,17,Edgar,045
+CATH2,United States,Illinois,17,Effingham,049
+CATH2,United States,Illinois,17,Fayette,051
+CATH2,United States,Illinois,17,Fulton,057
+CATH2,United States,Illinois,17,Grundy,063
+CATH2,United States,Illinois,17,Hancock,067
+CATH2,United States,Illinois,17,Hardin,069
+CATH2,United States,Illinois,17,Henderson,071
+CATH2,United States,Illinois,17,Henry,073
+CATH2,United States,Illinois,17,Iroquois,075
+CATH2,United States,Illinois,17,Jackson,077
+CATH2,United States,Illinois,17,Jo Daviess,085
+CATH2,United States,Illinois,17,Johnson,087
+CATH2,United States,Illinois,17,Kane,089
+CATH2,United States,Illinois,17,Kankakee,091
+CATH2,United States,Illinois,17,Kendall,093
+CATH2,United States,Illinois,17,Knox,095
+CATH2,United States,Illinois,17,Lake,097
+CATH2,United States,Illinois,17,Lawrence,101
+CATH2,United States,Illinois,17,Lee,103
+CATH2,United States,Illinois,17,Logan,107
+CATH2,United States,Illinois,17,Macon,115
+CATH2,United States,Illinois,17,Macoupin,117
+CATH2,United States,Illinois,17,Marshall,123
+CATH2,United States,Illinois,17,Mason,125
+CATH2,United States,Illinois,17,McHenry,111
+CATH2,United States,Illinois,17,McLean,113
+CATH2,United States,Illinois,17,Menard,129
+CATH2,United States,Illinois,17,Morgan,137
+CATH2,United States,Illinois,17,Ogle,141
+CATH2,United States,Illinois,17,Peoria,143
+CATH2,United States,Illinois,17,Piatt,147
+CATH2,United States,Illinois,17,Pope,151
+CATH2,United States,Illinois,17,Putnam,155
+CATH2,United States,Illinois,17,Rock Island,161
+CATH2,United States,Illinois,17,Schuyler,169
+CATH2,United States,Illinois,17,Scott,171
+CATH2,United States,Illinois,17,Shelby,173
+CATH2,United States,Illinois,17,St. Clair,163
+CATH2,United States,Illinois,17,Stark,175
+CATH2,United States,Illinois,17,Stephenson,177
+CATH2,United States,Illinois,17,Tazewell,179
+CATH2,United States,Illinois,17,Union,181
+CATH2,United States,Illinois,17,Vermilion,183
+CATH2,United States,Illinois,17,Will,197
+CATH2,United States,Illinois,17,Williamson,199
+CATH2,United States,Illinois,17,Winnebago,201
+CATH2,United States,Illinois,17,Woodford,203
+CATH2,United States,Indiana,18,,
+CATH2,United States,Indiana,18,Allen,003
+CATH2,United States,Indiana,18,Blackford,009
+CATH2,United States,Indiana,18,Brown,013
+CATH2,United States,Indiana,18,Carroll,015
+CATH2,United States,Indiana,18,Crawford,025
+CATH2,United States,Indiana,18,Dearborn,029
+CATH2,United States,Indiana,18,Decatur,031
+CATH2,United States,Indiana,18,DeKalb,033
+CATH2,United States,Indiana,18,Delaware,035
+CATH2,United States,Indiana,18,Floyd,043
+CATH2,United States,Indiana,18,Fountain,045
+CATH2,United States,Indiana,18,Franklin,047
+CATH2,United States,Indiana,18,Grant,053
+CATH2,United States,Indiana,18,Harrison,061
+CATH2,United States,Indiana,18,Henry,065
+CATH2,United States,Indiana,18,Howard,067
+CATH2,United States,Indiana,18,Huntington,069
+CATH2,United States,Indiana,18,Jackson,071
+CATH2,United States,Indiana,18,Jefferson,077
+CATH2,United States,Indiana,18,Jennings,079
+CATH2,United States,Indiana,18,Johnson,081
+CATH2,United States,Indiana,18,Kosciusko,085
+CATH2,United States,Indiana,18,Lagrange,087
+CATH2,United States,Indiana,18,Lake,089
+CATH2,United States,Indiana,18,LaPorte,091
+CATH2,United States,Indiana,18,Lawrence,093
+CATH2,United States,Indiana,18,Madison,095
+CATH2,United States,Indiana,18,Marion,097
+CATH2,United States,Indiana,18,Marshall,099
+CATH2,United States,Indiana,18,Monroe,105
+CATH2,United States,Indiana,18,Montgomery,107
+CATH2,United States,Indiana,18,Morgan,109
+CATH2,United States,Indiana,18,Newton,111
+CATH2,United States,Indiana,18,Noble,113
+CATH2,United States,Indiana,18,Ohio,115
+CATH2,United States,Indiana,18,Owen,119
+CATH2,United States,Indiana,18,Parke,121
+CATH2,United States,Indiana,18,Perry,123
+CATH2,United States,Indiana,18,Porter,127
+CATH2,United States,Indiana,18,Putnam,133
+CATH2,United States,Indiana,18,Randolph,135
+CATH2,United States,Indiana,18,Rush,139
+CATH2,United States,Indiana,18,Scott,143
+CATH2,United States,Indiana,18,Shelby,145
+CATH2,United States,Indiana,18,St. Joseph,141
+CATH2,United States,Indiana,18,Steuben,151
+CATH2,United States,Indiana,18,Tippecanoe,157
+CATH2,United States,Indiana,18,Vermillion,165
+CATH2,United States,Indiana,18,Wabash,169
+CATH2,United States,Indiana,18,Warren,171
+CATH2,United States,Indiana,18,Washington,175
+CATH2,United States,Indiana,18,Wayne,177
+CATH2,United States,Indiana,18,Wells,179
+CATH2,United States,Indiana,18,Whitley,183
+CATH2,United States,Iowa,19,,
+CATH2,United States,Iowa,19,Cherokee,035
+CATH2,United States,Iowa,19,Guthrie,077
+CATH2,United States,Iowa,19,Monona,133
+CATH2,United States,Iowa,19,Plymouth,149
+CATH2,United States,Iowa,19,Shelby,165
+CATH2,United States,Iowa,19,Webster,187
+CATH2,United States,Iowa,19,Woodbury,193
+CATH2,United States,Kansas,20,,
+CATH2,United States,Kansas,20,Doniphan,043
+CATH2,United States,Kentucky,21,,
+CATH2,United States,Kentucky,21,Adair,001
+CATH2,United States,Kentucky,21,Anderson,005
+CATH2,United States,Kentucky,21,Bell,013
+CATH2,United States,Kentucky,21,Boone,015
+CATH2,United States,Kentucky,21,Boyle,021
+CATH2,United States,Kentucky,21,Breathitt,025
+CATH2,United States,Kentucky,21,Breckinridge,027
+CATH2,United States,Kentucky,21,Bullitt,029
+CATH2,United States,Kentucky,21,Campbell,037
+CATH2,United States,Kentucky,21,Carter,043
+CATH2,United States,Kentucky,21,Casey,045
+CATH2,United States,Kentucky,21,Clay,051
+CATH2,United States,Kentucky,21,Cumberland,057
+CATH2,United States,Kentucky,21,Edmonson,061
+CATH2,United States,Kentucky,21,Elliott,063
+CATH2,United States,Kentucky,21,Estill,065
+CATH2,United States,Kentucky,21,Fayette,067
+CATH2,United States,Kentucky,21,Fleming,069
+CATH2,United States,Kentucky,21,Franklin,073
+CATH2,United States,Kentucky,21,Grant,081
+CATH2,United States,Kentucky,21,Grayson,085
+CATH2,United States,Kentucky,21,Green,087
+CATH2,United States,Kentucky,21,Greenup,089
+CATH2,United States,Kentucky,21,Hardin,093
+CATH2,United States,Kentucky,21,Harlan,095
+CATH2,United States,Kentucky,21,Hart,099
+CATH2,United States,Kentucky,21,Jackson,109
+CATH2,United States,Kentucky,21,Jefferson,111
+CATH2,United States,Kentucky,21,Jessamine,113
+CATH2,United States,Kentucky,21,Kenton,117
+CATH2,United States,Kentucky,21,Knox,121
+CATH2,United States,Kentucky,21,Larue,123
+CATH2,United States,Kentucky,21,Laurel,125
+CATH2,United States,Kentucky,21,Lee,129
+CATH2,United States,Kentucky,21,Leslie,131
+CATH2,United States,Kentucky,21,Letcher,133
+CATH2,United States,Kentucky,21,Lewis,135
+CATH2,United States,Kentucky,21,Lincoln,137
+CATH2,United States,Kentucky,21,Logan,141
+CATH2,United States,Kentucky,21,Madison,151
+CATH2,United States,Kentucky,21,McCreary,147
+CATH2,United States,Kentucky,21,Menifee,165
+CATH2,United States,Kentucky,21,Mercer,167
+CATH2,United States,Kentucky,21,Metcalfe,169
+CATH2,United States,Kentucky,21,Nelson,179
+CATH2,United States,Kentucky,21,Oldham,185
+CATH2,United States,Kentucky,21,Perry,193
+CATH2,United States,Kentucky,21,Pike,195
+CATH2,United States,Kentucky,21,Pulaski,199
+CATH2,United States,Kentucky,21,Rockcastle,203
+CATH2,United States,Kentucky,21,Rowan,205
+CATH2,United States,Kentucky,21,Todd,219
+CATH2,United States,Kentucky,21,Warren,227
+CATH2,United States,Kentucky,21,Wayne,231
+CATH2,United States,Kentucky,21,Whitley,235
+CATH2,United States,Maine,23,,
+CATH2,United States,Maine,23,Aroostook,003
+CATH2,United States,Maine,23,Cumberland,005
+CATH2,United States,Maine,23,Franklin,007
+CATH2,United States,Maine,23,Kennebec,011
+CATH2,United States,Maine,23,Oxford,017
+CATH2,United States,Maine,23,Penobscot,019
+CATH2,United States,Maine,23,Piscataquis,021
+CATH2,United States,Maine,23,Somerset,025
+CATH2,United States,Maine,23,Waldo,027
+CATH2,United States,Maryland,24,,
+CATH2,United States,Massachusetts,25,,
+CATH2,United States,Massachusetts,25,Berkshire,003
+CATH2,United States,Massachusetts,25,Bristol,005
+CATH2,United States,Massachusetts,25,Essex,009
+CATH2,United States,Massachusetts,25,Franklin,011
+CATH2,United States,Massachusetts,25,Hampden,013
+CATH2,United States,Massachusetts,25,Hampshire,015
+CATH2,United States,Massachusetts,25,Middlesex,017
+CATH2,United States,Massachusetts,25,Worcester,027
+CATH2,United States,Michigan,26,,
+CATH2,United States,Michigan,26,Alcona,001
+CATH2,United States,Michigan,26,Alger,003
+CATH2,United States,Michigan,26,Allegan,005
+CATH2,United States,Michigan,26,Alpena,007
+CATH2,United States,Michigan,26,Antrim,009
+CATH2,United States,Michigan,26,Arenac,011
+CATH2,United States,Michigan,26,Baraga,013
+CATH2,United States,Michigan,26,Benzie,019
+CATH2,United States,Michigan,26,Berrien,021
+CATH2,United States,Michigan,26,Branch,023
+CATH2,United States,Michigan,26,Cass,027
+CATH2,United States,Michigan,26,Charlevoix,029
+CATH2,United States,Michigan,26,Cheboygan,031
+CATH2,United States,Michigan,26,Chippewa,033
+CATH2,United States,Michigan,26,Clinton,037
+CATH2,United States,Michigan,26,Delta,041
+CATH2,United States,Michigan,26,Eaton,045
+CATH2,United States,Michigan,26,Emmet,047
+CATH2,United States,Michigan,26,Genesee,049
+CATH2,United States,Michigan,26,Gladwin,051
+CATH2,United States,Michigan,26,Gogebic,053
+CATH2,United States,Michigan,26,Grand Traverse,055
+CATH2,United States,Michigan,26,Gratiot,057
+CATH2,United States,Michigan,26,Houghton,061
+CATH2,United States,Michigan,26,Huron,063
+CATH2,United States,Michigan,26,Ingham,065
+CATH2,United States,Michigan,26,Iosco,069
+CATH2,United States,Michigan,26,Iron,071
+CATH2,United States,Michigan,26,Isabella,073
+CATH2,United States,Michigan,26,Jackson,075
+CATH2,United States,Michigan,26,Kalamazoo,077
+CATH2,United States,Michigan,26,Kalkaska,079
+CATH2,United States,Michigan,26,Kent,081
+CATH2,United States,Michigan,26,Lake,085
+CATH2,United States,Michigan,26,Lapeer,087
+CATH2,United States,Michigan,26,Leelanau,089
+CATH2,United States,Michigan,26,Lenawee,091
+CATH2,United States,Michigan,26,Livingston,093
+CATH2,United States,Michigan,26,Luce,095
+CATH2,United States,Michigan,26,Mackinac,097
+CATH2,United States,Michigan,26,Macomb,099
+CATH2,United States,Michigan,26,Marquette,103
+CATH2,United States,Michigan,26,Mason,105
+CATH2,United States,Michigan,26,Mecosta,107
+CATH2,United States,Michigan,26,Menominee,109
+CATH2,United States,Michigan,26,Midland,111
+CATH2,United States,Michigan,26,Missaukee,113
+CATH2,United States,Michigan,26,Montcalm,117
+CATH2,United States,Michigan,26,Montmorency,119
+CATH2,United States,Michigan,26,Muskegon,121
+CATH2,United States,Michigan,26,Newaygo,123
+CATH2,United States,Michigan,26,Oakland,125
+CATH2,United States,Michigan,26,Oceana,127
+CATH2,United States,Michigan,26,Ogemaw,129
+CATH2,United States,Michigan,26,Ontonagon,131
+CATH2,United States,Michigan,26,Osceola,133
+CATH2,United States,Michigan,26,Oscoda,135
+CATH2,United States,Michigan,26,Otsego,137
+CATH2,United States,Michigan,26,Ottawa,139
+CATH2,United States,Michigan,26,Saginaw,145
+CATH2,United States,Michigan,26,Sanilac,151
+CATH2,United States,Michigan,26,Schoolcraft,153
+CATH2,United States,Michigan,26,Shiawassee,155
+CATH2,United States,Michigan,26,St. Clair,147
+CATH2,United States,Michigan,26,St. Joseph,149
+CATH2,United States,Michigan,26,Tuscola,157
+CATH2,United States,Michigan,26,Van Buren,159
+CATH2,United States,Michigan,26,Washtenaw,161
+CATH2,United States,Michigan,26,Wayne,163
+CATH2,United States,Michigan,26,Wexford,165
+CATH2,United States,Minnesota,27,,
+CATH2,United States,Minnesota,27,Aitkin,001
+CATH2,United States,Minnesota,27,Becker,005
+CATH2,United States,Minnesota,27,Beltrami,007
+CATH2,United States,Minnesota,27,Benton,009
+CATH2,United States,Minnesota,27,Blue Earth,013
+CATH2,United States,Minnesota,27,Brown,015
+CATH2,United States,Minnesota,27,Carlton,017
+CATH2,United States,Minnesota,27,Carver,019
+CATH2,United States,Minnesota,27,Cass,021
+CATH2,United States,Minnesota,27,Chisago,025
+CATH2,United States,Minnesota,27,Clay,027
+CATH2,United States,Minnesota,27,Clearwater,029
+CATH2,United States,Minnesota,27,Cottonwood,033
+CATH2,United States,Minnesota,27,Dakota,037
+CATH2,United States,Minnesota,27,Douglas,041
+CATH2,United States,Minnesota,27,Fillmore,045
+CATH2,United States,Minnesota,27,Goodhue,049
+CATH2,United States,Minnesota,27,Grant,051
+CATH2,United States,Minnesota,27,Hennepin,053
+CATH2,United States,Minnesota,27,Houston,055
+CATH2,United States,Minnesota,27,Hubbard,057
+CATH2,United States,Minnesota,27,Itasca,061
+CATH2,United States,Minnesota,27,Jackson,063
+CATH2,United States,Minnesota,27,Kanabec,065
+CATH2,United States,Minnesota,27,Kandiyohi,067
+CATH2,United States,Minnesota,27,Koochiching,071
+CATH2,United States,Minnesota,27,Lake,075
+CATH2,United States,Minnesota,27,Lake of the Woods,077
+CATH2,United States,Minnesota,27,Le Sueur,079
+CATH2,United States,Minnesota,27,Lincoln,081
+CATH2,United States,Minnesota,27,Mahnomen,087
+CATH2,United States,Minnesota,27,Meeker,093
+CATH2,United States,Minnesota,27,Mille Lacs,095
+CATH2,United States,Minnesota,27,Morrison,097
+CATH2,United States,Minnesota,27,Mower,099
+CATH2,United States,Minnesota,27,Murray,101
+CATH2,United States,Minnesota,27,Nicollet,103
+CATH2,United States,Minnesota,27,Norman,107
+CATH2,United States,Minnesota,27,Olmsted,109
+CATH2,United States,Minnesota,27,Otter Tail,111
+CATH2,United States,Minnesota,27,Pennington,113
+CATH2,United States,Minnesota,27,Pine,115
+CATH2,United States,Minnesota,27,Polk,119
+CATH2,United States,Minnesota,27,Pope,121
+CATH2,United States,Minnesota,27,Ramsey,123
+CATH2,United States,Minnesota,27,Red Lake,125
+CATH2,United States,Minnesota,27,Redwood,127
+CATH2,United States,Minnesota,27,Rice,131
+CATH2,United States,Minnesota,27,Scott,139
+CATH2,United States,Minnesota,27,Sherburne,141
+CATH2,United States,Minnesota,27,St. Louis,137
+CATH2,United States,Minnesota,27,Stearns,145
+CATH2,United States,Minnesota,27,Steele,147
+CATH2,United States,Minnesota,27,Wabasha,157
+CATH2,United States,Minnesota,27,Washington,163
+CATH2,United States,Minnesota,27,Winona,169
+CATH2,United States,Minnesota,27,Wright,171
+CATH2,United States,Minnesota,27,Yellow Medicine,173
+CATH2,United States,Missouri,29,,
+CATH2,United States,Missouri,29,Atchison,005
+CATH2,United States,Missouri,29,Benton,015
+CATH2,United States,Missouri,29,Bollinger,017
+CATH2,United States,Missouri,29,Boone,019
+CATH2,United States,Missouri,29,Callaway,027
+CATH2,United States,Missouri,29,Camden,029
+CATH2,United States,Missouri,29,Cape Girardeau,031
+CATH2,United States,Missouri,29,Carter,035
+CATH2,United States,Missouri,29,Christian,043
+CATH2,United States,Missouri,29,Clark,045
+CATH2,United States,Missouri,29,Clay,047
+CATH2,United States,Missouri,29,Cole,051
+CATH2,United States,Missouri,29,Crawford,055
+CATH2,United States,Missouri,29,Dent,065
+CATH2,United States,Missouri,29,Douglas,067
+CATH2,United States,Missouri,29,Franklin,071
+CATH2,United States,Missouri,29,Greene,077
+CATH2,United States,Missouri,29,Howard,089
+CATH2,United States,Missouri,29,Howell,091
+CATH2,United States,Missouri,29,Jackson,095
+CATH2,United States,Missouri,29,Jasper,097
+CATH2,United States,Missouri,29,Jefferson,099
+CATH2,United States,Missouri,29,Knox,103
+CATH2,United States,Missouri,29,Laclede,105
+CATH2,United States,Missouri,29,Lawrence,109
+CATH2,United States,Missouri,29,Lincoln,113
+CATH2,United States,Missouri,29,Marion,127
+CATH2,United States,Missouri,29,Mercer,129
+CATH2,United States,Missouri,29,Moniteau,135
+CATH2,United States,Missouri,29,Monroe,137
+CATH2,United States,Missouri,29,Montgomery,139
+CATH2,United States,Missouri,29,Morgan,141
+CATH2,United States,Missouri,29,Oregon,149
+CATH2,United States,Missouri,29,Osage,151
+CATH2,United States,Missouri,29,Ozark,153
+CATH2,United States,Missouri,29,Perry,157
+CATH2,United States,Missouri,29,Phelps,161
+CATH2,United States,Missouri,29,Polk,167
+CATH2,United States,Missouri,29,Pulaski,169
+CATH2,United States,Missouri,29,Ralls,173
+CATH2,United States,Missouri,29,Randolph,175
+CATH2,United States,Missouri,29,Reynolds,179
+CATH2,United States,Missouri,29,Saline,195
+CATH2,United States,Missouri,29,Schuyler,197
+CATH2,United States,Missouri,29,Scotland,199
+CATH2,United States,Missouri,29,Shannon,203
+CATH2,United States,Missouri,29,St. Louis,189
+CATH2,United States,Missouri,29,Sullivan,211
+CATH2,United States,Missouri,29,Texas,215
+CATH2,United States,Missouri,29,Warren,219
+CATH2,United States,Missouri,29,Wayne,223
+CATH2,United States,Missouri,29,Webster,225
+CATH2,United States,Missouri,29,Wright,229
+CATH2,United States,Nebraska,31,,
+CATH2,United States,Nebraska,31,Dixon,051
+CATH2,United States,Nebraska,31,Sarpy,153
+CATH2,United States,Nebraska,31,Thurston,173
+CATH2,United States,Nebraska,31,Washington,177
+CATH2,United States,New Hampshire,33,,
+CATH2,United States,New Hampshire,33,Carroll,003
+CATH2,United States,New Hampshire,33,Cheshire,005
+CATH2,United States,New Hampshire,33,Coos,007
+CATH2,United States,New Hampshire,33,Grafton,009
+CATH2,United States,New Hampshire,33,Hillsborough,011
+CATH2,United States,New Hampshire,33,Rockingham,015
+CATH2,United States,New Hampshire,33,Strafford,017
+CATH2,United States,New Hampshire,33,Sullivan,019
+CATH2,United States,New Jersey,34,,
+CATH2,United States,New Jersey,34,Bergen,003
+CATH2,United States,New Jersey,34,Essex,013
+CATH2,United States,New Jersey,34,Hunterdon,019
+CATH2,United States,New Jersey,34,Morris,027
+CATH2,United States,New Jersey,34,Passaic,031
+CATH2,United States,New Jersey,34,Somerset,035
+CATH2,United States,New Jersey,34,Sussex,037
+CATH2,United States,New Jersey,34,Union,039
+CATH2,United States,New Jersey,34,Warren,041
+CATH2,United States,New York,36,,
+CATH2,United States,New York,36,Albany,001
+CATH2,United States,New York,36,Bronx,005
+CATH2,United States,New York,36,Cattaraugus,009
+CATH2,United States,New York,36,Cayuga,011
+CATH2,United States,New York,36,Chautauqua,013
+CATH2,United States,New York,36,Chenango,017
+CATH2,United States,New York,36,Columbia,021
+CATH2,United States,New York,36,Delaware,025
+CATH2,United States,New York,36,Dutchess,027
+CATH2,United States,New York,36,Erie,029
+CATH2,United States,New York,36,Essex,031
+CATH2,United States,New York,36,Genesee,037
+CATH2,United States,New York,36,Greene,039
+CATH2,United States,New York,36,Jefferson,045
+CATH2,United States,New York,36,Lewis,049
+CATH2,United States,New York,36,Livingston,051
+CATH2,United States,New York,36,Madison,053
+CATH2,United States,New York,36,Monroe,055
+CATH2,United States,New York,36,New York,061
+CATH2,United States,New York,36,Niagara,063
+CATH2,United States,New York,36,Oneida,065
+CATH2,United States,New York,36,Onondaga,067
+CATH2,United States,New York,36,Orange,071
+CATH2,United States,New York,36,Orleans,073
+CATH2,United States,New York,36,Oswego,075
+CATH2,United States,New York,36,Otsego,077
+CATH2,United States,New York,36,Putnam,079
+CATH2,United States,New York,36,Rensselaer,083
+CATH2,United States,New York,36,Richmond,085
+CATH2,United States,New York,36,Rockland,087
+CATH2,United States,New York,36,Schoharie,095
+CATH2,United States,New York,36,Seneca,099
+CATH2,United States,New York,36,St. Lawrence,089
+CATH2,United States,New York,36,Suffolk,103
+CATH2,United States,New York,36,Tioga,107
+CATH2,United States,New York,36,Tompkins,109
+CATH2,United States,New York,36,Ulster,111
+CATH2,United States,New York,36,Warren,113
+CATH2,United States,New York,36,Washington,115
+CATH2,United States,New York,36,Westchester,119
+CATH2,United States,New York,36,Wyoming,121
+CATH2,United States,New York,36,Yates,123
+CATH2,United States,North Carolina,37,,
+CATH2,United States,North Carolina,37,Alleghany,005
+CATH2,United States,North Carolina,37,Ashe,009
+CATH2,United States,North Carolina,37,Avery,011
+CATH2,United States,North Carolina,37,Buncombe,021
+CATH2,United States,North Carolina,37,Caldwell,027
+CATH2,United States,North Carolina,37,Clay,043
+CATH2,United States,North Carolina,37,Durham,063
+CATH2,United States,North Carolina,37,Graham,075
+CATH2,United States,North Carolina,37,Haywood,087
+CATH2,United States,North Carolina,37,Henderson,089
+CATH2,United States,North Carolina,37,Jackson,099
+CATH2,United States,North Carolina,37,Macon,113
+CATH2,United States,North Carolina,37,Madison,115
+CATH2,United States,North Carolina,37,McDowell,111
+CATH2,United States,North Carolina,37,Mitchell,121
+CATH2,United States,North Carolina,37,Orange,135
+CATH2,United States,North Carolina,37,Polk,149
+CATH2,United States,North Carolina,37,Rutherford,161
+CATH2,United States,North Carolina,37,Stokes,169
+CATH2,United States,North Carolina,37,Swain,173
+CATH2,United States,North Carolina,37,Transylvania,175
+CATH2,United States,North Carolina,37,Watauga,189
+CATH2,United States,North Carolina,37,Yadkin,197
+CATH2,United States,North Carolina,37,Yancey,199
+CATH2,United States,North Dakota,38,,
+CATH2,United States,North Dakota,38,Cass,017
+CATH2,United States,North Dakota,38,Richland,077
+CATH2,United States,Ohio,39,,
+CATH2,United States,Ohio,39,Adams,001
+CATH2,United States,Ohio,39,Allen,003
+CATH2,United States,Ohio,39,Ashland,005
+CATH2,United States,Ohio,39,Ashtabula,007
+CATH2,United States,Ohio,39,Athens,009
+CATH2,United States,Ohio,39,Auglaize,011
+CATH2,United States,Ohio,39,Belmont,013
+CATH2,United States,Ohio,39,Brown,015
+CATH2,United States,Ohio,39,Butler,017
+CATH2,United States,Ohio,39,Carroll,019
+CATH2,United States,Ohio,39,Champaign,021
+CATH2,United States,Ohio,39,Clark,023
+CATH2,United States,Ohio,39,Clermont,025
+CATH2,United States,Ohio,39,Clinton,027
+CATH2,United States,Ohio,39,Columbiana,029
+CATH2,United States,Ohio,39,Coshocton,031
+CATH2,United States,Ohio,39,Crawford,033
+CATH2,United States,Ohio,39,Cuyahoga,035
+CATH2,United States,Ohio,39,Darke,037
+CATH2,United States,Ohio,39,Defiance,039
+CATH2,United States,Ohio,39,Delaware,041
+CATH2,United States,Ohio,39,Erie,043
+CATH2,United States,Ohio,39,Fairfield,045
+CATH2,United States,Ohio,39,Fayette,047
+CATH2,United States,Ohio,39,Franklin,049
+CATH2,United States,Ohio,39,Fulton,051
+CATH2,United States,Ohio,39,Gallia,053
+CATH2,United States,Ohio,39,Geauga,055
+CATH2,United States,Ohio,39,Greene,057
+CATH2,United States,Ohio,39,Guernsey,059
+CATH2,United States,Ohio,39,Hamilton,061
+CATH2,United States,Ohio,39,Hancock,063
+CATH2,United States,Ohio,39,Hardin,065
+CATH2,United States,Ohio,39,Harrison,067
+CATH2,United States,Ohio,39,Henry,069
+CATH2,United States,Ohio,39,Highland,071
+CATH2,United States,Ohio,39,Hocking,073
+CATH2,United States,Ohio,39,Holmes,075
+CATH2,United States,Ohio,39,Huron,077
+CATH2,United States,Ohio,39,Jackson,079
+CATH2,United States,Ohio,39,Jefferson,081
+CATH2,United States,Ohio,39,Knox,083
+CATH2,United States,Ohio,39,Lake,085
+CATH2,United States,Ohio,39,Lawrence,087
+CATH2,United States,Ohio,39,Licking,089
+CATH2,United States,Ohio,39,Logan,091
+CATH2,United States,Ohio,39,Lorain,093
+CATH2,United States,Ohio,39,Lucas,095
+CATH2,United States,Ohio,39,Madison,097
+CATH2,United States,Ohio,39,Mahoning,099
+CATH2,United States,Ohio,39,Marion,101
+CATH2,United States,Ohio,39,Medina,103
+CATH2,United States,Ohio,39,Meigs,105
+CATH2,United States,Ohio,39,Mercer,107
+CATH2,United States,Ohio,39,Miami,109
+CATH2,United States,Ohio,39,Monroe,111
+CATH2,United States,Ohio,39,Montgomery,113
+CATH2,United States,Ohio,39,Morgan,115
+CATH2,United States,Ohio,39,Morrow,117
+CATH2,United States,Ohio,39,Muskingum,119
+CATH2,United States,Ohio,39,Noble,121
+CATH2,United States,Ohio,39,Ottawa,123
+CATH2,United States,Ohio,39,Paulding,125
+CATH2,United States,Ohio,39,Perry,127
+CATH2,United States,Ohio,39,Pickaway,129
+CATH2,United States,Ohio,39,Pike,131
+CATH2,United States,Ohio,39,Portage,133
+CATH2,United States,Ohio,39,Preble,135
+CATH2,United States,Ohio,39,Putnam,137
+CATH2,United States,Ohio,39,Richland,139
+CATH2,United States,Ohio,39,Ross,141
+CATH2,United States,Ohio,39,Sandusky,143
+CATH2,United States,Ohio,39,Scioto,145
+CATH2,United States,Ohio,39,Seneca,147
+CATH2,United States,Ohio,39,Shelby,149
+CATH2,United States,Ohio,39,Stark,151
+CATH2,United States,Ohio,39,Summit,153
+CATH2,United States,Ohio,39,Trumbull,155
+CATH2,United States,Ohio,39,Tuscarawas,157
+CATH2,United States,Ohio,39,Union,159
+CATH2,United States,Ohio,39,Van Wert,161
+CATH2,United States,Ohio,39,Vinton,163
+CATH2,United States,Ohio,39,Warren,165
+CATH2,United States,Ohio,39,Washington,167
+CATH2,United States,Ohio,39,Wayne,169
+CATH2,United States,Ohio,39,Williams,171
+CATH2,United States,Ohio,39,Wood,173
+CATH2,United States,Ohio,39,Wyandot,175
+CATH2,United States,Oklahoma,40,,
+CATH2,United States,Pennsylvania,42,,
+CATH2,United States,Pennsylvania,42,Allegheny,003
+CATH2,United States,Pennsylvania,42,Armstrong,005
+CATH2,United States,Pennsylvania,42,Beaver,007
+CATH2,United States,Pennsylvania,42,Bedford,009
+CATH2,United States,Pennsylvania,42,Berks,011
+CATH2,United States,Pennsylvania,42,Blair,013
+CATH2,United States,Pennsylvania,42,Bradford,015
+CATH2,United States,Pennsylvania,42,Bucks,017
+CATH2,United States,Pennsylvania,42,Butler,019
+CATH2,United States,Pennsylvania,42,Cambria,021
+CATH2,United States,Pennsylvania,42,Cameron,023
+CATH2,United States,Pennsylvania,42,Centre,027
+CATH2,United States,Pennsylvania,42,Chester,029
+CATH2,United States,Pennsylvania,42,Clarion,031
+CATH2,United States,Pennsylvania,42,Clearfield,033
+CATH2,United States,Pennsylvania,42,Clinton,035
+CATH2,United States,Pennsylvania,42,Crawford,039
+CATH2,United States,Pennsylvania,42,Dauphin,043
+CATH2,United States,Pennsylvania,42,Delaware,045
+CATH2,United States,Pennsylvania,42,Elk,047
+CATH2,United States,Pennsylvania,42,Erie,049
+CATH2,United States,Pennsylvania,42,Fayette,051
+CATH2,United States,Pennsylvania,42,Forest,053
+CATH2,United States,Pennsylvania,42,Franklin,055
+CATH2,United States,Pennsylvania,42,Fulton,057
+CATH2,United States,Pennsylvania,42,Greene,059
+CATH2,United States,Pennsylvania,42,Huntingdon,061
+CATH2,United States,Pennsylvania,42,Indiana,063
+CATH2,United States,Pennsylvania,42,Jefferson,065
+CATH2,United States,Pennsylvania,42,Juniata,067
+CATH2,United States,Pennsylvania,42,Lackawanna,069
+CATH2,United States,Pennsylvania,42,Lancaster,071
+CATH2,United States,Pennsylvania,42,Lawrence,073
+CATH2,United States,Pennsylvania,42,Lebanon,075
+CATH2,United States,Pennsylvania,42,Lehigh,077
+CATH2,United States,Pennsylvania,42,Luzerne,079
+CATH2,United States,Pennsylvania,42,Lycoming,081
+CATH2,United States,Pennsylvania,42,McKean,083
+CATH2,United States,Pennsylvania,42,Mercer,085
+CATH2,United States,Pennsylvania,42,Monroe,089
+CATH2,United States,Pennsylvania,42,Montgomery,091
+CATH2,United States,Pennsylvania,42,Northampton,095
+CATH2,United States,Pennsylvania,42,Perry,099
+CATH2,United States,Pennsylvania,42,Philadelphia,101
+CATH2,United States,Pennsylvania,42,Pike,103
+CATH2,United States,Pennsylvania,42,Potter,105
+CATH2,United States,Pennsylvania,42,Somerset,111
+CATH2,United States,Pennsylvania,42,Sullivan,113
+CATH2,United States,Pennsylvania,42,Susquehanna,115
+CATH2,United States,Pennsylvania,42,Tioga,117
+CATH2,United States,Pennsylvania,42,Venango,121
+CATH2,United States,Pennsylvania,42,Warren,123
+CATH2,United States,Pennsylvania,42,Washington,125
+CATH2,United States,Pennsylvania,42,Wayne,127
+CATH2,United States,Pennsylvania,42,Westmoreland,129
+CATH2,United States,Pennsylvania,42,Wyoming,131
+CATH2,United States,Pennsylvania,42,York,133
+CATH2,United States,Rhode Island,44,,
+CATH2,United States,South Carolina,45,,
+CATH2,United States,South Carolina,45,Lancaster,057
+CATH2,United States,South Dakota,46,,
+CATH2,United States,South Dakota,46,Lincoln,083
+CATH2,United States,South Dakota,46,Marshall,091
+CATH2,United States,South Dakota,46,Roberts,109
+CATH2,United States,Tennessee,47,,
+CATH2,United States,Tennessee,47,Anderson,001
+CATH2,United States,Tennessee,47,Bledsoe,007
+CATH2,United States,Tennessee,47,Campbell,013
+CATH2,United States,Tennessee,47,Cannon,015
+CATH2,United States,Tennessee,47,Carter,019
+CATH2,United States,Tennessee,47,Cheatham,021
+CATH2,United States,Tennessee,47,Claiborne,025
+CATH2,United States,Tennessee,47,Clay,027
+CATH2,United States,Tennessee,47,Cocke,029
+CATH2,United States,Tennessee,47,Coffee,031
+CATH2,United States,Tennessee,47,Cumberland,035
+CATH2,United States,Tennessee,47,Davidson,037
+CATH2,United States,Tennessee,47,DeKalb,041
+CATH2,United States,Tennessee,47,Fentress,049
+CATH2,United States,Tennessee,47,Franklin,051
+CATH2,United States,Tennessee,47,Giles,055
+CATH2,United States,Tennessee,47,Grainger,057
+CATH2,United States,Tennessee,47,Greene,059
+CATH2,United States,Tennessee,47,Grundy,061
+CATH2,United States,Tennessee,47,Hancock,067
+CATH2,United States,Tennessee,47,Hawkins,073
+CATH2,United States,Tennessee,47,Knox,093
+CATH2,United States,Tennessee,47,Lewis,101
+CATH2,United States,Tennessee,47,Lincoln,103
+CATH2,United States,Tennessee,47,Marion,115
+CATH2,United States,Tennessee,47,Maury,119
+CATH2,United States,Tennessee,47,Monroe,123
+CATH2,United States,Tennessee,47,Montgomery,125
+CATH2,United States,Tennessee,47,Morgan,129
+CATH2,United States,Tennessee,47,Overton,133
+CATH2,United States,Tennessee,47,Polk,139
+CATH2,United States,Tennessee,47,Putnam,141
+CATH2,United States,Tennessee,47,Roane,145
+CATH2,United States,Tennessee,47,Robertson,147
+CATH2,United States,Tennessee,47,Scott,151
+CATH2,United States,Tennessee,47,Sevier,155
+CATH2,United States,Tennessee,47,Stewart,161
+CATH2,United States,Tennessee,47,Sullivan,163
+CATH2,United States,Tennessee,47,Sumner,165
+CATH2,United States,Tennessee,47,Unicoi,171
+CATH2,United States,Tennessee,47,Van Buren,175
+CATH2,United States,Tennessee,47,White,185
+CATH2,United States,Tennessee,47,Williamson,187
+CATH2,United States,Vermont,50,,
+CATH2,United States,Vermont,50,Addison,001
+CATH2,United States,Vermont,50,Bennington,003
+CATH2,United States,Vermont,50,Caledonia,005
+CATH2,United States,Vermont,50,Chittenden,007
+CATH2,United States,Vermont,50,Essex,009
+CATH2,United States,Vermont,50,Lamoille,015
+CATH2,United States,Vermont,50,Orange,017
+CATH2,United States,Vermont,50,Orleans,019
+CATH2,United States,Vermont,50,Rutland,021
+CATH2,United States,Vermont,50,Washington,023
+CATH2,United States,Vermont,50,Windham,025
+CATH2,United States,Vermont,50,Windsor,027
+CATH2,United States,Virginia,51,,
+CATH2,United States,Virginia,51,Albemarle,003
+CATH2,United States,Virginia,51,Alleghany,005
+CATH2,United States,Virginia,51,Amherst,009
+CATH2,United States,Virginia,51,Appomattox,011
+CATH2,United States,Virginia,51,Augusta,015
+CATH2,United States,Virginia,51,Bath,017
+CATH2,United States,Virginia,51,Bedford,019
+CATH2,United States,Virginia,51,Bland,021
+CATH2,United States,Virginia,51,Botetourt,023
+CATH2,United States,Virginia,51,Buchanan,027
+CATH2,United States,Virginia,51,Buckingham,029
+CATH2,United States,Virginia,51,Campbell,031
+CATH2,United States,Virginia,51,Caroline,033
+CATH2,United States,Virginia,51,Carroll,035
+CATH2,United States,Virginia,51,Clarke,043
+CATH2,United States,Virginia,51,Culpeper,047
+CATH2,United States,Virginia,51,Dickenson,051
+CATH2,United States,Virginia,51,Fairfax,059
+CATH2,United States,Virginia,51,Floyd,063
+CATH2,United States,Virginia,51,Fluvanna,065
+CATH2,United States,Virginia,51,Franklin,067
+CATH2,United States,Virginia,51,Frederick,069
+CATH2,United States,Virginia,51,Giles,071
+CATH2,United States,Virginia,51,Goochland,075
+CATH2,United States,Virginia,51,Grayson,077
+CATH2,United States,Virginia,51,Greene,079
+CATH2,United States,Virginia,51,Halifax,083
+CATH2,United States,Virginia,51,Henry,089
+CATH2,United States,Virginia,51,Highland,091
+CATH2,United States,Virginia,51,Lee,105
+CATH2,United States,Virginia,51,Loudoun,107
+CATH2,United States,Virginia,51,Madison,113
+CATH2,United States,Virginia,51,Montgomery,121
+CATH2,United States,Virginia,51,Nelson,125
+CATH2,United States,Virginia,51,Page,139
+CATH2,United States,Virginia,51,Patrick,141
+CATH2,United States,Virginia,51,Pittsylvania,143
+CATH2,United States,Virginia,51,Pulaski,155
+CATH2,United States,Virginia,51,Rappahannock,157
+CATH2,United States,Virginia,51,Rockbridge,163
+CATH2,United States,Virginia,51,Rockingham,165
+CATH2,United States,Virginia,51,Russell,167
+CATH2,United States,Virginia,51,Scott,169
+CATH2,United States,Virginia,51,Shenandoah,171
+CATH2,United States,Virginia,51,Smyth,173
+CATH2,United States,Virginia,51,Spotsylvania,177
+CATH2,United States,Virginia,51,Tazewell,185
+CATH2,United States,Virginia,51,Warren,187
+CATH2,United States,Virginia,51,Washington,191
+CATH2,United States,Virginia,51,Westmoreland,193
+CATH2,United States,Virginia,51,Wise,195
+CATH2,United States,Virginia,51,Wythe,197
+CATH2,United States,West Virginia,54,,
+CATH2,United States,West Virginia,54,Barbour,001
+CATH2,United States,West Virginia,54,Boone,005
+CATH2,United States,West Virginia,54,Braxton,007
+CATH2,United States,West Virginia,54,Brooke,009
+CATH2,United States,West Virginia,54,Calhoun,013
+CATH2,United States,West Virginia,54,Fayette,019
+CATH2,United States,West Virginia,54,Gilmer,021
+CATH2,United States,West Virginia,54,Grant,023
+CATH2,United States,West Virginia,54,Greenbrier,025
+CATH2,United States,West Virginia,54,Hampshire,027
+CATH2,United States,West Virginia,54,Hancock,029
+CATH2,United States,West Virginia,54,Hardy,031
+CATH2,United States,West Virginia,54,Harrison,033
+CATH2,United States,West Virginia,54,Jefferson,037
+CATH2,United States,West Virginia,54,Kanawha,039
+CATH2,United States,West Virginia,54,Lewis,041
+CATH2,United States,West Virginia,54,Lincoln,043
+CATH2,United States,West Virginia,54,Logan,045
+CATH2,United States,West Virginia,54,Marion,049
+CATH2,United States,West Virginia,54,Marshall,051
+CATH2,United States,West Virginia,54,McDowell,047
+CATH2,United States,West Virginia,54,Mercer,055
+CATH2,United States,West Virginia,54,Mingo,059
+CATH2,United States,West Virginia,54,Monongalia,061
+CATH2,United States,West Virginia,54,Nicholas,067
+CATH2,United States,West Virginia,54,Ohio,069
+CATH2,United States,West Virginia,54,Pendleton,071
+CATH2,United States,West Virginia,54,Pleasants,073
+CATH2,United States,West Virginia,54,Pocahontas,075
+CATH2,United States,West Virginia,54,Preston,077
+CATH2,United States,West Virginia,54,Raleigh,081
+CATH2,United States,West Virginia,54,Randolph,083
+CATH2,United States,West Virginia,54,Ritchie,085
+CATH2,United States,West Virginia,54,Summers,089
+CATH2,United States,West Virginia,54,Taylor,091
+CATH2,United States,West Virginia,54,Tyler,095
+CATH2,United States,West Virginia,54,Upshur,097
+CATH2,United States,West Virginia,54,Wayne,099
+CATH2,United States,West Virginia,54,Wetzel,103
+CATH2,United States,West Virginia,54,Wirt,105
+CATH2,United States,West Virginia,54,Wyoming,109
+CATH2,United States,Wisconsin,55,,
+CATH2,United States,Wisconsin,55,Adams,001
+CATH2,United States,Wisconsin,55,Ashland,003
+CATH2,United States,Wisconsin,55,Barron,005
+CATH2,United States,Wisconsin,55,Bayfield,007
+CATH2,United States,Wisconsin,55,Brown,009
+CATH2,United States,Wisconsin,55,Burnett,013
+CATH2,United States,Wisconsin,55,Calumet,015
+CATH2,United States,Wisconsin,55,Chippewa,017
+CATH2,United States,Wisconsin,55,Clark,019
+CATH2,United States,Wisconsin,55,Columbia,021
+CATH2,United States,Wisconsin,55,Crawford,023
+CATH2,United States,Wisconsin,55,Dane,025
+CATH2,United States,Wisconsin,55,Dodge,027
+CATH2,United States,Wisconsin,55,Door,029
+CATH2,United States,Wisconsin,55,Douglas,031
+CATH2,United States,Wisconsin,55,Dunn,033
+CATH2,United States,Wisconsin,55,Eau Claire,035
+CATH2,United States,Wisconsin,55,Florence,037
+CATH2,United States,Wisconsin,55,Fond du Lac,039
+CATH2,United States,Wisconsin,55,Forest,041
+CATH2,United States,Wisconsin,55,Grant,043
+CATH2,United States,Wisconsin,55,Green,045
+CATH2,United States,Wisconsin,55,Iowa,049
+CATH2,United States,Wisconsin,55,Iron,051
+CATH2,United States,Wisconsin,55,Jackson,053
+CATH2,United States,Wisconsin,55,Jefferson,055
+CATH2,United States,Wisconsin,55,Kenosha,059
+CATH2,United States,Wisconsin,55,Kewaunee,061
+CATH2,United States,Wisconsin,55,La Crosse,063
+CATH2,United States,Wisconsin,55,Lafayette,065
+CATH2,United States,Wisconsin,55,Langlade,067
+CATH2,United States,Wisconsin,55,Lincoln,069
+CATH2,United States,Wisconsin,55,Manitowoc,071
+CATH2,United States,Wisconsin,55,Marathon,073
+CATH2,United States,Wisconsin,55,Marinette,075
+CATH2,United States,Wisconsin,55,Menominee,078
+CATH2,United States,Wisconsin,55,Milwaukee,079
+CATH2,United States,Wisconsin,55,Monroe,081
+CATH2,United States,Wisconsin,55,Oconto,083
+CATH2,United States,Wisconsin,55,Oneida,085
+CATH2,United States,Wisconsin,55,Outagamie,087
+CATH2,United States,Wisconsin,55,Ozaukee,089
+CATH2,United States,Wisconsin,55,Pepin,091
+CATH2,United States,Wisconsin,55,Pierce,093
+CATH2,United States,Wisconsin,55,Polk,095
+CATH2,United States,Wisconsin,55,Portage,097
+CATH2,United States,Wisconsin,55,Price,099
+CATH2,United States,Wisconsin,55,Racine,101
+CATH2,United States,Wisconsin,55,Richland,103
+CATH2,United States,Wisconsin,55,Rock,105
+CATH2,United States,Wisconsin,55,Rusk,107
+CATH2,United States,Wisconsin,55,Sauk,111
+CATH2,United States,Wisconsin,55,Sawyer,113
+CATH2,United States,Wisconsin,55,Shawano,115
+CATH2,United States,Wisconsin,55,Sheboygan,117
+CATH2,United States,Wisconsin,55,St. Croix,109
+CATH2,United States,Wisconsin,55,Taylor,119
+CATH2,United States,Wisconsin,55,Trempealeau,121
+CATH2,United States,Wisconsin,55,Vernon,123
+CATH2,United States,Wisconsin,55,Vilas,125
+CATH2,United States,Wisconsin,55,Walworth,127
+CATH2,United States,Wisconsin,55,Washburn,129
+CATH2,United States,Wisconsin,55,Washington,131
+CATH2,United States,Wisconsin,55,Waukesha,133
+CATH2,United States,Wisconsin,55,Waupaca,135
+CATH2,United States,Wisconsin,55,Winnebago,139
+CATH2,United States,Wisconsin,55,Wood,141

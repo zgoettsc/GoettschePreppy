@@ -1,0 +1,123 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+ARME4,United States,Alabama,01,,
+ARME4,United States,Alabama,01,Mobile,097
+ARME4,Canada,Manitoba,03,,
+ARME4,United States,Arkansas,05,,
+ARME4,Canada,Ontario,08,,
+ARME4,United States,Connecticut,09,,
+ARME4,United States,Delaware,10,,
+ARME4,United States,District of Columbia,11,,
+ARME4,United States,District of Columbia,11,District of Columbia,001
+ARME4,United States,Florida,12,,
+ARME4,United States,Florida,12,Alachua,001
+ARME4,United States,Florida,12,Broward,011
+ARME4,United States,Florida,12,Citrus,017
+ARME4,United States,Florida,12,Collier,021
+ARME4,United States,Florida,12,Columbia,023
+ARME4,United States,Florida,12,DeSoto,027
+ARME4,United States,Florida,12,Escambia,033
+ARME4,United States,Florida,12,Franklin,037
+ARME4,United States,Florida,12,Gilchrist,041
+ARME4,United States,Florida,12,Glades,043
+ARME4,United States,Florida,12,Hendry,051
+ARME4,United States,Florida,12,Hernando,053
+ARME4,United States,Florida,12,Lake,069
+ARME4,United States,Florida,12,Lee,071
+ARME4,United States,Florida,12,Leon,073
+ARME4,United States,Florida,12,Marion,083
+ARME4,United States,Florida,12,Miami-Dade,086
+ARME4,United States,Florida,12,Monroe,087
+ARME4,United States,Florida,12,Orange,095
+ARME4,United States,Florida,12,Palm Beach,099
+ARME4,United States,Florida,12,Pasco,101
+ARME4,United States,Florida,12,Pinellas,103
+ARME4,United States,Florida,12,Polk,105
+ARME4,United States,Florida,12,Putnam,107
+ARME4,United States,Florida,12,Sumter,119
+ARME4,United States,Florida,12,Volusia,127
+ARME4,United States,Georgia,13,,
+ARME4,United States,Georgia,13,Chatham,051
+ARME4,United States,Hawaii,15,,
+ARME4,United States,Hawaii,15,Honolulu,003
+ARME4,United States,Hawaii,15,Kauai,007
+ARME4,United States,Hawaii,15,Maui,009
+ARME4,United States,Illinois,17,,
+ARME4,United States,Illinois,17,Henderson,071
+ARME4,United States,Illinois,17,Macon,115
+ARME4,United States,Illinois,17,Menard,129
+ARME4,United States,Illinois,17,Stephenson,177
+ARME4,United States,Indiana,18,,
+ARME4,United States,Iowa,19,,
+ARME4,United States,Kansas,20,,
+ARME4,United States,Louisiana,22,,
+ARME4,United States,Louisiana,22,Ascension,005
+ARME4,United States,Louisiana,22,Natchitoches,069
+ARME4,United States,Louisiana,22,Orleans,071
+ARME4,United States,Louisiana,22,Pointe Coupee,077
+ARME4,United States,Louisiana,22,Union,111
+ARME4,United States,Louisiana,22,West Baton Rouge,121
+ARME4,United States,Maryland,24,,
+ARME4,United States,Massachusetts,25,,
+ARME4,United States,Massachusetts,25,Franklin,011
+ARME4,United States,Massachusetts,25,Hampshire,015
+ARME4,United States,Massachusetts,25,Middlesex,017
+ARME4,United States,Massachusetts,25,Nantucket,019
+ARME4,United States,Massachusetts,25,Plymouth,023
+ARME4,United States,Massachusetts,25,Worcester,027
+ARME4,United States,Michigan,26,,
+ARME4,United States,Michigan,26,Kent,081
+ARME4,United States,Michigan,26,Wayne,163
+ARME4,United States,Mississippi,28,,
+ARME4,United States,Missouri,29,,
+ARME4,United States,Missouri,29,Franklin,071
+ARME4,United States,Missouri,29,St. Louis,189
+ARME4,United States,Missouri,29,Wayne,223
+ARME4,United States,Nebraska,31,,
+ARME4,United States,New Jersey,34,,
+ARME4,United States,New Jersey,34,Burlington,005
+ARME4,United States,New Jersey,34,Camden,007
+ARME4,United States,New Jersey,34,Cape May,009
+ARME4,United States,New Jersey,34,Mercer,021
+ARME4,United States,New Jersey,34,Monmouth,025
+ARME4,United States,New Jersey,34,Ocean,029
+ARME4,United States,New York,36,,
+ARME4,United States,New York,36,Kings,047
+ARME4,United States,New York,36,Monroe,055
+ARME4,United States,New York,36,Queens,081
+ARME4,United States,New York,36,Richmond,085
+ARME4,United States,North Carolina,37,,
+ARME4,United States,North Carolina,37,New Hanover,129
+ARME4,United States,Ohio,39,,
+ARME4,United States,Ohio,39,Cuyahoga,035
+ARME4,United States,Ohio,39,Franklin,049
+ARME4,United States,Ohio,39,Lucas,095
+ARME4,United States,Ohio,39,Muskingum,119
+ARME4,United States,Ohio,39,Washington,167
+ARME4,United States,Pennsylvania,42,,
+ARME4,United States,Pennsylvania,42,Bucks,017
+ARME4,United States,Pennsylvania,42,Lancaster,071
+ARME4,United States,Pennsylvania,42,Northampton,095
+ARME4,United States,Pennsylvania,42,Philadelphia,101
+ARME4,United States,Pennsylvania,42,Sullivan,113
+ARME4,United States,South Carolina,45,,
+ARME4,United States,South Carolina,45,Barnwell,011
+ARME4,United States,South Carolina,45,Beaufort,013
+ARME4,United States,South Carolina,45,Charleston,019
+ARME4,United States,South Carolina,45,Georgetown,043
+ARME4,United States,South Carolina,45,Richland,079
+ARME4,United States,Tennessee,47,,
+ARME4,United States,Texas,48,,
+ARME4,United States,Texas,48,Brazoria,039
+ARME4,United States,Texas,48,Cameron,061
+ARME4,United States,Texas,48,Hidalgo,215
+ARME4,United States,Texas,48,Kinney,271
+ARME4,United States,Texas,48,Live Oak,297
+ARME4,United States,Texas,48,Real,385
+ARME4,United States,Texas,48,San Patricio,409
+ARME4,United States,Texas,48,Travis,453
+ARME4,United States,Texas,48,Uvalde,463
+ARME4,United States,Vermont,50,,
+ARME4,United States,Virginia,51,,
+ARME4,United States,Puerto Rico,72,,
+ARME4,United States,Virgin Islands,78,,

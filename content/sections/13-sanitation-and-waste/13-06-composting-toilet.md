@@ -51,7 +51,7 @@ for it.
 2. **Stockpile cover material:** sawdust from firewood cutting (→ 06-04), wood shavings,
    shredded leaves, peat moss. **You need a lot, and indoors in winter** (→ 13-05).
 3. **Choose the composting spot now, if you will have one:** well away from water, the edible
-   garden, the neighbours, and anywhere children go (→ 13-07).
+   garden, the neighbors, and anywhere children go (→ 13-07).
 4. **Decide honestly whether you have the land, the time and the discipline.** On a small town
    lot the answer may be no, and bagging and storing (→ 13-01) is a legitimate answer.
 
@@ -164,7 +164,7 @@ with real distances to water, a two-bin system is workable; still pour-flush whi
 | **Cover material in bulk** | Smell, flies, and the pile's carbon | Sawdust from firewood is free (→ 06-04) |
 | **Urine container** | Cuts the problem by half or more | The best single improvement |
 | Compost bin materials (pallets, hardware cloth, lid) | Closed, rodent-proof, child-proof | If you build one |
-| **A fork or shovel kept only for this, labelled** | Never touches anything else | Not negotiable |
+| **A fork or shovel kept only for this, labeled** | Never touches anything else | Not negotiable |
 | Rubber gloves and rubber boots | CDC-recommended protection | Kept for this job |
 | Long-stem compost thermometer | Shows what the pile is doing | Cheap; still not proof of safety |
 | Straw, leaves, other carbon in bulk | The pile needs a lot | Free from the yard |

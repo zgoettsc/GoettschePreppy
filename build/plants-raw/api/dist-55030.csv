@@ -1,0 +1,201 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+DAWR2,United States,Alabama,01,,
+DAWR2,United States,Alabama,01,Autauga,001
+DAWR2,United States,Arizona,04,,
+DAWR2,United States,Arizona,04,Apache,001
+DAWR2,United States,Arizona,04,Cochise,003
+DAWR2,United States,Arizona,04,Coconino,005
+DAWR2,United States,Arizona,04,Gila,007
+DAWR2,United States,Arizona,04,Graham,009
+DAWR2,United States,Arizona,04,Greenlee,011
+DAWR2,United States,Arizona,04,La Paz,012
+DAWR2,United States,Arizona,04,Maricopa,013
+DAWR2,United States,Arizona,04,Mohave,015
+DAWR2,United States,Arizona,04,Navajo,017
+DAWR2,United States,Arizona,04,Pima,019
+DAWR2,United States,Arizona,04,Pinal,021
+DAWR2,United States,Arizona,04,Santa Cruz,023
+DAWR2,United States,Arizona,04,Yavapai,025
+DAWR2,United States,Arizona,04,Yuma,027
+DAWR2,United States,Arkansas,05,,
+DAWR2,United States,Arkansas,05,Mississippi,093
+DAWR2,United States,Arkansas,05,Polk,113
+DAWR2,United States,Arkansas,05,Pulaski,119
+DAWR2,United States,California,06,,
+DAWR2,United States,California,06,Alameda,001
+DAWR2,United States,California,06,Butte,007
+DAWR2,United States,California,06,Calaveras,009
+DAWR2,United States,California,06,Contra Costa,013
+DAWR2,United States,California,06,Del Norte,015
+DAWR2,United States,California,06,Fresno,019
+DAWR2,United States,California,06,Humboldt,023
+DAWR2,United States,California,06,Imperial,025
+DAWR2,United States,California,06,Inyo,027
+DAWR2,United States,California,06,Kern,029
+DAWR2,United States,California,06,Lake,033
+DAWR2,United States,California,06,Los Angeles,037
+DAWR2,United States,California,06,Madera,039
+DAWR2,United States,California,06,Marin,041
+DAWR2,United States,California,06,Mariposa,043
+DAWR2,United States,California,06,Mendocino,045
+DAWR2,United States,California,06,Merced,047
+DAWR2,United States,California,06,Monterey,053
+DAWR2,United States,California,06,Napa,055
+DAWR2,United States,California,06,Orange,059
+DAWR2,United States,California,06,Riverside,065
+DAWR2,United States,California,06,San Benito,069
+DAWR2,United States,California,06,San Bernardino,071
+DAWR2,United States,California,06,San Diego,073
+DAWR2,United States,California,06,San Francisco,075
+DAWR2,United States,California,06,San Joaquin,077
+DAWR2,United States,California,06,San Luis Obispo,079
+DAWR2,United States,California,06,San Mateo,081
+DAWR2,United States,California,06,Santa Barbara,083
+DAWR2,United States,California,06,Santa Clara,085
+DAWR2,United States,California,06,Santa Cruz,087
+DAWR2,United States,California,06,Siskiyou,093
+DAWR2,United States,California,06,Solano,095
+DAWR2,United States,California,06,Sonoma,097
+DAWR2,United States,California,06,Stanislaus,099
+DAWR2,United States,California,06,Trinity,105
+DAWR2,United States,California,06,Tulare,107
+DAWR2,United States,California,06,Tuolumne,109
+DAWR2,United States,California,06,Ventura,111
+DAWR2,United States,California,06,Yolo,113
+DAWR2,United States,Colorado,08,,
+DAWR2,United States,Colorado,08,Mesa,077
+DAWR2,United States,Colorado,08,Montezuma,083
+DAWR2,United States,Connecticut,09,,
+DAWR2,United States,Florida,12,,
+DAWR2,United States,Florida,12,Alachua,001
+DAWR2,United States,Florida,12,Franklin,037
+DAWR2,United States,Florida,12,Pinellas,103
+DAWR2,United States,Idaho,16,,
+DAWR2,United States,Illinois,17,,
+DAWR2,United States,Illinois,17,Cass,017
+DAWR2,United States,Illinois,17,Cook,031
+DAWR2,United States,Illinois,17,Fulton,057
+DAWR2,United States,Illinois,17,Jackson,077
+DAWR2,United States,Illinois,17,Lawrence,101
+DAWR2,United States,Illinois,17,Sangamon,167
+DAWR2,United States,Illinois,17,Scott,171
+DAWR2,United States,Illinois,17,Shelby,173
+DAWR2,United States,Illinois,17,Vermilion,183
+DAWR2,United States,Illinois,17,Wabash,185
+DAWR2,United States,Indiana,18,,
+DAWR2,United States,Iowa,19,,
+DAWR2,United States,Kansas,20,,
+DAWR2,United States,Kentucky,21,,
+DAWR2,United States,Kentucky,21,Fayette,067
+DAWR2,United States,Maine,23,,
+DAWR2,United States,Maryland,24,,
+DAWR2,United States,Massachusetts,25,,
+DAWR2,United States,Massachusetts,25,Essex,009
+DAWR2,United States,Massachusetts,25,Franklin,011
+DAWR2,United States,Massachusetts,25,Hampshire,015
+DAWR2,United States,Massachusetts,25,Middlesex,017
+DAWR2,United States,Michigan,26,,
+DAWR2,United States,Michigan,26,Berrien,021
+DAWR2,United States,Michigan,26,Lenawee,091
+DAWR2,United States,Michigan,26,Oakland,125
+DAWR2,United States,Michigan,26,Washtenaw,161
+DAWR2,United States,Minnesota,27,,
+DAWR2,United States,Minnesota,27,Anoka,003
+DAWR2,United States,Minnesota,27,Winona,169
+DAWR2,United States,Missouri,29,,
+DAWR2,United States,Missouri,29,Barton,011
+DAWR2,United States,Missouri,29,Boone,019
+DAWR2,United States,Missouri,29,Greene,077
+DAWR2,United States,Missouri,29,Jackson,095
+DAWR2,United States,Missouri,29,Jasper,097
+DAWR2,United States,Missouri,29,Lawrence,109
+DAWR2,United States,Missouri,29,Phelps,161
+DAWR2,United States,Missouri,29,Scott,201
+DAWR2,United States,Missouri,29,St. Louis,189
+DAWR2,United States,Missouri,29,Vernon,217
+DAWR2,United States,Nebraska,31,,
+DAWR2,United States,Nevada,32,,
+DAWR2,United States,New Hampshire,33,,
+DAWR2,United States,New Hampshire,33,Strafford,017
+DAWR2,United States,New Jersey,34,,
+DAWR2,United States,New Jersey,34,Hunterdon,019
+DAWR2,United States,New Mexico,35,,
+DAWR2,United States,New Mexico,35,Chaves,005
+DAWR2,United States,New Mexico,35,Grant,017
+DAWR2,United States,New Mexico,35,Lincoln,027
+DAWR2,United States,New Mexico,35,Los Alamos,028
+DAWR2,United States,New Mexico,35,McKinley,031
+DAWR2,United States,New Mexico,35,Roosevelt,041
+DAWR2,United States,New Mexico,35,San Juan,045
+DAWR2,United States,New Mexico,35,San Miguel,047
+DAWR2,United States,New Mexico,35,Sandoval,043
+DAWR2,United States,New Mexico,35,Socorro,053
+DAWR2,United States,New York,36,,
+DAWR2,United States,New York,36,Kings,047
+DAWR2,United States,New York,36,Saratoga,091
+DAWR2,United States,North Carolina,37,,
+DAWR2,United States,North Carolina,37,Orange,135
+DAWR2,United States,Ohio,39,,
+DAWR2,United States,Ohio,39,Cuyahoga,035
+DAWR2,United States,Ohio,39,Franklin,049
+DAWR2,United States,Ohio,39,Hamilton,061
+DAWR2,United States,Ohio,39,Henry,069
+DAWR2,United States,Ohio,39,Lake,085
+DAWR2,United States,Ohio,39,Ottawa,123
+DAWR2,United States,Oklahoma,40,,
+DAWR2,United States,Oklahoma,40,Blaine,011
+DAWR2,United States,Oklahoma,40,Cleveland,027
+DAWR2,United States,Oregon,41,,
+DAWR2,United States,Oregon,41,Gilliam,021
+DAWR2,United States,Pennsylvania,42,,
+DAWR2,United States,Pennsylvania,42,Allegheny,003
+DAWR2,United States,Pennsylvania,42,Bucks,017
+DAWR2,United States,Pennsylvania,42,Lehigh,077
+DAWR2,United States,Pennsylvania,42,Montgomery,091
+DAWR2,United States,Pennsylvania,42,Northampton,095
+DAWR2,United States,Pennsylvania,42,Philadelphia,101
+DAWR2,United States,Pennsylvania,42,Snyder,109
+DAWR2,United States,Pennsylvania,42,York,133
+DAWR2,United States,Rhode Island,44,,
+DAWR2,United States,Rhode Island,44,Providence,007
+DAWR2,United States,South Carolina,45,,
+DAWR2,United States,South Carolina,45,Richland,079
+DAWR2,United States,Texas,48,,
+DAWR2,United States,Texas,48,Bailey,017
+DAWR2,United States,Texas,48,Bandera,019
+DAWR2,United States,Texas,48,Blanco,031
+DAWR2,United States,Texas,48,Brazos,041
+DAWR2,United States,Texas,48,Brewster,043
+DAWR2,United States,Texas,48,Burnet,053
+DAWR2,United States,Texas,48,Crockett,105
+DAWR2,United States,Texas,48,Kimble,267
+DAWR2,United States,Texas,48,Mason,319
+DAWR2,United States,Texas,48,McLennan,309
+DAWR2,United States,Texas,48,Motley,345
+DAWR2,United States,Texas,48,Robertson,395
+DAWR2,United States,Texas,48,Travis,453
+DAWR2,United States,Texas,48,Ward,475
+DAWR2,United States,Texas,48,Zapata,505
+DAWR2,United States,Utah,49,,
+DAWR2,United States,Utah,49,Garfield,017
+DAWR2,United States,Utah,49,Grand,019
+DAWR2,United States,Utah,49,Kane,025
+DAWR2,United States,Utah,49,Salt Lake,035
+DAWR2,United States,Utah,49,San Juan,037
+DAWR2,United States,Utah,49,Washington,053
+DAWR2,United States,Utah,49,Wayne,055
+DAWR2,United States,Virginia,51,,
+DAWR2,United States,Virginia,51,Henrico,087
+DAWR2,United States,Virginia,51,Prince William,153
+DAWR2,United States,Virginia,51,"Virginia Beach ",810
+DAWR2,United States,Washington,53,,
+DAWR2,United States,Washington,53,King,033
+DAWR2,United States,Washington,53,Klickitat,039
+DAWR2,United States,West Virginia,54,,
+DAWR2,United States,Wisconsin,55,,
+DAWR2,United States,Wisconsin,55,Brown,009
+DAWR2,United States,Wisconsin,55,Monroe,081
+DAWR2,United States,Wisconsin,55,Racine,101
+DAWR2,United States,Puerto Rico,72,,
+DAWR2,United States,Virgin Islands,78,,

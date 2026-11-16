@@ -1,0 +1,90 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+ABCO,United States,Arizona,04,,
+ABCO,United States,Arizona,04,Apache,001
+ABCO,United States,Arizona,04,Cochise,003
+ABCO,United States,Arizona,04,Coconino,005
+ABCO,United States,Arizona,04,Gila,007
+ABCO,United States,Arizona,04,Graham,009
+ABCO,United States,Arizona,04,Mohave,015
+ABCO,United States,Arizona,04,Pima,019
+ABCO,United States,Arizona,04,Pinal,021
+ABCO,United States,Arizona,04,Yavapai,025
+ABCO,United States,Colorado,08,,
+ABCO,United States,Colorado,08,Alamosa,003
+ABCO,United States,Colorado,08,Archuleta,007
+ABCO,United States,Colorado,08,Conejos,021
+ABCO,United States,Colorado,08,Costilla,023
+ABCO,United States,Colorado,08,Custer,027
+ABCO,United States,Colorado,08,El Paso,041
+ABCO,United States,Colorado,08,Huerfano,055
+ABCO,United States,Colorado,08,La Plata,067
+ABCO,United States,Colorado,08,Montezuma,083
+ABCO,United States,Colorado,08,Ouray,091
+ABCO,United States,Colorado,08,Rio Grande,105
+ABCO,United States,Colorado,08,San Juan,111
+ABCO,United States,Colorado,08,Teller,119
+ABCO,United States,Idaho,16,,
+ABCO,United States,Idaho,16,Cassia,031
+ABCO,United States,Idaho,16,Idaho,049
+ABCO,United States,Idaho,16,Latah,057
+ABCO,United States,Idaho,16,Valley,085
+ABCO,United States,Idaho,16,Washington,087
+ABCO,United States,Maine,23,,
+ABCO,United States,Massachusetts,25,,
+ABCO,United States,Massachusetts,25,Hampden,013
+ABCO,United States,Nevada,32,,
+ABCO,United States,Nevada,32,Clark,003
+ABCO,United States,Nevada,32,Elko,007
+ABCO,United States,Nevada,32,Lincoln,017
+ABCO,United States,Nevada,32,Nye,023
+ABCO,United States,Nevada,32,White Pine,033
+ABCO,United States,New Mexico,35,,
+ABCO,United States,New Mexico,35,Catron,003
+ABCO,United States,New Mexico,35,Cibola,006
+ABCO,United States,New Mexico,35,Colfax,007
+ABCO,United States,New Mexico,35,Dona Ana,013
+ABCO,United States,New Mexico,35,Grant,017
+ABCO,United States,New Mexico,35,Lincoln,027
+ABCO,United States,New Mexico,35,Los Alamos,028
+ABCO,United States,New Mexico,35,Mora,033
+ABCO,United States,New Mexico,35,Otero,035
+ABCO,United States,New Mexico,35,Rio Arriba,039
+ABCO,United States,New Mexico,35,San Juan,045
+ABCO,United States,New Mexico,35,San Miguel,047
+ABCO,United States,New Mexico,35,Sandoval,043
+ABCO,United States,New Mexico,35,Santa Fe,049
+ABCO,United States,New Mexico,35,Sierra,051
+ABCO,United States,New Mexico,35,Socorro,053
+ABCO,United States,New Mexico,35,Taos,055
+ABCO,United States,Oregon,41,,
+ABCO,United States,Utah,49,,
+ABCO,United States,Utah,49,Beaver,001
+ABCO,United States,Utah,49,Box Elder,003
+ABCO,United States,Utah,49,Cache,005
+ABCO,United States,Utah,49,Carbon,007
+ABCO,United States,Utah,49,Davis,011
+ABCO,United States,Utah,49,Duchesne,013
+ABCO,United States,Utah,49,Emery,015
+ABCO,United States,Utah,49,Garfield,017
+ABCO,United States,Utah,49,Grand,019
+ABCO,United States,Utah,49,Iron,021
+ABCO,United States,Utah,49,Juab,023
+ABCO,United States,Utah,49,Kane,025
+ABCO,United States,Utah,49,Millard,027
+ABCO,United States,Utah,49,Morgan,029
+ABCO,United States,Utah,49,Piute,031
+ABCO,United States,Utah,49,Salt Lake,035
+ABCO,United States,Utah,49,San Juan,037
+ABCO,United States,Utah,49,Sanpete,039
+ABCO,United States,Utah,49,Sevier,041
+ABCO,United States,Utah,49,Summit,043
+ABCO,United States,Utah,49,Tooele,045
+ABCO,United States,Utah,49,Uintah,047
+ABCO,United States,Utah,49,Utah,049
+ABCO,United States,Utah,49,Wasatch,051
+ABCO,United States,Utah,49,Washington,053
+ABCO,United States,Utah,49,Wayne,055
+ABCO,United States,Utah,49,Weber,057
+ABCO,United States,Wyoming,56,,
+ABCO,United States,Wyoming,56,Sweetwater,037

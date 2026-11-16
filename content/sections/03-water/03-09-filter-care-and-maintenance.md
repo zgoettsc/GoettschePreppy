@@ -34,8 +34,8 @@ filters most households buy. Specifications by filter class are on → 28-06; wh
 > **SAFETY. A filter fails silently.** A damaged filter looks and works exactly like a good
 > one: water still comes out. **You will not know.**
 >
-> **Freezing is the failure that matters.** Water left inside a used hollow-fibre filter (a
-> bundle of tiny porous tubes) expands when it freezes and splits the fibres. The makers of
+> **Freezing is the failure that matters.** Water left inside a used hollow-fiber filter (a
+> bundle of tiny porous tubes) expands when it freezes and splits the fibers. The makers of
 > these filters warn against it, and **the damage cannot be seen**: the filter still flows,
 > but it no longer filters.{{#if is.cold_winters}} Where you live, a used filter left in a
 > vehicle or an unheated garage overnight is the most likely way to lose your water
@@ -53,7 +53,7 @@ filters most households buy. Specifications by filter class are on → 28-06; wh
    part of the house (→ 08-01).
 3. **Buy the backflush syringe or cleaning tool for your filter now,** and spare elements
    (→ 26-04). A filter without its cleaning tool has a much shorter life.
-4. **Practise the full chain once:** pre-filter → filter → disinfect with chemical or boiling
+4. **Practice the full chain once:** pre-filter → filter → disinfect with chemical or boiling
    → store covered (→ 03-04). Doing it for the first time in an emergency is how steps get
    skipped.
 
@@ -68,7 +68,7 @@ filters most households buy. Specifications by filter class are on → 28-06; wh
 | **Squeeze** | Squeeze a pouch through a filter in the line | Light, fast, fills containers | Pouches split; carry spares |
 | **Gravity** | Hang a bag and let it drip through | **Households.** Volume with no effort | Bulky; slow when cold or clogged |
 | **Pump** | Hand pump through a cartridge | Shallow or awkward sources | Moving parts and seals that break |
-| **Ultrafilter (0.01 micron)** | Hollow fibre with pores small enough for viruses | Removes viruses too, says the CDC | Costs more, slower, needs more pressure |
+| **Ultrafilter (0.01 micron)** | Hollow fiber with pores small enough for viruses | Removes viruses too, says the CDC | Costs more, slower, needs more pressure |
 
 **For a household of {{ household.size }}, a gravity filter is the right main filter**, with a
 squeeze filter to carry and a straw only as a go-bag backup. **Do not build the household
@@ -96,7 +96,7 @@ bacteria and parasites. If you own one, know it. If you do not, **assume you nee
 
 ## Freezing: read this twice
 
-Once a hollow-fibre filter has been used, water stays inside the fibres. **When that water
+Once a hollow-fiber filter has been used, water stays inside the fibers. **When that water
 freezes it expands and splits them.** After that the filter passes water freely, and passes
 everything in the water with it.
 
@@ -155,7 +155,7 @@ Retire it (not "keep an eye on it") if any of these is true:
 - [ ] It was dropped hard, or the housing is cracked or damaged.
 - [ ] Flow does not come back after a proper backflush.
 - [ ] It has passed its rated volume, or you have lost track of the volume.
-- [ ] It was stored wet and smells, or shows mould or growth.
+- [ ] It was stored wet and smells, or shows mold or growth.
 - [ ] Its history is unknown: scavenged, borrowed or found (→ 22-02).
 
 **A retired filter still has a job:** pre-filtering muddy water before boiling. Mark it clearly

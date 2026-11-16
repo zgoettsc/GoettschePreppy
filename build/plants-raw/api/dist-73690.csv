@@ -1,0 +1,86 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+AECY2,United States,Alabama,01,,
+AECY2,United States,Alabama,01,Mobile,097
+AECY2,Canada,New Brunswick,04,,
+AECY2,Canada,Nova Scotia,07,,
+AECY2,Canada,Ontario,08,,
+AECY2,United States,Connecticut,09,,
+AECY2,Canada,Quebec,10,,
+AECY2,United States,Delaware,10,,
+AECY2,United States,Delaware,10,New Castle,003
+AECY2,United States,Idaho,16,,
+AECY2,United States,Idaho,16,Twin Falls,083
+AECY2,United States,Illinois,17,,
+AECY2,United States,Illinois,17,Cook,031
+AECY2,United States,Illinois,17,Kendall,093
+AECY2,United States,Indiana,18,,
+AECY2,United States,Kentucky,21,,
+AECY2,United States,Kentucky,21,Carter,043
+AECY2,United States,Kentucky,21,Fayette,067
+AECY2,United States,Kentucky,21,Hart,099
+AECY2,United States,Kentucky,21,Warren,227
+AECY2,United States,Maine,23,,
+AECY2,United States,Maine,23,Cumberland,005
+AECY2,United States,Massachusetts,25,,
+AECY2,United States,Massachusetts,25,Berkshire,003
+AECY2,United States,Massachusetts,25,Bristol,005
+AECY2,United States,Massachusetts,25,Essex,009
+AECY2,United States,Massachusetts,25,Middlesex,017
+AECY2,United States,Massachusetts,25,Nantucket,019
+AECY2,United States,Massachusetts,25,Norfolk,021
+AECY2,United States,Massachusetts,25,Plymouth,023
+AECY2,United States,Massachusetts,25,Suffolk,025
+AECY2,United States,Massachusetts,25,Worcester,027
+AECY2,United States,Michigan,26,,
+AECY2,United States,Michigan,26,Berrien,021
+AECY2,United States,Michigan,26,Livingston,093
+AECY2,United States,Minnesota,27,,
+AECY2,United States,Minnesota,27,Olmsted,109
+AECY2,United States,Minnesota,27,Wabasha,157
+AECY2,United States,New Jersey,34,,
+AECY2,United States,New Jersey,34,Bergen,003
+AECY2,United States,New Jersey,34,Morris,027
+AECY2,United States,New Jersey,34,Sussex,037
+AECY2,United States,New Jersey,34,Union,039
+AECY2,United States,New York,36,,
+AECY2,United States,New York,36,Albany,001
+AECY2,United States,New York,36,Delaware,025
+AECY2,United States,New York,36,Dutchess,027
+AECY2,United States,New York,36,Erie,029
+AECY2,United States,New York,36,Greene,039
+AECY2,United States,New York,36,Kings,047
+AECY2,United States,New York,36,Nassau,059
+AECY2,United States,New York,36,New York,061
+AECY2,United States,New York,36,Orange,071
+AECY2,United States,New York,36,Putnam,079
+AECY2,United States,New York,36,Queens,081
+AECY2,United States,New York,36,Richmond,085
+AECY2,United States,New York,36,Suffolk,103
+AECY2,United States,New York,36,Ulster,111
+AECY2,United States,New York,36,Westchester,119
+AECY2,United States,Ohio,39,,
+AECY2,United States,Ohio,39,Clark,023
+AECY2,United States,Ohio,39,Darke,037
+AECY2,United States,Ohio,39,Fayette,047
+AECY2,United States,Ohio,39,Lake,085
+AECY2,United States,Ohio,39,Miami,109
+AECY2,United States,Ohio,39,Ottawa,123
+AECY2,United States,Pennsylvania,42,,
+AECY2,United States,Pennsylvania,42,Allegheny,003
+AECY2,United States,Pennsylvania,42,Berks,011
+AECY2,United States,Pennsylvania,42,Bucks,017
+AECY2,United States,Pennsylvania,42,Delaware,045
+AECY2,United States,Pennsylvania,42,Erie,049
+AECY2,United States,Pennsylvania,42,Montgomery,091
+AECY2,United States,Pennsylvania,42,Philadelphia,101
+AECY2,United States,Rhode Island,44,,
+AECY2,United States,Rhode Island,44,Newport,005
+AECY2,United States,Rhode Island,44,Providence,007
+AECY2,United States,West Virginia,54,,
+AECY2,United States,West Virginia,54,Pocahontas,075
+AECY2,United States,Wisconsin,55,,
+AECY2,United States,Wisconsin,55,Dane,025
+AECY2,United States,Wisconsin,55,Sheboygan,117
+AECY2,United States,Wisconsin,55,Walworth,127
+AECY2,United States,Wisconsin,55,Winnebago,139

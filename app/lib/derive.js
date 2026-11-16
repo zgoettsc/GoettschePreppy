@@ -126,7 +126,7 @@ export function stationFridgeDays(profile) {
 export function supplyClocks(profile) {
   const rows = [];
   for (const m of profile.members || []) for (const med of m.medications || [])
-    rows.push({ member: m.label, name: med.name, days_on_hand: null, text: med.name });
+    rows.push({ member: m.label, name: med.name, days_on_hand: typeof med.days_on_hand === 'number' ? med.days_on_hand : null, text: med.name });
   return rows;
 }
 
