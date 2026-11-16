@@ -46,3 +46,10 @@ Collected from worker reports; resolved in the integration pass.
 - [ ] D1: NRI ratings weigh exposure, so big cities rate high for rare hazards (Cook IL earthquake 3). Hazard pages and EX-10 should say the rating is FEMA's risk-to-property index, not likelihood.
 - [ ] D1: Hawaii counties carry a placeholder ecoregion (EPA has no Level III for HI).
 - [ ] D1: is.humid input not supplied yet (C04 flag).
+- [x] L1: nursing calories corrected to DGA +330 (first 6 months; +400 after) in derive.js and context.json. Meds for_condition and member due_date added to profile.
+- [x] L1: derived_from (household page ids, e.g. 02-06-hugh-...) stripped from kit.json at build; provenance stays in the repo only.
+- [ ] L1: facts written from memory to source-trace: 15-15 low-sugar rule, NFPA 5-ft oxygen rule, breast-milk storage times.
+- [ ] L1: owner questions: print FDA/ADA insulin-switching guidance verbatim? (left out as dose arithmetic). Aspirin for suspected heart attack (AHA) placement.
+- [x] C07: heater class pages cite the Buddy MH9BX and Dyna-Glo WK11C8 manuals as "one common model"; accepted (widely sold consumer products, not personal).
+- [x] C07: dwelling.warm_room and heaters[].btu added. Extreme Cold Warning criteria vary by NWS office: left as a blank.
+- [ ] C07: 08-09 states the propane volume only in words; add 170 cu ft / 2.1 % with a source key (NFPA 58 / propane SDS) in integration.

@@ -43,6 +43,7 @@ related:
   - 18-02-barter-and-trade-goods
   - 30-02-dc01-unvented-heater-overnight
   - 30-10-dc09-infant-bed-sharing
+  - 23-02-master-consumables-table
 cards: [DC-01, DC-09]
 explainers: [EX-10]
 promote_when: [is.cold_winters, has.young_child]

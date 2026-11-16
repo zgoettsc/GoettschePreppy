@@ -18,6 +18,13 @@ sources:
   - noaa-national-weather-service-nwr-county-coverage-an-c6207f
   - noaa-national-weather-service-noaa-weather-radio-all-5f13d8
   - fema-ready-gov-create-your-family-emergency-communic-584e89
+  - fema-ready-gov-utility-shut-off-and-safety-natural-g-7965ad
+  - national-center-for-home-food-preservation-nchfp-gen-c43991
+  - usa-gov-replace-your-vital-documents-cde79b
+  - internal-revenue-service-reconstructing-records-afte-28669f
+  - foodsafety-gov-usda-hhs-food-safety-during-a-power-o-3894c1
+  - us-epa-emergency-disinfection-of-drinking-water-6aa91f
+  - cdc-how-to-create-and-store-an-emergency-water-suppl-f0c412
 related: [15-01-weather-alerts, 15-03-family-comms-plan, 15-04-monitoring-and-info, 25-08-quick-reference-cards, 19-01-document-grab-kit, 25-09-family-medical-summary, 12-07-meds-stockpile, 18-01-mutual-aid, 25-10-annual-review, 00-04-family-emergency-plan]
 cards: []
 explainers: [EX-09, EX-10]

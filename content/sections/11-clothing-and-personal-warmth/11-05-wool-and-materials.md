@@ -35,6 +35,7 @@ related:
   - 16-06-axes-and-saws
   - 22-01-master-acquisition-list
   - 22-02-scavenging-field-guide
+  - 11-08-summer-heat-clothing
 cards: []
 explainers: []
 promote_when: [is.cold_winters]

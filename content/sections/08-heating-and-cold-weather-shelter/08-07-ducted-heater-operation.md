@@ -33,6 +33,8 @@ related:
   - 30-01-the-floors
   - 30-06-dc05-fuel-in-attached-garage
   - 30-18-dc17-old-fuel
+  - 08-09-portable-propane-heaters
+  - 08-10-wick-kerosene-heaters
 cards: [DC-05, DC-17]
 explainers: [EX-01, EX-02, EX-03]
 promote_when: [has.diesel_heater]

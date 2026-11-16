@@ -38,6 +38,7 @@ related:
   - 30-02-dc01-unvented-heater-overnight
   - 30-03-dc02-propane-cylinder-indoors
   - 30-04-dc03-refilling-1-lb-cylinders
+  - 08-05-hypothermia-frostbite
 cards: [DC-01, DC-02, DC-03]
 explainers: [EX-01, EX-03, EX-12, EX-14]
 promote_when: [has.propane_heater]

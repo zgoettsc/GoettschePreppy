@@ -52,6 +52,10 @@ related:
   - 30-10-dc09-infant-bed-sharing
   - 30-21-dc20-open-flame-indoors
   - 30-22-dc21-uninspected-fireplace-or-stove
+  - 06-04-wood-supply-and-depletion
+  - 07-01-cooking-on-an-open-fire
+  - 08-05-hypothermia-frostbite
+  - 11-01-cold-weather-layering
 cards: [DC-01, DC-02, DC-07, DC-09, DC-20, DC-21]
 explainers: [EX-01, EX-02, EX-03, EX-04, EX-12, EX-14]
 promote_when: [is.cold_winters]

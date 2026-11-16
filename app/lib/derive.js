@@ -16,7 +16,7 @@
 //     takes the upper figure (1,000) so a store is not planned short. Under 12 months: the
 //     Guidelines give no calorie figure (breast milk or infant formula), so infants are left out of
 //     the food sum and covered by the infant-feeding module (→ 02-13). Pregnant +340 (second
-//     trimester figure) and nursing +450 are printed as written in schema/context.json.
+//     trimester figure) and nursing +330 (first 6 months; +400 after) per the Dietary Guidelines.
 //   * Power station fridge estimate: 1.2 kWh/day typical full-size refrigerator and 85 % usable
 //     inverter output, as written in schema/context.json. Printed as an estimate.
 
@@ -45,7 +45,7 @@ export const DGA_CALORIES = {
 };
 export const TODDLER_12_23_MONTHS = 1000; // DGA 2020-2025 ch. 2, upper end of "700 to 1,000"
 export const PREGNANT_EXTRA = 340;
-export const NURSING_EXTRA = 450;
+export const NURSING_EXTRA = 330; // Dietary Guidelines for Americans 2020-2025: +330 kcal/day in the first 6 months of lactation (+400 after)
 
 export function ageMonths(member) {
   const a = member && member.age;

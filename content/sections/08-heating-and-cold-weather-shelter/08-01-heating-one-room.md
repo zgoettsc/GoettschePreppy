@@ -41,6 +41,12 @@ related:
   - 30-03-dc02-propane-cylinder-indoors
   - 30-10-dc09-infant-bed-sharing
   - 30-20-dc19-when-to-leave
+  - 04-09-winter-cold-storage
+  - 06-04-wood-supply-and-depletion
+  - 10-06-winter-light-budget
+  - 23-02-master-consumables-table
+  - 29-07-ex07-refrigerated-medicines
+  - 29-12-ex12-extinguishers-blankets-and-alarms
 cards: [DC-01, DC-02, DC-09, DC-19]
 explainers: [EX-01, EX-03, EX-12]
 promote_when: [is.cold_winters]

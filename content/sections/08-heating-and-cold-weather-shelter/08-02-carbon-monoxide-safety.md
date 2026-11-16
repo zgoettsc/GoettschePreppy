@@ -35,6 +35,9 @@ related:
   - 30-02-dc01-unvented-heater-overnight
   - 30-21-dc20-open-flame-indoors
   - 30-22-dc21-uninspected-fireplace-or-stove
+  - 08-05-hypothermia-frostbite
+  - 11-01-cold-weather-layering
+  - 29-14-ex14-reading-a-label
 cards: [DC-01, DC-20, DC-21]
 explainers: [EX-03, EX-12]
 promote_when: [is.cold_winters, has.unvented_heater, has.generator, has.gas_any]

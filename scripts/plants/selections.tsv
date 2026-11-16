@@ -159,7 +159,6 @@ broadleaf-arrowhead	37012	flower	Close view: three white petals around a yellow-
 broadleaf-arrowhead	49769	drawing	Botanical line drawing: the arrowhead leaf with veins fanning from the base, the flowers in whorls of three, and the seed heads.
 field-garlic	44161	drawing	Botanical line drawing: the bulb, the hollow round leaf, and the head of bulblets with long tails.
 nodding-onion	44108	drawing	Botanical line drawing: the slender bulb, the flat narrow leaves and the flower head nodding on a bent stalk.
-textile-onion	1648	whole	CHECK-LARGE Flowering plants in dry sagebrush ground: clusters of white flowers above narrow leaves.
 textile-onion	44149	drawing	Botanical line drawing: the bulb with its netted coat, the narrow leaves and the flower cluster.
 ramps	44159	drawing	Botanical line drawing: the broad smooth flat leaves from a bulb, and the round head of flowers on a bare stalk.
 wild-strawberry	46707	drawing	Botanical line drawing: the leaves of three toothed leaflets, the five-petalled flowers and the strawberry with seeds in pits.
@@ -419,3 +418,63 @@ muscadine	50899	drawing	Botanical line drawing: the toothed leaves, the simple t
 honey-mesquite	49326	drawing	Botanical line drawing: the feathery leaf of narrow leaflets, the flower spike and the long bean pod.
 saw-palmetto	38173	whole	Pine flatwoods with a dense understorey of low fan-leaved saw palmetto.
 saw-palmetto	38165	fruit	Black-and-white photograph: the oval fruit (top) and its seed (bottom).
+cabbage-palmetto	37236	whole	Black-and-white photograph: a single palm with a round crown of fan leaves on a straight trunk.
+cabbage-palmetto	51139	whole	A grove of cabbage palms at the edge of a marsh.
+allegheny-chinkapin	7929	fruit	Black-and-white photograph: spiny burs, each holding one small nut, among the toothed leaves.
+allegheny-chinkapin	45322	drawing	Botanical line drawing: the narrow toothed leaves, the catkin and the spiny burs.
+twoneedle-pinyon	31750	leaf	Black-and-white photograph: a branch with short needles and small rounded cones.
+twoneedle-pinyon	31752	whole	Black-and-white photograph: a small rounded pine on a dry slope.
+twoneedle-pinyon	31751	leaf	Black-and-white photograph: a short-needled twig with a cone pinned against the trunk.
+singleleaf-pinyon	31973	leaf	Black-and-white photograph: a twig crowded with short single needles.
+singleleaf-pinyon	31972	whole	Black-and-white photograph: a small rounded pine.
+yaupon	20718	leaf	Black-and-white photograph: a twig with small oval leaves and round berries (the berries are poisonous).
+yaupon	47233	drawing	Botanical line drawing: the small round-toothed leaves, flowers and berries.
+southern-live-oak	35124	whole	Black-and-white photograph: a huge spreading tree draped with Spanish moss.
+southern-live-oak	35121	leaf	Black-and-white photograph: a twig of leathery oval leaves.
+southern-live-oak	49456	drawing	Botanical line drawing: the oval leaves and the acorn.
+bigleaf-maple	450	leaf	Black-and-white photograph: very large lobed leaves against the trunk.
+fremont-cottonwood	33136	leaf	Black-and-white photograph: triangular coarse-toothed leaves and seed catkins, beside a ruler.
+fremont-cottonwood	33134	whole	Black-and-white photograph: a broad open-crowned tree.
+fremont-cottonwood	33135	bark	Black-and-white photograph: the deeply furrowed trunk.
+black-cottonwood	33622	leaf	Black-and-white photograph: narrow-oval pointed leaves on a twig.
+black-cottonwood	32879	whole	A young tree beside a dry rocky slope.
+pacific-madrone	3076	fruit	Black-and-white photograph: leathery evergreen leaves and a cluster of berries.
+pacific-madrone	3075	whole	Black-and-white photograph: a broad-crowned tree.
+tanoak	23202	fruit	Black-and-white photograph: acorns in bristly caps.
+tanoak	23207	leaf	Black-and-white photograph: leathery leaves with straight veins and acorns.
+tanoak	23206	bark	Black-and-white photograph: the trunk bark.
+red-alder	1597	leaf	Black-and-white photograph: oval toothed leaves and small woody cone-like catkins.
+curlleaf-mountain-mahogany	8748	leaf	Narrow leathery leaves with edges rolled under, on grey twigs.
+curlleaf-mountain-mahogany	8745	whole	A small spreading tree on an open dry slope.
+curlleaf-mountain-mahogany	8747	flower	Small flowers among the narrow leathery leaves.
+utah-juniper	21748	whole	Black-and-white photograph: a bushy open-grown juniper in dry grassland.
+utah-juniper	21829	leaf	Black-and-white photograph: a branch of scale-like foliage with berry-like cones.
+longleaf-pine	32059	leaf	Black-and-white photograph: very long needles and two large cones.
+longleaf-pine	48979	drawing	Botanical line drawing: the long needles in bundles of three and the large cone.
+slash-pine	31761	leaf	Black-and-white photograph: needle bundles and a glossy cone.
+slash-pine	31762	bark	Black-and-white photograph: the plated trunk bark.
+slash-pine	48968	drawing	Botanical line drawing: the needle bundles and the cone.
+douglas-fir	34126	fruit	Black-and-white photograph: a needled twig with hanging cones showing the three-pointed bracts.
+douglas-fir	34127	leaf	Black-and-white photograph: a twig with single needles all round it and its buds labelled.
+engelmann-spruce	31782	fruit	Black-and-white photograph: a branch with sharp needles and papery cones.
+engelmann-spruce	31779	whole	Black-and-white photograph: narrow spire-shaped spruces at the edge of a high meadow.
+engelmann-spruce	31780	bark	Black-and-white photograph: the thin scaly bark.
+subalpine-fir	116	whole	Narrow spire-shaped firs at the edge of a meadow.
+subalpine-fir	119	bark	Black-and-white photograph: smooth grey bark with resin blisters.
+balsam-fir	27	leaf	Flat needles in flattened sprays, paler beneath.
+balsam-fir	28	fruit	Black-and-white photograph: an upright-growing cone beside a ruler.
+balsam-fir	43889	drawing	Botanical line drawing: the flat-needled twig and the upright cones.
+white-fir	51	leaf	Long, flat, blue-green needles curving upward from the twig.
+white-fir	53	fruit	Upright cones sitting on top of the branch.
+white-fir	54	whole	A dense blue-green conical tree.
+western-larch	22262	bark	Black-and-white photograph: the thick, deeply furrowed trunk of an old tree.
+western-larch	22263	whole	Black-and-white photograph: tall narrow larches with sparse crowns.
+eastern-hemlock	41974	leaf	Short flat needles on tiny stalks, and small cones hanging from the twigs.
+eastern-hemlock	41977	fruit	Black-and-white photograph: a small cone on a needled twig, beside a scale.
+eastern-hemlock	50666	drawing	Botanical line drawing: the flat-needled twig, the small cone and a seed.
+western-hemlock	41995	fruit	Black-and-white photograph: a small cone beside a twig of short flat needles.
+western-hemlock	42007	whole	Black-and-white photograph: a tall conifer with a drooping top.
+western-hemlock	42006	leaf	Black-and-white photograph: dense sprays of short flat needles with small cones.
+western-redcedar	40851	bark	Black-and-white photograph: a flat spray of scale-like foliage pinned against the stringy bark.
+western-redcedar	40852	leaf	Black-and-white photograph: a flat fern-like spray of scale-like leaves.
+western-redcedar	40850	whole	Black-and-white photograph: a tall conical tree with a broad buttressed base.

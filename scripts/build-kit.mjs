@@ -76,7 +76,9 @@ for (const dir of fs.existsSync(CONTENT) ? fs.readdirSync(CONTENT).sort() : []) 
     try { data = yaml.load(m[1], { schema: yaml.JSON_SCHEMA }) || {}; } catch (e) { warn(`${dir}/${f}: YAML error, skipped (${e.message.split('\n')[0]})`); continue; }
     if (!data.id || !/^\d{2}-\d{2}-[a-z0-9-]+$/.test(data.id) || !data.title) { warn(`${dir}/${f}: missing or bad id/title, skipped`); continue; }
     if (URL_RE.test(text)) { warn(`${data.id}: contains a URL; the generator will remove it`); URL_RE.lastIndex = 0; }
-    pages.push({ ...data, section: data.section || dir, body: m[2] });
+    // derived_from is authoring provenance (household binder page ids); it never ships to users.
+    const { derived_from, ...shipped } = data;
+    pages.push({ ...shipped, section: data.section || dir, body: m[2] });
   }
 }
 const have = new Set(pages.map(p => p.id.slice(0, 5)));

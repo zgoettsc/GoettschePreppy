@@ -447,6 +447,107 @@
    ]
   },
   {
+   "key": "green-false-hellebore",
+   "common": "Green false hellebore",
+   "scientific": "Veratrum viride",
+   "symbol": "VEVI",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "plates": [
+    {
+     "file": "images/plates/green-false-hellebore/vevi_005_lvp.jpg",
+     "shows": "Black-and-white photograph: a broad, strongly PLEATED leaf with parallel ribs. Ramps leaves are smooth and flat and smell of onion.",
+     "feature": "leaf",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/vevi_005_lvp.jpg",
+     "credit": null,
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 42718,
+     "width": 600,
+     "height": 900,
+     "bytes": 66639,
+     "sha256": "85b492038a0600f313d71f002adcd8fe614e1a30e3fd19e21adf49cdac105b71"
+    },
+    {
+     "file": "images/plates/green-false-hellebore/vevi_001_lvd.jpg",
+     "shows": "Botanical line drawing: the pleated leaf, the branched flower clusters and a flower enlarged.",
+     "feature": "drawing",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/vevi_001_lvd.jpg",
+     "credit": "Britton, N.L., and A. Brown",
+     "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 50800,
+     "width": 600,
+     "height": 900,
+     "bytes": 78377,
+     "sha256": "10af35e0aba2bc4c2893f9ee6653885fca248d0d6baa8347c51cea3c092df15c"
+    }
+   ]
+  },
+  {
+   "key": "california-corn-lily",
+   "common": "California corn lily",
+   "scientific": "Veratrum californicum",
+   "symbol": "VECA2",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "plates": [
+    {
+     "file": "images/plates/california-corn-lily/veca2_010_lhp.jpg",
+     "shows": "Black-and-white photograph: a patch of young leafy stalks with broad pleated leaves, the spring stage.",
+     "feature": "leaf",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/veca2_010_lhp.jpg",
+     "credit": null,
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 42544,
+     "width": 900,
+     "height": 600,
+     "bytes": 75112,
+     "sha256": "18bcd7138f03c2734395db8db8d1b6f78e85712613475efca64d5891c3e3e164"
+    },
+    {
+     "file": "images/plates/california-corn-lily/veca2_007_lhp.jpg",
+     "shows": "Black-and-white photograph: a dense patch of tall leafy stalks in a mountain meadow.",
+     "feature": "whole",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/veca2_007_lhp.jpg",
+     "credit": "Paul Fair",
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 42541,
+     "width": 900,
+     "height": 600,
+     "bytes": 79128,
+     "sha256": "05c6cbd48606862e8e75843d4e381e71a08b1c614caa3a4ccfa3af1e3986595d"
+    },
+    {
+     "file": "images/plates/california-corn-lily/veca2_009_lvp.jpg",
+     "shows": "Black-and-white photograph: stalks topped with branched plumes of white flowers.",
+     "feature": "flower",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/veca2_009_lvp.jpg",
+     "credit": null,
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 42543,
+     "width": 600,
+     "height": 900,
+     "bytes": 77574,
+     "sha256": "ea3c9ea56d72f1ceeabfc442c88a9b5dae363f52a1e0c3d61b690ad11dba21af"
+    }
+   ]
+  },
+  {
    "key": "star-of-bethlehem",
    "common": "Star of Bethlehem",
    "scientific": "Ornithogalum umbellatum",
@@ -789,6 +890,34 @@
    ]
   },
   {
+   "key": "bittersweet-nightshade",
+   "common": "Bittersweet nightshade",
+   "scientific": "Solanum dulcamara",
+   "symbol": "SODU",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "file": "images/plates/bittersweet-nightshade/sodu_001_lvd.jpg",
+     "shows": "Botanical line drawing: the climbing stem, leaves with ear-like lobes at the base, the star-shaped flowers and an oval berry.",
+     "feature": "drawing",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/sodu_001_lvd.jpg",
+     "credit": "Britton, N.L., and A. Brown",
+     "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 50115,
+     "width": 600,
+     "height": 900,
+     "bytes": 78448,
+     "sha256": "ad62aa0bed875a322ede87641b4a139a62451e2ba79402130160a958f0d927ea"
+    }
+   ]
+  },
+  {
    "key": "horse-nettle",
    "common": "Horse nettle",
    "scientific": "Solanum carolinense",
@@ -1075,6 +1204,64 @@
    ]
   },
   {
+   "key": "physic-nut",
+   "common": "Physic nut",
+   "scientific": "Jatropha curcas",
+   "symbol": "JACU2",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "file": "images/plates/physic-nut/jacu2_003_lhp.jpg",
+     "shows": "Round green fruits among large lobed leaves.",
+     "feature": "fruit",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/jacu2_003_lhp.jpg",
+     "credit": "Mark A. Garland",
+     "provider": null,
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 21414,
+     "width": 900,
+     "height": 600,
+     "bytes": 78194,
+     "sha256": "0fdce45c22e8a13351f773dc33e50551964324d440ede792e42e33f4cc5de8d8"
+    },
+    {
+     "file": "images/plates/physic-nut/jacu2_002_lhp.jpg",
+     "shows": "Branches with large lobed leaves and green fruit.",
+     "feature": "leaf",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/jacu2_002_lhp.jpg",
+     "credit": "Mark A. Garland",
+     "provider": null,
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 21413,
+     "width": 900,
+     "height": 600,
+     "bytes": 77818,
+     "sha256": "da2cebbac3a7b5749a30ab18faa2f759b75f2fc39b08fb261b484892ecbadf95"
+    },
+    {
+     "file": "images/plates/physic-nut/jacu2_004_lhp.jpg",
+     "shows": "A small spreading tree.",
+     "feature": "whole",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/jacu2_004_lhp.jpg",
+     "credit": "Mark A. Garland",
+     "provider": null,
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 21415,
+     "width": 800,
+     "height": 533,
+     "bytes": 77660,
+     "sha256": "b30540bcb2a8562037419d3b7339dd28ffb86d2dc6f6c7109f306bf7e7e072f0"
+    }
+   ]
+  },
+  {
    "key": "dogbane",
    "common": "Hemp dogbane",
    "scientific": "Apocynum cannabinum",
@@ -1114,6 +1301,148 @@
      "height": 900,
      "bytes": 77500,
      "sha256": "940c5f6e82c3aba58f10fb7b817d321eb384a55f528eefc7f839433d325be405"
+    }
+   ]
+  },
+  {
+   "key": "horsetail-milkweed",
+   "common": "Horsetail milkweed",
+   "scientific": "Asclepias subverticillata",
+   "symbol": "ASSU2",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "plates": [
+    {
+     "file": "images/plates/horsetail-milkweed/asga4_001_lvd.jpg",
+     "shows": "Botanical line drawing: the very narrow leaves in whorls and the flower cluster.",
+     "feature": "drawing",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/asga4_001_lvd.jpg",
+     "credit": "Britton, N.L., and A. Brown",
+     "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 44566,
+     "width": 600,
+     "height": 900,
+     "bytes": 60687,
+     "sha256": "33ba22f15e3fe2ebc23547c876ed6789c5b5ddaa96bf8493abe677eb940ad7a4"
+    }
+   ]
+  },
+  {
+   "key": "foxglove",
+   "common": "Foxglove",
+   "scientific": "Digitalis purpurea",
+   "symbol": "DIPU",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "plates": [
+    {
+     "file": "images/plates/foxglove/dipu_010_lvp.jpg",
+     "shows": "Black-and-white photograph: a dense stand of tall flowering spikes.",
+     "feature": "whole",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/dipu_010_lvp.jpg",
+     "credit": "J.E. Schwartz",
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 13524,
+     "width": 533,
+     "height": 800,
+     "bytes": 76465,
+     "sha256": "323e7c7c9a410c0ca5a791068d07b47308d99efcf9348fbaab73400905d4b591"
+    },
+    {
+     "file": "images/plates/foxglove/dipu_001_lvd.jpg",
+     "shows": "Botanical line drawing: the hanging tube flowers, the soft oval leaves with net-like veins, and the seed capsule.",
+     "feature": "drawing",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/dipu_001_lvd.jpg",
+     "credit": "Britton, N.L., and A. Brown",
+     "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 46130,
+     "width": 600,
+     "height": 900,
+     "bytes": 78618,
+     "sha256": "0ef07d14d9bfcb03c4f82e6b66e8f56a1e5c311cc0bd51f718b646d8330dcf5e"
+    }
+   ]
+  },
+  {
+   "key": "english-yew",
+   "common": "English yew",
+   "scientific": "Taxus baccata",
+   "symbol": "TABA80",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "plates": [
+    {
+     "file": "images/plates/english-yew/taba80_005_lvp.jpg",
+     "shows": "Black-and-white photograph: a branched twig with flat needles.",
+     "feature": "leaf",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/taba80_005_lvp.jpg",
+     "credit": "W.D. Brush",
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 40308,
+     "width": 600,
+     "height": 900,
+     "bytes": 70943,
+     "sha256": "d9f0a5c484076fa6ebc70870b7dc317555460cc73a07a38f2a204cd444fa64eb"
+    }
+   ]
+  },
+  {
+   "key": "pacific-yew",
+   "common": "Pacific yew",
+   "scientific": "Taxus brevifolia",
+   "symbol": "TABR2",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "plates": [
+    {
+     "file": "images/plates/pacific-yew/tabr2_009_lvp.jpg",
+     "shows": "Black-and-white photograph: a twig with flat needles in two rows.",
+     "feature": "leaf",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/tabr2_009_lvp.jpg",
+     "credit": "Charles A. Wellner",
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 40321,
+     "width": 600,
+     "height": 900,
+     "bytes": 79736,
+     "sha256": "3eef508da229daa0ee8c2039c3cfbd48bd6657279a3fc3b5c0de874516ce1b98"
+    },
+    {
+     "file": "images/plates/pacific-yew/tabr2_010_lvp.jpg",
+     "shows": "Black-and-white photograph: a small yew trunk in the forest understorey.",
+     "feature": "bark",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/tabr2_010_lvp.jpg",
+     "credit": "Paul A. Sprengel",
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 40322,
+     "width": 600,
+     "height": 900,
+     "bytes": 72711,
+     "sha256": "c781558edd61bad3943a884bcc8e773d0ce8151b28f0aab064aabcc2f253615e"
     }
    ]
   },
@@ -1520,6 +1849,49 @@
    ]
   },
   {
+   "key": "bitterweed",
+   "common": "Bitterweed",
+   "scientific": "Hymenoxys odorata",
+   "symbol": "HYOD",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "file": "images/plates/bitterweed/hyod_002_shp.jpg",
+     "shows": "A low, much-branched clump covered in small yellow daisy flowers.",
+     "feature": "whole",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/standard/hyod_002_shp.jpg",
+     "credit": "Clarence A. Rechenthin",
+     "provider": "USDA NRCS East Texas PMC (ETPMC)",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 20452,
+     "width": 330,
+     "height": 220,
+     "bytes": 25168,
+     "sha256": "eb6ff07b587ed48682c8362d5853c6b9c1f1f88249d3e8926c8c0bf748a9ab3a"
+    },
+    {
+     "file": "images/plates/bitterweed/hyod_001_lvd.jpg",
+     "shows": "Botanical line drawing: the thread-like leaf segments and the flower heads with notched petals.",
+     "feature": "drawing",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/hyod_001_lvd.jpg",
+     "credit": "Britton, N.L., and A. Brown",
+     "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 47182,
+     "width": 600,
+     "height": 900,
+     "bytes": 79575,
+     "sha256": "e4377202953e0e0f5e6342482fab2229cc6cf519427b498882a59dfb8d509deb"
+    }
+   ]
+  },
+  {
    "key": "black-locust",
    "common": "Black locust",
    "scientific": "Robinia pseudoacacia",
@@ -1575,6 +1947,49 @@
      "height": 900,
      "bytes": 79990,
      "sha256": "36c15ed2c6d27c47f60c1e6bf8162d1e08406bf03bfcaa3d36d1958a72db5db4"
+    }
+   ]
+  },
+  {
+   "key": "golden-chain",
+   "common": "Golden chain tree",
+   "scientific": "Laburnum anagyroides",
+   "symbol": "LAAN2",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "plates": [
+    {
+     "file": "images/plates/golden-chain/laan2_004_lhp.jpg",
+     "shows": "Black-and-white photograph: the flat pod with dark seeds showing through, beside a ruler.",
+     "feature": "fruit",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/laan2_004_lhp.jpg",
+     "credit": null,
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 22075,
+     "width": 900,
+     "height": 600,
+     "bytes": 23852,
+     "sha256": "315013a00baeb2ca0f3010ceda93a72c700a3637b175a7aa8d76ba3de3a31a01"
+    },
+    {
+     "file": "images/plates/golden-chain/laan2_002_lhp.jpg",
+     "shows": "Black-and-white photograph: the pod and a seed enlarged. The seeds are the most poisonous part.",
+     "feature": "seed",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/laan2_002_lhp.jpg",
+     "credit": null,
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 22074,
+     "width": 900,
+     "height": 600,
+     "bytes": 24305,
+     "sha256": "228e4457f81f80a88893cf926d22d8c51a56690dfee61063a32aba0754b10cf2"
     }
    ]
   },
@@ -1689,6 +2104,279 @@
      "height": 720,
      "bytes": 78789,
      "sha256": "3c2e65466a084ae22de8ed6f0afeeac09c55f86df7f6aa8ce9d9fb57eeaf5ee4"
+    }
+   ]
+  },
+  {
+   "key": "mescal-bean",
+   "common": "Mescal bean",
+   "scientific": "Dermatophyllum secundiflorum",
+   "symbol": "SOSE3",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "plates": [
+    {
+     "file": "images/plates/mescal-bean/sose3_001_svp.jpg",
+     "shows": "Hanging clusters of violet pea flowers.",
+     "feature": "flower",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/standard/sose3_001_svp.jpg",
+     "credit": "Clarence A. Rechenthin",
+     "provider": "USDA NRCS East Texas PMC (ETPMC)",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 39039,
+     "width": 220,
+     "height": 330,
+     "bytes": 13252,
+     "sha256": "f71bbb4e00fd2f390ac982b8e4c4ea43745bb503c74eaa697db417e0e2b9bc28"
+    },
+    {
+     "file": "images/plates/mescal-bean/sose3_002_shp.jpg",
+     "shows": "A rounded evergreen shrub in full flower.",
+     "feature": "whole",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/standard/sose3_002_shp.jpg",
+     "credit": "Clarence A. Rechenthin",
+     "provider": "USDA NRCS East Texas PMC (ETPMC)",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 39040,
+     "width": 330,
+     "height": 220,
+     "bytes": 22480,
+     "sha256": "90cf5acd450509d0d75f8c5f1efd94f37df55b49fe9420736bdccd745a63dee9"
+    }
+   ]
+  },
+  {
+   "key": "coralbean",
+   "common": "Coralbean",
+   "scientific": "Erythrina herbacea",
+   "symbol": "ERHE4",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "file": "images/plates/coralbean/erhe4_002_lhp.jpg",
+     "shows": "Tall spikes of slender tube-shaped scarlet flowers.",
+     "feature": "flower",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/erhe4_002_lhp.jpg",
+     "credit": "Clarence A. Rechenthin",
+     "provider": "USDA NRCS East Texas PMC (ETPMC)",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 15756,
+     "width": 900,
+     "height": 600,
+     "bytes": 75189,
+     "sha256": "9fa7e1626dacabe8267155578662e54b36eeb3803990fd8b831fa870cc065b40"
+    },
+    {
+     "file": "images/plates/coralbean/erhe4_004_lhp.jpg",
+     "shows": "The leaves: three leaflets, each shaped like a broad arrowhead.",
+     "feature": "leaf",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/erhe4_004_lhp.jpg",
+     "credit": "Mark A. Garland",
+     "provider": null,
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 15758,
+     "width": 900,
+     "height": 600,
+     "bytes": 63570,
+     "sha256": "491817847be1583c382cd43479cf3f40c7bff9ef6376cbe6f8399db6e39b6b5c"
+    }
+   ]
+  },
+  {
+   "key": "mountain-laurel",
+   "common": "Mountain laurel",
+   "scientific": "Kalmia latifolia",
+   "symbol": "KALA",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "file": "images/plates/mountain-laurel/kala_020_lhp.jpg",
+     "shows": "Black-and-white photograph: a cluster of cup-shaped flowers above leathery leaves.",
+     "feature": "flower",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/kala_020_lhp.jpg",
+     "credit": "W.D. Brush",
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 21879,
+     "width": 900,
+     "height": 600,
+     "bytes": 66506,
+     "sha256": "5f61d87560ae419d10d15894c8caabd078e4470e51c950aaa649ed01e589df34"
+    },
+    {
+     "file": "images/plates/mountain-laurel/kala_022_lhp.jpg",
+     "shows": "Black-and-white photograph: a dense flowering thicket.",
+     "feature": "whole",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/kala_022_lhp.jpg",
+     "credit": "W.H. Shaffer",
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 21881,
+     "width": 720,
+     "height": 480,
+     "bytes": 78864,
+     "sha256": "0796cb94202195a47b43f4255487bb5dd3d30a00a942b1424ef115bc113af3bb"
+    },
+    {
+     "file": "images/plates/mountain-laurel/kala_001_lvd.jpg",
+     "shows": "Botanical line drawing: the leathery elliptic leaves, the flower cluster and the seed capsule.",
+     "feature": "drawing",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/kala_001_lvd.jpg",
+     "credit": "Britton, N.L., and A. Brown",
+     "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 47410,
+     "width": 600,
+     "height": 900,
+     "bytes": 78401,
+     "sha256": "3dac86559df072f8a3262e7fcd3b9c2b7dc658b818e60829dbef094694915c42"
+    }
+   ]
+  },
+  {
+   "key": "sheep-laurel",
+   "common": "Sheep laurel",
+   "scientific": "Kalmia angustifolia",
+   "symbol": "KAAN",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "file": "images/plates/sheep-laurel/kaan_002_lhp.jpg",
+     "shows": "Narrow leathery leaves with clusters of small seed capsules below the leafy tip.",
+     "feature": "leaf",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/kaan_002_lhp.jpg",
+     "credit": "Robert H. Mohlenbrock. USDA NRCS",
+     "provider": "USDA NRCS Wetland Science Institute (WSI) - Northeast wetland flora: Field office guide to plant species (1995)",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 21848,
+     "width": 900,
+     "height": 600,
+     "bytes": 64495,
+     "sha256": "54c7a10ff9f4ea5efcf8cdb115decb4b92ecc87ff2436ac04bdf5c103b37f21d"
+    },
+    {
+     "file": "images/plates/sheep-laurel/kaan_001_lvd.jpg",
+     "shows": "Botanical line drawing: the narrow leaves and the clusters of cup-shaped flowers along the stem.",
+     "feature": "drawing",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/kaan_001_lvd.jpg",
+     "credit": "Britton, N.L., and A. Brown",
+     "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 47404,
+     "width": 600,
+     "height": 900,
+     "bytes": 78743,
+     "sha256": "3a70c3a27422afe30e4d969a2d1fffc41ed673dd9321efad5fa0e01bd100ef6a"
+    }
+   ]
+  },
+  {
+   "key": "great-rhododendron",
+   "common": "Great rhododendron",
+   "scientific": "Rhododendron maximum",
+   "symbol": "RHMA4",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "file": "images/plates/great-rhododendron/rhma4_012_lhp.jpg",
+     "shows": "Black-and-white photograph: a flower cluster above large leathery leaves.",
+     "feature": "flower",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/rhma4_012_lhp.jpg",
+     "credit": "A.F. Hough",
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 35695,
+     "width": 900,
+     "height": 600,
+     "bytes": 78781,
+     "sha256": "fd474a2fb72580dc765d43ff51da3fb5a4a7a6ea6e7588182e3a58a130477778"
+    },
+    {
+     "file": "images/plates/great-rhododendron/rhma4_014_lvp.jpg",
+     "shows": "Black-and-white photograph: a large flowering shrub under trees.",
+     "feature": "whole",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/rhma4_014_lvp.jpg",
+     "credit": null,
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 35697,
+     "width": 480,
+     "height": 720,
+     "bytes": 73317,
+     "sha256": "f98f336cc8582bf6e58d72a1dbe1b092a1d119eebf375e9a7aa0464ac1be2a19"
+    },
+    {
+     "file": "images/plates/great-rhododendron/rhma4_001_lvd.jpg",
+     "shows": "Botanical line drawing: the large leathery leaves and the flower cluster.",
+     "feature": "drawing",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/rhma4_001_lvd.jpg",
+     "credit": "Britton, N.L., and A. Brown",
+     "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 49568,
+     "width": 600,
+     "height": 900,
+     "bytes": 78612,
+     "sha256": "32bb711c150440f835aca3adcd978727a9ae22decc366b94f29162750dcb8a53"
+    }
+   ]
+  },
+  {
+   "key": "japanese-pieris",
+   "common": "Japanese pieris",
+   "scientific": "Pieris japonica",
+   "symbol": "PIJA3",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "plates": [
+    {
+     "file": "images/plates/japanese-pieris/pija3_008_lvp.jpg",
+     "shows": "Hanging chains of small white urn-shaped flowers.",
+     "feature": "flower",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/pija3_008_lvp.jpg",
+     "credit": "Mark A. Garland",
+     "provider": null,
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 31880,
+     "width": 600,
+     "height": 900,
+     "bytes": 70614,
+     "sha256": "7759f7afc76ea7113d679979dc821f9f24c59d7f673fcb52b9c1b585d8889786"
     }
    ]
   },
@@ -1917,6 +2605,120 @@
      "height": 900,
      "bytes": 78272,
      "sha256": "a598590a1a59a67d893592dd83c542a9221d79285cd1945e91e335de7dcc6eab"
+    }
+   ]
+  },
+  {
+   "key": "february-daphne",
+   "common": "February daphne",
+   "scientific": "Daphne mezereum",
+   "symbol": "DAME3",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "plates": [
+    {
+     "file": "images/plates/february-daphne/dame3_001_lvd.jpg",
+     "shows": "Botanical line drawing: the flowers along the stem, the leaves and a berry.",
+     "feature": "drawing",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/dame3_001_lvd.jpg",
+     "credit": "Britton, N.L., and A. Brown",
+     "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 46039,
+     "width": 600,
+     "height": 900,
+     "bytes": 75865,
+     "sha256": "dad4c6aecf90636d394e6d7595e3c5a2ff9b6b563abda6751b191b683b332369"
+    }
+   ]
+  },
+  {
+   "key": "chinaberry",
+   "common": "Chinaberry",
+   "scientific": "Melia azedarach",
+   "symbol": "MEAZ",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "plates": [
+    {
+     "file": "images/plates/chinaberry/meaz_003_lhp.jpg",
+     "shows": "Black-and-white photograph: the round berries on long stalks, with the stone inset.",
+     "feature": "fruit",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/meaz_003_lhp.jpg",
+     "credit": null,
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 25540,
+     "width": 900,
+     "height": 600,
+     "bytes": 35343,
+     "sha256": "2dafd7e99c543cedcc56018274e8a1af1d1eb6a78a0e283dfa1ea3951858308e"
+    }
+   ]
+  },
+  {
+   "key": "carolina-jessamine",
+   "common": "Carolina jessamine",
+   "scientific": "Gelsemium sempervirens",
+   "symbol": "GESE",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "plates": [
+    {
+     "file": "images/plates/carolina-jessamine/gese_004_shp.jpg",
+     "shows": "Masses of bright yellow trumpet flowers on the vine.",
+     "feature": "flower",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/standard/gese_004_shp.jpg",
+     "credit": "Clarence A. Rechenthin",
+     "provider": "USDA NRCS East Texas PMC (ETPMC)",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 18399,
+     "width": 330,
+     "height": 220,
+     "bytes": 20368,
+     "sha256": "38cbbee2ecc236bb923787a3e3a90ff5faaaa93cb5d98c6758b46e47489e2429"
+    },
+    {
+     "file": "images/plates/carolina-jessamine/gese_002_lhp.jpg",
+     "shows": "The twining stem with narrow paired leaves and a flower.",
+     "feature": "leaf",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/gese_002_lhp.jpg",
+     "credit": "Robert H. Mohlenbrock. USDA SCS",
+     "provider": "USDA NRCS Wetland Science Institute (WSI) - Southern wetland flora: Field office guide to plant species (1991)",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 18397,
+     "width": 900,
+     "height": 600,
+     "bytes": 45422,
+     "sha256": "1cd6dca6bd099b0ed714db4ef2ced42355988abcda443254497b45bc78d90751"
+    },
+    {
+     "file": "images/plates/carolina-jessamine/gese_001_lvd.jpg",
+     "shows": "Botanical line drawing: the paired lance-shaped leaves, the trumpet flowers and the seed capsule.",
+     "feature": "drawing",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/gese_001_lvd.jpg",
+     "credit": "Britton, N.L., and A. Brown",
+     "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 46821,
+     "width": 600,
+     "height": 900,
+     "bytes": 76000,
+     "sha256": "6f0daec9009de8893e5730e3b44b481c11c19ee41ea37b4a2813547738810de6"
     }
    ]
   },
@@ -2734,6 +3536,64 @@
      "height": 900,
      "bytes": 78388,
      "sha256": "6c36a5f5a075e21c86409a4c3726e29f2fadb701af1aed3728160540fb9101d5"
+    }
+   ]
+  },
+  {
+   "key": "poisonwood",
+   "common": "Poisonwood",
+   "scientific": "Metopium toxiferum",
+   "symbol": "METO3",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "contact",
+   "plates": [
+    {
+     "file": "images/plates/poisonwood/meto3_001_lhp.jpg",
+     "shows": "Shiny leaflets of the compound leaf.",
+     "feature": "leaf",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/meto3_001_lhp.jpg",
+     "credit": "Mark A. Garland",
+     "provider": null,
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 25868,
+     "width": 900,
+     "height": 600,
+     "bytes": 70167,
+     "sha256": "5d75bce5769e153f9b9d5089c664b97757a92d80bdfc4903fe94985d36da44a7"
+    },
+    {
+     "file": "images/plates/poisonwood/meto3_003_lhp.jpg",
+     "shows": "A branch of the tree with leaves and hanging fruit clusters.",
+     "feature": "whole",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/meto3_003_lhp.jpg",
+     "credit": "Doug Goldman",
+     "provider": "USDA NRCS National Plants Data Team (NPDT)",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 25870,
+     "width": 900,
+     "height": 600,
+     "bytes": 76531,
+     "sha256": "6016d2009e4c0407ad7dcbe0397aa526c633301a8a4726cb3898153811e694f3"
+    },
+    {
+     "file": "images/plates/poisonwood/meto3_004_lhp.jpg",
+     "shows": "Small yellow-green five-petalled flowers.",
+     "feature": "flower",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/meto3_004_lhp.jpg",
+     "credit": "Doug Goldman",
+     "provider": "USDA NRCS National Plants Data Team (NPDT)",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 25871,
+     "width": 900,
+     "height": 600,
+     "bytes": 35467,
+     "sha256": "3d77f3ab6028d7d2ea9e3a2c75d1d94f3c84a1b8d8bb4367c7ac704903bc0371"
     }
    ]
   },
@@ -4252,21 +5112,6 @@
    "risk": "caution",
    "plates": [
     {
-     "file": "images/plates/textile-onion/alte_002_svp.jpg",
-     "shows": "Flowering plants in dry sagebrush ground: clusters of white flowers above narrow leaves.",
-     "feature": "whole",
-     "collection": "usda-plants",
-     "url": "https://plants.usda.gov/ImageLibrary/standard/alte_002_svp.jpg",
-     "credit": "Sheri Hagwood",
-     "provider": null,
-     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
-     "imageId": 1648,
-     "width": 220,
-     "height": 330,
-     "bytes": 25407,
-     "sha256": "4321bd8b64248d4cd64a53f2cc8ef58e64b39ec165d584207a2a9c0f71894f0c"
-    },
-    {
      "file": "images/plates/textile-onion/alre5_001_lvd.jpg",
      "shows": "Botanical line drawing: the bulb with its netted coat, the narrow leaves and the flower cluster.",
      "feature": "drawing",
@@ -4308,6 +5153,49 @@
      "height": 900,
      "bytes": 77456,
      "sha256": "916f34d93acb2590df84dc221e5e96e0bf41774a3aac84f6503abce5ea3fc198"
+    }
+   ]
+  },
+  {
+   "key": "camas",
+   "common": "Common camas",
+   "scientific": "Camassia quamash",
+   "symbol": "CAQU2",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "do-not-eat",
+   "plates": [
+    {
+     "file": "images/plates/camas/caqu2_001_lvp.jpg",
+     "shows": "A spike of BLUE star-shaped flowers. Death camas flowers are cream; out of flower the two cannot be told apart.",
+     "feature": "flower",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/caqu2_001_lvp.jpg",
+     "credit": "William & Wilma Follette. USDA NRCS",
+     "provider": "USDA NRCS Wetland Science Institute (WSI) - Western wetland flora: Field office guide to plant species (1992)",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 7947,
+     "width": 600,
+     "height": 900,
+     "bytes": 33812,
+     "sha256": "95fd360dde4b617e635049494a3420c22e2c957be8fbde83104b9c50ea78788a"
+    },
+    {
+     "file": "images/plates/camas/caqu2_002_lvp.jpg",
+     "shows": "Flowering plants with grass-like leaves in a wet spring meadow.",
+     "feature": "whole",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/caqu2_002_lvp.jpg",
+     "credit": "William & Wilma Follette. USDA NRCS",
+     "provider": "USDA NRCS Wetland Science Institute (WSI) - Western wetland flora: Field office guide to plant species (1992)",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 7948,
+     "width": 600,
+     "height": 900,
+     "bytes": 51329,
+     "sha256": "628b3392c4932ee0a88f9c35fd754ea2b224d7fa780aaee280067a998bd2f131"
     }
    ]
   },
@@ -4887,6 +5775,34 @@
    ]
   },
   {
+   "key": "lingonberry",
+   "common": "Lingonberry",
+   "scientific": "Vaccinium vitis-idaea",
+   "symbol": "VAVI",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "file": "images/plates/lingonberry/vavi_001_lvd.jpg",
+     "shows": "Botanical line drawing: the low stems with small leathery leaves, the bell flowers and the berries.",
+     "feature": "drawing",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/vavi_001_lvd.jpg",
+     "credit": "Britton, N.L., and A. Brown",
+     "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 50754,
+     "width": 600,
+     "height": 900,
+     "bytes": 76013,
+     "sha256": "5308a790ecfefb3b7b5e385762555a31ce46fad1fbf22ca8a86d4e84fb434b1d"
+    }
+   ]
+  },
+  {
    "key": "american-elderberry",
    "common": "American elderberry",
    "scientific": "Sambucus nigra ssp. canadensis",
@@ -5133,6 +6049,34 @@
    ]
   },
   {
+   "key": "beach-plum",
+   "common": "Beach plum",
+   "scientific": "Prunus maritima",
+   "symbol": "PRMA2",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "caution",
+   "plates": [
+    {
+     "file": "images/plates/beach-plum/prma2_001_lvd.jpg",
+     "shows": "Botanical line drawing: the toothed leaves, the flowers and the round plum.",
+     "feature": "drawing",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/prma2_001_lvd.jpg",
+     "credit": "Britton, N.L., and A. Brown",
+     "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 49333,
+     "width": 600,
+     "height": 900,
+     "bytes": 78162,
+     "sha256": "4a1c584747a11f99773b233ebb6244df5e737bad0f1c2070a258d891e0c67e1a"
+    }
+   ]
+  },
+  {
    "key": "pawpaw",
    "common": "Pawpaw",
    "scientific": "Asimina triloba",
@@ -5360,6 +6304,64 @@
      "height": 900,
      "bytes": 74290,
      "sha256": "22211e3676659b334f89db987713bcac11cc29f3e320520e8dcb601beb4f1c55"
+    }
+   ]
+  },
+  {
+   "key": "muscadine",
+   "common": "Muscadine",
+   "scientific": "Vitis rotundifolia",
+   "symbol": "VIRO3",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "caution",
+   "plates": [
+    {
+     "file": "images/plates/muscadine/viro3_003_lvp.jpg",
+     "shows": "Large dark grapes among round, coarsely toothed leaves.",
+     "feature": "fruit",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/viro3_003_lvp.jpg",
+     "credit": "Carl Hunter. USDA SCS",
+     "provider": "USDA NRCS Wetland Science Institute (WSI) - Southern wetland flora: Field office guide to plant species (1991)",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 43204,
+     "width": 600,
+     "height": 900,
+     "bytes": 77361,
+     "sha256": "128c6f90eeca42eae510fe6a4cae08cc3b3ece7bb2c1e84ce6a7fc13b306f1cf"
+    },
+    {
+     "file": "images/plates/muscadine/viro3_002_lhp.jpg",
+     "shows": "Round, coarsely toothed glossy leaves.",
+     "feature": "leaf",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/viro3_002_lhp.jpg",
+     "credit": "Robert H. Mohlenbrock. USDA SCS",
+     "provider": "USDA NRCS Wetland Science Institute (WSI) - Southern wetland flora: Field office guide to plant species (1991)",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 43203,
+     "width": 900,
+     "height": 600,
+     "bytes": 58675,
+     "sha256": "82dbc7e6dfb4cf1d41099498689b38d7b073070ec72002b42e02e904d20ec636"
+    },
+    {
+     "file": "images/plates/muscadine/viro3_001_lhd.jpg",
+     "shows": "Botanical line drawing: the toothed leaves, the simple tendrils, the flower cluster and the grapes.",
+     "feature": "drawing",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/viro3_001_lhd.jpg",
+     "credit": "Britton, N.L., and A. Brown",
+     "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 50899,
+     "width": 900,
+     "height": 600,
+     "bytes": 69411,
+     "sha256": "1b10d48cfcfb3602e1aa00180111a5e9e95217c0c7f62f2aea7ed91cb323056a"
     }
    ]
   },
@@ -5807,6 +6809,35 @@
    ]
   },
   {
+   "key": "honey-mesquite",
+   "common": "Honey mesquite",
+   "scientific": "Prosopis glandulosa",
+   "symbol": "PRGL2",
+   "class": "edible",
+   "groups": [
+    "edible",
+    "firewood"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "file": "images/plates/honey-mesquite/prgl2_001_lvd.jpg",
+     "shows": "Botanical line drawing: the feathery leaf of narrow leaflets, the flower spike and the long bean pod.",
+     "feature": "drawing",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/prgl2_001_lvd.jpg",
+     "credit": "Britton, N.L., and A. Brown",
+     "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 49326,
+     "width": 600,
+     "height": 900,
+     "bytes": 78071,
+     "sha256": "511560608fddabf912b1eb91a2e34bf4166410825e6aa4693603b932263efd5c"
+    }
+   ]
+  },
+  {
    "key": "soapweed-yucca",
    "common": "Soapweed yucca",
    "scientific": "Yucca glauca",
@@ -5846,6 +6877,92 @@
      "height": 900,
      "bytes": 70660,
      "sha256": "9a0087901fe882db464a96dba257a4f84d7fd3763278cd9fb028f8e26f22ee42"
+    }
+   ]
+  },
+  {
+   "key": "saw-palmetto",
+   "common": "Saw palmetto",
+   "scientific": "Serenoa repens",
+   "symbol": "SERE2",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "file": "images/plates/saw-palmetto/sere2_011_lhp.jpg",
+     "shows": "Pine flatwoods with a dense understorey of low fan-leaved saw palmetto.",
+     "feature": "whole",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/sere2_011_lhp.jpg",
+     "credit": "Robert H. Mohlenbrock. USDA SCS",
+     "provider": "USDA NRCS Wetland Science Institute (WSI) - Southern wetland flora: Field office guide to plant species (1991)",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 38173,
+     "width": 720,
+     "height": 480,
+     "bytes": 74148,
+     "sha256": "bc4bf2faf911893b5f9ce42e86764c0bfa9bf5c5db08bab5c5d9511bc2bef498"
+    },
+    {
+     "file": "images/plates/saw-palmetto/sere2_003_lvp.jpg",
+     "shows": "Black-and-white photograph: the oval fruit (top) and its seed (bottom).",
+     "feature": "fruit",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/sere2_003_lvp.jpg",
+     "credit": null,
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 38165,
+     "width": 600,
+     "height": 900,
+     "bytes": 27928,
+     "sha256": "42268b338decbd76d5015252fb89493e59416eda7a01d497f54fa271af79f8be"
+    }
+   ]
+  },
+  {
+   "key": "cabbage-palmetto",
+   "common": "Cabbage palmetto",
+   "scientific": "Sabal palmetto",
+   "symbol": "SAPA",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "caution",
+   "plates": [
+    {
+     "file": "images/plates/cabbage-palmetto/sapa_006_lvp.jpg",
+     "shows": "Black-and-white photograph: a single palm with a round crown of fan leaves on a straight trunk.",
+     "feature": "whole",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/sapa_006_lvp.jpg",
+     "credit": "W.D. Brush",
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 37236,
+     "width": 600,
+     "height": 900,
+     "bytes": 73108,
+     "sha256": "8b619a2c789ad16c2ce2312009018c15dd61574d426e21816a4c9ed29d088e43"
+    },
+    {
+     "file": "images/plates/cabbage-palmetto/SAPA_003_lhp.jpg",
+     "shows": "A grove of cabbage palms at the edge of a marsh.",
+     "feature": "whole",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/SAPA_003_lhp.jpg",
+     "credit": "Doug Goldman",
+     "provider": "USDA NRCS National Plants Data Team (NPDT)",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 51139,
+     "width": 600,
+     "height": 402,
+     "bytes": 56095,
+     "sha256": "0a06547dcb276f8efbb24331da1dd4ebb81b3136b8f276fb5fa70d6419e860ba"
     }
    ]
   },
@@ -6492,6 +7609,152 @@
    ]
   },
   {
+   "key": "allegheny-chinkapin",
+   "common": "Allegheny chinkapin",
+   "scientific": "Castanea pumila",
+   "symbol": "CAPU9",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "caution",
+   "plates": [
+    {
+     "file": "images/plates/allegheny-chinkapin/capu9_003_lvp.jpg",
+     "shows": "Black-and-white photograph: spiny burs, each holding one small nut, among the toothed leaves.",
+     "feature": "fruit",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/capu9_003_lvp.jpg",
+     "credit": "W.D. Brush",
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 7929,
+     "width": 600,
+     "height": 900,
+     "bytes": 66279,
+     "sha256": "4f4e0e5076c5ef02b865b385760cca728f6e0bd9201d063565445b56fb812a2c"
+    },
+    {
+     "file": "images/plates/allegheny-chinkapin/capu9_001_lvd.jpg",
+     "shows": "Botanical line drawing: the narrow toothed leaves, the catkin and the spiny burs.",
+     "feature": "drawing",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/capu9_001_lvd.jpg",
+     "credit": "Britton, N.L., and A. Brown",
+     "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 45322,
+     "width": 533,
+     "height": 800,
+     "bytes": 75151,
+     "sha256": "c47017e9b9a4ff0e54750190535eebfbf7e139e9002a5455775538ac6bf8d255"
+    }
+   ]
+  },
+  {
+   "key": "twoneedle-pinyon",
+   "common": "Two-needle pinyon",
+   "scientific": "Pinus edulis",
+   "symbol": "PIED",
+   "class": "edible",
+   "groups": [
+    "edible",
+    "firewood"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "file": "images/plates/twoneedle-pinyon/pied_015_lvp.jpg",
+     "shows": "Black-and-white photograph: a branch with short needles and small rounded cones.",
+     "feature": "leaf",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/pied_015_lvp.jpg",
+     "credit": "W.H. Shaffer",
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 31750,
+     "width": 600,
+     "height": 900,
+     "bytes": 78625,
+     "sha256": "064a7e56ede647d40449c054189f3a52a446951012c17498a498ab2f226749f5"
+    },
+    {
+     "file": "images/plates/twoneedle-pinyon/pied_017_lhp.jpg",
+     "shows": "Black-and-white photograph: a small rounded pine on a dry slope.",
+     "feature": "whole",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/pied_017_lhp.jpg",
+     "credit": null,
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 31752,
+     "width": 900,
+     "height": 600,
+     "bytes": 71639,
+     "sha256": "8ed82125d6d9c1501bb74d62494a7ccea8b60ce6f8ec52c70dfacf3ae470e2d5"
+    },
+    {
+     "file": "images/plates/twoneedle-pinyon/pied_016_lvp.jpg",
+     "shows": "Black-and-white photograph: a short-needled twig with a cone pinned against the trunk.",
+     "feature": "leaf",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/pied_016_lvp.jpg",
+     "credit": null,
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 31751,
+     "width": 600,
+     "height": 900,
+     "bytes": 74696,
+     "sha256": "3f843015b5697d9b6183014e1f6047f908a29235bdd541cc77078609efb66b7d"
+    }
+   ]
+  },
+  {
+   "key": "singleleaf-pinyon",
+   "common": "Singleleaf pinyon",
+   "scientific": "Pinus monophylla",
+   "symbol": "PIMO",
+   "class": "edible",
+   "groups": [
+    "edible",
+    "firewood"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "file": "images/plates/singleleaf-pinyon/pimo_008_lvp.jpg",
+     "shows": "Black-and-white photograph: a twig crowded with short single needles.",
+     "feature": "leaf",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/pimo_008_lvp.jpg",
+     "credit": null,
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 31973,
+     "width": 600,
+     "height": 900,
+     "bytes": 75089,
+     "sha256": "692a1336f30049b0584b4073e678e4486d7125b90b788bca0b5f788a0b483e44"
+    },
+    {
+     "file": "images/plates/singleleaf-pinyon/pimo_007_lvp.jpg",
+     "shows": "Black-and-white photograph: a small rounded pine.",
+     "feature": "whole",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/pimo_007_lvp.jpg",
+     "credit": "W.H. Shaffer",
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 31972,
+     "width": 533,
+     "height": 800,
+     "bytes": 78847,
+     "sha256": "911bb571fb6e8b6acb2419955d0ffa1212a97950c473464ad932a9ca520d8d9a"
+    }
+   ]
+  },
+  {
    "key": "eastern-white-pine",
    "common": "Eastern white pine",
    "scientific": "Pinus strobus",
@@ -6988,6 +8251,49 @@
    ]
   },
   {
+   "key": "yaupon",
+   "common": "Yaupon holly",
+   "scientific": "Ilex vomitoria",
+   "symbol": "ILVO",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "plates": [
+    {
+     "file": "images/plates/yaupon/ilvo_008_lvp.jpg",
+     "shows": "Black-and-white photograph: a twig with small oval leaves and round berries (the berries are poisonous).",
+     "feature": "leaf",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/ilvo_008_lvp.jpg",
+     "credit": "W.D. Brush",
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 20718,
+     "width": 600,
+     "height": 900,
+     "bytes": 62897,
+     "sha256": "f7dd9b0ed0330d9f5710a099517f0c1829586ae5d754ae3d6aa6aa278a7e79e7"
+    },
+    {
+     "file": "images/plates/yaupon/ilvo_001_lvd.jpg",
+     "shows": "Botanical line drawing: the small round-toothed leaves, flowers and berries.",
+     "feature": "drawing",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/ilvo_001_lvd.jpg",
+     "credit": "Britton, N.L., and A. Brown",
+     "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 47233,
+     "width": 600,
+     "height": 900,
+     "bytes": 78906,
+     "sha256": "97f9755d11315663aa3d0a01f1e9dee8afd61e8e8a2effad3e06928d5b7ed078"
+    }
+   ]
+  },
+  {
    "key": "post-oak",
    "common": "Post oak",
    "scientific": "Quercus stellata",
@@ -7027,6 +8333,64 @@
      "height": 900,
      "bytes": 77765,
      "sha256": "c1f3311e469e4ab2bc56d951fa3f7c58144f03f92a917619eab4d6c912d751c1"
+    }
+   ]
+  },
+  {
+   "key": "southern-live-oak",
+   "common": "Southern live oak",
+   "scientific": "Quercus virginiana",
+   "symbol": "QUVI",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "file": "images/plates/southern-live-oak/quvi_010_lhp.jpg",
+     "shows": "Black-and-white photograph: a huge spreading tree draped with Spanish moss.",
+     "feature": "whole",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/quvi_010_lhp.jpg",
+     "credit": "Paul S. Carter",
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 35124,
+     "width": 800,
+     "height": 533,
+     "bytes": 79054,
+     "sha256": "ef123c3713d6cd817f4f46e5781693b688bd6ece7450a3bed38e4d2d7cf0b2ec"
+    },
+    {
+     "file": "images/plates/southern-live-oak/quvi_007_lvp.jpg",
+     "shows": "Black-and-white photograph: a twig of leathery oval leaves.",
+     "feature": "leaf",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/quvi_007_lvp.jpg",
+     "credit": "W.D. Brush",
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 35121,
+     "width": 600,
+     "height": 900,
+     "bytes": 42088,
+     "sha256": "0fb473779e3349ddf69b58a211257201aea06fbf4ddb8d2103dca76b4d738ae6"
+    },
+    {
+     "file": "images/plates/southern-live-oak/quvi_001_lvd.jpg",
+     "shows": "Botanical line drawing: the oval leaves and the acorn.",
+     "feature": "drawing",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/quvi_001_lvd.jpg",
+     "credit": "Britton, N.L., and A. Brown",
+     "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 49456,
+     "width": 600,
+     "height": 900,
+     "bytes": 59770,
+     "sha256": "54262356b8fab57532d9903a41b3872f3bbb362893df6b474eca39fda8188d0c"
     }
    ]
   },
@@ -7465,6 +8829,34 @@
    ]
   },
   {
+   "key": "bigleaf-maple",
+   "common": "Bigleaf maple",
+   "scientific": "Acer macrophyllum",
+   "symbol": "ACMA3",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "file": "images/plates/bigleaf-maple/acma3_009_lvp.jpg",
+     "shows": "Black-and-white photograph: very large lobed leaves against the trunk.",
+     "feature": "leaf",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/acma3_009_lvp.jpg",
+     "credit": null,
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 450,
+     "width": 600,
+     "height": 900,
+     "bytes": 73524,
+     "sha256": "aff5fb29415edd72727c38d6ee897d6a3d72a2c7d404b858167b2f08217afebf"
+    }
+   ]
+  },
+  {
    "key": "yellow-birch",
    "common": "Yellow birch",
    "scientific": "Betula alleghaniensis",
@@ -7808,6 +9200,107 @@
      "height": 600,
      "bytes": 64612,
      "sha256": "f72e2a04edba5be15f7029d422c6ceca91fbc6e0d30d603451801bda03f885bf"
+    }
+   ]
+  },
+  {
+   "key": "fremont-cottonwood",
+   "common": "Fremont cottonwood",
+   "scientific": "Populus fremontii",
+   "symbol": "POFR2",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "file": "images/plates/fremont-cottonwood/pofr2_007_lvp.jpg",
+     "shows": "Black-and-white photograph: triangular coarse-toothed leaves and seed catkins, beside a ruler.",
+     "feature": "leaf",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/pofr2_007_lvp.jpg",
+     "credit": "G.B. Sudworth",
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 33136,
+     "width": 600,
+     "height": 900,
+     "bytes": 78797,
+     "sha256": "5951b23a46e0f2c228f76de1d5cd6dd1d4af303a4228b26962bef452782c5745"
+    },
+    {
+     "file": "images/plates/fremont-cottonwood/pofr2_005_svp.jpg",
+     "shows": "Black-and-white photograph: a broad open-crowned tree.",
+     "feature": "whole",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/standard/pofr2_005_svp.jpg",
+     "credit": "G.L. Clothier",
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 33134,
+     "width": 220,
+     "height": 330,
+     "bytes": 30706,
+     "sha256": "acb6a0361e6db35d7793a9c7c73eba06403fe598bf3b5e8e00ca93e233072670"
+    },
+    {
+     "file": "images/plates/fremont-cottonwood/pofr2_006_lvp.jpg",
+     "shows": "Black-and-white photograph: the deeply furrowed trunk.",
+     "feature": "bark",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/pofr2_006_lvp.jpg",
+     "credit": "L.C. Miller",
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 33135,
+     "width": 427,
+     "height": 640,
+     "bytes": 77248,
+     "sha256": "6f765679d630270e5eaddc8493fd305d1c68b6d21bc1315a9c61d3f83f6738ad"
+    }
+   ]
+  },
+  {
+   "key": "black-cottonwood",
+   "common": "Black cottonwood",
+   "scientific": "Populus balsamifera ssp. trichocarpa",
+   "symbol": "POBAT",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "file": "images/plates/black-cottonwood/potr15_002_lvp.jpg",
+     "shows": "Black-and-white photograph: narrow-oval pointed leaves on a twig.",
+     "feature": "leaf",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/potr15_002_lvp.jpg",
+     "credit": "K.D. Swan",
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 33622,
+     "width": 600,
+     "height": 900,
+     "bytes": 66623,
+     "sha256": "537b0f3f27067ca1fef47f9e6d829a1c28707634ea99ec48c5cb36cb134ea29b"
+    },
+    {
+     "file": "images/plates/black-cottonwood/pobat_010_lvp.jpg",
+     "shows": "A young tree beside a dry rocky slope.",
+     "feature": "whole",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/pobat_010_lvp.jpg",
+     "credit": "Sheri Hagwood",
+     "provider": null,
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 32879,
+     "width": 480,
+     "height": 720,
+     "bytes": 75825,
+     "sha256": "eed992639a4a36e2bd9ff429bba6dc639df20c74b03cb2bbc599c22780b9d663"
     }
    ]
   },
@@ -8261,6 +9754,135 @@
    ]
   },
   {
+   "key": "pacific-madrone",
+   "common": "Pacific madrone",
+   "scientific": "Arbutus menziesii",
+   "symbol": "ARME",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "file": "images/plates/pacific-madrone/arme_015_lhp.jpg",
+     "shows": "Black-and-white photograph: leathery evergreen leaves and a cluster of berries.",
+     "feature": "fruit",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/arme_015_lhp.jpg",
+     "credit": null,
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 3076,
+     "width": 900,
+     "height": 600,
+     "bytes": 67539,
+     "sha256": "5af1eeaa6a0c719a55f61c9bacc48f91a5ced8fe2276ebfc8aad0696793265c2"
+    },
+    {
+     "file": "images/plates/pacific-madrone/arme_014_lhp.jpg",
+     "shows": "Black-and-white photograph: a broad-crowned tree.",
+     "feature": "whole",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/arme_014_lhp.jpg",
+     "credit": "Frank A. Waugh",
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 3075,
+     "width": 900,
+     "height": 600,
+     "bytes": 78936,
+     "sha256": "d6e89a60c74e5a76fc45ed8ff41411e4b7ed253f94039780ef0e9702b4110391"
+    }
+   ]
+  },
+  {
+   "key": "tanoak",
+   "common": "Tanoak",
+   "scientific": "Notholithocarpus densiflorus",
+   "symbol": "NODE3",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "file": "images/plates/tanoak/lide3_005_lhp.jpg",
+     "shows": "Black-and-white photograph: acorns in bristly caps.",
+     "feature": "fruit",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/lide3_005_lhp.jpg",
+     "credit": null,
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 23202,
+     "width": 900,
+     "height": 600,
+     "bytes": 32934,
+     "sha256": "2f23afc7574dcf2a1e29e61273c994225d2d55e77302201ab64aa64d66c1c117"
+    },
+    {
+     "file": "images/plates/tanoak/lide3_010_lhp.jpg",
+     "shows": "Black-and-white photograph: leathery leaves with straight veins and acorns.",
+     "feature": "leaf",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/lide3_010_lhp.jpg",
+     "credit": null,
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 23207,
+     "width": 900,
+     "height": 600,
+     "bytes": 71222,
+     "sha256": "70cb5260a5bdfa5cd6ab60378d57ee59ba5865fb28f713a04e91db3926696d00"
+    },
+    {
+     "file": "images/plates/tanoak/lide3_009_lvp.jpg",
+     "shows": "Black-and-white photograph: the trunk bark.",
+     "feature": "bark",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/lide3_009_lvp.jpg",
+     "credit": null,
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 23206,
+     "width": 480,
+     "height": 720,
+     "bytes": 73525,
+     "sha256": "acd192ed033854fdc0195eba1e43a16bd391aa8e2e6c860be0fb3d9fde5ab9cb"
+    }
+   ]
+  },
+  {
+   "key": "red-alder",
+   "common": "Red alder",
+   "scientific": "Alnus rubra",
+   "symbol": "ALRU2",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "file": "images/plates/red-alder/alru2_011_lhp.jpg",
+     "shows": "Black-and-white photograph: oval toothed leaves and small woody cone-like catkins.",
+     "feature": "leaf",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/alru2_011_lhp.jpg",
+     "credit": "Constance A. Harrington",
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 1597,
+     "width": 900,
+     "height": 600,
+     "bytes": 58150,
+     "sha256": "a845e97cb5375dd346e37d09f618147f5bd0e51e5a0924ab443cbdd86b664155"
+    }
+   ]
+  },
+  {
    "key": "russian-olive",
    "common": "Russian olive",
    "scientific": "Elaeagnus angustifolia",
@@ -8319,6 +9941,64 @@
    ]
   },
   {
+   "key": "curlleaf-mountain-mahogany",
+   "common": "Curl-leaf mountain mahogany",
+   "scientific": "Cercocarpus ledifolius",
+   "symbol": "CELE3",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "file": "images/plates/curlleaf-mountain-mahogany/cele3_008_lhp.jpg",
+     "shows": "Narrow leathery leaves with edges rolled under, on grey twigs.",
+     "feature": "leaf",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/cele3_008_lhp.jpg",
+     "credit": "Cassondra Skinner",
+     "provider": "USDI Bureau of Land Management (BLM)",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 8748,
+     "width": 900,
+     "height": 600,
+     "bytes": 60284,
+     "sha256": "e3f84d738718b45703e8baef93fe234832b51c0cb19d000bae349b0ce858df4e"
+    },
+    {
+     "file": "images/plates/curlleaf-mountain-mahogany/cele3_005_lhp.jpg",
+     "shows": "A small spreading tree on an open dry slope.",
+     "feature": "whole",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/cele3_005_lhp.jpg",
+     "credit": "Sheri Hagwood",
+     "provider": null,
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 8745,
+     "width": 900,
+     "height": 600,
+     "bytes": 72977,
+     "sha256": "529c1456bcfcc0cc2e13722af182f531585456d4dbc0d2e7cdfa78aa39b1a324"
+    },
+    {
+     "file": "images/plates/curlleaf-mountain-mahogany/cele3_007_lhp.jpg",
+     "shows": "Small flowers among the narrow leathery leaves.",
+     "feature": "flower",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/cele3_007_lhp.jpg",
+     "credit": "Cassondra Skinner",
+     "provider": "USDI Bureau of Land Management (BLM)",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 8747,
+     "width": 900,
+     "height": 600,
+     "bytes": 76284,
+     "sha256": "d920fc44e1a2bbfb9e8057e9f86df8f4b0ea86c5eda875c0fe6ff1874ab6a04c"
+    }
+   ]
+  },
+  {
    "key": "eastern-redcedar",
    "common": "Eastern redcedar",
    "scientific": "Juniperus virginiana",
@@ -8373,6 +10053,49 @@
      "height": 900,
      "bytes": 79088,
      "sha256": "3b36bac7aa63f094f0935d32b610fd6a271d202f3d1aabe0f3f1e6f3eaee24cd"
+    }
+   ]
+  },
+  {
+   "key": "utah-juniper",
+   "common": "Utah juniper",
+   "scientific": "Juniperus osteosperma",
+   "symbol": "JUOS",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "file": "images/plates/utah-juniper/juos_017_lhp.jpg",
+     "shows": "Black-and-white photograph: a bushy open-grown juniper in dry grassland.",
+     "feature": "whole",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/juos_017_lhp.jpg",
+     "credit": "F. H. Miller",
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 21748,
+     "width": 800,
+     "height": 533,
+     "bytes": 77039,
+     "sha256": "fa61ed0f1bb4cd078798f8d5ed32a5bbe9cf146c8425baccd8e65d9d79d32930"
+    },
+    {
+     "file": "images/plates/utah-juniper/juut_001_lhp.jpg",
+     "shows": "Black-and-white photograph: a branch of scale-like foliage with berry-like cones.",
+     "feature": "leaf",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/juut_001_lhp.jpg",
+     "credit": null,
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 21829,
+     "width": 900,
+     "height": 600,
+     "bytes": 71349,
+     "sha256": "c68efc2094d315abaf0bbe9472bcd787e445041da48161a70bcf8ba5f2ba43fc"
     }
    ]
   },
@@ -8579,6 +10302,49 @@
    ]
   },
   {
+   "key": "longleaf-pine",
+   "common": "Longleaf pine",
+   "scientific": "Pinus palustris",
+   "symbol": "PIPA2",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "file": "images/plates/longleaf-pine/pipa2_011_lhp.jpg",
+     "shows": "Black-and-white photograph: very long needles and two large cones.",
+     "feature": "leaf",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/pipa2_011_lhp.jpg",
+     "credit": "W.D. Brush",
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 32059,
+     "width": 900,
+     "height": 600,
+     "bytes": 78725,
+     "sha256": "98810ac555257045ffcffc4fc32585008e882b7e6e06a4e03421c9e3cb8ac54e"
+    },
+    {
+     "file": "images/plates/longleaf-pine/pipa2_001_lvd.jpg",
+     "shows": "Botanical line drawing: the long needles in bundles of three and the large cone.",
+     "feature": "drawing",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/pipa2_001_lvd.jpg",
+     "credit": "Britton, N.L., and A. Brown",
+     "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 48979,
+     "width": 533,
+     "height": 800,
+     "bytes": 78335,
+     "sha256": "4c0963c4f025d3d37b87da6f783a420e8af540c1c54914951f7b26eefc26f9c0"
+    }
+   ]
+  },
+  {
    "key": "shortleaf-pine",
    "common": "Shortleaf pine",
    "scientific": "Pinus echinata",
@@ -8618,6 +10384,64 @@
      "height": 800,
      "bytes": 74232,
      "sha256": "f2fccde43c4e0aad1270180f8f87380510a078b4bde414bec969e703f7a22455"
+    }
+   ]
+  },
+  {
+   "key": "slash-pine",
+   "common": "Slash pine",
+   "scientific": "Pinus elliottii",
+   "symbol": "PIEL",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "file": "images/plates/slash-pine/piel_007_lvp.jpg",
+     "shows": "Black-and-white photograph: needle bundles and a glossy cone.",
+     "feature": "leaf",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/piel_007_lvp.jpg",
+     "credit": "W.D. Brush",
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 31761,
+     "width": 600,
+     "height": 900,
+     "bytes": 74518,
+     "sha256": "afafef565cb99aaa94bd01b065f38f3e35b065dcbacfb95539240c41b05ab92a"
+    },
+    {
+     "file": "images/plates/slash-pine/piel_008_lvp.jpg",
+     "shows": "Black-and-white photograph: the plated trunk bark.",
+     "feature": "bark",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/piel_008_lvp.jpg",
+     "credit": "W.D. Brush",
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 31762,
+     "width": 480,
+     "height": 720,
+     "bytes": 73188,
+     "sha256": "e64cdd62b260a53b34989ef5e4abd5ba3d916ef5bfb77fb95d3ecdc7a53d344a"
+    },
+    {
+     "file": "images/plates/slash-pine/piel_002_lvd.jpg",
+     "shows": "Botanical line drawing: the needle bundles and the cone.",
+     "feature": "drawing",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/piel_002_lvd.jpg",
+     "credit": "USDA NRCS",
+     "provider": "NRCS National Wetland Team - Wetland flora: Field office illustrated guide to plant species.",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 48968,
+     "width": 600,
+     "height": 900,
+     "bytes": 79245,
+     "sha256": "d406a83c12624ebd996e6e23d0d4fc5af795106e152665315b01399597522bb3"
     }
    ]
   },
@@ -8738,6 +10562,107 @@
    ]
   },
   {
+   "key": "douglas-fir",
+   "common": "Douglas-fir",
+   "scientific": "Pseudotsuga menziesii",
+   "symbol": "PSME",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "file": "images/plates/douglas-fir/psme_018_lvp.jpg",
+     "shows": "Black-and-white photograph: a needled twig with hanging cones showing the three-pointed bracts.",
+     "feature": "fruit",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/psme_018_lvp.jpg",
+     "credit": "W.D. Brush",
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 34126,
+     "width": 600,
+     "height": 900,
+     "bytes": 75686,
+     "sha256": "cfb690bd885246d1af861a12e2916673ebb2607950eb20dca7291064898bb69a"
+    },
+    {
+     "file": "images/plates/douglas-fir/psme_019_lvp.jpg",
+     "shows": "Black-and-white photograph: a twig with single needles all round it and its buds labelled.",
+     "feature": "leaf",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/psme_019_lvp.jpg",
+     "credit": null,
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 34127,
+     "width": 600,
+     "height": 900,
+     "bytes": 75630,
+     "sha256": "47a20b850816d84b180e4245416f13f4f3c1a3981a448bf8935cc47ee4d22741"
+    }
+   ]
+  },
+  {
+   "key": "engelmann-spruce",
+   "common": "Engelmann spruce",
+   "scientific": "Picea engelmannii",
+   "symbol": "PIEN",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "file": "images/plates/engelmann-spruce/pien_013_lhp.jpg",
+     "shows": "Black-and-white photograph: a branch with sharp needles and papery cones.",
+     "feature": "fruit",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/pien_013_lhp.jpg",
+     "credit": "K.D. Swan",
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 31782,
+     "width": 900,
+     "height": 600,
+     "bytes": 72234,
+     "sha256": "81ec9e39dcd1ed9e2f18d10a81a044d36819552fe5d444ed034052c4b873f812"
+    },
+    {
+     "file": "images/plates/engelmann-spruce/pien_010_lvp.jpg",
+     "shows": "Black-and-white photograph: narrow spire-shaped spruces at the edge of a high meadow.",
+     "feature": "whole",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/pien_010_lvp.jpg",
+     "credit": "Ray M. Filloon",
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 31779,
+     "width": 533,
+     "height": 800,
+     "bytes": 73135,
+     "sha256": "f14533d44c04861e923e32a722630d2bb75b778a688dd746b6fc34ac56837da8"
+    },
+    {
+     "file": "images/plates/engelmann-spruce/pien_011_lvp.jpg",
+     "shows": "Black-and-white photograph: the thin scaly bark.",
+     "feature": "bark",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/pien_011_lvp.jpg",
+     "credit": "C.A. Kutzleb",
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 31780,
+     "width": 533,
+     "height": 800,
+     "bytes": 73841,
+     "sha256": "2076f3310533f1296fb0872a7614a4c01f8599f74796d9472a1b560f92fc1b85"
+    }
+   ]
+  },
+  {
    "key": "white-spruce",
    "common": "White spruce",
    "scientific": "Picea glauca",
@@ -8854,6 +10779,165 @@
    ]
   },
   {
+   "key": "subalpine-fir",
+   "common": "Subalpine fir",
+   "scientific": "Abies lasiocarpa",
+   "symbol": "ABLA",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "file": "images/plates/subalpine-fir/abla_006_lvp.jpg",
+     "shows": "Narrow spire-shaped firs at the edge of a meadow.",
+     "feature": "whole",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/abla_006_lvp.jpg",
+     "credit": "Sheri Hagwood",
+     "provider": null,
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 116,
+     "width": 600,
+     "height": 900,
+     "bytes": 69113,
+     "sha256": "62f8abc44823e1f105ca750c760bf87e038dd97f44d70173144724643b48976b"
+    },
+    {
+     "file": "images/plates/subalpine-fir/abla_009_lvp.jpg",
+     "shows": "Black-and-white photograph: smooth grey bark with resin blisters.",
+     "feature": "bark",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/abla_009_lvp.jpg",
+     "credit": "K.D. Swan",
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 119,
+     "width": 480,
+     "height": 720,
+     "bytes": 73086,
+     "sha256": "da0e90852a55130a41e5b9e397f12d9cebfa6ff42fb45e4f155851b3e6414a14"
+    }
+   ]
+  },
+  {
+   "key": "balsam-fir",
+   "common": "Balsam fir",
+   "scientific": "Abies balsamea",
+   "symbol": "ABBA",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "file": "images/plates/balsam-fir/abba_002_lhp.jpg",
+     "shows": "Flat needles in flattened sprays, paler beneath.",
+     "feature": "leaf",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/abba_002_lhp.jpg",
+     "credit": "Robert H. Mohlenbrock. USDA NRCS",
+     "provider": "USDA NRCS Wetland Science Institute (WSI) - Northeast wetland flora: Field office guide to plant species (1995)",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 27,
+     "width": 900,
+     "height": 600,
+     "bytes": 78470,
+     "sha256": "0ffebb104f67b6f17c574c21f9436e255d0d1dece11720bed8c14d10af1bf89b"
+    },
+    {
+     "file": "images/plates/balsam-fir/abba_003_lhp.jpg",
+     "shows": "Black-and-white photograph: an upright-growing cone beside a ruler.",
+     "feature": "fruit",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/abba_003_lhp.jpg",
+     "credit": null,
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 28,
+     "width": 900,
+     "height": 600,
+     "bytes": 30690,
+     "sha256": "27cc28ce32b8b61163a3479d3d590ecce2ac38fb13fe7c03f732a7edac3f870f"
+    },
+    {
+     "file": "images/plates/balsam-fir/abba_001_lvd.jpg",
+     "shows": "Botanical line drawing: the flat-needled twig and the upright cones.",
+     "feature": "drawing",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/abba_001_lvd.jpg",
+     "credit": "Britton, N.L., and A. Brown",
+     "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 43889,
+     "width": 533,
+     "height": 800,
+     "bytes": 79231,
+     "sha256": "b73568f304f72cc4997de78eb4dacde79554e35f4d5f609e058cb9d2a527e6a6"
+    }
+   ]
+  },
+  {
+   "key": "white-fir",
+   "common": "White fir",
+   "scientific": "Abies concolor",
+   "symbol": "ABCO",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "file": "images/plates/white-fir/abco_001_lhp.jpg",
+     "shows": "Long, flat, blue-green needles curving upward from the twig.",
+     "feature": "leaf",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/abco_001_lhp.jpg",
+     "credit": "Herman, D.E., et al",
+     "provider": "ND State Soil Conservation Committee",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 51,
+     "width": 900,
+     "height": 600,
+     "bytes": 78991,
+     "sha256": "36cedd75eec9db34ecaa95187722fef01141103f26ee6179b841f83d1e9788b2"
+    },
+    {
+     "file": "images/plates/white-fir/abco_003_lvp.jpg",
+     "shows": "Upright cones sitting on top of the branch.",
+     "feature": "fruit",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/abco_003_lvp.jpg",
+     "credit": "Herman, D.E., et al",
+     "provider": "ND State Soil Conservation Committee",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 53,
+     "width": 533,
+     "height": 800,
+     "bytes": 75664,
+     "sha256": "3550a805f904cad3ff76dd60af2a70e7e8f5c509925fa835794a5c254cfb5fda"
+    },
+    {
+     "file": "images/plates/white-fir/abco_004_lvp.jpg",
+     "shows": "A dense blue-green conical tree.",
+     "feature": "whole",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/abco_004_lvp.jpg",
+     "credit": "Herman, D.E., et al",
+     "provider": "ND State Soil Conservation Committee",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 54,
+     "width": 533,
+     "height": 800,
+     "bytes": 73257,
+     "sha256": "0a7560c9e39be1048bfe64646fa546bb13255af1f39ab3e5159b7e03b7f565a0"
+    }
+   ]
+  },
+  {
    "key": "tamarack",
    "common": "Tamarack",
    "scientific": "Larix laricina",
@@ -8908,6 +10992,223 @@
      "height": 900,
      "bytes": 75894,
      "sha256": "5cfbde546c3e3b2bf5d0535dc3cf440184ee8377119579b8d53cfaabe40108f5"
+    }
+   ]
+  },
+  {
+   "key": "western-larch",
+   "common": "Western larch",
+   "scientific": "Larix occidentalis",
+   "symbol": "LAOC",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "file": "images/plates/western-larch/laoc_010_lvp.jpg",
+     "shows": "Black-and-white photograph: the thick, deeply furrowed trunk of an old tree.",
+     "feature": "bark",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/laoc_010_lvp.jpg",
+     "credit": "Ray M. Filloon",
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 22262,
+     "width": 427,
+     "height": 640,
+     "bytes": 77951,
+     "sha256": "8e8c11989506487a8bd850c4382f370d494f81aae26e5ff478972d0fff5eafc1"
+    },
+    {
+     "file": "images/plates/western-larch/laoc_011_lvp.jpg",
+     "shows": "Black-and-white photograph: tall narrow larches with sparse crowns.",
+     "feature": "whole",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/laoc_011_lvp.jpg",
+     "credit": "R.E. McArdle",
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 22263,
+     "width": 600,
+     "height": 900,
+     "bytes": 79185,
+     "sha256": "b4563f52ddec2d8bc8ec3d983c3aa5da988e95dbb6cb72de54737eefc3e596ad"
+    }
+   ]
+  },
+  {
+   "key": "eastern-hemlock",
+   "common": "Eastern hemlock",
+   "scientific": "Tsuga canadensis",
+   "symbol": "TSCA",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "file": "images/plates/eastern-hemlock/tsca_002_lhp.jpg",
+     "shows": "Short flat needles on tiny stalks, and small cones hanging from the twigs.",
+     "feature": "leaf",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/tsca_002_lhp.jpg",
+     "credit": "Robert H. Mohlenbrock. USDA NRCS",
+     "provider": "USDA NRCS Wetland Science Institute (WSI) - Northeast wetland flora: Field office guide to plant species (1995)",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 41974,
+     "width": 900,
+     "height": 600,
+     "bytes": 76433,
+     "sha256": "247971cf377d16ade3cc2c02964358c729b898d4d09f378bae137b859fb5dbf9"
+    },
+    {
+     "file": "images/plates/eastern-hemlock/tsca_005_lhp.jpg",
+     "shows": "Black-and-white photograph: a small cone on a needled twig, beside a scale.",
+     "feature": "fruit",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/tsca_005_lhp.jpg",
+     "credit": null,
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 41977,
+     "width": 900,
+     "height": 600,
+     "bytes": 25525,
+     "sha256": "a8e9b7d9c974e585eed84bbd223f4d39029f7e221a7c6b85512e6e53f2d29da4"
+    },
+    {
+     "file": "images/plates/eastern-hemlock/tsca_001_lvd.jpg",
+     "shows": "Botanical line drawing: the flat-needled twig, the small cone and a seed.",
+     "feature": "drawing",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/tsca_001_lvd.jpg",
+     "credit": "Britton, N.L., and A. Brown",
+     "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 50666,
+     "width": 600,
+     "height": 900,
+     "bytes": 78522,
+     "sha256": "8db3c1a8b1cb3174ff852a7f7926547948bf589672aa95c20d0cb2e5f5bc1e57"
+    }
+   ]
+  },
+  {
+   "key": "western-hemlock",
+   "common": "Western hemlock",
+   "scientific": "Tsuga heterophylla",
+   "symbol": "TSHE",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "file": "images/plates/western-hemlock/tshe_003_lhp.jpg",
+     "shows": "Black-and-white photograph: a small cone beside a twig of short flat needles.",
+     "feature": "fruit",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/tshe_003_lhp.jpg",
+     "credit": null,
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 41995,
+     "width": 900,
+     "height": 600,
+     "bytes": 27543,
+     "sha256": "d6609eba53b44b8989ebe02a73c1b3b8e5c21a4e27ece09681424a91311bb45e"
+    },
+    {
+     "file": "images/plates/western-hemlock/tshe_015_lvp.jpg",
+     "shows": "Black-and-white photograph: a tall conifer with a drooping top.",
+     "feature": "whole",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/tshe_015_lvp.jpg",
+     "credit": "Charles A. Wellner",
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 42007,
+     "width": 600,
+     "height": 900,
+     "bytes": 68974,
+     "sha256": "cc7b17ab58057e909f55f7a237b305305573c897893c61894052a1025a376e67"
+    },
+    {
+     "file": "images/plates/western-hemlock/tshe_014_lhp.jpg",
+     "shows": "Black-and-white photograph: dense sprays of short flat needles with small cones.",
+     "feature": "leaf",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/tshe_014_lhp.jpg",
+     "credit": "K.D. Swan",
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 42006,
+     "width": 900,
+     "height": 600,
+     "bytes": 73528,
+     "sha256": "b42c466c191498ba4cf078a748494b0445d45e2853dcaac3a4416ccff5523da2"
+    }
+   ]
+  },
+  {
+   "key": "western-redcedar",
+   "common": "Western redcedar",
+   "scientific": "Thuja plicata",
+   "symbol": "THPL",
+   "class": "firewood",
+   "groups": [
+    "firewood"
+   ],
+   "risk": null,
+   "plates": [
+    {
+     "file": "images/plates/western-redcedar/thpl_010_lvp.jpg",
+     "shows": "Black-and-white photograph: a flat spray of scale-like foliage pinned against the stringy bark.",
+     "feature": "bark",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/thpl_010_lvp.jpg",
+     "credit": "K.D. Swan",
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 40851,
+     "width": 533,
+     "height": 800,
+     "bytes": 77054,
+     "sha256": "6a0eb82b869107c6194ed7fb92d7a93768a4d310e3e0b1ee7fee40ee196d2d8d"
+    },
+    {
+     "file": "images/plates/western-redcedar/thpl_011_lvp.jpg",
+     "shows": "Black-and-white photograph: a flat fern-like spray of scale-like leaves.",
+     "feature": "leaf",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/thpl_011_lvp.jpg",
+     "credit": "K.D. Swan",
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 40852,
+     "width": 533,
+     "height": 800,
+     "bytes": 79215,
+     "sha256": "a7a22f36d0e1447fdeb25c962a071e2217ed5d25fff7b0cda42c67fe9a71e61c"
+    },
+    {
+     "file": "images/plates/western-redcedar/thpl_009_lvp.jpg",
+     "shows": "Black-and-white photograph: a tall conical tree with a broad buttressed base.",
+     "feature": "whole",
+     "collection": "usda-plants",
+     "url": "https://plants.usda.gov/ImageLibrary/large/thpl_009_lvp.jpg",
+     "credit": "E.L. Kolbe",
+     "provider": "USDA Forest Service",
+     "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
+     "imageId": 40850,
+     "width": 600,
+     "height": 900,
+     "bytes": 72566,
+     "sha256": "ecf14889df2398ded40320538cc4b2dcae0b4a17418f2aa3b23aafe67a61e36a"
     }
    ]
   },
