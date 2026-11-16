@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "access": { "access_key": "dry-run-key-1234", "acknowledged_notice": true },
+  "home": { "state": "SD", "county": "Beadle County", "nearest_town": "Huron", "setting": "rural", "elevation_band": "low" },
+  "dwelling": {
+    "dwelling_type": "farm-ranch", "stories": 2, "basement": "full",
+    "windowless_interior_room": { "present": true, "which": "basement storage room" },
+    "water_supply": "private-well", "sewer": "septic", "primary_heat": "propane-furnace",
+    "gas_service": { "kind": "propane-tank", "tank_gallons": 500 }, "cooking_fuel": "propane",
+    "water_heater": { "kind": "tank-electric", "gallons": 50 },
+    "fire_features": ["wood-stove", "fire-pit"], "pool_or_hot_tub": { "kind": "none" }, "garden_space": "acreage",
+    "attached_garage": true,
+    "vehicles": [ { "type": "pickup", "fuel": "diesel", "four_wheel_drive": true, "can_tow": true }, { "type": "suv", "fuel": "gasoline", "four_wheel_drive": true } ],
+    "trailer": "open-utility"
+  },
+  "members": [
+    { "label": "Anna", "role": "adult", "age": { "value": 31, "unit": "years" }, "sex": "female", "pregnant_or_nursing": "nursing", "skills": ["farmer-gardener"] },
+    { "label": "Ben", "role": "adult", "age": { "value": 33, "unit": "years" }, "sex": "male", "skills": ["mechanic", "hunter", "firearms-trained"] },
+    { "label": "Clara", "role": "child", "age": { "value": 6, "unit": "years" }, "sex": "female", "weight": { "value": 46, "unit": "lb" } },
+    { "label": "Baby Theo", "role": "infant-toddler", "age": { "value": 8, "unit": "months" }, "sex": "male", "weight": { "value": 19, "unit": "lb" } }
+  ],
+  "pets": [ { "type": "dog", "count": 2, "food_per_day": "3 cups each" } ],
+  "livestock": [ { "type": "chickens", "count": 24 }, { "type": "cattle", "count": 30 } ],
+  "destinations": [
+    { "name": "Grandparents' place", "state": "NE", "county": "Custer County", "status": "unannounced", "who_is_there": "Ben's parents", "route_notes": "Two-lane highways; fuel before the state line.", "approximate_miles": 330 }
+  ],
+  "contacts": {
+    "out_of_area_contact": { "name": "Mark", "relationship": "brother in Minneapolis", "phone": "555-0199" },
+    "meeting_place_near_home": "The machine shed",
+    "utilities": { "electric": { "provider": "Rural electric co-op", "outage_phone": "555-0110" } }
+  },
+  "gear": {
+    "generator": { "fuel": "dual-fuel", "inverter": false, "watts": 9500 },
+    "house_connection": "transfer-switch",
+    "heaters": [ { "kind": "wood-stove" }, { "kind": "portable-propane", "model": "Indoor-safe propane heater" } ],
+    "fuel_on_hand": { "gasoline_gal": 20, "diesel_gal": 100, "propane_20lb": 4, "propane_bulk_gal": 350, "firewood_cords": 3 },
+    "water": { "stored_gal": 30, "barrels": 1 },
+    "cooking": ["camp-stove-propane", "dutch-oven"],
+    "comms": { "noaa_radio": true, "frs_gmrs": true },
+    "safety": { "first_aid_tier": "trauma", "co_alarms": 3, "smoke_alarms": 5, "extinguishers": 3 },
+    "firearms": { "owned": true, "platforms_and_calibers": "Hunting rifle and shotgun", "safe": true },
+    "food": { "pantry_days": 60, "bulk_staples_lb": 200, "canning": ["water-bath", "pressure-weighted"], "seeds": true },
+    "transport": ["snowshoes-skis"]
+  },
+  "experience": "some",
+  "decision_cards": { "DC-01": "alarm-and-wake", "DC-05": "garage-with-rules", "DC-09": "separate-sleep-surface", "DC-11": "with-backstop-rule" }
+}

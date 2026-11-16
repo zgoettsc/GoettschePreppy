@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "access": { "access_key": "dry-run-key-1234", "acknowledged_notice": true, "save_profile_locally": true },
+  "home": { "state": "IL", "county": "Cook County", "nearest_town": "Evanston", "setting": "urban", "elevation_band": "low" },
+  "dwelling": {
+    "dwelling_type": "apartment", "stories": 1, "basement": "none",
+    "windowless_interior_room": { "present": true, "which": "the hall bathroom" },
+    "water_supply": "municipal", "sewer": "municipal", "primary_heat": "natural-gas-furnace",
+    "gas_service": { "kind": "natural-gas" }, "cooking_fuel": "natural-gas",
+    "water_heater": { "kind": "tank-gas", "gallons": 40 },
+    "fire_features": [], "pool_or_hot_tub": { "kind": "none" }, "garden_space": "containers",
+    "attached_garage": false, "vehicles": [ { "type": "car", "fuel": "hybrid", "four_wheel_drive": false, "can_tow": false } ],
+    "trailer": "none"
+  },
+  "members": [
+    { "label": "Maya", "role": "adult", "age": { "value": 38, "unit": "years" }, "sex": "female", "pregnant_or_nursing": "no", "skills": ["nurse-emt"] },
+    { "label": "Jordan", "role": "adult", "age": { "value": 41, "unit": "years" }, "sex": "male", "skills": ["electrician"] },
+    { "label": "Grandpa Ed", "role": "elder", "age": { "value": 78, "unit": "years" }, "sex": "male",
+      "conditions": ["CL-05", "CL-09"],
+      "medications": [
+        { "name": "Metformin", "strength": "500 mg", "schedule": "twice a day with meals", "refrigerated": false, "if_missed": "Take the next dose at the usual time; do not double up (from the pharmacy leaflet).", "days_on_hand": 45 },
+        { "name": "Lisinopril", "strength": "10 mg", "schedule": "once a day", "refrigerated": false, "days_on_hand": 30 }
+      ],
+      "mobility_or_sensory": ["glasses-contacts", "hearing-aids"] }
+  ],
+  "pets": [ { "type": "cat", "count": 1, "food_per_day": "half a cup dry" } ],
+  "destinations": [
+    { "name": "Aunt Rosa's house", "state": "IL", "county": "Champaign County", "status": "agreed", "who_is_there": "Aunt Rosa and her son", "how_to_reach_them": "Phone, then a letter by mail", "route_notes": "Interstate south; avoid the river bridges if flooded.", "approximate_miles": 140 }
+  ],
+  "contacts": {
+    "out_of_area_contact": { "name": "Priya", "relationship": "cousin in Denver", "phone": "555-0142" },
+    "meeting_place_near_home": "Front steps of the building",
+    "meeting_place_in_town": "The public library on the corner",
+    "meeting_place_out_of_town": "Aunt Rosa's house",
+    "utilities": { "electric": { "provider": "City electric utility", "outage_phone": "555-0100" }, "gas": { "provider": "City gas company", "outage_phone": "555-0101" } },
+    "local_contacts": [ { "name": "Dr. Lee", "relationship": "Ed's doctor", "phone": "555-0177" } ]
+  },
+  "gear": {
+    "power_stations": [ { "model": "Portable power station", "wh": 1024 } ],
+    "heaters": [ { "kind": "electric-only" } ],
+    "water": { "stored_gal": 21, "bleach_or_shock": true },
+    "comms": { "noaa_radio": true },
+    "safety": { "first_aid_tier": "basic", "co_alarms": 2, "smoke_alarms": 3, "extinguishers": 1 },
+    "firearms": { "owned": false },
+    "food": { "pantry_days": 10, "freeze_dried_servings": 40 }
+  },
+  "experience": "new",
+  "decision_cards": { "DC-01": "never", "DC-02": "never", "DC-20": "never-indoors", "DC-04": "undecided" },
+  "notes_for_the_binder": "Grandpa Ed needs help on the stairs."
+}

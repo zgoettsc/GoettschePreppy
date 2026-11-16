@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "access": { "access_key": "dry-run-key-1234", "acknowledged_notice": true },
+  "home": { "state": "OH", "county": "Franklin County", "nearest_town": "Westerville", "setting": "suburban" },
+  "dwelling": {
+    "dwelling_type": "detached-house", "stories": 2, "basement": "full",
+    "windowless_interior_room": { "present": true, "which": "basement laundry room" },
+    "water_supply": "municipal", "sewer": "municipal", "primary_heat": "natural-gas-furnace",
+    "gas_service": { "kind": "natural-gas" }, "cooking_fuel": "electric",
+    "water_heater": { "kind": "tank-gas", "gallons": 50 },
+    "fire_features": ["indoor-fireplace"], "pool_or_hot_tub": { "kind": "chlorine-pool", "gallons": 18000 }, "garden_space": "small-yard",
+    "attached_garage": true,
+    "vehicles": [ { "type": "van", "fuel": "gasoline" }, { "type": "car", "fuel": "ev" } ],
+    "trailer": "none"
+  },
+  "members": [
+    { "label": "Sam", "role": "adult", "age": { "value": 44, "unit": "years" }, "sex": "not-said" },
+    { "label": "Riley", "role": "adult", "age": { "value": 42, "unit": "years" }, "sex": "female" },
+    { "label": "Noah", "role": "child", "age": { "value": 9, "unit": "years" }, "sex": "male", "weight": { "value": 62, "unit": "lb" },
+      "conditions": ["CL-03", "CL-04", "CL-07"],
+      "allergies": [ { "allergen": "peanuts", "severity": "anaphylaxis", "carries_epinephrine": true }, { "allergen": "tree nuts", "severity": "severe", "carries_epinephrine": true } ],
+      "medications": [ { "name": "Epinephrine auto-injector", "strength": "0.3 mg", "schedule": "as directed in an emergency", "refrigerated": false, "days_on_hand": 365 }, { "name": "Albuterol inhaler", "schedule": "as needed", "refrigerated": false } ] },
+    { "label": "Ivy", "role": "teen", "age": { "value": 15, "unit": "years" }, "sex": "female" }
+  ],
+  "contacts": {
+    "out_of_area_contact": { "name": "Grandma June", "relationship": "grandmother in Atlanta", "phone": "555-0123" },
+    "meeting_place_near_home": "The mailbox at the end of the drive",
+    "meeting_place_in_town": "The church parking lot on the main road"
+  },
+  "gear": {
+    "generator": { "fuel": "gasoline", "inverter": true, "watts": 3000, "model": "Inverter generator" },
+    "house_connection": "interlock",
+    "power_stations": [ { "model": "Station A", "wh": 2048 }, { "model": "Station B", "wh": 512 } ],
+    "solar_panels": [ { "model": "Folding panel", "watts": 200, "count": 2 } ],
+    "fuel_on_hand": { "gasoline_gal": 15 },
+    "water": { "stored_gal": 40, "bleach_or_shock": true },
+    "comms": { "noaa_radio": true },
+    "safety": { "first_aid_tier": "basic", "co_alarms": 4, "smoke_alarms": 6, "extinguishers": 2 },
+    "firearms": { "owned": false },
+    "food": { "pantry_days": 21 }
+  },
+  "experience": "experienced",
+  "decision_cards": { "DC-07": "electrician-only", "DC-13": "filter-and-chlorinate", "DC-18": "never", "DC-05": "outbuilding-only", "DC-04": "use-if-clear" }
+}
