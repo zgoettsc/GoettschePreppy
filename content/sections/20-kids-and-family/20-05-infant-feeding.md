@@ -43,18 +43,20 @@ infant-feeding module, → 02-13. The water arithmetic is → 03-01.
 
 > **SAFETY. Two rules that are absolute.**
 >
-> **(1) Never dilute infant formula to make it last longer.** Over-diluted formula causes water
-> intoxication, salt imbalance, seizures, brain damage and death in babies. It is one of the most
-> dangerous things a loving parent can do in a shortage. Mix exactly as the label says, every
-> time.
+> **(1) Never dilute infant formula to make it last longer.** Too much water means the formula
+> will not meet the baby's nutritional needs; too little water strains the baby's kidneys and
+> digestive system (CDC, Infant Formula Preparation and Storage). Mix exactly as the label
+> says, every time.
 >
-> **(2) Never make homemade infant formula.** Recipes from evaporated milk, goat milk, plant milks
-> or "old recipes" have caused serious harm and death. A baby's needs are specific and
-> unforgiving. **A formula shortage is a medical and public-health emergency, not a kitchen
+> **(2) Never make homemade infant formula.** FDA advises against it: home recipes, including
+> ones from evaporated milk, goat milk, plant milks or "old recipes", have caused serious
+> illness and hospital stays in babies (FDA, Homemade Infant Formula advisory; → 02-13). A
+> baby's needs are specific and unforgiving. **A formula shortage is a medical and public-health emergency, not a kitchen
 > project.**
 >
 > This page gives **no formula recipes and no dilution ratios**, on purpose. It does print the
-> holding times and water temperatures, because off-grid this binder may be the only reference.
+> holding times and water temperatures as CDC and WHO publish them, because off-grid this binder
+> may be the only reference.
 
 **Your youngest:** {{#each infants as i}}{{i.label}} ({{i.age_text}}); {{/each}}{{#if !has.infant}}no member under 2 is entered.{{/if}}{{#if has.nursing}} **Someone in your household is nursing.**{{/if}}
 
@@ -115,21 +117,24 @@ Every month a child moves along the third path, the household loses a supply-cha
 
 **Follow CDC's guidance and the label exactly.**
 - **Safe water every time** (→ 03-04). **Boil the water** (a rolling boil, then let it cool).
-- **For a baby under 2 to 3 months old, born early, or with a weak immune system:** mix the
-  powder into water that is still **at least 158 °F (70 °C)**, which kills *Cronobacter* germs
-  that can be in the powder (CDC; WHO/FAO, Safe Preparation of Powdered Infant Formula). **Then
-  cool the bottle to body temperature** and test a drop on the inside of your wrist before
-  feeding.
+- **For a baby younger than 2 months, born early (before 37 weeks), or with a weak immune
+  system:** CDC says boil the water, **wait about 5 minutes**, then mix in the powder, to protect
+  against *Cronobacter* germs that can live in the powder; WHO's guidance is to mix powder into
+  water of at least **158 °F (70 °C)** (CDC, Infant Formula Preparation and Storage; WHO/FAO,
+  Safe Preparation of Powdered Infant Formula). **Then cool the bottle** and test a few drops on
+  your wrist: warm, not hot. Never microwave a bottle (CDC).
 - **Clean bottles and feeding items:** washed, then sanitised (CDC). This costs real water and
   fuel (→ 13-10); budget it.
 - **Holding times** (CDC, as published):
-  - Mixed powdered formula: **use within 2 hours of mixing**, or within 24 hours if refrigerated
-    straight away.
-  - **Once a feed starts, finish or throw away within 1 hour** (saliva seeds the bottle with
-    germs).
-  - Opened ready-to-feed: capped and refrigerated, **use within 48 hours**; same 1-hour rule once
-    a feed starts.
+  - Mixed formula: **use within 2 hours of mixing**; if it will not be used within 2 hours,
+    refrigerate it at once and use it within 24 hours.
+  - **Once a feed starts, use it within 1 hour** and throw away what is left in the bottle
+    (saliva lets germs grow).
+  - Opened ready-to-feed: capped and refrigerated, used within the time printed on its label;
+    same 1-hour rule once a feed starts.
   - **No fridge: mix one feed at a time.**
+  - Opened powder: lid tight, cool and dry, not in the fridge; most must be used within 1 month
+    of opening (check the label). Never use formula after its "Use By" date (CDC).
 - **Never add anything to a bottle:** no cereal, no sugar, no honey.
 - **Ready-to-feed formula needs no water and no mixing.** That makes it right for go-bags and for
   moving (→ 22-03), despite the weight and cost.
@@ -139,15 +144,17 @@ Every month a child moves along the third path, the household loses a supply-cha
 
 ## The right milk after 12 months
 
-- **From 12 to 23 months the milk is plain, pasteurised whole milk** (CDC, Foods and Drinks for
-  12 to 24 Month Olds): about **16 to 24 ounces a day**. More than that crowds out iron-rich food.
-  Low-fat or fat-free milk only from age 2, unless a clinician says otherwise.
+- **From 12 to 23 months the milk is plain, pasteurised whole milk** (CDC: whole cow's milk from
+  12 months, not before; plant milks not before 12 months): about **16 ounces (2 cups) a day**
+  (AAP, Recommended Drinks for Children Age 5 and Younger). Nonfat or low-fat milk from age 2
+  (AAP). Toddler "transition" milks are unnecessary for most children (AAP).
 - **Most pantries stock nonfat dry milk.** That is cooking milk and milk for over-2s, **not
   toddler milk**. Stock for a toddler: **whole-milk powder** or **shelf-stable (UHT) whole milk**,
   rotated (→ 04-14).
-- **Evaporated milk mixed half and half with safe water is an acceptable whole-milk drink for a
-  child over 12 months** (→ 04-14): as milk with meals, **never as infant formula** and never the
-  "homemade formula" of the warning above.
+- **Canned evaporated milk** is another shelf-stable milk (→ 04-14). Whether it, made up as its
+  label directs, can stand in for whole milk for your child over 12 months is a question for
+  the child's doctor now: write the answer in the box above. It is **never infant formula** and
+  never the "homemade formula" of the warning above.
 - **If none of these is available,** the fat comes from the family plate: butter or ghee, oils,
   full-fat dairy where there is any, eggs if no allergy forbids them. Ask the child's doctor now
   and write the answer in the box above. Milk still needs safe handling (→ 04-17).
@@ -182,8 +189,8 @@ From CDC's infant and toddler nutrition guidance (read it in the original if you
 
 - **Safe water matters more for babies than for adults.** Use CDC's guidance for preparing
   formula and for any water a baby drinks (→ 03-04; what "safe" means: → 29-06).
-- **Too much plain water is dangerous for young babies**, which is another reason the no-dilution
-  rule exists.
+- **Plain water comes in only from about 6 months, and only a little** (AAP: about 4 to 8 ounces
+  a day at 6 to 12 months). Before that, breast milk or formula is the baby's water.
 - **In illness, oral rehydration solution (ORS) is the answer, not plain water** (→ 12-05). A
   small child dries out dangerously fast.
 
@@ -212,8 +219,8 @@ From CDC's infant and toddler nutrition guidance (read it in the original if you
 - **Clean cloth and boiled water** for cleaning feeding equipment when soap or hot water is short
   (→ 13-10).
 - **What you must not substitute: infant formula itself.** No dilution, no homemade recipes, no
-  animal-milk "formula". (Whole cow's milk, or evaporated milk mixed half and half, **as a drink
-  for a child over 12 months** is a different thing and is fine.)
+  animal-milk "formula". (Whole cow's milk **as a drink for a child over 12 months** is a
+  different thing and is fine; other shelf-stable milks for a toddler, ask the doctor.)
 
 ## When it runs out
 
@@ -222,8 +229,8 @@ From CDC's infant and toddler nutrition guidance (read it in the original if you
 - **Runway = cans (or ounces) on hand ÷ daily use.** Work out the number and know it.
 - **You cannot ration a baby's food.** Ration everything else to protect it, and answer a
   shortage by **seeking supply**, not stretching what you have.
-- **Whole milk's runway:** whole-milk powder, then UHT, then evaporated milk, then fat from the
-  family plate (and the doctor's answer above).
+- **Whole milk's runway:** whole-milk powder, then UHT, then whatever the doctor's answer above
+  allows, then fat from the family plate.
 - **Escalation trigger:** if a baby's feeding cannot be met, that is a go/no-go event (→ 01-02).
   Decide the threshold in advance.
 - **The reassuring part:** this dependency has a natural end. Each month a baby is closer to

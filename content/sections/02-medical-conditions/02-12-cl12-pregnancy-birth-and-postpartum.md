@@ -54,7 +54,7 @@ condition: CL-12
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CDC maternal warning signs verified; WHO PPH 2012 recs (cord clamping 1-3 min, no CCT without skilled attendant, tonus check, massage) re-read; DGA 330/400 verified in PDF; meds_for tables." }
 ---
 
 # CL-12. Pregnancy, birth and the weeks after

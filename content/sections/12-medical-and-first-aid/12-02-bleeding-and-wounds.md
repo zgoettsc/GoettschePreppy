@@ -2,7 +2,7 @@
 id: 12-02-bleeding-and-wounds
 section: 12-medical-and-first-aid
 title: "Bleeding control and wound care"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -43,7 +43,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Tourniquet steps re-sourced (USUHS/DoD STB/TCCC); floor wording matches 30-01; tetanus rule aligned to CDC clinical guidance (no 48-72 h); lye eye flush 30 min (ATSDR); unsourced child-age and syringe figures removed." }
 ---
 
 # Bleeding control and wound care

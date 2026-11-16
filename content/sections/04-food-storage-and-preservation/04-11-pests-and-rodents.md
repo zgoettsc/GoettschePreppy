@@ -2,7 +2,7 @@
 id: 04-11-pests-and-rodents
 section: 04-food-storage-and-preservation
 title: "Protecting stored food from pests and rodents"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -28,7 +28,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Hantavirus figures to CDC (38 percent, 1-8 weeks); clean-up steps match CDC 2024; pencil gap to CDC Seal Up; insect freezing to K-State MF-2270" }
 ---
 
 # Protecting stored food from pests and rodents

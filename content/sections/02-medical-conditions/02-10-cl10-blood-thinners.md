@@ -39,7 +39,7 @@ condition: CL-10
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Tourniquet floor sentence made contiguous per 30-01; AHRQ bleeding signs, vitamin K and OTC list corrected to the source; meds_for tables." }
 ---
 
 # CL-10. Blood thinners (anticoagulants)

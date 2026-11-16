@@ -2,7 +2,7 @@
 id: 04-17-food-safety-power-outage
 section: 04-food-storage-and-preservation
 title: "Food safety when the power fails"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -27,7 +27,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "All times checked against FoodSafety.gov chart (4 h / 48 h / 24 h, 2 h at 40 F); keep/throw table corrected; unverifiable dry-ice figure replaced with CDC advice" }
 ---
 
 # Food safety when the power fails

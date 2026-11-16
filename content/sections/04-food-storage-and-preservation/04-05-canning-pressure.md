@@ -2,7 +2,7 @@
 id: 04-05-canning-pressure
 section: 04-food-storage-and-preservation
 title: "Pressure canning (low-acid foods) and botulism safety"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -31,7 +31,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Pressure rows checked against USDA Guides 4/5 (to 8,000 ft); 8,001-10,000 ft row re-sourced to Colorado State; Guide 1 citations for gauge, venting, cooling; jar sizes corrected; size wording fixed" }
 ---
 
 # Pressure canning (low-acid foods) and botulism safety

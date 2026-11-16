@@ -2,7 +2,7 @@
 id: 04-10-rotation-and-inventory
 section: 04-food-storage-and-preservation
 title: "Rotation, dating and inventory"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -11,7 +11,6 @@ tags: [food, rotation, inventory, dates, best by, pantry week, labels]
 derived_from: [04-10-rotation-and-inventory]
 sources:
   - fsis-food-product-dating
-  - usda-food-safety-and-inspection-service-fsis-shelf-s-942af8
   - usu-extension-storing-canned-goods-r12
   - national-center-for-home-food-preservation-nchfp-gen-c43991
   - foodsafety-gov-usda-hhs-cook-to-a-safe-minimum-inter-13daf3
@@ -26,7 +25,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Canned-food safety statement re-sourced to USU Storing Canned Goods; 90 F figure and unreadable FSIS key removed" }
 ---
 
 # Rotation, dating and inventory

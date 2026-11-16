@@ -37,7 +37,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Crisis line numbers (988, DDH 1-800-985-5990, NDVH 1-800-799-7233 / START to 88788) verified in archives; no changes." }
 ---
 
 # First response to a mental-health crisis

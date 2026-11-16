@@ -111,3 +111,5 @@ Collected from worker reports; resolved in the integration pass.
 - [ ] R17: FSIS can-storage temperature (2014 sheet "below 85 F best" vs current page "above 90 F"): re-check when fsis.usda.gov is reachable.
 - [ ] R17 owner questions: DC-25 option for a medic-trained member (2 to 6 h window)? DC-13 option 3 for fresh pools.
 - [ ] DC-16 "published adult table": R15 to resolve on 12-04 and the card wording.
+- [x] R10: FDA insulin-switching text matched word for word to fda.gov (09/28/2026); AAP second-dose rule on CL-03; part-12 tables use meds_for with fallback. Remaining cross-page items moved to notes/REVIEW-WAVE3.md.
+- [ ] R10 owner questions: CL-02 names Dexcom, Omnipod, LoopDocs as one-maker examples (acceptable?); print ADA switching amounts next to FDA's?

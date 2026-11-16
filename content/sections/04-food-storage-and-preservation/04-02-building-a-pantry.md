@@ -2,7 +2,7 @@
 id: 04-02-building-a-pantry
 section: 04-food-storage-and-preservation
 title: "Building a shelf-stable pantry"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -13,7 +13,6 @@ sources:
   - national-center-for-home-food-preservation-nchfp-gen-c43991
   - foodsafety-gov-usda-hhs-cook-to-a-safe-minimum-inter-13daf3
   - us-fda-food-allergies-627fb6
-  - usda-food-safety-and-inspection-service-fsis-shelf-s-942af8
   - usu-extension-storing-canned-goods-r12
   - ndsu-extension-oil-change-in-your-kitchen-2017-r12
 related: [04-01-calorie-and-stockpile-math, 04-03-bulk-staples-storage, 04-10-rotation-and-inventory, 04-12-fats-and-oils, 04-13-salt-sugar-vinegar, 04-14-powdered-and-canned-dairy, 04-19-freeze-dried-stockpile, 02-04-cl04-food-allergy, 22-01-master-acquisition-list, 22-04-household-inventory, 29-14-ex14-reading-a-label, 30-19-dc18-unlabeled-food-and-allergies, 30-27-dc26-allergy-safe-food-reserve]
@@ -28,7 +27,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Shelf-life rows re-sourced (USU canned goods, NDSU oils); unreadable FSIS shelf-stable key and 90 F figure removed; DC-26 wiring checked" }
 ---
 
 # Building a shelf-stable pantry

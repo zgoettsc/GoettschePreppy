@@ -2,7 +2,7 @@
 id: 04-16-sprouting
 section: 04-food-storage-and-preservation
 title: "Sprouting grains and beans for fresh food"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -26,7 +26,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Sprout cooking matches FDA (avoid raw or lightly cooked); unsourced 165 F removed" }
 ---
 
 # Sprouting grains and beans for fresh food

@@ -2,7 +2,7 @@
 id: 04-15-eggs-storage
 section: 04-food-storage-and-preservation
 title: "Storing eggs without refrigeration"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -28,7 +28,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Egg storage 40 F (FDA, was 45 F); water-glass rules match DC-27 card; owner 6-month planning figure removed; dead Colorado State source replaced by K-State/Penn State" }
 ---
 
 # Storing eggs without refrigeration

@@ -2,7 +2,7 @@
 id: 12-09-splints-and-fractures
 section: 12-medical-and-first-aid
 title: "Splints, sprains and broken bones"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -38,7 +38,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "DC-29 wired in quick steps and fracture section; MedlinePlus realign wording verified; unsourced re-check interval and 6-12 week figures removed." }
 ---
 
 # Splints, sprains and broken bones

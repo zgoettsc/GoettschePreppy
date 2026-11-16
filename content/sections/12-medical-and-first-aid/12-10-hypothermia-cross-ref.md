@@ -2,7 +2,7 @@
 id: 12-10-hypothermia-cross-ref
 section: 12-medical-and-first-aid
 title: "Cold injuries quick reference"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -35,7 +35,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Frostbite rewarming aligned with AFP/WMS (98.6-102.2 F, 30-second test, typically within 30 min); CDC hypothermia signs checked." }
 ---
 
 # Cold injuries quick reference

@@ -2,7 +2,7 @@
 id: 12-12-childbirth-and-womens-health
 section: 12-medical-and-first-aid
 title: "Pregnancy, childbirth and women's health"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -36,7 +36,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CDC Hear Her list matched to the archived page (100.4 F, pads-per-hour, leg or arm); WHO maternal mortality fact sheet for severe bleeding." }
 ---
 
 # Pregnancy, childbirth and women's health

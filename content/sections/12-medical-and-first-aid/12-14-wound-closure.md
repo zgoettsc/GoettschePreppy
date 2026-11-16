@@ -2,7 +2,7 @@
 id: 12-14-wound-closure
 section: 12-medical-and-first-aid
 title: "Wound closure, drainage, and when not to close"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -34,7 +34,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Tetanus summary aligned to CDC clinical guidance; unsourced syringe size and closure time removed." }
 ---
 
 # Wound closure, drainage, and when not to close

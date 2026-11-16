@@ -51,7 +51,7 @@ condition: CL-02
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "FDA pump text re-checked word for word (Novolog spelling, headings split, list kept); FDA pump storage updated to current text (48 h unless device says otherwise); ADA weight-based difference noted; meds_for tables." }
 ---
 
 # CL-02. Type 1 diabetes with an insulin pump and a sensor

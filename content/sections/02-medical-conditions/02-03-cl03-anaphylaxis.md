@@ -51,7 +51,7 @@ condition: CL-03
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Second dose re-cited to AAP (5 min); position per AAP plan; AAP bands printed verbatim; neffy freeze wording per label; ACAAI freeze study caveat; diphenhydramine re-cited to Drug Facts; meds_for tables." }
 ---
 
 # CL-03. Anaphylaxis (severe allergic reaction, any cause)
@@ -212,7 +212,8 @@ other forms of injectable epinephrine should be considered if doses lower than 0
 needed. **The AAP plan and the EpiPen label move to the larger device at different weights
 (25 kg and 30 kg).** The prescriber decides, and writes it on the plan.
 
-Weights on file (re-weigh children every few months; the band can change):
+Weights on file (re-weigh children every few months; the band can change). To compare a weight
+in pounds with a band in kilograms, divide the pounds by 2.2:
 {{#each members as m}}{{m.label}}: {{m.weight_text}}. {{else}}No members entered yet.{{/each}}
 
 **How many devices.** Devices come in two-packs, and a reaction may need two doses. Each place

@@ -54,7 +54,7 @@ condition: CL-01
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "FDA switching text re-checked word for word (live page, 09/28/2026); DKA timing per ADA; 15-15 to CDC treatment page; ADA appearance, Cochrane scope, CDC sick-day wording fixed; meds_for tables." }
 ---
 
 # CL-01. Type 1 diabetes on injections

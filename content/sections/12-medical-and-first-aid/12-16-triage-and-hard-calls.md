@@ -2,7 +2,7 @@
 id: 12-16-triage-and-hard-calls
 section: 12-medical-and-first-aid
 title: "Triage and hard decisions with no hospital"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -43,7 +43,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "15-minute low-sugar recheck cited to CDC; aspirin text unchanged (no AHA text readable: heart.org 403)." }
 ---
 
 # Triage and hard decisions with no hospital

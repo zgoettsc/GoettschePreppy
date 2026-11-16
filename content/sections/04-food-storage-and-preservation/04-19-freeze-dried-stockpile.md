@@ -2,7 +2,7 @@
 id: 04-19-freeze-dried-stockpile
 section: 04-food-storage-and-preservation
 title: "Freeze-dried meals: buying, checking and storing a stockpile"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -11,7 +11,6 @@ tags: [food, freeze-dried, dehydrated, stockpile, allergens, labels, water, stor
 derived_from: [04-19-freeze-dried-stockpile]
 sources:
   - utah-state-university-extension-oxygen-absorbers-dry-d72137
-  - usda-food-safety-and-inspection-service-fsis-shelf-s-942af8
   - us-fda-food-allergies-627fb6
   - usda-hhs-dietary-guidelines-for-americans-2020-2025-4b2013
 related: [04-01-calorie-and-stockpile-math, 04-02-building-a-pantry, 04-03-bulk-staples-storage, 04-06-dehydrating, 04-09-winter-cold-storage, 04-10-rotation-and-inventory, 04-11-pests-and-rodents, 03-01-daily-water-needs, 07-01-cooking-on-an-open-fire, 07-05-propane-and-camp-stoves, 07-06-electric-kettle-cooking, 07-07-freeze-dried-rehydration, 01-03-phase-b-movement, 23-02-master-consumables-table, 22-04-household-inventory, 02-04-cl04-food-allergy, 02-03-cl03-anaphylaxis, 29-14-ex14-reading-a-label, 30-19-dc18-unlabeled-food-and-allergies, 30-27-dc26-allergy-safe-food-reserve]
@@ -26,7 +25,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Kettle and cold-water figures aligned with 07-06/07-07; 'most calories per pound' corrected; unreadable FSIS key removed" }
 ---
 
 # Freeze-dried meals: buying, checking and storing a stockpile
@@ -65,9 +64,9 @@ them so the long shelf life on the label is true.
 | Property | Why it matters |
 |---|---|
 | **Long dating** ("25 years" is a manufacturer claim, for cool storage) | Buy once; less rotation work (see the rotation note below) |
-| **No cooking: only hot water** (true freeze-dried) | About 2 cups of boiling water per pouch (the label governs); about 55 Wh at an electric kettle, more from a battery after inverter losses (→ 07-06). No fire, no pot to wash. **Dehydrated "simmer" products do not qualify:** they need a stove |
-| **Cold-water fallback** (true freeze-dried only) | Softens in cold water in **1 to 2 hours:** a zero-energy meal when power is rationed (→ 07-07). **Never for a "boil/simmer" product** |
-| **Weight** | The most calories per pound of any ready-to-eat food (→ 04-01); good for leaving home |
+| **No cooking: only hot water** (true freeze-dried) | The boiling water on the label (often about 2 cups, roughly half a litre-boil, about 70 Wh from a battery at the kettle figure on → 07-06). No fire, no pot to wash. **Dehydrated "simmer" products do not qualify:** they need a stove |
+| **Cold-water fallback** (true freeze-dried only) | Softens in cold water in **at least twice the label's hot-water time** (one maker's advice, → 07-07): a zero-energy meal when power is rationed. **Never for a "boil/simmer" product** |
+| **Weight** | Among the most calories per pound of ready-to-eat food (→ 04-01); good for leaving home |
 
 **Staples are cheaper per calorie** (→ 04-03), and freeze-dried food does not replace them. It is
 the **ready-to-eat, no-fuel, travels-well layer** on top. Both count toward the runway (→ 04-01,
@@ -151,9 +150,9 @@ Freeze-dried food **uses your water;** that is the price of the convenience.
 
 - **Your plan figure is {{ derived.water.plan_gal_day }} gallons a day** for the household
   (→ 03-01). Treat it as the least you need if you will eat mostly freeze-dried food.
-- **About 2 cups of boiling water per pouch** (the label governs): small boils, about 55 Wh each
-  at an electric kettle (→ 07-06).
-- **Cold water works for TRUE freeze-dried pouches:** 1 to 2 hours instead of about 10 minutes,
+- **The boiling water on the label, per pouch** (often about 2 cups): small boils, about half a
+  litre-boil each at the kettle figure on → 07-06.
+- **Cold water works for TRUE freeze-dried pouches:** at least twice the label's hot-water time,
   worse texture, no energy (→ 07-07). A "boil/simmer" product needs the stove.
 - **When water is short, eat this food LAST.** Canned food brings its own water; freeze-dried
   food takes yours (→ 04-01 has the table).
@@ -171,8 +170,8 @@ Extension). Treat every "25-year" label as conditional on:
   low humidity. {{#if is.hot_summers}}Your summers are hot: find the coolest place in the house
   for this.{{/if}} In humid places this matters twice as much (→ 04-09).
 - **Sealed:** unopened original packaging (cans, pouches with oxygen absorbers). **An opened
-  container is ordinary food:** reseal it and use it within weeks, faster in humid weather
-  (USDA FSIS, Shelf-Stable Food Safety).
+  container is ordinary food:** reseal it and use it soon, faster in humid weather, as the
+  label directs.
 - **Dark, and off concrete.**
 
 ## Rotation: 25-year food does not rotate like a pantry
@@ -196,7 +195,7 @@ Extension). Treat every "25-year" label as conditional on:
 | Bold markers and labels | Safe or not safe | Re-mark at every yearly check |
 | Printed ingredient labels or photos, filed | Re-checking without internet | Tape inside the bin lid |
 | Water storage sized to your plan figure | The paired consumable | → 03-01 |
-| Kettle or small pot, measuring cup | About 2 cups boiling per pouch | An insulated bottle saves energy |
+| Kettle or small pot, measuring cup | The label's boiling water per pouch | An insulated bottle saves energy |
 | This page's inventory table, kept current | Runway input | Feeds → 04-01 and → 23-02 |
 
 **If you don't have it:**

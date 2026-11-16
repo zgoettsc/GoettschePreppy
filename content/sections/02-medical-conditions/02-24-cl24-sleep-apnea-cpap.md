@@ -169,7 +169,8 @@ Doctor or supplier: ____________________ Date: __________
 **Night budget.** Nights on battery = battery watt-hours available ÷ watt-hours the machine uses
 per night. The power station's watt-hours are on its label and on → 28-01; your household total
 is {{ gear.station_wh_total }} Wh. The machine's use per night comes from its manual or a plug-in
-meter test, not from this page.
+meter test, not from this page. Medicines tagged for this condition in settings are printed at
+the end of the table; if none are tagged, every household medicine row is.
 
 | Supply | On hand | Used per night or month | Nights on hand | Nights you want | Still to get |
 |---|---|---|---|---|---|
@@ -180,9 +181,14 @@ meter test, not from this page.
 | Tubing, spare mask, headgear | ____ | | | ____ | ____ |
 | DC cable or approved battery | ____ | | | ____ | ____ |
 | Wedge pillow or blocks for raising the bed | ____ | | | ____ | ____ |
-{{#each meds_for.CL-24 as m}}| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
-{{else}}{{#each meds as m}}| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
-{{/each}}{{/each}}
+{{#each meds_for.CL-24 as m}}
+| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
+{{else}}
+{{#each meds as m}}
+| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
+{{/each}}
+{{/each}}
+
 
 > **Before the collapse:** run the CPAP for one night on your power station and write down how
 > much charge it used, with and without the humidifier. That one test is worth more than any
@@ -235,16 +241,22 @@ household's full medicine stockpile is on → 12-07.
 
 ## 12. My meds
 
-Rows marked ✓ are the medicines your household tagged for this condition in settings. If none
-is tagged, every medicine row your household entered is printed with a ☐ instead: **tick the
-rows for this condition** and cross out the rest. Fill any blank columns by hand, and add
-missing medicines in the blank rows. Write the CPAP settings in part 7.
+Medicines your household tagged for this condition in settings are printed below. **If none
+are tagged, every medicine row your household entered is printed instead: tick the rows for
+this condition** and cross out the rest. Fill any blank columns by hand from the boxes
+and bottles, and add untagged medicines in the empty rows. Write the CPAP settings in part 7.
 
 | For this? | Who | Medicine | Strength | Schedule | Fridge? | If doses are missed (prescriber's words) | Where kept | Days on hand | Expires |
 |---|---|---|---|---|---|---|---|---|---|
-{{#each meds_for.CL-24 as m}}| ✓ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
-{{else}}{{#each meds as m}}| ☐ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
-{{else}}| ☐ | (no medicines entered yet) | | | | | | ____ | ____ | ____ |
-{{/each}}{{/each}}| ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
+{{#each meds_for.CL-24 as m}}
+| ☐ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
+{{else}}
+{{#each meds as m}}
+| ☐ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
+{{else}}
+| ☐ | (no medicines entered yet) | | | | | | ____ | ____ | ____ |
+{{/each}}
+{{/each}}
+| ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
 | ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
 | ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |

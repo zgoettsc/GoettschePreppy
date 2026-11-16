@@ -2,7 +2,7 @@
 id: 12-06-dental-emergencies
 section: 12-medical-and-first-aid
 title: "Dental emergencies"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -34,7 +34,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Knocked-out tooth timing re-worded to AAE (30 minutes; sometimes saved after an hour or more)." }
 ---
 
 # Dental emergencies

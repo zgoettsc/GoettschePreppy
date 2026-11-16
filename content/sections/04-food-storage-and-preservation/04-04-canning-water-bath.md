@@ -2,7 +2,7 @@
 id: 04-04-canning-water-bath
 section: 04-food-storage-and-preservation
 title: "Water-bath canning (high-acid foods)"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -30,7 +30,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Water-bath altitude rows, tomato acid amounts, water depth checked against USDA Guides 1 and 3; CDC boil wording; size.large wording true for Small/Large/Everything" }
 ---
 
 # Water-bath canning (high-acid foods)
@@ -54,8 +54,9 @@ words are new to you, read → 29-08 first.
 
 1. **Have the USDA Complete Guide to Home Canning (2015 revision) where you can read it with
    no internet.** {{#if size.large}}Your binder carries it: the Introduction and all seven
-   Guides are bound at the end of this section, after the last food-storage page, and the
-   "Sources for this page" list below links to each one. If a Guide could not be downloaded
+   Guides are bound at the end of this section, after the last food-storage page. The
+   "Sources for this page" list below links to the ones this page uses; Guides 4 and 5 are
+   linked from → 04-05 and Guide 6 from → 04-08. If a Guide could not be downloaded
    when the binder was made, it is named on the "Sources not captured" page in Section 25:
    get a paper copy of that one.{{else}}Your binder is the Small download, which cites the
    Guide but does not carry it. Make the Large or Everything download, or keep a paper copy.

@@ -214,14 +214,19 @@ or swallowing is hard; sit them upright to eat (→ 12-18 for choking).
 Prescriber: ____________________ Date: __________
 
 **Stock arithmetic.** Days on hand = on hand ÷ used per day. The medicines tagged for this
-condition in settings are printed; if none is tagged, every medicine row is, and you use the
-ones for this condition.
+condition in settings are printed; if none are tagged, every household medicine row is, so use
+the ones for this condition.
 
 | Medicine or supply | On hand | Used per day | Days on hand | Days you want | Still to get |
 |---|---|---|---|---|---|
-{{#each meds_for.CL-21 as m}}| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
-{{else}}{{#each meds as m}}| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
-{{/each}}{{/each}}| Incontinence pads, wipes, barrier cream | ____ | ____ | ____ | ____ | ____ |
+{{#each meds_for.CL-21 as m}}
+| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
+{{else}}
+{{#each meds as m}}
+| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
+{{/each}}
+{{/each}}
+| Incontinence pads, wipes, barrier cream | ____ | ____ | ____ | ____ | ____ |
 | Lockable medicine box, weekly pill organiser | ____ | | | ____ | ____ |
 | Door chimes or bells, medical ID bracelet | ____ | | | ____ | ____ |
 | Battery night-lights, headlamp, batteries | ____ | | | ____ | ____ |
@@ -274,16 +279,22 @@ household's full medicine stockpile is on → 12-07.
 
 ## 12. My meds
 
-Rows marked ✓ are the medicines your household tagged for this condition in settings. If none
-is tagged, every medicine row your household entered is printed with a ☐ instead: **tick the
-rows for this condition** and cross out the rest. Fill any blank columns by hand, and add
-missing medicines in the blank rows.
+Medicines your household tagged for this condition in settings are printed below. **If none
+are tagged, every medicine row your household entered is printed instead: tick the rows for
+this condition** and cross out the rest. Fill any blank columns by hand from the boxes
+and bottles, and add untagged medicines in the empty rows.
 
 | For this? | Who | Medicine | Strength | Schedule | Fridge? | If doses are missed (prescriber's words) | Where kept | Days on hand | Expires |
 |---|---|---|---|---|---|---|---|---|---|
-{{#each meds_for.CL-21 as m}}| ✓ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
-{{else}}{{#each meds as m}}| ☐ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
-{{else}}| ☐ | (no medicines entered yet) | | | | | | ____ | ____ | ____ |
-{{/each}}{{/each}}| ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
+{{#each meds_for.CL-21 as m}}
+| ☐ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
+{{else}}
+{{#each meds as m}}
+| ☐ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
+{{else}}
+| ☐ | (no medicines entered yet) | | | | | | ____ | ____ | ____ |
+{{/each}}
+{{/each}}
+| ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
 | ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
 | ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |

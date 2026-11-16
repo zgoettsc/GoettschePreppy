@@ -2,7 +2,7 @@
 id: 12-20-field-dentistry
 section: 12-medical-and-first-aid
 title: "Dental first aid: knocked-out teeth, lost fillings, abscess"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -33,7 +33,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Knocked-out tooth timing per AAE; unsourced dry-socket day range removed." }
 ---
 
 # Dental first aid: knocked-out teeth, lost fillings, abscess

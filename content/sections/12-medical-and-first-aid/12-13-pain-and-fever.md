@@ -2,7 +2,7 @@
 id: 12-13-pain-and-fever
 section: 12-medical-and-first-aid
 title: "Pain, fever and over-the-counter medicine reference"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -44,7 +44,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "AAP acetaminophen (2026) and ibuprofen (2024) charts transcribed in full from the archived PDFs, all rows and columns; AAP table notes for frequency; diphenhydramine to Drug Facts label; fever, febrile seizure and croup re-sourced (AAP, MedlinePlus)." }
 ---
 
 # Pain, fever and over-the-counter medicine reference

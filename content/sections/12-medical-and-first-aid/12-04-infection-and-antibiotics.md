@@ -2,7 +2,7 @@
 id: 12-04-infection-and-antibiotics
 section: 12-medical-and-first-aid
 title: "Infection, fever and antibiotics"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -38,7 +38,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Tetanus table rebuilt from CDC clinical guidance (completed series; dirty/major examples; TIG for incomplete/unknown); 48-72 h removed; DC-16 reference states no table is printed; sepsis signs checked." }
 ---
 
 # Infection, fever and antibiotics

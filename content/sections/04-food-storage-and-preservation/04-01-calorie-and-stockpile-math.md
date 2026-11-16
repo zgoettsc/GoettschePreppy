@@ -2,7 +2,7 @@
 id: 04-01-calorie-and-stockpile-math
 section: 04-food-storage-and-preservation
 title: "Calorie planning and stockpile math"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -26,7 +26,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Staple calories re-worked from FoodData Central; unsourced canned and freeze-dried per-lb figures replaced by label method; DGA table, pregnancy (340/452) and nursing (330/400) match derive.js; allergy reserve wired to DC-26" }
 ---
 
 # Calorie planning and stockpile math

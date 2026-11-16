@@ -2,7 +2,7 @@
 id: 12-19-head-injury-watch
 section: 12-medical-and-first-aid
 title: "Head injury: the watch protocol"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -36,7 +36,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Red flags matched to CDC HEADS UP and AAP; watch period per AAP (24 h, then a few days) and 2-3 h checks; aftercare per CDC; unsourced 3 ft, 15 min and 48 h figures removed." }
 ---
 
 # Head injury: the watch protocol

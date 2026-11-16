@@ -10,10 +10,7 @@ phase: [A, B, C]
 tags: [kids, safety, drowning, pool, buckets, burns, heaters, poisoning, button batteries, firearms, supervision, audit, farm]
 derived_from: [20-02-child-safety-offgrid]
 sources:
-  - us-consumer-product-safety-commission-cpsc-button-ba-d6075f
   - national-capital-poison-center-poison-control-button-600e41
-  - cdc-niosh-childhood-agricultural-injury-prevention-i-15b57d
-  - american-academy-of-pediatrics-healthychildren-org-d-c874bb
   - cdc-preventing-drowning-barriers-supervision-and-lay-d38f3b
   - cdc-risk-factors-for-drowning-751aa0
   - us-consumer-product-safety-commission-cpsc-in-home-d-c7151d
@@ -26,6 +23,8 @@ sources:
   - nssf-national-shooting-sports-foundation-project-chi-7e7bc9
   - national-capital-poison-center-poison-control-1-800-e428c9
   - american-academy-of-pediatrics-healthychildren-org-w-7400c5
+  - us-consumer-product-safety-commission-cpsc-what-to-k-3390a4
+  - cpsc-carbon-monoxide-information-center
 related: [20-01-toddler-and-infant-needs, 20-04-teaching-kids-the-plan, 20-07-kids-jobs, 12-03-burns, 12-17-poisoning-and-ingestion, 12-18-choking-and-cpr, 08-01-heating-one-room, 08-02-carbon-monoxide-safety, 08-09-portable-propane-heaters, 08-10-wick-kerosene-heaters, 03-03-pool-water-desalination, 03-02-storing-water, 06-06-fuel-storage-safety, 14-14-safe-storage-and-child-access, 30-01-the-floors, 30-25-dc24-children-and-dangerous-jobs, 30-02-dc01-unvented-heater-overnight, 30-07-dc06-fuel-in-passenger-vehicle, 30-21-dc20-open-flame-indoors, 24-02-drills, 25-10-annual-review]
 cards: [DC-24, DC-01, DC-06, DC-20]
 explainers: [EX-01, EX-03, EX-05, EX-11, EX-12]
@@ -54,12 +53,13 @@ adults are tired and busy.
 > products.** This is a floor, not a choice (→ 30-01): every source agrees, small children
 > explore by mouth and by hand, and in a crisis the adults are busier and supervision is thinner,
 > which is exactly when storage has to do the work. Lock firearms unloaded, with ammunition
-> separate (→ 14-14). Store fuel, medicine and chlorine locked or high, in their own labelled
-> containers, never in drink bottles.
+> locked separately (AAP; → 14-14). Store fuel, medicine and chlorine locked, out of sight and
+> reach, in their original labelled containers, never in drink bottles.
 >
 > **Two hazards dominate, and both kill fast and silently:**
-> **(1) Drowning.** A small child can drown in a few inches of water, in minutes, with no splash
-> or shout (CPSC; CDC, Preventing Drowning): a bucket, a tub, a rain barrel, a cooler, a pool.
+> **(1) Drowning.** A small child can drown in as little as 2 inches of water, quickly and
+> silently (CPSC, In-Home Drowning); CDC says drowning happens in seconds and is often silent
+> (CDC, Preventing Drowning): a bucket, a tub, a rain barrel, a cooler, a pool.
 > **(2) Fire and burns:** heaters, cooking fires, lamps and hot liquids (→ 12-03).
 >
 > **Never run a generator, charcoal, or any engine indoors, in a garage, or near an open
@@ -75,17 +75,17 @@ everything in the mouth.{{/if}}
 
 1. **Water first.** Lids on every water container; dump what is not in use. {{#if has.pool}}**Your
    pool:** a four-sided isolation fence at least 4 feet high, fully separating the pool from the
-   house and yard, with a self-closing, self-latching gate (CDC; CPSC; AAP). Do it now, not next
+   house and yard, with a self-closing, self-latching gate (CDC; CPSC). Do it now, not next
    summer.{{else}}If you have or reach a pool, hot tub or pond, the barrier rules below come
    first.{{/if}}
-2. **Carbon monoxide alarms** in the room where people sleep, at pillow height, and on each
-   level; test them monthly (→ 08-02). No fuel heater is lit until the alarm in its room is up
-   and tested.
+2. **Carbon monoxide alarms** on every level and outside sleeping areas, and in any room where a
+   fuel heater runs; test them monthly (CPSC; → 08-02). No fuel heater is lit until the alarm in
+   its room is up and tested.
 3. **An anchored barrier around every heater or stove** before it is first lit (block below).
 4. **Lock up** fuel, lamp oil, chemicals, lye, pool shock, bleach, medicines and spare button
    batteries (→ 06-06, → 13-09, → 03-04, → 12-07).
-5. **Learn CPR, every adult.** CDC recommends it for drowning specifically, and no ambulance may
-   come. Infant and child choking and CPR: → 12-18.
+5. **Learn CPR, every adult.** CDC lists it among its drowning-prevention steps, and no ambulance
+   may come. Infant and child choking and CPR: → 12-18.
 6. **Walk every room on your knees** with the checklist below. Button batteries first. Put the
    walk on the drill calendar so it repeats (→ 24-02, → 25-10).
 
@@ -106,31 +106,34 @@ everything in the mouth.{{/if}}
 
 ## Drowning: the one to take most seriously
 
-**The layers of protection** (CDC, Preventing Drowning; AAP, Drowning Prevention):
+**The layers of protection** (CDC, Preventing Drowning; CPSC, In-Home Drowning):
 
-1. **Barriers.** For a pool: a four-sided isolation fence, at least 4 feet, with a self-closing,
-   self-latching gate, separating the pool from both the house and the yard. CDC notes that
-   four-sided fencing cuts a child's drowning risk substantially compared with a fence around
-   the property line only. This is the most effective single measure.
-2. **Alarms** on doors and gates to the pool area, and a safety cover.
+1. **Barriers.** For a pool: a four-sided isolation fence, at least 4 feet (CPSC: 5 feet or
+   higher is better), with a self-closing, self-latching gate, separating the pool from both the
+   house and the yard. CDC says a four-sided isolation fence cuts a child's risk of drowning by
+   83 percent compared with three-sided property-line fencing (CDC, Risk Factors for Drowning).
+2. **Alarms** on doors to the pool area, and a power safety cover (CPSC).
 3. **Close, constant, undistracted supervision** whenever children are near water. **Name one
    adult as the water watcher**, with no phone, no chores, no conversation. "Everyone's
    watching" means nobody is.
-4. **Swimming lessons** reduce drowning risk (CDC). Worth doing while they exist.
-5. **Life jackets** for any water activity.
+4. **Swimming lessons** reduce drowning risk (CDC), but children who have had lessons still need
+   close supervision. Worth doing while they exist.
+5. **Life jackets** for any activity in or around natural water (CDC).
 6. **CPR for every adult**, and rescue equipment (a reach pole, a float) at the water.
 7. **Grid-down rule:** if a pool or pond becomes a water source (→ 03-03), **the gate closes and
    latches every single time**, and **no child goes to fetch water.**
 
-**In-home drowning** (CPSC, In-Home Drowning): buckets, bathtubs, toilets, coolers, rain barrels
-and standing water. In a house where water is stored in open containers everywhere, this risk
+**In-home drowning** (CPSC, In-Home Drowning): bathtubs, buckets, toilets and other standing
+water; CPSC says nearly 90 children drown inside the home each year, two-thirds of them in the
+bathtub. Coolers and rain barrels are the same hazard. In a house where water is stored in open containers everywhere, this risk
 goes up a great deal. **Lids. Every container.**
 
 **Pool covers and ice in winter.** A covered or frozen pool that is opened repeatedly for water
 is a different drowning, not a safer one.
-- **Only a safety cover built to the ASTM F1346 standard counts as a barrier** (CPSC, Safety
-  Barrier Guidelines for Residential Pools). A tarp or a water-bag winter cover does not.
-  Children have drowned in rain and melt water pooled on top of a loose cover.
+- **Only a power safety cover built to the ASTM F1346 standard counts as a barrier** in CPSC's
+  guidelines (CPSC, Safety Barrier Guidelines for Residential Pools). A tarp or an ordinary
+  winter cover is not on that list, and water pooled on top of any cover can be deep enough to
+  drown a toddler (as little as 2 inches; CPSC).
 - **Pump or bail standing water off any non-safety cover** after every thaw or rain.
 - **The water-draw opening is re-covered and the gate re-latched after every draw**, by the
   adult who drew the water.
@@ -147,9 +150,9 @@ You may be running open fire every day (→ 07-01, → 08-01, → 10-02).
   it.
 - **The hot-zone line:** a line on the floor (tape works) that children do not cross when fire
   is burning. Teach it and hold it (→ 20-04).
-- **Hot liquids never travel through where children are.** Scalds are the most common serious
-  burn in small children.
-- **No flame in children's rooms.** Flameless lights only (USFA, Candle Fire Safety).
+- **Hot liquids never travel through where children are.**
+- **No flame in children's rooms.** USFA says do not use lit candles in bedrooms or sleeping
+  areas, and use flashlights, not candles, in a power outage (USFA, Candle Fire Safety).
 - **Lamps and candles out before sleep.** Open flame indoors is a trade-off on its own card
   (→ 30-21). {{choice DC-20}} → 30-21.
 - **A young child never carries a flame.** Give them a headlamp instead: a light they are
@@ -171,8 +174,8 @@ area are often in the same room.
   checks. {{choice DC-01}} → 30-02.
 - **Never moved or refuelled while lit or hot.** Refuel outdoors, with the heater cold (→ 08-10).
 - **The fuel can and funnel live outside the room**, capped and locked (→ 06-06). A mouthful of
-  kerosene or lamp oil can be breathed into the lungs and cause a severe pneumonia (CDC MMWR,
-  hydrocarbon ingestion in children; → 12-17).
+  lamp oil swallowed by a child can be breathed into the lungs and cause a chemical pneumonia
+  (CDC MMWR, Near Fatal Ingestion of Household Lamp Oil, 1997; → 12-17).
 - **Nothing drying on or over the heater; nothing stored inside the barrier.**
 - **The play area or crib on the far side of the room** from the heater and from the vent.
 - **The heater's own safety switches** (tip-over, low-oxygen) stop a fire, not a burn. They are
@@ -234,9 +237,10 @@ A house changes under crisis load: new gear, new fuel, new cords, staged bags. *
 on your knees** (that is a toddler's sight line) every few months and whenever the house
 changes, and put it on the drill calendar (→ 24-02, → 25-10).
 
-- [ ] **Button and coin batteries, first, every time** (CPSC, Button Batteries). Every headlamp,
+- [ ] **Button and coin batteries, first, every time** (AAP, Poison Prevention). Every headlamp,
       radio, clock, thermometer, remote and key fob: **is the battery door screwed shut?** A
-      swallowed coin battery can burn through the gullet in hours. If one is swallowed, the
+      battery stuck in the gullet can cause serious burns in as little as 2 hours (National
+      Capital Poison Center, Button Battery Ingestion guideline). If one is swallowed, the
       steps are on → 12-17 (National Capital Poison Center guideline); read it before you need
       it.
 - [ ] **Spare coin batteries stored like medicine:** locked or high, in the original pack,
@@ -252,8 +256,8 @@ changes, and put it on the drill calendar (→ 24-02, → 25-10).
 - [ ] **Tools and knives** back in locked storage, not where the last job ended (→ 16-01).
 - [ ] **Heater season:** barrier anchored at the label clearances; nothing drying on it or stored
       inside it; play area on the far side; carbon monoxide alarm in the room tested this month.
-- [ ] **Generator:** runs outside only, at least 20 feet from any window, door or vent, exhaust
-      away from the house (CDC, Carbon Monoxide Poisoning Basics; → 09-04); its hot muffler is a
+- [ ] **Generator:** runs outside only, at least 20 feet from the house (CPSC) and more than 20
+      feet from any window, door or vent (CDC), exhaust away from the house (→ 09-04); its hot muffler is a
       burn; cords routed where a child cannot pull or trip on them.
 - [ ] **Car seats:** installed and tight, harness at each child's current size, no bulky coat
       under the harness (AAP; → 11-02, → 22-05).
@@ -270,9 +274,8 @@ ______________________________________________________________
 ## Arriving at a new place: farms, ponds and woods
 
 A destination or a new site has hazards this house does not. **Walk the new place on the first
-day, before anything is unpacked and before children roam.** CDC/NIOSH's childhood agricultural
-injury work counts farms among the most dangerous places children are ever present, with
-machinery and drowning leading the list.
+day, before anything is unpacked and before children roam.** A farm holds hazards a house does
+not: machinery, open water, large animals and stored chemicals.
 
 **The first-day walk (ask the hosts to walk it with you):**
 - [ ] **Augers and power take-off (PTO) shafts are absolute no-go zones.** Name them, mark them
@@ -307,7 +310,7 @@ _______________________________________________________________
 
 | Item | Why | Notes |
 |---|---|---|
-| Pool isolation fence, self-latching gate, safety cover (if any pool) | The highest-value safety item on a property with a pool | CDC, CPSC, AAP |
+| Pool isolation fence, self-latching gate, safety cover (if any pool) | The highest-value safety item on a property with a pool | CDC, CPSC |
 | Gate and door alarms | Another layer | Where the house forms a side of the pool area |
 | **Lids for every water container** | A bucket is a toddler drowning hazard | → 03-02 |
 | **Anchored heater barrier** | Heater and children share a room | → 08-09, → 08-10 |

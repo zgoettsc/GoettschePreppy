@@ -2,7 +2,7 @@
 id: 04-12-fats-and-oils
 section: 04-food-storage-and-preservation
 title: "Fats and oils: storage and rendering"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -26,7 +26,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Oil shelf life re-sourced to NDSU Extension; unsourced per-fat year ranges removed; gallon-of-oil calories from FoodData Central" }
 ---
 
 # Fats and oils: storage and rendering

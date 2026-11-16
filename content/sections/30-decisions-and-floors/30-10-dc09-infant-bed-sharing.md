@@ -11,9 +11,7 @@ tags: [decision card, infant, toddler, safe sleep, bed-sharing, cold, warmth, SI
 derived_from: [11-02-keeping-kids-warm, 21-07-sleep, 20-01-toddler-and-infant-needs, 08-01-heating-one-room]
 sources:
   - american-academy-of-pediatrics-healthychildren-org-h-7bd7d0
-  - american-academy-of-pediatrics-healthychildren-org-h-7bd7d0
   - cdc-preventing-hypothermia-c53e0c
-  - cdc-winter-weather-before-during-and-after-13bbd5
 related: [11-02-keeping-kids-warm, 20-01-toddler-and-infant-needs, 21-07-sleep, 08-01-heating-one-room, 12-03-burns, 30-02-dc01-unvented-heater-overnight, 30-01-the-floors]
 cards: [DC-09, DC-01]
 explainers: []
@@ -22,11 +20,11 @@ card: DC-09
 options:
   - id: separate-sleep-surface
     label: "Own firm sleep surface beside the adults"
-    summary: "The child sleeps on a separate firm, flat surface (crib, play yard, firm mat on the floor) next to the adults in the warm room, dressed in layers and a sleep sack, checked by touch. Never in the adult bed."
+    summary: "The child sleeps on a separate firm, flat surface (crib, bassinet or play yard; in an emergency, a box, basket or drawer with thin, firm padding) next to the adults in the warm room, dressed in layers or a wearable blanket, checked for overheating. Never in the adult bed."
   - id: bed-share-with-rules
     label: "Bed-share on cold nights, over 12 months only, with rules"
     summary: "Only for a child over 12 months: firm mattress (on the floor if the bed is high), no pillows or heavy covers near the child, sleep sack instead, sober and unsedated adults, no older child beside them, nothing hot in the bed."
-settings_summary: "In a cold house, sharing a bed keeps a small child warm with body heat. The American Academy of Pediatrics says babies under 1 year should sleep in the parents' room but on their own firm, flat surface, never in an adult bed, because about 3,500 US babies die each year from sleep-related causes, including suffocation in soft bedding and being lain on. The risk is highest under 4 months, with soft bedding, sofas, smoking, or an adult who has had alcohol or sedating medicine. Cold is a real risk too: CDC lists infants in cold bedrooms among those most at risk of hypothermia. What helps most: own firm surface next to the adults, warm room, layers and a sleep sack (removes most of it). Bed-sharing on this card is only offered for children over 12 months."
+settings_summary: "In a cold house, sharing a bed keeps a small child warm with body heat. The American Academy of Pediatrics says babies under 1 year should sleep in the parents' room but on their own firm, flat surface, and that parents should avoid bed-sharing under any circumstances; about 3,500 US babies die each year suddenly and unexpectedly while sleeping, most from SIDS or from suffocation or strangulation. The risk is highest under 4 months, with soft bedding, sofas, smoking, or an adult who has had alcohol, drugs or sedating medicine. Cold is a real risk too: CDC lists infants in cold bedrooms among those most at risk of hypothermia. What helps most: own firm surface next to the adults, warm room, layers and a sleep sack (removes most of it). Bed-sharing on this card is only offered for children over 12 months."
 review_pass: null
 ---
 
@@ -44,8 +42,8 @@ cold hurts small children too, and what the household decides for each young chi
 ## 1. The thing, in plain words
 
 **Bed-sharing** means a baby or toddler sleeping in the same bed as an adult. **Room-sharing**
-means the child sleeps in the same room but on a separate surface: a crib, a play yard, or a
-firm mat on the floor. A **sleep sack** is a wearable blanket that zips around the child and
+means the child sleeps in the same room but on a separate surface: a crib, a bassinet or a
+play yard. A **sleep sack** is a wearable blanket that zips around the child and
 cannot be kicked off or pulled over the face.
 
 {{#if has.infant}}Your household has a child under 24 months.{{/if}} {{#if has.toddler}}Your household has a child between 12 and 47 months.{{/if}}
@@ -53,20 +51,25 @@ cannot be kicked off or pulled over the face.
 ## 2. The rule, and why it was set
 
 The American Academy of Pediatrics (AAP), 2022 safe-sleep recommendations:
-- Babies sleep **on their back, on a firm, flat surface**, with nothing soft in the sleep
-  space: no pillows, quilts, bumpers or loose blankets.
-- **Room-share without bed-sharing**, ideally for at least the first 6 months.
-- **Bed-sharing is not recommended** for babies under 1 year, and is especially dangerous in
-  the circumstances listed below.
-- Avoid overheating; dress the baby for the room and use a wearable blanket instead of loose
-  covers. (AAP, How to Keep Your Sleeping Baby Safe: AAP Policy Explained.)
+- Babies sleep **on their back, on a firm, flat surface** (a crib, bassinet, portable crib or
+  play yard that meets federal safety standards), with nothing soft in the sleep space: no
+  pillows, quilts, comforters, bumpers or loose blankets.
+- **In an emergency**, a baby can sleep for a while in a box, basket, dresser drawer or
+  something similar with thin, firm padding, until a proper sleep surface is found.
+- **Share a room, never a bed:** room-share for at least the first 6 months, and avoid
+  bed-sharing with a baby under any circumstances.
+- Avoid overheating: dress the baby in only one layer more than you are wearing, or use a
+  wearable blanket, instead of loose covers; no weighted blankets or sleepers. (AAP, How to Keep
+  Your Sleeping Baby Safe: AAP Policy Explained. These recommendations are for babies up to 1
+  year.)
 
-**Why:** the AAP reports about 3,500 sleep-related infant deaths a year in the United States.
-Adult beds are soft, with pillows and heavy covers. A baby cannot lift its head out of a soft
-dip or push a duvet off its face, and a deeply asleep adult can roll onto a baby without
-knowing. The AAP names the highest-risk cases: babies under 4 months, babies born early or
-small, an adult who smokes, an adult who has had alcohol or drugs or sedating medicine, a sofa
-or armchair, and soft bedding.
+**Why:** the AAP reports that about 3,500 US babies die suddenly and unexpectedly in their sleep
+each year, most from SIDS or from accidental suffocation or strangulation. Adult beds are soft,
+with pillows and heavy covers, and soft bedding raises the risk of entrapment, suffocation and
+strangulation. The AAP names the highest-risk cases: bed-sharing with a baby under 4 months (5
+to 10 times the risk), a baby born early or small (2 to 5 times), an adult who smokes or vapes,
+an adult who is very tired or has had alcohol, drugs or medicine that makes waking harder (more
+than 10 times), and falling asleep with a baby on a couch or soft armchair (up to 67 times).
 
 ## 3. How it actually hurts people
 
@@ -76,10 +79,10 @@ exhausted after days without sleep, or who took a sleeping pill or a drink to co
 the child. In cold rooms parents pile on more covers, which is exactly the soft bedding the AAP
 warns about. Older children in the bed are another rolling body.
 
-**Cold:** babies lose heat fast and cannot tell you they are cold. CDC lists infants sleeping
-in cold bedrooms among the people most at risk of hypothermia, which can show as bright red,
-cold skin and very low energy (CDC, Preventing Hypothermia; CDC, Winter Weather). Too many
-layers is its own risk: overheating is linked to sudden infant death (AAP).
+**Cold:** babies cannot tell you they are cold. CDC lists babies sleeping in cold bedrooms
+among those most often hit by hypothermia, which in a baby shows as bright red, cold skin and
+very low energy (CDC, Preventing Hypothermia). Too many layers is its own risk: overheating can
+increase the risk of SIDS (AAP).
 
 The AAP's safe-sleep rules cover babies under 1 year. They set no rule for older toddlers,
 but suffocation, entrapment and rolling-on risks do not vanish at a birthday, and
@@ -88,13 +91,13 @@ cold-weather bedding makes them worse.
 ## 4. What makes it safer
 
 **Removes most of the risk**
-- **The child's own firm, flat surface right beside the adults, in the warm room.** A play
-  yard or a firm mat on the floor counts. The adults' bodies and the room's heat warm the space
-  around it (→ 08-01).
-- **Warmth is worn, not piled on:** a snug base layer, a footed sleeper, and one sleep sack
-  rated for a cold room. Do not stack two sacks.
-- **Check by touch:** feel the back of the neck or chest. Sweaty or hot means take a layer off;
-  cool hands and feet are normal.
+- **The child's own firm, flat surface right beside the adults, in the warm room.** A crib,
+  bassinet or play yard; in an emergency, the AAP's box, basket or drawer with thin, firm
+  padding. The room's heat warms the space around it (→ 08-01).
+- **Warmth is worn, not piled on:** layers of clothing or a wearable blanket, about one layer
+  more than the adults are wearing (AAP). Nothing weighted.
+- **Check for overheating:** sweating, a hot chest or flushed skin means take a layer off
+  (AAP).
 
 **Reduces it a lot** (only for a child over 12 months who bed-shares)
 - A **firm mattress**, on the floor if the bed is high; no gap against the wall.

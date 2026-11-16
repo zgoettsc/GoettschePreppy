@@ -39,7 +39,7 @@ condition: CL-11
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CDC seizure first aid and 911 list verified (longer than 5 min; diabetes with loss of consciousness); NINDS triggers and status epilepticus; meds_for tables." }
 ---
 
 # CL-11. Epilepsy and seizure disorders

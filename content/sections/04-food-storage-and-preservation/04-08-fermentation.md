@@ -2,7 +2,7 @@
 id: 04-08-fermentation
 section: 04-food-storage-and-preservation
 title: "Fermentation and root cellaring"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -26,7 +26,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Sauerkraut rates and temperatures checked against Guide 6; root-cellar groups re-sourced to WSU Extension; size wording fixed" }
 ---
 
 # Fermentation and root cellaring

@@ -2,7 +2,7 @@
 id: 04-18-meal-planning-scarcity
 section: 04-food-storage-and-preservation
 title: "Meal planning and cooking from stores"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -25,7 +25,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Haybox hold rule aligned with 07-02 (CDC); kidney-bean boil 30 min (FDA); CDC sick-day examples as published" }
 ---
 
 # Meal planning and cooking from stores
@@ -88,15 +88,16 @@ a scale and a printed reference, not later by candlelight.
 
 - **One fire, many jobs** (→ 06-02): the meal, tomorrow's beans, boiled water, hot-water bottles.
 - **Soak beans and grains first.** It cuts cooking time a great deal.
-- **Haybox finish** (an insulated box that keeps a hot pot cooking, → 07-02): boil hard **at
-  least 10 minutes,** then insulate for hours. Nearly free.
+- **Haybox finish** (an insulated box that keeps a hot pot cooking, → 07-02): bring the pot to
+  a hard boil, then insulate for hours. Nearly free.
   - **Dry kidney beans and other dry beans of the same family** (red, white, pinto, black):
     **soak at least 5 hours, throw the soak water away, and boil in fresh water for at least
     30 minutes BEFORE the box.** Never from raw in a haybox alone; a low, slow cook does not get
     hot enough to destroy the bean toxin (FDA, Bad Bug Book; → 04-03).
-  - **Hold rule:** food that has sat in the box more than about 4 hours, or is no longer too hot
-    to touch (about 140 °F, the top of the danger zone), is **boiled again before anyone eats
-    it.** The box is a cooker, not a warmer for ever.
+  - **Hold rule:** check with a thermometer before serving. Food still above 140 °F is fine;
+    food that has just dropped below it is **reheated to 165 °F**; food that has sat below
+    140 °F for **more than 2 hours** is thrown out (CDC, as on → 07-02). The box is a cooker,
+    not a warmer for ever.
 - **Cook once a day, eat twice;** reheat small portions on little fuel.
 - **Lid on, windbreak up:** the two cheapest savings you have (→ 07-01).
 
@@ -108,7 +109,7 @@ a scale and a printed reference, not later by candlelight.
   cooking.
 - **Sick days change everything.** When the person cannot eat normally, CDC's sick-day guidance
   is **about 50 grams of carbohydrate every 4 hours** in a form they can keep down, such as
-  juice, regular soda or applesauce (CDC, Managing Sick Days). The rest of the sick-day plan is
+  1½ cups of unsweetened applesauce or 1½ cups of fruit juice (CDC, Managing Sick Days). The rest of the sick-day plan is
   on → 02-01 or → 02-05. **Stock those foods specifically** and do not let them be eaten as treats.
 
 ## If anyone has a food allergy or restricted diet

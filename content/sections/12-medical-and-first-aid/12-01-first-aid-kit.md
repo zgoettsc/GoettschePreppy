@@ -2,7 +2,7 @@
 id: 12-01-first-aid-kit
 section: 12-medical-and-first-aid
 title: "Building a real first-aid and trauma kit"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -41,7 +41,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Stop the Bleed class length and tourniquet list sourced to DoD STB; tourniquet floor and DC-25 added; unsourced syringe size, kit-count and 20-litre ORS figures removed; blank conditions read 'none in settings'." }
 ---
 
 # Building a real first-aid and trauma kit

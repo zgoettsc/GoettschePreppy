@@ -107,8 +107,8 @@ The steps below follow the Drug Facts label on the over-the-counter naloxone nas
    and lay them on their side to prevent choking (→ 12-18 for the position). **Not breathing
    normally:** start CPR (→ 12-18).
 6. **Stay.** The label says to stay until the ambulance arrives, even if they wake up, and to
-   give another dose if they become very sleepy again. With no ambulance coming, CDC says stay
-   with them for at least four hours (CDC, Lifesaving Naloxone). With strong opioids such as
+   give another dose if they become very sleepy again. CDC says to stay with them until
+   emergency help arrives or for at least four hours (CDC, Lifesaving Naloxone). With strong opioids such as
    fentanyl, more than one dose may be needed (CDC).
 7. When they wake they may be in sudden withdrawal: shaking, sweating, sick, angry. The label
    says this is to be expected. Keep them warm and calm.
@@ -236,14 +236,19 @@ sudden stop and guessing, and both are dangerous. **Only the prescriber can writ
 Prescriber or clinic: ____________________ Date: __________
 
 **Stock arithmetic.** Days on hand = on hand ÷ used per day. The medicines tagged for this
-condition in settings are printed; if none is tagged, every medicine row is, and you use the
-ones for this condition.
+condition in settings are printed; if none are tagged, every household medicine row is, so use
+the ones for this condition.
 
 | Medicine or supply | On hand | Used per day | Days on hand | Days you want | Still to get |
 |---|---|---|---|---|---|
-{{#each meds_for.CL-17 as m}}| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
-{{else}}{{#each meds as m}}| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
-{{/each}}{{/each}}| Naloxone (at least two doses) | ____ | | | ____ | ____ |
+{{#each meds_for.CL-17 as m}}
+| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
+{{else}}
+{{#each meds as m}}
+| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
+{{/each}}
+{{/each}}
+| Naloxone (at least two doses) | ____ | | | ____ | ____ |
 | Lockable box | ____ | | | ____ | ____ |
 | Oral rehydration supplies (salt, sugar, measuring spoons) | ____ | | | ____ | ____ |
 | Heat packs, cold packs, pillows for positioning | ____ | | | ____ | ____ |
@@ -300,16 +305,22 @@ household's full medicine stockpile is on → 12-07.
 
 ## 12. My meds
 
-Rows marked ✓ are the medicines your household tagged for this condition in settings. If none
-is tagged, every medicine row your household entered is printed with a ☐ instead: **tick the
-rows for this condition** and cross out the rest. Fill any blank columns by hand, and add
-missing medicines in the blank rows. **Add a row for each naloxone package** and its expiry.
+Medicines your household tagged for this condition in settings are printed below. **If none
+are tagged, every medicine row your household entered is printed instead: tick the rows for
+this condition** and cross out the rest. Fill any blank columns by hand from the boxes
+and bottles, and add untagged medicines in the empty rows. **Add a row for each naloxone package** and its expiry.
 
 | For this? | Who | Medicine | Strength | Schedule | Fridge? | If doses are missed (prescriber's words) | Where kept | Days on hand | Expires |
 |---|---|---|---|---|---|---|---|---|---|
-{{#each meds_for.CL-17 as m}}| ✓ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
-{{else}}{{#each meds as m}}| ☐ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
-{{else}}| ☐ | (no medicines entered yet) | | | | | | ____ | ____ | ____ |
-{{/each}}{{/each}}| ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
+{{#each meds_for.CL-17 as m}}
+| ☐ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
+{{else}}
+{{#each meds as m}}
+| ☐ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
+{{else}}
+| ☐ | (no medicines entered yet) | | | | | | ____ | ____ | ____ |
+{{/each}}
+{{/each}}
+| ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
 | ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
 | ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |

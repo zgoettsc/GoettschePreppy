@@ -2,7 +2,7 @@
 id: 12-05-common-illness-and-dehydration
 section: 12-medical-and-first-aid
 title: "Common illness, diarrhoea and dehydration"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -37,7 +37,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "WHO Table 2 and notes checked word for word against the IRIS PDF (title, local-measure row, NOTE, vomiting parenthesis); Plan A wording exact; Yellow Book sports-drink claim corrected; recipe quote exact; 24-h claim removed." }
 ---
 
 # Common illness, diarrhoea and dehydration

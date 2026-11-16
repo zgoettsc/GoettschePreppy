@@ -2,7 +2,7 @@
 id: 09-01-power-priorities
 section: 09-power-and-energy
 title: "What actually needs power (load triage)"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -10,9 +10,11 @@ phase: [A, B, C]
 tags: [power, electricity, triage, planning, watt-hours, medical]
 derived_from: [09-01-power-priorities]
 sources:
-  - us-department-of-energy-solar-energy-technologies-of-2a534a
-  - us-department-of-energy-consumer-guide-to-residentia-1d87da
   - american-red-cross-power-outage-safety-6d07a8
+  - generac-gp3500io-owners-manual
+  - resmed-airsense-11-user-guide-r14
+  - caire-airsep-newlife-technical-manual-r14
+  - dometic-cfx3-35-product-page-r14
 related:
   - 09-02-solar-basics
   - 09-03-batteries-and-storage
@@ -36,7 +38,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Kettle 135 Wh/litre-boil to match 07-06/09-03; fridge row arithmetic fixed to EX-02's 1,000-2,000 Wh; CPAP (ResMed), concentrator (AirSep) and cooler (Dometic) from maker specs; motor start 3x (Generac); remaining rows labelled placeholders as on EX-02" }
 ---
 
 # What actually needs power (load triage)
@@ -50,8 +52,10 @@ are new to you, read → 29-02 first; this page uses them without re-explaining.
 ## Do this now
 - **Buy a plug-in watt meter (the kind a lamp plugs into) and measure your real devices.** The
   label on an appliance gives its *maximum* draw, not what it uses over a day. A refrigerator
-  labelled 700 W may average 60 to 90 W across a day because the compressor cycles on and off.
-  Guessing here is the single biggest cause of systems that turn out too small.
+  draws its full running watts only while the compressor runs; a typical full-size one uses about
+  1,000 to 2,000 Wh across a day, an average of roughly 40 to 85 W (→ 29-02). Its yellow
+  EnergyGuide label gives kilowatt-hours per year: ÷ 365 for a day (→ 04-17). Guessing here is the
+  single biggest cause of systems that turn out too small.
 - **Fill in the table at the bottom of this page** with measured numbers. It is the input to
   → 09-02, → 09-09 and → 09-10. Nothing downstream works without it.
 - **Sort every load into the four tiers below and put the tier on a label on the device.** You
@@ -60,8 +64,9 @@ are new to you, read → 29-02 first; this page uses them without re-explaining.
   {{#if has.refrigerated_meds}}This household has a refrigerated medicine: keeping it cold is a
   Tier 0 load and usually the biggest one (→ 09-10).{{/if}}
   {{#if has.cpap}}A CPAP machine is on the Tier 0 list (→ 02-24, → 09-06).{{/if}}
-  {{#if has.oxygen}}An oxygen concentrator is on the Tier 0 list, and it is a large load
-  (→ 02-08, → 09-06).{{/if}}
+  {{#if has.oxygen}}An oxygen concentrator is on the Tier 0 list, and it is a large load:
+  one common 5-litre home concentrator is rated at 350 W (AirSep NewLife technical manual), about
+  8,400 Wh a day if it runs around the clock (→ 02-08, → 09-06).{{/if}}
   Everything else on this page is comfort by comparison.
 
 ## Why it works this way
@@ -69,8 +74,8 @@ are new to you, read → 29-02 first; this page uses them without re-explaining.
 **The number that matters is the watt-hour (Wh).** Watts are how fast a device uses energy;
 watt-hours are how much it used. Watts × hours = watt-hours: a 10 W LED bulb for 5 hours is
 50 Wh. A battery is rated in watt-hours, or in amp-hours at a voltage (amp-hours × volts =
-watt-hours; a 100 Ah 12 V battery is roughly 1,200 to 1,280 Wh depending on whether you count it
-at 12.0 or 12.8 V). Every sizing decision in this section is that one piece of arithmetic
+watt-hours; a 100 Ah 12 V battery is roughly 1,200 Wh counted at 12.0 V, or 1,280 Wh for a
+lithium iron phosphate battery counted at its 12.8 V nominal). Every sizing decision in this section is that one piece of arithmetic
 (→ 29-02).
 
 **Two numbers describe every load, and you need both:**
@@ -86,8 +91,9 @@ is for information, medicine and light.
 
 **Two deliberate exceptions** (→ 07-06):
 - **Boiling small amounts of water.** An electric kettle is efficient, silent and makes no carbon
-  monoxide. Budget about **110 Wh per litre boiled, about 55 Wh per freeze-dried meal**. A vacuum
-  flask filled from one morning boil roughly halves that.
+  monoxide. Budget about **135 Wh from the battery per one-litre boil**, kettle and inverter losses
+  included; a freeze-dried pouch that takes about half a litre is about half that (→ 07-06). A
+  vacuum flask filled from one boil saves boiling again later.
 - **Heated blankets (50 to 100 W)** warm the person, not the room: the best heat per watt you
   can get from a battery.
 
@@ -99,7 +105,7 @@ is for information, medicine and light.
 |---|---|---|
 | Phone(s) used for medical devices, alerts and contact | Information; for some households the phone runs a medical device (→ 09-06) | About 10 to 20 Wh a day with the screen mostly off |
 | Cooling for refrigerated medicine | Some medicines lose strength when warm (→ 29-07, → 09-10) | **200 to 1,500 Wh a day, depending on what does the cooling** |
-| Medical devices that plug in or charge (CPAP, oxygen concentrator, pump accessories, nebuliser) | Breathing and medicine delivery (→ 09-06) | From a few Wh to hundreds; read the label and measure |
+| Medical devices that plug in or charge (CPAP, oxygen concentrator, pump accessories, nebuliser) | Breathing and medicine delivery (→ 09-06) | From a few Wh to thousands; read the manual's power figures and measure (→ 09-06) |
 | One reliable light source at night | Falls, stairs, children, injuries | 10 to 50 Wh a day |
 
 **Tier 1: high value, low cost.** Radio and scanner (→ 15-02, → 15-04), headlamps and
@@ -117,6 +123,9 @@ nothing.
 
 ### Typical draws (planning placeholders; measure your own)
 
+Rows marked with a maker's name are that maker's published figure for one common model; the rest
+are rough placeholders, the same ones used on → 29-02, to be replaced by your own measurements.
+
 | Device | Typical W | Typical Wh per day | Tier |
 |---|---|---|---|
 | Phone charge | 5 to 20 W | 10 to 20 Wh | 0 |
@@ -124,11 +133,12 @@ nothing.
 | Headlamp recharge | 2 to 5 W | 5 to 10 Wh | 1 |
 | Handheld radio charge | 5 W | 10 to 20 Wh | 1 |
 | Laptop | 30 to 65 W | 100 to 300 Wh | 1 or 2 |
-| CPAP-class medical device | 30 to 60 W | 200 to 400 Wh | 0 if you use one |
-| 12 V compressor cooler (medicine) | 40 to 60 W while running | 200 to 500 Wh | 0 |
+| CPAP (ResMed AirSense 11: typical 56 W, peak 73 W) | about 56 W | about 450 Wh for an 8-hour night at the typical figure; less with humidifier and heated tube off (measure) | 0 if you use one |
+| Oxygen concentrator, 5-litre home unit (AirSep NewLife: 350 W) | 350 W | about 8,400 Wh if run 24 hours | 0 if you use one |
+| 12 V compressor cooler (medicine) (Dometic CFX3 35: 0.98 Ah an hour at 12 V in a 90 °F room) | up to 90 W while running (7.5 A rated) | about 280 Wh in a hot room | 0 |
 | **The power station's own draw** (its idle use while it runs a load) | commonly 3 to 10 W, more with the AC inverter on | 70 to 240 Wh | 0: unavoidable; keep it small by using the 12 V port and switching the AC inverter off (→ 09-10) |
-| Full-size refrigerator (efficient, modern) | 60 to 150 W average | 800 to 1,500 Wh | 0 or 2 |
-| Chest freezer | 40 to 100 W average | 600 to 1,200 Wh | 2 |
+| Full-size refrigerator | 100 to 200 W while the compressor runs | 1,000 to 2,000 Wh (EnergyGuide label ÷ 365 for yours) | 0 or 2 |
+| Chest freezer | Running watts on its label | EnergyGuide label ÷ 365 | 2 |
 | Box fan | 50 to 100 W | 400 to 800 Wh | 1 or 2 |
 | Microwave | 1,000 to 1,500 W | | 3 |
 | Electric kettle | 1,200 to 1,800 W | | 3, except the small-boil exception above (→ 07-06): tea and meals yes, bulk heating never |
@@ -140,9 +150,10 @@ that with what your panels make on a clear December day (→ 09-05): for most ho
 few hundred to a couple of thousand watt-hours. That is why heat comes from combustion, clothing
 and one warm room (→ 08-04), not from batteries.
 
-{{#if has.house_connection}}A furnace blower is a motor load (often several hundred watts running,
-two to three times that for a moment at start). It can run from a generator or a large station
-only through a safe connection: this household's is "{{ gear.house_connection }}" (→ 09-04).
+{{#if has.house_connection}}A furnace blower is a motor load (its running watts are on the motor
+plate; allow about 3 times that for starting, as Generac's manual does for motor loads). It can run
+from a generator or a large station only through a safe connection: this household's is
+"{{ gear.house_connection }}" (→ 09-04).
 {{else}}A gas furnace needs electricity for its blower and controls. It can run from a generator
 or a large station only through a safe connection: a transfer switch or interlock fitted by an
 electrician, or a cord-and-plug conversion, which is a decision card (→ 09-04, {{choice DC-07}},
@@ -152,7 +163,8 @@ electrician, or a cord-and-plug conversion, which is a decision card (→ 09-04,
 1. List every device you would want. Measure or estimate its watts and hours per day.
 2. Multiply for watt-hours per day. Add up each tier.
 3. **The Tier 0 total is your must-have design number.** Add about 30% for inverter and charging
-   losses (inverters are typically 85 to 90% efficient, and batteries lose a little too).
+   losses (this binder's planning margin; your inverter's efficiency is on its label, and
+   batteries lose a little too).
 4. **Tier 0 plus Tier 1 is the realistic target.** If that is affordable, build to it.
 5. **Everything above Tier 1 is a fair-weather bonus** you run only on a sunny surplus day.
 6. **Check the plan against December, not June** (→ 09-05). A system sized in summer
@@ -169,7 +181,7 @@ electrician, or a cord-and-plug conversion, which is a decision card (→ 09-04,
 | This page's table, filled in | The design document for everything downstream | Copy the totals to → 23-02 |
 | Label maker or masking tape and marker | Tier label on every device | Removes decisions from a crisis |
 | Power strips with switches | Kills standby draw at once | Standby draw adds up over weeks |
-| USB power banks, 20,000 mAh or larger | About 70 Wh each; covers phone loads for days (→ 09-06) | The cheapest useful battery there is |
+| USB power banks, 20,000 mAh or larger | About 70 Wh each (20 Ah × the cell's 3.6 to 3.7 V); covers phone loads for days (→ 09-06) | The cheapest useful battery there is |
 
 **Scavenge or substitute:**
 - **Measuring without a meter:** appliance labels give maximum watts (a ceiling, not a daily

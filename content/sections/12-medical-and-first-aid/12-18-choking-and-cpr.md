@@ -2,7 +2,7 @@
 id: 12-18-choking-and-cpr
 section: 12-medical-and-first-aid
 title: "Choking and CPR: memory aid (take the class)"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -42,7 +42,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Updated to 2025 AHA guidance via MedlinePlus (2026) and AHA/AAP 2025 abstract: no two-finger infant compressions, 5+5 back blows/thrusts all ages, depths 1.5/2/2 in; unverifiable 2.4 in and 2-to-5-breath figures removed." }
 ---
 
 # Choking and CPR: memory aid (take the class)

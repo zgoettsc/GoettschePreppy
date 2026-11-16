@@ -2,7 +2,7 @@
 id: 09-10-power-for-medical
 section: 09-power-and-energy
 title: "Power for refrigerated medicine"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -13,7 +13,8 @@ sources:
   - us-fda-information-regarding-insulin-storage-and-swi-6448d3
   - american-diabetes-association-insulin-storage-and-sy-6f1f94
   - us-fda-epipen-epinephrine-injection-usp-auto-injecto-a9f17f
-  - us-department-of-energy-solar-energy-technologies-of-2a534a
+  - dometic-cfx3-35-product-page-r14
+  - igloo-iceless-40-product-page-r14
 related:
   - 09-01-power-priorities
   - 09-03-batteries-and-storage
@@ -42,7 +43,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Cooling table re-sourced: compressor cooler (Dometic), thermoelectric limit (Igloo), fridge matched to EX-02/1.2 kWh; EpiPen storage as labelled (no 'frozen' claim); insulin 36-46 F and frozen floor checked against FDA" }
 ---
 
 # Power for refrigerated medicine
@@ -65,8 +66,9 @@ and on → 29-07.
 
 ## Do this now
 - **Measure the real daily watt-hours of whatever you would use to cool medicine.** A full-size
-  kitchen refrigerator and a small 12 V compressor cooler differ by nearly ten times, and that
-  decides whether your system is adequate or hopeless. Plug it into a watt meter for 24 hours and
+  kitchen refrigerator (about 1,000 to 2,000 Wh a day) and a small 12 V compressor cooler (about
+  280 Wh a day for one common model in a hot room) differ several times over, and that decides
+  whether your system is adequate or hopeless. Plug it into a watt meter for 24 hours and
   write the number here: ________ Wh per day.
 - **If you do not yet own a medicine cooler, a small 12 V compressor cooler is the purchase that
   matters.** Compressor, never thermoelectric (see below).
@@ -88,18 +90,19 @@ and on → 29-07.
 Cooling is a heat pump. It runs a motor and fights the room temperature all day, every day. That is a
 different shape of load from a phone:
 
-| Device | Typical running W | Typical Wh per day | Notes |
+| Device | Running W | Wh per day | Notes |
 |---|---|---|---|
-| Phone | 5 to 20 W briefly | **10 to 20 Wh** | Trivial |
-| **12 V compressor cooler (small, well insulated)** | 40 to 60 W while running | **200 to 500 Wh** | Duty cycle depends heavily on room temperature |
-| Dorm or mini fridge (AC, cheap, poorly insulated) | 60 to 90 W | **600 to 1,000 Wh** | Often *worse* than a modern full-size fridge |
-| Full-size efficient refrigerator | 60 to 150 W average | **800 to 1,500 Wh** | Big, but modern ones are surprisingly efficient |
-| **Thermoelectric ("Peltier") cooler** | **45 to 60 W continuous** | **1,000 to 1,400 Wh** | **Runs constantly and cools only about 30 to 40 °F below the room. Avoid.** |
+| Phone | 5 to 20 W briefly (typical) | **10 to 20 Wh** (typical) | Trivial |
+| **12 V compressor cooler**, example: Dometic CFX3 35 (36 litres) | Up to 90 W while the compressor runs (7.5 A rated) | **About 280 Wh** (0.98 amp-hours per hour at 12 V, room at 90 °F, inside at 39 °F) | Less in a cooler room; the duty cycle depends heavily on room temperature |
+| Dorm or mini fridge | Label watts | **EnergyGuide label ÷ 365** | Measure it: small fridges are not always frugal |
+| Full-size refrigerator | 100 to 200 W while the compressor runs (typical) | **About 1,000 to 2,000 Wh** (typical, → 29-02); EnergyGuide label ÷ 365 for yours | Big |
+| **Thermoelectric ("Peltier") cooler** | Label watts, **drawn the whole time it cools** | **Label watts × 24** | **Cools only up to about 38 °F below the room (Igloo, Iceless 40). Avoid.** |
 
 **Read the thermoelectric row carefully.** Those coolers are cheap, common and sold as "12 V
-refrigerators", and they are the **worst choice** here. They never cycle off, use more energy than a
-real refrigerator, and on a hot day may not reach a useful temperature at all. A 12 V compressor
-cooler costs several times more and uses a fraction of the power.
+refrigerators", and they are the **worst choice** here. They cool only to a fixed amount below the
+room (up to about 38 °F below it for one common model; Igloo), so on a hot day they may not reach
+the medicine's range at all; and because they work by running continuously, their daily use is
+simply their label watts × 24. Compare that with a compressor cooler's figure before you buy.
 
 ### Sizing against reality
 **Worked example:** a cooler at about **350 Wh a day**, with 400 W of panels at a northern location
@@ -182,18 +185,19 @@ freezing: keep a min/max thermometer in any passive store.
    a cloudy stretch, so the compressor can run at midday when the sun is up.
 4. **Site it cool:** the coolest room, out of the sun, away from any heater.
 5. **Open it rarely.** Every opening dumps the cold air.
-6. **Run it on 12 V DC directly:** no inverter, no 10 to 15% conversion loss, no inverter idle draw.
+6. **Run it on 12 V DC directly:** no inverter, no conversion loss, no inverter idle draw.
 7. **Pre-cool at midday** and let it coast overnight.
 
 ### Other medicines with temperature rules
-{{#if has.epinephrine}}**Epinephrine auto-injectors** are a different problem from insulin: they are
-generally stored at room temperature, protected from light, and **not refrigerated or frozen** (US
-FDA, EpiPen prescribing information). **Their winter risk is freezing.** In a house heated to one
+{{#if has.epinephrine}}**Epinephrine auto-injectors** are a different problem from insulin: EpiPen's
+label says store at 68 to 77 °F, with short excursions allowed from 59 to 86 °F, protect from
+light, and **do not refrigerate** (US FDA, EpiPen prescribing information). **Their winter risk is
+cold.** In a house heated to one
 room, the auto-injectors stay in the warm room with you, not in a cold car or a go-bag in the
 garage. Check the label and → 02-03.
 {{else}}**Epinephrine auto-injectors**, if anyone ever carries them, are stored at room temperature
-and **not refrigerated or frozen** (US FDA, EpiPen prescribing information); their winter risk is
-freezing (→ 02-03).
+(EpiPen: 68 to 77 °F, excursions 59 to 86 °F) and **not refrigerated** (US FDA, EpiPen prescribing
+information); their winter risk is cold (→ 02-03).
 {{/if}}
 Test strips, glucagon and other supplies have their own ranges; see their modules. The electrical
 answer is the same: small insulated volume, thermometer, seasonal plan.
@@ -237,7 +241,7 @@ The household's medicine list (the "refrigerated" column shows which ones this p
 
 **Scavenge or substitute:**
 - **Insulation:** foam board, packing foam, bubble wrap, blankets, straw, sawdust, leaves: anything
-  that traps air. Doubling insulation roughly halves the energy.
+  that traps air. More insulation lets less heat leak in, so the compressor runs less.
 - **Passive cold:** a shaded pit on the north side, a basement floor, a buried container, a snow
   cache, a spring, a creek, a well. Ground a few feet down is remarkably stable.
 - **Evaporative cooling:** a wet towel over a container in moving air; the pot-in-pot with damp sand

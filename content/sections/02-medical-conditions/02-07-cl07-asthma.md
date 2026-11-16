@@ -42,7 +42,7 @@ condition: CL-07
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "NHLBI 2020 action plan zones and danger signs verified and worded as published; MedlinePlus inhaler rules verified; meds_for tables." }
 ---
 
 # CL-07. Asthma

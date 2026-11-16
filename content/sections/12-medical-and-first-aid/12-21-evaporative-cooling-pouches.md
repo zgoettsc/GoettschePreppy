@@ -2,7 +2,7 @@
 id: 12-21-evaporative-cooling-pouches
 section: 12-medical-and-first-aid
 title: "Evaporative cooling pouches for medicine: how to use them"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -37,7 +37,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Pouch steps aligned with the FRIO instruction leaflet (timed soak, over-soak warning, 45 h figure, drying, ageing); unsourced 'two days' removed." }
 ---
 
 # Evaporative cooling pouches for medicine: how to use them

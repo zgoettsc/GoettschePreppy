@@ -2,7 +2,7 @@
 id: 09-14-car-batteries-in-practice
 section: 09-power-and-energy
 title: "Car batteries in practice: getting energy out and back in"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -11,9 +11,15 @@ tags: [power, batteries, lead-acid, vehicle, hybrid, inverter, charging, jump-st
 derived_from: [09-14-car-batteries-in-practice]
 sources:
   - osha-batteries-and-battery-charging-29-cfr-1926-441-9def7d
-  - osha-electrical-safety-and-health-topics-a7a68f
   - cdc-carbon-monoxide-poisoning-basics-772153
   - us-consumer-product-safety-commission-cpsc-what-to-k-3390a4
+  - stryten-battery-metrics-r14
+  - optima-rc-vs-ah-r14
+  - trojan-users-guide-r14
+  - trojan-faqs-r14
+  - victron-wiring-unlimited-r14
+  - battle-born-bb10012i-manual-r14
+  - resmed-airsense-11-user-guide-r14
 related:
   - 09-03-batteries-and-storage
   - 09-04-generators
@@ -39,7 +45,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CCA/RC definitions (Stryten), Ah basis (OPTIMA); worked example at 12 V; voltages, cold capacity and starting-battery deep-discharge from Trojan; socket limit from Victron; unsourced 'dozen cycles' and fuse ranges removed" }
 ---
 
 # Car batteries in practice: getting energy out and back in
@@ -53,11 +59,13 @@ whose 12 V battery is a different animal. Chemistry and resting voltages: → 09
 > **(1) Explosive gas.** Charging batteries give off hydrogen; ventilation must prevent "the
 > accumulation of an explosive mixture" (OSHA, 29 CFR 1926.441). **No sparks, flames or smoking near
 > a charging battery. Never charge one in a sealed space.**
-> **(2) Short-circuit current.** A wrench dropped across the terminals delivers hundreds of amps at
-> once: it welds itself in place, glows, and can burst the battery.
+> **(2) Short-circuit current.** A wrench dropped across the terminals is a short circuit, and a
+> short-circuited battery can cause a fire or an explosion (Victron Energy, Wiring Unlimited).
+> Insulated tools, no rings or watches (Trojan, User's Guide).
 > **(3) Acid.** OSHA requires face shields, aprons and rubber gloves for handling batteries, with
 > drenching facilities nearby. **Eye protection, always.**
-> **(4) Never charge or jump a frozen or damaged battery.** It can rupture.
+> **(4) Never charge a frozen battery** (Trojan), and never charge or jump one that is cracked,
+> bulging or leaking.
 > **(5) Engines.** Charging from a running vehicle: **never run a generator, charcoal, or any engine
 > indoors, in a garage, or near an open window.** Carbon monoxide kills in minutes with no warning
 > (→ 30-01; CDC, Carbon Monoxide Poisoning: Basics).
@@ -84,10 +92,10 @@ a **conventional vehicle with a conventional starting battery.** A hybrid is a d
 - **Draw power in ready mode** (→ 09-11): the vehicle maintains its own 12 V system and runs the
   engine only as needed. With ready mode on, the auxiliary-battery problem disappears. Same carbon
   monoxide rules: the engine starts by itself.
-- **Jump rules differ.** Many hybrids accept a jump only at a marked 12 V jump point (the battery may
-  not be under the hood), and only to boot the computers. **Never use a hybrid's 12 V system to
-  crank-start a conventional car:** the burst can exceed what the small battery and its wiring are
-  built for. A dead **traction** battery is not a jumper-cable
+- **Jump rules differ.** Read the owner's manual for where the 12 V jump point is (the battery may
+  not be under the hood) and what a jump does: on a hybrid it boots the computers. **Do not use a
+  hybrid to jump-start another vehicle unless its owner's manual says you may:** its small 12 V
+  battery and wiring are not a starting system. A dead **traction** battery is not a jumper-cable
   problem.
 - **The high-voltage traction battery is not user-accessible. Never tap, probe or wire to it.**
   Orange cables mean hundreds of volts.
@@ -107,18 +115,24 @@ The rest of this page is for **conventional vehicles and the spare and scavenged
 **The label usually shows CCA: ignore it for this.** Cold cranking amps measures a short, violent
 burst to turn a starter. It says nothing about stored energy.
 
-**What you want is Ah (amp-hours) or RC (reserve capacity, in minutes).** If you only have RC:
+**What you want is Ah (amp-hours) or RC (reserve capacity, in minutes).** CCA (cold cranking
+amps) is the current a battery can deliver for 30 seconds at 0 °F while staying at or above 7.2 V;
+RC is how many minutes a new, fully charged battery can supply 25 A at 80 °F before falling below
+10.5 V (Stryten Energy, Key Metrics of Battery Performance). Ah is usually measured over a 20-hour
+discharge (OPTIMA, Reserve Capacity vs Amp Hour Ratings). If you only have RC:
 ```
-Ah  ~=  RC (minutes) x 25 / 60        RC is measured at a 25 A draw
-Wh   =  Ah x 12.6 V                   (nominal, full)
+Ah  ~=  RC (minutes) x 25 / 60   the amp-hours delivered in the RC test
+                                 (25 A for RC minutes); the 20-hour Ah
+                                 rating is usually somewhat higher
+Wh  ~=  Ah x 12 V                (nominal)
 ```
-**Worked example, a typical car battery:**
+**Worked example, a car battery with RC 100:**
 ```
 RC 100 minutes  ->  100 x 25 / 60  ~=  42 Ah
-42 Ah x 12.6 V                     ~=  530 Wh  NOMINAL (all of it)
-Lead-acid: take only 50%           ~=  265 Wh
-STARTING battery, to keep it alive: less again  ~=  130-200 Wh REALISTIC
-Minus inverter losses (10-15%)     ~=  120-175 Wh AT THE OUTLET
+42 Ah x 12 V                       ~=  500 Wh  ALL OF IT, on paper
+Lead-acid: take only 50%           ~=  250 Wh
+STARTING battery: less again; it is not built for deep discharges
+Through an inverter: less again (its efficiency is on its label)
 ```
 
 **What one car battery actually runs:**
@@ -127,8 +141,8 @@ Minus inverter losses (10-15%)     ~=  120-175 Wh AT THE OUTLET
 |---|---|
 | **Phone (10 to 20 Wh a day)** (→ 09-06) | **A week or more.** The best use of it |
 | LED lantern or headlamps | Many nights |
-| Laptop (50 to 60 Wh a charge) | Two or three charges |
-| CPAP or similar (30 to 60 W) | Part of a night |
+| Laptop (50 to 60 Wh a charge, typical) | A few charges |
+| CPAP (ResMed AirSense 11: typical 56 W) | About four hours: part of a night |
 | **Refrigerator (1,000 to 2,000 Wh a day)** (→ 09-10) | **A few hours at most. Do not plan on it** |
 | Anything with a heating element | **Minutes. Never** |
 
@@ -141,7 +155,7 @@ Minus inverter losses (10-15%)     ~=  120-175 Wh AT THE OUTLET
 | | **Starting battery** (cars, trucks) | **Deep-cycle** (marine, RV, golf cart, floor scrubber) |
 |---|---|---|
 | Built for | Short high-current bursts | Being drained and refilled again and again |
-| Deep discharge | **Kills it quickly**, sometimes in a dozen cycles | Designed for it (still only to about 50%) |
+| Deep discharge | **Kills it quickly**: a starting battery "cannot withstand more than a few deep discharges before failure" (Trojan, FAQs) | Designed for it (still best kept to 50% or less; Trojan) |
 | Use as storage? | Gently, in an emergency | **Yes: this is the one you want** |
 
 Every abandoned RV, boat, golf cart and floor scrubber holds the better battery (→ 09-13).
@@ -151,19 +165,23 @@ Every abandoned RV, boat, golf cart and floor scrubber holds the better battery 
 adapter** (→ 09-12). One conversion, no inverter idling. **For phones and medical devices this is the
 right way** (→ 09-06).
 
-**2. Small inverter (150 to 300 W) in the 12 V socket.** For small AC things. Limited by the socket's
-fuse (typically 10 to 15 A, so roughly 120 to 180 W continuous). **Do not exceed it.**
+**2. Small inverter (150 to 300 W) in the 12 V socket.** For small AC things. Limited by the socket
+and its fuse: Victron warns that these plugs are not made for currents beyond about 10 A, and the
+car's circuit may be fused lower (Victron Energy, Wiring Unlimited). Read the socket's fuse in the
+owner's manual: watts ≈ fuse amps × 12. **Do not exceed it.**
 
 **3. Large inverter (1,000 W or more) clamped to the terminals.** For real AC loads. Rules (→ 09-08):
 - **Fuse the positive lead close to the battery**, sized to the cable.
-- **Heavy, short cable:** a 1,000 W inverter at 12 V pulls roughly 85 to 100 A.
+- **Heavy, short cable:** a 1,000 W inverter at 12 V pulls 1,000 ÷ 12 ≈ 83 A before its own losses,
+  more after them (cable sizes: → 09-08).
 - **Connect the inverter's negative last; disconnect it first.**
 - **Engine running for anything substantial** (outdoors, never in a garage), or you flatten the
   battery fast.
 
-**Watch the voltage, not the clock:** about **12.6 to 12.7 V full**, **12.0 to 12.1 V at 50%** (stop
-there), and **below about 11.8 V you are damaging it.** On a battery in a vehicle you want to drive,
-**stop well above that.**
+**Watch the voltage, not the clock** (resting, nothing connected for at least an hour; Trojan):
+about **12.7 V full** for a flooded battery (12.8 V for AGM), **12.1 V at 50%** (12.2 V for AGM:
+stop there), and about **11.8 V means only about 30% left** (Trojan, User's Guide). On a battery in
+a vehicle you want to drive, **stop well above 50%.**
 
 ### Putting energy back: four ways, best first
 **1. Alternator, through a proper charger or DC-DC charger** (→ 09-11). Controlled and fast. Run the
@@ -198,21 +216,22 @@ electrolyte spray; eye protection; no sparks or flames.
 ### Building a small bank from several batteries
 Worth doing at a settled site; not in a hurry.
 - **Parallel for more capacity at 12 V** (all positives together, all negatives together).
-- **Only parallel batteries of the same type, capacity and age, at the same state of charge.**
+- **Only parallel batteries of the same type, capacity and age, at the same state of charge**
+  (Battle Born says the same for its lithium batteries: same state of charge before connecting).
   Otherwise the good one endlessly drains into the bad one.
 - **Never mix lead-acid with lithium** in one bank (→ 09-07).
 - **Fuse each battery's positive lead individually** (→ 09-08).
 - **Ventilate**, and keep flooded batteries out of the living space (OSHA).
-- **Use equal-length cables** to each battery, or the nearest one does all the work.
+- **Use equal-length cables** to each battery (Trojan), or the nearest one does all the work.
 
 ### Keeping them alive
 Lead-acid dies from neglect far more often than from use (→ 09-07):
 - **Never leave one flat.** A flat battery sulfates and may not recover. A flat battery is also the
   one that **freezes** in winter, and **a frozen battery must never be charged or jumped.**
-- **Top up flooded cells with distilled water only**, plates covered.
+- **Top up flooded cells with distilled water only**, plates covered (Trojan).
 - **Clean corroded terminals:** corrosion looks minor and destroys capacity.
-- **Cold cuts capacity a lot.** A battery that runs your lights for a week in July does far less in
-  January (→ 09-05).
+- **Cold cuts capacity a lot.** Trojan's figures: at 0 °F a battery delivers about 50% of its
+  rated capacity (→ 09-05).
 - **Recharge promptly after every use.** That one habit is most of a battery's life.
 
 ### The rule that outranks all of this

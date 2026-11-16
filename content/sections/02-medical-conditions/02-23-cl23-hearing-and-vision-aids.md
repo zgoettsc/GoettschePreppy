@@ -171,7 +171,9 @@ Date: __________
 
 {{photo glasses-prescription}}
 
-**Stock arithmetic.** Days on hand = on hand ÷ used per day.
+**Stock arithmetic.** Days on hand = on hand ÷ used per day. Medicines tagged for this condition
+in settings are printed at the end of the table; if none are tagged, every household medicine
+row is, so use the ones for this condition.
 
 | Supply | On hand | Used per day or week | Days on hand | Days you want | Still to get |
 |---|---|---|---|---|---|
@@ -185,9 +187,14 @@ Date: __________
 | Strobe or bed-shaker alarm, notepads, whiteboard | ____ | | | ____ | ____ |
 | Earplugs and ear muffs | ____ | | | ____ | ____ |
 | Small screwdriver kit for glasses | ____ | | | ____ | ____ |
-{{#each meds_for.CL-23 as m}}| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
-{{else}}{{#each meds as m}}| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
-{{/each}}{{/each}}
+{{#each meds_for.CL-23 as m}}
+| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
+{{else}}
+{{#each meds as m}}
+| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
+{{/each}}
+{{/each}}
+
 
 > **Before the collapse:** the eye doctor must give you a copy of your glasses prescription after
 > an eye exam that includes a refraction, whether you ask or not and at no extra charge (FTC,
@@ -237,17 +244,23 @@ household's full medicine stockpile is on → 12-07.
 
 ## 12. My meds
 
-Rows marked ✓ are the medicines your household tagged for this condition in settings (eye
-drops, ear drops). If none is tagged, every medicine row your household entered is printed with
-a ☐ instead: **tick the rows for this condition** and cross out the rest. Fill any blank columns
-by hand, and add missing medicines in the blank rows. Write glasses and hearing aid details in
-part 7.
+Medicines your household tagged for this condition in settings (eye drops, ear drops) are
+printed below. **If none are tagged, every medicine row your household entered is printed
+instead: tick the rows for this condition** and cross out the rest. Fill any blank columns by
+hand from the boxes and bottles, and add untagged medicines in the empty rows. Write glasses and
+hearing aid details in part 7.
 
 | For this? | Who | Medicine | Strength | Schedule | Fridge? | If doses are missed (prescriber's words) | Where kept | Days on hand | Expires |
 |---|---|---|---|---|---|---|---|---|---|
-{{#each meds_for.CL-23 as m}}| ✓ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
-{{else}}{{#each meds as m}}| ☐ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
-{{else}}| ☐ | (no medicines entered yet) | | | | | | ____ | ____ | ____ |
-{{/each}}{{/each}}| ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
+{{#each meds_for.CL-23 as m}}
+| ☐ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
+{{else}}
+{{#each meds as m}}
+| ☐ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
+{{else}}
+| ☐ | (no medicines entered yet) | | | | | | ____ | ____ | ____ |
+{{/each}}
+{{/each}}
+| ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
 | ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
 | ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |

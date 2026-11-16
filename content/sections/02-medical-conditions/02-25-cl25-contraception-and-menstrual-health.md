@@ -17,7 +17,9 @@ sources:
   - fda-facts-on-tampons
   - cdc-heavy-menstrual-bleeding
   - fda-dont-be-tempted-to-use-expired-medicines
+  - fda-safe-drug-use-after-natural-disaster
 related:
+  - 30-01-the-floors
   - 13-08-menstrual-and-diapers
   - 13-02-hygiene-and-handwashing
   - 13-04-laundry-by-hand
@@ -104,8 +106,9 @@ pain, heavy bleeding, and the supplies and hygiene they need.
 ## 3. Storing the medication without power
 
 - **Pills, patches, rings:** in their packs, at room temperature, dry, out of sun and heat. Not in
-  a car or a hot attic. Pills left in serious heat are the household's call: {{choice DC-08}}
-  (→ 30-09).
+  a car or a hot attic. FDA says heat can reduce how well medicines work and to consider
+  replacing medicines exposed to excessive heat (FDA, Safe Drug Use After a Natural Disaster);
+  use condoms as a backup until heat-exposed packs are replaced.
 - **Condoms:** cool, dry, away from sharp objects; check the expiry date. Heat and age weaken
   latex. Oil-based lubricants (petroleum jelly, cooking oil) damage latex condoms.
 - **Pads, tampons, cups:** sealed, dry. A cup in its cloth bag, clean and dry.
@@ -222,9 +225,14 @@ printed on it).
 
 | Medicine or supply | On hand | Used per day or cycle | Days or cycles on hand | Wanted | Still to get |
 |---|---|---|---|---|---|
-{{#each meds_for.CL-25 as m}}| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
-{{else}}{{#each meds as m}}| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
-{{/each}}{{/each}}| Condoms | ____ | | | ____ | ____ |
+{{#each meds_for.CL-25 as m}}
+| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
+{{else}}
+{{#each meds as m}}
+| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
+{{/each}}
+{{/each}}
+| Condoms | ____ | | | ____ | ____ |
 | Emergency contraception pill | ____ | | | ____ | ____ |
 | Pregnancy tests | ____ | | | ____ | ____ |
 | Menstrual cup (one per person, right size) | ____ | | | ____ | ____ |
@@ -262,7 +270,8 @@ None. A fertility-tracking app on a phone needs charging; a paper chart and a th
 ## 11. Decision cards that apply
 
 - **Expired pills or condoms:** {{choice DC-04}} (→ 30-05).
-- **Heat-exposed medicine:** {{choice DC-08}} (→ 30-09).
+- **Heat-exposed refrigerated medicine** (if any method or medicine needs a fridge): {{choice DC-08}}
+  (→ 30-09).
 - **Someone else's prescription:** {{choice DC-15}} (→ 30-16).
 - **Antibiotics without a prescription:** {{choice DC-16}} (→ 30-17).
 
@@ -271,17 +280,23 @@ household's full medicine stockpile is on → 12-07.
 
 ## 12. My meds
 
-Rows marked ✓ are the medicines your household tagged for this condition in settings. If none
-is tagged, every medicine row your household entered is printed with a ☐ instead: **tick the
-rows for this condition** and cross out the rest. Fill any blank columns by hand, and add
-missing medicines in the blank rows. For an IUD, implant or injection, write the replacement or due date under
+Medicines your household tagged for this condition in settings are printed below. **If none
+are tagged, every medicine row your household entered is printed instead: tick the rows for
+this condition** and cross out the rest. Fill any blank columns by hand from the boxes
+and bottles, and add untagged medicines in the empty rows. For an IUD, implant or injection, write the replacement or due date under
 "Expires".
 
 | For this? | Who | Medicine | Strength | Schedule | Fridge? | If doses are missed (prescriber's words) | Where kept | Days on hand | Expires |
 |---|---|---|---|---|---|---|---|---|---|
-{{#each meds_for.CL-25 as m}}| ✓ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
-{{else}}{{#each meds as m}}| ☐ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
-{{else}}| ☐ | (no medicines entered yet) | | | | | | ____ | ____ | ____ |
-{{/each}}{{/each}}| ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
+{{#each meds_for.CL-25 as m}}
+| ☐ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
+{{else}}
+{{#each meds as m}}
+| ☐ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
+{{else}}
+| ☐ | (no medicines entered yet) | | | | | | ____ | ____ | ____ |
+{{/each}}
+{{/each}}
+| ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
 | ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
 | ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |

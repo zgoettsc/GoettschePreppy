@@ -47,7 +47,7 @@ condition: CL-08
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "5-ft oxygen rule re-cited to USFA and ALA (NFPA sheet unreadable); NHLBI COPD 911 list verbatim; fire rules per ALA; meds_for tables." }
 ---
 
 # CL-08. COPD and oxygen dependence

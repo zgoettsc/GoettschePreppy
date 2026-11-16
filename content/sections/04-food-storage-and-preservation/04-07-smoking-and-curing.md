@@ -2,7 +2,7 @@
 id: 04-07-smoking-and-curing
 section: 04-food-storage-and-preservation
 title: "Smoking and curing meat"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -30,7 +30,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Cure #1 rate sourced (OSU PNW 784; 9 CFR 424.21 1/4 oz per 100 lb); nitrite toxicity re-cited to ATSDR 2017 and softened; unsourced 165/90 F smoking figures removed" }
 ---
 
 # Smoking and curing meat

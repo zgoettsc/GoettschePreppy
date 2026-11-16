@@ -2,7 +2,7 @@
 id: 12-17-poisoning-and-ingestion
 section: 12-medical-and-first-aid
 title: "Poisoning and swallowed objects: the offline protocol"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -40,7 +40,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Floors worded as 30-01; Poison Help number verified; hydrocarbon 24-hour claim replaced with MedlinePlus signs; flush times per MedlinePlus/ATSDR; button battery honey and iron trap verified (NCPC, MedlinePlus)." }
 ---
 
 # Poisoning and swallowed objects: the offline protocol

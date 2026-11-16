@@ -54,7 +54,7 @@ condition: CL-13
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CDC breast-milk times updated to current page; formula prep verified; sanitising age corrected to under 2 months; WHO 70 C verified; meds_for tables." }
 ---
 
 # CL-13. Infant feeding: nursing and formula

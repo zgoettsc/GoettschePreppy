@@ -43,7 +43,7 @@ condition: CL-04
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "AAAAI severity claim re-cited to FDA; FDA labelling scope and advisory-statement wording verified; meds_for tables." }
 ---
 
 # CL-04. Food allergy (child or adult)

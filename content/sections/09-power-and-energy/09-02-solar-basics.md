@@ -2,7 +2,7 @@
 id: 09-02-solar-basics
 section: 09-power-and-energy
 title: "Solar power basics and sizing"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -12,8 +12,16 @@ derived_from: [09-02-solar-basics]
 sources:
   - us-department-of-energy-solar-energy-technologies-of-2a534a
   - us-department-of-energy-solar-photovoltaic-technolog-ca10f6
-  - us-department-of-energy-solar-energy-technologies-of-7bba95
-  - us-department-of-energy-consumer-guide-to-residentia-1d87da
+  - doe-solar-and-resilience-basics-r14
+  - mike-holt-nec-690-table-690-7-r14
+  - renogy-rsp200d-g3-datasheet
+  - ecoflow-400w-lightweight-panel-user-manual
+  - rich-solar-mega-100-product-page
+  - victron-wiring-unlimited-r14
+  - battle-born-bb10012-data-sheet-r14
+  - trojan-battery-maintenance-r14
+  - generac-gp3500io-owners-manual
+  - noaa-gml-solar-calculator-r14
 related:
   - 09-01-power-priorities
   - 09-03-batteries-and-storage
@@ -35,7 +43,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Cold factor tied to maker coefficients and NEC Table 690.7 (1.20 to -13 F, 1.25 at -40 F); grid-tied shutdown to DOE; unsourced conversion-loss, MPPT-gain and surge ranges removed or re-sourced; figure text matches" }
 ---
 
 # Solar power basics and sizing
@@ -45,10 +53,12 @@ how much battery you need, and the one wiring mistake that destroys equipment on
 morning. Do the load list on → 09-01 first; you cannot size anything without its watt-hour number.
 Volts, amps and watts are explained on → 29-02.
 
-> **CAUTION.** A grid-tied rooftop solar array **shuts down when the grid goes down**, by design,
-> to protect line workers. If your house has rooftop solar with no battery and no inverter that
-> can run on its own (often called "islanding" or "backup-capable"), **you will have no power in
-> an outage despite the panels on the roof.** Find out which kind you have before you need it.
+> **CAUTION.** A grid-tied rooftop solar array is **designed to switch off when grid power cuts
+> out**, for safety. To make power on its own it needs a suitably configured inverter and a battery
+> that can run the house "islanded" (US Department of Energy, Solar and Resilience Basics). If your
+> house has rooftop solar with no battery and no inverter that can run on its own (often called
+> "backup-capable"), **you will have no power in an outage despite the panels on the roof.** Find
+> out which kind you have before you need it.
 > Also: **a panel in daylight is live.** There is no off switch on a solar panel; you cover it or
 > you disconnect it.
 
@@ -78,18 +88,20 @@ same four blocks (US Department of Energy, Solar Photovoltaic System Design Basi
 A **power station** is all of these except the panels, in one box (→ 09-03).
 
 **Skip the inverter where you can.** Running 12 V DC loads directly (USB charging, LED lights, a
-12 V compressor cooler) avoids the 10 to 15% lost in each conversion. Direct DC is the easiest
+12 V compressor cooler) avoids the energy lost in each conversion (an inverter's efficiency is on
+its label) and the inverter's own idle draw. Direct DC is the easiest
 efficiency gain there is. Run the medicine cooler and the lights on DC; keep the inverter for the
 few things that truly need AC.
 
 **"Sun hours" is the sizing unit.** A panel rated 100 W makes 100 W only in full, square-on,
 clear-sky noon sun at a mild temperature: a laboratory condition. A "peak sun hour" is one hour of
-that full-strength sun; a December day may give two or three of them even though it is light for
-eight or nine. Real daily output is roughly:
+that full-strength sun; a December day gives far fewer of them than it has hours of daylight (your
+home's figures are below). Real daily output is roughly:
 
 **Daily Wh ≈ panel watts × peak sun hours × 0.75**
 
-The 0.75 covers wiring and controller losses, dust, heat and imperfect aim. Be pessimistic.
+The 0.75 is this binder's planning allowance for wiring and controller losses, dust, heat and
+imperfect aim (the same factor the app uses for your estimates). Be pessimistic.
 
 **Your home's sun hours** (from the region data for {{ region.home.county }} County,
 {{ region.home.state_name }}): June **{{ region.home.sun_hours_jun }}**, December
@@ -103,16 +115,19 @@ below even that (→ 09-05).
    day. Yours: ________ Wh ÷ ({{ region.home.sun_hours_dec }} × 0.75) = ________ W.
 3. **Battery ≈ daily need × days of autonomy** (days you can run with no sun at all). Two to three
    days is the practical minimum where overcast or snow can last several days. Then divide by the
-   usable depth of discharge (→ 09-07): lithium iron phosphate about 80 to 100%; lead-acid only
-   about 50%, so a lead-acid bank must be **twice** the size.
+   usable depth of discharge (→ 09-07): lithium iron phosphate up to 100% by its maker's rating
+   (plan on about 90%); lead-acid 50% or less (Trojan), so a lead-acid bank must be about
+   **twice** the size.
    Example: 600 Wh × 3 days = 1,800 Wh usable → about 2,000 Wh of lithium iron phosphate, or about
    4,000 Wh of lead-acid.
 4. **Inverter size ≈ the largest set of AC loads that run at the same time**, plus headroom for
-   motor start (a compressor can pull 3 to 5 times its running watts for a second).
-5. **Charge controller** must handle the panels' voltage and current with margin. **MPPT beats
-   PWM**, typically by 15 to 30%, and by more in cold weather and low light. (MPPT and PWM are the
-   two kinds of controller; MPPT converts surplus panel voltage into extra charging current, PWM
-   throws it away.) Buy MPPT. Every power station has an MPPT controller inside.
+   motor start (allow about 3 times a motor's running watts for starting; Generac, GP3500iO
+   Owner's Manual).
+5. **Charge controller** must handle the panels' voltage and current with margin: the array's
+   open-circuit voltage must not exceed the controller's rating (Victron Energy, Wiring
+   Unlimited). **Buy MPPT.** (MPPT and PWM are the two kinds of controller; MPPT converts surplus
+   panel voltage into extra charging current, PWM throws it away, which matters most with
+   higher-voltage panels and in cold weather.)
 
 ### Series and parallel: the wiring choice that matters most
 
@@ -133,17 +148,21 @@ lower voltage.**
 
 **Cold raises panel voltage.** A panel is rated at 77 °F (25 °C). For every degree colder, its
 open-circuit voltage (Voc, the voltage with nothing connected, printed on the label) rises a
-little: typically about 0.3% per °C. A string that is safely under a controller's limit on a mild
+little: panel makers print this as the "temperature coefficient of Voc", for example −0.28% per °C
+(Renogy, RSP200D datasheet) or −0.25% per °C (EcoFlow, 400W panel manual). A string that is safely under a controller's limit on a mild
 afternoon can be over it at sunrise on a clear, frozen morning. Cold never raises current, so
 **series is the configuration winter can push over the edge, and parallel is the one it cannot.**
 
 **The cold-voltage check, every time you plan a series string:**
 1. Add up the label **Voc** of every panel in the string (warm Voc).
-2. **Multiply by 1.20.** At a typical 0.3% per °C, a factor of 1.20 covers panel temperatures down
-   to about −40 °F. Your home's record low is **{{ region.home.record_low_f }} °F**; if your
-   panel's label gives a larger temperature coefficient, or you are planning for colder, work it
-   out: factor = 1 + (coefficient as a decimal, without its minus sign) × (25 − lowest
-   temperature in °C). Example: 0.003 × (25 − (−40)) = 0.195, so a factor of about 1.20.
+2. **Multiply by 1.20.** With a coefficient of 0.3% per °C or less, as the panels above print,
+   1.20 covers panel temperatures down to about −40 °F. If you do not know your panel's
+   coefficient, the National Electrical Code's table uses 1.20 down to −13 °F (−25 °C) and rises to
+   1.25 at −40 °F (NEC Table 690.7, as printed by Mike Holt Enterprises). Your home's record low is
+   **{{ region.home.record_low_f }} °F**: if it is below −13 °F and you do not know the
+   coefficient, use 1.25. With the coefficient, work it out: factor = 1 + (coefficient as a
+   decimal, without its minus sign) × (25 − lowest temperature in °C). Example: 0.003 ×
+   (25 − (−40)) = 0.195, so a factor of about 1.20.
 3. **The result must be below the station's or controller's maximum PV input voltage**, with a
    margin. A few volts of margin is no margin.
 4. Never drop the factor because "it is only 20 degrees this morning". Every winter morning is far
@@ -156,11 +175,14 @@ voltage ceiling and a high current limit takes parallel pairs or single panels, 
 string that its ceiling cannot hold cold.**
 
 ### Mounting decisions that matter
-- **Face true south.** A compass points to magnetic north, which can be well off true north in
-  much of the country. Set panels by the shadow at solar noon (when shadows are shortest, they
-  point true north).
-- **Tilt steep in winter.** Roughly your latitude plus 15° catches the low winter sun and sheds
-  snow (→ 09-05). Adjustable tilt is worth the trouble twice a year.
+- **Face true south** (US Department of Energy, Solar Photovoltaic System Design Basics). A compass
+  points to magnetic north, which can be well off true north in much of the country. Set panels by
+  the shadow at solar noon (when shadows are shortest, they point true north).
+- **Tilt steep in winter.** DOE's year-round angle is your latitude. At noon on the shortest day the
+  sun is 23.5° lower than at the equinox, so a panel tilted at your latitude plus 23.5° faces it
+  square-on (NOAA Solar Calculator gives the sun's height for your place); roughly latitude plus
+  15° is a common winter compromise that also catches morning and afternoon sun and sheds snow
+  (→ 09-05). Adjustable tilt is worth the trouble twice a year.
 - **Shade is disproportionately bad.** Shading part of one panel can cut the output of the whole
   series string, not just that panel. Trees, chimneys, a neighbour's roof and the low winter sun
   angle all matter.
@@ -187,8 +209,8 @@ Total: **{{ gear.solar_w_total }} W**. Model-by-model figures for common panels 
 |---|---|---|
 | Rigid panels, 100 to 200 W each, several | Modular, cheap per watt, decades of life | More smaller panels give more redundancy than one big one |
 | One folding or portable 100 to 200 W panel | Phase B, and aiming at the low winter sun | The panel that leaves with you |
-| **MPPT** charge controller with voltage headroom | 15 to 30% more harvest; survives the cold-voltage rise | Check its maximum PV input voltage against the cold check above |
-| Lithium iron phosphate battery, 100 Ah (about 1.2 kWh) or more, or a power station | Deep cycles, long life | Note the **cold-charging limit** (→ 09-07) |
+| **MPPT** charge controller with voltage headroom | More harvest than PWM; survives the cold-voltage rise | Check its maximum PV input voltage against the cold check above |
+| Lithium iron phosphate battery, 100 Ah (about 1.28 kWh) or more, or a power station | Deep cycles, long life | Note the **cold-charging limit** (→ 09-07) |
 | Pure sine inverter, 300 to 1,500 W | Medical gear and electronics want pure sine | Modified sine can damage or buzz some devices |
 | 12 V DC distribution: sockets, USB, fuse block | Skips inverter losses | The efficient path for Tier 0 |
 | Fuses, breakers, correctly sized wire | Not optional (→ 09-08) | Fire risk otherwise |
@@ -198,8 +220,9 @@ Total: **{{ gear.solar_w_total }} W**. Model-by-model figures for common panels 
 
 **Scavenge or substitute:**
 - **Panels** from RVs, campers, boats, construction signs, solar yard lights and derelict arrays.
-  **Large grid-tie panels are high-voltage** (30 to 40 V or more each) and need an MPPT controller
-  that accepts that input; they are not a direct 12 V battery charger.
+  **Large grid-tie panels are higher-voltage** than the "12 V" panels (whose Voc is about 22 to
+  23 V: Rich Solar MEGA 100, Renogy RSP200D); read the Voc on the label. They need an MPPT
+  controller that accepts that input; they are not a direct 12 V battery charger.
 - **Controllers and inverters** from RVs, boats and campers; car inverters for small AC loads.
 - **Batteries** from vehicles, boats, RVs, UPS units, floor scrubbers, mobility scooters and golf
   carts (→ 09-13, → 09-14).
@@ -208,8 +231,10 @@ Total: **{{ gear.solar_w_total }} W**. Model-by-model figures for common panels 
 - **Wire:** automotive and battery cable, welding cable. **Do not undersize it** (→ 09-08).
 
 ## When it runs out
-- **Panels are the durable part.** They lose a fraction of a percent a year and can last 25 years
-  or more. Hail is the real risk: store a spare panel flat and indoors.
+- **Panels are the durable part.** DOE describes a PV array's lifetime as 25 years (and expects
+  the inverter to be replaced at least once in that time); panel makers give 25-year output
+  warranties (for example Rich Solar). Hail is the real risk: store a spare panel flat and
+  indoors.
 - **The controller and inverter are the fragile electronics.** They fail from heat, water, surges
   and reversed polarity. **Buy a spare charge controller now**; without it the panels cannot
   safely charge anything. It is the highest-value spare in this section.

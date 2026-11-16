@@ -2,7 +2,7 @@
 id: 12-08-medical-kit-tiers
 section: 12-medical-and-first-aid
 title: "Kit tiers: everyday, trauma and long-haul"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -37,7 +37,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Tourniquet floor sentence and DC-25 reference added; no numbers needing source." }
 ---
 
 # Kit tiers: everyday, trauma and long-haul

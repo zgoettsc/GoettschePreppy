@@ -2,7 +2,7 @@
 id: 12-03-burns
 section: 12-medical-and-first-aid
 title: "Burns (high risk around fire)"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -44,7 +44,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Cooling times per Red Cross/WHO; ABA palm and referral wording corrected; WHO MCI oral-fluid quote and 10%/15% major-burn figures verified in IRIS PDF; chemical flush at least 15 min, lye eye 30 min (ATSDR)." }
 ---
 
 # Burns (high risk around fire)

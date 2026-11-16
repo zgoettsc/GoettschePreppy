@@ -46,7 +46,7 @@ condition: CL-05
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Lows from sulfonylureas/meglitinides cited to NIDDK; 15-15 to CDC treatment page; acarbose-type note added; CDC symptom claims re-cited; meds_for tables." }
 ---
 
 # CL-05. Type 2 diabetes (tablets and non-insulin medicines)

@@ -2,7 +2,7 @@
 id: 04-09-winter-cold-storage
 section: 04-food-storage-and-preservation
 title: "Using winter as a freezer, and where it does not work"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -27,7 +27,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "0 F freezer figure re-sourced (NCHFP Freezer Management); unsourced temperature swing numbers softened" }
 ---
 
 # Using winter as a freezer, and where it does not work

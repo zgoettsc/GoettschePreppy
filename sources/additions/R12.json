@@ -8,7 +8,9 @@
     "licence_note": "Copyright Oregon State University. Read by R12 on 2026-11-16: Curing Salt #1 is 6.25% sodium nitrite and 93.75% salt; recipes use 1 teaspoon Curing Salt #1 per 5 lb pork belly; cure in a refrigerator at 40 F; cook to 160 F; nitrite and nitrate salts have relatively high toxicity and are used only in researched quantities; nitrate blends (Prague Powder #2) not recommended for bacon.",
     "url": "https://extension.oregonstate.edu/catalog/pnw-784-making-cured-bacon-home",
     "household_cited_by": [],
-    "cited_by": ["04-07-smoking-and-curing"]
+    "cited_by": [
+      "04-07-smoking-and-curing"
+    ]
   },
   {
     "key": "usda-fsis-9-cfr-424-21-food-ingredients-and-sources-of-radiation",
@@ -19,7 +21,9 @@
     "licence_note": "US federal regulation, public domain. Read by R12 on 2026-11-16 (govinfo CFR 2024 edition): sodium or potassium nitrite, 1 oz to 100 lb meat (dry cure); 1/4 oz to 100 lb chopped meat; not more than 200 ppm nitrite in finished product; bacon per paragraph (b), 120 ppm ingoing; nitrites not in baby, junior or toddler foods.",
     "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title9-vol2/pdf/CFR-2024-title9-vol2-sec424-21.pdf",
     "household_cited_by": [],
-    "cited_by": ["04-07-smoking-and-curing"]
+    "cited_by": [
+      "04-07-smoking-and-curing"
+    ]
   },
   {
     "key": "atsdr-toxicological-profile-nitrate-nitrite-2017",
@@ -30,6 +34,193 @@
     "licence_note": "US federal government work, public domain. Read by R12 on 2026-11-16, section 3.2.2.1: ingestion of nitrite has caused severe methemoglobinemia in adults and children; deaths occurred after inadvertent use of sodium nitrite instead of table salt and after ingestion of a single sodium nitrite tablet (667 mg nitrite). curl from atsdr.cdc.gov is refused (403); the PDF was read through the web fetcher.",
     "url": "https://www.atsdr.cdc.gov/ToxProfiles/tp204.pdf",
     "household_cited_by": [],
-    "cited_by": ["04-07-smoking-and-curing"]
+    "cited_by": [
+      "04-07-smoking-and-curing"
+    ]
+  },
+  {
+    "key": "usda-fooddata-central-sr-legacy-staples-r12",
+    "title": "FoodData Central, SR Legacy: energy per 100 g for storage staples (rice 169756, small white beans 173749, oats 169705, all-purpose flour 168936, canola oil 172336, olive oil 171413, granulated sugar 169655, canned sockeye salmon 175174, canned capers 172238)",
+    "org": "USDA Agricultural Research Service",
+    "date": "2019-04",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work, public domain. Read by R12 on 2026-11-16 through the FoodData Central API: kcal per 100 g rice 365, small white beans 336, oats 389, all-purpose flour 364, canola and olive oil 884, sugar 387, canned sockeye salmon 153, canned capers 23.",
+    "url": "https://fdc.nal.usda.gov/",
+    "household_cited_by": [],
+    "cited_by": [
+      "04-01-calorie-and-stockpile-math",
+      "04-12-fats-and-oils"
+    ]
+  },
+  {
+    "key": "usu-extension-storing-canned-goods-r12",
+    "title": "Storing Canned Goods (B. Nummer, B. Jahner)",
+    "org": "Utah State University Extension",
+    "date": "",
+    "licence_class": "restricted",
+    "licence_note": "Copyright Utah State University. Read by R12 on 2026-11-16: canned food remains safe as long as the seal is not broken; do not let cans or jars freeze (bursting, broken seals); discard badly dented, bulging, rusty or leaky cans; commercial code date usually 2-5 years from manufacture; high-acid foods have a shorter shelf life; home canned: one year, use before two years.",
+    "url": "https://extension.usu.edu/preserve-the-harvest/research/storing-canned-goods.php",
+    "household_cited_by": [],
+    "cited_by": [
+      "04-02-building-a-pantry",
+      "04-10-rotation-and-inventory"
+    ]
+  },
+  {
+    "key": "ndsu-extension-oil-change-in-your-kitchen-2017-r12",
+    "title": "Prairie Fare: Is It Time for an Oil Change in Your Kitchen? (J. Garden-Robinson, April 20, 2017)",
+    "org": "North Dakota State University Extension",
+    "date": "2017-04-20",
+    "licence_class": "restricted",
+    "licence_note": "Copyright NDSU. Read by R12 on 2026-11-16: unopened oil usually lasts about one to two years on the shelf depending on type; opened oil a few months to a year; refrigeration may extend storage life.",
+    "url": "https://www.ag.ndsu.edu/news/columns/prairie-fare/prairie-fare-is-it-time-for-an-oil-change-in-your-kitchen",
+    "household_cited_by": [],
+    "cited_by": [
+      "04-02-building-a-pantry",
+      "04-12-fats-and-oils"
+    ]
+  },
+  {
+    "key": "usu-extension-food-storage-will-i-use-it-r12",
+    "title": "Food Storage: Will I Use It? (Live Well Utah newsletter, March)",
+    "org": "Utah State University Extension",
+    "date": "",
+    "licence_class": "restricted",
+    "licence_note": "Copyright Utah State University. Read by R12 on 2026-11-16: shelf life halves for every 10.8 F rise (USDA, as quoted); best storage 40-60 F; dehydrated foods 10 percent or less moisture; with oxygen absorbers products must be dry (about 10 percent or less moisture) because botulism can occur in moist products in reduced-oxygen packaging; deep freeze (0 F) for 3 to 4 days kills pantry insects.",
+    "url": "https://extension.usu.edu/employee/files/ez-plug/live_well_utah_newsletters/March_Food_Storage.pdf",
+    "household_cited_by": [],
+    "cited_by": [
+      "04-03-bulk-staples-storage"
+    ]
+  },
+  {
+    "key": "csu-extension-high-elevation-food-preparation-2023-r12",
+    "title": "High Elevation Food Preparation (info sheet, updated July 2023)",
+    "org": "Colorado State University Extension, Food Science and Human Nutrition",
+    "date": "2023-07",
+    "licence_class": "restricted",
+    "licence_note": "Copyright Colorado State University. Read by R12 on 2026-11-16, Table 2 pressure required to reach 240 F: sea level-2,000 ft 11 lb; 2,001-4,000 12; 4,001-6,000 13; 6,001-8,000 14; 8,001-10,000 15. Boiling-water rule: +1 min per 1,000 ft if sea-level time 20 min or less, +2 min per 1,000 ft if longer.",
+    "url": "https://foodsmartcolorado.colostate.edu/wp-content/uploads/2023/07/High-Elevation-Food-Preparation-info-sheet-updated-72023-1.pdf",
+    "household_cited_by": [],
+    "cited_by": [
+      "04-05-canning-pressure"
+    ]
+  },
+  {
+    "key": "nchfp-jerky-recipe-r12",
+    "title": "Jerky (drying recipe)",
+    "org": "National Center for Home Food Preservation (University of Georgia)",
+    "date": "",
+    "licence_class": "restricted",
+    "licence_note": "Copyright University of Georgia. Read by R12 on 2026-11-16: slice no thicker than 1/4 inch; keep meat at 40 F or below; internal temperature of 160 F necessary before drying (boil 5 minutes in marinade); alternative: heat dried strips 10 minutes in an oven preheated to 275 F; dehydrator preheated to 140 F; 10 to 24 hours if not preheated, check after 3 hours if heated in marinade; dry until a test piece cracks but does not break; two weeks at room temperature in a sealed container; refrigerate or freeze for longer.",
+    "url": "https://nchfp.uga.edu/how/dry/recipes/jerky/",
+    "household_cited_by": [],
+    "cited_by": [
+      "04-06-dehydrating"
+    ]
+  },
+  {
+    "key": "nchfp-drying-herbs-r12",
+    "title": "Herbs (drying recipe)",
+    "org": "National Center for Home Food Preservation (University of Georgia)",
+    "date": "",
+    "licence_class": "restricted",
+    "licence_note": "Copyright University of Georgia. Read by R12 on 2026-11-16: dehydrator 95 to 115 F; up to 125 F in humid areas; dry when herbs crumble and stems break.",
+    "url": "https://nchfp.uga.edu/how/dry/recipes/herbs/",
+    "household_cited_by": [],
+    "cited_by": [
+      "04-06-dehydrating"
+    ]
+  },
+  {
+    "key": "csu-extension-drying-fruits-r12",
+    "title": "Drying Fruits (published August 1994, reviewed August 2025)",
+    "org": "Colorado State University Extension",
+    "date": "2025-08",
+    "licence_class": "restricted",
+    "licence_note": "Copyright Colorado State University. Read by R12 on 2026-11-16: dry at 140 F; condition loosely in containers two-thirds full in a warm, dry, ventilated place for 4 to 10 days, shaking daily; dry when squeezing leaves no moisture and pieces spring apart.",
+    "url": "https://extension.colostate.edu/resource/drying-fruits/",
+    "household_cited_by": [],
+    "cited_by": [
+      "04-06-dehydrating"
+    ]
+  },
+  {
+    "key": "wsu-extension-storing-your-garden-harvest-2019-r12",
+    "title": "Storing Your Garden Harvest (August 2, 2019)",
+    "org": "Washington State University Extension, Skagit County",
+    "date": "2019-08-02",
+    "licence_class": "restricted",
+    "licence_note": "Copyright Washington State University. Read by R12 on 2026-11-16: cool and dry 50-60 F, 60-70% RH (pumpkins, winter squash); cold and dry 32-50 F, 60-70% (onions, garlic, dry beans); cold and moist 32-40 F, 80-90% (potatoes, apples, cabbage); cold and very moist 32-40 F, 90-95% (beets, carrots, parsnips, turnips and others); apples, pears and tomatoes produce ethylene; keep apples and pears away from cabbage, carrots, potatoes, onions.",
+    "url": "https://wpcdn.web.wsu.edu/extension/uploads/sites/57/2019/08/Storing-Your-Garden-Harvest.pdf",
+    "household_cited_by": [],
+    "cited_by": [
+      "04-08-fermentation"
+    ]
+  },
+  {
+    "key": "nchfp-freezer-management-r12",
+    "title": "Freezer Management",
+    "org": "National Center for Home Food Preservation (University of Georgia)",
+    "date": "",
+    "licence_class": "restricted",
+    "licence_note": "Copyright University of Georgia. Read by R12 on 2026-11-16: maintain the storage temperature at 0 F or lower; at higher temperatures foods lose quality much faster.",
+    "url": "https://nchfp.uga.edu/how/freeze/freeze-general-information/freezer-management/",
+    "household_cited_by": [],
+    "cited_by": [
+      "04-09-winter-cold-storage"
+    ]
+  },
+  {
+    "key": "cdc-hantavirus-about-2024",
+    "title": "About Hantavirus (May 13, 2024)",
+    "org": "CDC",
+    "date": "2024-05-13",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work, public domain. Read by R12 on 2026-11-16 through the web fetcher (curl from cdc.gov is refused): 38 percent of people who develop respiratory symptoms may die; symptoms usually 1 to 8 weeks after contact with an infected rodent; early fatigue, fever, muscle aches (thighs, hips, back); 4 to 10 days later coughing and shortness of breath; no specific treatment; deer mouse is the main US carrier.",
+    "url": "https://www.cdc.gov/hantavirus/about/index.html",
+    "household_cited_by": [],
+    "cited_by": [
+      "04-11-pests-and-rodents"
+    ]
+  },
+  {
+    "key": "cdc-seal-up-to-prevent-rodents-2024",
+    "title": "How to Seal Up to Prevent Rodents (April 8, 2024)",
+    "org": "CDC",
+    "date": "2024-04-08",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work, public domain. Read by R12 on 2026-11-16: mice can fit through a hole the width of a pencil (1/4 inch, 6 mm); steel wool with caulk or spray foam for small holes; lath screen or metal, cement, hardware cloth or metal sheeting for larger holes.",
+    "url": "https://www.cdc.gov/healthy-pets/rodent-control/seal-up.html",
+    "household_cited_by": [],
+    "cited_by": [
+      "04-11-pests-and-rodents"
+    ]
+  },
+  {
+    "key": "kstate-mf2270-controlling-stored-food-insects-1998",
+    "title": "Controlling Stored-Food Insects (MF-2270, G. E. Lippert, January 1998)",
+    "org": "Kansas State University Agricultural Experiment Station and Cooperative Extension Service",
+    "date": "1998-01",
+    "licence_class": "restricted",
+    "licence_note": "Contents may be freely reproduced for educational purposes with credit (publication notice). Read by R12 on 2026-11-16: cold-treat at 0 F or lower for 3 days, larger packages 7 days; heat-treat flour, beans, nuts and whole grains in shallow pans in a 150 F oven for 15 to 20 minutes.",
+    "url": "https://bookstore.ksre.ksu.edu/download/controlling-stored-food-insects-home-and-horticultural-pests_MF2270",
+    "household_cited_by": [],
+    "cited_by": [
+      "04-11-pests-and-rodents"
+    ]
+  },
+  {
+    "key": "fda-selecting-and-serving-produce-safely-r12",
+    "title": "Selecting and Serving Produce Safely",
+    "org": "US Food and Drug Administration",
+    "date": "",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work, public domain. Read by R12 on 2026-11-16: children, older adults, pregnant women and people with weakened immune systems should avoid eating raw or lightly cooked sprouts of any kind; cooking produce thoroughly kills harmful bacteria.",
+    "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+    "household_cited_by": [],
+    "cited_by": [
+      "04-16-sprouting"
+    ]
   }
 ]

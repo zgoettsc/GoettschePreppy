@@ -2,7 +2,7 @@
 id: 12-11-chronic-conditions
 section: 12-medical-and-first-aid
 title: "Long-term conditions without a clinic: the condition library index"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -36,7 +36,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Frozen-insulin floor added; blank conditions/allergies read 'none in settings'; no numbers needing source." }
 ---
 
 # Long-term conditions without a clinic: the condition library index

@@ -2,7 +2,7 @@
 id: 04-13-salt-sugar-vinegar
 section: 04-food-storage-and-preservation
 title: "Salt, sugar, vinegar and honey: the preserving staples"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -25,7 +25,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Owner household quantities (50 lb salt, 25-50 lb sugar) replaced with a sizing method" }
 ---
 
 # Salt, sugar, vinegar and honey: the preserving staples

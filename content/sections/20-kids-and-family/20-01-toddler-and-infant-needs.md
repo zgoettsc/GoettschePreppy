@@ -19,6 +19,9 @@ sources:
   - world-health-organization-the-treatment-of-diarrhoea-49d09e
   - usda-hhs-dietary-guidelines-for-americans-2020-2025-4b2013
   - american-academy-of-pediatrics-healthychildren-org-w-7400c5
+  - medlineplus-loperamide-r11
+  - aap-recommended-drinks-young-children-r16
+  - american-academy-of-pediatrics-healthychildren-org-h-7bd7d0
 related: [20-02-child-safety-offgrid, 20-05-infant-feeding, 20-06-diapers-and-hygiene, 20-08-kids-and-fear, 11-02-keeping-kids-warm, 12-05-common-illness-and-dehydration, 12-18-choking-and-cpr, 21-07-sleep, 04-01-calorie-and-stockpile-math, 02-03-cl03-anaphylaxis, 02-04-cl04-food-allergy, 02-13-cl13-infant-feeding, 13-08-menstrual-and-diapers, 18-02-barter-and-trade-goods, 30-10-dc09-infant-bed-sharing]
 cards: [DC-09, DC-01, DC-18]
 explainers: []
@@ -41,9 +44,10 @@ page lists what they need, what cannot be improvised, and how to watch a child w
 speak for themself. It is written in age bands. Your household's bands are listed first; the
 others stay on the page for visiting children, grandchildren and children you may take in.
 
-> **SAFETY.** Small children dehydrate in hours, not days (→ 12-05). **No honey for a child
-> under 1 year** (botulism; CDC, Botulism Prevention). **No anti-diarrhoea medicine such as
-> loperamide under age 2** (its label says so). **Children do not have access to firearms,
+> **SAFETY.** Small children dehydrate fast (→ 12-05). **No honey for a child under 1 year**
+> (botulism; CDC, Botulism Prevention). **No loperamide (an anti-diarrhoea medicine) under age
+> 2** (MedlinePlus, Loperamide); WHO says anti-diarrhoea drugs of this kind should not be given
+> to infants or children with diarrhoea at all (WHO, The Treatment of Diarrhoea). **Children do not have access to firearms,
 > fuel, medications or chlorine products** (floor, → 30-01): small children explore by mouth and
 > by hand, and in a crisis the adults are busier.
 
@@ -105,7 +109,8 @@ about 400 in the second 6 months, plus extra water (→ 03-01).{{/if}}
 - **No honey under 1 year** (botulism). Honey appears in this binder as a wound dressing and a
   cough remedy (→ 12-02, → 12-13); the age rule matters more than the memory.
 - **Sleep:** the American Academy of Pediatrics says a baby sleeps in the parents' room on a
-  separate firm, flat surface. Sharing an adult bed for warmth is a trade-off that the card
+  separate firm, flat surface, and that parents avoid bed-sharing with a baby (AAP, How to Keep
+  Your Sleeping Baby Safe). Sharing an adult bed for warmth is a trade-off that the card
   only offers for children over 12 months (→ 30-10). {{choice DC-09}} → 30-10.
 - **Watch:** fewer wet diapers plus unusual sleepiness is an emergency (→ 12-05).
 
@@ -113,9 +118,10 @@ about 400 in the second 6 months, plus extra water (→ 03-01).{{/if}}
 
 - **Around 12 months a child moves to mostly family foods.** That is a real advantage in a
   crisis: the child increasingly eats what everyone eats.
-- **Milk for 12 to 23 months is whole milk** (CDC), about 16 to 24 ounces a day, not the nonfat
-  dry milk that most pantries stock. Low-fat milk only from age 2 unless a clinician says
-  otherwise. Stock and substitutes: → 20-05, → 04-14.
+- **Milk for 12 to 23 months is whole milk** (CDC: whole cow's milk from 12 months, not
+  before), about 16 ounces (2 cups) a day (AAP, Recommended Drinks for Children Age 5 and
+  Younger), not the nonfat dry milk that most pantries stock. Nonfat or low-fat milk from age 2
+  (AAP). Stock and substitutes: → 20-05, → 04-14.
 - **Soft, mashable, small.** Choking is the hazard at this age (list below).
 - **Mobile, curious, mouths everything.** This is the band at highest risk on almost every
   hazard in → 20-02: buckets of water, heaters, fuel, button batteries.
@@ -125,7 +131,7 @@ about 400 in the second 6 months, plus extra water (→ 03-01).{{/if}}
 
 ### Preschool (3 to 5)
 
-- **Eats family food**, still on the choking list until about 4.
+- **Eats family food**, still on the choking list until at least 4 (AAP).
 - **Can learn rules and a few jobs** (→ 20-04, → 20-07): "I only eat food a grown-up gives
   me", the fire line, the water rule.
 - **Still cannot report illness well.** A change in behaviour is often the first sign.
@@ -138,21 +144,25 @@ themselves. Their pages are → 20-03 (routine and schooling), → 20-04 (teachi
 
 ## Choking: the foods to change for children under 4
 
-The American Academy of Pediatrics lists these as choking hazards for young children
-(AAP, Choking Prevention), printed so this page works alone:
+The American Academy of Pediatrics lists these foods to avoid or change for young children
+until 4 years of age or older, depending on the child (AAP, Choking Prevention), printed so this
+page works alone:
 
-- Hot dogs, sausages and meat sticks: **cut into very small pieces**, not rounds.
-- **Whole grapes:** chop into very small pieces.
+- Hot dogs; meat sticks or sausages.
 - Hard, gooey or sticky candy; chewing gum.
 - Nuts and seeds (especially sunflower seeds).
-- Raw vegetables such as carrot sticks; raw fruit chunks such as apple pieces: **cook soft or
-  grate.**
+- Whole grapes.
+- Raw vegetables, such as carrot sticks; raw fruit chunks, such as apple pieces.
 - Popcorn; marshmallows.
-- Thick chunks of peanut butter or other nut butters: **spread thinly.**
+- Thick chunks of peanut butter or other nut butters: **spread thinly instead.**
 - Chunks of meat; chunks of cheese or string cheese.
 
-The AAP advises cutting food for young children into pieces **no bigger than half an inch**,
-seating children to eat, and watching every meal. **What to do if a child chokes, and infant and
+Round, firm foods such as hot dogs or grapes can be served if **completely chopped into tiny
+pieces**. The AAP advises cutting food for infants and young children into pieces **no larger
+than one-half inch**, having children sit down to eat, and supervising every meal. It also lists
+household choking hazards: balloons (a risk up to age 8), coins, marbles, small balls, toys
+with small parts, pen caps and **button or coin batteries**, which also burn if swallowed
+(→ 20-02). **What to do if a child chokes, and infant and
 child CPR, is → 12-18.** Read it before you need it.
 
 ## Food rules in a crisis
@@ -189,10 +199,11 @@ child CPR, is → 12-18.** Read it before you need it.
 
 - **The heated room** (→ 08-01) is where everyone sleeps in a cold house: warmer and safer than a
   cold bedroom.
-- **A cold house is answered with warm sleepwear and a sleep sack, not loose blankets** on a
-  small child (→ 11-02). Feel the neck and chest for overheating.
+- **A cold house is answered with warm sleepwear and a wearable blanket (sleep sack), not loose
+  blankets** on a baby (AAP; → 11-02). Check for overheating: sweating, a hot chest, flushed
+  skin (AAP).
 - **Hot-water bottles and warmed stones pre-warm the bed and come out before a child gets in.**
-  A contact burn develops on small skin in less time than a night (→ 12-03, → 21-07).
+  A sleeping child can be burned by one without waking (→ 12-03, → 21-07).
 - **A heater burning while people sleep** is a separate trade-off on its own card
   (→ 30-02). {{choice DC-01}} → 30-02.
 - **Routine matters enormously** for children and for the adults' sanity (→ 21-04, → 21-07).
@@ -226,7 +237,7 @@ child CPR, is → 12-18.** Read it before you need it.
 **If a child under 2 has diarrhoea** (WHO, The Treatment of Diarrhoea, as printed on → 12-05):
 give **50 to 100 mL (a quarter to half a cup) of ORS after each loose stool**, in sips from a
 spoon, on top of normal feeding. Breast milk continues throughout. A child already showing
-dehydration signs needs more, as set out on → 12-05. **No anti-diarrhoea medicine under 2.**
+dehydration signs needs more, as set out on → 12-05. **No loperamide under 2** (MedlinePlus).
 
 ## Gear
 

@@ -2,7 +2,7 @@
 id: 09-06-charging-medical-devices
 section: 09-power-and-energy
 title: "Keeping phones and medical devices charged"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -10,8 +10,11 @@ phase: [A, B, C]
 tags: [power, medical, phone, charging, power bank, cpap, oxygen, cgm, pump, devices]
 derived_from: [09-06-charging-medical-devices]
 sources:
-  - nfpa-national-fire-protection-association-lithium-io-0c7d64
+  - usfa-battery-fire-safety-r14
+  - usfa-blog-lithium-ion-batteries-2026-r8
   - american-red-cross-power-outage-safety-6d07a8
+  - resmed-airsense-11-user-guide-r14
+  - caire-airsep-newlife-technical-manual-r14
 related:
   - 09-01-power-priorities
   - 09-03-batteries-and-storage
@@ -39,7 +42,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Lithium charging re-cited to USFA (NFPA archive empty); CPAP 56/73 W (ResMed AirSense 11) and 5-L concentrator 350 W (AirSep) from maker specs; unsourced power-bank delivery and days figures replaced by a measurement" }
 ---
 
 # Keeping phones and medical devices charged
@@ -54,17 +57,18 @@ Keeping medicine **cold** is the separate, harder problem on → 09-10.
 > keeps a person safe when the power is gone.** Every medical device that needs electricity has a
 > non-electric fallback described in its module (→ 12-11 lists them). Rehearse it now, while you
 > can still check your work.
-> **Charging lithium safely** (NFPA, Lithium-Ion Batteries): charge on a hard, non-flammable
-> surface, never on a bed, couch or pile of clothes; keep chargers and packs away from where people
-> sleep and away from exits; use the device's own charger or a quality equivalent; **never charge a
-> battery that is damaged, swollen, punctured, leaking, hot, oddly shaped or making noise.** Those
-> are thermal-runaway warning signs: get everyone away from it.
+> **Charging lithium safely** (US Fire Administration): charge on a solid, flat surface, never on a
+> bed, couch or pile of clothes (soft surfaces trap heat); not in direct sun; store packs away from
+> anything that burns and away from exits; use the original charger or a certified replacement,
+> not a cheap knock-off. **Stop using a battery that shows an odd smell, a change in colour, too
+> much heat, a change in shape, leaking or odd noises** (USFA, Battery Fire Safety, from NFPA), or
+> that is smoking, hissing, punctured or swollen: get everyone away from it.
 > {{#if has.young_child}}A young child lives here: power banks and cables stay out of reach; a
 > toddler will chew a cable.{{/if}}
 
 ## Do this now
-- **Keep three or four 20,000 mAh USB power banks charged.** At about 70 Wh each, one refills a phone
-  several times. The cheapest, simplest, most reliable answer to the most common critical load, and
+- **Keep three or four 20,000 mAh USB power banks charged.** At about 70 Wh each (20 Ah × the cell's
+  3.6 to 3.7 V), one refills a phone several times. The cheapest, simplest, most reliable answer to the most common critical load, and
   it needs no wiring, no solar and no knowledge.
 - **Standing rule: every phone and power bank goes on the charger every night, grid or no grid.**
   The outage you do not see coming arrives with your phone at 12%.
@@ -75,9 +79,10 @@ Keeping medicine **cold** is the separate, harder problem on → 09-10.
   not take the information with it.
 - **Ask your medical equipment supplier now**, while you can: how many watts each device draws,
   whether a 12 V DC cord or a battery pack is made for it, which settings cut its power use on
-  battery, and how long its own battery lasts. Write the answers in the table below. Talking to the
-  equipment supplier and your clinician about an outage plan is the Red Cross's first advice for
-  anyone using powered medical equipment (American Red Cross, Power Outage Safety).
+  battery, and how long its own battery lasts. Write the answers in the table below. The Red Cross
+  advises planning back-up and non-power alternatives for medical devices and refrigerated medicine,
+  and discussing the plan with your primary care or medical device providers (American Red Cross,
+  Power Outage Safety).
 - **Practise one full day in low-power mode** with the phone, and measure what it actually drew.
   Write it on → 09-01.
 
@@ -91,11 +96,13 @@ Keeping medicine **cold** is the separate, harder problem on → 09-10.
 {{/if}}{{#if has.condition.CL-01}}- **Glucose meter (fingerstick).** Runs on ordinary coin or AAA cells and needs no charging: the most
   robust glucose tool you own. Stock its batteries and strips heavily; rotate strips for expiry
   (→ 02-01).
-{{/if}}{{#if has.cpap}}- **CPAP.** Often 30 to 60 W, 200 to 400 Wh a night. Find out whether it has a DC cord or battery
-  pack, and its draw with and without humidification. The module says what happens without it
-  (→ 02-24).
-{{/if}}{{#if has.oxygen}}- **Oxygen concentrator.** A motor-and-compressor load: read its label watts; it is usually the
-  biggest medical load and may run only hours from a station. Cylinders and portable-concentrator
+{{/if}}{{#if has.cpap}}- **CPAP.** One common machine lists a typical power use of 56 W and a peak of 73 W (ResMed,
+  AirSense 11 user guide): about 450 Wh over an 8-hour night at the typical figure. Find out whether
+  yours has a DC cord or battery pack, and measure its draw with and without the humidifier. The
+  module says what happens without it (→ 02-24).
+{{/if}}{{#if has.oxygen}}- **Oxygen concentrator.** A motor-and-compressor load: read its label watts. One common 5-litre
+  home unit is rated at 350 W (AirSep NewLife technical manual): about 8,400 Wh a day around the
+  clock, so a station may run it only for hours. Cylinders and portable-concentrator
   batteries are the backup; know your cylinder hours (→ 02-08).
 {{/if}}{{#if has.mobility_aid}}- **Power wheelchair or scooter.** Large battery; charge it whenever there is surplus, and know its
   range. A manual chair is the fallback (→ 02-22).
@@ -120,10 +127,11 @@ Keeping medicine **cold** is the separate, harder problem on → 09-10.
 ## Why it works this way
 
 **Charging small devices is easy; it is cooling medicine and running motors that is hard.** A phone
-is about **10 to 20 Wh a day**, less when managed. A 20,000 mAh power bank (about 70 Wh rated, about
-50 Wh actually delivered after conversion losses) covers **two to four days** of a carefully managed
-phone. Four banks is well over two weeks. A CPAP or an oxygen concentrator is a different scale:
-size them on → 09-01 and → 09-03 like any other load.
+is roughly **10 to 20 Wh a day** (typical; measure yours), less when managed. A 20,000 mAh power bank
+holds about 70 Wh, but less than that reaches the phone after conversion losses; count how many
+full phone charges one bank really gives you and write it here: ______. That is usually **days** of
+a carefully managed phone. A CPAP or an oxygen concentrator is a different scale: size them on
+→ 09-01 and → 09-03 like any other load.
 
 **Stretching a phone from one day to several: the highest-value skill here.**
 1. **Airplane mode, with Bluetooth on if a medical device needs it.** A phone searching for a dead
@@ -180,8 +188,8 @@ wall charger plugged into an inverter uses two, plus the inverter's idle draw (�
 ## When it runs out
 - **Device charging rarely runs out first.** What runs out is the whole system (→ 09-05), the fuel
   (→ 09-04), or the medicine (→ 09-10).
-- **Runway:** count power banks in days-of-phone (two to four days each, managed) and write the total
-  on → 23-02. Add the vehicle as a large reserve.
+- **Runway:** count power banks in days-of-phone (from the full charges you counted above) and write
+  the total on → 23-02. Add the vehicle as a large reserve.
 - **Ration:** airplane mode, screen dark, checked at intervals. **If you are down to one device and
   no way to charge it, switch to the module's non-electric fallback deliberately, while there is
   still enough battery to check the change-over**, not after the last 5% is gone.

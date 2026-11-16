@@ -2,7 +2,7 @@
 id: 04-03-bulk-staples-storage
 section: 04-food-storage-and-preservation
 title: "Long-term bulk staples: grains, beans, sugar and salt"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -28,7 +28,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Unsourced decade figures and oxygen-absorber sizes/times removed (USU: 10 percent moisture, 25 vs 5 years wheat); kidney-bean steps to FDA Bad Bug Book as published (5 h soak, 30 min boil)" }
 ---
 
 # Long-term bulk staples: grains, beans, sugar and salt

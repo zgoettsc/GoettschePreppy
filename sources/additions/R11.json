@@ -1,0 +1,478 @@
+[
+  {
+    "key": "medlineplus-hypothyroidism-r11",
+    "title": "Hypothyroidism (Medical Encyclopedia)",
+    "org": "MedlinePlus (US National Library of Medicine / NIH)",
+    "date": "2026-11-16",
+    "licence_class": "restricted",
+    "licence_note": "MedlinePlus Medical Encyclopedia content is licensed from A.D.A.M./Ebix; copyrighted, not a US government work. Fetch for the household's private copy only. Read by R11 2026-11-16: early and late symptoms; levels checked every 2 to 3 months when starting, then at least yearly; myxedema crisis signs and triggers (infection, illness, cold, some medicines such as opioids, not taking thyroid hormone).",
+    "url": "https://medlineplus.gov/ency/article/000353.htm",
+    "household_cited_by": [],
+    "cited_by": [
+      "02-14-cl14-thyroid-disease"
+    ],
+    "added_by": "R11"
+  },
+  {
+    "key": "medlineplus-thyroid-storm-r11",
+    "title": "Thyroid storm (Medical Encyclopedia)",
+    "org": "MedlinePlus (US National Library of Medicine / NIH)",
+    "date": "2026-11-16",
+    "licence_class": "restricted",
+    "licence_note": "MedlinePlus Medical Encyclopedia content is licensed from A.D.A.M./Ebix; copyrighted, not a US government work. Fetch for the household's private copy only. Read by R11: triggers (trauma, heart attack, infection in uncontrolled hyperthyroidism); symptoms list; medical emergency.",
+    "url": "https://medlineplus.gov/ency/article/000400.htm",
+    "household_cited_by": [],
+    "cited_by": [
+      "02-14-cl14-thyroid-disease"
+    ],
+    "added_by": "R11"
+  },
+  {
+    "key": "cms-preparing-for-emergencies-dialysis-2026-r11",
+    "title": "Preparing for Emergencies: A Guide for People on Dialysis (version 2.3, June 2026)",
+    "org": "Centers for Medicare & Medicaid Services",
+    "date": "2026-06",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work. Read by R11 2026-11-16 from the copy hosted by ESRD Network (IPRO); the medicare.gov URL in the index key cms-preparing-for-emergencies-dialysis returns 404. Facts used: start the 3-Day Emergency Diet as soon as a treatment may be missed; diet does not replace dialysis; always try to get dialysis within three days of the last treatment; shopping list covers six days; review with dietitian; PD 5- to 7-day supply as directed; learn manual CAPD for power loss; register with power and water companies; never cut needle lines; do not let unfamiliar people inject the access.",
+    "url": "https://esrd.ipro.org/wp-content/uploads/2026/06/CMSPreparingforEmergencies_508-062026.pdf",
+    "household_cited_by": [],
+    "cited_by": [
+      "02-15-cl15-kidney-disease-and-dialysis"
+    ],
+    "added_by": "R11"
+  },
+  {
+    "key": "medlineplus-high-potassium-r11",
+    "title": "High potassium level (Medical Encyclopedia)",
+    "org": "MedlinePlus (US National Library of Medicine / NIH)",
+    "date": "2026-11-16",
+    "licence_class": "restricted",
+    "licence_note": "MedlinePlus Medical Encyclopedia content is licensed from A.D.A.M./Ebix; copyrighted, not a US government work. Fetch for the household's private copy only. Read by R11: often no symptoms; chest pain, trouble breathing, nausea/vomiting, palpitations, slow weak or irregular pulse, sudden collapse; salt substitutes contain potassium.",
+    "url": "https://medlineplus.gov/ency/article/001179.htm",
+    "household_cited_by": [],
+    "cited_by": [
+      "02-15-cl15-kidney-disease-and-dialysis"
+    ],
+    "added_by": "R11"
+  },
+  {
+    "key": "medlineplus-end-stage-kidney-disease-r11",
+    "title": "End-stage kidney disease (Medical Encyclopedia)",
+    "org": "MedlinePlus (US National Library of Medicine / NIH)",
+    "date": "2026-11-16",
+    "licence_class": "restricted",
+    "licence_note": "MedlinePlus Medical Encyclopedia content is licensed from A.D.A.M./Ebix; copyrighted, not a US government work. Fetch for the household's private copy only. Read by R11: symptoms (nausea, itching, loss of appetite, drowsiness and confusion, muscle twitching, vomiting, breath odour); leads to death without dialysis or transplant.",
+    "url": "https://medlineplus.gov/ency/article/000500.htm",
+    "household_cited_by": [],
+    "cited_by": [
+      "02-15-cl15-kidney-disease-and-dialysis"
+    ],
+    "added_by": "R11"
+  },
+  {
+    "key": "medlineplus-valproic-acid-r11",
+    "title": "Valproic Acid",
+    "org": "MedlinePlus (US National Library of Medicine / NIH)",
+    "date": "2026-11-16",
+    "licence_class": "restricted",
+    "licence_note": "Drug information licensed to MedlinePlus by ASHP (AHFS); copyrighted, not a US government work. Fetch for the household's private copy only. Read by R11: suddenly stopping may cause a severe, long-lasting and possibly life-threatening seizure.",
+    "url": "https://medlineplus.gov/druginfo/meds/a682412.html",
+    "household_cited_by": [],
+    "cited_by": [
+      "02-16-cl16-mental-health-medications"
+    ],
+    "added_by": "R11"
+  },
+  {
+    "key": "medlineplus-carbamazepine-r11",
+    "title": "Carbamazepine",
+    "org": "MedlinePlus (US National Library of Medicine / NIH)",
+    "date": "2026-11-16",
+    "licence_class": "restricted",
+    "licence_note": "Drug information licensed to MedlinePlus by ASHP (AHFS); copyrighted, not a US government work. Fetch for the household's private copy only. Read by R11: with a seizure disorder, stopping suddenly may make seizures worse.",
+    "url": "https://medlineplus.gov/druginfo/meds/a682237.html",
+    "household_cited_by": [],
+    "cited_by": [
+      "02-16-cl16-mental-health-medications"
+    ],
+    "added_by": "R11"
+  },
+  {
+    "key": "medlineplus-gabapentin-r11",
+    "title": "Gabapentin",
+    "org": "MedlinePlus (US National Library of Medicine / NIH)",
+    "date": "2026-11-16",
+    "licence_class": "restricted",
+    "licence_note": "Drug information licensed to MedlinePlus by ASHP (AHFS); copyrighted, not a US government work. Fetch for the household's private copy only. Read by R11: sudden stop may cause withdrawal (anxiety, trouble sleeping, nausea, pain, sweating) and more frequent seizures.",
+    "url": "https://medlineplus.gov/druginfo/meds/a694007.html",
+    "household_cited_by": [],
+    "cited_by": [
+      "02-16-cl16-mental-health-medications"
+    ],
+    "added_by": "R11"
+  },
+  {
+    "key": "medlineplus-pregabalin-r11",
+    "title": "Pregabalin",
+    "org": "MedlinePlus (US National Library of Medicine / NIH)",
+    "date": "2026-11-16",
+    "licence_class": "restricted",
+    "licence_note": "Drug information licensed to MedlinePlus by ASHP (AHFS); copyrighted, not a US government work. Fetch for the household's private copy only. Read by R11: sudden stop may cause trouble sleeping, nausea, diarrhoea, headaches or seizures.",
+    "url": "https://medlineplus.gov/druginfo/meds/a605045.html",
+    "household_cited_by": [],
+    "cited_by": [
+      "02-16-cl16-mental-health-medications"
+    ],
+    "added_by": "R11"
+  },
+  {
+    "key": "medlineplus-propranolol-r11",
+    "title": "Propranolol",
+    "org": "MedlinePlus (US National Library of Medicine / NIH)",
+    "date": "2026-11-16",
+    "licence_class": "restricted",
+    "licence_note": "Drug information licensed to MedlinePlus by ASHP (AHFS); copyrighted, not a US government work. Fetch for the household's private copy only. Read by R11: suddenly stopping may cause serious heart problems.",
+    "url": "https://medlineplus.gov/druginfo/meds/a682607.html",
+    "household_cited_by": [],
+    "cited_by": [
+      "02-16-cl16-mental-health-medications"
+    ],
+    "added_by": "R11"
+  },
+  {
+    "key": "medlineplus-guanfacine-r11",
+    "title": "Guanfacine",
+    "org": "MedlinePlus (US National Library of Medicine / NIH)",
+    "date": "2026-11-16",
+    "licence_class": "restricted",
+    "licence_note": "Drug information licensed to MedlinePlus by ASHP (AHFS); copyrighted, not a US government work. Fetch for the household's private copy only. Read by R11: suddenly stopping may raise blood pressure, nervousness or anxiety.",
+    "url": "https://medlineplus.gov/druginfo/meds/a601059.html",
+    "household_cited_by": [],
+    "cited_by": [
+      "02-16-cl16-mental-health-medications"
+    ],
+    "added_by": "R11"
+  },
+  {
+    "key": "medlineplus-phenelzine-r11",
+    "title": "Phenelzine",
+    "org": "MedlinePlus (US National Library of Medicine / NIH)",
+    "date": "2026-11-16",
+    "licence_class": "restricted",
+    "licence_note": "Drug information licensed to MedlinePlus by ASHP (AHFS); copyrighted, not a US government work. Fetch for the household's private copy only. Read by R11: serious reaction with high-tyramine foods (smoked, aged, improperly stored or spoiled meat, poultry, fish or cheese; some fruits, vegetables, beans; alcohol; fermented yeast products).",
+    "url": "https://medlineplus.gov/druginfo/meds/a682089.html",
+    "household_cited_by": [],
+    "cited_by": [
+      "02-16-cl16-mental-health-medications"
+    ],
+    "added_by": "R11"
+  },
+  {
+    "key": "cdc-what-to-do-if-someone-is-overdosing-r11",
+    "title": "What to Do If You Think Someone Is Overdosing",
+    "org": "CDC (Stop Overdose)",
+    "date": "2024-04-02",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work. Read by R11 2026-11-16 through the web fetcher (cdc.gov refuses curl): signs (unconscious or cannot wake, slow/shallow breathing or choking, gurgling or snoring sounds, discoloured nails or lips, pinpoint pupils that don't react to light); steps (naloxone and 911, keep awake and breathing, on side, stay); if unsure treat as overdose.",
+    "url": "https://www.cdc.gov/stop-overdose/response/index.html",
+    "household_cited_by": [],
+    "cited_by": [
+      "02-17-cl17-opioid-dependence-and-chronic-pain"
+    ],
+    "added_by": "R11"
+  },
+  {
+    "key": "narcan-otc-drug-facts-r11",
+    "title": "NARCAN (naloxone HCl) Nasal Spray 4 mg, Drug Facts label",
+    "org": "Emergent Devices Inc., via DailyMed (US National Library of Medicine)",
+    "date": "2026-08-24",
+    "licence_class": "restricted",
+    "licence_note": "Manufacturer's FDA-approved OTC label as published on DailyMed (setid a0ebc83d-2892-40de-bc0a-775ce90b30db). Read by R11 2026-11-16: steps Check, Give (either nostril), Call 911, Watch and Give (wait 2-3 minutes; keep giving every 2-3 minutes until awake; safe to keep giving), Stay (until ambulance; another dose if very sleepy again); storage 36-77 F, do not freeze, avoid above 104 F, protect from light. Label text quoted as published.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a0ebc83d-2892-40de-bc0a-775ce90b30db",
+    "household_cited_by": [],
+    "cited_by": [
+      "02-17-cl17-opioid-dependence-and-chronic-pain"
+    ],
+    "added_by": "R11"
+  },
+  {
+    "key": "medlineplus-oxycodone-r11",
+    "title": "Oxycodone",
+    "org": "MedlinePlus (US National Library of Medicine / NIH)",
+    "date": "2026-11-16",
+    "licence_class": "restricted",
+    "licence_note": "Drug information licensed to MedlinePlus by ASHP (AHFS); copyrighted, not a US government work. Fetch for the household's private copy only. Read by R11: may harm or kill others who take it, especially children; keep naloxone; do not stop suddenly or rapidly lower the dose without the doctor, who will probably lower it gradually; withdrawal symptom list.",
+    "url": "https://medlineplus.gov/druginfo/meds/a682132.html",
+    "household_cited_by": [],
+    "cited_by": [
+      "02-17-cl17-opioid-dependence-and-chronic-pain"
+    ],
+    "added_by": "R11"
+  },
+  {
+    "key": "cdc-fentanyl-facts-r11",
+    "title": "Fentanyl Facts",
+    "org": "CDC (Stop Overdose)",
+    "date": "2024-04-02",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work. Read by R11 through the web fetcher: illegally made fentanyl is made into pills that resemble other prescription opioids; many people do not know their drugs contain it; even small doses can be deadly. Replaces dea-one-pill-can-kill on 02-17 (dea.gov returned 403 to curl and to the fetcher).",
+    "url": "https://www.cdc.gov/stop-overdose/caring/fentanyl-facts.html",
+    "household_cited_by": [],
+    "cited_by": [
+      "02-17-cl17-opioid-dependence-and-chronic-pain"
+    ],
+    "added_by": "R11"
+  },
+  {
+    "key": "medlineplus-loperamide-r11",
+    "title": "Loperamide",
+    "org": "MedlinePlus (US National Library of Medicine / NIH)",
+    "date": "2026-11-16",
+    "licence_class": "restricted",
+    "licence_note": "Drug information licensed to MedlinePlus by ASHP (AHFS); copyrighted, not a US government work. Fetch for the household's private copy only. Read by R11: more than the recommended amount can cause heart problems that may be serious or cause death. Replaces fda-loperamide-heart-dsc-2016 on 02-17 (FDA URL returns 404).",
+    "url": "https://medlineplus.gov/druginfo/meds/a682280.html",
+    "household_cited_by": [],
+    "cited_by": [
+      "02-17-cl17-opioid-dependence-and-chronic-pain"
+    ],
+    "added_by": "R11"
+  },
+  {
+    "key": "medlineplus-transplant-rejection-r11",
+    "title": "Transplant rejection (Medical Encyclopedia)",
+    "org": "MedlinePlus (US National Library of Medicine / NIH)",
+    "date": "2026-11-16",
+    "licence_class": "restricted",
+    "licence_note": "MedlinePlus Medical Encyclopedia content is licensed from A.D.A.M./Ebix; copyrighted, not a US government work. Fetch for the household's private copy only. Read by R11: symptoms (organ function decreasing, discomfort, pain or swelling over organ (rare), fever (rare), flu-like symptoms); kidney: less urine; heart: heart failure signs; immune-suppressing medicine usually for life.",
+    "url": "https://medlineplus.gov/ency/article/000815.htm",
+    "household_cited_by": [],
+    "cited_by": [
+      "02-18-cl18-immunosuppression-and-transplant"
+    ],
+    "added_by": "R11"
+  },
+  {
+    "key": "cdc-watch-out-for-fever-chemo-r11",
+    "title": "Watch Out for Fever (Preventing Infections in Cancer Patients)",
+    "org": "CDC",
+    "date": "2024-11-14",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work. Read by R11 through the web fetcher: call the doctor immediately at 100.4 F (38 C) or higher; fever may be the only sign of infection; infection during chemotherapy can be life-threatening. Replaces cdc-preventing-infections-cancer-patients (old URL 404).",
+    "url": "https://www.cdc.gov/cancer-preventing-infections/patients/fever.html",
+    "household_cited_by": [],
+    "cited_by": [
+      "02-18-cl18-immunosuppression-and-transplant"
+    ],
+    "added_by": "R11"
+  },
+  {
+    "key": "cdc-preventing-listeria-r11",
+    "title": "Preventing Listeria Infection",
+    "org": "CDC",
+    "date": "2025-01-31",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work. Read by R11 through the web fetcher: for higher-risk groups, deli meat, cold cuts and hot dogs reheated to 165 F or until steaming hot; avoid raw milk and raw-milk cheese; avoid raw or lightly cooked sprouts; refrigerated smoked fish; cut melon. Replaces foodsafety-gov-weakened-immune-systems on 02-18 (foodsafety.gov returned 403 to curl and fetcher).",
+    "url": "https://www.cdc.gov/listeria/prevention/index.html",
+    "household_cited_by": [],
+    "cited_by": [
+      "02-18-cl18-immunosuppression-and-transplant"
+    ],
+    "added_by": "R11"
+  },
+  {
+    "key": "niddk-celiac-symptoms-causes-r11",
+    "title": "Symptoms & Causes of Celiac Disease",
+    "org": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK), NIH",
+    "date": "2026-11-16",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work. Read by R11: digestive and other symptoms; growth effects in children; some people have no symptoms.",
+    "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/symptoms-causes",
+    "household_cited_by": [],
+    "cited_by": [
+      "02-19-cl19-celiac-and-severe-gi-disease"
+    ],
+    "added_by": "R11"
+  },
+  {
+    "key": "medlineplus-ileostomy-stoma-care-r11",
+    "title": "Ileostomy - caring for your stoma (Patient Instructions)",
+    "org": "MedlinePlus (US National Library of Medicine / NIH)",
+    "date": "2026-11-16",
+    "licence_class": "restricted",
+    "licence_note": "MedlinePlus Medical Encyclopedia content is licensed from A.D.A.M./Ebix; copyrighted, not a US government work. Fetch for the household's private copy only. Read by R11: call the provider if the stoma turns purple, black or white, bleeds more, swells, pulls in, or with dehydration signs; oral rehydration solution for high output.",
+    "url": "https://medlineplus.gov/ency/patientinstructions/000071.htm",
+    "household_cited_by": [],
+    "cited_by": [
+      "02-19-cl19-celiac-and-severe-gi-disease"
+    ],
+    "added_by": "R11"
+  },
+  {
+    "key": "niddk-adrenal-insufficiency-symptoms-causes-r11",
+    "title": "Symptoms & Causes of Adrenal Insufficiency & Addison's Disease",
+    "org": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK), NIH",
+    "date": "2026-11-16",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work. Read by R11: symptom list; most common cause overall is suddenly stopping corticosteroids after long use.",
+    "url": "https://www.niddk.nih.gov/health-information/endocrine-diseases/adrenal-insufficiency-addisons-disease/symptoms-causes",
+    "household_cited_by": [],
+    "cited_by": [
+      "02-20-cl20-adrenal-insufficiency"
+    ],
+    "added_by": "R11"
+  },
+  {
+    "key": "niddk-adrenal-insufficiency-treatment-r11",
+    "title": "Treatment for Adrenal Insufficiency & Addison's Disease",
+    "org": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK), NIH",
+    "date": "2018-09",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work. Read by R11: hydrocortisone usually two or three times a day; higher doses during physical stress; increase with high fever; immediate care if vomiting and cannot keep tablets down. (Crisis signs and 'injection with you at all times' are on the Definition & Facts page under the index key niddk-adrenal-insufficiency.)",
+    "url": "https://www.niddk.nih.gov/health-information/endocrine-diseases/adrenal-insufficiency-addisons-disease/treatment",
+    "household_cited_by": [],
+    "cited_by": [
+      "02-20-cl20-adrenal-insufficiency"
+    ],
+    "added_by": "R11"
+  },
+  {
+    "key": "endocrine-society-adrenal-insufficiency-r11",
+    "title": "Adrenal Insufficiency (Endocrine Library)",
+    "org": "Endocrine Society",
+    "date": "2022-01-24",
+    "licence_class": "restricted",
+    "licence_note": "Copyright Endocrine Society (national society patient page). Fetch for the household's private copy only. Read by R11: adrenal crisis warning signs (severe nausea and vomiting, diarrhoea, abdominal pain, dehydration and confusion, low blood pressure and fainting); glucocorticoid injection right away, then hospital; extra glucocorticoids in stress per the doctor's personalised advice.",
+    "url": "https://www.endocrine.org/patient-engagement/endocrine-library/adrenal-insufficiency",
+    "household_cited_by": [],
+    "cited_by": [
+      "02-20-cl20-adrenal-insufficiency"
+    ],
+    "added_by": "R11"
+  },
+  {
+    "key": "medlineplus-autonomic-dysreflexia-r11",
+    "title": "Autonomic dysreflexia (Medical Encyclopedia)",
+    "org": "MedlinePlus (US National Library of Medicine / NIH)",
+    "date": "2026-11-16",
+    "licence_class": "restricted",
+    "licence_note": "MedlinePlus Medical Encyclopedia content is licensed from A.D.A.M./Ebix; copyrighted, not a US government work. Fetch for the household's private copy only. Read by R11: symptoms; life-threatening; sit up and raise the head, remove tight clothing; look for blocked catheter, constipation, sores.",
+    "url": "https://medlineplus.gov/ency/article/001431.htm",
+    "household_cited_by": [],
+    "cited_by": [
+      "02-22-cl22-mobility-impairment"
+    ],
+    "added_by": "R11"
+  },
+  {
+    "key": "ftc-buying-glasses-contacts-your-rights-r11",
+    "title": "Buying Prescription Glasses or Contact Lenses: Your Rights",
+    "org": "Federal Trade Commission (Consumer Advice)",
+    "date": "2024-06",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work. Read by R11 through the web fetcher: prescriber must give a copy of the glasses prescription immediately after an eye exam that includes a refraction, whether you ask or not, at no extra charge. Replaces ftc-eyeglass-rule (index URL returns 404).",
+    "url": "https://consumer.ftc.gov/articles/buying-prescription-glasses-or-contact-lenses-your-rights",
+    "household_cited_by": [],
+    "cited_by": [
+      "02-23-cl23-hearing-and-vision-aids"
+    ],
+    "added_by": "R11"
+  },
+  {
+    "key": "fda-contact-lens-risks-r11",
+    "title": "Contact Lens Risks",
+    "org": "US Food and Drug Administration",
+    "date": "2026-11-16",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work. Read by R11: remove lenses at once with irritation or infection signs and keep them for the eye care professional; symptom list; never expose lenses to any water (tap, bottled, distilled, lake, ocean); tap and distilled water linked to Acanthamoeba keratitis. Replaces fda-contact-lens-safety (index URL returns 404).",
+    "url": "https://www.fda.gov/medical-devices/contact-lenses/contact-lens-risks",
+    "household_cited_by": [],
+    "cited_by": [
+      "02-23-cl23-hearing-and-vision-aids"
+    ],
+    "added_by": "R11"
+  },
+  {
+    "key": "nhlbi-sleep-apnea-treatment-r11",
+    "title": "Sleep Apnea: Treatment",
+    "org": "National Heart, Lung, and Blood Institute (NHLBI), NIH",
+    "date": "2026-11-16",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work. Read by R11: healthy weight, limit alcohol, side sleeping can help keep the airway open; PAP side effects.",
+    "url": "https://www.nhlbi.nih.gov/health/sleep-apnea/treatment",
+    "household_cited_by": [],
+    "cited_by": [
+      "02-24-cl24-sleep-apnea-cpap"
+    ],
+    "added_by": "R11"
+  },
+  {
+    "key": "nhlbi-sleep-apnea-living-with-r11",
+    "title": "Sleep Apnea: Living With",
+    "org": "National Heart, Lung, and Blood Institute (NHLBI), NIH",
+    "date": "2026-11-16",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work. Read by R11: untreated apnoea affects concentration, memory, decisions; heart and blood vessel disease; drowsy driving can cause accidents, do not drive when sleepy; sleep and pain medicine can make it harder to keep the airway open.",
+    "url": "https://www.nhlbi.nih.gov/health/sleep-apnea/living-with",
+    "household_cited_by": [],
+    "cited_by": [
+      "02-24-cl24-sleep-apnea-cpap"
+    ],
+    "added_by": "R11"
+  },
+  {
+    "key": "medlineplus-gastric-bypass-discharge-r11",
+    "title": "Gastric bypass surgery - discharge (Patient Instructions)",
+    "org": "MedlinePlus (US National Library of Medicine / NIH)",
+    "date": "2026-11-16",
+    "licence_class": "restricted",
+    "licence_note": "MedlinePlus Medical Encyclopedia content is licensed from A.D.A.M./Ebix; copyrighted, not a US government work. Fetch for the household's private copy only. Read by R11: do not eat and drink at the same time, drink at least 30 minutes after eating, sip; vitamins usually multivitamin, B12, D, sometimes calcium and iron; blood tests for life; aspirin and ibuprofen may harm the stomach lining or cause ulcers; call for vomiting after eating or trouble drinking. Replaces mechanick-bariatric-cpg-2019 on 02-26 (guideline full text not reachable: publisher 403, not in PMC).",
+    "url": "https://medlineplus.gov/ency/patientinstructions/000172.htm",
+    "household_cited_by": [],
+    "cited_by": [
+      "02-26-cl26-severe-obesity-and-bariatric-surgery"
+    ],
+    "added_by": "R11"
+  },
+  {
+    "key": "medlineplus-wernicke-korsakoff-r11",
+    "title": "Wernicke-Korsakoff syndrome (Medical Encyclopedia)",
+    "org": "MedlinePlus (US National Library of Medicine / NIH)",
+    "date": "2026-11-16",
+    "licence_class": "restricted",
+    "licence_note": "MedlinePlus Medical Encyclopedia content is licensed from A.D.A.M./Ebix; copyrighted, not a US government work. Fetch for the household's private copy only. Read by R11: caused by lack of vitamin B1, including after weight-loss surgery; symptoms confusion progressing to coma and death, loss of coordination, abnormal eye movements, double vision, eyelid drooping.",
+    "url": "https://medlineplus.gov/ency/article/000771.htm",
+    "household_cited_by": [],
+    "cited_by": [
+      "02-26-cl26-severe-obesity-and-bariatric-surgery"
+    ],
+    "added_by": "R11"
+  },
+  {
+    "key": "niddk-dumping-syndrome-symptoms-causes-r11",
+    "title": "Symptoms & Causes of Dumping Syndrome",
+    "org": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK), NIH",
+    "date": "2026-11-16",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work. Read by R11: early dumping within 30 minutes of a meal; late dumping 1 to 3 hours after, from low blood glucose; symptom lists; gastric bypass and sleeve surgery as causes.",
+    "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/dumping-syndrome/symptoms-causes",
+    "household_cited_by": [],
+    "cited_by": [
+      "02-26-cl26-severe-obesity-and-bariatric-surgery"
+    ],
+    "added_by": "R11"
+  },
+  {
+    "key": "niddk-dumping-syndrome-eating-r11",
+    "title": "Eating, Diet, & Nutrition for Dumping Syndrome",
+    "org": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK), NIH",
+    "date": "2026-11-16",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work. Read by R11: six small meals; liquids at least 30 minutes after a meal; more protein, fibre and fat; fewer simple sugars.",
+    "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/dumping-syndrome/eating-diet-nutrition",
+    "household_cited_by": [],
+    "cited_by": [
+      "02-26-cl26-severe-obesity-and-bariatric-surgery"
+    ],
+    "added_by": "R11"
+  }
+]

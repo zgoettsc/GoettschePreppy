@@ -49,7 +49,7 @@ condition: CL-06
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "FDA switching/mixes/once-weekly text re-checked word for word; Awiqli storage window added as published; ADA vs FDA difference noted; meds_for tables." }
 ---
 
 # CL-06. Type 2 diabetes on insulin
