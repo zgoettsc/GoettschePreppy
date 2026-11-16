@@ -63,29 +63,36 @@ Your household's medicine rows: {{#each meds as m}}{{m.member}}, {{m.name}} {{m.
   insulin that has been stored above 86 °F**, and should replace it when properly stored
   insulin is available (FDA, Information Regarding Insulin Storage and Switching Between
   Products in an Emergency).
-- The American Diabetes Association gives the same storage band and the same emergency advice
-  (ADA, Insulin Storage and Syringe Safety; ADA, Switching Between Insulin Products in Disaster
-  Response Situations).
+- The American Diabetes Association's disaster guidance gives the same band for opened vials
+  and pens (59 to 86 °F for up to 28 days) and says that under emergency conditions insulin
+  stored above 86 °F may be used if necessary, then discarded once properly stored insulin is
+  available (ADA, Switching Between Insulin Products in Disaster Response Situations). Its
+  everyday storage page says insulin kept at room temperature lasts about one month (ADA,
+  Insulin Storage and Syringe Safety).
 - Each product's label gives its own in-use days. Some are shorter than 28.
 
 **Why:** makers test strength at set temperatures for set times. Outside those, they cannot
 promise the dose on the label is the dose you get, so the label says discard.
 
-**What the evidence adds:** a 2023 Cochrane review found unopened human insulin (regular and
-NPH types) kept useful strength for months at room temperature, longer than labels say; the
-evidence for newer "analog" insulins is thinner (Cochrane, Richter and others, 2023). This is
-planning context, not permission to store warm.
+**What the evidence adds:** a Cochrane review (Richter and others) found that unopened vials
+and cartridges of specific types of human insulin could be stored at up to 25 °C (77 °F) for at
+most 6 months, and up to 37 °C (99 °F) for at most 2 months, without a clinically relevant loss
+of activity; its authors list mixed insulins, pumps and opened vials as needing more research
+(Cochrane, Human insulin less temperature-sensitive than previously thought). This is planning
+context, not permission to store warm.
 
 ## 3. How it actually hurts people
 
 **Using it:** weaker insulin brings blood sugar down less. Blood sugar runs high. In type 1
 diabetes, not enough insulin lets acids called ketones build up: **diabetic ketoacidosis
-(DKA)**, with vomiting, deep fast breathing and confusion, fatal without treatment (CDC,
-Diabetic Ketoacidosis). The danger is that nobody knows how much strength is gone, so a "normal"
+(DKA)**, with nausea and vomiting, rapid deep breathing and confusion (CDC, Diabetic
+Ketoacidosis; ADA, DKA and Ketones). ADA calls it a medical emergency that can become
+life-threatening if it is not treated. The danger is that nobody knows how much strength is gone, so a "normal"
 dose quietly underperforms.
 
-**Not using it:** with no insulin at all, a person with type 1 diabetes goes into DKA for
-certain, usually within days. Throwing away warmed insulin with nothing to replace it is the
+**Not using it:** DKA develops when the body lacks insulin, and ADA says it can develop
+quickly, often during illness or missed insulin (ADA, DKA and Ketones). With no insulin at all,
+a person with type 1 diabetes will go into DKA. Throwing away warmed insulin with nothing to replace it is the
 error that kills fastest.
 
 **Other refrigerated medicines** (some injected arthritis, bowel and skin drugs, some

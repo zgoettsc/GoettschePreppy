@@ -138,7 +138,7 @@ station is, and volts, amps and watt-hours, are on → 29-02. Model-by-model sta
 | Cycle life | Thousands: 3,000 to 5,000 for one maker's battery (Battle Born) | Fewer; shallow discharges give longer life (Trojan) |
 | Weight | Lighter for the same usable energy (BB10012: 31 lb for 100 Ah, all of it usable) | Heavy |
 | Tolerates sitting part-charged | Yes | **No**: it sulfates and loses capacity (Trojan) |
-| **Charging below freezing** | **No.** Makers set the limit at about 32 °F (stations) or 25 °F (Battle Born) and the battery management system blocks it; a heated battery can charge colder | With temperature-compensated charging; **never charge a frozen battery** (Trojan) |
+| **Charging below freezing** | **No.** Makers set the limit at 32 °F (stations) or 25 to 32 °F (Battle Born) and the battery management system blocks it; a heated battery can charge colder | With temperature-compensated charging; **never charge a frozen battery** (Trojan) |
 | Fire risk | Can overheat and burn if damaged or abused (USFA) | Explosive gas while charging, and acid |
 | Can you find more in a crisis? | Rarely | **Everywhere: every car, truck, boat, RV** |
 

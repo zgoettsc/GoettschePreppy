@@ -106,3 +106,8 @@ Collected from worker reports; resolved in the integration pass.
 - [ ] R13: CPSC CO pages classed blocked now fetch: re-capture.
 - [ ] R13 owner question: banking a wood stove overnight as its own card? (08-08 now prints USFA: put the fire out before sleeping.)
 - [ ] R13: NHTSA and HCALORY unreachable; tire and ducted-heater numbers are fill-ins.
+- [x] R17: medlineplus-broken-bone reclassed restricted (A.D.A.M. content). 12-02/12-09 overstatements passed to R15.
+- [ ] R17: ten index entries with dead, empty or wrong URLs (list in R17.md); fix in the release source pass.
+- [ ] R17: FSIS can-storage temperature (2014 sheet "below 85 F best" vs current page "above 90 F"): re-check when fsis.usda.gov is reachable.
+- [ ] R17 owner questions: DC-25 option for a medic-trained member (2 to 6 h window)? DC-13 option 3 for fresh pools.
+- [ ] DC-16 "published adult table": R15 to resolve on 12-04 and the card wording.

@@ -133,7 +133,7 @@ generator.
 **`diy-with-write-up`: Do it ourselves with the write-up.**
 You give up: the electrician's training and an inspector's check. You accept: shock risk while
 doing the work and shock or fire risk from any mistake afterwards, controlled by the
-lock-off-and-test rule, correct parts, the written steps and a test run.
+lock-out-and-test rule, correct parts, the written steps and a test run.
 
 > **Before the collapse:** most places require a permit and an inspection for changes to
 > permanent wiring, and rules on cord-connecting a furnace or well pump differ by area. Ask your

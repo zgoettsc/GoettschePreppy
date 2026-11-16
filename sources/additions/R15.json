@@ -8,7 +8,9 @@
     "licence_note": "Copyright 2026 American Academy of Pediatrics. Read by R15 on 2026-11-16 (page last updated 1/30/2026): for children under 12 years give every 4 hours while symptoms last; do not give more than 5 doses in 24 hours; over 12 years extra strength every 6 hours, no more than 6 extra strength tablets/gelcaps in 24 hours; not under 2 years without a doctor's guidance; no 500 mg extra strength under 12; no 650 mg extended-release under 18; print-friendly chart is the pictographic PDF (key american-academy-of-pediatrics-healthychildren-org-a-b3b884).",
     "url": "https://www.healthychildren.org/English/safety-prevention/at-home/medication-safety/Pages/Acetaminophen-for-Fever-and-Pain.aspx",
     "household_cited_by": [],
-    "cited_by": ["12-13-pain-and-fever"]
+    "cited_by": [
+      "12-13-pain-and-fever"
+    ]
   },
   {
     "key": "aap-healthychildren-ibuprofen-dosing-table-r15",
@@ -19,7 +21,9 @@
     "licence_note": "Copyright 2023 American Academy of Pediatrics. Read by R15 on 2026-11-16 (page last updated 9/19/2024): do not use ibuprofen in children less than 6 months old unless the child's doctor says to; best not to give multi-ingredient medicines under 6 years; you can give ibuprofen every 6 to 8 hours if needed; adult dose 400 mg. The print-friendly chart (key american-academy-of-pediatrics-healthychildren-org-i-076a13) says every 6 hours, no more than 4 doses in 24 hours.",
     "url": "https://www.healthychildren.org/English/safety-prevention/at-home/medication-safety/Pages/Ibuprofen-for-Fever-and-Pain.aspx",
     "household_cited_by": [],
-    "cited_by": ["12-13-pain-and-fever"]
+    "cited_by": [
+      "12-13-pain-and-fever"
+    ]
   },
   {
     "key": "dailymed-childrens-benadryl-allergy-drug-facts-r15",
@@ -30,7 +34,10 @@
     "licence_note": "Manufacturer's FDA-required Drug Facts labeling as posted on DailyMed (SPL version 15, published Oct 09, 2026). Read by R15 on 2026-11-16: Do not use to make a child sleepy; do not use with any other product containing diphenhydramine; children under 2 years: do not use; children 2 to 5 years: do not use unless directed by a doctor; store between 20-25 C (68-77 F).",
     "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fc9181b9-c92d-493e-8d7c-4a4239c6c092&audience=consumer",
     "household_cited_by": [],
-    "cited_by": ["12-07-meds-stockpile", "12-13-pain-and-fever"]
+    "cited_by": [
+      "12-07-meds-stockpile",
+      "12-13-pain-and-fever"
+    ]
   },
   {
     "key": "dailymed-imodium-ad-liquid-drug-facts-r15",
@@ -41,7 +48,10 @@
     "licence_note": "Manufacturer's FDA-required Drug Facts labeling as posted on DailyMed. Read by R15 on 2026-11-16: do not use if you have bloody or black stool; ask a doctor before use if you have fever or mucus in the stool; children 2-5 years ask a doctor; children under 2 years (up to 33 lbs) do not use; store between 20-25 C (68-77 F).",
     "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=76a976d5-8bee-4158-a94d-7fbfc5544fd4&audience=consumer",
     "household_cited_by": [],
-    "cited_by": ["12-05-common-illness-and-dehydration", "12-07-meds-stockpile"]
+    "cited_by": [
+      "12-05-common-illness-and-dehydration",
+      "12-07-meds-stockpile"
+    ]
   },
   {
     "key": "dod-stop-the-bleed-faq-r15",
@@ -52,7 +62,10 @@
     "licence_note": "US federal government work. Read by R15 on 2026-11-16: a class runs about one hour (direct pressure, wound packing, tourniquet); if bleeding continues pack the wound; if there is still bleeding apply a tourniquet 2 to 3 inches above the wound and keep tightening until the bleeding stops; warn the person it will hurt; kits contain a tourniquet, packing gauze or hemostatic dressing, a compression bandage, nitrile gloves and a marker; program tourniquets are drawn from the CoTCCC list.",
     "url": "https://www.dodstopthebleed.org/faq/",
     "household_cited_by": [],
-    "cited_by": ["12-01-first-aid-kit", "12-02-bleeding-and-wounds"]
+    "cited_by": [
+      "12-01-first-aid-kit",
+      "12-02-bleeding-and-wounds"
+    ]
   },
   {
     "key": "who-diarrhoeal-disease-fact-sheet-r15",
@@ -63,7 +76,9 @@
     "licence_note": "Copyright WHO. Read by R15 on 2026-11-16: diarrhoeal disease is the third leading cause of death in children under 5 years old; diarrhoea should be treated with oral rehydration solution (ORS), a solution of clean water, sugar and salt; a 10-14 day course of zinc shortens duration; prevention by safe drinking-water, sanitation and hand washing with soap.",
     "url": "https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease",
     "household_cited_by": [],
-    "cited_by": ["12-05-common-illness-and-dehydration"]
+    "cited_by": [
+      "12-05-common-illness-and-dehydration"
+    ]
   },
   {
     "key": "medlineplus-hydrocarbon-pneumonia-r15",
@@ -74,7 +89,9 @@
     "licence_note": "MedlinePlus encyclopedia text licensed from A.D.A.M. Read by R15 on 2026-11-16: drinking or breathing in gasoline, kerosene and other oily hydrocarbons can send some into the lungs (aspiration); symptoms include coughing or grunting respiration, shortness of breath, hydrocarbon smell on the breath, vomiting, blue lips, fever, stupor. It gives no fixed observation period after swallowing.",
     "url": "https://medlineplus.gov/ency/article/001083.htm",
     "household_cited_by": [],
-    "cited_by": ["12-17-poisoning-and-ingestion"]
+    "cited_by": [
+      "12-17-poisoning-and-ingestion"
+    ]
   },
   {
     "key": "medlineplus-cpr-infant-r15",
@@ -85,7 +102,9 @@
     "licence_note": "MedlinePlus encyclopedia text licensed from A.D.A.M.; review date 2/10/2026, citing the 2025 AHA/AAP pediatric BLS guidelines. Read by R15 on 2026-11-16: thumbs side by side with hands encircling the chest just below the nipple line, or the heel of one hand if the chest cannot be compressed far enough; about 1 1/2 inches (4 cm); 100 to 120 a minute; 30:2 one rescuer, 15:2 two rescuers; cover mouth and nose; about 2 minutes of CPR before leaving to call if alone.",
     "url": "https://medlineplus.gov/ency/article/000011.htm",
     "household_cited_by": [],
-    "cited_by": ["12-18-choking-and-cpr"]
+    "cited_by": [
+      "12-18-choking-and-cpr"
+    ]
   },
   {
     "key": "medlineplus-drowning-r15",
@@ -96,7 +115,9 @@
     "licence_note": "MedlinePlus encyclopedia text licensed from A.D.A.M.; review date 10/14/2025. Read by R15 on 2026-11-16: if breathing has stopped, begin rescue breathing as soon as you can; once on land give CPR as needed; remove cold wet clothes; the Heimlich maneuver is not part of routine drowning rescue.",
     "url": "https://medlineplus.gov/ency/article/000046.htm",
     "household_cited_by": [],
-    "cited_by": ["12-18-choking-and-cpr"]
+    "cited_by": [
+      "12-18-choking-and-cpr"
+    ]
   },
   {
     "key": "aha-aap-2025-pediatric-bls-part6-r15",
@@ -107,7 +128,9 @@
     "licence_note": "Copyright AHA/AAP. Full text refused automated access (403) on 2026-11-16; R15 read the PubMed abstract (PMID 41122891) and the AHA newsroom release: 2-finger infant compressions eliminated, 1-hand or 2 thumb-encircling hands technique recommended (heel of one hand if the chest cannot be encircled); infants with severe choking get repeated cycles of 5 back blows alternating with 5 chest thrusts, no abdominal thrusts; children get 5 back blows alternating with 5 abdominal thrusts.",
     "url": "https://www.ahajournals.org/doi/10.1161/CIR.0000000000001370",
     "household_cited_by": [],
-    "cited_by": ["12-18-choking-and-cpr"]
+    "cited_by": [
+      "12-18-choking-and-cpr"
+    ]
   },
   {
     "key": "cdc-what-to-do-after-mild-tbi-r15",
@@ -118,7 +141,9 @@
     "licence_note": "US federal government work. Read by R15 on 2026-11-16 (web fetcher; curl refused): resting is good the first few days, when symptoms are more severe; ease back into regular activities; limit screen time and loud music before bed; most people can return to work, school and many other activities within a few days or weeks; talk to a provider if symptoms do not go away or get worse.",
     "url": "https://www.cdc.gov/traumatic-brain-injury/response",
     "household_cited_by": [],
-    "cited_by": ["12-19-head-injury-watch"]
+    "cited_by": [
+      "12-19-head-injury-watch"
+    ]
   },
   {
     "key": "frio-insulin-travel-wallet-instruction-leaflet-r15",
@@ -129,7 +154,9 @@
     "licence_note": "Manufacturer's instructions. Read by R15 on 2026-11-16: keeps insulin within 18-26 C (64.4-78.8 F) for 45 hours minimum even at a constant 37.8 C (100 F); re-immerse every 45 hours or sooner if crystals can be felt; soak times by size (Mini 2-3 min to Extra Large 15-19 min), strictly timed because over-soaking renders the wallet unusable until it dries; drain 15-30 minutes and towel dry; not in an airtight or waterproof container; not in a refrigerator or freezer; insulin must be at the maker's recommended temperature before it goes in; drying out takes 2-4 weeks; no washing machine or tumble dryer; with age soak time increases; replace when crystals fail to expand.",
     "url": "https://cdn.shopify.com/s/files/1/1922/6045/files/frio_insulin_travel_wallet_instruction_leaflet_-_english.pdf",
     "household_cited_by": [],
-    "cited_by": ["12-21-evaporative-cooling-pouches"]
+    "cited_by": [
+      "12-21-evaporative-cooling-pouches"
+    ]
   },
   {
     "key": "who-maternal-mortality-fact-sheet-r15",
@@ -140,6 +167,34 @@
     "licence_note": "Copyright WHO. Read by R15 on 2026-11-16: the major complications that account for around 75% of maternal deaths are severe bleeding (mostly after childbirth), infections (usually after childbirth), high blood pressure in pregnancy (pre-eclampsia and eclampsia), complications from delivery and unsafe abortion; severe bleeding after birth can kill a healthy woman within hours if she is unattended.",
     "url": "https://www.who.int/news-room/fact-sheets/detail/maternal-mortality",
     "household_cited_by": [],
-    "cited_by": ["12-12-childbirth-and-womens-health"]
+    "cited_by": [
+      "12-12-childbirth-and-womens-health"
+    ]
+  },
+  {
+    "key": "medlineplus-febrile-seizures-r15",
+    "title": "Febrile seizures",
+    "org": "MedlinePlus (US National Library of Medicine / NIH)",
+    "date": "2026-01-01",
+    "licence_class": "restricted",
+    "licence_note": "MedlinePlus encyclopedia text licensed from A.D.A.M.; review date 1/1/2026. Read by R15 on 2026-11-16: most often in otherwise healthy children between 6 months and 5 years; a simple febrile seizure stops by itself within a few seconds to 10 minutes; one lasting longer than 15 minutes, in just one part of the body, or recurring in the same illness is not a normal febrile seizure; turn the child on the side; do not force anything into the mouth; if it lasts several minutes call 911.",
+    "url": "https://medlineplus.gov/ency/article/000980.htm",
+    "household_cited_by": [],
+    "cited_by": [
+      "12-13-pain-and-fever"
+    ]
+  },
+  {
+    "key": "medlineplus-croup-r15",
+    "title": "Croup",
+    "org": "MedlinePlus (US National Library of Medicine / NIH)",
+    "date": "2026-01-01",
+    "licence_class": "restricted",
+    "licence_note": "MedlinePlus encyclopedia text licensed from A.D.A.M.; review date 1/1/2026. Read by R15 on 2026-11-16: affects children 3 months to 5 years; cool or warm moist air (steamy bathroom or cool night air) may help the child feel better though no studies show it reduces symptoms; call 911 for bluish lips or skin, drooling, trouble swallowing, stridor at rest or getting worse, tugging-in of the muscles between the ribs, or struggling to breathe.",
+    "url": "https://medlineplus.gov/ency/article/000959.htm",
+    "household_cited_by": [],
+    "cited_by": [
+      "12-13-pain-and-fever"
+    ]
   }
 ]

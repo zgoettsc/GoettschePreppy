@@ -86,7 +86,7 @@ batteries and power stations; → 29-02 explains the basic words.
 | Self-discharge | 2 to 3% a month (Battle Born) | Check voltage every 2 to 3 months in storage (Trojan) | 5 to 15% a month for lead-acid (Trojan); check every 4 to 6 weeks in storage | Varies; "pre-charged" types hold charge longest |
 | Maintenance | None | None; **never add water** (Trojan) | **Distilled water top-ups** (Trojan) | None |
 | Venting | Sealed | Releases gas, at a much lower rate than flooded (Trojan) | **Releases gas, most while charging: ventilate** (Trojan; OSHA) | Minor |
-| **Charging below freezing** | **No.** Station makers set 32 °F; Battle Born's battery management system blocks charging below about 25 °F; a heated battery can charge colder | With temperature-compensated charging; **never charge a frozen battery** (Trojan) | Same as AGM | Check the pack |
+| **Charging below freezing** | **No.** Station makers set 32 °F; Battle Born gives 25 to 32 °F for its batteries (its documents state both), and its battery management system blocks charging below the limit; a heated battery can charge colder | With temperature-compensated charging; **never charge a frozen battery** (Trojan) | Same as AGM | Check the pack |
 | Freeze risk | Not charged cold; discharging allowed to about −4 °F (Battle Born) | **Can freeze if discharged** (Trojan) | **Can freeze and split if discharged:** at 40% charge the electrolyte freezes at about 16 °F; fully charged, about −92 °F (Trojan) | Low |
 | Weight | **Lightest for the energy** (BB10012: 31 lb for 100 Ah, all usable) | Heavy | Heavy | n/a |
 | Easy to find in year two | Rare | Common (UPS units, some vehicles) | **Everywhere** | Common |
@@ -196,7 +196,7 @@ fails or burns. **Buy the BMS, not the sticker capacity.**
 - **Batteries are the section's true consumable.** Panels, wire and mounts outlive them. Plan to
   replace storage, more than once, over a long event.
 - **Runway:** LiFePO4 cycled daily and treated well gives **many years** (3,000 to 5,000 cycles is
-  about eight to thirteen years of daily cycles). Lead-acid gives far fewer, and fewer again if run
+  about eight to fourteen years of daily cycles). Lead-acid gives far fewer, and fewer again if run
   deep or kept warm (Trojan). Cycled to empty, charged cold or left flat, either can be finished in
   **months**.
 - **Watch the decline:** log how long a known load runs. When a bank that held two days holds half a
