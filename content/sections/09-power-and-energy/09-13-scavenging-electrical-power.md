@@ -2,7 +2,7 @@
 id: 09-13-scavenging-electrical-power
 section: 09-power-and-energy
 title: "Scavenging electrical power: what to harvest"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -10,10 +10,14 @@ phase: [A, B, C]
 tags: [power, scavenging, salvage, batteries, solar, lithium, ups, alternator, safety]
 derived_from: [09-13-scavenging-electrical-power]
 sources:
-  - nfpa-national-fire-protection-association-lithium-io-0c7d64
+  - usfa-battery-fire-safety-r14
+  - usfa-blog-lithium-ion-batteries-2026-r8
   - osha-electrical-safety-and-health-topics-a7a68f
-  - us-department-of-energy-solar-energy-technologies-of-2a534a
-  - us-consumer-product-safety-commission-cpsc-what-to-k-3390a4
+  - us-department-of-energy-solar-photovoltaic-technolog-ca10f6
+  - cpsc-safety-alert-portable-generator-hazards-r8
+  - trojan-users-guide-r14
+  - trojan-battery-maintenance-r14
+  - osha-batteries-and-battery-charging-29-cfr-1926-441-9def7d
 related:
   - 09-03-batteries-and-storage
   - 09-04-generators
@@ -39,7 +43,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Backfeed floor as 30-01; lithium warnings re-cited to USFA (NFPA archive empty); lead-acid voltages and decline from Trojan; 'live in daylight' re-cited to DOE PV basics" }
 ---
 
 # Scavenging electrical power: what to harvest
@@ -52,14 +56,17 @@ harvest is unusable.
 > **SAFETY. Four things on this page can kill or burn you, and they are not the obvious ones.**
 > **(1) Stored charge.** Capacitors inside inverters, power supplies, microwave ovens and old CRT
 > televisions hold a **lethal charge long after unplugging.** **Do not open them.**
-> **(2) Lithium packs.** Damaged or mishandled cells go into thermal runaway, an intense,
-> self-sustaining fire (NFPA, Lithium-Ion Batteries). **Do not take packs apart for cells.**
-> **(3) Solar panels are live in daylight.** They make voltage whenever light falls on them; there is
-> no off switch (US Department of Energy, Solar Photovoltaic System Design Basics).
+> **(2) Lithium packs.** Damaged or mishandled lithium batteries can bulge, leak or catch fire; the
+> fire is fast, very hot and hard to put out (US Fire Administration). **Do not take packs apart for
+> cells.**
+> **(3) Solar panels are live in daylight.** A panel turns light into electricity (US Department of
+> Energy, Solar Photovoltaic Technology Basics), so it makes voltage whenever light falls on it;
+> there is no off switch.
 > **(4) Anything connected to house wiring or a running generator.** That is electrician territory
-> (OSHA, Electrical) and the backfeed floor: **never connect a generator to house wiring without a
-> transfer switch, interlock, or a cord-and-plug conversion with the main breaker locked off; never
-> backfeed through an outlet** (→ 09-04, → 30-01).
+> and the backfeed floor: **Never connect a generator to house wiring except through a transfer
+> switch, or an interlock kit with the main breaker off. Never backfeed through an outlet with a
+> double-male ("suicide") cord.** Backfeed electrocutes line workers and neighbours (CPSC, Portable
+> Generator Hazards; → 09-04, → 30-01).
 
 ## Do this now
 - **Read → 09-12 first.**
@@ -88,16 +95,18 @@ Ranked by usefulness for the risk and effort:
 
 ### Lead-acid: the one you can judge
 In depth on → 09-03 and → 09-07; the field version:
-- **Resting voltage tells you most of what you need.** A 12 V lead-acid battery at rest reads about
-  **12.6 to 12.7 V full**, about **12.0 to 12.1 V at 50%** (as low as you should take it), and below
-  about **11.8 V you are damaging it.**
+- **Resting voltage tells you most of what you need.** A 12 V flooded lead-acid battery at rest
+  reads about **12.7 V full** (AGM about 12.8 V), about **12.1 V at 50%** (AGM 12.2 V; as low as you
+  should take it), and about **11.8 V means only about 30% is left** (Trojan, User's Guide).
 - **A battery at 0 V, or with a cracked case, bulging sides or leaking acid, is scrap.** Leave it.
-  Batteries that have sat flat for months are usually beyond recovery.
+  Batteries that have sat flat for months have usually sulfated and lost much of their capacity
+  (Trojan).
 - **Deep-cycle beats starting.** Marine, RV, golf-cart and floor-scrubber batteries are built to be
   drained; car starting batteries die fast if cycled (→ 09-14).
 - **Carry them upright, wear eye protection and gloves,** and never let a metal tool bridge the
   terminals: that is an instant, violent short (→ 09-08).
-- **Charge in a ventilated space.** Charging lead-acid makes hydrogen.
+- **Charge in a ventilated space.** Charging lead-acid gives off gas that can form an explosive
+  mixture (OSHA, 29 CFR 1926.441).
 
 ### UPS units: the best-value scavenge nobody thinks of
 Every office, server closet and home desk has one. A UPS is effectively a **pre-built 12 V system in
@@ -135,17 +144,18 @@ Tool packs, laptop batteries, e-bike and scooter packs and power station cells a
 real energy. **They are also the most dangerous thing in this section.**
 
 **The rule: use whole packs with their own chargers, or leave them.** Why:
-- **Damaged or mishandled lithium cells can go into thermal runaway**, an intense, self-sustaining
-  fire that is very hard to extinguish and gives off toxic smoke (NFPA, → 09-07).
+- **Damaged or mishandled lithium cells can catch fire**: fast, very hot, hard to extinguish, and
+  giving off harmful chemicals (US Fire Administration, → 09-07).
 - **Cells in a pack are spot-welded, not screwed.** Getting them apart is exactly the handling that
   punctures or shorts them.
 - **The pack's battery management system is the safety device.** Remove it and you have removed the
   protection against overcharge, over-discharge and imbalance.
 - **You cannot tell a good salvaged cell from a bad one by looking.**
 
-**The warning signs, worth memorising:** **heat, an odd smell, swelling or a change of shape.** Any of
-those: get it away from people and buildings, outdoors, on a non-combustible surface, and do not try
-to charge it.
+**The warning signs, worth memorising:** **an odd smell, a change in colour, too much heat, a change
+in shape, leaking or odd noises** (USFA, Battery Fire Safety, from NFPA), or smoking, hissing or
+swelling. Any of those: stop using it, get it away from people and buildings, outdoors, on a
+non-combustible surface, and do not try to charge it.
 
 **What is reasonable:**
 - Take a tool pack **and its charger together**, and use it with the tool it belongs to.
@@ -190,8 +200,9 @@ between batteries; a vehicle's own charging system will charge a salvaged lead-a
 
 ## When it runs out
 Scavenged electricity is **substitution, never production** (→ 23-04).
-- **Runway:** salvageable batteries degrade whether used or not. Most abandoned lead-acid is scrap
-  within a couple of years; lithium packs age out too.
+- **Runway:** salvageable batteries degrade whether used or not. Lead-acid loses 5 to 15% of its
+  charge a month in storage and sulfates when left low (Trojan, Battery Maintenance), so abandoned
+  batteries decline fast; lithium packs age out too.
 - **Ration:** treat every working battery as a consumable; do not deep-cycle a starting battery for
   convenience.
 - **Resupply:** vehicles are the deepest reservoir, and they are finite.
