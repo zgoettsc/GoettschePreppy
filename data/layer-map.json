@@ -1,0 +1,3524 @@
+{
+ "source_manifest_pages": 391,
+ "pages": [
+  {
+   "id": "00-00-section-intro",
+   "title": "Front Matter & How to Use \u2014 section overview",
+   "section": "00-front-matter-and-how-to-use",
+   "danger_level": "none",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "id": "00-01-how-to-use-this-binder",
+   "title": "How to use this binder",
+   "section": "00-front-matter-and-how-to-use",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "rewrite",
+   "note": "App-first: offline install, charge discipline, PDF export button."
+  },
+  {
+   "id": "00-02-emergency-quick-reference",
+   "title": "Emergency quick-reference",
+   "section": "00-front-matter-and-how-to-use",
+   "danger_level": "caution",
+   "layer": "household",
+   "action": "template",
+   "note": "Numbers and names are slots; 911 and Poison Control constant."
+  },
+  {
+   "id": "00-03-master-index",
+   "title": "Master index of all pages",
+   "section": "00-front-matter-and-how-to-use",
+   "danger_level": "none",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Built from the generated page set."
+  },
+  {
+   "id": "00-04-family-emergency-plan",
+   "title": "Our family emergency & communications plan",
+   "section": "00-front-matter-and-how-to-use",
+   "danger_level": "none",
+   "layer": "household",
+   "action": "template",
+   "note": "Contacts, meeting places, out-of-area contact from profile."
+  },
+  {
+   "id": "00-05-safety-disclaimer",
+   "title": "Safety disclaimer \u2014 read this first",
+   "section": "00-front-matter-and-how-to-use",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "rewrite",
+   "note": "New disclaimer: AI-generated, AI-reviewed, not human-verified; household decides risk; private copy notice."
+  },
+  {
+   "id": "00-06-first-60-minutes",
+   "title": "The first 60 minutes \u2014 one-page action card",
+   "section": "00-front-matter-and-how-to-use",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "template",
+   "note": "Gear slots (fridge, stations, heaters) from profile."
+  },
+  {
+   "id": "00-07-household-roles",
+   "title": "Who does what \u2014 household roles & assignments",
+   "section": "00-front-matter-and-how-to-use",
+   "danger_level": "none",
+   "layer": "household",
+   "action": "template",
+   "note": "Roles table built from members."
+  },
+  {
+   "id": "00-08-binder-map",
+   "title": "How this binder is organised (map of sections)",
+   "section": "00-front-matter-and-how-to-use",
+   "danger_level": "none",
+   "layer": "generated",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "01-00-section-intro",
+   "title": "Phase Playbooks \u2014 section overview",
+   "section": "01-phase-playbooks",
+   "danger_level": "none",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "id": "01-01-phase-a-shelter-in-place",
+   "title": "Phase A \u2014 Shelter in place (in town)",
+   "section": "01-phase-playbooks",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "template",
+   "note": "House facts (water, heat, warm room) are slots."
+  },
+  {
+   "id": "01-02-go-no-go-decision",
+   "title": "The go/no-go decision \u2014 triggers to leave",
+   "section": "01-phase-playbooks",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "rewrite",
+   "note": "Triggers generalised; destination names are slots; add decision card DC-19."
+  },
+  {
+   "id": "01-03-phase-b-movement",
+   "title": "Phase B \u2014 Movement: routes, load-out, winter travel with kids",
+   "section": "01-phase-playbooks",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "template",
+   "note": "Route and winter travel generalised; kids/ages gated."
+  },
+  {
+   "id": "01-04-phase-c-establish",
+   "title": "Phase C \u2014 Establish a rural site from scratch",
+   "section": "01-phase-playbooks",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "01-05-choosing-a-destination",
+   "title": "Choosing/securing a destination \u2014 Goshen agreed, Kimball unannounced",
+   "section": "01-phase-playbooks",
+   "danger_level": "caution",
+   "layer": "household",
+   "action": "template",
+   "note": "Up to three destinations with status agreed/unannounced/none."
+  },
+  {
+   "id": "01-06-phase-transition-checklists",
+   "title": "Phase-transition checklists (A\u2192B\u2192C)",
+   "section": "01-phase-playbooks",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "id": "02-00-section-intro",
+   "title": "Critical Medical Dependencies \u2014 section overview",
+   "section": "02-critical-medical-dependencies",
+   "danger_level": "none",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "id": "02-01-t1d-overview-and-supply-math",
+   "title": "Type 1 diabetes \u2014 dependency map & supply math",
+   "section": "02-critical-medical-dependencies",
+   "danger_level": "critical",
+   "layer": "condition",
+   "action": "module",
+   "note": "Seeds CL-01 Type 1 diabetes: dependency map + supply math worksheet (no derived doses)."
+  },
+  {
+   "id": "02-02-insulin-without-the-grid",
+   "title": "Insulin storage & cold-chain without power",
+   "section": "02-critical-medical-dependencies",
+   "danger_level": "critical",
+   "layer": "condition",
+   "action": "module",
+   "note": "CL-01/CL-02: insulin storage; FDA/manufacturer windows as published; frozen = discard rule as a floor."
+  },
+  {
+   "id": "02-03-pump-to-injection-fallback",
+   "title": "Tech-failure ladder: Trio/Omnipod \u2192 manual injections",
+   "section": "02-critical-medical-dependencies",
+   "danger_level": "critical",
+   "layer": "condition",
+   "action": "module",
+   "note": "CL-01 pump/CGM variant: tech-failure ladder generalised; basal rule becomes \"my prescriber-approved fallback\" slot."
+  },
+  {
+   "id": "02-04-cgm-conservation-and-dka",
+   "title": "CGM conservation, fingersticks, DKA & sick-day rules",
+   "section": "02-critical-medical-dependencies",
+   "danger_level": "critical",
+   "layer": "condition",
+   "action": "module",
+   "note": "CL-01: sick-day and DKA warning signs at WebMD level."
+  },
+  {
+   "id": "02-05-sourcing-insulin-supplies",
+   "title": "Sourcing insulin & diabetic supplies",
+   "section": "02-critical-medical-dependencies",
+   "danger_level": "critical",
+   "layer": "condition",
+   "action": "module",
+   "note": "CL-01: sourcing/scavenging insulin; decision card DC-08."
+  },
+  {
+   "id": "02-06-hugh-anaphylaxis-action-plan",
+   "title": "Hugh \u2014 anaphylaxis emergency action plan",
+   "section": "02-critical-medical-dependencies",
+   "danger_level": "critical",
+   "layer": "condition",
+   "action": "module",
+   "note": "CL-03 anaphylaxis: action plan template with the published epinephrine weight bands."
+  },
+  {
+   "id": "02-07-epinephrine-storage-and-supply",
+   "title": "Epinephrine \u2014 storage, temperature, rotation, depletion",
+   "section": "02-critical-medical-dependencies",
+   "danger_level": "critical",
+   "layer": "condition",
+   "action": "module",
+   "note": "CL-03: storage, heat/cold, expired-use decision card DC-04."
+  },
+  {
+   "id": "02-08-allergen-safe-food-plan",
+   "title": "Allergen-safe food stockpile & unlabeled-food danger",
+   "section": "02-critical-medical-dependencies",
+   "danger_level": "critical",
+   "layer": "condition",
+   "action": "module",
+   "note": "CL-03/CL-04 food allergy: allergen slots; traded/unlabeled food decision card DC-18."
+  },
+  {
+   "id": "02-09-pet-care-cats",
+   "title": "Cats \u2014 food, water, meds",
+   "section": "02-critical-medical-dependencies",
+   "danger_level": "caution",
+   "layer": "household",
+   "action": "module",
+   "note": "Pets module (cats/dogs/other) incl. decision card DC-10."
+  },
+  {
+   "id": "02-10-evaporative-cooling-pouches",
+   "title": "Evaporative cooling pouches (Frio-type) \u2014 how to use",
+   "section": "02-critical-medical-dependencies",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": "Applies to any refrigerated medication; keep in core medical."
+  },
+  {
+   "id": "02-11-diabetes-rig-offline-docs-and-assistant",
+   "title": "The diabetes rig \u2014 offline docs, runbooks, and the offline assistant",
+   "section": "02-critical-medical-dependencies",
+   "danger_level": "caution",
+   "layer": "drop",
+   "action": "drop",
+   "note": "Owner-specific rig docs. Replaced by CL-01 pump/CGM module."
+  },
+  {
+   "id": "02-12-evacuation-medical-logistics",
+   "title": "Evacuation medical logistics \u2014 moving two supply-clock patients 590 miles",
+   "section": "02-critical-medical-dependencies",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "template",
+   "note": "Generalised: evacuating with any medical dependency; patients and supply clocks are slots."
+  },
+  {
+   "id": "03-00-section-intro",
+   "title": "Water \u2014 section overview",
+   "section": "03-water",
+   "danger_level": "none",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "id": "03-01-daily-water-needs",
+   "title": "How much water we need (household math)",
+   "section": "03-water",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "template",
+   "note": "Household size and nursing/infant flags from profile."
+  },
+  {
+   "id": "03-02-storing-water",
+   "title": "Storing water safely",
+   "section": "03-water",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "03-03-pool-water-desalination",
+   "title": "Pool water \u2192 safe drinking water (distillation)",
+   "section": "03-water",
+   "danger_level": "critical",
+   "layer": "gear",
+   "action": "module",
+   "note": "GM pool module (saltwater/chlorine pool as a water source)."
+  },
+  {
+   "id": "03-04-purifying-water",
+   "title": "Purifying water: boil, chemical, filter",
+   "section": "03-water",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "03-05-rain-and-snow-water",
+   "title": "Rain catchment & melting snow/ice",
+   "section": "03-water",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "03-06-winter-water",
+   "title": "Water when everything's frozen",
+   "section": "03-water",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": "Region-gated: shown first in cold climates, present everywhere."
+  },
+  {
+   "id": "03-07-testing-water",
+   "title": "Judging & testing water quality",
+   "section": "03-water",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "03-08-keeping-water-from-going-bad",
+   "title": "Keeping stored & pool water from going bad (algae, bacteria, mosquitoes)",
+   "section": "03-water",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "03-09-filter-care-and-maintenance",
+   "title": "Filter care \u2014 straws, bottles, squeeze & gravity",
+   "section": "03-water",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "03-10-well-water-without-power",
+   "title": "Well water without power (the Kimball well)",
+   "section": "03-water",
+   "danger_level": "caution",
+   "layer": "gear",
+   "action": "module",
+   "note": "GM well module; Kimball specifics removed."
+  },
+  {
+   "id": "04-00-section-intro",
+   "title": "Food Storage & Preservation \u2014 section overview",
+   "section": "04-food-storage-and-preservation",
+   "danger_level": "none",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "id": "04-01-calorie-and-stockpile-math",
+   "title": "Calorie planning & stockpile math",
+   "section": "04-food-storage-and-preservation",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "template",
+   "note": "Household calorie table from members/ages."
+  },
+  {
+   "id": "04-02-building-a-pantry",
+   "title": "Building a shelf-stable pantry & rotation",
+   "section": "04-food-storage-and-preservation",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "04-03-bulk-staples-storage",
+   "title": "Long-term bulk staples (grains, beans, fats)",
+   "section": "04-food-storage-and-preservation",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "04-04-canning-water-bath",
+   "title": "Water-bath canning (high-acid foods)",
+   "section": "04-food-storage-and-preservation",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "04-05-canning-pressure",
+   "title": "Pressure canning (low-acid) \u2014 botulism safety",
+   "section": "04-food-storage-and-preservation",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "04-06-dehydrating",
+   "title": "Dehydrating food",
+   "section": "04-food-storage-and-preservation",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "04-07-smoking-and-curing",
+   "title": "Smoking & curing meat",
+   "section": "04-food-storage-and-preservation",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "04-08-fermentation",
+   "title": "Fermentation & root-cellaring",
+   "section": "04-food-storage-and-preservation",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "04-09-winter-cold-storage",
+   "title": "Using winter as a freezer (safely)",
+   "section": "04-food-storage-and-preservation",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": "Region-gated."
+  },
+  {
+   "id": "04-10-rotation-and-inventory",
+   "title": "Rotation, dating & inventory discipline",
+   "section": "04-food-storage-and-preservation",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "04-11-pests-and-rodents",
+   "title": "Protecting stored food from pests & rodents",
+   "section": "04-food-storage-and-preservation",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "04-12-fats-and-oils",
+   "title": "Fats, oils & cooking grease \u2014 storage and rendering",
+   "section": "04-food-storage-and-preservation",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "04-13-salt-sugar-vinegar",
+   "title": "Salt, sugar, vinegar & honey \u2014 the preserving staples",
+   "section": "04-food-storage-and-preservation",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "04-14-powdered-and-canned-dairy",
+   "title": "Dairy: powdered, canned, shelf-stable",
+   "section": "04-food-storage-and-preservation",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "04-15-eggs-storage",
+   "title": "Storing eggs without refrigeration",
+   "section": "04-food-storage-and-preservation",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "04-16-sprouting",
+   "title": "Sprouting grains & beans for fresh nutrition",
+   "section": "04-food-storage-and-preservation",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "04-17-food-safety-power-outage",
+   "title": "Food safety when the power fails",
+   "section": "04-food-storage-and-preservation",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "04-18-meal-planning-scarcity",
+   "title": "Meal planning & cooking from stores",
+   "section": "04-food-storage-and-preservation",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "04-19-freeze-dried-stockpile",
+   "title": "Freeze-dried meals \u2014 the calorie plan-of-record",
+   "section": "04-food-storage-and-preservation",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "template",
+   "note": "Calorie plan-of-record; owner brands removed; quantities from household size."
+  },
+  {
+   "id": "05-00-section-intro",
+   "title": "Food Production & Foraging \u2014 section overview",
+   "section": "05-food-production-and-foraging",
+   "danger_level": "none",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "id": "05-01-small-urban-garden",
+   "title": "A small high-yield garden for Zone 4b/5a",
+   "section": "05-food-production-and-foraging",
+   "danger_level": "caution",
+   "layer": "region",
+   "action": "dataset",
+   "note": "Hardiness zone, frost dates and crop list from region data."
+  },
+  {
+   "id": "05-02-season-extension",
+   "title": "Season extension: cold frames & low tunnels",
+   "section": "05-food-production-and-foraging",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "05-03-seed-saving",
+   "title": "Seed saving & a survival seed stock",
+   "section": "05-food-production-and-foraging",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "05-04-backyard-chickens",
+   "title": "Backyard chickens (Sioux Falls ordinance & cold-hardy)",
+   "section": "05-food-production-and-foraging",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "rewrite",
+   "note": "Ordinance paragraph becomes a pre-collapse note; husbandry stays core."
+  },
+  {
+   "id": "05-05-rabbits",
+   "title": "Meat rabbits in a small yard",
+   "section": "05-food-production-and-foraging",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "05-06-foraging-northern-plains",
+   "title": "Foraging wild plants \u2014 and deadly look-alikes",
+   "section": "05-food-production-and-foraging",
+   "danger_level": "critical",
+   "layer": "region",
+   "action": "dataset",
+   "note": "National plant appendix: killers and look-alikes per ecoregion; all regions always in the app."
+  },
+  {
+   "id": "05-07-hunting-sd",
+   "title": "Hunting SD game (deer, pheasant, waterfowl, small game)",
+   "section": "05-food-production-and-foraging",
+   "danger_level": "caution",
+   "layer": "region",
+   "action": "dataset",
+   "note": "Game species, seasons as pre-collapse note, field methods core."
+  },
+  {
+   "id": "05-08-fishing-and-ice-fishing",
+   "title": "Fishing & ice fishing",
+   "section": "05-food-production-and-foraging",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": "Ice-fishing part region-gated."
+  },
+  {
+   "id": "05-09-field-dressing-and-butchering",
+   "title": "Field dressing & butchering",
+   "section": "05-food-production-and-foraging",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "05-10-container-and-vertical",
+   "title": "Container & vertical growing in a small yard",
+   "section": "05-food-production-and-foraging",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "05-11-soil-and-compost",
+   "title": "Soil, compost & fertility without inputs",
+   "section": "05-food-production-and-foraging",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "05-12-pollination-and-pests",
+   "title": "Pollination & garden pests without chemicals",
+   "section": "05-food-production-and-foraging",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "05-13-perennials-and-fruit",
+   "title": "Perennials, fruit trees & berries for Zone 4b",
+   "section": "05-food-production-and-foraging",
+   "danger_level": "none",
+   "layer": "region",
+   "action": "dataset",
+   "note": "By hardiness zone."
+  },
+  {
+   "id": "05-14-indoor-growing",
+   "title": "Growing indoors & microgreens in winter",
+   "section": "05-food-production-and-foraging",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "05-15-trapping-small-game",
+   "title": "Trapping small game & pest animals",
+   "section": "05-food-production-and-foraging",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "05-16-processing-poultry",
+   "title": "Processing poultry & small game",
+   "section": "05-food-production-and-foraging",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "05-17-wild-edibles-calendar",
+   "title": "Northern Plains wild edibles by season",
+   "section": "05-food-production-and-foraging",
+   "danger_level": "critical",
+   "layer": "region",
+   "action": "dataset",
+   "note": "National plant appendix: safe starters per ecoregion with plates."
+  },
+  {
+   "id": "05-18-goshen-ozark-garden-calendar",
+   "title": "Goshen (Ozark) garden calendar \u2014 Zone 6b/7a",
+   "section": "05-food-production-and-foraging",
+   "danger_level": "none",
+   "layer": "household",
+   "action": "template",
+   "note": "Destination garden calendar generated per destination from region data."
+  },
+  {
+   "id": "05-19-ozark-foraging-and-hazards",
+   "title": "Ozark foraging & field hazards (Goshen)",
+   "section": "05-food-production-and-foraging",
+   "danger_level": "critical",
+   "layer": "household",
+   "action": "template",
+   "note": "Destination foraging/hazards generated per destination from region data."
+  },
+  {
+   "id": "05-20-kimball-ranch-food-plan",
+   "title": "The Kimball ranch as a food system",
+   "section": "05-food-production-and-foraging",
+   "danger_level": "caution",
+   "layer": "drop",
+   "action": "drop",
+   "note": "Owner destination. Pattern kept as the destination-food-system template."
+  },
+  {
+   "id": "06-00-section-intro",
+   "title": "Fire & Fuel \u2014 section overview",
+   "section": "06-fire-and-fuel",
+   "danger_level": "none",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "id": "06-01-fire-starting",
+   "title": "Starting fire reliably (multiple methods)",
+   "section": "06-fire-and-fuel",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "06-02-sustaining-fire",
+   "title": "Sustaining & banking a fire",
+   "section": "06-fire-and-fuel",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "06-03-firewood-basics",
+   "title": "Firewood: species, cords, seasoning, splitting",
+   "section": "06-fire-and-fuel",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "dataset",
+   "note": "Species table and plates from the regional tree dataset."
+  },
+  {
+   "id": "06-04-wood-supply-and-depletion",
+   "title": "When the wood runs out (burn-rate & sourcing)",
+   "section": "06-fire-and-fuel",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "06-05-alternative-fuels",
+   "title": "Alternative fuels (propane, charcoal, biomass)",
+   "section": "06-fire-and-fuel",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "rewrite",
+   "note": "Add the fuels explainer EX-01 up front."
+  },
+  {
+   "id": "06-06-fuel-storage-safety",
+   "title": "Storing fuel safely (gasoline, propane, kerosene)",
+   "section": "06-fire-and-fuel",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "rewrite",
+   "note": "Decision cards DC-05 garage storage, DC-17 kerosene age; label colours as a core rule."
+  },
+  {
+   "id": "06-07-moving-and-transferring-fuel",
+   "title": "Moving & transferring fuel (siphoning)",
+   "section": "06-fire-and-fuel",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "06-08-fuel-transport",
+   "title": "Carrying fuel on the road (jerricans, propane, the enclosed trailer)",
+   "section": "06-fire-and-fuel",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "rewrite",
+   "note": "Decision card DC-06 fuel in a passenger vehicle; trailer facts are gear slots."
+  },
+  {
+   "id": "06-09-chimney-and-creosote",
+   "title": "Chimneys & creosote (inspection, sweeping, chimney fire)",
+   "section": "06-fire-and-fuel",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "07-00-section-intro",
+   "title": "Cooking Off-Grid \u2014 section overview",
+   "section": "07-cooking-off-grid",
+   "danger_level": "none",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "id": "07-01-cooking-on-the-fireplace",
+   "title": "Cooking on the outdoor wood fireplace",
+   "section": "07-cooking-off-grid",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "rewrite",
+   "note": "Generalised: open fire, fireplace, fire pit."
+  },
+  {
+   "id": "07-02-rocket-stove",
+   "title": "Rocket stoves & efficient wood cooking",
+   "section": "07-cooking-off-grid",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "07-03-solar-cooking",
+   "title": "Solar ovens",
+   "section": "07-cooking-off-grid",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "07-04-dutch-oven-and-baking",
+   "title": "Dutch-oven cooking & off-grid baking",
+   "section": "07-cooking-off-grid",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "07-05-propane-and-camp-stoves",
+   "title": "Propane & camp stoves (indoor CO danger)",
+   "section": "07-cooking-off-grid",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "rewrite",
+   "note": "CO explainer EX-03 reference; indoor use is a floor, not a card."
+  },
+  {
+   "id": "07-06-electric-kettle-cooking",
+   "title": "Electric kettle cooking \u2014 the first-resort method",
+   "section": "07-cooking-off-grid",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "template",
+   "note": "Station slots."
+  },
+  {
+   "id": "07-07-freeze-dried-rehydration",
+   "title": "Freeze-dried rehydration \u2014 pouch doctrine",
+   "section": "07-cooking-off-grid",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "08-00-section-intro",
+   "title": "Heating & Cold-Weather Shelter \u2014 section overview",
+   "section": "08-heating-and-cold-weather-shelter",
+   "danger_level": "none",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "id": "08-01-heating-one-room",
+   "title": "Heating one room instead of the house",
+   "section": "08-heating-and-cold-weather-shelter",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "rewrite",
+   "note": "Warm-room method; house slots; decision card DC-01 overnight heater."
+  },
+  {
+   "id": "08-02-carbon-monoxide-safety",
+   "title": "Carbon monoxide \u2014 the silent killer",
+   "section": "08-heating-and-cold-weather-shelter",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "rewrite",
+   "note": "Floor page; EX-03 explainer embedded."
+  },
+  {
+   "id": "08-03-winterizing-the-home",
+   "title": "Winterizing & preventing frozen pipes",
+   "section": "08-heating-and-cold-weather-shelter",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "id": "08-04-emergency-heat-options",
+   "title": "Emergency heat options & their risks",
+   "section": "08-heating-and-cold-weather-shelter",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "rewrite",
+   "note": "Options matrix with cards DC-01, DC-02."
+  },
+  {
+   "id": "08-05-hypothermia-frostbite",
+   "title": "Hypothermia & frostbite \u2014 prevent, spot, treat",
+   "section": "08-heating-and-cold-weather-shelter",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "id": "08-06-improvised-shelter-warmth",
+   "title": "Trapping heat: tents indoors, insulation hacks",
+   "section": "08-heating-and-cold-weather-shelter",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "id": "08-07-ducted-heater-operation",
+   "title": "The ducted diesel/kerosene heater \u2014 install & operation",
+   "section": "08-heating-and-cold-weather-shelter",
+   "danger_level": "critical",
+   "layer": "gear",
+   "action": "module",
+   "note": "GM ducted diesel/kerosene heater."
+  },
+  {
+   "id": "08-08-wood-heat-operation",
+   "title": "Running wood heat that actually heats",
+   "section": "08-heating-and-cold-weather-shelter",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "id": "08-09-mr-heater-buddy",
+   "title": "Mr. Heater Buddy (MH9BX) \u2014 setup, safe use & troubleshooting",
+   "section": "08-heating-and-cold-weather-shelter",
+   "danger_level": "critical",
+   "layer": "gear",
+   "action": "module",
+   "note": "GM portable propane heater (Buddy family) incl. DC-01/DC-02/DC-03."
+  },
+  {
+   "id": "08-10-dyna-glo-kerosene-heater",
+   "title": "Dyna-Glo 10,500 BTU kerosene heater \u2014 setup, safe use & troubleshooting",
+   "section": "08-heating-and-cold-weather-shelter",
+   "danger_level": "critical",
+   "layer": "gear",
+   "action": "module",
+   "note": "GM wick kerosene heater incl. DC-17."
+  },
+  {
+   "id": "09-00-section-intro",
+   "title": "Power & Energy \u2014 section overview",
+   "section": "09-power-and-energy",
+   "danger_level": "none",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "id": "09-01-power-priorities",
+   "title": "What actually needs power (load triage)",
+   "section": "09-power-and-energy",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "id": "09-02-solar-basics",
+   "title": "Solar power basics & sizing",
+   "section": "09-power-and-energy",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "id": "09-03-batteries-and-storage",
+   "title": "Batteries & power stations",
+   "section": "09-power-and-energy",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "rewrite",
+   "note": "Explainer EX-02 batteries/stations; owner stations become gear slots."
+  },
+  {
+   "id": "09-04-generators",
+   "title": "Generators (fuel, siting, CO, backfeed)",
+   "section": "09-power-and-energy",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "rewrite",
+   "note": "Backfeed is a floor; cord-and-plug conversion as a decision card DC-07 with the write-up."
+  },
+  {
+   "id": "09-05-winter-solar-reality",
+   "title": "Solar in a South Dakota winter (short days, snow, cold)",
+   "section": "09-power-and-energy",
+   "danger_level": "caution",
+   "layer": "region",
+   "action": "dataset",
+   "note": "Sun hours by month from region data; the method is core."
+  },
+  {
+   "id": "09-06-charging-medical-devices",
+   "title": "Keeping phones & medical devices charged",
+   "section": "09-power-and-energy",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "template",
+   "note": "Devices from the condition modules selected."
+  },
+  {
+   "id": "09-07-battery-chemistry",
+   "title": "Battery types & chemistry (LiFePO4 vs lead-acid)",
+   "section": "09-power-and-energy",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "id": "09-08-wiring-and-safety",
+   "title": "12V wiring, fusing & electrical safety",
+   "section": "09-power-and-energy",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "id": "09-09-small-solar-build",
+   "title": "Building a small solar system step by step",
+   "section": "09-power-and-energy",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "id": "09-10-power-for-medical",
+   "title": "Sizing power for the insulin fridge & devices",
+   "section": "09-power-and-energy",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "template",
+   "note": "Refrigerated-medication power sizing; fridge/station slots."
+  },
+  {
+   "id": "09-11-hand-and-alt-generation",
+   "title": "Hand-crank, vehicle, wind & alternative generation",
+   "section": "09-power-and-energy",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "id": "09-12-ac-dc-cables-and-connectors",
+   "title": "AC vs DC, cables, connectors & adapters",
+   "section": "09-power-and-energy",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "id": "09-13-scavenging-electrical-power",
+   "title": "Scavenging electrical power (what to harvest)",
+   "section": "09-power-and-energy",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "id": "09-14-car-batteries-in-practice",
+   "title": "Car batteries in practice \u2014 getting energy out & back in",
+   "section": "09-power-and-energy",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "id": "09-15-generator-maintenance",
+   "title": "Generator maintenance, storage & fuel rotation",
+   "section": "09-power-and-energy",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "id": "09-16-outage-day-one",
+   "title": "Outage day one \u2014 the live grid-down procedure",
+   "section": "09-power-and-energy",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "template",
+   "note": "Live procedure with house and gear slots."
+  },
+  {
+   "id": "10-00-section-intro",
+   "title": "Lighting \u2014 section overview",
+   "section": "10-lighting",
+   "danger_level": "none",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "id": "10-01-lighting-options",
+   "title": "Lighting options ranked (safety & runtime)",
+   "section": "10-lighting",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "10-02-fuel-lamps-and-candles",
+   "title": "Fuel lamps & candles (fire risk)",
+   "section": "10-lighting",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "10-03-diy-and-conservation",
+   "title": "DIY lamps & conserving light",
+   "section": "10-lighting",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "10-04-candles-and-oil",
+   "title": "Making candles & oil lamps",
+   "section": "10-lighting",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "10-05-light-discipline",
+   "title": "Light discipline & blackout at night",
+   "section": "10-lighting",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "10-06-winter-light-budget",
+   "title": "The winter light budget (watt-hours, cells & fuel)",
+   "section": "10-lighting",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "11-00-section-intro",
+   "title": "Clothing & Personal Warmth \u2014 section overview",
+   "section": "11-clothing-and-personal-warmth",
+   "danger_level": "none",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "id": "11-01-cold-weather-layering",
+   "title": "Layering for extreme cold",
+   "section": "11-clothing-and-personal-warmth",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "11-02-keeping-kids-warm",
+   "title": "Keeping a 1- and 4-year-old warm",
+   "section": "11-clothing-and-personal-warmth",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "template",
+   "note": "Age-gated; ages are slots."
+  },
+  {
+   "id": "11-03-staying-dry",
+   "title": "Staying dry, drying gear without a dryer",
+   "section": "11-clothing-and-personal-warmth",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "11-04-footwear-and-extremities",
+   "title": "Feet, hands, face \u2014 protecting extremities",
+   "section": "11-clothing-and-personal-warmth",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "11-05-wool-and-materials",
+   "title": "Materials: wool, synthetics & what fails",
+   "section": "11-clothing-and-personal-warmth",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "11-06-boots-and-traction",
+   "title": "Boots, traction & winter footwear",
+   "section": "11-clothing-and-personal-warmth",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "11-07-clothing-repair",
+   "title": "Repairing & extending clothing",
+   "section": "11-clothing-and-personal-warmth",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "11-08-summer-heat-clothing",
+   "title": "Summer heat & sun protection",
+   "section": "11-clothing-and-personal-warmth",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "11-09-kids-sizing-ledger",
+   "title": "Kids' sizing ledger & next-size pipeline",
+   "section": "11-clothing-and-personal-warmth",
+   "danger_level": "caution",
+   "layer": "household",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "id": "12-00-section-intro",
+   "title": "Medical & First Aid \u2014 section overview",
+   "section": "12-medical-and-first-aid",
+   "danger_level": "none",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "id": "12-01-first-aid-kit",
+   "title": "Building a real first-aid & trauma kit",
+   "section": "12-medical-and-first-aid",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "12-02-bleeding-and-wounds",
+   "title": "Bleeding control & wound care",
+   "section": "12-medical-and-first-aid",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "12-03-burns",
+   "title": "Burns (high risk around fire)",
+   "section": "12-medical-and-first-aid",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "12-04-infection-and-antibiotics",
+   "title": "Infection, fever & antibiotics",
+   "section": "12-medical-and-first-aid",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "12-05-common-illness-and-dehydration",
+   "title": "Common illness, diarrhea & dehydration",
+   "section": "12-medical-and-first-aid",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "12-06-dental-emergencies",
+   "title": "Dental emergencies",
+   "section": "12-medical-and-first-aid",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "12-07-meds-stockpile",
+   "title": "Family medication stockpile & OTC list",
+   "section": "12-medical-and-first-aid",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "template",
+   "note": "Household \"my meds\" table from profile; OTC list core."
+  },
+  {
+   "id": "12-08-medical-kit-tiers",
+   "title": "Kit tiers: everyday, trauma, and long-haul",
+   "section": "12-medical-and-first-aid",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "12-09-splints-and-fractures",
+   "title": "Splints, sprains & fractures",
+   "section": "12-medical-and-first-aid",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "12-10-hypothermia-cross-ref",
+   "title": "Cold injuries quick-reference",
+   "section": "12-medical-and-first-aid",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "12-11-chronic-conditions",
+   "title": "Managing chronic conditions without a clinic",
+   "section": "12-medical-and-first-aid",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "rewrite",
+   "note": "Becomes the condition-library index page."
+  },
+  {
+   "id": "12-12-childbirth-and-womens-health",
+   "title": "Pregnancy, childbirth & women's health",
+   "section": "12-medical-and-first-aid",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": "Also seeds CL-12 pregnancy."
+  },
+  {
+   "id": "12-13-pain-and-fever",
+   "title": "Pain, fever & OTC medication reference",
+   "section": "12-medical-and-first-aid",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "12-14-wound-closure",
+   "title": "Wound closure, drainage & when NOT to close",
+   "section": "12-medical-and-first-aid",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "12-15-mental-health-crisis",
+   "title": "Medical response to a mental-health crisis",
+   "section": "12-medical-and-first-aid",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "12-16-triage-and-hard-calls",
+   "title": "Triage & hard decisions with no hospital",
+   "section": "12-medical-and-first-aid",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "12-17-poisoning-and-ingestion",
+   "title": "Poisoning & ingestion \u2014 the offline protocol",
+   "section": "12-medical-and-first-aid",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "12-18-choking-and-cpr",
+   "title": "Choking & CPR \u2014 memory aid (take the class)",
+   "section": "12-medical-and-first-aid",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "12-19-head-injury-watch",
+   "title": "Head injury \u2014 the watch protocol",
+   "section": "12-medical-and-first-aid",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "12-20-field-dentistry",
+   "title": "Field dentistry \u2014 the house DDS page",
+   "section": "12-medical-and-first-aid",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "rewrite",
+   "note": "Remove the in-house dentist; keep layperson dental first aid."
+  },
+  {
+   "id": "13-00-section-intro",
+   "title": "Sanitation & Waste \u2014 section overview",
+   "section": "13-sanitation-and-waste",
+   "danger_level": "none",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "id": "13-01-human-waste-no-plumbing",
+   "title": "Human waste without plumbing",
+   "section": "13-sanitation-and-waste",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "13-02-hygiene-and-handwashing",
+   "title": "Hygiene & handwashing (disease prevention)",
+   "section": "13-sanitation-and-waste",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "13-03-greywater-and-trash",
+   "title": "Greywater & garbage management",
+   "section": "13-sanitation-and-waste",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "13-04-laundry-by-hand",
+   "title": "Laundry without power",
+   "section": "13-sanitation-and-waste",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "13-05-winter-sanitation",
+   "title": "Sanitation when water lines are frozen",
+   "section": "13-sanitation-and-waste",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "13-06-composting-toilet",
+   "title": "Building a composting/bucket toilet",
+   "section": "13-sanitation-and-waste",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "13-07-latrine-siting",
+   "title": "Siting a latrine away from water",
+   "section": "13-sanitation-and-waste",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "13-08-menstrual-and-diapers",
+   "title": "Menstrual supplies & diapering without stores",
+   "section": "13-sanitation-and-waste",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "13-09-soap-making",
+   "title": "Making soap from ash & fat",
+   "section": "13-sanitation-and-waste",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "13-10-dishwashing-and-food-hygiene",
+   "title": "Dishwashing & kitchen hygiene with little water",
+   "section": "13-sanitation-and-waste",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "13-11-disease-outbreak",
+   "title": "Preventing a disease outbreak in the household",
+   "section": "13-sanitation-and-waste",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "13-12-septic-off-grid",
+   "title": "Operating a septic system off-grid",
+   "section": "13-sanitation-and-waste",
+   "danger_level": "critical",
+   "layer": "gear",
+   "action": "module",
+   "note": "GM septic."
+  },
+  {
+   "id": "14-00-section-intro",
+   "title": "Security & Defense \u2014 section overview",
+   "section": "14-security-and-defense",
+   "danger_level": "none",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "id": "14-01-situational-awareness",
+   "title": "Situational awareness & threat assessment",
+   "section": "14-security-and-defense",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "id": "14-02-home-hardening",
+   "title": "Hardening the home",
+   "section": "14-security-and-defense",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "id": "14-03-opsec",
+   "title": "OPSEC \u2014 not becoming a target",
+   "section": "14-security-and-defense",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "id": "14-04-caliber-roles-and-inventory",
+   "title": "Caliber roles & inventory log",
+   "section": "14-security-and-defense",
+   "danger_level": "caution",
+   "layer": "household",
+   "action": "template",
+   "note": "Only if firearms selected."
+  },
+  {
+   "id": "14-05-weapon-maintenance",
+   "title": "Weapon maintenance & cleaning without resupply",
+   "section": "14-security-and-defense",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "id": "14-06-spare-parts-and-armorer",
+   "title": "Spare parts & armorer's kit (AR-pattern focus)",
+   "section": "14-security-and-defense",
+   "danger_level": "caution",
+   "layer": "gear",
+   "action": "module",
+   "note": "Only if firearms selected; platform slots."
+  },
+  {
+   "id": "14-07-ammunition-storage",
+   "title": "Ammunition storage & longevity",
+   "section": "14-security-and-defense",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "id": "14-08-ammunition-sourcing",
+   "title": "Finding, stretching & reloading ammunition",
+   "section": "14-security-and-defense",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "id": "14-09-zeroing-and-optics",
+   "title": "Zeroing, optics & battery management",
+   "section": "14-security-and-defense",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "id": "14-10-suppressors-and-nfa",
+   "title": "Suppressors: maintenance, paperwork & practical use",
+   "section": "14-security-and-defense",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "rewrite",
+   "note": "Law content becomes a pre-collapse note."
+  },
+  {
+   "id": "14-11-defense-and-sd-law",
+   "title": "Defensive use of force \u2014 the household rule",
+   "section": "14-security-and-defense",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "rewrite",
+   "note": "State law line from region dataset as pre-collapse note; household rule becomes DC-12."
+  },
+  {
+   "id": "14-12-layered-defense",
+   "title": "Layered defense (locks, lighting, dogs, neighbours)",
+   "section": "14-security-and-defense",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "id": "14-13-de-escalation",
+   "title": "De-escalation & avoiding conflict",
+   "section": "14-security-and-defense",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "id": "14-14-safe-storage-and-child-access",
+   "title": "Safe storage & child access",
+   "section": "14-security-and-defense",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": "Age-gated emphasis."
+  },
+  {
+   "id": "14-15-dry-practice-doctrine",
+   "title": "Dry-practice doctrine",
+   "section": "14-security-and-defense",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "id": "15-00-section-intro",
+   "title": "Communications \u2014 section overview",
+   "section": "15-communications",
+   "danger_level": "none",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "id": "15-01-weather-alerts",
+   "title": "NOAA weather radio & alerts",
+   "section": "15-communications",
+   "danger_level": "caution",
+   "layer": "region",
+   "action": "dataset",
+   "note": "NWS office, transmitter frequencies, SAME codes from dataset."
+  },
+  {
+   "id": "15-02-radio-options",
+   "title": "Radio options: FRS/GMRS/CB/HAM",
+   "section": "15-communications",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "15-03-family-comms-plan",
+   "title": "Family comms plan & signals",
+   "section": "15-communications",
+   "danger_level": "caution",
+   "layer": "household",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "id": "15-04-monitoring-and-info",
+   "title": "Monitoring news & scanning",
+   "section": "15-communications",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "15-05-ham-and-licensing",
+   "title": "HAM radio, licensing & getting started now",
+   "section": "15-communications",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "ship",
+   "note": "Licensing as pre-collapse note."
+  },
+  {
+   "id": "15-06-antennas-and-range",
+   "title": "Antennas, range & realistic expectations",
+   "section": "15-communications",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "15-07-signals-and-codes",
+   "title": "Non-radio signalling & family codes",
+   "section": "15-communications",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "15-08-destination-comms",
+   "title": "Destination comms \u2014 the node book",
+   "section": "15-communications",
+   "danger_level": "critical",
+   "layer": "household",
+   "action": "template",
+   "note": "Per destination."
+  },
+  {
+   "id": "15-09-corridor-comms",
+   "title": "Corridor comms \u2014 reach-back on the road",
+   "section": "15-communications",
+   "danger_level": "caution",
+   "layer": "household",
+   "action": "template",
+   "note": "Per route."
+  },
+  {
+   "id": "16-00-section-intro",
+   "title": "Tools & Repair \u2014 section overview",
+   "section": "16-tools-and-repair",
+   "danger_level": "none",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "id": "16-01-essential-hand-tools",
+   "title": "Essential hand tools",
+   "section": "16-tools-and-repair",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "16-02-sharpening",
+   "title": "Sharpening knives, axes & saws",
+   "section": "16-tools-and-repair",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "16-03-knots-and-cordage",
+   "title": "Knots & cordage",
+   "section": "16-tools-and-repair",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "16-04-sewing-and-mending",
+   "title": "Sewing & mending",
+   "section": "16-tools-and-repair",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "16-05-basic-repairs",
+   "title": "Improvised repairs (tape, wire, glue, patch)",
+   "section": "16-tools-and-repair",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "16-06-axes-and-saws",
+   "title": "Axes, saws & wood tools",
+   "section": "16-tools-and-repair",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "16-07-fasteners-and-hardware",
+   "title": "Fasteners, wire & hardware to stock",
+   "section": "16-tools-and-repair",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "16-08-metal-and-wood-repair",
+   "title": "Repairing metal & wood without power",
+   "section": "16-tools-and-repair",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "16-09-bicycle-and-transport",
+   "title": "Bicycles & human-powered transport",
+   "section": "16-tools-and-repair",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "16-10-tire-failures-roadside",
+   "title": "Tire failures \u2014 roadside diagnosis & repair with OUR kit",
+   "section": "16-tools-and-repair",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "template",
+   "note": "Vehicle kit slots."
+  },
+  {
+   "id": "16-11-trailer-maintenance-and-repair",
+   "title": "Trailer maintenance & repair \u2014 the 5\u00d78 that carries the move",
+   "section": "16-tools-and-repair",
+   "danger_level": "critical",
+   "layer": "gear",
+   "action": "module",
+   "note": "GM trailer; only if a trailer is owned."
+  },
+  {
+   "id": "16-12-grid-down-house-repairs",
+   "title": "Grid-down house repairs \u2014 roof, window, burst pipe",
+   "section": "16-tools-and-repair",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "17-00-section-intro",
+   "title": "Weather & Regional Hazards \u2014 section overview",
+   "section": "17-weather-and-regional-hazards",
+   "danger_level": "none",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "id": "17-01-blizzards-and-ice",
+   "title": "Blizzards, ice storms & extreme cold",
+   "section": "17-weather-and-regional-hazards",
+   "danger_level": "critical",
+   "layer": "region",
+   "action": "dataset",
+   "note": ""
+  },
+  {
+   "id": "17-02-tornadoes",
+   "title": "Tornadoes & severe thunderstorms",
+   "section": "17-weather-and-regional-hazards",
+   "danger_level": "critical",
+   "layer": "region",
+   "action": "dataset",
+   "note": ""
+  },
+  {
+   "id": "17-03-floods",
+   "title": "Floods & the Big Sioux",
+   "section": "17-weather-and-regional-hazards",
+   "danger_level": "critical",
+   "layer": "region",
+   "action": "dataset",
+   "note": ""
+  },
+  {
+   "id": "17-04-extreme-cold-and-heat",
+   "title": "Extreme cold & extreme heat",
+   "section": "17-weather-and-regional-hazards",
+   "danger_level": "critical",
+   "layer": "region",
+   "action": "dataset",
+   "note": ""
+  },
+  {
+   "id": "17-05-grassland-fire",
+   "title": "Grassland & wildland fire",
+   "section": "17-weather-and-regional-hazards",
+   "danger_level": "critical",
+   "layer": "region",
+   "action": "dataset",
+   "note": ""
+  },
+  {
+   "id": "17-06-tornado-shelter",
+   "title": "Preparing a tornado shelter",
+   "section": "17-weather-and-regional-hazards",
+   "danger_level": "critical",
+   "layer": "region",
+   "action": "dataset",
+   "note": ""
+  },
+  {
+   "id": "17-07-drought-and-water-scarcity",
+   "title": "Drought & water scarcity",
+   "section": "17-weather-and-regional-hazards",
+   "danger_level": "caution",
+   "layer": "region",
+   "action": "dataset",
+   "note": ""
+  },
+  {
+   "id": "17-08-power-grid-failure",
+   "title": "Power grid failure (short and long)",
+   "section": "17-weather-and-regional-hazards",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "17-09-pandemic-and-illness",
+   "title": "Pandemic & widespread illness",
+   "section": "17-weather-and-regional-hazards",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "17-10-reading-the-sky",
+   "title": "Reading the sky \u2014 forecasting with no forecast",
+   "section": "17-weather-and-regional-hazards",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "17-11-corridor-hazards",
+   "title": "Corridor hazards \u2014 I-90 west & the Goshen run",
+   "section": "17-weather-and-regional-hazards",
+   "danger_level": "critical",
+   "layer": "household",
+   "action": "template",
+   "note": "Per route from region hazard data."
+  },
+  {
+   "id": "18-00-section-intro",
+   "title": "Community, Barter & Governance \u2014 section overview",
+   "section": "18-community-barter-and-governance",
+   "danger_level": "none",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "id": "18-01-mutual-aid",
+   "title": "Neighbors & mutual aid",
+   "section": "18-community-barter-and-governance",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "18-02-barter-and-trade-goods",
+   "title": "Barter & trade goods",
+   "section": "18-community-barter-and-governance",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "18-03-skills-as-currency",
+   "title": "Skills as currency",
+   "section": "18-community-barter-and-governance",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "18-04-group-organization",
+   "title": "Group organization & decisions",
+   "section": "18-community-barter-and-governance",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "18-05-trust-and-vetting",
+   "title": "Trust, vetting & strangers",
+   "section": "18-community-barter-and-governance",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "18-06-conflict-resolution",
+   "title": "Conflict resolution between households",
+   "section": "18-community-barter-and-governance",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "18-07-teaching-and-knowledge",
+   "title": "Teaching & preserving knowledge",
+   "section": "18-community-barter-and-governance",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "18-08-dental-care-as-community-asset",
+   "title": "Dental care as a community asset",
+   "section": "18-community-barter-and-governance",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "19-00-section-intro",
+   "title": "Finances & Documents \u2014 section overview",
+   "section": "19-finances-and-documents",
+   "danger_level": "none",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "id": "19-01-document-grab-kit",
+   "title": "The document grab kit",
+   "section": "19-finances-and-documents",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "19-02-cash-and-value",
+   "title": "Cash, value & a degraded economy",
+   "section": "19-finances-and-documents",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "19-03-records-and-backups",
+   "title": "Records & backups",
+   "section": "19-finances-and-documents",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "19-04-insurance-and-claims",
+   "title": "Insurance & claims",
+   "section": "19-finances-and-documents",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "19-05-identity-protection",
+   "title": "Identity protection & fraud after a disaster",
+   "section": "19-finances-and-documents",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "19-06-bank-access-in-crisis",
+   "title": "Bank access in a crisis \u2014 the safety-deposit box, honestly",
+   "section": "19-finances-and-documents",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "19-07-access-continuity",
+   "title": "Access continuity \u2014 if one adult is gone",
+   "section": "19-finances-and-documents",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "19-08-practice-continuity",
+   "title": "Practice continuity \u2014 the income engine",
+   "section": "19-finances-and-documents",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "rewrite",
+   "note": "Generalised: income continuity for a self-employed adult."
+  },
+  {
+   "id": "20-00-section-intro",
+   "title": "Kids & Family \u2014 section overview",
+   "section": "20-kids-and-family",
+   "danger_level": "none",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "id": "20-01-toddler-and-infant-needs",
+   "title": "Toddler & infant needs",
+   "section": "20-kids-and-family",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "template",
+   "note": "Age-gated."
+  },
+  {
+   "id": "20-02-child-safety-offgrid",
+   "title": "Child safety in an off-grid house",
+   "section": "20-kids-and-family",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "id": "20-03-routine-and-schooling",
+   "title": "Routine & schooling without school",
+   "section": "20-kids-and-family",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "id": "20-04-teaching-kids-the-plan",
+   "title": "Teaching kids the plan",
+   "section": "20-kids-and-family",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "id": "20-05-infant-feeding",
+   "title": "Infant feeding without the supply chain",
+   "section": "20-kids-and-family",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "template",
+   "note": "Age-gated; nursing flag."
+  },
+  {
+   "id": "20-06-diapers-and-hygiene",
+   "title": "Diapering & child hygiene",
+   "section": "20-kids-and-family",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "template",
+   "note": "Age-gated."
+  },
+  {
+   "id": "20-07-kids-jobs",
+   "title": "Kids' jobs & contributing",
+   "section": "20-kids-and-family",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "id": "20-08-kids-and-fear",
+   "title": "Kids, fear & what to tell them",
+   "section": "20-kids-and-family",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "id": "21-00-section-intro",
+   "title": "Morale & Mental Health \u2014 section overview",
+   "section": "21-morale-and-mental-health",
+   "danger_level": "none",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "id": "21-01-stress-and-panic",
+   "title": "Acute stress, panic & thinking clearly",
+   "section": "21-morale-and-mental-health",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "21-02-long-haul-morale",
+   "title": "Long-haul morale (the month-five problem)",
+   "section": "21-morale-and-mental-health",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "21-03-grief-and-trauma",
+   "title": "Grief, loss & trauma",
+   "section": "21-morale-and-mental-health",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "21-04-routine-and-structure",
+   "title": "Routine & structure",
+   "section": "21-morale-and-mental-health",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "21-05-conflict-between-adults",
+   "title": "Conflict between adults",
+   "section": "21-morale-and-mental-health",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "21-06-celebration-and-meaning",
+   "title": "Celebration, ritual & meaning",
+   "section": "21-morale-and-mental-health",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "21-07-sleep",
+   "title": "Sleep in a cold, dark, crowded house",
+   "section": "21-morale-and-mental-health",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "22-00-section-intro",
+   "title": "Master Lists (Acquire & Scavenge) \u2014 section overview",
+   "section": "22-master-lists-acquire-and-scavenge",
+   "danger_level": "none",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "id": "22-01-master-acquisition-list",
+   "title": "Master acquisition list",
+   "section": "22-master-lists-acquire-and-scavenge",
+   "danger_level": "none",
+   "layer": "household",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "id": "22-02-scavenging-field-guide",
+   "title": "Scavenging field guide \u2014 what to look for",
+   "section": "22-master-lists-acquire-and-scavenge",
+   "danger_level": "caution",
+   "layer": "household",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "id": "22-03-go-bags-and-kits",
+   "title": "Go-bags & kits (per person)",
+   "section": "22-master-lists-acquire-and-scavenge",
+   "danger_level": "critical",
+   "layer": "household",
+   "action": "template",
+   "note": "Per member."
+  },
+  {
+   "id": "22-04-household-inventory",
+   "title": "Household inventory log",
+   "section": "22-master-lists-acquire-and-scavenge",
+   "danger_level": "none",
+   "layer": "household",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "id": "22-05-kit-vehicle",
+   "title": "Vehicle kit",
+   "section": "22-master-lists-acquire-and-scavenge",
+   "danger_level": "caution",
+   "layer": "household",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "id": "22-06-kit-medical",
+   "title": "Medical go-kit (T1D + anaphylaxis)",
+   "section": "22-master-lists-acquire-and-scavenge",
+   "danger_level": "critical",
+   "layer": "condition",
+   "action": "module",
+   "note": "Built from selected condition modules."
+  },
+  {
+   "id": "22-07-priority-purchase-order",
+   "title": "What to buy first \u2014 prioritised spend",
+   "section": "22-master-lists-acquire-and-scavenge",
+   "danger_level": "none",
+   "layer": "household",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "id": "23-00-section-intro",
+   "title": "Depletion & Substitution \u2014 section overview",
+   "section": "23-depletion-and-substitution",
+   "danger_level": "none",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "id": "23-01-depletion-framework",
+   "title": "The depletion framework",
+   "section": "23-depletion-and-substitution",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "id": "23-02-master-consumables-table",
+   "title": "Master consumables table",
+   "section": "23-depletion-and-substitution",
+   "danger_level": "critical",
+   "layer": "household",
+   "action": "template",
+   "note": "Quantities from household size and gear."
+  },
+  {
+   "id": "23-03-substitution-catalog",
+   "title": "Substitution catalog",
+   "section": "23-depletion-and-substitution",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "id": "23-04-resource-lifecycles",
+   "title": "Lifecycles of every major consumable",
+   "section": "23-depletion-and-substitution",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "id": "23-05-skills-that-replace-supplies",
+   "title": "Skills that replace supplies",
+   "section": "23-depletion-and-substitution",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "id": "24-00-section-intro",
+   "title": "Skills to Practice Now \u2014 section overview",
+   "section": "24-skills-to-practice-now",
+   "danger_level": "none",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "id": "24-01-skills-checklist",
+   "title": "Skills checklist & practice schedule",
+   "section": "24-skills-to-practice-now",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "24-02-drills",
+   "title": "Family drills (fire, evacuation, blackout)",
+   "section": "24-skills-to-practice-now",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "24-03-seasonal-practice-plan",
+   "title": "Seasonal practice plan",
+   "section": "24-skills-to-practice-now",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "24-04-blackout-weekend",
+   "title": "Running a blackout weekend",
+   "section": "24-skills-to-practice-now",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "25-00-section-intro",
+   "title": "Reference & Appendices \u2014 section overview",
+   "section": "25-reference-and-appendices",
+   "danger_level": "none",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "id": "25-01-planting-calendar",
+   "title": "Northern Plains planting & harvest calendar",
+   "section": "25-reference-and-appendices",
+   "danger_level": "none",
+   "layer": "region",
+   "action": "dataset",
+   "note": ""
+  },
+  {
+   "id": "25-02-conversions-and-math",
+   "title": "Conversions, water & calorie math",
+   "section": "25-reference-and-appendices",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "25-03-regional-contacts",
+   "title": "Regional contacts & resources",
+   "section": "25-reference-and-appendices",
+   "danger_level": "none",
+   "layer": "region",
+   "action": "dataset",
+   "note": "NWS, state EM, poison control, utilities (user enters their own); national appendix lists every state."
+  },
+  {
+   "id": "25-04-maps",
+   "title": "Maps \u2014 local, regional, and routes",
+   "section": "25-reference-and-appendices",
+   "danger_level": "none",
+   "layer": "household",
+   "action": "template",
+   "note": "Map list per home base, destinations and routes; the app embeds no map tiles (owner decision pending)."
+  },
+  {
+   "id": "25-05-blank-logs",
+   "title": "Blank logs & worksheets",
+   "section": "25-reference-and-appendices",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "25-06-source-bibliography",
+   "title": "Full source bibliography",
+   "section": "25-reference-and-appendices",
+   "danger_level": "none",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Titles, publishers and dates only; no URLs printed."
+  },
+  {
+   "id": "25-07-glossary",
+   "title": "Glossary of terms",
+   "section": "25-reference-and-appendices",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "rewrite",
+   "note": "Expanded for novices; absorbs explainer vocabulary."
+  },
+  {
+   "id": "25-08-quick-reference-cards",
+   "title": "Quick-reference cards (tear-out)",
+   "section": "25-reference-and-appendices",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "template",
+   "note": "Cards with household slots."
+  },
+  {
+   "id": "25-09-family-medical-summary",
+   "title": "Family medical summary sheet",
+   "section": "25-reference-and-appendices",
+   "danger_level": "critical",
+   "layer": "household",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "id": "25-10-annual-review",
+   "title": "Annual review checklist",
+   "section": "25-reference-and-appendices",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "id": "26-00-section-intro",
+   "title": "Pre-Disaster Acquisition Checklist \u2014 section overview",
+   "section": "26-pre-disaster-acquisition-checklist",
+   "danger_level": "none",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "id": "26-01-how-to-run-the-check",
+   "title": "How to run the check (2 hours, both adults)",
+   "section": "26-pre-disaster-acquisition-checklist",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "id": "26-02-walk-the-house",
+   "title": "Walk the house \u2014 room by room",
+   "section": "26-pre-disaster-acquisition-checklist",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "id": "26-03-checklist-life-safety",
+   "title": "Checklist 1 \u2014 Life safety & medical",
+   "section": "26-pre-disaster-acquisition-checklist",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "id": "26-04-checklist-water-food",
+   "title": "Checklist 2 \u2014 Water & food",
+   "section": "26-pre-disaster-acquisition-checklist",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "id": "26-05-checklist-heat-power-light",
+   "title": "Checklist 3 \u2014 Heat, power & light",
+   "section": "26-pre-disaster-acquisition-checklist",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "id": "26-06-checklist-shelter-tools-security",
+   "title": "Checklist 4 \u2014 Shelter, tools, security & comms",
+   "section": "26-pre-disaster-acquisition-checklist",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "id": "26-07-checklist-family-records",
+   "title": "Checklist 5 \u2014 Kids, pets, records & morale",
+   "section": "26-pre-disaster-acquisition-checklist",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "id": "26-08-expiry-and-rotation-tracker",
+   "title": "Expiry & rotation tracker",
+   "section": "26-pre-disaster-acquisition-checklist",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "id": "26-09-shopping-list-and-budget",
+   "title": "The output \u2014 ranked shopping list & budget",
+   "section": "26-pre-disaster-acquisition-checklist",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "id": "27-00-section-intro",
+   "title": "CBRN & EMP \u2014 section overview",
+   "section": "27-cbrn-and-emp",
+   "danger_level": "none",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "id": "27-01-how-to-think-about-this",
+   "title": "How to think about CBRN & EMP",
+   "section": "27-cbrn-and-emp",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "27-02-emp-and-geomagnetic-storm",
+   "title": "EMP & geomagnetic storm \u2014 what actually happens",
+   "section": "27-cbrn-and-emp",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "27-03-protecting-electronics",
+   "title": "Protecting electronics \u2014 and the medical devices",
+   "section": "27-cbrn-and-emp",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "template",
+   "note": "Devices from condition modules."
+  },
+  {
+   "id": "27-04-nuclear-first-hour",
+   "title": "Nuclear detonation \u2014 the first hour",
+   "section": "27-cbrn-and-emp",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "27-05-fallout-sheltering",
+   "title": "Fallout \u2014 sheltering, time & decontamination",
+   "section": "27-cbrn-and-emp",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "27-06-potassium-iodide",
+   "title": "Potassium iodide \u2014 what it does and does not do",
+   "section": "27-cbrn-and-emp",
+   "danger_level": "critical",
+   "layer": "core",
+   "action": "ship",
+   "note": "FDA table as published; DC-22 for adults over 40."
+  },
+  {
+   "id": "27-07-chemical-and-biological",
+   "title": "Chemical & biological release",
+   "section": "27-cbrn-and-emp",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "28-00-section-intro",
+   "title": "Off-Grid Power System Reference \u2014 section overview",
+   "section": "28-off-grid-power-system-reference",
+   "danger_level": "none",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "id": "28-01-system-philosophy-and-tiers",
+   "title": "System Philosophy and Tier Structure (Owner's Reference \u00a71)",
+   "section": "28-off-grid-power-system-reference",
+   "danger_level": "none",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "28-02-equipment-inventory",
+   "title": "Equipment Inventory and Specifications (Owner's Reference \u00a72)",
+   "section": "28-off-grid-power-system-reference",
+   "danger_level": "caution",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "28-03-solar-fundamentals",
+   "title": "Solar Fundamentals \u2014 Read This First (Owner's Reference \u00a73)",
+   "section": "28-off-grid-power-system-reference",
+   "danger_level": "caution",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "28-04-series-vs-parallel",
+   "title": "Panel Wiring: Series vs Parallel (Owner's Reference \u00a74)",
+   "section": "28-off-grid-power-system-reference",
+   "danger_level": "caution",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "28-05-four-panel-home-string",
+   "title": "The Four-Panel Home String (Owner's Reference \u00a75)",
+   "section": "28-off-grid-power-system-reference",
+   "danger_level": "caution",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "28-06-cross-compatibility",
+   "title": "Cross-Compatibility: What Plugs Into What (Owner's Reference \u00a76)",
+   "section": "28-off-grid-power-system-reference",
+   "danger_level": "caution",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "28-07-panel-failure",
+   "title": "Panel Failure and How to Adjust (Owner's Reference \u00a77)",
+   "section": "28-off-grid-power-system-reference",
+   "danger_level": "caution",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "28-08-deployment-procedure",
+   "title": "Deployment Procedure (Owner's Reference \u00a78)",
+   "section": "28-off-grid-power-system-reference",
+   "danger_level": "caution",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "28-09-battery-care-and-storage",
+   "title": "Battery Care and Long-Term Storage (Owner's Reference \u00a79)",
+   "section": "28-off-grid-power-system-reference",
+   "danger_level": "caution",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "28-10-faraday-storage",
+   "title": "Faraday Storage (Owner's Reference \u00a710)",
+   "section": "28-off-grid-power-system-reference",
+   "danger_level": "none",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "28-11-vehicle-kit",
+   "title": "Vehicle Kit (Owner's Reference \u00a711)",
+   "section": "28-off-grid-power-system-reference",
+   "danger_level": "caution",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "28-12-generator-and-fuel",
+   "title": "Generator and Fuel Strategy (Owner's Reference \u00a712)",
+   "section": "28-off-grid-power-system-reference",
+   "danger_level": "caution",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "28-13-water-and-cooking",
+   "title": "Water and Cooking (Owner's Reference \u00a713)",
+   "section": "28-off-grid-power-system-reference",
+   "danger_level": "caution",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "28-14-sanitation-and-sewer",
+   "title": "Sanitation and Sewer Backup Protection (Owner's Reference \u00a714)",
+   "section": "28-off-grid-power-system-reference",
+   "danger_level": "caution",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "28-15-chemical-storage",
+   "title": "Chemical Storage (Owner's Reference \u00a715)",
+   "section": "28-off-grid-power-system-reference",
+   "danger_level": "caution",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "28-16-non-power-preparedness",
+   "title": "Non-Power Preparedness \u2014 Held and Gaps (Owner's Reference \u00a716)",
+   "section": "28-off-grid-power-system-reference",
+   "danger_level": "none",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "28-17-maintenance-schedule",
+   "title": "Maintenance Schedule (Owner's Reference \u00a717)",
+   "section": "28-off-grid-power-system-reference",
+   "danger_level": "none",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "28-18-troubleshooting",
+   "title": "Troubleshooting (Owner's Reference \u00a718)",
+   "section": "28-off-grid-power-system-reference",
+   "danger_level": "caution",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "28-19-quick-reference-card",
+   "title": "Quick Reference Card (Owner's Reference \u00a719)",
+   "section": "28-off-grid-power-system-reference",
+   "danger_level": "caution",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "28-20-to-buy",
+   "title": "To Buy (Owner's Reference \u00a720)",
+   "section": "28-off-grid-power-system-reference",
+   "danger_level": "none",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "29-00-section-intro",
+   "title": "The Diabetes Rig \u2014 Field Manual & Runbooks \u2014 section overview",
+   "section": "29-diabetes-rig",
+   "danger_level": "none",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "id": "29-01-rig-system-map",
+   "title": "The rig \u2014 system map, data flow, and what each app does",
+   "section": "29-diabetes-rig",
+   "danger_level": "caution",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "29-02-eternal-build",
+   "title": "The eternal build \u2014 what's different, and the keystore that must never be lost",
+   "section": "29-diabetes-rig",
+   "danger_level": "caution",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "29-03-operating-the-loop",
+   "title": "Operating the loop \u2014 connect the apps, start pods and sensors",
+   "section": "29-diabetes-rig",
+   "danger_level": "caution",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "29-04-troubleshooting-loop-cgm-bluetooth",
+   "title": "Troubleshooting I \u2014 loop not dosing, no glucose, Bluetooth",
+   "section": "29-diabetes-rig",
+   "danger_level": "caution",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "29-05-troubleshooting-pump-profile-phone",
+   "title": "Troubleshooting II \u2014 pump/DASH, profile & settings, phone, offline reinstall",
+   "section": "29-diabetes-rig",
+   "danger_level": "caution",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "29-06-total-failure-escalation",
+   "title": "Total-failure escalation \u2014 the five-step ladder that ends at MDI",
+   "section": "29-diabetes-rig",
+   "danger_level": "caution",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "29-07-break-glass-cgm",
+   "title": "Break-glass: CGM \u2014 xDrip+ primary, Juggluco backup (and why BYODA is parked)",
+   "section": "29-diabetes-rig",
+   "danger_level": "caution",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "29-08-break-glass-pumps",
+   "title": "Break-glass: pumps \u2014 DASH \u2192 Eros+link \u2192 Medtronic \u2192 MDI",
+   "section": "29-diabetes-rig",
+   "danger_level": "caution",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "29-09-spare-phones",
+   "title": "Spare phones \u2014 the fleet, provisioning, clock tests, and cold storage",
+   "section": "29-diabetes-rig",
+   "danger_level": "caution",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "29-10-kit-and-maintenance",
+   "title": "Rig kit inventory, cold storage, and the quarterly ritual",
+   "section": "29-diabetes-rig",
+   "danger_level": "caution",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "29-11-settings-snapshot",
+   "title": "Settings snapshot \u2014 Zack's therapy configuration (Trio export, 2026-08-31)",
+   "section": "29-diabetes-rig",
+   "danger_level": "caution",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "30-00-section-intro",
+   "title": "Diabetes Rig \u2014 Official References (verbatim) \u2014 section overview",
+   "section": "30-diabetes-rig-official-references",
+   "danger_level": "none",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "id": "30-01-aaps-overview-and-getting-started",
+   "title": "AAPS \u2014 overview & getting started",
+   "section": "30-diabetes-rig-official-references",
+   "danger_level": "none",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "30-02-aaps-hardware-compatibility",
+   "title": "AAPS \u2014 compatible pumps, CGMs, phones & watches",
+   "section": "30-diabetes-rig-official-references",
+   "danger_level": "none",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "30-03-aaps-building-the-app",
+   "title": "AAPS \u2014 building the app",
+   "section": "30-diabetes-rig-official-references",
+   "danger_level": "none",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "30-04-aaps-install-and-configuration",
+   "title": "AAPS \u2014 install, setup wizard & Config Builder",
+   "section": "30-diabetes-rig-official-references",
+   "danger_level": "none",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "30-05-aaps-profile-and-tuning",
+   "title": "AAPS \u2014 your profile & tuning",
+   "section": "30-diabetes-rig-official-references",
+   "danger_level": "none",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "30-06-aaps-omnipod-dash-driver",
+   "title": "AAPS \u2014 Omnipod DASH driver (PRIMARY PUMP)",
+   "section": "30-diabetes-rig-official-references",
+   "danger_level": "none",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "30-07-aaps-other-pump-drivers",
+   "title": "AAPS \u2014 Medtronic & other pump drivers",
+   "section": "30-diabetes-rig-official-references",
+   "danger_level": "none",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "30-08-aaps-dexcom-and-cgm-sources",
+   "title": "AAPS \u2014 Dexcom G7 & CGM sources (PRIMARY CGM)",
+   "section": "30-diabetes-rig-official-references",
+   "danger_level": "none",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "30-09-aaps-xdrip-and-juggluco",
+   "title": "AAPS \u2014 xDrip+ & Juggluco settings",
+   "section": "30-diabetes-rig-official-references",
+   "danger_level": "none",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "30-10-aaps-libre-and-other-cgms",
+   "title": "AAPS \u2014 Libre & other CGMs",
+   "section": "30-diabetes-rig-official-references",
+   "danger_level": "none",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "30-11-aaps-features-and-algorithms",
+   "title": "AAPS \u2014 key features & algorithms",
+   "section": "30-diabetes-rig-official-references",
+   "danger_level": "none",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "30-12-aaps-daily-life-and-edge-cases",
+   "title": "AAPS \u2014 daily life, children & FAQ",
+   "section": "30-diabetes-rig-official-references",
+   "danger_level": "none",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "30-13-aaps-backups-updates-versions",
+   "title": "AAPS \u2014 backups, updates & versions",
+   "section": "30-diabetes-rig-official-references",
+   "danger_level": "none",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "30-14-aaps-troubleshooting",
+   "title": "AAPS \u2014 troubleshooting, Bluetooth & logs",
+   "section": "30-diabetes-rig-official-references",
+   "danger_level": "none",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "30-15-aaps-watch-and-remote",
+   "title": "AAPS \u2014 smartwatch, remote & companion features",
+   "section": "30-diabetes-rig-official-references",
+   "danger_level": "none",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "30-16-aaps-nightscout-and-reporting",
+   "title": "AAPS \u2014 Nightscout & reporting (optional cloud)",
+   "section": "30-diabetes-rig-official-references",
+   "danger_level": "none",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "30-17-aaps-glossary-and-community",
+   "title": "AAPS \u2014 glossary, docs & community",
+   "section": "30-diabetes-rig-official-references",
+   "danger_level": "none",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "30-18-xdrip-official-docs",
+   "title": "xDrip+ \u2014 official documentation (SPARE RIG: PRIMARY CGM APP)",
+   "section": "30-diabetes-rig-official-references",
+   "danger_level": "none",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "30-19-juggluco-complete-guide",
+   "title": "Juggluco \u2014 complete guide (SPARE RIG: BACKUP CGM APP)",
+   "section": "30-diabetes-rig-official-references",
+   "danger_level": "none",
+   "layer": "drop",
+   "action": "drop",
+   "note": ""
+  },
+  {
+   "id": "31-00-section-intro",
+   "title": "SERE Field Reference \u2014 AFH 10-644 (verbatim) \u2014 section overview",
+   "section": "31-sere-field-reference",
+   "danger_level": "none",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "id": "31-01-mission",
+   "title": "AFH 10-644 ch. 1 \u2014 Mission",
+   "section": "31-sere-field-reference",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "31-02-conditions-affecting-survival",
+   "title": "AFH 10-644 ch. 2 \u2014 Conditions Affecting Survival",
+   "section": "31-sere-field-reference",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "31-03-isolated-persons-needs",
+   "title": "AFH 10-644 ch. 3 \u2014 The Isolated Person's Needs",
+   "section": "31-sere-field-reference",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "31-04-psychological-aspects",
+   "title": "AFH 10-644 ch. 4 \u2014 Psychological Aspects of SERE",
+   "section": "31-sere-field-reference",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "31-05-sere-medicine",
+   "title": "AFH 10-644 ch. 5 \u2014 SERE Medicine",
+   "section": "31-sere-field-reference",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "31-06-weather",
+   "title": "AFH 10-644 ch. 6 \u2014 Weather",
+   "section": "31-sere-field-reference",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "31-07-environment",
+   "title": "AFH 10-644 ch. 7 \u2014 Environment",
+   "section": "31-sere-field-reference",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "31-08-global-climate-characteristics",
+   "title": "AFH 10-644 ch. 8 \u2014 Global Climate Characteristics",
+   "section": "31-sere-field-reference",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "31-09-open-seas",
+   "title": "AFH 10-644 ch. 9 \u2014 Open Seas",
+   "section": "31-sere-field-reference",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "31-10-local-people",
+   "title": "AFH 10-644 ch. 10 \u2014 Local People",
+   "section": "31-sere-field-reference",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "31-11-proper-body-temperature",
+   "title": "AFH 10-644 ch. 11 \u2014 Proper Body Temperature",
+   "section": "31-sere-field-reference",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "31-12-clothing",
+   "title": "AFH 10-644 ch. 12 \u2014 Clothing",
+   "section": "31-sere-field-reference",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "31-13-shelter",
+   "title": "AFH 10-644 ch. 13 \u2014 Shelter",
+   "section": "31-sere-field-reference",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "31-14-firecraft",
+   "title": "AFH 10-644 ch. 14 \u2014 Firecraft",
+   "section": "31-sere-field-reference",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "31-15-equipment",
+   "title": "AFH 10-644 ch. 15 \u2014 Equipment",
+   "section": "31-sere-field-reference",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "31-16-water",
+   "title": "AFH 10-644 ch. 16 \u2014 Water",
+   "section": "31-sere-field-reference",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "31-17-food",
+   "title": "AFH 10-644 ch. 17 \u2014 Food",
+   "section": "31-sere-field-reference",
+   "danger_level": "caution",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "31-18-land-navigation",
+   "title": "AFH 10-644 ch. 18 \u2014 Land Navigation",
+   "section": "31-sere-field-reference",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "31-19-land-travel-and-evacuation",
+   "title": "AFH 10-644 ch. 19 \u2014 Land Travel & Evacuation Techniques",
+   "section": "31-sere-field-reference",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "31-20-river-travel",
+   "title": "AFH 10-644 ch. 20 \u2014 River Travel",
+   "section": "31-sere-field-reference",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "31-21-signaling-and-communication",
+   "title": "AFH 10-644 ch. 21 \u2014 Signaling & Communication",
+   "section": "31-sere-field-reference",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "31-22-recovery",
+   "title": "AFH 10-644 ch. 22 \u2014 Recovery",
+   "section": "31-sere-field-reference",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "31-23-evasion",
+   "title": "AFH 10-644 ch. 23 \u2014 Evasion",
+   "section": "31-sere-field-reference",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "31-24-urban-environments",
+   "title": "AFH 10-644 ch. 24 \u2014 Urban Environments",
+   "section": "31-sere-field-reference",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "id": "31-25-front-matter-and-attachments",
+   "title": "AFH 10-644 \u2014 front matter, glossary of references & acronyms",
+   "section": "31-sere-field-reference",
+   "danger_level": "none",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  }
+ ]
+}
