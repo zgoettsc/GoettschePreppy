@@ -1,0 +1,290 @@
+---
+id: 02-13-cl13-infant-feeding
+section: 02-medical-conditions
+title: "CL-13. Infant feeding: nursing and formula"
+version: 1
+revised: 2026-11-16
+layer: condition
+danger_level: critical
+phase: [A, B, C]
+tags: [condition library, infant feeding, breastfeeding, nursing, formula, safe water, sterilising bottles, breast milk storage, dehydration, weaning, whole milk]
+derived_from: [20-05-infant-feeding, 12-12-childbirth-and-womens-health, 03-01-daily-water-needs]
+sources:
+  - cdc-infant-formula-preparation-and-storage-29a24f
+  - cdc-breastfeeding-infant-and-toddler-nutrition-5d9a3a
+  - cdc-breast-milk-storage-and-preparation
+  - cdc-cleaning-infant-feeding-items
+  - cdc-infant-and-toddler-nutrition-foods-and-drinks-fo-e9c989
+  - who-powdered-infant-formula-2007
+  - fda-homemade-infant-formula-advisory
+  - ife-core-group-operational-guidance-v3
+  - usda-fsis-food-product-dating
+  - world-health-organization-the-treatment-of-diarrhoea-49d09e
+  - cdc-botulism-prevention-d03ef9
+  - nlm-lactmed
+  - american-academy-of-pediatrics-healthychildren-org-h-d59e69
+  - usda-hhs-dietary-guidelines-for-americans-2020-2025-4b2013
+related:
+  - 20-05-infant-feeding
+  - 20-01-toddler-and-infant-needs
+  - 02-12-cl12-pregnancy-birth-and-postpartum
+  - 02-04-cl04-food-allergy
+  - 03-01-daily-water-needs
+  - 03-04-purifying-water
+  - 12-05-common-illness-and-dehydration
+  - 13-08-menstrual-and-diapers
+  - 13-10-dishwashing-and-food-hygiene
+  - 04-14-powdered-and-canned-dairy
+  - 18-01-mutual-aid
+  - 22-03-go-bags-and-kits
+  - 01-07-evacuating-with-medical-needs
+  - 30-10-dc09-infant-bed-sharing
+  - 30-14-dc13-drinking-pool-or-surface-water
+  - 30-24-dc23-extra-strength-chlorination
+  - 30-15-dc14-questionable-food
+  - 30-20-dc19-when-to-leave
+cards: [DC-09, DC-13, DC-23, DC-14, DC-19]
+explainers: [EX-06]
+promote_when: [has.condition.CL-13, has.infant, has.nursing]
+photo_slots:
+  - { id: formula-prep-station, caption: "Our formula station: safe water, kettle or pot, measured scoop, clean bottles, the dated can" }
+figures: []
+plates: []
+condition: CL-13
+gear: null
+explainer: null
+card: null
+review_pass: null
+---
+
+# CL-13. Infant feeding: nursing and formula
+
+**What this page is for.** A baby's food cannot be stretched, swapped or skipped. Breastfeeding
+is the most robust way to feed a baby in a crisis; formula is the most fragile, because it needs
+a supply chain, safe water and clean bottles every single feed. This module covers both paths:
+protecting the nursing parent, storing expressed milk, preparing formula safely without power,
+the formula clock, and what to do when formula runs short. Toddler food and daily care are on
+→ 20-01 and → 20-05.
+
+{{#if has.condition.CL-13}}**Someone in your household is feeding an infant.** This module is at the front of the medical section for you.{{else}}**Nobody in your household is marked as feeding an infant.** The module stays in the binder for a new baby, or a neighbour's.{{/if}}
+{{#if has.nursing}}**Someone in your household is nursing.** Their extra water is already in the household's daily floor: {{ derived.water.floor_gal_day }} gallons a day minimum (→ 03-01).{{/if}}
+
+> **SAFETY**
+> - **Never dilute formula to make it last.** Too much water means the baby does not get enough
+>   nourishment; too little strains the kidneys (CDC, Infant Formula Preparation and Storage).
+>   Mix exactly as the container says, every time.
+> - **Never make homemade infant formula.** FDA advises against it: home recipes have caused
+>   serious illness and hospital stays in babies (FDA, Homemade Infant Formula advisory).
+> - **Formula needs safe water.** Water contaminated with chemicals cannot be made safe by
+>   boiling or filtering; use bottled water or ready-to-feed formula (CDC).
+> - **Formula shortage is an outward problem**: the answer is to seek supply, not to stretch what
+>   is left (part 8).
+
+## Do this now
+
+**A baby who may be dehydrated** (diarrhoea, vomiting, fever, heat): WHO's danger signs include
+being unusually sleepy or hard to wake, drinking poorly or not at all, sunken eyes, and a skin
+pinch that goes back slowly (WHO, The Treatment of Diarrhoea).
+1. **Keep feeding.** Keep breastfeeding, more often; WHO says breastfeeding continues during
+   diarrhoea. Formula-fed babies keep their formula, mixed correctly.
+2. **Oral rehydration solution** from a packet, mixed exactly as the packet says, in small sips
+   or spoonfuls between feeds (→ 12-05).
+3. **A baby with any danger sign, a young baby with fever, or a soft spot on the head that is
+   sunken: seek any care that exists, now.**
+
+**Mixing a bottle with no power and no clean tap water:**
+1. **Wash hands.** Clean, sanitised bottle and nipple (part 3).
+2. **Safe water:** bottled, or boiled at a rolling boil (→ 03-04).
+3. **Baby under 2 months, born early, or with a weak immune system:** CDC says boil the water,
+   **wait about 5 minutes**, then mix in the powder, then cool the bottle before feeding (CDC).
+   WHO's guidance is to mix powder into water of at least **158 °F (70 °C)** (WHO, Safe
+   Preparation of Powdered Infant Formula).
+4. **Measure the water first, then the powder**, exactly as the container says.
+5. **Test on the inside of the wrist**: warm, not hot. Never microwave (CDC).
+6. **Use within 2 hours of mixing; finish within 1 hour once the baby starts; throw away what is
+   left** (CDC).
+
+{{photo formula-prep-station}}
+
+## 1. What it is
+
+Babies under 6 months live on breast milk or infant formula alone. CDC and the major health
+organisations recommend breast milk only for about the first 6 months, then foods alongside milk
+from about 6 months, with breastfeeding continuing as long as mother and baby wish (CDC,
+Breastfeeding). From 12 months, a child moves toward family food, with plain whole milk from 12
+to 23 months (CDC, Foods and Drinks for 12 to 24 Month Olds).
+
+## 2. What runs out, and how fast
+
+| Path | What runs out | Clock |
+|---|---|---|
+| **Breastfeeding** | The parent's food, water, rest and calm. | Supply can drop with hunger, dehydration, exhaustion and stress. |
+| **Formula** | Formula, safe water, fuel to boil water, clean bottles and nipples. | **Short and unforgiving.** Count it in feeds, not cans. |
+| **Both** | Diapers or cloth, oral rehydration packets, vitamin D drops for breastfed babies (CDC). | Count them. |
+
+**The formula clock** (from your own container's label: it says how many feeds a can makes):
+cans ________ × feeds per can ________ = feeds on hand ________ ÷ feeds per day ________ =
+**________ days**. Copy it to → 23-02 and recount weekly. A baby's intake grows; recount as it
+does.
+
+## 3. Storing milk, formula and equipment without power
+
+**Expressed breast milk** (CDC, Breast Milk Storage and Preparation, as published):
+
+| Where | Freshly expressed | Thawed (previously frozen) |
+|---|---|---|
+| Room temperature, 77 °F or colder | Up to 4 hours | 1 to 2 hours |
+| Refrigerator, 40 °F | Up to 4 days | Up to 1 day; **never refreeze** |
+| Freezer, 0 °F or colder | About 6 months is best; up to 12 months acceptable | Never refreeze |
+| Left over after a feed | Use within 2 hours after the baby finishes, then discard | |
+
+Without a fridge, express only what the next feed needs, or feed at the breast. A winter porch is
+only a fridge if a thermometer says it stays between 32 and 40 °F.
+
+**Formula** (CDC, Infant Formula Preparation and Storage):
+- **Unopened containers:** a cool, dry indoor place. **Not** in a vehicle, garage or outdoors.
+- **Opened powder:** cool and dry, lid tight, **not** in the fridge. Most must be used within
+  **1 month** of opening; check the label. Write the opening date on the lid.
+- **Never use formula after its "Use By" date** (CDC). Infant formula is the one food that US
+  federal rules require to carry a date (USDA FSIS, Food Product Dating). Rotate stock so the
+  question never arises; your household's general rule on dated food (→ 30-15) does not apply to
+  formula.
+
+**Bottles, nipples and pump parts** (CDC, How to Clean, Sanitize, and Store Infant Feeding
+Items): take apart, wash in hot soapy water in a basin kept for this, rinse, air-dry on a clean
+towel. **Sanitise at least once a day** for babies under 3 months, born early, or with a weak
+immune system: cover the parts with water in a pot, bring to a boil and **boil 5 minutes**. That
+is a real fuel and water cost; budget it (→ 13-10).
+
+## 4. Day by day without it
+
+**If breastfeeding falters.** Hunger, thirst, exhaustion and fear all reduce milk; so does a
+baby who feeds less often. **The fix is more feeding, not less:** put the baby to the breast
+often, day and night; skin to skin; rest; food and water for the parent. A parent who has
+stopped or cut down can often rebuild supply (relactation), and emergency guidance supports
+helping mothers do it (IFE Core Group, Infant and Young Child Feeding in Emergencies). **Feed the
+nursing parent first**: the Dietary Guidelines estimate about 330 extra calories a day in the
+first 6 months of breastfeeding and 400 in the second 6 months (Dietary Guidelines for Americans
+2020–2025), plus extra water (→ 03-01). Abrupt weaning under stress is a real risk;
+protecting the parent's food, water and rest is the baby's food security.
+
+**If formula runs out.** There is no safe homemade substitute for a young baby (FDA). Animal
+milk, plant milks, evaporated milk recipes and diluted formula are not infant formula. Part 8 is
+the plan.
+
+**Night feeds and sleep.** Tired parents fall asleep while feeding. The AAP says that if you
+might fall asleep, feeding in an adult bed is less dangerous than on a sofa or armchair, and the
+baby goes back to its own firm, flat surface when you wake (AAP, How to Keep Your Sleeping Baby
+Safe). Where the baby sleeps is a household card: {{choice DC-09}} (→ 30-10).
+
+## 5. Warning signs that mean an emergency
+
+- **Dehydration** (WHO): unusually sleepy or hard to wake, drinking poorly, sunken eyes, slow skin
+  pinch; also fewer wet diapers than usual, no tears, a sunken soft spot, a dry mouth.
+- **A young baby with fever**, or a baby who is floppy, will not feed, breathes fast or grunts.
+- **Vomiting everything**, or green vomit.
+- **A choking or blue spell** during feeding (→ 12-18).
+- **The nursing parent**: a hot, red, painful breast with fever; signs of severe low mood or
+  thoughts of harm (→ 02-12 part 5, → 12-15).
+
+## 6. Sick-day basics
+
+- **A sick baby keeps feeding**: breast more often, or the usual formula correctly mixed. Do not
+  water down formula "to rest the stomach".
+- **Oral rehydration solution** for diarrhoea, from packets mixed exactly as labelled
+  (→ 12-05). Small amounts, often.
+- **No honey for a baby under 12 months**, not even to soothe a cough: it can cause infant
+  botulism (CDC, Botulism Prevention).
+- **A sick nursing parent keeps nursing** in most illnesses; handwashing and a mask protect the
+  baby. Check any medicine the parent takes against the NIH's LactMed database or with a
+  pharmacist (NLM, Drugs and Lactation Database).
+
+## 7. What to stock, and how much
+
+**Stock arithmetic.** Every household medicine row is printed; use the ones for this condition.
+
+| Item | On hand | Used per day | Days on hand | Days you want | Still to get |
+|---|---|---|---|---|---|
+{{#each meds as m}}| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
+{{/each}}| **Formula, powdered** (feeds, from the label) | ____ | ____ | ____ | ____ | ____ |
+| **Formula, ready-to-feed** (no water, no mixing; for the go-bag and moves) | ____ | ____ | ____ | ____ | ____ |
+| Safe water for formula (gallons) | ____ | ____ | ____ | ____ | ____ |
+| Fuel for boiling water and sanitising | ____ | ____ | ____ | ____ | ____ |
+| Bottles, nipples, brush, basin (spares) | ____ | | | ____ | ____ |
+| Breast pump parts, milk bags or clean containers | ____ | | | ____ | ____ |
+| Vitamin D drops (breastfed babies; CDC) | ____ | ____ | ____ | ____ | ____ |
+| Oral rehydration packets (infant) | ____ | | | ____ | ____ |
+| Whole milk for 12 to 23 months (powder or shelf-stable) | ____ | ____ | ____ | ____ | ____ |
+
+**Check every formula label against household allergies** (→ 02-04): soy-based and milk-based
+formulas contain those allergens.
+
+**Ask the pediatrician now, while you can, and write it here:**
+- Current feeding (breast, formula, both; foods): ________________________ as of ________
+- If formula runs out at this age, what is the plan? ______________________________________
+  ______________________________________________________________________________________
+- For a baby on a special formula (allergy, prematurity, reflux): what substitutes are
+  acceptable? ________________________________________________________________________
+- When to start foods and which first, given any family allergies: ______________________
+Pediatrician: ____________________ Date: __________
+
+## 8. Sourcing when the pharmacy is closed
+
+**Formula short? Every answer faces outward:**
+1. **Pediatrician, pharmacy, WIC, health department, disaster relief points.** Formula shortages
+   are handled as public-health matters.
+2. **Other parents** (→ 18-01). Sharing formula is common and practical; check the type, the
+   seal and the Use By date.
+3. **Breast milk:** relactation by the baby's own mother (part 4), or another nursing mother,
+   with the health questions a milk bank would ask.
+4. **Do not dilute. Do not make formula.** Restated because it is what people do.
+5. **A baby whose feeding cannot be met is a reason to move toward supply** (→ 01-02). Your
+   household's card: {{choice DC-19}} (→ 30-20).
+
+**Water for formula** is the other supply. Pool water and untreated surface water, and
+extra-strength chlorination, are household cards: {{choice DC-13}} (→ 30-14) and
+{{choice DC-23}} (→ 30-24). **For a baby, use the safest water you have**, and ready-to-feed
+formula when the water is doubtful, because CDC says chemically contaminated water cannot be made
+safe by boiling.
+
+## 9. Power and devices
+
+- **Boiling water and sanitising** are the energy load: a stove, a kettle on a power station, or
+  a fire outdoors (→ 03-04). Budget fuel for them daily.
+- **Electric breast pumps** need charging; keep a **hand pump** as the no-power fallback.
+- **Expressed milk storage** needs a fridge or freezer; without power, feed at the breast.
+
+## 10. Travel and evacuation
+
+- **Ready-to-feed formula** is the right choice for a move: no water, no mixing, no sterilising.
+  Heavy, and worth it (→ 22-03, → 01-07).
+- **A nursing baby travels best of all.** The parent needs food, water and rest on the road.
+- Pack: formula for the trip and more, clean bottles, a sealed water supply, the go-bag basin,
+  diapers (→ 13-08), oral rehydration packets, and this page's pediatrician answers.
+
+## 11. Decision cards that apply
+
+- **Where the baby sleeps:** {{choice DC-09}} (→ 30-10).
+- **Pool or surface water:** {{choice DC-13}} (→ 30-14).
+- **Extra-strength chlorination:** {{choice DC-23}} (→ 30-24).
+- **Dated, dented or questionable food** (not formula): {{choice DC-14}} (→ 30-15).
+- **When to leave:** {{choice DC-19}} (→ 30-20).
+
+## 12. My meds
+
+Every medicine row your household entered is printed, because the binder cannot pick out one
+condition's rows. **Tick the rows for this condition** (the baby's, and the nursing parent's),
+cross out the rest, and fill the last three columns by hand. **Check each of the nursing parent's
+medicines** in LactMed or with a pharmacist, and note the answer.
+
+| For this? | Who | Medicine | Strength | Schedule | Fridge? | If doses are missed (prescriber's words) | Where kept | Days on hand | Expires |
+|---|---|---|---|---|---|---|---|---|---|
+{{#each meds as m}}| ☐ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | ____ | ____ | ____ |
+{{else}}| ☐ | (no medicines entered yet) | | | | | | ____ | ____ | ____ |
+{{/each}}| ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
+| ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
+| ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
+
+**Feeding card** (for any carer): baby ________; feeds by ________ (breast / formula / both);
+formula product ________, mixed ________ scoops to ________ of water (from the label); feeds a
+day ________; foods ________; allergies ________.

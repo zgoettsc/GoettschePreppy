@@ -79,13 +79,20 @@ def compress(raw):
     if max(im.size) > MAX_SIDE:
         im.thumbnail((MAX_SIDE, MAX_SIDE), Image.LANCZOS)
     best = None
-    for q in (85, 80, 75, 70, 65, 60, 55, 50, 45, 40, 35):
-        buf = io.BytesIO()
-        im.save(buf, 'JPEG', quality=q, optimize=True, progressive=True)
-        b = buf.getvalue()
-        best = (b, q)
-        if len(b) <= HI:
-            break
+    # Resize and recompress only. Grainy film scans step down in size (never below 560 px) rather
+    # than fall below quality 45.
+    base = im
+    for side in (900, 800, 720, 640, 560):
+        im = base.copy()
+        if max(im.size) > side:
+            im.thumbnail((side, side), Image.LANCZOS)
+        for q in (82, 75, 68, 60, 52, 45):
+            buf = io.BytesIO()
+            im.save(buf, 'JPEG', quality=q, optimize=True, progressive=True)
+            b = buf.getvalue()
+            best = (b, q)
+            if len(b) <= HI:
+                return b, im.size, q
     return best[0], im.size, best[1]
 
 

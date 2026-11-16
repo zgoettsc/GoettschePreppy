@@ -34,3 +34,7 @@ Collected from worker reports; resolved in the integration pass.
 - [ ] A2/A3: Large estimate 347-753 MB, over G11's 200-400 MB; driven by topo maps. Cap maps (home county + destinations by default; route counties opt-in) and render PDFs as compressed page images.
 - [ ] A2: DC-05 hidden without an attached garage (recorded undecided) — fine; check the card page prints "not applicable" rather than "not decided" in that case.
 - [ ] Owner deploy action: set relayBase in app/settings/config.js to the Worker address (docs/10-deploy.md).
+- [x] C04: USDA Complete Guide to Home Canning entries reclassed public-domain (ships in Small). Flags has.food_allergy, has.diabetes, is.humid added (D1 must supply the humid input).
+- [ ] C04: canning altitude rows above 3,000 ft added by the worker; verify against the bound USDA Guide 1 tables.
+- [ ] C04: owner rules with no card: "allergy-safe stock held in reserve" (fold into DC-18?) and water-glassed eggs (DC-14 used). Owner question.
+- [ ] C04: per-member calories requested (members[].calories derived) — add in integration if cheap.

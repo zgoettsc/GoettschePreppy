@@ -39,8 +39,8 @@
      "imageId": 9852,
      "width": 900,
      "height": 600,
-     "bytes": 50724,
-     "sha256": "3a86d2014fdfa2519b2fdeab7ff4dfbf3e76d3baf79afb91c08e7316fa06a5c9"
+     "bytes": 47826,
+     "sha256": "0feceb3236cb912cf9e9d13c55411e56dce298fdc137d2c1f0957cd4ae3faa32"
     },
     {
      "file": "images/plates/water-hemlock/cima2_006_lvd.jpg",
@@ -54,8 +54,8 @@
      "imageId": 45654,
      "width": 600,
      "height": 900,
-     "bytes": 77287,
-     "sha256": "8fea49f3d3c752d2a731a6b2ebeaf7f04ae86c54e5dd65f52456f516882ee379"
+     "bytes": 78562,
+     "sha256": "9bb5f5d06bbc2038481be23894eb732cc4d24db800d6644a2382ab002ddbcbf4"
     }
    ]
   },
@@ -97,8 +97,8 @@
      "imageId": 45642,
      "width": 600,
      "height": 900,
-     "bytes": 78729,
-     "sha256": "9c61d622600fb6e49035c883f2bc5746a08adcfed11f6629a8fe221a4069d5bf"
+     "bytes": 74016,
+     "sha256": "123e73ab4473233585d0856830e6261bc61ead34442ff1f0b7de7d42694a8a9e"
     },
     {
      "file": "images/plates/western-water-hemlock/whemlock3.jpg",
@@ -112,8 +112,8 @@
      "imageId": null,
      "width": 184,
      "height": 171,
-     "bytes": 8692,
-     "sha256": "7894e94c265dbed6faefb97d6d2fdbac0b6b80b0650eff25c31980417a5fea7f"
+     "bytes": 7857,
+     "sha256": "d2a1361e0ab643db34e3f3af403d036daa771b91b5a38ef7f276235db56cc765"
     }
    ]
   },
@@ -140,8 +140,8 @@
      "imageId": 45639,
      "width": 600,
      "height": 900,
-     "bytes": 72194,
-     "sha256": "b61f7fc77d51de8deab7d33b17f0f0d97ce8fd04f4ab88f1b0e9efec7df1ce4c"
+     "bytes": 67565,
+     "sha256": "96749bcee1c4c30959b53d5d651cae9aa4bcb681d7f1b0676fc30f62ded7f5ef"
     }
    ]
   },
@@ -166,10 +166,10 @@
      "provider": "USDA NRCS National Plants Data Team (NPDT)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 10972,
-     "width": 900,
-     "height": 600,
-     "bytes": 93899,
-     "sha256": "01a274d0ecfaa755b15990a4054adc7c1acdaf30e82035b8e15dd94f98ed5215"
+     "width": 720,
+     "height": 480,
+     "bytes": 71203,
+     "sha256": "50703f8e44d97c930b5c0d2ca671d66db01727b3aa8401ac16fd1b91fc71e80c"
     },
     {
      "file": "images/plates/poison-hemlock/coma2_020_lvp.jpg",
@@ -183,8 +183,8 @@
      "imageId": 10979,
      "width": 600,
      "height": 900,
-     "bytes": 76966,
-     "sha256": "b4e9b643a5c6128e189b29a8ca275b16fb864a283b7577d6a86720c7b353ea9d"
+     "bytes": 66196,
+     "sha256": "d746242c925a8b4a982e51bed72414c9ed0cde528c747b8987095f739b020749"
     },
     {
      "file": "images/plates/poison-hemlock/coma2_019_lhp.jpg",
@@ -224,10 +224,10 @@
      "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 43950,
-     "width": 600,
-     "height": 900,
-     "bytes": 79941,
-     "sha256": "8fa27249f99ed5980a08b73744db35d559daea0b7e7ea9961e4e99be0bd55ac9"
+     "width": 533,
+     "height": 800,
+     "bytes": 74095,
+     "sha256": "1af2c6ccd386b7cc89a8295df845199b22f962d21c4068db52be838c6b9ea279"
     }
    ]
   },
@@ -254,8 +254,8 @@
      "imageId": 48690,
      "width": 900,
      "height": 600,
-     "bytes": 77486,
-     "sha256": "ea71265ddd098fdc60c895e4ac00c6060e7ff4c86150efa9aadf236ccef8589c"
+     "bytes": 75670,
+     "sha256": "3068d60328bf26e25857bf8f563b87cb59db42ca7198fbee1bc475395b9ff68e"
     },
     {
      "file": "images/plates/wild-parsnip/pasa2_003_lhp.jpg",
@@ -269,8 +269,8 @@
      "imageId": 29083,
      "width": 900,
      "height": 600,
-     "bytes": 67381,
-     "sha256": "086d60024f411465b4acf9462ff56103008fb728a9d87e22981c22406451b5be"
+     "bytes": 72825,
+     "sha256": "089d678f19af25ed4d271fd33bde102d9e015182abd405db3d1b9bb61772f09d"
     }
    ]
   },
@@ -297,8 +297,8 @@
      "imageId": 19489,
      "width": 900,
      "height": 600,
-     "bytes": 74783,
-     "sha256": "9f668cba7348c6ec95c20fe31f3418e6e261af994a8fc9c8c3e61a484b882c3c"
+     "bytes": 71329,
+     "sha256": "e5abd621d65fdbb9ca91c8011f7631cc0dda5cbd54b1eab4001e6c8fccc32fca"
     },
     {
      "file": "images/plates/cow-parsnip/hela4_003_lhp.jpg",
@@ -312,8 +312,8 @@
      "imageId": 19490,
      "width": 900,
      "height": 600,
-     "bytes": 62431,
-     "sha256": "45bd9621f66c2df9a907eebdeabd1b0de597328f0ab798e42c2a582edd0350a6"
+     "bytes": 59346,
+     "sha256": "644a1661270f18e7eafa65ac652535c88f3963bcbf03f3c84d7f8bff60d4daee"
     },
     {
      "file": "images/plates/cow-parsnip/hela4_001_lvd.jpg",
@@ -325,10 +325,10 @@
      "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 46982,
-     "width": 600,
-     "height": 900,
-     "bytes": 81756,
-     "sha256": "75a73f2ff4404d9fefc27c863021bd7c3a8350cb31ddab3ec25c9e3e5dbf7206"
+     "width": 533,
+     "height": 800,
+     "bytes": 79806,
+     "sha256": "c8366e8382a61c795f5c51ae2d839f2ae4a78b668d22ac75c64cb9f633f024ec"
     }
    ]
   },
@@ -381,10 +381,10 @@
      "provider": "USDI Bureau of Land Management (BLM)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 43797,
-     "width": 600,
-     "height": 900,
-     "bytes": 101811,
-     "sha256": "8bdaaedb2ca5da7568ce4d579ddedd21b0960500302105889e87e2933c9a612a"
+     "width": 480,
+     "height": 720,
+     "bytes": 76260,
+     "sha256": "1b9f22fe85927b37b912e6647bdcf6b7a7c03e35cc303152caff1af61d43802e"
     },
     {
      "file": "images/plates/mountain-death-camas/ziel2_010_lvp.jpg",
@@ -413,8 +413,8 @@
      "imageId": 51004,
      "width": 600,
      "height": 900,
-     "bytes": 75224,
-     "sha256": "cd1e8fcae68443dbab4330431bfe4316744696ffcbe0a4de81d78b87811ac309"
+     "bytes": 70763,
+     "sha256": "0b186454a037b4889f1f234070418e61321b31c2ec9c00fc4a695d62d5df2460"
     }
    ]
   },
@@ -469,8 +469,8 @@
      "imageId": 48343,
      "width": 600,
      "height": 900,
-     "bytes": 77303,
-     "sha256": "61f5263cdb17fd2f7f4c6a322486939392d1856ee661db66e8a7e13073898669"
+     "bytes": 79805,
+     "sha256": "e7172a49fdca3da14ab1daa00badc96cf863ef0aa8553cffd0cbe6e26dc2ddae"
     }
    ]
   },
@@ -495,10 +495,10 @@
      "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 48209,
-     "width": 600,
-     "height": 900,
-     "bytes": 77824,
-     "sha256": "43f203a788fedc981345140ed10fec77f2ac20c80fafdd099f7a7da20470ea18"
+     "width": 533,
+     "height": 800,
+     "bytes": 76292,
+     "sha256": "1dee874f4cb5fd02e8b85991106f37bc7d1274c054d1bcb2e8cb5dcfb1a76233"
     }
    ]
   },
@@ -525,8 +525,8 @@
      "imageId": 45750,
      "width": 600,
      "height": 900,
-     "bytes": 76434,
-     "sha256": "a0c4949776be1e604466c8395f992bf18c80535c4853076a46b5c82dbc3286d6"
+     "bytes": 78835,
+     "sha256": "35cb65871f56a2375265a9fe7f54b4fc0f217d6a7d46e8f8a63a80df5ecc566c"
     }
    ]
   },
@@ -553,8 +553,8 @@
      "imageId": 346,
      "width": 600,
      "height": 900,
-     "bytes": 75984,
-     "sha256": "8d3cf36eb88683f8e1c2a47cc30c9b3c9c047ac2ab4cbf914eb95e91acf2f0dd"
+     "bytes": 77844,
+     "sha256": "1ed0dd56fd9f0fc723da93aaaa50544e373477a2f0f0cad26010b7ee0ffeabb2"
     },
     {
      "file": "images/plates/western-monkshood/acco4_008_lvd.jpg",
@@ -568,8 +568,8 @@
      "imageId": 43907,
      "width": 600,
      "height": 900,
-     "bytes": 48971,
-     "sha256": "0fcc5df538007d75e840866d6f169f93f4027a472f7234188d8a77e50aa79075"
+     "bytes": 46199,
+     "sha256": "682646b6be7a770812c5f5af1552b38b3e3edc1393d578e936372f26680e564a"
     }
    ]
   },
@@ -596,8 +596,8 @@
      "imageId": 46078,
      "width": 600,
      "height": 900,
-     "bytes": 79363,
-     "sha256": "6cc7971cc2863628caba2daa122ea67321807b56b7e4848ddf03f91a66384dcd"
+     "bytes": 75876,
+     "sha256": "c9c72f5372146ee05c28b21b89427231c3a1b8de0a1a0dfde819f62f52dbc84c"
     }
    ]
   },
@@ -624,8 +624,8 @@
      "imageId": 612,
      "width": 900,
      "height": 600,
-     "bytes": 72935,
-     "sha256": "fab5acbf3b0ed3941a8abde6a816f3e42e3d7dd489fb425de4919956f21b4a69"
+     "bytes": 71582,
+     "sha256": "4786672f554fd88dd3a9f9b5084eb511ec308d1334964af4011d53111b2aebb4"
     },
     {
      "file": "images/plates/red-baneberry/acru2_001_lvd.jpg",
@@ -639,8 +639,8 @@
      "imageId": 43927,
      "width": 600,
      "height": 900,
-     "bytes": 79862,
-     "sha256": "c0fc22bc79621e248921cd766f6ecf4182c4da28015c28db4327be9be916fa5d"
+     "bytes": 77977,
+     "sha256": "887e0bbc70c49b533ce8f8b9b8facad8b5cea3fe3292295599ee03a7708e4685"
     }
    ]
   },
@@ -667,8 +667,8 @@
      "imageId": 528,
      "width": 600,
      "height": 900,
-     "bytes": 60126,
-     "sha256": "0ef4a41c3a7ebca33db398f1d6c4cee700e4a1e5362025cb991162445ad5c81a"
+     "bytes": 57001,
+     "sha256": "c5a546be33e522a9410289a835e5963b24698e8bafa6715249c5621b004f1528"
     },
     {
      "file": "images/plates/white-baneberry/acpa_002_lvp.jpg",
@@ -682,8 +682,8 @@
      "imageId": 529,
      "width": 600,
      "height": 900,
-     "bytes": 57814,
-     "sha256": "59379b2b9b7a9063b511ffd4f338d2453efa0ccbb4fdc44c5beb9f805a55a78e"
+     "bytes": 54955,
+     "sha256": "d94df82da08fe305b3ef4a143510dc874781e21e53a39b83285524327d5cb85d"
     },
     {
      "file": "images/plates/white-baneberry/acal7_001_lvd.jpg",
@@ -697,8 +697,8 @@
      "imageId": 43896,
      "width": 600,
      "height": 900,
-     "bytes": 77861,
-     "sha256": "50bd4eed86aae32cdcdd8d92e894d2fdba07c4555122259750dcf121b94cd4fd"
+     "bytes": 75989,
+     "sha256": "cec5e6644446cee69db2c52da4d9a411a20521567605c35f42d0c8639540715a"
     }
    ]
   },
@@ -725,8 +725,8 @@
      "imageId": 35397,
      "width": 900,
      "height": 600,
-     "bytes": 39658,
-     "sha256": "8b7fdc6bb03db856e56ad7ae33a34ad4d4f08cb08ee06dc7e7b46fc84d4ce8c9"
+     "bytes": 37101,
+     "sha256": "135059e465b1fd232e36bef9aa935479dbe0e015d8dec10f169c54c7e0de21b5"
     },
     {
      "file": "images/plates/cursed-buttercup/rasc3_003_lhp.jpg",
@@ -740,8 +740,8 @@
      "imageId": 35398,
      "width": 900,
      "height": 600,
-     "bytes": 64965,
-     "sha256": "4bcead1128cfc62fc666ff41ef7908cd5762ece85202fb71d70f9786c63c9082"
+     "bytes": 61124,
+     "sha256": "4664f729acbb1a557534342ee8a86878cadabd8fb46e3b50ccdf47c6a597fca7"
     },
     {
      "file": "images/plates/cursed-buttercup/rasc3_001_lvd.jpg",
@@ -755,8 +755,8 @@
      "imageId": 49517,
      "width": 600,
      "height": 900,
-     "bytes": 78105,
-     "sha256": "c1b63fff741dea8f727b34b47961ad9197596c243f5383ba03e398a95dd61f51"
+     "bytes": 73829,
+     "sha256": "c12dccb600d8f9dbda2a9a96b420d114f03e0f00c31ba79017c13e5b9c23ba5d"
     }
    ]
   },
@@ -783,8 +783,8 @@
      "imageId": 46050,
      "width": 600,
      "height": 900,
-     "bytes": 78875,
-     "sha256": "609854df2ab5b1d425de0ae212adf516ef98e47bfd283dc3c7afd5ec4ab65283"
+     "bytes": 73836,
+     "sha256": "915dd2438123d0dc38863cdca6f3ffb9cc7501f7e8f9fcb3971c0d5bde600563"
     }
    ]
   },
@@ -811,8 +811,8 @@
      "imageId": 38803,
      "width": 330,
      "height": 220,
-     "bytes": 15095,
-     "sha256": "cd8019ed150d8f3af0e65b1d3cd90f6b06adcbdbd31ea5edace76bba3a50ab9f"
+     "bytes": 14487,
+     "sha256": "4514604eb9a6d9437c7d6a9df9d0928b7b3f61b19e1d336071d8d4dbb910755d"
     },
     {
      "file": "images/plates/horse-nettle/soca3_001_lvd.jpg",
@@ -826,8 +826,8 @@
      "imageId": 50105,
      "width": 600,
      "height": 900,
-     "bytes": 78706,
-     "sha256": "b043e136452da33f1663a45e50a106d747ea43e1a825394f2c556b694c9452cf"
+     "bytes": 75456,
+     "sha256": "c02e47095ae0ebc513196d92288398e58226b0dead48632c2ab7e8f412e87436"
     }
    ]
   },
@@ -854,8 +854,8 @@
      "imageId": 50116,
      "width": 600,
      "height": 900,
-     "bytes": 77660,
-     "sha256": "7b6e5a9564d42c8e73472661a9288d58e9d264ddc76535104dc911930c0d8a21"
+     "bytes": 74232,
+     "sha256": "71ffbb17de18fba350699d1b59d118acf7af98e4a47264ed91b3ba29c0a75280"
     }
    ]
   },
@@ -910,8 +910,8 @@
      "imageId": 30604,
      "width": 600,
      "height": 900,
-     "bytes": 25922,
-     "sha256": "73f32aaa6dd569522debe104678da9636fde1422509acde7bbc55d1ac5af18d5"
+     "bytes": 25150,
+     "sha256": "ec60f63101484fff38b1e7b9fb0178b01f2d46c1bc5bf15ccf57e7dd408613b7"
     },
     {
      "file": "images/plates/pokeweed/pham4_001_lvd.jpg",
@@ -968,8 +968,8 @@
      "imageId": 49589,
      "width": 600,
      "height": 900,
-     "bytes": 76274,
-     "sha256": "2b75886a016b84370c583ca9075b518112a20ca3a85404d3056d984aa14a8180"
+     "bytes": 78598,
+     "sha256": "72cf5b8b56a68f639404682f28d2dd67101ad3771afeefe5113221a07905582a"
     }
    ]
   },
@@ -996,8 +996,8 @@
      "imageId": 17020,
      "width": 220,
      "height": 330,
-     "bytes": 32935,
-     "sha256": "211a6834334a9003630ec95f22e7b3653797fe9a0ac8f00abc7533ffb640534b"
+     "bytes": 31246,
+     "sha256": "41afc1faffd6f0eb50264be061a832c230496a899187170fdde898a6af9c05a7"
     },
     {
      "file": "images/plates/snow-on-the-mountain/dima13_001_lvd.jpg",
@@ -1009,10 +1009,10 @@
      "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 46121,
-     "width": 600,
-     "height": 900,
-     "bytes": 79847,
-     "sha256": "848097d41131eb2389cc73009145ae2cfeef047d38aedcfe081900a18d7a09a6"
+     "width": 533,
+     "height": 800,
+     "bytes": 78737,
+     "sha256": "17dcbd9c49e4bda6109225d9a4150d5ab22cbe7ef0a40c433c73ddef0e6cac73"
     }
    ]
   },
@@ -1037,10 +1037,10 @@
      "provider": null,
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 9436,
-     "width": 900,
-     "height": 600,
-     "bytes": 76616,
-     "sha256": "3de00643174dedf7b98ba6f384ed983f6c5d11078d62fd5d8e135a6c800259dd"
+     "width": 800,
+     "height": 533,
+     "bytes": 73124,
+     "sha256": "dd391224ecd1e74bb3d73608ffa27ca6d5275c03c7ce31aedd1272156286a893"
     },
     {
      "file": "images/plates/spotted-spurge/chma15_003_lhp.jpg",
@@ -1054,8 +1054,8 @@
      "imageId": 9434,
      "width": 900,
      "height": 600,
-     "bytes": 76568,
-     "sha256": "30d65586274cf8d243db9644f99e9721afc153a4cb95698e2abd0e91d2c77cba"
+     "bytes": 70802,
+     "sha256": "d6e9bcc9e522a8050280c44f6e218baed891c66697235e10b6f72664ec62ea7f"
     },
     {
      "file": "images/plates/spotted-spurge/chma15_001_lvd.jpg",
@@ -1069,8 +1069,8 @@
      "imageId": 45572,
      "width": 600,
      "height": 900,
-     "bytes": 78346,
-     "sha256": "da1539495e07f12e905dc8f8e60ecb6f7b2591b6f72afa7f00f716a6c35fea38"
+     "bytes": 73851,
+     "sha256": "0ac7e4f6fcb52f099580d864c73ea6c677bdc7f51564f743b9fa834838fa2cfc"
     }
    ]
   },
@@ -1097,8 +1097,8 @@
      "imageId": 2508,
      "width": 600,
      "height": 900,
-     "bytes": 52159,
-     "sha256": "b176fd2fa85eff4d8addd007bb6930c2def744c4264300e06c76357c7f34a150"
+     "bytes": 49220,
+     "sha256": "cc3de1edba37cde1937e1a796870d9089f7a356ab66fa642c9e41713b6bc4ee3"
     },
     {
      "file": "images/plates/dogbane/apca_001_lvd.jpg",
@@ -1112,8 +1112,8 @@
      "imageId": 44332,
      "width": 600,
      "height": 900,
-     "bytes": 79537,
-     "sha256": "662f06973007673def750aa030dd282365e4c5cbfc53b46ec46bfca2a8dbf3ca"
+     "bytes": 77500,
+     "sha256": "940c5f6e82c3aba58f10fb7b817d321eb384a55f528eefc7f839433d325be405"
     }
    ]
   },
@@ -1140,8 +1140,8 @@
      "imageId": 40334,
      "width": 900,
      "height": 600,
-     "bytes": 60025,
-     "sha256": "71511afa457067e72d19cf0a747adabcc73e376df2b34954f9bcee8043dc0926"
+     "bytes": 56837,
+     "sha256": "6aaea6063581f42bb8f1362e748daca2b3615bea141d1a730d87dc771c58a4ea"
     },
     {
      "file": "images/plates/canada-yew/taca7_001_lvd.jpg",
@@ -1181,10 +1181,10 @@
      "provider": "ND State Soil Conservation Committee",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 863,
-     "width": 900,
-     "height": 600,
-     "bytes": 81315,
-     "sha256": "a6c8d8af3ffea2f4c072cd8cc493b5620fa3691a57caa959355576b16a8862b0"
+     "width": 800,
+     "height": 533,
+     "bytes": 75866,
+     "sha256": "af8d75ea3d9f4a50b11758a2d4d82a0039ca712ae87d7a3a55c924b5b2354308"
     },
     {
      "file": "images/plates/ohio-buckeye/aegl_005_lhp.jpg",
@@ -1198,8 +1198,8 @@
      "imageId": 866,
      "width": 900,
      "height": 600,
-     "bytes": 77422,
-     "sha256": "1f53f210d31fc99d950e01ad41ffaaa0c55c2daba33f5c0b1d5c42c4b9125902"
+     "bytes": 78926,
+     "sha256": "0a7eb4d38e434084f4379f7dd68abea0cfea3accde73e85ed2aeaf9cea7e17c8"
     },
     {
      "file": "images/plates/ohio-buckeye/aegl_001_lvd.jpg",
@@ -1213,8 +1213,8 @@
      "imageId": 43951,
      "width": 600,
      "height": 900,
-     "bytes": 78467,
-     "sha256": "1f8444132ef5d0397a70d1a658943b036daf309c78b8aba6a060d55299f1ebb2"
+     "bytes": 77318,
+     "sha256": "47ec16d864320303f87e85adabe415c0c6c19ae8a3a342d2943cb6c8048268f8"
     }
    ]
   },
@@ -1241,8 +1241,8 @@
      "imageId": 885,
      "width": 600,
      "height": 900,
-     "bytes": 70838,
-     "sha256": "1a290ca6ab4234d0c281449484b3bd932edc6b020388bd57b8c15ec27f4220b4"
+     "bytes": 78307,
+     "sha256": "f32a010c46a3afd8550d87b5cd3f0214c371247e8a9fb1d72710f9101eba55aa"
     },
     {
      "file": "images/plates/yellow-buckeye/aeoc2_005_lvp.jpg",
@@ -1256,8 +1256,8 @@
      "imageId": 886,
      "width": 600,
      "height": 900,
-     "bytes": 70600,
-     "sha256": "8c4d9a87cf5ee1ee63a6545da8cd59cb216c622962e6773fca4ea6f89834225e"
+     "bytes": 66792,
+     "sha256": "1b15f940aaf84a5b5d74ee26de3c27f6b46810098e1cc3db143a61066d7a3ec9"
     },
     {
      "file": "images/plates/yellow-buckeye/aeoc2_001_lvd.jpg",
@@ -1269,10 +1269,10 @@
      "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 43953,
-     "width": 600,
-     "height": 900,
-     "bytes": 77411,
-     "sha256": "e1a34cbd4bf093b3b9413e702b8f032c36e7a8403fa1c11678fd4d2c5a7c98b6"
+     "width": 533,
+     "height": 800,
+     "bytes": 74303,
+     "sha256": "066cbb6600b34516c17b7bf8d9d670bd5dcd317b1520c963e91926a4859b721f"
     }
    ]
   },
@@ -1299,8 +1299,8 @@
      "imageId": 896,
      "width": 900,
      "height": 600,
-     "bytes": 56130,
-     "sha256": "2db81cf47a4866b60ed03f62416f22500e582e4229c48f067ade8800713a76a1"
+     "bytes": 49320,
+     "sha256": "5e3f928e270a48b56c1d224611ebb4e7e9805f7ebef176676fae42779c4d1a3b"
     },
     {
      "file": "images/plates/red-buckeye/aepa_011_lhp.jpg",
@@ -1314,8 +1314,8 @@
      "imageId": 901,
      "width": 900,
      "height": 600,
-     "bytes": 76720,
-     "sha256": "64bc5af848da102a4d33d35085c51e85dac6dc76ae079337fceff40a8569b6f2"
+     "bytes": 78726,
+     "sha256": "1f88b0b5d944ed5ebc24ed0aed33f2866da7eae68481bb7a10ef9da8102b5403"
     },
     {
      "file": "images/plates/red-buckeye/aepa_001_lvd.jpg",
@@ -1327,10 +1327,10 @@
      "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 43955,
-     "width": 600,
-     "height": 900,
-     "bytes": 76623,
-     "sha256": "7bf8119c2f8af7c49630fea95f601fe57ca4578436be5906613b0384f16b8f5b"
+     "width": 533,
+     "height": 800,
+     "bytes": 72796,
+     "sha256": "b1348c340324a722a4d627806773b9b1479cf03f4b617ba0de5894bb4f582eef"
     }
    ]
   },
@@ -1357,8 +1357,8 @@
      "imageId": 875,
      "width": 900,
      "height": 600,
-     "bytes": 79518,
-     "sha256": "2acb375a9dde1087e28605a77e0e4be9bb3e0ca2b715822c95720e56cedf23c3"
+     "bytes": 68772,
+     "sha256": "2bd12252ef7c672fa2a00fc8bd217112f79c1b688122ff087787a73e160b63e1"
     },
     {
      "file": "images/plates/horse-chestnut/aehi_001_lvd.jpg",
@@ -1370,10 +1370,10 @@
      "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 43952,
-     "width": 600,
-     "height": 900,
-     "bytes": 79402,
-     "sha256": "c4678070f66ec7d5ace6e08982825a6f09cb3f816a954e52bd57f42bc0e4a46b"
+     "width": 533,
+     "height": 800,
+     "bytes": 79121,
+     "sha256": "b842da2b9ccec72ac4b178c3806ae93e50c3ac167676bfca80b32deda5d63ce1"
     }
    ]
   },
@@ -1428,8 +1428,8 @@
      "imageId": 50008,
      "width": 600,
      "height": 900,
-     "bytes": 76050,
-     "sha256": "cd6b84a4100647e4f818a509618a82b94d0091c98fb5d6523b558c90ad0218dd"
+     "bytes": 78466,
+     "sha256": "738c289988cb6d2bbc1df0241b7406f74914ea08ae1aae933cd0f1b451436457"
     }
    ]
   },
@@ -1454,10 +1454,10 @@
      "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 50447,
-     "width": 600,
-     "height": 900,
-     "bytes": 81761,
-     "sha256": "529cdf876411edc22010cbe07594ef48a6351dbd36de5b720e0e905dd8233cef"
+     "width": 533,
+     "height": 800,
+     "bytes": 79467,
+     "sha256": "b35f7488c7614b9a31d28d10c809d5cf9540122a41a1e635bb8c71d360657bb9"
     }
    ]
   },
@@ -1499,8 +1499,8 @@
      "imageId": 43484,
      "width": 900,
      "height": 600,
-     "bytes": 66321,
-     "sha256": "83ade8c66c994ef089c40cbcf96e486e6e0bf624f7415884e1c0540486a1071e"
+     "bytes": 71400,
+     "sha256": "29d5632a528f895544b0bc8e53dbe0f17ec5dd541351fd795d20b3efe355977b"
     },
     {
      "file": "images/plates/cocklebur/xast_004_lvd.jpg",
@@ -1514,8 +1514,8 @@
      "imageId": 50971,
      "width": 600,
      "height": 900,
-     "bytes": 78937,
-     "sha256": "7aef6d9c15aa0665505e938065f4972879b0465539584001d2bdc37452802c17"
+     "bytes": 73499,
+     "sha256": "4b7d4c2e9006eacdb6622b3c133e4bc518da04104307d1217cfdc70b9a42ae15"
     }
    ]
   },
@@ -1543,8 +1543,8 @@
      "imageId": 36154,
      "width": 600,
      "height": 900,
-     "bytes": 60965,
-     "sha256": "813eab6d5766764e55ae737e7a41a9dc5d8369a231cd8b370b4e810f886cef06"
+     "bytes": 57780,
+     "sha256": "207a2154c6ec4d99a9b00b752812f3f63e027591c9e96bd26c4c43d5f4f6cf6e"
     },
     {
      "file": "images/plates/black-locust/rops_006_lhp.jpg",
@@ -1558,8 +1558,8 @@
      "imageId": 36156,
      "width": 900,
      "height": 600,
-     "bytes": 35254,
-     "sha256": "b787eecbb3746c243942167370eb22b461ded10e7c1c9029157c12258dddd9ea"
+     "bytes": 33822,
+     "sha256": "e35eab7115f34a52d817efd9f011141c80d2df9a5abfdd632065ba63a209f76d"
     },
     {
      "file": "images/plates/black-locust/rops_001_lvd.jpg",
@@ -1573,8 +1573,8 @@
      "imageId": 49613,
      "width": 600,
      "height": 900,
-     "bytes": 79360,
-     "sha256": "7df10d1b4aac14477b37a2bc75bcfa896ed4bd0f244b546c45d013dacbc777ef"
+     "bytes": 79990,
+     "sha256": "36c15ed2c6d27c47f60c1e6bf8162d1e08406bf03bfcaa3d36d1958a72db5db4"
     }
    ]
   },
@@ -1601,8 +1601,8 @@
      "imageId": 18951,
      "width": 600,
      "height": 900,
-     "bytes": 35698,
-     "sha256": "890169124c855f6a7fbda3b685581c5161d9356b42443c923aef0e0349415f43"
+     "bytes": 34378,
+     "sha256": "6d66fd2cf0f20e850d0fcdcf6c6c2645f8bd3195e8afd1eded795a0ef9f5615f"
     },
     {
      "file": "images/plates/kentucky-coffeetree/gydi_003_lhp.jpg",
@@ -1616,8 +1616,8 @@
      "imageId": 18952,
      "width": 900,
      "height": 600,
-     "bytes": 63551,
-     "sha256": "fe319783ef64366dbe3580ad0264f7dfb909949de4241e9ca6bd10ed1df6a569"
+     "bytes": 55832,
+     "sha256": "db3449b3a349424bf7903c8822cb752fb47702f9c3f77a5bb29ac620cd5561d4"
     },
     {
      "file": "images/plates/kentucky-coffeetree/gydi_001_lvd.jpg",
@@ -1629,10 +1629,10 @@
      "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 46916,
-     "width": 600,
-     "height": 900,
-     "bytes": 79062,
-     "sha256": "b8eb58bf7e66470f58b3f81644446af37cbd82886d35c7110f44ff076883e85d"
+     "width": 533,
+     "height": 800,
+     "bytes": 73623,
+     "sha256": "a693d2451e1e3f27265c33859b586e9fb3d09a912823422327aac4a226e8bdbb"
     }
    ]
   },
@@ -1659,8 +1659,8 @@
      "imageId": 48368,
      "width": 600,
      "height": 900,
-     "bytes": 78013,
-     "sha256": "f5c113d0054c90090f183792608d9d16de1d1637aefd51d74aa315356967b936"
+     "bytes": 74608,
+     "sha256": "b8f5d4f864b98c693dfd5b7bdcac7052ea928388662f88ce1037475835987fb4"
     }
    ]
   },
@@ -1685,10 +1685,10 @@
      "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 44597,
-     "width": 600,
-     "height": 900,
-     "bytes": 97246,
-     "sha256": "273f9b17cc958d8a7440a76fe799a7a15c9a78a1441085fd04f24d490a6abbee"
+     "width": 480,
+     "height": 720,
+     "bytes": 78789,
+     "sha256": "3c2e65466a084ae22de8ed6f0afeeac09c55f86df7f6aa8ce9d9fb57eeaf5ee4"
     }
    ]
   },
@@ -1715,8 +1715,8 @@
      "imageId": 25552,
      "width": 600,
      "height": 900,
-     "bytes": 35855,
-     "sha256": "e74f34aeb707d00795922dfa29974844d2ea07e217735f7eda2f4fa608e28554"
+     "bytes": 33924,
+     "sha256": "3cdf6df94f3311e1120227581d65c9c09c2bfcc865fd1347eedc20fa094c0728"
     },
     {
      "file": "images/plates/moonseed/meca3_001_lvd.jpg",
@@ -1730,8 +1730,8 @@
      "imageId": 47914,
      "width": 600,
      "height": 900,
-     "bytes": 77239,
-     "sha256": "0a5dc3786c6e82a761c6a60f44e4b23b976175bcbbeb3591742f02d6638e1b9c"
+     "bytes": 79673,
+     "sha256": "91d1a79264d17f150570becfff3b5cdb2b04dfcc10413807136fcd25b7e4bfc4"
     }
    ]
   },
@@ -1758,8 +1758,8 @@
      "imageId": 29051,
      "width": 900,
      "height": 600,
-     "bytes": 56621,
-     "sha256": "3904ad685a672616e9b60daaf2055568c176012ef217b96df0e4f97b69b09c64"
+     "bytes": 53594,
+     "sha256": "9731fa83a5684d1fd3455cb24736650a6216952ea84327197407bbb21e9e0bdb"
     },
     {
      "file": "images/plates/virginia-creeper/paqu2_013_lvp.jpg",
@@ -1773,8 +1773,8 @@
      "imageId": 29059,
      "width": 600,
      "height": 900,
-     "bytes": 67980,
-     "sha256": "4247a791dfd4a7c2e630151735f005486d00321d6ba5ff28f7ce3c32cb1c20f6"
+     "bytes": 64088,
+     "sha256": "bc6eeff3bee162db3fadcc156c98f5d504349de5d27d346ea3b0d0c32bef4306"
     }
    ]
   },
@@ -1801,8 +1801,8 @@
      "imageId": 49817,
      "width": 600,
      "height": 900,
-     "bytes": 76461,
-     "sha256": "38d74109ece04db7b2ce008348db61a8e9c50cc7afe5fe17827e0de85f9ea213"
+     "bytes": 78921,
+     "sha256": "b3e6a24d1972edb1287c3a1e0ba27cb5c7928ae60e8e259e251648b1a37abd16"
     }
    ]
   },
@@ -1829,8 +1829,8 @@
      "imageId": 49543,
      "width": 600,
      "height": 900,
-     "bytes": 79907,
-     "sha256": "b230859761210fcaf1311133b5b9391d81ec31f16cd8bbc5940ec36b668f6f6a"
+     "bytes": 76485,
+     "sha256": "927cf93330edcdb5d9913c0fa6b2799ddc8c6d87cffa6ab26a6fd95bb740f0bc"
     }
    ]
   },
@@ -1857,8 +1857,8 @@
      "imageId": 20670,
      "width": 900,
      "height": 600,
-     "bytes": 62771,
-     "sha256": "d691a5e78ca7cc8061b9b0c9417415e5db4eb5282d50201eef600bf9f959fa2d"
+     "bytes": 59443,
+     "sha256": "ec6f2e58f63b55fd16030d5f4a7196412d48d593f6d01f2a2095a3d735acb287"
     },
     {
      "file": "images/plates/american-holly/ilop_014_lvp.jpg",
@@ -1887,8 +1887,8 @@
      "imageId": 47228,
      "width": 600,
      "height": 900,
-     "bytes": 71021,
-     "sha256": "2ab3dfe15b1cc56dbe9ed17dcb9e612a945ec0efb5f963e1adac50b7849c8ff4"
+     "bytes": 66305,
+     "sha256": "625a92713650bf6bb395bd649ca2c74cd5f7cb279b57112897edabaa54eed4af"
     }
    ]
   },
@@ -1915,8 +1915,8 @@
      "imageId": 48896,
      "width": 600,
      "height": 900,
-     "bytes": 75936,
-     "sha256": "ea8fc4f74cec5a41a2b08668519e1ac290b95e92a44a48f75370c5f5da16fd55"
+     "bytes": 78272,
+     "sha256": "a598590a1a59a67d893592dd83c542a9221d79285cd1945e91e335de7dcc6eab"
     }
    ]
   },
@@ -1943,8 +1943,8 @@
      "imageId": 44000,
      "width": 600,
      "height": 900,
-     "bytes": 79736,
-     "sha256": "2df308a4db3db82a27ba8632d54ca171fbcbd49accea7d58b29cdd965ed32ef0"
+     "bytes": 75555,
+     "sha256": "f4216bb6ec952fb424ed97a6947bbcd25f04807f4e87d3b0e40a4ff1290655e6"
     }
    ]
   },
@@ -1971,8 +1971,8 @@
      "imageId": 2019,
      "width": 330,
      "height": 220,
-     "bytes": 17549,
-     "sha256": "6119cedf603448503eae378bf15783beb80a06c2fddad7ffefe493943d8e70bb"
+     "bytes": 16853,
+     "sha256": "15d5684ab3ec447e1faf025165a4a599d1055108b43e031c714d06461498add5"
     },
     {
      "file": "images/plates/scarlet-pimpernel/anar_001_lvd.jpg",
@@ -1986,8 +1986,8 @@
      "imageId": 44219,
      "width": 600,
      "height": 900,
-     "bytes": 77610,
-     "sha256": "889ce1054dfa3f4c86a015f1a1759f2736f3e7201c7d97ae496f80068f0a4335"
+     "bytes": 75820,
+     "sha256": "94bc8efb97a97848eed22b8ad0ba79fbf734c800dc402106cbfbe6c8eb00f9b4"
     }
    ]
   },
@@ -2014,8 +2014,8 @@
      "imageId": 49369,
      "width": 600,
      "height": 900,
-     "bytes": 79989,
-     "sha256": "c40772598856fcefe611617a8b5d59eeaf861bf673fb41dd37a3a2e45efd9f31"
+     "bytes": 78174,
+     "sha256": "a02d1b12a76324fc76e066113cf235c3db793d9639fdbf1efe12cca437c808ce"
     }
    ]
   },
@@ -2042,8 +2042,8 @@
      "imageId": 33398,
      "width": 600,
      "height": 900,
-     "bytes": 75891,
-     "sha256": "436bbd78372f2d9cbf6c2749245821df924c9a0779fbf54cfec37babbf2c062a"
+     "bytes": 76402,
+     "sha256": "bf326abb98b37a5156135ba6351a2efaabb910c33716925b8ff79c19ba411714"
     },
     {
      "file": "images/plates/mayapple/pope_007_shp.jpg",
@@ -2057,8 +2057,8 @@
      "imageId": 33402,
      "width": 330,
      "height": 220,
-     "bytes": 10120,
-     "sha256": "47d76ca918df3a0bb3e6c2b3b1738175ddc2edd6d23fca8d15abd2d8bf2e40a3"
+     "bytes": 9571,
+     "sha256": "03516249e89f2aff0d575c217dd945bf19f4060fac5de25dbed7b455b1cb71d9"
     },
     {
      "file": "images/plates/mayapple/pope_001_lvd.jpg",
@@ -2072,8 +2072,8 @@
      "imageId": 49235,
      "width": 600,
      "height": 900,
-     "bytes": 77452,
-     "sha256": "b4b05e399dd9daa17f2f95dff97a88c6155b62d545fb2f2278b5663df2628605"
+     "bytes": 75621,
+     "sha256": "a89ed52b18ab09b3b0bfcaffae404b988b6e24a28a61f83e2be49ba1ed06a6d9"
     }
    ]
   },
@@ -2128,8 +2128,8 @@
      "imageId": 36742,
      "width": 900,
      "height": 600,
-     "bytes": 69908,
-     "sha256": "1f25d1d1f3fc41165a2876575f75ccbeda8c526d5e66e1aefa0f84a109fc7658"
+     "bytes": 66435,
+     "sha256": "eec7d02eb98c2e3710e90a629f979ac37f40d6a9b96bcc44474d2ef6ee0fb8ba"
     },
     {
      "file": "images/plates/bloodroot/saca13_005_lhp.jpg",
@@ -2143,8 +2143,8 @@
      "imageId": 36744,
      "width": 900,
      "height": 600,
-     "bytes": 77402,
-     "sha256": "7a0a3eea95fe6200306fdaab77d374302e92c52d7395d8f8496329836c4f4afe"
+     "bytes": 79455,
+     "sha256": "c29613158f3891ed6212622962bc3ff650b7220589441d11101e2bbf3a1a31ff"
     },
     {
      "file": "images/plates/bloodroot/saca13_001_lvd.jpg",
@@ -2158,8 +2158,8 @@
      "imageId": 49722,
      "width": 600,
      "height": 900,
-     "bytes": 77727,
-     "sha256": "e51a07172b7db1def4dddffb0e5c84ccf10f442e3bfe8f6050446def6468e270"
+     "bytes": 74391,
+     "sha256": "c00068ed844f982bde7483f6f541a330e01eb617f20884b3716262c636cc8fe2"
     }
    ]
   },
@@ -2184,10 +2184,10 @@
      "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 45574,
-     "width": 600,
-     "height": 900,
-     "bytes": 75629,
-     "sha256": "d00c2c51a3387ba2dcab9002eb03048bf95dbf0076320b149eae640681b2ffe8"
+     "width": 533,
+     "height": 800,
+     "bytes": 75581,
+     "sha256": "febc406c16452efd5ebeb36100714b3c8c0dcf3990e8b02d5c9e667a0d629773"
     }
    ]
   },
@@ -2214,8 +2214,8 @@
      "imageId": 13194,
      "width": 900,
      "height": 600,
-     "bytes": 79685,
-     "sha256": "b093021b12970404c7ca7918929e1010a19136f1c30eb68e246b9957adb03137"
+     "bytes": 79934,
+     "sha256": "2e946b56c764c5b87c1dbff98b074609c7e5781f0900d9f0014b9e107b9e8664"
     },
     {
      "file": "images/plates/dutchmans-breeches/bicu2_001_lvd.jpg",
@@ -2227,10 +2227,10 @@
      "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 44789,
-     "width": 600,
-     "height": 900,
-     "bytes": 78815,
-     "sha256": "1c6cd5ca3ee3460f13727af0a139160c591f7374d5576f5b162caa4bf2548ab5"
+     "width": 533,
+     "height": 800,
+     "bytes": 73121,
+     "sha256": "54a00e8a7053480c2128bfc0ad1f9b4fdc6783c00a694636c7dcdff8505973cf"
     }
    ]
   },
@@ -2257,8 +2257,8 @@
      "imageId": 3088,
      "width": 330,
      "height": 220,
-     "bytes": 18663,
-     "sha256": "1a58182d20c272d8322948d56d6fb1c778c0f44c381a3c6011adc2a55442ea3c"
+     "bytes": 18072,
+     "sha256": "d5d9080fb64030f6cdc1ef3579c222e868745623508a920bdd4ebfef8d14eb4e"
     },
     {
      "file": "images/plates/mexican-prickly-poppy/arme4_001_lvd.jpg",
@@ -2272,8 +2272,8 @@
      "imageId": 44456,
      "width": 600,
      "height": 900,
-     "bytes": 78606,
-     "sha256": "9e018306a364bbb59db08a94be6d0351f075c591e0901072516acc1f68e0f50a"
+     "bytes": 76698,
+     "sha256": "89f4847524c29aaab00644db88c0a679ca1d771a783c8d45eeb69611dbdd7f68"
     }
    ]
   },
@@ -2300,8 +2300,8 @@
      "imageId": 3410,
      "width": 900,
      "height": 600,
-     "bytes": 44571,
-     "sha256": "ed5e846743b6746b6b3b98724ad492e508b84a2003d007b9198c989807d5ffb4"
+     "bytes": 42449,
+     "sha256": "075d8b7c83709fee391dacd28ec3ef718d4db96b3e17ba14db150cf7b52a42de"
     },
     {
      "file": "images/plates/jack-in-the-pulpit/artr_005_lvd.jpg",
@@ -2315,8 +2315,8 @@
      "imageId": 44509,
      "width": 600,
      "height": 900,
-     "bytes": 60775,
-     "sha256": "9e68c6076a69ecbef0d087d8ee10b772c384f629b775354e26349390c1405d28"
+     "bytes": 57225,
+     "sha256": "0180fae25d7161f0e701db113ab691856283a6ca5428ec978e28e9f6b4b8c619"
     }
    ]
   },
@@ -2343,8 +2343,8 @@
      "imageId": 40186,
      "width": 600,
      "height": 900,
-     "bytes": 68845,
-     "sha256": "588d6bfc67605e9cf7ddb43b280b4429cf1b7b3fe10a21bb12e88df0cd818225"
+     "bytes": 65629,
+     "sha256": "6f714634a10b11246c0ccf59b37bd343c8c99aa601675780e767b5885de8cc91"
     },
     {
      "file": "images/plates/eastern-skunk-cabbage/spfo2_001_lvd.jpg",
@@ -2358,8 +2358,8 @@
      "imageId": 50235,
      "width": 600,
      "height": 900,
-     "bytes": 75765,
-     "sha256": "864038701961f30893bc9a8978d756234bc7050342602069b9a4416ad0047e51"
+     "bytes": 78110,
+     "sha256": "eb9e944ca13fa11fa0eca4c6735e166e4a47a05b4cc0fd3bd621b32edafc41ca"
     }
    ]
   },
@@ -2386,8 +2386,8 @@
      "imageId": 30507,
      "width": 900,
      "height": 600,
-     "bytes": 77799,
-     "sha256": "48aa34914fa465407a4b999725e3619c2aa3190875334da342f805a87cbd9cd9"
+     "bytes": 77016,
+     "sha256": "a55f9100b831b8884a24c7dad4f60fae96f1a5f4d67352884e3e410623bcb378"
     },
     {
      "file": "images/plates/arrow-arum/pevi_001_lvd.jpg",
@@ -2401,8 +2401,8 @@
      "imageId": 48845,
      "width": 600,
      "height": 900,
-     "bytes": 77501,
-     "sha256": "4779a8756eef4af10603efe9656eaccea2847787aad05f8df34b452f1596e19c"
+     "bytes": 79906,
+     "sha256": "c1fcb7de8cc41722e57931c94e12f51f54678e053fc7348d24ab1ceeb8ec7701"
     }
    ]
   },
@@ -2429,8 +2429,8 @@
      "imageId": 21185,
      "width": 900,
      "height": 600,
-     "bytes": 64718,
-     "sha256": "be87a67f6cd161a3da0f96cce61610f217618a53071f246771d37df7ead989ab"
+     "bytes": 61474,
+     "sha256": "97ff2f8fe508739b826aceede1034038d940b75ac3106f79852fd8d8f1e9cb4d"
     },
     {
      "file": "images/plates/blue-flag-iris/irve2_001_lvd.jpg",
@@ -2442,10 +2442,10 @@
      "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 47270,
-     "width": 600,
-     "height": 900,
-     "bytes": 78209,
-     "sha256": "9608494d0dde81d8b1074a6dc17e6228c5b4b360f82d5676bce3af74112296f5"
+     "width": 533,
+     "height": 800,
+     "bytes": 74791,
+     "sha256": "0f3b050aadb4892fde83e5db9ad5360c1d809ce39ab35f1f84a6959697c0a131"
     }
    ]
   },
@@ -2487,8 +2487,8 @@
      "imageId": 21192,
      "width": 900,
      "height": 600,
-     "bytes": 38609,
-     "sha256": "1777c9266a148656581856ac7d7f78665eb0e3ba5c15bb9f7b95b28fddda8232"
+     "bytes": 37006,
+     "sha256": "92da4b333695b8a8ae19e097ffce409371c80af131b65a57d06803c8551bdb4e"
     },
     {
      "file": "images/plates/southern-blue-flag/irvi_004_lvd.jpg",
@@ -2502,8 +2502,8 @@
      "imageId": 47272,
      "width": 600,
      "height": 900,
-     "bytes": 72831,
-     "sha256": "f151c024207456122b30848cc41455597af93b6e54ccd4f85a45bdc9ed70fdf3"
+     "bytes": 68631,
+     "sha256": "b0f690d8375c2e34b3fcaba529533d761197b011b9af6cad8c6c9f79069d0220"
     }
    ]
   },
@@ -2530,8 +2530,8 @@
      "imageId": 21143,
      "width": 900,
      "height": 600,
-     "bytes": 55537,
-     "sha256": "c6869879d7044f322bb1a51b3f1188e029081b8a945426668684feaf294271e3"
+     "bytes": 52247,
+     "sha256": "467ef6aa31273904720b5513ecc3cafa09e78d1ddf865311c50fabe308070d11"
     },
     {
      "file": "images/plates/yellow-flag-iris/irps_001_lvd.jpg",
@@ -2571,10 +2571,10 @@
      "provider": "USDA Forest Service",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 21130,
-     "width": 600,
-     "height": 900,
-     "bytes": 77269,
-     "sha256": "f6c11b83ba2b8d18805610adc62ebce335df90a980451e408a33009af43a9fc0"
+     "width": 533,
+     "height": 800,
+     "bytes": 76149,
+     "sha256": "500fc6fa0057ccea4a4320b139b98102551103daf711a805501d7296cc314a00"
     },
     {
      "file": "images/plates/rocky-mountain-iris/irmi_001_lvd.jpg",
@@ -2588,8 +2588,8 @@
      "imageId": 47263,
      "width": 600,
      "height": 900,
-     "bytes": 76093,
-     "sha256": "288072cde71f540508ea2590bf9b0e399e51ef5e419f20eb2414e11418c084b6"
+     "bytes": 78446,
+     "sha256": "b008ff7e36471b424fe3db04b5a799ce0df5ad8d9a3eba4a38882d6522941a9b"
     }
    ]
   },
@@ -2616,8 +2616,8 @@
      "imageId": 41195,
      "width": 900,
      "height": 600,
-     "bytes": 65330,
-     "sha256": "257e0f9cadf837eecb522b594cfa920984f00b050613610c9e6e42781d31c1d5"
+     "bytes": 61896,
+     "sha256": "0a7da3da2ef121fb5ae880031c895d674bfd4afbbb666ea080567d3e7350375e"
     },
     {
      "file": "images/plates/poison-ivy/tora2_003_lhp.jpg",
@@ -2631,8 +2631,8 @@
      "imageId": 41196,
      "width": 900,
      "height": 600,
-     "bytes": 54828,
-     "sha256": "e8354ab3e67b814ce5d2d540549ac9916d5f9b28ba33538ab565279c9d7807e8"
+     "bytes": 52148,
+     "sha256": "4c1dae576689989e811722285742fd87ba8d171ca5a72ddc26566edfdd2789d7"
     },
     {
      "file": "images/plates/poison-ivy/tora2_001_lvd.jpg",
@@ -2646,8 +2646,8 @@
      "imageId": 50537,
      "width": 600,
      "height": 900,
-     "bytes": 75954,
-     "sha256": "e5ff320a9692d7453fd5f9b16b1dd4f0449e08697830e65cfcb1b870ac1b437e"
+     "bytes": 78523,
+     "sha256": "a710c97cf6c7d442a17b63036df938546ed6d09278950135f270f1859f9bc6fa"
     }
    ]
   },
@@ -2674,8 +2674,8 @@
      "imageId": 41191,
      "width": 900,
      "height": 600,
-     "bytes": 64144,
-     "sha256": "869496c822843a76baecdf0efa81e6f79ce52e194357eb6e225e2bc71da07e29"
+     "bytes": 60820,
+     "sha256": "279c14d47ab654aa54a6fab38920697698c41b41783bd47176808582fbf2dca5"
     },
     {
      "file": "images/plates/atlantic-poison-oak/topu2_001_lvd.jpg",
@@ -2689,8 +2689,8 @@
      "imageId": 50536,
      "width": 600,
      "height": 900,
-     "bytes": 68021,
-     "sha256": "318415663332228df2d3ccb1cfe98065f26d60a880932680c32ffc78ff0917b8"
+     "bytes": 63966,
+     "sha256": "c0d54e7a40b04c4cb37ab2fc6f826d1d794a3132d4fb7710fe9b6a8507c72556"
     }
    ]
   },
@@ -2717,8 +2717,8 @@
      "imageId": 41245,
      "width": 900,
      "height": 600,
-     "bytes": 75690,
-     "sha256": "417c6adaaa4b20e456ff592a66635b20f8a575990ec309ff1af0dd581848df49"
+     "bytes": 78278,
+     "sha256": "a2f3c890d7711a352d590a5f0e9265ada5ecc915d4e19255a624b9aad28f5003"
     },
     {
      "file": "images/plates/poison-sumac/tove_001_lvd.jpg",
@@ -2788,8 +2788,8 @@
      "imageId": 32588,
      "width": 600,
      "height": 900,
-     "bytes": 59273,
-     "sha256": "2394e92f39eb2b7d2a627e72a350f9117ce623e51cdb1cee95cc93d3a463d000"
+     "bytes": 56288,
+     "sha256": "d7e7cb21a725a482a807ba5f74ed3d82bb61a3ad043765e76bf85a33c8a121e1"
     },
     {
      "file": "images/plates/broadleaf-plantain/plma2_002_lhp.jpg",
@@ -2801,10 +2801,10 @@
      "provider": "USDA NRCS Wetland Science Institute (WSI) - Western wetland flora: Field office guide to plant species (1992)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 32585,
-     "width": 900,
-     "height": 600,
-     "bytes": 84568,
-     "sha256": "92e9bbc7ba6d03ea6db62883edbe68d7834b10389baecdc0f9dc3f103f6d6a98"
+     "width": 800,
+     "height": 533,
+     "bytes": 79395,
+     "sha256": "118a0f91cde7f674026cec7003b4ff711d56ce2032cdf16c564980110d8a990f"
     },
     {
      "file": "images/plates/broadleaf-plantain/plma2_001_lvd.jpg",
@@ -2874,8 +2874,8 @@
      "imageId": 9102,
      "width": 600,
      "height": 900,
-     "bytes": 37939,
-     "sha256": "c358101a01dff4e6b0445b9a5818e0036f1f7b4398e2cdb93266b4617adab23e"
+     "bytes": 35551,
+     "sha256": "f2e042af43531fcfb0c6b2801d24a14aef60cf8b179cac71d5edbbc4d6b23d4d"
     },
     {
      "file": "images/plates/lambs-quarters/chal7_001_lvd.jpg",
@@ -2889,8 +2889,8 @@
      "imageId": 45505,
      "width": 600,
      "height": 900,
-     "bytes": 77452,
-     "sha256": "feec9b8a72e0d1da902cca9c28f7984ade6b8f9a60e21e6e2b658989ea94bba0"
+     "bytes": 79849,
+     "sha256": "1873172b4482e3ef01c02028e7d3e8095b294ec55acf084b8db7bf76f05ff6ae"
     }
    ]
   },
@@ -2917,8 +2917,8 @@
      "imageId": 49227,
      "width": 600,
      "height": 900,
-     "bytes": 75754,
-     "sha256": "35541fc5d422a37f15c8c02a8d00f260987a709105cdbb21ad3d06419387b49d"
+     "bytes": 70835,
+     "sha256": "c96cf9f22ae3d9ab0ac39ed82e058d01f1e58eff016a7512ae31af5dde6004b0"
     }
    ]
   },
@@ -2945,8 +2945,8 @@
      "imageId": 1911,
      "width": 600,
      "height": 900,
-     "bytes": 62470,
-     "sha256": "f7a2dc00321e9fcd40be5d8e33447be65bed95e523e09634b349457f9840a746"
+     "bytes": 58830,
+     "sha256": "642114f987aa28a1453060a00e0546628ac6c832485ef4011f028d31153d0556"
     },
     {
      "file": "images/plates/redroot-amaranth/amre_001_lvd.jpg",
@@ -2958,10 +2958,10 @@
      "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 44206,
-     "width": 600,
-     "height": 900,
-     "bytes": 78298,
-     "sha256": "1888031e50ccb2108757211aaaf3dfcc7c990f6f7fdfbdeecae8ff7998a9f06f"
+     "width": 533,
+     "height": 800,
+     "bytes": 76249,
+     "sha256": "b780b73af7d72ee204b56445548023ca72993b0aac32bf636cad6d6752527df3"
     }
    ]
   },
@@ -2988,8 +2988,8 @@
      "imageId": 42228,
      "width": 600,
      "height": 900,
-     "bytes": 58795,
-     "sha256": "cf4424abc6765f0a092ed7dbff31523179503634f7653c96a064cdd8a24ad52b"
+     "bytes": 52209,
+     "sha256": "cf6fd5851044ecc1bffc10bf23f44d98a56d24e0b65e8a1cf951aea663ed3807"
     },
     {
      "file": "images/plates/stinging-nettle/urdi_008_lhp.jpg",
@@ -3003,8 +3003,8 @@
      "imageId": 42229,
      "width": 900,
      "height": 600,
-     "bytes": 76774,
-     "sha256": "3fc598fefc3fe0a5e3f6941dd26752723029622d14695ea125c790ea1c9624ac"
+     "bytes": 69820,
+     "sha256": "a9f1c26c465e75aada2ef9da4710751330b55d6226f2c6e604fd6cf1290eb35e"
     },
     {
      "file": "images/plates/stinging-nettle/urdi_011_lhp.jpg",
@@ -3018,8 +3018,8 @@
      "imageId": 42232,
      "width": 900,
      "height": 600,
-     "bytes": 66802,
-     "sha256": "dd2c10b1dddda2bec3acc3c2c2e2a4524cf0540b289e454b406005f08c187312"
+     "bytes": 58778,
+     "sha256": "08fcb69dc01e9712312e57065b51cb3b1589decc96187f89c5e478c168e4b64f"
     }
    ]
   },
@@ -3046,8 +3046,8 @@
      "imageId": 22103,
      "width": 900,
      "height": 600,
-     "bytes": 60201,
-     "sha256": "f6a1e55e382d1278970e6464123927773da101e93388469e8279361ea88dfc65"
+     "bytes": 56853,
+     "sha256": "197834142f592537300a25ed887bab183c67f6eddd6d000960a569d53e4e9e85"
     },
     {
      "file": "images/plates/wood-nettle/laca3_003_lvd.jpg",
@@ -3061,8 +3061,8 @@
      "imageId": 47470,
      "width": 600,
      "height": 900,
-     "bytes": 75998,
-     "sha256": "4869148d07e3a0af8ec287d3765349bfc75f069f4eb46c5551d61e16ae3f56c5"
+     "bytes": 71333,
+     "sha256": "a2cdf8acf4a8f7fc60d8eaba0399769f22901d94412b94b9ce852650355649a8"
     }
    ]
   },
@@ -3089,8 +3089,8 @@
      "imageId": 50955,
      "width": 600,
      "height": 900,
-     "bytes": 67231,
-     "sha256": "3eff6bceee58c2b94605f2fb62570adf89e36351957c419c568441c1bf4eb077"
+     "bytes": 62688,
+     "sha256": "8d6c9046c55562f915dbc7d5061e3aed606c9484cc90b9a94bc66882a01aebc2"
     }
    ]
   },
@@ -3117,8 +3117,8 @@
      "imageId": 36343,
      "width": 900,
      "height": 600,
-     "bytes": 71108,
-     "sha256": "b69ce3df841d94de48a615b9775809f4152a088a2f3aa2c026a8ac4555e1e5b9"
+     "bytes": 67503,
+     "sha256": "55f74dfbec970fc1d3e70c62600add05b4a2c074a4466279671dfc7732455a58"
     },
     {
      "file": "images/plates/curly-dock/rucr_002_lvp.jpg",
@@ -3132,8 +3132,8 @@
      "imageId": 36342,
      "width": 600,
      "height": 900,
-     "bytes": 58289,
-     "sha256": "f92c5d6f661c13e59733804533561d2e4b33281507101ab9de2d58b5a1c7f72c"
+     "bytes": 54383,
+     "sha256": "1355df1f6b058ee44aa6cff222629b85b361284d6b4b276920caaa23284b48c3"
     },
     {
      "file": "images/plates/curly-dock/rucr_001_lvd.jpg",
@@ -3173,10 +3173,10 @@
      "provider": "USDA NRCS Wetland Science Institute (WSI) - Western wetland flora: Field office guide to plant species (1992)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 36251,
-     "width": 900,
-     "height": 600,
-     "bytes": 82251,
-     "sha256": "ab1e6790b73305c5d858899bf84a5b53acca3646bc64496332bca66281219892"
+     "width": 800,
+     "height": 533,
+     "bytes": 74583,
+     "sha256": "a5703b6f76903af038b11f2d274f5a48ee1d457aecf8aacd359ed1e2551f06f4"
     },
     {
      "file": "images/plates/sheep-sorrel/ruac3_002_lvp.jpg",
@@ -3190,8 +3190,8 @@
      "imageId": 36250,
      "width": 600,
      "height": 900,
-     "bytes": 77240,
-     "sha256": "2f4f50da8e62d9bab2cee9d065c81b748fa0d553ba3ffa71b8c9ff0e7c00d7b9"
+     "bytes": 75572,
+     "sha256": "863ad7038bcaba30435d86a61ad3c36263ecfd57174812775b245afa07fb6f2a"
     },
     {
      "file": "images/plates/sheep-sorrel/ruac3_001_lvd.jpg",
@@ -3205,8 +3205,8 @@
      "imageId": 49630,
      "width": 600,
      "height": 900,
-     "bytes": 75715,
-     "sha256": "59db74fd63926286c8d8db3d4123013dd9f11164ce65c439a1d03cf8d357a348"
+     "bytes": 78138,
+     "sha256": "e53af6a20dc22d5b03652c76816303321e60979283910421645801a34cd59fb8"
     }
    ]
   },
@@ -3233,8 +3233,8 @@
      "imageId": 44096,
      "width": 600,
      "height": 900,
-     "bytes": 74080,
-     "sha256": "830305b0272fd54a40494cd49bdfde877be309d9e8e338d81a70cc8f666f42c0"
+     "bytes": 76548,
+     "sha256": "4f907f1a5984e1c109238b47149d813fe127d82135cf91e6380a2031e74c04c3"
     }
    ]
   },
@@ -3261,8 +3261,8 @@
      "imageId": 6503,
      "width": 600,
      "height": 900,
-     "bytes": 51832,
-     "sha256": "5028734973ce7aca9c753b8f2c8ce34b2066706a2e54351e8832c0bf868beac5"
+     "bytes": 48790,
+     "sha256": "db3b25a0e793c37b49528c6646794a1aedee8d6365704b583c5dc867c03f1676"
     },
     {
      "file": "images/plates/shepherds-purse/cabu2_002_lhp.jpg",
@@ -3276,8 +3276,8 @@
      "imageId": 6504,
      "width": 900,
      "height": 600,
-     "bytes": 62216,
-     "sha256": "2792075c979b6b91823cfa6971fb6b4017dc1a4540025beaad4483fde8de49da"
+     "bytes": 58803,
+     "sha256": "e380a76628c0e6b4c4c394622f805f9acd418de592586e9a9b6af8dd9bbed431"
     },
     {
      "file": "images/plates/shepherds-purse/bubu3_001_lvd.jpg",
@@ -3291,8 +3291,8 @@
      "imageId": 44949,
      "width": 600,
      "height": 900,
-     "bytes": 78787,
-     "sha256": "585e9808b87830e7ab0c6e363914197b0c72f287f32a936157eeca30b9169fcb"
+     "bytes": 73469,
+     "sha256": "33f65eea92b3c4ac19f9a3ebb64353975fcb2b977de5a768df493a1d28c735e4"
     }
    ]
   },
@@ -3319,8 +3319,8 @@
      "imageId": 50850,
      "width": 600,
      "height": 900,
-     "bytes": 78125,
-     "sha256": "f24277a134450da80dd09c16c23e149ce403e9bc11d91653d983799d34a59e06"
+     "bytes": 74566,
+     "sha256": "57b60ae67d034c95ef04c64d2852f614f7fd2d4cb333d231bdc879ea47d66e93"
     }
    ]
   },
@@ -3347,8 +3347,8 @@
      "imageId": 50639,
      "width": 600,
      "height": 900,
-     "bytes": 76782,
-     "sha256": "5995ade8496aa0d1c7815a8ffcf2c8fd9801e74e78108791286fabf67460283b"
+     "bytes": 71681,
+     "sha256": "7b52101304c4325e833170629da54fa96c5ae52d6d7406f37ebc89727351dc9c"
     }
    ]
   },
@@ -3375,8 +3375,8 @@
      "imageId": 41819,
      "width": 600,
      "height": 900,
-     "bytes": 49065,
-     "sha256": "7fcd2312447557e94315843eca619d6cc13d03463477ff0ac609831cbfe87211"
+     "bytes": 46344,
+     "sha256": "5e8a6c3f0f499ed9447a1a24c2090dbb73bf65c4d0280c221300a601f7e7d04a"
     },
     {
      "file": "images/plates/red-clover/trpr2_001_lvd.jpg",
@@ -3390,8 +3390,8 @@
      "imageId": 50629,
      "width": 600,
      "height": 900,
-     "bytes": 79515,
-     "sha256": "36cffd4d3c9fb6d7324de7ba754298eb1a0739a024ef507f41ac3db137cf4b3d"
+     "bytes": 76128,
+     "sha256": "beb6ecea590f507d8f9959f4564958fe2e75c096c5b77875b7e0f1707f8388d2"
     }
    ]
   },
@@ -3446,8 +3446,8 @@
      "imageId": 44460,
      "width": 600,
      "height": 900,
-     "bytes": 78956,
-     "sha256": "8375f26030763c41e3809148dc8209c1151ed0c4740bbccf4ec490f5b76058e0"
+     "bytes": 77219,
+     "sha256": "eb59c27c611f5811d9339cd7a0c878fdde9b24e03aa9e04d2b0feda3acc842cf"
     }
    ]
   },
@@ -3502,8 +3502,8 @@
      "imageId": 47498,
      "width": 600,
      "height": 900,
-     "bytes": 78737,
-     "sha256": "6cabfd1f8617ea08e46bd2814724a2bf3b3d5d3a0ea1a9ffeed8bf383bc707c6"
+     "bytes": 79340,
+     "sha256": "e26960ce3fabd52c6014675d6a9ab5888bffc7794808100c214bddbbbf052178"
     }
    ]
   },
@@ -3528,10 +3528,10 @@
      "provider": null,
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 5924,
-     "width": 600,
-     "height": 900,
-     "bytes": 83665,
-     "sha256": "b555d3a94272c1ed4810e946d6f80d2d2b0d9109666de0d3367828842cc33117"
+     "width": 533,
+     "height": 800,
+     "bytes": 79811,
+     "sha256": "98595db4672d75a5c26ca3da13bdda416d5f55ec556574af71ee2ecd9d8f70ba"
     },
     {
      "file": "images/plates/black-mustard/brni_001_lvd.jpg",
@@ -3545,8 +3545,8 @@
      "imageId": 44912,
      "width": 600,
      "height": 900,
-     "bytes": 76320,
-     "sha256": "3482f3047f0eadaa0e733844aa28fc1278bd0d97f3401538f4fc919b2b003940"
+     "bytes": 78898,
+     "sha256": "b19392b28894ec94ca4bd42eab5ede4a16472df5f8cb8278ed9cc286ff73d803"
     }
    ]
   },
@@ -3573,8 +3573,8 @@
      "imageId": 26918,
      "width": 900,
      "height": 600,
-     "bytes": 52499,
-     "sha256": "fc492348429651e82487ecb8d69258c51918671451fb962fe3e186775fb81fa5"
+     "bytes": 49865,
+     "sha256": "e3c6f8d174636e1552d1cad932f72a5e2ae598b479a2c7d38e7bc24c1089ff21"
     },
     {
      "file": "images/plates/watercress/rona2_002_lvd.jpg",
@@ -3616,8 +3616,8 @@
      "imageId": 50149,
      "width": 600,
      "height": 900,
-     "bytes": 78724,
-     "sha256": "03352cf8e54ec2457f84ab900867a52b9f55acc566206056eb56bdb777109043"
+     "bytes": 75404,
+     "sha256": "a82ffe7fa46b30bc3adc1b80b0b06287003681bd9c5bc424a1e8dd6e1275b767"
     }
    ]
   },
@@ -3644,8 +3644,8 @@
      "imageId": 22336,
      "width": 600,
      "height": 900,
-     "bytes": 44441,
-     "sha256": "ea92ac6c70ec66bc55b5871a945cb62ccff12dac89f8bb59242039b5a7fe4574"
+     "bytes": 42057,
+     "sha256": "32b84ef0d85117b0db8a19e60324472f404a1dfad93f4e5219a04ebf1c4b007d"
     },
     {
      "file": "images/plates/prickly-lettuce/lase_001_lvp.jpg",
@@ -3659,8 +3659,8 @@
      "imageId": 22335,
      "width": 600,
      "height": 900,
-     "bytes": 37764,
-     "sha256": "1eba1d208f112bd3e7b898a033b1ae938da9443691961ba98f5c3e7600130c9d"
+     "bytes": 35595,
+     "sha256": "3b7be99d5bde7c5cba2ad40fd16f67401154629eb135f21b1dc186d5d8a3edee"
     },
     {
      "file": "images/plates/prickly-lettuce/lase_005_lvd.jpg",
@@ -3674,8 +3674,8 @@
      "imageId": 47505,
      "width": 600,
      "height": 900,
-     "bytes": 76702,
-     "sha256": "f4fbb9b516c61b99df8b5b1dc0ea4ab106e21404134adae87759031c7663161b"
+     "bytes": 72148,
+     "sha256": "82ead658b5d14b08c3e6224732407b95d4e765a97a4272b9dc20156078925ce2"
     }
    ]
   },
@@ -3702,8 +3702,8 @@
      "imageId": 10451,
      "width": 900,
      "height": 600,
-     "bytes": 79641,
-     "sha256": "35076a59115cc99c9c8b78dfc74c120acdf134dc564c944610ad8cbe9ad5c432"
+     "bytes": 77265,
+     "sha256": "6bb053341180e7fbc0182af5b59c3d147aa69d6c26947063991ea8c5488f8d9f"
     },
     {
      "file": "images/plates/spring-beauty/clvi3_001_lvd.jpg",
@@ -3717,8 +3717,8 @@
      "imageId": 45690,
      "width": 600,
      "height": 900,
-     "bytes": 67050,
-     "sha256": "692df389b53b122d6c781427f4c8e02c66fadd648f6165c2d93bca0f9390a558"
+     "bytes": 62585,
+     "sha256": "85c260575cc41ea307adc63f8a56d0197759f258a80ea44ccb8152e461549173"
     }
    ]
   },
@@ -3745,8 +3745,8 @@
      "imageId": 4264,
      "width": 900,
      "height": 600,
-     "bytes": 64165,
-     "sha256": "b2143dfe31b563a2feea1d3394cad3b5c058b83f83ea6bac93c9fa90be5a783a"
+     "bytes": 60637,
+     "sha256": "8f76672b79f754a65535d3ecd438c3e6daffbd5fe71056d71e65e46767735fd1"
     },
     {
      "file": "images/plates/wild-asparagus/asof_001_lvd.jpg",
@@ -3760,8 +3760,8 @@
      "imageId": 44607,
      "width": 600,
      "height": 900,
-     "bytes": 79899,
-     "sha256": "96492111349aada9f18fcbc77fce74841048dc4136f150ead9a06b5db3fbf0f5"
+     "bytes": 74683,
+     "sha256": "615154bab2c3274ba80bfa1f4c7167eb97db106b9c5d36afb5df09bdd0912717"
     }
    ]
   },
@@ -3788,8 +3788,8 @@
      "imageId": 25408,
      "width": 900,
      "height": 600,
-     "bytes": 77025,
-     "sha256": "e04023b0008efa270c9b714f70dda4417c020119c6a26440aacc1b7a8d8a780b"
+     "bytes": 73008,
+     "sha256": "e3f5eb36f6049c6b6f2243b083c35de1a245f3cd3e4bc61e0d83e906951c31fe"
     },
     {
      "file": "images/plates/ostrich-fern/mast_001_lvd.jpg",
@@ -3801,10 +3801,10 @@
      "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 47877,
-     "width": 600,
-     "height": 900,
-     "bytes": 82792,
-     "sha256": "8acd6dd52ec34f2b54e96c7ac17cf3fec12a3d3b5b62cff668047c3da8aec202"
+     "width": 533,
+     "height": 800,
+     "bytes": 75179,
+     "sha256": "df58ca5fe87ba96091f40d5003a7a04a673c66cf417515bcbf2472457e7f4108"
     }
    ]
   },
@@ -3831,8 +3831,8 @@
      "imageId": 42068,
      "width": 600,
      "height": 900,
-     "bytes": 28578,
-     "sha256": "744306a292d3f05d7764cb776a2d6ebe1eee8e245fdd50dc40ffedddebb9a94a"
+     "bytes": 27503,
+     "sha256": "fa47ad0286c5b4a547b9ec41c98cff2661c372471693a7fd62974235bba0b308"
     },
     {
      "file": "images/plates/broadleaf-cattail/tyla_010_lvp.jpg",
@@ -3846,8 +3846,8 @@
      "imageId": 42076,
      "width": 600,
      "height": 900,
-     "bytes": 68478,
-     "sha256": "a8eb0b05f37839c46d2069fceaa1779591962b18e4d26fbff8b46f06ddb2a778"
+     "bytes": 67166,
+     "sha256": "accf57ba0c977f791eab33ca0bdc16479beb6d71f896beb6b94a6aee35d041aa"
     },
     {
      "file": "images/plates/broadleaf-cattail/tyla_011_lvp.jpg",
@@ -3859,10 +3859,10 @@
      "provider": null,
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 42077,
-     "width": 600,
-     "height": 900,
-     "bytes": 95182,
-     "sha256": "160212d68624a81d1dd9463d2174e2a8f7425b8021c344eeaf8d66a911fe1899"
+     "width": 480,
+     "height": 720,
+     "bytes": 77356,
+     "sha256": "201551df9596c0b5baf7988bc33ba202077404dfefa34c84848a87e2f70adfcb"
     }
    ]
   },
@@ -3889,8 +3889,8 @@
      "imageId": 42060,
      "width": 220,
      "height": 330,
-     "bytes": 7409,
-     "sha256": "ecc30067c7330654986389a7eb0070f2777e91239e7a3a737d495be41cd1095d"
+     "bytes": 6952,
+     "sha256": "294fc58285a652626f7488364db99f62de9e3f9281fdac24e5755008220d7a07"
     },
     {
      "file": "images/plates/narrowleaf-cattail/tyan_003_svp.jpg",
@@ -3904,8 +3904,8 @@
      "imageId": 42061,
      "width": 220,
      "height": 330,
-     "bytes": 15919,
-     "sha256": "921c4b9490a7b4d3ec169e188c932833084aa222c432df8cae1afcf83c50e0dd"
+     "bytes": 15307,
+     "sha256": "e609e477b4f0c21361788f6c733181d95aa8454982b1a1541289396a4158a661"
     },
     {
      "file": "images/plates/narrowleaf-cattail/tyan_001_lvd.jpg",
@@ -3917,10 +3917,10 @@
      "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 50673,
-     "width": 600,
-     "height": 900,
-     "bytes": 78144,
-     "sha256": "c0d2ad883146f879270fe4afec3e95a99db64628683afea483e7705e858f0f23"
+     "width": 533,
+     "height": 800,
+     "bytes": 75579,
+     "sha256": "f45d1318fcaf1e3d54c18fb43951ecd985ceb733c55c0dbb3c599443eff76bc7"
     }
    ]
   },
@@ -3947,8 +3947,8 @@
      "imageId": 19739,
      "width": 330,
      "height": 220,
-     "bytes": 18596,
-     "sha256": "4552982c2c2c89d3d1a7d4f19a5453dc81c705a150d5c68799632e957a02cd5e"
+     "bytes": 17815,
+     "sha256": "f9f42918169a4ac0570bec98470d5ee8d1a564cd57d78e20d0cdd0885c00412a"
     },
     {
      "file": "images/plates/jerusalem-artichoke/hetu_006_lhp.jpg",
@@ -3962,8 +3962,8 @@
      "imageId": 19735,
      "width": 900,
      "height": 600,
-     "bytes": 62018,
-     "sha256": "4b2a0d7d83288c31fe5be51c053abce8f3e3213fc9a034670c7f6b6446a46a51"
+     "bytes": 58927,
+     "sha256": "0f8e4dddaf7d7fcc38f0129335f6812fd118da0e5594160136401e4eaea693a7"
     },
     {
      "file": "images/plates/jerusalem-artichoke/heto4_001_lvd.jpg",
@@ -3977,8 +3977,8 @@
      "imageId": 47024,
      "width": 600,
      "height": 900,
-     "bytes": 78834,
-     "sha256": "1afe12d7b8c0b4e68fbb31e2d1e2b5ec84ccd93dd45f32e68cf34d229b592a82"
+     "bytes": 77749,
+     "sha256": "882935f868af96df3adf353ef0c489c54ba5fed6dc478ccbfa546b8bcb202255"
     }
    ]
   },
@@ -4005,8 +4005,8 @@
      "imageId": 19220,
      "width": 330,
      "height": 220,
-     "bytes": 21716,
-     "sha256": "27c9a6c9f4dd08148007f5a27ff1664890857d5a57aacf4a852805d076184425"
+     "bytes": 20950,
+     "sha256": "b2705e3012eaa8ba0e7d4f71a87395c9400e06c3606aa68a05abfcb92a47e93f"
     },
     {
      "file": "images/plates/common-sunflower/hean3_002_lhp.jpg",
@@ -4020,8 +4020,8 @@
      "imageId": 19215,
      "width": 900,
      "height": 600,
-     "bytes": 50959,
-     "sha256": "25b2bdc262c8e466dc7d8ef987971f54cedecc28fd6337021e9dd8165f3c15de"
+     "bytes": 48140,
+     "sha256": "da8f307318bb0839175694f4de1bdc730a21aabcaceeccb918fccc501b273f2e"
     },
     {
      "file": "images/plates/common-sunflower/hean3_001_lvd.jpg",
@@ -4033,10 +4033,10 @@
      "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 46947,
-     "width": 600,
-     "height": 900,
-     "bytes": 83510,
-     "sha256": "69b693eeaeabf5001e1a2822f4370652730912baec6479812825ec860efeebf2"
+     "width": 533,
+     "height": 800,
+     "bytes": 78403,
+     "sha256": "7f073ecf5c481fb7055779a56a7ec94303385386aae03ba1bb7db51283aa0c71"
     }
    ]
   },
@@ -4063,8 +4063,8 @@
      "imageId": 2439,
      "width": 900,
      "height": 600,
-     "bytes": 64440,
-     "sha256": "8ccb50c5e924ed0195fb41e1befbfc1a735caa78168cae4c31accea93d77e618"
+     "bytes": 60449,
+     "sha256": "0eae8d0ec7207ccc36da033429c25498e2f865e0cb5ee80654ad230ffd187fc6"
     },
     {
      "file": "images/plates/groundnut/apam_005_lvd.jpg",
@@ -4078,8 +4078,8 @@
      "imageId": 44328,
      "width": 600,
      "height": 900,
-     "bytes": 76656,
-     "sha256": "7e3a4d5db8c976a34e925a3db4dad89194ed678a18dda6191399306afaa5d05b"
+     "bytes": 71999,
+     "sha256": "0c1e7f3c74e0fc2df0b757105af944623710935357ef62ca30707e259fbade58"
     }
    ]
   },
@@ -4106,8 +4106,8 @@
      "imageId": 37011,
      "width": 600,
      "height": 900,
-     "bytes": 51739,
-     "sha256": "d150623bdf084106949714571c1fc9e43c8e1b3dcc5801715878dc091fd6306f"
+     "bytes": 48561,
+     "sha256": "21644aea52ca029fca8a0889fefcd2d3fa13cefafc3b5346f11a51e98820d949"
     },
     {
      "file": "images/plates/broadleaf-arrowhead/sala2_003_lhp.jpg",
@@ -4121,8 +4121,8 @@
      "imageId": 37012,
      "width": 900,
      "height": 600,
-     "bytes": 39867,
-     "sha256": "81fae6fd2066c648e3d9511d15d4b0f3216aad215709a0df5483067114a673e6"
+     "bytes": 38403,
+     "sha256": "9ee4470390d80d5abf086692c0aeed8dc28025f3e2fbc7b824f52da9d8fba508"
     },
     {
      "file": "images/plates/broadleaf-arrowhead/sala2_001_lvd.jpg",
@@ -4136,8 +4136,8 @@
      "imageId": 49769,
      "width": 600,
      "height": 900,
-     "bytes": 76083,
-     "sha256": "f9ba8d3b5acdef3e3c6854db90cbcc89897e18198ef32b387f85e2a36755b609"
+     "bytes": 78508,
+     "sha256": "989c489cda3af8de9ca14b08a5945613e8e743a7cc370424ef8cf87ee75137b2"
     }
    ]
   },
@@ -4164,8 +4164,8 @@
      "imageId": 1319,
      "width": 330,
      "height": 220,
-     "bytes": 14140,
-     "sha256": "f7e7840baeac28dbb98413f5bb97f66fb7e2a9232342f0aae9dbe949225ec4b0"
+     "bytes": 13512,
+     "sha256": "e3ff7c6fb438e0832bdc456c26e9bdefa09c66b63e7cdd867f6a7853e928607c"
     },
     {
      "file": "images/plates/meadow-garlic/alca3_001_lvd.jpg",
@@ -4179,8 +4179,8 @@
      "imageId": 44105,
      "width": 600,
      "height": 900,
-     "bytes": 78133,
-     "sha256": "ddda3ad0ffb9660026cf800d4f28106ca195ae4bebf69b49f62a2d18c2233fdc"
+     "bytes": 76418,
+     "sha256": "938fcff2d28d8524abcfbf7076f1c1facf95ab1f073eebff6d5912bce3929cbf"
     }
    ]
   },
@@ -4235,8 +4235,8 @@
      "imageId": 44108,
      "width": 600,
      "height": 900,
-     "bytes": 79125,
-     "sha256": "ddd45bf551cbb8327c20360b27f59697579224e4d83ee6fde1d69a6fe0a50589"
+     "bytes": 74976,
+     "sha256": "5986bb1d52ac01e12273c48ca2881179c2305fc40ae5778ec05c4f8680ccd4c5"
     }
    ]
   },
@@ -4263,8 +4263,8 @@
      "imageId": 1648,
      "width": 220,
      "height": 330,
-     "bytes": 26556,
-     "sha256": "fa4add5253c4bdda05c2093cb5850c48b59959888a28c55a7f6d367ff9bdbda1"
+     "bytes": 25407,
+     "sha256": "4321bd8b64248d4cd64a53f2cc8ef58e64b39ec165d584207a2a9c0f71894f0c"
     },
     {
      "file": "images/plates/textile-onion/alre5_001_lvd.jpg",
@@ -4276,10 +4276,10 @@
      "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 44149,
-     "width": 600,
-     "height": 900,
-     "bytes": 85676,
-     "sha256": "1405a6dce77474a7f6aac89a193f420321ca11cb5366a2cbd7dd4ea0fb1482b2"
+     "width": 533,
+     "height": 800,
+     "bytes": 73623,
+     "sha256": "a1044036766c7efd0770e4b5ccb3cf8e5e39456fe59a55dae4c2e713cef85b15"
     }
    ]
   },
@@ -4306,8 +4306,8 @@
      "imageId": 44159,
      "width": 600,
      "height": 900,
-     "bytes": 78490,
-     "sha256": "f2c70dbd89d8717d3ed620f24885a455fc03eceeb65fd12a29bf45ccda5385b4"
+     "bytes": 77456,
+     "sha256": "916f34d93acb2590df84dc221e5e96e0bf41774a3aac84f6503abce5ea3fc198"
     }
    ]
   },
@@ -4334,8 +4334,8 @@
      "imageId": 12490,
      "width": 900,
      "height": 600,
-     "bytes": 74405,
-     "sha256": "4e7e5edd7b6ab6075d51f89c420e90ccdefaf3975df29c46cfc7bc425ffdec2b"
+     "bytes": 79134,
+     "sha256": "b0b0564b72d88967fcf04102a6296def934f9adddb56f176a1f79d47de501e22"
     },
     {
      "file": "images/plates/wild-carrot/daca6_015_lhp.jpg",
@@ -4349,8 +4349,8 @@
      "imageId": 12493,
      "width": 900,
      "height": 600,
-     "bytes": 76773,
-     "sha256": "65007a82a111da4abc33ecb3f4daef9b4e391760e70bb6cf8cb12e6088cc888f"
+     "bytes": 68266,
+     "sha256": "f8534d93810ea933c03d2e248ffb2123e4aa9d21b085c0b5c629553babede96d"
     },
     {
      "file": "images/plates/wild-carrot/daca6_018_lhp.jpg",
@@ -4364,8 +4364,8 @@
      "imageId": 12496,
      "width": 900,
      "height": 600,
-     "bytes": 74379,
-     "sha256": "e978b6887bab7b6a780138d5fe1b34604ed4900883e95c5fbfa5d0c3174424bd"
+     "bytes": 78475,
+     "sha256": "61605ee0b5cdff0da3dd5b449c6751ecd250dd8ae58a8fdff9e788963e0d79aa"
     }
    ]
   },
@@ -4392,8 +4392,8 @@
      "imageId": 46707,
      "width": 600,
      "height": 900,
-     "bytes": 77312,
-     "sha256": "698adf07a3e671be2748287357c969ce8ab85e748bd256ba8b5bac570186944e"
+     "bytes": 75454,
+     "sha256": "d70c4737a6dc7af1d0b0bd58ded9a03493ce49cedb8db0014930173f73330528"
     }
    ]
   },
@@ -4420,8 +4420,8 @@
      "imageId": 36265,
      "width": 900,
      "height": 600,
-     "bytes": 72672,
-     "sha256": "d4f66d486deab9108af78f9f51d466a9e3b0cee2f09aee174d01d31998205170"
+     "bytes": 65549,
+     "sha256": "24bce7ad834a977a52a8a49bd527e476a1e39f5ac6f39ad04106874cb005240f"
     },
     {
      "file": "images/plates/common-blackberry/rual_004_lvp.jpg",
@@ -4450,8 +4450,8 @@
      "imageId": 49632,
      "width": 600,
      "height": 900,
-     "bytes": 77337,
-     "sha256": "8b10164db1a4debbb893873ffae2003bd35eeef4bb8c3275c56698d49130e515"
+     "bytes": 79754,
+     "sha256": "2a8c240870f73e84489596a16076227d71bcea091027e86357df4d409e59b15c"
     }
    ]
   },
@@ -4478,8 +4478,8 @@
      "imageId": 36366,
      "width": 900,
      "height": 600,
-     "bytes": 61182,
-     "sha256": "2c3f69235f83ad695e4188d18530d5e5a03344d924dd8940dcfbb1eb9d0ebf2d"
+     "bytes": 57969,
+     "sha256": "7ed155d68e2a1e9b9d2f2445d19b0c4c9b6a9cc2fc2959a35f9aa6b51ae0e2e5"
     },
     {
      "file": "images/plates/northern-dewberry/rufl_001_lhp.jpg",
@@ -4493,8 +4493,8 @@
      "imageId": 36371,
      "width": 900,
      "height": 600,
-     "bytes": 41832,
-     "sha256": "c0559652371ae90e46d3b97ed65c5b994633c61bb83fd2b0b77f66bf0e4bb831"
+     "bytes": 39595,
+     "sha256": "45f4a4443ca561bbdb3e4e0230db6ba9d656c7b5cd8f6b33effb5511dd56e43b"
     },
     {
      "file": "images/plates/northern-dewberry/rufl_002_lvd.jpg",
@@ -4508,8 +4508,8 @@
      "imageId": 49654,
      "width": 600,
      "height": 900,
-     "bytes": 66170,
-     "sha256": "c7afcb3cb257ea5c68f8372b4c4e2c7c0b7ce1e3157d245124d0adca53220d6e"
+     "bytes": 62199,
+     "sha256": "b57351c08e27414563b490647bd2e6d554734b85d335f732754588c82688f6fe"
     }
    ]
   },
@@ -4536,8 +4536,8 @@
      "imageId": 36493,
      "width": 900,
      "height": 600,
-     "bytes": 50829,
-     "sha256": "d5d72cb4e5ef79e2507a084aee44815078a9ac01fb378f5259db0c636d4eab68"
+     "bytes": 48231,
+     "sha256": "109b74643b30fb83a48131ca91c4392658a9ee080d317a91159aa366a081a2b4"
     },
     {
      "file": "images/plates/black-raspberry/ruoc_001_lvd.jpg",
@@ -4579,8 +4579,8 @@
      "imageId": 36433,
      "width": 900,
      "height": 600,
-     "bytes": 42909,
-     "sha256": "371a4eadf8e264e9144893796820c97c0d7e7a9bfd8918100876b4f90c465cf0"
+     "bytes": 40688,
+     "sha256": "169efc748cfc8bd02ad629680c64559632be3e6f87103394c8ad497a348590da"
     },
     {
      "file": "images/plates/red-raspberry/ruid_005_lvd.jpg",
@@ -4594,8 +4594,8 @@
      "imageId": 49663,
      "width": 600,
      "height": 900,
-     "bytes": 79958,
-     "sha256": "9c46eccbded0a912cf85f8e5dee77cd0d8217dfa9bb3cfaa6d3ce1287ea1b4cb"
+     "bytes": 78667,
+     "sha256": "a490d38e109cf2a1127abacaff62d0cf4c85a0acf2aed482ac61f7f9718bd854"
     }
    ]
   },
@@ -4622,8 +4622,8 @@
      "imageId": 49681,
      "width": 600,
      "height": 900,
-     "bytes": 76649,
-     "sha256": "03c269c68da71bbd4245a0d5fe13a141912c6d555269347cb654f402c82efadb"
+     "bytes": 74864,
+     "sha256": "7dac372ee49a1cc74a9e4b4118b836c4736cbbe6f8fa8a1c8e490145b5863ab3"
     }
    ]
   },
@@ -4651,8 +4651,8 @@
      "imageId": 26636,
      "width": 600,
      "height": 900,
-     "bytes": 75972,
-     "sha256": "c7550e61400cc5ad03e3cb1658f5b90213c7d47d60b0b08c3e3b89a08c1018fe"
+     "bytes": 78660,
+     "sha256": "23676c2cf47ec92cee535dc2fecea166d9cd4378aa37e359b1b74706b456206f"
     },
     {
      "file": "images/plates/red-mulberry/moru2_005_lvp.jpg",
@@ -4709,8 +4709,8 @@
      "imageId": 26438,
      "width": 600,
      "height": 900,
-     "bytes": 71879,
-     "sha256": "01665445d546315e5710cd30e40e2e84198c99fcf3aafdd8fa1541b7301b6c0e"
+     "bytes": 79545,
+     "sha256": "3105f8f4a33a44fb52232becf01685494622843fc70b6823554ee938e4008e61"
     },
     {
      "file": "images/plates/white-mulberry/moal_001_lvd.jpg",
@@ -4724,8 +4724,8 @@
      "imageId": 48030,
      "width": 600,
      "height": 900,
-     "bytes": 73918,
-     "sha256": "fd5be202a31c7db70f55674e0a6f15b1ebf68fd6633b40d10821187d5c07206e"
+     "bytes": 69091,
+     "sha256": "52e540c7fb0e79879ac53ce1f5760ec96aa68c1e54eb89061eaedcb58223aa39"
     }
    ]
   },
@@ -4780,8 +4780,8 @@
      "imageId": 42345,
      "width": 900,
      "height": 600,
-     "bytes": 58968,
-     "sha256": "5a991c81f5bc92129769d8fa936aac5aac9264402df73cb47ec2329f262aaccd"
+     "bytes": 55563,
+     "sha256": "70f673df0d2aa88887199cbf47ea145091829f5989f62e332921d9e2c41a6b5d"
     },
     {
      "file": "images/plates/highbush-blueberry/vaco_001_lvd.jpg",
@@ -4795,8 +4795,8 @@
      "imageId": 50726,
      "width": 600,
      "height": 900,
-     "bytes": 78753,
-     "sha256": "ced72a7749522c982d6818a4efb27efcd68a55b7e700bcc6216577e025360edb"
+     "bytes": 74827,
+     "sha256": "e90fb83c96eaae12bd71684ee62396edf61e007bb88d986e4ae9e8ab432bed2b"
     }
    ]
   },
@@ -4823,8 +4823,8 @@
      "imageId": 42390,
      "width": 600,
      "height": 900,
-     "bytes": 77549,
-     "sha256": "ae839463a85bd3d2016b16abd0f8df4ce7e88c19ea595d74875257b4f1c6e2e9"
+     "bytes": 73705,
+     "sha256": "bd30a5b4f2f8b7efd11f40d6e53213a5b3ad3971a8a1f2c3e2f8db702442d4b6"
     },
     {
      "file": "images/plates/big-huckleberry/vame_005_lhp.jpg",
@@ -4836,10 +4836,10 @@
      "provider": "USDA Forest Service",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 42391,
-     "width": 900,
-     "height": 600,
-     "bytes": 125150,
-     "sha256": "2ca2bf810ebecd1d6a636fbed300ea942f55369810166be6d0fabfb5c52c6f40"
+     "width": 640,
+     "height": 427,
+     "bytes": 75534,
+     "sha256": "cb2bf0b079474373db9cadd698f8018ee3d0655823674b1f843de0d84be71437"
     },
     {
      "file": "images/plates/big-huckleberry/vame_001_lvd.jpg",
@@ -4853,8 +4853,8 @@
      "imageId": 50733,
      "width": 600,
      "height": 900,
-     "bytes": 74469,
-     "sha256": "5cd33132736b01caf8b88385e830562ddc0d8d5b581af2126982bb525b30eec8"
+     "bytes": 77080,
+     "sha256": "27ac8c915b11cbc0aa39dd582af270ee57c4a81d857c39420587c98917326c7a"
     }
    ]
   },
@@ -4879,10 +4879,10 @@
      "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 48369,
-     "width": 600,
-     "height": 900,
-     "bytes": 78337,
-     "sha256": "670602b0249a151fdd3d43dac5b91a6e7a77f6ff5f5a471208e3105c38dd2c0e"
+     "width": 533,
+     "height": 800,
+     "bytes": 73603,
+     "sha256": "876498276c4f1dcdb47b280a0b67c7d2e1ae1764335613264af0f1c22353f3aa"
     }
    ]
   },
@@ -4909,8 +4909,8 @@
      "imageId": 36733,
      "width": 900,
      "height": 600,
-     "bytes": 60543,
-     "sha256": "6b40ff04b5e37e67d8dfad94273c832a079969f075a63c022d9b769854843738"
+     "bytes": 57215,
+     "sha256": "4a815e712cccb2756dc3ef6b9d2badfed258fb367243dbd7046424d3631756d7"
     },
     {
      "file": "images/plates/american-elderberry/saca12_003_lhp.jpg",
@@ -4924,8 +4924,8 @@
      "imageId": 36734,
      "width": 900,
      "height": 600,
-     "bytes": 70812,
-     "sha256": "13d5f1d45aa7beab51b78f615bf7f8044954bdedc6ce58a7218859779a31ec3d"
+     "bytes": 67319,
+     "sha256": "8f43bcc58dbc79267d65e80b8709b72b5e87a2ba54642d51b6147b7397144cfe"
     },
     {
      "file": "images/plates/american-elderberry/saca12_001_lvd.jpg",
@@ -4967,8 +4967,8 @@
      "imageId": 44164,
      "width": 600,
      "height": 900,
-     "bytes": 78306,
-     "sha256": "2bbd605c3d3c66cd138d858151aa1645fe05d38112a8f43a94d1f2757d983155"
+     "bytes": 73806,
+     "sha256": "8f85b54fe8a61a28f23d79289201cc6b15223c75143c9e07c3d3c1dc3769342f"
     }
    ]
   },
@@ -5010,8 +5010,8 @@
      "imageId": 33983,
      "width": 600,
      "height": 900,
-     "bytes": 77370,
-     "sha256": "ac95eee8c6bbadd4f551b3ce58f934f13142fa6bd553bb1c5a60d644d91980e0"
+     "bytes": 72668,
+     "sha256": "23eac192bc5235e21077496c6b9d57ee36bffac665d89a833ee5b74630b9b57e"
     },
     {
      "file": "images/plates/chokecherry/prvi_008_lvd.jpg",
@@ -5025,8 +5025,8 @@
      "imageId": 49346,
      "width": 600,
      "height": 900,
-     "bytes": 71682,
-     "sha256": "4615f4e2a6b8f3734d976cad822495840b3499d838c98497bc9803f3a7ad01c7"
+     "bytes": 67375,
+     "sha256": "d3ec534a8554fc19cf62d4cf804fc742748b65e963147491cee2e5e3d91b372b"
     }
    ]
   },
@@ -5051,10 +5051,10 @@
      "provider": "ND State Soil Conservation Committee",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 33709,
-     "width": 900,
-     "height": 600,
-     "bytes": 95368,
-     "sha256": "e630be2761babc3c60b794ec38f64746861474ec326b8b4a6c974743dd9bec28"
+     "width": 800,
+     "height": 533,
+     "bytes": 76110,
+     "sha256": "eea53facfedc1f623f466fb5da25847f772fa551a8340d87cb01a2b5809cac6c"
     },
     {
      "file": "images/plates/american-plum/pram_007_lvp.jpg",
@@ -5068,8 +5068,8 @@
      "imageId": 33711,
      "width": 600,
      "height": 900,
-     "bytes": 76460,
-     "sha256": "5b472e38a5bb20212847247e27d6cbbc645c5931052020354676b54d48d8eb08"
+     "bytes": 72351,
+     "sha256": "d98c386989557cd9e85b3ba3bf686078d4d4798530b6c3c0f3853db7191f6e3d"
     },
     {
      "file": "images/plates/american-plum/pram_001_lvd.jpg",
@@ -5083,8 +5083,8 @@
      "imageId": 49316,
      "width": 600,
      "height": 900,
-     "bytes": 77712,
-     "sha256": "80152815e1ea89e2766b1c1efa2bc8121bb17bf8796dbc8dae42fe18bb750e78"
+     "bytes": 76044,
+     "sha256": "2a5a68ac5d79c6028221ec2c97f157464cb136e6352bbd0d077c3e328a6d1fff"
     }
    ]
   },
@@ -5155,8 +5155,8 @@
      "imageId": 4533,
      "width": 600,
      "height": 900,
-     "bytes": 55579,
-     "sha256": "1a5f077080839fecffa64e049a58ca8bca6918253e25a7a3c60156170f08efa8"
+     "bytes": 52722,
+     "sha256": "87fc2f043d44b3eae64e86820e819f4b0ea636e016b3238e12e4bfc1d6500351"
     },
     {
      "file": "images/plates/pawpaw/astr_008_lvp.jpg",
@@ -5170,8 +5170,8 @@
      "imageId": 4539,
      "width": 600,
      "height": 900,
-     "bytes": 23764,
-     "sha256": "029735a205d6a0f91b92822e51810dfc205f5d71c7b41e058ad5c5219532c29c"
+     "bytes": 22946,
+     "sha256": "b99871e181f5d7aa95ab790b144d046278724851d025fbbff719d860f56a2d17"
     },
     {
      "file": "images/plates/pawpaw/astr_001_lvd.jpg",
@@ -5212,10 +5212,10 @@
      "provider": "USDA NRCS Wetland Science Institute (WSI) - Northeast wetland flora: Field office guide to plant species (1995)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 13674,
-     "width": 600,
-     "height": 900,
-     "bytes": 90652,
-     "sha256": "59e29540457657f48efab784685cfa602babb6180b1a829d69bd23db71e86791"
+     "width": 533,
+     "height": 800,
+     "bytes": 74802,
+     "sha256": "fac5b907769758208941ec1881679d5c1b4738919e05f1e77bb059f1fccab2ae"
     },
     {
      "file": "images/plates/american-persimmon/divi5_003_lvp.jpg",
@@ -5229,8 +5229,8 @@
      "imageId": 13675,
      "width": 600,
      "height": 900,
-     "bytes": 46973,
-     "sha256": "0e5bf27b2f2083b85808472c9aa06a1c1208970d8041f5ee304bf6a3d40e4e17"
+     "bytes": 44896,
+     "sha256": "b76adbd7e8ab9158f065295cb3d2f27cd0fbd392527be7cc721ef7ec94b0424a"
     },
     {
      "file": "images/plates/american-persimmon/divi5_001_lvd.jpg",
@@ -5244,8 +5244,8 @@
      "imageId": 46154,
      "width": 600,
      "height": 900,
-     "bytes": 75412,
-     "sha256": "4585d6f4f7ba32a347c661b95274a72de71d8f6005c0c543d1ac981240917024"
+     "bytes": 70543,
+     "sha256": "2b08145bf3b618455919cb3de8966f00e30f3fdc6b3fa09632d3de1c904cd56c"
     }
    ]
   },
@@ -5272,8 +5272,8 @@
      "imageId": 43198,
      "width": 900,
      "height": 600,
-     "bytes": 66528,
-     "sha256": "3c4bf22c5e8ac67384a6433295822464b5d482eaffe68f89014744df3cae9ed5"
+     "bytes": 63205,
+     "sha256": "448832c4fe53d1c4b1c9aa1aa08d0055048f8af28098de24b0d7dd7b570509d6"
     }
    ]
   },
@@ -5300,8 +5300,8 @@
      "imageId": 42988,
      "width": 900,
      "height": 600,
-     "bytes": 25083,
-     "sha256": "2d6a18bfa1da43a8e70a02f9e9bb354371cbf597455e0aab4594cdac5ba30ef6"
+     "bytes": 24288,
+     "sha256": "f30ab32738fd75505cdb28c53f7158dbfef7b753c1eb82cd1b60a32fdb7d2267"
     },
     {
      "file": "images/plates/fox-grape/vila8_001_lvd.jpg",
@@ -5315,8 +5315,8 @@
      "imageId": 50851,
      "width": 600,
      "height": 900,
-     "bytes": 78728,
-     "sha256": "22b4e1753f23a17b68fbc7d2b33fb24b5a74eef8f9271771750757f5733cedd6"
+     "bytes": 76798,
+     "sha256": "48f5e39ef0290331b9945c08725dce153d07399eb1ec98b4a0ead00950fe16eb"
     }
    ]
   },
@@ -5343,8 +5343,8 @@
      "imageId": 42780,
      "width": 900,
      "height": 600,
-     "bytes": 61244,
-     "sha256": "3dacecb80f9c3b40b9506346f92de5af722f74f2503f441aa51595c0e82d8874"
+     "bytes": 58207,
+     "sha256": "a0be516cd11ca43ccf28ff6dfec1e8779e4806d10b8b8bb22993ad94c17033b8"
     },
     {
      "file": "images/plates/summer-grape/viae_001_lvd.jpg",
@@ -5358,8 +5358,8 @@
      "imageId": 50809,
      "width": 600,
      "height": 900,
-     "bytes": 78712,
-     "sha256": "2fa1e3f48896518a8fa471ec54fd6c6dde877efa82dddb6f7afd32fd6800932e"
+     "bytes": 74290,
+     "sha256": "22211e3676659b334f89db987713bcac11cc29f3e320520e8dcb601beb4f1c55"
     }
    ]
   },
@@ -5386,8 +5386,8 @@
      "imageId": 36239,
      "width": 900,
      "height": 600,
-     "bytes": 79597,
-     "sha256": "c9bac8572ee0fe6df0575b6225c278f02900f167046a80d68fa51c37e4022db8"
+     "bytes": 79539,
+     "sha256": "fdaccbb94ebec1788642e0350bca469b09e0f1513273ec6471943426685385ec"
     },
     {
      "file": "images/plates/woods-rose/rowo_011_shp.jpg",
@@ -5401,8 +5401,8 @@
      "imageId": 36241,
      "width": 330,
      "height": 220,
-     "bytes": 25909,
-     "sha256": "5f8a37c65f1893f34d5008850bfe421e080c34b960c1e9e3a6c6a6c3bf8236e5"
+     "bytes": 24845,
+     "sha256": "94c5d1924e4f73dbf210c0e8fe8f9bede7c585f9082ccfb07e114a911bdd973e"
     },
     {
      "file": "images/plates/woods-rose/rowo_001_lvd.jpg",
@@ -5416,8 +5416,8 @@
      "imageId": 49628,
      "width": 600,
      "height": 900,
-     "bytes": 78408,
-     "sha256": "8a8c9abd7f6a106c1319e3459caf7c35c662acd7be53ad07ee114cd56c3d6edf"
+     "bytes": 74202,
+     "sha256": "68604d512fd01531e8db3e5758de0501ec11b4e672c034045a0141b1e1bfd384"
     }
    ]
   },
@@ -5444,8 +5444,8 @@
      "imageId": 36121,
      "width": 600,
      "height": 900,
-     "bytes": 15785,
-     "sha256": "b8212c3cd7c4045c85501de8ca4da712e8b9dd205310aefa985efbbf8f5fdbcc"
+     "bytes": 15036,
+     "sha256": "069dfb4460bdf3bc907caced0d9c9912a3571dde9b8ff27e7f8d3fbae7bec4c1"
     }
    ]
   },
@@ -5470,10 +5470,10 @@
      "provider": "USDA NRCS Norman A. Berg National PMC (MDPMC)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 36184,
-     "width": 900,
-     "height": 600,
-     "bytes": 91133,
-     "sha256": "c2eb9ab62919f7c94fc5eef13b268df8c4c610af6c1ee0a9fc293a981c52b9e8"
+     "width": 800,
+     "height": 533,
+     "bytes": 78432,
+     "sha256": "4e9f2fed0277a956877f8fc7e614ba494963fc785b459eb2999bcaa8c8c9b4c9"
     }
    ]
   },
@@ -5500,8 +5500,8 @@
      "imageId": 45802,
      "width": 600,
      "height": 900,
-     "bytes": 79746,
-     "sha256": "542c2f148d86f62cec5e8b5ced504f16ecd9db23834f468d3ea9b11949b04f42"
+     "bytes": 77487,
+     "sha256": "0627db0117da4eacd0c5893799943c8f578fb09878ec785fa3cba35709e3866c"
     }
    ]
   },
@@ -5528,8 +5528,8 @@
      "imageId": 43286,
      "width": 900,
      "height": 600,
-     "bytes": 73091,
-     "sha256": "372d276bfc588452488adef1b091c00507d306c2cc01af1cb3f520f0af97e8e3"
+     "bytes": 69117,
+     "sha256": "df1f6676b3b44fb8a3db4986c8dbdde2e704dbcaa547d9e6a0cf2ad7be220711"
     },
     {
      "file": "images/plates/highbush-cranberry/vitr8_003_lhp.jpg",
@@ -5543,8 +5543,8 @@
      "imageId": 43285,
      "width": 900,
      "height": 600,
-     "bytes": 72386,
-     "sha256": "5e1aabaa723fdc217115415010d98c3cf7f23fbecac84eace49fca2bfe8232ad"
+     "bytes": 68521,
+     "sha256": "0beb4079c83b4036f60baaaaec1f58b0e44d9d06cd952360543130435fdd0ff0"
     },
     {
      "file": "images/plates/highbush-cranberry/vitr8_002_lhp.jpg",
@@ -5556,10 +5556,10 @@
      "provider": "ND State Soil Conservation Committee",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 43284,
-     "width": 900,
-     "height": 600,
-     "bytes": 82151,
-     "sha256": "0fb3e68c0936415e88f87ee0cf3cca14ce6bdf2736774d2af247d41b7bcac25c"
+     "width": 800,
+     "height": 533,
+     "bytes": 76371,
+     "sha256": "b08b00e62f483abccb74f93ded8f9605bf4f6420b655a3d1e7214a756117f69e"
     }
    ]
   },
@@ -5586,8 +5586,8 @@
      "imageId": 42994,
      "width": 900,
      "height": 600,
-     "bytes": 78368,
-     "sha256": "9dd74877352c49988edb2c62eaeff98a81ca74153c5728ed3a02ff88817d217c"
+     "bytes": 77764,
+     "sha256": "e9806d4d5ff16af8efebd79735a1f2a9e6b49e3b1d6994af4cdef76358979403"
     },
     {
      "file": "images/plates/nannyberry/vile_002_lhp.jpg",
@@ -5601,8 +5601,8 @@
      "imageId": 42991,
      "width": 900,
      "height": 600,
-     "bytes": 62471,
-     "sha256": "d32f62ff42486b00fcb9477eba1ab48cc377ece015f1733e9803822e73cb5873"
+     "bytes": 58606,
+     "sha256": "0cce3f85b6ab834400003894919105f19ccbfe42ae747a50f87f0c87da19f7fb"
     },
     {
      "file": "images/plates/nannyberry/vile_001_lvd.jpg",
@@ -5614,10 +5614,10 @@
      "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 50852,
-     "width": 600,
-     "height": 900,
-     "bytes": 78301,
-     "sha256": "abb9cd43928e362d336dbee5a7912441f66939bf595bbc85b406eda2bfadc23e"
+     "width": 533,
+     "height": 800,
+     "bytes": 78527,
+     "sha256": "a3a31a897949ee363c50b15bd62a9717c30574f77f112518f3572f67e7ab408c"
     }
    ]
   },
@@ -5642,10 +5642,10 @@
      "provider": "ND State Soil Conservation Committee",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 38308,
-     "width": 900,
-     "height": 600,
-     "bytes": 99803,
-     "sha256": "8010c2e644434521e065ca02963f94b9c89099c17ca9bd0a27968e6b0bd6a83a"
+     "width": 720,
+     "height": 480,
+     "bytes": 74948,
+     "sha256": "89650b0568fad45f283f2689888d639c74b472db5220ed478d26b301a6e01203"
     },
     {
      "file": "images/plates/silver-buffaloberry/lear10_001_lvd.jpg",
@@ -5687,8 +5687,8 @@
      "imageId": 49587,
      "width": 600,
      "height": 900,
-     "bytes": 79879,
-     "sha256": "56764e770cd879dc624ea3e1cac519734833851b724db82cd7387a2cb45b0e1a"
+     "bytes": 78755,
+     "sha256": "54751eb3b1d90a4ea58dfecf665b9e850dde01cca229914f1baffdf472bc1204"
     }
    ]
   },
@@ -5715,8 +5715,8 @@
      "imageId": 46896,
      "width": 600,
      "height": 900,
-     "bytes": 79005,
-     "sha256": "5b2cbc14f68fea0ceac0fac5fe2933d4b8e6445a092549191c7f8b8def85d8a5"
+     "bytes": 75623,
+     "sha256": "89185699406438d3ab590718ad239e3be5d2ce98dfe30d53d76cbbf197c9db30"
     }
    ]
   },
@@ -5743,8 +5743,8 @@
      "imageId": 28828,
      "width": 330,
      "height": 220,
-     "bytes": 14708,
-     "sha256": "d43ec6dae4aa3891840031c8b29d6ae140a6abad9831cfe2a5793a165481fb03"
+     "bytes": 14002,
+     "sha256": "5e0e62db3bc7a5dbc0f4607977afe28a1159740b6b388fbd9fc87557e2d5f5d1"
     },
     {
      "file": "images/plates/maypop/pain6_015_lhp.jpg",
@@ -5801,8 +5801,8 @@
      "imageId": 48300,
      "width": 600,
      "height": 900,
-     "bytes": 78258,
-     "sha256": "2e865fd9750655b2635dc709c1892863cdccc415649bf87b8ad62903950796d4"
+     "bytes": 74920,
+     "sha256": "d3287b328fa1718624d6684a6a86c714e15d3c9a4597a705a9f976f6d461ec77"
     }
    ]
   },
@@ -5829,8 +5829,8 @@
      "imageId": 43648,
      "width": 220,
      "height": 330,
-     "bytes": 24817,
-     "sha256": "3c783055cdee703e2532b15fba71c333143e9d26a733d99695ea227d0d14a1ec"
+     "bytes": 23626,
+     "sha256": "c248c4df5dfb6d9f72d5ee462afbbb578511b0aadee27c41468e3df45ae51955"
     },
     {
      "file": "images/plates/soapweed-yucca/yugl_001_lvd.jpg",
@@ -5844,8 +5844,8 @@
      "imageId": 50990,
      "width": 600,
      "height": 900,
-     "bytes": 75444,
-     "sha256": "0b4485466a9018335bd7454153c3064e5643396d14cd5c98eb20e516a173dbfc"
+     "bytes": 70660,
+     "sha256": "9a0087901fe882db464a96dba257a4f84d7fd3763278cd9fb028f8e26f22ee42"
     }
    ]
   },
@@ -5872,8 +5872,8 @@
      "imageId": 46757,
      "width": 600,
      "height": 900,
-     "bytes": 73945,
-     "sha256": "7d4a2cff8ccd14ebaceeacfdfe420ef3221bb7f95f457bcc02285d43ddc1197f"
+     "bytes": 76451,
+     "sha256": "35622886d39172d238b53b5cbb51c5843e673584e7b8da64efd5f8a335870c79"
     }
    ]
   },
@@ -5900,8 +5900,8 @@
      "imageId": 45702,
      "width": 600,
      "height": 900,
-     "bytes": 77564,
-     "sha256": "6b5729630c1426176a6cd2db321c7e454138a01e7394f8725c489c83d8c82fea"
+     "bytes": 74166,
+     "sha256": "614f8cad9968bc0c12c2a5cc17ded65d80989b70375cf0ec08275f99c426ee30"
     }
    ]
   },
@@ -5928,8 +5928,8 @@
      "imageId": 10715,
      "width": 600,
      "height": 900,
-     "bytes": 51764,
-     "sha256": "ede51c7d9dd054309525550376de3ac250872efec2a961a5ca1e421c8ce124ec"
+     "bytes": 49532,
+     "sha256": "25bc97282eba8817537951045e3ba1554fc26c3ac69faccc8feeec1bbb02b03a"
     }
    ]
   },
@@ -5957,8 +5957,8 @@
      "imageId": 21685,
      "width": 900,
      "height": 600,
-     "bytes": 44685,
-     "sha256": "a6041bc4126ace00192376f4d37352e3e3db2be73f666658040853acbdd5d678"
+     "bytes": 42275,
+     "sha256": "f2cd42b66bffd5bb726164b2522f1a65f93b71e47abe8975af174d0143d58938"
     },
     {
      "file": "images/plates/black-walnut/juni_004_lhp.jpg",
@@ -5970,10 +5970,10 @@
      "provider": "USDA NRCS Wetland Science Institute (WSI) - Northeast wetland flora: Field office guide to plant species (1995)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 21686,
-     "width": 900,
-     "height": 600,
-     "bytes": 96950,
-     "sha256": "14afefc82ff750bb8306656d43708b299963ed1e524f37f8a26d70b80fac2977"
+     "width": 720,
+     "height": 480,
+     "bytes": 74729,
+     "sha256": "ec3f2a242152b9b9966edba09b8501cff09bbdb0401af0cdb3534ab6f9b4952b"
     }
    ]
   },
@@ -6015,8 +6015,8 @@
      "imageId": 21561,
      "width": 900,
      "height": 600,
-     "bytes": 25341,
-     "sha256": "ffc68dd39f224f8bfffb901caf544597b470b50eac07d98c35a09449afe38733"
+     "bytes": 24742,
+     "sha256": "3400b8a5b6b9e186a92955c359b7d5ec1078a0f3d9df1e5041209a9d0fe69cbe"
     },
     {
      "file": "images/plates/butternut/juci_001_lvd.jpg",
@@ -6074,8 +6074,8 @@
      "imageId": 7741,
      "width": 900,
      "height": 600,
-     "bytes": 44802,
-     "sha256": "7831d504360fee04b1685b8e8d68dae58cb6ad3dc9bb288c55bb62ed1067cd77"
+     "bytes": 43493,
+     "sha256": "bfc733d50b8fc015e17d1c9644fec6848cb16486d1c77afde4995ee6a57658a0"
     },
     {
      "file": "images/plates/shagbark-hickory/caov2_007_lvp.jpg",
@@ -6118,8 +6118,8 @@
      "imageId": 7178,
      "width": 600,
      "height": 900,
-     "bytes": 76030,
-     "sha256": "3c4d18c6a57ec53bc48777ccabfa91d30189eb0df022aae81ef0afde5fe0ec6f"
+     "bytes": 72458,
+     "sha256": "fc488cfd60986c4b33a523db5dd2a0b1b0e5defd7e8612986258820182643028"
     },
     {
      "file": "images/plates/pecan/cail2_006_lvp.jpg",
@@ -6131,10 +6131,10 @@
      "provider": "USDA Forest Service",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 7181,
-     "width": 600,
-     "height": 900,
-     "bytes": 94716,
-     "sha256": "28f195e075e39750d49ce549a7a13b8b35119d97cd0dab7277796681f79dff37"
+     "width": 533,
+     "height": 800,
+     "bytes": 78352,
+     "sha256": "2c0a06659c62f420110122eeb7adce9f9e465b000a7a5ff13c33be9250dba18a"
     },
     {
      "file": "images/plates/pecan/cail2_004_lvd.jpg",
@@ -6148,8 +6148,8 @@
      "imageId": 45180,
      "width": 600,
      "height": 900,
-     "bytes": 76986,
-     "sha256": "8f825960c9842f7f977d534eef65a725a373d41428838aaddb3280f509097d9a"
+     "bytes": 72398,
+     "sha256": "7a481368cd9e3fbffacc0bd8d91dff6d6cfcf8310ef27121a70c5ed8ed9c04c3"
     }
    ]
   },
@@ -6177,8 +6177,8 @@
      "imageId": 34607,
      "width": 600,
      "height": 900,
-     "bytes": 79526,
-     "sha256": "aeb0fecd6a759fb47c7a698c332a957a134962483e4cdc1f4649cedff41acaa0"
+     "bytes": 76111,
+     "sha256": "c0f51b018f777f7efd0450d680fc437d60b2ae4f482b0f670806779c24455dfb"
     },
     {
      "file": "images/plates/white-oak/qual_009_lvp.jpg",
@@ -6192,8 +6192,8 @@
      "imageId": 34609,
      "width": 600,
      "height": 900,
-     "bytes": 37792,
-     "sha256": "40d5999241f687965a87db6155dbdafc27f4911e30f8db9ce72b1691fbb0392a"
+     "bytes": 35797,
+     "sha256": "5cc6f5150850ed6f65d0dc9a05d7d3e7ab89f5a969b15fabb0a998d935df8d90"
     },
     {
      "file": "images/plates/white-oak/qual_001_lvd.jpg",
@@ -6207,8 +6207,8 @@
      "imageId": 49411,
      "width": 600,
      "height": 900,
-     "bytes": 75157,
-     "sha256": "0fa54d4ea7f5385ed1f1f01287d37973cd3c01ab93ff608fd9abaf384ec715ab"
+     "bytes": 70281,
+     "sha256": "ded513c92763e2e3121465cb9049ba3b0bc1bbf08e4968ea6d85d606e27e71fc"
     }
    ]
   },
@@ -6234,10 +6234,10 @@
      "provider": "USDA NRCS Wetland Science Institute (WSI) - Midwest wetland flora: Field office illustrated guide to plant species (1989)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 34923,
-     "width": 900,
-     "height": 600,
-     "bytes": 96905,
-     "sha256": "3dbce8851225b83d93c72ad8c5096061c9a6ddf9ebb60489af06cd11bfd1d063"
+     "width": 720,
+     "height": 480,
+     "bytes": 75559,
+     "sha256": "756bf345e6085ff2b93dcf6d3d4fbbc2924ac48baeaa0f4f9008624b12d61d75"
     },
     {
      "file": "images/plates/bur-oak/quma2_010_lhp.jpg",
@@ -6249,10 +6249,10 @@
      "provider": "ND State Soil Conservation Committee",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 34931,
-     "width": 900,
-     "height": 600,
-     "bytes": 80434,
-     "sha256": "a5901782c31a581a8f8e9c77154b806fed601633d52edaa73a0955f28b3b4891"
+     "width": 800,
+     "height": 533,
+     "bytes": 73083,
+     "sha256": "e4cd0fc1433eb8496508beeb238a2c4310f135fa14c1fe38ea6605b3895e34ec"
     },
     {
      "file": "images/plates/bur-oak/quma2_020_lvp.jpg",
@@ -6264,10 +6264,10 @@
      "provider": "USDA Forest Service",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 34939,
-     "width": 600,
-     "height": 900,
-     "bytes": 87114,
-     "sha256": "132277919ee30f21bbc20e8b305a13acf8f09c4a4520d3fe5da0353e144ba27b"
+     "width": 533,
+     "height": 800,
+     "bytes": 74164,
+     "sha256": "3fbd521da64ea2dd351753f9e48d4d1f2e6e7ff87ec390e6a5e24a026a6b52c5"
     }
    ]
   },
@@ -6295,8 +6295,8 @@
      "imageId": 35052,
      "width": 600,
      "height": 900,
-     "bytes": 74329,
-     "sha256": "45d1db87af61316238dd6530c7151782d25ade48e39004d992fa36dfb2b2304e"
+     "bytes": 79462,
+     "sha256": "1153c0a0dea96fa05c66f9d25f76e86df60c0209fbd6d5e7ffc14a05dd391cba"
     },
     {
      "file": "images/plates/northern-red-oak/quru_009_lvp.jpg",
@@ -6308,10 +6308,10 @@
      "provider": "USDA Forest Service",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 35055,
-     "width": 600,
-     "height": 900,
-     "bytes": 106949,
-     "sha256": "b411a709a94f7c60eda5ec6ff026dc4cd79d433617f07889d22d7501f8185ff2"
+     "width": 480,
+     "height": 720,
+     "bytes": 75814,
+     "sha256": "54e6e6a2a76725c8a377b307ee5844f625e5ba33a1386e000f4ceaea3009db6b"
     },
     {
      "file": "images/plates/northern-red-oak/quru_001_lvd.jpg",
@@ -6325,8 +6325,8 @@
      "imageId": 49447,
      "width": 600,
      "height": 900,
-     "bytes": 73626,
-     "sha256": "cd7496db9ba12ba145a58643a542dde738e375255d77a07120a64d4e75f4f533"
+     "bytes": 76028,
+     "sha256": "6d9572aa817286629cbf93aad449536c1aafa740f4ceed7dee6a0e1136ec494a"
     }
    ]
   },
@@ -6367,10 +6367,10 @@
      "provider": "USDA Forest Service",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 34796,
-     "width": 900,
-     "height": 600,
-     "bytes": 89479,
-     "sha256": "1e93012052680fc6d850156d47b2bd041408ad5c8b7cf98965b04897cf7892e5"
+     "width": 800,
+     "height": 533,
+     "bytes": 74828,
+     "sha256": "0cf273951a26af12dc325245948986493595e9b10cb05701d8178a5316af0131"
     }
    ]
   },
@@ -6396,10 +6396,10 @@
      "provider": "USDA NRCS Wetland Science Institute (WSI) - Northeast wetland flora: Field office guide to plant species (1995)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 17208,
-     "width": 600,
-     "height": 900,
-     "bytes": 72987,
-     "sha256": "8adf2234cfd89044986871ab7df5fe8768a3a9fdc8894a1f785f037a27f9a06a"
+     "width": 533,
+     "height": 800,
+     "bytes": 75634,
+     "sha256": "1a87d301b059864713826063d080d96bc36c7f10c82776cc91fab65f617e4255"
     },
     {
      "file": "images/plates/american-beech/fagr_008_lvp.jpg",
@@ -6413,8 +6413,8 @@
      "imageId": 17212,
      "width": 600,
      "height": 900,
-     "bytes": 51961,
-     "sha256": "7808a1d0e683c35df766bf17d79861017c90387966e30be464b724cb0215d578"
+     "bytes": 48488,
+     "sha256": "e474051df0d3f6f8dd64f711f2da6856391ea3083090aa994eb236b3e7471ee4"
     },
     {
      "file": "images/plates/american-beech/fagr_001_lvd.jpg",
@@ -6428,8 +6428,8 @@
      "imageId": 46603,
      "width": 600,
      "height": 900,
-     "bytes": 77401,
-     "sha256": "ba3fb3919df61d6a0c6b92bbbff82d5eb2899685e25c0b4dcda23178cf7c003c"
+     "bytes": 75696,
+     "sha256": "68040615d31d931b3170ce8692566c29c10b9960ac4a3c9b584a1c4875af5159"
     }
    ]
   },
@@ -6456,8 +6456,8 @@
      "imageId": 6781,
      "width": 900,
      "height": 600,
-     "bytes": 77099,
-     "sha256": "1309e8c1462675b3db4524a47ee6d4844915fe7fdcf7071088acc5eb07493238"
+     "bytes": 79247,
+     "sha256": "2781f5ab3b5305c2a29b1aa1994091351eac99c092395533fa2799a55cf1e226"
     },
     {
      "file": "images/plates/american-chestnut/cade12_001_lvd.jpg",
@@ -6471,8 +6471,8 @@
      "imageId": 45096,
      "width": 600,
      "height": 900,
-     "bytes": 79291,
-     "sha256": "3249518b92ad467aa88f2d4f14d4ed306dc6c8fc0354dfb136faabc243a23f5b"
+     "bytes": 78228,
+     "sha256": "9fb5830887233a6082ef795a7a80d5b543678a1476374e5b3ff32f9441935f8a"
     },
     {
      "file": "images/plates/american-chestnut/cade12_003_lvp.jpg",
@@ -6486,8 +6486,8 @@
      "imageId": 6778,
      "width": 600,
      "height": 900,
-     "bytes": 79907,
-     "sha256": "a69d9a608a6505bd3a7993cc5d99858bb62b071038a069f08574194d7e89f567"
+     "bytes": 76961,
+     "sha256": "f6246cf5e4f10cd1343ba9fddb81b1828c5de4438c5119e7abf78f4ca8ab1053"
     }
    ]
   },
@@ -6515,8 +6515,8 @@
      "imageId": 32291,
      "width": 900,
      "height": 600,
-     "bytes": 78747,
-     "sha256": "e80900e046b3a45e2ace97a7f561f9c43eeddf516327f97d80c380d0b470ff71"
+     "bytes": 76366,
+     "sha256": "ef2ccfaf4bd37ebeb8e7421992f1f760678dfffee9acec8e114c1fc51be5c913"
     },
     {
      "file": "images/plates/eastern-white-pine/pist_014_lvp.jpg",
@@ -6543,10 +6543,10 @@
      "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 48991,
-     "width": 600,
-     "height": 900,
-     "bytes": 77152,
-     "sha256": "2d6d4a73c9ef4db0779ebf33c60b3cc1becae80b71f1a139e3290b1ae93b4e4a"
+     "width": 533,
+     "height": 800,
+     "bytes": 79009,
+     "sha256": "0b0338c2d6c67e12a16a50b346f4b07e3ce05f794f020e65e4273825201da4fa"
     }
    ]
   },
@@ -6587,10 +6587,10 @@
      "provider": "USDA Forest Service",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 643,
-     "width": 600,
-     "height": 900,
-     "bytes": 86045,
-     "sha256": "f517a0aea23234e7b4d9f7cf4d86774649ae7391c441c255a9ab8dfc0b9da296"
+     "width": 533,
+     "height": 800,
+     "bytes": 73717,
+     "sha256": "e149b989dd41b2a709cd8ee3045cb391857a75e47c2f840ae9ceddb1993f033b"
     },
     {
      "file": "images/plates/sugar-maple/acsa3_001_lvd.jpg",
@@ -6604,8 +6604,8 @@
      "imageId": 43929,
      "width": 600,
      "height": 900,
-     "bytes": 79661,
-     "sha256": "76082db89cccd6138eb2012696d407349111aa9daac03aa773854ec636341586"
+     "bytes": 77933,
+     "sha256": "84bcb049868caa7bf30a93d3c29c7048bfd8fe6bf9d6fae6139498f150d65c40"
     }
    ]
   },
@@ -6648,8 +6648,8 @@
      "imageId": 5231,
      "width": 900,
      "height": 600,
-     "bytes": 78656,
-     "sha256": "887af25931896dce2ced786afca7fcbdf72a6dc17cfe35293f1b34836e591965"
+     "bytes": 78171,
+     "sha256": "b1cdd649a6e62fb8e7ecdbd04ac8776e8ac7466d168c36a8847751ed143b47fd"
     },
     {
      "file": "images/plates/paper-birch/bepa_001_lvd.jpg",
@@ -6663,8 +6663,8 @@
      "imageId": 44757,
      "width": 600,
      "height": 900,
-     "bytes": 74755,
-     "sha256": "18be3c471d2be1cb962605a9b15dd5cad0ea2ccbcfe8c5001fca93a01d69182c"
+     "bytes": 77016,
+     "sha256": "becbce059a513238e75582a22f999fefc18b7d69cbf0defc839bacc6eaa518df"
     }
    ]
   },
@@ -6691,8 +6691,8 @@
      "imageId": 51152,
      "width": 600,
      "height": 450,
-     "bytes": 16920,
-     "sha256": "ea2a7b202f56c47046326153a4d051970f2afc1ec369e43a4e783ae185a08ae6"
+     "bytes": 15506,
+     "sha256": "9790d15528cc3d5e37c8d111ad8557860823c65c9340564f2896b9ed51044806"
     },
     {
      "file": "images/plates/spicebush/libe3_002_lvd.jpg",
@@ -6706,8 +6706,8 @@
      "imageId": 47629,
      "width": 600,
      "height": 900,
-     "bytes": 60787,
-     "sha256": "685fdb30486af764ca6e8c3ce999065f2062172570cafee79ef066e056616c9c"
+     "bytes": 57345,
+     "sha256": "50c0c871f0db0124ee3c8290b405fac71e2d2f4b33f9b742b47cee5edcf67dd4"
     }
    ]
   },
@@ -6732,10 +6732,10 @@
      "provider": "ND State Soil Conservation Committee",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 35844,
-     "width": 900,
-     "height": 600,
-     "bytes": 96992,
-     "sha256": "fccb9211fe4bc76de1bae2385ab3dfba85e7f1956b8d6b1cddf470691d2f02f1"
+     "width": 720,
+     "height": 480,
+     "bytes": 74870,
+     "sha256": "cbc9c42477e46ebba5cbc457ce7c8b716e25d11e0ee6e0ee131a2069677ecf3d"
     },
     {
      "file": "images/plates/staghorn-sumac/rhty_001_lhp.jpg",
@@ -6747,10 +6747,10 @@
      "provider": "ND State Soil Conservation Committee",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 35843,
-     "width": 900,
-     "height": 600,
-     "bytes": 118292,
-     "sha256": "bc7979afe4d65ee7dc86df46c0184034727b98447d1663ab9af8b17fcd112883"
+     "width": 640,
+     "height": 427,
+     "bytes": 79328,
+     "sha256": "276eed9dc1179807a6f60891a25c939ab68167cf1d03ad7df5a1166a93ba907f"
     },
     {
      "file": "images/plates/staghorn-sumac/rhhi2_001_lvd.jpg",
@@ -6764,8 +6764,8 @@
      "imageId": 49559,
      "width": 600,
      "height": 900,
-     "bytes": 79078,
-     "sha256": "5ff99e133af0e8b32b27badd080247a94c22bd7d0458e8b4844d99e84c1a21d6"
+     "bytes": 79697,
+     "sha256": "ad1a455956906d20d3d392f1c8105cea639df9b2a787624b5755c9b577e1bb77"
     }
    ]
   },
@@ -6792,8 +6792,8 @@
      "imageId": 35582,
      "width": 600,
      "height": 900,
-     "bytes": 74283,
-     "sha256": "6453797ce7de479dd0adeb26c598b35955a11f526a2d206dee7c8761e81709e5"
+     "bytes": 70520,
+     "sha256": "ecd4c959cb34227138aa483037faff0836aa72978470352d6731edd50f4e4770"
     },
     {
      "file": "images/plates/smooth-sumac/rhgl_005_lhp.jpg",
@@ -6805,10 +6805,10 @@
      "provider": "ND State Soil Conservation Committee",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 35581,
-     "width": 900,
-     "height": 600,
-     "bytes": 90159,
-     "sha256": "0699dbde2512f6cd64715d85dd97523fd5f0037bff318afd308ade359b5dbad6"
+     "width": 800,
+     "height": 533,
+     "bytes": 75739,
+     "sha256": "4b67beb3efaece1019229b73a36b39b5a95dd6f539283e67ddf99f904270d34d"
     },
     {
      "file": "images/plates/smooth-sumac/rhgl_001_lvd.jpg",
@@ -6822,8 +6822,8 @@
      "imageId": 49555,
      "width": 600,
      "height": 900,
-     "bytes": 79799,
-     "sha256": "1ff43826661c18461afa96fe645e3ec3af8fc6f7e59652f33de1ad5071efeaef"
+     "bytes": 77797,
+     "sha256": "7b0f5cd9ae995e07bdc2cbec5d09339cdf34460c46a718848ea9abdb47d44dcc"
     }
    ]
   },
@@ -6850,8 +6850,8 @@
      "imageId": 35476,
      "width": 600,
      "height": 900,
-     "bytes": 58865,
-     "sha256": "9ede31a401c07f7262f51da482ae711715787218f21abdcf7be220d893711004"
+     "bytes": 56092,
+     "sha256": "262b46b62e071a24cccfa603ae1f74bf052cd3b6334b1417b5ba8d580236c8c5"
     },
     {
      "file": "images/plates/fragrant-sumac/rhar4_006_lhp.jpg",
@@ -6894,8 +6894,8 @@
      "imageId": 40918,
      "width": 900,
      "height": 600,
-     "bytes": 72888,
-     "sha256": "129be712c0939f44c5d9b04da993409f0f899b19da3b2f8f3ae5e82cdd96a636"
+     "bytes": 76109,
+     "sha256": "7921746efb2d3a20ec2f5da9e0bef5cecee24dfa7d4f98eb2883b3a87fc1f0bf"
     },
     {
      "file": "images/plates/american-basswood/tiam_004_lvp.jpg",
@@ -6909,8 +6909,8 @@
      "imageId": 40919,
      "width": 600,
      "height": 900,
-     "bytes": 75673,
-     "sha256": "ccc637b9fe64df5d2c58578cc3ea058bf8b97757499fc8846684c78d1eca76c8"
+     "bytes": 71475,
+     "sha256": "dc674af2fa444967fe309a8991f559ce234b16646736a8accf2e80ffecc3049d"
     },
     {
      "file": "images/plates/american-basswood/tiam_001_lvd.jpg",
@@ -6924,8 +6924,8 @@
      "imageId": 50491,
      "width": 600,
      "height": 900,
-     "bytes": 79425,
-     "sha256": "6bc73eecae5d9084c66260cf69a306f71a885683ec112338a75806b6d27215a8"
+     "bytes": 76097,
+     "sha256": "57f4b7d415538bc61ab45e3b50c6db4455f997a87ada07f4082ad87025f07da1"
     }
    ]
   },
@@ -6952,8 +6952,8 @@
      "imageId": 8567,
      "width": 600,
      "height": 900,
-     "bytes": 61100,
-     "sha256": "b3d29f65be54a48d57db972bd2356ff45aac21b9564a4a75911500304aed6011"
+     "bytes": 57560,
+     "sha256": "55e20000f8bb80db792a5dc08b608c923e0cd363f27b7fae857c5b975dc90651"
     },
     {
      "file": "images/plates/eastern-redbud/ceca4_005_lhp.jpg",
@@ -6967,8 +6967,8 @@
      "imageId": 8560,
      "width": 900,
      "height": 600,
-     "bytes": 30433,
-     "sha256": "d5ed9bc64de4c3827cc5c70ba944114887651910489fa720bf43845ce5227723"
+     "bytes": 29214,
+     "sha256": "065c9a380c41bdb2b447341521ff8225bc048392d5f32965687ed3df58fe3ffc"
     },
     {
      "file": "images/plates/eastern-redbud/ceca4_001_lvd.jpg",
@@ -6982,8 +6982,8 @@
      "imageId": 45446,
      "width": 600,
      "height": 900,
-     "bytes": 79101,
-     "sha256": "9a86cd54896b4c2889bdf07ae02287d3d4a5c557c594b23f882f37b007245ea7"
+     "bytes": 74736,
+     "sha256": "9ccfce48e17cb848fc1bcc9d463f6e9840da7f7e0239265b4e2cba8582249096"
     }
    ]
   },
@@ -7008,10 +7008,10 @@
      "provider": "USDA NRCS Wetland Science Institute (WSI) - Northeast wetland flora: Field office guide to plant species (1995)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 35066,
-     "width": 600,
-     "height": 900,
-     "bytes": 106647,
-     "sha256": "23fa7735294e406ad43db5b0bdbe61a2c1ba058d50f67b43f1ce5a4002c30308"
+     "width": 480,
+     "height": 720,
+     "bytes": 77405,
+     "sha256": "43c1a6930aa6112b079e7f3563a42937f0c1ce1548fa99949cc0bd23385475c5"
     },
     {
      "file": "images/plates/post-oak/qust_001_lvd.jpg",
@@ -7025,8 +7025,8 @@
      "imageId": 49451,
      "width": 600,
      "height": 900,
-     "bytes": 75409,
-     "sha256": "8d192755db6ff4b75c8692dbc06733149a2a03987a722106bc56e1948cbb4715"
+     "bytes": 77765,
+     "sha256": "c1f3311e469e4ab2bc56d951fa3f7c58144f03f92a917619eab4d6c912d751c1"
     }
    ]
   },
@@ -7068,8 +7068,8 @@
      "imageId": 34987,
      "width": 900,
      "height": 600,
-     "bytes": 63398,
-     "sha256": "7c6e38997ada7aef9e39ad9b35b08b4be5b23e2d051eaf4aae8f8aab6df3c410"
+     "bytes": 60115,
+     "sha256": "124b0feb1ecd1aa443ae4be266b114d96593b5e1cbdb1ad6ca0cfbec39e302df"
     },
     {
      "file": "images/plates/water-oak/quni_001_lvd.jpg",
@@ -7083,8 +7083,8 @@
      "imageId": 49435,
      "width": 600,
      "height": 900,
-     "bytes": 72714,
-     "sha256": "8b98d2d9e635cbef89198fc3726efa4cbe2828e510174c3968d767ab0060a81f"
+     "bytes": 74998,
+     "sha256": "26db2acb2ff8d3ef3f3a98383616c9c0a6861bc8adc2c3aa34d3d6e229e36558"
     }
    ]
   },
@@ -7126,8 +7126,8 @@
      "imageId": 6689,
      "width": 900,
      "height": 600,
-     "bytes": 77163,
-     "sha256": "0e76981356d902bdee19570f7865fe2bf711b0f3f5c0129db698ec3d650aff85"
+     "bytes": 72707,
+     "sha256": "353caed851f0c9764f961c4619da8b051068862849df54c41e6002794ddd6c40"
     },
     {
      "file": "images/plates/bitternut-hickory/caco15_003_lvd.jpg",
@@ -7141,8 +7141,8 @@
      "imageId": 45069,
      "width": 600,
      "height": 900,
-     "bytes": 75964,
-     "sha256": "d18128f279ebcf166e4cfb5798b0bae337563dc58a66b1980fccc54a6b304b9f"
+     "bytes": 77244,
+     "sha256": "878a5760d7cba6bf4765c5c0495bf7e402a18d079842b540bcc2ca940776023c"
     }
    ]
   },
@@ -7169,8 +7169,8 @@
      "imageId": 8368,
      "width": 600,
      "height": 900,
-     "bytes": 71296,
-     "sha256": "eda599692a4f774502b214c8a7c49e9a01dcf653f4ad0ac252f3dc653b9a6b9d"
+     "bytes": 67045,
+     "sha256": "a520888d6cc0697ddf5d50c881281d869d031aa4d9b9fe9e5d9aca27e93eeda6"
     },
     {
      "file": "images/plates/mockernut-hickory/cato6_003_lvp.jpg",
@@ -7199,8 +7199,8 @@
      "imageId": 8365,
      "width": 600,
      "height": 900,
-     "bytes": 75840,
-     "sha256": "00ad35f1ec6f79837e8acecb9a62a60c3b24b8b0f5d31921c47d72917b2cdff2"
+     "bytes": 78368,
+     "sha256": "53dae3b40e62f796986bda184ab5d3d54c171685fdfc17c3439a344ae7ca685a"
     }
    ]
   },
@@ -7227,8 +7227,8 @@
      "imageId": 17552,
      "width": 900,
      "height": 600,
-     "bytes": 41551,
-     "sha256": "a80ea7e668703257fee6a327a3db4ca79d63be39eb050a9f903b75aa2d22ba04"
+     "bytes": 39566,
+     "sha256": "67373231c6f4bad80569d449f4469e229c922ef70ebd771a234f1129e85afcde"
     },
     {
      "file": "images/plates/white-ash/fram2_003_lvp.jpg",
@@ -7242,8 +7242,8 @@
      "imageId": 17553,
      "width": 600,
      "height": 900,
-     "bytes": 48770,
-     "sha256": "ba8f709af2c2d5a48680870eb407be83c71e8e74aca24ac47d5bcc02602a122e"
+     "bytes": 47042,
+     "sha256": "e1290d44af72cc79efbe965493603ca04f0b60d42749a14a16115a0398d2ea1f"
     },
     {
      "file": "images/plates/white-ash/fram2_001_lvd.jpg",
@@ -7257,8 +7257,8 @@
      "imageId": 46682,
      "width": 600,
      "height": 900,
-     "bytes": 79207,
-     "sha256": "10b8964dbe8915014cb9d8331447c3e71c21a00a260a2b08cccafe0fab58fdd0"
+     "bytes": 74850,
+     "sha256": "2ae87aba348f53af12cace844274dc601058b8d02bf20a15f5a9dd09779d41c0"
     }
    ]
   },
@@ -7283,10 +7283,10 @@
      "provider": "USDA NRCS Wetland Science Institute (WSI) - Midwest wetland flora: Field office illustrated guide to plant species (1989)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 17752,
-     "width": 600,
-     "height": 900,
-     "bytes": 81878,
-     "sha256": "fa42b2ded4d185d0efc05d7fd3a5f0da9f310a6f2d272e0b248fa3f58edae046"
+     "width": 533,
+     "height": 800,
+     "bytes": 77082,
+     "sha256": "023aebc28440b40b2a517f36b432d703e4d5d86fa84d690970630c7d864bae20"
     },
     {
      "file": "images/plates/green-ash/frpe_010_lvp.jpg",
@@ -7298,10 +7298,10 @@
      "provider": "USDA Forest Service",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 17759,
-     "width": 600,
-     "height": 900,
-     "bytes": 75811,
-     "sha256": "7b4c6baff1bf108bc329868ddd94cbfb9ecdbbcb989fbc0106ec30d446ba621d"
+     "width": 533,
+     "height": 800,
+     "bytes": 73096,
+     "sha256": "2289998fd0f6de92716079ecfb7ae0addf8b158e1b09cc120429837d17c1d6de"
     }
    ]
   },
@@ -7328,8 +7328,8 @@
      "imageId": 597,
      "width": 600,
      "height": 900,
-     "bytes": 69863,
-     "sha256": "880353795e60001632ea2c0d454c1f87ad850a96d169d036713a88db3c39bd0c"
+     "bytes": 65587,
+     "sha256": "45e928152fd56bf606d68b37418a6ad645e824bef9d041391f422588142e2515"
     },
     {
      "file": "images/plates/red-maple/acru_007_lvp.jpg",
@@ -7341,10 +7341,10 @@
      "provider": "USDA Forest Service",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 600,
-     "width": 600,
-     "height": 900,
-     "bytes": 107109,
-     "sha256": "0014f1bac9c834b8828a78b90094077685c4836a63bd6ed5eb690aba131e7773"
+     "width": 480,
+     "height": 720,
+     "bytes": 77884,
+     "sha256": "7767b426c248e03bc18d872507dbfa26f386a04b13d3fde9ebaff8709ecb0099"
     },
     {
      "file": "images/plates/red-maple/acru_001_lvd.jpg",
@@ -7358,8 +7358,8 @@
      "imageId": 43926,
      "width": 600,
      "height": 900,
-     "bytes": 72174,
-     "sha256": "e4d40b501c8f3ab2c2de7d0d50f2e410fac8771bdb410b20b0ea9de9ee30a24b"
+     "bytes": 74687,
+     "sha256": "0c97643522796642faa73e58fb71aa223fbb700f4cee41b5cecd6533c5b7fad9"
     }
    ]
   },
@@ -7386,8 +7386,8 @@
      "imageId": 629,
      "width": 900,
      "height": 600,
-     "bytes": 76303,
-     "sha256": "1e98d40b3fa0e812a213fa053e0b847c6cc2f54dd0e8b5a9ad2661e76f77204b"
+     "bytes": 73155,
+     "sha256": "1f80458d57d7c448a0da4f0611406102f49edc358feef2f527f8af53be6a69db"
     },
     {
      "file": "images/plates/silver-maple/acsa2_005_lvp.jpg",
@@ -7399,10 +7399,10 @@
      "provider": "ND State Soil Conservation Committee",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 632,
-     "width": 600,
-     "height": 900,
-     "bytes": 96749,
-     "sha256": "b5bbaccf5c38ae02becfd74fc98d781f3a263f2ecd87e54149bd23e8e6f7963a"
+     "width": 533,
+     "height": 800,
+     "bytes": 77036,
+     "sha256": "e693ec96226018f5cc832c5eb8bef28dc9c42ef6169d551ebdd7394ee9914d9f"
     },
     {
      "file": "images/plates/silver-maple/acsa2_001_lvd.jpg",
@@ -7416,8 +7416,8 @@
      "imageId": 43928,
      "width": 600,
      "height": 900,
-     "bytes": 73832,
-     "sha256": "170149b89f4e5386ffe9cb22b2c98c09e4afbe6bd423c8fcc416092dc074a545"
+     "bytes": 68852,
+     "sha256": "9e2cadb667170537825df5d2fba887ef1f2b5d2fc2c0c015d03f243814efcbc9"
     }
    ]
   },
@@ -7444,8 +7444,8 @@
      "imageId": 489,
      "width": 900,
      "height": 600,
-     "bytes": 76947,
-     "sha256": "49c6d18faa5400c786694d2d9e44d18857df0972fcce803aeb791efd7d30990e"
+     "bytes": 78118,
+     "sha256": "e6c8cc31587de7182248792fdce76ada4666a96b9f2bb6a71c99079075530afe"
     },
     {
      "file": "images/plates/box-elder/acne2_005_lhp.jpg",
@@ -7457,10 +7457,10 @@
      "provider": "ND State Soil Conservation Committee",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 488,
-     "width": 900,
-     "height": 600,
-     "bytes": 110391,
-     "sha256": "ed0d5c1b6c7a5e9f9568184d0e4353a4e282dbc0387959496ca0787a5815af28"
+     "width": 720,
+     "height": 480,
+     "bytes": 73202,
+     "sha256": "b25fdb65ca972c33bf5b00c8cbcfbb8291c0906f0897074a378db9ec73102cff"
     }
    ]
   },
@@ -7487,8 +7487,8 @@
      "imageId": 5128,
      "width": 900,
      "height": 600,
-     "bytes": 57450,
-     "sha256": "202c4dbe7b337f42b5eea9ac5bc7f6bfd37903e42e7ae8f3760ebe9d7aabd790"
+     "bytes": 54922,
+     "sha256": "e6ed0466474da3d9e73de44059501952310b285b057078d73e187b56e971a370"
     },
     {
      "file": "images/plates/yellow-birch/beal2_004_lvp.jpg",
@@ -7517,8 +7517,8 @@
      "imageId": 44734,
      "width": 600,
      "height": 900,
-     "bytes": 79960,
-     "sha256": "22f2abb5232f86f8369b4874ceea032c10abbec789f54e8592d66d27d849d134"
+     "bytes": 76600,
+     "sha256": "d011d5fb8ebd69df40803820cf5b865022f3ca989d9f06e39ae5e1bd9ac07645"
     }
    ]
   },
@@ -7545,8 +7545,8 @@
      "imageId": 18652,
      "width": 900,
      "height": 600,
-     "bytes": 37089,
-     "sha256": "2e9d2d253fdd1f64575ebf16212799140f538bd680d9e02be12f9cf511a37289"
+     "bytes": 35397,
+     "sha256": "6b1f59ac4c831708bf2e148915147371cbcf0aa7e1a20f0890cdee640f33a4e9"
     },
     {
      "file": "images/plates/honey-locust/gltr_003_lhp.jpg",
@@ -7573,10 +7573,10 @@
      "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 46875,
-     "width": 600,
-     "height": 900,
-     "bytes": 98520,
-     "sha256": "266344ecce52d20d7679627295405deb7551da5d3a5072f598584858b23026c2"
+     "width": 480,
+     "height": 720,
+     "bytes": 76188,
+     "sha256": "b1cbcf814791b5da0af550293544fda93848a07aa09dddab712a06422d48c90e"
     }
    ]
   },
@@ -7603,8 +7603,8 @@
      "imageId": 25302,
      "width": 600,
      "height": 900,
-     "bytes": 70946,
-     "sha256": "cf7af689588d38474d5a97d004d3a7166ad3e02d544fc21626c09290cd52d8c9"
+     "bytes": 68685,
+     "sha256": "8c5232defe40ca4d55a213ebbf63631fc26979956af278ab7a7fc235f0407a35"
     },
     {
      "file": "images/plates/osage-orange/mapo_025_lhp.jpg",
@@ -7631,10 +7631,10 @@
      "provider": "USDA Forest Service",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 25305,
-     "width": 600,
-     "height": 900,
-     "bytes": 86304,
-     "sha256": "f1b3348e5c60439f93521f4e0d6fd784de5e7dfa917af5d1774f41a0a4c8e24c"
+     "width": 533,
+     "height": 800,
+     "bytes": 75376,
+     "sha256": "140d9316328c8f7d9abbaf8c0a0c3680384283ac8299e17b28f2d8c5e8c64a98"
     }
    ]
   },
@@ -7660,10 +7660,10 @@
      "provider": "USDA NRCS Wetland Science Institute (WSI) - Midwest wetland flora: Field office illustrated guide to plant species (1989)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 8818,
-     "width": 600,
-     "height": 900,
-     "bytes": 76576,
-     "sha256": "3d1ef2c1e56b3f47455b64ae74ebdd88493fc732dab4daff01cba433f98a0c38"
+     "width": 533,
+     "height": 800,
+     "bytes": 72911,
+     "sha256": "69f258a10c1c55987334a8b6308e3e183435c0851304ed9f0ed82ebf9f84512b"
     },
     {
      "file": "images/plates/hackberry/ceoc_003_lvp.jpg",
@@ -7675,10 +7675,10 @@
      "provider": "USDA NRCS Wetland Science Institute (WSI) - Midwest wetland flora: Field office illustrated guide to plant species (1989)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 8819,
-     "width": 600,
-     "height": 900,
-     "bytes": 77394,
-     "sha256": "3f2dca8990c801809cb5992c79757801bad6fd90b7941e062983eb88e66cf32a"
+     "width": 533,
+     "height": 800,
+     "bytes": 74417,
+     "sha256": "fcb285f76f029329eaa78627a2e949ba2feb124687bf4a9653bee76443b5d145"
     }
    ]
   },
@@ -7703,10 +7703,10 @@
      "provider": "USDA NRCS Wetland Science Institute (WSI) - Southern wetland flora: Field office guide to plant species (1991)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 42092,
-     "width": 600,
-     "height": 900,
-     "bytes": 86851,
-     "sha256": "352f765395ec0d2f8a0b3804a22d8b4df799268c90e32f9e78281bf6c4be5340"
+     "width": 533,
+     "height": 800,
+     "bytes": 76990,
+     "sha256": "8d1e6d1177dbb2c94f25015e3246ff183e50c3f237a3845c9f43b0fe852449b9"
     }
    ]
   },
@@ -7733,8 +7733,8 @@
      "imageId": 42167,
      "width": 900,
      "height": 600,
-     "bytes": 77764,
-     "sha256": "b293c7fe1b4e7dccb73dca9d7c15803f20ad4961d895184c30b39f302faa46c5"
+     "bytes": 74843,
+     "sha256": "f441f540ece02e5014710aca868bf858b8e8e3c48787c4c47c8e1769e78d2ba1"
     },
     {
      "file": "images/plates/siberian-elm/ulpu_001_lvp.jpg",
@@ -7746,10 +7746,10 @@
      "provider": "ND State Soil Conservation Committee",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 42166,
-     "width": 600,
-     "height": 900,
-     "bytes": 104862,
-     "sha256": "189e0c8352867ab5b21d01c92dd21fb6c50fc97a8c8b84df9ef863cf1063c244"
+     "width": 480,
+     "height": 720,
+     "bytes": 76746,
+     "sha256": "06a418d550d18710dd363d5e0b03e0e1f7b7b631ad94f9c8adff519c9b03fb32"
     },
     {
      "file": "images/plates/siberian-elm/ulpu_005_lhp.jpg",
@@ -7763,8 +7763,8 @@
      "imageId": 42170,
      "width": 900,
      "height": 600,
-     "bytes": 24896,
-     "sha256": "cbbde58331ef0c6ec379ef6544b75b1b105d5dae3a75c69f2b3e96d8f4cdb44f"
+     "bytes": 23994,
+     "sha256": "3ba582800641fff3442a030b056cbdb859cffa457f21845d4c38bf6c11cf098d"
     }
    ]
   },
@@ -7789,10 +7789,10 @@
      "provider": "USDA NRCS Wetland Science Institute (WSI) - Northeast wetland flora: Field office guide to plant species (1995)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 33021,
-     "width": 900,
-     "height": 600,
-     "bytes": 80441,
-     "sha256": "fc9c6f8f85f1f053758cc458a589bbdb4b570771a76761ddcb755f21471dbeeb"
+     "width": 800,
+     "height": 533,
+     "bytes": 75672,
+     "sha256": "7441b65fd68cf7255ef313182ea168fbf7f83210e009a86f3182bc95b6b461f1"
     },
     {
      "file": "images/plates/eastern-cottonwood/pode3_011_lhp.jpg",
@@ -7806,8 +7806,8 @@
      "imageId": 33027,
      "width": 900,
      "height": 600,
-     "bytes": 67773,
-     "sha256": "eafbd2751adad2ee931bafa06c1dba4bd49a37921d5d795e5a6432c2a9e2ce60"
+     "bytes": 64612,
+     "sha256": "f72e2a04edba5be15f7029d422c6ceca91fbc6e0d30d603451801bda03f885bf"
     }
    ]
   },
@@ -7832,10 +7832,10 @@
      "provider": "USDA NRCS Wetland Science Institute (WSI) - Northeast wetland flora: Field office guide to plant species (1995)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 33616,
-     "width": 900,
-     "height": 600,
-     "bytes": 131605,
-     "sha256": "3071ead6a89369edbf70e61e933775ec86bc8ac8108e49843464d75ae6948dcc"
+     "width": 640,
+     "height": 427,
+     "bytes": 75030,
+     "sha256": "a6abc771eb691461e52d09fd879f799e5c5dc034d90e6b99478a63316d9599c9"
     },
     {
      "file": "images/plates/quaking-aspen/potr10_002_lhp.jpg",
@@ -7892,8 +7892,8 @@
      "imageId": 37165,
      "width": 600,
      "height": 900,
-     "bytes": 73294,
-     "sha256": "cc5228011c8f40ce36033283d5fac8dd407ff6692956ee4c69ddfbf41df9bf8f"
+     "bytes": 68830,
+     "sha256": "41f588f822ebeba3c2f2448da29174e8ebddbfbd8399db0d3226fe2b327a381c"
     },
     {
      "file": "images/plates/black-willow/sani_001_lvd.jpg",
@@ -7907,8 +7907,8 @@
      "imageId": 49785,
      "width": 600,
      "height": 900,
-     "bytes": 78848,
-     "sha256": "741caca3a622d2cb2c8e4960e1f7b6aa82a0679969dea5fdc14710650c7a6bee"
+     "bytes": 76950,
+     "sha256": "9d40f16d116f977ce193c3ac22caed0cca2f3715a253ee3d951ce0f18392d750"
     }
    ]
   },
@@ -7933,10 +7933,10 @@
      "provider": "USDA Forest Service",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 32623,
-     "width": 600,
-     "height": 900,
-     "bytes": 82921,
-     "sha256": "3350589294963afc66e0379f223a5bd648a7077657a93f06e4608c3409b3e6d6"
+     "width": 533,
+     "height": 800,
+     "bytes": 78654,
+     "sha256": "c687d15bf2c27f6f21025c5694ddaf92e50fa191367464e773033929b5dcd397"
     },
     {
      "file": "images/plates/american-sycamore/ploc_006_lvp.jpg",
@@ -7950,8 +7950,8 @@
      "imageId": 32624,
      "width": 600,
      "height": 900,
-     "bytes": 79210,
-     "sha256": "d17be61f653c672e7b6e0c1ed70af5c86c696fa86ff1d825b2a3c6e74c1a8f3d"
+     "bytes": 74738,
+     "sha256": "5f2a950be7c75962e37f9ac896b5e1fa2eaa7bd13113b81cccf1ea59e7fef2c4"
     },
     {
      "file": "images/plates/american-sycamore/ploc_001_lvd.jpg",
@@ -7993,8 +7993,8 @@
      "imageId": 23634,
      "width": 600,
      "height": 900,
-     "bytes": 41800,
-     "sha256": "219be97d8777f92322f58a016acd9a7a52a7849d422336512771292c8904c306"
+     "bytes": 40076,
+     "sha256": "76cfb77f8628f162339d040c77230a00b50634168839fb7a798f60a21cb6bab3"
     },
     {
      "file": "images/plates/sweetgum/list2_015_lvp.jpg",
@@ -8006,10 +8006,10 @@
      "provider": "USDA Forest Service",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 23640,
-     "width": 600,
-     "height": 900,
-     "bytes": 111712,
-     "sha256": "269b11298810749daac7f671f981289bcb35bb9ac2f9d408e3fde4f4c70785b0"
+     "width": 480,
+     "height": 720,
+     "bytes": 75729,
+     "sha256": "1550727f1d7e2c34d3ac5df63237c44d7a569a6374c5440e1dfb8bc35bd32054"
     },
     {
      "file": "images/plates/sweetgum/list2_001_lvd.jpg",
@@ -8023,8 +8023,8 @@
      "imageId": 47675,
      "width": 600,
      "height": 900,
-     "bytes": 76633,
-     "sha256": "08aa8bbd56fc5088488ed89e3ecaa685aed4334b2fa7814db13df89f9d345beb"
+     "bytes": 74805,
+     "sha256": "b7d5809c31621cfa35c62844c9f34abc9eb66e9daa2ac3da1ddb36fc9d854a6f"
     }
    ]
   },
@@ -8066,8 +8066,8 @@
      "imageId": 23667,
      "width": 900,
      "height": 600,
-     "bytes": 50862,
-     "sha256": "0cd1a362ffce7be6016b61fb04ece0b2717c8d30157570c38a5602a609fcfccf"
+     "bytes": 48328,
+     "sha256": "92abebdd739abd1cd5c8b52df989750204958e01542e130da60cda31835adc24"
     },
     {
      "file": "images/plates/tuliptree/litu_001_lvd.jpg",
@@ -8109,8 +8109,8 @@
      "imageId": 28423,
      "width": 900,
      "height": 600,
-     "bytes": 47566,
-     "sha256": "362281205b0eab27e2c5b97662bd1cc482fc96235685d13138a56584b4ec1a02"
+     "bytes": 45152,
+     "sha256": "3817b7a75e6b0b855710c2de7ddb9b57adf3fb063561a9f94a93f28c537ece43"
     },
     {
      "file": "images/plates/eastern-hophornbeam/osvi_005_lhp.jpg",
@@ -8124,8 +8124,8 @@
      "imageId": 28424,
      "width": 900,
      "height": 600,
-     "bytes": 78091,
-     "sha256": "f3c417aabd0035166bc8e6e4cda8ae7608241b08427c7dbac6982358f8adc227"
+     "bytes": 75431,
+     "sha256": "e9b72f63eb7b4edc46575719721b48a4f058d6ac93286b4316bcaea6793b3626"
     },
     {
      "file": "images/plates/eastern-hophornbeam/osvi_001_lvd.jpg",
@@ -8137,10 +8137,10 @@
      "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 48353,
-     "width": 600,
-     "height": 900,
-     "bytes": 76343,
-     "sha256": "18c766c43e2ab85af3c3bef4489e7953cc2934db567f46fe6b2ce243767f16ef"
+     "width": 533,
+     "height": 800,
+     "bytes": 79858,
+     "sha256": "d07f2ee7b488fcf1d4e960572c46bee5aaa605869d2803049df8442d302c2afd"
     }
    ]
   },
@@ -8182,8 +8182,8 @@
      "imageId": 6547,
      "width": 900,
      "height": 600,
-     "bytes": 65797,
-     "sha256": "c7352425496c41b593d1e8a25c411de531fed2a7911a2020dc199e3c7c0443a5"
+     "bytes": 61866,
+     "sha256": "aaad6fcfae2bf2f4444a0fcbef9755984596644242e2f4c5bda88f986c7d4e72"
     },
     {
      "file": "images/plates/american-hornbeam/caca18_001_lvd.jpg",
@@ -8197,8 +8197,8 @@
      "imageId": 45041,
      "width": 600,
      "height": 900,
-     "bytes": 78980,
-     "sha256": "fe6c6e7bbbcb6dbe1d6c8e99f16efa54dd38aaeee2ef9be249c92d2cee0ea955"
+     "bytes": 77236,
+     "sha256": "306e29cc2aa990bdb1648166383ac7e9971cf16c59d038adb01e030e34db4279"
     }
    ]
   },
@@ -8225,8 +8225,8 @@
      "imageId": 27315,
      "width": 600,
      "height": 900,
-     "bytes": 77900,
-     "sha256": "fd5f41cdb2b250880a9a949fd347f8b45299a0d8f42f337bb54fe8afda8ce983"
+     "bytes": 73253,
+     "sha256": "e9e61ff6d8d38f9e5869e1a047ead1fba6b9dc82f1205774b1bb93f023e52fb3"
     },
     {
      "file": "images/plates/black-tupelo/nysy_008_lvp.jpg",
@@ -8240,8 +8240,8 @@
      "imageId": 27316,
      "width": 600,
      "height": 900,
-     "bytes": 71975,
-     "sha256": "104d920b66f5d0828981dd327d1580572596c0e73751a8ef656dd5b36ea6b47e"
+     "bytes": 67647,
+     "sha256": "d1ff05011dd784ed3016d203ddefbc74ef0e32c1d96222f64eab9a0e85aebf27"
     },
     {
      "file": "images/plates/black-tupelo/nysy_001_lvd.jpg",
@@ -8255,8 +8255,8 @@
      "imageId": 48258,
      "width": 600,
      "height": 900,
-     "bytes": 76394,
-     "sha256": "d6bae5c8ab628da3f15673631ba9fe991d56b63be32dfb6662c384288182a7de"
+     "bytes": 74570,
+     "sha256": "85217a690ec9d2dde34b7b144b98259e73ec6dc23c64f0665bd8419371ab50d4"
     }
    ]
   },
@@ -8283,8 +8283,8 @@
      "imageId": 14619,
      "width": 900,
      "height": 600,
-     "bytes": 78696,
-     "sha256": "349ac4f5f9b34282d2237a610f284119926f38cb0b79392de146aab294e72e72"
+     "bytes": 76432,
+     "sha256": "12121b6405072df09927af5904c266fd32d39dd612e13805057ddff285d0747f"
     },
     {
      "file": "images/plates/russian-olive/elan_006_lvp.jpg",
@@ -8296,10 +8296,10 @@
      "provider": "ND State Soil Conservation Committee",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 14618,
-     "width": 600,
-     "height": 900,
-     "bytes": 105246,
-     "sha256": "deca98fc14fed046e40bfbcde0e63afbcad165a84c94c61b15d4fc213d78f933"
+     "width": 480,
+     "height": 720,
+     "bytes": 75626,
+     "sha256": "ab8cc0fc5676d1715707e5a2493f1d2eee0e9da1b80c80fd1a1e64b09f810b0f"
     },
     {
      "file": "images/plates/russian-olive/elan_009_lhp.jpg",
@@ -8313,8 +8313,8 @@
      "imageId": 14621,
      "width": 900,
      "height": 600,
-     "bytes": 76262,
-     "sha256": "bf642dfd2f60c6e27648091c7d8aa2bfcccc0ed01d0e1af304bf18e2259c35ef"
+     "bytes": 77462,
+     "sha256": "4e2ace51005b9d22ae5d8c50c14c9a84890a3993b2157e45d6302671f0983448"
     }
    ]
   },
@@ -8354,10 +8354,10 @@
      "provider": "ND State Soil Conservation Committee",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 21831,
-     "width": 600,
-     "height": 900,
-     "bytes": 111710,
-     "sha256": "8edb97ff72aa1817b9c214c0e156a43ab86bc8ad0126c0ab967fba55cc3085b0"
+     "width": 480,
+     "height": 720,
+     "bytes": 73917,
+     "sha256": "c10b4f3cb4b485d64f7524f28c7bd3b54ff2093504aa856d5db21728ec92076d"
     },
     {
      "file": "images/plates/eastern-redcedar/juvi_001_lvd.jpg",
@@ -8371,8 +8371,8 @@
      "imageId": 47403,
      "width": 600,
      "height": 900,
-     "bytes": 76652,
-     "sha256": "5698b7ce714401f709749a35a3797e26c0f083cdcc6233796329f87739ab9491"
+     "bytes": 79088,
+     "sha256": "3b36bac7aa63f094f0935d32b610fd6a271d202f3d1aabe0f3f1e6f3eaee24cd"
     }
    ]
   },
@@ -8399,8 +8399,8 @@
      "imageId": 21788,
      "width": 900,
      "height": 600,
-     "bytes": 77734,
-     "sha256": "ef83300b162a359190b9552390d8465df4bb2ff1f0af6900c8b0a9df96e9d795"
+     "bytes": 73592,
+     "sha256": "17a7c60ad5a2b262855465a24d2b4fd20f39e186525f60429755fadd05dfc94c"
     },
     {
      "file": "images/plates/rocky-mountain-juniper/jusc2_001_lvp.jpg",
@@ -8412,10 +8412,10 @@
      "provider": "ND State Soil Conservation Committee",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 21785,
-     "width": 600,
-     "height": 900,
-     "bytes": 120910,
-     "sha256": "d5a84292d99a0d371983c7faaed455ba24eaecbd0f71fe519a2f16f097f970ea"
+     "width": 480,
+     "height": 720,
+     "bytes": 74196,
+     "sha256": "054fa2ae5a8867af3c39a67d81c3f9b272b4476f66c529d5f0c5d256abf02b1f"
     },
     {
      "file": "images/plates/rocky-mountain-juniper/jusc2_007_lvp.jpg",
@@ -8427,10 +8427,10 @@
      "provider": "USDA Forest Service",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 21791,
-     "width": 600,
-     "height": 900,
-     "bytes": 80725,
-     "sha256": "9932abf82bc73cea49b7df439ad67652fe2f11d705e0fdc171fc3e027e23aae1"
+     "width": 533,
+     "height": 800,
+     "bytes": 74674,
+     "sha256": "fb21018149815ce994ecf54211d6556c78d6c5476116a04d1ef418660474f793"
     }
    ]
   },
@@ -8455,10 +8455,10 @@
      "provider": "ND State Soil Conservation Committee",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 32109,
-     "width": 900,
-     "height": 600,
-     "bytes": 103810,
-     "sha256": "2d5ebd14c240fcedc9b2f2fd4656b65c80e6b995c3ed63edacef5c7cebc420c8"
+     "width": 720,
+     "height": 480,
+     "bytes": 77655,
+     "sha256": "6ec218e3d9f83daf1b1349bdff22f69417e3cd2188a96dc323372a6fd969edc5"
     },
     {
      "file": "images/plates/ponderosa-pine/pipo_024_lhp.jpg",
@@ -8470,10 +8470,10 @@
      "provider": "ND State Soil Conservation Committee",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 32107,
-     "width": 900,
-     "height": 600,
-     "bytes": 75915,
-     "sha256": "b7c7000c621b81fb582c18771f07a4938fb6caf7f974c8903f08463f62c63765"
+     "width": 800,
+     "height": 533,
+     "bytes": 76487,
+     "sha256": "257dc67009251d08597787f8aeca0b5203f464287fb6d01d58a96a2f71b518a5"
     },
     {
      "file": "images/plates/ponderosa-pine/pipo_001_lvd.jpg",
@@ -8485,10 +8485,10 @@
      "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 48980,
-     "width": 600,
-     "height": 900,
-     "bytes": 89102,
-     "sha256": "6a7abb704a8e829dc9452dc5331b8ddc3aaa0814a9db1eb1e8aa1e63fc655001"
+     "width": 533,
+     "height": 800,
+     "bytes": 77538,
+     "sha256": "b1662e95462006bc3c267560760763de0716efa613f5d301eb79cfbc612589b0"
     }
    ]
   },
@@ -8513,10 +8513,10 @@
      "provider": "USDA Forest Service",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 31647,
-     "width": 600,
-     "height": 900,
-     "bytes": 123491,
-     "sha256": "7c9d15bbede16a19dface4f984438d01ba64245ba36b287f516edcfd3f9836e3"
+     "width": 427,
+     "height": 640,
+     "bytes": 77804,
+     "sha256": "c9b667b6788ccf511fde9246fbedec7acbc857d055feb33bd52da5d54b848b50"
     },
     {
      "file": "images/plates/lodgepole-pine/pico_009_lhp.jpg",
@@ -8528,10 +8528,10 @@
      "provider": "USDA Forest Service",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 31644,
-     "width": 900,
-     "height": 600,
-     "bytes": 75440,
-     "sha256": "c45fa007e25984ea9af0927b1ba2edb91cf15cacc2af8ca41adac182e534e4de"
+     "width": 800,
+     "height": 533,
+     "bytes": 73253,
+     "sha256": "ef708377bda35caec2c9e374031738019b871db762e0847269e4fcd408907537"
     }
    ]
   },
@@ -8558,8 +8558,8 @@
      "imageId": 32328,
      "width": 900,
      "height": 600,
-     "bytes": 71601,
-     "sha256": "a09dc2e896aa89136c536db6b9be46d2b5f4e67167fe3d73ecb8da7d74c24ebd"
+     "bytes": 67590,
+     "sha256": "4c6552eca7102863e7fc82dd9c8dc0af41e04940a2611e1bf69159a626b93616"
     },
     {
      "file": "images/plates/loblolly-pine/pita_001_lvd.jpg",
@@ -8571,10 +8571,10 @@
      "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 48993,
-     "width": 600,
-     "height": 900,
-     "bytes": 86316,
-     "sha256": "179b198f6ac79f36aba51d906c09d286d3eb348603a6a82730c9349c50f87549"
+     "width": 533,
+     "height": 800,
+     "bytes": 74158,
+     "sha256": "28841a54b8b6329bfcf89bdea18474d4cf9b9e6fdd6826a0ae2301fb089fb70a"
     }
    ]
   },
@@ -8601,8 +8601,8 @@
      "imageId": 31719,
      "width": 900,
      "height": 600,
-     "bytes": 74022,
-     "sha256": "cc75e0bf7bb753cf76e9bc9e866a68ce77d699ddeb9c8200e1ca719bf4feefc7"
+     "bytes": 69265,
+     "sha256": "bc0b6646e7ca5f4251ae489e8a76b7beef4c663e4616afb108793007b569b3b3"
     },
     {
      "file": "images/plates/shortleaf-pine/piec2_001_lvd.jpg",
@@ -8614,10 +8614,10 @@
      "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 48967,
-     "width": 600,
-     "height": 900,
-     "bytes": 76499,
-     "sha256": "d9da600bc00a85b42aaa268631409a2867dc6020f05fcb5f94c034bb02ef94cf"
+     "width": 533,
+     "height": 800,
+     "bytes": 74232,
+     "sha256": "f2fccde43c4e0aad1270180f8f87380510a078b4bde414bec969e703f7a22455"
     }
    ]
   },
@@ -8644,8 +8644,8 @@
      "imageId": 31551,
      "width": 900,
      "height": 600,
-     "bytes": 46870,
-     "sha256": "b308930811dbffe4b7c68646383cdfa29b08813b67c2329e35ecd52c6e897866"
+     "bytes": 44597,
+     "sha256": "b9ef6482d25ee9eec4e0f6ceedeea89792dec3d91b0585dc85ff6a16be48287a"
     },
     {
      "file": "images/plates/jack-pine/piba2_003_lhp.jpg",
@@ -8672,10 +8672,10 @@
      "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 48962,
-     "width": 600,
-     "height": 900,
-     "bytes": 83288,
-     "sha256": "2c606f7a947822be94b48941d146b047eb49b763eb031f9c18b5cb9c98ed63bc"
+     "width": 533,
+     "height": 800,
+     "bytes": 77257,
+     "sha256": "41eb66cb7eb71d0e5726c90376f4664c6004603456906505509f0f3f4ba0586b"
     }
    ]
   },
@@ -8702,8 +8702,8 @@
      "imageId": 32197,
      "width": 600,
      "height": 900,
-     "bytes": 78306,
-     "sha256": "602d1e5df3a407fa99d0fc66703957fa8ed37713c8ac6865ba09c2e4b025e851"
+     "bytes": 73967,
+     "sha256": "45cf1ae1fba1b4ef7e28011378da83dc163e6481af282c8bfd02c1e3469794b6"
     },
     {
      "file": "images/plates/red-pine/pire_006_lvp.jpg",
@@ -8715,10 +8715,10 @@
      "provider": "USDA Forest Service",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 32198,
-     "width": 600,
-     "height": 900,
-     "bytes": 73541,
-     "sha256": "16f99e09bfc3cc180c1d0c3505d687612ed7885547ce643d1b74a71bf4cffc6d"
+     "width": 533,
+     "height": 800,
+     "bytes": 73503,
+     "sha256": "481c0c440f0491bb4513113b5dd2e259c9fc1509672319a6835eb7295974bad2"
     },
     {
      "file": "images/plates/red-pine/pire_001_lvd.jpg",
@@ -8732,8 +8732,8 @@
      "imageId": 48984,
      "width": 600,
      "height": 900,
-     "bytes": 78863,
-     "sha256": "cba10e540da36ca0deb8beb61d2ceaf2646ff5c480912cea5362d7ae81077bed"
+     "bytes": 75498,
+     "sha256": "a284a15a98a3058b531404fb92aad99662b2a60b42671ac05bacf58dd121149f"
     }
    ]
   },
@@ -8760,8 +8760,8 @@
      "imageId": 31835,
      "width": 600,
      "height": 900,
-     "bytes": 79698,
-     "sha256": "ec456a37731b72fd78f123ca75909cc5cdf022d4376831dcd20518f0a7115ae7"
+     "bytes": 76346,
+     "sha256": "cb0b49fad9f65071b1216ff225f378aaa386996b9d1578b3ca58c138ed3e5e1d"
     },
     {
      "file": "images/plates/white-spruce/pigl_003_lvp.jpg",
@@ -8773,10 +8773,10 @@
      "provider": "USDA Forest Service",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 31836,
-     "width": 600,
-     "height": 900,
-     "bytes": 112951,
-     "sha256": "64c284e3951d8a0d2523b7cc6ce52b1f0fefdf64f7bf20edac07bd76962f1949"
+     "width": 427,
+     "height": 640,
+     "bytes": 77980,
+     "sha256": "b4b944e0394f02979e319beaac456b6774ded49c92e18742a215980d3950b62d"
     },
     {
      "file": "images/plates/white-spruce/pica10_001_lvd.jpg",
@@ -8790,8 +8790,8 @@
      "imageId": 48964,
      "width": 600,
      "height": 900,
-     "bytes": 78027,
-     "sha256": "87c3d44e57292b26908c10ebf77ea1e6d5a1a5f65c78c46c1f1c9bf5f125096f"
+     "bytes": 74315,
+     "sha256": "dcbf16ff48d2d31a04306a12e0a8f93676a13dd75856984759def0d2b8a499ed"
     }
    ]
   },
@@ -8818,8 +8818,8 @@
      "imageId": 31960,
      "width": 600,
      "height": 900,
-     "bytes": 77724,
-     "sha256": "0514e3e369fc5f5d98d28b3528c67fbbafd6b6874ce04dfdf1789c20f76d1dbb"
+     "bytes": 72739,
+     "sha256": "76d7472252aa32c526afd2b00f646cc38f6d8e5b0269159f7bd3c69e12efe684"
     },
     {
      "file": "images/plates/black-spruce/pima_004_lvp.jpg",
@@ -8831,10 +8831,10 @@
      "provider": "USDA Forest Service",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 31961,
-     "width": 600,
-     "height": 900,
-     "bytes": 85246,
-     "sha256": "f6e8d00f5cd3d6c06aa9e6da030818413ef50044076e7e9ed2b8053012f8b410"
+     "width": 533,
+     "height": 800,
+     "bytes": 78543,
+     "sha256": "5bac5ea6868f6f7a82b9467d75a5200a28a57d6d359cee51a97f172085773615"
     },
     {
      "file": "images/plates/black-spruce/pima_001_lvd.jpg",
@@ -8848,8 +8848,8 @@
      "imageId": 48975,
      "width": 600,
      "height": 900,
-     "bytes": 78967,
-     "sha256": "4b6aa568b3c1a0a75c3ae58a38ca97faae08c5304e6a6619f917a38dfb767806"
+     "bytes": 73834,
+     "sha256": "926150322090eb4e659f6d2b9ee284b2117e7e97500a9067fa2225c39fd86d2f"
     }
    ]
   },
@@ -8874,10 +8874,10 @@
      "provider": "USDA NRCS Wetland Science Institute (WSI) - Northeast wetland flora: Field office guide to plant species (1995)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 22194,
-     "width": 600,
-     "height": 900,
-     "bytes": 79826,
-     "sha256": "10326a22c8119a530e1467fc088e81f3f82be6df992cab67d7b1e7e592fd0c90"
+     "width": 533,
+     "height": 800,
+     "bytes": 74158,
+     "sha256": "8853d47965e34fe27b12cdd2d5227461b07bc9dbeeac70df7c612c618682167a"
     },
     {
      "file": "images/plates/tamarack/lala_005_lvp.jpg",
@@ -8891,8 +8891,8 @@
      "imageId": 22195,
      "width": 600,
      "height": 900,
-     "bytes": 77617,
-     "sha256": "e0583e9922dea3d0077386c9731c8ab4b3868ad844be338a88cc9df32cb09f47"
+     "bytes": 79548,
+     "sha256": "112f04f041e367816271f6c8aa33122bdb57fa7047d05c340e0e4aff84888c2b"
     },
     {
      "file": "images/plates/tamarack/lala_001_lvd.jpg",
@@ -8906,8 +8906,8 @@
      "imageId": 47482,
      "width": 600,
      "height": 900,
-     "bytes": 79279,
-     "sha256": "3c6679fd915394c9b7a7aa21df8208e18aac13689a8497ad55f601188a2c4099"
+     "bytes": 75894,
+     "sha256": "5cfbde546c3e3b2bf5d0535dc3cf440184ee8377119579b8d53cfaabe40108f5"
     }
    ]
   },
@@ -8934,8 +8934,8 @@
      "imageId": 40823,
      "width": 600,
      "height": 900,
-     "bytes": 76418,
-     "sha256": "e0e149d5ce10b1ccc9c5345f7b9f96449c117c2d5cc9ad93e63aea5cac27eced"
+     "bytes": 78612,
+     "sha256": "cc56dc3776e326cae21e0423485302b1a57dec4dd8768efb95ef9fa7a693e64a"
     },
     {
      "file": "images/plates/northern-white-cedar/thoc2_002_lvp.jpg",
@@ -8947,10 +8947,10 @@
      "provider": "ND State Soil Conservation Committee",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 40813,
-     "width": 600,
-     "height": 900,
-     "bytes": 87889,
-     "sha256": "b36f931c46653a723e8972a953ccef792215577884abb0301aeafd1b140c16d2"
+     "width": 533,
+     "height": 800,
+     "bytes": 78194,
+     "sha256": "75e449b371a82ac82e1f3cf761e6482ac3d0f447310808277c963a83ce7a24e2"
     },
     {
      "file": "images/plates/northern-white-cedar/thoc2_001_lvd.jpg",
@@ -8962,10 +8962,10 @@
      "provider": "Kentucky Native Plant Society - An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. (1913)",
      "license": "Public domain: the PLANTS image record carries Copyright=false (US Government work or contributed to the public domain). Checked per image at build time; an image whose record turns to Copyright=true is refused. Photographer or illustrator credit recorded per image.",
      "imageId": 50477,
-     "width": 600,
-     "height": 900,
-     "bytes": 78669,
-     "sha256": "7fdd7938d08a5dce8dab2ce5de210049a35a6dd3c949899a5648ccebc8eea8e3"
+     "width": 533,
+     "height": 800,
+     "bytes": 79472,
+     "sha256": "13922cb7eb80c313668d9614e32b443f443648d38d4fc3981e5a331f29bd380b"
     }
    ]
   }
