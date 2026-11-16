@@ -13,7 +13,8 @@
 //               → a short plain paragraph built only from the request's own words (no digits).
 //               The first request is answered 529 overloaded once to exercise the retry path when
 //               opts.flaky is set.
-//   /fetch      public-domain-ish keys → a small HTML document; keys containing "pdf" → a tiny PDF;
+//   /fetch      a small HTML document; keys containing "pdf" or listed in opts.pdfKeys → a valid
+//               one-page PDF;
 //               licence class "blocked" (per opts.blocked set) → 403.
 //   /fetch-map  → 403 (maps are never faked).
 
@@ -53,7 +54,25 @@ function messageEvents(text, { thinking = true } = {}) {
   return ev;
 }
 
-const TINY_PDF = '%PDF-1.4\n1 0 obj<</Type/Catalog/Pages 2 0 R>>endobj 2 0 obj<</Type/Pages/Count 0/Kids[]>>endobj\ntrailer<</Root 1 0 R>>\n%%EOF\n';
+// A valid one-page PDF with one line of text (correct xref offsets), so tests can render it.
+export function makeTestPdf(line = 'Dry-run source document') {
+  const text = String(line).replace(/[()\\]/g, '');
+  const stream = `BT /F1 24 Tf 72 700 Td (${text}) Tj ET`;
+  const objs = [
+    '<< /Type /Catalog /Pages 2 0 R >>',
+    '<< /Type /Pages /Kids [3 0 R] /Count 1 >>',
+    '<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>',
+    `<< /Length ${stream.length} >>\nstream\n${stream}\nendstream`,
+    '<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>',
+  ];
+  let out = '%PDF-1.4\n';
+  const offs = [];
+  objs.forEach((o, i) => { offs.push(out.length); out += `${i + 1} 0 obj\n${o}\nendobj\n`; });
+  const x = out.length;
+  out += `xref\n0 ${objs.length + 1}\n0000000000 65535 f \n${offs.map(n => String(n).padStart(10, '0') + ' 00000 n \n').join('')}`;
+  out += `trailer\n<< /Size ${objs.length + 1} /Root 1 0 R >>\nstartxref\n${x}\n%%EOF\n`;
+  return enc.encode(out);
+}
 
 export function dryRunFetch(opts = {}) {
   const calls = { check: 0, messages: 0, fetch: 0, map: 0, requests: [] };
@@ -88,7 +107,7 @@ export function dryRunFetch(opts = {}) {
       calls.fetch++;
       const k = body.source_key;
       if (opts.blocked?.has(k) || /blocked/.test(k)) return new Response('refused', { status: 403 });
-      if (/pdf/.test(k)) return new Response(enc.encode(TINY_PDF), { headers: { 'content-type': 'application/pdf' } });
+      if (/pdf/.test(k) || opts.pdfKeys?.has(k)) return new Response(makeTestPdf(`Dry-run copy of ${k}`.slice(0, 60)), { headers: { 'content-type': 'application/pdf' } });
       const html = `<html><head><title>${k}</title><script>var x=1</script></head><body><nav>menu</nav><h1>Dry-run copy of ${k}</h1><p>This stands in for the publisher's page. <a href="https://example.org/x">A link that must disappear</a> and www.example.org too.</p><ul><li>Item one</li></ul></body></html>`;
       return new Response(html, { headers: { 'content-type': 'text/html; charset=utf-8' } });
     }
