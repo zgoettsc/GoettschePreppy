@@ -16,7 +16,7 @@ sources:
   - university-of-arkansas-cooperative-extension-service-6f780b
   - university-of-arkansas-cooperative-extension-service-857a3c
   - university-of-minnesota-extension-planting-the-veget-acacfa
-  - usda-ars-plant-hardiness-zone-map
+  - usda-phzm-2023
 related: [05-02-season-extension, 05-03-seed-saving, 05-06-foraging-and-deadly-look-alikes, 05-10-container-and-vertical, 05-11-soil-and-compost, 05-12-pollination-and-pests, 05-13-perennials-and-fruit, 05-14-indoor-growing, 05-18-destination-garden-calendar, 03-03-pool-water-desalination, 03-05-rain-and-snow-water, 04-09-winter-cold-storage, 25-01-planting-calendar, 14-03-opsec]
 cards: []
 explainers: []

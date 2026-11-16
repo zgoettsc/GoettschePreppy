@@ -9,7 +9,7 @@ danger_level: caution
 phase: [A, B, C]
 tags: [label, data plate, volts, watts, BTU, fuel can, propane cylinder, tare weight, Drug Facts, expiry date, lot number, food dates, explainer]
 derived_from: [06-07-moving-and-transferring-fuel, 08-09-portable-propane-heaters, 09-03-batteries-and-storage, 03-04-purifying-water, 25-02-conversions-and-math]
-sources: [us-consumer-product-safety-commission-cpsc-promotes-994cab, flame-king-manufacturer-1lb-refillable-lp-cylinder-1-4bb08a, ysn-flame-king-manufacturer-training-program-1a-fill-a69318, fda-otc-drug-facts-label, usda-fsis-food-product-dating, cdc-how-to-make-water-safe-in-an-emergency-5d78b5, us-doe-alternative-fuels-data-center-fuel-properties-84dd21]
+sources: [us-consumer-product-safety-commission-cpsc-promotes-994cab, flame-king-manufacturer-1lb-refillable-lp-cylinder-1-4bb08a, ysn-flame-king-manufacturer-training-program-1a-fill-a69318, fda-otc-drug-facts-label, fsis-food-product-dating, cdc-how-to-make-water-safe-in-an-emergency-5d78b5, us-doe-alternative-fuels-data-center-fuel-properties-84dd21]
 related: [28-07-reading-your-own-gear, 06-07-moving-and-transferring-fuel, 08-09-portable-propane-heaters, 12-07-meds-stockpile, 04-10-rotation-and-inventory, 26-08-expiry-and-rotation-tracker, 29-01-ex01-fuels, 29-02-ex02-batteries-and-power-stations, 29-05-ex05-chlorine-products, 29-07-ex07-refrigerated-medicines]
 cards: [DC-03, DC-04, DC-14]
 explainers: [EX-01, EX-02, EX-05, EX-07]

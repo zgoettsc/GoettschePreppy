@@ -10,7 +10,7 @@ phase: [A, B, C]
 tags: [children, infants, toddlers, cold, hypothermia, frostbite, sleep, car seat, layering, sizing]
 derived_from: [11-02-keeping-kids-warm]
 sources:
-  - american-academy-of-pediatrics-healthychildren-org-h-d59e69
+  - american-academy-of-pediatrics-healthychildren-org-h-7bd7d0
   - american-academy-of-pediatrics-healthychildren-org-w-7400c5
   - nhtsa-car-seats-and-booster-seats-correct-harness-fi-bd0768
   - cdc-preventing-hypothermia-c53e0c

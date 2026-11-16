@@ -18,11 +18,11 @@ sources:
   - who-powdered-infant-formula-2007
   - fda-homemade-infant-formula-advisory
   - ife-core-group-operational-guidance-v3
-  - usda-fsis-food-product-dating
+  - fsis-food-product-dating
   - world-health-organization-the-treatment-of-diarrhoea-49d09e
   - cdc-botulism-prevention-d03ef9
   - nlm-lactmed
-  - american-academy-of-pediatrics-healthychildren-org-h-d59e69
+  - american-academy-of-pediatrics-healthychildren-org-h-7bd7d0
   - usda-hhs-dietary-guidelines-for-americans-2020-2025-4b2013
 related:
   - 20-05-infant-feeding

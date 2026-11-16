@@ -13,7 +13,7 @@ sources:
   - university-of-minnesota-extension-growing-apples-in-645b29
   - university-of-minnesota-extension-fruits-and-vegetab-1b002c
   - sdsu-extension-fruit-variety-recommendations-for-sou-e87fa1
-  - usda-ars-plant-hardiness-zone-map
+  - usda-phzm-2023
 related: [05-01-a-small-high-yield-garden, 05-06-foraging-and-deadly-look-alikes, 05-10-container-and-vertical, 05-12-pollination-and-pests, 05-17-wild-edibles-by-season, 05-18-destination-garden-calendar, 04-04-canning-water-bath, 04-06-dehydrating, 02-04-cl04-food-allergy, 16-02-sharpening, 24-01-skills-checklist]
 cards: []
 explainers: []

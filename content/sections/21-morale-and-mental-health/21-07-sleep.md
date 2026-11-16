@@ -14,7 +14,7 @@ sources:
   - cdc-about-mental-health-0a5e6b
   - cdc-preventing-hypothermia-c53e0c
   - cdc-carbon-monoxide-poisoning-basics-772153
-  - american-academy-of-pediatrics-healthychildren-org-h-d59e69
+  - american-academy-of-pediatrics-healthychildren-org-h-7bd7d0
   - us-fda-fda-drug-safety-communication-diphenhydramine-bab442
 related: [21-01-stress-and-panic, 21-02-long-haul-morale, 21-04-routine-and-structure, 21-05-conflict-between-adults, 20-03-routine-and-schooling, 20-08-kids-and-fear, 20-01-toddler-and-infant-needs, 12-15-mental-health-crisis, 08-01-heating-one-room, 08-02-carbon-monoxide-safety, 08-03-winterizing-the-home, 08-05-hypothermia-frostbite, 08-06-improvised-shelter-warmth, 08-08-wood-heat-operation, 08-09-portable-propane-heaters, 08-10-wick-kerosene-heaters, 11-01-cold-weather-layering, 11-02-keeping-kids-warm, 11-03-staying-dry, 12-03-burns, 30-02-dc01-unvented-heater-overnight, 30-10-dc09-infant-bed-sharing, 02-24-cl24-sleep-apnea-cpap]
 cards: [DC-01, DC-09]

@@ -10,7 +10,7 @@ phase: [A, B, C]
 tags: [decision card, infant, toddler, safe sleep, bed-sharing, cold, warmth, SIDS]
 derived_from: [11-02-keeping-kids-warm, 21-07-sleep, 20-01-toddler-and-infant-needs, 08-01-heating-one-room]
 sources:
-  - american-academy-of-pediatrics-healthychildren-org-h-d59e69
+  - american-academy-of-pediatrics-healthychildren-org-h-7bd7d0
   - american-academy-of-pediatrics-healthychildren-org-h-7bd7d0
   - cdc-preventing-hypothermia-c53e0c
   - cdc-winter-weather-before-during-and-after-13bbd5

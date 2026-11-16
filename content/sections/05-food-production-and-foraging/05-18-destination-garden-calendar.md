@@ -14,7 +14,7 @@ sources:
   - university-of-arkansas-cooperative-extension-service-c96a64
   - university-of-arkansas-cooperative-extension-service-857a3c
   - sdsu-extension-vegetable-gardening-in-south-dakota-p-b8fdbd
-  - usda-ars-plant-hardiness-zone-map
+  - usda-phzm-2023
 related: [05-01-a-small-high-yield-garden, 05-02-season-extension, 05-03-seed-saving, 05-11-soil-and-compost, 05-12-pollination-and-pests, 05-13-perennials-and-fruit, 05-19-destination-foraging-and-hazards, 01-05-choosing-a-destination, 01-04-phase-c-establish, 25-01-planting-calendar, 19-01-document-grab-kit]
 cards: []
 explainers: []
