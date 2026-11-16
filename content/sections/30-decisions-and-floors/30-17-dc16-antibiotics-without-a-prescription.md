@@ -2,7 +2,7 @@
 id: 30-17-dc16-antibiotics-without-a-prescription
 section: 30-decisions-and-floors
 title: "DC-16. Antibiotics without a prescription (stockpiled or veterinary)"
-version: 3
+version: 4
 revised: 2026-11-16
 layer: card
 danger_level: critical
@@ -33,7 +33,7 @@ options:
     label: "Last resort, children included"
     summary: "As the adult option, and also for a child: a clinician's written plan, or only a published child row on 12-22 with the child weighed, the dose checked against the published maximum or adult-dose band, and the liquid's mg per 5 mL read on the bottle. Never worked out at home."
 settings_summary: "Before antibiotics, ordinary wounds and infections killed healthy adults, so many preppers stockpile them, sometimes as fish or farm-animal products. The right antibiotic depends on the infection, allergies and other medicines; the dose depends on weight and kidney function. Most coughs, colds and stomach bugs are viral, and antibiotics do nothing for them. The wrong antibiotic can cause a severe allergic reaction or severe diarrhoea, hide a worsening infection and breed resistance. Animal products are not made or checked for people. Child doses go by weight with a maximum, and liquids differ in strength. What helps most: a clinician's written plan and supply now (removes most of it); clear signs of a serious bacterial infection, human antibiotics and only the published doses printed in this binder (reduces it a lot). Choose never, adults only, or children included."
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "L7 (G28): options now point to the published dose pages 12-22/12-23/12-24; third option for children added; FDA 2023 animal-antimicrobial statement and amoxicillin liquid strengths cited." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "L7 (G28): options now point to the published dose pages 12-22/12-23/12-24; third option for children added; FDA 2023 animal-antimicrobial statement and amoxicillin liquid strengths cited. V1: verified 1 row (amoxicillin label suspension strengths); sepsis signs matched to the current CDC list." }
 ---
 
 # DC-16. Antibiotics without a prescription (stockpiled or veterinary)
@@ -47,8 +47,9 @@ what the household decides. It does not choose a drug or a dose. The published d
 
 > **SAFETY.** Children do not have access to firearms, fuel, medications or chlorine products
 > (floor, → 30-01). **Sepsis** (the body's runaway reaction to infection) is an emergency: a
-> person with infection plus confusion, fast breathing, a racing heart, clammy skin or severe
-> pain needs the best care that can be reached, now (CDC, About Sepsis; → 12-04).
+> person with infection plus clammy or sweaty skin, confusion or disorientation, extreme pain or
+> discomfort, fever or shivering or feeling very cold, a high heart rate or weak pulse, or
+> shortness of breath needs the best care that can be reached, now (CDC, About Sepsis; → 12-04).
 
 ## 1. The thing, in plain words
 

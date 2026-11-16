@@ -37,8 +37,9 @@ live model) has been run yet; everything so far used the dry-run relay.
 
 ## Open items
 
-1. **Antibiotic doses:** a verifier is re-checking every dose row on 12-22 against the full source
-   documents (some were read through summaries). Do not give out keys until that report is in.
+1. **Antibiotic doses:** verified. All 133 dose rows on 12-22 and 37 figures on 12-23 were checked
+   against the complete source documents; every published number matched; 21 wording and citation
+   fixes and one label strength were corrected (reviews/2026-11-16-kit-review/V1.md).
 2. **Aspirin (G27):** the AHA/Red Cross line is marked "reported, not read at source"; nobody could
    open an AHA page from here.
 3. **Sources that could not be read from this environment** (FSIS, NHTSA, NFPA, AHA, ATF, parts of

@@ -2,7 +2,7 @@
 id: 12-23-antibiotics-by-drug
 section: 12-medical-and-first-aid
 title: "Antibiotics by drug: what each covers, dangers, forms and storage"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -58,7 +58,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "New page (G28). Dangers, forms, liquid strengths and storage read from 17 current DailyMed labels; allergy from WHO AWaRe ch. 3; animal products from FDA 2023 release. No doses except label liquid strengths." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "New page (G28). Dangers, forms, liquid strengths and storage read from 17 current DailyMed labels; allergy from WHO AWaRe ch. 3; animal products from FDA 2023 release. No doses except label liquid strengths. V1: verified 37 dose-like figures." }
 ---
 
 # Antibiotics by drug: what each covers, dangers, forms and storage
@@ -167,7 +167,7 @@ Giving one person's prescription to another: {{choice DC-15}} (→ 30-16).
   label).
 - **Forms:** tablets 500 mg/125 mg and 875 mg/125 mg; suspension **200 mg/28.5 mg per 5 mL and
   400 mg/57 mg per 5 mL**; chewables 200 mg/28.5 mg and 400 mg/57 mg (Teva label); ES-600
-  suspension 600 mg per 5 mL.
+  suspension **600 mg/42.9 mg per 5 mL** (ES-600 label).
 - **Storage:** dry product 20° to 25°C. Mixed suspension "must be stored under refrigeration and
   discarded after 10 days." WHO adds that clavulanic acid breaks down quickly in heat.
 
@@ -425,7 +425,8 @@ antibiotics (below).
   seizures, numbness or tingling); the label says their appearance "demands the prompt evaluation
   of the benefit/risk ratio of the continuation of therapy".
 - **Interactions:** increases warfarin's effect (→ 02-10); raises lithium levels; busulfan.
-- **Storage:** follow the bottle's label.
+- **Storage:** Flagyl 375 capsules: "Store at controlled room temperature 15–25°C (59–77°F)"
+  (Flagyl label); other products, follow the bottle's label.
 
 ## Forms you will find, and what to check on every bottle
 

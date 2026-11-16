@@ -15067,7 +15067,7 @@
   "org": "Infectious Diseases Society of America (IDSA)",
   "date": "2012-09-09",
   "licence_class": "restricted",
-  "licence_note": "Journal article (Oxford University Press). PMC record has no full text body. Table 2 read by L7 on 2026-11-16 via the fetch tool: penicillin V, amoxicillin (50 mg/kg once daily, max 1000 mg; or 25 mg/kg max 500 mg twice daily), benzathine penicillin G, and allergy options cephalexin, cefadroxil, clindamycin, azithromycin, clarithromycin with maximums and durations; avoid cephalosporins in immediate-type penicillin hypersensitivity.",
+  "licence_note": "Journal article (Oxford University Press). PMC record has no full text body. Table 2 read by L7 on 2026-11-16 via the fetch tool: penicillin V, amoxicillin (50 mg/kg once daily, max 1000 mg; or 25 mg/kg max 500 mg twice daily), benzathine penicillin G, and allergy options cephalexin, cefadroxil, clindamycin, azithromycin, clarithromycin with maximums and durations; avoid cephalosporins in immediate-type penicillin hypersensitivity. Re-verified in full against the complete document by V1 (2026-11-16).",
   "url": "https://doi.org/10.1093/cid/cis629",
   "household_cited_by": [],
   "cited_by": [
@@ -15082,13 +15082,14 @@
   "org": "Infectious Diseases Society of America (IDSA)",
   "date": "2012-03-20",
   "licence_class": "restricted",
-  "licence_note": "Journal article (Oxford University Press). Tables 9 (children) and 10 (adults) and recommendations 11, 12, 14, 15 read by L7 on 2026-11-16 via the fetch tool: amoxicillin-clavulanate first and second line doses; allergy options (doxycycline, levofloxacin, moxifloxacin; clindamycin plus cefixime or cefpodoxime in children); duration 5-7 days adults, 10-14 days children.",
+  "licence_note": "Journal article (Oxford University Press). Tables 9 (children) and 10 (adults) and recommendations 11, 12, 14, 15 read by L7 on 2026-11-16 via the fetch tool: amoxicillin-clavulanate first and second line doses; allergy options (doxycycline, levofloxacin, moxifloxacin; clindamycin plus cefixime or cefpodoxime in children); duration 5-7 days adults, 10-14 days children. Re-verified in full against the complete document by V1 (2026-11-16).",
   "url": "https://doi.org/10.1093/cid/cir1043",
   "household_cited_by": [],
   "cited_by": [
    "12-22-antibiotics-by-condition"
   ],
-  "added_by": "L7"
+  "added_by": "L7",
+  "capture_note": " The cir1043 DOI is the executive summary; the full guideline with the tables is doi 10.1093/cid/cis370."
  },
  {
   "key": "ats-idsa-adult-cap-guideline-2019",
@@ -15110,7 +15111,7 @@
   "org": "Pediatric Infectious Diseases Society and Infectious Diseases Society of America",
   "date": "2011-08-31",
   "licence_class": "restricted",
-  "licence_note": "Journal article (Oxford University Press). Table 7 outpatient empiric therapy and recommendations 41-44 read by L7 on 2026-11-16 via the fetch tool (amoxicillin 90 mg/kg/day in 2 doses, max 4 g/day for 5 years and over, footnote \"Not evaluated prospectively for safety\"; azithromycin regimen with maximums).",
+  "licence_note": "Journal article (Oxford University Press). Table 7 outpatient empiric therapy and recommendations 41-44 read by L7 on 2026-11-16 via the fetch tool (amoxicillin 90 mg/kg/day in 2 doses, max 4 g/day for 5 years and over, footnote \"Not evaluated prospectively for safety\"; azithromycin regimen with maximums). Re-verified in full against the complete document by V1 (2026-11-16).",
   "url": "https://doi.org/10.1093/cid/cir531",
   "household_cited_by": [],
   "cited_by": [
@@ -15124,12 +15125,10 @@
   "org": "Infectious Diseases Society of America (IDSA) and European Society for Microbiology and Infectious Diseases (ESCMID)",
   "date": "2011-03-01",
   "licence_class": "restricted",
-  "licence_note": "Journal article (Oxford University Press). Treatment recommendations read by L7 on 2026-11-16 via the fetch tool: nitrofurantoin 100 mg twice daily 5 days; TMP-SMX 160/800 mg twice daily 3 days where resistance <=20%; fosfomycin 3 g single dose; fluoroquinolones reserved; pyelonephritis ciprofloxacin 500 mg twice daily 7 days, levofloxacin 750 mg 5 days, TMP-SMX 14 days if susceptible, beta-lactams 10-14 days.",
+  "licence_note": "Journal article (Oxford University Press). Treatment recommendations read by L7 on 2026-11-16 via the fetch tool: nitrofurantoin 100 mg twice daily 5 days; TMP-SMX 160/800 mg twice daily 3 days where resistance <=20%; fosfomycin 3 g single dose; fluoroquinolones reserved; pyelonephritis ciprofloxacin 500 mg twice daily 7 days, levofloxacin 750 mg 5 days, TMP-SMX 14 days if susceptible, beta-lactams 10-14 days. Re-verified in full against the complete document by V1 (2026-11-16).",
   "url": "https://doi.org/10.1093/cid/ciq257",
   "household_cited_by": [],
-  "cited_by": [
-   "12-22-antibiotics-by-condition"
-  ],
+  "cited_by": [],
   "added_by": "L7"
  },
  {
@@ -15138,7 +15137,7 @@
   "org": "Infectious Diseases Society of America (IDSA)",
   "date": "2014-07-15",
   "licence_class": "restricted",
-  "licence_note": "Journal article (Oxford University Press). Table 2 (adult and pediatric oral doses for cephalexin, dicloxacillin, clindamycin MSSA and MRSA rows, TMP-SMX, doxycycline, penicillin VK), animal-bite table (adult oral amoxicillin-clavulanate 875/125 mg bid, doxycycline 100 mg bid), and recommendations on abscess drainage, SIRS, cellulitis duration (5 days) and pre-emptive bite therapy (3-5 days) read by L7 on 2026-11-16 via the fetch tool.",
+  "licence_note": "Journal article (Oxford University Press). Table 2 (adult and pediatric oral doses for cephalexin, dicloxacillin, clindamycin MSSA and MRSA rows, TMP-SMX, doxycycline, penicillin VK), animal-bite table (adult oral amoxicillin-clavulanate 875/125 mg bid, doxycycline 100 mg bid), and recommendations on abscess drainage, SIRS, cellulitis duration (5 days) and pre-emptive bite therapy (3-5 days) read by L7 on 2026-11-16 via the fetch tool. Re-verified in full against the complete document by V1 (2026-11-16).",
   "url": "https://doi.org/10.1093/cid/ciu444",
   "household_cited_by": [],
   "cited_by": [
@@ -15152,7 +15151,7 @@
   "org": "CDC",
   "date": "2026-03-27",
   "licence_class": "public-domain",
-  "licence_note": "US federal government work. Read by L7 on 2026-11-16 via the fetch tool: adult and child doxycycline, amoxicillin and cefuroxime regimens with per-dose maximums and durations; azithromycin as a less effective option without a printed dose.",
+  "licence_note": "US federal government work. Read by L7 on 2026-11-16 via the fetch tool: adult and child doxycycline, amoxicillin and cefuroxime regimens with per-dose maximums and durations; azithromycin as a less effective option without a printed dose. Re-verified in full against the complete document by V1 (2026-11-16).",
   "url": "https://www.cdc.gov/lyme/hcp/clinical-care/erythema-migrans-rash.html",
   "household_cited_by": [],
   "cited_by": [
@@ -15166,7 +15165,7 @@
   "org": "CDC",
   "date": "2025-03-06",
   "licence_class": "public-domain",
-  "licence_note": "US federal government work. Read by L7 on 2026-11-16 via the fetch tool: doxycycline first-line for adults and children of all ages; adults 100 mg every 12 hours; children under 45 kg 2.2 mg/kg twice a day; at least 3 days after fever subsides, minimum 5 to 7 days.",
+  "licence_note": "US federal government work. Read by L7 on 2026-11-16 via the fetch tool: doxycycline first-line for adults and children of all ages; adults 100 mg every 12 hours; children under 45 kg 2.2 mg/kg twice a day; at least 3 days after fever subsides, minimum 5 to 7 days. Re-verified in full against the complete document by V1 (2026-11-16).",
   "url": "https://www.cdc.gov/rocky-mountain-spotted-fever/hcp/clinical-care/index.html",
   "household_cited_by": [],
   "cited_by": [
@@ -15180,7 +15179,7 @@
   "org": "CDC",
   "date": "2024-04-16",
   "licence_class": "public-domain",
-  "licence_note": "US federal government work. Read by L7 on 2026-11-16 via the fetch tool (direct download refused by the CDC server): first-line agents named for sinusitis, pharyngitis and cystitis without doses; bronchitis antibiotics not recommended; oral beta-lactam course for pharyngitis 10 days.",
+  "licence_note": "US federal government work. Read by L7 on 2026-11-16 via the fetch tool (direct download refused by the CDC server): first-line agents named for sinusitis, pharyngitis and cystitis without doses; bronchitis antibiotics not recommended; oral beta-lactam course for pharyngitis 10 days. Re-verified in full against the complete document by V1 (2026-11-16).",
   "url": "https://www.cdc.gov/antibiotic-use/hcp/clinical-care/adult-outpatient.html",
   "household_cited_by": [],
   "cited_by": [
@@ -15194,7 +15193,7 @@
   "org": "CDC",
   "date": "2024-04-22",
   "licence_class": "public-domain",
-  "licence_note": "US federal government work. Read by L7 on 2026-11-16 via the fetch tool: no mg doses printed; UTI duration 7-14 days in children 2-24 months; beta-lactam course for pharyngitis 10 days.",
+  "licence_note": "US federal government work. Read by L7 on 2026-11-16 via the fetch tool: no mg doses printed; UTI duration 7-14 days in children 2-24 months; beta-lactam course for pharyngitis 10 days. Re-verified in full against the complete document by V1 (2026-11-16).",
   "url": "https://www.cdc.gov/antibiotic-use/hcp/clinical-care/pediatric-outpatient.html",
   "household_cited_by": [],
   "cited_by": [
@@ -15208,7 +15207,7 @@
   "org": "US FDA",
   "date": "2023-12-14",
   "licence_class": "public-domain",
-  "licence_note": "US federal government work. Read by L7 on 2026-11-16 via the fetch tool: products for aquarium fish and pet birds are unapproved and misbranded; FDA has not verified safety or effectiveness; \"we don't know whether they're safe or effective, or even contain what the label states\"; human self-treatment could delay effective treatment and worsen resistance; dispose of them.",
+  "licence_note": "US federal government work. Read by L7 on 2026-11-16 via the fetch tool: products for aquarium fish and pet birds are unapproved and misbranded; FDA has not verified safety or effectiveness; \"we don't know whether they're safe or effective, or even contain what the label states\"; human self-treatment could delay effective treatment and worsen resistance; dispose of them. Re-verified in full against the complete document by V1 (2026-11-16).",
   "url": "https://www.fda.gov/news-events/press-announcements/fda-warns-nine-manufacturers-distributors-unapproved-antimicrobials-animals",
   "household_cited_by": [],
   "cited_by": [
@@ -15578,5 +15577,33 @@
    "30-32-dc31-firearm-readiness"
   ],
   "added_by": "L8"
+ },
+ {
+  "key": "idsa-escmid-cystitis-pyelonephritis-exec-summary-2011-v1",
+  "title": "Executive Summary: International Clinical Practice Guidelines for the Treatment of Acute Uncomplicated Cystitis and Pyelonephritis in Women: A 2010 Update by the Infectious Diseases Society of America and the European Society for Microbiology and Infectious Diseases (Gupta K et al., Clin Infect Dis 52(5):561-564)",
+  "org": "Infectious Diseases Society of America (IDSA) and European Society for Microbiology and Infectious Diseases (ESCMID)",
+  "date": "2011-03-01",
+  "licence_class": "restricted",
+  "licence_note": "Journal article (Oxford University Press). Read in full by V1 on 2026-11-16 from a PDF copy of the publisher's file (4 pages, DOI printed on page 561); the recommendation wording for cystitis (nitrofurantoin, TMP-SMX, fosfomycin, fluoroquinolones reserved, no amoxicillin/ampicillin) and pyelonephritis (ciprofloxacin 500 mg twice daily 7 days, levofloxacin 750 mg 5 days, TMP-SMX 14 days if susceptible, oral beta-lactams less effective, 10-14 days, initial 1 g ceftriaxone) is quoted on 12-22. The full guideline (e103-e120) could not be opened (publisher challenge page).",
+  "url": "https://doi.org/10.1093/cid/cir102",
+  "household_cited_by": [],
+  "cited_by": [
+   "12-22-antibiotics-by-condition"
+  ],
+  "added_by": "V1"
+ },
+ {
+  "key": "cdc-lyme-clinical-care-2026-v1",
+  "title": "Clinical Care of Lyme Disease (For Health Care Providers)",
+  "org": "CDC",
+  "date": "2026-08-17",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work. Read in full (HTML) by V1 on 2026-11-16: \"These regimens are consistent with guidance published by the Infectious Diseases Society of America (IDSA), American Academy of Neurology (AAN), and American College of Rheumatology (ACR).\" The erythema migrans dose table itself is on cdc-lyme-erythema-migrans-treatment-2026.",
+  "url": "https://www.cdc.gov/lyme/hcp/clinical-care/index.html",
+  "household_cited_by": [],
+  "cited_by": [
+   "12-22-antibiotics-by-condition"
+  ],
+  "added_by": "V1"
  }
 ]

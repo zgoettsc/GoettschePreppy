@@ -2,7 +2,7 @@
 id: 12-22-antibiotics-by-condition
 section: 12-medical-and-first-aid
 title: "Antibiotics by condition: published adult and child doses"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -15,9 +15,10 @@ sources:
   - idsa-acute-bacterial-rhinosinusitis-guideline-2012
   - ats-idsa-adult-cap-guideline-2019
   - pids-idsa-pediatric-cap-guideline-2011
-  - idsa-escmid-cystitis-pyelonephritis-guideline-2011
+  - idsa-escmid-cystitis-pyelonephritis-exec-summary-2011-v1
   - idsa-ssti-guideline-2014
   - cdc-lyme-erythema-migrans-treatment-2026
+  - cdc-lyme-clinical-care-2026-v1
   - cdc-rmsf-clinical-care-2025
   - cdc-yellow-book-travelers-diarrhea-oral-rehydration-a1b9d8
   - cdc-outpatient-clinical-care-adults-2024
@@ -61,7 +62,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "New page (G28). Every dose row copied from a source read on 2026-11-16: WHO AWaRe 2022 PDF, ATS/IDSA 2019 full text, IDSA/CDC/FDA via fetch; AAP otitis guideline not readable (FDA labels printed instead)." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "New page (G28). Every dose row copied from a source read on 2026-11-16: WHO AWaRe 2022 PDF, ATS/IDSA 2019 full text, IDSA/CDC/FDA via fetch; AAP otitis guideline not readable (FDA labels printed instead). V1: verified 133 rows." }
 ---
 
 # Antibiotics by condition: published adult and child doses
@@ -94,8 +95,9 @@ antibiotic section is on → 12-24.
 > - **Check allergies first** (→ 25-09). A severe reaction to a penicillin (collapse, breathing
 >   trouble or facial swelling within minutes to 1 to 2 hours) is a reason to avoid the whole
 >   penicillin group (WHO). → 12-23 has the allergy rules.
-> - **Sepsis is an emergency** (the body's runaway reaction to infection): confusion, fast
->   breathing, fast heartbeat, clammy skin or extreme pain with an infection (CDC, About Sepsis).
+> - **Sepsis is an emergency** (the body's runaway reaction to infection). CDC's signs: clammy
+>   or sweaty skin; confusion or disorientation; extreme pain or discomfort; fever, shivering or
+>   feeling very cold; high heart rate or weak pulse; shortness of breath (CDC, About Sepsis).
 >   If any care exists, go now. If not, → 12-16.
 > - **Children do not have access to firearms, fuel, medications or chlorine products** (floor,
 >   → 30-01). Antibiotic liquids are flavoured to taste good.
@@ -112,9 +114,12 @@ resistance. Your household's choice: {{choice DC-16}} (→ 30-17)
   Thoracic Society; **PIDS** the Pediatric Infectious Diseases Society; **CDC** the US Centers
   for Disease Control and Prevention. **FDA label** means the prescribing information the US
   Food and Drug Administration approved for that product, as posted on DailyMed.
-- **WHO does not print penicillin-allergy alternatives.** It says true severe allergy is rare
-  and over-reported, and that avoiding the best drug exposes the patient to weaker treatment
-  (WHO, chapter 3). Allergy rows below come from US guidelines and FDA labels.
+- **WHO does not print penicillin-allergy alternatives** ("The AWaRe book does not include
+  alternative antibiotic options in cases of allergy to first-choice antibiotics"). It says true
+  severe allergy is rare and over-reported, and that avoiding the best drug exposes the patient
+  to weaker treatment (WHO, chapter 3). The one exception is sore throat, where WHO says its
+  second choices are for people allergic to the first choices (section 1). Allergy rows below
+  come from US guidelines and FDA labels.
 - **Words used in the rows.** *Oral* or *po*: by mouth. *IV*: into a vein. *IM*: into a muscle.
   *bid*: twice a day. *tid*: three times a day. *qid*: four times a day. *qd*: once a day.
   *"Given every 8 hours"*: three times in 24 hours. *"In 2 divided doses"*: the day's total
@@ -128,8 +133,9 @@ resistance. Your household's choice: {{choice DC-16}} (→ 30-17)
 
 Antibiotics kill bacteria. They do nothing for viruses. The published guidance is plain:
 
-- **Colds and flu:** "Antibiotics DO NOT work on viruses, such as those that cause colds and
-  flu" (CDC, Antibiotic Do's and Don'ts). Rest, fluids and fever care: → 12-05, → 12-13.
+- **Colds and flu:** "Antibiotics DO NOT work on viruses." They do not treat colds and runny
+  noses, flu, most sore throats or most chest colds (CDC, Antibiotic Do's and Don'ts). Rest,
+  fluids and fever care: → 12-05, → 12-13.
 - **Bronchitis (chest cold, a cough that lingers):** "Antibiotics are not needed for most
   cases." Almost all cases are viral; the cough can last several weeks; yellow or green phlegm
   "does not indicate bacterial infection and the need for antibiotics" (WHO, chapter 4). CDC:
@@ -152,7 +158,7 @@ word; each condition below says which one applies. Find the child's measured wei
 left column. **"Use adult dose" is the ceiling.**
 
 **Table W1. Amoxicillin (oral), children: 80–90 mg/kg/day** (WHO Tables 5.3, 6.5, 7.3, 8.4,
-12.5; Table 6.5 prints the first band as "3–6 kg")
+12.5; Tables 5.3 and 6.5 print the first band as "3–6 kg")
 
 | Child's weight | Dose |
 |---|---|
@@ -218,8 +224,8 @@ printed; a baby under 3 months with a fever is an emergency in its own right (�
 
 ## 1. Strep throat (sore throat likely caused by streptococcus)
 
-**Does it need antibiotics?** Usually not. WHO: "The only clear indication for antibiotic
-treatment of pharyngitis is to reduce the probability of developing rheumatic fever in endemic
+**Does it need antibiotics?** Usually not. WHO (note to Table 6.5): "The only clear indication
+for antibiotic treatment is to reduce the probability of developing rheumatic fever in endemic
 settings"; antibiotics shorten sore-throat pain by about one day. WHO uses the Centor score,
 one point each for fever above 38.0 °C, no cough, tender swollen glands at the front of the neck,
 and white patches (pus) on the tonsils: with 0 to 2 points strep is unlikely and treatment is for
@@ -236,8 +242,13 @@ and "can be withheld" where it is rare (WHO, chapter 6).
   (oral): 500 mg given every 12 hours.
 - **Children, second choice:** Cefalexin (oral): 25 mg/kg/dose given every 12 hours (Table W3),
   OR Clarithromycin (oral): 7.5 mg/kg/dose given every 12 hours.
-- **Duration:** 5 days where rheumatic fever is rare, 10 days where it is common or the person
-  has had rheumatic fever; always 5 days for cefalexin or clarithromycin.
+- **Duration:** 5 days where rheumatic fever is rare or the person has no history of rheumatic
+  fever or rheumatic heart disease; 10 days where rheumatic fever is common or the person has
+  had it, in people "aged between 3 and 21 years" (WHO footnote); always 5 days for cefalexin
+  or clarithromycin.
+- WHO: the second-choice options "should only be considered in patients allergic to
+  first-choice options". Where strep resistance to macrolides is high, clarithromycin "should
+  not be recommended" (WHO footnote).
 
 **IDSA 2012 group A strep guideline, Table 2** (doses with maximums; adults and children)
 
@@ -267,8 +278,8 @@ signs in the safety box is an emergency.
 
 ## 2. Ear infection (acute otitis media)
 
-**Does it need antibiotics?** Usually not. WHO: most non-severe cases can be managed with pain
-and fever relief and close watching, "especially in children > 2 years of age". Antibiotics
+**Does it need antibiotics?** Usually not. WHO: pain and fever relief with close follow-up "is
+appropriate in mild cases especially in children > 2 years". Antibiotics
 should be considered if symptoms are severe ("systemically very unwell, ear pain despite
 analgesics, fever ≥39.0 °C"), in children with a weak immune system, and for infection in both
 ears in children under 2 years. Reassess if not improving over 3 days (WHO, chapter 5). Pain and
@@ -307,17 +318,19 @@ read for this binder, so the FDA-approved label doses are printed instead. They 
   otitis media: "30 mg/kg as a single dose or 10 mg/kg once daily for 3 days or 10 mg/kg as a
   single dose on Day 1 followed by 5 mg/kg/day on Days 2 through 5" (Pfizer Zithromax label).
 
-**Beyond home treatment.** WHO names the complications that need imaging and hospital care:
-"mastoiditis" (infection of the bone behind the ear) and brain abscess. An ear infection that
+**Beyond home treatment.** WHO names the complications for which imaging is needed:
+"mastoiditis" (infection of the bone behind the ear) and "brain abscess". An ear infection that
 gets worse instead of better after 3 days, or comes with the sepsis signs, is beyond home care.
 
 ## 3. Sinus infection (acute sinusitis)
 
 **Does it need antibiotics?** Usually not. Symptoms can last up to 4 weeks. WHO: watchful
 waiting without antibiotics when symptoms have lasted under 10 days and are improving.
-Antibiotics should be considered for a severe start (fever ≥ 39.0 °C with pus-like nasal
-discharge or facial pain for at least 3 to 4 days in a row), symptoms lasting 10 days or more
-without improvement, or clear worsening after an early mild phase (WHO, chapter 7).
+Bacterial sinusitis should be suspected when symptoms "persist without improvement for more
+than 10 days" or "become significantly worse after an initial mild phase". Antibiotics could be
+considered for a severe start (fever ≥ 39.0 °C with pus-like nasal discharge or facial pain for
+at least 3 to 4 days in a row), for people at higher risk of complications (decided case by
+case), or with the "red flag" signs below (WHO, chapter 7).
 
 **WHO AWaRe, Table 7.3** (duration 5 days)
 - **Adults:** Amoxicillin (oral): 1 g given every 8 hours, OR Amoxicillin+clavulanic acid (oral):
@@ -330,7 +343,7 @@ without improvement, or clear worsening after an early mild phase (WHO, chapter 
 | Who | Choice | As published |
 |---|---|---|
 | Adults | First line | Amoxicillin-clavulanate (500 mg/125 mg PO tid, or 875 mg/125 mg PO bid) |
-| Adults | Second line | Amoxicillin-clavulanate (2000 mg/125 mg PO bid) |
+| Adults | Second line | Amoxicillin-clavulanate (2000 mg/125 mg PO bid), or Doxycycline (100 mg PO bid or 200 mg PO qd) |
 | Adults | β-lactam (penicillin) allergy | Doxycycline (100 mg PO bid or 200 mg PO qd) |
 | Adults | β-lactam allergy | Levofloxacin (500 mg PO qd) |
 | Adults | β-lactam allergy | Moxifloxacin (400 mg PO qd) |
@@ -407,8 +420,8 @@ child breathes in.
 
 **Beyond home treatment.** WHO's adult score (CRB-65), one point each: new confusion; breathing
 faster than 30 breaths a minute; blood pressure below 90 systolic or 60 or less diastolic; age
-65 or over. Score 0 to 1: candidate for home treatment. Score 2: "Consider inpatient treatment".
-3 or more: hospital. In children, WHO calls pneumonia severe when fast breathing comes with "a
+65 or over. Score 0 to 1: "Candidate for outpatient treatment". Score 2: "Consider inpatient
+treatment". 3 or more: "Inpatient treatment" (WHO Table 12.2). In children, WHO calls pneumonia severe when fast breathing comes with "a
 general danger sign, such as inability to breastfeed or drink, convulsions, lethargy or a reduced
 level of consciousness"; a child who does not respond to amoxicillin needs second-line care.
 
@@ -436,13 +449,13 @@ cloudy or smelly urine alone is not a reliable sign (WHO, chapter 23).
   (usually 5 days) or men (usually 7 days)". Sulfamethoxazole+trimethoprim "is not recommended in
   the first trimester of pregnancy".
 
-**IDSA/ESCMID 2011 guideline (women, uncomplicated cystitis)**
+**IDSA/ESCMID 2011 guideline, executive summary (women, uncomplicated cystitis)**
 - "Nitrofurantoin monohydrate/macrocrystals (100 mg twice daily for 5 days)".
 - "Trimethoprim-sulfamethoxazole (160/800 mg [1 double-strength tablet] twice-daily for 3
   days)", where local resistance does not exceed 20%.
 - "Fosfomycin trometamol (3 g in a single dose)" where available.
 - Fluoroquinolones (such as ciprofloxacin) "should be reserved for important uses other than
-  acute cystitis". Amoxicillin alone is not recommended for this.
+  acute cystitis". "Amoxicillin or ampicillin should not be used for empirical treatment".
 
 **FDA label, Macrobid (nitrofurantoin):** "Adults and Pediatric Patients Over 12 Years: One 100 mg
 capsule every 12 hours for seven days." Macrobid "is indicated only for the treatment of acute
@@ -451,8 +464,10 @@ of pyelonephritis" (Macrobid label). This 7-day label course differs from WHO's 
 both are printed.
 
 **Children.** CDC: for urinary tract infection in children 2 to 24 months, "Duration of therapy
-should be 7-14 days" (CDC, Outpatient Clinical Care for Pediatric Populations). A urinary
-infection in a baby or young child often shows only as fever, vomiting or irritability (WHO).
+should be 7-14 days in children 2-24 months" (CDC, Outpatient Clinical Care for Pediatric
+Populations). WHO: "In children, symptoms can include vomiting, low-grade fever, increased
+urgency and frequency, dysuria [pain passing urine], new incontinence, smelly urine, or lower
+abdominal pain and discomfort."
 
 **Beyond home treatment.** Fever, pain in the side or back (flank), nausea and vomiting, or
 feeling generally ill mean the infection may have reached the kidney (section 6). Pregnancy,
@@ -463,21 +478,25 @@ men, kidney stones or other urinary-tract problems make it a "complicated" infec
 **What it is:** fever (≥ 38.0 °C), flank pain, tenderness over the back of the lower ribs,
 nausea and vomiting, with or without bladder symptoms (WHO, chapter 34).
 
-**WHO AWaRe, Table 34.5, mild to moderate cases** (duration 7 days)
+**WHO AWaRe, Table 34.5, mild to moderate cases** (hospital-facility chapter; duration 7 days).
+WHO: for adults, oral ciprofloxacin "should be considered if there is no nausea and vomiting".
 - **Adults:** Ciprofloxacin (oral): 500 mg given every 12 hours.
-- **Children:** Ciprofloxacin (oral): 15 mg/kg/dose given every 12 hours (Table W5).
+- **Children:** Ciprofloxacin (IV/oral): 15 mg/kg/dose given every 12 hours; oral weight bands as
+  Table W5. WHO: "Ciprofloxacin has excellent oral bioavailability and the IV route should be
+  reserved for patients with impaired gastrointestinal function."
 - WHO notes that in men "prostatitis can also be present and longer treatment may therefore be
   warranted". Severe cases need injected antibiotics (ceftriaxone, cefotaxime, gentamicin or
   amikacin), which is hospital care.
 
-**IDSA/ESCMID 2011 guideline (women)**
-- "Oral ciprofloxacin (500 mg twice daily) for 7 days", where fluoroquinolone resistance is not
-  known to exceed 10%.
+**IDSA/ESCMID 2011 guideline, executive summary (women)**
+- "Oral ciprofloxacin (500 mg twice daily) for 7 days", for patients not needing hospital, where
+  fluoroquinolone resistance is not known to exceed 10%.
 - "levofloxacin (750 mg for 5 days)" once daily, under the same condition.
 - "Oral trimethoprim-sulfamethoxazole (160/800 mg [1 double-strength tablet] twice-daily for 14
   days)" if the germ is known to be susceptible.
-- Oral beta-lactams (penicillins and cephalosporins) are less effective; IDSA keeps "a duration of
-  therapy of 10–14 days" for them and recommends a first injected dose such as ceftriaxone.
+- "Oral β-lactam agents are less effective than other available agents for treatment of
+  pyelonephritis"; IDSA keeps "a duration of therapy of 10–14 days" for them and recommends a
+  first injected dose such as "1 g of ceftriaxone".
 
 **Beyond home treatment.** A kidney infection with vomiting (pills will not stay down), sepsis
 signs, pregnancy, or no improvement needs injected antibiotics and fluids. Without care, → 12-16.
@@ -497,7 +516,8 @@ antibiotic treatment is not known")
   impetigo, WHO prefers an antibiotic ointment, "for example, a 5 day course with mupirocin 2%
   ointment", over pills.
 
-**IDSA 2014 skin and soft tissue guideline, Table 2** (oral rows; adult dose / child dose)
+**IDSA 2014 skin and soft tissue guideline, Table 2** (oral rows; adult dose / child dose; IDSA
+footnote: "Doses listed are not appropriate for neonates")
 
 | Drug | Adult | Child |
 |---|---|---|
@@ -511,11 +531,12 @@ streptococci"; "The recommended duration of antimicrobial therapy is 5 days", lo
 improved. Clindamycin is the usual penicillin-allergy choice in this table. Raise the limb.
 
 **Beyond home treatment.** IDSA uses the signs of a body-wide reaction (SIRS): temperature above
-38 °C or below 36 °C, breathing faster than 24 a minute, heart rate above 90 a minute. IDSA
-advises hospital for concern about deeper infection, severe immune weakness, or failure of
-treatment by mouth. WHO: watch for "change in colour of the wound due to necrosis" (dying,
-dark tissue) and signs of sepsis. Dying tissue can mean necrotizing fasciitis, a deep infection
-for which IDSA advises prompt surgery.
+38 °C or below 36 °C, breathing faster than 24 a minute, heart rate above 90 a minute. IDSA:
+"Hospitalization is recommended if there is concern for a deeper or necrotizing infection, for
+patients with poor adherence to therapy, for infection in a severely immunocompromised patient,
+or if outpatient treatment is failing". WHO: watch for "change in colour of the wound due to
+necrosis" (dying, dark tissue) and signs of sepsis. Dying tissue can mean necrotizing
+fasciitis, a deep infection for which IDSA recommends "Prompt surgical consultation".
 
 ## 8. Abscess (boil or pocket of pus) after it has been drained
 
@@ -525,10 +546,11 @@ treatment; pills alone do not empty a pocket of pus. Drainage: → 12-14 and →
 
 **When antibiotics are added (IDSA 2014).** The decision "should be made based on the presence or
 absence of systemic inflammatory response syndrome (SIRS)" (the signs in section 7). "An
-antibiotic active against MRSA is recommended for patients with carbuncles or abscesses" who
-have failed initial treatment. MRSA is staph that resists penicillin-type drugs.
+antibiotic active against MRSA is recommended for patients with carbuncles or abscesses who
+have failed initial antibiotic treatment or have markedly impaired host defenses or in patients
+with SIRS and hypotension". MRSA is staph that resists penicillin-type drugs.
 
-**IDSA 2014, Table 2, MRSA rows** (adult dose / child dose)
+**IDSA 2014, Table 2, MRSA rows** (adult dose / child dose; not for neonates)
 
 | Drug | Adult | Child |
 |---|---|---|
@@ -547,10 +569,10 @@ treatment": wash and flush "for about 15 minutes with soap or detergent and a lo
 water" (→ 12-02). Check tetanus for every wound (→ 12-04). After an animal bite, rabies must also
 be considered; after a human bite, hepatitis B and C and HIV (WHO, chapter 18). WHO says the
 need for rabies "post-exposure prophylaxis" (vaccine given after the bite) must always be
-evaluated; antibiotics do nothing against rabies. WHO rabies exposure categories: touching or feeding animals or licks on intact skin,
-no exposure; nibbling of uncovered skin or minor scratches without bleeding, exposure; bites or
-scratches through the skin, saliva on broken skin or mucous membranes, or contact with bats,
-severe exposure.
+evaluated; antibiotics do nothing against rabies. WHO rabies exposure categories (Table 18.3):
+touching or feeding animals or licks on intact skin, no exposure; nibbling of uncovered skin or
+minor scratches or abrasions without bleeding, exposure; bites or scratches through the skin,
+saliva on broken skin or mucous membranes, or direct contact with bats, severe exposure.
 
 **Preventive antibiotics (wound not yet infected).** WHO: not required in most cases. They "may
 be considered" for wounds of the face, hands or near a joint, and in severely immunocompromised
@@ -570,7 +592,7 @@ or a joint.
   because of its activity against anaerobic bacteria" (germs that live without air, common in
   mouths).
 
-**IDSA 2014, animal bites (adults, oral):** amoxicillin-clavulanate "875/125 mg bid";
+**IDSA 2014, Table 5, animal bites (oral, adult doses):** amoxicillin-clavulanate "875/125 mg bid";
 doxycycline "100 mg bid" is among the other oral choices in the bite table. The table prints no
 child doses.
 
@@ -580,8 +602,10 @@ wound due to necrosis and signs of sepsis". Spreading redness and red streaks ar
 ## 10. Dental abscess and severe tooth infection
 
 **Treatment is a procedure, not a pill.** WHO: "Dental procedures (e.g. drainage of an abscess
-and tooth extraction) are the main treatment"; antibiotics "are not appropriate" for toothache,
-inflamed pulp or dry socket, and should only complement drainage or extraction (WHO, chapter 8).
+and tooth extraction) are the main treatment"; antibiotics "are not appropriate for inflammatory
+conditions (including periodontitis, irreversible pulpitis and dry socket treatment)" (gum
+disease, inflamed tooth pulp, dry socket), should not be used to cure toothache, and should only
+complement drainage or extraction (WHO, chapter 8).
 Field dentistry: → 12-06, → 12-20.
 
 **When antibiotics are needed (WHO):** "severe, spreading dental infections", with signs such as
@@ -655,18 +679,19 @@ up to 3 days"; rifamycin SV and rifaximin are not for suspected *Campylobacter*,
 *Shigella* or other invasive diarrhoea. Antibiotic treatment is "not recommended" for mild
 diarrhoea. In children, "The main treatment for TD in children is ORS" (oral rehydration
 solution) and "macrolides (e.g., azithromycin) are considered first-line antibiotic therapy";
-the Yellow Book prints no child dose (WHO's child rows are above). It warns that antibiotics for
-children "must be weighed against the risk of hemolytic uremic syndrome" (a kidney-failing
-complication of some *E. coli* infections).
+the Yellow Book prints no child dose (WHO's child rows are above). It warns that in children
+with bloody diarrhoea, empiric antibiotic therapy "must be weighed against the risk of hemolytic
+uremic syndrome" (a kidney-failing complication of some *E. coli* infections).
 
 **Beyond home treatment.** The dehydration warning signs on → 12-05, blood in the stool, and a
 baby or young child who cannot keep fluids down.
 
 ## 12. Early Lyme disease (the expanding "bull's-eye" rash after a tick bite)
 
-**CDC, Clinical Treatment of Erythema Migrans Rash (2026)**, "consistent with guidance published
-by the Infectious Diseases Society of America (IDSA), American Academy of Neurology (AAN), and
-American College of Rheumatology (ACR)"
+**CDC, Clinical Treatment of Erythema Migrans Rash (2026).** CDC's Clinical Care of Lyme Disease
+page says: "These regimens are consistent with guidance published by the Infectious Diseases
+Society of America (IDSA), American Academy of Neurology (AAN), and American College of
+Rheumatology (ACR)."
 
 | Who | Drug | Dose | Maximum | Days |
 |---|---|---|---|---|
