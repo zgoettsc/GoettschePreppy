@@ -1,0 +1,14 @@
+{
+  "state": "SD", "state_name": "South Dakota", "state_em": "Fixture State Office of Emergency Management",
+  "sources": [],
+  "defaults": { "zone": "4b" },
+  "counties": {
+    "Beadle County": { "fips": "46005", "zone": "4b", "last_frost": "May 10", "first_frost": "Sep 25", "growing_days": 138,
+      "jan_low_f": 3, "jul_high_f": 86, "record_low_f": -41, "record_high_f": 112, "precip_in": 21.5, "snow_in": 38, "elevation_ft": 1290,
+      "ecoregion": "Fixture Plains", "nws_office": "Fixture NWS office",
+      "nwr": [ { "call": "WXF01", "freq": "162.475", "same": "046005" } ],
+      "hazards": { "tornado": 3, "blizzard": 3, "ice_storm": 2, "flood": 2, "wildfire": 1, "earthquake": 1, "hurricane": 1, "extreme_heat": 2, "extreme_cold": 3, "drought": 2, "volcano": 1, "tsunami": 1, "landslide": 1 },
+      "sun_hours_dec": 2.5, "sun_hours_jun": 6.2, "centroid": [44.4, -98.3], "bbox": [-98.7, 44.2, -97.9, 44.6], "coastal": false },
+    "Fixture County": { "jan_low_f": 5, "ecoregion": "Fixture Plains", "centroid": [43.0, -99.5], "bbox": [-99.5, 42.8, -98.5, 43.2] }
+  }
+}

@@ -308,7 +308,7 @@ function memberFields(ip) {
       why: 'Only used to put the pregnancy and menstrual pages near the front.' }),
     showsPregnancy(m) ? q({ kind: 'select', path: [...ip, 'pregnant_or_nursing'], label: 'Pregnant or nursing?', options: E.pregnant,
       why: 'Adds water and food allowances and the infant-feeding pages.' }) : null,
-    h('details', { class: 'more', open: (conds.length || m.conditions_other) ? true : undefined },
+    h('details', { class: 'more', id: idOf(ip, 'conditions-more'), open: (conds.length || m.conditions_other) ? true : undefined },
       h('summary', {}, `Medical conditions${conds.length ? ` (${conds.length} ticked)` : ''}`),
       q({ kind: 'multi', path: [...ip, 'conditions'], label: 'Tick any that apply', options: CONDITIONS.map(([id, n]) => ({ value: id, label: n })),
         why: 'Each condition you tick moves its pages to the front of the medical section. Every condition stays in the binder either way.' }),

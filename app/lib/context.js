@@ -243,6 +243,7 @@ export function buildContext(profile, kit = {}, opts = {}) {
     child: anyAge(a => a < 156),
     teen: anyAge(a => a >= 156 && a < 216) || membersRaw.some(m => m.role === 'teen'),
     elder: anyAge(a => a > 840) || membersRaw.some(m => m.role === 'elder'),
+    adult_over_40: anyAge(a => a >= 480),
     pregnant: membersRaw.some(m => m.pregnant_or_nursing === 'pregnant' || m.pregnant_or_nursing === 'both'),
     nursing: membersRaw.some(m => m.pregnant_or_nursing === 'nursing' || m.pregnant_or_nursing === 'both'),
     pets: pets.length > 0,

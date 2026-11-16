@@ -79,7 +79,7 @@ export function dryRunFetch(opts = {}) {
         if (m) findings.push({ page_id: m[1], pass: 'consistency', severity: 'info', fixable: false, message: 'Dry run: no real review was done. This note proves the review notes page is wired.', find: '', replace: '' });
         out = JSON.stringify({ findings });
       } else {
-        const id = (/Write the block "([a-z0-9-]+)"/.exec(userText) || [])[1] || 'block';
+        const id = (/Write the block \\?"([a-z0-9-]+)\\?"/.exec(userText) || [])[1] || 'block';
         out = `This paragraph is a dry-run stand-in for the "${id}" block. In a real build the model writes it from the household's own answers only, adding no numbers, phone numbers, laws or procedures of its own.`;
       }
       return sseResponse(messageEvents(out), calls.messages);

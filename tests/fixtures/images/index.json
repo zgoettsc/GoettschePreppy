@@ -1,0 +1,10 @@
+{
+  "collections": { "fixture": { "org": "Test fixture", "license": "Test images made by the test suite." } },
+  "plants": [
+    { "key": "test-hemlock", "common": "Test hemlock", "scientific": "Fixtura mortalis", "class": "deadly", "note": "A fixture plant for the tests.",
+      "plates": [
+        { "file": "images/plants/test-hemlock/a.jpg", "shows": "Whole plant (fixture).", "collection": "fixture", "credit": "Test suite", "url": "https://example.org/never-copied.jpg" },
+        { "file": "images/plants/test-hemlock/b.jpg", "shows": "Leaf (fixture).", "collection": "fixture", "credit": "Test suite" }
+      ] }
+  ]
+}

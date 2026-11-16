@@ -1,0 +1,35 @@
+[
+  {
+    "key": "aap-choking-prevention",
+    "title": "Choking Prevention for Babies & Children: What Every Parent Needs to Know",
+    "org": "American Academy of Pediatrics (HealthyChildren.org)",
+    "date": "2026-11-16",
+    "licence_class": "restricted",
+    "licence_note": "Copyright American Academy of Pediatrics. Fetched per household for Large downloads; do not redistribute.",
+    "url": "https://www.healthychildren.org/English/health-issues/injuries-emergencies/Pages/Choking-Prevention.aspx",
+    "household_cited_by": ["20-01-toddler-and-infant-needs"],
+    "cited_by": ["20-01-toddler-and-infant-needs", "20-05-infant-feeding"]
+  },
+  {
+    "key": "aspca-people-foods-to-avoid-feeding-your-pets",
+    "title": "People Foods to Avoid Feeding Your Pets",
+    "org": "ASPCA Animal Poison Control Center",
+    "date": "2026-11-16",
+    "licence_class": "restricted",
+    "licence_note": "Copyright ASPCA. Fetched per household for Large downloads; do not redistribute.",
+    "url": "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets",
+    "household_cited_by": [],
+    "cited_by": ["20-09-pets"]
+  },
+  {
+    "key": "cpsc-safety-barrier-guidelines-for-residential-pools-362",
+    "title": "Safety Barrier Guidelines for Residential Pools (Publication 362)",
+    "org": "US Consumer Product Safety Commission",
+    "date": "2026-11-16",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work.",
+    "url": "https://www.cpsc.gov/s3fs-public/362.pdf",
+    "household_cited_by": ["20-02-child-safety-offgrid"],
+    "cited_by": ["20-02-child-safety-offgrid"]
+  }
+]

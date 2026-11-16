@@ -25,7 +25,7 @@
 import { buildContext, STATE_NAMES } from './context.js';
 import { renderPageMarkdown, markdownToHtml, articleHtml, buildLabels, esc } from './render.js';
 import { localChecks, checkAiText, modelReview, ownerTokenRegexes, URL_RE } from './review.js';
-import { MODEL, messageText } from './relay-client.js';
+import { MODEL, messageText, createRelay } from './relay-client.js';
 import { sourceBlock, toBase64 } from './sources.js';
 import { mapTargets, fetchTopoMaps } from './maps.js';
 import { shellParts, jsonEmbed } from '../binder/shell.js';
@@ -49,9 +49,11 @@ function mimeOf(path) {
     pdf: 'application/pdf', html: 'text/html', htm: 'text/html', txt: 'text/plain', md: 'text/plain' }[ext] || 'application/octet-stream';
 }
 
-export function defaultLoadAsset(assetBase = './build/') {
+// Default: app/build/ next to app/lib/ (the settings page is served from the same site).
+export function defaultLoadAsset(assetBase) {
+  const base = assetBase ? new URL(assetBase, globalThis.location?.href) : new URL('../build/', import.meta.url);
   return async p => {
-    const res = await fetch(new URL(p, new URL(assetBase, globalThis.location?.href || 'http://localhost/')));
+    const res = await fetch(new URL(p, base), { credentials: 'omit' });
     return res.ok ? new Uint8Array(await res.arrayBuffer()) : null;
   };
 }
@@ -233,16 +235,26 @@ function notCapturedMarkdown(rows, size) {
     ? 'The documents below could not be fetched when this file was made (the publisher refused automated download, or the request failed). The pages that cite them still stand on their own text. While the internet works, download these yourself by title and keep them with this file.'
     : 'This is the Small binder: it carries citations only (title, publisher, date) and binds no documents. The Large download binds them; you can upgrade from your saved profile file.'}
 
-${rows.length ? '| Document | Publisher | Why it is missing | Cited by |\n|---|---|---|---|\n' + rows.map(r => `| ${r.title.replace(/\|/g, '/')} | ${(r.org || '').replace(/\|/g, '/')} | ${r.reason} | ${r.citedBy.map(id => '→ ' + id.slice(0, 5)).join(' ')} |`).join('\n') : 'Every cited document was captured.'}
+${size !== 'large' && !rows.length ? 'Nothing to list in the Small binder.' : rows.length ? '| Document | Publisher | Why it is missing | Cited by |\n|---|---|---|---|\n' + rows.map(r => `| ${r.title.replace(/\|/g, '/')} | ${(r.org || '').replace(/\|/g, '/')} | ${r.reason} | ${r.citedBy.map(id => '→ ' + id.slice(0, 5)).join(' ')} |`).join('\n') : 'Every cited document was captured.'}
 `;
 }
 
 // ---- main --------------------------------------------------------------------------------------
 export async function generateBinder(profile, kit, opts = {}) {
   const size = opts.size === 'large' ? 'large' : 'small';
-  const { relay, signal } = opts;
+  const { signal } = opts;
+  // relay: a relay object, or the relay's base address as a string ('' = same origin), as the
+  // settings page passes it (app/settings/config.js relayBase)
+  const relay = typeof opts.relay === 'string'
+    ? createRelay({ base: opts.relay.replace(/\/$/, '') + '/api/v1', accessKey: profile?.access?.access_key })
+    : opts.relay;
   const loadAsset = opts.loadAsset || defaultLoadAsset(opts.assetBase);
-  const progress = (phase, done, total, message) => opts.onProgress?.({ phase, done, total, message });
+  // phases and their share of the progress bar
+  const SPAN = { context: [0, 0.01], assets: [0.01, 0.05], render: [0.05, 0.15], ai: [0.15, 0.35], review: [0.35, 0.7], sources: [0.7, 0.95], assemble: [0.95, 0.99], done: [1, 1] };
+  const progress = (phase, done, total, message) => {
+    const [a, b] = SPAN[phase] || [0, 1];
+    opts.onProgress?.({ phase, stage: message, done, total, message, fraction: a + (b - a) * (total ? done / total : 1) });
+  };
   const now = opts.now || new Date();
   const built = now.toISOString().slice(0, 10);
   const abort = () => signal?.throwIfAborted?.();
@@ -261,6 +273,7 @@ export async function generateBinder(profile, kit, opts = {}) {
   const missingRefs = new Set();
   const reviewNotesPage = fallbackPage(REVIEW_NOTES_ID, 'Review notes: what the AI checks found', '', { danger_level: 'caution' });
   const notCapturedPage = fallbackPage(NOT_CAPTURED_ID, 'Sources not captured', '');
+  for (const p of [reviewNotesPage, notCapturedPage, ...pages]) if (p.layer === 'generated' && !p.revised) p.revised = built;
   const all = pages.filter(p => p.id !== REVIEW_NOTES_ID && p.id !== NOT_CAPTURED_ID);
   // the two notes pages go at the end of section 25 (or the end of the binder)
   const at = (() => { let i = -1; all.forEach((p, k) => { if (p.id.slice(0, 2) <= '25') i = k; }); return i + 1; })();
@@ -353,7 +366,7 @@ export async function generateBinder(profile, kit, opts = {}) {
     modelSkipped = 'results reused from the earlier build of the same answers';
   } else if (opts.modelReview !== false && countCalls && toModel.length) {
     const reviewPages = toModel.map(r => ({ id: r.page.id, layer: r.page.layer, danger_level: r.page.danger_level, title: r.page.title, md: r.md }));
-    const res = await modelReview(reviewPages, { relay: countCalls, kit, ctx, signal, onProgress: opts.onProgress, fallback: opts.refusalFallback });
+    const res = await modelReview(reviewPages, { relay: countCalls, kit, ctx, signal, onProgress: e => progress('review', e.done, e.total, e.message), fallback: opts.refusalFallback });
     for (const p of reviewPages) rendered.get(p.id).md = p.md;
     notes.push(...res.findings); report.fixes.push(...res.fixes);
   } else modelSkipped = countCalls ? 'model review switched off for this build' : 'no relay: model review not run';

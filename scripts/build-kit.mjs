@@ -23,7 +23,12 @@ import { execFileSync } from 'node:child_process';
 import yaml from 'js-yaml';
 
 const ROOT = path.resolve(path.dirname(url.fileURLToPath(import.meta.url)), '..');
-const OUT = path.join(ROOT, 'app', 'build');
+// Test hooks: GP_DATA_ROOT replaces the folder that holds data/regions/, images/ and figures/;
+// GP_KIT_OUT replaces app/build/ (scripts/test-generate.mjs uses both with tests/fixtures/).
+const OUT = process.env.GP_KIT_OUT ? path.resolve(process.env.GP_KIT_OUT) : path.join(ROOT, 'app', 'build');
+const DATA = process.env.GP_DATA_ROOT ? path.resolve(process.env.GP_DATA_ROOT) : ROOT;
+const existsD = p => fs.existsSync(path.join(DATA, p));
+const readJsonD = (p, d = null) => { try { return JSON.parse(fs.readFileSync(path.join(DATA, p), 'utf8')); } catch (e) { if (existsD(p)) warn(`${p}: ${e.message}`); return d; } };
 const rel = p => path.relative(ROOT, p);
 const exists = p => fs.existsSync(path.join(ROOT, p));
 const readJson = (p, d = null) => { try { return JSON.parse(fs.readFileSync(path.join(ROOT, p), 'utf8')); } catch (e) { if (exists(p)) warn(`${p}: ${e.message}`); return d; } };
@@ -116,15 +121,15 @@ function addState(obj, file) {
   return true;
 }
 for (const dir of ['data/regions/states', 'data/regions']) {
-  if (!exists(dir)) continue;
-  for (const f of fs.readdirSync(path.join(ROOT, dir)).sort()) {
+  if (!existsD(dir)) continue;
+  for (const f of fs.readdirSync(path.join(DATA, dir)).sort()) {
     if (!f.endsWith('.json') || f === 'ecoregions.json') continue;
     const st = f.replace(/\.json$/, '').toUpperCase();
     if (regions[st]) continue;
-    addState(readJson(`${dir}/${f}`), `${dir}/${f}`);
+    addState(readJsonD(`${dir}/${f}`), `${dir}/${f}`);
   }
 }
-const ecoregions = readJson('data/regions/ecoregions.json', {}) || {};
+const ecoregions = readJsonD('data/regions/ecoregions.json', {}) || {};
 console.log(`regions: ${Object.keys(regions).length} states with data, ${Object.keys(ecoregions).length} ecoregions`);
 if (!Object.keys(regions).length) warn('data/regions/: no state files yet; regions-lite has empty county lists and region slots print blank');
 
@@ -136,14 +141,14 @@ fs.writeFileSync(path.join(OUT, 'regions-lite.json'), JSON.stringify(lite));
 // ---- plates ------------------------------------------------------------------------------------
 const hasConvert = (() => { try { execFileSync('convert', ['-version'], { stdio: 'ignore' }); return true; } catch { return false; } })();
 const plates = {};
-const imgIdx = readJson('images/index.json');
+const imgIdx = readJsonD('images/index.json');
 let plateBytes = 0;
 for (const pl of imgIdx?.plants || []) {
   const out = { common: pl.common, scientific: pl.scientific || null, class: pl.class || 'other', note: stripUrls(pl.note || ''),
     lookalikes: pl.lookalikes || [], ecoregions: pl.ecoregions || [], plates: [] };
   for (const im of pl.plates || []) {
     if (!im.file) continue;
-    const srcAbs = path.join(ROOT, im.file);
+    const srcAbs = path.join(DATA, im.file);
     if (!fs.existsSync(srcAbs)) { warn(`plate ${pl.key}: ${im.file} missing`); continue; }
     const base = path.basename(im.file).replace(/\.[^.]+$/, '');
     const destRel = `plates/${pl.key}/${base}.jpg`;
@@ -177,11 +182,11 @@ export function sanitizeSvg(svg) {
   return s.replace(URL_RE, '').trim().replace(/^<svg\b/, '<svg role="img"');
 }
 const figures = {};
-const figIdxRaw = readJson('figures/index.json');
+const figIdxRaw = readJsonD('figures/index.json');
 const figEntries = Array.isArray(figIdxRaw) ? figIdxRaw.map(f => [f.id, f]) : Object.entries(figIdxRaw?.figures || figIdxRaw || {});
 for (const [id, f] of figEntries) {
   if (!/^fig-[a-z0-9-]+$/.test(id || '') || !f?.file) continue;
-  const abs = path.join(ROOT, f.file);
+  const abs = path.join(DATA, f.file);
   if (!fs.existsSync(abs)) { warn(`figure ${id}: ${f.file} missing`); continue; }
   const meta = { caption: stripUrls(f.caption || ''), alt: stripUrls(f.alt || f.caption || ''), credit: stripUrls(f.credit || '') };
   if (f.file.endsWith('.svg')) figures[id] = { ...meta, svg: sanitizeSvg(fs.readFileSync(abs, 'utf8')) };
@@ -379,7 +384,9 @@ const kit = {
   plates, figures, ai_blocks,
   owner_tokens: readJson('scripts/owner-tokens.json', { words: [], patterns: [] }),
   notice_md: exists('NOTICE-TO-USERS.md') ? fs.readFileSync(path.join(ROOT, 'NOTICE-TO-USERS.md'), 'utf8') : '',
-  sizes: { small_bytes: small, large_bytes: large, note: `Large is an estimate: ${fetched} cited documents are fetched per household at about 1.5 MB each on average.` },
+  sizes: { small_bytes: small, large_bytes: large,
+    small: { min_mb: Math.max(1, Math.round(small * 0.9 / 1e6)), max_mb: Math.max(2, Math.round(small * 1.2 / 1e6)) },
+    large: { min_mb: Math.round(large * 0.6 / 1e6), max_mb: Math.round(large * 1.3 / 1e6) }, note: `Large is an estimate: ${fetched} cited documents are fetched per household at about 1.5 MB each on average.` },
   warnings,
 };
 const check = JSON.stringify({ ...kit, maps: null, owner_tokens: null });

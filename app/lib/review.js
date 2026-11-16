@@ -75,7 +75,9 @@ export function localChecks(page, { tokenRes = [], profileText = '', blanks = []
     md = md.replace(URL_RE, '[address removed]');
     findings.push({ page: page.id, pass: 'urls', severity: 'warning', fixed: true, message: `Removed ${urls.length} web address(es); the binder carries no links.` });
   }
-  if (!page.id.startsWith('31-')) {
+  // Section 31 is a verbatim public-domain handbook; generated pages print source metadata
+  // (publisher titles), which is not household text.
+  if (!page.id.startsWith('31-') && page.layer !== 'generated') {
     const prof = profileText.toLowerCase();
     for (const { token, re } of tokenRes) {
       if (re.test(md) && !prof.includes(token.toLowerCase()))

@@ -88,6 +88,8 @@ export function toProfile(opts = {}) {
   for (const m of d.members || []) {
     if (!m) continue;
     if (m.weight && (m.weight.value === undefined || m.weight.value === '')) delete m.weight;
+    else if (m.weight && !m.weight.unit) m.weight.unit = 'lb'; // the unit menu shows lb until changed
+    if (m.age && m.age.value !== undefined && !m.age.unit) m.age.unit = 'years';
     if (m.age && (m.age.value === undefined || m.age.value === '') && Object.keys(m.age).length <= 1) {
       // only a unit: the age is unanswered; leave `age` out so "required" is reported once
       delete m.age;

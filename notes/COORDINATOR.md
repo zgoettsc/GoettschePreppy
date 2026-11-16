@@ -25,3 +25,8 @@ Collected from worker reports; resolved in the integration pass.
 - [x] L3: household 08-09 propane volume error (1,700 cu ft) fixed in the SHTF binder to ~170 cu ft with LFL arithmetic; C07 warned. Check 28-04 when written.
 - [ ] L3: camp stoves indoors are covered in floor 1's explanation; check 07-05 agrees.
 - [ ] L3: DC-10 humane-end option needs a method section on 20-09 (tell C13). DC-16 last-resort names a published adult antibiotic table not yet printed anywhere: either source one (e.g. CDC/IDSA tables are prescriber-facing) or reword DC-16.
+- [ ] A3: Large binds PDFs as embedded files with an "Open the document" button; print shows a note, not the pages, and opening an embedded PDF offline on iOS is unreliable. Owner wants sources inside and printable: render PDF pages to images or text in the browser (vendored pdf.js) at Large build time.
+- [ ] A3: model review runs only on household-variable pages. Frozen core text needs a one-time kit-level review pass at build (integration phase: source-trace + consistency over all core pages).
+- [ ] A3: topo maps can push Large past 400 MB; cap to home county + destinations, route counties optional with size shown.
+- [ ] A3: kit build should include only sources cited by kit pages (household-only sources such as the AAPS docs trip the owner-token check otherwise).
+- [ ] A3: refusal fallback written but disabled per G19.

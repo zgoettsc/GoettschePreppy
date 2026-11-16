@@ -70,11 +70,16 @@ NRI_MAP = {
     'No Rating': 1, 'Not Applicable': 1, 'Insufficient Data': 1, 'No Expected Annual Losses': 1,
 }
 RATING_TEXT = {3: 'High', 2: 'Moderate', 1: 'Low'}
+# "coastal" = on an ocean or Gulf coast. NRI's Coastal Flooding applies to tidal shores and to the
+# Great Lakes and Great Salt Lake; lake shores are removed here.
+INLAND_COAST_STATES = {'IL', 'IN', 'MI', 'MN', 'OH', 'WI', 'UT'}
+GREAT_LAKES_COUNTIES = {'36013', '36029', '36063', '36073', '36055', '36117', '36011', '36075', '36045', '36089',
+                        '42049'}
 MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 
 
 def jdump(name, obj):
-    os.makedirs(OUT, exist_ok=True)
+    os.makedirs(os.path.dirname(os.path.join(OUT, name)), exist_ok=True)
     with open(os.path.join(OUT, name), 'w') as f:
         json.dump(obj, f, indent=1, sort_keys=False, ensure_ascii=False)
         f.write('\n')
@@ -409,7 +414,7 @@ def main():
         primary = nws_idx.rows[hit]['CWA'] if hit is not None and nws_idx.rows[hit]['STATE'] == st else (Counter(cwas).most_common(1)[0][0] if cwas else None)
         cwas = [primary] + sorted(set(cwas) - {primary}) if primary else sorted(set(cwas))
         d['cwa'] = cwas
-        office = lambda w: f"NWS {cwa_rows[w]['CITY']}, {cwa_rows[w]['ST']}" if w in cwa_rows else f'NWS {w}'
+        office = lambda w: f"{cwa_rows[w]['CITY']}, {cwa_rows[w]['ST']}" if w in cwa_rows else w
 
         # NOAA Weather Radio
         tx, seen = [], set()
@@ -423,14 +428,14 @@ def main():
 
         # hazards
         h = nri.get(f, {})
-        hz, hz_raw = [], {}
+        hz, hz_raw = {}, {}
         for key, label, pre in HAZARDS:
             best, cls = 1, []
             for pfx in pre:
                 v = h.get(f'{pfx}_RISKR')
                 cls.append(f'{pfx}:{v}')
                 best = max(best, NRI_MAP.get(v, 1))
-            hz.append({'name': label, 'rating': best, 'rating_text': RATING_TEXT[best]})
+            hz[key] = best
             hz_raw[key] = {p_: {'risk': h.get(f'{p_}_RISKR'), 'eal': h.get(f'{p_}_EALR'),
                                 'hlr': h.get(f'{p_}_HLRR'), 'afreq': h.get(f'{p_}_AFREQ')} for p_ in pre}
         d['nri'] = hz_raw
@@ -465,9 +470,15 @@ def main():
         d['sun_cell'] = list(cl)
 
         name_full = c['name']
+        bxs = [nws_idx.bbox[i] for lf in legacy for i in nws_by_fips.get(lf, [])]
+        bbox = None if not bxs else [round(min(b[0] for b in bxs), 4), round(min(b[1] for b in bxs), 4),
+                                     round(max(b[2] for b in bxs), 4), round(max(b[3] for b in bxs), 4)]
+        coastal = (h.get('CFLD_RISKR') not in (None, 'Not Applicable') and st not in INLAND_COAST_STATES
+                   and f not in GREAT_LAKES_COUNTIES)
         out[f] = {
             'fips': f, 'state': st, 'state_name': ST_NAME[st], 'county': name_full,
-            'lat': round(lat, 4), 'lon': round(lon, 4),
+            'centroid': [round(lat, 4), round(lon, 4)], 'latitude': round(lat, 1), 'bbox': bbox,
+            'coastal': coastal,
             'elevation_ft': None if el_ft is None else int(round(el_ft, -1)),
             'zone': zone,
             **clim,
@@ -480,8 +491,6 @@ def main():
             'hazards': hz,
             'sun_hours_dec': sun['dec'] if sun else None,
             'sun_hours_jun': sun['jun'] if sun else None,
-            'plants': {'deadly': [], 'edible': []},
-            'trees': {'firewood': []},
         }
         detail[f] = d
         if n % 250 == 0:
@@ -532,12 +541,60 @@ def main():
         'hazard_order': [label for _, label, _ in HAZARDS],
     }
 
-    jdump('counties.json', out)
+    src_keys = ['census-gazetteer-2024', 'usgs-3dep-epqs', 'noaa-ncei-normals-1991-2020', 'noaa-rcc-acis',
+                'usda-phzm-2023', 'nws-awips-counties-cwa', 'noaa-national-weather-service-nwr-county-coverage-an-c6207f',
+                'fema-nri-counties', 'epa-ecoregions-level3', 'nasa-power-climatology', 'fema-state-ema-list']
+    for ab, sobj in states.items():
+        cty = {}
+        for k in sobj['counties']:
+            o = {kk: vv for kk, vv in out[k].items() if kk not in ('state', 'state_name', 'county')}
+            cty[out[k]['county']] = o
+        jdump(f'states/{ab}.json', {'state': ab, 'state_name': sobj['name'], 'state_fips': sobj['fips'],
+                                    'state_em': sobj['state_em'], 'sources': src_keys,
+                                    'nws_offices': {w: offices[w]['name'] for w in sobj['nws_offices']},
+                                    'ecoregions': [ecoregions[c]['name'] for c in sobj['ecoregions']],
+                                    'counties': cty})
+    jdump('fips-index.json', {k: [v['state'], v['county']] for k, v in sorted(out.items())})
     jdump('counties-detail.json', detail)
-    jdump('states.json', states)
     jdump('nws-offices.json', offices)
-    jdump('ecoregions.json', dict(sorted(ecoregions.items(), key=lambda kv: (len(kv[0]), kv[0]))))
+    # Plant and tree key lists are D2's: keep whatever lists the current file already carries.
+    old = {}
+    if os.path.exists(os.path.join(OUT, 'ecoregions.json')):
+        old = json.load(open(os.path.join(OUT, 'ecoregions.json')))
+    hi = 'Hawaiian Islands (not mapped at EPA Level III)'
+    eco_out = {}
+    for _, e in sorted(ecoregions.items(), key=lambda kv: (len(kv[0]), kv[0])):
+        eco_out[e['name']] = {k: v for k, v in e.items() if k != 'name'}
+    eco_out[hi] = {'code': 'HI', 'na_code': None, 'level2': None, 'level1': None, 'states': ['HI'],
+                   'note': 'EPA has not published Level III ecoregions for Hawaii; kit placeholder.'}
+    for name, e in eco_out.items():
+        e['plants'] = old.get(name, {}).get('plants', {'deadly': [], 'edible': []})
+        e['trees'] = old.get(name, {}).get('trees', {'firewood': []})
+    jdump('ecoregions.json', eco_out)
     jdump('national.json', national)
+
+    # --- sources.json: datasets used, without URLs (URLs stay in sources/additions/D1.json) -------------
+    used_for = {
+        'census-gazetteer-2024': 'County list, names, internal points, land area',
+        'census-ct-planning-region-crosswalk': 'Connecticut planning regions to the legacy counties NWS radio still uses',
+        'usgs-3dep-epqs': 'Elevation at each county point',
+        'noaa-ncei-normals-1991-2020': 'January low, July high, precipitation, snowfall, frost dates, frost-free days',
+        'noaa-rcc-acis': 'Record low and record high (and 4-km grid elevation where USGS did not answer)',
+        'usda-phzm-2023': 'Hardiness zone',
+        'nws-awips-counties-cwa': 'NWS forecast office per county',
+        'noaa-national-weather-service-nwr-county-coverage-an-c6207f': 'Weather radio transmitters, frequencies and SAME codes',
+        'fema-nri-counties': 'Hazard ratings',
+        'epa-ecoregions-level3': 'Ecoregion',
+        'nasa-power-climatology': 'Peak sun hours, December and June',
+        'nrel-solar-resource-api': 'Cross-check of peak sun hours (verification only)',
+        'fema-state-ema-list': 'State emergency management agency names',
+        'hrsa-poison-help': 'Poison control line (national)',
+    }
+    idx = {x['key']: x for x in json.load(open(os.path.join(ROOT, 'sources', 'index.json')))}
+    idx.update({x['key']: x for x in json.load(open(os.path.join(ROOT, 'sources', 'additions', 'D1.json')))})
+    jdump('sources.json', [{'key': k, 'title': idx[k]['title'], 'publisher': idx[k]['org'], 'date': idx[k]['date'],
+                            'licence_class': idx[k]['licence_class'], 'licence_note': idx[k].get('licence_note'),
+                            'used_for': u} for k, u in used_for.items()])
 
     # --- coverage report ---------------------------------------------------------------------------
     keys = ['elevation_ft', 'zone', 'jan_low_f', 'jul_high_f', 'record_low_f', 'record_high_f', 'precip_in',

@@ -83,8 +83,14 @@ async function layoutChecks(page, label) {
   assert.ok(r.notice, `${label}: never-stored notice not visible`);
 }
 async function next(page) {
+  const before = await page.textContent('#step-title');
   await page.click('#next-btn');
-  await page.waitForFunction(() => document.activeElement && document.activeElement.id === 'step-title');
+  try {
+    await page.waitForFunction((b) => document.activeElement && document.activeElement.id === 'step-title' && document.activeElement.textContent !== b, before, { timeout: 4000 });
+  } catch {
+    const errs = await page.evaluate(() => JSON.stringify(window.__settings.validate().errors));
+    throw new Error(`Next did not advance from "${before}": ${errs}`);
+  }
 }
 async function saveProfile(page, file) {
   const [dl] = await Promise.all([page.waitForEvent('download'), page.click('#final-save-btn')]);
@@ -108,6 +114,7 @@ async function scenarioA(browser, base) {
   const relayCalls = [];
   await mockRelay(context, relayCalls);
   const page = await context.newPage();
+  page.setDefaultTimeout(8000);
   const pageErrors = [];
   page.on('pageerror', e => pageErrors.push(e.message));
   page.on('dialog', d => d.accept());
@@ -202,8 +209,8 @@ async function scenarioA(browser, base) {
     await page.fill(sel.input('members-0-weight-value'), '180');
     await page.selectOption(sel.input('members-0-sex'), 'male');
     assert.equal(await page.$(sel.input('members-0-pregnant_or_nursing')), null, 'pregnancy hidden for male');
-    await page.click('.item details.more > summary');
-    const names = await page.$$eval('input[id^="f-members-0-conditions"]', els => els.map(e => e.closest('label').textContent));
+    await page.click('#f-members-0-conditions-more > summary');
+    const names = await page.$$eval('input[type=checkbox][id^="f-members-0-conditions"]', els => els.map(e => e.closest('label').textContent));
     assert.equal(names.length, 26);
     assert.match(names[0], /Type 1 diabetes/);
     await page.check(sel.check('members-0-conditions', 'CL-09'));
@@ -227,7 +234,7 @@ async function scenarioA(browser, base) {
     await page.fill(sel.input('members-1-weight-value'), '50');
     await page.selectOption(sel.input('members-1-sex'), 'female');
     assert.equal(await page.$(sel.input('members-1-pregnant_or_nursing')), null, 'pregnancy hidden for a child');
-    await page.locator('.item').nth(1).locator('details.more > summary').first().click();
+    await page.click('#f-members-1-conditions-more > summary');
     await page.check(sel.check('members-1-conditions', 'CL-03'));
     await page.check(sel.check('members-1-conditions', 'CL-04'));
     await page.click('#f-members-1-allergies-add');
@@ -480,6 +487,7 @@ async function scenarioB(browser, base) {
       return new Blob(['<!doctype html><title>real</title>'], { type: 'text/html' });
     }` }));
   const page = await context.newPage();
+  page.setDefaultTimeout(8000);
   const pageErrors = [];
   page.on('pageerror', e => pageErrors.push(e.message));
   page.on('dialog', d => d.accept());

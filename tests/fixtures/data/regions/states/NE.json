@@ -1,0 +1,7 @@
+{
+  "state": "NE", "state_name": "Nebraska", "state_em": "Fixture Nebraska Emergency Management",
+  "counties": {
+    "Custer County": { "zone": "5a", "jan_low_f": 12, "jul_high_f": 88, "snow_in": 25, "ecoregion": "Fixture Plains",
+      "hazards": { "tornado": 2, "drought": 3 }, "centroid": [41.4, -99.7], "bbox": [-100.3, 41.0, -99.2, 41.8] }
+  }
+}
