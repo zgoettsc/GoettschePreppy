@@ -126,3 +126,5 @@ Collected from worker reports; resolved in the integration pass.
 - [ ] R16: AVMA gunshot-site figure must be redrawn from the text (AVMA licence), not copied. Owner question: keep the gunshot procedure in the 20-09 humane-end section?
 - [x] R19: kit-wide numeric consistency sweep done; 16 source URLs fixed, 94 uncited keys retired; figures corrected (CPR/choking diagrams to 2025 guidance). Diphenhydramine claims verified cited to the Drug Facts label (FDA notice kept for overdose only).
 - [ ] Stop the Bleed: only official PDF found is a 98 MB course deck; keep USUHS instructions as the bound source.
+- [x] F2: 66 more figures (110 of 162 requested now render; 52 open, listed in figures/REQUESTS.md). AVMA figure left open by design.
+- [ ] F2: 15-07 could add one sentence on the AFH V-finger signal-mirror aiming method its new plate caption describes.
