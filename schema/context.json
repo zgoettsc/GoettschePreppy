@@ -219,7 +219,9 @@
     "schedule",
     "refrigerated",
     "if_missed",
-    "days_on_hand"
+    "days_on_hand",
+    "where_kept",
+    "expiry"
    ],
    "description": "All medication rows across members, as typed."
   },
@@ -408,7 +410,9 @@
     "schedule",
     "refrigerated",
     "if_missed",
-    "days_on_hand"
+    "days_on_hand",
+    "where_kept",
+    "expiry"
    ],
    "description": "Meds rows with refrigerated true."
   },
@@ -431,6 +435,7 @@
   "arrays": "Rendered as a readable comma list (\"a, b and c\").",
   "booleans": "Rendered as \"yes\" / \"no\".",
   "numbers": "Rendered with thousands separators; derived values carry the rounding in their description.",
-  "missing": "Fill-in blank."
+  "missing": "Fill-in blank.",
+  "nested": "members[].conditions, allergies and skills render as readable comma lists of names (condition names from the library, not ids)."
  }
 }

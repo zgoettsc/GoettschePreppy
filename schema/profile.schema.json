@@ -423,6 +423,15 @@
                   "minimum": 0,
                   "maximum": 3650,
                   "description": "How many days of this medication the household has on hand, by its own count."
+                },
+                "where_kept": {
+                  "type": "string",
+                  "maxLength": 80
+                },
+                "expiry": {
+                  "type": "string",
+                  "maxLength": 20,
+                  "description": "Expiry as printed on the package."
                 }
               }
             }

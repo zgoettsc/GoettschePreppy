@@ -12,3 +12,8 @@ Collected from worker reports; resolved in the integration pass.
 - [ ] Section 17: seven national hazard pages added to the plan (17-12..17-18); assign with C12.
 - [x] C03 requested: destinations water_source/sewer, dwelling.roof_area_sqft (+ derived.rain_gal_per_inch), gear.generator_volts — added to profile and context; A2/A3 notified. C03 pages print blanks for these until updated in the integration pass.
 - [ ] C03 asked whether handwashing with untreated water (13-02) should be a card; left neutral with a household blank. No card unless the owner wants one.
+- [ ] C09: AAP children's acetaminophen/ibuprofen chart only partly transcribed (12-47 lb rows checked); transcribe the full published chart in the integration pass.
+- [ ] C09: removed the AHA aspirin-for-suspected-heart-attack amount. That is a published AHA recommendation, not a derived dose; consider restoring as published.
+- [ ] C09: two household sources without index entries (2025 AHA/Red Cross first-aid guidelines; wilderness first-responder curriculum).
+- [ ] C09: seven owner questions in notes/workers/C09.md (tourniquet "the limb is the price" wording; WHO 75 mL/kg ORS figure) — put to the owner.
+- [x] C09 requested meds where_kept, expiry (days_on_hand already added); added to profile and context.

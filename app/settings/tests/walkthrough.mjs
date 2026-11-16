@@ -181,6 +181,7 @@ async function scenarioA(browser, base) {
     await page.check(sel.check('dwelling-fire_features', 'wood-stove'));
     await page.check(sel.check('dwelling-fire_features', 'fire-pit'));
     await page.selectOption(sel.input('dwelling-pool_or_hot_tub-kind'), 'none');
+    await page.fill(sel.input('dwelling-roof_area_sqft'), '1800');
     await page.selectOption(sel.input('dwelling-garden_space'), 'large-yard');
     await page.check(sel.radio('dwelling-attached_garage', 'true'));
     await page.click('#f-dwelling-vehicles-add');
@@ -263,6 +264,8 @@ async function scenarioA(browser, base) {
     await page.selectOption(sel.input('destinations-0-state'), 'IL');
     await page.fill(sel.input('destinations-0-county'), 'Champaign County');
     await page.check(sel.radio('destinations-0-status', 'agreed'));
+    await page.selectOption(sel.input('destinations-0-water_source'), 'well');
+    await page.selectOption(sel.input('destinations-0-sewer'), 'septic');
     await page.fill(sel.input('destinations-0-how_to_reach_them'), 'Phone, then letter');
     await page.fill(sel.input('destinations-0-route_notes'), 'Avoid the river bridge.');
     await page.fill(sel.input('destinations-0-approximate_miles'), '600');
@@ -292,6 +295,7 @@ async function scenarioA(browser, base) {
     await page.fill(sel.input('gear-power_stations-0-wh'), '1024');
     await page.check('#f-has-generator');
     await page.selectOption(sel.input('gear-generator-fuel'), 'dual-fuel');
+    await page.selectOption(sel.input('gear-generator-volts'), '120-240');
     await page.fill(sel.input('gear-generator-watts'), '3500');
     await page.selectOption(sel.input('gear-house_connection'), 'interlock');
     await page.click('#f-gear-heaters-add');
@@ -355,6 +359,10 @@ async function scenarioA(browser, base) {
     assert.equal(saved.dwelling.gas_service.tank_gallons, 500);
     assert.equal(saved.home.county, 'Minnehaha County');
     assert.equal(saved.members[0].medications[0].days_on_hand, 45);
+    assert.equal(saved.dwelling.roof_area_sqft, 1800);
+    assert.equal(saved.gear.generator.volts, '120-240');
+    assert.equal(saved.destinations[0].water_source, 'well');
+    assert.equal(saved.destinations[0].sewer, 'septic');
   });
 
   await step('final: Small vs Large estimates, generate with stub (progress, then download)', async () => {
