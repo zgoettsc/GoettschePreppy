@@ -2,7 +2,7 @@
 id: 15-07-signals-and-codes
 section: 15-communications
 title: "Signals without radio, and family codes"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -22,7 +22,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Signal ranges labelled typical; Part 97 obscured-meaning rule verified." }
 ---
 
 # Signals without radio, and family codes

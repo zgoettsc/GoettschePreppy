@@ -21,7 +21,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "20 ft generator distance (CDC) and CO floor verified; DC-11/DC-20 references correct." }
 ---
 
 # Not becoming a target

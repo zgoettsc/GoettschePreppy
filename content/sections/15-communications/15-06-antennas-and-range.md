@@ -2,7 +2,7 @@
 id: 15-06-antennas-and-range
 section: 15-communications
 title: "Antennas, range and realistic expectations"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -21,7 +21,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Range table labelled typical; dipole formula sourced to ARRL; owner GMRS channel residue replaced; arithmetic rechecked." }
 ---
 
 # Antennas, range and realistic expectations

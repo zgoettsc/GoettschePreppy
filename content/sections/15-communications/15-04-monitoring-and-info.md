@@ -2,7 +2,7 @@
 id: 15-04-monitoring-and-info
 section: 15-communications
 title: "Monitoring the news, scanning, and judging what you hear"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: none
@@ -21,7 +21,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Unsourced NWR backup-power claim softened; calling frequencies checked." }
 ---
 
 # Monitoring the news, scanning, and judging what you hear

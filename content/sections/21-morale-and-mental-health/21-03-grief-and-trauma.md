@@ -26,7 +26,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CDC child-coping guidance read live and restated accurately; DC-10 reference (30-11) correct." }
 ---
 
 # Grief, loss and trauma

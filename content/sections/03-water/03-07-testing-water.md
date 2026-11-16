@@ -40,10 +40,12 @@ tell you, and which tests to buy now while labs and shops are open.
    test through a **state-certified lab** for **total coliform bacteria, nitrate, total
    dissolved solids and pH**: the CDC's yearly list (CDC, Guidelines for Testing Well Water).
    Your county or state health department can name a certified lab.
-2. **Nitrate matters most for infants.** Babies are the people most harmed by nitrate in
-   water (it stops their blood carrying oxygen properly). Know the number before you ever mix
-   formula with well or surface water. **Boiling makes nitrate worse**, because it boils off
-   water and leaves the nitrate behind.{{#if has.infant}} You have an infant: this is your
+2. **Nitrate matters most for infants.** EPA says infants under six months who drink water
+   with nitrate above the limit can become seriously ill and, untreated, may die ("blue-baby
+   syndrome": their blood cannot carry oxygen properly). Know the number before you ever mix
+   formula with well or surface water. **Boiling does not remove nitrate** (EPA: boiling does
+   not remove salts or most chemicals), and because some water boils away, what is left is
+   slightly stronger.{{#if has.infant}} You have an infant: this is your
    most important water test.{{/if}}
 3. **Buy test strips now** (free chlorine, pH, nitrate, hardness) and a pocket TDS meter. They
    are cheap, small, and impossible to buy later.
@@ -58,31 +60,34 @@ tell you, and which tests to buy now while labs and shops are open.
 **Private wells are not regulated.** The EPA's public-water rules do not apply to them;
 nobody checks or treats that water but you (CDC, Private Drinking Water and Public Health).
 The CDC recommends testing a well **at least once a year** for **total coliform, nitrate,
-total dissolved solids and pH**, and more often if small children, elders, or anyone pregnant
-or nursing lives in the house.
+total dissolved solids and pH**, and testing again when someone in the house becomes pregnant
+or a child joins the household, after flooding or nearby land disturbance, after well repairs,
+or when the water's taste, color or smell changes.
 
 | Test | What it means | Why it matters |
 |---|---|---|
 | **Total coliform** | Indicator bacteria. If they are present, harmful bacteria, viruses or parasites probably are too | The disease test. Positive means do not drink it untreated |
-| **Nitrate** | Runoff from fertilizer, manure, septic systems, flooded sewers | **Dangerous to infants.** A real risk in farm country |
+| **Nitrate** | Runoff from fertilizer, animal waste, septic systems, sewage (CDC; EPA) | **Dangerous to infants.** A real risk in farm country |
 | **TDS** (total dissolved solids) | How much salt and mineral is dissolved in the water | Tells you whether distilling is needed (pool water, brackish sources) |
 | **pH** | How acidic the water is | Affects pipe corrosion and how well chlorine works |
 
-**Disinfecting does not remove nitrate, salts or most chemicals.** Boiling actually
-*concentrates* them as water boils off. That is the most dangerous misunderstanding in
+**Disinfecting does not remove nitrate, salts or most chemicals** (EPA, Emergency Disinfection
+of Drinking Water). Boiling leaves them in, slightly concentrated as water boils off. That is the most dangerous misunderstanding in
 emergency water, and it is why nitrate and TDS deserve a real test.
 
 ### Well test record
 
 Fill this in at the wellhead, for your well or any well you use.
 
-{{#each destinations as d}}**{{ d.name }}** ({{ d.county }}, {{ d.state_name }}): water source __________
+{{#each destinations as d}}**{{ d.name }}** ({{ d.county }}, {{ d.state_name }}): water source {{ d.water_source_text }}
 {{/each}}
 
 - Well: __________ Date sampled: ________ Lab or kit: ________
 - Total coliform: ☐ absent ☐ PRESENT (treat all water until it is fixed, → 03-04, → 03-10)
-- Nitrate: ________ mg/L. **Over 10 mg/L (the EPA drinking-water limit) is not safe for an
-  infant's formula or feeding.** Use other water for the baby; boiling makes it worse.
+- Nitrate: ________ mg/L. **Over 10 mg/L (EPA's drinking-water limit, measured as nitrogen)
+  is not safe for an infant's formula or feeding** (US EPA, National Primary Drinking Water
+  Regulations). Check which unit your lab or strip reports. Use other water for the baby;
+  boiling does not help.
 - TDS: ________ ppm · pH: ________
 - Retest due (one year, or after flooding): ________
 

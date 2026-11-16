@@ -25,7 +25,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Derived/settings values only; no owner numbers; rationing rules consistent with 12-07." }
 ---
 
 # The depletion framework

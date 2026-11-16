@@ -2,7 +2,7 @@
 id: 15-05-ham-and-licensing
 section: 15-communications
 title: "Amateur (ham) radio: licensing and getting started now"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: none
@@ -21,7 +21,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Technician exam (35 questions, no code), 10-year term and emergency provisions sourced to 47 CFR 97." }
 ---
 
 # Amateur (ham) radio: licensing and getting started now

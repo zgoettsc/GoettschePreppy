@@ -2,7 +2,7 @@
 id: 14-01-situational-awareness
 section: 14-security-and-defense
 title: "Situational awareness and honest threat assessment"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -21,7 +21,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Red Cross outage attribution reworded to match the source; no other numbers." }
 ---
 
 # Situational awareness and honest threat assessment

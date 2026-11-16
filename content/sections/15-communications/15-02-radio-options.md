@@ -2,7 +2,7 @@
 id: 15-02-radio-options
 section: 15-communications
 title: "Radio options: FRS, GMRS, MURS, CB, ham, scanners and satellite"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -22,7 +22,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "FRS/GMRS/MURS/CB power and channels checked against 47 CFR 95; GMRS licence terms (10 yr, 18+, family) added; ranges labelled typical." }
 ---
 
 # Radio options: FRS, GMRS, MURS, CB, ham, scanners and satellite

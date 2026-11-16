@@ -2,7 +2,7 @@
 id: 19-02-cash-and-value
 section: 19-finances-and-documents
 title: "Cash, value and a degraded economy"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -27,7 +27,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "$250,000 FDIC/NCUA limit verified (FDIC, NCUA pages read live); paper-only account worksheet." }
 ---
 
 # Cash, value and a degraded economy

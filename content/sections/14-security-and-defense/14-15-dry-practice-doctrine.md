@@ -2,7 +2,7 @@
 id: 14-15-dry-practice-doctrine
 section: 14-security-and-defense
 title: "Dry practice: the safety routine"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -21,7 +21,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Four-rules attribution clarified against NSSF's ten rules; floor wording checked." }
 ---
 
 # Dry practice: the safety routine

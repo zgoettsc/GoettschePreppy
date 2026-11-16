@@ -2,7 +2,7 @@
 id: 14-10-suppressors-and-nfa
 section: 14-security-and-defense
 title: "Suppressors: care, paperwork and practical use"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -21,7 +21,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "NFA note updated: $0 tax since 2026-01-01 (26 USC 5811), ATF Oct 2026 non-enforcement, state law unaffected; hearing claim re-sourced to NSSF." }
 ---
 
 # Suppressors: care, paperwork and practical use

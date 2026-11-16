@@ -24,7 +24,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "No numbers; DC-12 reference correct (30-13); CDC isolation claim checked." }
 ---
 
 # Trust, vetting and strangers

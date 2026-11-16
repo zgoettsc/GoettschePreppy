@@ -2,7 +2,7 @@
 id: 06-05-alternative-fuels
 section: 06-fire-and-fuel
 title: "Alternative fuels (propane, charcoal, kerosene, biomass)"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -17,6 +17,11 @@ sources:
   - us-doe-alternative-fuels-data-center-fuel-properties-84dd21
   - nfpa-nfpa-58-liquefied-petroleum-gas-code-storage-of-13af35
   - honda-eu-generator-fuel-recommendations
+  - niosh-npg-n-butane-r3
+  - niosh-npg-propane-r3
+  - nist-lpg-20-pound-cylinders-2021
+  - minnesota-sfm-lp-gas-inside-buildings-r3
+  - epa-burn-wise-best-wood-burning-practices-0c1680
 related:
   - 06-03-firewood-basics
   - 06-04-wood-supply-and-depletion
@@ -47,7 +52,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "430,000 BTU tied to Enerco manual run times and DOE; unsourced 4.7 gal dropped; NIST 15-lb exchange fill added (matches 28-04); butane/propane boiling points from NIOSH NPG; camp-stove BTU made an example." }
 ---
 
 # Alternative fuels (propane, charcoal, kerosene, biomass)
@@ -64,14 +69,14 @@ which can ever be used indoors. This page assumes it.
 > **SAFETY.**
 > - **Never run a generator, charcoal, or any engine indoors, in a garage, or near an open
 >   window.** Carbon monoxide kills in minutes with no warning; alarms fail; there is no
->   mitigation that works every time. Charcoal makes lethal carbon monoxide (CO) even in a
->   fireplace (CDC; → 29-03).
+>   mitigation that works every time. Charcoal makes lethal carbon monoxide (CO). CDC: never
+>   burn charcoal indoors, and a fireplace is indoors (CDC; → 29-03).
 > - **Fuel is never stored or transferred near an open flame or a running appliance.** Vapour
 >   ignition.
 > - **Children do not have access to firearms, fuel, medications or chlorine products.** Fixed
 >   in every source.
 > - **Never burn treated or painted wood, plywood, particleboard or trash**: toxic smoke and
->   residue (EPA, Burn Wise).
+>   residue (EPA, Best Wood-Burning Practices; MU Extension, Wood Fuel for Heating).
 >
 > Every fuel here can kill by CO, fire or explosion. Read → 08-02 and → 06-06 alongside this page.
 
@@ -96,7 +101,7 @@ which can ever be used indoors. This page assumes it.
 | **Wood pellets** | Years if dry | With a pellet stove | Good | Pellet stove only | Dense and clean, but needs its own stove, which usually needs electricity |
 | **Kerosene** | Keeps longer than gasoline when full, sealed and dark, but water creeps in. Jar-test before use; how old is too old is a household choice (→ 30-18) | Kerosene stove | High | **Only K-1 kerosene, only in heaters or lamps made for indoor use**, with ventilation and a CO alarm (→ 08-10) | Usual can colour: blue |
 | **Gasoline** | **Months, not years.** Stabiliser added when fresh slows ageing but cannot fix stale fuel (Honda Power Equipment, Fuel Recommendations) | Some camp stoves | — | **Never for heat or light** | Vehicles and most generators. Dangerous to store (→ 06-06). Usual can colour: red |
-| **Butane canisters** | Years | Good | — | Not indoors (CDC: never a camp stove indoors) | **Fails in the cold** |
+| **Butane canisters** | Years | Good | — | Not indoors (CDC: never a camp stove indoors) | **Fails in the cold**: butane boils at 31 °F (NIOSH) |
 | **Compressed sawdust logs ("bio-bricks")** | Years, if dry | Yes | Good | Vented appliance | Excellent to stockpile: dense, dry, no seasoning |
 | **Paper logs (homemade)** | Months to years | Poor | Poor | Vented appliance | Free from junk mail and cardboard |
 | **Dung, dried plant matter** | Seasonal | Yes | Low | Vented appliance, ventilated room | Old last resort; smoky |
@@ -117,19 +122,24 @@ trade-off: fresh fuel only, or a jar test first. {{choice DC-17}} → 30-18.
 
 ## How far a 20-lb propane cylinder goes
 
-A 20-lb cylinder holds about **4.7 gallons** of propane, about **430,000 BTU** in all (the
-standard industry figure; the US Department of Energy gives propane about 91,000 BTU per gallon:
-DOE Alternative Fuels Data Center, Fuel Properties Comparison). A BTU is a unit of heat.
+A BTU is a unit of heat. A full 20-lb cylinder holds about **430,000 BTU**. One heater maker's
+figures show it: its manual gives **48 to 110 hours** per 20-lb cylinder, from high (9,000 BTU/h)
+to low (4,000 BTU/h) (Enerco Group, portable radiant heater owner's manual), and 48 × 9,000 is
+about 430,000. The US Department of Energy gives propane about 91,000 BTU per gallon (DOE
+Alternative Fuels Data Center, Fuel Properties Comparison).
 
-**The method:** hours per cylinder = 430,000 ÷ the appliance's BTU per hour, from its label
-(→ 29-14). Real use is lower in hard cold.
+**Check the label first.** Most "20-lb" cylinders at exchange cages are filled to **15 lb**, not 20
+(NIST, Liquefied Petroleum Gas 20 Pound Cylinders). A 15-lb fill holds three quarters as much:
+about 320,000 BTU (→ 28-04).
 
-- **Cooking:** a typical camp-stove burner is rated around 10,000 BTU/h. That is about **43
-  burner-hours** per cylinder at full flame. Real cooking rarely runs a burner wide open the whole
-  time. Stove technique: → 07-05.
-- **Portable propane heater:** one common small heater's manual gives **48 to 110 hours** per
-  20-lb cylinder, from high (9,000 BTU/h) to low (4,000 BTU/h) (Enerco Group, portable radiant
-  heater owner's manual). Use your own heater's rating (→ 08-09, → 28-04).
+**The method:** hours per cylinder = 430,000 (or 320,000 for a 15-lb fill) ÷ the appliance's BTU
+per hour, from its label (→ 29-14). Real use is lower in hard cold.
+
+- **Cooking:** read the burner's BTU rating on the stove's label. For example, a burner rated
+  10,000 BTU/h would run about **43 hours** on a full 20-lb cylinder at full flame. Real cooking
+  rarely runs a burner wide open the whole time. Stove technique: → 07-05.
+- **Portable propane heater:** the manual figures above; use your own heater's rating (→ 08-09,
+  → 28-04).
 - **Generator:** run time per cylinder depends entirely on the model and the load. Use your
   generator's manual (→ 09-04, → 28-03).{{#if has.generator}} Your generator: {{ gear.generator_watts }} running watts, fuel: {{ gear.generator_fuel }}.{{/if}}
 
@@ -161,13 +171,14 @@ This household has **{{ gear.fuel.propane_20lb }}** 20-lb cylinders and **{{ gea
 
 **Two propane decisions on other pages.** Refilling small 1-lb cylinders from a 20-lb tank:
 {{choice DC-03}} → 30-04. A cylinder larger than 1 lb inside the house: {{choice DC-02}} → 30-03.
-NFPA 58, the propane code, limits cylinders kept inside a home to the 1-lb class (NFPA 58).
+Fire codes based on NFPA 58, the propane code, limit cylinders kept inside a home to the 1-lb
+class (NFPA 58; Minnesota State Fire Marshal, LP Gas Inside Buildings).
 
 ## Charcoal: useful, and lethal indoors
 
 Charcoal is tempting: cheap, keeps for years if dry, and gives steady, controllable cooking heat.
-**It also makes very high CO.** Every year people die burning charcoal indoors during outages,
-including in fireplaces (CDC). **Outdoors only, every time, whatever the weather.** If it is too
+**It also makes a lot of CO**, and CDC says never burn it indoors (CDC, Carbon Monoxide Poisoning:
+Basics). A fireplace is indoors. **Outdoors only, every time, whatever the weather.** If it is too
 cold to cook outside, use a different method, not a different room.
 
 **You can make charcoal** from wood by burning it with little air. In a long emergency it is a
@@ -187,8 +198,9 @@ cleaner.
 
 ## The cold-weather footnote
 
-**Butane canister stoves largely stop working below freezing**: the fuel will not turn to gas.
-**Propane keeps working** in far colder weather.{{#if is.cold_winters}} With your cold winters,
+**Butane canister stoves largely stop working below freezing**: butane boils at 31 °F, so below
+that it will not turn to gas. **Propane keeps working** in far colder weather: it boils at −44 °F
+(NIOSH Pocket Guide, n-Butane and Propane).{{#if is.cold_winters}} With your cold winters,
 that alone makes propane the better backup stove fuel.{{/if}}
 
 ## Gear

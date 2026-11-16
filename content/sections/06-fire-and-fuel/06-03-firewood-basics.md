@@ -2,7 +2,7 @@
 id: 06-03-firewood-basics
 section: 06-fire-and-fuel
 title: "Firewood: species, cords, seasoning, splitting"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -13,6 +13,7 @@ sources:
   - university-of-missouri-extension-wood-fuel-for-heati-b63761
   - us-epa-burn-wise-heating-with-wood-safe-operation-se-ba0e76
   - usda-nrcs-plants-database-plant-profiles-and-image-l-a7089c
+  - epa-burn-wise-best-wood-burning-practices-0c1680
 related:
   - 06-02-sustaining-fire
   - 06-04-wood-supply-and-depletion
@@ -35,7 +36,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Species table realigned to data/plants/species.json heat classes and MU G5450 Table 2 (pines medium, white pine low; apple removed); unsupported pine 2,700 lb and over-50-percent water corrected; face cord per MU; 15 ft splitting distance removed." }
 ---
 
 # Firewood: species, cords, seasoning, splitting
@@ -48,18 +49,20 @@ without hurting yourself.
 > **CAUTION.** Two things here hurt people. **Splitting injuries**: an axe glancing off a log
 > is a leg wound, possibly with no emergency room. **Burning the wrong material**: never burn
 > treated, painted or pressure-treated wood, plywood, OSB, particleboard, driftwood or trash.
-> The smoke is poisonous and the residue damages the chimney (EPA, Burn Wise).
+> The smoke is poisonous and the residue damages the chimney (EPA, Best Wood-Burning Practices;
+> MU Extension, Wood Fuel for Heating).
 
 ## Do this now
 
 1. **Measure your stack honestly, in cords.** A **cord is 128 cubic feet**: a stack 4 ft high,
-   4 ft deep and 8 ft long. A "face cord" (one row of that size, usually 16 inches deep) is
-   usually about **one third** of a cord. This is where people badly overestimate what they
-   have.
+   4 ft deep and 8 ft long. A "face cord" or "rick" is one row 4 ft high and 8 ft long but only
+   16 to 24 inches deep, so a **third to a half** of a cord, and it is often sold as a "cord" (MU
+   Extension, G5450). This is where people badly overestimate what they have.
 2. **Get a moisture meter** (a cheap hand tool with two pins) and check what you own. The
-   target is **20 percent or less**.
-3. **Start seasoning now.** Fresh-cut wood is often **over 50 percent water** and needs **at
-   least one full drying season**, spring through fall.
+   target is **below 20 percent** (EPA, Best Wood-Burning Practices).
+3. **Start seasoning now.** Fresh-cut hardwood is very wet (about 75 percent moisture by MU
+   Extension's measure, so close to half its weight is water) and needs **at least six months**
+   of drying (EPA), a year for dense hardwoods (MU Extension).
 4. **Stack it off the ground, covered on top, open on the sides.** Wood dries by moving air,
    not by being wrapped in a tarp.
 5. **Split it.** Split wood dries much faster than whole rounds.
@@ -86,19 +89,24 @@ close to useless.** That is the strongest reason to season wood ahead, every yea
 
 ## Species: a cord is not a fixed amount of heat
 
-At the same moisture, **heavier (denser) wood holds more heat**. MU Extension gives a seasoned
-cord of oak at roughly **3,600 to 3,700 lb**, against about **2,700 lb** for pine at the same 20
-percent moisture (G5450). A cord of oak carries far more usable heat than a cord of pine.
+At the same moisture, **heavier (denser) wood holds more heat**: a given volume of oak or hickory
+gives more heat than the same volume of cottonwood or willow (MU Extension, G5450). MU Extension
+puts a seasoned cord of oak or other dried hardwood at about **3,600 lb**. A cord of a light wood
+weighs much less and carries much less usable heat.
 
-The groups below are common US firewood trees sorted by how well they burn. They are general:
+The groups below are common US firewood trees sorted by heat per cord, the same classes used on
+the region plates in Section 32 (MU Extension, G5450; → 32-00). They are general:
 which of them grow near you depends on your region.
 
 | Burn quality | Common US examples | Best use |
 |---|---|---|
-| **High (dense hardwoods)** | Oaks, hickories, hard (sugar) maple, ash, beech, black locust, honey locust, Osage orange (hedge), apple and other fruit woods | **Overnight burns, cold nights, banking** (→ 06-02) |
-| **Medium** | Elm, soft maples (red and silver), birch, cherry, walnut, hackberry, sycamore, Douglas-fir, larch (tamarack) | General burning |
-| **Low (light woods)** | Cottonwood, aspen, poplar, willow, basswood, boxelder | Quick cooking heat and kindling. Burn fast and leave little coal |
-| **Low, resinous (softwoods)** | Pines, spruces, firs, cedars | Fine outdoors and as kindling; in a flue, burn them only dry and hot, and check the chimney more often (→ 06-09) |
+| **High (dense hardwoods)** | Oaks, hickories and pecan, sugar maple, white ash, beech, yellow birch, black locust, honey locust, Osage orange (hedge), mulberry, ironwood (hophornbeam), mesquite | **Overnight burns, cold nights, banking** (→ 06-02) |
+| **Medium** | Elm, red and silver maple, green ash, paper birch, cherry, walnut, hackberry, sycamore, most pines (ponderosa, lodgepole, loblolly, shortleaf and other southern pines), Douglas-fir, larch (tamarack), junipers and eastern redcedar | General burning |
+| **Low (light woods)** | Cottonwood, aspen, willow, basswood, boxelder, tuliptree (yellow-poplar), eastern white pine, spruces, true firs, hemlocks, northern white-cedar, western redcedar | Quick cooking heat and kindling. Burn fast and leave little coal |
+
+**Pines and other conifers** are resinous: fine outdoors and as kindling, and in a flue burn them
+only dry and hot, and check the chimney more often (→ 06-09). Osage orange throws many sparks: not
+for an open fireplace without a screen (MU Extension).
 
 **Strategy:** burn the light, fast woods for **cooking**; save the dense woods for **overnight
 heat and banking** (→ 06-02).
@@ -119,7 +127,8 @@ log already on the ground, bark and grain are all you have to go on.
 - **Cover the top only.** A tarp over the whole pile traps moisture.
 - **Sun and wind**, not shade. A spot with sun and moving air dries fastest.
 - **Single rows dry faster** than deep blocks.
-- **Time:** most woods need **6 to 12 months**; oak and elm often want a year or more.
+- **Time:** at least **six months** for most woods (EPA); dense hardwoods such as oak need a year
+  or more (MU Extension), and the slowest oaks up to two years.
 - **Check with the meter** instead of guessing. Split a piece and test the fresh face: a
   surface that reads 20 percent may read 35 percent inside.
 
@@ -131,7 +140,8 @@ log already on the ground, bark and grain are all you have to go on.
 - **Maul for splitting, axe for felling and limbing.** A splitting maul has a wedge-shaped head
   that does the work; a sharp felling axe gets stuck in rounds (→ 16-06).
 - **Wedges and a sledgehammer** for knotty, twisted and stringy wood such as elm.
-- **Nobody near you while you split**, especially children: keep everyone at least 15 feet back.
+- **Nobody near you while you split**, especially children: keep everyone well clear of the
+  swing and of flying chips and pieces.
 - **Frozen wood splits easier.** Winter is a good time to split.
 - **Stop when you are tired.** Most splitting injuries happen on a tired swing.
 
@@ -155,7 +165,7 @@ Whether teenagers split wood is the household's call: {{choice DC-24}} → 30-25
 
 | Item | Why | Notes |
 |---|---|---|
-| Splitting maul (6 to 8 lb) | The main tool | And a spare handle |
+| Splitting maul | The main tool | And a spare handle |
 | Two or more splitting wedges and a sledgehammer | Knots, big rounds, elm | Steel wedges |
 | Bow saw and spare blades | Cuts wood with no fuel, quietly | Keep plenty of blades |
 | Chainsaw with fuel, bar oil, files, spare chain | Fast while fuel lasts | Runs out: back it up with hand tools |

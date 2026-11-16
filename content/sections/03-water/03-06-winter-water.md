@@ -45,13 +45,15 @@ this page applies to you every winter.{{/if}}
    under sinks so house heat reaches the pipes.
 3. **If the power fails in winter:** fill every container with water **at once**, before pipes
    freeze or pressure is lost: tub, pots, jugs, bottles.
-4. **If a pipe freezes, one sequence:**
-   - **main water valve OFF**;
-   - **open the tap on the frozen line** so melt water has somewhere to go;
+4. **If a pipe freezes** (a tap gives only a trickle):
+   - **keep the tap on the frozen line open**: as the ice melts, running water helps melt the
+     rest (American Red Cross);
    - **warm the pipe starting from the tap end** and working back toward the frozen part, with
-     a hair dryer, heating pad or hot towels. **Never a torch, a heater or any open flame.**
-   - **Turn the water back on slowly and check the whole pipe for a split** before you trust
-     it. A frozen pipe often cracks and only leaks once it thaws.
+     a hair dryer, an electric heating pad or towels soaked in hot water. **Never a blowtorch,
+     a kerosene or propane heater, a charcoal stove or any open flame** (American Red Cross);
+   - **if the pipe has split or starts leaking, close the main water valve at once.** A frozen
+     pipe often cracks and only leaks once it thaws, so check the whole run before you trust
+     it, and check the other taps: if one pipe froze, others may have too.
 5. **Melt snow; never eat it.** Put a little water in the pot first (→ 03-05).
 
 {{photo water-main-shutoff}}
@@ -89,7 +91,7 @@ A drained system cannot burst. Toilets without water: → 13-05.
 | Source | Effort | Fuel cost | Notes |
 |---|---|---|---|
 | Stored water indoors | None | None | Keep it where it cannot freeze |
-| Snow | Low (shovel) | **High** (melting) | About 10 parts fluffy snow to 1 part water |
+| Snow | Low (shovel) | **High** (melting) | Fluffy snow melts to a small fraction of its volume |
 | Ice (icicles, hard-packed snow) | Low | Medium | More water per pot than powder |
 | Pool or hot tub under its cover and ice | Medium (procedure below) | High if distilled | Still there; saltwater still needs distilling (→ 03-03) |
 | Rain barrels | none | none | Usually frozen solid; drain them before the hard freeze |
@@ -111,7 +113,7 @@ in freezing weather can stiffen and ice into its tracks, and then it cannot be c
    closed: ☐ yes ☐ no. Checked on: ________. If no, step 2 is your first choice and snow is the
    better answer.
 2. **If you must open the cover: the smallest corner only, an adult there the whole time.**
-   Open it 3 to 4 feet at the shallow end, draw fast, and **close and secure it at once**,
+   Open only enough at the shallow end for a bucket, draw fast, and **close and secure it at once**,
    before anything else. In freezing weather, check that ropes and tracks are free of ice and
    that you *can* close it **before** you open it. If you cannot be sure of closing it, do not
    open it: melt the snow lying on top of it instead.
@@ -119,8 +121,8 @@ in freezing weather can stiffen and ice into its tracks, and then it cannot be c
    the size of the bucket, chipped with a bar (never an axe swung over water). Draw, then
    cover the hole again and **mark the spot** with a flag or stake at the edge so the next
    person knows where the ice is thin. Never walk on the cover or the ice.
-4. **Watch the water level.** Many safety covers need the normal water level to carry weight
-   (→ 03-08). Winter draws count. Draw sparingly; snow and ice around the yard are the bulk
+4. **Watch the water level.** Read your cover's manual now for the water level it needs:
+   some covers are designed to sit on, or be supported by, the normal water level (→ 03-08). Winter draws count. Draw sparingly; snow and ice around the yard are the bulk
    source.
 
 ### Protect what you have
@@ -132,10 +134,10 @@ any container that might freeze. Do not store water in glass where it can freeze
 **Winter is also a refrigerator.** The cold that threatens your pipes also keeps food
 (→ 04-09). But some medicines must never freeze.
 
-{{#if has.refrigerated_meds}}> **Floor:** a frozen-then-thawed insulin vial or pen is discarded. It loses strength with no
+{{#if has.refrigerated_meds}}> **Floor:** A frozen-then-thawed insulin vial or pen is discarded. It loses strength with no
 > way to tell. Keep insulin and other refrigerated medicines in the heated room, never on a
 > windowsill or in an unheated space (→ 29-07).
-{{else}}> **Floor:** a frozen-then-thawed insulin vial or pen is discarded. It loses strength with no
+{{else}}> **Floor:** A frozen-then-thawed insulin vial or pen is discarded. It loses strength with no
 > way to tell. If anyone in your group uses refrigerated medicine, keep it from freezing
 > (→ 29-07).
 {{/if}}
@@ -144,7 +146,7 @@ any container that might freeze. Do not store water in glass where it can freeze
 
 | Item | Why | Notes |
 |---|---|---|
-| Pipe insulation sleeves, heat tape | Prevention beats repair | UL-listed heat tape only |
+| Pipe insulation sleeves, heat tape | Prevention beats repair | UL-listed heat tape only (American Red Cross) |
 | Hair dryer, heating pads, towels | Thawing pipes safely | Never an open flame |
 | The main shutoff, its tool, and knowing where the drain valves are | Draining before a burst | Practice in the dark now |
 | Plumbing or RV antifreeze (non-toxic) | Protects drain traps and toilets once drained | |

@@ -26,7 +26,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Routine claim re-cited to CDC 'Tips for Relying on Routines and Rules' (read live)." }
 ---
 
 # Routine and structure for the household

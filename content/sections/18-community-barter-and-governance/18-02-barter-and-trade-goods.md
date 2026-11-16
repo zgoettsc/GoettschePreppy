@@ -27,7 +27,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Botulism boil (10 min + 1 min/1,000 ft) and infant honey re-cited to CDC (read live); never-trade list reworded as suggestions." }
 ---
 
 # Barter and trade goods

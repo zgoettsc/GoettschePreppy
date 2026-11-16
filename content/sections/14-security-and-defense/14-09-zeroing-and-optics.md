@@ -2,7 +2,7 @@
 id: 14-09-zeroing-and-optics
 section: 14-security-and-defense
 title: "Zeroing, optics and battery management"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -21,7 +21,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Owner caliber residue removed from zero table; zero distances kept as labelled conventions; DC-11 line correct." }
 ---
 
 # Zeroing, optics and battery management

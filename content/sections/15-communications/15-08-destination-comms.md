@@ -2,7 +2,7 @@
 id: 15-08-destination-comms
 section: 15-communications
 title: "Destination communications: the node book and the overdue trigger"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: household
 danger_level: critical
@@ -21,7 +21,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "911 attribution moved to 47 CFR 9.10; DC-19 line correct; no numbers beyond household blanks." }
 ---
 
 # Destination communications: the node book and the overdue trigger

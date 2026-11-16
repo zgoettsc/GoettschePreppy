@@ -150,9 +150,10 @@ bottom, refill before the heat goes back on).
    weeks, treat the water before drinking (→ 03-04).
 6. **Do not turn the heat back on until the tank is full again:** inlet valve open, hot tap
    running steadily with no air. A heater fired empty burns out. On a gas heater, turning it
-   back on means relighting the pilot by the lighting label on the heater. FEMA says a
-   professional is needed to turn gas back on once it has been shut off; whether you relight
-   it yourself when nobody can come is a household decision: {{choice DC-28}} (→ 30-29).
+   back on means relighting the pilot by the lighting label on the heater. If the gas to the
+   house was also shut off, FEMA says a professional is needed to turn it back on. Whether you
+   relight gas appliances yourself when nobody can come is a household decision:
+   {{choice DC-28}} (→ 30-29).
 
 Every other page that says "drain the water heater" means this procedure.
 

@@ -2,7 +2,7 @@
 id: 14-13-de-escalation
 section: 14-security-and-defense
 title: "De-escalation and avoiding conflict"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -21,7 +21,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Eye-flush 15 min sourced to AAP Poison Prevention; unsourced 1-hour watch removed; NIJ asthma finding stated as published; pepper-spray legality softened." }
 ---
 
 # De-escalation and avoiding conflict

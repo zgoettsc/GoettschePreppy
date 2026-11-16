@@ -2,7 +2,7 @@
 id: 06-07-moving-and-transferring-fuel
 section: 06-fire-and-fuel
 title: "Moving and transferring fuel (siphoning)"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -16,6 +16,11 @@ sources:
   - us-consumer-product-safety-commission-cpsc-what-to-k-3390a4
   - national-capital-poison-center-poison-control-1-800-e428c9
   - cdc-mmwr-hydrocarbon-kerosene-lamp-oil-ingestion-in-106f3a
+  - maryland-mde-gasoline-safety-r3
+  - niosh-fire-hazard-filling-gas-cans-in-pickups-1998-r3
+  - pei-stop-static-campaign-r3
+  - medlineplus-us-national-library-of-medicine-nih-pois-665b85
+  - medlineplus-us-national-library-of-medicine-nih-eye-b76bfd
 related:
   - 01-03-phase-b-movement
   - 06-05-alternative-fuels
@@ -44,7 +49,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Static rules re-sourced (CPSC release covers only can-on-ground; MDE/API, NIOSH 1998, PEI added); removed unsupported metal-screen spark and 2009/25-year figures; eye flush 15 min per MedlinePlus; breathing watch points to 12-17." }
 ---
 
 # Moving and transferring fuel (siphoning)
@@ -63,10 +68,12 @@ what to do about a spill.
 >   in every source.
 > - **Never siphon by mouth.** Gasoline irritates the lungs when breathed in and the stomach
 >   lining when swallowed, and high exposures can harm the nervous system (CDC/ATSDR, ToxFAQs
->   for Automotive Gasoline). If anyone swallows fuel: **do not make them vomit** (vomiting is
->   how it gets into the lungs); **call Poison Control, 1-800-222-1222**; with no phone, → 12-17.
+>   for Automotive Gasoline). If anyone swallows fuel: **do not make them vomit** (vomiting can
+>   carry it into the lungs; MedlinePlus, Poisoning first aid); **call Poison Control,
+>   1-800-222-1222**; with no phone, → 12-17.
 > - **Static can light it.** **Put the can on the ground to fill it**: never inside a vehicle,
->   a trunk, a pickup bed or on a trailer floor. **Fill slowly** (CPSC, Fuel Container Safety).
+>   a trunk, a pickup bed or on a trailer floor. **Fill slowly** (CPSC, Fuel Container Safety;
+>   Maryland Department of the Environment, Gasoline Safety; NIOSH).
 > - **Taking fuel that is not yours is theft** (→ 22-02).
 
 ## Do this now
@@ -81,7 +88,7 @@ what to do about a spill.
 
 ## Why "a hose down the filler neck" usually fails now
 
-On most vehicles built in roughly the last 25 years, **it does not work**:
+On most modern vehicles, **it does not work**:
 
 - **Anti-siphon screens and rollover valves** sit in the filler neck to stop fuel escaping in a
   crash. A hose hits them and stops.
@@ -130,17 +137,20 @@ Dropping a tank is a real job with the vehicle properly supported. Last resort.
 
 ## The static rules: the part people skip
 
-CPSC's guidance is specific (CPSC, Fuel Container Safety):
+CPSC, the petroleum industry and NIOSH agree (CPSC, Fuel Container Safety; Maryland Department of
+the Environment, Gasoline Safety, quoting the American Petroleum Institute; NIOSH, Fire Hazard from
+Filling Portable Gas Cans in Pickup Trucks and Cars):
 
 1. **Put the container on the ground to fill it.**
-2. **Never fill a container inside a vehicle, a trunk, a pickup bed or on a trailer floor**,
-   including on a plastic bed liner.
-3. **Fill slowly.** Fast flow builds static and splashes.
-4. Keep the nozzle or hose **touching the container's opening** while filling.
-5. No smoking, no flames, no running engines, nothing in your other hand.
-6. **Do not get back into the vehicle in the middle of filling** and then return to the nozzle:
-   that is how people build a charge on themselves.
-7. Fuel rushing through a metal screen can itself make a spark.
+2. **Never fill a container inside a vehicle, a trunk, a pickup bed or on a trailer floor.**
+   NIOSH traced fires to cans filled on plastic bed liners.
+3. **Touch the can with the nozzle before you open it, and keep the nozzle touching the can's
+   opening** while filling.
+4. **Fill slowly.** Fast flow builds static and splashes.
+5. **Fill to no more than about 95 percent**, so the fuel has room to expand.
+6. No smoking, no flames, engine off, nothing in your other hand.
+7. **Do not get back into the vehicle in the middle of filling** and then return to the nozzle:
+   that is how people build a charge on themselves (Petroleum Equipment Institute, Stop Static).
 
 {{figure fig-fill-on-ground}}
 
@@ -155,11 +165,11 @@ liquid out of its mouth, like a blowtorch.
 
 **That is why the container matters as much as the method.** Since **July 2023**, CPSC has
 required portable fuel containers to carry **flame mitigation devices** (flame arresters) that
-prevent flame jetting and container rupture. **Cans older than that almost certainly lack one.**
+prevent flame jetting and container rupture. **Cans made before then may not have one.**
 Replacing old gas cans is a cheap, concrete safety upgrade: put it on the shopping list (→ 26-09).
 
-**Child-resistant closures:** gasoline cans have had them since 2009; kerosene and diesel
-containers since December 2022 (CPSC). {{#if has.child}}With children in this household, buy
+**Child-resistant closures:** CPSC requires them on portable gasoline cans, and its updated
+requirements for gasoline, diesel and kerosene containers took effect in December 2022 (CPSC). {{#if has.child}}With children in this household, buy
 containers that have them (→ 20-02).{{else}}Buy containers that have them.{{/if}}
 
 **Never use gasoline to start or restart a fire**, including one you think has gone out (CPSC;
@@ -173,7 +183,8 @@ containers that have them (→ 20-02).{{else}}Buy containers that have them.{{/i
 - **Label every container** with its fuel and fill date. The usual US colours are **red for
   gasoline, yellow for diesel, blue for kerosene** (→ 29-01), but **the label, not the colour, is
   what you trust**. Read it aloud, smell, then pour (→ 06-06).
-- **Leave room at the top.** Fuel expands as it warms.
+- **Leave room at the top**: fill to no more than about 95 percent. Fuel expands as it warms
+  (Maryland Department of the Environment).
 - **Store outside the living space**, away from anything that sparks and out of children's reach
   (→ 06-06).
 - **Fuel inside a passenger vehicle** (in the cabin or an SUV's cargo area) is a trade-off the
@@ -214,13 +225,18 @@ in.
 
 ## Spills
 
-1. **Stop the source, then air the place out.** Vapour is heavier than air and pools low.
-2. **Soak it up** with sand, cat litter or absorbent pads. **Do not hose it into a drain.**
+1. **Stop the source, then air the place out.** Vapour is heavier than air and pools low
+   (Maryland Department of the Environment).
+2. **Soak it up** with sand, cat litter or absorbent pads. **Do not hose it into a drain**
+   (Maryland Department of the Environment).
 3. **Nothing that sparks** until the vapour has cleared: no light switches, no starting a vehicle.
-4. **Fuel-soaked clothing comes off outside** and never goes in a dryer.
-5. **Skin:** wash with soap and water. **Eyes:** flush with clean water for 15 to 20 minutes.
+4. **Fuel-soaked clothing comes off at once** (Maryland Department of the Environment), outside,
+   and never goes in a dryer.
+5. **Skin:** wash with soap and water. **Eyes:** flush with a gentle stream of clean, cool water
+   for 15 minutes (MedlinePlus, Eye emergencies).
 6. **Swallowed or breathed in:** **Poison Control, 1-800-222-1222**. No phone: → 12-17. Do not make
-   the person vomit; get them to fresh air; watch their breathing for a day.
+   the person vomit; get them to fresh air; watch their breathing closely, for as long as → 12-17
+   says.
 
 ## The legal and ethical line
 

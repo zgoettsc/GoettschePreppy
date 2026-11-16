@@ -26,7 +26,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Unsourced month markers and 'twenty minutes' removed; crisis lines framed 'if phones work' as on 12-15." }
 ---
 
 # Morale over the long haul

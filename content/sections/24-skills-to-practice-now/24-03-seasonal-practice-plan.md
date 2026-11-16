@@ -25,7 +25,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Spot-checked (none page); unsourced '6 to 10 weeks' replaced by seed-packet method." }
 ---
 
 # Seasonal practice plan

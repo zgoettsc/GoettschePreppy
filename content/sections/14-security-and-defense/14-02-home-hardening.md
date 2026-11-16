@@ -2,7 +2,7 @@
 id: 14-02-home-hardening
 section: 14-security-and-defense
 title: "Hardening the home without trapping the family"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -22,7 +22,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Lock lubrication interval and graphite reason corrected to Master Lock's guidance; CO floor wording checked." }
 ---
 
 # Hardening the home without trapping the family

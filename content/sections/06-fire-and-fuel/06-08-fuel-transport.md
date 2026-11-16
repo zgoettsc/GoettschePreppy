@@ -2,7 +2,7 @@
 id: 06-08-fuel-transport
 section: 06-fire-and-fuel
 title: "Carrying fuel on the road (cans, propane, trailers)"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -16,6 +16,9 @@ sources:
   - us-consumer-product-safety-commission-cpsc-promotes-994cab
   - cdc-atsdr-toxfaqs-for-automotive-gasoline-1cb179
   - cdc-how-to-make-water-safe-in-an-emergency-5d78b5
+  - maryland-mde-gasoline-safety-r3
+  - niosh-fire-hazard-filling-gas-cans-in-pickups-1998-r3
+  - ecfr-49-cfr-173-6-materials-of-trade-r3
 related:
   - 01-02-go-no-go-decision
   - 01-03-phase-b-movement
@@ -42,7 +45,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Can-filling rule re-sourced (MDE/API, NIOSH); 8 gal / 440 lb verified against 49 CFR 173.6 text; 95 percent fill; PERC page blocked, its rules consistent with DC-06 card." }
 ---
 
 # Carrying fuel on the road (cans, propane, trailers)
@@ -59,7 +62,7 @@ so they cannot leak, tip or light, how much to carry, and what to check at every
 > - **Children do not have access to firearms, fuel, medications or chlorine products.** Fixed
 >   in every source. Children stay belted in the vehicle at fuel stops.
 > - **Never fill a can inside a vehicle, a trunk, a pickup bed or on a trailer floor.** Put it on
->   the ground (CPSC; → 06-07).
+>   the ground (CPSC; Maryland Department of the Environment, Gasoline Safety; NIOSH; → 06-07).
 > - **Nobody ever rides in a trailer.**
 >
 > **A closed box in summer sun concentrates vapour.** Cans breathe as they warm, and in a closed
@@ -139,8 +142,9 @@ safe. What you can do is stack every step:
    (→ 06-07).
 2. **Upright and strapped.** Cans cannot tip, slide or rub. A can rubbing a strap for hundreds of
    miles wears through.
-3. **Full cans.** A full can has almost no vapour space; a half-empty can is mostly vapour. Fill
-   before you leave.
+3. **Full cans**, filled to about 95 percent so the fuel has room to expand (Maryland Department
+   of the Environment). A nearly full can has little vapour space; a half-empty can is mostly
+   vapour. Fill before you leave.
 4. **At the back, by the door**: last in, first out, shortest reach, first to air out when the
    doors open.
 5. **Vent the box**: roof vent open, or a door cracked. Moving air is the single best step.
@@ -157,9 +161,10 @@ safe. What you can do is stack every step:
 
 **A yardstick from the US Department of Transportation.** DOT's "materials of trade" rules were
 written for work vehicles, not family cars, so they are a guide here, not a law: no more than **8
-gallons per container**, approved packaging, secured and leak-tight, and about **440 lb** in all
-(US DOT/PHMSA, Materials of Trade Exceptions, 49 CFR 173.6). Ordinary 5-gallon cans sit inside
-it. Many small containers are better than one large one.
+gallons per container**, packaging that is leak-tight, closed, secured against shifting and
+protected from damage, and no more than **440 lb** in all (49 CFR 173.6; US DOT/PHMSA, Materials
+of Trade Exceptions). Ordinary 5-gallon cans sit inside it. Many small containers are better than
+one large one.
 
 ## Propane: worse than gasoline in a closed box
 
@@ -172,8 +177,8 @@ Guide for Portable Propane Cylinders):
   carry one lying down.
 - **Valve closed, plugged or capped**, held against tipping (a rack, a crate-style holder, or a
   ratchet strap to an anchor).
-- **A ventilated space only.** NFPA 58, the propane code, also caps how much propane may ride in
-  a closed vehicle; treat that cap as a ceiling, not a plan (NFPA 58).
+- **A ventilated space only.** The propane code also limits how much propane may ride in a closed
+  vehicle; whatever your local figure, treat it as a ceiling, not a plan (NFPA 58).
 - **Where it rides, best first:** (1) an open rack or exterior mount; (2) inside a closed trailer
   only with the vent open and the cylinders by the door; (3) never in the passenger space for
   longer than the card allows (→ 30-07).

@@ -8,7 +8,11 @@
 //      validates it with ajv against schema/profile.schema.json, generates with the stub, cancels,
 //      reloads, loads the file back and compares, and checks the opt-in browser storage.
 //   B. with kit.json, regions-lite.json and generate.js supplied by route mocks: county pickers
-//      become lists, cards come from the kit, and generateBinder receives the documented arguments.
+//      become lists, cards come from the kit, and generateBinder receives the documented arguments;
+//      the three sizes (G25) take their MB from kit.sizes plus the household's mapPlan(), the
+//      route-maps opt-in adds its maps, and an earlier binder file is passed for an upgrade.
+//   C. the real built kit and generator with ?dryrun=1: a Small binder, then the upgrade path
+//      (that Small file chosen as the earlier binder) to an Everything binder.
 // Screenshots at 375 px go to build/settings-shots/.
 
 import http from 'node:http';
@@ -410,10 +414,16 @@ async function scenarioA(browser, base) {
     assert.equal(await page.$('#include-key'), null, 'no option to include the key');
   });
 
-  await step('final: Small vs Large estimates, generate with stub (progress, then download)', async () => {
+  await step('final: Small, Large and Everything estimates, generate with stub (progress, then download)', async () => {
     const txt = await page.textContent('.sizes');
-    assert.match(txt, /Small.*about 30 to 60 MB/s);
-    assert.match(txt, /Large.*about 200 to 400 MB/s);
+    assert.match(txt, /Small.*about 30 to 60 MB.*For any phone/s);
+    assert.match(txt, /Large.*about 300 to 400 MB.*For a phone with room to spare.*life-safety/s);
+    assert.match(txt, /Everything.*about 0\.9 to 1\.1 GB.*Everything is about 0\.9 to 1\.1 GB: put it on a laptop\./s);
+    assert.ok(await page.isDisabled('#route-maps'), 'route maps are off for Small');
+    await page.check('#size-everything');
+    assert.ok(await page.isEnabled('#route-maps'), 'route maps can be chosen for Everything');
+    await page.setInputFiles('#previous-file', { name: 'old.html', mimeType: 'text/html', buffer: Buffer.from('<!doctype html><title>x</title>') });
+    await page.waitForFunction(() => /not installed/.test(document.querySelector('#previous-status').textContent));
     await page.waitForSelector('#gen-panel .warn'); // test-mode banner (no generate.js yet)
     await page.check('#size-large');
     await page.click('#generate-btn');
@@ -517,12 +527,23 @@ async function scenarioB(browser, base) {
   await context.route('**/app/build/regions-lite.json', r => r.fulfill({ contentType: 'application/json',
     body: JSON.stringify({ SD: ['Lincoln County', 'Minnehaha County'], IL: [{ name: 'Champaign County', fips: '17019' }, { name: 'Cook County' }] }) }));
   await context.route('**/app/build/kit.json', r => r.fulfill({ contentType: 'application/json',
-    body: JSON.stringify({ size_estimates: { small: { minMB: 41, maxMB: 41 }, large: { minMB: 260, maxMB: 300 } },
+    body: JSON.stringify({ sizes: { small: { min_mb: 41, max_mb: 41 }, large: { min_mb: 150, max_mb: 300, sources_min_mb: 100, sources_max_mb: 140 },
+      everything: { min_mb: 500, max_mb: 900, sources_min_mb: 450, sources_max_mb: 740 }, map_mb: { min: 27, max: 80 } },
       pages: [{ id: '30-02-dc01', frontmatter: { card: 'DC-01', title: 'Kit card one', settings_summary: 'Summary from the kit.', options: [{ id: 'never', label: 'Never', summary: 'From kit.' }] } }] }) }));
   await context.route('**/app/lib/generate.js', r => r.fulfill({ contentType: 'text/javascript', body: `
+    export function mapPlan(profile, kit) {
+      window.__planCalls = (window.__planCalls || 0) + 1;
+      return { base: { count: 2, min_mb: 54, max_mb: 160, counties: ['Minnehaha County, SD', 'Champaign County, IL'] },
+        route: { count: 3, min_mb: 81, max_mb: 240, counties: ['Lyon County, MN', 'Rock County, MN', 'Story County, IA'] } };
+    }
+    export function describePrevious(text, profile) {
+      return /gp-generated/.test(text) ? { size: 'small', built: '2026-11-16', sameAnswers: !!profile.home, documents: 0 } : null;
+    }
     export async function generateBinder(profile, kit, opts) {
       window.__genArgs = { members: profile.members.length, kitPages: kit && kit.pages.length, relay: opts.relay, size: opts.size,
         hasProgress: typeof opts.onProgress === 'function', hasSignal: opts.signal instanceof AbortSignal };
+      if (opts.routeMaps) window.__genArgs.routeMaps = true;
+      if (opts.previous) window.__genArgs.previous = opts.previous.name;
       opts.onProgress({ done: 1, total: 2, stage: 'Halfway' });
       await new Promise(r => setTimeout(r, 200));
       opts.onProgress(1);
@@ -577,6 +598,40 @@ async function scenarioB(browser, base) {
     await shot(page, '09-generate-real-adapter');
   });
 
+  await step('sizes: kit.sizes plus this household\'s map plan; route maps opt-in adds its maps', async () => {
+    await page.waitForFunction(() => /Minnehaha County, SD/.test(document.querySelector('#maps-line').textContent));
+    let txt = await page.textContent('.sizes');
+    assert.match(txt, /Small\s*about 41 MB/);
+    assert.match(txt, /Large\s*about 154 to 300 MB/);          // 100-140 MB of documents + 2 maps (54-160)
+    assert.match(txt, /Everything\s*about 0\.5 to 0\.9 GB/);   // 450-740 + 54-160
+    assert.match(txt, /Everything is about 0\.5 to 0\.9 GB: put it on a laptop\./);
+    assert.match(txt, /include 2 topographic maps: Minnehaha County, SD; Champaign County, IL/);
+    assert.match(txt, /3 more maps, about 81 to 240 MB more: Lyon County, MN/);
+    assert.ok(await page.isDisabled('#route-maps'), 'route maps off for Small');
+    await page.check('#size-large');
+    await page.check('#route-maps');
+    txt = await page.textContent('.sizes');
+    assert.match(txt, /Large\s*about 235 to 540 MB/);
+    assert.ok(await page.isChecked('#size-large') && await page.isChecked('#route-maps'));
+    await layoutChecks(page, 'final (sizes, maps, upgrade)');
+    await shot(page, '09-sizes-maps');
+  });
+
+  await step('upgrade: an earlier binder file is recognised and passed to generateBinder', async () => {
+    await page.setInputFiles('#previous-file', { name: 'goettschepreppy-binder-small.html', mimeType: 'text/html', buffer: Buffer.from('<html><script type="application/json" id="gp-generated">{}</script></html>') });
+    await page.waitForFunction(() => /Earlier binder: Small, made 2026-11-16/.test(document.querySelector('#previous-status').textContent));
+    assert.match(await page.textContent('#previous-status'), /no new AI cost/);
+    await page.check('#size-everything');
+    await page.click('#generate-btn');
+    await page.waitForSelector('#download-link', { timeout: 10000 });
+    const args = await page.evaluate(() => window.__genArgs);
+    assert.deepEqual(args, { members: 3, kitPages: 1, relay: '', size: 'everything', hasProgress: true, hasSignal: true, routeMaps: true, previous: 'goettschepreppy-binder-small.html' });
+    assert.match(await page.textContent('#gen-panel .done'), /Everything, .*MB.*laptop/s);
+    await page.setInputFiles('#previous-file', { name: 'junk.html', mimeType: 'text/html', buffer: Buffer.from('<html>junk</html>') });
+    await page.waitForFunction(() => /not a GoettschePreppy binder/.test(document.querySelector('#previous-status').textContent));
+    await shot(page, '09-upgrade');
+  });
+
   assert.deepEqual(pageErrors, [], 'page errors: ' + pageErrors.join('; '));
   await context.close();
 }
@@ -626,6 +681,38 @@ async function scenarioC(browser, base) {
     assert.ok(html.length > 100000, 'binder is substantial: ' + html.length);
     assert.match(html, /Your answers are never stored/);
     assert.deepEqual(outside, [], 'no request left this machine');
+  });
+
+  await step('real kit: three sizes from kit.sizes and the real map plan', async () => {
+    const kit = JSON.parse(fs.readFileSync(kitFile, 'utf8'));
+    const txt = await page.textContent('.sizes');
+    assert.match(txt, new RegExp(`Small\\s*about ${kit.sizes.small.min_mb} to ${kit.sizes.small.max_mb} MB`));
+    assert.match(txt, /Large\s*about \d+ to \d+ MB/);
+    assert.match(txt, /Everything is about [\d.]+( to [\d.]+)? GB: put it on a laptop\./);
+    assert.match(await page.textContent('#maps-line'), /topographic map|no map location/);
+  });
+
+  await step('real generator: upgrade the Small file to Everything (dry run, no request leaves)', async () => {
+    await page.setInputFiles('#previous-file', path.join(OUT, 'binder-dryrun-small.html'));
+    await page.waitForFunction(() => /Earlier binder: Small/.test(document.querySelector('#previous-status').textContent), null, { timeout: 30000 });
+    assert.match(await page.textContent('#previous-status'), /Same answers as now/);
+    assert.ok(await page.isChecked('#size-large'), 'choosing a Small file moves the choice up to Large');
+    await page.check('#size-everything');
+    await page.click('#generate-btn');
+    await page.waitForSelector('#download-link', { timeout: 300000 });
+    const [dl] = await Promise.all([page.waitForEvent('download'), page.click('#download-link')]);
+    assert.equal(dl.suggestedFilename(), 'goettschepreppy-binder-everything.html');
+    const file = path.join(OUT, 'binder-dryrun-everything.html');
+    await dl.saveAs(file);
+    const html = fs.readFileSync(file, 'utf8');
+    assert.match(html, /This is the Everything binder/);
+    assert.match(html, /<section class="srcdoc"/);
+    const ai = h => (/<script type="application\/json" id="gp-generated">([\s\S]*?)<\/script>/.exec(h) || [])[1];
+    const small = fs.readFileSync(path.join(OUT, 'binder-dryrun-small.html'), 'utf8');
+    const sorted = h => JSON.stringify(Object.entries(JSON.parse(ai(h).replace(/\\u003c/g, '<')).ai).sort());
+    assert.equal(sorted(html), sorted(small), 'the written passages are the ones from the Small file');
+    assert.deepEqual(outside, [], 'no request left this machine');
+    await shot(page, '09-upgrade-real-dryrun');
   });
 
   assert.deepEqual(pageErrors, [], 'page errors: ' + pageErrors.join('; '));

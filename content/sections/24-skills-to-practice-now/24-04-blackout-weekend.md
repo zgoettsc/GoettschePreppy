@@ -27,7 +27,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "FoodSafety.gov 4 h / 48 h / 24 h and CDC 20 ft verified; 'three times as long' removed." }
 ---
 
 # Running a blackout weekend

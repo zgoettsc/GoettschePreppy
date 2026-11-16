@@ -26,7 +26,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Generator 20 ft (CDC) verified; practice intervals labelled as suggestions; child list punctuation fixed." }
 ---
 
 # Skills checklist and practice schedule

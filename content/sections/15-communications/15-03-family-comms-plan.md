@@ -2,7 +2,7 @@
 id: 15-03-family-comms-plan
 section: 15-communications
 title: "Family communications plan: contacts, rally points, relay and cards"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: household
 danger_level: caution
@@ -21,7 +21,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "911 rule sourced to 47 CFR 9.10 (no-SIM claim dropped); FEMA out-of-town contact and text-first sourced." }
 ---
 
 # Family communications plan: contacts, rally points, relay and cards

@@ -27,7 +27,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "NFIP 30-day wait and exceptions verified (FEMA FloodSmart, read live); basement-contents wording corrected; NRI rating caveat added." }
 ---
 
 # Insurance and claims

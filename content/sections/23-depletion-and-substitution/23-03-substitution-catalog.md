@@ -27,7 +27,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "EPA 1:100 pool-shock stock verified; vehicle 10 min/hour re-cited to NWS (read live); floors worded as 30-01." }
 ---
 
 # Substitution catalog: what replaces what

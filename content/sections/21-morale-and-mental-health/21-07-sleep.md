@@ -30,7 +30,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CDC 7+ hours, AAP firm flat surface and hypothermia lines verified; unsourced 9-10 h and 1-hour burn removed; diphenhydramine line re-sourced (FDA DSC, Drug Facts label, FDA under-2 page)." }
 ---
 
 # Sleep in a hard time

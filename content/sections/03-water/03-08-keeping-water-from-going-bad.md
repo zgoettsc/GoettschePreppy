@@ -37,9 +37,10 @@ ponds, but stored drinking water is covered too.
 >   disease**, which can kill infants and young children, and **breeds mosquitoes** that
 >   spread **West Nile virus** and other illnesses. **Never drink scummy, green or smelly
 >   water untreated.** For drinking, distil it (→ 03-03).
-> - **Floor:** bleach or pool shock is never mixed with ammonia, acids or other cleaners. The
+> - **Floor:** Bleach or pool shock is never mixed with ammonia, acids or other cleaners. The
 >   mix gives off chlorine gas. (→ 30-01)
-> - **Floor:** children do not have access to chlorine products. (→ 30-01)
+> - **Floor:** Children do not have access to firearms, fuel, medications or chlorine
+>   products. (→ 30-01)
 {{#if has.young_child}}> - **A pool is a drowning hazard for your young children.** Every rule below keeps the
 >   cover closed except for the minutes you are drawing water with an adult present.
 {{/if}}
@@ -52,8 +53,11 @@ ponds, but stored drinking water is covered too.
    clear without power, so don't try. Keep it usable for flushing, washing and firefighting,
    kill the mosquito larvae, and **distil the small amount you drink** (→ 03-03). Drinking
    fresh pool water any other way is a household decision: {{choice DC-13}} (→ 30-14).
-3. **Kill mosquito larvae** in standing water with **Bti "mosquito dunks" or "bits"**. Bti is
-   safe for people and pets and kills only larvae. Re-apply about **monthly** (per the label).
+3. **Kill mosquito larvae** in standing water you will **not** drink, with **Bti "mosquito
+   dunks" or "bits"**. EPA has judged that Bti does not pose a risk to people. CDC says to use
+   larvicides only in water that will not be used for drinking and that cannot be covered,
+   emptied or removed, and to follow the label for how much and how often. Water you may
+   drink, even after distilling, is covered and screened instead.
 4. **Empty every other container of standing water** in the yard each week: buckets, tires,
    toys, gutters, plant saucers.
 5. **Replace stored drinking water about every 6 months** (CDC). Keep it cool, dark and
@@ -64,14 +68,15 @@ ponds, but stored drinking water is covered too.
 **If the cover cannot be worked without power, the pool is not a water source.** Find the
 manual override in the cover's manual now, while the power is on, and practice it.
 
-- **Many covers open with a hand tool (often a ratchet on the drive shaft) but close only by
-  pulling, which can take two strong people.** The rule most cover makers print: **confirm you
-  can close it before you ever open it.** With children in the house, an open pool you cannot
-  close is a worse problem than a water shortage.
-- **Never fully open it.** Open **3 to 4 feet at the shallow end**, draw water, close it. A
-  bucket-sized gap is enough and the barrier stays in place. **Never cut the cover.**
-- **Many safety covers need the normal water level** to work and to carry weight. Drawing the
-  pool down weakens the barrier: draw sparingly and watch the level, winter included (→ 03-06).
+- **Some covers open with a hand tool but close only by pulling, which can take two strong
+  people.** Your manual says which kind you have. **Confirm you can close it before you ever
+  open it.** With children in the house, an open pool you cannot close is a worse problem than
+  a water shortage.
+- **Never fully open it.** Open only a bucket-sized gap at the shallow end, draw water, close
+  it. The barrier stays in place. **Never cut the cover.**
+- **Check the manual for the water level the cover needs.** Some covers are designed around the
+  normal water level; drawing the pool down can weaken the barrier. Draw sparingly and watch
+  the level, winter included (→ 03-06).
 - **Keep the override tool with the pool equipment**, and write here what it is and where it
   lives: __________
 
@@ -80,8 +85,8 @@ manual override in the cover's manual now, while the power is on, and practice i
 ## Why pool water turns bad
 
 A pool stays clear because a **pump** moves the water, a **filter** strains it, and
-**chlorine** kills germs and algae. Cut the power and all three stop. Within days to weeks the
-chlorine is used up, sunlight feeds **algae** (green, then black), leaves and debris rot,
+**chlorine** kills germs and algae. Cut the power and all three stop. Soon the chlorine is used
+up, sunlight feeds **algae** (green, then black), leaves and debris rot,
 **slime and bacteria** grow, and the still surface becomes a **mosquito nursery**. It goes
 from a pool to a pond.
 
@@ -100,18 +105,21 @@ your guide.
 
 **Chlorine products, best to worst for long storage:**
 
-- **Calcium hypochlorite** ("cal-hypo", pool shock, 65 to 73 percent): the most chlorine per
-  pound, and it keeps for years **dry, sealed, cool, and away from anything flammable and from
-  other pool chemicals.** Store it as described on → 03-04.
+- **Calcium hypochlorite** ("cal-hypo", pool shock): a lot of chlorine per pound, and it keeps
+  far better than liquid bleach **dry, sealed, below 120 °F, and away from anything flammable
+  and from other pool chemicals** (CDC/ATSDR). Store it as described on → 03-04.
 - **Sodium hypochlorite** (liquid pool chlorine, or plain unscented bleach at 5 to 9 percent):
-  easy to measure, but **weakens within months** and is mostly water, so heavy to store.
+  easy to measure, but **loses strength in storage** (EPA: use bleach less than a year old) and
+  is mostly water, so heavy to store.
 - **Dichlor granules:** contain stabilizer (cyanuric acid), dissolve cleanly, store well.
 - **Trichlor tablets:** release slowly, store very well, acidic, need a floating feeder.
   **Never store trichlor with calcium hypochlorite, or use a scoop that touched one for the
-  other.** The two react to make chlorine gas or fire. Keep them on different walls.
+  other.** ATSDR says to keep calcium hypochlorite separated from other chlorinating agents;
+  the two can react to make chlorine gas or fire. Keep them on different walls.
 
-**How much:** do not dose from memory. **Measure with strips or a kit, add small amounts to
-reach about 1 to 4 ppm free chlorine**, then test again. For a stronger "shock" dose, follow
+**How much:** do not dose from memory. **Measure with strips or a kit, and add small amounts
+to stay in the range CDC gives for pools: 1 to 4 ppm chlorine, pH 7.0 to 7.8** (CDC,
+Guidelines for Keeping Your Pool Safe and Healthy), then test again. For a stronger "shock" dose, follow
 the product label for your pool's gallons and confirm with the test kit, because strengths
 vary.
 
@@ -122,24 +130,28 @@ it is worth it.
 ### 3. Kill the mosquitoes (always, in warm months)
 
 - **Bti** (*Bacillus thuringiensis israelensis*) dunks or bits are a natural bacterium that
-  kills mosquito larvae (and blackfly and fungus-gnat larvae) when they eat it. The EPA has
-  registered it and **judged that it does not pose a risk to people**, and larvae rarely
-  become resistant (US EPA, Bti for Mosquito Control). Drop dunks in the pool and any standing
-  water; **re-apply roughly monthly** per the label.
+  kills mosquito larvae when they eat it. The EPA has registered it and **judged that it does
+  not pose a risk to people**, and no resistance to it has been documented (US EPA, Bti for
+  Mosquito Control). CDC lists buckets, rain barrels, gutters, tires, pool covers that collect
+  water and non-chlorinated pools as places to treat, but **only water that will not be used
+  for drinking** (CDC, Larvicides). Re-apply as the label says.
 - **Methoprene** (a growth regulator that stops larvae becoming adults) and **surface oils or
   films** (which smother larvae at the surface) are the other two larvicide types if Bti is not
   available (CDC, Larvicides for Mosquito Control).
-- **Chlorine in the water and a tight cover** also stop larvae.
+- **A tight cover** stops egg-laying, and it is the method for any water you may drink.
 - **Around the yard:** get rid of all other standing water weekly, screen rain barrels
-  (→ 03-05), keep gutters clear. Mosquitoes breed in a bottle cap of water.
+  (→ 03-05), keep gutters clear. Even small containers breed mosquitoes.
 
 ## Making bad water usable
 
 - **For drinking:** strain out the chunks (cloth or coffee filter), then **distil** (→ 03-03).
   Distilling deals with algae, bacteria and chemicals in one step.
 - **To clear cloudy water** before disinfecting (if you are not distilling): let it **settle**,
-  or stir in a pinch of **alum** (a powder sold for pickling and pools that makes particles
-  clump and sink), then pour off the clear water, filter it, and **then** disinfect (→ 03-04).
+  or use **alum** (a powder sold for pickling that makes particles clump and sink). CDC's
+  method: stir about 1/4 teaspoon of alum powder into 1 quart of cloudy water, stir often for a
+  few minutes, add more until clumps form, let them settle, then pour through a coffee filter or
+  clean cloth. Alum removes most but not all germs, so **then** disinfect (→ 03-04) (CDC Yellow
+  Book, Water Disinfection for Travelers).
   Disinfecting alone does not clear algae or particles, and dirty water uses up chlorine, so
   clear it first.
 - **For utility use** (flushing, firefighting, laundry): use it as it is.
@@ -156,9 +168,9 @@ it is worth it.
 | Item | Why | Notes |
 |---|---|---|
 | Solid pool cover, or a heavy tarp with tie-downs | Blocks sun, debris and mosquitoes | The most useful single item here |
-| Bti mosquito dunks and bits, a season's worth or more | Kills larvae; safe for people | Re-apply about monthly |
+| Bti mosquito dunks and bits, a season's worth or more | Kills larvae; EPA finds no risk to people | Non-drinking water only (CDC); re-apply per the label |
 | Calcium hypochlorite (pool shock) | Compact, long-keeping chlorine | Store as on → 03-04 |
-| Pool test kit or free-chlorine and pH strips | Dose by measuring, not guessing | Aim for 1 to 4 ppm free chlorine |
+| Pool test kit or chlorine and pH strips | Dose by measuring, not guessing | CDC's pool range: 1 to 4 ppm chlorine, pH 7.0 to 7.8 |
 | Unscented household bleach, 5 to 9 percent | Disinfecting stored or cleared water | **Dose only from the table on → 03-04** |
 | Alum | Clears cloudy water before disinfecting | Small amount; settle, then pour off |
 | Fine mesh, cloth or coffee filters | Strain debris and algae | Before distilling or clearing |
@@ -174,9 +186,9 @@ it is worth it.
 
 ## When it runs out
 
-- **Runway:** each Bti dunk lasts about 30 days; count months of mosquito season times the
-  number of pools and containers. Calcium hypochlorite stores for years kept dry; liquid
-  bleach weakens within months. **A cover does not run out**, which is why it is the backbone
+- **Runway:** the label says how long each Bti dunk lasts; count months of mosquito season
+  times the number of pools and containers. Calcium hypochlorite keeps well dry and cool; liquid
+  bleach should be used within a year (EPA). **A cover does not run out**, which is why it is the backbone
   of the plan.
 - **Ration:** stop chlorinating for clarity. Spend chemical only on hygiene and on batches you
   will disinfect. Rely on cover, Bti and distilling.
@@ -188,8 +200,9 @@ it is worth it.
 
 ## Phase notes
 
-- **A (sheltering at home):** a covered, Bti-treated pool is a large reserve for sanitation
-  and utility water; distil drinking water from it (→ 03-03).
+- **A (sheltering at home):** a covered pool is a large reserve for sanitation and utility
+  water. If you will distil drinking water from it (→ 03-03), keep larvicides out of it (CDC)
+  and rely on the cover.
 - **B (moving):** you leave the pool behind. What travels is the skill: larvae control and
   clearing water at any source you camp near.
 - **C (rural or at a destination):** ponds, stock tanks and rain barrels all breed mosquitoes

@@ -21,7 +21,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "No sourced numbers needed; safety framing (headspace, unload first) checked." }
 ---
 
 # Spare parts and the armorer's kit

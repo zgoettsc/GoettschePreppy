@@ -2,7 +2,7 @@
 id: 06-04-wood-supply-and-depletion
 section: 06-fire-and-fuel
 title: "When the wood runs out (burn rate and sourcing)"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -13,6 +13,7 @@ sources:
   - university-of-missouri-extension-wood-fuel-for-heati-b63761
   - us-epa-burn-wise-heating-with-wood-safe-operation-se-ba0e76
   - cdc-carbon-monoxide-poisoning-basics-772153
+  - epa-burn-wise-best-wood-burning-practices-0c1680
 related:
   - 06-02-sustaining-fire
   - 06-03-firewood-basics
@@ -39,7 +40,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Seasoning re-sourced (EPA under 20 percent, at least six months; MU dense hardwoods a year); pine reclassed per species.json (white pine low); unsourced 'twice the heat' and rocket-stove percentages removed; face cord per MU." }
 ---
 
 # When the wood runs out (burn rate and sourcing)
@@ -51,7 +52,8 @@ burn when you get desperate.
 
 > **SAFETY.** Two ways this kills.
 > 1. **Desperation fuel.** Burning treated lumber, plywood, painted, stained or
->    pressure-treated wood, or trash releases poisons (EPA, Burn Wise). Never burn them,
+>    pressure-treated wood, or trash releases poisons (EPA, Best Wood-Burning Practices; MU
+>    Extension, Wood Fuel for Heating). Never burn them,
 >    especially where anyone breathes the smoke.
 > 2. **Carbon monoxide (CO).** Every fire makes CO, a gas you cannot see or smell (CDC; → 29-03).
 >    **Never run a generator, charcoal, or any engine indoors, in a garage, or near an open
@@ -76,8 +78,9 @@ burn when you get desperate.
 
 ## How long will it last? Do the arithmetic
 
-1. **Count cords on hand.** A cord is 128 cubic feet (4 × 4 × 8 ft). A face cord is about a
-   third of a cord. Be honest.
+1. **Count cords on hand.** A cord is 128 cubic feet (4 × 4 × 8 ft). A face cord or "rick" is
+   the same height and length but only one row deep, usually 16 to 24 inches, so it is a third to
+   a half of a cord (MU Extension, G5450). Be honest.
 2. **Estimate daily use** for how you actually burn: cooking only, or cooking and heating. Weigh
    or count what you burn in a normal day for a few days, and use the average.
 3. **Divide** cords on hand by cords per day. That is your **runway**, in days.
@@ -96,17 +99,18 @@ the high end.{{/if}} If your arithmetic says "weeks", believe it and start findi
 
 **Moisture.** Wet ("green") wood wastes much of its energy boiling off its own water, makes
 little heat, and coats the chimney with **creosote**, a tar that can catch fire (→ 06-09).
-Firewood should be **seasoned to below about 20 percent moisture**, which takes about **6 to 12
-months** split, stacked and covered (MU Extension, Wood Fuel for Heating, G5450). Green wood in a
+Firewood should be **seasoned to below 20 percent moisture** (EPA, Best Wood-Burning Practices).
+That takes **at least six months** split, stacked and covered on top (EPA), and **most dense
+hardwoods need at least a year** (MU Extension, Wood Fuel for Heating, G5450). Green wood in a
 crisis barely works. A cheap moisture meter tells you what will actually burn.
 
-**Species.** Dense hardwoods such as oak and hickory hold far more heat per piece than light
-woods such as cottonwood, willow, boxelder or pine (→ 06-03). The same volume of oak can hold
-roughly **twice** the heat of cottonwood. A "cord" is not a fixed amount of survival: if your
-wood is light, plan on about double the volume for the same heat.
+**Species.** Dense hardwoods such as oak and hickory hold far more heat per cord than light
+woods such as cottonwood, willow, boxelder or white pine: MU Extension rates the first "high"
+and the second "low" (MU Extension, G5450; → 06-03). A "cord" is not a fixed amount of survival:
+if your wood is light, plan on considerably more volume for the same heat.
 
-**Drying time.** Dense woods dry slowly: oak and hickory often need a year or more. Light woods
-often dry in one summer. Wood cut this year from the best trees may not burn well until next
+**Drying time.** Dense woods dry slowly: oak and hickory often need a year or more (MU
+Extension). Light woods often dry in one summer. Wood cut this year from the best trees may not burn well until next
 winter. Cut standing dead wood first for wood you can burn now.
 
 ## Somewhere else may be a different wood world
@@ -118,8 +122,8 @@ not on a generic "cord".
 {{#each destinations as d}}- **{{d.name}}, {{d.county}}, {{d.state_name}} ({{d.region.ecoregion}}):** see the region page for that state (→ 32-00). If it is open prairie or desert, expect little wood and plan cooking on other fuels (→ 06-05) and heat by other means (→ 08-04).
 {{/each}}
 
-Two traps: **in places with little wood**, a cord of light wood is about half a cord of oak in
-heat, so cord arithmetic silently halves. **In places with the best wood**, none of it burns well
+Two traps: **in places with little wood**, a cord of light wood gives much less heat than a cord
+of oak, so cord arithmetic silently shrinks. **In places with the best wood**, none of it burns well
 for about a year after you cut it, so start cutting and stacking on the first visit.
 
 ## Gear
@@ -128,7 +132,7 @@ for about a year after you cut it, so start cutting and stacking on the first vi
 
 | Item | Why | Notes |
 |---|---|---|
-| Rocket stove or efficient wood cookstove | Cooks on roughly **half** the wood of an open fire: 40 to 60 percent less in field and lab tests, about two-thirds less with a lid, windscreen and haybox | The biggest single wood saver (→ 07-02) |
+| Rocket stove or efficient wood cookstove | Cooks on much less wood than an open fire, and less again with a lid, windscreen and haybox | The biggest single wood saver (→ 07-02) |
 | Axe, maul, splitting wedges | Turn rounds into splits that burn | Keep sharp (→ 16-02) |
 | Bow saw, spare blades, hand saw | Cut with no power or fuel | Quiet and reliable |
 | Chainsaw with fuel, bar oil, files (optional) | Fast while fuel lasts | Runs out; back up with hand tools |

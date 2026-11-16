@@ -2,7 +2,7 @@
 id: 06-09-chimney-and-creosote
 section: 06-fire-and-fuel
 title: "Chimneys and creosote (inspection, sweeping, chimney fire)"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -15,6 +15,8 @@ sources:
   - us-epa-burn-wise-heating-with-wood-safe-operation-se-ba0e76
   - u-s-fire-administration-fema-fireplace-and-wood-stov-851c8d
   - cdc-carbon-monoxide-poisoning-basics-772153
+  - csia-homeowner-resources-faqs-r3
+  - epa-burn-wise-best-wood-burning-practices-0c1680
 related:
   - 06-02-sustaining-fire
   - 06-03-firewood-basics
@@ -36,7 +38,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "NFPA 211 annual inspection and CSIA 1/8 inch verified via CSIA FAQs (NFPA 211 archive unreadable); stages reworded to CSIA's forms; EPA 20 percent via Best Wood-Burning Practices; removed unsourced monthly and hourly intervals; 2,000 F per CSIA." }
 ---
 
 # Chimneys and creosote (inspection, sweeping, chimney fire)
@@ -54,13 +56,15 @@ itself is → 08-08; carbon monoxide alarms are → 08-02.
 > - **A CO alarm sounds, or people get headache, dizziness or nausea near the fire:** everyone
 >   out to fresh air, then → 08-02. A blocked flue sends smoke and carbon monoxide (CO) back into
 >   the room, and CO has no smell (CDC; → 29-03).
-> - Creosote is the main cause of chimney fires (CSIA, Preventing Chimney Fires).
+> - Creosote is what burns in a chimney fire. "Clean chimneys don't catch fire" (CSIA,
+>   Preventing Chimney Fires).
 
 ## Do this now
 
-1. **Book a professional sweep and inspection while you can.** CSIA and NFPA 211 both call for
-   inspection **at least once a year** (NFPA 211; CSIA). A professional now gives you a known
-   clean starting point.
+1. **Book a professional sweep and inspection while you can.** NFPA 211, the national chimney
+   standard, says chimneys, fireplaces and vents are inspected **at least once a year**, and CSIA
+   and the US Fire Administration say the same (CSIA, Homeowner FAQs; USFA, Fireplace and Wood
+   Stove Safety). A professional now gives you a known clean starting point.
 2. **Buy a rod-and-brush kit sized to your flue**, and keep it where the fireplace or stove is.
    If a destination has the wood heat, the kit belongs there.
 3. **Keep chimney-fire suppressant flares** (sticks you light and drop in the firebox) beside
@@ -85,37 +89,44 @@ household has a wood stove.{{/if}}
 ## How creosote forms
 
 Wood smoke is unburned fuel: water vapour, a fog of tar, other gases and particles. When the smoke
-meets a **cool flue wall, it condenses** and sticks (CSIA). Anything that cools the smoke or makes
-it heavier makes creosote faster:
+meets a **cool flue wall, it condenses** and sticks (CSIA). CSIA names three things that speed it
+up: restricted air, unseasoned wood, and a cooler-than-normal chimney:
 
-- **Smouldering, air-starved fires**, such as the overnight "turn it way down" habit.
+- **Smouldering, air-starved fires**, such as the overnight "turn it way down" habit, or a stove
+  packed full for a long burn (CSIA).
 - **Unseasoned wood**: energy goes into boiling water, the fire burns cool, and the smoke is wet
-  and heavy (→ 06-03).
-- **An oversized flue, or one on a cold outside wall**, and burning resinous softwood or trash low
-  and slow.
+  and heavy (CSIA; → 06-03).
+- **A cold flue**: an oversized flue, or one on a cold outside wall, and burning resinous softwood
+  or trash low and slow.
 
-## The three stages
+## The three forms
+
+CSIA describes creosote as crusty and flaky, tar-like and sticky, or shiny and hardened, often all
+three in one chimney, and **all of it highly combustible** (CSIA, Preventing Chimney Fires). Sweeps
+call these stages 1 to 3:
 
 | Stage | Looks like | Removal |
 |---|---|---|
 | **1** | Light, flaky, sooty dust | An ordinary brush takes it off. This is what routine sweeping keeps to |
-| **2** | Hard, tar-like, shiny flakes with small holes | A brush struggles; it takes rotary tools or repeated work |
-| **3: glaze** | Dense, hard, wet-looking black glaze, like poured tar that set | A brush will **not** remove it. It lights more easily and burns hottest. A professional's job; with no professional, a flue you may have to stop using for good |
+| **2** | Crusty, tar-like flakes | A brush struggles; crusty deposits that fracture when hit may need rotary cleaning (CSIA) |
+| **3: glaze** | Hard, shiny or tacky black glaze, like poured tar that set | Normal brushing will **not** remove it; a professional uses chemical treatment first (CSIA, Homeowner FAQs). With no professional, a flue you may have to stop using for good |
 
 **Never reach stage 3.** Prevention (hot fires, dry wood) is cheap; removing glaze without a
-professional is close to impossible (CSIA; NFPA 211).
+professional is close to impossible (CSIA).
 
 {{figure fig-creosote-stages}}
 
 ## Inspecting: flashlight and mirror
 
-Do this **before the first fire of the season**, and **monthly** when you burn every day.
+Do this **before the first fire of the season**, and again on a fixed day every few weeks while
+you burn every day. The scrape test below tells you whether that is often enough.
 
 1. **Cold flue, damper open.** From the firebox, or the cleanout door at the bottom, hold a
    **mirror** angled to see up the flue and shine a **strong flashlight** on it.
 2. **What you want to see:** the flue lining with no more than a dusty grey-black film.
-3. **Scrape test:** drag a screwdriver along the flue wall. **About 1/8 inch of buildup means
-   sweep before the next fire** (CSIA), sooner if there is any glaze. **Shiny, tarry glaze**
+3. **Scrape test:** drag a screwdriver along the flue wall. **About 1/8 inch of sooty buildup
+   means sweep before the next fire**, sooner if there is any glaze (CSIA, Homeowner FAQs).
+   **Shiny, tarry glaze**
    (stage 3): stop using the flue until a professional deals with it; with none available, treat
    it as a flue you may have to give up.
 4. **Also look for:** cracked or shifted flue tiles, daylight where there should be none, nests
@@ -141,14 +152,15 @@ Do this **before the first fire of the season**, and **monthly** when you burn e
   **in mid-season, not just once a year**.
 - Wear a dust mask and goggles: creosote dust is nasty to breathe.
 
-## Burning so the flue stays clean (EPA, Burn Wise)
+## Burning so the flue stays clean (EPA, Best Wood-Burning Practices)
 
-- **Hot, lively fires**: flames, not smoulder. If the chimney is rolling thick smoke, the flue is
-  being painted with fuel.
-- **Seasoned wood below 20 percent moisture only.** The moisture meter goes wherever the wood
-  heat is (→ 06-03).
-- **No trash, no painted or treated wood.** Resinous softwood such as pine is fine burned hot and
-  fast, and dangerous burned low and slow.
+- **Hot, lively fires**: flames, not smoulder. EPA: for most appliances a smouldering fire is
+  neither safe nor efficient. If the chimney is rolling thick smoke, the flue is being painted
+  with fuel.
+- **Seasoned wood below 20 percent moisture only** (EPA). The moisture meter goes wherever the
+  wood heat is (→ 06-03).
+- **No trash, no cardboard, no painted, coated or pressure-treated wood** (EPA). Resinous softwood
+  such as pine is fine burned hot and fast, and dangerous burned low and slow.
 - **Small hot fires beat one big damped-down fire.** The overnight smoulder makes more creosote
   than anything else. Banking done right: → 06-02. Stove operation: → 08-08.
 - **Watch the chimney top from outside**: thin, nearly clear smoke means a clean burn; thick dark
@@ -171,12 +183,15 @@ the chimney top, cracking sounds, a hot chimney wall.
    its instructions say. Its smoke starves the fire all the way up the flue.
 4. **Garden hose on the roof and around it**: wet the roof, the eaves, and anywhere embers land.
    **Do not pour water down the flue**: the burst of steam and sudden cooling can crack the flue
-   and let fire into the walls.
+   and let fire into the walls. Thermal shock is how chimney fires crack tiles and open a path to
+   the house framing (CSIA).
 5. **Watch the attic and walls for hours afterward**: a hand on the chimney wall, your nose in the
-   attic. Chimney fires relight, and they slowly char the wood framing around the chimney. Check
-   every hour through the next day.
-6. **The flue is now out of use** until it has been inspected bottom to top. A chimney fire cracks
-   tiles and burns out mortar. No fires until damage and stage-3 glaze are ruled out.
+   attic. Chimney fires relight, and they slowly char the wood framing around the chimney. Keep
+   checking, again and again, through the next day.
+6. **The flue is now out of use** until it has been inspected bottom to top. A chimney fire burns
+   at around 2,000 °F and can melt mortar, crack tiles and collapse liners; a damaged factory-built
+   metal chimney must be replaced (CSIA, Preventing Chimney Fires). No fires until damage and
+   stage-3 glaze are ruled out.
 
 **While anything still works, the answer is 911.** This procedure is for when it does not. An
 extinguisher (→ 29-12) is for a fire that has escaped the firebox into the room, not for the flue.
@@ -190,7 +205,7 @@ extinguisher (→ 29-12) is for a fire that has escaped the firebox into the roo
 | Rod-and-brush kit sized to your flue | The sweep itself | Kept where the fireplace or stove is; measure the flue first |
 | A spare brush head | Brushes wear | Wire for masonry, plastic for liners |
 | Chimney-fire suppressant flares (two or more per fireplace or stove) | The no-fire-department response | Firebox use, per the instructions |
-| Inspection mirror and a strong flashlight | The monthly check | Any mechanic's mirror works |
+| Inspection mirror and a strong flashlight | The regular check | Any mechanic's mirror works |
 | Moisture meter | Prevention | Also on → 06-03's list |
 | Drop cloths, tape, dust mask, goggles | Sweeping from below is filthy | |
 | Metal bucket with a lid | Swept creosote and ashes | Never plastic or cardboard |
@@ -217,6 +232,6 @@ than burning over stage-2 buildup. There is no improvised answer to stage-3 glaz
   Buy the kits now.
 - **B (on the move):** at an arrival point where nobody has burned recently, the first fire gets
   the flashlight-and-mirror check **first**.
-- **C (settled somewhere new):** you are the chimney sweep now. Monthly inspection in season,
+- **C (settled somewhere new):** you are the chimney sweep now. Regular inspection in season,
   sweep when the scrape test says so, and the burning rules above become house rules. Where the
   only wood is light and fast-burning (→ 06-04), the same rules apply even to small fires.

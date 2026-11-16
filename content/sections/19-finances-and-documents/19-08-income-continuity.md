@@ -24,7 +24,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "No figures; worksheets on paper, no policy or account numbers in the app." }
 ---
 
 # Income continuity for the self-employed and small business

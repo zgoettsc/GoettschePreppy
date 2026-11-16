@@ -2,7 +2,7 @@
 id: 14-07-ammunition-storage
 section: 14-security-and-defense
 title: "Ammunition storage and how long it lasts"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -21,7 +21,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "SAAMI 150 F, packaging, solvents, fire behaviour (50 ft fragments) and powder storage traced; 'decades' shelf life softened to SAAMI's no-expiry wording." }
 ---
 
 # Ammunition storage and how long it lasts

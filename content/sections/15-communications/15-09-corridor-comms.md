@@ -2,7 +2,7 @@
 id: 15-09-corridor-comms
 section: 15-communications
 title: "Road communications: staying heard on the way"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: household
 danger_level: caution
@@ -21,7 +21,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Stranded-vehicle CO advice sourced to NWS winter-storm page; 911 wording tightened." }
 ---
 
 # Road communications: staying heard on the way

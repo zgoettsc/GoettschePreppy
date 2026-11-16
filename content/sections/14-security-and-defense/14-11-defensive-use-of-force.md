@@ -2,7 +2,7 @@
 id: 14-11-defensive-use-of-force
 section: 14-security-and-defense
 title: "Defensive use of force: writing the household rule"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -21,7 +21,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "18 USC 926A wording checked (glove compartment or console); wall penetration sourced to NSSF; no tactics; DC-12/DC-11 lines correct." }
 ---
 
 # Defensive use of force: writing the household rule
@@ -138,7 +138,9 @@ grabbed from an unattended trailer.
 > otherwise have the firearm only if you may lawfully have it where you start and where you end,
 > and the firearm is unloaded with neither it nor ammunition readily reachable from the passenger
 > compartment; in a vehicle with no separate trunk, it must be in a locked container other than
-> the glove compartment or console (18 U.S.C. § 926A). Suppressors and other NFA items have their own rules (→ 14-10;
+> the glove compartment or console (18 U.S.C. § 926A). That federal condition differs from the
+> cabin rule above: while it applies, a locked trunk, or a locked case out of reach, meets it,
+> and a firearm reachable from the seats does not. Suppressors and other NFA items have their own rules (→ 14-10;
 > ATF, National Firearms Act interstate transportation). Look up each state on your route while
 > the information is published.
 

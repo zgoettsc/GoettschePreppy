@@ -21,7 +21,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "5 W x 24 h = 120 Wh arithmetic checked; DC-12 line correct." }
 ---
 
 # Layered defence: locks, lights, dogs and neighbours

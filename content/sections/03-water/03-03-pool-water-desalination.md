@@ -39,21 +39,23 @@ and how to distil it (boil it and collect the steam) when you must.
 > - **Pool and hot tub water also holds chemicals:** chlorine or bromine, stabilizer
 >   (cyanuric acid), and sometimes algaecide or metals. Distillation removes salts and most of
 >   these.
-> - **Floor:** bleach or pool shock is never mixed with ammonia, acids or other cleaners.
+> - **Floor:** Bleach or pool shock is never mixed with ammonia, acids or other cleaners.
 >   Pool supplies include acids ("pH down", muriatic acid); keep them apart. The mix gives off
 >   chlorine gas. (→ 30-01)
-> - **Floor:** children do not have access to chlorine products or pool chemicals. (→ 30-01)
+> - **Floor:** Children do not have access to firearms, fuel, medications or chlorine
+>   products. Pool chemicals count as chlorine products. (→ 30-01)
 
 ## Do this now
 
-1. **Use stored, tap or bottled water first.** Distilling is slow (about 1 cup an hour with a
-   pot on a stove). It is the fallback, not the main supply.
+1. **Use stored, tap or bottled water first.** Distilling is slow and burns a lot of fuel. It
+   is the fallback, not the main supply.
 2. **Use untreated pool water freely for everything except drinking and cooking:** flushing
    toilets, washing floors, cleaning, fighting fires. This is the pool's real value: once the
    pool covers flushing and washing, every gallon of stored water can go to drinking.
 3. **Never drink saltwater pool water straight, boiled or bleached.** The salt stays in.
-4. **Fresh (chlorine) pool or hot tub water for drinking is a decision.** Your household's
-   choice: {{choice DC-13}} (→ 30-14). Whatever you chose, follow it the same way every time.
+4. **Drinking fresh (chlorine) pool water without distilling it is a decision.** Your
+   household's choice: {{choice DC-13}} (→ 30-14). Whatever you chose, follow it the same way
+   every time. **Hot-tub water is distilled before drinking under every option on the card.**
 5. **To distil:** boil the water and catch the **steam**, which turns back into clean water.
    The salt and most chemicals stay behind in the pot. Method below.
 6. **Cover the pool** to cut evaporation and keep out leaves, animals and children.
@@ -64,26 +66,28 @@ and how to distil it (boil it and collect the steam) when you must.
 |---|---|---|---|
 | **Saltwater pool** (salt chlorinator) | Dissolved salt, chlorine made from the salt, stabilizer, maybe algaecide or metals | Utility water only | **Distil.** No other home method removes salt |
 | **Chlorine pool** (fresh water) | Chlorine, stabilizer, maybe algaecide or metals; bacteria and algae once the pump stops | Utility water | Distil; or the household's choice on → 30-14 |
-| **Hot tub or spa** | Bromine or chlorine, body oils and sweat from bathers, often a warm breeding ground for germs | Utility water | Distil; or the household's choice on → 30-14 |
+| **Hot tub or spa** | Bromine or chlorine, body oils and sweat from bathers, often a warm breeding ground for germs | Utility water | **Distil.** No option on → 30-14 drinks it undistilled |
 
 A home saltwater pool is much less salty than the sea, but **far too salty to drink**. Your
 salt chlorinator's manual gives the salt level it runs at; write it here: ______ ppm ("ppm"
 means parts per million, → 29-05). Less salty does not mean safe to sip.
 
-**The trade-off for fresh pools and hot tubs, in one sentence:** filtering and chlorinating
-a fresh pool uses far less fuel than distilling it, but leaves in the stabilizer, algaecide
-and any metals that distilling would remove, and hot tubs start dirtier than pools. The card
-lays out the risks and options (→ 30-14).
+**The trade-off for fresh pools, in one sentence:** filtering and chlorinating a fresh pool
+uses far less fuel than distilling it, but leaves in the stabilizer, algaecide and any metals
+that distilling would remove. The card lays out the risks and options (→ 30-14). FEMA's
+own list of household water sources says not to drink from swimming pools or spas (FEMA,
+Food and Water in an Emergency).
 
 ## Why distillation works
 
 Distillation boils water into steam and turns only the steam back into liquid. Salt, metals
 and most chemicals do not boil off with the water, so they are **left behind** in the pot.
-The CDC says distillation removes **germs, heavy metals, salts and most other chemicals**; it
-is the only common home method that also removes salt (CDC, How to Make Water Safe in an
-Emergency). Boiling and bleach kill germs but leave salt and chemicals in place.
+FEMA and the Red Cross say distillation removes germs that resist boiling and chlorine, **as
+well as heavy metals, salts and most other chemicals**, and that salt water is used only if it
+is distilled first (FEMA, Food and Water in an Emergency; AWWA, distillation in an emergency).
+Boiling and bleach kill germs but leave salt and chemicals in place (EPA).
 
-### The cup-on-lid still (CDC method)
+### The cup-on-lid still (FEMA and Red Cross method)
 
 {{figure fig-cup-on-lid-still}}
 
@@ -94,13 +98,16 @@ Emergency). Boiling and bleach kill germs but leave salt and chemicals in place.
    cup hangs **right side up** inside the pot. The cup must **not** touch the water.
 4. Put the lid on upside down. Steam hits the lid, runs to the low middle point and drips into
    the cup.
-5. **Boil for 20 minutes.** The water in the cup is distilled. Let it cool before drinking.
+5. **Boil for 20 minutes.** The water that drips from the lid into the cup is distilled
+   (FEMA). Let it cool before drinking.
 
-**Yield:** roughly **1 cup an hour**. The CDC's drinking-water share alone is half a gallon
-per person per day: for your {{ household.size }} people, about half of your
-{{ derived.water.floor_gal_day }}-gallon daily floor (→ 03-01). At a cup an hour, that is
-eight hours of boiling per gallon. The cup-on-lid still is a demonstration and a stopgap, not
-a supply. That is why the tube still below, fuel, and rain and snow (→ 03-05) matter.
+**Yield:** measure it. Pour the cup into a measuring cup after a timed run and write the
+result here: ______ cups an hour. FEMA says a normally active person needs at least two quarts
+(half a gallon) of water to drink each day: for your {{ household.size }} people that is
+{{ household.size }} half-gallons a day before cooking. Divide by your measured rate to see
+how many hours of boiling that takes. For most households the cup-on-lid still is a
+demonstration and a stopgap, not a supply. That is why the tube still below, fuel, and rain
+and snow (→ 03-05) matter.
 
 ### The larger still: pot, lid and tube condenser
 
@@ -138,28 +145,31 @@ the pot.
 - **Do not look for a reverse-osmosis unit** to use on pool water. Home units need water
   pressure, power and replacement membranes. A still is the practical route.
 
-**Planning numbers (estimates; time your own still once):**
+**Planning numbers: measure your own still once.** No published table gives the output of a
+home-built still; it depends on the seal, the fire and how cold the coil is.
 
-- **Yield:** a sealed pot-and-coil still over a steady wood fire makes roughly **1 to 2 quarts
-  an hour**, two to six times the cup-on-lid, depending on the seal and how cold the coil is.
-  Time yours with a watch and write it here: ______ quarts an hour.
-- **Fire time:** at 1 to 2 quarts an hour, each gallon needs 2 to 4 hours of fire. Your
-  drinking share alone is several gallons a day, so **distilling cannot carry a household by
-  itself.** Run the still on fires already burning for heat and cooking (→ 06-04), and use it
-  to cover dry spells. Rain and snow must be the main supply.
-- **Wood:** turning a gallon of water to steam takes about 2.5 kWh of heat. Seasoned wood
-  holds about 2.5 kWh per pound, and an open-fire still captures perhaps 10 to 20 percent of
-  it, so budget roughly **5 to 15 lb of seasoned wood per gallon distilled.** Over a winter
-  that is a large bite out of the woodpile; put it on the consumables table (→ 23-02).
+- **Yield:** time a run with a watch and measure the water in the jar. Write it here:
+  ______ quarts an hour.
+- **Fire time:** 4 quarts make a gallon, so hours of fire per gallon = 4 ÷ your quarts an
+  hour = ______. Your household's drinking share alone is several gallons a day, so
+  **distilling cannot carry a household by itself.** Run the still on fires already burning
+  for heat and cooking (→ 06-04), and use it to cover dry spells. Rain and snow must be the
+  main supply.
+- **Wood:** weigh the wood you burn during that timed run, and divide by the gallons you
+  made: ______ lb of wood per gallon. Turning water into steam takes several times the heat of
+  bringing it to a boil, and an open fire wastes most of its heat, so expect it to be a large
+  number. Put it on the consumables table (→ 23-02).
 - **Check the output:** a cheap TDS meter ("total dissolved solids", a pen that reads how much
   is dissolved in water) should read near zero on distilled water. If it reads salty, the
   seal is leaking boiling splash into the tube. Reseat the seal and fix the slope.
 
-**Do not distil on battery power.** Turning water to steam takes roughly **700 to 1,400
-watt-hours per liter**, against about 110 watt-hours just to boil a liter for purification.
-{{#if has.power_station}}Your power stations hold about {{ gear.station_wh_total }} watt-hours
-in total: divide that by 700 to 1,400 to see how few liters a full charge would make.{{else}}A
-large 2,000 watt-hour power station would make only about 1.5 to 3 liters.{{/if}}
+**Do not distil on battery power.** Turning water to steam takes several times the energy of
+bringing the same water to a boil, and a battery holds very little heat energy by that
+standard. {{#if has.power_station}}Your power stations hold about
+{{ gear.station_wh_total }} watt-hours in total; an electric distiller's label gives its
+watts and its output per hour, so divide to see how few liters a full charge would make.{{else}}An
+electric distiller's label gives its watts and its output per hour: divide a power station's
+watt-hours by that to see how few liters a full charge would make.{{/if}}
 Distillation is a wood-fire job. An electric countertop distiller running on a strong solar
 day nets only a few liters: useful for drinking water, never the household's supply
 (→ 09-02).
@@ -183,8 +193,8 @@ day nets only a few liters: useful for drinking water, never the household's sup
 - Any pot with a bowl set inside and an upside-down domed lid is a still. Weight the center of
   the lid so drips fall into the bowl.
 - Clear tubing and two sealed containers over heat make a rough condenser.
-- Plastic sheeting over a frame floating on the pool surface makes a solar still: roughly a
-  liter per square meter per day for no fuel.
+- Plastic sheeting over a frame floating on the pool surface makes a solar still: slow, but it
+  needs no fuel. Measure its daily output before you count on it.
 
 ## When it runs out
 

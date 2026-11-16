@@ -41,12 +41,13 @@ ice, and keeping both safe.
 1. **Put barrels or any clean containers under downspouts.** A modest rain fills them.
 2. **Always treat before drinking:** filter out the grit, then boil or disinfect (→ 03-04).
    Rain needs **disinfecting only**, not distilling.
-3. **Skip the first flush.** The first minutes of runoff carry the worst of the roof. Send it
-   to the garden and collect what comes after.
+3. **Skip the first flush.** The first rain off the roof in a storm carries the most dirt,
+   germs and chemicals (CDC). Send it away from the barrel and collect what comes after.
 4. **Melt snow with a little water already in the pot.** Never eat snow to stay hydrated: it
    costs body heat you cannot spare (→ 03-06).
-5. **Screen every barrel**, or empty and scrub it at least **once a week**. That is the CDC's
-   rule for stopping mosquitoes breeding in it (→ 03-08).
+5. **Screen where the water comes into every barrel, or empty the barrel at least every 10
+   days.** That is the CDC's rule for stopping mosquitoes breeding in it (CDC, Collecting
+   Rainwater and Your Health; → 03-08).
 
 ## Setting up a barrel
 
@@ -72,14 +73,16 @@ Write where your barrel, pump and treatment supplies are kept: __________ (→ 2
 
 ## How much water a roof gives
 
-**One inch of rain on 1,000 square feet of roof gives about 600 gallons** (0.6 gallon per
-square foot per inch, before losses). Allow for losses (first flush, splash, overflow) of
-roughly a fifth.
+**One inch of rain on 1,000 square feet of roof is about 623 gallons** (arithmetic: one inch
+of water over one square foot is 144 cubic inches, which is 0.623 gallon). Some of it is lost
+to the first flush, splash and overflow; measure what your barrels actually catch in one
+storm and compare.
 
-Measure the footprint of your roof (length x width of the house from outside, not the sloped
-surface) and write it here: ______ sq ft. Then:
+The roof footprint (length x width of the house from outside, not the sloped surface):
+{{ dwelling.roof_area_sqft }} sq ft. Then:
 
-- **Gallons per inch of rain** = roof square feet x 0.6 = ______
+- **Gallons per inch of rain, before losses** = roof square feet x 0.623 =
+  {{ derived.rain_gal_per_inch }}
 - Your area gets about **{{ region.home.precip_in }} inches of rain a year** and
   **{{ region.home.snow_in }} inches of snow**.
 
@@ -92,9 +95,11 @@ most houses, **storage barrels and treatment are the limit, not the rain.**
 
 ## What is actually in it
 
-The CDC says rain picks up contamination from the roof: animal droppings, dust, insects and
-roofing material. Rainwater is not safe to drink untreated, and the risk is highest for young
-children. Treat everything anyone drinks.
+The CDC says rain picks up germs and chemicals from the air, the roof, gutters, pipes and
+storage: bird droppings, dust, smoke, and metals such as lead or copper from roofing
+materials. Dirt and germs wash off the roof most after several dry days. The CDC prefers tap or
+bottled water to rainwater for drinking, cooking and brushing teeth. When rain is what you
+have, treat everything anyone drinks.
 
 **Never mix rainwater into treated water.** The CDC warns that adding rain to treated water
 (bottled or tap) can contaminate it. Keep "TREATED" and "RAW" containers strictly apart, and
@@ -117,8 +122,8 @@ a spigot above the sediment → **filter** → **boil or disinfect** (→ 03-04)
   gives back. Melt it and drink it warm.
 - **Prime the pot.** Put an inch of water in the pot first, then add snow a little at a time.
   Snow packed into a dry hot pot scorches and can ruin the pot.
-- **Volume is disappointing.** Fresh fluffy snow is mostly air: it can take around **10 pots of
-  snow to make 1 pot of water**. Wet, dense snow and ice give far more.
+- **Volume is disappointing.** Fresh fluffy snow is mostly air: a full pot melts down to a
+  small puddle. Wet, dense snow and ice give far more.
 - **Ice beats snow** for yield and fuel. Take icicles or hard-packed snow over powder.
 - **Take clean snow.** Not near roads (salt, exhaust), not near the driveway, not discolored,
   not where pets or wildlife have been. The middle of an untouched yard, or a clean tarp, is

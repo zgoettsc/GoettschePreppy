@@ -27,7 +27,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Sepsis/ADA danger signs checked; hygienist injection claim corrected (state licence); DC-16 reference correct." }
 ---
 
 # Dental skills in a community

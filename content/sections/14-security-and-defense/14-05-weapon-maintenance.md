@@ -21,7 +21,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CDC lead facts and child-access floor verified; no numeric claims beyond schedule conventions." }
 ---
 
 # Firearm maintenance and cleaning without resupply

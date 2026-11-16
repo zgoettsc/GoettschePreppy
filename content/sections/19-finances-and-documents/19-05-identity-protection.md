@@ -29,7 +29,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "FTC line 1-877-438-4338, freeze/fraud-alert facts and FTC recovery-step order verified (FTC recovery plan, read live); FEMA no-fee line re-cited." }
 ---
 
 # Identity protection and fraud after a disaster

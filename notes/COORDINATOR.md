@@ -92,3 +92,6 @@ Collected from worker reports; resolved in the integration pass.
 - [ ] R7: 02-03 (CL-03) attributes "second dose 5-15 min" and anaphylaxis positions to AAAAI with no archived support; second review wave must re-cite to AAP (give a second dose if symptoms worsen, continue, or are not better in 5 minutes) consistently with 25-08 and 22-06.
 - [ ] R7: 01-03 carries an unverified NHTSA trailer tongue-weight figure (removed on 25-xx).
 - [ ] R7: archived Stop the Bleed (ACS), CPSC generator and NWS/Red Cross winter captures are landing pages; re-capture so "2 to 3 inches" and "hundreds of cars" have archive support. Merge source keys nws-winter-storm-during (15-09) with R7's NWS winter page key.
+- [ ] R6: source us-fda-fda-drug-safety-communication-diphenhydramine-bab442 is about overdose only; 12-07 and 12-13 cite it for "never to make a child sleep" and "not under 2". Fix in the 12-xx review wave (FDA label / AAP).
+- [ ] R6: near-empty archive captures (CFPB, USA.gov, IdentityTheft.gov) and moved CDC diabetes page: re-capture.
+- [ ] Tourniquet floor wording: R6's pages follow the old 30-01 wording, R7's follow docs/05; after L6 lands, run one sweep to make every restatement match 30-01 exactly.
