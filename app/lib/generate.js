@@ -361,7 +361,9 @@ export async function generateBinder(profile, kit, opts = {}) {
 
   // 5. review: local checks on every page, model passes on household-dependent pages
   const tokenRes = ownerTokenRegexes(kit.owner_tokens);
-  const profileText = JSON.stringify({ ...profile, access: undefined });
+  // The household's own answers and its own region values (home and destinations, public data
+  // such as an NWS office "Sioux Falls, SD") are not another household's details.
+  const profileText = JSON.stringify({ ...profile, access: undefined }) + JSON.stringify([ctx.region.home, ...ctx.destinations.map(d => d.region)]);
   for (const r of rendered.values()) {
     const { md, findings } = localChecks({ id: r.page.id, layer: r.page.layer, md: r.md }, { tokenRes, profileText, blanks: r.blanks });
     r.md = md; notes.push(...findings);

@@ -265,6 +265,8 @@ export function buildContext(profile, kit = {}, opts = {}) {
     toddler: anyAge(a => a >= 12 && a <= 47),
     young_child: anyAge(a => a < 72),
     child: anyAge(a => a < 156),
+    preschool: anyAge(a => a >= 36 && a < 72),
+    school_age: anyAge(a => a >= 72 && a < 156),
     teen: anyAge(a => a >= 156 && a < 216) || membersRaw.some(m => m.role === 'teen'),
     elder: anyAge(a => a > 840) || membersRaw.some(m => m.role === 'elder'),
     adult_over_40: anyAge(a => a >= 480),

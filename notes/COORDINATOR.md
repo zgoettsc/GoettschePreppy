@@ -60,3 +60,7 @@ Collected from worker reports; resolved in the integration pass.
 - [x] C13: 04-01 nursing calories corrected to 330/400. Flags has.preschool, has.school_age added (A3 to implement).
 - [x] C13: home.address for the 911 card is NOT added: the settings page never asks for a street address (docs/02 "What is never asked"). The card keeps a hand-write blank.
 - [ ] C13: DC-10 humane-end section on 20-09 written from AVMA 2020 (owner should review). CPSC Pub. 362 source returned 403; confirm in source-trace.
+- [x] A3: 148/148 generate checks pass on integrated content; PDFs render to page images in Large (pdf.js vendored, not shipped in binder); maps default home + destinations; plates fallback; Small ~42 MB.
+- [ ] A3: is.humid always false until D1 adds jul_dewpoint_f or humid_climate per county.
+- [ ] A2: add a "maps for counties along the route" opt-in using mapPlan(profile, kit) (counts and size range) on the Generate screen.
+- [ ] A3: owner-token check now also allows tokens present in the household's own home/destination region data (e.g. NWS office "Sioux Falls, SD"). Accept.

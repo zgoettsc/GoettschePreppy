@@ -60,6 +60,8 @@ test('context flags and lists from each test profile', () => {
   for (const f of ['infant', 'young_child', 'child', 'nursing', 'well', 'septic', 'dogs', 'chickens', 'livestock', 'generator', 'house_connection', 'wood_stove', 'outdoor_fire', 'unvented_heater', 'propane_heater', 'firearms', 'diesel_vehicle', '4wd', 'trailer', 'pressure_canner', 'canning', 'propane_service', 'garage', 'basement', 'acreage'])
     assert.equal(sd.has[f], true, f);
   assert.equal(sd.is.rural, true);
+  assert.equal(sd.has.school_age, true);   // Clara, 6
+  assert.equal(sd.has.preschool, false);
   assert.equal(sd.infants.length, 1);
   assert.equal(sd.children.length, 2);
   assert.equal(sd.has.agreed_destination, false);

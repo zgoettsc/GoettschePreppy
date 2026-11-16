@@ -18,6 +18,7 @@ sources:
   - niddk-eating-nutrition-hemodialysis
   - fda-safe-drug-use-after-natural-disaster
   - fda-dont-be-tempted-to-use-expired-medicines
+  - cdc-carbon-monoxide-poisoning-basics-772153
 related:
   - 12-11-chronic-conditions
   - 12-07-meds-stockpile
@@ -247,7 +248,7 @@ printed; use the ones for this condition.
   needs treated water. Ask the supplier now what the machine draws, whether it may run from a
   generator or power station, and how long a session needs (→ 09-06, → 09-10, → 29-02).
 - **Generator:** outdoors only, at least 20 feet from windows and doors, with the exhaust
-  pointed away (floor, → 30-01, → 09-04).
+  pointed away (CDC, Carbon Monoxide Poisoning: Basics; floor, → 30-01, → 09-04).
 - **Manual PD exchanges need no power.** Learn them now if the team will teach you.
 - **Scale and blood pressure cuff** run on small batteries; keep spares. Protect a spare cuff
   from EMP in a metal box (→ 27-03).

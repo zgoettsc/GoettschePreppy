@@ -1,0 +1,13 @@
+[
+  {
+    "key": "ready-gov-home-fires",
+    "title": "Home Fires",
+    "org": "FEMA / Ready.gov",
+    "date": "2024",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work (FEMA); public domain.",
+    "url": "https://www.ready.gov/home-fires",
+    "household_cited_by": [],
+    "cited_by": ["24-02-drills"]
+  }
+]

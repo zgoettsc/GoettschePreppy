@@ -16,6 +16,8 @@ import { spawnSync } from 'node:child_process';
 import { createRequire } from 'node:module';
 import { generateBinder, mapPlan } from '../app/lib/generate.js';
 import { createDryRunRelay } from '../app/lib/relay-dryrun.js';
+import { buildContext } from '../app/lib/context.js';
+const kitFor = new Map(); // profile → kit used (fixture runs use the fixture kit)
 
 const ROOT = path.resolve(path.dirname(url.fileURLToPath(import.meta.url)), '..');
 const OUT = path.join(ROOT, 'build', 'test-generate');
@@ -65,7 +67,9 @@ function staticChecks(name, html, report, profile) {
   // Every other section is still checked.
   const body = html.replace(/<article [^>]*id="(31-|32-|25-06|25-11|25-12)[\s\S]*?<\/article>/g, '').replace(/<aside class="cites">[\s\S]*?<\/aside>/g, '')
     .replace(/<section class="srcdoc"[\s\S]*?<\/section>/g, '').replace(/<script[\s\S]*?<\/script>/g, '');
-  const prof = JSON.stringify(profile).toLowerCase();
+  // the household's own answers and its own home/destination region values are allowed
+  const own = buildContext(profile, kitFor.get(profile) || kit);
+  const prof = (JSON.stringify(profile) + JSON.stringify([own.region.home, ...own.destinations.map(d => d.region)])).toLowerCase();
   const leaked = tokens.words.filter(w => new RegExp(`(^|[^A-Za-z0-9])${w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}([^A-Za-z0-9]|$)`).test(body) && !prof.includes(w.toLowerCase()));
   ok(leaked.length === 0, `${name}: no owner-household token outside Section 31 ${leaked.join(', ')}`);
   ok(/<nav id="tocwrap">/.test(html) && /<details class="sec"/.test(html), `${name}: static contents for readers without JavaScript`);
@@ -131,6 +135,7 @@ for (const [i, f] of profiles.entries()) {
   const relay = createDryRunRelay();
   const plan = mapPlan(profile, fkit);
   ok(plan.base.count === 2 && plan.route.count >= 1 && plan.route.max_mb > 0, `fixture: map plan home+destination ${plan.base.count}, route counties ${plan.route.count} (${plan.route.min_mb}-${plan.route.max_mb} MB, opt-in)`);
+  kitFor.set(profile, fkit);
   const fx = await generateBinder(profile, fkit, { relay, size: 'large', routeMaps: true, loadAsset: async p => { try { return new Uint8Array(fs.readFileSync(path.join(fxOut, p))); } catch { return null; } } });
   const fhtml = await fx.text();
   fs.writeFileSync(path.join(OUT, 'fixture-sd-large.html'), fhtml);
@@ -155,6 +160,7 @@ if (!noBrowser) {
   else {
     const browser = await chromium.launch();
     try {
+      await browserGenerate(browser);
       for (const { name, file, html } of outputs) await browserChecks(browser, name, file, html);
       await noJsChecks(browser, outputs[0]);
     } finally { await browser.close(); }
@@ -238,6 +244,47 @@ async function browserChecks(browser, name, file, html) {
   ok(external.length === 0, `${name}: no network request attempted (${external.slice(0, 2).join(' ')})`);
   ok(errors.length === 0, `${name}: no script errors ${errors.slice(0, 2).join(' | ')}`);
   await context.close();
+}
+
+// Large generated in a real browser (the way the settings page runs it): PDF sources are rendered
+// to page images by the vendored pdf.js, so the binder shows and prints them with no PDF viewer.
+async function browserGenerate(browser) {
+  console.log('\nbrowser: generate Large in the page (pdf.js rendering)');
+  const http = await import('node:http');
+  const TYPES = { '.js': 'text/javascript', '.mjs': 'text/javascript', '.json': 'application/json', '.html': 'text/html', '.jpg': 'image/jpeg', '.pfb': 'application/octet-stream', '.ttf': 'font/ttf' };
+  const server = http.createServer((req, res) => {
+    const u = decodeURIComponent(new URL(req.url, 'http://x').pathname);
+    if (u === '/__blank') { res.writeHead(200, { 'content-type': 'text/html' }); return res.end('<!doctype html><title>t</title>'); }
+    const f = path.join(ROOT, u);
+    if (!f.startsWith(ROOT) || !fs.existsSync(f) || fs.statSync(f).isDirectory()) { res.writeHead(404); return res.end(); }
+    res.writeHead(200, { 'content-type': TYPES[path.extname(f)] || 'application/octet-stream' });
+    fs.createReadStream(f).pipe(res);
+  });
+  await new Promise(r => server.listen(0, '127.0.0.1', r));
+  const base = `http://127.0.0.1:${server.address().port}`;
+  const page = await browser.newPage();
+  const errors = [];
+  page.on('pageerror', e => errors.push(e.message));
+  try {
+    await page.goto(base + '/__blank');
+    const profile = JSON.parse(fs.readFileSync(path.join(ROOT, 'tests/profiles/sd-rural-farm-infant-well.json'), 'utf8'));
+    const kitRel = '/' + path.relative(ROOT, path.join(OUT, 'kit-fixture')).split(path.sep).join('/') + '/';
+    const r = await page.evaluate(async ({ profile, kitRel }) => {
+      const { generateBinder } = await import('/app/lib/generate.js');
+      const { createDryRunRelay } = await import('/app/lib/relay-dryrun.js');
+      const kit = await (await fetch(kitRel + 'kit.json')).json();
+      const cited = [...new Set(kit.pages.flatMap(p => p.sources || []))].filter(k => kit.sources[k] && !kit.sources[k].shipped).slice(0, 2);
+      const relay = createDryRunRelay({ pdfKeys: new Set(cited) });
+      const blob = await generateBinder(profile, kit, { relay, size: 'large', assetBase: kitRel });
+      const html = await blob.text();
+      return { rendered: blob.report.sources.rendered || 0, imgs: (html.match(/<img class="pdfpage"/g) || []).length, buttons: (html.match(/data-open-pdf=/g) || []).length, bytes: blob.size, html };
+    }, { profile, kitRel });
+    ok(r.rendered === 2 && r.imgs === 2 && r.buttons === 0, `browser Large: 2 PDF sources rendered to page images (${r.rendered} rendered, ${r.imgs} images, ${r.buttons} open buttons)`);
+    const file = path.join(OUT, 'browser-generated-large.html');
+    fs.writeFileSync(file, r.html);
+    ok(!EXT_URL.test(r.html), 'browser Large: no external URL');
+    ok(errors.length === 0, `browser Large: no script errors ${errors.slice(0, 2).join(' | ')}`);
+  } finally { await page.close(); server.close(); }
 }
 
 async function noJsChecks(browser, { name, file }) {
