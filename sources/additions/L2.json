@@ -636,5 +636,16 @@
   "url": "https://www.fda.gov/drugs/drug-safety-and-availability/fda-drug-safety-communication-fda-warns-about-serious-heart-problems-high-doses-antidiarrheal",
   "household_cited_by": [],
   "cited_by": []
+ },
+ {
+  "key": "medlineplus-baclofen",
+  "title": "Baclofen",
+  "org": "MedlinePlus (US National Library of Medicine / NIH)",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work.",
+  "url": "https://medlineplus.gov/druginfo/meds/a682530.html",
+  "household_cited_by": [],
+  "cited_by": []
  }
 ]
