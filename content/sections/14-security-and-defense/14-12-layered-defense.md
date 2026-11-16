@@ -2,7 +2,7 @@
 id: 14-12-layered-defense
 section: 14-security-and-defense
 title: "Layered defence: locks, lights, dogs and neighbours"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -10,8 +10,8 @@ phase: [A, B, C]
 tags: [security, layers, detection, deterrence, delay, dogs, neighbours, motion lights, gravel, alarm, camera, power station]
 derived_from: [14-12-layered-defense]
 sources: [american-red-cross-power-outage-safety-6d07a8, cdc-carbon-monoxide-poisoning-basics-772153]
-related: [14-01-situational-awareness, 14-02-home-hardening, 14-03-opsec, 14-11-defensive-use-of-force, 14-13-de-escalation, 18-01-mutual-aid, 08-01-heating-one-room, 08-02-carbon-monoxide-safety, 09-01-power-priorities, 09-03-batteries-and-storage, 09-16-outage-day-one, 10-05-light-discipline, 15-02-radio-options, 15-03-family-comms-plan, 20-04-teaching-kids-the-plan, 20-09-pets, 04-11-pests-and-rodents, 23-02-master-consumables-table, 10-01-lighting-options, 29-02-ex02-batteries-and-power-stations, 30-13-dc12-defensive-use-of-force]
-cards: [DC-12]
+related: [14-01-situational-awareness, 14-02-home-hardening, 14-03-opsec, 14-11-defensive-use-of-force, 14-13-de-escalation, 18-01-mutual-aid, 08-01-heating-one-room, 08-02-carbon-monoxide-safety, 09-01-power-priorities, 09-03-batteries-and-storage, 09-16-outage-day-one, 10-05-light-discipline, 15-02-radio-options, 15-03-family-comms-plan, 20-04-teaching-kids-the-plan, 20-09-pets, 04-11-pests-and-rodents, 23-02-master-consumables-table, 10-01-lighting-options, 29-02-ex02-batteries-and-power-stations, 30-13-dc12-defensive-use-of-force, 30-32-dc31-firearm-readiness]
+cards: [DC-12, DC-31]
 explainers: [EX-02]
 promote_when: []
 photo_slots: []
@@ -21,7 +21,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "5 W x 24 h = 120 Wh arithmetic checked; DC-12 line correct." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "5 W x 24 h = 120 Wh arithmetic checked; DC-12 line correct. L8 (G29): weapons section points to DC-31 (→ 30-32)." }
 ---
 
 # Layered defence: locks, lights, dogs and neighbours
@@ -126,8 +126,9 @@ tools or a truck. Offer help before you need it.
 
 **Last.** They apply only after every other layer has failed, they carry consequences that cannot
 be undone (→ 14-11), and they do nothing while you sleep. The household's written rule:
-{{choice DC-12}} → 30-13. Everything above prevents more harm, so it deserves more of your
-attention.
+{{choice DC-12}} → 30-13. How a firearm is kept ready, and away from children, is a separate
+card: {{choice DC-31}} → 30-32; the layers above are what buy the seconds a locked option needs.
+Everything above prevents more harm, so it deserves more of your attention.
 
 ## Gear
 

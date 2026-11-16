@@ -2,7 +2,7 @@
 id: 30-01-the-floors
 section: 30-decisions-and-floors
 title: "The floors: nine rules that are not choices"
-version: 3
+version: 5
 revised: 2026-11-16
 layer: floors
 danger_level: critical
@@ -44,13 +44,13 @@ explainers: [EX-01, EX-03, EX-04, EX-05, EX-07, EX-08]
 promote_when: []
 figures: [fig-generator-distance, fig-backfeed-path]
 cards: [DC-25]
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Wave-2: ATSDR gasoline misattribution fixed (MDE, NIOSH); hundreds of cars to CPSC CO Information Center; backfeed to CPSC 5123 and OSHA; tourniquet to USUHS/TCCC; canning to USDA; CDC botulism, MMWR hemlock and Amanita read; bold floor sentences unchanged. R19: CO alarm placement to 08-02 (every level and outside each sleeping area)." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Wave-2: ATSDR gasoline misattribution fixed (MDE, NIOSH); hundreds of cars to CPSC CO Information Center; backfeed to CPSC 5123 and OSHA; tourniquet to USUHS/TCCC; canning to USDA; CDC botulism, MMWR hemlock and Amanita read; bold floor sentences unchanged. R19: CO alarm placement to 08-02 (every level and outside each sleeping area). L8: card range extended to DC-31 (→ 30-32) for new cards DC-30, DC-31." }
 ---
 
 # The floors: nine rules that are not choices
 
 **What this page is for.** Most hard calls in this binder are trade-offs, and the household
-makes them on the decision cards (→ 30-02 to → 30-30). The nine rules on this page are
+makes them on the decision cards (→ 30-02 to → 30-32). The nine rules on this page are
 different. Each one guards against something that kills or maims **without warning and with no
 fix afterwards**. No mitigation makes the risky version safe every time, so there is no card,
 no options box and no "our choice" line. Other pages copy the rule sentences below word for
@@ -248,7 +248,9 @@ to touch a gun is not enough (AAP, Guns in the Home; NSSF, Project ChildSafe). I
 which is exactly when storage has to do the work.
 
 **Do this instead.** Lock firearms unloaded, with ammunition locked separately, and keep the
-keys and combinations from children (AAP). Store fuel, medicine and chlorine locked, out of
+keys and combinations from children (AAP). The only exceptions are the two the household may
+choose on the firearm readiness card: one loaded firearm in a locked quick-access box, or one
+carried on an adult's body, each with that card's child rules (→ 30-32). Store fuel, medicine and chlorine locked, out of
 sight and reach, in their original labelled containers, never in drink bottles (AAP; CDC MMWR).
 Teach the rule as an absolute, but let storage do the work. Which jobs children may help with under supervision is a worksheet
 (→ 30-25). → 20-02, → 14-14.

@@ -247,5 +247,465 @@
   "pages": [
    "03-04"
   ]
+ },
+ "fig-fuel-ladder": {
+  "caption": "The fuel ladder (06-01): four sizes, all ready before you strike anything: tinder that catches a spark; kindling from pencil-lead to pencil thickness; small fuel from finger to wrist thickness; fuel wood, the real logs. Have three times more kindling than you think you need.",
+  "alt": "Four piles laid out from left to right with thickness labels: tinder (a cotton ball, bark shavings, lint); kindling, thin twigs from pencil-lead to pencil thick; small fuel, sticks from finger to wrist thick; fuel wood, split logs. Under the kindling pile, a note: three times more than you think.",
+  "pages": [
+   "06-01"
+  ]
+ },
+ "fig-banked-fire": {
+  "caption": "Banking a fire (06-02): let it burn down to a good bed of coals, rake the coals into a compact pile, put one or two large, dense logs on top, and cover the edges with ash. In the morning, rake the ash off, add fine kindling and blow gently.",
+  "alt": "Side section of a fire bed: a compact mound of glowing coals in the middle, two large dense logs lying on top of it, and a layer of grey ash drawn over the edges of the mound, labelled ash insulates and slows it to a smoulder.",
+  "pages": [
+   "06-02"
+  ]
+ },
+ "fig-cord-measure": {
+  "caption": "A full cord is 128 cubic feet: a stack 4 ft high, 4 ft deep and 8 ft long. A face cord (rick) is one row 4 ft high and 8 ft long but only 16 to 24 inches deep: a third to a half of a cord, and often sold as a \"cord\" (MU Extension).",
+  "alt": "Two woodpiles drawn the same height and length. The top one is a full cord, 4 feet high, 8 feet long and 4 feet deep, labelled 128 cubic feet. The bottom one is a face cord, the same 4 by 8 feet face but only 16 to 24 inches deep, labelled a third to a half of a cord.",
+  "pages": [
+   "06-03"
+  ]
+ },
+ "fig-splitting-stance": {
+  "caption": "Splitting safely (06-03): chopping block at about knee height, never on the ground; feet apart and out of the swing line, so a glancing blade hits the block or the dirt, not your shin; nobody near you while you split, especially children.",
+  "alt": "Side view of a person splitting a round on a knee-high chopping block. The feet are apart and back from the block; the maul's arc is drawn ending in the round and, if it glances, in the block and the ground, never the shin. A dashed circle around the scene is labelled keep everyone well clear.",
+  "pages": [
+   "06-03"
+  ]
+ },
+ "fig-chopping-block-height": {
+  "caption": "Chopping block height (16-06): for splitting, a low block, knee height or less, so the head arrives near the bottom of its swing with the handle about level and a miss hits the block or the ground. A waist-high splitting block sends a glancing blow forward and down into your legs. The higher block is only for hatchet and kindling work.",
+  "alt": "Three side-view panels. Left, ticked: a person splitting on a block at knee height or less, the maul handle about level at impact, a miss going into the block or the ground. Middle, crossed out: the same swing on a waist-high block, with a red arrow showing a glancing blow travelling forward and down into the legs. Right: a higher block used only for a hatchet splitting kindling, hands clear.",
+  "pages": [
+   "16-06"
+  ]
+ },
+ "fig-creosote-stages": {
+  "caption": "Creosote, as sweeps grade it (CSIA, as on 06-09): stage 1, light, flaky, sooty dust that an ordinary brush takes off; stage 2, crusty, tar-like flakes a brush struggles with; stage 3, glaze, hard, shiny or tacky black, like poured tar that set, which brushing will not remove. All of it is highly combustible. Never reach stage 3.",
+  "alt": "Three square swatches of flue wall. Stage 1: a light grey dusting of loose soot flakes, labelled brush takes it off. Stage 2: darker, crusty, curled tar-like flakes, labelled brush struggles. Stage 3: a smooth, shiny black glaze with highlights, labelled glaze, brushing will not remove it, stop using the flue.",
+  "pages": [
+   "06-09"
+  ]
+ },
+ "fig-flue-inspection-mirror": {
+  "caption": "Inspecting the flue (06-09): cold flue, damper open; from the firebox or the cleanout door, angle a mirror to see up the flue and shine a strong flashlight on it. Scrape test: drag a screwdriver along the flue wall; about 1/8 inch of sooty buildup means sweep before the next fire. Shiny, tarry glaze: stop using the flue.",
+  "alt": "Cut-away of a cold fireplace and flue. A hand holds a mirror tilted inside the firebox below the open damper, and a flashlight beam bounces off the mirror up the flue lining. An inset shows a screwdriver dragged along the flue wall, scraping a layer marked about 1/8 inch: sweep before the next fire.",
+  "pages": [
+   "06-09"
+  ]
+ },
+ "fig-chainsaw-kickback-zone": {
+  "caption": "Chainsaw kickback (16-06): when the upper tip of the bar touches wood or anything else, or the wood pinches the chain, the bar is thrown up and back toward you in a fraction of a second. Never let the nose of the bar touch anything; both hands on the saw, left on the front handle, right on the rear.",
+  "alt": "Side view of a chainsaw. The upper quarter of the rounded bar tip is shaded red and labelled kickback zone. A curved red arrow shows the bar flying up and back toward the operator's position. The front and rear handles are labelled left hand and right hand.",
+  "pages": [
+   "16-06"
+  ]
+ },
+ "fig-sawbuck": {
+  "caption": "A sawbuck (16-06): an X-shaped stand that holds wood at working height while sawing. Build one; it prevents many injuries.",
+  "alt": "Side view of a sawbuck: two X-shaped leg frames joined by a rail, with a log lying in the upper V of the crosses at about hip height. A bow saw cuts the log between the two frames, and a person stands upright beside it.",
+  "pages": [
+   "16-06"
+  ]
+ },
+ "fig-candling-an-egg": {
+  "caption": "Candling an egg (04-15): in a dark room, hold the egg against a bright flashlight. A sound egg shows a small air pocket at the wide end and a faint yolk shadow. A large air pocket, a dark or moving mass, blotches, cracks, or a bad smell on opening: throw it out. Crack every egg into a separate bowl first.",
+  "alt": "Left: a hand-held flashlight shining up into an egg in a dark room. Middle: a sound egg lit from behind, with a small air pocket at the wide end and a faint yolk shadow, marked keep. Right: a bad egg with a large air pocket and a dark mass and blotches, marked throw out.",
+  "pages": [
+   "04-15"
+  ]
+ },
+ "fig-mylar-bucket-pack": {
+  "caption": "The container system (04-03): a food-grade bucket, a Mylar liner bag, dry food (about 10 percent moisture or less), oxygen absorbers sized to the container and opened last, the Mylar sealed with a clothes iron or hair straightener, then the lid, and a label on the outside: contents, weight, date packed and the ingredient label.",
+  "alt": "Cut-away of a 5-gallon bucket. Inside, a Mylar bag full of dry grain with oxygen absorbers on top; the top of the bag is folded over and sealed with a hot iron. A lid sits above. A label on the outside lists contents, weight, date packed and ingredients. A small jar beside it holds the unused absorbers, resealed at once.",
+  "pages": [
+   "04-03"
+  ]
+ },
+ "fig-sprouting-jar": {
+  "caption": "Sprouting in a jar (04-16): soak the seed overnight, drain completely, then rinse and drain twice a day, morning and evening, with the jar tilted mouth-down so it drains, at room temperature, out of direct sun. Ready in 2 to 6 days, when the sprout is about as long as the seed. Musty, sour, slimy or mouldy: throw it out.",
+  "alt": "A glass jar with a mesh lid tilted mouth-down in a bowl so water drains out. Beside it, a row of four seeds showing the stages: soaked seed, a seed just splitting, a short sprout, and a sprout about as long as the seed marked ready.",
+  "pages": [
+   "04-16"
+  ]
+ },
+ "fig-drying-rack-over-stove": {
+  "caption": "Drying with heat you already have (04-06): a screen rack above a wood stove, with a thermometer at rack level, is good for plant food, and for meat only if the thermometer at the rack reads 140 \u00b0F the whole time. A covered solar-drying screen is for fruit, vegetables and herbs only: never meat.",
+  "alt": "Two panels. Left: a wood stove with a screen rack hung above it holding sliced fruit, and a thermometer clipped at rack level; label: meat only if the rack reads 140 \u00b0F the whole time. Right: a screen in the sun on blocks, covered with a fine cloth, holding fruit and herbs, with air moving under it; a crossed-out piece of meat says never meat.",
+  "pages": [
+   "04-06"
+  ]
+ },
+ "fig-haybox": {
+  "caption": "The haybox (07-02): bring the food to a full rolling boil right through the pot, then move the covered pot into a heavily insulated box. Check with a thermometer before serving: still above 140 \u00b0F is fine; just dropped below 140 \u00b0F, reheat to 165 \u00b0F; below 140 \u00b0F for more than 2 hours, throw it out (CDC). Dry beans: soak, discard the water and boil 30 minutes first.",
+  "alt": "Two steps. Left: a lidded pot on a fire at a full rolling boil, bubbles right through. Right: the same covered pot packed inside a cooler stuffed with towels, with a thermometer. A table of three outcomes: above 140 \u00b0F fine; just below 140 \u00b0F reheat to 165 \u00b0F; below 140 \u00b0F for more than 2 hours throw out.",
+  "pages": [
+   "07-02"
+  ]
+ },
+ "fig-dutch-oven-coals": {
+  "caption": "Dutch oven coals (Missouri Department of Conservation, as on 07-04): total briquettes = 2 \u00d7 the diameter in inches for about 325 \u00b0F; a 12-inch oven takes 24, with two-thirds (16) on the lid and one-third (8) underneath for baking. Add or remove 2 briquettes for about 25 \u00b0F. Every 15 minutes, turn the oven a quarter turn and the lid a quarter turn the other way. Check with a thermometer.",
+  "alt": "Side view of a three-legged camp Dutch oven with a rimmed lid. Sixteen briquettes sit on the lid in a ring and eight sit underneath between the legs. Labels: 12-inch oven, about 325 \u00b0F, 24 briquettes, 16 on the lid, 8 underneath; add or remove 2 for about 25 \u00b0F. A top view shows curved arrows: oven a quarter turn one way, lid a quarter turn the other way, every 15 minutes.",
+  "pages": [
+   "07-04"
+  ]
+ },
+ "fig-rocket-stove-cutaway": {
+  "caption": "Rocket stove (07-02): an insulated L-shaped burn chamber; fuel feeds in sideways on a shelf while air passes underneath; the short vertical chimney makes a strong draft; the pot sits on supports with a gap so the hot gases reach it. Level, non-combustible ground; never indoors, in a tent or in a garage.",
+  "alt": "Cut-away of an L-shaped rocket stove. Sticks lie on a shelf in the horizontal feed tube, with an air arrow passing under the shelf. The burn chamber turns upward into a short vertical chimney surrounded by insulation such as wood ash or vermiculite inside an outer can. A pot sits on small supports above the chimney top, with a gap for the hot gases to flow out around the pot.",
+  "pages": [
+   "07-02"
+  ]
+ },
+ "fig-solar-box-cooker": {
+  "caption": "Box solar cooker (07-03): a cardboard box inside a larger box, the gap packed with crumpled newspaper or wool; the inside lined with aluminium foil; a dark pot with a lid inside; a clear plastic or glass lid; foil-covered flaps as reflectors. An oven thermometer inside; do not open it to look.",
+  "alt": "Cut-away of two nested cardboard boxes with crumpled paper insulation in the gap. The inner box is lined with foil and holds a dark lidded pot and an oven thermometer. A clear lid covers the top, and a foil-covered reflector flap is propped up behind, bouncing sunlight down through the clear lid.",
+  "pages": [
+   "07-03"
+  ]
+ },
+ "fig-coal-heat-zones": {
+  "caption": "Heat zones (07-01): let the fire burn down to a glowing bed of coals, then rake them into a hot zone (deep coals) for searing and boiling, a medium zone (thinner coals) for most cooking, and a cool zone (few or no coals) to move food to when it is getting ahead of you. Move the food, not the fire.",
+  "alt": "Top view of a ring of stones around a fire pit with a grate across it. The coals are raked into three zones: on the left a deep pile marked hot, searing and boiling; in the middle a thinner layer marked medium, most cooking; on the right a few scattered coals marked cool, move food here. A pot and a pan sit on the grate.",
+  "pages": [
+   "07-01"
+  ]
+ },
+ "fig-flood-water-depths": {
+  "caption": "Turn Around, Don't Drown (NWS): moving water 6 inches deep knocks an adult off their feet; 12 inches carries away most cars; 2 feet carries away SUVs and trucks. No depth of flowing water across a road is safe to drive, and the road under it may be gone.",
+  "alt": "Three panels side by side, each with moving water shown by arrows. 6 inches: water at an adult's ankles and shins, the person falling. 12 inches: a car floating off the road. 2 feet: an SUV or pickup being carried away. Below: the road under the water may be gone; never drive or walk into moving water.",
+  "pages": [
+   "17-03",
+   "17-11"
+  ]
+ },
+ "fig-defensible-space-zones": {
+  "caption": "Defensible space (USFA, as on 17-05): 0 to 5 feet, nothing that burns (no mulch, dead plants, leaves, needles, firewood or stored items against the walls); 5 to 30 feet, lean, clean and green; woodpiles at least 30 feet from the house; 30 to 100 feet, fuel reduced by thinning, spacing and limbing up. The house: clean gutters, screened vents, nothing under or on decks, propane cylinders moved away.",
+  "alt": "Plan view of a house in the middle of three rings: 0 to 5 feet shaded grey, gravel or bare soil; 5 to 30 feet with spaced, watered plants; 30 to 100 feet with thinned, spaced trees. A woodpile sits beyond the 30-foot ring. Callouts on the house: clean gutters, screened vents, nothing under the deck, propane moved away.",
+  "pages": [
+   "17-05"
+  ]
+ },
+ "fig-ice-thickness": {
+  "caption": "New clear ice (Minnesota DNR, as on 05-08): under 4 inches, stay off; 4 inches, walking and ice fishing on foot; 5 to 7 inches, snowmobile or small ATV; 7 to 8 inches, side-by-side ATV; 9 to 10 inches, small car or SUV; 11 to 12 inches, medium SUV or small truck; 13 inches, medium truck. White ice is about half as strong: double every figure. No ice is ever \"safe\" ice.",
+  "alt": "A stacked bar chart of clear-ice thickness from under 4 inches to 13 inches, each band labelled with the load it carries: stay off; on foot; snowmobile or small ATV; side-by-side ATV; small car or SUV; medium SUV or small truck; medium truck. A note: white ice, double every figure.",
+  "pages": [
+   "05-08"
+  ]
+ },
+ "fig-extinguisher-pass": {
+  "caption": "Using an extinguisher, PASS (USFA, as on 29-12): Pull the pin, nozzle pointing away from you; Aim low, at the base of the fire; Squeeze the lever slowly and evenly; Sweep side to side across the base until it is out. Only with your back to a clear exit. Label \"1A:10B:C\": 1A matches 1.25 gallons of water on a class A fire; 10B covers a liquid fire of about 10 square feet; C is for plugged-in electrical equipment.",
+  "alt": "Four panels: P, a hand pulling the pin from the handle; A, the hose aimed low at the base of the flames; S, a hand squeezing the lever; S, the hose sweeping side to side across the base of the fire. Below, a sample label reading 1A:10B:C with each part explained, and a note: back to a clear exit; if it is not out when the extinguisher is empty, leave.",
+  "pages": [
+   "29-12"
+  ]
+ },
+ "fig-watts-and-watt-hours": {
+  "caption": "The four words as water in a hose (29-02): volts are pressure, amps are how much water flows, watts are pressure \u00d7 flow (watts = volts \u00d7 amps), and watt-hours are the water in the bucket (watt-hours = watts \u00d7 hours). A 1,000 Wh battery runs a 100 W load for roughly 10 hours, less losses.",
+  "alt": "A tap feeds a hose that fills a bucket. Labels: volts, the pressure pushing; amps, how much water flows; watts, pressure times flow, how fast it is being used; watt-hours, the water collected in the bucket. Below, a worked example: 1,000 watt-hours divided by 100 watts is about 10 hours, less losses.",
+  "pages": [
+   "29-02"
+  ]
+ },
+ "fig-lug-star-pattern": {
+  "caption": "Lug nuts go on in a star pattern, across the wheel, not round the circle (16-10): hand-tight in a star, lower the vehicle, tighten firmly in the star, then torque to the owner's manual at the first chance and recheck after a short drive.",
+  "alt": "Two wheels seen face-on. A five-lug wheel with the nuts numbered 1 to 5 in a star order, each number across from the last, joined by a star-shaped line. A six-lug wheel numbered 1 to 6 in a criss-cross order, each nut followed by the one opposite.",
+  "pages": [
+   "16-10"
+  ]
+ },
+ "fig-four-pin-connector": {
+  "caption": "Trailer lights (16-11): in a common 4-pin plug, the white wire and the light housings' mounting screws carry the return (ground) path; a bad ground causes most trailer light faults. Unbolt the white wire where it meets the frame, wire-brush the frame and terminal to bright metal, bolt it back tight. Pack both plug halves with dielectric grease.",
+  "alt": "A flat 4-pin trailer plug with four wires leaving it; the white wire is highlighted and runs to a ring terminal bolted to the trailer frame, where a wire brush cleans the metal bright. The other three wires run to the lights. Labels: white wire, ground; bolt to bright metal; dielectric grease in both halves.",
+  "pages": [
+   "16-11"
+  ]
+ },
+ "fig-tornado-vehicle-choices": {
+  "caption": "Tornado while in a vehicle (NWS, SPC, as on 17-02): a sturdy building always wins. If the tornado is far off and roads are open, drive at right angles to its path. Caught by extreme wind or debris: park out of traffic lanes, stay in with the seat belt on, head below the windows, covered. Leave the car only for ground noticeably lower than the road. Never shelter under an overpass.",
+  "alt": "Four panels. 1: a map view with a tornado track and a car turning to drive away at a right angle to it. 2: a car parked off the lane, the driver belted with head down below the windows, covered by a coat. 3: a person lying flat in a ditch that is noticeably lower than the road, head covered. 4: a car stopped under an overpass, crossed out in red.",
+  "pages": [
+   "17-02",
+   "17-11"
+  ]
+ },
+ "fig-tsunami-natural-warnings": {
+  "caption": "Tsunami natural warnings (NWS, as on 17-15): a strong or long earthquake; the ocean suddenly rising like a fast flood or a wall of water, or draining away; a loud roar from the ocean. Any one means go now, to high ground or as far inland as you can. Do not wait for an official warning. The first wave may not be the last or the largest.",
+  "alt": "Three icons in a row: a shaking ground line labelled strong or long earthquake; a shoreline with the sea drawn rising or draining away; an ear with a roar from the ocean. A large arrow points from all three up a hill to high ground, labelled go now.",
+  "pages": [
+   "17-15"
+  ]
+ },
+ "fig-ducted-heater-window-board": {
+  "caption": "Ducted diesel heater window board: a snug board in the window with two holes, combustion intake and exhaust, both opening outdoors; the warm-air duct stays entirely indoors. Every exhaust joint sealed; the exhaust slopes slightly down and away and ends away from any window, door or vent. Battery CO alarm in the heated room, every run.",
+  "alt": "Cross-section of a wall with a window. A board fills the bottom of the window opening, with the window closed down onto it. Inside, the heater sits on the floor; a warm-air duct leaves it and stays inside the room. Two pipes pass through the board: the combustion intake and the exhaust, which slopes slightly downward outside and ends away from the window. Labels: seal every exhaust joint, very hot, keep off siding and combustibles. A CO alarm is drawn on the room wall.",
+  "pages": [
+   "08-07"
+  ]
+ },
+ "fig-kerosene-flame-height": {
+  "caption": "Wick kerosene heater flame, seen through the glass: correct is a \u00bd-inch flame above the flame spreader, even all round. Too high gives smoke and soot (lower the wick); too low gives smell and carbon monoxide (never run below the wick stop). Check at 5 to 7 minutes, then every 30 minutes.",
+  "alt": "Three side-by-side drawings of a heater burner seen through its glass. Left, marked correct: an even flame about half an inch above the flame spreader. Middle, too high: tall uneven flames with smoke and soot above. Right, too low: a flame barely above the wick, marked smell and carbon monoxide.",
+  "pages": [
+   "08-10"
+  ]
+ },
+ "fig-box-fan-filter": {
+  "caption": "The clean room in wildfire smoke: windows and door shut, a portable air cleaner on its highest setting, or, if you have none, a box fan with a furnace filter taped to it (a temporary substitute EPA describes). No smoke made inside.",
+  "alt": "Plan of a closed room with its window and door shut. In the middle, a box fan seen from the side with a furnace filter taped flat against one face; arrows show room air passing through the filter and then the fan. Crossed-out icons: candle, frying pan, aerosol spray. A note: a portable air cleaner sized for the room, that makes no ozone, is better.",
+  "pages": [
+   "17-14"
+  ]
+ },
+ "fig-propane-pools-low": {
+  "caption": "How an indoor propane cylinder hurts people (30-03): a slow leak overnight spreads along the floor, where nobody smells it at standing height; the heater, lit in the morning, or a water-heater pilot across the room catches the edge of the cloud and it burns all at once.",
+  "alt": "Cut-away of a room. A propane cylinder stands beside a heater; a shaded layer of gas flows from a loose connection along the floor across the room, under a standing person whose nose is well above it, to a water heater with a pilot flame at floor level. Labels: slow leak overnight, spreads along the floor, nobody smells it at standing height, pilot or heater lights the edge of the cloud.",
+  "pages": [
+   "30-03"
+  ]
+ },
+ "fig-vapour-flow": {
+  "caption": "Gasoline vapour is heavier than air: it flows along the floor and can be lit by a water heater's pilot light across the room (Maryland Department of the Environment). Never pour or transfer fuel inside the garage.",
+  "alt": "Cut-away of an attached garage. A gasoline can sits at one side; a shaded layer of vapour flows from it along the floor, past a car, to a gas water heater with a pilot flame at floor level on the far wall. The shared wall and door to the house are on the right. Labels: vapour is heavier than air, flows along the floor; pilot light across the room.",
+  "pages": [
+   "06-06"
+  ]
+ },
+ "fig-heat-ladder-house-to-bag": {
+  "caption": "Why small is warm (08-06): as fuel gets short, step down to smaller spaces with the same heat source, you: house, one room, a tent inside the room, sleeping bags inside the tent, layers inside the bags.",
+  "alt": "Five nested outlines, each inside the last: a house, one room inside it, a tent inside the room, a sleeping bag inside the tent, and a person in layers inside the bag. Each is labelled, with an arrow showing the steps from house to layers.",
+  "pages": [
+   "08-06"
+  ]
+ },
+ "fig-anaphylaxis-positions": {
+  "caption": "Anaphylaxis positions (AAP Allergy and Anaphylaxis Emergency Plan, as on 02-03): keep them lying on their back; if they vomit or have trouble breathing, keep them lying on their side. Keep them lying down: do not stand them up or walk them.",
+  "alt": "Two panels. Top: a person lying flat on their back on the floor, labelled usual position. Bottom: seen from above, a person lying on their side with the knees bent forward and the mouth pointing down, labelled if vomiting or having trouble breathing. Below, a red bar: keep them lying down, do not stand them up or walk them.",
+  "pages": [
+   "02-03"
+  ]
+ },
+ "fig-auto-injector-outer-thigh": {
+  "caption": "Epinephrine auto-injector: into the outer thigh, through clothing if needed, following the device's own instructions. For one common pen the label says hold it in place for 3 seconds, then massage the area for 10 seconds. Note the time.",
+  "alt": "Front view of two legs from the hips to the knees. A shaded oval on the outside of the middle of the right thigh marks where the auto-injector goes; the pen is drawn pressed straight against the outer thigh from the side, through a trouser leg. Notes beside it: through clothing if needed; follow your device's own instructions; one common pen, hold 3 seconds then massage 10 seconds; note the time.",
+  "pages": [
+   "02-03"
+  ]
+ },
+ "fig-splint-joint-above-below": {
+  "caption": "Splinting: splint it as you found it, holding still the joint above and the joint below the break, with padding in every gap. Leave fingers and toes showing so you can check colour, warmth, pulse, feeling and wiggle before and after; if they get worse, loosen it at once. A broken finger can be taped to its neighbour.",
+  "alt": "Three drawings. Forearm: a rigid splint runs from the palm past the elbow, padding fills the gaps, three ties hold it, and the fingertips are left showing; the elbow and wrist are labelled joint above and joint below. Lower leg: splints on both sides run from above the knee to past the foot, padded, tied in several places, toes showing; knee and ankle labelled. Finger: the injured finger taped to the finger beside it with two bands of tape and padding between them. Below: check before and after, loosen at once if worse, re-check often.",
+  "pages": [
+   "12-09"
+  ]
+ },
+ "fig-stroke-fast": {
+  "caption": "Stroke, F.A.S.T. (American Stroke Association): Face drooping, Arm weakness, Speech difficulty, Time to call 911 and note when it started. Any one sign means act. If the person has diabetes and a meter is at hand, check blood sugar first: a low can look exactly like a stroke. No aspirin for a possible stroke.",
+  "alt": "An amber bar across the top reads: diabetes and a meter or sensor, check blood sugar first, a low looks like a stroke. Below it, four tiles. F: a face with one side of the mouth drooping, ask for a smile. A: a person with both arms raised and one drifting down. S: a speech bubble with jumbled words, slurred or wrong words. T: a clock, note the time it started and go. At the bottom: any one sign means act; no aspirin for a possible stroke.",
+  "pages": [
+   "02-09",
+   "12-16"
+  ]
+ },
+ "fig-burn-palm-rule": {
+  "caption": "The palm rule: the burned person's own palm is about 1% of their body surface (palm and fingers together about 0.8 to 1%). Count with their palm, not yours: an adult's palm on a toddler gives the wrong answer. Count blistered or worse skin; redness alone does not count.",
+  "alt": "Left: an open hand, palm up, with the palm and fingers shaded and the label: their own palm, about 1 percent of their body. Right: a large adult hand beside a small toddler hand, with the adult hand crossed out for measuring a toddler: use the burned person's own palm. Below: count blistered or worse, not redness; an adult with about 10 of their own palms or more of blistered burn needs care; any child's burn bigger than a few of their own palms is serious.",
+  "pages": [
+   "12-03"
+  ]
+ },
+ "fig-closure-strips": {
+  "caption": "Closure strips are only for the narrow case: a clean, fresh, well-flushed, shallow cut with straight edges that meet without pulling. Lay the strips across the cut with gaps between them. Most wounds (dirty, punctures, bites, hours old, deep, crushed, over a joint) stay open: pack loosely and dress. Unsure? Leave it open.",
+  "alt": "Two panels. Top, marked with a green tick: a straight shallow cut on the skin closed with five thin strips laid across it, gaps between the strips, the edges meeting without pulling. Bottom, marked leave open: a ragged wound with loose gauze packing in it and a dressing beside it, and a list of wounds never to close: dirty, puncture, bite, more than several hours old, infected, deep, crushed, over a joint, face hands or genitals.",
+  "pages": [
+   "12-14"
+  ]
+ },
+ "fig-naloxone-nasal-spray": {
+  "caption": "Naloxone nasal spray (Narcan 4 mg Drug Facts, as on 02-17): thumb on the bottom of the plunger, nozzle into either nostril, press firmly; each device sprays once. Not awake after 2 to 3 minutes: another dose with a new device, and keep going every 2 to 3 minutes until they wake. Then on their side; not breathing normally, start CPR. Stay with them.",
+  "alt": "A person lying on their back, seen from the side, with the head tipped slightly back. A hand holds a nasal spray device with the nozzle in one nostril and the thumb on the bottom of the plunger. A box to the right reads: no wake-up in 2 to 3 minutes, next dose with a new device, either nostril, keep going until they wake. Below, numbered steps: spray, call 911, watch and repeat, on their side or CPR, stay.",
+  "pages": [
+   "02-17"
+  ]
+ },
+ "fig-inhaler-with-spacer": {
+  "caption": "Rescue inhaler with a spacer: sit upright, leaning slightly forward; the inhaler fits into the back of the spacer and the mouthpiece goes in the mouth. How many puffs, and when, comes from the person's written action plan, not from this picture.",
+  "alt": "Left: a person sitting upright on a chair, leaning slightly forward, holding a tube-shaped spacer to the mouth with the inhaler fitted into its far end. Right: a close-up of the spacer: the inhaler canister in its plastic boot pushed into the back end, the tube, and the mouthpiece at the front. A box below says the number of puffs comes from the written action plan.",
+  "pages": [
+   "02-07"
+  ]
+ },
+ "fig-pressure-points": {
+  "caption": "Where pressure sores form (MedlinePlus): where bone presses skin against a mattress or seat: back of the head, shoulder blades, elbows, tailbone, hips, knees, ankles, heels and ears. In bed, change position every 1 to 2 hours; in a wheelchair, shift weight every 15 to 20 minutes. Pillows between knees and ankles, under the calves to lift the heels; none under the knees; no donut cushions.",
+  "alt": "Three outlines. Lying on the back: red dots on the back of the head, shoulder blades, elbow, tailbone and heels, with a pillow under the calves so the heels float. Lying on the side: red dots on the ear, shoulder, hip, knee and ankle, with a pillow between the knees and ankles. Sitting in a wheelchair: red dots on the tailbone and shoulder blades, with the note shift weight every 15 to 20 minutes.",
+  "pages": [
+   "02-22"
+  ]
+ },
+ "fig-cord-tie-and-cut": {
+  "caption": "The cord can wait: WHO recommends clamping late, about 1 to 3 minutes after birth. When it has stopped pulsing, tie it tightly with clean (boiled) string in two places a few finger-widths apart and cut between the ties with a boiled blade. Never pull on the cord.",
+  "alt": "A length of umbilical cord running from the baby's side on the left to the mother's side on the right. Two tight string ties sit a few finger-widths apart, and a blade cuts between them. Labels: wait 1 to 3 minutes, until it stops pulsing; boiled string; boiled blade; never pull on the cord.",
+  "pages": [
+   "02-12"
+  ]
+ },
+ "fig-newborn-skin-to-skin": {
+  "caption": "Dry the baby at once with a clean cloth and lay it skin to skin on the mother's bare chest, both covered, the baby's head covered. A wet baby loses heat fast.",
+  "alt": "A mother half sitting up against pillows with a newborn lying on its front on her bare chest. A blanket covers both of them up to the baby's shoulders, and the baby wears a cap. Labels: dried at once, skin to skin, both covered, head covered.",
+  "pages": [
+   "02-12"
+  ]
+ },
+ "fig-oxygen-no-flame-zone": {
+  "caption": "Medical oxygen: at least 5 feet between the oxygen and any heat source, open flame or electrical device; never a candle, match, lighter, oil lamp or wood stove near it; no smoking by anyone, with No Smoking and No Open Flames signs. Best: a room with no flame at all.",
+  "alt": "Room plan. In the middle, a chair with an oxygen concentrator beside it and a dashed circle around them marked at least 5 feet. Inside the circle, nothing. Outside the circle, crossed out for inside it: a candle, an oil lamp, a space heater, a gas stove and a wood stove, which is in a different room. A No Smoking and No Open Flames sign is on the door. Notes: no aerosol sprays, vapour rub, petroleum jelly or oil-based lotions; turn the oxygen off when not in use.",
+  "pages": [
+   "02-08"
+  ]
+ },
+ "fig-evaporative-pouch": {
+  "caption": "Evaporative cooling pouch: soak for exactly the time your instructions give, drain and towel until only semi-dry, put the medicine in, and keep it open to the air. Water evaporating through the fabric carries heat away; anything that stops evaporation (a zip bag, an airtight box) stops the cooling. It is not a refrigerator.",
+  "alt": "Four small panels: a pouch soaking in a bowl of cold water beside a timer; the pouch being patted with a towel; an insulin pen going into the pouch; the pouch clipped open to the air on a belt with wavy lines leaving it. Below, crossed out in red: the pouch sealed in a zip bag, and the pouch in an airtight box.",
+  "pages": [
+   "12-21"
+  ]
+ },
+ "fig-insulin-cooler-barrier": {
+  "caption": "Ice or cold packs with a barrier: a towel or a box between the ice and the insulin so it cannot freeze, and a min/max thermometer beside the insulin. Aim for the label's 36 to 46 \u00b0F and never let it freeze: frozen insulin is discarded.",
+  "alt": "Cut-away of an insulated cooler. Cold packs stand against both sides and lie on the bottom. A folded towel lines the space between the packs and a small box in the middle, which holds the insulin. A min/max thermometer probe sits beside the insulin box, its display outside the lid. A red label: insulin never touches ice. Notes: aim for 36 to 46 \u00b0F; never let it freeze; frozen insulin is discarded.",
+  "pages": [
+   "02-01",
+   "02-06"
+  ]
+ },
+ "fig-device-fallback-ladder": {
+  "caption": "The pump and sensor fallback ladder (02-02): six rungs from full automation down to fast-acting insulin only. Each step down trades convenience for reliability. Never jump further down than the failure forces; never stay above a step that has stopped working. Rungs 4 and 5 need no electricity.",
+  "alt": "A ladder of six rungs, top to bottom: 1 full automation, needs pump, sensor, controller, power; 2 backup controller or reader, needs the spare already set up; 3 pump without automation, needs settings copy and sugar readings; 4 injections with a sensor, needs long- and fast-acting insulin and the prescriber's plan; 5 injections with a fingerstick meter, needs meter, strips, lancets, night alarm; 6 fast-acting insulin only, a bridge on a prescriber's plan. Rungs 4 and 5 are bracketed: no electricity needed.",
+  "pages": [
+   "02-02"
+  ]
+ },
+ "fig-power-bank-rotation": {
+  "caption": "Power-bank rotation (00-10): number your power banks. At any moment one is in use, one is charging (from a power station, a solar panel, or a vehicle that is running anyway) and one is full and set aside as the reserve. Empty goes to charging; charged becomes the reserve; the reserve goes into use. Tape the number and the fill date on each.",
+  "alt": "Three numbered power banks in a clockwise cycle: in use, in a pocket charging a phone; charging, from a power station, solar panel or running vehicle; full reserve, set aside, with a tape strip showing number and date. Arrows run from in use to charging to reserve and back to in use.",
+  "pages": [
+   "00-10"
+  ]
+ },
+ "fig-wood-year-lag": {
+  "caption": "The wood calendar (24-03): fell and cut to length in late winter to early spring; split in spring; stack off the ground, covered on top and open on the sides, through summer; move a winter's worth close to the house in autumn; in winter, burn last year's wood. Wood cut this year is next year's fuel.",
+  "alt": "A year drawn as a wheel of five steps: late winter to early spring, fell and cut; spring, split; summer, stack and dry; autumn, move near the house; winter, burn last year's wood. A separate arrow leaves the cut step and jumps a full turn ahead to next winter, labelled this year's wood burns next winter.",
+  "pages": [
+   "24-03"
+  ]
+ },
+ "fig-three-classes-of-consumable": {
+  "caption": "Three classes of supply (23-01): A, renewable, you can make or gather more (water, wood, garden food): build the ability to produce it. B, substitutable, it runs out but something else does the job (batteries to daylight, gauze to boiled cloth): stock deeply and learn the substitute. C, irreplaceable, no way to make it and nothing replaces it (prescription medicines the body depends on): class C is short, and it decides everything.",
+  "alt": "Three columns. A, renewable, in green, with examples water, wood, garden food, soap and the plan: build the ability to produce it. B, substitutable, in amber, with examples batteries to daylight, gauze to boiled cloth, tape to wire, and the plan: stock deeply and learn the substitute. C, irreplaceable, in red, with examples insulin, epinephrine, seizure and heart medicines, and the line: class C is short, and it decides everything.",
+  "pages": [
+   "23-01"
+  ]
+ },
+ "fig-four-stages-of-a-resource": {
+  "caption": "The four stages every supply passes through (23-04): 1 stock, a pile that only shrinks; 2 extend, ration, recover, reuse, repair, so it shrinks more slowly; 3 substitute, something else does the job, usually worse; 4 produce, you make or gather it on and on. A supply is only really solved at stage 4; a supply with no stage 4 has a deadline.",
+  "alt": "Four steps from left to right: a pile labelled 1 stock, only shrinks; a smaller pile shrinking slowly labelled 2 extend; a different object labelled 3 substitute, usually worse; a growing plant labelled 4 produce, on and on. A bracket under stages 2 and 3 reads buys time.",
+  "pages": [
+   "23-04"
+  ]
+ },
+ "fig-layer-system": {
+  "caption": "The layer system (11-01): base layer against the skin moves sweat away (wool or synthetic, never cotton); mid layer traps air, which is the warmth (fleece, wool, down, synthetic fill); outer shell blocks wind and water; extremities, head, hands, feet and face, are where frostbite happens. Several thin layers beat one thick one.",
+  "alt": "A cut-away of layers over skin, from the inside out: base, a thin band with sweat arrows moving outward, never cotton; mid, a thick band of trapped air dots, the warmth; outer shell, a thin band with wind and rain arrows bouncing off. Beside it, small icons of a hat, gloves, boots and face cover labelled extremities.",
+  "pages": [
+   "11-01"
+  ]
+ },
+ "fig-two-bin-humanure": {
+  "caption": "Two-bin composting (13-06): bin one receives, every addition covered at once with a thick layer of straw, leaves or sawdust; when it is full it rests, closed and undisturbed for as long as you can possibly manage, while bin two receives. Then swap. Bins closed on all sides, rodent- and child-proof, on soil, placed by 13-07.",
+  "alt": "Two closed bins side by side on soil, each with a lid and hardware-cloth sides. The left bin is labelled 1, receiving: waste covered at once with a thick carbon layer. The right is labelled 2, resting: lid closed, undisturbed as long as possible. A curved arrow says swap when bin 1 is full. Notes: on soil, downhill and far from water, the edible garden and the kitchen.",
+  "pages": [
+   "13-06"
+  ]
+ },
+ "fig-tippy-tap": {
+  "caption": "Tippy-tap (13-02): a jug hung from a frame with a small hole near the cap, tipped by a string tied to a foot pedal; soap hangs on a string beside it. Hands-free and uses very little water. Built from a jug, cord, two sticks and a nail.",
+  "alt": "Two upright sticks with a crossbar. A jug hangs from the crossbar by its handle; a string runs from the jug's cap down to a stick lying on the ground as a foot pedal. A foot presses the pedal and the jug tips, pouring a thin stream from a small hole near the cap onto hands. A bar of soap hangs on a string from the crossbar. The rinse water runs off and away from the station.",
+  "pages": [
+   "13-02"
+  ]
+ },
+ "fig-three-tub-dishwashing": {
+  "caption": "Three-tub dishwashing (13-10): scrape first; tub 1 WASH, hot water and soap, cleanest to dirtiest; tub 2 RINSE, clean warm water; tub 3 SANITIZE, 1 tablespoon of unscented 5 to 9 percent bleach in 1 gallon of clean water, dishes fully under; then air dry on a rack, no towel. The sanitize tub is not drinkable. Wash and rinse water become greywater.",
+  "alt": "A row of steps from left to right: a plate being scraped into a waste bin; three tubs labelled 1 wash, hot water and soap; 2 rinse, clean warm water; 3 sanitize, 1 tablespoon bleach per gallon, dishes fully under, not drinkable; then a drying rack labelled air dry, no towel. Arrows from tubs 1 and 2 to a greywater bucket.",
+  "pages": [
+   "13-10"
+  ]
+ },
+ "fig-septic-system": {
+  "caption": "How a septic system works (EPA, as on 13-12): waste water runs down one main drain into a buried, watertight tank; solids sink as sludge, fats and grease float as scum, and the cleared liquid in the middle (effluent) flows out to the drain field, shallow covered trenches in dry soil, where the soil does the treatment.",
+  "alt": "Cut-away of the ground beside a house. A main drain pipe slopes from the house into a buried tank showing three layers: scum floating at the top, clear effluent in the middle and sludge on the bottom. Tank lids or risers show at the surface. An outlet pipe leads to a drain field of shallow covered trenches with perforated pipes, and arrows show the liquid soaking down through the soil, which treats it before it reaches groundwater.",
+  "pages": [
+   "13-12"
+  ]
+ },
+ "fig-ash-hopper": {
+  "caption": "The traditional ash hopper (13-09, an outline, not a procedure): a barrel with a false bottom and a spout; dry, sieved hardwood ash on top; soft water such as rainwater trickled slowly through; the liquid collected underneath is caustic lye. Goggles, gloves, ventilation; never boil it down.",
+  "alt": "Cut-away of a barrel on blocks. Inside, a perforated false bottom holds a thick layer of hardwood ash; rainwater trickles in from a can at the top; liquid drips through the false bottom and runs out of a spout near the base into a bucket. Red warning labels: caustic, treat as lye; goggles and gloves; boiling it down spatters, this is where people get hurt.",
+  "pages": [
+   "13-09"
+  ]
+ },
+ "fig-plunger-agitator": {
+  "caption": "Hand laundry (13-04): agitate with a plunger in a bucket (movement, not temperature, removes most dirt); wring hard and rinse once or twice; wring again, then roll the item in a dry towel and stand on it; dry on a high line in the warm room or outdoors.",
+  "alt": "Four panels. 1: a plunger pumped up and down in a bucket of soapy laundry. 2: hands twisting a wet item to wring it. 3: an item rolled up inside a dry towel on the floor with a foot standing on it. 4: clothes hanging on a high line.",
+  "pages": [
+   "13-04"
+  ]
+ },
+ "fig-flat-diaper-fold": {
+  "caption": "Cloth diapering with a flat (13-08): a single large square of cotton folded into a pad and laid in a waterproof cover, closed with snap-style fasteners or safety pins. Flats dry fastest. Scrape solids into the toilet system first; store in a lidded dry pail until wash day.",
+  "alt": "Three steps left to right: a large square of cotton; the square folded into a long pad of several layers; the pad laid inside a waterproof cover with its tabs and a safety pin or snap fastener. Below: solids into the toilet system, then a lidded dry pail.",
+  "pages": [
+   "13-08"
+  ]
+ },
+ "fig-first-flush-diverter": {
+  "caption": "Rain barrel set-up (03-05): the first rain off the roof carries the most dirt, germs and chemicals, so send it away from the barrel and collect what comes after. Screen and lid on the barrel, level solid base, draw from a spigot above the sediment. Then filter, boil or disinfect, and store clean. Never mix rain into treated water.",
+  "alt": "A roof edge, gutter and downspout. The downspout feeds a capped side pipe first, labelled first flush, the dirtiest runoff, kept out of the barrel; once it is full, water carries on through a screen into a lidded barrel standing on a level platform. A spigot sits above the sediment layer at the bottom. An arrow leads from the spigot to three steps: filter, boil or disinfect, store clean as treated.",
+  "pages": [
+   "03-05"
+  ]
+ },
+ "fig-tube-condenser-still": {
+  "caption": "Tube-condenser still (03-03): pot half full of pre-filtered water at a low rolling boil, lid sealed around 10 to 20 ft of soft copper tube that slopes downhill the whole way through a bucket of cold water or snow to the collection jar. Never vinyl or PVC tube; never let the pot boil dry; throw away the salty liquid left in the pot.",
+  "alt": "A pot on a fire with its lid sealed around a copper tube. The tube leaves the lid, coils downward through a bucket of cold water and snow, and comes out near the bottom to drip into a jar. Arrows show steam going up the tube and water dripping into the jar. Labels: half full, low rolling boil; sealed lid; copper coil slopes downhill all the way; keep the bath cold; never boil dry.",
+  "pages": [
+   "03-03"
+  ]
+ },
+ "fig-micron-scale-germs": {
+  "caption": "Germ sizes against filter pore sizes (29-06): parasites such as Giardia and Cryptosporidium are removed by a filter of 1 micron or finer; bacteria by 0.3 micron or finer; viruses are far smaller, and most portable filters do not remove them, so filtered water still needs chlorine or boiling unless the box says viruses.",
+  "alt": "A horizontal scale in microns, with each step ten times the last, from 0.01 to 100. Bars show viruses at the small end, bacteria around one micron, and Giardia and Cryptosporidium larger. Vertical lines mark filter pore sizes of 0.3 and 1 micron; parasites are to the right of both, bacteria are to the right of 0.3, and viruses are to the left of both, labelled most portable filters do not stop these.",
+  "pages": [
+   "29-06"
+  ]
+ },
+ "fig-water-cascade": {
+  "caption": "Cascade your water (13-03): clean water, then rinsing, then washing, then dishwater, then flushing or non-food plants. Each drop is used two or three times. Greywater is used the same day, poured on the soil, never on anything eaten raw.",
+  "alt": "Five basins stepping down from left to right like stairs, joined by arrows: clean water, rinse, wash, dishwater, and at the bottom a toilet bowl and a non-food plant. Notes under them: greywater the same day, on the soil not the leaves, never for drinking, cooking, food or hands.",
+  "pages": [
+   "13-03",
+   "17-07"
+  ]
+ },
+ "fig-drilled-well-parts": {
+  "caption": "A drilled well (03-10): the sanitary well cap on the casing; the submersible pump hanging near the bottom on its drop pipe; the pitless adapter, where the water line leaves the casing below the frost line; the pressure tank and pressure switch in the house. A purpose-made well bucket (cylinder bailer) is slim enough to go down the casing; an ordinary bucket is not.",
+  "alt": "Cut-away of the ground with a well casing going down from a capped top to water-bearing rock. Inside, a drop pipe hangs from the top to a submersible pump near the bottom, with its electric cable. Below a dashed frost line, a pitless adapter joins the drop pipe to a buried water line that runs sideways to a house wall, where a pressure tank and pressure switch stand. Beside the casing at the top, a slim well bucket on a rope, next to a crossed-out ordinary bucket.",
+  "pages": [
+   "03-10"
+  ]
  }
 }

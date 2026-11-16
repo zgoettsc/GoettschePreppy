@@ -2,7 +2,7 @@
 id: 00-01-how-to-use-this-binder
 section: 00-front-matter
 title: "How to use this binder"
-version: 2
+version: 3
 revised: 2026-11-16
 layer: core
 danger_level: none
@@ -24,7 +24,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Card range to 30-30; Sources row describes Small, Large and Everything via size.large/size.everything." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Card range to 30-30; Sources row describes Small, Large and Everything via size.large/size.everything. L8: card range extended to DC-31 (→ 30-32) for new cards DC-30, DC-31." }
 ---
 
 # How to use this binder
@@ -42,7 +42,7 @@ with no internet, how each page is laid out, and how to keep it true as your hou
 2. **Install it properly** (→ 00-10): on more than one device, tested in airplane mode, with the
    key pages printed.
 3. **Read Section 01, the phase playbooks.** Seven pages. Every other section hangs off them.
-4. **Answer the decision cards you left open** (→ 30-02 to → 30-30). Any page that depends on an
+4. **Answer the decision cards you left open** (→ 30-02 to → 30-32). Any page that depends on an
    open card prints "Not decided yet".
 5. **Count what you actually have** (→ 26-01, then → 22-04). Every runway in the binder needs that
    number.
@@ -60,7 +60,7 @@ when they do not. It assumes:
 - **You may be new to all of this.** Every term is explained the first time it appears, or points
   to an explainer in Section 29.
 - **You know your household better than the binder does.** Where a choice involves real risk, the
-  binder explains it and asks you to decide (→ 30-02 to → 30-30).
+  binder explains it and asks you to decide (→ 30-02 to → 30-32).
 
 **Everything is always included.** Your answers change the order and the wording: your home
 region comes first, your household's medical conditions lead Section 02, your gear's pages lead

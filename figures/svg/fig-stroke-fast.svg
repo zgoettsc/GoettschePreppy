@@ -12,7 +12,7 @@
 <text x="14" y="197" font-size="11" fill="currentColor">one side sags.</text>
 <rect x="182" y="66" width="174" height="156" rx="6" fill="none" stroke="currentColor" stroke-width="1.4"/>
 <text x="192" y="96" font-size="28" font-weight="bold" fill="#c62828">A</text><text x="218" y="92" font-size="12.5" font-weight="bold" fill="currentColor">Arm weakness</text>
-<g opacity="0.35"><circle cx="294" cy="116" r="9" fill="currentColor"/><path d="M294,128 L294,166" fill="none" stroke="currentColor" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/><path d="M289,132 L268,106" fill="none" stroke="currentColor" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M299,132 L324,142" fill="none" stroke="currentColor" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g opacity="0.35"><circle cx="294" cy="116" r="9" fill="currentColor"/><path d="M294,128 L294,166" fill="none" stroke="currentColor" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/><path d="M289,132 L262,118" fill="none" stroke="currentColor" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M299,132 L324,144" fill="none" stroke="currentColor" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></g>
 <path d="M328,110 A40,40 0 0 1 332,136" fill="none" stroke="#c62828" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/><line x1="332" y1="130" x2="331.7" y2="132.0" stroke="#c62828" stroke-width="1.8" stroke-linecap="round"/><path d="M331,138 L334.7,132.4 L328.8,131.7 Z" fill="#c62828" stroke="none"/>
 <text x="192" y="184" font-size="11" fill="currentColor">Raise both arms:</text>
 <text x="192" y="197" font-size="11" fill="currentColor">one drifts down.</text>

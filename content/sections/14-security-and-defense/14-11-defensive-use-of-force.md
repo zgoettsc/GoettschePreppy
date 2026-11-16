@@ -2,16 +2,16 @@
 id: 14-11-defensive-use-of-force
 section: 14-security-and-defense
 title: "Defensive use of force: writing the household rule"
-version: 2
+version: 3
 revised: 2026-11-16
 layer: core
 danger_level: critical
 phase: [A, B, C]
 tags: [self-defense, use of force, deadly force, firearms, imminence, proportionality, duty to retreat, stand your ground, castle doctrine, backstop, travel, aftermath]
 derived_from: [14-11-defense-and-sd-law]
-sources: [nssf-national-shooting-sports-foundation-firearm-saf-646b4a, national-institute-of-justice-u-s-doj-the-effectiven-6e5288, u-s-code-office-of-the-law-revision-counsel-18-u-s-c-0d9e25, atf-national-firearms-act-interstate-transportation-06c17b, cdc-helping-children-cope-during-and-after-a-disaste-641273]
-related: [30-13-dc12-defensive-use-of-force, 29-11-ex11-firearms-basics, 14-01-situational-awareness, 14-02-home-hardening, 14-03-opsec, 14-10-suppressors-and-nfa, 14-12-layered-defense, 14-13-de-escalation, 14-14-safe-storage-and-child-access, 12-02-bleeding-and-wounds, 18-01-mutual-aid, 19-01-document-grab-kit, 21-03-grief-and-trauma, 22-05-kit-vehicle, 05-07-hunting, 25-10-annual-review, 01-03-phase-b-movement, 30-12-dc11-shooting-on-your-property, 15-03-family-comms-plan, 30-01-the-floors]
-cards: [DC-12, DC-11]
+sources: [nssf-national-shooting-sports-foundation-firearm-saf-646b4a, national-institute-of-justice-u-s-doj-the-effectiven-6e5288, u-s-code-office-of-the-law-revision-counsel-18-u-s-c-0d9e25, atf-national-firearms-act-interstate-transportation-06c17b, cdc-helping-children-cope-during-and-after-a-disaste-641273, cdc-mmwr-unintentional-firearm-deaths-children-2003-2021-l8]
+related: [30-13-dc12-defensive-use-of-force, 29-11-ex11-firearms-basics, 14-01-situational-awareness, 14-02-home-hardening, 14-03-opsec, 14-10-suppressors-and-nfa, 14-12-layered-defense, 14-13-de-escalation, 14-14-safe-storage-and-child-access, 12-02-bleeding-and-wounds, 18-01-mutual-aid, 19-01-document-grab-kit, 21-03-grief-and-trauma, 22-05-kit-vehicle, 05-07-hunting, 25-10-annual-review, 01-03-phase-b-movement, 30-12-dc11-shooting-on-your-property, 15-03-family-comms-plan, 30-01-the-floors, 30-32-dc31-firearm-readiness]
+cards: [DC-12, DC-11, DC-31]
 explainers: [EX-11]
 promote_when: [has.firearms]
 photo_slots: []
@@ -21,7 +21,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "18 USC 926A wording checked (glove compartment or console); wall penetration sourced to NSSF; no tactics; DC-12/DC-11 lines correct." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "18 USC 926A wording checked (glove compartment or console); wall penetration sourced to NSSF; no tactics; DC-12/DC-11 lines correct. L8 (G29): road section no longer uses the federal safe-passage rule as a default; law is a short pre-collapse note; ready firearm on the road follows DC-31 (→ 30-32); CDC MMWR vehicle 12.5% added." }
 ---
 
 # Defensive use of force: writing the household rule
@@ -126,23 +126,22 @@ Firing at home for any other reason (pests, practice) is a separate decision: {{
 
 ## Firearms on the road
 
-A safe way to carry firearms in a vehicle, whatever the law: **unloaded, cased and locked, with
-ammunition stored separately, in the cabin, never in a trailer** (→ 14-03, → 22-05). That keeps
-them from children, survives a crash without a loaded gun loose in the vehicle, and cannot be
-grabbed from an unattended trailer.
+A vehicle raises the same question as the house, with children closer: how the household keeps a
+firearm ready, if it does. That is the household's card: {{choice DC-31}} (→ 30-32). Whatever it
+chose, firearms nobody has chosen to keep ready travel **unloaded, cased and locked, with
+ammunition stored separately, in the cabin, never in a trailer** (→ 14-03, → 22-05): that keeps
+them from children, keeps a loaded gun from coming loose in a crash, and cannot be grabbed from an
+unattended trailer. A ready firearm is in a locked box fixed in the vehicle or on an adult's body,
+never loose in a door pocket, console, glove box or bag: CDC found that a vehicle was where 12.5%
+of the unlocked guns in children's accidental shooting deaths were found (CDC, MMWR, Unintentional
+Firearm Injury Deaths Among Children and Adolescents, 2023).
 
 > **Before the collapse:** your state's law, and the law of every state you cross, apply while
-> they are enforced. Carry permits are not honoured everywhere, and some places ban firearms
-> entirely (for example courthouses, schools and their grounds, federal buildings, and private
-> property that posts it). Federal law protects travel through a state where you could not
-> otherwise have the firearm only if you may lawfully have it where you start and where you end,
-> and the firearm is unloaded with neither it nor ammunition readily reachable from the passenger
-> compartment; in a vehicle with no separate trunk, it must be in a locked container other than
-> the glove compartment or console (18 U.S.C. § 926A). That federal condition differs from the
-> cabin rule above: while it applies, a locked trunk, or a locked case out of reach, meets it,
-> and a firearm reachable from the seats does not. Suppressors and other NFA items have their own rules (→ 14-10;
-> ATF, National Firearms Act interstate transportation). Look up each state on your route while
-> the information is published.
+> they are enforced: carry permits are not honoured everywhere, some places ban firearms
+> entirely, and federal law sets its own conditions for passing through a state with a firearm
+> (18 U.S.C. § 926A). Suppressors and other NFA items have their own rules (→ 14-10; ATF,
+> National Firearms Act interstate transportation). Look up each state on your route while the
+> information is published.
 
 ## Before the collapse: what the law says, in general terms
 

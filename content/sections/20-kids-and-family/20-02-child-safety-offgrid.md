@@ -2,7 +2,7 @@
 id: 20-02-child-safety-offgrid
 section: 20-kids-and-family
 title: "Keeping children safe in a house without the grid"
-version: 3
+version: 5
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -25,8 +25,8 @@ sources:
   - american-academy-of-pediatrics-healthychildren-org-w-7400c5
   - us-consumer-product-safety-commission-cpsc-what-to-k-3390a4
   - cpsc-carbon-monoxide-information-center
-related: [20-01-toddler-and-infant-needs, 20-04-teaching-kids-the-plan, 20-07-kids-jobs, 12-03-burns, 12-17-poisoning-and-ingestion, 12-18-choking-and-cpr, 08-01-heating-one-room, 08-02-carbon-monoxide-safety, 08-09-portable-propane-heaters, 08-10-wick-kerosene-heaters, 03-03-pool-water-desalination, 03-02-storing-water, 06-06-fuel-storage-safety, 14-14-safe-storage-and-child-access, 30-01-the-floors, 30-25-dc24-children-and-dangerous-jobs, 30-02-dc01-unvented-heater-overnight, 30-07-dc06-fuel-in-passenger-vehicle, 30-21-dc20-open-flame-indoors, 24-02-drills, 25-10-annual-review]
-cards: [DC-24, DC-01, DC-06, DC-20]
+related: [20-01-toddler-and-infant-needs, 20-04-teaching-kids-the-plan, 20-07-kids-jobs, 12-03-burns, 12-17-poisoning-and-ingestion, 12-18-choking-and-cpr, 08-01-heating-one-room, 08-02-carbon-monoxide-safety, 08-09-portable-propane-heaters, 08-10-wick-kerosene-heaters, 03-03-pool-water-desalination, 03-02-storing-water, 06-06-fuel-storage-safety, 14-14-safe-storage-and-child-access, 30-01-the-floors, 30-25-dc24-children-and-dangerous-jobs, 30-02-dc01-unvented-heater-overnight, 30-07-dc06-fuel-in-passenger-vehicle, 30-21-dc20-open-flame-indoors, 24-02-drills, 25-10-annual-review, 30-32-dc31-firearm-readiness]
+cards: [DC-24, DC-01, DC-06, DC-20, DC-31]
 explainers: [EX-01, EX-03, EX-05, EX-11, EX-12]
 promote_when: [has.child]
 photo_slots:
@@ -38,7 +38,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Drowning re-read (CPSC 2 in, CDC seconds, 83% four-sided fence, CPSC 362 48 in/F1346); button battery 2 h to NCPC; unread CPSC/AAP/NIOSH keys dropped; floors as 30-01. R19: CO alarm placement to 08-02 (every level and outside each sleeping area); floor 8 restated word for word." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Drowning re-read (CPSC 2 in, CDC seconds, 83% four-sided fence, CPSC 362 48 in/F1346); button battery 2 h to NCPC; unread CPSC/AAP/NIOSH keys dropped; floors as 30-01. R19: CO alarm placement to 08-02 (every level and outside each sleeping area); floor 8 restated word for word. L8 (G29): firearm rows point to DC-31 for a ready firearm (locked box or on an adult's body); floor callout unchanged." }
 ---
 
 # Keeping children safe in a house without the grid
@@ -53,7 +53,8 @@ adults are tired and busy.
 > products.** This is a floor, not a choice (→ 30-01): every source agrees, small children
 > explore by mouth and by hand, and in a crisis the adults are busier and supervision is thinner,
 > which is exactly when storage has to do the work. Lock firearms unloaded, with ammunition
-> locked separately (AAP; → 14-14). Store fuel, medicine and chlorine locked, out of sight and
+> locked separately (AAP; → 14-14); the only exceptions are the readiness card's lockbox or
+> on-body options, with that card's child rules (→ 30-32). Store fuel, medicine and chlorine locked, out of sight and
 > reach, in their original labelled containers, never in drink bottles.
 >
 > **Two hazards dominate, and both kill fast and silently:**
@@ -97,7 +98,7 @@ everything in the mouth.{{/if}}
 | **Fire and burns** | Seconds | Anchored barriers; the hot-zone line; hot liquids kept away |
 | **Carbon monoxide** | Minutes | Tested alarms; heater and engine rules (→ 08-02) |
 | **Poisoning** (fuel, lye, chemicals, medicines, batteries) | Minutes to hours | Locked storage (floor) |
-| **Firearms** | Instant | Locked, unloaded, ammunition separate (floor, → 14-14) |
+| **Firearms** | Instant | Locked, unloaded, ammunition separate (floor, → 14-14); a firearm kept ready only in its locked box or on an adult's body ({{choice DC-31}}, → 30-32) |
 | **Falls** (stairs in the dark, ice, ladders) | Instant | Light, gates, traction (→ 10-01, → 11-06) |
 | **Cold and heat** | Minutes to hours | → 11-02, → 11-08, → 17-04 |
 | **Tools** | Instant | Locked; a work radius children stay out of (→ 16-01, → 16-06) |
@@ -228,7 +229,9 @@ grid-down household. **The answers are structural, not attentional:**
 {{/if}}{{#if has.pets}}- **Pets** around a toddler: food bowls, litter and the animals
   themselves (→ 20-09).
 {{/if}}{{#if has.firearms}}- **Firearms in the house:** locked, unloaded, ammunition separate,
-  every time (→ 14-14, → 29-11; AAP, Guns in the Home; NSSF, Project ChildSafe).
+  every time (→ 14-14, → 29-11; AAP, Guns in the Home; NSSF, Project ChildSafe). A firearm the
+  household keeps ready is locked in its box or on an adult's body, never anywhere else
+  ({{choice DC-31}}, → 30-32).
 {{/if}}- Any of these that apply later: the same rules.
 
 ## The room-by-room walk, at a child's eye level
@@ -262,7 +265,7 @@ changes, and put it on the drill calendar (→ 24-02, → 25-10).
 - [ ] **Car seats:** installed and tight, harness at each child's current size, no bulky coat
       under the harness (AAP; → 11-02, → 22-05).
 - [ ] **Matches and lighters:** counted, high and locked. They migrate.
-- [ ] **Firearms:** locked, unloaded, ammunition separate (→ 14-14).
+- [ ] **Firearms:** locked, unloaded, ammunition separate (→ 14-14); any firearm kept ready is in its locked box or on an adult's body (→ 30-32).
 - [ ] **What can the youngest reach this time that they could not last time?**
 
 ```

@@ -60,7 +60,6 @@ index = json.load(open(os.path.join(ROOT, 'figures/index.json')))
 MERGE = {
     'fig-generator-distance': ('fig-generator-siting', '30-01, 17-08'),
     'fig-panel-transfer-switch-interlock': ('fig-backfeed-path', '29-04'),
-    'fig-chopping-block-height': ('fig-splitting-stance', '16-06'),
 }
 PD_WANTED = {
     'fig-hemlock-leaf-veins': 'pd-plate only (USDA ARS / Forest Service line drawing or photo). Plant identification: never drawn.',

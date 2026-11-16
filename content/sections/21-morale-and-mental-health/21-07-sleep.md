@@ -2,7 +2,7 @@
 id: 21-07-sleep
 section: 21-morale-and-mental-health
 title: "Sleep in a hard time"
-version: 2
+version: 3
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -18,8 +18,9 @@ sources:
   - us-fda-fda-drug-safety-communication-diphenhydramine-bab442
   - dailymed-benadryl-diphenhydramine-drug-facts
   - fda-should-you-give-kids-medicine-for-coughs-and-colds
-related: [21-01-stress-and-panic, 21-02-long-haul-morale, 21-04-routine-and-structure, 21-05-conflict-between-adults, 20-03-routine-and-schooling, 20-08-kids-and-fear, 20-01-toddler-and-infant-needs, 12-15-mental-health-crisis, 08-01-heating-one-room, 08-02-carbon-monoxide-safety, 08-03-winterizing-the-home, 08-05-hypothermia-frostbite, 08-06-improvised-shelter-warmth, 08-08-wood-heat-operation, 08-09-portable-propane-heaters, 08-10-wick-kerosene-heaters, 11-01-cold-weather-layering, 11-02-keeping-kids-warm, 11-03-staying-dry, 12-03-burns, 30-02-dc01-unvented-heater-overnight, 30-10-dc09-infant-bed-sharing, 02-24-cl24-sleep-apnea-cpap]
-cards: [DC-01, DC-09]
+  - u-s-fire-administration-fema-fireplace-and-wood-stov-851c8d
+related: [21-01-stress-and-panic, 21-02-long-haul-morale, 21-04-routine-and-structure, 21-05-conflict-between-adults, 20-03-routine-and-schooling, 20-08-kids-and-fear, 20-01-toddler-and-infant-needs, 12-15-mental-health-crisis, 08-01-heating-one-room, 08-02-carbon-monoxide-safety, 08-03-winterizing-the-home, 08-05-hypothermia-frostbite, 08-06-improvised-shelter-warmth, 08-08-wood-heat-operation, 08-09-portable-propane-heaters, 08-10-wick-kerosene-heaters, 11-01-cold-weather-layering, 11-02-keeping-kids-warm, 11-03-staying-dry, 12-03-burns, 30-02-dc01-unvented-heater-overnight, 30-10-dc09-infant-bed-sharing, 02-24-cl24-sleep-apnea-cpap, 30-31-dc30-wood-stove-banked-overnight]
+cards: [DC-01, DC-09, DC-30]
 explainers: [EX-03]
 promote_when: [has.unvented_heater, is.cold_winters]
 photo_slots:
@@ -30,7 +31,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CDC 7+ hours, AAP firm flat surface and hypothermia lines verified; unsourced 9-10 h and 1-hour burn removed; diphenhydramine line re-sourced (FDA DSC, Drug Facts label, FDA under-2 page)." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CDC 7+ hours, AAP firm flat surface and hypothermia lines verified; unsourced 9-10 h and 1-hour burn removed; diphenhydramine line re-sourced (FDA DSC, Drug Facts label, FDA under-2 page). L8 (G30): wood-stove banking line now points to DC-30." }
 ---
 
 # Sleep in a hard time
@@ -155,8 +156,9 @@ option**, the card's conditions as a bedtime checklist:
 **If any box is unticked, the heater goes off before sleep** and the room runs on insulation, layers
 and body heat. That is the manuals' rule and the fallback, not a failure.
 
-**A vented wood stove** is different: banking the fire (→ 06-02, → 08-08) buys an unbroken night. Keep
-the carbon monoxide alarm in the room anyway.
+**A vented wood stove** is a different question: banking it could buy an unbroken night, but USFA's
+advice is to put the fire out before sleeping, so whether to bank it is a decision card:
+{{choice DC-30}} (→ 30-31, → 08-08). Keep the carbon monoxide alarm in the room either way.
 
 ## Children and sleep
 

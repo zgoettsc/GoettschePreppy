@@ -2,7 +2,7 @@
 id: 02-02-cl02-type-1-diabetes-pump-and-cgm
 section: 02-medical-conditions
 title: "CL-02. Type 1 diabetes with an insulin pump and a sensor"
-version: 2
+version: 3
 revised: 2026-11-16
 layer: condition
 danger_level: critical
@@ -51,7 +51,7 @@ condition: CL-02
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "FDA pump text re-checked word for word (Novolog spelling, headings split, list kept); FDA pump storage updated to current text (48 h unless device says otherwise); ADA weight-based difference noted; meds_for tables." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "FDA pump text re-checked word for word (Novolog spelling, headings split, list kept); FDA pump storage updated to current text (48 h unless device says otherwise); ADA weight-based difference noted; meds_for tables. L8 (G31): ADA disaster switching sheet (Aug 2020, re-read from archive and live PDF, identical) printed as published next to FDA's text, not reconciled; prescriber box now covers both." }
 ---
 
 # CL-02. Type 1 diabetes with an insulin pump and a sensor
@@ -77,8 +77,8 @@ rules there apply in full.
 >   meter and strips, and the prescriber's written fallback plan. A pump household without them
 >   is one broken device away from DKA.
 > - **This page never calculates or converts a dose.** The fallback plan is the prescriber's,
->   written in part 7 below. FDA's emergency switching text is printed there as published,
->   for the prescriber to confirm.
+>   written in part 7 below. FDA's and ADA's emergency switching texts are printed there as
+>   published, for the prescriber to confirm.
 
 ## Do this now: the device has failed
 
@@ -236,7 +236,8 @@ two documents do not give the same amounts**: FDA's pump section replaces the pu
 for unit, while the ADA sheet, written for health professionals, works from body weight instead.
 That disagreement is one more reason to have the prescriber write the plan now. Both documents
 are bound behind this page in the Large download. **This binder does not convert
-doses**; FDA's published text follows, for your prescriber to confirm.
+doses**; FDA's published text follows, then ADA's, side by side and not reconciled, for your
+prescriber to confirm.
 
 ### As published, for your prescriber to confirm
 
@@ -305,8 +306,104 @@ out any amount from it. Brand names are FDA's examples.
 > insulins begin working more rapidly than regular insulin and are to be injected no more than
 > 15 minutes before the start of each meal to avoid dangerously low blood sugar levels."
 
-**Prescriber, please read the FDA text above and confirm it for this person, or write what to
-do instead.** Person: ____________________
+**ADA's sheet, printed next to FDA's and not reconciled with it.** The American Diabetes
+Association's sheet is written **for health care professionals**. It is printed here **exactly
+as published** (American Diabetes Association, Switching Between Insulin Products in Disaster
+Response Situations; approved by the American Diabetes Association, Endocrine Society and JDRF,
+updated August 2020). Where it and FDA give different amounts, **neither is this binder's
+answer**: show both to the prescriber. Brand names and worked examples are ADA's.
+
+> **ADA:** "IMPORTANT: These recommendations are intended to be used only for disaster response
+> situations when patients are not on their usual schedule, may have limited monitoring
+> capabilities, or don't have access to their prescribed insulins.
+>
+> - Individuals with type 1 diabetes have priority for receiving insulin. Even a few hours of
+>   interrupted insulin therapy can result in life-threating diabetic ketoacidosis (DKA).
+> - These guidelines do not replace clinical judgment and are intended to assist with short-term
+>   diabetes management until the patient can resume their prescribed care regimen.
+> - A reduction in insulin dose by 20% is recommended when switching to another insulin under
+>   disaster response situations to avoid hypoglycemia. This may result in short-term, mild
+>   hyperglycemia until the patient is back to a normal routine and insulin regimen.
+> - Consultation with an experienced healthcare professional is advised for patients with
+>   complicated insulin needs, e.g. pregnancy, dialysis, insulin pump, or concentrated insulins
+>   (i.e., U200, U300, and U500)."
+
+> **ADA, Insulin pump:** "Insulin pump patients may only substitute Humalog®, Novolog®, Fiasp®,
+> Apidra®, Admelog® or regular insulin in the pump
+>
+> - Substitutions cannot include an intermediate-acting insulin or a basal insulin analog or
+>   concentrated insulin (i.e., U200, U300, or U500)
+> - Individuals with type 1 diabetes have priority for receiving insulin. Even a few hours of
+>   interrupted insulin therapy can result in life-threating Diabetic Ketoacidosis (DKA). If
+>   patient does not have a back-up plan, consult with a healthcare professional experienced in
+>   insulin pump management
+> - When the insulin pump cannot be used, basal insulin is the primary need, with rapid- or
+>   short-acting insulin as circumstances permit:
+>   - Give 0.3 units/kg of a basal insulin analog as a once daily dose
+>     - Example: patient weighs 60 kg, give 18 units of a basal insulin analog once daily
+>   - If rapid or short acting insulin is available, give 0.3 units/kg divided by 6 at each meal
+>     - Example: patient weighs 60 kg, give 3 units of rapid or short-acting insulin with each
+>       meal"
+
+> **ADA, Rapid-acting and Regular insulins:** "RAPID-ACTING AND REGULAR INSULINS are typically
+> given before meals to regulate the rise in glucose after a meal.
+>
+> - Rapid-acting insulins should be injected no more than 15 minutes before the start of a meal
+> - Regular insulin can be injected up to 30 minutes before the start of a meal
+>
+> IF PATIENT IS TAKING THIS: Rapid-Acting Insulins such as: Humalog® (insulin lispro U-100 &
+> U-200); Admelog® (insulin lispro U-100); Novolog® or Fiasp® (insulin aspart U-100); Apidra®
+> (insulin glulisine U-100). Short-Acting Insulins: Regular insulin brand name examples:
+> Humulin®R; Novolin®R; ReliOn R from Walmart.
+>
+> INTERCHANGE RECOMMENDATIONS:
+> - Rapid- and Short-acting insulins may be interchanged with a 20% reduction in the dose
+>   - Example: Humalog® 10 units before meals can be switched to Regular 8 units before meals
+>     (80% of 10 units = 8 units)
+>   - Example: Regular 10 units before meals can be switched to Novolog® 8 units before meals
+>     (80% of 10 units = 8 units)"
+
+> **ADA, Intermediate-acting and basal insulins:** "Intermediate-acting and basal insulin analogs
+> are typically given once or twice daily to provide basal insulin needs (to prevent high
+> glucose between meals and overnight).
+>
+> IF PATIENT IS TAKING THIS: Intermediate-Acting Insulins: NPH insulin brand name examples:
+> Humulin®N; Novolin®N; ReliOn NPH from Walmart.
+>
+> INTERCHANGE RECOMMENDATIONS: Intermediate-acting insulins may be interchanged with another
+> intermediate-acting insulin or basal insulin analog with a 20% reduction in dose
+>
+> - NPH ONCE daily to a basal insulin analog
+>   - Example: NPH 20 units daily can be switched to Levemir® 16 units daily
+> - NPH TWICE daily to a basal insulin analog
+>   - Add all the units of NPH injected per day and give 80% as a single dose of a basal insulin
+>     analog daily
+>     - Example: NPH 34 units AM and 16 units PM can be switched to Lantus® 40 units daily (80%
+>       of 50 units daily = 40 units)
+>
+> IF A PATIENT IS TAKING THIS: Basal insulin analogues such as: Levemir® (detemir U-100);
+> Lantus®, Basalgar® (glargine U-100); Toujeo® (glargine U-300); Tresiba® (degludec U-100 &
+> U-200).
+>
+> INTERCHANGE RECOMMENDATIONS: Basal insulin analogs may be interchanged with NPH with a 20%
+> reduction in dose and divided based on predicted meal frequency
+>
+> - If eating 2 meals per day, split the new dose into ½ NPH with first meal of the day and ½
+>   NPH with second meal of the day
+> - Basal insulin analogs (with the exception of Tresiba®) may be interchanged with another basal
+>   insulin analog with a 20% reduction in dose
+> - Tresiba® (80 units or less) may be interchanged with another basal insulin analog with a 20%
+>   reduction in dose
+> - Tresiba® (greater than 80 units) may be interchanged with another basal insulin analog with a
+>   20% reduction in dose, but the other basal insulin must be split into two equal doses given
+>   12 hours apart.
+>   - Example: Tresiba® 100 units daily can be switched to Basalgar® 40 units (80% of 100 units
+>     = 80 units/2) every 12 hours"
+
+> **ADA:** "THE RECOMMENDATIONS DO NOT REPLACE CLINICAL JUDGMENT"
+
+**Prescriber, please read the FDA and ADA texts above and confirm one for this person, or write
+what to do instead.** Person: ____________________
 Agree as printed ☐  Change as written here: _________________________________________________
 _____________________________________________________________________________________________
 Prescriber: ____________________ Initials: ______ Date: __________

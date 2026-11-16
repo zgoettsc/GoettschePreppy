@@ -2,7 +2,7 @@
 id: 02-15-cl15-kidney-disease-and-dialysis
 section: 02-medical-conditions
 title: "CL-15. Kidney disease and dialysis"
-version: 2
+version: 3
 revised: 2026-11-16
 layer: condition
 danger_level: critical
@@ -61,7 +61,7 @@ condition: CL-15
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CMS 2026 dialysis guide read: 3-day limit and diet stated honestly; potassium/uraemia signs re-cited to MedlinePlus; FDA lifesaving-drug flood exception; meds_for tables." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CMS 2026 dialysis guide read: 3-day limit and diet stated honestly; potassium/uraemia signs re-cited to MedlinePlus; FDA lifesaving-drug flood exception; meds_for tables. L8 (G31): CMS 3-Day Emergency Diet (plan, shopping list, do-not-include list, tips, Days One to Three) printed in full as published in part 7 from the June 2026 v2.3 PDF, with a team-confirmation box." }
 ---
 
 # CL-15. Kidney disease and dialysis
@@ -79,7 +79,8 @@ are not on dialysis have a longer clock; this module covers them too.
 > **SAFETY**
 > - **The emergency diet and fluid limit must come from the person's own dialysis team.** Limits
 >   differ from person to person, and the wrong ones can kill through fluid on the lungs or high
->   potassium. This page prints the worksheet (part 7), never the numbers.
+>   potassium. Part 7 prints the worksheet and the CMS 3-Day Emergency Diet as published,
+>   for the team to confirm or change; this page never works out a person's own numbers.
 > - **Never run a generator, charcoal, or any engine indoors, in a garage, or near an open
 >   window.** Carbon monoxide kills in minutes with no warning; home dialysis machines and
 >   cyclers tempt people to run a generator close to the house (floor, → 30-01).
@@ -165,7 +166,8 @@ dehydration, vomiting and diarrhoea, or medicines that strain the kidneys (part 
 - **The emergency diet**, which limits fluid, potassium, salt and protein wastes to slow the
   build-up. CMS publishes a 3-Day Emergency Diet with a shopping list for six days of food, and
   says to review it with the unit's dietitian, because the right diet differs from person to
-  person (CMS, Preparing for Emergencies). Use the version the team approves.
+  person (CMS, Preparing for Emergencies). It is printed in full in part 7, as published. Use
+  the version the team approves.
 - **Count every liquid.** NIDDK says any food that is liquid at room temperature counts toward
   the fluid limit, including soup, gelatin, pudding and ice cream, and that most fruits and
   vegetables contain water too (NIDDK, Eating & Nutrition for Hemodialysis). CMS suggests hard
@@ -256,6 +258,200 @@ the ones for this condition.
 > ({{ contacts.utility.electric.provider }}, {{ contacts.utility.electric.phone }}). Keep a
 > copy of the latest treatment orders, lab results and access type on → 25-09. If on PD, keep
 > the supply company's number and the delivery schedule.
+
+### The CMS 3-Day Emergency Diet, as published, for the dialysis team to confirm
+
+The Centers for Medicare & Medicaid Services (CMS) publishes this plan in **Preparing for
+Emergencies: A Guide for People on Dialysis** (version 2.3, June 2026, pages 16 to 25). It is
+printed here **exactly as published**, so that you can take it to the unit's dietitian **now**
+and have them confirm it or change it for this person. CMS itself says to review it with the
+dietitian. It is not this binder's advice, and the binder does not change any amount in it.
+Brand names are CMS's examples.
+
+> **CMS, 3-Day Emergency Diet Plan:** "Hemodialysis takes some of the water and wastes out of
+> your blood. Waste and water build up between treatments. When you get three or more
+> treatments a week, this build-up should not cause a problem. When you can't get a treatment,
+> the extra water and waste in your body can cause problems. When you can't get your treatments,
+> you will need to follow a special, strict diet to limit buildup of water, protein wastes, and
+> potassium.
+>
+> The 3-Day Emergency Diet Plan will help you follow an emergency diet. This diet does not take
+> the place of dialysis, but you can reduce the waste that builds up in your blood if you follow
+> the plan and change what you eat. This may save your life. Review the plan with your facility
+> dietitian to see if you need to make changes based on your own personal needs. Ask questions
+> before an emergency. If you are on peritoneal dialysis and can't do your treatments, this diet
+> may apply to you, too.
+>
+> In an emergency or disaster situation, you should do everything you can to get your regular
+> dialysis treatments. If you miss one or more treatments, follow the 3-Day Emergency Diet Plan
+> until you can get treatment. You should always try to get dialysis within three days of your
+> last treatment.
+>
+> The best way to get ready for an emergency is to plan before one happens. Collect the foods on
+> the 3-Day Emergency Diet Shopping List. Keep them someplace close in your home so you can get
+> your emergency food easily. The list allows for six days of food and water so the 3-Day
+> Emergency Diet can be repeated a second time if needed.
+>
+> In an emergency situation, eat fresh foods first, while you have them. If you have diabetes,
+> avoid the sweets in this plan. But do have some high sugar foods like hard candies on hand in
+> case your sugar is low.
+>
+> **Pediatric Dialysis Diet Plan:** Talk to your doctor and dietitian about what to feed infants,
+> children, and teens who are on dialysis. Children's food will need to be adjusted for their
+> age and weight."
+
+**CMS, 3-Day Emergency Diet Shopping List:** "This shopping list is for six days of food and
+water for the kidney patient, so the 3-Day Emergency Diet can be repeated a second time if
+needed. Review this list with your dietitian to tailor it for your needs and local availability."
+
+*Drinks*
+
+| What to Buy | How Much to Buy |
+|---|---|
+| Distilled or bottled water | 1 to 2 gallons |
+| Dry milk or evaporated milk | 3 packages of dry milk or 4 cans of evaporated milk (8 oz. each) |
+| Cranberry, apple, or grape juice | 6 cans or boxes (4 oz. each) |
+
+*Food*
+
+| What to Buy | How Much to Buy |
+|---|---|
+| Cold cereal. No bran, granola, or cereal with dried fruit or nuts. | 6 single-serving boxes, or 1 box |
+| Fruit or "fruit cups" with pears, peaches, mandarin oranges, mixed fruit, applesauce, or pineapple packed in water or juice. No heavy syrup, raisins, or dried fruit. | 12 cans or individual cups (4 oz. each). *Be sure to drain liquid from fruit or count toward daily fluids. |
+| Low sodium vegetables, such as asparagus, carrots, green beans, peas, corn, yellow squash, or wax beans. | 6 cans (8 oz. each). *Be sure to drain liquid from vegetables or count toward daily fluids. |
+| No dried beans such as pinto, navy, black, ranch style, or kidney beans. No potatoes or tomatoes. | — |
+| Low sodium or no-salt-added tuna, crab, chicken, salmon, or turkey | 6 cans (3 or 4 oz. each) |
+| Unsalted peanut butter or almond butter | 1 jar |
+| Mayonnaise | 3 small jars (or 8 to 12 single-serve foil-wrapped packs and discard once opened) |
+| Jelly (sugar-free if you have diabetes) | 1 small jar |
+| Vanilla wafers, graham crackers, or plain unsalted crackers | 1 box |
+| Sugar-free candy, such as sourballs, hard candy, jelly beans, or mints | 1 package |
+| Sugar-free chewing gum | 1 jumbo pack |
+
+*Foods That Will Spoil*
+
+| What to Buy | How Much to Buy |
+|---|---|
+| Dry milk | 3 packages |
+| White bread. *Keep frozen, so always available when needed. | 1 loaf |
+
+"Note: Use before expiration date and replace with fresh items. Discard after expiration date."
+
+*Options to Season Your Food*
+
+| What to Buy | How Much to Buy |
+|---|---|
+| Olive oil or vegetable oil | 1 small bottle |
+| Balsamic or flavored vinegar | 1 small bottle |
+| Salt-free seasonings, spices, and dried herbs such as cinnamon, dill, oregano, rosemary, garlic powder, and onion powder | — |
+
+*Sweets*
+
+| What to Buy | How Much to Buy |
+|---|---|
+| Sourball candy, hard candy, jelly beans, or mints | 1 package |
+| Honey | 1 small jar |
+| White sugar | 1 small box granulated or packets |
+| Marshmallows (optional) | — |
+
+"Note: If you have diabetes, avoid the sweets in this plan; but keep some high-sugar foods (hard
+candy) on hand in case your sugar is low. Speak to your dietitian."
+
+"Do not include these foods in your 3-day emergency diet:
+- Sports drinks and drinks with phosphates
+- Powdered drink mixes other than powdered milk
+- Foods high in potassium such as:
+  - Dried beans (e.g., pinto, navy, black, ranch style, or kidney beans)
+  - Potatoes
+  - Tomatoes
+  - Sports drinks (e.g., Gatorade)"
+
+> **CMS, 3-Day Emergency Diet:** "If there is an emergency and you think you may have to miss
+> your dialysis treatment, start the 3-Day Emergency Diet right away. It won't harm you to start
+> it sooner than you need to.
+>
+> Tips
+> - Use fresh foods first, if you have them.
+> - Once you open a can or a frozen item, throw out the opened item if you can't keep it cold or
+>   use it within four hours.
+> - After losing power, it is safe to use food in the freezer as long as there are ice crystals
+>   in the food.
+> - You can freeze bread for three months in a sealed bag.
+> - Speak to your dietitian if you are on a gluten-free diet.
+> - You may want to have a mix of sugar candy and unsweetened candy.
+> - If you have diabetes, avoid the sweets in this diet plan. Check your blood sugar to see if
+>   you need a snack. Have some high-sugar content foods like hard candies in case you go "low"
+>   with too little sugar in your body.
+> - If you have diabetes, speak to your dietitian for snack ideas.
+> - Water is the best choice to drink.
+> - No sports drinks or beverages that contain phosphate.
+>
+> Restrict fluid intake: A fluid plan will help you avoid trouble with breathing and swelling.
+> Speak to your healthcare team about how much fluid you can have. Try taking medications with
+> applesauce to reduce fluid intake.
+> - Remember that all fruits and vegetables contain water.
+>
+> Tips to help reduce your thirst
+> - Suck on hard candy
+> - Chew gum
+> - Limit salt intake
+> - Have a mix of sugared candy and unsweetened candy
+> - Rinse your mouth out with mouthwash"
+
+**CMS, Day One (example).** "Drink no more than 4 oz. of water each time you take your medicine,
+and remember to count this toward your daily fluid allowance."
+
+| Meal | As published |
+|---|---|
+| Breakfast | Cereal and fruit: ½ cup milk or mix ¼ cup evaporated milk with ¼ cup distilled water, from sealed containers; 1 serving of cereal (No bran. No granola. No cereal with dried fruits and nuts.); 1 tbsp. sugar (optional); ¼ cup (2 oz.) fruit from a can or jar, drained |
+| Morning Snack (optional) | 5 vanilla wafers or 1½ squares graham crackers; 2 tbsp. peanut butter; 10 hard candies or sourballs (People with diabetes should have sugar-free candies.) |
+| Lunch | Peanut or almond butter and jelly sandwich: 2 slices of white bread; 2 tbsp. unsalted peanut butter or almond butter 2 tbsp. jelly or sugar-free jelly; ½ cup canned or jarred fruit, drained; ½ cup (4 oz.) water (or beverage from shopping list) |
+| Afternoon Snack (optional) | For people who do not have diabetes: 5 vanilla wafers or 1½ squares graham crackers; 2 tbsp. peanut butter; ½ cup applesauce. For people who have diabetes: ½ cup applesauce |
+| Dinner | Chicken sandwich: 2 slices of white bread; ½ can (2 oz.) chicken with 2 tbsp. mayonnaise; ½ cup canned vegetables, drained; ½ cup cranberry juice |
+| Evening Snack (optional) | For people who do not have diabetes: 10 jelly beans; 5 vanilla wafers or 1½ squares graham crackers. For people who have diabetes: 1 slice of bread; 1 oz. (2 tbsp.) of protein (peanut butter, almond butter, chicken, or tuna) |
+
+"Note: Once you open a can or a frozen item, throw out the opened item if you can't keep it cold
+or use it within four hours."
+
+**CMS, Day Two (example).** "Drink no more than 4 oz. of water each time you take your medicine,
+and remember to count this toward your daily fluid allowance."
+
+| Meal | As published |
+|---|---|
+| Breakfast | Cereal and fruit: ½ cup milk or mix ¼ cup evaporated milk with ¼ cup distilled water, from sealed containers; 1 serving of cereal (No bran. No granola. No cereal with dried fruits and nuts.); 1 tbsp. sugar (optional); ¼ cup (2 oz.) fruit from a can or jar, drained |
+| Morning Snack (optional) | ½ cup applesauce; 10 jelly beans (People with diabetes should have sugar-free jelly beans.) |
+| Lunch | Chicken sandwich: 2 slices of white bread; ¼ can (1 oz.) chicken with 1 tbsp. mayonnaise; ½ cup canned or jarred fruit, drained; ½ cup (4 oz.) water |
+| Afternoon Snack (optional) | 10 mints (People with diabetes should have sugar-free mints.); ½ cup applesauce |
+| Dinner | Tuna sandwich: 2 slices of white bread; ½ can (2 oz.) tuna with 1 to 2 tbsp. mayonnaise/oil; ½ cup canned vegetables, drained; ½ cup cranberry juice |
+| Evening Snack (optional) | For people who do not have diabetes: 5 vanilla wafers or 1½ squares graham crackers; 10 hard candies. For people who have diabetes: 1 slice of bread; 1 oz. (2 tbsp.) of protein (peanut butter, almond butter, chicken, or tuna) |
+
+"Note: Once you open a can or a frozen item, throw out the opened item if you can't keep it cold
+or use it within four hours."
+
+**CMS, Day Three (example).** "Drink no more than 4 oz. of water each time you take your medicine
+and remember to count this toward your daily fluid allowance."
+
+| Meal | As published |
+|---|---|
+| Breakfast | Cereal and fruit: ½ cup milk or mix ¼ cup evaporated milk with ¼ cup distilled water, from sealed containers; 1 serving of cereal (No bran. No granola. No cereal with dried fruits and nuts.); 1 tbsp. sugar, optional; ¼ cup (2 oz.) canned or jarred fruit, drained |
+| Morning Snack (optional) | 5 vanilla wafers or 1½ squares graham crackers; 10 hard candies (People with diabetes should have sugar-free candies.) |
+| Lunch | Peanut or almond butter and jelly sandwich: 2 slices of white bread; 2 tbsp. unsalted peanut or almond butter 2 tbsp. jelly or sugar-free jelly; ½ cup canned or jarred fruit, drained; ½ cup (4 oz.) juice |
+| Afternoon Snack (optional) | ½ cup applesauce; 10 jelly beans (People with diabetes should have sugar-free jelly beans.) |
+| Dinner | Salmon sandwich: 2 slices of white bread; ½ can (2 oz.) salmon with 1 to 2 tbsp. mayonnaise/oil; ½ cup canned vegetables, drained; ½ cup water |
+| Evening Snack (optional) | For people who do not have diabetes: 5 vanilla wafers or 1½ squares graham crackers. For people who have diabetes: 1 slice of bread; 1 oz. (2 tbsp.) of protein (peanut butter, almond butter, chicken, or tuna) |
+
+"Note: Once you open a can or a frozen item, throw out the opened item if you can't keep it cold
+or use it within four hours."
+
+(CMS, Preparing for Emergencies: A Guide for People on Dialysis, version 2.3, June 2026. In the
+tables, items CMS prints as separate bullet points are joined with semicolons; wording and
+amounts are unchanged.)
+
+**Dialysis team, please read the CMS plan above and confirm it for this person, or write what to
+change** (fluid allowance, potassium, diabetes, gluten-free, a child on dialysis).
+Agree as printed ☐  Change as written here: _________________________________________________
+_____________________________________________________________________________________________
+Dietitian or team member: ____________________ Date: __________
 
 ## 8. Sourcing when the pharmacy is closed
 

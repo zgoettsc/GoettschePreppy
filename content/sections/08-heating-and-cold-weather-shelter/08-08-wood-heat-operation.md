@@ -2,7 +2,7 @@
 id: 08-08-wood-heat-operation
 section: 08-heating-and-cold-weather-shelter
 title: "Running wood heat that actually heats"
-version: 2
+version: 3
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -34,7 +34,8 @@ related:
   - 29-12-ex12-extinguishers-blankets-and-alarms
   - 30-01-the-floors
   - 30-22-dc21-uninspected-fireplace-or-stove
-cards: [DC-21]
+  - 30-31-dc30-wood-stove-banked-overnight
+cards: [DC-21, DC-30]
 explainers: [EX-01, EX-03, EX-12]
 promote_when: [has.wood_stove, has.fireplace]
 photo_slots:
@@ -46,7 +47,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Empty EPA stub key replaced (R3); NFPA 211 annual inspection via CSIA FAQ; DOE (blocked) 10% replaced by MU G5450; NFPA 3-ft kid zone replaced by USFA 3 ft; ash rule per USFA 10 ft; USFA put-out-before-sleep stated; creosote causes per CSIA." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Empty EPA stub key replaced (R3); NFPA 211 annual inspection via CSIA FAQ; DOE (blocked) 10% replaced by MU G5450; NFPA 3-ft kid zone replaced by USFA 3 ft; ash rule per USFA 10 ft; USFA put-out-before-sleep stated; creosote causes per CSIA. L8 (G30): overnight section now points to DC-30 (→ 30-31); USFA rule kept as the agency rule." }
 ---
 
 # Running wood heat that actually heats
@@ -121,16 +122,21 @@ What an open fireplace is still good for:
   when loading, because CO can be released into the home (EPA, Best Wood-Burning Practices). Close it only when the ashes are truly out, with
   the CO alarm working.
 
-## Overnight: burn down, don't smoulder
+## Overnight: out, or banked by the rules
 
 **USFA's advice is to put the fire out before you go to sleep or leave the house** (USFA, Fireplace
-and Wood Stove Safety). Loading the stove full and choking the air for an "all-nighter" is the
-opposite: CSIA names overloading the firebox for a longer burn and closing the air down too far as
-causes of creosote buildup (CSIA, Preventing Chimney Fires), and it adds CO risk while everyone
-sleeps. So **let the last load burn down before sleep, never choke it, leave the damper open while
-any coals are live, and take the night on bedding:** bags, wool, hot-water bottles, shared warmth
-(→ 08-06). A well-warmed room and real bedding ride out the night. Relight in the morning
-(→ 06-02).
+and Wood Stove Safety). Some stove makers' manuals describe an overnight burn instead. Whether the
+fire stays banked while people sleep is the household's decision card: {{choice DC-30}} (→ 30-31).
+Either way, a stove loaded full with the air choked for an "all-nighter" is the dangerous version:
+CSIA names overloading the firebox for a longer burn and closing the air down too far as causes of
+creosote buildup (CSIA, Preventing Chimney Fires), and it adds CO risk while everyone sleeps.
+
+- **Fire out:** let the last load burn down before sleep, never choke it, leave the damper open
+  while any coals are live, and take the night on bedding: bags, wool, hot-water bottles, shared
+  warmth (→ 08-06). Relight in the morning (→ 06-02).
+- **Banked:** only as the card's rules set out: a closed stove whose manual describes it, dry wood,
+  never below the maker's minimum air setting, damper open, tested CO and smoke alarms in the room,
+  and an adult who checks during the night.
 
 ## Ashes
 

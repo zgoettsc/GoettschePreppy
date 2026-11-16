@@ -2,7 +2,7 @@
 id: 08-04-emergency-heat-options
 section: 08-heating-and-cold-weather-shelter
 title: "Emergency heat options and their risks"
-version: 2
+version: 3
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -56,7 +56,8 @@ related:
   - 07-01-cooking-on-an-open-fire
   - 08-05-hypothermia-frostbite
   - 11-01-cold-weather-layering
-cards: [DC-01, DC-02, DC-07, DC-09, DC-20, DC-21]
+  - 30-31-dc30-wood-stove-banked-overnight
+cards: [DC-01, DC-02, DC-07, DC-09, DC-20, DC-21, DC-30]
 explainers: [EX-01, EX-02, EX-03, EX-04, EX-12, EX-14]
 promote_when: [is.cold_winters]
 photo_slots:
@@ -68,7 +69,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Unsourced blower watts, burst minutes and 1,500 W removed (method kept); MU G1999 (404) replaced by the two manuals; Buddy hose/1-lb rule stated as the manual does; 3 ft now USFA; CPSC sleeping rule added." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Unsourced blower watts, burst minutes and 1,500 W removed (method kept); MU G1999 (404) replaced by the two manuals; Buddy hose/1-lb rule stated as the manual does; 3 ft now USFA; CPSC sleeping rule added. L8 (G30): wood stove row points to DC-30 for overnight banking." }
 ---
 
 # Emergency heat options and their risks
@@ -115,7 +116,7 @@ total.{{/if}}{{#if has.generator}} Generator: {{ gear.generator_watts }} running
 | **Portable propane heater sold for indoor use** (Buddy family) | Good | Yes, by its manual | CO, low oxygen, fire, propane leak | Oxygen-depletion and tip-over shutoffs; tank outdoors (→ 08-09) |
 | **Wick kerosene heater sold for indoor use** | High | Yes, by its manual | CO, fumes, fire, **wrong fuel** | The common model's manual lists a tip-over shutoff, no oxygen-depletion sensor (→ 08-10) |
 | **Ducted diesel or kerosene heater** | High | Yes, if installed with intake and exhaust outside | CO if the install leaks | → 08-07 |
-| **Wood stove or fireplace** (installed, vented) | High (stove); low (open fireplace) | Yes | Chimney fire; CO if the flue is blocked | Inspect first: {{choice DC-21}} (→ 30-22; → 08-08) |
+| **Wood stove or fireplace** (installed, vented) | High (stove); low (open fireplace) | Yes | Chimney fire; CO if the flue is blocked | Inspect first: {{choice DC-21}} (→ 30-22; → 08-08). Banked while people sleep: {{choice DC-30}} (→ 30-31) |
 | **Outdoor fire pit or outdoor fireplace** | High, outdoors | **No** | CO, fire | Cook and boil there; it is not house heat (→ 07-01) |
 | **Generator running an electric heater** | Moderate | **Generator outdoors only** | CO; burns fuel fast | Usually a poor use of fuel (→ 09-01) |
 | **Candles and tea-light "heaters"** | Negligible | A decision card | **Fire** | Not a heat source (below) |

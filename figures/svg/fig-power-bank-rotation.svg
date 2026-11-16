@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 344" width="360" height="344" color="#1b1b1b" font-family="Helvetica, Arial, sans-serif" font-size="13" class="gpfig fig-power-bank-rotation" aria-label="Power-bank rotation">
+<title>Power-bank rotation</title>
+<path d="M233.1,70.0 A96,96 0 0 1 275.8,144.0" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="275.4" y1="139.2" x2="275.2" y2="137.0" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M275.8,144.0 L278.7,136.7 L271.7,137.3 Z" fill="currentColor" stroke="none"/>
+<path d="M222.7,236.0 A96,96 0 0 1 137.3,236.0" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="141.7" y1="238.0" x2="143.7" y2="238.9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M137.3,236.0 L142.2,242.1 L145.1,235.7 Z" fill="currentColor" stroke="none"/>
+<path d="M84.2,144.0 A96,96 0 0 1 126.9,70.0" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="122.9" y1="72.8" x2="121.2" y2="74.0" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M126.9,70.0 L119.2,71.1 L123.2,76.9 Z" fill="currentColor" stroke="none"/>
+<rect x="118.0" y="27.0" width="124" height="54" rx="6" fill="#1e6fc0" fill-opacity="0.1" stroke="#1e6fc0" stroke-width="1.6"/>
+<text x="180.0" y="44.0" font-size="11" text-anchor="middle" font-weight="bold" fill="currentColor">IN USE</text>
+<text x="180.0" y="57.0" font-size="11" text-anchor="middle" fill="currentColor">pocket, phone</text>
+<rect x="201.1" y="171.0" width="124" height="54" rx="6" fill="#d97a00" fill-opacity="0.1" stroke="#d97a00" stroke-width="1.6"/>
+<text x="263.1" y="188.0" font-size="11" text-anchor="middle" font-weight="bold" fill="currentColor">CHARGING</text>
+<text x="263.1" y="201.0" font-size="11" text-anchor="middle" fill="currentColor">station, solar,</text>
+<text x="263.1" y="214.0" font-size="11" text-anchor="middle" fill="currentColor">running vehicle</text>
+<rect x="34.9" y="171.0" width="124" height="54" rx="6" fill="#2e7d32" fill-opacity="0.1" stroke="#2e7d32" stroke-width="1.6"/>
+<text x="96.9" y="188.0" font-size="11" text-anchor="middle" font-weight="bold" fill="currentColor">FULL RESERVE</text>
+<text x="96.9" y="201.0" font-size="11" text-anchor="middle" fill="currentColor">set aside</text>
+<text x="180" y="140" font-size="10.5" text-anchor="middle" font-style="italic" fill="currentColor">empty → charging</text>
+<text x="180" y="154" font-size="10.5" text-anchor="middle" font-style="italic" fill="currentColor">full → reserve</text>
+<text x="180" y="168" font-size="10.5" text-anchor="middle" font-style="italic" fill="currentColor">reserve → use</text>
+<text x="8" y="288" font-size="11.5" font-weight="bold" fill="currentColor">Number each bank. Tape: number + date filled.</text>
+<text x="8" y="303" font-size="11.5" fill="currentColor">Only one bank? Keep it full; use it only for the binder</text>
+<text x="8" y="318" font-size="11.5" fill="currentColor">device and medical devices.</text>
+<text x="354" y="338" font-size="10.5" text-anchor="end" fill="currentColor" opacity="0.75">Diagram, not to scale</text>
+</svg>

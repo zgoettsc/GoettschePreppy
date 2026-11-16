@@ -2,7 +2,7 @@
 id: 14-14-safe-storage-and-child-access
 section: 14-security-and-defense
 title: "Safe storage and keeping firearms from children"
-version: 2
+version: 3
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -10,8 +10,8 @@ phase: [A, B, C]
 tags: [firearms, safe storage, children, lockbox, gun safe, cable lock, ammunition, visitors, teaching, combination]
 derived_from: [14-14-safe-storage-and-child-access]
 sources: [american-academy-of-pediatrics-healthychildren-org-g-a22b8d, cpsc-fortress-biometric-gun-safe-recall-2023, nssf-national-shooting-sports-foundation-project-chi-7e7bc9, nssf-national-shooting-sports-foundation-firearm-saf-646b4a]
-related: [29-11-ex11-firearms-basics, 30-01-the-floors, 14-04-caliber-roles-and-inventory, 14-07-ammunition-storage, 14-11-defensive-use-of-force, 14-12-layered-defense, 14-15-dry-practice-doctrine, 14-03-opsec, 20-02-child-safety-offgrid, 20-04-teaching-kids-the-plan, 22-05-kit-vehicle, 23-02-master-consumables-table, 19-01-document-grab-kit, 30-25-dc24-children-and-dangerous-jobs]
-cards: [DC-12, DC-24]
+related: [29-11-ex11-firearms-basics, 30-01-the-floors, 14-04-caliber-roles-and-inventory, 14-07-ammunition-storage, 14-11-defensive-use-of-force, 14-12-layered-defense, 14-15-dry-practice-doctrine, 14-03-opsec, 20-02-child-safety-offgrid, 20-04-teaching-kids-the-plan, 22-05-kit-vehicle, 23-02-master-consumables-table, 19-01-document-grab-kit, 30-25-dc24-children-and-dangerous-jobs, 30-32-dc31-firearm-readiness]
+cards: [DC-12, DC-24, DC-31]
 explainers: [EX-11]
 promote_when: [has.firearms, has.child]
 photo_slots: []
@@ -21,7 +21,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CPSC biometric-safe recall stated accurately; AAP attributions matched to the archived page; floor and no-secrets rule intact." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CPSC biometric-safe recall stated accurately; AAP attributions matched to the archived page; floor and no-secrets rule intact. L8 (G29): readiness choice now DC-31 (→ 30-32); carried-on-body rules added; phase B ready firearm follows the card." }
 ---
 
 # Safe storage and keeping firearms from children
@@ -44,9 +44,10 @@ household. New to firearms? Read → 29-11 first.
    tonight, with a cable lock if nothing else (NSSF Project ChildSafe).
 2. **The safest storage is unloaded, locked, with ammunition locked separately** (AAP, Guns in
    the Home). Start there.
-3. **If the household keeps one firearm ready for defence**, it lives in a **quick-access
-   lockbox** (keypad or fingerprint), fixed down, out of sight and reach. A loaded firearm in a
-   nightstand drawer is never a plan.
+3. **How the household keeps one firearm ready**, if it does (everything in the safe, one in a
+   quick-access lockbox, or one carried on an adult's body), is a decision card:
+   {{choice DC-31}} (→ 30-32). Whichever it chooses, a loaded firearm in a nightstand drawer is
+   never a plan.
 4. **Lock ammunition separately** from firearms (→ 14-07).
 5. **Write combinations and codes by hand**, on paper kept sealed and away from children and
    visitors. **Never put a safe combination, a lockbox code, a serial number or where firearms
@@ -64,13 +65,16 @@ firearms but no safe: a lock for every firearm comes before any other firearms p
   "locked" tonight while you buy better hardware. Many police departments hand out free cable
   locks through Project ChildSafe (NSSF).
 - **A firearm kept ready for defence is a trade-off.** The safest storage is unloaded and locked
-  with ammunition apart; a household that keeps one firearm ready accepts more risk for speed.
-  If you do, the only form that still meets the floor is a **quick-access lockbox**: keypad or
+  with ammunition apart; a household that keeps one firearm ready accepts more risk for speed
+  ({{choice DC-31}}, → 30-32). The two forms that still meet the floor are a firearm on an
+  adult's body (below) and a **quick-access lockbox**: keypad or
   fingerprint, with any backup key kept where children cannot find it, **bolted or cabled down**
   so it cannot be carried off, out of sight and out of reach. Practise opening it in the dark
   (→ 14-15); a lockbox you fumble is a lockbox you will be tempted to leave open. **Never leave
   it open.**
-- **On an adult's body counts as secured.** Loose on a counter "for a minute" never does.
+- **On an adult's body counts as secured**: in a holster that covers the trigger, never in a bag
+  or coat, and into a locked box whenever it comes off (the card's rules, → 30-32). Loose on a
+  counter "for a minute" never does.
 - **Test fingerprint and keypad boxes monthly** and change batteries on a schedule. Tens of
   thousands of biometric (fingerprint) gun safes have been recalled because people who had not
   enrolled a fingerprint could open them, including a child; CPSC links one recalled model to a
@@ -190,8 +194,9 @@ discipline**: the hardware is cheap; the habit is the layer.
 ## By phase
 
 - **A (at home):** everything above.
-- **B (on the move):** firearms travel unloaded, locked, in the cabin, never in a trailer, with
-  ammunition apart (→ 14-03, → 22-05). This is also the child-safe arrangement. At stops, nothing
-  loose in the cabin.
+- **B (on the move):** firearms nobody has chosen to keep ready travel unloaded, locked, in the
+  cabin, never in a trailer, with ammunition apart (→ 14-03, → 22-05). A ready firearm on the road
+  follows the household's card (→ 30-32): in a locked box fixed in the vehicle, or on an adult's
+  body. At stops, nothing loose in the cabin.
 - **C (a new place):** a new house has no storage. **Setting up Layer 1 is a first-day task**:
   locked cases, cable locks and a lockable closet stand in until something better exists.

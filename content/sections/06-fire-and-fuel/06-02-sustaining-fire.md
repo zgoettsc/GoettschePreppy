@@ -2,7 +2,7 @@
 id: 06-02-sustaining-fire
 section: 06-fire-and-fuel
 title: "Sustaining and banking a fire"
-version: 2
+version: 3
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -26,7 +26,8 @@ related:
   - 20-02-child-safety-offgrid
   - 29-12-ex12-extinguishers-blankets-and-alarms
   - 30-25-dc24-children-and-dangerous-jobs
-cards: [DC-24]
+  - 30-31-dc30-wood-stove-banked-overnight
+cards: [DC-24, DC-30]
 explainers: [EX-12]
 promote_when: [has.wood_stove, has.fireplace]
 photo_slots: []
@@ -36,7 +37,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Removed unsourced banking hours, rocket-stove percentages and 'double the woodpile'; ash rule per USFA 10 ft; fireplace 10 percent efficiency and BTU per lb per MU G5450." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Removed unsourced banking hours, rocket-stove percentages and 'double the woodpile'; ash rule per USFA 10 ft; fireplace 10 percent efficiency and BTU per lb per MU G5450. L8 (G30): overnight banking indoors now points to DC-30 (→ 30-31); USFA put-out-before-sleep stated." }
 ---
 
 # Sustaining and banking a fire
@@ -54,9 +55,10 @@ the ashes.
 
 ## Do this now
 
-1. **Bank the fire overnight** instead of letting it die: rake the coals together, cover the
-   edges with ash, add a large log. In the morning the coals relight with kindling and no
-   match.
+1. **Bank the fire** instead of letting it die: rake the coals together, cover the edges with
+   ash, add a large log. The coals relight later with kindling and no match. **Indoors, while
+   people sleep, it is a decision card:** USFA's advice is to put the fire out before you go to
+   sleep (USFA, Fireplace and Wood Stove Safety); {{choice DC-30}} (→ 30-31).
 2. **Burn dry, seasoned wood only.** Wet wood wastes its energy boiling off its own water and
    builds creosote in the chimney (EPA, Best Wood-Burning Practices; CSIA; → 06-09).
 3. **One fire, many jobs.** Cook, boil water, heat stones, dry clothes and melt snow in the
@@ -94,7 +96,8 @@ relighting is a large saving in matches, lighters, tinder and effort.
 **In a wood stove or fireplace indoors:** a fire turned down to smoulder all night makes more
 creosote than a small hot fire; EPA says a smouldering fire is neither safe nor efficient in most
 appliances (EPA, Best Wood-Burning Practices; CSIA). Bank with dry wood, and check the chimney often
-in a season of heavy use (→ 06-09, → 08-08).
+in a season of heavy use (→ 06-09, → 08-08). Whether an indoor stove or fireplace stays banked
+while people sleep, and the rules if it does, is the household's card: {{choice DC-30}} (→ 30-31).
 
 ## Where the wood's heat actually goes
 
@@ -171,5 +174,5 @@ This page is itself a way to save: what it saves is ignition (→ 06-01) and woo
   near fences and neighbours is a real risk.
 - **B (on the move):** small, contained fires only, and fully out before you move on: drown,
   stir, drown again, until it is cold to the back of your hand.
-- **C (settled somewhere new):** a banked stove overnight is the old rhythm, and how people
+- **C (settled somewhere new):** a banked stove overnight (by the household's card, → 30-31) is the old rhythm, and how people
   lived through winters before matches were cheap.

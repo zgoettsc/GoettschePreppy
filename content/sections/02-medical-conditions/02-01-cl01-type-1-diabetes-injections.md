@@ -2,7 +2,7 @@
 id: 02-01-cl01-type-1-diabetes-injections
 section: 02-medical-conditions
 title: "CL-01. Type 1 diabetes on injections"
-version: 2
+version: 3
 revised: 2026-11-16
 layer: condition
 danger_level: critical
@@ -54,7 +54,7 @@ condition: CL-01
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "FDA switching text re-checked word for word (live page, 09/28/2026); DKA timing per ADA; 15-15 to CDC treatment page; ADA appearance, Cochrane scope, CDC sick-day wording fixed; meds_for tables." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "FDA switching text re-checked word for word (live page, 09/28/2026); DKA timing per ADA; 15-15 to CDC treatment page; ADA appearance, Cochrane scope, CDC sick-day wording fixed; meds_for tables. L8 (G31): ADA disaster switching sheet (Aug 2020, re-read from archive and live PDF, identical) printed as published next to FDA's text, not reconciled; prescriber box now covers both." }
 ---
 
 # CL-01. Type 1 diabetes on injections
@@ -79,8 +79,8 @@ Pumps and sensors have their own module (→ 02-02); read this one first either 
 > - **Heat is different from freezing.** Warm insulin loses strength slowly. Whether to use it
 >   past the published window is your household's decision card: {{choice DC-08}} (→ 30-09).
 > - **This page never calculates, adjusts or suggests a dose.** Your doses, and what to do when
->   sick or short, come from the prescriber and go in the blanks below. FDA's emergency
->   switching text is printed as published in part 8, for the prescriber to confirm.
+>   sick or short, come from the prescriber and go in the blanks below. FDA's and ADA's emergency
+>   switching texts are printed as published in part 8, for the prescriber to confirm.
 
 ## Do this now
 
@@ -312,7 +312,8 @@ Response Situations). **The two documents do not give the same amounts**: the AD
 for health professionals, lowers the dose in most switches, while FDA's mostly keeps the same
 number of units. That disagreement is one more reason to have the prescriber decide now. In the
 Large download both documents are bound behind this page. **This binder does not convert
-doses**; FDA's published text follows, for your prescriber to confirm.
+doses**; FDA's published text follows, then ADA's, side by side and not reconciled, for your
+prescriber to confirm.
 
 ### As published, for your prescriber to confirm
 
@@ -353,8 +354,87 @@ out any amount from it. Brand names are FDA's examples.
 > Close monitoring of blood sugar and adjustment of your insulin dose may be needed in the
 > transition."
 
-**Prescriber, please read the FDA text above and confirm it for this person, or write what to
-do instead.** Person: ____________________
+**ADA's sheet, printed next to FDA's and not reconciled with it.** The American Diabetes
+Association's sheet is written **for health care professionals**. It is printed here **exactly
+as published** (American Diabetes Association, Switching Between Insulin Products in Disaster
+Response Situations; approved by the American Diabetes Association, Endocrine Society and JDRF,
+updated August 2020). Where it and FDA give different amounts, **neither is this binder's
+answer**: show both to the prescriber. Brand names and worked examples are ADA's.
+
+> **ADA:** "IMPORTANT: These recommendations are intended to be used only for disaster response
+> situations when patients are not on their usual schedule, may have limited monitoring
+> capabilities, or don't have access to their prescribed insulins.
+>
+> - Individuals with type 1 diabetes have priority for receiving insulin. Even a few hours of
+>   interrupted insulin therapy can result in life-threating diabetic ketoacidosis (DKA).
+> - These guidelines do not replace clinical judgment and are intended to assist with short-term
+>   diabetes management until the patient can resume their prescribed care regimen.
+> - A reduction in insulin dose by 20% is recommended when switching to another insulin under
+>   disaster response situations to avoid hypoglycemia. This may result in short-term, mild
+>   hyperglycemia until the patient is back to a normal routine and insulin regimen.
+> - Consultation with an experienced healthcare professional is advised for patients with
+>   complicated insulin needs, e.g. pregnancy, dialysis, insulin pump, or concentrated insulins
+>   (i.e., U200, U300, and U500)."
+
+> **ADA, Rapid-acting and Regular insulins:** "RAPID-ACTING AND REGULAR INSULINS are typically
+> given before meals to regulate the rise in glucose after a meal.
+>
+> - Rapid-acting insulins should be injected no more than 15 minutes before the start of a meal
+> - Regular insulin can be injected up to 30 minutes before the start of a meal
+>
+> IF PATIENT IS TAKING THIS: Rapid-Acting Insulins such as: Humalog® (insulin lispro U-100 &
+> U-200); Admelog® (insulin lispro U-100); Novolog® or Fiasp® (insulin aspart U-100); Apidra®
+> (insulin glulisine U-100). Short-Acting Insulins: Regular insulin brand name examples:
+> Humulin®R; Novolin®R; ReliOn R from Walmart.
+>
+> INTERCHANGE RECOMMENDATIONS:
+> - Rapid- and Short-acting insulins may be interchanged with a 20% reduction in the dose
+>   - Example: Humalog® 10 units before meals can be switched to Regular 8 units before meals
+>     (80% of 10 units = 8 units)
+>   - Example: Regular 10 units before meals can be switched to Novolog® 8 units before meals
+>     (80% of 10 units = 8 units)"
+
+> **ADA, Intermediate-acting and basal insulins:** "Intermediate-acting and basal insulin analogs
+> are typically given once or twice daily to provide basal insulin needs (to prevent high
+> glucose between meals and overnight).
+>
+> IF PATIENT IS TAKING THIS: Intermediate-Acting Insulins: NPH insulin brand name examples:
+> Humulin®N; Novolin®N; ReliOn NPH from Walmart.
+>
+> INTERCHANGE RECOMMENDATIONS: Intermediate-acting insulins may be interchanged with another
+> intermediate-acting insulin or basal insulin analog with a 20% reduction in dose
+>
+> - NPH ONCE daily to a basal insulin analog
+>   - Example: NPH 20 units daily can be switched to Levemir® 16 units daily
+> - NPH TWICE daily to a basal insulin analog
+>   - Add all the units of NPH injected per day and give 80% as a single dose of a basal insulin
+>     analog daily
+>     - Example: NPH 34 units AM and 16 units PM can be switched to Lantus® 40 units daily (80%
+>       of 50 units daily = 40 units)
+>
+> IF A PATIENT IS TAKING THIS: Basal insulin analogues such as: Levemir® (detemir U-100);
+> Lantus®, Basalgar® (glargine U-100); Toujeo® (glargine U-300); Tresiba® (degludec U-100 &
+> U-200).
+>
+> INTERCHANGE RECOMMENDATIONS: Basal insulin analogs may be interchanged with NPH with a 20%
+> reduction in dose and divided based on predicted meal frequency
+>
+> - If eating 2 meals per day, split the new dose into ½ NPH with first meal of the day and ½
+>   NPH with second meal of the day
+> - Basal insulin analogs (with the exception of Tresiba®) may be interchanged with another basal
+>   insulin analog with a 20% reduction in dose
+> - Tresiba® (80 units or less) may be interchanged with another basal insulin analog with a 20%
+>   reduction in dose
+> - Tresiba® (greater than 80 units) may be interchanged with another basal insulin analog with a
+>   20% reduction in dose, but the other basal insulin must be split into two equal doses given
+>   12 hours apart.
+>   - Example: Tresiba® 100 units daily can be switched to Basalgar® 40 units (80% of 100 units
+>     = 80 units/2) every 12 hours"
+
+> **ADA:** "THE RECOMMENDATIONS DO NOT REPLACE CLINICAL JUDGMENT"
+
+**Prescriber, please read the FDA and ADA texts above and confirm one for this person, or write
+what to do instead.** Person: ____________________
 Agree as printed ☐  Change as written here: _________________________________________________
 _____________________________________________________________________________________________
 Prescriber: ____________________ Initials: ______ Date: __________

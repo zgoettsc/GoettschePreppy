@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 382" width="360" height="382" color="#1b1b1b" font-family="Helvetica, Arial, sans-serif" font-size="13" class="gpfig fig-ice-thickness" aria-label="Ice thickness and loads">
+<title>Ice thickness and loads</title>
+<text x="6" y="18" font-size="12.5" font-weight="bold" fill="currentColor">NEW CLEAR ICE (Minnesota DNR)</text>
+<rect x="6" y="32" width="40" height="26" rx="2" fill="#c62828" fill-opacity="0.2" stroke="#c62828" stroke-width="1.4"/>
+<text x="54" y="49" font-size="11.5" font-weight="bold" fill="currentColor">under 4 in</text>
+<text x="204" y="49" font-size="11.5" font-weight="bold" fill="#c62828">STAY OFF</text>
+<rect x="6" y="64" width="52" height="26" rx="2" fill="#1e6fc0" fill-opacity="0.26" stroke="#1e6fc0" stroke-width="1.4"/>
+<text x="66" y="81" font-size="11.5" font-weight="bold" fill="currentColor">4 in</text>
+<text x="204" y="81" font-size="11.5" fill="currentColor">walking, ice fishing on foot</text>
+<rect x="6" y="96" width="64" height="26" rx="2" fill="#1e6fc0" fill-opacity="0.32" stroke="#1e6fc0" stroke-width="1.4"/>
+<text x="78" y="113" font-size="11.5" font-weight="bold" fill="currentColor">5 to 7 in</text>
+<text x="204" y="113" font-size="11.5" fill="currentColor">snowmobile or small ATV</text>
+<rect x="6" y="128" width="76" height="26" rx="2" fill="#1e6fc0" fill-opacity="0.38" stroke="#1e6fc0" stroke-width="1.4"/>
+<text x="90" y="145" font-size="11.5" font-weight="bold" fill="currentColor">7 to 8 in</text>
+<text x="204" y="145" font-size="11.5" fill="currentColor">side-by-side ATV</text>
+<rect x="6" y="160" width="88" height="26" rx="2" fill="#1e6fc0" fill-opacity="0.44" stroke="#1e6fc0" stroke-width="1.4"/>
+<text x="102" y="177" font-size="11.5" font-weight="bold" fill="currentColor">9 to 10 in</text>
+<text x="204" y="177" font-size="11.5" fill="currentColor">small car or SUV</text>
+<rect x="6" y="192" width="100" height="26" rx="2" fill="#1e6fc0" fill-opacity="0.5" stroke="#1e6fc0" stroke-width="1.4"/>
+<text x="114" y="209" font-size="11.5" font-weight="bold" fill="currentColor">11 to 12 in</text>
+<text x="204" y="209" font-size="11.5" fill="currentColor">medium SUV or small truck</text>
+<rect x="6" y="224" width="112" height="26" rx="2" fill="#1e6fc0" fill-opacity="0.56" stroke="#1e6fc0" stroke-width="1.4"/>
+<text x="126" y="241" font-size="11.5" font-weight="bold" fill="currentColor">13 in</text>
+<text x="204" y="241" font-size="11.5" fill="currentColor">medium truck</text>
+<rect x="4" y="262" width="352" height="50" rx="5" fill="#d97a00" fill-opacity="0.12" stroke="#d97a00" stroke-width="1.6"/>
+<text x="12" y="280" font-size="11.5" font-weight="bold" fill="currentColor">White ice (snow melted and refrozen on top):</text>
+<text x="12" y="295" font-size="11.5" font-weight="bold" fill="currentColor">about half as strong. DOUBLE every figure.</text>
+<text x="8" y="336" font-size="11.5" font-weight="bold" fill="currentColor">No ice is ever &quot;safe&quot; ice.</text>
+<text x="8" y="351" font-size="11.5" fill="currentColor">Check with a spud bar or auger again and again as you go.</text>
+<text x="354" y="376" font-size="10.5" text-anchor="end" fill="currentColor" opacity="0.75">Diagram, not to scale</text>
+</svg>

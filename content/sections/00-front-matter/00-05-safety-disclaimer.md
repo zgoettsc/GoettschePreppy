@@ -2,7 +2,7 @@
 id: 00-05-safety-disclaimer
 section: 00-front-matter
 title: "Safety disclaimer — read this first"
-version: 2
+version: 3
 revised: 2026-11-16
 layer: core
 danger_level: none
@@ -26,7 +26,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Backfeed floor reworded to 30-01; cards 30-02..30-30; answers never stored, three sizes and private-copy reasons added; anaphylaxis to AAP." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Backfeed floor reworded to 30-01; cards 30-02..30-30; answers never stored, three sizes and private-copy reasons added; anaphylaxis to AAP. L8: card range extended to DC-31 (→ 30-32) for new cards DC-30, DC-31." }
 ---
 
 # Safety disclaimer — read this first
@@ -54,7 +54,7 @@ make. Read it once, properly, before you rely on anything else in the binder.
 2. **Install the binder on more than one device and print the key pages** (→ 00-10). A binder
    on one dead phone is no binder.
 3. **Read the floors** (→ 30-01). They are the few rules this binder never offers as a choice.
-4. **Answer the decision cards you left open** (→ 30-02 to → 30-30). Every open card prints
+4. **Answer the decision cards you left open** (→ 30-02 to → 30-32). Every open card prints
    "Not decided yet" on the pages that depend on it.
 5. **Book the real training** while classes exist: first aid and CPR, bleeding control, and
    anything your household's medical conditions need. No book replaces hands-on practice,
@@ -122,7 +122,7 @@ list, with the reasons, is → 30-01. In short:
 
 **Decision cards are choices.** Many survival questions are real trade-offs: an unvented heater
 while people sleep, fuel in the car, medicine past its date. Each one has a card (→ 30-02 to
-→ 30-30) that explains the hazard, what the manufacturer or agency says and why, how people get
+→ 30-32) that explains the hazard, what the manufacturer or agency says and why, how people get
 hurt, what makes it safer, and the options. **Your household picks.** The binder prints your
 answer wherever the trade-off comes up, and "Not decided yet" where you have not chosen. It never
 presents another family's choice as the answer.

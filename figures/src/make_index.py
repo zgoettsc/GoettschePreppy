@@ -65,6 +65,9 @@ PD = {
         'usda-nchfp-usda-complete-guide-to-home-canning-2015-452df1', 'PDF page 19'),
 }
 
+from pd_f2 import PD2  # F2's plates (figures/src/pd_f2.py)
+PD.update(PD2)
+
 # Ids that pages still use but that are merged into another figure (see notes/workers/F1.md).
 ALIASES = {
     'fig-generator-distance': 'fig-generator-siting',

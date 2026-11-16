@@ -2,7 +2,7 @@
 id: 22-05-kit-vehicle
 section: 22-master-lists-acquire-and-scavenge
 title: "Vehicle kit"
-version: 2
+version: 3
 revised: 2026-11-16
 layer: household
 danger_level: caution
@@ -17,8 +17,8 @@ sources:
   - noaa-national-weather-service-heat-safety-66fd15
   - nws-winter-storm-during
   - american-red-cross-power-outage-safety-6d07a8
-related: [22-03-go-bags-and-kits, 22-06-kit-medical, 22-01-master-acquisition-list, 01-02-go-no-go-decision, 01-03-phase-b-movement, 01-07-evacuating-with-medical-needs, 17-01-blizzards-and-ice, 08-02-carbon-monoxide-safety, 08-05-hypothermia-frostbite, 11-02-keeping-kids-warm, 06-06-fuel-storage-safety, 06-08-fuel-transport, 16-09-bicycle-and-transport, 16-10-tire-failures-roadside, 16-11-trailer-maintenance-and-repair, 25-04-maps]
-cards: [DC-06, DC-08, DC-20]
+related: [22-03-go-bags-and-kits, 22-06-kit-medical, 22-01-master-acquisition-list, 01-02-go-no-go-decision, 01-03-phase-b-movement, 01-07-evacuating-with-medical-needs, 17-01-blizzards-and-ice, 08-02-carbon-monoxide-safety, 08-05-hypothermia-frostbite, 11-02-keeping-kids-warm, 06-06-fuel-storage-safety, 06-08-fuel-transport, 16-09-bicycle-and-transport, 16-10-tire-failures-roadside, 16-11-trailer-maintenance-and-repair, 25-04-maps, 30-32-dc31-firearm-readiness]
+cards: [DC-06, DC-08, DC-20, DC-31]
 explainers: [EX-03, EX-01]
 promote_when: [has.vehicle]
 photo_slots:
@@ -30,7 +30,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Stranded-vehicle rules re-cited to NWS During a Winter Storm; tank half full to Red Cross; unverifiable NHTSA tongue-weight percentage removed (method kept)." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Stranded-vehicle rules re-cited to NWS During a Winter Storm; tank half full to Red Cross; unverifiable NHTSA tongue-weight percentage removed (method kept). L8 (G29): firearm loading rule points to DC-31 for a ready firearm; law left as a pre-collapse note." }
 ---
 
 # Vehicle kit
@@ -239,11 +239,12 @@ Roof load limit (manual): ______ lb   Range on a full tank: ______ mi
 **Loading rules, whatever the setup:** heaviest items low, forward and inside; bulky-light up
 top; fuel outside the passenger space; medicine and the medical kit in the cabin with a person.
 Firearms travel unloaded, cased and out of reach, so they cannot shift, fire or be grabbed at a
-stop. Never load so heavily that the vehicle squats.
+stop; a firearm the household keeps ready follows its card ({{choice DC-31}}, → 30-32): in a
+locked box fixed to the vehicle or on an adult's body, never loose. Never load so heavily that the
+vehicle squats.
 
 > **Before the collapse:** laws on carrying firearms in vehicles differ by state and change at
-> state lines. Unloaded and cased is the usual baseline; check each state on the route
-> (→ 14-11).
+> state lines. Check each state on the route (→ 14-11).
 
 ## Fuel discipline
 

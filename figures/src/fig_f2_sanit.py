@@ -75,7 +75,7 @@ def tippy_tap():
     b.append(figure_g([('l', [(150, 196), (184, 214)], 12), ('l', [(206, 196), (186, 214)], 12)], INK, 0.35))
     # soap
     b.append(line(90, 50, 90, 120, INK, 1.2) + rect(80, 120, 20, 14, AMBER, AMBER, 1.4, 4, 0.5) + t(90, 150, 'soap on', 10, 'middle') + t(90, 162, 'a string', 10, 'middle'))
-    b.append(path(f'M120,{gy} q4,-6 8,0 q4,-6 8,0 q4,-6 8,0 q4,-6 8,0 q4,-6 8,0 q4,-6 8,0', INK, sw=1.2, op=0.6) + t(112, gy + 16, 'rinse water runs off and away', 10))
+    b.append(path(f'M120,{gy} q4,-6 8,0 q4,-6 8,0 q4,-6 8,0 q4,-6 8,0 q4,-6 8,0 q4,-6 8,0', INK, sw=1.2, op=0.6) + t(4, gy + 16, 'rinse water runs off and away', 10))
     y = gy + 42
     b.append(tl(8, y, [('Hands never touch the jug.', True), 'Jug, cord, two sticks and a nail. One at the toilet,', 'one at the kitchen.'], 11.5, 15))
     return svg('fig-tippy-tap', y + 56, '\n'.join(b), 'Tippy-tap handwashing station')

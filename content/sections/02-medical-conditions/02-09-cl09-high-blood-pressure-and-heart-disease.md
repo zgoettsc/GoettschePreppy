@@ -2,7 +2,7 @@
 id: 02-09-cl09-high-blood-pressure-and-heart-disease
 section: 02-medical-conditions
 title: "CL-09. High blood pressure and heart disease"
-version: 2
+version: 3
 revised: 2026-11-16
 layer: condition
 danger_level: critical
@@ -13,11 +13,12 @@ sources:
   - nhlbi-high-blood-pressure
   - american-heart-association-warning-signs-of-a-heart-0ffffa
   - american-heart-association-american-stroke-associati-ec9d70
-  - american-heart-association-aspirin-and-heart-disease-381658
   - medlineplus-metoprolol
   - medlineplus-clonidine
   - medlineplus-nitroglycerin-sublingual
   - cdc-about-heat-and-your-health-112caf
+  - medlineplus-heart-attack-first-aid-l8
+  - aha-arc-2024-guidelines-for-first-aid-l8
 related:
   - 02-10-cl10-blood-thinners
   - 02-05-cl05-type-2-diabetes
@@ -45,7 +46,7 @@ condition: CL-09
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "MedlinePlus metoprolol, clonidine, nitroglycerin wording corrected; NHLBI lifestyle list; AHA aspirin text unreadable (403), step left unchanged per wave 2; meds_for tables." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "MedlinePlus metoprolol, clonidine, nitroglycerin wording corrected; NHLBI lifestyle list; AHA aspirin text unreadable (403), step left unchanged per wave 2; meds_for tables. L8 (G27): aspirin step now prints MedlinePlus Heart attack first aid (read, quoted) beside the 2024 AHA/Red Cross line (marked reported; AHA text unreadable); unread AHA Aspirin and Heart Disease key dropped." }
 ---
 
 # CL-09. High blood pressure and heart disease
@@ -82,10 +83,19 @@ nausea or vomiting, and back or jaw pain.
    under the tongue, not swallowed. MedlinePlus says the doctor will probably tell you to call
    for emergency help right away if the pain does not improve very much, or gets worse, after
    the first dose (MedlinePlus, Nitroglycerin Sublingual).
-4. **Aspirin:** AHA says call 911 first; the dispatcher may tell you to chew aspirin (AHA,
-   Aspirin and Heart Disease). With no 911, follow what the prescriber wrote in part 7. The
-   household's general line on aspirin in emergencies is on → 12-16.
+4. **Aspirin:** call 911 first. The two published sources below differ on who decides. With
+   no 911, follow what the prescriber wrote in part 7. Never for stroke symptoms (below).
 5. **If they collapse and are not breathing normally: start CPR** (→ 12-18).
+
+**Aspirin, as published, side by side** (the same text is on → 12-16):
+
+| NIH MedlinePlus, Heart attack first aid (reviewed 2024) | 2024 AHA and American Red Cross Guidelines for First Aid |
+|---|---|
+| "Many experts recommend chewing and swallowing a full dose aspirin (325 mg, or low dose 81 mg baby aspirin, after calling 911 or the local emergency number. Only do this if you have been instructed by a physician or a 911 operator, are not allergic to aspirin, and do not have any condition that could make taking aspirin dangerous for you. The 911 operator can also help you decide whether or not to take aspirin. Don't delay calling 911 to take an aspirin. Call for help first." | For an alert adult with chest pain not caused by an injury: chew 162 to 325 mg of aspirin while waiting for EMS, unless allergic to aspirin or told not to take it by a doctor. **Reported by search summaries; the AHA text could not be read from here.** |
+
+(MedlinePlus, Heart attack first aid, quoted word for word; American Heart Association and
+American Red Cross, 2024 Guidelines for First Aid, Circulation, 2024.) This page does not choose
+between them for any person: that is the prescriber's answer in part 7.
 
 **Possible stroke: F.A.S.T.** (American Stroke Association): **F**ace drooping, **A**rm
 weakness, **S**peech difficulty, **T**ime to call 911. Note the time it started. Lay them down

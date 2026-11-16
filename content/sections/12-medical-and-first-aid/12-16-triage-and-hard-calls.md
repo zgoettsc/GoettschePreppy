@@ -2,7 +2,7 @@
 id: 12-16-triage-and-hard-calls
 section: 12-medical-and-first-aid
 title: "Triage and hard decisions with no hospital"
-version: 2
+version: 3
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -16,10 +16,11 @@ sources:
   - 988-suicide-and-crisis-lifeline-samhsa-988-suicide-a-5f45b0
   - american-heart-association-american-stroke-associati-ec9d70
   - american-heart-association-warning-signs-of-a-heart-0ffffa
-  - american-heart-association-aspirin-and-heart-disease-381658
   - american-heart-association-american-stroke-associati-d17ae8
   - paho-who-with-icrc-and-ifrc-management-of-dead-bodie-450e97
   - cdc-treatment-of-low-blood-sugar-r7
+  - medlineplus-heart-attack-first-aid-l8
+  - aha-arc-2024-guidelines-for-first-aid-l8
 related:
   - 12-02-bleeding-and-wounds
   - 12-04-infection-and-antibiotics
@@ -43,7 +44,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "15-minute low-sugar recheck cited to CDC; aspirin text unchanged (no AHA text readable: heart.org 403)." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "15-minute low-sugar recheck cited to CDC; aspirin text unchanged (no AHA text readable: heart.org 403). L8 (G27): aspirin printed side by side: MedlinePlus Heart attack first aid (read 2026-11-16, quoted) and the 2024 AHA/Red Cross first-aid line, marked reported (AHA text 403; PubMed abstract silent on aspirin)." }
 ---
 
 # Triage and hard decisions with no hospital
@@ -171,14 +172,21 @@ nausea; light-headedness.
   Unexplained crushing tiredness, breathlessness, nausea, or jaw or arm discomfort is a
   heart-attack question until answered, not indigestion.
 
-**Aspirin.** The American Heart Association says that during a suspected heart attack a 911
-dispatcher may tell you to chew aspirin, and that aspirin is not right for everyone (American
-Heart Association, Aspirin and Heart Disease). **Not with an aspirin allergy or a bleeding
-problem. Never for stroke symptoms**: bleeding in the brain cannot be ruled out without a scan.
+**Aspirin.** Two published sources are printed side by side, as published. They agree on
+calling 911 first and on no aspirin with an aspirin allergy; they differ on who decides. **Never
+for stroke symptoms**: bleeding in the brain cannot be ruled out without a scan.
+
+| NIH MedlinePlus, Heart attack first aid (reviewed 2024) | 2024 AHA and American Red Cross Guidelines for First Aid |
+|---|---|
+| "Many experts recommend chewing and swallowing a full dose aspirin (325 mg, or low dose 81 mg baby aspirin, after calling 911 or the local emergency number. Only do this if you have been instructed by a physician or a 911 operator, are not allergic to aspirin, and do not have any condition that could make taking aspirin dangerous for you. The 911 operator can also help you decide whether or not to take aspirin. Don't delay calling 911 to take an aspirin. Call for help first." | For an alert adult with chest pain not caused by an injury: chew 162 to 325 mg of aspirin while waiting for EMS, unless allergic to aspirin or told not to take it by a doctor. **Reported by search summaries; the AHA text could not be read from here.** |
+
+(MedlinePlus, Heart attack first aid, quoted word for word, including its unclosed bracket;
+American Heart Association and American Red Cross, 2024 Guidelines for First Aid, Circulation,
+2024.) Neither source chooses for a particular person, and this binder does not either.
 
 > **Before the collapse:** ask each adult's doctor whether chewing aspirin in a suspected heart
-> attack is right for them, and how much. Write the answer on → 25-09 with the doctor's name and
-> the date. This binder does not set that amount.
+> attack is right for them, which product, and how much, if no 911 operator can be reached.
+> Write the answer on → 25-09 with the doctor's name and the date.
 
 **With no 911:** this is the decision to go for care (→ 01-02), made at recognition speed: the
 nearest working facility from your map (→ 25-03, → 25-04). On a journey, head for the nearest

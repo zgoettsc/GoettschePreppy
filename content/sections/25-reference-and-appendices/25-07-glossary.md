@@ -2,7 +2,7 @@
 id: 25-07-glossary
 section: 25-reference-and-appendices
 title: "Glossary: every term in plain words"
-version: 4
+version: 5
 revised: 2026-11-16
 layer: core
 danger_level: none
@@ -26,7 +26,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Card range DC-01 to DC-29; tourniquet and second-dose wording aligned; hazard rating aligned with EX-10; hardening off aligned with 25-01. Wave 2 (R18): tourniquet entry quotes the 30-01 floor verbatim. R19: sizes row names all three tiers as 00-09." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Card range DC-01 to DC-29; tourniquet and second-dose wording aligned; hazard rating aligned with EX-10; hardening off aligned with 25-01. Wave 2 (R18): tourniquet entry quotes the 30-01 floor verbatim. R19: sizes row names all three tiers as 00-09. L8: card range extended to DC-31 (→ 30-32) for new cards DC-30, DC-31." }
 ---
 
 # Glossary: every term in plain words
@@ -50,7 +50,7 @@ definitions orient you; the page in the last column does the work. The explainer
 | **Phase A, B, C** | The three-part plan: **A** = stay home (shelter in place); **B** = move (evacuate); **C** = settle somewhere new (establish) | → 01-01 to → 01-04 |
 | **Go/no-go** | The decision to leave or stay, made against triggers the household wrote in advance | → 01-02 |
 | **Floor** | One of nine rules that are not choices, because the failure kills without warning and nothing makes it safe | → 30-01 |
-| **Decision card** | A one-page trade-off (DC-01 to DC-29) where the household chooses its own risk; your answer prints wherever the subject comes up | → 30-02 to → 30-30 |
+| **Decision card** | A one-page trade-off (DC-01 to DC-31) where the household chooses its own risk; your answer prints wherever the subject comes up | → 30-02 to → 30-30 |
 | **Explainer** | A one-page lesson on a subject newcomers are not expected to know (EX-01 to EX-15) | → 29-01 to → 29-15 |
 | **Condition module** | The pages for one medical condition (CL-01 to CL-26); the ones you ticked are moved forward | Section 02 |
 | **Core, region, household layers** | Core: the same for every household. Region: your state's climate, hazards, offices and plants. Household: your people, gear and plans, filled from settings | → 29-15 |
