@@ -3,7 +3,8 @@
 //   npm run build:settings
 //
 // Writes:
-//   app/settings/profile-validate.js  ajv standalone validator for schema/profile.schema.json,
+//   app/settings/profile-validate.js  ajv standalone validators for schema/profile.schema.json
+//                                     (exports validateSaved, validateGenerate; default = generate),
 //                                     as a browser ES module with no imports (ajv's two runtime
 //                                     helpers are inlined below), so the page needs no CDN.
 //   app/settings/notice.js            the notice text from NOTICE-TO-USERS.md, so the page shows
@@ -28,9 +29,16 @@ const standaloneCode = standaloneMod.default || standaloneMod;
 
 // ---- 1. validator ------------------------------------------------------------------------
 const schema = JSON.parse(fs.readFileSync(path.join(ROOT, 'schema', 'profile.schema.json'), 'utf8'));
-const ajv = new Ajv2020({ code: { source: true, esm: true }, allErrors: true, strict: false });
-const validate = ajv.compile(schema);
-let code = standaloneCode(ajv, validate);
+// Two validators from one schema:
+//   validateSaved     the schema as written: a saved profile.json (never holds the access key)
+//   validateGenerate  the same plus `access` with `access_key` required: what generateBinder() gets
+const strict = structuredClone(schema);
+strict.$id = 'goettschepreppy/profile-generate.schema.json';
+strict.required = [...new Set([...strict.required, 'access'])];
+strict.properties.access.required = [...new Set(['access_key', ...strict.properties.access.required])];
+const ajv = new Ajv2020({ code: { source: true, esm: true }, allErrors: true, strict: false,
+  schemas: [schema, strict] });
+let code = standaloneCode(ajv, { validateSaved: schema.$id, validateGenerate: strict.$id, default: strict.$id });
 
 // ajv's standalone output still `require`s small runtime helpers. Inline them as CommonJS
 // shims so the file is a plain browser module. Only the modules listed here may appear.

@@ -7,7 +7,6 @@
   "additionalProperties": false,
   "required": [
     "schema_version",
-    "access",
     "home",
     "dwelling",
     "members",
@@ -20,9 +19,9 @@
     },
     "access": {
       "type": "object",
+      "description": "Optional in a saved profile.json, which never contains the access key. The object passed to generateBinder() must have access.access_key and access.acknowledged_notice; the settings page enforces that with a stricter variant of this schema built by scripts/build-settings.mjs (validateGenerate).",
       "additionalProperties": false,
       "required": [
-        "access_key",
         "acknowledged_notice"
       ],
       "properties": {
