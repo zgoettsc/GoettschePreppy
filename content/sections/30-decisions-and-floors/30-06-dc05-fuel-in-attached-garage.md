@@ -37,7 +37,7 @@ review_pass: null
 # DC-05. Storing gasoline, kerosene or propane in an attached garage
 
 **What this page is for.** Stored fuel is one of the most dangerous things in a prepared house.
-The garage is the convenient spot. This card explains what the risk is, why codes limit it,
+The garage is the convenient spot. This card explains what the risk is, why CPSC and the propane code say keep fuel out of living areas,
 and what the household decides.
 
 > **SAFETY.** Fuel is never stored or transferred near an open flame or a running appliance.
