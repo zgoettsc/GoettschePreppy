@@ -136,6 +136,7 @@ export function resolveRegion(kit, state, county) {
     trees: { firewood: plantList(trees.firewood, kit) },
     sun_hours_dec: num(d.sun_hours_dec),
     sun_hours_jun: num(d.sun_hours_jun),
+    latitude: num(d.latitude) ?? (Array.isArray(d.centroid) && typeof d.centroid[0] === 'number' ? Math.round(d.centroid[0] * 10) / 10 : null),
     coastal: d.coastal === true ? true : d.coastal === false ? false : null,
     text: [hit?.name || county, st?.state_name || STATE_NAMES[state]].filter(Boolean).join(', '),
   };
@@ -167,15 +168,16 @@ export function buildContext(profile, kit = {}, opts = {}) {
       refrigerated: x.refrigerated === true ? 'yes' : x.refrigerated === false ? 'no' : null,
       if_missed: nz(x.if_missed) ?? null,
       days_on_hand: num(x.days_on_hand),
+      where_kept: nz(x.where_kept) ?? null, expiry: nz(x.expiry) ?? null,
       text: [x.name, x.strength].filter(Boolean).join(' '),
     }));
     const mAll = (m.allergies || []).map(x => ({
       member: m.label, allergen: x.allergen, severity: x.severity,
       carries_epinephrine: x.carries_epinephrine === true ? 'yes' : x.carries_epinephrine === false ? 'no' : null,
-      text: `${x.allergen} (${x.severity}${x.carries_epinephrine ? ', carries epinephrine' : ''})`,
+      text: x.allergen, // formatting.nested: names only
     }));
     meds.push(...mMeds); allergies.push(...mAll);
-    const conds = (m.conditions || []).map(id => `${CONDITIONS[id] || id} (${id})`);
+    const conds = (m.conditions || []).map(id => CONDITIONS[id] || id); // formatting.nested: names, not ids
     if (m.conditions_other) conds.push(m.conditions_other);
     return {
       label: m.label, role: word(W.role, m.role), age_text: ageText(m), age_months: ageMonths(m),
@@ -188,6 +190,10 @@ export function buildContext(profile, kit = {}, opts = {}) {
   });
 
   const regHome = resolveRegion(kit, home.state, home.county);
+  // derived.solar_wh_dec / _jun: solar_w_total x sun hours x 0.75 (system losses), rounded
+  const solarW = (gear.solar_panels || []).reduce((n, x) => n + (Number(x.watts) || 0) * (x.count || 1), 0);
+  derived.solar_wh_dec = solarW && typeof regHome.sun_hours_dec === 'number' ? Math.round(solarW * regHome.sun_hours_dec * 0.75) : null;
+  derived.solar_wh_jun = solarW && typeof regHome.sun_hours_jun === 'number' ? Math.round(solarW * regHome.sun_hours_jun * 0.75) : null;
   const destinations = (p.destinations || []).map(d => {
     const r = resolveRegion(kit, d.state, d.county);
     return {
@@ -203,8 +209,10 @@ export function buildContext(profile, kit = {}, opts = {}) {
   const livestock = (p.livestock || []).map(x => ({ type: x.type, count: x.count, text: `${x.count} ${x.type}` }));
   const heaters = (gear.heaters || []).map(h => ({ kind: h.kind, kind_text: word(W.heater, h.kind), model: nz(h.model) ?? null,
     text: [word(W.heater, h.kind), h.model].filter(Boolean).join(': ') }));
-  const stations = (gear.power_stations || []).map(s => ({ model: nz(s.model) ?? null, wh: num(s.wh), text: [s.model, s.wh && `${s.wh} Wh`].filter(Boolean).join(', ') }));
-  const panels = (gear.solar_panels || []).map(s => ({ model: nz(s.model) ?? null, watts: num(s.watts), count: s.count ?? null }));
+  const stations = (gear.power_stations || []).map(s => ({ model: nz(s.model) ?? null, wh: num(s.wh),
+    pv_input_max_v: num(s.pv_input_max_v), pv_input_max_w: num(s.pv_input_max_w), text: [s.model, s.wh && `${s.wh} Wh`].filter(Boolean).join(', ') }));
+  const panels = (gear.solar_panels || []).map(s => ({ model: nz(s.model) ?? null, watts: num(s.watts), count: s.count ?? null,
+    voc: num(s.voc), isc: num(s.isc), text: nz(s.model) ?? null }));
   const vehicles = (dw.vehicles || []).map(v => ({ type: v.type, fuel: v.fuel, type_text: word(W.vtype, v.type), fuel_text: word(W.vfuel, v.fuel),
     four_wheel_drive: v.four_wheel_drive ? 'yes' : 'no', can_tow: v.can_tow ? 'yes' : 'no', text: `${word(W.vtype, v.type)} (${word(W.vfuel, v.fuel)})` }));
   const local_contacts = (contacts.local_contacts || []).map(contact);
@@ -289,6 +297,7 @@ export function buildContext(profile, kit = {}, opts = {}) {
     vehicle: vehicles.length > 0,
     diesel_vehicle: vehicles.some(v => v.fuel === 'diesel'),
     ev: vehicles.some(v => v.fuel === 'ev'),
+    hybrid: vehicles.some(v => v.fuel === 'hybrid'),
     '4wd': vehicles.some(v => v.four_wheel_drive === 'yes'),
     trailer: !!dw.trailer && dw.trailer !== 'none',
     destinations: destinations.length > 0,
@@ -392,14 +401,31 @@ export function buildContext(profile, kit = {}, opts = {}) {
 }
 
 // The subset of a context a model may see for an ai block: only the declared inputs.
-export function pickInputs(ctx, paths, scopes = []) {
+// inputs: [ 'path.to.value', { list, fields: [...], region: [...] } ] (build-kit parseAiInputs).
+// Values that do not exist are dropped. `text` helper fields are dropped. Selected condition
+// modules are always added as `condition_pages` so a block can point to them.
+export function pickInputs(ctx, inputs, scopes = []) {
   const out = {};
-  for (const path of paths || []) {
+  const get = path => {
     const parts = path.split('.');
     let v;
-    for (let i = scopes.length - 1; i >= 0 && v === undefined; i--) if (scopes[i] && parts[0] in scopes[i]) v = parts.reduce((o, k) => o?.[k], scopes[i]);
+    for (let i = scopes.length - 1; i >= 0 && v === undefined; i--) if (scopes[i] && Object.prototype.hasOwnProperty.call(scopes[i], parts[0])) v = parts.reduce((o, k) => o?.[k], scopes[i]);
     if (v === undefined) v = parts.reduce((o, k) => o?.[k], ctx);
-    out[path] = v === undefined ? null : v;
+    return v;
+  };
+  const clean = v => JSON.parse(JSON.stringify(v ?? null, (k, x) => (k === 'text' || k === 'key' || k === 'hazard_rating' ? undefined : x)));
+  for (const inp of inputs || []) {
+    if (typeof inp === 'string') { const v = get(inp); if (v !== undefined) out[inp] = clean(v); continue; }
+    const list = get(inp.list);
+    if (!Array.isArray(list)) continue;
+    out[inp.list] = list.map(item => {
+      const o = {};
+      for (const f of inp.fields || []) if (f in item) o[f] = clean(item[f]);
+      if (inp.region?.length && item.region) { o.region = {}; for (const f of inp.region) if (f in item.region) o.region[f] = clean(item.region[f]); }
+      return (inp.fields || []).length || inp.region?.length ? o : clean(item);
+    });
   }
+  out.condition_pages = Object.entries(ctx.has?.condition || {}).filter(([, v]) => v)
+    .map(([id]) => ({ condition: `${id} ${CONDITIONS[id]}`, page: `02-${id.slice(3)}` }));
   return out;
 }

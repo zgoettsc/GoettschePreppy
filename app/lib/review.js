@@ -90,7 +90,8 @@ export function localChecks(page, { tokenRes = [], profileText = '', blanks = []
 // ai block text: reject anything that adds a number or an address not present in its inputs.
 export function checkAiText(text, inputs) {
   const problems = [];
-  const added = addsNumbers(text, JSON.stringify(inputs));
+  // cross-references (→ NN-MM) are page numbers, not facts
+  const added = addsNumbers(String(text).replace(/→\s?\d{2}-\d{2}/g, ''), JSON.stringify(inputs));
   if (added.length) problems.push(`adds numbers not in its inputs (${added.slice(0, 5).join(', ')})`);
   if (URL_RE.test(text)) problems.push('contains a web address');
   URL_RE.lastIndex = 0;

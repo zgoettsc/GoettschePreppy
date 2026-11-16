@@ -196,7 +196,8 @@
   "is.landslide_region": "Home landslide rating 2 or 3.",
   "is.drought_region": "Home drought rating 2 or 3.",
   "is.coastal": "Home county is on an ocean or Gulf coast.",
-  "has.hybrid": "A hybrid vehicle."
+  "has.hybrid": "A hybrid vehicle.",
+  "has.adult_over_40": "A member aged 40 or over (FDA potassium iodide guidance differs over 40)."
  },
  "lists": {
   "members": {

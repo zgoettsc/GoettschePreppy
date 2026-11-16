@@ -7,7 +7,7 @@ revised: 2026-11-16
 layer: card
 danger_level: critical
 phase: [A]
-tags: [decision card, generator, furnace, well pump, cord-and-plug, transfer switch, interlock, backfeed, electrical]
+tags: [decision card, generator, furnace, well pump, cord-and-plug, electrical work, wiring, shock, fire]
 derived_from: [09-04-generators, 08-04-emergency-heat-options, 09-08-wiring-and-safety]
 sources:
   - us-consumer-product-safety-commission-cpsc-what-to-k-3390a4
@@ -19,29 +19,31 @@ cards: [DC-07]
 explainers: [EX-04, EX-02]
 promote_when: [has.generator, has.well]
 card: DC-07
-figures: [fig-backfeed-path]
+figures: [fig-cord-and-plug-conversion]
 options:
   - id: electrician-only
     label: "Electrician only"
-    summary: "Any change that lets a generator or power station run the furnace or well pump (transfer switch, interlock or cord-and-plug conversion) is done by a licensed electrician, now, while one is available."
+    summary: "The cord-and-plug conversion of the furnace or well pump is done by a licensed electrician, now, while one is available. If none did it in time, the appliance stays hard-wired."
   - id: diy-with-write-up
     label: "Do it ourselves with the write-up"
-    summary: "A competent adult converts it following the kit's write-up: breaker off, locked and tested dead; plug and receptacle rated for the circuit; no cord with two plug ends; labelled; tested on the generator before it is needed."
-settings_summary: "A gas furnace needs electricity for its blower and controls, and a well needs it for the pump, so neither works in a power outage even if you own a generator. They are wired directly into the house, with no plug. A transfer switch or interlock lets an installed generator inlet feed chosen circuits safely; a cord-and-plug conversion gives the appliance its own plug so it can be moved to a generator cord. Doing that work yourself means opening live house wiring: mistakes cause electric shock, fire, or a connection that pushes generator power back into the grid and can kill line workers. Backfeeding through an outlet is never an option (floor). What helps most: a licensed electrician now (removes most of it); breaker locked off and tested dead, the written steps, a test run before winter (reduces it a lot)."
+    summary: "A competent adult converts it following the kit's write-up: that circuit's breaker off and tested dead; cord and plug rated for the circuit; strain relief; ground kept; labelled; tested on the generator before it is needed."
+settings_summary: "A gas furnace needs electricity for its blower and controls, and a well needs it for the pump, so neither runs in an outage even with a generator. They are wired directly into the house, with no plug. A cord-and-plug conversion gives the appliance its own plug and turns its old supply into an outlet: normally it plugs into that outlet; in an outage you unplug it and plug it into the generator's cord. Nothing reaches the house panel, so it is not backfeeding. The risk is the wiring work itself: working on a live circuit, a missing ground, a loose connection, a plug or cord too small for the load, no strain relief. Those cause shock and fire, sometimes long after the work. What helps most: a licensed electrician now (removes most of it); the circuit's breaker off and tested dead, the written steps, correct parts, a test run before winter (reduces it a lot)."
 review_pass: null
 ---
 
 # DC-07. Converting a furnace or well pump to cord-and-plug yourself
 
 **What this page is for.** Many households buy a generator and then learn it cannot run the
-furnace or the well pump, because those are wired straight into the house. This card explains
-the safe ways to connect them, why the work is normally done by an electrician, and what the
-household decides about doing it themselves.
+furnace or the well pump, because those are wired straight into the house. One way to fix that
+is to give the appliance its own plug. This card explains what that conversion is, why it is
+normally an electrician's job, what goes wrong when it is done badly, and what the household
+decides about doing it themselves.
 
-> **SAFETY.** Never connect a generator to house wiring without a transfer switch, interlock,
-> or a cord-and-plug conversion with the main breaker locked off. Never backfeed through an
-> outlet. Never run a generator, charcoal, or any engine indoors, in a garage, or near an open
-> window. (Both are floors, → 30-01.) Backfeeding is not an option on this card.
+> **SAFETY.** Never connect a generator to house wiring except through a transfer switch, or an
+> interlock kit with the main breaker off. Never backfeed through an outlet with a double-male
+> ("suicide") cord. Never run a generator, charcoal, or any engine indoors, in a garage, or near
+> an open window. (Both are floors, → 30-01.) A cord-and-plug conversion is not a connection to
+> house wiring, so it is not backfeeding; but a cord with two plug ends is never part of it.
 
 ## 1. The thing, in plain words
 
@@ -49,73 +51,76 @@ Read → 29-04 first if the words below are new.
 
 - A **hard-wired** appliance has its wires connected inside a box, not a plug. Most furnaces
   and well pumps are hard-wired.
-- A **transfer switch** is a switch next to the breaker panel that disconnects chosen circuits
-  from the power company and connects them to a generator inlet. The house and the grid can
-  never be connected at the same moment.
-- An **interlock** is a sliding plate on the panel that makes it impossible to turn on the
-  generator breaker unless the main breaker is off.
-- A **cord-and-plug conversion** gives the hard-wired appliance its own plug and turns its old
-  supply into a wall outlet. Normally it plugs into the wall; in an outage you unplug it and
-  plug it into a cord from the generator or a power station. Nothing else in the house is fed.
-- **Backfeeding** is pushing generator power into the house wiring through an outlet with a
-  cord that has plugs on both ends. It is a floor, not an option.
+- A **cord-and-plug conversion** gives the appliance its own cord and plug (or a plug-in inlet
+  on its cabinet), and ends the old house wire in an ordinary outlet next to it. Normally the
+  appliance is plugged into that outlet. In an outage you **unplug it from the house outlet and
+  plug it into the generator's extension cord**. Generator power goes only to that appliance;
+  nothing reaches the house panel, and the main breaker can stay as it is.
+- A **transfer switch** or **interlock kit** is the other way to run house circuits from a
+  generator: installed at the panel, they feed chosen circuits while keeping the house and the
+  grid apart. Those are covered by the floor and by the generator page (→ 09-04), not by this
+  card.
 
 {{#if has.generator}}Your generator runs about {{ gear.generator_watts }} running watts on
 {{ gear.generator_fuel }}. House connection in your settings: {{ gear.house_connection }}.{{/if}}
 
 ## 2. The rule, and why it was set
 
-- CPSC says never plug a generator into a wall outlet, and use a properly installed transfer
-  switch to power household wiring, because backfeeding can electrocute utility workers and
-  neighbours (CPSC, Portable Generator Safety). The American Red Cross says the same (Red
-  Cross, Power Outage Safety).
-- Electrical codes treat changes to permanent wiring as work for a qualified person, with
-  inspection. OSHA's rule for anyone working on electrical equipment is to de-energise it,
-  lock it off and test it dead before touching it (OSHA, Electrical Safety and Health Topics).
+- Electrical codes treat changes to permanent wiring as work for a qualified person, usually
+  with a permit and an inspection.
+- OSHA's rule for anyone working on electrical equipment: de-energise the circuit, lock or tag
+  it off, and **test it dead** before touching any wire (OSHA, Electrical Safety and Health
+  Topics).
+- CPSC and the Red Cross say run appliances from a generator through properly rated, grounded
+  extension cords, and never plug the generator into a wall outlet (CPSC, Portable Generator
+  Safety; Red Cross, Power Outage Safety).
 
 **Why:** house wiring at 120 or 240 volts can stop a heart. Mistakes inside a junction box (a
-loose neutral, a missing ground, the wrong wire on the wrong screw, a plug rated below the
-circuit) do not show until someone touches metal or a wire overheats in a wall. The
-electrician's licence and the inspection exist to catch those mistakes before they hurt
-someone.
+loose neutral, a missing ground, the wrong wire on the wrong screw, a plug or cord rated below
+the circuit, no clamp to stop the cord pulling on its wires) do not show until someone touches
+the cabinet or a connection overheats. The licence and the inspection exist to catch those
+mistakes.
 
 ## 3. How it actually hurts people
 
-- **While doing the work:** the wrong breaker is switched off, or a second circuit runs
-  through the same box. The person touches a live wire. Electric shock, burns, a fall from a
-  ladder.
-- **After the work:** a ground left unconnected makes the furnace cabinet live when a fault
-  happens later. An undersized plug or cord overheats and starts a fire behind the furnace.
+- **While doing the work:** the wrong breaker is switched off, or a second circuit runs through
+  the same box. The person touches a live wire: shock, burns, a fall from a ladder.
+- **Missing ground:** the appliance's metal cabinet becomes live when a fault happens later, and
+  the next person to touch it is shocked.
+- **Undersized or loose parts:** a cord or plug too small for the motor, or a loose screw
+  terminal, overheats behind the furnace and starts a fire, possibly months later.
+- **No strain relief:** the cord is pulled each time it is unplugged, the wires loosen inside the
+  box, and it arcs.
 - **The shortcut that kills strangers:** someone cannot make the conversion work and grabs a
-  cord with two plug ends to feed the circuit from an outlet. That backfeeds the house and the
-  power line (→ 30-01, floor 2).
-- **Running it:** the generator is moved into the garage "for a minute" because the cord is
-  too short. That is the carbon monoxide floor.
+  cord with two plug ends to feed the circuit from an outlet. That is backfeeding, a floor
+  (→ 30-01).
+- **Running it:** the generator is moved into the garage "for a minute" because the cord is too
+  short. That is the carbon monoxide floor.
 
-{{figure fig-backfeed-path}}
+{{figure fig-cord-and-plug-conversion}}
 
 ## 4. What makes it safer
 
 **Removes most of the risk**
-- **A licensed electrician installs a transfer switch, an interlock or the cord-and-plug
-  conversion now**, while electricians, parts and inspections exist. Tell them which generator
-  or power station you own: some small generators cannot drive a standard house transfer
-  switch, and the electrician needs to know (→ 09-04, → 28-03).
+- **A licensed electrician does the conversion now**, while electricians, parts and inspections
+  exist. Tell them the appliance's running and starting load and which generator or power
+  station you own (→ 09-04, → 28-03).
 
 **Reduces it a lot** (if you do it yourself)
 - **Follow the written steps on → 09-04 exactly**, and nothing else.
-- **Breaker off, taped or locked, and tested dead** at the appliance with a non-contact tester
-  and a meter before any wire is touched (OSHA's lock-off-and-test rule).
-- **Plug, receptacle and cord rated for the circuit**, the appliance's own ground and neutral
-  kept with its plug.
-- **No cord with two plug ends exists in the house.**
+- **That circuit's breaker off, taped or locked, and tested dead** at the appliance with a
+  non-contact tester and a meter before any wire is touched (OSHA's lock-off-and-test rule).
+- **Cord, plug and outlet rated for the circuit** (wire size and amps on the breaker), with a
+  **strain-relief clamp** where the cord enters the box.
+- **The ground and neutral stay connected** to the appliance through its own cord.
 - **Label the plug and the outlet**, and write down what you did.
-- **Test it once on the generator, outdoors, before it is needed**, watching for overload at
-  the motor's start.
+- **Test it once on the generator, outdoors, before it is needed**, watching for overload when
+  the motor starts.
 
 **Reduces it a little**
-- A second competent adult checks the work before power goes back on.
+- A second competent adult checks the work before the breaker goes back on.
 - Keep the old wiring diagram and photos of every connection.
+- No cord with two plug ends exists in the house.
 
 ## 5. The options
 
@@ -125,13 +130,13 @@ You accept: that if no electrician did it in time, the furnace or pump does not 
 generator.
 
 **`diy-with-write-up`: Do it ourselves with the write-up.**
-You give up: the electrician's training and an inspector's check. You accept: shock and fire
-risk while doing the work and from any mistake afterwards, controlled by the lock-off-and-test
-rule, the written steps and a test run.
+You give up: the electrician's training and an inspector's check. You accept: shock risk while
+doing the work and shock or fire risk from any mistake afterwards, controlled by the
+lock-off-and-test rule, correct parts, the written steps and a test run.
 
 > **Before the collapse:** most places require a permit and an inspection for changes to
-> permanent wiring, and rules on cord-connecting a furnace differ by area. Ask your local
-> building department. Insurance may refuse a claim on unpermitted work.
+> permanent wiring, and rules on cord-connecting a furnace or well pump differ by area. Ask your
+> local building department. Insurance may refuse a claim on unpermitted work.
 
 ## 6. Our choice
 

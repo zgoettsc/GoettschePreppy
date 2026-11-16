@@ -20,6 +20,7 @@ export function shellParts({ title, meta, tocHtml, bodyParts, extraCss = '', bui
 <title>${escHtml(title)}</title>
 <style>${BINDER_CSS}</style>
 <style>${extraCss}</style>
+<style id="gp-photos"></style>
 </head><body>
 <header class="top"><div id="modebar">READING MODE: this viewer shows the whole binder but cannot run the app.
 For search, the region and condition pickers and photos, open this file in Safari, Chrome or Firefox.

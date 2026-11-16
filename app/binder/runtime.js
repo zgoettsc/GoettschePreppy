@@ -172,30 +172,37 @@ export function binderRuntime() {
           var max = 1280, w = img.naturalWidth, h = img.naturalHeight, k = Math.min(1, max / Math.max(w, h));
           var c = document.createElement('canvas'); c.width = Math.round(w * k); c.height = Math.round(h * k);
           c.getContext('2d').drawImage(img, 0, 0, c.width, c.height);
-          try { cb(c.toDataURL('image/jpeg', 0.78)); } catch (e) { cb(r.result); }
+          var ar = (w / h).toFixed(3);
+          try { cb(c.toDataURL('image/jpeg', 0.78), ar); } catch (e) { cb(r.result, ar); }
         };
         img.onerror = function () { showErr('That file could not be read as a picture.'); };
         img.src = r.result;
       };
       r.readAsDataURL(file);
     }
-    function setPhoto(fig, src) {
-      var img = fig.querySelector('img.ph');
-      if (src) {
-        if (!img) { img = document.createElement('img'); img.className = 'ph'; img.alt = fig.getAttribute('data-caption') || 'Household photo'; fig.insertBefore(img, fig.firstChild); }
-        img.src = src; fig.classList.add('has');
-      } else { if (img) img.parentNode.removeChild(img); fig.classList.remove('has'); }
-      markDirty();
+    // photos: one per slot id, kept as CSS rules in <style id="gp-photos"> (one copy in the file,
+    // shown on every page that has the slot, and readable without JavaScript)
+    var photoStyle = document.getElementById('gp-photos'), PHOTOS = {};
+    (photoStyle.textContent || '').replace(/\.ph-([a-z0-9-]+)\{display:block;aspect-ratio:([0-9.]+);background-image:url\(([^)]*)\)\}/g, function (m, id, ar, u) { PHOTOS[id] = { u: u, ar: ar }; return m; });
+    function writePhotos() {
+      photoStyle.textContent = Object.keys(PHOTOS).map(function (id) {
+        return '.ph-' + id + '{display:block;aspect-ratio:' + PHOTOS[id].ar + ';background-image:url(' + PHOTOS[id].u + ')}\n.phf-' + id + ' .frame{display:none}';
+      }).join('\n');
+    }
+    function setPhoto(id, src, ar) {
+      if (src) PHOTOS[id] = { u: src, ar: ar || '1.333' }; else delete PHOTOS[id];
+      writePhotos(); markDirty();
     }
     var figs = document.querySelectorAll('figure.photo');
     for (var i = 0; i < figs.length; i++) (function (fig) {
+      var id = fig.getAttribute('data-slot');
       var box = document.createElement('div'); box.className = 'pbtns jsonly gp-ui';
       var add = document.createElement('button'); add.type = 'button'; add.textContent = 'Add or replace photo';
       var del = document.createElement('button'); del.type = 'button'; del.textContent = 'Remove';
       var inp = document.createElement('input'); inp.type = 'file'; inp.accept = 'image/*'; inp.hidden = true;
       add.onclick = function () { inp.click(); };
-      del.onclick = function () { setPhoto(fig, null); };
-      inp.onchange = function () { if (inp.files && inp.files[0]) downscale(inp.files[0], function (u) { setPhoto(fig, u); }); inp.value = ''; };
+      del.onclick = function () { setPhoto(id, null); };
+      inp.onchange = function () { if (inp.files && inp.files[0]) downscale(inp.files[0], function (u, ar) { setPhoto(id, u, ar); }); inp.value = ''; };
       box.appendChild(add); box.appendChild(del); box.appendChild(inp); fig.appendChild(box);
     })(figs[i]);
 

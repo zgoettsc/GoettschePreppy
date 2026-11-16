@@ -21,3 +21,7 @@ Collected from worker reports; resolved in the integration pass.
 - [x] C08 slots added: station pv_input_max_v/w, panel voc/isc, region.home.latitude, derived.solar_wh_dec/jun, has.hybrid. Medicine-cooler Wh/day left as a fill-in.
 - [ ] C08: photo slot ids reused across pages (station-ports): renderer should share one photo per slot id across the binder. Tell A3.
 - [ ] C08: kettle numbers on 07-06 must match 09-xx.
+- [x] L3: DC-07 row in docs/05 fixed (risk is the DIY wiring, not backfeed). Flag has.adult_over_40 added; DC-22 (30-23) should switch from has.elder to it in integration.
+- [x] L3: household 08-09 propane volume error (1,700 cu ft) fixed in the SHTF binder to ~170 cu ft with LFL arithmetic; C07 warned. Check 28-04 when written.
+- [ ] L3: camp stoves indoors are covered in floor 1's explanation; check 07-05 agrees.
+- [ ] L3: DC-10 humane-end option needs a method section on 20-09 (tell C13). DC-16 last-resort names a published adult antibiotic table not yet printed anywhere: either source one (e.g. CDC/IDSA tables are prescriber-facing) or reword DC-16.

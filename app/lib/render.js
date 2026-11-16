@@ -70,11 +70,13 @@ function cardBox(dc, env) {
   return `\n\n<div class="cardbox"><div><strong>Our choice: ${dc}${card?.title ? ' · ' + escapeValue(card.title) : ''}</strong></div>${opts || '<div class="opt">(Options are printed on the card page.)</div>'}<div class="opt">${chosen}</div><div class="opt dim">Changed by hand to: __________________ Date: __________ Initials: ______</div></div>\n\n`;
 }
 
+// One photo per slot id across the whole binder: a slot id used on several pages (station-ports,
+// kit-locations) shows the same photo everywhere. The photo itself lives once, as a CSS rule in
+// <style id="gp-photos"> (written by the binder runtime), so it is stored a single time.
 function photoSlot(id, env) {
   const slot = (env.page.photo_slots || []).find(s => s.id === id);
   const cap = slot?.caption || id;
-  const key = `${env.page.id}--${id}`;
-  return `\n\n<figure class="photo" id="photo-${key}" data-slot="${key}" data-caption="${esc(cap)}"><div class="frame">Add a photo in the app: ${esc(cap)}<br>Photos stay on this device and are never uploaded.</div><figcaption>${esc(cap)}</figcaption></figure>\n\n`;
+  return `\n\n<figure class="photo phf-${id}" data-slot="${id}" data-caption="${esc(cap)}"><div class="phimg ph-${id}" role="img" aria-label="${esc(cap)}"></div><div class="frame">Add a photo in the app: ${esc(cap)}<br>Photos stay on this device and are never uploaded.</div><figcaption>${esc(cap)}</figcaption></figure>\n\n`;
 }
 
 function figureBlock(id, env) {

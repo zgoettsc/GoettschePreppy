@@ -73,7 +73,11 @@ outdoors. Keep battery CO alarms on every level and where people sleep. → 08-0
 
 ## 2. A generator never feeds the house wiring by itself
 
-**Never connect a generator to house wiring without a transfer switch, interlock, or a cord-and-plug conversion with the main breaker locked off. Never backfeed through an outlet.**
+**Never connect a generator to house wiring except through a transfer switch, or an interlock kit with the main breaker off. Never backfeed through an outlet with a double-male ("suicide") cord.**
+
+A cord-and-plug conversion is not a connection to house wiring: the appliance is unplugged from
+the house outlet and plugged into the generator cord, so nothing reaches the panel (whether to do
+that conversion yourself is DC-07, → 30-08).
 
 **Why there is no choice.** "Backfeeding" means pushing generator power into the house
 wiring, usually with a cord that has a plug on both ends (→ 29-04). That power does not stay
@@ -85,9 +89,11 @@ power comes back, it can also wreck the generator and start a fire. A double-plu
 has bare live pins in someone's hand. There is no way to backfeed "carefully".
 
 **Do this instead.** Run extension cords from the generator to single appliances. If you need
-a furnace or well pump on generator power, use a transfer switch or interlock installed for
-your panel, or a cord-and-plug conversion with its own write-up (→ 09-04). Who does that work
-is a decision card (→ 30-08). Backfeeding is not on that card.
+a furnace or well pump on generator power, either have a transfer switch or interlock kit
+installed for your panel (with an interlock, the main breaker is off whenever the generator
+feeds the panel), or give the appliance its own plug by a cord-and-plug conversion so it can be
+unplugged from the wall and plugged into the generator cord (→ 09-04). Who does the conversion
+work is a decision card (→ 30-08). Backfeeding is never on that card.
 
 {{figure fig-backfeed-path}}
 

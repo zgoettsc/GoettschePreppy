@@ -194,7 +194,38 @@ for (const [id, f] of figEntries) {
 }
 console.log(`figures: ${Object.keys(figures).length}`);
 
-// ---- ai block specs ----------------------------------------------------------------------------
+// ---- ai block specs ----
+// The "## Inputs" section of a spec (content/ai-blocks/README.md): each bullet names backticked
+// context paths. A bullet whose first backticked token is `list[]` projects that list to the
+// backticked field names that follow; after `region`, names are fields of the item's region.
+export function parseAiInputs(md) {
+  const sec = /^##\s+Inputs\b[^\n]*\n([\s\S]*?)(?=^##\s|(?![\s\S]))/m.exec(md);
+  if (!sec) return [];
+  // a parenthesis that says "not" excludes the names inside it: (do **not** use `strength`)
+  const bullets = sec[1].split(/\n(?=\s*[-*]\s)/).map(b => b.replace(/\s+/g, ' ').replace(/\([^)]*\bnot\b[^)]*\)/gi, ''));
+  const out = [];
+  const isPath = t => /^[a-z_][a-z0-9_]*(\.[A-Za-z0-9_-]+)*$/.test(t);
+  for (const b of bullets) {
+    const toks = [...b.matchAll(/`([^`]+)`/g)].map(x => x[1].trim());
+    if (!toks.length) continue;
+    const lm = /^([a-z_][a-z0-9_.]*)\[\]$/.exec(toks[0]);
+    if (lm) {
+      const spec = { list: lm[1], fields: [], region: [] };
+      let inRegion = false;
+      for (const t of toks.slice(1)) {
+        if (t === 'region') { inRegion = true; continue; }
+        if (/^[a-z_][a-z0-9_]*$/.test(t)) (inRegion ? spec.region : spec.fields).push(t);
+      }
+      out.push(spec);
+      continue;
+    }
+    for (let t of toks) {
+      t = t.replace(/\.CL-NN$/, '');
+      if (isPath(t) && !out.includes(t)) out.push(t);
+    }
+  }
+  return out;
+}
 const ai_blocks = {};
 if (exists('content/ai-blocks')) for (const f of fs.readdirSync(path.join(ROOT, 'content/ai-blocks')).sort()) {
   if (!f.endsWith('.md') || f === 'README.md') continue;
@@ -203,7 +234,9 @@ if (exists('content/ai-blocks')) for (const f of fs.readdirSync(path.join(ROOT, 
   let fm = {};
   try { fm = m ? yaml.load(m[1], { schema: yaml.JSON_SCHEMA }) || {} : {}; } catch (e) { warn(`ai block ${f}: ${e.message}`); }
   const id = fm.id || f.replace(/\.md$/, '');
-  ai_blocks[id] = { inputs: fm.inputs || [], max_words: fm.max_words || null, text: stripUrls(text) };
+  const inputs = fm.inputs || parseAiInputs(m ? m[2] : text);
+  if (!inputs.length) warn(`ai block ${id}: no inputs found (see content/ai-blocks/README.md)`);
+  ai_blocks[id] = { inputs, text: stripUrls(text) };
 }
 
 // ---- cards -------------------------------------------------------------------------------------

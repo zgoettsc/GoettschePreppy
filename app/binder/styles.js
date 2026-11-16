@@ -52,8 +52,7 @@ figure.fig,figure.photo{margin:14px 0;background:var(--card);border:1px solid va
 figure.fig svg{max-width:100%;height:auto;display:block;margin:0 auto;background:#fff;border-radius:6px}
 figure figcaption{font-size:13px;color:var(--dim);margin-top:6px}
 figure.photo .frame{min-height:150px;border:2px dashed var(--rule);border-radius:9px;display:flex;align-items:center;justify-content:center;color:var(--dim);font-size:14px;padding:12px;text-align:center}
-figure.photo.has .frame{display:none}
-figure.photo img.ph{display:block;max-width:100%;border-radius:8px}
+.phimg{display:none;width:100%;aspect-ratio:4/3;background-size:contain;background-repeat:no-repeat;background-position:center;border-radius:8px;-webkit-print-color-adjust:exact;print-color-adjust:exact}
 figure.photo .pbtns{margin-top:8px;gap:6px}
 figure.photo .pbtns button{background:var(--bg);color:var(--ink);border:1px solid var(--rule);border-radius:8px;padding:8px 12px;font-size:14px;min-height:40px}
 .plimg{background-size:cover;background-position:center;border-radius:8px;width:100%;aspect-ratio:3/2;-webkit-print-color-adjust:exact;print-color-adjust:exact}
