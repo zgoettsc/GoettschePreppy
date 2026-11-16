@@ -45,7 +45,7 @@ export const CONDITIONS = [
   ['CL-26', 'Severe obesity and bariatric surgery'],
 ];
 
-export const CARD_IDS = Array.from({ length: 24 }, (_, i) => `DC-${String(i + 1).padStart(2, '0')}`);
+export const CARD_IDS = Array.from({ length: 31 }, (_, i) => `DC-${String(i + 1).padStart(2, '0')}`);
 
 export const E = {
   setting: [['urban', 'City'], ['suburban', 'Suburb'], ['small-town', 'Small town'], ['rural', 'Rural, near neighbours'], ['remote', 'Remote, far from neighbours']],

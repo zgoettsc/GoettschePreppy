@@ -212,7 +212,8 @@
    "14-14-safe-storage-and-child-access",
    "20-02-child-safety-offgrid",
    "29-11-ex11-firearms-basics",
-   "30-01-the-floors"
+   "30-01-the-floors",
+   "30-32-dc31-firearm-readiness"
   ]
  },
  {
@@ -596,10 +597,7 @@
   "household_cited_by": [
    "12-16-triage-and-hard-calls"
   ],
-  "cited_by": [
-   "02-09-cl09-high-blood-pressure-and-heart-disease",
-   "12-16-triage-and-hard-calls"
-  ]
+  "cited_by": []
  },
  {
   "key": "american-heart-association-warning-signs-of-a-heart-0ffffa",
@@ -1280,6 +1278,7 @@
    "12-14-wound-closure",
    "12-16-triage-and-hard-calls",
    "12-20-field-dentistry",
+   "12-22-antibiotics-by-condition",
    "13-11-disease-outbreak",
    "17-09-pandemic-and-illness",
    "18-08-dental-care-as-community-asset",
@@ -1686,7 +1685,8 @@
    "30-08-dc07-diy-cord-and-plug-conversion",
    "30-18-dc17-old-fuel",
    "30-21-dc20-open-flame-indoors",
-   "30-22-dc21-uninspected-fireplace-or-stove"
+   "30-22-dc21-uninspected-fireplace-or-stove",
+   "30-31-dc30-wood-stove-banked-overnight"
   ]
  },
  {
@@ -2549,7 +2549,8 @@
    "17-04-extreme-cold-and-heat",
    "21-07-sleep",
    "30-02-dc01-unvented-heater-overnight",
-   "30-10-dc09-infant-bed-sharing"
+   "30-10-dc09-infant-bed-sharing",
+   "30-31-dc30-wood-stove-banked-overnight"
   ]
  },
  {
@@ -2929,6 +2930,8 @@
    "02-19-cl19-celiac-and-severe-gi-disease",
    "12-05-common-illness-and-dehydration",
    "12-07-meds-stockpile",
+   "12-22-antibiotics-by-condition",
+   "12-23-antibiotics-by-drug",
    "30-14-dc13-drinking-pool-or-surface-water"
   ],
   "capture_note": "Checked 2026-11-16 (R19): URL is the current page (read through the web fetcher: \"In mild cases, rehydration can be maintained with any preferred liquid (including sports drinks)\"); cdc.gov refuses plain curl (403), which is why the archive holds a landing page (R15). Re-capture with a browser-like fetch."
@@ -2949,7 +2952,8 @@
    "06-02-sustaining-fire",
    "06-09-chimney-and-creosote",
    "08-08-wood-heat-operation",
-   "30-22-dc21-uninspected-fireplace-or-stove"
+   "30-22-dc21-uninspected-fireplace-or-stove",
+   "30-31-dc30-wood-stove-banked-overnight"
   ]
  },
  {
@@ -3251,7 +3255,8 @@
    "06-05-alternative-fuels",
    "06-09-chimney-and-creosote",
    "08-08-wood-heat-operation",
-   "30-22-dc21-uninspected-fireplace-or-stove"
+   "30-22-dc21-uninspected-fireplace-or-stove",
+   "30-31-dc30-wood-stove-banked-overnight"
   ]
  },
  {
@@ -3763,6 +3768,7 @@
   ],
   "cited_by": [
    "12-07-meds-stockpile",
+   "12-23-antibiotics-by-drug",
    "30-05-dc04-expired-medication",
    "30-17-dc16-antibiotics-without-a-prescription"
   ],
@@ -5158,7 +5164,8 @@
    "14-15-dry-practice-doctrine",
    "29-11-ex11-firearms-basics",
    "30-12-dc11-shooting-on-your-property",
-   "30-13-dc12-defensive-use-of-force"
+   "30-13-dc12-defensive-use-of-force",
+   "30-32-dc31-firearm-readiness"
   ]
  },
  {
@@ -5177,7 +5184,8 @@
    "20-02-child-safety-offgrid",
    "29-11-ex11-firearms-basics",
    "30-01-the-floors",
-   "30-12-dc11-shooting-on-your-property"
+   "30-12-dc11-shooting-on-your-property",
+   "30-32-dc31-firearm-readiness"
   ]
  },
  {
@@ -6065,7 +6073,9 @@
    "06-09-chimney-and-creosote",
    "07-01-cooking-on-an-open-fire",
    "08-08-wood-heat-operation",
-   "30-22-dc21-uninspected-fireplace-or-stove"
+   "21-07-sleep",
+   "30-22-dc21-uninspected-fireplace-or-stove",
+   "30-31-dc30-wood-stove-banked-overnight"
   ]
  },
  {
@@ -6415,7 +6425,8 @@
    "24-03-seasonal-practice-plan",
    "25-02-conversions-and-math",
    "26-05-checklist-heat-power-light",
-   "29-13-ex13-measuring-without-instruments"
+   "29-13-ex13-measuring-without-instruments",
+   "30-31-dc30-wood-stove-banked-overnight"
   ]
  },
  {
@@ -11550,6 +11561,7 @@
   "household_cited_by": [],
   "cited_by": [
    "12-02-bleeding-and-wounds",
+   "12-24-tccc-antibiotics-as-published",
    "30-01-the-floors",
    "30-26-dc25-tourniquet-conversion-no-help-coming"
   ],
@@ -12156,7 +12168,8 @@
   "url": "https://www.cdc.gov/ticks/after-a-tick-bite/index.html",
   "household_cited_by": [],
   "cited_by": [
-   "05-19-destination-foraging-and-hazards"
+   "05-19-destination-foraging-and-hazards",
+   "12-22-antibiotics-by-condition"
   ],
   "added_by": "R2"
  },
@@ -12499,7 +12512,8 @@
   "url": "https://www.cpsc.gov/Recalls/2024/Fortress-Safe-Announces-Recall-of-Biometric-Gun-Safes-Due-to-Serious-Injury-Hazard-and-Risk-of-Death-One-Death-Reported",
   "household_cited_by": [],
   "cited_by": [
-   "14-14-safe-storage-and-child-access"
+   "14-14-safe-storage-and-child-access",
+   "30-32-dc31-firearm-readiness"
   ],
   "added_by": "R4"
  },
@@ -14517,6 +14531,8 @@
   "url": "https://www.cdc.gov/antibiotic-use/about/index.html",
   "household_cited_by": [],
   "cited_by": [
+   "12-22-antibiotics-by-condition",
+   "12-23-antibiotics-by-drug",
    "30-16-dc15-someone-elses-prescription",
    "30-17-dc16-antibiotics-without-a-prescription"
   ],
@@ -15027,5 +15043,540 @@
    "20-09-pets"
   ],
   "added_by": "R16"
+ },
+ {
+  "key": "who-aware-antibiotic-book-2022",
+  "title": "The WHO AWaRe (Access, Watch, Reserve) antibiotic book",
+  "org": "World Health Organization",
+  "date": "2022-12-09",
+  "licence_class": "open",
+  "licence_note": "CC BY-NC-SA 3.0 IGO (stated on the copyright page). ISBN 978-92-4-006238-2. Read in full for the chapters used by L7 on 2026-11-16 (697-page PDF from WHO IRIS, text-extracted): allergy ch. 3; bronchitis 4; otitis media 5 (Table 5.3); pharyngitis 6 (Table 6.5); sinusitis 7 (Table 7.3); dental 8 (Table 8.4); eye 10 (Table 10.3); mild CAP 12 (Tables 12.2, 12.4, 12.5); diarrhoea 14 (Tables 14.6, 14.7); skin 16 (Table 16.4); wounds and bites 18 (Tables 18.3, 18.4); lower UTI 23 (Table 23.5); upper UTI 34 (Table 34.5); dosing chapters 49-50. Every table states doses are for normal renal and hepatic function; the book gives no penicillin-allergy alternatives.",
+  "url": "https://iris.who.int/bitstreams/61517f8b-3a34-413c-ae36-67a059ebe485/download",
+  "household_cited_by": [],
+  "cited_by": [
+   "12-22-antibiotics-by-condition",
+   "12-23-antibiotics-by-drug",
+   "12-24-tccc-antibiotics-as-published",
+   "30-17-dc16-antibiotics-without-a-prescription"
+  ],
+  "added_by": "L7"
+ },
+ {
+  "key": "idsa-gas-pharyngitis-guideline-2012",
+  "title": "Clinical Practice Guideline for the Diagnosis and Management of Group A Streptococcal Pharyngitis: 2012 Update by the Infectious Diseases Society of America (Shulman ST et al., Clin Infect Dis 55(10):e86-102)",
+  "org": "Infectious Diseases Society of America (IDSA)",
+  "date": "2012-09-09",
+  "licence_class": "restricted",
+  "licence_note": "Journal article (Oxford University Press). PMC record has no full text body. Table 2 read by L7 on 2026-11-16 via the fetch tool: penicillin V, amoxicillin (50 mg/kg once daily, max 1000 mg; or 25 mg/kg max 500 mg twice daily), benzathine penicillin G, and allergy options cephalexin, cefadroxil, clindamycin, azithromycin, clarithromycin with maximums and durations; avoid cephalosporins in immediate-type penicillin hypersensitivity.",
+  "url": "https://doi.org/10.1093/cid/cis629",
+  "household_cited_by": [],
+  "cited_by": [
+   "12-22-antibiotics-by-condition",
+   "12-23-antibiotics-by-drug"
+  ],
+  "added_by": "L7"
+ },
+ {
+  "key": "idsa-acute-bacterial-rhinosinusitis-guideline-2012",
+  "title": "IDSA Clinical Practice Guideline for Acute Bacterial Rhinosinusitis in Children and Adults (Chow AW et al., Clin Infect Dis 54(8):e72-e112)",
+  "org": "Infectious Diseases Society of America (IDSA)",
+  "date": "2012-03-20",
+  "licence_class": "restricted",
+  "licence_note": "Journal article (Oxford University Press). Tables 9 (children) and 10 (adults) and recommendations 11, 12, 14, 15 read by L7 on 2026-11-16 via the fetch tool: amoxicillin-clavulanate first and second line doses; allergy options (doxycycline, levofloxacin, moxifloxacin; clindamycin plus cefixime or cefpodoxime in children); duration 5-7 days adults, 10-14 days children.",
+  "url": "https://doi.org/10.1093/cid/cir1043",
+  "household_cited_by": [],
+  "cited_by": [
+   "12-22-antibiotics-by-condition"
+  ],
+  "added_by": "L7"
+ },
+ {
+  "key": "ats-idsa-adult-cap-guideline-2019",
+  "title": "Diagnosis and Treatment of Adults with Community-acquired Pneumonia. An Official Clinical Practice Guideline of the American Thoracic Society and Infectious Diseases Society of America (Metlay JP et al., Am J Respir Crit Care Med 200(7):e45-e67)",
+  "org": "American Thoracic Society and Infectious Diseases Society of America",
+  "date": "2019-10-01",
+  "licence_class": "restricted",
+  "licence_note": "Copyright 2019 American Thoracic Society (\"You may print one copy of this document at no charge\"). Full text read by L7 on 2026-11-16 (Europe PMC, PMC6812437): outpatient regimens (Question 8, Table 3) and duration (minimum 5 days).",
+  "url": "https://doi.org/10.1164/rccm.201908-1581ST",
+  "household_cited_by": [],
+  "cited_by": [
+   "12-22-antibiotics-by-condition"
+  ],
+  "added_by": "L7"
+ },
+ {
+  "key": "pids-idsa-pediatric-cap-guideline-2011",
+  "title": "The Management of Community-Acquired Pneumonia in Infants and Children Older Than 3 Months of Age: Clinical Practice Guidelines by the Pediatric Infectious Diseases Society and the Infectious Diseases Society of America (Bradley JS et al., Clin Infect Dis 53(7):e25-76)",
+  "org": "Pediatric Infectious Diseases Society and Infectious Diseases Society of America",
+  "date": "2011-08-31",
+  "licence_class": "restricted",
+  "licence_note": "Journal article (Oxford University Press). Table 7 outpatient empiric therapy and recommendations 41-44 read by L7 on 2026-11-16 via the fetch tool (amoxicillin 90 mg/kg/day in 2 doses, max 4 g/day for 5 years and over, footnote \"Not evaluated prospectively for safety\"; azithromycin regimen with maximums).",
+  "url": "https://doi.org/10.1093/cid/cir531",
+  "household_cited_by": [],
+  "cited_by": [
+   "12-22-antibiotics-by-condition"
+  ],
+  "added_by": "L7"
+ },
+ {
+  "key": "idsa-escmid-cystitis-pyelonephritis-guideline-2011",
+  "title": "International Clinical Practice Guidelines for the Treatment of Acute Uncomplicated Cystitis and Pyelonephritis in Women: A 2010 Update by the Infectious Diseases Society of America and the European Society for Microbiology and Infectious Diseases (Gupta K et al., Clin Infect Dis 52(5):e103-20)",
+  "org": "Infectious Diseases Society of America (IDSA) and European Society for Microbiology and Infectious Diseases (ESCMID)",
+  "date": "2011-03-01",
+  "licence_class": "restricted",
+  "licence_note": "Journal article (Oxford University Press). Treatment recommendations read by L7 on 2026-11-16 via the fetch tool: nitrofurantoin 100 mg twice daily 5 days; TMP-SMX 160/800 mg twice daily 3 days where resistance <=20%; fosfomycin 3 g single dose; fluoroquinolones reserved; pyelonephritis ciprofloxacin 500 mg twice daily 7 days, levofloxacin 750 mg 5 days, TMP-SMX 14 days if susceptible, beta-lactams 10-14 days.",
+  "url": "https://doi.org/10.1093/cid/ciq257",
+  "household_cited_by": [],
+  "cited_by": [
+   "12-22-antibiotics-by-condition"
+  ],
+  "added_by": "L7"
+ },
+ {
+  "key": "idsa-ssti-guideline-2014",
+  "title": "Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections: 2014 Update by the Infectious Diseases Society of America (Stevens DL et al., Clin Infect Dis 59(2):e10-52)",
+  "org": "Infectious Diseases Society of America (IDSA)",
+  "date": "2014-07-15",
+  "licence_class": "restricted",
+  "licence_note": "Journal article (Oxford University Press). Table 2 (adult and pediatric oral doses for cephalexin, dicloxacillin, clindamycin MSSA and MRSA rows, TMP-SMX, doxycycline, penicillin VK), animal-bite table (adult oral amoxicillin-clavulanate 875/125 mg bid, doxycycline 100 mg bid), and recommendations on abscess drainage, SIRS, cellulitis duration (5 days) and pre-emptive bite therapy (3-5 days) read by L7 on 2026-11-16 via the fetch tool.",
+  "url": "https://doi.org/10.1093/cid/ciu444",
+  "household_cited_by": [],
+  "cited_by": [
+   "12-22-antibiotics-by-condition"
+  ],
+  "added_by": "L7"
+ },
+ {
+  "key": "cdc-lyme-erythema-migrans-treatment-2026",
+  "title": "Clinical Treatment of Erythema Migrans Rash (Lyme Disease)",
+  "org": "CDC",
+  "date": "2026-03-27",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work. Read by L7 on 2026-11-16 via the fetch tool: adult and child doxycycline, amoxicillin and cefuroxime regimens with per-dose maximums and durations; azithromycin as a less effective option without a printed dose.",
+  "url": "https://www.cdc.gov/lyme/hcp/clinical-care/erythema-migrans-rash.html",
+  "household_cited_by": [],
+  "cited_by": [
+   "12-22-antibiotics-by-condition"
+  ],
+  "added_by": "L7"
+ },
+ {
+  "key": "cdc-rmsf-clinical-care-2025",
+  "title": "Clinical Care of Rocky Mountain Spotted Fever",
+  "org": "CDC",
+  "date": "2025-03-06",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work. Read by L7 on 2026-11-16 via the fetch tool: doxycycline first-line for adults and children of all ages; adults 100 mg every 12 hours; children under 45 kg 2.2 mg/kg twice a day; at least 3 days after fever subsides, minimum 5 to 7 days.",
+  "url": "https://www.cdc.gov/rocky-mountain-spotted-fever/hcp/clinical-care/index.html",
+  "household_cited_by": [],
+  "cited_by": [
+   "12-22-antibiotics-by-condition"
+  ],
+  "added_by": "L7"
+ },
+ {
+  "key": "cdc-outpatient-clinical-care-adults-2024",
+  "title": "Outpatient Clinical Care for Adults (Antibiotic Prescribing and Use)",
+  "org": "CDC",
+  "date": "2024-04-16",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work. Read by L7 on 2026-11-16 via the fetch tool (direct download refused by the CDC server): first-line agents named for sinusitis, pharyngitis and cystitis without doses; bronchitis antibiotics not recommended; oral beta-lactam course for pharyngitis 10 days.",
+  "url": "https://www.cdc.gov/antibiotic-use/hcp/clinical-care/adult-outpatient.html",
+  "household_cited_by": [],
+  "cited_by": [
+   "12-22-antibiotics-by-condition"
+  ],
+  "added_by": "L7"
+ },
+ {
+  "key": "cdc-outpatient-clinical-care-pediatric-2024",
+  "title": "Outpatient Clinical Care for Pediatric Populations (Antibiotic Prescribing and Use)",
+  "org": "CDC",
+  "date": "2024-04-22",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work. Read by L7 on 2026-11-16 via the fetch tool: no mg doses printed; UTI duration 7-14 days in children 2-24 months; beta-lactam course for pharyngitis 10 days.",
+  "url": "https://www.cdc.gov/antibiotic-use/hcp/clinical-care/pediatric-outpatient.html",
+  "household_cited_by": [],
+  "cited_by": [
+   "12-22-antibiotics-by-condition"
+  ],
+  "added_by": "L7"
+ },
+ {
+  "key": "fda-unapproved-animal-antimicrobials-warning-2023",
+  "title": "FDA Warns Nine Manufacturers, Distributors of Unapproved Antimicrobials for Animals (News Release)",
+  "org": "US FDA",
+  "date": "2023-12-14",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work. Read by L7 on 2026-11-16 via the fetch tool: products for aquarium fish and pet birds are unapproved and misbranded; FDA has not verified safety or effectiveness; \"we don't know whether they're safe or effective, or even contain what the label states\"; human self-treatment could delay effective treatment and worsen resistance; dispose of them.",
+  "url": "https://www.fda.gov/news-events/press-announcements/fda-warns-nine-manufacturers-distributors-unapproved-antimicrobials-animals",
+  "household_cited_by": [],
+  "cited_by": [
+   "12-23-antibiotics-by-drug",
+   "30-17-dc16-antibiotics-without-a-prescription"
+  ],
+  "added_by": "L7"
+ },
+ {
+  "key": "dailymed-amoxicillin-teva-label-l7",
+  "title": "AMOXICILLIN tablets, capsules, chewable tablets and for oral suspension: prescribing information",
+  "org": "DailyMed (US National Library of Medicine); labeling supplied by the manufacturer (Teva Pharmaceuticals USA)",
+  "date": "2024-05-22",
+  "licence_class": "restricted",
+  "licence_note": "Manufacturer's FDA-approved prescribing information as posted on DailyMed. Read by L7 on 2026-11-16 (SPL XML from the DailyMed services API): Table 1 dosing; under-12-weeks upper dose 30 mg/kg/day; suspensions 200, 250 and 400 mg/5 mL; calibrated oral syringe; discard mixed suspension after 14 days; mononucleosis rash; DIES; contraindications.",
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4c0f348a-a65d-409c-8668-207c82a5e3cb",
+  "household_cited_by": [],
+  "cited_by": [
+   "12-22-antibiotics-by-condition",
+   "12-23-antibiotics-by-drug",
+   "30-17-dc16-antibiotics-without-a-prescription"
+  ],
+  "added_by": "L7"
+ },
+ {
+  "key": "dailymed-amoxicillin-clavulanate-teva-label-l7",
+  "title": "AMOXICILLIN AND CLAVULANATE POTASSIUM tablets, for oral suspension and chewable tablets: prescribing information",
+  "org": "DailyMed (US National Library of Medicine); labeling supplied by the manufacturer (Teva Pharmaceuticals USA)",
+  "date": "2024-06-01",
+  "licence_class": "restricted",
+  "licence_note": "Manufacturer's FDA-approved prescribing information as posted on DailyMed. Read by L7 on 2026-11-16 (SPL XML from the DailyMed services API): adult and pediatric dosing (otitis media 45 mg/kg/day every 12 hours, 10 days); 250/125 tablets not substitutable; strengths; refrigerate mixed suspension and discard after 10 days; liver contraindication.",
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=963e7bea-ff5d-420a-9cb2-e4aefb534b33",
+  "household_cited_by": [],
+  "cited_by": [
+   "12-22-antibiotics-by-condition",
+   "12-23-antibiotics-by-drug"
+  ],
+  "added_by": "L7"
+ },
+ {
+  "key": "dailymed-augmentin-es600-label-l7",
+  "title": "AUGMENTIN ES-600 (amoxicillin and clavulanate potassium) for oral suspension: prescribing information",
+  "org": "DailyMed (US National Library of Medicine); labeling supplied by the manufacturer (USAntibiotics)",
+  "date": "2026-07-07",
+  "licence_class": "restricted",
+  "licence_note": "Manufacturer's FDA-approved prescribing information as posted on DailyMed. Read by L7 on 2026-11-16 (SPL XML from the DailyMed services API): 90 mg/kg/day divided every 12 hours for 10 days, children 3 months to 12 years and 40 kg or less, recurrent or persistent otitis media; different clavulanate content from other suspensions; refrigerate, discard after 10 days.",
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=59979859-8c9b-4173-a5e3-2e6312fd9d79",
+  "household_cited_by": [],
+  "cited_by": [
+   "12-22-antibiotics-by-condition",
+   "12-23-antibiotics-by-drug"
+  ],
+  "added_by": "L7"
+ },
+ {
+  "key": "dailymed-penicillin-v-teva-label-l7",
+  "title": "PENICILLIN V POTASSIUM tablets and for oral solution: prescribing information",
+  "org": "DailyMed (US National Library of Medicine); labeling supplied by the manufacturer (Teva Pharmaceuticals USA)",
+  "date": "2023-01-31",
+  "licence_class": "restricted",
+  "licence_note": "Manufacturer's FDA-approved prescribing information as posted on DailyMed. Read by L7 on 2026-11-16 (SPL XML from the DailyMed services API): streptococcal dosing 125 to 250 mg every 6 to 8 hours for 10 days (adults and children 12 and over); tablets 250 and 500 mg; solution 125 and 250 mg per 5 mL; refrigerate solution, discard after 14 days; contraindicated after any penicillin reaction.",
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3111ca84-6f8e-45ea-91a1-9cb99c63607e",
+  "household_cited_by": [],
+  "cited_by": [
+   "12-22-antibiotics-by-condition",
+   "12-23-antibiotics-by-drug"
+  ],
+  "added_by": "L7"
+ },
+ {
+  "key": "dailymed-cephalexin-teva-capsules-label-l7",
+  "title": "CEPHALEXIN capsules: prescribing information",
+  "org": "DailyMed (US National Library of Medicine); labeling supplied by the manufacturer (Teva Pharmaceuticals USA)",
+  "date": "2026-08-01",
+  "licence_class": "restricted",
+  "licence_note": "Manufacturer's FDA-approved prescribing information as posted on DailyMed. Read by L7 on 2026-11-16 (SPL XML from the DailyMed services API): capsules 250 and 500 mg; contraindications; warnings (hypersensitivity, C. diff, seizures with renal impairment, prothrombin time); metformin interaction; pregnancy risk summary; storage.",
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=19307ff0-71de-477b-965d-ea243e5ede3a",
+  "household_cited_by": [],
+  "cited_by": [
+   "12-23-antibiotics-by-drug"
+  ],
+  "added_by": "L7"
+ },
+ {
+  "key": "dailymed-cephalexin-teva-suspension-label-l7",
+  "title": "CEPHALEXIN for oral suspension: prescribing information",
+  "org": "DailyMed (US National Library of Medicine); labeling supplied by the manufacturer (Teva Pharmaceuticals USA)",
+  "date": "2026-09-02",
+  "licence_class": "restricted",
+  "licence_note": "Manufacturer's FDA-approved prescribing information as posted on DailyMed. Read by L7 on 2026-11-16 (SPL XML from the DailyMed services API): 125 and 250 mg/5 mL; refrigerate after mixing, 14 days.",
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5858b90a-a80d-40b4-9275-b89e9121ea42",
+  "household_cited_by": [],
+  "cited_by": [
+   "12-23-antibiotics-by-drug"
+  ],
+  "added_by": "L7"
+ },
+ {
+  "key": "dailymed-cefdinir-suspension-label-l7",
+  "title": "CEFDINIR for oral suspension: prescribing information",
+  "org": "DailyMed (US National Library of Medicine); labeling supplied by the manufacturer (Ascend Laboratories)",
+  "date": "2026-10-22",
+  "licence_class": "restricted",
+  "licence_note": "Manufacturer's FDA-approved prescribing information as posted on DailyMed. Read by L7 on 2026-11-16 (SPL XML from the DailyMed services API): pediatric dosing 14 mg/kg/day up to 600 mg per day; otitis media 7 mg/kg q12h (5 to 10 days) or 14 mg/kg q24h (10 days); antacid interaction; mixed suspension 10 days at room temperature; cephalosporin contraindication.",
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=efb5a975-75ec-46e1-ba84-f68d0b9bf36f",
+  "household_cited_by": [],
+  "cited_by": [
+   "12-22-antibiotics-by-condition",
+   "12-23-antibiotics-by-drug"
+  ],
+  "added_by": "L7"
+ },
+ {
+  "key": "dailymed-cefuroxime-axetil-aurobindo-label-l7",
+  "title": "CEFUROXIME AXETIL tablets: prescribing information",
+  "org": "DailyMed (US National Library of Medicine); labeling supplied by the manufacturer (Aurobindo Pharma)",
+  "date": "2024-04-29",
+  "licence_class": "restricted",
+  "licence_note": "Manufacturer's FDA-approved prescribing information as posted on DailyMed. Read by L7 on 2026-11-16 (SPL XML from the DailyMed services API): tablets and suspension not bioequivalent or substitutable mg per mg; bitter taste when crushed; contraindications; storage.",
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=faef39e9-d793-4191-a728-310f6fab759d",
+  "household_cited_by": [],
+  "cited_by": [
+   "12-23-antibiotics-by-drug"
+  ],
+  "added_by": "L7"
+ },
+ {
+  "key": "dailymed-doxycycline-chartwell-label-l7",
+  "title": "DOXYCYCLINE HYCLATE tablets and capsules and DOXYCYCLINE for oral suspension: prescribing information",
+  "org": "DailyMed (US National Library of Medicine); labeling supplied by the manufacturer (Chartwell)",
+  "date": "2026-10-16",
+  "licence_class": "restricted",
+  "licence_note": "Manufacturer's FDA-approved prescribing information as posted on DailyMed. Read by L7 on 2026-11-16 (SPL XML from the DailyMed services API): tooth discoloration warning under 8 years and use only in severe or life-threatening conditions; intracranial hypertension; photosensitivity; oesophageal ulcers; interactions; pediatric dosing (45 kg threshold); suspension 25 mg/5 mL; storage.",
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3e7cf78f-3b48-4614-9fa4-c6d1e0c05a35",
+  "household_cited_by": [],
+  "cited_by": [
+   "12-22-antibiotics-by-condition",
+   "12-23-antibiotics-by-drug"
+  ],
+  "added_by": "L7"
+ },
+ {
+  "key": "dailymed-zithromax-label-l7",
+  "title": "ZITHROMAX (azithromycin) tablets and for oral suspension: prescribing information",
+  "org": "DailyMed (US National Library of Medicine); labeling supplied by the manufacturer (Pfizer)",
+  "date": "2026-07-24",
+  "licence_class": "restricted",
+  "licence_note": "Manufacturer's FDA-approved prescribing information as posted on DailyMed. Read by L7 on 2026-11-16 (SPL XML from the DailyMed services API): pediatric dosing by indication (otitis media, sinusitis, pneumonia, pharyngitis); QT prolongation; cardiovascular death; hepatotoxicity; IHPS; suspension 100 and 200 mg/5 mL; storage and 10-day use of mixed suspension.",
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=db52b91e-79f7-4cc1-9564-f2eee8e31c45",
+  "household_cited_by": [],
+  "cited_by": [
+   "12-22-antibiotics-by-condition",
+   "12-23-antibiotics-by-drug"
+  ],
+  "added_by": "L7"
+ },
+ {
+  "key": "dailymed-bactrim-label-l7",
+  "title": "BACTRIM and BACTRIM DS (sulfamethoxazole and trimethoprim) tablets: prescribing information",
+  "org": "DailyMed (US National Library of Medicine); labeling supplied by the manufacturer (Sun Pharmaceutical Industries)",
+  "date": "2024-12-30",
+  "licence_class": "restricted",
+  "licence_note": "Manufacturer's FDA-approved prescribing information as posted on DailyMed. Read by L7 on 2026-11-16 (SPL XML from the DailyMed services API): strengths 800/160 and 400/80 mg; contraindications (including under 2 months); embryofetal toxicity; fatal reactions; not for group A strep; hyperkalemia; interactions.",
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f59d0c04-9c66-4d53-a0e1-cb55570deb62",
+  "household_cited_by": [],
+  "cited_by": [
+   "12-23-antibiotics-by-drug"
+  ],
+  "added_by": "L7"
+ },
+ {
+  "key": "dailymed-macrobid-label-l7",
+  "title": "MACROBID (nitrofurantoin monohydrate/macrocrystals) capsules: prescribing information",
+  "org": "DailyMed (US National Library of Medicine); labeling supplied by the manufacturer (Almatica Pharma)",
+  "date": "2025-10-14",
+  "licence_class": "restricted",
+  "licence_note": "Manufacturer's FDA-approved prescribing information as posted on DailyMed. Read by L7 on 2026-11-16 (SPL XML from the DailyMed services API): one 100 mg capsule every 12 hours for seven days (adults and pediatric patients over 12 years); cystitis only, not pyelonephritis; contraindications; pulmonary, hepatic, neuropathy and hemolysis warnings; storage.",
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8f270a9f-12a1-44d4-bc7e-873613555801",
+  "household_cited_by": [],
+  "cited_by": [
+   "12-22-antibiotics-by-condition",
+   "12-23-antibiotics-by-drug"
+  ],
+  "added_by": "L7"
+ },
+ {
+  "key": "dailymed-cipro-bayer-label-l7",
+  "title": "CIPRO (ciprofloxacin hydrochloride) tablets and oral suspension: prescribing information",
+  "org": "DailyMed (US National Library of Medicine); labeling supplied by the manufacturer (Bayer HealthCare Pharmaceuticals)",
+  "date": "2026-03-02",
+  "licence_class": "restricted",
+  "licence_note": "Manufacturer's FDA-approved prescribing information as posted on DailyMed. Read by L7 on 2026-11-16 (SPL XML from the DailyMed services API): boxed warning; tendon, neuropathy, CNS, myasthenia; aortic aneurysm; blood glucose; pediatric musculoskeletal; tizanidine contraindication; cation and dairy interactions; tablets 250 and 500 mg; suspension 5% (250 mg/5 mL) and 10% (500 mg/5 mL).",
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=888dc7f9-ad9c-4c00-8d50-8ddfd9bd27c0",
+  "household_cited_by": [],
+  "cited_by": [
+   "12-23-antibiotics-by-drug"
+  ],
+  "added_by": "L7"
+ },
+ {
+  "key": "dailymed-levofloxacin-aurobindo-label-l7",
+  "title": "LEVOFLOXACIN tablets: prescribing information",
+  "org": "DailyMed (US National Library of Medicine); labeling supplied by the manufacturer (Aurobindo Pharma)",
+  "date": "2024-06-20",
+  "licence_class": "restricted",
+  "licence_note": "Manufacturer's FDA-approved prescribing information as posted on DailyMed. Read by L7 on 2026-11-16 (SPL XML from the DailyMed services API): boxed warning (fluoroquinolone class); pediatric use only for anthrax and plague; contraindications; tablets 250, 500 and 750 mg.",
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=529ac72c-c4a0-4001-8cf9-b94f5bf7265c",
+  "household_cited_by": [],
+  "cited_by": [
+   "12-23-antibiotics-by-drug"
+  ],
+  "added_by": "L7"
+ },
+ {
+  "key": "dailymed-cleocin-hcl-label-l7",
+  "title": "CLEOCIN HCl (clindamycin hydrochloride) capsules: prescribing information",
+  "org": "DailyMed (US National Library of Medicine); labeling supplied by the manufacturer (Pharmacia & Upjohn, Pfizer)",
+  "date": "2026-09-16",
+  "licence_class": "restricted",
+  "licence_note": "Manufacturer's FDA-approved prescribing information as posted on DailyMed. Read by L7 on 2026-11-16 (SPL XML from the DailyMed services API): boxed C. difficile warning; reserve for serious infections; take with a full glass of water and 30 minutes before lying down; tartrazine; capsules 75, 150, 300 mg.",
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=df9a2a41-b132-4f43-8940-b2d773b1369a",
+  "household_cited_by": [],
+  "cited_by": [
+   "12-23-antibiotics-by-drug"
+  ],
+  "added_by": "L7"
+ },
+ {
+  "key": "dailymed-cleocin-pediatric-label-l7",
+  "title": "CLEOCIN PEDIATRIC (clindamycin palmitate hydrochloride) granules for oral solution: prescribing information",
+  "org": "DailyMed (US National Library of Medicine); labeling supplied by the manufacturer (Pharmacia & Upjohn, Pfizer)",
+  "date": "2026-06-01",
+  "licence_class": "restricted",
+  "licence_note": "Manufacturer's FDA-approved prescribing information as posted on DailyMed. Read by L7 on 2026-11-16 (SPL XML from the DailyMed services API): 75 mg per 5 mL; do not refrigerate reconstituted solution; stable 2 weeks at room temperature.",
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1ef87b6c-9d32-44ac-8c55-8bf01424cc45",
+  "household_cited_by": [],
+  "cited_by": [
+   "12-23-antibiotics-by-drug"
+  ],
+  "added_by": "L7"
+ },
+ {
+  "key": "dailymed-flagyl-label-l7",
+  "title": "FLAGYL (metronidazole) capsules, 375 mg: prescribing information",
+  "org": "DailyMed (US National Library of Medicine); labeling supplied by the manufacturer (Pfizer)",
+  "date": "2026-05-22",
+  "licence_class": "restricted",
+  "licence_note": "Manufacturer's FDA-approved prescribing information as posted on DailyMed. Read by L7 on 2026-11-16 (SPL XML from the DailyMed services API): boxed carcinogenicity warning; contraindications (alcohol, disulfiram, Cockayne syndrome, trichomoniasis in first trimester); nervous system effects; warfarin, lithium, busulfan interactions; indications.",
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a2883ca1-5a9a-4259-9d80-46ab67274384",
+  "household_cited_by": [],
+  "cited_by": [
+   "12-23-antibiotics-by-drug"
+  ],
+  "added_by": "L7"
+ },
+ {
+  "key": "travis-industries-lopi-parlor-wood-stove-owners-manual-l8",
+  "title": "Lopi Parlor Wood Stove Owner's Manual (100-01141)",
+  "org": "Travis Industries, Inc. (Lopi)",
+  "date": "2006",
+  "licence_class": "restricted",
+  "licence_note": "Manufacturer's manual, copyright Travis Industries. Read by L8 2026-11-16 (PDF copy hosted by a parts retailer). Facts used: 'Overnight Burn' steps (high burn about 15 minutes, load as much wood as possible in large pieces, 15 more minutes on high, then air control to low; stove still hot with embers in the morning); stove thermometer for over-firing; young children supervised in the same room.",
+  "url": "https://www.fireplacedoorsonline.com/images/companies/5/manuals/Glass/Lopi/Lopi_Parlor_Owners_Manual.pdf",
+  "household_cited_by": [],
+  "cited_by": [
+   "30-31-dc30-wood-stove-banked-overnight"
+  ],
+  "added_by": "L8"
+ },
+ {
+  "key": "sbi-wood-stove-owners-manual-part1-46231-l8",
+  "title": "Wood Stove Owner's Manual, Part 1 of 2: Safety Notifications and General Information (46231_UA, 2023-04-28)",
+  "org": "Stove Builder International Inc. (Drolet)",
+  "date": "2023-04-28",
+  "licence_class": "restricted",
+  "licence_note": "Manufacturer's manual, copyright Stove Builder International. Read by L8 2026-11-16. Facts used: manufacturer-set minimum low burn rate must not be altered; wood must be flaming brightly before the air is reduced or the fire can smoulder; smouldering smoky fires quickly build creosote; a smaller fire giving 3 to 4 hours is preferable to a fully loaded firebox for a much longer burn; a CO detector and smoke detector are required in the room where the stove is installed.",
+  "url": "https://www.drolet.ca/file/46231_UA_2023-04-28.pdf",
+  "household_cited_by": [],
+  "cited_by": [
+   "30-31-dc30-wood-stove-banked-overnight"
+  ],
+  "added_by": "L8"
+ },
+ {
+  "key": "medlineplus-heart-attack-first-aid-l8",
+  "title": "Heart attack first aid (Medical Encyclopedia; review date 10/7/2024)",
+  "org": "MedlinePlus (US National Library of Medicine / NIH)",
+  "date": "2024-10-07",
+  "licence_class": "restricted",
+  "licence_note": "MedlinePlus licensed content (A.D.A.M. encyclopedia): copyrighted, not public domain. Read by L8 2026-11-16 (live page). Quoted: the aspirin paragraph under First Aid, word for word.",
+  "url": "https://medlineplus.gov/ency/article/000063.htm",
+  "household_cited_by": [],
+  "cited_by": [
+   "02-09-cl09-high-blood-pressure-and-heart-disease",
+   "12-16-triage-and-hard-calls"
+  ],
+  "added_by": "L8"
+ },
+ {
+  "key": "aha-arc-2024-guidelines-for-first-aid-l8",
+  "title": "2024 American Heart Association and American Red Cross Guidelines for First Aid (Circulation 2024;150(24):e519-e579; PMID 39540278)",
+  "org": "American Heart Association and American Red Cross",
+  "date": "2024-11-14",
+  "licence_class": "restricted",
+  "licence_note": "Copyright American Heart Association. NOT READ AT SOURCE: ahajournals.org, heart.org, cpr.heart.org and stroke.org return 403 from this environment; no PMC or Europe PMC full text; PubMed abstract read and does not mention aspirin. The aspirin line (alert adults with non-traumatic chest pain may chew 162 to 325 mg of aspirin while awaiting EMS unless allergic or advised not to by a health care professional) is printed as reported by search summaries and marked so on the pages.",
+  "url": "https://doi.org/10.1161/CIR.0000000000001281",
+  "household_cited_by": [],
+  "cited_by": [
+   "02-09-cl09-high-blood-pressure-and-heart-disease",
+   "12-16-triage-and-hard-calls"
+  ],
+  "added_by": "L8"
+ },
+ {
+  "key": "cdc-mmwr-unintentional-firearm-deaths-children-2003-2021-l8",
+  "title": "Unintentional Firearm Injury Deaths Among Children and Adolescents Aged 0-17 Years: National Violent Death Reporting System, United States, 2003-2021 (MMWR 2023;72(50):1338-1345)",
+  "org": "CDC (Morbidity and Mortality Weekly Report)",
+  "date": "2023-12-15",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work. Read by L8 2026-11-16 (MMWR PDF). Facts used: 1,262 deaths; stored loaded 73.8% and unlocked 76.2% where known; unlocked guns accessed from nightstand/bed 30.0%, shelf/closet 18.6%, vehicle 12.5%, bag/purse/clothing 8.8%; playing with or showing 66.6%; thought unloaded/safety/magazine 20.5%; mistaken for toy 10.6% (28.0% aged 0-5); 44.6% belonged to a parent of the shooter; handguns 74.0%; loading, unloading or cleaning 7.0%.",
+  "url": "https://www.cdc.gov/mmwr/volumes/72/wr/pdfs/mm7250a1-H.pdf",
+  "household_cited_by": [],
+  "cited_by": [
+   "14-11-defensive-use-of-force",
+   "30-32-dc31-firearm-readiness"
+  ],
+  "added_by": "L8"
+ },
+ {
+  "key": "grossman-2005-jama-gun-storage-youth-firearm-injuries-l8",
+  "title": "Gun storage practices and risk of youth suicide and unintentional firearm injuries (Grossman DC and others, JAMA 2005;293(6):707-714; PMID 15701912)",
+  "org": "JAMA (American Medical Association); authors Grossman DC, Mueller BA, Riedy C and others",
+  "date": "2005-02-09",
+  "licence_class": "restricted",
+  "licence_note": "Copyright American Medical Association. Abstract read by L8 2026-11-16 via PubMed. Fact used: keeping a gun locked, unloaded, ammunition locked and ammunition stored separately were each associated with a protective effect against youth suicide and unintentional firearm injury, for handguns and long guns.",
+  "url": "https://doi.org/10.1001/jama.293.6.707",
+  "household_cited_by": [],
+  "cited_by": [
+   "30-32-dc31-firearm-readiness"
+  ],
+  "added_by": "L8"
+ },
+ {
+  "key": "nssf-project-childsafe-gun-storage-for-your-lifestyle-l8",
+  "title": "Gun Storage for Your Lifestyle (Project ChildSafe safe storage guide)",
+  "org": "NSSF (National Shooting Sports Foundation), Project ChildSafe",
+  "date": "2024",
+  "licence_class": "restricted",
+  "licence_note": "Copyright NSSF. Read by L8 2026-11-16 from a copy hosted by the University of Michigan Institute for Firearm Injury Prevention (projectchildsafe.org returns 403 from here). Facts used: storage options include cable lock, gun case, lock box, electronic lock box (some designed for quick access), full-size and biometric safes, vehicle console and cargo storage.",
+  "url": "https://firearminjury.umich.edu/wp-content/uploads/2024/02/PCS_SafeStorage_20-print.pdf",
+  "household_cited_by": [],
+  "cited_by": [
+   "30-32-dc31-firearm-readiness"
+  ],
+  "added_by": "L8"
+ },
+ {
+  "key": "nssf-lets-go-shooting-safe-storage-holster-l8",
+  "title": "Safe Storage: More Than a Steel Box and Combination Lock (holster and off-body carry safety)",
+  "org": "NSSF (National Shooting Sports Foundation), Let's Go Shooting",
+  "date": "2026",
+  "licence_class": "restricted",
+  "licence_note": "Copyright National Shooting Sports Foundation. Read by L8 2026-11-16 through a fetch tool (direct download blocked by the site's firewall). Facts used: a carried handgun should always be in a holster designed to protect the trigger, especially in a pocket or purse; 'off your body' does not mean 'out of mind'; people have left a firearm accessible because they forgot it was in their bag.",
+  "url": "https://letsgoshooting.org/resources/articles/introduction/safe-storage-more-than-a-steel-box-and-combination-lock",
+  "household_cited_by": [],
+  "cited_by": [
+   "30-32-dc31-firearm-readiness"
+  ],
+  "added_by": "L8"
  }
 ]

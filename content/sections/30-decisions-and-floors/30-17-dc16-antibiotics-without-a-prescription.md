@@ -2,7 +2,7 @@
 id: 30-17-dc16-antibiotics-without-a-prescription
 section: 30-decisions-and-floors
 title: "DC-16. Antibiotics without a prescription (stockpiled or veterinary)"
-version: 2
+version: 3
 revised: 2026-11-16
 layer: card
 danger_level: critical
@@ -14,7 +14,10 @@ sources:
   - cdc-about-sepsis-a8304b
   - cdc-tetanus-clinical-guidance-wound-management-td-td-5580f4
   - lyon-rc-et-al-journal-of-pharmaceutical-sciences-95-1d6bf3
-related: [12-04-infection-and-antibiotics, 12-02-bleeding-and-wounds, 12-07-meds-stockpile, 12-05-common-illness-and-dehydration, 25-09-family-medical-summary, 30-16-dc15-someone-elses-prescription, 30-05-dc04-expired-medication]
+  - fda-unapproved-animal-antimicrobials-warning-2023
+  - who-aware-antibiotic-book-2022
+  - dailymed-amoxicillin-teva-label-l7
+related: [12-04-infection-and-antibiotics, 12-22-antibiotics-by-condition, 12-23-antibiotics-by-drug, 12-24-tccc-antibiotics-as-published, 12-02-bleeding-and-wounds, 12-07-meds-stockpile, 12-05-common-illness-and-dehydration, 25-09-family-medical-summary, 30-16-dc15-someone-elses-prescription, 30-05-dc04-expired-medication]
 cards: [DC-16, DC-15, DC-04]
 explainers: [EX-14]
 promote_when: []
@@ -24,10 +27,13 @@ options:
     label: "Never without a clinician"
     summary: "Antibiotics are taken only when a clinician prescribed them for that person and that illness, or wrote a plan in advance. No stockpiled, shared, veterinary or aquarium antibiotics are used on a guess."
   - id: last-resort
-    label: "Last resort for adults, with the infection page"
-    summary: "Only for an adult showing the signs of a spreading or serious bacterial infection on the infection page, with no clinician reachable: a human antibiotic, with the drug and dose taken from a clinician's written plan or a published adult table printed as published. Never for children."
-settings_summary: "Before antibiotics, ordinary wounds and infections killed healthy adults, so many preppers stockpile them, sometimes as fish or farm-animal products. Antibiotics are prescription drugs because the right one depends on the infection, the person's allergies and other medicines, and the dose depends on weight and kidney function. Most coughs, colds and stomach bugs are viral, and antibiotics do nothing for them. The wrong antibiotic can cause a severe allergic reaction or severe diarrhoea, hide a worsening infection, and breed resistant bacteria. Products sold for animals are not made or checked for human use. What helps most: ask a clinician now for a written plan and supply (removes most of it); use only for adults with clear signs of a serious bacterial infection, by a written or published adult table, never for children (reduces it a lot)."
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CDC antibiotic claims re-cited to Do's and Don'ts (archive thin); tetanus wound page read; Lyon 2006 restated from the abstract (no liquids claim)." }
+    label: "Last resort for adults only"
+    summary: "Only for an adult with the signs of a spreading or serious bacterial infection (12-04), no clinician reachable: a human antibiotic, drug and dose from a clinician's written plan or an adult row on 12-22 as published, dangers checked on 12-23. Never for children."
+  - id: last-resort-with-children
+    label: "Last resort, children included"
+    summary: "As the adult option, and also for a child: a clinician's written plan, or only a published child row on 12-22 with the child weighed, the dose checked against the published maximum or adult-dose band, and the liquid's mg per 5 mL read on the bottle. Never worked out at home."
+settings_summary: "Before antibiotics, ordinary wounds and infections killed healthy adults, so many preppers stockpile them, sometimes as fish or farm-animal products. The right antibiotic depends on the infection, allergies and other medicines; the dose depends on weight and kidney function. Most coughs, colds and stomach bugs are viral, and antibiotics do nothing for them. The wrong antibiotic can cause a severe allergic reaction or severe diarrhoea, hide a worsening infection and breed resistance. Animal products are not made or checked for people. Child doses go by weight with a maximum, and liquids differ in strength. What helps most: a clinician's written plan and supply now (removes most of it); clear signs of a serious bacterial infection, human antibiotics and only the published doses printed in this binder (reduces it a lot). Choose never, adults only, or children included."
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "L7 (G28): options now point to the published dose pages 12-22/12-23/12-24; third option for children added; FDA 2023 animal-antimicrobial statement and amoxicillin liquid strengths cited." }
 ---
 
 # DC-16. Antibiotics without a prescription (stockpiled or veterinary)
@@ -35,7 +41,9 @@ review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-res
 **What this page is for.** An infected wound or a serious infection with no doctor is one of
 the most likely ways a survivable injury becomes fatal. This card explains what antibiotics can
 and cannot do, why they need a prescriber, what goes wrong when they are used on a guess, and
-what the household decides. It does not choose a drug or a dose.
+what the household decides. It does not choose a drug or a dose. The published doses are on
+→ 12-22 (by infection, adult and child, each row as published), the drugs' dangers and forms on
+→ 12-23, and the military battlefield list on → 12-24.
 
 > **SAFETY.** Children do not have access to firearms, fuel, medications or chlorine products
 > (floor, → 30-01). **Sepsis** (the body's runaway reaction to infection) is an emergency: a
@@ -73,8 +81,14 @@ those wrong can harm the person or fail to treat them while the infection spread
 - **The wrong drug**: the infection keeps spreading while everyone believes it is being treated.
   A wound that needed cleaning, removal of dirt and dead tissue, or a tetanus shot gets pills
   instead (CDC, Clinical Guidance for Wound Management to Prevent Tetanus; → 12-02).
-- **Animal products**: strength, purity and fillers are not made or checked for human use, and
-  the labels do not translate to human doses.
+- **Animal products**: the FDA says antibiotics sold for aquarium fish and pet birds are
+  unapproved and "we don't know whether they're safe or effective, or even contain what the label
+  states"; self-treatment "could delay effective treatment" (FDA, 2023; → 12-23). Their labels do
+  not translate to human doses.
+- **A child's dose worked out wrong**: child doses go by weight (mg/kg) and have a published
+  maximum, and the same medicine comes as liquids of different strengths; the amoxicillin label
+  lists 200, 250 and 400 mg per 5 mL (FDA label). A misread bottle or a guessed weight gives too
+  much or too little.
 - **Resistance**: a half course or the wrong drug leaves tougher bacteria behind in the family.
 
 ## 4. What makes it safer
@@ -86,14 +100,20 @@ those wrong can harm the person or fail to treat them while the infection spread
 - **Prevent infection**: clean wounds early and well, hand-washing, tetanus up to date (→ 12-02).
 
 **Reduces it a lot**
-- **Adults only, with clear signs** of a spreading or serious bacterial infection on → 12-04
-  (spreading redness, pus, fever with a wound, red streaks), not a cold or a cough.
+- **Only with clear signs** of a spreading or serious bacterial infection on → 12-04
+  (spreading redness, pus, fever with a wound, red streaks), not a cold or a cough. → 12-22 says
+  for each infection when antibiotics do not help.
 - **Human antibiotics only**, in intact original packaging, stored cool and dry. In a federal
   testing programme many properly stored medicines kept their strength past the printed date,
   but it varied from lot to lot and could only be confirmed by testing (Lyon and others, 2006;
   → 30-05).
-- **Drug and dose from a written source**: the clinician's plan or a published adult table
-  printed as published with its publisher named. Never worked out or adjusted by the household.
+- **Drug and dose from a written source**: the clinician's plan, or a row on → 12-22, where each
+  adult and child dose is printed as its publisher (WHO, IDSA, CDC, FDA label) printed it. Never
+  worked out or adjusted by the household. WHO's doses are for normal kidney and liver function.
+- **Dangers checked first** on → 12-23: allergy, pregnancy, age limits, interactions.
+- **Children only by a published child row**: the child weighed, the dose checked against the
+  published maximum or the "use adult dose" band, the liquid's strength read on the bottle, and
+  measured with a dosing syringe.
 - **Check every allergy and medicine** on the family list first (→ 25-09).
 
 **Reduces it a little**
@@ -106,10 +126,17 @@ those wrong can harm the person or fail to treat them while the infection spread
 You give up: a possible treatment when no clinician exists. You accept: that some bacterial
 infections that antibiotics would have cured may become severe.
 
-**`last-resort`: Last resort for adults, with the infection page.**
-You give up: diagnosis and a prescriber's choice of drug. You accept: the risks of allergy,
-side effects, the wrong drug and resistance, limited by clear signs, human antibiotics, a
-written or published adult source and the allergy check. Children are not included.
+**`last-resort`: Last resort for adults only.**
+You give up: diagnosis and a prescriber's choice of drug, and any antibiotic for a child
+without a prescriber.
+You accept: the risks of allergy, side effects, the wrong drug and resistance, limited by clear
+signs, human antibiotics, a written plan or an adult row on → 12-22 as published, and the checks
+on → 12-23.
+
+**`last-resort-with-children`: Last resort, children included.**
+You give up: the same as above, for children as well. You accept: the same risks, plus a
+weight-based dose in a child, limited by a clinician's written plan or a published child row on
+→ 12-22 used exactly as printed, the published maximum, the child's measured weight, and the strength printed on the bottle.
 
 ## 6. Our choice
 

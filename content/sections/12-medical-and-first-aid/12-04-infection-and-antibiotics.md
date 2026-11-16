@@ -2,7 +2,7 @@
 id: 12-04-infection-and-antibiotics
 section: 12-medical-and-first-aid
 title: "Infection, fever and antibiotics"
-version: 2
+version: 3
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -28,6 +28,9 @@ related:
   - 25-09-family-medical-summary
   - 30-16-dc15-someone-elses-prescription
   - 30-17-dc16-antibiotics-without-a-prescription
+  - 12-22-antibiotics-by-condition
+  - 12-23-antibiotics-by-drug
+  - 12-24-tccc-antibiotics-as-published
 cards: [DC-15, DC-16]
 explainers: [EX-14]
 promote_when: []
@@ -38,7 +41,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Tetanus table rebuilt from CDC clinical guidance (completed series; dirty/major examples; TIG for incomplete/unknown); 48-72 h removed; DC-16 reference states no table is printed; sepsis signs checked." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Tetanus table rebuilt from CDC clinical guidance (completed series; dirty/major examples; TIG for incomplete/unknown); 48-72 h removed; sepsis signs checked. L7 (G28): DC-16 paragraph now points to the published dose pages 12-22/12-23/12-24 and the card's three options." }
 ---
 
 # Infection, fever and antibiotics
@@ -52,8 +55,9 @@ It is written for people with no doctor in the house.
 >   no clinic.** Before antibiotics, ordinary wounds routinely killed healthy adults.
 > - **This page does not tell you which antibiotic to use or how much.** The right drug depends
 >   on what the infection is, the germ, the person, their allergies and their other medicines.
->   **Getting it wrong causes harm and breeds resistance** (CDC, Antibiotic Use). This binder
->   never calculates or suggests a dose.
+>   **Getting it wrong causes harm and breeds resistance** (CDC, Antibiotic Use). Published
+>   doses, each printed as its publisher printed it, are on → 12-22 (by infection) and the
+>   drugs' dangers on → 12-23. This binder never calculates or suggests a dose.
 > - **Sepsis is a medical emergency.** Know its signs by heart (below).
 
 ## Do this now: is this wound infected?
@@ -200,11 +204,13 @@ People ask about this constantly, so here is the straight answer.
 antibiotics as a last resort for a life-threatening infection when nothing else exists. Those
 products are not checked for human use, their labels do not translate to people, and using
 any antibiotic without a diagnosis risks the wrong drug, an allergic reaction, a delay and
-resistance. Card DC-16 explains the risk and the options; no option covers children.
-**This binder prints no antibiotic drug or dose table.** Under the card's last-resort option,
-the drug and dose come only from a clinician's written plan (the box above) or from a published
-adult table that you obtain yourself and keep with this page as printed, publisher named. It is
-never worked out or adjusted by the household.
+resistance. Card DC-16 explains the risk and the options: never, last resort for adults only,
+or last resort with children included. Under either last-resort option, the drug and dose come
+only from a clinician's written plan (the box above) or from the published rows on → 12-22,
+where each adult and child dose is printed as WHO, IDSA, CDC or the FDA label printed it, with
+the publisher named. Check the drug's dangers on → 12-23 first. The military battlefield
+antibiotic list is printed on → 12-24; it is written for medics treating combat wounds. A dose
+is never worked out or adjusted by the household.
 Your household's choice: {{choice DC-16}} (→ 30-17)
 
 **Giving someone else's prescription.** A bottle prescribed for one person may be the only one

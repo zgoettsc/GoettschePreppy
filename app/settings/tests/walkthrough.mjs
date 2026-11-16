@@ -360,7 +360,8 @@ async function scenarioA(browser, base) {
   await step('step 8: experience, decision cards from the fixture, notes', async () => {
     await page.waitForSelector('.card');
     const n = await page.$$eval('.card', els => els.length);
-    assert.equal(n, 24, 'all 24 cards shown (DC-05 because of the attached garage)');
+    const fixtureCards = JSON.parse(fs.readFileSync(path.join(ROOT, 'app/settings/fixtures/cards.json'), 'utf8')).cards.length;
+    assert.equal(n, fixtureCards, `all ${fixtureCards} fixture cards shown (DC-05 because of the attached garage)`);
     assert.match(await page.textContent('.card'), /unvented heater/i);
     assert.ok(await page.isChecked(sel.radio('decision_cards-DC-02', 'undecided')), 'undecided by default');
     await page.check(sel.radio('experience', 'some'));
@@ -396,7 +397,7 @@ async function scenarioA(browser, base) {
     assert.equal(saved.decision_cards['DC-01'], 'never');
     assert.equal(saved.decision_cards['DC-05'], 'outbuilding-only');
     assert.equal(saved.decision_cards['DC-02'], 'undecided');
-    assert.equal(Object.keys(saved.decision_cards).length, 24);
+    assert.equal(Object.keys(saved.decision_cards).length, JSON.parse(fs.readFileSync(path.join(ROOT, 'app/settings/fixtures/cards.json'), 'utf8')).cards.length);
     assert.equal(saved.gear.generator.fuel, 'dual-fuel');
     assert.equal(saved.dwelling.gas_service.tank_gallons, 500);
     assert.equal(saved.home.county, 'Minnehaha County');

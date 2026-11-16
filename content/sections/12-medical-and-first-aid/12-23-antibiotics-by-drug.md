@@ -233,8 +233,8 @@ label for dicloxacillin was not read for this binder.
   ATS/IDSA).
 - **Do not use:** known serious allergy to cefuroxime or other beta-lactams (label).
 - **Forms are not interchangeable:** "Cefuroxime axetil tablets and cefuroxime axetil for oral
-  suspension are not bioequivalent and are therefore not substitutable on a milligram-per-
-  milligram basis." Tablets must be swallowed whole; crushed, they have "a strong, persistent
+  suspension are not bioequivalent and are therefore not substitutable on a
+  milligram-per-milligram basis." Tablets must be swallowed whole; crushed, they have "a strong, persistent
   bitter taste" (Aurobindo cefuroxime axetil label).
 - **Storage:** 20° to 25°C.
 
@@ -262,7 +262,7 @@ hospitals and by military medics. Their FDA labels were not read for this binder
   spotted fever and gives a child dose for Lyme disease (→ 12-22).
 - **Other label warnings:** C. diff; severe skin reactions; raised pressure in the skull (headache,
   blurred or double vision; "the possibility for permanent visual loss exists"); severe sunburn
-  ("discontinue at the first evidence of skin erythema"); throat ulcers if swallowed without
+  ("treatment should be discontinued at the first evidence of skin erythema"); throat ulcers if swallowed without
   water or before bed ("drink fluids liberally").
 - **Interactions:** absorption is cut by antacids containing aluminium, calcium or magnesium,
   by iron, and by bismuth subsalicylate (Pepto-Bismol). Can increase the effect of warfarin
@@ -288,7 +288,8 @@ hospitals and by military medics. Their FDA labels were not read for this binder
   the elderly; an observational "approximately two-fold increased short-term potential risk of
   acute cardiovascular death in adults"; in newborns up to 42 days, infantile hypertrophic
   pyloric stenosis (projectile vomiting, irritability with feeding); C. diff.
-- **Resistance:** strep resistance to azithromycin "is well known and varies by region" (IDSA);
+- **Resistance:** IDSA notes that strep resistance to azithromycin is well known and varies by
+  region;
   CDC does not recommend macrolides for sinusitis.
 - **Interactions:** warfarin (may increase bleeding time, → 02-10); nelfinavir.
 - **Forms:** tablets 250 mg and 500 mg; oral suspension **100 mg/5 mL and 200 mg/5 mL** (Pfizer
@@ -319,7 +320,7 @@ antibiotics (below).
   streptococcal infections" (label). Do not use it for strep throat.
 - **Label warnings:** fatal skin reactions (Stevens-Johnson, toxic epidermal necrolysis, DRESS),
   liver failure, blood disorders, lung injury and shock. "BACTRIM should be discontinued at the
-  first appearance of skin rash." High potassium, especially with kidney problems or blood
+  first appearance of skin rash or any sign of a serious adverse reaction." High potassium, especially with kidney problems or blood
   pressure medicines called ACE inhibitors. Drink plenty to prevent crystals in the urine.
 - **Pregnancy:** "may be associated with an increased risk of congenital malformations,
   particularly neural tube defects" (label). WHO: "not recommended in the first trimester of
@@ -414,8 +415,8 @@ antibiotics (below).
   needed.
 - **Main uses:** gum and soft-tissue dental infections (→ 12-22, section 10, WHO footnote). C.
   diff infection and abdominal infections are hospital uses in WHO's dosing tables.
-- **Boxed warning:** "Metronidazole has been shown to be carcinogenic in mice and rats.
-  Unnecessary use of the drug should be avoided" (Flagyl label).
+- **Boxed warning:** "Metronidazole has been shown to be carcinogenic in mice and rats";
+  "Unnecessary use of the drug should be avoided" (Flagyl label).
 - **Do not use** (label): allergy to metronidazole or similar drugs; **with alcohol** during and
   for at least three days after the course (cramps, vomiting, headache, flushing); disulfiram
   within the last two weeks; Cockayne syndrome; for trichomoniasis in the first trimester of

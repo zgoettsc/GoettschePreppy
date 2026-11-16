@@ -1,193 +1,534 @@
 {
-  "_comment": "FIXTURE for the settings page until app/build/kit.json carries the real card pages (content/sections/30-decisions-and-floors). Written by worker A2 from docs/05-decision-cards.md part C. Option ids match that table exactly. The real card pages' settings_summary and options replace this file automatically when kit.json exists.",
+  "_comment": "FIXTURE for the settings page when app/build/kit.json is absent. Regenerated 2026-11-16 from the real card pages (content/sections/30-decisions-and-floors) via kit.json; the live kit replaces it automatically.",
   "cards": [
     {
-      "card": "DC-01", "title": "An unvented heater running while people sleep",
-      "settings_summary": "An unvented heater (portable propane or wick kerosene) burns fuel inside the room and leaves its exhaust there, including carbon monoxide, a gas you cannot see or smell. Makers say not to run them while you sleep because a sleeping person does not notice the headache and drowsiness that warn an awake person. People die when the heater runs low on air or burns badly overnight. What helps most: not running it while asleep; then a tested CO alarm at pillow height, two vents open, and someone awake.",
+      "card": "DC-01",
+      "title": "An unvented heater running while people sleep",
+      "settings_summary": "Portable propane and kerosene heaters sold for indoor use are 'unvented': their exhaust, including carbon monoxide (CO), stays in the room. Both common types' manuals say never run them while you sleep, and CPSC says never run an unvented fuel-burning appliance where people sleep. CO has no smell; CDC says sleeping people can die before they feel any symptom, and infants and older adults are at higher risk. Fire from bedding or a tipped heater is the second risk. What helps most: heater off while people sleep (removes the risk); a tested CO alarm at pillow height, the manual's vent openings, the lowest correct flame, a barrier, and an adult who wakes every 3 hours to check (reduces it a lot). The cost of 'never' is a cold night, which matters most for babies and frail elders in deep cold.",
       "options": [
-        { "id": "never", "label": "Never while sleeping", "summary": "Keep warm overnight by other means (warm room, layers, sleeping bags). You give up a warm night; you accept nothing extra." },
-        { "id": "alarm-and-wake", "label": "Lowest setting, alarm, vents, someone wakes", "summary": "Lowest setting, tested CO alarm at pillow height, two vents open, a barrier round it, and someone wakes every 3 hours to check. Less risk, not none." },
-        { "id": "run-it", "label": "Run it with alarms and vents", "summary": "Run it overnight with alarms and vents but no one waking. You accept that if the alarm fails, nobody is awake to notice." }
+        {
+          "id": "never",
+          "label": "Never while anyone sleeps",
+          "summary": "The heater is off and confirmed out before anyone sleeps. Warmth overnight comes from one small room, shared body heat, layers, sleeping bags and pre-warmed beds."
+        },
+        {
+          "id": "alarm-and-wake",
+          "label": "Lowest setting, alarm, vents, barrier, 3-hour wake",
+          "summary": "Lowest safe setting; tested CO alarm at pillow height installed first; the manual's vents open; heater behind a barrier; one adult wakes every 3 hours to check flame and alarm; headache or nausea means everyone out."
+        },
+        {
+          "id": "run-it",
+          "label": "Run it with alarms and vents",
+          "summary": "The heater runs overnight with a tested CO alarm in the room and the manual's vents open, but no one is set to wake and check it."
+        }
       ]
     },
     {
-      "card": "DC-02", "title": "A propane cylinder larger than 1 lb inside the house",
-      "settings_summary": "Propane is heavier than air. The fire code keeps tanks over 1 lb outdoors because a leaking valve fills a room with gas that pools at floor level and can explode from a pilot light or a spark. A 20-lb tank holds far more gas than a 1-lb one. Keeping the cylinder outside with a hose through a window removes most of the leak risk indoors; closing the valve whenever it is not burning and having no pilot-light appliances nearby reduces it.",
+      "card": "DC-02",
+      "title": "A propane cylinder larger than 1 lb inside the house",
+      "settings_summary": "A 20-lb propane cylinder (the grill size) holds about twenty times the gas of a 1-lb camping cylinder. Heater makers and the national propane code keep anything over the 1-lb size out of the house. The reason: propane is heavier than air. A leak at the valve, hose or regulator flows along the floor, collects in low places such as basements, and explodes when it reaches a flame such as a pilot light or the heater itself. A cylinder warmed indoors can also vent gas through its safety valve on purpose. What helps most: tank outdoors and not connected indoors (removes the risk); tank outdoors with the maker's hose through a window (reduces it a lot); if it must come in, above-ground room, valve closed when off, leak test, no pilot flames nearby, adult awake (reduces it a little).",
       "options": [
-        { "id": "never", "label": "Never indoors", "summary": "Only 1-lb cylinders indoors. You give up longer run times." },
-        { "id": "last-resort", "label": "Cylinder outside, hose through a window", "summary": "As a last resort only: the cylinder stays outdoors and a hose runs in through a window. You accept a hose that can leak or be damaged." },
-        { "id": "indoors-with-rules", "label": "Indoors with strict rules", "summary": "Cylinder indoors, valve closed whenever not burning, no pilot-light appliances, alarm. You accept the risk the fire code is written to prevent." }
+        {
+          "id": "never",
+          "label": "Never: no large cylinder indoors, no hose through a window",
+          "summary": "No cylinder larger than 1 lb comes indoors, and none feeds an indoor heater by a hose through a window or door either. Indoor propane heat, if any, runs only on 1-lb cylinders as the heater maker allows; otherwise other heat sources and the cold-night methods."
+        },
+        {
+          "id": "last-resort",
+          "label": "Last resort: cylinder stays outside, hose through a window",
+          "summary": "Only when no other heat is possible: the cylinder stays outdoors, upright, and feeds a heater built for a remote cylinder through the maker's hose and fuel filter, passed through a cracked window or door. The cylinder itself never comes inside."
+        },
+        {
+          "id": "indoors-with-rules",
+          "label": "Indoors with rules",
+          "summary": "The cylinder itself comes indoors, only when the outdoor-hose route is impossible: an above-ground room, never a basement; valve closed whenever the heater is off; no pilot-light appliances nearby; leak test; CO alarm; adult awake; tank out as soon as possible."
+        }
       ]
     },
     {
-      "card": "DC-03", "title": "Refilling 1-lb propane cylinders from a 20-lb tank",
-      "settings_summary": "The small green 1-lb cylinders are sold as single-use. Makers say not to refill them because overfilling leaves no room for the gas to expand when warm, and a worn valve can leak. Refilled cylinders have leaked and caught fire. Weighing each refill, using only cylinders rated as refillable, filling outdoors and leak-checking with soapy water all reduce the risk.",
+      "card": "DC-03",
+      "title": "Refilling 1-lb propane cylinders from a 20-lb tank",
+      "settings_summary": "The small green 1-lb propane cylinders sold for camp stoves and indoor heaters are made to be filled once at the factory. Adapters sold online let you refill them from a grill tank. Heater makers allow only factory-filled disposable cylinders indoors, and refillable cylinder makers say never refill a disposable. The real dangers are overfilling (a 1-lb cylinder has no automatic overfill stop; the person filling must stop at the maximum level, and an overfilled one can vent gas when it warms indoors) and a worn valve that leaks in the room. What helps most: buy new cylinders, or use a 20-lb tank outdoors with a hose (removes it); cylinders built to be refilled, filled outdoors by the maker's method, weighed and leak-tested (reduces it a lot).",
       "options": [
-        { "id": "never", "label": "Never refill (maker's position)", "summary": "Use each 1-lb cylinder once. You give up the cheaper, longer supply." },
-        { "id": "by-weight", "label": "Refill by weight, with rules", "summary": "Only refillable-rated cylinders, weighed, filled outdoors, leak-checked every time. You accept a small leak and fire risk." }
+        {
+          "id": "never",
+          "label": "Never refill (the makers' position)",
+          "summary": "Use only new, factory-filled 1-lb cylinders indoors and on camp gear. When they run out, use a 20-lb tank outdoors with the maker's hose, or another fuel."
+        },
+        {
+          "id": "by-weight",
+          "label": "Refill refillable-rated cylinders only, maker's method",
+          "summary": "Only cylinders stamped as refillable; never a disposable. Filled outdoors, away from flame, stopping at the maker's fill gauge, then weighed against the stamped tare weight and leak-tested; any overfilled, hissing or stiff-valved cylinder is set aside outdoors."
+        }
       ]
     },
     {
-      "card": "DC-04", "title": "Using expired or heat-exposed medication when nothing in-date exists",
-      "settings_summary": "Medicines, including epinephrine (the allergy auto-injector), lose strength after their expiry date or after heat or cold. Makers and agencies say to replace them because a weaker dose may not work when it matters. In an emergency with no in-date supply, the choice is between an old dose and no dose. Clear, colourless epinephrine is more likely to still work than brown or cloudy; keep looking for in-date stock either way.",
+      "card": "DC-04",
+      "title": "Expired or heat-exposed epinephrine, and other expired medication",
+      "settings_summary": "Every medicine has an expiry date: the date until which the maker guarantees full strength. Labels also give a storage range; epinephrine auto-injectors (EpiPen type) should not freeze or get hot. After the date, or after freezing or heat, strength can drop slowly, and some liquids can change. In anaphylaxis (a severe allergic reaction), a weak dose is worse than a full one, but giving no dose at all can be fatal. One published study found expired EpiPens up to 50 months past date all still held at least 80 percent of their dose; a meeting abstract found frozen-then-thawed ones delivered a normal volume. What helps most: keep enough in-date supply, rotated, at the right temperature (removes it); check the window for clear, colourless liquid (reduces it a lot). This card does not cover insulin: frozen insulin is always thrown away.",
       "options": [
-        { "id": "discard", "label": "Discard expired medication", "summary": "Follow the label. You may be left with nothing when it is needed." },
-        { "id": "use-if-clear", "label": "Use if clear, keep seeking in-date stock", "summary": "Use expired epinephrine or medication if the solution looks clear and colourless, while still trying to get in-date stock. You accept it may be weaker." }
+        {
+          "id": "discard",
+          "label": "Discard at the printed date",
+          "summary": "Expired, frozen-and-thawed or heat-damaged medication is replaced and not used. The household keeps enough in-date supply that it never faces the question."
+        },
+        {
+          "id": "use-if-clear",
+          "label": "Use if clear and colourless; keep seeking in-date stock",
+          "summary": "When no in-date supply exists: in anaphylaxis, an expired or thawed epinephrine device whose liquid is clear and colourless is used at once. Intact tablets past date may be used. Liquids that changed are not. Keep looking for in-date stock."
+        }
       ]
     },
     {
-      "card": "DC-05", "title": "Storing gasoline, kerosene or propane in an attached garage",
-      "settings_summary": "Fuel gives off vapour. In an attached garage that vapour can reach a water heater pilot, a spark from a switch or a car, and a fire there spreads into the house. Fire codes limit how much fuel a garage may hold. An outbuilding away from the house removes most of that risk; approved cans, a quantity cap and doing every transfer outdoors reduce it.",
+      "card": "DC-05",
+      "title": "Storing gasoline, kerosene or propane in an attached garage",
+      "settings_summary": "Many households keep gas cans in the attached garage, next to the car, the lawn mower and often a water heater or furnace. The danger is not the liquid but its vapour. Gasoline vapour can burn even in deep cold, is heavier than air, travels along the floor and catches fire from a pilot light, igniter, spark or hot engine. CPSC says store fuel outside living areas and away from fuel-burning appliances. A garage fire spreads into the house. Propane cylinders in a garage can vent gas when they warm. What helps most: fuel in a detached shed or outdoor locker (removes most of it); approved sealed cans, far from ignition sources, never opened inside, small quantity (reduces it a lot).",
       "options": [
-        { "id": "outbuilding-only", "label": "Outbuilding only", "summary": "Store fuel in a shed or outbuilding away from the house. You give up convenience." },
-        { "id": "garage-with-rules", "label": "Garage, with rules", "summary": "Approved cans, away from ignition sources, transfers done outdoors, a quantity cap written on the card. You accept a fire risk next to the house." }
+        {
+          "id": "outbuilding-only",
+          "label": "Outbuilding or outdoor locker only",
+          "summary": "Gasoline and kerosene live in a detached shed or ventilated outdoor locker; propane cylinders outdoors, upright. Nothing in the attached garage or the house."
+        },
+        {
+          "id": "garage-with-rules",
+          "label": "Attached garage with rules",
+          "summary": "Approved, labelled cans, caps tight, as far from any heater, water heater or spark as the garage allows; never poured or transferred inside; propane cylinders never in the garage; a written quantity cap."
+        }
       ]
     },
     {
-      "card": "DC-06", "title": "Carrying fuel inside a passenger vehicle",
-      "settings_summary": "A fuel can inside a car can leak vapour into the space where people breathe, and in a crash it can rupture inside the cabin. Carriers outside the vehicle (roof, hitch, trailer) keep vapour and spills away from people. Sealed cans in the cargo area with windows cracked, for the shortest leg possible, reduce the risk but do not remove it.",
+      "card": "DC-06",
+      "title": "Carrying fuel inside a passenger vehicle",
+      "settings_summary": "When a family has to drive a long way with no fuel stations working, extra gasoline in cans can be the difference between arriving and being stranded. There is no simple agency rule for gasoline cans in a family car; the guidance is to fill cans on the ground, never inside a vehicle, keep them sealed and secured, and never leave propane cylinders in a closed vehicle. Inside a closed car, vapour from a can collects in the cabin and can ignite from a spark. In a rear-end crash, a can behind the back seat can split and burn next to the passengers. Propane in a closed car can leak and pool on the floor. What helps most: carry fuel outside the cabin on a rack, hitch carrier or trailer (removes most of it); approved sealed cans, strapped upright, windows cracked, shortest possible time (reduces it a lot).",
       "options": [
-        { "id": "never-inside", "label": "Never inside: roof, hitch or trailer only", "summary": "Fuel travels outside the passenger space. You need a carrier or trailer." },
-        { "id": "cargo-area-shortest-time", "label": "Cargo area, shortest time", "summary": "Sealed cans in the cargo area, windows cracked, shortest possible leg. You accept vapour and crash risk." }
+        {
+          "id": "never-inside",
+          "label": "Never inside: roof, hitch carrier or trailer only",
+          "summary": "Fuel rides outside the passenger space: a roof rack, a hitch-mounted carrier, a pickup bed or an open trailer. If none is available, fuel stays behind and the route is planned on the tank."
+        },
+        {
+          "id": "cargo-area-shortest-time",
+          "label": "Cargo area, sealed cans, shortest time",
+          "summary": "Only when no outside carry exists: approved sealed cans, filled no more than 95 percent, caps tight, upright and strapped in the rear cargo area, windows cracked, emptied into the tank at the first chance. Propane cylinders upright, valves closed."
+        }
       ]
     },
     {
-      "card": "DC-07", "title": "Converting a furnace or well pump to cord-and-plug yourself",
-      "settings_summary": "To run a hard-wired furnace or well pump from a generator, it has to be disconnected from house wiring and given a plug. Done wrong, this can shock you, start a fire, or feed power back into the street lines. Electricians are trained to do it safely. The kit's write-up, with the main breaker off and locked and the setup tested before you need it, reduces the risk if no electrician is available. Feeding power back through an outlet is never an option.",
+      "card": "DC-07",
+      "title": "Converting a furnace or well pump to cord-and-plug yourself",
+      "settings_summary": "A gas furnace needs electricity for its blower and controls, and a well needs it for the pump, so neither runs in an outage even with a generator. They are wired directly into the house, with no plug. A cord-and-plug conversion gives the appliance its own plug and turns its old supply into an outlet: normally it plugs into that outlet; in an outage you unplug it and plug it into the generator's cord. Nothing reaches the house panel, so it is not backfeeding. The risk is the wiring work itself: working on a live circuit, a missing ground, a loose connection, a plug or cord too small for the load, no strain relief. Those cause shock and fire, sometimes long after the work. What helps most: a licensed electrician now (removes most of it); the circuit's breaker off and tested dead, the written steps, correct parts, a test run before winter (reduces it a lot).",
       "options": [
-        { "id": "electrician-only", "label": "Electrician only", "summary": "Have an electrician do it before it is needed. You may not get it done in time." },
-        { "id": "diy-with-write-up", "label": "Do it ourselves with the write-up", "summary": "Follow the kit's write-up, main breaker off and locked, tested before it is needed. You accept shock and fire risk from your own work." }
+        {
+          "id": "electrician-only",
+          "label": "Electrician only",
+          "summary": "The cord-and-plug conversion of the furnace or well pump is done by a licensed electrician, now, while one is available. If none did it in time, the appliance stays hard-wired."
+        },
+        {
+          "id": "diy-with-write-up",
+          "label": "Do it ourselves with the write-up",
+          "summary": "A competent adult converts it following the kit's write-up: that circuit's breaker off and tested dead; cord and plug rated for the circuit; strain relief; ground kept; labelled; tested on the generator before it is needed."
+        }
       ]
     },
     {
-      "card": "DC-08", "title": "Using insulin or other refrigerated medication after a heat excursion",
-      "settings_summary": "Insulin and some other medicines lose strength if kept too warm for too long. Makers publish how long each one is good unrefrigerated. After that window the medicine may be weaker, and there is no way to see this. With no other supply, using it with closer checks may be better than none. Frozen insulin is always discarded; that is not a choice.",
+      "card": "DC-08",
+      "title": "Using insulin or other refrigerated medication after a heat excursion",
+      "settings_summary": "Insulin and some other medicines are stored in the fridge. Without power, FDA's emergency guidance says insulin can be kept at 59 to 86 \u00b0F for up to 28 days. Above that, or for longer, it slowly loses strength, and you cannot see the loss. Weaker insulin means higher blood sugar and, for type 1 diabetes, a risk of diabetic ketoacidosis (DKA), which can kill. But no insulin at all causes DKA for certain. FDA says that in an emergency you may still need to use insulin stored above 86 \u00b0F until proper supply returns. What helps most: keep it in the band with a powered fridge or cooler and a thermometer (removes it); evaporative pouches, cool spots, rotation (reduces it a lot). Frozen insulin is never used (floor).",
       "options": [
-        { "id": "discard-after-window", "label": "Follow the published window exactly", "summary": "Discard once the maker's unrefrigerated window has passed. You may run out sooner." },
-        { "id": "use-and-watch", "label": "Use beyond the window and watch closely", "summary": "Only if no alternative: keep using it with closer monitoring. You accept doses that may be weaker than the label says." }
+        {
+          "id": "discard-after-window",
+          "label": "Follow the published window exactly",
+          "summary": "Insulin out of the fridge is used only inside the published room-temperature window (FDA emergency guidance: 59 to 86 \u00b0F for up to 28 days) or the product label; after that, or after heat above it, it is replaced."
+        },
+        {
+          "id": "use-and-watch",
+          "label": "Use beyond the window if nothing else; watch closely",
+          "summary": "If no properly stored supply exists, heat-exposed or out-of-window insulin is used rather than none, with more frequent glucose checks and ketone checks, expecting it may work less well. Replaced as soon as possible."
+        }
       ]
     },
     {
-      "card": "DC-09", "title": "An infant or toddler sharing a bed with adults for warmth",
-      "settings_summary": "Babies can suffocate in adult beds: soft mattresses, pillows, heavy blankets and a sleeping adult rolling over. Paediatric agencies advise a separate firm sleep surface for every baby. In a cold house, sharing body heat is tempting. Risk is highest under 12 months; a firm surface, no heavy covers over the child and sober adults reduce it for older toddlers.",
+      "card": "DC-09",
+      "title": "An infant or toddler sharing a bed with adults for warmth",
+      "settings_summary": "In a cold house, sharing a bed keeps a small child warm with body heat. The American Academy of Pediatrics says babies under 1 year should sleep in the parents' room but on their own firm, flat surface, and that parents should avoid bed-sharing under any circumstances; about 3,500 US babies die each year suddenly and unexpectedly while sleeping, most from SIDS or from suffocation or strangulation. The risk is highest under 4 months, with soft bedding, sofas, smoking, or an adult who has had alcohol, drugs or sedating medicine. Cold is a real risk too: CDC lists infants in cold bedrooms among those most at risk of hypothermia. What helps most: own firm surface next to the adults, warm room, layers and a sleep sack (removes most of it). Bed-sharing on this card is only offered for children over 12 months.",
       "options": [
-        { "id": "separate-sleep-surface", "label": "Separate sleep surface always", "summary": "Keep the child warm with layers and a warm room instead. You give up shared warmth." },
-        { "id": "bed-share-with-rules", "label": "Bed-share with rules, over 12 months only", "summary": "Over 12 months, firm surface, no heavy covers over the child, sober adults only. You accept a suffocation risk." }
+        {
+          "id": "separate-sleep-surface",
+          "label": "Own firm sleep surface beside the adults",
+          "summary": "The child sleeps on a separate firm, flat surface (crib, bassinet or play yard; in an emergency, a box, basket or drawer with thin, firm padding) next to the adults in the warm room, dressed in layers or a wearable blanket, checked for overheating. Never in the adult bed."
+        },
+        {
+          "id": "bed-share-with-rules",
+          "label": "Bed-share on cold nights, over 12 months only, with rules",
+          "summary": "Only for a child over 12 months: firm mattress (on the floor if the bed is high), no pillows or heavy covers near the child, sleep sack instead, sober and unsedated adults, no older child beside them, nothing hot in the bed."
+        }
       ]
     },
     {
-      "card": "DC-10", "title": "Pets when keeping them becomes impossible",
-      "settings_summary": "In a long emergency, food, water or travel may make it impossible to keep every animal. This card asks you to decide ahead, calmly, what you would do, so it is not decided in a panic. Every option has a cost to the animal or to the family. The binder gives the facts for each and does not judge your choice.",
+      "card": "DC-10",
+      "title": "Pets when food, water or movement makes keeping them impossible",
+      "settings_summary": "Pets need food, water and room in the vehicle. In a long emergency a household may not be able to feed them, or may have to leave on foot or with no space. FEMA's advice while help exists is that if you evacuate, your pets evacuate too: pets left behind may end up lost, injured or worse. When that is not possible, the choices are hard: keep them and share scarce food and water; release them, knowing many may not survive; or end their lives humanely, which the American Veterinary Medical Association says must be done by a method that minimises or eliminates pain and distress, ideally by or with a veterinarian. What helps most: plan pet food, water and carriers now, and find someone who could take them (removes most of it); decide in advance, calmly, so the decision is not made in panic.",
       "options": [
-        { "id": "keep-at-all-costs", "label": "Keep them at all costs", "summary": "Pets share the household's food, water and travel. You accept less for the people." },
-        { "id": "release-with-food-out", "label": "Release with food out", "summary": "Release animals with food and water left out. You accept they may suffer or not survive." },
-        { "id": "humane-end", "label": "Humane end, with the method page", "summary": "End the animal's life humanely using the method page. You accept a hard, final choice." }
+        {
+          "id": "keep-at-all-costs",
+          "label": "Keep them at all costs",
+          "summary": "The pets stay with the household and share its food and water, and travel with it. Their needs are counted in every supply plan, and the household accepts going without to keep them."
+        },
+        {
+          "id": "release-with-food-out",
+          "label": "Release with food and water left out",
+          "summary": "If they cannot stay or come along, the pets are left or released with as much food and water as can be spared, a way in and out of shelter, and an ID tag, accepting that many will not survive."
+        },
+        {
+          "id": "humane-end",
+          "label": "A humane end, by the method page",
+          "summary": "If the pets cannot be kept, carried or rehomed, their lives are ended humanely: by a veterinarian whenever any can be reached; if none can, only by the AVMA-based method on the pets page, by a calm adult with the skill it requires, away from the children. Never an improvised method."
+        }
       ]
     },
     {
-      "card": "DC-11", "title": "Firing weapons on your own property for practice or zeroing",
-      "settings_summary": "A bullet can travel more than a mile and still kill. Ranges use a backstop (a berm or hill) to stop every round. Shooting on your own land without one risks hitting a person, animal or building you cannot see. A known backstop, no one downrange and neighbours told reduce that risk.",
+      "card": "DC-11",
+      "title": "Firing weapons on your own property for practice, pests or zeroing",
+      "settings_summary": "In a long emergency, ranges close, and households may want to practise, sight in a rifle or deal with pests at home. Every firearms safety rule says be sure of your target and what is beyond it: a bullet that misses or passes through keeps going (NSSF: a .22 short bullet over 1 1/4 miles, a .30-06 more than 3 miles) and can ricochet off water, rock or frozen ground. In town, what is beyond is a neighbour's house. Shots also tell everyone nearby that the house is armed and occupied, and damage hearing. What helps most: no live fire at home, dry practice and traps instead (removes it); only into a solid earth backstop, never toward houses or roads, never at a target above the horizon, nobody downrange, neighbours told (reduces it a lot).",
       "options": [
-        { "id": "never", "label": "Never on our property", "summary": "Practise only at a range. You give up practice when ranges are closed." },
-        { "id": "with-backstop-rule", "label": "Only against a known backstop", "summary": "Known backstop, no one downrange, neighbours told. You accept the risk of a round escaping." }
+        {
+          "id": "never",
+          "label": "Never on our property",
+          "summary": "No shots fired on or from the property for practice, pests or sighting in. Practice is dry (unloaded) at home; pests are trapped; live fire happens only at a proper range or open land with a real backstop elsewhere."
+        },
+        {
+          "id": "with-backstop-rule",
+          "label": "Only into a known backstop, nobody downrange",
+          "summary": "Shots only into an earth bank or backstop that will stop that ammunition, never toward a house, road or path, never at a target above the horizon, never at night, nobody downrange, neighbours told beforehand."
+        }
       ]
     },
     {
-      "card": "DC-12", "title": "Defensive use of force",
-      "settings_summary": "This card is a worksheet, not a multiple choice. You read the page and write your household's rule in your own words on the printed card. The state law line is printed as a note about the time before the collapse. Nothing to pick here.",
+      "card": "DC-12",
+      "title": "Defensive use of force: our household rule",
+      "settings_summary": "This card has no multiple choice. Every household that keeps any means of defence, firearm or not, needs a rule written in calm advance about when force may be used against another person. Without courts or police, nobody else will draw that line. The traditional tests are: the threat is happening now; nothing less will stop it; the force matches the threat; and a calm person would see it the same way. Mistakes cannot be undone: a bullet passes through walls into neighbours' homes, people are shot by family members who misidentified them in the dark, and with no surgeon any wound may be fatal. The neighbourhood remembers. Read the page, then write the rule in your own words on the worksheet.",
       "options": []
     },
     {
-      "card": "DC-13", "title": "Drinking water from a pool, hot tub or untreated surface source",
-      "settings_summary": "Pool and hot-tub water carry chemicals (chlorine, stabiliser, salt, algaecide) and germs; streams and ponds carry germs and sometimes farm or industrial chemicals. Filters remove germs but most do not remove dissolved chemicals. Distilling removes both but uses fuel. The water page gives a treatment ladder for each source.",
+      "card": "DC-13",
+      "title": "Drinking water from a pool, hot tub or untreated surface source",
+      "settings_summary": "A swimming pool or a nearby stream can look like a large water supply. Germs in water (bacteria, viruses, parasites) are killed by boiling, and most by chlorine used as CDC and EPA describe. Chemicals are not. Pool water holds chlorine, stabilizer, often algaecide, and in a salt pool, salt that no boiling or filter removes. Hot tubs hold bromine and body oils. Streams and ponds can carry fuel, farm or industrial runoff. CDC says water containing fuel or toxic chemicals cannot be made safe by boiling or disinfecting. FEMA and the Red Cross say not to drink from pools or spas. Distillation (boil and catch the steam) removes salt and most chemicals, but it is slow and uses fuel. What helps most: pool and hot-tub water for flushing and washing, stored water for drinking (removes most of it); distil what you drink from them (reduces it a lot).",
       "options": [
-        { "id": "distill-only", "label": "Distil only", "summary": "Drink pool or surface water only after distilling. You spend fuel and time." },
-        { "id": "filter-and-chlorinate", "label": "Filter and chlorinate fresh pools", "summary": "For a recently maintained pool: filter, then chlorinate. You accept some chemical exposure." },
-        { "id": "drink-treated-surface-water", "label": "Treated surface water, with the ladder", "summary": "Drink surface water after the treatment ladder on the page. You accept chemicals that treatment may not remove." }
+        {
+          "id": "distill-only",
+          "label": "Distil before drinking",
+          "summary": "Water from a pool, hot tub or untreated stream, pond or lake is drunk only after distilling (boil it and collect the steam). Undistilled, it is used for flushing, washing and cleaning only."
+        },
+        {
+          "id": "filter-and-chlorinate",
+          "label": "Fresh pools: filter and chlorinate",
+          "summary": "A freshwater (not salt) pool known to hold no algaecide or other additive may be drunk after settling, filtering and disinfecting by the published method. Salt pools and hot tubs still need distilling; surface water still needs distilling."
+        },
+        {
+          "id": "drink-treated-surface-water",
+          "label": "Surface water through the treatment ladder",
+          "summary": "Streams, ponds and lakes away from obvious fuel, chemical or farm runoff are drunk after the full ladder: settle, filter, then boil or disinfect by the published method. Fresh pools as in the option above; salt pools and hot tubs are still distilled."
+        }
       ]
     },
     {
-      "card": "DC-14", "title": "Eating food past its date, dented or rusted cans, or food from a failed freezer",
-      "settings_summary": "Dates on food mostly mark quality, not safety, but some old or damaged food can make you sick. A dent in a seam or deep rust can let germs into a can. Thawed freezer food is safe only within limits. Bulging, leaking or spurting cans are always thrown away, because they can carry botulism; that is not a choice.",
+      "card": "DC-14",
+      "title": "Food past its date, dented or rusted cans, or food from a failed freezer",
+      "settings_summary": "In a long emergency a household will have food past its printed date, dented or rusty cans, and fridges and freezers that have warmed. USDA says dates mark quality, not safety, except on infant formula, and its chart gives canned food 12 months to 5 years on the shelf. The dangers are a can whose seal has failed, which can carry botulism, a toxin that paralyses and does not show by look or smell, and perishable food held warm, which grows bacteria that cause severe vomiting and diarrhoea. USDA says discard perishables above 40 \u00b0F for 2 hours or more. What helps most: rotate stock and check fridge and freezer with a thermometer (removes much of it); inspect every can and package, discard any bulging, leaking or spurting can (floor), and cook thoroughly (reduces it a lot).",
       "options": [
-        { "id": "label-strict", "label": "Follow the label strictly", "summary": "Discard anything past date or damaged. You waste food you may need." },
-        { "id": "inspect-and-eat", "label": "Inspect and eat, with the rules", "summary": "Use the page's rules for each case. You accept a small risk of food illness." }
+        {
+          "id": "label-strict",
+          "label": "Follow the label and the published rules strictly",
+          "summary": "Food past its printed date is discarded, even though USDA treats most dates as quality dates; any dented, rusted or swollen can is discarded; perishable food above 40 \u00b0F for 2 hours or more is discarded, as USDA advises."
+        },
+        {
+          "id": "inspect-and-eat",
+          "label": "Inspect and eat, with the rules for each case",
+          "summary": "Shelf-stable food past its quality date is eaten if the package is intact and it looks and smells normal; cans with a small dent and sound seams are eaten; thawed food still holding ice crystals or at 40 \u00b0F or below is cooked or refrozen; bulging, leaking or spurting cans are still discarded."
+        }
       ]
     },
     {
-      "card": "DC-15", "title": "Giving someone else's prescription medication",
-      "settings_summary": "A prescription is written for one person: their weight, other drugs, allergies, kidneys and liver. Another person can have a dangerous reaction or interaction. When the pharmacy is gone and someone is running out, sharing the same drug at the same strength is the narrowest form of this risk.",
+      "card": "DC-15",
+      "title": "Giving someone else's prescription medication",
+      "settings_summary": "When pharmacies close, one person may run out of a medicine that someone else in the house or the neighbourhood still has. Prescriptions are written for one person because the right drug and dose depend on the illness, allergies, other medicines, kidney and liver function, weight and age. Shared medicine can cause an allergic reaction, a dangerous interaction, a dose far too strong (for example a painkiller or sleeping medicine that stops the breathing of someone not used to it), or the wrong insulin causing severe low blood sugar. What helps most: get each person's own supply and a written plan from their clinician now (removes most of it); share only the same drug at the same strength the person already takes, after an allergy and interaction check (reduces it a lot).",
       "options": [
-        { "id": "never", "label": "Never", "summary": "Each person uses only their own prescription. Someone may run out." },
-        { "id": "same-drug-same-strength-only", "label": "Same drug, same strength only", "summary": "Only when it is the exact same drug and strength the person already takes, with the page's cautions. You accept interaction and mix-up risks." }
+        {
+          "id": "never",
+          "label": "Never",
+          "summary": "Each prescription medicine is taken only by the person it was prescribed for. If someone runs out, the household looks for a clinician, pharmacy or the same prescription elsewhere."
+        },
+        {
+          "id": "same-drug-same-strength-only",
+          "label": "Same drug and strength, already prescribed to them",
+          "summary": "Only when the person was already prescribed the same drug at the same strength and has run out: they take it as their own label said, after checking allergies and their other medicines. Never a new drug for a new problem; never to a child from an adult's supply."
+        }
       ]
     },
     {
-      "card": "DC-16", "title": "Antibiotics without a prescription (veterinary or stockpiled)",
-      "settings_summary": "Antibiotics treat some bacterial infections and do nothing for viruses. The wrong drug, dose or length can cause allergic reactions, side effects and resistant infections, and can hide a problem that needs a doctor. Veterinary products are not made for people. If chosen, the binder prints only the published adult table as published; it does not cover children.",
+      "card": "DC-16",
+      "title": "Antibiotics without a prescription (stockpiled or veterinary)",
+      "settings_summary": "Before antibiotics, ordinary wounds and infections killed healthy adults, so many preppers stockpile them, sometimes as fish or farm-animal products. The right antibiotic depends on the infection, allergies and other medicines; the dose depends on weight and kidney function. Most coughs, colds and stomach bugs are viral, and antibiotics do nothing for them. The wrong antibiotic can cause a severe allergic reaction or severe diarrhoea, hide a worsening infection and breed resistance. Animal products are not made or checked for people. Child doses go by weight with a maximum, and liquids differ in strength. What helps most: a clinician's written plan and supply now (removes most of it); clear signs of a serious bacterial infection, human antibiotics and only the published doses printed in this binder (reduces it a lot). Choose never, adults only, or children included.",
       "options": [
-        { "id": "never", "label": "Never without a prescriber", "summary": "Use antibiotics only when prescribed. Some infections may go untreated." },
-        { "id": "last-resort", "label": "Last resort, with the published table", "summary": "Only with the infection-signs page and the published adult table printed as published; children excluded. You accept reaction and wrong-drug risk." }
+        {
+          "id": "never",
+          "label": "Never without a clinician",
+          "summary": "Antibiotics are taken only when a clinician prescribed them for that person and that illness, or wrote a plan in advance. No stockpiled, shared, veterinary or aquarium antibiotics are used on a guess."
+        },
+        {
+          "id": "last-resort",
+          "label": "Last resort for adults only",
+          "summary": "Only for an adult with the signs of a spreading or serious bacterial infection (12-04), no clinician reachable: a human antibiotic, drug and dose from a clinician's written plan or an adult row on 12-22 as published, dangers checked on 12-23. Never for children."
+        },
+        {
+          "id": "last-resort-with-children",
+          "label": "Last resort, children included",
+          "summary": "As the adult option, and also for a child: a clinician's written plan, or only a published child row on 12-22 with the child weighed, the dose checked against the published maximum or adult-dose band, and the liquid's mg per 5 mL read on the bottle. Never worked out at home."
+        }
       ]
     },
     {
-      "card": "DC-17", "title": "Old kerosene, diesel or gasoline in a heater or engine",
-      "settings_summary": "Fuel goes stale. Old gasoline gums up engines; old kerosene or diesel can pick up water and grow sludge, so a heater burns badly and smokier, making more carbon monoxide. Rotating fuel on a schedule keeps it fresh. A simple jar test (look for water, haze, sediment and colour) catches most bad fuel.",
+      "card": "DC-17",
+      "title": "Old kerosene, diesel or gasoline in a heater or engine",
+      "settings_summary": "Fuel ages. Gasoline loses the parts that help it start, can absorb water and leaves gum that blocks small-engine carburettors. Kerosene and diesel take up water from the air in part-full cans and can grow sludge. One common wick-heater maker says never use kerosene stored from one season to the next. The real danger is in heaters: the heater maker says old kerosene will not burn properly: smoke, odour, a low flame and deposits on the wick, and a heater burning badly indoors adds carbon monoxide (CO) to the room. Old gasoline in a generator mostly means it will not start when needed. What helps most: date, stabilise and rotate (removes most of it); store full, sealed, cool and dark, and jar-test before every fill (reduces it a lot). An unlabelled or unknown can is never poured.",
       "options": [
-        { "id": "fresh-only", "label": "Fresh fuel only, rotated", "summary": "Follow the rotation schedule and burn only fresh fuel. You need to buy and rotate regularly." },
-        { "id": "jar-test-and-use", "label": "Jar-test old fuel, then use", "summary": "Use older fuel that passes the jar test on the page. You accept worse burning and more upkeep." }
+        {
+          "id": "fresh-only",
+          "label": "Fresh fuel only, on a rotation schedule",
+          "summary": "Every can is dated. Gasoline is stabilised when bought and rotated into vehicles on a schedule; kerosene and diesel are used and replaced on a schedule. Fuel past the household's age limit is not burned in heaters or the generator."
+        },
+        {
+          "id": "jar-test-and-use",
+          "label": "Jar-test old fuel and use it if it passes",
+          "summary": "Old fuel may be used if a sample in a clear jar, left to stand, is clear and bright with no water layer, cloudiness, sludge or colour change, and it smells like the right fuel. Any doubt, or an unlabelled can, and it is not used."
+        }
       ]
     },
     {
-      "card": "DC-18", "title": "Feeding a food-allergic person unlabeled, traded or scavenged food",
-      "settings_summary": "Without a label you cannot know if food contains or touched the allergen. For someone with a severe allergy, a trace can cause anaphylaxis, a reaction that can kill in minutes. Single-ingredient foods you can see are lower risk; having epinephrine in hand when trying new food does not prevent a reaction but treats it.",
+      "card": "DC-18",
+      "title": "Feeding a food-allergic person unlabeled, traded or scavenged food",
+      "settings_summary": "When stores close, food arrives without labels: bartered, donated, scavenged, repackaged or foraged. For a person with a food allergy, a label is how you find the hidden egg, peanut, milk, sesame or soy. US law requires the nine major allergens to be declared on packaged food, but only while labels exist. Without one, a trace of the allergen, or a pot or spoon that touched it, can cause anaphylaxis: throat swelling, trouble breathing, collapse, death within minutes to hours without epinephrine. With no ambulance, epinephrine is the only treatment, and a reaction can need more than one dose. What helps most: a deep stock of verified safe food and kept labels (removes most of it); single-ingredient foods cooked in the household's own pots (reduces it a lot).",
       "options": [
-        { "id": "never", "label": "Never", "summary": "Only labeled or home-prepared safe food. You may have less to eat." },
-        { "id": "single-ingredient-only", "label": "Single-ingredient foods only", "summary": "Plain foods you can identify by eye. You accept cross-contact risk." },
-        { "id": "with-epinephrine-in-hand", "label": "With epinephrine in hand", "summary": "Try unlabeled food only with epinephrine ready, under the household's own written rule. You accept a reaction may happen." }
+        {
+          "id": "never",
+          "label": "Never: only food with a full, readable label",
+          "summary": "The allergic person eats only food whose full ingredient label has been read, or food the household made itself from labelled ingredients in a clean kitchen. No traded, donated, scavenged or foraged food, ever."
+        },
+        {
+          "id": "single-ingredient-only",
+          "label": "Single-ingredient foods only",
+          "summary": "Unlabelled or traded food is allowed only if it is one plain, recognisable ingredient (whole rice, dry beans, a whole vegetable or fruit, a whole cut of meat) that is not on the person's allergen list, washed and cooked in the household's own clean pots."
+        },
+        {
+          "id": "with-epinephrine-in-hand",
+          "label": "With epinephrine in hand, by our own line",
+          "summary": "Unlabelled food may be tried by the household's own written line, only with in-date epinephrine in hand, an adult who knows the plan watching, the first taste small, and never alone or at night."
+        }
       ]
     },
     {
-      "card": "DC-19", "title": "When to leave home",
-      "settings_summary": "This card is a worksheet. You read the triggers page and write your household's own thresholds for leaving on the printed card. Nothing to pick here.",
+      "card": "DC-19",
+      "title": "When to leave home: our triggers",
+      "settings_summary": "This card has no multiple choice. Leaving home is the highest-stakes decision a household makes in a long emergency, and the one most often made badly: too late, in a panic, in bad weather, with children. Staying in a stocked, known home is usually safer than moving. Leaving into a storm or extreme cold is dangerous: the National Weather Service's winter advice for drivers begins \u201cif you must drive\u201d and counts more than 5,000 deaths a year on US roads from weather conditions. But staying past the point where medicine, heat, water or safety runs out forces a move in the worst condition. The answer is thresholds written now, while calm, that turn a 3 a.m. judgement into a checklist. Fill in the trigger table on the page.",
       "options": []
     },
     {
-      "card": "DC-20", "title": "Open-flame cooking or candles indoors",
-      "settings_summary": "Candles and open flames are a leading cause of house fires during power cuts, and burning fuel indoors makes carbon monoxide. An extinguisher in reach, a working smoke and CO alarm, and never leaving a flame alone reduce the risk.",
+      "card": "DC-20",
+      "title": "Open-flame cooking, candles or oil lamps indoors",
+      "settings_summary": "In an outage, candles, oil lamps and cooking on a match-lit gas stove are the oldest answers to dark and cold food. US Fire Administration advice is to use flashlights, not candles, in a power outage, and to keep candles at least 12 inches from anything that burns: it counts about 20 home candle fires a day, from candles that tip over or sit too close to something that burns. Any flame indoors also adds carbon monoxide and uses oxygen, and CDC says never heat a home with a gas oven. Lamp oil and kerosene are poisonous if a child swallows them. What helps most: battery lights and outdoor cooking (removes it); working smoke and CO alarms, an extinguisher in reach, an adult present, nothing within 12 inches, never in sleeping areas (reduces it a lot).",
       "options": [
-        { "id": "never-indoors", "label": "Never indoors", "summary": "Battery lights indoors, cooking outdoors. You give up warmth and convenience." },
-        { "id": "with-extinguisher-and-alarm", "label": "With extinguisher and alarm", "summary": "Flame indoors only with an extinguisher in reach and working alarms. You accept a fire and CO risk." }
+        {
+          "id": "never-indoors",
+          "label": "No open flame indoors",
+          "summary": "Light comes from flashlights, headlamps and battery lanterns; cooking happens outdoors or on electric appliances run from stored power. No candles, oil lamps or flame cooking inside."
+        },
+        {
+          "id": "with-extinguisher-and-alarm",
+          "label": "Indoors with extinguisher, alarms and rules",
+          "summary": "Candles, oil lamps or stove-top flame cooking are allowed only with working smoke and CO alarms, an extinguisher within reach, 12 inches clear all round, an adult in the room, never where anyone sleeps, out when the room is left."
+        }
       ]
     },
     {
-      "card": "DC-21", "title": "Using a fireplace or wood stove that has not been inspected this year",
-      "settings_summary": "Chimneys build up creosote, a tar that can catch fire inside the flue. Cracks let smoke and carbon monoxide into the house. Fire agencies advise a yearly inspection. The page gives a do-it-yourself inspection; small fires, watched, reduce the risk from an unchecked chimney.",
+      "card": "DC-21",
+      "title": "Using a fireplace or wood stove that has not been inspected this year",
+      "settings_summary": "A fireplace or wood stove can heat a house with no power, but the chimney is part of the appliance. Wood smoke leaves a tar called creosote on the inside of the chimney; it builds up faster with damp wood and slow, smoky fires, and it burns. A chimney fire can crack the chimney and set the house alight. A chimney blocked by a nest, leaves or fallen brick sends smoke and carbon monoxide back into the room. The national chimney standard (NFPA 211), the US Fire Administration and the Chimney Safety Institute of America all say inspect at least once a year. What helps most: inspect first, by a professional or with the household's own light-and-mirror check (removes most of it); dry wood, small hot fires, alarms, an extinguisher and a watch on the chimney (reduces it a lot).",
       "options": [
-        { "id": "inspect-first", "label": "Inspect first", "summary": "Use the page's own inspection before the first fire. Takes time and a ladder." },
-        { "id": "use-with-small-fires-and-watch", "label": "Small fires and watch", "summary": "Use it uninspected with small fires and someone watching. You accept a chimney-fire risk." }
+        {
+          "id": "inspect-first",
+          "label": "Inspect first, using the chimney page",
+          "summary": "No fire until the household has done the inspection on the chimney page (cold flue, light and mirror, scrape test, cap and blockages) or a professional has. A flue with glaze, cracks or a blockage is not used until fixed."
+        },
+        {
+          "id": "use-with-small-fires-and-watch",
+          "label": "Use it with small hot fires and a watch",
+          "summary": "If it cannot be inspected now: small, hot fires of dry wood only, never smouldering overnight, CO and smoke alarms in the room, an extinguisher in reach, someone checking the chimney and attic, and an inspection at the first chance."
+        }
       ]
     },
     {
-      "card": "DC-22", "title": "Potassium iodide for adults over 40",
-      "settings_summary": "Potassium iodide (KI) protects the thyroid from radioactive iodine after a nuclear accident. The FDA does not recommend it for adults over 40 unless exposure is very high, because the risk of side effects rises with age and the thyroid benefit falls. The binder prints the FDA table as published.",
+      "card": "DC-22",
+      "title": "Potassium iodide for adults over 40",
+      "settings_summary": "Potassium iodide (KI) is a tablet that fills the thyroid gland with ordinary iodine so it does not absorb radioactive iodine released by a nuclear accident or bomb. It protects only the thyroid, only from radioactive iodine, and only when taken on official direction. FDA says anyone over 40 should take KI only if the predicted exposure is high enough to destroy the thyroid and cause lifelong hypothyroidism (an underactive thyroid). HHS gives the reason: adults over 40 have the lowest risk of thyroid cancer from radioactive iodine and a greater risk of an allergic reaction to KI. Sheltering indoors protects far more than KI does. What helps most: shelter first and take KI only when officials say so (removes most of the risk); decide now with a clinician and know FDA's do-not-take list (reduces it a lot).",
       "options": [
-        { "id": "follow-fda-table", "label": "Follow the FDA table", "summary": "Over 40, take KI only if exposure is very high, as the table says." },
-        { "id": "take-anyway", "label": "Take it anyway", "summary": "Adults over 40 take KI regardless. You accept side-effect risk the FDA advises against." }
+        {
+          "id": "follow-fda-table",
+          "label": "Follow FDA: over 40 only at very large exposure",
+          "summary": "Adults over 40 take potassium iodide only if the predicted exposure is high enough to destroy the thyroid (the top row of FDA's table), as FDA advises, and only on official direction. Everyone else follows the FDA table on the potassium iodide page."
+        },
+        {
+          "id": "take-anyway",
+          "label": "Adults over 40 take it whenever others do",
+          "summary": "When officials direct potassium iodide for the area, adults over 40 in the household take the FDA adult dose too, after checking the FDA list of people who should not take it, accepting a higher chance of side effects."
+        }
       ]
     },
     {
-      "card": "DC-23", "title": "Chlorinating water beyond label strength when it is very dirty",
-      "settings_summary": "Dirt in water uses up chlorine, so germs can survive a normal dose. Labels and agencies say to filter or settle cloudy water first, then use the normal dose. Doubling the dose and waiting longer is the usual fallback when water cannot be cleared; it leaves a stronger chlorine taste.",
+      "card": "DC-23",
+      "title": "Chlorinating very dirty water beyond the published dose",
+      "settings_summary": "Household bleach and dissolved pool shock kill most germs in water at the dose CDC and EPA publish, and they say to double that dose for cloudy, coloured or very cold water. Very dirty water is the problem: mud and plant matter use up the chlorine and hide germs inside particles, so even a big dose may not disinfect it, and a parasite called Cryptosporidium survives ordinary chlorine anyway. Pouring in much more chlorine than published mostly makes water taste and smell harsh and can upset stomachs; mistakes with concentrated pool shock are dangerous. What helps most: settle and filter first, then the published dose (reduces it a lot); boiling clear water instead (removes most germ risk). Bleach or pool shock is never mixed with ammonia, acids or other cleaners (floor).",
       "options": [
-        { "id": "label-dose-and-filter-first", "label": "Label dose, filter first", "summary": "Settle and filter first, then the label dose. Takes more time and gear." },
-        { "id": "double-dose-and-wait", "label": "Double dose and wait", "summary": "Double the dose and wait longer when water cannot be cleared. You accept more chlorine." }
+        {
+          "id": "label-dose-and-filter-first",
+          "label": "Clear it first, then the published dose",
+          "summary": "Very dirty water is settled and filtered until it is as clear as possible, then disinfected at the published dose (doubled only if it is still cloudy, coloured or very cold, as CDC and EPA say), with the full wait."
+        },
+        {
+          "id": "double-dose-and-wait",
+          "label": "Heavy dose and a longer wait when it cannot be cleared",
+          "summary": "When the water cannot be settled or filtered, it gets the doubled published dose, a longer wait, and a smell check; if no chlorine smell, dose again and wait again. The household accepts strong taste and that some germs may survive."
+        }
       ]
     },
     {
-      "card": "DC-24", "title": "Letting children do dangerous jobs because hands are short",
-      "settings_summary": "This card is a worksheet. You write, for each age band, which jobs (fire, fuel, tools, animals) your children may do and under what rule, on the printed card. Nothing to pick here.",
+      "card": "DC-24",
+      "title": "Children doing dangerous jobs because hands are short",
+      "settings_summary": "This card has no multiple choice. In a long emergency there is more work than adults to do it, and children want and need real jobs. But fire, fuel, cutting tools, chainsaws, large animals and open water injure and kill children every year on farms, where the same jobs are done. Farm-work guidelines developed with NIOSH support match each job to a child's physical, mental and social abilities. The answer is a rule written in advance: for each job, the age to start learning, the training, the supervision, and the habit a child must show before doing it alone. Fill in the table on the page. Locked storage of firearms, fuel, medicines and chlorine stays a floor.",
       "options": []
+    },
+    {
+      "card": "DC-25",
+      "title": "Converting a tourniquet to a pressure dressing when no help will ever come",
+      "settings_summary": "A tourniquet is a tight band that stops blood flow to a bleeding arm or leg. The rule is never loosen it, because the bleeding can start again and kill. That rule assumes a hospital takes over within hours. If no help will ever come, an arm or leg left without blood for many hours dies. Military prolonged-care guidance (TCCC, 2026) lets medics convert a tourniquet to wound packing and a pressure bandage only if the person is not in shock, the wound can be watched closely and it is not an amputation, ideally within 2 hours, and not after 6 hours without laboratory monitoring. People below medic level are told not to convert after 2 hours without a medic's direction, and otherwise to leave it on. What helps most: reaching care (removes the question); hands-on training, hemostatic gauze and pressure bandages (reduces it a lot).",
+      "options": [
+        {
+          "id": "never-loosen",
+          "label": "Never loosen: keep it on and accept the limb may be lost",
+          "summary": "Once a tourniquet is on, it stays on, even when no help will ever come. The household accepts that the arm or leg below it may die and be lost, in exchange for never risking the bleeding starting again."
+        },
+        {
+          "id": "convert-by-criteria",
+          "label": "Convert by the published prolonged-care criteria",
+          "summary": "If no help will ever come, a trained household member converts the tourniquet to packing and a pressure bandage only if every published criterion is met: not in shock, wound watched closely, not an amputation, within 2 hours (TCCC's limit for non-medics), tourniquet left loose in place."
+        }
+      ]
+    },
+    {
+      "card": "DC-26",
+      "title": "Holding the allergy-safe food in reserve for the allergic person",
+      "settings_summary": "When someone has a food allergy, only part of the stockpile is safe for them: food whose label has been read and checked against their allergens. Everyone else can eat almost anything. If the whole household eats the safe food in the normal order, it runs out first for the one person who has no other choice, and the pressure to give them doubtful food grows every day. A reaction with no ambulance may need more than one dose of epinephrine. Keeping the safe food as their reserve stretches it, but the others eat less-liked food first, which can feel unfair and can be hard to keep to. What helps most: stocking enough safe food for everyone (removes most of the question); tracking the safe food's own runway (reduces it a lot).",
+      "options": [
+        {
+          "id": "share-everything",
+          "label": "Share everything: all safe food is eaten by everyone",
+          "summary": "Food that is safe for the allergic person is part of the household's general stock and is eaten by everyone, in the normal order. The household plans one menu that suits all, for as long as it lasts."
+        },
+        {
+          "id": "reserve-for-allergic",
+          "label": "Reserve it: everyone else eats other stock first",
+          "summary": "Food verified safe for the allergic person is set aside as that person's reserve. Everyone else eats the food the allergic person cannot eat first, and the safe stock is used by others only when nothing else is left."
+        }
+      ]
+    },
+    {
+      "card": "DC-27",
+      "title": "Water-glassing fresh eggs (storing them in lime water)",
+      "settings_summary": "Water-glassing is an old way of keeping fresh eggs without a fridge: unwashed eggs sit in a bucket of pickling lime and water for months. University Extension services say do not do it. The germ Salmonella can be inside an egg before it is laid, the shell lets water and germs through, and a basement or pantry is not cold enough to stop them growing. Salmonella causes diarrhoea, fever, cramps and vomiting; for children, older adults, pregnant women and people with weak immune systems it can be severe, and with no hospital that matters more. The alternative may be no eggs through a winter. What helps most: freezing eggs out of the shell or drying cooked egg (removes the storage risk); cooking every stored egg until firm and checking each one (reduces it a lot).",
+      "options": [
+        {
+          "id": "do-not",
+          "label": "Do not water-glass: follow the Extension position",
+          "summary": "Eggs are refrigerated, frozen out of the shell, or cooked and dried. No eggs are stored in lime water. When cold storage fails, eggs are eaten fresh or not kept."
+        },
+        {
+          "id": "water-glass-with-rules",
+          "label": "Water-glass with rules",
+          "summary": "Only clean, unwashed, uncracked fresh eggs, in food-grade pickling lime solution, in a sealed container kept as cool as possible. Every egg is checked before use; any cracked, floating or off egg is discarded; every egg is cooked until yolk and white are firm; none go to anyone allergic to egg."
+        }
+      ]
+    },
+    {
+      "card": "DC-28",
+      "title": "Relighting gas appliance pilots yourself when the gas company will not come",
+      "settings_summary": "Gas appliances such as water heaters, furnaces and some stoves have a pilot: a small flame that lights the main burner. When the gas is shut off or runs out, every pilot goes out. FEMA says that once gas is turned off, only a qualified professional should turn it back on, and propane safety guidance strongly recommends that only a technician relight a pilot. The danger is gas that has leaked or pooled: propane is heavier than air and settles at the floor, and a flame or spark sets it off. A damaged appliance can also make carbon monoxide. With no gas company coming, waiting may mean no hot water, no furnace, no stove. What helps most: a technician or the utility does it (removes it); every appliance valve closed first, the appliance's own lighting label followed exactly, and a CO alarm (reduces it a lot).",
+      "options": [
+        {
+          "id": "utility-only",
+          "label": "Utility only: wait for the gas company or a technician",
+          "summary": "Once the gas is shut off or a pilot goes out, the household does not turn the gas back on or relight anything itself. It waits for the gas utility, the propane supplier or a qualified technician, however long that takes, and heats and cooks by other means meanwhile."
+        },
+        {
+          "id": "relight-with-rules",
+          "label": "Relight ourselves, with rules",
+          "summary": "Only when no one qualified will come: every appliance valve closed before gas is restored, no gas smell anywhere (floor level too), nothing that has been under water, each appliance relit one at a time by its own lighting label, a working CO alarm, gas off at once if a smell returns."
+        }
+      ]
+    },
+    {
+      "card": "DC-29",
+      "title": "One traction attempt on a fractured limb with no pulse below it, when no care is coming",
+      "settings_summary": "A badly broken arm or leg can cut off the blood flowing past the break to the hand or foot. It turns pale or blue, cold and numb, with no pulse. First-aid teaching says splint a break as you find it and do not straighten it, because moving it hurts and can do more damage. The same published first-aid guidance makes one exception: if circulation is poor and no trained person is quickly available, try to bring the limb back toward its normal position, which reduces damage from lack of blood. Wilderness first-aid standards teach gentle traction into position for bent long-bone breaks. Not doing it may cost the limb; doing it may cause pain and further injury. What helps most: reaching care (removes the question); hands-on wilderness training (reduces it a lot).",
+      "options": [
+        {
+          "id": "splint-as-found",
+          "label": "Splint as found: never pull on a broken limb",
+          "summary": "A broken arm or leg is always splinted in the position found, even when the hand or foot beyond it has no pulse and no care is coming. The household accepts that the limb may be lost rather than risk making the injury worse."
+        },
+        {
+          "id": "one-gentle-traction",
+          "label": "One gentle traction attempt, then splint",
+          "summary": "Only for a deformed broken arm or leg whose hand or foot is pale or blue, cold and pulseless, with no trained help reachable: one gentle, steady pull along the limb toward its normal line, then re-check the pulse and splint. Never on the spine, hip or pelvis, or a break with bone showing."
+        }
+      ]
+    },
+    {
+      "card": "DC-30",
+      "title": "Keeping a wood stove or fireplace burning while people sleep",
+      "settings_summary": "A wood stove or fireplace can be kept going through the night by 'banking' it: a big load and the air turned down so it burns slowly until morning. The US Fire Administration's advice is the opposite: put the fire out before you go to sleep. Two things go wrong while people sleep. A slow, air-starved fire coats the chimney with creosote, a tar that can catch fire and burn very hot. And if smoke spills back into the room, carbon monoxide (CO), which CDC says can kill sleeping people before they feel anything. Many stove makers do describe an overnight burn in their manuals. What helps most: fire out before sleep (removes it); dry wood, the maker's overnight method, never below its minimum air setting, damper open while coals are live, tested CO and smoke alarms, a checked chimney, and an adult who checks at night (reduces it a lot). The cost of 'out' is a cold house by morning.",
+      "options": [
+        {
+          "id": "put-out-before-sleep",
+          "label": "Fire out before anyone sleeps (USFA)",
+          "summary": "The last load burns down before bed and nobody sleeps with a live fire in the house. The night is taken on bedding, layers and shared warmth in one room; the fire is relit in the morning."
+        },
+        {
+          "id": "bank-with-rules",
+          "label": "Banked low, with the maker's method and checks",
+          "summary": "Only a stove (or insert) whose maker describes overnight burns, run their way: dry wood, never below the maker's minimum air setting, damper open while coals are live, CO and smoke alarms tested, chimney checked this season, an adult checks during the night."
+        }
+      ]
+    },
+    {
+      "card": "DC-31",
+      "title": "How the household keeps firearms ready",
+      "settings_summary": "A household that keeps firearms for protection decides how ready to keep them with children around. In every option, children do not have access to firearms (a floor). AAP and NSSF say store every firearm locked and unloaded, with ammunition locked separately; a JAMA study linked each of those habits to fewer child and teen shootings. CDC found that in children's accidental gun deaths the gun was usually stored loaded and unlocked, most often found in a nightstand or bed, a closet, a vehicle or a bag, and was often a parent's. A gun ready faster gives more chances for a child or a troubled teen to reach a loaded one. What helps most: everything locked, unloaded, ammunition apart (removes most of it); one loaded firearm only in a locked quick-access box fixed down, or only on an adult's body in a holster that covers the trigger and into a lock whenever it comes off (reduces it a lot).",
+      "options": [
+        {
+          "id": "locked-safe",
+          "label": "All firearms locked, unloaded, ammunition apart",
+          "summary": "Every firearm unloaded in a locked safe or cabinet, ammunition locked separately, keys and codes out of children's reach. Slowest to reach in an emergency."
+        },
+        {
+          "id": "quick-access-lockbox",
+          "label": "One loaded in a quick-access lockbox, rest locked",
+          "summary": "One firearm loaded inside a keypad or fingerprint lockbox that is always shut, fixed down, out of sight and reach, tested monthly; codes never shown to children. All others locked and unloaded, ammunition apart."
+        },
+        {
+          "id": "carried-on-person",
+          "label": "One carried on an adult's body, rest locked",
+          "summary": "One firearm on a named adult's body in a holster that covers the trigger, never in a bag or set down; whenever it comes off (sleep, bath, visitors) it goes into a locked box. All others locked and unloaded, ammunition apart."
+        }
+      ]
     }
   ]
 }

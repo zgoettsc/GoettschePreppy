@@ -2,7 +2,7 @@
 id: 25-07-glossary
 section: 25-reference-and-appendices
 title: "Glossary: every term in plain words"
-version: 5
+version: 6
 revised: 2026-11-16
 layer: core
 danger_level: none
@@ -26,7 +26,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Card range DC-01 to DC-29; tourniquet and second-dose wording aligned; hazard rating aligned with EX-10; hardening off aligned with 25-01. Wave 2 (R18): tourniquet entry quotes the 30-01 floor verbatim. R19: sizes row names all three tiers as 00-09. L8: card range extended to DC-31 (→ 30-32) for new cards DC-30, DC-31." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Card range DC-01 to DC-29; tourniquet and second-dose wording aligned; hazard rating aligned with EX-10; hardening off aligned with 25-01. Wave 2 (R18): tourniquet entry quotes the 30-01 floor verbatim. R19: sizes row names all three tiers as 00-09. L8: card range extended to DC-31 (→ 30-32) for new cards DC-30, DC-31. L7: antibiotic, resistance, mg/kg, mg/5 mL, C. diff and TCCC entries added for 12-22 to 12-24." }
 ---
 
 # Glossary: every term in plain words
@@ -110,6 +110,12 @@ definitions orient you; the page in the last column does the work. The explainer
 | **Wound packing** | Stuffing gauze firmly into a deep wound and pressing to stop bleeding | → 12-02 |
 | **Triage** | Sorting injured people by who benefits most from limited help | → 12-16 |
 | **Sepsis** | A life-threatening body-wide response to infection | → 12-04 |
+| **Antibiotic** | A medicine that kills bacteria or stops them growing. **Does nothing for viruses** (colds, flu, most coughs and sore throats) | → 12-22, → 12-23 |
+| **Antibiotic resistance** | Bacteria that survive a drug and multiply, so it stops working for that person and others | → 30-17 |
+| **mg/kg** | Milligrams of medicine for each kilogram the person weighs. A published child dose in mg/kg is always checked against the **published maximum**; this binder never works one out | → 12-22 |
+| **mg/5 mL** | How much medicine is in each 5 mL (one teaspoon) of a liquid. The same medicine comes in different strengths; **read the bottle** | → 12-22, → 29-14 |
+| **C. diff** | *Clostridioides difficile*: a severe diarrhoea any antibiotic can cause, even weeks after the course | → 12-23 |
+| **TCCC** | Tactical Combat Casualty Care: the US military's battlefield first-aid guidelines, written for trained medics | → 12-24 |
 | **CPR** | Chest compressions (and breaths) to keep blood moving when the heart stops | → 12-18 |
 | **Medical ID** | A bracelet, tag or card naming a condition or allergy for responders | → 25-09 |
 
