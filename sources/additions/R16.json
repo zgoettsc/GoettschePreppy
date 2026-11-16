@@ -1,0 +1,68 @@
+[
+ {
+  "key": "cdc-botulism-treatment-r16",
+  "title": "Treatment of Botulism",
+  "org": "CDC",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work. Read by R16 (live): antitoxin; ventilator until the person can breathe on their own; some people stay in hospital for weeks or even months.",
+  "url": "https://www.cdc.gov/botulism/treatment/index.html",
+  "household_cited_by": [],
+  "cited_by": []
+ },
+ {
+  "key": "osha-29-cfr-1910-333-r16",
+  "title": "29 CFR 1910.333, Selection and use of work practices (de-energizing, lockout and tagging, verification of deenergized condition)",
+  "org": "OSHA",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "US federal regulation text. Read by R16 (live): deenergize before work; lockout/tagging; qualified person verifies with test equipment that parts are deenergized; only qualified persons work on energized parts.",
+  "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.333",
+  "household_cited_by": [],
+  "cited_by": []
+ },
+ {
+  "key": "aap-recommended-drinks-young-children-r16",
+  "title": "Recommended Drinks for Children Age 5 & Younger",
+  "org": "American Academy of Pediatrics (HealthyChildren.org)",
+  "date": "2023-10-03",
+  "licence_class": "restricted",
+  "licence_note": "Copyrighted (AAP). Fetch for the household's private copy only. Read by R16: 12-24 months whole milk 16 oz/day (2 cups); children 2 and older nonfat or low-fat milk; water 4-8 oz/day at 6-12 months; toddler milks unnecessary.",
+  "url": "https://www.healthychildren.org/English/healthy-living/nutrition/Pages/Recommended-Drinks-for-Young-Children-Ages-0-5.aspx",
+  "household_cited_by": [],
+  "cited_by": []
+ },
+ {
+  "key": "aap-diaper-rash-r16",
+  "title": "Diaper Rash",
+  "org": "American Academy of Pediatrics (HealthyChildren.org)",
+  "date": "2026-11-16",
+  "licence_class": "restricted",
+  "licence_note": "Copyrighted (AAP). Fetch for the household's private copy only. Read by R16: yeast clues (shiny bright red or pink patches, sharp edges, worse in groin folds); call if not going away or worse after two to three days of treatment; pediatrician may recommend an antifungal cream.",
+  "url": "https://www.healthychildren.org/English/ages-stages/baby/diapers-clothing/Pages/Diaper-Rash.aspx",
+  "household_cited_by": [],
+  "cited_by": []
+ },
+ {
+  "key": "purdue-antifreeze-poisonous-pets-2017-r16",
+  "title": "Antifreeze is poisonous to pets and humans, so why keep it around?",
+  "org": "Purdue University News (College of Veterinary Medicine expert)",
+  "date": "2017-11-07",
+  "licence_class": "restricted",
+  "licence_note": "University news release; copyrighted. Fetch for the household's private copy only. Read by R16: ethylene glycol is sweet tasting; a little licked off a cat's fur can harm it; store where pets and children cannot reach. Replaces the ASPCA landing-page capture (a3f331) on 20-09.",
+  "url": "https://www.purdue.edu/newsroom/archive/releases/2017/Q4/antifreeze-is-poisonous-to-pets-and-humans,-so-why-keep-it-around.html",
+  "household_cited_by": [],
+  "cited_by": []
+ },
+ {
+  "key": "cdc-toxoplasmosis-people-at-increased-risk-r16",
+  "title": "People at Increased Risk for Toxoplasmosis",
+  "org": "CDC",
+  "date": "2026-11-16",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work. Read by R16 (live): for pregnant people, if possible have someone else change cat litter; if no one else can, wear disposable gloves and wash hands with soap and water afterwards.",
+  "url": "https://www.cdc.gov/toxoplasmosis/risk-factors/index.html",
+  "household_cited_by": [],
+  "cited_by": []
+ }
+]

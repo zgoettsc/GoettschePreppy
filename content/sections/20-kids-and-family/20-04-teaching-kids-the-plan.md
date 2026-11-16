@@ -98,8 +98,8 @@ Tips).
 Everything on the preschool list, plus:
 - **Home address and a phone number by heart**, and the out-of-area contact (→ 00-04).
 - **How to call 911 and what to say** (AAP, Teaching Your Child How to Use 911): their name,
-  the address, what happened, and stay on the line. Any wireless phone can call 911, even without
-  service (FCC).
+  the address, what happened, and stay on the line. A mobile phone with no service plan can still
+  call 911, but only where it has a signal (FCC).
 - **The family communications plan** (→ 15-03): meeting places, radio channel, signals.
 - **Basic first aid:** pressure on bleeding, cooling a burn, the recovery position (→ 12-01).
 - **Carrying and checking their own go-bag** (→ 22-03).
