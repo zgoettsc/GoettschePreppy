@@ -47,7 +47,7 @@ Options are listed with their id for the profile (`decision_cards.DC-xx`).
 |---|---|---|
 | DC-01 | **An unvented heater running while people sleep.** | `never` keep heat by other means overnight; `alarm-and-wake` lowest setting, tested CO alarm at pillow height, two vents open, barrier, someone wakes every 3 hours; `run-it` run it with alarms and vents. |
 | DC-02 | **A propane cylinder larger than 1 lb inside the house.** | `never`; `last-resort` only with a hose through a window, cylinder outside; `indoors-with-rules` cylinder indoors, valve closed when not burning, no pilot appliances, alarm. |
-| DC-03 | **Refilling 1-lb propane cylinders from a 20-lb tank.** | `never` (manufacturer position); `by-weight` refill only with a refillable-rated cylinder, weighed, outdoors, leak-checked. |
+| DC-03 | **Refilling 1-lb propane cylinders from a 20-lb tank.** | `never` (manufacturer position); `by-weight` (id kept) refill only a refillable-rated cylinder, following the refill kit maker's training (fill to its gauge, upturned-tank time limit, requalification date), outdoors, leak-checked. |
 | DC-04 | **Using expired or heat-exposed epinephrine, or other expired medication, when no in-date supply exists.** | `discard`; `use-if-clear` use if the solution is clear and colourless, and keep seeking in-date stock. |
 | DC-05 | **Storing gasoline, kerosene or propane in an attached garage.** | `outbuilding-only`; `garage-with-rules` approved cans, away from ignition sources, transfer outdoors, quantity cap written on the card. |
 | DC-06 | **Carrying fuel inside a passenger vehicle.** | `never-inside` roof, hitch carrier or trailer only; `cargo-area-shortest-time` sealed cans, cargo area, windows cracked, shortest possible leg. |

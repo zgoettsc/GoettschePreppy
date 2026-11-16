@@ -154,7 +154,7 @@ paper, in this binder. {{photo power-box}}
 - **No main battery fuse.** The classic catastrophic fire.
 - **Controller maximum PV voltage too low for a cold clear morning.** A dead controller.
 - **Lead-acid discharged below 50% again and again.** A dead bank in one season.
-- **Lithium iron phosphate charged below freezing.** A permanently damaged battery.
+- **Lithium iron phosphate charged below its cold limit.** Makers warn it can damage the cells (→ 09-07).
 - **Sizing on yearly-average sun hours.** Works in July, fails in January.
 - **An inverter far larger than needed.** Big inverters have real idle draw that quietly eats the
   bank. Size it to the load and **switch it off when unused.**

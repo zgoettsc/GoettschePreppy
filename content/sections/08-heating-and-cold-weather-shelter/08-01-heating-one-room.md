@@ -2,7 +2,7 @@
 id: 08-01-heating-one-room
 section: 08-heating-and-cold-weather-shelter
 title: "Heating one room instead of the house"
-version: 2
+version: 3
 revised: 2026-11-16
 layer: core
 danger_level: critical

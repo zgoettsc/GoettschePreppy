@@ -2,7 +2,7 @@
 id: 30-10-dc09-infant-bed-sharing
 section: 30-decisions-and-floors
 title: "DC-09. An infant or toddler sharing a bed with adults for warmth"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: card
 danger_level: critical
@@ -25,7 +25,7 @@ options:
     label: "Bed-share on cold nights, over 12 months only, with rules"
     summary: "Only for a child over 12 months: firm mattress (on the floor if the bed is high), no pillows or heavy covers near the child, sleep sack instead, sober and unsedated adults, no older child beside them, nothing hot in the bed."
 settings_summary: "In a cold house, sharing a bed keeps a small child warm with body heat. The American Academy of Pediatrics says babies under 1 year should sleep in the parents' room but on their own firm, flat surface, and that parents should avoid bed-sharing under any circumstances; about 3,500 US babies die each year suddenly and unexpectedly while sleeping, most from SIDS or from suffocation or strangulation. The risk is highest under 4 months, with soft bedding, sofas, smoking, or an adult who has had alcohol, drugs or sedating medicine. Cold is a real risk too: CDC lists infants in cold bedrooms among those most at risk of hypothermia. What helps most: own firm surface next to the adults, warm room, layers and a sleep sack (removes most of it). Bed-sharing on this card is only offered for children over 12 months."
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "AAP 2022 text re-read: avoid bed-sharing under any circumstances, emergency box/drawer surface replaces floor mat, risk multipliers quoted, overheating signs." }
 ---
 
 # DC-09. An infant or toddler sharing a bed with adults for warmth

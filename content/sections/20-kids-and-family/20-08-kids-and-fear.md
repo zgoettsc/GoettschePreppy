@@ -26,7 +26,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Spot-checked: 988 and Disaster Distress Helpline numbers re-read; CDC coping page moved (not re-read), no numbers depend on it." }
 ---
 
 # Children and fear

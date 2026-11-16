@@ -2,7 +2,7 @@
 id: 30-05-dc04-expired-medication
 section: 30-decisions-and-floors
 title: "DC-04. Expired or heat-exposed epinephrine, and other expired medication"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: card
 danger_level: critical
@@ -30,7 +30,7 @@ options:
     label: "Use if clear and colourless; keep seeking in-date stock"
     summary: "When no in-date supply exists: in anaphylaxis, an expired or thawed epinephrine device whose liquid is clear and colourless is used at once. Intact tablets past date may be used. Liquids that changed are not. Keep looking for in-date stock."
 settings_summary: "Every medicine has an expiry date: the date until which the maker guarantees full strength. Labels also give a storage range; epinephrine auto-injectors (EpiPen type) should not freeze or get hot. After the date, or after freezing or heat, strength can drop slowly, and some liquids can change. In anaphylaxis (a severe allergic reaction), a weak dose is worse than a full one, but giving no dose at all can be fatal. One published study found expired EpiPens up to 50 months past date all still held at least 80 percent of their dose; a meeting abstract found frozen-then-thawed ones delivered a normal volume. What helps most: keep enough in-date supply, rotated, at the right temperature (removes it); check the window for clear, colourless liquid (reduces it a lot). This card does not cover insulin: frozen insulin is always thrown away."
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "EpiPen label storage re-read; Cantrell, Cooper (abstract, volume only) and Lyon SLEP abstract quoted accurately; AAAAI second-dose attribution replaced by AAP plan." }
 ---
 
 # DC-04. Expired or heat-exposed epinephrine, and other expired medication

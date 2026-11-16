@@ -2,7 +2,7 @@
 id: 30-04-dc03-refilling-1-lb-cylinders
 section: 30-decisions-and-floors
 title: "DC-03. Refilling 1-lb propane cylinders from a 20-lb tank"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: card
 danger_level: critical
@@ -26,7 +26,7 @@ options:
     label: "Refill refillable-rated cylinders only, maker's method"
     summary: "Only cylinders stamped as refillable; never a disposable. Filled outdoors, away from flame, stopping at the maker's fill gauge, then weighed against the stamped tare weight and leak-tested; any overfilled, hissing or stiff-valved cylinder is set aside outdoors."
 settings_summary: "The small green 1-lb propane cylinders sold for camp stoves and indoor heaters are made to be filled once at the factory. Adapters sold online let you refill them from a grill tank. Heater makers allow only factory-filled disposable cylinders indoors, and refillable cylinder makers say never refill a disposable. The real dangers are overfilling (a 1-lb cylinder has no automatic overfill stop; the person filling must stop at the maximum level, and an overfilled one can vent gas when it warms indoors) and a worn valve that leaks in the room. What helps most: buy new cylinders, or use a 20-lb tank outdoors with a hose (removes it); cylinders built to be refilled, filled outdoors by the maker's method, weighed and leak-tested (reduces it a lot)."
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Fill method corrected to the maker's training (fixed liquid level gauge, 10 min inverted, 12-year requalification); weighing kept as a check; option id by-weight kept." }
 ---
 
 # DC-03. Refilling 1-lb propane cylinders from a 20-lb tank

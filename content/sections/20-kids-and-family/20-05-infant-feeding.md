@@ -2,7 +2,7 @@
 id: 20-05-infant-feeding
 section: 20-kids-and-family
 title: "Feeding babies and toddlers without the supply chain"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -33,7 +33,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Matched to CL-13 and CDC: dilution and homemade-formula harms as CDC/FDA say; under 2 months, sanitise daily per CDC; breast milk times re-read; milk 16 oz per AAP; evaporated-milk ratio and 48 h RTF removed." }
 ---
 
 # Feeding babies and toddlers without the supply chain

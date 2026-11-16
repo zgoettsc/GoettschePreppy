@@ -2,7 +2,7 @@
 id: 30-01-the-floors
 section: 30-decisions-and-floors
 title: "The floors: nine rules that are not choices"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: floors
 danger_level: critical
@@ -44,7 +44,7 @@ explainers: [EX-01, EX-03, EX-04, EX-05, EX-07, EX-08]
 promote_when: []
 figures: [fig-generator-distance, fig-backfeed-path]
 cards: [DC-25]
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Wave-2: ATSDR gasoline misattribution fixed (MDE, NIOSH); hundreds of cars to CPSC CO Information Center; backfeed to CPSC 5123 and OSHA; tourniquet to USUHS/TCCC; canning to USDA; CDC botulism, MMWR hemlock and Amanita read; bold floor sentences unchanged." }
 ---
 
 # The floors: nine rules that are not choices

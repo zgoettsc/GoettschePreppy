@@ -2,7 +2,7 @@
 id: 30-06-dc05-fuel-in-attached-garage
 section: 30-decisions-and-floors
 title: "DC-05. Storing gasoline, kerosene or propane in an attached garage"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: card
 danger_level: critical
@@ -31,7 +31,7 @@ options:
     label: "Attached garage with rules"
     summary: "Approved, labelled cans, caps tight, as far from any heater, water heater or spark as the garage allows; never poured or transferred inside; propane cylinders never in the garage; a written quantity cap."
 settings_summary: "Many households keep gas cans in the attached garage, next to the car, the lawn mower and often a water heater or furnace. The danger is not the liquid but its vapour. Gasoline vapour can burn even in deep cold, is heavier than air, travels along the floor and catches fire from a pilot light, igniter, spark or hot engine. CPSC says store fuel outside living areas and away from fuel-burning appliances. A garage fire spreads into the house. Propane cylinders in a garage can vent gas when they warm. What helps most: fuel in a detached shed or outdoor locker (removes most of it); approved sealed cans, far from ignition sources, never opened inside, small quantity (reduces it a lot)."
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "ATSDR misattribution replaced (MDE, NIOSH); CPSC 5123 storage rule and NFPA 58 via MN SFM; unsourced fire-code cap removed; no-garage text added." }
 ---
 
 # DC-05. Storing gasoline, kerosene or propane in an attached garage

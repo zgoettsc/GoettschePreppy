@@ -2,7 +2,7 @@
 id: 30-11-dc10-pets-when-you-cannot-keep-them
 section: 30-decisions-and-floors
 title: "DC-10. Pets when food, water or movement makes keeping them impossible"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: card
 danger_level: caution
@@ -29,7 +29,7 @@ options:
     label: "A humane end, by the method page"
     summary: "If the pets cannot be kept, carried or rehomed, their lives are ended humanely: by a veterinarian whenever any can be reached; if none can, only by the AVMA-based method on the pets page, by a calm adult with the skill it requires, away from the children. Never an improvised method."
 settings_summary: "Pets need food, water and room in the vehicle. In a long emergency a household may not be able to feed them, or may have to leave on foot or with no space. FEMA's advice while help exists is that if you evacuate, your pets evacuate too: pets left behind may end up lost, injured or worse. When that is not possible, the choices are hard: keep them and share scarce food and water; release them, knowing many may not survive; or end their lives humanely, which the American Veterinary Medical Association says must be done by a method that minimises or eliminates pain and distress, ideally by or with a veterinarian. What helps most: plan pet food, water and carriers now, and find someone who could take them (removes most of it); decide in advance, calmly, so the decision is not made in panic."
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Ready.gov pets re-read (evacuate together; lost, injured or worse); AVMA 'minimise or eliminate' replaces 'no fear or pain'; vet-first in humane-end option." }
 ---
 
 # DC-10. Pets when food, water or movement makes keeping them impossible

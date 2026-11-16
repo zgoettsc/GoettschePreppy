@@ -2,7 +2,7 @@
 id: 20-04-teaching-kids-the-plan
 section: 20-kids-and-family
 title: "Teaching children the plan"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -29,7 +29,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "FCC 911 line corrected (no plan still needs a signal); AAP 911 and FCC pages not re-readable (404/403), method-only text kept." }
 ---
 
 # Teaching children the plan

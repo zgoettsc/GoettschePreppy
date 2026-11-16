@@ -2,7 +2,7 @@
 id: 30-09-dc08-heat-exposed-medication
 section: 30-decisions-and-floors
 title: "DC-08. Using insulin or other refrigerated medication after a heat excursion"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: card
 danger_level: critical
@@ -29,7 +29,7 @@ options:
     label: "Use beyond the window if nothing else; watch closely"
     summary: "If no properly stored supply exists, heat-exposed or out-of-window insulin is used rather than none, with more frequent glucose checks and ketone checks, expecting it may work less well. Replaced as soon as possible."
 settings_summary: "Insulin and some other medicines are stored in the fridge. Without power, FDA's emergency guidance says insulin can be kept at 59 to 86 °F for up to 28 days. Above that, or for longer, it slowly loses strength, and you cannot see the loss. Weaker insulin means higher blood sugar and, for type 1 diabetes, a risk of diabetic ketoacidosis (DKA), which can kill. But no insulin at all causes DKA for certain. FDA says that in an emergency you may still need to use insulin stored above 86 °F until proper supply returns. What helps most: keep it in the band with a powered fridge or cooler and a thermometer (removes it); evaporative pouches, cool spots, rotation (reduces it a lot). Frozen insulin is never used (floor)."
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "ADA claims corrected (switching sheet vs storage page); Cochrane figures quoted; DKA wording to CDC/ADA; unsourced 'within days' removed." }
 ---
 
 # DC-08. Using insulin or other refrigerated medication after a heat excursion

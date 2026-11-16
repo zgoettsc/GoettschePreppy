@@ -2,7 +2,7 @@
 id: 20-06-diapers-and-hygiene
 section: 20-kids-and-family
 title: "Diapering and keeping small children clean"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -27,7 +27,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Yeast-rash signs and 2-3 day line re-sourced to AAP Diaper Rash; unsourced cream strengths removed." }
 ---
 
 # Diapering and keeping small children clean

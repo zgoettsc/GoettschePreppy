@@ -2,7 +2,7 @@
 id: 30-03-dc02-propane-cylinder-indoors
 section: 30-decisions-and-floors
 title: "DC-02. A propane cylinder larger than 1 lb inside the house"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: card
 danger_level: critical
@@ -31,7 +31,7 @@ options:
     label: "Indoors with rules"
     summary: "The cylinder itself comes indoors, only when the outdoor-hose route is impossible: an above-ground room, never a basement; valve closed whenever the heater is off; no pilot-light appliances nearby; leak test; CO alarm; adult awake; tank out as soon as possible."
 settings_summary: "A 20-lb propane cylinder (the grill size) holds about twenty times the gas of a 1-lb camping cylinder. Heater makers and the national propane code keep anything over the 1-lb size out of the house. The reason: propane is heavier than air. A leak at the valve, hose or regulator flows along the floor, collects in low places such as basements, and explodes when it reaches a flame such as a pilot light or the heater itself. A cylinder warmed indoors can also vent gas through its safety valve on purpose. What helps most: tank outdoors and not connected indoors (removes the risk); tank outdoors with the maker's hose through a window (reduces it a lot); if it must come in, above-ground room, valve closed when off, leak test, no pilot flames nearby, adult awake (reduces it a little)."
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Options made mutually exclusive (coordinator/R13); manual's remote-cylinder scope stated; NFPA 58 via MN SFM; relief valve and 1.5x heavier via Flame King training; PERC (403) dropped." }
 ---
 
 # DC-02. A propane cylinder larger than 1 lb inside the house

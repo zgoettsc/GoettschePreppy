@@ -2,7 +2,7 @@
 id: 20-07-kids-jobs
 section: 20-kids-and-family
 title: "Real jobs for children"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -25,7 +25,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Floor items reworded so the worksheet cannot override access; unread NIOSH attribution removed; CDC preschool chores re-read." }
 ---
 
 # Real jobs for children

@@ -170,9 +170,9 @@ afternoon can be over it at sunrise on a clear, frozen morning. Cold never raise
 
 The worked tables for your own panels and stations, and which configuration goes into which
 station, are on → 09-03. The short version that prevents almost every disaster: **a station with
-a high input-voltage ceiling and a low current limit takes series strings; a station with a low
+a high input-voltage ceiling and a low current limit takes series strings that pass the cold check; a station with a low
 voltage ceiling and a high current limit takes parallel pairs or single panels, never a series
-string that its ceiling cannot hold cold.**
+string: its ceiling cannot hold one cold, and the over-voltage kills the input for good.**
 
 ### Mounting decisions that matter
 - **Face true south** (US Department of Energy, Solar Photovoltaic System Design Basics). A compass

@@ -2,7 +2,7 @@
 id: 30-02-dc01-unvented-heater-overnight
 section: 30-decisions-and-floors
 title: "DC-01. An unvented heater running while people sleep"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: card
 danger_level: critical
@@ -31,7 +31,7 @@ options:
     label: "Run it with alarms and vents"
     summary: "The heater runs overnight with a tested CO alarm in the room and the manual's vents open, but no one is set to wake and check it."
 settings_summary: "Portable propane and kerosene heaters sold for indoor use are 'unvented': their exhaust, including carbon monoxide (CO), stays in the room. Both common types' manuals say never run them while you sleep, and CPSC says never run an unvented fuel-burning appliance where people sleep. CO has no smell; CDC says sleeping people can die before they feel any symptom, and infants and older adults are at higher risk. Fire from bedding or a tipped heater is the second risk. What helps most: heater off while people sleep (removes the risk); a tested CO alarm at pillow height, the manual's vent openings, the lowest correct flame, a barrier, and an adult who wakes every 3 hours to check (reduces it a lot). The cost of 'never' is a cold night, which matters most for babies and frail elders in deep cold."
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Manuals re-read (9 sq in high and low; 1 in window; wick-stop); CPSC Q&A sleep rule added; CDC risk groups corrected; MU G1999 (404) dropped." }
 ---
 
 # DC-01. An unvented heater running while people sleep

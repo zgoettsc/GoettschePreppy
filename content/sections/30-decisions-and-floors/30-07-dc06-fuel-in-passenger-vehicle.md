@@ -2,7 +2,7 @@
 id: 30-07-dc06-fuel-in-passenger-vehicle
 section: 30-decisions-and-floors
 title: "DC-06. Carrying fuel inside a passenger vehicle"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: card
 danger_level: critical
@@ -29,7 +29,7 @@ options:
     label: "Cargo area, sealed cans, shortest time"
     summary: "Only when no outside carry exists: approved sealed cans, filled no more than 95 percent, caps tight, upright and strapped in the rear cargo area, windows cracked, emptied into the tank at the first chance. Propane cylinders upright, valves closed."
 settings_summary: "When a family has to drive a long way with no fuel stations working, extra gasoline in cans can be the difference between arriving and being stranded. There is no simple agency rule for gasoline cans in a family car; the guidance is to fill cans on the ground, never inside a vehicle, keep them sealed and secured, and never leave propane cylinders in a closed vehicle. Inside a closed car, vapour from a can collects in the cabin and can ignite from a spark. In a rear-end crash, a can behind the back seat can split and burn next to the passengers. Propane in a closed car can leak and pool on the floor. What helps most: carry fuel outside the cabin on a rack, hitch carrier or trailer (removes most of it); approved sealed cans, strapped upright, windows cracked, shortest possible time (reduces it a lot)."
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Fuller can contradicted MDE 95 percent; 'guidance says outside' was unsourced, now states what MDE, PERC, CPSC and 49 CFR 173.6 say." }
 ---
 
 # DC-06. Carrying fuel inside a passenger vehicle

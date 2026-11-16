@@ -2,7 +2,7 @@
 id: 20-01-toddler-and-infant-needs
 section: 20-kids-and-family
 title: "Babies, toddlers and young children: what they need"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -33,7 +33,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Choking list re-read against AAP (fixes and household items added); whole milk 16 oz/day per AAP (was 16-24, not on CDC page); loperamide under 2 to MedlinePlus/WHO; DGA 330/400 and WHO 50-100 mL re-read." }
 ---
 
 # Babies, toddlers and young children: what they need

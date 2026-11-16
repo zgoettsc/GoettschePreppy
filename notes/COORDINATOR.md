@@ -122,3 +122,5 @@ Collected from worker reports; resolved in the integration pass.
 - [x] R11: MedlinePlus drug (ASHP) and encyclopedia (A.D.A.M.) pages reclassed restricted. SAMHSA TIP 63 withdrawal table, Narcan label steps, CL-16 rows, CL-15 CMS dialysis guidance corrected.
 - [ ] R11 owner questions: thyroid missed dose (ATA allows doubling next day; MedlinePlus says never double; page defers to prescriber); print the CMS 3-day emergency kidney diet in full on CL-15 (public domain)?
 - [ ] Naloxone figure request says "other nostril"; Narcan label says either nostril, new device per dose.
+- [x] R16: 30-01 citations fixed; DC-02 options made mutually exclusive (ids kept); DC-03 follows the refill maker's training (docs/05 updated); AAP bed-sharing quoted on DC-09; toddler milk 16 oz/day (AAP).
+- [ ] R16: AVMA gunshot-site figure must be redrawn from the text (AVMA licence), not copied. Owner question: keep the gunshot procedure in the 20-09 humane-end section?

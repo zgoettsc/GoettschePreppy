@@ -2,7 +2,7 @@
 id: 30-08-dc07-diy-cord-and-plug-conversion
 section: 30-decisions-and-floors
 title: "DC-07. Converting a furnace or well pump to cord-and-plug yourself"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: card
 danger_level: critical
@@ -28,7 +28,7 @@ options:
     label: "Do it ourselves with the write-up"
     summary: "A competent adult converts it following the kit's write-up: that circuit's breaker off and tested dead; cord and plug rated for the circuit; strain relief; ground kept; labelled; tested on the generator before it is needed."
 settings_summary: "A gas furnace needs electricity for its blower and controls, and a well needs it for the pump, so neither runs in an outage even with a generator. They are wired directly into the house, with no plug. A cord-and-plug conversion gives the appliance its own plug and turns its old supply into an outlet: normally it plugs into that outlet; in an outage you unplug it and plug it into the generator's cord. Nothing reaches the house panel, so it is not backfeeding. The risk is the wiring work itself: working on a live circuit, a missing ground, a loose connection, a plug or cord too small for the load, no strain relief. Those cause shock and fire, sometimes long after the work. What helps most: a licensed electrician now (removes most of it); the circuit's breaker off and tested dead, the written steps, correct parts, a test run before winter (reduces it a lot)."
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "OSHA landing page replaced by 29 CFR 1910.333 (verify dead); generator cord rules to CPSC 5123 and OSHA QuickCard; Red Cross archive lacked them." }
 ---
 
 # DC-07. Converting a furnace or well pump to cord-and-plug yourself
