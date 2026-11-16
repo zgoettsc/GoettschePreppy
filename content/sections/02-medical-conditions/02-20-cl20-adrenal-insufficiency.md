@@ -75,7 +75,7 @@ explains why it matters, and covers the emergency injection.
 >   Prednisone).
 > - **Extra doses for illness ("stress dosing") follow the prescriber's written plan only.** This
 >   binder never calculates, adjusts or suggests a dose.
-> - **Children do not have access to firearms, fuel, medications or chlorine products** (floor,
+> - **Children do not have access to firearms, fuel, medications or chlorine products.** (floor,
 >   → 30-01).
 
 ## Do this now

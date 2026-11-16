@@ -25,6 +25,7 @@ related:
   - 01-07-evacuating-with-medical-needs
   - 25-09-family-medical-summary
   - 23-02-master-consumables-table
+  - 30-01-the-floors
 cards: [DC-04, DC-08, DC-15]
 explainers: [EX-07, EX-14]
 promote_when: [has.refrigerated_meds, has.epinephrine, has.oxygen, has.cpap, has.mobility_aid]
@@ -58,7 +59,7 @@ each condition while help still exists.
 ## Conditions in this household
 
 {{#each members as m}}
-- **{{m.label}}** ({{m.age_text}}): conditions {{m.conditions}}; allergies {{m.allergies}}.
+- **{{m.label}}** ({{m.age_text}}): conditions {{#if m.conditions}}{{m.conditions}}{{else}}none in settings{{/if}}; allergies {{#if m.allergies}}{{m.allergies}}{{else}}none in settings{{/if}}.
 {{else}}
 - No members entered yet. Add them in settings and tick their conditions.
 {{/each}}

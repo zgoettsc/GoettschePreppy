@@ -68,6 +68,8 @@ contraception, period care without stores, and the warning signs that need care.
 >   during a period; know the signs (part 5; FDA, The Facts on Tampons).
 > - **Very heavy bleeding, or severe one-sided belly pain with a missed period, is an emergency**
 >   (part 5).
+> - **Children do not have access to firearms, fuel, medications or chlorine products.** (floor,
+>   → 30-01).
 > - **This page never calculates, adjusts or suggests a dose or schedule.** Each method's own
 >   leaflet is the instruction.
 

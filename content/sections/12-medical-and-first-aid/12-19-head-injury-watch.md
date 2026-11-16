@@ -14,6 +14,7 @@ sources:
   - cdc-heads-up-returning-to-sports-and-activities-7ce4c9
   - american-academy-of-pediatrics-healthychildren-org-h-87b246
   - medlineplus-us-national-library-of-medicine-nih-head-ee015b
+  - cdc-what-to-do-after-mild-tbi-r15
 related:
   - 12-09-splints-and-fractures
   - 12-13-pain-and-fever

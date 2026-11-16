@@ -14,6 +14,8 @@ sources:
   - cdc-about-hygiene-handwashing-and-infection-preventi-61142e
   - cdc-about-tetanus-3fc6c0
   - cdc-recognizing-and-responding-to-anaphylaxis-645825
+  - dod-stop-the-bleed-faq-r15
+  - who-diarrhoeal-disease-fact-sheet-r15
 related:
   - 12-02-bleeding-and-wounds
   - 12-03-burns
@@ -26,7 +28,9 @@ related:
   - 22-07-priority-purchase-order
   - 24-01-skills-checklist
   - 25-09-family-medical-summary
-cards: []
+  - 30-26-dc25-tourniquet-conversion-no-help-coming
+  - 30-01-the-floors
+cards: [DC-25]
 explainers: [EX-07, EX-14]
 promote_when: []
 photo_slots:
@@ -161,7 +165,7 @@ published dosing tables on → 12-13 and the label; never guess.
 
 **For your household's own conditions**
 {{#each members as m}}
-- **{{m.label}}**: conditions {{m.conditions}}; allergies {{m.allergies}}. The supplies for
+- **{{m.label}}**: conditions {{#if m.conditions}}{{m.conditions}}{{else}}none in settings{{/if}}; allergies {{#if m.allergies}}{{m.allergies}}{{else}}none in settings{{/if}}. The supplies for
   these come from that condition's page (→ 12-11), not from this kit.
 {{else}}
 - No members are entered yet. Add them in settings so this list fills in.

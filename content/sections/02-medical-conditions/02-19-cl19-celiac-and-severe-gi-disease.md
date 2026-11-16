@@ -78,7 +78,7 @@ food plan made now and a clear eye for the signs of trouble.
 >   (part 6).
 > - **Long-term steroids for gut disease must not be stopped suddenly** (MedlinePlus,
 >   Prednisone; → 02-20).
-> - **Children do not have access to firearms, fuel, medications or chlorine products** (floor,
+> - **Children do not have access to firearms, fuel, medications or chlorine products.** (floor,
 >   → 30-01).
 > - **This page never calculates, adjusts or suggests a dose.**
 

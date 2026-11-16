@@ -18,6 +18,8 @@ sources:
   - nih-medlineplus-bismuth-subsalicylate-drug-informati-190927
   - lyon-rc-et-al-journal-of-pharmaceutical-sciences-95-1d6bf3
   - us-fda-fda-drug-safety-communication-diphenhydramine-bab442
+  - dailymed-childrens-benadryl-allergy-drug-facts-r15
+  - dailymed-imodium-ad-liquid-drug-facts-r15
 related:
   - 12-01-first-aid-kit
   - 12-04-infection-and-antibiotics

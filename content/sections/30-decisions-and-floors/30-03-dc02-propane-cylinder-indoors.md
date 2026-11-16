@@ -22,15 +22,15 @@ card: DC-02
 figures: [fig-propane-pools-low]
 options:
   - id: never
-    label: "Never indoors"
-    summary: "Cylinders over 1 lb stay outdoors. If the hose-through-a-window route fails, use another heat source or the cold-night methods; the tank does not come in."
+    label: "Never: no large cylinder indoors, no hose through a window"
+    summary: "No cylinder larger than 1 lb comes indoors, and none feeds an indoor heater by a hose through a window or door either. Indoor propane heat, if any, runs only on 1-lb cylinders as the heater maker allows; otherwise other heat sources and the cold-night methods."
   - id: last-resort
-    label: "Last resort: cylinder outside, hose through a window"
-    summary: "The cylinder always stays outdoors. Only a heater rated for a remote cylinder is fed through the maker's hose, passed through a cracked window or door. The tank never comes inside."
+    label: "Last resort: cylinder stays outside, hose through a window"
+    summary: "Only when no other heat is possible: the cylinder stays outdoors, upright, and feeds a heater built for a remote cylinder through the maker's hose and fuel filter, passed through a cracked window or door. The cylinder itself never comes inside."
   - id: indoors-with-rules
     label: "Indoors with rules"
-    summary: "Only when the outdoor-hose route is impossible: an above-ground room, never a basement; valve closed whenever the heater is off; no pilot-light appliances nearby; leak test; CO alarm; adult awake; tank out as soon as possible."
-settings_summary: "A 20-lb propane cylinder (the grill size) holds about twenty times the gas of a 1-lb camping cylinder. Heater makers and the national propane code keep anything over the 1-lb size out of the house. The reason: propane is heavier than air. A leak at the valve, hose or regulator flows along the floor, collects in low places such as basements, and explodes when it reaches a flame such as a pilot light or the heater itself. A cylinder warmed indoors can also vent gas through its safety valve on purpose. What helps most: tank outdoors (removes the risk); maker's hose through a window (reduces it a lot); if it must come in, above-ground room, valve closed when off, leak test, no pilot flames nearby, adult awake (reduces it a little)."
+    summary: "The cylinder itself comes indoors, only when the outdoor-hose route is impossible: an above-ground room, never a basement; valve closed whenever the heater is off; no pilot-light appliances nearby; leak test; CO alarm; adult awake; tank out as soon as possible."
+settings_summary: "A 20-lb propane cylinder (the grill size) holds about twenty times the gas of a 1-lb camping cylinder. Heater makers and the national propane code keep anything over the 1-lb size out of the house. The reason: propane is heavier than air. A leak at the valve, hose or regulator flows along the floor, collects in low places such as basements, and explodes when it reaches a flame such as a pilot light or the heater itself. A cylinder warmed indoors can also vent gas through its safety valve on purpose. What helps most: tank outdoors and not connected indoors (removes the risk); tank outdoors with the maker's hose through a window (reduces it a lot); if it must come in, above-ground room, valve closed when off, leak test, no pilot flames nearby, adult awake (reduces it a little)."
 review_pass: null
 ---
 
@@ -55,7 +55,9 @@ water. A rotten-egg smell is added so you can smell a leak, but only if your nos
 it pools.
 
 Some indoor-rated propane heaters can run from a large cylinder through a hose. The heater
-maker allows that only with **the cylinder outdoors** and its own hose (Enerco/Mr. Heater).
+maker allows that only with **the cylinder outdoors**, its own hose and fuel filter, and it
+describes the setup for recreational enclosures rather than for heating a home (Enerco/Mr.
+Heater; → 08-09).
 
 {{#if has.basement}}Your home has a basement. Propane that leaks anywhere in the house can
 drain down to it.{{/if}}
@@ -63,8 +65,10 @@ drain down to it.{{/if}}
 ## 2. The rule, and why it was set
 
 - One widely sold indoor-rated propane heater's manual says, in a DANGER box, **never bring a
-  refillable propane cylinder indoors**, and allows a cylinder up to 20 lb **only when the
-  cylinder is located outdoors** (Enerco/Mr. Heater, propane heater owner's manual).
+  refillable propane cylinder indoors**. It allows a remote cylinder of up to 20 lb, on the
+  maker's hose and fuel filter, **only when the cylinder is located outdoors**, and it describes
+  that setup for recreational enclosures; its line for emergency heating in a home names the
+  1-lb disposable cylinder (Enerco/Mr. Heater, propane heater owner's manual).
 - NFPA 58, the national propane code, limits cylinders used or stored inside a home, attached
   and detached garages included, to the 1-lb size, with no more than 2 lb in all per dwelling
   (Minnesota State Fire Marshal, LP Gas Inside Buildings, summarising NFPA 58).
@@ -100,8 +104,8 @@ its own fuel supply puts the flame and the leak side by side. The CO risks of th
   (→ 08-04).
 
 **Reduces it a lot**
-- **Cylinder outdoors, the heater maker's own hose through a cracked window or door**, with
-  the gap packed with a towel. The hose route is the maker's design; inspect the hose every
+- **Cylinder outdoors, the heater maker's own hose and fuel filter through a cracked window or
+  door**, with the gap packed with a towel. The cylinder never comes in; inspect the hose every
   use. The cracked window does not replace the heater's required ventilation (→ 08-09).
 
 **Reduces it a little** (only if the cylinder must come in)
@@ -119,16 +123,22 @@ its own fuel supply puts the flame and the leak side by side. The CO risks of th
 
 ## 5. The options
 
-**`never`: Never indoors.**
-You give up: heat from the big cylinder on a night when the window route fails. You accept:
-falling back on other heat sources or cold-night methods (→ 08-04, → 08-01).
+**`never`: Never: no large cylinder indoors, no hose through a window.**
+No cylinder larger than 1 lb comes into the house, and none feeds an indoor heater by hose.
+You give up: heat from the big cylinder altogether; indoor propane heat runs only on 1-lb
+cylinders, as the heater maker allows. You accept: falling back on other heat sources or
+cold-night methods when the 1-lb cylinders run out (→ 08-04, → 08-01).
 
-**`last-resort`: Last resort, cylinder outside, hose through a window.**
-You give up: nothing the maker forbids; you need a heater rated for a remote cylinder and the
-maker's hose, and a window or door you can crack. You accept: a small leak risk at the hose
-inside the room, and a draft.
+**`last-resort`: Last resort, cylinder stays outside, hose through a window.**
+Only when no other heat is possible. The cylinder stays outdoors; the hose comes in. You give
+up: the manual's home-heating line, which names only the 1-lb cylinder (it describes the
+remote-cylinder setup for recreational enclosures); you need a heater built for a remote
+cylinder, the maker's hose and fuel filter, and a window or door you can crack. You accept: a
+leak risk at the hose and its fittings inside the room, and a draft. The cylinder never comes
+in.
 
 **`indoors-with-rules`: Indoors with rules.**
+The cylinder itself comes into the house, with every rule in the "reduces it a little" list.
 You give up: the maker's and the code's rule. You accept: a house-filling quantity of a
 heavier-than-air fuel gas in the living space, controlled only by the rules above and an adult
 who stays awake.

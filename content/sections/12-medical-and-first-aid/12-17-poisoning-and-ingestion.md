@@ -15,6 +15,8 @@ sources:
   - national-capital-poison-center-poison-control-button-600e41
   - medlineplus-us-national-library-of-medicine-nih-iron-893d21
   - medlineplus-us-national-library-of-medicine-nih-chem-860986
+  - medlineplus-hydrocarbon-pneumonia-r15
+  - cdc-atsdr-medical-management-guidelines-for-sodium-hydroxide
 related:
   - 20-02-child-safety-offgrid
   - 12-03-burns

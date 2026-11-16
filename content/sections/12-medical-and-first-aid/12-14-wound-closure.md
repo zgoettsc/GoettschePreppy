@@ -14,6 +14,7 @@ sources:
   - cdc-about-tetanus-3fc6c0
   - cdc-antibiotic-use-appropriate-use-and-antibiotic-re-ea0e27
   - cdc-about-hygiene-handwashing-and-infection-preventi-61142e
+  - cdc-tetanus-clinical-guidance-wound-management-td-td-5580f4
 related:
   - 12-02-bleeding-and-wounds
   - 12-04-infection-and-antibiotics

@@ -83,7 +83,7 @@ dangerous**, at the exact time when water, food and hygiene get harder. This mod
 >   turn into sepsis fast (part 5).
 > - **Do not stop or skip anti-rejection medicine** to make it last. Ask the transplant team now
 >   what to do if supply runs short (part 7).
-> - **Children do not have access to firearms, fuel, medications or chlorine products** (floor,
+> - **Children do not have access to firearms, fuel, medications or chlorine products.** (floor,
 >   → 30-01).
 > - **This page never calculates, adjusts or suggests a dose.**
 

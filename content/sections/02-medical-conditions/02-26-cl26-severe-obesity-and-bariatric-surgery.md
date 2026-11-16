@@ -75,6 +75,8 @@ the wrong food. This module covers both, without judgement.
 > - **After gastric bypass, do not take aspirin, ibuprofen or similar pain relievers (NSAIDs)
 >   unless the surgeon says so.** MedlinePlus says they may harm the stomach lining or cause
 >   ulcers (MedlinePlus, Gastric Bypass Surgery: Discharge; → 12-13).
+> - **Children do not have access to firearms, fuel, medications or chlorine products.** (floor,
+>   → 30-01).
 > - **This page never calculates, adjusts or suggests a dose.**
 
 ## Do this now

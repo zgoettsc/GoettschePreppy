@@ -13,6 +13,7 @@ sources:
   - us-fda-information-regarding-insulin-storage-and-swi-6448d3
   - american-diabetes-association-insulin-storage-and-sy-6f1f94
   - american-diabetes-association-switching-between-insu-9c5595
+  - frio-insulin-travel-wallet-instruction-leaflet-r15
 related:
   - 29-07-ex07-refrigerated-medicines
   - 02-01-cl01-type-1-diabetes-injections

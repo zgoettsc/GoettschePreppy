@@ -15,9 +15,11 @@ sources:
   - medlineplus-us-national-library-of-medicine-nih-cpr-3ea104
   - medlineplus-us-national-library-of-medicine-nih-cpr-a08739
   - american-heart-association-american-academy-of-pedia-d6c089
-  - american-heart-association-2020-aha-guidelines-pedia-c1bb66
   - american-academy-of-allergy-asthma-and-immunology-aa-1ca82e
   - cdc-recognizing-and-responding-to-anaphylaxis-645825
+  - medlineplus-cpr-infant-r15
+  - medlineplus-drowning-r15
+  - aha-aap-2025-pediatric-bls-part6-r15
 related:
   - 12-01-first-aid-kit
   - 12-16-triage-and-hard-calls

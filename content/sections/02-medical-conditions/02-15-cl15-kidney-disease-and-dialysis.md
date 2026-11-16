@@ -83,7 +83,7 @@ are not on dialysis have a longer clock; this module covers them too.
 > - **Never run a generator, charcoal, or any engine indoors, in a garage, or near an open
 >   window.** Carbon monoxide kills in minutes with no warning; home dialysis machines and
 >   cyclers tempt people to run a generator close to the house (floor, → 30-01).
-> - **Children do not have access to firearms, fuel, medications or chlorine products** (floor,
+> - **Children do not have access to firearms, fuel, medications or chlorine products.** (floor,
 >   → 30-01).
 > - **This page never calculates, adjusts or suggests a dose, a fluid amount or a diet number.**
 

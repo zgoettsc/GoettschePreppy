@@ -17,6 +17,10 @@ sources:
   - cdc-about-hygiene-handwashing-and-infection-preventi-61142e
   - medlineplus-us-national-library-of-medicine-nih-eye-b76bfd
   - american-academy-of-ophthalmology-what-is-photokerat-b11014
+  - dod-stop-the-bleed-faq-r15
+  - usuhs-ncdmph-stop-the-bleed-apply-a-tourniquet-r7
+  - cdc-tetanus-clinical-guidance-wound-management-td-td-5580f4
+  - cdc-atsdr-medical-management-guidelines-for-sodium-hydroxide
 related:
   - 12-01-first-aid-kit
   - 12-04-infection-and-antibiotics

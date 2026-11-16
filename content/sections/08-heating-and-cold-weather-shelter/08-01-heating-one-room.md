@@ -166,7 +166,7 @@ bedding and battery power, the inside room wins.
 
 | Heater class | What the manual requires | Page |
 |---|---|---|
-| Portable propane heater (Buddy family) | Fresh-air openings of 9 square inches (a 3 × 3 in opening) at ceiling level **and** at floor level; no other fuel-burning appliance in the space; the 20-lb tank outdoors, fed by the maker's hose | → 08-09 |
+| Portable propane heater (Buddy family) | Fresh-air openings of 9 square inches (a 3 × 3 in opening) at ceiling level **and** at floor level; no other fuel-burning appliance in the space; never a refillable (20-lb) tank indoors. Whether to feed it from a tank outdoors by hose through a window is a decision card ({{choice DC-02}}, → 30-03) | → 08-09 |
 | Wick kerosene heater | If the room has less than 200 cubic feet of air per 1,000 BTU/h of heater, open a window at least 1 inch or keep doors to other rooms open; never a bathroom or small closed room | → 08-10 |
 | Ducted diesel or kerosene heater | Combustion intake and exhaust both outside, sealed | → 08-07 |
 | Fireplace or wood stove | A sound, inspected chimney | → 08-08 |

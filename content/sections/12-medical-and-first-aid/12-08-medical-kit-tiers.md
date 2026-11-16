@@ -23,7 +23,9 @@ related:
   - 22-04-household-inventory
   - 22-05-kit-vehicle
   - 22-06-kit-medical
-cards: []
+  - 30-26-dc25-tourniquet-conversion-no-help-coming
+  - 30-01-the-floors
+cards: [DC-25]
 explainers: []
 promote_when: []
 photo_slots:

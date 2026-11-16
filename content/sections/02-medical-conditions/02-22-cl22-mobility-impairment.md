@@ -78,7 +78,7 @@ infections. This module covers all three, and the medicines that cannot be stopp
 >   window.** Carbon monoxide kills in minutes with no warning, and charging a power chair is a
 >   common reason people run one too close (floor, → 30-01).
 > - **Some muscle-relaxing medicines must not be stopped suddenly** (part 4).
-> - **Children do not have access to firearms, fuel, medications or chlorine products** (floor,
+> - **Children do not have access to firearms, fuel, medications or chlorine products.** (floor,
 >   → 30-01).
 > - **This page never calculates, adjusts or suggests a dose.**
 

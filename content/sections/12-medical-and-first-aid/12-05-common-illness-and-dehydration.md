@@ -11,11 +11,12 @@ tags: [medical, diarrhoea, dehydration, ORS, oral rehydration, illness, children
 derived_from: [12-05-common-illness-and-dehydration]
 sources:
   - cdc-yellow-book-travelers-diarrhea-oral-rehydration-a1b9d8
-  - world-health-organization-diarrhoea-global-health-to-2e0085
   - world-health-organization-cholera-outbreaks-q-and-a-162558
   - world-health-organization-the-treatment-of-diarrhoea-49d09e
   - cdc-about-hygiene-handwashing-and-infection-preventi-61142e
   - cdc-managing-sick-days-18c7c8
+  - who-diarrhoeal-disease-fact-sheet-r15
+  - dailymed-imodium-ad-liquid-drug-facts-r15
 related:
   - 12-04-infection-and-antibiotics
   - 12-13-pain-and-fever
@@ -257,7 +258,7 @@ Days). For diabetes in particular:
 Other conditions with sick-day rules: adrenal insufficiency (→ 02-20), kidney disease (→ 02-15),
 blood pressure and heart medicines (→ 02-09). Your household:
 {{#each members as m}}
-- {{m.label}}: conditions {{m.conditions}}
+- {{m.label}}: conditions {{#if m.conditions}}{{m.conditions}}{{else}}none in settings{{/if}}
 {{else}}
 - No members entered yet.
 {{/each}}

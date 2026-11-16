@@ -19,6 +19,7 @@ sources:
   - american-heart-association-aspirin-and-heart-disease-381658
   - american-heart-association-american-stroke-associati-d17ae8
   - paho-who-with-icrc-and-ifrc-management-of-dead-bodie-450e97
+  - cdc-treatment-of-low-blood-sugar-r7
 related:
   - 12-02-bleeding-and-wounds
   - 12-04-infection-and-antibiotics

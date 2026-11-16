@@ -133,7 +133,7 @@ several thermometers.
   → 02-06), adrenal insufficiency (→ 02-20) and a weakened immune system (→ 02-18) each have
   their own sick-day steps. Read that condition's page as soon as fever starts.
 {{#each members as m}}
-  - {{m.label}}: conditions {{m.conditions}}
+  - {{m.label}}: conditions {{#if m.conditions}}{{m.conditions}}{{else}}none in settings{{/if}}
 {{/each}}
 
 ## Tetanus: the after-a-wound booster rule

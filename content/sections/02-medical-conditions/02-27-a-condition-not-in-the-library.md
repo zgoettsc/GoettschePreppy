@@ -59,7 +59,7 @@ heading. Print one copy per condition. A condition can also be added to the libr
 > - **Write only what the prescriber or the printed information says.** Do not fill a heading
 >   with a guess; leave it blank and ask.
 > - **Ask the prescriber which medicines must never be stopped suddenly**, and write it in part 4.
-> - **Children do not have access to firearms, fuel, medications or chlorine products** (floor,
+> - **Children do not have access to firearms, fuel, medications or chlorine products.** (floor,
 >   → 30-01).
 
 **Condition:** __________________________________________ **Who:** ____________________

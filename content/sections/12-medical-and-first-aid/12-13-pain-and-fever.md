@@ -12,13 +12,18 @@ derived_from: [12-13-pain-and-fever]
 sources:
   - american-academy-of-pediatrics-healthychildren-org-a-b3b884
   - american-academy-of-pediatrics-healthychildren-org-i-076a13
-  - nemours-kidshealth-children-s-health-system-acetamin-7e9ffb
   - american-academy-of-pediatrics-healthychildren-org-w-50fd24
   - us-fda-fda-drug-safety-communication-diphenhydramine-bab442
   - us-fda-food-allergies-627fb6
   - cdc-about-sepsis-a8304b
   - cdc-managing-sick-days-18c7c8
   - cdc-antibiotic-use-appropriate-use-and-antibiotic-re-ea0e27
+  - aap-healthychildren-acetaminophen-dosing-tables-r15
+  - aap-healthychildren-ibuprofen-dosing-table-r15
+  - dailymed-childrens-benadryl-allergy-drug-facts-r15
+  - medlineplus-febrile-seizures-r15
+  - medlineplus-croup-r15
+  - american-academy-of-pediatrics-healthychildren-org-h-87b246
 related:
   - 12-04-infection-and-antibiotics
   - 12-05-common-illness-and-dehydration

@@ -19,6 +19,7 @@ sources:
   - cdc-about-hygiene-handwashing-and-infection-preventi-61142e
   - cdc-about-tetanus-3fc6c0
   - us-fire-administration-fema-candle-fire-safety-use-f-6eeda1
+  - cdc-atsdr-medical-management-guidelines-for-sodium-hydroxide
 related:
   - 12-01-first-aid-kit
   - 12-02-bleeding-and-wounds
