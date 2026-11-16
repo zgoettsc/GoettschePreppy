@@ -1,0 +1,2966 @@
+{
+ "sections": {
+  "00": "00-front-matter",
+  "01": "01-phase-playbooks",
+  "02": "02-medical-conditions",
+  "28": "28-gear-reference",
+  "29": "29-explainers",
+  "30": "30-decisions-and-floors",
+  "31": "31-sere-field-reference",
+  "32": "32-region-appendix",
+  "03": "03-water",
+  "04": "04-food-storage-and-preservation",
+  "05": "05-food-production-and-foraging",
+  "06": "06-fire-and-fuel",
+  "07": "07-cooking-off-grid",
+  "08": "08-heating-and-cold-weather-shelter",
+  "09": "09-power-and-energy",
+  "10": "10-lighting",
+  "11": "11-clothing-and-personal-warmth",
+  "12": "12-medical-and-first-aid",
+  "13": "13-sanitation-and-waste",
+  "14": "14-security-and-defense",
+  "15": "15-communications",
+  "16": "16-tools-and-repair",
+  "17": "17-weather-and-regional-hazards",
+  "18": "18-community-barter-and-governance",
+  "19": "19-finances-and-documents",
+  "20": "20-kids-and-family",
+  "21": "21-morale-and-mental-health",
+  "22": "22-master-lists-acquire-and-scavenge",
+  "23": "23-depletion-and-substitution",
+  "24": "24-skills-to-practice-now",
+  "25": "25-reference-and-appendices",
+  "26": "26-pre-disaster-acquisition-checklist",
+  "27": "27-cbrn-and-emp"
+ },
+ "from_household": [
+  {
+   "household_id": "00-00-section-intro",
+   "kit_id": "00-00-section-intro",
+   "kit_section": "00-front-matter",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "household_id": "00-01-how-to-use-this-binder",
+   "kit_id": "00-01-how-to-use-this-binder",
+   "kit_section": "00-front-matter",
+   "layer": "core",
+   "action": "rewrite",
+   "note": "App-first: offline install, charge discipline, PDF export button."
+  },
+  {
+   "household_id": "00-02-emergency-quick-reference",
+   "kit_id": "00-02-emergency-quick-reference",
+   "kit_section": "00-front-matter",
+   "layer": "household",
+   "action": "template",
+   "note": "Numbers and names are slots; 911 and Poison Control constant."
+  },
+  {
+   "household_id": "00-03-master-index",
+   "kit_id": "00-03-master-index",
+   "kit_section": "00-front-matter",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Built from the generated page set."
+  },
+  {
+   "household_id": "00-04-family-emergency-plan",
+   "kit_id": "00-04-family-emergency-plan",
+   "kit_section": "00-front-matter",
+   "layer": "household",
+   "action": "template",
+   "note": "Contacts, meeting places, out-of-area contact from profile."
+  },
+  {
+   "household_id": "00-05-safety-disclaimer",
+   "kit_id": "00-05-safety-disclaimer",
+   "kit_section": "00-front-matter",
+   "layer": "core",
+   "action": "rewrite",
+   "note": "New disclaimer: AI-generated, AI-reviewed, not human-verified; household decides risk; private copy notice."
+  },
+  {
+   "household_id": "00-06-first-60-minutes",
+   "kit_id": "00-06-first-60-minutes",
+   "kit_section": "00-front-matter",
+   "layer": "core",
+   "action": "template",
+   "note": "Gear slots (fridge, stations, heaters) from profile."
+  },
+  {
+   "household_id": "00-07-household-roles",
+   "kit_id": "00-07-household-roles",
+   "kit_section": "00-front-matter",
+   "layer": "household",
+   "action": "template",
+   "note": "Roles table built from members."
+  },
+  {
+   "household_id": "00-08-binder-map",
+   "kit_id": "00-08-binder-map",
+   "kit_section": "00-front-matter",
+   "layer": "generated",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "01-00-section-intro",
+   "kit_id": "01-00-section-intro",
+   "kit_section": "01-phase-playbooks",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "household_id": "01-01-phase-a-shelter-in-place",
+   "kit_id": "01-01-phase-a-shelter-in-place",
+   "kit_section": "01-phase-playbooks",
+   "layer": "core",
+   "action": "template",
+   "note": "House facts (water, heat, warm room) are slots."
+  },
+  {
+   "household_id": "01-02-go-no-go-decision",
+   "kit_id": "01-02-go-no-go-decision",
+   "kit_section": "01-phase-playbooks",
+   "layer": "core",
+   "action": "rewrite",
+   "note": "Triggers generalised; destination names are slots; add decision card DC-19."
+  },
+  {
+   "household_id": "01-03-phase-b-movement",
+   "kit_id": "01-03-phase-b-movement",
+   "kit_section": "01-phase-playbooks",
+   "layer": "core",
+   "action": "template",
+   "note": "Route and winter travel generalised; kids/ages gated."
+  },
+  {
+   "household_id": "01-04-phase-c-establish",
+   "kit_id": "01-04-phase-c-establish",
+   "kit_section": "01-phase-playbooks",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "01-05-choosing-a-destination",
+   "kit_id": "01-05-choosing-a-destination",
+   "kit_section": "01-phase-playbooks",
+   "layer": "household",
+   "action": "template",
+   "note": "Up to three destinations with status agreed/unannounced/none."
+  },
+  {
+   "household_id": "01-06-phase-transition-checklists",
+   "kit_id": "01-06-phase-transition-checklists",
+   "kit_section": "01-phase-playbooks",
+   "layer": "core",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "household_id": "02-00-section-intro",
+   "kit_id": "02-00-section-intro",
+   "kit_section": "02-medical-conditions",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "household_id": "02-01-t1d-overview-and-supply-math",
+   "kit_id": null,
+   "seeds": "condition library",
+   "layer": "condition",
+   "action": "module",
+   "note": "Seeds CL-01 Type 1 diabetes: dependency map + supply math worksheet (no derived doses)."
+  },
+  {
+   "household_id": "02-02-insulin-without-the-grid",
+   "kit_id": null,
+   "seeds": "condition library",
+   "layer": "condition",
+   "action": "module",
+   "note": "CL-01/CL-02: insulin storage; FDA/manufacturer windows as published; frozen = discard rule as a floor."
+  },
+  {
+   "household_id": "02-03-pump-to-injection-fallback",
+   "kit_id": null,
+   "seeds": "condition library",
+   "layer": "condition",
+   "action": "module",
+   "note": "CL-01 pump/CGM variant: tech-failure ladder generalised; basal rule becomes \"my prescriber-approved fallback\" slot."
+  },
+  {
+   "household_id": "02-04-cgm-conservation-and-dka",
+   "kit_id": null,
+   "seeds": "condition library",
+   "layer": "condition",
+   "action": "module",
+   "note": "CL-01: sick-day and DKA warning signs at WebMD level."
+  },
+  {
+   "household_id": "02-05-sourcing-insulin-supplies",
+   "kit_id": null,
+   "seeds": "condition library",
+   "layer": "condition",
+   "action": "module",
+   "note": "CL-01: sourcing/scavenging insulin; decision card DC-08."
+  },
+  {
+   "household_id": "02-06-hugh-anaphylaxis-action-plan",
+   "kit_id": null,
+   "seeds": "condition library",
+   "layer": "condition",
+   "action": "module",
+   "note": "CL-03 anaphylaxis: action plan template with the published epinephrine weight bands."
+  },
+  {
+   "household_id": "02-07-epinephrine-storage-and-supply",
+   "kit_id": null,
+   "seeds": "condition library",
+   "layer": "condition",
+   "action": "module",
+   "note": "CL-03: storage, heat/cold, expired-use decision card DC-04."
+  },
+  {
+   "household_id": "02-08-allergen-safe-food-plan",
+   "kit_id": null,
+   "seeds": "condition library",
+   "layer": "condition",
+   "action": "module",
+   "note": "CL-03/CL-04 food allergy: allergen slots; traded/unlabeled food decision card DC-18."
+  },
+  {
+   "household_id": "02-09-pet-care-cats",
+   "kit_id": "20-09-pets",
+   "kit_section": "20-kids-and-family",
+   "layer": "household",
+   "action": "module",
+   "note": "Pets module (cats/dogs/other) incl. decision card DC-10."
+  },
+  {
+   "household_id": "02-10-evaporative-cooling-pouches",
+   "kit_id": "12-21-evaporative-cooling-pouches",
+   "kit_section": "12-medical-and-first-aid",
+   "layer": "core",
+   "action": "ship",
+   "note": "Applies to any refrigerated medication; keep in core medical."
+  },
+  {
+   "household_id": "02-12-evacuation-medical-logistics",
+   "kit_id": "01-07-evacuating-with-medical-needs",
+   "kit_section": "01-phase-playbooks",
+   "layer": "core",
+   "action": "template",
+   "note": "Generalised: evacuating with any medical dependency; patients and supply clocks are slots."
+  },
+  {
+   "household_id": "03-00-section-intro",
+   "kit_id": "03-00-section-intro",
+   "kit_section": "03-water",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "household_id": "03-01-daily-water-needs",
+   "kit_id": "03-01-daily-water-needs",
+   "kit_section": "03-water",
+   "layer": "core",
+   "action": "template",
+   "note": "Household size and nursing/infant flags from profile."
+  },
+  {
+   "household_id": "03-02-storing-water",
+   "kit_id": "03-02-storing-water",
+   "kit_section": "03-water",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "03-03-pool-water-desalination",
+   "kit_id": "03-03-pool-water-desalination",
+   "kit_section": "03-water",
+   "layer": "gear",
+   "action": "module",
+   "note": "GM pool module (saltwater/chlorine pool as a water source)."
+  },
+  {
+   "household_id": "03-04-purifying-water",
+   "kit_id": "03-04-purifying-water",
+   "kit_section": "03-water",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "03-05-rain-and-snow-water",
+   "kit_id": "03-05-rain-and-snow-water",
+   "kit_section": "03-water",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "03-06-winter-water",
+   "kit_id": "03-06-winter-water",
+   "kit_section": "03-water",
+   "layer": "core",
+   "action": "ship",
+   "note": "Region-gated: shown first in cold climates, present everywhere."
+  },
+  {
+   "household_id": "03-07-testing-water",
+   "kit_id": "03-07-testing-water",
+   "kit_section": "03-water",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "03-08-keeping-water-from-going-bad",
+   "kit_id": "03-08-keeping-water-from-going-bad",
+   "kit_section": "03-water",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "03-09-filter-care-and-maintenance",
+   "kit_id": "03-09-filter-care-and-maintenance",
+   "kit_section": "03-water",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "03-10-well-water-without-power",
+   "kit_id": "03-10-well-water-without-power",
+   "kit_section": "03-water",
+   "layer": "gear",
+   "action": "module",
+   "note": "GM well module; Kimball specifics removed."
+  },
+  {
+   "household_id": "04-00-section-intro",
+   "kit_id": "04-00-section-intro",
+   "kit_section": "04-food-storage-and-preservation",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "household_id": "04-01-calorie-and-stockpile-math",
+   "kit_id": "04-01-calorie-and-stockpile-math",
+   "kit_section": "04-food-storage-and-preservation",
+   "layer": "core",
+   "action": "template",
+   "note": "Household calorie table from members/ages."
+  },
+  {
+   "household_id": "04-02-building-a-pantry",
+   "kit_id": "04-02-building-a-pantry",
+   "kit_section": "04-food-storage-and-preservation",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "04-03-bulk-staples-storage",
+   "kit_id": "04-03-bulk-staples-storage",
+   "kit_section": "04-food-storage-and-preservation",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "04-04-canning-water-bath",
+   "kit_id": "04-04-canning-water-bath",
+   "kit_section": "04-food-storage-and-preservation",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "04-05-canning-pressure",
+   "kit_id": "04-05-canning-pressure",
+   "kit_section": "04-food-storage-and-preservation",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "04-06-dehydrating",
+   "kit_id": "04-06-dehydrating",
+   "kit_section": "04-food-storage-and-preservation",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "04-07-smoking-and-curing",
+   "kit_id": "04-07-smoking-and-curing",
+   "kit_section": "04-food-storage-and-preservation",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "04-08-fermentation",
+   "kit_id": "04-08-fermentation",
+   "kit_section": "04-food-storage-and-preservation",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "04-09-winter-cold-storage",
+   "kit_id": "04-09-winter-cold-storage",
+   "kit_section": "04-food-storage-and-preservation",
+   "layer": "core",
+   "action": "ship",
+   "note": "Region-gated."
+  },
+  {
+   "household_id": "04-10-rotation-and-inventory",
+   "kit_id": "04-10-rotation-and-inventory",
+   "kit_section": "04-food-storage-and-preservation",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "04-11-pests-and-rodents",
+   "kit_id": "04-11-pests-and-rodents",
+   "kit_section": "04-food-storage-and-preservation",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "04-12-fats-and-oils",
+   "kit_id": "04-12-fats-and-oils",
+   "kit_section": "04-food-storage-and-preservation",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "04-13-salt-sugar-vinegar",
+   "kit_id": "04-13-salt-sugar-vinegar",
+   "kit_section": "04-food-storage-and-preservation",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "04-14-powdered-and-canned-dairy",
+   "kit_id": "04-14-powdered-and-canned-dairy",
+   "kit_section": "04-food-storage-and-preservation",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "04-15-eggs-storage",
+   "kit_id": "04-15-eggs-storage",
+   "kit_section": "04-food-storage-and-preservation",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "04-16-sprouting",
+   "kit_id": "04-16-sprouting",
+   "kit_section": "04-food-storage-and-preservation",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "04-17-food-safety-power-outage",
+   "kit_id": "04-17-food-safety-power-outage",
+   "kit_section": "04-food-storage-and-preservation",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "04-18-meal-planning-scarcity",
+   "kit_id": "04-18-meal-planning-scarcity",
+   "kit_section": "04-food-storage-and-preservation",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "04-19-freeze-dried-stockpile",
+   "kit_id": "04-19-freeze-dried-stockpile",
+   "kit_section": "04-food-storage-and-preservation",
+   "layer": "core",
+   "action": "template",
+   "note": "Calorie plan-of-record; owner brands removed; quantities from household size."
+  },
+  {
+   "household_id": "05-00-section-intro",
+   "kit_id": "05-00-section-intro",
+   "kit_section": "05-food-production-and-foraging",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "household_id": "05-01-small-urban-garden",
+   "kit_id": "05-01-a-small-high-yield-garden",
+   "kit_section": "05-food-production-and-foraging",
+   "layer": "region",
+   "action": "dataset",
+   "note": "Hardiness zone, frost dates and crop list from region data."
+  },
+  {
+   "household_id": "05-02-season-extension",
+   "kit_id": "05-02-season-extension",
+   "kit_section": "05-food-production-and-foraging",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "05-03-seed-saving",
+   "kit_id": "05-03-seed-saving",
+   "kit_section": "05-food-production-and-foraging",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "05-04-backyard-chickens",
+   "kit_id": "05-04-backyard-chickens",
+   "kit_section": "05-food-production-and-foraging",
+   "layer": "core",
+   "action": "rewrite",
+   "note": "Ordinance paragraph becomes a pre-collapse note; husbandry stays core."
+  },
+  {
+   "household_id": "05-05-rabbits",
+   "kit_id": "05-05-rabbits",
+   "kit_section": "05-food-production-and-foraging",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "05-06-foraging-northern-plains",
+   "kit_id": "05-06-foraging-and-deadly-look-alikes",
+   "kit_section": "05-food-production-and-foraging",
+   "layer": "region",
+   "action": "dataset",
+   "note": "National plant appendix: killers and look-alikes per ecoregion; all regions always in the app."
+  },
+  {
+   "household_id": "05-07-hunting-sd",
+   "kit_id": "05-07-hunting",
+   "kit_section": "05-food-production-and-foraging",
+   "layer": "region",
+   "action": "dataset",
+   "note": "Game species, seasons as pre-collapse note, field methods core."
+  },
+  {
+   "household_id": "05-08-fishing-and-ice-fishing",
+   "kit_id": "05-08-fishing-and-ice-fishing",
+   "kit_section": "05-food-production-and-foraging",
+   "layer": "core",
+   "action": "ship",
+   "note": "Ice-fishing part region-gated."
+  },
+  {
+   "household_id": "05-09-field-dressing-and-butchering",
+   "kit_id": "05-09-field-dressing-and-butchering",
+   "kit_section": "05-food-production-and-foraging",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "05-10-container-and-vertical",
+   "kit_id": "05-10-container-and-vertical",
+   "kit_section": "05-food-production-and-foraging",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "05-11-soil-and-compost",
+   "kit_id": "05-11-soil-and-compost",
+   "kit_section": "05-food-production-and-foraging",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "05-12-pollination-and-pests",
+   "kit_id": "05-12-pollination-and-pests",
+   "kit_section": "05-food-production-and-foraging",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "05-13-perennials-and-fruit",
+   "kit_id": "05-13-perennials-and-fruit",
+   "kit_section": "05-food-production-and-foraging",
+   "layer": "region",
+   "action": "dataset",
+   "note": "By hardiness zone."
+  },
+  {
+   "household_id": "05-14-indoor-growing",
+   "kit_id": "05-14-indoor-growing",
+   "kit_section": "05-food-production-and-foraging",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "05-15-trapping-small-game",
+   "kit_id": "05-15-trapping-small-game",
+   "kit_section": "05-food-production-and-foraging",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "05-16-processing-poultry",
+   "kit_id": "05-16-processing-poultry",
+   "kit_section": "05-food-production-and-foraging",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "05-17-wild-edibles-calendar",
+   "kit_id": "05-17-wild-edibles-by-season",
+   "kit_section": "05-food-production-and-foraging",
+   "layer": "region",
+   "action": "dataset",
+   "note": "National plant appendix: safe starters per ecoregion with plates."
+  },
+  {
+   "household_id": "05-18-goshen-ozark-garden-calendar",
+   "kit_id": "05-18-destination-garden-calendar",
+   "kit_section": "05-food-production-and-foraging",
+   "layer": "household",
+   "action": "template",
+   "note": "Destination garden calendar generated per destination from region data."
+  },
+  {
+   "household_id": "05-19-ozark-foraging-and-hazards",
+   "kit_id": "05-19-destination-foraging-and-hazards",
+   "kit_section": "05-food-production-and-foraging",
+   "layer": "household",
+   "action": "template",
+   "note": "Destination foraging/hazards generated per destination from region data."
+  },
+  {
+   "household_id": "06-00-section-intro",
+   "kit_id": "06-00-section-intro",
+   "kit_section": "06-fire-and-fuel",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "household_id": "06-01-fire-starting",
+   "kit_id": "06-01-fire-starting",
+   "kit_section": "06-fire-and-fuel",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "06-02-sustaining-fire",
+   "kit_id": "06-02-sustaining-fire",
+   "kit_section": "06-fire-and-fuel",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "06-03-firewood-basics",
+   "kit_id": "06-03-firewood-basics",
+   "kit_section": "06-fire-and-fuel",
+   "layer": "core",
+   "action": "dataset",
+   "note": "Species table and plates from the regional tree dataset."
+  },
+  {
+   "household_id": "06-04-wood-supply-and-depletion",
+   "kit_id": "06-04-wood-supply-and-depletion",
+   "kit_section": "06-fire-and-fuel",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "06-05-alternative-fuels",
+   "kit_id": "06-05-alternative-fuels",
+   "kit_section": "06-fire-and-fuel",
+   "layer": "core",
+   "action": "rewrite",
+   "note": "Add the fuels explainer EX-01 up front."
+  },
+  {
+   "household_id": "06-06-fuel-storage-safety",
+   "kit_id": "06-06-fuel-storage-safety",
+   "kit_section": "06-fire-and-fuel",
+   "layer": "core",
+   "action": "rewrite",
+   "note": "Decision cards DC-05 garage storage, DC-17 kerosene age; label colours as a core rule."
+  },
+  {
+   "household_id": "06-07-moving-and-transferring-fuel",
+   "kit_id": "06-07-moving-and-transferring-fuel",
+   "kit_section": "06-fire-and-fuel",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "06-08-fuel-transport",
+   "kit_id": "06-08-fuel-transport",
+   "kit_section": "06-fire-and-fuel",
+   "layer": "core",
+   "action": "rewrite",
+   "note": "Decision card DC-06 fuel in a passenger vehicle; trailer facts are gear slots."
+  },
+  {
+   "household_id": "06-09-chimney-and-creosote",
+   "kit_id": "06-09-chimney-and-creosote",
+   "kit_section": "06-fire-and-fuel",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "07-00-section-intro",
+   "kit_id": "07-00-section-intro",
+   "kit_section": "07-cooking-off-grid",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "household_id": "07-01-cooking-on-the-fireplace",
+   "kit_id": "07-01-cooking-on-an-open-fire",
+   "kit_section": "07-cooking-off-grid",
+   "layer": "core",
+   "action": "rewrite",
+   "note": "Generalised: open fire, fireplace, fire pit."
+  },
+  {
+   "household_id": "07-02-rocket-stove",
+   "kit_id": "07-02-rocket-stove",
+   "kit_section": "07-cooking-off-grid",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "07-03-solar-cooking",
+   "kit_id": "07-03-solar-cooking",
+   "kit_section": "07-cooking-off-grid",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "07-04-dutch-oven-and-baking",
+   "kit_id": "07-04-dutch-oven-and-baking",
+   "kit_section": "07-cooking-off-grid",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "07-05-propane-and-camp-stoves",
+   "kit_id": "07-05-propane-and-camp-stoves",
+   "kit_section": "07-cooking-off-grid",
+   "layer": "core",
+   "action": "rewrite",
+   "note": "CO explainer EX-03 reference; indoor use is a floor, not a card."
+  },
+  {
+   "household_id": "07-06-electric-kettle-cooking",
+   "kit_id": "07-06-electric-kettle-cooking",
+   "kit_section": "07-cooking-off-grid",
+   "layer": "core",
+   "action": "template",
+   "note": "Station slots."
+  },
+  {
+   "household_id": "07-07-freeze-dried-rehydration",
+   "kit_id": "07-07-freeze-dried-rehydration",
+   "kit_section": "07-cooking-off-grid",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "08-00-section-intro",
+   "kit_id": "08-00-section-intro",
+   "kit_section": "08-heating-and-cold-weather-shelter",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "household_id": "08-01-heating-one-room",
+   "kit_id": "08-01-heating-one-room",
+   "kit_section": "08-heating-and-cold-weather-shelter",
+   "layer": "core",
+   "action": "rewrite",
+   "note": "Warm-room method; house slots; decision card DC-01 overnight heater."
+  },
+  {
+   "household_id": "08-02-carbon-monoxide-safety",
+   "kit_id": "08-02-carbon-monoxide-safety",
+   "kit_section": "08-heating-and-cold-weather-shelter",
+   "layer": "core",
+   "action": "rewrite",
+   "note": "Floor page; EX-03 explainer embedded."
+  },
+  {
+   "household_id": "08-03-winterizing-the-home",
+   "kit_id": "08-03-winterizing-the-home",
+   "kit_section": "08-heating-and-cold-weather-shelter",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "household_id": "08-04-emergency-heat-options",
+   "kit_id": "08-04-emergency-heat-options",
+   "kit_section": "08-heating-and-cold-weather-shelter",
+   "layer": "core",
+   "action": "rewrite",
+   "note": "Options matrix with cards DC-01, DC-02."
+  },
+  {
+   "household_id": "08-05-hypothermia-frostbite",
+   "kit_id": "08-05-hypothermia-frostbite",
+   "kit_section": "08-heating-and-cold-weather-shelter",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "household_id": "08-06-improvised-shelter-warmth",
+   "kit_id": "08-06-improvised-shelter-warmth",
+   "kit_section": "08-heating-and-cold-weather-shelter",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "household_id": "08-07-ducted-heater-operation",
+   "kit_id": "08-07-ducted-heater-operation",
+   "kit_section": "08-heating-and-cold-weather-shelter",
+   "layer": "gear",
+   "action": "module",
+   "note": "GM ducted diesel/kerosene heater."
+  },
+  {
+   "household_id": "08-08-wood-heat-operation",
+   "kit_id": "08-08-wood-heat-operation",
+   "kit_section": "08-heating-and-cold-weather-shelter",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "household_id": "08-09-mr-heater-buddy",
+   "kit_id": "08-09-portable-propane-heaters",
+   "kit_section": "08-heating-and-cold-weather-shelter",
+   "layer": "gear",
+   "action": "module",
+   "note": "GM portable propane heater (Buddy family) incl. DC-01/DC-02/DC-03."
+  },
+  {
+   "household_id": "08-10-dyna-glo-kerosene-heater",
+   "kit_id": "08-10-wick-kerosene-heaters",
+   "kit_section": "08-heating-and-cold-weather-shelter",
+   "layer": "gear",
+   "action": "module",
+   "note": "GM wick kerosene heater incl. DC-17."
+  },
+  {
+   "household_id": "09-00-section-intro",
+   "kit_id": "09-00-section-intro",
+   "kit_section": "09-power-and-energy",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "household_id": "09-01-power-priorities",
+   "kit_id": "09-01-power-priorities",
+   "kit_section": "09-power-and-energy",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "household_id": "09-02-solar-basics",
+   "kit_id": "09-02-solar-basics",
+   "kit_section": "09-power-and-energy",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "household_id": "09-03-batteries-and-storage",
+   "kit_id": "09-03-batteries-and-storage",
+   "kit_section": "09-power-and-energy",
+   "layer": "core",
+   "action": "rewrite",
+   "note": "Explainer EX-02 batteries/stations; owner stations become gear slots."
+  },
+  {
+   "household_id": "09-04-generators",
+   "kit_id": "09-04-generators",
+   "kit_section": "09-power-and-energy",
+   "layer": "core",
+   "action": "rewrite",
+   "note": "Backfeed is a floor; cord-and-plug conversion as a decision card DC-07 with the write-up."
+  },
+  {
+   "household_id": "09-05-winter-solar-reality",
+   "kit_id": "09-05-solar-in-winter",
+   "kit_section": "09-power-and-energy",
+   "layer": "region",
+   "action": "dataset",
+   "note": "Sun hours by month from region data; the method is core."
+  },
+  {
+   "household_id": "09-06-charging-medical-devices",
+   "kit_id": "09-06-charging-medical-devices",
+   "kit_section": "09-power-and-energy",
+   "layer": "core",
+   "action": "template",
+   "note": "Devices from the condition modules selected."
+  },
+  {
+   "household_id": "09-07-battery-chemistry",
+   "kit_id": "09-07-battery-chemistry",
+   "kit_section": "09-power-and-energy",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "household_id": "09-08-wiring-and-safety",
+   "kit_id": "09-08-wiring-and-safety",
+   "kit_section": "09-power-and-energy",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "household_id": "09-09-small-solar-build",
+   "kit_id": "09-09-small-solar-build",
+   "kit_section": "09-power-and-energy",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "household_id": "09-10-power-for-medical",
+   "kit_id": "09-10-power-for-medical",
+   "kit_section": "09-power-and-energy",
+   "layer": "core",
+   "action": "template",
+   "note": "Refrigerated-medication power sizing; fridge/station slots."
+  },
+  {
+   "household_id": "09-11-hand-and-alt-generation",
+   "kit_id": "09-11-hand-and-alt-generation",
+   "kit_section": "09-power-and-energy",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "household_id": "09-12-ac-dc-cables-and-connectors",
+   "kit_id": "09-12-ac-dc-cables-and-connectors",
+   "kit_section": "09-power-and-energy",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "household_id": "09-13-scavenging-electrical-power",
+   "kit_id": "09-13-scavenging-electrical-power",
+   "kit_section": "09-power-and-energy",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "household_id": "09-14-car-batteries-in-practice",
+   "kit_id": "09-14-car-batteries-in-practice",
+   "kit_section": "09-power-and-energy",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "household_id": "09-15-generator-maintenance",
+   "kit_id": "09-15-generator-maintenance",
+   "kit_section": "09-power-and-energy",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "household_id": "09-16-outage-day-one",
+   "kit_id": "09-16-outage-day-one",
+   "kit_section": "09-power-and-energy",
+   "layer": "core",
+   "action": "template",
+   "note": "Live procedure with house and gear slots."
+  },
+  {
+   "household_id": "10-00-section-intro",
+   "kit_id": "10-00-section-intro",
+   "kit_section": "10-lighting",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "household_id": "10-01-lighting-options",
+   "kit_id": "10-01-lighting-options",
+   "kit_section": "10-lighting",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "10-02-fuel-lamps-and-candles",
+   "kit_id": "10-02-fuel-lamps-and-candles",
+   "kit_section": "10-lighting",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "10-03-diy-and-conservation",
+   "kit_id": "10-03-diy-and-conservation",
+   "kit_section": "10-lighting",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "10-04-candles-and-oil",
+   "kit_id": "10-04-candles-and-oil",
+   "kit_section": "10-lighting",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "10-05-light-discipline",
+   "kit_id": "10-05-light-discipline",
+   "kit_section": "10-lighting",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "10-06-winter-light-budget",
+   "kit_id": "10-06-winter-light-budget",
+   "kit_section": "10-lighting",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "11-00-section-intro",
+   "kit_id": "11-00-section-intro",
+   "kit_section": "11-clothing-and-personal-warmth",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "household_id": "11-01-cold-weather-layering",
+   "kit_id": "11-01-cold-weather-layering",
+   "kit_section": "11-clothing-and-personal-warmth",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "11-02-keeping-kids-warm",
+   "kit_id": "11-02-keeping-kids-warm",
+   "kit_section": "11-clothing-and-personal-warmth",
+   "layer": "core",
+   "action": "template",
+   "note": "Age-gated; ages are slots."
+  },
+  {
+   "household_id": "11-03-staying-dry",
+   "kit_id": "11-03-staying-dry",
+   "kit_section": "11-clothing-and-personal-warmth",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "11-04-footwear-and-extremities",
+   "kit_id": "11-04-footwear-and-extremities",
+   "kit_section": "11-clothing-and-personal-warmth",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "11-05-wool-and-materials",
+   "kit_id": "11-05-wool-and-materials",
+   "kit_section": "11-clothing-and-personal-warmth",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "11-06-boots-and-traction",
+   "kit_id": "11-06-boots-and-traction",
+   "kit_section": "11-clothing-and-personal-warmth",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "11-07-clothing-repair",
+   "kit_id": "11-07-clothing-repair",
+   "kit_section": "11-clothing-and-personal-warmth",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "11-08-summer-heat-clothing",
+   "kit_id": "11-08-summer-heat-clothing",
+   "kit_section": "11-clothing-and-personal-warmth",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "11-09-kids-sizing-ledger",
+   "kit_id": "11-09-kids-sizing-ledger",
+   "kit_section": "11-clothing-and-personal-warmth",
+   "layer": "household",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "household_id": "12-00-section-intro",
+   "kit_id": "12-00-section-intro",
+   "kit_section": "12-medical-and-first-aid",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "household_id": "12-01-first-aid-kit",
+   "kit_id": "12-01-first-aid-kit",
+   "kit_section": "12-medical-and-first-aid",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "12-02-bleeding-and-wounds",
+   "kit_id": "12-02-bleeding-and-wounds",
+   "kit_section": "12-medical-and-first-aid",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "12-03-burns",
+   "kit_id": "12-03-burns",
+   "kit_section": "12-medical-and-first-aid",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "12-04-infection-and-antibiotics",
+   "kit_id": "12-04-infection-and-antibiotics",
+   "kit_section": "12-medical-and-first-aid",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "12-05-common-illness-and-dehydration",
+   "kit_id": "12-05-common-illness-and-dehydration",
+   "kit_section": "12-medical-and-first-aid",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "12-06-dental-emergencies",
+   "kit_id": "12-06-dental-emergencies",
+   "kit_section": "12-medical-and-first-aid",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "12-07-meds-stockpile",
+   "kit_id": "12-07-meds-stockpile",
+   "kit_section": "12-medical-and-first-aid",
+   "layer": "core",
+   "action": "template",
+   "note": "Household \"my meds\" table from profile; OTC list core."
+  },
+  {
+   "household_id": "12-08-medical-kit-tiers",
+   "kit_id": "12-08-medical-kit-tiers",
+   "kit_section": "12-medical-and-first-aid",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "12-09-splints-and-fractures",
+   "kit_id": "12-09-splints-and-fractures",
+   "kit_section": "12-medical-and-first-aid",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "12-10-hypothermia-cross-ref",
+   "kit_id": "12-10-hypothermia-cross-ref",
+   "kit_section": "12-medical-and-first-aid",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "12-11-chronic-conditions",
+   "kit_id": "12-11-chronic-conditions",
+   "kit_section": "12-medical-and-first-aid",
+   "layer": "core",
+   "action": "rewrite",
+   "note": "Becomes the condition-library index page."
+  },
+  {
+   "household_id": "12-12-childbirth-and-womens-health",
+   "kit_id": "12-12-childbirth-and-womens-health",
+   "kit_section": "12-medical-and-first-aid",
+   "layer": "core",
+   "action": "ship",
+   "note": "Also seeds CL-12 pregnancy."
+  },
+  {
+   "household_id": "12-13-pain-and-fever",
+   "kit_id": "12-13-pain-and-fever",
+   "kit_section": "12-medical-and-first-aid",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "12-14-wound-closure",
+   "kit_id": "12-14-wound-closure",
+   "kit_section": "12-medical-and-first-aid",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "12-15-mental-health-crisis",
+   "kit_id": "12-15-mental-health-crisis",
+   "kit_section": "12-medical-and-first-aid",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "12-16-triage-and-hard-calls",
+   "kit_id": "12-16-triage-and-hard-calls",
+   "kit_section": "12-medical-and-first-aid",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "12-17-poisoning-and-ingestion",
+   "kit_id": "12-17-poisoning-and-ingestion",
+   "kit_section": "12-medical-and-first-aid",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "12-18-choking-and-cpr",
+   "kit_id": "12-18-choking-and-cpr",
+   "kit_section": "12-medical-and-first-aid",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "12-19-head-injury-watch",
+   "kit_id": "12-19-head-injury-watch",
+   "kit_section": "12-medical-and-first-aid",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "12-20-field-dentistry",
+   "kit_id": "12-20-field-dentistry",
+   "kit_section": "12-medical-and-first-aid",
+   "layer": "core",
+   "action": "rewrite",
+   "note": "Remove the in-house dentist; keep layperson dental first aid."
+  },
+  {
+   "household_id": "13-00-section-intro",
+   "kit_id": "13-00-section-intro",
+   "kit_section": "13-sanitation-and-waste",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "household_id": "13-01-human-waste-no-plumbing",
+   "kit_id": "13-01-human-waste-no-plumbing",
+   "kit_section": "13-sanitation-and-waste",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "13-02-hygiene-and-handwashing",
+   "kit_id": "13-02-hygiene-and-handwashing",
+   "kit_section": "13-sanitation-and-waste",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "13-03-greywater-and-trash",
+   "kit_id": "13-03-greywater-and-trash",
+   "kit_section": "13-sanitation-and-waste",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "13-04-laundry-by-hand",
+   "kit_id": "13-04-laundry-by-hand",
+   "kit_section": "13-sanitation-and-waste",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "13-05-winter-sanitation",
+   "kit_id": "13-05-winter-sanitation",
+   "kit_section": "13-sanitation-and-waste",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "13-06-composting-toilet",
+   "kit_id": "13-06-composting-toilet",
+   "kit_section": "13-sanitation-and-waste",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "13-07-latrine-siting",
+   "kit_id": "13-07-latrine-siting",
+   "kit_section": "13-sanitation-and-waste",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "13-08-menstrual-and-diapers",
+   "kit_id": "13-08-menstrual-and-diapers",
+   "kit_section": "13-sanitation-and-waste",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "13-09-soap-making",
+   "kit_id": "13-09-soap-making",
+   "kit_section": "13-sanitation-and-waste",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "13-10-dishwashing-and-food-hygiene",
+   "kit_id": "13-10-dishwashing-and-food-hygiene",
+   "kit_section": "13-sanitation-and-waste",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "13-11-disease-outbreak",
+   "kit_id": "13-11-disease-outbreak",
+   "kit_section": "13-sanitation-and-waste",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "13-12-septic-off-grid",
+   "kit_id": "13-12-septic-off-grid",
+   "kit_section": "13-sanitation-and-waste",
+   "layer": "gear",
+   "action": "module",
+   "note": "GM septic."
+  },
+  {
+   "household_id": "14-00-section-intro",
+   "kit_id": "14-00-section-intro",
+   "kit_section": "14-security-and-defense",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "household_id": "14-01-situational-awareness",
+   "kit_id": "14-01-situational-awareness",
+   "kit_section": "14-security-and-defense",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "household_id": "14-02-home-hardening",
+   "kit_id": "14-02-home-hardening",
+   "kit_section": "14-security-and-defense",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "household_id": "14-03-opsec",
+   "kit_id": "14-03-opsec",
+   "kit_section": "14-security-and-defense",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "household_id": "14-04-caliber-roles-and-inventory",
+   "kit_id": "14-04-caliber-roles-and-inventory",
+   "kit_section": "14-security-and-defense",
+   "layer": "household",
+   "action": "template",
+   "note": "Only if firearms selected."
+  },
+  {
+   "household_id": "14-05-weapon-maintenance",
+   "kit_id": "14-05-weapon-maintenance",
+   "kit_section": "14-security-and-defense",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "household_id": "14-06-spare-parts-and-armorer",
+   "kit_id": "14-06-spare-parts-and-armorer",
+   "kit_section": "14-security-and-defense",
+   "layer": "gear",
+   "action": "module",
+   "note": "Only if firearms selected; platform slots."
+  },
+  {
+   "household_id": "14-07-ammunition-storage",
+   "kit_id": "14-07-ammunition-storage",
+   "kit_section": "14-security-and-defense",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "household_id": "14-08-ammunition-sourcing",
+   "kit_id": "14-08-ammunition-sourcing",
+   "kit_section": "14-security-and-defense",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "household_id": "14-09-zeroing-and-optics",
+   "kit_id": "14-09-zeroing-and-optics",
+   "kit_section": "14-security-and-defense",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "household_id": "14-10-suppressors-and-nfa",
+   "kit_id": "14-10-suppressors-and-nfa",
+   "kit_section": "14-security-and-defense",
+   "layer": "core",
+   "action": "rewrite",
+   "note": "Law content becomes a pre-collapse note."
+  },
+  {
+   "household_id": "14-11-defense-and-sd-law",
+   "kit_id": "14-11-defensive-use-of-force",
+   "kit_section": "14-security-and-defense",
+   "layer": "core",
+   "action": "rewrite",
+   "note": "State law line from region dataset as pre-collapse note; household rule becomes DC-12."
+  },
+  {
+   "household_id": "14-12-layered-defense",
+   "kit_id": "14-12-layered-defense",
+   "kit_section": "14-security-and-defense",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "household_id": "14-13-de-escalation",
+   "kit_id": "14-13-de-escalation",
+   "kit_section": "14-security-and-defense",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "household_id": "14-14-safe-storage-and-child-access",
+   "kit_id": "14-14-safe-storage-and-child-access",
+   "kit_section": "14-security-and-defense",
+   "layer": "core",
+   "action": "ship",
+   "note": "Age-gated emphasis."
+  },
+  {
+   "household_id": "14-15-dry-practice-doctrine",
+   "kit_id": "14-15-dry-practice-doctrine",
+   "kit_section": "14-security-and-defense",
+   "layer": "core",
+   "action": "rewrite",
+   "note": ""
+  },
+  {
+   "household_id": "15-00-section-intro",
+   "kit_id": "15-00-section-intro",
+   "kit_section": "15-communications",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "household_id": "15-01-weather-alerts",
+   "kit_id": "15-01-weather-alerts",
+   "kit_section": "15-communications",
+   "layer": "region",
+   "action": "dataset",
+   "note": "NWS office, transmitter frequencies, SAME codes from dataset."
+  },
+  {
+   "household_id": "15-02-radio-options",
+   "kit_id": "15-02-radio-options",
+   "kit_section": "15-communications",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "15-03-family-comms-plan",
+   "kit_id": "15-03-family-comms-plan",
+   "kit_section": "15-communications",
+   "layer": "household",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "household_id": "15-04-monitoring-and-info",
+   "kit_id": "15-04-monitoring-and-info",
+   "kit_section": "15-communications",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "15-05-ham-and-licensing",
+   "kit_id": "15-05-ham-and-licensing",
+   "kit_section": "15-communications",
+   "layer": "core",
+   "action": "ship",
+   "note": "Licensing as pre-collapse note."
+  },
+  {
+   "household_id": "15-06-antennas-and-range",
+   "kit_id": "15-06-antennas-and-range",
+   "kit_section": "15-communications",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "15-07-signals-and-codes",
+   "kit_id": "15-07-signals-and-codes",
+   "kit_section": "15-communications",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "15-08-destination-comms",
+   "kit_id": "15-08-destination-comms",
+   "kit_section": "15-communications",
+   "layer": "household",
+   "action": "template",
+   "note": "Per destination."
+  },
+  {
+   "household_id": "15-09-corridor-comms",
+   "kit_id": "15-09-corridor-comms",
+   "kit_section": "15-communications",
+   "layer": "household",
+   "action": "template",
+   "note": "Per route."
+  },
+  {
+   "household_id": "16-00-section-intro",
+   "kit_id": "16-00-section-intro",
+   "kit_section": "16-tools-and-repair",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "household_id": "16-01-essential-hand-tools",
+   "kit_id": "16-01-essential-hand-tools",
+   "kit_section": "16-tools-and-repair",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "16-02-sharpening",
+   "kit_id": "16-02-sharpening",
+   "kit_section": "16-tools-and-repair",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "16-03-knots-and-cordage",
+   "kit_id": "16-03-knots-and-cordage",
+   "kit_section": "16-tools-and-repair",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "16-04-sewing-and-mending",
+   "kit_id": "16-04-sewing-and-mending",
+   "kit_section": "16-tools-and-repair",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "16-05-basic-repairs",
+   "kit_id": "16-05-basic-repairs",
+   "kit_section": "16-tools-and-repair",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "16-06-axes-and-saws",
+   "kit_id": "16-06-axes-and-saws",
+   "kit_section": "16-tools-and-repair",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "16-07-fasteners-and-hardware",
+   "kit_id": "16-07-fasteners-and-hardware",
+   "kit_section": "16-tools-and-repair",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "16-08-metal-and-wood-repair",
+   "kit_id": "16-08-metal-and-wood-repair",
+   "kit_section": "16-tools-and-repair",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "16-09-bicycle-and-transport",
+   "kit_id": "16-09-bicycle-and-transport",
+   "kit_section": "16-tools-and-repair",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "16-10-tire-failures-roadside",
+   "kit_id": "16-10-tire-failures-roadside",
+   "kit_section": "16-tools-and-repair",
+   "layer": "core",
+   "action": "template",
+   "note": "Vehicle kit slots."
+  },
+  {
+   "household_id": "16-11-trailer-maintenance-and-repair",
+   "kit_id": "16-11-trailer-maintenance-and-repair",
+   "kit_section": "16-tools-and-repair",
+   "layer": "gear",
+   "action": "module",
+   "note": "GM trailer; only if a trailer is owned."
+  },
+  {
+   "household_id": "16-12-grid-down-house-repairs",
+   "kit_id": "16-12-grid-down-house-repairs",
+   "kit_section": "16-tools-and-repair",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "17-00-section-intro",
+   "kit_id": "17-00-section-intro",
+   "kit_section": "17-weather-and-regional-hazards",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "household_id": "17-01-blizzards-and-ice",
+   "kit_id": "17-01-blizzards-and-ice",
+   "kit_section": "17-weather-and-regional-hazards",
+   "layer": "region",
+   "action": "dataset",
+   "note": ""
+  },
+  {
+   "household_id": "17-02-tornadoes",
+   "kit_id": "17-02-tornadoes",
+   "kit_section": "17-weather-and-regional-hazards",
+   "layer": "region",
+   "action": "dataset",
+   "note": ""
+  },
+  {
+   "household_id": "17-03-floods",
+   "kit_id": "17-03-floods",
+   "kit_section": "17-weather-and-regional-hazards",
+   "layer": "region",
+   "action": "dataset",
+   "note": ""
+  },
+  {
+   "household_id": "17-04-extreme-cold-and-heat",
+   "kit_id": "17-04-extreme-cold-and-heat",
+   "kit_section": "17-weather-and-regional-hazards",
+   "layer": "region",
+   "action": "dataset",
+   "note": ""
+  },
+  {
+   "household_id": "17-05-grassland-fire",
+   "kit_id": "17-05-grassland-fire",
+   "kit_section": "17-weather-and-regional-hazards",
+   "layer": "region",
+   "action": "dataset",
+   "note": ""
+  },
+  {
+   "household_id": "17-06-tornado-shelter",
+   "kit_id": "17-06-tornado-shelter",
+   "kit_section": "17-weather-and-regional-hazards",
+   "layer": "region",
+   "action": "dataset",
+   "note": ""
+  },
+  {
+   "household_id": "17-07-drought-and-water-scarcity",
+   "kit_id": "17-07-drought-and-water-scarcity",
+   "kit_section": "17-weather-and-regional-hazards",
+   "layer": "region",
+   "action": "dataset",
+   "note": ""
+  },
+  {
+   "household_id": "17-08-power-grid-failure",
+   "kit_id": "17-08-power-grid-failure",
+   "kit_section": "17-weather-and-regional-hazards",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "17-09-pandemic-and-illness",
+   "kit_id": "17-09-pandemic-and-illness",
+   "kit_section": "17-weather-and-regional-hazards",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "17-10-reading-the-sky",
+   "kit_id": "17-10-reading-the-sky",
+   "kit_section": "17-weather-and-regional-hazards",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "17-11-corridor-hazards",
+   "kit_id": "17-11-corridor-hazards",
+   "kit_section": "17-weather-and-regional-hazards",
+   "layer": "household",
+   "action": "template",
+   "note": "Per route from region hazard data."
+  },
+  {
+   "household_id": "18-00-section-intro",
+   "kit_id": "18-00-section-intro",
+   "kit_section": "18-community-barter-and-governance",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "household_id": "18-01-mutual-aid",
+   "kit_id": "18-01-mutual-aid",
+   "kit_section": "18-community-barter-and-governance",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "18-02-barter-and-trade-goods",
+   "kit_id": "18-02-barter-and-trade-goods",
+   "kit_section": "18-community-barter-and-governance",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "18-03-skills-as-currency",
+   "kit_id": "18-03-skills-as-currency",
+   "kit_section": "18-community-barter-and-governance",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "18-04-group-organization",
+   "kit_id": "18-04-group-organization",
+   "kit_section": "18-community-barter-and-governance",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "18-05-trust-and-vetting",
+   "kit_id": "18-05-trust-and-vetting",
+   "kit_section": "18-community-barter-and-governance",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "18-06-conflict-resolution",
+   "kit_id": "18-06-conflict-resolution",
+   "kit_section": "18-community-barter-and-governance",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "18-07-teaching-and-knowledge",
+   "kit_id": "18-07-teaching-and-knowledge",
+   "kit_section": "18-community-barter-and-governance",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "18-08-dental-care-as-community-asset",
+   "kit_id": "18-08-dental-care-as-community-asset",
+   "kit_section": "18-community-barter-and-governance",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "19-00-section-intro",
+   "kit_id": "19-00-section-intro",
+   "kit_section": "19-finances-and-documents",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "household_id": "19-01-document-grab-kit",
+   "kit_id": "19-01-document-grab-kit",
+   "kit_section": "19-finances-and-documents",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "19-02-cash-and-value",
+   "kit_id": "19-02-cash-and-value",
+   "kit_section": "19-finances-and-documents",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "19-03-records-and-backups",
+   "kit_id": "19-03-records-and-backups",
+   "kit_section": "19-finances-and-documents",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "19-04-insurance-and-claims",
+   "kit_id": "19-04-insurance-and-claims",
+   "kit_section": "19-finances-and-documents",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "19-05-identity-protection",
+   "kit_id": "19-05-identity-protection",
+   "kit_section": "19-finances-and-documents",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "19-06-bank-access-in-crisis",
+   "kit_id": "19-06-bank-access-in-crisis",
+   "kit_section": "19-finances-and-documents",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "19-07-access-continuity",
+   "kit_id": "19-07-access-continuity",
+   "kit_section": "19-finances-and-documents",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "19-08-practice-continuity",
+   "kit_id": "19-08-income-continuity",
+   "kit_section": "19-finances-and-documents",
+   "layer": "core",
+   "action": "rewrite",
+   "note": "Generalised: income continuity for a self-employed adult."
+  },
+  {
+   "household_id": "20-00-section-intro",
+   "kit_id": "20-00-section-intro",
+   "kit_section": "20-kids-and-family",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "household_id": "20-01-toddler-and-infant-needs",
+   "kit_id": "20-01-toddler-and-infant-needs",
+   "kit_section": "20-kids-and-family",
+   "layer": "core",
+   "action": "template",
+   "note": "Age-gated."
+  },
+  {
+   "household_id": "20-02-child-safety-offgrid",
+   "kit_id": "20-02-child-safety-offgrid",
+   "kit_section": "20-kids-and-family",
+   "layer": "core",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "household_id": "20-03-routine-and-schooling",
+   "kit_id": "20-03-routine-and-schooling",
+   "kit_section": "20-kids-and-family",
+   "layer": "core",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "household_id": "20-04-teaching-kids-the-plan",
+   "kit_id": "20-04-teaching-kids-the-plan",
+   "kit_section": "20-kids-and-family",
+   "layer": "core",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "household_id": "20-05-infant-feeding",
+   "kit_id": "20-05-infant-feeding",
+   "kit_section": "20-kids-and-family",
+   "layer": "core",
+   "action": "template",
+   "note": "Age-gated; nursing flag."
+  },
+  {
+   "household_id": "20-06-diapers-and-hygiene",
+   "kit_id": "20-06-diapers-and-hygiene",
+   "kit_section": "20-kids-and-family",
+   "layer": "core",
+   "action": "template",
+   "note": "Age-gated."
+  },
+  {
+   "household_id": "20-07-kids-jobs",
+   "kit_id": "20-07-kids-jobs",
+   "kit_section": "20-kids-and-family",
+   "layer": "core",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "household_id": "20-08-kids-and-fear",
+   "kit_id": "20-08-kids-and-fear",
+   "kit_section": "20-kids-and-family",
+   "layer": "core",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "household_id": "21-00-section-intro",
+   "kit_id": "21-00-section-intro",
+   "kit_section": "21-morale-and-mental-health",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "household_id": "21-01-stress-and-panic",
+   "kit_id": "21-01-stress-and-panic",
+   "kit_section": "21-morale-and-mental-health",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "21-02-long-haul-morale",
+   "kit_id": "21-02-long-haul-morale",
+   "kit_section": "21-morale-and-mental-health",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "21-03-grief-and-trauma",
+   "kit_id": "21-03-grief-and-trauma",
+   "kit_section": "21-morale-and-mental-health",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "21-04-routine-and-structure",
+   "kit_id": "21-04-routine-and-structure",
+   "kit_section": "21-morale-and-mental-health",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "21-05-conflict-between-adults",
+   "kit_id": "21-05-conflict-between-adults",
+   "kit_section": "21-morale-and-mental-health",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "21-06-celebration-and-meaning",
+   "kit_id": "21-06-celebration-and-meaning",
+   "kit_section": "21-morale-and-mental-health",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "21-07-sleep",
+   "kit_id": "21-07-sleep",
+   "kit_section": "21-morale-and-mental-health",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "22-00-section-intro",
+   "kit_id": "22-00-section-intro",
+   "kit_section": "22-master-lists-acquire-and-scavenge",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "household_id": "22-01-master-acquisition-list",
+   "kit_id": "22-01-master-acquisition-list",
+   "kit_section": "22-master-lists-acquire-and-scavenge",
+   "layer": "household",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "household_id": "22-02-scavenging-field-guide",
+   "kit_id": "22-02-scavenging-field-guide",
+   "kit_section": "22-master-lists-acquire-and-scavenge",
+   "layer": "household",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "household_id": "22-03-go-bags-and-kits",
+   "kit_id": "22-03-go-bags-and-kits",
+   "kit_section": "22-master-lists-acquire-and-scavenge",
+   "layer": "household",
+   "action": "template",
+   "note": "Per member."
+  },
+  {
+   "household_id": "22-04-household-inventory",
+   "kit_id": "22-04-household-inventory",
+   "kit_section": "22-master-lists-acquire-and-scavenge",
+   "layer": "household",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "household_id": "22-05-kit-vehicle",
+   "kit_id": "22-05-kit-vehicle",
+   "kit_section": "22-master-lists-acquire-and-scavenge",
+   "layer": "household",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "household_id": "22-06-kit-medical",
+   "kit_id": "22-06-kit-medical",
+   "kit_section": "22-master-lists-acquire-and-scavenge",
+   "layer": "core",
+   "action": "module",
+   "note": "Built from selected condition modules."
+  },
+  {
+   "household_id": "22-07-priority-purchase-order",
+   "kit_id": "22-07-priority-purchase-order",
+   "kit_section": "22-master-lists-acquire-and-scavenge",
+   "layer": "household",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "household_id": "23-00-section-intro",
+   "kit_id": "23-00-section-intro",
+   "kit_section": "23-depletion-and-substitution",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "household_id": "23-01-depletion-framework",
+   "kit_id": "23-01-depletion-framework",
+   "kit_section": "23-depletion-and-substitution",
+   "layer": "core",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "household_id": "23-02-master-consumables-table",
+   "kit_id": "23-02-master-consumables-table",
+   "kit_section": "23-depletion-and-substitution",
+   "layer": "household",
+   "action": "template",
+   "note": "Quantities from household size and gear."
+  },
+  {
+   "household_id": "23-03-substitution-catalog",
+   "kit_id": "23-03-substitution-catalog",
+   "kit_section": "23-depletion-and-substitution",
+   "layer": "core",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "household_id": "23-04-resource-lifecycles",
+   "kit_id": "23-04-resource-lifecycles",
+   "kit_section": "23-depletion-and-substitution",
+   "layer": "core",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "household_id": "23-05-skills-that-replace-supplies",
+   "kit_id": "23-05-skills-that-replace-supplies",
+   "kit_section": "23-depletion-and-substitution",
+   "layer": "core",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "household_id": "24-00-section-intro",
+   "kit_id": "24-00-section-intro",
+   "kit_section": "24-skills-to-practice-now",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "household_id": "24-01-skills-checklist",
+   "kit_id": "24-01-skills-checklist",
+   "kit_section": "24-skills-to-practice-now",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "24-02-drills",
+   "kit_id": "24-02-drills",
+   "kit_section": "24-skills-to-practice-now",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "24-03-seasonal-practice-plan",
+   "kit_id": "24-03-seasonal-practice-plan",
+   "kit_section": "24-skills-to-practice-now",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "24-04-blackout-weekend",
+   "kit_id": "24-04-blackout-weekend",
+   "kit_section": "24-skills-to-practice-now",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "25-00-section-intro",
+   "kit_id": "25-00-section-intro",
+   "kit_section": "25-reference-and-appendices",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "household_id": "25-01-planting-calendar",
+   "kit_id": "25-01-planting-calendar",
+   "kit_section": "25-reference-and-appendices",
+   "layer": "region",
+   "action": "dataset",
+   "note": ""
+  },
+  {
+   "household_id": "25-02-conversions-and-math",
+   "kit_id": "25-02-conversions-and-math",
+   "kit_section": "25-reference-and-appendices",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "25-03-regional-contacts",
+   "kit_id": "25-03-regional-contacts",
+   "kit_section": "25-reference-and-appendices",
+   "layer": "region",
+   "action": "dataset",
+   "note": "NWS, state EM, poison control, utilities (user enters their own); national appendix lists every state."
+  },
+  {
+   "household_id": "25-04-maps",
+   "kit_id": "25-04-maps",
+   "kit_section": "25-reference-and-appendices",
+   "layer": "household",
+   "action": "template",
+   "note": "Map list per home base, destinations and routes; the app embeds no map tiles (owner decision pending)."
+  },
+  {
+   "household_id": "25-05-blank-logs",
+   "kit_id": "25-05-blank-logs",
+   "kit_section": "25-reference-and-appendices",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "25-06-source-bibliography",
+   "kit_id": "25-06-source-bibliography",
+   "kit_section": "25-reference-and-appendices",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Titles, publishers and dates only; no URLs printed."
+  },
+  {
+   "household_id": "25-07-glossary",
+   "kit_id": "25-07-glossary",
+   "kit_section": "25-reference-and-appendices",
+   "layer": "core",
+   "action": "rewrite",
+   "note": "Expanded for novices; absorbs explainer vocabulary."
+  },
+  {
+   "household_id": "25-08-quick-reference-cards",
+   "kit_id": "25-08-quick-reference-cards",
+   "kit_section": "25-reference-and-appendices",
+   "layer": "core",
+   "action": "template",
+   "note": "Cards with household slots."
+  },
+  {
+   "household_id": "25-09-family-medical-summary",
+   "kit_id": "25-09-family-medical-summary",
+   "kit_section": "25-reference-and-appendices",
+   "layer": "household",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "household_id": "25-10-annual-review",
+   "kit_id": "25-10-annual-review",
+   "kit_section": "25-reference-and-appendices",
+   "layer": "core",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "household_id": "26-00-section-intro",
+   "kit_id": "26-00-section-intro",
+   "kit_section": "26-pre-disaster-acquisition-checklist",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "household_id": "26-01-how-to-run-the-check",
+   "kit_id": "26-01-how-to-run-the-check",
+   "kit_section": "26-pre-disaster-acquisition-checklist",
+   "layer": "core",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "household_id": "26-02-walk-the-house",
+   "kit_id": "26-02-walk-the-house",
+   "kit_section": "26-pre-disaster-acquisition-checklist",
+   "layer": "core",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "household_id": "26-03-checklist-life-safety",
+   "kit_id": "26-03-checklist-life-safety",
+   "kit_section": "26-pre-disaster-acquisition-checklist",
+   "layer": "core",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "household_id": "26-04-checklist-water-food",
+   "kit_id": "26-04-checklist-water-food",
+   "kit_section": "26-pre-disaster-acquisition-checklist",
+   "layer": "core",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "household_id": "26-05-checklist-heat-power-light",
+   "kit_id": "26-05-checklist-heat-power-light",
+   "kit_section": "26-pre-disaster-acquisition-checklist",
+   "layer": "core",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "household_id": "26-06-checklist-shelter-tools-security",
+   "kit_id": "26-06-checklist-shelter-tools-security",
+   "kit_section": "26-pre-disaster-acquisition-checklist",
+   "layer": "core",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "household_id": "26-07-checklist-family-records",
+   "kit_id": "26-07-checklist-family-records",
+   "kit_section": "26-pre-disaster-acquisition-checklist",
+   "layer": "core",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "household_id": "26-08-expiry-and-rotation-tracker",
+   "kit_id": "26-08-expiry-and-rotation-tracker",
+   "kit_section": "26-pre-disaster-acquisition-checklist",
+   "layer": "core",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "household_id": "26-09-shopping-list-and-budget",
+   "kit_id": "26-09-shopping-list-and-budget",
+   "kit_section": "26-pre-disaster-acquisition-checklist",
+   "layer": "core",
+   "action": "template",
+   "note": ""
+  },
+  {
+   "household_id": "27-00-section-intro",
+   "kit_id": "27-00-section-intro",
+   "kit_section": "27-cbrn-and-emp",
+   "layer": "generated",
+   "action": "ship",
+   "note": "Section intro rebuilt by scripts."
+  },
+  {
+   "household_id": "27-01-how-to-think-about-this",
+   "kit_id": "27-01-how-to-think-about-this",
+   "kit_section": "27-cbrn-and-emp",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "27-02-emp-and-geomagnetic-storm",
+   "kit_id": "27-02-emp-and-geomagnetic-storm",
+   "kit_section": "27-cbrn-and-emp",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "27-03-protecting-electronics",
+   "kit_id": "27-03-protecting-electronics",
+   "kit_section": "27-cbrn-and-emp",
+   "layer": "core",
+   "action": "template",
+   "note": "Devices from condition modules."
+  },
+  {
+   "household_id": "27-04-nuclear-first-hour",
+   "kit_id": "27-04-nuclear-first-hour",
+   "kit_section": "27-cbrn-and-emp",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "27-05-fallout-sheltering",
+   "kit_id": "27-05-fallout-sheltering",
+   "kit_section": "27-cbrn-and-emp",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  },
+  {
+   "household_id": "27-06-potassium-iodide",
+   "kit_id": "27-06-potassium-iodide",
+   "kit_section": "27-cbrn-and-emp",
+   "layer": "core",
+   "action": "ship",
+   "note": "FDA table as published; DC-22 for adults over 40."
+  },
+  {
+   "household_id": "27-07-chemical-and-biological",
+   "kit_id": "27-07-chemical-and-biological",
+   "kit_section": "27-cbrn-and-emp",
+   "layer": "core",
+   "action": "ship",
+   "note": ""
+  }
+ ],
+ "new_pages": [
+  {
+   "kit_id": "02-01-cl01-type-1-diabetes-injections",
+   "kit_section": "02-medical-conditions",
+   "layer": "condition",
+   "condition": "CL-01"
+  },
+  {
+   "kit_id": "02-02-cl02-type-1-diabetes-pump-and-cgm",
+   "kit_section": "02-medical-conditions",
+   "layer": "condition",
+   "condition": "CL-02"
+  },
+  {
+   "kit_id": "02-03-cl03-anaphylaxis",
+   "kit_section": "02-medical-conditions",
+   "layer": "condition",
+   "condition": "CL-03"
+  },
+  {
+   "kit_id": "02-04-cl04-food-allergy",
+   "kit_section": "02-medical-conditions",
+   "layer": "condition",
+   "condition": "CL-04"
+  },
+  {
+   "kit_id": "02-05-cl05-type-2-diabetes",
+   "kit_section": "02-medical-conditions",
+   "layer": "condition",
+   "condition": "CL-05"
+  },
+  {
+   "kit_id": "02-06-cl06-type-2-diabetes-on-insulin",
+   "kit_section": "02-medical-conditions",
+   "layer": "condition",
+   "condition": "CL-06"
+  },
+  {
+   "kit_id": "02-07-cl07-asthma",
+   "kit_section": "02-medical-conditions",
+   "layer": "condition",
+   "condition": "CL-07"
+  },
+  {
+   "kit_id": "02-08-cl08-copd-and-oxygen",
+   "kit_section": "02-medical-conditions",
+   "layer": "condition",
+   "condition": "CL-08"
+  },
+  {
+   "kit_id": "02-09-cl09-high-blood-pressure-and-heart-disease",
+   "kit_section": "02-medical-conditions",
+   "layer": "condition",
+   "condition": "CL-09"
+  },
+  {
+   "kit_id": "02-10-cl10-blood-thinners",
+   "kit_section": "02-medical-conditions",
+   "layer": "condition",
+   "condition": "CL-10"
+  },
+  {
+   "kit_id": "02-11-cl11-epilepsy-and-seizures",
+   "kit_section": "02-medical-conditions",
+   "layer": "condition",
+   "condition": "CL-11"
+  },
+  {
+   "kit_id": "02-12-cl12-pregnancy-birth-and-postpartum",
+   "kit_section": "02-medical-conditions",
+   "layer": "condition",
+   "condition": "CL-12"
+  },
+  {
+   "kit_id": "02-13-cl13-infant-feeding",
+   "kit_section": "02-medical-conditions",
+   "layer": "condition",
+   "condition": "CL-13"
+  },
+  {
+   "kit_id": "02-14-cl14-thyroid-disease",
+   "kit_section": "02-medical-conditions",
+   "layer": "condition",
+   "condition": "CL-14"
+  },
+  {
+   "kit_id": "02-15-cl15-kidney-disease-and-dialysis",
+   "kit_section": "02-medical-conditions",
+   "layer": "condition",
+   "condition": "CL-15"
+  },
+  {
+   "kit_id": "02-16-cl16-mental-health-medications",
+   "kit_section": "02-medical-conditions",
+   "layer": "condition",
+   "condition": "CL-16"
+  },
+  {
+   "kit_id": "02-17-cl17-opioid-dependence-and-chronic-pain",
+   "kit_section": "02-medical-conditions",
+   "layer": "condition",
+   "condition": "CL-17"
+  },
+  {
+   "kit_id": "02-18-cl18-immunosuppression-and-transplant",
+   "kit_section": "02-medical-conditions",
+   "layer": "condition",
+   "condition": "CL-18"
+  },
+  {
+   "kit_id": "02-19-cl19-celiac-and-severe-gi-disease",
+   "kit_section": "02-medical-conditions",
+   "layer": "condition",
+   "condition": "CL-19"
+  },
+  {
+   "kit_id": "02-20-cl20-adrenal-insufficiency",
+   "kit_section": "02-medical-conditions",
+   "layer": "condition",
+   "condition": "CL-20"
+  },
+  {
+   "kit_id": "02-21-cl21-dementia-and-elderly-care",
+   "kit_section": "02-medical-conditions",
+   "layer": "condition",
+   "condition": "CL-21"
+  },
+  {
+   "kit_id": "02-22-cl22-mobility-impairment",
+   "kit_section": "02-medical-conditions",
+   "layer": "condition",
+   "condition": "CL-22"
+  },
+  {
+   "kit_id": "02-23-cl23-hearing-and-vision-aids",
+   "kit_section": "02-medical-conditions",
+   "layer": "condition",
+   "condition": "CL-23"
+  },
+  {
+   "kit_id": "02-24-cl24-sleep-apnea-cpap",
+   "kit_section": "02-medical-conditions",
+   "layer": "condition",
+   "condition": "CL-24"
+  },
+  {
+   "kit_id": "02-25-cl25-contraception-and-menstrual-health",
+   "kit_section": "02-medical-conditions",
+   "layer": "condition",
+   "condition": "CL-25"
+  },
+  {
+   "kit_id": "02-26-cl26-severe-obesity-and-bariatric-surgery",
+   "kit_section": "02-medical-conditions",
+   "layer": "condition",
+   "condition": "CL-26"
+  },
+  {
+   "kit_id": "02-27-a-condition-not-in-the-library",
+   "kit_section": "02-medical-conditions",
+   "layer": "condition"
+  },
+  {
+   "kit_id": "29-01-ex01-fuels",
+   "kit_section": "29-explainers",
+   "layer": "explainer",
+   "explainer": "EX-01"
+  },
+  {
+   "kit_id": "29-02-ex02-batteries-and-power-stations",
+   "kit_section": "29-explainers",
+   "layer": "explainer",
+   "explainer": "EX-02"
+  },
+  {
+   "kit_id": "29-03-ex03-carbon-monoxide",
+   "kit_section": "29-explainers",
+   "layer": "explainer",
+   "explainer": "EX-03"
+  },
+  {
+   "kit_id": "29-04-ex04-electricity-in-the-house",
+   "kit_section": "29-explainers",
+   "layer": "explainer",
+   "explainer": "EX-04"
+  },
+  {
+   "kit_id": "29-05-ex05-chlorine-products",
+   "kit_section": "29-explainers",
+   "layer": "explainer",
+   "explainer": "EX-05"
+  },
+  {
+   "kit_id": "29-06-ex06-water-words",
+   "kit_section": "29-explainers",
+   "layer": "explainer",
+   "explainer": "EX-06"
+  },
+  {
+   "kit_id": "29-07-ex07-refrigerated-medicines",
+   "kit_section": "29-explainers",
+   "layer": "explainer",
+   "explainer": "EX-07"
+  },
+  {
+   "kit_id": "29-08-ex08-canning-words",
+   "kit_section": "29-explainers",
+   "layer": "explainer",
+   "explainer": "EX-08"
+  },
+  {
+   "kit_id": "29-09-ex09-radios",
+   "kit_section": "29-explainers",
+   "layer": "explainer",
+   "explainer": "EX-09"
+  },
+  {
+   "kit_id": "29-10-ex10-weather-alert-words",
+   "kit_section": "29-explainers",
+   "layer": "explainer",
+   "explainer": "EX-10"
+  },
+  {
+   "kit_id": "29-11-ex11-firearms-basics",
+   "kit_section": "29-explainers",
+   "layer": "explainer",
+   "explainer": "EX-11"
+  },
+  {
+   "kit_id": "29-12-ex12-extinguishers-blankets-and-alarms",
+   "kit_section": "29-explainers",
+   "layer": "explainer",
+   "explainer": "EX-12"
+  },
+  {
+   "kit_id": "29-13-ex13-measuring-without-instruments",
+   "kit_section": "29-explainers",
+   "layer": "explainer",
+   "explainer": "EX-13"
+  },
+  {
+   "kit_id": "29-14-ex14-reading-a-label",
+   "kit_section": "29-explainers",
+   "layer": "explainer",
+   "explainer": "EX-14"
+  },
+  {
+   "kit_id": "29-15-ex15-how-this-binder-was-made",
+   "kit_section": "29-explainers",
+   "layer": "explainer",
+   "explainer": "EX-15"
+  },
+  {
+   "kit_id": "30-01-the-floors",
+   "kit_section": "30-decisions-and-floors",
+   "layer": "floors"
+  },
+  {
+   "kit_id": "30-02-dc01-unvented-heater-overnight",
+   "kit_section": "30-decisions-and-floors",
+   "layer": "card",
+   "card": "DC-01"
+  },
+  {
+   "kit_id": "30-03-dc02-propane-cylinder-indoors",
+   "kit_section": "30-decisions-and-floors",
+   "layer": "card",
+   "card": "DC-02"
+  },
+  {
+   "kit_id": "30-04-dc03-refilling-1-lb-cylinders",
+   "kit_section": "30-decisions-and-floors",
+   "layer": "card",
+   "card": "DC-03"
+  },
+  {
+   "kit_id": "30-05-dc04-expired-medication",
+   "kit_section": "30-decisions-and-floors",
+   "layer": "card",
+   "card": "DC-04"
+  },
+  {
+   "kit_id": "30-06-dc05-fuel-in-attached-garage",
+   "kit_section": "30-decisions-and-floors",
+   "layer": "card",
+   "card": "DC-05"
+  },
+  {
+   "kit_id": "30-07-dc06-fuel-in-passenger-vehicle",
+   "kit_section": "30-decisions-and-floors",
+   "layer": "card",
+   "card": "DC-06"
+  },
+  {
+   "kit_id": "30-08-dc07-diy-cord-and-plug-conversion",
+   "kit_section": "30-decisions-and-floors",
+   "layer": "card",
+   "card": "DC-07"
+  },
+  {
+   "kit_id": "30-09-dc08-heat-exposed-medication",
+   "kit_section": "30-decisions-and-floors",
+   "layer": "card",
+   "card": "DC-08"
+  },
+  {
+   "kit_id": "30-10-dc09-infant-bed-sharing",
+   "kit_section": "30-decisions-and-floors",
+   "layer": "card",
+   "card": "DC-09"
+  },
+  {
+   "kit_id": "30-11-dc10-pets-when-you-cannot-keep-them",
+   "kit_section": "30-decisions-and-floors",
+   "layer": "card",
+   "card": "DC-10"
+  },
+  {
+   "kit_id": "30-12-dc11-shooting-on-your-property",
+   "kit_section": "30-decisions-and-floors",
+   "layer": "card",
+   "card": "DC-11"
+  },
+  {
+   "kit_id": "30-13-dc12-defensive-use-of-force",
+   "kit_section": "30-decisions-and-floors",
+   "layer": "card",
+   "card": "DC-12"
+  },
+  {
+   "kit_id": "30-14-dc13-drinking-pool-or-surface-water",
+   "kit_section": "30-decisions-and-floors",
+   "layer": "card",
+   "card": "DC-13"
+  },
+  {
+   "kit_id": "30-15-dc14-questionable-food",
+   "kit_section": "30-decisions-and-floors",
+   "layer": "card",
+   "card": "DC-14"
+  },
+  {
+   "kit_id": "30-16-dc15-someone-elses-prescription",
+   "kit_section": "30-decisions-and-floors",
+   "layer": "card",
+   "card": "DC-15"
+  },
+  {
+   "kit_id": "30-17-dc16-antibiotics-without-a-prescription",
+   "kit_section": "30-decisions-and-floors",
+   "layer": "card",
+   "card": "DC-16"
+  },
+  {
+   "kit_id": "30-18-dc17-old-fuel",
+   "kit_section": "30-decisions-and-floors",
+   "layer": "card",
+   "card": "DC-17"
+  },
+  {
+   "kit_id": "30-19-dc18-unlabeled-food-and-allergies",
+   "kit_section": "30-decisions-and-floors",
+   "layer": "card",
+   "card": "DC-18"
+  },
+  {
+   "kit_id": "30-20-dc19-when-to-leave",
+   "kit_section": "30-decisions-and-floors",
+   "layer": "card",
+   "card": "DC-19"
+  },
+  {
+   "kit_id": "30-21-dc20-open-flame-indoors",
+   "kit_section": "30-decisions-and-floors",
+   "layer": "card",
+   "card": "DC-20"
+  },
+  {
+   "kit_id": "30-22-dc21-uninspected-fireplace-or-stove",
+   "kit_section": "30-decisions-and-floors",
+   "layer": "card",
+   "card": "DC-21"
+  },
+  {
+   "kit_id": "30-23-dc22-potassium-iodide-over-40",
+   "kit_section": "30-decisions-and-floors",
+   "layer": "card",
+   "card": "DC-22"
+  },
+  {
+   "kit_id": "30-24-dc23-extra-strength-chlorination",
+   "kit_section": "30-decisions-and-floors",
+   "layer": "card",
+   "card": "DC-23"
+  },
+  {
+   "kit_id": "30-25-dc24-children-and-dangerous-jobs",
+   "kit_section": "30-decisions-and-floors",
+   "layer": "card",
+   "card": "DC-24"
+  },
+  {
+   "kit_id": "28-01-power-stations",
+   "kit_section": "28-gear-reference",
+   "layer": "gear"
+  },
+  {
+   "kit_id": "28-02-solar-panels-and-controllers",
+   "kit_section": "28-gear-reference",
+   "layer": "gear"
+  },
+  {
+   "kit_id": "28-03-generators",
+   "kit_section": "28-gear-reference",
+   "layer": "gear"
+  },
+  {
+   "kit_id": "28-04-portable-heaters",
+   "kit_section": "28-gear-reference",
+   "layer": "gear"
+  },
+  {
+   "kit_id": "28-05-radios",
+   "kit_section": "28-gear-reference",
+   "layer": "gear"
+  },
+  {
+   "kit_id": "28-06-water-filters",
+   "kit_section": "28-gear-reference",
+   "layer": "gear"
+  },
+  {
+   "kit_id": "28-07-reading-your-own-gear",
+   "kit_section": "28-gear-reference",
+   "layer": "gear"
+  },
+  {
+   "kit_id": "00-09-private-copy-notice",
+   "kit_section": "00-front-matter",
+   "layer": "core"
+  },
+  {
+   "kit_id": "00-10-install-and-charge-discipline",
+   "kit_section": "00-front-matter",
+   "layer": "core"
+  }
+ ]
+}

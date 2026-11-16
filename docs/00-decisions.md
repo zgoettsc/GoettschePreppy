@@ -16,14 +16,20 @@ separate from the household binder's C and D numbers.
 | G8 | **No links anywhere. The app is the SHTF reference and must contain everything; there is no internet to look things up.** | Rendered pages never print a URL. Sources are cited by title, publisher and date, and the full source document is bound inside the app behind the page that cites it. URLs exist only in the kit's source index, used at fetch time. |
 | G9 | **Copyright in SHTF is not the owner's concern; users are told they cannot share their copy because sharing breaks copyright. Non-redistributable sources are fetched for each user when they download.** | `docs/07-sources-and-fetch.md`. The public kit ships only owner text and public-domain works. At download time the user's build fetches every other cited document into their private copy through the stateless relay. The private-copy notice (`NOTICE-TO-USERS.md`) is shown in settings, at download, and on page two of the binder. |
 | G10 | **New repository**, not a branch of the household binder. | This repository. The household binder stays private and becomes the first test profile: the kit must regenerate something close to it from a profile. |
+| G11 | **Two sizes offered at download: Small (no sources) and Large (sources inside).** | Small: every page, explainer, card, condition and gear module, the national region appendix and all plant plates, with each citation shown as title, publisher and date; roughly 30 to 60 MB, no per-user fetch, fast on a phone. Large: the same plus every cited document bound behind its page, fetched for that household at download; roughly 200 to 400 MB. The download screen shows both sizes before anything is fetched. A household with Small can upgrade later from its saved profile file without regenerating the pages. The private-copy notice applies to Large; Small carries only kit text and public-domain material and says so. |
+
+| G12 | **Hosting: Cloudflare.** Settings page and binder renderer on Cloudflare Pages at the free `pages.dev` address; relay on a Cloudflare Worker. | `worker/` targets Workers; `wrangler.toml` checked in without secrets. The owner's Anthropic API key and the access-key hashes live only in Cloudflare's secret store. |
+| G13 | **Repository private.** | The relay's source is shown inside the app on the privacy page so friends can still read what it does. |
+| G14 | **Owner has an Anthropic API key with billing.** | Real generation from the start; a dry-run mode with canned output exists for tests. |
+| G15 | **Build app and content in parallel.** | Content workers and app workers run at once against `docs/09-authoring-spec.md`, which is the contract between them. |
+| G16 | **Maps in Large only.** (closes O1) | Large fetches USGS topo maps for the home county, destinations and route counties. Small carries the paper-map list and a state outline map. |
+| G17 | **Firearms pages always included.** (closes O2) | Only the inventory and armorer templates depend on ownership. |
+| G18 | **One access key per friend.** (closes O3) | Hashes stored as a Worker secret, revocable one at a time; a per-key request count is the only thing kept. |
+| G19 | **Opus 5.5 throughout.** (closes O6) | Generation and review passes use `claude-opus-5-5`. |
+| G20 | **Pilot regions: South Dakota and Illinois.** | All 50 states plus DC are built; SD and IL are verified first. |
+| G21 | **Plant plates fetched once into the kit.** (closes O5) | Every binder, Small or Large, has every plate. |
+| G22 | **Regeneration from the household's own saved profile file.** (closes O4) | Settings page accepts an uploaded `profile.json`; nothing server-side. |
 
 ## Decisions still open
 
-| # | Question | Default if unanswered |
-|---|---|---|
-| O1 | Maps. Does the app embed map imagery for the home base, destinations and routes? Public-domain USGS topo tiles for a whole route are large (hundreds of MB) and need a fetch at download; without them the maps page is a list of which paper maps to buy. | Ship the paper-map list; offer an optional "fetch USGS quads for my home county and destinations" step at download, size shown first. |
-| O2 | Firearms content. Include the security section's firearms pages for every household, or only when "firearms owned" is ticked? | Include always (the owner's principle: the binder has everything); gate only the inventory and armorer templates on ownership. |
-| O3 | Access-key policy. One key per friend, revocable, or one shared key? | One key per friend, stored as a hash in the relay's configuration, revocable by removing the hash. Count per key is the only thing logged. |
-| O4 | Regeneration. Can a household come back and regenerate after a life change (new baby, new condition) without re-entering everything? | Yes, from the profile file they chose to save on their own device. Nothing server-side. |
-| O5 | Plant plates for all regions: roughly 300 to 400 species nationally with 3 photographs each. Fetch and licence-check now (slow, owner cost once) or at download (slow per user)? | Fetch and licence-check once into the kit; USDA and Forest Service photographs are public domain and may be redistributed. |
-| O6 | Model choice for generation. Opus-class for the household pages and review passes; Sonnet-class for slot filling? | Opus-class everywhere for launch; optimise cost after the pilot. |
+None. O1 to O6 are closed by G16, G17, G18, G22, G21 and G19.

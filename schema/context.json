@@ -1,0 +1,313 @@
+{
+ "description": "Every path, flag and list a template may use. app/lib/context.js builds this object from the profile and region data; validate.mjs rejects anything not listed. Request additions in your worker notes.",
+ "values": {
+  "household.name": "A display name the household chose for the binder cover, else \"Our household\".",
+  "household.size": "Number of people.",
+  "household.adults": "Count of adults and elders.",
+  "household.children": "Count of teens, children and infants.",
+  "household.labels": "Comma list of member labels.",
+  "home.state": "Two-letter state code.",
+  "home.state_name": "State name.",
+  "home.county": "County name.",
+  "home.town": "Nearest town, or the county name if blank.",
+  "home.setting": "urban | suburban | small-town | rural | remote, as words.",
+  "dwelling.type": "Dwelling type as words.",
+  "dwelling.basement": "Basement kind as words.",
+  "dwelling.shelter_room": "The windowless interior room the household named.",
+  "dwelling.water_supply": "Water supply as words.",
+  "dwelling.sewer": "Sewer as words.",
+  "dwelling.primary_heat": "Primary heat as words.",
+  "dwelling.water_heater_gallons": "Water heater size in gallons.",
+  "dwelling.pool_gallons": "Pool or hot tub size in gallons.",
+  "contacts.out_of_area.name": "Out-of-area contact name.",
+  "contacts.out_of_area.phone": "Out-of-area contact phone.",
+  "contacts.meet.near_home": "Meeting place near home.",
+  "contacts.meet.in_town": "Meeting place in town.",
+  "contacts.meet.out_of_town": "Meeting place out of town.",
+  "contacts.utility.electric.provider": "Electric provider as typed by the household.",
+  "contacts.utility.electric.phone": "Electric outage phone as typed.",
+  "contacts.utility.gas.provider": "Gas provider as typed.",
+  "contacts.utility.gas.phone": "Gas emergency phone as typed.",
+  "contacts.utility.water.provider": "Water provider as typed.",
+  "contacts.utility.water.phone": "Water phone as typed.",
+  "gear.station_wh_total": "Total watt-hours across power stations.",
+  "gear.solar_w_total": "Total solar watts.",
+  "gear.generator_watts": "Generator running watts.",
+  "gear.generator_fuel": "Generator fuel as words.",
+  "gear.house_connection": "How the generator connects to the house, as words.",
+  "gear.co_alarms": "Number of CO alarms.",
+  "gear.smoke_alarms": "Number of smoke alarms.",
+  "gear.extinguishers": "Number of extinguishers.",
+  "gear.fuel.gasoline_gal": "Gasoline on hand, gallons.",
+  "gear.fuel.diesel_gal": "Diesel on hand, gallons.",
+  "gear.fuel.kerosene_gal": "Kerosene on hand, gallons.",
+  "gear.fuel.propane_1lb": "1-lb propane cylinders on hand.",
+  "gear.fuel.propane_20lb": "20-lb propane cylinders on hand.",
+  "gear.fuel.firewood_cords": "Cords of firewood.",
+  "gear.water.stored_gal": "Stored drinking water, gallons.",
+  "gear.food.pantry_days": "Days of pantry food, household estimate.",
+  "gear.food.freeze_dried_servings": "Freeze-dried servings.",
+  "derived.water.floor_gal_day": "Drinking + minimal hygiene floor: 1 gal per person per day, +0.5 gal per nursing or pregnant member, +0.5 gal per infant for formula and hygiene, +0.25 gal per pet (FEMA/CDC basis; formula in app/lib/derive.js).",
+  "derived.water.plan_gal_day": "Planning figure: floor x 1.3, rounded to 0.25 gal.",
+  "derived.water.two_weeks_gal": "plan_gal_day x 14, rounded up to 5 gal.",
+  "derived.water.stored_days": "gear.water.stored_gal / floor_gal_day, one decimal.",
+  "derived.calories.day": "Sum of per-member daily calories from the published USDA Dietary Guidelines estimated-needs table by age and sex at the moderately active level; pregnant +340 (2nd trimester figure) and nursing +450 printed as published.",
+  "derived.calories.two_weeks": "derived.calories.day x 14.",
+  "derived.station_fridge_days": "Rough days a power station bank runs a typical full-size fridge at 1.2 kWh/day: gear.station_wh_total x 0.85 / 1200, one decimal. Printed as an estimate.",
+  "derived.supply_clocks": "Not a value: a table built from the household meds rows (name, days on hand).",
+  "region.home.state_name": "State name (home base).",
+  "region.dest.state_name": "State name (inside #each destinations as x: x.region.state_name).",
+  "region.home.county": "County (home base).",
+  "region.dest.county": "County (inside #each destinations as x: x.region.county).",
+  "region.home.zone": "USDA hardiness zone (home base).",
+  "region.dest.zone": "USDA hardiness zone (inside #each destinations as x: x.region.zone).",
+  "region.home.last_frost": "Median last spring frost (date) (home base).",
+  "region.dest.last_frost": "Median last spring frost (date) (inside #each destinations as x: x.region.last_frost).",
+  "region.home.first_frost": "Median first fall frost (date) (home base).",
+  "region.dest.first_frost": "Median first fall frost (date) (inside #each destinations as x: x.region.first_frost).",
+  "region.home.growing_days": "Median frost-free days (home base).",
+  "region.dest.growing_days": "Median frost-free days (inside #each destinations as x: x.region.growing_days).",
+  "region.home.jan_low_f": "January mean daily low, deg F (home base).",
+  "region.dest.jan_low_f": "January mean daily low, deg F (inside #each destinations as x: x.region.jan_low_f).",
+  "region.home.jul_high_f": "July mean daily high, deg F (home base).",
+  "region.dest.jul_high_f": "July mean daily high, deg F (inside #each destinations as x: x.region.jul_high_f).",
+  "region.home.record_low_f": "Record low, deg F (home base).",
+  "region.dest.record_low_f": "Record low, deg F (inside #each destinations as x: x.region.record_low_f).",
+  "region.home.record_high_f": "Record high, deg F (home base).",
+  "region.dest.record_high_f": "Record high, deg F (inside #each destinations as x: x.region.record_high_f).",
+  "region.home.precip_in": "Annual precipitation, inches (home base).",
+  "region.dest.precip_in": "Annual precipitation, inches (inside #each destinations as x: x.region.precip_in).",
+  "region.home.snow_in": "Annual snowfall, inches (home base).",
+  "region.dest.snow_in": "Annual snowfall, inches (inside #each destinations as x: x.region.snow_in).",
+  "region.home.elevation_ft": "Approximate county seat elevation, ft (home base).",
+  "region.dest.elevation_ft": "Approximate county seat elevation, ft (inside #each destinations as x: x.region.elevation_ft).",
+  "region.home.ecoregion": "EPA Level III ecoregion name (home base).",
+  "region.dest.ecoregion": "EPA Level III ecoregion name (inside #each destinations as x: x.region.ecoregion).",
+  "region.home.nws_office": "NWS forecast office name (home base).",
+  "region.dest.nws_office": "NWS forecast office name (inside #each destinations as x: x.region.nws_office).",
+  "region.home.nwr": "Not a value: list of NOAA Weather Radio transmitters (call sign, frequency MHz, SAME code) (home base).",
+  "region.dest.nwr": "Not a value: list of NOAA Weather Radio transmitters (call sign, frequency MHz, SAME code) (inside #each destinations as x: x.region.nwr).",
+  "region.home.state_em": "State emergency management agency name (home base).",
+  "region.dest.state_em": "State emergency management agency name (inside #each destinations as x: x.region.state_em).",
+  "region.home.hazards": "Not a value: list of hazards with rating 1 to 3 (home base).",
+  "region.dest.hazards": "Not a value: list of hazards with rating 1 to 3 (inside #each destinations as x: x.region.hazards).",
+  "region.home.plants.deadly": "Not a value: list of plant keys for deadly plants and look-alikes (home base).",
+  "region.dest.plants.deadly": "Not a value: list of plant keys for deadly plants and look-alikes (inside #each destinations as x: x.region.plants.deadly).",
+  "region.home.plants.edible": "Not a value: list of plant keys for safe starter edibles (home base).",
+  "region.dest.plants.edible": "Not a value: list of plant keys for safe starter edibles (inside #each destinations as x: x.region.plants.edible).",
+  "region.home.trees.firewood": "Not a value: list of firewood tree keys (home base).",
+  "region.dest.trees.firewood": "Not a value: list of firewood tree keys (inside #each destinations as x: x.region.trees.firewood).",
+  "region.home.sun_hours_dec": "Mean peak sun hours in December (home base).",
+  "region.dest.sun_hours_dec": "Mean peak sun hours in December (inside #each destinations as x: x.region.sun_hours_dec).",
+  "region.home.sun_hours_jun": "Mean peak sun hours in June (home base).",
+  "region.dest.sun_hours_jun": "Mean peak sun hours in June (inside #each destinations as x: x.region.sun_hours_jun)."
+ },
+ "flags": {
+  "has.infant": "A member under 24 months.",
+  "has.toddler": "A member 12 to 47 months.",
+  "has.young_child": "A member under 6 years.",
+  "has.child": "Any member under 13.",
+  "has.teen": "A member 13 to 17.",
+  "has.elder": "A member over 70 or role elder.",
+  "has.pregnant": "A member pregnant.",
+  "has.nursing": "A member nursing.",
+  "has.pets": "Any pets.",
+  "has.dogs": "Dogs.",
+  "has.cats": "Cats.",
+  "has.livestock": "Any livestock.",
+  "has.chickens": "Chickens.",
+  "has.condition.CL-NN": "Any member has condition CL-NN (one flag per library id, e.g. has.condition.CL-01).",
+  "has.refrigerated_meds": "Any member medication marked refrigerated.",
+  "has.anaphylaxis": "Any allergy with severity anaphylaxis.",
+  "has.epinephrine": "Anyone carries epinephrine.",
+  "has.oxygen": "A member uses oxygen.",
+  "has.cpap": "A member uses CPAP.",
+  "has.mobility_aid": "A member uses a wheelchair or walker.",
+  "has.basement": "Any basement.",
+  "has.walkout": "Walkout basement.",
+  "has.shelter_room": "A windowless interior room named.",
+  "has.apartment": "Dwelling is an apartment.",
+  "has.mobile_home": "Dwelling is mobile/manufactured.",
+  "has.garage": "Attached garage.",
+  "has.well": "Private or shared well.",
+  "has.septic": "Septic.",
+  "has.municipal_water": "Municipal water.",
+  "has.natural_gas": "Natural gas service.",
+  "has.propane_service": "Propane tank service.",
+  "has.gas_any": "Natural gas or propane service.",
+  "has.water_heater_tank": "Tank water heater.",
+  "has.pool": "Pool (chlorine or saltwater).",
+  "has.saltwater_pool": "Saltwater pool.",
+  "has.hot_tub": "Hot tub.",
+  "has.fireplace": "Indoor fireplace.",
+  "has.wood_stove": "Wood stove (dwelling or gear).",
+  "has.outdoor_fire": "Outdoor fireplace or fire pit.",
+  "has.garden": "Any garden space beyond none.",
+  "has.yard": "Small yard or larger.",
+  "has.acreage": "Acreage.",
+  "has.generator": "Owns a generator.",
+  "has.inverter_generator": "Generator is an inverter type.",
+  "has.house_connection": "Generator connection is interlock, cord-and-plug or transfer switch.",
+  "has.power_station": "Owns at least one power station.",
+  "has.solar": "Owns solar panels.",
+  "has.propane_heater": "Portable propane heater.",
+  "has.kerosene_heater": "Wick kerosene heater.",
+  "has.diesel_heater": "Ducted diesel/kerosene heater.",
+  "has.unvented_heater": "Propane or kerosene portable heater.",
+  "has.firearms": "Firearms owned.",
+  "has.safe": "Gun safe.",
+  "has.ham": "HAM radio or licensed member.",
+  "has.gmrs": "FRS/GMRS radios.",
+  "has.noaa_radio": "NOAA weather radio.",
+  "has.satellite": "Satellite messenger or Starlink.",
+  "has.vehicle": "Any vehicle.",
+  "has.diesel_vehicle": "A diesel vehicle.",
+  "has.ev": "An EV.",
+  "has.4wd": "A four-wheel-drive vehicle.",
+  "has.trailer": "Any trailer.",
+  "has.destinations": "At least one destination.",
+  "has.agreed_destination": "A destination with status agreed.",
+  "has.canning": "Canning equipment.",
+  "has.pressure_canner": "Pressure canner.",
+  "is.urban": "Setting urban or suburban.",
+  "is.rural": "Setting rural or remote.",
+  "is.cold_winters": "Home January mean low below 20 F.",
+  "is.extreme_cold": "Home record low below -20 F.",
+  "is.hot_summers": "Home July mean high above 90 F.",
+  "is.high_altitude": "Home elevation above 5,000 ft.",
+  "is.tornado_region": "Home tornado rating 2 or 3.",
+  "is.hurricane_region": "Home hurricane rating 2 or 3.",
+  "is.wildfire_region": "Home wildfire rating 2 or 3.",
+  "is.earthquake_region": "Home earthquake rating 2 or 3.",
+  "is.flood_region": "Home flood rating 2 or 3.",
+  "is.snow_region": "Home annual snowfall over 20 in.",
+  "experience.new": "Experience = new.",
+  "experience.some": "Experience = some.",
+  "experience.experienced": "Experience = experienced.",
+  "size.large": "Download size is Large (sources inside)."
+ },
+ "lists": {
+  "members": {
+   "fields": [
+    "label",
+    "role",
+    "age_text",
+    "age_months",
+    "weight_text",
+    "sex",
+    "pregnant_or_nursing",
+    "conditions",
+    "allergies",
+    "meds",
+    "skills"
+   ],
+   "description": "Household members."
+  },
+  "meds": {
+   "fields": [
+    "member",
+    "name",
+    "strength",
+    "schedule",
+    "refrigerated",
+    "if_missed"
+   ],
+   "description": "All medication rows across members, as typed."
+  },
+  "allergies": {
+   "fields": [
+    "member",
+    "allergen",
+    "severity",
+    "carries_epinephrine"
+   ],
+   "description": "All allergy rows across members."
+  },
+  "pets": {
+   "fields": [
+    "type",
+    "count",
+    "medications",
+    "food_per_day"
+   ],
+   "description": "Pets."
+  },
+  "livestock": {
+   "fields": [
+    "type",
+    "count"
+   ],
+   "description": "Livestock."
+  },
+  "destinations": {
+   "fields": [
+    "name",
+    "state_name",
+    "county",
+    "status_text",
+    "who_is_there",
+    "how_to_reach_them",
+    "route_notes",
+    "approximate_miles",
+    "region"
+   ],
+   "description": "Destinations, each with its own region object."
+  },
+  "local_contacts": {
+   "fields": [
+    "name",
+    "relationship",
+    "phone",
+    "notes"
+   ],
+   "description": "Local contacts."
+  },
+  "heaters": {
+   "fields": [
+    "kind_text",
+    "model"
+   ],
+   "description": "Owned heaters."
+  },
+  "stations": {
+   "fields": [
+    "model",
+    "wh"
+   ],
+   "description": "Owned power stations."
+  },
+  "panels": {
+   "fields": [
+    "model",
+    "watts",
+    "count"
+   ],
+   "description": "Owned solar panels."
+  },
+  "vehicles": {
+   "fields": [
+    "type_text",
+    "fuel_text",
+    "four_wheel_drive",
+    "can_tow"
+   ],
+   "description": "Vehicles."
+  },
+  "region.home.hazards": {
+   "fields": [
+    "name",
+    "rating",
+    "rating_text"
+   ],
+   "description": "Home hazards."
+  },
+  "region.home.nwr": {
+   "fields": [
+    "call",
+    "freq",
+    "same"
+   ],
+   "description": "Home NOAA Weather Radio transmitters."
+  }
+ }
+}

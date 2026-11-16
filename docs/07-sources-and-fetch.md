@@ -45,8 +45,9 @@ reference (to be re-classified as restricted or open per document), 88 hosts blo
    behind the citing page. HTML sources are captured to a readable article view.
 4. Blocked or failed sources go on the "sources not captured" page with the kit's own summary
    paragraph for that source, so the binder is still complete in substance.
-5. The download screen shows the running size. Expect 200 to 400 MB with all sources; the page
-   offers "pages only now, sources later" so a phone on a slow connection gets the text first.
+5. This step runs only for the **Large** download (decision G11). **Small** skips it: citations
+   show title, publisher and date, and the page text stands on its own. The download screen shows
+   both sizes before fetching; Small can be upgraded to Large later from the saved profile file.
 
 Manual captures (the household binder has 88 blocked hosts, mostly manufacturer sites and
 paywalled standards) cannot be automated. The "not captured" page tells the household which
