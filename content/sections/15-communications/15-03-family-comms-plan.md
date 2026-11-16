@@ -2,7 +2,7 @@
 id: 15-03-family-comms-plan
 section: 15-communications
 title: "Family communications plan: contacts, rally points, relay and cards"
-version: 2
+version: 3
 revised: 2026-11-16
 layer: household
 danger_level: caution
@@ -21,7 +21,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "911 rule sourced to 47 CFR 9.10 (no-SIM claim dropped); FEMA out-of-town contact and text-first sourced." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "911 rule sourced to 47 CFR 9.10 (no-SIM claim dropped); FEMA out-of-town contact and text-first sourced. Wave 2 (R18): owner rule \"two missed check-ins = overdue\" made a household blank, matching 00-04." }
 ---
 
 # Family communications plan: contacts, rally points, relay and cards
@@ -170,7 +170,8 @@ and destinations (→ 15-08){{/if}} who cannot reach each other directly.
 
 **The schedule** (the same words everywhere it is printed: → 00-04, → 15-08, → 25-08):
 daily check-in with the relay at ______ (time and time zone); if missed, at ______ the next
-morning; **two missed check-ins in a row = overdue** (what happens then: → 15-08).
+morning; we treat someone as **overdue** after ______ missed check-ins in a row (what happens
+then: → 15-08).
 
 **On the relay's copy:** *"When anyone asks, pass on the latest WHO, STATUS, WHERE and NEXT
 CHECK-IN you have for the others."*
