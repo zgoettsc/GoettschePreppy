@@ -6,8 +6,12 @@ import { config } from './config.js';
 
 export async function checkAccessKey(accessKey, { signal } = {}) {
   let res;
+  let doFetch = fetch;
+  if (config.dryRun) {
+    try { doFetch = (await import(config.dryRunUrl)).dryRunFetch(); } catch { return { ok: false, reason: 'unreachable' }; }
+  }
   try {
-    res = await fetch(`${config.relayBase}/api/v1/check`, {
+    res = await doFetch(`${config.relayBase}/api/v1/check`, {
       method: 'POST',
       headers: { 'content-type': 'application/json' },
       body: JSON.stringify({ access_key: accessKey }),

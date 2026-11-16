@@ -8,7 +8,8 @@
 // What the settings page passes:
 //   profile     the validated profile (schema/profile.schema.json), access key included
 //   kit         the parsed app/build/kit.json, or null when it is not built yet
-//   relay       the relay base URL string from config.js ('' = same origin)
+//   relay       the relay base URL string from config.js ('' = same origin); with ?dryrun=1, a
+//               createDryRunRelay() object from app/lib/relay-dryrun.js instead
 //   size        'small' | 'large'
 //   onProgress  called with a number 0..1, or an object such as
 //               { fraction, done, total, stage, message } (any of these keys may be missing)
@@ -30,7 +31,12 @@ export function loadGenerator() {
 }
 
 export async function generateBinder(profile, kit, opts) {
-  const { generateBinder: fn } = await loadGenerator();
+  const { generateBinder: fn, stub } = await loadGenerator();
+  if (config.dryRun && !stub) {
+    // test mode: A3's fake relay, inside this tab; no network, filler text for AI blocks
+    const { createDryRunRelay } = await import(config.dryRunUrl);
+    opts = { ...opts, relay: createDryRunRelay({ accessKey: profile.access?.access_key }) };
+  }
   return fn(profile, kit, opts);
 }
 

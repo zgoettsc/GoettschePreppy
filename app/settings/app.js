@@ -177,6 +177,7 @@ function render() {
   if (app.step === FINAL) { renderFinal(); return; }
   main.append(
     h('h1', { id: 'step-title', tabindex: '-1' }, s.title),
+    config.dryRun ? h('p', { class: 'warn' }, 'Dry run (test mode): your key is checked by a stand-in and nothing is sent anywhere.') : null,
     noticeBlock(NOTICE.neverStored, { collapsedTail: app.step !== 0, cls: 'never-stored' }),
     toolbar(),
     h('p', { class: 'intro' }, s.intro),
@@ -344,6 +345,7 @@ function genPanel() {
   const g = app.gen;
   const box = h('section', { class: 'panel', id: 'gen-panel', 'aria-labelledby': 'gen-title' }, h('h2', { id: 'gen-title' }, '3. Make your binder'));
   if (g.stub) box.append(h('p', { class: 'warn' }, 'Test mode: the real binder generator is not installed on this site yet, so Generate makes a short placeholder file.'));
+  if (config.dryRun && !g.stub) box.append(h('p', { class: 'warn', id: 'dryrun-banner' }, 'Dry run (test mode): nothing is sent to the AI service. Pages the AI would write hold filler text, and source documents are stand-ins. Do not rely on this file.'));
   box.append(h('p', { class: 'muted' }, 'A full run takes about 10 to 20 minutes. Keep this tab open and your phone awake until it finishes.'));
   if (g.status === 'running') {
     const pct = Math.round(g.fraction * 100);
