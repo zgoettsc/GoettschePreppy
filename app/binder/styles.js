@@ -78,6 +78,7 @@ aside.cites a{color:var(--acc)}
 section.srcdoc{border:1px solid var(--rule);border-radius:11px;margin:26px 0;padding:10px 14px;background:var(--card);font-size:14.5px}
 section.srcdoc .srchead{font-size:13px;color:var(--dim)}
 section.srcdoc .srcbody{max-height:none}
+img.pdfpage{display:block;width:100%;height:auto;margin:8px 0;border-radius:4px;background:#fff}
 footer{color:var(--dim);font-size:12.5px;text-align:center;padding:18px}
 .sel{background:var(--card);color:var(--ink);border:1px solid var(--rule);border-radius:9px;padding:10px;font-size:16px;width:100%;min-height:44px}
 #savebar{display:none;position:sticky;bottom:0;background:var(--acc);color:#111;padding:10px 12px;text-align:center;font-size:14.5px;z-index:6}
@@ -100,6 +101,7 @@ body.app.athome article.page,body.app.athome section.srcdoc{display:none}
   a.xref{border:none;background:none;padding:0}
   details.sec{break-inside:avoid}
   figure,table,blockquote{break-inside:avoid}
+  img.pdfpage{break-before:page;break-inside:avoid;max-height:100vh;width:auto;max-width:100%;margin:0 auto;border-radius:0}
   .stamp{font-size:9pt}
 }
 `;

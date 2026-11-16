@@ -67,6 +67,19 @@ ${citedBy.length ? ' Cited by: ' + citedBy.map(id => `→ <a class="xref" href="
   const ct = doc.contentType || '';
   if (ct.includes('html')) return [head, htmlToReadable(new TextDecoder().decode(doc.bytes)), tail];
   if (ct.startsWith('text/')) return [head, textToReadable(new TextDecoder().decode(doc.bytes)), tail];
+  if (ct === 'application/pdf' && doc.rendered?.pages?.length) {
+    // rendered pages: readable and printable everywhere; the PDF itself is kept only when the
+    // document was too long to render in full
+    const r = doc.rendered;
+    const out = [head, `<p class="dim">${r.total} page${r.total === 1 ? '' : 's'}${r.truncated ? `; the first ${r.pages.length} are shown as pictures, the whole document is inside this file` : ''}.</p>`];
+    r.pages.forEach((pg, i) => out.push(`<img class="pdfpage" loading="lazy" alt="${esc(s.title || doc.key)}, page ${i + 1}" width="${pg.width}" height="${pg.height}" src="data:image/jpeg;base64,`, toBase64(pg.bytes), `">`));
+    if (r.truncated) {
+      const id = `pdf-${doc.key}`;
+      out.push(`<p><button type="button" class="jsonly" data-open-pdf="${esc(id)}" data-name="${esc(doc.key)}.pdf">Open the whole document</button></p>`, `<script type="application/pdf" id="${esc(id)}">`, toBase64(doc.bytes), `</script>`);
+    }
+    out.push(tail);
+    return out;
+  }
   if (ct === 'application/pdf') {
     const id = `pdf-${doc.key}`;
     return [head,

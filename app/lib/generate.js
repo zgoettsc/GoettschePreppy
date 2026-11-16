@@ -18,7 +18,10 @@
 //                to opts.assetBase (default './build/' from the settings page).
 //   previous     text of an earlier binder from the same profile: its ai blocks and review results
 //                are reused when unchanged (Small → Large upgrade without paying again)
-//   pdfToText    optional async (Uint8Array) → string, to show a bound PDF's text in print
+//   pdfRender    async (Uint8Array, {signal}) → {pages, total, truncated}; default: vendored pdf.js
+//                in the browser (pdf-render.js); false = keep PDFs as files with an open button
+//   pdfToText    optional async (Uint8Array) → string, used only when rendering is unavailable
+//   routeMaps    true = also topo maps for the counties between home and destinations (opt-in)
 //   now          Date for the build stamp (tests)
 //   modelReview  false to skip the model passes (local passes always run)
 
@@ -28,6 +31,7 @@ import { localChecks, checkAiText, modelReview, ownerTokenRegexes, URL_RE } from
 import { MODEL, messageText, createRelay } from './relay-client.js';
 import { sourceBlock, toBase64 } from './sources.js';
 import { mapTargets, fetchTopoMaps, mapPlan as mapPlanFor } from './maps.js';
+import { renderPdfPages, canRenderPdf } from './pdf-render.js';
 import { shellParts, jsonEmbed } from '../binder/shell.js';
 
 export const REVIEW_NOTES_ID = '25-11-review-notes';
@@ -403,7 +407,19 @@ export async function generateBinder(profile, kit, opts = {}) {
           else reason = r.status === 403 ? 'the publisher refused automated download' : `download failed (HTTP ${r.status})`;
         } else if (!doc && !reason) reason = 'no relay';
       } catch (e) { if (e.name === 'AbortError') throw e; reason = `download failed (${e.message})`; }
-      if (doc && doc.contentType === 'application/pdf' && opts.pdfToText) { try { doc.text = await opts.pdfToText(doc.bytes); } catch {} }
+      if (doc && doc.contentType === 'application/pdf') {
+        // render pages to images (vendored pdf.js, browser); on failure keep the PDF and a button
+        const renderer = opts.pdfRender === false ? null : (opts.pdfRender || (canRenderPdf() ? renderPdfPages : null));
+        if (renderer) {
+          try { doc.rendered = await renderer(doc.bytes, { signal }); }
+          catch (e) {
+            if (e.name === 'AbortError') throw e;
+            notes.push({ page: citedBy[0], pass: 'sources', severity: 'info', fixed: false, message: `"${src?.title || key}" is bound as a PDF file (open it from its page); it could not be turned into pictures (${e.message}).` });
+          }
+        }
+        if (!doc.rendered && opts.pdfToText) { try { doc.text = await opts.pdfToText(doc.bytes); } catch {} }
+        if (doc.rendered) report.sources.rendered = (report.sources.rendered || 0) + 1;
+      }
       if (doc) {
         const sec = citedBy[0].slice(0, 2);
         if (!srcParts.has(sec)) srcParts.set(sec, []);

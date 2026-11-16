@@ -201,7 +201,9 @@
   "has.adult_over_40": "A member aged 40 or over (FDA potassium iodide guidance differs over 40).",
   "has.food_allergy": "Any allergy row (any severity) for a food.",
   "has.diabetes": "Any member with CL-01, CL-02, CL-05 or CL-06.",
-  "is.humid": "Home July mean dew point high (humid continental, humid subtropical or coastal climate per region data)."
+  "is.humid": "Home July mean dew point high (humid continental, humid subtropical or coastal climate per region data).",
+  "has.preschool": "A member aged 3 to 5.",
+  "has.school_age": "A member aged 6 to 12."
  },
  "lists": {
   "members": {

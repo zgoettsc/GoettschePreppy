@@ -98,8 +98,9 @@ published. Where sex is not entered the binder uses the higher figure, so the st
 planned short.
 
 - **Pregnant:** the binder adds **340 calories a day** (the published second-trimester
-  figure). **Nursing:** it adds **450**. Both come from the same Guidelines and are printed as
-  published.
+  figure). **Nursing:** it adds **330** (the published figure for the first 6 months of
+  nursing; the Guidelines give 400 for months 7 to 12). Both come from the same Guidelines and
+  are printed as published.
 - **Babies under 12 months are not in the food total.** The Guidelines give no calorie figure
   for them: they live on breast milk or infant formula. Their plan is on → 02-13 and → 20-05.
   **Powdered or canned milk is not infant formula** (→ 04-14).
