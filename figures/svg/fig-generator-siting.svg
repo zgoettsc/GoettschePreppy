@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 418" width="360" height="418" color="#1b1b1b" font-family="Helvetica, Arial, sans-serif" font-size="13" class="gpfig fig-generator-siting" aria-label="Generator siting outdoors">
+<title>Generator siting outdoors</title>
+<text x="8" y="16" font-size="11.5" font-style="italic" fill="currentColor">Seen from above</text>
+<rect x="14" y="28" width="170" height="150" fill="currentColor" fill-opacity="0.05" stroke="currentColor" stroke-width="2"/><text x="99" y="108" text-anchor="middle" font-weight="bold" fill="currentColor">HOUSE</text>
+<line x1="184" y1="48" x2="184" y2="70" stroke="#1e6fc0" stroke-width="5" stroke-linecap="round"/><text x="178" y="63" font-size="10.5" text-anchor="end" fill="#1e6fc0">window</text>
+<line x1="184" y1="128" x2="184" y2="150" stroke="#1e6fc0" stroke-width="5" stroke-linecap="round"/><text x="178" y="143" font-size="10.5" text-anchor="end" fill="#1e6fc0">window</text>
+<line x1="120" y1="178" x2="146" y2="178" stroke="#1e6fc0" stroke-width="5" stroke-linecap="round"/><text x="133" y="170" font-size="10.5" text-anchor="middle" fill="#1e6fc0">door</text>
+<line x1="14" y1="60" x2="14" y2="74" stroke="#1e6fc0" stroke-width="5" stroke-linecap="round"/><text x="20" y="71" font-size="10.5" fill="#1e6fc0">vent</text>
+<rect x="14" y="178" width="92" height="78" fill="currentColor" fill-opacity="0.05" stroke="currentColor" stroke-width="2"/><line x1="30" y1="256" x2="90" y2="256" stroke="currentColor" stroke-width="4" stroke-linecap="round" opacity="0.15"/>
+<text x="60" y="194" font-size="11" text-anchor="middle" fill="currentColor">garage</text><text x="60" y="270" font-size="10" text-anchor="middle" fill="currentColor">door open</text>
+<rect x="36" y="212" width="46" height="26" rx="3" fill="#c62828" fill-opacity="0.1" stroke="#c62828" stroke-width="1.6"/><text x="59" y="229" font-size="11" text-anchor="middle" font-weight="bold" fill="#c62828">GEN</text><circle cx="45" cy="241" r="4" fill="none" stroke="#c62828" stroke-width="1.6"/><circle cx="73" cy="241" r="4" fill="none" stroke="#c62828" stroke-width="1.6"/><line x1="82" y1="218" x2="88" y2="218" stroke="#c62828" stroke-width="2.2" stroke-linecap="round"/><line x1="30" y1="204" x2="94" y2="248" stroke="#c62828" stroke-width="3.5" stroke-linecap="round"/><line x1="30" y1="248" x2="94" y2="204" stroke="#c62828" stroke-width="3.5" stroke-linecap="round"/>
+<rect x="184" y="34" width="46" height="60" fill="none" stroke="currentColor" stroke-width="1.4" stroke-dasharray="3 3"/><text x="207" y="30" font-size="10.5" text-anchor="middle" fill="currentColor">deck</text>
+<rect x="186" y="50" width="46" height="26" rx="3" fill="#c62828" fill-opacity="0.1" stroke="#c62828" stroke-width="1.6"/><text x="209" y="67" font-size="11" text-anchor="middle" font-weight="bold" fill="#c62828">GEN</text><circle cx="195" cy="79" r="4" fill="none" stroke="#c62828" stroke-width="1.6"/><circle cx="223" cy="79" r="4" fill="none" stroke="#c62828" stroke-width="1.6"/><line x1="232" y1="56" x2="238" y2="56" stroke="#c62828" stroke-width="2.2" stroke-linecap="round"/><line x1="186" y1="44" x2="230" y2="88" stroke="#c62828" stroke-width="3.5" stroke-linecap="round"/><line x1="186" y1="88" x2="230" y2="44" stroke="#c62828" stroke-width="3.5" stroke-linecap="round"/>
+<rect x="292" y="20" width="64" height="84" fill="currentColor" fill-opacity="0.05" stroke="currentColor" stroke-width="1.6"/><text x="324" y="64" font-size="10.5" text-anchor="middle" fill="currentColor">neigh-</text><text x="324" y="76" font-size="10.5" text-anchor="middle" fill="currentColor">bour</text>
+<rect x="228" y="206" width="64" height="48" rx="4" fill="#2e7d32" fill-opacity="0.08" stroke="#2e7d32" stroke-width="1.4"/>
+<rect x="236" y="214" width="46" height="26" rx="3" fill="#2e7d32" fill-opacity="0.1" stroke="#2e7d32" stroke-width="1.6"/><text x="259" y="231" font-size="11" text-anchor="middle" font-weight="bold" fill="#2e7d32">GEN</text><circle cx="245" cy="243" r="4" fill="none" stroke="#2e7d32" stroke-width="1.6"/><circle cx="273" cy="243" r="4" fill="none" stroke="#2e7d32" stroke-width="1.6"/><line x1="282" y1="220" x2="288" y2="220" stroke="#2e7d32" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="290" y1="220" x2="333.1" y2="256.2" stroke="#d97a00" stroke-width="2.4" stroke-linecap="round"/><path d="M340,262 L336.0,252.8 L330.2,259.7 Z" fill="#d97a00" stroke="none"/>
+<text x="276" y="278" font-size="10.5" fill="#d97a00">exhaust away</text>
+<text x="276" y="290" font-size="10.5" fill="#d97a00">from every house</text>
+<line x1="203" y1="172" x2="189.9" y2="156.6" stroke="#2e7d32" stroke-width="1.6" stroke-linecap="round"/><path d="M186,152 L187.6,158.5 L192.2,154.6 Z" fill="#2e7d32" stroke="none"/><line x1="203" y1="172" x2="222.5" y2="199.1" stroke="#2e7d32" stroke-width="1.6" stroke-linecap="round"/><path d="M226,204 L224.9,197.4 L220.1,200.9 Z" fill="#2e7d32" stroke="none"/>
+<text x="212" y="168" font-size="11.5" font-weight="bold" fill="#2e7d32">20 ft</text>
+<text x="212" y="181" font-size="11.5" font-weight="bold" fill="#2e7d32">or more</text>
+<path d="M10,299.6 L14.56,305 L22,293" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="30" y="304" font-size="12" fill="currentColor">20 ft or more from any window, door or vent</text>
+<path d="M10,316.6 L14.56,322 L22,310" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="30" y="321" font-size="12" fill="currentColor">Exhaust pointed away from every house</text>
+<path d="M10,333.6 L14.56,339 L22,327" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="30" y="338" font-size="12" fill="currentColor">Dry, level, solid ground; open to air</text>
+<line x1="10" y1="345" x2="21" y2="356" stroke="#c62828" stroke-width="3" stroke-linecap="round"/><line x1="10" y1="356" x2="21" y2="345" stroke="#c62828" stroke-width="3" stroke-linecap="round"/>
+<text x="30" y="355" font-size="12" fill="#c62828">Never in a garage (door open or not), a</text>
+<text x="30" y="372" font-size="12" fill="#c62828">basement or shed, or under a deck or overhang</text>
+<path d="M10,384.6 L14.56,390 L22,378" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="30" y="389" font-size="12" fill="currentColor">Battery CO alarms on inside, every level</text>
+<text x="354" y="412" font-size="10.5" text-anchor="end" fill="currentColor" opacity="0.75">Diagram, not to scale</text>
+</svg>

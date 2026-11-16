@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 510" width="360" height="510" color="#1b1b1b" font-family="Helvetica, Arial, sans-serif" font-size="13" class="gpfig fig-cal-hypo-two-step" aria-label="Pool shock two-step method">
+<title>Pool shock two-step method</title>
+<text x="8" y="18" font-weight="bold" fill="currentColor">1. MAKE THE STOCK</text>
+<path d="M60,40 l30,0 l-4,10 l-22,0 Z" fill="currentColor" fill-opacity="0.2" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><line x1="90" y1="44" x2="120" y2="38" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+<circle cx="70" cy="58" r="1.6" fill="currentColor" stroke="currentColor" stroke-width="1.6"/>
+<circle cx="76" cy="66" r="1.6" fill="currentColor" stroke="currentColor" stroke-width="1.6"/>
+<circle cx="68" cy="72" r="1.6" fill="currentColor" stroke="currentColor" stroke-width="1.6"/>
+<circle cx="80" cy="76" r="1.6" fill="currentColor" stroke="currentColor" stroke-width="1.6"/>
+<text x="130" y="44" font-size="11" font-weight="bold" fill="currentColor">1 heaping teaspoon</text>
+<text x="130" y="57" font-size="11" fill="currentColor">(about 1/4 oz) granules</text>
+<path d="M40,90 L48,190 L132,190 L140,90 Z" fill="#1e6fc0" fill-opacity="0.15" stroke="#1e6fc0" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="90" y="210" font-size="11" text-anchor="middle" font-weight="bold" fill="currentColor">2 gallons of water</text>
+<rect x="46" y="120" width="88" height="40" rx="3" fill="#c62828" fill-opacity="0.12" stroke="#c62828" stroke-width="1.6"/><text x="90" y="135" font-size="8" text-anchor="middle" font-weight="bold" fill="#c62828">CHLORINE STOCK</text>
+<text x="90" y="146" font-size="8" text-anchor="middle" font-weight="bold" fill="#c62828">DO NOT DRINK</text>
+<text x="160" y="100" font-size="10.5" fill="currentColor">Granules INTO water,</text>
+<text x="160" y="113" font-size="10.5" fill="currentColor">never water onto</text>
+<text x="160" y="126" font-size="10.5" fill="currentColor">granules. Plastic or</text>
+<text x="160" y="139" font-size="10.5" fill="currentColor">glass, never metal.</text>
+<text x="160" y="152" font-size="10.5" fill="currentColor">Fresh air, eye</text>
+<text x="160" y="165" font-size="10.5" fill="currentColor">protection. Mix fresh;</text>
+<text x="160" y="178" font-size="10.5" fill="currentColor">do not store it.</text>
+<line x1="4" y1="230" x2="356" y2="230" stroke="currentColor" stroke-width="0.8" stroke-linecap="round" opacity="0.4"/>
+<text x="8" y="252" font-weight="bold" fill="currentColor">2. TREAT THE WATER: 1 part stock to 100 parts</text>
+<path d="M30,272 L34,312 L62,312 L66,272 Z" fill="#c62828" fill-opacity="0.15" stroke="#c62828" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><text x="48" y="328" font-size="10.5" text-anchor="middle" font-weight="bold" fill="currentColor">1 pint</text>
+<line x1="72" y1="292" x2="102.0" y2="292.0" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M110,292 L102.0,288.0 L102.0,296.0 Z" fill="currentColor" stroke="none"/>
+<path d="M116,266 L124,344 L206,344 L214,266 Z" fill="#1e6fc0" fill-opacity="0.15" stroke="#1e6fc0" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><text x="165" y="360" font-size="10.5" text-anchor="middle" font-weight="bold" fill="currentColor">12.5 gallons</text>
+<text x="228" y="278" font-size="10.5" fill="currentColor">= 1.3 fl oz</text>
+<text x="228" y="291" font-size="10.5" fill="currentColor">(2½ Tbsp)</text>
+<text x="228" y="304" font-size="10.5" fill="currentColor">per gallon</text>
+<text x="228" y="317" font-size="10.5" fill="currentColor">= 6.4 oz per</text>
+<text x="228" y="330" font-size="10.5" fill="currentColor">5 gallons</text>
+<circle cx="30" cy="388" r="14" fill="none" stroke="currentColor" stroke-width="1.6"/><line x1="30" y1="388" x2="30" y2="378" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><line x1="30" y1="388" x2="38" y2="388" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+<text x="54" y="384.0" font-size="11" font-weight="bold" fill="currentColor">Stir, wait 30 minutes.</text>
+<text x="54" y="397.5" font-size="11" fill="currentColor">Slight chlorine smell = done. No smell: add</text>
+<text x="54" y="411.0" font-size="11" fill="currentColor">more and wait again.</text>
+<rect x="8" y="432" width="344" height="50" rx="5" fill="#d97a00" fill-opacity="0.08" stroke="#d97a00" stroke-width="1.6"/>
+<text x="16" y="450" font-size="10.5" font-weight="bold" fill="currentColor">LABEL: 65 to 73% calcium hypochlorite, with NO</text>
+<text x="16" y="463" font-size="10.5" font-weight="bold" fill="currentColor">algaecides, clarifiers or stabilizers.</text>
+<text x="16" y="476" font-size="10.5" fill="currentColor">Never dry granules in drinking water; never dosed like bleach drops.</text>
+<text x="354" y="504" font-size="10.5" text-anchor="end" fill="currentColor" opacity="0.75">Diagram, not to scale</text>
+</svg>

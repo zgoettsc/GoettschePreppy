@@ -12,6 +12,12 @@
    "source_key": "usda-ars-poisonous-plant-research-laboratory-water-h-ab9a68",
    "license": "Public domain: US Government work (USDA Agricultural Research Service).",
    "tier": 1
+  },
+  "wikimedia-commons": {
+   "org": "Wikimedia Commons (files tagged public domain or CC0 only)",
+   "source_key": null,
+   "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+   "tier": 2
   }
  },
  "plants": [
@@ -25,7 +31,7 @@
     "deadly"
    ],
    "risk": "lethal",
-   "note": "Every part, most of all the root, contains cicutoxin. A piece of root the size of a walnut can kill an adult. Violent seizures start 15 to 60 minutes after eating. Sap can be absorbed through skin. Where: Wet ground in every lower-48 state.",
+   "note": "Every part, most of all the root, contains cicutoxin. A 2 to 3 cm piece of root can kill an adult (CDC MMWR, 1994). Violent seizures start 15 to 60 minutes after eating. Sap can be absorbed through skin. Where: Wet ground in every lower-48 state.",
    "lookalikes": [
     "american-elderberry",
     "cow-parsnip",
@@ -239,6 +245,41 @@
    ]
   },
   {
+   "key": "meadow-death-camas",
+   "common": "Meadow death camas",
+   "scientific": "Toxicoscordion venenosum",
+   "symbol": "ZIVE",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "note": "All parts, most of all the bulb, contain zygacine. Vomiting, slow heart, low blood pressure, collapse; deaths recorded. Sheep die from it every year. Where: Prairies, meadows, sagebrush and grassland in the Plains and West.",
+   "lookalikes": [
+    "camas",
+    "field-garlic",
+    "meadow-garlic",
+    "nodding-onion",
+    "textile-onion"
+   ],
+   "plates": [
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/meadow-death-camas/death-camas-zygadenus-venenosus-2-17842490404.jpg",
+     "feature": "flower",
+     "shows": "The dense spike of small cream star-shaped flowers. No onion smell from any part."
+    },
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/meadow-death-camas/toxicoscordion-venenosum-craig-martin-01.jpg",
+     "feature": "whole",
+     "shows": "The whole plant: grass-like leaves from the base and a single spike of cream flowers."
+    }
+   ]
+  },
+  {
    "key": "nuttalls-death-camas",
    "common": "Nuttall's death camas",
    "scientific": "Toxicoscordion nuttallii",
@@ -304,6 +345,40 @@
      "file": "images/plates/mountain-death-camas/ziel2_005_lvd.jpg",
      "feature": "drawing",
      "shows": "Botanical line drawing: the bulb, the grass-like leaves and the flower spike together."
+    }
+   ]
+  },
+  {
+   "key": "fremonts-death-camas",
+   "common": "Fremont's death camas",
+   "scientific": "Toxicoscordion fremontii",
+   "symbol": "ZIFR",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "note": "Lethal; all parts, most of all the bulb. Where: Coastal hills and grassland of California and southern Oregon.",
+   "lookalikes": [
+    "field-garlic",
+    "meadow-garlic",
+    "nodding-onion",
+    "textile-onion"
+   ],
+   "plates": [
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/fremonts-death-camas/death-camus-zigadensis-fremontii-4-6-07-cerro-alto-slo-co-ca.jpg",
+     "feature": "flower",
+     "shows": "A branched cluster of cream star-shaped flowers, each petal with a green-yellow spot."
+    },
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/fremonts-death-camas/death-camus-zigadensis-fremontii-4-6-07-cerro-alto-slo-co-ca.jpg",
+     "feature": "flower",
+     "shows": "One flower close up: six cream petals with yellow-green glands at the base."
     }
    ]
   },
@@ -482,6 +557,37 @@
    ]
   },
   {
+   "key": "autumn-crocus",
+   "common": "Autumn crocus",
+   "scientific": "Colchicum autumnale",
+   "symbol": "COAU4",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "note": "All parts contain colchicine: delayed vomiting, then organ failure; deaths recorded after the leaves were mistaken for wild garlic. Where: Garden plant, sometimes escaped, mostly in the North and East.",
+   "lookalikes": [
+    "ramps"
+   ],
+   "plates": [
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/autumn-crocus/20210425colchicum-autumnale1.jpg",
+     "feature": "leaf",
+     "shows": "THE DANGEROUS STAGE: the broad glossy spring leaves in a clump, with no flower. They have no garlic or onion smell."
+    },
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/autumn-crocus/20200508colchicum-autumnale2.jpg",
+     "feature": "whole",
+     "shows": "Spring clumps of broad strap-shaped leaves in a meadow."
+    }
+   ]
+  },
+  {
    "key": "western-monkshood",
    "common": "Western monkshood",
    "scientific": "Aconitum columbianum",
@@ -507,6 +613,28 @@
      "file": "images/plates/western-monkshood/acco4_008_lvd.jpg",
      "feature": "drawing",
      "shows": "Botanical line drawing: the stem with hooded flowers and a deeply lobed leaf."
+    }
+   ]
+  },
+  {
+   "key": "tall-larkspur",
+   "common": "Tall larkspur",
+   "scientific": "Delphinium barbeyi",
+   "symbol": "DEBA2",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "note": "All parts are toxic; it is a leading cause of cattle deaths in the West. People: numbness, weakness, heart rhythm problems. Where: High mountain meadows of the central and southern Rockies.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/tall-larkspur/delphiniumbarbeyi.jpg",
+     "feature": "flower",
+     "shows": "A spike of dark blue-purple spurred flowers."
     }
    ]
   },
@@ -658,6 +786,28 @@
    ]
   },
   {
+   "key": "sacred-datura",
+   "common": "Sacred datura",
+   "scientific": "Datura wrightii",
+   "symbol": "DAWR2",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "note": "Same alkaloids as jimsonweed; poisoning is common in teenagers who take it on purpose. Where: Dry open ground and roadsides of the Southwest and California.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/sacred-datura/arch-datura.jpg",
+     "feature": "flower",
+     "shows": "A large white trumpet flower tinged with violet among soft grey-green leaves."
+    }
+   ]
+  },
+  {
    "key": "bittersweet-nightshade",
    "common": "Bittersweet nightshade",
    "scientific": "Solanum dulcamara",
@@ -753,6 +903,35 @@
    ]
   },
   {
+   "key": "tree-tobacco",
+   "common": "Tree tobacco",
+   "scientific": "Nicotiana glauca",
+   "symbol": "NIGL",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "note": "Leaves contain anabasine; deaths recorded in people who cooked the leaves as greens. Where: Disturbed ground in California, Arizona, Texas, Nevada and Hawaii.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/tree-tobacco/nicotiana-glauca-los-angeles-1.jpg",
+     "feature": "leaf",
+     "shows": "Smooth bluish-grey oval leaves on a stem."
+    },
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/tree-tobacco/nicotiana-glauca-los-angeles-2.jpg",
+     "feature": "whole",
+     "shows": "A thin, fast-growing plant sprouting from cracked pavement: typical of disturbed ground."
+    }
+   ]
+  },
+  {
    "key": "pokeweed",
    "common": "Pokeweed",
    "scientific": "Phytolacca americana",
@@ -817,6 +996,59 @@
    ]
   },
   {
+   "key": "manchineel",
+   "common": "Manchineel",
+   "scientific": "Hippomane mancinella",
+   "symbol": "HIMA2",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "note": "Fruit is extremely poisonous; milky sap blisters skin and can blind; standing under it in rain burns skin; smoke from burning it injures eyes. Where: Coastal south Florida and the Keys, Puerto Rico and the Virgin Islands.",
+   "lookalikes": [
+    "sea-grape"
+   ],
+   "plates": [
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/manchineel/hippomane-mancinella-454555201.jpg",
+     "feature": "whole",
+     "shows": "A spreading manchineel tree at the top of a beach. Do not stand under it in rain; do not burn it."
+    }
+   ]
+  },
+  {
+   "key": "tung-tree",
+   "common": "Tung tree",
+   "scientific": "Vernicia fordii",
+   "symbol": "VEFO",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "note": "Seeds and fruit cause severe vomiting and diarrhoea; one seed can poison a person. Where: Escaped in the Gulf Coast states: Florida, Georgia, Alabama, Mississippi, Louisiana, Texas.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/tung-tree/floraison-d-abrasins-fleurs-femelles-centre-de-recherches-sc.jpg",
+     "feature": "leaf",
+     "shows": "Black-and-white photograph: large heart-shaped leaves with a flower cluster."
+    },
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/tung-tree/abrasins-en-fleurs-plantation-contr-l-e-en-production-vo-an-.jpg",
+     "feature": "whole",
+     "shows": "Black-and-white photograph: tung trees in a grove."
+    }
+   ]
+  },
+  {
    "key": "snow-on-the-mountain",
    "common": "Snow on the mountain",
    "scientific": "Euphorbia marginata",
@@ -842,6 +1074,35 @@
      "file": "images/plates/snow-on-the-mountain/dima13_001_lvd.jpg",
      "feature": "drawing",
      "shows": "Botanical line drawing: the oval leaves, the white-margined upper leaves around the small flowers, and the seed capsule."
+    }
+   ]
+  },
+  {
+   "key": "leafy-spurge",
+   "common": "Leafy spurge",
+   "scientific": "Euphorbia esula",
+   "symbol": "EUES",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "contact",
+   "note": "Milky sap irritates skin and eyes; it can blind. Where: Rangelands, pastures and roadsides of the northern Plains and West.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/leafy-spurge/20150519euphorbia-esula2.jpg",
+     "feature": "flower",
+     "shows": "The yellow-green flower bracts in an umbrella-shaped cluster at the top of the stem. Milky sap inside."
+    },
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/leafy-spurge/20150519euphorbia-esula3.jpg",
+     "feature": "whole",
+     "shows": "Upright stems with narrow leaves topped by yellow-green bracts."
     }
    ]
   },
@@ -916,6 +1177,64 @@
      "file": "images/plates/physic-nut/jacu2_004_lhp.jpg",
      "feature": "whole",
      "shows": "A small spreading tree."
+    }
+   ]
+  },
+  {
+   "key": "ackee",
+   "common": "Ackee",
+   "scientific": "Blighia sapida",
+   "symbol": "BLSA2",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "note": "Unripe or improperly prepared fruit causes severe low blood sugar (Jamaican vomiting sickness), seizures and death. Where: South Florida, Puerto Rico and the Virgin Islands.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/ackee/akee.jpg",
+     "feature": "fruit",
+     "shows": "The red-orange fruit split open to show glossy black seeds on cream flesh. Unripe or wrongly prepared fruit is lethal."
+    },
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/ackee/blighia-sapida-fruit-and-spice-park-homestead-florida-dsc090.jpg",
+     "feature": "leaf",
+     "shows": "Leaves of paired leaflets; new growth coppery."
+    }
+   ]
+  },
+  {
+   "key": "oleander",
+   "common": "Oleander",
+   "scientific": "Nerium oleander",
+   "symbol": "NEOL",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "note": "Every part contains heart glycosides, including the smoke from burning it. One leaf can seriously poison a child. Never use the sticks as skewers. Where: Planted and escaped in the South, the Southwest, California and Hawaii.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/oleander/a-wadi-west-of-susa03.jpg",
+     "feature": "whole",
+     "shows": "Flowering oleander shrubs: clusters of pink flowers on dense evergreen bushes."
+    },
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/oleander/flowerbud.jpg",
+     "feature": "leaf",
+     "shows": "Long narrow leathery leaves around a red flower bud."
     }
    ]
   },
@@ -1212,6 +1531,41 @@
    ]
   },
   {
+   "key": "california-buckeye",
+   "common": "California buckeye",
+   "scientific": "Aesculus californica",
+   "symbol": "AECA",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "note": "Nuts look like chestnuts but are poisonous: severe vomiting, diarrhoea, weakness, paralysis in large amounts. Leaves, bark and young shoots are also poisonous. Native Californians leached the nuts for food; raw nuts are poisonous. Where: Foothills of California.",
+   "lookalikes": [
+    "allegheny-chinkapin",
+    "american-chestnut",
+    "bur-oak",
+    "northern-red-oak",
+    "white-oak"
+   ],
+   "plates": [
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/california-buckeye/aesculus-californica-berkeley-strawberry-creek.jpg",
+     "feature": "leaf",
+     "shows": "Hand-shaped leaves of five leaflets."
+    },
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/california-buckeye/aesculus-californica-berkeley.jpg",
+     "feature": "flower",
+     "shows": "A shrubby tree covered in long upright spikes of pale pink-white flowers."
+    }
+   ]
+  },
+  {
    "key": "horse-chestnut",
    "common": "Horse chestnut",
    "scientific": "Aesculus hippocastanum",
@@ -1243,6 +1597,64 @@
      "file": "images/plates/horse-chestnut/aehi_001_lvd.jpg",
      "feature": "drawing",
      "shows": "Botanical line drawing: the hand-shaped leaf of seven leaflets, the flower cluster, the spiky husk and the nut."
+    }
+   ]
+  },
+  {
+   "key": "white-snakeroot",
+   "common": "White snakeroot",
+   "scientific": "Ageratina altissima",
+   "symbol": "AGAL5",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "note": "Contains tremetol. Cows that graze it pass the poison into their milk: \"milk sickness\" killed thousands of settlers, including Abraham Lincoln's mother. Never drink milk from a cow that grazes woods where it grows. Where: Shady woods, woodland edges and creek bottoms of the East and Midwest.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/white-snakeroot/ageratina-altissima-urban-greening-botanical-garden-kiba-par.jpg",
+     "feature": "whole",
+     "shows": "A bushy plant about knee to waist high with paired, toothed, pointed leaves (garden planting with label)."
+    },
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/white-snakeroot/ageratina-altissima-2-white-snakeroot-howard-county-md-helen.jpg",
+     "feature": "flower",
+     "shows": "Small fuzzy bright-white flower heads in a flat cluster."
+    }
+   ]
+  },
+  {
+   "key": "rayless-goldenrod",
+   "common": "Rayless goldenrod",
+   "scientific": "Isocoma pluriflora",
+   "symbol": "ISPL",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "note": "Contains tremetol like white snakeroot; poisons livestock and causes milk sickness in people drinking their milk. Where: Dry rangeland, washes and riverbanks of west Texas, New Mexico and Arizona.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/rayless-goldenrod/isocoma-pluriflora-28374888.jpg",
+     "feature": "whole",
+     "shows": "A low rounded shrub covered in flat-topped clusters of yellow flower heads."
+    },
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/rayless-goldenrod/isocoma-pluriflora-304911866.jpg",
+     "feature": "flower",
+     "shows": "Yellow flower heads with no outer petals above narrow leaves."
     }
    ]
   },
@@ -1289,6 +1701,35 @@
      "file": "images/plates/common-groundsel/sevu_001_lvd.jpg",
      "feature": "drawing",
      "shows": "Botanical line drawing: the lobed leaves, the small rayless flower heads with dark-tipped bracts, and a seed with its fluff."
+    }
+   ]
+  },
+  {
+   "key": "threadleaf-groundsel",
+   "common": "Threadleaf groundsel",
+   "scientific": "Senecio flaccidus",
+   "symbol": "SEFL3",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "note": "Pyrrolizidine alkaloids damage the liver; poisons livestock. Where: Dry rangeland of the Southwest and southern Plains.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/threadleaf-groundsel/senecio-flaccidus-flickr-aspidoscelis-1.jpg",
+     "feature": "flower",
+     "shows": "Yellow daisy flowers."
+    },
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/threadleaf-groundsel/senecio-flaccidus-flickr-aspidoscelis-4.jpg",
+     "feature": "leaf",
+     "shows": "Woolly white leaves divided into thread-like segments."
     }
    ]
   },
@@ -1480,6 +1921,28 @@
      "file": "images/plates/kentucky-coffeetree/gydi_001_lvd.jpg",
      "feature": "drawing",
      "shows": "Botanical line drawing: leaflets of the very large divided leaf, the flower cluster and the broad pod."
+    }
+   ]
+  },
+  {
+   "key": "silky-lupine",
+   "common": "Silky lupine",
+   "scientific": "Lupinus sericeus",
+   "symbol": "LUSE4",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "note": "Seeds and pods contain toxic alkaloids; poisons livestock and causes \"crooked calf\" birth defects; people harmed eating bitter lupine seeds. Where: Dry slopes and sagebrush of the Rocky Mountain and Great Basin states.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/silky-lupine/dyk-lupinus-sericeus.jpg",
+     "feature": "flower",
+     "shows": "A spike of blue-purple pea flowers above hand-shaped leaves (lupine)."
     }
    ]
   },
@@ -1689,6 +2152,35 @@
    ]
   },
   {
+   "key": "pacific-rhododendron",
+   "common": "Pacific rhododendron",
+   "scientific": "Rhododendron macrophyllum",
+   "symbol": "RHMA3",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "note": "Leaves and nectar contain grayanotoxins: burning mouth, vomiting, very slow heart, low blood pressure. Honey from these flowers (\"mad honey\") poisons people. Where: Coastal and Cascade forests of Washington, Oregon and northern California.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/pacific-rhododendron/redw-rhododendron-20061030191827.jpg",
+     "feature": "whole",
+     "shows": "Flowering shrub in conifer forest: large leathery leaves and pink-purple flower clusters."
+    },
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/pacific-rhododendron/blm-botany-10-6871303703.jpg",
+     "feature": "flower",
+     "shows": "A flower cluster above the large leathery leaves."
+    }
+   ]
+  },
+  {
    "key": "japanese-pieris",
    "common": "Japanese pieris",
    "scientific": "Pieris japonica",
@@ -1780,6 +2272,35 @@
    ]
   },
   {
+   "key": "oriental-bittersweet",
+   "common": "Oriental bittersweet",
+   "scientific": "Celastrus orbiculatus",
+   "symbol": "CEOR7",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "note": "Berries cause vomiting and diarrhoea. Where: Forest edges and fence rows of the East and Midwest.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/oriental-bittersweet/bittersweet-2021-12-01-bethel-park-01.jpg",
+     "feature": "fruit",
+     "shows": "Yellow capsules split open to show the bright orange-red berries."
+    },
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/oriental-bittersweet/celastrus-orbiculatus-flickr-aspidoscelis-2.jpg",
+     "feature": "leaf",
+     "shows": "Round, finely toothed leaves."
+    }
+   ]
+  },
+  {
    "key": "red-elderberry",
    "common": "Red elderberry",
    "scientific": "Sambucus racemosa",
@@ -1800,6 +2321,28 @@
      "file": "images/plates/red-elderberry/sara2_001_lvd.jpg",
      "feature": "drawing",
      "shows": "Botanical line drawing: the leaf of toothed leaflets, the dome-shaped flower cluster and a berry."
+    }
+   ]
+  },
+  {
+   "key": "common-snowberry",
+   "common": "Common snowberry",
+   "scientific": "Symphoricarpos albus",
+   "symbol": "SYAL",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "note": "Berries cause vomiting, dizziness and drowsiness in children. Where: Woods and slopes of the North and West; planted elsewhere.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/common-snowberry/20150617symphoricarpos-albus1.jpg",
+     "feature": "flower",
+     "shows": "Paired oval leaves with small pink bell flowers and young berries (they turn pure white)."
     }
    ]
   },
@@ -1963,6 +2506,35 @@
      "file": "images/plates/carolina-jessamine/gese_001_lvd.jpg",
      "feature": "drawing",
      "shows": "Botanical line drawing: the paired lance-shaped leaves, the trumpet flowers and the seed capsule."
+    }
+   ]
+  },
+  {
+   "key": "sago-palm",
+   "common": "Sago palm",
+   "scientific": "Cycas revoluta",
+   "symbol": "CYRE11",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "note": "Seeds and all parts cause liver failure; very dangerous to dogs and children. Where: Planted in yards in the South, Southwest and Hawaii.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/sago-palm/cycas-revoluta-ouidah.jpg",
+     "feature": "whole",
+     "shows": "A low stiff palm-like plant: dark glossy feather-shaped leaves from a thick central trunk."
+    },
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/sago-palm/cycas-revoluta-1.jpg",
+     "feature": "leaf",
+     "shows": "The stiff, glossy, feather-shaped leaves from above."
     }
    ]
   },
@@ -2276,6 +2848,35 @@
    ]
   },
   {
+   "key": "western-skunk-cabbage",
+   "common": "Western skunk cabbage",
+   "scientific": "Lysichiton americanus",
+   "symbol": "LYAM3",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "note": "Raw plant contains oxalate crystals: burning mouth and throat. Where: Swamps of the Pacific coast states, Idaho, Montana and Alaska.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/western-skunk-cabbage/sitka-skunk-cabbage.jpg",
+     "feature": "whole",
+     "shows": "A large patch of very big, glossy, paddle-shaped leaves in a wet forest."
+    },
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/western-skunk-cabbage/close-up-of-a-skunk-cabbage-lysichiton-kamtschatcense-just-u.jpg",
+     "feature": "flower",
+     "shows": "The yellow hood around a club, rising from swamp water in early spring (colour shifted in this old slide)."
+    }
+   ]
+  },
+  {
    "key": "arrow-arum",
    "common": "Arrow arum",
    "scientific": "Peltandra virginica",
@@ -2482,6 +3083,80 @@
    ]
   },
   {
+   "key": "western-poison-ivy",
+   "common": "Western poison ivy",
+   "scientific": "Toxicodendron rydbergii",
+   "symbol": "TORY",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "contact",
+   "note": "Urushiol oil causes a blistering rash 12 to 72 hours after contact. The oil stays active on clothes, tools and animal fur. NEVER BURN IT: the smoke carries the oil into the lungs and can cause life-threatening breathing problems. Where: Woods, river breaks, and rocky slopes of the North, Plains and West.",
+   "lookalikes": [
+    "fragrant-sumac"
+   ],
+   "plates": [
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/western-poison-ivy/toxicodendron-rydbergii-uga1208036.jpg",
+     "feature": "leaf",
+     "shows": "Three glossy leaflets per leaf, the middle one on a longer stalk; small green berry clusters."
+    },
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/western-poison-ivy/toxicodendron-rydbergii-uga1208035.jpg",
+     "feature": "whole",
+     "shows": "Low upright shrubby stems (not a vine), each topped with three-leaflet leaves."
+    },
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/western-poison-ivy/plants-ob-26-38880846341.jpg",
+     "feature": "whole",
+     "shows": "A patch of low three-leaflet plants on the forest floor."
+    }
+   ]
+  },
+  {
+   "key": "pacific-poison-oak",
+   "common": "Pacific poison oak",
+   "scientific": "Toxicodendron diversilobum",
+   "symbol": "TODI",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "contact",
+   "note": "Urushiol oil causes a blistering rash 12 to 72 hours after contact. The oil stays active on clothes, tools and animal fur. NEVER BURN IT: the smoke carries the oil into the lungs and can cause life-threatening breathing problems. Where: Woods and chaparral of California, Oregon and Washington.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/pacific-poison-oak/poison-oak-toxicodendron-diversilobum-4-5-08-canet-1-2391067.jpg",
+     "feature": "leaf",
+     "shows": "THREE leaflets with rounded oak-like lobes, glossy and turning red."
+    },
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/pacific-poison-oak/poison-oak-on-the-rogue-river-34837500952.jpg",
+     "feature": "leaf",
+     "shows": "A green shrubby branch with three-leaflet leaves in summer."
+    },
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/pacific-poison-oak/poison-oak-toxicodendron-diversilobum-3-16-07-san-luis-obisp.jpg",
+     "feature": "whole",
+     "shows": "A young red shoot with three-leaflet leaves coming up from rocky ground."
+    }
+   ]
+  },
+  {
    "key": "atlantic-poison-oak",
    "common": "Atlantic poison oak",
    "scientific": "Toxicodendron pubescens",
@@ -2579,6 +3254,28 @@
    ]
   },
   {
+   "key": "brazilian-pepper",
+   "common": "Brazilian peppertree",
+   "scientific": "Schinus terebinthifolia",
+   "symbol": "SCTE",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "contact",
+   "note": "Related to poison ivy: sap causes rash; berries and smoke irritate. Where: Invasive in Florida, south Texas, California and Hawaii.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/brazilian-pepper/p-ssaro-sabi-laranjeira.jpg",
+     "feature": "fruit",
+     "shows": "Clusters of small red berries among leaves of several leaflets."
+    }
+   ]
+  },
+  {
    "key": "indian-tobacco",
    "common": "Indian tobacco",
    "scientific": "Lobelia inflata",
@@ -2597,6 +3294,59 @@
      "file": "images/plates/indian-tobacco/loin_001_lvd.jpg",
      "feature": "drawing",
      "shows": "Botanical line drawing: the hairy leafy stem, the small two-lipped flowers along it, and the inflated seed pods."
+    }
+   ]
+  },
+  {
+   "key": "crown-flower",
+   "common": "Crown flower",
+   "scientific": "Calotropis gigantea",
+   "symbol": "CAGI11",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "note": "Milky sap and plant contain heart glycosides; sap injures eyes. Where: Planted in Hawaii, south Florida and Puerto Rico.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/crown-flower/c-gigantea.jpg",
+     "feature": "flower",
+     "shows": "Waxy crown-shaped white flowers above thick grey-green oval leaves."
+    }
+   ]
+  },
+  {
+   "key": "dandelion",
+   "common": "Dandelion",
+   "scientific": "Taraxacum officinale",
+   "symbol": "TAOF",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "note": "Young leaves raw or cooked (bitter later in the season); flowers; roasted roots. Where: Lawns, roadsides and fields in every state.",
+   "lookalikes": [
+    "common-groundsel"
+   ],
+   "plates": [
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/dandelion/dandelion-flower-02.jpg",
+     "feature": "whole",
+     "shows": "Ground rosettes of deeply toothed leaves with one yellow flower head per stalk."
+    },
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/dandelion/dandelion-flower-01.jpg",
+     "feature": "flower",
+     "shows": "A dense patch of dandelions in flower."
     }
    ]
   },
@@ -3237,6 +3987,35 @@
    ]
   },
   {
+   "key": "miners-lettuce",
+   "common": "Miner's lettuce",
+   "scientific": "Claytonia perfoliata",
+   "symbol": "CLPE",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "note": "Leaves and stems raw or cooked. Where: Shady woods and slopes of the Pacific states and the interior West.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/miners-lettuce/claytonia-perfoliata-130185834.jpg",
+     "feature": "leaf",
+     "shows": "THE FEATURE: the round disc-shaped leaf wrapped around the stem, with small white flowers rising from its centre."
+    },
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/miners-lettuce/claytonia-perfoliata-miner-s-lettuce.jpg",
+     "feature": "whole",
+     "shows": "A clump of plants with round disc leaves growing among rocks."
+    }
+   ]
+  },
+  {
    "key": "spring-beauty",
    "common": "Spring beauty",
    "scientific": "Claytonia virginica",
@@ -3543,6 +4322,57 @@
      "file": "images/plates/broadleaf-arrowhead/sala2_001_lvd.jpg",
      "feature": "drawing",
      "shows": "Botanical line drawing: the arrowhead leaf with veins fanning from the base, the flowers in whorls of three, and the seed heads."
+    }
+   ]
+  },
+  {
+   "key": "wild-rice",
+   "common": "Northern wild rice",
+   "scientific": "Zizania palustris",
+   "symbol": "ZIPA3",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "note": "Grain, parched or cooked. Beware ergot (black hard bodies replacing grains); discard any. Where: Lakes and rivers of Minnesota, Wisconsin, Michigan and nearby.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/wild-rice/manoomin-picking-1905-minnesota.jpg",
+     "feature": "whole",
+     "shows": "Black-and-white photograph: harvesting wild rice from canoes in a stand of tall grass in shallow water."
+    },
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/wild-rice/wild-rice-harvest-on-mud-lake-cass-county-minnesota-septembe.jpg",
+     "feature": "whole",
+     "shows": "A dense stand of ripe wild rice in a shallow lake, with a harvester poling through it."
+    }
+   ]
+  },
+  {
+   "key": "glasswort",
+   "common": "Glasswort",
+   "scientific": "Salicornia depressa",
+   "symbol": "SADE10",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "note": "Young tips raw or cooked; very salty. Where: Salt marshes of the coasts and salty inland flats.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/glasswort/salicornia-depressa-wfny-049b.jpg",
+     "feature": "whole",
+     "shows": "The whole plant: succulent jointed green stems with no visible leaves."
     }
    ]
   },
@@ -3953,6 +4783,64 @@
    ]
   },
   {
+   "key": "salmonberry",
+   "common": "Salmonberry",
+   "scientific": "Rubus spectabilis",
+   "symbol": "RUSP",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "note": "Berries raw; young peeled shoots. Where: Moist forests of the Pacific coast and Alaska.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/salmonberry/bowl-of-salmonberries.jpg",
+     "feature": "fruit",
+     "shows": "Ripe salmonberries in a bowl: orange to red raspberry-like berries."
+    },
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/salmonberry/rubus-spectabilis-beacon-food-forest-seattle-usa-april-2022.jpg",
+     "feature": "flower",
+     "shows": "Magenta flowers and three-leaflet toothed leaves on a prickly stem."
+    }
+   ]
+  },
+  {
+   "key": "wineberry",
+   "common": "Wineberry",
+   "scientific": "Rubus phoenicolasius",
+   "symbol": "RUPH",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "note": "Berries raw. Invasive: pick freely. Where: Woods edges of the Northeast and mid-Atlantic.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/wineberry/rubus-phoenicolasius-at-game-farm-park-in-auburn-washington.jpg",
+     "feature": "fruit",
+     "shows": "Bright red glossy berries among leaves of three leaflets."
+    },
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/wineberry/japanische-weinbeere-ast.jpg",
+     "feature": "stem",
+     "shows": "The cane: densely covered in red bristly hairs."
+    }
+   ]
+  },
+  {
    "key": "red-mulberry",
    "common": "Red mulberry",
    "scientific": "Morus rubra",
@@ -4213,6 +5101,28 @@
      "file": "images/plates/saskatoon/amal2_001_lvd.jpg",
      "feature": "drawing",
      "shows": "Botanical line drawing: the round leaves toothed near the tip, the star flowers and the small apple-like berry."
+    }
+   ]
+  },
+  {
+   "key": "downy-serviceberry",
+   "common": "Downy serviceberry",
+   "scientific": "Amelanchier arborea",
+   "symbol": "AMAR3",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "note": "Berries raw or cooked. Where: Woods of the East and Midwest.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/downy-serviceberry/amelanchier-arborea-2.jpg",
+     "feature": "leaf",
+     "shows": "Oval, finely toothed pointed leaves on a twig."
     }
    ]
   },
@@ -4586,6 +5496,28 @@
    ]
   },
   {
+   "key": "prairie-rose",
+   "common": "Prairie rose",
+   "scientific": "Rosa arkansana",
+   "symbol": "ROAR3",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "note": "Hips and petals as for woods' rose. Where: Prairies of the Great Plains and Midwest.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/prairie-rose/prairie-rose-14705298016.jpg",
+     "feature": "flower",
+     "shows": "Pink five-petalled wild rose flowers with yellow centres."
+    }
+   ]
+  },
+  {
    "key": "multiflora-rose",
    "common": "Multiflora rose",
    "scientific": "Rosa multiflora",
@@ -4797,6 +5729,57 @@
    ]
   },
   {
+   "key": "golden-currant",
+   "common": "Golden currant",
+   "scientific": "Ribes aureum",
+   "symbol": "RIAU",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "note": "Berries raw or cooked. Where: Stream banks and coulees of the West and Plains.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/golden-currant/beerenbusch.jpg",
+     "feature": "flower",
+     "shows": "Yellow tube flowers and small three-lobed leaves."
+    },
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/golden-currant/ribes-aureum-botanischer-garten-frankfurt-am-main-dsc02565.jpg",
+     "feature": "whole",
+     "shows": "A thornless spreading shrub."
+    }
+   ]
+  },
+  {
+   "key": "salal",
+   "common": "Salal",
+   "scientific": "Gaultheria shallon",
+   "symbol": "GASH",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "note": "Berries raw or cooked. Where: Coastal forests of the Pacific Northwest.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/salal/fmib-47384-salal-formation-along-the-forest-edge.jpg",
+     "feature": "whole",
+     "shows": "Old book plate: a dense salal thicket at a forest edge."
+    }
+   ]
+  },
+  {
    "key": "maypop",
    "common": "Maypop",
    "scientific": "Passiflora incarnata",
@@ -4851,6 +5834,64 @@
      "file": "images/plates/eastern-prickly-pear/ophu_001_lvd.jpg",
      "feature": "drawing",
      "shows": "Botanical line drawing: the flat spiny pad, the flower and the fruit."
+    }
+   ]
+  },
+  {
+   "key": "plains-prickly-pear",
+   "common": "Plains prickly pear",
+   "scientific": "Opuntia macrorhiza",
+   "symbol": "OPMA2",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "caution",
+   "note": "Young pads and ripe fruit after removing spines and bristles. Where: Prairies and rocky ground of the Plains and Southwest.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/plains-prickly-pear/opuntia-macrorhiza-flickr-aspidoscelis.jpg",
+     "feature": "whole",
+     "shows": "A low spiny cactus of flat pads with a red-centred flower."
+    },
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/plains-prickly-pear/opuntia-macrorhiza-flickr-aspidoscelis-2.jpg",
+     "feature": "stem",
+     "shows": "Flat pads with long spines and tufts of tiny barbed bristles."
+    }
+   ]
+  },
+  {
+   "key": "engelmann-prickly-pear",
+   "common": "Engelmann prickly pear",
+   "scientific": "Opuntia engelmannii",
+   "symbol": "OPEN3",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "caution",
+   "note": "Young pads and ripe fruit after removing spines and bristles. Where: Deserts and grasslands of the Southwest and Texas.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/engelmann-prickly-pear/figuier-de-barbarie-detail-espagne.jpg",
+     "feature": "fruit",
+     "shows": "Big round pads with spines and red-purple fruits along the edges."
+    },
+    {
+     "collection": "wikimedia-commons",
+     "imageId": null,
+     "file": "images/plates/engelmann-prickly-pear/big-bend-national-park-pb122645.jpg",
+     "feature": "flower",
+     "shows": "A yellow cactus flower on a spiny pad."
     }
    ]
   },
@@ -5556,7 +6597,7 @@
     "firewood"
    ],
    "risk": "starter",
-   "note": "Sap in late winter, boiled down to syrup (40 parts sap to 1 of syrup); drink fresh sap. Where: Woods of the Northeast and Midwest.",
+   "note": "Sap in late winter, drunk fresh or boiled down to syrup (it takes many gallons of sap for one of syrup). Where: Woods of the Northeast and Midwest.",
    "lookalikes": [],
    "plates": [
     {

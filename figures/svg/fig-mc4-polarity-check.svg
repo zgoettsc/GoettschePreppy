@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 352" width="360" height="352" color="#1b1b1b" font-family="Helvetica, Arial, sans-serif" font-size="13" class="gpfig fig-mc4-polarity-check" aria-label="Checking panel polarity with a multimeter">
+<title>Checking panel polarity with a multimeter</title>
+<rect x="8" y="10" width="70" height="40" rx="3" fill="currentColor" fill-opacity="0.07" stroke="currentColor" stroke-width="1.6"/><text x="43" y="34" font-size="11" text-anchor="middle" fill="currentColor">panel</text>
+<path d="M30,50 C30,80 60,82 120,82" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/><path d="M120,73 L166,73 L174,78 L174,86 L166,91 L120,91 Z" fill="#c62828" fill-opacity="0.12" stroke="#c62828" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><text x="144" y="87" font-size="15" text-anchor="middle" font-weight="bold" fill="#c62828">+</text>
+<path d="M56,50 C56,66 80,124 120,128" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/><path d="M120,119 L166,119 L174,124 L174,132 L166,137 L120,137 Z" fill="currentColor" fill-opacity="0.12" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><text x="144" y="133" font-size="15" text-anchor="middle" font-weight="bold" fill="currentColor">−</text>
+<text x="184" y="74" font-size="10.5" font-weight="bold" fill="#c62828">+ lead</text>
+<text x="184" y="86" font-size="10.5" fill="#c62828">(as marked on the</text>
+<text x="184" y="98" font-size="10.5" fill="#c62828">panel label or cable)</text>
+<text x="184" y="134" font-size="10.5" font-weight="bold" fill="currentColor">− lead</text>
+<rect x="222" y="150" width="110" height="150" rx="10" fill="currentColor" fill-opacity="0.06" stroke="currentColor" stroke-width="1.8"/>
+<rect x="234" y="162" width="86" height="36" rx="3" fill="none" stroke="currentColor" stroke-width="1.4"/>
+<text x="277" y="188" font-size="20" text-anchor="middle" font-weight="bold" fill="currentColor">61.3</text>
+<text x="277" y="216" font-size="10.5" text-anchor="middle" fill="currentColor">DC volts (V ⎓)</text>
+<circle cx="277" cy="242" r="16" fill="none" stroke="currentColor" stroke-width="1.4"/><line x1="277" y1="242" x2="288" y2="231" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<circle cx="252" cy="282" r="5" fill="currentColor" fill-opacity="0.8" stroke="currentColor" stroke-width="1.2"/><text x="252" y="272" font-size="9" text-anchor="middle" fill="currentColor">COM</text>
+<circle cx="302" cy="282" r="5" fill="#c62828" fill-opacity="0.8" stroke="#c62828" stroke-width="1.2"/><text x="302" y="272" font-size="9" text-anchor="middle" fill="#c62828">V</text>
+<path d="M302,287 C302,320 196,180 178,82" fill="none" stroke="#c62828" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/><circle cx="176" cy="82" r="3" fill="#c62828" stroke="#c62828" stroke-width="1.6"/>
+<path d="M252,287 C252,310 190,170 178,128" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/><circle cx="176" cy="128" r="3" fill="currentColor" stroke="currentColor" stroke-width="1.6"/>
+<path d="M14,175.7 L19.32,182 L28,168" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><text x="34" y="180" font-size="12" font-weight="bold" fill="#2e7d32">No minus sign:</text>
+<text x="34" y="195" font-size="12" fill="#2e7d32">polarity correct.</text>
+<rect x="14" y="222" width="98" height="34" rx="3" fill="none" stroke="#c62828" stroke-width="1.6"/><text x="63" y="246" font-size="19" text-anchor="middle" font-weight="bold" fill="#c62828">−61.3</text>
+<text x="14" y="274" font-size="12" font-weight="bold" fill="#c62828">Minus sign: a connector</text>
+<text x="14" y="289" font-size="12" font-weight="bold" fill="#c62828">is reversed. Swap it</text>
+<text x="14" y="304" font-size="12" font-weight="bold" fill="#c62828">before plugging in.</text>
+<text x="8" y="334" font-size="11" font-style="italic" fill="currentColor">Numbers are an example: read your own string.</text>
+<text x="354" y="346" font-size="10.5" text-anchor="end" fill="currentColor" opacity="0.75">Diagram, not to scale</text>
+</svg>

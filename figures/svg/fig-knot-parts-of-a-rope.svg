@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 246" width="360" height="246" color="#1b1b1b" font-family="Helvetica, Arial, sans-serif" font-size="13" class="gpfig fig-knot-parts-of-a-rope" aria-label="Parts of a rope">
+<title>Parts of a rope</title>
+<path d="M10,60 C80,60 160,40 230,52 S320,64 336,60" fill="none" stroke="currentColor" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" opacity="0.35"/><path d="M10,60 C80,60 160,40 230,52 S320,64 336,60" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="80" y="36" text-anchor="middle" font-weight="bold" fill="currentColor">standing part</text><text x="10" y="92" font-size="11" fill="currentColor">(the long part, to the load)</text>
+<text x="300" y="36" text-anchor="middle" font-weight="bold" fill="currentColor">working end</text><text x="300" y="92" font-size="11" text-anchor="middle" fill="currentColor">(the end you move)</text>
+<line x1="250" y1="70" x2="250" y2="80" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-dasharray="2 2"/>
+<path d="M20,130 L120,130 C160,130 160,180 120,180 L20,180" fill="none" stroke="currentColor" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" opacity="0.35"/><path d="M20,130 L120,130 C160,130 160,180 120,180 L20,180" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="70" y="210" text-anchor="middle" font-weight="bold" fill="currentColor">BIGHT</text><text x="70" y="225" font-size="11" text-anchor="middle" fill="currentColor">a U-fold, no crossing</text>
+<path d="M200,190 C230,190 300,180 300,150 C300,120 250,115 245,140 C240,165 280,190 340,190" fill="none" stroke="currentColor" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" opacity="0.35"/><path d="M200,190 C230,190 300,180 300,150 C300,120 250,115 245,140 C240,165 280,190 340,190" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="272" y="210" text-anchor="middle" font-weight="bold" fill="currentColor">LOOP</text><text x="272" y="225" font-size="11" text-anchor="middle" fill="currentColor">the rope crosses itself</text>
+<text x="354" y="240" font-size="10.5" text-anchor="end" fill="currentColor" opacity="0.75">Diagram, not to scale</text>
+</svg>

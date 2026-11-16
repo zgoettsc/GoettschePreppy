@@ -13,6 +13,12 @@
    "source_key": "usda-ars-poisonous-plant-research-laboratory-water-h-ab9a68",
    "license": "Public domain: US Government work (USDA Agricultural Research Service).",
    "tier": 1
+  },
+  "wikimedia-commons": {
+   "org": "Wikimedia Commons (files tagged public domain or CC0 only)",
+   "source_key": null,
+   "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+   "tier": 2
   }
  },
  "plants": [
@@ -26,7 +32,7 @@
     "deadly"
    ],
    "risk": "lethal",
-   "note": "Every part, most of all the root, contains cicutoxin. A piece of root the size of a walnut can kill an adult. Violent seizures start 15 to 60 minutes after eating. Sap can be absorbed through skin. Where: Wet ground in every lower-48 state.",
+   "note": "Every part, most of all the root, contains cicutoxin. A 2 to 3 cm piece of root can kill an adult (CDC MMWR, 1994). Violent seizures start 15 to 60 minutes after eating. Sap can be absorbed through skin. Where: Wet ground in every lower-48 state.",
    "lookalikes": [
     "american-elderberry",
     "cow-parsnip",
@@ -360,6 +366,57 @@
    ]
   },
   {
+   "key": "meadow-death-camas",
+   "common": "Meadow death camas",
+   "scientific": "Toxicoscordion venenosum",
+   "symbol": "ZIVE",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "note": "All parts, most of all the bulb, contain zygacine. Vomiting, slow heart, low blood pressure, collapse; deaths recorded. Sheep die from it every year. Where: Prairies, meadows, sagebrush and grassland in the Plains and West.",
+   "lookalikes": [
+    "camas",
+    "field-garlic",
+    "meadow-garlic",
+    "nodding-onion",
+    "textile-onion"
+   ],
+   "plates": [
+    {
+     "file": "images/plates/meadow-death-camas/death-camas-zygadenus-venenosus-2-17842490404.jpg",
+     "shows": "The dense spike of small cream star-shaped flowers. No onion smell from any part.",
+     "feature": "flower",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Death_camas_Zygadenus_venenosus_2_(17842490404).jpg",
+     "credit": "Bureau of Land Management Oregon and Washington",
+     "provider": "Wikimedia Commons: Public domain",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 900,
+     "height": 596,
+     "bytes": 49420,
+     "sha256": "195a2bad75164f59e5f33ccc934d111e51ad0bb75b221710b849f5ef89d3456c"
+    },
+    {
+     "file": "images/plates/meadow-death-camas/toxicoscordion-venenosum-craig-martin-01.jpg",
+     "shows": "The whole plant: grass-like leaves from the base and a single spike of cream flowers.",
+     "feature": "whole",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Toxicoscordion_venenosum_-_Craig_Martin_01.jpg",
+     "credit": "Craig Martin",
+     "provider": "Wikimedia Commons: CC0",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 533,
+     "height": 800,
+     "bytes": 73264,
+     "sha256": "a4fc9dc883eef65268f6e2d75bbb4ae670ae14a4cb9c5d5812d996e67cceb159"
+    }
+   ]
+  },
+  {
    "key": "nuttalls-death-camas",
    "common": "Nuttall's death camas",
    "scientific": "Toxicoscordion nuttallii",
@@ -457,6 +514,56 @@
      "height": 900,
      "bytes": 70763,
      "sha256": "0b186454a037b4889f1f234070418e61321b31c2ec9c00fc4a695d62d5df2460"
+    }
+   ]
+  },
+  {
+   "key": "fremonts-death-camas",
+   "common": "Fremont's death camas",
+   "scientific": "Toxicoscordion fremontii",
+   "symbol": "ZIFR",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "note": "Lethal; all parts, most of all the bulb. Where: Coastal hills and grassland of California and southern Oregon.",
+   "lookalikes": [
+    "field-garlic",
+    "meadow-garlic",
+    "nodding-onion",
+    "textile-onion"
+   ],
+   "plates": [
+    {
+     "file": "images/plates/fremonts-death-camas/death-camus-zigadensis-fremontii-4-6-07-cerro-alto-slo-co-ca.jpg",
+     "shows": "A branched cluster of cream star-shaped flowers, each petal with a green-yellow spot.",
+     "feature": "flower",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:DEATH_CAMUS_(zigadensis_fremontii)_(4-6-07)_cerro_alto,_slo_co,_ca_-1_(535346423).jpg",
+     "credit": "ALAN SCHMIERER",
+     "provider": "Wikimedia Commons: CC0",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 900,
+     "height": 747,
+     "bytes": 78816,
+     "sha256": "4d7d4a88db162fcc2b5aab25355ba14cc3d21c92ec7fa946a8cdd2d966b13275"
+    },
+    {
+     "file": "images/plates/fremonts-death-camas/death-camus-zigadensis-fremontii-4-6-07-cerro-alto-slo-co-ca.jpg",
+     "shows": "One flower close up: six cream petals with yellow-green glands at the base.",
+     "feature": "flower",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:DEATH_CAMUS_(zigadensis_fremontii)_(4-6-07)_cerro_alto,_slo_co,_ca_-2_(535346445).jpg",
+     "credit": "ALAN SCHMIERER",
+     "provider": "Wikimedia Commons: CC0",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 900,
+     "height": 747,
+     "bytes": 78816,
+     "sha256": "4d7d4a88db162fcc2b5aab25355ba14cc3d21c92ec7fa946a8cdd2d966b13275"
     }
    ]
   },
@@ -707,6 +814,53 @@
    ]
   },
   {
+   "key": "autumn-crocus",
+   "common": "Autumn crocus",
+   "scientific": "Colchicum autumnale",
+   "symbol": "COAU4",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "note": "All parts contain colchicine: delayed vomiting, then organ failure; deaths recorded after the leaves were mistaken for wild garlic. Where: Garden plant, sometimes escaped, mostly in the North and East.",
+   "lookalikes": [
+    "ramps"
+   ],
+   "plates": [
+    {
+     "file": "images/plates/autumn-crocus/20210425colchicum-autumnale1.jpg",
+     "shows": "THE DANGEROUS STAGE: the broad glossy spring leaves in a clump, with no flower. They have no garlic or onion smell.",
+     "feature": "leaf",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:20210425Colchicum_autumnale1.jpg",
+     "credit": "AnRo0002",
+     "provider": "Wikimedia Commons: CC0",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 720,
+     "height": 540,
+     "bytes": 74665,
+     "sha256": "8ed7708a73ff9367d0eddbfee3809051ddf9a08476c18bb135ed6a30b8592379"
+    },
+    {
+     "file": "images/plates/autumn-crocus/20200508colchicum-autumnale2.jpg",
+     "shows": "Spring clumps of broad strap-shaped leaves in a meadow.",
+     "feature": "whole",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:20200508Colchicum_autumnale2.jpg",
+     "credit": "AnRo0002",
+     "provider": "Wikimedia Commons: CC0",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 720,
+     "height": 540,
+     "bytes": 76636,
+     "sha256": "2b30d30787abf18ca48f48a541cedda1493212f9835ee5d9d58813725f3ed724"
+    }
+   ]
+  },
+  {
    "key": "western-monkshood",
    "common": "Western monkshood",
    "scientific": "Aconitum columbianum",
@@ -748,6 +902,36 @@
      "height": 900,
      "bytes": 46199,
      "sha256": "682646b6be7a770812c5f5af1552b38b3e3edc1393d578e936372f26680e564a"
+    }
+   ]
+  },
+  {
+   "key": "tall-larkspur",
+   "common": "Tall larkspur",
+   "scientific": "Delphinium barbeyi",
+   "symbol": "DEBA2",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "note": "All parts are toxic; it is a leading cause of cattle deaths in the West. People: numbness, weakness, heart rhythm problems. Where: High mountain meadows of the central and southern Rockies.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "file": "images/plates/tall-larkspur/delphiniumbarbeyi.jpg",
+     "shows": "A spike of dark blue-purple spurred flowers.",
+     "feature": "flower",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Delphiniumbarbeyi.jpg",
+     "credit": "Dave Powell, USDA Forest Service, Bugwood.org",
+     "provider": "Wikimedia Commons: Public domain",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 600,
+     "height": 900,
+     "bytes": 76675,
+     "sha256": "cd0b7ac27d22de5fc82aa323e224abd6171e1282c0b7dc2e0b2187e16c089e68"
     }
    ]
   },
@@ -979,6 +1163,36 @@
    ]
   },
   {
+   "key": "sacred-datura",
+   "common": "Sacred datura",
+   "scientific": "Datura wrightii",
+   "symbol": "DAWR2",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "note": "Same alkaloids as jimsonweed; poisoning is common in teenagers who take it on purpose. Where: Dry open ground and roadsides of the Southwest and California.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "file": "images/plates/sacred-datura/arch-datura.jpg",
+     "shows": "A large white trumpet flower tinged with violet among soft grey-green leaves.",
+     "feature": "flower",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:ARCH_datura.jpg",
+     "credit": "NPS",
+     "provider": "Wikimedia Commons: Public domain",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 180,
+     "height": 140,
+     "bytes": 9970,
+     "sha256": "6b9a83f3ebdd68b8980eb2226c845fb547342cc1297feaa1818bf116ee299e39"
+    }
+   ]
+  },
+  {
    "key": "bittersweet-nightshade",
    "common": "Bittersweet nightshade",
    "scientific": "Solanum dulcamara",
@@ -1114,6 +1328,51 @@
    ]
   },
   {
+   "key": "tree-tobacco",
+   "common": "Tree tobacco",
+   "scientific": "Nicotiana glauca",
+   "symbol": "NIGL",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "note": "Leaves contain anabasine; deaths recorded in people who cooked the leaves as greens. Where: Disturbed ground in California, Arizona, Texas, Nevada and Hawaii.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "file": "images/plates/tree-tobacco/nicotiana-glauca-los-angeles-1.jpg",
+     "shows": "Smooth bluish-grey oval leaves on a stem.",
+     "feature": "leaf",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Nicotiana_glauca_Los_Angeles_1.jpg",
+     "credit": "Downtowngal",
+     "provider": "Wikimedia Commons: Public domain",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 900,
+     "height": 816,
+     "bytes": 73990,
+     "sha256": "38b14dedb9475c2dd54bcfa2d7347ece97ac9d2766d32f98e69746248de748a0"
+    },
+    {
+     "file": "images/plates/tree-tobacco/nicotiana-glauca-los-angeles-2.jpg",
+     "shows": "A thin, fast-growing plant sprouting from cracked pavement: typical of disturbed ground.",
+     "feature": "whole",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Nicotiana_glauca_Los_Angeles_2.jpg",
+     "credit": "Downtowngal",
+     "provider": "Wikimedia Commons: CC0",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 603,
+     "height": 900,
+     "bytes": 72221,
+     "sha256": "eafe2a364ea55ceb439900ae663e3b92538fdb67413dcaeb94c346b054f61da0"
+    }
+   ]
+  },
+  {
    "key": "pokeweed",
    "common": "Pokeweed",
    "scientific": "Phytolacca americana",
@@ -1210,6 +1469,83 @@
    ]
   },
   {
+   "key": "manchineel",
+   "common": "Manchineel",
+   "scientific": "Hippomane mancinella",
+   "symbol": "HIMA2",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "note": "Fruit is extremely poisonous; milky sap blisters skin and can blind; standing under it in rain burns skin; smoke from burning it injures eyes. Where: Coastal south Florida and the Keys, Puerto Rico and the Virgin Islands.",
+   "lookalikes": [
+    "sea-grape"
+   ],
+   "plates": [
+    {
+     "file": "images/plates/manchineel/hippomane-mancinella-454555201.jpg",
+     "shows": "A spreading manchineel tree at the top of a beach. Do not stand under it in rain; do not burn it.",
+     "feature": "whole",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Hippomane_mancinella_454555201.jpg",
+     "credit": "Zoltán Stekkelpak",
+     "provider": "Wikimedia Commons: CC0",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 640,
+     "height": 482,
+     "bytes": 78890,
+     "sha256": "479308f48b072b5ed1bb49d5ba06928f64defcafff665f78b03073b39f6791ea"
+    }
+   ]
+  },
+  {
+   "key": "tung-tree",
+   "common": "Tung tree",
+   "scientific": "Vernicia fordii",
+   "symbol": "VEFO",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "note": "Seeds and fruit cause severe vomiting and diarrhoea; one seed can poison a person. Where: Escaped in the Gulf Coast states: Florida, Georgia, Alabama, Mississippi, Louisiana, Texas.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "file": "images/plates/tung-tree/floraison-d-abrasins-fleurs-femelles-centre-de-recherches-sc.jpg",
+     "shows": "Black-and-white photograph: large heart-shaped leaves with a flower cluster.",
+     "feature": "leaf",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Floraison_d%27abrasins_(fleurs_femelles)_(Centre_de_recherches_scientifiques_et_techniques,_station_de_Xiengkhouang,_Laos)_-_Vo_An_Ninh_;_Ren%C3%A9_Schneyder_-_btv1b101199033_(1_of_2).jpg",
+     "credit": "Vo An Ninh. Photographe",
+     "provider": "Wikimedia Commons: Public domain",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 900,
+     "height": 718,
+     "bytes": 79942,
+     "sha256": "2b728e2ee619e4e1739f59859e9b045750996f5115c828e8339b3d4e87d7aa3a"
+    },
+    {
+     "file": "images/plates/tung-tree/abrasins-en-fleurs-plantation-contr-l-e-en-production-vo-an-.jpg",
+     "shows": "Black-and-white photograph: tung trees in a grove.",
+     "feature": "whole",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Abrasins_en_fleurs._Plantation_contr%C3%B4l%C3%A9e_en_production_-_Vo_An_Ninh_;_Ren%C3%A9_Schneyder_-_btv1b101199016_(1_of_2).jpg",
+     "credit": "Vo An Ninh. Photographe",
+     "provider": "Wikimedia Commons: Public domain",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 640,
+     "height": 513,
+     "bytes": 71917,
+     "sha256": "88a1a5a8fb11b18663f4224f4df84a196a14c80ffdbe05a2c00a26d013d6f8bf"
+    }
+   ]
+  },
+  {
    "key": "snow-on-the-mountain",
    "common": "Snow on the mountain",
    "scientific": "Euphorbia marginata",
@@ -1251,6 +1587,51 @@
      "height": 800,
      "bytes": 78737,
      "sha256": "17dcbd9c49e4bda6109225d9a4150d5ab22cbe7ef0a40c433c73ddef0e6cac73"
+    }
+   ]
+  },
+  {
+   "key": "leafy-spurge",
+   "common": "Leafy spurge",
+   "scientific": "Euphorbia esula",
+   "symbol": "EUES",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "contact",
+   "note": "Milky sap irritates skin and eyes; it can blind. Where: Rangelands, pastures and roadsides of the northern Plains and West.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "file": "images/plates/leafy-spurge/20150519euphorbia-esula2.jpg",
+     "shows": "The yellow-green flower bracts in an umbrella-shaped cluster at the top of the stem. Milky sap inside.",
+     "feature": "flower",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:20150519Euphorbia_esula2.jpg",
+     "credit": "AnRo0002",
+     "provider": "Wikimedia Commons: CC0",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 900,
+     "height": 675,
+     "bytes": 75174,
+     "sha256": "9107ba9653af4bf87344daf72c9f570d4e2f4fa7a216f14b63f9022193f0dc28"
+    },
+    {
+     "file": "images/plates/leafy-spurge/20150519euphorbia-esula3.jpg",
+     "shows": "Upright stems with narrow leaves topped by yellow-green bracts.",
+     "feature": "whole",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:20150519Euphorbia_esula3.jpg",
+     "credit": "AnRo0002",
+     "provider": "Wikimedia Commons: CC0",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 900,
+     "height": 675,
+     "bytes": 71046,
+     "sha256": "c4407961c6c4f6cb5449dc6dd4acc3d108fd2deeb8dd614073c06f0bdc8b0a87"
     }
    ]
   },
@@ -1373,6 +1754,96 @@
      "height": 533,
      "bytes": 77660,
      "sha256": "b30540bcb2a8562037419d3b7339dd28ffb86d2dc6f6c7109f306bf7e7e072f0"
+    }
+   ]
+  },
+  {
+   "key": "ackee",
+   "common": "Ackee",
+   "scientific": "Blighia sapida",
+   "symbol": "BLSA2",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "note": "Unripe or improperly prepared fruit causes severe low blood sugar (Jamaican vomiting sickness), seizures and death. Where: South Florida, Puerto Rico and the Virgin Islands.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "file": "images/plates/ackee/akee.jpg",
+     "shows": "The red-orange fruit split open to show glossy black seeds on cream flesh. Unripe or wrongly prepared fruit is lethal.",
+     "feature": "fruit",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Akee.jpg",
+     "credit": "The original Uploader was Taxon at English Wikipedia",
+     "provider": "Wikimedia Commons: Public domain",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 900,
+     "height": 675,
+     "bytes": 72683,
+     "sha256": "3cfeb1c46d6c826d32e8b26dd819ed8e0dc8046ad541f4826356955f2a5a379b"
+    },
+    {
+     "file": "images/plates/ackee/blighia-sapida-fruit-and-spice-park-homestead-florida-dsc090.jpg",
+     "shows": "Leaves of paired leaflets; new growth coppery.",
+     "feature": "leaf",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Blighia_sapida_-_Fruit_and_Spice_Park_-_Homestead,_Florida_-_DSC09016.jpg",
+     "credit": "Daderot",
+     "provider": "Wikimedia Commons: CC0",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 800,
+     "height": 572,
+     "bytes": 76228,
+     "sha256": "2cd8eff23b683ef854c5d70c89a59fdad22b65fca53126744d727e76cefd1cba"
+    }
+   ]
+  },
+  {
+   "key": "oleander",
+   "common": "Oleander",
+   "scientific": "Nerium oleander",
+   "symbol": "NEOL",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "note": "Every part contains heart glycosides, including the smoke from burning it. One leaf can seriously poison a child. Never use the sticks as skewers. Where: Planted and escaped in the South, the Southwest, California and Hawaii.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "file": "images/plates/oleander/a-wadi-west-of-susa03.jpg",
+     "shows": "Flowering oleander shrubs: clusters of pink flowers on dense evergreen bushes.",
+     "feature": "whole",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:A_wadi_west_of_Susa03.JPG",
+     "credit": "Maher27777",
+     "provider": "Wikimedia Commons: Public domain",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 800,
+     "height": 600,
+     "bytes": 74856,
+     "sha256": "70034aa941426e72f64b581bfb7f78c35a9e921bd82aaeb16962bef6ab21fea0"
+    },
+    {
+     "file": "images/plates/oleander/flowerbud.jpg",
+     "shows": "Long narrow leathery leaves around a red flower bud.",
+     "feature": "leaf",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Flowerbud.jpg",
+     "credit": "Neelix at English Wikipedia",
+     "provider": "Wikimedia Commons: Public domain",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 675,
+     "height": 900,
+     "bytes": 69523,
+     "sha256": "2319ede7e5a1612f959cbe754c5341478aee15cb89d859db7d88efa937725c63"
     }
    ]
   },
@@ -1821,6 +2292,57 @@
    ]
   },
   {
+   "key": "california-buckeye",
+   "common": "California buckeye",
+   "scientific": "Aesculus californica",
+   "symbol": "AECA",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "note": "Nuts look like chestnuts but are poisonous: severe vomiting, diarrhoea, weakness, paralysis in large amounts. Leaves, bark and young shoots are also poisonous. Native Californians leached the nuts for food; raw nuts are poisonous. Where: Foothills of California.",
+   "lookalikes": [
+    "allegheny-chinkapin",
+    "american-chestnut",
+    "bur-oak",
+    "northern-red-oak",
+    "white-oak"
+   ],
+   "plates": [
+    {
+     "file": "images/plates/california-buckeye/aesculus-californica-berkeley-strawberry-creek.jpg",
+     "shows": "Hand-shaped leaves of five leaflets.",
+     "feature": "leaf",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Aesculus_californica_Berkeley_Strawberry_Creek.jpg",
+     "credit": "Awinch1001",
+     "provider": "Wikimedia Commons: CC0",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 540,
+     "height": 720,
+     "bytes": 75330,
+     "sha256": "0ddd6429955fce92da0f602778b72fcb28153fb11d0cc107733af235c3fd098d"
+    },
+    {
+     "file": "images/plates/california-buckeye/aesculus-californica-berkeley.jpg",
+     "shows": "A shrubby tree covered in long upright spikes of pale pink-white flowers.",
+     "feature": "flower",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Aesculus_californica_Berkeley.jpg",
+     "credit": "Awinch1001",
+     "provider": "Wikimedia Commons: CC0",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 640,
+     "height": 480,
+     "bytes": 79572,
+     "sha256": "99bf67baaaddde7630d04b7a86f0ad8fd23f10d158528e49e122d4982ef1a317"
+    }
+   ]
+  },
+  {
    "key": "horse-chestnut",
    "common": "Horse chestnut",
    "scientific": "Aesculus hippocastanum",
@@ -1868,6 +2390,96 @@
      "height": 800,
      "bytes": 79121,
      "sha256": "b842da2b9ccec72ac4b178c3806ae93e50c3ac167676bfca80b32deda5d63ce1"
+    }
+   ]
+  },
+  {
+   "key": "white-snakeroot",
+   "common": "White snakeroot",
+   "scientific": "Ageratina altissima",
+   "symbol": "AGAL5",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "note": "Contains tremetol. Cows that graze it pass the poison into their milk: \"milk sickness\" killed thousands of settlers, including Abraham Lincoln's mother. Never drink milk from a cow that grazes woods where it grows. Where: Shady woods, woodland edges and creek bottoms of the East and Midwest.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "file": "images/plates/white-snakeroot/ageratina-altissima-urban-greening-botanical-garden-kiba-par.jpg",
+     "shows": "A bushy plant about knee to waist high with paired, toothed, pointed leaves (garden planting with label).",
+     "feature": "whole",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Ageratina_altissima_-_Urban_Greening_Botanical_Garden_-_Kiba_Park_-_Koto,_Tokyo,_Japan_-_DSC05350.jpg",
+     "credit": "Daderot",
+     "provider": "Wikimedia Commons: CC0",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 640,
+     "height": 427,
+     "bytes": 77155,
+     "sha256": "d09d87fababc252d8ce033296fb971c05c770ce49bde120d8f6e77bd5619c981"
+    },
+    {
+     "file": "images/plates/white-snakeroot/ageratina-altissima-2-white-snakeroot-howard-county-md-helen.jpg",
+     "shows": "Small fuzzy bright-white flower heads in a flat cluster.",
+     "feature": "flower",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Ageratina_altissima_2,_White_Snakeroot,_Howard_County,_Md,_Helen_Lowe_Metzman_2019-03-22-19.27.09_ZS_PMax_UDR_(47932284257).jpg",
+     "credit": "USGS Bee Inventory and Monitoring Lab from Beltsville, Maryland, USA",
+     "provider": "Wikimedia Commons: Public domain",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 900,
+     "height": 575,
+     "bytes": 74894,
+     "sha256": "5c587c7f7d4d179801b3391344e8bd8f1ec9646f157ff1864e41ef391d2d120b"
+    }
+   ]
+  },
+  {
+   "key": "rayless-goldenrod",
+   "common": "Rayless goldenrod",
+   "scientific": "Isocoma pluriflora",
+   "symbol": "ISPL",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "note": "Contains tremetol like white snakeroot; poisons livestock and causes milk sickness in people drinking their milk. Where: Dry rangeland, washes and riverbanks of west Texas, New Mexico and Arizona.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "file": "images/plates/rayless-goldenrod/isocoma-pluriflora-28374888.jpg",
+     "shows": "A low rounded shrub covered in flat-topped clusters of yellow flower heads.",
+     "feature": "whole",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Isocoma_pluriflora_28374888.jpg",
+     "credit": "Cecelia Alexander",
+     "provider": "Wikimedia Commons: CC0",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 720,
+     "height": 480,
+     "bytes": 75818,
+     "sha256": "5b9c39713acb1696f0bc45598fc036c96a4df79e23a4039203c83bf9353f975a"
+    },
+    {
+     "file": "images/plates/rayless-goldenrod/isocoma-pluriflora-304911866.jpg",
+     "shows": "Yellow flower heads with no outer petals above narrow leaves.",
+     "feature": "flower",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Isocoma_pluriflora_304911866.jpg",
+     "credit": "Irene",
+     "provider": "Wikimedia Commons: CC0",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 549,
+     "height": 720,
+     "bytes": 75294,
+     "sha256": "f63206b5254b1b1e0c44a57fe51a58f0f787ba13c2cc9a1afe0dda9df9b62fea"
     }
    ]
   },
@@ -1930,6 +2542,51 @@
      "height": 900,
      "bytes": 78466,
      "sha256": "738c289988cb6d2bbc1df0241b7406f74914ea08ae1aae933cd0f1b451436457"
+    }
+   ]
+  },
+  {
+   "key": "threadleaf-groundsel",
+   "common": "Threadleaf groundsel",
+   "scientific": "Senecio flaccidus",
+   "symbol": "SEFL3",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "note": "Pyrrolizidine alkaloids damage the liver; poisons livestock. Where: Dry rangeland of the Southwest and southern Plains.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "file": "images/plates/threadleaf-groundsel/senecio-flaccidus-flickr-aspidoscelis-1.jpg",
+     "shows": "Yellow daisy flowers.",
+     "feature": "flower",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Senecio_flaccidus_-_Flickr_-_aspidoscelis_(1).jpg",
+     "credit": "Patrick Alexander from Las Cruces, NM",
+     "provider": "Wikimedia Commons: CC0",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 900,
+     "height": 600,
+     "bytes": 69403,
+     "sha256": "7b75cd9a8b72546ddb94a16c7fe8ed2c156e0334593ea28f0f99e02cf9fdb2bf"
+    },
+    {
+     "file": "images/plates/threadleaf-groundsel/senecio-flaccidus-flickr-aspidoscelis-4.jpg",
+     "shows": "Woolly white leaves divided into thread-like segments.",
+     "feature": "leaf",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Senecio_flaccidus_-_Flickr_-_aspidoscelis_(4).jpg",
+     "credit": "Patrick Alexander from Las Cruces, NM",
+     "provider": "Wikimedia Commons: CC0",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 900,
+     "height": 600,
+     "bytes": 77593,
+     "sha256": "1b811a4ef381cf9b419f94594ad6901a06b4968b744643a05e1efaecfbdb2897"
     }
    ]
   },
@@ -2233,6 +2890,36 @@
      "height": 800,
      "bytes": 73623,
      "sha256": "a693d2451e1e3f27265c33859b586e9fb3d09a912823422327aac4a226e8bdbb"
+    }
+   ]
+  },
+  {
+   "key": "silky-lupine",
+   "common": "Silky lupine",
+   "scientific": "Lupinus sericeus",
+   "symbol": "LUSE4",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "note": "Seeds and pods contain toxic alkaloids; poisons livestock and causes \"crooked calf\" birth defects; people harmed eating bitter lupine seeds. Where: Dry slopes and sagebrush of the Rocky Mountain and Great Basin states.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "file": "images/plates/silky-lupine/dyk-lupinus-sericeus.jpg",
+     "shows": "A spike of blue-purple pea flowers above hand-shaped leaves (lupine).",
+     "feature": "flower",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:DYK_Lupinus_sericeus.jpg",
+     "credit": "Unknown authorUnknown author",
+     "provider": "Wikimedia Commons: Public domain",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 202,
+     "height": 234,
+     "bytes": 21423,
+     "sha256": "4980da504686f49994fecd2d278a6acef1e0406121c25ab596d8104940f90e17"
     }
    ]
   },
@@ -2554,6 +3241,51 @@
    ]
   },
   {
+   "key": "pacific-rhododendron",
+   "common": "Pacific rhododendron",
+   "scientific": "Rhododendron macrophyllum",
+   "symbol": "RHMA3",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "note": "Leaves and nectar contain grayanotoxins: burning mouth, vomiting, very slow heart, low blood pressure. Honey from these flowers (\"mad honey\") poisons people. Where: Coastal and Cascade forests of Washington, Oregon and northern California.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "file": "images/plates/pacific-rhododendron/redw-rhododendron-20061030191827.jpg",
+     "shows": "Flowering shrub in conifer forest: large leathery leaves and pink-purple flower clusters.",
+     "feature": "whole",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Redw_rhododendron_20061030191827.jpg",
+     "credit": "Gary Battel, NPS Photo",
+     "provider": "Wikimedia Commons: Public domain",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 720,
+     "height": 541,
+     "bytes": 75924,
+     "sha256": "31f1e04f9f928e3f289cebb15aa37eef676baf19ade2b6e99d12327b03f09d94"
+    },
+    {
+     "file": "images/plates/pacific-rhododendron/blm-botany-10-6871303703.jpg",
+     "shows": "A flower cluster above the large leathery leaves.",
+     "feature": "flower",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:BLM_Botany_10_(6871303703).jpg",
+     "credit": "Bureau of Land Management",
+     "provider": "Wikimedia Commons: Public domain",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 900,
+     "height": 675,
+     "bytes": 77365,
+     "sha256": "c4cec902dbddaf520eb0bdadaf0aa579808f85b0307554a2d9136623da774d0b"
+    }
+   ]
+  },
+  {
    "key": "japanese-pieris",
    "common": "Japanese pieris",
    "scientific": "Pieris japonica",
@@ -2685,6 +3417,51 @@
    ]
   },
   {
+   "key": "oriental-bittersweet",
+   "common": "Oriental bittersweet",
+   "scientific": "Celastrus orbiculatus",
+   "symbol": "CEOR7",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "note": "Berries cause vomiting and diarrhoea. Where: Forest edges and fence rows of the East and Midwest.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "file": "images/plates/oriental-bittersweet/bittersweet-2021-12-01-bethel-park-01.jpg",
+     "shows": "Yellow capsules split open to show the bright orange-red berries.",
+     "feature": "fruit",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Bittersweet,_2021-12-01,_Bethel_Park,_01.jpg",
+     "credit": "Cbaile19",
+     "provider": "Wikimedia Commons: CC0",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 900,
+     "height": 600,
+     "bytes": 67569,
+     "sha256": "a13d60debdb14337af2ba1586a760d29d5369fac4b9f1a280df20130549b2513"
+    },
+    {
+     "file": "images/plates/oriental-bittersweet/celastrus-orbiculatus-flickr-aspidoscelis-2.jpg",
+     "shows": "Round, finely toothed leaves.",
+     "feature": "leaf",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Celastrus_orbiculatus_-_Flickr_-_aspidoscelis_(2).jpg",
+     "credit": "Patrick Alexander from Las Cruces, NM",
+     "provider": "Wikimedia Commons: CC0",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 900,
+     "height": 600,
+     "bytes": 68184,
+     "sha256": "8cea8089ebfd51ded54476f84750305bd87b86173c123a3d0bf00246ccb22c1f"
+    }
+   ]
+  },
+  {
    "key": "red-elderberry",
    "common": "Red elderberry",
    "scientific": "Sambucus racemosa",
@@ -2713,6 +3490,36 @@
      "height": 900,
      "bytes": 78921,
      "sha256": "b3e6a24d1972edb1287c3a1e0ba27cb5c7928ae60e8e259e251648b1a37abd16"
+    }
+   ]
+  },
+  {
+   "key": "common-snowberry",
+   "common": "Common snowberry",
+   "scientific": "Symphoricarpos albus",
+   "symbol": "SYAL",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "note": "Berries cause vomiting, dizziness and drowsiness in children. Where: Woods and slopes of the North and West; planted elsewhere.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "file": "images/plates/common-snowberry/20150617symphoricarpos-albus1.jpg",
+     "shows": "Paired oval leaves with small pink bell flowers and young berries (they turn pure white).",
+     "feature": "flower",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:20150617Symphoricarpos_albus1.jpg",
+     "credit": "AnRo0002",
+     "provider": "Wikimedia Commons: CC0",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 900,
+     "height": 675,
+     "bytes": 67670,
+     "sha256": "ecdf34c3e7cfb83a36f696220531a9dbd31175cdf2dd84d64c89b03cfa72376b"
     }
    ]
   },
@@ -2956,6 +3763,51 @@
      "height": 900,
      "bytes": 76000,
      "sha256": "6f0daec9009de8893e5730e3b44b481c11c19ee41ea37b4a2813547738810de6"
+    }
+   ]
+  },
+  {
+   "key": "sago-palm",
+   "common": "Sago palm",
+   "scientific": "Cycas revoluta",
+   "symbol": "CYRE11",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "lethal",
+   "note": "Seeds and all parts cause liver failure; very dangerous to dogs and children. Where: Planted in yards in the South, Southwest and Hawaii.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "file": "images/plates/sago-palm/cycas-revoluta-ouidah.jpg",
+     "shows": "A low stiff palm-like plant: dark glossy feather-shaped leaves from a thick central trunk.",
+     "feature": "whole",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Cycas_revoluta_-_Ouidah.jpg",
+     "credit": "Tohinde",
+     "provider": "Wikimedia Commons: CC0",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 560,
+     "height": 420,
+     "bytes": 74135,
+     "sha256": "6bd3bee79cb3a03f427f3f52a4cf982f911d7397d4fab394b37fab5e925ff413"
+    },
+    {
+     "file": "images/plates/sago-palm/cycas-revoluta-1.jpg",
+     "shows": "The stiff, glossy, feather-shaped leaves from above.",
+     "feature": "leaf",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Cycas_revoluta_1.JPG",
+     "credit": "Dinkum",
+     "provider": "Wikimedia Commons: CC0",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 640,
+     "height": 480,
+     "bytes": 74514,
+     "sha256": "7647eb829934e9b81b4699e7c42a7152bc749cdbc3408d84ff462926a5fe2566"
     }
    ]
   },
@@ -3429,6 +4281,51 @@
    ]
   },
   {
+   "key": "western-skunk-cabbage",
+   "common": "Western skunk cabbage",
+   "scientific": "Lysichiton americanus",
+   "symbol": "LYAM3",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "note": "Raw plant contains oxalate crystals: burning mouth and throat. Where: Swamps of the Pacific coast states, Idaho, Montana and Alaska.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "file": "images/plates/western-skunk-cabbage/sitka-skunk-cabbage.jpg",
+     "shows": "A large patch of very big, glossy, paddle-shaped leaves in a wet forest.",
+     "feature": "whole",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Sitka-Skunk-Cabbage.JPG",
+     "credit": "James Crippen",
+     "provider": "Wikimedia Commons: Public domain",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 720,
+     "height": 540,
+     "bytes": 79209,
+     "sha256": "cc6be9ae42883cd3df02cfce72c6c3fa82d85c0a1d23a2131c79ed0939af05cd"
+    },
+    {
+     "file": "images/plates/western-skunk-cabbage/close-up-of-a-skunk-cabbage-lysichiton-kamtschatcense-just-u.jpg",
+     "shows": "The yellow hood around a club, rising from swamp water in early spring (colour shifted in this old slide).",
+     "feature": "flower",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Close-_up_of_a_skunk_cabbage_(Lysichiton_kamtschatcense)_just_unfurling_the_first_green_leaves_of_spring_in_wet_lands..._-_NARA_-_557587.jpg",
+     "credit": "Unknown authorUnknown author or not provided",
+     "provider": "Wikimedia Commons: Public domain",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 900,
+     "height": 611,
+     "bytes": 76224,
+     "sha256": "059212036fbbe7f7480745ea2ad45800a457a55aab457344e75d55baf4a85f38"
+    }
+   ]
+  },
+  {
    "key": "arrow-arum",
    "common": "Arrow arum",
    "scientific": "Peltandra virginica",
@@ -3747,6 +4644,128 @@
    ]
   },
   {
+   "key": "western-poison-ivy",
+   "common": "Western poison ivy",
+   "scientific": "Toxicodendron rydbergii",
+   "symbol": "TORY",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "contact",
+   "note": "Urushiol oil causes a blistering rash 12 to 72 hours after contact. The oil stays active on clothes, tools and animal fur. NEVER BURN IT: the smoke carries the oil into the lungs and can cause life-threatening breathing problems. Where: Woods, river breaks, and rocky slopes of the North, Plains and West.",
+   "lookalikes": [
+    "fragrant-sumac"
+   ],
+   "plates": [
+    {
+     "file": "images/plates/western-poison-ivy/toxicodendron-rydbergii-uga1208036.jpg",
+     "shows": "Three glossy leaflets per leaf, the middle one on a longer stalk; small green berry clusters.",
+     "feature": "leaf",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Toxicodendron_rydbergii_UGA1208036.jpg",
+     "credit": "Dave Powell, USDA Forest Service, Bugwood.org (cropped by the uploader)",
+     "provider": "Wikimedia Commons: Public domain",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 900,
+     "height": 675,
+     "bytes": 78703,
+     "sha256": "082f25d584146189ccce0c050439cab67460c938cb5bb52dd1ce099df29a3d8b"
+    },
+    {
+     "file": "images/plates/western-poison-ivy/toxicodendron-rydbergii-uga1208035.jpg",
+     "shows": "Low upright shrubby stems (not a vine), each topped with three-leaflet leaves.",
+     "feature": "whole",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Toxicodendron_rydbergii_UGA1208035.jpg",
+     "credit": "Dave Powell, USDA Forest Service, Bugwood.org (cropped by the uploader)",
+     "provider": "Wikimedia Commons: Public domain",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 900,
+     "height": 600,
+     "bytes": 73000,
+     "sha256": "11be1de3e556fd24ed451a5613f756eafd5e42cff9d8c3df86bb86f127daa186"
+    },
+    {
+     "file": "images/plates/western-poison-ivy/plants-ob-26-38880846341.jpg",
+     "shows": "A patch of low three-leaflet plants on the forest floor.",
+     "feature": "whole",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Plants_OB_26_(38880846341).jpg",
+     "credit": "USDA NRCS Montana",
+     "provider": "Wikimedia Commons: Public domain",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 560,
+     "height": 420,
+     "bytes": 72766,
+     "sha256": "1ab5491636b14c5da78cd8a4651145839b0060e80fa9ac4ffb2a7edeff41a0d3"
+    }
+   ]
+  },
+  {
+   "key": "pacific-poison-oak",
+   "common": "Pacific poison oak",
+   "scientific": "Toxicodendron diversilobum",
+   "symbol": "TODI",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "contact",
+   "note": "Urushiol oil causes a blistering rash 12 to 72 hours after contact. The oil stays active on clothes, tools and animal fur. NEVER BURN IT: the smoke carries the oil into the lungs and can cause life-threatening breathing problems. Where: Woods and chaparral of California, Oregon and Washington.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "file": "images/plates/pacific-poison-oak/poison-oak-toxicodendron-diversilobum-4-5-08-canet-1-2391067.jpg",
+     "shows": "THREE leaflets with rounded oak-like lobes, glossy and turning red.",
+     "feature": "leaf",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:POISON_OAK_(toxicodendron_diversilobum)_(4-5-08)_canet_-1_(2391067502).jpg",
+     "credit": "ALAN SCHMIERER",
+     "provider": "Wikimedia Commons: CC0",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 900,
+     "height": 691,
+     "bytes": 72436,
+     "sha256": "e7157872374b922f0b288d60a6119de45cf20bda042d45f3c6ad46870ea9284a"
+    },
+    {
+     "file": "images/plates/pacific-poison-oak/poison-oak-on-the-rogue-river-34837500952.jpg",
+     "shows": "A green shrubby branch with three-leaflet leaves in summer.",
+     "feature": "leaf",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Poison_Oak_on_the_Rogue_River_(34837500952).jpg",
+     "credit": "Bureau of Land Management Oregon and Washington from Portland, America",
+     "provider": "Wikimedia Commons: Public domain",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 900,
+     "height": 576,
+     "bytes": 78168,
+     "sha256": "8a0c6093b8ad28488d879b253f950b3b22f8de2a08fa20fa18399244ecb60618"
+    },
+    {
+     "file": "images/plates/pacific-poison-oak/poison-oak-toxicodendron-diversilobum-3-16-07-san-luis-obisp.jpg",
+     "shows": "A young red shoot with three-leaflet leaves coming up from rocky ground.",
+     "feature": "whole",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Poison-oak_Toxicodendron_diversilobum_(3-16-07),_San_Luis_Obispo_-2_(535341428).jpg",
+     "credit": "ALAN SCHMIERER",
+     "provider": "Wikimedia Commons: CC0",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 900,
+     "height": 744,
+     "bytes": 72667,
+     "sha256": "0d8f7cfcb1139c70686dcbfae208b0c89dedf1a394451486ef0bb804447a9461"
+    }
+   ]
+  },
+  {
    "key": "atlantic-poison-oak",
    "common": "Atlantic poison oak",
    "scientific": "Toxicodendron pubescens",
@@ -3900,6 +4919,36 @@
    ]
   },
   {
+   "key": "brazilian-pepper",
+   "common": "Brazilian peppertree",
+   "scientific": "Schinus terebinthifolia",
+   "symbol": "SCTE",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "contact",
+   "note": "Related to poison ivy: sap causes rash; berries and smoke irritate. Where: Invasive in Florida, south Texas, California and Hawaii.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "file": "images/plates/brazilian-pepper/p-ssaro-sabi-laranjeira.jpg",
+     "shows": "Clusters of small red berries among leaves of several leaflets.",
+     "feature": "fruit",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:P%C3%A1ssaro_Sabi%C3%A1-laranjeira.jpg",
+     "credit": "Ch monster",
+     "provider": "Wikimedia Commons: CC0",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 900,
+     "height": 648,
+     "bytes": 73837,
+     "sha256": "635503d300f2f95e3ba790a3b35770c5a42293b0c12341c15f5faf1a5758747d"
+    }
+   ]
+  },
+  {
    "key": "indian-tobacco",
    "common": "Indian tobacco",
    "scientific": "Lobelia inflata",
@@ -3926,6 +4975,83 @@
      "height": 900,
      "bytes": 78782,
      "sha256": "a4fb00ce6290129620b6fee7d4c7a17b17f340bfad29e22b55f71c1ebfdfe10d"
+    }
+   ]
+  },
+  {
+   "key": "crown-flower",
+   "common": "Crown flower",
+   "scientific": "Calotropis gigantea",
+   "symbol": "CAGI11",
+   "class": "deadly",
+   "groups": [
+    "deadly"
+   ],
+   "risk": "serious",
+   "note": "Milky sap and plant contain heart glycosides; sap injures eyes. Where: Planted in Hawaii, south Florida and Puerto Rico.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "file": "images/plates/crown-flower/c-gigantea.jpg",
+     "shows": "Waxy crown-shaped white flowers above thick grey-green oval leaves.",
+     "feature": "flower",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:C._gigantea.JPG",
+     "credit": "Siu Kuin Wong",
+     "provider": "Wikimedia Commons: Public domain",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 792,
+     "height": 800,
+     "bytes": 75261,
+     "sha256": "b22d1265eaea3df65f9f55bd287709727f567f52285289d6b4d0d9aea50d4fc9"
+    }
+   ]
+  },
+  {
+   "key": "dandelion",
+   "common": "Dandelion",
+   "scientific": "Taraxacum officinale",
+   "symbol": "TAOF",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "note": "Young leaves raw or cooked (bitter later in the season); flowers; roasted roots. Where: Lawns, roadsides and fields in every state.",
+   "lookalikes": [
+    "common-groundsel"
+   ],
+   "plates": [
+    {
+     "file": "images/plates/dandelion/dandelion-flower-02.jpg",
+     "shows": "Ground rosettes of deeply toothed leaves with one yellow flower head per stalk.",
+     "feature": "whole",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Dandelion_flower_02.jpg",
+     "credit": "Shams948",
+     "provider": "Wikimedia Commons: CC0",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 640,
+     "height": 480,
+     "bytes": 78760,
+     "sha256": "733936625ec176c59ad6667eab15730f805d7d54ac3d18d66f640eb7474ab889"
+    },
+    {
+     "file": "images/plates/dandelion/dandelion-flower-01.jpg",
+     "shows": "A dense patch of dandelions in flower.",
+     "feature": "flower",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Dandelion_flower_01.jpg",
+     "credit": "Shams948",
+     "provider": "Wikimedia Commons: CC0",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 560,
+     "height": 420,
+     "bytes": 75299,
+     "sha256": "cd4be687f009f94a1fbc5e51f06c8131ddee64ce28b0305d29fab98f645669f3"
     }
    ]
   },
@@ -4894,6 +6020,51 @@
    ]
   },
   {
+   "key": "miners-lettuce",
+   "common": "Miner's lettuce",
+   "scientific": "Claytonia perfoliata",
+   "symbol": "CLPE",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "note": "Leaves and stems raw or cooked. Where: Shady woods and slopes of the Pacific states and the interior West.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "file": "images/plates/miners-lettuce/claytonia-perfoliata-130185834.jpg",
+     "shows": "THE FEATURE: the round disc-shaped leaf wrapped around the stem, with small white flowers rising from its centre.",
+     "feature": "leaf",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Claytonia_perfoliata_130185834.jpg",
+     "credit": "Irene",
+     "provider": "Wikimedia Commons: CC0",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 899,
+     "height": 900,
+     "bytes": 66246,
+     "sha256": "c2a86d28418c4be47788c87328fd48770c1ba2b2dbe3989b0c566fee5695befc"
+    },
+    {
+     "file": "images/plates/miners-lettuce/claytonia-perfoliata-miner-s-lettuce.jpg",
+     "shows": "A clump of plants with round disc leaves growing among rocks.",
+     "feature": "whole",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Claytonia_perfoliata_Miner%27s_Lettuce.jpg",
+     "credit": "glmory",
+     "provider": "Wikimedia Commons: CC0",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 600,
+     "height": 800,
+     "bytes": 79601,
+     "sha256": "4a6c5a7d4238bff2a16f82422965de46aa7b39e1755579111ee68b9b8e756438"
+    }
+   ]
+  },
+  {
    "key": "spring-beauty",
    "common": "Spring beauty",
    "scientific": "Claytonia virginica",
@@ -5384,6 +6555,81 @@
      "height": 900,
      "bytes": 78508,
      "sha256": "989c489cda3af8de9ca14b08a5945613e8e743a7cc370424ef8cf87ee75137b2"
+    }
+   ]
+  },
+  {
+   "key": "wild-rice",
+   "common": "Northern wild rice",
+   "scientific": "Zizania palustris",
+   "symbol": "ZIPA3",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "note": "Grain, parched or cooked. Beware ergot (black hard bodies replacing grains); discard any. Where: Lakes and rivers of Minnesota, Wisconsin, Michigan and nearby.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "file": "images/plates/wild-rice/manoomin-picking-1905-minnesota.jpg",
+     "shows": "Black-and-white photograph: harvesting wild rice from canoes in a stand of tall grass in shallow water.",
+     "feature": "whole",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Manoomin_picking,_1905,_Minnesota.jpg",
+     "credit": "Unknown authorUnknown author",
+     "provider": "Wikimedia Commons: Public domain",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 553,
+     "height": 346,
+     "bytes": 42797,
+     "sha256": "386b116cef3da8fda4d07eb057c5cbb2cd31850e1da8416a423fc9bc67f1ca71"
+    },
+    {
+     "file": "images/plates/wild-rice/wild-rice-harvest-on-mud-lake-cass-county-minnesota-septembe.jpg",
+     "shows": "A dense stand of ripe wild rice in a shallow lake, with a harvester poling through it.",
+     "feature": "whole",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Wild_rice_harvest_on_Mud_Lake,_Cass_County,_Minnesota,_September_2015.jpg",
+     "credit": "George Stringham, U.S. Army Corps of Engineers",
+     "provider": "Wikimedia Commons: Public domain",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 900,
+     "height": 645,
+     "bytes": 77036,
+     "sha256": "326337b26dfe1ccc99be191931a3e0031f57379e85e4c1bdf97058f877f83a94"
+    }
+   ]
+  },
+  {
+   "key": "glasswort",
+   "common": "Glasswort",
+   "scientific": "Salicornia depressa",
+   "symbol": "SADE10",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "note": "Young tips raw or cooked; very salty. Where: Salt marshes of the coasts and salty inland flats.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "file": "images/plates/glasswort/salicornia-depressa-wfny-049b.jpg",
+     "shows": "The whole plant: succulent jointed green stems with no visible leaves.",
+     "feature": "whole",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Salicornia_depressa_WFNY-049B.jpg",
+     "credit": "Homer D. House, New York State Botanist. Walter B. Starr of the Matthews-Northrup Company, Buffalo, and Harold H. Snyder of the Zeese-Wilkinson Company, New York, photographers.",
+     "provider": "Wikimedia Commons: Public domain",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 532,
+     "height": 900,
+     "bytes": 68150,
+     "sha256": "1abcadf32f516609ea5b4866f73c01db0d83db272c2d64219481958d6e6a8608"
     }
    ]
   },
@@ -5978,6 +7224,96 @@
    ]
   },
   {
+   "key": "salmonberry",
+   "common": "Salmonberry",
+   "scientific": "Rubus spectabilis",
+   "symbol": "RUSP",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "note": "Berries raw; young peeled shoots. Where: Moist forests of the Pacific coast and Alaska.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "file": "images/plates/salmonberry/bowl-of-salmonberries.jpg",
+     "shows": "Ripe salmonberries in a bowl: orange to red raspberry-like berries.",
+     "feature": "fruit",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Bowl_of_salmonberries.jpg",
+     "credit": "Ariasnow",
+     "provider": "Wikimedia Commons: Public domain",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 400,
+     "height": 300,
+     "bytes": 40690,
+     "sha256": "aded89e9a6038300fa05ed9aac6a5a6ffe61568376adca0ff6f99b14fad8448a"
+    },
+    {
+     "file": "images/plates/salmonberry/rubus-spectabilis-beacon-food-forest-seattle-usa-april-2022.jpg",
+     "shows": "Magenta flowers and three-leaflet toothed leaves on a prickly stem.",
+     "feature": "flower",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Rubus-spectabilis--beacon-food-forest--Seattle-USA--April-2022.jpg",
+     "credit": "Marco Downs",
+     "provider": "Wikimedia Commons: CC0",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 900,
+     "height": 675,
+     "bytes": 76638,
+     "sha256": "43a88359021ba895db591c8658d0262cd37909120a07f8ad06951a699f360baf"
+    }
+   ]
+  },
+  {
+   "key": "wineberry",
+   "common": "Wineberry",
+   "scientific": "Rubus phoenicolasius",
+   "symbol": "RUPH",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "note": "Berries raw. Invasive: pick freely. Where: Woods edges of the Northeast and mid-Atlantic.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "file": "images/plates/wineberry/rubus-phoenicolasius-at-game-farm-park-in-auburn-washington.jpg",
+     "shows": "Bright red glossy berries among leaves of three leaflets.",
+     "feature": "fruit",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Rubus_phoenicolasius_at_Game_Farm_Park_in_Auburn,_Washington.jpg",
+     "credit": "Roc0ast3r",
+     "provider": "Wikimedia Commons: CC0",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 900,
+     "height": 600,
+     "bytes": 66823,
+     "sha256": "2c4fc2ffea6bd984bf2601c76de3af71fbf9e0e33d98ce5949addc89a1148e71"
+    },
+    {
+     "file": "images/plates/wineberry/japanische-weinbeere-ast.jpg",
+     "shows": "The cane: densely covered in red bristly hairs.",
+     "feature": "stem",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Japanische_Weinbeere_Ast.jpg",
+     "credit": "Marco Almbauer",
+     "provider": "Wikimedia Commons: CC0",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 900,
+     "height": 600,
+     "bytes": 74943,
+     "sha256": "5edb5c444e159168c2d2c6b78c8e99cdedbc0f56ea0537a583437d14285994eb"
+    }
+   ]
+  },
+  {
    "key": "red-mulberry",
    "common": "Red mulberry",
    "scientific": "Morus rubra",
@@ -6374,6 +7710,36 @@
      "height": 900,
      "bytes": 73806,
      "sha256": "8f85b54fe8a61a28f23d79289201cc6b15223c75143c9e07c3d3c1dc3769342f"
+    }
+   ]
+  },
+  {
+   "key": "downy-serviceberry",
+   "common": "Downy serviceberry",
+   "scientific": "Amelanchier arborea",
+   "symbol": "AMAR3",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "note": "Berries raw or cooked. Where: Woods of the East and Midwest.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "file": "images/plates/downy-serviceberry/amelanchier-arborea-2.jpg",
+     "shows": "Oval, finely toothed pointed leaves on a twig.",
+     "feature": "leaf",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Amelanchier_arborea_2.JPG",
+     "credit": "Fepup",
+     "provider": "Wikimedia Commons: Public domain",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 900,
+     "height": 675,
+     "bytes": 51812,
+     "sha256": "d1f23fb26e2e105a291011df5aac8e1b0976f70fbff20c11e9523fb11a8dbfcf"
     }
    ]
   },
@@ -6955,6 +8321,36 @@
    ]
   },
   {
+   "key": "prairie-rose",
+   "common": "Prairie rose",
+   "scientific": "Rosa arkansana",
+   "symbol": "ROAR3",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "note": "Hips and petals as for woods' rose. Where: Prairies of the Great Plains and Midwest.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "file": "images/plates/prairie-rose/prairie-rose-14705298016.jpg",
+     "shows": "Pink five-petalled wild rose flowers with yellow centres.",
+     "feature": "flower",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Prairie_Rose_(14705298016).jpg",
+     "credit": "USFWS Mountain-Prairie",
+     "provider": "Wikimedia Commons: Public domain",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 900,
+     "height": 675,
+     "bytes": 79419,
+     "sha256": "8a085a4f64bfc668bca2a2a39a47e8718a3619b633fdadd99b08360e3575cb39"
+    }
+   ]
+  },
+  {
    "key": "multiflora-rose",
    "common": "Multiflora rose",
    "scientific": "Rosa multiflora",
@@ -7270,6 +8666,81 @@
    ]
   },
   {
+   "key": "golden-currant",
+   "common": "Golden currant",
+   "scientific": "Ribes aureum",
+   "symbol": "RIAU",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "note": "Berries raw or cooked. Where: Stream banks and coulees of the West and Plains.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "file": "images/plates/golden-currant/beerenbusch.jpg",
+     "shows": "Yellow tube flowers and small three-lobed leaves.",
+     "feature": "flower",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Beerenbusch.jpg",
+     "credit": "HV",
+     "provider": "Wikimedia Commons: Public domain",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 900,
+     "height": 675,
+     "bytes": 71554,
+     "sha256": "d010cfa7664b23918457d54c631aeccd4aaf07c9051a5e6d660ce6e3c6a4e073"
+    },
+    {
+     "file": "images/plates/golden-currant/ribes-aureum-botanischer-garten-frankfurt-am-main-dsc02565.jpg",
+     "shows": "A thornless spreading shrub.",
+     "feature": "whole",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Ribes_aureum_-_Botanischer_Garten,_Frankfurt_am_Main_-_DSC02565.JPG",
+     "credit": "Daderot",
+     "provider": "Wikimedia Commons: CC0",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 640,
+     "height": 480,
+     "bytes": 77170,
+     "sha256": "458cee1e558ae8cfd40365152d2ef4f2a0a5755ac5136efb3e854970e3c9d239"
+    }
+   ]
+  },
+  {
+   "key": "salal",
+   "common": "Salal",
+   "scientific": "Gaultheria shallon",
+   "symbol": "GASH",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "starter",
+   "note": "Berries raw or cooked. Where: Coastal forests of the Pacific Northwest.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "file": "images/plates/salal/fmib-47384-salal-formation-along-the-forest-edge.jpg",
+     "shows": "Old book plate: a dense salal thicket at a forest edge.",
+     "feature": "whole",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:FMIB_47384_Salal_formation_along_the_forest_edge.jpeg",
+     "credit": "Minnesota Seaside Station",
+     "provider": "Wikimedia Commons: Public domain",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 900,
+     "height": 592,
+     "bytes": 77440,
+     "sha256": "6372f7472b3abfcae5ddf00d70b1d167f325d9761554332119dd673822d1eef4"
+    }
+   ]
+  },
+  {
    "key": "maypop",
    "common": "Maypop",
    "scientific": "Passiflora incarnata",
@@ -7356,6 +8827,96 @@
      "height": 900,
      "bytes": 74920,
      "sha256": "d3287b328fa1718624d6684a6a86c714e15d3c9a4597a705a9f976f6d461ec77"
+    }
+   ]
+  },
+  {
+   "key": "plains-prickly-pear",
+   "common": "Plains prickly pear",
+   "scientific": "Opuntia macrorhiza",
+   "symbol": "OPMA2",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "caution",
+   "note": "Young pads and ripe fruit after removing spines and bristles. Where: Prairies and rocky ground of the Plains and Southwest.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "file": "images/plates/plains-prickly-pear/opuntia-macrorhiza-flickr-aspidoscelis.jpg",
+     "shows": "A low spiny cactus of flat pads with a red-centred flower.",
+     "feature": "whole",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Opuntia_macrorhiza_-_Flickr_-_aspidoscelis.jpg",
+     "credit": "Patrick Alexander from Las Cruces, NM",
+     "provider": "Wikimedia Commons: CC0",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 900,
+     "height": 600,
+     "bytes": 74393,
+     "sha256": "e20e68c32ddff8cfb3383266a0ac89c1bee5346a4f83eb1a3ddffc99c1786f10"
+    },
+    {
+     "file": "images/plates/plains-prickly-pear/opuntia-macrorhiza-flickr-aspidoscelis-2.jpg",
+     "shows": "Flat pads with long spines and tufts of tiny barbed bristles.",
+     "feature": "stem",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Opuntia_macrorhiza_-_Flickr_-_aspidoscelis_(2).jpg",
+     "credit": "Patrick Alexander from Las Cruces, NM",
+     "provider": "Wikimedia Commons: CC0",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 900,
+     "height": 600,
+     "bytes": 76854,
+     "sha256": "7c0e0a284bf510d3a30b7383f307cd2705ee11a31488d1a10714d78b9384b9f0"
+    }
+   ]
+  },
+  {
+   "key": "engelmann-prickly-pear",
+   "common": "Engelmann prickly pear",
+   "scientific": "Opuntia engelmannii",
+   "symbol": "OPEN3",
+   "class": "edible",
+   "groups": [
+    "edible"
+   ],
+   "risk": "caution",
+   "note": "Young pads and ripe fruit after removing spines and bristles. Where: Deserts and grasslands of the Southwest and Texas.",
+   "lookalikes": [],
+   "plates": [
+    {
+     "file": "images/plates/engelmann-prickly-pear/figuier-de-barbarie-detail-espagne.jpg",
+     "shows": "Big round pads with spines and red-purple fruits along the edges.",
+     "feature": "fruit",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Figuier_de_barbarie_detail_Espagne.jpg",
+     "credit": "Jebulon",
+     "provider": "Wikimedia Commons: CC0",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 800,
+     "height": 532,
+     "bytes": 77684,
+     "sha256": "8040a86e90dbc05be0424c35ed41233f6bdbea0ee256c0f25bd191fff9a9a0e1"
+    },
+    {
+     "file": "images/plates/engelmann-prickly-pear/big-bend-national-park-pb122645.jpg",
+     "shows": "A yellow cactus flower on a spiny pad.",
+     "feature": "flower",
+     "collection": "wikimedia-commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Big_Bend_National_Park_PB122645.jpg",
+     "credit": "National Park Service Digital Image Archives",
+     "provider": "Wikimedia Commons: Public domain",
+     "license": "Public domain or CC0 as tagged on the Wikimedia Commons file page; the tag and the author credit are recorded per image and re-checked at build time. Anything else is refused.",
+     "imageId": null,
+     "width": 900,
+     "height": 673,
+     "bytes": 74404,
+     "sha256": "ec4d42eb5bae6a816a6c4efb1fcee74caeb7d16d3fd7eebee62d42b1142ebeb3"
     }
    ]
   },
@@ -8445,7 +10006,7 @@
     "firewood"
    ],
    "risk": "starter",
-   "note": "Sap in late winter, boiled down to syrup (40 parts sap to 1 of syrup); drink fresh sap. Where: Woods of the Northeast and Midwest.",
+   "note": "Sap in late winter, drunk fresh or boiled down to syrup (it takes many gallons of sap for one of syrup). Where: Woods of the Northeast and Midwest.",
    "lookalikes": [],
    "plates": [
     {

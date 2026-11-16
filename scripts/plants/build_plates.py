@@ -64,11 +64,17 @@ def commons_rows():
                 except Exception as e:
                     last = e
             raise last
-        info = json.loads(cached(RAW / 'commons' / 'info' / (_h.sha1(title.encode()).hexdigest() + '.json'), f))
+        cpath = RAW / 'commons' / 'info' / (_h.sha1(title.encode()).hexdigest() + '.json')
+        if not cpath.exists() and '--no-commons-fetch' in sys.argv:
+            print('  ! commons info not cached (skipped):', k, title); continue
+        try:
+            info = json.loads(cached(cpath, f))
+        except Exception as e:
+            print('  ! commons info failed (skipped):', k, title, e); continue
         page = next(iter(info['query']['pages'].values()))
         ii = page['imageinfo'][0]; md = ii.get('extmetadata', {})
         lic = (md.get('License', {}) or {}).get('value', '').lower()
-        strip = lambda v: _re.sub(r'\s+', ' ', _re.sub(r'<[^>]+>', '', v or '')).strip()
+        strip = lambda v: _re.sub(r'\s+', ' ', _re.sub(r'(https?://|www\.)\S+', '', _re.sub(r'<[^>]+>', '', v or ''))).strip(' |,;')
         rows.append(dict(key=k, imageId=None, feature=feat, caption=cap, collection='wikimedia-commons',
                          lic=lic, url=ii.get('thumburl') or ii['url'], page=ii.get('descriptionurl'),
                          credit=strip((md.get('Artist') or {}).get('value'))[:200] or None,
@@ -203,7 +209,7 @@ def main():
                     raise last
                 raw = cached(RAW / 'large' / cache_name, _get)
             except Exception as e:
-                failed.append((key, p.get('imageId'), f'download: {e}')); continue
+                failed.append((key, p.get('imageId') or p.get('page'), f'download: {e}')); continue
             if not sniff(raw):
                 failed.append((key, p.get('imageId'), 'not an image')); continue
             dest = OUT / key / fname

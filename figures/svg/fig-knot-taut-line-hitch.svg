@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 222" width="360" height="222" color="#1b1b1b" font-family="Helvetica, Arial, sans-serif" font-size="13" class="gpfig fig-knot-taut-line-hitch" aria-label="Taut-line hitch">
+<title>Taut-line hitch</title>
+<rect x="14" y="40" width="12" height="130" rx="2" fill="currentColor" fill-opacity="0.25" stroke="currentColor" stroke-width="1.6"/><text x="20" y="190" font-size="11" text-anchor="middle" fill="currentColor">stake</text>
+<path d="M336,40 L352,30 L352,160 L336,150 Z" fill="#d97a00" fill-opacity="0.25" stroke="#d97a00" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><text x="344" y="180" font-size="11" text-anchor="middle" fill="currentColor">tarp</text>
+<path d="M336,80 L36,80 C24,80 22,88 22,92" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M22,92 C22,98 24,108 36,110 L150,110 C170,110 172,100 176,86" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="100" y="72" font-size="11" text-anchor="middle" fill="currentColor">standing part</text>
+<text x="90" y="128" font-size="11" text-anchor="middle" font-style="italic" fill="currentColor">the big loop</text>
+<path d="M175,67 C189,67 189,93 177,93" fill="none" stroke="currentColor" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><path d="M175,67 C189,67 189,93 177,93" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.4"/>
+<text x="182" y="112" font-size="12" text-anchor="middle" font-weight="bold" fill="currentColor">1</text>
+<path d="M191,67 C205,67 205,93 193,93" fill="none" stroke="currentColor" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><path d="M191,67 C205,67 205,93 193,93" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.4"/>
+<text x="198" y="112" font-size="12" text-anchor="middle" font-weight="bold" fill="currentColor">2</text>
+<path d="M204,92 C220,96 222,70 234,68" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="3 2"/>
+<path d="M233,67 C247,67 247,93 235,93" fill="none" stroke="#2e7d32" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><path d="M233,67 C247,67 247,93 235,93" fill="none" stroke="#2e7d32" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.4"/>
+<text x="240" y="112" font-size="12" text-anchor="middle" font-weight="bold" fill="#2e7d32">3</text>
+<path d="M243,93 C252,98 254,104 262,104" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="270" y="108" font-size="10.5" fill="#2e7d32">tuck under</text><text x="270" y="120" font-size="10.5" fill="#2e7d32">wrap 3</text>
+<text x="140" y="150" font-size="11.5" font-weight="bold" fill="currentColor">1 and 2: inside the loop,</text>
+<text x="140" y="164" font-size="11.5" fill="currentColor">turning back toward the stake.</text>
+<text x="140" y="178" font-size="11.5" font-weight="bold" fill="currentColor">3: outside the loop</text>
+<text x="140" y="192" font-size="11.5" fill="currentColor">on the tarp side, then tuck.</text>
+<line x1="178" y1="52" x2="146.0" y2="52.0" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M140,52 L146.0,55.0 L146.0,49.0 Z" fill="currentColor" stroke="none"/><line x1="210" y1="52" x2="244.0" y2="52.0" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M250,52 L244.0,49.0 L244.0,55.0 Z" fill="currentColor" stroke="none"/><text x="194" y="46" font-size="10.5" text-anchor="middle" fill="currentColor">slides</text>
+<text x="354" y="216" font-size="10.5" text-anchor="end" fill="currentColor" opacity="0.75">Diagram, not to scale</text>
+</svg>

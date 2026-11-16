@@ -9,8 +9,8 @@
    "firewood": 79
   },
   "fungi": 13,
-  "with_plates": 248,
-  "plates": 534,
+  "with_plates": 285,
+  "plates": 599,
   "lookalike_links": 112
  },
  "fields": {
@@ -57,7 +57,7 @@
     "range_note": null
    },
    "ecoregions": [],
-   "plates": 0,
+   "plates": 2,
    "sources": [
     "usda-nrcs-plants-database-plant-profiles-and-image-l-a7089c",
     "cornell-university-department-of-animal-science-plan-d2a002",
@@ -742,7 +742,7 @@
     "Willamette Valley",
     "Wyoming Basin"
    ],
-   "plates": 0,
+   "plates": 2,
    "sources": [
     "usda-nrcs-plants-database-plant-profiles-and-image-l-a7089c",
     "cornell-university-department-of-animal-science-plan-d2a002",
@@ -1903,7 +1903,7 @@
     "Southern Florida Coastal Plain",
     "Western Gulf Coastal Plain"
    ],
-   "plates": 0,
+   "plates": 1,
    "sources": [
     "usda-nrcs-plants-database-plant-profiles-and-image-l-a7089c",
     "cdc-niosh-poisonous-plants-outdoor-workers-d2a004",
@@ -2126,7 +2126,7 @@
     "Southern California Mountains",
     "Southern California/Northern Baja Coast"
    ],
-   "plates": 0,
+   "plates": 2,
    "sources": [
     "usda-nrcs-plants-database-plant-profiles-and-image-l-a7089c",
     "cornell-university-department-of-animal-science-plan-d2a002",
@@ -3673,7 +3673,7 @@
     "Willamette Valley",
     "Wyoming Basin"
    ],
-   "plates": 0,
+   "plates": 1,
    "sources": [
     "usda-nrcs-plants-database-plant-profiles-and-image-l-a7089c",
     "cornell-university-department-of-animal-science-plan-d2a002",
@@ -4397,7 +4397,7 @@
     "Southern Coastal Plain",
     "Southern Florida Coastal Plain"
    ],
-   "plates": 0,
+   "plates": 1,
    "sources": [
     "usda-nrcs-plants-database-plant-profiles-and-image-l-a7089c",
     "cornell-university-department-of-animal-science-plan-d2a002",
@@ -8243,7 +8243,7 @@
     "Southern California Mountains",
     "Southern California/Northern Baja Coast"
    ],
-   "plates": 0,
+   "plates": 2,
    "sources": [
     "usda-nrcs-plants-database-plant-profiles-and-image-l-a7089c",
     "usda-ars-poisonous-plant-research-laboratory-poisono-d2a001",
@@ -10914,7 +10914,7 @@
     "Willamette Valley",
     "Wyoming Basin"
    ],
-   "plates": 0,
+   "plates": 2,
    "sources": [
     "usda-nrcs-plants-database-plant-profiles-and-image-l-a7089c",
     "cdc-niosh-poisonous-plants-outdoor-workers-d2a004",
@@ -11201,7 +11201,7 @@
    "ecoregions": [
     "Southern Florida Coastal Plain"
    ],
-   "plates": 0,
+   "plates": 1,
    "sources": [
     "usda-nrcs-plants-database-plant-profiles-and-image-l-a7089c",
     "cornell-university-department-of-animal-science-plan-d2a002",
@@ -11437,7 +11437,7 @@
     "Willamette Valley",
     "Wyoming Basin"
    ],
-   "plates": 0,
+   "plates": 2,
    "sources": [
     "usda-nrcs-plants-database-plant-profiles-and-image-l-a7089c",
     "usda-ars-poisonous-plant-research-laboratory-poisono-d2a001",
@@ -12486,7 +12486,7 @@
     "Wasatch and Uinta Mountains",
     "Western Gulf Coastal Plain"
    ],
-   "plates": 0,
+   "plates": 2,
    "sources": [
     "usda-nrcs-plants-database-plant-profiles-and-image-l-a7089c",
     "nc-state-extension-north-carolina-extension-gardener-d2a003",
@@ -12594,7 +12594,7 @@
     "Western Allegheny Plateau",
     "Western Corn Belt Plains"
    ],
-   "plates": 0,
+   "plates": 2,
    "sources": [
     "usda-nrcs-plants-database-plant-profiles-and-image-l-a7089c",
     "cornell-university-department-of-animal-science-plan-d2a002",
@@ -12659,7 +12659,7 @@
     "Southern California/Northern Baja Coast",
     "Willamette Valley"
    ],
-   "plates": 0,
+   "plates": 3,
    "sources": [
     "usda-nrcs-plants-database-plant-profiles-and-image-l-a7089c",
     "cdc-niosh-poisonous-plants-outdoor-workers-d2a004",
@@ -12713,7 +12713,7 @@
     "Puget Lowland",
     "Willamette Valley"
    ],
-   "plates": 0,
+   "plates": 2,
    "sources": [
     "usda-nrcs-plants-database-plant-profiles-and-image-l-a7089c",
     "cornell-university-department-of-animal-science-plan-d2a002",
@@ -13683,7 +13683,7 @@
     "Southwestern Tablelands",
     "Wyoming Basin"
    ],
-   "plates": 0,
+   "plates": 2,
    "sources": [
     "usda-nrcs-plants-database-plant-profiles-and-image-l-a7089c",
     "usda-ars-poisonous-plant-research-laboratory-poisono-d2a001",
@@ -14456,7 +14456,7 @@
     "Western Corn Belt Plains",
     "Wyoming Basin"
    ],
-   "plates": 0,
+   "plates": 1,
    "sources": [
     "usda-nrcs-plants-database-plant-profiles-and-image-l-a7089c",
     "cornell-university-department-of-animal-science-plan-d2a002",
@@ -14567,7 +14567,7 @@
     "Texas Blackland Prairies",
     "Western Gulf Coastal Plain"
    ],
-   "plates": 0,
+   "plates": 2,
    "sources": [
     "usda-nrcs-plants-database-plant-profiles-and-image-l-a7089c",
     "cornell-university-department-of-animal-science-plan-d2a002",
@@ -15001,7 +15001,7 @@
     "Willamette Valley",
     "Wyoming Basin"
    ],
-   "plates": 0,
+   "plates": 1,
    "sources": [
     "usda-nrcs-plants-database-plant-profiles-and-image-l-a7089c",
     "usda-ars-poisonous-plant-research-laboratory-poisono-d2a001",
@@ -16186,7 +16186,7 @@
     "Wasatch and Uinta Mountains",
     "Wyoming Basin"
    ],
-   "plates": 0,
+   "plates": 1,
    "sources": [
     "usda-nrcs-plants-database-plant-profiles-and-image-l-a7089c",
     "usda-ars-poisonous-plant-research-laboratory-poisono-d2a001",
@@ -16357,7 +16357,7 @@
     "Southwestern Tablelands",
     "Wasatch and Uinta Mountains"
    ],
-   "plates": 0,
+   "plates": 2,
    "sources": [
     "usda-nrcs-plants-database-plant-profiles-and-image-l-a7089c",
     "usda-ars-poisonous-plant-research-laboratory-poisono-d2a001",
@@ -16457,7 +16457,7 @@
     "Western Allegheny Plateau",
     "Western Gulf Coastal Plain"
    ],
-   "plates": 0,
+   "plates": 2,
    "sources": [
     "usda-nrcs-plants-database-plant-profiles-and-image-l-a7089c",
     "cornell-university-department-of-animal-science-plan-d2a002",
@@ -16518,7 +16518,7 @@
     "Southern Coastal Plain",
     "Western Gulf Coastal Plain"
    ],
-   "plates": 0,
+   "plates": 2,
    "sources": [
     "usda-nrcs-plants-database-plant-profiles-and-image-l-a7089c",
     "cornell-university-department-of-animal-science-plan-d2a002",
@@ -17269,7 +17269,7 @@
     "Western Corn Belt Plains",
     "Wyoming Basin"
    ],
-   "plates": 0,
+   "plates": 3,
    "sources": [
     "usda-nrcs-plants-database-plant-profiles-and-image-l-a7089c",
     "cdc-niosh-poisonous-plants-outdoor-workers-d2a004",
@@ -17348,7 +17348,7 @@
     "Wrangell Mountains",
     "Wyoming Basin"
    ],
-   "plates": 0,
+   "plates": 2,
    "sources": [
     "usda-nrcs-plants-database-plant-profiles-and-image-l-a7089c",
     "cornell-university-department-of-animal-science-plan-d2a002",
@@ -17705,7 +17705,7 @@
     "Western Corn Belt Plains",
     "Western Gulf Coastal Plain"
    ],
-   "plates": 0,
+   "plates": 2,
    "sources": [
     "usda-nrcs-plants-database-plant-profiles-and-image-l-a7089c",
     "cornell-university-department-of-animal-science-plan-d2a002",
@@ -23484,7 +23484,7 @@
     "Wyoming Basin",
     "Yukon Flats"
    ],
-   "plates": 0,
+   "plates": 2,
    "sources": [
     "usda-nrcs-plants-database-plant-profiles-and-image-l-a7089c",
     "nc-state-extension-north-carolina-extension-gardener-d2a003"
@@ -23743,7 +23743,7 @@
     "Western Corn Belt Plains",
     "Western Gulf Coastal Plain"
    ],
-   "plates": 0,
+   "plates": 1,
    "sources": [
     "usda-nrcs-plants-database-plant-profiles-and-image-l-a7089c",
     "nc-state-extension-north-carolina-extension-gardener-d2a003"
@@ -24234,7 +24234,7 @@
     "Western Corn Belt Plains",
     "Western Gulf Coastal Plain"
    ],
-   "plates": 0,
+   "plates": 2,
    "sources": [
     "usda-nrcs-plants-database-plant-profiles-and-image-l-a7089c",
     "nc-state-extension-north-carolina-extension-gardener-d2a003"
@@ -25209,7 +25209,7 @@
     "Western Gulf Coastal Plain",
     "Willamette Valley"
    ],
-   "plates": 0,
+   "plates": 1,
    "sources": [
     "usda-nrcs-plants-database-plant-profiles-and-image-l-a7089c",
     "nc-state-extension-north-carolina-extension-gardener-d2a003"
@@ -25359,7 +25359,7 @@
     "Western Corn Belt Plains",
     "Wyoming Basin"
    ],
-   "plates": 0,
+   "plates": 2,
    "sources": [
     "usda-nrcs-plants-database-plant-profiles-and-image-l-a7089c",
     "nc-state-extension-north-carolina-extension-gardener-d2a003"
@@ -27063,7 +27063,7 @@
     "Wyoming Basin",
     "Yukon Flats"
    ],
-   "plates": 0,
+   "plates": 2,
    "sources": [
     "usda-nrcs-plants-database-plant-profiles-and-image-l-a7089c",
     "nc-state-extension-north-carolina-extension-gardener-d2a003"
@@ -29033,7 +29033,7 @@
     "Western Gulf Coastal Plain",
     "Wyoming Basin"
    ],
-   "plates": 0,
+   "plates": 2,
    "sources": [
     "usda-nrcs-plants-database-plant-profiles-and-image-l-a7089c",
     "nc-state-extension-north-carolina-extension-gardener-d2a003"
@@ -29133,7 +29133,7 @@
     "Western Corn Belt Plains",
     "Wyoming Basin"
    ],
-   "plates": 0,
+   "plates": 1,
    "sources": [
     "usda-nrcs-plants-database-plant-profiles-and-image-l-a7089c",
     "nc-state-extension-north-carolina-extension-gardener-d2a003"
@@ -30838,7 +30838,7 @@
     "Southern California Mountains",
     "Willamette Valley"
    ],
-   "plates": 0,
+   "plates": 1,
    "sources": [
     "usda-nrcs-plants-database-plant-profiles-and-image-l-a7089c",
     "nc-state-extension-north-carolina-extension-gardener-d2a003"
@@ -30906,7 +30906,7 @@
     "Willamette Valley",
     "Wrangell Mountains"
    ],
-   "plates": 0,
+   "plates": 2,
    "sources": [
     "usda-nrcs-plants-database-plant-profiles-and-image-l-a7089c",
     "nc-state-extension-north-carolina-extension-gardener-d2a003"
@@ -34542,7 +34542,7 @@
     "Willamette Valley",
     "Wyoming Basin"
    ],
-   "plates": 0,
+   "plates": 2,
    "sources": [
     "usda-nrcs-plants-database-plant-profiles-and-image-l-a7089c",
     "nc-state-extension-north-carolina-extension-gardener-d2a003"
@@ -34830,7 +34830,7 @@
     "Southwestern Appalachians",
     "Western Allegheny Plateau"
    ],
-   "plates": 0,
+   "plates": 2,
    "sources": [
     "usda-nrcs-plants-database-plant-profiles-and-image-l-a7089c",
     "nc-state-extension-north-carolina-extension-gardener-d2a003"

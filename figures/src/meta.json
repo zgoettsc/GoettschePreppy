@@ -1,0 +1,251 @@
+{
+ "fig-series-vs-parallel": {
+  "caption": "Series adds voltage, parallel adds current. Do the cold-voltage check before any series string, and never put a series string into a station with a low input-voltage ceiling.",
+  "alt": "Top: three panels of about 20 V wired plus to minus in a chain make about 60 V. A box says add the label Voc of every panel, multiply by 1.20, and the result must be below the station maximum PV input voltage. A station with a high voltage ceiling is ticked; a station with a low ceiling is crossed out. Bottom: two panels joined plus to plus and minus to minus with Y-branch connectors make about 20 V with the currents added.",
+  "pages": [
+   "09-02",
+   "09-03",
+   "09-09",
+   "09-16"
+  ]
+ },
+ "fig-generator-connection-options": {
+  "caption": "Five ways a generator can reach something in the house. Four are allowed with the right person doing the work; backfeeding through an outlet is never allowed.",
+  "alt": "Five rows, each with a generator outdoors on the left and the house wall: (a) an extension cord to one appliance, always allowed; (b) a cord to an inlet on the wall and a transfer switch beside the panel, licensed electrician; (c) a cord to an inlet and an interlock plate on the panel so the main breaker and the generator breaker are never on together, licensed electrician; (d) a furnace unplugged from its wall receptacle and plugged into the generator cord, a cord-and-plug conversion, decision card DC-07; (e) a cord with two male ends pushed into a wall outlet, crossed out in red: backfeed, never.",
+  "pages": [
+   "09-04",
+   "09-16"
+  ]
+ },
+ "fig-backfeed-path": {
+  "caption": "Backfeeding: generator power pushed into an outlet flows out through the panel and meter to the pole transformer, which raises it to the street line's voltage and kills a line worker who believes the line is dead. The safe path: an inlet and a transfer switch or interlock, with the main breaker off.",
+  "alt": "Two house cutaways with the service wires, the meter, the panel, a pole transformer and a line worker on the next pole. Top, crossed out: a generator outside with a cord that has two male ends pushed into a wall outlet; red arrows run from the outlet to the panel, out through the meter and the service wires to the transformer and along the street line to the worker. Bottom, ticked: the generator cord goes to an outdoor inlet and a transfer switch or interlock; the main breaker is off and nothing reaches the street.",
+  "pages": [
+   "30-01",
+   "17-08",
+   "29-04"
+  ]
+ },
+ "fig-generator-siting": {
+  "caption": "Where the generator runs: outdoors, 20 feet or more from any window, door or vent, exhaust pointed away from every house, never in a garage or under a deck or overhang.",
+  "alt": "Plan view from above. A house with windows, a door and a vent, an attached garage and a deck. Inside the garage and under the deck a generator is crossed out in red. Out in the yard a generator sits 20 feet or more from the nearest window, its exhaust arrow pointing away from the house and away from the neighbour's house. A checklist below repeats the rules and says to keep battery carbon monoxide alarms on inside.",
+  "pages": [
+   "09-04",
+   "09-15",
+   "30-01",
+   "17-08"
+  ]
+ },
+ "fig-cord-and-plug-conversion": {
+  "caption": "Cord-and-plug conversion (DC-07): the furnace gets its own plug. Normal: it plugs into the receptacle where its old house circuit now ends. Outage: main breaker off and locked, furnace unplugged from the wall and plugged into the generator cord, which has one male and one female end.",
+  "alt": "Two rows. Normal: the panel with breakers on feeds a wall receptacle; the furnace cord and plug are plugged into it; plug and receptacle are labelled. Outage: the main breaker is off with a lock; the wall receptacle is empty; the furnace plug goes into the female end of an extension cord whose male end is in the generator outdoors. A red note says never a cord with two male ends and never into house wiring.",
+  "pages": [
+   "09-04",
+   "30-08"
+  ]
+ },
+ "fig-mc4-polarity-check": {
+  "caption": "Check a panel string before plugging it in: meter on DC volts, red probe to the + lead, black to the \u2212 lead. A minus sign on the display means a connector is reversed: swap it.",
+  "alt": "A multimeter set to DC volts with its red probe touching the panel lead marked plus and its black probe on the minus lead. One display shows a plain number labelled correct; a second display shows the same number with a minus sign, labelled reversed, swap it before anything is plugged in.",
+  "pages": [
+   "09-03",
+   "09-12",
+   "09-16"
+  ]
+ },
+ "fig-warm-room-layout": {
+  "caption": "The warm room: heater behind a barrier at its label clearances, the heater's air openings, the door closed and hung with a blanket, everyone sleeping in the room, the CO alarm on the wall opposite the heater at pillow height.",
+  "alt": "Plan view of one room. The heater stands near the outside wall with the window, inside a barrier drawn at the clearances on its label. The door is closed with a blanket hung over it. Mattresses and a small tent are at the far side, pillows toward the wall opposite the heater, where the CO alarm is mounted at pillow height. An inset shows the window wall from inside: a 3 by 3 inch opening at ceiling level and another at floor level for a propane heater, or the window cracked at least 1 inch for a wick kerosene heater when the room is smaller than its manual requires.",
+  "pages": [
+   "08-01"
+  ]
+ },
+ "fig-co-alarm-placement": {
+  "caption": "Carbon monoxide alarms: one on every level and one outside each sleeping area; in the warm room, on the wall opposite the heater at pillow height. Never above the heater, in a ceiling corner, beside a window, door, vent or fan, or in a bathroom.",
+  "alt": "Cutaway of a two-storey house with a basement. Green alarms: in the upstairs hall outside the bedrooms, on the main floor, in the basement, and in the warm room on the wall opposite the heater at the height of a sleeping person's head. Red crossed-out alarms: directly above the heater, in the corner where wall meets ceiling, beside the cracked window, and in the bathroom.",
+  "pages": [
+   "08-02"
+  ]
+ },
+ "fig-propane-heater-hose-route": {
+  "caption": "Portable propane heater on a 20-lb tank: the tank outdoors on a board, the maker's hose through a cracked ground-level window or door with a towel at the gap, the fuel filter at the heater's regulator, both air openings open, and the CO alarm on the opposite wall at pillow height.",
+  "alt": "Cutaway of a room at ground level and the yard outside. Outside, a 20-lb propane tank stands upright on a board. The maker's hose runs from the tank valve through a window cracked at ground level, with a towel round the gap, to the heater on the floor inside. The fuel filter sits between the hose and the heater regulator. The heater has its clearances marked, 30 inches above, 24 inches in front, 6 inches each side. A 3 by 3 inch opening at ceiling level and another at floor level are open. The CO alarm is on the far wall at pillow height.",
+  "pages": [
+   "08-09"
+  ]
+ },
+ "fig-heater-barrier-clearances": {
+  "caption": "A fixed, anchored barrier around the heater at the clearances on its label, the hot-zone line taped on the floor, the play area on the far side from the heater and its air openings, and the CO alarm at pillow height.",
+  "alt": "Plan view of a room. The heater stands inside a ring of play-yard panels anchored to the wall, set back by the clearances printed on its label, with blanks to write the above, front and side distances. A taped line on the floor marks the hot zone that children do not cross. The play area and crib are on the far side of the room from the heater and the air openings. The CO alarm is on the far wall at pillow height.",
+  "pages": [
+   "20-02"
+  ]
+ },
+ "fig-tourniquet-placement": {
+  "caption": "Tourniquet: 2 to 3 inches above the wound, on the limb, never over a joint. Tighten until the bleeding stops and there is no pulse below, lock the windlass, write the time on it, never loosen it. Still bleeding: a second tourniquet above the first.",
+  "alt": "Two legs drawn lying flat. Top: a wound on the thigh; a windlass tourniquet sits 2 to 3 inches above it, between the wound and the body, with the windlass rod locked in its clip and TIME written on the strap; a dashed second tourniquet is shown above the first for when bleeding continues. Bottom: a wound just below the knee; a tourniquet over the knee is crossed out in red, and the correct one is above the knee on the thigh.",
+  "pages": [
+   "12-02"
+  ]
+ },
+ "fig-wound-packing": {
+  "caption": "Wound packing for the groin, armpit or neck, where a tourniquet cannot go: push gauze in until the wound is full, then press hard on top and keep pressing. Never pack the chest or belly: cover and press.",
+  "alt": "Left: a simple body outline. The groin, armpit and neck are marked in green as places to pack; the chest and belly are shaded red with \"do not pack: cover and press\". Right, two cross-sections of a wound below the skin: first, fingers push a long strip of gauze into the wound until it is filled; second, two hands stacked on top press straight down hard.",
+  "pages": [
+   "12-02"
+  ]
+ },
+ "fig-cpr-adult": {
+  "caption": "Adult CPR: two hands stacked on the centre of the chest, arms straight, shoulders over the hands. Push 2 to 2.4 inches deep, 100 to 120 a minute, let the chest come fully back up. 30 compressions to 2 breaths.",
+  "alt": "Side view of a person lying on their back on the floor and a rescuer kneeling beside them, arms straight, shoulders directly above two stacked hands on the centre of the chest. An arrow shows the push of 2 to 2.4 inches. An inset shows the heel of one hand on the chest with the other hand on top, fingers laced and lifted.",
+  "pages": [
+   "12-18"
+  ]
+ },
+ "fig-cpr-child": {
+  "caption": "Child CPR (1 year to puberty): heel of one hand (two for a bigger child) on the centre of the chest, about 2 inches deep, 100 to 120 a minute. Head tilt and chin lift for breaths. 30:2 with one rescuer, 15:2 with two.",
+  "alt": "Side view of a child lying on their back and a kneeling rescuer pressing with the heel of one hand on the centre of the chest, arm straight. An arrow shows a push of about 2 inches. A second small drawing shows the head tilted back with two fingers lifting the chin.",
+  "pages": [
+   "12-18"
+  ]
+ },
+ "fig-cpr-infant": {
+  "caption": "Infant CPR (under 1 year): two fingers on the centre of the chest just below the nipple line, about 1\u00bd inches deep, 100 to 120 a minute; with two rescuers, two thumbs with the hands encircling the chest. Cover mouth and nose with your mouth; gentle puffs.",
+  "alt": "Left: an infant on its back on a firm surface, head in a neutral sniffing position, with two fingers pressing the centre of the chest just below the nipple line and an arrow showing about 1\u00bd inches. Right: seen from above, two hands wrap around the infant's chest with both thumbs side by side on the breastbone. Below: the rescuer's mouth covering the infant's mouth and nose.",
+  "pages": [
+   "12-18"
+  ]
+ },
+ "fig-choking-infant": {
+  "caption": "Choking infant under 1: five firm back blows with the baby face-down along your forearm, head lower than chest, jaw supported; then turn face-up for five chest thrusts with two fingers just below the nipple line. Never abdominal thrusts under 1.",
+  "alt": "Two panels. Left: a seated adult rests a forearm on the thigh with the infant lying face-down along it, head lower than the chest and the jaw held in the hand; the other hand strikes between the shoulder blades, marked 5 back blows. Right: the infant face-up along the forearm, head lower, with two fingers on the centre of the chest just below the nipple line, marked 5 chest thrusts.",
+  "pages": [
+   "12-18"
+  ]
+ },
+ "fig-choking-child-adult": {
+  "caption": "Choking, age 1 to adult: bend them forward and give five back blows between the shoulder blades, then five abdominal thrusts from behind, fist just above the navel, in and up. Kneel behind a small child. Pregnant or too big to reach round: chest thrusts.",
+  "alt": "Three panels. Left: a standing person bent forward at the waist, a rescuer beside them supporting the chest with one arm and striking between the shoulder blades with the heel of the other hand, marked 5 back blows. Middle: the rescuer standing behind with arms around, a fist just above the navel, arrow in and up, marked 5 abdominal thrusts. Right: the rescuer kneeling behind a small child doing the same.",
+  "pages": [
+   "12-18"
+  ]
+ },
+ "fig-recovery-position": {
+  "caption": "Recovery position: on their side, top knee bent forward to stop them rolling, head tilted back and mouth pointing down so vomit drains and the airway stays open. Check breathing.",
+  "alt": "Seen from above, a person lying on their side. The lower arm is out in front, the upper hand is under the cheek, the head is tilted back with the mouth pointing toward the ground, and the upper leg is bent forward at hip and knee so the knee rests on the ground in front of the body.",
+  "pages": [
+   "12-17",
+   "02-01",
+   "02-11",
+   "02-17"
+  ]
+ },
+ "fig-knot-parts-of-a-rope": {
+  "caption": "The words used in every knot step: working end, standing part, bight, loop.",
+  "alt": "One rope drawn across the frame. The short free end on the right is labelled working end; the long rest on the left is labelled standing part. Below, a U-shaped fold with no crossing is labelled bight, and a circle where the rope crosses itself is labelled loop.",
+  "pages": [
+   "16-03"
+  ]
+ },
+ "fig-knot-taut-line-hitch": {
+  "caption": "Taut-line hitch on a guy line: around the anchor, then two wraps around the standing part inside the loop, one wrap outside it, tucked. It slides by hand and holds under load.",
+  "alt": "A stake at the left and a tarp at the right. The line runs from the tarp to the stake, around it and back toward the tarp. The working end makes wraps 1 and 2 around the standing part inside the big loop, then wrap 3 on the tarp side outside the loop, and is tucked under that last wrap. Arrows show the knot sliding along the standing part to tighten.",
+  "pages": [
+   "16-03"
+  ]
+ },
+ "fig-knot-truckers-hitch": {
+  "caption": "Trucker's hitch: far end tied off, a pulley loop in the standing part, the working end around the anchor and back up through the loop, pulled tight, locked with two half hitches.",
+  "alt": "Side view of a load on a trailer bed. The rope is tied to a fixed point on the far side, runs over the load and down toward the anchor hook. About two feet above the anchor a hanging loop is formed in the standing part. The working end goes down around the anchor, back up through the loop, and is pulled down; two half hitches lock it around both strands below the loop.",
+  "pages": [
+   "16-03"
+  ]
+ },
+ "fig-knot-prusik": {
+  "caption": "Prusik: a closed loop of thinner cord wrapped three times around a thicker rope. It slides when you push the wraps and grips when the loop is pulled. Not for holding a person.",
+  "alt": "A thick horizontal ridge line. A closed loop of thin cord is passed around it three times, each wrap inside the last, so three neat turns sit side by side; the loop hangs down below with an arrow showing the pull that makes it grip.",
+  "pages": [
+   "16-03"
+  ]
+ },
+ "fig-vehicle-recovery-setup": {
+  "caption": "Pulling a stuck vehicle: a rated strap with no metal hooks, attached to rated recovery points or the hitch receiver with a rated shackle, never the hitch ball; a blanket or mat over the middle of the strap; everyone else at least 1.5 times the strap length away and out of line with the pull.",
+  "alt": "Two vehicles nose to tail, seen from the side and from above. A recovery strap runs between them from the receiver of the pulling vehicle, through a shackle, to a rated recovery point on the stuck one; a hitch ball is crossed out. A blanket hangs over the middle of the strap. From above, a shaded no-standing zone covers the line of pull and extends past both vehicles; people stand to the side, at least 1.5 times the strap length away.",
+  "pages": [
+   "16-03"
+  ]
+ },
+ "fig-gas-valve-on-off": {
+  "caption": "Natural gas shutoff at the meter: the valve is on the pipe coming out of the ground, before the meter. Bar in line with the pipe = ON; a quarter turn with a wrench so the bar lies crosswise = OFF. Propane: close the valve under the tank's dome, clockwise.",
+  "alt": "Two drawings of a gas meter on its riser pipe. Left, ON: the flat bar on the valve body points along the pipe. Right, OFF: the bar is turned a quarter turn so it lies across the pipe, with an adjustable wrench on it and a curved arrow. Below, a propane tank with the dome lid open and the valve marked clockwise to close.",
+  "pages": [
+   "16-12"
+  ]
+ },
+ "fig-water-heater-valves": {
+  "caption": "Getting water out of a tank water heater: heat off (gas control to OFF, or the breaker off), close the cold-water inlet valve on top, open a hot tap higher in the house, then open the drain valve at the base slowly into a hose or bucket. The water can be scalding.",
+  "alt": "A tank water heater seen from the front. On top, the cold-water inlet pipe with its valve, marked close, and the hot outlet pipe. Low on the front, the gas control knob marked OFF, not pilot, or for an electric heater the breaker off. At the base, the drain valve with a hose running to a bucket, marked open slowly, scalding. A note shows a hot tap upstairs left open to let air in. Numbers 1 to 4 follow the draining steps.",
+  "pages": [
+   "03-02",
+   "08-03"
+  ]
+ },
+ "fig-fuel-can-colours": {
+  "caption": "US fuel can colours: red gasoline, yellow diesel, blue kerosene. Propane comes only in pressure cylinders. Trust the label, not the colour: every can is labelled with its fuel.",
+  "alt": "Three portable fuel cans side by side, red labelled GASOLINE, yellow labelled DIESEL, blue labelled KEROSENE, each with a hand-written label, then a grey propane cylinder and a printed metal camp-fuel can. Below: the label, not the colour.",
+  "pages": [
+   "06-06",
+   "29-01"
+  ]
+ },
+ "fig-three-phases": {
+  "caption": "The binder's spine: A, shelter in place at home for as long as home works; the go or no-go decision; B, movement; C, establish at a destination or wherever you end up. You can turn back from B to A, and move again from C.",
+  "alt": "Three boxes left to right, A shelter in place, B movement, C establish. Between A and B a diamond reads go or no-go. A curved arrow from B back to A is labelled turn back; a curved arrow from C back to B is labelled move again.",
+  "pages": [
+   "00-01"
+  ]
+ },
+ "fig-jar-headspace-and-seal": {
+  "caption": "Canning jar: headspace is the empty space between the food and the lid, set by the recipe. Sealed: the lid is pulled down (concave) and does not flex. Unsealed: fridge and eat now, or reprocess with a new lid. Bulging lid: throw away without tasting.",
+  "alt": "Left: cross-section of a canning jar with band and flat lid, the food level, and the headspace between food and lid marked as the recipe says. Right, three lids side by side: sealed, dipped in the centre, ticked; unsealed, flexing up and down when pressed, marked fridge and eat now or reprocess; bulging, domed up, crossed out and marked throw away, do not taste.",
+  "pages": [
+   "04-04",
+   "29-08"
+  ]
+ },
+ "fig-fallout-decay-7-10": {
+  "caption": "The 7-10 rule (HHS REMM): fallout radiation falls about tenfold for every sevenfold increase in time. 1 hour: the starting level; 7 hours: about 1/10; 2 days: about 1/100; 2 weeks: about 1/1,000.",
+  "alt": "Four bars on a logarithmic scale. 1 hour after the explosion, a full bar labelled the starting level; 7 hours, a bar one step lower labelled about 1/10; 2 days (49 hours), another step lower, about 1/100; 2 weeks, the lowest, about 1/1,000.",
+  "pages": [
+   "27-05"
+  ]
+ },
+ "fig-cup-on-lid-still": {
+  "caption": "Cup-on-lid still (CDC): pot half full of filtered water, lid upside down, cup tied to the lid handle so it hangs upright and does not touch the water. Boil 20 minutes; the water in the cup is distilled.",
+  "alt": "Cutaway of a pot on a flame, half full of water. The lid sits upside down so its handle points into the pot; a cup is tied to the handle and hangs upright above the water. Steam rises, condenses on the lid, runs to the low middle point and drips into the cup.",
+  "pages": [
+   "03-03"
+  ]
+ },
+ "fig-bucket-toilet": {
+  "caption": "Bucket toilet: two 5-gallon buckets (one in use, one being emptied), a snap-on seat with lid, a bag liner, cover material and a scoop beside it, a separate urine jug, and handwashing right next to it.",
+  "alt": "Side by side: a 5-gallon bucket with a snap-on toilet seat and lid and a bag liner, labelled in use; a second bucket labelled spare, being emptied and cleaned; a bin of cover material such as sawdust with a scoop; a jug for urine; and a handwashing station with soap.",
+  "pages": [
+   "13-01"
+  ]
+ },
+ "fig-latrine-setbacks": {
+  "caption": "Latrine siting: downhill of the well and at least 100 ft from it and from any surface water, 50 ft or more from the house, never in a drainage path or floodplain; at least 5 ft of dry soil under the bottom of the pit.",
+  "alt": "Top, plan view on a slope with an arrow pointing downhill. The well is uphill; the house is between; the latrine is downhill, at least 100 ft from the well and at least 100 ft from a creek, and 50 ft or more from the house. Bottom, side view of the pit with at least 5 ft of dry soil between its bottom and the water table.",
+  "pages": [
+   "13-07"
+  ]
+ },
+ "fig-cal-hypo-two-step": {
+  "caption": "Pool shock (calcium hypochlorite), the EPA two-step method: 1, one heaping teaspoon (about 1/4 oz) of granules into 2 gallons of water makes the stock, labelled DO NOT DRINK; 2, one part stock to 100 parts water (1 pint per 12.5 gallons), stir, wait 30 minutes, expect a slight chlorine smell.",
+  "alt": "Step 1: a heaping teaspoon of granules going into a 2-gallon bucket of water, the bucket labelled CHLORINE STOCK: DO NOT DRINK. Step 2: a pint of stock poured into 12.5 gallons of water, with the equivalents per gallon and per 5 gallons, a 30-minute clock, and a check for a slight chlorine smell. A label panel shows 65 to 73 percent calcium hypochlorite with no algaecides, clarifiers or stabilizers.",
+  "pages": [
+   "03-04"
+  ]
+ }
+}
