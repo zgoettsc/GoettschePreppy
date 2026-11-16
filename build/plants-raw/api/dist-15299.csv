@@ -1,0 +1,328 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+THOC2,Canada,Manitoba,03,,
+THOC2,Canada,New Brunswick,04,,
+THOC2,Canada,Nova Scotia,07,,
+THOC2,Canada,Ontario,08,,
+THOC2,Canada,Prince Edward Island,09,,
+THOC2,United States,Connecticut,09,,
+THOC2,Canada,Quebec,10,,
+THOC2,United States,Illinois,17,,
+THOC2,United States,Illinois,17,Cook,031
+THOC2,United States,Illinois,17,Kane,089
+THOC2,United States,Illinois,17,Lake,097
+THOC2,United States,Illinois,17,LaSalle,099
+THOC2,United States,Illinois,17,Will,197
+THOC2,United States,Indiana,18,,
+THOC2,United States,Indiana,18,Lake,089
+THOC2,United States,Indiana,18,LaPorte,091
+THOC2,United States,Indiana,18,Porter,127
+THOC2,United States,Iowa,19,,
+THOC2,United States,Kentucky,21,,
+THOC2,United States,Kentucky,21,McCreary,147
+THOC2,United States,Kentucky,21,Pike,195
+THOC2,United States,Kentucky,21,Pulaski,199
+THOC2,United States,Kentucky,21,Russell,207
+THOC2,United States,Kentucky,21,Wayne,231
+THOC2,United States,Maine,23,,
+THOC2,United States,Maine,23,Androscoggin,001
+THOC2,United States,Maine,23,Aroostook,003
+THOC2,United States,Maine,23,Cumberland,005
+THOC2,United States,Maine,23,Franklin,007
+THOC2,United States,Maine,23,Hancock,009
+THOC2,United States,Maine,23,Kennebec,011
+THOC2,United States,Maine,23,Knox,013
+THOC2,United States,Maine,23,Lincoln,015
+THOC2,United States,Maine,23,Oxford,017
+THOC2,United States,Maine,23,Penobscot,019
+THOC2,United States,Maine,23,Piscataquis,021
+THOC2,United States,Maine,23,Sagadahoc,023
+THOC2,United States,Maine,23,Somerset,025
+THOC2,United States,Maine,23,Waldo,027
+THOC2,United States,Maine,23,Washington,029
+THOC2,United States,Maine,23,York,031
+THOC2,United States,Maryland,24,,
+THOC2,United States,Maryland,24,Allegany,001
+THOC2,United States,Maryland,24,Montgomery,031
+THOC2,United States,Maryland,24,Washington,043
+THOC2,United States,Massachusetts,25,,
+THOC2,United States,Massachusetts,25,Barnstable,001
+THOC2,United States,Massachusetts,25,Berkshire,003
+THOC2,United States,Massachusetts,25,Bristol,005
+THOC2,United States,Massachusetts,25,Dukes,007
+THOC2,United States,Massachusetts,25,Essex,009
+THOC2,United States,Massachusetts,25,Hampshire,015
+THOC2,United States,Massachusetts,25,Middlesex,017
+THOC2,United States,Massachusetts,25,Worcester,027
+THOC2,United States,Michigan,26,,
+THOC2,United States,Michigan,26,Alcona,001
+THOC2,United States,Michigan,26,Alger,003
+THOC2,United States,Michigan,26,Alpena,007
+THOC2,United States,Michigan,26,Antrim,009
+THOC2,United States,Michigan,26,Arenac,011
+THOC2,United States,Michigan,26,Baraga,013
+THOC2,United States,Michigan,26,Benzie,019
+THOC2,United States,Michigan,26,Berrien,021
+THOC2,United States,Michigan,26,Cass,027
+THOC2,United States,Michigan,26,Charlevoix,029
+THOC2,United States,Michigan,26,Cheboygan,031
+THOC2,United States,Michigan,26,Chippewa,033
+THOC2,United States,Michigan,26,Clare,035
+THOC2,United States,Michigan,26,Clinton,037
+THOC2,United States,Michigan,26,Crawford,039
+THOC2,United States,Michigan,26,Delta,041
+THOC2,United States,Michigan,26,Dickinson,043
+THOC2,United States,Michigan,26,Emmet,047
+THOC2,United States,Michigan,26,Genesee,049
+THOC2,United States,Michigan,26,Gladwin,051
+THOC2,United States,Michigan,26,Gogebic,053
+THOC2,United States,Michigan,26,Grand Traverse,055
+THOC2,United States,Michigan,26,Gratiot,057
+THOC2,United States,Michigan,26,Houghton,061
+THOC2,United States,Michigan,26,Huron,063
+THOC2,United States,Michigan,26,Ingham,065
+THOC2,United States,Michigan,26,Iosco,069
+THOC2,United States,Michigan,26,Iron,071
+THOC2,United States,Michigan,26,Isabella,073
+THOC2,United States,Michigan,26,Jackson,075
+THOC2,United States,Michigan,26,Kalkaska,079
+THOC2,United States,Michigan,26,Kent,081
+THOC2,United States,Michigan,26,Keweenaw,083
+THOC2,United States,Michigan,26,Lake,085
+THOC2,United States,Michigan,26,Lapeer,087
+THOC2,United States,Michigan,26,Leelanau,089
+THOC2,United States,Michigan,26,Luce,095
+THOC2,United States,Michigan,26,Mackinac,097
+THOC2,United States,Michigan,26,Macomb,099
+THOC2,United States,Michigan,26,Manistee,101
+THOC2,United States,Michigan,26,Marquette,103
+THOC2,United States,Michigan,26,Mason,105
+THOC2,United States,Michigan,26,Mecosta,107
+THOC2,United States,Michigan,26,Menominee,109
+THOC2,United States,Michigan,26,Midland,111
+THOC2,United States,Michigan,26,Montcalm,117
+THOC2,United States,Michigan,26,Montmorency,119
+THOC2,United States,Michigan,26,Muskegon,121
+THOC2,United States,Michigan,26,Newaygo,123
+THOC2,United States,Michigan,26,Oakland,125
+THOC2,United States,Michigan,26,Oceana,127
+THOC2,United States,Michigan,26,Ogemaw,129
+THOC2,United States,Michigan,26,Ontonagon,131
+THOC2,United States,Michigan,26,Osceola,133
+THOC2,United States,Michigan,26,Oscoda,135
+THOC2,United States,Michigan,26,Otsego,137
+THOC2,United States,Michigan,26,Presque Isle,141
+THOC2,United States,Michigan,26,Roscommon,143
+THOC2,United States,Michigan,26,Saginaw,145
+THOC2,United States,Michigan,26,Sanilac,151
+THOC2,United States,Michigan,26,Schoolcraft,153
+THOC2,United States,Michigan,26,Shiawassee,155
+THOC2,United States,Michigan,26,St. Clair,147
+THOC2,United States,Michigan,26,Tuscola,157
+THOC2,United States,Michigan,26,Washtenaw,161
+THOC2,United States,Michigan,26,Wexford,165
+THOC2,United States,Minnesota,27,,
+THOC2,United States,Minnesota,27,Aitkin,001
+THOC2,United States,Minnesota,27,Anoka,003
+THOC2,United States,Minnesota,27,Beltrami,007
+THOC2,United States,Minnesota,27,Carlton,017
+THOC2,United States,Minnesota,27,Cass,021
+THOC2,United States,Minnesota,27,Clearwater,029
+THOC2,United States,Minnesota,27,Cook,031
+THOC2,United States,Minnesota,27,Crow Wing,035
+THOC2,United States,Minnesota,27,Houston,055
+THOC2,United States,Minnesota,27,Isanti,059
+THOC2,United States,Minnesota,27,Itasca,061
+THOC2,United States,Minnesota,27,Kanabec,065
+THOC2,United States,Minnesota,27,Koochiching,071
+THOC2,United States,Minnesota,27,Lake,075
+THOC2,United States,Minnesota,27,Lake of the Woods,077
+THOC2,United States,Minnesota,27,Otter Tail,111
+THOC2,United States,Minnesota,27,Pine,115
+THOC2,United States,Minnesota,27,Pope,121
+THOC2,United States,Minnesota,27,Roseau,135
+THOC2,United States,Minnesota,27,St. Louis,137
+THOC2,United States,Minnesota,27,Washington,163
+THOC2,United States,Minnesota,27,Winona,169
+THOC2,United States,New Hampshire,33,,
+THOC2,United States,New Hampshire,33,Carroll,003
+THOC2,United States,New Hampshire,33,Cheshire,005
+THOC2,United States,New Hampshire,33,Coos,007
+THOC2,United States,New Hampshire,33,Grafton,009
+THOC2,United States,New Hampshire,33,Hillsborough,011
+THOC2,United States,New Hampshire,33,Merrimack,013
+THOC2,United States,New Hampshire,33,Rockingham,015
+THOC2,United States,New Hampshire,33,Sullivan,019
+THOC2,United States,New Jersey,34,,
+THOC2,United States,New Jersey,34,Bergen,003
+THOC2,United States,New Jersey,34,Hudson,017
+THOC2,United States,New Jersey,34,Monmouth,025
+THOC2,United States,New Jersey,34,Sussex,037
+THOC2,United States,New Jersey,34,Warren,041
+THOC2,United States,New York,36,,
+THOC2,United States,New York,36,Bronx,005
+THOC2,United States,New York,36,Clinton,019
+THOC2,United States,New York,36,Columbia,021
+THOC2,United States,New York,36,Dutchess,027
+THOC2,United States,New York,36,Erie,029
+THOC2,United States,New York,36,Essex,031
+THOC2,United States,New York,36,Franklin,033
+THOC2,United States,New York,36,Fulton,035
+THOC2,United States,New York,36,Genesee,037
+THOC2,United States,New York,36,Greene,039
+THOC2,United States,New York,36,Hamilton,041
+THOC2,United States,New York,36,Herkimer,043
+THOC2,United States,New York,36,Kings,047
+THOC2,United States,New York,36,Lewis,049
+THOC2,United States,New York,36,Livingston,051
+THOC2,United States,New York,36,Madison,053
+THOC2,United States,New York,36,Monroe,055
+THOC2,United States,New York,36,Nassau,059
+THOC2,United States,New York,36,New York,061
+THOC2,United States,New York,36,Niagara,063
+THOC2,United States,New York,36,Oneida,065
+THOC2,United States,New York,36,Onondaga,067
+THOC2,United States,New York,36,Ontario,069
+THOC2,United States,New York,36,Orange,071
+THOC2,United States,New York,36,Oswego,075
+THOC2,United States,New York,36,Putnam,079
+THOC2,United States,New York,36,Queens,081
+THOC2,United States,New York,36,Rockland,087
+THOC2,United States,New York,36,Seneca,099
+THOC2,United States,New York,36,St. Lawrence,089
+THOC2,United States,New York,36,Steuben,101
+THOC2,United States,New York,36,Suffolk,103
+THOC2,United States,New York,36,Tompkins,109
+THOC2,United States,New York,36,Ulster,111
+THOC2,United States,New York,36,Warren,113
+THOC2,United States,New York,36,Washington,115
+THOC2,United States,New York,36,Westchester,119
+THOC2,United States,New York,36,Yates,123
+THOC2,United States,North Carolina,37,,
+THOC2,United States,Ohio,39,,
+THOC2,United States,Ohio,39,Delaware,041
+THOC2,United States,Ohio,39,Franklin,049
+THOC2,United States,Ohio,39,Scioto,145
+THOC2,United States,Pennsylvania,42,,
+THOC2,United States,Pennsylvania,42,Armstrong,005
+THOC2,United States,Pennsylvania,42,Beaver,007
+THOC2,United States,Pennsylvania,42,Chester,029
+THOC2,United States,Pennsylvania,42,Erie,049
+THOC2,United States,Pennsylvania,42,Fayette,051
+THOC2,United States,Pennsylvania,42,Lehigh,077
+THOC2,United States,Pennsylvania,42,Luzerne,079
+THOC2,United States,Pennsylvania,42,Warren,123
+THOC2,United States,Pennsylvania,42,Westmoreland,129
+THOC2,United States,Rhode Island,44,,
+THOC2,United States,Rhode Island,44,Providence,007
+THOC2,United States,South Carolina,45,,
+THOC2,United States,Tennessee,47,,
+THOC2,United States,Tennessee,47,Anderson,001
+THOC2,United States,Tennessee,47,Campbell,013
+THOC2,United States,Tennessee,47,Carter,019
+THOC2,United States,Tennessee,47,Claiborne,025
+THOC2,United States,Tennessee,47,Hancock,067
+THOC2,United States,Tennessee,47,Johnson,091
+THOC2,United States,Tennessee,47,Pickett,137
+THOC2,United States,Tennessee,47,Putnam,141
+THOC2,United States,Tennessee,47,Roane,145
+THOC2,United States,Tennessee,47,Scott,151
+THOC2,United States,Tennessee,47,Sullivan,163
+THOC2,United States,Tennessee,47,Van Buren,175
+THOC2,United States,Tennessee,47,Washington,179
+THOC2,United States,Vermont,50,,
+THOC2,United States,Vermont,50,Addison,001
+THOC2,United States,Vermont,50,Bennington,003
+THOC2,United States,Vermont,50,Caledonia,005
+THOC2,United States,Vermont,50,Chittenden,007
+THOC2,United States,Vermont,50,Essex,009
+THOC2,United States,Vermont,50,Franklin,011
+THOC2,United States,Vermont,50,Grand Isle,013
+THOC2,United States,Vermont,50,Lamoille,015
+THOC2,United States,Vermont,50,Orange,017
+THOC2,United States,Vermont,50,Orleans,019
+THOC2,United States,Vermont,50,Rutland,021
+THOC2,United States,Vermont,50,Washington,023
+THOC2,United States,Vermont,50,Windsor,027
+THOC2,United States,Virginia,51,,
+THOC2,United States,Virginia,51,Alleghany,005
+THOC2,United States,Virginia,51,Amherst,009
+THOC2,United States,Virginia,51,Augusta,015
+THOC2,United States,Virginia,51,Bath,017
+THOC2,United States,Virginia,51,Bland,021
+THOC2,United States,Virginia,51,Botetourt,023
+THOC2,United States,Virginia,51,Buckingham,029
+THOC2,United States,Virginia,51,Clarke,043
+THOC2,United States,Virginia,51,Frederick,069
+THOC2,United States,Virginia,51,Giles,071
+THOC2,United States,Virginia,51,Grayson,077
+THOC2,United States,Virginia,51,Highland,091
+THOC2,United States,Virginia,51,Lee,105
+THOC2,United States,Virginia,51,Montgomery,121
+THOC2,United States,Virginia,51,Page,139
+THOC2,United States,Virginia,51,Pulaski,155
+THOC2,United States,Virginia,51,Roanoke,161
+THOC2,United States,Virginia,51,Rockbridge,163
+THOC2,United States,Virginia,51,Rockingham,165
+THOC2,United States,Virginia,51,Russell,167
+THOC2,United States,Virginia,51,Scott,169
+THOC2,United States,Virginia,51,Shenandoah,171
+THOC2,United States,Virginia,51,Smyth,173
+THOC2,United States,Virginia,51,Tazewell,185
+THOC2,United States,Virginia,51,Washington,191
+THOC2,United States,Virginia,51,Wythe,197
+THOC2,United States,West Virginia,54,,
+THOC2,United States,West Virginia,54,Berkeley,003
+THOC2,United States,West Virginia,54,Grant,023
+THOC2,United States,West Virginia,54,Greenbrier,025
+THOC2,United States,West Virginia,54,Mercer,055
+THOC2,United States,West Virginia,54,Pendleton,071
+THOC2,United States,West Virginia,54,Summers,089
+THOC2,United States,Wisconsin,55,,
+THOC2,United States,Wisconsin,55,Adams,001
+THOC2,United States,Wisconsin,55,Ashland,003
+THOC2,United States,Wisconsin,55,Bayfield,007
+THOC2,United States,Wisconsin,55,Brown,009
+THOC2,United States,Wisconsin,55,Burnett,013
+THOC2,United States,Wisconsin,55,Chippewa,017
+THOC2,United States,Wisconsin,55,Columbia,021
+THOC2,United States,Wisconsin,55,Dodge,027
+THOC2,United States,Wisconsin,55,Door,029
+THOC2,United States,Wisconsin,55,Douglas,031
+THOC2,United States,Wisconsin,55,Dunn,033
+THOC2,United States,Wisconsin,55,Florence,037
+THOC2,United States,Wisconsin,55,Fond du Lac,039
+THOC2,United States,Wisconsin,55,Forest,041
+THOC2,United States,Wisconsin,55,Green Lake,047
+THOC2,United States,Wisconsin,55,Iron,051
+THOC2,United States,Wisconsin,55,Kenosha,059
+THOC2,United States,Wisconsin,55,Kewaunee,061
+THOC2,United States,Wisconsin,55,Langlade,067
+THOC2,United States,Wisconsin,55,Lincoln,069
+THOC2,United States,Wisconsin,55,Manitowoc,071
+THOC2,United States,Wisconsin,55,Marathon,073
+THOC2,United States,Wisconsin,55,Marinette,075
+THOC2,United States,Wisconsin,55,Marquette,077
+THOC2,United States,Wisconsin,55,Menominee,078
+THOC2,United States,Wisconsin,55,Milwaukee,079
+THOC2,United States,Wisconsin,55,Oconto,083
+THOC2,United States,Wisconsin,55,Oneida,085
+THOC2,United States,Wisconsin,55,Outagamie,087
+THOC2,United States,Wisconsin,55,Ozaukee,089
+THOC2,United States,Wisconsin,55,Pierce,093
+THOC2,United States,Wisconsin,55,Polk,095
+THOC2,United States,Wisconsin,55,Portage,097
+THOC2,United States,Wisconsin,55,Price,099
+THOC2,United States,Wisconsin,55,Rusk,107
+THOC2,United States,Wisconsin,55,Sauk,111
+THOC2,United States,Wisconsin,55,Sawyer,113
+THOC2,United States,Wisconsin,55,Shawano,115
+THOC2,United States,Wisconsin,55,Sheboygan,117
+THOC2,United States,Wisconsin,55,St. Croix,109
+THOC2,United States,Wisconsin,55,Taylor,119
+THOC2,United States,Wisconsin,55,Trempealeau,121
+THOC2,United States,Wisconsin,55,Vilas,125
+THOC2,United States,Wisconsin,55,Washington,131
+THOC2,United States,Wisconsin,55,Waupaca,135
+THOC2,United States,Wisconsin,55,Waushara,137
+THOC2,United States,Wisconsin,55,Wood,141

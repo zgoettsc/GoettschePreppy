@@ -1,0 +1,21 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+THPE3,United States,Florida,12,,
+THPE3,United States,Florida,12,Brevard,009
+THPE3,United States,Florida,12,Sarasota,115
+THPE3,United States,Hawaii,15,,
+THPE3,United States,Hawaii,15,Honolulu,003
+THPE3,United States,Hawaii,15,Kauai,007
+THPE3,United States,Hawaii,15,Maui,009
+THPE3,United States,Texas,48,,
+THPE3,United States,Texas,48,Cameron,061
+THPE3,United States,Texas,48,Hidalgo,215
+THPE3,United States,Texas,48,Nueces,355
+THPE3,United States,Texas,48,Starr,427
+THPE3,United States,Guam,66,,
+THPE3,United States,Palau,70,,
+THPE3,United States,Palau,70,Koror,150
+THPE3,United States,Puerto Rico,72,,
+THPE3,United States,U.S. Minor Outlying Islands,74,,
+THPE3,United States,U.S. Minor Outlying Islands,74,Midway Islands,300
+THPE3,United States,Virgin Islands,78,,

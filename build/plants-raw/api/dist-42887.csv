@@ -1,0 +1,556 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+SYAL,Canada,Alberta,01,,
+SYAL,Canada,British Columbia,02,,
+SYAL,United States,Alaska,02,,
+SYAL,United States,Alaska,02,Haines,100
+SYAL,Canada,Manitoba,03,,
+SYAL,Canada,New Brunswick,04,,
+SYAL,United States,California,06,,
+SYAL,United States,California,06,Alameda,001
+SYAL,United States,California,06,Amador,005
+SYAL,United States,California,06,Butte,007
+SYAL,United States,California,06,Calaveras,009
+SYAL,United States,California,06,Contra Costa,013
+SYAL,United States,California,06,El Dorado,017
+SYAL,United States,California,06,Humboldt,023
+SYAL,United States,California,06,Kern,029
+SYAL,United States,California,06,Lake,033
+SYAL,United States,California,06,Los Angeles,037
+SYAL,United States,California,06,Marin,041
+SYAL,United States,California,06,Mendocino,045
+SYAL,United States,California,06,Modoc,049
+SYAL,United States,California,06,Monterey,053
+SYAL,United States,California,06,Napa,055
+SYAL,United States,California,06,Nevada,057
+SYAL,United States,California,06,Placer,061
+SYAL,United States,California,06,Plumas,063
+SYAL,United States,California,06,Riverside,065
+SYAL,United States,California,06,Sacramento,067
+SYAL,United States,California,06,San Benito,069
+SYAL,United States,California,06,San Bernardino,071
+SYAL,United States,California,06,San Diego,073
+SYAL,United States,California,06,San Francisco,075
+SYAL,United States,California,06,San Luis Obispo,079
+SYAL,United States,California,06,San Mateo,081
+SYAL,United States,California,06,Santa Clara,085
+SYAL,United States,California,06,Santa Cruz,087
+SYAL,United States,California,06,Shasta,089
+SYAL,United States,California,06,Siskiyou,093
+SYAL,United States,California,06,Solano,095
+SYAL,United States,California,06,Sonoma,097
+SYAL,United States,California,06,Tehama,103
+SYAL,United States,California,06,Trinity,105
+SYAL,United States,California,06,Tuolumne,109
+SYAL,Canada,Nova Scotia,07,,
+SYAL,Canada,Ontario,08,,
+SYAL,United States,Colorado,08,,
+SYAL,United States,Colorado,08,Boulder,013
+SYAL,United States,Colorado,08,El Paso,041
+SYAL,United States,Colorado,08,Gilpin,047
+SYAL,United States,Colorado,08,Jefferson,059
+SYAL,United States,Colorado,08,Larimer,069
+SYAL,United States,Colorado,08,Las Animas,071
+SYAL,United States,Colorado,08,Pueblo,101
+SYAL,Canada,Prince Edward Island,09,,
+SYAL,United States,Connecticut,09,,
+SYAL,Canada,Quebec,10,,
+SYAL,United States,Delaware,10,,
+SYAL,United States,Delaware,10,New Castle,003
+SYAL,Canada,Saskatchewan,11,,
+SYAL,United States,District of Columbia,11,,
+SYAL,United States,District of Columbia,11,District of Columbia,001
+SYAL,Canada,Northwest Territories,13,,
+SYAL,United States,Idaho,16,,
+SYAL,United States,Idaho,16,Ada,001
+SYAL,United States,Idaho,16,Benewah,009
+SYAL,United States,Idaho,16,Blaine,013
+SYAL,United States,Idaho,16,Boise,015
+SYAL,United States,Idaho,16,Bonner,017
+SYAL,United States,Idaho,16,Bonneville,019
+SYAL,United States,Idaho,16,Cassia,031
+SYAL,United States,Idaho,16,Clearwater,035
+SYAL,United States,Idaho,16,Elmore,039
+SYAL,United States,Idaho,16,Franklin,041
+SYAL,United States,Idaho,16,Fremont,043
+SYAL,United States,Idaho,16,Idaho,049
+SYAL,United States,Idaho,16,Kootenai,055
+SYAL,United States,Idaho,16,Latah,057
+SYAL,United States,Idaho,16,Lemhi,059
+SYAL,United States,Idaho,16,Madison,065
+SYAL,United States,Idaho,16,Nez Perce,069
+SYAL,United States,Idaho,16,Shoshone,079
+SYAL,United States,Idaho,16,Valley,085
+SYAL,United States,Idaho,16,Washington,087
+SYAL,United States,Illinois,17,,
+SYAL,United States,Illinois,17,Cass,017
+SYAL,United States,Illinois,17,Champaign,019
+SYAL,United States,Illinois,17,Christian,021
+SYAL,United States,Illinois,17,DuPage,043
+SYAL,United States,Illinois,17,Henry,073
+SYAL,United States,Illinois,17,Lake,097
+SYAL,United States,Illinois,17,LaSalle,099
+SYAL,United States,Illinois,17,Macon,115
+SYAL,United States,Illinois,17,Winnebago,201
+SYAL,United States,Indiana,18,,
+SYAL,United States,Iowa,19,,
+SYAL,United States,Kentucky,21,,
+SYAL,United States,Kentucky,21,Estill,065
+SYAL,United States,Kentucky,21,Jackson,109
+SYAL,United States,Kentucky,21,Madison,151
+SYAL,United States,Maine,23,,
+SYAL,United States,Maine,23,Androscoggin,001
+SYAL,United States,Maine,23,Cumberland,005
+SYAL,United States,Maine,23,Hancock,009
+SYAL,United States,Maine,23,Kennebec,011
+SYAL,United States,Maine,23,Knox,013
+SYAL,United States,Maine,23,Oxford,017
+SYAL,United States,Maine,23,Penobscot,019
+SYAL,United States,Maine,23,Piscataquis,021
+SYAL,United States,Maine,23,Waldo,027
+SYAL,United States,Maine,23,Washington,029
+SYAL,United States,Maine,23,York,031
+SYAL,United States,Maryland,24,,
+SYAL,United States,Maryland,24,Allegany,001
+SYAL,United States,Maryland,24,Washington,043
+SYAL,United States,Massachusetts,25,,
+SYAL,United States,Massachusetts,25,Berkshire,003
+SYAL,United States,Massachusetts,25,Bristol,005
+SYAL,United States,Massachusetts,25,Essex,009
+SYAL,United States,Massachusetts,25,Franklin,011
+SYAL,United States,Massachusetts,25,Hampshire,015
+SYAL,United States,Massachusetts,25,Middlesex,017
+SYAL,United States,Massachusetts,25,Norfolk,021
+SYAL,United States,Massachusetts,25,Worcester,027
+SYAL,United States,Michigan,26,,
+SYAL,United States,Michigan,26,Alcona,001
+SYAL,United States,Michigan,26,Alpena,007
+SYAL,United States,Michigan,26,Baraga,013
+SYAL,United States,Michigan,26,Benzie,019
+SYAL,United States,Michigan,26,Berrien,021
+SYAL,United States,Michigan,26,Cass,027
+SYAL,United States,Michigan,26,Charlevoix,029
+SYAL,United States,Michigan,26,Cheboygan,031
+SYAL,United States,Michigan,26,Chippewa,033
+SYAL,United States,Michigan,26,Crawford,039
+SYAL,United States,Michigan,26,Delta,041
+SYAL,United States,Michigan,26,Dickinson,043
+SYAL,United States,Michigan,26,Emmet,047
+SYAL,United States,Michigan,26,Grand Traverse,055
+SYAL,United States,Michigan,26,Gratiot,057
+SYAL,United States,Michigan,26,Houghton,061
+SYAL,United States,Michigan,26,Ionia,067
+SYAL,United States,Michigan,26,Iosco,069
+SYAL,United States,Michigan,26,Iron,071
+SYAL,United States,Michigan,26,Kalamazoo,077
+SYAL,United States,Michigan,26,Kent,081
+SYAL,United States,Michigan,26,Keweenaw,083
+SYAL,United States,Michigan,26,Leelanau,089
+SYAL,United States,Michigan,26,Mackinac,097
+SYAL,United States,Michigan,26,Marquette,103
+SYAL,United States,Michigan,26,Mason,105
+SYAL,United States,Michigan,26,Mecosta,107
+SYAL,United States,Michigan,26,Midland,111
+SYAL,United States,Michigan,26,Missaukee,113
+SYAL,United States,Michigan,26,Muskegon,121
+SYAL,United States,Michigan,26,Oakland,125
+SYAL,United States,Michigan,26,Oceana,127
+SYAL,United States,Michigan,26,Ontonagon,131
+SYAL,United States,Michigan,26,Oscoda,135
+SYAL,United States,Michigan,26,Ottawa,139
+SYAL,United States,Michigan,26,Presque Isle,141
+SYAL,United States,Michigan,26,Schoolcraft,153
+SYAL,United States,Michigan,26,St. Clair,147
+SYAL,United States,Michigan,26,Van Buren,159
+SYAL,United States,Michigan,26,Washtenaw,161
+SYAL,United States,Michigan,26,Wexford,165
+SYAL,United States,Minnesota,27,,
+SYAL,United States,Minnesota,27,Aitkin,001
+SYAL,United States,Minnesota,27,Anoka,003
+SYAL,United States,Minnesota,27,Becker,005
+SYAL,United States,Minnesota,27,Beltrami,007
+SYAL,United States,Minnesota,27,Cass,021
+SYAL,United States,Minnesota,27,Chisago,025
+SYAL,United States,Minnesota,27,Clay,027
+SYAL,United States,Minnesota,27,Clearwater,029
+SYAL,United States,Minnesota,27,Cook,031
+SYAL,United States,Minnesota,27,Crow Wing,035
+SYAL,United States,Minnesota,27,Dakota,037
+SYAL,United States,Minnesota,27,Fillmore,045
+SYAL,United States,Minnesota,27,Goodhue,049
+SYAL,United States,Minnesota,27,Hennepin,053
+SYAL,United States,Minnesota,27,Hubbard,057
+SYAL,United States,Minnesota,27,Isanti,059
+SYAL,United States,Minnesota,27,Itasca,061
+SYAL,United States,Minnesota,27,Kittson,069
+SYAL,United States,Minnesota,27,Koochiching,071
+SYAL,United States,Minnesota,27,Lake,075
+SYAL,United States,Minnesota,27,Lake of the Woods,077
+SYAL,United States,Minnesota,27,Mahnomen,087
+SYAL,United States,Minnesota,27,Meeker,093
+SYAL,United States,Minnesota,27,Mille Lacs,095
+SYAL,United States,Minnesota,27,Morrison,097
+SYAL,United States,Minnesota,27,Norman,107
+SYAL,United States,Minnesota,27,Otter Tail,111
+SYAL,United States,Minnesota,27,Pennington,113
+SYAL,United States,Minnesota,27,Pine,115
+SYAL,United States,Minnesota,27,Pipestone,117
+SYAL,United States,Minnesota,27,Polk,119
+SYAL,United States,Minnesota,27,Ramsey,123
+SYAL,United States,Minnesota,27,Redwood,127
+SYAL,United States,Minnesota,27,Rice,131
+SYAL,United States,Minnesota,27,Roseau,135
+SYAL,United States,Minnesota,27,St. Louis,137
+SYAL,United States,Minnesota,27,Todd,153
+SYAL,United States,Minnesota,27,Wabasha,157
+SYAL,United States,Minnesota,27,Washington,163
+SYAL,United States,Minnesota,27,Winona,169
+SYAL,United States,Missouri,29,,
+SYAL,United States,Montana,30,,
+SYAL,United States,Montana,30,Big Horn,003
+SYAL,United States,Montana,30,Blaine,005
+SYAL,United States,Montana,30,Carbon,009
+SYAL,United States,Montana,30,Cascade,013
+SYAL,United States,Montana,30,Chouteau,015
+SYAL,United States,Montana,30,Fergus,027
+SYAL,United States,Montana,30,Flathead,029
+SYAL,United States,Montana,30,Gallatin,031
+SYAL,United States,Montana,30,Glacier,035
+SYAL,United States,Montana,30,Granite,039
+SYAL,United States,Montana,30,Judith Basin,045
+SYAL,United States,Montana,30,Lake,047
+SYAL,United States,Montana,30,Lewis and Clark,049
+SYAL,United States,Montana,30,Lincoln,053
+SYAL,United States,Montana,30,Madison,057
+SYAL,United States,Montana,30,Missoula,063
+SYAL,United States,Montana,30,Park,067
+SYAL,United States,Montana,30,Petroleum,069
+SYAL,United States,Montana,30,Phillips,071
+SYAL,United States,Montana,30,Powder River,075
+SYAL,United States,Montana,30,Powell,077
+SYAL,United States,Montana,30,Ravalli,081
+SYAL,United States,Montana,30,Rosebud,087
+SYAL,United States,Montana,30,Sanders,089
+SYAL,United States,Montana,30,Stillwater,095
+SYAL,United States,Montana,30,Sweet Grass,097
+SYAL,United States,Montana,30,Valley,105
+SYAL,United States,Montana,30,Yellowstone,111
+SYAL,United States,Nebraska,31,,
+SYAL,United States,Nebraska,31,Brown,017
+SYAL,United States,Nebraska,31,Cherry,031
+SYAL,United States,Nebraska,31,Scotts Bluff,157
+SYAL,United States,Nebraska,31,Sioux,165
+SYAL,United States,New Hampshire,33,,
+SYAL,United States,New Hampshire,33,Belknap,001
+SYAL,United States,New Hampshire,33,Coos,007
+SYAL,United States,New Hampshire,33,Strafford,017
+SYAL,United States,New Jersey,34,,
+SYAL,United States,New Jersey,34,Cape May,009
+SYAL,United States,New Jersey,34,Cumberland,011
+SYAL,United States,New Jersey,34,Gloucester,015
+SYAL,United States,New Jersey,34,Hunterdon,019
+SYAL,United States,New Jersey,34,Monmouth,025
+SYAL,United States,New Jersey,34,Morris,027
+SYAL,United States,New Jersey,34,Ocean,029
+SYAL,United States,New Jersey,34,Passaic,031
+SYAL,United States,New Jersey,34,Somerset,035
+SYAL,United States,New Jersey,34,Sussex,037
+SYAL,United States,New Jersey,34,Warren,041
+SYAL,United States,New Mexico,35,,
+SYAL,United States,New Mexico,35,Bernalillo,001
+SYAL,United States,New Mexico,35,Catron,003
+SYAL,United States,New Mexico,35,Colfax,007
+SYAL,United States,New Mexico,35,Rio Arriba,039
+SYAL,United States,New Mexico,35,San Juan,045
+SYAL,United States,New Mexico,35,Union,059
+SYAL,United States,New York,36,,
+SYAL,United States,New York,36,Albany,001
+SYAL,United States,New York,36,Bronx,005
+SYAL,United States,New York,36,Broome,007
+SYAL,United States,New York,36,Cayuga,011
+SYAL,United States,New York,36,Chemung,015
+SYAL,United States,New York,36,Clinton,019
+SYAL,United States,New York,36,Erie,029
+SYAL,United States,New York,36,Essex,031
+SYAL,United States,New York,36,Genesee,037
+SYAL,United States,New York,36,Jefferson,045
+SYAL,United States,New York,36,Kings,047
+SYAL,United States,New York,36,Lewis,049
+SYAL,United States,New York,36,Madison,053
+SYAL,United States,New York,36,Montgomery,057
+SYAL,United States,New York,36,Niagara,063
+SYAL,United States,New York,36,Oneida,065
+SYAL,United States,New York,36,Onondaga,067
+SYAL,United States,New York,36,Ontario,069
+SYAL,United States,New York,36,Orange,071
+SYAL,United States,New York,36,Orleans,073
+SYAL,United States,New York,36,Oswego,075
+SYAL,United States,New York,36,Otsego,077
+SYAL,United States,New York,36,Putnam,079
+SYAL,United States,New York,36,Queens,081
+SYAL,United States,New York,36,Saratoga,091
+SYAL,United States,New York,36,Schoharie,095
+SYAL,United States,New York,36,Schuyler,097
+SYAL,United States,New York,36,St. Lawrence,089
+SYAL,United States,New York,36,Suffolk,103
+SYAL,United States,New York,36,Tioga,107
+SYAL,United States,New York,36,Tompkins,109
+SYAL,United States,New York,36,Ulster,111
+SYAL,United States,New York,36,Westchester,119
+SYAL,United States,North Carolina,37,,
+SYAL,United States,North Dakota,38,,
+SYAL,United States,North Dakota,38,Barnes,003
+SYAL,United States,North Dakota,38,Benson,005
+SYAL,United States,North Dakota,38,Bottineau,009
+SYAL,United States,North Dakota,38,Burke,013
+SYAL,United States,North Dakota,38,Cavalier,019
+SYAL,United States,North Dakota,38,Dunn,025
+SYAL,United States,North Dakota,38,McKenzie,053
+SYAL,United States,North Dakota,38,McLean,055
+SYAL,United States,North Dakota,38,Mountrail,061
+SYAL,United States,North Dakota,38,Nelson,063
+SYAL,United States,North Dakota,38,Pembina,067
+SYAL,United States,North Dakota,38,Ransom,073
+SYAL,United States,North Dakota,38,Rolette,079
+SYAL,United States,North Dakota,38,Stark,089
+SYAL,United States,North Dakota,38,Steele,091
+SYAL,United States,North Dakota,38,Williams,105
+SYAL,United States,Ohio,39,,
+SYAL,United States,Ohio,39,Allen,003
+SYAL,United States,Ohio,39,Ashland,005
+SYAL,United States,Ohio,39,Ashtabula,007
+SYAL,United States,Ohio,39,Auglaize,011
+SYAL,United States,Ohio,39,Belmont,013
+SYAL,United States,Ohio,39,Columbiana,029
+SYAL,United States,Ohio,39,Coshocton,031
+SYAL,United States,Ohio,39,Cuyahoga,035
+SYAL,United States,Ohio,39,Erie,043
+SYAL,United States,Ohio,39,Fairfield,045
+SYAL,United States,Ohio,39,Franklin,049
+SYAL,United States,Ohio,39,Jefferson,081
+SYAL,United States,Ohio,39,Knox,083
+SYAL,United States,Ohio,39,Lake,085
+SYAL,United States,Ohio,39,Licking,089
+SYAL,United States,Ohio,39,Lorain,093
+SYAL,United States,Ohio,39,Lucas,095
+SYAL,United States,Ohio,39,Madison,097
+SYAL,United States,Ohio,39,Medina,103
+SYAL,United States,Ohio,39,Montgomery,113
+SYAL,United States,Ohio,39,Morrow,117
+SYAL,United States,Ohio,39,Ottawa,123
+SYAL,United States,Ohio,39,Portage,133
+SYAL,United States,Ohio,39,Summit,153
+SYAL,United States,Ohio,39,Washington,167
+SYAL,United States,Ohio,39,Wayne,169
+SYAL,United States,Ohio,39,Wood,173
+SYAL,United States,Oregon,41,,
+SYAL,United States,Oregon,41,Baker,001
+SYAL,United States,Oregon,41,Benton,003
+SYAL,United States,Oregon,41,Clackamas,005
+SYAL,United States,Oregon,41,Clatsop,007
+SYAL,United States,Oregon,41,Coos,011
+SYAL,United States,Oregon,41,Crook,013
+SYAL,United States,Oregon,41,Curry,015
+SYAL,United States,Oregon,41,Deschutes,017
+SYAL,United States,Oregon,41,Douglas,019
+SYAL,United States,Oregon,41,Grant,023
+SYAL,United States,Oregon,41,Harney,025
+SYAL,United States,Oregon,41,Hood River,027
+SYAL,United States,Oregon,41,Jackson,029
+SYAL,United States,Oregon,41,Jefferson,031
+SYAL,United States,Oregon,41,Josephine,033
+SYAL,United States,Oregon,41,Klamath,035
+SYAL,United States,Oregon,41,Lake,037
+SYAL,United States,Oregon,41,Lane,039
+SYAL,United States,Oregon,41,Lincoln,041
+SYAL,United States,Oregon,41,Linn,043
+SYAL,United States,Oregon,41,Marion,047
+SYAL,United States,Oregon,41,Morrow,049
+SYAL,United States,Oregon,41,Multnomah,051
+SYAL,United States,Oregon,41,Polk,053
+SYAL,United States,Oregon,41,Tillamook,057
+SYAL,United States,Oregon,41,Umatilla,059
+SYAL,United States,Oregon,41,Union,061
+SYAL,United States,Oregon,41,Wallowa,063
+SYAL,United States,Oregon,41,Wasco,065
+SYAL,United States,Oregon,41,Washington,067
+SYAL,United States,Oregon,41,Wheeler,069
+SYAL,United States,Oregon,41,Yamhill,071
+SYAL,United States,Pennsylvania,42,,
+SYAL,United States,Pennsylvania,42,Allegheny,003
+SYAL,United States,Pennsylvania,42,Bedford,009
+SYAL,United States,Pennsylvania,42,Berks,011
+SYAL,United States,Pennsylvania,42,Blair,013
+SYAL,United States,Pennsylvania,42,Bucks,017
+SYAL,United States,Pennsylvania,42,Cambria,021
+SYAL,United States,Pennsylvania,42,Centre,027
+SYAL,United States,Pennsylvania,42,Chester,029
+SYAL,United States,Pennsylvania,42,Clarion,031
+SYAL,United States,Pennsylvania,42,Clearfield,033
+SYAL,United States,Pennsylvania,42,Dauphin,043
+SYAL,United States,Pennsylvania,42,Delaware,045
+SYAL,United States,Pennsylvania,42,Erie,049
+SYAL,United States,Pennsylvania,42,Forest,053
+SYAL,United States,Pennsylvania,42,Huntingdon,061
+SYAL,United States,Pennsylvania,42,Juniata,067
+SYAL,United States,Pennsylvania,42,Lancaster,071
+SYAL,United States,Pennsylvania,42,Lebanon,075
+SYAL,United States,Pennsylvania,42,Lehigh,077
+SYAL,United States,Pennsylvania,42,McKean,083
+SYAL,United States,Pennsylvania,42,Monroe,089
+SYAL,United States,Pennsylvania,42,Montgomery,091
+SYAL,United States,Pennsylvania,42,Montour,093
+SYAL,United States,Pennsylvania,42,Northampton,095
+SYAL,United States,Pennsylvania,42,Perry,099
+SYAL,United States,Pennsylvania,42,Philadelphia,101
+SYAL,United States,Pennsylvania,42,Pike,103
+SYAL,United States,Pennsylvania,42,Schuylkill,107
+SYAL,United States,Pennsylvania,42,Somerset,111
+SYAL,United States,Pennsylvania,42,Sullivan,113
+SYAL,United States,Pennsylvania,42,Susquehanna,115
+SYAL,United States,Pennsylvania,42,Tioga,117
+SYAL,United States,Pennsylvania,42,Venango,121
+SYAL,United States,Pennsylvania,42,Washington,125
+SYAL,United States,Pennsylvania,42,Wayne,127
+SYAL,United States,Pennsylvania,42,Westmoreland,129
+SYAL,United States,Rhode Island,44,,
+SYAL,United States,Rhode Island,44,Providence,007
+SYAL,United States,South Dakota,46,,
+SYAL,United States,South Dakota,46,Custer,033
+SYAL,United States,South Dakota,46,Fall River,047
+SYAL,United States,South Dakota,46,Jackson,071
+SYAL,United States,South Dakota,46,Lawrence,081
+SYAL,United States,South Dakota,46,Meade,093
+SYAL,United States,South Dakota,46,Pennington,103
+SYAL,United States,Tennessee,47,,
+SYAL,United States,Utah,49,,
+SYAL,United States,Utah,49,Salt Lake,035
+SYAL,United States,Utah,49,Utah,049
+SYAL,United States,Vermont,50,,
+SYAL,United States,Vermont,50,Addison,001
+SYAL,United States,Vermont,50,Bennington,003
+SYAL,United States,Vermont,50,Chittenden,007
+SYAL,United States,Vermont,50,Franklin,011
+SYAL,United States,Vermont,50,Grand Isle,013
+SYAL,United States,Vermont,50,Orange,017
+SYAL,United States,Vermont,50,Orleans,019
+SYAL,United States,Vermont,50,Rutland,021
+SYAL,United States,Vermont,50,Windham,025
+SYAL,United States,Vermont,50,Windsor,027
+SYAL,United States,Virginia,51,,
+SYAL,United States,Virginia,51,Augusta,015
+SYAL,United States,Virginia,51,Franklin,067
+SYAL,United States,Virginia,51,Giles,071
+SYAL,United States,Virginia,51,Madison,113
+SYAL,United States,Virginia,51,Montgomery,121
+SYAL,United States,Virginia,51,Page,139
+SYAL,United States,Virginia,51,Roanoke,161
+SYAL,United States,Virginia,51,Rockingham,165
+SYAL,United States,Virginia,51,Russell,167
+SYAL,United States,Virginia,51,Shenandoah,171
+SYAL,United States,Virginia,51,Wythe,197
+SYAL,United States,Washington,53,,
+SYAL,United States,Washington,53,Adams,001
+SYAL,United States,Washington,53,Asotin,003
+SYAL,United States,Washington,53,Benton,005
+SYAL,United States,Washington,53,Chelan,007
+SYAL,United States,Washington,53,Clallam,009
+SYAL,United States,Washington,53,Clark,011
+SYAL,United States,Washington,53,Columbia,013
+SYAL,United States,Washington,53,Cowlitz,015
+SYAL,United States,Washington,53,Ferry,019
+SYAL,United States,Washington,53,Garfield,023
+SYAL,United States,Washington,53,Grant,025
+SYAL,United States,Washington,53,Grays Harbor,027
+SYAL,United States,Washington,53,Island,029
+SYAL,United States,Washington,53,King,033
+SYAL,United States,Washington,53,Kitsap,035
+SYAL,United States,Washington,53,Kittitas,037
+SYAL,United States,Washington,53,Klickitat,039
+SYAL,United States,Washington,53,Lewis,041
+SYAL,United States,Washington,53,Lincoln,043
+SYAL,United States,Washington,53,Okanogan,047
+SYAL,United States,Washington,53,Pacific,049
+SYAL,United States,Washington,53,Pend Oreille,051
+SYAL,United States,Washington,53,Pierce,053
+SYAL,United States,Washington,53,San Juan,055
+SYAL,United States,Washington,53,Skagit,057
+SYAL,United States,Washington,53,Skamania,059
+SYAL,United States,Washington,53,Snohomish,061
+SYAL,United States,Washington,53,Spokane,063
+SYAL,United States,Washington,53,Stevens,065
+SYAL,United States,Washington,53,Thurston,067
+SYAL,United States,Washington,53,Wahkiakum,069
+SYAL,United States,Washington,53,Walla Walla,071
+SYAL,United States,Washington,53,Whatcom,073
+SYAL,United States,Washington,53,Whitman,075
+SYAL,United States,Washington,53,Yakima,077
+SYAL,United States,West Virginia,54,,
+SYAL,United States,West Virginia,54,Grant,023
+SYAL,United States,West Virginia,54,Hardy,031
+SYAL,United States,West Virginia,54,Morgan,065
+SYAL,United States,West Virginia,54,Pendleton,071
+SYAL,United States,Wisconsin,55,,
+SYAL,United States,Wisconsin,55,Adams,001
+SYAL,United States,Wisconsin,55,Barron,005
+SYAL,United States,Wisconsin,55,Bayfield,007
+SYAL,United States,Wisconsin,55,Brown,009
+SYAL,United States,Wisconsin,55,Buffalo,011
+SYAL,United States,Wisconsin,55,Burnett,013
+SYAL,United States,Wisconsin,55,Calumet,015
+SYAL,United States,Wisconsin,55,Clark,019
+SYAL,United States,Wisconsin,55,Columbia,021
+SYAL,United States,Wisconsin,55,Dodge,027
+SYAL,United States,Wisconsin,55,Door,029
+SYAL,United States,Wisconsin,55,Douglas,031
+SYAL,United States,Wisconsin,55,Florence,037
+SYAL,United States,Wisconsin,55,Fond du Lac,039
+SYAL,United States,Wisconsin,55,Forest,041
+SYAL,United States,Wisconsin,55,Iron,051
+SYAL,United States,Wisconsin,55,Jackson,053
+SYAL,United States,Wisconsin,55,Kewaunee,061
+SYAL,United States,Wisconsin,55,La Crosse,063
+SYAL,United States,Wisconsin,55,Lincoln,069
+SYAL,United States,Wisconsin,55,Manitowoc,071
+SYAL,United States,Wisconsin,55,Marathon,073
+SYAL,United States,Wisconsin,55,Marinette,075
+SYAL,United States,Wisconsin,55,Menominee,078
+SYAL,United States,Wisconsin,55,Milwaukee,079
+SYAL,United States,Wisconsin,55,Oconto,083
+SYAL,United States,Wisconsin,55,Outagamie,087
+SYAL,United States,Wisconsin,55,Ozaukee,089
+SYAL,United States,Wisconsin,55,Pierce,093
+SYAL,United States,Wisconsin,55,Polk,095
+SYAL,United States,Wisconsin,55,Racine,101
+SYAL,United States,Wisconsin,55,Richland,103
+SYAL,United States,Wisconsin,55,Sauk,111
+SYAL,United States,Wisconsin,55,Sawyer,113
+SYAL,United States,Wisconsin,55,Shawano,115
+SYAL,United States,Wisconsin,55,Sheboygan,117
+SYAL,United States,Wisconsin,55,St. Croix,109
+SYAL,United States,Wisconsin,55,Trempealeau,121
+SYAL,United States,Wisconsin,55,Vernon,123
+SYAL,United States,Wisconsin,55,Vilas,125
+SYAL,United States,Wisconsin,55,Washburn,129
+SYAL,United States,Wisconsin,55,Washington,131
+SYAL,United States,Wisconsin,55,Waukesha,133
+SYAL,United States,Wisconsin,55,Waupaca,135
+SYAL,United States,Wisconsin,55,Wood,141
+SYAL,United States,Wyoming,56,,
+SYAL,United States,Wyoming,56,Albany,001
+SYAL,United States,Wyoming,56,Big Horn,003
+SYAL,United States,Wyoming,56,Campbell,005
+SYAL,United States,Wyoming,56,Carbon,007
+SYAL,United States,Wyoming,56,Converse,009
+SYAL,United States,Wyoming,56,Crook,011
+SYAL,United States,Wyoming,56,Johnson,019
+SYAL,United States,Wyoming,56,Laramie,021
+SYAL,United States,Wyoming,56,Lincoln,023
+SYAL,United States,Wyoming,56,Niobrara,027
+SYAL,United States,Wyoming,56,Park,029
+SYAL,United States,Wyoming,56,Sheridan,033
+SYAL,United States,Wyoming,56,Sweetwater,037
+SYAL,United States,Wyoming,56,Teton,039
+SYAL,United States,Wyoming,56,Washakie,043
+SYAL,United States,Wyoming,56,Weston,045
+SYAL,Canada,Newfoundland,NF,,

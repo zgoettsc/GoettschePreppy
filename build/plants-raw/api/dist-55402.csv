@@ -1,0 +1,486 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+SOEL,United States,Alabama,01,,
+SOEL,United States,Alabama,01,Jefferson,073
+SOEL,United States,Alabama,01,Mobile,097
+SOEL,United States,Arizona,04,,
+SOEL,United States,Arizona,04,Apache,001
+SOEL,United States,Arizona,04,Cochise,003
+SOEL,United States,Arizona,04,Coconino,005
+SOEL,United States,Arizona,04,Gila,007
+SOEL,United States,Arizona,04,Graham,009
+SOEL,United States,Arizona,04,Greenlee,011
+SOEL,United States,Arizona,04,La Paz,012
+SOEL,United States,Arizona,04,Maricopa,013
+SOEL,United States,Arizona,04,Mohave,015
+SOEL,United States,Arizona,04,Navajo,017
+SOEL,United States,Arizona,04,Pima,019
+SOEL,United States,Arizona,04,Pinal,021
+SOEL,United States,Arizona,04,Santa Cruz,023
+SOEL,United States,Arizona,04,Yavapai,025
+SOEL,United States,Arizona,04,Yuma,027
+SOEL,United States,Arkansas,05,,
+SOEL,United States,Arkansas,05,Ashley,003
+SOEL,United States,Arkansas,05,Craighead,031
+SOEL,United States,Arkansas,05,Crittenden,035
+SOEL,United States,Arkansas,05,Cross,037
+SOEL,United States,Arkansas,05,Desha,041
+SOEL,United States,Arkansas,05,Drew,043
+SOEL,United States,Arkansas,05,Faulkner,045
+SOEL,United States,Arkansas,05,Franklin,047
+SOEL,United States,Arkansas,05,Hempstead,057
+SOEL,United States,Arkansas,05,Jefferson,069
+SOEL,United States,Arkansas,05,Lincoln,079
+SOEL,United States,Arkansas,05,Little River,081
+SOEL,United States,Arkansas,05,Lonoke,085
+SOEL,United States,Arkansas,05,Miller,091
+SOEL,United States,Arkansas,05,Phillips,107
+SOEL,United States,Arkansas,05,Pike,109
+SOEL,United States,Arkansas,05,Poinsett,111
+SOEL,United States,Arkansas,05,Polk,113
+SOEL,United States,Arkansas,05,Pope,115
+SOEL,United States,Arkansas,05,Prairie,117
+SOEL,United States,Arkansas,05,Pulaski,119
+SOEL,United States,Arkansas,05,Sebastian,131
+SOEL,United States,Arkansas,05,Sevier,133
+SOEL,United States,Arkansas,05,Union,139
+SOEL,United States,Arkansas,05,Washington,143
+SOEL,United States,California,06,,
+SOEL,United States,California,06,Alameda,001
+SOEL,United States,California,06,Alpine,003
+SOEL,United States,California,06,Amador,005
+SOEL,United States,California,06,Butte,007
+SOEL,United States,California,06,Calaveras,009
+SOEL,United States,California,06,Colusa,011
+SOEL,United States,California,06,Contra Costa,013
+SOEL,United States,California,06,El Dorado,017
+SOEL,United States,California,06,Fresno,019
+SOEL,United States,California,06,Glenn,021
+SOEL,United States,California,06,Imperial,025
+SOEL,United States,California,06,Inyo,027
+SOEL,United States,California,06,Kern,029
+SOEL,United States,California,06,Kings,031
+SOEL,United States,California,06,Lake,033
+SOEL,United States,California,06,Los Angeles,037
+SOEL,United States,California,06,Madera,039
+SOEL,United States,California,06,Marin,041
+SOEL,United States,California,06,Mariposa,043
+SOEL,United States,California,06,Mendocino,045
+SOEL,United States,California,06,Merced,047
+SOEL,United States,California,06,Monterey,053
+SOEL,United States,California,06,Napa,055
+SOEL,United States,California,06,Nevada,057
+SOEL,United States,California,06,Orange,059
+SOEL,United States,California,06,Placer,061
+SOEL,United States,California,06,Riverside,065
+SOEL,United States,California,06,Sacramento,067
+SOEL,United States,California,06,San Benito,069
+SOEL,United States,California,06,San Bernardino,071
+SOEL,United States,California,06,San Diego,073
+SOEL,United States,California,06,San Francisco,075
+SOEL,United States,California,06,San Joaquin,077
+SOEL,United States,California,06,San Luis Obispo,079
+SOEL,United States,California,06,San Mateo,081
+SOEL,United States,California,06,Santa Barbara,083
+SOEL,United States,California,06,Santa Clara,085
+SOEL,United States,California,06,Santa Cruz,087
+SOEL,United States,California,06,Shasta,089
+SOEL,United States,California,06,Solano,095
+SOEL,United States,California,06,Sonoma,097
+SOEL,United States,California,06,Stanislaus,099
+SOEL,United States,California,06,Sutter,101
+SOEL,United States,California,06,Tehama,103
+SOEL,United States,California,06,Tulare,107
+SOEL,United States,California,06,Tuolumne,109
+SOEL,United States,California,06,Ventura,111
+SOEL,United States,California,06,Yolo,113
+SOEL,United States,California,06,Yuba,115
+SOEL,United States,Colorado,08,,
+SOEL,United States,Colorado,08,Baca,009
+SOEL,United States,Colorado,08,Boulder,013
+SOEL,United States,Colorado,08,Kiowa,061
+SOEL,United States,Colorado,08,Las Animas,071
+SOEL,United States,Colorado,08,Mesa,077
+SOEL,United States,Colorado,08,Montezuma,083
+SOEL,United States,Colorado,08,Otero,089
+SOEL,United States,Colorado,08,Pueblo,101
+SOEL,United States,Florida,12,,
+SOEL,United States,Florida,12,Alachua,001
+SOEL,United States,Florida,12,Escambia,033
+SOEL,United States,Florida,12,Miami-Dade,086
+SOEL,United States,Florida,12,Monroe,087
+SOEL,United States,Florida,12,Orange,095
+SOEL,United States,Florida,12,Polk,105
+SOEL,United States,Florida,12,Wakulla,129
+SOEL,United States,Georgia,13,,
+SOEL,United States,Georgia,13,Dade,083
+SOEL,United States,Georgia,13,Laurens,175
+SOEL,United States,Georgia,13,Lee,177
+SOEL,United States,Hawaii,15,,
+SOEL,United States,Hawaii,15,Honolulu,003
+SOEL,United States,Hawaii,15,Maui,009
+SOEL,United States,Idaho,16,,
+SOEL,United States,Illinois,17,,
+SOEL,United States,Illinois,17,Adams,001
+SOEL,United States,Illinois,17,Cook,031
+SOEL,United States,Illinois,17,Crawford,033
+SOEL,United States,Illinois,17,St. Clair,163
+SOEL,United States,Indiana,18,,
+SOEL,United States,Kansas,20,,
+SOEL,United States,Kansas,20,Allen,001
+SOEL,United States,Kansas,20,Anderson,003
+SOEL,United States,Kansas,20,Barber,007
+SOEL,United States,Kansas,20,Barton,009
+SOEL,United States,Kansas,20,Butler,015
+SOEL,United States,Kansas,20,Chase,017
+SOEL,United States,Kansas,20,Chautauqua,019
+SOEL,United States,Kansas,20,Cherokee,021
+SOEL,United States,Kansas,20,Clark,025
+SOEL,United States,Kansas,20,Comanche,033
+SOEL,United States,Kansas,20,Cowley,035
+SOEL,United States,Kansas,20,Doniphan,043
+SOEL,United States,Kansas,20,Douglas,045
+SOEL,United States,Kansas,20,Edwards,047
+SOEL,United States,Kansas,20,Ellis,051
+SOEL,United States,Kansas,20,Ellsworth,053
+SOEL,United States,Kansas,20,Ford,057
+SOEL,United States,Kansas,20,Grant,067
+SOEL,United States,Kansas,20,Gray,069
+SOEL,United States,Kansas,20,Greenwood,073
+SOEL,United States,Kansas,20,Hamilton,075
+SOEL,United States,Kansas,20,Harper,077
+SOEL,United States,Kansas,20,Haskell,081
+SOEL,United States,Kansas,20,Hodgeman,083
+SOEL,United States,Kansas,20,Kearny,093
+SOEL,United States,Kansas,20,Kiowa,097
+SOEL,United States,Kansas,20,Labette,099
+SOEL,United States,Kansas,20,Lyon,111
+SOEL,United States,Kansas,20,Meade,119
+SOEL,United States,Kansas,20,Morris,127
+SOEL,United States,Kansas,20,Morton,129
+SOEL,United States,Kansas,20,Neosho,133
+SOEL,United States,Kansas,20,Pawnee,145
+SOEL,United States,Kansas,20,Pratt,151
+SOEL,United States,Kansas,20,Reno,155
+SOEL,United States,Kansas,20,Republic,157
+SOEL,United States,Kansas,20,Saline,169
+SOEL,United States,Kansas,20,Scott,171
+SOEL,United States,Kansas,20,Sedgwick,173
+SOEL,United States,Kansas,20,Seward,175
+SOEL,United States,Kansas,20,Shawnee,177
+SOEL,United States,Kansas,20,Sheridan,179
+SOEL,United States,Kansas,20,Stevens,189
+SOEL,United States,Kansas,20,Sumner,191
+SOEL,United States,Kansas,20,Wabaunsee,197
+SOEL,United States,Kansas,20,Wichita,203
+SOEL,United States,Kansas,20,Wilson,205
+SOEL,United States,Kansas,20,Woodson,207
+SOEL,United States,Kansas,20,Wyandotte,209
+SOEL,United States,Kentucky,21,,
+SOEL,United States,Kentucky,21,Ballard,007
+SOEL,United States,Kentucky,21,Hickman,105
+SOEL,United States,Louisiana,22,,
+SOEL,United States,Louisiana,22,Acadia,001
+SOEL,United States,Louisiana,22,Avoyelles,009
+SOEL,United States,Louisiana,22,Bossier,015
+SOEL,United States,Louisiana,22,Caddo,017
+SOEL,United States,Louisiana,22,Calcasieu,019
+SOEL,United States,Louisiana,22,Caldwell,021
+SOEL,United States,Louisiana,22,Cameron,023
+SOEL,United States,Louisiana,22,Catahoula,025
+SOEL,United States,Louisiana,22,Claiborne,027
+SOEL,United States,Louisiana,22,Concordia,029
+SOEL,United States,Louisiana,22,De Soto,031
+SOEL,United States,Louisiana,22,East Baton Rouge,033
+SOEL,United States,Louisiana,22,East Carroll,035
+SOEL,United States,Louisiana,22,East Feliciana,037
+SOEL,United States,Louisiana,22,Evangeline,039
+SOEL,United States,Louisiana,22,Franklin,041
+SOEL,United States,Louisiana,22,Grant,043
+SOEL,United States,Louisiana,22,Iberia,045
+SOEL,United States,Louisiana,22,Iberville,047
+SOEL,United States,Louisiana,22,Jackson,049
+SOEL,United States,Louisiana,22,Jefferson Davis,053
+SOEL,United States,Louisiana,22,Lafayette,055
+SOEL,United States,Louisiana,22,LaSalle,059
+SOEL,United States,Louisiana,22,Lincoln,061
+SOEL,United States,Louisiana,22,Madison,065
+SOEL,United States,Louisiana,22,Morehouse,067
+SOEL,United States,Louisiana,22,Natchitoches,069
+SOEL,United States,Louisiana,22,Ouachita,073
+SOEL,United States,Louisiana,22,Rapides,079
+SOEL,United States,Louisiana,22,Red River,081
+SOEL,United States,Louisiana,22,Richland,083
+SOEL,United States,Louisiana,22,Sabine,085
+SOEL,United States,Louisiana,22,St. Landry,097
+SOEL,United States,Louisiana,22,Tensas,107
+SOEL,United States,Louisiana,22,Vermilion,113
+SOEL,United States,Louisiana,22,Webster,119
+SOEL,United States,Louisiana,22,West Carroll,123
+SOEL,United States,Louisiana,22,Winn,127
+SOEL,United States,Maryland,24,,
+SOEL,United States,Mississippi,28,,
+SOEL,United States,Mississippi,28,Bolivar,011
+SOEL,United States,Mississippi,28,DeSoto,033
+SOEL,United States,Mississippi,28,Hancock,045
+SOEL,United States,Mississippi,28,Lafayette,071
+SOEL,United States,Mississippi,28,Washington,151
+SOEL,United States,Mississippi,28,Wilkinson,157
+SOEL,United States,Missouri,29,,
+SOEL,United States,Missouri,29,Barry,009
+SOEL,United States,Missouri,29,Boone,019
+SOEL,United States,Missouri,29,Butler,023
+SOEL,United States,Missouri,29,Clay,047
+SOEL,United States,Missouri,29,Greene,077
+SOEL,United States,Missouri,29,Howard,089
+SOEL,United States,Missouri,29,Jackson,095
+SOEL,United States,Missouri,29,Jasper,097
+SOEL,United States,Missouri,29,McDonald,119
+SOEL,United States,Missouri,29,New Madrid,143
+SOEL,United States,Missouri,29,Newton,145
+SOEL,United States,Missouri,29,Platte,165
+SOEL,United States,Missouri,29,Saline,195
+SOEL,United States,Missouri,29,St. Louis,189
+SOEL,United States,Nebraska,31,,
+SOEL,United States,Nevada,32,,
+SOEL,United States,Nevada,32,Clark,003
+SOEL,United States,Nevada,32,Nye,023
+SOEL,United States,New Mexico,35,,
+SOEL,United States,New Mexico,35,Bernalillo,001
+SOEL,United States,New Mexico,35,Chaves,005
+SOEL,United States,New Mexico,35,Cibola,006
+SOEL,United States,New Mexico,35,Curry,009
+SOEL,United States,New Mexico,35,De Baca,011
+SOEL,United States,New Mexico,35,Dona Ana,013
+SOEL,United States,New Mexico,35,Eddy,015
+SOEL,United States,New Mexico,35,Grant,017
+SOEL,United States,New Mexico,35,Guadalupe,019
+SOEL,United States,New Mexico,35,Harding,021
+SOEL,United States,New Mexico,35,Lea,025
+SOEL,United States,New Mexico,35,Lincoln,027
+SOEL,United States,New Mexico,35,Los Alamos,028
+SOEL,United States,New Mexico,35,McKinley,031
+SOEL,United States,New Mexico,35,Mora,033
+SOEL,United States,New Mexico,35,Quay,037
+SOEL,United States,New Mexico,35,Rio Arriba,039
+SOEL,United States,New Mexico,35,Roosevelt,041
+SOEL,United States,New Mexico,35,San Juan,045
+SOEL,United States,New Mexico,35,San Miguel,047
+SOEL,United States,New Mexico,35,Sandoval,043
+SOEL,United States,New Mexico,35,Santa Fe,049
+SOEL,United States,New Mexico,35,Socorro,053
+SOEL,United States,New Mexico,35,Torrance,057
+SOEL,United States,New Mexico,35,Union,059
+SOEL,United States,North Carolina,37,,
+SOEL,United States,North Carolina,37,Mecklenburg,119
+SOEL,United States,North Carolina,37,New Hanover,129
+SOEL,United States,Oklahoma,40,,
+SOEL,United States,Oklahoma,40,Alfalfa,003
+SOEL,United States,Oklahoma,40,Atoka,005
+SOEL,United States,Oklahoma,40,Beaver,007
+SOEL,United States,Oklahoma,40,Beckham,009
+SOEL,United States,Oklahoma,40,Blaine,011
+SOEL,United States,Oklahoma,40,Bryan,013
+SOEL,United States,Oklahoma,40,Canadian,017
+SOEL,United States,Oklahoma,40,Carter,019
+SOEL,United States,Oklahoma,40,Cimarron,025
+SOEL,United States,Oklahoma,40,Cleveland,027
+SOEL,United States,Oklahoma,40,Comanche,031
+SOEL,United States,Oklahoma,40,Cotton,033
+SOEL,United States,Oklahoma,40,Creek,037
+SOEL,United States,Oklahoma,40,Custer,039
+SOEL,United States,Oklahoma,40,Dewey,043
+SOEL,United States,Oklahoma,40,Garfield,047
+SOEL,United States,Oklahoma,40,Garvin,049
+SOEL,United States,Oklahoma,40,Grady,051
+SOEL,United States,Oklahoma,40,Grant,053
+SOEL,United States,Oklahoma,40,Greer,055
+SOEL,United States,Oklahoma,40,Harmon,057
+SOEL,United States,Oklahoma,40,Harper,059
+SOEL,United States,Oklahoma,40,Haskell,061
+SOEL,United States,Oklahoma,40,Jefferson,067
+SOEL,United States,Oklahoma,40,Kay,071
+SOEL,United States,Oklahoma,40,Kingfisher,073
+SOEL,United States,Oklahoma,40,Kiowa,075
+SOEL,United States,Oklahoma,40,Latimer,077
+SOEL,United States,Oklahoma,40,Le Flore,079
+SOEL,United States,Oklahoma,40,Lincoln,081
+SOEL,United States,Oklahoma,40,Logan,083
+SOEL,United States,Oklahoma,40,Major,093
+SOEL,United States,Oklahoma,40,Murray,099
+SOEL,United States,Oklahoma,40,Muskogee,101
+SOEL,United States,Oklahoma,40,Osage,113
+SOEL,United States,Oklahoma,40,Payne,119
+SOEL,United States,Oklahoma,40,Pittsburg,121
+SOEL,United States,Oklahoma,40,Pottawatomie,125
+SOEL,United States,Oklahoma,40,Roger Mills,129
+SOEL,United States,Oklahoma,40,Rogers,131
+SOEL,United States,Oklahoma,40,Texas,139
+SOEL,United States,Oklahoma,40,Tulsa,143
+SOEL,United States,Oklahoma,40,Woods,151
+SOEL,United States,Oklahoma,40,Woodward,153
+SOEL,United States,Oregon,41,,
+SOEL,United States,Oregon,41,Umatilla,059
+SOEL,United States,South Carolina,45,,
+SOEL,United States,South Carolina,45,Aiken,003
+SOEL,United States,Tennessee,47,,
+SOEL,United States,Tennessee,47,Madison,113
+SOEL,United States,Tennessee,47,Obion,131
+SOEL,United States,Tennessee,47,Shelby,157
+SOEL,United States,Texas,48,,
+SOEL,United States,Texas,48,Anderson,001
+SOEL,United States,Texas,48,Andrews,003
+SOEL,United States,Texas,48,Archer,009
+SOEL,United States,Texas,48,Armstrong,011
+SOEL,United States,Texas,48,Bailey,017
+SOEL,United States,Texas,48,Bastrop,021
+SOEL,United States,Texas,48,Bell,027
+SOEL,United States,Texas,48,Bexar,029
+SOEL,United States,Texas,48,Blanco,031
+SOEL,United States,Texas,48,Bowie,037
+SOEL,United States,Texas,48,Brazos,041
+SOEL,United States,Texas,48,Brewster,043
+SOEL,United States,Texas,48,Briscoe,045
+SOEL,United States,Texas,48,Brown,049
+SOEL,United States,Texas,48,Burleson,051
+SOEL,United States,Texas,48,Caldwell,055
+SOEL,United States,Texas,48,Calhoun,057
+SOEL,United States,Texas,48,Callahan,059
+SOEL,United States,Texas,48,Cameron,061
+SOEL,United States,Texas,48,Carson,065
+SOEL,United States,Texas,48,Castro,069
+SOEL,United States,Texas,48,Chambers,071
+SOEL,United States,Texas,48,Childress,075
+SOEL,United States,Texas,48,Clay,077
+SOEL,United States,Texas,48,Collingsworth,087
+SOEL,United States,Texas,48,Colorado,089
+SOEL,United States,Texas,48,Comal,091
+SOEL,United States,Texas,48,Cottle,101
+SOEL,United States,Texas,48,Crane,103
+SOEL,United States,Texas,48,Crockett,105
+SOEL,United States,Texas,48,Crosby,107
+SOEL,United States,Texas,48,Culberson,109
+SOEL,United States,Texas,48,Dallam,111
+SOEL,United States,Texas,48,Dallas,113
+SOEL,United States,Texas,48,Deaf Smith,117
+SOEL,United States,Texas,48,Denton,121
+SOEL,United States,Texas,48,Dickens,125
+SOEL,United States,Texas,48,Donley,129
+SOEL,United States,Texas,48,Duval,131
+SOEL,United States,Texas,48,Eastland,133
+SOEL,United States,Texas,48,Edwards,137
+SOEL,United States,Texas,48,El Paso,141
+SOEL,United States,Texas,48,Ellis,139
+SOEL,United States,Texas,48,Erath,143
+SOEL,United States,Texas,48,Fayette,149
+SOEL,United States,Texas,48,Fisher,151
+SOEL,United States,Texas,48,Floyd,153
+SOEL,United States,Texas,48,Foard,155
+SOEL,United States,Texas,48,Frio,163
+SOEL,United States,Texas,48,Galveston,167
+SOEL,United States,Texas,48,Garza,169
+SOEL,United States,Texas,48,Gillespie,171
+SOEL,United States,Texas,48,Goliad,175
+SOEL,United States,Texas,48,Gonzales,177
+SOEL,United States,Texas,48,Gray,179
+SOEL,United States,Texas,48,Grayson,181
+SOEL,United States,Texas,48,Grimes,185
+SOEL,United States,Texas,48,Guadalupe,187
+SOEL,United States,Texas,48,Hale,189
+SOEL,United States,Texas,48,Hall,191
+SOEL,United States,Texas,48,Hansford,195
+SOEL,United States,Texas,48,Hardeman,197
+SOEL,United States,Texas,48,Harris,201
+SOEL,United States,Texas,48,Hartley,205
+SOEL,United States,Texas,48,Hays,209
+SOEL,United States,Texas,48,Hemphill,211
+SOEL,United States,Texas,48,Hidalgo,215
+SOEL,United States,Texas,48,Hill,217
+SOEL,United States,Texas,48,Hockley,219
+SOEL,United States,Texas,48,Hood,221
+SOEL,United States,Texas,48,Hudspeth,229
+SOEL,United States,Texas,48,Hutchinson,233
+SOEL,United States,Texas,48,Jeff Davis,243
+SOEL,United States,Texas,48,Jim Hogg,247
+SOEL,United States,Texas,48,Johnson,251
+SOEL,United States,Texas,48,Jones,253
+SOEL,United States,Texas,48,Karnes,255
+SOEL,United States,Texas,48,Kaufman,257
+SOEL,United States,Texas,48,Kenedy,261
+SOEL,United States,Texas,48,Kimble,267
+SOEL,United States,Texas,48,King,269
+SOEL,United States,Texas,48,Kinney,271
+SOEL,United States,Texas,48,Kleberg,273
+SOEL,United States,Texas,48,Knox,275
+SOEL,United States,Texas,48,Lamb,279
+SOEL,United States,Texas,48,Lampasas,281
+SOEL,United States,Texas,48,Leon,289
+SOEL,United States,Texas,48,Lipscomb,295
+SOEL,United States,Texas,48,Loving,301
+SOEL,United States,Texas,48,Lubbock,303
+SOEL,United States,Texas,48,Madison,313
+SOEL,United States,Texas,48,Marion,315
+SOEL,United States,Texas,48,Martin,317
+SOEL,United States,Texas,48,Maverick,323
+SOEL,United States,Texas,48,McLennan,309
+SOEL,United States,Texas,48,McMullen,311
+SOEL,United States,Texas,48,Midland,329
+SOEL,United States,Texas,48,Milam,331
+SOEL,United States,Texas,48,Mills,333
+SOEL,United States,Texas,48,Moore,341
+SOEL,United States,Texas,48,Motley,345
+SOEL,United States,Texas,48,Nacogdoches,347
+SOEL,United States,Texas,48,Navarro,349
+SOEL,United States,Texas,48,Ochiltree,357
+SOEL,United States,Texas,48,Oldham,359
+SOEL,United States,Texas,48,Orange,361
+SOEL,United States,Texas,48,Parker,367
+SOEL,United States,Texas,48,Parmer,369
+SOEL,United States,Texas,48,Pecos,371
+SOEL,United States,Texas,48,Potter,375
+SOEL,United States,Texas,48,Presidio,377
+SOEL,United States,Texas,48,Randall,381
+SOEL,United States,Texas,48,Reagan,383
+SOEL,United States,Texas,48,Real,385
+SOEL,United States,Texas,48,Roberts,393
+SOEL,United States,Texas,48,Robertson,395
+SOEL,United States,Texas,48,Runnels,399
+SOEL,United States,Texas,48,San Patricio,409
+SOEL,United States,Texas,48,San Saba,411
+SOEL,United States,Texas,48,Schleicher,413
+SOEL,United States,Texas,48,Shackelford,417
+SOEL,United States,Texas,48,Somervell,425
+SOEL,United States,Texas,48,Starr,427
+SOEL,United States,Texas,48,Sterling,431
+SOEL,United States,Texas,48,Swisher,437
+SOEL,United States,Texas,48,Tarrant,439
+SOEL,United States,Texas,48,Taylor,441
+SOEL,United States,Texas,48,Terrell,443
+SOEL,United States,Texas,48,Titus,449
+SOEL,United States,Texas,48,Tom Green,451
+SOEL,United States,Texas,48,Travis,453
+SOEL,United States,Texas,48,Upton,461
+SOEL,United States,Texas,48,Val Verde,465
+SOEL,United States,Texas,48,Victoria,469
+SOEL,United States,Texas,48,Waller,473
+SOEL,United States,Texas,48,Webb,479
+SOEL,United States,Texas,48,Wheeler,483
+SOEL,United States,Texas,48,Wichita,485
+SOEL,United States,Texas,48,Willacy,489
+SOEL,United States,Texas,48,Williamson,491
+SOEL,United States,Texas,48,Winkler,495
+SOEL,United States,Texas,48,Wood,499
+SOEL,United States,Texas,48,Yoakum,501
+SOEL,United States,Texas,48,Zapata,505
+SOEL,United States,Utah,49,,
+SOEL,United States,Utah,49,Grand,019
+SOEL,United States,Utah,49,Kane,025
+SOEL,United States,Utah,49,San Juan,037
+SOEL,United States,Utah,49,Washington,053
+SOEL,United States,Utah,49,Wayne,055
+SOEL,United States,Washington,53,,
+SOEL,United States,Washington,53,Asotin,003
+SOEL,United States,Washington,53,Clark,011
+SOEL,United States,Washington,53,Walla Walla,071
+SOEL,United States,Washington,53,Whitman,075
+SOEL,United States,Puerto Rico,72,,

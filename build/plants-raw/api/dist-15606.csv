@@ -1,0 +1,71 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+TSHE,Canada,Alberta,01,,
+TSHE,Canada,British Columbia,02,,
+TSHE,United States,Alaska,02,,
+TSHE,United States,Alaska,02,Chugach,063
+TSHE,United States,Alaska,02,Copper River,066
+TSHE,United States,Alaska,02,Haines,100
+TSHE,United States,Alaska,02,Juneau,110
+TSHE,United States,Alaska,02,Ketchikan Gateway,130
+TSHE,United States,Alaska,02,Yakutat,282
+TSHE,United States,California,06,,
+TSHE,United States,California,06,Del Norte,015
+TSHE,United States,California,06,Humboldt,023
+TSHE,United States,California,06,Mendocino,045
+TSHE,United States,California,06,Sonoma,097
+TSHE,United States,Idaho,16,,
+TSHE,United States,Idaho,16,Benewah,009
+TSHE,United States,Idaho,16,Bonner,017
+TSHE,United States,Idaho,16,Clearwater,035
+TSHE,United States,Idaho,16,Kootenai,055
+TSHE,United States,Idaho,16,Latah,057
+TSHE,United States,Idaho,16,Shoshone,079
+TSHE,United States,Montana,30,,
+TSHE,United States,Montana,30,Flathead,029
+TSHE,United States,Montana,30,Glacier,035
+TSHE,United States,Oregon,41,,
+TSHE,United States,Oregon,41,Benton,003
+TSHE,United States,Oregon,41,Clackamas,005
+TSHE,United States,Oregon,41,Clatsop,007
+TSHE,United States,Oregon,41,Coos,011
+TSHE,United States,Oregon,41,Curry,015
+TSHE,United States,Oregon,41,Douglas,019
+TSHE,United States,Oregon,41,Hood River,027
+TSHE,United States,Oregon,41,Jackson,029
+TSHE,United States,Oregon,41,Jefferson,031
+TSHE,United States,Oregon,41,Josephine,033
+TSHE,United States,Oregon,41,Klamath,035
+TSHE,United States,Oregon,41,Lane,039
+TSHE,United States,Oregon,41,Lincoln,041
+TSHE,United States,Oregon,41,Linn,043
+TSHE,United States,Oregon,41,Marion,047
+TSHE,United States,Oregon,41,Multnomah,051
+TSHE,United States,Oregon,41,Polk,053
+TSHE,United States,Oregon,41,Tillamook,057
+TSHE,United States,Oregon,41,Union,061
+TSHE,United States,Oregon,41,Wasco,065
+TSHE,United States,Oregon,41,Washington,067
+TSHE,United States,Washington,53,,
+TSHE,United States,Washington,53,Chelan,007
+TSHE,United States,Washington,53,Clallam,009
+TSHE,United States,Washington,53,Cowlitz,015
+TSHE,United States,Washington,53,Grays Harbor,027
+TSHE,United States,Washington,53,Island,029
+TSHE,United States,Washington,53,Jefferson,031
+TSHE,United States,Washington,53,King,033
+TSHE,United States,Washington,53,Kittitas,037
+TSHE,United States,Washington,53,Klickitat,039
+TSHE,United States,Washington,53,Lewis,041
+TSHE,United States,Washington,53,Mason,045
+TSHE,United States,Washington,53,Pacific,049
+TSHE,United States,Washington,53,Pend Oreille,051
+TSHE,United States,Washington,53,Pierce,053
+TSHE,United States,Washington,53,San Juan,055
+TSHE,United States,Washington,53,Skagit,057
+TSHE,United States,Washington,53,Skamania,059
+TSHE,United States,Washington,53,Snohomish,061
+TSHE,United States,Washington,53,Thurston,067
+TSHE,United States,Washington,53,Wahkiakum,069
+TSHE,United States,Washington,53,Whatcom,073
+TSHE,United States,Washington,53,Yakima,077

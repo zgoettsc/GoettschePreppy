@@ -1,0 +1,459 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+VAAN,Canada,Manitoba,03,,
+VAAN,Canada,New Brunswick,04,,
+VAAN,Canada,Nova Scotia,07,,
+VAAN,Canada,Ontario,08,,
+VAAN,Canada,Prince Edward Island,09,,
+VAAN,United States,Connecticut,09,,
+VAAN,Canada,Quebec,10,,
+VAAN,United States,Delaware,10,,
+VAAN,United States,Delaware,10,New Castle,003
+VAAN,United States,Illinois,17,,
+VAAN,United States,Illinois,17,Cook,031
+VAAN,United States,Illinois,17,Iroquois,075
+VAAN,United States,Illinois,17,Kankakee,091
+VAAN,United States,Illinois,17,Lake,097
+VAAN,United States,Illinois,17,LaSalle,099
+VAAN,United States,Illinois,17,Lee,103
+VAAN,United States,Illinois,17,Ogle,141
+VAAN,United States,Illinois,17,Will,197
+VAAN,United States,Illinois,17,Winnebago,201
+VAAN,United States,Indiana,18,,
+VAAN,United States,Indiana,18,Cass,017
+VAAN,United States,Indiana,18,Elkhart,039
+VAAN,United States,Indiana,18,Fulton,049
+VAAN,United States,Indiana,18,Jasper,073
+VAAN,United States,Indiana,18,Lagrange,087
+VAAN,United States,Indiana,18,Lake,089
+VAAN,United States,Indiana,18,LaPorte,091
+VAAN,United States,Indiana,18,Newton,111
+VAAN,United States,Indiana,18,Porter,127
+VAAN,United States,Indiana,18,Pulaski,131
+VAAN,United States,Indiana,18,St. Joseph,141
+VAAN,United States,Indiana,18,Starke,149
+VAAN,United States,Iowa,19,,
+VAAN,United States,Maine,23,,
+VAAN,United States,Maine,23,Androscoggin,001
+VAAN,United States,Maine,23,Aroostook,003
+VAAN,United States,Maine,23,Cumberland,005
+VAAN,United States,Maine,23,Franklin,007
+VAAN,United States,Maine,23,Hancock,009
+VAAN,United States,Maine,23,Kennebec,011
+VAAN,United States,Maine,23,Knox,013
+VAAN,United States,Maine,23,Lincoln,015
+VAAN,United States,Maine,23,Oxford,017
+VAAN,United States,Maine,23,Penobscot,019
+VAAN,United States,Maine,23,Piscataquis,021
+VAAN,United States,Maine,23,Sagadahoc,023
+VAAN,United States,Maine,23,Somerset,025
+VAAN,United States,Maine,23,Waldo,027
+VAAN,United States,Maine,23,Washington,029
+VAAN,United States,Maine,23,York,031
+VAAN,United States,Maryland,24,,
+VAAN,United States,Massachusetts,25,,
+VAAN,United States,Massachusetts,25,Barnstable,001
+VAAN,United States,Massachusetts,25,Berkshire,003
+VAAN,United States,Massachusetts,25,Bristol,005
+VAAN,United States,Massachusetts,25,Dukes,007
+VAAN,United States,Massachusetts,25,Essex,009
+VAAN,United States,Massachusetts,25,Franklin,011
+VAAN,United States,Massachusetts,25,Hampden,013
+VAAN,United States,Massachusetts,25,Hampshire,015
+VAAN,United States,Massachusetts,25,Middlesex,017
+VAAN,United States,Massachusetts,25,Nantucket,019
+VAAN,United States,Massachusetts,25,Norfolk,021
+VAAN,United States,Massachusetts,25,Plymouth,023
+VAAN,United States,Massachusetts,25,Suffolk,025
+VAAN,United States,Massachusetts,25,Worcester,027
+VAAN,United States,Michigan,26,,
+VAAN,United States,Michigan,26,Alcona,001
+VAAN,United States,Michigan,26,Alger,003
+VAAN,United States,Michigan,26,Allegan,005
+VAAN,United States,Michigan,26,Alpena,007
+VAAN,United States,Michigan,26,Antrim,009
+VAAN,United States,Michigan,26,Arenac,011
+VAAN,United States,Michigan,26,Baraga,013
+VAAN,United States,Michigan,26,Barry,015
+VAAN,United States,Michigan,26,Bay,017
+VAAN,United States,Michigan,26,Benzie,019
+VAAN,United States,Michigan,26,Berrien,021
+VAAN,United States,Michigan,26,Calhoun,025
+VAAN,United States,Michigan,26,Cass,027
+VAAN,United States,Michigan,26,Charlevoix,029
+VAAN,United States,Michigan,26,Cheboygan,031
+VAAN,United States,Michigan,26,Chippewa,033
+VAAN,United States,Michigan,26,Clare,035
+VAAN,United States,Michigan,26,Clinton,037
+VAAN,United States,Michigan,26,Crawford,039
+VAAN,United States,Michigan,26,Delta,041
+VAAN,United States,Michigan,26,Dickinson,043
+VAAN,United States,Michigan,26,Eaton,045
+VAAN,United States,Michigan,26,Emmet,047
+VAAN,United States,Michigan,26,Gladwin,051
+VAAN,United States,Michigan,26,Gogebic,053
+VAAN,United States,Michigan,26,Grand Traverse,055
+VAAN,United States,Michigan,26,Gratiot,057
+VAAN,United States,Michigan,26,Hillsdale,059
+VAAN,United States,Michigan,26,Houghton,061
+VAAN,United States,Michigan,26,Huron,063
+VAAN,United States,Michigan,26,Ingham,065
+VAAN,United States,Michigan,26,Ionia,067
+VAAN,United States,Michigan,26,Iosco,069
+VAAN,United States,Michigan,26,Iron,071
+VAAN,United States,Michigan,26,Isabella,073
+VAAN,United States,Michigan,26,Kalamazoo,077
+VAAN,United States,Michigan,26,Kalkaska,079
+VAAN,United States,Michigan,26,Kent,081
+VAAN,United States,Michigan,26,Keweenaw,083
+VAAN,United States,Michigan,26,Lake,085
+VAAN,United States,Michigan,26,Lapeer,087
+VAAN,United States,Michigan,26,Leelanau,089
+VAAN,United States,Michigan,26,Livingston,093
+VAAN,United States,Michigan,26,Luce,095
+VAAN,United States,Michigan,26,Mackinac,097
+VAAN,United States,Michigan,26,Manistee,101
+VAAN,United States,Michigan,26,Marquette,103
+VAAN,United States,Michigan,26,Mason,105
+VAAN,United States,Michigan,26,Mecosta,107
+VAAN,United States,Michigan,26,Menominee,109
+VAAN,United States,Michigan,26,Midland,111
+VAAN,United States,Michigan,26,Missaukee,113
+VAAN,United States,Michigan,26,Montcalm,117
+VAAN,United States,Michigan,26,Montmorency,119
+VAAN,United States,Michigan,26,Muskegon,121
+VAAN,United States,Michigan,26,Newaygo,123
+VAAN,United States,Michigan,26,Oakland,125
+VAAN,United States,Michigan,26,Oceana,127
+VAAN,United States,Michigan,26,Ogemaw,129
+VAAN,United States,Michigan,26,Ontonagon,131
+VAAN,United States,Michigan,26,Osceola,133
+VAAN,United States,Michigan,26,Oscoda,135
+VAAN,United States,Michigan,26,Otsego,137
+VAAN,United States,Michigan,26,Ottawa,139
+VAAN,United States,Michigan,26,Presque Isle,141
+VAAN,United States,Michigan,26,Roscommon,143
+VAAN,United States,Michigan,26,Saginaw,145
+VAAN,United States,Michigan,26,Schoolcraft,153
+VAAN,United States,Michigan,26,Shiawassee,155
+VAAN,United States,Michigan,26,St. Clair,147
+VAAN,United States,Michigan,26,Van Buren,159
+VAAN,United States,Michigan,26,Washtenaw,161
+VAAN,United States,Michigan,26,Wexford,165
+VAAN,United States,Minnesota,27,,
+VAAN,United States,Minnesota,27,Aitkin,001
+VAAN,United States,Minnesota,27,Anoka,003
+VAAN,United States,Minnesota,27,Becker,005
+VAAN,United States,Minnesota,27,Beltrami,007
+VAAN,United States,Minnesota,27,Benton,009
+VAAN,United States,Minnesota,27,Carlton,017
+VAAN,United States,Minnesota,27,Cass,021
+VAAN,United States,Minnesota,27,Chisago,025
+VAAN,United States,Minnesota,27,Clearwater,029
+VAAN,United States,Minnesota,27,Cook,031
+VAAN,United States,Minnesota,27,Crow Wing,035
+VAAN,United States,Minnesota,27,Dakota,037
+VAAN,United States,Minnesota,27,Fillmore,045
+VAAN,United States,Minnesota,27,Hennepin,053
+VAAN,United States,Minnesota,27,Houston,055
+VAAN,United States,Minnesota,27,Hubbard,057
+VAAN,United States,Minnesota,27,Isanti,059
+VAAN,United States,Minnesota,27,Itasca,061
+VAAN,United States,Minnesota,27,Kanabec,065
+VAAN,United States,Minnesota,27,Kittson,069
+VAAN,United States,Minnesota,27,Koochiching,071
+VAAN,United States,Minnesota,27,Lake,075
+VAAN,United States,Minnesota,27,Lake of the Woods,077
+VAAN,United States,Minnesota,27,Mahnomen,087
+VAAN,United States,Minnesota,27,Mille Lacs,095
+VAAN,United States,Minnesota,27,Morrison,097
+VAAN,United States,Minnesota,27,Pine,115
+VAAN,United States,Minnesota,27,Ramsey,123
+VAAN,United States,Minnesota,27,Rice,131
+VAAN,United States,Minnesota,27,Roseau,135
+VAAN,United States,Minnesota,27,Sherburne,141
+VAAN,United States,Minnesota,27,St. Louis,137
+VAAN,United States,Minnesota,27,Todd,153
+VAAN,United States,Minnesota,27,Wabasha,157
+VAAN,United States,Minnesota,27,Washington,163
+VAAN,United States,Minnesota,27,Winona,169
+VAAN,United States,New Hampshire,33,,
+VAAN,United States,New Hampshire,33,Belknap,001
+VAAN,United States,New Hampshire,33,Carroll,003
+VAAN,United States,New Hampshire,33,Cheshire,005
+VAAN,United States,New Hampshire,33,Coos,007
+VAAN,United States,New Hampshire,33,Grafton,009
+VAAN,United States,New Hampshire,33,Hillsborough,011
+VAAN,United States,New Hampshire,33,Merrimack,013
+VAAN,United States,New Hampshire,33,Rockingham,015
+VAAN,United States,New Hampshire,33,Strafford,017
+VAAN,United States,New Hampshire,33,Sullivan,019
+VAAN,United States,New Jersey,34,,
+VAAN,United States,New Jersey,34,Bergen,003
+VAAN,United States,New Jersey,34,Burlington,005
+VAAN,United States,New Jersey,34,Camden,007
+VAAN,United States,New Jersey,34,Cumberland,011
+VAAN,United States,New Jersey,34,Essex,013
+VAAN,United States,New Jersey,34,Gloucester,015
+VAAN,United States,New Jersey,34,Hunterdon,019
+VAAN,United States,New Jersey,34,Mercer,021
+VAAN,United States,New Jersey,34,Middlesex,023
+VAAN,United States,New Jersey,34,Monmouth,025
+VAAN,United States,New Jersey,34,Morris,027
+VAAN,United States,New Jersey,34,Ocean,029
+VAAN,United States,New Jersey,34,Passaic,031
+VAAN,United States,New Jersey,34,Salem,033
+VAAN,United States,New Jersey,34,Somerset,035
+VAAN,United States,New Jersey,34,Sussex,037
+VAAN,United States,New Jersey,34,Warren,041
+VAAN,United States,New York,36,,
+VAAN,United States,New York,36,Albany,001
+VAAN,United States,New York,36,Allegany,003
+VAAN,United States,New York,36,Bronx,005
+VAAN,United States,New York,36,Cattaraugus,009
+VAAN,United States,New York,36,Chautauqua,013
+VAAN,United States,New York,36,Chemung,015
+VAAN,United States,New York,36,Chenango,017
+VAAN,United States,New York,36,Clinton,019
+VAAN,United States,New York,36,Columbia,021
+VAAN,United States,New York,36,Delaware,025
+VAAN,United States,New York,36,Dutchess,027
+VAAN,United States,New York,36,Erie,029
+VAAN,United States,New York,36,Essex,031
+VAAN,United States,New York,36,Franklin,033
+VAAN,United States,New York,36,Fulton,035
+VAAN,United States,New York,36,Genesee,037
+VAAN,United States,New York,36,Greene,039
+VAAN,United States,New York,36,Hamilton,041
+VAAN,United States,New York,36,Herkimer,043
+VAAN,United States,New York,36,Jefferson,045
+VAAN,United States,New York,36,Lewis,049
+VAAN,United States,New York,36,Livingston,051
+VAAN,United States,New York,36,Monroe,055
+VAAN,United States,New York,36,Nassau,059
+VAAN,United States,New York,36,New York,061
+VAAN,United States,New York,36,Oneida,065
+VAAN,United States,New York,36,Onondaga,067
+VAAN,United States,New York,36,Ontario,069
+VAAN,United States,New York,36,Orange,071
+VAAN,United States,New York,36,Oswego,075
+VAAN,United States,New York,36,Otsego,077
+VAAN,United States,New York,36,Putnam,079
+VAAN,United States,New York,36,Queens,081
+VAAN,United States,New York,36,Rensselaer,083
+VAAN,United States,New York,36,Richmond,085
+VAAN,United States,New York,36,Rockland,087
+VAAN,United States,New York,36,Saratoga,091
+VAAN,United States,New York,36,Schoharie,095
+VAAN,United States,New York,36,Steuben,101
+VAAN,United States,New York,36,Suffolk,103
+VAAN,United States,New York,36,Sullivan,105
+VAAN,United States,New York,36,Tioga,107
+VAAN,United States,New York,36,Tompkins,109
+VAAN,United States,New York,36,Ulster,111
+VAAN,United States,New York,36,Warren,113
+VAAN,United States,New York,36,Washington,115
+VAAN,United States,New York,36,Westchester,119
+VAAN,United States,New York,36,Wyoming,121
+VAAN,United States,New York,36,Yates,123
+VAAN,United States,North Carolina,37,,
+VAAN,United States,Ohio,39,,
+VAAN,United States,Ohio,39,Ashtabula,007
+VAAN,United States,Ohio,39,Carroll,019
+VAAN,United States,Ohio,39,Columbiana,029
+VAAN,United States,Ohio,39,Cuyahoga,035
+VAAN,United States,Ohio,39,Erie,043
+VAAN,United States,Ohio,39,Fulton,051
+VAAN,United States,Ohio,39,Geauga,055
+VAAN,United States,Ohio,39,Holmes,075
+VAAN,United States,Ohio,39,Jefferson,081
+VAAN,United States,Ohio,39,Knox,083
+VAAN,United States,Ohio,39,Lake,085
+VAAN,United States,Ohio,39,Lucas,095
+VAAN,United States,Ohio,39,Mahoning,099
+VAAN,United States,Ohio,39,Portage,133
+VAAN,United States,Ohio,39,Stark,151
+VAAN,United States,Ohio,39,Summit,153
+VAAN,United States,Ohio,39,Trumbull,155
+VAAN,United States,Pennsylvania,42,,
+VAAN,United States,Pennsylvania,42,Adams,001
+VAAN,United States,Pennsylvania,42,Allegheny,003
+VAAN,United States,Pennsylvania,42,Armstrong,005
+VAAN,United States,Pennsylvania,42,Beaver,007
+VAAN,United States,Pennsylvania,42,Bedford,009
+VAAN,United States,Pennsylvania,42,Berks,011
+VAAN,United States,Pennsylvania,42,Blair,013
+VAAN,United States,Pennsylvania,42,Bradford,015
+VAAN,United States,Pennsylvania,42,Bucks,017
+VAAN,United States,Pennsylvania,42,Butler,019
+VAAN,United States,Pennsylvania,42,Cambria,021
+VAAN,United States,Pennsylvania,42,Cameron,023
+VAAN,United States,Pennsylvania,42,Carbon,025
+VAAN,United States,Pennsylvania,42,Centre,027
+VAAN,United States,Pennsylvania,42,Chester,029
+VAAN,United States,Pennsylvania,42,Clarion,031
+VAAN,United States,Pennsylvania,42,Clearfield,033
+VAAN,United States,Pennsylvania,42,Clinton,035
+VAAN,United States,Pennsylvania,42,Columbia,037
+VAAN,United States,Pennsylvania,42,Cumberland,041
+VAAN,United States,Pennsylvania,42,Dauphin,043
+VAAN,United States,Pennsylvania,42,Delaware,045
+VAAN,United States,Pennsylvania,42,Elk,047
+VAAN,United States,Pennsylvania,42,Erie,049
+VAAN,United States,Pennsylvania,42,Forest,053
+VAAN,United States,Pennsylvania,42,Franklin,055
+VAAN,United States,Pennsylvania,42,Fulton,057
+VAAN,United States,Pennsylvania,42,Huntingdon,061
+VAAN,United States,Pennsylvania,42,Indiana,063
+VAAN,United States,Pennsylvania,42,Jefferson,065
+VAAN,United States,Pennsylvania,42,Juniata,067
+VAAN,United States,Pennsylvania,42,Lackawanna,069
+VAAN,United States,Pennsylvania,42,Lancaster,071
+VAAN,United States,Pennsylvania,42,Lebanon,075
+VAAN,United States,Pennsylvania,42,Lehigh,077
+VAAN,United States,Pennsylvania,42,Luzerne,079
+VAAN,United States,Pennsylvania,42,Lycoming,081
+VAAN,United States,Pennsylvania,42,McKean,083
+VAAN,United States,Pennsylvania,42,Mercer,085
+VAAN,United States,Pennsylvania,42,Mifflin,087
+VAAN,United States,Pennsylvania,42,Monroe,089
+VAAN,United States,Pennsylvania,42,Montgomery,091
+VAAN,United States,Pennsylvania,42,Montour,093
+VAAN,United States,Pennsylvania,42,Northampton,095
+VAAN,United States,Pennsylvania,42,Northumberland,097
+VAAN,United States,Pennsylvania,42,Perry,099
+VAAN,United States,Pennsylvania,42,Philadelphia,101
+VAAN,United States,Pennsylvania,42,Pike,103
+VAAN,United States,Pennsylvania,42,Potter,105
+VAAN,United States,Pennsylvania,42,Schuylkill,107
+VAAN,United States,Pennsylvania,42,Snyder,109
+VAAN,United States,Pennsylvania,42,Somerset,111
+VAAN,United States,Pennsylvania,42,Sullivan,113
+VAAN,United States,Pennsylvania,42,Susquehanna,115
+VAAN,United States,Pennsylvania,42,Tioga,117
+VAAN,United States,Pennsylvania,42,Union,119
+VAAN,United States,Pennsylvania,42,Venango,121
+VAAN,United States,Pennsylvania,42,Warren,123
+VAAN,United States,Pennsylvania,42,Washington,125
+VAAN,United States,Pennsylvania,42,Wayne,127
+VAAN,United States,Pennsylvania,42,Westmoreland,129
+VAAN,United States,Pennsylvania,42,Wyoming,131
+VAAN,United States,Pennsylvania,42,York,133
+VAAN,United States,Rhode Island,44,,
+VAAN,United States,Rhode Island,44,Kent,003
+VAAN,United States,Rhode Island,44,Newport,005
+VAAN,United States,Rhode Island,44,Providence,007
+VAAN,United States,Rhode Island,44,Washington,009
+VAAN,United States,Tennessee,47,,
+VAAN,United States,Vermont,50,,
+VAAN,United States,Vermont,50,Addison,001
+VAAN,United States,Vermont,50,Bennington,003
+VAAN,United States,Vermont,50,Caledonia,005
+VAAN,United States,Vermont,50,Chittenden,007
+VAAN,United States,Vermont,50,Essex,009
+VAAN,United States,Vermont,50,Lamoille,015
+VAAN,United States,Vermont,50,Orange,017
+VAAN,United States,Vermont,50,Orleans,019
+VAAN,United States,Vermont,50,Rutland,021
+VAAN,United States,Vermont,50,Washington,023
+VAAN,United States,Vermont,50,Windham,025
+VAAN,United States,Vermont,50,Windsor,027
+VAAN,United States,Virginia,51,,
+VAAN,United States,Virginia,51,Albemarle,003
+VAAN,United States,Virginia,51,Alleghany,005
+VAAN,United States,Virginia,51,Augusta,015
+VAAN,United States,Virginia,51,Bath,017
+VAAN,United States,Virginia,51,Bedford,019
+VAAN,United States,Virginia,51,Botetourt,023
+VAAN,United States,Virginia,51,Craig,045
+VAAN,United States,Virginia,51,Frederick,069
+VAAN,United States,Virginia,51,Giles,071
+VAAN,United States,Virginia,51,Greene,079
+VAAN,United States,Virginia,51,Highland,091
+VAAN,United States,Virginia,51,Montgomery,121
+VAAN,United States,Virginia,51,Page,139
+VAAN,United States,Virginia,51,Pulaski,155
+VAAN,United States,Virginia,51,Rappahannock,157
+VAAN,United States,Virginia,51,Roanoke,161
+VAAN,United States,Virginia,51,Rockbridge,163
+VAAN,United States,Virginia,51,Rockingham,165
+VAAN,United States,Virginia,51,Shenandoah,171
+VAAN,United States,Virginia,51,Warren,187
+VAAN,United States,Virginia,51,Wythe,197
+VAAN,United States,West Virginia,54,,
+VAAN,United States,West Virginia,54,Grant,023
+VAAN,United States,West Virginia,54,Greenbrier,025
+VAAN,United States,West Virginia,54,Hampshire,027
+VAAN,United States,West Virginia,54,Hancock,029
+VAAN,United States,West Virginia,54,Hardy,031
+VAAN,United States,West Virginia,54,Marion,049
+VAAN,United States,West Virginia,54,Mineral,057
+VAAN,United States,West Virginia,54,Monongalia,061
+VAAN,United States,West Virginia,54,Monroe,063
+VAAN,United States,West Virginia,54,Morgan,065
+VAAN,United States,West Virginia,54,Pendleton,071
+VAAN,United States,West Virginia,54,Pocahontas,075
+VAAN,United States,West Virginia,54,Preston,077
+VAAN,United States,West Virginia,54,Randolph,083
+VAAN,United States,West Virginia,54,Taylor,091
+VAAN,United States,West Virginia,54,Tucker,093
+VAAN,United States,West Virginia,54,Wyoming,109
+VAAN,United States,Wisconsin,55,,
+VAAN,United States,Wisconsin,55,Adams,001
+VAAN,United States,Wisconsin,55,Barron,005
+VAAN,United States,Wisconsin,55,Bayfield,007
+VAAN,United States,Wisconsin,55,Brown,009
+VAAN,United States,Wisconsin,55,Burnett,013
+VAAN,United States,Wisconsin,55,Chippewa,017
+VAAN,United States,Wisconsin,55,Clark,019
+VAAN,United States,Wisconsin,55,Columbia,021
+VAAN,United States,Wisconsin,55,Dane,025
+VAAN,United States,Wisconsin,55,Dodge,027
+VAAN,United States,Wisconsin,55,Door,029
+VAAN,United States,Wisconsin,55,Douglas,031
+VAAN,United States,Wisconsin,55,Dunn,033
+VAAN,United States,Wisconsin,55,Eau Claire,035
+VAAN,United States,Wisconsin,55,Florence,037
+VAAN,United States,Wisconsin,55,Forest,041
+VAAN,United States,Wisconsin,55,Grant,043
+VAAN,United States,Wisconsin,55,Green,045
+VAAN,United States,Wisconsin,55,Green Lake,047
+VAAN,United States,Wisconsin,55,Iowa,049
+VAAN,United States,Wisconsin,55,Iron,051
+VAAN,United States,Wisconsin,55,Jackson,053
+VAAN,United States,Wisconsin,55,Jefferson,055
+VAAN,United States,Wisconsin,55,Kenosha,059
+VAAN,United States,Wisconsin,55,La Crosse,063
+VAAN,United States,Wisconsin,55,Lafayette,065
+VAAN,United States,Wisconsin,55,Lincoln,069
+VAAN,United States,Wisconsin,55,Manitowoc,071
+VAAN,United States,Wisconsin,55,Marathon,073
+VAAN,United States,Wisconsin,55,Marinette,075
+VAAN,United States,Wisconsin,55,Marquette,077
+VAAN,United States,Wisconsin,55,Menominee,078
+VAAN,United States,Wisconsin,55,Milwaukee,079
+VAAN,United States,Wisconsin,55,Monroe,081
+VAAN,United States,Wisconsin,55,Oconto,083
+VAAN,United States,Wisconsin,55,Oneida,085
+VAAN,United States,Wisconsin,55,Polk,095
+VAAN,United States,Wisconsin,55,Portage,097
+VAAN,United States,Wisconsin,55,Price,099
+VAAN,United States,Wisconsin,55,Racine,101
+VAAN,United States,Wisconsin,55,Richland,103
+VAAN,United States,Wisconsin,55,Rock,105
+VAAN,United States,Wisconsin,55,Rusk,107
+VAAN,United States,Wisconsin,55,Sauk,111
+VAAN,United States,Wisconsin,55,Sawyer,113
+VAAN,United States,Wisconsin,55,Shawano,115
+VAAN,United States,Wisconsin,55,Sheboygan,117
+VAAN,United States,Wisconsin,55,St. Croix,109
+VAAN,United States,Wisconsin,55,Taylor,119
+VAAN,United States,Wisconsin,55,Trempealeau,121
+VAAN,United States,Wisconsin,55,Vernon,123
+VAAN,United States,Wisconsin,55,Vilas,125
+VAAN,United States,Wisconsin,55,Washburn,129
+VAAN,United States,Wisconsin,55,Waupaca,135
+VAAN,United States,Wisconsin,55,Waushara,137
+VAAN,United States,Wisconsin,55,Wood,141
+VAAN,Canada,Labrador,LB,,
+VAAN,Canada,Newfoundland,NF,,
