@@ -98,7 +98,7 @@ box. → 30-01
   document is bound inside. It carries only this kit's own text and public-domain material, and
   fits on any phone.
 - **Large** is Small plus the full documents cited by the life-safety sections (medical
-  conditions, water, fire and fuel, heating, power, first aid, hazards, kids, CBRN, and the
+  conditions, water, food storage and canning, fire and fuel, heating, power, first aid, hazards, kids, CBRN, and the
   decision cards and floors), each bound behind the page that cites it. It also carries
   topographic maps for your home county and destinations, and for the counties along your routes
   if you chose them. Documents cited only by other sections are listed as "in the Everything

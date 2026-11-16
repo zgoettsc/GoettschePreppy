@@ -202,8 +202,10 @@ authority for tested canning methods (→ 04-04, → 04-05).
 
 ## National resources worth knowing by name
 
-You cannot reach these without the internet or a phone line, but their documents are behind the
-pages that cite them in this binder{{#if size.large}} (this is the Large copy){{else}} (the Large copy holds the full documents; this Small copy names them){{/if}}.
+You cannot reach these without the internet or a phone line. {{#if size.everything}}Their documents are behind the
+pages that cite them in this binder (this is the Everything copy).{{else}}{{#if size.large}}Those cited by the life-safety
+sections are behind the pages that cite them (this is the Large copy); the rest are in the Everything download.{{else}}This Small copy
+names them; the Large copy holds those cited by the life-safety sections and Everything holds all of them (→ 00-09).{{/if}}{{/if}}
 
 | Resource | Use |
 |---|---|

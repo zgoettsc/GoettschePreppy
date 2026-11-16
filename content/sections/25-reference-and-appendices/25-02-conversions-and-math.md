@@ -14,6 +14,8 @@ sources:
   - us-epa-emergency-disinfection-of-drinking-water-6aa91f
   - cdc-how-to-make-water-safe-in-an-emergency-5d78b5
   - fema-477-food-and-water-in-an-emergency
+  - fema-ready-gov-water
+  - us-epa-septicsmart-how-to-care-for-your-septic-syste-297074
   - foodsafety-gov-usda-hhs-cook-to-a-safe-minimum-inter-13daf3
   - foodsafety-gov-usda-hhs-food-safety-during-a-power-o-3894c1
   - noaa-national-weather-service-wind-chill-chart-frost-89f6d7
@@ -102,8 +104,8 @@ hazard. Measuring without tools: → 29-13.
 | **This household, plan** | **{{ derived.water.plan_gal_day }} gal a day**; two weeks = **{{ derived.water.two_weeks_gal }} gal** |
 | **Stored now** | {{ gear.water.stored_gal }} gal = **{{ derived.water.stored_days }} days** at the floor rate |
 | Realistic with cooking and washing | 2 to 3 gal per person per day |
-| Absolute drinking minimum, short term | About 0.5 gal per person per day: **not sustainable, and worse when hot or working** |
-| Toilet flush (conventional) | 1.6 to 3.5 gal, which is why the bucket toilet exists (→ 13-01) |
+| Drinking alone | About three quarters of a gallon of fluid a day for a normally active person, from water and other drinks; **in very hot weather needs can double** (FEMA, Ready.gov Water; → 03-01) |
+| Toilet flush | 1.6 gal or less (newer high-efficiency); many older toilets 3.5 to 5 gal (US EPA, How to Care for Your Septic System; → 13-01) |
 | Shower | 2 to 2.5 gal a minute |
 | Sponge bath | About 1 gal |
 | Hand-washing a load of laundry | 10 to 20 gal (→ 13-04) |

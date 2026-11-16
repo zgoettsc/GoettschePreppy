@@ -74,6 +74,8 @@ Options are listed with their id for the profile (`decision_cards.DC-xx`).
 | DC-27 | **Water-glassing fresh eggs (storing them in lime water).** | `do-not` follow the Extension position (refrigerate or freeze eggs only); `water-glass-with-rules` clean unwashed eggs, food-grade lime, cool storage, discard any cracked or off egg, cook thoroughly. |
 | DC-28 | **Relighting gas appliance pilots yourself when the gas company will not come.** | `utility-only` wait for the utility; `relight-with-rules` only after the gas has been off and the smell is gone, following the appliance's own lighting label, with a leak check. |
 | DC-29 | **One traction attempt on a fractured limb with no pulse below it, when no care is coming.** | `splint-as-found` splint without moving it; `one-gentle-traction` one gentle in-line traction attempt to restore the pulse, then splint, per the published wilderness-medicine guidance. |
+| DC-30 | **Keeping a wood stove or fireplace burning (banked) while people sleep.** | `put-out-before-sleep` follow USFA (fire out before sleeping); `bank-with-rules` banked low, damper per the stove maker, CO and smoke alarms tested, someone checks during the night. |
+| DC-31 | **How the household keeps firearms ready (no law applies; the aims are child safety and protection).** | `locked-safe` all firearms locked, unloaded, ammunition separate; `quick-access-lockbox` one firearm loaded in a quick-access lockbox, the rest locked; `carried-on-person` one firearm carried on an adult's body at all times, the rest locked; each with the child-exposure rules on the card. |
 
 ## Part D. How a card gets into the binder
 

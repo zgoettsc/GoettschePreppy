@@ -132,7 +132,8 @@ Measure the idle: fully charged, inverter on, nothing plugged in, note the perce
 {{else}}| ______ | ______ | ______ | ______ | ______ |
 {{/each}}
 
-For a **full-size refrigerator** (about 1,200 Wh a day), our whole bank of
+For a **full-size refrigerator** (about 1,000 to 2,000 Wh a day, → 09-01; this estimate uses
+1,200 Wh), our whole bank of
 {{ gear.station_wh_total }} Wh gives roughly **{{ derived.station_fridge_days }} days**: an estimate
 that leaves out idle draw and anything else plugged in. Measure your own as above. Pick the
 percentage at which you move the cooler to the next station, and write it here: ______ %.

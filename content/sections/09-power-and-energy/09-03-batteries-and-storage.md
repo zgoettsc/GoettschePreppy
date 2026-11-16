@@ -273,7 +273,8 @@ The same table, cut down to a card, is on → 09-16; keep a copy with the panels
 Full input specs for common stations and panels: → 28-01, → 28-02.
 
 ### What a station runs (estimates; the percentage on the screen is the truth)
-- **A typical full-size refrigerator** (about 1,200 Wh a day): our station bank,
+- **A typical full-size refrigerator** (about 1,000 to 2,000 Wh a day, → 09-01; this estimate
+  uses 1,200 Wh): our station bank,
   {{ gear.station_wh_total }} Wh, runs one for roughly **{{ derived.station_fridge_days }} days**.
   That is an estimate: it assumes about 85% of the rated Wh is usable and does not count the
   station's own idle draw or anything else plugged in. **Measure your own:** fully charge, plug in

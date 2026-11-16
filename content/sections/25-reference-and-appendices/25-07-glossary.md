@@ -54,7 +54,7 @@ definitions orient you; the page in the last column does the work. The explainer
 | **Explainer** | A one-page lesson on a subject newcomers are not expected to know (EX-01 to EX-15) | → 29-01 to → 29-15 |
 | **Condition module** | The pages for one medical condition (CL-01 to CL-26); the ones you ticked are moved forward | Section 02 |
 | **Core, region, household layers** | Core: the same for every household. Region: your state's climate, hazards, offices and plants. Household: your people, gear and plans, filled from settings | → 29-15 |
-| **Small and Large copy** | Small: every page, citations by title only. Large: the same plus the cited documents and topographic maps inside | → 00-09, → 29-15 |
+| **Small, Large and Everything copy** | Small: every page, citations by title only. Large: the same plus the documents cited by the life-safety sections and topographic maps inside. Everything: every cited document | → 00-09, → 29-15 |
 | **AI-reviewed, not human-verified** | The stamp on every page: an AI checked it; no professional did. Where a professional disagrees, the professional is right | → 29-15 |
 | **Fill-in blank** | A line marked "(fill in)": an answer you skipped in settings | → 00-01 |
 | **Before the collapse** | A boxed note about laws, licences or codes: true while government works, never deciding a survival procedure | → 29-15 |

@@ -4,12 +4,18 @@ Run:  python3 figures/src/build.py [fig-id ...]
 """
 import json, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import importlib, glob as _glob
 import fig_power, fig_heat, fig_medical, fig_knots, fig_misc  # noqa: E401
 
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'svg')
 ALL = {}
 for m in (fig_power, fig_heat, fig_medical, fig_knots, fig_misc):
     ALL.update(m.FIGS)
+# F2's modules (fig_f2_*.py) are picked up automatically; they only add new ids.
+for _f in sorted(_glob.glob(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'fig_f2_*.py'))):
+    _m = importlib.import_module(os.path.basename(_f)[:-3])
+    assert not (set(_m.FIGS) & set(ALL)), _f
+    ALL.update(_m.FIGS)
 
 if __name__ == '__main__':
     want = sys.argv[1:] or list(ALL)

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 356" width="360" height="356" color="#1b1b1b" font-family="Helvetica, Arial, sans-serif" font-size="13" class="gpfig fig-oxygen-no-flame-zone" aria-label="Oxygen: the no-flame zone">
+<title>Oxygen: the no-flame zone</title>
+<rect x="6" y="8" width="230" height="250" fill="none" stroke="currentColor" stroke-width="2.4"/>
+<circle cx="116" cy="130" r="86" fill="#2e7d32" fill-opacity="0.06" stroke="#2e7d32" stroke-width="2" stroke-dasharray="6 4"/>
+<rect x="100" y="120" width="32" height="30" rx="4" fill="currentColor" fill-opacity="0.15" stroke="currentColor" stroke-width="1.6"/><text x="116" y="164" font-size="10" text-anchor="middle" fill="currentColor">chair</text>
+<rect x="138" y="124" width="18" height="24" rx="3" fill="#1e6fc0" fill-opacity="0.35" stroke="#1e6fc0" stroke-width="1.6"/><text x="162" y="134" font-size="11" font-weight="bold" fill="#1e6fc0">O₂</text>
+<line x1="116" y1="130" x2="38.0" y2="130.0" stroke="#2e7d32" stroke-width="1.4" stroke-linecap="round"/><path d="M32,130 L38.0,133.0 L38.0,127.0 Z" fill="#2e7d32" stroke="none"/><text x="72" y="124" font-size="10.5" text-anchor="middle" font-weight="bold" fill="#2e7d32">at least 5 ft</text>
+<text x="116" y="70" font-size="10.5" text-anchor="middle" fill="#2e7d32">no flame, no heater,</text><text x="116" y="83" font-size="10.5" text-anchor="middle" fill="#2e7d32">no electrical device</text>
+<line x1="236" y1="200" x2="236" y2="244" stroke="white" stroke-width="5" stroke-linecap="round"/><path d="M236,200 A44,44 0 0 1 280,244" fill="none" stroke="currentColor" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="3 3"/>
+<rect x="170" y="208" width="60" height="38" rx="3" fill="#c62828" fill-opacity="0.12" stroke="#c62828" stroke-width="1.4"/><text x="200" y="223" font-size="8" text-anchor="middle" font-weight="bold" fill="#c62828">NO SMOKING</text>
+<text x="200" y="234" font-size="8" text-anchor="middle" font-weight="bold" fill="#c62828">NO FLAMES</text>
+<text x="248" y="26" font-size="12" font-weight="bold" fill="#c62828">Keep OUT:</text>
+<line x1="248" y1="35" x2="257" y2="44" stroke="#c62828" stroke-width="2" stroke-linecap="round"/><line x1="248" y1="44" x2="257" y2="35" stroke="#c62828" stroke-width="2" stroke-linecap="round"/><text x="262" y="44" font-size="11" fill="currentColor">candle</text>
+<line x1="248" y1="53" x2="257" y2="62" stroke="#c62828" stroke-width="2" stroke-linecap="round"/><line x1="248" y1="62" x2="257" y2="53" stroke="#c62828" stroke-width="2" stroke-linecap="round"/><text x="262" y="62" font-size="11" fill="currentColor">oil lamp</text>
+<line x1="248" y1="71" x2="257" y2="80" stroke="#c62828" stroke-width="2" stroke-linecap="round"/><line x1="248" y1="80" x2="257" y2="71" stroke="#c62828" stroke-width="2" stroke-linecap="round"/><text x="262" y="80" font-size="11" fill="currentColor">match, lighter</text>
+<line x1="248" y1="89" x2="257" y2="98" stroke="#c62828" stroke-width="2" stroke-linecap="round"/><line x1="248" y1="98" x2="257" y2="89" stroke="#c62828" stroke-width="2" stroke-linecap="round"/><text x="262" y="98" font-size="11" fill="currentColor">space heater</text>
+<line x1="248" y1="107" x2="257" y2="116" stroke="#c62828" stroke-width="2" stroke-linecap="round"/><line x1="248" y1="116" x2="257" y2="107" stroke="#c62828" stroke-width="2" stroke-linecap="round"/><text x="262" y="116" font-size="11" fill="currentColor">gas stove</text>
+<line x1="248" y1="125" x2="257" y2="134" stroke="#c62828" stroke-width="2" stroke-linecap="round"/><line x1="248" y1="134" x2="257" y2="125" stroke="#c62828" stroke-width="2" stroke-linecap="round"/><text x="262" y="134" font-size="11" fill="currentColor">wood stove</text>
+<text x="248" y="170.0" font-size="11" font-weight="bold" fill="currentColor">Best: a room</text>
+<text x="248" y="183.5" font-size="11" font-weight="bold" fill="currentColor">with NO flame</text>
+<text x="248" y="197.0" font-size="11" font-weight="bold" fill="currentColor">at all.</text>
+<text x="8" y="284" font-size="11.5" font-weight="bold" fill="currentColor">No smoking near them, by anyone.</text>
+<text x="8" y="299" font-size="11.5" fill="currentColor">No aerosol sprays, vapour rubs, petroleum jelly or</text>
+<text x="8" y="314" font-size="11.5" fill="currentColor">oil-based lotions: use water-based products.</text>
+<text x="8" y="329" font-size="11.5" fill="currentColor">Turn the oxygen off when not in use; tanks secured.</text>
+<text x="354" y="350" font-size="10.5" text-anchor="end" fill="currentColor" opacity="0.75">Diagram, not to scale</text>
+</svg>

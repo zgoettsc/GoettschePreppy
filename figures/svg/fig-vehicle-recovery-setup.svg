@@ -22,9 +22,9 @@
 <circle cx="110" cy="314" r="5" fill="none" stroke="currentColor" stroke-width="1.8"/><line x1="110" y1="319" x2="110" y2="332" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
 <circle cx="180" cy="314" r="5" fill="none" stroke="currentColor" stroke-width="1.8"/><line x1="180" y1="319" x2="180" y2="332" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
 <line x1="320" y1="282" x2="320.0" y2="299.0" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/><path d="M320,304 L322.5,299.0 L317.5,299.0 Z" fill="currentColor" stroke="none"/><line x1="320" y1="282" x2="320.0" y2="259.0" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/><path d="M320,254 L317.5,259.0 L322.5,259.0 Z" fill="currentColor" stroke="none"/>
-<text x="352" y="318.0" font-size="10.5" text-anchor="end" fill="currentColor">bystanders: at least</text>
-<text x="352" y="330.5" font-size="10.5" text-anchor="end" fill="currentColor">1.5 x the strap length</text>
-<text x="352" y="343.0" font-size="10.5" text-anchor="end" fill="currentColor">away, out of line</text>
+<text x="352" y="318.0" font-size="10.5" text-anchor="end" fill="currentColor">bystanders: farther</text>
+<text x="352" y="330.5" font-size="10.5" text-anchor="end" fill="currentColor">away than the strap</text>
+<text x="352" y="343.0" font-size="10.5" text-anchor="end" fill="currentColor">is long, out of line</text>
 <text x="8" y="372.0" font-size="11.5" font-weight="bold" fill="currentColor">Dig and add traction first. Only a rated strap with no</text>
 <text x="8" y="386.5" font-size="11.5" font-weight="bold" fill="currentColor">metal hooks: never rope, chain or a ratchet strap.</text>
 <text x="8" y="401.0" font-size="11.5" fill="currentColor">Your strap&#x27;s own printed instructions govern.</text>

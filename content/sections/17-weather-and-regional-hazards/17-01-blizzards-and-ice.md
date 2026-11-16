@@ -64,7 +64,7 @@ live, and the record low is **{{ region.home.record_low_f }} °F**.{{/if}}
 
 1. **Get a NOAA Weather Radio with SAME programmed** (→ 15-01, → 29-09). Winter storms come with
    hours of warning, and those hours are everything.
-2. **CO alarms on every level and where people sleep, tested, before the first heater is lit**
+2. **CO alarms on every level and outside each sleeping area, tested, before the first heater is lit**
    (→ 08-02). Replace each by the date printed on it.
 3. **Do the "three days with no power in deep cold" walk-through on paper:** heat, water, food,
    light, medicine, sanitation (→ 13-05). Find the gaps now.

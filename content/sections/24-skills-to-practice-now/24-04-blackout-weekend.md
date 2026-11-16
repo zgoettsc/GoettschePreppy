@@ -91,7 +91,7 @@ fits the house you actually live in**:
 
 | Absolute rules |
 |---|
-| **Battery carbon monoxide alarms, tested**: one where people sleep and one on every level ({{ gear.co_alarms }} in settings), installed and tested **before** any fuel-burning heater is lit (→ 08-02) |
+| **Battery carbon monoxide alarms, tested**: one on every level, one outside each sleeping area and one in the warm room at pillow height ({{ gear.co_alarms }} in settings), installed and tested **before** any fuel-burning heater is lit (→ 08-02) |
 | **Indoor heat only from an appliance rated for indoor use**, run exactly by its manual and its page (→ 08-10, → 08-09, → 08-08), with the alarm up first and the fresh-air openings the manual gives. Never two fuel heaters in one room. **Never indoors, under any circumstances:** camp stove, grill, generator, charcoal |
 | **Overnight heat** is a household decision: {{choice DC-01}} → 30-02. A propane cylinder larger than 1 lb indoors: {{choice DC-02}} → 30-03. **Anyone waking with a headache or feeling sick = everyone out**, then call (→ 29-03) |
 | **Candles and open flame indoors:** {{choice DC-20}} → 30-21. Battery lights are safer (→ 10-01) |

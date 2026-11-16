@@ -180,8 +180,8 @@ def kneeler(hx, hy, color=BLUE, s=1.0, hands='stack'):
 
 
 @fig('fig-cpr-adult',
-     'Adult CPR: two hands stacked on the centre of the chest, arms straight, shoulders over the hands. Push 2 to 2.4 inches deep, 100 to 120 a minute, let the chest come fully back up. 30 compressions to 2 breaths.',
-     'Side view of a person lying on their back on the floor and a rescuer kneeling beside them, arms straight, shoulders directly above two stacked hands on the centre of the chest. An arrow shows the push of 2 to 2.4 inches. An inset shows the heel of one hand on the chest with the other hand on top, fingers laced and lifted.',
+     'Adult CPR: heel of one hand on the centre of the chest, other hand on top, fingers interlaced, arms straight, shoulders over the hands. Push about 2 inches (5 cm) deep, 100 to 120 a minute, let the chest come fully back up. 30 compressions to 2 breaths.',
+     'Side view of a person lying on their back on the floor and a rescuer kneeling beside them, arms straight, shoulders directly above two stacked hands on the centre of the chest. An arrow shows the push of about 2 inches. An inset shows the heel of one hand on the chest with the other hand on top, fingers laced and lifted.',
      ['12-18'])
 def cpr_adult():
     b = [floor(204)]
@@ -190,7 +190,7 @@ def cpr_adult():
     b.append(body)
     b.append(rect(chest[0] - 9, chest[1] - 12, 18, 10, BLUE, BLUE, 1.4, 4, 0.5))
     b.append(arrow(chest[0] - 26, chest[1] - 40, chest[0] - 26, chest[1] - 4, RED, 2.4, 8))
-    b.append(t(8, chest[1] - 50, '2 to 2.4 in', 11.5, 'start', 'bold', RED))
+    b.append(t(8, chest[1] - 50, 'about 2 in', 11.5, 'start', 'bold', RED))
     b.append(tl(4, 28, [('ADULT', True)], 15))
     # inset hands
     ix, iy = 252, 40
@@ -200,19 +200,19 @@ def cpr_adult():
     b.append(rect(ix + 22, iy + 22, 48, 16, BLUE, BLUE, 1.6, 7, 0.25) + rect(ix + 18, iy + 8, 56, 16, BLUE, BLUE, 1.6, 7, 0.4))
     b.append(t(ix + 46, iy + 20, 'fingers laced', 9, 'middle'))
     y = 232
-    rows = [('Hands', '2 stacked, centre of chest'), ('Depth', 'at least 2 in, not deeper than 2.4'),
+    rows = [('Hands', 'heel of 1 hand, other on top'), ('Depth', 'about 2 in (5 cm)'),
             ('Rate', '100 to 120 a minute (Stayin\' Alive)'), ('Rhythm', '30 : 2, one or two rescuers'),
             ('Recoil', 'let the chest come fully back up')]
     for k, v in rows:
         b.append(t(8, y, k, 12, weight='bold') + t(74, y, v, 12))
         y += 17
-    b.append(t(8, y + 6, 'Pulled from water: 2 breaths first. Never hands-only.', 11.5, weight='bold', fill=RED))
+    b.append(t(8, y + 6, 'Pulled from water: breaths first. Never hands-only.', 11.5, weight='bold', fill=RED))
     return svg('fig-cpr-adult', y + 30, '\n'.join(b), 'Adult CPR hand position')
 
 
 @fig('fig-cpr-child',
-     'Child CPR (1 year to puberty): heel of one hand (two for a bigger child) on the centre of the chest, about 2 inches deep, 100 to 120 a minute. Head tilt and chin lift for breaths. 30:2 with one rescuer, 15:2 with two.',
-     'Side view of a child lying on their back and a kneeling rescuer pressing with the heel of one hand on the centre of the chest, arm straight. An arrow shows a push of about 2 inches. A second small drawing shows the head tilted back with two fingers lifting the chin.',
+     'Child CPR (1 year to puberty): heel of one hand on the centre of the chest, other hand on top, about 2 inches (5 cm) deep, 100 to 120 a minute. Head tilt and chin lift for breaths. 30:2 with one rescuer, 15:2 with two.',
+     'Side view of a child lying on their back and a kneeling rescuer pressing with the heel of one hand, other hand on top, on the centre of the chest, arms straight. An arrow shows a push of about 2 inches. A second small drawing shows the head tilted back with two fingers lifting the chin.',
      ['12-18'])
 def cpr_child():
     b = [floor(204)]
@@ -230,7 +230,7 @@ def cpr_child():
     b.append(path(f'M{ix + 14},{iy - 30} q-8,8 -4,18', INK, sw=1.4) + arrow(ix + 16, iy - 50, ix + 8, iy - 34, INK, 1.4, 5))
     b.append(path(f'M{ix + 22},{iy + 4} l-10,12', BLUE, sw=5) + t(ix + 40, iy + 28, 'tilt head, lift chin', 10, 'middle'))
     y = 232
-    rows = [('Hands', 'heel of 1 hand (2 for a bigger child)'), ('Depth', 'about 2 in (a third of the chest)'),
+    rows = [('Hands', 'heel of 1 hand, other on top'), ('Depth', 'about 2 in (5 cm)'),
             ('Rate', '100 to 120 a minute'), ('Rhythm', '30 : 2 alone; 15 : 2 with two rescuers'),
             ('Breaths', 'pinch nose, seal mouth, 1 second')]
     for k, v in rows:
@@ -247,41 +247,41 @@ def infant(x, y, s=1.0, face='up'):
 
 
 @fig('fig-cpr-infant',
-     'Infant CPR (under 1 year): two fingers on the centre of the chest just below the nipple line, about 1½ inches deep, 100 to 120 a minute; with two rescuers, two thumbs with the hands encircling the chest. Cover mouth and nose with your mouth; gentle puffs.',
-     'Left: an infant on its back on a firm surface, head in a neutral sniffing position, with two fingers pressing the centre of the chest just below the nipple line and an arrow showing about 1½ inches. Right: seen from above, two hands wrap around the infant\'s chest with both thumbs side by side on the breastbone. Below: the rescuer\'s mouth covering the infant\'s mouth and nose.',
+     'Infant CPR (under 1 year): two thumbs side by side on the centre of the chest just below the nipple line, hands wrapped round the chest; or the heel of one hand if you cannot press deep enough. About 1½ inches (4 cm) deep, 100 to 120 a minute. No two-finger compressions. Cover mouth and nose with your mouth.',
+     'Left: an infant on its back on a firm surface, head in a neutral sniffing position, with the heel of one hand pressing the breastbone just below the nipples and an arrow showing about 1½ inches. Right: seen from above, two hands wrap around the infant\'s chest with both thumbs side by side on the breastbone, the first choice.',
      ['12-18'])
 def cpr_infant():
     b = [t(4, 24, 'INFANT', 15, weight='bold') + t(4, 40, 'under 1 year', 11)]
     b.append(rect(14, 130, 150, 8, INK, INK, 1.2, 2, 0.2) + t(88, 154, 'firm, flat surface', 10.5, 'middle'))
     b.append(infant(36, 130, 1.3))
     cx = 36 + 36
-    b.append(path(f'M{cx - 4},{106} L{cx - 4},{60} M{cx + 4},{106} L{cx + 4},{60}', BLUE, sw=6, op=0.6))
-    b.append(rect(cx - 10, 46, 20, 16, BLUE, BLUE, 1.2, 6, 0.35))
-    b.append(t(cx + 14, 76, '2 fingers', 10.5, fill=BLUE))
+    b.append(path(f'M{cx - 3},{106} L{cx - 3},{60} M{cx + 3},{106} L{cx + 3},{60}', BLUE, sw=13, op=0.55))
+    b.append(rect(cx - 12, 46, 24, 16, BLUE, BLUE, 1.2, 6, 0.35))
+    b.append(t(cx + 14, 64, 'or heel of', 10.5, fill=BLUE) + t(cx + 14, 76, '1 hand', 10.5, fill=BLUE))
     b.append(t(cx + 14, 88, 'just below', 10.5) + t(cx + 14, 100, 'nipple line', 10.5))
     b.append(arrow(cx - 22, 70, cx - 22, 104, RED, 2.2, 7) + tl(cx - 28, 64, [('about', True), ('1½ in', True)], 11, 12.5, 'end', fill=RED))
     # two-thumb technique, top view
     ox, oy = 250, 86
-    b.append(t(ox + 6, 28, 'Two rescuers:', 11.5, 'middle', 'bold') + t(ox + 6, 42, 'two thumbs, hands', 10.5, 'middle') + t(ox + 6, 54, 'encircling the chest', 10.5, 'middle'))
+    b.append(t(ox + 6, 28, 'First choice:', 11.5, 'middle', 'bold') + t(ox + 6, 42, 'two thumbs, hands', 10.5, 'middle') + t(ox + 6, 54, 'encircling the chest', 10.5, 'middle'))
     b.append(circle(ox + 6, oy - 4, 14, INK, INK, 1.4, 0.2))
     b.append(rect(ox - 20, oy + 10, 52, 66, INK, INK, 1.4, 20, 0.15))
     b.append(path(f'M{ox - 22},{oy + 30} q-14,20 2,38 M{ox + 34},{oy + 30} q14,20 -2,38', BLUE, sw=8, op=0.45))
     b.append(rect(ox - 3, oy + 34, 8, 18, BLUE, BLUE, 1.4, 4, 0.6) + rect(ox + 7, oy + 34, 8, 18, BLUE, BLUE, 1.4, 4, 0.6))
     b.append(t(ox + 6, oy + 92, 'seen from above', 10, 'middle', italic=True))
     y = 204
-    rows = [('Depth', 'about 1½ in (a third of the chest)'), ('Rate', '100 to 120 a minute'),
-            ('Rhythm', '30 : 2 alone; 15 : 2 with two rescuers'), ('Breaths', 'mouth over mouth AND nose; puffs'),
+    rows = [('Depth', 'about 1½ in (4 cm)'), ('Rate', '100 to 120 a minute'),
+            ('Rhythm', '30 : 2 alone; 15 : 2 with two rescuers'), ('Breaths', 'mouth over mouth AND nose'),
             ('Head', 'neutral "sniffing" position, not')]
     for k, v in rows:
         b.append(t(8, y, k, 12, weight='bold') + t(74, y, v, 12))
         y += 17
     b.append(t(74, y - 2, 'tipped far back', 12))
-    return svg('fig-cpr-infant', y + 26, '\n'.join(b), 'Infant CPR finger and thumb positions')
+    return svg('fig-cpr-infant', y + 26, '\n'.join(b), 'Infant CPR thumb and hand positions')
 
 
 @fig('fig-choking-infant',
-     'Choking infant under 1: five firm back blows with the baby face-down along your forearm, head lower than chest, jaw supported; then turn face-up for five chest thrusts with two fingers just below the nipple line. Never abdominal thrusts under 1.',
-     'Two panels. Left: a seated adult rests a forearm on the thigh with the infant lying face-down along it, head lower than the chest and the jaw held in the hand; the other hand strikes between the shoulder blades, marked 5 back blows. Right: the infant face-up along the forearm, head lower, with two fingers on the centre of the chest just below the nipple line, marked 5 chest thrusts.',
+     'Choking infant under 1: five firm back blows with the baby face-down along your forearm, head lower than chest, jaw supported; then turn face-up for five chest thrusts with the heel of one hand on the middle of the breastbone, just below the nipples. Never abdominal thrusts under 1.',
+     'Two panels. Left: a seated adult rests a forearm on the thigh with the infant lying face-down along it, head lower than the chest and the jaw held in the hand; the palm of the other hand strikes between the shoulder blades, marked 5 back blows. Right: the infant face-up along the forearm, head lower, with the heel of one hand on the middle of the breastbone just below the nipples, marked 5 chest thrusts.',
      ['12-18'])
 def choking_infant():
     b = []
@@ -300,13 +300,13 @@ def choking_infant():
     b.append(panel(0, 'down'))
     b.append(figure_g([('l', [(96, 56), (72, 100)], 11)], BLUE, 0.55))
     b.append(arrow(96, 60, 70, 104, RED, 2.4, 8))
-    b.append(tl(8, 220, [('5 back blows,', True), 'heel of hand, between', 'the shoulder blades.', 'Hold the jaw, not the throat.'], 11.5, 14))
+    b.append(tl(8, 220, [('5 back blows,', True), 'palm of your hand, between', 'the shoulder blades.', 'Hold the jaw, not the throat.'], 11.5, 14))
     b.append(line(180, 6, 180, 280, INK, 0.8, op=0.4))
     b.append(t(188, 18, '2. Turn face-up, head lower', 12.5, weight='bold'))
     b.append(panel(180, 'up'))
-    b.append(path('M240,62 L240,106 M248,62 L248,106', BLUE, sw=5, op=0.6))
+    b.append(path('M241,62 L241,106 M247,62 L247,106', BLUE, sw=12, op=0.55))
     b.append(arrow(226, 66, 226, 104, RED, 2.2, 7))
-    b.append(tl(188, 220, [('5 chest thrusts,', True), '2 fingers, centre of', 'chest, just below the', 'nipple line.'], 11.5, 14))
+    b.append(tl(188, 220, [('5 chest thrusts,', True), 'heel of 1 hand, middle', 'of the breastbone, just', 'below the nipples.'], 11.5, 14))
     b.append(rect(6, 288, 348, 52, RED, RED, 1.6, 5, 0.06))
     b.append(tl(14, 306, [('Repeat 5 and 5. NEVER abdominal thrusts under 1.', True), ('Never hold an infant upside down by the feet.', True),
                           'Remove only what you can see. Limp: start CPR.'], 11, 13.5, fill=RED))

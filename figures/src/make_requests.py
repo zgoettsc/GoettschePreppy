@@ -42,12 +42,16 @@ for f in sorted(glob.glob(os.path.join(ROOT, 'notes/workers/*.md'))):
             i += 1
 
 
-# Specs re-checked against the current page text (R18, 2026-11-16 review): these replace the
+# Specs re-checked against the current page text (R18 and R19, 2026-11-16 review): these replace the
 # requesting worker's older description, whose numbers the page no longer uses.
 SPEC = {
     'fig-dutch-oven-coals': ('R18', 'a 12-inch camp Dutch oven baking at about 325 °F: 24 briquettes (2 × diameter), 16 on the lid and 8 underneath (two-thirds on the lid), with "add or remove 2 briquettes for about 25 °F" and "quarter-turn lid and oven every 15 min" (Missouri Department of Conservation, as on 07-04). (07-04)'),
     'fig-haybox': ('R18', 'a lidded pot going from a full rolling boil into a cooler packed with towels; labels "full rolling boil right through the pot", "keep above 140 °F (check with a thermometer)", "dropped below 140 °F: reheat to 165 °F", "below 140 °F for more than 2 hours: throw out" (CDC, as on 07-02). (07-02)'),
     'fig-ice-thickness': ('R18', 'the Minnesota DNR new clear-ice table as a stacked drawing (under 4 in stay off; 4 in walking and ice fishing on foot; 5-7 in snowmobile or small ATV; 7-8 in side-by-side ATV; 9-10 in small car or SUV; 11-12 in medium SUV or small truck; 13 in medium truck) with "white ice: double every figure" (as on 05-08). (05-08)'),
+    'fig-anaphylaxis-positions': ('R19', 'two panels as on 02-03 (AAP, Allergy and Anaphylaxis Emergency Plan): lying on their back; lying on their side if vomiting or having trouble breathing; label "do not stand them up or walk them". No legs-raised or sitting-up panel. (02-03)'),
+    'fig-naloxone-nasal-spray': ('R19', 'hand holding a naloxone nasal spray, thumb on the bottom of the plunger, nozzle in either nostril, person lying on their back; inset "no response in 2 to 3 minutes: next dose with a new device, either nostril; keep going until they wake" (Narcan Drug Facts, as on 02-17). Then on their side (CDC). (02-17)'),
+    'fig-lashing-diagonal': ('R19', 'diagonal lashing per AFH 10-644 as on 16-03: clove hitch around both poles where they cross (a timber hitch also holds), three turns on each diagonal, frapping turns, clove hitch to finish. (16-03)'),
+    'fig-vehicle-recovery-setup': ('R19', 'stuck vehicle, rated strap with no metal hooks to rated recovery points or the receiver with a rated shackle (never the ball), blanket damper on the strap, bystanders farther away than the strap is long and out of line with the pull (as on 16-03). (16-03)'),
 }
 desc.update(SPEC)
 

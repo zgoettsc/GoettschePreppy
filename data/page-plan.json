@@ -3039,6 +3039,33 @@
    "kit_section": "30-decisions-and-floors",
    "layer": "card",
    "card": "DC-29"
+  },
+  {
+   "kit_id": "30-31-dc30-wood-stove-banked-overnight",
+   "kit_section": "30-decisions-and-floors",
+   "layer": "card",
+   "card": "DC-30"
+  },
+  {
+   "kit_id": "30-32-dc31-firearm-readiness",
+   "kit_section": "30-decisions-and-floors",
+   "layer": "card",
+   "card": "DC-31"
+  },
+  {
+   "kit_id": "12-22-antibiotics-by-condition",
+   "kit_section": "12-medical-and-first-aid",
+   "layer": "core"
+  },
+  {
+   "kit_id": "12-23-antibiotics-by-drug",
+   "kit_section": "12-medical-and-first-aid",
+   "layer": "core"
+  },
+  {
+   "kit_id": "12-24-tccc-antibiotics-as-published",
+   "kit_section": "12-medical-and-first-aid",
+   "layer": "core"
   }
  ]
 }

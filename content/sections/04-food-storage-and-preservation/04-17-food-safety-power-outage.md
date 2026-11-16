@@ -106,7 +106,8 @@ power, it can buy more time, but it competes with medical needs and other loads 
 energy (→ 09-01).
 
 {{#if has.power_station}}- **Your power stations** total **{{ gear.station_wh_total }} Wh.** The
-  binder's rough estimate is that this runs a typical full-size fridge (about 1.2 kWh a day) for
+  binder's rough estimate is that this runs a typical full-size fridge (about 1,000 to 2,000 Wh a day, → 09-01; the estimate uses
+  1,200 Wh) for
   **about {{ derived.station_fridge_days }} days** per full charge. It is an estimate; your own
   appliance may use more or less (→ 09-03, → 29-02).{{else}}- **A power station** (a large
   rechargeable battery with outlets, → 29-02) can run a fridge or freezer for a day or more,

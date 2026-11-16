@@ -117,7 +117,7 @@ Epinephrine is kept: ______________________
 | **Signs** | Any one severe sign: trouble breathing, wheeze or cough, tight or hoarse throat, trouble swallowing, swollen lips or tongue, pale or blue skin, weak pulse, faint or dizzy, many hives over the body, severe vomiting, confusion. Or more than one mild sign at once (AAP, Allergy and Anaphylaxis Emergency Plan) |
 | **1. Epinephrine first** | Outer thigh, through clothing if needed. **Do not wait.** Note the time (AAP; CDC, Recognizing and Responding to Anaphylaxis) |
 | **2. Call 911** | Or get to care |
-| **3. Position** | Lie flat, legs raised. Vomiting: on the side. Struggling to breathe: sitting up. **Never stand or walk them** |
+| **3. Position** | Lying on their back. Vomiting or trouble breathing: lying on their side (AAP, Allergy and Anaphylaxis Emergency Plan). **Never stand or walk them** |
 | **4. Second dose** | If symptoms get worse, continue, or do not get better in **5 minutes** (AAP, Allergy and Anaphylaxis Emergency Plan) |
 | **5. Stay** | Reactions can return hours later. No 911: that watch is yours, epinephrine in reach |
 | **Antihistamine** | **Not a treatment for anaphylaxis.** Never delay epinephrine for anything |

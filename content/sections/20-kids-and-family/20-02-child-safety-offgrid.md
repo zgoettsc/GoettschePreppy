@@ -78,7 +78,7 @@ everything in the mouth.{{/if}}
    house and yard, with a self-closing, self-latching gate (CDC; CPSC). Do it now, not next
    summer.{{else}}If you have or reach a pool, hot tub or pond, the barrier rules below come
    first.{{/if}}
-2. **Carbon monoxide alarms** on every level and where people sleep, and in any room where a
+2. **Carbon monoxide alarms** on every level and outside each sleeping area, and in any room where a
    fuel heater runs; test them monthly (CPSC; → 08-02). No fuel heater is lit until the alarm in
    its room is up and tested.
 3. **An anchored barrier around every heater or stove** before it is first lit (block below).
@@ -193,8 +193,8 @@ New things in the house that were not there before:
   fuel (→ 29-05). Store it sealed, dry, labelled, off the floor, away from fuel and heat, behind
   a latched door (→ 03-04).
 - **Lye and soap-making chemicals** (→ 13-09): caustic.
-- **Bleach and disinfectants** in larger amounts (→ 13-11). **Never mix bleach or pool shock with
-  ammonia, acids or other cleaners** (floor, → 30-01).
+- **Bleach and disinfectants** in larger amounts (→ 13-11). **Bleach or pool shock is never mixed
+  with ammonia, acids or other cleaners.** (floor, → 30-01)
 - **Medicines**, including any insulin, epinephrine and the stockpile (→ 12-07).
 - **Wood ash** (caustic when wet), **antifreeze**, **battery acid** (→ 09-03).
 - **Rodent bait** (→ 04-11): a real hazard with children and pets; consider traps instead.

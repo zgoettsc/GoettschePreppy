@@ -55,7 +55,7 @@ keeps people alive in winter outages.
    pressure badly in the cold and may barely work; propane keeps working, more weakly.
 3. **Store cylinders outdoors**, upright and secured, away from doors, windows and anything that
    sparks (→ 06-06).
-4. **Keep battery CO alarms** on every level and where people sleep (→ 08-02).
+4. **Keep battery CO alarms** on every level and outside each sleeping area (→ 08-02).
 5. **Count what you have:** {{ gear.fuel.propane_20lb }} 20-lb cylinders and
    {{ gear.fuel.propane_1lb }} 1-lb cylinders on hand. If the same tanks also feed a heater or a
    generator, decide now how much is for cooking (→ 06-05).

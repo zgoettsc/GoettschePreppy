@@ -157,7 +157,7 @@ SOLAR, DECEMBER (estimate): {{ derived.solar_wh_dec }} Wh/day   vs MEDICAL NEED:
 
 | ✔ | Check | Page |
 |---|---|---|
-| [ ] | A battery CO alarm wherever **anything** burns, and outside every sleeping area | → 08-02 |
+| [ ] | A battery CO alarm on every level, outside every sleeping area, and wherever **anything** burns | → 08-02 |
 | [ ] | A CO detector **with a number (ppm) display** on every level: it shows a slow leak early | → 08-02 |
 | [ ] | The generator's outdoor spot is known to every adult | → 09-04 |
 | [ ] | **Nothing unvented that is not rated for indoor use** is stored where someone might use it indoors "just this once" | → 08-04 |

@@ -136,7 +136,7 @@ for your household still matter; they are just not first.
 | | Split and stack wood; note how long it took you | | | | | → 06-03 |
 | {{#if has.kerosene_heater}}★{{/if}} | **Wick kerosene heater**: light it, run it 30 minutes, let it cool, refuel **outdoors** from a labelled kerosene can, shut it down. Read the can's label aloud and smell before pouring. **Fuel is never stored or transferred near an open flame or a running appliance.** | | | | | → 08-10, → 06-06 |
 | {{#if has.propane_heater}}★{{/if}} | **Portable propane heater**: connect, leak-test with soapy water, light and shut down as the manual says; cylinder valve closed first | | | | | → 08-09 |
-| ★ | **Put up and test every carbon monoxide alarm** ({{ gear.co_alarms }} in settings) **before the first fuel-burning heater is lit**: one where people sleep, one on each level | | | | | → 08-02 |
+| ★ | **Put up and test every carbon monoxide alarm** ({{ gear.co_alarms }} in settings) **before the first fuel-burning heater is lit**: one on each level, one outside each sleeping area, one in the warm room at pillow height | | | | | → 08-02 |
 | {{#if has.unvented_heater}}★{{/if}} | Set up the one-room heating plan for real, for a night, in the warm room. Whether a heater runs while people sleep is a household choice: {{choice DC-01}} → 30-02 | | | | | → 08-01 |
 
 ### D. Food
@@ -165,7 +165,7 @@ for your household still matter; they are just not first.
 | {{#if has.refrigerated_meds}}★{{/if}} | **Set up the medicine cooler from its box** on battery power, thermometer inside, and check it holds the label's temperature over 24 hours | | | | | → 09-10, → 29-07 |
 | | Set up panel, controller and battery, and read the numbers | | | | | → 09-09 |
 | | Charge from the vehicle safely (engine running outdoors only) | | | | | → 09-11 |
-| {{#if has.generator}}★{{/if}} | **Generator first start and refuel**: outdoors, at least 20 feet from the house, exhaust away, oil checked first, cool before refuelling (→ 09-04, → 09-15). **Never connect a generator to house wiring except through a transfer switch, or an interlock kit with the main breaker off.** | | | | | → 09-04 |
+| {{#if has.generator}}★{{/if}} | **Generator first start and refuel**: outdoors, at least 20 feet from the house, exhaust away, oil checked first, cool before refuelling (→ 09-04, → 09-15). **Never connect a generator to house wiring except through a transfer switch, or an interlock kit with the main breaker off. Never backfeed through an outlet with a double-male ("suicide") cord.** | | | | | → 09-04 |
 | {{#if has.power_station}}★{{/if}} | Run a power station through a full day; read its screen as the truth, not your estimate | | | | | → 09-03, → 09-16 |
 | {{#if has.solar}}★{{/if}} | Connect your own panels to your own station within the station's input limits (→ 28-07) | | | | | → 09-02, → 28-01 |
 | | Wire a 12-volt circuit; use a multimeter; fuse it | | | | | → 09-08 |

@@ -80,7 +80,7 @@ indoors and never use a portable gas camp stove indoors (CDC, Carbon Monoxide Po
 **Do this instead.** Run the generator outdoors, at least 20 feet from the house, with the
 exhaust pointed away from every house (CPSC); CDC says more than 20 feet from any window, door
 or vent. Cook on charcoal and camp stoves outdoors. Keep battery CO alarms on every level and
-where people sleep (CPSC; CDC). → 08-02, → 09-04.
+outside each sleeping area (CPSC; → 08-02). → 08-02, → 09-04.
 
 {{figure fig-generator-distance}}
 

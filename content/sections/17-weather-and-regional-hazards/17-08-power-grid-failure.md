@@ -47,7 +47,7 @@ next is where households get caught. Start from the safety box; it is what kills
 > - **Never connect a generator to house wiring except through a transfer switch, or an interlock
 >   kit with the main breaker off. Never backfeed through an outlet with a double-male ("suicide")
 >   cord.** Backfed power can kill line workers and neighbours (→ 29-04, → 30-01).
-> - **Battery CO alarms on every level and where people sleep, tested, before any heater or
+> - **Battery CO alarms on every level and outside each sleeping area, tested, before any heater or
 >   generator runs.** You have {{ gear.co_alarms }} CO alarms.
 > - **Flashlights, not candles** (USFA).
 

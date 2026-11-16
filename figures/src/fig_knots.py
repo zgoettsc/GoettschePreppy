@@ -119,8 +119,8 @@ def prusik():
 
 
 @fig('fig-vehicle-recovery-setup',
-     'Pulling a stuck vehicle: a rated strap with no metal hooks, attached to rated recovery points or the hitch receiver with a rated shackle, never the hitch ball; a blanket or mat over the middle of the strap; everyone else at least 1.5 times the strap length away and out of line with the pull.',
-     'Two vehicles nose to tail, seen from the side and from above. A recovery strap runs between them from the receiver of the pulling vehicle, through a shackle, to a rated recovery point on the stuck one; a hitch ball is crossed out. A blanket hangs over the middle of the strap. From above, a shaded no-standing zone covers the line of pull and extends past both vehicles; people stand to the side, at least 1.5 times the strap length away.',
+     'Pulling a stuck vehicle: a rated strap with no metal hooks, attached to rated recovery points or the hitch receiver with a rated shackle, never the hitch ball; a blanket or mat over the middle of the strap; everyone else farther away than the strap is long and out of line with the pull.',
+     'Two vehicles nose to tail, seen from the side and from above. A recovery strap runs between them from the receiver of the pulling vehicle, through a shackle, to a rated recovery point on the stuck one; a hitch ball is crossed out. A blanket hangs over the middle of the strap. From above, a shaded no-standing zone covers the line of pull and extends past both vehicles; people stand to the side, farther away than the strap is long.',
      ['16-03'])
 def vehicle_recovery():
     b = [t(8, 16, 'Side view', 11.5, italic=True)]
@@ -152,7 +152,7 @@ def vehicle_recovery():
     for x in (40, 110, 180):
         b.append(circle(x, zy + 128, 5, INK, 'none', 1.8) + line(x, zy + 133, x, zy + 146, INK, 1.8))
     b.append(arrow(320, zy + 96, 320, zy + 118, INK, 1.2, 5) + arrow(320, zy + 96, 320, zy + 68, INK, 1.2, 5))
-    b.append(tl(352, zy + 132, ['bystanders: at least', '1.5 x the strap length', 'away, out of line'], 10.5, 12.5, 'end'))
+    b.append(tl(352, zy + 132, ['bystanders: farther', 'away than the strap', 'is long, out of line'], 10.5, 12.5, 'end'))
     y = zy + 186
     b.append(tl(8, y, [('Dig and add traction first. Only a rated strap with no', True), ('metal hooks: never rope, chain or a ratchet strap.', True),
                        "Your strap's own printed instructions govern."], 11.5, 14.5))
