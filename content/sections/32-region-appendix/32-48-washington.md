@@ -82,7 +82,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Kitsap | 8b | 260 | 36 | 76 | 7 / 102 | 56.9 | 3 | Mar 29 | Nov 14 | 227 |
 | Kittitas | 7a | 2,150 | 24 | 86 | -29 / 114 | 9.2 | 80 | Apr 28 | Oct 7 | 163 |
 | Klickitat | 7a | 2,040 | 24 | 86 | -26 / 113 | 16.5 | 27 | May 19 | Sep 25 | 126 |
-| Lewis | 8b | 760 | 32 | 79 | -11 / 108 | 67.3 | 3 | Apr 24 | Oct 15 | 176 |
+| Lewis | 8b | 760 | 32 | 79 | -11 / 108 | 58.7 | 3 | Apr 24 | Oct 15 | 176 |
 | Lincoln | 6b | 2,210 | 23 | 85 | -27 / 106 | 12.6 | 24 | May 31 | Sep 12 | 101 |
 | Mason | 8b | 390 | 36 | 76 | 11 / 105 | 92 | 4 | Mar 24 | Nov 15 | 235 |
 | Okanogan | 6a | 2,580 | 23 | 89 | -48 / 109 | 11.6 | 59 | Apr 30 | Oct 7 | 160 |

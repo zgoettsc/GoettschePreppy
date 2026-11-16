@@ -62,14 +62,14 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 
 | County | Zone | Elev ft | Jan low | Jul high | Rec low / high | Precip in | Snow in | Last frost | First frost | Days |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Adair | 7a | 1,170 | 27 | 90 | -12 / 108 | 50.5 | 6 | Mar 31 | Nov 4 | 217 |
+| Adair | 7a | 1,170 | 27 | 90 | -12 / 108 | 49.8 | 6 | Mar 31 | Nov 4 | 217 |
 | Alfalfa | 7a | 1,160 | 24 | 95 | -16 / 117 | 31.3 | 11 | Apr 10 | Oct 29 | 201 |
 | Atoka | 8a | 640 | 30 | 92 | -8 / 115 | 46 | 2 | Mar 29 | Nov 4 | 222 |
 | Beaver | 6b | 2,520 | 19 | 94 | -25 / 115 | 21.1 | 11 | Apr 21 | Oct 21 | 181 |
 | Beckham | 7a | 1,820 | 24 | 95 | -17 / 115 | 26.1 | 6 | Apr 12 | Oct 28 | 197 |
 | Blaine | 7b | 1,550 | 24 | 95 | -16 / 112 | 31.8 | 5 | Apr 14 | Oct 27 | 194 |
 | Bryan | 8a | 590 | 33 | 93 | -11 / 118 | 45.2 | 2 | Mar 19 | Nov 12 | 237 |
-| Caddo | 7b | 1,470 | 27 | 93 | -14 / 117 | 32.6 | 5 | Apr 5 | Nov 3 | 210 |
+| Caddo | 7b | 1,470 | 27 | 93 | -14 / 117 | 32.9 | 5 | Apr 5 | Nov 3 | 210 |
 | Canadian | 7b | 1,340 | 25 | 94 | -15 / 112 | 34.5 | 4 | Apr 6 | Oct 31 | 206 |
 | Carter | 8a | 890 | 31 | 94 | -17 / 115 | 37 | 2 | Mar 21 | Nov 8 | 231 |
 | Cherokee | 7b | 840 | 28 | 93 | -23 / 118 | 51 | 4 | Apr 4 | Oct 31 | 209 |
@@ -108,9 +108,9 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Major | 7a | 1,320 | 26 | 96 | -18 / 117 | 31.1 | 9 | Apr 5 | Nov 1 | 208 |
 | Marshall | 8a | 880 | 30 | 95 | -8 / 112 | 41.4 | 2 | Mar 27 | Nov 8 | 227 |
 | Mayes | 7a | 650 | 25 | 91 | -21 / 117 | 44.7 | 8 | Apr 5 | Oct 30 | 207 |
-| McClain | 7b | 1,230 | 26 | 94 | -13 / 114 | 38.5 | 4 | Apr 4 | Nov 2 | 210 |
+| McClain | 7b | 1,230 | 26 | 94 | -13 / 114 | 37.6 | 4 | Apr 4 | Nov 2 | 210 |
 | McCurtain | 8a | 640 | 28 | 93 | -11 / 113 | 55.1 | 2 | Apr 1 | Nov 2 | 220 |
-| McIntosh | 7b | 630 | 28 | 92 | -11 / 113 | 48.8 | 8 | Apr 2 | Nov 2 | 216 |
+| McIntosh | 7b | 630 | 28 | 92 | -11 / 113 | 45.9 | 8 | Apr 2 | Nov 2 | 216 |
 | Murray | 7b | 930 | 28 | 93 | -12 / 112 | 41.8 | 2 | Apr 4 | Oct 31 | 208 |
 | Muskogee | 7b | 580 | 28 | 92 | -11 / 113 | 43.2 | 6 | Apr 2 | Nov 2 | 216 |
 | Noble | 7a | 990 | 25 | 93 | -20 / 117 | 36.5 | 7 | Apr 8 | Oct 28 | 202 |
@@ -119,7 +119,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Oklahoma | 7b | 1,170 | 29 | 92 | -13 / 112 | 36.6 | 2 | Apr 2 | Nov 5 | 217 |
 | Okmulgee | 7b | 670 | 26 | 93 | -18 / 114 | 47.3 | 1 | Apr 8 | Oct 28 | 203 |
 | Osage | 7a | 980 | 25 | 92 | -26 / 116 | 45.3 | 6 | Apr 6 | Oct 29 | 204 |
-| Ottawa | 7a | 770 | 24 | 91 | -28 / 116 | 47.5 | 7 | Apr 6 | Oct 27 | 203 |
+| Ottawa | 7a | 770 | 24 | 91 | -28 / 116 | 46 | 7 | Apr 6 | Oct 27 | 203 |
 | Pawnee | 7a | 840 | 24 | 94 | -29 / 115 | 37.4 | 7 | Apr 11 | Oct 24 | 196 |
 | Payne | 7a | 840 | 26 | 94 | -18 / 115 | 36 | 6 | Apr 5 | Oct 30 | 206 |
 | Pittsburg | 7b | 790 | 30 | 93 | -14 / 113 | 42.6 | 2 | Mar 31 | Nov 3 | 216 |
@@ -132,7 +132,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Sequoyah | 7b | 580 | 28 | 91 | -19 / 115 | 47.4 | 2 | Mar 30 | Nov 7 | 223 |
 | Stephens | 8a | 1,090 | 30 | 94 | -8 / 111 | 37.1 | 3 | Mar 28 | Nov 7 | 227 |
 | Texas | 6b | 3,020 | 22 | 95 | -22 / 112 | 17.8 | 17 | Apr 18 | Oct 23 | 188 |
-| Tillman | 8a | 1,180 | 30 | 97 | -10 / 117 | 26.5 | 1 | Mar 26 | Nov 10 | 229 |
+| Tillman | 8a | 1,180 | 30 | 97 | -10 / 117 | 27.9 | 1 | Mar 26 | Nov 10 | 229 |
 | Tulsa | 7b | 740 | 28 | 94 | -13 / 115 | 41 | 9 | Mar 31 | Nov 4 | 220 |
 | Wagoner | 7b | 520 | 29 | 92 | -16 / 117 | 44.8 | 3 | Mar 29 | Nov 5 | 223 |
 | Washington | 7a | 720 | 22 | 93 | -28 / 115 | 39.7 | 8 | Apr 11 | Oct 24 | 195 |

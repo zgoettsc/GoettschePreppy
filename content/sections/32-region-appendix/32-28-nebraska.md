@@ -50,7 +50,7 @@ Areas follow the National Weather Service office that forecasts for each county 
 | Area (NWS office) | Counties | Zone | Jan low F | Jul high F | Record low / high F | Precip in | Snow in | Last frost | First frost | Frost-free days | Sun hrs Dec / Jun |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | NWS Omaha/Valley, NE | 30 | 5a to 6a | 10 to 17 | 83 to 89 | -45 / 118 | 26.2 to 34.7 | 19 to 36 | Apr 16 to May 4 | Oct 4 to Oct 18 | 153 to 183 | 3 to 3.5 / 5.7 to 6 |
-| NWS North Platte, NE | 26 | 5a to 6a | 9 to 18 | 85 to 91 | -46 / 116 | 18.3 to 27.4 | 21 to 46 | Apr 22 to May 15 | Sep 24 to Oct 18 | 131 to 176 | 3.2 to 3.8 / 5.8 to 6.5 |
+| NWS North Platte, NE | 26 | 5a to 6a | 9 to 18 | 85 to 91 | -46 / 116 | 17.5 to 27.4 | 21 to 46 | Apr 22 to May 15 | Sep 24 to Oct 18 | 131 to 176 | 3.2 to 3.8 / 5.8 to 6.5 |
 | NWS Hastings, NE | 24 | 5a to 6a | 11 to 17 | 85 to 92 | -39 / 118 | 23.4 to 31.1 | 18 to 35 | Apr 19 to May 5 | Oct 2 to Oct 20 | 149 to 181 | 3.3 to 3.6 / 5.9 to 6.2 |
 | NWS Cheyenne, WY | 8 | 4b to 5b | 11 to 17 | 86 to 92 | -47 / 114 | 14.9 to 18.8 | 29 to 50 | May 8 to May 30 | Sep 11 to Oct 5 | 103 to 149 | 3.5 to 3.8 / 6.3 to 6.5 |
 | NWS Goodland, KS | 3 | 5b to 6a | 15 to 16 | 91 | -34 / 115 | 19.7 to 20.3 | 22 to 30 | Apr 29 to May 1 | Oct 9 to Oct 13 | 160 to 166 | 3.7 / 6.3 to 6.4 |
@@ -68,7 +68,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Antelope | 5a | 1,930 | 10 | 83 | -38 / 115 | 27.6 | 31 | May 4 | Oct 4 | 153 |
 | Arthur | 5a | 3,720 | 14 | 88 | -33 / 113 | 20.6 | 33 | May 9 | Oct 3 | 144 |
 | Banner | 5b | 4,660 | 14 | 88 | -44 / 105 | 16.5 | 47 | May 24 | Sep 20 | 117 |
-| Blaine | 5a | 2,620 | 11 | 88 | -40 / 114 | 26.6 | 45 | May 9 | Oct 2 | 143 |
+| Blaine | 5a | 2,620 | 11 | 88 | -40 / 114 | 25.5 | 45 | May 9 | Oct 2 | 143 |
 | Boone | 5b | 1,830 | 11 | 85 | -37 / 115 | 27.2 | 27 | May 1 | Oct 5 | 157 |
 | Box Butte | 5a | 4,220 | 16 | 86 | -31 / 107 | 18 | 45 | May 8 | Oct 5 | 149 |
 | Boyd | 5a | 1,740 | 11 | 86 | -35 / 115 | 27.4 | 36 | May 4 | Oct 6 | 152 |
@@ -99,7 +99,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Furnas | 5b | 2,380 | 12 | 92 | -35 / 117 | 24.6 | 21 | May 4 | Oct 4 | 150 |
 | Gage | 6a | 1,300 | 14 | 88 | -42 / 114 | 31.3 | 19 | Apr 24 | Oct 15 | 172 |
 | Garden | 5b | 3,870 | 12 | 86 | -46 / 109 | 18.8 | 36 | May 13 | Sep 29 | 139 |
-| Garfield | 5a | 2,250 | 11 | 86 | -35 / 111 | 26.6 | 38 | May 6 | Oct 2 | 149 |
+| Garfield | 5a | 2,250 | 11 | 86 | -35 / 111 | 26.6 | 29 | May 6 | Oct 2 | 149 |
 | Gosper | 5b | 2,540 | 15 | 86 | -27 / 114 | 23.4 | 20 | Apr 26 | Oct 13 | 169 |
 | Grant | 5a | 3,700 | 16 | 85 | -33 / 113 | 18.3 | 33 | May 4 | Oct 8 | 155 |
 | Greeley | 5a | 2,070 | 11 | 86 | -38 / 114 | 25.8 | 30 | May 5 | Oct 2 | 149 |
@@ -115,7 +115,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Johnson | 5b | 1,130 | 13 | 88 | -34 / 112 | 32.3 | 22 | Apr 26 | Oct 10 | 164 |
 | Kearney | 5b | 2,150 | 14 | 87 | -33 / 118 | 25.7 | 25 | Apr 26 | Oct 12 | 168 |
 | Keith | 6a | 3,400 | 18 | 87 | -25 / 111 | 19.2 | 21 | Apr 22 | Oct 18 | 176 |
-| Keya Paha | 5a | 2,300 | 9 | 88 | -34 / 113 | 26 | 36 | May 10 | Oct 1 | 143 |
+| Keya Paha | 5a | 2,300 | 9 | 88 | -34 / 113 | 23.8 | 36 | May 10 | Oct 1 | 143 |
 | &#75;imball | 5b | 4,930 | 13 | 86 | -36 / 110 | 15.8 | 30 | May 15 | Sep 26 | 132 |
 | Knox | 5a | 1,520 | 10 | 86 | -36 / 114 | 29.1 | 36 | Apr 30 | Oct 6 | 158 |
 | Lancaster | 6a | 1,220 | 14 | 89 | -33 / 108 | 29.3 | 26 | Apr 24 | Oct 13 | 171 |
@@ -130,7 +130,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Nemaha | 5b | 1,020 | 14 | 87 | -35 / 113 | 32.3 | 30 | Apr 24 | Oct 10 | 167 |
 | Nuckolls | 6a | 1,730 | 14 | 89 | -33 / 112 | 27.9 | 21 | Apr 29 | Oct 10 | 162 |
 | Otoe | 5b | 1,160 | 13 | 88 | -33 / 116 | 32.2 | 26 | Apr 25 | Oct 11 | 168 |
-| Pawnee | 6a | 1,230 | 15 | 88 | -29 / 117 | 33.1 | 21 | Apr 22 | Oct 15 | 173 |
+| Pawnee | 6a | 1,230 | 15 | 88 | -29 / 117 | 34.1 | 21 | Apr 22 | Oct 15 | 173 |
 | Perkins | 5b | 3,390 | 14 | 89 | -33 / 114 | 21.4 | 25 | May 4 | Oct 7 | 156 |
 | Phelps | 6a | 2,340 | 13 | 87 | -29 / 113 | 27.6 | 25 | May 2 | Oct 11 | 162 |
 | Pierce | 5a | 1,680 | 10 | 86 | -35 / 110 | 27.5 | 30 | Apr 30 | Oct 6 | 160 |
@@ -141,15 +141,15 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Rock | 5a | 2,410 | 10 | 85 | -36 / 115 | 27.1 | 42 | May 6 | Oct 1 | 147 |
 | Saline | 6a | 1,520 | 13 | 84 | -26 / 103 | 29 | 24 | Apr 26 | Oct 13 | 169 |
 | Sarpy | 6a | 1,170 | 14 | 86 | -33 / 116 | 33.2 | 36 | Apr 21 | Oct 18 | 179 |
-| Saunders | 5b | 1,260 | 12 | 87 | -31 / 108 | 31.3 | 34 | Apr 23 | Oct 15 | 172 |
+| Saunders | 5b | 1,260 | 12 | 87 | -31 / 108 | 31.6 | 34 | Apr 23 | Oct 15 | 172 |
 | Scotts Bluff | 5a | 3,980 | 15 | 89 | -46 / 110 | 15.6 | 40 | May 8 | Oct 3 | 147 |
 | Seward | 5b | 1,480 | 12 | 86 | -30 / 114 | 28.7 | 22 | Apr 26 | Oct 12 | 169 |
-| Sheridan | 5a | 3,840 | 11 | 88 | -42 / 109 | 19.4 | 46 | May 15 | Sep 24 | 131 |
+| Sheridan | 5a | 3,840 | 11 | 88 | -42 / 109 | 17.5 | 46 | May 15 | Sep 24 | 131 |
 | Sherman | 5b | 2,160 | 12 | 88 | -33 / 112 | 26.5 | 31 | May 2 | Oct 8 | 158 |
 | Sioux | 4b | 4,720 | 11 | 89 | -44 / 108 | 14.9 | 34 | May 30 | Sep 11 | 103 |
 | Stanton | 5b | 1,550 | 11 | 86 | -41 / 113 | 26.2 | 26 | Apr 28 | Oct 9 | 164 |
 | Thayer | 6a | 1,450 | 14 | 89 | -34 / 113 | 31.1 | 23 | Apr 24 | Oct 15 | 172 |
-| Thomas | 5b | 2,930 | 11 | 88 | -40 / 114 | 24.6 | 37 | May 9 | Oct 2 | 143 |
+| Thomas | 5b | 2,930 | 11 | 88 | -40 / 114 | 23.8 | 37 | May 9 | Oct 2 | 143 |
 | Thurston | 5a | 1,360 | 11 | 87 | -45 / 113 | 29.8 | 32 | May 1 | Oct 6 | 156 |
 | Valley | 5b | 2,110 | 12 | 87 | -35 / 114 | 23.8 | 35 | May 5 | Oct 3 | 150 |
 | Washington | 5b | 1,290 | 13 | 86 | -36 / 116 | 33.4 | 34 | Apr 22 | Oct 17 | 177 |

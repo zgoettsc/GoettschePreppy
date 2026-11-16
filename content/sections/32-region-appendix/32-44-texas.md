@@ -78,7 +78,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Archer | 8a | 990 | 30 | 97 | -10 / 114 | 32.5 | 3 | Mar 25 | Nov 10 | 231 |
 | Armstrong | 7a | 3,350 | 22 | 92 | -10 / 112 | 20.8 | 9 | Apr 19 | Oct 22 | 185 |
 | Atascosa | 9a | 420 | 40 | 96 | 9 / 113 | 31.5 | 0 | Feb 27 | Nov 28 | 274 |
-| Austin | 9a | 150 | 42 | 95 | 0 / 111 | 46.4 | 0 | Feb 28 | Nov 30 | 276 |
+| Austin | 9a | 150 | 42 | 95 | 0 / 111 | 43.9 | 0 | Feb 28 | Nov 30 | 276 |
 | Bailey | 7a | 3,900 | 22 | 92 | -10 / 112 | 17.9 | 8 | Apr 22 | Oct 21 | 181 |
 | Bandera | 8b | 1,780 | 35 | 94 | 5 / 109 | 36.3 | 0 | Mar 16 | Nov 15 | 244 |
 | Bastrop | 9a | 380 | 39 | 95 | -1 / 111 | 37.1 | 0 | Mar 12 | Nov 19 | 251 |
@@ -199,11 +199,11 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Johnson | 8b | 780 | 33 | 95 | -5 / 114 | 37.7 | 1 | Mar 17 | Nov 12 | 240 |
 | Jones | 8a | 1,720 | 29 | 96 | -12 / 114 | 25.4 | 4 | Mar 31 | Nov 6 | 221 |
 | Karnes | 9a | 300 | 43 | 96 | 5 / 114 | 30.9 | 0 | Feb 16 | Dec 9 | 300 |
-| Kaufman | 8b | 410 | 33 | 94 | -3 / 113 | 41.5 | 0 | Mar 16 | Nov 14 | 243 |
+| Kaufman | 8b | 410 | 33 | 94 | -3 / 113 | 38.4 | 0 | Mar 16 | Nov 14 | 243 |
 | Kendall | 8b | 1,320 | 37 | 92 | -4 / 112 | 37.5 | 0 | Mar 15 | Nov 13 | 243 |
 | Kenedy | 10a | 10 | 45 | 96 | 0 / 109 | 28.1 | 0 | Feb 22 | Dec 5 | 293 |
 | Kent | 8a | 2,100 | 28 | 96 | -6 / 116 | 23.3 | 4 | Apr 1 | Nov 5 | 220 |
-| Kerr | 8b | 1,940 | 30 | 93 | 0 / 109 | 29.8 | 0 | Apr 3 | Nov 1 | 211 |
+| Kerr | 8b | 1,940 | 30 | 93 | 0 / 109 | 29.4 | 0 | Apr 3 | Nov 1 | 211 |
 | Kimble | 8a | 1,960 | 34 | 95 | -7 / 114 | 22.5 | 0 | Mar 25 | Nov 7 | 229 |
 | King | 8a | 1,750 | 27 | 98 | -10 / 119 | 23.8 | 4 | Apr 4 | Nov 3 | 213 |
 | Kinney | 9a | 1,200 | 38 | 95 | 4 / 111 | 24.3 | 0 | Mar 5 | Nov 24 | 264 |
@@ -217,7 +217,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Lee | 9a | 420 | 39 | 95 | 2 / 111 | 37.7 | 0 | Mar 5 | Nov 21 | 262 |
 | Leon | 8b | 340 | 35 | 94 | -1 / 111 | 42.4 | 0 | Mar 20 | Nov 12 | 239 |
 | Liberty | 9b | 30 | 41 | 93 | 7 / 108 | 62.8 | 0 | Feb 21 | Dec 1 | 286 |
-| Limestone | 8b | 500 | 36 | 95 | -5 / 112 | 41.1 | 0 | Mar 13 | Nov 22 | 251 |
+| Limestone | 8b | 500 | 36 | 95 | -5 / 112 | 40.6 | 0 | Mar 13 | Nov 22 | 251 |
 | Lipscomb | 6b | 2,490 | 18 | 94 | -19 / 114 | 22.6 | 10 | Apr 27 | Oct 15 | 170 |
 | Live Oak | 9a | 170 | 43 | 95 | 11 / 112 | 26.5 | 0 | Feb 8 | Dec 6 | 302 |
 | Llano | 8b | 1,070 | 34 | 96 | -7 / 115 | 27.6 | 0 | Mar 20 | Nov 10 | 235 |
@@ -259,7 +259,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Pecos | 8b | 3,050 | 36 | 94 | -6 / 117 | 13.7 | 1 | Mar 8 | Nov 20 | 254 |
 | Polk | 9a | 320 | 40 | 95 | 3 / 116 | 51 | 0 | Mar 1 | Nov 24 | 269 |
 | Potter | 7a | 3,310 | 25 | 93 | -14 / 111 | 19.7 | 17 | Apr 13 | Oct 27 | 195 |
-| Presidio | 8a | 4,930 | 24 | 90 | -2 / 106 | 14.1 | 5 | Apr 14 | Oct 27 | 196 |
+| Presidio | 8a | 4,930 | 24 | 90 | -2 / 106 | 16.5 | 5 | Apr 14 | Oct 27 | 196 |
 | Rains | 8b | 490 | 33 | 92 | -5 / 110 | 45.4 | 1 | Mar 20 | Nov 12 | 238 |
 | Randall | 7a | 3,500 | 23 | 93 | -14 / 109 | 18.4 | 8 | Apr 15 | Oct 25 | 192 |
 | Reagan | 8a | 2,620 | 33 | 94 | 1 / 110 | 18.2 | 2 | Mar 20 | Nov 14 | 238 |
@@ -298,7 +298,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Titus | 8b | 430 | 32 | 93 | -12 / 118 | 48.6 | 2 | Mar 24 | Nov 7 | 230 |
 | Tom Green | 8a | 1,880 | 34 | 97 | -4 / 114 | 20.9 | 1 | Mar 20 | Nov 10 | 232 |
 | Travis | 9a | 480 | 38 | 96 | -5 / 112 | 35.6 | 0 | Mar 12 | Nov 16 | 252 |
-| Trinity | 9a | 310 | 38 | 96 | 1 / 111 | 50.3 | 0 | Mar 2 | Nov 26 | 267 |
+| Trinity | 9a | 310 | 38 | 96 | 1 / 111 | 56.9 | 0 | Mar 2 | Nov 26 | 267 |
 | Tyler | 9a | 250 | 38 | 91 | 6 / 109 | 59.1 | 0 | Mar 9 | Nov 22 | 258 |
 | Upshur | 8b | 340 | 33 | 93 | -4 / 114 | 47.9 | 2 | Mar 26 | Nov 8 | 229 |
 | Upton | 8b | 2,710 | 32 | 95 | -6 / 115 | 12.1 | 2 | Mar 16 | Nov 16 | 243 |

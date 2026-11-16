@@ -49,9 +49,9 @@ Areas follow the National Weather Service office that forecasts for each county 
 
 | Area (NWS office) | Counties | Zone | Jan low F | Jul high F | Record low / high F | Precip in | Snow in | Last frost | First frost | Frost-free days | Sun hrs Dec / Jun |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| NWS Portland, OR | 14 | 7b to 9a | 27 to 42 | 65 to 83 | -13 / 116 | 36 to 84.4 | 0 to 54 | Mar 7 to May 15 | Oct 1 to Dec 10 | 142 to 271 | 1.7 to 2.3 / 5 to 6.3 |
+| NWS Portland, OR | 14 | 7b to 9a | 27 to 42 | 65 to 83 | -13 / 116 | 36 to 84.4 | 0 to 85 | Mar 7 to May 15 | Oct 1 to Dec 10 | 142 to 271 | 1.7 to 2.3 / 5 to 6.3 |
 | NWS Pendleton, OR | 12 | 6b to 7a | 19 to 28 | 79 to 90 | -34 / 117 | 11 to 19.1 | 9 to 54 | Apr 14 to Jun 5; none in most years in 1 | Sep 14 to Oct 22; none in most years in 1 | 42 to 188 | 2 to 2.5 / 5.9 to 6.6 |
-| NWS Medford, OR | 7 | 6a to 9b | 19 to 37 | 72 to 94 | -29 / 114 | 11.3 to 106.2 | 0 to 61 | Mar 28 to Jun 6; none in most years in 1 | Sep 14 to Nov 17; none in most years in 1 | 59 to 233 | 2 to 2.7 / 5.8 to 6.9 |
+| NWS Medford, OR | 7 | 6a to 9b | 19 to 37 | 72 to 94 | -29 / 114 | 11.3 to 75.2 | 0 to 61 | Mar 28 to Jun 6; none in most years in 1 | Sep 14 to Nov 17; none in most years in 1 | 59 to 233 | 2 to 2.7 / 5.8 to 6.9 |
 | NWS Boise, ID | 3 | 6b | 20 to 22 | 85 to 91 | -34 / 109 | 8.9 to 12.5 | 6 to 79 | May 25 to May 29 | Sep 14 to Sep 18 | 108 to 113 | 2.3 to 2.4 / 6.4 to 6.6 |
 
 Sun hours are peak sun hours: the average daily solar energy on a south-facing panel tilted at the local latitude, in kilowatt-hours per square metre (NASA POWER project, Climatology 2001-2025, 2026). A 100-watt panel makes roughly 100 watt-hours per peak sun hour before losses. → 09-05
@@ -69,7 +69,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Columbia | 8b | 1,240 | 32 | 77 | -7 / 111 | 48 | 1 | May 8 | Oct 1 | 144 |
 | Coos | 9a | 110 | 37 | 72 | 8 / 103 | 54.9 | 0 | Mar 28 | Nov 6 | 225 |
 | Crook | 6b | 3,850 | 23 | 89 | -31 / 108 | 12.5 | 30 | Jun 2 | Sep 17 | 104 |
-| Curry | 9b | 1,200 | 37 | 90 | 6 / 112 | 106.2 | 0 | Mar 30 | Nov 17 | 233 |
+| Curry | 9b | 1,200 | 37 | 90 | 6 / 112 | 75.2 | 0 | Mar 30 | Nov 17 | 233 |
 | Deschutes | 6b | 4,760 | 20 | 84 | -26 / 107 | 19.1 | 22 | None in most years | None in most years | 42 |
 | Douglas | 8b | 1,120 | 34 | 84 | -1 / 104 | 60.6 | 12 | Apr 27 | Oct 19 | 176 |
 | Gilliam | 7a | 1,980 | 24 | 84 | -22 / 113 | 11 | 17 | May 12 | Oct 4 | 143 |
@@ -85,7 +85,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Lincoln | 9a | 290 | 42 | 65 | 6 / 94 | 67.3 | 0 | Mar 12 | Dec 10 | 271 |
 | Linn | 8b | 1,700 | 33 | 79 | -2 / 106 | 63.1 | 0 | Apr 29 | Oct 13 | 167 |
 | Malheur | 6b | 3,940 | 22 | 91 | -33 / 109 | 8.9 | 6 | May 29 | Sep 14 | 108 |
-| Marion | 8a | 2,350 | 33 | 75 | -6 / 99 | 60.7 | 16 | Apr 27 | Nov 4 | 190 |
+| Marion | 8a | 2,350 | 33 | 75 | -6 / 99 | 68.9 | 85 | Apr 27 | Nov 4 | 190 |
 | Morrow | 7a | 2,020 | 28 | 87 | -19 / 110 | 13.1 | 13 | Apr 26 | Oct 19 | 174 |
 | Multnomah | 9a | 60 | 37 | 82 | 3 / 116 | 40.7 | 3 | Mar 16 | Nov 20 | 250 |
 | Polk | 8b | 1,000 | 33 | 80 | -5 / 108 | 81.2 | 10 | Apr 18 | Nov 7 | 202 |

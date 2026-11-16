@@ -68,7 +68,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Armstrong | 6b | 1,000 | 17 | 84 | -29 / 104 | 44.3 | 42 | May 4 | Oct 16 | 164 |
 | Beaver | 6b | 1,140 | 21 | 82 | -18 / 105 | 40.7 | 44 | Apr 28 | Oct 26 | 178 |
 | Bedford | 6b | 1,330 | 19 | 86 | -27 / 108 | 40.5 | 38 | Apr 29 | Oct 13 | 167 |
-| Berks | 7a | 360 | 23 | 86 | -20 / 102 | 45.2 | 27 | Apr 10 | Oct 31 | 202 |
+| Berks | 7a | 360 | 23 | 86 | -20 / 102 | 45.2 | 21 | Apr 10 | Oct 31 | 202 |
 | Blair | 6b | 1,370 | 19 | 81 | -20 / 99 | 44.7 | 38 | Apr 25 | Oct 21 | 176 |
 | Bradford | 6a | 1,120 | 17 | 84 | -31 / 104 | 38.6 | 38 | May 2 | Oct 15 | 165 |
 | Bucks | 7a | 370 | 23 | 86 | -9 / 104 | 47.7 | 22 | Apr 13 | Oct 30 | 198 |

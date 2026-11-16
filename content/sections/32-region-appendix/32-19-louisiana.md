@@ -124,7 +124,7 @@ One line per parish, for a point near its centre. Elevation is in feet. Mountain
 | Webster | 8b | 200 | 34 | 94 | -16 / 112 | 57.6 | 0 | Mar 17 | Nov 14 | 241 |
 | West Baton Rouge | 9a | 10 | 40 | 91 | 9 / 105 | 64.5 | 0 | Feb 28 | Nov 24 | 268 |
 | West Carroll | 8b | 100 | 36 | 91 | -8 / 110 | 58.8 | 0 | Mar 5 | Nov 24 | 263 |
-| West Feliciana | 9a | 140 | 36 | 91 | 8 / 107 | 65.2 | 0 | Mar 2 | Nov 24 | 268 |
+| West Feliciana | 9a | 140 | 36 | 91 | 8 / 107 | 63.8 | 0 | Mar 2 | Nov 24 | 268 |
 | Winn | 8b | 100 | 36 | 92 | 0 / 111 | 57.7 | 0 | Mar 13 | Nov 10 | 242 |
 
 ## Natural hazards

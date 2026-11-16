@@ -78,7 +78,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Cortland | 5b | 1,440 | 13 | 79 | -29 / 93 | 41.7 | 117 | May 13 | Oct 4 | 145 |
 | Delaware | 5b | 1,880 | 12 | 80 | -33 / 101 | 48.6 | 71 | May 19 | Oct 1 | 132 |
 | Dutchess | 6a | 530 | 16 | 82 | -30 / 103 | 45.8 | 58 | May 4 | Oct 7 | 155 |
-| Erie | 6a | 800 | 15 | 78 | -30 / 96 | 43.3 | 95 | May 7 | Oct 11 | 156 |
+| Erie | 6a | 800 | 15 | 78 | -30 / 96 | 40.7 | 95 | May 7 | Oct 11 | 156 |
 | Essex | 4a | 2,500 | 6 | 74 | -39 / 97 | 43.8 | 104 | May 27 | Sep 22 | 118 |
 | Franklin | 4a | 1,620 | 2 | 77 | -35 / 96 | 36.6 | 104 | Jun 2 | Sep 9 | 97 |
 | Fulton | 5a | 1,380 | 7 | 77 | -27 / 96 | 50.7 | 129 | May 11 | Oct 3 | 143 |
@@ -114,7 +114,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Schuyler | 6a | 1,400 | 14 | 79 | -20 / 100 | 38.9 | 53 | May 10 | Oct 8 | 150 |
 | Seneca | 6b | 670 | 17 | 80 | -21 / 101 | 37 | 56 | May 1 | Oct 21 | 172 |
 | St. Lawrence | 4b | 740 | 6 | 80 | -36 / 102 | 42 | 77 | May 5 | Oct 8 | 156 |
-| Steuben | 5b | 1,620 | 13 | 83 | -25 / 103 | 37.6 | 62 | May 12 | Oct 3 | 144 |
+| Steuben | 5b | 1,620 | 13 | 83 | -25 / 103 | 36.2 | 62 | May 12 | Oct 3 | 144 |
 | Suffolk | 7a | 60 | 26 | 84 | -8 / 100 | 47.2 | 27 | Apr 6 | Nov 9 | 215 |
 | Sullivan | 6a | 1,340 | 13 | 79 | -26 / 99 | 53.1 | 70 | May 9 | Oct 5 | 149 |
 | Tioga | 6a | 1,280 | 14 | 80 | -20 / 98 | 41.6 | 64 | May 12 | Oct 3 | 143 |

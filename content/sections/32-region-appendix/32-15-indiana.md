@@ -52,7 +52,7 @@ Areas follow the National Weather Service office that forecasts for each county 
 | NWS Indianapolis, IN | 39 | 5b to 6b | 16 to 24 | 83 to 90 | -35 / 114 | 37 to 50 | 8 to 34 | Apr 9 to Apr 30 | Oct 12 to Oct 26 | 164 to 197 | 2.3 to 2.7 / 5.4 to 5.6 |
 | NWS Northern Indiana, IN | 24 | 5b to 6a | 15 to 19 | 81 to 85 | -30 / 112 | 38.5 to 42.5 | 19 to 65 | Apr 19 to May 2 | Oct 10 to Oct 27 | 159 to 191 | 2.1 to 2.4 / 5.2 to 5.4 |
 | NWS Louisville, KY | 10 | 6b to 7a | 21 to 26 | 86 to 92 | -32 / 112 | 46.2 to 53.3 | 4 to 14 | Mar 31 to Apr 21 | Oct 18 to Nov 9 | 178 to 225 | 2.6 / 5.4 to 5.5 |
-| NWS Wilmington, OH | 8 | 6a to 6b | 19 to 23 | 83 to 87 | -31 / 108 | 42.9 to 47.8 | 6 to 25 | Apr 17 to Apr 30 | Oct 16 to Oct 29 | 168 to 194 | 2.4 to 2.6 / 5.3 to 5.4 |
+| NWS Wilmington, OH | 8 | 6a to 6b | 19 to 23 | 83 to 87 | -31 / 108 | 42.9 to 48.2 | 6 to 25 | Apr 17 to Apr 30 | Oct 16 to Oct 29 | 168 to 194 | 2.4 to 2.6 / 5.3 to 5.4 |
 | NWS Paducah, KY | 6 | 6b to 7a | 21 to 26 | 85 to 89 | -25 / 113 | 46.6 to 51.3 | 8 to 12 | Apr 4 to Apr 20 | Oct 22 to Nov 1 | 186 to 208 | 2.7 / 5.6 |
 | NWS Chicago, IL | 5 | 5b to 6a | 15 to 18 | 83 to 84 | -29 / 116 | 39.9 to 40.3 | 17 to 40 | Apr 22 to Apr 29 | Oct 13 to Oct 25 | 169 to 185 | 2.4 to 2.5 / 5.2 to 5.4 |
 
@@ -78,11 +78,11 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Clinton | 6a | 860 | 19 | 84 | -26 / 108 | 43.3 | 24 | Apr 21 | Oct 21 | 181 |
 | Crawford | 6b | 660 | 24 | 88 | -31 / 104 | 51 | 13 | Apr 17 | Oct 19 | 184 |
 | Daviess | 6b | 490 | 24 | 87 | -19 / 113 | 48 | 9 | Apr 10 | Oct 25 | 197 |
-| Dearborn | 6b | 880 | 19 | 83 | -25 / 104 | 46.1 | 16 | Apr 30 | Oct 16 | 168 |
+| Dearborn | 6b | 880 | 19 | 83 | -25 / 104 | 46.7 | 16 | Apr 30 | Oct 16 | 168 |
 | Decatur | 6b | 930 | 22 | 84 | -21 / 101 | 47 | 13 | Apr 15 | Oct 26 | 194 |
 | DeKalb | 6a | 870 | 16 | 81 | -26 / 102 | 39.5 | 36 | May 2 | Oct 10 | 159 |
 | Delaware | 6a | 940 | 21 | 86 | -29 / 106 | 40.3 | 19 | Apr 16 | Oct 25 | 190 |
-| Dubois | 6b | 550 | 22 | 92 | -25 / 109 | 50.8 | 13 | Apr 10 | Nov 1 | 204 |
+| Dubois | 6b | 550 | 22 | 92 | -25 / 109 | 51.7 | 13 | Apr 10 | Nov 1 | 204 |
 | Elkhart | 6a | 790 | 18 | 83 | -25 / 111 | 39.9 | 45 | Apr 26 | Oct 21 | 175 |
 | Fayette | 6a | 960 | 19 | 83 | -31 / 108 | 45.6 | 16 | Apr 19 | Oct 23 | 185 |
 | Floyd | 6b | 840 | 26 | 89 | -22 / 106 | 48 | 4 | Mar 31 | Nov 9 | 225 |
@@ -132,7 +132,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Pulaski | 6a | 700 | 16 | 84 | -29 / 109 | 39.8 | 26 | Apr 25 | Oct 18 | 173 |
 | Putnam | 6a | 680 | 17 | 83 | -23 / 108 | 46.1 | 22 | Apr 27 | Oct 15 | 169 |
 | Randolph | 6a | 1,100 | 18 | 83 | -26 / 102 | 40.1 | 25 | Apr 20 | Oct 21 | 183 |
-| Ripley | 6b | 970 | 19 | 83 | -21 / 101 | 47.3 | 16 | Apr 30 | Oct 16 | 168 |
+| Ripley | 6b | 970 | 19 | 83 | -21 / 101 | 48.2 | 16 | Apr 30 | Oct 16 | 168 |
 | Rush | 6a | 990 | 19 | 83 | -31 / 108 | 45.6 | 16 | Apr 19 | Oct 23 | 185 |
 | Scott | 6b | 580 | 23 | 88 | -32 / 109 | 46.2 | 12 | Apr 18 | Oct 20 | 185 |
 | Shelby | 6b | 750 | 20 | 85 | -25 / 108 | 44 | 15 | Apr 17 | Oct 22 | 187 |

@@ -51,7 +51,7 @@ Areas follow the National Weather Service office that forecasts for each county 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | NWS Lincoln, IL | 35 | 5b to 6b | 14 to 22 | 84 to 89 | -34 / 114 | 37.5 to 48.8 | 10 to 28 | Apr 9 to Apr 26 | Oct 13 to Oct 25 | 170 to 198 | 2.5 to 2.8 / 5.4 to 5.6 |
 | NWS Paducah, KY | 19 | 6b to 7a | 21 to 26 | 86 to 90 | -25 / 114 | 44 to 51.1 | 3 to 13 | Apr 2 to Apr 19 | Oct 19 to Nov 5 | 181 to 216 | 2.7 to 3 / 5.6 to 5.7 |
-| NWS Chicago, IL | 18 | 5b to 6b | 12 to 20 | 81 to 85 | -33 / 112 | 33.2 to 44.3 | 17 to 39 | Apr 10 to Apr 29 | Oct 7 to Nov 5 | 161 to 208 | 2.2 to 2.7 / 5.2 to 5.4 |
+| NWS Chicago, IL | 18 | 5b to 6b | 12 to 20 | 81 to 85 | -33 / 112 | 33.2 to 41.7 | 17 to 39 | Apr 10 to Apr 29 | Oct 7 to Nov 5 | 161 to 208 | 2.2 to 2.7 / 5.2 to 5.4 |
 | NWS St Louis, MO | 17 | 6a to 7a | 18 to 24 | 86 to 90 | -27 / 116 | 36.4 to 45.9 | 9 to 21 | Apr 3 to Apr 20 | Oct 15 to Nov 5 | 179 to 214 | 2.7 to 3 / 5.5 to 5.6 |
 | NWS Quad Cities, IL | 13 | 5a to 6a | 10 to 18 | 82 to 86 | -38 / 113 | 37.2 to 40.3 | 17 to 36 | Apr 8 to May 2 | Oct 7 to Oct 29 | 154 to 202 | 2.5 to 2.8 / 5.4 to 5.5 |
 
@@ -78,10 +78,10 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Clay | 6b | 460 | 21 | 89 | -25 / 111 | 48 | 12 | Apr 9 | Oct 24 | 198 |
 | Clinton | 6b | 460 | 22 | 88 | -22 / 105 | 45.9 | 10 | Apr 6 | Oct 29 | 204 |
 | Coles | 6a | 660 | 21 | 88 | -27 / 110 | 43.8 | 19 | Apr 15 | Oct 23 | 187 |
-| Cook | 6b | 590 | 20 | 81 | -22 / 109 | 44.3 | 39 | Apr 10 | Nov 5 | 208 |
+| Cook | 6b | 590 | 20 | 81 | -22 / 109 | 34.4 | 39 | Apr 10 | Nov 5 | 208 |
 | Crawford | 6b | 540 | 20 | 87 | -20 / 108 | 45.5 | 12 | Apr 13 | Oct 22 | 190 |
 | Cumberland | 6b | 600 | 19 | 88 | -22 / 102 | 45.5 | 12 | Apr 14 | Oct 20 | 187 |
-| De Witt | 6a | 740 | 16 | 84 | -34 / 113 | 41.4 | 21 | Apr 21 | Oct 20 | 181 |
+| De Witt | 6a | 740 | 16 | 84 | -34 / 113 | 40.8 | 21 | Apr 21 | Oct 20 | 181 |
 | DeKalb | 5b | 860 | 13 | 83 | -27 / 103 | 37.2 | 33 | Apr 24 | Oct 18 | 177 |
 | Douglas | 6a | 640 | 18 | 85 | -26 / 113 | 40.5 | 17 | Apr 15 | Oct 20 | 188 |
 | DuPage | 5b | 760 | 15 | 84 | -26 / 105 | 40.2 | 24 | Apr 28 | Oct 16 | 169 |

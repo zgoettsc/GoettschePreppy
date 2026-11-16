@@ -51,7 +51,7 @@ Areas follow the National Weather Service office that forecasts for each county 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | NWS Sacramento, CA | 14 | 9a to 9b | 33 to 41 | 90 to 98 | 5 / 121 | 12.3 to 60.3 | 0 to 19 | Jan 12 to Apr 9 | Nov 9 to Dec 28 | 213 to 341 | 3.1 to 3.7 / 7 to 7.3 |
 | NWS San Francisco, CA | 11 | 9a to 10b | 34 to 46 | 62 to 96 | 10 / 116 | 15.2 to 53.8 | 0 to 1 | Jan 11 to Dec 30 | Nov 3 to Dec 30 | 189 to 365 | 3.3 to 4 / 6 to 7.3 |
-| NWS Hanford, CA | 7 | 8b to 9b | 31 to 39 | 91 to 102 | -13 / 118 | 6.7 to 32.7 | 0 to 4 | Jan 30 to Apr 22 | Nov 2 to Dec 11 | 192 to 319 | 3.6 to 4.3 / 7.3 to 7.5 |
+| NWS Hanford, CA | 7 | 8b to 9b | 31 to 39 | 91 to 102 | -13 / 118 | 6.7 to 38.7 | 0 to 4 | Jan 30 to Apr 22 | Nov 2 to Dec 11 | 192 to 319 | 3.6 to 4.3 / 7.3 to 7.5 |
 | NWS STOREV | 6 | 6b to 9a | 15 to 36 | 75 to 91 | -33 / 111 | 30.5 to 62.4 | 3 to 445 | Apr 12 to Jun 7; none in most years in 2 | Sep 28 to Nov 21; none in most years in 2 | 22 to 221 | 3.4 to 3.9 / 7.2 to 7.3 |
 | NWS Eureka, CA | 5 | 8a to 9b | 30 to 33 | 84 to 96 | -10 / 116 | 29.9 to 61.2 | 0 to 9 | Apr 10 to May 5 | Oct 9 to Nov 6 | 157 to 209 | 2.7 to 3.4 / 6.8 to 7.2 |
 | NWS Los Angeles/Oxnard, CA | 4 | 8b to 10a | 34 to 47 | 89 to 94 | 8 / 120 | 20.7 to 24.8 | 0 | Jan 8 to Apr 11 | Jan 1 to Nov 15 | 209 to 365 | 4.3 to 4.8 / 6.3 to 7.3 |
@@ -76,7 +76,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Alameda | 9b | 830 | 38 | 88 | 18 / 116 | 15.2 | 0 | Feb 27 | Dec 1 | 278 |
 | Alpine | 6b | 7,720 | 23 | 75 | -14 / 91 | 32.5 | 77 | Jun 7 | Sep 28 | 113 |
-| Amador | 9a | 2,300 | 39 | 93 | 20 / 110 | 42.7 | 0 | Mar 4 | Dec 11 | 285 |
+| Amador | 9a | 2,300 | 39 | 93 | 20 / 110 | 32 | 0 | Mar 4 | Dec 11 | 285 |
 | Butte | 9b | 600 | 40 | 97 | 12 / 116 | 30.6 | 0 | Jan 30 | Dec 13 | 321 |
 | Calaveras | 9a | 2,200 | 33 | 93 | 8 / 113 | 32.8 | 0 | Apr 9 | Nov 9 | 213 |
 | Colusa | 9b | 120 | 38 | 92 | 14 / 114 | 17.2 | 0 | Feb 14 | Dec 1 | 293 |
@@ -95,7 +95,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Los Angeles | 10a | 2,260 | 47 | 94 | 21 / 115 | 24.8 | 0 | Jan 8 | Jan 1 | 365 |
 | Madera | 9a | 1,870 | 37 | 94 | 5 / 114 | 25.1 | 2 | Mar 25 | Dec 3 | 253 |
 | Marin | 9b | 360 | 43 | 81 | 20 / 110 | 34.5 | 0 | Jan 11 | Dec 21 | 349 |
-| Mariposa | 8b | 3,050 | 31 | 91 | -13 / 109 | 32.7 | 4 | Apr 22 | Nov 2 | 192 |
+| Mariposa | 8b | 3,050 | 31 | 91 | -13 / 109 | 38.7 | 4 | Apr 22 | Nov 2 | 192 |
 | Mendocino | 9a | 1,060 | 33 | 84 | 5 / 112 | 49.2 | 0 | May 5 | Oct 9 | 157 |
 | Merced | 9a | 90 | 36 | 96 | 14 / 116 | 10.4 | 0 | Mar 28 | Nov 14 | 233 |
 | Modoc | 7a | 5,060 | 21 | 89 | -34 / 108 | 11.7 | 22 | Jun 3 | Sep 12 | 97 |
@@ -114,7 +114,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | San Francisco | 10b | -50 | 46 | 62 | 23 / 96 | 20.6 | 0 | Dec 30 | Dec 25 | 365 |
 | San Joaquin | 9b | 20 | 39 | 95 | 16 / 115 | 13.4 | 0 | Feb 6 | Dec 1 | 304 |
 | San Luis Obispo | 8b | 1,940 | 35 | 93 | 8 / 117 | 22.3 | 0 | Apr 4 | Nov 5 | 213 |
-| San Mateo | 10a | 590 | 38 | 88 | 17 / 114 | 25.7 | 0 | Feb 25 | Nov 25 | 274 |
+| San Mateo | 10a | 590 | 38 | 88 | 17 / 114 | 30.4 | 0 | Feb 25 | Nov 25 | 274 |
 | Santa Barbara | 10a | 2,840 | 34 | 92 | 16 / 120 | 21.1 | 0 | Apr 11 | Nov 8 | 209 |
 | Santa Clara | 10a | 1,020 | 40 | 85 | 16 / 114 | 22.2 | 0 | Feb 2 | Dec 6 | 310 |
 | Santa Cruz | 9b | 360 | 41 | 74 | 19 / 110 | 30.6 | 0 | Jan 29 | Dec 13 | 323 |

@@ -50,7 +50,7 @@ Areas follow the National Weather Service office that forecasts for each county 
 | Area (NWS office) | Counties | Zone | Jan low F | Jul high F | Record low / high F | Precip in | Snow in | Last frost | First frost | Frost-free days | Sun hrs Dec / Jun |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | NWS Columbia, SC | 18 | 8a to 8b | 31 to 37 | 90 to 93 | -9 / 113 | 38.3 to 55.7 | 0 to 3 | Mar 13 to Apr 1 | Nov 3 to Nov 19 | 216 to 253 | 3.7 to 4 / 5.5 to 5.6 |
-| NWS Greenville-Spartanburg, SC | 12 | 8a to 8b | 26 to 35 | 88 to 92 | -11 / 111 | 44.1 to 61.1 | 0 to 3 | Mar 16 to Apr 20 | Oct 24 to Nov 20 | 186 to 250 | 3.6 to 3.8 / 5.5 to 5.6 |
+| NWS Greenville-Spartanburg, SC | 12 | 8a to 8b | 26 to 35 | 88 to 92 | -11 / 111 | 42 to 61.1 | 0 to 3 | Mar 16 to Apr 20 | Oct 24 to Nov 20 | 186 to 250 | 3.6 to 3.8 / 5.5 to 5.6 |
 | NWS Charleston, SC | 8 | 8b to 9a | 33 to 44 | 88 to 93 | -5 / 107 | 44.3 to 52.7 | 0 | Feb 4 to Mar 28 | Nov 7 to Dec 30 | 224 to 321 | 3.5 to 4 / 5.5 to 5.7 |
 | NWS Wilmington, NC | 8 | 8a to 8b | 32 to 37 | 90 to 93 | -5 / 109 | 41.7 to 55.4 | 0 to 2 | Mar 12 to Mar 30 | Nov 6 to Nov 24 | 221 to 258 | 3.5 to 3.8 / 5.5 to 5.7 |
 
@@ -68,7 +68,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Anderson | 8b | 770 | 32 | 91 | -5 / 108 | 50.2 | 1 | Mar 23 | Nov 11 | 234 |
 | Bamberg | 8b | 160 | 36 | 91 | 2 / 109 | 48.5 | 0 | Mar 18 | Nov 12 | 240 |
 | Barnwell | 8b | 240 | 36 | 91 | -2 / 106 | 46.2 | 0 | Mar 20 | Nov 13 | 238 |
-| Beaufort | 9a | 0 | 41 | 91 | 5 / 105 | 51 | 0 | Mar 3 | Dec 9 | 282 |
+| Beaufort | 9a | 0 | 41 | 91 | 5 / 105 | 45 | 0 | Mar 3 | Dec 9 | 282 |
 | Berkeley | 8b | 10 | 38 | 93 | 11 / 105 | 52.3 | 0 | Mar 10 | Nov 26 | 265 |
 | Calhoun | 8b | 240 | 37 | 93 | 2 / 108 | 50.5 | 0 | Mar 13 | Nov 15 | 249 |
 | Charleston | 9a | 10 | 44 | 88 | 7 / 104 | 44.3 | 0 | Feb 4 | Dec 30 | 321 |
@@ -85,7 +85,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Florence | 8b | 120 | 36 | 92 | 0 / 108 | 45.3 | 0 | Mar 19 | Nov 13 | 241 |
 | Georgetown | 8b | 20 | 37 | 91 | 4 / 103 | 55.4 | 0 | Mar 12 | Nov 24 | 258 |
 | Greenville | 8a | 1,080 | 35 | 91 | -5 / 107 | 47 | 2 | Mar 16 | Nov 20 | 250 |
-| Greenwood | 8a | 590 | 33 | 92 | -5 / 109 | 47.8 | 1 | Mar 26 | Nov 12 | 233 |
+| Greenwood | 8a | 590 | 33 | 92 | -5 / 109 | 42 | 1 | Mar 26 | Nov 12 | 233 |
 | Hampton | 8b | 120 | 39 | 92 | 1 / 107 | 45.2 | 0 | Mar 6 | Nov 26 | 267 |
 | Horry | 8b | 20 | 35 | 91 | 4 / 106 | 55.2 | 0 | Mar 15 | Nov 22 | 254 |
 | Jasper | 9a | 50 | 40 | 92 | 5 / 106 | 45 | 0 | Feb 28 | Dec 3 | 279 |
@@ -106,7 +106,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Spartanburg | 8a | 840 | 32 | 90 | -5 / 106 | 50.2 | 1 | Apr 8 | Nov 1 | 206 |
 | Sumter | 8b | 150 | 33 | 90 | 2 / 105 | 48.8 | 0 | Mar 24 | Nov 7 | 230 |
 | Union | 8a | 600 | 31 | 92 | -11 / 110 | 44.6 | 3 | Apr 4 | Nov 1 | 210 |
-| Williamsburg | 8b | 60 | 33 | 93 | 0 / 108 | 51.9 | 2 | Mar 29 | Nov 6 | 223 |
+| Williamsburg | 8b | 60 | 33 | 93 | 0 / 108 | 52.5 | 2 | Mar 29 | Nov 6 | 223 |
 | York | 8a | 630 | 30 | 89 | -4 / 108 | 44.1 | 0 | Apr 1 | Nov 3 | 216 |
 
 ## Natural hazards

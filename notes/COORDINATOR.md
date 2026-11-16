@@ -38,3 +38,6 @@ Collected from worker reports; resolved in the integration pass.
 - [ ] C04: canning altitude rows above 3,000 ft added by the worker; verify against the bound USDA Guide 1 tables.
 - [ ] C04: owner rules with no card: "allergy-safe stock held in reserve" (fold into DC-18?) and water-glassed eggs (DC-14 used). Owner question.
 - [ ] C04: per-member calories requested (members[].calories derived) — add in integration if cheap.
+- [x] C06: 32-00 added to the page plan; lists region.home.trees.firewood / plants.deadly / plants.edible added (A3 and D1/D2 to supply).
+- [ ] C06: 10-04 wax and fat temperatures on a critical page are unsourced "typical values"; source or soften.
+- [ ] C06: 06-03 species burn-quality groups beyond the single cited density figure; align with D2's firewood data (USDA Forest Products Lab).

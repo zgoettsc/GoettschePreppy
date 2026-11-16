@@ -68,7 +68,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Brookings | 4b | 1,680 | 4 | 81 | -41 / 109 | 25.2 | 36 | May 6 | Oct 1 | 145 |
 | Brown | 4a | 1,300 | 0 | 83 | -45 / 108 | 22.5 | 38 | May 7 | Sep 29 | 145 |
 | Brule | 5a | 1,690 | 9 | 87 | -34 / 113 | 24.1 | 43 | May 3 | Oct 7 | 156 |
-| Buffalo | 4b | 1,720 | 6 | 87 | -44 / 120 | 23.4 | 41 | May 6 | Oct 1 | 148 |
+| Buffalo | 4b | 1,720 | 6 | 87 | -44 / 120 | 22.7 | 41 | May 6 | Oct 1 | 148 |
 | Butte | 4b | 3,150 | 10 | 86 | -38 / 110 | 16.6 | 40 | May 8 | Oct 1 | 144 |
 | Campbell | 4b | 1,770 | 3 | 85 | -51 / 118 | 17.8 | 39 | May 8 | Sep 30 | 143 |
 | Charles Mix | 5a | 1,580 | 12 | 87 | -28 / 112 | 24.4 | 31 | Apr 30 | Oct 13 | 165 |
@@ -122,7 +122,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Sully | 4b | 1,870 | 7 | 87 | -40 / 116 | 21.1 | 49 | May 8 | Oct 2 | 147 |
 | Todd | 5a | 2,810 | 11 | 87 | -31 / 114 | 22.5 | 41 | May 11 | Oct 2 | 145 |
 | Tripp | 5a | 1,990 | 12 | 90 | -38 / 115 | 23.2 | 49 | May 1 | Oct 9 | 159 |
-| Turner | 5a | 1,320 | 10 | 86 | -42 / 117 | 28.2 | 39 | May 1 | Oct 4 | 156 |
+| Turner | 5a | 1,320 | 10 | 86 | -42 / 117 | 25 | 39 | May 1 | Oct 4 | 156 |
 | Union | 5a | 1,300 | 7 | 85 | -33 / 109 | 29.9 | 31 | May 1 | Oct 4 | 155 |
 | Walworth | 4b | 1,980 | 4 | 84 | -41 / 112 | 19.2 | 33 | May 8 | Oct 1 | 145 |
 | Yankton | 5a | 1,320 | 10 | 87 | -28 / 116 | 28.7 | 38 | Apr 27 | Oct 11 | 164 |

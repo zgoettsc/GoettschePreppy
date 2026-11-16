@@ -441,6 +441,34 @@
     "region"
    ],
    "description": "Destinations with status agreed."
+  },
+  "region.home.trees.firewood": {
+   "fields": [
+    "key",
+    "common_name",
+    "scientific_name",
+    "burn_quality"
+   ],
+   "description": "Firewood trees of the home ecoregion."
+  },
+  "region.home.plants.deadly": {
+   "fields": [
+    "key",
+    "common_name",
+    "scientific_name",
+    "look_alike_of"
+   ],
+   "description": "Deadly plants and look-alikes of the home ecoregion."
+  },
+  "region.home.plants.edible": {
+   "fields": [
+    "key",
+    "common_name",
+    "scientific_name",
+    "season",
+    "deadly_look_alikes"
+   ],
+   "description": "Safe-starter edibles of the home ecoregion."
   }
  },
  "formatting": {

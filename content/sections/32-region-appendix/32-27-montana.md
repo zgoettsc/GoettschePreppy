@@ -80,7 +80,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Gallatin | 5a | 6,500 | 8 | 78 | -42 / 95 | 23.3 | 91 | None in most years | None in most years | 50 |
 | Garfield | 4a | 2,870 | 5 | 88 | -58 / 112 | 12.9 | 32 | May 18 | Sep 20 | 123 |
 | Glacier | 4a | 4,360 | 11 | 76 | -48 / 100 | 13.1 | 115 | May 28 | Sep 16 | 110 |
-| Golden Valley | 4b | 3,980 | 15 | 86 | -49 / 109 | 16.3 | 53 | May 17 | Sep 23 | 127 |
+| Golden Valley | 4b | 3,980 | 15 | 86 | -49 / 109 | 14.3 | 53 | May 17 | Sep 23 | 127 |
 | Granite | 5a | 6,540 | 15 | 81 | -41 / 98 | 25.8 | 75 | None in most years | None in most years | 65 |
 | Hill | 4a | 2,720 | 6 | 84 | -45 / 111 | 11.1 | 29 | May 24 | Sep 15 | 114 |
 | Jefferson | 5a | 7,170 | 12 | 82 | -42 / 101 | 26.1 | 15 | Jun 7 | Sep 8 | 90 |

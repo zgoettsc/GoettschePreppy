@@ -49,12 +49,12 @@ Areas follow the National Weather Service office that forecasts for each county 
 
 | Area (NWS office) | Counties | Zone | Jan low F | Jul high F | Record low / high F | Precip in | Snow in | Last frost | First frost | Frost-free days | Sun hrs Dec / Jun |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| NWS Kansas City/Pleasant Hill, MO | 37 | 5b to 6b | 13 to 22 | 85 to 90 | -34 / 118 | 34.7 to 43.6 | 8 to 30 | Apr 5 to Apr 26 | Oct 14 to Oct 29 | 169 to 206 | 3 to 3.4 / 5.5 to 5.7 |
+| NWS Kansas City/Pleasant Hill, MO | 37 | 5b to 6b | 13 to 22 | 85 to 90 | -34 / 118 | 32.3 to 43.6 | 8 to 30 | Apr 5 to Apr 26 | Oct 14 to Oct 29 | 169 to 206 | 3 to 3.4 / 5.5 to 5.7 |
 | NWS Springfield, MO | 34 | 6b to 7a | 20 to 25 | 87 to 92 | -34 / 118 | 42.6 to 50 | 1 to 18 | Mar 31 to Apr 23 | Oct 15 to Nov 3 | 175 to 216 | 3.1 to 3.5 / 5.7 to 5.8 |
 | NWS St Louis, MO | 29 | 6a to 7a | 17 to 25 | 86 to 91 | -31 / 118 | 39.5 to 48.7 | 4 to 19 | Apr 1 to Apr 27 | Oct 8 to Nov 4 | 164 to 218 | 2.8 to 3.2 / 5.5 to 5.8 |
 | NWS Paducah, KY | 11 | 6b to 7b | 21 to 28 | 88 to 91 | -31 / 116 | 46.2 to 52.2 | 3 to 9 | Mar 26 to Apr 19 | Oct 20 to Nov 6 | 182 to 225 | 3 to 3.3 / 5.7 to 5.8 |
-| NWS Quad Cities, IL | 2 | 6a | 14 to 15 | 86 | -27 / 113 | 37.3 to 39.1 | 19 to 27 | Apr 17 to Apr 23 | Oct 17 to Oct 22 | 176 to 187 | 2.8 to 3 / 5.5 |
-| NWS Memphis, TN | 2 | 7b | 27 to 30 | 90 to 91 | -22 / 112 | 50.4 to 55.3 | 4 to 7 | Mar 24 to Mar 31 | Nov 1 to Nov 9 | 215 to 230 | 3.2 to 3.3 / 5.7 to 5.8 |
+| NWS Quad Cities, IL | 2 | 6a | 14 to 15 | 86 | -27 / 113 | 37.3 to 39.2 | 19 to 27 | Apr 17 to Apr 23 | Oct 17 to Oct 22 | 176 to 187 | 2.8 to 3 / 5.5 |
+| NWS Memphis, TN | 2 | 7b | 27 to 30 | 90 to 91 | -22 / 112 | 54 to 55.3 | 4 to 7 | Mar 24 to Mar 31 | Nov 1 to Nov 9 | 215 to 230 | 3.2 to 3.3 / 5.7 to 5.8 |
 
 Sun hours are peak sun hours: the average daily solar energy on a south-facing panel tilted at the local latitude, in kilowatt-hours per square metre (NASA POWER project, Climatology 2001-2025, 2026). A 100-watt panel makes roughly 100 watt-hours per peak sun hour before losses. → 09-05
 
@@ -66,7 +66,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Adair | 6a | 930 | 15 | 86 | -31 / 113 | 42.5 | 19 | Apr 21 | Oct 19 | 179 |
 | Andrew | 6a | 960 | 16 | 87 | -25 / 110 | 37.1 | 18 | Apr 17 | Oct 19 | 184 |
-| Atchison | 5b | 1,040 | 15 | 85 | -28 / 113 | 34.7 | 30 | Apr 19 | Oct 15 | 177 |
+| Atchison | 5b | 1,040 | 15 | 85 | -28 / 113 | 32.3 | 30 | Apr 19 | Oct 15 | 177 |
 | Audrain | 6b | 800 | 19 | 88 | -25 / 116 | 43.5 | 19 | Apr 11 | Oct 25 | 197 |
 | Barry | 7a | 1,410 | 23 | 87 | -24 / 108 | 47.4 | 7 | Apr 14 | Oct 26 | 194 |
 | Barton | 7a | 980 | 22 | 88 | -28 / 118 | 48.9 | 7 | Apr 9 | Oct 27 | 199 |
@@ -86,19 +86,19 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Cedar | 7a | 880 | 23 | 90 | -18 / 109 | 44.9 | 7 | Apr 6 | Oct 30 | 207 |
 | Chariton | 6a | 680 | 18 | 88 | -28 / 114 | 40 | 12 | Apr 12 | Oct 22 | 190 |
 | Christian | 6b | 1,360 | 21 | 89 | -17 / 105 | 45.3 | 7 | Apr 15 | Oct 23 | 189 |
-| Clark | 6a | 700 | 15 | 86 | -27 / 113 | 39.1 | 27 | Apr 17 | Oct 22 | 187 |
+| Clark | 6a | 700 | 15 | 86 | -27 / 113 | 39.2 | 27 | Apr 17 | Oct 22 | 187 |
 | Clay | 6a | 880 | 17 | 88 | -19 / 108 | 41.2 | 19 | Apr 19 | Oct 17 | 181 |
 | Clinton | 6a | 990 | 15 | 87 | -26 / 107 | 39.1 | 21 | Apr 15 | Oct 24 | 192 |
 | Cole | 6b | 660 | 21 | 88 | -25 / 114 | 43.6 | 9 | Apr 8 | Oct 31 | 205 |
 | Cooper | 6b | 730 | 21 | 89 | -22 / 110 | 41 | 13 | Apr 5 | Oct 29 | 206 |
-| Crawford | 6a | 890 | 19 | 88 | -31 / 111 | 45.9 | 8 | Apr 26 | Oct 8 | 164 |
+| Crawford | 6a | 890 | 19 | 88 | -31 / 111 | 43.9 | 8 | Apr 26 | Oct 8 | 164 |
 | Dade | 7a | 1,050 | 22 | 90 | -30 / 116 | 47.2 | 13 | Apr 11 | Oct 25 | 198 |
 | Dallas | 6b | 1,030 | 20 | 89 | -30 / 109 | 45.3 | 9 | Apr 23 | Oct 15 | 175 |
 | Daviess | 6a | 830 | 16 | 86 | -23 / 106 | 40.8 | 20 | Apr 19 | Oct 21 | 184 |
 | DeKalb | 6a | 990 | 15 | 86 | -32 / 111 | 39.9 | 21 | Apr 19 | Oct 19 | 180 |
 | Dent | 6b | 1,240 | 22 | 88 | -28 / 112 | 47 | 1 | Apr 17 | Oct 18 | 182 |
 | Douglas | 7a | 1,080 | 22 | 87 | -22 / 111 | 46.5 | 8 | Apr 10 | Oct 27 | 198 |
-| Dunklin | 7b | 250 | 27 | 91 | -12 / 112 | 50.4 | 4 | Mar 31 | Nov 1 | 215 |
+| Dunklin | 7b | 250 | 27 | 91 | -12 / 112 | 54 | 4 | Mar 31 | Nov 1 | 215 |
 | Franklin | 6b | 680 | 23 | 91 | -26 / 118 | 45 | 14 | Apr 11 | Oct 23 | 194 |
 | Gasconade | 6b | 840 | 18 | 87 | -26 / 107 | 45.2 | 14 | Apr 27 | Oct 13 | 168 |
 | Gentry | 6a | 840 | 14 | 88 | -27 / 109 | 37.5 | 18 | Apr 17 | Oct 21 | 185 |
@@ -107,12 +107,12 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Harrison | 5b | 1,000 | 16 | 87 | -33 / 112 | 39.1 | 21 | Apr 16 | Oct 22 | 186 |
 | Henry | 6b | 780 | 19 | 90 | -31 / 118 | 43.3 | 11 | Apr 17 | Oct 21 | 187 |
 | Hickory | 6b | 780 | 23 | 89 | -22 / 111 | 44.4 | 10 | Apr 7 | Oct 28 | 204 |
-| Holt | 6a | 860 | 16 | 87 | -27 / 112 | 36.9 | 22 | Apr 16 | Oct 20 | 186 |
+| Holt | 6a | 860 | 16 | 87 | -27 / 112 | 33.6 | 22 | Apr 16 | Oct 20 | 186 |
 | Howard | 6b | 670 | 18 | 87 | -24 / 109 | 41.5 | 10 | Apr 13 | Oct 22 | 191 |
 | Howell | 7a | 1,150 | 22 | 89 | -21 / 108 | 49.4 | 9 | Apr 16 | Oct 21 | 189 |
 | Iron | 7a | 1,570 | 21 | 86 | -28 / 112 | 45.5 | 12 | Apr 11 | Oct 28 | 198 |
 | Jackson | 6b | 860 | 22 | 88 | -16 / 109 | 38.3 | 9 | Apr 7 | Oct 29 | 202 |
-| Jasper | 7a | 1,020 | 24 | 91 | -18 / 115 | 48.3 | 8 | Apr 4 | Oct 27 | 204 |
+| Jasper | 7a | 1,020 | 24 | 91 | -18 / 115 | 45.6 | 8 | Apr 4 | Oct 27 | 204 |
 | Jefferson | 6b | 720 | 22 | 88 | -27 / 110 | 43.6 | 9 | Apr 9 | Oct 26 | 197 |
 | Johnson | 6b | 790 | 18 | 90 | -26 / 116 | 42.1 | 12 | Apr 14 | Oct 21 | 189 |
 | Knox | 6a | 720 | 18 | 86 | -28 / 115 | 39.5 | 18 | Apr 17 | Oct 19 | 184 |
@@ -133,14 +133,14 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Mississippi | 7b | 310 | 26 | 89 | -9 / 108 | 51 | 3 | Apr 2 | Oct 31 | 211 |
 | Moniteau | 6b | 870 | 20 | 88 | -21 / 109 | 43.1 | 10 | Apr 11 | Oct 25 | 195 |
 | Monroe | 6a | 740 | 17 | 87 | -30 / 112 | 42.1 | 16 | Apr 21 | Oct 17 | 177 |
-| Montgomery | 6b | 840 | 20 | 88 | -22 / 114 | 44.4 | 19 | Apr 14 | Oct 23 | 191 |
+| Montgomery | 6b | 840 | 20 | 88 | -22 / 114 | 41.5 | 19 | Apr 14 | Oct 23 | 191 |
 | Morgan | 6b | 1,050 | 22 | 88 | -23 / 115 | 44.9 | 18 | Apr 8 | Oct 29 | 202 |
 | New Madrid | 7b | 280 | 28 | 90 | -14 / 107 | 49.3 | 7 | Mar 28 | Nov 3 | 220 |
 | Newton | 7a | 1,150 | 25 | 90 | -31 / 112 | 50 | 8 | Apr 7 | Oct 31 | 206 |
 | Nodaway | 5b | 1,150 | 14 | 87 | -32 / 113 | 38.4 | 15 | Apr 19 | Oct 17 | 180 |
 | Oregon | 7a | 800 | 22 | 88 | -18 / 109 | 47.2 | 4 | Apr 17 | Oct 21 | 187 |
 | Osage | 6b | 920 | 20 | 88 | -21 / 111 | 44.3 | 10 | Apr 11 | Oct 21 | 191 |
-| &#79;zark | 7a | 1,140 | 23 | 89 | -22 / 111 | 47.8 | 6 | Apr 14 | Oct 25 | 193 |
+| &#79;zark | 7a | 1,140 | 23 | 89 | -22 / 111 | 46 | 6 | Apr 14 | Oct 25 | 193 |
 | Pemiscot | 7b | 260 | 30 | 90 | -22 / 111 | 55.3 | 7 | Mar 24 | Nov 9 | 230 |
 | Perry | 6b | 530 | 21 | 88 | -19 / 110 | 46.2 | 5 | Apr 19 | Oct 20 | 182 |
 | Pettis | 6b | 760 | 19 | 87 | -30 / 116 | 43.6 | 13 | Apr 18 | Oct 22 | 186 |
@@ -167,7 +167,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | St. Louis city | 7a | 470 | 25 | 90 | -17 / 107 | 43.9 | 14 | Apr 1 | Nov 4 | 218 |
 | St. Louis | 7a | 640 | 22 | 89 | -20 / 106 | 42.3 | 8 | Apr 4 | Oct 29 | 206 |
 | Ste. Genevieve | 6b | 600 | 24 | 89 | -18 / 112 | 42.8 | 4 | Apr 8 | Oct 30 | 202 |
-| Stoddard | 7a | 530 | 24 | 89 | -21 / 106 | 50.7 | 3 | Apr 7 | Oct 27 | 204 |
+| Stoddard | 7a | 530 | 24 | 89 | -21 / 106 | 50.1 | 3 | Apr 7 | Oct 27 | 204 |
 | Stone | 7a | 1,120 | 22 | 89 | -21 / 110 | 46.6 | 7 | Apr 16 | Oct 21 | 187 |
 | Sullivan | 6a | 830 | 13 | 85 | -29 / 114 | 39.9 | 17 | Apr 26 | Oct 14 | 169 |
 | Taney | 7a | 880 | 24 | 92 | -19 / 116 | 45.7 | 7 | Apr 6 | Oct 31 | 205 |
@@ -177,7 +177,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Washington | 6b | 1,030 | 21 | 86 | -28 / 112 | 45.5 | 12 | Apr 11 | Oct 28 | 198 |
 | Wayne | 7a | 480 | 24 | 88 | -18 / 112 | 51.4 | 9 | Apr 2 | Nov 2 | 215 |
 | Webster | 7a | 1,530 | 22 | 88 | -20 / 110 | 45.6 | 5 | Apr 13 | Oct 24 | 191 |
-| Worth | 5b | 1,040 | 13 | 85 | -29 / 112 | 39 | 18 | Apr 24 | Oct 14 | 172 |
+| Worth | 5b | 1,040 | 13 | 85 | -29 / 112 | 38.3 | 18 | Apr 24 | Oct 14 | 172 |
 | Wright | 7a | 1,200 | 21 | 88 | -19 / 106 | 44.3 | 8 | Apr 15 | Oct 22 | 188 |
 
 ## Natural hazards

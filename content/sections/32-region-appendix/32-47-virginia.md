@@ -50,9 +50,9 @@ Areas follow the National Weather Service office that forecasts for each county 
 | Area (NWS office) | Counties | Zone | Jan low F | Jul high F | Record low / high F | Precip in | Snow in | Last frost | First frost | Frost-free days | Sun hrs Dec / Jun |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | NWS Wakefield, VA | 53 | 7a to 8b | 22 to 34 | 85 to 92 | -24 / 109 | 43.5 to 53.3 | 1 to 16 | Mar 16 to Apr 28 | Oct 17 to Nov 26 | 172 to 255 | 3.1 to 3.6 / 5.4 to 5.6 |
-| NWS Blacksburg, VA | 37 | 6b to 7b | 22 to 29 | 79 to 90 | -35 / 107 | 38.8 to 56.2 | 6 to 40 | Apr 3 to Apr 30 | Oct 10 to Nov 1 | 159 to 210 | 2.9 to 3.6 / 5.2 to 5.6 |
+| NWS Blacksburg, VA | 37 | 6b to 7b | 22 to 29 | 79 to 90 | -35 / 107 | 38.8 to 57.1 | 6 to 40 | Apr 3 to Apr 30 | Oct 10 to Nov 1 | 159 to 210 | 2.9 to 3.6 / 5.2 to 5.6 |
 | NWS Baltimore MD/Washington, DC | 34 | 6a to 8a | 17 to 30 | 77 to 90 | -30 / 109 | 37.2 to 48.8 | 6 to 67 | Apr 2 to May 9 | Oct 5 to Nov 10 | 149 to 222 | 2.7 to 3.5 / 5.2 to 5.6 |
-| NWS Morristown, TN | 7 | 7a | 23 to 25 | 81 to 85 | -25 / 105 | 45.9 to 51.6 | 9 to 47 | Apr 20 to Apr 25 | Oct 16 to Oct 23 | 173 to 186 | 3 to 3.4 / 5.3 to 5.4 |
+| NWS Morristown, TN | 7 | 7a | 23 to 25 | 81 to 85 | -25 / 105 | 45.9 to 56 | 9 to 47 | Apr 20 to Apr 25 | Oct 16 to Oct 23 | 173 to 186 | 3 to 3.4 / 5.3 to 5.4 |
 | NWS Charleston, WV | 2 | 6b to 7a | 22 to 23 | 82 | -23 / 102 | 46.9 to 49.2 | 16 to 38 | Apr 22 to Apr 29 | Oct 16 to Oct 23 | 169 to 182 | 2.7 / 5.3 |
 
 Sun hours are peak sun hours: the average daily solar energy on a south-facing panel tilted at the local latitude, in kilowatt-hours per square metre (NASA POWER project, Climatology 2001-2025, 2026). A 100-watt panel makes roughly 100 watt-hours per peak sun hour before losses. → 09-05
@@ -93,7 +93,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Colonial Heights city | 7b | 60 | 28 | 89 | -2 / 105 | 47 | 4 | Apr 3 | Nov 3 | 216 |
 | Covington city | 7a | 1,320 | 22 | 84 | -19 / 102 | 39.5 | 10 | Apr 27 | Oct 18 | 172 |
 | Craig | 7a | 2,240 | 22 | 84 | -35 / 102 | 38.8 | 24 | Apr 30 | Oct 12 | 165 |
-| Culpeper | 7a | 380 | 23 | 86 | -11 / 104 | 44.8 | 16 | Apr 21 | Oct 22 | 184 |
+| Culpeper | 7a | 380 | 23 | 86 | -11 / 104 | 43.7 | 16 | Apr 21 | Oct 22 | 184 |
 | Cumberland | 7b | 370 | 22 | 92 | -18 / 109 | 46.9 | 6 | Apr 28 | Oct 17 | 172 |
 | Danville city | 7b | 560 | 28 | 89 | -1 / 105 | 43.7 | 8 | Apr 10 | Oct 28 | 200 |
 | Dickenson | 6b | 1,770 | 22 | 82 | -23 / 97 | 49.2 | 38 | Apr 29 | Oct 16 | 169 |
@@ -103,8 +103,8 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Fairfax city | 7b | 380 | 23 | 84 | -3 / 100 | 43.6 | 18 | Apr 14 | Oct 29 | 198 |
 | Fairfax | 7b | 370 | 23 | 84 | -3 / 100 | 43.6 | 18 | Apr 14 | Oct 29 | 198 |
 | Falls Church city | 7b | 330 | 23 | 84 | -3 / 100 | 43.6 | 18 | Apr 14 | Oct 29 | 198 |
-| Fauquier | 7a | 770 | 25 | 85 | -11 / 104 | 46.5 | 20 | Apr 9 | Nov 1 | 205 |
-| Floyd | 7a | 2,300 | 23 | 81 | -19 / 103 | 46.4 | 22 | Apr 30 | Oct 10 | 159 |
+| Fauquier | 7a | 770 | 25 | 85 | -11 / 104 | 46.1 | 20 | Apr 9 | Nov 1 | 205 |
+| Floyd | 7a | 2,300 | 23 | 81 | -19 / 103 | 42.1 | 22 | Apr 30 | Oct 10 | 159 |
 | Fluvanna | 7a | 370 | 25 | 86 | -13 / 103 | 43.7 | 12 | Apr 23 | Oct 21 | 180 |
 | Franklin city | 8a | 60 | 29 | 89 | -5 / 106 | 47.9 | 4 | Apr 7 | Nov 2 | 208 |
 | Franklin | 7b | 1,080 | 26 | 87 | -11 / 103 | 49.2 | 13 | Apr 20 | Oct 25 | 188 |
@@ -114,7 +114,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Giles | 7a | 1,750 | 23 | 83 | -18 / 100 | 42.2 | 23 | Apr 27 | Oct 17 | 171 |
 | Gloucester | 8a | 60 | 29 | 85 | -7 / 104 | 51.9 | 8 | Apr 1 | Nov 10 | 223 |
 | Goochland | 7a | 270 | 26 | 87 | -9 / 105 | 44.9 | 10 | Apr 17 | Oct 27 | 191 |
-| Grayson | 6b | 3,910 | 22 | 79 | -24 / 94 | 56.2 | 19 | Apr 16 | Oct 27 | 193 |
+| Grayson | 6b | 3,910 | 22 | 79 | -24 / 94 | 57.1 | 19 | Apr 16 | Oct 27 | 193 |
 | Greene | 7b | 690 | 30 | 90 | -6 / 106 | 41.6 | 16 | Apr 3 | Nov 1 | 211 |
 | Greensville | 8a | 130 | 29 | 90 | -24 / 109 | 46.2 | 1 | Mar 31 | Nov 6 | 221 |
 | Halifax | 7b | 470 | 26 | 90 | -7 / 104 | 46.4 | 6 | Apr 10 | Oct 30 | 202 |
@@ -138,8 +138,8 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Lunenburg | 7b | 460 | 28 | 89 | -3 / 107 | 43.9 | 4 | Apr 7 | Nov 1 | 209 |
 | Lynchburg city | 7a | 640 | 24 | 85 | -11 / 103 | 43.6 | 12 | Apr 17 | Oct 25 | 190 |
 | Madison | 7a | 560 | 24 | 87 | -15 / 104 | 45 | 16 | Apr 17 | Oct 22 | 188 |
-| Manassas city | 7a | 280 | 24 | 88 | -18 / 105 | 47.6 | 21 | Apr 12 | Oct 27 | 197 |
-| Manassas Park city | 7a | 260 | 24 | 88 | -18 / 105 | 47.6 | 21 | Apr 12 | Oct 27 | 197 |
+| Manassas city | 7a | 280 | 24 | 88 | -18 / 105 | 43.2 | 21 | Apr 12 | Oct 27 | 197 |
+| Manassas Park city | 7a | 260 | 24 | 88 | -18 / 105 | 43.2 | 21 | Apr 12 | Oct 27 | 197 |
 | Martinsville city | 7b | 1,040 | 24 | 88 | -7 / 105 | 47.4 | 9 | Apr 24 | Oct 21 | 179 |
 | Mathews | 8a | 0 | 29 | 85 | 5 / 102 | 51.9 | 8 | Apr 1 | Nov 10 | 223 |
 | Mecklenburg | 7b | 370 | 29 | 92 | -5 / 108 | 43.5 | 5 | Apr 5 | Nov 1 | 210 |
@@ -163,7 +163,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Powhatan | 7a | 330 | 26 | 87 | -9 / 105 | 44.9 | 10 | Apr 17 | Oct 27 | 191 |
 | Prince Edward | 7b | 440 | 26 | 88 | -16 / 106 | 44.5 | 6 | Apr 12 | Oct 29 | 199 |
 | Prince George | 7b | 120 | 27 | 89 | -11 / 106 | 49.9 | 4 | Apr 10 | Nov 1 | 206 |
-| Prince William | 7a | 210 | 24 | 88 | -18 / 105 | 47.6 | 21 | Apr 12 | Oct 27 | 197 |
+| Prince William | 7a | 210 | 24 | 88 | -18 / 105 | 43.2 | 21 | Apr 12 | Oct 27 | 197 |
 | Pulaski | 7a | 2,060 | 24 | 83 | -16 / 99 | 40 | 16 | Apr 25 | Oct 17 | 175 |
 | Radford city | 7a | 1,900 | 22 | 84 | -8 / 97 | 42.1 | 22 | Apr 26 | Oct 18 | 174 |
 | Rappahannock | 7a | 630 | 24 | 85 | -8 / 104 | 48.8 | 21 | Apr 16 | Oct 27 | 192 |
@@ -175,9 +175,9 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Rockingham | 7a | 1,380 | 23 | 86 | -25 / 105 | 39 | 19 | Apr 21 | Oct 23 | 182 |
 | Russell | 7a | 2,430 | 23 | 84 | -24 / 99 | 45.9 | 12 | Apr 25 | Oct 16 | 173 |
 | Salem city | 7b | 1,020 | 29 | 88 | -11 / 105 | 42.8 | 15 | Apr 3 | Nov 1 | 210 |
-| Scott | 7a | 2,000 | 24 | 84 | -17 / 102 | 48.9 | 9 | Apr 20 | Oct 23 | 186 |
+| Scott | 7a | 2,000 | 24 | 84 | -17 / 102 | 56 | 9 | Apr 20 | Oct 23 | 186 |
 | Shenandoah | 7a | 950 | 21 | 85 | -23 / 109 | 37.2 | 21 | Apr 25 | Oct 19 | 174 |
-| Smyth | 7a | 2,410 | 23 | 84 | -19 / 102 | 45.6 | 10 | Apr 23 | Oct 20 | 178 |
+| Smyth | 7a | 2,410 | 23 | 84 | -19 / 102 | 48.1 | 10 | Apr 23 | Oct 20 | 178 |
 | Southampton | 8a | 40 | 29 | 89 | -5 / 106 | 47.9 | 4 | Apr 7 | Nov 2 | 208 |
 | Spotsylvania | 7a | 290 | 26 | 87 | -11 / 104 | 44.8 | 12 | Apr 14 | Oct 27 | 195 |
 | Stafford | 7a | 240 | 25 | 88 | -8 / 103 | 43.4 | 11 | Apr 6 | Nov 1 | 207 |

@@ -49,7 +49,7 @@ Areas follow the National Weather Service office that forecasts for each county 
 
 | Area (NWS office) | Counties | Zone | Jan low F | Jul high F | Record low / high F | Precip in | Snow in | Last frost | First frost | Frost-free days | Sun hrs Dec / Jun |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| NWS Nashville, TN | 38 | 7a to 7b | 24 to 31 | 82 to 91 | -28 / 112 | 52 to 63.2 | 0 to 14 | Apr 1 to Apr 21 | Oct 19 to Nov 4 | 180 to 218 | 2.9 to 3.2 / 5.4 to 5.6 |
+| NWS Nashville, TN | 38 | 7a to 7b | 24 to 31 | 82 to 91 | -28 / 112 | 51.6 to 63.2 | 0 to 14 | Apr 1 to Apr 21 | Oct 19 to Nov 4 | 180 to 218 | 2.9 to 3.2 / 5.4 to 5.6 |
 | NWS Morristown, TN | 33 | 7a to 8a | 22 to 32 | 80 to 90 | -29 / 107 | 44 to 67 | 1 to 48 | Mar 24 to Apr 30 | Oct 12 to Nov 9 | 165 to 230 | 3 to 3.4 / 5.3 to 5.4 |
 | NWS Memphis, TN | 21 | 7b to 8a | 27 to 30 | 88 to 91 | -23 / 112 | 48.8 to 61.8 | 0 to 7 | Mar 25 to Apr 10 | Oct 25 to Nov 7 | 200 to 227 | 3.1 to 3.3 / 5.6 to 5.7 |
 | NWS Huntsville, AL | 3 | 7b | 27 to 30 | 87 to 89 | -26 / 107 | 57.7 to 62.2 | 1 to 4 | Apr 6 to Apr 15 | Oct 25 to Oct 29 | 192 to 204 | 3.1 / 5.5 |
@@ -104,18 +104,18 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Henry | 7b | 440 | 27 | 88 | -22 / 111 | 55 | 5 | Apr 7 | Oct 31 | 206 |
 | Hickman | 7b | 630 | 28 | 90 | -26 / 103 | 53.3 | 2 | Apr 11 | Oct 24 | 196 |
 | Houston | 7b | 640 | 26 | 89 | -24 / 110 | 54.8 | 4 | Apr 7 | Nov 3 | 211 |
-| Humphreys | 7b | 590 | 27 | 88 | -5 / 106 | 55.3 | 3 | Apr 2 | Nov 4 | 218 |
+| Humphreys | 7b | 590 | 27 | 88 | -5 / 106 | 51.6 | 3 | Apr 2 | Nov 4 | 218 |
 | Jackson | 7a | 760 | 24 | 90 | -17 / 111 | 56.5 | 5 | Apr 20 | Oct 22 | 183 |
 | Jefferson | 7b | 1,360 | 29 | 86 | -8 / 102 | 47.4 | 10 | Mar 31 | Nov 4 | 217 |
 | Johnson | 7a | 2,640 | 23 | 82 | -24 / 97 | 47.2 | 12 | Apr 27 | Oct 14 | 170 |
 | Knox | 7b | 960 | 26 | 88 | -20 / 105 | 55.8 | 5 | Apr 11 | Oct 28 | 198 |
 | Lake | 7b | 290 | 28 | 88 | -15 / 106 | 48.8 | 7 | Mar 25 | Nov 7 | 227 |
 | Lauderdale | 8a | 360 | 29 | 90 | -10 / 105 | 56.8 | 2 | Mar 26 | Nov 6 | 227 |
-| Lawrence | 7b | 930 | 28 | 88 | -14 / 106 | 57.3 | 1 | Apr 8 | Oct 31 | 204 |
+| Lawrence | 7b | 930 | 28 | 88 | -14 / 106 | 58.8 | 1 | Apr 8 | Oct 31 | 204 |
 | Lewis | 7b | 920 | 28 | 87 | -23 / 108 | 57.1 | 1 | Apr 5 | Nov 1 | 210 |
 | Lincoln | 7b | 660 | 30 | 89 | -26 / 107 | 59.8 | 1 | Apr 7 | Oct 28 | 201 |
 | Loudon | 7b | 800 | 28 | 89 | -14 / 106 | 55.2 | 4 | Apr 5 | Nov 1 | 210 |
-| Macon | 7b | 960 | 27 | 88 | -20 / 108 | 55.9 | 8 | Apr 3 | Nov 1 | 213 |
+| Macon | 7b | 960 | 27 | 88 | -20 / 108 | 54 | 8 | Apr 3 | Nov 1 | 213 |
 | Madison | 7b | 340 | 27 | 91 | -21 / 110 | 56.9 | 3 | Apr 2 | Oct 29 | 207 |
 | Marion | 7b | 1,710 | 26 | 83 | -20 / 101 | 67 | 5 | Apr 10 | Oct 28 | 201 |
 | Marshall | 7b | 750 | 28 | 91 | -20 / 112 | 56.1 | 1 | Apr 14 | Oct 22 | 192 |

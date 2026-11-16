@@ -50,7 +50,7 @@ Areas follow the National Weather Service office that forecasts for each county 
 | Area (NWS office) | Counties | Zone | Jan low F | Jul high F | Record low / high F | Precip in | Snow in | Last frost | First frost | Frost-free days | Sun hrs Dec / Jun |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | NWS Peachtree City, GA | 96 | 7b to 9a | 25 to 38 | 80 to 94 | -16 / 112 | 44.2 to 74.1 | 0 to 4 | Mar 5 to Apr 26 | Oct 19 to Nov 24 | 176 to 265 | 3.3 to 3.9 / 5.3 to 5.5 |
-| NWS Tallahassee, FL | 26 | 8b to 9a | 35 to 40 | 88 to 93 | -2 / 111 | 46.6 to 57.9 | 0 | Mar 2 to Mar 21 | Nov 13 to Nov 27 | 236 to 268 | 3.9 to 4.1 / 5.2 to 5.4 |
+| NWS Tallahassee, FL | 26 | 8b to 9a | 35 to 40 | 88 to 93 | -2 / 111 | 46.6 to 57.7 | 0 | Mar 2 to Mar 21 | Nov 13 to Nov 27 | 236 to 268 | 3.9 to 4.1 / 5.2 to 5.4 |
 | NWS Jacksonville, FL | 14 | 8b to 9a | 35 to 44 | 90 to 94 | -1 / 111 | 44.8 to 54.6 | 0 | Feb 8 to Mar 25 | Nov 10 to Dec 25 | 233 to 314 | 3.8 to 3.9 / 5.2 to 5.4 |
 | NWS Charleston, SC | 12 | 8b to 9a | 36 to 43 | 91 to 93 | -10 / 113 | 47 to 52.8 | 0 | Feb 20 to Mar 14 | Nov 15 to Dec 19 | 248 to 298 | 3.8 to 4 / 5.4 to 5.5 |
 | NWS Greenville-Spartanburg, SC | 6 | 7b to 8b | 29 to 33 | 85 to 89 | -11 / 109 | 49.4 to 71.7 | 0 to 2 | Mar 20 to Apr 11 | Oct 26 to Nov 15 | 198 to 241 | 3.6 to 3.7 / 5.5 to 5.6 |
@@ -65,7 +65,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | County | Zone | Elev ft | Jan low | Jul high | Rec low / high | Precip in | Snow in | Last frost | First frost | Days |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Appling | 8b | 190 | 39 | 92 | 1 / 106 | 45.7 | 0 | Mar 17 | Nov 16 | 245 |
-| Atkinson | 9a | 210 | 38 | 92 | 1 / 111 | 53.9 | 0 | Mar 5 | Nov 26 | 267 |
+| Atkinson | 9a | 210 | 38 | 92 | 1 / 111 | 49.3 | 0 | Mar 5 | Nov 26 | 267 |
 | Bacon | 9a | 140 | 39 | 93 | -1 / 105 | 44.8 | 0 | Mar 11 | Nov 20 | 256 |
 | Baker | 8b | 180 | 38 | 92 | 2 / 107 | 52.9 | 0 | Mar 11 | Nov 13 | 245 |
 | Baldwin | 8b | 350 | 33 | 93 | -3 / 110 | 48.2 | 1 | Mar 25 | Nov 9 | 231 |
@@ -76,8 +76,8 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Berrien | 9a | 250 | 37 | 90 | 0 / 106 | 48.2 | 0 | Mar 11 | Nov 19 | 254 |
 | Bibb | 8b | 370 | 36 | 94 | -6 / 108 | 46.9 | 0 | Mar 21 | Nov 10 | 235 |
 | Bleckley | 8b | 400 | 35 | 92 | -3 / 110 | 48.5 | 0 | Mar 20 | Nov 12 | 239 |
-| Brantley | 9a | 70 | 37 | 91 | 3 / 104 | 54 | 0 | Mar 25 | Nov 15 | 236 |
-| Brooks | 9a | 170 | 37 | 92 | 2 / 108 | 54.6 | 0 | Mar 11 | Nov 18 | 253 |
+| Brantley | 9a | 70 | 37 | 91 | 3 / 104 | 50.4 | 0 | Mar 25 | Nov 15 | 236 |
+| Brooks | 9a | 170 | 37 | 92 | 2 / 108 | 48.4 | 0 | Mar 11 | Nov 18 | 253 |
 | Bryan | 9a | 20 | 40 | 92 | 3 / 105 | 48.1 | 0 | Mar 2 | Nov 30 | 270 |
 | Bulloch | 9a | 190 | 38 | 93 | 1 / 109 | 47 | 0 | Mar 7 | Nov 21 | 257 |
 | Burke | 8b | 300 | 34 | 92 | -1 / 110 | 48.2 | 0 | Mar 21 | Nov 9 | 233 |
@@ -93,13 +93,13 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Chattooga | 8a | 660 | 29 | 90 | -5 / 108 | 58.3 | 0 | Apr 7 | Oct 30 | 204 |
 | Cherokee | 8a | 880 | 29 | 88 | -6 / 106 | 51.8 | 0 | Apr 2 | Nov 4 | 215 |
 | Clarke | 8a | 640 | 34 | 92 | -4 / 109 | 49 | 1 | Mar 23 | Nov 10 | 232 |
-| Clay | 8b | 380 | 38 | 91 | -2 / 105 | 57.9 | 0 | Mar 13 | Nov 21 | 256 |
+| Clay | 8b | 380 | 38 | 91 | -2 / 105 | 57.7 | 0 | Mar 13 | Nov 21 | 256 |
 | Clayton | 8b | 950 | 32 | 90 | 5 / 104 | 52.9 | 1 | Mar 25 | Nov 12 | 235 |
 | Clinch | 9a | 160 | 38 | 92 | 3 / 104 | 49.3 | 0 | Mar 11 | Nov 17 | 253 |
 | Cobb | 8a | 1,060 | 32 | 84 | -12 / 104 | 56.2 | 1 | Mar 27 | Nov 7 | 225 |
-| Coffee | 9a | 260 | 38 | 92 | 1 / 111 | 50.2 | 0 | Mar 5 | Nov 26 | 267 |
+| Coffee | 9a | 260 | 38 | 92 | 1 / 111 | 47.5 | 0 | Mar 5 | Nov 26 | 267 |
 | Colquitt | 9a | 280 | 39 | 90 | 0 / 105 | 50 | 0 | Mar 6 | Nov 27 | 268 |
-| Columbia | 8b | 390 | 32 | 92 | -4 / 107 | 47.1 | 0 | Mar 27 | Nov 7 | 226 |
+| Columbia | 8b | 390 | 32 | 92 | -4 / 107 | 46.9 | 0 | Mar 27 | Nov 7 | 226 |
 | Cook | 9a | 230 | 39 | 90 | 0 / 105 | 50 | 0 | Mar 6 | Nov 27 | 268 |
 | Coweta | 8a | 930 | 31 | 90 | -8 / 108 | 52.5 | 2 | Apr 3 | Nov 2 | 214 |
 | Crawford | 8b | 500 | 36 | 94 | -6 / 108 | 46.9 | 0 | Mar 21 | Nov 10 | 235 |
@@ -111,7 +111,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Dodge | 8b | 280 | 38 | 91 | -2 / 110 | 47 | 0 | Mar 5 | Nov 24 | 263 |
 | Dooly | 8b | 360 | 36 | 93 | -3 / 106 | 50.1 | 0 | Mar 13 | Nov 14 | 248 |
 | Dougherty | 9a | 190 | 39 | 93 | 12 / 106 | 46.6 | 0 | Mar 8 | Nov 21 | 260 |
-| Douglas | 8a | 1,180 | 32 | 84 | -8 / 106 | 54.6 | 1 | Mar 27 | Nov 7 | 225 |
+| Douglas | 8a | 1,180 | 32 | 84 | -8 / 106 | 56.2 | 1 | Mar 27 | Nov 7 | 225 |
 | Early | 9a | 220 | 39 | 91 | 0 / 108 | 56.9 | 0 | Mar 6 | Nov 23 | 264 |
 | Echols | 9a | 150 | 38 | 90 | 4 / 104 | 52.6 | 0 | Mar 11 | Nov 22 | 258 |
 | Effingham | 9a | 100 | 40 | 92 | 3 / 105 | 52.8 | 0 | Mar 2 | Nov 30 | 270 |
@@ -148,7 +148,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Jenkins | 8b | 140 | 36 | 92 | -10 / 105 | 48.4 | 0 | Mar 14 | Nov 15 | 248 |
 | Johnson | 8b | 340 | 35 | 93 | 0 / 109 | 49 | 0 | Mar 21 | Nov 8 | 233 |
 | Jones | 8b | 520 | 33 | 93 | -3 / 110 | 48.2 | 1 | Mar 25 | Nov 9 | 231 |
-| Lamar | 8b | 810 | 34 | 90 | -8 / 104 | 50.6 | 0 | Mar 18 | Nov 14 | 239 |
+| Lamar | 8b | 810 | 34 | 90 | -8 / 104 | 54.2 | 0 | Mar 18 | Nov 14 | 239 |
 | Lanier | 9a | 200 | 38 | 92 | 3 / 104 | 49.3 | 0 | Mar 11 | Nov 17 | 253 |
 | Laurens | 8b | 260 | 35 | 94 | 0 / 109 | 47.3 | 0 | Mar 14 | Nov 13 | 247 |
 | Lee | 8b | 260 | 37 | 92 | 14 / 110 | 48.9 | 0 | Mar 12 | Nov 19 | 253 |
@@ -160,12 +160,12 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Macon | 8b | 290 | 35 | 91 | 2 / 111 | 48 | 0 | Mar 20 | Nov 14 | 238 |
 | Madison | 8a | 740 | 32 | 89 | -4 / 109 | 51.2 | 2 | Mar 29 | Nov 7 | 224 |
 | Marion | 8b | 650 | 32 | 89 | -6 / 110 | 52.2 | 0 | Apr 1 | Nov 3 | 216 |
-| McDuffie | 8b | 510 | 35 | 91 | -3 / 110 | 47.1 | 0 | Mar 14 | Nov 17 | 252 |
+| McDuffie | 8b | 510 | 35 | 91 | -3 / 110 | 46.1 | 0 | Mar 14 | Nov 17 | 252 |
 | McIntosh | 9a | 20 | 43 | 91 | 3 / 105 | 50 | 0 | Feb 20 | Dec 19 | 298 |
 | Meriwether | 8a | 770 | 34 | 91 | -10 / 104 | 50.7 | 0 | Mar 31 | Nov 5 | 221 |
 | Miller | 9a | 130 | 39 | 91 | 3 / 105 | 56.9 | 0 | Mar 6 | Nov 23 | 264 |
 | Mitchell | 9a | 170 | 38 | 90 | 2 / 107 | 51.6 | 0 | Mar 10 | Nov 18 | 254 |
-| Monroe | 8b | 650 | 34 | 90 | -5 / 109 | 51.6 | 0 | Mar 18 | Nov 14 | 239 |
+| Monroe | 8b | 650 | 34 | 90 | -5 / 109 | 47.9 | 0 | Mar 18 | Nov 14 | 239 |
 | Montgomery | 9a | 280 | 38 | 92 | 10 / 107 | 50.9 | 0 | Mar 12 | Nov 17 | 251 |
 | Morgan | 8a | 660 | 34 | 90 | -10 / 110 | 47.8 | 1 | Mar 24 | Nov 12 | 234 |
 | Murray | 8a | 800 | 30 | 89 | -10 / 104 | 57.5 | 0 | Apr 2 | Nov 1 | 212 |
@@ -177,11 +177,11 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Peach | 8b | 450 | 36 | 91 | -6 / 108 | 51.8 | 0 | Mar 11 | Nov 19 | 256 |
 | Pickens | 8a | 1,570 | 31 | 84 | -14 / 103 | 58.6 | 2 | Mar 31 | Nov 5 | 221 |
 | Pierce | 8b | 130 | 37 | 94 | 2 / 108 | 50.4 | 0 | Mar 15 | Nov 17 | 246 |
-| Pike | 8b | 780 | 34 | 90 | -8 / 104 | 50.6 | 0 | Mar 18 | Nov 14 | 239 |
+| Pike | 8b | 780 | 34 | 90 | -8 / 104 | 50.7 | 0 | Mar 18 | Nov 14 | 239 |
 | Polk | 8a | 1,030 | 32 | 91 | -10 / 105 | 52.8 | 1 | Mar 30 | Nov 4 | 219 |
 | Pulaski | 8b | 250 | 35 | 92 | -3 / 110 | 48.5 | 0 | Mar 20 | Nov 12 | 239 |
 | Putnam | 8b | 510 | 29 | 92 | -7 / 109 | 46.7 | 1 | Apr 4 | Nov 1 | 211 |
-| Quitman | 8b | 360 | 36 | 88 | 5 / 106 | 57.9 | 0 | Mar 15 | Nov 18 | 250 |
+| Quitman | 8b | 360 | 36 | 88 | 5 / 106 | 53.3 | 0 | Mar 15 | Nov 18 | 250 |
 | Rabun | 7b | 2,050 | 30 | 85 | -11 / 102 | 71.7 | 2 | Apr 10 | Oct 29 | 203 |
 | Randolph | 8b | 440 | 35 | 92 | -2 / 105 | 55.7 | 0 | Mar 21 | Nov 13 | 236 |
 | Richmond | 8b | 320 | 40 | 94 | 11 / 107 | 44.8 | 1 | Feb 27 | Dec 4 | 283 |
@@ -204,7 +204,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Toombs | 9a | 220 | 37 | 93 | 10 / 107 | 50.9 | 0 | Mar 15 | Nov 18 | 250 |
 | Towns | 7b | 2,690 | 26 | 80 | -16 / 100 | 74.1 | 3 | Apr 10 | Oct 26 | 199 |
 | Treutlen | 8b | 320 | 35 | 93 | 0 / 109 | 49 | 0 | Mar 21 | Nov 8 | 233 |
-| Troup | 8a | 710 | 34 | 91 | -10 / 104 | 55 | 0 | Mar 31 | Nov 5 | 221 |
+| Troup | 8a | 710 | 34 | 91 | -10 / 104 | 52.5 | 0 | Mar 31 | Nov 5 | 221 |
 | Turner | 9a | 380 | 36 | 91 | 1 / 102 | 48.2 | 0 | Mar 11 | Nov 20 | 256 |
 | Twiggs | 8b | 340 | 36 | 91 | -6 / 108 | 51.8 | 0 | Mar 11 | Nov 19 | 256 |
 | Union | 7b | 1,890 | 25 | 85 | -16 / 100 | 60.3 | 3 | Apr 26 | Oct 19 | 176 |
@@ -214,7 +214,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Ware | 9a | 130 | 37 | 94 | 2 / 108 | 50.4 | 0 | Mar 15 | Nov 17 | 246 |
 | Warren | 8b | 480 | 33 | 91 | -3 / 110 | 46.1 | 0 | Mar 29 | Nov 7 | 225 |
 | Washington | 8b | 450 | 35 | 92 | -3 / 109 | 48.6 | 0 | Mar 19 | Nov 13 | 241 |
-| Wayne | 9a | 70 | 35 | 93 | 3 / 107 | 51.2 | 0 | Mar 24 | Nov 10 | 233 |
+| Wayne | 9a | 70 | 35 | 93 | 3 / 107 | 45.7 | 0 | Mar 24 | Nov 10 | 233 |
 | Webster | 8b | 410 | 36 | 90 | -2 / 105 | 50.7 | 0 | Mar 15 | Nov 17 | 249 |
 | Wheeler | 8b | 180 | 38 | 92 | 10 / 107 | 50.9 | 0 | Mar 12 | Nov 17 | 251 |
 | White | 7b | 1,590 | 28 | 82 | -12 / 102 | 69.3 | 4 | Apr 7 | Nov 1 | 208 |
@@ -222,7 +222,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Wilcox | 9a | 350 | 36 | 93 | -3 / 106 | 50.1 | 0 | Mar 13 | Nov 14 | 248 |
 | Wilkes | 8b | 510 | 34 | 90 | -5 / 109 | 44.2 | 0 | Mar 22 | Nov 13 | 237 |
 | Wilkinson | 8b | 380 | 36 | 92 | -4 / 107 | 46.8 | 0 | Mar 12 | Nov 19 | 255 |
-| Worth | 9a | 400 | 36 | 91 | 1 / 102 | 49.5 | 0 | Mar 11 | Nov 20 | 256 |
+| Worth | 9a | 400 | 36 | 91 | 1 / 102 | 52.5 | 0 | Mar 11 | Nov 20 | 256 |
 
 ## Natural hazards
 

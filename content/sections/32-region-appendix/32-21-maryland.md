@@ -64,19 +64,19 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Allegany | 7a | 1,000 | 22 | 87 | -14 / 105 | 39.2 | 29 | Apr 15 | Oct 24 | 190 |
 | Anne Arundel | 7b | 50 | 29 | 89 | -8 / 103 | 44 | 19 | Mar 27 | Nov 13 | 234 |
 | Baltimore city | 8a | 40 | 30 | 90 | -7 / 106 | 43.7 | 19 | Mar 24 | Nov 21 | 244 |
-| Baltimore | 7b | 360 | 27 | 86 | -7 / 106 | 50.2 | 28 | Apr 2 | Nov 7 | 220 |
+| Baltimore | 7b | 360 | 27 | 86 | -7 / 106 | 43.7 | 19 | Apr 2 | Nov 7 | 220 |
 | Calvert | 8a | 140 | 25 | 85 | -9 / 103 | 48.1 | 15 | Apr 17 | Oct 27 | 195 |
 | Caroline | 7b | 40 | 25 | 87 | -6 / 102 | 46.3 | 13 | Apr 11 | Oct 30 | 200 |
 | Carroll | 7a | 730 | 21 | 85 | -13 / 102 | 44.1 | 28 | Apr 24 | Oct 20 | 177 |
 | Cecil | 7b | 70 | 25 | 89 | -12 / 105 | 47 | 20 | Apr 7 | Nov 2 | 208 |
 | Charles | 7b | 140 | 25 | 85 | -9 / 103 | 48.1 | 15 | Apr 17 | Oct 27 | 195 |
-| Dorchester | 8a | 0 | 28 | 90 | -6 / 104 | 46.8 | 14 | Apr 8 | Nov 4 | 209 |
+| Dorchester | 8a | 0 | 28 | 90 | -6 / 104 | 47.6 | 14 | Apr 8 | Nov 4 | 209 |
 | Frederick | 7b | 260 | 26 | 89 | -21 / 109 | 43.5 | 28 | Apr 2 | Nov 6 | 218 |
 | Garrett | 6a | 2,690 | 18 | 81 | -40 / 101 | 50.8 | 105 | May 6 | Oct 9 | 156 |
 | Harford | 7b | 380 | 25 | 86 | -13 / 105 | 47.1 | 18 | Apr 10 | Oct 30 | 201 |
-| Howard | 7b | 390 | 26 | 89 | -19 / 106 | 47.5 | 28 | Apr 5 | Nov 9 | 218 |
+| Howard | 7b | 390 | 26 | 89 | -19 / 106 | 47.5 | 19 | Apr 5 | Nov 9 | 218 |
 | Kent | 7b | 70 | 27 | 87 | -9 / 104 | 46 | 17 | Apr 3 | Nov 5 | 217 |
-| Montgomery | 7b | 480 | 27 | 87 | -13 / 105 | 41.3 | 33 | Apr 1 | Nov 6 | 219 |
+| Montgomery | 7b | 480 | 27 | 87 | -13 / 105 | 41.3 | 31 | Apr 1 | Nov 6 | 219 |
 | Prince George's | 7b | 180 | 25 | 88 | -12 / 105 | 45 | 16 | Apr 9 | Oct 29 | 203 |
 | Queen Anne's | 7b | 30 | 27 | 87 | -9 / 104 | 46 | 17 | Apr 3 | Nov 5 | 217 |
 | Somerset | 8a | 0 | 30 | 86 | -1 / 102 | 43.2 | 8 | Mar 31 | Nov 11 | 225 |

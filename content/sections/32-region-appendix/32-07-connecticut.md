@@ -63,7 +63,7 @@ One line per planning region, for a point near its centre. Elevation is in feet.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Capitol | 6b | 80 | 20 | 85 | -24 / 103 | 42.8 | 52 | Apr 17 | Oct 26 | 191 |
 | Greater Bridgeport | 7a | 30 | 24 | 83 | -7 / 103 | 44.1 | 34 | Apr 5 | Nov 6 | 216 |
-| Lower Connecticut River Valley | 6b | 290 | 19 | 84 | -24 / 104 | 52 | 28 | Apr 26 | Oct 16 | 175 |
+| Lower Connecticut River Valley | 6b | 290 | 19 | 84 | -24 / 104 | 44.9 | 28 | Apr 26 | Oct 16 | 175 |
 | Naugatuck Valley | 6b | 510 | 20 | 85 | -24 / 104 | 50.4 | 47 | Apr 18 | Oct 26 | 191 |
 | Northeastern Connecticut | 6b | 310 | 15 | 82 | -23 / 100 | 50.1 | 38 | May 1 | Oct 9 | 161 |
 | Northwest Hills | 6a | 1,370 | 14 | 78 | -25 / 98 | 52.9 | 75 | May 3 | Oct 11 | 161 |

@@ -115,8 +115,6 @@ it drinkable without treatment** (→ 03-03){{else}}a 55-gal drum · a 5-gal buc
 **Days of water = gallons on hand ÷ {{ derived.water.plan_gal_day }}** (the plan rate). Use the
 floor rate, {{ derived.water.floor_gal_day }}, only when rationing. Do it on → 23-02.
 
-{{#if size.large}}{{else}}{{/if}}
-
 ## Calorie math
 
 | Person or situation | Calories a day (planning) |

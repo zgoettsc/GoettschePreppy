@@ -3003,6 +3003,12 @@
    "kit_section": "17-weather-and-regional-hazards",
    "layer": "core",
    "note": "National hazard page (not in the household binder); promoted by the matching is.*_region flag."
+  },
+  {
+   "kit_id": "32-00-section-intro",
+   "kit_section": "32-region-appendix",
+   "layer": "generated",
+   "note": "Region appendix intro and state index; built by scripts/build-region-pages.mjs. State pages 32-01..32-51 are generated."
   }
  ]
 }

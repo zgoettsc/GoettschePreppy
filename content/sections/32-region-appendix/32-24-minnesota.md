@@ -120,7 +120,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Norman | 4a | 910 | -4 | 81 | -53 / 111 | 25 | 41 | May 11 | Sep 27 | 137 |
 | Olmsted | 4b | 1,210 | 7 | 80 | -42 / 108 | 34.7 | 53 | Apr 30 | Oct 6 | 159 |
 | Otter Tail | 4a | 1,330 | -2 | 79 | -45 / 102 | 28.2 | 46 | May 5 | Oct 5 | 153 |
-| Pennington | 3b | 1,140 | -3 | 80 | -45 / 108 | 24.6 | 50 | May 14 | Sep 28 | 135 |
+| Pennington | 3b | 1,140 | -3 | 80 | -45 / 108 | 24.4 | 50 | May 14 | Sep 28 | 135 |
 | Pine | 4a | 1,080 | 2 | 79 | -41 / 102 | 33.3 | 45 | May 13 | Sep 29 | 137 |
 | Pipestone | 4b | 1,750 | 5 | 82 | -44 / 108 | 28.6 | 40 | May 4 | Oct 2 | 152 |
 | Polk | 4a | 1,000 | -3 | 79 | -50 / 110 | 24.3 | 50 | May 9 | Sep 30 | 142 |
@@ -147,7 +147,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Waseca | 4b | 1,080 | 5 | 81 | -37 / 106 | 37.9 | 52 | May 2 | Oct 4 | 155 |
 | Washington | 5a | 930 | 5 | 79 | -40 / 106 | 33.2 | 40 | Apr 30 | Oct 11 | 163 |
 | Watonwan | 5a | 1,060 | 5 | 83 | -30 / 105 | 33.1 | 50 | Apr 30 | Oct 7 | 160 |
-| Wilkin | 4a | 970 | -1 | 82 | -39 / 105 | 25.2 | 50 | May 4 | Oct 3 | 152 |
+| Wilkin | 4a | 970 | -1 | 82 | -39 / 105 | 24.8 | 50 | May 4 | Oct 3 | 152 |
 | Winona | 4b | 1,190 | 11 | 85 | -35 / 108 | 34.4 | 38 | Apr 21 | Oct 19 | 180 |
 | Wright | 4b | 1,040 | 3 | 81 | -38 / 105 | 31.7 | 40 | Apr 30 | Oct 9 | 163 |
 | Yellow Medicine | 4b | 1,060 | 2 | 82 | -39 / 110 | 29.4 | 46 | May 4 | Oct 1 | 149 |

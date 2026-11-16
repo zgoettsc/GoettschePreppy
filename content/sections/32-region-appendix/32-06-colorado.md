@@ -79,7 +79,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Custer | 5a | 8,670 | 8 | 81 | -46 / 96 | 19 | 84 | Jun 11 | Sep 9 | 89 |
 | Delta | 7a | 6,180 | 19 | 86 | -26 / 105 | 12.5 | 40 | May 3 | Oct 9 | 156 |
 | Denver | 6a | 5,290 | 18 | 90 | -25 / 104 | 15.4 | 49 | May 4 | Oct 8 | 156 |
-| Dolores | 6a | 7,990 | 17 | 86 | -26 / 110 | 19 | 70 | May 15 | Oct 8 | 147 |
+| Dolores | 6a | 7,990 | 17 | 86 | -26 / 110 | 18.6 | 70 | May 15 | Oct 8 | 147 |
 | Douglas | 5b | 6,440 | 18 | 86 | -37 / 102 | 17.6 | 58 | May 9 | Oct 2 | 143 |
 | Eagle | 6a | 8,500 | 7 | 77 | -32 / 95 | 22.4 | 189 | Jun 21 | Sep 7 | 77 |
 | El Paso | 6a | 6,400 | 18 | 86 | -27 / 101 | 15.9 | 32 | May 3 | Oct 8 | 158 |

@@ -63,14 +63,14 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Atlantic | 7a | 70 | 25 | 87 | -11 / 106 | 46 | 17 | Apr 18 | Oct 29 | 190 |
 | Bergen | 7a | 50 | 26 | 87 | -7 / 104 | 46.3 | 30 | Apr 3 | Nov 4 | 215 |
 | Burlington | 7a | 100 | 24 | 87 | -25 / 107 | 50.4 | 24 | Apr 28 | Oct 15 | 169 |
-| Camden | 7a | 150 | 25 | 87 | -6 / 104 | 47.4 | 22 | Apr 8 | Nov 1 | 205 |
+| Camden | 7a | 150 | 25 | 87 | -6 / 104 | 48.1 | 22 | Apr 8 | Nov 1 | 205 |
 | Cape May | 7b | 20 | 28 | 86 | -3 / 102 | 43.8 | 15 | Apr 1 | Nov 9 | 222 |
 | Cumberland | 7b | 80 | 24 | 86 | -10 / 103 | 43.4 | 12 | Apr 24 | Oct 23 | 181 |
 | Essex | 7a | 390 | 21 | 86 | -14 / 105 | 48.6 | 24 | Apr 18 | Oct 24 | 187 |
 | Gloucester | 7b | 140 | 25 | 87 | -6 / 104 | 48.1 | 22 | Apr 8 | Nov 1 | 205 |
 | Hudson | 7b | 40 | 25 | 87 | 0 / 107 | 50.4 | 28 | Apr 4 | Nov 6 | 216 |
 | Hunterdon | 7a | 650 | 21 | 86 | -18 / 108 | 50.9 | 27 | Apr 24 | Oct 21 | 179 |
-| Mercer | 7a | 60 | 23 | 86 | -16 / 102 | 47.4 | 27 | Apr 17 | Oct 28 | 192 |
+| Mercer | 7a | 60 | 23 | 86 | -16 / 102 | 47.4 | 24 | Apr 17 | Oct 28 | 192 |
 | Middlesex | 7a | 100 | 23 | 86 | -13 / 105 | 49.5 | 29 | Apr 15 | Oct 26 | 193 |
 | Monmouth | 7a | 90 | 23 | 86 | -20 / 106 | 48.6 | 29 | Apr 17 | Oct 23 | 190 |
 | Morris | 6b | 820 | 19 | 83 | -26 / 105 | 52.2 | 28 | Apr 25 | Oct 17 | 174 |

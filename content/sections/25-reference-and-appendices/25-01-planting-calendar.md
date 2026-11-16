@@ -51,6 +51,7 @@ never needs a month-by-month calendar for one place.
 |---|---|---|---|---|
 {{#each destinations as d}}| {{d.name}} ({{d.county}}, {{d.state_name}}) | {{d.region.last_frost}} | {{d.region.first_frost}} | {{d.region.growing_days}} | {{d.region.zone}} |
 {{/each}}
+
 The destination garden plan is → 05-18.
 {{/if}}
 

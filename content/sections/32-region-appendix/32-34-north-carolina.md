@@ -52,10 +52,10 @@ Areas follow the National Weather Service office that forecasts for each county 
 | NWS Raleigh, NC | 31 | 7b to 8a | 26 to 35 | 87 to 93 | -11 / 109 | 43.2 to 52.3 | 0 to 7 | Mar 15 to Apr 16 | Oct 26 to Nov 18 | 193 to 250 | 3.5 to 3.8 / 5.5 to 5.6 |
 | NWS Greenville-Spartanburg, SC | 28 | 6b to 8a | 22 to 32 | 74 to 92 | -31 / 107 | 40.6 to 96.3 | 0 to 77 | Mar 24 to May 3 | Oct 14 to Nov 9 | 162 to 230 | 3.1 to 3.8 / 5.3 to 5.6 |
 | NWS Newport/Morehead City, NC | 15 | 8a to 9a | 30 to 38 | 87 to 91 | -5 / 110 | 50.6 to 58.9 | 0 to 3 | Mar 8 to Apr 7 | Oct 30 to Dec 5 | 204 to 272 | 3.2 to 3.7 / 5.4 to 5.7 |
-| NWS Blacksburg, VA | 9 | 6b to 7b | 21 to 29 | 77 to 90 | -24 / 107 | 46.6 to 63.5 | 4 to 31 | Mar 31 to May 7 | Oct 8 to Nov 4 | 154 to 218 | 3.4 to 3.5 / 5.3 to 5.5 |
+| NWS Blacksburg, VA | 9 | 6b to 7b | 21 to 29 | 77 to 90 | -24 / 107 | 46.6 to 57.1 | 4 to 31 | Mar 31 to May 7 | Oct 8 to Nov 4 | 154 to 218 | 3.4 to 3.5 / 5.3 to 5.5 |
 | NWS Wakefield, VA | 9 | 8a to 8b | 29 to 34 | 88 to 89 | -8 / 107 | 46.5 to 51.3 | 0 to 5 | Mar 24 to Apr 7 | Nov 1 to Nov 17 | 208 to 238 | 3.1 to 3.6 / 5.5 to 5.6 |
 | NWS Wilmington, NC | 6 | 8a to 8b | 32 to 36 | 87 to 91 | -3 / 107 | 42.6 to 65.1 | 0 to 1 | Mar 20 to Mar 29 | Nov 6 to Nov 17 | 224 to 243 | 3.7 to 3.8 / 5.5 to 5.7 |
-| NWS Morristown, TN | 2 | 7b | 24 to 25 | 84 to 87 | -18 / 100 | 59.3 to 65.7 | 3 to 4 | Apr 21 to Apr 22 | Oct 20 to Oct 21 | 180 to 182 | 3.2 to 3.4 / 5.3 to 5.4 |
+| NWS Morristown, TN | 2 | 7b | 24 to 25 | 84 to 87 | -18 / 100 | 59.3 to 72.2 | 3 to 4 | Apr 21 to Apr 22 | Oct 20 to Oct 21 | 180 to 182 | 3.2 to 3.4 / 5.3 to 5.4 |
 
 Sun hours are peak sun hours: the average daily solar energy on a south-facing panel tilted at the local latitude, in kilowatt-hours per square metre (NASA POWER project, Climatology 2001-2025, 2026). A 100-watt panel makes roughly 100 watt-hours per peak sun hour before losses. → 09-05
 
@@ -74,7 +74,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Beaufort | 8b | 20 | 36 | 89 | -1 / 103 | 51.6 | 0 | Mar 8 | Dec 5 | 272 |
 | Bertie | 8a | 30 | 33 | 89 | -5 / 107 | 49.5 | 1 | Mar 29 | Nov 7 | 223 |
 | Bladen | 8b | 30 | 32 | 91 | -3 / 105 | 53.3 | 1 | Mar 29 | Nov 8 | 226 |
-| Brunswick | 8b | 30 | 36 | 87 | -3 / 103 | 56.5 | 1 | Mar 20 | Nov 17 | 243 |
+| Brunswick | 8b | 30 | 36 | 87 | -3 / 103 | 56.5 | 0 | Mar 20 | Nov 17 | 243 |
 | Buncombe | 7b | 2,350 | 29 | 86 | -17 / 100 | 40.6 | 12 | Apr 6 | Oct 31 | 205 |
 | Burke | 7b | 1,020 | 28 | 88 | -10 / 106 | 51.5 | 4 | Apr 7 | Oct 28 | 202 |
 | Cabarrus | 8a | 630 | 29 | 92 | -5 / 107 | 47.9 | 3 | Apr 1 | Nov 2 | 215 |
@@ -86,7 +86,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Chatham | 8a | 470 | 30 | 88 | -11 / 107 | 45.9 | 2 | Mar 31 | Nov 4 | 220 |
 | Cherokee | 7b | 1,750 | 25 | 87 | -16 / 100 | 59.3 | 4 | Apr 22 | Oct 20 | 180 |
 | Chowan | 8a | 20 | 34 | 89 | -4 / 105 | 51 | 2 | Mar 24 | Nov 14 | 238 |
-| Clay | 7b | 2,230 | 24 | 84 | -18 / 99 | 65.7 | 3 | Apr 21 | Oct 21 | 182 |
+| Clay | 7b | 2,230 | 24 | 84 | -18 / 99 | 72.2 | 3 | Apr 21 | Oct 21 | 182 |
 | Cleveland | 8a | 780 | 27 | 91 | -11 / 107 | 50.4 | 4 | Apr 12 | Oct 25 | 195 |
 | Columbus | 8b | 50 | 32 | 90 | -2 / 105 | 50.9 | 1 | Mar 29 | Nov 6 | 224 |
 | Craven | 8b | 20 | 34 | 90 | -4 / 106 | 53 | 1 | Mar 23 | Nov 15 | 237 |
@@ -159,7 +159,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Wake | 8a | 330 | 32 | 91 | -6 / 107 | 49.4 | 4 | Mar 28 | Nov 8 | 229 |
 | Warren | 8a | 350 | 29 | 89 | -7 / 104 | 47.7 | 6 | Apr 3 | Nov 5 | 217 |
 | Washington | 8a | 10 | 34 | 89 | -5 / 103 | 54.6 | 1 | Mar 31 | Nov 7 | 221 |
-| Watauga | 6b | 4,180 | 21 | 77 | -24 / 92 | 63.5 | 31 | Apr 25 | Oct 21 | 178 |
+| Watauga | 6b | 4,180 | 21 | 77 | -24 / 92 | 53.8 | 31 | Apr 25 | Oct 21 | 178 |
 | Wayne | 8a | 70 | 35 | 91 | 0 / 108 | 52.3 | 2 | Mar 15 | Nov 18 | 250 |
 | Wilkes | 7b | 1,210 | 27 | 87 | -9 / 102 | 51.7 | 6 | Apr 10 | Oct 29 | 201 |
 | Wilson | 8a | 120 | 33 | 90 | -5 / 107 | 50.3 | 2 | Mar 22 | Nov 12 | 236 |

@@ -115,7 +115,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Newton | 8b | 470 | 34 | 90 | -4 / 107 | 58.2 | 0 | Mar 24 | Nov 5 | 228 |
 | Noxubee | 8b | 170 | 33 | 90 | 0 / 111 | 57.2 | 0 | Mar 21 | Nov 7 | 231 |
 | Oktibbeha | 8a | 300 | 33 | 92 | -12 / 111 | 58 | 0 | Mar 23 | Nov 8 | 233 |
-| Panola | 8a | 310 | 31 | 91 | -16 / 108 | 58.7 | 0 | Mar 28 | Nov 2 | 218 |
+| Panola | 8a | 310 | 31 | 91 | -16 / 108 | 58.2 | 0 | Mar 28 | Nov 2 | 218 |
 | Pearl River | 9a | 190 | 39 | 91 | 3 / 105 | 65 | 0 | Mar 10 | Nov 21 | 257 |
 | Perry | 8b | 210 | 36 | 94 | 10 / 105 | 63.9 | 0 | Mar 18 | Nov 12 | 239 |
 | Pike | 8b | 380 | 38 | 91 | 2 / 106 | 60.6 | 0 | Mar 11 | Nov 18 | 253 |

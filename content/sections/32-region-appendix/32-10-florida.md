@@ -49,11 +49,11 @@ Areas follow the National Weather Service office that forecasts for each county 
 
 | Area (NWS office) | Counties | Zone | Jan low F | Jul high F | Record low / high F | Precip in | Snow in | Last frost | First frost | Frost-free days | Sun hrs Dec / Jun |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| NWS Tallahassee, FL | 17 | 8b to 9b | 39 to 45 | 89 to 93 | 0 / 109 | 51.1 to 69 | 0 | Feb 7 to Mar 13 | Nov 20 to Dec 24 | 255 to 318 | 3.9 to 4.2 / 5.2 to 5.7 |
+| NWS Tallahassee, FL | 17 | 8b to 9b | 39 to 45 | 89 to 93 | 0 / 109 | 51.1 to 64.6 | 0 | Feb 7 to Mar 13 | Nov 20 to Dec 24 | 255 to 318 | 3.9 to 4.2 / 5.2 to 5.7 |
 | NWS Jacksonville, FL | 15 | 9a to 9b | 38 to 49 | 88 to 94 | 0 / 108 | 47.6 to 54.4 | 0 | Jan 24 to Mar 14 | Jan 4 to Dec 24 | 254 to 356 | 3.8 to 4.2 / 5.1 to 5.3 |
 | NWS Tampa Bay Ruskin, FL | 15 | 9a to 10b | 43 to 54 | 89 to 94 | 9 / 105 | 49.5 to 61.1 | 0 | Jan 16 to Mar 3 | Jan 1 to Dec 22 | 279 to 365 | 4.2 to 4.7 / 5 to 5.7 |
 | NWS Melbourne, FL | 10 | 9b to 10a | 45 to 54 | 89 to 93 | 15 / 105 | 43.8 to 64.2 | 0 | Jan 17 to Feb 17 | Jan 9 to Dec 30 | 310 to 365 | 4.1 to 4.4 / 5 to 5.2 |
-| NWS Miami, FL | 7 | 10a to 10b | 51 to 59 | 90 to 94 | 20 / 103 | 48.6 to 67 | 0 | Jan 18 to Jan 31; none in most years in 2 | Jan 12 to Jan 20; none in most years in 2 | 347 to 365 | 4.4 to 4.9 / 4.8 to 5.3 |
+| NWS Miami, FL | 7 | 10a to 10b | 51 to 59 | 90 to 94 | 20 / 103 | 48.6 to 68.8 | 0 | Jan 18 to Jan 31; none in most years in 2 | Jan 12 to Jan 20; none in most years in 2 | 347 to 365 | 4.4 to 4.9 / 4.8 to 5.3 |
 | NWS Mobile, AL | 3 | 9a | 38 to 42 | 90 to 93 | 4 / 107 | 66.4 to 73.4 | 0 | Feb 17 to Mar 12 | Nov 19 to Dec 9 | 253 to 299 | 3.9 to 4 / 5.5 to 5.6 |
 
 Sun hours are peak sun hours: the average daily solar energy on a south-facing panel tilted at the local latitude, in kilowatt-hours per square metre (NASA POWER project, Climatology 2001-2025, 2026). A 100-watt panel makes roughly 100 watt-hours per peak sun hour before losses. → 09-05
@@ -66,10 +66,10 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Alachua | 9a | 160 | 43 | 91 | 10 / 103 | 48.3 | 0 | Mar 3 | Dec 2 | 277 |
 | Baker | 9a | 140 | 40 | 93 | 7 / 104 | 53.2 | 0 | Mar 8 | Dec 1 | 272 |
-| Bay | 9a | 40 | 45 | 90 | 6 / 102 | 69 | 0 | Feb 7 | Dec 24 | 318 |
+| Bay | 9a | 40 | 45 | 90 | 6 / 102 | 61.3 | 0 | Feb 7 | Dec 24 | 318 |
 | Bradford | 9a | 140 | 45 | 92 | 8 / 101 | 53.4 | 0 | Feb 8 | Dec 24 | 313 |
 | Brevard | 10a | 10 | 50 | 91 | 19 / 102 | 55.3 | 0 | Jan 24 | Jan 9 | 359 |
-| Broward | 10b | 10 | 58 | 91 | 28 / 100 | 67 | 0 | None in most years | None in most years | 365 |
+| Broward | 10b | 10 | 58 | 91 | 28 / 100 | 68.8 | 0 | None in most years | None in most years | 365 |
 | Calhoun | 9a | 90 | 40 | 89 | 11 / 105 | 63.1 | 0 | Mar 1 | Nov 29 | 271 |
 | Charlotte | 10a | 20 | 52 | 94 | 23 / 102 | 54 | 0 | Jan 21 | Jan 14 | 365 |
 | Citrus | 9b | 0 | 43 | 91 | 15 / 105 | 52.4 | 0 | Mar 3 | Dec 5 | 279 |
@@ -89,7 +89,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Hamilton | 9a | 120 | 38 | 90 | 4 / 104 | 52.6 | 0 | Mar 11 | Nov 22 | 258 |
 | Hardee | 9b | 50 | 48 | 92 | 20 / 104 | 52 | 0 | Feb 4 | Jan 8 | 332 |
 | Hendry | 10a | 30 | 52 | 92 | 20 / 102 | 53.8 | 0 | Jan 25 | Jan 13 | 365 |
-| Hernando | 9b | 40 | 47 | 92 | 13 / 105 | 56.5 | 0 | Feb 5 | Jan 1 | 322 |
+| Hernando | 9b | 40 | 47 | 92 | 13 / 105 | 51.9 | 0 | Feb 5 | Jan 1 | 322 |
 | Highlands | 9b | 80 | 48 | 93 | 13 / 103 | 54.2 | 0 | Feb 26 | Dec 22 | 300 |
 | Hillsborough | 10a | 10 | 53 | 91 | 18 / 100 | 49.5 | 0 | Jan 20 | Jan 12 | 365 |
 | Holmes | 8b | 80 | 39 | 91 | 2 / 103 | 62.3 | 0 | Mar 10 | Nov 20 | 259 |
@@ -101,7 +101,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Lee | 10b | 10 | 54 | 92 | 24 / 103 | 57.4 | 0 | Jan 16 | Jan 13 | 365 |
 | Leon | 9a | 200 | 40 | 92 | 6 / 105 | 58.8 | 0 | Mar 11 | Nov 21 | 255 |
 | Levy | 9a | 10 | 44 | 89 | 9 / 105 | 57.1 | 0 | Feb 28 | Dec 2 | 279 |
-| Liberty | 9a | 90 | 40 | 89 | 11 / 105 | 60.5 | 0 | Mar 1 | Nov 29 | 271 |
+| Liberty | 9a | 90 | 40 | 89 | 11 / 105 | 63.1 | 0 | Mar 1 | Nov 29 | 271 |
 | Madison | 9a | 140 | 40 | 91 | 5 / 106 | 52.8 | 0 | Mar 5 | Nov 29 | 273 |
 | Manatee | 10a | 40 | 52 | 92 | 20 / 101 | 56.3 | 0 | Jan 16 | Jan 11 | 365 |
 | Marion | 9a | 60 | 46 | 92 | 11 / 105 | 51.6 | 0 | Feb 25 | Dec 12 | 293 |
@@ -123,7 +123,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Seminole | 9b | 20 | 50 | 93 | 22 / 101 | 49.6 | 0 | Jan 24 | Jan 9 | 352 |
 | St. Johns | 9b | 40 | 48 | 91 | 10 / 103 | 50.6 | 0 | Feb 1 | Jan 5 | 334 |
 | St. Lucie | 10a | 20 | 53 | 89 | 19 / 101 | 55.9 | 0 | Jan 22 | Jan 12 | 365 |
-| Sumter | 9b | 70 | 43 | 91 | 12 / 104 | 50.7 | 0 | Mar 2 | Dec 5 | 281 |
+| Sumter | 9b | 70 | 43 | 91 | 12 / 104 | 52.4 | 0 | Mar 2 | Dec 5 | 281 |
 | Suwannee | 9a | 100 | 45 | 94 | 5 / 106 | 51.9 | 0 | Feb 20 | Dec 6 | 292 |
 | Taylor | 9a | 30 | 41 | 92 | 7 / 104 | 51.4 | 0 | Mar 5 | Nov 25 | 268 |
 | Union | 9a | 130 | 45 | 92 | 8 / 101 | 53.4 | 0 | Feb 8 | Dec 24 | 313 |

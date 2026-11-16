@@ -78,7 +78,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Dane | 5b | 900 | 11 | 82 | -38 / 108 | 40.2 | 38 | May 1 | Oct 9 | 161 |
 | Dodge | 5a | 920 | 9 | 80 | -36 / 102 | 35.3 | 41 | May 1 | Oct 10 | 158 |
 | Door | 5b | 580 | 12 | 80 | -27 / 97 | 31 | 62 | May 14 | Oct 18 | 155 |
-| Douglas | 4a | 1,200 | 4 | 81 | -49 / 108 | 35.7 | 60 | May 12 | Oct 2 | 142 |
+| Douglas | 4a | 1,200 | 4 | 81 | -49 / 108 | 33.4 | 60 | May 12 | Oct 2 | 142 |
 | Dunn | 4b | 900 | 4 | 82 | -40 / 101 | 34.2 | 41 | May 9 | Oct 1 | 143 |
 | Eau Claire | 4b | 960 | 4 | 82 | -45 / 104 | 34.5 | 54 | May 7 | Oct 1 | 146 |
 | Florence | 4b | 1,440 | 3 | 78 | -47 / 103 | 30.4 | 66 | May 24 | Sep 25 | 121 |
@@ -89,7 +89,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Green Lake | 5a | 950 | 9 | 82 | -22 / 100 | 35.6 | 38 | May 8 | Oct 2 | 144 |
 | Iowa | 5a | 1,190 | 9 | 81 | -33 / 108 | 39.6 | 41 | May 3 | Oct 7 | 157 |
 | Iron | 4a | 1,620 | 2 | 77 | -36 / 98 | 37.1 | 140 | May 19 | Sep 28 | 130 |
-| Jackson | 4b | 860 | 4 | 81 | -49 / 109 | 38.8 | 41 | May 9 | Oct 1 | 143 |
+| Jackson | 4b | 860 | 4 | 81 | -49 / 109 | 36.8 | 41 | May 9 | Oct 1 | 143 |
 | Jefferson | 5b | 820 | 11 | 82 | -33 / 110 | 38.7 | 42 | Apr 25 | Oct 18 | 173 |
 | Juneau | 4b | 900 | 6 | 84 | -46 / 105 | 34.1 | 34 | May 17 | Sep 25 | 131 |
 | Kenosha | 5b | 720 | 16 | 84 | -31 / 105 | 31.9 | 36 | Apr 28 | Oct 19 | 174 |
@@ -118,7 +118,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Richland | 4b | 770 | 8 | 82 | -46 / 110 | 39.5 | 40 | May 5 | Oct 6 | 154 |
 | Rock | 5b | 870 | 12 | 83 | -31 / 103 | 37.4 | 37 | Apr 26 | Oct 15 | 170 |
 | Rusk | 4a | 1,160 | 2 | 78 | -42 / 102 | 35.8 | 52 | May 27 | Sep 22 | 117 |
-| Sauk | 5a | 1,040 | 12 | 80 | -42 / 104 | 37.3 | 44 | Apr 24 | Oct 20 | 178 |
+| Sauk | 5a | 1,040 | 12 | 80 | -42 / 104 | 39.6 | 44 | Apr 24 | Oct 20 | 178 |
 | Sawyer | 4a | 1,460 | 2 | 78 | -52 / 107 | 35.2 | 57 | May 19 | Sep 27 | 129 |
 | Shawano | 5a | 930 | 6 | 81 | -39 / 109 | 33.1 | 48 | May 9 | Oct 2 | 144 |
 | Sheboygan | 5b | 660 | 15 | 82 | -26 / 108 | 34.7 | 49 | Apr 25 | Oct 23 | 179 |

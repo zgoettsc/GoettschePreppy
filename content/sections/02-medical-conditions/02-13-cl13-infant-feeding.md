@@ -146,9 +146,9 @@ only a fridge if a thermometer says it stays between 32 and 40 °F.
 - **Opened powder:** cool and dry, lid tight, **not** in the fridge. Most must be used within
   **1 month** of opening; check the label. Write the opening date on the lid.
 - **Never use formula after its "Use By" date** (CDC). Infant formula is the one food that US
-  federal rules require to carry a date (USDA FSIS, Food Product Dating). Rotate stock so the
-  question never arises; your household's general rule on dated food (→ 30-15) does not apply to
-  formula.
+  federal rules require to carry a date (USDA FSIS, Food Product Dating), because the date
+  guarantees the nutrients a baby lives on. Rotate stock, oldest first, so the question never
+  arises. The card on other dated food is → 30-15.
 
 **Bottles, nipples and pump parts** (CDC, How to Clean, Sanitize, and Store Infant Feeding
 Items): take apart, wash in hot soapy water in a basin kept for this, rinse, air-dry on a clean

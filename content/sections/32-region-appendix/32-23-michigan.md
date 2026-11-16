@@ -120,7 +120,7 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Menominee | 5a | 740 | 5 | 81 | -45 / 101 | 31.3 | 70 | May 22 | Sep 27 | 126 |
 | Midland | 6a | 640 | 17 | 82 | -19 / 103 | 33.4 | 49 | Apr 29 | Oct 16 | 167 |
 | Missaukee | 5a | 1,220 | 10 | 80 | -41 / 106 | 33.4 | 74 | May 22 | Sep 26 | 125 |
-| Monroe | 6b | 620 | 18 | 84 | -15 / 101 | 35.2 | 39 | Apr 23 | Oct 23 | 182 |
+| Monroe | 6b | 620 | 18 | 84 | -15 / 101 | 34.8 | 39 | Apr 23 | Oct 23 | 182 |
 | Montcalm | 5b | 940 | 13 | 84 | -26 / 108 | 36.6 | 73 | May 18 | Sep 28 | 133 |
 | Montmorency | 5a | 940 | 10 | 80 | -46 / 104 | 32 | 84 | May 22 | Sep 27 | 127 |
 | Muskegon | 6b | 650 | 19 | 79 | -27 / 98 | 35.2 | 69 | May 19 | Oct 4 | 136 |

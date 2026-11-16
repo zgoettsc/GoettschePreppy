@@ -49,7 +49,7 @@ Areas follow the National Weather Service office that forecasts for each borough
 
 | Area (NWS office) | Boroughs and census areas | Zone | Jan low F | Jul high F | Record low / high F | Precip in | Snow in | Last frost | First frost | Frost-free days | Sun hrs Dec / Jun |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| NWS Anchorage, AK | 12 | 3a to 8b | -11 to 26 | 51 to 69 | -53 / 96 | 12.4 to 168.6 | 47 to 162 | Apr 29 to Jun 9 | Sep 1 to Oct 13 | 85 to 169 | 0.4 to 1.1 / 4.2 to 4.6 |
+| NWS Anchorage, AK | 12 | 3a to 8b | -11 to 26 | 51 to 69 | -53 / 96 | 12.4 to 168.6 | 47 to 162 | Apr 29 to Jun 9 | Sep 1 to Oct 13 | 85 to 169 | 0.4 to 1.3 / 3 to 4.6 |
 | NWS Juneau, AK | 10 | 5a to 8a | 18 to 31 | 59 to 67 | -24 / 98 | 31.5 to 164.8 | 35 to 164 | Apr 11 to May 20 | Sep 23 to Nov 1 | 124 to 202 | 0.7 to 1 / 3.8 to 5.4 |
 | NWS Fairbanks, AK | 8 | 1b to 4a | -23 to 1 | 58 to 72 | -76 / 96 | 5.7 to 23.5 | 38 to 81 | May 12 to Jun 5; none in most years in 2 | Aug 28 to Sep 24; none in most years in 2 | 51 to 126 | 0 to 0.5 / 4.3 to 4.9 |
 

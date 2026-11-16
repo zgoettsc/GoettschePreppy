@@ -216,6 +216,7 @@ with them at every stop (→ 02-21).
 
 {{#each pets as p}}- {{p.count}} {{p.type}}: food for three days ({{p.food_per_day}} a day), water, bowls, medicines ({{p.medications}}), leash or carrier, litter or waste bags, vaccination records and a photo (Ready.gov, Pets and Animals; → 20-09).
 {{/each}}
+
 Decide the pet plan **now**, not at the door. If it ever becomes impossible to keep them:
 {{choice DC-10}} → 30-11.
 {{/if}}

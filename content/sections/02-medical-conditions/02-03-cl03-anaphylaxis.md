@@ -193,7 +193,7 @@ on the action plan; this table is so you understand the plan and know when to as
 | FDA, EpiPen label | 30 kg (66 lb) or more | EpiPen, 0.3 mg |
 | FDA, neffy label (ages 4 and up) | 15 kg to less than 30 kg | neffy 1 mg, one spray |
 | FDA, neffy label | 30 kg or more | neffy 2 mg, one spray |
-| AAP clinical report (Sicherer and Simons, 2017) | 7.5 to 15 kg (about 16 to 33 lb) | 0.15 mg auto-injector is acceptable when a 0.1 mg device is not available |
+| AAP clinical report, Epinephrine for First-aid Management of Anaphylaxis (2017) | 7.5 to 15 kg (about 16 to 33 lb) | 0.15 mg auto-injector is acceptable when a 0.1 mg device is not available |
 | AAP clinical report and AAP action plan | About 25 kg (55 lb) and up | AAP suggests the 0.3 mg device from this weight; the label says 30 kg. The prescriber decides. |
 
 Weights on file (re-weigh children every few months; the band can change):

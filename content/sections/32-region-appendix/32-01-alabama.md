@@ -50,7 +50,7 @@ Areas follow the National Weather Service office that forecasts for each county 
 | Area (NWS office) | Counties | Zone | Jan low F | Jul high F | Record low / high F | Precip in | Snow in | Last frost | First frost | Frost-free days | Sun hrs Dec / Jun |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | NWS Birmingham, AL | 39 | 7b to 8b | 28 to 40 | 88 to 94 | -19 / 110 | 51.2 to 61.8 | 0 to 2 | Mar 4 to Apr 11 | Oct 27 to Nov 21 | 198 to 262 | 3.3 to 3.9 / 5.3 to 5.6 |
-| NWS Mobile, AL | 12 | 8b to 9a | 32 to 41 | 89 to 92 | -4 / 108 | 54.4 to 69 | 0 | Mar 3 to Mar 31 | Nov 5 to Nov 25 | 220 to 268 | 3.7 to 3.9 / 5.4 to 5.6 |
+| NWS Mobile, AL | 12 | 8b to 9a | 32 to 41 | 89 to 92 | -4 / 108 | 50.5 to 69 | 0 | Mar 3 to Mar 31 | Nov 5 to Nov 25 | 220 to 268 | 3.7 to 3.9 / 5.4 to 5.6 |
 | NWS Huntsville, AL | 11 | 7b to 8a | 29 to 34 | 88 to 92 | -24 / 110 | 54.3 to 60.3 | 1 to 5 | Mar 17 to Apr 2 | Oct 30 to Nov 19 | 209 to 247 | 3.3 to 3.4 / 5.4 to 5.5 |
 | NWS Tallahassee, FL | 5 | 8b to 9a | 35 to 40 | 92 to 93 | -1 / 108 | 53.9 to 62.3 | 0 | Mar 1 to Mar 23 | Nov 7 to Nov 24 | 231 to 270 | 3.9 / 5.4 |
 
@@ -126,8 +126,8 @@ One line per county, for a point near its centre. Elevation is in feet. Mountain
 | Tallapoosa | 8a | 640 | 28 | 91 | -4 / 109 | 52.9 | 1 | Apr 11 | Oct 27 | 201 |
 | Tuscaloosa | 8a | 320 | 35 | 92 | 7 / 107 | 57.3 | 0 | Mar 18 | Nov 10 | 239 |
 | Walker | 8a | 530 | 31 | 90 | -10 / 108 | 61.8 | 1 | Mar 30 | Nov 4 | 220 |
-| Washington | 8b | 140 | 34 | 92 | 1 / 107 | 60.1 | 0 | Mar 26 | Nov 8 | 228 |
-| Wilcox | 8b | 210 | 36 | 92 | 0 / 107 | 58.9 | 0 | Mar 18 | Nov 11 | 241 |
+| Washington | 8b | 140 | 34 | 92 | 1 / 107 | 60.2 | 0 | Mar 26 | Nov 8 | 228 |
+| Wilcox | 8b | 210 | 36 | 92 | 0 / 107 | 50.5 | 0 | Mar 18 | Nov 11 | 241 |
 | Winston | 7b | 740 | 29 | 88 | -19 / 107 | 60.8 | 0 | Apr 4 | Nov 1 | 210 |
 
 ## Natural hazards
