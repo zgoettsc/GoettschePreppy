@@ -315,6 +315,8 @@ function memberFields(ip) {
         q({ kind: 'text', path: [...mp, 'name'], label: 'Name', required: true, maxlength: 80, why: 'As it is written on the bottle or box.' }),
         q({ kind: 'text', path: [...mp, 'strength'], label: 'Strength', maxlength: 40, placeholder: 'For example: 10 mg', why: 'From the label, so the right box is packed.' }),
         q({ kind: 'text', path: [...mp, 'schedule'], label: 'How often', maxlength: 80, placeholder: 'For example: once a day', why: 'From the label. Printed as written.' }),
+        q({ kind: 'int', path: [...mp, 'days_on_hand'], label: 'Days of it on hand', unit: 'days',
+          why: 'How many days of this medicine you have, by your own count. The binder prints it on your meds table so you can see what runs out first.' }),
         q({ kind: 'yesno', path: [...mp, 'refrigerated'], label: 'Kept in the fridge?', why: 'Fridge medicines get the cooling and power pages.' }),
         q({ kind: 'textarea', path: [...mp, 'if_missed'], label: 'What happens if doses are missed', maxlength: 300,
           why: 'In your own words, from your prescriber or the label. Printed exactly as written.' }),

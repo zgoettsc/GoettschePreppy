@@ -9,7 +9,7 @@ danger_level: critical
 phase: [A, B, C]
 tags: [fuel, gasoline, diesel, kerosene, propane, butane, white gas, lamp oil, wood, charcoal, explainer, carbon monoxide]
 derived_from: [06-05-alternative-fuels, 06-06-fuel-storage-safety, 06-07-moving-and-transferring-fuel, 10-02-fuel-lamps-and-candles, 08-02-carbon-monoxide-safety]
-sources: [eia-gasoline-explained, eia-diesel-fuel-explained, eia-heating-oil-explained, eia-hydrocarbon-gas-liquids-explained, honda-eu-generator-fuel-recommendations, cdc-carbon-monoxide-poisoning-basics-772153, university-of-missouri-extension-unvented-portable-k-e850fe, ghp-group-inc-dyna-glo-manufacturer-portable-kerosen-477cfd, nfpa-nfpa-58-liquefied-petroleum-gas-code-storage-of-13af35, us-consumer-product-safety-commission-cpsc-promotes-994cab, osha-flammable-liquids-29-cfr-1910-106-1e7192, fema-ready-gov-utility-shut-off-and-safety-natural-g-7965ad, cdc-mmwr-hydrocarbon-kerosene-lamp-oil-ingestion-in-106f3a, national-capital-poison-center-poison-control-1-800-e428c9, us-epa-burn-wise-heating-with-wood-safe-operation-se-ba0e76]
+sources: [eia-gasoline-explained, eia-diesel-fuel-explained, eia-heating-oil-explained, eia-hydrocarbon-gas-liquids-explained, honda-eu-generator-fuel-recommendations, cdc-carbon-monoxide-poisoning-basics-772153, university-of-missouri-extension-unvented-portable-k-e850fe, nfpa-nfpa-58-liquefied-petroleum-gas-code-storage-of-13af35, us-consumer-product-safety-commission-cpsc-promotes-994cab, osha-flammable-liquids-29-cfr-1910-106-1e7192, fema-ready-gov-utility-shut-off-and-safety-natural-g-7965ad, cdc-mmwr-hydrocarbon-kerosene-lamp-oil-ingestion-in-106f3a, national-capital-poison-center-poison-control-1-800-e428c9, us-epa-burn-wise-heating-with-wood-safe-operation-se-ba0e76]
 related: [06-05-alternative-fuels, 06-06-fuel-storage-safety, 06-07-moving-and-transferring-fuel, 06-08-fuel-transport, 08-02-carbon-monoxide-safety, 08-09-portable-propane-heaters, 08-10-wick-kerosene-heaters, 10-02-fuel-lamps-and-candles, 12-17-poisoning-and-ingestion, 29-03-ex03-carbon-monoxide, 29-14-ex14-reading-a-label, 30-01-the-floors]
 cards: [DC-01, DC-02, DC-03, DC-05, DC-06, DC-17, DC-20, DC-21]
 explainers: [EX-03, EX-14]
@@ -65,9 +65,9 @@ used indoors and why, and how to tell them apart.
 | **Wood** | Logs, split and dried ("seasoned") | Fireplaces, wood stoves, outdoor fires | Seasoned wood is lighter, cracked at the ends, and sounds hollow when two pieces are knocked together (EPA, Burn Wise) | — |
 | **Charcoal** | Wood already partly burned, sold as lumps or briquettes | Outdoor grills only | Black, light, dusty | Paper bag |
 
-**Colours are a habit, not a guarantee.** Red, yellow and blue are the usual US convention, and
-one kerosene heater maker's manual says kerosene goes only in a blue can marked KEROSENE, never a
-red one (GHP Group, wick kerosene heater owner's manual). But cans get reused. **The label is
+**Colours are a habit, not a guarantee.** Red for gasoline, yellow for diesel and blue for
+kerosene are the usual US convention, and kerosene heater manuals generally tell you to keep
+kerosene out of red cans. But cans get reused and households use their own colours. **The label is
 what you trust:** read it aloud, smell it, then pour. A can with no readable label is not poured
 into anything until you know what is in it. → 29-14
 
@@ -79,7 +79,7 @@ into anything until you know what is in it. → 29-14
 |---|---|---|---|
 | **Gasoline** | Months, not years. Air and heat age it; ethanol pulls water from the air; stabiliser slows ageing but cannot fix stale fuel and has its own shelf life (Honda Power Equipment, Fuel Recommendations) | **Never.** Not in a heater, a lamp or a stove | Too volatile. In a kerosene heater it is an explosion. Engines that burn it make lethal CO (floor above) |
 | **Diesel** | Ages too: water collects at the bottom of a tank and it thickens in hard cold. Follow your additive's label | **Only** in a heater whose exhaust is ducted outdoors, installed as its manual says | Burning it in the room puts the exhaust in the room |
-| **Kerosene** | Heater manuals often say do not burn kerosene stored from one season to the next; keeping it longer is a choice → 30-18 | **Only** K-1, only in a heater or lamp made for indoor use, with the ventilation its manual requires and a CO alarm | Unvented heaters put all their exhaust into the room. Overnight use is a choice → 30-02 |
+| **Kerosene** | Keeps longer than gasoline when full, sealed and dark, but water creeps in. Before use, a sample in a clear jar must be clear, with no water layer and no cloudiness. How old is too old is a choice → 30-18 | **Only** K-1, only in a heater or lamp made for indoor use, with the ventilation its manual requires and a CO alarm | Unvented heaters put all their exhaust into the room. Overnight use is a choice → 30-02 |
 | **Propane** | Does not go stale in a sealed cylinder; the cylinder itself has a date (→ 29-14) | **Only** appliances rated for indoor use. NFPA 58 limits cylinders inside a home to the 1-lb class | A leaking valve lays heavy gas along the floor where a pilot light can light it. Larger cylinders inside → 30-03 |
 | **Butane** | Keeps sealed; check the canister | **No.** CDC: never use a portable camp stove indoors | Fails in freezing weather because it stops turning to gas |
 | **White gas** | Keeps sealed | **No** | Same reasons as gasoline. Never in a wick lamp or kerosene heater |

@@ -210,6 +210,7 @@ function keyStatusText() {
     case 'checking': return 'Checking your key…';
     case 'ok': return `Key accepted${app.key.label ? ` (${app.key.label})` : ''}.`;
     case 'rejected': return 'That key was not accepted. Check it for typing mistakes, or ask the person who gave it to you.';
+    case 'forbidden': return 'The relay refused requests from this page\'s address. The site owner needs to add this address to the relay settings (PAGES_ORIGIN). Your answers are still here.';
     case 'unreachable': return 'Could not reach the relay to check the key. Check your connection and try again; your answers are still here.';
     default: return 'Not checked yet.';
   }

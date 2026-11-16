@@ -184,7 +184,12 @@
   "experience.new": "Experience = new.",
   "experience.some": "Experience = some.",
   "experience.experienced": "Experience = experienced.",
-  "size.large": "Download size is Large (sources inside)."
+  "size.large": "Download size is Large (sources inside).",
+  "is.tsunami_region": "Home tsunami rating 2 or 3.",
+  "is.volcano_region": "Home volcanic rating 2 or 3.",
+  "is.landslide_region": "Home landslide rating 2 or 3.",
+  "is.drought_region": "Home drought rating 2 or 3.",
+  "is.coastal": "Home county is on an ocean or Gulf coast."
  },
  "lists": {
   "members": {

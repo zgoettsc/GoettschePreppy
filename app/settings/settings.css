@@ -156,7 +156,7 @@ details.more[open] { padding-bottom: 8px; }
 .keycheck { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin: -6px 0 18px; }
 .key-status { margin: 0; }
 .key-status.ok { color: var(--ok); font-weight: 600; }
-.key-status.rejected, .key-status.unreachable { color: var(--bad); font-weight: 600; }
+.key-status.rejected, .key-status.unreachable, .key-status.forbidden { color: var(--bad); font-weight: 600; }
 
 /* errors */
 .err-summary { border: 2px solid var(--bad); background: var(--bad-bg); border-radius: var(--radius); padding: 10px 14px; margin: 0 0 16px; outline: none; }

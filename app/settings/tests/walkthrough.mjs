@@ -210,6 +210,7 @@ async function scenarioA(browser, base) {
     await page.fill(sel.input('members-0-medications-0-name'), 'Lisinopril');
     await page.fill(sel.input('members-0-medications-0-strength'), '10 mg');
     await page.fill(sel.input('members-0-medications-0-schedule'), 'once a day');
+    await page.fill(sel.input('members-0-medications-0-days_on_hand'), '45');
     await page.check(sel.radio('members-0-medications-0-refrigerated', 'false'));
     await page.fill(sel.input('members-0-medications-0-if_missed'), 'Blood pressure rises over days; call the doctor.');
     await page.click('#f-members-0-allergies-add');
@@ -353,6 +354,7 @@ async function scenarioA(browser, base) {
     assert.equal(saved.gear.generator.fuel, 'dual-fuel');
     assert.equal(saved.dwelling.gas_service.tank_gallons, 500);
     assert.equal(saved.home.county, 'Minnehaha County');
+    assert.equal(saved.members[0].medications[0].days_on_hand, 45);
   });
 
   await step('final: Small vs Large estimates, generate with stub (progress, then download)', async () => {

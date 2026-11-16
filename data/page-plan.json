@@ -2961,6 +2961,48 @@
    "kit_id": "00-10-install-and-charge-discipline",
    "kit_section": "00-front-matter",
    "layer": "core"
+  },
+  {
+   "kit_id": "17-12-earthquakes",
+   "kit_section": "17-weather-and-regional-hazards",
+   "layer": "core",
+   "note": "National hazard page (not in the household binder); promoted by the matching is.*_region flag."
+  },
+  {
+   "kit_id": "17-13-hurricanes-and-tropical-storms",
+   "kit_section": "17-weather-and-regional-hazards",
+   "layer": "core",
+   "note": "National hazard page (not in the household binder); promoted by the matching is.*_region flag."
+  },
+  {
+   "kit_id": "17-14-wildfire-smoke-and-evacuation",
+   "kit_section": "17-weather-and-regional-hazards",
+   "layer": "core",
+   "note": "National hazard page (not in the household binder); promoted by the matching is.*_region flag."
+  },
+  {
+   "kit_id": "17-15-tsunamis",
+   "kit_section": "17-weather-and-regional-hazards",
+   "layer": "core",
+   "note": "National hazard page (not in the household binder); promoted by the matching is.*_region flag."
+  },
+  {
+   "kit_id": "17-16-volcanic-ashfall",
+   "kit_section": "17-weather-and-regional-hazards",
+   "layer": "core",
+   "note": "National hazard page (not in the household binder); promoted by the matching is.*_region flag."
+  },
+  {
+   "kit_id": "17-17-landslides-and-debris-flows",
+   "kit_section": "17-weather-and-regional-hazards",
+   "layer": "core",
+   "note": "National hazard page (not in the household binder); promoted by the matching is.*_region flag."
+  },
+  {
+   "kit_id": "17-18-hail-and-damaging-wind",
+   "kit_section": "17-weather-and-regional-hazards",
+   "layer": "core",
+   "note": "National hazard page (not in the household binder); promoted by the matching is.*_region flag."
   }
  ]
 }

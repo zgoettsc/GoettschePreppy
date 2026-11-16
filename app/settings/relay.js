@@ -19,7 +19,9 @@ export async function checkAccessKey(accessKey, { signal } = {}) {
     if (err && err.name === 'AbortError') throw err;
     return { ok: false, reason: 'unreachable' };
   }
-  if (res.status === 401 || res.status === 403) return { ok: false, reason: 'rejected' };
+  if (res.status === 401) return { ok: false, reason: 'rejected' };
+  // 403 = the relay refused this page's address (its PAGES_ORIGIN does not list this site)
+  if (res.status === 403) return { ok: false, reason: 'forbidden' };
   if (!res.ok) return { ok: false, reason: 'unreachable', status: res.status };
   let body = {};
   try { body = await res.json(); } catch { /* empty body */ }
