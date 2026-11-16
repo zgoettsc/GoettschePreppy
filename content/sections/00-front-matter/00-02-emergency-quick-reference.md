@@ -2,7 +2,7 @@
 id: 00-02-emergency-quick-reference
 section: 00-front-matter
 title: "Emergency quick reference"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: household
 danger_level: caution
@@ -10,17 +10,20 @@ phase: [A, B, C]
 tags: [emergency, quick reference, triage, anaphylaxis, bleeding, CPR, carbon monoxide, poison control, "911", tornado]
 derived_from: [00-02-emergency-quick-reference]
 sources:
-  - cdc-recognizing-and-responding-to-anaphylaxis-645825
+  - american-academy-of-pediatrics-aap-allergy-and-anaph-3e6f49
+  - usuhs-ncdmph-stop-the-bleed-apply-a-tourniquet-r7
   - cdc-carbon-monoxide-poisoning-basics-772153
+  - cdc-treatment-of-low-blood-sugar-r7
   - cdc-diabetic-ketoacidosis-55a7c2
-  - noaa-national-weather-service-tornado-safety-ba75e0
-  - american-red-cross-winter-storm-preparedness-and-bli-4bb6c0
-  - noaa-national-weather-service-flood-safety-c02f3a
+  - noaa-national-weather-service-tornadoes-during-the-e-a1a3ad
+  - ready-gov-winter-weather-r9
+  - noaa-national-weather-service-turn-around-don-t-drow-a6f9ff
+  - fema-ready-gov-utility-shut-off-and-safety-natural-g-7965ad
   - national-capital-poison-center-poison-control-1-800-e428c9
   - 988-suicide-and-crisis-lifeline-samhsa-988-suicide-a-5f45b0
   - us-fda-information-regarding-insulin-storage-and-swi-6448d3
 related: [00-06-first-60-minutes, 25-08-quick-reference-cards, 25-03-regional-contacts, 12-02-bleeding-and-wounds, 12-18-choking-and-cpr, 08-02-carbon-monoxide-safety, 17-02-tornadoes, 17-06-tornado-shelter, 02-03-cl03-anaphylaxis, 12-17-poisoning-and-ingestion, 09-16-outage-day-one, 01-02-go-no-go-decision]
-cards: [DC-01, DC-08, DC-25]
+cards: [DC-01, DC-08, DC-25, DC-28]
 explainers: [EX-03, EX-07]
 promote_when: []
 photo_slots: []
@@ -30,7 +33,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Anaphylaxis re-cited to AAP (5-minute second dose); tourniquet floor word for word with USUHS; hypo recheck to CDC; tornado, flood, winter, gas re-cited; DC-28 line." }
 ---
 
 # Emergency quick reference
@@ -61,17 +64,17 @@ medicine is kept:** __________________________
 
 | If this is happening | Do this first | Then go to |
 |---|---|---|
-| **Anaphylaxis** (throat tightening, trouble breathing, swelling of lips or tongue, hives over the body, repeated vomiting, collapse, often minutes after a food, sting or medicine) | **EPINEPHRINE INTO THE OUTER THIGH, NOW.** Then call 911. **A second dose 5 to 15 minutes later if not improving** (CDC, Recognizing and Responding to Anaphylaxis). Antihistamines are not a treatment. *No 911: lie them down (on their side if vomiting), keep watching for hours* | → 02-03 |
-| **Severe bleeding** | **Hard direct pressure.** Life-threatening limb bleed: **tourniquet 2 to 3 inches above the wound (never over a joint), tight until the bleeding stops, write the time. Never loosen it while help can still come.** *No help will ever come: the conversion decision is DC-25 (→ 30-26)* | → 12-02 |
+| **Anaphylaxis** (tight or hoarse throat, trouble breathing or swallowing, swelling of lips or tongue, many hives over the body, severe vomiting, fainting, often minutes after a food, sting or medicine) | **EPINEPHRINE INTO THE OUTER THIGH, NOW.** Then call 911. **A second dose if symptoms get worse, continue, or are not better in 5 minutes.** Antihistamines do not replace epinephrine (AAP, Allergy and Anaphylaxis Emergency Plan). *No 911: keep them lying on their back, or on their side if vomiting or struggling to breathe; stay with them and keep watching* | → 02-03 |
+| **Severe bleeding** | **Hard direct pressure.** Life-threatening limb bleed: **tourniquet 2 to 3 inches above the wound (never over a joint), tight until the bleeding stops** (Stop the Bleed, USUHS). **Never loosen a tourniquet once placed while help can still come; mark the time. If no help will ever come, the conversion decision is DC-25 (→ 30-26).** *Our choice:* {{choice DC-25}} | → 12-02 |
 | **Not breathing, no pulse** | **CPR. Call 911.** *No 911: CPR is unchanged; → 12-18 is the memory aid, → 12-16 the hard calls* | → 12-18 |
 | **CO alarm, or several people with headache, nausea or dizziness at once** | **EVERYONE OUTSIDE. CALL 911. DO NOT GO BACK IN.** Turn a heater off only if it is within arm's reach on the way out. *No 911: fresh air is the treatment; rest outside for hours; find and stop the source, then air the house out before anyone goes back in* | → 08-02 |
-| **Severe low blood sugar** (someone with diabetes is unconscious, seizing or cannot swallow) | **NOTHING BY MOUTH. Glucagon if they have it. Call 911.** *No 911: on their side; fast sugar once awake and able to swallow; recheck every 15 minutes* | → 02-01, → 02-05 |
+| **Severe low blood sugar** (someone with diabetes is unconscious, seizing or cannot swallow) | **NOTHING BY MOUTH. Glucagon if they have it. Call 911.** *No 911: on their side; fast sugar only once awake and able to swallow; recheck in about 15 minutes and repeat until back in range* (CDC, Treatment of Low Blood Sugar) | → 02-01, → 02-05 |
 | **High blood sugar with ketones, vomiting, belly pain, fruity breath or fast deep breathing** | **This may be DKA (diabetic ketoacidosis). Fluids. Get medical help** (CDC, Diabetic Ketoacidosis). *No 911: sick-day rules on the condition page; insulin is never stopped* | → 02-01, → 02-02 |
 | **Choking** | **Coughing: let them cough. Silent: act.** Under 1 year: back blows and chest thrusts. 1 year and older: abdominal thrusts. *Goes limp: CPR* | → 12-18 |
-| **Fire in the house** | **OUT. STAY OUT. Meeting place. Call 911.** *No 911: fight it only while it is smaller than a trash can and your exit is behind you; past that, the house is lost, people are not* | → 29-12, → 24-02 |
+| **Fire in the house** | **OUT. STAY OUT. Meeting place. Call 911.** *No 911: fight it only while it is small and contained, you have an extinguisher, and your exit is behind you (→ 29-12); past that, the house is lost, people are not* | → 29-12, → 24-02 |
 | **Poisoning, swallowed something** | **Poison Control 1-800-222-1222** (America's Poison Centers). *No phone: do not make them vomit, keep the container, follow the label's first-aid statement* | → 12-17 |
-| **Gas smell in the house** | **OUT. No light switches, no flames, no phones inside.** Call the gas emergency number from outside: {{ contacts.utility.gas.phone }}{{#if has.gas_any}} ({{ contacts.utility.gas.provider }}){{/if}}. Shut the gas at the meter only if you know how. If a propane heater was running from an outdoor tank, close the tank valve outside. Air the house out before anything is relit | → 08-02, → 17-08 |
-| **Tornado warning** | **Lowest floor, innermost room, no windows, cover heads.** Our spot: {{ dwelling.shelter_room }}{{#if has.mobile_home}}. **A mobile home is not a shelter: leave for a sturdy building before the storm** (NWS, Tornado Safety){{/if}} | → 17-02, → 17-06 |
+| **Gas smell in the house** | **EVERYONE OUT** (FEMA, Utility Shut-off and Safety). **No light switches, no flames, no phones inside.** Call the gas emergency number from outside: {{ contacts.utility.gas.phone }}{{#if has.gas_any}} ({{ contacts.utility.gas.provider }}){{/if}}. Shut the gas at the meter only if you know how. If a propane heater was running from an outdoor tank, close the tank valve outside. Air the house out. FEMA says only a qualified professional turns the gas back on; relighting yourself when nobody will come is a household choice: {{choice DC-28}} (→ 30-29) | → 08-02, → 17-08 |
+| **Tornado warning** | **Lowest floor, innermost room, no windows, cover heads.** Our spot: {{ dwelling.shelter_room }}{{#if has.mobile_home}}. **A mobile home is not a shelter: leave for a sturdy building before the storm** (NWS, Tornadoes: During the Event){{/if}} | → 17-02, → 17-06 |
 | **Suicidal crisis** | **Stay with them. Call or text 988.** *No phone: never leave them alone, remove the means, get them through tonight* | → 12-15, → 21-03 |
 
 ## Urgent: minutes to hours
@@ -88,8 +91,8 @@ medicine is kept:** __________________________
 | **Hit their head** | **Start the head-injury watch**; the red flags decide everything | → 12-19 |
 | **Deep or dirty wound** | Wash it out thoroughly, dress it, **check for infection daily** | → 12-04, → 12-14 |
 | **Dehydration, especially a child** | **Oral rehydration solution**, small sips, often | → 12-05 |
-| **Stranded in a vehicle** | **STAY WITH IT.** Clear snow from the exhaust pipe before running the engine | → 22-05, → 01-03 |
-| **Flooding** | **Never drive or walk through floodwater.** Go to high ground (NWS, Flood Safety) | → 17-03 |
+| **Stranded in a vehicle** | **STAY WITH IT** (Ready.gov, Winter Weather). Clear snow from the exhaust pipe before running the engine | → 22-05, → 01-03 |
+| **Flooding** | **Never drive or walk into floodwater.** Go to high ground (NWS, Turn Around Don't Drown) | → 17-03 |
 | **Someone at the door, a confrontation** | **Calm voice, distance, doors** | → 14-13, → 14-02 |
 
 ## System failures: hours to days
@@ -117,7 +120,7 @@ Your home county's hazards and their ratings, from the region data (Section 32):
 
 | Event | First action | Page |
 |---|---|---|
-| **Blizzard, extreme cold** | Stay put. One room. **Do not travel** (American Red Cross, Winter Storm Safety) | → 17-01, → 08-01 |
+| **Blizzard, extreme cold** | Stay put. One room. **Stay off the roads if at all possible** (Ready.gov, Winter Weather) | → 17-01, → 08-01 |
 | **Tornado** | {{ dwelling.shelter_room }}, cover heads | → 17-02, → 17-06 |
 | **Flood** | High ground. Never drive through water | → 17-03 |
 | **Extreme heat** | Shade, fluids, cool cloths; watch children, elders and heat-sensitive medicines | → 17-04 |

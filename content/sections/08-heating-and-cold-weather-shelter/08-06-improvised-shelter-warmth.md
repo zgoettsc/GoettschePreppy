@@ -2,7 +2,7 @@
 id: 08-06-improvised-shelter-warmth
 section: 08-heating-and-cold-weather-shelter
 title: "Trapping heat: tents indoors and insulation tricks"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -13,7 +13,7 @@ sources:
   - cdc-preventing-hypothermia-c53e0c
   - noaa-national-weather-service-during-extremely-cold-9c1973
   - cdc-carbon-monoxide-poisoning-basics-772153
-  - cdc-winter-weather-before-during-and-after-13bbd5
+  - nws-winter-storm-during
   - american-academy-of-pediatrics-healthychildren-org-h-7bd7d0
 related:
   - 08-01-heating-one-room
@@ -42,7 +42,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Vehicle 10 min/hour, window and tailpipe rule re-cited to NWS winter-storm page (CDC winter archive is a stub); AAP sleep-sack line re-read; unsourced heat-loss claims softened." }
 ---
 
 # Trapping heat: tents indoors and insulation tricks
@@ -61,8 +61,8 @@ anyone.
 
 1. **Pitch a tent inside the warm room** (→ 08-01). It is the cheapest, most effective cold-weather
    move in this section: a small space warmed by the people in it.
-2. **Insulate from the floor first.** Cold flows up through the floor faster than the air takes
-   it. Foam pads, cushions, cardboard, rugs: several inches of anything.
+2. **Insulate from the floor first.** A cold floor draws heat out of anyone lying on it. Foam
+   pads, cushions, cardboard, rugs: a thick layer of anything.
 3. **Sleep together** in one shelter. Body heat is shared heat.
 4. **Hot-water bottles into the bedding before you get in, and out before a child gets in.**
 5. **Nothing burning inside the shelter. Ever.**
@@ -108,7 +108,8 @@ inside the bags.** Each step is a smaller space with the same heat source: you.
 - **Loft is warmth.** Squashed insulation does not insulate; do not cram a bag so tight that it
   flattens.
 - **Wool over cotton.** Wool insulates when damp; cotton is dangerous when wet (→ 11-05).
-- **Hat in bed.** A lot of heat leaves through the head and neck.
+- **Hat in bed.** Cover the head and neck as well as the body (CDC wraps a chilled person's head
+  and neck too).
 - **Dry sleep clothes.** The day's sweat will chill you all night (→ 11-03).
 - **A wrapped hot-water bottle at the feet**, put in before you get in.
 - **Babies and toddlers:** warmth is worn, not piled on. Layers and a sleep sack, no loose
@@ -124,9 +125,9 @@ heater. Used at home it has its own rules:
 - **In the open, never in the garage,** not with the door open, not "for a few minutes". Park it
   clear of the house's windows and vents (→ 08-02).
 - **Clear the tailpipe of snow before every warming session.** A drifted-over exhaust fills the
-  cabin with CO (CDC).
-- **Run it about 10 minutes an hour with a window cracked,** the same rule CDC gives for a
-  stranded car (CDC, Winter Weather; → 22-05). The cabin holds the heat between runs.
+  cabin with CO (NWS, What To Do If You're Caught in a Winter Storm).
+- **Run it about 10 minutes each hour with a window open a little,** the same rule NWS gives for a
+  stranded car (NWS; → 22-05). The cabin holds the heat between runs.
 {{#if has.hybrid}}- **A hybrid** in its ready mode starts the engine only as needed to hold the
   battery and cabin temperature, which uses far less fuel than idling a conventional engine and
   can charge devices too (→ 09-11). The tailpipe and garage rules still apply.

@@ -203,13 +203,15 @@ or swallowing is hard; sit them upright to eat (→ 12-18 for choking).
 - Safe over-the-counter medicines for pain, sleep and colds: _____________________________
 Prescriber: ____________________ Date: __________
 
-**Stock arithmetic.** Days on hand = on hand ÷ used per day. Every household medicine row is
-printed; use the ones for this condition.
+**Stock arithmetic.** Days on hand = on hand ÷ used per day. The medicines tagged for this
+condition in settings are printed; if none is tagged, every medicine row is, and you use the
+ones for this condition.
 
 | Medicine or supply | On hand | Used per day | Days on hand | Days you want | Still to get |
 |---|---|---|---|---|---|
-{{#each meds as m}}| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
-{{/each}}| Incontinence pads, wipes, barrier cream | ____ | ____ | ____ | ____ | ____ |
+{{#each meds_for.CL-21 as m}}| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
+{{else}}{{#each meds as m}}| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
+{{/each}}{{/each}}| Incontinence pads, wipes, barrier cream | ____ | ____ | ____ | ____ | ____ |
 | Lockable medicine box, weekly pill organiser | ____ | | | ____ | ____ |
 | Door chimes or bells, medical ID bracelet | ____ | | | ____ | ____ |
 | Battery night-lights, headlamp, batteries | ____ | | | ____ | ____ |
@@ -260,14 +262,16 @@ household's full medicine stockpile is on → 12-07.
 
 ## 12. My meds
 
-Every medicine row your household entered is printed, because the binder cannot pick out one
-condition's rows. **Tick the rows for this condition**, cross out the rest, and fill any blank
-columns by hand.
+Rows marked ✓ are the medicines your household tagged for this condition in settings. If none
+is tagged, every medicine row your household entered is printed with a ☐ instead: **tick the
+rows for this condition** and cross out the rest. Fill any blank columns by hand, and add
+missing medicines in the blank rows.
 
 | For this? | Who | Medicine | Strength | Schedule | Fridge? | If doses are missed (prescriber's words) | Where kept | Days on hand | Expires |
 |---|---|---|---|---|---|---|---|---|---|
-{{#each meds as m}}| ☐ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
+{{#each meds_for.CL-21 as m}}| ✓ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
+{{else}}{{#each meds as m}}| ☐ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
 {{else}}| ☐ | (no medicines entered yet) | | | | | | ____ | ____ | ____ |
-{{/each}}| ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
+{{/each}}{{/each}}| ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
 | ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
 | ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |

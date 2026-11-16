@@ -2,7 +2,7 @@
 id: 08-05-hypothermia-frostbite
 section: 08-heating-and-cold-weather-shelter
 title: "Hypothermia and frostbite: prevent, spot, treat"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -43,7 +43,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CDC 95 F, signs, treatment and CPR re-read; AFP 37-39 C, 30 s hand test, ~30 min end point, refreeze rule re-read; no frostbite times stated (points to 11-01 NWS chart); elder line now sourced to NWS; 'sweet' drinks dropped (CDC says warm)." }
 ---
 
 # Hypothermia and frostbite: prevent, spot, treat
@@ -64,7 +64,7 @@ outage both happen indoors as well as out. Keep the "Do this now" list where eve
    memory loss, slurred speech, drowsiness. Babies: **bright red, cold skin and very low energy**
    (CDC). A quiet, floppy baby in a cold house is an emergency, not a good sleeper.
 2. **Hypothermia:** into warmth, **wet clothes off**, warm the **centre first** (chest, neck, head,
-   groin) with dry layers and **skin-to-skin contact**. Warm sweet drinks only if fully awake. **No
+   groin) with dry layers and **skin-to-skin contact**. Warm drinks only if fully awake. **No
    alcohol.** Nothing by mouth if not alert (CDC).
 3. **Frostbite: do not rub it,** do not rub snow on it, do not warm it at a fire. Use **warm, not
    hot, water: 98.6 to 102 °F (37 to 39 °C) by thermometer,** or, with no thermometer, water an
@@ -97,8 +97,9 @@ Preventing Hypothermia). A grid-down winter house fits that list.
   cannot tell you. They chill fastest and quietest. **A baby never sleeps in a cold room**
   (→ 08-01, → 11-02).
 {{/if}}{{#if has.child}}- **Children** play until they are soaked and cold.
-{{/if}}{{#if has.elder}}- **Older members** feel cold less and make less heat; check them as often
-  as the children.
+{{/if}}{{#if has.elder}}- **Older members:** NWS notes that the body gets less good at signalling
+  cold with age and that older people tend not to shiver effectively (NWS, During Extremely Cold
+  Weather). Check them as often as the children.
 {{/if}}- **Anyone with diabetes who uses insulin or other medicine that can cause low blood sugar.**
   Cold, work and missed meals all upset blood sugar, and **low blood sugar looks like
   hypothermia:** confusion, fumbling, slurred speech, drowsiness. If you find such a person
@@ -111,7 +112,8 @@ Preventing Hypothermia). A grid-down winter house fits that list.
 2. **Take off wet clothing.**
 3. **Warm the centre of the body first** (chest, neck, head, groin) with dry blankets, clothing,
    towels, or **skin-to-skin contact** under loose dry layers.
-4. Warm, sweet, non-alcoholic drinks **only if the person is fully awake.**
+4. Warm, non-alcoholic drinks **only if the person is fully awake** (CDC says never give drinks to
+   someone unconscious).
 5. Afterwards, keep them dry and wrapped, head and neck included.
 6. **Get medical help** if any exists.
 

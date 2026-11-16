@@ -2,7 +2,7 @@
 id: 26-03-checklist-life-safety
 section: 26-pre-disaster-acquisition-checklist
 title: "Checklist 1: life safety and medical"
-version: 2
+version: 3
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -27,7 +27,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Second dose re-cited to AAP; tourniquet floor added to its row; unsourced dehydration claim softened." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Second dose re-cited to AAP; tourniquet floor added to its row; unsourced dehydration claim softened. Wave 2 (R18): tourniquet floor completed with the DC-25 sentence, verbatim 30-01." }
 ---
 
 # Checklist 1: life safety and medical
@@ -134,7 +134,7 @@ Printed from settings, exactly as typed. Count against the bottles.
 
 | ✔ ~ ✗ | Item | Count | Page |
 |---|---|---|---|
-| [ ] | Tourniquets, and the training (Stop the Bleed). **Never loosen a tourniquet once placed while help can still come; mark the time.** | ______ | → 12-02 |
+| [ ] | Tourniquets, and the training (Stop the Bleed). **Never loosen a tourniquet once placed while help can still come; mark the time. If no help will ever come, the conversion decision is DC-25 (→ 30-26).** | ______ | → 12-02 |
 | [ ] | Pressure dressings; wound-packing gauze | ______ | → 12-02 |
 | [ ] | Trauma shears | ______ | → 12-02 |
 | [ ] | Gauze, tape, non-stick pads | ______ | → 12-01 |

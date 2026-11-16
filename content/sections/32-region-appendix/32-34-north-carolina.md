@@ -467,7 +467,7 @@ An ecoregion is an area where the land, climate, soils and plants are alike (US 
 | Blue Ridge | 18 | 28 |
 | Southeastern Plains | 18 | 28 |
 
-### Plants and trees to know (plates being added)
+### Plants and trees to know
 
 {{plates}}
 

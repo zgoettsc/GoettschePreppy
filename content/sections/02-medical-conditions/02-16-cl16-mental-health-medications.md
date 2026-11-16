@@ -19,6 +19,13 @@ sources:
   - medlineplus-alcohol-withdrawal
   - medlineplus-metoprolol
   - medlineplus-clonidine
+  - medlineplus-valproic-acid-r11
+  - medlineplus-carbamazepine-r11
+  - medlineplus-gabapentin-r11
+  - medlineplus-pregabalin-r11
+  - medlineplus-propranolol-r11
+  - medlineplus-guanfacine-r11
+  - medlineplus-phenelzine-r11
   - 988-suicide-and-crisis-lifeline-samhsa-988-suicide-a-5f45b0
   - samhsa-disaster-distress-helpline-28957e
   - cdc-risk-and-protective-factors-for-suicide-bea67b
@@ -109,7 +116,8 @@ the prescriber now. The acute crisis (someone in danger) is on → 12-15.
 Mental-health medicines change brain chemistry to treat illnesses such as depression, anxiety
 disorders, bipolar disorder, schizophrenia and ADHD. The main groups are antidepressants,
 anti-anxiety medicines, mood stabilisers, antipsychotics and stimulants (NIMH, Mental Health
-Medications). Most take weeks to work, and most should be stopped only with a prescriber's plan.
+Medications). Antidepressants usually take 4 to 8 weeks to work, and no prescribed medicine
+should be stopped without a provider's help (NIMH, Mental Health Medications).
 
 ## 2. What runs out, and how fast
 
@@ -134,26 +142,32 @@ Medications). Most take weeks to work, and most should be stopped only with a pr
 ## 4. Day by day without it
 
 **Medicines that are dangerous to stop suddenly.** These groups need the prescriber's taper plan
-(part 7). The table names each group, examples of names you will see on bottles, and what public
-sources say happens when it is stopped abruptly.
+(part 7). The table names each group, examples of names you will see on bottles, and what FDA or
+MedlinePlus (the National Library of Medicine's drug pages) says happens when it is stopped
+suddenly. The leaflet for each medicine says the same in its own words; read it.
 
 | Group | Examples on the label | What sudden stopping can cause |
 |---|---|---|
-| **Benzodiazepines** (for anxiety, panic, sleep, seizures) | alprazolam, clonazepam, diazepam, lorazepam | FDA requires a boxed warning: stopping suddenly or cutting the dose quickly can cause **life-threatening withdrawal, including seizures** (FDA, Benzodiazepine Boxed Warning, 2020). |
-| **Seizure medicines used for mood, pain or anxiety** | lamotrigine, valproate (divalproex), carbamazepine, gabapentin, pregabalin | Seizures, even in people who never had one; mood relapse. **Lamotrigine** must not be restarted at the old dose after a gap without the prescriber, because of a serious rash risk (MedlinePlus, Lamotrigine). See → 02-11. |
-| **Beta-blockers** (for anxiety, tremor, heart) | propranolol, metoprolol | Chest pain or a heart attack in people with heart disease (MedlinePlus, Metoprolol). See → 02-09. |
-| **Clonidine and guanfacine** (for ADHD, sleep, blood pressure) | clonidine, guanfacine | A rapid rise in blood pressure (MedlinePlus, Clonidine). See → 02-09. |
-| **SSRI and SNRI antidepressants** | sertraline, paroxetine, fluoxetine, citalopram, escitalopram, venlafaxine, duloxetine | A discontinuation reaction: dizziness, irritability, agitation, anxiety, confusion, headache, tiredness, trouble sleeping, numbness or tingling (MedlinePlus, Sertraline); some people describe brief electric-shock feelings. Usually not dangerous in itself, but miserable, and depression can return. |
-| **Lithium** (for bipolar disorder) | lithium carbonate, lithium citrate | Mania or depression can return; do not stop without the prescriber (MedlinePlus, Lithium). |
-| **Clozapine** (for schizophrenia) | clozapine | Psychosis can return quickly. After a gap of 2 days or more, it must not be restarted at the old dose without the prescriber, who will restart it slowly (MedlinePlus, Clozapine). |
+| **Benzodiazepines** (for anxiety, panic, sleep, seizures) | alprazolam, clonazepam, diazepam, lorazepam | FDA: stopping suddenly or reducing the dose too quickly can cause serious withdrawal reactions, **including seizures, which can be life-threatening** (FDA, Benzodiazepine Boxed Warning, 2020). |
+| **Seizure medicines used for mood, pain or anxiety** | valproate (valproic acid, divalproex) | MedlinePlus: stopping suddenly may cause a **severe, long-lasting and possibly life-threatening seizure** (MedlinePlus, Valproic Acid). |
+| | carbamazepine | In someone with a seizure disorder, seizures may get worse (MedlinePlus, Carbamazepine). |
+| | lamotrigine | Seizures. If it is stopped for any reason, **do not restart it without the prescriber**: a starting dose that is too high raises the risk of a serious rash (MedlinePlus, Lamotrigine). See → 02-11. |
+| | gabapentin, pregabalin | Withdrawal: trouble sleeping, nausea, anxiety, pain, sweating, headache; seizures (MedlinePlus, Gabapentin; MedlinePlus, Pregabalin). |
+| **Beta-blockers** (for anxiety, tremor, heart) | propranolol, metoprolol | Serious heart problems (MedlinePlus, Propranolol; MedlinePlus, Metoprolol). See → 02-09. |
+| **Clonidine and guanfacine** (for ADHD, sleep, blood pressure) | clonidine, guanfacine | Clonidine: a rapid rise in blood pressure, with fast heartbeat, nervousness, headache, chest tightness and shaking (MedlinePlus, Clonidine). Guanfacine: blood pressure may rise (MedlinePlus, Guanfacine). See → 02-09. |
+| **SSRI and SNRI antidepressants** | sertraline, paroxetine, fluoxetine, citalopram, escitalopram, venlafaxine, duloxetine | For sertraline, MedlinePlus lists withdrawal symptoms: nausea, sweating, depression, mood changes, abnormally excited mood, irritability, anxiety, confusion, dizziness, headache, tiredness, **seizures**, ringing in the ears, numbness or tingling, trouble sleeping (MedlinePlus, Sertraline). Check the leaflet for the others. |
+| **Lithium** (for bipolar disorder) | lithium carbonate, lithium citrate | Lithium treats and prevents mania. MedlinePlus: do not stop it without talking to the doctor (MedlinePlus, Lithium). |
+| **Clozapine** (for schizophrenia) | clozapine | MedlinePlus: do not stop it without the doctor, who will probably lower the dose gradually. **If more than 2 days are missed, call the doctor before taking any more** (MedlinePlus, Clozapine). |
 
-**Medicines where stopping is less dangerous in itself** (but the illness can return): other
-antidepressants, most antipsychotics, ADHD stimulants (tiredness, low mood and hunger for some
-days), and sleep aids (poor sleep for some nights). Even these: ask the prescriber.
+**Every other psychiatric medicine:** NIMH says no prescribed medicine should be stopped without
+a health care provider's help, because stopping too soon may cause unpleasant or harmful effects
+(NIMH, Mental Health Medications). Read each leaflet and ask the prescriber.
 
 **Alcohol** is not a medicine, but sudden withdrawal in a heavy drinker can kill. MedlinePlus
-says symptoms usually begin within 8 hours of the last drink, can peak at 24 to 72 hours, and
-the most severe form (delirium tremens) brings confusion, fever, hallucinations and seizures
+says symptoms tend to occur within 8 hours after the last drink but can start days later, tend to
+peak by 24 to 72 hours, and may go on for weeks. The most severe form (delirium tremens) brings
+sudden severe confusion, fever, hallucinations and seizures, and death is possible; seizures,
+fever, severe confusion, hallucinations or an irregular heartbeat need emergency care
 (MedlinePlus, Alcohol Withdrawal). If someone in the house depends on alcohol, plan for it now
 (→ 12-15, → 12-16).
 
@@ -169,28 +183,34 @@ people, a job to do, and less alcohol (→ 21-01, → 21-02, → 21-04).
   Keep them and others safe, keep calm, reduce noise and demands, and get help.
 - **Withdrawal seizure or delirium** after running out of a benzodiazepine or alcohol: seizure
   first aid (→ 02-11), on their side, nothing by mouth, get care.
-- **Lithium toxicity:** MedlinePlus lists diarrhoea, vomiting, drowsiness, muscle weakness,
-  shakiness and loss of coordination as signs to act on (MedlinePlus, Lithium). Stop no
-  medicine on your own; get care, and give fluids if the prescriber's plan says so.
-- **Clozapine danger signs:** fever, sore throat, chills or other signs of infection (a low white
-  blood count); severe constipation or belly pain; chest pain or a racing heart (MedlinePlus,
-  Clozapine). Get care.
+- **Lithium toxicity:** MedlinePlus lists drowsiness, shaking that cannot be controlled, muscle
+  weakness, stiffness or twitching, loss of coordination, diarrhoea, vomiting, slurred speech,
+  giddiness, ringing in the ears and blurred vision, and says that with any of these, **stop
+  taking lithium and call the doctor immediately** (MedlinePlus, Lithium). With no doctor
+  reachable, follow the prescriber's written plan in part 7 and get care.
+- **Clozapine danger signs:** fever, sore throat, chills or other signs of infection (clozapine
+  can lower the white blood count); constipation, a swollen or painful belly, or vomiting; chest
+  pain or a fast, irregular or pounding heartbeat; a seizure (MedlinePlus, Clozapine). Get care.
 - **Overdose,** accidental or not: → 12-17 and poison control if any phone works.
 
 ## 6. Sick-day basics
 
-- **Vomiting and diarrhoea** can mean doses are lost, and for some medicines (lithium above all)
-  dehydration raises the level in the blood to a dangerous one (MedlinePlus, Lithium). Fluids by
-  small sips (→ 12-05) and ask the prescriber now what to do.
-- **Heat and heavy sweating:** some psychiatric medicines make heat illness more likely (CDC,
-  About Heat and Your Health); lithium levels rise with sweating and dehydration. Shade, water,
+- **Vomiting and diarrhoea** can mean doses are lost. For lithium, MedlinePlus says to tell the
+  doctor about severe diarrhoea, heavy sweating or fever, and to keep to the right amounts of
+  fluid and salt (MedlinePlus, Lithium). Fluids by small sips (→ 12-05) and ask the prescriber
+  now what to do.
+- **Heat and heavy sweating:** CDC says many medicines can make people dehydrated or overheated
+  on hot days, and not to stop or change medicines without talking to the doctor (CDC, About
+  Heat and Your Health). For lithium, heavy sweating is one of the warnings above. Shade, water,
   rest (→ 17-04).
 - **New medicines:** many common pain relievers, cold medicines and antibiotics interact with
   psychiatric medicines. Ask the pharmacist now which over-the-counter medicines are safe for
   this person, and write them in part 7.
-- **Monoamine oxidase inhibitors (MAOIs)**, an older antidepressant group, react with some foods
-  that are aged, fermented or cured (NIMH, Mental Health Medications). Check before eating
-  home-cured, smoked or fermented food (→ 04-07, → 04-08).
+- **Monoamine oxidase inhibitors (MAOIs)**, an older antidepressant group (NIMH, Mental Health
+  Medications), react with foods high in tyramine. For phenelzine, MedlinePlus names meat,
+  poultry, fish or cheese that has been smoked, aged, badly stored or spoiled, some fruits,
+  vegetables and beans, alcohol, and fermented yeast products (MedlinePlus, Phenelzine). Check
+  the leaflet before eating home-cured, smoked or fermented food (→ 04-07, → 04-08).
 
 ## 7. What to stock, and how much
 
@@ -216,13 +236,15 @@ steps.**
 - Over-the-counter medicines that are safe and unsafe for them: _________________________
 Prescriber: ____________________ Date: __________
 
-**Stock arithmetic.** Days on hand = on hand ÷ used per day. Every household medicine row is
-printed; use the ones for this condition.
+**Stock arithmetic.** Days on hand = on hand ÷ used per day. The medicines tagged for this
+condition in settings are printed; if none is tagged, every medicine row is, and you use the
+ones for this condition.
 
 | Medicine or supply | On hand | Used per day | Days on hand | Days you want | Still to get |
 |---|---|---|---|---|---|
-{{#each meds as m}}| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
-{{/each}}| Lockable box for medicines | ____ | | | ____ | ____ |
+{{#each meds_for.CL-16 as m}}| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
+{{else}}{{#each meds as m}}| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
+{{/each}}{{/each}}| Lockable box for medicines | ____ | | | ____ | ____ |
 | Pill organiser (filled by one adult) | ____ | | | ____ | ____ |
 
 > **Before the collapse:** ask for 90-day fills where allowed and refill at the earliest date.
@@ -239,8 +261,9 @@ printed; use the ones for this condition.
   same strength only, and the prescriber's agreement if any can be reached.
 - **Controlled medicines** (benzodiazepines, stimulants) are high-value for theft and barter.
   Keep them locked and do not advertise them.
-- **There is no safe over-the-counter or herbal substitute.** Herbal products sold for mood can
-  interact dangerously with prescribed antidepressants.
+- **There is no safe over-the-counter or herbal substitute.** NIMH warns that St. John's wort,
+  sold for mood, can cause a rare but life-threatening reaction (serotonin syndrome) when
+  combined with antidepressants (NIMH, Mental Health Medications).
 
 ## 9. Power and devices
 
@@ -265,14 +288,16 @@ household's full medicine stockpile is on → 12-07.
 
 ## 12. My meds
 
-Every medicine row your household entered is printed, because the binder cannot pick out one
-condition's rows. **Tick the rows for this condition**, cross out the rest, and fill any blank
-columns by hand. **Circle any medicine in a "do not stop suddenly" group** (part 4).
+Rows marked ✓ are the medicines your household tagged for this condition in settings. If none
+is tagged, every medicine row your household entered is printed with a ☐ instead: **tick the
+rows for this condition** and cross out the rest. Fill any blank columns by hand, and add
+missing medicines in the blank rows. **Circle any medicine in a "do not stop suddenly" group** (part 4).
 
 | For this? | Who | Medicine | Strength | Schedule | Fridge? | If doses are missed (prescriber's words) | Where kept | Days on hand | Expires |
 |---|---|---|---|---|---|---|---|---|---|
-{{#each meds as m}}| ☐ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
+{{#each meds_for.CL-16 as m}}| ✓ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
+{{else}}{{#each meds as m}}| ☐ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
 {{else}}| ☐ | (no medicines entered yet) | | | | | | ____ | ____ | ____ |
-{{/each}}| ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
+{{/each}}{{/each}}| ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
 | ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
 | ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |

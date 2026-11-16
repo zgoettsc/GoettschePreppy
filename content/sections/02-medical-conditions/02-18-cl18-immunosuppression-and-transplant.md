@@ -13,8 +13,9 @@ sources:
   - medlineplus-organ-transplantation
   - medlineplus-tacrolimus
   - medlineplus-prednisone
-  - cdc-preventing-infections-cancer-patients
-  - foodsafety-gov-weakened-immune-systems
+  - medlineplus-transplant-rejection-r11
+  - cdc-watch-out-for-fever-chemo-r11
+  - cdc-preventing-listeria-r11
   - cdc-about-handwashing-when-and-how-to-wash-your-hand-14c15a
   - cdc-how-to-make-water-safe-in-an-emergency-5d78b5
   - cdc-masks-and-respiratory-viruses-prevention-respira-2c187e
@@ -90,9 +91,11 @@ dangerous**, at the exact time when water, food and hygiene get harder. This mod
 
 1. **Take a temperature twice a day and any time they feel unwell.** Write it in the log
    (→ 25-05).
-2. **Fever** (CDC uses 100.4 °F or higher for people on chemotherapy; CDC, Preventing Infections
-   in Cancer Patients), chills, or any sign of infection: **get care at once if any exists.**
-   With no care, follow the team's written fever plan in part 7 and → 12-04.
+2. **Fever**, chills, or any sign of infection: **get care at once if any exists.** For people
+   getting chemotherapy, CDC says to call the doctor immediately at 100.4 °F (38 °C) or higher,
+   because fever may be the only sign of an infection, and an infection during chemotherapy can
+   be life-threatening (CDC, Watch Out for Fever). Ask the team which temperature they use for
+   this person. With no care, follow the team's written fever plan in part 7 and → 12-04.
 3. **Keep taking the medicine exactly as prescribed.** Count it; write days on hand in part 12.
 4. **Clean water, cooked food, washed hands** for the whole household (part 4).
 5. **Keep them away from sick people** where you can. A mask helps in crowded places (CDC, Masks
@@ -101,7 +104,8 @@ dangerous**, at the exact time when water, food and hygiene get harder. This mod
 ## 1. What it is
 
 The immune system fights infection. After an organ transplant, medicines hold it back so it does
-not attack the new organ (rejection) (MedlinePlus, Organ Transplantation). Cancer treatment,
+not attack the new organ (rejection); most people take these medicines for the rest of their
+life (MedlinePlus, Organ Transplantation; MedlinePlus, Transplant Rejection). Cancer treatment,
 long-term steroids and some medicines for autoimmune disease also weaken it. The result is the
 same: **infections start more easily, spread faster and may show fewer signs.**
 
@@ -117,39 +121,49 @@ same: **infections start more easily, spread faster and may show fewer signs.**
 
 ## 3. Storing the medication without power
 
-- **Tablets and capsules:** original containers, tightly closed, cool and dry, out of sun. Keep
-  blister packs sealed until use (MedlinePlus, Tacrolimus).
+- **Tablets and capsules:** MedlinePlus says to keep tacrolimus in the container it came in,
+  tightly closed, at room temperature, away from excess heat and moisture, not in the bathroom
+  (MedlinePlus, Tacrolimus). Other medicines: their own labels.
 - **Liquids and injectables:** each label gives its own rule; some must not be refrigerated,
   others must. Read and write it here: ________ (→ 29-14). For refrigerated ones, the cold
   ladder is on → 29-07; after a heat excursion: {{choice DC-08}} (→ 30-09).
-- **Flood water:** discard any medicine that has been in contact with it (FDA, Safe Drug Use
-  After a Natural Disaster).
+- **Flood water:** FDA says to discard medicine that has been in contact with flood or unsafe
+  water. The exception is a medicine needed for a life-threatening condition with no
+  replacement: it may be used if it looks unchanged, and replaced as soon as possible (FDA, Safe
+  Drug Use After a Natural Disaster). Anti-rejection medicine can fall under that exception;
+  ask the team now.
 
 ## 4. Day by day without it
 
 **Anti-rejection medicine stopped or missed:** the body can start to reject the organ. MedlinePlus
-describes the general signs of rejection as the organ not working as well, pain or swelling over
-the organ, fever and flu-like feeling (MedlinePlus, Organ Transplantation). For a kidney: less
-urine, swelling, rising weight. For a liver: yellow skin or eyes, dark urine. For a heart or lung:
-breathlessness, tiredness. Rejection can start within days of missed doses and is far easier to
-stop early.
+lists the signs of rejection as the organ starting to work less well; general discomfort or
+feeling ill; pain or swelling over the organ (rare); fever (rare); and flu-like symptoms such as
+chills, aches, nausea, cough and shortness of breath. The signs depend on the organ: someone
+rejecting a kidney may make less urine, and someone rejecting a heart may show signs of heart
+failure (MedlinePlus, Transplant Rejection). Ask the team now for the signs for this person's
+organ (part 7).
 
 **Steroids stopped suddenly:** weakness, vomiting, collapse (adrenal crisis). See → 02-20.
 
-**Every day, for the whole household** (FoodSafety.gov, People with Weakened Immune Systems; CDC,
-About Handwashing):
-- **Water:** drink only treated water (→ 03-04). Boiling is the surest method for this person
-  (CDC, How to Make Water Safe in an Emergency). Untreated surface or pool water is a card:
+**Every day, for the whole household:**
+- **Water:** drink only treated water (→ 03-04). CDC says boiling is the best method to kill
+  germs in water, and that disinfectants do not work as well as boiling against parasites such
+  as Cryptosporidium and Giardia (CDC, How to Make Water Safe in an Emergency). Untreated surface or pool water is a card:
   {{choice DC-13}} (→ 30-14).
-- **Food:** cook meat, poultry, fish and eggs all the way through; no raw milk, raw sprouts or
-  unpasteurised juice; reheat deli meats until steaming; throw out food from a failed fridge by
-  the rules on → 04-17. Questionable food is a card: {{choice DC-14}} (→ 30-15); for this
+- **Food:** cook meat, poultry, fish and eggs all the way through. CDC's advice for people at
+  higher risk of Listeria, a germ that is dangerous to people with weak immune systems: no raw
+  (unpasteurised) milk or cheese made from it; no raw or lightly cooked sprouts; deli meat, cold
+  cuts and hot dogs only reheated to 165 °F or until steaming hot (CDC, Preventing Listeria
+  Infection). Throw out food from a failed fridge by the rules on → 04-17. Questionable food is a card: {{choice DC-14}} (→ 30-15); for this
   person, lean to the strict side.
 - **Hands:** soap and water before eating, after the toilet, after touching animals or soil
-  (→ 13-02).
-- **Animals and soil:** someone else cleans litter boxes (CDC, Preventing Toxoplasmosis) and
-  chicken coops (CDC, Backyard Poultry); gloves for gardening; no handling of wild animals or
-  their droppings (→ 20-09).
+  (CDC, About Handwashing; → 13-02).
+- **Animals and soil:** CDC says people with weakened immune systems are more likely to get sick
+  from germs that backyard poultry carry; wash hands with soap and running water after touching
+  the birds or anything in their area (CDC, Backyard Poultry). Litter boxes are changed daily and
+  gloves are worn for gardening and soil (CDC, Preventing Toxoplasmosis). Where someone else can
+  do these jobs, let them; ask the team whether this person should do them at all. No handling
+  of wild animals or their droppings (→ 20-09).
 - **Crowds and sick people:** keep distance in shelters and lines; masks where you can
   (→ 13-11, → 17-09).
 - **Wounds:** clean every scratch at once and watch it (→ 12-04).
@@ -158,8 +172,9 @@ About Handwashing):
 
 - **Fever, chills or shaking,** even without other signs. In someone on strong immune medicine
   the temperature may rise only a little.
-- **Sepsis:** CDC lists confusion, shortness of breath, a high heart rate, fever or shivering or
-  feeling very cold, extreme pain, and clammy skin (CDC, About Sepsis). Get care.
+- **Sepsis:** CDC lists confusion or disorientation, shortness of breath, a high heart rate or
+  weak pulse, fever or shivering or feeling very cold, extreme pain or discomfort, and clammy or
+  sweaty skin (CDC, About Sepsis). Get care.
 - **Signs of rejection** (part 4).
 - **A wound that is red, hot, swollen, spreading or smells** (→ 12-04).
 - **Cough with fever or breathlessness; burning when peeing; severe diarrhoea.**
@@ -167,12 +182,14 @@ About Handwashing):
 ## 6. Sick-day basics
 
 - **Vomiting:** doses may come back up. Ask the team now what to do, and write it in part 7.
-- **Diarrhoea and dehydration** change the blood level of some anti-rejection medicines and
-  strain a transplanted kidney. Fluids by small sips (→ 12-05).
+- **Diarrhoea and dehydration:** fluids by small sips (→ 12-05). Ask the team now whether
+  diarrhoea changes anything about this person's medicines, and write it in part 7.
 - **Antibiotics:** infections need treatment sooner in this person. Antibiotics without a
-  prescription are a card: {{choice DC-16}} (→ 30-17). **Many antibiotics, antifungals and
-  other medicines interact with anti-rejection drugs**; so does grapefruit with tacrolimus
-  (MedlinePlus, Tacrolimus). Ask the team now which antibiotics are safe for this person.
+  prescription are a card: {{choice DC-16}} (→ 30-17). **Many medicines interact with
+  anti-rejection drugs.** For tacrolimus, MedlinePlus says the doctor may need to change doses
+  when other medicines are taken, names some antacids and St. John's wort among the products
+  that interact, and says to avoid grapefruit and grapefruit juice (MedlinePlus, Tacrolimus). Ask
+  the team now which antibiotics are safe for this person.
 - **New medicines and supplements,** including herbal ones, can change anti-rejection levels.
   Check first.
 
@@ -190,13 +207,15 @@ About Handwashing):
 - The signs of rejection for this person's organ: _______________________________________
 Team member: ____________________ Date: __________
 
-**Stock arithmetic.** Days on hand = on hand ÷ used per day. Every household medicine row is
-printed; use the ones for this condition.
+**Stock arithmetic.** Days on hand = on hand ÷ used per day. The medicines tagged for this
+condition in settings are printed; if none is tagged, every medicine row is, and you use the
+ones for this condition.
 
 | Medicine or supply | On hand | Used per day | Days on hand | Days you want | Still to get |
 |---|---|---|---|---|---|
-{{#each meds as m}}| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
-{{/each}}| Thermometers, spare batteries | ____ | | | ____ | ____ |
+{{#each meds_for.CL-18 as m}}| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
+{{else}}{{#each meds as m}}| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
+{{/each}}{{/each}}| Thermometers, spare batteries | ____ | | | ____ | ____ |
 | Masks (well-fitting) | ____ | ____ | ____ | ____ | ____ |
 | Soap, hand sanitiser | ____ | ____ | ____ | ____ | ____ |
 | Water treatment (fuel to boil, filter, bleach) | ____ | ____ | ____ | ____ | ____ |
@@ -245,14 +264,16 @@ household's full medicine stockpile is on → 12-07.
 
 ## 12. My meds
 
-Every medicine row your household entered is printed, because the binder cannot pick out one
-condition's rows. **Tick the rows for this condition**, cross out the rest, and fill any blank
-columns by hand.
+Rows marked ✓ are the medicines your household tagged for this condition in settings. If none
+is tagged, every medicine row your household entered is printed with a ☐ instead: **tick the
+rows for this condition** and cross out the rest. Fill any blank columns by hand, and add
+missing medicines in the blank rows.
 
 | For this? | Who | Medicine | Strength | Schedule | Fridge? | If doses are missed (prescriber's words) | Where kept | Days on hand | Expires |
 |---|---|---|---|---|---|---|---|---|---|
-{{#each meds as m}}| ☐ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
+{{#each meds_for.CL-18 as m}}| ✓ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
+{{else}}{{#each meds as m}}| ☐ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
 {{else}}| ☐ | (no medicines entered yet) | | | | | | ____ | ____ | ____ |
-{{/each}}| ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
+{{/each}}{{/each}}| ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
 | ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
 | ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |

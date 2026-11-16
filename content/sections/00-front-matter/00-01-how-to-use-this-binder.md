@@ -2,7 +2,7 @@
 id: 00-01-how-to-use-this-binder
 section: 00-front-matter
 title: "How to use this binder"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: none
@@ -24,7 +24,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Card range to 30-30; Sources row describes Small, Large and Everything via size.large/size.everything." }
 ---
 
 # How to use this binder
@@ -42,7 +42,7 @@ with no internet, how each page is laid out, and how to keep it true as your hou
 2. **Install it properly** (→ 00-10): on more than one device, tested in airplane mode, with the
    key pages printed.
 3. **Read Section 01, the phase playbooks.** Seven pages. Every other section hangs off them.
-4. **Answer the decision cards you left open** (→ 30-02 to → 30-25). Any page that depends on an
+4. **Answer the decision cards you left open** (→ 30-02 to → 30-30). Any page that depends on an
    open card prints "Not decided yet".
 5. **Count what you actually have** (→ 26-01, then → 22-04). Every runway in the binder needs that
    number.
@@ -60,7 +60,7 @@ when they do not. It assumes:
 - **You may be new to all of this.** Every term is explained the first time it appears, or points
   to an explainer in Section 29.
 - **You know your household better than the binder does.** Where a choice involves real risk, the
-  binder explains it and asks you to decide (→ 30-02 to → 30-25).
+  binder explains it and asks you to decide (→ 30-02 to → 30-30).
 
 **Everything is always included.** Your answers change the order and the wording: your home
 region comes first, your household's medical conditions lead Section 02, your gear's pages lead
@@ -119,7 +119,7 @@ when you cannot concentrate:
 | **Version and revised date** | If two copies disagree, the newer date wins |
 | **Danger level** | `none`, `caution` or `critical` (below) |
 | **Stamp** | "AI-reviewed, not human-verified" on every page (→ 00-05) |
-| **Sources** | Title, publisher and date of each source. {{#if size.large}}In your Large binder the source document is bound behind the page.{{else}}In the Small binder the document itself is not inside; the Large binder carries it (→ 00-09).{{/if}} |
+| **Sources** | Title, publisher and date of each source. {{#if size.everything}}In your Everything binder every source document is bound behind the page that cites it.{{else}}{{#if size.large}}In your Large binder the documents cited by the life-safety sections (medical, water, food storage, fire and fuel, heating, power, first aid, hazards, children, radiation and chemical events, cards and floors) are bound behind the page; the others are in the Everything download (→ 00-09).{{else}}In the Small binder no document is inside; Large carries those behind the life-safety sections and Everything carries all of them (→ 00-09).{{/if}}{{/if}} |
 
 ### Danger levels
 

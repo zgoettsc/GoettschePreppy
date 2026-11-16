@@ -558,7 +558,7 @@ An ecoregion is an area where the land, climate, soils and plants are alike (US 
 | Northern Piedmont | 11 | 16 |
 | Central Appalachians | 4 | 9 |
 
-### Plants and trees to know (plates being added)
+### Plants and trees to know
 
 {{plates}}
 

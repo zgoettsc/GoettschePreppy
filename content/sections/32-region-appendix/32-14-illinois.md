@@ -478,7 +478,7 @@ An ecoregion is an area where the land, climate, soils and plants are alike (US 
 | Mississippi Alluvial Plain | 0 | 2 |
 | Driftless Area | 1 | 2 |
 
-### Plants and trees to know (plates being added)
+### Plants and trees to know
 
 {{plates}}
 

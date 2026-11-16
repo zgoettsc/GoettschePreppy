@@ -355,7 +355,7 @@ An ecoregion is an area where the land, climate, soils and plants are alike (US 
 | Arizona/New Mexico Plateau | 2 | 5 |
 | Wyoming Basin | 1 | 3 |
 
-### Plants and trees to know (plates being added)
+### Plants and trees to know
 
 {{plates}}
 

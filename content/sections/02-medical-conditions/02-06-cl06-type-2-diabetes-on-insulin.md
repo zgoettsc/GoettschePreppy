@@ -183,13 +183,18 @@ and vomiting or severe diarrhoea for more than 6 hours. Dehydration treatment is
 
 ## 7. What to stock, and how much
 
-**Days on hand = on hand ÷ used per day.** Every household medicine row is printed; use the ones
-for this condition.
+**Days on hand = on hand ÷ used per day.** The medicines tagged for this condition in settings are printed; if none are tagged, every household medicine row is, so use the ones for this condition.
 
 | Medicine or supply | On hand | Used per day | Days on hand | Days you want | Still to get |
 |---|---|---|---|---|---|
-{{#each meds as m}}| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
-{{/each}}| Pen needles or syringes (syringes must match the insulin strength, usually U-100) | ____ | ____ | ____ | ____ | ____ |
+{{#each meds_for.CL-06 as m}}
+| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
+{{else}}
+{{#each meds as m}}
+| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
+{{/each}}
+{{/each}}
+| Pen needles or syringes (syringes must match the insulin strength, usually U-100) | ____ | ____ | ____ | ____ | ____ |
 | Meter strips, lancets | ____ | ____ | ____ | ____ | ____ |
 | Ketone strips | ____ | | | ____ | ____ |
 | Glucagon (if prescribed) | ____ | | | ____ | ____ |
@@ -337,15 +342,23 @@ is used, see → 02-02.
 
 ## 12. My meds
 
-Every medicine row your household entered is printed, because the binder cannot pick out one
-condition's rows. **Tick the rows for this condition**, cross out the rest, and fill the last
-three columns by hand.
+Medicines your household tagged for this condition in settings are printed below. **If none
+are tagged, every medicine row your household entered is printed instead: tick the rows for
+this condition** and cross out the rest. Fill any blank columns by hand from the boxes
+and bottles, and add untagged medicines in the empty rows.
 
 | For this? | Who | Medicine | Strength | Schedule | Fridge? | If doses are missed (prescriber's words) | Where kept | Days on hand | Expires |
 |---|---|---|---|---|---|---|---|---|---|
-{{#each meds as m}}| ☐ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | ____ | ____ | ____ |
-{{else}}| ☐ | (no medicines entered yet) | | | | | | ____ | ____ | ____ |
-{{/each}}| ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
+{{#each meds_for.CL-06 as m}}
+| ☐ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
+{{else}}
+{{#each meds as m}}
+| ☐ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
+{{else}}
+| ☐ | (no medicines entered yet) | | | | | | ____ | ____ | ____ |
+{{/each}}
+{{/each}}
+| ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
 | ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
 | ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
 

@@ -216,7 +216,7 @@ An ecoregion is an area where the land, climate, soils and plants are alike (US 
 | Central Appalachians | 1 | 2 |
 | Blue Ridge | 0 | 2 |
 
-### Plants and trees to know (plates being added)
+### Plants and trees to know
 
 {{plates}}
 

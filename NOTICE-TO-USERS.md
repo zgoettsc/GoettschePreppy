@@ -24,13 +24,15 @@ request; we do not control those and we say so here rather than promise more tha
 
 ## This file is your private copy. Do not share it.
 
-Your binder contains the full text of documents written by other people and organisations:
-appliance manuals, first-aid guides, fire-safety standards, medical-society fact sheets, university
-publications. They were fetched for **your personal use** when you downloaded this file, because
-in an emergency you need the whole document in your hand, not a web address that no longer works.
+A **Large** or **Everything** binder contains the full text of documents written by other people
+and organisations: appliance manuals, first-aid guides, fire-safety standards, medical-society fact
+sheets, university publications. They were fetched for **your personal use** when you downloaded
+this file, because in an emergency you need the whole document in your hand, not a web address that
+no longer works. A **Small** binder carries only this project's own text and public-domain
+material, and names the other documents without including them.
 
-Those documents are copyrighted by their publishers. Giving your binder file to someone else copies
-their work without permission and breaks copyright. **Keep this file to your own household.** If a
+Those documents are copyrighted by their publishers. Giving a Large or Everything binder to someone
+else copies their work without permission and breaks copyright. **Keep this file to your own household.** If a
 friend wants a binder, send them to the settings page and they can make their own.
 
 ## What this binder is, and is not

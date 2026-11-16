@@ -2,7 +2,7 @@
 id: 08-04-emergency-heat-options
 section: 08-heating-and-cold-weather-shelter
 title: "Emergency heat options and their risks"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -16,8 +16,8 @@ sources:
   - american-academy-of-pediatrics-healthychildren-org-h-7bd7d0
   - enerco-group-mr-heater-manufacturer-portable-buddy-r-759ce5
   - ghp-group-inc-dyna-glo-manufacturer-portable-kerosen-477cfd
-  - university-of-missouri-extension-unvented-portable-k-e850fe
-  - nfpa-heating-fire-safety-5cb9e6
+  - usfa-heating-fire-safety-r8
+  - cpsc-carbon-monoxide-questions-and-answers-783766
   - us-fire-administration-fema-candle-fire-safety-use-f-6eeda1
 related:
   - 08-01-heating-one-room
@@ -68,7 +68,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Unsourced blower watts, burst minutes and 1,500 W removed (method kept); MU G1999 (404) replaced by the two manuals; Buddy hose/1-lb rule stated as the manual does; 3 ft now USFA; CPSC sleeping rule added." }
 ---
 
 # Emergency heat options and their risks
@@ -113,7 +113,7 @@ total.{{/if}}{{#if has.generator}} Generator: {{ gear.generator_watts }} running
 | **Your gas furnace on battery or generator power** | Whole house | Yes, it is the furnace | None new, **if** it can be safely connected (below) | Often the best heater you already own |
 | **Heated blanket on a power station** | Person-level | Yes | Burns and overheating for babies | Warm the bed, not the room (below) |
 | **Portable propane heater sold for indoor use** (Buddy family) | Good | Yes, by its manual | CO, low oxygen, fire, propane leak | Oxygen-depletion and tip-over shutoffs; tank outdoors (→ 08-09) |
-| **Wick kerosene heater sold for indoor use** | High | Yes, by its manual | CO, fumes, fire, **wrong fuel** | Usually no oxygen-depletion sensor (→ 08-10) |
+| **Wick kerosene heater sold for indoor use** | High | Yes, by its manual | CO, fumes, fire, **wrong fuel** | The common model's manual lists a tip-over shutoff, no oxygen-depletion sensor (→ 08-10) |
 | **Ducted diesel or kerosene heater** | High | Yes, if installed with intake and exhaust outside | CO if the install leaks | → 08-07 |
 | **Wood stove or fireplace** (installed, vented) | High (stove); low (open fireplace) | Yes | Chimney fire; CO if the flue is blocked | Inspect first: {{choice DC-21}} (→ 30-22; → 08-08) |
 | **Outdoor fire pit or outdoor fireplace** | High, outdoors | **No** | CO, fire | Cook and boil there; it is not house heat (→ 07-01) |
@@ -128,13 +128,13 @@ Spec tables for common heater models are on → 28-04.
 
 {{#if has.gas_any}}Your home has gas service.{{/if}} **In many electrical outages the gas keeps
 flowing.** The gas supply runs largely separately from the electric grid, so a gas furnace is
-often fully fuelled and stopped only because its **blower and controls** have no power. Many
-furnace blowers draw roughly 400 to 800 watts; **read your furnace's data plate** for the real
-figure (→ 29-14).
+often fully fuelled and stopped only because its **blower and controls** have no power. **Read
+your furnace's data plate** for the watts or amps it draws (→ 29-14); that number decides what can
+run it.
 
-- **Run it in bursts:** 15 to 20 minutes to lift the whole house a few degrees, then off, and let
-  the house coast on its stored heat for an hour or more. Repeat. Warm the house before bed and
-  at waking; hold the warm room with blankets and bodies between bursts (→ 08-01).
+- **Run it in bursts:** long enough to lift the whole house a few degrees, then off, and let the
+  house coast on its stored heat. Repeat. Warm the house before bed and at waking; hold the warm
+  room with blankets and bodies between bursts (→ 08-01). Time your own bursts with a thermometer.
 - **Power it from a power station or a generator outdoors.** Divide the station's usable
   watt-hours by the blower's watts for a rough runtime (→ 29-02); solar recharge stretches it
   (→ 09-05).
@@ -153,10 +153,10 @@ household does that conversion itself or has an electrician do it is a decision 
 
 ## Heated blankets: warm the bed, not the room
 
-A heated blanket draws a small fraction of what a plug-in space heater does (a space heater is
-typically 1,500 watts on high; read both labels). On a power station it can warm a bed all night
-where a space heater would drain the same station in an hour or two. Work out your own runtime
-from the labels (→ 29-02).
+A heated blanket draws a small fraction of what a plug-in space heater does; read both labels
+(typical appliance figures are on → 29-02). On a power station it can warm a bed for far longer
+than a space heater would run on the same charge. Work out your own runtime from the labels
+(→ 29-02).
 
 **No electric blanket on or around a baby or toddler.** The AAP keeps loose bedding out of a
 young child's sleep space and warns against overheating (AAP, How to Keep Your Sleeping Baby
@@ -169,18 +169,21 @@ this applies.{{/if}} Bed-sharing for warmth is its own card: {{choice DC-09}} (�
 
 {{photo heater-barrier}}
 
-These are **unvented**: no chimney, so their exhaust, including some CO, stays in the room, and
-they use the room's oxygen and add water vapour (MU Extension, Unvented Portable Kerosene
-Heaters).
+These are **unvented**: no chimney, so their exhaust stays in the room and they use the room's
+air (oxygen). Without enough air they can give off excessive CO (Enerco/Mr. Heater, Buddy owner's
+manual), and the kerosene class's manual warns of indoor air pollution (GHP Group/Dyna-Glo,
+Portable Kerosene Heater owner's manual). Burning fuel also adds water vapour to the room.
 
-- **Propane heaters of the Buddy family** carry an **oxygen depletion sensor (ODS)**, which shuts
-  the heater off when room oxygen falls, and a **tip-over switch**. Neither measures CO. The
-  manual requires air openings high and low, and allows a 20-lb tank only **outdoors**, on the
-  maker's hose (Enerco/Mr. Heater, Buddy owner's manual). Bringing a larger tank inside is a
+- **Propane heaters of the Buddy family** carry an **oxygen depletion sensor (ODS)**, a safety
+  system that shuts the heater off when there is not enough fresh air, and a **tip-over switch**.
+  Neither measures CO. The manual requires air openings high and low. It allows emergency indoor
+  heating on a 1-lb cylinder, a remote tank of up to 20 lb only **outdoors** on the maker's hose,
+  and says never bring a refillable cylinder indoors (Enerco/Mr. Heater, Buddy owner's manual). Bringing a larger tank inside is a
   decision card: {{choice DC-02}} (→ 30-03). Procedures: → 08-09.
-- **Wick kerosene heaters** usually have a tip-over shutoff but no ODS. They burn steadily for
-  many hours on a tank, need water-clear 1-K kerosene only, and are refuelled outdoors and cold
-  (GHP Group/Dyna-Glo, Portable Kerosene Heater owner's manual). Procedures: → 08-10.
+- **Wick kerosene heaters:** the common model's manual lists a tip-over (jar) shutoff and no
+  ODS. It burns about 13 hours on a tank, needs water-clear 1-K kerosene only, and is refuelled
+  outdoors and cold (GHP Group/Dyna-Glo, Portable Kerosene Heater owner's manual). Procedures:
+  → 08-10.
 
 **The rules for either, from their manuals:**
 
@@ -191,11 +194,13 @@ Heaters).
   open flame or a running appliance** (→ 30-01).
 - **One at a time.** The propane class's manual forbids other fuel-burning appliances in the
   space.
-- **Overnight:** both manuals say never while sleeping. Keeping one burning trades CO and fire
+- **Overnight:** both manuals say never while sleeping, and CPSC says never run an unvented
+  fuel-burning appliance in a room where people sleep (CPSC, Carbon Monoxide Questions and
+  Answers). Keeping one burning trades CO and fire
   risk against a dangerously cold night; the household decides on the card: {{choice DC-01}}
   (→ 30-02).
-- **Moisture:** both add water vapour. In a closed room that means condensation, damp bedding
-  and mould, and damp bedding is a cold-injury risk (→ 08-05). Vent briefly.
+- **Moisture:** burning fuel adds water vapour. In a closed room that means condensation, damp
+  bedding and mould, and damp bedding is a cold-injury risk (→ 08-05). Vent briefly.
 
 ## Candles
 
@@ -213,7 +218,7 @@ waiting to happen.
 - **A physical barrier** around any heater or stove: a hearth gate or a furniture perimeter.
 - **Never leave a burning heater unattended,** and never with children in the room unsupervised.
 - **Clearances:** keep bedding, door blankets, curtains and toys out of the manual's clearance.
-  NFPA's rule is at least 3 feet from anything that can burn (NFPA, Heating Fire Safety). A
+  Keep anything that can burn at least 3 feet from any heat source (USFA, Heating Fire Safety). A
   blanket hung to trap heat is a fire hazard if it can swing into the heater.
 - **Teach the rule** early and often (→ 20-02).
 

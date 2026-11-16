@@ -2,7 +2,7 @@
 id: 00-04-family-emergency-plan
 section: 00-front-matter
 title: "Our family emergency and communications plan"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: household
 danger_level: none
@@ -11,14 +11,13 @@ tags: [family plan, meeting places, out-of-area contact, communications, shutoff
 derived_from: [00-04-family-emergency-plan]
 sources:
   - fema-ready-gov-create-your-family-emergency-communic-584e89
-  - american-red-cross-winter-storm-preparedness-and-bli-4bb6c0
-  - cdc-recognizing-and-responding-to-anaphylaxis-645825
+  - fema-ready-gov-kids-make-a-plan
+  - american-academy-of-pediatrics-aap-allergy-and-anaph-3e6f49
   - cdc-positive-parenting-tips-child-development-by-age-1e16c6
-  - noaa-national-weather-service-tornado-safety-ba75e0
   - noaa-national-weather-service-nwr-county-coverage-an-c6207f
   - fema-ready-gov-utility-shut-off-and-safety-natural-g-7965ad
 related: [15-03-family-comms-plan, 00-07-household-roles, 20-04-teaching-kids-the-plan, 25-03-regional-contacts, 22-03-go-bags-and-kits, 24-02-drills, 25-09-family-medical-summary, 25-08-quick-reference-cards, 01-05-choosing-a-destination]
-cards: []
+cards: [DC-28]
 explainers: [EX-09]
 promote_when: []
 photo_slots:
@@ -32,7 +31,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Overdue rule made a household blank; texting and out-of-town contact to Ready Kids; anaphylaxis to AAP; gas shutoff per FEMA (no practice turn-off, professional relights, DC-28)." }
 ---
 
 # Our family emergency and communications plan
@@ -51,8 +50,8 @@ the rest you write by hand.
 1. **Fill in every blank in one sitting.** Half an hour, and the most valuable half hour in this
    binder.
 2. **Choose the out-of-area contact and actually ask them.** Someone far enough away not to be in
-   the same event, willing to be the hub, who answers their phone (FEMA, Create Your Family
-   Emergency Communication Plan).
+   the same event, willing to be the hub, who answers their phone. FEMA's advice: pick someone
+   out of town, because they may be easier to reach in a disaster (FEMA/Ready.gov, Make a Plan).
 3. **Walk to each meeting place** with everyone who would need to get there{{#if has.child}},
    children included{{/if}}.
 4. **Make copies**: fridge, every go-bag, every vehicle, the out-of-area contact{{#if has.child}},
@@ -68,8 +67,8 @@ the rest you write by hand.
 4. **What does a caregiver need to know** to keep everyone alive?
 5. **Who does what** in the first hour (→ 00-07)?
 
-**Text, do not call.** When the network is busy, a text often gets through when a call will not,
-and it waits for a phone that is switched off (American Red Cross; FEMA).
+**Text, do not call.** In an emergency phone lines may be tied up; a text may get through when a
+call will not, and it leaves the lines open for emergency workers (FEMA/Ready.gov, Make a Plan).
 
 ## THE PLAN
 
@@ -120,7 +119,7 @@ other.
 |---|---|
 | Our radio channel | ______________ Privacy code: ______ |
 | Repeater, if any (→ 15-06) | ______________ |
-| Daily check-in time with the hub | ______ ; if missed, again at ______ ; two misses in a row = overdue (→ 15-03) |
+| Daily check-in time with the hub | ______ ; if missed, again at ______ ; we treat someone as overdue after ______ missed check-ins in a row (→ 15-03) |
 
 **NOAA Weather Radio for our county** (→ 15-01):
 
@@ -156,9 +155,9 @@ ______________________ Phone: ______________ Documented where: _________________
 {{else}}| none entered | | | |
 {{/each}}
 
-{{#if has.anaphylaxis}}**For anaphylaxis: EPINEPHRINE FIRST, into the outer thigh. Antihistamines
-are not a treatment. A second dose is often needed** (CDC, Recognizing and Responding to
-Anaphylaxis; → 02-03). Epinephrine is kept: ______________________________________{{/if}}
+{{#if has.anaphylaxis}}**For anaphylaxis: EPINEPHRINE FIRST, into the outer thigh, then call 911.
+Antihistamines do not replace epinephrine. A second dose if symptoms get worse, continue, or are
+not better in 5 minutes** (AAP, Allergy and Anaphylaxis Emergency Plan; → 02-03). Epinephrine is kept: ______________________________________{{/if}}
 
 **Medicines, exactly as typed from the bottles:**
 
@@ -202,7 +201,7 @@ ______________________
 
 | | Where | Notes |
 |---|---|---|
-| **Gas shutoff** | ______________________ | {{#if has.gas_any}}Quarter turn so the handle is **across** the pipe. Tool: ______ kept ______. **Smell gas: everyone out, no switches, call the gas emergency number from outside.** Only the utility turns it back on (FEMA, Utility Shut-off and Safety){{else}}No gas service entered{{/if}} |
+| **Gas shutoff** | ______________________ | {{#if has.gas_any}}Ask the gas company how to shut off your meter; meters differ. Tool: ______ kept ______. Practise finding it, but **do not actually turn the gas off to practise** (FEMA). **Smell gas: everyone out, no switches, call the gas emergency number from outside.** FEMA says only a qualified professional turns it back on (FEMA, Utility Shut-off and Safety). If nobody will come, relighting is a household choice: {{choice DC-28}} (→ 30-29){{else}}No gas service entered{{/if}} |
 | **Water main** | ______________________ | Know which way is off; practise it |
 | **Electric panel** | ______________________ | The main breaker is marked |
 | **Water heater drain** | ______________________ | {{#if has.water_heater_tank}}About {{ dwelling.water_heater_gallons }} gallons of stored water (→ 03-02){{/if}} |
@@ -219,7 +218,7 @@ ______________________
 | Gas | {{ contacts.utility.gas.provider }} | {{ contacts.utility.gas.phone }} |
 | Water | {{ contacts.utility.water.provider }} | {{ contacts.utility.water.phone }} |
 
-**Every adult has physically operated the shutoffs:** Yes / No
+**Every adult can find every shutoff and has operated the water main and the main breaker** (the gas valve is located and its tool is at hand, but not turned to practise): Yes / No
 
 {{#if has.child}}
 ### 8. The children's part (teach it, do not just write it)
@@ -269,7 +268,7 @@ A written plan that has never been walked is a wish. **Do these four things:**
 1. **Walk to each meeting place** with everyone (→ 24-02).
 2. **Run the 60-second grab drill**, timed (→ 22-03).
 3. **Call the out-of-area contact and tell them what the role means.**
-4. **Operate the shutoffs**: every adult, hands on, at least once.
+4. **Learn the shutoffs**: every adult, hands on the water main and the main breaker; at the gas meter, find the valve and the tool, but do not turn the gas off to practise (FEMA, Utility Shut-off and Safety).
 
 ## Gear / items
 

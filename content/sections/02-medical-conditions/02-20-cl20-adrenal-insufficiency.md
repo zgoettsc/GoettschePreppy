@@ -11,6 +11,9 @@ tags: [condition library, adrenal insufficiency, Addison's disease, cortisol, hy
 derived_from: [12-11-chronic-conditions]
 sources:
   - niddk-adrenal-insufficiency
+  - niddk-adrenal-insufficiency-symptoms-causes-r11
+  - niddk-adrenal-insufficiency-treatment-r11
+  - endocrine-society-adrenal-insufficiency-r11
   - medlineplus-acute-adrenal-crisis
   - medlineplus-prednisone
   - world-health-organization-cholera-outbreaks-q-and-a-162558
@@ -55,12 +58,13 @@ review_pass: null
 **What this page is for.** In adrenal insufficiency the body cannot make enough **cortisol**, the
 hormone that keeps blood pressure and blood sugar up and that the body makes more of during
 illness, injury and stress. A daily steroid tablet replaces it. The danger is **adrenal crisis**:
-during a fever, vomiting, an injury or great strain, the person needs more than the daily amount,
-and without it they can collapse and die within hours. **How much extra, and when, is
+during illness, serious injury or other physical stress, the body needs much more cortisol than
+usual, and if a crisis is not treated right away it can cause death (NIDDK, Adrenal
+Insufficiency & Addison's Disease). **How much extra, and when, is
 life-critical and must come from the prescriber.** This module prints that plan as a worksheet,
 explains why it matters, and covers the emergency injection.
 
-{{#if has.condition.CL-20}}**Someone in your household has this condition.** This module is at the front of the medical section for you. Every adult in the house must know part "Do this now" and where the emergency injection is.{{else}}**Nobody in your household is marked with this condition.** The module stays in the binder so you can help someone else, or add the condition later in settings. Anyone who has taken steroid tablets such as prednisone for more than a few weeks may be at risk too (part 1).{{/if}}
+{{#if has.condition.CL-20}}**Someone in your household has this condition.** This module is at the front of the medical section for you. Every adult in the house must know part "Do this now" and where the emergency injection is.{{else}}**Nobody in your household is marked with this condition.** The module stays in the binder so you can help someone else, or add the condition later in settings. Anyone who has taken steroid tablets such as prednisone for a long time may be at risk too (part 1).{{/if}}
 
 > **SAFETY**
 > - **Adrenal crisis is a life-threatening emergency.** If the person is vomiting, collapsing or
@@ -76,14 +80,18 @@ explains why it matters, and covers the emergency injection.
 
 ## Do this now
 
-**Signs of adrenal crisis** (NIDDK; MedlinePlus): sudden severe pain in the lower back, belly or
-legs; severe vomiting and diarrhoea; dehydration; very weak, dizzy or faint; confusion; low blood
-pressure; loss of consciousness.
+**Signs of adrenal crisis:** NIDDK lists sudden, severe pain in the lower back, belly or legs;
+vomiting and diarrhoea; weakness; confusion; loss of consciousness (NIDDK, Adrenal Insufficiency
+& Addison's Disease). The Endocrine Society adds dehydration, low blood pressure and fainting
+(Endocrine Society, Adrenal Insufficiency); MedlinePlus adds dizziness, high fever, a fast
+heartbeat and low blood sugar (MedlinePlus, Acute Adrenal Crisis).
 
 1. **Give the emergency steroid injection** from the kit, as the prescriber showed you (part 7).
-   Do not wait to see if it passes. **If the person is vomiting, tablets will not work.**
+   The Endocrine Society says a person in adrenal crisis needs a steroid injection right away,
+   then the hospital (Endocrine Society, Adrenal Insufficiency). Do not wait to see if it passes.
+   **If the person is vomiting, tablets will not stay down.**
 2. **Call for help** if any exists (911). Say "adrenal crisis" and show the medical ID.
-3. **Lay them down with legs raised**, or on their side if vomiting or drowsy. Keep them warm.
+3. **Lay them down**, on their side if vomiting or drowsy. Keep them warm.
 4. **Fluids by small sips** if awake and not vomiting; oral rehydration solution is best (part 6).
 5. **Not breathing normally:** CPR (→ 12-18).
 6. **Write the time** of the injection and give the paper to whoever takes over.
@@ -97,16 +105,18 @@ not later.
 
 The adrenal glands, on top of the kidneys, make cortisol and, in some people, a salt-keeping
 hormone. In **primary adrenal insufficiency (Addison's disease)** the glands are damaged; in
-**secondary adrenal insufficiency** the brain stops telling them to work, often after months of
-steroid medicines such as prednisone (NIDDK, Adrenal Insufficiency & Addison's Disease). It is
-treated with a daily steroid such as hydrocortisone, sometimes with a second tablet
-(fludrocortisone) that keeps salt and water in the body.
+**secondary adrenal insufficiency** the brain stops telling them to work. NIDDK says the most
+common cause overall is suddenly stopping steroid medicines (corticosteroids, such as
+prednisone) after taking them for a long time (NIDDK, Adrenal Insufficiency & Addison's
+Disease). It is treated with a daily steroid, most often hydrocortisone taken two or three times
+a day, sometimes with a second tablet (fludrocortisone) that balances salt and fluid in the body,
+and higher doses are needed during physical stress (NIDDK, Treatment).
 
 ## 2. What runs out, and how fast
 
 | What | Clock | When it is gone |
 |---|---|---|
-| Daily steroid tablets | Days on hand from the bottle (part 7). **The extra needed in illness uses the supply faster.** | Within a day or two: weakness, nausea, dizziness; then crisis (part 4). |
+| Daily steroid tablets | Days on hand from the bottle (part 7). **The extra needed in illness uses the supply faster.** | Weakness, nausea, dizziness; then crisis (part 4). |
 | Salt-keeping tablet (fludrocortisone), if prescribed | Days on hand. | Dizziness on standing, salt craving, dehydration. |
 | Emergency injection kit(s) | Expiry date; one kit per crisis. | No way to treat a crisis in someone who is vomiting. |
 | Needles, syringes, alcohol pads, sharps container | Count them. | The injection cannot be given. |
@@ -115,20 +125,25 @@ treated with a daily steroid such as hydrocortisone, sometimes with a second tab
 
 - **Tablets:** original bottles, tightly closed, cool and dry, out of sun.
 - **Emergency injection kit:** the label gives the temperature range and how to protect it from
-  light; most are kept at room temperature, not in a fridge. Read it and write it here:
-  ________ (→ 29-14). Keep it where every adult can reach it in a minute, and a second kit in
-  the go-bag.
+  light. Read it and write it here: ________ (→ 29-14). NIDDK says to keep a steroid injection
+  with the person at all times and make sure friends and family know how and when to give it
+  (NIDDK). Keep it where every adult can reach it in a minute, and a second kit in the go-bag.
 - **Used needles** go into a sharps container or a hard plastic bottle with a lid (FDA, Best Way
   to Get Rid of Used Needles and Other Sharps).
 - **Expired kit or tablets** when nothing else exists: {{choice DC-04}} (→ 30-05).
 
 ## 4. Day by day without it
 
-- **Hours to a day without the daily steroid:** tiredness, weakness, poor appetite, nausea. In
-  someone with no cortisol of their own, it can move faster.
-- **Days:** vomiting, belly pain, dizziness on standing, low blood pressure, confusion, and
-  adrenal crisis (NIDDK). Illness, injury, heat, hard physical work and cold all speed this up.
-- **Long-term steroid users stopping suddenly** can go into crisis too (MedlinePlus, Prednisone).
+- **First:** the symptoms of adrenal insufficiency return: tiredness, muscle weakness, poor
+  appetite, nausea, belly pain, dizziness or fainting on standing, craving salt, low blood sugar
+  (NIDDK, Symptoms & Causes).
+- **Then:** vomiting, diarrhoea, confusion and adrenal crisis. Physical stress (illness,
+  infection, injury) can make it much worse suddenly (Endocrine Society, Adrenal Insufficiency).
+  How fast it happens differs from person to person; do not wait for it.
+- **Long-term steroid users stopping suddenly:** MedlinePlus says the body may not have enough
+  natural steroids to work normally (MedlinePlus, Prednisone), and MedlinePlus lists suddenly
+  stopping long-term steroid medicine as a cause of adrenal crisis (MedlinePlus, Acute Adrenal
+  Crisis).
 
 **What helps, and is in your control:** never running out (part 7), regular meals, enough salt
 and water as the prescriber advises (more in heat and heavy work), rest after hard work, staying
@@ -160,12 +175,14 @@ written in part 7, not here.
 
 **Ask your prescriber now, while you can, and write it here.**
 
-**Why it matters.** A healthy body raises its own cortisol within minutes when it is ill or hurt.
-This person's body cannot. The prescriber's stress plan does that job by hand: it says how much
-extra steroid to take, at which signs, and for how long. **Without it, a household facing a fever
-or an injury has to guess, and a guess too small or too late can end in collapse within hours.**
-With it, most illnesses can be ridden out at home. The plan differs from person to person, and
-the prescriber is the only one who can write it.
+**Why it matters.** The body needs much more cortisol than usual during illness, serious injury
+or surgery (NIDDK). This person's body cannot make it. The prescriber's stress plan does that job
+by hand: it says how much extra steroid to take, at which signs, and for how long. NIDDK says
+the dose must go up with a high fever, and that someone who is vomiting and cannot keep the
+tablets down needs medical care at once (NIDDK, Treatment). **Without the plan, a household
+facing a fever or an injury has to guess, and a guess too small or too late can end in adrenal
+crisis.** With it, the household knows what to give and when to use the injection. The plan
+differs from person to person, and the prescriber is the only one who can write it.
 
 **Stress plan (sick-day rules):**
 - Minor illness (fever, flu, infection), what to take and for how long:
@@ -188,13 +205,15 @@ Prescriber: ____________________ Date: __________
 **Practise the injection now** with the prescriber or nurse, on a trainer if they have one. Every
 adult in the house should have done it once.
 
-**Stock arithmetic.** Days on hand = on hand ÷ used per day. Every household medicine row is
-printed; use the ones for this condition. Count extra for sick days: the plan uses more.
+**Stock arithmetic.** Days on hand = on hand ÷ used per day. The medicines tagged for this
+condition in settings are printed; if none is tagged, every medicine row is, and you use the
+ones for this condition. Count extra for sick days: the plan uses more.
 
 | Medicine or supply | On hand | Used per day | Days on hand | Days you want | Still to get |
 |---|---|---|---|---|---|
-{{#each meds as m}}| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
-{{/each}}| Emergency injection kits | ____ | | | ____ | ____ |
+{{#each meds_for.CL-20 as m}}| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
+{{else}}{{#each meds as m}}| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
+{{/each}}{{/each}}| Emergency injection kits | ____ | | | ____ | ____ |
 | Needles, syringes, alcohol pads | ____ | | | ____ | ____ |
 | Sharps container | ____ | | | ____ | ____ |
 | ORS sachets, or salt, sugar and measuring spoons | ____ | | | ____ | ____ |
@@ -239,14 +258,16 @@ household's full medicine stockpile is on → 12-07.
 
 ## 12. My meds
 
-Every medicine row your household entered is printed, because the binder cannot pick out one
-condition's rows. **Tick the rows for this condition**, cross out the rest, and fill any blank
-columns by hand. **Add a row for each emergency injection kit** and its expiry.
+Rows marked ✓ are the medicines your household tagged for this condition in settings. If none
+is tagged, every medicine row your household entered is printed with a ☐ instead: **tick the
+rows for this condition** and cross out the rest. Fill any blank columns by hand, and add
+missing medicines in the blank rows. **Add a row for each emergency injection kit** and its expiry.
 
 | For this? | Who | Medicine | Strength | Schedule | Fridge? | If doses are missed (prescriber's words) | Where kept | Days on hand | Expires |
 |---|---|---|---|---|---|---|---|---|---|
-{{#each meds as m}}| ☐ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
+{{#each meds_for.CL-20 as m}}| ✓ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
+{{else}}{{#each meds as m}}| ☐ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
 {{else}}| ☐ | (no medicines entered yet) | | | | | | ____ | ____ | ____ |
-{{/each}}| ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
+{{/each}}{{/each}}| ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
 | ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
 | ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |

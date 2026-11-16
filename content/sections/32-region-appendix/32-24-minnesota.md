@@ -447,7 +447,7 @@ An ecoregion is an area where the land, climate, soils and plants are alike (US 
 | Northern Minnesota Wetlands | 4 | 9 |
 | Driftless Area | 6 | 9 |
 
-### Plants and trees to know (plates being added)
+### Plants and trees to know
 
 {{plates}}
 

@@ -2,7 +2,7 @@
 id: 08-10-wick-kerosene-heaters
 section: 08-heating-and-cold-weather-shelter
 title: "Wick kerosene heaters: setup, safe use and troubleshooting"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: gear
 danger_level: critical
@@ -11,10 +11,10 @@ tags: [kerosene, wick heater, convection heater, unvented, 1-K kerosene, wick ca
 derived_from: [08-10-dyna-glo-kerosene-heater]
 sources:
   - ghp-group-inc-dyna-glo-manufacturer-portable-kerosen-477cfd
-  - university-of-missouri-extension-unvented-portable-k-e850fe
   - cdc-carbon-monoxide-poisoning-basics-772153
   - cpsc-carbon-monoxide-fact-sheet-e97206
-  - cdc-mmwr-hydrocarbon-kerosene-lamp-oil-ingestion-in-106f3a
+  - medlineplus-hydrocarbon-pneumonia-r13
+  - cpsc-carbon-monoxide-questions-and-answers-783766
 related:
   - 08-01-heating-one-room
   - 08-02-carbon-monoxide-safety
@@ -50,7 +50,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "All WK11C8 manual figures re-read (10,500 BTU/h, 1.1 gal, 0.079 gal/h, 13 h, 36 in, 200 cu ft/1,000 BTU/h, 1 in, 1/2 in flame, 60 min soak, weekly shut-off test, 10 min relight wait); MU G1999 (404) and blocked CDC MMWR replaced by the manual and MedlinePlus; ODS wording matches 28-04." }
 ---
 
 # Wick kerosene heaters: setup, safe use and troubleshooting
@@ -63,15 +63,15 @@ on → 28-04, and **your own heater's manual and data plate govern.** Kerosene a
 must never meet are explained on → 29-01; carbon monoxide (CO) on → 29-03.
 
 > **SAFETY.** This is an **unvented** heater: it burns room air and its exhaust stays in the room.
-> Unvented kerosene heaters raise indoor CO and other pollutants, more so in small closed rooms
-> (MU Extension, Unvented Portable Kerosene Heaters). **1-K kerosene only. Gasoline in this heater
-> can cause an explosion or a fire you cannot control.** A tested battery CO alarm is up **before**
-> it is lit (→ 08-02). **Never leave it unattended** (manual). **Most wick heaters have no oxygen
-> depletion sensor,** so the alarm is the only thing watching. **Fuel is never stored or
+> Its manual warns of indoor air pollution and calls for more air in a small room (GHP
+> Group/Dyna-Glo manual). **1-K kerosene only. Gasoline in this heater can cause an explosion or
+> uncontrolled flames** (manual). A tested battery CO alarm is up **before**
+> it is lit (→ 08-02). **Never leave it unattended** (manual). **The common model's manual lists no
+> oxygen depletion sensor,** so the alarm is the only thing watching. **Fuel is never stored or
 > transferred near an open flame or a running appliance:** refuel outdoors, heater off and cold
 > (→ 30-01). **Children do not have access to firearms, fuel, medications or chlorine products**
-> (→ 30-01): a mouthful of kerosene can be breathed into the lungs and cause a severe pneumonia
-> (CDC MMWR; → 12-17). Never dry clothes on or over it; never put anything on its top.
+> (→ 30-01): drinking or breathing in kerosene can cause hydrocarbon pneumonia, a lung injury
+> (MedlinePlus, Hydrocarbon pneumonia; → 12-17). Never dry clothes on or over it; never put anything on its top.
 
 {{#if has.kerosene_heater}}**Your household listed:** {{#each heaters as h}}{{h.kind_text}} {{h.model}}; {{/each}}Kerosene on hand: {{ gear.fuel.kerosene_gal }} gallons.{{/if}}
 
@@ -79,8 +79,9 @@ must never meet are explained on → 29-01; carbon monoxide (CO) on → 29-03.
 
 ## The can rule
 
-**Kerosene goes in a can that is not red, clearly marked KEROSENE.** The manual prefers a blue can;
-red means gasoline (manual; → 29-01). **Read the label aloud, sniff, then pour. An unlabelled can,
+**Kerosene goes in a can that is not red, clearly marked KEROSENE.** The manual says store it only
+in a blue container marked "KEROSENE", never a red one, because red containers are associated with
+gasoline (manual; → 29-01). **Read the label aloud, sniff, then pour. An unlabelled can,
 or any doubt, and you do not pour.** Never dyed (red) kerosene, 2-K kerosene, "lamp oil", camp fuel,
 diesel, alcohol or anything else in this heater.
 
@@ -117,7 +118,7 @@ diesel, alcohol or anything else in this heater.
 | Clearances | **36 in** above and in front |
 | Ventilation | If the room has **less than 200 cubic feet per 1,000 BTU/h**, open a window **at least 1 inch** or keep doors to other rooms open; never a bathroom or small closed room |
 | Correct flame | **½ inch above the flame spreader**, even all round |
-| Safety device | **Tip and jar shut-off** (drops the wick); **no oxygen depletion sensor** |
+| Safety device | **Tip and jar shut-off** (drops the wick); no oxygen depletion sensor listed |
 | Wick height (when fitting a new wick) | 5/16 in above the collar |
 | Sleeping | Turn it off and make sure it is out **before going to bed** |
 | Altitude | The manual cited here gives no altitude limit that this kit has checked; if yours does, write it here: ______ |
@@ -139,8 +140,10 @@ being cracked at least 1 inch whenever it burns.** That does not replace the CO 
 
 ## Heat while people sleep
 
-The manual says turn it off and make sure it is out before going to bed. Keeping it burning keeps
-the room warm, but this heater usually has no oxygen sensor, so CO and fire would have only the
+The manual says turn it off and make sure it is out before going to bed, and CPSC says never run
+an unvented fuel-burning appliance in any room where people are sleeping (CPSC, Carbon Monoxide
+Questions and Answers). Keeping it burning keeps the room warm, but this heater has no oxygen
+sensor listed, so CO and fire would have only the
 alarm and whoever wakes to check. The household decides on the card: {{choice DC-01}} (→ 30-02).
 If the household's answer allows overnight use, on a wick heater **"lowest" does not mean a
 turned-down wick**, which smokes and makes CO: it means the wick exactly at the manual's ½-inch

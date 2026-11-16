@@ -2,7 +2,7 @@
 id: 25-07-glossary
 section: 25-reference-and-appendices
 title: "Glossary: every term in plain words"
-version: 2
+version: 3
 revised: 2026-11-16
 layer: core
 danger_level: none
@@ -26,7 +26,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Card range DC-01 to DC-29; tourniquet and second-dose wording aligned; hazard rating aligned with EX-10; hardening off aligned with 25-01." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Card range DC-01 to DC-29; tourniquet and second-dose wording aligned; hazard rating aligned with EX-10; hardening off aligned with 25-01. Wave 2 (R18): tourniquet entry quotes the 30-01 floor verbatim." }
 ---
 
 # Glossary: every term in plain words
@@ -106,7 +106,7 @@ definitions orient you; the page in the last column does the work. The explainer
 | **Frostbite** | Frozen skin and tissue, usually fingers, toes, ears, nose. **Minutes at extreme wind chill** | → 08-05 |
 | **Heat exhaustion / heat stroke** | Overheating with heavy sweating and weakness / a life-threatening emergency with confusion and very high body temperature | → 17-04 |
 | **ORS (oral rehydration solution)** | Water with the right salt and sugar to replace what diarrhoea and vomiting lose | → 12-05 |
-| **Tourniquet** | A tight band above a bleeding arm or leg wound that stops the blood. **Never loosened once placed while help can still come; mark the time** (a floor, → 30-01; if no help will ever come, → 30-26) | → 12-02 |
+| **Tourniquet** | A tight band above a bleeding arm or leg wound that stops the blood. The floor (→ 30-01): **Never loosen a tourniquet once placed while help can still come; mark the time. If no help will ever come, the conversion decision is DC-25 (→ 30-26).** | → 12-02 |
 | **Wound packing** | Stuffing gauze firmly into a deep wound and pressing to stop bleeding | → 12-02 |
 | **Triage** | Sorting injured people by who benefits most from limited help | → 12-16 |
 | **Sepsis** | A life-threatening body-wide response to infection | → 12-04 |

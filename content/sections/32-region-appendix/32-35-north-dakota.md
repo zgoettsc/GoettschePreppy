@@ -304,7 +304,7 @@ An ecoregion is an area where the land, climate, soils and plants are alike (US 
 | Northwestern Glaciated Plains | 10 | 16 |
 | Lake Agassiz Plain | 6 | 9 |
 
-### Plants and trees to know (plates being added)
+### Plants and trees to know
 
 {{plates}}
 

@@ -2,7 +2,7 @@
 id: 01-01-phase-a-shelter-in-place
 section: 01-phase-playbooks
 title: "Phase A: shelter in place"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -25,7 +25,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CO alarm at pillow height (matches 08-02)." }
 ---
 
 # Phase A: shelter in place
@@ -60,7 +60,7 @@ your medicine and your beds are.
      blower and controls; running it from a generator or power station needs a safe connection
      (→ 09-04, → 30-08).{{else}}Close the house down to the warm room (→ 08-01).{{/if}}
    - **CO alarms installed and tested BEFORE any fuel-burning heater is lit.** No alarm, no
-     heater. One in the warm room at the height where people sleep (→ 08-02).
+     heater. One in the warm room at pillow height (→ 08-02).
    - **Only heaters rated for indoor use**, set up as their manual says (→ 08-04, → 08-09,
      → 08-10). Each one burning in a closed room adds carbon monoxide and uses oxygen.
    - Running a fuel-burning heater while people sleep is a trade-off the manuals forbid and some

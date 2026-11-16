@@ -14,7 +14,7 @@ sources:
   - cdc-about-handwashing-when-and-how-to-wash-your-hand-14c15a
   - us-fda-information-regarding-insulin-storage-and-swi-6448d3
   - university-of-missouri-extension-wood-fuel-for-heati-b63761
-  - nws-winter-safety-during
+  - nws-winter-storm-during
   - cdc-botulism-prevention-d03ef9
 related: [23-01-depletion-framework, 23-02-master-consumables-table, 23-04-resource-lifecycles, 23-05-skills-that-replace-supplies, 22-02-scavenging-field-guide, 08-04-emergency-heat-options, 08-01-heating-one-room, 03-04-purifying-water, 12-16-triage-and-hard-calls, 30-01-the-floors, 30-02-dc01-unvented-heater-overnight, 30-03-dc02-propane-cylinder-indoors, 30-07-dc06-fuel-in-passenger-vehicle, 30-08-dc07-diy-cord-and-plug-conversion, 30-20-dc19-when-to-leave, 30-21-dc20-open-flame-indoors]
 cards: [DC-01, DC-02, DC-06, DC-07, DC-19, DC-20]

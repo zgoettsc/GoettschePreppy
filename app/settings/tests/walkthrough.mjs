@@ -418,7 +418,7 @@ async function scenarioA(browser, base) {
     const txt = await page.textContent('.sizes');
     assert.match(txt, /Small.*about 30 to 60 MB.*For any phone/s);
     assert.match(txt, /Large.*about 300 to 400 MB.*For a phone with room to spare.*life-safety/s);
-    assert.match(txt, /Everything.*about 0\.9 to 1\.1 GB.*Everything is about 0\.9 to 1\.1 GB: put it on a laptop\./s);
+    assert.match(txt, /Everything.*about 0\.4 to 0\.9 GB.*Everything is about 0\.4 to 0\.9 GB: put it on a laptop\./s);
     assert.ok(await page.isDisabled('#route-maps'), 'route maps are off for Small');
     await page.check('#size-everything');
     assert.ok(await page.isEnabled('#route-maps'), 'route maps can be chosen for Everything');

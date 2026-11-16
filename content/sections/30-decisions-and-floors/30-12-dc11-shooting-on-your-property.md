@@ -2,7 +2,7 @@
 id: 30-12-dc11-shooting-on-your-property
 section: 30-decisions-and-floors
 title: "DC-11. Firing weapons on your own property for practice, pests or zeroing"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: card
 danger_level: critical
@@ -26,7 +26,7 @@ options:
   - id: with-backstop-rule
     label: "Only into a known backstop, nobody downrange"
     summary: "Shots only into an earth bank or backstop that will stop that ammunition, never toward a house, road or path, never at a target above the horizon, never at night, nobody downrange, neighbours told beforehand."
-settings_summary: "In a long emergency, ranges close, and households may want to practise, sight in a rifle or deal with pests at home. Every firearms safety rule says be sure of your target and what is beyond it: a bullet that misses or passes through keeps going, far past any yard or rural lot, and can ricochet off water, rock or frozen ground. In town, what is beyond is a neighbour's house. Shots also tell everyone nearby that the house is armed and occupied, and damage hearing. What helps most: no live fire at home, dry practice and traps instead (removes it); only into a solid earth backstop, never toward houses or roads, never at a target above the horizon, nobody downrange, neighbours told (reduces it a lot)."
+settings_summary: "In a long emergency, ranges close, and households may want to practise, sight in a rifle or deal with pests at home. Every firearms safety rule says be sure of your target and what is beyond it: a bullet that misses or passes through keeps going (NSSF: a .22 short bullet over 1 1/4 miles, a .30-06 more than 3 miles) and can ricochet off water, rock or frozen ground. In town, what is beyond is a neighbour's house. Shots also tell everyone nearby that the house is armed and occupied, and damage hearing. What helps most: no live fire at home, dry practice and traps instead (removes it); only into a solid earth backstop, never toward houses or roads, never at a target above the horizon, nobody downrange, neighbours told (reduces it a lot)."
 review_pass: null
 ---
 
@@ -58,9 +58,13 @@ where you aim.
 - Shooting ranges are built with berms and baffles and set distances from houses for this
   reason. Many towns ban discharge inside limits.
 
-**Why:** a bullet does not stop because it missed. A bullet from an ordinary rifle or handgun
-can carry far past any yard and many rural property lines, and it can pass through a target,
-an animal or a wall (SAAMI, Small Arms Ammunition). The shooter rarely sees where it lands.
+**Why:** a bullet does not stop because it missed. NSSF: "Once a gun fires, you have given up all
+control over where the shot will go or what it will strike." It gives the distances: even a .22
+short bullet can travel over 1 1/4 miles, a high-velocity rifle cartridge such as a .30-06 more
+than 3 miles, shotgun pellets 500 yards and shotgun slugs over half a mile (NSSF, Firearm safety:
+rules for safe gun handling). SAAMI prints the same rule (SAAMI, Small Arms Ammunition). A bullet
+can also pass through a target, an animal or a wall and keep going. The shooter rarely sees where
+it lands.
 
 > **Before the collapse:** your town and state set rules on where firearms may be discharged.
 > Look them up while they are enforced. The backstop physics below does not change with the
@@ -73,8 +77,8 @@ an animal or a wall (SAAMI, Small Arms Ammunition). The shooter rarely sees wher
 - **A shot at a target above the horizon** (a squirrel in a tree, a bird on a roof) has no
   backstop at all; the bullet comes down somewhere far away.
 - **A ricochet** off a frozen yard, a pond or a rock goes sideways or back toward people.
-- **Noise**: gunshots are loud enough to damage hearing permanently with even a few exposures
-  (CDC/NIOSH, About Noise and Hearing Loss).
+- **Noise**: "Exposure to shooting noise can damage hearing" (SAAMI), and hearing damaged by
+  loud noise does not come back (CDC/NIOSH, About Noise and Hearing Loss).
 - **Signalling**: in a tense neighbourhood, a shot says "this house is armed and occupied". It
   can start fear, rumours, or a response you did not want.
 
@@ -89,7 +93,7 @@ an animal or a wall (SAAMI, Small Arms Ammunition). The shooter rarely sees wher
 - **A known, solid earth backstop** that will stop the ammunition you use, high enough that a
   miss still hits it.
 - **Never toward a house, road, path or livestock**, whatever the backstop.
-- **Never at a target above the horizon**, and never over water or frozen ground.
+- **Never at a target above the horizon**, and never over water, rock or frozen ground.
 - **Nobody downrange.** Check before every string of shots.
 - **Daylight only.**
 - **Tell the neighbours beforehand** when and where you will shoot.

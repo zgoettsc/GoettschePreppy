@@ -2,18 +2,18 @@
 id: 00-05-safety-disclaimer
 section: 00-front-matter
 title: "Safety disclaimer — read this first"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: none
 phase: [A, B, C]
-tags: [front matter, safety, disclaimer, AI-reviewed, limits, decision cards, floors]
+tags: [front matter, safety, disclaimer, AI-reviewed, limits, decision cards, floors, privacy, Small, Large, Everything]
 derived_from: [00-05-safety-disclaimer]
 sources:
   - national-center-for-home-food-preservation-nchfp-gen-c43991
   - cdc-carbon-monoxide-poisoning-basics-772153
   - us-fda-information-regarding-insulin-storage-and-swi-6448d3
-  - cdc-recognizing-and-responding-to-anaphylaxis-645825
+  - american-academy-of-pediatrics-aap-allergy-and-anaph-3e6f49
   - us-epa-emergency-disinfection-of-drinking-water-6aa91f
 related: [00-09-private-copy-notice, 00-01-how-to-use-this-binder, 00-10-install-and-charge-discipline, 29-15-ex15-how-this-binder-was-made, 30-01-the-floors, 12-16-triage-and-hard-calls, 23-04-resource-lifecycles, 25-10-annual-review]
 cards: [DC-25]
@@ -26,7 +26,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Backfeed floor reworded to 30-01; cards 30-02..30-30; answers never stored, three sizes and private-copy reasons added; anaphylaxis to AAP." }
 ---
 
 # Safety disclaimer — read this first
@@ -54,7 +54,7 @@ make. Read it once, properly, before you rely on anything else in the binder.
 2. **Install the binder on more than one device and print the key pages** (→ 00-10). A binder
    on one dead phone is no binder.
 3. **Read the floors** (→ 30-01). They are the few rules this binder never offers as a choice.
-4. **Answer the decision cards you left open** (→ 30-02 to → 30-25). Every open card prints
+4. **Answer the decision cards you left open** (→ 30-02 to → 30-30). Every open card prints
    "Not decided yet" on the pages that depend on it.
 5. **Book the real training** while classes exist: first aid and CPR, bleeding control, and
    anything your household's medical conditions need. No book replaces hands-on practice,
@@ -71,11 +71,12 @@ Four kinds of material go into it (the full story is → 29-15):
 | **Core pages** (water, food, heat, first aid, and so on) | Re-written by an AI from one household's binder, whose facts were checked against their cited sources in November 2026 | AI review passes; never by a person for your copy |
 | **Region pages** (climate, hazards, plants, radio frequencies) | Public datasets, by state and county | AI review passes against the datasets |
 | **Household pages** (your family plan, roles, destinations) | Written by an AI from the answers you gave in settings | AI review passes; only as good as your answers |
-| **Libraries** (medical conditions, gear, explainers, decision cards) | Written once from cited public sources | AI review passes |
+| **Libraries** (medical conditions, gear, explainers, decision cards) | Written by an AI from cited public sources | AI review passes |
 
 The review passes check that numbers on dangerous pages trace back to a cited source or to your
 own answers, that one rule is stated the same way everywhere, that no blank was filled with a
 guess, that nothing personal from another household survived, and that the writing is plain.
+No person checks any of this, for the kit or for your copy.
 
 **The known limit.** An AI review can catch a page that disagrees with its source. It cannot
 catch a source that is wrong, or several sources that are all wrong in the same way. Only
@@ -89,10 +90,10 @@ They are marked `critical` at the top of the page.
 | Topic | Why | Who to plan it with now |
 |---|---|---|
 | **Medical conditions and their medicines** (Section 02) | Doses, timing and sick-day rules belong to one person and their prescriber | That person's prescriber and pharmacist |
-| **Severe allergic reactions** (→ 02-03, → 02-04) | Anaphylaxis can kill in minutes; epinephrine comes first and a second dose is often needed (CDC, Recognizing and Responding to Anaphylaxis) | The allergist |
+| **Severe allergic reactions** (→ 02-03, → 02-04) | Anaphylaxis can kill in minutes; epinephrine comes first, and a second dose may be needed (AAP, Allergy and Anaphylaxis Emergency Plan) | The allergist |
 | **Making water safe** (Section 03) | Wrong means disease; filtering and boiling do not remove salt or chemicals (US EPA, Emergency Disinfection of Drinking Water) | EPA and CDC guidance, as written |
 | **Canning and preserving food** (→ 04-04, → 04-05) | Botulism gives no warning taste or smell; only tested processes are safe (National Center for Home Food Preservation, General Canning Information) | NCHFP or your Extension office, exactly as published |
-| **Heating, fuel, generators and carbon monoxide** (Sections 06 to 09) | Carbon monoxide has no colour or smell and kills quickly (CDC, Carbon Monoxide Poisoning: Basics) | CDC guidance; the manufacturer's manual; a professional for installation |
+| **Heating, fuel, generators and carbon monoxide** (Sections 06 to 09) | Carbon monoxide has no colour or smell and kills without warning (CDC, Carbon Monoxide Poisoning: Basics) | CDC guidance; the manufacturer's manual; a professional for installation |
 | **Wild plants and mushrooms** (→ 05-06) | A wrong identification can kill and there is no antidote | A regional field guide **and** a person who knows |
 | **Firearms** (Section 14) | Mechanical safety and the law both matter | The manufacturer's manual, a qualified instructor, current law |
 | **First aid and medicines** (Section 12) | Use and dosing belong with a clinician | Your clinicians |
@@ -107,8 +108,9 @@ with the reason, on every page where it applies, and never prints a choice box f
 list, with the reasons, is → 30-01. In short:
 
 - Never run a generator, charcoal, or any engine indoors, in a garage, or near an open window.
-- Never connect a generator to house wiring without a transfer switch, interlock, or a
-  cord-and-plug conversion with the main breaker locked off. Never backfeed through an outlet.
+- Never connect a generator to house wiring except through a transfer switch, or an interlock
+  kit with the main breaker off. Never backfeed through an outlet with a double-male ("suicide")
+  cord.
 - Never loosen a tourniquet once placed while help can still come; mark the time. If no help
   will ever come, the conversion decision is DC-25 (→ 30-26).
 - Low-acid foods are pressure-canned to the published time and pressure, or not canned.
@@ -120,7 +122,7 @@ list, with the reasons, is → 30-01. In short:
 
 **Decision cards are choices.** Many survival questions are real trade-offs: an unvented heater
 while people sleep, fuel in the car, medicine past its date. Each one has a card (→ 30-02 to
-→ 30-25) that explains the hazard, what the manufacturer or agency says and why, how people get
+→ 30-30) that explains the hazard, what the manufacturer or agency says and why, how people get
 hurt, what makes it safer, and the options. **Your household picks.** The binder prints your
 answer wherever the trade-off comes up, and "Not decided yet" where you have not chosen. It never
 presents another family's choice as the answer.
@@ -142,7 +144,28 @@ These are choices, not oversights:
 - **No made-up pictures for identification.** Plant and injury pictures come from published,
   attributed sources.
 - **No web links.** There is no internet to look things up. Sources are named by title,
-  publisher and date; in the Large download the source document itself sits behind the page.
+  publisher and date on every page. Which source documents are inside your file depends on the
+  size you downloaded (below).
+
+## Your answers, your file, and its size
+
+- **Your answers are never stored.** There is no account and no database. Your answers were sent
+  once, through a relay that checks your access key and keeps only a count of requests, to the AI
+  service that wrote your binder. Nothing keeps them except this binder and, if you saved one,
+  the answers file on your own device (→ 00-09).
+- **Three sizes.** {{#if size.everything}}You downloaded **Everything**: every source document
+  the binder cites is bound inside the file, behind the page that cites it.{{else}}{{#if size.large}}You
+  downloaded **Large**: the source documents cited by the life-safety sections (medical
+  conditions, water, food storage and canning, fire and fuel, heating, power, first aid, hazards,
+  children, radiation and chemical events, decision cards and floors) are bound inside the file.
+  Documents cited only by other sections are named by title and are in the **Everything**
+  download.{{else}}You downloaded **Small**: no source document is inside the file; each one is
+  named by title, publisher and date. **Large** binds the documents behind the life-safety
+  sections, and **Everything** binds every one.{{/if}}{{/if}} The table is on → 00-09.
+- **This file is private.** {{#if size.large}}It contains other people's copyrighted documents,
+  fetched for your household's personal use, so giving it to anyone else breaks copyright.{{else}}It
+  holds your family's private details, and a Large or Everything copy made from it would contain
+  other people's copyrighted documents.{{/if}} **Do not share it** (→ 00-09).
 
 ## Using it safely: five rules
 

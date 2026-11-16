@@ -11,11 +11,12 @@ tags: [food, eggs, chickens, water glassing, salmonella, allergens, storage, can
 derived_from: [04-15-eggs-storage]
 sources:
   - utah-state-university-extension-storing-eggs-safely-aff5e9
-  - colorado-state-university-extension-livesmart-colora-df3038
+  - k-state-research-and-extension-storing-eggs-safely-2020
+  - penn-state-extension-eggs-from-home-flock-2024
+  - fda-what-you-need-to-know-about-egg-safety
+  - nchfp-freezing-eggs
   - foodsafety-gov-usda-hhs-cook-to-a-safe-minimum-inter-13daf3
   - us-fda-food-allergies-627fb6
-  - national-center-for-home-food-preservation-nchfp-gen-c43991
-  - penn-state-extension-eggs-from-home-flock-2024
 related: [04-06-dehydrating, 04-09-winter-cold-storage, 04-17-food-safety-power-outage, 05-04-backyard-chickens, 07-01-cooking-on-an-open-fire, 12-05-common-illness-and-dehydration, 18-02-barter-and-trade-goods, 20-02-child-safety-offgrid, 02-03-cl03-anaphylaxis, 02-04-cl04-food-allergy, 30-15-dc14-questionable-food, 30-19-dc18-unlabeled-food-and-allergies, 30-28-dc27-water-glassed-eggs]
 cards: [DC-27, DC-18]
 explainers: []
@@ -45,11 +46,12 @@ cook eggs safely.
 
 ## Do this now
 
-1. **Know which eggs you have.** **Washed (store) eggs** are kept at **45 °F or below** (FDA). In
+1. **Know which eggs you have.** **Washed (store) eggs** are kept at **40 °F or below** (FDA,
+   What You Need to Know About Egg Safety). In
    an outage, that means measured cold (→ 04-09) or eat them first (→ 04-17). **Unwashed,
    freshly laid eggs** (your own hens or a farm) are the only eggs the methods below apply to.
 2. **Cook eggs and egg dishes to safe temperatures:** eggs until yolk and white are firm; egg
-   dishes to **160 °F** (FoodSafety.gov). With no medical care, cook them through.
+   dishes to **160 °F** (FDA; FoodSafety.gov). With no medical care, cook them through.
 3. **Crack every stored egg into a separate bowl first** and smell it.
 4. **Use the tested long-term methods first:** freezing (out of the shell) and drying fully
    cooked egg.
@@ -85,11 +87,14 @@ Traded or scavenged food containing egg for an allergic person: {{choice DC-18}}
 A freshly laid egg has a natural coating (the **bloom**) that seals the shell and keeps bacteria
 out. **US commercial eggs are washed,** which removes it, so they need refrigeration.
 
-**Unwashed, freshly laid eggs** keep much longer:
+**Unwashed, freshly laid eggs** keep their bloom, which is why the traditional methods start
+from them. No source used here gives a safe time for keeping them out of the fridge:
 
-- **Room temperature, unwashed:** commonly a few weeks.
-- **Cool cellar (about 50 °F), unwashed:** longer.
-- **Do not wash them until you use them.** Washing starts the clock.
+- **The safe storage temperature is 40 °F or below** (FDA). Penn State Extension notes that a
+  pantry or basement is very unlikely to reach and hold that.
+- **Use unrefrigerated eggs first,** and check each one (below).
+- **Do not wash them until you use them.** Brushing, washing or rough handling damages the bloom
+  (Penn State Extension).
 
 ## Long-term methods (unwashed eggs only)
 
@@ -98,25 +103,28 @@ Two methods are **tested and recommended** (freezing, and drying cooked egg). Tw
 
 | Method | How | Planning life | Status |
 |---|---|---|---|
-| **Freezing** (out of the shell) | Beat and freeze in portions | Months (needs a freezer or measured hard-freeze cold, → 04-09) | **Recommended** (NCHFP; Utah State University Extension). First choice when cold is available |
-| **Drying** | **Fully cooked** (scrambled hard), dried, powdered | Months; quality varies | **Recommended.** Cooked first, so the *Salmonella* question is settled before storage (→ 04-06) |
-| **Cool storage** | Unwashed eggs kept cool (45 °F or below is ideal) and dark | Weeks to a couple of months | Standard |
-| **Water glassing** | Clean, unwashed, uncracked eggs under a pickling-lime (calcium hydroxide) and water solution in a sealed food-safe container, kept cool | Often claimed as a year; households that use it often plan on about 6 months | **Not recommended.** Utah State University Extension calls it unsafe and not recommended; Colorado State University Extension does not recommend it |
-| **Oiling** | Fresh unwashed eggs coated in food-grade mineral oil, stored cool, small end down | A few months | Same evidence status as water glassing |
+| **Freezing** (out of the shell) | Break each egg into a saucer and check it, mix yolk and white, freeze in portions (NCHFP, Freezing Eggs) | Months (needs a freezer or measured hard-freeze cold, → 04-09) | **Recommended** (NCHFP; Penn State Extension). First choice when cold is available |
+| **Drying** | **Fully cooked** (scrambled hard), dried, powdered | Quality varies; keep it dry and sealed | Cooked first, so the *Salmonella* question is settled before storage (→ 04-06) |
+| **Cool storage** | Unwashed eggs kept as cold as you can, dark | No tested time: use them first | Refrigeration at 40 °F or below is the published standard (FDA); a cellar is usually warmer |
+| **Water glassing** | Clean, unwashed, uncracked eggs under a pickling-lime (calcium hydroxide) and water solution in a sealed food-safe container, kept cool | No tested storage time | **Not recommended** by Utah State University Extension ("not considered safe"), Kansas State University Research and Extension, or Penn State Extension. Decision card DC-27 |
+| **Oiling** | Fresh unwashed eggs coated in food-grade mineral oil, stored cool, small end down | No tested storage time | Not tested; no source used here recommends it |
 
-**Why Extension says no to water glassing and oiling:** *Salmonella* already inside an egg can
-multiply over months at room temperature, and the lime solution has never been tested as a
-barrier (Utah State University Extension, Storing Eggs Safely; Colorado State University
-Extension, Preserving Eggs). Penn State Extension adds that the membrane under the shell lets
-water, and any germs in it, into the egg (How to Safely Handle and Store Eggs from Your Home
-Flock, 2024).
+**Why Extension says no to water glassing:** *Salmonella* can get inside the egg while it forms
+in the hen, and there is no way to know it is there (Utah State University Extension, Storing
+Eggs Safely, 2023; Kansas State University Research and Extension, Storing Eggs Safely, 2020).
+Penn State Extension adds that the membrane under the shell lets water, and any germs in it,
+into the egg, and that a pantry or basement will not stay cold enough to stop germs already
+inside from growing (How to Safely Handle and Store Eggs from Your Home Flock, 2024). Oiling has
+no published testing either way; the same germs-inside problem applies.
 
 **The trade-off.** Some households water-glass anyway, because the alternative is no eggs
-through a winter with no fresh food. Those that do usually apply four conditions together:
-candle every egg before use (below), cook it hard (never runny; 160 °F in dishes), keep it from
-anyone at higher risk or with an egg allergy, and treat the bucket as a roughly 6-month food, not
-a 12-month one. Thorough cooking is what reduces the *Salmonella* risk; it does not make the
-method tested. Whether your household water-glasses at all is a decision card: following
+through a winter with no fresh food. The card's "with rules" option means all of these, every
+time: only clean, unwashed, uncracked fresh eggs; food-grade pickling lime; a sealed container
+kept as cool as possible, for the shortest time you can manage; every egg checked before use
+(below), and any cracked, floating or off egg thrown out; every egg cooked until yolk and white
+are firm (160 °F in dishes); and none for anyone allergic to egg. Thorough cooking is what
+reduces the *Salmonella* risk; it does not make the method tested, and there is no tested
+storage time. Whether your household water-glasses at all is a decision card: following
 Extension means no stored eggs once cold storage fails; water-glassing accepts a *Salmonella*
 risk that cooking reduces but does not remove. {{choice DC-27}} → 30-28.
 
@@ -140,11 +148,12 @@ sealed, labelled, raised, out of reach.
 
 ## Safe cooking
 
-- **Eggs:** until yolk and white are firm.
-- **Egg dishes** (quiche, frittata, custard): **160 °F.**
+- **Eggs:** until yolk and white are firm (FDA).
+- **Egg dishes** (quiche, frittata, custard): **160 °F** (FDA; FoodSafety.gov).
 - **Casseroles:** **165 °F** (FoodSafety.gov).
-- Runny eggs are a higher-risk food; with no medical care, cook them through. Children, elders,
-  pregnant women and anyone with a weak immune system are most at risk from *Salmonella*.
+- Runny eggs are a higher-risk food; with no medical care, cook them through. Children, older
+  adults, pregnant women and anyone with a weak immune system (including people with diabetes)
+  are most at risk from *Salmonella* (FDA).
 
 ## Gear and supplies
 

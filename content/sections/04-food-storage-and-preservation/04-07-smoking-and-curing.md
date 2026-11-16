@@ -13,6 +13,9 @@ sources:
   - national-center-for-home-food-preservation-nchfp-cur-f095b6
   - nchfp-curing-and-smoking-meats-literature-review
   - usda-nchfp-usda-complete-guide-to-home-canning-2015-a67ac0
+  - oregon-state-extension-pnw-784-making-cured-bacon-at-home-2025
+  - usda-fsis-9-cfr-424-21-food-ingredients-and-sources-of-radiation
+  - atsdr-toxicological-profile-nitrate-nitrite-2017
   - foodsafety-gov-usda-hhs-cook-to-a-safe-minimum-inter-13daf3
   - cdc-carbon-monoxide-poisoning-basics-772153
 related: [04-05-canning-pressure, 04-06-dehydrating, 04-09-winter-cold-storage, 04-13-salt-sugar-vinegar, 05-07-hunting, 05-09-field-dressing-and-butchering, 06-02-sustaining-fire, 06-05-alternative-fuels, 07-01-cooking-on-an-open-fire, 14-03-opsec, 18-02-barter-and-trade-goods, 20-02-child-safety-offgrid, 12-17-poisoning-and-ingestion, 29-03-ex03-carbon-monoxide, 29-08-ex08-canning-words, 30-01-the-floors]
@@ -50,25 +53,35 @@ or drying is the better choice.
 ## Do this now
 
 1. **Use a tested recipe** (NCHFP, USDA or Extension) for anything cured. Salt and nitrite levels
-   are the safety control, not seasoning.
+   are the safety control, not seasoning. Nitrite and nitrate salts are toxic enough that they
+   are used only in the amounts a researched recipe sets (Oregon State University Extension,
+   Making Cured Bacon at Home, PNW 784, 2025).
 2. **Know which you are doing:** **hot smoking** cooks the food (safe once it reaches a safe
    inside temperature); **cold smoking** is flavour only (the meat must be cured first and is
    often still raw).
 3. **Buy curing salt now.** It is cheap, keeps well, and will be hard to get later. **Know which
    one you are buying; they look alike and are not interchangeable:**
-   - **Cure #1** (also sold as Prague Powder #1 or "pink salt"; 6.25 percent sodium nitrite):
-     for bacon, ham, sausage, corned meat, **anything that will be cooked or smoked.** **Rate:
-     1 LEVEL TEASPOON (about 5.7 g) per 5 lb (2.27 kg) of meat, about 0.25 percent by weight,
-     about 1.1 g per lb. NEVER MORE.** Weigh the meat; weigh the cure.
+   - **Cure #1** (also sold as Prague Powder #1, Insta Cure #1 or "pink salt"; 6.25 percent
+     sodium nitrite, the rest table salt): for bacon, ham, sausage, corned meat, **anything
+     that will be cooked or smoked.** **Rate: 1 LEVEL TEASPOON per 5 lb of meat, NEVER MORE,
+     unless the tested recipe or the cure's own label says less** (Oregon State University
+     Extension, PNW 784). By weight that is about 5.7 g of Cure #1 per 5 lb (2.27 kg) of meat:
+     the same nitrite level US federal rules allow in commercial sausage, ¼ oz of sodium nitrite
+     per 100 lb of chopped meat (USDA FSIS, 9 CFR 424.21). Weigh the meat; weigh the cure.
    - **Cure #2** (Prague Powder #2; nitrite plus nitrate): **ONLY for dry-cured whole-muscle or
-     salami recipes that hang for weeks** (the nitrate converts slowly). **Never in bacon, jerky
-     or anything fried or eaten within days.**
+     salami recipes that hang for weeks** (the nitrate converts slowly). **Not for bacon**
+     (Oregon State University Extension, PNW 784), **jerky or anything eaten within days.**
    - Both are dyed pink and look like pink table salt. **Label "POISON: NOT SALT", never put it
-     in a shaker, keep it locked** (→ 20-02). **A level teaspoon of Cure #1 holds about 0.35 g
-     of nitrite, a poisoning dose for a small child;** about 1 to 2 g can kill an adult. If a
-     child swallows any: → 12-17.
-4. **Keep meat cold while curing: 36 to 40 °F** (a fridge, or measured outdoor or garage cold
-   with a thermometer, → 04-09). Curing does not rescue meat that has already sat warm.
+     in a shaker, keep it locked** (→ 20-02). Nitrite stops the blood carrying oxygen
+     (methemoglobinemia). People have died after using sodium nitrite in place of table salt,
+     and after swallowing a single tablet that held about two-thirds of a gram of nitrite
+     (ATSDR, Toxicological Profile for Nitrate and Nitrite, 2017). **A level teaspoon of Cure #1
+     holds about a third of a gram of sodium nitrite: treat any swallowed amount as an
+     emergency, above all in a small child.** If anyone swallows it: → 12-17, and call Poison
+     Control (1-800-222-1222) while phones work.
+4. **Keep meat cold while curing: 40 °F or colder, not frozen** (a fridge, or measured outdoor
+   or garage cold with a thermometer, → 04-09; Oregon State University Extension, PNW 784).
+   Curing does not rescue meat that has already sat warm.
 5. **Stockpile plain salt heavily** (→ 04-13). It is the master preservative.
 
 {{photo curing-salt-storage}}
@@ -78,8 +91,8 @@ or drying is the better choice.
 | Process | What it does | Safe on its own? |
 |---|---|---|
 | **Curing** (salt, with or without nitrite; dry rub or brine) | Draws out water, slows bacteria, and with nitrite specifically blocks botulism | **This is the preserving step** |
-| **Hot smoking** (meat reaches about 165 °F or more inside) | Cooks and flavours | Safe once it reaches a safe inside temperature, but it is **cooked meat**, not shelf-stable, unless it was also cured |
-| **Cold smoking** (smoke below about 90 °F) | Flavour and surface drying only | **Not safe alone:** the meat must be properly cured first |
+| **Hot smoking** (the meat reaches its safe inside temperature, FoodSafety.gov chart, → 07-01) | Cooks and flavours | Safe once it reaches that temperature, but it is **cooked meat**, not shelf-stable, unless it was also cured |
+| **Cold smoking** (smoke kept cool enough that the meat does not cook) | Flavour and surface drying only | **Not safe alone:** the meat must be properly cured first |
 
 **The most common dangerous mistake** is cold smoking uncured meat and treating it as
 preserved. It is raw meat held for hours at the temperatures bacteria like best.
@@ -92,8 +105,8 @@ and why "just use sea salt" is not the same thing for those products (NCHFP, Cur
 Meats for Home Food Preservation).
 
 **Handle with respect.** The pink dye is there so it is not mistaken for table salt. **Measure
-by weight: 1 level teaspoon of Cure #1 per 5 lb of meat is the ceiling, and a tested recipe sets
-the method. Store it locked.** With small children in the house, treat it like any other
+carefully, by weight if you can: 1 level teaspoon (about 5.7 g) of Cure #1 per 5 lb of meat is
+the ceiling, and a tested recipe sets the method. Store it locked.** With small children in the house, treat it like any other
 poison (→ 20-02).
 
 ## What works without nitrite
@@ -115,12 +128,13 @@ An outdoor fire pit, grill or improvised smokehouse (→ 07-01) can hot smoke we
 - **Keep a low, steady fire with plenty of smoke:** hardwood coals plus damp chips (→ 06-02).
 - **Use thermometers** for both the chamber and the inside of the meat. Guessing is how people
   get sick.
-- **Hot smoke to a safe inside temperature** (→ 07-01 has the numbers) and treat the result as
-  cooked food, not shelf-stable.
+- **Hot smoke to a safe inside temperature** (→ 07-01 has the numbers; Oregon State Extension's
+  smoked bacon is taken to 160 °F inside) and treat the result as cooked food, not
+  shelf-stable.
 - **Do not smoke with softwoods** (pine, spruce) or any treated or painted wood: resinous smoke
   tastes terrible and treated wood is poisonous (→ 06-05).
-- **Cold smoking** is only practical in cold weather, when the air keeps the chamber below about
-  90 °F and the meat cold. {{#if is.cold_winters}}Your winters make that possible; the cure still
+- **Cold smoking** is only practical in cold weather, when the air keeps the chamber cool and
+  the meat cold. {{#if is.cold_winters}}Your winters make that possible; the cure still
   has to be right.{{else}}In a mild climate it is hard to do safely; hot smoke instead.{{/if}}
 
 ## Storage after curing
@@ -136,7 +150,7 @@ An outdoor fire pit, grill or improvised smokehouse (→ 07-01) can hot smoke we
 |---|---|---|
 | **Curing salt: Cure #1** (and Cure #2 only if you will dry-cure) | The botulism control in cured meat | 1 level tsp per 5 lb meat, never more; labelled **POISON: NOT SALT**; **locked** |
 | **Plain salt, in bulk** | The master preservative | → 04-13; buy a lot |
-| **A tested recipe for each product** | The method and amounts | NCHFP, USDA or Extension; in the Large download, the NCHFP curing pages are bound behind this page |
+| **A tested recipe for each product** | The method and amounts | NCHFP, USDA or Extension; in the Large and Everything downloads, the "Sources for this page" list below links to each bound document |
 | Digital thermometers (chamber and probe) | Safety, not preference | Two is one, one is none |
 | Smoker, or a smoking setup on an outdoor fire | Hot smoking | Can be improvised; always outdoors |
 | Hardwood chips or chunks (not softwood) | Smoke flavour | Fruit wood, hickory, oak |

@@ -26,6 +26,7 @@ const read = f => JSON.parse(fs.readFileSync(path.join(DATA, f), 'utf8'));
 const national = read('national.json');
 const offices = read('nws-offices.json');
 const ecoregions = read('ecoregions.json');
+const ecoPlants = (() => { try { return read('ecoregion-plants.json').ecoregions || {}; } catch { return {}; } })();
 const detail = read('counties-detail.json');
 const sourcesMeta = read('sources.json');
 const states = fs.readdirSync(path.join(DATA, 'states')).filter(f => f.endsWith('.json'))
@@ -248,11 +249,14 @@ function statePage(s, i) {
     `for each ecoregion are what to learn before you forage or cut firewood there. → 05-06 → 05-17`, '');
   L.push(table(['Ecoregion', `Main ecoregion in (${units})`, `Present in (${units})`],
     [...shares.entries()].sort((a, b) => b[1].present - a[1].present).map(([nm, o]) => [nm, o.main, o.present])), '');
-  const plates = [...new Set([...shares.keys()].flatMap(nm => {
-    const e = ecoregions[nm]; if (!e) return [];
-    return [...(e.plants?.deadly || []), ...(e.plants?.edible || []), ...(e.trees?.firewood || [])];
-  }))];
-  L.push(plates.length ? '### Plants and trees to know' : '### Plants and trees to know (plates being added)', '', '{{plates}}', '');
+  // D2's lists (data/regions/ecoregion-plants.json) are merged by build-kit; `plates:` stays empty so
+  // the binder renders this state's lists with render.js regionPlates ("learn these first" as plates).
+  const plates = [];
+  const listed = [...shares.keys()].some(nm => {
+    const e = ecoregions[nm] || {}, d = ecoPlants[nm] || {};
+    return (e.plants?.deadly || []).length || (d.deadly || []).length;
+  });
+  L.push(listed ? '### Plants and trees to know' : '### Plants and trees to know (plates being added)', '', '{{plates}}', '');
 
   L.push('## Sources', '',
     'U.S. Census Bureau, 2024 Gazetteer Files. USGS, 3D Elevation Program. NOAA NCEI, U.S. Climate Normals 1991-2020. ' +

@@ -10,14 +10,16 @@ phase: [A, B, C]
 tags: [condition library, opioids, chronic pain, naloxone, overdose, withdrawal, methadone, buprenorphine, taper, fentanyl, supply clock]
 derived_from: [12-13-pain-and-fever, 12-15-mental-health-crisis]
 sources:
+  - cdc-what-to-do-if-someone-is-overdosing-r11
   - cdc-lifesaving-naloxone
+  - narcan-otc-drug-facts-r11
   - fda-otc-naloxone-2023
   - medlineplus-opioid-withdrawal
+  - medlineplus-oxycodone-r11
   - samhsa-tip-63-moud
-  - fda-opioid-tapering-dsc-2019
   - cdc-opioid-prescribing-guideline-2022
-  - dea-one-pill-can-kill
-  - fda-loperamide-heart-dsc-2016
+  - cdc-fentanyl-facts-r11
+  - medlineplus-loperamide-r11
   - world-health-organization-cholera-outbreaks-q-and-a-162558
   - 988-suicide-and-crisis-lifeline-samhsa-988-suicide-a-5f45b0
   - fda-dont-be-tempted-to-use-expired-medicines
@@ -72,33 +74,44 @@ without judgement: dependence is a medical state.
 {{#if has.condition.CL-17}}**Someone in your household has this condition.** This module is at the front of the medical section for you.{{else}}**Nobody in your household is marked with this condition.** The module stays in the binder because an overdose can happen to a visitor, a neighbour or a teen; part "Do this now" is for everyone.{{/if}}
 
 > **SAFETY**
-> - **Every household should keep naloxone.** It reverses an opioid overdose, it is sold without
->   a prescription (FDA, 2023), and it does no harm to someone who has not taken opioids (CDC,
->   Lifesaving Naloxone).
-> - **Children do not have access to firearms, fuel, medications or chlorine products.** One
->   opioid tablet, a used fentanyl patch or a sip of methadone can kill a small child (floor,
->   → 30-01).
+> - **Every household should keep naloxone.** It reverses an opioid overdose and the nasal spray
+>   is sold without a prescription (FDA, 2023). CDC says it will not harm someone who is
+>   overdosing on drugs other than opioids, so give it whenever an opioid overdose is possible
+>   (CDC, Lifesaving Naloxone).
+> - **Children do not have access to firearms, fuel, medications or chlorine products.**
+>   MedlinePlus warns that an opioid such as oxycodone may harm or kill other people who take
+>   it, especially children (MedlinePlus, Oxycodone) (floor, → 30-01).
 > - **Do not stop prescribed opioids suddenly, and do not invent a taper.** The plan comes from
 >   the prescriber (part 7).
 > - **This page never calculates, adjusts or suggests a dose.**
 
 ## Do this now: possible opioid overdose
 
-**Signs** (CDC, Lifesaving Naloxone): very small ("pinpoint") pupils; falling asleep or cannot be
-woken; slow, weak or no breathing; choking or gurgling sounds; a limp body; cold, clammy skin;
-blue or grey lips and nails.
+**Signs** (CDC, What to Do If You Think Someone Is Overdosing): cannot be woken or is
+unconscious; slow or shallow breathing, or trouble breathing such as choking sounds or a gurgling
+or snoring noise; discoloured skin, especially the nails or lips; small "pinpoint" pupils that do
+not react to light. CDC: if you are not sure, treat it as an overdose.
 
-1. **Shout their name and rub hard on the breastbone.** No response: act.
-2. **Call 911** if any phone works.
-3. **Give naloxone** as its Drug Facts label shows (nasal spray: one spray into one nostril).
-   CDC: if there is no response in 2 to 3 minutes, give another dose (CDC, Lifesaving Naloxone).
-   Use a new device in the other nostril.
-4. **Breathing?** Roll them on their side so they do not choke (→ 12-18 for the position).
-   **Not breathing normally:** start CPR (→ 12-18).
-5. **Stay with them.** Naloxone can wear off before the opioid does, and they can stop breathing
-   again (CDC, Lifesaving Naloxone). Watch for hours; give another dose if signs return.
-6. When they wake they may be in sudden withdrawal: sick, sweaty, upset. Keep them warm and calm.
-   It is not dangerous in itself; the overdose was.
+The steps below follow the Drug Facts label on the over-the-counter naloxone nasal spray
+(Narcan 4 mg, Drug Facts, 2023). Other naloxone products have their own label; read yours now.
+
+1. **Check.** Yell "Wake up!" and shake them gently. Not awake, very sleepy or not breathing
+   well: go on.
+2. **Give the first dose.** Thumb on the bottom of the plunger, nozzle into either nostril, press
+   firmly. Each device sprays once.
+3. **Call 911** at once if any phone works.
+4. **Watch and give.** Wait 2 to 3 minutes. If they do not wake up, keep giving doses every 2 to
+   3 minutes, each with a new device, until they wake up; the label says it is safe to keep
+   giving doses.
+5. **Keep them breathing and on their side.** CDC: try to keep the person awake and breathing,
+   and lay them on their side to prevent choking (→ 12-18 for the position). **Not breathing
+   normally:** start CPR (→ 12-18).
+6. **Stay.** The label says to stay until the ambulance arrives, even if they wake up, and to
+   give another dose if they become very sleepy again. With no ambulance coming, CDC says stay
+   with them for at least four hours (CDC, Lifesaving Naloxone). With strong opioids such as
+   fentanyl, more than one dose may be needed (CDC).
+7. When they wake they may be in sudden withdrawal: shaking, sweating, sick, angry. The label
+   says this is to be expected. Keep them warm and calm.
 
 {{figure fig-naloxone-nasal-spray}}
 
@@ -110,8 +123,9 @@ blue or grey lips and nails.
 
 **Opioids** relieve pain by acting on receptors in the brain and body. Taken daily, the body
 becomes **physically dependent**: it needs the drug to feel normal, and stopping causes
-withdrawal. That happens to anyone on daily opioids, including people taking them exactly as
-prescribed (FDA, Opioid Tapering Drug Safety Communication, 2019). **Opioid use disorder** is
+withdrawal. MedlinePlus says withdrawal follows stopping or cutting back after heavy use for a
+few weeks or more (MedlinePlus, Opiate and Opioid Withdrawal), and warns people taking
+prescribed opioids regularly not to stop suddenly (MedlinePlus, Oxycodone). **Opioid use disorder** is
 different: a pattern of use that harms the person and is hard to control. It is treated with
 medicines such as methadone and buprenorphine, which prevent withdrawal and cravings (SAMHSA,
 TIP 63). **Chronic pain** is pain that lasts months; it may or may not be treated with opioids.
@@ -120,9 +134,9 @@ TIP 63). **Chronic pain** is pain that lasts months; it may or may not be treate
 
 | What | Clock | When it is gone |
 |---|---|---|
-| Prescribed opioid tablets or patches | Days on hand from the bottle (part 7). | Withdrawal begins within hours to two days (part 4), and the pain returns. |
-| Methadone from a clinic | Usually dispensed daily, with some take-home doses. | Withdrawal within a day or two (part 4). |
-| Buprenorphine (tablets, films, monthly injection) | Days on hand, or the next injection date. | Withdrawal, often slower to start than with short-acting opioids. |
+| Prescribed opioid tablets or patches | Days on hand from the bottle (part 7). | Withdrawal begins within hours to days (part 4), and the pain returns. |
+| Methadone from a clinic | Usually dispensed daily, with some take-home doses. | Withdrawal (part 4). |
+| Buprenorphine (tablets, films, monthly injection) | Days on hand, or the next injection date. | Withdrawal; ask the prescriber what to expect. |
 | Naloxone | Expiry date on the package. Keep at least two. | No way to reverse an overdose. |
 | Over-the-counter pain relievers | Count them (→ 12-13). | Fewer options for pain. |
 
@@ -132,9 +146,11 @@ TIP 63). **Chronic pain** is pain that lasts months; it may or may not be treate
   Not in a car or a hot attic.
 - **Used fentanyl patches still hold drug.** Fold them sticky side together as the label directs
   and dispose of them where no child or pet can reach.
-- **Naloxone:** the Drug Facts label gives the temperature range. Keep it at room temperature,
-  away from heat and freezing, where every adult can reach it fast. Copy the range here:
-  ________
+- **Naloxone:** the Drug Facts label gives the temperature range. For Narcan 4 mg nasal spray it
+  says: store at room temperature or refrigerated, 36 °F to 77 °F; do not freeze; avoid heat
+  above 104 °F; protect from light; keep it in its sealed blister (Narcan 4 mg, Drug Facts).
+  Other products differ. Keep it where every adult can reach it fast, and copy your product's
+  range here: ________
 - **Expired naloxone or medicine** when nothing else exists: {{choice DC-04}} (→ 30-05). In an
   overdose with only expired naloxone at hand, the card's reasoning applies.
 
@@ -144,25 +160,32 @@ TIP 63). **Chronic pain** is pain that lasts months; it may or may not be treate
 muscle aches, watery eyes, runny nose, sweating, yawning, trouble sleeping. Later: stomach
 cramps, diarrhoea, enlarged pupils, goose bumps, nausea and vomiting.
 
-**Timeline, as published** (SAMHSA, TIP 63: Medications for Opioid Use Disorder):
+**Timeline, as published** (SAMHSA, TIP 63: Medications for Opioid Use Disorder, 2021,
+Exhibit 2.10, Physical Signs of Opioid Withdrawal and Time to Onset):
 
-| Type of opioid | Withdrawal starts | Withdrawal lasts |
+| Stage | Short-acting opioids | Long-acting opioids |
 |---|---|---|
-| Short-acting (for example heroin, oxycodone, hydrocodone) | 8 to 24 hours after the last use | 4 to 10 days |
-| Long-acting (methadone) | 12 to 48 hours after the last use | 10 to 20 days |
+| Early withdrawal | 8–24 hours after last use | Up to 36 hours after last use |
+| Fully developed withdrawal | 1–3 days after last use | 72–96 hours after last use |
+| Total duration of withdrawal | 7–10 days | 14 days or more |
 
-Buprenorphine is long-acting; ask the prescriber what to expect. Low mood, poor sleep and
-craving can last for weeks after the physical symptoms end.
+MedlinePlus gives a similar start: usually within 12 hours of the last heroin use and within 30
+hours of the last methadone (MedlinePlus, Opiate and Opioid Withdrawal). Which group a medicine
+is in, and what to expect with buprenorphine, is a question for the prescriber. TIP 63 adds that
+after the first phase, many people have low mood, craving, poor sleep and more pain for weeks or
+months.
 
-**Is it dangerous?** MedlinePlus says opioid withdrawal is very uncomfortable but generally not
-life-threatening in itself. The real dangers are:
-- **Dehydration** from vomiting and diarrhoea (part 6).
-- **Overdose after withdrawal.** Tolerance drops within days. A person who goes back to their
-  old amount, or takes an unknown pill, can stop breathing. MedlinePlus names returning to drug
-  use as the most serious complication (MedlinePlus, Opiate and Opioid Withdrawal).
-- **For people on prescribed opioids for pain**, FDA reports serious harm from sudden stopping:
-  severe withdrawal, uncontrolled pain, psychological distress and suicide (FDA, 2019).
-  Watch mood; → 12-15 if needed.
+**Is it dangerous?** MedlinePlus says opioid withdrawal is painful but usually not
+life-threatening, and that withdrawing on your own can be very hard and may be dangerous. The
+real dangers are (MedlinePlus, Opiate and Opioid Withdrawal):
+- **Dehydration** and upset body salts from vomiting and diarrhoea (part 6), and vomit breathed
+  into the lungs (keep a drowsy, vomiting person on their side).
+- **Overdose after withdrawal.** MedlinePlus names returning to the drug as the biggest
+  complication: most opioid overdose deaths happen in people who have just gone through
+  withdrawal, because tolerance is gone and a much smaller amount can kill. An unknown pill is
+  worse still (part 8).
+- **Mood.** Withdrawal and uncontrolled pain are hard to bear. Watch for hopelessness or talk of
+  suicide; → 12-15 if needed.
 - **If alcohol or benzodiazepines are also involved,** withdrawal from those can be
   life-threatening (→ 02-16).
 
@@ -171,8 +194,8 @@ rehydration: the WHO home recipe is 1 litre safe water, 6 level teaspoons sugar 
 teaspoon salt; WHO, Cholera Q&A; safety notes on → 12-05), small bland meals, warm baths or
 blankets, company, and someone checking on them. Over-the-counter medicines for diarrhoea, nausea
 or aches only as their labels say (→ 12-13). **Do not exceed the label for loperamide**
-(Imodium): FDA has warned that high doses cause serious heart problems and deaths (FDA,
-Loperamide, 2016).
+(Imodium): MedlinePlus warns that more than the recommended amount can cause heart problems that
+may be serious or cause death (MedlinePlus, Loperamide).
 
 ## 5. Warning signs that mean an emergency
 
@@ -195,9 +218,9 @@ Loperamide, 2016).
 
 ## 7. What to stock, and how much
 
-**Ask your prescriber or clinic now, while you can, and write it here.** Why it matters: FDA has
-told prescribers that opioids should be reduced gradually, with a plan fitted to the person,
-because sudden stopping causes harm (FDA, 2019). If supply is going to run out, a written
+**Ask your prescriber or clinic now, while you can, and write it here.** Why it matters:
+MedlinePlus tells people taking an opioid regularly not to stop it or cut the dose quickly
+without the doctor, who will probably lower the dose gradually (MedlinePlus, Oxycodone). If supply is going to run out, a written
 step-down plan turns a crash into a slope. Without it the household is left choosing between a
 sudden stop and guessing, and both are dangerous. **Only the prescriber can write the steps.**
 
@@ -212,19 +235,21 @@ sudden stop and guessing, and both are dangerous. **Only the prescriber can writ
 - What should we do for a flare of pain if no prescribed medicine is left? ______________
 Prescriber or clinic: ____________________ Date: __________
 
-**Stock arithmetic.** Days on hand = on hand ÷ used per day. Every household medicine row is
-printed; use the ones for this condition.
+**Stock arithmetic.** Days on hand = on hand ÷ used per day. The medicines tagged for this
+condition in settings are printed; if none is tagged, every medicine row is, and you use the
+ones for this condition.
 
 | Medicine or supply | On hand | Used per day | Days on hand | Days you want | Still to get |
 |---|---|---|---|---|---|
-{{#each meds as m}}| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
-{{/each}}| Naloxone (at least two doses) | ____ | | | ____ | ____ |
+{{#each meds_for.CL-17 as m}}| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
+{{else}}{{#each meds as m}}| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
+{{/each}}{{/each}}| Naloxone (at least two doses) | ____ | | | ____ | ____ |
 | Lockable box | ____ | | | ____ | ____ |
 | Oral rehydration supplies (salt, sugar, measuring spoons) | ____ | | | ____ | ____ |
 | Heat packs, cold packs, pillows for positioning | ____ | | | ____ | ____ |
 
-> **Before the collapse:** buy naloxone at a pharmacy now; it is sold without a prescription
-> (FDA, 2023). Ask the prescriber or clinic for the written step-down plan and the disaster plan.
+> **Before the collapse:** buy naloxone at a pharmacy now; the nasal spray is sold without a
+> prescription (FDA, 2023). Ask the prescriber or clinic for the written step-down plan and the disaster plan.
 > Learn rescue breathing and CPR. Write the person's medicines and clinic on → 25-09.
 
 ## 8. Sourcing when the pharmacy is closed
@@ -233,11 +258,13 @@ printed; use the ones for this condition.
   prescription. Methadone and buprenorphine clinics often have disaster arrangements; use them.
 - **Someone else's prescription** is a card: {{choice DC-15}} (→ 30-16). With opioids the risk is
   higher than with most medicines: strengths differ widely and the wrong one can stop breathing.
-- **Never use a pill of unknown origin.** DEA warns that fake pills made to look like real
-  prescription opioids often contain fentanyl, and that a small amount can kill (DEA, One Pill
-  Can Kill). Scavenged loose pills are in this category (→ 22-02).
-- **Pain without opioids.** CDC's 2022 guideline says non-opioid treatments work for many kinds
-  of long-term pain (CDC, Clinical Practice Guideline for Prescribing Opioids for Pain, 2022).
+- **Never use a pill of unknown origin.** CDC warns that illegally made fentanyl is made into
+  pills that look like other prescription opioids, that many people do not know their drugs
+  contain it, and that even small doses can be deadly (CDC, Fentanyl Facts). Scavenged loose
+  pills are in this category (→ 22-02).
+- **Pain without opioids.** CDC's 2022 guideline says non-opioid treatments are preferred for
+  long-term pain, and names exercise among them (CDC, Clinical Practice Guideline for
+  Prescribing Opioids for Pain, 2022).
   What a household can do with no supplies:
   - **Heat** for stiff muscles and long-term aches; **cold** for new injuries and swelling
     (→ 12-13). A cloth between skin and pack.
@@ -273,14 +300,16 @@ household's full medicine stockpile is on → 12-07.
 
 ## 12. My meds
 
-Every medicine row your household entered is printed, because the binder cannot pick out one
-condition's rows. **Tick the rows for this condition**, cross out the rest, and fill any blank
-columns by hand. **Add a row for each naloxone package** and its expiry.
+Rows marked ✓ are the medicines your household tagged for this condition in settings. If none
+is tagged, every medicine row your household entered is printed with a ☐ instead: **tick the
+rows for this condition** and cross out the rest. Fill any blank columns by hand, and add
+missing medicines in the blank rows. **Add a row for each naloxone package** and its expiry.
 
 | For this? | Who | Medicine | Strength | Schedule | Fridge? | If doses are missed (prescriber's words) | Where kept | Days on hand | Expires |
 |---|---|---|---|---|---|---|---|---|---|
-{{#each meds as m}}| ☐ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
+{{#each meds_for.CL-17 as m}}| ✓ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
+{{else}}{{#each meds as m}}| ☐ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
 {{else}}| ☐ | (no medicines entered yet) | | | | | | ____ | ____ | ____ |
-{{/each}}| ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
+{{/each}}{{/each}}| ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
 | ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
 | ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |

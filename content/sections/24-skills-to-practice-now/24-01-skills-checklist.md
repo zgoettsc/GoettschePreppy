@@ -2,7 +2,7 @@
 id: 24-01-skills-checklist
 section: 24-skills-to-practice-now
 title: "Skills checklist and practice schedule"
-version: 2
+version: 3
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -26,7 +26,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Generator 20 ft (CDC) verified; practice intervals labelled as suggestions; child list punctuation fixed." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Generator 20 ft (CDC) verified; practice intervals labelled as suggestions; child list punctuation fixed. Wave 2 (R18): tourniquet floor bolded whole, verbatim 30-01." }
 ---
 
 # Skills checklist and practice schedule
@@ -100,7 +100,7 @@ for your household still matter; they are just not first.
 | {{#if has.anaphylaxis}}★{{/if}} | **Recognise anaphylaxis** and act in under a minute | | | | | → 02-03 |
 | {{#if has.condition.CL-02}}★{{/if}} | **Pump-to-injection fallback**, start to finish, as your clinician wrote it | | | | | → 02-02 |
 | {{#if has.diabetes}}★{{/if}} | **Recognise and act on low and high blood sugar and diabetic ketoacidosis** | | | | | → 02-01, → 02-05 |
-| ★ | **Use a tourniquet and pack a wound** (a Stop the Bleed course). **Never loosen a tourniquet once placed while help can still come; mark the time.** If no help will ever come, the conversion decision is DC-25 (→ 30-26). | | | | | → 12-02 |
+| ★ | **Use a tourniquet and pack a wound** (a Stop the Bleed course). **Never loosen a tourniquet once placed while help can still come; mark the time. If no help will ever come, the conversion decision is DC-25 (→ 30-26).** | | | | | → 12-02 |
 | ★ | **Recognise hypothermia and frostbite**, and rewarm correctly | | | | | → 08-05 |
 | ★ | **Test the carbon monoxide alarms, and know what to do when one sounds**: everyone out, then call | | | | | → 08-02 |
 | ★ | **The grab-and-go**: people{{#if has.pets}}, pets{{/if}}, medical kit, bags, out | | | | | → 22-03 |

@@ -2,7 +2,7 @@
 id: 01-02-go-no-go-decision
 section: 01-phase-playbooks
 title: "The go/no-go decision: triggers to leave"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -11,9 +11,8 @@ tags: [go/no-go, leaving, triggers, thresholds, evacuation, medicine runway, win
 derived_from: [01-02-go-no-go-decision]
 sources:
   - american-red-cross-power-outage-safety-6d07a8
-  - american-red-cross-winter-storm-preparedness-and-bli-4bb6c0
-  - noaa-national-weather-service-during-extremely-cold-9c1973
-  - cdc-recognizing-and-responding-to-anaphylaxis-645825
+  - ready-gov-winter-weather-r9
+  - american-academy-of-pediatrics-aap-allergy-and-anaph-3e6f49
   - cdc-how-to-create-and-store-an-emergency-water-suppl-f0c412
 related: [30-20-dc19-when-to-leave, 01-01-phase-a-shelter-in-place, 01-03-phase-b-movement, 01-04-phase-c-establish, 01-05-choosing-a-destination, 01-06-phase-transition-checklists, 01-07-evacuating-with-medical-needs, 23-02-master-consumables-table, 06-04-wood-supply-and-depletion]
 cards: [DC-19]
@@ -26,7 +25,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "DC-19 worksheet kept blank; winter travel to Ready.gov; epinephrine to AAP; tank half full to Red Cross." }
 ---
 
 # The go/no-go decision: triggers to leave
@@ -39,8 +38,8 @@ own threshold for each, and gives the four questions to answer before anyone get
 > made badly: too late, in a panic, in bad weather{{#if has.child}}, with children{{/if}}.
 > **Decide the triggers now, in writing, while you are calm.** A threshold agreed in advance is
 > worth more than any amount of judgement at 3 a.m. in a cold house. **Never set out into a
-> winter storm unless staying is immediately deadly**: the American Red Cross and the National
-> Weather Service both advise avoiding travel in winter storms and extreme cold.
+> winter storm unless staying is immediately deadly**: FEMA's advice is to stay off the roads in
+> a winter storm if at all possible (Ready.gov, Winter Weather).
 
 ## Do this now
 
@@ -74,7 +73,7 @@ devices, not a feeling.
 | Trigger | Our threshold | Go where |
 |---|---|---|
 | **A life-sustaining medicine** (each one; → 23-02) | Start active resupply at ______ days left. Move toward medical supply at ______ days left with nothing secured | Toward pharmacies and a hospital (→ 01-07) |
-| **Powered medical device** (oxygen, CPAP, other){{#if has.oxygen}} *(applies to us)*{{/if}}{{#if has.cpap}} *(applies to us)*{{/if}} | Move when power for it is down to ______ days | Toward power and medical help (→ 09-10) |
+| **Powered medical device** (oxygen, CPAP, other){{#if has.oxygen}} *(applies to us)*{{else}}{{#if has.cpap}} *(applies to us)*{{/if}}{{/if}} | Move when power for it is down to ______ days | Toward power and medical help (→ 09-10) |
 | **Epinephrine** {{#if has.epinephrine}}*(applies to us)*{{/if}} | Resupply now when in-date devices drop to ______ | Toward medical supply (→ 02-03) |
 | **Heating fuel, in winter** | ______ days left at one-room burn rates | Somewhere that can be heated |
 | **Safe water** | Cannot produce ______ gallons a day (our floor is {{ derived.water.floor_gal_day }}) | Toward water |
@@ -93,8 +92,8 @@ devices, not a feeling.
   while staying home: pharmacy runs, telehealth, mutual aid. The second, lower number is when the
   household moves toward medical supply if nothing has worked. Leave room between them for how
   long resupply actually takes, and for the trip itself (→ 01-07).
-- **Epinephrine:** one reaction can need two doses (CDC, Recognizing and Responding to
-  Anaphylaxis), so count in pairs. Expired devices are a separate household choice (→ 30-05).
+- **Epinephrine:** one reaction can need a second dose (AAP, Allergy and Anaphylaxis Emergency
+  Plan), so count in pairs. Expired devices are a separate household choice (→ 30-05).
 - **Heating fuel:** leave while the vehicle can still be loaded warm, not on the last log
   (→ 06-04).
 - **Water:** the drinking-and-hygiene floor for this household is
@@ -126,7 +125,7 @@ Before moving, answer all four. If you cannot, you are not ready to go.
 
 ### Timing
 - **Weather first.** Never depart into a blizzard or extreme cold; wait it out unless the house is
-  actively unsafe (NWS, During Extremely Cold Weather).
+  actively unsafe (Ready.gov, Winter Weather: stay off roads if at all possible).
 - **Daylight.** Leave in the morning. Arriving in the dark, cold and somewhere unfamiliar is how
   people get hurt.
 - **Earlier is better than later** once the decision is made: fuel in the tank, food in the packs,
@@ -161,7 +160,7 @@ that may be refused (→ 01-05).{{/if}}
 |---|---|---|
 | This page, filled in and signed | Turns panic into a checklist | Every adult agrees |
 | Paper maps of the region | Routes without GPS (→ 25-04) | Mark several routes out |
-| Vehicle kept fuelled | You cannot refuel in an outage | A habit, not equipment (→ 22-05) |
+| Vehicle kept fuelled | You cannot refuel in an outage | At least half full (American Red Cross, Power Outage Safety; → 22-05) |
 | NOAA Weather Radio | Never depart into a storm | → 15-01 |
 | Go-bags, packed and current | Leave in minutes, not hours | → 22-03 |
 | A written destination, route and arrival plan | The four questions, answered ahead | → 01-05 |

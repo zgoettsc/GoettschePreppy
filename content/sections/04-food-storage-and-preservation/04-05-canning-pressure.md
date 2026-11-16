@@ -56,17 +56,20 @@ Home Canning. If canning words are new to you, read → 29-08 first.
 1. **Never** water-bath a low-acid food. Not "just this once", not a family recipe, not a recipe
    from a website or video.
 2. **Have the USDA Complete Guide to Home Canning (2015) where you can read it with no
-   internet.** Guides 1, 4 and 5 carry the low-acid and meat processes. {{#if size.large}}They
-   are bound behind this page in your binder.{{else}}Your binder is the Small download, which
-   cites the Guide but does not carry it. Upgrade to Large, or keep a paper copy. **Without it,
-   this binder holds no tested process for any low-acid food.**{{/if}}
+   internet.** Guides 1, 4 and 5 carry the low-acid and meat processes. {{#if size.large}}Your
+   binder carries them: they are bound at the end of this section, after the last food-storage
+   page, and the "Sources for this page" list below links to each one. If a Guide could not be
+   downloaded when the binder was made, it is named on the "Sources not captured" page in
+   Section 25: get a paper copy of that one.{{else}}Your binder is the Small download, which
+   cites the Guide but does not carry it. Make the Large or Everything download, or keep a
+   paper copy. **Without it, this binder holds no tested process for any low-acid food.**{{/if}}
 3. **Set the pressure for your altitude** (table below). Time stays as the recipe says; only the
    pressure changes. If the recipe's own table differs, **the recipe's table governs.**
 4. **Get a dial gauge tested every year** (Extension offices did this before the collapse). **A
-   dial gauge that reads more than 2 psi off is replaced, not "corrected for"** (NCHFP, Using
-   Pressure Canners). **Weighted gauges** need no testing, which is a real advantage off-grid.
-5. **Vent the canner properly** (usually 10 minutes of steady steam) before bringing it to
-   pressure. Trapped air lowers the real temperature and is a classic cause of unsafe batches.
+   dial gauge that reads more than 2 psi off is replaced, not "corrected for"** (USDA Complete
+   Guide, Guide 1). **Weighted gauges** need no testing, which is a real advantage off-grid.
+5. **Vent the canner for 10 minutes of steady steam** before bringing it to pressure (USDA
+   Complete Guide, Guide 1). Trapped air lowers the real temperature and is a classic cause of unsafe batches.
 6. **Run the full process time.** Do not shorten it because the fire is dying.
 7. **Backstop before eating ANY home-canned low-acid food, yours or anyone else's: boil it hard
    in an open pan 10 minutes plus 1 minute per 1,000 ft of elevation,** liquid included (CDC,
@@ -83,9 +86,10 @@ more higher up; check the table every time.**{{/if}}
 - {{x.name}}: about {{x.region.elevation_ft}} ft.
 {{/each}}
 
-**Pressure to use, by gauge type** (USDA Complete Guide, Guide 1; South Dakota State University
-Extension, Altitude Adjustments for Home Canning). These are the steps for most vegetable and
-meat processes; the recipe's own table governs if it differs.
+**Pressure to use, by gauge type.** The rows to 8,000 ft are the steps printed in the USDA
+vegetable and meat tables (USDA Complete Guide, Guides 4 and 5). USDA's tables stop at
+8,000 ft; the 8,001 to 10,000 ft row is from South Dakota State University Extension (Altitude
+Adjustments for Home Canning). The recipe's own table governs if it differs.
 
 | Elevation | Weighted gauge | Dial gauge |
 |---|---|---|
@@ -99,16 +103,17 @@ meat processes; the recipe's own table governs if it differs.
 A weighted gauge has only two settings that matter here: 10 psi is good only to 1,000 ft;
 above that, use 15.
 
-**CDC pre-eating boil:** 10 minutes plus 1 minute for every 1,000 ft or part of 1,000 ft. Sea
-level 10 minutes; up to 1,000 ft 11; 1,001 to 2,000 ft 12; 2,001 to 3,000 ft 13; and one more
-minute for each further 1,000 ft (the full table is on → 04-04).
+**CDC pre-eating boil:** 10 minutes, plus 1 minute for each additional 1,000 ft of elevation
+(CDC, Botulism Prevention). Counting any part of 1,000 ft as a whole 1,000, which never gives
+less than CDC: sea level 10 minutes; up to 1,000 ft 11; 1,001 to 2,000 ft 12; 2,001 to 3,000 ft
+13; and one more minute for each further 1,000 ft (the full table is on → 04-04).
 
 ## Why pressure is not optional
 
 Botulism spores survive boiling. Water boils at **212 °F** at sea level, and no amount of longer
 boiling makes a low-acid food safe. The spores are destroyed reliably only at the higher
 temperatures a **pressure canner** reaches, **about 240 to 250 °F (116 to 121 °C)** depending on
-the pressure held. That is why USDA processes for home-canned vegetables other than tomatoes
+the pressure held (USDA Complete Guide, Guide 1). That is why USDA processes for home-canned vegetables other than tomatoes
 have used pressure only since 1943, and why boiling-water, oven and "open-kettle" canning have
 been called unsafe for low-acid food ever since (NCHFP, Principles of Home Canning). In a
 sealed, airless, low-acid jar at room temperature, surviving spores grow and make **botulinum
@@ -125,10 +130,10 @@ toxin**, one of the most poisonous substances known.
    adjustment.**
 2. **Prepare jars and food. Hot pack or raw pack exactly as the recipe says** (the time was
    tested for that pack, not the other); fill to the stated headspace; wipe rims; new lids;
-   fingertip-tight bands. **Pints and quarts only: half-gallon jars are approved for nothing but
-   juices.**
-3. **Add the stated amount of water** to the canner (usually a few inches; pressure canners use
-   far less water than water-bath canners).
+   fingertip-tight bands. **Use the jar sizes the recipe lists.** Half-gallon jars are for very
+   acid juices only, never for low-acid food (USDA Complete Guide, Guide 1).
+3. **Add the stated amount of water** to the canner (usually 2 to 3 inches of hot water, USDA
+   Guide 1; pressure canners use far less water than water-bath canners).
 4. **Lock the lid; heat until a steady stream of steam comes from the vent; vent for the full
    stated time** (commonly 10 minutes).
 5. **Close the vent** (put the weight on or close the petcock); let the pressure rise to the
@@ -138,7 +143,7 @@ toxin**, one of the most poisonous substances known.
 7. **Turn off the heat; let the pressure fall to zero on its own.** **Never** cool it with water
    or lift the weight early: that causes liquid loss, seal failure and burns.
 8. **When the gauge reads zero: remove the weight (or open the petcock), WAIT 10 MINUTES, then
-   unfasten the lid and lift it away from your face** (NCHFP, Using Pressure Canners). Opening
+   unfasten the lid and lift it away from your face** (USDA Complete Guide, Guide 1). Opening
    early means liquid loss, failed seals and a steam burn. Lift the jars out and leave them
    undisturbed 12 to 24 hours.
 9. **Check seals, remove bands, label with contents and date,** store cool and dark.
@@ -154,8 +159,9 @@ shelf-stable, ready to eat, and needs no fuel later to cook it.
 
 - **USDA and NCHFP have specific procedures for meat, poultry and game** (Guide 5; NCHFP,
   Canning Meat, Poultry and Game). Use them.
-- **Can it promptly** after butchering; meat does not wait. Keep it below 40 °F until it goes in
-  the jars (→ 04-09, → 04-17).
+- **Can it promptly** after butchering; meat does not wait. USDA's meat recipes start from
+  chilled meat (Guide 5): keep it at 40 °F or colder, below the 40 to 140 °F danger zone,
+  until it goes in the jars (→ 04-09, → 04-17).
 - **Batch it.** A whole animal is many jars and a lot of fuel (→ 06-04).
 
 ## Pressure canning without the grid: the honest difficulty
@@ -187,11 +193,11 @@ shelf-stable, ready to eat, and needs no fuel later to cook it.
 
 | Item | Why | Notes |
 |---|---|---|
-| **Pressure canner** (not just a pressure cooker) | The only safe low-acid method | 16 quarts or more; fits pints and quarts |
+| **Pressure canner** (not just a pressure cooker) | The only safe low-acid method | "Pressure canner" usually means 16 quarts or more; USDA's tested times were set in 17- to 21-quart canners, and smaller cookers are not recommended (NCHFP) |
 | **Weighted gauge** (or a tested dial gauge) | Weighted needs no yearly test | A big off-grid advantage |
 | Spare gasket, safety plug, weights | The canner's wear parts | Model-specific; buy now |
 | Mason jars and a **large stock of new lids** | The consumable | → 04-04 |
-| **USDA Complete Guide to Home Canning (2015)** | Guides 1, 4 and 5 carry the low-acid and meat processes | In the Large download; a paper copy is good insurance |
+| **USDA Complete Guide to Home Canning (2015)** | Guides 1, 4 and 5 carry the low-acid and meat processes | Bound in the Large and Everything downloads; a paper copy is good insurance |
 | Jar lifter, funnel, headspace tool | Safe handling | Cheap |
 | Propane burner and fuel | Controllable heat for long processes | → 07-05; outdoors |
 | Timer and thermometer | Process discipline | A wind-up timer works |

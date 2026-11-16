@@ -199,7 +199,7 @@ An ecoregion is an area where the land, climate, soils and plants are alike (US 
 | Chihuahuan Deserts | 0 | 2 |
 | Colorado Plateaus | 0 | 2 |
 
-### Plants and trees to know (plates being added)
+### Plants and trees to know
 
 {{plates}}
 

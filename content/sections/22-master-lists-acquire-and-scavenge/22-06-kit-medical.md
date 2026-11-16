@@ -2,7 +2,7 @@
 id: 22-06-kit-medical
 section: 22-master-lists-acquire-and-scavenge
 title: "Medical go-kit"
-version: 2
+version: 3
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -31,7 +31,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Tourniquet floor reworded per docs/05 (DC-25); second dose re-cited to AAP; belt-as-tourniquet line aligned with 12-02; dehydration claim softened." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Tourniquet floor reworded per docs/05 (DC-25); second dose re-cited to AAP; belt-as-tourniquet line aligned with 12-02; dehydration claim softened. Wave 2 (R18): tourniquet floor bolded as one sentence pair, verbatim 30-01." }
 ---
 
 # Medical go-kit
@@ -51,8 +51,8 @@ Section 02. Build this kit before any other kit in the binder.
 > - **A frozen-then-thawed insulin vial or pen is discarded.**
 > - **Children do not have access to firearms, fuel, medications or chlorine products.** The kit
 >   is closed and rides with an adult.
-> - **Never loosen a tourniquet once placed while help can still come; mark the time.** If no
->   help will ever come, the conversion decision is DC-25 (→ 30-26).
+> - **Never loosen a tourniquet once placed while help can still come; mark the time. If no
+>   help will ever come, the conversion decision is DC-25 (→ 30-26).**
 
 ## Do this now
 

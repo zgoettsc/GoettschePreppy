@@ -53,22 +53,26 @@ words are new to you, read → 29-08 first.
 ## Do this now
 
 1. **Have the USDA Complete Guide to Home Canning (2015 revision) where you can read it with
-   no internet.** {{#if size.large}}It is bound behind this page in your binder: all seven
-   Guides.{{else}}Your binder is the Small download, which cites the Guide but does not carry
-   it. Upgrade to Large, or keep a paper copy. **Without it, this binder holds no tested recipe
-   and no process time, and you must not can from memory.**{{/if}} A current tested recipe
-   book is a sensible second copy.
+   no internet.** {{#if size.large}}Your binder carries it: the Introduction and all seven
+   Guides are bound at the end of this section, after the last food-storage page, and the
+   "Sources for this page" list below links to each one. If a Guide could not be downloaded
+   when the binder was made, it is named on the "Sources not captured" page in Section 25:
+   get a paper copy of that one.{{else}}Your binder is the Small download, which cites the
+   Guide but does not carry it. Make the Large or Everything download, or keep a paper copy.
+   **Without it, this binder holds no tested recipe and no process time, and you must not can
+   from memory.**{{/if}} A current tested recipe book is a sensible second copy.
 2. **Water-bath ONLY these:** fruits, jams and jellies, pickles, and **properly acidified**
    tomatoes and salsas.
 3. **Never water-bath:** vegetables, meat, poultry, fish, beans, soups or anything low-acid.
    Those are pressure-canning foods, no exceptions (→ 04-05).
-4. **Acidify tomatoes. The amounts are the same in every USDA tomato recipe: per PINT,
-   1 tablespoon bottled lemon juice OR ¼ teaspoon citric acid; per QUART, 2 tablespoons
-   bottled lemon juice OR ½ teaspoon citric acid.** Put it in the jar before filling.
-   **Bottled** juice only: fresh lemons vary. Vinegar of 5 percent acidity is a poorer
-   substitute at 4 tablespoons per quart (USDA Complete Guide, Guide 3). Modern tomatoes are
-   not reliably acidic enough on their own, and pH strips are unreliable in coloured food:
-   the acid goes in whatever a strip says.
+4. **Acidify tomatoes. For whole, crushed or juiced tomatoes: per PINT, 1 tablespoon bottled
+   lemon juice OR ¼ teaspoon citric acid; per QUART, 2 tablespoons bottled lemon juice OR
+   ½ teaspoon citric acid** (USDA Complete Guide, Guide 3). Put it in the jar before filling.
+   **Bottled** juice only: fresh lemons vary. Vinegar of 5 percent acidity also works, at
+   4 tablespoons per quart, but may change the flavour (Guide 3). Salsas and mixed tomato
+   recipes print their own acid amounts: use the recipe's. Tomatoes are not reliably acidic
+   enough on their own, and pH strips are unreliable in coloured food: the acid goes in
+   whatever a strip says.
 5. **Adjust the process time for your altitude** (table below). If the recipe prints its own
    altitude table, **the recipe's table governs.**
 6. **Before eating ANY home-canned tomatoes or low-acid food, yours or anyone else's, boil it
@@ -91,8 +95,10 @@ extra time is large.**{{/if}}
 {{/each}}
 
 **Boiling-water canner: time to add to the recipe's process time** (South Dakota State
-University Extension, Altitude Adjustments for Home Canning; same steps as the general USDA
-table). Use the recipe's own table when it has one.
+University Extension, Altitude Adjustments for Home Canning). The USDA recipes print their own
+altitude rows, usually in these same steps to 6,000 ft (USDA Complete Guide, Guide 1, the
+peaches example); **when the recipe has its own table, it governs.** The 8,001 to 10,000 ft row
+is from the Extension table only.
 
 | Elevation | Add to the process time |
 |---|---|
@@ -102,8 +108,10 @@ table). Use the recipe's own table when it has one.
 | 6,001 to 8,000 ft | **15 minutes** |
 | 8,001 to 10,000 ft | **20 minutes** |
 
-**CDC pre-eating boil** for home-canned tomatoes and low-acid food: 10 minutes plus 1 minute for
-every 1,000 ft or part of 1,000 ft.
+**CDC pre-eating boil** for home-canned tomatoes and low-acid food: boil 10 minutes, and add
+1 minute for each additional 1,000 ft of elevation (CDC, Botulism Prevention). This table counts
+any part of 1,000 ft as a whole 1,000, so it never gives less time than CDC; boiling longer does
+no harm.
 
 | Elevation | Boil hard, open pan, before eating |
 |---|---|
@@ -142,7 +150,8 @@ toxin. So:
    decides whether a seal forms.
 5. **Remove air bubbles,** wipe the rim completely clean (a smear of food stops a seal), fit the
    lid, and screw the band on fingertip-tight, not hard.
-6. **Load the canner,** jars on a rack, covered by **1 to 2 inches of water.**
+6. **Load the canner,** jars on a rack, with **at least 1 inch of water over the jar tops**
+   (at least 2 inches if the process is longer than 30 minutes) (USDA Complete Guide, Guide 1).
 7. **Bring to a full rolling boil, then start timing.** Add the altitude time from the table.
 8. **Turn off the heat, wait 5 minutes, lift the jars out** and set them on a towel,
    undisturbed, for 12 to 24 hours.
@@ -192,7 +201,7 @@ equipment and surfaces, and for recipes that add a common allergen.
 | **Lids: a large stock** | **Single-use: the real consumable** | Buy deep, or a reusable-lid system |
 | Bands | Reusable | A few spares |
 | Jar lifter, funnel, bubble tool, magnetic lid lifter | Safety and speed | Cheap kit |
-| **USDA Complete Guide to Home Canning (2015), all seven Guides** | The tested recipes and times | In the Large download; a paper copy is good insurance |
+| **USDA Complete Guide to Home Canning (2015), all seven Guides** | The tested recipes and times | Bound in the Large and Everything downloads; a paper copy is good insurance |
 | pH strips (optional) | Curiosity only | **Never a substitute for the printed acid amounts** |
 | Bottled lemon juice, citric acid, 5 percent vinegar | Acidifying | → 04-13; bottled for known acidity |
 | Labels and marker | Contents and date | Not optional |

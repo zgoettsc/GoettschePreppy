@@ -271,7 +271,7 @@ An ecoregion is an area where the land, climate, soils and plants are alike (US 
 | Eastern Cascades Slopes and Foothills | 1 | 4 |
 | Willamette Valley | 1 | 1 |
 
-### Plants and trees to know (plates being added)
+### Plants and trees to know
 
 {{plates}}
 

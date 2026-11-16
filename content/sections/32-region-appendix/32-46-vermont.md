@@ -177,7 +177,7 @@ An ecoregion is an area where the land, climate, soils and plants are alike (US 
 | Eastern Great Lakes Lowlands | 3 | 5 |
 | Northeastern Coastal Zone | 0 | 1 |
 
-### Plants and trees to know (plates being added)
+### Plants and trees to know
 
 {{plates}}
 

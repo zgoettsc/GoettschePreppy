@@ -2,7 +2,7 @@
 id: 01-05-choosing-a-destination
 section: 01-phase-playbooks
 title: "Choosing and securing a destination"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: household
 danger_level: caution
@@ -11,7 +11,6 @@ tags: [destination, phase C, agreed, unannounced, property only, pre-positioning
 derived_from: [01-05-choosing-a-destination]
 sources:
   - cdc-guidelines-for-testing-well-water-382a7a
-  - american-red-cross-winter-storm-preparedness-and-bli-4bb6c0
   - fema-ready-gov-shelter-8572d8
 related: [01-02-go-no-go-decision, 01-03-phase-b-movement, 01-04-phase-c-establish, 01-07-evacuating-with-medical-needs, 18-01-mutual-aid, 19-01-document-grab-kit, 15-08-destination-comms, 05-18-destination-garden-calendar, 05-19-destination-foraging-and-hazards]
 cards: [DC-19]
@@ -24,7 +23,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Statuses match context status text; unreadable Red Cross winter key dropped; ai-block spec no longer receives phone numbers." }
 ---
 
 # Choosing and securing a destination

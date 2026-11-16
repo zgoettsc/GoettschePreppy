@@ -2,7 +2,7 @@
 id: 25-02-conversions-and-math
 section: 25-reference-and-appendices
 title: "Conversions, water and calorie math"
-version: 2
+version: 3
 revised: 2026-11-16
 layer: core
 danger_level: none
@@ -12,6 +12,8 @@ derived_from: [25-02-conversions-and-math]
 sources:
   - cdc-how-to-create-and-store-an-emergency-water-suppl-f0c412
   - us-epa-emergency-disinfection-of-drinking-water-6aa91f
+  - cdc-how-to-make-water-safe-in-an-emergency-5d78b5
+  - fema-477-food-and-water-in-an-emergency
   - foodsafety-gov-usda-hhs-cook-to-a-safe-minimum-inter-13daf3
   - foodsafety-gov-usda-hhs-food-safety-during-a-power-o-3894c1
   - noaa-national-weather-service-wind-chill-chart-frost-89f6d7
@@ -29,7 +31,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Arithmetic verified; calorie rows aligned with 04-01; honey, canned goods, powdered milk, cord weight and seasoning corrected; kerosene AFDC mis-citation removed." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Arithmetic verified; calorie rows aligned with 04-01; honey, canned goods, powdered milk, cord weight and seasoning corrected; kerosene AFDC mis-citation removed. Wave 2 (R18): unsourced propane 4.7 gal/430,000 BTU and 1-lb 21,500 BTU removed (no readable source for propane lb per gallon), runtime example now from AFDC BTU a gallon; toilet tank now last reserve, disinfect first (FEMA 477), unsourced 3 gal removed; boil line already EPA 5,000 / CDC 6,500 as 03-04." }
 ---
 
 # Conversions, water and calorie math
@@ -108,8 +110,10 @@ hazard. Measuring without tools: → 29-13.
 | Washing dishes carefully, two basins | 2 to 4 gal |
 
 **Containers:** bathtub about 40 to 50 gal · this household's water heater
-{{ dwelling.water_heater_gallons }} gal (a reserve: know the drain valve, → 03-02) · toilet tank
-about 3 gal (tank, not bowl) · {{#if has.pool}}pool or hot tub {{ dwelling.pool_gallons }} gal, **none of
+{{ dwelling.water_heater_gallons }} gal (a reserve: know the drain valve, → 03-02) · toilet
+tanks, the last reserve: never the bowl, never with a cleaning tablet in it, and disinfected
+before drinking because FEMA says not to drink tank water (FEMA, Food and Water in an
+Emergency; → 03-04) · {{#if has.pool}}pool or hot tub {{ dwelling.pool_gallons }} gal, **none of
 it drinkable without treatment** (→ 03-03){{else}}a 55-gal drum · a 5-gal bucket{{/if}}.
 
 **Days of water = gallons on hand ÷ {{ derived.water.plan_gal_day }}** (the plan rate). Use the
@@ -158,8 +162,7 @@ roughly 1.5 lb a day. This household: {{ derived.calories.day }} ÷ about 1,600 
 | Heat per cord | Dense hardwoods (oak, ash, hickory) give much more heat per cord than softwoods or cottonwood: **species matters** (University of Missouri Extension, Wood Fuel for Heating; → 06-03) |
 | **Seasoning time** | **6 to 12 months, split and stacked; dense hardwoods a year or more** (→ 06-03) |
 | Moisture target | **Under 20 %**: wet wood wastes heat boiling its own water and fouls the chimney |
-| Propane, 20-lb cylinder | About 4.7 gal ≈ 430,000 BTU (91,420 BTU a gallon; DOE AFDC) |
-| Propane, 1-lb cylinder | About 21,500 BTU |
+| **Propane** | **91,420 BTU a gallon** (DOE AFDC). A refill receipt gives gallons; an exchange cylinder's label gives only the weight of propane, and the heater's manual often gives hours per cylinder |
 | **Kerosene (1-K)** | **About 135,000 BTU a gallon** (typical figure; read your heater's label for its own rating) |
 | Gasoline (pump gas with about 10 % ethanol) | **About 114,000 BTU a gallon** (DOE AFDC) ≈ 33 kWh of heat |
 | **1 kWh of electricity** | **= 3,412 BTU.** A 1,500 W space heater gives about 5,100 BTU an hour and uses 1.5 kWh every hour |
@@ -167,9 +170,9 @@ roughly 1.5 lb a day. This household: {{ derived.calories.day }} ÷ about 1,600 
 A **BTU** (British thermal unit) is a unit of heat. Heaters are labelled in **BTU/h**: heat per
 hour (→ 29-14).
 
-**Heater runtime = fuel BTU ÷ the heater's BTU/h.** Example: a 20-lb cylinder (about 430,000
-BTU) in a heater burning 9,000 BTU/h lasts about 430,000 ÷ 9,000 ≈ 48 hours, if nothing else
-uses that cylinder. Your heaters: {{#each heaters as h}}{{h.kind_text}} ({{h.model}}): ______ BTU/h → ______ hours per tank · {{else}}none entered{{/each}}.
+**Heater runtime = fuel BTU ÷ the heater's BTU/h.** Example: 4 gallons of propane (from the
+refill receipt) is 4 × 91,420 ≈ 366,000 BTU; in a heater burning 9,000 BTU/h it lasts about
+366,000 ÷ 9,000 ≈ 40 hours, if nothing else uses that cylinder. Your heaters: {{#each heaters as h}}{{h.kind_text}} ({{h.model}}): ______ BTU/h → ______ hours per tank · {{else}}none entered{{/each}}.
 
 **Cooking on an open fire uses far more wood** than an efficient stove for the same meal
 (→ 07-02). **Measure yours during a blackout weekend** (→ 24-04).
@@ -206,9 +209,9 @@ days (estimate).
 - **Safe cooking temperatures** for meat, poultry and leftovers, with rest times: **use the
   FoodSafety.gov chart** (Cook to a Safe Minimum Internal Temperature) and → 07-04. Do not
   estimate.
-- **Boiling to make water safe:** a **rolling boil for 1 minute**; at high altitude, **3
-  minutes**. EPA uses 5,000 ft as the line, CDC 6,500 ft (EPA, Emergency Disinfection of
-  Drinking Water; → 03-04). Your elevation: about {{ region.home.elevation_ft }} ft{{#if is.high_altitude}},
+- **Boiling to make water safe:** a **rolling boil for 1 minute**; above about 5,000 ft,
+  **3 minutes** (EPA says above 5,000 ft; CDC says above 6,500 ft; use the lower, safer figure)
+  (EPA, Emergency Disinfection of Drinking Water; → 03-04). Your elevation: about {{ region.home.elevation_ft }} ft{{#if is.high_altitude}},
   **so boil for 3 minutes**{{/if}}.
 
 ## Time and distance (planning a move)

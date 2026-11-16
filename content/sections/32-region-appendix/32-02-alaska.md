@@ -284,7 +284,7 @@ An ecoregion is an area where the land, climate, soils and plants are alike (US 
 | Ogilvie Mountains | 0 | 1 |
 | Yukon Flats | 0 | 1 |
 
-### Plants and trees to know (plates being added)
+### Plants and trees to know
 
 {{plates}}
 

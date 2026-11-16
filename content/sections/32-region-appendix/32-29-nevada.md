@@ -198,7 +198,7 @@ An ecoregion is an area where the land, climate, soils and plants are alike (US 
 | Mojave Basin and Range | 1 | 3 |
 | Northern Basin and Range | 1 | 3 |
 
-### Plants and trees to know (plates being added)
+### Plants and trees to know
 
 {{plates}}
 

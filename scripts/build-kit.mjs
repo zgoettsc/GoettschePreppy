@@ -136,6 +136,38 @@ for (const dir of ['data/regions/states', 'data/regions']) {
   }
 }
 const ecoregions = readJsonD('data/regions/ecoregions.json', {}) || {};
+const plantNames = {};
+// D2's plant lists live in their own file (D1 owns ecoregions.json): merge them in, keyed by D1's
+// ecoregion names (notes/workers/D2.md item 4): plants.deadly = deadly, plants.edible = edible,
+// trees.firewood = firewood. A list D1's file already fills is kept. Each ecoregion also gets
+// `first` ("learn these first", D2): deadly plants with recorded deaths, safe-starter edibles and
+// high-heat firewood, from data/plants/species.json; lists stay in D2's order (deadliest first).
+{
+  const ecoPlants = readJsonD('data/regions/ecoregion-plants.json');
+  const spRaw = readJsonD('data/plants/species.json');
+  const species = Array.isArray(spRaw?.species) ? Object.fromEntries(spRaw.species.map(s => [s.key, s])) : (spRaw?.species || {});
+  const isFirst = { deadly: s => s?.risk === 'lethal', edible: s => s?.risk === 'starter', firewood: s => s?.burn?.heat === 'high' };
+  let merged = 0;
+  for (const [name, src] of Object.entries(ecoPlants?.ecoregions || {})) {
+    if (!ecoregions[name]) { warn(`data/regions/ecoregion-plants.json: ecoregion "${name}" is not in ecoregions.json`); continue; }
+    const e = ecoregions[name];
+    e.plants ||= {}; e.trees ||= {};
+    if (!(e.plants.deadly || []).length) e.plants.deadly = [...(src.deadly || [])];
+    if (!(e.plants.edible || []).length) e.plants.edible = [...(src.edible || [])];
+    if (!(e.trees.firewood || []).length) e.trees.firewood = [...(src.firewood || [])];
+    if (Object.keys(species).length) {
+      const keyOf = x => (typeof x === 'string' ? x : x?.key);
+      e.first = { deadly: e.plants.deadly.map(keyOf).filter(k => isFirst.deadly(species[k])),
+        edible: e.plants.edible.map(keyOf).filter(k => isFirst.edible(species[k])),
+        firewood: e.trees.firewood.map(keyOf).filter(k => isFirst.firewood(species[k])) };
+    }
+    merged++;
+  }
+  for (const [k, sp] of Object.entries(species)) if (sp?.common_names?.[0] || sp?.common) plantNames[k] = stripUrls(sp.common || sp.common_names[0]);
+  if (ecoPlants) console.log(`ecoregion plants: ${merged} ecoregions merged from data/regions/ecoregion-plants.json`);
+  const emptyEco = Object.keys(ecoregions).filter(n => !(ecoregions[n].plants?.deadly || []).length);
+  if (Object.keys(ecoregions).length && emptyEco.length) warn(`ecoregions with no plant list: ${emptyEco.length} (${emptyEco.slice(0, 3).join(', ')}${emptyEco.length > 3 ? ', ...' : ''})`);
+}
 console.log(`regions: ${Object.keys(regions).length} states with data, ${Object.keys(ecoregions).length} ecoregions`);
 if (!Object.keys(regions).length) warn('data/regions/: no state files yet; regions-lite has empty county lists and region slots print blank');
 
@@ -489,7 +521,7 @@ for (const z of SIZES) console.log(`  ${z.padEnd(10)} ${tiers[z].documents} docu
 const kit = {
   version: 1, built: TODAY,
   sections, pages: allPages().sort((a, b) => a.id.localeCompare(b.id)), cards, sources, regions, ecoregions, maps,
-  plates, figures, ai_blocks,
+  plates, plant_names: plantNames, figures, ai_blocks,
   owner_tokens: readJson('scripts/owner-tokens.json', { words: [], patterns: [] }),
   notice_md: exists('NOTICE-TO-USERS.md') ? fs.readFileSync(path.join(ROOT, 'NOTICE-TO-USERS.md'), 'utf8') : '',
   // kit.sizes: the Generate screen shows <size>.min_mb to max_mb (maps included: maps_assumed maps

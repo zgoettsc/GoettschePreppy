@@ -356,7 +356,7 @@ An ecoregion is an area where the land, climate, soils and plants are alike (US 
 | Nebraska Sand Hills | 0 | 2 |
 | Lake Agassiz Plain | 0 | 1 |
 
-### Plants and trees to know (plates being added)
+### Plants and trees to know
 
 {{plates}}
 

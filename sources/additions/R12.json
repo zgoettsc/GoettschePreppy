@@ -1,0 +1,35 @@
+[
+  {
+    "key": "oregon-state-extension-pnw-784-making-cured-bacon-at-home-2025",
+    "title": "Making Cured Bacon at Home (PNW 784, August 2025)",
+    "org": "Oregon State University Extension Service (Pacific Northwest Extension; J. Waite-Cusic, J. Hibbard-Swanson)",
+    "date": "2025-08",
+    "licence_class": "restricted",
+    "licence_note": "Copyright Oregon State University. Read by R12 on 2026-11-16: Curing Salt #1 is 6.25% sodium nitrite and 93.75% salt; recipes use 1 teaspoon Curing Salt #1 per 5 lb pork belly; cure in a refrigerator at 40 F; cook to 160 F; nitrite and nitrate salts have relatively high toxicity and are used only in researched quantities; nitrate blends (Prague Powder #2) not recommended for bacon.",
+    "url": "https://extension.oregonstate.edu/catalog/pnw-784-making-cured-bacon-home",
+    "household_cited_by": [],
+    "cited_by": ["04-07-smoking-and-curing"]
+  },
+  {
+    "key": "usda-fsis-9-cfr-424-21-food-ingredients-and-sources-of-radiation",
+    "title": "9 CFR 424.21, Use of food ingredients and sources of radiation (curing agents table: sodium or potassium nitrite)",
+    "org": "USDA Food Safety and Inspection Service (Code of Federal Regulations, Title 9)",
+    "date": "2024-01-01",
+    "licence_class": "public-domain",
+    "licence_note": "US federal regulation, public domain. Read by R12 on 2026-11-16 (govinfo CFR 2024 edition): sodium or potassium nitrite, 1 oz to 100 lb meat (dry cure); 1/4 oz to 100 lb chopped meat; not more than 200 ppm nitrite in finished product; bacon per paragraph (b), 120 ppm ingoing; nitrites not in baby, junior or toddler foods.",
+    "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title9-vol2/pdf/CFR-2024-title9-vol2-sec424-21.pdf",
+    "household_cited_by": [],
+    "cited_by": ["04-07-smoking-and-curing"]
+  },
+  {
+    "key": "atsdr-toxicological-profile-nitrate-nitrite-2017",
+    "title": "Toxicological Profile for Nitrate and Nitrite (July 2017)",
+    "org": "Agency for Toxic Substances and Disease Registry (ATSDR), CDC",
+    "date": "2017-07",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work, public domain. Read by R12 on 2026-11-16, section 3.2.2.1: ingestion of nitrite has caused severe methemoglobinemia in adults and children; deaths occurred after inadvertent use of sodium nitrite instead of table salt and after ingestion of a single sodium nitrite tablet (667 mg nitrite). curl from atsdr.cdc.gov is refused (403); the PDF was read through the web fetcher.",
+    "url": "https://www.atsdr.cdc.gov/ToxProfiles/tp204.pdf",
+    "household_cited_by": [],
+    "cited_by": ["04-07-smoking-and-curing"]
+  }
+]

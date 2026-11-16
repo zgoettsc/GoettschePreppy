@@ -2,7 +2,7 @@
 id: 01-03-phase-b-movement
 section: 01-phase-playbooks
 title: "Phase B: movement — routes, load-out, winter travel"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -10,15 +10,14 @@ phase: [B]
 tags: [phase B, movement, evacuation, routes, fuel, trailer, winter travel, children, load-out, point of no return]
 derived_from: [01-03-phase-b-movement]
 sources:
-  - american-red-cross-winter-storm-preparedness-and-bli-4bb6c0
-  - noaa-national-weather-service-during-extremely-cold-9c1973
-  - noaa-national-weather-service-winter-weather-safety-49fc7a
+  - ready-gov-winter-weather-r9
+  - nws-winter-storm-during
+  - american-red-cross-power-outage-safety-6d07a8
   - cdc-preventing-hypothermia-c53e0c
   - cdc-carbon-monoxide-poisoning-basics-772153
-  - nhtsa-us-department-of-transportation-trailer-safety-807982
   - us-consumer-product-safety-commission-cpsc-promotes-994cab
   - american-academy-of-pediatrics-healthychildren-org-w-7400c5
-related: [01-02-go-no-go-decision, 01-04-phase-c-establish, 01-06-phase-transition-checklists, 01-07-evacuating-with-medical-needs, 22-03-go-bags-and-kits, 22-05-kit-vehicle, 06-08-fuel-transport, 30-07-dc06-fuel-in-passenger-vehicle, 17-11-corridor-hazards, 15-09-corridor-comms, 25-04-maps, 11-02-keeping-kids-warm]
+related: [16-11-trailer-maintenance-and-repair, 01-02-go-no-go-decision, 01-04-phase-c-establish, 01-06-phase-transition-checklists, 01-07-evacuating-with-medical-needs, 22-03-go-bags-and-kits, 22-05-kit-vehicle, 06-08-fuel-transport, 30-07-dc06-fuel-in-passenger-vehicle, 17-11-corridor-hazards, 15-09-corridor-comms, 25-04-maps, 11-02-keeping-kids-warm]
 cards: [DC-06, DC-18]
 explainers: [EX-01, EX-03]
 promote_when: [has.destinations]
@@ -29,7 +28,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "NHTSA tongue-weight figures removed (method kept); stranded-vehicle rules to NWS winter-during; tank half full; DC-06 framed neutrally." }
 ---
 
 # Phase B: movement — routes, load-out, winter travel
@@ -39,8 +38,8 @@ trip: what to load first, how to work out the fuel, how to plan routes, when to 
 to travel in winter{{#if has.child}} with children{{/if}}.
 
 > **SAFETY — CRITICAL.** Moving a household through a disaster is one of the most dangerous
-> things in this binder. The American Red Cross and the National Weather Service both advise
-> against unnecessary travel in winter storms. **If you move, it is because staying is worse**
+> things in this binder. FEMA's advice in a winter storm is to stay off the roads if at all
+> possible (Ready.gov, Winter Weather). **If you move, it is because staying is worse**
 > (→ 01-02), and everything below is about surviving the trip.
 > - **Never run a generator, charcoal, or any engine indoors, in a garage, or near an open
 >   window.** In a stuck vehicle, clear snow from the exhaust pipe before running the engine:
@@ -60,8 +59,9 @@ to travel in winter{{#if has.child}} with children{{/if}}.
    in a trailer. {{#if has.refrigerated_meds}}Refrigerated medicine rides in a powered cooler or a
    cooling pouch, **checked cold before you pull away** (→ 01-07).{{else}}Keep them out of hot sun
    and freezing cold (→ 01-07).{{/if}}
-3. **If the vehicle stops in a storm, STAY WITH IT.** It is shelter and it is findable. People die
-   walking away from stalled cars in blizzards (NWS, Winter Weather Safety).
+3. **If the vehicle stops in a storm, STAY WITH IT.** It is shelter and it is findable. Leaving it
+   can quickly leave you lost in wind-driven snow (NWS, What To Do If You're Caught in a Winter
+   Storm).
 4. **In winter, carry water inside your clothing** or it freezes.
 5. **Go-bags packed and current** (→ 22-03) so leaving takes minutes, not hours.
 
@@ -105,14 +105,17 @@ Pack in this order, so that if you must leave sooner, the most important things 
 or so that people ride without seatbelts.
 
 ### Winter vehicle discipline
-- **Keep the tank well filled, always.** Practise it now; you cannot refuel in an outage.
+- **Keep the tank at least half full, always** (American Red Cross, Power Outage Safety).
+  Practise it now; you cannot refuel in an outage.
 - **The winter vehicle kit lives in the car all winter** (→ 22-05): blankets, shovel, sand or
   cat litter for traction, jumper cables, flashlight, water, food, hats and mittens.
-- **If you get stuck:** stay with the vehicle. Run the engine only in short bursts for heat,
-  **make sure the exhaust pipe is clear of snow**, and crack a window while it runs (NWS, Winter
-  Weather Safety; → 08-02).
-- **Make yourself findable**: bright cloth on the antenna, dome light on while the engine runs.
-- **Move around** in the vehicle to keep blood flowing; watch everyone for hypothermia (CDC,
+- **If you get stuck:** stay with the vehicle. Run the engine about 10 minutes each hour for
+  heat, **clear snow from the exhaust pipe**, and open a window a little while it runs (NWS, What
+  To Do If You're Caught in a Winter Storm; → 08-02).
+- **Make yourself findable**: a bright cloth, red if you have one, tied to the antenna or door;
+  the dome light on at night while the engine runs; the hood raised once the snow stops (NWS).
+- **Move arms and legs** in the vehicle to keep blood flowing; watch everyone for the signs of
+  hypothermia: shivering, exhaustion, confusion, fumbling hands, slurred speech, drowsiness (CDC,
   Preventing Hypothermia; → 08-05).
 {{#if has.young_child}}- **Car seats: no bulky coat under the harness.** Buckle the child in normal clothes, then put the
   coat or a blanket over the harness (AAP, Winter Car Seat Safety Tips).{{/if}}
@@ -155,10 +158,11 @@ fuel no longer at home for the generator or the house.
 
 - **Label every can** with its fuel, and keep the standard colours (→ 29-01). Never let two fuels
   ride unlabelled in the same load.
-- **Use approved fuel containers with their flame-arrestor screens, caps tight** (CPSC, Fuel
-  Container Safety). Fuel moves outside the cabin: in a trailer, on a hitch carrier or a roof
-  rack (→ 06-08). Carrying cans inside a passenger vehicle is a household choice with real fire
-  and vapour risk. **Our choice:** {{choice DC-06}} (→ 30-07)
+- **Use fuel containers with their flame arrestors in place, caps tight**: a flame arrestor stops
+  a flame outside the can from flashing back into it (CPSC, Fuel Container Safety, 2023). The
+  safer place for fuel is outside the cabin: in a trailer, on a hitch carrier or a roof rack
+  (→ 06-08). Carrying cans inside a passenger vehicle is a household choice with real fire and
+  vapour risk. **Our choice:** {{choice DC-06}} (→ 30-07)
 - Mark two small-town fuel stops on each route anyway, for the case where pumps work and cash is
   accepted (→ 19-02). Every gallon bought on the way is a can you did not need.
 
@@ -172,12 +176,12 @@ not entered a trailer. If you ever tow one, this is how.{{/if}}
 - **What rides in the trailer:** fuel cans, bulk water, tools, bulk totes: the heavy and the
   replaceable. **Never people, pets, medicines or documents.** Everything irreplaceable or alive
   rides in the cabin.
-- **Loading:** about **10 to 12 percent of the trailer's loaded weight on the tongue** (the part
-  that sits on the hitch), achieved by loading **heavy items forward of the axle**, roughly 60
-  percent ahead and 40 percent behind (NHTSA, Trailer Safety). A tail-heavy trailer sways at
-  highway speed; a nose-heavy one overloads the hitch. Never exceed the towing and tongue limits
-  in the vehicle's owner's manual. Strap everything: a load that shifts changes the balance
-  mid-trip.
+- **Loading:** put heavy items low and slightly **forward of the trailer's axle**, so the tongue
+  (the part that sits on the hitch) presses down on the hitch. Too little tongue weight makes a
+  trailer sway at highway speed; too much overloads the hitch and the rear of the vehicle. The
+  tongue weight your trailer and vehicle need is in their manuals (→ 16-11, → 22-05). Never
+  exceed the towing and tongue limits in the vehicle's owner's manual. Strap everything: a load
+  that shifts changes the balance mid-trip.
 - **Towing in winter:** slow down well below the limit, more on snow; leave far more following
   distance; no sudden steering or braking. **Never tow into a blizzard warning on the route.**
   Practise backing it before it matters (→ 16-11).

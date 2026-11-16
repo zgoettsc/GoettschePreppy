@@ -2,7 +2,7 @@
 id: 08-08-wood-heat-operation
 section: 08-heating-and-cold-weather-shelter
 title: "Running wood heat that actually heats"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -11,12 +11,11 @@ tags: [wood stove, fireplace, chimney, creosote, damper, ash, firewood moisture,
 derived_from: [08-08-wood-heat-operation]
 sources:
   - epa-burn-wise-best-wood-burning-practices-0c1680
-  - us-epa-burn-wise-heating-with-wood-safe-operation-se-ba0e76
-  - nfpa-heating-fire-safety-5cb9e6
+  - epa-burn-wise-tips-r8
   - u-s-fire-administration-fema-fireplace-and-wood-stov-851c8d
-  - u-s-department-of-energy-wood-and-pellet-heating-fd010a
+  - university-of-missouri-extension-wood-fuel-for-heati-b63761
   - chimney-safety-institute-of-america-csia-preventing-73b734
-  - national-fire-protection-association-nfpa-211-standa-b8e4bc
+  - csia-homeowner-resources-faqs-r3
   - cdc-carbon-monoxide-poisoning-basics-772153
 related:
   - 08-01-heating-one-room
@@ -47,7 +46,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Empty EPA stub key replaced (R3); NFPA 211 annual inspection via CSIA FAQ; DOE (blocked) 10% replaced by MU G5450; NFPA 3-ft kid zone replaced by USFA 3 ft; ash rule per USFA 10 ft; USFA put-out-before-sleep stated; creosote causes per CSIA." }
 ---
 
 # Running wood heat that actually heats
@@ -71,27 +70,29 @@ indoor fireplace.{{/if}}
 
 1. **Before the first fire anywhere:** look up the flue with a strong light, with the fire out and
    the flue cold. Look for nests, shiny or crusty soot glaze, cracks, fallen brick or a blockage.
-   NFPA 211 calls for an inspection at least once a year (NFPA 211; CSIA, Preventing Chimney
-   Fires). The full check is on → 06-09.
+   NFPA 211, the chimney standard, calls for an inspection at least once a year (as quoted by
+   CSIA, Homeowner Resources and FAQs; CSIA, Preventing Chimney Fires). The full check is on
+   → 06-09.
 2. **Test the wood.** Burn wood **under 20% moisture** (EPA, Burn Wise). Use a moisture meter on a
    freshly split face. Wet wood makes smoke, creosote and half the heat (→ 06-03).
 3. **CO alarm and smoke alarm** in the room, fresh batteries.
 4. **A metal ash can with a tight metal lid,** outside on dirt or concrete, before the first burn.
-5. **Set the child line:** a physical barrier and a 3-foot kid-free zone around the hearth or stove
-   (NFPA, Heating Fire Safety), taught before the first fire, not after the first burn (→ 20-02).
+5. **Set the child line:** a physical barrier, children kept back, and anything that can burn at
+   least 3 feet from the fireplace or stove (USFA, Fireplace and Wood Stove Safety), taught before
+   the first fire, not after the first burn (→ 20-02).
 
 ## The open-fireplace truth
 
-**An open fireplace can cool a house overall.** The US Department of Energy puts conventional open
-fireplaces at around 10% efficient, and sometimes worse than nothing: the fire warms the people
-right in front of it while the draught pulls already-warm house air up the chimney and draws cold
-outside air in through every crack (DOE, Wood and Pellet Heating).
+**An open fireplace can cool a house overall.** MU Extension puts a traditional fireplace at about
+10 percent efficiency, sometimes worse than nothing: it can draw up to 300 cubic feet a minute of
+already-warm room air up the chimney, and cold outside air comes in through every crack to replace
+it (University of Missouri Extension, Wood Fuel for Heating, G5450).
 
 What an open fireplace is still good for:
 
 - **Light, morale and cooking coals:** real value, honestly priced.
-- **Real heat only with hardware:** glass doors cut the loss of room air, and a **fireplace insert**
-  (a stove built into the opening) turns it into a real heater (DOE).
+- **Real heat only with hardware:** a **fireplace insert** (a stove built into the opening) can
+  raise a fireplace's efficiency to as much as 40 percent (MU Extension, G5450).
 - **When it is not burning, close the damper.** An open damper is a hole in the roof. (Never with
   live coals: below.)
 
@@ -100,8 +101,10 @@ What an open fireplace is still good for:
 - **Top-down lighting:** big splits on the bottom, smaller pieces crosswise above, kindling and
   tinder on top. It warms the chimney fast, burns clean from the start and needs little tending at
   first.
-- **Small hot fires beat a big smouldering one.** Smoke is unburned fuel painting the flue with
-  creosote (EPA, Burn Wise). If you cannot see flames, you are making creosote, not heat.
+- **Small hot fires beat a big smouldering one.** EPA says build hot fires: for most appliances a
+  smouldering fire is neither safe nor efficient (EPA, Best Wood-Burning Practices). Smoke cools in
+  the chimney and sticks as creosote; restricted air and wet wood speed it up (CSIA, Preventing
+  Chimney Fires). If you cannot see flames, you are making creosote, not heat.
 - **Plenty of dry kindling** at every start and every reload onto coals: start small and hot, then
   add larger pieces with space for air between them (EPA).
 - **Never burn** garbage, plastic, painted or pressure-treated wood, or glossy paper (EPA): toxic
@@ -113,31 +116,35 @@ What an open fireplace is still good for:
   chimney needs heat to draw.
 - **Turn it down in steps** once the fire is burning strongly, watching that flames stay present
   and no smoke rolls into the room.
-- **Never closed with live coals.** Coals make CO for hours after the flames die (CDC; → 29-03); a
-  closed damper sends it into the sleeping house. Close it only when the ashes are truly out, with
+- **Never closed with live coals.** Burning coals still make CO after the flames die (→ 29-03), and
+  a closed damper sends it into the sleeping house. EPA also says keep a stove's doors closed except
+  when loading, because CO can be released into the home (EPA, Best Wood-Burning Practices). Close it only when the ashes are truly out, with
   the CO alarm working.
 
 ## Overnight: burn down, don't smoulder
 
-Loading the stove full and choking the air for an "all-nighter" makes creosote all night (chimney
-fire fuel) and adds CO risk while everyone sleeps. Instead, **burn the last load down to coals
-before sleep, leave the damper open enough for live coals, and take the night on bedding:** bags,
-wool, hot-water bottles, shared warmth (→ 08-06). A well-warmed room and real bedding ride out the
-night. Relight from the coals in the morning (→ 06-02).
+**USFA's advice is to put the fire out before you go to sleep or leave the house** (USFA, Fireplace
+and Wood Stove Safety). Loading the stove full and choking the air for an "all-nighter" is the
+opposite: CSIA names overloading the firebox for a longer burn and closing the air down too far as
+causes of creosote buildup (CSIA, Preventing Chimney Fires), and it adds CO risk while everyone
+sleeps. So **let the last load burn down before sleep, never choke it, leave the damper open while
+any coals are live, and take the night on bedding:** bags, wool, hot-water bottles, shared warmth
+(→ 08-06). A well-warmed room and real bedding ride out the night. Relight in the morning
+(→ 06-02).
 
 ## Ashes
 
-**Metal can, tight metal lid, outside,** on dirt or concrete, away from the building; never a paper
-bag, plastic bin or the porch (NFPA; USFA, Fireplace and Wood Stove Safety). Ashes stay in the can
-**for days**: "cold-looking" ash insulates live coals for a long time, and dumped ashes are a
-common cause of house fires. Cold ash is useful afterwards: grit on icy paths, the garden.
+**Metal can, metal lid, outside, at least 10 feet from the house** (USFA, Fireplace and Wood
+Stove Safety), on a surface that cannot burn (EPA, Best Wood-Burning Practices); never a paper bag,
+plastic bin or the porch. "Cold-looking" ash can hide live coals, so the can stays out there until
+the ash is cold right through. Cold ash is useful afterwards: grit on icy paths, the garden.
 
 {{photo ash-can}}
 
 ## The wood itself
 
-- **Under 20% moisture,** seasoned at least 6 months, split, stacked off the ground and covered on
-  top (EPA; → 06-03).
+- **Under 20% moisture,** seasoned at least six months, split, stacked off the ground and covered on
+  top only (EPA, Best Wood-Burning Practices; → 06-03).
 - **Dense hardwoods** such as oak and hickory give more heat per load and long-lasting coals; they
   want a hot start. **Light woods** such as cottonwood burn fine but give much less heat for the
   same volume, so plan more wood, more reloads and more cutting (→ 06-04).
@@ -146,7 +153,8 @@ common cause of house fires. Cold ash is useful afterwards: grit on icy paths, t
 ## Children and the hearth
 
 {{#if has.young_child}}Your household has a young child.{{/if}} Barrier first (a hearth gate or a
-furniture perimeter), the **3-foot kid-free zone** (NFPA), tools and lighters out of reach, no child
+furniture perimeter), a screen in front of an open fireplace (USFA), children kept well back, tools
+and lighters out of reach, no child
 alone in the room with a live fire, and the rule practised (→ 20-02). **Stove glass and metal stay
 hot long after the flames are gone**; that is the burn that actually happens.
 
@@ -154,8 +162,8 @@ hot long after the flames are gone**; that is the burn that actually happens.
 
 ## If the chimney roars
 
-A sudden roar like a train, sparks or flame from the top of the chimney, a glowing stovepipe: that
-is a chimney fire. **The response is on → 06-09:** shut the air, get everyone out, follow it. This
+A low rumble like a freight train, loud cracking and popping, dense smoke or flame from the top of
+the chimney (CSIA), a glowing stovepipe: that is a chimney fire. **The response is on → 06-09:** shut the air, get everyone out, follow it. This
 page does not repeat it so that there is only one version.
 
 ## Gear

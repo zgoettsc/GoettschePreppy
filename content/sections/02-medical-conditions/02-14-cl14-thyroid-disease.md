@@ -12,6 +12,8 @@ derived_from: [12-11-chronic-conditions]
 sources:
   - niddk-hypothyroidism
   - niddk-hyperthyroidism
+  - medlineplus-hypothyroidism-r11
+  - medlineplus-thyroid-storm-r11
   - medlineplus-levothyroxine
   - ata-thyroid-hormone-treatment
   - us-fda-frequently-asked-questions-on-potassium-iodid-d956f7
@@ -61,15 +63,18 @@ two rare emergencies, and what to settle with the prescriber now.
 > **SAFETY**
 > - **Children do not have access to firearms, fuel, medications or chlorine products.** Thyroid
 >   tablets are small and often brightly coloured; keep them locked away (floor, → 30-01).
-> - **Do not stop, double or split thyroid medicine on your own** to make it last. Ask the
->   prescriber now what to do if supply runs short, and write the answer in part 12.
+> - **Do not stop or split thyroid medicine on your own** to make it last. What to do after a
+>   missed dose differs between sources and people, so ask the prescriber now what to do if
+>   doses are missed or supply runs short, and write the answer in part 12.
 > - **This page never calculates, adjusts or suggests a dose.**
 
 ## Do this now
 
 1. **Count the tablets** and write the days on hand in part 12 and on → 23-02.
-2. **Keep taking the medicine exactly as prescribed.** A missed day or two is not an emergency
-   for most people on thyroid hormone; follow the prescriber's words in part 12.
+2. **Keep taking the medicine exactly as prescribed.** Thyroid hormone stays in the body for a
+   long time (ATA, Thyroid Hormone Treatment), so one missed dose is not an emergency. If more
+   than one or two doses are missed, the American Thyroid Association says to contact the
+   doctor; follow the prescriber's words in part 12.
 3. **Very sleepy, confused, cold and slow** in someone with an underactive thyroid, especially
    one who has been without tablets or is ill or chilled: warm them, keep them lying on their
    side if drowsy, and seek care if any exists (part 5).
@@ -95,7 +100,7 @@ and many people end up on levothyroxine afterwards (NIDDK, Hyperthyroidism).
 | Thyroid hormone tablets (levothyroxine, or a dried-thyroid product) | Days on hand from the bottle (part 7). Tablets keep well cool and dry. | Symptoms of an underactive thyroid return slowly, over weeks. |
 | Antithyroid tablets (for an overactive thyroid) | Days on hand from the bottle. | The overactive symptoms return; the heart works harder. |
 | Beta-blocker for an overactive thyroid, if prescribed | Days on hand. | Some beta-blockers are dangerous to stop suddenly (→ 02-09). |
-| Blood tests | The clinic checks levels every few months. | No way to check levels; you watch symptoms instead (part 4). |
+| Blood tests | The clinic checks levels every few months at first, then at least once a year (MedlinePlus, Hypothyroidism). | No way to check levels; you watch symptoms instead (part 4). |
 
 ## 3. Storing the medication without power
 
@@ -114,16 +119,23 @@ and many people end up on levothyroxine afterwards (NIDDK, Hyperthyroidism).
 ## 4. Day by day without it
 
 What public sources describe for an **underactive thyroid** when tablets stop:
-- **Days:** usually nothing you can feel. Levothyroxine leaves the body slowly.
-- **Weeks:** tiredness, feeling cold, slow thinking, constipation, dry skin, weight gain, low
-  mood and slow heart rate gradually return (NIDDK, Hypothyroidism). People who had their
-  thyroid removed or destroyed have no hormone of their own and are affected sooner and harder.
-- **Months, especially with cold, infection or sedating medicine:** the rare but serious state
-  in part 5 becomes possible.
+- **First days:** usually little you can feel. Thyroid hormone stays in the body for a long
+  time (ATA, Thyroid Hormone Treatment).
+- **Then, slowly:** the early signs of an underactive thyroid return: constipation, feeling
+  cold, tiredness or feeling slowed down, aching joints and muscles, dry skin, low mood,
+  weakness and weight gain. Later signs include slow speech, a puffy face, hands and feet, low
+  body temperature and a slow heart rate (MedlinePlus, Hypothyroidism). People whose thyroid
+  was removed make no hormone of their own and depend entirely on the tablets (NIDDK,
+  Hyperthyroidism).
+- **Later, especially with cold, infection or some medicines:** the rare but serious state in
+  part 5 becomes possible. MedlinePlus names not taking the prescribed thyroid hormone as a
+  common cause of it.
 
-For an **overactive thyroid** when antithyroid tablets stop: the fast heartbeat, shakiness,
-sweating, weight loss and anxiety come back over days to weeks (NIDDK, Hyperthyroidism). Illness,
-injury or great stress can tip it into the emergency in part 5.
+For an **overactive thyroid** when antithyroid tablets stop, the symptoms can come back: a fast
+or irregular heartbeat, shaky hands, sweating, weight loss, nervousness and trouble sleeping
+(NIDDK, Hyperthyroidism). In someone whose overactive thyroid is not controlled, a major stress
+such as an injury or an infection can tip it into the emergency in part 5 (MedlinePlus, Thyroid
+Storm).
 
 **What helps, and is in your control:** warmth and rest for the underactive person; cool, calm,
 regular meals and rest for the overactive one; enough food; plenty of water.
@@ -136,14 +148,17 @@ write the answer in part 12.
 
 ## 5. Warning signs that mean an emergency
 
-- **Severe underactive thyroid (called myxoedema coma by doctors):** very slow, very cold, very
-  drowsy, confused, slow breathing, low body temperature. Rare; more likely in older people,
-  after long untreated hypothyroidism, and when set off by cold, infection or sedating drugs
-  (NIDDK, Hypothyroidism). **First aid:** warm them gently (→ 08-05), keep the airway clear,
-  on their side if drowsy, nothing by mouth if they cannot swallow, and get care.
-- **Severe overactive thyroid (thyroid storm):** fever, very fast or irregular heartbeat,
-  sweating, agitation, confusion, vomiting or diarrhoea (NIDDK, Hyperthyroidism). **First aid:**
-  cool them, rest in a quiet place, fluids by sips if awake, their own beta-blocker if prescribed
+- **Severe underactive thyroid (called myxoedema coma or crisis by doctors):** low body
+  temperature, slow breathing, low blood pressure, low blood sugar, changes in mood and
+  alertness, then no response. It is rare, and is often set off by an infection, an illness,
+  cold, some medicines (opioids are a common cause) or not taking the thyroid hormone. It is a
+  hospital emergency (MedlinePlus, Hypothyroidism; NIDDK, Hypothyroidism). **First aid:** warm
+  them gently (→ 08-05), keep the airway clear, on their side if drowsy, nothing by mouth if
+  they cannot swallow, and get care.
+- **Severe overactive thyroid (thyroid storm):** agitation, restlessness, confusion or a change
+  in alertness, a high temperature, a pounding fast heartbeat, shaking, sweating and diarrhoea
+  (MedlinePlus, Thyroid Storm). It is life-threatening and needs a hospital. **First aid:** cool
+  them, rest in a quiet place, fluids by sips if awake, their own beta-blocker if prescribed
   exactly as its label says, and get care.
 - **Chest pain, fainting or a new irregular heartbeat** in anyone with thyroid disease: treat as
   a heart emergency (→ 02-09).
@@ -169,28 +184,31 @@ write the answer in part 12.
 - Is it safe for this person to take potassium iodide in a radiation emergency? ___________
 Prescriber: ____________________ Date: __________
 
-**Stock arithmetic.** Days on hand = on hand ÷ used per day. Every household medicine row is
-printed; use the ones for this condition.
+**Stock arithmetic.** Days on hand = on hand ÷ used per day. The medicines tagged for this
+condition in settings are printed; if none is tagged, every medicine row is, and you use the
+ones for this condition.
 
 | Medicine or supply | On hand | Used per day | Days on hand | Days you want | Still to get |
 |---|---|---|---|---|---|
-{{#each meds as m}}| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
-{{/each}}| Thermometer, spare battery | ____ | | | ____ | ____ |
+{{#each meds_for.CL-14 as m}}| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
+{{else}}{{#each meds as m}}| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
+{{/each}}{{/each}}| Thermometer, spare battery | ____ | | | ____ | ____ |
 | Warm layers and bedding for the person who feels the cold | ____ | | | ____ | ____ |
 
 > **Before the collapse:** ask for 90-day fills and refill at the earliest allowed date. Ask
-> the prescriber to keep the same maker if they can, because switching makers can change levels
-> slightly. Put the latest blood test result and the strength on → 25-09.
+> the prescriber to keep the same maker if they can: the American Thyroid Association advises
+> staying on one brand or generic maker and rechecking levels after a change (ATA, Thyroid
+> Hormone Treatment). Put the latest blood test result and the strength on → 25-09.
 
 ## 8. Sourcing when the pharmacy is closed
 
 - **Pharmacies, clinics and disaster medical points** while they run, with the printed
   prescription.
-- **Levothyroxine is one of the most commonly prescribed medicines in the country.** Neighbours
-  may hold it. Someone else's prescription is a card: {{choice DC-15}} (→ 30-16). Strength
+- **Levothyroxine is a very common medicine.** Neighbours may hold it. Someone else's prescription is a card: {{choice DC-15}} (→ 30-16). Strength
   matters: tablets come in many strengths, and the number on the bottle is the strength.
 - **There is no safe over-the-counter substitute.** Supplements sold "for thyroid support" or
-  containing iodine or kelp are not replacements and can make some thyroid conditions worse.
+  containing iodine or kelp are not replacements, and too much iodine can itself cause an
+  overactive thyroid (NIDDK, Hyperthyroidism).
 - **When scavenging,** only labelled, sealed bottles; check the name and strength against the
   person's row in part 12.
 
@@ -209,23 +227,27 @@ fever from a cold body; keep a spare battery (→ 27-03).
 
 - **Expired medicine:** {{choice DC-04}} (→ 30-05).
 - **Someone else's prescription:** {{choice DC-15}} (→ 30-16).
-- **Potassium iodide over 40:** {{choice DC-22}} (→ 30-23). FDA's potassium iodide guidance
-  says people with some thyroid conditions need extra caution with it (FDA, Frequently Asked
-  Questions on Potassium Iodide). Ask the prescriber now and write the answer in part 7.
+- **Potassium iodide over 40:** {{choice DC-22}} (→ 30-23). FDA says people with a nodular
+  thyroid and heart disease should not take potassium iodide, and people with multinodular
+  goitre, Graves' disease or autoimmune thyroiditis should take it only with caution, especially
+  beyond a few days (FDA, Frequently Asked Questions on Potassium Iodide). Ask the prescriber now
+  and write the answer in part 7.
 
 The five questions to settle for every condition, and the whole library, are on → 12-11. The
 household's full medicine stockpile is on → 12-07.
 
 ## 12. My meds
 
-Every medicine row your household entered is printed, because the binder cannot pick out one
-condition's rows. **Tick the rows for this condition**, cross out the rest, and fill any blank
-columns by hand.
+Rows marked ✓ are the medicines your household tagged for this condition in settings. If none
+is tagged, every medicine row your household entered is printed with a ☐ instead: **tick the
+rows for this condition** and cross out the rest. Fill any blank columns by hand, and add
+missing medicines in the blank rows.
 
 | For this? | Who | Medicine | Strength | Schedule | Fridge? | If doses are missed (prescriber's words) | Where kept | Days on hand | Expires |
 |---|---|---|---|---|---|---|---|---|---|
-{{#each meds as m}}| ☐ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
+{{#each meds_for.CL-14 as m}}| ✓ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
+{{else}}{{#each meds as m}}| ☐ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
 {{else}}| ☐ | (no medicines entered yet) | | | | | | ____ | ____ | ____ |
-{{/each}}| ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
+{{/each}}{{/each}}| ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
 | ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
 | ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |

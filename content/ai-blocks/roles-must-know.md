@@ -41,7 +41,8 @@ only the items that are life-sustaining, and group them by person.
 ## Constraints
 
 - **Never introduce** a number, dose, timing, phone number, product name, law or procedure that is
-  not in the inputs. Do not restate strengths or schedules. Do not explain how to treat anything:
+  not in the inputs, and never print a number from the inputs other than an age as typed in
+  `age_text`. Do not restate strengths or schedules. Do not explain how to treat anything:
   the condition pages do that.
 - Do not infer a condition from a medicine name, or a medicine from a condition. Use only what is
   typed.

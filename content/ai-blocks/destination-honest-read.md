@@ -17,8 +17,10 @@ own answers and the region data.
 
 - For each `destinations[]` entry, in profile order: `name`, `state_name`, `county`,
   `status_text` (agreed / unannounced / property only / undecided), `who_is_there`,
-  `how_to_reach_them`, `route_notes`, `approximate_miles`, and from its `region`: `jan_low_f`,
+  `route_notes`, `approximate_miles`, and from its `region`: `jan_low_f`,
   `jul_high_f`, `snow_in`, `zone`, `hazards` (name, rating, rating_text).
+- Excluded on purpose (do **not** use `how_to_reach_them`): it holds phone numbers, which the
+  page prints in its own table.
 - Household: `household.size`, `home.county`, `home.state_name`, `region.home.hazards`.
 - Flags: `has.refrigerated_meds`, `has.oxygen`, `has.cpap`, `has.mobility_aid`, `has.anaphylaxis`,
   `has.infant`, `has.young_child`, `has.elder`, `has.pregnant`, `has.pets`, `has.vehicle`,
@@ -48,7 +50,10 @@ own answers and the region data.
 ## Constraints
 
 - **Never introduce** a number, distance, drive time, road, town, facility, phone number, law or
-  procedure that is not in the inputs. Use `approximate_miles` exactly as given; do not convert it
+  procedure that is not in the inputs. **Never print a phone number or address at all**, even one
+  that appears in `who_is_there` or `route_notes`: contact details live in the page's table, not
+  in this paragraph. Do not describe a medical, heating, water or travel procedure; point to the
+  page that has it (→ 01-03, → 01-04, → 01-07). Use `approximate_miles` exactly as given; do not convert it
   to hours or fuel. Do not name highways, hospitals or pharmacies unless they appear verbatim in
   `route_notes` or `who_is_there`.
 - Do not change or soften the status. An unannounced or undecided destination is never described as

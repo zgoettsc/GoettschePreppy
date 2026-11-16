@@ -2,7 +2,7 @@
 id: 08-02-carbon-monoxide-safety
 section: 08-heating-and-cold-weather-shelter
 title: "Carbon monoxide: the silent killer"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -15,6 +15,8 @@ sources:
   - cpsc-carbon-monoxide-fact-sheet-e97206
   - cpsc-carbon-monoxide-questions-and-answers-783766
   - epa-carbon-monoxide-s-impact-on-indoor-air-quality-a995e7
+  - first-alert-co-alarm-users-manual-m08-0534-r8
+  - medlineplus-carbon-monoxide-poisoning-r13
 related:
   - 08-01-heating-one-room
   - 08-03-winterizing-the-home
@@ -51,7 +53,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "UL 2034 table now cites a maker manual (not CPSC); EPA 9 ppm (not on the EPA page) replaced by EPA home levels; CPSC symptom bands and placement re-read; placement details traced to the First Alert manual; delayed effects per MedlinePlus; matches 29-03." }
 ---
 
 # Carbon monoxide: the silent killer
@@ -71,8 +73,8 @@ answers 911. It outranks every other heating page.
 
 ## Do this now
 
-1. **Put battery CO alarms on every level of the home and outside each sleeping area**, and one
-   in the warm room at pillow height (CPSC). Test each one. You have listed {{ gear.co_alarms }}.
+1. **Put battery CO alarms on every level of the home and outside each sleeping area** (CPSC),
+   and one in the warm room at pillow height (→ 30-02). Test each one. You have listed {{ gear.co_alarms }}.
 2. **Never use a gas oven or range to heat the house.** It is not a heater (CDC).
 3. **Never use a camp stove, grill or charcoal indoors** (CDC; → 07-05).
 4. **Generators outdoors only, more than 20 feet from any window, door or vent** (CDC; → 09-04).
@@ -87,8 +89,8 @@ fireplaces, generators, vehicles, charcoal (CDC). It takes the place of oxygen i
 first symptoms are the same as flu, so people lie down to rest and do not get up.
 
 **Who is hurt first.** CDC names infants, older adults, and people with chronic heart disease,
-anaemia or breathing problems as higher risk (CDC). Small children breathe faster and show
-effects before adults do. {{#if has.young_child}}Your household has a child under 6: if a child
+anaemia or breathing problems as higher risk (CDC). One CO alarm maker's manual adds that young
+children and pets may be the first affected (First Alert, CO alarm user's manual). {{#if has.young_child}}Your household has a child under 6: if a child
 is unusually sleepy or sick while anything is burning indoors, treat it as CO until you know
 otherwise.{{/if}}{{#if has.elder}} Your household has an older member, who may show it early
 too.{{/if}}
@@ -125,18 +127,37 @@ outside and deadly inside.
 
 ## The numbers: what a CO reading means
 
-An alarm with a digital readout turns CO into a number. The table below uses CPSC's levels and
-the alarm standard (UL 2034) as CPSC describes it, and EPA's outdoor air standard for context
-(CPSC, Carbon Monoxide Questions and Answers; EPA, Carbon Monoxide's Impact on Indoor Air
-Quality). The "what to do" column is deliberately cautious.
+An alarm with a digital readout turns CO into a number, in **parts per million (ppm)**: how many
+CO molecules there are in every million molecules of air (→ 29-03). Three published sets of
+figures help you read it.
 
-| Reading (ppm) | What it means | Symptoms | What to do |
-|---|---|---|---|
-| **0 to 9** | Clean. About 9 ppm is EPA's 8-hour outdoor standard; indoor readings that sit near 9 mean something is making CO | None for most people | Find the source when you can; a steady non-zero reading is information |
-| **10 to 30** | Low but real. Alarms are built to stay silent here (no alarm below 30 ppm for 30 days). **Silence is not proof of safety** | Usually none; people with heart disease may get chest pain sooner | Ventilate. Check every burning appliance and flue. Do not sleep with an unexplained steady reading |
-| **30 to 70** | A source is running and winning | Often still none, which is the trap | Ventilate now; find and shut off the source. Nobody sleeps until it reads low and the cause is known |
-| **Alarm sounding, or over 70 sustained** | Alarm range: 70 ppm alarms within 1 to 4 hours | Headache, tiredness, nausea become noticeable | **Everyone out to fresh air;** burning appliances off (one-adult re-entry rule below); air the house fully before anyone returns |
-| **150 to 200 and higher** | Life-threatening: 150 ppm alarms in 10 to 50 minutes, 400 ppm in 4 to 15 minutes | Disorientation, unconsciousness, death | **Leave immediately. Carry the children, count heads, nobody goes back in** |
+**What the home alarm standard requires.** UL 2034, as printed in a First Alert CO alarm manual
+(CPSC says alarms are designed to sound before levels become life-threatening):
+
+| CO level | What the alarm standard requires |
+|---|---|
+| 30 ppm, steady | No alarm, even after 30 days |
+| 70 ppm | Alarm within 1 to 4 hours |
+| 150 ppm | Alarm within 10 to 50 minutes |
+| 400 ppm | Alarm within 4 to 15 minutes |
+
+**What the levels do to people** (CPSC, Carbon Monoxide Questions and Answers): long exposure at
+about 1 to 70 ppm usually causes no symptoms, though people with heart disease may get more chest
+pain. Sustained above 70 ppm, symptoms become noticeable: headache, tiredness, nausea. Sustained
+at 150 to 200 ppm, disorientation, unconsciousness and death are possible.
+
+**What ordinary homes read** (EPA, Carbon Monoxide's Impact on Indoor Air Quality): 0.5 to 5 ppm
+in homes without gas stoves; 5 to 15 ppm near a properly adjusted gas stove; 30 ppm or more near a
+badly adjusted one.
+
+What to do with a reading. This column is deliberately cautious:
+
+| Reading | What to do |
+|---|---|
+| **Steady, above the ordinary-home levels, alarm silent** | Something is making CO. **A silent alarm is not proof of safety.** Ventilate, check every burning appliance and flue, and do not sleep with an unexplained steady reading |
+| **30 to 70 ppm** | A source is running and winning, often with no symptoms yet, which is the trap. Ventilate now; find and shut off the source. Nobody sleeps until it reads low and the cause is known |
+| **Alarm sounding, or above 70 ppm sustained** | **Everyone out to fresh air;** burning appliances off (one-adult re-entry rule below); air the house fully before anyone returns |
+| **150 ppm and higher** | **Leave immediately. Carry the children, count heads, nobody goes back in** |
 
 Two readings deserve special fear: **any reading while people were asleep**, and a **peak on the
 alarm's memory you cannot explain**. Both mean you find the source before the next night.
@@ -145,19 +166,21 @@ alarm's memory you cannot explain**. Both mean you find the source before the ne
 
 - **Minimum:** one on every level and one outside each sleeping area (CPSC). With only one
   alarm, it goes where people sleep, which in an outage is the warm room (→ 08-01).
-- **Height and placement: follow your alarm's own manual.** CO mixes with room air, so makers
-  approve wall or ceiling mounting. **In the warm room, put it at pillow height**, the height of
-  sleeping heads.
+- **Height and placement: follow your alarm's own manual.** Makers differ: one common manual
+  allows a wall or a tabletop (First Alert); CPSC says a plug-in outlet or high on the wall, never
+  in a kitchen or above a fuel-burning appliance (CPSC). **In the warm room, put it at pillow
+  height**, the height of sleeping heads (→ 30-02).
 - **Distance from the heater.** Many alarm manuals give a minimum distance from fuel-burning
-  appliances so that a puff at lighting does not set them off. A small warm room often cannot
-  meet it. Then put the alarm on the **wall opposite the heater, at pillow height, never directly
+  appliances; one common manual says 20 feet from a furnace or other fuel-burning heat source
+  (First Alert). A small warm room often cannot meet it. Then put the alarm on the **wall opposite the heater, at pillow height, never directly
   above it**, and treat a short alarm at lighting as "ventilate and check", never as "pull the
   battery". An alarm pulled for being annoying is not there at 3 a.m.
-- **Never in still-air spots:** not in the corner where wall meets ceiling, not behind curtains or
-  furniture, not beside a window, door, vent or fan where fresh air rinses the sensor while the
-  room fills. A heater's cracked window or air openings count: keep the alarm away from them.
-- **Not in bathrooms or above heat sources:** humidity and heat shorten sensor life and cause
-  false readings.
+- **Never in still-air or blowing-air spots:** not within 4 inches of the corner where wall meets
+  ceiling, not where curtains or furniture can cover it, not near a fan, heat vent or open window,
+  because blowing air can keep CO from reaching the sensor (First Alert; CPSC). A heater's cracked
+  window or air openings count: keep the alarm away from them.
+- **Not in bathrooms or above heat sources:** one common manual says at least 10 feet from a bath
+  or shower, because constant high humidity or heat can shorten the sensor's life (First Alert).
 - **Battery alarms only count in an outage.** A plug-in alarm with no battery backup is useless
   when the power is out.
 
@@ -184,12 +207,13 @@ applies to your furnace and water heater vents.{{/if}}
 
 **If there is no 911:**
 
-- **Fresh air is the field treatment.** There is no home antidote. Hospitals give oxygen; the
-  household version is time in clean air. Keep everyone outside, **resting** (exertion makes it
+- **Fresh air is the field treatment** (MedlinePlus, Carbon monoxide poisoning). There is no home
+  antidote. Hospitals give oxygen; the household version is time in clean air. Keep everyone outside, **resting** (exertion makes it
   worse), warm (→ 08-05), for hours, not minutes. A safely parked vehicle running outdoors with
   a clear tailpipe, or a neighbour's house, can be the warm spot.
 - **Anyone who was confused, staggering, vomiting or unconscious** gets the longest rest and a
-  watcher. Symptoms can come back and late effects can appear over the following days. Write down
+  watcher. Permanent brain damage can follow, and impaired thinking can come back after one to two
+  weeks without symptoms (MedlinePlus). Write down
   who was exposed and how badly, in case care becomes reachable.
 - **One clear-headed adult goes back in**, briefly, holding their breath, with doors open, to shut
   off the source and open windows. The house then airs out until the alarm is silent on fresh
@@ -201,9 +225,9 @@ applies to your furnace and water heater vents.{{/if}}
 
 | Item | Why | Notes |
 |---|---|---|
-| **Battery CO alarms**: every level, outside sleeping areas, the warm room | The only thing that detects CO | Test monthly; replace at the end-of-life date printed on the unit, and at once on an end-of-life chirp |
+| **Battery CO alarms**: every level, outside sleeping areas, the warm room | The only thing that detects CO | Test as its manual says (one common manual: weekly); the test button checks the circuit, not the sensor (CPSC); replace at the end-of-life date printed on the unit, and at once on an end-of-life chirp |
 | CO alarm with a **digital peak readout** | Shows what happened while you slept | CDC suggests considering one |
-| A deep supply of the alarms' batteries | Alarms fail silent without them | Check twice a year |
+| A deep supply of the alarms' batteries | Alarms fail silent without them | Check twice a year (CDC) |
 | Heavy outdoor extension cord, 25 ft or more | Lets the generator sit 20+ ft from the house | Rated for the load (→ 09-04) |
 | Chimney inspection or brush | A blocked flue makes CO and fire | → 06-09 |
 | A snow shovel by the vent side of the house | Clear vents after storms | |

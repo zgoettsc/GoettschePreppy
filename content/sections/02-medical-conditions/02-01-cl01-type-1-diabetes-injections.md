@@ -2,7 +2,7 @@
 id: 02-01-cl01-type-1-diabetes-injections
 section: 02-medical-conditions
 title: "CL-01. Type 1 diabetes on injections"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: condition
 danger_level: critical
@@ -18,6 +18,8 @@ sources:
   - american-diabetes-association-dka-ketoacidosis-and-k-f0301a
   - cdc-managing-sick-days-18c7c8
   - cdc-low-blood-sugar-hypoglycemia
+  - cdc-treatment-of-low-blood-sugar-r7
+  - niddk-low-blood-glucose-hypoglycemia-r10
   - us-fda-best-way-to-get-rid-of-used-needles-and-other-a67780
   - world-health-organization-cholera-outbreaks-q-and-a-162558
 related:
@@ -68,8 +70,9 @@ Pumps and sensors have their own module (→ 02-02); read this one first either 
 
 > **SAFETY**
 > - **Insulin cannot be skipped, stretched or replaced.** A person with type 1 diabetes makes no
->   insulin. Without it, diabetic ketoacidosis (DKA) follows within days and kills. Nothing grown,
->   foraged or bought over a counter replaces it.
+>   insulin. Without it, diabetic ketoacidosis (DKA) follows and kills; the ADA's disaster sheet
+>   says even a few hours of interrupted insulin can bring on life-threatening DKA (ADA,
+>   Switching Between Insulin Products). Nothing grown, foraged or bought over a counter replaces it.
 > - **A frozen-then-thawed insulin vial or pen is discarded.** Freezing breaks the insulin and it
 >   can look normal afterwards; FDA and the American Diabetes Association both say do not use it
 >   (floor, → 30-01).
@@ -83,15 +86,18 @@ Pumps and sensors have their own module (→ 02-02); read this one first either 
 
 **Low blood sugar: shaky, sweaty, pale, confused, odd behaviour, or "feels low":**
 1. If they can swallow safely: **fast sugar now**. CDC's 15-15 rule: eat or drink 15 grams of
-   fast carbohydrate (glucose tablets or gel by their label, half a cup of juice or regular soda),
-   wait 15 minutes, check sugar; if still below 70 mg/dL, repeat (CDC, Low Blood Sugar).
+   fast carbohydrate (glucose tablets or gel by their label, or half a cup, 4 ounces, of juice or
+   regular soda), wait 15 minutes, check sugar; if still below 70 mg/dL, repeat (CDC, Treatment of
+   Low Blood Sugar).
 2. **Not awake, cannot swallow, or having a seizure: nothing by mouth.** Give **glucagon** exactly
-   as its label shows. Roll them onto their side (→ figure below). Stay with them.
+   as its label shows. Roll them onto their side (→ figure below). Stay with them. CDC says to get
+   emergency medical care right after a glucagon injection: if any exists, send for it.
 3. When they are awake and can swallow, give food. Check sugar again within the hour.
 
 **Signs of DKA: thirst, peeing a lot, vomiting, belly pain, deep fast breathing, fruity breath, confusion:**
-1. **Check ketones** (urine strip or blood meter). **Give the person's insulin; never stop it
-   because they are not eating** (CDC, Managing Sick Days).
+1. **Check ketones** (urine strip or blood meter). **Keep giving the person's insulin.** CDC's
+   sick-day advice is to keep taking insulin as usual (CDC, Managing Sick Days); not eating is
+   not a reason to stop it.
 2. **Fluids, small sips often.** Follow the sick-day plan the prescriber wrote in part 6.
 3. ADA says a blood ketone level of **1.6 mmol/L or higher** needs emergency care; CDC says
    ketones in the urine mean the emergency room (ADA, DKA; CDC, Managing Sick Days). If any care
@@ -103,13 +109,13 @@ Pumps and sensors have their own module (→ 02-02); read this one first either 
 
 Type 1 diabetes means the body has stopped making insulin, the hormone that lets sugar from food
 into the cells. Without injected insulin, sugar piles up in the blood, the body burns fat
-instead, and the acids from burning fat (ketones) poison the blood within days.
+instead, and the acids from burning fat (ketones) poison the blood (ADA, DKA).
 
 ## 2. What runs out, and how fast
 
 | What | Clock | What happens when it is gone |
 |---|---|---|
-| **Insulin** | Your days on hand (part 7). One opened vial or pen lasts only as long as its label allows. | DKA within days. **This is the household's master clock.** |
+| **Insulin** | Your days on hand (part 7). One opened vial or pen lasts only as long as its label allows. | DKA, which can start within hours (ADA). **This is the household's master clock.** |
 | Syringes or pen needles | Count them with the insulin. | A vial you cannot draw from is not usable insulin. |
 | Glucose meter strips and lancets | Your check rate times your count. | Dosing blind; lows go unnoticed. |
 | Ketone strips | Opened bottles have a printed use-within date; check yours. | DKA is caught late. |
@@ -141,21 +147,22 @@ in an Emergency; ADA, Insulin Storage and Syringe Safety):**
 | Above 86 °F | Strength drops; the longer and hotter, the more. FDA: under emergency conditions you might still need to use insulin stored above 86 °F, and replace it as soon as properly stored insulin is available. Your household's line: {{choice DC-08}} (→ 30-09). |
 | Frozen | **Do not use** (FDA, ADA). Floor: discard. |
 | Insulin taken out of its original vial or diluted | Discard within two weeks (FDA). |
-| Looks wrong | Clear insulin that is cloudy, coloured or has particles, or cloudy insulin with clumps or "frosting" on the glass, is not used (ADA). |
+| Looks wrong | Regular (clear) insulin with particles or discoloration, or NPH (cloudy) insulin with "frosting" or crystals on the inside of the bottle or small particles or clumps, is not used (ADA). |
 | Expired | ADA says do not use past the expiry date. Your household's line on expired medicine: {{choice DC-04}} (→ 30-05). |
 
-**Planning context, not permission:** a 2023 Cochrane review found unopened vials and cartridges
-of some **human** insulins (regular and NPH types) kept their strength for up to six months at up
-to 77 °F (25 °C) and up to two months at up to 99 °F (37 °C); evidence for the newer "analog"
-insulins is thinner (Cochrane, Richter and others, 2023). Freezing is a cliff; heat is a slope.
+**Planning context, not permission:** a Cochrane review found that unopened vials and cartridges
+of specific types of **human** insulin kept their strength for up to six months at up to 77 °F
+(25 °C) and up to two months at up to 99 °F (37 °C) (Cochrane, Human insulin less
+temperature-sensitive than previously thought). The review was about human insulin; it does not
+cover the newer "analog" insulins that many people now use. Freezing is a cliff; heat is a slope.
 
 **The cold ladder, best first** (→ 29-07 explains each step):
 1. A **powered fridge or 12-volt compressor cooler** on a battery or solar, set so it **cannot
    freeze**, with a thermometer inside (→ 09-10).
 2. **Winter cold, buffered:** an insulated cooler in a cold spot, never directly against ice or a
    frozen wall, checked with a **min/max thermometer** (one that remembers the highest and lowest
-   reading). Outdoors, a garage or a car swings below freezing at night. Aim for 36 to 46 °F and
-   never below 33 °F.
+   reading). Outdoors, a garage or a car swings below freezing at night. Aim for the label's 36
+   to 46 °F, and never let it freeze.
 3. **Ice or cold packs with a barrier**: a towel or a box between the ice and the insulin so it
    cannot freeze (→ figure).
 4. **Evaporative cooling pouches** in warm months: they keep insulin below air temperature with
@@ -177,11 +184,13 @@ garage.
 This is what public sources describe when insulin stops. It is here so nobody mistakes the
 early hours for a reprieve.
 
-- **Hours:** blood sugar rises. Thirst and peeing increase (CDC, Diabetic Ketoacidosis).
-- **First day or two:** ketones appear and rise. Tiredness, headache, sick stomach.
-- **Days:** DKA: vomiting, belly pain, deep fast breathing, fruity breath, confusion, then
-  collapse. Hospital treatment is fluids, salts and insulin through a drip (CDC). **Without
-  insulin, nothing at home reverses it.**
+- **First:** blood sugar rises. Thirst and peeing increase (CDC, Diabetic Ketoacidosis).
+- **Then:** ketones appear and rise. Tiredness, headache, sick stomach.
+- **DKA:** vomiting, belly pain, deep fast breathing, fruity breath, confusion, then collapse.
+  Hospital treatment is fluids, salts and insulin through a drip (CDC).
+- **How fast:** ADA says DKA can develop quickly, and its disaster sheet says even a few hours
+  of interrupted insulin can bring it on (ADA, DKA; ADA, Switching Between Insulin Products).
+  Do not plan on days. **Without insulin, nothing at home reverses it.**
 
 **"Rationing" insulin does not work.** Taking less than the body needs leads to DKA, not to
 savings. What you can ration is **waste**: cold-chain failures, spilled or frozen vials, a pen
@@ -189,10 +198,12 @@ discarded half full. That is why storage gets so much space on this page.
 
 ## 5. Warning signs that mean an emergency
 
-**Low blood sugar (hypoglycaemia), the fast danger.** Below 70 mg/dL is low (CDC). Signs: shaky,
-sweaty, fast heartbeat, hungry, irritable, pale, confused, slurred speech, clumsy, then seizure or
-unconsciousness. Lows are more likely with hard physical work, cold, missed meals, alcohol, and
-at night. **Treat first, check second** if no meter is at hand. The first-aid steps are in "Do
+**Low blood sugar (hypoglycaemia), the fast danger.** Below 70 mg/dL is low (CDC). Signs: fast
+heartbeat, shaking, sweating, nervousness, irritability or confusion, dizziness, hunger; then
+weakness, trouble walking or seeing clearly, acting strange, seizures, fainting (CDC, Low Blood
+Sugar). Lows are more likely with physical activity, too little carbohydrate for the insulin
+taken, alcohol, and at night (CDC). Activity can keep lowering sugar for up to 24 hours
+afterwards (NIDDK, Low Blood Glucose). **Treat first, check second** if no meter is at hand. The first-aid steps are in "Do
 this now" above. **Every adult must be able to give glucagon.** Not "has watched"; has done it
 with a trainer or a practice kit.
 
@@ -210,7 +221,7 @@ answer: ______________________________________________
 
 Illness, even a cold or diarrhoea, pushes blood sugar up and can start DKA in a person who is
 taking their insulin. CDC's published sick-day steps (CDC, Managing Sick Days):
-- **Keep taking insulin**, even if not eating.
+- **Keep taking insulin** (and any diabetes pills) as usual.
 - **Check blood sugar every 4 hours** and write it down.
 - **Drink plenty of water** to prevent dehydration.
 - **Try to eat as normal.** If meals are impossible, CDC says to take about **50 grams of
@@ -218,7 +229,8 @@ taking their insulin. CDC's published sick-day steps (CDC, Managing Sick Days):
   fruit juice.
 - **Weigh daily** (losing weight without trying is a sign of high sugar) and **check temperature
   morning and evening** (fever may mean infection).
-- **Test urine for ketones**; ketones mean call the doctor, and probably hospital.
+- **Test urine for ketones** (an over-the-counter kit); if ketones are present, call the doctor
+  right away.
 
 CDC's emergency-room list for a sick person with diabetes, as published: trouble breathing;
 ketones in the urine; cannot keep liquids down for more than 4 hours, or food for more than 24
@@ -240,13 +252,18 @@ Q&A), with the safety notes on → 12-05. The sugar in it counts: write it in th
 
 ## 7. What to stock, and how much
 
-The binder shows the arithmetic; you fill it in from your own bottles. Every household medicine
-row is printed; use the ones for this condition. **Days on hand = on hand ÷ used per day.**
+The binder shows the arithmetic; you fill it in from your own bottles. The medicines tagged for this condition in settings are printed; if none are tagged, every household medicine row is, so use the ones for this condition. **Days on hand = on hand ÷ used per day.**
 
 | Medicine or supply | On hand | Used per day | Days on hand | Days you want | Still to get |
 |---|---|---|---|---|---|
-{{#each meds as m}}| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
-{{/each}}| Syringes or pen needles (match the insulin strength, usually U-100) | ____ | ____ | ____ | ____ | ____ |
+{{#each meds_for.CL-01 as m}}
+| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
+{{else}}
+{{#each meds as m}}
+| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
+{{/each}}
+{{/each}}
+| Syringes or pen needles (match the insulin strength, usually U-100) | ____ | ____ | ____ | ____ | ____ |
 | Meter strips (count rises without a sensor) | ____ | ____ | ____ | ____ | ____ |
 | Lancets | ____ | ____ | ____ | ____ | ____ |
 | Ketone strips (urine or blood) | ____ | ____ | ____ | ____ | ____ |
@@ -270,9 +287,9 @@ Needles). Never share a syringe (ADA).
 > **Before the collapse:** ask the prescriber for the largest emergency supply they will write,
 > move to 90-day fills, and refill at the earliest allowed date. Rotate: newest to the back of the
 > fridge, use from the front. Ask whether manufacturer or nonprofit assistance programs can lower
-> the cost if cost limits the buffer. In most states, older human insulins (Regular and NPH) are
-> sold at the pharmacy counter without a prescription; you must ask the pharmacist, and the rules
-> differ by state. Ask your pharmacist what your state allows, and write it here: __________
+> the cost if cost limits the buffer. In many states, older human insulins (Regular and NPH) can be
+> bought at the pharmacy counter without a prescription; you must ask the pharmacist, and the
+> rules differ by state. Ask your pharmacist what your state allows, and write it here: __________
 
 ## 8. Sourcing when the pharmacy is closed
 
@@ -291,8 +308,11 @@ how it was stored. Frozen at any point means discard (floor).
 instead of the person's usual insulin): switching changes timing and amounts. FDA and the ADA
 both publish emergency switching guidance, and both say switching should be done with a
 physician and close sugar monitoring (FDA; ADA, Switching Between Insulin Products in Disaster
-Response Situations). In the Large download both documents are bound behind this page. **This
-binder does not convert doses**; FDA's published text follows, for your prescriber to confirm.
+Response Situations). **The two documents do not give the same amounts**: the ADA sheet, written
+for health professionals, lowers the dose in most switches, while FDA's mostly keeps the same
+number of units. That disagreement is one more reason to have the prescriber decide now. In the
+Large download both documents are bound behind this page. **This binder does not convert
+doses**; FDA's published text follows, for your prescriber to confirm.
 
 ### As published, for your prescriber to confirm
 
@@ -378,15 +398,23 @@ batteries, in a metal box.
 
 ## 12. My meds
 
-Every medicine row your household entered is printed, because the binder cannot pick out one
-condition's rows. **Tick the rows for this condition**, cross out the rest, and fill the last
-three columns by hand from the boxes and bottles.
+Medicines your household tagged for this condition in settings are printed below. **If none
+are tagged, every medicine row your household entered is printed instead: tick the rows for
+this condition** and cross out the rest. Fill any blank columns by hand from the boxes
+and bottles, and add untagged medicines in the empty rows.
 
 | For this? | Who | Medicine | Strength | Schedule | Fridge? | If doses are missed (prescriber's words) | Where kept | Days on hand | Expires |
 |---|---|---|---|---|---|---|---|---|---|
-{{#each meds as m}}| ☐ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | ____ | ____ | ____ |
-{{else}}| ☐ | (no medicines entered yet) | | | | | | ____ | ____ | ____ |
-{{/each}}| ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
+{{#each meds_for.CL-01 as m}}
+| ☐ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
+{{else}}
+{{#each meds as m}}
+| ☐ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
+{{else}}
+| ☐ | (no medicines entered yet) | | | | | | ____ | ____ | ____ |
+{{/each}}
+{{/each}}
+| ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
 | ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
 | ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
 

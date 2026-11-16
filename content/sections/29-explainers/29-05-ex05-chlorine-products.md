@@ -2,7 +2,7 @@
 id: 29-05-ex05-chlorine-products
 section: 29-explainers
 title: "Chlorine products: bleach, pool shock, tablets and ppm"
-version: 2
+version: 3
 revised: 2026-11-16
 layer: explainer
 danger_level: critical
@@ -22,7 +22,7 @@ condition: null
 gear: null
 explainer: EX-05
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Drinking table matches CDC and 03-04; EPA 500 mg/L, 1:100 re-read; surface recipes re-read on CDC pages (dish line has no CDC contact time, removed); norovirus 5-25 tbsp sourced and matches 13-11; unsourced cal-hypo 65-73 % removed; ATSDR 120 F storage added." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Wave 2 (R18): drinking table labelled CDC only, EPA 6/8.25% figures added as EPA; pool-shock strength now EPA 500 ppm stock, storage ATSDR 120 F; unsourced shelf lives (bleach months, tablets years) replaced by EPA one-year and CDC 24-hour lines; earlier wave-1 checks stand." }
 ---
 
 # Chlorine products, explained from the beginning
@@ -44,9 +44,9 @@ the published tables without guessing.
 
 | Product | What it is | Strength | Keeps | Drinking water? |
 |---|---|---|---|---|
-| **Household bleach** | Liquid **sodium hypochlorite** in water | Regular unscented bleach is 5 to 9% (CDC); the % is on the label | Loses strength over months; a year-old bottle is weaker than the tables assume. Mixed solutions lose strength in about a day | **Yes**, unscented only, using the table below |
-| **Pool shock (cal-hypo)** | Granular **calcium hypochlorite** | Far stronger than bleach; the % is on the label | Keeps well sealed, dry and cool | **Yes**, only if the label shows calcium hypochlorite with **no** algaecides, clarifiers or stabilisers, using EPA's two-step method (→ 03-04) |
-| **Pool tablets (trichlor, dichlor)** | Slow-dissolving chlorine compounds for pools | Strong | Years, dry | **No** — pool use only. Never stored with cal-hypo: CDC/ATSDR says to keep cal-hypo apart from other chlorinating agents |
+| **Household bleach** | Liquid **sodium hypochlorite** in water | Regular unscented bleach is 5 to 9% (CDC); the % is on the label | EPA says use bleach stored at room temperature for less than a year; write the purchase date on it. Mixed with water, it works less well after 24 hours (CDC) | **Yes**, unscented only, using the table below |
+| **Pool shock (cal-hypo)** | Granular **calcium hypochlorite** | Concentrated: one heaping teaspoon makes 2 gallons of stock at about 500 ppm (EPA); the % is on the label | Water or heat breaks it down: sealed, dry, below 120°F (CDC/ATSDR) | **Yes**, only if the label shows calcium hypochlorite with **no** algaecides, clarifiers or stabilisers, using EPA's two-step method (→ 03-04) |
+| **Pool tablets (trichlor, dichlor)** | Slow-dissolving chlorine compounds for pools | Per label | Per label | **No** — pool use only. Never stored with cal-hypo: CDC/ATSDR says to keep cal-hypo apart from other chlorinating agents |
 | **Chlorine dioxide tablets** | A different chemical sold for drinking water | Per label | Per label | **Yes**, following the label's times exactly; the one chemical that handles *Cryptosporidium* (CDC) |
 
 Scented, "splashless", gel or "multi-action" products are **not** used for water or disinfection:
@@ -69,9 +69,10 @@ Surface strength in drinking water is poisoning. Drinking strength on a vomit sp
 nothing. **Never mix up the two tables. An unlabelled jug of mixed bleach is surface solution:
 pour it out.**
 
-## Drinking water with bleach (CDC; EPA)
+## Drinking water with bleach (CDC)
 
-Clear cloudy water first (let it settle, pour off, filter through cloth). Then:
+Clear cloudy water first (let it settle, pour off, filter through cloth). Then, from CDC's
+table (How to Make Water Safe in an Emergency):
 
 | Water | 5 to 9% bleach | 1% bleach |
 |---|---|---|
@@ -80,7 +81,9 @@ Clear cloudy water first (let it settle, pour off, filter through cloth). Then:
 | 5 gallons | 40 drops (2.5 mL, 1/2 tsp) | 200 drops (12.5 mL) |
 
 Stir, wait **at least 30 minutes**. **Double the dose** if the water is cloudy, coloured or very
-cold. If the label gives drinking-water directions, follow the label. Full method: → 03-04.
+cold. If the label gives drinking-water directions, follow the label. EPA's own table is for
+bleach labelled 6 or 8.25 percent: 8 drops of 6% or 6 drops of 8.25% bleach per gallon (EPA,
+Emergency Disinfection of Drinking Water). Both tables, and the full method: → 03-04.
 
 ## Surfaces and dishes (CDC)
 

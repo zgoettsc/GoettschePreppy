@@ -10,7 +10,9 @@ phase: [A, B, C]
 tags: [condition library, kidney disease, dialysis, hemodialysis, peritoneal dialysis, potassium, fluid limit, fistula, supply clock]
 derived_from: [12-11-chronic-conditions]
 sources:
-  - cms-preparing-for-emergencies-dialysis
+  - cms-preparing-for-emergencies-dialysis-2026-r11
+  - medlineplus-high-potassium-r11
+  - medlineplus-end-stage-kidney-disease-r11
   - niddk-chronic-kidney-disease
   - niddk-managing-chronic-kidney-disease
   - niddk-hemodialysis
@@ -88,15 +90,16 @@ are not on dialysis have a longer clock; this module covers them too.
 ## Do this now
 
 **When dialysis is interrupted (unit closed, no power, cannot travel):**
-1. **Call the dialysis unit, then the backup unit** on the numbers in part 7. Units have
-   emergency plans and can often send you to another unit (CMS, Preparing for Emergencies: A
-   Guide for People on Dialysis).
-2. **Start the emergency diet and fluid limit the dialysis team gave you** (part 7). Start on the
-   first missed day, not the third.
+1. **Call the dialysis unit's emergency number, then the backup unit** on the numbers in part 7,
+   to learn where and when to get treatment (CMS, Preparing for Emergencies: A Guide for People
+   on Dialysis, 2026).
+2. **Start the emergency diet and fluid limit the dialysis team gave you** (part 7). CMS says to
+   start it as soon as you think a treatment may be missed; starting early does no harm (CMS).
 3. **Take the medicines as the team wrote** for a missed treatment (part 12).
 4. **Watch for the danger signs** in part 5 several times a day. Weigh daily if you have a scale.
-5. **Decide now how many missed treatments trigger leaving for working care** (part 11, → 01-02).
-   Leave while the person can still travel.
+5. **Get to dialysis.** CMS says to always try to get dialysis within three days of the last
+   treatment (CMS). Decide now how many missed treatments trigger leaving for working care
+   (part 11, → 01-02), and leave while the person can still travel.
 
 **Bleeding from a fistula or graft** (the access in the arm): press firmly on the spot with a
 clean cloth or gauze and keep pressing; do not lift to look (→ 12-02). Get help.
@@ -132,19 +135,25 @@ cycler) overnight (NIDDK, Peritoneal Dialysis).
 - **Refrigerated injections** (some anaemia medicines): follow the label's cold rules (→ 29-07).
   Whether to use one after a heat excursion is a card: {{choice DC-08}} (→ 30-09).
 - **Flood water:** FDA says drugs in contact with flood or contaminated water should be thrown
-  away (FDA, Safe Drug Use After a Natural Disaster). That includes PD supplies whose packaging
-  was soaked.
+  away. The exception is a life-saving medicine with no replacement: it may be used if it looks
+  unchanged, and replaced as soon as possible (FDA, Safe Drug Use After a Natural Disaster).
+  Ask the PD supplier now what to do with soaked PD supplies.
 
 ## 4. Day by day without it
 
 **Hemodialysis stopped.** What public sources describe as treatments are missed: extra fluid
-stays in the body, so weight goes up, ankles and legs swell, and breathing gets harder,
-especially lying flat. Potassium rises, which can cause weakness and a dangerous heart rhythm,
-sometimes with little warning. Waste builds up: nausea, poor appetite, itching, a bad taste,
-tiredness, then confusion (NIDDK, Hemodialysis; NIDDK, Eating & Nutrition for Hemodialysis).
-**How fast depends on how much kidney function is left, on what is eaten and drunk, and on
-the person.** Someone who still makes urine has more time than someone who makes none. Without any
-dialysis, kidney failure is fatal; the emergency diet buys days, not weeks.
+stays in the body, so weight goes up, the body swells, the heart works harder, and fluid can
+build up in the lungs and make breathing hard (NIDDK, Eating & Nutrition for Hemodialysis).
+Potassium rises, which can upset the heartbeat and can kill (NIDDK, Eating & Nutrition for
+Hemodialysis), often with no warning signs first (MedlinePlus, High Potassium Level). Waste
+builds up: nausea, poor appetite, itching, tiredness, breath odour, then drowsiness and confusion
+(MedlinePlus, End-Stage Kidney Disease). **How fast depends on the person and on what is eaten
+and drunk**, which is why the team's emergency diet matters.
+
+**The honest limit.** MedlinePlus says end-stage kidney disease leads to death without dialysis
+or a transplant (MedlinePlus, End-Stage Kidney Disease). CMS says the emergency diet does not
+take the place of dialysis, and to always try to get dialysis within three days of the last
+treatment (CMS, Preparing for Emergencies). The diet buys days, not weeks.
 
 **PD stopped.** The same build-up, often a little slower. With bags on hand, manual exchanges
 need no power, which makes PD the more resilient form if supplies hold.
@@ -153,10 +162,14 @@ need no power, which makes PD the more resilient form if supplies hold.
 dehydration, vomiting and diarrhoea, or medicines that strain the kidneys (part 6).
 
 **What helps, and is in your control:**
-- **The dialysis team's emergency diet**, which limits fluid, potassium, salt and phosphorus to
-  slow the build-up (CMS, Preparing for Emergencies). Use theirs.
-- **Count every liquid.** NIDDK says anything liquid at room temperature counts toward the fluid
-  limit, including soup, ice and gelatin (NIDDK, Eating & Nutrition for Hemodialysis).
+- **The emergency diet**, which limits fluid, potassium, salt and protein wastes to slow the
+  build-up. CMS publishes a 3-Day Emergency Diet with a shopping list for six days of food, and
+  says to review it with the unit's dietitian, because the right diet differs from person to
+  person (CMS, Preparing for Emergencies). Use the version the team approves.
+- **Count every liquid.** NIDDK says any food that is liquid at room temperature counts toward
+  the fluid limit, including soup, gelatin, pudding and ice cream, and that most fruits and
+  vegetables contain water too (NIDDK, Eating & Nutrition for Hemodialysis). CMS suggests hard
+  candy, gum and less salt to ease thirst (CMS).
 - **No salt substitutes** unless the team says so: many contain potassium (NIDDK, Eating &
   Nutrition for Hemodialysis).
 - **Most stored and canned food is salty**, which makes thirst and fluid harder to control
@@ -164,12 +177,14 @@ dehydration, vomiting and diarrhoea, or medicines that strain the kidneys (part 
 
 ## 5. Warning signs that mean an emergency
 
-- **High potassium:** muscle weakness, numbness or tingling, a slow, irregular or racing
-  heartbeat, feeling faint. It can stop the heart. Get the person to dialysis or care; if they
-  collapse and are not breathing normally, start CPR (→ 12-18).
-- **Fluid on the lungs:** breathless at rest, cannot lie flat, a wet cough, fast weight gain,
-  swelling rising up the legs. Sit them upright and get care.
-- **Waste build-up:** confusion, severe drowsiness, vomiting, twitching or a seizure.
+- **High potassium:** often no signs at all. When there are signs: chest pain, trouble
+  breathing, nausea or vomiting, a slow, weak or irregular pulse, palpitations, weakness, sudden
+  collapse (MedlinePlus, High Potassium Level). It can stop the heart. Get the person to
+  dialysis or care; if they collapse and are not breathing normally, start CPR (→ 12-18).
+- **Fluid on the lungs:** breathing that gets hard, fast weight gain, swelling (NIDDK, Eating &
+  Nutrition for Hemodialysis). Sit them upright and get care.
+- **Waste build-up:** drowsiness and confusion, vomiting, muscle twitching (MedlinePlus,
+  End-Stage Kidney Disease); seizures can follow.
 - **Access trouble:** a fistula or graft that has lost its buzz (the "thrill" the team taught you
   to feel), or one that is red, hot, swollen or leaking pus; bleeding that will not stop with
   pressure (→ 12-02).
@@ -182,8 +197,9 @@ dehydration, vomiting and diarrhoea, or medicines that strain the kidneys (part 
 - **Vomiting, diarrhoea and fever** dehydrate, and dehydration can damage kidneys further in
   CKD. For someone on dialysis with a fluid limit, rehydration is a prescriber question; ask
   now and write the answer in part 7.
-- **Pain relievers:** NIDDK advises people with CKD to avoid NSAID pain relievers such as
-  ibuprofen and naproxen (NIDDK, Managing Chronic Kidney Disease). Ask which pain reliever is
+- **Pain relievers:** NIDDK warns that NSAID pain relievers such as ibuprofen and naproxen can
+  damage the kidneys, especially in people with kidney disease (NIDDK, Managing Chronic Kidney
+  Disease). Ask which pain reliever is
   safe and write it in part 7 (→ 12-13).
 - **Many medicines are cleared by the kidneys** and build up when the kidneys fail. Do not start
   any new medicine, supplement, herbal product or laxative without checking with a pharmacist
@@ -206,7 +222,8 @@ writing, and photograph them into the slot below.
 - Potassium foods to avoid completely while dialysis is interrupted: _____________________
 - Medicines to take, stop or change when a treatment is missed (phosphate binders, blood
   pressure pills, others): __________________________________________________________
-- For PD: how to switch from the cycler to manual exchanges, and how many bags to keep:
+- For PD: how to switch from the cycler to manual exchanges, and how many bags to keep (CMS
+  suggests a five- to seven-day supply, as the team directs):
   ______________________________________________________________________________________
 - Which pain reliever, antacid and laxative are safe: ____________________________________
 - The weight gain or symptom that means "go now, whatever it takes": _____________________
@@ -214,13 +231,15 @@ Team member: ____________________ Date: __________
 
 {{photo dialysis-emergency-plan}}
 
-**Stock arithmetic.** Days on hand = on hand ÷ used per day. Every household medicine row is
-printed; use the ones for this condition.
+**Stock arithmetic.** Days on hand = on hand ÷ used per day. The medicines tagged for this
+condition in settings are printed; if none is tagged, every medicine row is, and you use the
+ones for this condition.
 
 | Medicine or supply | On hand | Used per day | Days on hand | Days you want | Still to get |
 |---|---|---|---|---|---|
-{{#each meds as m}}| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
-{{/each}}| PD bags (by strength) | ____ | ____ | ____ | ____ | ____ |
+{{#each meds_for.CL-15 as m}}| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
+{{else}}{{#each meds as m}}| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
+{{/each}}{{/each}}| PD bags (by strength) | ____ | ____ | ____ | ____ | ____ |
 | PD caps, clamps, masks, cleaning supplies | ____ | ____ | ____ | ____ | ____ |
 | Gauze and tape (access bleeding) | ____ | | | ____ | ____ |
 | Bathroom scale, blood pressure cuff, batteries | ____ | | | ____ | ____ |
@@ -251,7 +270,9 @@ printed; use the ones for this condition.
   generator or power station, and how long a session needs (→ 09-06, → 09-10, → 29-02).
 - **Generator:** outdoors only, at least 20 feet from windows and doors, with the exhaust
   pointed away (CDC, Carbon Monoxide Poisoning: Basics; floor, → 30-01, → 09-04).
-- **Manual PD exchanges need no power.** Learn them now if the team will teach you.
+- **Manual PD exchanges need no power.** NIDDK says people on a cycler also need to learn to do
+  exchanges by hand in case of a power failure (NIDDK, Peritoneal Dialysis). Learn and practise
+  them now.
 - **Scale and blood pressure cuff** run on small batteries; keep spares. Protect a spare cuff
   from EMP in a metal box (→ 27-03).
 
@@ -262,7 +283,11 @@ printed; use the ones for this condition.
 - Carry: the treatment orders, access type, last labs, medicine list, unit and backup phone
   numbers (→ 25-09), medicines, emergency-diet food, a measuring cup, and for PD the bags and
   supplies for the trip plus a spare day (→ 22-06).
-- Protect the access arm: no tight straps, no heavy bags on it.
+- Protect the access arm: no tight straps, no heavy bags on it. CMS warns not to let anyone who
+  does not know dialysis touch or inject into the access (CMS, Preparing for Emergencies).
+- **On the machine when disaster strikes:** stay calm and follow the unit staff. CMS: keep the
+  needles in until you reach a safe place, never cut the needle lines, and do not try to unhook
+  yourself (CMS).
 
 ## 11. Decision cards that apply
 
@@ -282,14 +307,16 @@ household's full medicine stockpile is on → 12-07.
 
 ## 12. My meds
 
-Every medicine row your household entered is printed, because the binder cannot pick out one
-condition's rows. **Tick the rows for this condition**, cross out the rest, and fill any blank
-columns by hand.
+Rows marked ✓ are the medicines your household tagged for this condition in settings. If none
+is tagged, every medicine row your household entered is printed with a ☐ instead: **tick the
+rows for this condition** and cross out the rest. Fill any blank columns by hand, and add
+missing medicines in the blank rows.
 
 | For this? | Who | Medicine | Strength | Schedule | Fridge? | If doses are missed (prescriber's words) | Where kept | Days on hand | Expires |
 |---|---|---|---|---|---|---|---|---|---|
-{{#each meds as m}}| ☐ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
+{{#each meds_for.CL-15 as m}}| ✓ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
+{{else}}{{#each meds as m}}| ☐ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
 {{else}}| ☐ | (no medicines entered yet) | | | | | | ____ | ____ | ____ |
-{{/each}}| ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
+{{/each}}{{/each}}| ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
 | ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
 | ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |

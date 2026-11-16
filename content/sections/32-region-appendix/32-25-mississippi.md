@@ -395,7 +395,7 @@ An ecoregion is an area where the land, climate, soils and plants are alike (US 
 | Mississippi Alluvial Plain | 11 | 23 |
 | Southern Coastal Plain | 2 | 5 |
 
-### Plants and trees to know (plates being added)
+### Plants and trees to know
 
 {{plates}}
 

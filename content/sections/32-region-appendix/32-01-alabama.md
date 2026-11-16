@@ -363,7 +363,7 @@ An ecoregion is an area where the land, climate, soils and plants are alike (US 
 | Interior Plateau | 6 | 8 |
 | Southern Coastal Plain | 0 | 2 |
 
-### Plants and trees to know (plates being added)
+### Plants and trees to know
 
 {{plates}}
 

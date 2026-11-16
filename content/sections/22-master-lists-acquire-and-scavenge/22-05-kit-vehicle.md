@@ -15,7 +15,7 @@ sources:
   - us-fda-information-regarding-insulin-storage-and-swi-6448d3
   - american-academy-of-pediatrics-healthychildren-org-w-7400c5
   - noaa-national-weather-service-heat-safety-66fd15
-  - noaa-national-weather-service-during-a-winter-storm-r7
+  - nws-winter-storm-during
   - american-red-cross-power-outage-safety-6d07a8
 related: [22-03-go-bags-and-kits, 22-06-kit-medical, 22-01-master-acquisition-list, 01-02-go-no-go-decision, 01-03-phase-b-movement, 01-07-evacuating-with-medical-needs, 17-01-blizzards-and-ice, 08-02-carbon-monoxide-safety, 08-05-hypothermia-frostbite, 11-02-keeping-kids-warm, 06-06-fuel-storage-safety, 06-08-fuel-transport, 16-09-bicycle-and-transport, 16-10-tire-failures-roadside, 16-11-trailer-maintenance-and-repair, 25-04-maps]
 cards: [DC-06, DC-08, DC-20]

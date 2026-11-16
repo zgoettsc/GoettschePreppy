@@ -2,7 +2,7 @@
 id: 08-07-ducted-heater-operation
 section: 08-heating-and-cold-weather-shelter
 title: "Ducted diesel and kerosene heaters: install and operation"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: gear
 danger_level: critical
@@ -10,7 +10,6 @@ phase: [A, C]
 tags: [diesel heater, kerosene, parking heater, forced air, sealed combustion, exhaust, carbon monoxide, power draw, altitude]
 derived_from: [08-07-ducted-heater-operation]
 sources:
-  - hcalory-manufacturer-hcalory-tb-max-diesel-air-parki-b67d4a
   - cdc-carbon-monoxide-poisoning-basics-772153
   - cpsc-carbon-monoxide-fact-sheet-e97206
   - eia-diesel-fuel-explained
@@ -47,7 +46,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "HCALORY manual unreachable (403; no archive): exhaust 400 C, 12 A, 1-4 A and 2,000 m removed and turned into fill-ins from the owner's own manual; EIA distillate line re-read; CDC CO alarm rule kept." }
 ---
 
 # Ducted diesel and kerosene heaters: install and operation
@@ -55,8 +54,9 @@ review_pass: null
 **What this page is for.** How the class of small forced-air heaters often called "diesel heaters"
 or "parking heaters" works, how to install one through a window so its fumes stay outside, how to
 power and fuel it, and how it fails. These heaters were made for trucks and boats and are widely
-sold for home and cabin use. Figures here come from one maker's manual for an all-in-one unit of
-this class; **your own unit's manual governs.** Spec tables for common models are on → 28-04.
+sold for home and cabin use. This page gives the method; **your own unit's manual gives the
+numbers (start current, running power, fuel use, exhaust temperature, altitude setting) and
+governs.** Spec tables for common models are on → 28-04.
 Diesel and kerosene are explained on → 29-01.
 
 > **SAFETY.** This class is the safest serious fuel heat in this section **only if it is installed
@@ -88,8 +88,8 @@ Portable propane and kerosene heaters burn the room's air and leave their exhaus
 (→ 08-09, → 08-10). A ducted heater is different in kind. Its burner is a **sealed loop**: outside
 air in, burn, exhaust out. A separate fan blows room air across a hot metal box (the heat
 exchanger) and back out of a duct as clean hot air. Nothing the flame touches should mix with the
-air you breathe. That is why the makers allow it to run for hours, **provided the install is tight
-and the alarm is watching for the day it is not.**
+air you breathe. That is why this class can run for hours in a lived-in room, **provided the
+install is tight and the alarm is watching for the day it is not.**
 
 It needs electricity: a **glow plug** (a small electric heater element) lights the fuel, then a fan
 and a small dosing pump run all the time. Some units carry their fuel tank inside the unit itself,
@@ -118,9 +118,9 @@ is an attached garage: {{choice DC-05}} (→ 30-06).
   burner.
 - **End it away from any window, door or vent,** and clear snow from around it after every storm
   (→ 08-02).
-- **It gets very hot.** The manual cited here gives exhaust temperatures up to about **400 °C
-  (about 750 °F)** (HCALORY, heater user manual). Keep the pipe off siding, buried combustibles and
-  cord, use the supplied heat wrap and standoffs, and keep it where a child cannot touch it.
+- **It gets very hot,** hot enough to burn skin and scorch what it touches; your manual gives the
+  figure. Keep the pipe off siding, buried combustibles and cord, use the supplied heat wrap and
+  standoffs, and keep it where a child cannot touch it.
 - **Never shorten the exhaust or run it indoors "temporarily".** There is no temporary CO.
 
 {{photo ducted-exhaust-outside}}
@@ -137,9 +137,10 @@ is an attached garage: {{choice DC-05}} (→ 30-06).
 
 ## Power
 
-- **At start:** the glow-plug cycle draws heavily for a couple of minutes; the manual cited here
-  asks for a 12 V supply good for **12 A or more** (HCALORY, heater user manual).
-- **Running:** about **1 to 4 A at 12 V** depending on the power level (same manual).
+- **At start:** the glow-plug cycle draws heavily for a few minutes. Your manual states the
+  current the 12 V supply must deliver; write it here: ______ A.
+- **Running:** a much smaller draw that depends on the power level; your manual gives it: ______ A
+  (or W) at low, ______ at high.
 {{#if has.power_station}}- Your power stations ({{ gear.station_wh_total }} Wh in total) can run one
   from a 12 V outlet or through the unit's AC adapter; divide watt-hours by the running watts for a
   rough runtime (→ 29-02).
@@ -157,8 +158,8 @@ replacement for the room alarm you test monthly. If the alarm sounds: everyone o
 ## Altitude and won't-start
 
 - **Altitude:** thin air makes the mixture too rich, which smokes and soots. Many controllers have
-  an altitude ("plateau") mode that cuts the fuel rate; the manual cited here recommends it above
-  roughly **2,000 m (about 6,600 ft)** (HCALORY, heater user manual).
+  an altitude ("plateau") mode that cuts the fuel rate; your manual says from what height to use
+  it: ______ ft.
   {{#if is.high_altitude}}Your home is above 5,000 ft: check your controller's setting.{{/if}}
 - **Won't start in the cold:** usually fuel (gelled diesel, or air in the line after refuelling:
   repeat the priming cycle) or a weak power supply that sags under the glow-plug load. Check the

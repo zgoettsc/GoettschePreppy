@@ -12,10 +12,11 @@ derived_from: [04-01-calorie-and-stockpile-math]
 sources:
   - usda-hhs-dietary-guidelines-for-americans-2020-2025-4b2013
   - usda-agricultural-research-service-fooddata-central-9412f9
+  - usda-fooddata-central-sr-legacy-staples-r12
   - foodsafety-gov-usda-hhs-cook-to-a-safe-minimum-inter-13daf3
   - us-fda-food-allergies-627fb6
-related: [04-02-building-a-pantry, 04-03-bulk-staples-storage, 04-12-fats-and-oils, 04-13-salt-sugar-vinegar, 04-16-sprouting, 04-19-freeze-dried-stockpile, 03-01-daily-water-needs, 07-07-freeze-dried-rehydration, 02-04-cl04-food-allergy, 02-01-cl01-type-1-diabetes-injections, 02-05-cl05-type-2-diabetes, 02-13-cl13-infant-feeding, 20-05-infant-feeding, 23-02-master-consumables-table, 22-04-household-inventory, 30-19-dc18-unlabeled-food-and-allergies]
-cards: [DC-18]
+related: [04-02-building-a-pantry, 04-03-bulk-staples-storage, 04-12-fats-and-oils, 04-13-salt-sugar-vinegar, 04-16-sprouting, 04-19-freeze-dried-stockpile, 03-01-daily-water-needs, 07-07-freeze-dried-rehydration, 02-04-cl04-food-allergy, 02-01-cl01-type-1-diabetes-injections, 02-05-cl05-type-2-diabetes, 02-13-cl13-infant-feeding, 20-05-infant-feeding, 23-02-master-consumables-table, 22-04-household-inventory, 30-19-dc18-unlabeled-food-and-allergies, 30-27-dc26-allergy-safe-food-reserve]
+cards: [DC-18, DC-26]
 explainers: [EX-13]
 promote_when: []
 photo_slots: []
@@ -98,9 +99,11 @@ published. Where sex is not entered the binder uses the higher figure, so the st
 planned short.
 
 - **Pregnant:** the binder adds **340 calories a day** (the published second-trimester
-  figure). **Nursing:** it adds **330** (the published figure for the first 6 months of
-  nursing; the Guidelines give 400 for months 7 to 12). Both come from the same Guidelines and
-  are printed as published.
+  figure; the Guidelines give nothing extra in the first trimester and 452 in the third).
+  **Nursing:** it adds **330** (the published figure for the first 6 months of nursing; the
+  Guidelines give 400 for months 7 to 12). All come from the same Guidelines and are printed as
+  published. Plan the larger figure by hand for a pregnancy in its last three months or a baby
+  over 6 months.
 - **Babies under 12 months are not in the food total.** The Guidelines give no calorie figure
   for them: they live on breast milk or infant formula. Their plan is on → 02-13 and → 20-05.
   **Powdered or canned milk is not infant formula** (→ 04-14).
@@ -109,13 +112,16 @@ planned short.
 
 ## Turning calories into pounds
 
-Rules of thumb that make this workable:
+Rules of thumb that make this workable (worked from USDA FoodData Central values per 100 g;
+your own labels govern):
 
-- **1 lb of dry staples (rice, beans, flour, oats) is about 1,500 to 1,700 calories.**
+- **1 lb of dry staples (rice, beans, flour, oats) is about 1,500 to 1,750 calories.** Dry
+  white rice is about 1,650, dry white beans about 1,520, all-purpose flour about 1,650, oats
+  about 1,760.
 - **Pounds of dry staples per day, if you ate staples alone:** {{ derived.calories.day }} ÷
   1,600. Multiply by 30 for a month and by 90 for three months.
-- **Fats and oils are about 4,000 calories per pound,** more than double any grain. They are
-  the easiest way to close a calorie gap in a small space (→ 04-12).
+- **Fats and oils are about 4,000 calories per pound** (cooking oil is about 4,010), more than
+  double any grain. They are the easiest way to close a calorie gap in a small space (→ 04-12).
 
 ### The runway is a sum
 
@@ -148,9 +154,11 @@ the shorter one, turn the menu around:
 
 - **Food allergy.** One allergic person can remove a large share of the usual preparedness
   pantry. Build the family's staples from **single-ingredient foods** everyone can eat, keep any
-  separate supply physically apart and labelled, and give the allergic person's supply the
-  **longest** runway in the house, not the shortest: everyone else can eat almost anything; they
-  cannot. → 02-04. {{#if has.anaphylaxis}}**Someone in your household has an allergy marked
+  separate supply physically apart and labelled, and track the allergic person's safe-food
+  runway as its own number: everyone else can eat almost anything; they cannot. Whether the
+  rest of the household also eats that safe food, or keeps it as the allergic person's reserve,
+  is a decision card: sharing shortens their runway, reserving means everyone else eats other
+  food first. {{choice DC-26}} → 30-27. → 02-04. {{#if has.anaphylaxis}}**Someone in your household has an allergy marked
   severe enough for anaphylaxis.** Their safe-food runway is the number that binds.{{/if}}
 - **Diabetes.** Carbohydrate is dosing information, not just calories. Write the carbohydrate
   content on each container of staples; repeat known meals with known carbohydrate; keep fast
@@ -195,18 +203,21 @@ When you leave home (Phase B) the limit is weight and space in the vehicle, not 
 | Cooking oil | **4,000** | Jugs pack tight |
 | Sugar | 1,750 | Dense and keeps for ever (→ 04-13) |
 | Jerky | **1,800** | Ready-to-eat protein (USDA FoodData Central: about 410 calories per 100 g) |
-| Freeze-dried pouches | 1,600 to 1,800 | Ready to eat; needs your water (→ 04-19) |
-| Dry staples | 1,500 to 1,700 | Needs cooking fuel and water |
-| Canned goods | **400 to 600** | You are hauling its water: cheap water, expensive weight |
+| Freeze-dried pouches | Read the label: calories per serving × servings, ÷ the pouch weight in lb | Ready to eat; needs your water (→ 04-19) |
+| Dry staples | 1,500 to 1,750 | Needs cooking fuel and water |
+| Canned goods | **About 100 to 700** (vegetables low, meat and fish high) | You are hauling its water: cheap water, expensive weight |
 
-**One 50-lb bin, worked out:**
+(Figures worked from USDA FoodData Central per 100 g: oil 884, sugar 387; canned salmon 153,
+canned capers 23. Labels govern.)
 
-- of **freeze-dried** at about 1,700 calories per lb = about **85,000 calories**
+**One 50-lb bin, worked out** (use your own labels' figures; these are examples):
+
 - of **dry staples** at about 1,600 per lb = about **80,000 calories**
-- of **canned goods** at about 500 per lb = about **25,000 calories**
+- of **canned goods** at an assumed 500 per lb = about **25,000 calories**
+- of **freeze-dried** pouches: work out calories per lb from the label, × 50
 
 Divide each by {{ derived.calories.day }} to get household-days per bin. Same bin, same weight,
-about three times the difference. Load dense.
+about three times the difference between staples and cans. Load dense.
 
 **Grab order (write it on the bin lids):**
 
@@ -225,7 +236,7 @@ about three times the difference. Load dense.
 | Bulk staples: rice, beans, oats, flour, sugar, salt | The calorie base | Storage method → 04-03 |
 | Cooking oil, shortening, lard | Calorie density | Check labels for allergens (→ 04-12) |
 | Plain canned vegetables, fruit, meat | Vitamins and protein | Single-ingredient, readable labels |
-| Separate stock for any restricted diet | Usually the binding number | Longest runway in the house |
+| Separate stock for any restricted diet | Usually the binding number | Track its own runway; who eats it is DC-26 (→ 30-27) |
 | Kitchen scale and measuring cups | Real numbers; carbohydrate counting | Also for canning and curing |
 | Written inventory and calorie sheet | Planning needs numbers | → 22-04, → 23-02 |
 | Multivitamins | Cheap insurance against deficiency | Check allergens on the label |

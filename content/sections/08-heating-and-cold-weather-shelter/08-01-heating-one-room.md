@@ -2,7 +2,7 @@
 id: 08-01-heating-one-room
 section: 08-heating-and-cold-weather-shelter
 title: "Heating one room instead of the house"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -18,7 +18,8 @@ sources:
   - cdc-preventing-hypothermia-c53e0c
   - enerco-group-mr-heater-manufacturer-portable-buddy-r-759ce5
   - ghp-group-inc-dyna-glo-manufacturer-portable-kerosen-477cfd
-  - nfpa-nfpa-58-liquefied-petroleum-gas-code-storage-of-13af35
+  - minnesota-sfm-lp-gas-inside-buildings-r3
+  - cpsc-carbon-monoxide-questions-and-answers-783766
 related:
   - 08-02-carbon-monoxide-safety
   - 08-03-winterizing-the-home
@@ -59,7 +60,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Buddy 9 sq in, Dyna-Glo 200 cu ft/1,000 BTU/h and 1 in, AAP and CDC re-read; CPSC never-unvented-while-sleeping added; NFPA 58 line traced via MN SFM; wick CO wording matched to manual." }
 ---
 
 # Heating one room instead of the house
@@ -126,9 +127,9 @@ holds heat well. You cannot close off a stairwell, but you can close your own do
 blankets. Building smoke and CO travel between units: keep your CO alarm working even if you
 burn nothing yourself.
 
-> **Before the collapse:** most building and fire codes forbid propane cylinders larger than
-> the 1-lb camping size inside a residence (NFPA 58), and many leases forbid fuel heaters. Read
-> yours.
+> **Before the collapse:** the national propane code (NFPA 58) does not allow propane cylinders
+> larger than the 1-lb camping size to be stored or used inside a home (Minnesota State Fire
+> Marshal, LP Gas Inside Buildings), and many leases forbid fuel heaters. Read yours.
 
 {{/if}}{{#if has.mobile_home}}**In a mobile or manufactured home.** The rooms are small and the
 walls are thin, so the whole home cools fast once heat stops. Choose the room with the fewest
@@ -218,18 +219,20 @@ them in. The actions are what each rung should trigger.
 | **___ °F and falling, no heat source recovering** | **The house can no longer be kept safe.** Make the go/no-go decision now, in daylight if at all possible (→ 01-02). When to leave is your household's own worksheet: {{choice DC-19}} (→ 30-20) |
 
 **Run one fuel heater at a time.** The propane class's manual forbids other fuel-burning
-appliances in the space, and two unvented burners double the CO and the oxygen use.
+appliances in the space, and two unvented burners add their CO and their oxygen use together.
 
 ## Heat while people sleep
 
-Both common portable heater manuals say never run them while sleeping. Running one overnight
+Both common portable heater manuals say never run them while sleeping, and CPSC says never to
+operate unvented fuel-burning appliances in any room where people are sleeping (CPSC, Carbon
+Monoxide Questions and Answers). Running one overnight
 keeps the room warm but leaves CO and fire with no one awake to notice them; turning it off
 means a cold night, which is hardest on babies and frail elders. That trade-off is the
 household's to decide, on the card, with its mitigations listed there (lowest correct setting,
 alarm at pillow height, the manual's openings, a barrier, an adult who wakes to check):
 {{choice DC-01}} (→ 30-02). Whatever the choice, the heater pages (→ 08-09, → 08-10) explain
-what "lowest setting" means for each class, because on a wick heater a turned-down wick is the
-setting that makes the most CO.
+what "lowest setting" means for each class, because on a wick heater a turned-down wick makes
+smell and CO, not savings (GHP Group/Dyna-Glo, Portable Kerosene Heater owner's manual).
 
 ## Small children in the warm room
 

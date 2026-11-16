@@ -2,7 +2,7 @@
 id: 01-06-phase-transition-checklists
 section: 01-phase-playbooks
 title: "Phase-transition checklists (A → B → C)"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -11,9 +11,8 @@ tags: [checklists, phase A, phase B, phase C, departure, arrival, returning home
 derived_from: [01-06-phase-transition-checklists]
 sources:
   - american-red-cross-power-outage-safety-6d07a8
-  - american-red-cross-winter-storm-preparedness-and-bli-4bb6c0
+  - ready-gov-winter-weather-r9
   - foodsafety-gov-usda-hhs-food-safety-during-a-power-o-3894c1
-  - nhtsa-us-department-of-transportation-trailer-safety-807982
 related: [01-01-phase-a-shelter-in-place, 01-02-go-no-go-decision, 01-03-phase-b-movement, 01-04-phase-c-establish, 01-05-choosing-a-destination, 01-07-evacuating-with-medical-needs, 22-03-go-bags-and-kits, 09-16-outage-day-one, 23-02-master-consumables-table]
 cards: [DC-01]
 explainers: [EX-03]
@@ -25,7 +24,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "NHTSA attribution removed; CO alarm at pillow height; winter travel to Ready.gov; half-tank to Red Cross." }
 ---
 
 # Phase-transition checklists (A → B → C)
@@ -52,7 +51,7 @@ it at the front of the paper copy (→ 00-10).
       power stations{{/if}}{{#if has.solar}}; put the solar panels out{{/if}} (→ 09-16, → 00-10)
 - [ ] Warm room chosen and closed off (→ 08-01)
 - [ ] Wood or fuel brought under cover, enough for several days (→ 06-03)
-- [ ] **CO alarms installed and TESTED** in the warm room at sleeping height, **before any
+- [ ] **CO alarms installed and TESTED** in the warm room at pillow height, **before any
       fuel-burning heater** (→ 08-02)
 - [ ] Only heaters rated for indoor use. Heat while people sleep: **our choice:** {{choice DC-01}} (→ 30-02)
 - [ ] NOAA Weather Radio on; find out what happened and for how long (→ 15-01)
@@ -69,7 +68,8 @@ it at the front of the paper copy (→ 00-10).
 - [ ] **Route and alternate**, and is it survivable right now? (→ 01-03)
 - [ ] **What happens on arrival**: shelter, heat, water on day one? (→ 01-04)
 - [ ] **Is it genuinely better than staying?**
-- [ ] Weather checked: **do not depart into a storm** (→ 15-01)
+- [ ] Weather checked: **do not depart into a storm**; stay off the roads in a winter storm if at
+      all possible (Ready.gov, Winter Weather; → 15-01)
 - [ ] Daylight for the whole trip
 - [ ] Enough of every medicine and medical supply for the trip **and** a delay (→ 01-07)
 - [ ] Every adult agrees
@@ -95,11 +95,12 @@ it at the front of the paper copy (→ 00-10).
 
 **Before pulling away:**
 
-- [ ] Vehicle fuelled; fuel cans labelled and stowed outside the cabin unless your household
+- [ ] Vehicle fuelled (never below half a tank as a habit: American Red Cross, Power Outage
+      Safety); fuel cans labelled and stowed outside the cabin unless your household
       chose otherwise (→ 30-07); winter kit aboard; **shovel and traction material** (→ 22-05)
 {{#if has.trailer}}- [ ] **Trailer:** coupler latched, pin in, safety chains crossed, **all lights checked** (brake,
-      turn, running), heavy items forward, nothing alive or irreplaceable in it (NHTSA, Trailer
-      Safety; → 01-03){{/if}}
+      turn, running), heavy items low and just forward of the axle, nothing alive or irreplaceable
+      in it (→ 01-03, → 16-11){{/if}}
 - [ ] Water carried inside clothing so it does not freeze
 - [ ] Everyone in layers, dry, hats and gloves on (→ 11-01)
 - [ ] House: water shut off and pipes drained if freezing (→ 03-06); fires **fully out**; gas off

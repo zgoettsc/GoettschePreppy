@@ -2,7 +2,7 @@
 id: 30-14-dc13-drinking-pool-or-surface-water
 section: 30-decisions-and-floors
 title: "DC-13. Drinking water from a pool, hot tub or untreated surface source"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: card
 danger_level: critical
@@ -12,7 +12,7 @@ derived_from: [03-03-pool-water-desalination, 03-04-purifying-water, 03-08-keepi
 sources:
   - cdc-how-to-make-water-safe-in-an-emergency-5d78b5
   - us-epa-emergency-disinfection-of-drinking-water-6aa91f
-  - cdc-guidelines-for-personal-hygiene-during-an-emerge-ddfe8d
+  - fema-477-food-and-water-in-an-emergency
   - cdc-water-disinfection-for-travelers-cdc-yellow-book-df8e45
   - awwa-water-technology-distillation-ensures-safe-drin-7ba482
   - cdc-yellow-book-travelers-diarrhea-oral-rehydration-a1b9d8
@@ -30,8 +30,8 @@ options:
     summary: "A freshwater (not salt) pool known to hold no algaecide or other additive may be drunk after settling, filtering and disinfecting by the published method. Salt pools and hot tubs still need distilling; surface water still needs distilling."
   - id: drink-treated-surface-water
     label: "Surface water through the treatment ladder"
-    summary: "Streams, ponds and lakes away from obvious fuel, chemical or farm runoff are drunk after the full ladder: settle, filter, then boil or disinfect by the published method. Pools follow the two options above."
-settings_summary: "A swimming pool or a nearby stream can look like a large water supply. Germs in water (bacteria, viruses, parasites) are killed by boiling or by chlorine used as CDC and EPA describe. Chemicals are not. Pool water holds chlorine, stabilizer, often algaecide, and in a salt pool, salt that no boiling or filter removes. Hot tubs hold bromine and body oils. Streams and ponds can carry fuel, farm or industrial runoff. CDC says water that may contain fuel or toxic chemicals cannot be made safe by boiling or disinfecting. Only distillation (boil and catch the steam) removes salt and most chemicals, and it is slow and uses fuel. What helps most: use pool and hot-tub water for flushing and washing, saving stored water for drinking (removes most of it); distil what you drink from them (reduces it a lot)."
+    summary: "Streams, ponds and lakes away from obvious fuel, chemical or farm runoff are drunk after the full ladder: settle, filter, then boil or disinfect by the published method. Fresh pools as in the option above; salt pools and hot tubs are still distilled."
+settings_summary: "A swimming pool or a nearby stream can look like a large water supply. Germs in water (bacteria, viruses, parasites) are killed by boiling, and most by chlorine used as CDC and EPA describe. Chemicals are not. Pool water holds chlorine, stabilizer, often algaecide, and in a salt pool, salt that no boiling or filter removes. Hot tubs hold bromine and body oils. Streams and ponds can carry fuel, farm or industrial runoff. CDC says water containing fuel or toxic chemicals cannot be made safe by boiling or disinfecting. FEMA and the Red Cross say not to drink from pools or spas. Distillation (boil and catch the steam) removes salt and most chemicals, but it is slow and uses fuel. What helps most: pool and hot-tub water for flushing and washing, stored water for drinking (removes most of it); distil what you drink from them (reduces it a lot)."
 review_pass: null
 ---
 
@@ -67,10 +67,13 @@ Read → 29-06 for the water words.
   dose after letting cloudy water settle and filtering it; and **water contaminated with fuel or
   toxic chemicals will not be made safe by boiling or disinfection** (CDC, How to Make Water Safe
   in an Emergency; EPA, Emergency Disinfection of Drinking Water).
-- CDC treats pool and hot-tub water in an emergency as water for **washing and flushing, not
-  drinking** (CDC, Guidelines for Personal Hygiene During an Emergency).
-- Distillation removes germs, salts, heavy metals and most other chemicals (CDC; AWWA, distillation
-  in an emergency).
+- FEMA and the Red Cross list **swimming pools and spas** among the water in a home that **should
+  not be used** for drinking, and say to use salt water only if you distil it first (FEMA and
+  American Red Cross, Food and Water in an Emergency).
+- The same booklet: distillation "will remove microorganisms that resist these methods, as well as
+  heavy metals, salts, and most other chemicals" (FEMA and American Red Cross; see also Water
+  Technology, Distillation Ensures Safe Drinking Water During an Emergency, written by a distiller
+  maker).
 
 **Why:** pool chemicals are made for swimming water, not for drinking water. Surface water's germs are well understood and handled by the
 methods above; its chemicals depend on what lies upstream, which you usually cannot know.
@@ -92,15 +95,19 @@ methods above; its chemicals depend on what lies upstream, which you usually can
 **Removes most of the risk**
 - **Use pool and hot-tub water for flushing, washing and cleaning**, and keep stored, rain or snow
   water for drinking (→ 03-05). This alone can stretch drinking water a long way.
-- **Distil** pool, hot-tub or suspect surface water before drinking (→ 03-03).
+- **Distil** pool, hot-tub or suspect surface water before drinking (→ 03-03). Distilling removes
+  salt and most chemicals, but not those that boil off with the steam, so water with a fuel smell
+  or sheen is not used at all.
 
 **Reduces it a lot**
 - **Choose the cleanest source**: rain and snow first; flowing water upstream of roads, farms and
   buildings; never water with a fuel sheen or chemical smell.
 - **The treatment ladder** for surface water: let it settle, pour off the clear part, filter
-  through cloth then a 1-micron-or-finer filter, then **boil** (1 minute at a rolling boil, 3
-  minutes above 6,500 feet, CDC) or **disinfect** by the published bleach dose and wait 30 minutes
-  (CDC; → 03-04).
+  through cloth, then through a filter with pores under 1 micron (most portable microfilters, CDC
+  Yellow Book), then **boil** or **disinfect** by the published bleach dose and wait 30 minutes
+  (CDC; → 03-04). Boil 1 minute at a rolling boil; above 5,000 feet, boil 3 minutes (EPA's line;
+  CDC uses 6,500 feet; this binder uses the lower, safer figure).
+  {{#if is.high_altitude}}**Your home is at about {{ region.home.elevation_ft }} ft: boil for 3 minutes.**{{/if}}
 - For a freshwater pool: know exactly what has been added. No algaecide, no "multi-action"
   products.
 

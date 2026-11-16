@@ -384,7 +384,7 @@ An ecoregion is an area where the land, climate, soils and plants are alike (US 
 | Boston Mountains | 6 | 14 |
 | Mississippi Valley Loess Plains | 0 | 8 |
 
-### Plants and trees to know (plates being added)
+### Plants and trees to know
 
 {{plates}}
 

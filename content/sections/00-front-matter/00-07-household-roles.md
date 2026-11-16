@@ -2,7 +2,7 @@
 id: 00-07-household-roles
 section: 00-front-matter
 title: "Who does what: household roles and assignments"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: household
 danger_level: none
@@ -24,7 +24,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Children's jobs table loops children and teens instead of all members." }
 ---
 
 # Who does what: household roles and assignments
@@ -127,10 +127,11 @@ Completed: ____________ · Reviewed: ____________
 
 | Child | Their jobs | What they know |
 |---|---|---|
-{{#each members as m}}| {{m.label}} ({{m.age_text}}) | 1. ____________ 2. ____________ 3. ____________ | Own name and the adults' names · meeting place · "tell a grown-up right away" |
+{{#each children as m}}| {{m.label}} ({{m.age_text}}) | 1. ____________ 2. ____________ 3. ____________ | Own name and the adults' names · meeting place · "tell a grown-up right away" |
+{{/each}}{{#each teens as m}}| {{m.label}} ({{m.age_text}}) | 1. ____________ 2. ____________ 3. ____________ | The whole family plan (→ 00-04) and their part in the first sixty seconds |
 {{/each}}
 
-(Fill the rows for the children; leave the adults' rows empty.) Ideas by age: carrying the lamp,
+Ideas by age: carrying the lamp,
 counting the pets, fetching from a low shelf, keeping the water log. **Infants and toddlers have
 no jobs: they are carried, fed, kept warm and dry, and kept on their schedule.** Which dangerous
 jobs (fire, fuel, tools, animals) children may do when hands are short is a household rule.

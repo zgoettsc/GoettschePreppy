@@ -2,7 +2,7 @@
 id: 01-04-phase-c-establish
 section: 01-phase-playbooks
 title: "Phase C: establish at a destination"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -11,6 +11,8 @@ tags: [phase C, arrival, first 48 hours, site assessment, well water, chimney, c
 derived_from: [01-04-phase-c-establish]
 sources:
   - cdc-guidelines-for-testing-well-water-382a7a
+  - us-epa-national-primary-drinking-water-regulations
+  - us-epa-emergency-disinfection-of-drinking-water-6aa91f
   - cdc-carbon-monoxide-poisoning-basics-772153
   - cdc-preventing-hypothermia-c53e0c
   - chimney-safety-institute-of-america-csia-preventing-73b734
@@ -25,7 +27,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Nitrate wording re-cited to CDC and EPA NPDWR (six months) and EPA boiling." }
 ---
 
 # Phase C: establish at a destination
@@ -81,11 +83,12 @@ Rural water is usually **fresh**: it needs **disinfection**, not distillation (�
   to draw water by bucket **before** you rely on it (→ 03-10).
 - **Town water stops when the town's pumps stop.** If the place is on public water, **fill every
   container on arrival**, before unloading anything but the medicines (→ 03-02).
-- **Test it when you can** (→ 03-07). Wells in farm country can carry **nitrate** from fertiliser
-  and livestock. The serious danger is to **infants under about 6 months** (a blood condition
-  called methemoglobinemia), so it matters most if the household includes a young baby or anyone
-  pregnant. **Boiling concentrates nitrate rather than removing it** (CDC, Guidelines for Testing
-  Well Water).{{#if has.infant}} **This household has an infant: do not use untested well water
+- **Test it when you can** (→ 03-07). Wells can carry **nitrate** from fertiliser, animal waste
+  and septic systems; high levels harm infants (CDC, Guidelines for Testing Well Water). EPA says
+  infants under six months who drink water with nitrate above the limit can become seriously ill
+  ("blue-baby syndrome"; EPA, National Primary Drinking Water Regulations), so it matters most if
+  the household includes a young baby. **Boiling does not remove nitrate** (EPA: boiling does not
+  remove salts or most chemicals; Emergency Disinfection of Drinking Water).{{#if has.infant}} **This household has an infant: do not use untested well water
   for formula.**{{/if}}
 - **Treat everything until it is tested.** Assume it is unsafe.
 

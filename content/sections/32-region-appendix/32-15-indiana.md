@@ -438,7 +438,7 @@ An ecoregion is an area where the land, climate, soils and plants are alike (US 
 | Central Corn Belt Plains | 9 | 15 |
 | Huron/Erie Lake Plains | 0 | 1 |
 
-### Plants and trees to know (plates being added)
+### Plants and trees to know
 
 {{plates}}
 

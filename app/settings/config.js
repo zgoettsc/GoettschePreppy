@@ -36,7 +36,7 @@ export const config = {
   sizeEstimates: {
     small: { minMB: 30, maxMB: 60 },
     large: { minMB: 300, maxMB: 400 },
-    everything: { minMB: 900, maxMB: 1100 },
+    everything: { minMB: 400, maxMB: 900 }, // fallback only; kit.sizes (measured at build) takes precedence
   },
   mapMB: { min: 27, max: 80 }, // one topographic map inside the file (kit.sizes.map_mb when built)
 };

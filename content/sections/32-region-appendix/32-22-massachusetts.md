@@ -177,7 +177,7 @@ An ecoregion is an area where the land, climate, soils and plants are alike (US 
 | Northeastern Highlands | 3 | 6 |
 | Atlantic Coastal Pine Barrens | 3 | 4 |
 
-### Plants and trees to know (plates being added)
+### Plants and trees to know
 
 {{plates}}
 

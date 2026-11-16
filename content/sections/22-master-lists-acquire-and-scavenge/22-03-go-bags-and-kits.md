@@ -18,7 +18,7 @@ sources:
   - cdc-infant-formula-preparation-and-storage-29a24f
   - ready-gov-fema-pets-and-animals
   - american-academy-of-pediatrics-aap-allergy-and-anaph-3e6f49
-  - noaa-national-weather-service-during-a-winter-storm-r7
+  - nws-winter-storm-during
 related: [22-06-kit-medical, 22-05-kit-vehicle, 22-01-master-acquisition-list, 01-02-go-no-go-decision, 01-03-phase-b-movement, 01-06-phase-transition-checklists, 01-07-evacuating-with-medical-needs, 19-01-document-grab-kit, 25-08-quick-reference-cards, 24-02-drills, 20-09-pets, 20-05-infant-feeding]
 cards: [DC-04, DC-08, DC-09, DC-10, DC-18]
 explainers: [EX-07, EX-06]

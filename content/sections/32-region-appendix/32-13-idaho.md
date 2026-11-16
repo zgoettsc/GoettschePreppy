@@ -283,7 +283,7 @@ An ecoregion is an area where the land, climate, soils and plants are alike (US 
 | Central Basin and Range | 1 | 2 |
 | Wyoming Basin | 1 | 1 |
 
-### Plants and trees to know (plates being added)
+### Plants and trees to know
 
 {{plates}}
 

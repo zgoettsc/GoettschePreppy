@@ -315,7 +315,7 @@ An ecoregion is an area where the land, climate, soils and plants are alike (US 
 | Ridge and Valley | 9 | 15 |
 | Blue Ridge | 0 | 1 |
 
-### Plants and trees to know (plates being added)
+### Plants and trees to know
 
 {{plates}}
 

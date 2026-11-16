@@ -2,7 +2,7 @@
 id: 08-03-winterizing-the-home
 section: 08-heating-and-cold-weather-shelter
 title: "Winterizing the home and preventing frozen pipes"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -12,7 +12,7 @@ derived_from: [08-03-winterizing-the-home]
 sources:
   - american-red-cross-preventing-and-thawing-frozen-pip-003044
   - cdc-winter-weather-before-during-and-after-13bbd5
-  - aspca-animal-poison-control-center-ethylene-glycol-a-a3f331
+  - atsdr-toxfaqs-ethylene-glycol-r13
 related:
   - 03-02-storing-water
   - 03-06-winter-water
@@ -37,7 +37,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Red Cross pipe steps re-read; antifreeze warning re-sourced to ATSDR (ASPCA archive is a landing page; 'a small amount is deadly' contradicted by ATSDR); unsourced attic-loss ranking softened; DC-28 reference kept." }
 ---
 
 # Winterizing the home and preventing frozen pipes
@@ -60,7 +60,8 @@ your water supply at the same time.
   lines both (Red Cross).
 - **Seal leaks:** weatherstrip doors, caulk window gaps, draught stoppers, foam gaskets behind
   outlet covers on outside walls.
-- **Insulate the attic.** Most heat leaves through the top of the house.
+- **Insulate the attic, basement and crawlspace.** Insulation keeps those spaces, and the pipes in
+  them, warmer (Red Cross).
 - **Find the main water shutoff**, keep the tool with it, and practise turning it in the dark.
 - **Stage the warm-room kit now** (→ 08-01): blankets, hooks, window film.
 
@@ -100,15 +101,16 @@ water left to freeze and split, and it is **drinkable reserve water first** (→
 
 When a house is drained, pour antifreeze into sink traps and toilet bowls so the water left in
 them cannot freeze and crack them. **Use only pink RV or marine antifreeze, which is propylene
-glycol.** **Never automotive antifreeze (ethylene glycol):** a small amount is deadly to a child
-or a pet, and it tastes sweet (ASPCA Animal Poison Control Center). A toilet bowl or floor drain
-is exactly where a child or a cat will find it.
+glycol.** **Never automotive antifreeze (ethylene glycol):** it is sweet-tasting and brightly
+coloured, so it gets swallowed, and swallowing more than a taste can cause serious illness or
+death (CDC/ATSDR, Ethylene Glycol ToxFAQs). A toilet bowl or floor drain is exactly where a child
+or a pet will find it.
 
 ## The building envelope, biggest gains first
 
 | Fix | Effort | Payoff |
 |---|---|---|
-| Attic insulation | High | The largest single saving |
+| Attic insulation | High | Large and permanent |
 | Window film, plastic sheeting, bubble wrap | Low | Very high per dollar |
 | Weatherstripping and door sweeps | Low | High: draughts are constant loss |
 | Caulking gaps, outlet gaskets | Low | Moderate but adds up |
@@ -116,9 +118,8 @@ is exactly where a child or a cat will find it.
 | Blankets over unused doorways and stairs | Low | Essential for the warm room (→ 08-01) |
 | Rugs and foam on bare floors | Low | Comfort and real loss reduction |
 
-Storm windows and thermal curtains pay for themselves in a normal winter and matter a great deal
-in an abnormal one. **Bubble wrap pressed onto glass misted with water** is an effective, cheap
-substitute.
+Storm windows and thermal curtains help in a normal winter and matter a great deal in an abnormal
+one. **Bubble wrap pressed onto glass misted with water** is a cheap substitute.
 
 ## Snow and the house
 
@@ -132,7 +133,7 @@ substitute.
 
 ## Before a forecast storm
 
-1. Fill every water container and the bathtub (CDC; → 03-02).
+1. Fill every water container and the bathtub (→ 03-02).
 2. Charge everything, medical devices first (→ 09-06).
 3. Bring several days of firewood under cover.
 4. Stage the warm room (→ 08-01).
@@ -143,7 +144,7 @@ substitute.
 
 | Item | Why | Notes |
 |---|---|---|
-| Pipe insulation sleeves; heat tape listed by a testing lab | Prevents the costly failure | Hot and cold lines |
+| Pipe insulation sleeves; UL-listed heat tape (Red Cross) | Prevents the costly failure | Hot and cold lines |
 | Window film kits or bubble wrap | Cheapest large gain | Enough for the warm room at least |
 | Weatherstrip, door sweeps, caulk, outlet gaskets | Stops constant loss | Autumn job |
 | Thermal curtains, blankets and hooks | Night insulation and closing off rooms | Also the warm-room kit |

@@ -11,6 +11,8 @@ tags: [condition library, celiac disease, gluten, Crohn's disease, ulcerative co
 derived_from: [12-11-chronic-conditions, 12-05-common-illness-and-dehydration]
 sources:
   - niddk-celiac-disease
+  - niddk-celiac-symptoms-causes-r11
+  - medlineplus-ileostomy-stoma-care-r11
   - niddk-celiac-eating-diet-nutrition
   - fda-gluten-free-labeling
   - niddk-crohns-disease
@@ -122,33 +124,38 @@ leaves an **ostomy** (an opening on the belly where stool leaves into a bag).
 
 ## 4. Day by day without it
 
-**Celiac with gluten getting into the food.** Symptoms after gluten differ: diarrhoea, bloating,
-belly pain, vomiting, tiredness, sometimes an itchy rash, sometimes nothing obvious. Damage
-happens even without symptoms. Repeated exposure over weeks and months leads to poor absorption
-of food: weight loss, anaemia (low iron), weak bones, and in children poor growth (NIDDK, Celiac
-Disease). It is rarely an emergency on the day; it is a slow drain on someone who needs every
-calorie.
+**Celiac with gluten getting into the food.** Symptoms differ widely: diarrhoea, bloating, gas,
+belly pain, nausea or vomiting, tiredness, joint or bone pain, an itchy blistering rash
+(dermatitis herpetiformis), headaches; in children, weight loss and slow growth. Some people have
+no symptoms at all (NIDDK, Symptoms & Causes of Celiac Disease). Gluten damages the small
+intestine even so, and over time celiac disease puts people at risk of nutritional deficiencies,
+weak bones (osteoporosis) and slow growth (FDA, Gluten-Free Labeling of Foods). It is rarely an
+emergency on the day; it is a slow drain on someone who needs every calorie.
 
-**Keeping the food gluten-free off-grid** (NIDDK, Eating, Diet, & Nutrition for Celiac Disease;
-FDA, Gluten-Free Labeling of Foods):
-- **Naturally gluten-free staples to stock:** rice, corn (masa, cornmeal, grits), potatoes,
-  beans, lentils, plain meat, fish, eggs, milk and cheese, fruit, vegetables, nuts, buckwheat and
-  quinoa (→ 04-02).
-- **Read every label.** In the US, a food labelled "gluten-free" must contain less than 20 parts
-  per million gluten (FDA, Gluten-Free Labeling of Foods). Oats are often contaminated with wheat;
-  use oats labelled gluten-free only.
-- **Hidden gluten:** soy sauce, gravy and soup mixes, bouillon, seasoning packets, malt, beer,
-  breaded or "flavoured" anything, many ration and freeze-dried meals. If the label is gone, treat
-  it as unsafe.
-- **Cross-contact:** a shared toaster, flour sifter, grain mill, wooden board, colander or pot of
-  pasta water is enough. Keep a separate set (→ 13-10). Flour dust settles on everything nearby.
+**Keeping the food gluten-free off-grid:**
+- **Naturally gluten-free staples to stock:** NIDDK names meat, fish, fruits, vegetables, rice
+  and potatoes without additives, and flours made from potatoes, rice, corn, soy, nuts, cassava,
+  amaranth, quinoa, buckwheat or beans (NIDDK, Eating, Diet, & Nutrition for Celiac Disease).
+  Plain beans and lentils keep for years (→ 04-02).
+- **Read every label.** NIDDK says foods labelled "gluten-free" in the US must contain less than
+  20 parts per million of gluten (NIDDK, Eating, Diet, & Nutrition for Celiac Disease). Oats:
+  ask the doctor or dietitian whether to eat them at all, and if so use oats labelled gluten-free
+  only, because ordinary oats pick up gluten from other grains (NIDDK).
+- **Hidden gluten:** NIDDK lists malt, malt extract, malt vinegar, brewer's yeast and beer, and
+  gluten in baked goods, baking mixes, breads, cereals and pastas (NIDDK). Many sauces, soup
+  mixes, seasonings and ration meals contain wheat too. If the label is gone, treat it as unsafe.
+- **Cross-contact:** NIDDK says gluten-free food is unsafe once it touches food or products that
+  contain gluten, and advises storing and preparing it separately (NIDDK). A shared toaster,
+  flour sifter, grain mill, wooden board, colander or pot of pasta water is enough. Keep a
+  separate set (→ 13-10). Flour dust settles on everything nearby.
 - **Shared and traded food:** ask what is in it and how it was cooked. The allergy card
   (→ 30-19) sets out the same kind of trade-off for allergies, and its reasoning applies here.
   Questionable food more generally is a card: {{choice DC-14}} (→ 30-15).
 
-**Crohn's or colitis without medicine.** Flares become more likely over weeks: more frequent,
-looser stools, blood, pain, tiredness, weight loss (NIDDK). Stress, poor sleep and infections
-trigger flares; some people find certain foods worse during a flare and keep a list.
+**Crohn's or colitis without medicine.** The medicines aim to calm the inflammation and prevent
+flares (NIDDK, Crohn's Disease; NIDDK, Ulcerative Colitis). Without them, flares become more
+likely: diarrhoea, cramping and belly pain, blood in the stool (colitis), weight loss (NIDDK).
+Some people find certain foods worse during a flare and keep a list.
 
 **Ostomy without supplies.** Leaks and sore skin first; then broken skin that can become
 infected. Ask the ostomy nurse now how to make a bag last and how to improvise in an emergency,
@@ -162,8 +169,11 @@ and write it in part 7.
 - **Severe belly pain, a swollen hard belly, vomiting, and no stool or gas passing:** a blocked
   bowel. Nothing by mouth; get care.
 - **High fever with a painful, swollen belly** in someone with colitis.
-- **An ostomy that turns dark purple or black, stops putting out for many hours with cramps,
-  or pours out watery output** (dehydration is fast with a high-output ostomy).
+- **A stoma that turns purple, black or white, bleeds more than usual, swells or pulls in, or
+  output that is more watery than usual with signs of dehydration** (MedlinePlus, Ileostomy:
+  Caring for Your Stoma). MedlinePlus says people with an ileostomy get dehydrated more easily
+  and should use oral rehydration solution when output is high. **No output for many hours
+  with cramps, swelling or vomiting** can be a blockage: get care.
 
 ## 6. Sick-day basics
 
@@ -189,13 +199,15 @@ and write it in part 7.
   last, and what to do if supplies run out: ______________________________________________
 Prescriber or nurse: ____________________ Date: __________
 
-**Stock arithmetic.** Days on hand = on hand ÷ used per day. Every household medicine row is
-printed; use the ones for this condition.
+**Stock arithmetic.** Days on hand = on hand ÷ used per day. The medicines tagged for this
+condition in settings are printed; if none is tagged, every medicine row is, and you use the
+ones for this condition.
 
 | Medicine or supply | On hand | Used per day | Days on hand | Days you want | Still to get |
 |---|---|---|---|---|---|
-{{#each meds as m}}| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
-{{/each}}| Gluten-free staples (days of meals) | ____ | | ____ | ____ | ____ |
+{{#each meds_for.CL-19 as m}}| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
+{{else}}{{#each meds as m}}| {{m.name}} {{m.strength}} ({{m.member}}) | ____ | ____ | ____ | ____ | ____ |
+{{/each}}{{/each}}| Gluten-free staples (days of meals) | ____ | | ____ | ____ | ____ |
 | Separate toaster, board, pot, colander, utensils | ____ | | | ____ | ____ |
 | ORS sachets, or salt, sugar and measuring spoons | ____ | ____ | ____ | ____ | ____ |
 | Ostomy bags, wafers, paste, barrier wipes | ____ | ____ | ____ | ____ | ____ |
@@ -244,14 +256,16 @@ household's full medicine stockpile is on → 12-07.
 
 ## 12. My meds
 
-Every medicine row your household entered is printed, because the binder cannot pick out one
-condition's rows. **Tick the rows for this condition**, cross out the rest, and fill any blank
-columns by hand.
+Rows marked ✓ are the medicines your household tagged for this condition in settings. If none
+is tagged, every medicine row your household entered is printed with a ☐ instead: **tick the
+rows for this condition** and cross out the rest. Fill any blank columns by hand, and add
+missing medicines in the blank rows.
 
 | For this? | Who | Medicine | Strength | Schedule | Fridge? | If doses are missed (prescriber's words) | Where kept | Days on hand | Expires |
 |---|---|---|---|---|---|---|---|---|---|
-{{#each meds as m}}| ☐ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
+{{#each meds_for.CL-19 as m}}| ✓ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
+{{else}}{{#each meds as m}}| ☐ | {{m.member}} | {{m.name}} | {{m.strength}} | {{m.schedule}} | {{m.refrigerated}} | {{m.if_missed}} | {{m.where_kept}} | {{m.days_on_hand}} | {{m.expiry}} |
 {{else}}| ☐ | (no medicines entered yet) | | | | | | ____ | ____ | ____ |
-{{/each}}| ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
+{{/each}}{{/each}}| ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
 | ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |
 | ☐ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ | ____ |

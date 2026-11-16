@@ -13,6 +13,7 @@ sources:
   - national-center-for-home-food-preservation-nchfp-fer-fa6335
   - usda-nchfp-usda-complete-guide-to-home-canning-2015-76e0fa
   - national-center-for-home-food-preservation-nchfp-gen-c43991
+  - iowa-state-extension-storing-winter-storage-vegetables
 related: [04-04-canning-water-bath, 04-05-canning-pressure, 04-06-dehydrating, 04-09-winter-cold-storage, 04-13-salt-sugar-vinegar, 04-16-sprouting, 05-01-a-small-high-yield-garden, 06-04-wood-supply-and-depletion, 08-01-heating-one-room, 02-04-cl04-food-allergy, 29-08-ex08-canning-words]
 cards: []
 explainers: [EX-08]
@@ -43,9 +44,10 @@ raw crops cool in a "root cellar", which can be any cold, dark corner with the r
 
 1. **Learn sauerkraut first.** Cabbage and salt, nothing else. It is the most forgiving ferment
    and a real source of vitamin C through winter.
-2. **Weigh the salt** to the recipe. It is the safety control, not seasoning.
+2. **Measure the salt exactly** to the recipe. It is the safety control, not seasoning.
 3. **Keep everything under the brine** with a weight, a bag of brine, or a cabbage leaf on top.
-4. **Ferment cool:** 60 to 75 °F. Above 75 °F it goes wrong fast.
+4. **Ferment cool:** 60 to 75 °F. Above 75 °F kraut may go soft; below 60 °F it may not ferment
+   (USDA Complete Guide, Guide 6).
 5. **Store raw what keeps raw:** potatoes, carrots, beets, cabbage, onions, squash, apples.
 
 ## Why fermentation matters
@@ -67,17 +69,19 @@ the food preserves itself. Air is the enemy: the food must stay **under** its br
 
 1. **Shred the cabbage.** Weigh it.
 2. **Add salt at the tested rate.** The USDA rate for sauerkraut is **3 tablespoons of canning
-   salt per 5 lb of shredded cabbage (about 2.3 percent by weight)** (USDA Complete Guide,
-   Guide 6). Other vegetables have their own tested rates: **use the Guide, not memory.**
-   {{#if size.large}}Guide 6 is bound behind this page.{{else}}Guide 6 is in the Large download;
-   the Small download only cites it.{{/if}}
+   or pickling salt per 5 lb of shredded cabbage** (USDA Complete Guide, Guide 6). Weigh the
+   cabbage so the salt matches it. Other vegetables have their own tested rates: **use the
+   Guide, not memory.** {{#if size.large}}Guide 6 is bound in your binder at the end of this
+   section, after the last food-storage page; the "Sources for this page" list below links to
+   it.{{else}}Your binder is the Small download, which only cites Guide 6; the Large and
+   Everything downloads carry it. Keep a paper copy.{{/if}}
 3. **Massage or pound** until the cabbage releases its own liquid.
 4. **Pack it into a crock or jar,** pressing down so the brine covers everything.
-5. **Weight it down** so nothing floats. If needed, top up with brine (salt and water at the
-   recipe strength).
+5. **Weight it down** so nothing floats. If the juice does not cover the cabbage, add brine
+   that was boiled and cooled: 1½ tablespoons of salt per quart of water (Guide 6).
 6. **Cover loosely:** gas must escape. An airlock lid or a cloth works.
-7. **Ferment cool.** USDA: **70 to 75 °F for 3 to 4 weeks; 60 to 65 °F for 5 to 6 weeks; above
-   75 °F it softens and may spoil.** Taste as it goes.
+7. **Ferment cool.** USDA: **70 to 75 °F for about 3 to 4 weeks; 60 to 65 °F for 5 to 6 weeks;
+   below 60 °F it may not ferment; above 75 °F it may go soft.** Taste as it goes.
 8. **Skim any surface film.** When it tastes right, move it somewhere cold to slow it down.
 
 **Judging it:** a good ferment smells **sour, clean and cabbagey;** cloudy brine is normal.
@@ -89,18 +93,21 @@ fermented food needs its own tested recipe (→ 04-04).
 
 ## Root cellaring: storage that costs nothing
 
-Many crops keep raw for months, with **no processing at all,** in the right conditions.
+Many crops keep raw for months, with **no processing at all,** in the right conditions. The
+temperatures below are Iowa State University Extension's (Storing Winter Storage Vegetables,
+reviewed 2025); rows without a number keep the general rule.
 
 | Crop | Wants | Keeps |
 |---|---|---|
-| **Potatoes** | Cold (about 40 °F), dark, humid; **never next to apples** | Months |
-| **Carrots, beets, turnips** | Cold, very humid: pack in damp sand | Months |
+| **Potatoes** | 40 °F, dark, humid; **never next to apples** | Months |
+| **Carrots, beets, turnips** | Just above freezing (32 to 35 °F), very humid: pack in damp sand | Beets 1 to 3 months; carrots and turnips longer |
 | **Cabbage** | Cold, humid | Months (and it smells) |
-| **Onions, garlic** | Cold, **dry,** airy | Months |
-| **Winter squash, pumpkins** | Cool (about 50 °F), **dry** | Months |
+| **Onions, garlic** | Cold (32 to 40 °F), **dry,** airy | Months |
+| **Winter squash, pumpkins** | Cool (50 to 55 °F), **dry**; away from ripening fruit | Weeks (acorn) to months (butternut, Hubbard) |
 | **Apples** | Cold, humid, **away from potatoes** | Months |
 
-**Two rules:** **apples give off ethylene gas,** which makes potatoes sprout; keep them apart.
+**Two rules:** **apples and other ripening fruit give off ethylene gas,** which makes potatoes
+sprout and shortens squash storage; keep them apart (Iowa State University Extension).
 And **onions and squash want dry air** while roots want humid air: two different corners.
 
 **Where to do it.** {{#if has.basement}}Your basement is the asset here.{{else}}Any unheated room,
@@ -126,8 +133,8 @@ recipes do. Keep allergy-safe batches separate and labelled.
 | **Fermentation weights** | Keeping food under brine is the safety control | Glass weights, or a boiled stone |
 | Airlock lids (or cloth and a band) | Lets gas out, keeps air off | Cheap |
 | **Salt: a large quantity** | The preservative | → 04-13; **non-iodised** canning salt for ferments |
-| **Kitchen scale** | Salt is measured by weight | The safety-critical tool |
-| **USDA Complete Guide, Guide 6** (fermented foods and pickled vegetables) | Tested rates | In the Large download |
+| **Kitchen scale** | Weigh the vegetables so the salt matches the recipe | The safety-critical tool |
+| **USDA Complete Guide, Guide 6** (fermented foods and pickled vegetables) | Tested rates | Bound in the Large and Everything downloads |
 | Damp sand and bins or crates | Roots keep for months | Free |
 | Thermometer and humidity gauge for the cold store | Know your conditions | Cheap |
 | Shredder, mandoline or cabbage knife | Prep in volume | → 16-02 |

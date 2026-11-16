@@ -11,6 +11,9 @@ tags: [food, pests, rodents, mice, hantavirus, insects, weevils, bleach, storage
 derived_from: [04-11-pests-and-rodents]
 sources:
   - cdc-clean-up-after-rodents-324430
+  - cdc-hantavirus-about-2024
+  - cdc-seal-up-to-prevent-rodents-2024
+  - kstate-mf2270-controlling-stored-food-insects-1998
   - national-center-for-home-food-preservation-nchfp-gen-c43991
   - foodsafety-gov-usda-hhs-cook-to-a-safe-minimum-inter-13daf3
   - cdc-cleaning-and-disinfecting-with-bleach-a0118f
@@ -36,10 +39,11 @@ when they get in, and how to clean up after rodents without catching a disease f
 > **CAUTION.** Rodents do not just eat food. **They spoil far more than they eat,** with urine
 > and droppings that carry disease. **Food that rodents have touched is thrown away.** In a
 > grid-down with no clinic, a preventable stomach illness in a small child or an elder is an
-> emergency (→ 12-05). **Deer mice carry hantavirus** in much of the US; people catch it by
-> breathing dust stirred up while sweeping droppings. The illness it causes (hantavirus
-> pulmonary syndrome) kills about a third of the people who get it and has no specific
-> treatment (CDC). **Never sweep or vacuum droppings: wet them first** (steps below).
+> emergency (→ 12-05). **Deer mice carry hantavirus** in much of the US; people catch it from
+> rodent urine, droppings and saliva, often by breathing dust stirred up while sweeping. CDC
+> says 38 percent of people who develop the breathing symptoms of the illness (hantavirus
+> pulmonary syndrome) may die, and there is no specific treatment (CDC, About Hantavirus,
+> 2024). **Never sweep or vacuum droppings: wet them first** (steps below).
 >
 > **Floors:** **Bleach or pool shock is never mixed with ammonia, acids or other cleaners.**
 > Chlorine gas (→ 30-01). **Children do not have access to firearms, fuel, medications or
@@ -49,7 +53,8 @@ when they get in, and how to clean up after rodents without catching a disease f
 
 1. **Store food in hard containers, not bags.** Mice chew through plastic bags, cardboard and
    thin plastic buckets easily.
-2. **Seal entry points.** A mouse passes through a gap the width of a pencil.
+2. **Seal entry points.** A mouse fits through a hole the width of a pencil, about ¼ inch
+   (CDC, How to Seal Up to Prevent Rodents).
 3. **Keep food off the floor and away from walls,** so you can see and clean behind it.
 4. **Clean up crumbs and spills at once.** A clean store room does not attract pests.
 5. **Use snap traps, not poison,** where there are children or pets (below).
@@ -66,8 +71,8 @@ when they get in, and how to clean up after rodents without catching a disease f
 
 - **Hard containers:** metal cans and bins, glass jars, or **plastic buckets inside a metal
   container.** A plastic bucket alone is not rodent-proof for long.
-- **Seal the building:** pack steel wool or hardware cloth (stiff wire mesh) into gaps, then seal
-  over it. Check around pipes, vents, the dryer vent, foundation gaps, and where cables and pipes
+- **Seal the building:** steel wool held in with caulk or spray foam for small holes; hardware
+  cloth (stiff wire mesh), metal sheeting or cement for larger ones (CDC). Check around pipes, vents, the dryer vent, foundation gaps, and where cables and pipes
   come in.
 - **Remove hiding places:** woodpiles against the house (→ 06-03), clutter, cardboard.
 - **Traps beat poison** in a house with children or pets: snap traps inside covered boxes.
@@ -81,8 +86,11 @@ disturbed, and nearby houses may stand empty. Expect more, not fewer.
 
 Pantry insects usually arrive **inside** the food from the store, as eggs.
 
-- **Freeze new grain and flour for 3 to 4 days** before storing it (in a freezer, or in measured
-  hard-freeze winter cold, → 04-09). This kills eggs and larvae.
+- **Freeze new grain and flour at 0 °F or colder for 3 days; large packages and buckets for
+  7 days** (Kansas State University Extension, Controlling Stored-Food Insects, MF-2270). A
+  home freezer, or measured winter cold that stays that low (→ 04-09). Heat works too: flour,
+  beans and whole grain spread in shallow pans in a 150 °F oven for 15 to 20 minutes (same
+  source).
 - **Oxygen absorbers** in sealed Mylar (→ 04-03) suffocate any survivors.
 - **Bay leaves** in containers are a traditional, mild deterrent; harmless.
 - **Look when you open a package:** webbing in the corners, clumps, or small moths in the pantry
@@ -96,24 +104,25 @@ Pantry insects usually arrive **inside** the food from the store, as eggs.
   contents are protected. That is exactly why hard containers matter.
 - **Clean up the CDC way. This is hantavirus prevention, not tidiness.** Deer mice shed the virus
   in urine, droppings and nests; people catch it by breathing the dust. CDC's steps (CDC, Clean
-  Up After Rodents):
-  1. **Open doors and windows and LEAVE the area for 30 minutes** before you start.
+  Up After Rodents, 2024):
+  1. **Open all doors and windows for 30 minutes before you start, and stay out** while it airs.
   2. **Never sweep or vacuum** droppings, urine or nest material: that puts the virus in the air.
   3. **Rubber or plastic gloves on.** Spray the droppings, urine and nest **thoroughly** with a
-     disinfectant or **bleach solution: 1 part bleach to 9 parts water (1½ cups of bleach per
-     gallon of water). Let it soak 5 minutes.** Bleach basics: → 29-05. Use bleach and water
-     only, nothing else mixed in.
-  4. **Wipe up with paper towels,** put them in a bag, seal it, and put it in the outside trash.
-  5. **Then mop or sponge the whole area** (floor, shelves, counters) with the same solution.
-  6. **Food the rodents touched: throw away. Dishes and utensils: wash in the disinfectant** or
-     boil them.
-  7. **Wash gloved hands in disinfectant, take the gloves off, then wash bare hands** with soap
-     and water.
+     disinfectant or **bleach solution: 1½ cups of household bleach in 1 gallon of water (1 part
+     bleach to 9 parts water), mixed fresh. Let it soak 5 minutes** (or as the disinfectant
+     label says). Bleach basics: → 29-05. Use bleach and water only, nothing else mixed in.
+  4. **Wipe up with paper towels** and put them in a covered rubbish bin that is emptied often.
+  5. **Then mop or sponge the whole area** (floors, counters, cabinets, drawers) with
+     disinfectant.
+  6. **Wash gloved hands** with soap and water or disinfectant **before taking the gloves off,
+     then wash bare hands** with soap and warm water.
 
-  A dead mouse or a nest in a closed space (a bin, a cupboard, an engine cover): same steps; soak
-  it well before you lift it, and double-bag it. **Anyone who develops fever and deep muscle aches,
-  then shortness of breath, 1 to 8 weeks after a clean-up: → 12-05, and say the word
-  "hantavirus".**
+  A dead mouse or a nest: gloves on, spray it and the area around it with disinfectant, put it
+  (and any used trap) in a plastic bag, knot it, put that in a second bag, knot it, and put it in
+  a covered bin (CDC). Food the rodents touched is thrown away; wash dishes and utensils they
+  reached before use. **Anyone who develops fever, tiredness and muscle aches (thighs, hips,
+  back), then cough and shortness of breath, 1 to 8 weeks after contact with rodents: → 12-05,
+  and say the word "hantavirus"** (CDC).
 - **Insect-infested dry goods** are more a quality problem than a safety one, but with little
   water for sorting and washing, throwing them out is usually the practical answer.
 
@@ -135,7 +144,7 @@ stored food. The other side:
 | **Hardware cloth and steel wool** | Sealing entry points | ¼-inch mesh |
 | Snap traps (many) | Safer than poison with children and pets | Inside covered boxes |
 | Oxygen absorbers | Kill insect eggs in sealed storage | → 04-03 |
-| Gloves, bleach or disinfectant, spray bottle, paper towels | The CDC clean-up | 1 part bleach to 9 parts water; 5-minute soak; **wet, never sweep or vacuum**; store bleach where children cannot reach it |
+| Gloves, bleach or disinfectant, spray bottle, paper towels, plastic bags | The CDC clean-up | 1½ cups bleach per gallon of water (1 to 9); 5-minute soak; **wet, never sweep or vacuum**; store bleach where children cannot reach it |
 | Headlamp | Checking dark corners | → 10-01 |
 | Bay leaves | Mild insect deterrent | Cheap |
 
@@ -145,8 +154,8 @@ stored food. The other side:
   make good rodent-proof food storage.
 - Hardware cloth in gaps; expanding foam **with** steel wool packed in first (foam alone gets
   chewed through).
-- Winter cold (→ 04-09) can stand in for a freezer to kill insect eggs, if it is a hard,
-  measured freeze.
+- Winter cold (→ 04-09) can stand in for a freezer to kill insect eggs, if a thermometer shows
+  0 °F or colder for the whole 3 to 7 days.
 
 ## When it runs out
 

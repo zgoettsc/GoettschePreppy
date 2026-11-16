@@ -32,7 +32,7 @@ e('lambs-quarters', 'Chenopodium album', ["Lamb's quarters", 'White goosefoot', 
   ['Upright weed, 1 to 6 feet.',
    'Diamond- or goose-foot-shaped leaves with wavy teeth.',
    'Young leaves and tips covered with a white mealy powder that wipes off and sheds water.'],
-  'Young leaves and tips cooked like spinach. Boil and discard the water: it piles up nitrate and oxalate. Not from heavily manured or drought-stressed ground, and not a staple. No wild greens for children under 2 (nitrate).',
+  'Young leaves and tips cooked like spinach. Boil and discard the water: it piles up nitrate and oxalate. Not from heavily manured or drought-stressed ground, and not a staple.',
   'Gardens, fields and disturbed ground in every state.')
 e('purslane', 'Portulaca oleracea', ['Purslane'], 'starter',
   ['Low mat with thick, smooth, reddish stems.',
@@ -45,7 +45,7 @@ e('redroot-amaranth', 'Amaranthus retroflexus', ['Redroot amaranth', 'Redroot pi
   ['Upright weed, 1 to 5 feet, with a pink-red taproot.',
    'Rough hairy stem; oval leaves with prominent veins.',
    'Dense bristly green flower spikes.'],
-  'Young leaves cooked; seeds. Like lamb\'s quarters it piles up nitrate and oxalate: boil and discard the water; not from manured ground; not for children under 2.',
+  'Young leaves cooked; seeds. Like lamb\'s quarters it piles up nitrate and oxalate: boil and discard the water; not from manured ground.',
   'Gardens, fields and feedlots in every state.')
 e('stinging-nettle', 'Urtica dioica', ['Stinging nettle'], 'starter',
   ['Plant 2 to 6 feet with a SQUARE stem.',

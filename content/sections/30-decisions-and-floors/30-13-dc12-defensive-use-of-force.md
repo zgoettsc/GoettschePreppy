@@ -2,7 +2,7 @@
 id: 30-13-dc12-defensive-use-of-force
 section: 30-decisions-and-floors
 title: "DC-12. Defensive use of force: our household rule"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: card
 danger_level: critical
@@ -12,7 +12,7 @@ derived_from: [14-11-defense-and-sd-law, 14-13-de-escalation, 14-01-situational-
 sources:
   - nssf-national-shooting-sports-foundation-firearm-saf-646b4a
   - national-institute-of-justice-u-s-doj-the-effectiven-6e5288
-  - american-college-of-surgeons-stop-the-bleed-stop-the-8d1b5b
+  - usuhs-ncdmph-stop-the-bleed-apply-a-tourniquet-r7
   - cdc-helping-children-cope-during-and-after-a-disaste-641273
 related: [14-11-defensive-use-of-force, 14-13-de-escalation, 14-01-situational-awareness, 14-12-layered-defense, 14-02-home-hardening, 18-01-mutual-aid, 12-02-bleeding-and-wounds, 21-03-grief-and-trauma, 29-11-ex11-firearms-basics, 30-12-dc11-shooting-on-your-property]
 cards: [DC-12, DC-11]
@@ -64,14 +64,16 @@ the people who live around you will still be there tomorrow.
 - **Misidentification.** A family member or neighbour coming in at night is shot because nobody
   identified them first.
 - **Through the wall.** Bullets from ordinary rifles, shotguns and handguns can pass through
-  interior and exterior walls into other rooms and other houses (NSSF: know what is beyond your
-  target).
+  interior and exterior walls into other rooms and other houses. NSSF's rule is to be sure of
+  your target and what is beyond it, because "once a gun fires, you have given up all control
+  over where the shot will go or what it will strike" (NSSF, Firearm safety).
 - **No surgeon.** With no hospital, a gunshot wound, to the other person or to you if it goes
   wrong, is likely fatal. Bleeding control buys time, not a cure (→ 12-02).
 - **Over property.** A household that shoots someone over a fuel can or a generator becomes the
   household the neighbourhood fears and turns against (→ 18-01).
-- **Children watching.** What children see at the door stays with them (CDC, Helping Children
-  Cope During and After a Disaster; → 21-03).
+- **Children watching.** What children see at the door stays with them: CDC notes that after a
+  disaster children may develop anxiety, depression or post-traumatic stress (CDC, Helping
+  Children Cope During and After a Disaster; → 21-03).
 
 ## 4. What makes it safer
 

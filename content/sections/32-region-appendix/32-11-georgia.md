@@ -651,7 +651,7 @@ An ecoregion is an area where the land, climate, soils and plants are alike (US 
 | Ridge and Valley | 9 | 10 |
 | Southwestern Appalachians | 1 | 3 |
 
-### Plants and trees to know (plates being added)
+### Plants and trees to know
 
 {{plates}}
 

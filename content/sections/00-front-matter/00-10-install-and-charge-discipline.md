@@ -2,7 +2,7 @@
 id: 00-10-install-and-charge-discipline
 section: 00-front-matter
 title: "Keeping the binder alive: install it, print it, keep it charged"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -10,7 +10,7 @@ phase: [A, B, C]
 tags: [front matter, install, offline, phone, laptop, printing, PDF, power bank, charging, airplane mode, battery]
 derived_from: [00-01-how-to-use-this-binder]
 sources:
-  - nfpa-national-fire-protection-association-lithium-io-0c7d64
+  - usfa-blog-lithium-ion-batteries-2026-r8
   - american-red-cross-power-outage-safety-6d07a8
 related: [00-01-how-to-use-this-binder, 00-09-private-copy-notice, 09-06-charging-medical-devices, 09-16-outage-day-one, 09-07-battery-chemistry, 27-03-protecting-electronics, 25-08-quick-reference-cards, 15-03-family-comms-plan, 29-02-ex02-batteries-and-power-stations]
 cards: []
@@ -23,7 +23,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Lithium battery cautions re-cited to USFA (NFPA capture empty); three sizes and size ranges." }
 ---
 
 # Keeping the binder alive: install it, print it, keep it charged
@@ -33,11 +33,12 @@ switched on, or on paper, at the moment you need it. This page shows how to keep
 than one device, how to open it with no internet, why you still want key pages on paper, and how
 to ration phone and laptop batteries so the binder outlasts the outage.
 
-> **CAUTION.** Lithium batteries (phones, laptops, power banks, power stations) can catch fire if
-> damaged, overheated or charged with the wrong charger. Charge them on a hard surface, not on a
-> bed, pillow or couch. Stop using any battery that swells, gets very hot, smells, leaks, hisses
-> or changes colour, and move it away from anything that can burn if you can do so safely (NFPA,
-> Lithium-Ion Batteries).
+> **CAUTION.** Lithium batteries (phones, laptops, power banks, power stations) can bulge, leak
+> or catch fire if damaged or faulty. Charge them on a solid, flat surface: charging on a soft
+> surface such as a bed, pillow or couch, or blocking the vents, raises the fire risk. **If a
+> battery is smoking, hissing, punctured or swollen, stop using it at once** (US Fire
+> Administration, Lithium-Ion Batteries). If you can do it safely, move it away from anything that
+> can burn.
 
 ## Do this now
 
@@ -54,13 +55,15 @@ to ration phone and laptop batteries so the binder outlasts the outage.
 
 The binder is a single web-page file. It opens in the phone's or computer's web browser, but it
 does not need the internet: everything (pages, pictures, search{{#if size.large}}, and the source
-documents{{/if}}) is inside the file.
+documents bound in your download{{/if}}) is inside the file.
 
 - **Keep the file on the device itself, not only in a cloud folder.** A file that lives only in an
   online storage service is not on your phone when the network is down. In your phone's file app,
   check that the file is stored on the phone, or marked as downloaded for offline use.
-- **Check the free space.** The Small binder is roughly 30 to 60 MB; the Large binder roughly 200
-  to 400 MB. Phones that are nearly full delete "offloaded" files without asking.
+- **Check the free space.** Roughly: Small 30 to 60 MB, Large 200 to 450 MB, Everything 0.4 to
+  0.9 GB (meant for a laptop; → 00-09). Phones that are nearly full delete "offloaded" files
+  without asking.{{#if size.everything}} Your Everything file may be too big for some phones: keep
+  it on the laptop and put a Small or Large copy on each phone.{{/if}}
 - **One copy on a memory stick or SD card** in the go-bag or the document kit (→ 19-01) is a cheap
   extra copy for a borrowed laptop.
 - **An old phone or tablet in a drawer**, charged, with the binder on it and nothing else, is a
@@ -85,8 +88,9 @@ documents{{/if}}) is inside the file.
   copies disagree, the newer one wins.**
 - **Photos you attach** stay inside the copy where you attached them only after you press "Save a
   new copy". Save, then put that new copy on the other devices.
-- **Small and Large.** If you downloaded Small (no source documents inside) you can upgrade to
-  Large later from your saved answers file without the pages being written again (→ 00-09).
+- **Small, Large and Everything.** Small has no source documents inside; Large binds those cited
+  by the life-safety sections; Everything binds all of them. You can upgrade later from your saved
+  answers file and this binder file without the pages being written again (→ 00-09).
 
 ## Why a printed copy still matters
 
@@ -170,13 +174,13 @@ and hand-crank radios with a charging port are the other options (→ 09-11).
 - **Keep batteries warm in cold weather.** Lithium batteries lose usable charge in the cold and
   recover when warmed. Carry the phone in an inside pocket, and warm a cold battery before
   charging it (→ 09-07).
-- **Keep them out of heat.** Do not leave phones or power banks in a parked car in the sun or in
-  direct sunlight (NFPA, Lithium-Ion Batteries).
+- **Keep them out of heat.** Do not charge them in direct sunlight (US Fire Administration,
+  Lithium-Ion Batteries), and do not leave them in a parked car in the sun.
 
 ### Charging safely
-- Use the charger and cable made for the device, or one rated for it (NFPA, Lithium-Ion
-  Batteries).
-- Charge on a hard surface, never under a pillow or on a bed or couch.
+- Use only the original charger and cable, or a certified replacement; avoid cheap knockoffs
+  (US Fire Administration, Lithium-Ion Batteries).
+- Charge on a solid, flat surface, never under a pillow or on a bed or couch.
 - A battery that has been crushed, punctured, soaked or overheated is not trusted again.
 
 ## The charge-discipline card

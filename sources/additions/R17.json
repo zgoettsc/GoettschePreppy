@@ -1,0 +1,90 @@
+[
+  {
+    "key": "usda-fsis-shelf-stable-food-safety-2014-r17",
+    "title": "Shelf-Stable Food Safety (Food Safety Information fact sheet, updated August 2014)",
+    "org": "USDA Food Safety and Inspection Service (FSIS), via GovInfo",
+    "date": "2014-08",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work; FSIS encourages reprint (the PhotoDisc cover image is excluded). Read 2026-11-16 by R17 (GovInfo copy; fsis.usda.gov refuses automated fetch): dating is for quality, not safety, except infant formula; discard deeply dented cans (a dent you can lay a finger into) and any deep dent on a seam; small dent otherwise sound is safe; discard heavily rusted cans; discard swollen frozen cans and frozen cans thawed at 40 F or higher; below 85 F best, over 100 F harmful; chart: low-acid canned goods 2 to 5 years, high-acid 12 to 18 months; botulism warnings: leaking, bulging or badly dented cans, cracked jars, loose or bulging lids, foul odour, spurting.",
+    "url": "https://www.govinfo.gov/content/pkg/GOVPUB-A110-PURL-gpo38739/pdf/GOVPUB-A110-PURL-gpo38739.pdf",
+    "household_cited_by": [],
+    "cited_by": []
+  },
+  {
+    "key": "cdc-botulism-home-canned-foods-r17",
+    "title": "Home-Canned Foods (Botulism: Prevention)",
+    "org": "CDC",
+    "date": "2024-04-25",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work. Read 2026-11-16 by R17 via the fetch tool (curl gets 403): when in doubt, throw it out: container leaking, bulging or swollen; looks damaged, cracked or abnormal; spurts liquid or foam when opened; food discoloured, mouldy or smells bad. At altitudes below 1,000 feet, boil foods for 10 minutes; add 1 minute for each additional 1,000 feet.",
+    "url": "https://www.cdc.gov/botulism/prevention/home-canned-foods.html",
+    "household_cited_by": [],
+    "cited_by": []
+  },
+  {
+    "key": "cdc-botulism-signs-symptoms-r17",
+    "title": "Botulism: Signs and Symptoms",
+    "org": "CDC",
+    "date": "2026-11-16",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work. Read 2026-11-16 by R17 via the fetch tool: difficulty swallowing, muscle weakness, double vision, drooping eyelids, blurry vision, slurred speech, difficulty breathing, difficulty moving the eyes.",
+    "url": "https://www.cdc.gov/botulism/signs-symptoms/index.html",
+    "household_cited_by": [],
+    "cited_by": []
+  },
+  {
+    "key": "cdc-antibiotic-dos-and-donts-r17",
+    "title": "Healthy Habits: Antibiotic Do's and Don'ts",
+    "org": "CDC",
+    "date": "2025-09-23",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work. Read 2026-11-16 by R17 via the fetch tool: take antibiotics only when you need them; antibiotics do not work on viruses (colds, flu); do not share your antibiotics; do not take antibiotics prescribed for someone else; side effects include C. diff diarrhoea and severe allergic reactions; use contributes to resistance.",
+    "url": "https://www.cdc.gov/antibiotic-use/about/index.html",
+    "household_cited_by": [],
+    "cited_by": []
+  },
+  {
+    "key": "niosh-nagcat-effectiveness-2011-r17",
+    "title": "Guidelines for Children's Agricultural Tasks Demonstrate Effectiveness (NIOSH Publication 2011-129, March 2011)",
+    "org": "CDC / NIOSH (CDC web archive)",
+    "date": "2011-03",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work. Read 2026-11-16 by R17 on archive.cdc.gov via the fetch tool (live cdc.gov copy 404/403): NAGCAT, built on child-development principles, matched a child's physical, mental and psychosocial abilities with the requirements of specific farm work, to help parents assign farm work appropriately.",
+    "url": "https://archive.cdc.gov/www_cdc_gov/niosh/docs/2011-129/default.html",
+    "household_cited_by": [],
+    "cited_by": []
+  },
+  {
+    "key": "osha-3269-chainsaw-safety-quickcard-r17",
+    "title": "Chainsaw Safety QuickCard (OSHA 3269)",
+    "org": "OSHA, US Department of Labor",
+    "date": "2013",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work. Read 2026-11-16 by R17: proper personal protective equipment must be worn when operating the saw: hand, foot, leg, eye, face, hearing and head protection. (Replaces the dead URL on osha-chain-saw-safety-protective-equipment-for-chain-a71d7d.)",
+    "url": "https://www.osha.gov/sites/default/files/publications/CHAIN_SAW_SAFETY.pdf",
+    "household_cited_by": [],
+    "cited_by": []
+  },
+  {
+    "key": "osha-3080-hand-and-power-tools-r17",
+    "title": "Hand and Power Tools (OSHA 3080, 2002 revised)",
+    "org": "OSHA, US Department of Labor",
+    "date": "2002",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work. Read 2026-11-16 by R17: employees should be trained in the proper use of all tools; appropriate personal protective equipment such as safety goggles and gloves.",
+    "url": "https://www.osha.gov/sites/default/files/publications/osha3080.pdf",
+    "household_cited_by": [],
+    "cited_by": []
+  },
+  {
+    "key": "fda-ki-guidance-2001-r17",
+    "title": "Guidance: Potassium Iodide as a Thyroid Blocking Agent in Radiation Emergencies (December 2001), PDF",
+    "org": "US FDA",
+    "date": "2001-12",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work. Read 2026-11-16 by R17 (the archived copy of us-fda-potassium-iodide-as-a-thyroid-blocking-agent-fcadee holds no text): adults over 40 need take KI only in the case of a projected large internal radiation dose to the thyroid (>500 cGy) to prevent hypothyroidism; iodine-induced thyrotoxicosis is more common in older people and in iodine-deficient areas but usually requires repeated doses.",
+    "url": "https://www.fda.gov/media/72510/download",
+    "household_cited_by": [],
+    "cited_by": []
+  }
+]

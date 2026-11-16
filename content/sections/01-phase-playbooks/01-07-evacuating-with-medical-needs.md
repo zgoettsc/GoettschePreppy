@@ -2,7 +2,7 @@
 id: 01-07-evacuating-with-medical-needs
 section: 01-phase-playbooks
 title: "Leaving home with medical needs: medicines, devices and the cold chain on the road"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -14,8 +14,8 @@ sources:
   - american-diabetes-association-switching-between-insu-9c5595
   - american-diabetes-association-insulin-storage-and-sy-6f1f94
   - us-fda-epipen-epinephrine-injection-usp-auto-injecto-a9f17f
-  - cdc-recognizing-and-responding-to-anaphylaxis-645825
-  - federal-communications-commission-9-1-1-and-e9-1-1-s-a8c9c7
+  - american-academy-of-pediatrics-aap-allergy-and-anaph-3e6f49
+  - ecfr-47-cfr-part-9-911-requirements
 related: [01-03-phase-b-movement, 01-05-choosing-a-destination, 01-06-phase-transition-checklists, 01-02-go-no-go-decision, 29-07-ex07-refrigerated-medicines, 12-21-evaporative-cooling-pouches, 09-10-power-for-medical, 09-06-charging-medical-devices, 22-05-kit-vehicle, 22-06-kit-medical, 25-09-family-medical-summary, 15-09-corridor-comms, 30-09-dc08-heat-exposed-medication]
 cards: [DC-04, DC-08, DC-18]
 explainers: [EX-07, EX-14, EX-02]
@@ -28,7 +28,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Days on hand from meds; refrigerated_meds listed; condition flags mark dialysis, dementia, pregnancy, diabetes; AAP second dose; 911 to 47 CFR 9.10." }
 ---
 
 # Leaving home with medical needs: medicines, devices and the cold chain on the road
@@ -75,7 +75,7 @@ details for each one.
 
 | Person | Medicine | Strength | Schedule | Refrigerated | If doses are missed (prescriber's words) | Days on hand |
 |---|---|---|---|---|---|---|
-{{#each meds as x}}| {{x.member}} | {{x.name}} | {{x.strength}} | {{x.schedule}} | {{x.refrigerated}} | {{x.if_missed}} | ______ |
+{{#each meds as x}}| {{x.member}} | {{x.name}} | {{x.strength}} | {{x.schedule}} | {{x.refrigerated}} | {{x.if_missed}} | {{x.days_on_hand}} |
 {{else}}| none entered | | | | | | |
 {{/each}}
 
@@ -89,8 +89,12 @@ can.**
 
 ### The cold chain rides in the cabin, powered
 
-{{#if has.refrigerated_meds}}This household has refrigerated medicine. This section is your plan.{{else}}No
-refrigerated medicine is entered. Read this anyway: a new prescription can change that.{{/if}}
+{{#if has.refrigerated_meds}}This household has refrigerated medicine. This section is your plan for:
+
+{{#each refrigerated_meds as x}}- **{{x.name}}** ({{x.member}})
+{{/each}}
+{{else}}No refrigerated medicine is entered. Read this anyway: a new prescription can change
+that.{{/if}}
 
 - **Primary layer: a powered cooler in the cabin.** A 12-volt compressor cooler or small fridge,
   run from a power station or the vehicle's socket, holds refrigerated medicine at fridge
@@ -123,11 +127,11 @@ refrigerated medicine is entered. Read this anyway: a new prescription can chang
   cabin, on or beside an adult.** Never the trailer, never a door pocket in the sun, never left in
   the parked vehicle. Keep them within the storage range on their label (FDA, EpiPen prescribing
   information; → 02-03).{{#if has.anaphylaxis}}
-- **Epinephrine travels in pairs**: one reaction can need a second dose (CDC, Recognizing and
-  Responding to Anaphylaxis). Whether expired devices count when no in-date ones exist is a
+- **Epinephrine travels in pairs**: a second dose is given if symptoms get worse, continue, or
+  are not better in 5 minutes (AAP, Allergy and Anaphylaxis Emergency Plan). Whether expired devices count when no in-date ones exist is a
   household choice. **Our choice:** {{choice DC-04}} (→ 30-05){{/if}}
-- **Fast sugar** within the driver's reach and in the back seat, for anyone with diabetes
-  (→ 02-01, → 02-05).
+- **Fast sugar** within the driver's reach and in the back seat, for anyone with diabetes{{#if has.diabetes}}
+  *(applies to us)*{{/if}} (→ 02-01, → 02-05).
 
 {{#if has.anaphylaxis}}### Food stops and allergies
 
@@ -150,11 +154,11 @@ the whole trip's food plus a margin for delays (→ 02-04, → 02-19, → 02-13)
   tested at home for one night (→ 02-24, → 09-06).
 - **Wheelchair or walker**{{#if has.mobility_aid}} *(applies to us)*{{/if}}: does it fit with the
   load? Who lifts it? How does the person get to a toilet at stops (→ 02-22)?
-- **Dialysis**: treatment cannot travel with you. Ask the dialysis centre now what its emergency
+- **Dialysis**{{#if has.condition.CL-15}} *(applies to us)*{{/if}}: treatment cannot travel with you. Ask the dialysis centre now what its emergency
   plan is and where you would be treated near each destination (→ 02-15).
-- **Dementia**: unfamiliar stops are where people wander off. One named adult stays with them
+- **Dementia**{{#if has.condition.CL-21}} *(applies to us)*{{/if}}: unfamiliar stops are where people wander off. One named adult stays with them
   every minute out of the vehicle (→ 02-21).
-- **Late pregnancy or a newborn**: know where the hospitals with a maternity unit are along the
+- **Late pregnancy or a newborn**{{#if has.pregnant}} *(applies to us)*{{else}}{{#if has.infant}} *(applies to us)*{{/if}}{{/if}}: know where the hospitals with a maternity unit are along the
   route (→ 02-12, → 02-13).
 
 ### The cabin med load-out (this list is the packing list)
@@ -219,8 +223,9 @@ loading step (→ 01-06).
 
 ### Getting medical help from the road
 
-- **911 first.** Any mobile phone with signal can call 911, even without a working plan (FCC, 911
-  and E911 Services).
+- **911 first.** Mobile carriers must pass on every 911 call made on their network, whether or
+  not the phone has a working plan (47 CFR 9.10(b), FCC 911 rules), so any mobile phone with a
+  signal can try 911.
 - **Then:** the destination's facility numbers above; the hub contact (→ 00-04); the prescriber.
 - **No signal:** the other adult's phone on a different network; then a radio call to someone who
   can phone for you (→ 15-09).{{#if has.satellite}} The satellite messenger, if it is activated and

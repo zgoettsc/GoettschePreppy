@@ -404,7 +404,7 @@ An ecoregion is an area where the land, climate, soils and plants are alike (US 
 | East Central Texas Plains | 1 | 2 |
 | Flint Hills | 0 | 2 |
 
-### Plants and trees to know (plates being added)
+### Plants and trees to know
 
 {{plates}}
 

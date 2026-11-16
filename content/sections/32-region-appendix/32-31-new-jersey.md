@@ -196,7 +196,7 @@ An ecoregion is an area where the land, climate, soils and plants are alike (US 
 | Middle Atlantic Coastal Plain | 1 | 6 |
 | Ridge and Valley | 2 | 2 |
 
-### Plants and trees to know (plates being added)
+### Plants and trees to know
 
 {{plates}}
 

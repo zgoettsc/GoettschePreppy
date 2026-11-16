@@ -12,6 +12,7 @@ derived_from: [04-17-food-safety-power-outage]
 sources:
   - foodsafety-gov-usda-hhs-food-safety-during-a-power-o-3894c1
   - foodsafety-gov-usda-hhs-cook-to-a-safe-minimum-inter-13daf3
+  - cdc-keep-food-safe-after-disaster-2025
   - cdc-carbon-monoxide-poisoning-basics-772153
   - us-fda-information-regarding-insulin-storage-and-swi-6448d3
 related: [04-01-calorie-and-stockpile-math, 04-02-building-a-pantry, 04-03-bulk-staples-storage, 04-05-canning-pressure, 04-09-winter-cold-storage, 04-14-powdered-and-canned-dairy, 01-01-phase-a-shelter-in-place, 03-02-storing-water, 07-01-cooking-on-an-open-fire, 09-01-power-priorities, 09-03-batteries-and-storage, 09-04-generators, 09-05-solar-in-winter, 09-16-outage-day-one, 12-05-common-illness-and-dehydration, 02-01-cl01-type-1-diabetes-injections, 02-04-cl04-food-allergy, 29-02-ex02-batteries-and-power-stations, 29-07-ex07-refrigerated-medicines, 29-14-ex14-reading-a-label, 30-01-the-floors, 30-15-dc14-questionable-food]
@@ -49,8 +50,9 @@ stretch the cold.
 ## Do this now: the first hour
 
 1. **Keep the fridge and freezer doors shut.** Every opening costs hours of safe storage.
-2. **A closed fridge keeps food safe for about 4 hours.**
-3. **A full freezer keeps food safe for about 48 hours; a half-full one about 24 hours.**
+2. **A closed fridge keeps food safe for up to 4 hours.**
+3. **A full freezer keeps food safe for about 48 hours; a half-full one about 24 hours,** with
+   the door kept shut.
 4. **Throw out perishable food** (meat, poultry, fish, eggs, milk, leftovers) that has been
    **above 40 °F for 2 hours or more.**
 5. **Move insulin and other refrigerated medicines to their own managed cold,** with its own
@@ -59,13 +61,14 @@ stretch the cold.
 6. **In cold weather, use the outdoors, but measure it** (→ 04-09).
 7. **Put a thermometer in the fridge and the freezer** if they are not already there.
 
-(All times and temperatures: FoodSafety.gov, Food Safety During a Power Outage.)
+(All times and temperatures: FoodSafety.gov, Food Safety During a Power Outage; CDC gives the
+same 4, 48 and 24 hours in Keep Food Safe After a Disaster or Emergency.)
 
 ## The clock
 
 | Appliance | Safe holding time, door kept shut |
 |---|---|
-| **Refrigerator** | **About 4 hours** |
+| **Refrigerator** | **Up to 4 hours;** after that, perishables (meat, poultry, fish, eggs, leftovers) are thrown out |
 | **Freezer, full** | **About 48 hours** |
 | **Freezer, half full** | **About 24 hours** |
 
@@ -126,7 +129,9 @@ energy (→ 09-01).
 2. **Raw meat second:** the biggest loss and the best to convert. Cook it or pressure-can it
    (→ 04-05) while it is still at 40 °F or below.
 3. **Cooked food and leftovers:** eat these in the first day's big meals.
-4. **Bread, fruit and vegetables last:** usually safe after thawing; only quality falls.
+4. **Bread and frozen fruit last:** FoodSafety.gov lets these be kept or refrozen even after
+   2 hours above 40 °F, unless mouldy, slimy or yeasty-smelling. **Frozen vegetables are
+   thrown out after 6 hours above 40 °F.**
 
 **Keep a freezer inventory card.** Tape a card to the freezer lid and update it whenever the
 contents change: what is inside, where (top or bottom), and which items are allergy-safe or
@@ -137,13 +142,14 @@ answers "is it worth running the generator?" with a list instead of a guess.
 
 ## Making the cold last
 
-- **Dry ice:** about **50 lb keeps a full 18-cubic-foot freezer cold for about 2 days**
-  (FoodSafety.gov). Handle it with gloves; **never in a closed space with people** (it gives off
-  carbon dioxide, which pushes out the air).
-- **Block ice** lasts far longer than cubes.
+- **Dry ice or block ice:** CDC advises buying it to keep food cold if the power could be out for
+  a long time (CDC, Keep Food Safe After a Disaster or Emergency). Handle dry ice with gloves,
+  never bare hands, and **never in a closed space with people** (it turns to carbon dioxide gas,
+  which pushes out the air).
+- **Block ice** lasts longer than cubes.
 - **Fill empty freezer space** with jugs of water. A full freezer stays cold much longer, and the
   frozen jugs become drinking water later (→ 03-02).
-- **Blankets over the freezer** (not covering any vents) buy hours.
+- **Blankets over the freezer** (not covering any vents) help hold the cold.
 - **In cold weather, the outdoors is a freezer,** with the cautions on → 04-09.
 
 ## What to keep and what to throw out
@@ -153,11 +159,19 @@ answers "is it worth running the generator?" with a list instead of a guess.
 | Meat, poultry, fish, eggs | **Throw out** |
 | Leftovers, casseroles, cooked dishes | **Throw out** |
 | Soft cheeses, milk, cream, yogurt, reconstituted powdered milk | **Throw out** |
-| Hard cheeses (cheddar, parmesan) | Often keep; cut off any mould |
-| Butter, margarine | Usually keep |
-| Opened mayonnaise and dressings | **Throw out** |
-| Fresh fruit and vegetables | Usually keep unless slimy or mouldy |
+| Hard cheeses (cheddar, Swiss, parmesan), processed cheese | Keep |
+| Shredded and low-fat cheeses | **Throw out** |
+| Butter, margarine | Keep |
+| Opened creamy dressings | **Throw out** |
+| Opened mayonnaise, tartar sauce, horseradish | **Throw out** if above 50 °F for 8 hours or more |
+| Opened vinegar-based dressings, peanut butter, jelly, mustard, ketchup, pickles | Keep |
+| Fresh fruit and vegetables, **uncut** | Keep |
+| Fresh fruit and vegetables, **cut**; cooked vegetables, cooked pasta, rice and potatoes | **Throw out** |
+| Bread, rolls, cakes without custard fillings | Keep |
 | Unopened shelf-stable items | Keep |
+
+(FoodSafety.gov's full chart lists more foods. In the Large and Everything downloads it is bound
+in this binder: the "Sources for this page" list below links to it.)
 
 **Thawed food that still has ice crystals and is at 40 °F or below** can generally be refrozen,
 with some loss of quality (FoodSafety.gov). Fully thawed and warm is thrown out.

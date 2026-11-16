@@ -2,7 +2,7 @@
 id: 00-06-first-60-minutes
 section: 00-front-matter
 title: "The first 60 minutes"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -14,9 +14,10 @@ sources:
   - american-red-cross-power-outage-safety-6d07a8
   - foodsafety-gov-usda-hhs-food-safety-during-a-power-o-3894c1
   - us-fda-information-regarding-insulin-storage-and-swi-6448d3
-  - noaa-national-weather-service-tornado-safety-ba75e0
+  - noaa-national-weather-service-tornadoes-during-the-e-a1a3ad
   - cdc-how-to-create-and-store-an-emergency-water-suppl-f0c412
-  - us-consumer-product-safety-commission-cpsc-what-to-k-3390a4
+  - fema-477-food-and-water-in-an-emergency
+  - ready-gov-winter-weather-r9
 related: [00-02-emergency-quick-reference, 25-08-quick-reference-cards, 01-01-phase-a-shelter-in-place, 01-02-go-no-go-decision, 08-02-carbon-monoxide-safety, 08-01-heating-one-room, 03-02-storing-water, 22-03-go-bags-and-kits, 09-16-outage-day-one, 09-06-charging-medical-devices, 12-21-evaporative-cooling-pouches]
 cards: [DC-01, DC-02, DC-20, DC-25]
 explainers: [EX-03, EX-07, EX-02]
@@ -28,7 +29,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Backfeed and tourniquet floors word for word; toilet-tank water per FEMA 477; generator 20 ft to CDC; winter travel to Ready.gov; refrigerated_meds list." }
 ---
 
 # The first 60 minutes
@@ -42,12 +43,12 @@ minutes.
 > - **Never run a generator, charcoal, or any engine indoors, in a garage, or near an open
 >   window.** Carbon monoxide kills in minutes with no warning; alarms fail; there is no
 >   mitigation that works every time.
-> - **Never connect a generator to house wiring without a transfer switch, interlock, or a
->   cord-and-plug conversion with the main breaker locked off. Never backfeed through an
->   outlet.** It electrocutes line workers and neighbours and starts fires.
-> - **Never loosen a tourniquet once placed while help can still come; mark the time.**
->   Re-bleeding and clot release kill. If no help will ever come, the conversion decision is
->   DC-25 (→ 30-26).
+> - **Never connect a generator to house wiring except through a transfer switch, or an
+>   interlock kit with the main breaker off. Never backfeed through an outlet with a
+>   double-male ("suicide") cord.** It electrocutes line workers and neighbours and starts fires.
+> - **Never loosen a tourniquet once placed while help can still come; mark the time. If no
+>   help will ever come, the conversion decision is DC-25 (→ 30-26).** Re-bleeding and clot
+>   release kill. **Our choice:** {{choice DC-25}}
 > - **Fuel is never stored or transferred near an open flame or a running appliance.** Vapour
 >   ignites.
 > - **A frozen-then-thawed insulin vial or pen is discarded.** It loses strength with no way to
@@ -75,7 +76,8 @@ minutes.
 - [ ] **Find the medical kit** (→ 22-06). Put it where everyone knows, near the exit.
 {{#if has.epinephrine}}- [ ] **Epinephrine:** confirm you have it, it is in date, and you can reach it (→ 02-03).{{/if}}
 - [ ] **Refrigerated medicine: is it at a safe temperature right now?** (→ 29-07)
-{{#each meds as x}}  - {{x.member}}: {{x.name}} {{x.strength}}, refrigerated: {{x.refrigerated}}
+{{#each refrigerated_meds as x}}  - {{x.member}}: {{x.name}} {{x.strength}}
+{{else}}  - No refrigerated medicine is entered. Check anyway: a new prescription may need it.
 {{/each}}  - **Power is off:** keep the fridge shut. A closed fridge stays cold for about 4 hours
     (FoodSafety.gov, Food Safety During a Power Outage). If the outage looks long, move the
     medicine into a powered cooler or a cooling pouch before then (→ 09-16, → 12-21).
@@ -100,8 +102,11 @@ minutes.
       back.{{#if has.well}} **A well pump stops when the power stops**: what is in the pipes and
       pressure tank is all you get (→ 03-10).{{/if}}
 - [ ] **Know the reserves:** {{#if has.water_heater_tank}}the water heater (about
-      {{ dwelling.water_heater_gallons }} gallons; know the drain valve), {{/if}}the pipes, the
-      toilet tanks (not the bowls).
+      {{ dwelling.water_heater_gallons }} gallons; know the drain valve), {{/if}}the water in the
+      pipes, and ice in the freezer (FEMA, Food and Water in an Emergency). Toilet **tanks**
+      (never the bowls) are the last reserve: FEMA says not to drink tank water, so keep it for
+      flushing and washing, or disinfect it first if nothing else is left, and never if a
+      cleaning tablet or dye is in it (→ 03-01, → 03-04).
 - [ ] **Boil advisory or possible contamination?** Treat everything (→ 03-04).
 - [ ] **Our numbers** (→ 03-01): drinking and minimal hygiene floor
       **{{ derived.water.floor_gal_day }} gallons a day** for this household; planning figure
@@ -141,8 +146,8 @@ minutes.
       5. everything else (→ 09-01).{{#if has.power_station}} Our power stations hold about
       {{ gear.station_wh_total }} watt-hours in total, very roughly {{ derived.station_fridge_days }}
       days of a full-size fridge (an estimate; → 09-03).{{/if}}{{#if has.generator}} The
-      generator runs **outside only**, far from windows and doors (CPSC, Portable Generator
-      Safety; → 09-04).{{/if}}
+      generator runs **outside only**, more than 20 feet from any window, door or vent (CDC,
+      Carbon Monoxide Poisoning: Basics; → 09-04).{{/if}}
 - [ ] **Secure:** doors locked{{#if has.garage}}, garage down{{/if}}{{#if has.vehicle}}, vehicles locked. Fuel level in each vehicle? (→ 22-05){{/if}}
 {{#if has.pets}}- [ ] **Pets:** contained, fed, watered, carriers where you can reach them (→ 20-09).{{/if}}
 
@@ -152,8 +157,8 @@ minutes.
   - Is the house safe? Is there water? Can we stay warm (or cool)?
   - Are the medicines and medical supplies enough for how long this looks?
   - Is it safe to travel: weather, roads, daylight, everyone's condition?
-  - **In a winter storm, leaving is usually the more dangerous option** (American Red Cross,
-    Winter Storm Safety).
+  - **In a winter storm, stay off the roads if at all possible** (Ready.gov, Winter Weather).
+    Leaving into the storm is usually the more dangerous option.
 - [ ] **If staying:** Phase A (→ 01-01). Assign roles (→ 00-07). Start the daily log (→ 25-05).
 - [ ] **If leaving:** → 22-03 (bags), → 22-05 (vehicle), → 01-03 (movement), → 01-07 (medical
       needs on the road). Medicine rides in the cabin with a person. Go early rather than

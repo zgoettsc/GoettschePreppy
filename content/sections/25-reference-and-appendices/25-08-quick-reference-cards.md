@@ -2,7 +2,7 @@
 id: 25-08-quick-reference-cards
 section: 25-reference-and-appendices
 title: "Quick-reference cards"
-version: 2
+version: 3
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -16,6 +16,8 @@ sources:
   - cdc-low-blood-sugar-hypoglycemia
   - us-fda-information-regarding-insulin-storage-and-swi-6448d3
   - us-epa-emergency-disinfection-of-drinking-water-6aa91f
+  - fema-477-food-and-water-in-an-emergency
+  - cdc-how-to-make-water-safe-in-an-emergency-5d78b5
   - cdc-how-to-create-and-store-an-emergency-water-suppl-f0c412
   - cdc-carbon-monoxide-poisoning-basics-772153
   - american-college-of-surgeons-stop-the-bleed-stop-the-8d1b5b
@@ -39,7 +41,7 @@ sources:
   - american-academy-of-pediatrics-aap-allergy-and-anaph-3e6f49
   - cdc-treatment-of-low-blood-sugar-r7
   - usuhs-ncdmph-stop-the-bleed-apply-a-tourniquet-r7
-  - noaa-national-weather-service-during-a-winter-storm-r7
+  - nws-winter-storm-during
   - medlineplus-us-national-library-of-medicine-nih-abdo-687213
   - american-heart-association-2020-aha-guidelines-pedia-c1bb66
   - 988-suicide-and-crisis-lifeline-samhsa-988-suicide-a-5f45b0
@@ -55,7 +57,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Floors checked word for word against 30-01/docs 05; anaphylaxis card re-sourced to AAP plan; tourniquet, hypo, boil, winter-vehicle and lightning rows corrected and sourced." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Floors checked word for word against 30-01/docs 05; anaphylaxis card re-sourced to AAP plan; tourniquet, hypo, boil, winter-vehicle and lightning rows corrected and sourced. Wave 2 (R18): tourniquet floor now verbatim from 30-01 (both sentences); toilet tank last reserve, disinfect first (FEMA 477); boil line EPA 5,000 / CDC 6,500 as 03-04; NWS winter key merged to nws-winter-storm-during." }
 ---
 
 # Quick-reference cards
@@ -142,10 +144,10 @@ Epinephrine is kept: ______________________
 | **This household, plan** | **{{ derived.water.plan_gal_day }} gal a day**; two weeks = {{ derived.water.two_weeks_gal }} gal |
 | **Days of water** | Stored gallons ÷ {{ derived.water.plan_gal_day }} |
 | **1. Settle** | Let cloudy water settle, then pour it through cloth or a coffee filter |
-| **2. Disinfect** | **Boil: a rolling boil for 1 minute** (3 minutes above 5,000 ft) (EPA, Emergency Disinfection of Drinking Water), **or** chemicals: **amounts are on → 03-04, not here**, because bleach strength varies by product and age |
+| **2. Disinfect** | **Boil: a rolling boil for 1 minute** (3 minutes above about 5,000 ft: EPA's line; CDC's is 6,500 ft, use the lower) (EPA, Emergency Disinfection of Drinking Water), **or** chemicals: **amounts are on → 03-04, not here**, because bleach strength varies by product and age |
 | **3. Store** | Covered, cool, dark, labelled with the date |
 | **Pool or salt water** | Filtering and boiling **do not remove salt or pool chemicals**. Distillation only (→ 03-03) |
-| **Reserves in the house** | Water heater {{ dwelling.water_heater_gallons }} gal · pipes · toilet tanks (not bowls) |
+| **Reserves in the house** | Water heater {{ dwelling.water_heater_gallons }} gal · pipes · ice (FEMA). **Toilet tanks are the last reserve:** never the bowl, never with a cleaning tablet in it; FEMA says not to drink tank water, so disinfect it first (→ 03-04) or use it for flushing |
 
 ## Card 5: Carbon monoxide
 
@@ -165,7 +167,7 @@ Epinephrine is kept: ______________________
 |---|---|
 | **1. Pressure** | Hard, direct, both hands, and **hold** |
 | **2. Limb bleeding that will not stop** | **Tourniquet** 2 to 3 inches above the wound, not over a joint. Tighten until the bleeding **stops**. It will hurt. If it still bleeds, a second one above the first (Stop the Bleed, USUHS) |
-| **3. The floor** | **Never loosen a tourniquet once placed while help can still come; mark the time.** Write it on the strap or the skin, and say it aloud. If no help will ever come, the conversion decision is DC-25: {{choice DC-25}} → 30-26 |
+| **3. The floor** | **Never loosen a tourniquet once placed while help can still come; mark the time. If no help will ever come, the conversion decision is DC-25 (→ 30-26).** Write the time on the strap or the skin, and say it aloud. {{choice DC-25}} |
 | **4. Body or groin wound** | **Pack** the wound with gauze and press hard |
 | **5. Keep them warm** | Cold makes bleeding worse |
 | **6. Get help** | → 12-02 |

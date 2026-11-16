@@ -2,7 +2,7 @@
 id: 06-03-firewood-basics
 section: 06-fire-and-fuel
 title: "Firewood: species, cords, seasoning, splitting"
-version: 2
+version: 3
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -35,7 +35,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Species table realigned to data/plants/species.json heat classes and MU G5450 Table 2 (pines medium, white pine low; apple removed); unsupported pine 2,700 lb and over-50-percent water corrected; face cord per MU; 15 ft splitting distance removed." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Species table realigned to data/plants/species.json heat classes and MU G5450 Table 2 (pines medium, white pine low; apple removed); unsupported pine 2,700 lb and over-50-percent water corrected; face cord per MU; 15 ft splitting distance removed. Wave 2 (R18): a plates tag added so the home firewood trees render (region-plates fix); unsupported \"rank for each\" claim removed." }
 ---
 
 # Firewood: species, cords, seasoning, splitting
@@ -113,10 +113,13 @@ heat and banking** (→ 06-02).
 **Elm is common and famously hard to split.** Use a maul and wedges, or leave it in rounds for
 long overnight burns.
 
-**Your region's trees.** The region pages in Section 32 show the firewood trees of each part of
-the country, with pictures of bark, leaf and twig and a burn-quality rank for each (→ 32-00).
-Your home ecoregion is **{{ region.home.ecoregion }}**. **Learn the bark**: in winter, and on a
-log already on the ground, bark and grain are all you have to go on.
+**Your region's trees.** Your home ecoregion is **{{ region.home.ecoregion }}**. The firewood
+trees recorded there are listed below; the high-heat ones come first, with photographs. Each
+state's page in Section 32 lists the trees of every ecoregion in that state (→ 32-00). **Learn
+the bark**: in winter, and on a log already on the ground, bark and grain are all you have to go
+on.
+
+{{plates}}
 
 ## Seasoning properly
 

@@ -2,7 +2,7 @@
 id: 08-09-portable-propane-heaters
 section: 08-heating-and-cold-weather-shelter
 title: "Portable propane heaters (Buddy family): setup, safe use and troubleshooting"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: gear
 danger_level: critical
@@ -12,7 +12,10 @@ derived_from: [08-09-mr-heater-buddy]
 sources:
   - enerco-group-mr-heater-manufacturer-portable-buddy-r-759ce5
   - enerco-group-mr-heater-manufacturer-mh9bx-buddy-powe-d748af
-  - nfpa-nfpa-58-liquefied-petroleum-gas-code-storage-of-13af35
+  - minnesota-sfm-lp-gas-inside-buildings-r3
+  - matheson-propane-physical-properties
+  - nist-lpg-20-pound-cylinders-2021
+  - cpsc-carbon-monoxide-questions-and-answers-783766
   - ysn-flame-king-manufacturer-training-program-1a-fill-a69318
   - flame-king-manufacturer-1lb-refillable-lp-cylinder-1-4bb08a
   - cdc-carbon-monoxide-poisoning-basics-772153
@@ -52,7 +55,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "All MH9BX manual figures re-read (4,000/9,000 BTU/h, 9 sq in high and low, 3-6 h / 48-110 h, 7,000 ft, 0 F, clearances); 170 cu ft and 2.1 % LFL added (Matheson, NIST, as 28-04); manual's 1-lb emergency-indoor line stated; NFPA 58 via MN SFM and YSN; refill fill limit now the training's bleed-vent method; ODS mechanism to manual wording." }
 ---
 
 # Portable propane heaters (Buddy family): setup, safe use and troubleshooting
@@ -99,9 +102,10 @@ The manual certifies the heater to **ANSI Z21.103, unvented portable gas camp he
 and outdoor use,** and calls it a heater for **recreational and emergency indoor use**. Check the
 data plate on yours for the certification mark (→ 29-14). Two built-in protections earn that:
 
-- **Oxygen depletion sensor (ODS).** The pilot flame is set so that when the room's oxygen falls,
-  the flame lifts off its sensor and the gas valve closes. **An ODS shutoff means the room ran short
-  of air. It is a warning, not a nuisance.**
+- **Oxygen depletion sensor (ODS).** A safety system built into the pilot that turns the heater
+  off when not enough fresh air is available. The manual says: if it shuts off, do not relight
+  until you provide fresh air; if it keeps shutting off, have it serviced. **An ODS shutoff means
+  the room ran short of air. It is a warning, not a nuisance.**
 - **Tip-over switch.** Shuts the heater off if it tips or is knocked hard.
 
 **Neither one measures CO.** A dirty burner, a blocked pilot, or a knob left between settings makes
@@ -123,7 +127,8 @@ ventilation the heater may give off excessive carbon monoxide. The alarm is your
 | Safety devices | ODS and tip-over switch |
 | Altitude | Weak burning and **possible shutoff above 7,000 ft** |
 | Lowest room temperature on the spec plate | **0 °F** |
-| Larger cylinder | Up to 20 lb, **only when the cylinder is outdoors**, on the maker's hose |
+| Emergency indoor heating | On a disposable 1-lb cylinder |
+| Larger cylinder | A remote refillable cylinder of up to 20 lb, **only when the cylinder is outdoors**, on the maker's hose (the manual words this for recreational enclosures such as cabins, tents and trailers) |
 | Cylinders indoors | "Never bring a refillable propane cylinder indoors"; cylinders not connected for use are stored outdoors, not in a building or garage |
 
 Source: Enerco/Mr. Heater, Portable Buddy owner's manual. Larger "Big Buddy" class heaters burn more
@@ -143,7 +148,9 @@ fuel per hour and smaller ones less; read yours (→ 28-04).
 {{/if}}
 ## Heat while people sleep
 
-The manual says **never operate the heater while sleeping**. Running it overnight keeps the room
+The manual says **never operate the heater while sleeping**, and CPSC says never run an unvented
+fuel-burning appliance in any room where people are sleeping (CPSC, Carbon Monoxide Questions and
+Answers). Running it overnight keeps the room
 warm but leaves CO and fire with no one awake to catch them; turning it off means a cold night,
 which matters most for babies and frail elders. The household decides on the card:
 {{choice DC-01}} (→ 30-02). If the household's answer allows overnight use, on this class "lowest
@@ -222,18 +229,29 @@ it and retry (Enerco/Mr. Heater, Buddy power fan installation instructions).
 
 **Why a 20-lb tank lives outdoors:**
 
-1. **Size.** A 20-lb grill tank holds about twenty times the propane of a 1-lb cylinder. A leak
-   indoors is not a whiff; there is enough gas to make the air of a whole room explosive.
+1. **Size.** A full 20-lb grill tank holds about twenty times the propane of a 1-lb cylinder; most
+   are sold filled to 15 lb (NIST, LPG 20 Pound Cylinders). One pound of propane makes about
+   8.6 cubic feet of gas, so a full 20-lb tank holds about **170 cubic feet** of gas (a 15-lb fill
+   about 130). Propane burns once it makes up **2.1 %** of the air (Matheson, propane data sheet).
+   At 2.1 %, 170 cubic feet is enough to make about 8,000 cubic feet of air able to burn: more than
+   a whole room (→ 28-04). A leak indoors is not a whiff.
 2. **It sinks and pools.** Propane is heavier than air (manual). It flows along floors, down stairs
    and into **basements**, below your nose, toward the furnace and water-heater flames.
 3. **Warmth makes it vent.** A cold tank brought into a warm house builds pressure, and its relief
-   valve can open and release gas indoors, by design.
+   valve is built to open and release gas when the pressure is too high (YSN/Flame King, Training
+   Program 1A), indoors as well as out.
 4. **The rule says so.** The manual allows a cylinder of up to 20 lb **only when the cylinder is
    outdoors**, and says **never bring a refillable propane cylinder indoors**. The national
-   propane code limits cylinders kept inside a home, attached garages included, to the 1-lb class
-   (NFPA 58).
+   propane code (NFPA 58) limits cylinders kept or used inside a home, attached garages included,
+   to the 1-lb size (Minnesota State Fire Marshal, LP Gas Inside Buildings), and a propane training
+   course written to that code allows at most two 1-lb cylinders stored in a home (YSN/Flame King,
+   Training Program 1A).
 
-**The normal method:**
+**The hose method.** The manual's own line for emergency heating in a home names the 1-lb
+cylinder; it allows the outdoor tank and hose for recreational enclosures. Many households run the
+hose into the warm room anyway; the decision card treats the cylinder-outside, hose-through-a-window
+route as one of its options and lists what makes it safer: {{choice DC-02}} (→ 30-03). If you use
+it:
 
 - **Tank outdoors,** upright, on a board off snow and ice, out of the wind if possible, valve closed
   until you are ready to light.
@@ -279,10 +297,14 @@ Training Program 1A; Flame King, 1-lb refillable cylinder product information):
   so liquid flows, and **never leave it inverted longer than 10 minutes.**
 - **Never put a refillable 1-lb cylinder in a fridge or freezer,** and never use one that has been
   in one.
-- **Fill limit:** the rated content is **16.4 oz (about 1 lb) of propane**, which leaves room for
-  the liquid to expand. **Full weight is the stamped TW plus 1 lb, never more.** Example from the
-  training sheet: TW 1.5 lb + 1 lb = 2.5 lb full. Weigh every filled cylinder on a kitchen scale.
-  Cylinders with a bleed valve show **white fog at the bleed vent when 80% full: stop at once.**
+- **Fill limit: 80 percent liquid**, which leaves a 20 percent vapour space for the liquid to
+  expand. The training's method is the bleed vent: open the fixed liquid level gauge, and **when
+  white fog (liquid propane) comes out of the bleed vent, stop at once** and close it (YSN/Flame
+  King, Training Program 1A).
+- **Weight check:** the cylinder's rated content is 16.4 oz, about 1 lb (Flame King). So a full
+  cylinder should weigh no more than its stamped TW plus about 1 lb: for the training's example
+  cylinder, TW 1.5 lb, about 2.5 lb. Weigh every filled cylinder on a kitchen scale; heavier means
+  overfilled.
 - **Overfilled:** bleed it down outdoors until the weight is right. **Leaking:** set it outdoors away
   from everything; do not use it.
 - **Soapy-water test** the filled cylinder's valve. **Retire any cylinder that hisses or whose valve
@@ -305,7 +327,7 @@ Training Program 1A; Flame King, 1-lb refillable cylinder product information):
 | | Oily contamination from a hose without a filter | New control valve and regulator; this is why the filter is on |
 | **Weak flame, short runtime in deep cold** | Cold tank, low pressure | Use a 20-lb tank; shelter it from wind; never heat it |
 | **Flames on the tile, yellow pilot, flame rolling over the top** | Dust, lint or spider webs inside | Off; cool; clean per manual. Persistent: service |
-| **Smell of gas** | Leak at a connection, hose or cylinder | **Light nothing. Put out flames. Close the tank valve. Leave, and air the space at least 5 minutes.** Soapy-water test every joint. Propane sinks: smell low. **Persistent smell: everyone out; call the gas supplier or fire department from outside** |
+| **Smell of gas** | Leak at a connection, hose or cylinder | **Light nothing. Put out flames. Close the tank valve. Leave, and let the gas clear at least 5 minutes before relighting** (manual). Soapy-water test every joint. Propane sinks: smell low. **Persistent smell: everyone out; call the gas supplier or fire department from outside** |
 | **Fan not spinning** | Takes 3 to 5 min on HI; not seated; blocked | Wait on HI; after 15 min shut down, cool, reseat |
 | **CO alarm sounds, or headache, dizziness, nausea** | CO | **Heater off, everyone out to fresh air**, → 08-02 |
 

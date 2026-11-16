@@ -110,22 +110,76 @@ export function platesHtml(keys, env) {
 // `{{plates}}` on a page whose `plates:` is empty: the plates of the region in scope (inside
 // `#each destinations as x` that destination's region, else the home region), filtered by the
 // page's subject: 05-06 deadly plants and look-alikes, 05-17 edibles, 06-03 firewood trees, any
-// other page all three. Home ecoregion lists come from data/regions/ecoregions.json.
+// other page all three. A Section 32 state page uses its own state (every ecoregion in it), not
+// the home region. Lists come from data/regions/ecoregions.json with D2's
+// data/regions/ecoregion-plants.json merged in by build-kit. "Learn these first" (D2): the
+// ecoregion's `first` keys (deaths recorded / safe starters / high-heat firewood) are shown as
+// plates; the rest of the list is printed by name with a pointer to the national plate pages
+// (32-60 to 32-62), which carry every plate. A state page for a state that is neither home nor a
+// destination prints names only, so 51 state pages do not repeat the same photographs.
 const PAGE_PLATE_KINDS = { '05-06': ['deadly'], '05-17': ['edible'], '06-03': ['firewood'] };
 const NATIONAL = { deadly: '32-60', edible: '32-61', firewood: '32-62' };
+const KIND_WORDS = { deadly: 'Deadly plants and look-alikes', edible: 'Safe starter edibles', firewood: 'Firewood trees' };
+const keyOf = x => (typeof x === 'string' ? x : x?.key);
+function ecoLists(env, names, kinds) {
+  const lists = {}, first = {};
+  let hasFirst = false;
+  for (const k of kinds) {
+    lists[k] = []; first[k] = new Set();
+    for (const n of names) {
+      const e = env.kit.ecoregions?.[n] || {};
+      for (const x of (k === 'firewood' ? e.trees?.firewood : e.plants?.[k]) || []) { const key = keyOf(x); if (key && !lists[k].includes(key)) lists[k].push(key); }
+      if (e.first) { hasFirst = true; for (const key of e.first[k] || []) first[k].add(key); }
+    }
+  }
+  return { lists, first: hasFirst ? first : null };
+}
 function regionPlates(page, scopes, env) {
-  let region = env.ctx.region?.home, where = 'your home area';
+  let region = env.ctx.region?.home, where = 'your home area', inEach = false;
   for (let i = scopes.length - 1; i > 0; i--) {
     const item = Object.values(scopes[i] || {}).find(v => v && typeof v === 'object' && v.region && typeof v.region === 'object');
-    if (item) { region = item.region; where = item.name ? `${item.name}` : 'this destination'; break; }
+    if (item) { region = item.region; where = item.name ? `${item.name}` : 'this destination'; inEach = true; break; }
   }
   const kinds = PAGE_PLATE_KINDS[page.id.slice(0, 5)] || ['deadly', 'edible', 'firewood'];
-  const keys = [];
-  for (const k of kinds) for (const x of (k === 'firewood' ? region?.trees?.firewood : region?.plants?.[k]) || []) if (x?.key && !keys.includes(x.key)) keys.push(x.key);
   const national = kinds.map(k => NATIONAL[k]).filter(pre => env.labels[pre]).map(pre => `→ ${pre}`).join(', ');
-  const eco = region?.ecoregion ? ` (${escapeValue(region.ecoregion)})` : '';
-  if (!keys.length) return `\n\n<p class="dim">The plant list for ${escapeValue(where)}${eco} is not in this build of the region data.${national ? ` Every plate of this kind is in the national appendix: ${national}.` : ''} Never identify a plant from text alone.</p>\n\n`;
-  return `\n\n<p class="dim">Plates for ${escapeValue(where)}${eco}.${national ? ` The national appendix has the rest: ${national}.` : ''}</p>` + platesHtml(keys, env);
+  const pageState = page._state || (page.tags || []).map(t => /^state-([a-z]{2})$/.exec(t)).filter(Boolean).map(m => m[1].toUpperCase())[0] || null;
+  const statePage = !inEach && page.id.startsWith('32-') && pageState;
+  let lists, first, eco = '', showPlates = true;
+  if (statePage) {
+    const st = env.kit.regions?.[pageState];
+    const names = [...new Set(Object.values(st?.counties || {}).map(c => c?.ecoregion).filter(Boolean))].sort();
+    ({ lists, first } = ecoLists(env, names, kinds));
+    where = st?.state_name || pageState;
+    const near = [env.ctx.region?.home?.state, ...(env.ctx.destinations || []).map(d => d?.region?.state)].filter(Boolean);
+    showPlates = near.includes(pageState);
+  } else {
+    lists = {};
+    for (const k of kinds) { lists[k] = []; for (const x of (k === 'firewood' ? region?.trees?.firewood : region?.plants?.[k]) || []) { const key = keyOf(x); if (key && !lists[k].includes(key)) lists[k].push(key); } }
+    first = region?.ecoregion ? ecoLists(env, [region.ecoregion], kinds).first : null;
+    eco = region?.ecoregion ? ` (${escapeValue(region.ecoregion)})` : '';
+  }
+  if (!kinds.some(k => lists[k].length)) return `\n\n<p class="dim">The plant list for ${escapeValue(where)}${eco} is not in this build of the region data.${national ? ` Every plate of this kind is in the national appendix: ${national}.` : ''} Never identify a plant from text alone.</p>\n\n`;
+  const hasPlate = key => (env.kit.plates?.[key]?.plates || []).length > 0;
+  const nameOf = key => esc(env.kit.plates?.[key]?.common || env.kit.plant_names?.[key] || key.replace(/-/g, ' '));
+  const plateKeys = [], parts = [];
+  for (const k of kinds) {
+    if (!lists[k].length) continue;
+    const isFirst = key => !first || first[k].has(key);
+    const nat = env.labels[NATIONAL[k]] ? ` (photographs: → ${NATIONAL[k]})` : '';
+    const firstPhoto = lists[k].filter(key => isFirst(key) && hasPlate(key));
+    const firstNoPhoto = lists[k].filter(key => isFirst(key) && !hasPlate(key));
+    const rest = lists[k].filter(key => !isFirst(key));
+    if (showPlates) for (const key of firstPhoto) if (!plateKeys.includes(key)) plateKeys.push(key);
+    const lead = first ? 'Learn these first' : 'In this list';
+    const lines = [];
+    if (firstPhoto.length) lines.push(`${lead}${showPlates ? ' (photographs below)' : nat}: ${firstPhoto.map(nameOf).join(', ')}.`);
+    if (firstNoPhoto.length) lines.push(`${firstPhoto.length ? (first ? 'Also learn these first' : 'Also') : lead}, with no photograph in this binder${k === 'deadly' ? ' (mushrooms have none on purpose: leave every wild mushroom alone)' : ''}: ${firstNoPhoto.map(nameOf).join(', ')}.`);
+    if (rest.length) lines.push(`Also recorded here${nat}: ${rest.map(nameOf).join(', ')}.`);
+    parts.push(`<p><strong>${KIND_WORDS[k]}.</strong> ${lines.join(' ')}</p>`);
+  }
+  const head = showPlates ? `\n\n<p class="dim">Plates for ${escapeValue(where)}${eco}.${national ? ` The national appendix has the rest: ${national}.` : ''} Lists come from county plant records, so they include plants that are rare here; never identify a plant from text alone.</p>`
+    : `\n\n<p class="dim">Plants recorded in ${escapeValue(where)} (every ecoregion in it). Their photographs are in the national appendix${national ? `: ${national}` : ''}. Lists come from county plant records, so they include plants that are rare here; never identify a plant from text alone.</p>`;
+  return head + `\n\n<div class="platelist">${parts.join('')}</div>\n\n` + (plateKeys.length ? platesHtml(plateKeys, env) : '');
 }
 
 // ai blocks: a token now, the model's text later (generate.js substitutes before Markdown).

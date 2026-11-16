@@ -41,6 +41,16 @@ for f in sorted(glob.glob(os.path.join(ROOT, 'notes/workers/*.md'))):
         else:
             i += 1
 
+
+# Specs re-checked against the current page text (R18, 2026-11-16 review): these replace the
+# requesting worker's older description, whose numbers the page no longer uses.
+SPEC = {
+    'fig-dutch-oven-coals': ('R18', 'a 12-inch camp Dutch oven baking at about 325 °F: 24 briquettes (2 × diameter), 16 on the lid and 8 underneath (two-thirds on the lid), with "add or remove 2 briquettes for about 25 °F" and "quarter-turn lid and oven every 15 min" (Missouri Department of Conservation, as on 07-04). (07-04)'),
+    'fig-haybox': ('R18', 'a lidded pot going from a full rolling boil into a cooler packed with towels; labels "full rolling boil right through the pot", "keep above 140 °F (check with a thermometer)", "dropped below 140 °F: reheat to 165 °F", "below 140 °F for more than 2 hours: throw out" (CDC, as on 07-02). (07-02)'),
+    'fig-ice-thickness': ('R18', 'the Minnesota DNR new clear-ice table as a stacked drawing (under 4 in stay off; 4 in walking and ice fishing on foot; 5-7 in snowmobile or small ATV; 7-8 in side-by-side ATV; 9-10 in small car or SUV; 11-12 in medium SUV or small truck; 13 in medium truck) with "white ice: double every figure" (as on 05-08). (05-08)'),
+}
+desc.update(SPEC)
+
 index = json.load(open(os.path.join(ROOT, 'figures/index.json')))
 
 MERGE = {

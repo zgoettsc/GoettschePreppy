@@ -486,7 +486,7 @@ An ecoregion is an area where the land, climate, soils and plants are alike (US 
 | Cross Timbers | 1 | 6 |
 | Ozark Highlands | 0 | 1 |
 
-### Plants and trees to know (plates being added)
+### Plants and trees to know
 
 {{plates}}
 

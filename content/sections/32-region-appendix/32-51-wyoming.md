@@ -226,7 +226,7 @@ An ecoregion is an area where the land, climate, soils and plants are alike (US 
 | High Plains | 3 | 5 |
 | Wasatch and Uinta Mountains | 0 | 1 |
 
-### Plants and trees to know (plates being added)
+### Plants and trees to know
 
 {{plates}}
 

@@ -98,3 +98,6 @@ Collected from worker reports; resolved in the integration pass.
 - [ ] R4: 14-10 states ATF announced (Oct 2026) non-enforcement of NFA approval/registration for suppressors after an August court ruling, confirmed only from a court filing and news reports (atf.gov 403). Re-verify against ATF directly before release; if unverifiable, reword as "federal suppressor rules changed in 2025-2026; check current law".
 - [ ] R4: "two missed check-ins = overdue" (15-03, 00-04) is the owner's own rule: decide whether it becomes a household blank on both.
 - [ ] R4 owner questions: card for a loaded firearm in a quick-access lockbox? 14-11 travel: firearms in the cabin vs federal safe-passage (18 U.S.C. 926A: unloaded, not readily accessible) — default "locked, out of reach of the seats"?
+- [x] R9: NOTICE-TO-USERS.md now distinguishes Small (no third-party documents) from Large/Everything; settings fallback size for Everything 400-900 MB; settings notice rebuilt.
+- [ ] R9: 30-20 (DC-19) cites Red Cross and NWS for "avoid winter travel"; neither archived copy says it (R16/R17 scope).
+- [ ] Re-capture landing-page archive copies (Red Cross winter, NWS tornado/flood, NFPA lithium-ion, FCC, Stop the Bleed, CPSC generator, CFPB, USA.gov, IdentityTheft.gov) before release.

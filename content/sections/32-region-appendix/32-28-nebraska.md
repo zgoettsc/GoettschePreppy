@@ -443,7 +443,7 @@ An ecoregion is an area where the land, climate, soils and plants are alike (US 
 | Northwestern Great Plains | 1 | 7 |
 | Northwestern Glaciated Plains | 1 | 5 |
 
-### Plants and trees to know (plates being added)
+### Plants and trees to know
 
 {{plates}}
 

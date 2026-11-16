@@ -248,7 +248,7 @@ An ecoregion is an area where the land, climate, soils and plants are alike (US 
 | Colorado Plateaus | 0 | 2 |
 | Madrean Archipelago | 1 | 1 |
 
-### Plants and trees to know (plates being added)
+### Plants and trees to know
 
 {{plates}}
 

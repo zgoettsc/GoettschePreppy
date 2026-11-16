@@ -2,7 +2,7 @@
 id: 24-02-drills
 section: 24-skills-to-practice-now
 title: "Family drills: fire, grab-and-go, shelter, medical, blackout"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -32,7 +32,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Ready.gov two minutes and twice-a-year drills verified live; NWS shelter and CDC 20 ft checked; floors worded as 30-01." }
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Ready.gov two minutes and twice-a-year drills verified live; NWS shelter and CDC 20 ft checked; floors worded as 30-01. Wave 2 (R18): tourniquet floor bolded whole, verbatim 30-01." }
 ---
 
 # Family drills: fire, grab-and-go, shelter, medical, blackout
@@ -190,7 +190,7 @@ These are fast-fade skills (→ 24-01). Run one each quarter.
 **4c. Bleeding.**
 - Tourniquet on a limb (a practice device), wound packing on a trainer, and **saying the time
   aloud and writing it down**. **Never loosen a tourniquet once placed while help can still
-  come; mark the time.** If no help will ever come, the conversion decision is DC-25 (→ 30-26).
+  come; mark the time. If no help will ever come, the conversion decision is DC-25 (→ 30-26).**
   (→ 12-02)
 
 **4d. Your household's own condition.**

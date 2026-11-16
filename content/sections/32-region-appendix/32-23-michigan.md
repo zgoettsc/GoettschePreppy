@@ -415,7 +415,7 @@ An ecoregion is an area where the land, climate, soils and plants are alike (US 
 | North Central Hardwood Forests | 3 | 9 |
 | Eastern Corn Belt Plains | 2 | 6 |
 
-### Plants and trees to know (plates being added)
+### Plants and trees to know
 
 {{plates}}
 
