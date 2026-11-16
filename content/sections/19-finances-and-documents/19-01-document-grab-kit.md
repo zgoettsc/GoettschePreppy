@@ -37,7 +37,7 @@ ten minutes to leave and will not come back, because of a fire, a flood, a storm
 fast evacuation (→ 17-03, → 01-03). **Documents are what people forget and most regret.** Replacing
 vital records is possible but slow (USA.gov, Replace Your Vital Documents), and much harder when the
 offices that issue them were hit too. Without them you may struggle to prove who you are, get money,
-file an insurance claim (→ 19-04), get medical care, or enrol a child in school.
+file an insurance claim (→ 19-04), get medical care, or enroll a child in school.
 
 > **CAUTION. Never write safe combinations, passwords, PINs or full account numbers into this app.**
 > Write them **by hand on paper**, and keep that paper **separately** from the grab folder (→ 19-07).
@@ -69,7 +69,7 @@ Originals or certified copies where noted; good photocopies otherwise.
 
 | Category | Documents |
 |---|---|
-| **Identity** | Birth certificates (every member), Social Security cards, passports, driver's licences or state IDs, marriage certificate, adoption or custody papers, immigration documents |
+| **Identity** | Birth certificates (every member), Social Security cards, passports, driver's licenses or state IDs, marriage certificate, adoption or custody papers, immigration documents |
 | **Medical** | Family medical summary (→ 25-09), insurance cards, prescription lists, allergy action plans, vaccination records, clinicians' contacts, and for anyone on a life-critical medicine: the medicine names and strengths, any device models and serial numbers, the prescriber, and a recent pharmacy printout (→ 01-07) |
 | **Property** | Deed or mortgage, lease, vehicle titles and registration, home inventory with photos (→ 19-04, → 22-04) |
 | **Insurance** | Policies (home or renters, auto, life, health, flood); policy numbers and agent contacts (→ 19-04) |
@@ -131,7 +131,7 @@ If documents are destroyed, they can be recovered, slowly:
 - **Birth, marriage and death records** come from the vital records office of the state or county
   that issued them (USA.gov). For {{ home.state_name }}, write the office and how to request
   here: ______________________ (→ 25-03).
-- **Social Security cards** from the Social Security Administration; **driver's licences** from the
+- **Social Security cards** from the Social Security Administration; **driver's licenses** from the
   state; **passports** from the State Department.
 - **Tax records:** the IRS has guidance on rebuilding records after a disaster, including getting
   transcripts of past returns (IRS, Reconstructing Records After a Disaster).

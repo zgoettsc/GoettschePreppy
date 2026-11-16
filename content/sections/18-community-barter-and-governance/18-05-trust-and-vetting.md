@@ -58,8 +58,8 @@ everyone" or "trust no one". Neither is a plan.
 
 - **Most people behave helpfully in disasters.** They help strangers, share and organize themselves.
 - **Panic and mass lawlessness are rare** and are often over-reported.
-- **The bigger real risks are usually** disorganization, scarcity, illness, rumours and exhaustion.
-- **Neighbours usually respond faster and better than officials** in the first hours and days
+- **The bigger real risks are usually** disorganization, scarcity, illness, rumors and exhaustion.
+- **Neighbors usually respond faster and better than officials** in the first hours and days
   (→ 18-01).
 
 **So a posture of cautious openness is both more accurate and more useful than default suspicion.**
@@ -75,8 +75,8 @@ Social Connection).
 ## Judging people: practical, not paranoid
 
 **Time is the best test there is.** Almost everything else stands in for it.
-- **Known beats unknown.** Someone your neighbours vouch for is a different matter from a stranger.
-- **Consistency over time.** Do their story and behaviour line up across several meetings?
+- **Known beats unknown.** Someone your neighbors vouch for is a different matter from a stranger.
+- **Consistency over time.** Do their story and behavior line up across several meetings?
 - **Small tests before large ones.** Trade small (→ 18-02), lend something minor, share information
   before supplies.
 - **Reciprocity.** Do they give as well as take? Only taking is information.
@@ -97,7 +97,7 @@ Decide this in advance (→ 00-07):
 - **Two adults aware:** one talks; one is present somewhere else.
 - **"We don't have anything to spare" is a complete answer.** It needs no argument or apology.
 - **You can help without revealing anything:** a cup of water, directions, information.
-- **Small, bounded help is usually possible and usually right.** It costs little, and a neighbourhood
+- **Small, bounded help is usually possible and usually right.** It costs little, and a neighborhood
   where people help each other is safer for you.
 
 ## The hard case
@@ -138,8 +138,8 @@ one reveals *what you cannot live without*.
 | Circle | Usually | Why |
 |---|---|---|
 | A household you will move in with (→ 18-04) | **Yes, fully**: before arrival where there is a "before", or in the first hour | Living together while hiding a life-support need is planning built on sand: refrigeration, supplies and the "if they are down" plan all depend on them knowing |
-| Trusted neighbours (T on the → 18-01 roster) | The fact, if useful; **never quantities or where it is kept** | They may need to help in an emergency |
-| Other neighbours | Capabilities, not vulnerabilities | They can know you are a nurse or a mechanic without knowing a member is insulin-dependent |
+| Trusted neighbors (T on the → 18-01 roster) | The fact, if useful; **never quantities or where it is kept** | They may need to help in an emergency |
+| Other neighbors | Capabilities, not vulnerabilities | They can know you are a nurse or a mechanic without knowing a member is insulin-dependent |
 | Strangers and trading contacts | **Never** | No trade or conversation is worth handing a stranger your household's pressure point |
 
 **Disclosure follows commitment, not acquaintance.** When two households truly commit to live
@@ -182,7 +182,7 @@ hard to undo.
 | A written list of real local resources | Helping by pointing costs nothing | → 25-03 |
 | Something small to give | Bounded help is often right | Water, a meal |
 
-**Time, observation and your neighbours' knowledge** substitute for every other vetting method, and
+**Time, observation and your neighbors' knowledge** substitute for every other vetting method, and
 they are free. **Distance** substitutes for confrontation in almost every case: not answering, not
 engaging and not being where a problem is are complete strategies (→ 14-01). **What you cannot
 substitute is judgment, and exhaustion, fear and hunger degrade it** (→ 21-01).
@@ -193,13 +193,13 @@ substitute is judgment, and exhaustion, fear and hunger degrade it** (→ 21-01)
   it: a household that has slid into default hostility has cut itself off from its strongest
   protection (CDC).
 - **Re-check your posture deliberately** from time to time (→ 14-01). Conditions change both ways: a
-  chaotic neighbourhood in week two may be organized by month two.
+  chaotic neighborhood in week two may be organized by month two.
 - **For most households, the biggest risks are medical and environmental, not human.** The people
   around you are far more likely to be part of the solution.
 
 ## By phase
 
-- **A, at home:** neighbours close, mostly known, mostly helpful. Build relationships, keep ordinary
+- **A, at home:** neighbors close, mostly known, mostly helpful. Build relationships, keep ordinary
   discretion, and be someone people are glad lives on their street.
 - **B, on the move:** strangers are unavoidable and cannot be judged over time (→ 01-03). Distance and
   avoidance are the main tools (→ 14-01). Help where it is cheap and safe; do not camp near roads or

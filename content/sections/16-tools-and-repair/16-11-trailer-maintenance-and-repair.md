@@ -112,7 +112,7 @@ Your choice: {{choice DC-06}}.
 {{figure fig-wheel-bearing-cutaway}}
 
 Each wheel spins on two cone-shaped steel bearings sitting in grease inside the hub (the metal
-centre the wheel bolts to). Over time the grease dries out, leaks past a worn seal, or lets water
+center the wheel bolts to). Over time the grease dries out, leaks past a worn seal, or lets water
 in. The bearing then runs metal on metal, overheats, and can weld itself to the axle stub. On a
 two-axle trailer that is a bad day; on a one-axle trailer it is the whole trip.
 
@@ -130,13 +130,13 @@ forced tight. **Learn this once beside someone who has done it before doing it a
 grease gun can push fresh grease through. If yours do: jack the wheel up and turn it slowly while
 pumping slowly, until fresh grease appears at the cap. **That is a top-up between repacks, not a
 replacement for them**: it cannot inspect the bearings, and pumping too fast can burst the rear
-seal and push grease onto brakes (etrailer.com, Trailer Bearings). No fitting means no shortcut:
+seal and push grease onto brakes (etrailer, Trailer Bearings). No fitting means no shortcut:
 repack or nothing.
 
 **The hot-hub check: every stop, every time.**
 
 ```
-Hold the back of your hand NEAR (not on) the centre of each hub.
+Hold the back of your hand NEAR (not on) the center of each hub.
   Warm, like metal left in the sun  -> normal.
   Too hot to hold your hand near    -> STOP. Do not drive on.
 A hub you cannot touch is a bearing failing. Driving on means a
@@ -261,7 +261,7 @@ metal proves a bad ground in the field. A bottle jack or floor jack replaces a s
 
 ## By phase
 
-- **A, at home:** service the bearings, fill in the record, practise the walkaround and backing up
+- **A, at home:** service the bearings, fill in the record, practice the walkaround and backing up
   in an empty lot (→ 22-05). Load the trailer as → 01-03 says.
 - **B, on the move:** walkaround before leaving; **hot-hub check at every stop**; re-tighten lug
   nuts at the first stop. Winter towing multiplies every rule on → 17-01 and calls for much lower

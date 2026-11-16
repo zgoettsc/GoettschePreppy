@@ -32,6 +32,9 @@ related:
   - 30-05-dc04-expired-medication
   - 30-16-dc15-someone-elses-prescription
   - 30-23-dc22-potassium-iodide-over-40
+  - 30-01-the-floors
+  - 29-14-ex14-reading-a-label
+  - 27-03-protecting-electronics
 cards: [DC-04, DC-15, DC-22]
 explainers: [EX-14]
 promote_when: [has.condition.CL-14]
@@ -209,6 +212,9 @@ fever from a cold body; keep a spare battery (→ 27-03).
 - **Potassium iodide over 40:** {{choice DC-22}} (→ 30-23). FDA's potassium iodide guidance
   says people with some thyroid conditions need extra caution with it (FDA, Frequently Asked
   Questions on Potassium Iodide). Ask the prescriber now and write the answer in part 7.
+
+The five questions to settle for every condition, and the whole library, are on → 12-11. The
+household's full medicine stockpile is on → 12-07.
 
 ## 12. My meds
 

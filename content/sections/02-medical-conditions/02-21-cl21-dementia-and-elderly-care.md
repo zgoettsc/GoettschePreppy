@@ -47,6 +47,10 @@ related:
   - 30-17-dc16-antibiotics-without-a-prescription
   - 30-20-dc19-when-to-leave
   - 30-21-dc20-open-flame-indoors
+  - 25-05-blank-logs
+  - 02-10-cl10-blood-thinners
+  - 09-06-charging-medical-devices
+  - 02-08-cl08-copd-and-oxygen
 cards: [DC-04, DC-15, DC-16, DC-19, DC-20]
 explainers: [EX-14]
 promote_when: [has.condition.CL-21, has.elder]
@@ -250,6 +254,9 @@ Battery lights, hearing aids and any powered bed or lift chair need charging or 
 **The caregiver.** Caring for a person with dementia through a long emergency is one of the
 hardest jobs in this binder. Share it: two people on a rota, sleep protected, a break every day
 (→ 21-02, → 21-07). An exhausted caregiver makes the mistakes that hurt both people.
+
+The five questions to settle for every condition, and the whole library, are on → 12-11. The
+household's full medicine stockpile is on → 12-07.
 
 ## 12. My meds
 

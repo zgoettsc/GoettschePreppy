@@ -72,7 +72,7 @@ an awl. This is the stitch that makes heavy gear repairable.
 
 1. Punch a line of holes with the awl, evenly spaced.
 2. Thread a needle onto each end of one length of waxed thread.
-3. Pass one needle through the first hole and pull until the thread is centred.
+3. Pass one needle through the first hole and pull until the thread is centered.
 4. At each next hole, push the left needle through from the left, then the right needle through
    the same hole from the right. Pull both tight.
 5. At the end, go back two or three holes the same way to lock it, and trim.
@@ -186,7 +186,7 @@ Once you can sew, the material in every house becomes goods:
   item yields fasteners. The parts bin is a real supply line.
 - **Substitute:** paracord strands, floss, cloth strips, wire (→ 16-07) for some joins, glue
   (→ 16-05) for some repairs. Nothing substitutes for a needle.
-- **The long view:** if this lasts years, the chain continues into spinning and weaving, and fibre
+- **The long view:** if this lasts years, the chain continues into spinning and weaving, and fiber
   animals (→ 11-05). It starts with a backstitch, which starts with one evening now.
 
 ## By phase

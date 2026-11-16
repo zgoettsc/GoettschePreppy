@@ -74,3 +74,14 @@ Collected from worker reports; resolved in the integration pass.
 - [ ] C12b: KI table wording ("≥" vs ">" in the threshold column; adolescent footnote) to confirm against FDA's published table in the source-trace pass.
 - [x] C12b: Dyna-Glo manual citation kept (widely sold consumer product; same decision as C07).
 - [ ] C12b: requested a medical devices list and per-member age in years (age_months exists; add age_years in integration).
+- [x] C12a: validator now accepts nested loops and #if on loop fields (engine already supported them).
+- [ ] C12a: Ready.gov keys marked public-domain in additions vs blocked in the household index; reconcile at merge (licence PD; capture may be blocked).
+- [x] L1/L2: per-condition medicine lists meds_for.CL-NN added (from medications[].for_condition). Integration: switch module part 12 tables to meds_for with fallback to the full table; align L1 columns (where_kept, days_on_hand, expiry) with L2.
+- [x] C10 fields implemented in context.js (ham_callsign, firearms platforms, has.suppressor, nearby_same); generate tests pass.
+- [x] C11: FM 5-125 reclassed public-domain. Unsourced: linseed-rag fire warning, chainsaw-injury statistic, NFIP 30-day wait; source or soften.
+- [ ] C11 owner questions: never-trade worksheet with suggested candidates; 18-04 "no force" framing vs DC-12; gas relight sequence as a card?
+- [x] L5: Buddy MH9BX and Dyna-Glo WK11C8 rows kept (widely sold, consistent with 08-09/08-10).
+- [ ] L5: propane 170 cu ft now sourced (Matheson; NIST ~15 lb fill ~130 cu ft); add to 08-09.
+- [ ] L5: three station rows from EU/UK 230 V manuals; replace with US manuals when reachable.
+- [ ] L5: requested lists radios, filters, alarms and extra station/panel/heater fields.
+- [ ] Large size estimate now 1,062 MB (556 sources x 1.5 MB assumed). Measure real fetched sizes; G11 told the owner 200-400 MB. Options: render PDFs at lower resolution, cap per-document pages, or split Large into Large-core (medical, water, fire, power sources) and Everything.

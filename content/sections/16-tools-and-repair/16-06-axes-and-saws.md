@@ -51,13 +51,13 @@ bone.
 > - **Felling a standing tree kills experienced people.** Learn it from a person, not a page. A
 >   leaning, dead or wind-thrown tree is more dangerous, not less.
 > - **Never refuel a hot saw, and never pour fuel near a flame or running engine.** Fuel is never
->   stored or transferred near an open flame or a running appliance: the vapour ignites (floor,
+>   stored or transferred near an open flame or a running appliance: the vapor ignites (floor,
 >   → 30-01).
 
 ## Do this now
 
 1. **Buy chainsaw chaps, a helmet with face shield and ear muffs, and cut-resistant gloves before
-   you next cut anything.** Chaps are made of long fibres that pull out and jam the chain (University
+   you next cut anything.** Chaps are made of long fibers that pull out and jam the chain (University
    of Missouri Extension). They cost little next to a leg.
 2. **Hang a bleeding-control kit with a tourniquet at the woodpile** (→ 12-08), and learn to use
    it one-handed on yourself (→ 12-02).
@@ -141,7 +141,7 @@ you.
 - **Test the chain brake before every session.** With the engine idling, push the front hand guard
   forward. The chain must stop instantly. If it does not, the saw does not run today.
 - **Chain brake on whenever you walk with the saw.**
-- **Cut chaps are finished.** Any cut that reaches the fibres means retire them; patched chaps do
+- **Cut chaps are finished.** Any cut that reaches the fibers means retire them; patched chaps do
   not jam a chain. Replace a cracked helmet too.
 - **Let the saw cool before refuelling** (→ 06-06, → 06-07).
 - **Do not cut alone if you can avoid it.** With no ambulance coming, cutting alone is a much bigger
@@ -218,7 +218,7 @@ lines.
 - **Handles break.** Stock spares and learn to re-hang a head (→ 16-08).
 - **Count it:** blades per cord of wood and files per season. Put both on → 23-02.
 - **Hand tools cost calories.** The axe and crosscut saw do everything the chainsaw does, slower
-  and with far more effort, which matters when food is short (→ 04-18). Budget labour as well as
+  and with far more effort, which matters when food is short (→ 04-18). Budget labor as well as
   tools.
 - **The habits outlast the tools.** A person who splits safely, sharpens well and knows when to
   stop still has all their limbs in year three (→ 12-09).

@@ -147,6 +147,7 @@ export function resolveRegion(kit, state, county) {
     elevation_ft: num(d.elevation_ft),
     ecoregion: nz(d.ecoregion) ?? null,
     nws_office: nz(d.nws_office) ?? null,
+    nearby_same: (d.nearby_same || []).map(t => ({ county: t.county ?? null, same: t.same ?? null, text: [t.county, t.same && `SAME ${t.same}`].filter(Boolean).join(' ') })),
     nwr: (d.nwr || []).map(t => ({ call: t.call ?? null, freq: t.freq ?? null, same: t.same ?? null, text: [t.call, t.freq && `${t.freq} MHz`, t.same && `SAME ${t.same}`].filter(Boolean).join(' ') })),
     state_em: nz(st?.state_em) ?? nz(d.state_em) ?? null,
     hazards,
@@ -203,7 +204,7 @@ export function buildContext(profile, kit = {}, opts = {}) {
     const conds = (m.conditions || []).map(id => CONDITIONS[id] || id); // formatting.nested: names, not ids
     if (m.conditions_other) conds.push(m.conditions_other);
     return {
-      label: m.label, role: word(W.role, m.role), age_text: ageText(m), age_months: ageMonths(m),
+      label: m.label, ham_callsign: nz(m.ham_callsign) ?? null, role: word(W.role, m.role), age_text: ageText(m), age_months: ageMonths(m),
       weight_text: m.weight ? `${m.weight.value} ${m.weight.unit}` : null,
       due_date: nz(m.due_date) ?? null,
       sex: word(W.sex, m.sex) ?? null, pregnant_or_nursing: word(W.pn, m.pregnant_or_nursing) ?? null,
@@ -318,6 +319,7 @@ export function buildContext(profile, kit = {}, opts = {}) {
     diesel_heater: heatKinds.includes('ducted-diesel-kerosene'),
     unvented_heater: heatKinds.includes('portable-propane') || heatKinds.includes('wick-kerosene'),
     firearms: gear.firearms?.owned === true,
+    suppressor: gear.firearms?.suppressors === true,
     safe: gear.firearms?.safe === true,
     ham: comms.ham === true || allSkills.includes('ham-licence') || membersRaw.some(m => m.ham_callsign),
     gmrs: comms.frs_gmrs === true || comms.gmrs_licence === true,
@@ -413,6 +415,7 @@ export function buildContext(profile, kit = {}, opts = {}) {
       },
       water: { stored_gal: num(gear.water?.stored_gal) },
       food: { pantry_days: num(gear.food?.pantry_days), freeze_dried_servings: num(gear.food?.freeze_dried_servings) },
+      firearms: { platforms: nz(gear.firearms?.platforms_and_calibers) ?? null },
     },
     derived,
     region: { home: regHome },
@@ -424,6 +427,8 @@ export function buildContext(profile, kit = {}, opts = {}) {
     teens: members.filter(m => (m.age_months !== null && m.age_months >= 156 && m.age_months < 216) || membersRaw[members.indexOf(m)].role === 'teen'),
     elders: members.filter(m => (m.age_months ?? 0) > 840 || membersRaw[members.indexOf(m)].role === 'elder'),
     refrigerated_meds: meds.filter(x => x.refrigerated === 'yes'),
+    // meds_for.CL-NN: rows the household tagged with that condition (medications[].for_condition)
+    meds_for: Object.fromEntries(Object.keys(CONDITIONS).map(id => [id, meds.filter(x => x.for_condition === id)])),
     agreed_destinations: destinations.filter(d => d.status === 'agreed'),
     has, is, experience,
     size: { large: opts.size === 'large' },

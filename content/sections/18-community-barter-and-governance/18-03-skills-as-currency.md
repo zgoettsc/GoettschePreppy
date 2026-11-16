@@ -40,10 +40,10 @@ is welcome almost anywhere, which is a different position from a person with val
 
 1. **Pick three skills from the lists below and actually learn them this year.** Not read about:
    do. **A bleeding-control class (Stop the Bleed) and a first-aid and CPR course** are the highest
-   value (→ 12-01). **An amateur ("ham") radio licence** is next (→ 15-05).
-2. **Practise the ones you have.** A skill last used ten years ago is a memory, not a capability
+   value (→ 12-01). **An amateur ("ham") radio license** is next (→ 15-05).
+2. **Practice the ones you have.** A skill last used ten years ago is a memory, not a capability
    (→ 24-01).
-3. **Find out what skills your neighbours have** (→ 18-01), and let them know yours.
+3. **Find out what skills your neighbors have** (→ 18-01), and let them know yours.
 4. **Teach one skill to someone this year** (→ 18-07). Teaching shows whether you really know it.
 
 ## Why skills beat stockpiles
@@ -117,7 +117,7 @@ Some skills matter most for your own people, before any trade:
 
 ## Trading a skill safely
 
-- **A repair for a neighbour reveals nothing about your stores** (→ 14-03).
+- **A repair for a neighbor reveals nothing about your stores** (→ 14-03).
 - **You can be generous with skills indefinitely** without running anything down.
 - **It builds relationship and reputation** (→ 18-01). It makes you someone people protect rather
   than someone they eye.
@@ -132,9 +132,9 @@ Some skills matter most for your own people, before any trade:
 - **Courses that exist now and will not later:** Stop the Bleed, first aid and CPR, wilderness first
   responder, amateur radio licensing (ARRL, Getting Licensed; → 15-05), canning classes, a welding
   class at a technical college.
-- **Practise, do not just read.** Under stress you do what you have practised (→ 21-01).
+- **Practice, do not just read.** Under stress you do what you have practiced (→ 21-01).
 - **Do it badly first, at low stakes.** Make bad soap. Sharpen a cheap knife. Sew a crooked patch.
-- **Learn from people:** neighbours, clubs, classes. Faster than books, and it builds the network
+- **Learn from people:** neighbors, clubs, classes. Faster than books, and it builds the network
   (→ 18-01).
 - **Teach the children** (→ 20-07, → 20-03).
 - **Write down what you learn** (→ 24-01).
@@ -177,7 +177,7 @@ now.
 
 ## By phase
 
-- **A, at home:** acquire. Courses, licences, clubs and practice, all available now and not later.
+- **A, at home:** acquire. Courses, licenses, clubs and practice, all available now and not later.
 - **B, on the move:** skills are the only thing you carry at no weight (→ 22-03).
 - **C, settled:** skills become the local economy. Being the household that can fix, treat, teach or
   make is a durable and secure position.

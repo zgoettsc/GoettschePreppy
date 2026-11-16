@@ -104,7 +104,7 @@ and keep the fumes out of your eyes.**
 | Electrical tape | Insulating, wrapping | Unwinds with heat and time |
 | Gaffer tape | Temporary; peels off cleanly | Not waterproof |
 | **Ripstop nylon repair tape** | Tarps, tents, jackets, sleeping bags | Durable; keep a roll in every kit |
-| Aluminium foil tape | Heating ducts | The tape for duct joints, **but never a chimney or stovepipe repair** (→ 08-02) |
+| Aluminum foil tape | Heating ducts | The tape for duct joints, **but never a chimney or stovepipe repair** (→ 08-02) |
 | PTFE thread tape | Threaded pipe joints | Seals; adds no strength |
 
 **Duct tape is not a repair, it is a delay.** Use it, then do the real fix.
@@ -144,7 +144,7 @@ Mechanical repairs outlast glued ones, especially with shaking, cold and load.
 
 ## Working safely
 
-- **Ventilate for glues and solvents.** The vapours are toxic and many are flammable. Read the
+- **Ventilate for glues and solvents.** The vapors are toxic and many are flammable. Read the
   label.
 - **Never near an open flame or a running stove or heater.** Many glues and solvents catch fire,
   and a wood stove is an ignition source (→ 06-06).
@@ -179,7 +179,7 @@ Mechanical repairs outlast glued ones, especially with shaking, cold and load.
 
 **Substitutes:**
 - **Wire:** coat hangers, fencing, electrical cable.
-- **Rubber:** inner tubes make gaskets, straps, bindings and rubber bands; also tyres, hoses, shoe
+- **Rubber:** inner tubes make gaskets, straps, bindings and rubber bands; also tires, hoses, shoe
   soles.
 - **Sheet metal:** cans, roof flashing, ductwork, appliance panels (→ 16-08).
 - **Fasteners:** from anything being thrown out (→ 22-02).
@@ -203,7 +203,7 @@ Mechanical repairs outlast glued ones, especially with shaking, cold and load.
 
 ## By phase
 
-- **A, at home:** build the repair shelf, fix things, start the parts bin. Practise on things that
+- **A, at home:** build the repair shelf, fix things, start the parts bin. Practice on things that
   do not matter.
 - **B, on the move:** a tiny kit: ripstop tape, a few feet of wire, cable ties, super glue, needle
   and thread (→ 16-04), a multi-tool. Field repairs only need to reach the next stop.

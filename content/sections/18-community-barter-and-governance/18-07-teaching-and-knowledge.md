@@ -35,7 +35,7 @@ review_pass: null
 on. A dead phone, a burned house, a failed drive or an internet that stops working takes with it
 almost everything a modern household knows how to look up. Two jobs: **preserving** knowledge (paper
 books, your own written records, copies of this binder) and **passing it on** (teaching your
-children and neighbours, and being taught). Teaching costs nothing, multiplies a community's
+children and neighbors, and being taught). Teaching costs nothing, multiplies a community's
 abilities, and makes the teacher someone a community protects (→ 18-03).
 
 ## Do this now
@@ -47,7 +47,7 @@ abilities, and makes the teacher someone a community protects (→ 18-03).
    conditions, the water pages). An app on a dead phone is not a binder.
 3. **Start writing things down** (→ 25-05): what you learn, what works, what your household actually
    uses. Your own records will be more useful than any book.
-4. **Teach one thing to someone this year** (→ 18-03): a neighbour, one of the children (→ 20-07).
+4. **Teach one thing to someone this year** (→ 18-03): a neighbor, one of the children (→ 20-07).
    Teaching shows whether you really know it.
 
 {{photo library-shelf}}
@@ -71,7 +71,7 @@ abilities, and makes the teacher someone a community protects (→ 18-03).
 | **Plant identification** | **A field guide for your region, with photographs. Not a national one** (→ 05-06) |
 | Animals | Poultry, rabbits, butchering |
 | Repair | General home repair, small engines, your vehicle's manual |
-| Radio | An amateur radio licence manual and antenna book (ARRL, Getting Licensed; → 15-05) |
+| Radio | An amateur radio license manual and antenna book (ARRL, Getting Licensed; → 15-05) |
 | Electrical and solar | A 12-volt and off-grid wiring reference |
 | Building | Basic carpentry |
 | Sewing | Mending and pattern basics |
@@ -113,7 +113,7 @@ The most valuable reference in a year will be the one you wrote (→ 25-05):
 - **Write down what you want them to know** in case you are not there to teach it. A hard thought,
   and a worthwhile document.
 
-## Teaching neighbours, and being taught
+## Teaching neighbors, and being taught
 
 - **Teaching multiplies a community's abilities** and costs you nothing (→ 18-03).
 - **A community where three people can do first aid is far safer** than one where one person can
@@ -157,7 +157,7 @@ security there is: a community that needs what you know wants you in it.
 | Pencils, pens and paper in bulk | Records, teaching, schooling | |
 
 **Substitutes:** libraries' sale shelves, thrift stores and estate sales are full of these books.
-Swapping books with neighbours is one of the easiest community activities there is. **People are the
+Swapping books with neighbors is one of the easiest community activities there is. **People are the
 other library**: someone who knows how to do something is a reference you cannot print.
 
 ## When it runs out

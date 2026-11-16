@@ -54,7 +54,7 @@ def commons_rows():
             continue
         k, title, feat, cap = line.rstrip('\n').split('\t')
         q = dict(action='query', format='json', titles=title, prop='imageinfo',
-                 iiprop='extmetadata|url|mime', iiurlwidth='1200')
+                 iiprop='extmetadata|url|mime', iiurlwidth='960')
         url = 'https://commons.wikimedia.org/w/api.php?' + _u.urlencode(q)
         def f():
             for i in range(6):

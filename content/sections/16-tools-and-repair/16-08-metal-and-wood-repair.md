@@ -37,7 +37,7 @@ that matter most here, fitting a new tool handle and turning scrap steel into a 
 the tools in this section never truly run out: they get remade.
 
 > **CAUTION. Four hazards on this page.**
-> 1. **Never heat galvanized steel** (the dull grey, often spangled zinc-coated kind used on
+> 1. **Never heat galvanized steel** (the dull gray, often spangled zinc-coated kind used on
 >    fence posts, buckets and some pipe). The zinc gives off fumes that cause "metal fume fever"
 >    and worse. **Galvanized: do not heat, do not weld, do not forge.** Check before anything
 >    goes in a fire.
@@ -45,7 +45,7 @@ the tools in this section never truly run out: they get remade.
 >    Poisoning Basics). **Never run a generator, charcoal, or any engine indoors, in a garage,
 >    or near an open window** (floor, → 30-01): a charcoal forge counts. It goes outdoors.
 > 3. **Hot metal and hammering:** burns (→ 12-03), flying scale, eye injuries. Eye protection,
->    leather gloves, and natural-fibre clothing; synthetics melt onto skin (→ 11-05).
+>    leather gloves, and natural-fiber clothing; synthetics melt onto skin (→ 11-05).
 > 4. **Lead.** Old paint, old solder and some salvaged metals contain lead (CDC, About Lead in
 >    the Home). {{#if has.young_child}}**You have a child under 6, the age most harmed by lead.**
 >    {{/if}}Do lead-adjacent work outdoors, away from children, and wash hands and clothes
@@ -144,7 +144,7 @@ it is possible changes what "the tools ran out" means.
 | Bearings, axles, old tools | Various, often hardenable | Punches, chisels |
 | Railroad tie plate or rail | Heavy mild steel | Anvil substitute |
 | Copper pipe and wire | Soft | Electrical (→ 09-08), rivets, sheet work |
-| Aluminium | Soft and light | Never where steel strength is needed; will not harden |
+| Aluminum | Soft and light | Never where steel strength is needed; will not harden |
 
 **The spark test:** touch a piece to a grinding wheel or rough stone. **High-carbon steel throws
 bushy, branching sparks; mild steel throws long, straight streaks.** Crude, but it works.
@@ -213,7 +213,7 @@ That is why the vise and anvil are bought regardless (→ 16-01).
 | **Spare axe, hammer and tool handles, and wedges** | The repair you will need | Hickory or ash |
 | Boiled linseed oil | Handles | Rags dried flat outdoors or in a water-filled lidded can |
 | Propane torch, brazing rod, solder and flux | Joining, heating, freeing rusted bolts | Fuel is finite (→ 06-06) |
-| Eye protection, leather gloves, natural-fibre clothing | Hot metal, scale | Never synthetics |
+| Eye protection, leather gloves, natural-fiber clothing | Hot metal, scale | Never synthetics |
 | Materials pile | Raw material | Sorted and dry |
 | A paper metalwork or blacksmithing book | Heat-treating, technique | |
 

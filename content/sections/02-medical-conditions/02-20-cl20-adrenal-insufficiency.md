@@ -35,6 +35,7 @@ related:
   - 30-05-dc04-expired-medication
   - 30-16-dc15-someone-elses-prescription
   - 30-20-dc19-when-to-leave
+  - 29-14-ex14-reading-a-label
 cards: [DC-04, DC-15, DC-19]
 explainers: [EX-14]
 promote_when: [has.condition.CL-20]
@@ -232,6 +233,9 @@ None. The medicines need no power or fridge (check the label).
 - **Someone else's prescription:** {{choice DC-15}} (→ 30-16).
 - **When to leave:** {{choice DC-19}} (→ 30-20). Running low on steroid or emergency kits is a
   reason to move toward care.
+
+The five questions to settle for every condition, and the whole library, are on → 12-11. The
+household's full medicine stockpile is on → 12-07.
 
 ## 12. My meds
 

@@ -41,6 +41,9 @@ related:
   - 30-01-the-floors
   - 30-05-dc04-expired-medication
   - 30-16-dc15-someone-elses-prescription
+  - 02-11-cl11-epilepsy-and-seizures
+  - 12-04-infection-and-antibiotics
+  - 30-20-dc19-when-to-leave
 cards: [DC-04, DC-15, DC-19]
 explainers: [EX-14]
 promote_when: [has.condition.CL-17]
@@ -264,6 +267,9 @@ power; hot-water bottles and warmed cloths are the no-power version.
 - **Someone else's prescription:** {{choice DC-15}} (→ 30-16).
 - **When to leave:** {{choice DC-19}} (→ 30-20). Running out of methadone or buprenorphine is a
   reason to move toward a working clinic.
+
+The five questions to settle for every condition, and the whole library, are on → 12-11. The
+household's full medicine stockpile is on → 12-07.
 
 ## 12. My meds
 

@@ -49,7 +49,7 @@ the right screw stops a repair dead. They are also among the best barter goods t
    the most underrated repair material there is (→ 16-05).
 3. **Buy hardware:** hinges, brackets, hose clamps, eye bolts, screw eyes, hooks, chain,
    turnbuckles, springs.
-4. **Set up sorted, labelled storage** so any size can be found in seconds. Unsorted hardware is
+4. **Set up sorted, labeled storage** so any size can be found in seconds. Unsorted hardware is
    nearly useless.
 5. **Start the salvage habit:** strip fasteners and hardware from anything you throw away (→ 22-02).
 
@@ -114,7 +114,7 @@ the right screw stops a repair dead. They are also among the best barter goods t
 
 ## The details that matter
 
-- **Dissimilar metals corrode each other** when wet. Do not use bare steel fasteners in aluminium,
+- **Dissimilar metals corrode each other** when wet. Do not use bare steel fasteners in aluminum,
   or in pressure-treated lumber, which eats plain steel fast. **Use hot-dip galvanized or stainless
   fasteners outdoors.**
 - **Drill a pilot hole in hardwood and near board ends**, or the wood splits, especially old, dry
@@ -130,7 +130,7 @@ the right screw stops a repair dead. They are also among the best barter goods t
 
 ## Storage that makes it usable
 
-- **Labelled, sorted, visible:** jars, parts bins or compartment boxes.
+- **Labeled, sorted, visible:** jars, parts bins or compartment boxes.
 - **Dry.** Rust destroys fasteners in storage. Use sealed containers with a desiccant packet (or a
   little rice).
 - **Keep salvage apart from good stock** so an unknown bolt never ends up where it matters.
@@ -162,7 +162,7 @@ thing to have on a shelf.
 | Sandpaper, steel wool, wire brushes | Surface preparation | |
 | Penetrating oil, thread locker, anti-seize, grease | Getting things apart and keeping them together | All four |
 | Rust converter, primer, paint | Outdoor steel rusts fast | |
-| **Labelled, sorted, dry storage** | Unsorted hardware is useless | The part people skip |
+| **Labeled, sorted, dry storage** | Unsorted hardware is useless | The part people skip |
 
 **Salvage:** everything on this page is easy to salvage (→ 22-02): appliances, furniture, vehicles,
 pallets, decks, fence lines, farm buildings. Coat hangers are the classic improvised wire. You can

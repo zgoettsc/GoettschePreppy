@@ -29,7 +29,7 @@ review_pass: null
 
 # Group organization and decisions
 
-**What this page is for.** What to do when cooperation goes beyond neighbours helping neighbours:
+**What this page is for.** What to do when cooperation goes beyond neighbors helping neighbors:
 shared work, shared resources, or households moving in together. Most cooperation in a disaster is
 informal and works fine that way (→ 18-01). **What breaks groups is almost never the outside threat.
 It is unclear expectations, unequal contribution and unresolved disputes** (→ 18-06, → 21-05): the
@@ -41,7 +41,7 @@ same failures as inside one household, at a larger scale.
 > worksheet you write yourselves: {{choice DC-12}} (→ 30-13). A group's agreement should not quietly
 > override it.
 >
-> **Other people's property, labour and children remain theirs.** A group that forgets this breaks
+> **Other people's property, labor and children remain theirs.** A group that forgets this breaks
 > from the inside.
 >
 > **Before the collapse:** private citizens have no legal power to detain or punish anyone, and
@@ -64,10 +64,10 @@ same failures as inside one household, at a larger scale.
 
 | Level | What it is | When |
 |---|---|---|
-| 1. Informal mutual aid | Neighbours helping neighbours | Almost always; usually enough (→ 18-01) |
+| 1. Informal mutual aid | Neighbors helping neighbors | Almost always; usually enough (→ 18-01) |
 | 2. Coordinated tasks | Shared watch, shared wood cutting, a check-in list | Days to weeks; low cost |
 | 3. Shared resources | A common generator, well or tool pool | Weeks to months; needs some agreement |
-| 4. Combined households | Living together, shared stores and labour | Months or more; **needs real agreement** |
+| 4. Combined households | Living together, shared stores and labor | Months or more; **needs real agreement** |
 | 5. Formal community structure | Roles, rules, decision procedures | Long term; mostly emerges rather than being designed |
 
 **Most households never need to go past level 2.** Over-organizing creates conflict where none was
@@ -79,7 +79,7 @@ From level 3 up, **agree these out loud and write them down.** Vagueness here is
 groups.
 
 1. **Who is in**, and how someone new joins.
-2. **What each person contributes:** supplies, labour, skills, space, equipment. Be specific.
+2. **What each person contributes:** supplies, labor, skills, space, equipment. Be specific.
 3. **What each person receives:** food, shelter, protection, a share of what is produced.
 4. **How work is divided and how the unpleasant work rotates.** Rotation matters more than a fair
    first split (→ 21-04).
@@ -116,7 +116,7 @@ Place: ______________________   Their household: __________________
    Total people at the place: _______
 
 2. WHAT WE CONTRIBUTE
-   Labour (daily, each adult; what the children can do): __________
+   Labor (daily, each adult; what the children can do): __________
    Skills (18-03), offered plainly: ________________ Accepted? ____
    Supplies we bring or left there ahead of time: _________________
    Equipment (vehicle, trailer, tools, radios): ___________________
@@ -237,9 +237,9 @@ takes time (→ 18-05).
 
 ## By phase
 
-- **A, at home:** informal mutual aid is the realistic level. Do not try to organize a neighbourhood
+- **A, at home:** informal mutual aid is the realistic level. Do not try to organize a neighborhood
   that does not want organizing.
-- **B, on the move:** travelling with another household is a real decision: more capability, more
+- **B, on the move:** traveling with another household is a real decision: more capability, more
   friction, slower. Agree the terms before leaving, including how you would separate (→ 01-03).
 - **C, settled:** where combining households makes most sense, and where getting the agreement right
   matters most, because you are in it for a long time (→ 01-04).

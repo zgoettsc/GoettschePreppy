@@ -33,7 +33,7 @@ review_pass: null
 # Dental skills in a community
 
 **What this page is for.** How a community handles teeth when dental offices are closed: who in a
-neighbourhood can help, what a trained layperson can and cannot do, how dental help is shared fairly,
+neighborhood can help, what a trained layperson can and cannot do, how dental help is shared fairly,
 and what being known for it costs. The clinical first aid is on → 12-06 (prevention and everyday
 problems) and → 12-20 (knocked-out teeth, lost fillings, abscess). This page is the community side.
 
@@ -52,7 +52,7 @@ problems) and → 12-20 (knocked-out teeth, lost fillings, abscess). This page i
 2. **Get everyone's dental work done now** while dentists are open: cleanings, fillings, and any tooth
    a dentist says is failing. The best grid-down dentistry is what was finished before.
 3. **Find out who near you has dental training** (→ 18-01): a dentist, hygienist, dental assistant,
-   oral surgeon, military or wilderness medic. Note it on the neighbour roster.
+   oral surgeon, military or wilderness medic. Note it on the neighbor roster.
 4. **Stock prevention and first-aid supplies** (table below). Prevention is the part anyone can do.
 5. **Decide as a household, before the first request comes**, how you will share dental help or
    supplies (exchange norms below).
@@ -69,7 +69,7 @@ Dental pain stops people working and sleeping. A community where someone can sor
 
 | Who | What they can usually do | What they cannot do without a real practice |
 |---|---|---|
-| **Licensed dentist or oral surgeon** | Examine, give local anaesthetic, extract, drain, place temporary fillings, judge infection, prescribe while the system works | Crowns, root canals, implants, anything needing a lab and a supply chain |
+| **Licensed dentist or oral surgeon** | Examine, give local anesthetic, extract, drain, place temporary fillings, judge infection, prescribe while the system works | Crowns, root canals, implants, anything needing a lab and a supply chain |
 | Dental hygienist or assistant | Assess, clean, teach prevention, assist, recognize infection | Extractions and injections, in most states |
 | Military, wilderness or EMS medic | Assess, first aid, recognize spreading infection | Usually not dental procedures |
 | **A trained layperson (anyone who has learned → 12-06 and → 12-20)** | Prevention teaching; knocked-out tooth first aid; temporary filling material from a kit; recognizing danger signs; pain relief per the label | **No extractions, no injections, no cutting.** These do real harm in untrained hands |
@@ -78,7 +78,7 @@ Dental pain stops people working and sleeping. A community where someone can sor
 and pain control: buying time and removing infection, not rebuilding mouths. **"Not today" is a
 complete answer** from anyone: poor light, no clean instruments, exhaustion.
 
-**Nobody uses a professional's instruments or anaesthetic on someone else.** Injectable anaesthetic
+**Nobody uses a professional's instruments or anesthetic on someone else.** Injectable anesthetic
 and surgical instruments in untrained hands cause nerve damage, broken-off roots and spreading
 infection.
 
@@ -90,11 +90,11 @@ Anyone can teach this, and it saves more teeth than any procedure (CDC, Oral Hea
   all day are the worst.
 - **Water after eating** when you cannot brush.
 - **Check children's teeth** for white or brown spots, the first stage of decay.
-- **Teach it to the neighbourhood's children** (→ 18-07). Cheap to give; it compounds for years.
+- **Teach it to the neighborhood's children** (→ 18-07). Cheap to give; it compounds for years.
 
 ## Sharing dental help fairly
 
-If someone in your household or your neighbourhood has dental skills, decide the norms before the
+If someone in your household or your neighborhood has dental skills, decide the norms before the
 first request. The first time you help sets the price of every time after.
 
 - **Never a price list.** Pricing care for pain in a crisis reads as profiting from suffering, and
@@ -102,9 +102,9 @@ first request. The first time you help sets the price of every time after.
 - **Help freely, always, with:** children, true emergencies (the spreading abscess, the knocked-out
   tooth), and first contact with a household you want in your network (→ 18-05). Refusing a child
   over payment would destroy a household's standing.
-- **For everything else, goods and help given back as neighbourliness, not billed.** "We could use
+- **For everything else, goods and help given back as neighborliness, not billed.** "We could use
   hands on the woodpile" or "a few eggs", said after care, not demanded before it. A community that
-  owes favours to the person who helps with teeth is a strong security arrangement.
+  owes favors to the person who helps with teeth is a strong security arrangement.
 - **The arithmetic:** a pulled tooth costs the helper an hour and a little supply, and is worth a
   week of work to the person in pain. Charging at that gap would be extortion; giving generously turns
   it into standing, which still works in year two (→ 18-03).
@@ -112,7 +112,7 @@ first request. The first time you help sets the price of every time after.
 ## The cost of being known for it
 
 Skills cannot be hidden the way supplies can, and should not be: a skill nobody knows about helps
-nobody. But a person known for dental work is presumed to hold **anaesthetics, sharp instruments and
+nobody. But a person known for dental work is presumed to hold **anesthetics, sharp instruments and
 pain medicine**, three of the most sought-after things there are (→ 14-03, → 12-07).
 
 - **Let the skill become known gradually, person to person, as trust builds** (→ 18-05). Never
@@ -127,8 +127,8 @@ pain medicine**, three of the most sought-after things there are (→ 14-03, →
 
 > **Before the collapse:** most states have "Good Samaritan" laws that protect people who give
 > emergency help in good faith, usually without pay. They are written for emergencies, generally not
-> for ongoing treatment or paid care. Licensed dental professionals stay bound by their licence
-> rules, records and standards of care; a three-day outage is not a licence to practise from the
+> for ongoing treatment or paid care. Licensed dental professionals stay bound by their license
+> rules, records and standards of care; a three-day outage is not a license to practice from the
 > kitchen, and people should be sent to working care while it exists (→ 12-16). Where the line falls
 > in a long breakdown cannot be written in advance. Whoever gives the care decides case by case, and
 > writes down why (→ 25-05).
@@ -152,7 +152,7 @@ scale.
 
 - **The scarce resource is the trained person:** one pair of hands, who is also a parent and
   sometimes a patient. Emergencies always; everything else on their schedule, not demand's.
-- **Supplies run out and anaesthetic expires.** When they do, say so honestly; do not let
+- **Supplies run out and anesthetic expires.** When they do, say so honestly; do not let
   expectations outrun stock (→ 23-02).
 - **Goodwill compounds and never expires.** Many small acts of help with teeth buy more security and
   standing than almost any trade good.

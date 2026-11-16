@@ -34,7 +34,7 @@ review_pass: null
 **What this page is for.** Six knots that cover almost every job (tying down, hanging, lashing,
 tensioning), the rope to stock, how to keep it, how to make cord from plants and cloth, and the
 one rope job that kills people: pulling a stuck vehicle. People try to learn thirty knots and
-remember none. **Learn six, practise until your hands do them without thinking, and stop.**
+remember none. **Learn six, practice until your hands do them without thinking, and stop.**
 
 > **Nothing on this page is rated for life safety.** These are utility knots for tying
 > things down, lashing and hanging. **Do not use them, or any rope in this binder, for climbing,
@@ -52,7 +52,7 @@ remember none. **Learn six, practise until your hands do them without thinking, 
    than you think.
 2. **Learn the six knots below this week:** bowline, taut-line hitch, clove hitch, two half
    hitches, square knot, trucker's hitch.
-3. **Practise them in gloves and in the dark.** That is when you will need them (→ 11-04).
+3. **Practice them in gloves and in the dark.** That is when you will need them (→ 11-04).
 4. **Make a practice cord:** cut a 4-foot length of paracord, tie it to a drawer handle, and do one
    knot each evening against the steps below until all six are hands-only. Tick each one off.
 5. {{#if has.child}}**Teach the children one knot**: the overhand first, then the square knot.
@@ -256,12 +256,12 @@ frame or an antenna mast support (→ 15-06).
 | Bank line or tarred twine | Strong, thin | Lashing, snares, repairs | Resists rot and sunlight; grips well |
 | 1/4 to 3/8 in utility rope | Real loads | Hauling, tying down, ridge lines | Nylon stretches; polyester does not |
 | Rope 1/2 in and up | Heavy loads | Dragging logs, heavy lifting. **Not vehicle recovery** | See the block below |
-| Natural fibre (jute, sisal, hemp) | Moderate | Anything burned or composted: garden ties, kindling bundles | Rots, which is sometimes the point (→ 05-10) |
+| Natural fiber (jute, sisal, hemp) | Moderate | Anything burned or composted: garden ties, kindling bundles | Rots, which is sometimes the point (→ 05-10) |
 | Baling wire, mechanic's wire | n/a | The metal version of cord | → 16-07 |
 | Ratchet straps | Very strong | Securing loads | Sunlight weakens the webbing |
 | Bungee cords | Light | Light securing | Perish; **the hooks cause eye injuries** |
 
-**How much a rope can hold.** Never load a rope past **one-fifth of its labelled breaking
+**How much a rope can hold.** Never load a rope past **one-fifth of its labeled breaking
 strength**, and remember that **a knot cuts a rope's strength by a third to a half** (US Army,
 FM 5-125). Military-specification Type III paracord breaks at 550 lb when new, dry and unknotted,
 so about 100 lb is its working load; commercial "550" cord is often weaker. Rubbing, sunlight and
@@ -307,7 +307,7 @@ and people.
   cannot see it happen. Store rope out of the sun.
 - **Rubbing is the main way rope fails.** A rope running over an edge cuts itself. Pad the edge with
   cloth, a piece of hose or wood.
-- **Wet natural fibre rots.** Dry it before storing.
+- **Wet natural fiber rots.** Dry it before storing.
 - **Knots weaken rope.** That is normal, and one reason utility rope is not for life safety.
 - **Inspect before every load:** fuzz, cuts, shiny glazed patches, stiffness, discolouring.
 - **Seal the ends** so they do not fray: melt synthetic rope with a lighter; wrap natural rope ends
@@ -316,12 +316,12 @@ and people.
 
 ## Making cord from nothing
 
-A real skill, and it works. It is slow; practise in summer with fresh material.
+A real skill, and it works. It is slow; practice in summer with fresh material.
 
-- **Plant fibres:** the inner bark of basswood, elm, willow or dogwood; the stems of stinging
+- **Plant fibers:** the inner bark of basswood, elm, willow or dogwood; the stems of stinging
   nettle, milkweed and dogbane; yucca leaves (→ 05-17 for what grows near you, and identify every
   plant with certainty).
-- **The reverse-wrap method:** hold two bundles of fibre, twist each one away from you, and wrap
+- **The reverse-wrap method:** hold two bundles of fiber, twist each one away from you, and wrap
   them around each other toward you. The opposing twists lock. Learn it once and you can make cord
   from a ditch.
 - **Rawhide and sinew** from animals you process (→ 05-09): very strong, and rawhide shrinks as it
@@ -346,7 +346,7 @@ A real skill, and it works. It is slow; practise in summer with fresh material.
 
 **Scavenge:** rope and cord from garages, boats, farms, tarps, tents and curtain pulls; wire from
 fencing and coat hangers (→ 16-07); baling twine around any farm; seat belts and webbing from
-vehicles (very strong); cloth strips; plant fibre.
+vehicles (very strong); cloth strips; plant fiber.
 
 ## When it runs out
 

@@ -39,6 +39,9 @@ related:
   - 29-02-ex02-batteries-and-power-stations
   - 30-01-the-floors
   - 30-16-dc15-someone-elses-prescription
+  - 02-09-cl09-high-blood-pressure-and-heart-disease
+  - 29-03-ex03-carbon-monoxide
+  - 12-07-meds-stockpile
 cards: [DC-15]
 explainers: [EX-02, EX-03]
 promote_when: [has.condition.CL-24, has.cpap]
@@ -213,6 +216,9 @@ meter test, not from this page.
 ## 11. Decision cards that apply
 
 - **Someone else's prescription or equipment:** {{choice DC-15}} (→ 30-16).
+
+The five questions to settle for every condition, and the whole library, are on → 12-11. The
+household's full medicine stockpile is on → 12-07.
 
 ## 12. My meds
 

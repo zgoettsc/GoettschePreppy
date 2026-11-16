@@ -33,29 +33,29 @@ review_pass: null
 **What this page is for.** Building the network of people near you who will help, and whom you will
 help, before anything goes wrong. The most under-invested resource in most emergency plans is the
 people who live within a hundred yards. No one household can cover medical skill, security,
-childcare, repairs and round-the-clock work. **A neighbourhood can.**
+childcare, repairs and round-the-clock work. **A neighborhood can.**
 
 > **CAUTION. Connection and discretion pull against each other.** The CDC names **social connection
 > as a protective factor and social isolation as a risk factor** for both mental and physical health
 > (CDC, About Social Connection). In nearly every hard scenario in this binder (a medical emergency
 > with no hospital, a tornado, a fire, an illness that takes down every adult, a broken leg), the
-> neighbours are the only help that exists. But being known to have supplies has costs (→ 14-03).
+> neighbors are the only help that exists. But being known to have supplies has costs (→ 14-03).
 > This page is about holding both: **being connected without being careless.**
 
 ## Do this now
 
-1. **Learn your neighbours' names**: both sides and across the street. It is free, takes a few
+1. **Learn your neighbors' names**: both sides and across the street. It is free, takes a few
    weeks of ordinary friendliness, and is the highest-return preparedness step there is.
 2. **Find out who has which skills:** nurses, paramedics, electricians, plumbers, mechanics,
    vets, radio operators (→ 15-05), gardeners, people with tools or a generator.
 3. **Find out who is vulnerable:** elderly, living alone, dependent on medical equipment, with
    small children. Knowing now is what makes checking on them possible later.
-{{#if has.anaphylaxis}}4. **Tell close neighbours about the serious allergies in your household**
-   (→ 02-03, → 02-04). A kind neighbour handing a child a cookie is a real risk, and the conversation
+{{#if has.anaphylaxis}}4. **Tell close neighbors about the serious allergies in your household**
+   (→ 02-03, → 02-04). A kind neighbor handing a child a cookie is a real risk, and the conversation
    is easy now. Allergies to share: {{#each allergies as a}}{{a.member}}: {{a.allergen}} ({{a.severity}}); {{/each}}
-{{else}}4. **Tell close neighbours about any serious allergy or medical need** in your household, so
+{{else}}4. **Tell close neighbors about any serious allergy or medical need** in your household, so
    they do not feed or treat someone wrongly (→ 02-03, → 02-04).
-{{/if}}5. **Do something small and neighbourly this month:** lend a tool, share produce, clear a walk.
+{{/if}}5. **Do something small and neighborly this month:** lend a tool, share produce, clear a walk.
    Reciprocity is built in ordinary time, not in a crisis.
 
 ## What your household brings and what it needs
@@ -68,7 +68,7 @@ how you approach the people around you.
 {{else}}- (none entered: fill in on paper) ______________________
 {{/each}}
 
-**What a neighbourhood typically needs, and who might cover it:**
+**What a neighborhood typically needs, and who might cover it:**
 
 | Need | Who covers it | Ours? / Who nearby? |
 |---|---|---|
@@ -90,7 +90,7 @@ how you approach the people around you.
 approach mutual aid as someone asking for help: lead with what you can do, trade skill for skill,
 and expect to be wanted. The flip side is that being valuable also means being known (→ 14-03).
 **If your household holds no rare skill**, you are in the same position as most households: offer
-labour, reliability and the skills you can learn quickly (→ 18-03).
+labor, reliability and the skills you can learn quickly (→ 18-03).
 
 ## How mutual aid actually forms
 
@@ -100,7 +100,7 @@ existed.**
   ones need.
 - **Be useful and known for it.** The household that fixes things (→ 16-05), knows first aid
   (→ 12-01) or has a working radio (→ 15-05) is the one people want in their network.
-- **Start with the nearest neighbours** and widen out. Depth beats breadth.
+- **Start with the nearest neighbors** and widen out. Depth beats breadth.
 - **Use what already exists:** a congregation, a block, a school community, extended family. Far
   easier to activate than something built from scratch.
 - **Skills and time are the easiest things to offer** (→ 18-03), and they do not use up supplies.
@@ -112,14 +112,14 @@ Both of these are true, and they pull against each other (→ 14-03):
 - **Being known to have supplies can make you a target** in a truly broken-down situation.
 
 **How to hold both:**
-- **Be known as a person, not as a stockpile.** Neighbours should know you are capable, friendly
+- **Be known as a person, not as a stockpile.** Neighbors should know you are capable, friendly
   and helpful. They do not need an inventory.
-- **Trade skills and labour before goods** (→ 18-03).
+- **Trade skills and labor before goods** (→ 18-03).
 - **Be discreet about quantities, not about willingness.** "We can help" is different from "we have
   six months of food".
 - **Help visibly with small things and privately with large ones.**
 - **Get to know people over time** (→ 18-05) rather than deciding all at once.
-- **In an ordinary disaster (a blizzard, an outage, a storm) the balance strongly favours openness
+- **In an ordinary disaster (a blizzard, an outage, a storm) the balance strongly favors openness
   and helping.** In a long breakdown it shifts, and → 14-03 covers that judgment. Do not bring
   breakdown-level suspicion to a three-day ice storm; that is how households cut themselves off from
   the help they will need.
@@ -128,7 +128,7 @@ Both of these are true, and they pull against each other (→ 14-03):
 
 1. **Presence and attention.** Checking on someone costs nothing.
 2. **Information** (→ 15-04).
-3. **Skills and labour** (→ 18-03). The best trade good there is; it does not run out.
+3. **Skills and labor** (→ 18-03). The best trade good there is; it does not run out.
 4. **Tools, lent.** Usually returned, and it builds trust.
 5. **Small consumables:** a meal, some coffee, a battery.
 6. **Real supplies:** considered, and against a real need.
@@ -141,7 +141,7 @@ sustainable generosity is what builds a network.
 If things go long, some coordination will emerge. What helps:
 - **A list of who lives where**, who is vulnerable and who has skills (the roster below).
 - **A check-in system:** a signal in a window (→ 15-07), an agreed time, someone knocking on the
-  elderly neighbour's door.
+  elderly neighbor's door.
 - **A shared radio channel** (→ 15-02).
 - **Shared watch** if it comes to that (→ 14-01): more eyes, fewer sleepless nights.
 - **Shared work:** snow clearing, wood cutting, water hauling. Some jobs are far easier with four
@@ -150,7 +150,7 @@ If things go long, some coordination will emerge. What helps:
 - **Skills exchange and teaching** (→ 18-03, → 18-07).
 - **A way to make decisions and settle disputes**, agreed before you need it (→ 18-04, → 18-06).
 
-## The neighbour roster
+## The neighbor roster
 
 Fill it in over ordinary weeks, in pencil, and update it at the annual review (→ 25-10). **Risks**
 means things worth knowing to help (medical needs, alone, an aggressive dog, visible desperation),
@@ -189,10 +189,10 @@ ____________  _______________  ___+___      ___________  ___________  __________
 - **People in desperate need whom you cannot fully help.** A hard problem with no clean answer
   (→ 12-16, → 18-06). Small, bounded help is usually possible and worth doing.
 - **People you do not trust** (→ 18-05). Distance without hostility is usually right.
-- **The neighbour who becomes a burden.** Bounded, specific help is sustainable; open-ended help is
+- **The neighbor who becomes a burden.** Bounded, specific help is sustainable; open-ended help is
   not.
 - **Being the household that has, among households that do not.** This is why "known as capable, not
-  as stocked" matters, and it is an argument for helping early: a neighbourhood that got through the
+  as stocked" matters, and it is an argument for helping early: a neighborhood that got through the
   first weeks together behaves very differently from one that did not.
 
 ## The medical side
@@ -203,23 +203,23 @@ ____________  _______________  ___+___      ___________  ___________  __________
   also a household choice: {{choice DC-18}} (→ 30-19).
 - **Another household managing the same condition** (for example, insulin-dependent diabetes) is a
   partner for sharing knowledge and sourcing.
-- **If every adult is down** (→ 13-11), a neighbour bringing water and checking on the children is
+- **If every adult is down** (→ 13-11), a neighbor bringing water and checking on the children is
   the whole plan.
-- **Distress is common.** If a neighbour, or you, are struggling, the Disaster Distress Helpline
+- **Distress is common.** If a neighbor, or you, are struggling, the Disaster Distress Helpline
   (call or text 1-800-985-5990, SAMHSA) works while phones do (→ 21-02).
 
 ## Gear
 
 | Item | Why | Notes |
 |---|---|---|
-| **The neighbour roster, filled in** | The core of this page | Pencil; update yearly |
+| **The neighbor roster, filled in** | The core of this page | Pencil; update yearly |
 | A list of who is vulnerable nearby | Makes checking possible | |
-| Allergy and medical information shared with close neighbours | Concrete safety | |
+| Allergy and medical information shared with close neighbors | Concrete safety | |
 | Things worth lending: tools, a generator, a chainsaw | Reciprocity is built by lending | |
 | Small surplus to give: fasteners, seeds, soap, matches | Cheap, useful, low-risk to share | → 18-02 |
-| Radios on an agreed channel | Neighbourhood coordination | → 15-02 |
+| Radios on an agreed channel | Neighborhood coordination | → 15-02 |
 | Skills: first aid, repair, radio | What makes you worth knowing | |
-| An agreed "we need help" signal | Agreed with near neighbours | → 15-07 |
+| An agreed "we need help" signal | Agreed with near neighbors | → 15-07 |
 
 **Everything on this page is free:** names, conversations, attention, small acts. **What you cannot
 substitute is the relationships themselves, and they take time.** That is why this is a "do it now"
@@ -234,15 +234,15 @@ page: one of the few things in this binder that cannot be acquired quickly.
 - **Be generous with what does not deplete** (skills, time, information, attention) and careful with
   what does.
 - **For any move** (→ 01-05): the people already at a destination matter as much as the land. A place
-  with good neighbours is worth more than a better place with none.
+  with good neighbors is worth more than a better place with none.
 
 ## By phase
 
-- **A, at home:** the best chance you will have: neighbours close, low stakes. Do it this year. In a
+- **A, at home:** the best chance you will have: neighbors close, low stakes. Do it this year. In a
   blizzard or an outage, this network is what works.
 - **B, on the move:** you leave your network behind, a real cost of moving. On the road, other people
   are both the main resource and the main risk (→ 18-05, → 14-01). Most people in a disaster help
   rather than harm.
-- **C, settled:** fewer neighbours, farther apart, mattering more. Rural communities often have strong
+- **C, settled:** fewer neighbors, farther apart, mattering more. Rural communities often have strong
   traditions of mutual aid and welcome people who contribute. Make relationships an early priority
   (→ 01-04).

@@ -67,7 +67,7 @@ destination: in the long run what lasts is relationships and reputation (→ 18-
 | **Early disruption** | **Cash, and only cash** | Card machines stop when the power does (→ 19-02). Small bills |
 | Deeper disruption | Cash still moves; goods start to matter | Prices rise fast |
 | Extended | **Barter and reciprocity** | Trust becomes the medium (→ 18-01) |
-| Settled | A local exchange system re-emerges | Skills, labour, staple goods |
+| Settled | A local exchange system re-emerges | Skills, labor, staple goods |
 
 **Cash matters early, and most people have none.**
 
@@ -137,7 +137,7 @@ whole answer. Common entries, with the reason:
 
 ## Trade freely: what builds the network without costing you
 
-- **Skills and labour** (→ 18-03, → 18-08): repair, sewing, first aid, teaching. They regenerate.
+- **Skills and labor** (→ 18-03, → 18-08): repair, sewing, first aid, teaching. They regenerate.
 - **Surplus garden produce.** Visibly seasonal; it does not suggest a stocked pantry.
 - **Common batteries** from a deep stock.
 - **The boring hardware tier** above: fasteners, matches, soap, salt, seeds, sewing supplies.
@@ -145,14 +145,14 @@ whole answer. Common entries, with the reason:
 
 ## Trading with less risk
 
-- **Skills and labour first.** They reveal nothing about your stores.
+- **Skills and labor first.** They reveal nothing about your stores.
 - **Trade small.** Repeated small trades build a relationship; one large trade builds a reputation
   you may not want.
 - **Meet away from your house**, especially with people you do not know well (→ 18-05).
 - **Never let a trade become a tour of your supplies.** Bring only what you are trading.
 - **Trade with people you know**, and build up slowly with people you do not.
 - **Decline gracefully.** "We don't have any to spare" is a complete answer.
-- **Do not haggle hard with neighbours you will depend on.** The relationship is worth more than the
+- **Do not haggle hard with neighbors you will depend on.** The relationship is worth more than the
   margin.
 
 ## Fairness and reputation
@@ -179,11 +179,11 @@ In a small community, your reputation as a trader is a real asset or a real liab
   minutes at a full boil before tasting it, adding 1 minute for each 1,000 feet of altitude** (USDA,
   Complete Guide to Home Canning, Guide 1; CDC, Botulism Prevention; → 04-05). Low-acid foods are
   pressure-canned to the published time and pressure, or not canned (floor, → 30-01).
-  Prefer factory-sealed, labelled goods when you have a choice.
+  Prefer factory-sealed, labeled goods when you have a choice.
 {{#if has.infant}}- **Never honey for a child under 1 year** (infant botulism).{{else}}- **Never
   honey for a child under 1 year** (infant botulism).{{/if}}
 {{#if has.toddler}}- **A toddler trying a genuinely new food:** one new food at a time, at home,
-  with an adult watching afterwards (→ 20-01).{{/if}}
+  with an adult watching afterward (→ 20-01).{{/if}}
 - **Tell trading partners about allergies.** People are generally glad to know, and it stops a kind
   gift becoming an emergency (→ 18-01).
 
@@ -207,7 +207,7 @@ In a small community, your reputation as a trader is a real asset or a real liab
 {{/if}}
 
 **Substitutes:** skills for everything (repair, sewing, first aid, radio, sharpening, soap-making,
-teaching); a day's labour; made goods such as soap, candles and repaired items; information; salvaged
+teaching); a day's labor; made goods such as soap, candles and repaired items; information; salvaged
 surplus (→ 22-02).
 
 ## When it runs out
@@ -216,18 +216,18 @@ surplus (→ 22-02).
   sharpen, sew and dress a wound has a permanent trading position.
 - **Trade goods are surplus, never core supply.** Never trade into your own runway: food, water
   treatment, fuel or medicine (→ 23-02).
-- **Substitute** skills for goods, made goods for stocked goods, labour for both.
+- **Substitute** skills for goods, made goods for stocked goods, labor for both.
 - **The long view:** a household known for fair dealing, useful skills and reliable help is in a
   stronger position than one holding a large stockpile and no standing.
 
 ## By phase
 
-- **A, at home:** cash first (→ 19-02), then small neighbourly exchange (→ 18-01). Do not rush into
+- **A, at home:** cash first (→ 19-02), then small neighborly exchange (→ 18-01). Do not rush into
   visible trading.
 - **B, on the move:** trading on the road is risky (→ 18-05, → 14-01). Use skills, information and
   cash while it works. If you carry trade goods, keep them to one small box of the boring tier, opened
   away from the rest of your load. **Never arrive empty-handed** at a destination (→ 01-05): bring
   goods chosen for the household that takes you in, not only for your own.
-- **C, settled:** a local exchange economy is likely to re-emerge around produce, labour, skills and
+- **C, settled:** a local exchange economy is likely to re-emerge around produce, labor, skills and
   equipment. Being able to produce something tradeable (food, soap, repairs, care, teaching) is the
   durable position (→ 18-03, → 18-07).

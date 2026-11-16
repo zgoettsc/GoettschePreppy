@@ -86,7 +86,7 @@
   "region.home.nws_office": "NWS forecast office name (home base).",
   "region.dest.nws_office": "NWS forecast office name (inside #each destinations as x: x.region.nws_office).",
   "region.home.nwr": "Not a value: list of NOAA Weather Radio transmitters (call sign, frequency MHz, SAME code) (home base).",
-  "region.dest.nwr": "Not a value: list of NOAA Weather Radio transmitters (call sign, frequency MHz, SAME code) (inside #each destinations as x: x.region.nwr).",
+  "region.dest.nwr": "Not a value: inside #each destinations as x, loop with {{#each x.region.nwr as t}} (call, freq, same).",
   "region.home.state_em": "State emergency management agency name (home base).",
   "region.dest.state_em": "State emergency management agency name (inside #each destinations as x: x.region.state_em).",
   "region.home.hazards": "Not a value: list of hazards with rating 1 to 3 (home base).",
@@ -483,20 +483,402 @@
    ],
    "description": "Safe-starter edibles of the home ecoregion."
   },
-  "region.dest.nwr": {
-   "fields": [
-    "call",
-    "freq",
-    "same"
-   ],
-   "description": "Inside #each destinations as x: x.region.nwr transmitters."
-  },
   "region.home.nearby_same": {
    "fields": [
     "county",
     "same"
    ],
-   "description": "SAME codes of counties adjacent to home (for programming a weather radio)."
+   "description": "SAME codes of counties adjacent to home (for programming a weather radio). Empty until the region data carries county adjacency."
+  },
+  "meds_for.CL-01": {
+   "fields": [
+    "member",
+    "name",
+    "strength",
+    "schedule",
+    "refrigerated",
+    "if_missed",
+    "days_on_hand",
+    "where_kept",
+    "expiry",
+    "condition_text"
+   ],
+   "description": "Meds rows the household tagged as for CL-01. Empty when none are tagged: pages should then fall back to the full meds table with tick boxes."
+  },
+  "meds_for.CL-02": {
+   "fields": [
+    "member",
+    "name",
+    "strength",
+    "schedule",
+    "refrigerated",
+    "if_missed",
+    "days_on_hand",
+    "where_kept",
+    "expiry",
+    "condition_text"
+   ],
+   "description": "Meds rows the household tagged as for CL-02. Empty when none are tagged: pages should then fall back to the full meds table with tick boxes."
+  },
+  "meds_for.CL-03": {
+   "fields": [
+    "member",
+    "name",
+    "strength",
+    "schedule",
+    "refrigerated",
+    "if_missed",
+    "days_on_hand",
+    "where_kept",
+    "expiry",
+    "condition_text"
+   ],
+   "description": "Meds rows the household tagged as for CL-03. Empty when none are tagged: pages should then fall back to the full meds table with tick boxes."
+  },
+  "meds_for.CL-04": {
+   "fields": [
+    "member",
+    "name",
+    "strength",
+    "schedule",
+    "refrigerated",
+    "if_missed",
+    "days_on_hand",
+    "where_kept",
+    "expiry",
+    "condition_text"
+   ],
+   "description": "Meds rows the household tagged as for CL-04. Empty when none are tagged: pages should then fall back to the full meds table with tick boxes."
+  },
+  "meds_for.CL-05": {
+   "fields": [
+    "member",
+    "name",
+    "strength",
+    "schedule",
+    "refrigerated",
+    "if_missed",
+    "days_on_hand",
+    "where_kept",
+    "expiry",
+    "condition_text"
+   ],
+   "description": "Meds rows the household tagged as for CL-05. Empty when none are tagged: pages should then fall back to the full meds table with tick boxes."
+  },
+  "meds_for.CL-06": {
+   "fields": [
+    "member",
+    "name",
+    "strength",
+    "schedule",
+    "refrigerated",
+    "if_missed",
+    "days_on_hand",
+    "where_kept",
+    "expiry",
+    "condition_text"
+   ],
+   "description": "Meds rows the household tagged as for CL-06. Empty when none are tagged: pages should then fall back to the full meds table with tick boxes."
+  },
+  "meds_for.CL-07": {
+   "fields": [
+    "member",
+    "name",
+    "strength",
+    "schedule",
+    "refrigerated",
+    "if_missed",
+    "days_on_hand",
+    "where_kept",
+    "expiry",
+    "condition_text"
+   ],
+   "description": "Meds rows the household tagged as for CL-07. Empty when none are tagged: pages should then fall back to the full meds table with tick boxes."
+  },
+  "meds_for.CL-08": {
+   "fields": [
+    "member",
+    "name",
+    "strength",
+    "schedule",
+    "refrigerated",
+    "if_missed",
+    "days_on_hand",
+    "where_kept",
+    "expiry",
+    "condition_text"
+   ],
+   "description": "Meds rows the household tagged as for CL-08. Empty when none are tagged: pages should then fall back to the full meds table with tick boxes."
+  },
+  "meds_for.CL-09": {
+   "fields": [
+    "member",
+    "name",
+    "strength",
+    "schedule",
+    "refrigerated",
+    "if_missed",
+    "days_on_hand",
+    "where_kept",
+    "expiry",
+    "condition_text"
+   ],
+   "description": "Meds rows the household tagged as for CL-09. Empty when none are tagged: pages should then fall back to the full meds table with tick boxes."
+  },
+  "meds_for.CL-10": {
+   "fields": [
+    "member",
+    "name",
+    "strength",
+    "schedule",
+    "refrigerated",
+    "if_missed",
+    "days_on_hand",
+    "where_kept",
+    "expiry",
+    "condition_text"
+   ],
+   "description": "Meds rows the household tagged as for CL-10. Empty when none are tagged: pages should then fall back to the full meds table with tick boxes."
+  },
+  "meds_for.CL-11": {
+   "fields": [
+    "member",
+    "name",
+    "strength",
+    "schedule",
+    "refrigerated",
+    "if_missed",
+    "days_on_hand",
+    "where_kept",
+    "expiry",
+    "condition_text"
+   ],
+   "description": "Meds rows the household tagged as for CL-11. Empty when none are tagged: pages should then fall back to the full meds table with tick boxes."
+  },
+  "meds_for.CL-12": {
+   "fields": [
+    "member",
+    "name",
+    "strength",
+    "schedule",
+    "refrigerated",
+    "if_missed",
+    "days_on_hand",
+    "where_kept",
+    "expiry",
+    "condition_text"
+   ],
+   "description": "Meds rows the household tagged as for CL-12. Empty when none are tagged: pages should then fall back to the full meds table with tick boxes."
+  },
+  "meds_for.CL-13": {
+   "fields": [
+    "member",
+    "name",
+    "strength",
+    "schedule",
+    "refrigerated",
+    "if_missed",
+    "days_on_hand",
+    "where_kept",
+    "expiry",
+    "condition_text"
+   ],
+   "description": "Meds rows the household tagged as for CL-13. Empty when none are tagged: pages should then fall back to the full meds table with tick boxes."
+  },
+  "meds_for.CL-14": {
+   "fields": [
+    "member",
+    "name",
+    "strength",
+    "schedule",
+    "refrigerated",
+    "if_missed",
+    "days_on_hand",
+    "where_kept",
+    "expiry",
+    "condition_text"
+   ],
+   "description": "Meds rows the household tagged as for CL-14. Empty when none are tagged: pages should then fall back to the full meds table with tick boxes."
+  },
+  "meds_for.CL-15": {
+   "fields": [
+    "member",
+    "name",
+    "strength",
+    "schedule",
+    "refrigerated",
+    "if_missed",
+    "days_on_hand",
+    "where_kept",
+    "expiry",
+    "condition_text"
+   ],
+   "description": "Meds rows the household tagged as for CL-15. Empty when none are tagged: pages should then fall back to the full meds table with tick boxes."
+  },
+  "meds_for.CL-16": {
+   "fields": [
+    "member",
+    "name",
+    "strength",
+    "schedule",
+    "refrigerated",
+    "if_missed",
+    "days_on_hand",
+    "where_kept",
+    "expiry",
+    "condition_text"
+   ],
+   "description": "Meds rows the household tagged as for CL-16. Empty when none are tagged: pages should then fall back to the full meds table with tick boxes."
+  },
+  "meds_for.CL-17": {
+   "fields": [
+    "member",
+    "name",
+    "strength",
+    "schedule",
+    "refrigerated",
+    "if_missed",
+    "days_on_hand",
+    "where_kept",
+    "expiry",
+    "condition_text"
+   ],
+   "description": "Meds rows the household tagged as for CL-17. Empty when none are tagged: pages should then fall back to the full meds table with tick boxes."
+  },
+  "meds_for.CL-18": {
+   "fields": [
+    "member",
+    "name",
+    "strength",
+    "schedule",
+    "refrigerated",
+    "if_missed",
+    "days_on_hand",
+    "where_kept",
+    "expiry",
+    "condition_text"
+   ],
+   "description": "Meds rows the household tagged as for CL-18. Empty when none are tagged: pages should then fall back to the full meds table with tick boxes."
+  },
+  "meds_for.CL-19": {
+   "fields": [
+    "member",
+    "name",
+    "strength",
+    "schedule",
+    "refrigerated",
+    "if_missed",
+    "days_on_hand",
+    "where_kept",
+    "expiry",
+    "condition_text"
+   ],
+   "description": "Meds rows the household tagged as for CL-19. Empty when none are tagged: pages should then fall back to the full meds table with tick boxes."
+  },
+  "meds_for.CL-20": {
+   "fields": [
+    "member",
+    "name",
+    "strength",
+    "schedule",
+    "refrigerated",
+    "if_missed",
+    "days_on_hand",
+    "where_kept",
+    "expiry",
+    "condition_text"
+   ],
+   "description": "Meds rows the household tagged as for CL-20. Empty when none are tagged: pages should then fall back to the full meds table with tick boxes."
+  },
+  "meds_for.CL-21": {
+   "fields": [
+    "member",
+    "name",
+    "strength",
+    "schedule",
+    "refrigerated",
+    "if_missed",
+    "days_on_hand",
+    "where_kept",
+    "expiry",
+    "condition_text"
+   ],
+   "description": "Meds rows the household tagged as for CL-21. Empty when none are tagged: pages should then fall back to the full meds table with tick boxes."
+  },
+  "meds_for.CL-22": {
+   "fields": [
+    "member",
+    "name",
+    "strength",
+    "schedule",
+    "refrigerated",
+    "if_missed",
+    "days_on_hand",
+    "where_kept",
+    "expiry",
+    "condition_text"
+   ],
+   "description": "Meds rows the household tagged as for CL-22. Empty when none are tagged: pages should then fall back to the full meds table with tick boxes."
+  },
+  "meds_for.CL-23": {
+   "fields": [
+    "member",
+    "name",
+    "strength",
+    "schedule",
+    "refrigerated",
+    "if_missed",
+    "days_on_hand",
+    "where_kept",
+    "expiry",
+    "condition_text"
+   ],
+   "description": "Meds rows the household tagged as for CL-23. Empty when none are tagged: pages should then fall back to the full meds table with tick boxes."
+  },
+  "meds_for.CL-24": {
+   "fields": [
+    "member",
+    "name",
+    "strength",
+    "schedule",
+    "refrigerated",
+    "if_missed",
+    "days_on_hand",
+    "where_kept",
+    "expiry",
+    "condition_text"
+   ],
+   "description": "Meds rows the household tagged as for CL-24. Empty when none are tagged: pages should then fall back to the full meds table with tick boxes."
+  },
+  "meds_for.CL-25": {
+   "fields": [
+    "member",
+    "name",
+    "strength",
+    "schedule",
+    "refrigerated",
+    "if_missed",
+    "days_on_hand",
+    "where_kept",
+    "expiry",
+    "condition_text"
+   ],
+   "description": "Meds rows the household tagged as for CL-25. Empty when none are tagged: pages should then fall back to the full meds table with tick boxes."
+  },
+  "meds_for.CL-26": {
+   "fields": [
+    "member",
+    "name",
+    "strength",
+    "schedule",
+    "refrigerated",
+    "if_missed",
+    "days_on_hand",
+    "where_kept",
+    "expiry",
+    "condition_text"
+   ],
+   "description": "Meds rows the household tagged as for CL-26. Empty when none are tagged: pages should then fall back to the full meds table with tick boxes."
   }
  },
  "formatting": {

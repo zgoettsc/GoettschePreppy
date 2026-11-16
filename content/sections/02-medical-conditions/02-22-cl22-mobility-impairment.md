@@ -30,7 +30,7 @@ related:
   - 09-10-power-for-medical
   - 09-04-generators
   - 27-03-protecting-electronics
-  - 16-01-essential-tools
+  - 16-09-bicycle-and-transport
   - 08-01-heating-one-room
   - 01-07-evacuating-with-medical-needs
   - 22-06-kit-medical
@@ -45,6 +45,8 @@ related:
   - 30-16-dc15-someone-elses-prescription
   - 30-17-dc16-antibiotics-without-a-prescription
   - 30-20-dc19-when-to-leave
+  - 25-05-blank-logs
+  - 12-13-pain-and-fever
 cards: [DC-04, DC-15, DC-16, DC-19]
 explainers: [EX-02, EX-14]
 promote_when: [has.condition.CL-22, has.mobility_aid]
@@ -217,7 +219,7 @@ printed; use the ones for this condition.
 - **Someone else's prescription** is a card: {{choice DC-15}} (→ 30-16).
 - **Scavenging:** hospitals, care homes and supply stores hold chairs, cushions, catheters,
   commodes. Bicycle tubes and tyres sometimes fit chair wheels; check the size printed on the
-  tyre (→ 16-01).
+  tyre (→ 16-09).
 
 ## 9. Power and devices
 
@@ -247,6 +249,9 @@ printed; use the ones for this condition.
 - **Antibiotics without a prescription:** {{choice DC-16}} (→ 30-17).
 - **When to leave:** {{choice DC-19}} (→ 30-20). For a person who cannot leave fast, the trigger
   should be set early.
+
+The five questions to settle for every condition, and the whole library, are on → 12-11. The
+household's full medicine stockpile is on → 12-07.
 
 ## 12. My meds
 

@@ -20,7 +20,7 @@ cards: []
 explainers: [EX-03, EX-04]
 promote_when: [has.gas_any, is.snow_region, is.cold_winters]
 photo_slots:
-  - { id: gas-meter-valve, caption: "Our gas shutoff valve at the meter or tank, with the wrench hanging beside it" }
+  - { id: gas-shutoff, caption: "Our gas shutoff valve at the meter or tank, with the wrench hanging beside it" }
   - { id: water-main-shutoff, caption: "Our main water shutoff valve, and which way turns it off" }
   - { id: breaker-panel, caption: "Our breaker panel: where it is, and the main breaker" }
 figures: [fig-gas-valve-on-off, fig-roof-tarp-over-ridge, fig-ladder-four-to-one, fig-push-fit-coupling]
@@ -48,7 +48,7 @@ None of the materials can be bought after the storm, because everyone else's roo
 >
 > **Never connect a generator to house wiring except through a transfer switch, or an interlock kit
 > with the main breaker off. Never backfeed through an outlet with a double-male ("suicide")
-> cord.** It electrocutes line workers and neighbours and starts fires (floor, → 30-01; → 29-04).
+> cord.** It electrocutes line workers and neighbors and starts fires (floor, → 30-01; → 29-04).
 > Run cords to single appliances instead.
 >
 > **Never run a generator, charcoal, or any engine indoors, in a garage, or near an open window**
@@ -56,7 +56,7 @@ None of the materials can be bought after the storm, because everyone else's roo
 
 ## Do this now
 
-1. **Find the gas shutoff and the main water shutoff.** Practise both in the dark. Photograph both
+1. **Find the gas shutoff and the main water shutoff.** Practice both in the dark. Photograph both
    (blocks below). Write their locations on the family plan (→ 00-04).
 2. **Buy the roof kit before storm season:** two heavy tarps sized for your roof (rule below), a
    bundle of 1x2 furring strips (thin wooden strips), and a box of 2-inch exterior screws.
@@ -79,7 +79,7 @@ meter (natural gas) or at the tank (propane).
 
 {{figure fig-gas-valve-on-off}}
 
-{{photo gas-meter-valve}}
+{{photo gas-shutoff}}
 
 ```
 [ ] SMELL GAS (rotten eggs) or HEAR HISSING -> everyone OUT, now.
@@ -154,7 +154,7 @@ Blue Roof Information).
    bottom.
 5. **Bottom edge:** roll it around a strip and screw it onto sound roof, or let it hang over the eave
    with the roll screwed at the sides.
-6. **Never bricks, sandbags or tyres alone.** The first gust turns them into missiles and the tarp
+6. **Never bricks, sandbags or tires alone.** The first gust turns them into missiles and the tarp
    into a sail. Weights are only for an hour while you fetch the screws.
 7. **Yes, the screws make holes.** Each is under the tarp or through it into wood, and easy to seal
    later with roofing cement (→ 16-05). A peeled-off tarp is a flooded house now. Count the screws
@@ -219,7 +219,7 @@ pipes** (→ 03-06). Everything below is done on a drained line with no pressure
 | Dull orange-brown metal, soldered joints | **Copper** | Push-fit works |
 | Cream or tan rigid plastic, printed "CPVC" | **CPVC** | Push-fit works; old CPVC is brittle, cut gently |
 | Flexible tubing, often red, blue or white, printed "PEX" | **PEX** | Push-fit works; use the stiffener insert that comes with the fitting |
-| Grey metal, threaded joints, a magnet sticks | **Galvanized steel** (older houses) | **Push-fit does not fit.** Cap or clamp the branch and live without it; the real repair is threaded fittings and two pipe wrenches |
+| Gray metal, threaded joints, a magnet sticks | **Galvanized steel** (older houses) | **Push-fit does not fit.** Cap or clamp the branch and live without it; the real repair is threaded fittings and two pipe wrenches |
 
 **The non-plumber's repair: a push-fit coupling on a clean cut.** A push-fit coupling is a short
 fitting that seals with rubber rings and grips with steel teeth. No torch, no glue.
@@ -227,7 +227,7 @@ fitting that seals with rubber rings and grips with steel teeth. No torch, no gl
 {{figure fig-push-fit-coupling}}
 
 1. **Cut out the split** with the tube cutter (or a hacksaw, square across), removing a short
-   section centred on the damage. If the split is long, make two cuts and bridge the gap with a
+   section centered on the damage. If the split is long, make two cuts and bridge the gap with a
    repair coupling, or a spare piece of pipe and two couplings.
 2. **Smooth the cut ends** (remove the sharp lip, "deburr") and wipe clean. A scratch or burr will
    leak. **On copper, use emery cloth only if it is corroded, and lightly**: deep scratches spoil the

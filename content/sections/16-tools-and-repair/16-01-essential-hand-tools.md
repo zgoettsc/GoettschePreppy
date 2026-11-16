@@ -116,14 +116,14 @@ for a lifetime.
   Noise and Hearing Loss), and there may be no hearing specialist.
 - Work gloves, several pairs, plus cut-resistant gloves
 - Sturdy boots, steel-toe if you can
-- Dust masks or respirators for sawdust, insulation, mould and ash
+- Dust masks or respirators for sawdust, insulation, mold and ash
 - A first-aid kit and a bleeding-control kit at the work area, not in the house (→ 12-01,
   → 12-08). A tourniquet and the training to use it are the core of bleeding control (American
   College of Surgeons, Stop the Bleed).
 
 ## Power tools and the power you have
 
-Power tools save a great deal of labour while there is power for them. What limits them is fuel,
+Power tools save a great deal of labor while there is power for them. What limits them is fuel,
 charged batteries and sun, not the tool.
 
 {{#if has.power_station}}**You own a power station** (about {{ gear.station_wh_total }} watt-hours

@@ -46,6 +46,8 @@ related:
   - 30-09-dc08-heat-exposed-medication
   - 30-16-dc15-someone-elses-prescription
   - 30-20-dc19-when-to-leave
+  - 29-14-ex14-reading-a-label
+  - 29-02-ex02-batteries-and-power-stations
 cards: [DC-04, DC-08, DC-15, DC-19]
 explainers: [EX-02, EX-07, EX-14]
 promote_when: [has.condition.CL-15]
@@ -274,6 +276,9 @@ printed; use the ones for this condition.
 but does not stop it. A household in that position should talk through, in advance and calmly,
 what it will do (→ 12-16). Having that conversation early is part of caring for the person, not
 giving up on them.
+
+The five questions to settle for every condition, and the whole library, are on → 12-11. The
+household's full medicine stockpile is on → 12-07.
 
 ## 12. My meds
 

@@ -44,6 +44,8 @@ related:
   - 30-16-dc15-someone-elses-prescription
   - 30-17-dc16-antibiotics-without-a-prescription
   - 30-19-dc18-unlabeled-food-and-allergies
+  - 30-01-the-floors
+  - 09-10-power-for-medical
 cards: [DC-04, DC-08, DC-14, DC-15, DC-16]
 explainers: [EX-07, EX-14]
 promote_when: [has.condition.CL-19]
@@ -236,6 +238,9 @@ None, unless a medicine needs a fridge (→ 09-10).
 - **Questionable food:** {{choice DC-14}} (→ 30-15).
 - **Someone else's prescription:** {{choice DC-15}} (→ 30-16).
 - **Antibiotics without a prescription:** {{choice DC-16}} (→ 30-17).
+
+The five questions to settle for every condition, and the whole library, are on → 12-11. The
+household's full medicine stockpile is on → 12-07.
 
 ## 12. My meds
 

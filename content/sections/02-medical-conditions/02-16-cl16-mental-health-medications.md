@@ -49,6 +49,9 @@ related:
   - 30-01-the-floors
   - 30-05-dc04-expired-medication
   - 30-16-dc15-someone-elses-prescription
+  - 29-14-ex14-reading-a-label
+  - 29-07-ex07-refrigerated-medicines
+  - 30-20-dc19-when-to-leave
 cards: [DC-04, DC-15, DC-19]
 explainers: [EX-14]
 promote_when: [has.condition.CL-16]
@@ -256,6 +259,9 @@ daylight outdoors is the free version (→ 21-02).
 - **Someone else's prescription:** {{choice DC-15}} (→ 30-16).
 - **When to leave:** {{choice DC-19}} (→ 30-20). A medicine that cannot be stopped safely and is
   running out is a reason to move toward care.
+
+The five questions to settle for every condition, and the whole library, are on → 12-11. The
+household's full medicine stockpile is on → 12-07.
 
 ## 12. My meds
 

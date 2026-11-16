@@ -8,7 +8,10 @@
     "licence_note": "US federal government work; public domain.",
     "url": "https://www.weather.gov/news/243009-cold-hazard-simplification",
     "household_cited_by": [],
-    "cited_by": []
+    "cited_by": [
+      "17-01-blizzards-and-ice",
+      "17-04-extreme-cold-and-heat"
+    ]
   },
   {
     "key": "nws-heat-hazard-renaming-2025",
@@ -19,7 +22,9 @@
     "licence_note": "US federal government work; public domain.",
     "url": "https://www.weather.gov/news/250310-heat-hazard",
     "household_cited_by": [],
-    "cited_by": []
+    "cited_by": [
+      "17-04-extreme-cold-and-heat"
+    ]
   },
   {
     "key": "nws-destructive-thunderstorm-wea-2021",
@@ -30,7 +35,10 @@
     "licence_note": "US federal government work; public domain.",
     "url": "https://www.weather.gov/news/072221-svr-wea",
     "household_cited_by": [],
-    "cited_by": []
+    "cited_by": [
+      "17-02-tornadoes",
+      "17-18-hail-and-damaging-wind"
+    ]
   },
   {
     "key": "nws-hurricane-watches-warnings",
@@ -41,7 +49,9 @@
     "licence_note": "US federal government work; public domain.",
     "url": "https://www.weather.gov/safety/hurricane-ww",
     "household_cited_by": [],
-    "cited_by": []
+    "cited_by": [
+      "17-13-hurricanes-and-tropical-storms"
+    ]
   },
   {
     "key": "noaa-nhc-saffir-simpson-scale",
@@ -52,7 +62,9 @@
     "licence_note": "US federal government work; public domain.",
     "url": "https://www.nhc.noaa.gov/aboutsshws.php",
     "household_cited_by": [],
-    "cited_by": []
+    "cited_by": [
+      "17-13-hurricanes-and-tropical-storms"
+    ]
   },
   {
     "key": "noaa-nhc-storm-surge-overview",
@@ -63,7 +75,9 @@
     "licence_note": "US federal government work; public domain.",
     "url": "https://www.nhc.noaa.gov/surge/",
     "household_cited_by": [],
-    "cited_by": []
+    "cited_by": [
+      "17-13-hurricanes-and-tropical-storms"
+    ]
   },
   {
     "key": "nws-tsunami-during",
@@ -74,7 +88,10 @@
     "licence_note": "US federal government work; public domain.",
     "url": "https://www.weather.gov/safety/tsunami-during",
     "household_cited_by": [],
-    "cited_by": []
+    "cited_by": [
+      "17-12-earthquakes",
+      "17-15-tsunamis"
+    ]
   },
   {
     "key": "ready-gov-tsunamis",
@@ -85,7 +102,9 @@
     "licence_note": "US federal government work; public domain.",
     "url": "https://www.ready.gov/tsunamis",
     "household_cited_by": [],
-    "cited_by": []
+    "cited_by": [
+      "17-15-tsunamis"
+    ]
   },
   {
     "key": "ready-gov-volcanoes",
@@ -96,7 +115,9 @@
     "licence_note": "US federal government work; public domain.",
     "url": "https://www.ready.gov/volcanoes",
     "household_cited_by": [],
-    "cited_by": []
+    "cited_by": [
+      "17-16-volcanic-ashfall"
+    ]
   },
   {
     "key": "usgs-volcanic-ash-roof-loading",
@@ -107,7 +128,9 @@
     "licence_note": "US federal government work; public domain.",
     "url": "https://volcanoes.usgs.gov/volcanic_ash/roof_loading.html",
     "household_cited_by": [],
-    "cited_by": []
+    "cited_by": [
+      "17-16-volcanic-ashfall"
+    ]
   },
   {
     "key": "ready-gov-landslides-debris-flow",
@@ -118,7 +141,9 @@
     "licence_note": "US federal government work; public domain.",
     "url": "https://www.ready.gov/landslides-debris-flow",
     "household_cited_by": [],
-    "cited_by": []
+    "cited_by": [
+      "17-17-landslides-and-debris-flows"
+    ]
   },
   {
     "key": "usgs-landslide-preparedness",
@@ -129,7 +154,9 @@
     "licence_note": "US federal government work; public domain.",
     "url": "https://www.usgs.gov/programs/landslide-hazards/landslide-preparedness",
     "household_cited_by": [],
-    "cited_by": []
+    "cited_by": [
+      "17-17-landslides-and-debris-flows"
+    ]
   },
   {
     "key": "ready-gov-floods",
@@ -140,7 +167,11 @@
     "licence_note": "US federal government work; public domain.",
     "url": "https://www.ready.gov/floods",
     "household_cited_by": [],
-    "cited_by": []
+    "cited_by": [
+      "17-03-floods",
+      "17-11-corridor-hazards",
+      "17-13-hurricanes-and-tropical-storms"
+    ]
   },
   {
     "key": "fema-flood-map-service-center",
@@ -151,7 +182,9 @@
     "licence_note": "US federal government work; public domain.",
     "url": "https://msc.fema.gov/portal/home",
     "household_cited_by": [],
-    "cited_by": []
+    "cited_by": [
+      "17-03-floods"
+    ]
   },
   {
     "key": "airnow-aqi-basics",
@@ -162,7 +195,9 @@
     "licence_note": "US federal government work; public domain.",
     "url": "https://www.airnow.gov/aqi/aqi-basics/",
     "household_cited_by": [],
-    "cited_by": []
+    "cited_by": [
+      "17-14-wildfire-smoke-and-evacuation"
+    ]
   },
   {
     "key": "epa-clean-room-wildfire",
@@ -173,7 +208,10 @@
     "licence_note": "US federal government work; public domain.",
     "url": "https://www.epa.gov/indoor-air-quality-iaq/create-clean-room-protect-indoor-air-quality-during-wildfire",
     "household_cited_by": [],
-    "cited_by": []
+    "cited_by": [
+      "17-14-wildfire-smoke-and-evacuation",
+      "17-16-volcanic-ashfall"
+    ]
   },
   {
     "key": "nssl-hail-basics",
@@ -184,7 +222,9 @@
     "licence_note": "US federal government work; public domain.",
     "url": "https://www.nssl.noaa.gov/education/svrwx101/hail/",
     "household_cited_by": [],
-    "cited_by": []
+    "cited_by": [
+      "17-18-hail-and-damaging-wind"
+    ]
   },
   {
     "key": "nssl-damaging-winds-basics",
@@ -195,7 +235,10 @@
     "licence_note": "US federal government work; public domain.",
     "url": "https://www.nssl.noaa.gov/education/svrwx101/wind/",
     "household_cited_by": [],
-    "cited_by": []
+    "cited_by": [
+      "17-02-tornadoes",
+      "17-18-hail-and-damaging-wind"
+    ]
   },
   {
     "key": "fema-p-320-taking-shelter",
@@ -206,7 +249,9 @@
     "licence_note": "US federal government work; public domain.",
     "url": "https://www.fema.gov/emergency-managers/risk-management/safe-rooms/resources",
     "household_cited_by": [],
-    "cited_by": []
+    "cited_by": [
+      "17-06-tornado-shelter"
+    ]
   },
   {
     "key": "ready-gov-power-outages",
@@ -217,7 +262,9 @@
     "licence_note": "US federal government work; public domain.",
     "url": "https://www.ready.gov/power-outages",
     "household_cited_by": [],
-    "cited_by": []
+    "cited_by": [
+      "17-08-power-grid-failure"
+    ]
   },
   {
     "key": "usgs-earthquake-early-warning",
@@ -228,6 +275,21 @@
     "licence_note": "US federal government work; public domain.",
     "url": "https://www.usgs.gov/programs/earthquake-hazards/science/early-warning",
     "household_cited_by": [],
-    "cited_by": []
+    "cited_by": [
+      "17-12-earthquakes"
+    ]
+  },
+  {
+    "key": "nws-dust-storm-safety",
+    "title": "Dust Storms and Haboobs (Dust Storm Safety)",
+    "org": "NOAA / National Weather Service",
+    "date": "2024",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work; public domain.",
+    "url": "https://www.weather.gov/safety/wind-dust-storm",
+    "household_cited_by": [],
+    "cited_by": [
+      "17-18-hail-and-damaging-wind"
+    ]
   }
 ]

@@ -25,7 +25,9 @@ related:
   - 09-10-power-for-medical
   - 27-03-protecting-electronics
   - 27-02-emp-and-geomagnetic-storm
-  - 15-01-comms-plan
+  - 15-03-family-comms-plan
+  - 15-07-signals-and-codes
+  - 15-01-weather-alerts
   - 10-01-lighting-options
   - 13-02-hygiene-and-handwashing
   - 00-04-family-emergency-plan
@@ -38,6 +40,7 @@ related:
   - 29-02-ex02-batteries-and-power-stations
   - 30-05-dc04-expired-medication
   - 30-16-dc15-someone-elses-prescription
+  - 29-14-ex14-reading-a-label
 cards: [DC-04, DC-15]
 explainers: [EX-02, EX-14]
 promote_when: [has.condition.CL-23]
@@ -124,7 +127,8 @@ Alarms):
 - **Smoke and CO alarms** with strobe lights or a bed shaker for a person who is deaf or hard of
   hearing.
 - **A household signal:** a flashlight flicked on and off, a tap on the shoulder, a written card
-  ("FIRE: OUT NOW", "STAY INSIDE", "WE ARE LEAVING").
+  ("FIRE: OUT NOW", "STAY INSIDE", "WE ARE LEAVING"). Agree the signals with everyone (→ 15-07).
+- **Weather and hazard alerts** by text, a light or vibration as well as sound (→ 15-01).
 - **A notepad and pencil** in every room and every go-bag; a whiteboard by the door.
 - **At night,** the person sleeps where someone can reach them quickly.
 
@@ -216,13 +220,16 @@ Date: __________
   battery card in a pocket.
 - **Tell rescuers and shelter staff** that the person is deaf, hard of hearing, blind or low
   vision; a card saying so helps (→ 25-09).
-- **The communication plan** (→ 15-01, → 00-04) should include how this person will be reached
+- **The communication plan** (→ 15-03, → 00-04) should include how this person will be reached
   if separated: text, written notes, a meeting place.
 
 ## 11. Decision cards that apply
 
 - **Expired medicine or eye drops:** {{choice DC-04}} (→ 30-05).
 - **Someone else's prescription:** {{choice DC-15}} (→ 30-16).
+
+The five questions to settle for every condition, and the whole library, are on → 12-11. The
+household's full medicine stockpile is on → 12-07.
 
 ## 12. My meds
 

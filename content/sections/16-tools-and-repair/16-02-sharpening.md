@@ -195,7 +195,7 @@ Chain Saw Safely; → 16-06).
   choice even though it is slower.
 - **Strop often, sharpen rarely.** Stropping removes almost no metal. Heavy sharpening uses up
   the tool. A knife stropped daily may not need a stone for months.
-- **The skill is the resource.** Someone who can sharpen keeps every edge in a neighbourhood
+- **The skill is the resource.** Someone who can sharpen keeps every edge in a neighborhood
   working, and that is a service people will trade for (→ 18-03).
 
 ## By phase

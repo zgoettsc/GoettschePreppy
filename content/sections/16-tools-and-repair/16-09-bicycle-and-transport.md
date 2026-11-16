@@ -46,9 +46,9 @@ food. **A bicycle with a trailer is the most capable human-powered transport the
 
 ## Do this now
 
-1. **Make sure every adult's bicycle actually works:** tyres, tubes, brakes, chain. A bike with
-   flat tyres and a rusted chain is not transport.
-2. **Buy the consumables, several of each:** inner tubes, patch kits, tyres, chain, quick links,
+1. **Make sure every adult's bicycle actually works:** tires, tubes, brakes, chain. A bike with
+   flat tires and a rusted chain is not transport.
+2. **Buy the consumables, several of each:** inner tubes, patch kits, tires, chain, quick links,
    brake pads, cables.
 3. **Buy a bike trailer** (cargo or child). It turns a bicycle into a hauling vehicle.
 4. **Buy a plastic sled and a garden cart.** Between them they cover most winter and summer
@@ -58,7 +58,7 @@ food. **A bicycle with a trailer is the most capable human-powered transport the
 
 ## Why it matters
 
-Fuel runs out, and vehicles also need tyres, batteries and parts. **A bicycle needs food and a
+Fuel runs out, and vehicles also need tires, batteries and parts. **A bicycle needs food and a
 small kit of spares.**
 - It moves at three to four times walking speed and carries far more.
 - **With a trailer it can haul 100 lb or more:** water (→ 03-02), firewood (→ 06-04), salvage
@@ -75,7 +75,7 @@ salvage run. That is what the trailer is for.
 |---|---|
 | Dry and mild | **Bicycle and trailer**: excellent. Cart and wheelbarrow for short hauls |
 | Mud | Bike is poor. **Cart with wide wheels**, or walk |
-| Ice and snow | **Sled.** A bike on ice is a broken wrist. Studded tyres help on packed snow, not in drifts |
+| Ice and snow | **Sled.** A bike on ice is a broken wrist. Studded tires help on packed snow, not in drifts |
 | Deep snow or blizzard | **Nothing. Do not move** (→ 17-01) |
 
 {{#if is.snow_region}}**You live in snow country.** Plan on the sled for several months a year.{{/if}}
@@ -86,27 +86,27 @@ foot is one of the most likely ways to break a bone in this whole binder (→ 11
 
 ## Choosing and keeping a bicycle
 
-**Choose sturdy over fast:** a hybrid or mountain bike with **wide tyres**, a **steel frame** (it
+**Choose sturdy over fast:** a hybrid or mountain bike with **wide tires**, a **steel frame** (it
 can be brazed if it cracks, → 16-08), **rack mounts**, and simple parts. Complicated modern gears
 have more to go wrong and fewer spares.
 
 | Part | Why | Stock |
 |---|---|---|
-| **Inner tubes** | The number one failure by far | **Two or more per bike** (size is printed on the tyre's side) |
+| **Inner tubes** | The number one failure by far | **Two or more per bike** (size is printed on the tire's side) |
 | Patch kits with vulcanizing patches and glue | A tube can be patched many times | Several kits; the glue dries out once opened |
-| Tyres | Wear; sidewalls crack with age and sunlight | A spare pair per bike |
+| Tires | Wear; sidewalls crack with age and sunlight | A spare pair per bike |
 | Chain and quick links | Stretches and snaps | One or two spare chains; two quick links per bike |
 | Brake pads and cables | Safety-critical; wear steadily | Several sets |
 | Spokes and a spoke wrench | Loaded wheels go out of true | A handful per wheel size |
 | Grease, chain lube, oil | Neglect kills bikes | Bulk |
-| Tyre levers, pump, multi-tool, chain tool | The field kit | On the bike |
+| Tire levers, pump, multi-tool, chain tool | The field kit | On the bike |
 
-**Puncture-resistant tyres or tyre liners** are worth the money: glass and thorns are constant. A
+**Puncture-resistant tires or tire liners** are worth the money: glass and thorns are constant. A
 frame pump on the bike and a floor pump at home. A pump is not optional.
 
 **Upkeep that matters:**
 - Keep the chain clean and oiled. A dry chain wears everything fast.
-- Keep tyres at the pressure printed on the sidewall. Low pressure causes "pinch" flats and rim
+- Keep tires at the pressure printed on the sidewall. Low pressure causes "pinch" flats and rim
   damage.
 - Keep the bike dry and under cover. Rust destroys bikes.
 - Straighten ("true") a wheel that wobbles.
@@ -122,11 +122,11 @@ Patching still matters: it is what lets each tube survive many flats.
 1. **Remove the wheel.** Open the brake's quick release (or unhook the curved cable end on rim
    brakes), then open the axle lever or undo the axle nuts. For the rear wheel, shift to the
    smallest rear gear first so the chain drops off easily.
-2. Let out all remaining air. Hook a tyre lever under the tyre's edge (the "bead"), pry it over
+2. Let out all remaining air. Hook a tire lever under the tire's edge (the "bead"), pry it over
    the rim, and hook the lever onto a spoke.
-3. Slide a second lever along under the bead until one whole side of the tyre is off the rim.
+3. Slide a second lever along under the bead until one whole side of the tire is off the rim.
    Leave the other side on.
-4. Pull out the tube, valve last. **Then run your fingers slowly around the inside of the tyre.**
+4. Pull out the tube, valve last. **Then run your fingers slowly around the inside of the tire.**
    The nail or glass that caused this is usually still there, waiting for the next tube. Check
    that the rim tape covers every spoke hole.
 5. **Find the hole:** pump some air in and listen, or pass it slowly near your lips to feel the
@@ -134,19 +134,19 @@ Patching still matters: it is what lets each tube survive many flats.
 6. **Patch:** rub the spot with the kit's sandpaper until dull. Spread a thin film of glue wider
    than the patch. **Wait until the glue looks dry, 2 to 3 minutes. This is the step everyone
    rushes, and why patches fail.** Peel the foil off the patch without touching the black rubber
-   underneath, and press that black side onto the glue, centred on the hole. **The clear plastic
+   underneath, and press that black side onto the glue, centered on the hole. **The clear plastic
    film on top stays on.** Press hard for 30 seconds.
 7. **Refit:** put a breath of air in the tube so it holds its shape, push the valve through the
-   rim, tuck the tube into the tyre all round, then roll the bead back over the rim with your
+   rim, tuck the tube into the tire all round, then roll the bead back over the rim with your
    palms, finishing opposite the valve. **Use levers only for the last few inches**; levers pinch
    tubes.
-8. Before pumping up, squeeze your way round both sides of the tyre to check the tube is not caught
+8. Before pumping up, squeeze your way round both sides of the tire to check the tube is not caught
    under the bead.
-9. Pump to the pressure printed on the tyre. Spin the wheel and check the line moulded on the tyre
+9. Pump to the pressure printed on the tire. Spin the wheel and check the line molded on the tire
    sits evenly above the rim all the way round. Refit the wheel, reconnect the brake, spin it, and
    squeeze the brake once before riding.
 
-**Practise this once at home this month.** Your first flat repair should not be the real one.
+**Practice this once at home this month.** Your first flat repair should not be the real one.
 
 ## Procedure 2: adjust rim brakes
 
@@ -160,9 +160,9 @@ Patching still matters: it is what lets each tube survive many flats.
    bolt** on the brake arm, pull the cable snug with pliers so the pads almost touch the rim, and
    tighten the bolt firmly.
 4. **Test:** spin the wheel; it must turn freely. Squeeze hard; it must stop dead. Release; it
-   must spin freely again. If one pad drags, centre the brake (most have a small centring screw on
+   must spin freely again. If one pad drags, center the brake (most have a small centring screw on
    one arm) or check the wheel is seated straight.
-5. **Pads must hit the rim fully**, never the tyre (it will cut through) and never below the rim.
+5. **Pads must hit the rim fully**, never the tire (it will cut through) and never below the rim.
    Loosen, line up, tighten. Replace pads worn past their grooves.
 
 Disc brakes work differently; follow the bike maker's manual.
@@ -209,22 +209,22 @@ Disc brakes work differently; follow the bike maker's manual.
 - **In the cold: a sled, not a bike.** A child in a trailer moving at bike speed in freezing air
   feels a serious wind chill and is making no heat (→ 11-02, → 12-10). Check them constantly, or
   do not go.
-- **Bright colours and helmets for everyone.**
+- **Bright colors and helmets for everyone.**
 
 ## Gear
 
 | Item | Why | Notes |
 |---|---|---|
-| A working bicycle per adult | Fuel-free transport | Steel frame, wide tyres, rack mounts |
+| A working bicycle per adult | Fuel-free transport | Steel frame, wide tires, rack mounts |
 | **Bike trailer, cargo or child** | Turns a bike into a hauler | The key accessory |
 | **Two tubes per bike, correct size** | Swap now, patch later | Wrapped, out of the sun |
 | **Patch kits, two or more** | Each tube lasts many flats | Check glue every year |
-| Tyre levers, three | Procedure 1 | Plastic; on the bike |
+| Tire levers, three | Procedure 1 | Plastic; on the bike |
 | **Quick links, two per bike, matching the chain** | Procedure 3 | Tape one under the saddle |
 | Frame pump and floor pump | Every repair ends with air | Not optional |
-| Spare tyres, chain, cables, brake pads | The other consumables | Several of each |
+| Spare tires, chain, cables, brake pads | The other consumables | Several of each |
 | Multi-tool and chain tool | Field repair | On the bike |
-| Puncture-resistant tyres or liners | Flats are the top failure | Worth it |
+| Puncture-resistant tires or liners | Flats are the top failure | Worth it |
 | Rear rack and bags | Carrying without a trailer | |
 | **Plastic sled or toboggan, two** | The winter transport | Cheap; important |
 | **Garden cart or wheelbarrow** | Water, wood, dirt, salvage | Wide wheels for soft ground |
@@ -242,16 +242,16 @@ Disc brakes work differently; follow the bike maker's manual.
 - **Sled:** plastic toboggan, a plastic barrel cut in half lengthwise, a truck bed liner, a car
   hood.
 - **Tube patches:** pieces of old inner tube glued with contact cement (→ 16-05).
-- **Tyres:** hard to improvise. Stock them.
+- **Tires:** hard to improvise. Stock them.
 
 ## When it runs out
 
-- **Tubes and tyres are what stop a bicycle completely.** Stock them heavily. Patch kits stretch
+- **Tubes and tires are what stop a bicycle completely.** Stock them heavily. Patch kits stretch
   tubes a long way, so patches are the best-value spare.
-- **Count tubes and tyres per bike** and add them to → 23-02.
+- **Count tubes and tires per bike** and add them to → 23-02.
 - **Make them last:** patch rather than replace; keep pressure right; fit liners; watch for glass.
-- **Last resort:** a flat tyre stuffed tight with rope, cloth or hose gets you home slowly.
-- **The sled and the cart are the options that cannot fail**: no tyres, no chain, no spares, just a
+- **Last resort:** a flat tire stuffed tight with rope, cloth or hose gets you home slowly.
+- **The sled and the cart are the options that cannot fail**: no tires, no chain, no spares, just a
   hull and a rope (→ 16-03). In a very long event, they are what is still working.
 - **Walking never runs out:** good boots (→ 11-06), a good pack, reasonable loads.
 

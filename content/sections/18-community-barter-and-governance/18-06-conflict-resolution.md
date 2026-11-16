@@ -29,10 +29,10 @@ review_pass: null
 
 # Conflict resolution between households
 
-**What this page is for.** Handling the ordinary disputes with neighbours that a long emergency
+**What this page is for.** Handling the ordinary disputes with neighbors that a long emergency
 brings: water, noise, animals, boundaries, help given and not returned, children, dogs, borrowed
 tools. That is normal, and most of it is manageable. **You cannot afford enemies next door.** Every
-hard scenario in this binder is better with cooperative neighbours (→ 18-01). A dispute that ends a
+hard scenario in this binder is better with cooperative neighbors (→ 18-01). A dispute that ends a
 relationship costs far more than whatever it was about.
 
 > **CAUTION. This page is about ordinary disputes, not violence.** Threats, violence, theft and
@@ -46,12 +46,12 @@ relationship costs far more than whatever it was about.
 1. **Build relationships now** (→ 18-01). A dispute between people who like each other gets settled;
    a dispute between strangers escalates. That is the whole prevention strategy.
 2. **Settle the predictable friction points in advance:** boundaries, shared fences, drainage, where
-   the dog goes, where waste water goes (→ 13-03). Most neighbourhood conflict is about things that
+   the dog goes, where waste water goes (→ 13-03). Most neighborhood conflict is about things that
    could have been agreed beforehand.
 3. **Agree among the adults how you will handle a dispute:** who talks, what you will concede, what
-   you will not (→ 21-05, → 00-07). A household that argues in front of the neighbour loses twice.
+   you will not (→ 21-05, → 00-07). A household that argues in front of the neighbor loses twice.
 4. **Find out who the natural peacemakers are:** the respected long-timer, the faith leader, the
-   person everyone likes. Every neighbourhood has them.
+   person everyone likes. Every neighborhood has them.
 
 ## What disputes will actually be about
 
@@ -75,7 +75,7 @@ relationship costs far more than whatever it was about.
 2. **Go in person, calmly, at a good time.** Not when either of you is exhausted, cold or hungry
    (→ 21-01). Not at night.
 3. **One adult, not two.** Two people arriving looks like a confrontation.
-4. **Lead with the relationship.** "I want to sort this out because we're going to be neighbours
+4. **Lead with the relationship.** "I want to sort this out because we're going to be neighbors
    for a long time."
 5. **Describe the problem, not the person.** "Water is running into our yard," not "you're
    careless."
@@ -85,12 +85,12 @@ relationship costs far more than whatever it was about.
 8. **Concede what you can.** Being right is worth less than being on good terms.
 9. **If it heats up, step away.** "Let me think about it. Can we talk tomorrow?" You can always come
    back; you cannot un-say things.
-10. **Follow up.** Confirm it is settled, and be pleasant afterwards. A settled dispute that leaves
+10. **Follow up.** Confirm it is settled, and be pleasant afterward. A settled dispute that leaves
     coldness is only half settled.
 
 ## When you cannot settle it yourselves
 
-- **A third person:** a respected neighbour, a mutual friend, a faith leader. Informal mediation
+- **A third person:** a respected neighbor, a mutual friend, a faith leader. Informal mediation
   works remarkably well; it is the traditional way.
 - **Choose the mediator together**, and agree in advance whether their view decides it or only
   advises.
@@ -104,7 +104,7 @@ relationship costs far more than whatever it was about.
   outcome and often the right one.
 - **Reduce contact:** fences, schedules, routes, not sharing what causes friction.
 - **Do not feed it.** You can refuse to escalate on your own.
-- **Do not recruit the neighbourhood.** Turning a two-party dispute into sides is the worst outcome
+- **Do not recruit the neighborhood.** Turning a two-party dispute into sides is the worst outcome
   and very hard to undo.
 - **Accept a loss and move on** when the thing at stake is smaller than the relationship, which it
   usually is.
@@ -114,10 +114,10 @@ relationship costs far more than whatever it was about.
 A different category, treated differently (→ 14-01):
 - **Threats, violence, theft and crimes** go to law enforcement wherever it exists.
 - **Where none exists:** distance, awareness and securing your home (→ 14-02), not confrontation. You
-  cannot win a feud with a neighbour.
+  cannot win a feud with a neighbor.
 - **Do not go and confront someone** about a safety matter. That is how situations become
   irreversible.
-- **Tell other neighbours the facts**, not to build a side, but because shared awareness protects
+- **Tell other neighbors the facts**, not to build a side, but because shared awareness protects
   everyone (→ 18-01).
 
 ## Your own household first
@@ -126,7 +126,7 @@ How a dispute goes is decided mostly inside your own house (→ 21-05, → 21-01
 - **Agree the approach among the adults first.** A united, calm household handles disputes well.
 - **Check the body before the conversation:** tired, cold, hungry{{#if has.condition.CL-01}}, or low
   blood sugar (→ 02-01){{/if}} makes everything worse.
-- **Never in front of the children** (→ 20-08). They absorb it, and repeat it to the neighbour's
+- **Never in front of the children** (→ 20-08). They absorb it, and repeat it to the neighbor's
   children.
 - **Do not let a dispute become a story you keep telling yourselves.** Rehearsed grievances grow.
 
@@ -143,7 +143,7 @@ as difficult means the opposite, and it is very hard to reverse. Word travels fa
 | **Relationships built in advance** | The prevention strategy | → 18-01 |
 | Clear boundaries and agreements up front | Most conflict is about undiscussed things | Fences, drainage, waste |
 | An agreed household approach | United and calm works | → 21-05 |
-| Knowing who the local peacemakers are | Every neighbourhood has them | |
+| Knowing who the local peacemakers are | Every neighborhood has them | |
 | Written agreements for anything shared | Memories differ | → 18-04 |
 | Something to give | A conceded point or small gift settles a lot | |
 
@@ -157,12 +157,12 @@ substituted is the relationship built beforehand.
 - **Upkeep:** raise things early and small, keep relationships warm, and look after your own
   household's rest (→ 21-07). A rested household has disputes; an exhausted one has feuds.
 - **Substitute:** distance for settlement; mediation for direct talk; concession for victory.
-- **Conceding a point to keep your neighbours willing to help you is almost always the right
+- **Conceding a point to keep your neighbors willing to help you is almost always the right
   trade.** Decide that in advance so you do not have to work it out mid-argument.
 
 ## By phase
 
-- **A, at home:** neighbours close, friction unavoidable, stakes highest. Settle the predictable
+- **A, at home:** neighbors close, friction unavoidable, stakes highest. Settle the predictable
   things now; raise the rest early and small.
 - **B, on the move:** avoidance is the strategy (→ 14-01). Disputes with strangers on the road have
   no upside and no way to settle them. Do not engage; move on.
