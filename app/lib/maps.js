@@ -58,12 +58,17 @@ export function mapTargets(kit, ctx, { route = false } = {}) {
   return targets;
 }
 
-export function mapPlan(kit, ctx) {
+// `bound` is how many maps fetchTopoMaps() keeps under the cap (maxMaps, home and destinations
+// first, then route counties nearest home); MB ranges count only those.
+export function mapPlan(kit, ctx, { maxMaps = 12 } = {}) {
   const base = mapTargets(kit, ctx);
   const all = mapTargets(kit, ctx, { route: true });
   const mb = n => ({ min_mb: n * MAP_MB.min, max_mb: n * MAP_MB.max });
-  return { base: { count: base.length, ...mb(base.length), counties: base.map(t => `${t.county}, ${t.state}`) },
-    route: { count: all.length - base.length, ...mb(all.length - base.length), counties: all.slice(base.length).map(t => `${t.county}, ${t.state}`) } };
+  const baseBound = Math.min(base.length, maxMaps), routeCount = all.length - base.length;
+  const routeBound = Math.min(routeCount, Math.max(0, maxMaps - baseBound));
+  return { max_maps: maxMaps,
+    base: { count: base.length, bound: baseBound, ...mb(baseBound), counties: base.map(t => `${t.county}, ${t.state}`) },
+    route: { count: routeCount, bound: routeBound, ...mb(routeBound), counties: all.slice(base.length).map(t => `${t.county}, ${t.state}`) } };
 }
 
 async function searchTopo(relay, t, signal) {

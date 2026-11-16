@@ -378,7 +378,11 @@ function sizeChoice(est) {
     : 'Large and Everything include topographic maps of your home county and your destinations.';
   const routeHint = plan
     ? (plan.route.count
-      ? `${plan.route.count === 1 ? 'One more map' : `${plan.route.count} more maps`}, ${fmtMB(plan.route.min_mb, plan.route.max_mb)} more: ${plan.route.counties.slice(0, 6).join('; ')}${plan.route.count > 6 ? '; and others' : ''}. Each map is a big file; add them if you may travel on foot or by back roads.`
+      ? `${plan.route.count === 1 ? 'One county lies' : `${plan.route.count} counties lie`} between: ${plan.route.counties.slice(0, 6).join('; ')}${plan.route.count > 6 ? '; and others' : ''}. ` +
+        (plan.route.bound < plan.route.count
+          ? `${plan.route.bound ? `The ${plan.route.bound === 1 ? 'one' : plan.route.bound} nearest home ${plan.route.bound === 1 ? 'is' : 'are'} added, ${fmtMB(plan.route.min_mb, plan.route.max_mb)} more; the` : 'The file already holds as many maps as it can, so the'} rest are listed by name so you can get them yourself.`
+          : `${plan.route.count === 1 ? 'One more map' : `${plan.route.count} more maps`}, ${fmtMB(plan.route.min_mb, plan.route.max_mb)} more.`) +
+        ' Each map is a big file; add them if you may travel on foot or by back roads.'
       : 'No counties lie between your home and your destinations in our map data (or you have no destination), so there is nothing to add.')
     : 'The number of extra maps shows here once your home and destinations are filled in.';
   return h('fieldset', { class: 'q sizes', id: 'size-panel' },

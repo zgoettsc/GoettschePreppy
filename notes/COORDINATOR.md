@@ -95,3 +95,6 @@ Collected from worker reports; resolved in the integration pass.
 - [ ] R6: source us-fda-fda-drug-safety-communication-diphenhydramine-bab442 is about overdose only; 12-07 and 12-13 cite it for "never to make a child sleep" and "not under 2". Fix in the 12-xx review wave (FDA label / AAP).
 - [ ] R6: near-empty archive captures (CFPB, USA.gov, IdentityTheft.gov) and moved CDC diabetes page: re-capture.
 - [ ] Tourniquet floor wording: R6's pages follow the old 30-01 wording, R7's follow docs/05; after L6 lands, run one sweep to make every restatement match 30-01 exactly.
+- [ ] R4: 14-10 states ATF announced (Oct 2026) non-enforcement of NFA approval/registration for suppressors after an August court ruling, confirmed only from a court filing and news reports (atf.gov 403). Re-verify against ATF directly before release; if unverifiable, reword as "federal suppressor rules changed in 2025-2026; check current law".
+- [ ] R4: "two missed check-ins = overdue" (15-03, 00-04) is the owner's own rule: decide whether it becomes a household blank on both.
+- [ ] R4 owner questions: card for a loaded firearm in a quick-access lockbox? 14-11 travel: firearms in the cabin vs federal safe-passage (18 U.S.C. 926A: unloaded, not readily accessible) — default "locked, out of reach of the seats"?

@@ -12,7 +12,6 @@ derived_from: [06-09-chimney-and-creosote]
 sources:
   - chimney-safety-institute-of-america-csia-preventing-73b734
   - national-fire-protection-association-nfpa-211-standa-b8e4bc
-  - us-epa-burn-wise-heating-with-wood-safe-operation-se-ba0e76
   - u-s-fire-administration-fema-fireplace-and-wood-stov-851c8d
   - cdc-carbon-monoxide-poisoning-basics-772153
   - csia-homeowner-resources-faqs-r3

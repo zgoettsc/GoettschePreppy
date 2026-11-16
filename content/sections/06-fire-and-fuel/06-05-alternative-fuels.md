@@ -12,7 +12,6 @@ derived_from: [06-05-alternative-fuels]
 sources:
   - cdc-carbon-monoxide-poisoning-basics-772153
   - university-of-missouri-extension-wood-fuel-for-heati-b63761
-  - us-epa-burn-wise-heating-with-wood-safe-operation-se-ba0e76
   - enerco-group-mr-heater-manufacturer-portable-buddy-r-759ce5
   - us-doe-alternative-fuels-data-center-fuel-properties-84dd21
   - nfpa-nfpa-58-liquefied-petroleum-gas-code-storage-of-13af35

@@ -11,7 +11,6 @@ tags: [firewood, runway, burn rate, cord, scavenging, rocket stove, depletion, c
 derived_from: [06-04-wood-supply-and-depletion]
 sources:
   - university-of-missouri-extension-wood-fuel-for-heati-b63761
-  - us-epa-burn-wise-heating-with-wood-safe-operation-se-ba0e76
   - cdc-carbon-monoxide-poisoning-basics-772153
   - epa-burn-wise-best-wood-burning-practices-0c1680
 related:

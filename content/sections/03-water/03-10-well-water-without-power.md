@@ -102,8 +102,8 @@ Check, in this order:
   control box or nameplate.
 - **Generator voltage.** Read the generator's label. **A 120-volt-only generator cannot run a
   240-volt pump at any wattage.** Many small and inverter generators are 120 volts only.
-  {{#if has.generator}}Your generator: {{ gear.generator_watts }} running watts. Its voltage
-  (from the label): ______ V.{{/if}}
+  {{#if has.generator}}Your generator: {{ gear.generator_watts }} running watts. Its output
+  (check the label): {{ gear.generator_volts }}.{{/if}}
 - **Starting surge.** Pump motors draw several times their running watts for a moment to
   start. The generator size your pump needs is in the pump maker's manual or on its control
   box (look for a generator sizing table by horsepower); write it in the survey below. **Size

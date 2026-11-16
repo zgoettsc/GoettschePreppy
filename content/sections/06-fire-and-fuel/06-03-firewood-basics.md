@@ -11,7 +11,6 @@ tags: [firewood, seasoning, cord, face cord, species, splitting, moisture, creos
 derived_from: [06-03-firewood-basics]
 sources:
   - university-of-missouri-extension-wood-fuel-for-heati-b63761
-  - us-epa-burn-wise-heating-with-wood-safe-operation-se-ba0e76
   - usda-nrcs-plants-database-plant-profiles-and-image-l-a7089c
   - epa-burn-wise-best-wood-burning-practices-0c1680
 related:

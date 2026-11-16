@@ -534,7 +534,7 @@ async function scenarioB(browser, base) {
     export function mapPlan(profile, kit) {
       window.__planCalls = (window.__planCalls || 0) + 1;
       return { base: { count: 2, min_mb: 54, max_mb: 160, counties: ['Minnehaha County, SD', 'Champaign County, IL'] },
-        route: { count: 3, min_mb: 81, max_mb: 240, counties: ['Lyon County, MN', 'Rock County, MN', 'Story County, IA'] } };
+        route: { count: 3, bound: 3, min_mb: 81, max_mb: 240, counties: ['Lyon County, MN', 'Rock County, MN', 'Story County, IA'] } };
     }
     export function describePrevious(text, profile) {
       return /gp-generated/.test(text) ? { size: 'small', built: '2026-11-16', sameAnswers: !!profile.home, documents: 0 } : null;
@@ -606,7 +606,7 @@ async function scenarioB(browser, base) {
     assert.match(txt, /Everything\s*about 0\.5 to 0\.9 GB/);   // 450-740 + 54-160
     assert.match(txt, /Everything is about 0\.5 to 0\.9 GB: put it on a laptop\./);
     assert.match(txt, /include 2 topographic maps: Minnehaha County, SD; Champaign County, IL/);
-    assert.match(txt, /3 more maps, about 81 to 240 MB more: Lyon County, MN/);
+    assert.match(txt, /3 counties lie between: Lyon County, MN; Rock County, MN; Story County, IA\. 3 more maps, about 81 to 240 MB more\./);
     assert.ok(await page.isDisabled('#route-maps'), 'route maps off for Small');
     await page.check('#size-large');
     await page.check('#route-maps');
