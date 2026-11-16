@@ -1,0 +1,909 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+POTR5,Canada,Alberta,01,,
+POTR5,Canada,British Columbia,02,,
+POTR5,United States,Alaska,02,,
+POTR5,United States,Alaska,02,Anchorage,020
+POTR5,United States,Alaska,02,Bethel,050
+POTR5,United States,Alaska,02,Chugach,063
+POTR5,United States,Alaska,02,Copper River,066
+POTR5,United States,Alaska,02,Denali,068
+POTR5,United States,Alaska,02,Fairbanks North Star,090
+POTR5,United States,Alaska,02,Haines,100
+POTR5,United States,Alaska,02,Kenai Peninsula,122
+POTR5,United States,Alaska,02,Lake and Peninsula,164
+POTR5,United States,Alaska,02,Matanuska-Susitna,170
+POTR5,United States,Alaska,02,Nome,180
+POTR5,United States,Alaska,02,Northwest Arctic,188
+POTR5,United States,Alaska,02,Southeast Fairbanks,240
+POTR5,United States,Alaska,02,Yukon-Koyukuk,290
+POTR5,Canada,Manitoba,03,,
+POTR5,Canada,New Brunswick,04,,
+POTR5,United States,Arizona,04,,
+POTR5,United States,Arizona,04,Apache,001
+POTR5,United States,Arizona,04,Cochise,003
+POTR5,United States,Arizona,04,Coconino,005
+POTR5,United States,Arizona,04,Gila,007
+POTR5,United States,Arizona,04,Graham,009
+POTR5,United States,Arizona,04,Greenlee,011
+POTR5,United States,Arizona,04,Mohave,015
+POTR5,United States,Arizona,04,Navajo,017
+POTR5,United States,Arizona,04,Pima,019
+POTR5,United States,Arizona,04,Santa Cruz,023
+POTR5,United States,Arizona,04,Yavapai,025
+POTR5,United States,Arkansas,05,,
+POTR5,United States,California,06,,
+POTR5,United States,California,06,Alpine,003
+POTR5,United States,California,06,Amador,005
+POTR5,United States,California,06,Butte,007
+POTR5,United States,California,06,Calaveras,009
+POTR5,United States,California,06,El Dorado,017
+POTR5,United States,California,06,Fresno,019
+POTR5,United States,California,06,Inyo,027
+POTR5,United States,California,06,Lassen,035
+POTR5,United States,California,06,Madera,039
+POTR5,United States,California,06,Mariposa,043
+POTR5,United States,California,06,Mendocino,045
+POTR5,United States,California,06,Modoc,049
+POTR5,United States,California,06,Mono,051
+POTR5,United States,California,06,Nevada,057
+POTR5,United States,California,06,Placer,061
+POTR5,United States,California,06,Plumas,063
+POTR5,United States,California,06,San Bernardino,071
+POTR5,United States,California,06,Shasta,089
+POTR5,United States,California,06,Sierra,091
+POTR5,United States,California,06,Siskiyou,093
+POTR5,United States,California,06,Tehama,103
+POTR5,United States,California,06,Trinity,105
+POTR5,United States,California,06,Tulare,107
+POTR5,United States,California,06,Tuolumne,109
+POTR5,Canada,Nova Scotia,07,,
+POTR5,Canada,Ontario,08,,
+POTR5,United States,Colorado,08,,
+POTR5,United States,Colorado,08,Boulder,013
+POTR5,United States,Colorado,08,Chaffee,015
+POTR5,United States,Colorado,08,Clear Creek,019
+POTR5,United States,Colorado,08,Conejos,021
+POTR5,United States,Colorado,08,Costilla,023
+POTR5,United States,Colorado,08,Custer,027
+POTR5,United States,Colorado,08,Delta,029
+POTR5,United States,Colorado,08,Dolores,033
+POTR5,United States,Colorado,08,Eagle,037
+POTR5,United States,Colorado,08,El Paso,041
+POTR5,United States,Colorado,08,Garfield,045
+POTR5,United States,Colorado,08,Gilpin,047
+POTR5,United States,Colorado,08,Grand,049
+POTR5,United States,Colorado,08,Gunnison,051
+POTR5,United States,Colorado,08,Huerfano,055
+POTR5,United States,Colorado,08,Jackson,057
+POTR5,United States,Colorado,08,La Plata,067
+POTR5,United States,Colorado,08,Lake,065
+POTR5,United States,Colorado,08,Larimer,069
+POTR5,United States,Colorado,08,Las Animas,071
+POTR5,United States,Colorado,08,Mesa,077
+POTR5,United States,Colorado,08,Mineral,079
+POTR5,United States,Colorado,08,Moffat,081
+POTR5,United States,Colorado,08,Montezuma,083
+POTR5,United States,Colorado,08,Montrose,085
+POTR5,United States,Colorado,08,Park,093
+POTR5,United States,Colorado,08,Pitkin,097
+POTR5,United States,Colorado,08,Pueblo,101
+POTR5,United States,Colorado,08,Rio Blanco,103
+POTR5,United States,Colorado,08,Rio Grande,105
+POTR5,United States,Colorado,08,Routt,107
+POTR5,United States,Colorado,08,Saguache,109
+POTR5,United States,Colorado,08,San Juan,111
+POTR5,United States,Colorado,08,Summit,117
+POTR5,United States,Colorado,08,Teller,119
+POTR5,Canada,Prince Edward Island,09,,
+POTR5,United States,Connecticut,09,,
+POTR5,Canada,Quebec,10,,
+POTR5,United States,Delaware,10,,
+POTR5,Canada,Saskatchewan,11,,
+POTR5,Canada,Yukon,12,,
+POTR5,Canada,Northwest Territories,13,,
+POTR5,United States,Idaho,16,,
+POTR5,United States,Idaho,16,Ada,001
+POTR5,United States,Idaho,16,Bannock,005
+POTR5,United States,Idaho,16,Benewah,009
+POTR5,United States,Idaho,16,Boise,015
+POTR5,United States,Idaho,16,Bonner,017
+POTR5,United States,Idaho,16,Bonneville,019
+POTR5,United States,Idaho,16,Butte,023
+POTR5,United States,Idaho,16,Camas,025
+POTR5,United States,Idaho,16,Caribou,029
+POTR5,United States,Idaho,16,Cassia,031
+POTR5,United States,Idaho,16,Clark,033
+POTR5,United States,Idaho,16,Custer,037
+POTR5,United States,Idaho,16,Elmore,039
+POTR5,United States,Idaho,16,Fremont,043
+POTR5,United States,Idaho,16,Gem,045
+POTR5,United States,Idaho,16,Idaho,049
+POTR5,United States,Idaho,16,Latah,057
+POTR5,United States,Idaho,16,Lemhi,059
+POTR5,United States,Idaho,16,Owyhee,073
+POTR5,United States,Idaho,16,Power,077
+POTR5,United States,Idaho,16,Teton,081
+POTR5,United States,Idaho,16,Twin Falls,083
+POTR5,United States,Idaho,16,Valley,085
+POTR5,United States,Illinois,17,,
+POTR5,United States,Illinois,17,Boone,007
+POTR5,United States,Illinois,17,Carroll,015
+POTR5,United States,Illinois,17,Champaign,019
+POTR5,United States,Illinois,17,Christian,021
+POTR5,United States,Illinois,17,Coles,029
+POTR5,United States,Illinois,17,Cook,031
+POTR5,United States,Illinois,17,DeKalb,037
+POTR5,United States,Illinois,17,DuPage,043
+POTR5,United States,Illinois,17,Fulton,057
+POTR5,United States,Illinois,17,Grundy,063
+POTR5,United States,Illinois,17,Hancock,067
+POTR5,United States,Illinois,17,Henderson,071
+POTR5,United States,Illinois,17,Henry,073
+POTR5,United States,Illinois,17,Iroquois,075
+POTR5,United States,Illinois,17,Jo Daviess,085
+POTR5,United States,Illinois,17,Kane,089
+POTR5,United States,Illinois,17,Kankakee,091
+POTR5,United States,Illinois,17,Kendall,093
+POTR5,United States,Illinois,17,Knox,095
+POTR5,United States,Illinois,17,Lake,097
+POTR5,United States,Illinois,17,LaSalle,099
+POTR5,United States,Illinois,17,Lee,103
+POTR5,United States,Illinois,17,Macoupin,117
+POTR5,United States,Illinois,17,McDonough,109
+POTR5,United States,Illinois,17,McHenry,111
+POTR5,United States,Illinois,17,McLean,113
+POTR5,United States,Illinois,17,Mercer,131
+POTR5,United States,Illinois,17,Ogle,141
+POTR5,United States,Illinois,17,Peoria,143
+POTR5,United States,Illinois,17,Putnam,155
+POTR5,United States,Illinois,17,Rock Island,161
+POTR5,United States,Illinois,17,Stark,175
+POTR5,United States,Illinois,17,Stephenson,177
+POTR5,United States,Illinois,17,Tazewell,179
+POTR5,United States,Illinois,17,Warren,187
+POTR5,United States,Illinois,17,Whiteside,195
+POTR5,United States,Illinois,17,Will,197
+POTR5,United States,Illinois,17,Winnebago,201
+POTR5,United States,Illinois,17,Woodford,203
+POTR5,United States,Indiana,18,,
+POTR5,United States,Indiana,18,Adams,001
+POTR5,United States,Indiana,18,Allen,003
+POTR5,United States,Indiana,18,Benton,007
+POTR5,United States,Indiana,18,Blackford,009
+POTR5,United States,Indiana,18,Decatur,031
+POTR5,United States,Indiana,18,DeKalb,033
+POTR5,United States,Indiana,18,Elkhart,039
+POTR5,United States,Indiana,18,Fountain,045
+POTR5,United States,Indiana,18,Fulton,049
+POTR5,United States,Indiana,18,Grant,053
+POTR5,United States,Indiana,18,Hamilton,057
+POTR5,United States,Indiana,18,Hendricks,063
+POTR5,United States,Indiana,18,Henry,065
+POTR5,United States,Indiana,18,Howard,067
+POTR5,United States,Indiana,18,Huntington,069
+POTR5,United States,Indiana,18,Jasper,073
+POTR5,United States,Indiana,18,Kosciusko,085
+POTR5,United States,Indiana,18,Lagrange,087
+POTR5,United States,Indiana,18,Lake,089
+POTR5,United States,Indiana,18,LaPorte,091
+POTR5,United States,Indiana,18,Marshall,099
+POTR5,United States,Indiana,18,Miami,103
+POTR5,United States,Indiana,18,Montgomery,107
+POTR5,United States,Indiana,18,Newton,111
+POTR5,United States,Indiana,18,Noble,113
+POTR5,United States,Indiana,18,Porter,127
+POTR5,United States,Indiana,18,Pulaski,131
+POTR5,United States,Indiana,18,Putnam,133
+POTR5,United States,Indiana,18,Randolph,135
+POTR5,United States,Indiana,18,Ripley,137
+POTR5,United States,Indiana,18,St. Joseph,141
+POTR5,United States,Indiana,18,Starke,149
+POTR5,United States,Indiana,18,Steuben,151
+POTR5,United States,Indiana,18,Tippecanoe,157
+POTR5,United States,Indiana,18,Tipton,159
+POTR5,United States,Indiana,18,Wabash,169
+POTR5,United States,Indiana,18,Warren,171
+POTR5,United States,Indiana,18,Wayne,177
+POTR5,United States,Indiana,18,Wells,179
+POTR5,United States,Indiana,18,White,181
+POTR5,United States,Indiana,18,Whitley,183
+POTR5,United States,Iowa,19,,
+POTR5,United States,Iowa,19,Adair,001
+POTR5,United States,Iowa,19,Fremont,071
+POTR5,United States,Iowa,19,Mills,129
+POTR5,United States,Iowa,19,Ringgold,159
+POTR5,United States,Iowa,19,Shelby,165
+POTR5,United States,Iowa,19,Union,175
+POTR5,United States,Iowa,19,Wapello,179
+POTR5,United States,Iowa,19,Washington,183
+POTR5,United States,Kentucky,21,,
+POTR5,United States,Kentucky,21,Bath,011
+POTR5,United States,Kentucky,21,Rowan,205
+POTR5,United States,Maine,23,,
+POTR5,United States,Maine,23,Androscoggin,001
+POTR5,United States,Maine,23,Aroostook,003
+POTR5,United States,Maine,23,Cumberland,005
+POTR5,United States,Maine,23,Franklin,007
+POTR5,United States,Maine,23,Hancock,009
+POTR5,United States,Maine,23,Kennebec,011
+POTR5,United States,Maine,23,Knox,013
+POTR5,United States,Maine,23,Lincoln,015
+POTR5,United States,Maine,23,Oxford,017
+POTR5,United States,Maine,23,Penobscot,019
+POTR5,United States,Maine,23,Piscataquis,021
+POTR5,United States,Maine,23,Sagadahoc,023
+POTR5,United States,Maine,23,Somerset,025
+POTR5,United States,Maine,23,Waldo,027
+POTR5,United States,Maine,23,Washington,029
+POTR5,United States,Maine,23,York,031
+POTR5,United States,Maryland,24,,
+POTR5,United States,Maryland,24,Charles,017
+POTR5,United States,Maryland,24,Garrett,023
+POTR5,United States,Maryland,24,Washington,043
+POTR5,United States,Massachusetts,25,,
+POTR5,United States,Massachusetts,25,Barnstable,001
+POTR5,United States,Massachusetts,25,Berkshire,003
+POTR5,United States,Massachusetts,25,Bristol,005
+POTR5,United States,Massachusetts,25,Dukes,007
+POTR5,United States,Massachusetts,25,Essex,009
+POTR5,United States,Massachusetts,25,Franklin,011
+POTR5,United States,Massachusetts,25,Hampden,013
+POTR5,United States,Massachusetts,25,Hampshire,015
+POTR5,United States,Massachusetts,25,Middlesex,017
+POTR5,United States,Massachusetts,25,Nantucket,019
+POTR5,United States,Massachusetts,25,Norfolk,021
+POTR5,United States,Massachusetts,25,Plymouth,023
+POTR5,United States,Massachusetts,25,Suffolk,025
+POTR5,United States,Massachusetts,25,Worcester,027
+POTR5,United States,Michigan,26,,
+POTR5,United States,Michigan,26,Alcona,001
+POTR5,United States,Michigan,26,Alger,003
+POTR5,United States,Michigan,26,Allegan,005
+POTR5,United States,Michigan,26,Alpena,007
+POTR5,United States,Michigan,26,Antrim,009
+POTR5,United States,Michigan,26,Arenac,011
+POTR5,United States,Michigan,26,Baraga,013
+POTR5,United States,Michigan,26,Barry,015
+POTR5,United States,Michigan,26,Bay,017
+POTR5,United States,Michigan,26,Benzie,019
+POTR5,United States,Michigan,26,Berrien,021
+POTR5,United States,Michigan,26,Branch,023
+POTR5,United States,Michigan,26,Calhoun,025
+POTR5,United States,Michigan,26,Cass,027
+POTR5,United States,Michigan,26,Charlevoix,029
+POTR5,United States,Michigan,26,Cheboygan,031
+POTR5,United States,Michigan,26,Chippewa,033
+POTR5,United States,Michigan,26,Clare,035
+POTR5,United States,Michigan,26,Clinton,037
+POTR5,United States,Michigan,26,Crawford,039
+POTR5,United States,Michigan,26,Delta,041
+POTR5,United States,Michigan,26,Eaton,045
+POTR5,United States,Michigan,26,Emmet,047
+POTR5,United States,Michigan,26,Genesee,049
+POTR5,United States,Michigan,26,Gladwin,051
+POTR5,United States,Michigan,26,Gogebic,053
+POTR5,United States,Michigan,26,Grand Traverse,055
+POTR5,United States,Michigan,26,Gratiot,057
+POTR5,United States,Michigan,26,Houghton,061
+POTR5,United States,Michigan,26,Huron,063
+POTR5,United States,Michigan,26,Ingham,065
+POTR5,United States,Michigan,26,Iosco,069
+POTR5,United States,Michigan,26,Iron,071
+POTR5,United States,Michigan,26,Isabella,073
+POTR5,United States,Michigan,26,Jackson,075
+POTR5,United States,Michigan,26,Kalamazoo,077
+POTR5,United States,Michigan,26,Kalkaska,079
+POTR5,United States,Michigan,26,Kent,081
+POTR5,United States,Michigan,26,Keweenaw,083
+POTR5,United States,Michigan,26,Lake,085
+POTR5,United States,Michigan,26,Lapeer,087
+POTR5,United States,Michigan,26,Leelanau,089
+POTR5,United States,Michigan,26,Lenawee,091
+POTR5,United States,Michigan,26,Livingston,093
+POTR5,United States,Michigan,26,Luce,095
+POTR5,United States,Michigan,26,Mackinac,097
+POTR5,United States,Michigan,26,Manistee,101
+POTR5,United States,Michigan,26,Marquette,103
+POTR5,United States,Michigan,26,Mason,105
+POTR5,United States,Michigan,26,Mecosta,107
+POTR5,United States,Michigan,26,Midland,111
+POTR5,United States,Michigan,26,Missaukee,113
+POTR5,United States,Michigan,26,Monroe,115
+POTR5,United States,Michigan,26,Montcalm,117
+POTR5,United States,Michigan,26,Montmorency,119
+POTR5,United States,Michigan,26,Muskegon,121
+POTR5,United States,Michigan,26,Newaygo,123
+POTR5,United States,Michigan,26,Oakland,125
+POTR5,United States,Michigan,26,Oceana,127
+POTR5,United States,Michigan,26,Ogemaw,129
+POTR5,United States,Michigan,26,Ontonagon,131
+POTR5,United States,Michigan,26,Osceola,133
+POTR5,United States,Michigan,26,Oscoda,135
+POTR5,United States,Michigan,26,Otsego,137
+POTR5,United States,Michigan,26,Ottawa,139
+POTR5,United States,Michigan,26,Presque Isle,141
+POTR5,United States,Michigan,26,Roscommon,143
+POTR5,United States,Michigan,26,Saginaw,145
+POTR5,United States,Michigan,26,Sanilac,151
+POTR5,United States,Michigan,26,Schoolcraft,153
+POTR5,United States,Michigan,26,Shiawassee,155
+POTR5,United States,Michigan,26,St. Clair,147
+POTR5,United States,Michigan,26,St. Joseph,149
+POTR5,United States,Michigan,26,Tuscola,157
+POTR5,United States,Michigan,26,Van Buren,159
+POTR5,United States,Michigan,26,Washtenaw,161
+POTR5,United States,Michigan,26,Wayne,163
+POTR5,United States,Minnesota,27,,
+POTR5,United States,Minnesota,27,Aitkin,001
+POTR5,United States,Minnesota,27,Anoka,003
+POTR5,United States,Minnesota,27,Becker,005
+POTR5,United States,Minnesota,27,Beltrami,007
+POTR5,United States,Minnesota,27,Blue Earth,013
+POTR5,United States,Minnesota,27,Brown,015
+POTR5,United States,Minnesota,27,Carlton,017
+POTR5,United States,Minnesota,27,Cass,021
+POTR5,United States,Minnesota,27,Chippewa,023
+POTR5,United States,Minnesota,27,Chisago,025
+POTR5,United States,Minnesota,27,Clay,027
+POTR5,United States,Minnesota,27,Clearwater,029
+POTR5,United States,Minnesota,27,Cook,031
+POTR5,United States,Minnesota,27,Crow Wing,035
+POTR5,United States,Minnesota,27,Dakota,037
+POTR5,United States,Minnesota,27,Dodge,039
+POTR5,United States,Minnesota,27,Douglas,041
+POTR5,United States,Minnesota,27,Fillmore,045
+POTR5,United States,Minnesota,27,Freeborn,047
+POTR5,United States,Minnesota,27,Goodhue,049
+POTR5,United States,Minnesota,27,Hennepin,053
+POTR5,United States,Minnesota,27,Houston,055
+POTR5,United States,Minnesota,27,Hubbard,057
+POTR5,United States,Minnesota,27,Isanti,059
+POTR5,United States,Minnesota,27,Itasca,061
+POTR5,United States,Minnesota,27,Jackson,063
+POTR5,United States,Minnesota,27,Kanabec,065
+POTR5,United States,Minnesota,27,Kittson,069
+POTR5,United States,Minnesota,27,Koochiching,071
+POTR5,United States,Minnesota,27,Lac qui Parle,073
+POTR5,United States,Minnesota,27,Lake,075
+POTR5,United States,Minnesota,27,Lake of the Woods,077
+POTR5,United States,Minnesota,27,Le Sueur,079
+POTR5,United States,Minnesota,27,Lincoln,081
+POTR5,United States,Minnesota,27,Lyon,083
+POTR5,United States,Minnesota,27,Mahnomen,087
+POTR5,United States,Minnesota,27,Marshall,089
+POTR5,United States,Minnesota,27,Martin,091
+POTR5,United States,Minnesota,27,McLeod,085
+POTR5,United States,Minnesota,27,Mille Lacs,095
+POTR5,United States,Minnesota,27,Morrison,097
+POTR5,United States,Minnesota,27,Mower,099
+POTR5,United States,Minnesota,27,Nicollet,103
+POTR5,United States,Minnesota,27,Norman,107
+POTR5,United States,Minnesota,27,Olmsted,109
+POTR5,United States,Minnesota,27,Otter Tail,111
+POTR5,United States,Minnesota,27,Pennington,113
+POTR5,United States,Minnesota,27,Pine,115
+POTR5,United States,Minnesota,27,Polk,119
+POTR5,United States,Minnesota,27,Pope,121
+POTR5,United States,Minnesota,27,Ramsey,123
+POTR5,United States,Minnesota,27,Red Lake,125
+POTR5,United States,Minnesota,27,Rice,131
+POTR5,United States,Minnesota,27,Roseau,135
+POTR5,United States,Minnesota,27,Scott,139
+POTR5,United States,Minnesota,27,Sherburne,141
+POTR5,United States,Minnesota,27,Sibley,143
+POTR5,United States,Minnesota,27,St. Louis,137
+POTR5,United States,Minnesota,27,Stearns,145
+POTR5,United States,Minnesota,27,Steele,147
+POTR5,United States,Minnesota,27,Todd,153
+POTR5,United States,Minnesota,27,Traverse,155
+POTR5,United States,Minnesota,27,Wabasha,157
+POTR5,United States,Minnesota,27,Wadena,159
+POTR5,United States,Minnesota,27,Waseca,161
+POTR5,United States,Minnesota,27,Washington,163
+POTR5,United States,Minnesota,27,Wilkin,167
+POTR5,United States,Minnesota,27,Winona,169
+POTR5,United States,Minnesota,27,Wright,171
+POTR5,United States,Missouri,29,,
+POTR5,United States,Missouri,29,Adair,001
+POTR5,United States,Missouri,29,Clark,045
+POTR5,United States,Missouri,29,Dent,065
+POTR5,United States,Missouri,29,Lewis,111
+POTR5,United States,Missouri,29,Schuyler,197
+POTR5,United States,Missouri,29,Sullivan,211
+POTR5,United States,Montana,30,,
+POTR5,United States,Montana,30,Beaverhead,001
+POTR5,United States,Montana,30,Broadwater,007
+POTR5,United States,Montana,30,Carter,011
+POTR5,United States,Montana,30,Cascade,013
+POTR5,United States,Montana,30,Chouteau,015
+POTR5,United States,Montana,30,Deer Lodge,023
+POTR5,United States,Montana,30,Fergus,027
+POTR5,United States,Montana,30,Flathead,029
+POTR5,United States,Montana,30,Gallatin,031
+POTR5,United States,Montana,30,Glacier,035
+POTR5,United States,Montana,30,Golden Valley,037
+POTR5,United States,Montana,30,Granite,039
+POTR5,United States,Montana,30,Jefferson,043
+POTR5,United States,Montana,30,Lake,047
+POTR5,United States,Montana,30,Lewis and Clark,049
+POTR5,United States,Montana,30,Lincoln,053
+POTR5,United States,Montana,30,Madison,057
+POTR5,United States,Montana,30,McCone,055
+POTR5,United States,Montana,30,Meagher,059
+POTR5,United States,Montana,30,Missoula,063
+POTR5,United States,Montana,30,Park,067
+POTR5,United States,Montana,30,Phillips,071
+POTR5,United States,Montana,30,Pondera,073
+POTR5,United States,Montana,30,Powell,077
+POTR5,United States,Montana,30,Prairie,079
+POTR5,United States,Montana,30,Ravalli,081
+POTR5,United States,Montana,30,Rosebud,087
+POTR5,United States,Montana,30,Sheridan,091
+POTR5,United States,Montana,30,Silver Bow,093
+POTR5,United States,Montana,30,Stillwater,095
+POTR5,United States,Montana,30,Toole,101
+POTR5,United States,Montana,30,Valley,105
+POTR5,United States,Montana,30,Wheatland,107
+POTR5,United States,Nebraska,31,,
+POTR5,United States,Nebraska,31,Cherry,031
+POTR5,United States,Nebraska,31,Dawes,045
+POTR5,United States,Nebraska,31,Sheridan,161
+POTR5,United States,Nebraska,31,Sioux,165
+POTR5,United States,Nebraska,31,Thomas,171
+POTR5,United States,Nebraska,31,Thurston,173
+POTR5,United States,Nevada,32,,
+POTR5,United States,Nevada,32,Carson City,510
+POTR5,United States,Nevada,32,Clark,003
+POTR5,United States,Nevada,32,Douglas,005
+POTR5,United States,Nevada,32,Elko,007
+POTR5,United States,Nevada,32,Humboldt,013
+POTR5,United States,Nevada,32,Lander,015
+POTR5,United States,Nevada,32,Lincoln,017
+POTR5,United States,Nevada,32,Lyon,019
+POTR5,United States,Nevada,32,Nye,023
+POTR5,United States,Nevada,32,Storey,029
+POTR5,United States,Nevada,32,Washoe,031
+POTR5,United States,Nevada,32,White Pine,033
+POTR5,United States,New Hampshire,33,,
+POTR5,United States,New Hampshire,33,Belknap,001
+POTR5,United States,New Hampshire,33,Carroll,003
+POTR5,United States,New Hampshire,33,Cheshire,005
+POTR5,United States,New Hampshire,33,Coos,007
+POTR5,United States,New Hampshire,33,Grafton,009
+POTR5,United States,New Hampshire,33,Hillsborough,011
+POTR5,United States,New Hampshire,33,Merrimack,013
+POTR5,United States,New Hampshire,33,Rockingham,015
+POTR5,United States,New Hampshire,33,Strafford,017
+POTR5,United States,New Hampshire,33,Sullivan,019
+POTR5,United States,New Jersey,34,,
+POTR5,United States,New Jersey,34,Bergen,003
+POTR5,United States,New Jersey,34,Burlington,005
+POTR5,United States,New Jersey,34,Camden,007
+POTR5,United States,New Jersey,34,Cape May,009
+POTR5,United States,New Jersey,34,Essex,013
+POTR5,United States,New Jersey,34,Hudson,017
+POTR5,United States,New Jersey,34,Hunterdon,019
+POTR5,United States,New Jersey,34,Mercer,021
+POTR5,United States,New Jersey,34,Middlesex,023
+POTR5,United States,New Jersey,34,Monmouth,025
+POTR5,United States,New Jersey,34,Morris,027
+POTR5,United States,New Jersey,34,Ocean,029
+POTR5,United States,New Jersey,34,Passaic,031
+POTR5,United States,New Jersey,34,Somerset,035
+POTR5,United States,New Jersey,34,Sussex,037
+POTR5,United States,New Jersey,34,Union,039
+POTR5,United States,New Jersey,34,Warren,041
+POTR5,United States,New Mexico,35,,
+POTR5,United States,New Mexico,35,Bernalillo,001
+POTR5,United States,New Mexico,35,Catron,003
+POTR5,United States,New Mexico,35,Colfax,007
+POTR5,United States,New Mexico,35,Grant,017
+POTR5,United States,New Mexico,35,Harding,021
+POTR5,United States,New Mexico,35,Hidalgo,023
+POTR5,United States,New Mexico,35,Lincoln,027
+POTR5,United States,New Mexico,35,Los Alamos,028
+POTR5,United States,New Mexico,35,McKinley,031
+POTR5,United States,New Mexico,35,Mora,033
+POTR5,United States,New Mexico,35,Rio Arriba,039
+POTR5,United States,New Mexico,35,Roosevelt,041
+POTR5,United States,New Mexico,35,San Juan,045
+POTR5,United States,New Mexico,35,San Miguel,047
+POTR5,United States,New Mexico,35,Sandoval,043
+POTR5,United States,New Mexico,35,Santa Fe,049
+POTR5,United States,New Mexico,35,Socorro,053
+POTR5,United States,New Mexico,35,Taos,055
+POTR5,United States,New Mexico,35,Valencia,061
+POTR5,United States,New York,36,,
+POTR5,United States,New York,36,Albany,001
+POTR5,United States,New York,36,Allegany,003
+POTR5,United States,New York,36,Bronx,005
+POTR5,United States,New York,36,Cattaraugus,009
+POTR5,United States,New York,36,Chautauqua,013
+POTR5,United States,New York,36,Chemung,015
+POTR5,United States,New York,36,Clinton,019
+POTR5,United States,New York,36,Columbia,021
+POTR5,United States,New York,36,Delaware,025
+POTR5,United States,New York,36,Dutchess,027
+POTR5,United States,New York,36,Erie,029
+POTR5,United States,New York,36,Essex,031
+POTR5,United States,New York,36,Hamilton,041
+POTR5,United States,New York,36,Kings,047
+POTR5,United States,New York,36,Lewis,049
+POTR5,United States,New York,36,Monroe,055
+POTR5,United States,New York,36,Nassau,059
+POTR5,United States,New York,36,New York,061
+POTR5,United States,New York,36,Oneida,065
+POTR5,United States,New York,36,Onondaga,067
+POTR5,United States,New York,36,Ontario,069
+POTR5,United States,New York,36,Orange,071
+POTR5,United States,New York,36,Oswego,075
+POTR5,United States,New York,36,Putnam,079
+POTR5,United States,New York,36,Queens,081
+POTR5,United States,New York,36,Rensselaer,083
+POTR5,United States,New York,36,Richmond,085
+POTR5,United States,New York,36,Rockland,087
+POTR5,United States,New York,36,Saratoga,091
+POTR5,United States,New York,36,Schenectady,093
+POTR5,United States,New York,36,St. Lawrence,089
+POTR5,United States,New York,36,Suffolk,103
+POTR5,United States,New York,36,Ulster,111
+POTR5,United States,New York,36,Warren,113
+POTR5,United States,New York,36,Washington,115
+POTR5,United States,New York,36,Westchester,119
+POTR5,United States,New York,36,Wyoming,121
+POTR5,United States,New York,36,Yates,123
+POTR5,United States,North Carolina,37,,
+POTR5,United States,North Carolina,37,Avery,011
+POTR5,United States,North Dakota,38,,
+POTR5,United States,North Dakota,38,Barnes,003
+POTR5,United States,North Dakota,38,Benson,005
+POTR5,United States,North Dakota,38,Billings,007
+POTR5,United States,North Dakota,38,Bottineau,009
+POTR5,United States,North Dakota,38,Burke,013
+POTR5,United States,North Dakota,38,Cass,017
+POTR5,United States,North Dakota,38,Divide,023
+POTR5,United States,North Dakota,38,Dunn,025
+POTR5,United States,North Dakota,38,Eddy,027
+POTR5,United States,North Dakota,38,Emmons,029
+POTR5,United States,North Dakota,38,Golden Valley,033
+POTR5,United States,North Dakota,38,Grand Forks,035
+POTR5,United States,North Dakota,38,Grant,037
+POTR5,United States,North Dakota,38,Kidder,043
+POTR5,United States,North Dakota,38,McHenry,049
+POTR5,United States,North Dakota,38,McKenzie,053
+POTR5,United States,North Dakota,38,McLean,055
+POTR5,United States,North Dakota,38,Mercer,057
+POTR5,United States,North Dakota,38,Morton,059
+POTR5,United States,North Dakota,38,Mountrail,061
+POTR5,United States,North Dakota,38,Oliver,065
+POTR5,United States,North Dakota,38,Pembina,067
+POTR5,United States,North Dakota,38,Pierce,069
+POTR5,United States,North Dakota,38,Ramsey,071
+POTR5,United States,North Dakota,38,Ransom,073
+POTR5,United States,North Dakota,38,Renville,075
+POTR5,United States,North Dakota,38,Richland,077
+POTR5,United States,North Dakota,38,Rolette,079
+POTR5,United States,North Dakota,38,Sioux,085
+POTR5,United States,North Dakota,38,Slope,087
+POTR5,United States,North Dakota,38,Stark,089
+POTR5,United States,North Dakota,38,Steele,091
+POTR5,United States,North Dakota,38,Stutsman,093
+POTR5,United States,North Dakota,38,Ward,101
+POTR5,United States,North Dakota,38,Williams,105
+POTR5,United States,Ohio,39,,
+POTR5,United States,Ohio,39,Adams,001
+POTR5,United States,Ohio,39,Ashland,005
+POTR5,United States,Ohio,39,Ashtabula,007
+POTR5,United States,Ohio,39,Athens,009
+POTR5,United States,Ohio,39,Auglaize,011
+POTR5,United States,Ohio,39,Belmont,013
+POTR5,United States,Ohio,39,Carroll,019
+POTR5,United States,Ohio,39,Champaign,021
+POTR5,United States,Ohio,39,Clark,023
+POTR5,United States,Ohio,39,Clinton,027
+POTR5,United States,Ohio,39,Columbiana,029
+POTR5,United States,Ohio,39,Coshocton,031
+POTR5,United States,Ohio,39,Crawford,033
+POTR5,United States,Ohio,39,Cuyahoga,035
+POTR5,United States,Ohio,39,Defiance,039
+POTR5,United States,Ohio,39,Delaware,041
+POTR5,United States,Ohio,39,Erie,043
+POTR5,United States,Ohio,39,Fairfield,045
+POTR5,United States,Ohio,39,Franklin,049
+POTR5,United States,Ohio,39,Fulton,051
+POTR5,United States,Ohio,39,Gallia,053
+POTR5,United States,Ohio,39,Geauga,055
+POTR5,United States,Ohio,39,Greene,057
+POTR5,United States,Ohio,39,Guernsey,059
+POTR5,United States,Ohio,39,Hancock,063
+POTR5,United States,Ohio,39,Hardin,065
+POTR5,United States,Ohio,39,Harrison,067
+POTR5,United States,Ohio,39,Henry,069
+POTR5,United States,Ohio,39,Hocking,073
+POTR5,United States,Ohio,39,Holmes,075
+POTR5,United States,Ohio,39,Huron,077
+POTR5,United States,Ohio,39,Jackson,079
+POTR5,United States,Ohio,39,Jefferson,081
+POTR5,United States,Ohio,39,Knox,083
+POTR5,United States,Ohio,39,Lake,085
+POTR5,United States,Ohio,39,Lawrence,087
+POTR5,United States,Ohio,39,Licking,089
+POTR5,United States,Ohio,39,Logan,091
+POTR5,United States,Ohio,39,Lorain,093
+POTR5,United States,Ohio,39,Lucas,095
+POTR5,United States,Ohio,39,Mahoning,099
+POTR5,United States,Ohio,39,Marion,101
+POTR5,United States,Ohio,39,Medina,103
+POTR5,United States,Ohio,39,Meigs,105
+POTR5,United States,Ohio,39,Monroe,111
+POTR5,United States,Ohio,39,Morgan,115
+POTR5,United States,Ohio,39,Morrow,117
+POTR5,United States,Ohio,39,Muskingum,119
+POTR5,United States,Ohio,39,Noble,121
+POTR5,United States,Ohio,39,Ottawa,123
+POTR5,United States,Ohio,39,Paulding,125
+POTR5,United States,Ohio,39,Perry,127
+POTR5,United States,Ohio,39,Pickaway,129
+POTR5,United States,Ohio,39,Portage,133
+POTR5,United States,Ohio,39,Putnam,137
+POTR5,United States,Ohio,39,Richland,139
+POTR5,United States,Ohio,39,Sandusky,143
+POTR5,United States,Ohio,39,Scioto,145
+POTR5,United States,Ohio,39,Shelby,149
+POTR5,United States,Ohio,39,Stark,151
+POTR5,United States,Ohio,39,Summit,153
+POTR5,United States,Ohio,39,Trumbull,155
+POTR5,United States,Ohio,39,Tuscarawas,157
+POTR5,United States,Ohio,39,Van Wert,161
+POTR5,United States,Ohio,39,Vinton,163
+POTR5,United States,Ohio,39,Washington,167
+POTR5,United States,Ohio,39,Wayne,169
+POTR5,United States,Ohio,39,Williams,171
+POTR5,United States,Ohio,39,Wood,173
+POTR5,United States,Ohio,39,Wyandot,175
+POTR5,United States,Oregon,41,,
+POTR5,United States,Oregon,41,Baker,001
+POTR5,United States,Oregon,41,Clackamas,005
+POTR5,United States,Oregon,41,Crook,013
+POTR5,United States,Oregon,41,Curry,015
+POTR5,United States,Oregon,41,Deschutes,017
+POTR5,United States,Oregon,41,Douglas,019
+POTR5,United States,Oregon,41,Grant,023
+POTR5,United States,Oregon,41,Harney,025
+POTR5,United States,Oregon,41,Hood River,027
+POTR5,United States,Oregon,41,Jackson,029
+POTR5,United States,Oregon,41,Jefferson,031
+POTR5,United States,Oregon,41,Josephine,033
+POTR5,United States,Oregon,41,Klamath,035
+POTR5,United States,Oregon,41,Lake,037
+POTR5,United States,Oregon,41,Lane,039
+POTR5,United States,Oregon,41,Lincoln,041
+POTR5,United States,Oregon,41,Linn,043
+POTR5,United States,Oregon,41,Malheur,045
+POTR5,United States,Oregon,41,Marion,047
+POTR5,United States,Oregon,41,Multnomah,051
+POTR5,United States,Oregon,41,Tillamook,057
+POTR5,United States,Oregon,41,Umatilla,059
+POTR5,United States,Oregon,41,Union,061
+POTR5,United States,Oregon,41,Wallowa,063
+POTR5,United States,Oregon,41,Wasco,065
+POTR5,United States,Oregon,41,Washington,067
+POTR5,United States,Oregon,41,Wheeler,069
+POTR5,United States,Pennsylvania,42,,
+POTR5,United States,Pennsylvania,42,Allegheny,003
+POTR5,United States,Pennsylvania,42,Armstrong,005
+POTR5,United States,Pennsylvania,42,Bedford,009
+POTR5,United States,Pennsylvania,42,Berks,011
+POTR5,United States,Pennsylvania,42,Blair,013
+POTR5,United States,Pennsylvania,42,Bradford,015
+POTR5,United States,Pennsylvania,42,Bucks,017
+POTR5,United States,Pennsylvania,42,Butler,019
+POTR5,United States,Pennsylvania,42,Cambria,021
+POTR5,United States,Pennsylvania,42,Cameron,023
+POTR5,United States,Pennsylvania,42,Carbon,025
+POTR5,United States,Pennsylvania,42,Centre,027
+POTR5,United States,Pennsylvania,42,Chester,029
+POTR5,United States,Pennsylvania,42,Clarion,031
+POTR5,United States,Pennsylvania,42,Clearfield,033
+POTR5,United States,Pennsylvania,42,Clinton,035
+POTR5,United States,Pennsylvania,42,Columbia,037
+POTR5,United States,Pennsylvania,42,Crawford,039
+POTR5,United States,Pennsylvania,42,Cumberland,041
+POTR5,United States,Pennsylvania,42,Dauphin,043
+POTR5,United States,Pennsylvania,42,Delaware,045
+POTR5,United States,Pennsylvania,42,Elk,047
+POTR5,United States,Pennsylvania,42,Erie,049
+POTR5,United States,Pennsylvania,42,Forest,053
+POTR5,United States,Pennsylvania,42,Fulton,057
+POTR5,United States,Pennsylvania,42,Huntingdon,061
+POTR5,United States,Pennsylvania,42,Jefferson,065
+POTR5,United States,Pennsylvania,42,Juniata,067
+POTR5,United States,Pennsylvania,42,Lackawanna,069
+POTR5,United States,Pennsylvania,42,Lancaster,071
+POTR5,United States,Pennsylvania,42,Lebanon,075
+POTR5,United States,Pennsylvania,42,Lehigh,077
+POTR5,United States,Pennsylvania,42,Luzerne,079
+POTR5,United States,Pennsylvania,42,Lycoming,081
+POTR5,United States,Pennsylvania,42,McKean,083
+POTR5,United States,Pennsylvania,42,Mercer,085
+POTR5,United States,Pennsylvania,42,Mifflin,087
+POTR5,United States,Pennsylvania,42,Monroe,089
+POTR5,United States,Pennsylvania,42,Montgomery,091
+POTR5,United States,Pennsylvania,42,Montour,093
+POTR5,United States,Pennsylvania,42,Northampton,095
+POTR5,United States,Pennsylvania,42,Northumberland,097
+POTR5,United States,Pennsylvania,42,Philadelphia,101
+POTR5,United States,Pennsylvania,42,Pike,103
+POTR5,United States,Pennsylvania,42,Potter,105
+POTR5,United States,Pennsylvania,42,Schuylkill,107
+POTR5,United States,Pennsylvania,42,Snyder,109
+POTR5,United States,Pennsylvania,42,Somerset,111
+POTR5,United States,Pennsylvania,42,Sullivan,113
+POTR5,United States,Pennsylvania,42,Susquehanna,115
+POTR5,United States,Pennsylvania,42,Tioga,117
+POTR5,United States,Pennsylvania,42,Union,119
+POTR5,United States,Pennsylvania,42,Venango,121
+POTR5,United States,Pennsylvania,42,Warren,123
+POTR5,United States,Pennsylvania,42,Wayne,127
+POTR5,United States,Pennsylvania,42,Westmoreland,129
+POTR5,United States,Pennsylvania,42,York,133
+POTR5,United States,Rhode Island,44,,
+POTR5,United States,Rhode Island,44,Bristol,001
+POTR5,United States,Rhode Island,44,Kent,003
+POTR5,United States,Rhode Island,44,Newport,005
+POTR5,United States,Rhode Island,44,Providence,007
+POTR5,United States,Rhode Island,44,Washington,009
+POTR5,United States,South Dakota,46,,
+POTR5,United States,South Dakota,46,Butte,019
+POTR5,United States,South Dakota,46,Codington,029
+POTR5,United States,South Dakota,46,Corson,031
+POTR5,United States,South Dakota,46,Custer,033
+POTR5,United States,South Dakota,46,Day,037
+POTR5,United States,South Dakota,46,Harding,063
+POTR5,United States,South Dakota,46,Lawrence,081
+POTR5,United States,South Dakota,46,Marshall,091
+POTR5,United States,South Dakota,46,Pennington,103
+POTR5,United States,South Dakota,46,Roberts,109
+POTR5,United States,South Dakota,46,Todd,121
+POTR5,United States,Texas,48,,
+POTR5,United States,Texas,48,Brewster,043
+POTR5,United States,Texas,48,Culberson,109
+POTR5,United States,Texas,48,Jeff Davis,243
+POTR5,United States,Utah,49,,
+POTR5,United States,Utah,49,Beaver,001
+POTR5,United States,Utah,49,Box Elder,003
+POTR5,United States,Utah,49,Cache,005
+POTR5,United States,Utah,49,Carbon,007
+POTR5,United States,Utah,49,Daggett,009
+POTR5,United States,Utah,49,Davis,011
+POTR5,United States,Utah,49,Duchesne,013
+POTR5,United States,Utah,49,Emery,015
+POTR5,United States,Utah,49,Garfield,017
+POTR5,United States,Utah,49,Grand,019
+POTR5,United States,Utah,49,Iron,021
+POTR5,United States,Utah,49,Juab,023
+POTR5,United States,Utah,49,Kane,025
+POTR5,United States,Utah,49,Millard,027
+POTR5,United States,Utah,49,Morgan,029
+POTR5,United States,Utah,49,Piute,031
+POTR5,United States,Utah,49,Rich,033
+POTR5,United States,Utah,49,Salt Lake,035
+POTR5,United States,Utah,49,San Juan,037
+POTR5,United States,Utah,49,Sanpete,039
+POTR5,United States,Utah,49,Sevier,041
+POTR5,United States,Utah,49,Summit,043
+POTR5,United States,Utah,49,Tooele,045
+POTR5,United States,Utah,49,Uintah,047
+POTR5,United States,Utah,49,Utah,049
+POTR5,United States,Utah,49,Wasatch,051
+POTR5,United States,Utah,49,Washington,053
+POTR5,United States,Utah,49,Wayne,055
+POTR5,United States,Utah,49,Weber,057
+POTR5,United States,Vermont,50,,
+POTR5,United States,Vermont,50,Addison,001
+POTR5,United States,Vermont,50,Bennington,003
+POTR5,United States,Vermont,50,Caledonia,005
+POTR5,United States,Vermont,50,Chittenden,007
+POTR5,United States,Vermont,50,Essex,009
+POTR5,United States,Vermont,50,Franklin,011
+POTR5,United States,Vermont,50,Lamoille,015
+POTR5,United States,Vermont,50,Orange,017
+POTR5,United States,Vermont,50,Orleans,019
+POTR5,United States,Vermont,50,Rutland,021
+POTR5,United States,Vermont,50,Washington,023
+POTR5,United States,Vermont,50,Windham,025
+POTR5,United States,Vermont,50,Windsor,027
+POTR5,United States,Virginia,51,,
+POTR5,United States,Virginia,51,Albemarle,003
+POTR5,United States,Virginia,51,Bath,017
+POTR5,United States,Virginia,51,Clarke,043
+POTR5,United States,Virginia,51,Fairfax,059
+POTR5,United States,Virginia,51,Fauquier,061
+POTR5,United States,Virginia,51,Frederick,069
+POTR5,United States,Virginia,51,Giles,071
+POTR5,United States,Virginia,51,Highland,091
+POTR5,United States,Virginia,51,Madison,113
+POTR5,United States,Virginia,51,Page,139
+POTR5,United States,Virginia,51,Rockingham,165
+POTR5,United States,Virginia,51,Shenandoah,171
+POTR5,United States,Washington,53,,
+POTR5,United States,Washington,53,Benton,005
+POTR5,United States,Washington,53,Chelan,007
+POTR5,United States,Washington,53,Clark,011
+POTR5,United States,Washington,53,Columbia,013
+POTR5,United States,Washington,53,Douglas,017
+POTR5,United States,Washington,53,Ferry,019
+POTR5,United States,Washington,53,Garfield,023
+POTR5,United States,Washington,53,Grant,025
+POTR5,United States,Washington,53,Island,029
+POTR5,United States,Washington,53,Jefferson,031
+POTR5,United States,Washington,53,King,033
+POTR5,United States,Washington,53,Kittitas,037
+POTR5,United States,Washington,53,Klickitat,039
+POTR5,United States,Washington,53,Lewis,041
+POTR5,United States,Washington,53,Lincoln,043
+POTR5,United States,Washington,53,Mason,045
+POTR5,United States,Washington,53,Okanogan,047
+POTR5,United States,Washington,53,Pend Oreille,051
+POTR5,United States,Washington,53,San Juan,055
+POTR5,United States,Washington,53,Skagit,057
+POTR5,United States,Washington,53,Skamania,059
+POTR5,United States,Washington,53,Spokane,063
+POTR5,United States,Washington,53,Stevens,065
+POTR5,United States,Washington,53,Thurston,067
+POTR5,United States,Washington,53,Whatcom,073
+POTR5,United States,Washington,53,Whitman,075
+POTR5,United States,Washington,53,Yakima,077
+POTR5,United States,West Virginia,54,,
+POTR5,United States,West Virginia,54,Fayette,019
+POTR5,United States,West Virginia,54,Grant,023
+POTR5,United States,West Virginia,54,Greenbrier,025
+POTR5,United States,West Virginia,54,Mineral,057
+POTR5,United States,West Virginia,54,Pendleton,071
+POTR5,United States,West Virginia,54,Pocahontas,075
+POTR5,United States,West Virginia,54,Preston,077
+POTR5,United States,West Virginia,54,Raleigh,081
+POTR5,United States,West Virginia,54,Summers,089
+POTR5,United States,West Virginia,54,Tucker,093
+POTR5,United States,West Virginia,54,Upshur,097
+POTR5,United States,Wisconsin,55,,
+POTR5,United States,Wisconsin,55,Brown,009
+POTR5,United States,Wisconsin,55,Calumet,015
+POTR5,United States,Wisconsin,55,Door,029
+POTR5,United States,Wisconsin,55,Douglas,031
+POTR5,United States,Wisconsin,55,Forest,041
+POTR5,United States,Wisconsin,55,Kenosha,059
+POTR5,United States,Wisconsin,55,Kewaunee,061
+POTR5,United States,Wisconsin,55,La Crosse,063
+POTR5,United States,Wisconsin,55,Manitowoc,071
+POTR5,United States,Wisconsin,55,Marinette,075
+POTR5,United States,Wisconsin,55,Oconto,083
+POTR5,United States,Wisconsin,55,Racine,101
+POTR5,United States,Wisconsin,55,Taylor,119
+POTR5,United States,Wisconsin,55,Trempealeau,121
+POTR5,United States,Wisconsin,55,Walworth,127
+POTR5,United States,Wisconsin,55,Wood,141
+POTR5,United States,Wyoming,56,,
+POTR5,United States,Wyoming,56,Albany,001
+POTR5,United States,Wyoming,56,Big Horn,003
+POTR5,United States,Wyoming,56,Campbell,005
+POTR5,United States,Wyoming,56,Carbon,007
+POTR5,United States,Wyoming,56,Converse,009
+POTR5,United States,Wyoming,56,Crook,011
+POTR5,United States,Wyoming,56,Fremont,013
+POTR5,United States,Wyoming,56,Hot Springs,017
+POTR5,United States,Wyoming,56,Johnson,019
+POTR5,United States,Wyoming,56,Laramie,021
+POTR5,United States,Wyoming,56,Natrona,025
+POTR5,United States,Wyoming,56,Park,029
+POTR5,United States,Wyoming,56,Platte,031
+POTR5,United States,Wyoming,56,Sheridan,033
+POTR5,United States,Wyoming,56,Sublette,035
+POTR5,United States,Wyoming,56,Sweetwater,037
+POTR5,United States,Wyoming,56,Teton,039
+POTR5,United States,Wyoming,56,Uinta,041
+POTR5,United States,Wyoming,56,Washakie,043
+POTR5,United States,Wyoming,56,Weston,045
+POTR5,Canada,Labrador,LB,,
+POTR5,Canada,Newfoundland,NF,,

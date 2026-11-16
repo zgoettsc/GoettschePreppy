@@ -1,0 +1,339 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+RHMA4,United States,Alabama,01,,
+RHMA4,Canada,Nova Scotia,07,,
+RHMA4,United States,Connecticut,09,,
+RHMA4,United States,Delaware,10,,
+RHMA4,United States,District of Columbia,11,,
+RHMA4,United States,District of Columbia,11,District of Columbia,001
+RHMA4,United States,Georgia,13,,
+RHMA4,United States,Georgia,13,Bartow,015
+RHMA4,United States,Georgia,13,Cherokee,057
+RHMA4,United States,Georgia,13,Dawson,085
+RHMA4,United States,Georgia,13,Fannin,111
+RHMA4,United States,Georgia,13,Fulton,121
+RHMA4,United States,Georgia,13,Gilmer,123
+RHMA4,United States,Georgia,13,Gwinnett,135
+RHMA4,United States,Georgia,13,Habersham,137
+RHMA4,United States,Georgia,13,Hall,139
+RHMA4,United States,Georgia,13,Murray,213
+RHMA4,United States,Georgia,13,Pickens,227
+RHMA4,United States,Georgia,13,Rabun,241
+RHMA4,United States,Georgia,13,Stephens,257
+RHMA4,United States,Georgia,13,Towns,281
+RHMA4,United States,Georgia,13,Union,291
+RHMA4,United States,Kentucky,21,,
+RHMA4,United States,Kentucky,21,Bath,011
+RHMA4,United States,Kentucky,21,Bell,013
+RHMA4,United States,Kentucky,21,Breathitt,025
+RHMA4,United States,Kentucky,21,Carter,043
+RHMA4,United States,Kentucky,21,Clay,051
+RHMA4,United States,Kentucky,21,Cumberland,057
+RHMA4,United States,Kentucky,21,Edmonson,061
+RHMA4,United States,Kentucky,21,Elliott,063
+RHMA4,United States,Kentucky,21,Estill,065
+RHMA4,United States,Kentucky,21,Floyd,071
+RHMA4,United States,Kentucky,21,Harlan,095
+RHMA4,United States,Kentucky,21,Jackson,109
+RHMA4,United States,Kentucky,21,Johnson,115
+RHMA4,United States,Kentucky,21,Knott,119
+RHMA4,United States,Kentucky,21,Laurel,125
+RHMA4,United States,Kentucky,21,Lawrence,127
+RHMA4,United States,Kentucky,21,Lee,129
+RHMA4,United States,Kentucky,21,Leslie,131
+RHMA4,United States,Kentucky,21,Letcher,133
+RHMA4,United States,Kentucky,21,Lewis,135
+RHMA4,United States,Kentucky,21,McCreary,147
+RHMA4,United States,Kentucky,21,Menifee,165
+RHMA4,United States,Kentucky,21,Morgan,175
+RHMA4,United States,Kentucky,21,Perry,193
+RHMA4,United States,Kentucky,21,Pike,195
+RHMA4,United States,Kentucky,21,Powell,197
+RHMA4,United States,Kentucky,21,Pulaski,199
+RHMA4,United States,Kentucky,21,Rockcastle,203
+RHMA4,United States,Kentucky,21,Rowan,205
+RHMA4,United States,Kentucky,21,Whitley,235
+RHMA4,United States,Kentucky,21,Wolfe,237
+RHMA4,United States,Maine,23,,
+RHMA4,United States,Maine,23,Cumberland,005
+RHMA4,United States,Maine,23,Franklin,007
+RHMA4,United States,Maine,23,Somerset,025
+RHMA4,United States,Maine,23,York,031
+RHMA4,United States,Maryland,24,,
+RHMA4,United States,Massachusetts,25,,
+RHMA4,United States,Massachusetts,25,Berkshire,003
+RHMA4,United States,Massachusetts,25,Hampden,013
+RHMA4,United States,Massachusetts,25,Norfolk,021
+RHMA4,United States,Massachusetts,25,Worcester,027
+RHMA4,United States,New Hampshire,33,,
+RHMA4,United States,New Hampshire,33,Carroll,003
+RHMA4,United States,New Hampshire,33,Cheshire,005
+RHMA4,United States,New Hampshire,33,Grafton,009
+RHMA4,United States,New Hampshire,33,Merrimack,013
+RHMA4,United States,New Hampshire,33,Strafford,017
+RHMA4,United States,New Hampshire,33,Sullivan,019
+RHMA4,United States,New Jersey,34,,
+RHMA4,United States,New Jersey,34,Bergen,003
+RHMA4,United States,New Jersey,34,Burlington,005
+RHMA4,United States,New Jersey,34,Camden,007
+RHMA4,United States,New Jersey,34,Hudson,017
+RHMA4,United States,New Jersey,34,Hunterdon,019
+RHMA4,United States,New Jersey,34,Mercer,021
+RHMA4,United States,New Jersey,34,Morris,027
+RHMA4,United States,New Jersey,34,Passaic,031
+RHMA4,United States,New Jersey,34,Somerset,035
+RHMA4,United States,New Jersey,34,Sussex,037
+RHMA4,United States,New Jersey,34,Warren,041
+RHMA4,United States,New York,36,,
+RHMA4,United States,New York,36,Albany,001
+RHMA4,United States,New York,36,Bronx,005
+RHMA4,United States,New York,36,Cattaraugus,009
+RHMA4,United States,New York,36,Chautauqua,013
+RHMA4,United States,New York,36,Chenango,017
+RHMA4,United States,New York,36,Delaware,025
+RHMA4,United States,New York,36,Erie,029
+RHMA4,United States,New York,36,Fulton,035
+RHMA4,United States,New York,36,Genesee,037
+RHMA4,United States,New York,36,Hamilton,041
+RHMA4,United States,New York,36,Madison,053
+RHMA4,United States,New York,36,Monroe,055
+RHMA4,United States,New York,36,Oneida,065
+RHMA4,United States,New York,36,Orange,071
+RHMA4,United States,New York,36,Putnam,079
+RHMA4,United States,New York,36,Queens,081
+RHMA4,United States,New York,36,Richmond,085
+RHMA4,United States,New York,36,Rockland,087
+RHMA4,United States,New York,36,Steuben,101
+RHMA4,United States,New York,36,Suffolk,103
+RHMA4,United States,New York,36,Sullivan,105
+RHMA4,United States,New York,36,Tioga,107
+RHMA4,United States,New York,36,Tompkins,109
+RHMA4,United States,New York,36,Ulster,111
+RHMA4,United States,New York,36,Westchester,119
+RHMA4,United States,New York,36,Wyoming,121
+RHMA4,United States,New York,36,Yates,123
+RHMA4,United States,North Carolina,37,,
+RHMA4,United States,North Carolina,37,Alexander,003
+RHMA4,United States,North Carolina,37,Ashe,009
+RHMA4,United States,North Carolina,37,Avery,011
+RHMA4,United States,North Carolina,37,Buncombe,021
+RHMA4,United States,North Carolina,37,Burke,023
+RHMA4,United States,North Carolina,37,Caldwell,027
+RHMA4,United States,North Carolina,37,Catawba,035
+RHMA4,United States,North Carolina,37,Cherokee,039
+RHMA4,United States,North Carolina,37,Clay,043
+RHMA4,United States,North Carolina,37,Cleveland,045
+RHMA4,United States,North Carolina,37,Davidson,057
+RHMA4,United States,North Carolina,37,Davie,059
+RHMA4,United States,North Carolina,37,Graham,075
+RHMA4,United States,North Carolina,37,Haywood,087
+RHMA4,United States,North Carolina,37,Henderson,089
+RHMA4,United States,North Carolina,37,Iredell,097
+RHMA4,United States,North Carolina,37,Jackson,099
+RHMA4,United States,North Carolina,37,Macon,113
+RHMA4,United States,North Carolina,37,Madison,115
+RHMA4,United States,North Carolina,37,McDowell,111
+RHMA4,United States,North Carolina,37,Mitchell,121
+RHMA4,United States,North Carolina,37,Polk,149
+RHMA4,United States,North Carolina,37,Rockingham,157
+RHMA4,United States,North Carolina,37,Rowan,159
+RHMA4,United States,North Carolina,37,Rutherford,161
+RHMA4,United States,North Carolina,37,Stokes,169
+RHMA4,United States,North Carolina,37,Surry,171
+RHMA4,United States,North Carolina,37,Swain,173
+RHMA4,United States,North Carolina,37,Transylvania,175
+RHMA4,United States,North Carolina,37,Watauga,189
+RHMA4,United States,North Carolina,37,Wilkes,193
+RHMA4,United States,North Carolina,37,Yancey,199
+RHMA4,United States,Ohio,39,,
+RHMA4,United States,Ohio,39,Fairfield,045
+RHMA4,United States,Ohio,39,Hocking,073
+RHMA4,United States,Ohio,39,Jackson,079
+RHMA4,United States,Ohio,39,Jefferson,081
+RHMA4,United States,Ohio,39,Lawrence,087
+RHMA4,United States,Ohio,39,Scioto,145
+RHMA4,United States,Pennsylvania,42,,
+RHMA4,United States,Pennsylvania,42,Adams,001
+RHMA4,United States,Pennsylvania,42,Allegheny,003
+RHMA4,United States,Pennsylvania,42,Armstrong,005
+RHMA4,United States,Pennsylvania,42,Beaver,007
+RHMA4,United States,Pennsylvania,42,Bedford,009
+RHMA4,United States,Pennsylvania,42,Berks,011
+RHMA4,United States,Pennsylvania,42,Blair,013
+RHMA4,United States,Pennsylvania,42,Bucks,017
+RHMA4,United States,Pennsylvania,42,Cambria,021
+RHMA4,United States,Pennsylvania,42,Cameron,023
+RHMA4,United States,Pennsylvania,42,Carbon,025
+RHMA4,United States,Pennsylvania,42,Centre,027
+RHMA4,United States,Pennsylvania,42,Chester,029
+RHMA4,United States,Pennsylvania,42,Clarion,031
+RHMA4,United States,Pennsylvania,42,Clearfield,033
+RHMA4,United States,Pennsylvania,42,Clinton,035
+RHMA4,United States,Pennsylvania,42,Columbia,037
+RHMA4,United States,Pennsylvania,42,Crawford,039
+RHMA4,United States,Pennsylvania,42,Cumberland,041
+RHMA4,United States,Pennsylvania,42,Dauphin,043
+RHMA4,United States,Pennsylvania,42,Elk,047
+RHMA4,United States,Pennsylvania,42,Erie,049
+RHMA4,United States,Pennsylvania,42,Fayette,051
+RHMA4,United States,Pennsylvania,42,Forest,053
+RHMA4,United States,Pennsylvania,42,Franklin,055
+RHMA4,United States,Pennsylvania,42,Fulton,057
+RHMA4,United States,Pennsylvania,42,Greene,059
+RHMA4,United States,Pennsylvania,42,Huntingdon,061
+RHMA4,United States,Pennsylvania,42,Indiana,063
+RHMA4,United States,Pennsylvania,42,Jefferson,065
+RHMA4,United States,Pennsylvania,42,Juniata,067
+RHMA4,United States,Pennsylvania,42,Lackawanna,069
+RHMA4,United States,Pennsylvania,42,Lancaster,071
+RHMA4,United States,Pennsylvania,42,Lehigh,077
+RHMA4,United States,Pennsylvania,42,Luzerne,079
+RHMA4,United States,Pennsylvania,42,Lycoming,081
+RHMA4,United States,Pennsylvania,42,Mifflin,087
+RHMA4,United States,Pennsylvania,42,Monroe,089
+RHMA4,United States,Pennsylvania,42,Montgomery,091
+RHMA4,United States,Pennsylvania,42,Montour,093
+RHMA4,United States,Pennsylvania,42,Northampton,095
+RHMA4,United States,Pennsylvania,42,Northumberland,097
+RHMA4,United States,Pennsylvania,42,Perry,099
+RHMA4,United States,Pennsylvania,42,Philadelphia,101
+RHMA4,United States,Pennsylvania,42,Pike,103
+RHMA4,United States,Pennsylvania,42,Schuylkill,107
+RHMA4,United States,Pennsylvania,42,Snyder,109
+RHMA4,United States,Pennsylvania,42,Somerset,111
+RHMA4,United States,Pennsylvania,42,Sullivan,113
+RHMA4,United States,Pennsylvania,42,Susquehanna,115
+RHMA4,United States,Pennsylvania,42,Union,119
+RHMA4,United States,Pennsylvania,42,Venango,121
+RHMA4,United States,Pennsylvania,42,Warren,123
+RHMA4,United States,Pennsylvania,42,Wayne,127
+RHMA4,United States,Pennsylvania,42,Westmoreland,129
+RHMA4,United States,Pennsylvania,42,Wyoming,131
+RHMA4,United States,Pennsylvania,42,York,133
+RHMA4,United States,Rhode Island,44,,
+RHMA4,United States,Rhode Island,44,Providence,007
+RHMA4,United States,Rhode Island,44,Washington,009
+RHMA4,United States,South Carolina,45,,
+RHMA4,United States,South Carolina,45,Oconee,073
+RHMA4,United States,South Carolina,45,Pickens,077
+RHMA4,United States,Tennessee,47,,
+RHMA4,United States,Tennessee,47,Anderson,001
+RHMA4,United States,Tennessee,47,Benton,005
+RHMA4,United States,Tennessee,47,Blount,009
+RHMA4,United States,Tennessee,47,Campbell,013
+RHMA4,United States,Tennessee,47,Carter,019
+RHMA4,United States,Tennessee,47,Claiborne,025
+RHMA4,United States,Tennessee,47,Cocke,029
+RHMA4,United States,Tennessee,47,Cumberland,035
+RHMA4,United States,Tennessee,47,Fentress,049
+RHMA4,United States,Tennessee,47,Greene,059
+RHMA4,United States,Tennessee,47,Grundy,061
+RHMA4,United States,Tennessee,47,Hamilton,065
+RHMA4,United States,Tennessee,47,Hancock,067
+RHMA4,United States,Tennessee,47,Hawkins,073
+RHMA4,United States,Tennessee,47,Johnson,091
+RHMA4,United States,Tennessee,47,Knox,093
+RHMA4,United States,Tennessee,47,Marion,115
+RHMA4,United States,Tennessee,47,Monroe,123
+RHMA4,United States,Tennessee,47,Overton,133
+RHMA4,United States,Tennessee,47,Pickett,137
+RHMA4,United States,Tennessee,47,Polk,139
+RHMA4,United States,Tennessee,47,Rhea,143
+RHMA4,United States,Tennessee,47,Scott,151
+RHMA4,United States,Tennessee,47,Sequatchie,153
+RHMA4,United States,Tennessee,47,Sevier,155
+RHMA4,United States,Tennessee,47,Smith,159
+RHMA4,United States,Tennessee,47,Unicoi,171
+RHMA4,United States,Tennessee,47,Union,173
+RHMA4,United States,Tennessee,47,Van Buren,175
+RHMA4,United States,Tennessee,47,Washington,179
+RHMA4,United States,Vermont,50,,
+RHMA4,United States,Vermont,50,Caledonia,005
+RHMA4,United States,Vermont,50,Franklin,011
+RHMA4,United States,Vermont,50,Orleans,019
+RHMA4,United States,Vermont,50,Washington,023
+RHMA4,United States,Virginia,51,,
+RHMA4,United States,Virginia,51,Albemarle,003
+RHMA4,United States,Virginia,51,Alleghany,005
+RHMA4,United States,Virginia,51,Augusta,015
+RHMA4,United States,Virginia,51,Bath,017
+RHMA4,United States,Virginia,51,Bedford,019
+RHMA4,United States,Virginia,51,Bland,021
+RHMA4,United States,Virginia,51,Botetourt,023
+RHMA4,United States,Virginia,51,Buchanan,027
+RHMA4,United States,Virginia,51,Campbell,031
+RHMA4,United States,Virginia,51,Caroline,033
+RHMA4,United States,Virginia,51,Carroll,035
+RHMA4,United States,Virginia,51,Clarke,043
+RHMA4,United States,Virginia,51,Craig,045
+RHMA4,United States,Virginia,51,Culpeper,047
+RHMA4,United States,Virginia,51,Dickenson,051
+RHMA4,United States,Virginia,51,Fairfax,059
+RHMA4,United States,Virginia,51,Floyd,063
+RHMA4,United States,Virginia,51,Franklin,067
+RHMA4,United States,Virginia,51,Frederick,069
+RHMA4,United States,Virginia,51,Giles,071
+RHMA4,United States,Virginia,51,Grayson,077
+RHMA4,United States,Virginia,51,Henry,089
+RHMA4,United States,Virginia,51,Highland,091
+RHMA4,United States,Virginia,51,Lee,105
+RHMA4,United States,Virginia,51,Madison,113
+RHMA4,United States,Virginia,51,Montgomery,121
+RHMA4,United States,Virginia,51,Page,139
+RHMA4,United States,Virginia,51,Patrick,141
+RHMA4,United States,Virginia,51,Pittsylvania,143
+RHMA4,United States,Virginia,51,Prince William,153
+RHMA4,United States,Virginia,51,Pulaski,155
+RHMA4,United States,Virginia,51,Roanoke,161
+RHMA4,United States,Virginia,51,Rockbridge,163
+RHMA4,United States,Virginia,51,Rockingham,165
+RHMA4,United States,Virginia,51,Russell,167
+RHMA4,United States,Virginia,51,Scott,169
+RHMA4,United States,Virginia,51,Shenandoah,171
+RHMA4,United States,Virginia,51,Smyth,173
+RHMA4,United States,Virginia,51,Spotsylvania,177
+RHMA4,United States,Virginia,51,Stafford,179
+RHMA4,United States,Virginia,51,Tazewell,185
+RHMA4,United States,Virginia,51,Warren,187
+RHMA4,United States,Virginia,51,Washington,191
+RHMA4,United States,Virginia,51,Wise,195
+RHMA4,United States,Virginia,51,Wythe,197
+RHMA4,United States,West Virginia,54,,
+RHMA4,United States,West Virginia,54,Barbour,001
+RHMA4,United States,West Virginia,54,Berkeley,003
+RHMA4,United States,West Virginia,54,Boone,005
+RHMA4,United States,West Virginia,54,Braxton,007
+RHMA4,United States,West Virginia,54,Calhoun,013
+RHMA4,United States,West Virginia,54,Clay,015
+RHMA4,United States,West Virginia,54,Doddridge,017
+RHMA4,United States,West Virginia,54,Fayette,019
+RHMA4,United States,West Virginia,54,Gilmer,021
+RHMA4,United States,West Virginia,54,Grant,023
+RHMA4,United States,West Virginia,54,Greenbrier,025
+RHMA4,United States,West Virginia,54,Hampshire,027
+RHMA4,United States,West Virginia,54,Hancock,029
+RHMA4,United States,West Virginia,54,Hardy,031
+RHMA4,United States,West Virginia,54,Harrison,033
+RHMA4,United States,West Virginia,54,Jefferson,037
+RHMA4,United States,West Virginia,54,Kanawha,039
+RHMA4,United States,West Virginia,54,Lewis,041
+RHMA4,United States,West Virginia,54,Marion,049
+RHMA4,United States,West Virginia,54,McDowell,047
+RHMA4,United States,West Virginia,54,Mercer,055
+RHMA4,United States,West Virginia,54,Mineral,057
+RHMA4,United States,West Virginia,54,Monongalia,061
+RHMA4,United States,West Virginia,54,Monroe,063
+RHMA4,United States,West Virginia,54,Morgan,065
+RHMA4,United States,West Virginia,54,Nicholas,067
+RHMA4,United States,West Virginia,54,Pendleton,071
+RHMA4,United States,West Virginia,54,Pocahontas,075
+RHMA4,United States,West Virginia,54,Preston,077
+RHMA4,United States,West Virginia,54,Raleigh,081
+RHMA4,United States,West Virginia,54,Randolph,083
+RHMA4,United States,West Virginia,54,Summers,089
+RHMA4,United States,West Virginia,54,Taylor,091
+RHMA4,United States,West Virginia,54,Tucker,093
+RHMA4,United States,West Virginia,54,Upshur,097
+RHMA4,United States,West Virginia,54,Wayne,099
+RHMA4,United States,West Virginia,54,Wirt,105
+RHMA4,United States,West Virginia,54,Wyoming,109

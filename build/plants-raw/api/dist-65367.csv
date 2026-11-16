@@ -1,0 +1,46 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+RHMA3,Canada,British Columbia,02,,
+RHMA3,United States,California,06,,
+RHMA3,United States,California,06,Del Norte,015
+RHMA3,United States,California,06,Humboldt,023
+RHMA3,United States,California,06,Marin,041
+RHMA3,United States,California,06,Mendocino,045
+RHMA3,United States,California,06,Monterey,053
+RHMA3,United States,California,06,San Mateo,081
+RHMA3,United States,California,06,Santa Cruz,087
+RHMA3,United States,California,06,Sonoma,097
+RHMA3,United States,California,06,Trinity,105
+RHMA3,United States,Oregon,41,,
+RHMA3,United States,Oregon,41,Benton,003
+RHMA3,United States,Oregon,41,Clackamas,005
+RHMA3,United States,Oregon,41,Coos,011
+RHMA3,United States,Oregon,41,Curry,015
+RHMA3,United States,Oregon,41,Deschutes,017
+RHMA3,United States,Oregon,41,Douglas,019
+RHMA3,United States,Oregon,41,Hood River,027
+RHMA3,United States,Oregon,41,Jackson,029
+RHMA3,United States,Oregon,41,Jefferson,031
+RHMA3,United States,Oregon,41,Josephine,033
+RHMA3,United States,Oregon,41,Klamath,035
+RHMA3,United States,Oregon,41,Lane,039
+RHMA3,United States,Oregon,41,Lincoln,041
+RHMA3,United States,Oregon,41,Linn,043
+RHMA3,United States,Oregon,41,Marion,047
+RHMA3,United States,Oregon,41,Multnomah,051
+RHMA3,United States,Oregon,41,Polk,053
+RHMA3,United States,Oregon,41,Tillamook,057
+RHMA3,United States,Oregon,41,Washington,067
+RHMA3,United States,Oregon,41,Yamhill,071
+RHMA3,United States,Washington,53,,
+RHMA3,United States,Washington,53,Clallam,009
+RHMA3,United States,Washington,53,Clark,011
+RHMA3,United States,Washington,53,Island,029
+RHMA3,United States,Washington,53,Jefferson,031
+RHMA3,United States,Washington,53,King,033
+RHMA3,United States,Washington,53,Kitsap,035
+RHMA3,United States,Washington,53,Lewis,041
+RHMA3,United States,Washington,53,Mason,045
+RHMA3,United States,Washington,53,Pierce,053
+RHMA3,United States,Washington,53,Skagit,057
+RHMA3,United States,Washington,53,Skamania,059

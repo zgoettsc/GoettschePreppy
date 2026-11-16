@@ -1,0 +1,620 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+PHLE14,United States,Alabama,01,,
+PHLE14,United States,Alabama,01,Baldwin,003
+PHLE14,United States,Alabama,01,Barbour,005
+PHLE14,United States,Alabama,01,Bibb,007
+PHLE14,United States,Alabama,01,Calhoun,015
+PHLE14,United States,Alabama,01,Chambers,017
+PHLE14,United States,Alabama,01,Cleburne,029
+PHLE14,United States,Alabama,01,Coosa,037
+PHLE14,United States,Alabama,01,Covington,039
+PHLE14,United States,Alabama,01,DeKalb,049
+PHLE14,United States,Alabama,01,Elmore,051
+PHLE14,United States,Alabama,01,Etowah,055
+PHLE14,United States,Alabama,01,Hale,065
+PHLE14,United States,Alabama,01,Jackson,071
+PHLE14,United States,Alabama,01,Lee,081
+PHLE14,United States,Alabama,01,Macon,087
+PHLE14,United States,Alabama,01,Marengo,091
+PHLE14,United States,Alabama,01,Marion,093
+PHLE14,United States,Alabama,01,Marshall,095
+PHLE14,United States,Alabama,01,Mobile,097
+PHLE14,United States,Alabama,01,Pickens,107
+PHLE14,United States,Alabama,01,Randolph,111
+PHLE14,United States,Alabama,01,Russell,113
+PHLE14,United States,Alabama,01,Shelby,117
+PHLE14,United States,Alabama,01,Sumter,119
+PHLE14,United States,Alabama,01,Tuscaloosa,125
+PHLE14,United States,Arkansas,05,,
+PHLE14,United States,Arkansas,05,Arkansas,001
+PHLE14,United States,Arkansas,05,Ashley,003
+PHLE14,United States,Arkansas,05,Baxter,005
+PHLE14,United States,Arkansas,05,Bradley,011
+PHLE14,United States,Arkansas,05,Carroll,015
+PHLE14,United States,Arkansas,05,Chicot,017
+PHLE14,United States,Arkansas,05,Clark,019
+PHLE14,United States,Arkansas,05,Cleburne,023
+PHLE14,United States,Arkansas,05,Cleveland,025
+PHLE14,United States,Arkansas,05,Columbia,027
+PHLE14,United States,Arkansas,05,Conway,029
+PHLE14,United States,Arkansas,05,Craighead,031
+PHLE14,United States,Arkansas,05,Crawford,033
+PHLE14,United States,Arkansas,05,Crittenden,035
+PHLE14,United States,Arkansas,05,Dallas,039
+PHLE14,United States,Arkansas,05,Drew,043
+PHLE14,United States,Arkansas,05,Faulkner,045
+PHLE14,United States,Arkansas,05,Franklin,047
+PHLE14,United States,Arkansas,05,Garland,051
+PHLE14,United States,Arkansas,05,Grant,053
+PHLE14,United States,Arkansas,05,Greene,055
+PHLE14,United States,Arkansas,05,Hempstead,057
+PHLE14,United States,Arkansas,05,Hot Spring,059
+PHLE14,United States,Arkansas,05,Howard,061
+PHLE14,United States,Arkansas,05,Independence,063
+PHLE14,United States,Arkansas,05,Izard,065
+PHLE14,United States,Arkansas,05,Jackson,067
+PHLE14,United States,Arkansas,05,Jefferson,069
+PHLE14,United States,Arkansas,05,Johnson,071
+PHLE14,United States,Arkansas,05,Lawrence,075
+PHLE14,United States,Arkansas,05,Little River,081
+PHLE14,United States,Arkansas,05,Logan,083
+PHLE14,United States,Arkansas,05,Lonoke,085
+PHLE14,United States,Arkansas,05,Mississippi,093
+PHLE14,United States,Arkansas,05,Monroe,095
+PHLE14,United States,Arkansas,05,Montgomery,097
+PHLE14,United States,Arkansas,05,Nevada,099
+PHLE14,United States,Arkansas,05,Newton,101
+PHLE14,United States,Arkansas,05,Ouachita,103
+PHLE14,United States,Arkansas,05,Pike,109
+PHLE14,United States,Arkansas,05,Poinsett,111
+PHLE14,United States,Arkansas,05,Polk,113
+PHLE14,United States,Arkansas,05,Pope,115
+PHLE14,United States,Arkansas,05,Pulaski,119
+PHLE14,United States,Arkansas,05,Randolph,121
+PHLE14,United States,Arkansas,05,Saline,125
+PHLE14,United States,Arkansas,05,Scott,127
+PHLE14,United States,Arkansas,05,Sebastian,131
+PHLE14,United States,Arkansas,05,Stone,137
+PHLE14,United States,Arkansas,05,Union,139
+PHLE14,United States,Arkansas,05,Van Buren,141
+PHLE14,United States,Arkansas,05,Washington,143
+PHLE14,United States,Arkansas,05,White,145
+PHLE14,United States,Arkansas,05,Yell,149
+PHLE14,United States,Delaware,10,,
+PHLE14,United States,Delaware,10,New Castle,003
+PHLE14,United States,Delaware,10,Sussex,005
+PHLE14,United States,District of Columbia,11,,
+PHLE14,United States,District of Columbia,11,District of Columbia,001
+PHLE14,United States,Florida,12,,
+PHLE14,United States,Florida,12,Alachua,001
+PHLE14,United States,Florida,12,Bradford,007
+PHLE14,United States,Florida,12,Brevard,009
+PHLE14,United States,Florida,12,Citrus,017
+PHLE14,United States,Florida,12,Clay,019
+PHLE14,United States,Florida,12,Collier,021
+PHLE14,United States,Florida,12,Columbia,023
+PHLE14,United States,Florida,12,Dixie,029
+PHLE14,United States,Florida,12,Duval,031
+PHLE14,United States,Florida,12,Escambia,033
+PHLE14,United States,Florida,12,Franklin,037
+PHLE14,United States,Florida,12,Gadsden,039
+PHLE14,United States,Florida,12,Gilchrist,041
+PHLE14,United States,Florida,12,Gulf,045
+PHLE14,United States,Florida,12,Hamilton,047
+PHLE14,United States,Florida,12,Hardee,049
+PHLE14,United States,Florida,12,Hendry,051
+PHLE14,United States,Florida,12,Hernando,053
+PHLE14,United States,Florida,12,Highlands,055
+PHLE14,United States,Florida,12,Hillsborough,057
+PHLE14,United States,Florida,12,Holmes,059
+PHLE14,United States,Florida,12,Jackson,063
+PHLE14,United States,Florida,12,Jefferson,065
+PHLE14,United States,Florida,12,Lake,069
+PHLE14,United States,Florida,12,Lee,071
+PHLE14,United States,Florida,12,Leon,073
+PHLE14,United States,Florida,12,Levy,075
+PHLE14,United States,Florida,12,Liberty,077
+PHLE14,United States,Florida,12,Manatee,081
+PHLE14,United States,Florida,12,Marion,083
+PHLE14,United States,Florida,12,Okaloosa,091
+PHLE14,United States,Florida,12,Okeechobee,093
+PHLE14,United States,Florida,12,Orange,095
+PHLE14,United States,Florida,12,Pasco,101
+PHLE14,United States,Florida,12,Pinellas,103
+PHLE14,United States,Florida,12,Polk,105
+PHLE14,United States,Florida,12,Putnam,107
+PHLE14,United States,Florida,12,Santa Rosa,113
+PHLE14,United States,Florida,12,Sarasota,115
+PHLE14,United States,Florida,12,Seminole,117
+PHLE14,United States,Florida,12,St. Lucie,111
+PHLE14,United States,Florida,12,Sumter,119
+PHLE14,United States,Florida,12,Suwannee,121
+PHLE14,United States,Florida,12,Taylor,123
+PHLE14,United States,Florida,12,Volusia,127
+PHLE14,United States,Florida,12,Wakulla,129
+PHLE14,United States,Florida,12,Walton,131
+PHLE14,United States,Georgia,13,,
+PHLE14,United States,Georgia,13,Bartow,015
+PHLE14,United States,Georgia,13,Berrien,019
+PHLE14,United States,Georgia,13,Butts,035
+PHLE14,United States,Georgia,13,Camden,039
+PHLE14,United States,Georgia,13,Charlton,049
+PHLE14,United States,Georgia,13,Clarke,059
+PHLE14,United States,Georgia,13,Columbia,073
+PHLE14,United States,Georgia,13,Dade,083
+PHLE14,United States,Georgia,13,Decatur,087
+PHLE14,United States,Georgia,13,Early,099
+PHLE14,United States,Georgia,13,Forsyth,117
+PHLE14,United States,Georgia,13,Glascock,125
+PHLE14,United States,Georgia,13,Hall,139
+PHLE14,United States,Georgia,13,Harris,145
+PHLE14,United States,Georgia,13,Liberty,179
+PHLE14,United States,Georgia,13,Long,183
+PHLE14,United States,Georgia,13,McIntosh,191
+PHLE14,United States,Georgia,13,Meriwether,199
+PHLE14,United States,Georgia,13,Morgan,211
+PHLE14,United States,Georgia,13,Pickens,227
+PHLE14,United States,Georgia,13,Rabun,241
+PHLE14,United States,Georgia,13,Richmond,245
+PHLE14,United States,Georgia,13,Rockdale,247
+PHLE14,United States,Georgia,13,Stephens,257
+PHLE14,United States,Georgia,13,Tattnall,267
+PHLE14,United States,Georgia,13,Taylor,269
+PHLE14,United States,Georgia,13,Turner,287
+PHLE14,United States,Georgia,13,Ware,299
+PHLE14,United States,Georgia,13,Whitfield,313
+PHLE14,United States,Illinois,17,,
+PHLE14,United States,Illinois,17,Alexander,003
+PHLE14,United States,Illinois,17,Clark,023
+PHLE14,United States,Illinois,17,Crawford,033
+PHLE14,United States,Illinois,17,Gallatin,059
+PHLE14,United States,Illinois,17,Hardin,069
+PHLE14,United States,Illinois,17,Jackson,077
+PHLE14,United States,Illinois,17,Johnson,087
+PHLE14,United States,Illinois,17,Lawrence,101
+PHLE14,United States,Illinois,17,Massac,127
+PHLE14,United States,Illinois,17,Pope,151
+PHLE14,United States,Illinois,17,Pulaski,153
+PHLE14,United States,Illinois,17,Randolph,157
+PHLE14,United States,Illinois,17,Saline,165
+PHLE14,United States,Illinois,17,St. Clair,163
+PHLE14,United States,Illinois,17,Union,181
+PHLE14,United States,Illinois,17,Wabash,185
+PHLE14,United States,Illinois,17,Wayne,191
+PHLE14,United States,Illinois,17,White,193
+PHLE14,United States,Illinois,17,Williamson,199
+PHLE14,United States,Indiana,18,,
+PHLE14,United States,Indiana,18,Clark,019
+PHLE14,United States,Indiana,18,Gibson,051
+PHLE14,United States,Indiana,18,Harrison,061
+PHLE14,United States,Indiana,18,Jefferson,077
+PHLE14,United States,Indiana,18,Jennings,079
+PHLE14,United States,Indiana,18,Perry,123
+PHLE14,United States,Indiana,18,Posey,129
+PHLE14,United States,Indiana,18,Vanderburgh,163
+PHLE14,United States,Kansas,20,,
+PHLE14,United States,Kansas,20,Chautauqua,019
+PHLE14,United States,Kansas,20,Cherokee,021
+PHLE14,United States,Kansas,20,Crawford,037
+PHLE14,United States,Kansas,20,Labette,099
+PHLE14,United States,Kansas,20,Montgomery,125
+PHLE14,United States,Kentucky,21,,
+PHLE14,United States,Kentucky,21,Adair,001
+PHLE14,United States,Kentucky,21,Allen,003
+PHLE14,United States,Kentucky,21,Anderson,005
+PHLE14,United States,Kentucky,21,Ballard,007
+PHLE14,United States,Kentucky,21,Barren,009
+PHLE14,United States,Kentucky,21,Bath,011
+PHLE14,United States,Kentucky,21,Bell,013
+PHLE14,United States,Kentucky,21,Boone,015
+PHLE14,United States,Kentucky,21,Bourbon,017
+PHLE14,United States,Kentucky,21,Boyd,019
+PHLE14,United States,Kentucky,21,Boyle,021
+PHLE14,United States,Kentucky,21,Bracken,023
+PHLE14,United States,Kentucky,21,Breathitt,025
+PHLE14,United States,Kentucky,21,Breckinridge,027
+PHLE14,United States,Kentucky,21,Bullitt,029
+PHLE14,United States,Kentucky,21,Butler,031
+PHLE14,United States,Kentucky,21,Caldwell,033
+PHLE14,United States,Kentucky,21,Calloway,035
+PHLE14,United States,Kentucky,21,Campbell,037
+PHLE14,United States,Kentucky,21,Carlisle,039
+PHLE14,United States,Kentucky,21,Carroll,041
+PHLE14,United States,Kentucky,21,Carter,043
+PHLE14,United States,Kentucky,21,Casey,045
+PHLE14,United States,Kentucky,21,Christian,047
+PHLE14,United States,Kentucky,21,Clark,049
+PHLE14,United States,Kentucky,21,Clay,051
+PHLE14,United States,Kentucky,21,Clinton,053
+PHLE14,United States,Kentucky,21,Crittenden,055
+PHLE14,United States,Kentucky,21,Cumberland,057
+PHLE14,United States,Kentucky,21,Daviess,059
+PHLE14,United States,Kentucky,21,Edmonson,061
+PHLE14,United States,Kentucky,21,Elliott,063
+PHLE14,United States,Kentucky,21,Estill,065
+PHLE14,United States,Kentucky,21,Fayette,067
+PHLE14,United States,Kentucky,21,Fleming,069
+PHLE14,United States,Kentucky,21,Floyd,071
+PHLE14,United States,Kentucky,21,Franklin,073
+PHLE14,United States,Kentucky,21,Fulton,075
+PHLE14,United States,Kentucky,21,Gallatin,077
+PHLE14,United States,Kentucky,21,Garrard,079
+PHLE14,United States,Kentucky,21,Grant,081
+PHLE14,United States,Kentucky,21,Graves,083
+PHLE14,United States,Kentucky,21,Grayson,085
+PHLE14,United States,Kentucky,21,Green,087
+PHLE14,United States,Kentucky,21,Greenup,089
+PHLE14,United States,Kentucky,21,Hancock,091
+PHLE14,United States,Kentucky,21,Hardin,093
+PHLE14,United States,Kentucky,21,Harlan,095
+PHLE14,United States,Kentucky,21,Harrison,097
+PHLE14,United States,Kentucky,21,Hart,099
+PHLE14,United States,Kentucky,21,Henderson,101
+PHLE14,United States,Kentucky,21,Henry,103
+PHLE14,United States,Kentucky,21,Hickman,105
+PHLE14,United States,Kentucky,21,Hopkins,107
+PHLE14,United States,Kentucky,21,Jackson,109
+PHLE14,United States,Kentucky,21,Jefferson,111
+PHLE14,United States,Kentucky,21,Jessamine,113
+PHLE14,United States,Kentucky,21,Johnson,115
+PHLE14,United States,Kentucky,21,Kenton,117
+PHLE14,United States,Kentucky,21,Knott,119
+PHLE14,United States,Kentucky,21,Knox,121
+PHLE14,United States,Kentucky,21,Larue,123
+PHLE14,United States,Kentucky,21,Laurel,125
+PHLE14,United States,Kentucky,21,Lawrence,127
+PHLE14,United States,Kentucky,21,Lee,129
+PHLE14,United States,Kentucky,21,Leslie,131
+PHLE14,United States,Kentucky,21,Letcher,133
+PHLE14,United States,Kentucky,21,Lewis,135
+PHLE14,United States,Kentucky,21,Lincoln,137
+PHLE14,United States,Kentucky,21,Livingston,139
+PHLE14,United States,Kentucky,21,Logan,141
+PHLE14,United States,Kentucky,21,Lyon,143
+PHLE14,United States,Kentucky,21,Madison,151
+PHLE14,United States,Kentucky,21,Magoffin,153
+PHLE14,United States,Kentucky,21,Marion,155
+PHLE14,United States,Kentucky,21,Marshall,157
+PHLE14,United States,Kentucky,21,Martin,159
+PHLE14,United States,Kentucky,21,Mason,161
+PHLE14,United States,Kentucky,21,McCracken,145
+PHLE14,United States,Kentucky,21,McCreary,147
+PHLE14,United States,Kentucky,21,McLean,149
+PHLE14,United States,Kentucky,21,Meade,163
+PHLE14,United States,Kentucky,21,Menifee,165
+PHLE14,United States,Kentucky,21,Mercer,167
+PHLE14,United States,Kentucky,21,Metcalfe,169
+PHLE14,United States,Kentucky,21,Monroe,171
+PHLE14,United States,Kentucky,21,Montgomery,173
+PHLE14,United States,Kentucky,21,Morgan,175
+PHLE14,United States,Kentucky,21,Muhlenberg,177
+PHLE14,United States,Kentucky,21,Nelson,179
+PHLE14,United States,Kentucky,21,Nicholas,181
+PHLE14,United States,Kentucky,21,Ohio,183
+PHLE14,United States,Kentucky,21,Oldham,185
+PHLE14,United States,Kentucky,21,Owen,187
+PHLE14,United States,Kentucky,21,Owsley,189
+PHLE14,United States,Kentucky,21,Pendleton,191
+PHLE14,United States,Kentucky,21,Perry,193
+PHLE14,United States,Kentucky,21,Pike,195
+PHLE14,United States,Kentucky,21,Powell,197
+PHLE14,United States,Kentucky,21,Pulaski,199
+PHLE14,United States,Kentucky,21,Robertson,201
+PHLE14,United States,Kentucky,21,Rockcastle,203
+PHLE14,United States,Kentucky,21,Rowan,205
+PHLE14,United States,Kentucky,21,Russell,207
+PHLE14,United States,Kentucky,21,Scott,209
+PHLE14,United States,Kentucky,21,Shelby,211
+PHLE14,United States,Kentucky,21,Simpson,213
+PHLE14,United States,Kentucky,21,Spencer,215
+PHLE14,United States,Kentucky,21,Taylor,217
+PHLE14,United States,Kentucky,21,Todd,219
+PHLE14,United States,Kentucky,21,Trigg,221
+PHLE14,United States,Kentucky,21,Trimble,223
+PHLE14,United States,Kentucky,21,Union,225
+PHLE14,United States,Kentucky,21,Warren,227
+PHLE14,United States,Kentucky,21,Washington,229
+PHLE14,United States,Kentucky,21,Wayne,231
+PHLE14,United States,Kentucky,21,Webster,233
+PHLE14,United States,Kentucky,21,Whitley,235
+PHLE14,United States,Kentucky,21,Wolfe,237
+PHLE14,United States,Kentucky,21,Woodford,239
+PHLE14,United States,Louisiana,22,,
+PHLE14,United States,Louisiana,22,Allen,003
+PHLE14,United States,Louisiana,22,Avoyelles,009
+PHLE14,United States,Louisiana,22,Bienville,013
+PHLE14,United States,Louisiana,22,Bossier,015
+PHLE14,United States,Louisiana,22,Caddo,017
+PHLE14,United States,Louisiana,22,Calcasieu,019
+PHLE14,United States,Louisiana,22,Caldwell,021
+PHLE14,United States,Louisiana,22,Catahoula,025
+PHLE14,United States,Louisiana,22,Claiborne,027
+PHLE14,United States,Louisiana,22,Concordia,029
+PHLE14,United States,Louisiana,22,De Soto,031
+PHLE14,United States,Louisiana,22,East Baton Rouge,033
+PHLE14,United States,Louisiana,22,East Carroll,035
+PHLE14,United States,Louisiana,22,East Feliciana,037
+PHLE14,United States,Louisiana,22,Evangeline,039
+PHLE14,United States,Louisiana,22,Franklin,041
+PHLE14,United States,Louisiana,22,Grant,043
+PHLE14,United States,Louisiana,22,Iberia,045
+PHLE14,United States,Louisiana,22,Jackson,049
+PHLE14,United States,Louisiana,22,Jefferson,051
+PHLE14,United States,Louisiana,22,Lafayette,055
+PHLE14,United States,Louisiana,22,Lafourche,057
+PHLE14,United States,Louisiana,22,LaSalle,059
+PHLE14,United States,Louisiana,22,Lincoln,061
+PHLE14,United States,Louisiana,22,Livingston,063
+PHLE14,United States,Louisiana,22,Madison,065
+PHLE14,United States,Louisiana,22,Morehouse,067
+PHLE14,United States,Louisiana,22,Natchitoches,069
+PHLE14,United States,Louisiana,22,Orleans,071
+PHLE14,United States,Louisiana,22,Ouachita,073
+PHLE14,United States,Louisiana,22,Rapides,079
+PHLE14,United States,Louisiana,22,Red River,081
+PHLE14,United States,Louisiana,22,Richland,083
+PHLE14,United States,Louisiana,22,Sabine,085
+PHLE14,United States,Louisiana,22,St. Charles,089
+PHLE14,United States,Louisiana,22,St. Helena,091
+PHLE14,United States,Louisiana,22,St. John the Baptist,095
+PHLE14,United States,Louisiana,22,St. Martin,099
+PHLE14,United States,Louisiana,22,St. Tammany,103
+PHLE14,United States,Louisiana,22,Tensas,107
+PHLE14,United States,Louisiana,22,Terrebonne,109
+PHLE14,United States,Louisiana,22,Union,111
+PHLE14,United States,Louisiana,22,Vernon,115
+PHLE14,United States,Louisiana,22,Washington,117
+PHLE14,United States,Louisiana,22,Webster,119
+PHLE14,United States,Louisiana,22,West Carroll,123
+PHLE14,United States,Louisiana,22,West Feliciana,125
+PHLE14,United States,Louisiana,22,Winn,127
+PHLE14,United States,Maryland,24,,
+PHLE14,United States,Mississippi,28,,
+PHLE14,United States,Mississippi,28,Attala,007
+PHLE14,United States,Mississippi,28,Hinds,049
+PHLE14,United States,Mississippi,28,Leflore,083
+PHLE14,United States,Mississippi,28,Noxubee,103
+PHLE14,United States,Mississippi,28,Tishomingo,141
+PHLE14,United States,Missouri,29,,
+PHLE14,United States,Missouri,29,Bollinger,017
+PHLE14,United States,Missouri,29,Butler,023
+PHLE14,United States,Missouri,29,Cape Girardeau,031
+PHLE14,United States,Missouri,29,Carter,035
+PHLE14,United States,Missouri,29,Dunklin,069
+PHLE14,United States,Missouri,29,Mississippi,133
+PHLE14,United States,Missouri,29,New Madrid,143
+PHLE14,United States,Missouri,29,Oregon,149
+PHLE14,United States,Missouri,29,Ozark,153
+PHLE14,United States,Missouri,29,Pemiscot,155
+PHLE14,United States,Missouri,29,Reynolds,179
+PHLE14,United States,Missouri,29,Ripley,181
+PHLE14,United States,Missouri,29,Scott,201
+PHLE14,United States,Missouri,29,Shannon,203
+PHLE14,United States,Missouri,29,Stoddard,207
+PHLE14,United States,Missouri,29,Stone,209
+PHLE14,United States,Missouri,29,Taney,213
+PHLE14,United States,Missouri,29,Wayne,223
+PHLE14,United States,New Jersey,34,,
+PHLE14,United States,New Jersey,34,Atlantic,001
+PHLE14,United States,New Jersey,34,Burlington,005
+PHLE14,United States,New Jersey,34,Camden,007
+PHLE14,United States,New Jersey,34,Cape May,009
+PHLE14,United States,New Jersey,34,Cumberland,011
+PHLE14,United States,New Jersey,34,Gloucester,015
+PHLE14,United States,New Jersey,34,Middlesex,023
+PHLE14,United States,New Jersey,34,Monmouth,025
+PHLE14,United States,New Jersey,34,Ocean,029
+PHLE14,United States,New Jersey,34,Salem,033
+PHLE14,United States,New Mexico,35,,
+PHLE14,United States,New Mexico,35,Dona Ana,013
+PHLE14,United States,New Mexico,35,Eddy,015
+PHLE14,United States,New Mexico,35,Hidalgo,023
+PHLE14,United States,New Mexico,35,Lincoln,027
+PHLE14,United States,New York,36,,
+PHLE14,United States,New York,36,Richmond,085
+PHLE14,United States,North Carolina,37,,
+PHLE14,United States,North Carolina,37,Alamance,001
+PHLE14,United States,North Carolina,37,Alexander,003
+PHLE14,United States,North Carolina,37,Bertie,015
+PHLE14,United States,North Carolina,37,Bladen,017
+PHLE14,United States,North Carolina,37,Brunswick,019
+PHLE14,United States,North Carolina,37,Buncombe,021
+PHLE14,United States,North Carolina,37,Burke,023
+PHLE14,United States,North Carolina,37,Cabarrus,025
+PHLE14,United States,North Carolina,37,Caldwell,027
+PHLE14,United States,North Carolina,37,Carteret,031
+PHLE14,United States,North Carolina,37,Catawba,035
+PHLE14,United States,North Carolina,37,Chatham,037
+PHLE14,United States,North Carolina,37,Columbus,047
+PHLE14,United States,North Carolina,37,Cumberland,051
+PHLE14,United States,North Carolina,37,Davidson,057
+PHLE14,United States,North Carolina,37,Durham,063
+PHLE14,United States,North Carolina,37,Forsyth,067
+PHLE14,United States,North Carolina,37,Franklin,069
+PHLE14,United States,North Carolina,37,Gaston,071
+PHLE14,United States,North Carolina,37,Harnett,085
+PHLE14,United States,North Carolina,37,Henderson,089
+PHLE14,United States,North Carolina,37,Hertford,091
+PHLE14,United States,North Carolina,37,Hoke,093
+PHLE14,United States,North Carolina,37,Iredell,097
+PHLE14,United States,North Carolina,37,Johnston,101
+PHLE14,United States,North Carolina,37,Lincoln,109
+PHLE14,United States,North Carolina,37,Macon,113
+PHLE14,United States,North Carolina,37,Mecklenburg,119
+PHLE14,United States,North Carolina,37,Montgomery,123
+PHLE14,United States,North Carolina,37,Moore,125
+PHLE14,United States,North Carolina,37,Northampton,131
+PHLE14,United States,North Carolina,37,Onslow,133
+PHLE14,United States,North Carolina,37,Orange,135
+PHLE14,United States,North Carolina,37,Pender,141
+PHLE14,United States,North Carolina,37,Polk,149
+PHLE14,United States,North Carolina,37,Randolph,151
+PHLE14,United States,North Carolina,37,Richmond,153
+PHLE14,United States,North Carolina,37,Robeson,155
+PHLE14,United States,North Carolina,37,Rowan,159
+PHLE14,United States,North Carolina,37,Sampson,163
+PHLE14,United States,North Carolina,37,Scotland,165
+PHLE14,United States,North Carolina,37,Stanly,167
+PHLE14,United States,North Carolina,37,Swain,173
+PHLE14,United States,North Carolina,37,Transylvania,175
+PHLE14,United States,North Carolina,37,Wake,183
+PHLE14,United States,North Carolina,37,Warren,185
+PHLE14,United States,North Carolina,37,Wayne,191
+PHLE14,United States,North Carolina,37,Wilson,195
+PHLE14,United States,Ohio,39,,
+PHLE14,United States,Ohio,39,Adams,001
+PHLE14,United States,Ohio,39,Athens,009
+PHLE14,United States,Ohio,39,Brown,015
+PHLE14,United States,Ohio,39,Gallia,053
+PHLE14,United States,Ohio,39,Hamilton,061
+PHLE14,United States,Ohio,39,Jackson,079
+PHLE14,United States,Ohio,39,Lawrence,087
+PHLE14,United States,Ohio,39,Meigs,105
+PHLE14,United States,Ohio,39,Pike,131
+PHLE14,United States,Ohio,39,Ross,141
+PHLE14,United States,Ohio,39,Scioto,145
+PHLE14,United States,Ohio,39,Vinton,163
+PHLE14,United States,Ohio,39,Washington,167
+PHLE14,United States,Oklahoma,40,,
+PHLE14,United States,Pennsylvania,42,,
+PHLE14,United States,Pennsylvania,42,Bucks,017
+PHLE14,United States,Pennsylvania,42,Delaware,045
+PHLE14,United States,Pennsylvania,42,Franklin,055
+PHLE14,United States,Pennsylvania,42,Lancaster,071
+PHLE14,United States,South Carolina,45,,
+PHLE14,United States,South Carolina,45,Aiken,003
+PHLE14,United States,South Carolina,45,Anderson,007
+PHLE14,United States,South Carolina,45,Bamberg,009
+PHLE14,United States,South Carolina,45,Barnwell,011
+PHLE14,United States,South Carolina,45,Beaufort,013
+PHLE14,United States,South Carolina,45,Berkeley,015
+PHLE14,United States,South Carolina,45,Calhoun,017
+PHLE14,United States,South Carolina,45,Charleston,019
+PHLE14,United States,South Carolina,45,Chesterfield,025
+PHLE14,United States,South Carolina,45,Darlington,031
+PHLE14,United States,South Carolina,45,Dillon,033
+PHLE14,United States,South Carolina,45,Florence,041
+PHLE14,United States,South Carolina,45,Georgetown,043
+PHLE14,United States,South Carolina,45,Hampton,049
+PHLE14,United States,South Carolina,45,Horry,051
+PHLE14,United States,South Carolina,45,Lancaster,057
+PHLE14,United States,South Carolina,45,Lee,061
+PHLE14,United States,South Carolina,45,Lexington,063
+PHLE14,United States,South Carolina,45,Marion,067
+PHLE14,United States,South Carolina,45,McCormick,065
+PHLE14,United States,South Carolina,45,Oconee,073
+PHLE14,United States,South Carolina,45,Orangeburg,075
+PHLE14,United States,South Carolina,45,Pickens,077
+PHLE14,United States,South Carolina,45,Williamsburg,089
+PHLE14,United States,Tennessee,47,,
+PHLE14,United States,Tennessee,47,Blount,009
+PHLE14,United States,Tennessee,47,Carter,019
+PHLE14,United States,Tennessee,47,Cheatham,021
+PHLE14,United States,Tennessee,47,Coffee,031
+PHLE14,United States,Tennessee,47,Cumberland,035
+PHLE14,United States,Tennessee,47,Decatur,039
+PHLE14,United States,Tennessee,47,Dickson,043
+PHLE14,United States,Tennessee,47,Hamilton,065
+PHLE14,United States,Tennessee,47,Hardin,071
+PHLE14,United States,Tennessee,47,Hawkins,073
+PHLE14,United States,Tennessee,47,Henry,079
+PHLE14,United States,Tennessee,47,Knox,093
+PHLE14,United States,Tennessee,47,Marion,115
+PHLE14,United States,Tennessee,47,Montgomery,125
+PHLE14,United States,Tennessee,47,Polk,139
+PHLE14,United States,Tennessee,47,Rutherford,149
+PHLE14,United States,Tennessee,47,Sevier,155
+PHLE14,United States,Tennessee,47,Shelby,157
+PHLE14,United States,Tennessee,47,Stewart,161
+PHLE14,United States,Tennessee,47,Sullivan,163
+PHLE14,United States,Tennessee,47,Tipton,167
+PHLE14,United States,Tennessee,47,Unicoi,171
+PHLE14,United States,Tennessee,47,Warren,177
+PHLE14,United States,Tennessee,47,Williamson,187
+PHLE14,United States,Texas,48,,
+PHLE14,United States,Virginia,51,,
+PHLE14,United States,Virginia,51,Accomack,001
+PHLE14,United States,Virginia,51,Albemarle,003
+PHLE14,United States,Virginia,51,Alleghany,005
+PHLE14,United States,Virginia,51,Amelia,007
+PHLE14,United States,Virginia,51,Appomattox,011
+PHLE14,United States,Virginia,51,Augusta,015
+PHLE14,United States,Virginia,51,Bedford,019
+PHLE14,United States,Virginia,51,Botetourt,023
+PHLE14,United States,Virginia,51,Brunswick,025
+PHLE14,United States,Virginia,51,Buchanan,027
+PHLE14,United States,Virginia,51,Buckingham,029
+PHLE14,United States,Virginia,51,Campbell,031
+PHLE14,United States,Virginia,51,Caroline,033
+PHLE14,United States,Virginia,51,Carroll,035
+PHLE14,United States,Virginia,51,Charles City,036
+PHLE14,United States,Virginia,51,Charlotte,037
+PHLE14,United States,Virginia,51,"Chesapeake ",550
+PHLE14,United States,Virginia,51,Chesterfield,041
+PHLE14,United States,Virginia,51,Clarke,043
+PHLE14,United States,Virginia,51,Cumberland,049
+PHLE14,United States,Virginia,51,Dickenson,051
+PHLE14,United States,Virginia,51,Dinwiddie,053
+PHLE14,United States,Virginia,51,Essex,057
+PHLE14,United States,Virginia,51,Fairfax,059
+PHLE14,United States,Virginia,51,Fauquier,061
+PHLE14,United States,Virginia,51,Frederick,069
+PHLE14,United States,Virginia,51,Giles,071
+PHLE14,United States,Virginia,51,Gloucester,073
+PHLE14,United States,Virginia,51,Goochland,075
+PHLE14,United States,Virginia,51,Greene,079
+PHLE14,United States,Virginia,51,Greensville,081
+PHLE14,United States,Virginia,51,Halifax,083
+PHLE14,United States,Virginia,51,"Hampton ",650
+PHLE14,United States,Virginia,51,Hanover,085
+PHLE14,United States,Virginia,51,Henrico,087
+PHLE14,United States,Virginia,51,Henry,089
+PHLE14,United States,Virginia,51,Isle of Wight,093
+PHLE14,United States,Virginia,51,James City,095
+PHLE14,United States,Virginia,51,King and Queen,097
+PHLE14,United States,Virginia,51,King William,101
+PHLE14,United States,Virginia,51,Lancaster,103
+PHLE14,United States,Virginia,51,Lee,105
+PHLE14,United States,Virginia,51,Louisa,109
+PHLE14,United States,Virginia,51,Lunenburg,111
+PHLE14,United States,Virginia,51,Mathews,115
+PHLE14,United States,Virginia,51,Mecklenburg,117
+PHLE14,United States,Virginia,51,Middlesex,119
+PHLE14,United States,Virginia,51,Montgomery,121
+PHLE14,United States,Virginia,51,New Kent,127
+PHLE14,United States,Virginia,51,"Newport News ",700
+PHLE14,United States,Virginia,51,Nottoway,135
+PHLE14,United States,Virginia,51,Orange,137
+PHLE14,United States,Virginia,51,Pittsylvania,143
+PHLE14,United States,Virginia,51,Powhatan,145
+PHLE14,United States,Virginia,51,Prince Edward,147
+PHLE14,United States,Virginia,51,Prince George,149
+PHLE14,United States,Virginia,51,Prince William,153
+PHLE14,United States,Virginia,51,Rappahannock,157
+PHLE14,United States,Virginia,51,Richmond,159
+PHLE14,United States,Virginia,51,Rockbridge,163
+PHLE14,United States,Virginia,51,Shenandoah,171
+PHLE14,United States,Virginia,51,Southampton,175
+PHLE14,United States,Virginia,51,"Suffolk ",800
+PHLE14,United States,Virginia,51,Surry,181
+PHLE14,United States,Virginia,51,Sussex,183
+PHLE14,United States,Virginia,51,"Virginia Beach ",810
+PHLE14,United States,Virginia,51,Washington,191
+PHLE14,United States,Virginia,51,York,199
+PHLE14,United States,West Virginia,54,,
+PHLE14,United States,West Virginia,54,Braxton,007
+PHLE14,United States,West Virginia,54,Cabell,011
+PHLE14,United States,West Virginia,54,Calhoun,013
+PHLE14,United States,West Virginia,54,Clay,015
+PHLE14,United States,West Virginia,54,Fayette,019
+PHLE14,United States,West Virginia,54,Hampshire,027
+PHLE14,United States,West Virginia,54,Jackson,035
+PHLE14,United States,West Virginia,54,Kanawha,039
+PHLE14,United States,West Virginia,54,Logan,045
+PHLE14,United States,West Virginia,54,Mason,053
+PHLE14,United States,West Virginia,54,Putnam,079
+PHLE14,United States,West Virginia,54,Roane,087
+PHLE14,United States,West Virginia,54,Wayne,099
+PHLE14,United States,West Virginia,54,Wood,107
+PHLE14,United States,West Virginia,54,Wyoming,109

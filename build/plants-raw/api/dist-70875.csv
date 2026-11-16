@@ -1,0 +1,879 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+MAPO,United States,Alabama,01,,
+MAPO,United States,Alabama,01,Calhoun,015
+MAPO,United States,Alabama,01,Colbert,033
+MAPO,United States,Alabama,01,Dallas,047
+MAPO,United States,Alabama,01,Elmore,051
+MAPO,United States,Alabama,01,Franklin,059
+MAPO,United States,Alabama,01,Greene,063
+MAPO,United States,Alabama,01,Hale,065
+MAPO,United States,Alabama,01,Jackson,071
+MAPO,United States,Alabama,01,Jefferson,073
+MAPO,United States,Alabama,01,Lauderdale,077
+MAPO,United States,Alabama,01,Lawrence,079
+MAPO,United States,Alabama,01,Lee,081
+MAPO,United States,Alabama,01,Lowndes,085
+MAPO,United States,Alabama,01,Marengo,091
+MAPO,United States,Alabama,01,Mobile,097
+MAPO,United States,Alabama,01,Montgomery,101
+MAPO,United States,Alabama,01,Morgan,103
+MAPO,United States,Alabama,01,Perry,105
+MAPO,United States,Alabama,01,Pickens,107
+MAPO,United States,Alabama,01,Pike,109
+MAPO,United States,Alabama,01,Russell,113
+MAPO,United States,Alabama,01,Sumter,119
+MAPO,United States,Alabama,01,Talladega,121
+MAPO,United States,Alabama,01,Tuscaloosa,125
+MAPO,United States,Alabama,01,Wilcox,131
+MAPO,United States,Arkansas,05,,
+MAPO,United States,Arkansas,05,Arkansas,001
+MAPO,United States,Arkansas,05,Ashley,003
+MAPO,United States,Arkansas,05,Baxter,005
+MAPO,United States,Arkansas,05,Benton,007
+MAPO,United States,Arkansas,05,Boone,009
+MAPO,United States,Arkansas,05,Chicot,017
+MAPO,United States,Arkansas,05,Clark,019
+MAPO,United States,Arkansas,05,Cleburne,023
+MAPO,United States,Arkansas,05,Conway,029
+MAPO,United States,Arkansas,05,Craighead,031
+MAPO,United States,Arkansas,05,Crawford,033
+MAPO,United States,Arkansas,05,Crittenden,035
+MAPO,United States,Arkansas,05,Cross,037
+MAPO,United States,Arkansas,05,Drew,043
+MAPO,United States,Arkansas,05,Faulkner,045
+MAPO,United States,Arkansas,05,Franklin,047
+MAPO,United States,Arkansas,05,Garland,051
+MAPO,United States,Arkansas,05,Greene,055
+MAPO,United States,Arkansas,05,Hempstead,057
+MAPO,United States,Arkansas,05,Hot Spring,059
+MAPO,United States,Arkansas,05,Howard,061
+MAPO,United States,Arkansas,05,Independence,063
+MAPO,United States,Arkansas,05,Izard,065
+MAPO,United States,Arkansas,05,Jefferson,069
+MAPO,United States,Arkansas,05,Lafayette,073
+MAPO,United States,Arkansas,05,Lee,077
+MAPO,United States,Arkansas,05,Lincoln,079
+MAPO,United States,Arkansas,05,Little River,081
+MAPO,United States,Arkansas,05,Logan,083
+MAPO,United States,Arkansas,05,Miller,091
+MAPO,United States,Arkansas,05,Mississippi,093
+MAPO,United States,Arkansas,05,Montgomery,097
+MAPO,United States,Arkansas,05,Nevada,099
+MAPO,United States,Arkansas,05,Newton,101
+MAPO,United States,Arkansas,05,Phillips,107
+MAPO,United States,Arkansas,05,Poinsett,111
+MAPO,United States,Arkansas,05,Polk,113
+MAPO,United States,Arkansas,05,Pope,115
+MAPO,United States,Arkansas,05,Pulaski,119
+MAPO,United States,Arkansas,05,Scott,127
+MAPO,United States,Arkansas,05,Searcy,129
+MAPO,United States,Arkansas,05,Sevier,133
+MAPO,United States,Arkansas,05,St. Francis,123
+MAPO,United States,Arkansas,05,Union,139
+MAPO,United States,Arkansas,05,Washington,143
+MAPO,United States,Arkansas,05,Yell,149
+MAPO,United States,California,06,,
+MAPO,United States,California,06,Butte,007
+MAPO,United States,California,06,Kern,029
+MAPO,United States,California,06,Sacramento,067
+MAPO,United States,California,06,Sutter,101
+MAPO,Canada,Ontario,08,,
+MAPO,United States,Colorado,08,,
+MAPO,United States,Colorado,08,Baca,009
+MAPO,United States,Colorado,08,Denver,031
+MAPO,United States,Colorado,08,Mesa,077
+MAPO,United States,Connecticut,09,,
+MAPO,United States,Delaware,10,,
+MAPO,United States,District of Columbia,11,,
+MAPO,United States,District of Columbia,11,District of Columbia,001
+MAPO,United States,Florida,12,,
+MAPO,United States,Florida,12,Escambia,033
+MAPO,United States,Florida,12,Leon,073
+MAPO,United States,Florida,12,Marion,083
+MAPO,United States,Florida,12,Volusia,127
+MAPO,United States,Georgia,13,,
+MAPO,United States,Georgia,13,Clarke,059
+MAPO,United States,Georgia,13,Dade,083
+MAPO,United States,Georgia,13,Greene,133
+MAPO,United States,Georgia,13,Jefferson,163
+MAPO,United States,Georgia,13,Lowndes,185
+MAPO,United States,Georgia,13,McIntosh,191
+MAPO,United States,Georgia,13,Morgan,211
+MAPO,United States,Illinois,17,,
+MAPO,United States,Illinois,17,Adams,001
+MAPO,United States,Illinois,17,Alexander,003
+MAPO,United States,Illinois,17,Bond,005
+MAPO,United States,Illinois,17,Boone,007
+MAPO,United States,Illinois,17,Calhoun,013
+MAPO,United States,Illinois,17,Carroll,015
+MAPO,United States,Illinois,17,Cass,017
+MAPO,United States,Illinois,17,Champaign,019
+MAPO,United States,Illinois,17,Christian,021
+MAPO,United States,Illinois,17,Clark,023
+MAPO,United States,Illinois,17,Clay,025
+MAPO,United States,Illinois,17,Clinton,027
+MAPO,United States,Illinois,17,Coles,029
+MAPO,United States,Illinois,17,Cook,031
+MAPO,United States,Illinois,17,Crawford,033
+MAPO,United States,Illinois,17,Cumberland,035
+MAPO,United States,Illinois,17,De Witt,039
+MAPO,United States,Illinois,17,DeKalb,037
+MAPO,United States,Illinois,17,Douglas,041
+MAPO,United States,Illinois,17,DuPage,043
+MAPO,United States,Illinois,17,Edgar,045
+MAPO,United States,Illinois,17,Edwards,047
+MAPO,United States,Illinois,17,Effingham,049
+MAPO,United States,Illinois,17,Fayette,051
+MAPO,United States,Illinois,17,Ford,053
+MAPO,United States,Illinois,17,Franklin,055
+MAPO,United States,Illinois,17,Fulton,057
+MAPO,United States,Illinois,17,Gallatin,059
+MAPO,United States,Illinois,17,Greene,061
+MAPO,United States,Illinois,17,Grundy,063
+MAPO,United States,Illinois,17,Hamilton,065
+MAPO,United States,Illinois,17,Hancock,067
+MAPO,United States,Illinois,17,Hardin,069
+MAPO,United States,Illinois,17,Henderson,071
+MAPO,United States,Illinois,17,Iroquois,075
+MAPO,United States,Illinois,17,Jackson,077
+MAPO,United States,Illinois,17,Jefferson,081
+MAPO,United States,Illinois,17,Jersey,083
+MAPO,United States,Illinois,17,Johnson,087
+MAPO,United States,Illinois,17,Kane,089
+MAPO,United States,Illinois,17,Kankakee,091
+MAPO,United States,Illinois,17,Kendall,093
+MAPO,United States,Illinois,17,Knox,095
+MAPO,United States,Illinois,17,Lake,097
+MAPO,United States,Illinois,17,Lawrence,101
+MAPO,United States,Illinois,17,Lee,103
+MAPO,United States,Illinois,17,Livingston,105
+MAPO,United States,Illinois,17,Logan,107
+MAPO,United States,Illinois,17,Macon,115
+MAPO,United States,Illinois,17,Macoupin,117
+MAPO,United States,Illinois,17,Madison,119
+MAPO,United States,Illinois,17,Marion,121
+MAPO,United States,Illinois,17,Mason,125
+MAPO,United States,Illinois,17,Massac,127
+MAPO,United States,Illinois,17,McDonough,109
+MAPO,United States,Illinois,17,McHenry,111
+MAPO,United States,Illinois,17,McLean,113
+MAPO,United States,Illinois,17,Menard,129
+MAPO,United States,Illinois,17,Mercer,131
+MAPO,United States,Illinois,17,Monroe,133
+MAPO,United States,Illinois,17,Montgomery,135
+MAPO,United States,Illinois,17,Morgan,137
+MAPO,United States,Illinois,17,Moultrie,139
+MAPO,United States,Illinois,17,Ogle,141
+MAPO,United States,Illinois,17,Peoria,143
+MAPO,United States,Illinois,17,Perry,145
+MAPO,United States,Illinois,17,Piatt,147
+MAPO,United States,Illinois,17,Pike,149
+MAPO,United States,Illinois,17,Pope,151
+MAPO,United States,Illinois,17,Pulaski,153
+MAPO,United States,Illinois,17,Putnam,155
+MAPO,United States,Illinois,17,Randolph,157
+MAPO,United States,Illinois,17,Richland,159
+MAPO,United States,Illinois,17,Rock Island,161
+MAPO,United States,Illinois,17,Saline,165
+MAPO,United States,Illinois,17,Sangamon,167
+MAPO,United States,Illinois,17,Schuyler,169
+MAPO,United States,Illinois,17,Scott,171
+MAPO,United States,Illinois,17,Shelby,173
+MAPO,United States,Illinois,17,St. Clair,163
+MAPO,United States,Illinois,17,Tazewell,179
+MAPO,United States,Illinois,17,Union,181
+MAPO,United States,Illinois,17,Vermilion,183
+MAPO,United States,Illinois,17,Wabash,185
+MAPO,United States,Illinois,17,Warren,187
+MAPO,United States,Illinois,17,Washington,189
+MAPO,United States,Illinois,17,Wayne,191
+MAPO,United States,Illinois,17,White,193
+MAPO,United States,Illinois,17,Whiteside,195
+MAPO,United States,Illinois,17,Will,197
+MAPO,United States,Illinois,17,Williamson,199
+MAPO,United States,Illinois,17,Winnebago,201
+MAPO,United States,Illinois,17,Woodford,203
+MAPO,United States,Indiana,18,,
+MAPO,United States,Indiana,18,Carroll,015
+MAPO,United States,Indiana,18,Clark,019
+MAPO,United States,Indiana,18,Decatur,031
+MAPO,United States,Indiana,18,Fountain,045
+MAPO,United States,Indiana,18,Hancock,059
+MAPO,United States,Indiana,18,Harrison,061
+MAPO,United States,Indiana,18,Henry,065
+MAPO,United States,Indiana,18,Jefferson,077
+MAPO,United States,Indiana,18,Knox,083
+MAPO,United States,Indiana,18,Lagrange,087
+MAPO,United States,Indiana,18,Lawrence,093
+MAPO,United States,Indiana,18,Marion,097
+MAPO,United States,Indiana,18,Monroe,105
+MAPO,United States,Indiana,18,Morgan,109
+MAPO,United States,Indiana,18,Newton,111
+MAPO,United States,Indiana,18,Putnam,133
+MAPO,United States,Indiana,18,Spencer,147
+MAPO,United States,Indiana,18,Switzerland,155
+MAPO,United States,Indiana,18,Tippecanoe,157
+MAPO,United States,Indiana,18,Union,161
+MAPO,United States,Indiana,18,Vermillion,165
+MAPO,United States,Indiana,18,Vigo,167
+MAPO,United States,Indiana,18,Washington,175
+MAPO,United States,Indiana,18,Wayne,177
+MAPO,United States,Indiana,18,Wells,179
+MAPO,United States,Iowa,19,,
+MAPO,United States,Iowa,19,Madison,121
+MAPO,United States,Iowa,19,Page,145
+MAPO,United States,Iowa,19,Shelby,165
+MAPO,United States,Iowa,19,Taylor,173
+MAPO,United States,Kansas,20,,
+MAPO,United States,Kansas,20,Allen,001
+MAPO,United States,Kansas,20,Anderson,003
+MAPO,United States,Kansas,20,Atchison,005
+MAPO,United States,Kansas,20,Barber,007
+MAPO,United States,Kansas,20,Bourbon,011
+MAPO,United States,Kansas,20,Brown,013
+MAPO,United States,Kansas,20,Butler,015
+MAPO,United States,Kansas,20,Chase,017
+MAPO,United States,Kansas,20,Chautauqua,019
+MAPO,United States,Kansas,20,Cherokee,021
+MAPO,United States,Kansas,20,Cheyenne,023
+MAPO,United States,Kansas,20,Cloud,029
+MAPO,United States,Kansas,20,Coffey,031
+MAPO,United States,Kansas,20,Comanche,033
+MAPO,United States,Kansas,20,Cowley,035
+MAPO,United States,Kansas,20,Crawford,037
+MAPO,United States,Kansas,20,Doniphan,043
+MAPO,United States,Kansas,20,Douglas,045
+MAPO,United States,Kansas,20,Edwards,047
+MAPO,United States,Kansas,20,Elk,049
+MAPO,United States,Kansas,20,Ellis,051
+MAPO,United States,Kansas,20,Finney,055
+MAPO,United States,Kansas,20,Franklin,059
+MAPO,United States,Kansas,20,Geary,061
+MAPO,United States,Kansas,20,Gove,063
+MAPO,United States,Kansas,20,Greenwood,073
+MAPO,United States,Kansas,20,Harper,077
+MAPO,United States,Kansas,20,Harvey,079
+MAPO,United States,Kansas,20,Jackson,085
+MAPO,United States,Kansas,20,Jefferson,087
+MAPO,United States,Kansas,20,Jewell,089
+MAPO,United States,Kansas,20,Johnson,091
+MAPO,United States,Kansas,20,Kingman,095
+MAPO,United States,Kansas,20,Kiowa,097
+MAPO,United States,Kansas,20,Labette,099
+MAPO,United States,Kansas,20,Leavenworth,103
+MAPO,United States,Kansas,20,Linn,107
+MAPO,United States,Kansas,20,Lyon,111
+MAPO,United States,Kansas,20,Marion,115
+MAPO,United States,Kansas,20,Marshall,117
+MAPO,United States,Kansas,20,McPherson,113
+MAPO,United States,Kansas,20,Meade,119
+MAPO,United States,Kansas,20,Miami,121
+MAPO,United States,Kansas,20,Montgomery,125
+MAPO,United States,Kansas,20,Morris,127
+MAPO,United States,Kansas,20,Nemaha,131
+MAPO,United States,Kansas,20,Neosho,133
+MAPO,United States,Kansas,20,Osage,139
+MAPO,United States,Kansas,20,Osborne,141
+MAPO,United States,Kansas,20,Ottawa,143
+MAPO,United States,Kansas,20,Pawnee,145
+MAPO,United States,Kansas,20,Phillips,147
+MAPO,United States,Kansas,20,Pottawatomie,149
+MAPO,United States,Kansas,20,Pratt,151
+MAPO,United States,Kansas,20,Reno,155
+MAPO,United States,Kansas,20,Rice,159
+MAPO,United States,Kansas,20,Riley,161
+MAPO,United States,Kansas,20,Rooks,163
+MAPO,United States,Kansas,20,Saline,169
+MAPO,United States,Kansas,20,Sedgwick,173
+MAPO,United States,Kansas,20,Shawnee,177
+MAPO,United States,Kansas,20,Stafford,185
+MAPO,United States,Kansas,20,Stanton,187
+MAPO,United States,Kansas,20,Stevens,189
+MAPO,United States,Kansas,20,Sumner,191
+MAPO,United States,Kansas,20,Trego,195
+MAPO,United States,Kansas,20,Wabaunsee,197
+MAPO,United States,Kansas,20,Washington,201
+MAPO,United States,Kansas,20,Wilson,205
+MAPO,United States,Kansas,20,Woodson,207
+MAPO,United States,Kansas,20,Wyandotte,209
+MAPO,United States,Kentucky,21,,
+MAPO,United States,Kentucky,21,Barren,009
+MAPO,United States,Kentucky,21,Bath,011
+MAPO,United States,Kentucky,21,Boone,015
+MAPO,United States,Kentucky,21,Bourbon,017
+MAPO,United States,Kentucky,21,Boyle,021
+MAPO,United States,Kentucky,21,Bracken,023
+MAPO,United States,Kentucky,21,Butler,031
+MAPO,United States,Kentucky,21,Calloway,035
+MAPO,United States,Kentucky,21,Campbell,037
+MAPO,United States,Kentucky,21,Carlisle,039
+MAPO,United States,Kentucky,21,Carroll,041
+MAPO,United States,Kentucky,21,Carter,043
+MAPO,United States,Kentucky,21,Clark,049
+MAPO,United States,Kentucky,21,Cumberland,057
+MAPO,United States,Kentucky,21,Edmonson,061
+MAPO,United States,Kentucky,21,Estill,065
+MAPO,United States,Kentucky,21,Fayette,067
+MAPO,United States,Kentucky,21,Fleming,069
+MAPO,United States,Kentucky,21,Franklin,073
+MAPO,United States,Kentucky,21,Fulton,075
+MAPO,United States,Kentucky,21,Garrard,079
+MAPO,United States,Kentucky,21,Harrison,097
+MAPO,United States,Kentucky,21,Henry,103
+MAPO,United States,Kentucky,21,Hickman,105
+MAPO,United States,Kentucky,21,Jefferson,111
+MAPO,United States,Kentucky,21,Jessamine,113
+MAPO,United States,Kentucky,21,Kenton,117
+MAPO,United States,Kentucky,21,Lee,129
+MAPO,United States,Kentucky,21,Lincoln,137
+MAPO,United States,Kentucky,21,Lyon,143
+MAPO,United States,Kentucky,21,Madison,151
+MAPO,United States,Kentucky,21,Marion,155
+MAPO,United States,Kentucky,21,Marshall,157
+MAPO,United States,Kentucky,21,Mason,161
+MAPO,United States,Kentucky,21,McCracken,145
+MAPO,United States,Kentucky,21,McLean,149
+MAPO,United States,Kentucky,21,Meade,163
+MAPO,United States,Kentucky,21,Mercer,167
+MAPO,United States,Kentucky,21,Morgan,175
+MAPO,United States,Kentucky,21,Muhlenberg,177
+MAPO,United States,Kentucky,21,Nelson,179
+MAPO,United States,Kentucky,21,Nicholas,181
+MAPO,United States,Kentucky,21,Ohio,183
+MAPO,United States,Kentucky,21,Oldham,185
+MAPO,United States,Kentucky,21,Pendleton,191
+MAPO,United States,Kentucky,21,Robertson,201
+MAPO,United States,Kentucky,21,Rowan,205
+MAPO,United States,Kentucky,21,Shelby,211
+MAPO,United States,Kentucky,21,Simpson,213
+MAPO,United States,Kentucky,21,Spencer,215
+MAPO,United States,Kentucky,21,Todd,219
+MAPO,United States,Kentucky,21,Trigg,221
+MAPO,United States,Kentucky,21,Trimble,223
+MAPO,United States,Kentucky,21,Union,225
+MAPO,United States,Kentucky,21,Warren,227
+MAPO,United States,Kentucky,21,Washington,229
+MAPO,United States,Kentucky,21,Woodford,239
+MAPO,United States,Louisiana,22,,
+MAPO,United States,Louisiana,22,Acadia,001
+MAPO,United States,Louisiana,22,Avoyelles,009
+MAPO,United States,Louisiana,22,Bossier,015
+MAPO,United States,Louisiana,22,Caddo,017
+MAPO,United States,Louisiana,22,Calcasieu,019
+MAPO,United States,Louisiana,22,Caldwell,021
+MAPO,United States,Louisiana,22,Cameron,023
+MAPO,United States,Louisiana,22,Catahoula,025
+MAPO,United States,Louisiana,22,Claiborne,027
+MAPO,United States,Louisiana,22,Concordia,029
+MAPO,United States,Louisiana,22,De Soto,031
+MAPO,United States,Louisiana,22,East Baton Rouge,033
+MAPO,United States,Louisiana,22,East Carroll,035
+MAPO,United States,Louisiana,22,East Feliciana,037
+MAPO,United States,Louisiana,22,Franklin,041
+MAPO,United States,Louisiana,22,Grant,043
+MAPO,United States,Louisiana,22,Iberia,045
+MAPO,United States,Louisiana,22,Jackson,049
+MAPO,United States,Louisiana,22,Lafayette,055
+MAPO,United States,Louisiana,22,LaSalle,059
+MAPO,United States,Louisiana,22,Lincoln,061
+MAPO,United States,Louisiana,22,Livingston,063
+MAPO,United States,Louisiana,22,Madison,065
+MAPO,United States,Louisiana,22,Morehouse,067
+MAPO,United States,Louisiana,22,Natchitoches,069
+MAPO,United States,Louisiana,22,Ouachita,073
+MAPO,United States,Louisiana,22,Pointe Coupee,077
+MAPO,United States,Louisiana,22,Rapides,079
+MAPO,United States,Louisiana,22,Red River,081
+MAPO,United States,Louisiana,22,Richland,083
+MAPO,United States,Louisiana,22,St. Landry,097
+MAPO,United States,Louisiana,22,St. Martin,099
+MAPO,United States,Louisiana,22,St. Tammany,103
+MAPO,United States,Louisiana,22,Tensas,107
+MAPO,United States,Louisiana,22,Terrebonne,109
+MAPO,United States,Louisiana,22,Union,111
+MAPO,United States,Louisiana,22,Webster,119
+MAPO,United States,Louisiana,22,West Baton Rouge,121
+MAPO,United States,Louisiana,22,West Carroll,123
+MAPO,United States,Louisiana,22,Winn,127
+MAPO,United States,Maryland,24,,
+MAPO,United States,Massachusetts,25,,
+MAPO,United States,Massachusetts,25,Barnstable,001
+MAPO,United States,Massachusetts,25,Essex,009
+MAPO,United States,Massachusetts,25,Hampden,013
+MAPO,United States,Massachusetts,25,Middlesex,017
+MAPO,United States,Michigan,26,,
+MAPO,United States,Michigan,26,Berrien,021
+MAPO,United States,Michigan,26,Hillsdale,059
+MAPO,United States,Michigan,26,Kalamazoo,077
+MAPO,United States,Michigan,26,Kent,081
+MAPO,United States,Michigan,26,Livingston,093
+MAPO,United States,Michigan,26,Oakland,125
+MAPO,United States,Michigan,26,St. Joseph,149
+MAPO,United States,Michigan,26,Washtenaw,161
+MAPO,United States,Mississippi,28,,
+MAPO,United States,Mississippi,28,Benton,009
+MAPO,United States,Mississippi,28,Bolivar,011
+MAPO,United States,Mississippi,28,Chickasaw,017
+MAPO,United States,Mississippi,28,Clarke,023
+MAPO,United States,Mississippi,28,Clay,025
+MAPO,United States,Mississippi,28,DeSoto,033
+MAPO,United States,Mississippi,28,Hinds,049
+MAPO,United States,Mississippi,28,Holmes,051
+MAPO,United States,Mississippi,28,Issaquena,055
+MAPO,United States,Mississippi,28,Jefferson,063
+MAPO,United States,Mississippi,28,Kemper,069
+MAPO,United States,Mississippi,28,Lafayette,071
+MAPO,United States,Mississippi,28,Leflore,083
+MAPO,United States,Mississippi,28,Lowndes,087
+MAPO,United States,Mississippi,28,Marshall,093
+MAPO,United States,Mississippi,28,Monroe,095
+MAPO,United States,Mississippi,28,Noxubee,103
+MAPO,United States,Mississippi,28,Tallahatchie,135
+MAPO,United States,Mississippi,28,Tunica,143
+MAPO,United States,Mississippi,28,Washington,151
+MAPO,United States,Mississippi,28,Wilkinson,157
+MAPO,United States,Missouri,29,,
+MAPO,United States,Missouri,29,Adair,001
+MAPO,United States,Missouri,29,Andrew,003
+MAPO,United States,Missouri,29,Atchison,005
+MAPO,United States,Missouri,29,Audrain,007
+MAPO,United States,Missouri,29,Barry,009
+MAPO,United States,Missouri,29,Bates,013
+MAPO,United States,Missouri,29,Benton,015
+MAPO,United States,Missouri,29,Bollinger,017
+MAPO,United States,Missouri,29,Boone,019
+MAPO,United States,Missouri,29,Buchanan,021
+MAPO,United States,Missouri,29,Caldwell,025
+MAPO,United States,Missouri,29,Callaway,027
+MAPO,United States,Missouri,29,Cape Girardeau,031
+MAPO,United States,Missouri,29,Carroll,033
+MAPO,United States,Missouri,29,Cass,037
+MAPO,United States,Missouri,29,Cedar,039
+MAPO,United States,Missouri,29,Chariton,041
+MAPO,United States,Missouri,29,Christian,043
+MAPO,United States,Missouri,29,Clark,045
+MAPO,United States,Missouri,29,Clay,047
+MAPO,United States,Missouri,29,Clinton,049
+MAPO,United States,Missouri,29,Cooper,053
+MAPO,United States,Missouri,29,Dade,057
+MAPO,United States,Missouri,29,Dallas,059
+MAPO,United States,Missouri,29,Daviess,061
+MAPO,United States,Missouri,29,DeKalb,063
+MAPO,United States,Missouri,29,Franklin,071
+MAPO,United States,Missouri,29,Gasconade,073
+MAPO,United States,Missouri,29,Gentry,075
+MAPO,United States,Missouri,29,Greene,077
+MAPO,United States,Missouri,29,Harrison,081
+MAPO,United States,Missouri,29,Henry,083
+MAPO,United States,Missouri,29,Hickory,085
+MAPO,United States,Missouri,29,Holt,087
+MAPO,United States,Missouri,29,Howard,089
+MAPO,United States,Missouri,29,Howell,091
+MAPO,United States,Missouri,29,Iron,093
+MAPO,United States,Missouri,29,Jackson,095
+MAPO,United States,Missouri,29,Jasper,097
+MAPO,United States,Missouri,29,Jefferson,099
+MAPO,United States,Missouri,29,Johnson,101
+MAPO,United States,Missouri,29,Knox,103
+MAPO,United States,Missouri,29,Laclede,105
+MAPO,United States,Missouri,29,Lafayette,107
+MAPO,United States,Missouri,29,Lawrence,109
+MAPO,United States,Missouri,29,Lewis,111
+MAPO,United States,Missouri,29,Lincoln,113
+MAPO,United States,Missouri,29,Linn,115
+MAPO,United States,Missouri,29,Livingston,117
+MAPO,United States,Missouri,29,Macon,121
+MAPO,United States,Missouri,29,Marion,127
+MAPO,United States,Missouri,29,McDonald,119
+MAPO,United States,Missouri,29,Mercer,129
+MAPO,United States,Missouri,29,Moniteau,135
+MAPO,United States,Missouri,29,Monroe,137
+MAPO,United States,Missouri,29,Morgan,141
+MAPO,United States,Missouri,29,New Madrid,143
+MAPO,United States,Missouri,29,Nodaway,147
+MAPO,United States,Missouri,29,Oregon,149
+MAPO,United States,Missouri,29,Osage,151
+MAPO,United States,Missouri,29,Ozark,153
+MAPO,United States,Missouri,29,Pemiscot,155
+MAPO,United States,Missouri,29,Pettis,159
+MAPO,United States,Missouri,29,Phelps,161
+MAPO,United States,Missouri,29,Pike,163
+MAPO,United States,Missouri,29,Polk,167
+MAPO,United States,Missouri,29,Putnam,171
+MAPO,United States,Missouri,29,Ralls,173
+MAPO,United States,Missouri,29,Randolph,175
+MAPO,United States,Missouri,29,Ray,177
+MAPO,United States,Missouri,29,Reynolds,179
+MAPO,United States,Missouri,29,Saline,195
+MAPO,United States,Missouri,29,Scotland,199
+MAPO,United States,Missouri,29,Scott,201
+MAPO,United States,Missouri,29,Shelby,205
+MAPO,United States,Missouri,29,St. Charles,183
+MAPO,United States,Missouri,29,St. Clair,185
+MAPO,United States,Missouri,29,St. Francois,187
+MAPO,United States,Missouri,29,St. Louis,189
+MAPO,United States,Missouri,29,Ste. Genevieve,186
+MAPO,United States,Missouri,29,Stoddard,207
+MAPO,United States,Missouri,29,Stone,209
+MAPO,United States,Missouri,29,Taney,213
+MAPO,United States,Missouri,29,Vernon,217
+MAPO,United States,Missouri,29,Washington,221
+MAPO,United States,Missouri,29,Wayne,223
+MAPO,United States,Missouri,29,Webster,225
+MAPO,United States,Missouri,29,Worth,227
+MAPO,United States,Missouri,29,Wright,229
+MAPO,United States,Nebraska,31,,
+MAPO,United States,Nebraska,31,Douglas,055
+MAPO,United States,Nebraska,31,Gage,067
+MAPO,United States,Nebraska,31,Lancaster,109
+MAPO,United States,Nebraska,31,Nemaha,127
+MAPO,United States,Nebraska,31,Otoe,131
+MAPO,United States,Nebraska,31,Pawnee,133
+MAPO,United States,Nebraska,31,Richardson,147
+MAPO,United States,Nebraska,31,Webster,181
+MAPO,United States,Nebraska,31,York,185
+MAPO,United States,New Jersey,34,,
+MAPO,United States,New Jersey,34,Cape May,009
+MAPO,United States,New Jersey,34,Essex,013
+MAPO,United States,New Jersey,34,Hunterdon,019
+MAPO,United States,New Jersey,34,Mercer,021
+MAPO,United States,New Jersey,34,Middlesex,023
+MAPO,United States,New Jersey,34,Monmouth,025
+MAPO,United States,New Jersey,34,Somerset,035
+MAPO,United States,New Jersey,34,Sussex,037
+MAPO,United States,New Jersey,34,Union,039
+MAPO,United States,New Jersey,34,Warren,041
+MAPO,United States,New Mexico,35,,
+MAPO,United States,New Mexico,35,Grant,017
+MAPO,United States,New Mexico,35,Harding,021
+MAPO,United States,New York,36,,
+MAPO,United States,New York,36,Bronx,005
+MAPO,United States,New York,36,Erie,029
+MAPO,United States,New York,36,Madison,053
+MAPO,United States,New York,36,New York,061
+MAPO,United States,New York,36,Onondaga,067
+MAPO,United States,New York,36,Richmond,085
+MAPO,United States,New York,36,Suffolk,103
+MAPO,United States,New York,36,Tompkins,109
+MAPO,United States,New York,36,Westchester,119
+MAPO,United States,North Carolina,37,,
+MAPO,United States,North Carolina,37,Burke,023
+MAPO,United States,North Carolina,37,Durham,063
+MAPO,United States,North Carolina,37,Madison,115
+MAPO,United States,North Carolina,37,Orange,135
+MAPO,United States,North Carolina,37,Wake,183
+MAPO,United States,Ohio,39,,
+MAPO,United States,Ohio,39,Adams,001
+MAPO,United States,Ohio,39,Allen,003
+MAPO,United States,Ohio,39,Ashland,005
+MAPO,United States,Ohio,39,Ashtabula,007
+MAPO,United States,Ohio,39,Athens,009
+MAPO,United States,Ohio,39,Auglaize,011
+MAPO,United States,Ohio,39,Belmont,013
+MAPO,United States,Ohio,39,Brown,015
+MAPO,United States,Ohio,39,Butler,017
+MAPO,United States,Ohio,39,Carroll,019
+MAPO,United States,Ohio,39,Champaign,021
+MAPO,United States,Ohio,39,Clark,023
+MAPO,United States,Ohio,39,Clermont,025
+MAPO,United States,Ohio,39,Clinton,027
+MAPO,United States,Ohio,39,Columbiana,029
+MAPO,United States,Ohio,39,Coshocton,031
+MAPO,United States,Ohio,39,Crawford,033
+MAPO,United States,Ohio,39,Cuyahoga,035
+MAPO,United States,Ohio,39,Darke,037
+MAPO,United States,Ohio,39,Defiance,039
+MAPO,United States,Ohio,39,Delaware,041
+MAPO,United States,Ohio,39,Erie,043
+MAPO,United States,Ohio,39,Fairfield,045
+MAPO,United States,Ohio,39,Fayette,047
+MAPO,United States,Ohio,39,Franklin,049
+MAPO,United States,Ohio,39,Fulton,051
+MAPO,United States,Ohio,39,Gallia,053
+MAPO,United States,Ohio,39,Geauga,055
+MAPO,United States,Ohio,39,Greene,057
+MAPO,United States,Ohio,39,Guernsey,059
+MAPO,United States,Ohio,39,Hamilton,061
+MAPO,United States,Ohio,39,Hancock,063
+MAPO,United States,Ohio,39,Hardin,065
+MAPO,United States,Ohio,39,Harrison,067
+MAPO,United States,Ohio,39,Henry,069
+MAPO,United States,Ohio,39,Highland,071
+MAPO,United States,Ohio,39,Hocking,073
+MAPO,United States,Ohio,39,Holmes,075
+MAPO,United States,Ohio,39,Huron,077
+MAPO,United States,Ohio,39,Jackson,079
+MAPO,United States,Ohio,39,Jefferson,081
+MAPO,United States,Ohio,39,Knox,083
+MAPO,United States,Ohio,39,Lake,085
+MAPO,United States,Ohio,39,Lawrence,087
+MAPO,United States,Ohio,39,Licking,089
+MAPO,United States,Ohio,39,Logan,091
+MAPO,United States,Ohio,39,Lorain,093
+MAPO,United States,Ohio,39,Lucas,095
+MAPO,United States,Ohio,39,Madison,097
+MAPO,United States,Ohio,39,Mahoning,099
+MAPO,United States,Ohio,39,Marion,101
+MAPO,United States,Ohio,39,Medina,103
+MAPO,United States,Ohio,39,Meigs,105
+MAPO,United States,Ohio,39,Mercer,107
+MAPO,United States,Ohio,39,Miami,109
+MAPO,United States,Ohio,39,Monroe,111
+MAPO,United States,Ohio,39,Montgomery,113
+MAPO,United States,Ohio,39,Morgan,115
+MAPO,United States,Ohio,39,Morrow,117
+MAPO,United States,Ohio,39,Muskingum,119
+MAPO,United States,Ohio,39,Noble,121
+MAPO,United States,Ohio,39,Ottawa,123
+MAPO,United States,Ohio,39,Paulding,125
+MAPO,United States,Ohio,39,Perry,127
+MAPO,United States,Ohio,39,Pickaway,129
+MAPO,United States,Ohio,39,Pike,131
+MAPO,United States,Ohio,39,Portage,133
+MAPO,United States,Ohio,39,Preble,135
+MAPO,United States,Ohio,39,Putnam,137
+MAPO,United States,Ohio,39,Richland,139
+MAPO,United States,Ohio,39,Ross,141
+MAPO,United States,Ohio,39,Sandusky,143
+MAPO,United States,Ohio,39,Scioto,145
+MAPO,United States,Ohio,39,Seneca,147
+MAPO,United States,Ohio,39,Shelby,149
+MAPO,United States,Ohio,39,Stark,151
+MAPO,United States,Ohio,39,Summit,153
+MAPO,United States,Ohio,39,Trumbull,155
+MAPO,United States,Ohio,39,Tuscarawas,157
+MAPO,United States,Ohio,39,Union,159
+MAPO,United States,Ohio,39,Van Wert,161
+MAPO,United States,Ohio,39,Vinton,163
+MAPO,United States,Ohio,39,Warren,165
+MAPO,United States,Ohio,39,Washington,167
+MAPO,United States,Ohio,39,Wayne,169
+MAPO,United States,Ohio,39,Williams,171
+MAPO,United States,Ohio,39,Wood,173
+MAPO,United States,Ohio,39,Wyandot,175
+MAPO,United States,Oklahoma,40,,
+MAPO,United States,Oklahoma,40,Adair,001
+MAPO,United States,Oklahoma,40,Atoka,005
+MAPO,United States,Oklahoma,40,Blaine,011
+MAPO,United States,Oklahoma,40,Bryan,013
+MAPO,United States,Oklahoma,40,Caddo,015
+MAPO,United States,Oklahoma,40,Cleveland,027
+MAPO,United States,Oklahoma,40,Coal,029
+MAPO,United States,Oklahoma,40,Grant,053
+MAPO,United States,Oklahoma,40,Harper,059
+MAPO,United States,Oklahoma,40,Johnston,069
+MAPO,United States,Oklahoma,40,Latimer,077
+MAPO,United States,Oklahoma,40,Logan,083
+MAPO,United States,Oklahoma,40,Marshall,095
+MAPO,United States,Oklahoma,40,McCurtain,089
+MAPO,United States,Oklahoma,40,Murray,099
+MAPO,United States,Oklahoma,40,Muskogee,101
+MAPO,United States,Oklahoma,40,Oklahoma,109
+MAPO,United States,Oklahoma,40,Pushmataha,127
+MAPO,United States,Oklahoma,40,Sequoyah,135
+MAPO,United States,Oklahoma,40,Woods,151
+MAPO,United States,Oregon,41,,
+MAPO,United States,Oregon,41,Gilliam,021
+MAPO,United States,Oregon,41,Union,061
+MAPO,United States,Pennsylvania,42,,
+MAPO,United States,Pennsylvania,42,Adams,001
+MAPO,United States,Pennsylvania,42,Allegheny,003
+MAPO,United States,Pennsylvania,42,Armstrong,005
+MAPO,United States,Pennsylvania,42,Bedford,009
+MAPO,United States,Pennsylvania,42,Berks,011
+MAPO,United States,Pennsylvania,42,Blair,013
+MAPO,United States,Pennsylvania,42,Bucks,017
+MAPO,United States,Pennsylvania,42,Centre,027
+MAPO,United States,Pennsylvania,42,Chester,029
+MAPO,United States,Pennsylvania,42,Cumberland,041
+MAPO,United States,Pennsylvania,42,Dauphin,043
+MAPO,United States,Pennsylvania,42,Delaware,045
+MAPO,United States,Pennsylvania,42,Fayette,051
+MAPO,United States,Pennsylvania,42,Franklin,055
+MAPO,United States,Pennsylvania,42,Fulton,057
+MAPO,United States,Pennsylvania,42,Greene,059
+MAPO,United States,Pennsylvania,42,Huntingdon,061
+MAPO,United States,Pennsylvania,42,Juniata,067
+MAPO,United States,Pennsylvania,42,Lancaster,071
+MAPO,United States,Pennsylvania,42,Lawrence,073
+MAPO,United States,Pennsylvania,42,Lebanon,075
+MAPO,United States,Pennsylvania,42,Lehigh,077
+MAPO,United States,Pennsylvania,42,Mifflin,087
+MAPO,United States,Pennsylvania,42,Montgomery,091
+MAPO,United States,Pennsylvania,42,Northampton,095
+MAPO,United States,Pennsylvania,42,Philadelphia,101
+MAPO,United States,Pennsylvania,42,Schuylkill,107
+MAPO,United States,Pennsylvania,42,Washington,125
+MAPO,United States,Pennsylvania,42,Westmoreland,129
+MAPO,United States,Pennsylvania,42,York,133
+MAPO,United States,Rhode Island,44,,
+MAPO,United States,South Carolina,45,,
+MAPO,United States,South Carolina,45,Beaufort,013
+MAPO,United States,South Carolina,45,Cherokee,021
+MAPO,United States,South Carolina,45,Union,087
+MAPO,United States,South Dakota,46,,
+MAPO,United States,South Dakota,46,Union,127
+MAPO,United States,South Dakota,46,Yankton,135
+MAPO,United States,Tennessee,47,,
+MAPO,United States,Tennessee,47,Campbell,013
+MAPO,United States,Tennessee,47,Carter,019
+MAPO,United States,Tennessee,47,Clay,027
+MAPO,United States,Tennessee,47,Davidson,037
+MAPO,United States,Tennessee,47,Fayette,047
+MAPO,United States,Tennessee,47,Franklin,051
+MAPO,United States,Tennessee,47,Grainger,057
+MAPO,United States,Tennessee,47,Hancock,067
+MAPO,United States,Tennessee,47,Hardin,071
+MAPO,United States,Tennessee,47,Hawkins,073
+MAPO,United States,Tennessee,47,Knox,093
+MAPO,United States,Tennessee,47,Lake,095
+MAPO,United States,Tennessee,47,Lauderdale,097
+MAPO,United States,Tennessee,47,Loudon,105
+MAPO,United States,Tennessee,47,Marion,115
+MAPO,United States,Tennessee,47,Marshall,117
+MAPO,United States,Tennessee,47,Montgomery,125
+MAPO,United States,Tennessee,47,Perry,135
+MAPO,United States,Tennessee,47,Putnam,141
+MAPO,United States,Tennessee,47,Sevier,155
+MAPO,United States,Tennessee,47,Shelby,157
+MAPO,United States,Tennessee,47,Smith,159
+MAPO,United States,Tennessee,47,Stewart,161
+MAPO,United States,Tennessee,47,Sumner,165
+MAPO,United States,Tennessee,47,Tipton,167
+MAPO,United States,Tennessee,47,Williamson,187
+MAPO,United States,Tennessee,47,Wilson,189
+MAPO,United States,Texas,48,,
+MAPO,United States,Texas,48,Anderson,001
+MAPO,United States,Texas,48,Angelina,005
+MAPO,United States,Texas,48,Austin,015
+MAPO,United States,Texas,48,Bailey,017
+MAPO,United States,Texas,48,Bastrop,021
+MAPO,United States,Texas,48,Bell,027
+MAPO,United States,Texas,48,Brazos,041
+MAPO,United States,Texas,48,Brewster,043
+MAPO,United States,Texas,48,Burleson,051
+MAPO,United States,Texas,48,Chambers,071
+MAPO,United States,Texas,48,Collin,085
+MAPO,United States,Texas,48,Colorado,089
+MAPO,United States,Texas,48,Coryell,099
+MAPO,United States,Texas,48,Dallas,113
+MAPO,United States,Texas,48,Denton,121
+MAPO,United States,Texas,48,Erath,143
+MAPO,United States,Texas,48,Galveston,167
+MAPO,United States,Texas,48,Gillespie,171
+MAPO,United States,Texas,48,Gonzales,177
+MAPO,United States,Texas,48,Grayson,181
+MAPO,United States,Texas,48,Grimes,185
+MAPO,United States,Texas,48,Harris,201
+MAPO,United States,Texas,48,Hays,209
+MAPO,United States,Texas,48,Hemphill,211
+MAPO,United States,Texas,48,Hunt,231
+MAPO,United States,Texas,48,Jeff Davis,243
+MAPO,United States,Texas,48,Kaufman,257
+MAPO,United States,Texas,48,Liberty,291
+MAPO,United States,Texas,48,Madison,313
+MAPO,United States,Texas,48,McLennan,309
+MAPO,United States,Texas,48,Milam,331
+MAPO,United States,Texas,48,Robertson,395
+MAPO,United States,Texas,48,Tarrant,439
+MAPO,United States,Texas,48,Travis,453
+MAPO,United States,Texas,48,Walker,471
+MAPO,United States,Texas,48,Washington,477
+MAPO,United States,Texas,48,Wharton,481
+MAPO,United States,Texas,48,Wheeler,483
+MAPO,United States,Texas,48,Williamson,491
+MAPO,United States,Texas,48,Wise,497
+MAPO,United States,Utah,49,,
+MAPO,United States,Utah,49,Grand,019
+MAPO,United States,Utah,49,Utah,049
+MAPO,United States,Utah,49,Washington,053
+MAPO,United States,Virginia,51,,
+MAPO,United States,Virginia,51,Accomack,001
+MAPO,United States,Virginia,51,Albemarle,003
+MAPO,United States,Virginia,51,Amelia,007
+MAPO,United States,Virginia,51,Arlington,013
+MAPO,United States,Virginia,51,Augusta,015
+MAPO,United States,Virginia,51,Botetourt,023
+MAPO,United States,Virginia,51,Campbell,031
+MAPO,United States,Virginia,51,Charles City,036
+MAPO,United States,Virginia,51,Charlotte,037
+MAPO,United States,Virginia,51,"Chesapeake ",550
+MAPO,United States,Virginia,51,Chesterfield,041
+MAPO,United States,Virginia,51,Clarke,043
+MAPO,United States,Virginia,51,Cumberland,049
+MAPO,United States,Virginia,51,Dinwiddie,053
+MAPO,United States,Virginia,51,Fairfax,059
+MAPO,United States,Virginia,51,Fauquier,061
+MAPO,United States,Virginia,51,Franklin,067
+MAPO,United States,Virginia,51,Frederick,069
+MAPO,United States,Virginia,51,Giles,071
+MAPO,United States,Virginia,51,Goochland,075
+MAPO,United States,Virginia,51,Grayson,077
+MAPO,United States,Virginia,51,Halifax,083
+MAPO,United States,Virginia,51,"Hampton ",650
+MAPO,United States,Virginia,51,Hanover,085
+MAPO,United States,Virginia,51,Henrico,087
+MAPO,United States,Virginia,51,Isle of Wight,093
+MAPO,United States,Virginia,51,James City,095
+MAPO,United States,Virginia,51,King George,099
+MAPO,United States,Virginia,51,Lancaster,103
+MAPO,United States,Virginia,51,Loudoun,107
+MAPO,United States,Virginia,51,Mathews,115
+MAPO,United States,Virginia,51,Middlesex,119
+MAPO,United States,Virginia,51,Montgomery,121
+MAPO,United States,Virginia,51,Nelson,125
+MAPO,United States,Virginia,51,"Newport News ",700
+MAPO,United States,Virginia,51,Nottoway,135
+MAPO,United States,Virginia,51,Page,139
+MAPO,United States,Virginia,51,Pittsylvania,143
+MAPO,United States,Virginia,51,Prince Edward,147
+MAPO,United States,Virginia,51,Prince George,149
+MAPO,United States,Virginia,51,Prince William,153
+MAPO,United States,Virginia,51,Pulaski,155
+MAPO,United States,Virginia,51,Roanoke,161
+MAPO,United States,Virginia,51,Rockbridge,163
+MAPO,United States,Virginia,51,Rockingham,165
+MAPO,United States,Virginia,51,Russell,167
+MAPO,United States,Virginia,51,Scott,169
+MAPO,United States,Virginia,51,Shenandoah,171
+MAPO,United States,Virginia,51,Smyth,173
+MAPO,United States,Virginia,51,"Suffolk ",800
+MAPO,United States,Virginia,51,Surry,181
+MAPO,United States,Virginia,51,Tazewell,185
+MAPO,United States,Virginia,51,"Virginia Beach ",810
+MAPO,United States,Virginia,51,Warren,187
+MAPO,United States,Virginia,51,Washington,191
+MAPO,United States,Virginia,51,Westmoreland,193
+MAPO,United States,Virginia,51,Wythe,197
+MAPO,United States,Washington,53,,
+MAPO,United States,Washington,53,Asotin,003
+MAPO,United States,Washington,53,Walla Walla,071
+MAPO,United States,Washington,53,Whitman,075
+MAPO,United States,West Virginia,54,,
+MAPO,United States,West Virginia,54,Berkeley,003
+MAPO,United States,West Virginia,54,Brooke,009
+MAPO,United States,West Virginia,54,Cabell,011
+MAPO,United States,West Virginia,54,Fayette,019
+MAPO,United States,West Virginia,54,Grant,023
+MAPO,United States,West Virginia,54,Greenbrier,025
+MAPO,United States,West Virginia,54,Hampshire,027
+MAPO,United States,West Virginia,54,Hancock,029
+MAPO,United States,West Virginia,54,Hardy,031
+MAPO,United States,West Virginia,54,Jackson,035
+MAPO,United States,West Virginia,54,Jefferson,037
+MAPO,United States,West Virginia,54,Kanawha,039
+MAPO,United States,West Virginia,54,Mason,053
+MAPO,United States,West Virginia,54,McDowell,047
+MAPO,United States,West Virginia,54,Mineral,057
+MAPO,United States,West Virginia,54,Monongalia,061
+MAPO,United States,West Virginia,54,Ohio,069
+MAPO,United States,West Virginia,54,Pendleton,071
+MAPO,United States,West Virginia,54,Preston,077
+MAPO,United States,West Virginia,54,Raleigh,081
+MAPO,United States,West Virginia,54,Summers,089
+MAPO,United States,West Virginia,54,Wetzel,103
+MAPO,United States,Wisconsin,55,,
+MAPO,United States,Wisconsin,55,Iowa,049
+MAPO,United States,Wisconsin,55,Lafayette,065
+MAPO,United States,Wisconsin,55,Rock,105

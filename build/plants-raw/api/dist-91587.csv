@@ -1,0 +1,74 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+RUSP,Canada,British Columbia,02,,
+RUSP,United States,Alaska,02,,
+RUSP,United States,Alaska,02,Aleutians East,013
+RUSP,United States,Alaska,02,Aleutians West,016
+RUSP,United States,Alaska,02,Anchorage,020
+RUSP,United States,Alaska,02,Chugach,063
+RUSP,United States,Alaska,02,Copper River,066
+RUSP,United States,Alaska,02,Haines,100
+RUSP,United States,Alaska,02,Juneau,110
+RUSP,United States,Alaska,02,Kenai Peninsula,122
+RUSP,United States,Alaska,02,Ketchikan Gateway,130
+RUSP,United States,Alaska,02,Kodiak Island,150
+RUSP,United States,Alaska,02,Lake and Peninsula,164
+RUSP,United States,Alaska,02,Matanuska-Susitna,170
+RUSP,United States,Alaska,02,Sitka,220
+RUSP,United States,Alaska,02,Southeast Fairbanks,240
+RUSP,United States,Alaska,02,Yakutat,282
+RUSP,United States,California,06,,
+RUSP,United States,California,06,Del Norte,015
+RUSP,United States,California,06,Humboldt,023
+RUSP,United States,California,06,Marin,041
+RUSP,United States,California,06,Mendocino,045
+RUSP,United States,California,06,San Francisco,075
+RUSP,United States,California,06,San Mateo,081
+RUSP,United States,California,06,Santa Cruz,087
+RUSP,United States,California,06,Sonoma,097
+RUSP,United States,Idaho,16,,
+RUSP,United States,Idaho,16,Bonner,017
+RUSP,United States,Idaho,16,Clearwater,035
+RUSP,United States,Oregon,41,,
+RUSP,United States,Oregon,41,Benton,003
+RUSP,United States,Oregon,41,Clackamas,005
+RUSP,United States,Oregon,41,Clatsop,007
+RUSP,United States,Oregon,41,Coos,011
+RUSP,United States,Oregon,41,Curry,015
+RUSP,United States,Oregon,41,Douglas,019
+RUSP,United States,Oregon,41,Hood River,027
+RUSP,United States,Oregon,41,Jackson,029
+RUSP,United States,Oregon,41,Josephine,033
+RUSP,United States,Oregon,41,Lane,039
+RUSP,United States,Oregon,41,Lincoln,041
+RUSP,United States,Oregon,41,Linn,043
+RUSP,United States,Oregon,41,Marion,047
+RUSP,United States,Oregon,41,Multnomah,051
+RUSP,United States,Oregon,41,Polk,053
+RUSP,United States,Oregon,41,Tillamook,057
+RUSP,United States,Oregon,41,Washington,067
+RUSP,United States,Oregon,41,Yamhill,071
+RUSP,United States,Washington,53,,
+RUSP,United States,Washington,53,Chelan,007
+RUSP,United States,Washington,53,Clallam,009
+RUSP,United States,Washington,53,Clark,011
+RUSP,United States,Washington,53,Cowlitz,015
+RUSP,United States,Washington,53,Grays Harbor,027
+RUSP,United States,Washington,53,Island,029
+RUSP,United States,Washington,53,Jefferson,031
+RUSP,United States,Washington,53,King,033
+RUSP,United States,Washington,53,Kittitas,037
+RUSP,United States,Washington,53,Klickitat,039
+RUSP,United States,Washington,53,Lewis,041
+RUSP,United States,Washington,53,Mason,045
+RUSP,United States,Washington,53,Okanogan,047
+RUSP,United States,Washington,53,Pacific,049
+RUSP,United States,Washington,53,Pierce,053
+RUSP,United States,Washington,53,San Juan,055
+RUSP,United States,Washington,53,Skagit,057
+RUSP,United States,Washington,53,Skamania,059
+RUSP,United States,Washington,53,Snohomish,061
+RUSP,United States,Washington,53,Thurston,067
+RUSP,United States,Washington,53,Wahkiakum,069
+RUSP,United States,Washington,53,Whatcom,073
+RUSP,United States,Washington,53,Yakima,077

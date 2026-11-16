@@ -1,0 +1,113 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+QUGA,United States,Arizona,04,,
+QUGA,United States,Arizona,04,Apache,001
+QUGA,United States,Arizona,04,Cochise,003
+QUGA,United States,Arizona,04,Coconino,005
+QUGA,United States,Arizona,04,Gila,007
+QUGA,United States,Arizona,04,Graham,009
+QUGA,United States,Arizona,04,Greenlee,011
+QUGA,United States,Arizona,04,Maricopa,013
+QUGA,United States,Arizona,04,Mohave,015
+QUGA,United States,Arizona,04,Navajo,017
+QUGA,United States,Arizona,04,Pima,019
+QUGA,United States,Arizona,04,Santa Cruz,023
+QUGA,United States,Arizona,04,Yavapai,025
+QUGA,United States,Colorado,08,,
+QUGA,United States,Colorado,08,Archuleta,007
+QUGA,United States,Colorado,08,Baca,009
+QUGA,United States,Colorado,08,Boulder,013
+QUGA,United States,Colorado,08,Custer,027
+QUGA,United States,Colorado,08,Delta,029
+QUGA,United States,Colorado,08,Dolores,033
+QUGA,United States,Colorado,08,Douglas,035
+QUGA,United States,Colorado,08,El Paso,041
+QUGA,United States,Colorado,08,Garfield,045
+QUGA,United States,Colorado,08,Gunnison,051
+QUGA,United States,Colorado,08,Huerfano,055
+QUGA,United States,Colorado,08,Jefferson,059
+QUGA,United States,Colorado,08,La Plata,067
+QUGA,United States,Colorado,08,Las Animas,071
+QUGA,United States,Colorado,08,Mesa,077
+QUGA,United States,Colorado,08,Moffat,081
+QUGA,United States,Colorado,08,Montezuma,083
+QUGA,United States,Colorado,08,Montrose,085
+QUGA,United States,Colorado,08,Ouray,091
+QUGA,United States,Colorado,08,Pitkin,097
+QUGA,United States,Colorado,08,Pueblo,101
+QUGA,United States,Colorado,08,Rio Blanco,103
+QUGA,United States,Colorado,08,Routt,107
+QUGA,United States,Colorado,08,Saguache,109
+QUGA,United States,Colorado,08,San Juan,111
+QUGA,United States,Colorado,08,San Miguel,113
+QUGA,United States,Nevada,32,,
+QUGA,United States,Nevada,32,Clark,003
+QUGA,United States,Nevada,32,Lincoln,017
+QUGA,United States,Nevada,32,Nye,023
+QUGA,United States,New Mexico,35,,
+QUGA,United States,New Mexico,35,Bernalillo,001
+QUGA,United States,New Mexico,35,Catron,003
+QUGA,United States,New Mexico,35,Cibola,006
+QUGA,United States,New Mexico,35,Colfax,007
+QUGA,United States,New Mexico,35,Dona Ana,013
+QUGA,United States,New Mexico,35,Eddy,015
+QUGA,United States,New Mexico,35,Grant,017
+QUGA,United States,New Mexico,35,Harding,021
+QUGA,United States,New Mexico,35,Hidalgo,023
+QUGA,United States,New Mexico,35,Lincoln,027
+QUGA,United States,New Mexico,35,Los Alamos,028
+QUGA,United States,New Mexico,35,Luna,029
+QUGA,United States,New Mexico,35,McKinley,031
+QUGA,United States,New Mexico,35,Mora,033
+QUGA,United States,New Mexico,35,Otero,035
+QUGA,United States,New Mexico,35,Rio Arriba,039
+QUGA,United States,New Mexico,35,San Juan,045
+QUGA,United States,New Mexico,35,San Miguel,047
+QUGA,United States,New Mexico,35,Sandoval,043
+QUGA,United States,New Mexico,35,Santa Fe,049
+QUGA,United States,New Mexico,35,Sierra,051
+QUGA,United States,New Mexico,35,Socorro,053
+QUGA,United States,New Mexico,35,Taos,055
+QUGA,United States,New Mexico,35,Torrance,057
+QUGA,United States,New Mexico,35,Union,059
+QUGA,United States,New Mexico,35,Valencia,061
+QUGA,United States,Oklahoma,40,,
+QUGA,United States,Oklahoma,40,Cimarron,025
+QUGA,United States,South Dakota,46,,
+QUGA,United States,Texas,48,,
+QUGA,United States,Texas,48,Brewster,043
+QUGA,United States,Texas,48,Culberson,109
+QUGA,United States,Texas,48,El Paso,141
+QUGA,United States,Texas,48,Ellis,139
+QUGA,United States,Texas,48,Jeff Davis,243
+QUGA,United States,Texas,48,Presidio,377
+QUGA,United States,Utah,49,,
+QUGA,United States,Utah,49,Beaver,001
+QUGA,United States,Utah,49,Box Elder,003
+QUGA,United States,Utah,49,Cache,005
+QUGA,United States,Utah,49,Carbon,007
+QUGA,United States,Utah,49,Davis,011
+QUGA,United States,Utah,49,Duchesne,013
+QUGA,United States,Utah,49,Emery,015
+QUGA,United States,Utah,49,Garfield,017
+QUGA,United States,Utah,49,Grand,019
+QUGA,United States,Utah,49,Iron,021
+QUGA,United States,Utah,49,Juab,023
+QUGA,United States,Utah,49,Kane,025
+QUGA,United States,Utah,49,Millard,027
+QUGA,United States,Utah,49,Morgan,029
+QUGA,United States,Utah,49,Piute,031
+QUGA,United States,Utah,49,Salt Lake,035
+QUGA,United States,Utah,49,San Juan,037
+QUGA,United States,Utah,49,Sanpete,039
+QUGA,United States,Utah,49,Sevier,041
+QUGA,United States,Utah,49,Summit,043
+QUGA,United States,Utah,49,Tooele,045
+QUGA,United States,Utah,49,Uintah,047
+QUGA,United States,Utah,49,Utah,049
+QUGA,United States,Utah,49,Wasatch,051
+QUGA,United States,Utah,49,Washington,053
+QUGA,United States,Utah,49,Wayne,055
+QUGA,United States,Utah,49,Weber,057
+QUGA,United States,Wyoming,56,,
+QUGA,United States,Wyoming,56,Carbon,007

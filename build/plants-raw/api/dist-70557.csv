@@ -1,0 +1,896 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+LIST2,United States,Alabama,01,,
+LIST2,United States,Alabama,01,Autauga,001
+LIST2,United States,Alabama,01,Baldwin,003
+LIST2,United States,Alabama,01,Barbour,005
+LIST2,United States,Alabama,01,Bibb,007
+LIST2,United States,Alabama,01,Blount,009
+LIST2,United States,Alabama,01,Bullock,011
+LIST2,United States,Alabama,01,Butler,013
+LIST2,United States,Alabama,01,Calhoun,015
+LIST2,United States,Alabama,01,Chambers,017
+LIST2,United States,Alabama,01,Chilton,021
+LIST2,United States,Alabama,01,Choctaw,023
+LIST2,United States,Alabama,01,Clarke,025
+LIST2,United States,Alabama,01,Clay,027
+LIST2,United States,Alabama,01,Cleburne,029
+LIST2,United States,Alabama,01,Colbert,033
+LIST2,United States,Alabama,01,Conecuh,035
+LIST2,United States,Alabama,01,Coosa,037
+LIST2,United States,Alabama,01,Covington,039
+LIST2,United States,Alabama,01,Crenshaw,041
+LIST2,United States,Alabama,01,Cullman,043
+LIST2,United States,Alabama,01,Dale,045
+LIST2,United States,Alabama,01,Dallas,047
+LIST2,United States,Alabama,01,DeKalb,049
+LIST2,United States,Alabama,01,Elmore,051
+LIST2,United States,Alabama,01,Escambia,053
+LIST2,United States,Alabama,01,Etowah,055
+LIST2,United States,Alabama,01,Fayette,057
+LIST2,United States,Alabama,01,Franklin,059
+LIST2,United States,Alabama,01,Geneva,061
+LIST2,United States,Alabama,01,Greene,063
+LIST2,United States,Alabama,01,Hale,065
+LIST2,United States,Alabama,01,Henry,067
+LIST2,United States,Alabama,01,Houston,069
+LIST2,United States,Alabama,01,Jackson,071
+LIST2,United States,Alabama,01,Jefferson,073
+LIST2,United States,Alabama,01,Lamar,075
+LIST2,United States,Alabama,01,Lauderdale,077
+LIST2,United States,Alabama,01,Lawrence,079
+LIST2,United States,Alabama,01,Lee,081
+LIST2,United States,Alabama,01,Limestone,083
+LIST2,United States,Alabama,01,Lowndes,085
+LIST2,United States,Alabama,01,Macon,087
+LIST2,United States,Alabama,01,Madison,089
+LIST2,United States,Alabama,01,Marengo,091
+LIST2,United States,Alabama,01,Marion,093
+LIST2,United States,Alabama,01,Marshall,095
+LIST2,United States,Alabama,01,Mobile,097
+LIST2,United States,Alabama,01,Monroe,099
+LIST2,United States,Alabama,01,Montgomery,101
+LIST2,United States,Alabama,01,Morgan,103
+LIST2,United States,Alabama,01,Perry,105
+LIST2,United States,Alabama,01,Pickens,107
+LIST2,United States,Alabama,01,Pike,109
+LIST2,United States,Alabama,01,Randolph,111
+LIST2,United States,Alabama,01,Russell,113
+LIST2,United States,Alabama,01,Shelby,117
+LIST2,United States,Alabama,01,St. Clair,115
+LIST2,United States,Alabama,01,Sumter,119
+LIST2,United States,Alabama,01,Talladega,121
+LIST2,United States,Alabama,01,Tallapoosa,123
+LIST2,United States,Alabama,01,Tuscaloosa,125
+LIST2,United States,Alabama,01,Walker,127
+LIST2,United States,Alabama,01,Washington,129
+LIST2,United States,Alabama,01,Wilcox,131
+LIST2,United States,Alabama,01,Winston,133
+LIST2,United States,Arkansas,05,,
+LIST2,United States,Arkansas,05,Arkansas,001
+LIST2,United States,Arkansas,05,Ashley,003
+LIST2,United States,Arkansas,05,Benton,007
+LIST2,United States,Arkansas,05,Bradley,011
+LIST2,United States,Arkansas,05,Calhoun,013
+LIST2,United States,Arkansas,05,Chicot,017
+LIST2,United States,Arkansas,05,Clark,019
+LIST2,United States,Arkansas,05,Clay,021
+LIST2,United States,Arkansas,05,Cleburne,023
+LIST2,United States,Arkansas,05,Cleveland,025
+LIST2,United States,Arkansas,05,Columbia,027
+LIST2,United States,Arkansas,05,Conway,029
+LIST2,United States,Arkansas,05,Craighead,031
+LIST2,United States,Arkansas,05,Crawford,033
+LIST2,United States,Arkansas,05,Crittenden,035
+LIST2,United States,Arkansas,05,Cross,037
+LIST2,United States,Arkansas,05,Dallas,039
+LIST2,United States,Arkansas,05,Desha,041
+LIST2,United States,Arkansas,05,Drew,043
+LIST2,United States,Arkansas,05,Faulkner,045
+LIST2,United States,Arkansas,05,Franklin,047
+LIST2,United States,Arkansas,05,Garland,051
+LIST2,United States,Arkansas,05,Grant,053
+LIST2,United States,Arkansas,05,Greene,055
+LIST2,United States,Arkansas,05,Hempstead,057
+LIST2,United States,Arkansas,05,Hot Spring,059
+LIST2,United States,Arkansas,05,Howard,061
+LIST2,United States,Arkansas,05,Independence,063
+LIST2,United States,Arkansas,05,Izard,065
+LIST2,United States,Arkansas,05,Jackson,067
+LIST2,United States,Arkansas,05,Jefferson,069
+LIST2,United States,Arkansas,05,Johnson,071
+LIST2,United States,Arkansas,05,Lafayette,073
+LIST2,United States,Arkansas,05,Lawrence,075
+LIST2,United States,Arkansas,05,Lee,077
+LIST2,United States,Arkansas,05,Lincoln,079
+LIST2,United States,Arkansas,05,Little River,081
+LIST2,United States,Arkansas,05,Logan,083
+LIST2,United States,Arkansas,05,Lonoke,085
+LIST2,United States,Arkansas,05,Madison,087
+LIST2,United States,Arkansas,05,Marion,089
+LIST2,United States,Arkansas,05,Miller,091
+LIST2,United States,Arkansas,05,Mississippi,093
+LIST2,United States,Arkansas,05,Monroe,095
+LIST2,United States,Arkansas,05,Montgomery,097
+LIST2,United States,Arkansas,05,Nevada,099
+LIST2,United States,Arkansas,05,Newton,101
+LIST2,United States,Arkansas,05,Ouachita,103
+LIST2,United States,Arkansas,05,Perry,105
+LIST2,United States,Arkansas,05,Phillips,107
+LIST2,United States,Arkansas,05,Pike,109
+LIST2,United States,Arkansas,05,Poinsett,111
+LIST2,United States,Arkansas,05,Polk,113
+LIST2,United States,Arkansas,05,Pope,115
+LIST2,United States,Arkansas,05,Prairie,117
+LIST2,United States,Arkansas,05,Pulaski,119
+LIST2,United States,Arkansas,05,Randolph,121
+LIST2,United States,Arkansas,05,Saline,125
+LIST2,United States,Arkansas,05,Scott,127
+LIST2,United States,Arkansas,05,Searcy,129
+LIST2,United States,Arkansas,05,Sebastian,131
+LIST2,United States,Arkansas,05,Sevier,133
+LIST2,United States,Arkansas,05,Sharp,135
+LIST2,United States,Arkansas,05,St. Francis,123
+LIST2,United States,Arkansas,05,Stone,137
+LIST2,United States,Arkansas,05,Union,139
+LIST2,United States,Arkansas,05,Van Buren,141
+LIST2,United States,Arkansas,05,Washington,143
+LIST2,United States,Arkansas,05,White,145
+LIST2,United States,Arkansas,05,Woodruff,147
+LIST2,United States,Arkansas,05,Yell,149
+LIST2,United States,California,06,,
+LIST2,United States,California,06,Sacramento,067
+LIST2,United States,Connecticut,09,,
+LIST2,United States,Delaware,10,,
+LIST2,United States,Delaware,10,Kent,001
+LIST2,United States,Delaware,10,New Castle,003
+LIST2,United States,District of Columbia,11,,
+LIST2,United States,District of Columbia,11,District of Columbia,001
+LIST2,United States,Florida,12,,
+LIST2,United States,Florida,12,Alachua,001
+LIST2,United States,Florida,12,Baker,003
+LIST2,United States,Florida,12,Brevard,009
+LIST2,United States,Florida,12,Citrus,017
+LIST2,United States,Florida,12,Clay,019
+LIST2,United States,Florida,12,Columbia,023
+LIST2,United States,Florida,12,DeSoto,027
+LIST2,United States,Florida,12,Dixie,029
+LIST2,United States,Florida,12,Duval,031
+LIST2,United States,Florida,12,Escambia,033
+LIST2,United States,Florida,12,Flagler,035
+LIST2,United States,Florida,12,Franklin,037
+LIST2,United States,Florida,12,Gadsden,039
+LIST2,United States,Florida,12,Gilchrist,041
+LIST2,United States,Florida,12,Hamilton,047
+LIST2,United States,Florida,12,Hardee,049
+LIST2,United States,Florida,12,Hendry,051
+LIST2,United States,Florida,12,Hernando,053
+LIST2,United States,Florida,12,Highlands,055
+LIST2,United States,Florida,12,Hillsborough,057
+LIST2,United States,Florida,12,Jackson,063
+LIST2,United States,Florida,12,Jefferson,065
+LIST2,United States,Florida,12,Lafayette,067
+LIST2,United States,Florida,12,Lake,069
+LIST2,United States,Florida,12,Leon,073
+LIST2,United States,Florida,12,Levy,075
+LIST2,United States,Florida,12,Liberty,077
+LIST2,United States,Florida,12,Madison,079
+LIST2,United States,Florida,12,Manatee,081
+LIST2,United States,Florida,12,Marion,083
+LIST2,United States,Florida,12,Martin,085
+LIST2,United States,Florida,12,Nassau,089
+LIST2,United States,Florida,12,Okaloosa,091
+LIST2,United States,Florida,12,Okeechobee,093
+LIST2,United States,Florida,12,Orange,095
+LIST2,United States,Florida,12,Osceola,097
+LIST2,United States,Florida,12,Pasco,101
+LIST2,United States,Florida,12,Pinellas,103
+LIST2,United States,Florida,12,Polk,105
+LIST2,United States,Florida,12,Putnam,107
+LIST2,United States,Florida,12,Santa Rosa,113
+LIST2,United States,Florida,12,Sarasota,115
+LIST2,United States,Florida,12,Seminole,117
+LIST2,United States,Florida,12,St. Johns,109
+LIST2,United States,Florida,12,Sumter,119
+LIST2,United States,Florida,12,Suwannee,121
+LIST2,United States,Florida,12,Taylor,123
+LIST2,United States,Florida,12,Union,125
+LIST2,United States,Florida,12,Volusia,127
+LIST2,United States,Florida,12,Wakulla,129
+LIST2,United States,Florida,12,Walton,131
+LIST2,United States,Georgia,13,,
+LIST2,United States,Georgia,13,Bartow,015
+LIST2,United States,Georgia,13,Ben Hill,017
+LIST2,United States,Georgia,13,Brantley,025
+LIST2,United States,Georgia,13,Brooks,027
+LIST2,United States,Georgia,13,Carroll,045
+LIST2,United States,Georgia,13,Charlton,049
+LIST2,United States,Georgia,13,Chatham,051
+LIST2,United States,Georgia,13,Clarke,059
+LIST2,United States,Georgia,13,Colquitt,071
+LIST2,United States,Georgia,13,Cook,075
+LIST2,United States,Georgia,13,Crisp,081
+LIST2,United States,Georgia,13,Dade,083
+LIST2,United States,Georgia,13,DeKalb,089
+LIST2,United States,Georgia,13,Dougherty,095
+LIST2,United States,Georgia,13,Echols,101
+LIST2,United States,Georgia,13,Elbert,105
+LIST2,United States,Georgia,13,Fannin,111
+LIST2,United States,Georgia,13,Floyd,115
+LIST2,United States,Georgia,13,Fulton,121
+LIST2,United States,Georgia,13,Grady,131
+LIST2,United States,Georgia,13,Harris,145
+LIST2,United States,Georgia,13,Irwin,155
+LIST2,United States,Georgia,13,Jackson,157
+LIST2,United States,Georgia,13,Liberty,179
+LIST2,United States,Georgia,13,Lincoln,181
+LIST2,United States,Georgia,13,Lowndes,185
+LIST2,United States,Georgia,13,McIntosh,191
+LIST2,United States,Georgia,13,Murray,213
+LIST2,United States,Georgia,13,Oglethorpe,221
+LIST2,United States,Georgia,13,Rabun,241
+LIST2,United States,Georgia,13,Sumter,261
+LIST2,United States,Georgia,13,Tattnall,267
+LIST2,United States,Georgia,13,Tift,277
+LIST2,United States,Georgia,13,Wayne,305
+LIST2,United States,Georgia,13,Wilkes,317
+LIST2,United States,Illinois,17,,
+LIST2,United States,Illinois,17,Alexander,003
+LIST2,United States,Illinois,17,Christian,021
+LIST2,United States,Illinois,17,Clay,025
+LIST2,United States,Illinois,17,Crawford,033
+LIST2,United States,Illinois,17,Edwards,047
+LIST2,United States,Illinois,17,Franklin,055
+LIST2,United States,Illinois,17,Gallatin,059
+LIST2,United States,Illinois,17,Hamilton,065
+LIST2,United States,Illinois,17,Hardin,069
+LIST2,United States,Illinois,17,Jackson,077
+LIST2,United States,Illinois,17,Jasper,079
+LIST2,United States,Illinois,17,Jefferson,081
+LIST2,United States,Illinois,17,Jersey,083
+LIST2,United States,Illinois,17,Johnson,087
+LIST2,United States,Illinois,17,Lawrence,101
+LIST2,United States,Illinois,17,Massac,127
+LIST2,United States,Illinois,17,McDonough,109
+LIST2,United States,Illinois,17,Monroe,133
+LIST2,United States,Illinois,17,Pope,151
+LIST2,United States,Illinois,17,Pulaski,153
+LIST2,United States,Illinois,17,Randolph,157
+LIST2,United States,Illinois,17,Richland,159
+LIST2,United States,Illinois,17,Saline,165
+LIST2,United States,Illinois,17,St. Clair,163
+LIST2,United States,Illinois,17,Union,181
+LIST2,United States,Illinois,17,Wabash,185
+LIST2,United States,Illinois,17,Wayne,191
+LIST2,United States,Illinois,17,White,193
+LIST2,United States,Illinois,17,Williamson,199
+LIST2,United States,Indiana,18,,
+LIST2,United States,Indiana,18,Bartholomew,005
+LIST2,United States,Indiana,18,Clark,019
+LIST2,United States,Indiana,18,Crawford,025
+LIST2,United States,Indiana,18,Daviess,027
+LIST2,United States,Indiana,18,Dearborn,029
+LIST2,United States,Indiana,18,Decatur,031
+LIST2,United States,Indiana,18,Dubois,037
+LIST2,United States,Indiana,18,Floyd,043
+LIST2,United States,Indiana,18,Franklin,047
+LIST2,United States,Indiana,18,Gibson,051
+LIST2,United States,Indiana,18,Greene,055
+LIST2,United States,Indiana,18,Harrison,061
+LIST2,United States,Indiana,18,Jackson,071
+LIST2,United States,Indiana,18,Jefferson,077
+LIST2,United States,Indiana,18,Jennings,079
+LIST2,United States,Indiana,18,Knox,083
+LIST2,United States,Indiana,18,Lawrence,093
+LIST2,United States,Indiana,18,Monroe,105
+LIST2,United States,Indiana,18,Morgan,109
+LIST2,United States,Indiana,18,Orange,117
+LIST2,United States,Indiana,18,Owen,119
+LIST2,United States,Indiana,18,Perry,123
+LIST2,United States,Indiana,18,Posey,129
+LIST2,United States,Indiana,18,Putnam,133
+LIST2,United States,Indiana,18,Ripley,137
+LIST2,United States,Indiana,18,Rush,139
+LIST2,United States,Indiana,18,Scott,143
+LIST2,United States,Indiana,18,Shelby,145
+LIST2,United States,Indiana,18,Spencer,147
+LIST2,United States,Indiana,18,Sullivan,153
+LIST2,United States,Indiana,18,Switzerland,155
+LIST2,United States,Indiana,18,Vanderburgh,163
+LIST2,United States,Indiana,18,Vigo,167
+LIST2,United States,Indiana,18,Warrick,173
+LIST2,United States,Kentucky,21,,
+LIST2,United States,Kentucky,21,Adair,001
+LIST2,United States,Kentucky,21,Allen,003
+LIST2,United States,Kentucky,21,Anderson,005
+LIST2,United States,Kentucky,21,Ballard,007
+LIST2,United States,Kentucky,21,Barren,009
+LIST2,United States,Kentucky,21,Bath,011
+LIST2,United States,Kentucky,21,Bell,013
+LIST2,United States,Kentucky,21,Bourbon,017
+LIST2,United States,Kentucky,21,Boyd,019
+LIST2,United States,Kentucky,21,Boyle,021
+LIST2,United States,Kentucky,21,Bracken,023
+LIST2,United States,Kentucky,21,Breathitt,025
+LIST2,United States,Kentucky,21,Breckinridge,027
+LIST2,United States,Kentucky,21,Bullitt,029
+LIST2,United States,Kentucky,21,Butler,031
+LIST2,United States,Kentucky,21,Caldwell,033
+LIST2,United States,Kentucky,21,Calloway,035
+LIST2,United States,Kentucky,21,Campbell,037
+LIST2,United States,Kentucky,21,Carlisle,039
+LIST2,United States,Kentucky,21,Carroll,041
+LIST2,United States,Kentucky,21,Carter,043
+LIST2,United States,Kentucky,21,Casey,045
+LIST2,United States,Kentucky,21,Christian,047
+LIST2,United States,Kentucky,21,Clark,049
+LIST2,United States,Kentucky,21,Clay,051
+LIST2,United States,Kentucky,21,Clinton,053
+LIST2,United States,Kentucky,21,Crittenden,055
+LIST2,United States,Kentucky,21,Cumberland,057
+LIST2,United States,Kentucky,21,Daviess,059
+LIST2,United States,Kentucky,21,Edmonson,061
+LIST2,United States,Kentucky,21,Elliott,063
+LIST2,United States,Kentucky,21,Estill,065
+LIST2,United States,Kentucky,21,Fleming,069
+LIST2,United States,Kentucky,21,Floyd,071
+LIST2,United States,Kentucky,21,Franklin,073
+LIST2,United States,Kentucky,21,Fulton,075
+LIST2,United States,Kentucky,21,Gallatin,077
+LIST2,United States,Kentucky,21,Garrard,079
+LIST2,United States,Kentucky,21,Graves,083
+LIST2,United States,Kentucky,21,Grayson,085
+LIST2,United States,Kentucky,21,Green,087
+LIST2,United States,Kentucky,21,Greenup,089
+LIST2,United States,Kentucky,21,Hancock,091
+LIST2,United States,Kentucky,21,Hardin,093
+LIST2,United States,Kentucky,21,Harlan,095
+LIST2,United States,Kentucky,21,Hart,099
+LIST2,United States,Kentucky,21,Henderson,101
+LIST2,United States,Kentucky,21,Henry,103
+LIST2,United States,Kentucky,21,Hickman,105
+LIST2,United States,Kentucky,21,Hopkins,107
+LIST2,United States,Kentucky,21,Jackson,109
+LIST2,United States,Kentucky,21,Jefferson,111
+LIST2,United States,Kentucky,21,Jessamine,113
+LIST2,United States,Kentucky,21,Johnson,115
+LIST2,United States,Kentucky,21,Knott,119
+LIST2,United States,Kentucky,21,Knox,121
+LIST2,United States,Kentucky,21,Larue,123
+LIST2,United States,Kentucky,21,Laurel,125
+LIST2,United States,Kentucky,21,Lee,129
+LIST2,United States,Kentucky,21,Leslie,131
+LIST2,United States,Kentucky,21,Letcher,133
+LIST2,United States,Kentucky,21,Lewis,135
+LIST2,United States,Kentucky,21,Lincoln,137
+LIST2,United States,Kentucky,21,Livingston,139
+LIST2,United States,Kentucky,21,Logan,141
+LIST2,United States,Kentucky,21,Lyon,143
+LIST2,United States,Kentucky,21,Madison,151
+LIST2,United States,Kentucky,21,Marion,155
+LIST2,United States,Kentucky,21,Marshall,157
+LIST2,United States,Kentucky,21,McCracken,145
+LIST2,United States,Kentucky,21,McCreary,147
+LIST2,United States,Kentucky,21,McLean,149
+LIST2,United States,Kentucky,21,Meade,163
+LIST2,United States,Kentucky,21,Menifee,165
+LIST2,United States,Kentucky,21,Metcalfe,169
+LIST2,United States,Kentucky,21,Monroe,171
+LIST2,United States,Kentucky,21,Montgomery,173
+LIST2,United States,Kentucky,21,Morgan,175
+LIST2,United States,Kentucky,21,Muhlenberg,177
+LIST2,United States,Kentucky,21,Nelson,179
+LIST2,United States,Kentucky,21,Nicholas,181
+LIST2,United States,Kentucky,21,Ohio,183
+LIST2,United States,Kentucky,21,Oldham,185
+LIST2,United States,Kentucky,21,Owsley,189
+LIST2,United States,Kentucky,21,Pendleton,191
+LIST2,United States,Kentucky,21,Perry,193
+LIST2,United States,Kentucky,21,Pike,195
+LIST2,United States,Kentucky,21,Powell,197
+LIST2,United States,Kentucky,21,Pulaski,199
+LIST2,United States,Kentucky,21,Robertson,201
+LIST2,United States,Kentucky,21,Rockcastle,203
+LIST2,United States,Kentucky,21,Rowan,205
+LIST2,United States,Kentucky,21,Russell,207
+LIST2,United States,Kentucky,21,Shelby,211
+LIST2,United States,Kentucky,21,Simpson,213
+LIST2,United States,Kentucky,21,Spencer,215
+LIST2,United States,Kentucky,21,Taylor,217
+LIST2,United States,Kentucky,21,Todd,219
+LIST2,United States,Kentucky,21,Trigg,221
+LIST2,United States,Kentucky,21,Union,225
+LIST2,United States,Kentucky,21,Warren,227
+LIST2,United States,Kentucky,21,Wayne,231
+LIST2,United States,Kentucky,21,Webster,233
+LIST2,United States,Kentucky,21,Whitley,235
+LIST2,United States,Kentucky,21,Wolfe,237
+LIST2,United States,Louisiana,22,,
+LIST2,United States,Louisiana,22,Acadia,001
+LIST2,United States,Louisiana,22,Allen,003
+LIST2,United States,Louisiana,22,Ascension,005
+LIST2,United States,Louisiana,22,Assumption,007
+LIST2,United States,Louisiana,22,Avoyelles,009
+LIST2,United States,Louisiana,22,Beauregard,011
+LIST2,United States,Louisiana,22,Bienville,013
+LIST2,United States,Louisiana,22,Bossier,015
+LIST2,United States,Louisiana,22,Caddo,017
+LIST2,United States,Louisiana,22,Calcasieu,019
+LIST2,United States,Louisiana,22,Caldwell,021
+LIST2,United States,Louisiana,22,Cameron,023
+LIST2,United States,Louisiana,22,Catahoula,025
+LIST2,United States,Louisiana,22,Claiborne,027
+LIST2,United States,Louisiana,22,Concordia,029
+LIST2,United States,Louisiana,22,De Soto,031
+LIST2,United States,Louisiana,22,East Baton Rouge,033
+LIST2,United States,Louisiana,22,East Carroll,035
+LIST2,United States,Louisiana,22,East Feliciana,037
+LIST2,United States,Louisiana,22,Evangeline,039
+LIST2,United States,Louisiana,22,Franklin,041
+LIST2,United States,Louisiana,22,Grant,043
+LIST2,United States,Louisiana,22,Iberia,045
+LIST2,United States,Louisiana,22,Iberville,047
+LIST2,United States,Louisiana,22,Jackson,049
+LIST2,United States,Louisiana,22,Jefferson,051
+LIST2,United States,Louisiana,22,Jefferson Davis,053
+LIST2,United States,Louisiana,22,Lafayette,055
+LIST2,United States,Louisiana,22,Lafourche,057
+LIST2,United States,Louisiana,22,LaSalle,059
+LIST2,United States,Louisiana,22,Lincoln,061
+LIST2,United States,Louisiana,22,Livingston,063
+LIST2,United States,Louisiana,22,Madison,065
+LIST2,United States,Louisiana,22,Morehouse,067
+LIST2,United States,Louisiana,22,Natchitoches,069
+LIST2,United States,Louisiana,22,Orleans,071
+LIST2,United States,Louisiana,22,Ouachita,073
+LIST2,United States,Louisiana,22,Plaquemines,075
+LIST2,United States,Louisiana,22,Rapides,079
+LIST2,United States,Louisiana,22,Red River,081
+LIST2,United States,Louisiana,22,Richland,083
+LIST2,United States,Louisiana,22,Sabine,085
+LIST2,United States,Louisiana,22,St. Charles,089
+LIST2,United States,Louisiana,22,St. Helena,091
+LIST2,United States,Louisiana,22,St. James,093
+LIST2,United States,Louisiana,22,St. John the Baptist,095
+LIST2,United States,Louisiana,22,St. Landry,097
+LIST2,United States,Louisiana,22,St. Martin,099
+LIST2,United States,Louisiana,22,St. Mary,101
+LIST2,United States,Louisiana,22,St. Tammany,103
+LIST2,United States,Louisiana,22,Tangipahoa,105
+LIST2,United States,Louisiana,22,Tensas,107
+LIST2,United States,Louisiana,22,Terrebonne,109
+LIST2,United States,Louisiana,22,Union,111
+LIST2,United States,Louisiana,22,Vermilion,113
+LIST2,United States,Louisiana,22,Vernon,115
+LIST2,United States,Louisiana,22,Washington,117
+LIST2,United States,Louisiana,22,Webster,119
+LIST2,United States,Louisiana,22,West Baton Rouge,121
+LIST2,United States,Louisiana,22,West Carroll,123
+LIST2,United States,Louisiana,22,West Feliciana,125
+LIST2,United States,Louisiana,22,Winn,127
+LIST2,United States,Maryland,24,,
+LIST2,United States,Massachusetts,25,,
+LIST2,United States,Mississippi,28,,
+LIST2,United States,Mississippi,28,Adams,001
+LIST2,United States,Mississippi,28,Alcorn,003
+LIST2,United States,Mississippi,28,Amite,005
+LIST2,United States,Mississippi,28,Attala,007
+LIST2,United States,Mississippi,28,Benton,009
+LIST2,United States,Mississippi,28,Bolivar,011
+LIST2,United States,Mississippi,28,Calhoun,013
+LIST2,United States,Mississippi,28,Carroll,015
+LIST2,United States,Mississippi,28,Chickasaw,017
+LIST2,United States,Mississippi,28,Choctaw,019
+LIST2,United States,Mississippi,28,Claiborne,021
+LIST2,United States,Mississippi,28,Clarke,023
+LIST2,United States,Mississippi,28,Clay,025
+LIST2,United States,Mississippi,28,Copiah,029
+LIST2,United States,Mississippi,28,Covington,031
+LIST2,United States,Mississippi,28,DeSoto,033
+LIST2,United States,Mississippi,28,Forrest,035
+LIST2,United States,Mississippi,28,Franklin,037
+LIST2,United States,Mississippi,28,George,039
+LIST2,United States,Mississippi,28,Greene,041
+LIST2,United States,Mississippi,28,Grenada,043
+LIST2,United States,Mississippi,28,Hancock,045
+LIST2,United States,Mississippi,28,Harrison,047
+LIST2,United States,Mississippi,28,Hinds,049
+LIST2,United States,Mississippi,28,Holmes,051
+LIST2,United States,Mississippi,28,Issaquena,055
+LIST2,United States,Mississippi,28,Itawamba,057
+LIST2,United States,Mississippi,28,Jackson,059
+LIST2,United States,Mississippi,28,Jasper,061
+LIST2,United States,Mississippi,28,Jefferson,063
+LIST2,United States,Mississippi,28,Jefferson Davis,065
+LIST2,United States,Mississippi,28,Jones,067
+LIST2,United States,Mississippi,28,Kemper,069
+LIST2,United States,Mississippi,28,Lafayette,071
+LIST2,United States,Mississippi,28,Lamar,073
+LIST2,United States,Mississippi,28,Lauderdale,075
+LIST2,United States,Mississippi,28,Lee,081
+LIST2,United States,Mississippi,28,Leflore,083
+LIST2,United States,Mississippi,28,Lincoln,085
+LIST2,United States,Mississippi,28,Madison,089
+LIST2,United States,Mississippi,28,Marion,091
+LIST2,United States,Mississippi,28,Marshall,093
+LIST2,United States,Mississippi,28,Monroe,095
+LIST2,United States,Mississippi,28,Montgomery,097
+LIST2,United States,Mississippi,28,Neshoba,099
+LIST2,United States,Mississippi,28,Newton,101
+LIST2,United States,Mississippi,28,Noxubee,103
+LIST2,United States,Mississippi,28,Oktibbeha,105
+LIST2,United States,Mississippi,28,Panola,107
+LIST2,United States,Mississippi,28,Pearl River,109
+LIST2,United States,Mississippi,28,Perry,111
+LIST2,United States,Mississippi,28,Pike,113
+LIST2,United States,Mississippi,28,Pontotoc,115
+LIST2,United States,Mississippi,28,Prentiss,117
+LIST2,United States,Mississippi,28,Quitman,119
+LIST2,United States,Mississippi,28,Rankin,121
+LIST2,United States,Mississippi,28,Scott,123
+LIST2,United States,Mississippi,28,Sharkey,125
+LIST2,United States,Mississippi,28,Simpson,127
+LIST2,United States,Mississippi,28,Smith,129
+LIST2,United States,Mississippi,28,Stone,131
+LIST2,United States,Mississippi,28,Tallahatchie,135
+LIST2,United States,Mississippi,28,Tate,137
+LIST2,United States,Mississippi,28,Tippah,139
+LIST2,United States,Mississippi,28,Tishomingo,141
+LIST2,United States,Mississippi,28,Tunica,143
+LIST2,United States,Mississippi,28,Union,145
+LIST2,United States,Mississippi,28,Walthall,147
+LIST2,United States,Mississippi,28,Warren,149
+LIST2,United States,Mississippi,28,Washington,151
+LIST2,United States,Mississippi,28,Wayne,153
+LIST2,United States,Mississippi,28,Webster,155
+LIST2,United States,Mississippi,28,Wilkinson,157
+LIST2,United States,Mississippi,28,Winston,159
+LIST2,United States,Mississippi,28,Yalobusha,161
+LIST2,United States,Mississippi,28,Yazoo,163
+LIST2,United States,Missouri,29,,
+LIST2,United States,Missouri,29,Bollinger,017
+LIST2,United States,Missouri,29,Butler,023
+LIST2,United States,Missouri,29,Cape Girardeau,031
+LIST2,United States,Missouri,29,Dunklin,069
+LIST2,United States,Missouri,29,Madison,123
+LIST2,United States,Missouri,29,Mississippi,133
+LIST2,United States,Missouri,29,New Madrid,143
+LIST2,United States,Missouri,29,Oregon,149
+LIST2,United States,Missouri,29,Pemiscot,155
+LIST2,United States,Missouri,29,Perry,157
+LIST2,United States,Missouri,29,Ripley,181
+LIST2,United States,Missouri,29,Scott,201
+LIST2,United States,Missouri,29,Stoddard,207
+LIST2,United States,Missouri,29,Wayne,223
+LIST2,United States,New Jersey,34,,
+LIST2,United States,New Jersey,34,Bergen,003
+LIST2,United States,New Jersey,34,Burlington,005
+LIST2,United States,New Jersey,34,Camden,007
+LIST2,United States,New Jersey,34,Cape May,009
+LIST2,United States,New Jersey,34,Cumberland,011
+LIST2,United States,New Jersey,34,Essex,013
+LIST2,United States,New Jersey,34,Gloucester,015
+LIST2,United States,New Jersey,34,Hudson,017
+LIST2,United States,New Jersey,34,Hunterdon,019
+LIST2,United States,New Jersey,34,Mercer,021
+LIST2,United States,New Jersey,34,Middlesex,023
+LIST2,United States,New Jersey,34,Monmouth,025
+LIST2,United States,New Jersey,34,Morris,027
+LIST2,United States,New Jersey,34,Ocean,029
+LIST2,United States,New Jersey,34,Passaic,031
+LIST2,United States,New Jersey,34,Somerset,035
+LIST2,United States,New Jersey,34,Union,039
+LIST2,United States,New York,36,,
+LIST2,United States,New York,36,Bronx,005
+LIST2,United States,New York,36,Dutchess,027
+LIST2,United States,New York,36,Kings,047
+LIST2,United States,New York,36,Nassau,059
+LIST2,United States,New York,36,New York,061
+LIST2,United States,New York,36,Orange,071
+LIST2,United States,New York,36,Putnam,079
+LIST2,United States,New York,36,Queens,081
+LIST2,United States,New York,36,Richmond,085
+LIST2,United States,New York,36,Rockland,087
+LIST2,United States,New York,36,Suffolk,103
+LIST2,United States,New York,36,Tompkins,109
+LIST2,United States,New York,36,Westchester,119
+LIST2,United States,North Carolina,37,,
+LIST2,United States,North Carolina,37,Alamance,001
+LIST2,United States,North Carolina,37,Alexander,003
+LIST2,United States,North Carolina,37,Anson,007
+LIST2,United States,North Carolina,37,Beaufort,013
+LIST2,United States,North Carolina,37,Bertie,015
+LIST2,United States,North Carolina,37,Bladen,017
+LIST2,United States,North Carolina,37,Brunswick,019
+LIST2,United States,North Carolina,37,Buncombe,021
+LIST2,United States,North Carolina,37,Burke,023
+LIST2,United States,North Carolina,37,Cabarrus,025
+LIST2,United States,North Carolina,37,Caldwell,027
+LIST2,United States,North Carolina,37,Carteret,031
+LIST2,United States,North Carolina,37,Caswell,033
+LIST2,United States,North Carolina,37,Catawba,035
+LIST2,United States,North Carolina,37,Chatham,037
+LIST2,United States,North Carolina,37,Cherokee,039
+LIST2,United States,North Carolina,37,Chowan,041
+LIST2,United States,North Carolina,37,Cleveland,045
+LIST2,United States,North Carolina,37,Columbus,047
+LIST2,United States,North Carolina,37,Craven,049
+LIST2,United States,North Carolina,37,Cumberland,051
+LIST2,United States,North Carolina,37,Dare,055
+LIST2,United States,North Carolina,37,Davidson,057
+LIST2,United States,North Carolina,37,Davie,059
+LIST2,United States,North Carolina,37,Duplin,061
+LIST2,United States,North Carolina,37,Durham,063
+LIST2,United States,North Carolina,37,Edgecombe,065
+LIST2,United States,North Carolina,37,Forsyth,067
+LIST2,United States,North Carolina,37,Franklin,069
+LIST2,United States,North Carolina,37,Gaston,071
+LIST2,United States,North Carolina,37,Graham,075
+LIST2,United States,North Carolina,37,Granville,077
+LIST2,United States,North Carolina,37,Greene,079
+LIST2,United States,North Carolina,37,Guilford,081
+LIST2,United States,North Carolina,37,Halifax,083
+LIST2,United States,North Carolina,37,Harnett,085
+LIST2,United States,North Carolina,37,Hertford,091
+LIST2,United States,North Carolina,37,Hoke,093
+LIST2,United States,North Carolina,37,Iredell,097
+LIST2,United States,North Carolina,37,Johnston,101
+LIST2,United States,North Carolina,37,Jones,103
+LIST2,United States,North Carolina,37,Lee,105
+LIST2,United States,North Carolina,37,Lincoln,109
+LIST2,United States,North Carolina,37,Madison,115
+LIST2,United States,North Carolina,37,Mecklenburg,119
+LIST2,United States,North Carolina,37,Montgomery,123
+LIST2,United States,North Carolina,37,Moore,125
+LIST2,United States,North Carolina,37,New Hanover,129
+LIST2,United States,North Carolina,37,Northampton,131
+LIST2,United States,North Carolina,37,Onslow,133
+LIST2,United States,North Carolina,37,Orange,135
+LIST2,United States,North Carolina,37,Pender,141
+LIST2,United States,North Carolina,37,Perquimans,143
+LIST2,United States,North Carolina,37,Person,145
+LIST2,United States,North Carolina,37,Pitt,147
+LIST2,United States,North Carolina,37,Polk,149
+LIST2,United States,North Carolina,37,Richmond,153
+LIST2,United States,North Carolina,37,Robeson,155
+LIST2,United States,North Carolina,37,Rowan,159
+LIST2,United States,North Carolina,37,Sampson,163
+LIST2,United States,North Carolina,37,Scotland,165
+LIST2,United States,North Carolina,37,Stanly,167
+LIST2,United States,North Carolina,37,Swain,173
+LIST2,United States,North Carolina,37,Transylvania,175
+LIST2,United States,North Carolina,37,Tyrrell,177
+LIST2,United States,North Carolina,37,Union,179
+LIST2,United States,North Carolina,37,Vance,181
+LIST2,United States,North Carolina,37,Wake,183
+LIST2,United States,North Carolina,37,Warren,185
+LIST2,United States,North Carolina,37,Washington,187
+LIST2,United States,North Carolina,37,Wayne,191
+LIST2,United States,Ohio,39,,
+LIST2,United States,Ohio,39,Adams,001
+LIST2,United States,Ohio,39,Ashland,005
+LIST2,United States,Ohio,39,Brown,015
+LIST2,United States,Ohio,39,Clermont,025
+LIST2,United States,Ohio,39,Clinton,027
+LIST2,United States,Ohio,39,Delaware,041
+LIST2,United States,Ohio,39,Franklin,049
+LIST2,United States,Ohio,39,Gallia,053
+LIST2,United States,Ohio,39,Greene,057
+LIST2,United States,Ohio,39,Hancock,063
+LIST2,United States,Ohio,39,Highland,071
+LIST2,United States,Ohio,39,Jackson,079
+LIST2,United States,Ohio,39,Lawrence,087
+LIST2,United States,Ohio,39,Meigs,105
+LIST2,United States,Ohio,39,Perry,127
+LIST2,United States,Ohio,39,Pike,131
+LIST2,United States,Ohio,39,Scioto,145
+LIST2,United States,Ohio,39,Vinton,163
+LIST2,United States,Ohio,39,Warren,165
+LIST2,United States,Oklahoma,40,,
+LIST2,United States,Pennsylvania,42,,
+LIST2,United States,Pennsylvania,42,Allegheny,003
+LIST2,United States,Pennsylvania,42,Bucks,017
+LIST2,United States,Pennsylvania,42,Delaware,045
+LIST2,United States,Pennsylvania,42,Lehigh,077
+LIST2,United States,Pennsylvania,42,Luzerne,079
+LIST2,United States,Pennsylvania,42,Montgomery,091
+LIST2,United States,Pennsylvania,42,Philadelphia,101
+LIST2,United States,Pennsylvania,42,Westmoreland,129
+LIST2,United States,Rhode Island,44,,
+LIST2,United States,Rhode Island,44,Providence,007
+LIST2,United States,South Carolina,45,,
+LIST2,United States,South Carolina,45,Abbeville,001
+LIST2,United States,South Carolina,45,Aiken,003
+LIST2,United States,South Carolina,45,Allendale,005
+LIST2,United States,South Carolina,45,Anderson,007
+LIST2,United States,South Carolina,45,Barnwell,011
+LIST2,United States,South Carolina,45,Beaufort,013
+LIST2,United States,South Carolina,45,Berkeley,015
+LIST2,United States,South Carolina,45,Charleston,019
+LIST2,United States,South Carolina,45,Cherokee,021
+LIST2,United States,South Carolina,45,Chesterfield,025
+LIST2,United States,South Carolina,45,Darlington,031
+LIST2,United States,South Carolina,45,Dillon,033
+LIST2,United States,South Carolina,45,Greenwood,047
+LIST2,United States,South Carolina,45,Horry,051
+LIST2,United States,South Carolina,45,Jasper,053
+LIST2,United States,South Carolina,45,Kershaw,055
+LIST2,United States,South Carolina,45,Lancaster,057
+LIST2,United States,South Carolina,45,Laurens,059
+LIST2,United States,South Carolina,45,Lexington,063
+LIST2,United States,South Carolina,45,Newberry,071
+LIST2,United States,South Carolina,45,Orangeburg,075
+LIST2,United States,South Carolina,45,Pickens,077
+LIST2,United States,South Carolina,45,Richland,079
+LIST2,United States,South Carolina,45,Saluda,081
+LIST2,United States,South Carolina,45,Spartanburg,083
+LIST2,United States,South Carolina,45,Sumter,085
+LIST2,United States,South Carolina,45,Union,087
+LIST2,United States,Tennessee,47,,
+LIST2,United States,Tennessee,47,Anderson,001
+LIST2,United States,Tennessee,47,Benton,005
+LIST2,United States,Tennessee,47,Bledsoe,007
+LIST2,United States,Tennessee,47,Blount,009
+LIST2,United States,Tennessee,47,Campbell,013
+LIST2,United States,Tennessee,47,Carroll,017
+LIST2,United States,Tennessee,47,Carter,019
+LIST2,United States,Tennessee,47,Cheatham,021
+LIST2,United States,Tennessee,47,Coffee,031
+LIST2,United States,Tennessee,47,Cumberland,035
+LIST2,United States,Tennessee,47,Davidson,037
+LIST2,United States,Tennessee,47,DeKalb,041
+LIST2,United States,Tennessee,47,Dickson,043
+LIST2,United States,Tennessee,47,Fayette,047
+LIST2,United States,Tennessee,47,Franklin,051
+LIST2,United States,Tennessee,47,Grainger,057
+LIST2,United States,Tennessee,47,Grundy,061
+LIST2,United States,Tennessee,47,Hardeman,069
+LIST2,United States,Tennessee,47,Hardin,071
+LIST2,United States,Tennessee,47,Hawkins,073
+LIST2,United States,Tennessee,47,Haywood,075
+LIST2,United States,Tennessee,47,Henry,079
+LIST2,United States,Tennessee,47,Knox,093
+LIST2,United States,Tennessee,47,Lake,095
+LIST2,United States,Tennessee,47,Lincoln,103
+LIST2,United States,Tennessee,47,Loudon,105
+LIST2,United States,Tennessee,47,Madison,113
+LIST2,United States,Tennessee,47,McNairy,109
+LIST2,United States,Tennessee,47,Monroe,123
+LIST2,United States,Tennessee,47,Montgomery,125
+LIST2,United States,Tennessee,47,Morgan,129
+LIST2,United States,Tennessee,47,Obion,131
+LIST2,United States,Tennessee,47,Overton,133
+LIST2,United States,Tennessee,47,Polk,139
+LIST2,United States,Tennessee,47,Rhea,143
+LIST2,United States,Tennessee,47,Roane,145
+LIST2,United States,Tennessee,47,Robertson,147
+LIST2,United States,Tennessee,47,Rutherford,149
+LIST2,United States,Tennessee,47,Scott,151
+LIST2,United States,Tennessee,47,Shelby,157
+LIST2,United States,Tennessee,47,Smith,159
+LIST2,United States,Tennessee,47,Stewart,161
+LIST2,United States,Tennessee,47,Sumner,165
+LIST2,United States,Tennessee,47,Tipton,167
+LIST2,United States,Tennessee,47,Unicoi,171
+LIST2,United States,Tennessee,47,Van Buren,175
+LIST2,United States,Tennessee,47,Weakley,183
+LIST2,United States,Tennessee,47,Williamson,187
+LIST2,United States,Tennessee,47,Wilson,189
+LIST2,United States,Texas,48,,
+LIST2,United States,Texas,48,Anderson,001
+LIST2,United States,Texas,48,Angelina,005
+LIST2,United States,Texas,48,Brazos,041
+LIST2,United States,Texas,48,Cass,067
+LIST2,United States,Texas,48,Cherokee,073
+LIST2,United States,Texas,48,Freestone,161
+LIST2,United States,Texas,48,Galveston,167
+LIST2,United States,Texas,48,Gregg,183
+LIST2,United States,Texas,48,Hardin,199
+LIST2,United States,Texas,48,Harris,201
+LIST2,United States,Texas,48,Harrison,203
+LIST2,United States,Texas,48,Jasper,241
+LIST2,United States,Texas,48,Jefferson,245
+LIST2,United States,Texas,48,Lee,287
+LIST2,United States,Texas,48,Liberty,291
+LIST2,United States,Texas,48,Lubbock,303
+LIST2,United States,Texas,48,Montgomery,339
+LIST2,United States,Texas,48,Nacogdoches,347
+LIST2,United States,Texas,48,Orange,361
+LIST2,United States,Texas,48,Polk,373
+LIST2,United States,Texas,48,Red River,387
+LIST2,United States,Texas,48,Rusk,401
+LIST2,United States,Texas,48,Sabine,403
+LIST2,United States,Texas,48,San Jacinto,407
+LIST2,United States,Texas,48,Titus,449
+LIST2,United States,Texas,48,Upshur,459
+LIST2,United States,Texas,48,Van Zandt,467
+LIST2,United States,Texas,48,Walker,471
+LIST2,United States,Virginia,51,,
+LIST2,United States,Virginia,51,Accomack,001
+LIST2,United States,Virginia,51,Albemarle,003
+LIST2,United States,Virginia,51,Amelia,007
+LIST2,United States,Virginia,51,Amherst,009
+LIST2,United States,Virginia,51,Appomattox,011
+LIST2,United States,Virginia,51,Arlington,013
+LIST2,United States,Virginia,51,Brunswick,025
+LIST2,United States,Virginia,51,Buchanan,027
+LIST2,United States,Virginia,51,Buckingham,029
+LIST2,United States,Virginia,51,Campbell,031
+LIST2,United States,Virginia,51,Caroline,033
+LIST2,United States,Virginia,51,Charles City,036
+LIST2,United States,Virginia,51,Charlotte,037
+LIST2,United States,Virginia,51,"Chesapeake ",550
+LIST2,United States,Virginia,51,Chesterfield,041
+LIST2,United States,Virginia,51,Culpeper,047
+LIST2,United States,Virginia,51,Cumberland,049
+LIST2,United States,Virginia,51,Dickenson,051
+LIST2,United States,Virginia,51,Dinwiddie,053
+LIST2,United States,Virginia,51,Essex,057
+LIST2,United States,Virginia,51,Fairfax,059
+LIST2,United States,Virginia,51,Fauquier,061
+LIST2,United States,Virginia,51,Fluvanna,065
+LIST2,United States,Virginia,51,Gloucester,073
+LIST2,United States,Virginia,51,Goochland,075
+LIST2,United States,Virginia,51,Greensville,081
+LIST2,United States,Virginia,51,Halifax,083
+LIST2,United States,Virginia,51,"Hampton ",650
+LIST2,United States,Virginia,51,Hanover,085
+LIST2,United States,Virginia,51,Henrico,087
+LIST2,United States,Virginia,51,Henry,089
+LIST2,United States,Virginia,51,Isle of Wight,093
+LIST2,United States,Virginia,51,James City,095
+LIST2,United States,Virginia,51,King and Queen,097
+LIST2,United States,Virginia,51,King George,099
+LIST2,United States,Virginia,51,King William,101
+LIST2,United States,Virginia,51,Lancaster,103
+LIST2,United States,Virginia,51,Lee,105
+LIST2,United States,Virginia,51,Loudoun,107
+LIST2,United States,Virginia,51,Louisa,109
+LIST2,United States,Virginia,51,Lunenburg,111
+LIST2,United States,Virginia,51,Mathews,115
+LIST2,United States,Virginia,51,Mecklenburg,117
+LIST2,United States,Virginia,51,Middlesex,119
+LIST2,United States,Virginia,51,Nelson,125
+LIST2,United States,Virginia,51,New Kent,127
+LIST2,United States,Virginia,51,"Newport News ",700
+LIST2,United States,Virginia,51,Northampton,131
+LIST2,United States,Virginia,51,Northumberland,133
+LIST2,United States,Virginia,51,Nottoway,135
+LIST2,United States,Virginia,51,Orange,137
+LIST2,United States,Virginia,51,Pittsylvania,143
+LIST2,United States,Virginia,51,Powhatan,145
+LIST2,United States,Virginia,51,Prince Edward,147
+LIST2,United States,Virginia,51,Prince George,149
+LIST2,United States,Virginia,51,Prince William,153
+LIST2,United States,Virginia,51,Richmond,159
+LIST2,United States,Virginia,51,Scott,169
+LIST2,United States,Virginia,51,Smyth,173
+LIST2,United States,Virginia,51,Southampton,175
+LIST2,United States,Virginia,51,Spotsylvania,177
+LIST2,United States,Virginia,51,Stafford,179
+LIST2,United States,Virginia,51,"Suffolk ",800
+LIST2,United States,Virginia,51,Surry,181
+LIST2,United States,Virginia,51,Sussex,183
+LIST2,United States,Virginia,51,"Virginia Beach ",810
+LIST2,United States,Virginia,51,Washington,191
+LIST2,United States,Virginia,51,Westmoreland,193
+LIST2,United States,Virginia,51,York,199
+LIST2,United States,West Virginia,54,,
+LIST2,United States,West Virginia,54,Brooke,009
+LIST2,United States,West Virginia,54,Cabell,011
+LIST2,United States,West Virginia,54,Clay,015
+LIST2,United States,West Virginia,54,Fayette,019
+LIST2,United States,West Virginia,54,Harrison,033
+LIST2,United States,West Virginia,54,Kanawha,039
+LIST2,United States,West Virginia,54,Lewis,041
+LIST2,United States,West Virginia,54,Marion,049
+LIST2,United States,West Virginia,54,Mineral,057
+LIST2,United States,West Virginia,54,Mingo,059
+LIST2,United States,West Virginia,54,Monongalia,061
+LIST2,United States,West Virginia,54,Nicholas,067
+LIST2,United States,West Virginia,54,Ohio,069
+LIST2,United States,West Virginia,54,Preston,077
+LIST2,United States,West Virginia,54,Putnam,079
+LIST2,United States,West Virginia,54,Upshur,097
+LIST2,United States,West Virginia,54,Wayne,099
+LIST2,United States,West Virginia,54,Wyoming,109

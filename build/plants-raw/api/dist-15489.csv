@@ -1,0 +1,65 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+PIMO,United States,Arizona,04,,
+PIMO,United States,Arizona,04,Coconino,005
+PIMO,United States,Arizona,04,Gila,007
+PIMO,United States,Arizona,04,Graham,009
+PIMO,United States,Arizona,04,Greenlee,011
+PIMO,United States,Arizona,04,Maricopa,013
+PIMO,United States,Arizona,04,Mohave,015
+PIMO,United States,Arizona,04,Yavapai,025
+PIMO,United States,California,06,,
+PIMO,United States,California,06,Alpine,003
+PIMO,United States,California,06,Fresno,019
+PIMO,United States,California,06,Inyo,027
+PIMO,United States,California,06,Kern,029
+PIMO,United States,California,06,Los Angeles,037
+PIMO,United States,California,06,Mono,051
+PIMO,United States,California,06,Riverside,065
+PIMO,United States,California,06,San Bernardino,071
+PIMO,United States,California,06,San Diego,073
+PIMO,United States,California,06,San Luis Obispo,079
+PIMO,United States,California,06,Santa Barbara,083
+PIMO,United States,California,06,Sierra,091
+PIMO,United States,California,06,Tulare,107
+PIMO,United States,California,06,Tuolumne,109
+PIMO,United States,California,06,Ventura,111
+PIMO,United States,Idaho,16,,
+PIMO,United States,Idaho,16,Bannock,005
+PIMO,United States,Idaho,16,Cassia,031
+PIMO,United States,Nevada,32,,
+PIMO,United States,Nevada,32,Carson City,510
+PIMO,United States,Nevada,32,Churchill,001
+PIMO,United States,Nevada,32,Clark,003
+PIMO,United States,Nevada,32,Douglas,005
+PIMO,United States,Nevada,32,Elko,007
+PIMO,United States,Nevada,32,Esmeralda,009
+PIMO,United States,Nevada,32,Eureka,011
+PIMO,United States,Nevada,32,Humboldt,013
+PIMO,United States,Nevada,32,Lander,015
+PIMO,United States,Nevada,32,Lincoln,017
+PIMO,United States,Nevada,32,Lyon,019
+PIMO,United States,Nevada,32,Mineral,021
+PIMO,United States,Nevada,32,Nye,023
+PIMO,United States,Nevada,32,Storey,029
+PIMO,United States,Nevada,32,Washoe,031
+PIMO,United States,Nevada,32,White Pine,033
+PIMO,United States,New Mexico,35,,
+PIMO,United States,New Mexico,35,Luna,029
+PIMO,United States,Utah,49,,
+PIMO,United States,Utah,49,Beaver,001
+PIMO,United States,Utah,49,Box Elder,003
+PIMO,United States,Utah,49,Cache,005
+PIMO,United States,Utah,49,Emery,015
+PIMO,United States,Utah,49,Iron,021
+PIMO,United States,Utah,49,Juab,023
+PIMO,United States,Utah,49,Kane,025
+PIMO,United States,Utah,49,Millard,027
+PIMO,United States,Utah,49,Rich,033
+PIMO,United States,Utah,49,Salt Lake,035
+PIMO,United States,Utah,49,San Juan,037
+PIMO,United States,Utah,49,Sanpete,039
+PIMO,United States,Utah,49,Tooele,045
+PIMO,United States,Utah,49,Utah,049
+PIMO,United States,Utah,49,Wasatch,051
+PIMO,United States,Utah,49,Washington,053

@@ -1,0 +1,1072 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+RUOC,United States,Alabama,01,,
+RUOC,United States,Alabama,01,Calhoun,015
+RUOC,United States,Alabama,01,Colbert,033
+RUOC,United States,Alabama,01,Cullman,043
+RUOC,United States,Alabama,01,Jefferson,073
+RUOC,United States,Alabama,01,Madison,089
+RUOC,United States,Alabama,01,Winston,133
+RUOC,Canada,New Brunswick,04,,
+RUOC,United States,Arkansas,05,,
+RUOC,United States,Arkansas,05,Benton,007
+RUOC,United States,Arkansas,05,Carroll,015
+RUOC,United States,Arkansas,05,Logan,083
+RUOC,United States,Arkansas,05,Marion,089
+RUOC,United States,Arkansas,05,Newton,101
+RUOC,United States,Arkansas,05,Polk,113
+RUOC,United States,Arkansas,05,Pope,115
+RUOC,United States,Arkansas,05,Scott,127
+RUOC,United States,Arkansas,05,Stone,137
+RUOC,United States,Arkansas,05,Washington,143
+RUOC,United States,Arkansas,05,Yell,149
+RUOC,Canada,Ontario,08,,
+RUOC,United States,Colorado,08,,
+RUOC,United States,Colorado,08,Gilpin,047
+RUOC,United States,Connecticut,09,,
+RUOC,Canada,Quebec,10,,
+RUOC,United States,Delaware,10,,
+RUOC,United States,Delaware,10,New Castle,003
+RUOC,United States,District of Columbia,11,,
+RUOC,United States,District of Columbia,11,District of Columbia,001
+RUOC,United States,Georgia,13,,
+RUOC,United States,Georgia,13,Cherokee,057
+RUOC,United States,Georgia,13,Cobb,067
+RUOC,United States,Georgia,13,Dawson,085
+RUOC,United States,Georgia,13,Rabun,241
+RUOC,United States,Georgia,13,Stephens,257
+RUOC,United States,Georgia,13,Walker,295
+RUOC,United States,Georgia,13,White,311
+RUOC,United States,Illinois,17,,
+RUOC,United States,Illinois,17,Adams,001
+RUOC,United States,Illinois,17,Boone,007
+RUOC,United States,Illinois,17,Brown,009
+RUOC,United States,Illinois,17,Bureau,011
+RUOC,United States,Illinois,17,Calhoun,013
+RUOC,United States,Illinois,17,Carroll,015
+RUOC,United States,Illinois,17,Champaign,019
+RUOC,United States,Illinois,17,Coles,029
+RUOC,United States,Illinois,17,Cook,031
+RUOC,United States,Illinois,17,Crawford,033
+RUOC,United States,Illinois,17,Cumberland,035
+RUOC,United States,Illinois,17,De Witt,039
+RUOC,United States,Illinois,17,DeKalb,037
+RUOC,United States,Illinois,17,Douglas,041
+RUOC,United States,Illinois,17,DuPage,043
+RUOC,United States,Illinois,17,Edgar,045
+RUOC,United States,Illinois,17,Edwards,047
+RUOC,United States,Illinois,17,Effingham,049
+RUOC,United States,Illinois,17,Fayette,051
+RUOC,United States,Illinois,17,Ford,053
+RUOC,United States,Illinois,17,Fulton,057
+RUOC,United States,Illinois,17,Greene,061
+RUOC,United States,Illinois,17,Grundy,063
+RUOC,United States,Illinois,17,Hancock,067
+RUOC,United States,Illinois,17,Hardin,069
+RUOC,United States,Illinois,17,Henderson,071
+RUOC,United States,Illinois,17,Henry,073
+RUOC,United States,Illinois,17,Iroquois,075
+RUOC,United States,Illinois,17,Jackson,077
+RUOC,United States,Illinois,17,Jersey,083
+RUOC,United States,Illinois,17,Jo Daviess,085
+RUOC,United States,Illinois,17,Johnson,087
+RUOC,United States,Illinois,17,Kane,089
+RUOC,United States,Illinois,17,Kankakee,091
+RUOC,United States,Illinois,17,Kendall,093
+RUOC,United States,Illinois,17,Knox,095
+RUOC,United States,Illinois,17,Lake,097
+RUOC,United States,Illinois,17,LaSalle,099
+RUOC,United States,Illinois,17,Lawrence,101
+RUOC,United States,Illinois,17,Lee,103
+RUOC,United States,Illinois,17,Logan,107
+RUOC,United States,Illinois,17,Macon,115
+RUOC,United States,Illinois,17,Macoupin,117
+RUOC,United States,Illinois,17,Madison,119
+RUOC,United States,Illinois,17,Marion,121
+RUOC,United States,Illinois,17,Marshall,123
+RUOC,United States,Illinois,17,Mason,125
+RUOC,United States,Illinois,17,McDonough,109
+RUOC,United States,Illinois,17,McHenry,111
+RUOC,United States,Illinois,17,McLean,113
+RUOC,United States,Illinois,17,Menard,129
+RUOC,United States,Illinois,17,Monroe,133
+RUOC,United States,Illinois,17,Montgomery,135
+RUOC,United States,Illinois,17,Morgan,137
+RUOC,United States,Illinois,17,Moultrie,139
+RUOC,United States,Illinois,17,Ogle,141
+RUOC,United States,Illinois,17,Peoria,143
+RUOC,United States,Illinois,17,Perry,145
+RUOC,United States,Illinois,17,Piatt,147
+RUOC,United States,Illinois,17,Pike,149
+RUOC,United States,Illinois,17,Pope,151
+RUOC,United States,Illinois,17,Putnam,155
+RUOC,United States,Illinois,17,Randolph,157
+RUOC,United States,Illinois,17,Richland,159
+RUOC,United States,Illinois,17,Rock Island,161
+RUOC,United States,Illinois,17,Saline,165
+RUOC,United States,Illinois,17,Sangamon,167
+RUOC,United States,Illinois,17,Schuyler,169
+RUOC,United States,Illinois,17,Scott,171
+RUOC,United States,Illinois,17,Shelby,173
+RUOC,United States,Illinois,17,Stark,175
+RUOC,United States,Illinois,17,Stephenson,177
+RUOC,United States,Illinois,17,Union,181
+RUOC,United States,Illinois,17,Vermilion,183
+RUOC,United States,Illinois,17,Wabash,185
+RUOC,United States,Illinois,17,Warren,187
+RUOC,United States,Illinois,17,Whiteside,195
+RUOC,United States,Illinois,17,Will,197
+RUOC,United States,Illinois,17,Williamson,199
+RUOC,United States,Illinois,17,Winnebago,201
+RUOC,United States,Indiana,18,,
+RUOC,United States,Indiana,18,Blackford,009
+RUOC,United States,Indiana,18,Boone,011
+RUOC,United States,Indiana,18,Brown,013
+RUOC,United States,Indiana,18,Clark,019
+RUOC,United States,Indiana,18,Clay,021
+RUOC,United States,Indiana,18,Crawford,025
+RUOC,United States,Indiana,18,Dearborn,029
+RUOC,United States,Indiana,18,Delaware,035
+RUOC,United States,Indiana,18,Dubois,037
+RUOC,United States,Indiana,18,Elkhart,039
+RUOC,United States,Indiana,18,Fayette,041
+RUOC,United States,Indiana,18,Floyd,043
+RUOC,United States,Indiana,18,Franklin,047
+RUOC,United States,Indiana,18,Fulton,049
+RUOC,United States,Indiana,18,Hamilton,057
+RUOC,United States,Indiana,18,Hancock,059
+RUOC,United States,Indiana,18,Harrison,061
+RUOC,United States,Indiana,18,Hendricks,063
+RUOC,United States,Indiana,18,Henry,065
+RUOC,United States,Indiana,18,Howard,067
+RUOC,United States,Indiana,18,Jackson,071
+RUOC,United States,Indiana,18,Jasper,073
+RUOC,United States,Indiana,18,Jefferson,077
+RUOC,United States,Indiana,18,Johnson,081
+RUOC,United States,Indiana,18,Kosciusko,085
+RUOC,United States,Indiana,18,Lagrange,087
+RUOC,United States,Indiana,18,Lawrence,093
+RUOC,United States,Indiana,18,Madison,095
+RUOC,United States,Indiana,18,Marion,097
+RUOC,United States,Indiana,18,Marshall,099
+RUOC,United States,Indiana,18,Miami,103
+RUOC,United States,Indiana,18,Monroe,105
+RUOC,United States,Indiana,18,Montgomery,107
+RUOC,United States,Indiana,18,Newton,111
+RUOC,United States,Indiana,18,Noble,113
+RUOC,United States,Indiana,18,Owen,119
+RUOC,United States,Indiana,18,Parke,121
+RUOC,United States,Indiana,18,Porter,127
+RUOC,United States,Indiana,18,Posey,129
+RUOC,United States,Indiana,18,Putnam,133
+RUOC,United States,Indiana,18,Shelby,145
+RUOC,United States,Indiana,18,St. Joseph,141
+RUOC,United States,Indiana,18,Starke,149
+RUOC,United States,Indiana,18,Steuben,151
+RUOC,United States,Indiana,18,Sullivan,153
+RUOC,United States,Indiana,18,Switzerland,155
+RUOC,United States,Indiana,18,Tippecanoe,157
+RUOC,United States,Indiana,18,Union,161
+RUOC,United States,Indiana,18,Vermillion,165
+RUOC,United States,Indiana,18,Vigo,167
+RUOC,United States,Indiana,18,Warren,171
+RUOC,United States,Indiana,18,Wayne,177
+RUOC,United States,Indiana,18,Wells,179
+RUOC,United States,Indiana,18,White,181
+RUOC,United States,Iowa,19,,
+RUOC,United States,Iowa,19,Allamakee,005
+RUOC,United States,Iowa,19,Cherokee,035
+RUOC,United States,Iowa,19,Crawford,047
+RUOC,United States,Iowa,19,Fremont,071
+RUOC,United States,Iowa,19,Guthrie,077
+RUOC,United States,Iowa,19,Harrison,085
+RUOC,United States,Iowa,19,Lyon,119
+RUOC,United States,Iowa,19,Madison,121
+RUOC,United States,Iowa,19,Mills,129
+RUOC,United States,Iowa,19,Monona,133
+RUOC,United States,Iowa,19,Plymouth,149
+RUOC,United States,Iowa,19,Pottawattamie,155
+RUOC,United States,Iowa,19,Ringgold,159
+RUOC,United States,Iowa,19,Shelby,165
+RUOC,United States,Iowa,19,Sioux,167
+RUOC,United States,Iowa,19,Story,169
+RUOC,United States,Iowa,19,Webster,187
+RUOC,United States,Iowa,19,Winneshiek,191
+RUOC,United States,Iowa,19,Woodbury,193
+RUOC,United States,Kansas,20,,
+RUOC,United States,Kansas,20,Allen,001
+RUOC,United States,Kansas,20,Anderson,003
+RUOC,United States,Kansas,20,Atchison,005
+RUOC,United States,Kansas,20,Bourbon,011
+RUOC,United States,Kansas,20,Brown,013
+RUOC,United States,Kansas,20,Butler,015
+RUOC,United States,Kansas,20,Chautauqua,019
+RUOC,United States,Kansas,20,Cherokee,021
+RUOC,United States,Kansas,20,Clay,027
+RUOC,United States,Kansas,20,Cloud,029
+RUOC,United States,Kansas,20,Coffey,031
+RUOC,United States,Kansas,20,Cowley,035
+RUOC,United States,Kansas,20,Crawford,037
+RUOC,United States,Kansas,20,Dickinson,041
+RUOC,United States,Kansas,20,Doniphan,043
+RUOC,United States,Kansas,20,Douglas,045
+RUOC,United States,Kansas,20,Elk,049
+RUOC,United States,Kansas,20,Ellis,051
+RUOC,United States,Kansas,20,Franklin,059
+RUOC,United States,Kansas,20,Geary,061
+RUOC,United States,Kansas,20,Greenwood,073
+RUOC,United States,Kansas,20,Harvey,079
+RUOC,United States,Kansas,20,Jackson,085
+RUOC,United States,Kansas,20,Jefferson,087
+RUOC,United States,Kansas,20,Johnson,091
+RUOC,United States,Kansas,20,Labette,099
+RUOC,United States,Kansas,20,Leavenworth,103
+RUOC,United States,Kansas,20,Linn,107
+RUOC,United States,Kansas,20,Lyon,111
+RUOC,United States,Kansas,20,Marion,115
+RUOC,United States,Kansas,20,Marshall,117
+RUOC,United States,Kansas,20,Miami,121
+RUOC,United States,Kansas,20,Montgomery,125
+RUOC,United States,Kansas,20,Morris,127
+RUOC,United States,Kansas,20,Nemaha,131
+RUOC,United States,Kansas,20,Neosho,133
+RUOC,United States,Kansas,20,Osage,139
+RUOC,United States,Kansas,20,Osborne,141
+RUOC,United States,Kansas,20,Ottawa,143
+RUOC,United States,Kansas,20,Pottawatomie,149
+RUOC,United States,Kansas,20,Republic,157
+RUOC,United States,Kansas,20,Riley,161
+RUOC,United States,Kansas,20,Rooks,163
+RUOC,United States,Kansas,20,Saline,169
+RUOC,United States,Kansas,20,Sedgwick,173
+RUOC,United States,Kansas,20,Shawnee,177
+RUOC,United States,Kansas,20,Sumner,191
+RUOC,United States,Kansas,20,Wabaunsee,197
+RUOC,United States,Kansas,20,Washington,201
+RUOC,United States,Kansas,20,Wilson,205
+RUOC,United States,Kansas,20,Woodson,207
+RUOC,United States,Kansas,20,Wyandotte,209
+RUOC,United States,Kentucky,21,,
+RUOC,United States,Kentucky,21,Allen,003
+RUOC,United States,Kentucky,21,Anderson,005
+RUOC,United States,Kentucky,21,Ballard,007
+RUOC,United States,Kentucky,21,Bell,013
+RUOC,United States,Kentucky,21,Boone,015
+RUOC,United States,Kentucky,21,Bourbon,017
+RUOC,United States,Kentucky,21,Boyle,021
+RUOC,United States,Kentucky,21,Bracken,023
+RUOC,United States,Kentucky,21,Breathitt,025
+RUOC,United States,Kentucky,21,Breckinridge,027
+RUOC,United States,Kentucky,21,Bullitt,029
+RUOC,United States,Kentucky,21,Campbell,037
+RUOC,United States,Kentucky,21,Carlisle,039
+RUOC,United States,Kentucky,21,Carroll,041
+RUOC,United States,Kentucky,21,Carter,043
+RUOC,United States,Kentucky,21,Christian,047
+RUOC,United States,Kentucky,21,Clark,049
+RUOC,United States,Kentucky,21,Clay,051
+RUOC,United States,Kentucky,21,Clinton,053
+RUOC,United States,Kentucky,21,Crittenden,055
+RUOC,United States,Kentucky,21,Cumberland,057
+RUOC,United States,Kentucky,21,Edmonson,061
+RUOC,United States,Kentucky,21,Elliott,063
+RUOC,United States,Kentucky,21,Estill,065
+RUOC,United States,Kentucky,21,Fayette,067
+RUOC,United States,Kentucky,21,Fleming,069
+RUOC,United States,Kentucky,21,Floyd,071
+RUOC,United States,Kentucky,21,Franklin,073
+RUOC,United States,Kentucky,21,Fulton,075
+RUOC,United States,Kentucky,21,Gallatin,077
+RUOC,United States,Kentucky,21,Garrard,079
+RUOC,United States,Kentucky,21,Greenup,089
+RUOC,United States,Kentucky,21,Hardin,093
+RUOC,United States,Kentucky,21,Harlan,095
+RUOC,United States,Kentucky,21,Harrison,097
+RUOC,United States,Kentucky,21,Hart,099
+RUOC,United States,Kentucky,21,Henry,103
+RUOC,United States,Kentucky,21,Hickman,105
+RUOC,United States,Kentucky,21,Jackson,109
+RUOC,United States,Kentucky,21,Jefferson,111
+RUOC,United States,Kentucky,21,Jessamine,113
+RUOC,United States,Kentucky,21,Johnson,115
+RUOC,United States,Kentucky,21,Larue,123
+RUOC,United States,Kentucky,21,Laurel,125
+RUOC,United States,Kentucky,21,Lawrence,127
+RUOC,United States,Kentucky,21,Lewis,135
+RUOC,United States,Kentucky,21,Lyon,143
+RUOC,United States,Kentucky,21,Madison,151
+RUOC,United States,Kentucky,21,Magoffin,153
+RUOC,United States,Kentucky,21,Marion,155
+RUOC,United States,Kentucky,21,Mason,161
+RUOC,United States,Kentucky,21,McCreary,147
+RUOC,United States,Kentucky,21,Meade,163
+RUOC,United States,Kentucky,21,Menifee,165
+RUOC,United States,Kentucky,21,Mercer,167
+RUOC,United States,Kentucky,21,Metcalfe,169
+RUOC,United States,Kentucky,21,Morgan,175
+RUOC,United States,Kentucky,21,Nelson,179
+RUOC,United States,Kentucky,21,Nicholas,181
+RUOC,United States,Kentucky,21,Oldham,185
+RUOC,United States,Kentucky,21,Owen,187
+RUOC,United States,Kentucky,21,Owsley,189
+RUOC,United States,Kentucky,21,Pendleton,191
+RUOC,United States,Kentucky,21,Perry,193
+RUOC,United States,Kentucky,21,Pike,195
+RUOC,United States,Kentucky,21,Powell,197
+RUOC,United States,Kentucky,21,Pulaski,199
+RUOC,United States,Kentucky,21,Robertson,201
+RUOC,United States,Kentucky,21,Rockcastle,203
+RUOC,United States,Kentucky,21,Rowan,205
+RUOC,United States,Kentucky,21,Scott,209
+RUOC,United States,Kentucky,21,Spencer,215
+RUOC,United States,Kentucky,21,Trigg,221
+RUOC,United States,Kentucky,21,Trimble,223
+RUOC,United States,Kentucky,21,Warren,227
+RUOC,United States,Kentucky,21,Wayne,231
+RUOC,United States,Kentucky,21,Whitley,235
+RUOC,United States,Kentucky,21,Woodford,239
+RUOC,United States,Maine,23,,
+RUOC,United States,Maine,23,Androscoggin,001
+RUOC,United States,Maine,23,Cumberland,005
+RUOC,United States,Maine,23,Franklin,007
+RUOC,United States,Maine,23,Kennebec,011
+RUOC,United States,Maine,23,Oxford,017
+RUOC,United States,Maine,23,Penobscot,019
+RUOC,United States,Maine,23,Sagadahoc,023
+RUOC,United States,Maine,23,Somerset,025
+RUOC,United States,Maryland,24,,
+RUOC,United States,Massachusetts,25,,
+RUOC,United States,Massachusetts,25,Barnstable,001
+RUOC,United States,Massachusetts,25,Berkshire,003
+RUOC,United States,Massachusetts,25,Bristol,005
+RUOC,United States,Massachusetts,25,Dukes,007
+RUOC,United States,Massachusetts,25,Essex,009
+RUOC,United States,Massachusetts,25,Franklin,011
+RUOC,United States,Massachusetts,25,Hampden,013
+RUOC,United States,Massachusetts,25,Hampshire,015
+RUOC,United States,Massachusetts,25,Middlesex,017
+RUOC,United States,Massachusetts,25,Nantucket,019
+RUOC,United States,Massachusetts,25,Norfolk,021
+RUOC,United States,Massachusetts,25,Plymouth,023
+RUOC,United States,Massachusetts,25,Suffolk,025
+RUOC,United States,Massachusetts,25,Worcester,027
+RUOC,United States,Michigan,26,,
+RUOC,United States,Michigan,26,Allegan,005
+RUOC,United States,Michigan,26,Bay,017
+RUOC,United States,Michigan,26,Benzie,019
+RUOC,United States,Michigan,26,Berrien,021
+RUOC,United States,Michigan,26,Calhoun,025
+RUOC,United States,Michigan,26,Cass,027
+RUOC,United States,Michigan,26,Cheboygan,031
+RUOC,United States,Michigan,26,Clinton,037
+RUOC,United States,Michigan,26,Delta,041
+RUOC,United States,Michigan,26,Genesee,049
+RUOC,United States,Michigan,26,Gratiot,057
+RUOC,United States,Michigan,26,Ottawa,139
+RUOC,United States,Michigan,26,Shiawassee,155
+RUOC,United States,Michigan,26,St. Clair,147
+RUOC,United States,Michigan,26,St. Joseph,149
+RUOC,United States,Michigan,26,Tuscola,157
+RUOC,United States,Michigan,26,Washtenaw,161
+RUOC,United States,Michigan,26,Wayne,163
+RUOC,United States,Michigan,26,Wexford,165
+RUOC,United States,Minnesota,27,,
+RUOC,United States,Minnesota,27,Anoka,003
+RUOC,United States,Minnesota,27,Big Stone,011
+RUOC,United States,Minnesota,27,Blue Earth,013
+RUOC,United States,Minnesota,27,Brown,015
+RUOC,United States,Minnesota,27,Chippewa,023
+RUOC,United States,Minnesota,27,Crow Wing,035
+RUOC,United States,Minnesota,27,Dakota,037
+RUOC,United States,Minnesota,27,Fillmore,045
+RUOC,United States,Minnesota,27,Goodhue,049
+RUOC,United States,Minnesota,27,Hennepin,053
+RUOC,United States,Minnesota,27,Houston,055
+RUOC,United States,Minnesota,27,Isanti,059
+RUOC,United States,Minnesota,27,Le Sueur,079
+RUOC,United States,Minnesota,27,Lincoln,081
+RUOC,United States,Minnesota,27,Lyon,083
+RUOC,United States,Minnesota,27,Martin,091
+RUOC,United States,Minnesota,27,McLeod,085
+RUOC,United States,Minnesota,27,Mille Lacs,095
+RUOC,United States,Minnesota,27,Mower,099
+RUOC,United States,Minnesota,27,Norman,107
+RUOC,United States,Minnesota,27,Olmsted,109
+RUOC,United States,Minnesota,27,Pine,115
+RUOC,United States,Minnesota,27,Pipestone,117
+RUOC,United States,Minnesota,27,Pope,121
+RUOC,United States,Minnesota,27,Ramsey,123
+RUOC,United States,Minnesota,27,Rice,131
+RUOC,United States,Minnesota,27,Scott,139
+RUOC,United States,Minnesota,27,Sherburne,141
+RUOC,United States,Minnesota,27,Sibley,143
+RUOC,United States,Minnesota,27,Steele,147
+RUOC,United States,Minnesota,27,Wabasha,157
+RUOC,United States,Minnesota,27,Washington,163
+RUOC,United States,Minnesota,27,Watonwan,165
+RUOC,United States,Minnesota,27,Winona,169
+RUOC,United States,Minnesota,27,Wright,171
+RUOC,United States,Mississippi,28,,
+RUOC,United States,Mississippi,28,Lafayette,071
+RUOC,United States,Missouri,29,,
+RUOC,United States,Missouri,29,Adair,001
+RUOC,United States,Missouri,29,Andrew,003
+RUOC,United States,Missouri,29,Atchison,005
+RUOC,United States,Missouri,29,Audrain,007
+RUOC,United States,Missouri,29,Barton,011
+RUOC,United States,Missouri,29,Bates,013
+RUOC,United States,Missouri,29,Benton,015
+RUOC,United States,Missouri,29,Bollinger,017
+RUOC,United States,Missouri,29,Boone,019
+RUOC,United States,Missouri,29,Buchanan,021
+RUOC,United States,Missouri,29,Callaway,027
+RUOC,United States,Missouri,29,Camden,029
+RUOC,United States,Missouri,29,Cape Girardeau,031
+RUOC,United States,Missouri,29,Carroll,033
+RUOC,United States,Missouri,29,Carter,035
+RUOC,United States,Missouri,29,Cass,037
+RUOC,United States,Missouri,29,Cedar,039
+RUOC,United States,Missouri,29,Chariton,041
+RUOC,United States,Missouri,29,Christian,043
+RUOC,United States,Missouri,29,Clark,045
+RUOC,United States,Missouri,29,Clay,047
+RUOC,United States,Missouri,29,Clinton,049
+RUOC,United States,Missouri,29,Cole,051
+RUOC,United States,Missouri,29,Cooper,053
+RUOC,United States,Missouri,29,Crawford,055
+RUOC,United States,Missouri,29,Dade,057
+RUOC,United States,Missouri,29,Daviess,061
+RUOC,United States,Missouri,29,DeKalb,063
+RUOC,United States,Missouri,29,Dent,065
+RUOC,United States,Missouri,29,Douglas,067
+RUOC,United States,Missouri,29,Gasconade,073
+RUOC,United States,Missouri,29,Gentry,075
+RUOC,United States,Missouri,29,Greene,077
+RUOC,United States,Missouri,29,Grundy,079
+RUOC,United States,Missouri,29,Harrison,081
+RUOC,United States,Missouri,29,Henry,083
+RUOC,United States,Missouri,29,Hickory,085
+RUOC,United States,Missouri,29,Holt,087
+RUOC,United States,Missouri,29,Howard,089
+RUOC,United States,Missouri,29,Howell,091
+RUOC,United States,Missouri,29,Iron,093
+RUOC,United States,Missouri,29,Jackson,095
+RUOC,United States,Missouri,29,Jasper,097
+RUOC,United States,Missouri,29,Johnson,101
+RUOC,United States,Missouri,29,Knox,103
+RUOC,United States,Missouri,29,Lafayette,107
+RUOC,United States,Missouri,29,Lawrence,109
+RUOC,United States,Missouri,29,Lewis,111
+RUOC,United States,Missouri,29,Lincoln,113
+RUOC,United States,Missouri,29,Linn,115
+RUOC,United States,Missouri,29,Livingston,117
+RUOC,United States,Missouri,29,Macon,121
+RUOC,United States,Missouri,29,Madison,123
+RUOC,United States,Missouri,29,Maries,125
+RUOC,United States,Missouri,29,Marion,127
+RUOC,United States,Missouri,29,McDonald,119
+RUOC,United States,Missouri,29,Mercer,129
+RUOC,United States,Missouri,29,Miller,131
+RUOC,United States,Missouri,29,Moniteau,135
+RUOC,United States,Missouri,29,Monroe,137
+RUOC,United States,Missouri,29,Montgomery,139
+RUOC,United States,Missouri,29,Newton,145
+RUOC,United States,Missouri,29,Nodaway,147
+RUOC,United States,Missouri,29,Oregon,149
+RUOC,United States,Missouri,29,Osage,151
+RUOC,United States,Missouri,29,Ozark,153
+RUOC,United States,Missouri,29,Pettis,159
+RUOC,United States,Missouri,29,Phelps,161
+RUOC,United States,Missouri,29,Pike,163
+RUOC,United States,Missouri,29,Platte,165
+RUOC,United States,Missouri,29,Polk,167
+RUOC,United States,Missouri,29,Pulaski,169
+RUOC,United States,Missouri,29,Putnam,171
+RUOC,United States,Missouri,29,Ralls,173
+RUOC,United States,Missouri,29,Reynolds,179
+RUOC,United States,Missouri,29,Saline,195
+RUOC,United States,Missouri,29,Schuyler,197
+RUOC,United States,Missouri,29,Scotland,199
+RUOC,United States,Missouri,29,Scott,201
+RUOC,United States,Missouri,29,Shannon,203
+RUOC,United States,Missouri,29,Shelby,205
+RUOC,United States,Missouri,29,St. Charles,183
+RUOC,United States,Missouri,29,St. Clair,185
+RUOC,United States,Missouri,29,St. Francois,187
+RUOC,United States,Missouri,29,St. Louis,189
+RUOC,United States,Missouri,29,Ste. Genevieve,186
+RUOC,United States,Missouri,29,Stone,209
+RUOC,United States,Missouri,29,Sullivan,211
+RUOC,United States,Missouri,29,Taney,213
+RUOC,United States,Missouri,29,Texas,215
+RUOC,United States,Missouri,29,Vernon,217
+RUOC,United States,Missouri,29,Wayne,223
+RUOC,United States,Missouri,29,Worth,227
+RUOC,United States,Missouri,29,Wright,229
+RUOC,United States,Nebraska,31,,
+RUOC,United States,Nebraska,31,Antelope,003
+RUOC,United States,Nebraska,31,Brown,017
+RUOC,United States,Nebraska,31,Buffalo,019
+RUOC,United States,Nebraska,31,Burt,021
+RUOC,United States,Nebraska,31,Butler,023
+RUOC,United States,Nebraska,31,Cass,025
+RUOC,United States,Nebraska,31,Cedar,027
+RUOC,United States,Nebraska,31,Cherry,031
+RUOC,United States,Nebraska,31,Colfax,037
+RUOC,United States,Nebraska,31,Cuming,039
+RUOC,United States,Nebraska,31,Dakota,043
+RUOC,United States,Nebraska,31,Dawes,045
+RUOC,United States,Nebraska,31,Dixon,051
+RUOC,United States,Nebraska,31,Dodge,053
+RUOC,United States,Nebraska,31,Douglas,055
+RUOC,United States,Nebraska,31,Furnas,065
+RUOC,United States,Nebraska,31,Greeley,077
+RUOC,United States,Nebraska,31,Hall,079
+RUOC,United States,Nebraska,31,Johnson,097
+RUOC,United States,Nebraska,31,Keya Paha,103
+RUOC,United States,Nebraska,31,Knox,107
+RUOC,United States,Nebraska,31,Loup,115
+RUOC,United States,Nebraska,31,Otoe,131
+RUOC,United States,Nebraska,31,Pawnee,133
+RUOC,United States,Nebraska,31,Richardson,147
+RUOC,United States,Nebraska,31,Saline,151
+RUOC,United States,Nebraska,31,Sheridan,161
+RUOC,United States,Nebraska,31,Stanton,167
+RUOC,United States,Nebraska,31,Thomas,171
+RUOC,United States,Nebraska,31,Thurston,173
+RUOC,United States,Nebraska,31,Valley,175
+RUOC,United States,Nebraska,31,Washington,177
+RUOC,United States,Nebraska,31,Webster,181
+RUOC,United States,New Hampshire,33,,
+RUOC,United States,New Hampshire,33,Belknap,001
+RUOC,United States,New Hampshire,33,Cheshire,005
+RUOC,United States,New Hampshire,33,Grafton,009
+RUOC,United States,New Hampshire,33,Hillsborough,011
+RUOC,United States,New Hampshire,33,Rockingham,015
+RUOC,United States,New Hampshire,33,Strafford,017
+RUOC,United States,New Hampshire,33,Sullivan,019
+RUOC,United States,New Jersey,34,,
+RUOC,United States,New Jersey,34,Atlantic,001
+RUOC,United States,New Jersey,34,Bergen,003
+RUOC,United States,New Jersey,34,Burlington,005
+RUOC,United States,New Jersey,34,Camden,007
+RUOC,United States,New Jersey,34,Cape May,009
+RUOC,United States,New Jersey,34,Essex,013
+RUOC,United States,New Jersey,34,Gloucester,015
+RUOC,United States,New Jersey,34,Hudson,017
+RUOC,United States,New Jersey,34,Hunterdon,019
+RUOC,United States,New Jersey,34,Mercer,021
+RUOC,United States,New Jersey,34,Middlesex,023
+RUOC,United States,New Jersey,34,Monmouth,025
+RUOC,United States,New Jersey,34,Morris,027
+RUOC,United States,New Jersey,34,Ocean,029
+RUOC,United States,New Jersey,34,Passaic,031
+RUOC,United States,New Jersey,34,Salem,033
+RUOC,United States,New Jersey,34,Somerset,035
+RUOC,United States,New Jersey,34,Sussex,037
+RUOC,United States,New Jersey,34,Union,039
+RUOC,United States,New Jersey,34,Warren,041
+RUOC,United States,New York,36,,
+RUOC,United States,New York,36,Albany,001
+RUOC,United States,New York,36,Allegany,003
+RUOC,United States,New York,36,Bronx,005
+RUOC,United States,New York,36,Broome,007
+RUOC,United States,New York,36,Cattaraugus,009
+RUOC,United States,New York,36,Chemung,015
+RUOC,United States,New York,36,Chenango,017
+RUOC,United States,New York,36,Columbia,021
+RUOC,United States,New York,36,Delaware,025
+RUOC,United States,New York,36,Dutchess,027
+RUOC,United States,New York,36,Erie,029
+RUOC,United States,New York,36,Essex,031
+RUOC,United States,New York,36,Greene,039
+RUOC,United States,New York,36,Jefferson,045
+RUOC,United States,New York,36,Kings,047
+RUOC,United States,New York,36,Lewis,049
+RUOC,United States,New York,36,Madison,053
+RUOC,United States,New York,36,Monroe,055
+RUOC,United States,New York,36,Nassau,059
+RUOC,United States,New York,36,New York,061
+RUOC,United States,New York,36,Niagara,063
+RUOC,United States,New York,36,Oneida,065
+RUOC,United States,New York,36,Onondaga,067
+RUOC,United States,New York,36,Ontario,069
+RUOC,United States,New York,36,Orange,071
+RUOC,United States,New York,36,Otsego,077
+RUOC,United States,New York,36,Putnam,079
+RUOC,United States,New York,36,Queens,081
+RUOC,United States,New York,36,Rensselaer,083
+RUOC,United States,New York,36,Richmond,085
+RUOC,United States,New York,36,Rockland,087
+RUOC,United States,New York,36,Saratoga,091
+RUOC,United States,New York,36,St. Lawrence,089
+RUOC,United States,New York,36,Suffolk,103
+RUOC,United States,New York,36,Tompkins,109
+RUOC,United States,New York,36,Ulster,111
+RUOC,United States,New York,36,Warren,113
+RUOC,United States,New York,36,Washington,115
+RUOC,United States,New York,36,Westchester,119
+RUOC,United States,New York,36,Wyoming,121
+RUOC,United States,North Carolina,37,,
+RUOC,United States,North Carolina,37,Alleghany,005
+RUOC,United States,North Carolina,37,Ashe,009
+RUOC,United States,North Carolina,37,Avery,011
+RUOC,United States,North Carolina,37,Buncombe,021
+RUOC,United States,North Carolina,37,Caswell,033
+RUOC,United States,North Carolina,37,Catawba,035
+RUOC,United States,North Carolina,37,Chatham,037
+RUOC,United States,North Carolina,37,Clay,043
+RUOC,United States,North Carolina,37,Craven,049
+RUOC,United States,North Carolina,37,Davidson,057
+RUOC,United States,North Carolina,37,Durham,063
+RUOC,United States,North Carolina,37,Forsyth,067
+RUOC,United States,North Carolina,37,Graham,075
+RUOC,United States,North Carolina,37,Granville,077
+RUOC,United States,North Carolina,37,Guilford,081
+RUOC,United States,North Carolina,37,Haywood,087
+RUOC,United States,North Carolina,37,Henderson,089
+RUOC,United States,North Carolina,37,Iredell,097
+RUOC,United States,North Carolina,37,Jackson,099
+RUOC,United States,North Carolina,37,Lee,105
+RUOC,United States,North Carolina,37,Macon,113
+RUOC,United States,North Carolina,37,Madison,115
+RUOC,United States,North Carolina,37,Martin,117
+RUOC,United States,North Carolina,37,McDowell,111
+RUOC,United States,North Carolina,37,Mitchell,121
+RUOC,United States,North Carolina,37,Orange,135
+RUOC,United States,North Carolina,37,Polk,149
+RUOC,United States,North Carolina,37,Randolph,151
+RUOC,United States,North Carolina,37,Robeson,155
+RUOC,United States,North Carolina,37,Rockingham,157
+RUOC,United States,North Carolina,37,Scotland,165
+RUOC,United States,North Carolina,37,Stokes,169
+RUOC,United States,North Carolina,37,Surry,171
+RUOC,United States,North Carolina,37,Swain,173
+RUOC,United States,North Carolina,37,Transylvania,175
+RUOC,United States,North Carolina,37,Wake,183
+RUOC,United States,North Carolina,37,Watauga,189
+RUOC,United States,North Carolina,37,Wilkes,193
+RUOC,United States,North Carolina,37,Wilson,195
+RUOC,United States,North Dakota,38,,
+RUOC,United States,North Dakota,38,Emmons,029
+RUOC,United States,North Dakota,38,Morton,059
+RUOC,United States,North Dakota,38,Ransom,073
+RUOC,United States,North Dakota,38,Richland,077
+RUOC,United States,Ohio,39,,
+RUOC,United States,Ohio,39,Adams,001
+RUOC,United States,Ohio,39,Allen,003
+RUOC,United States,Ohio,39,Ashland,005
+RUOC,United States,Ohio,39,Ashtabula,007
+RUOC,United States,Ohio,39,Athens,009
+RUOC,United States,Ohio,39,Auglaize,011
+RUOC,United States,Ohio,39,Belmont,013
+RUOC,United States,Ohio,39,Brown,015
+RUOC,United States,Ohio,39,Butler,017
+RUOC,United States,Ohio,39,Carroll,019
+RUOC,United States,Ohio,39,Champaign,021
+RUOC,United States,Ohio,39,Clark,023
+RUOC,United States,Ohio,39,Clermont,025
+RUOC,United States,Ohio,39,Clinton,027
+RUOC,United States,Ohio,39,Columbiana,029
+RUOC,United States,Ohio,39,Coshocton,031
+RUOC,United States,Ohio,39,Crawford,033
+RUOC,United States,Ohio,39,Cuyahoga,035
+RUOC,United States,Ohio,39,Darke,037
+RUOC,United States,Ohio,39,Defiance,039
+RUOC,United States,Ohio,39,Delaware,041
+RUOC,United States,Ohio,39,Erie,043
+RUOC,United States,Ohio,39,Fairfield,045
+RUOC,United States,Ohio,39,Fayette,047
+RUOC,United States,Ohio,39,Franklin,049
+RUOC,United States,Ohio,39,Fulton,051
+RUOC,United States,Ohio,39,Gallia,053
+RUOC,United States,Ohio,39,Geauga,055
+RUOC,United States,Ohio,39,Greene,057
+RUOC,United States,Ohio,39,Guernsey,059
+RUOC,United States,Ohio,39,Hamilton,061
+RUOC,United States,Ohio,39,Hancock,063
+RUOC,United States,Ohio,39,Hardin,065
+RUOC,United States,Ohio,39,Harrison,067
+RUOC,United States,Ohio,39,Henry,069
+RUOC,United States,Ohio,39,Highland,071
+RUOC,United States,Ohio,39,Hocking,073
+RUOC,United States,Ohio,39,Holmes,075
+RUOC,United States,Ohio,39,Huron,077
+RUOC,United States,Ohio,39,Jackson,079
+RUOC,United States,Ohio,39,Jefferson,081
+RUOC,United States,Ohio,39,Knox,083
+RUOC,United States,Ohio,39,Lake,085
+RUOC,United States,Ohio,39,Lawrence,087
+RUOC,United States,Ohio,39,Licking,089
+RUOC,United States,Ohio,39,Logan,091
+RUOC,United States,Ohio,39,Lorain,093
+RUOC,United States,Ohio,39,Lucas,095
+RUOC,United States,Ohio,39,Madison,097
+RUOC,United States,Ohio,39,Mahoning,099
+RUOC,United States,Ohio,39,Marion,101
+RUOC,United States,Ohio,39,Medina,103
+RUOC,United States,Ohio,39,Meigs,105
+RUOC,United States,Ohio,39,Mercer,107
+RUOC,United States,Ohio,39,Miami,109
+RUOC,United States,Ohio,39,Monroe,111
+RUOC,United States,Ohio,39,Montgomery,113
+RUOC,United States,Ohio,39,Morgan,115
+RUOC,United States,Ohio,39,Morrow,117
+RUOC,United States,Ohio,39,Muskingum,119
+RUOC,United States,Ohio,39,Noble,121
+RUOC,United States,Ohio,39,Ottawa,123
+RUOC,United States,Ohio,39,Paulding,125
+RUOC,United States,Ohio,39,Perry,127
+RUOC,United States,Ohio,39,Pickaway,129
+RUOC,United States,Ohio,39,Pike,131
+RUOC,United States,Ohio,39,Portage,133
+RUOC,United States,Ohio,39,Preble,135
+RUOC,United States,Ohio,39,Putnam,137
+RUOC,United States,Ohio,39,Richland,139
+RUOC,United States,Ohio,39,Ross,141
+RUOC,United States,Ohio,39,Sandusky,143
+RUOC,United States,Ohio,39,Scioto,145
+RUOC,United States,Ohio,39,Seneca,147
+RUOC,United States,Ohio,39,Shelby,149
+RUOC,United States,Ohio,39,Stark,151
+RUOC,United States,Ohio,39,Summit,153
+RUOC,United States,Ohio,39,Trumbull,155
+RUOC,United States,Ohio,39,Tuscarawas,157
+RUOC,United States,Ohio,39,Union,159
+RUOC,United States,Ohio,39,Van Wert,161
+RUOC,United States,Ohio,39,Vinton,163
+RUOC,United States,Ohio,39,Warren,165
+RUOC,United States,Ohio,39,Washington,167
+RUOC,United States,Ohio,39,Wayne,169
+RUOC,United States,Ohio,39,Williams,171
+RUOC,United States,Ohio,39,Wood,173
+RUOC,United States,Ohio,39,Wyandot,175
+RUOC,United States,Oklahoma,40,,
+RUOC,United States,Oklahoma,40,Cherokee,021
+RUOC,United States,Oklahoma,40,Delaware,041
+RUOC,United States,Oklahoma,40,Kay,071
+RUOC,United States,Oklahoma,40,Osage,113
+RUOC,United States,Oklahoma,40,Ottawa,115
+RUOC,United States,Pennsylvania,42,,
+RUOC,United States,Pennsylvania,42,Adams,001
+RUOC,United States,Pennsylvania,42,Allegheny,003
+RUOC,United States,Pennsylvania,42,Armstrong,005
+RUOC,United States,Pennsylvania,42,Beaver,007
+RUOC,United States,Pennsylvania,42,Bedford,009
+RUOC,United States,Pennsylvania,42,Berks,011
+RUOC,United States,Pennsylvania,42,Blair,013
+RUOC,United States,Pennsylvania,42,Bradford,015
+RUOC,United States,Pennsylvania,42,Bucks,017
+RUOC,United States,Pennsylvania,42,Butler,019
+RUOC,United States,Pennsylvania,42,Cambria,021
+RUOC,United States,Pennsylvania,42,Cameron,023
+RUOC,United States,Pennsylvania,42,Carbon,025
+RUOC,United States,Pennsylvania,42,Centre,027
+RUOC,United States,Pennsylvania,42,Chester,029
+RUOC,United States,Pennsylvania,42,Clarion,031
+RUOC,United States,Pennsylvania,42,Clearfield,033
+RUOC,United States,Pennsylvania,42,Clinton,035
+RUOC,United States,Pennsylvania,42,Columbia,037
+RUOC,United States,Pennsylvania,42,Crawford,039
+RUOC,United States,Pennsylvania,42,Cumberland,041
+RUOC,United States,Pennsylvania,42,Dauphin,043
+RUOC,United States,Pennsylvania,42,Delaware,045
+RUOC,United States,Pennsylvania,42,Elk,047
+RUOC,United States,Pennsylvania,42,Erie,049
+RUOC,United States,Pennsylvania,42,Fayette,051
+RUOC,United States,Pennsylvania,42,Forest,053
+RUOC,United States,Pennsylvania,42,Franklin,055
+RUOC,United States,Pennsylvania,42,Fulton,057
+RUOC,United States,Pennsylvania,42,Greene,059
+RUOC,United States,Pennsylvania,42,Huntingdon,061
+RUOC,United States,Pennsylvania,42,Indiana,063
+RUOC,United States,Pennsylvania,42,Jefferson,065
+RUOC,United States,Pennsylvania,42,Juniata,067
+RUOC,United States,Pennsylvania,42,Lackawanna,069
+RUOC,United States,Pennsylvania,42,Lancaster,071
+RUOC,United States,Pennsylvania,42,Lawrence,073
+RUOC,United States,Pennsylvania,42,Lebanon,075
+RUOC,United States,Pennsylvania,42,Lehigh,077
+RUOC,United States,Pennsylvania,42,Luzerne,079
+RUOC,United States,Pennsylvania,42,Lycoming,081
+RUOC,United States,Pennsylvania,42,McKean,083
+RUOC,United States,Pennsylvania,42,Mercer,085
+RUOC,United States,Pennsylvania,42,Mifflin,087
+RUOC,United States,Pennsylvania,42,Monroe,089
+RUOC,United States,Pennsylvania,42,Montgomery,091
+RUOC,United States,Pennsylvania,42,Montour,093
+RUOC,United States,Pennsylvania,42,Northampton,095
+RUOC,United States,Pennsylvania,42,Northumberland,097
+RUOC,United States,Pennsylvania,42,Perry,099
+RUOC,United States,Pennsylvania,42,Philadelphia,101
+RUOC,United States,Pennsylvania,42,Pike,103
+RUOC,United States,Pennsylvania,42,Potter,105
+RUOC,United States,Pennsylvania,42,Schuylkill,107
+RUOC,United States,Pennsylvania,42,Snyder,109
+RUOC,United States,Pennsylvania,42,Somerset,111
+RUOC,United States,Pennsylvania,42,Sullivan,113
+RUOC,United States,Pennsylvania,42,Susquehanna,115
+RUOC,United States,Pennsylvania,42,Tioga,117
+RUOC,United States,Pennsylvania,42,Union,119
+RUOC,United States,Pennsylvania,42,Venango,121
+RUOC,United States,Pennsylvania,42,Warren,123
+RUOC,United States,Pennsylvania,42,Washington,125
+RUOC,United States,Pennsylvania,42,Wayne,127
+RUOC,United States,Pennsylvania,42,Westmoreland,129
+RUOC,United States,Pennsylvania,42,Wyoming,131
+RUOC,United States,Pennsylvania,42,York,133
+RUOC,United States,Rhode Island,44,,
+RUOC,United States,Rhode Island,44,Bristol,001
+RUOC,United States,Rhode Island,44,Kent,003
+RUOC,United States,Rhode Island,44,Newport,005
+RUOC,United States,Rhode Island,44,Providence,007
+RUOC,United States,South Carolina,45,,
+RUOC,United States,South Carolina,45,Dillon,033
+RUOC,United States,South Carolina,45,Oconee,073
+RUOC,United States,South Dakota,46,,
+RUOC,United States,South Dakota,46,Bennett,007
+RUOC,United States,South Dakota,46,Brookings,011
+RUOC,United States,South Dakota,46,Charles Mix,023
+RUOC,United States,South Dakota,46,Clay,027
+RUOC,United States,South Dakota,46,Minnehaha,099
+RUOC,United States,South Dakota,46,Moody,101
+RUOC,United States,South Dakota,46,Roberts,109
+RUOC,United States,South Dakota,46,Todd,121
+RUOC,United States,South Dakota,46,Union,127
+RUOC,United States,South Dakota,46,Yankton,135
+RUOC,United States,Tennessee,47,,
+RUOC,United States,Tennessee,47,Bledsoe,007
+RUOC,United States,Tennessee,47,Blount,009
+RUOC,United States,Tennessee,47,Bradley,011
+RUOC,United States,Tennessee,47,Carter,019
+RUOC,United States,Tennessee,47,Claiborne,025
+RUOC,United States,Tennessee,47,Cocke,029
+RUOC,United States,Tennessee,47,Cumberland,035
+RUOC,United States,Tennessee,47,Davidson,037
+RUOC,United States,Tennessee,47,Dickson,043
+RUOC,United States,Tennessee,47,Dyer,045
+RUOC,United States,Tennessee,47,Fentress,049
+RUOC,United States,Tennessee,47,Gibson,053
+RUOC,United States,Tennessee,47,Grainger,057
+RUOC,United States,Tennessee,47,Grundy,061
+RUOC,United States,Tennessee,47,Hancock,067
+RUOC,United States,Tennessee,47,Henry,079
+RUOC,United States,Tennessee,47,Hickman,081
+RUOC,United States,Tennessee,47,Knox,093
+RUOC,United States,Tennessee,47,Loudon,105
+RUOC,United States,Tennessee,47,Maury,119
+RUOC,United States,Tennessee,47,Montgomery,125
+RUOC,United States,Tennessee,47,Obion,131
+RUOC,United States,Tennessee,47,Roane,145
+RUOC,United States,Tennessee,47,Scott,151
+RUOC,United States,Tennessee,47,Sevier,155
+RUOC,United States,Tennessee,47,Smith,159
+RUOC,United States,Tennessee,47,Stewart,161
+RUOC,United States,Tennessee,47,Sullivan,163
+RUOC,United States,Tennessee,47,Sumner,165
+RUOC,United States,Tennessee,47,Unicoi,171
+RUOC,United States,Tennessee,47,Union,173
+RUOC,United States,Tennessee,47,Van Buren,175
+RUOC,United States,Tennessee,47,Warren,177
+RUOC,United States,Tennessee,47,Washington,179
+RUOC,United States,Tennessee,47,Williamson,187
+RUOC,United States,Vermont,50,,
+RUOC,United States,Vermont,50,Addison,001
+RUOC,United States,Vermont,50,Bennington,003
+RUOC,United States,Vermont,50,Chittenden,007
+RUOC,United States,Vermont,50,Essex,009
+RUOC,United States,Vermont,50,Grand Isle,013
+RUOC,United States,Vermont,50,Orange,017
+RUOC,United States,Vermont,50,Orleans,019
+RUOC,United States,Vermont,50,Rutland,021
+RUOC,United States,Vermont,50,Windham,025
+RUOC,United States,Vermont,50,Windsor,027
+RUOC,United States,Virginia,51,,
+RUOC,United States,Virginia,51,Accomack,001
+RUOC,United States,Virginia,51,Albemarle,003
+RUOC,United States,Virginia,51,Alleghany,005
+RUOC,United States,Virginia,51,Amelia,007
+RUOC,United States,Virginia,51,Amherst,009
+RUOC,United States,Virginia,51,Appomattox,011
+RUOC,United States,Virginia,51,Arlington,013
+RUOC,United States,Virginia,51,Augusta,015
+RUOC,United States,Virginia,51,Bath,017
+RUOC,United States,Virginia,51,Bedford,019
+RUOC,United States,Virginia,51,Bland,021
+RUOC,United States,Virginia,51,Botetourt,023
+RUOC,United States,Virginia,51,Brunswick,025
+RUOC,United States,Virginia,51,Buchanan,027
+RUOC,United States,Virginia,51,Buckingham,029
+RUOC,United States,Virginia,51,Campbell,031
+RUOC,United States,Virginia,51,Caroline,033
+RUOC,United States,Virginia,51,Charles City,036
+RUOC,United States,Virginia,51,Charlotte,037
+RUOC,United States,Virginia,51,Chesterfield,041
+RUOC,United States,Virginia,51,Clarke,043
+RUOC,United States,Virginia,51,Craig,045
+RUOC,United States,Virginia,51,Culpeper,047
+RUOC,United States,Virginia,51,Cumberland,049
+RUOC,United States,Virginia,51,Dickenson,051
+RUOC,United States,Virginia,51,Dinwiddie,053
+RUOC,United States,Virginia,51,Essex,057
+RUOC,United States,Virginia,51,Fairfax,059
+RUOC,United States,Virginia,51,Fauquier,061
+RUOC,United States,Virginia,51,Floyd,063
+RUOC,United States,Virginia,51,Fluvanna,065
+RUOC,United States,Virginia,51,Franklin,067
+RUOC,United States,Virginia,51,Frederick,069
+RUOC,United States,Virginia,51,Giles,071
+RUOC,United States,Virginia,51,Gloucester,073
+RUOC,United States,Virginia,51,Goochland,075
+RUOC,United States,Virginia,51,Grayson,077
+RUOC,United States,Virginia,51,Greene,079
+RUOC,United States,Virginia,51,Greensville,081
+RUOC,United States,Virginia,51,Halifax,083
+RUOC,United States,Virginia,51,Hanover,085
+RUOC,United States,Virginia,51,Henrico,087
+RUOC,United States,Virginia,51,Henry,089
+RUOC,United States,Virginia,51,Highland,091
+RUOC,United States,Virginia,51,Isle of Wight,093
+RUOC,United States,Virginia,51,James City,095
+RUOC,United States,Virginia,51,King and Queen,097
+RUOC,United States,Virginia,51,King George,099
+RUOC,United States,Virginia,51,King William,101
+RUOC,United States,Virginia,51,Lee,105
+RUOC,United States,Virginia,51,Loudoun,107
+RUOC,United States,Virginia,51,Louisa,109
+RUOC,United States,Virginia,51,Lunenburg,111
+RUOC,United States,Virginia,51,Madison,113
+RUOC,United States,Virginia,51,Mathews,115
+RUOC,United States,Virginia,51,Mecklenburg,117
+RUOC,United States,Virginia,51,Middlesex,119
+RUOC,United States,Virginia,51,Montgomery,121
+RUOC,United States,Virginia,51,Nelson,125
+RUOC,United States,Virginia,51,New Kent,127
+RUOC,United States,Virginia,51,Northampton,131
+RUOC,United States,Virginia,51,Northumberland,133
+RUOC,United States,Virginia,51,Nottoway,135
+RUOC,United States,Virginia,51,Orange,137
+RUOC,United States,Virginia,51,Page,139
+RUOC,United States,Virginia,51,Patrick,141
+RUOC,United States,Virginia,51,Pittsylvania,143
+RUOC,United States,Virginia,51,Powhatan,145
+RUOC,United States,Virginia,51,Prince Edward,147
+RUOC,United States,Virginia,51,Prince George,149
+RUOC,United States,Virginia,51,Prince William,153
+RUOC,United States,Virginia,51,Pulaski,155
+RUOC,United States,Virginia,51,Rappahannock,157
+RUOC,United States,Virginia,51,Richmond,159
+RUOC,United States,Virginia,51,Roanoke,161
+RUOC,United States,Virginia,51,Rockbridge,163
+RUOC,United States,Virginia,51,Rockingham,165
+RUOC,United States,Virginia,51,Russell,167
+RUOC,United States,Virginia,51,Scott,169
+RUOC,United States,Virginia,51,Shenandoah,171
+RUOC,United States,Virginia,51,Smyth,173
+RUOC,United States,Virginia,51,Spotsylvania,177
+RUOC,United States,Virginia,51,Stafford,179
+RUOC,United States,Virginia,51,Surry,181
+RUOC,United States,Virginia,51,Sussex,183
+RUOC,United States,Virginia,51,Tazewell,185
+RUOC,United States,Virginia,51,"Virginia Beach ",810
+RUOC,United States,Virginia,51,Warren,187
+RUOC,United States,Virginia,51,Washington,191
+RUOC,United States,Virginia,51,Westmoreland,193
+RUOC,United States,Virginia,51,Wise,195
+RUOC,United States,Virginia,51,Wythe,197
+RUOC,United States,Virginia,51,York,199
+RUOC,United States,West Virginia,54,,
+RUOC,United States,West Virginia,54,Barbour,001
+RUOC,United States,West Virginia,54,Berkeley,003
+RUOC,United States,West Virginia,54,Braxton,007
+RUOC,United States,West Virginia,54,Brooke,009
+RUOC,United States,West Virginia,54,Cabell,011
+RUOC,United States,West Virginia,54,Calhoun,013
+RUOC,United States,West Virginia,54,Clay,015
+RUOC,United States,West Virginia,54,Fayette,019
+RUOC,United States,West Virginia,54,Gilmer,021
+RUOC,United States,West Virginia,54,Grant,023
+RUOC,United States,West Virginia,54,Greenbrier,025
+RUOC,United States,West Virginia,54,Hampshire,027
+RUOC,United States,West Virginia,54,Hancock,029
+RUOC,United States,West Virginia,54,Hardy,031
+RUOC,United States,West Virginia,54,Jackson,035
+RUOC,United States,West Virginia,54,Kanawha,039
+RUOC,United States,West Virginia,54,Logan,045
+RUOC,United States,West Virginia,54,Marion,049
+RUOC,United States,West Virginia,54,Marshall,051
+RUOC,United States,West Virginia,54,Mason,053
+RUOC,United States,West Virginia,54,Mercer,055
+RUOC,United States,West Virginia,54,Mineral,057
+RUOC,United States,West Virginia,54,Monongalia,061
+RUOC,United States,West Virginia,54,Monroe,063
+RUOC,United States,West Virginia,54,Nicholas,067
+RUOC,United States,West Virginia,54,Ohio,069
+RUOC,United States,West Virginia,54,Pendleton,071
+RUOC,United States,West Virginia,54,Pocahontas,075
+RUOC,United States,West Virginia,54,Preston,077
+RUOC,United States,West Virginia,54,Raleigh,081
+RUOC,United States,West Virginia,54,Randolph,083
+RUOC,United States,West Virginia,54,Ritchie,085
+RUOC,United States,West Virginia,54,Roane,087
+RUOC,United States,West Virginia,54,Summers,089
+RUOC,United States,West Virginia,54,Tucker,093
+RUOC,United States,West Virginia,54,Upshur,097
+RUOC,United States,West Virginia,54,Wayne,099
+RUOC,United States,West Virginia,54,Webster,101
+RUOC,United States,West Virginia,54,Wetzel,103
+RUOC,United States,West Virginia,54,Wirt,105
+RUOC,United States,West Virginia,54,Wyoming,109
+RUOC,United States,Wisconsin,55,,
+RUOC,United States,Wisconsin,55,Adams,001
+RUOC,United States,Wisconsin,55,Barron,005
+RUOC,United States,Wisconsin,55,Brown,009
+RUOC,United States,Wisconsin,55,Buffalo,011
+RUOC,United States,Wisconsin,55,Calumet,015
+RUOC,United States,Wisconsin,55,Chippewa,017
+RUOC,United States,Wisconsin,55,Clark,019
+RUOC,United States,Wisconsin,55,Columbia,021
+RUOC,United States,Wisconsin,55,Crawford,023
+RUOC,United States,Wisconsin,55,Dane,025
+RUOC,United States,Wisconsin,55,Dodge,027
+RUOC,United States,Wisconsin,55,Door,029
+RUOC,United States,Wisconsin,55,Eau Claire,035
+RUOC,United States,Wisconsin,55,Fond du Lac,039
+RUOC,United States,Wisconsin,55,Grant,043
+RUOC,United States,Wisconsin,55,Green,045
+RUOC,United States,Wisconsin,55,Green Lake,047
+RUOC,United States,Wisconsin,55,Iowa,049
+RUOC,United States,Wisconsin,55,Iron,051
+RUOC,United States,Wisconsin,55,Jackson,053
+RUOC,United States,Wisconsin,55,Jefferson,055
+RUOC,United States,Wisconsin,55,Kenosha,059
+RUOC,United States,Wisconsin,55,La Crosse,063
+RUOC,United States,Wisconsin,55,Lafayette,065
+RUOC,United States,Wisconsin,55,Lincoln,069
+RUOC,United States,Wisconsin,55,Manitowoc,071
+RUOC,United States,Wisconsin,55,Marathon,073
+RUOC,United States,Wisconsin,55,Marquette,077
+RUOC,United States,Wisconsin,55,Menominee,078
+RUOC,United States,Wisconsin,55,Milwaukee,079
+RUOC,United States,Wisconsin,55,Oconto,083
+RUOC,United States,Wisconsin,55,Oneida,085
+RUOC,United States,Wisconsin,55,Ozaukee,089
+RUOC,United States,Wisconsin,55,Polk,095
+RUOC,United States,Wisconsin,55,Portage,097
+RUOC,United States,Wisconsin,55,Racine,101
+RUOC,United States,Wisconsin,55,Richland,103
+RUOC,United States,Wisconsin,55,Rock,105
+RUOC,United States,Wisconsin,55,Sauk,111
+RUOC,United States,Wisconsin,55,Shawano,115
+RUOC,United States,Wisconsin,55,Sheboygan,117
+RUOC,United States,Wisconsin,55,St. Croix,109
+RUOC,United States,Wisconsin,55,Taylor,119
+RUOC,United States,Wisconsin,55,Trempealeau,121
+RUOC,United States,Wisconsin,55,Vernon,123
+RUOC,United States,Wisconsin,55,Walworth,127
+RUOC,United States,Wisconsin,55,Washington,131
+RUOC,United States,Wisconsin,55,Waukesha,133
+RUOC,United States,Wisconsin,55,Waupaca,135
+RUOC,United States,Wisconsin,55,Waushara,137
+RUOC,United States,Wisconsin,55,Winnebago,139
+RUOC,United States,Wisconsin,55,Wood,141

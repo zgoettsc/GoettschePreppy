@@ -1,0 +1,622 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+OPHU,United States,Alabama,01,,
+OPHU,United States,Alabama,01,Autauga,001
+OPHU,United States,Alabama,01,Baldwin,003
+OPHU,United States,Alabama,01,Mobile,097
+OPHU,United States,Arkansas,05,,
+OPHU,United States,Arkansas,05,Arkansas,001
+OPHU,United States,Arkansas,05,Baxter,005
+OPHU,United States,Arkansas,05,Benton,007
+OPHU,United States,Arkansas,05,Boone,009
+OPHU,United States,Arkansas,05,Bradley,011
+OPHU,United States,Arkansas,05,Clay,021
+OPHU,United States,Arkansas,05,Cleburne,023
+OPHU,United States,Arkansas,05,Cleveland,025
+OPHU,United States,Arkansas,05,Columbia,027
+OPHU,United States,Arkansas,05,Conway,029
+OPHU,United States,Arkansas,05,Dallas,039
+OPHU,United States,Arkansas,05,Drew,043
+OPHU,United States,Arkansas,05,Faulkner,045
+OPHU,United States,Arkansas,05,Franklin,047
+OPHU,United States,Arkansas,05,Fulton,049
+OPHU,United States,Arkansas,05,Greene,055
+OPHU,United States,Arkansas,05,Hempstead,057
+OPHU,United States,Arkansas,05,Hot Spring,059
+OPHU,United States,Arkansas,05,Independence,063
+OPHU,United States,Arkansas,05,Izard,065
+OPHU,United States,Arkansas,05,Jefferson,069
+OPHU,United States,Arkansas,05,Johnson,071
+OPHU,United States,Arkansas,05,Lafayette,073
+OPHU,United States,Arkansas,05,Lawrence,075
+OPHU,United States,Arkansas,05,Logan,083
+OPHU,United States,Arkansas,05,Madison,087
+OPHU,United States,Arkansas,05,Marion,089
+OPHU,United States,Arkansas,05,Miller,091
+OPHU,United States,Arkansas,05,Montgomery,097
+OPHU,United States,Arkansas,05,Nevada,099
+OPHU,United States,Arkansas,05,Newton,101
+OPHU,United States,Arkansas,05,Ouachita,103
+OPHU,United States,Arkansas,05,Pope,115
+OPHU,United States,Arkansas,05,Pulaski,119
+OPHU,United States,Arkansas,05,Randolph,121
+OPHU,United States,Arkansas,05,Searcy,129
+OPHU,United States,Arkansas,05,Sharp,135
+OPHU,United States,Arkansas,05,St. Francis,123
+OPHU,United States,Arkansas,05,Stone,137
+OPHU,United States,Arkansas,05,Washington,143
+OPHU,United States,Arkansas,05,Yell,149
+OPHU,Canada,Ontario,08,,
+OPHU,United States,Colorado,08,,
+OPHU,United States,Connecticut,09,,
+OPHU,United States,Delaware,10,,
+OPHU,United States,Delaware,10,Sussex,005
+OPHU,United States,Florida,12,,
+OPHU,United States,Florida,12,Alachua,001
+OPHU,United States,Florida,12,Baker,003
+OPHU,United States,Florida,12,Bay,005
+OPHU,United States,Florida,12,Brevard,009
+OPHU,United States,Florida,12,Broward,011
+OPHU,United States,Florida,12,Charlotte,015
+OPHU,United States,Florida,12,Citrus,017
+OPHU,United States,Florida,12,Clay,019
+OPHU,United States,Florida,12,Collier,021
+OPHU,United States,Florida,12,Dixie,029
+OPHU,United States,Florida,12,Duval,031
+OPHU,United States,Florida,12,Escambia,033
+OPHU,United States,Florida,12,Flagler,035
+OPHU,United States,Florida,12,Franklin,037
+OPHU,United States,Florida,12,Gilchrist,041
+OPHU,United States,Florida,12,Gulf,045
+OPHU,United States,Florida,12,Hamilton,047
+OPHU,United States,Florida,12,Hernando,053
+OPHU,United States,Florida,12,Highlands,055
+OPHU,United States,Florida,12,Hillsborough,057
+OPHU,United States,Florida,12,Indian River,061
+OPHU,United States,Florida,12,Lafayette,067
+OPHU,United States,Florida,12,Lake,069
+OPHU,United States,Florida,12,Lee,071
+OPHU,United States,Florida,12,Leon,073
+OPHU,United States,Florida,12,Levy,075
+OPHU,United States,Florida,12,Liberty,077
+OPHU,United States,Florida,12,Manatee,081
+OPHU,United States,Florida,12,Marion,083
+OPHU,United States,Florida,12,Martin,085
+OPHU,United States,Florida,12,Miami-Dade,086
+OPHU,United States,Florida,12,Monroe,087
+OPHU,United States,Florida,12,Okaloosa,091
+OPHU,United States,Florida,12,Orange,095
+OPHU,United States,Florida,12,Osceola,097
+OPHU,United States,Florida,12,Palm Beach,099
+OPHU,United States,Florida,12,Pasco,101
+OPHU,United States,Florida,12,Pinellas,103
+OPHU,United States,Florida,12,Polk,105
+OPHU,United States,Florida,12,Putnam,107
+OPHU,United States,Florida,12,Santa Rosa,113
+OPHU,United States,Florida,12,Sarasota,115
+OPHU,United States,Florida,12,Seminole,117
+OPHU,United States,Florida,12,St. Johns,109
+OPHU,United States,Florida,12,St. Lucie,111
+OPHU,United States,Florida,12,Sumter,119
+OPHU,United States,Florida,12,Suwannee,121
+OPHU,United States,Florida,12,Volusia,127
+OPHU,United States,Florida,12,Wakulla,129
+OPHU,United States,Florida,12,Walton,131
+OPHU,United States,Georgia,13,,
+OPHU,United States,Georgia,13,Candler,043
+OPHU,United States,Georgia,13,Chatham,051
+OPHU,United States,Georgia,13,Clarke,059
+OPHU,United States,Georgia,13,DeKalb,089
+OPHU,United States,Georgia,13,Elbert,105
+OPHU,United States,Georgia,13,Irwin,155
+OPHU,United States,Georgia,13,Liberty,179
+OPHU,United States,Georgia,13,McIntosh,191
+OPHU,United States,Georgia,13,Meriwether,199
+OPHU,United States,Georgia,13,Oconee,219
+OPHU,United States,Georgia,13,Walton,297
+OPHU,United States,Georgia,13,Wheeler,309
+OPHU,United States,Illinois,17,,
+OPHU,United States,Illinois,17,Adams,001
+OPHU,United States,Illinois,17,Calhoun,013
+OPHU,United States,Illinois,17,Carroll,015
+OPHU,United States,Illinois,17,Cass,017
+OPHU,United States,Illinois,17,Cook,031
+OPHU,United States,Illinois,17,Crawford,033
+OPHU,United States,Illinois,17,Fayette,051
+OPHU,United States,Illinois,17,Gallatin,059
+OPHU,United States,Illinois,17,Grundy,063
+OPHU,United States,Illinois,17,Hancock,067
+OPHU,United States,Illinois,17,Hardin,069
+OPHU,United States,Illinois,17,Henderson,071
+OPHU,United States,Illinois,17,Jackson,077
+OPHU,United States,Illinois,17,Jersey,083
+OPHU,United States,Illinois,17,Jo Daviess,085
+OPHU,United States,Illinois,17,Johnson,087
+OPHU,United States,Illinois,17,Kankakee,091
+OPHU,United States,Illinois,17,Lake,097
+OPHU,United States,Illinois,17,LaSalle,099
+OPHU,United States,Illinois,17,Lawrence,101
+OPHU,United States,Illinois,17,Lee,103
+OPHU,United States,Illinois,17,Madison,119
+OPHU,United States,Illinois,17,Marshall,123
+OPHU,United States,Illinois,17,Mason,125
+OPHU,United States,Illinois,17,Menard,129
+OPHU,United States,Illinois,17,Mercer,131
+OPHU,United States,Illinois,17,Monroe,133
+OPHU,United States,Illinois,17,Morgan,137
+OPHU,United States,Illinois,17,Ogle,141
+OPHU,United States,Illinois,17,Peoria,143
+OPHU,United States,Illinois,17,Perry,145
+OPHU,United States,Illinois,17,Pike,149
+OPHU,United States,Illinois,17,Pope,151
+OPHU,United States,Illinois,17,Randolph,157
+OPHU,United States,Illinois,17,Saline,165
+OPHU,United States,Illinois,17,Sangamon,167
+OPHU,United States,Illinois,17,Scott,171
+OPHU,United States,Illinois,17,Shelby,173
+OPHU,United States,Illinois,17,St. Clair,163
+OPHU,United States,Illinois,17,Tazewell,179
+OPHU,United States,Illinois,17,Union,181
+OPHU,United States,Illinois,17,White,193
+OPHU,United States,Illinois,17,Whiteside,195
+OPHU,United States,Illinois,17,Will,197
+OPHU,United States,Illinois,17,Williamson,199
+OPHU,United States,Illinois,17,Winnebago,201
+OPHU,United States,Indiana,18,,
+OPHU,United States,Indiana,18,Clark,019
+OPHU,United States,Indiana,18,Fountain,045
+OPHU,United States,Indiana,18,Gibson,051
+OPHU,United States,Indiana,18,Harrison,061
+OPHU,United States,Indiana,18,Jackson,071
+OPHU,United States,Indiana,18,Jasper,073
+OPHU,United States,Indiana,18,Jefferson,077
+OPHU,United States,Indiana,18,Jennings,079
+OPHU,United States,Indiana,18,Knox,083
+OPHU,United States,Indiana,18,Lake,089
+OPHU,United States,Indiana,18,Lawrence,093
+OPHU,United States,Indiana,18,Marshall,099
+OPHU,United States,Indiana,18,Martin,101
+OPHU,United States,Indiana,18,Monroe,105
+OPHU,United States,Indiana,18,Porter,127
+OPHU,United States,Indiana,18,St. Joseph,141
+OPHU,United States,Indiana,18,Starke,149
+OPHU,United States,Indiana,18,Tippecanoe,157
+OPHU,United States,Indiana,18,White,181
+OPHU,United States,Iowa,19,,
+OPHU,United States,Kansas,20,,
+OPHU,United States,Kentucky,21,,
+OPHU,United States,Kentucky,21,Anderson,005
+OPHU,United States,Kentucky,21,Barren,009
+OPHU,United States,Kentucky,21,Bourbon,017
+OPHU,United States,Kentucky,21,Bullitt,029
+OPHU,United States,Kentucky,21,Butler,031
+OPHU,United States,Kentucky,21,Caldwell,033
+OPHU,United States,Kentucky,21,Calloway,035
+OPHU,United States,Kentucky,21,Campbell,037
+OPHU,United States,Kentucky,21,Clark,049
+OPHU,United States,Kentucky,21,Crittenden,055
+OPHU,United States,Kentucky,21,Cumberland,057
+OPHU,United States,Kentucky,21,Edmonson,061
+OPHU,United States,Kentucky,21,Franklin,073
+OPHU,United States,Kentucky,21,Garrard,079
+OPHU,United States,Kentucky,21,Hancock,091
+OPHU,United States,Kentucky,21,Hardin,093
+OPHU,United States,Kentucky,21,Harlan,095
+OPHU,United States,Kentucky,21,Hart,099
+OPHU,United States,Kentucky,21,Henry,103
+OPHU,United States,Kentucky,21,Jefferson,111
+OPHU,United States,Kentucky,21,Jessamine,113
+OPHU,United States,Kentucky,21,Larue,123
+OPHU,United States,Kentucky,21,Logan,141
+OPHU,United States,Kentucky,21,Lyon,143
+OPHU,United States,Kentucky,21,Madison,151
+OPHU,United States,Kentucky,21,McLean,149
+OPHU,United States,Kentucky,21,Meade,163
+OPHU,United States,Kentucky,21,Mercer,167
+OPHU,United States,Kentucky,21,Oldham,185
+OPHU,United States,Kentucky,21,Owen,187
+OPHU,United States,Kentucky,21,Pulaski,199
+OPHU,United States,Kentucky,21,Rowan,205
+OPHU,United States,Kentucky,21,Spencer,215
+OPHU,United States,Kentucky,21,Trigg,221
+OPHU,United States,Kentucky,21,Warren,227
+OPHU,United States,Kentucky,21,Wayne,231
+OPHU,United States,Kentucky,21,Woodford,239
+OPHU,United States,Louisiana,22,,
+OPHU,United States,Louisiana,22,Allen,003
+OPHU,United States,Louisiana,22,Bienville,013
+OPHU,United States,Louisiana,22,Bossier,015
+OPHU,United States,Louisiana,22,Caddo,017
+OPHU,United States,Louisiana,22,Calcasieu,019
+OPHU,United States,Louisiana,22,Caldwell,021
+OPHU,United States,Louisiana,22,Claiborne,027
+OPHU,United States,Louisiana,22,De Soto,031
+OPHU,United States,Louisiana,22,East Baton Rouge,033
+OPHU,United States,Louisiana,22,Franklin,041
+OPHU,United States,Louisiana,22,Lincoln,061
+OPHU,United States,Louisiana,22,Natchitoches,069
+OPHU,United States,Louisiana,22,Ouachita,073
+OPHU,United States,Louisiana,22,Richland,083
+OPHU,United States,Louisiana,22,Sabine,085
+OPHU,United States,Louisiana,22,St. Landry,097
+OPHU,United States,Louisiana,22,St. Tammany,103
+OPHU,United States,Louisiana,22,Terrebonne,109
+OPHU,United States,Louisiana,22,Union,111
+OPHU,United States,Louisiana,22,Vermilion,113
+OPHU,United States,Louisiana,22,Vernon,115
+OPHU,United States,Louisiana,22,Washington,117
+OPHU,United States,Louisiana,22,West Feliciana,125
+OPHU,United States,Louisiana,22,Winn,127
+OPHU,United States,Maryland,24,,
+OPHU,United States,Massachusetts,25,,
+OPHU,United States,Massachusetts,25,Barnstable,001
+OPHU,United States,Massachusetts,25,Middlesex,017
+OPHU,United States,Massachusetts,25,Nantucket,019
+OPHU,United States,Michigan,26,,
+OPHU,United States,Michigan,26,Allegan,005
+OPHU,United States,Michigan,26,Benzie,019
+OPHU,United States,Michigan,26,Berrien,021
+OPHU,United States,Michigan,26,Kalamazoo,077
+OPHU,United States,Michigan,26,Kent,081
+OPHU,United States,Michigan,26,Manistee,101
+OPHU,United States,Michigan,26,Mecosta,107
+OPHU,United States,Michigan,26,Muskegon,121
+OPHU,United States,Michigan,26,Newaygo,123
+OPHU,United States,Michigan,26,Oceana,127
+OPHU,United States,Minnesota,27,,
+OPHU,United States,Minnesota,27,Blue Earth,013
+OPHU,United States,Minnesota,27,Brown,015
+OPHU,United States,Minnesota,27,Chippewa,023
+OPHU,United States,Minnesota,27,Lyon,083
+OPHU,United States,Minnesota,27,Pipestone,117
+OPHU,United States,Minnesota,27,Redwood,127
+OPHU,United States,Minnesota,27,Rock,133
+OPHU,United States,Mississippi,28,,
+OPHU,United States,Mississippi,28,Attala,007
+OPHU,United States,Mississippi,28,Hancock,045
+OPHU,United States,Mississippi,28,Harrison,047
+OPHU,United States,Mississippi,28,Jackson,059
+OPHU,United States,Mississippi,28,Lamar,073
+OPHU,United States,Mississippi,28,Lauderdale,075
+OPHU,United States,Mississippi,28,Madison,089
+OPHU,United States,Mississippi,28,Newton,101
+OPHU,United States,Mississippi,28,Wayne,153
+OPHU,United States,Mississippi,28,Wilkinson,157
+OPHU,United States,Missouri,29,,
+OPHU,United States,Missouri,29,Barry,009
+OPHU,United States,Missouri,29,Bates,013
+OPHU,United States,Missouri,29,Benton,015
+OPHU,United States,Missouri,29,Bollinger,017
+OPHU,United States,Missouri,29,Boone,019
+OPHU,United States,Missouri,29,Cape Girardeau,031
+OPHU,United States,Missouri,29,Carter,035
+OPHU,United States,Missouri,29,Cass,037
+OPHU,United States,Missouri,29,Cedar,039
+OPHU,United States,Missouri,29,Christian,043
+OPHU,United States,Missouri,29,Clay,047
+OPHU,United States,Missouri,29,Cooper,053
+OPHU,United States,Missouri,29,Dade,057
+OPHU,United States,Missouri,29,Dunklin,069
+OPHU,United States,Missouri,29,Franklin,071
+OPHU,United States,Missouri,29,Gasconade,073
+OPHU,United States,Missouri,29,Greene,077
+OPHU,United States,Missouri,29,Henry,083
+OPHU,United States,Missouri,29,Hickory,085
+OPHU,United States,Missouri,29,Howell,091
+OPHU,United States,Missouri,29,Iron,093
+OPHU,United States,Missouri,29,Jackson,095
+OPHU,United States,Missouri,29,Jasper,097
+OPHU,United States,Missouri,29,Jefferson,099
+OPHU,United States,Missouri,29,Johnson,101
+OPHU,United States,Missouri,29,Lawrence,109
+OPHU,United States,Missouri,29,Lincoln,113
+OPHU,United States,Missouri,29,Livingston,117
+OPHU,United States,Missouri,29,Madison,123
+OPHU,United States,Missouri,29,Maries,125
+OPHU,United States,Missouri,29,McDonald,119
+OPHU,United States,Missouri,29,Moniteau,135
+OPHU,United States,Missouri,29,Monroe,137
+OPHU,United States,Missouri,29,Montgomery,139
+OPHU,United States,Missouri,29,New Madrid,143
+OPHU,United States,Missouri,29,Newton,145
+OPHU,United States,Missouri,29,Ozark,153
+OPHU,United States,Missouri,29,Perry,157
+OPHU,United States,Missouri,29,Pettis,159
+OPHU,United States,Missouri,29,Phelps,161
+OPHU,United States,Missouri,29,Polk,167
+OPHU,United States,Missouri,29,Ralls,173
+OPHU,United States,Missouri,29,Ray,177
+OPHU,United States,Missouri,29,Reynolds,179
+OPHU,United States,Missouri,29,Ripley,181
+OPHU,United States,Missouri,29,Saline,195
+OPHU,United States,Missouri,29,Scott,201
+OPHU,United States,Missouri,29,Shannon,203
+OPHU,United States,Missouri,29,St. Charles,183
+OPHU,United States,Missouri,29,St. Clair,185
+OPHU,United States,Missouri,29,St. Francois,187
+OPHU,United States,Missouri,29,St. Louis,189
+OPHU,United States,Missouri,29,Ste. Genevieve,186
+OPHU,United States,Missouri,29,Stoddard,207
+OPHU,United States,Missouri,29,Stone,209
+OPHU,United States,Missouri,29,Taney,213
+OPHU,United States,Missouri,29,Texas,215
+OPHU,United States,Missouri,29,Vernon,217
+OPHU,United States,Missouri,29,Warren,219
+OPHU,United States,Missouri,29,Washington,221
+OPHU,United States,Missouri,29,Wayne,223
+OPHU,United States,Missouri,29,Wright,229
+OPHU,United States,Montana,30,,
+OPHU,United States,Nebraska,31,,
+OPHU,United States,New Jersey,34,,
+OPHU,United States,New Jersey,34,Atlantic,001
+OPHU,United States,New Jersey,34,Bergen,003
+OPHU,United States,New Jersey,34,Burlington,005
+OPHU,United States,New Jersey,34,Camden,007
+OPHU,United States,New Jersey,34,Cape May,009
+OPHU,United States,New Jersey,34,Cumberland,011
+OPHU,United States,New Jersey,34,Gloucester,015
+OPHU,United States,New Jersey,34,Hunterdon,019
+OPHU,United States,New Jersey,34,Middlesex,023
+OPHU,United States,New Jersey,34,Monmouth,025
+OPHU,United States,New Jersey,34,Morris,027
+OPHU,United States,New Jersey,34,Ocean,029
+OPHU,United States,New Jersey,34,Passaic,031
+OPHU,United States,New Jersey,34,Somerset,035
+OPHU,United States,New Jersey,34,Union,039
+OPHU,United States,New Jersey,34,Warren,041
+OPHU,United States,New Mexico,35,,
+OPHU,United States,New York,36,,
+OPHU,United States,New York,36,Bronx,005
+OPHU,United States,New York,36,Columbia,021
+OPHU,United States,New York,36,Nassau,059
+OPHU,United States,New York,36,New York,061
+OPHU,United States,New York,36,Orange,071
+OPHU,United States,New York,36,Putnam,079
+OPHU,United States,New York,36,Queens,081
+OPHU,United States,New York,36,Richmond,085
+OPHU,United States,New York,36,Rockland,087
+OPHU,United States,New York,36,Suffolk,103
+OPHU,United States,New York,36,Ulster,111
+OPHU,United States,New York,36,Westchester,119
+OPHU,United States,North Carolina,37,,
+OPHU,United States,North Carolina,37,Alexander,003
+OPHU,United States,North Carolina,37,Bertie,015
+OPHU,United States,North Carolina,37,Brunswick,019
+OPHU,United States,North Carolina,37,Buncombe,021
+OPHU,United States,North Carolina,37,Carteret,031
+OPHU,United States,North Carolina,37,Chowan,041
+OPHU,United States,North Carolina,37,Cleveland,045
+OPHU,United States,North Carolina,37,Cumberland,051
+OPHU,United States,North Carolina,37,Currituck,053
+OPHU,United States,North Carolina,37,Dare,055
+OPHU,United States,North Carolina,37,Forsyth,067
+OPHU,United States,North Carolina,37,Franklin,069
+OPHU,United States,North Carolina,37,Granville,077
+OPHU,United States,North Carolina,37,Greene,079
+OPHU,United States,North Carolina,37,Halifax,083
+OPHU,United States,North Carolina,37,Harnett,085
+OPHU,United States,North Carolina,37,Hertford,091
+OPHU,United States,North Carolina,37,Hoke,093
+OPHU,United States,North Carolina,37,Hyde,095
+OPHU,United States,North Carolina,37,Lee,105
+OPHU,United States,North Carolina,37,New Hanover,129
+OPHU,United States,North Carolina,37,Pender,141
+OPHU,United States,North Carolina,37,Robeson,155
+OPHU,United States,North Carolina,37,Rowan,159
+OPHU,United States,North Carolina,37,Rutherford,161
+OPHU,United States,North Carolina,37,Scotland,165
+OPHU,United States,North Carolina,37,Wake,183
+OPHU,United States,North Carolina,37,Wayne,191
+OPHU,United States,Ohio,39,,
+OPHU,United States,Ohio,39,Adams,001
+OPHU,United States,Ohio,39,Brown,015
+OPHU,United States,Ohio,39,Erie,043
+OPHU,United States,Ohio,39,Fairfield,045
+OPHU,United States,Ohio,39,Gallia,053
+OPHU,United States,Ohio,39,Hamilton,061
+OPHU,United States,Ohio,39,Highland,071
+OPHU,United States,Ohio,39,Jackson,079
+OPHU,United States,Ohio,39,Lawrence,087
+OPHU,United States,Ohio,39,Lucas,095
+OPHU,United States,Ohio,39,Muskingum,119
+OPHU,United States,Ohio,39,Ottawa,123
+OPHU,United States,Ohio,39,Pike,131
+OPHU,United States,Ohio,39,Ross,141
+OPHU,United States,Ohio,39,Sandusky,143
+OPHU,United States,Ohio,39,Washington,167
+OPHU,United States,Oklahoma,40,,
+OPHU,United States,Pennsylvania,42,,
+OPHU,United States,Pennsylvania,42,Allegheny,003
+OPHU,United States,Pennsylvania,42,Bedford,009
+OPHU,United States,Pennsylvania,42,Berks,011
+OPHU,United States,Pennsylvania,42,Bucks,017
+OPHU,United States,Pennsylvania,42,Cumberland,041
+OPHU,United States,Pennsylvania,42,Franklin,055
+OPHU,United States,Pennsylvania,42,Huntingdon,061
+OPHU,United States,Pennsylvania,42,Lancaster,071
+OPHU,United States,Pennsylvania,42,Monroe,089
+OPHU,United States,Pennsylvania,42,Montgomery,091
+OPHU,United States,Pennsylvania,42,Philadelphia,101
+OPHU,United States,Pennsylvania,42,Pike,103
+OPHU,United States,Pennsylvania,42,Snyder,109
+OPHU,United States,Rhode Island,44,,
+OPHU,United States,South Carolina,45,,
+OPHU,United States,South Carolina,45,Abbeville,001
+OPHU,United States,South Carolina,45,Aiken,003
+OPHU,United States,South Carolina,45,Anderson,007
+OPHU,United States,South Carolina,45,Bamberg,009
+OPHU,United States,South Carolina,45,Barnwell,011
+OPHU,United States,South Carolina,45,Beaufort,013
+OPHU,United States,South Carolina,45,Calhoun,017
+OPHU,United States,South Carolina,45,Charleston,019
+OPHU,United States,South Carolina,45,Chester,023
+OPHU,United States,South Carolina,45,Chesterfield,025
+OPHU,United States,South Carolina,45,Darlington,031
+OPHU,United States,South Carolina,45,Dorchester,035
+OPHU,United States,South Carolina,45,Edgefield,037
+OPHU,United States,South Carolina,45,Fairfield,039
+OPHU,United States,South Carolina,45,Florence,041
+OPHU,United States,South Carolina,45,Hampton,049
+OPHU,United States,South Carolina,45,Horry,051
+OPHU,United States,South Carolina,45,Jasper,053
+OPHU,United States,South Carolina,45,Kershaw,055
+OPHU,United States,South Carolina,45,Lexington,063
+OPHU,United States,South Carolina,45,Marion,067
+OPHU,United States,South Carolina,45,Marlboro,069
+OPHU,United States,South Carolina,45,Orangeburg,075
+OPHU,United States,South Carolina,45,Pickens,077
+OPHU,United States,South Carolina,45,Richland,079
+OPHU,United States,South Carolina,45,Saluda,081
+OPHU,United States,South Carolina,45,Union,087
+OPHU,United States,South Carolina,45,Williamsburg,089
+OPHU,United States,South Carolina,45,York,091
+OPHU,United States,South Dakota,46,,
+OPHU,United States,Tennessee,47,,
+OPHU,United States,Tennessee,47,Bedford,003
+OPHU,United States,Tennessee,47,Blount,009
+OPHU,United States,Tennessee,47,Cannon,015
+OPHU,United States,Tennessee,47,Davidson,037
+OPHU,United States,Tennessee,47,Dickson,043
+OPHU,United States,Tennessee,47,Fayette,047
+OPHU,United States,Tennessee,47,Fentress,049
+OPHU,United States,Tennessee,47,Hardeman,069
+OPHU,United States,Tennessee,47,Haywood,075
+OPHU,United States,Tennessee,47,Jackson,087
+OPHU,United States,Tennessee,47,Jefferson,089
+OPHU,United States,Tennessee,47,Knox,093
+OPHU,United States,Tennessee,47,Marshall,117
+OPHU,United States,Tennessee,47,Maury,119
+OPHU,United States,Tennessee,47,Montgomery,125
+OPHU,United States,Tennessee,47,Roane,145
+OPHU,United States,Tennessee,47,Rutherford,149
+OPHU,United States,Tennessee,47,Shelby,157
+OPHU,United States,Tennessee,47,Stewart,161
+OPHU,United States,Tennessee,47,Sumner,165
+OPHU,United States,Tennessee,47,Williamson,187
+OPHU,United States,Tennessee,47,Wilson,189
+OPHU,United States,Texas,48,,
+OPHU,United States,Texas,48,Anderson,001
+OPHU,United States,Texas,48,Aransas,007
+OPHU,United States,Texas,48,Archer,009
+OPHU,United States,Texas,48,Atascosa,013
+OPHU,United States,Texas,48,Austin,015
+OPHU,United States,Texas,48,Bastrop,021
+OPHU,United States,Texas,48,Bexar,029
+OPHU,United States,Texas,48,Brown,049
+OPHU,United States,Texas,48,Burnet,053
+OPHU,United States,Texas,48,Caldwell,055
+OPHU,United States,Texas,48,Cameron,061
+OPHU,United States,Texas,48,Chambers,071
+OPHU,United States,Texas,48,Colorado,089
+OPHU,United States,Texas,48,Dallas,113
+OPHU,United States,Texas,48,Denton,121
+OPHU,United States,Texas,48,Duval,131
+OPHU,United States,Texas,48,Freestone,161
+OPHU,United States,Texas,48,Galveston,167
+OPHU,United States,Texas,48,Gillespie,171
+OPHU,United States,Texas,48,Gonzales,177
+OPHU,United States,Texas,48,Grayson,181
+OPHU,United States,Texas,48,Gregg,183
+OPHU,United States,Texas,48,Hardin,199
+OPHU,United States,Texas,48,Harris,201
+OPHU,United States,Texas,48,Henderson,213
+OPHU,United States,Texas,48,Jefferson,245
+OPHU,United States,Texas,48,Kaufman,257
+OPHU,United States,Texas,48,Kerr,265
+OPHU,United States,Texas,48,Limestone,293
+OPHU,United States,Texas,48,Matagorda,321
+OPHU,United States,Texas,48,McLennan,309
+OPHU,United States,Texas,48,Medina,325
+OPHU,United States,Texas,48,Milam,331
+OPHU,United States,Texas,48,Panola,365
+OPHU,United States,Texas,48,Refugio,391
+OPHU,United States,Texas,48,Rusk,401
+OPHU,United States,Texas,48,San Augustine,405
+OPHU,United States,Texas,48,San Patricio,409
+OPHU,United States,Texas,48,Smith,423
+OPHU,United States,Texas,48,Tarrant,439
+OPHU,United States,Texas,48,Travis,453
+OPHU,United States,Texas,48,Upshur,459
+OPHU,United States,Texas,48,Victoria,469
+OPHU,United States,Texas,48,Walker,471
+OPHU,United States,Texas,48,Waller,473
+OPHU,United States,Texas,48,Willacy,489
+OPHU,United States,Texas,48,Williamson,491
+OPHU,United States,Virginia,51,,
+OPHU,United States,Virginia,51,Accomack,001
+OPHU,United States,Virginia,51,Albemarle,003
+OPHU,United States,Virginia,51,Alleghany,005
+OPHU,United States,Virginia,51,Amelia,007
+OPHU,United States,Virginia,51,Amherst,009
+OPHU,United States,Virginia,51,Appomattox,011
+OPHU,United States,Virginia,51,Augusta,015
+OPHU,United States,Virginia,51,Bedford,019
+OPHU,United States,Virginia,51,Botetourt,023
+OPHU,United States,Virginia,51,Brunswick,025
+OPHU,United States,Virginia,51,Campbell,031
+OPHU,United States,Virginia,51,Caroline,033
+OPHU,United States,Virginia,51,"Chesapeake ",550
+OPHU,United States,Virginia,51,Chesterfield,041
+OPHU,United States,Virginia,51,Clarke,043
+OPHU,United States,Virginia,51,Craig,045
+OPHU,United States,Virginia,51,Culpeper,047
+OPHU,United States,Virginia,51,Essex,057
+OPHU,United States,Virginia,51,Fairfax,059
+OPHU,United States,Virginia,51,Fauquier,061
+OPHU,United States,Virginia,51,Fluvanna,065
+OPHU,United States,Virginia,51,Franklin,067
+OPHU,United States,Virginia,51,Frederick,069
+OPHU,United States,Virginia,51,Giles,071
+OPHU,United States,Virginia,51,Gloucester,073
+OPHU,United States,Virginia,51,Goochland,075
+OPHU,United States,Virginia,51,Halifax,083
+OPHU,United States,Virginia,51,"Hampton ",650
+OPHU,United States,Virginia,51,Hanover,085
+OPHU,United States,Virginia,51,Henrico,087
+OPHU,United States,Virginia,51,Highland,091
+OPHU,United States,Virginia,51,Isle of Wight,093
+OPHU,United States,Virginia,51,James City,095
+OPHU,United States,Virginia,51,King and Queen,097
+OPHU,United States,Virginia,51,King George,099
+OPHU,United States,Virginia,51,King William,101
+OPHU,United States,Virginia,51,Lancaster,103
+OPHU,United States,Virginia,51,Lee,105
+OPHU,United States,Virginia,51,Madison,113
+OPHU,United States,Virginia,51,Mathews,115
+OPHU,United States,Virginia,51,Middlesex,119
+OPHU,United States,Virginia,51,New Kent,127
+OPHU,United States,Virginia,51,Northampton,131
+OPHU,United States,Virginia,51,Northumberland,133
+OPHU,United States,Virginia,51,Nottoway,135
+OPHU,United States,Virginia,51,Page,139
+OPHU,United States,Virginia,51,Pittsylvania,143
+OPHU,United States,Virginia,51,Powhatan,145
+OPHU,United States,Virginia,51,Prince Edward,147
+OPHU,United States,Virginia,51,Rappahannock,157
+OPHU,United States,Virginia,51,Richmond,159
+OPHU,United States,Virginia,51,Rockbridge,163
+OPHU,United States,Virginia,51,Rockingham,165
+OPHU,United States,Virginia,51,Russell,167
+OPHU,United States,Virginia,51,Shenandoah,171
+OPHU,United States,Virginia,51,Southampton,175
+OPHU,United States,Virginia,51,"Suffolk ",800
+OPHU,United States,Virginia,51,Sussex,183
+OPHU,United States,Virginia,51,"Virginia Beach ",810
+OPHU,United States,Virginia,51,Warren,187
+OPHU,United States,Virginia,51,Washington,191
+OPHU,United States,Virginia,51,York,199
+OPHU,United States,West Virginia,54,,
+OPHU,United States,West Virginia,54,Cabell,011
+OPHU,United States,West Virginia,54,Grant,023
+OPHU,United States,West Virginia,54,Hampshire,027
+OPHU,United States,West Virginia,54,Hardy,031
+OPHU,United States,West Virginia,54,Mason,053
+OPHU,United States,West Virginia,54,Mineral,057
+OPHU,United States,West Virginia,54,Pendleton,071
+OPHU,United States,West Virginia,54,Pocahontas,075
+OPHU,United States,West Virginia,54,Roane,087
+OPHU,United States,West Virginia,54,Summers,089
+OPHU,United States,West Virginia,54,Tucker,093
+OPHU,United States,Wisconsin,55,,
+OPHU,United States,Wisconsin,55,Dane,025
+OPHU,United States,Wisconsin,55,Racine,101

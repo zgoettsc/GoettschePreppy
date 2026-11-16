@@ -1,0 +1,681 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+QUNI,United States,Alabama,01,,
+QUNI,United States,Alabama,01,Autauga,001
+QUNI,United States,Alabama,01,Baldwin,003
+QUNI,United States,Alabama,01,Barbour,005
+QUNI,United States,Alabama,01,Bibb,007
+QUNI,United States,Alabama,01,Blount,009
+QUNI,United States,Alabama,01,Bullock,011
+QUNI,United States,Alabama,01,Butler,013
+QUNI,United States,Alabama,01,Calhoun,015
+QUNI,United States,Alabama,01,Chambers,017
+QUNI,United States,Alabama,01,Chilton,021
+QUNI,United States,Alabama,01,Choctaw,023
+QUNI,United States,Alabama,01,Clarke,025
+QUNI,United States,Alabama,01,Clay,027
+QUNI,United States,Alabama,01,Cleburne,029
+QUNI,United States,Alabama,01,Coffee,031
+QUNI,United States,Alabama,01,Colbert,033
+QUNI,United States,Alabama,01,Conecuh,035
+QUNI,United States,Alabama,01,Coosa,037
+QUNI,United States,Alabama,01,Covington,039
+QUNI,United States,Alabama,01,Crenshaw,041
+QUNI,United States,Alabama,01,Cullman,043
+QUNI,United States,Alabama,01,Dale,045
+QUNI,United States,Alabama,01,Dallas,047
+QUNI,United States,Alabama,01,DeKalb,049
+QUNI,United States,Alabama,01,Elmore,051
+QUNI,United States,Alabama,01,Escambia,053
+QUNI,United States,Alabama,01,Etowah,055
+QUNI,United States,Alabama,01,Fayette,057
+QUNI,United States,Alabama,01,Geneva,061
+QUNI,United States,Alabama,01,Greene,063
+QUNI,United States,Alabama,01,Hale,065
+QUNI,United States,Alabama,01,Henry,067
+QUNI,United States,Alabama,01,Jackson,071
+QUNI,United States,Alabama,01,Jefferson,073
+QUNI,United States,Alabama,01,Lamar,075
+QUNI,United States,Alabama,01,Lauderdale,077
+QUNI,United States,Alabama,01,Lawrence,079
+QUNI,United States,Alabama,01,Lee,081
+QUNI,United States,Alabama,01,Lowndes,085
+QUNI,United States,Alabama,01,Madison,089
+QUNI,United States,Alabama,01,Marengo,091
+QUNI,United States,Alabama,01,Marion,093
+QUNI,United States,Alabama,01,Marshall,095
+QUNI,United States,Alabama,01,Mobile,097
+QUNI,United States,Alabama,01,Monroe,099
+QUNI,United States,Alabama,01,Montgomery,101
+QUNI,United States,Alabama,01,Morgan,103
+QUNI,United States,Alabama,01,Perry,105
+QUNI,United States,Alabama,01,Pike,109
+QUNI,United States,Alabama,01,Randolph,111
+QUNI,United States,Alabama,01,Russell,113
+QUNI,United States,Alabama,01,Shelby,117
+QUNI,United States,Alabama,01,St. Clair,115
+QUNI,United States,Alabama,01,Sumter,119
+QUNI,United States,Alabama,01,Talladega,121
+QUNI,United States,Alabama,01,Tallapoosa,123
+QUNI,United States,Alabama,01,Tuscaloosa,125
+QUNI,United States,Alabama,01,Walker,127
+QUNI,United States,Alabama,01,Washington,129
+QUNI,United States,Alabama,01,Wilcox,131
+QUNI,United States,Alabama,01,Winston,133
+QUNI,United States,Arkansas,05,,
+QUNI,United States,Arkansas,05,Arkansas,001
+QUNI,United States,Arkansas,05,Ashley,003
+QUNI,United States,Arkansas,05,Bradley,011
+QUNI,United States,Arkansas,05,Calhoun,013
+QUNI,United States,Arkansas,05,Chicot,017
+QUNI,United States,Arkansas,05,Clark,019
+QUNI,United States,Arkansas,05,Clay,021
+QUNI,United States,Arkansas,05,Cleburne,023
+QUNI,United States,Arkansas,05,Cleveland,025
+QUNI,United States,Arkansas,05,Columbia,027
+QUNI,United States,Arkansas,05,Conway,029
+QUNI,United States,Arkansas,05,Craighead,031
+QUNI,United States,Arkansas,05,Crawford,033
+QUNI,United States,Arkansas,05,Crittenden,035
+QUNI,United States,Arkansas,05,Cross,037
+QUNI,United States,Arkansas,05,Dallas,039
+QUNI,United States,Arkansas,05,Desha,041
+QUNI,United States,Arkansas,05,Drew,043
+QUNI,United States,Arkansas,05,Faulkner,045
+QUNI,United States,Arkansas,05,Franklin,047
+QUNI,United States,Arkansas,05,Garland,051
+QUNI,United States,Arkansas,05,Grant,053
+QUNI,United States,Arkansas,05,Greene,055
+QUNI,United States,Arkansas,05,Hempstead,057
+QUNI,United States,Arkansas,05,Hot Spring,059
+QUNI,United States,Arkansas,05,Howard,061
+QUNI,United States,Arkansas,05,Independence,063
+QUNI,United States,Arkansas,05,Jackson,067
+QUNI,United States,Arkansas,05,Jefferson,069
+QUNI,United States,Arkansas,05,Johnson,071
+QUNI,United States,Arkansas,05,Lafayette,073
+QUNI,United States,Arkansas,05,Lawrence,075
+QUNI,United States,Arkansas,05,Lee,077
+QUNI,United States,Arkansas,05,Lincoln,079
+QUNI,United States,Arkansas,05,Little River,081
+QUNI,United States,Arkansas,05,Logan,083
+QUNI,United States,Arkansas,05,Lonoke,085
+QUNI,United States,Arkansas,05,Miller,091
+QUNI,United States,Arkansas,05,Mississippi,093
+QUNI,United States,Arkansas,05,Monroe,095
+QUNI,United States,Arkansas,05,Montgomery,097
+QUNI,United States,Arkansas,05,Nevada,099
+QUNI,United States,Arkansas,05,Ouachita,103
+QUNI,United States,Arkansas,05,Phillips,107
+QUNI,United States,Arkansas,05,Pike,109
+QUNI,United States,Arkansas,05,Poinsett,111
+QUNI,United States,Arkansas,05,Polk,113
+QUNI,United States,Arkansas,05,Pope,115
+QUNI,United States,Arkansas,05,Prairie,117
+QUNI,United States,Arkansas,05,Pulaski,119
+QUNI,United States,Arkansas,05,Randolph,121
+QUNI,United States,Arkansas,05,Saline,125
+QUNI,United States,Arkansas,05,Scott,127
+QUNI,United States,Arkansas,05,Sebastian,131
+QUNI,United States,Arkansas,05,Sevier,133
+QUNI,United States,Arkansas,05,St. Francis,123
+QUNI,United States,Arkansas,05,Union,139
+QUNI,United States,Arkansas,05,Van Buren,141
+QUNI,United States,Arkansas,05,White,145
+QUNI,United States,Arkansas,05,Woodruff,147
+QUNI,United States,Arkansas,05,Yell,149
+QUNI,United States,Delaware,10,,
+QUNI,United States,Delaware,10,New Castle,003
+QUNI,United States,Delaware,10,Sussex,005
+QUNI,United States,District of Columbia,11,,
+QUNI,United States,District of Columbia,11,District of Columbia,001
+QUNI,United States,Florida,12,,
+QUNI,United States,Florida,12,Alachua,001
+QUNI,United States,Florida,12,Baker,003
+QUNI,United States,Florida,12,Broward,011
+QUNI,United States,Florida,12,Citrus,017
+QUNI,United States,Florida,12,Clay,019
+QUNI,United States,Florida,12,Collier,021
+QUNI,United States,Florida,12,Columbia,023
+QUNI,United States,Florida,12,Duval,031
+QUNI,United States,Florida,12,Escambia,033
+QUNI,United States,Florida,12,Flagler,035
+QUNI,United States,Florida,12,Franklin,037
+QUNI,United States,Florida,12,Gadsden,039
+QUNI,United States,Florida,12,Gilchrist,041
+QUNI,United States,Florida,12,Hardee,049
+QUNI,United States,Florida,12,Hernando,053
+QUNI,United States,Florida,12,Indian River,061
+QUNI,United States,Florida,12,Jackson,063
+QUNI,United States,Florida,12,Lake,069
+QUNI,United States,Florida,12,Leon,073
+QUNI,United States,Florida,12,Levy,075
+QUNI,United States,Florida,12,Liberty,077
+QUNI,United States,Florida,12,Madison,079
+QUNI,United States,Florida,12,Manatee,081
+QUNI,United States,Florida,12,Marion,083
+QUNI,United States,Florida,12,Orange,095
+QUNI,United States,Florida,12,Osceola,097
+QUNI,United States,Florida,12,Palm Beach,099
+QUNI,United States,Florida,12,Pasco,101
+QUNI,United States,Florida,12,Pinellas,103
+QUNI,United States,Florida,12,Polk,105
+QUNI,United States,Florida,12,Putnam,107
+QUNI,United States,Florida,12,Sarasota,115
+QUNI,United States,Florida,12,Seminole,117
+QUNI,United States,Florida,12,St. Johns,109
+QUNI,United States,Florida,12,Taylor,123
+QUNI,United States,Florida,12,Volusia,127
+QUNI,United States,Florida,12,Wakulla,129
+QUNI,United States,Florida,12,Washington,133
+QUNI,United States,Georgia,13,,
+QUNI,United States,Georgia,13,Appling,001
+QUNI,United States,Georgia,13,Atkinson,003
+QUNI,United States,Georgia,13,Baker,007
+QUNI,United States,Georgia,13,Baldwin,009
+QUNI,United States,Georgia,13,Banks,011
+QUNI,United States,Georgia,13,Barrow,013
+QUNI,United States,Georgia,13,Bartow,015
+QUNI,United States,Georgia,13,Ben Hill,017
+QUNI,United States,Georgia,13,Berrien,019
+QUNI,United States,Georgia,13,Bibb,021
+QUNI,United States,Georgia,13,Bleckley,023
+QUNI,United States,Georgia,13,Brantley,025
+QUNI,United States,Georgia,13,Brooks,027
+QUNI,United States,Georgia,13,Bryan,029
+QUNI,United States,Georgia,13,Bulloch,031
+QUNI,United States,Georgia,13,Burke,033
+QUNI,United States,Georgia,13,Calhoun,037
+QUNI,United States,Georgia,13,Camden,039
+QUNI,United States,Georgia,13,Candler,043
+QUNI,United States,Georgia,13,Carroll,045
+QUNI,United States,Georgia,13,Catoosa,047
+QUNI,United States,Georgia,13,Charlton,049
+QUNI,United States,Georgia,13,Chatham,051
+QUNI,United States,Georgia,13,Chattooga,055
+QUNI,United States,Georgia,13,Cherokee,057
+QUNI,United States,Georgia,13,Clarke,059
+QUNI,United States,Georgia,13,Clay,061
+QUNI,United States,Georgia,13,Clayton,063
+QUNI,United States,Georgia,13,Clinch,065
+QUNI,United States,Georgia,13,Cobb,067
+QUNI,United States,Georgia,13,Coffee,069
+QUNI,United States,Georgia,13,Colquitt,071
+QUNI,United States,Georgia,13,Columbia,073
+QUNI,United States,Georgia,13,Cook,075
+QUNI,United States,Georgia,13,Coweta,077
+QUNI,United States,Georgia,13,Crawford,079
+QUNI,United States,Georgia,13,Crisp,081
+QUNI,United States,Georgia,13,Dade,083
+QUNI,United States,Georgia,13,Dawson,085
+QUNI,United States,Georgia,13,Decatur,087
+QUNI,United States,Georgia,13,DeKalb,089
+QUNI,United States,Georgia,13,Dodge,091
+QUNI,United States,Georgia,13,Dougherty,095
+QUNI,United States,Georgia,13,Douglas,097
+QUNI,United States,Georgia,13,Early,099
+QUNI,United States,Georgia,13,Echols,101
+QUNI,United States,Georgia,13,Effingham,103
+QUNI,United States,Georgia,13,Elbert,105
+QUNI,United States,Georgia,13,Emanuel,107
+QUNI,United States,Georgia,13,Evans,109
+QUNI,United States,Georgia,13,Fayette,113
+QUNI,United States,Georgia,13,Floyd,115
+QUNI,United States,Georgia,13,Forsyth,117
+QUNI,United States,Georgia,13,Franklin,119
+QUNI,United States,Georgia,13,Fulton,121
+QUNI,United States,Georgia,13,Gilmer,123
+QUNI,United States,Georgia,13,Glascock,125
+QUNI,United States,Georgia,13,Glynn,127
+QUNI,United States,Georgia,13,Gordon,129
+QUNI,United States,Georgia,13,Grady,131
+QUNI,United States,Georgia,13,Greene,133
+QUNI,United States,Georgia,13,Gwinnett,135
+QUNI,United States,Georgia,13,Habersham,137
+QUNI,United States,Georgia,13,Hall,139
+QUNI,United States,Georgia,13,Hancock,141
+QUNI,United States,Georgia,13,Haralson,143
+QUNI,United States,Georgia,13,Harris,145
+QUNI,United States,Georgia,13,Hart,147
+QUNI,United States,Georgia,13,Heard,149
+QUNI,United States,Georgia,13,Henry,151
+QUNI,United States,Georgia,13,Houston,153
+QUNI,United States,Georgia,13,Irwin,155
+QUNI,United States,Georgia,13,Jackson,157
+QUNI,United States,Georgia,13,Jeff Davis,161
+QUNI,United States,Georgia,13,Jefferson,163
+QUNI,United States,Georgia,13,Jenkins,165
+QUNI,United States,Georgia,13,Johnson,167
+QUNI,United States,Georgia,13,Jones,169
+QUNI,United States,Georgia,13,Lamar,171
+QUNI,United States,Georgia,13,Lanier,173
+QUNI,United States,Georgia,13,Laurens,175
+QUNI,United States,Georgia,13,Lee,177
+QUNI,United States,Georgia,13,Liberty,179
+QUNI,United States,Georgia,13,Lincoln,181
+QUNI,United States,Georgia,13,Long,183
+QUNI,United States,Georgia,13,Lowndes,185
+QUNI,United States,Georgia,13,Macon,193
+QUNI,United States,Georgia,13,Madison,195
+QUNI,United States,Georgia,13,Marion,197
+QUNI,United States,Georgia,13,McDuffie,189
+QUNI,United States,Georgia,13,McIntosh,191
+QUNI,United States,Georgia,13,Meriwether,199
+QUNI,United States,Georgia,13,Miller,201
+QUNI,United States,Georgia,13,Mitchell,205
+QUNI,United States,Georgia,13,Monroe,207
+QUNI,United States,Georgia,13,Montgomery,209
+QUNI,United States,Georgia,13,Morgan,211
+QUNI,United States,Georgia,13,Murray,213
+QUNI,United States,Georgia,13,Muscogee,215
+QUNI,United States,Georgia,13,Newton,217
+QUNI,United States,Georgia,13,Oconee,219
+QUNI,United States,Georgia,13,Oglethorpe,221
+QUNI,United States,Georgia,13,Paulding,223
+QUNI,United States,Georgia,13,Peach,225
+QUNI,United States,Georgia,13,Polk,233
+QUNI,United States,Georgia,13,Putnam,237
+QUNI,United States,Georgia,13,Quitman,239
+QUNI,United States,Georgia,13,Randolph,243
+QUNI,United States,Georgia,13,Richmond,245
+QUNI,United States,Georgia,13,Rockdale,247
+QUNI,United States,Georgia,13,Schley,249
+QUNI,United States,Georgia,13,Screven,251
+QUNI,United States,Georgia,13,Seminole,253
+QUNI,United States,Georgia,13,Spalding,255
+QUNI,United States,Georgia,13,Stephens,257
+QUNI,United States,Georgia,13,Stewart,259
+QUNI,United States,Georgia,13,Sumter,261
+QUNI,United States,Georgia,13,Talbot,263
+QUNI,United States,Georgia,13,Taliaferro,265
+QUNI,United States,Georgia,13,Tattnall,267
+QUNI,United States,Georgia,13,Taylor,269
+QUNI,United States,Georgia,13,Telfair,271
+QUNI,United States,Georgia,13,Terrell,273
+QUNI,United States,Georgia,13,Thomas,275
+QUNI,United States,Georgia,13,Tift,277
+QUNI,United States,Georgia,13,Treutlen,283
+QUNI,United States,Georgia,13,Troup,285
+QUNI,United States,Georgia,13,Twiggs,289
+QUNI,United States,Georgia,13,Upson,293
+QUNI,United States,Georgia,13,Walker,295
+QUNI,United States,Georgia,13,Ware,299
+QUNI,United States,Georgia,13,Washington,303
+QUNI,United States,Georgia,13,Wayne,305
+QUNI,United States,Georgia,13,Webster,307
+QUNI,United States,Georgia,13,Wheeler,309
+QUNI,United States,Georgia,13,Wilcox,315
+QUNI,United States,Georgia,13,Wilkes,317
+QUNI,United States,Georgia,13,Wilkinson,319
+QUNI,United States,Georgia,13,Worth,321
+QUNI,United States,Illinois,17,,
+QUNI,United States,Kentucky,21,,
+QUNI,United States,Kentucky,21,Bell,013
+QUNI,United States,Kentucky,21,Daviess,059
+QUNI,United States,Kentucky,21,Edmonson,061
+QUNI,United States,Kentucky,21,Graves,083
+QUNI,United States,Kentucky,21,Hickman,105
+QUNI,United States,Kentucky,21,Marshall,157
+QUNI,United States,Kentucky,21,McCracken,145
+QUNI,United States,Kentucky,21,Wayne,231
+QUNI,United States,Louisiana,22,,
+QUNI,United States,Louisiana,22,Acadia,001
+QUNI,United States,Louisiana,22,Allen,003
+QUNI,United States,Louisiana,22,Ascension,005
+QUNI,United States,Louisiana,22,Assumption,007
+QUNI,United States,Louisiana,22,Avoyelles,009
+QUNI,United States,Louisiana,22,Beauregard,011
+QUNI,United States,Louisiana,22,Bienville,013
+QUNI,United States,Louisiana,22,Bossier,015
+QUNI,United States,Louisiana,22,Caddo,017
+QUNI,United States,Louisiana,22,Calcasieu,019
+QUNI,United States,Louisiana,22,Caldwell,021
+QUNI,United States,Louisiana,22,Cameron,023
+QUNI,United States,Louisiana,22,Catahoula,025
+QUNI,United States,Louisiana,22,Claiborne,027
+QUNI,United States,Louisiana,22,Concordia,029
+QUNI,United States,Louisiana,22,De Soto,031
+QUNI,United States,Louisiana,22,East Baton Rouge,033
+QUNI,United States,Louisiana,22,East Carroll,035
+QUNI,United States,Louisiana,22,East Feliciana,037
+QUNI,United States,Louisiana,22,Evangeline,039
+QUNI,United States,Louisiana,22,Franklin,041
+QUNI,United States,Louisiana,22,Grant,043
+QUNI,United States,Louisiana,22,Iberia,045
+QUNI,United States,Louisiana,22,Iberville,047
+QUNI,United States,Louisiana,22,Jackson,049
+QUNI,United States,Louisiana,22,Jefferson,051
+QUNI,United States,Louisiana,22,Jefferson Davis,053
+QUNI,United States,Louisiana,22,Lafayette,055
+QUNI,United States,Louisiana,22,LaSalle,059
+QUNI,United States,Louisiana,22,Lincoln,061
+QUNI,United States,Louisiana,22,Livingston,063
+QUNI,United States,Louisiana,22,Madison,065
+QUNI,United States,Louisiana,22,Morehouse,067
+QUNI,United States,Louisiana,22,Natchitoches,069
+QUNI,United States,Louisiana,22,Orleans,071
+QUNI,United States,Louisiana,22,Ouachita,073
+QUNI,United States,Louisiana,22,Pointe Coupee,077
+QUNI,United States,Louisiana,22,Rapides,079
+QUNI,United States,Louisiana,22,Red River,081
+QUNI,United States,Louisiana,22,Richland,083
+QUNI,United States,Louisiana,22,Sabine,085
+QUNI,United States,Louisiana,22,St. Bernard,087
+QUNI,United States,Louisiana,22,St. Charles,089
+QUNI,United States,Louisiana,22,St. Helena,091
+QUNI,United States,Louisiana,22,St. James,093
+QUNI,United States,Louisiana,22,St. John the Baptist,095
+QUNI,United States,Louisiana,22,St. Landry,097
+QUNI,United States,Louisiana,22,St. Martin,099
+QUNI,United States,Louisiana,22,St. Mary,101
+QUNI,United States,Louisiana,22,St. Tammany,103
+QUNI,United States,Louisiana,22,Tangipahoa,105
+QUNI,United States,Louisiana,22,Tensas,107
+QUNI,United States,Louisiana,22,Terrebonne,109
+QUNI,United States,Louisiana,22,Union,111
+QUNI,United States,Louisiana,22,Vermilion,113
+QUNI,United States,Louisiana,22,Vernon,115
+QUNI,United States,Louisiana,22,Washington,117
+QUNI,United States,Louisiana,22,Webster,119
+QUNI,United States,Louisiana,22,West Carroll,123
+QUNI,United States,Louisiana,22,West Feliciana,125
+QUNI,United States,Louisiana,22,Winn,127
+QUNI,United States,Maryland,24,,
+QUNI,United States,Mississippi,28,,
+QUNI,United States,Mississippi,28,Adams,001
+QUNI,United States,Mississippi,28,Alcorn,003
+QUNI,United States,Mississippi,28,Amite,005
+QUNI,United States,Mississippi,28,Attala,007
+QUNI,United States,Mississippi,28,Benton,009
+QUNI,United States,Mississippi,28,Bolivar,011
+QUNI,United States,Mississippi,28,Calhoun,013
+QUNI,United States,Mississippi,28,Carroll,015
+QUNI,United States,Mississippi,28,Chickasaw,017
+QUNI,United States,Mississippi,28,Choctaw,019
+QUNI,United States,Mississippi,28,Claiborne,021
+QUNI,United States,Mississippi,28,Copiah,029
+QUNI,United States,Mississippi,28,Covington,031
+QUNI,United States,Mississippi,28,DeSoto,033
+QUNI,United States,Mississippi,28,Forrest,035
+QUNI,United States,Mississippi,28,Franklin,037
+QUNI,United States,Mississippi,28,George,039
+QUNI,United States,Mississippi,28,Greene,041
+QUNI,United States,Mississippi,28,Grenada,043
+QUNI,United States,Mississippi,28,Hancock,045
+QUNI,United States,Mississippi,28,Harrison,047
+QUNI,United States,Mississippi,28,Hinds,049
+QUNI,United States,Mississippi,28,Holmes,051
+QUNI,United States,Mississippi,28,Itawamba,057
+QUNI,United States,Mississippi,28,Jackson,059
+QUNI,United States,Mississippi,28,Jasper,061
+QUNI,United States,Mississippi,28,Jefferson,063
+QUNI,United States,Mississippi,28,Jefferson Davis,065
+QUNI,United States,Mississippi,28,Jones,067
+QUNI,United States,Mississippi,28,Kemper,069
+QUNI,United States,Mississippi,28,Lafayette,071
+QUNI,United States,Mississippi,28,Lamar,073
+QUNI,United States,Mississippi,28,Lauderdale,075
+QUNI,United States,Mississippi,28,Lawrence,077
+QUNI,United States,Mississippi,28,Lee,081
+QUNI,United States,Mississippi,28,Leflore,083
+QUNI,United States,Mississippi,28,Lincoln,085
+QUNI,United States,Mississippi,28,Madison,089
+QUNI,United States,Mississippi,28,Marion,091
+QUNI,United States,Mississippi,28,Monroe,095
+QUNI,United States,Mississippi,28,Montgomery,097
+QUNI,United States,Mississippi,28,Neshoba,099
+QUNI,United States,Mississippi,28,Newton,101
+QUNI,United States,Mississippi,28,Noxubee,103
+QUNI,United States,Mississippi,28,Panola,107
+QUNI,United States,Mississippi,28,Pearl River,109
+QUNI,United States,Mississippi,28,Perry,111
+QUNI,United States,Mississippi,28,Pike,113
+QUNI,United States,Mississippi,28,Pontotoc,115
+QUNI,United States,Mississippi,28,Prentiss,117
+QUNI,United States,Mississippi,28,Rankin,121
+QUNI,United States,Mississippi,28,Scott,123
+QUNI,United States,Mississippi,28,Sharkey,125
+QUNI,United States,Mississippi,28,Simpson,127
+QUNI,United States,Mississippi,28,Smith,129
+QUNI,United States,Mississippi,28,Stone,131
+QUNI,United States,Mississippi,28,Tallahatchie,135
+QUNI,United States,Mississippi,28,Tishomingo,141
+QUNI,United States,Mississippi,28,Union,145
+QUNI,United States,Mississippi,28,Walthall,147
+QUNI,United States,Mississippi,28,Warren,149
+QUNI,United States,Mississippi,28,Washington,151
+QUNI,United States,Mississippi,28,Wayne,153
+QUNI,United States,Mississippi,28,Webster,155
+QUNI,United States,Mississippi,28,Wilkinson,157
+QUNI,United States,Mississippi,28,Winston,159
+QUNI,United States,Mississippi,28,Yalobusha,161
+QUNI,United States,Mississippi,28,Yazoo,163
+QUNI,United States,Missouri,29,,
+QUNI,United States,Missouri,29,Butler,023
+QUNI,United States,Missouri,29,Dunklin,069
+QUNI,United States,Missouri,29,Pemiscot,155
+QUNI,United States,Missouri,29,Ripley,181
+QUNI,United States,New Jersey,34,,
+QUNI,United States,New Jersey,34,Cape May,009
+QUNI,United States,New Jersey,34,Cumberland,011
+QUNI,United States,North Carolina,37,,
+QUNI,United States,North Carolina,37,Anson,007
+QUNI,United States,North Carolina,37,Bertie,015
+QUNI,United States,North Carolina,37,Bladen,017
+QUNI,United States,North Carolina,37,Brunswick,019
+QUNI,United States,North Carolina,37,Burke,023
+QUNI,United States,North Carolina,37,Camden,029
+QUNI,United States,North Carolina,37,Carteret,031
+QUNI,United States,North Carolina,37,Catawba,035
+QUNI,United States,North Carolina,37,Chatham,037
+QUNI,United States,North Carolina,37,Chowan,041
+QUNI,United States,North Carolina,37,Cleveland,045
+QUNI,United States,North Carolina,37,Columbus,047
+QUNI,United States,North Carolina,37,Craven,049
+QUNI,United States,North Carolina,37,Cumberland,051
+QUNI,United States,North Carolina,37,Currituck,053
+QUNI,United States,North Carolina,37,Dare,055
+QUNI,United States,North Carolina,37,Duplin,061
+QUNI,United States,North Carolina,37,Edgecombe,065
+QUNI,United States,North Carolina,37,Franklin,069
+QUNI,United States,North Carolina,37,Gaston,071
+QUNI,United States,North Carolina,37,Gates,073
+QUNI,United States,North Carolina,37,Granville,077
+QUNI,United States,North Carolina,37,Greene,079
+QUNI,United States,North Carolina,37,Halifax,083
+QUNI,United States,North Carolina,37,Harnett,085
+QUNI,United States,North Carolina,37,Hertford,091
+QUNI,United States,North Carolina,37,Hoke,093
+QUNI,United States,North Carolina,37,Hyde,095
+QUNI,United States,North Carolina,37,Iredell,097
+QUNI,United States,North Carolina,37,Johnston,101
+QUNI,United States,North Carolina,37,Jones,103
+QUNI,United States,North Carolina,37,Lee,105
+QUNI,United States,North Carolina,37,Lenoir,107
+QUNI,United States,North Carolina,37,Martin,117
+QUNI,United States,North Carolina,37,Mecklenburg,119
+QUNI,United States,North Carolina,37,Moore,125
+QUNI,United States,North Carolina,37,Nash,127
+QUNI,United States,North Carolina,37,New Hanover,129
+QUNI,United States,North Carolina,37,Northampton,131
+QUNI,United States,North Carolina,37,Onslow,133
+QUNI,United States,North Carolina,37,Orange,135
+QUNI,United States,North Carolina,37,Pasquotank,139
+QUNI,United States,North Carolina,37,Pender,141
+QUNI,United States,North Carolina,37,Perquimans,143
+QUNI,United States,North Carolina,37,Pitt,147
+QUNI,United States,North Carolina,37,Randolph,151
+QUNI,United States,North Carolina,37,Richmond,153
+QUNI,United States,North Carolina,37,Robeson,155
+QUNI,United States,North Carolina,37,Sampson,163
+QUNI,United States,North Carolina,37,Scotland,165
+QUNI,United States,North Carolina,37,Union,179
+QUNI,United States,North Carolina,37,Wake,183
+QUNI,United States,North Carolina,37,Warren,185
+QUNI,United States,North Carolina,37,Wayne,191
+QUNI,United States,North Carolina,37,Wilson,195
+QUNI,United States,Oklahoma,40,,
+QUNI,United States,Oklahoma,40,Atoka,005
+QUNI,United States,Oklahoma,40,Bryan,013
+QUNI,United States,Oklahoma,40,Carter,019
+QUNI,United States,Oklahoma,40,Choctaw,023
+QUNI,United States,Oklahoma,40,Coal,029
+QUNI,United States,Oklahoma,40,Haskell,061
+QUNI,United States,Oklahoma,40,Hughes,063
+QUNI,United States,Oklahoma,40,Johnston,069
+QUNI,United States,Oklahoma,40,Latimer,077
+QUNI,United States,Oklahoma,40,Le Flore,079
+QUNI,United States,Oklahoma,40,Love,085
+QUNI,United States,Oklahoma,40,McCurtain,089
+QUNI,United States,Oklahoma,40,McIntosh,091
+QUNI,United States,Oklahoma,40,Okfuskee,107
+QUNI,United States,Oklahoma,40,Okmulgee,111
+QUNI,United States,Oklahoma,40,Pittsburg,121
+QUNI,United States,Oklahoma,40,Pushmataha,127
+QUNI,United States,Oklahoma,40,Sequoyah,135
+QUNI,United States,South Carolina,45,,
+QUNI,United States,South Carolina,45,Abbeville,001
+QUNI,United States,South Carolina,45,Aiken,003
+QUNI,United States,South Carolina,45,Allendale,005
+QUNI,United States,South Carolina,45,Anderson,007
+QUNI,United States,South Carolina,45,Bamberg,009
+QUNI,United States,South Carolina,45,Barnwell,011
+QUNI,United States,South Carolina,45,Beaufort,013
+QUNI,United States,South Carolina,45,Berkeley,015
+QUNI,United States,South Carolina,45,Calhoun,017
+QUNI,United States,South Carolina,45,Charleston,019
+QUNI,United States,South Carolina,45,Cherokee,021
+QUNI,United States,South Carolina,45,Chester,023
+QUNI,United States,South Carolina,45,Chesterfield,025
+QUNI,United States,South Carolina,45,Clarendon,027
+QUNI,United States,South Carolina,45,Colleton,029
+QUNI,United States,South Carolina,45,Darlington,031
+QUNI,United States,South Carolina,45,Dillon,033
+QUNI,United States,South Carolina,45,Dorchester,035
+QUNI,United States,South Carolina,45,Edgefield,037
+QUNI,United States,South Carolina,45,Fairfield,039
+QUNI,United States,South Carolina,45,Florence,041
+QUNI,United States,South Carolina,45,Georgetown,043
+QUNI,United States,South Carolina,45,Greenville,045
+QUNI,United States,South Carolina,45,Greenwood,047
+QUNI,United States,South Carolina,45,Hampton,049
+QUNI,United States,South Carolina,45,Horry,051
+QUNI,United States,South Carolina,45,Jasper,053
+QUNI,United States,South Carolina,45,Kershaw,055
+QUNI,United States,South Carolina,45,Lancaster,057
+QUNI,United States,South Carolina,45,Laurens,059
+QUNI,United States,South Carolina,45,Lee,061
+QUNI,United States,South Carolina,45,Lexington,063
+QUNI,United States,South Carolina,45,Marlboro,069
+QUNI,United States,South Carolina,45,McCormick,065
+QUNI,United States,South Carolina,45,Newberry,071
+QUNI,United States,South Carolina,45,Oconee,073
+QUNI,United States,South Carolina,45,Orangeburg,075
+QUNI,United States,South Carolina,45,Pickens,077
+QUNI,United States,South Carolina,45,Richland,079
+QUNI,United States,South Carolina,45,Saluda,081
+QUNI,United States,South Carolina,45,Spartanburg,083
+QUNI,United States,South Carolina,45,Sumter,085
+QUNI,United States,South Carolina,45,Union,087
+QUNI,United States,South Carolina,45,Williamsburg,089
+QUNI,United States,South Carolina,45,York,091
+QUNI,United States,Tennessee,47,,
+QUNI,United States,Tennessee,47,Benton,005
+QUNI,United States,Tennessee,47,Carroll,017
+QUNI,United States,Tennessee,47,Chester,023
+QUNI,United States,Tennessee,47,Coffee,031
+QUNI,United States,Tennessee,47,Decatur,039
+QUNI,United States,Tennessee,47,Dyer,045
+QUNI,United States,Tennessee,47,Fayette,047
+QUNI,United States,Tennessee,47,Franklin,051
+QUNI,United States,Tennessee,47,Gibson,053
+QUNI,United States,Tennessee,47,Grundy,061
+QUNI,United States,Tennessee,47,Hamilton,065
+QUNI,United States,Tennessee,47,Hardeman,069
+QUNI,United States,Tennessee,47,Hardin,071
+QUNI,United States,Tennessee,47,Haywood,075
+QUNI,United States,Tennessee,47,Henry,079
+QUNI,United States,Tennessee,47,Lauderdale,097
+QUNI,United States,Tennessee,47,Lawrence,099
+QUNI,United States,Tennessee,47,Lincoln,103
+QUNI,United States,Tennessee,47,Madison,113
+QUNI,United States,Tennessee,47,Marion,115
+QUNI,United States,Tennessee,47,Obion,131
+QUNI,United States,Tennessee,47,Perry,135
+QUNI,United States,Tennessee,47,Sequatchie,153
+QUNI,United States,Tennessee,47,Shelby,157
+QUNI,United States,Tennessee,47,Stewart,161
+QUNI,United States,Tennessee,47,Tipton,167
+QUNI,United States,Tennessee,47,Warren,177
+QUNI,United States,Tennessee,47,Weakley,183
+QUNI,United States,Texas,48,,
+QUNI,United States,Texas,48,Anderson,001
+QUNI,United States,Texas,48,Angelina,005
+QUNI,United States,Texas,48,Aransas,007
+QUNI,United States,Texas,48,Bastrop,021
+QUNI,United States,Texas,48,Bell,027
+QUNI,United States,Texas,48,Brazoria,039
+QUNI,United States,Texas,48,Brazos,041
+QUNI,United States,Texas,48,Cass,067
+QUNI,United States,Texas,48,Chambers,071
+QUNI,United States,Texas,48,Cherokee,073
+QUNI,United States,Texas,48,Fayette,149
+QUNI,United States,Texas,48,Freestone,161
+QUNI,United States,Texas,48,Galveston,167
+QUNI,United States,Texas,48,Hardin,199
+QUNI,United States,Texas,48,Harris,201
+QUNI,United States,Texas,48,Henderson,213
+QUNI,United States,Texas,48,Hunt,231
+QUNI,United States,Texas,48,Jasper,241
+QUNI,United States,Texas,48,Jefferson,245
+QUNI,United States,Texas,48,Kaufman,257
+QUNI,United States,Texas,48,Leon,289
+QUNI,United States,Texas,48,Liberty,291
+QUNI,United States,Texas,48,Limestone,293
+QUNI,United States,Texas,48,Madison,313
+QUNI,United States,Texas,48,McLennan,309
+QUNI,United States,Texas,48,Orange,361
+QUNI,United States,Texas,48,Polk,373
+QUNI,United States,Texas,48,Robertson,395
+QUNI,United States,Texas,48,Rusk,401
+QUNI,United States,Texas,48,San Jacinto,407
+QUNI,United States,Texas,48,Smith,423
+QUNI,United States,Texas,48,Titus,449
+QUNI,United States,Texas,48,Trinity,455
+QUNI,United States,Texas,48,Upshur,459
+QUNI,United States,Texas,48,Walker,471
+QUNI,United States,Texas,48,Washington,477
+QUNI,United States,Virginia,51,,
+QUNI,United States,Virginia,51,Accomack,001
+QUNI,United States,Virginia,51,Amelia,007
+QUNI,United States,Virginia,51,Brunswick,025
+QUNI,United States,Virginia,51,Caroline,033
+QUNI,United States,Virginia,51,Charles City,036
+QUNI,United States,Virginia,51,"Chesapeake ",550
+QUNI,United States,Virginia,51,Chesterfield,041
+QUNI,United States,Virginia,51,Dinwiddie,053
+QUNI,United States,Virginia,51,Essex,057
+QUNI,United States,Virginia,51,Gloucester,073
+QUNI,United States,Virginia,51,Greensville,081
+QUNI,United States,Virginia,51,Hanover,085
+QUNI,United States,Virginia,51,Henrico,087
+QUNI,United States,Virginia,51,Isle of Wight,093
+QUNI,United States,Virginia,51,James City,095
+QUNI,United States,Virginia,51,King and Queen,097
+QUNI,United States,Virginia,51,King William,101
+QUNI,United States,Virginia,51,Lancaster,103
+QUNI,United States,Virginia,51,Lunenburg,111
+QUNI,United States,Virginia,51,Mathews,115
+QUNI,United States,Virginia,51,Middlesex,119
+QUNI,United States,Virginia,51,New Kent,127
+QUNI,United States,Virginia,51,"Newport News ",700
+QUNI,United States,Virginia,51,Northampton,131
+QUNI,United States,Virginia,51,Northumberland,133
+QUNI,United States,Virginia,51,Nottoway,135
+QUNI,United States,Virginia,51,Prince George,149
+QUNI,United States,Virginia,51,Southampton,175
+QUNI,United States,Virginia,51,"Suffolk ",800
+QUNI,United States,Virginia,51,Surry,181
+QUNI,United States,Virginia,51,Sussex,183
+QUNI,United States,Virginia,51,"Virginia Beach ",810
+QUNI,United States,Virginia,51,York,199

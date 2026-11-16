@@ -1,0 +1,194 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+PIGL,Canada,Alberta,01,,
+PIGL,Canada,British Columbia,02,,
+PIGL,United States,Alaska,02,,
+PIGL,United States,Alaska,02,Anchorage,020
+PIGL,United States,Alaska,02,Bethel,050
+PIGL,United States,Alaska,02,Bristol Bay,060
+PIGL,United States,Alaska,02,Chugach,063
+PIGL,United States,Alaska,02,Copper River,066
+PIGL,United States,Alaska,02,Denali,068
+PIGL,United States,Alaska,02,Dillingham,070
+PIGL,United States,Alaska,02,Fairbanks North Star,090
+PIGL,United States,Alaska,02,Kenai Peninsula,122
+PIGL,United States,Alaska,02,Lake and Peninsula,164
+PIGL,United States,Alaska,02,Matanuska-Susitna,170
+PIGL,United States,Alaska,02,Nome,180
+PIGL,United States,Alaska,02,North Slope,185
+PIGL,United States,Alaska,02,Northwest Arctic,188
+PIGL,United States,Alaska,02,Southeast Fairbanks,240
+PIGL,United States,Alaska,02,Yukon-Koyukuk,290
+PIGL,Canada,Manitoba,03,,
+PIGL,Canada,New Brunswick,04,,
+PIGL,Canada,Nova Scotia,07,,
+PIGL,Canada,Ontario,08,,
+PIGL,Canada,Prince Edward Island,09,,
+PIGL,United States,Connecticut,09,,
+PIGL,Canada,Quebec,10,,
+PIGL,Canada,Saskatchewan,11,,
+PIGL,Canada,Yukon,12,,
+PIGL,Canada,Northwest Territories,13,,
+PIGL,Canada,Nunavut,14,,
+PIGL,United States,Idaho,16,,
+PIGL,United States,Idaho,16,Bannock,005
+PIGL,United States,Idaho,16,Boundary,021
+PIGL,United States,Idaho,16,Fremont,043
+PIGL,United States,Maine,23,,
+PIGL,United States,Maine,23,Androscoggin,001
+PIGL,United States,Maine,23,Aroostook,003
+PIGL,United States,Maine,23,Franklin,007
+PIGL,United States,Maine,23,Hancock,009
+PIGL,United States,Maine,23,Kennebec,011
+PIGL,United States,Maine,23,Knox,013
+PIGL,United States,Maine,23,Lincoln,015
+PIGL,United States,Maine,23,Oxford,017
+PIGL,United States,Maine,23,Penobscot,019
+PIGL,United States,Maine,23,Piscataquis,021
+PIGL,United States,Maine,23,Sagadahoc,023
+PIGL,United States,Maine,23,Somerset,025
+PIGL,United States,Maine,23,Waldo,027
+PIGL,United States,Maine,23,Washington,029
+PIGL,United States,Maryland,24,,
+PIGL,United States,Massachusetts,25,,
+PIGL,United States,Massachusetts,25,Barnstable,001
+PIGL,United States,Massachusetts,25,Bristol,005
+PIGL,United States,Massachusetts,25,Dukes,007
+PIGL,United States,Massachusetts,25,Hampden,013
+PIGL,United States,Massachusetts,25,Hampshire,015
+PIGL,United States,Massachusetts,25,Norfolk,021
+PIGL,United States,Massachusetts,25,Plymouth,023
+PIGL,United States,Massachusetts,25,Worcester,027
+PIGL,United States,Michigan,26,,
+PIGL,United States,Michigan,26,Alcona,001
+PIGL,United States,Michigan,26,Alger,003
+PIGL,United States,Michigan,26,Alpena,007
+PIGL,United States,Michigan,26,Baraga,013
+PIGL,United States,Michigan,26,Charlevoix,029
+PIGL,United States,Michigan,26,Cheboygan,031
+PIGL,United States,Michigan,26,Chippewa,033
+PIGL,United States,Michigan,26,Delta,041
+PIGL,United States,Michigan,26,Dickinson,043
+PIGL,United States,Michigan,26,Emmet,047
+PIGL,United States,Michigan,26,Gogebic,053
+PIGL,United States,Michigan,26,Houghton,061
+PIGL,United States,Michigan,26,Iron,071
+PIGL,United States,Michigan,26,Isabella,073
+PIGL,United States,Michigan,26,Keweenaw,083
+PIGL,United States,Michigan,26,Leelanau,089
+PIGL,United States,Michigan,26,Luce,095
+PIGL,United States,Michigan,26,Mackinac,097
+PIGL,United States,Michigan,26,Macomb,099
+PIGL,United States,Michigan,26,Marquette,103
+PIGL,United States,Michigan,26,Menominee,109
+PIGL,United States,Michigan,26,Ontonagon,131
+PIGL,United States,Michigan,26,Oscoda,135
+PIGL,United States,Michigan,26,Presque Isle,141
+PIGL,United States,Michigan,26,Schoolcraft,153
+PIGL,United States,Michigan,26,Wexford,165
+PIGL,United States,Minnesota,27,,
+PIGL,United States,Minnesota,27,Aitkin,001
+PIGL,United States,Minnesota,27,Anoka,003
+PIGL,United States,Minnesota,27,Becker,005
+PIGL,United States,Minnesota,27,Beltrami,007
+PIGL,United States,Minnesota,27,Carlton,017
+PIGL,United States,Minnesota,27,Cass,021
+PIGL,United States,Minnesota,27,Clearwater,029
+PIGL,United States,Minnesota,27,Cook,031
+PIGL,United States,Minnesota,27,Crow Wing,035
+PIGL,United States,Minnesota,27,Hubbard,057
+PIGL,United States,Minnesota,27,Isanti,059
+PIGL,United States,Minnesota,27,Itasca,061
+PIGL,United States,Minnesota,27,Kanabec,065
+PIGL,United States,Minnesota,27,Kittson,069
+PIGL,United States,Minnesota,27,Koochiching,071
+PIGL,United States,Minnesota,27,Lake,075
+PIGL,United States,Minnesota,27,Lake of the Woods,077
+PIGL,United States,Minnesota,27,Marshall,089
+PIGL,United States,Minnesota,27,Morrison,097
+PIGL,United States,Minnesota,27,Norman,107
+PIGL,United States,Minnesota,27,Otter Tail,111
+PIGL,United States,Minnesota,27,Pine,115
+PIGL,United States,Minnesota,27,Roseau,135
+PIGL,United States,Minnesota,27,St. Louis,137
+PIGL,United States,Minnesota,27,Wabasha,157
+PIGL,United States,Montana,30,,
+PIGL,United States,Montana,30,Carbon,009
+PIGL,United States,New Hampshire,33,,
+PIGL,United States,New Hampshire,33,Cheshire,005
+PIGL,United States,New Hampshire,33,Coos,007
+PIGL,United States,New Hampshire,33,Grafton,009
+PIGL,United States,New Jersey,34,,
+PIGL,United States,New Jersey,34,Passaic,031
+PIGL,United States,New Jersey,34,Sussex,037
+PIGL,United States,New York,36,,
+PIGL,United States,New York,36,Cattaraugus,009
+PIGL,United States,New York,36,Essex,031
+PIGL,United States,New York,36,Franklin,033
+PIGL,United States,New York,36,Greene,039
+PIGL,United States,New York,36,Hamilton,041
+PIGL,United States,New York,36,Herkimer,043
+PIGL,United States,New York,36,Jefferson,045
+PIGL,United States,New York,36,Orange,071
+PIGL,United States,New York,36,St. Lawrence,089
+PIGL,United States,New York,36,Washington,115
+PIGL,United States,Pennsylvania,42,,
+PIGL,United States,Pennsylvania,42,Allegheny,003
+PIGL,United States,Pennsylvania,42,Armstrong,005
+PIGL,United States,Pennsylvania,42,Beaver,007
+PIGL,United States,Pennsylvania,42,Butler,019
+PIGL,United States,Pennsylvania,42,Clinton,035
+PIGL,United States,Pennsylvania,42,Franklin,055
+PIGL,United States,Pennsylvania,42,Westmoreland,129
+PIGL,United States,Rhode Island,44,,
+PIGL,United States,South Dakota,46,,
+PIGL,United States,South Dakota,46,Custer,033
+PIGL,United States,South Dakota,46,Lawrence,081
+PIGL,United States,South Dakota,46,Pennington,103
+PIGL,United States,Vermont,50,,
+PIGL,United States,Vermont,50,Addison,001
+PIGL,United States,Vermont,50,Caledonia,005
+PIGL,United States,Vermont,50,Essex,009
+PIGL,United States,Vermont,50,Lamoille,015
+PIGL,United States,Vermont,50,Orange,017
+PIGL,United States,Vermont,50,Orleans,019
+PIGL,United States,Vermont,50,Windham,025
+PIGL,United States,Wisconsin,55,,
+PIGL,United States,Wisconsin,55,Ashland,003
+PIGL,United States,Wisconsin,55,Bayfield,007
+PIGL,United States,Wisconsin,55,Brown,009
+PIGL,United States,Wisconsin,55,Door,029
+PIGL,United States,Wisconsin,55,Douglas,031
+PIGL,United States,Wisconsin,55,Florence,037
+PIGL,United States,Wisconsin,55,Fond du Lac,039
+PIGL,United States,Wisconsin,55,Forest,041
+PIGL,United States,Wisconsin,55,Iron,051
+PIGL,United States,Wisconsin,55,Kewaunee,061
+PIGL,United States,Wisconsin,55,Langlade,067
+PIGL,United States,Wisconsin,55,Lincoln,069
+PIGL,United States,Wisconsin,55,Manitowoc,071
+PIGL,United States,Wisconsin,55,Marathon,073
+PIGL,United States,Wisconsin,55,Marinette,075
+PIGL,United States,Wisconsin,55,Milwaukee,079
+PIGL,United States,Wisconsin,55,Oconto,083
+PIGL,United States,Wisconsin,55,Oneida,085
+PIGL,United States,Wisconsin,55,Portage,097
+PIGL,United States,Wisconsin,55,Price,099
+PIGL,United States,Wisconsin,55,Sawyer,113
+PIGL,United States,Wisconsin,55,Sheboygan,117
+PIGL,United States,Wisconsin,55,Taylor,119
+PIGL,United States,Wisconsin,55,Vilas,125
+PIGL,United States,Wisconsin,55,Washburn,129
+PIGL,United States,Wisconsin,55,Washington,131
+PIGL,United States,Wisconsin,55,Waupaca,135
+PIGL,United States,Wisconsin,55,Waushara,137
+PIGL,United States,Wisconsin,55,Wood,141
+PIGL,United States,Wyoming,56,,
+PIGL,United States,Wyoming,56,Albany,001
+PIGL,United States,Wyoming,56,Crook,011
+PIGL,United States,Wyoming,56,Johnson,019
+PIGL,United States,Wyoming,56,Park,029
+PIGL,United States,Wyoming,56,Washakie,043
+PIGL,United States,Wyoming,56,Weston,045
+PIGL,Canada,Labrador,LB,,
+PIGL,Canada,Newfoundland,NF,,

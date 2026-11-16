@@ -1,0 +1,229 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+RUPH,United States,Arkansas,05,,
+RUPH,United States,Arkansas,05,Baxter,005
+RUPH,United States,Arkansas,05,Newton,101
+RUPH,United States,Arkansas,05,Polk,113
+RUPH,United States,Arkansas,05,Searcy,129
+RUPH,United States,Arkansas,05,Stone,137
+RUPH,United States,Connecticut,09,,
+RUPH,United States,Delaware,10,,
+RUPH,United States,District of Columbia,11,,
+RUPH,United States,District of Columbia,11,District of Columbia,001
+RUPH,United States,Georgia,13,,
+RUPH,United States,Georgia,13,Lumpkin,187
+RUPH,United States,Georgia,13,Rabun,241
+RUPH,United States,Illinois,17,,
+RUPH,United States,Illinois,17,Jersey,083
+RUPH,United States,Illinois,17,Lake,097
+RUPH,United States,Illinois,17,Massac,127
+RUPH,United States,Illinois,17,Morgan,137
+RUPH,United States,Indiana,18,,
+RUPH,United States,Indiana,18,Crawford,025
+RUPH,United States,Indiana,18,Floyd,043
+RUPH,United States,Indiana,18,Harrison,061
+RUPH,United States,Indiana,18,Jefferson,077
+RUPH,United States,Indiana,18,Martin,101
+RUPH,United States,Kentucky,21,,
+RUPH,United States,Kentucky,21,Bell,013
+RUPH,United States,Kentucky,21,Breckinridge,027
+RUPH,United States,Kentucky,21,Campbell,037
+RUPH,United States,Kentucky,21,Carroll,041
+RUPH,United States,Kentucky,21,Clinton,053
+RUPH,United States,Kentucky,21,Hickman,105
+RUPH,United States,Kentucky,21,Larue,123
+RUPH,United States,Kentucky,21,Lee,129
+RUPH,United States,Kentucky,21,Lewis,135
+RUPH,United States,Kentucky,21,Martin,159
+RUPH,United States,Kentucky,21,McCreary,147
+RUPH,United States,Kentucky,21,Menifee,165
+RUPH,United States,Kentucky,21,Metcalfe,169
+RUPH,United States,Kentucky,21,Oldham,185
+RUPH,United States,Kentucky,21,Perry,193
+RUPH,United States,Kentucky,21,Pike,195
+RUPH,United States,Kentucky,21,Powell,197
+RUPH,United States,Kentucky,21,Russell,207
+RUPH,United States,Kentucky,21,Trimble,223
+RUPH,United States,Kentucky,21,Wayne,231
+RUPH,United States,Maryland,24,,
+RUPH,United States,Massachusetts,25,,
+RUPH,United States,Massachusetts,25,Barnstable,001
+RUPH,United States,Massachusetts,25,Bristol,005
+RUPH,United States,Massachusetts,25,Franklin,011
+RUPH,United States,Massachusetts,25,Hampden,013
+RUPH,United States,Massachusetts,25,Hampshire,015
+RUPH,United States,Massachusetts,25,Nantucket,019
+RUPH,United States,Massachusetts,25,Norfolk,021
+RUPH,United States,Massachusetts,25,Plymouth,023
+RUPH,United States,Michigan,26,,
+RUPH,United States,New Jersey,34,,
+RUPH,United States,New Jersey,34,Bergen,003
+RUPH,United States,New Jersey,34,Burlington,005
+RUPH,United States,New Jersey,34,Camden,007
+RUPH,United States,New Jersey,34,Cape May,009
+RUPH,United States,New Jersey,34,Cumberland,011
+RUPH,United States,New Jersey,34,Essex,013
+RUPH,United States,New Jersey,34,Hudson,017
+RUPH,United States,New Jersey,34,Hunterdon,019
+RUPH,United States,New Jersey,34,Mercer,021
+RUPH,United States,New Jersey,34,Middlesex,023
+RUPH,United States,New Jersey,34,Monmouth,025
+RUPH,United States,New Jersey,34,Morris,027
+RUPH,United States,New Jersey,34,Passaic,031
+RUPH,United States,New Jersey,34,Somerset,035
+RUPH,United States,New Jersey,34,Sussex,037
+RUPH,United States,New Jersey,34,Union,039
+RUPH,United States,New Jersey,34,Warren,041
+RUPH,United States,New York,36,,
+RUPH,United States,New York,36,Albany,001
+RUPH,United States,New York,36,Bronx,005
+RUPH,United States,New York,36,Cayuga,011
+RUPH,United States,New York,36,Kings,047
+RUPH,United States,New York,36,Nassau,059
+RUPH,United States,New York,36,New York,061
+RUPH,United States,New York,36,Orange,071
+RUPH,United States,New York,36,Putnam,079
+RUPH,United States,New York,36,Queens,081
+RUPH,United States,New York,36,Richmond,085
+RUPH,United States,New York,36,Rockland,087
+RUPH,United States,New York,36,Suffolk,103
+RUPH,United States,New York,36,Tompkins,109
+RUPH,United States,New York,36,Ulster,111
+RUPH,United States,New York,36,Wayne,117
+RUPH,United States,New York,36,Westchester,119
+RUPH,United States,North Carolina,37,,
+RUPH,United States,North Carolina,37,Caldwell,027
+RUPH,United States,North Carolina,37,Guilford,081
+RUPH,United States,North Carolina,37,Henderson,089
+RUPH,United States,North Carolina,37,McDowell,111
+RUPH,United States,North Carolina,37,Mitchell,121
+RUPH,United States,North Carolina,37,Polk,149
+RUPH,United States,North Carolina,37,Transylvania,175
+RUPH,United States,North Carolina,37,Yancey,199
+RUPH,United States,Ohio,39,,
+RUPH,United States,Ohio,39,Adams,001
+RUPH,United States,Ohio,39,Ashtabula,007
+RUPH,United States,Ohio,39,Athens,009
+RUPH,United States,Ohio,39,Cuyahoga,035
+RUPH,United States,Ohio,39,Highland,071
+RUPH,United States,Ohio,39,Jefferson,081
+RUPH,United States,Ohio,39,Lake,085
+RUPH,United States,Ohio,39,Lawrence,087
+RUPH,United States,Ohio,39,Lorain,093
+RUPH,United States,Ohio,39,Meigs,105
+RUPH,United States,Ohio,39,Scioto,145
+RUPH,United States,Ohio,39,Vinton,163
+RUPH,United States,Ohio,39,Washington,167
+RUPH,United States,Pennsylvania,42,,
+RUPH,United States,Pennsylvania,42,Adams,001
+RUPH,United States,Pennsylvania,42,Allegheny,003
+RUPH,United States,Pennsylvania,42,Beaver,007
+RUPH,United States,Pennsylvania,42,Bedford,009
+RUPH,United States,Pennsylvania,42,Berks,011
+RUPH,United States,Pennsylvania,42,Blair,013
+RUPH,United States,Pennsylvania,42,Bucks,017
+RUPH,United States,Pennsylvania,42,Centre,027
+RUPH,United States,Pennsylvania,42,Chester,029
+RUPH,United States,Pennsylvania,42,Cumberland,041
+RUPH,United States,Pennsylvania,42,Dauphin,043
+RUPH,United States,Pennsylvania,42,Delaware,045
+RUPH,United States,Pennsylvania,42,Erie,049
+RUPH,United States,Pennsylvania,42,Fayette,051
+RUPH,United States,Pennsylvania,42,Franklin,055
+RUPH,United States,Pennsylvania,42,Huntingdon,061
+RUPH,United States,Pennsylvania,42,Juniata,067
+RUPH,United States,Pennsylvania,42,Lancaster,071
+RUPH,United States,Pennsylvania,42,Lebanon,075
+RUPH,United States,Pennsylvania,42,Lehigh,077
+RUPH,United States,Pennsylvania,42,Mifflin,087
+RUPH,United States,Pennsylvania,42,Montgomery,091
+RUPH,United States,Pennsylvania,42,Northampton,095
+RUPH,United States,Pennsylvania,42,Philadelphia,101
+RUPH,United States,Pennsylvania,42,Schuylkill,107
+RUPH,United States,Pennsylvania,42,Westmoreland,129
+RUPH,United States,Pennsylvania,42,York,133
+RUPH,United States,Rhode Island,44,,
+RUPH,United States,Rhode Island,44,Bristol,001
+RUPH,United States,Rhode Island,44,Newport,005
+RUPH,United States,South Carolina,45,,
+RUPH,United States,Tennessee,47,,
+RUPH,United States,Tennessee,47,Cocke,029
+RUPH,United States,Tennessee,47,Grundy,061
+RUPH,United States,Tennessee,47,Hancock,067
+RUPH,United States,Tennessee,47,Hawkins,073
+RUPH,United States,Tennessee,47,Jefferson,089
+RUPH,United States,Tennessee,47,Knox,093
+RUPH,United States,Tennessee,47,Marion,115
+RUPH,United States,Tennessee,47,Overton,133
+RUPH,United States,Tennessee,47,Rhea,143
+RUPH,United States,Tennessee,47,Stewart,161
+RUPH,United States,Tennessee,47,Union,173
+RUPH,United States,Tennessee,47,Van Buren,175
+RUPH,United States,Vermont,50,,
+RUPH,United States,Virginia,51,,
+RUPH,United States,Virginia,51,Accomack,001
+RUPH,United States,Virginia,51,Albemarle,003
+RUPH,United States,Virginia,51,Alleghany,005
+RUPH,United States,Virginia,51,Amherst,009
+RUPH,United States,Virginia,51,Arlington,013
+RUPH,United States,Virginia,51,Augusta,015
+RUPH,United States,Virginia,51,Bedford,019
+RUPH,United States,Virginia,51,Botetourt,023
+RUPH,United States,Virginia,51,Buchanan,027
+RUPH,United States,Virginia,51,Campbell,031
+RUPH,United States,Virginia,51,Chesterfield,041
+RUPH,United States,Virginia,51,Clarke,043
+RUPH,United States,Virginia,51,Craig,045
+RUPH,United States,Virginia,51,Culpeper,047
+RUPH,United States,Virginia,51,Dickenson,051
+RUPH,United States,Virginia,51,Fairfax,059
+RUPH,United States,Virginia,51,Fauquier,061
+RUPH,United States,Virginia,51,Floyd,063
+RUPH,United States,Virginia,51,Franklin,067
+RUPH,United States,Virginia,51,Giles,071
+RUPH,United States,Virginia,51,Grayson,077
+RUPH,United States,Virginia,51,Greene,079
+RUPH,United States,Virginia,51,Henry,089
+RUPH,United States,Virginia,51,Highland,091
+RUPH,United States,Virginia,51,Isle of Wight,093
+RUPH,United States,Virginia,51,James City,095
+RUPH,United States,Virginia,51,King George,099
+RUPH,United States,Virginia,51,Lancaster,103
+RUPH,United States,Virginia,51,Lee,105
+RUPH,United States,Virginia,51,Loudoun,107
+RUPH,United States,Virginia,51,Madison,113
+RUPH,United States,Virginia,51,Middlesex,119
+RUPH,United States,Virginia,51,Montgomery,121
+RUPH,United States,Virginia,51,Nelson,125
+RUPH,United States,Virginia,51,Orange,137
+RUPH,United States,Virginia,51,Page,139
+RUPH,United States,Virginia,51,Patrick,141
+RUPH,United States,Virginia,51,Prince William,153
+RUPH,United States,Virginia,51,Pulaski,155
+RUPH,United States,Virginia,51,Rappahannock,157
+RUPH,United States,Virginia,51,Richmond,159
+RUPH,United States,Virginia,51,Roanoke,161
+RUPH,United States,Virginia,51,Rockbridge,163
+RUPH,United States,Virginia,51,Rockingham,165
+RUPH,United States,Virginia,51,Russell,167
+RUPH,United States,Virginia,51,Scott,169
+RUPH,United States,Virginia,51,Shenandoah,171
+RUPH,United States,Virginia,51,Southampton,175
+RUPH,United States,Virginia,51,Spotsylvania,177
+RUPH,United States,Virginia,51,Warren,187
+RUPH,United States,Virginia,51,Westmoreland,193
+RUPH,United States,Virginia,51,Wise,195
+RUPH,United States,Virginia,51,Wythe,197
+RUPH,United States,West Virginia,54,,
+RUPH,United States,West Virginia,54,Berkeley,003
+RUPH,United States,West Virginia,54,Calhoun,013
+RUPH,United States,West Virginia,54,Fayette,019
+RUPH,United States,West Virginia,54,Hardy,031
+RUPH,United States,West Virginia,54,Logan,045
+RUPH,United States,West Virginia,54,McDowell,047
+RUPH,United States,West Virginia,54,Monongalia,061
+RUPH,United States,West Virginia,54,Ohio,069
+RUPH,United States,West Virginia,54,Raleigh,081
+RUPH,United States,West Virginia,54,Summers,089
+RUPH,United States,West Virginia,54,Webster,101
+RUPH,United States,West Virginia,54,Wyoming,109

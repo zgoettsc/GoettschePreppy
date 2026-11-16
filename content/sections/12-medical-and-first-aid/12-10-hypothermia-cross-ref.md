@@ -15,6 +15,7 @@ sources:
   - noaa-national-weather-service-wind-chill-chart-frost-89f6d7
   - noaa-national-weather-service-during-extremely-cold-9c1973
   - wilderness-medical-society-mcintosh-se-et-al-wildern-efe780
+  - american-academy-of-family-physicians-afp-frostbite-e337db
 related:
   - 08-05-hypothermia-frostbite
   - 11-01-cold-weather-layering

@@ -18,7 +18,6 @@ sources:
   - american-heart-association-2020-aha-guidelines-pedia-c1bb66
   - american-academy-of-allergy-asthma-and-immunology-aa-1ca82e
   - cdc-recognizing-and-responding-to-anaphylaxis-645825
-  - american-academy-of-pediatrics-sicherer-sh-simons-fe-f0952d
 related:
   - 12-01-first-aid-kit
   - 12-16-triage-and-hard-calls
@@ -96,8 +95,8 @@ NEVER abdominal thrusts under 1. NEVER hold an infant upside down by the feet.
 
 {{figure fig-choking-infant}}
 
-**Age 1 through adult** (2025 American Heart Association and American Red Cross first-aid
-guidance: the same 5-and-5 rhythm as the infant; MedlinePlus, Abdominal thrusts):
+**Age 1 through adult** (current American Heart Association and American Red Cross teaching: the
+same 5-and-5 rhythm as the infant; MedlinePlus, Abdominal thrusts; your class is the authority):
 
 ```
 1. "Are you choking?" No air, no voice: act. Bend them forward.

@@ -1,0 +1,287 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+RUPA,Canada,Alberta,01,,
+RUPA,Canada,British Columbia,02,,
+RUPA,United States,Alaska,02,,
+RUPA,United States,Alaska,02,Haines,100
+RUPA,United States,Alaska,02,Juneau,110
+RUPA,United States,Alaska,02,Ketchikan Gateway,130
+RUPA,United States,Alaska,02,Sitka,220
+RUPA,United States,Arizona,04,,
+RUPA,United States,Arizona,04,Apache,001
+RUPA,United States,Arizona,04,Cochise,003
+RUPA,United States,Arizona,04,Gila,007
+RUPA,United States,Arizona,04,Graham,009
+RUPA,United States,Arizona,04,Greenlee,011
+RUPA,United States,California,06,,
+RUPA,United States,California,06,Alameda,001
+RUPA,United States,California,06,Alpine,003
+RUPA,United States,California,06,Amador,005
+RUPA,United States,California,06,Butte,007
+RUPA,United States,California,06,Calaveras,009
+RUPA,United States,California,06,Colusa,011
+RUPA,United States,California,06,Contra Costa,013
+RUPA,United States,California,06,Del Norte,015
+RUPA,United States,California,06,El Dorado,017
+RUPA,United States,California,06,Fresno,019
+RUPA,United States,California,06,Glenn,021
+RUPA,United States,California,06,Humboldt,023
+RUPA,United States,California,06,Kern,029
+RUPA,United States,California,06,Lake,033
+RUPA,United States,California,06,Lassen,035
+RUPA,United States,California,06,Los Angeles,037
+RUPA,United States,California,06,Marin,041
+RUPA,United States,California,06,Mariposa,043
+RUPA,United States,California,06,Mendocino,045
+RUPA,United States,California,06,Modoc,049
+RUPA,United States,California,06,Monterey,053
+RUPA,United States,California,06,Napa,055
+RUPA,United States,California,06,Nevada,057
+RUPA,United States,California,06,Placer,061
+RUPA,United States,California,06,Plumas,063
+RUPA,United States,California,06,Riverside,065
+RUPA,United States,California,06,San Bernardino,071
+RUPA,United States,California,06,San Diego,073
+RUPA,United States,California,06,San Francisco,075
+RUPA,United States,California,06,San Luis Obispo,079
+RUPA,United States,California,06,San Mateo,081
+RUPA,United States,California,06,Santa Barbara,083
+RUPA,United States,California,06,Santa Clara,085
+RUPA,United States,California,06,Santa Cruz,087
+RUPA,United States,California,06,Shasta,089
+RUPA,United States,California,06,Sierra,091
+RUPA,United States,California,06,Siskiyou,093
+RUPA,United States,California,06,Sonoma,097
+RUPA,United States,California,06,Tehama,103
+RUPA,United States,California,06,Trinity,105
+RUPA,United States,California,06,Tulare,107
+RUPA,United States,California,06,Tuolumne,109
+RUPA,Canada,Ontario,08,,
+RUPA,United States,Colorado,08,,
+RUPA,United States,Colorado,08,Archuleta,007
+RUPA,United States,Colorado,08,Boulder,013
+RUPA,United States,Colorado,08,Conejos,021
+RUPA,United States,Colorado,08,Delta,029
+RUPA,United States,Colorado,08,Dolores,033
+RUPA,United States,Colorado,08,Douglas,035
+RUPA,United States,Colorado,08,Eagle,037
+RUPA,United States,Colorado,08,El Paso,041
+RUPA,United States,Colorado,08,Gunnison,051
+RUPA,United States,Colorado,08,La Plata,067
+RUPA,United States,Colorado,08,Mesa,077
+RUPA,United States,Colorado,08,Montezuma,083
+RUPA,United States,Colorado,08,Ouray,091
+RUPA,United States,Colorado,08,Pitkin,097
+RUPA,United States,Colorado,08,Rio Blanco,103
+RUPA,United States,Colorado,08,Routt,107
+RUPA,United States,Colorado,08,San Juan,111
+RUPA,United States,Idaho,16,,
+RUPA,United States,Idaho,16,Ada,001
+RUPA,United States,Idaho,16,Adams,003
+RUPA,United States,Idaho,16,Bear Lake,007
+RUPA,United States,Idaho,16,Benewah,009
+RUPA,United States,Idaho,16,Blaine,013
+RUPA,United States,Idaho,16,Boise,015
+RUPA,United States,Idaho,16,Bonner,017
+RUPA,United States,Idaho,16,Boundary,021
+RUPA,United States,Idaho,16,Caribou,029
+RUPA,United States,Idaho,16,Clearwater,035
+RUPA,United States,Idaho,16,Custer,037
+RUPA,United States,Idaho,16,Elmore,039
+RUPA,United States,Idaho,16,Fremont,043
+RUPA,United States,Idaho,16,Idaho,049
+RUPA,United States,Idaho,16,Kootenai,055
+RUPA,United States,Idaho,16,Latah,057
+RUPA,United States,Idaho,16,Lemhi,059
+RUPA,United States,Idaho,16,Lewis,061
+RUPA,United States,Idaho,16,Nez Perce,069
+RUPA,United States,Idaho,16,Shoshone,079
+RUPA,United States,Idaho,16,Teton,081
+RUPA,United States,Idaho,16,Valley,085
+RUPA,United States,Idaho,16,Washington,087
+RUPA,United States,Illinois,17,,
+RUPA,United States,Iowa,19,,
+RUPA,United States,Massachusetts,25,,
+RUPA,United States,Massachusetts,25,Suffolk,025
+RUPA,United States,Michigan,26,,
+RUPA,United States,Michigan,26,Alger,003
+RUPA,United States,Michigan,26,Alpena,007
+RUPA,United States,Michigan,26,Antrim,009
+RUPA,United States,Michigan,26,Baraga,013
+RUPA,United States,Michigan,26,Benzie,019
+RUPA,United States,Michigan,26,Charlevoix,029
+RUPA,United States,Michigan,26,Cheboygan,031
+RUPA,United States,Michigan,26,Chippewa,033
+RUPA,United States,Michigan,26,Delta,041
+RUPA,United States,Michigan,26,Dickinson,043
+RUPA,United States,Michigan,26,Emmet,047
+RUPA,United States,Michigan,26,Gogebic,053
+RUPA,United States,Michigan,26,Grand Traverse,055
+RUPA,United States,Michigan,26,Houghton,061
+RUPA,United States,Michigan,26,Iron,071
+RUPA,United States,Michigan,26,Keweenaw,083
+RUPA,United States,Michigan,26,Leelanau,089
+RUPA,United States,Michigan,26,Mackinac,097
+RUPA,United States,Michigan,26,Marquette,103
+RUPA,United States,Michigan,26,Menominee,109
+RUPA,United States,Michigan,26,Ontonagon,131
+RUPA,United States,Michigan,26,Presque Isle,141
+RUPA,United States,Michigan,26,Schoolcraft,153
+RUPA,United States,Minnesota,27,,
+RUPA,United States,Minnesota,27,Carlton,017
+RUPA,United States,Minnesota,27,Cook,031
+RUPA,United States,Minnesota,27,Lake,075
+RUPA,United States,Minnesota,27,St. Louis,137
+RUPA,United States,Montana,30,,
+RUPA,United States,Montana,30,Carbon,009
+RUPA,United States,Montana,30,Fergus,027
+RUPA,United States,Montana,30,Flathead,029
+RUPA,United States,Montana,30,Gallatin,031
+RUPA,United States,Montana,30,Glacier,035
+RUPA,United States,Montana,30,Lake,047
+RUPA,United States,Montana,30,Lewis and Clark,049
+RUPA,United States,Montana,30,Lincoln,053
+RUPA,United States,Montana,30,Mineral,061
+RUPA,United States,Montana,30,Missoula,063
+RUPA,United States,Montana,30,Park,067
+RUPA,United States,Montana,30,Phillips,071
+RUPA,United States,Montana,30,Powder River,075
+RUPA,United States,Montana,30,Powell,077
+RUPA,United States,Montana,30,Ravalli,081
+RUPA,United States,Montana,30,Sanders,089
+RUPA,United States,Montana,30,Stillwater,095
+RUPA,United States,Montana,30,Sweet Grass,097
+RUPA,United States,Montana,30,Teton,099
+RUPA,United States,Nevada,32,,
+RUPA,United States,Nevada,32,Carson City,510
+RUPA,United States,Nevada,32,Douglas,005
+RUPA,United States,Nevada,32,Elko,007
+RUPA,United States,Nevada,32,Washoe,031
+RUPA,United States,New Mexico,35,,
+RUPA,United States,New Mexico,35,Catron,003
+RUPA,United States,New Mexico,35,Colfax,007
+RUPA,United States,New Mexico,35,Grant,017
+RUPA,United States,New Mexico,35,Los Alamos,028
+RUPA,United States,New Mexico,35,Mora,033
+RUPA,United States,New Mexico,35,Rio Arriba,039
+RUPA,United States,New Mexico,35,San Juan,045
+RUPA,United States,New Mexico,35,San Miguel,047
+RUPA,United States,New Mexico,35,Sandoval,043
+RUPA,United States,New Mexico,35,Santa Fe,049
+RUPA,United States,New Mexico,35,Sierra,051
+RUPA,United States,New Mexico,35,Taos,055
+RUPA,United States,Oregon,41,,
+RUPA,United States,Oregon,41,Baker,001
+RUPA,United States,Oregon,41,Benton,003
+RUPA,United States,Oregon,41,Clackamas,005
+RUPA,United States,Oregon,41,Clatsop,007
+RUPA,United States,Oregon,41,Coos,011
+RUPA,United States,Oregon,41,Curry,015
+RUPA,United States,Oregon,41,Deschutes,017
+RUPA,United States,Oregon,41,Douglas,019
+RUPA,United States,Oregon,41,Grant,023
+RUPA,United States,Oregon,41,Hood River,027
+RUPA,United States,Oregon,41,Jackson,029
+RUPA,United States,Oregon,41,Jefferson,031
+RUPA,United States,Oregon,41,Josephine,033
+RUPA,United States,Oregon,41,Klamath,035
+RUPA,United States,Oregon,41,Lane,039
+RUPA,United States,Oregon,41,Lincoln,041
+RUPA,United States,Oregon,41,Linn,043
+RUPA,United States,Oregon,41,Marion,047
+RUPA,United States,Oregon,41,Multnomah,051
+RUPA,United States,Oregon,41,Polk,053
+RUPA,United States,Oregon,41,Tillamook,057
+RUPA,United States,Oregon,41,Umatilla,059
+RUPA,United States,Oregon,41,Union,061
+RUPA,United States,Oregon,41,Wallowa,063
+RUPA,United States,Oregon,41,Wasco,065
+RUPA,United States,Oregon,41,Washington,067
+RUPA,United States,Oregon,41,Yamhill,071
+RUPA,United States,South Dakota,46,,
+RUPA,United States,South Dakota,46,Lawrence,081
+RUPA,United States,South Dakota,46,Pennington,103
+RUPA,United States,Utah,49,,
+RUPA,United States,Utah,49,Box Elder,003
+RUPA,United States,Utah,49,Cache,005
+RUPA,United States,Utah,49,Daggett,009
+RUPA,United States,Utah,49,Davis,011
+RUPA,United States,Utah,49,Duchesne,013
+RUPA,United States,Utah,49,Emery,015
+RUPA,United States,Utah,49,Grand,019
+RUPA,United States,Utah,49,Juab,023
+RUPA,United States,Utah,49,Salt Lake,035
+RUPA,United States,Utah,49,San Juan,037
+RUPA,United States,Utah,49,Sanpete,039
+RUPA,United States,Utah,49,Summit,043
+RUPA,United States,Utah,49,Tooele,045
+RUPA,United States,Utah,49,Uintah,047
+RUPA,United States,Utah,49,Utah,049
+RUPA,United States,Utah,49,Wasatch,051
+RUPA,United States,Utah,49,Weber,057
+RUPA,United States,Washington,53,,
+RUPA,United States,Washington,53,Asotin,003
+RUPA,United States,Washington,53,Chelan,007
+RUPA,United States,Washington,53,Clallam,009
+RUPA,United States,Washington,53,Clark,011
+RUPA,United States,Washington,53,Columbia,013
+RUPA,United States,Washington,53,Cowlitz,015
+RUPA,United States,Washington,53,Ferry,019
+RUPA,United States,Washington,53,Garfield,023
+RUPA,United States,Washington,53,Grays Harbor,027
+RUPA,United States,Washington,53,Island,029
+RUPA,United States,Washington,53,Jefferson,031
+RUPA,United States,Washington,53,King,033
+RUPA,United States,Washington,53,Kitsap,035
+RUPA,United States,Washington,53,Kittitas,037
+RUPA,United States,Washington,53,Klickitat,039
+RUPA,United States,Washington,53,Lewis,041
+RUPA,United States,Washington,53,Mason,045
+RUPA,United States,Washington,53,Okanogan,047
+RUPA,United States,Washington,53,Pacific,049
+RUPA,United States,Washington,53,Pend Oreille,051
+RUPA,United States,Washington,53,Pierce,053
+RUPA,United States,Washington,53,San Juan,055
+RUPA,United States,Washington,53,Skagit,057
+RUPA,United States,Washington,53,Skamania,059
+RUPA,United States,Washington,53,Snohomish,061
+RUPA,United States,Washington,53,Spokane,063
+RUPA,United States,Washington,53,Stevens,065
+RUPA,United States,Washington,53,Thurston,067
+RUPA,United States,Washington,53,Wahkiakum,069
+RUPA,United States,Washington,53,Walla Walla,071
+RUPA,United States,Washington,53,Whatcom,073
+RUPA,United States,Washington,53,Whitman,075
+RUPA,United States,Washington,53,Yakima,077
+RUPA,United States,Wisconsin,55,,
+RUPA,United States,Wisconsin,55,Ashland,003
+RUPA,United States,Wisconsin,55,Bayfield,007
+RUPA,United States,Wisconsin,55,Door,029
+RUPA,United States,Wisconsin,55,Douglas,031
+RUPA,United States,Wisconsin,55,Florence,037
+RUPA,United States,Wisconsin,55,Forest,041
+RUPA,United States,Wisconsin,55,Iron,051
+RUPA,United States,Wisconsin,55,Kewaunee,061
+RUPA,United States,Wisconsin,55,Lincoln,069
+RUPA,United States,Wisconsin,55,Manitowoc,071
+RUPA,United States,Wisconsin,55,Marinette,075
+RUPA,United States,Wisconsin,55,Oconto,083
+RUPA,United States,Wisconsin,55,Oneida,085
+RUPA,United States,Wisconsin,55,Price,099
+RUPA,United States,Wisconsin,55,Taylor,119
+RUPA,United States,Wisconsin,55,Vilas,125
+RUPA,United States,Wisconsin,55,Washburn,129
+RUPA,United States,Wisconsin,55,Waushara,137
+RUPA,United States,Wyoming,56,,
+RUPA,United States,Wyoming,56,Albany,001
+RUPA,United States,Wyoming,56,Big Horn,003
+RUPA,United States,Wyoming,56,Carbon,007
+RUPA,United States,Wyoming,56,Crook,011
+RUPA,United States,Wyoming,56,Fremont,013
+RUPA,United States,Wyoming,56,Johnson,019
+RUPA,United States,Wyoming,56,Lincoln,023
+RUPA,United States,Wyoming,56,Natrona,025
+RUPA,United States,Wyoming,56,Park,029
+RUPA,United States,Wyoming,56,Sheridan,033
+RUPA,United States,Wyoming,56,Sublette,035
+RUPA,United States,Wyoming,56,Teton,039

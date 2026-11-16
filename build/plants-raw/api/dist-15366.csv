@@ -1,0 +1,55 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+LAOC,Canada,Alberta,01,,
+LAOC,Canada,British Columbia,02,,
+LAOC,United States,Idaho,16,,
+LAOC,United States,Idaho,16,Adams,003
+LAOC,United States,Idaho,16,Benewah,009
+LAOC,United States,Idaho,16,Bonner,017
+LAOC,United States,Idaho,16,Cassia,031
+LAOC,United States,Idaho,16,Idaho,049
+LAOC,United States,Idaho,16,Kootenai,055
+LAOC,United States,Idaho,16,Latah,057
+LAOC,United States,Idaho,16,Payette,075
+LAOC,United States,Idaho,16,Shoshone,079
+LAOC,United States,Idaho,16,Valley,085
+LAOC,United States,Montana,30,,
+LAOC,United States,Montana,30,Deer Lodge,023
+LAOC,United States,Montana,30,Flathead,029
+LAOC,United States,Montana,30,Glacier,035
+LAOC,United States,Montana,30,Lincoln,053
+LAOC,United States,Montana,30,Sanders,089
+LAOC,United States,Oregon,41,,
+LAOC,United States,Oregon,41,Baker,001
+LAOC,United States,Oregon,41,Clackamas,005
+LAOC,United States,Oregon,41,Crook,013
+LAOC,United States,Oregon,41,Deschutes,017
+LAOC,United States,Oregon,41,Grant,023
+LAOC,United States,Oregon,41,Hood River,027
+LAOC,United States,Oregon,41,Jefferson,031
+LAOC,United States,Oregon,41,Morrow,049
+LAOC,United States,Oregon,41,Multnomah,051
+LAOC,United States,Oregon,41,Umatilla,059
+LAOC,United States,Oregon,41,Union,061
+LAOC,United States,Oregon,41,Wallowa,063
+LAOC,United States,Oregon,41,Wasco,065
+LAOC,United States,Oregon,41,Wheeler,069
+LAOC,United States,Utah,49,,
+LAOC,United States,Utah,49,Salt Lake,035
+LAOC,United States,Washington,53,,
+LAOC,United States,Washington,53,Chelan,007
+LAOC,United States,Washington,53,Columbia,013
+LAOC,United States,Washington,53,Ferry,019
+LAOC,United States,Washington,53,Garfield,023
+LAOC,United States,Washington,53,Kittitas,037
+LAOC,United States,Washington,53,Klickitat,039
+LAOC,United States,Washington,53,Okanogan,047
+LAOC,United States,Washington,53,Pend Oreille,051
+LAOC,United States,Washington,53,Skamania,059
+LAOC,United States,Washington,53,Spokane,063
+LAOC,United States,Washington,53,Stevens,065
+LAOC,United States,Washington,53,Walla Walla,071
+LAOC,United States,Washington,53,Whitman,075
+LAOC,United States,Washington,53,Yakima,077
+LAOC,United States,Wyoming,56,,
+LAOC,United States,Wyoming,56,Teton,039

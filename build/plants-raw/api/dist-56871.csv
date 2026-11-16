@@ -1,0 +1,337 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+OPMA2,United States,Arizona,04,,
+OPMA2,United States,Arizona,04,Apache,001
+OPMA2,United States,Arizona,04,Cochise,003
+OPMA2,United States,Arizona,04,Coconino,005
+OPMA2,United States,Arizona,04,Gila,007
+OPMA2,United States,Arizona,04,Graham,009
+OPMA2,United States,Arizona,04,Greenlee,011
+OPMA2,United States,Arizona,04,Maricopa,013
+OPMA2,United States,Arizona,04,Mohave,015
+OPMA2,United States,Arizona,04,Navajo,017
+OPMA2,United States,Arizona,04,Pima,019
+OPMA2,United States,Arizona,04,Pinal,021
+OPMA2,United States,Arizona,04,Santa Cruz,023
+OPMA2,United States,Arizona,04,Yavapai,025
+OPMA2,United States,Arizona,04,Yuma,027
+OPMA2,United States,Arkansas,05,,
+OPMA2,United States,Arkansas,05,Carroll,015
+OPMA2,United States,Arkansas,05,Cleburne,023
+OPMA2,United States,Arkansas,05,Crawford,033
+OPMA2,United States,Arkansas,05,Hempstead,057
+OPMA2,United States,Arkansas,05,Hot Spring,059
+OPMA2,United States,Arkansas,05,Johnson,071
+OPMA2,United States,Arkansas,05,Logan,083
+OPMA2,United States,Arkansas,05,Marion,089
+OPMA2,United States,Arkansas,05,Newton,101
+OPMA2,United States,Arkansas,05,Pope,115
+OPMA2,United States,Arkansas,05,Pulaski,119
+OPMA2,United States,Arkansas,05,Scott,127
+OPMA2,United States,Arkansas,05,Union,139
+OPMA2,United States,Arkansas,05,Washington,143
+OPMA2,United States,Colorado,08,,
+OPMA2,United States,Colorado,08,Baca,009
+OPMA2,United States,Colorado,08,Boulder,013
+OPMA2,United States,Colorado,08,Dolores,033
+OPMA2,United States,Colorado,08,Douglas,035
+OPMA2,United States,Colorado,08,El Paso,041
+OPMA2,United States,Colorado,08,Fremont,043
+OPMA2,United States,Colorado,08,Jefferson,059
+OPMA2,United States,Colorado,08,Kiowa,061
+OPMA2,United States,Colorado,08,Larimer,069
+OPMA2,United States,Colorado,08,Las Animas,071
+OPMA2,United States,Colorado,08,Lincoln,073
+OPMA2,United States,Colorado,08,Logan,075
+OPMA2,United States,Colorado,08,Montrose,085
+OPMA2,United States,Colorado,08,Morgan,087
+OPMA2,United States,Colorado,08,Otero,089
+OPMA2,United States,Colorado,08,Phillips,095
+OPMA2,United States,Colorado,08,Pueblo,101
+OPMA2,United States,Colorado,08,Sedgwick,115
+OPMA2,United States,Colorado,08,Washington,121
+OPMA2,United States,Colorado,08,Weld,123
+OPMA2,United States,Colorado,08,Yuma,125
+OPMA2,United States,Idaho,16,,
+OPMA2,United States,Idaho,16,Bannock,005
+OPMA2,United States,Idaho,16,Minidoka,067
+OPMA2,United States,Illinois,17,,
+OPMA2,United States,Illinois,17,Jackson,077
+OPMA2,United States,Illinois,17,Madison,119
+OPMA2,United States,Illinois,17,Pope,151
+OPMA2,United States,Illinois,17,Whiteside,195
+OPMA2,United States,Iowa,19,,
+OPMA2,United States,Kansas,20,,
+OPMA2,United States,Kansas,20,Allen,001
+OPMA2,United States,Kansas,20,Anderson,003
+OPMA2,United States,Kansas,20,Barber,007
+OPMA2,United States,Kansas,20,Bourbon,011
+OPMA2,United States,Kansas,20,Butler,015
+OPMA2,United States,Kansas,20,Chase,017
+OPMA2,United States,Kansas,20,Chautauqua,019
+OPMA2,United States,Kansas,20,Cherokee,021
+OPMA2,United States,Kansas,20,Cheyenne,023
+OPMA2,United States,Kansas,20,Clark,025
+OPMA2,United States,Kansas,20,Clay,027
+OPMA2,United States,Kansas,20,Cloud,029
+OPMA2,United States,Kansas,20,Coffey,031
+OPMA2,United States,Kansas,20,Comanche,033
+OPMA2,United States,Kansas,20,Cowley,035
+OPMA2,United States,Kansas,20,Crawford,037
+OPMA2,United States,Kansas,20,Decatur,039
+OPMA2,United States,Kansas,20,Dickinson,041
+OPMA2,United States,Kansas,20,Douglas,045
+OPMA2,United States,Kansas,20,Edwards,047
+OPMA2,United States,Kansas,20,Elk,049
+OPMA2,United States,Kansas,20,Ellis,051
+OPMA2,United States,Kansas,20,Ellsworth,053
+OPMA2,United States,Kansas,20,Finney,055
+OPMA2,United States,Kansas,20,Ford,057
+OPMA2,United States,Kansas,20,Geary,061
+OPMA2,United States,Kansas,20,Gove,063
+OPMA2,United States,Kansas,20,Graham,065
+OPMA2,United States,Kansas,20,Grant,067
+OPMA2,United States,Kansas,20,Gray,069
+OPMA2,United States,Kansas,20,Greenwood,073
+OPMA2,United States,Kansas,20,Hamilton,075
+OPMA2,United States,Kansas,20,Harper,077
+OPMA2,United States,Kansas,20,Harvey,079
+OPMA2,United States,Kansas,20,Haskell,081
+OPMA2,United States,Kansas,20,Hodgeman,083
+OPMA2,United States,Kansas,20,Jewell,089
+OPMA2,United States,Kansas,20,Johnson,091
+OPMA2,United States,Kansas,20,Kearny,093
+OPMA2,United States,Kansas,20,Kingman,095
+OPMA2,United States,Kansas,20,Kiowa,097
+OPMA2,United States,Kansas,20,Lane,101
+OPMA2,United States,Kansas,20,Lincoln,105
+OPMA2,United States,Kansas,20,Linn,107
+OPMA2,United States,Kansas,20,Logan,109
+OPMA2,United States,Kansas,20,Lyon,111
+OPMA2,United States,Kansas,20,Marion,115
+OPMA2,United States,Kansas,20,Marshall,117
+OPMA2,United States,Kansas,20,McPherson,113
+OPMA2,United States,Kansas,20,Meade,119
+OPMA2,United States,Kansas,20,Mitchell,123
+OPMA2,United States,Kansas,20,Montgomery,125
+OPMA2,United States,Kansas,20,Morris,127
+OPMA2,United States,Kansas,20,Morton,129
+OPMA2,United States,Kansas,20,Nemaha,131
+OPMA2,United States,Kansas,20,Neosho,133
+OPMA2,United States,Kansas,20,Ness,135
+OPMA2,United States,Kansas,20,Norton,137
+OPMA2,United States,Kansas,20,Osage,139
+OPMA2,United States,Kansas,20,Osborne,141
+OPMA2,United States,Kansas,20,Ottawa,143
+OPMA2,United States,Kansas,20,Pawnee,145
+OPMA2,United States,Kansas,20,Phillips,147
+OPMA2,United States,Kansas,20,Pottawatomie,149
+OPMA2,United States,Kansas,20,Pratt,151
+OPMA2,United States,Kansas,20,Rawlins,153
+OPMA2,United States,Kansas,20,Reno,155
+OPMA2,United States,Kansas,20,Republic,157
+OPMA2,United States,Kansas,20,Rice,159
+OPMA2,United States,Kansas,20,Riley,161
+OPMA2,United States,Kansas,20,Rooks,163
+OPMA2,United States,Kansas,20,Rush,165
+OPMA2,United States,Kansas,20,Russell,167
+OPMA2,United States,Kansas,20,Saline,169
+OPMA2,United States,Kansas,20,Sedgwick,173
+OPMA2,United States,Kansas,20,Seward,175
+OPMA2,United States,Kansas,20,Shawnee,177
+OPMA2,United States,Kansas,20,Sheridan,179
+OPMA2,United States,Kansas,20,Sherman,181
+OPMA2,United States,Kansas,20,Smith,183
+OPMA2,United States,Kansas,20,Stafford,185
+OPMA2,United States,Kansas,20,Stanton,187
+OPMA2,United States,Kansas,20,Stevens,189
+OPMA2,United States,Kansas,20,Sumner,191
+OPMA2,United States,Kansas,20,Thomas,193
+OPMA2,United States,Kansas,20,Trego,195
+OPMA2,United States,Kansas,20,Wabaunsee,197
+OPMA2,United States,Kansas,20,Wallace,199
+OPMA2,United States,Kansas,20,Washington,201
+OPMA2,United States,Kansas,20,Wilson,205
+OPMA2,United States,Kansas,20,Woodson,207
+OPMA2,United States,Louisiana,22,,
+OPMA2,United States,Louisiana,22,Jackson,049
+OPMA2,United States,Louisiana,22,Natchitoches,069
+OPMA2,United States,Louisiana,22,Union,111
+OPMA2,United States,Louisiana,22,Vernon,115
+OPMA2,United States,Louisiana,22,West Feliciana,125
+OPMA2,United States,Minnesota,27,,
+OPMA2,United States,Minnesota,27,Chippewa,023
+OPMA2,United States,Minnesota,27,Pipestone,117
+OPMA2,United States,Minnesota,27,Redwood,127
+OPMA2,United States,Minnesota,27,Renville,129
+OPMA2,United States,Minnesota,27,Yellow Medicine,173
+OPMA2,United States,Missouri,29,,
+OPMA2,United States,Missouri,29,Adair,001
+OPMA2,United States,Missouri,29,Barry,009
+OPMA2,United States,Missouri,29,Barton,011
+OPMA2,United States,Missouri,29,Bates,013
+OPMA2,United States,Missouri,29,Benton,015
+OPMA2,United States,Missouri,29,Boone,019
+OPMA2,United States,Missouri,29,Caldwell,025
+OPMA2,United States,Missouri,29,Cass,037
+OPMA2,United States,Missouri,29,Cedar,039
+OPMA2,United States,Missouri,29,Christian,043
+OPMA2,United States,Missouri,29,Clay,047
+OPMA2,United States,Missouri,29,Cooper,053
+OPMA2,United States,Missouri,29,Dade,057
+OPMA2,United States,Missouri,29,Greene,077
+OPMA2,United States,Missouri,29,Henry,083
+OPMA2,United States,Missouri,29,Hickory,085
+OPMA2,United States,Missouri,29,Jackson,095
+OPMA2,United States,Missouri,29,Jasper,097
+OPMA2,United States,Missouri,29,Johnson,101
+OPMA2,United States,Missouri,29,Lawrence,109
+OPMA2,United States,Missouri,29,McDonald,119
+OPMA2,United States,Missouri,29,Moniteau,135
+OPMA2,United States,Missouri,29,Newton,145
+OPMA2,United States,Missouri,29,Pettis,159
+OPMA2,United States,Missouri,29,Polk,167
+OPMA2,United States,Missouri,29,Saline,195
+OPMA2,United States,Missouri,29,St. Clair,185
+OPMA2,United States,Missouri,29,Stone,209
+OPMA2,United States,Missouri,29,Taney,213
+OPMA2,United States,Missouri,29,Vernon,217
+OPMA2,United States,Missouri,29,Wright,229
+OPMA2,United States,Montana,30,,
+OPMA2,United States,Nebraska,31,,
+OPMA2,United States,Nebraska,31,Cherry,031
+OPMA2,United States,Nebraska,31,Custer,041
+OPMA2,United States,Nebraska,31,Dawes,045
+OPMA2,United States,Nebraska,31,Deuel,049
+OPMA2,United States,Nebraska,31,Dundy,057
+OPMA2,United States,Nebraska,31,Franklin,061
+OPMA2,United States,Nebraska,31,Furnas,065
+OPMA2,United States,Nebraska,31,Garden,069
+OPMA2,United States,Nebraska,31,Hall,079
+OPMA2,United States,Nebraska,31,Harlan,083
+OPMA2,United States,Nebraska,31,Hitchcock,087
+OPMA2,United States,Nebraska,31,Jefferson,095
+OPMA2,United States,Nebraska,31,Knox,107
+OPMA2,United States,Nebraska,31,Merrick,121
+OPMA2,United States,Nebraska,31,Phelps,137
+OPMA2,United States,Nebraska,31,Red Willow,145
+OPMA2,United States,Nebraska,31,Richardson,147
+OPMA2,United States,Nebraska,31,Scotts Bluff,157
+OPMA2,United States,Nebraska,31,Sheridan,161
+OPMA2,United States,Nebraska,31,Thomas,171
+OPMA2,United States,New Mexico,35,,
+OPMA2,United States,New Mexico,35,Bernalillo,001
+OPMA2,United States,New Mexico,35,Catron,003
+OPMA2,United States,New Mexico,35,Chaves,005
+OPMA2,United States,New Mexico,35,Colfax,007
+OPMA2,United States,New Mexico,35,Curry,009
+OPMA2,United States,New Mexico,35,Dona Ana,013
+OPMA2,United States,New Mexico,35,Eddy,015
+OPMA2,United States,New Mexico,35,Grant,017
+OPMA2,United States,New Mexico,35,Guadalupe,019
+OPMA2,United States,New Mexico,35,Harding,021
+OPMA2,United States,New Mexico,35,Hidalgo,023
+OPMA2,United States,New Mexico,35,Lea,025
+OPMA2,United States,New Mexico,35,Lincoln,027
+OPMA2,United States,New Mexico,35,Luna,029
+OPMA2,United States,New Mexico,35,McKinley,031
+OPMA2,United States,New Mexico,35,Otero,035
+OPMA2,United States,New Mexico,35,Quay,037
+OPMA2,United States,New Mexico,35,Rio Arriba,039
+OPMA2,United States,New Mexico,35,Roosevelt,041
+OPMA2,United States,New Mexico,35,San Juan,045
+OPMA2,United States,New Mexico,35,San Miguel,047
+OPMA2,United States,New Mexico,35,Sandoval,043
+OPMA2,United States,New Mexico,35,Santa Fe,049
+OPMA2,United States,New Mexico,35,Socorro,053
+OPMA2,United States,New Mexico,35,Taos,055
+OPMA2,United States,New Mexico,35,Torrance,057
+OPMA2,United States,New Mexico,35,Union,059
+OPMA2,United States,New Mexico,35,Valencia,061
+OPMA2,United States,Ohio,39,,
+OPMA2,United States,Ohio,39,Hamilton,061
+OPMA2,United States,Oklahoma,40,,
+OPMA2,United States,Oklahoma,40,Cimarron,025
+OPMA2,United States,Oklahoma,40,Garfield,047
+OPMA2,United States,Oklahoma,40,Grant,053
+OPMA2,United States,Oklahoma,40,Kingfisher,073
+OPMA2,United States,Oklahoma,40,Osage,113
+OPMA2,United States,South Dakota,46,,
+OPMA2,United States,South Dakota,46,Custer,033
+OPMA2,United States,South Dakota,46,Fall River,047
+OPMA2,United States,South Dakota,46,Jackson,071
+OPMA2,United States,South Dakota,46,Pennington,103
+OPMA2,United States,South Dakota,46,Stanley,117
+OPMA2,United States,Texas,48,,
+OPMA2,United States,Texas,48,Aransas,007
+OPMA2,United States,Texas,48,Blanco,031
+OPMA2,United States,Texas,48,Brazos,041
+OPMA2,United States,Texas,48,Brewster,043
+OPMA2,United States,Texas,48,Briscoe,045
+OPMA2,United States,Texas,48,Burnet,053
+OPMA2,United States,Texas,48,Carson,065
+OPMA2,United States,Texas,48,Chambers,071
+OPMA2,United States,Texas,48,Comal,091
+OPMA2,United States,Texas,48,Crane,103
+OPMA2,United States,Texas,48,Culberson,109
+OPMA2,United States,Texas,48,Dallam,111
+OPMA2,United States,Texas,48,Deaf Smith,117
+OPMA2,United States,Texas,48,Donley,129
+OPMA2,United States,Texas,48,Ector,135
+OPMA2,United States,Texas,48,Gillespie,171
+OPMA2,United States,Texas,48,Gray,179
+OPMA2,United States,Texas,48,Guadalupe,187
+OPMA2,United States,Texas,48,Hall,191
+OPMA2,United States,Texas,48,Hays,209
+OPMA2,United States,Texas,48,Hemphill,211
+OPMA2,United States,Texas,48,Hudspeth,229
+OPMA2,United States,Texas,48,Jeff Davis,243
+OPMA2,United States,Texas,48,Johnson,251
+OPMA2,United States,Texas,48,Kerr,265
+OPMA2,United States,Texas,48,Kimble,267
+OPMA2,United States,Texas,48,Lubbock,303
+OPMA2,United States,Texas,48,Marion,315
+OPMA2,United States,Texas,48,McLennan,309
+OPMA2,United States,Texas,48,Moore,341
+OPMA2,United States,Texas,48,Motley,345
+OPMA2,United States,Texas,48,Ochiltree,357
+OPMA2,United States,Texas,48,Oldham,359
+OPMA2,United States,Texas,48,Pecos,371
+OPMA2,United States,Texas,48,Potter,375
+OPMA2,United States,Texas,48,Presidio,377
+OPMA2,United States,Texas,48,Reeves,389
+OPMA2,United States,Texas,48,Roberts,393
+OPMA2,United States,Texas,48,Tarrant,439
+OPMA2,United States,Texas,48,Travis,453
+OPMA2,United States,Texas,48,Walker,471
+OPMA2,United States,Texas,48,Wheeler,483
+OPMA2,United States,Texas,48,Willacy,489
+OPMA2,United States,Texas,48,Winkler,495
+OPMA2,United States,Utah,49,,
+OPMA2,United States,Utah,49,Garfield,017
+OPMA2,United States,Utah,49,Iron,021
+OPMA2,United States,Utah,49,Kane,025
+OPMA2,United States,Utah,49,Piute,031
+OPMA2,United States,Utah,49,Salt Lake,035
+OPMA2,United States,Utah,49,San Juan,037
+OPMA2,United States,Utah,49,Utah,049
+OPMA2,United States,Utah,49,Washington,053
+OPMA2,United States,Wisconsin,55,,
+OPMA2,United States,Wisconsin,55,Columbia,021
+OPMA2,United States,Wisconsin,55,Dane,025
+OPMA2,United States,Wisconsin,55,Grant,043
+OPMA2,United States,Wisconsin,55,Green,045
+OPMA2,United States,Wisconsin,55,Green Lake,047
+OPMA2,United States,Wisconsin,55,Jackson,053
+OPMA2,United States,Wisconsin,55,La Crosse,063
+OPMA2,United States,Wisconsin,55,Marquette,077
+OPMA2,United States,Wisconsin,55,Monroe,081
+OPMA2,United States,Wisconsin,55,Richland,103
+OPMA2,United States,Wisconsin,55,Sauk,111
+OPMA2,United States,Wisconsin,55,Waushara,137
+OPMA2,United States,Wyoming,56,,
+OPMA2,United States,Wyoming,56,Goshen,015
+OPMA2,United States,Wyoming,56,Laramie,021
+OPMA2,United States,Wyoming,56,Niobrara,027
+OPMA2,United States,Wyoming,56,Platte,031
+OPMA2,United States,Wyoming,56,Weston,045

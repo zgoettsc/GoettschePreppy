@@ -1,0 +1,606 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+PEVI,United States,Alabama,01,,
+PEVI,United States,Alabama,01,Autauga,001
+PEVI,United States,Alabama,01,Baldwin,003
+PEVI,United States,Alabama,01,Bibb,007
+PEVI,United States,Alabama,01,Blount,009
+PEVI,United States,Alabama,01,Chambers,017
+PEVI,United States,Alabama,01,Chilton,021
+PEVI,United States,Alabama,01,Clarke,025
+PEVI,United States,Alabama,01,Clay,027
+PEVI,United States,Alabama,01,Coffee,031
+PEVI,United States,Alabama,01,Conecuh,035
+PEVI,United States,Alabama,01,Coosa,037
+PEVI,United States,Alabama,01,Covington,039
+PEVI,United States,Alabama,01,Dallas,047
+PEVI,United States,Alabama,01,Elmore,051
+PEVI,United States,Alabama,01,Escambia,053
+PEVI,United States,Alabama,01,Geneva,061
+PEVI,United States,Alabama,01,Greene,063
+PEVI,United States,Alabama,01,Hale,065
+PEVI,United States,Alabama,01,Henry,067
+PEVI,United States,Alabama,01,Houston,069
+PEVI,United States,Alabama,01,Lee,081
+PEVI,United States,Alabama,01,Limestone,083
+PEVI,United States,Alabama,01,Lowndes,085
+PEVI,United States,Alabama,01,Macon,087
+PEVI,United States,Alabama,01,Madison,089
+PEVI,United States,Alabama,01,Marengo,091
+PEVI,United States,Alabama,01,Mobile,097
+PEVI,United States,Alabama,01,Montgomery,101
+PEVI,United States,Alabama,01,Morgan,103
+PEVI,United States,Alabama,01,Pickens,107
+PEVI,United States,Alabama,01,Pike,109
+PEVI,United States,Alabama,01,Russell,113
+PEVI,United States,Alabama,01,Shelby,117
+PEVI,United States,Alabama,01,St. Clair,115
+PEVI,United States,Alabama,01,Tuscaloosa,125
+PEVI,United States,Alabama,01,Washington,129
+PEVI,United States,Alabama,01,Wilcox,131
+PEVI,United States,Arkansas,05,,
+PEVI,United States,Arkansas,05,Clark,019
+PEVI,United States,Arkansas,05,Lee,077
+PEVI,United States,Arkansas,05,Lonoke,085
+PEVI,United States,Arkansas,05,Monroe,095
+PEVI,United States,Arkansas,05,Nevada,099
+PEVI,United States,Arkansas,05,Phillips,107
+PEVI,United States,Arkansas,05,Pulaski,119
+PEVI,United States,Arkansas,05,Union,139
+PEVI,United States,California,06,,
+PEVI,United States,California,06,San Luis Obispo,079
+PEVI,Canada,Ontario,08,,
+PEVI,United States,Connecticut,09,,
+PEVI,Canada,Quebec,10,,
+PEVI,United States,Delaware,10,,
+PEVI,United States,Delaware,10,New Castle,003
+PEVI,United States,District of Columbia,11,,
+PEVI,United States,District of Columbia,11,District of Columbia,001
+PEVI,United States,Florida,12,,
+PEVI,United States,Florida,12,Alachua,001
+PEVI,United States,Florida,12,Baker,003
+PEVI,United States,Florida,12,Broward,011
+PEVI,United States,Florida,12,Calhoun,013
+PEVI,United States,Florida,12,Citrus,017
+PEVI,United States,Florida,12,Clay,019
+PEVI,United States,Florida,12,Collier,021
+PEVI,United States,Florida,12,Columbia,023
+PEVI,United States,Florida,12,DeSoto,027
+PEVI,United States,Florida,12,Dixie,029
+PEVI,United States,Florida,12,Duval,031
+PEVI,United States,Florida,12,Escambia,033
+PEVI,United States,Florida,12,Franklin,037
+PEVI,United States,Florida,12,Glades,043
+PEVI,United States,Florida,12,Hardee,049
+PEVI,United States,Florida,12,Hernando,053
+PEVI,United States,Florida,12,Highlands,055
+PEVI,United States,Florida,12,Hillsborough,057
+PEVI,United States,Florida,12,Indian River,061
+PEVI,United States,Florida,12,Jackson,063
+PEVI,United States,Florida,12,Jefferson,065
+PEVI,United States,Florida,12,Lake,069
+PEVI,United States,Florida,12,Leon,073
+PEVI,United States,Florida,12,Levy,075
+PEVI,United States,Florida,12,Manatee,081
+PEVI,United States,Florida,12,Marion,083
+PEVI,United States,Florida,12,Martin,085
+PEVI,United States,Florida,12,Miami-Dade,086
+PEVI,United States,Florida,12,Monroe,087
+PEVI,United States,Florida,12,Nassau,089
+PEVI,United States,Florida,12,Okaloosa,091
+PEVI,United States,Florida,12,Orange,095
+PEVI,United States,Florida,12,Osceola,097
+PEVI,United States,Florida,12,Palm Beach,099
+PEVI,United States,Florida,12,Pinellas,103
+PEVI,United States,Florida,12,Polk,105
+PEVI,United States,Florida,12,Putnam,107
+PEVI,United States,Florida,12,Santa Rosa,113
+PEVI,United States,Florida,12,Seminole,117
+PEVI,United States,Florida,12,St. Johns,109
+PEVI,United States,Florida,12,St. Lucie,111
+PEVI,United States,Florida,12,Taylor,123
+PEVI,United States,Florida,12,Volusia,127
+PEVI,United States,Florida,12,Wakulla,129
+PEVI,United States,Florida,12,Walton,131
+PEVI,United States,Georgia,13,,
+PEVI,United States,Georgia,13,Bibb,021
+PEVI,United States,Georgia,13,Catoosa,047
+PEVI,United States,Georgia,13,Charlton,049
+PEVI,United States,Georgia,13,Chatham,051
+PEVI,United States,Georgia,13,Clarke,059
+PEVI,United States,Georgia,13,Elbert,105
+PEVI,United States,Georgia,13,Gordon,129
+PEVI,United States,Georgia,13,Harris,145
+PEVI,United States,Georgia,13,Madison,195
+PEVI,United States,Georgia,13,Morgan,211
+PEVI,United States,Georgia,13,Oglethorpe,221
+PEVI,United States,Georgia,13,Spalding,255
+PEVI,United States,Georgia,13,Terrell,273
+PEVI,United States,Georgia,13,Thomas,275
+PEVI,United States,Georgia,13,Troup,285
+PEVI,United States,Georgia,13,Walker,295
+PEVI,United States,Georgia,13,Ware,299
+PEVI,United States,Illinois,17,,
+PEVI,United States,Illinois,17,Alexander,003
+PEVI,United States,Illinois,17,Bond,005
+PEVI,United States,Illinois,17,Cass,017
+PEVI,United States,Illinois,17,Christian,021
+PEVI,United States,Illinois,17,Clay,025
+PEVI,United States,Illinois,17,Cook,031
+PEVI,United States,Illinois,17,Crawford,033
+PEVI,United States,Illinois,17,Jackson,077
+PEVI,United States,Illinois,17,Jefferson,081
+PEVI,United States,Illinois,17,Johnson,087
+PEVI,United States,Illinois,17,Kane,089
+PEVI,United States,Illinois,17,Kankakee,091
+PEVI,United States,Illinois,17,Lawrence,101
+PEVI,United States,Illinois,17,Macoupin,117
+PEVI,United States,Illinois,17,Marshall,123
+PEVI,United States,Illinois,17,Mason,125
+PEVI,United States,Illinois,17,Massac,127
+PEVI,United States,Illinois,17,Peoria,143
+PEVI,United States,Illinois,17,Pope,151
+PEVI,United States,Illinois,17,Saline,165
+PEVI,United States,Illinois,17,St. Clair,163
+PEVI,United States,Illinois,17,Tazewell,179
+PEVI,United States,Illinois,17,Union,181
+PEVI,United States,Illinois,17,Wabash,185
+PEVI,United States,Illinois,17,Woodford,203
+PEVI,United States,Indiana,18,,
+PEVI,United States,Indiana,18,Allen,003
+PEVI,United States,Indiana,18,DeKalb,033
+PEVI,United States,Indiana,18,Elkhart,039
+PEVI,United States,Indiana,18,Fountain,045
+PEVI,United States,Indiana,18,Gibson,051
+PEVI,United States,Indiana,18,Greene,055
+PEVI,United States,Indiana,18,Jackson,071
+PEVI,United States,Indiana,18,Knox,083
+PEVI,United States,Indiana,18,Kosciusko,085
+PEVI,United States,Indiana,18,Lagrange,087
+PEVI,United States,Indiana,18,Lake,089
+PEVI,United States,Indiana,18,LaPorte,091
+PEVI,United States,Indiana,18,Marshall,099
+PEVI,United States,Indiana,18,Monroe,105
+PEVI,United States,Indiana,18,Morgan,109
+PEVI,United States,Indiana,18,Newton,111
+PEVI,United States,Indiana,18,Noble,113
+PEVI,United States,Indiana,18,Porter,127
+PEVI,United States,Indiana,18,St. Joseph,141
+PEVI,United States,Indiana,18,Starke,149
+PEVI,United States,Indiana,18,Steuben,151
+PEVI,United States,Indiana,18,Sullivan,153
+PEVI,United States,Indiana,18,Vigo,167
+PEVI,United States,Indiana,18,Whitley,183
+PEVI,United States,Iowa,19,,
+PEVI,United States,Kentucky,21,,
+PEVI,United States,Kentucky,21,Ballard,007
+PEVI,United States,Kentucky,21,Bracken,023
+PEVI,United States,Kentucky,21,Calloway,035
+PEVI,United States,Kentucky,21,Carlisle,039
+PEVI,United States,Kentucky,21,Daviess,059
+PEVI,United States,Kentucky,21,Fulton,075
+PEVI,United States,Kentucky,21,Graves,083
+PEVI,United States,Kentucky,21,Henderson,101
+PEVI,United States,Kentucky,21,Hickman,105
+PEVI,United States,Kentucky,21,Marshall,157
+PEVI,United States,Kentucky,21,McCracken,145
+PEVI,United States,Kentucky,21,Union,225
+PEVI,United States,Louisiana,22,,
+PEVI,United States,Louisiana,22,Bossier,015
+PEVI,United States,Louisiana,22,Caddo,017
+PEVI,United States,Louisiana,22,Calcasieu,019
+PEVI,United States,Louisiana,22,Cameron,023
+PEVI,United States,Louisiana,22,Claiborne,027
+PEVI,United States,Louisiana,22,Jackson,049
+PEVI,United States,Louisiana,22,Lincoln,061
+PEVI,United States,Louisiana,22,Livingston,063
+PEVI,United States,Louisiana,22,Natchitoches,069
+PEVI,United States,Louisiana,22,Ouachita,073
+PEVI,United States,Louisiana,22,Rapides,079
+PEVI,United States,Louisiana,22,St. Helena,091
+PEVI,United States,Louisiana,22,St. John the Baptist,095
+PEVI,United States,Louisiana,22,St. Tammany,103
+PEVI,United States,Louisiana,22,Tangipahoa,105
+PEVI,United States,Louisiana,22,Tensas,107
+PEVI,United States,Louisiana,22,Union,111
+PEVI,United States,Louisiana,22,Vermilion,113
+PEVI,United States,Louisiana,22,Vernon,115
+PEVI,United States,Louisiana,22,Washington,117
+PEVI,United States,Louisiana,22,Webster,119
+PEVI,United States,Louisiana,22,Winn,127
+PEVI,United States,Maine,23,,
+PEVI,United States,Maine,23,Androscoggin,001
+PEVI,United States,Maine,23,Kennebec,011
+PEVI,United States,Maine,23,Oxford,017
+PEVI,United States,Maine,23,York,031
+PEVI,United States,Maryland,24,,
+PEVI,United States,Massachusetts,25,,
+PEVI,United States,Massachusetts,25,Barnstable,001
+PEVI,United States,Massachusetts,25,Berkshire,003
+PEVI,United States,Massachusetts,25,Bristol,005
+PEVI,United States,Massachusetts,25,Essex,009
+PEVI,United States,Massachusetts,25,Franklin,011
+PEVI,United States,Massachusetts,25,Hampden,013
+PEVI,United States,Massachusetts,25,Hampshire,015
+PEVI,United States,Massachusetts,25,Middlesex,017
+PEVI,United States,Massachusetts,25,Norfolk,021
+PEVI,United States,Massachusetts,25,Plymouth,023
+PEVI,United States,Massachusetts,25,Suffolk,025
+PEVI,United States,Massachusetts,25,Worcester,027
+PEVI,United States,Michigan,26,,
+PEVI,United States,Michigan,26,Allegan,005
+PEVI,United States,Michigan,26,Barry,015
+PEVI,United States,Michigan,26,Bay,017
+PEVI,United States,Michigan,26,Berrien,021
+PEVI,United States,Michigan,26,Branch,023
+PEVI,United States,Michigan,26,Cass,027
+PEVI,United States,Michigan,26,Clare,035
+PEVI,United States,Michigan,26,Clinton,037
+PEVI,United States,Michigan,26,Eaton,045
+PEVI,United States,Michigan,26,Genesee,049
+PEVI,United States,Michigan,26,Grand Traverse,055
+PEVI,United States,Michigan,26,Ionia,067
+PEVI,United States,Michigan,26,Kalamazoo,077
+PEVI,United States,Michigan,26,Kent,081
+PEVI,United States,Michigan,26,Lenawee,091
+PEVI,United States,Michigan,26,Livingston,093
+PEVI,United States,Michigan,26,Mecosta,107
+PEVI,United States,Michigan,26,Muskegon,121
+PEVI,United States,Michigan,26,Newaygo,123
+PEVI,United States,Michigan,26,Oakland,125
+PEVI,United States,Michigan,26,Saginaw,145
+PEVI,United States,Michigan,26,Schoolcraft,153
+PEVI,United States,Michigan,26,Shiawassee,155
+PEVI,United States,Michigan,26,St. Joseph,149
+PEVI,United States,Michigan,26,Van Buren,159
+PEVI,United States,Michigan,26,Washtenaw,161
+PEVI,United States,Minnesota,27,,
+PEVI,United States,Minnesota,27,Cook,031
+PEVI,United States,Mississippi,28,,
+PEVI,United States,Mississippi,28,Forrest,035
+PEVI,United States,Mississippi,28,George,039
+PEVI,United States,Mississippi,28,Greene,041
+PEVI,United States,Mississippi,28,Hancock,045
+PEVI,United States,Mississippi,28,Harrison,047
+PEVI,United States,Mississippi,28,Jackson,059
+PEVI,United States,Mississippi,28,Kemper,069
+PEVI,United States,Mississippi,28,Lafayette,071
+PEVI,United States,Mississippi,28,Lamar,073
+PEVI,United States,Mississippi,28,Leflore,083
+PEVI,United States,Mississippi,28,Lowndes,087
+PEVI,United States,Mississippi,28,Pearl River,109
+PEVI,United States,Mississippi,28,Perry,111
+PEVI,United States,Mississippi,28,Simpson,127
+PEVI,United States,Mississippi,28,Tishomingo,141
+PEVI,United States,Missouri,29,,
+PEVI,United States,Missouri,29,Bollinger,017
+PEVI,United States,Missouri,29,Butler,023
+PEVI,United States,Missouri,29,Cape Girardeau,031
+PEVI,United States,Missouri,29,Dunklin,069
+PEVI,United States,Missouri,29,Mississippi,133
+PEVI,United States,Missouri,29,St. Charles,183
+PEVI,United States,Missouri,29,St. Louis,189
+PEVI,United States,Missouri,29,Stoddard,207
+PEVI,United States,Missouri,29,Wayne,223
+PEVI,United States,New Hampshire,33,,
+PEVI,United States,New Hampshire,33,Belknap,001
+PEVI,United States,New Hampshire,33,Carroll,003
+PEVI,United States,New Hampshire,33,Cheshire,005
+PEVI,United States,New Hampshire,33,Grafton,009
+PEVI,United States,New Hampshire,33,Hillsborough,011
+PEVI,United States,New Hampshire,33,Merrimack,013
+PEVI,United States,New Hampshire,33,Rockingham,015
+PEVI,United States,New Hampshire,33,Strafford,017
+PEVI,United States,New Jersey,34,,
+PEVI,United States,New Jersey,34,Atlantic,001
+PEVI,United States,New Jersey,34,Bergen,003
+PEVI,United States,New Jersey,34,Burlington,005
+PEVI,United States,New Jersey,34,Camden,007
+PEVI,United States,New Jersey,34,Cape May,009
+PEVI,United States,New Jersey,34,Essex,013
+PEVI,United States,New Jersey,34,Hudson,017
+PEVI,United States,New Jersey,34,Hunterdon,019
+PEVI,United States,New Jersey,34,Mercer,021
+PEVI,United States,New Jersey,34,Middlesex,023
+PEVI,United States,New Jersey,34,Monmouth,025
+PEVI,United States,New Jersey,34,Morris,027
+PEVI,United States,New Jersey,34,Ocean,029
+PEVI,United States,New Jersey,34,Passaic,031
+PEVI,United States,New Jersey,34,Salem,033
+PEVI,United States,New Jersey,34,Somerset,035
+PEVI,United States,New Jersey,34,Sussex,037
+PEVI,United States,New Jersey,34,Union,039
+PEVI,United States,New Jersey,34,Warren,041
+PEVI,United States,New York,36,,
+PEVI,United States,New York,36,Albany,001
+PEVI,United States,New York,36,Bronx,005
+PEVI,United States,New York,36,Cayuga,011
+PEVI,United States,New York,36,Chautauqua,013
+PEVI,United States,New York,36,Clinton,019
+PEVI,United States,New York,36,Columbia,021
+PEVI,United States,New York,36,Dutchess,027
+PEVI,United States,New York,36,Erie,029
+PEVI,United States,New York,36,Essex,031
+PEVI,United States,New York,36,Fulton,035
+PEVI,United States,New York,36,Greene,039
+PEVI,United States,New York,36,Herkimer,043
+PEVI,United States,New York,36,Kings,047
+PEVI,United States,New York,36,Lewis,049
+PEVI,United States,New York,36,Madison,053
+PEVI,United States,New York,36,Monroe,055
+PEVI,United States,New York,36,Nassau,059
+PEVI,United States,New York,36,Niagara,063
+PEVI,United States,New York,36,Oneida,065
+PEVI,United States,New York,36,Onondaga,067
+PEVI,United States,New York,36,Orange,071
+PEVI,United States,New York,36,Oswego,075
+PEVI,United States,New York,36,Putnam,079
+PEVI,United States,New York,36,Queens,081
+PEVI,United States,New York,36,Rensselaer,083
+PEVI,United States,New York,36,Richmond,085
+PEVI,United States,New York,36,Rockland,087
+PEVI,United States,New York,36,Saratoga,091
+PEVI,United States,New York,36,Schenectady,093
+PEVI,United States,New York,36,Schuyler,097
+PEVI,United States,New York,36,St. Lawrence,089
+PEVI,United States,New York,36,Suffolk,103
+PEVI,United States,New York,36,Sullivan,105
+PEVI,United States,New York,36,Tompkins,109
+PEVI,United States,New York,36,Ulster,111
+PEVI,United States,New York,36,Warren,113
+PEVI,United States,New York,36,Washington,115
+PEVI,United States,New York,36,Wayne,117
+PEVI,United States,New York,36,Westchester,119
+PEVI,United States,North Carolina,37,,
+PEVI,United States,North Carolina,37,Alamance,001
+PEVI,United States,North Carolina,37,Alexander,003
+PEVI,United States,North Carolina,37,Anson,007
+PEVI,United States,North Carolina,37,Beaufort,013
+PEVI,United States,North Carolina,37,Brunswick,019
+PEVI,United States,North Carolina,37,Burke,023
+PEVI,United States,North Carolina,37,Cabarrus,025
+PEVI,United States,North Carolina,37,Carteret,031
+PEVI,United States,North Carolina,37,Caswell,033
+PEVI,United States,North Carolina,37,Catawba,035
+PEVI,United States,North Carolina,37,Chatham,037
+PEVI,United States,North Carolina,37,Cherokee,039
+PEVI,United States,North Carolina,37,Chowan,041
+PEVI,United States,North Carolina,37,Clay,043
+PEVI,United States,North Carolina,37,Craven,049
+PEVI,United States,North Carolina,37,Cumberland,051
+PEVI,United States,North Carolina,37,Currituck,053
+PEVI,United States,North Carolina,37,Davidson,057
+PEVI,United States,North Carolina,37,Davie,059
+PEVI,United States,North Carolina,37,Duplin,061
+PEVI,United States,North Carolina,37,Edgecombe,065
+PEVI,United States,North Carolina,37,Forsyth,067
+PEVI,United States,North Carolina,37,Franklin,069
+PEVI,United States,North Carolina,37,Gaston,071
+PEVI,United States,North Carolina,37,Gates,073
+PEVI,United States,North Carolina,37,Granville,077
+PEVI,United States,North Carolina,37,Greene,079
+PEVI,United States,North Carolina,37,Guilford,081
+PEVI,United States,North Carolina,37,Halifax,083
+PEVI,United States,North Carolina,37,Harnett,085
+PEVI,United States,North Carolina,37,Haywood,087
+PEVI,United States,North Carolina,37,Henderson,089
+PEVI,United States,North Carolina,37,Hertford,091
+PEVI,United States,North Carolina,37,Hoke,093
+PEVI,United States,North Carolina,37,Johnston,101
+PEVI,United States,North Carolina,37,Jones,103
+PEVI,United States,North Carolina,37,Lee,105
+PEVI,United States,North Carolina,37,Macon,113
+PEVI,United States,North Carolina,37,Mecklenburg,119
+PEVI,United States,North Carolina,37,Nash,127
+PEVI,United States,North Carolina,37,New Hanover,129
+PEVI,United States,North Carolina,37,Onslow,133
+PEVI,United States,North Carolina,37,Orange,135
+PEVI,United States,North Carolina,37,Pasquotank,139
+PEVI,United States,North Carolina,37,Pender,141
+PEVI,United States,North Carolina,37,Perquimans,143
+PEVI,United States,North Carolina,37,Pitt,147
+PEVI,United States,North Carolina,37,Polk,149
+PEVI,United States,North Carolina,37,Richmond,153
+PEVI,United States,North Carolina,37,Robeson,155
+PEVI,United States,North Carolina,37,Rockingham,157
+PEVI,United States,North Carolina,37,Rowan,159
+PEVI,United States,North Carolina,37,Sampson,163
+PEVI,United States,North Carolina,37,Scotland,165
+PEVI,United States,North Carolina,37,Stanly,167
+PEVI,United States,North Carolina,37,Tyrrell,177
+PEVI,United States,North Carolina,37,Vance,181
+PEVI,United States,North Carolina,37,Wake,183
+PEVI,United States,North Carolina,37,Warren,185
+PEVI,United States,North Carolina,37,Washington,187
+PEVI,United States,North Carolina,37,Wayne,191
+PEVI,United States,North Carolina,37,Wilson,195
+PEVI,United States,Ohio,39,,
+PEVI,United States,Ohio,39,Ashtabula,007
+PEVI,United States,Ohio,39,Carroll,019
+PEVI,United States,Ohio,39,Coshocton,031
+PEVI,United States,Ohio,39,Cuyahoga,035
+PEVI,United States,Ohio,39,Erie,043
+PEVI,United States,Ohio,39,Franklin,049
+PEVI,United States,Ohio,39,Geauga,055
+PEVI,United States,Ohio,39,Hamilton,061
+PEVI,United States,Ohio,39,Hocking,073
+PEVI,United States,Ohio,39,Holmes,075
+PEVI,United States,Ohio,39,Lake,085
+PEVI,United States,Ohio,39,Lawrence,087
+PEVI,United States,Ohio,39,Licking,089
+PEVI,United States,Ohio,39,Lorain,093
+PEVI,United States,Ohio,39,Mahoning,099
+PEVI,United States,Ohio,39,Medina,103
+PEVI,United States,Ohio,39,Monroe,111
+PEVI,United States,Ohio,39,Perry,127
+PEVI,United States,Ohio,39,Portage,133
+PEVI,United States,Ohio,39,Seneca,147
+PEVI,United States,Ohio,39,Stark,151
+PEVI,United States,Ohio,39,Summit,153
+PEVI,United States,Ohio,39,Trumbull,155
+PEVI,United States,Ohio,39,Wayne,169
+PEVI,United States,Ohio,39,Williams,171
+PEVI,United States,Oklahoma,40,,
+PEVI,United States,Oregon,41,,
+PEVI,United States,Oregon,41,Clatsop,007
+PEVI,United States,Pennsylvania,42,,
+PEVI,United States,Pennsylvania,42,Beaver,007
+PEVI,United States,Pennsylvania,42,Bucks,017
+PEVI,United States,Pennsylvania,42,Chester,029
+PEVI,United States,Pennsylvania,42,Crawford,039
+PEVI,United States,Pennsylvania,42,Dauphin,043
+PEVI,United States,Pennsylvania,42,Delaware,045
+PEVI,United States,Pennsylvania,42,Erie,049
+PEVI,United States,Pennsylvania,42,Fayette,051
+PEVI,United States,Pennsylvania,42,Mercer,085
+PEVI,United States,Pennsylvania,42,Monroe,089
+PEVI,United States,Pennsylvania,42,Montgomery,091
+PEVI,United States,Pennsylvania,42,Philadelphia,101
+PEVI,United States,Pennsylvania,42,Pike,103
+PEVI,United States,Pennsylvania,42,Warren,123
+PEVI,United States,Pennsylvania,42,Wayne,127
+PEVI,United States,Rhode Island,44,,
+PEVI,United States,Rhode Island,44,Kent,003
+PEVI,United States,Rhode Island,44,Providence,007
+PEVI,United States,Rhode Island,44,Washington,009
+PEVI,United States,South Carolina,45,,
+PEVI,United States,South Carolina,45,Aiken,003
+PEVI,United States,South Carolina,45,Allendale,005
+PEVI,United States,South Carolina,45,Anderson,007
+PEVI,United States,South Carolina,45,Bamberg,009
+PEVI,United States,South Carolina,45,Barnwell,011
+PEVI,United States,South Carolina,45,Beaufort,013
+PEVI,United States,South Carolina,45,Calhoun,017
+PEVI,United States,South Carolina,45,Charleston,019
+PEVI,United States,South Carolina,45,Cherokee,021
+PEVI,United States,South Carolina,45,Chesterfield,025
+PEVI,United States,South Carolina,45,Clarendon,027
+PEVI,United States,South Carolina,45,Colleton,029
+PEVI,United States,South Carolina,45,Dorchester,035
+PEVI,United States,South Carolina,45,Georgetown,043
+PEVI,United States,South Carolina,45,Greenwood,047
+PEVI,United States,South Carolina,45,Hampton,049
+PEVI,United States,South Carolina,45,Horry,051
+PEVI,United States,South Carolina,45,Kershaw,055
+PEVI,United States,South Carolina,45,Lancaster,057
+PEVI,United States,South Carolina,45,Laurens,059
+PEVI,United States,South Carolina,45,Lexington,063
+PEVI,United States,South Carolina,45,Marlboro,069
+PEVI,United States,South Carolina,45,McCormick,065
+PEVI,United States,South Carolina,45,Oconee,073
+PEVI,United States,South Carolina,45,Orangeburg,075
+PEVI,United States,South Carolina,45,Saluda,081
+PEVI,United States,South Carolina,45,Spartanburg,083
+PEVI,United States,South Carolina,45,Sumter,085
+PEVI,United States,South Carolina,45,Union,087
+PEVI,United States,South Carolina,45,Williamsburg,089
+PEVI,United States,Tennessee,47,,
+PEVI,United States,Tennessee,47,Blount,009
+PEVI,United States,Tennessee,47,Carroll,017
+PEVI,United States,Tennessee,47,Chester,023
+PEVI,United States,Tennessee,47,Crockett,033
+PEVI,United States,Tennessee,47,Dyer,045
+PEVI,United States,Tennessee,47,Fayette,047
+PEVI,United States,Tennessee,47,Hardin,071
+PEVI,United States,Tennessee,47,Haywood,075
+PEVI,United States,Tennessee,47,Henderson,077
+PEVI,United States,Tennessee,47,Henry,079
+PEVI,United States,Tennessee,47,Jefferson,089
+PEVI,United States,Tennessee,47,Knox,093
+PEVI,United States,Tennessee,47,Loudon,105
+PEVI,United States,Tennessee,47,McMinn,107
+PEVI,United States,Tennessee,47,McNairy,109
+PEVI,United States,Tennessee,47,Monroe,123
+PEVI,United States,Tennessee,47,Polk,139
+PEVI,United States,Tennessee,47,Robertson,147
+PEVI,United States,Tennessee,47,Shelby,157
+PEVI,United States,Tennessee,47,Washington,179
+PEVI,United States,Tennessee,47,Weakley,183
+PEVI,United States,Texas,48,,
+PEVI,United States,Texas,48,Anderson,001
+PEVI,United States,Texas,48,Bowie,037
+PEVI,United States,Texas,48,Cass,067
+PEVI,United States,Texas,48,Falls,145
+PEVI,United States,Texas,48,Henderson,213
+PEVI,United States,Texas,48,Houston,225
+PEVI,United States,Texas,48,Leon,289
+PEVI,United States,Texas,48,Madison,313
+PEVI,United States,Texas,48,Marion,315
+PEVI,United States,Texas,48,Nacogdoches,347
+PEVI,United States,Texas,48,Orange,361
+PEVI,United States,Texas,48,Robertson,395
+PEVI,United States,Texas,48,San Augustine,405
+PEVI,United States,Texas,48,Smith,423
+PEVI,United States,Texas,48,Wood,499
+PEVI,United States,Vermont,50,,
+PEVI,United States,Vermont,50,Addison,001
+PEVI,United States,Vermont,50,Bennington,003
+PEVI,United States,Vermont,50,Rutland,021
+PEVI,United States,Vermont,50,Windham,025
+PEVI,United States,Virginia,51,,
+PEVI,United States,Virginia,51,Accomack,001
+PEVI,United States,Virginia,51,Albemarle,003
+PEVI,United States,Virginia,51,Amelia,007
+PEVI,United States,Virginia,51,Arlington,013
+PEVI,United States,Virginia,51,Augusta,015
+PEVI,United States,Virginia,51,Botetourt,023
+PEVI,United States,Virginia,51,Brunswick,025
+PEVI,United States,Virginia,51,Buckingham,029
+PEVI,United States,Virginia,51,Caroline,033
+PEVI,United States,Virginia,51,Charles City,036
+PEVI,United States,Virginia,51,Charlotte,037
+PEVI,United States,Virginia,51,"Chesapeake ",550
+PEVI,United States,Virginia,51,Chesterfield,041
+PEVI,United States,Virginia,51,Culpeper,047
+PEVI,United States,Virginia,51,Cumberland,049
+PEVI,United States,Virginia,51,Dinwiddie,053
+PEVI,United States,Virginia,51,Essex,057
+PEVI,United States,Virginia,51,Fairfax,059
+PEVI,United States,Virginia,51,Fauquier,061
+PEVI,United States,Virginia,51,Fluvanna,065
+PEVI,United States,Virginia,51,Gloucester,073
+PEVI,United States,Virginia,51,Goochland,075
+PEVI,United States,Virginia,51,Greensville,081
+PEVI,United States,Virginia,51,Halifax,083
+PEVI,United States,Virginia,51,"Hampton ",650
+PEVI,United States,Virginia,51,Hanover,085
+PEVI,United States,Virginia,51,Isle of Wight,093
+PEVI,United States,Virginia,51,James City,095
+PEVI,United States,Virginia,51,King and Queen,097
+PEVI,United States,Virginia,51,King George,099
+PEVI,United States,Virginia,51,King William,101
+PEVI,United States,Virginia,51,Lancaster,103
+PEVI,United States,Virginia,51,Louisa,109
+PEVI,United States,Virginia,51,Lunenburg,111
+PEVI,United States,Virginia,51,Mathews,115
+PEVI,United States,Virginia,51,Mecklenburg,117
+PEVI,United States,Virginia,51,Middlesex,119
+PEVI,United States,Virginia,51,New Kent,127
+PEVI,United States,Virginia,51,Northampton,131
+PEVI,United States,Virginia,51,Northumberland,133
+PEVI,United States,Virginia,51,Nottoway,135
+PEVI,United States,Virginia,51,Orange,137
+PEVI,United States,Virginia,51,Pittsylvania,143
+PEVI,United States,Virginia,51,Powhatan,145
+PEVI,United States,Virginia,51,Prince Edward,147
+PEVI,United States,Virginia,51,Prince George,149
+PEVI,United States,Virginia,51,Prince William,153
+PEVI,United States,Virginia,51,Richmond,159
+PEVI,United States,Virginia,51,Rockbridge,163
+PEVI,United States,Virginia,51,Spotsylvania,177
+PEVI,United States,Virginia,51,Stafford,179
+PEVI,United States,Virginia,51,Surry,181
+PEVI,United States,Virginia,51,Sussex,183
+PEVI,United States,Virginia,51,"Virginia Beach ",810
+PEVI,United States,Virginia,51,Westmoreland,193
+PEVI,United States,Virginia,51,York,199
+PEVI,United States,West Virginia,54,,
+PEVI,United States,West Virginia,54,Berkeley,003
+PEVI,United States,West Virginia,54,Pleasants,073
+PEVI,United States,West Virginia,54,Preston,077
+PEVI,United States,West Virginia,54,Wood,107
+PEVI,United States,Wisconsin,55,,
+PEVI,United States,Wisconsin,55,Fond du Lac,039
+PEVI,United States,Wisconsin,55,Lincoln,069
+PEVI,United States,Wisconsin,55,Ozaukee,089
+PEVI,United States,Wisconsin,55,Portage,097

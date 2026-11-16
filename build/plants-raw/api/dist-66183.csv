@@ -1,0 +1,976 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+MANE,Canada,Alberta,01,,
+MANE,United States,Alabama,01,,
+MANE,Canada,British Columbia,02,,
+MANE,United States,Alaska,02,,
+MANE,Canada,Manitoba,03,,
+MANE,Canada,New Brunswick,04,,
+MANE,United States,Arizona,04,,
+MANE,United States,Arizona,04,Apache,001
+MANE,United States,Arizona,04,Coconino,005
+MANE,United States,Arizona,04,Gila,007
+MANE,United States,Arizona,04,Graham,009
+MANE,United States,Arizona,04,Greenlee,011
+MANE,United States,Arizona,04,Maricopa,013
+MANE,United States,Arizona,04,Navajo,017
+MANE,United States,Arizona,04,Yavapai,025
+MANE,United States,Arkansas,05,,
+MANE,United States,Arkansas,05,Benton,007
+MANE,United States,Arkansas,05,Cleburne,023
+MANE,United States,Arkansas,05,Fulton,049
+MANE,United States,Arkansas,05,Madison,087
+MANE,United States,Arkansas,05,Marion,089
+MANE,United States,Arkansas,05,Montgomery,097
+MANE,United States,Arkansas,05,Newton,101
+MANE,United States,Arkansas,05,Pope,115
+MANE,United States,Arkansas,05,Stone,137
+MANE,United States,Arkansas,05,Washington,143
+MANE,United States,California,06,,
+MANE,United States,California,06,Alameda,001
+MANE,United States,California,06,Alpine,003
+MANE,United States,California,06,Butte,007
+MANE,United States,California,06,Glenn,021
+MANE,United States,California,06,Humboldt,023
+MANE,United States,California,06,Imperial,025
+MANE,United States,California,06,Inyo,027
+MANE,United States,California,06,Kern,029
+MANE,United States,California,06,Lake,033
+MANE,United States,California,06,Marin,041
+MANE,United States,California,06,Mariposa,043
+MANE,United States,California,06,Mendocino,045
+MANE,United States,California,06,Modoc,049
+MANE,United States,California,06,Mono,051
+MANE,United States,California,06,Nevada,057
+MANE,United States,California,06,Orange,059
+MANE,United States,California,06,Placer,061
+MANE,United States,California,06,Plumas,063
+MANE,United States,California,06,San Francisco,075
+MANE,United States,California,06,San Luis Obispo,079
+MANE,United States,California,06,Santa Barbara,083
+MANE,United States,California,06,Siskiyou,093
+MANE,United States,California,06,Sonoma,097
+MANE,United States,California,06,Stanislaus,099
+MANE,United States,California,06,Trinity,105
+MANE,United States,California,06,Tulare,107
+MANE,Canada,Nova Scotia,07,,
+MANE,Canada,Ontario,08,,
+MANE,United States,Colorado,08,,
+MANE,United States,Colorado,08,Baca,009
+MANE,United States,Colorado,08,Boulder,013
+MANE,United States,Colorado,08,Conejos,021
+MANE,United States,Colorado,08,Denver,031
+MANE,United States,Colorado,08,Douglas,035
+MANE,United States,Colorado,08,El Paso,041
+MANE,United States,Colorado,08,Huerfano,055
+MANE,United States,Colorado,08,Jefferson,059
+MANE,United States,Colorado,08,La Plata,067
+MANE,United States,Colorado,08,Las Animas,071
+MANE,United States,Colorado,08,Logan,075
+MANE,United States,Colorado,08,Mesa,077
+MANE,United States,Colorado,08,Montezuma,083
+MANE,United States,Colorado,08,Pitkin,097
+MANE,United States,Colorado,08,Rio Blanco,103
+MANE,United States,Colorado,08,Routt,107
+MANE,United States,Colorado,08,Weld,123
+MANE,Canada,Prince Edward Island,09,,
+MANE,United States,Connecticut,09,,
+MANE,Canada,Quebec,10,,
+MANE,United States,Delaware,10,,
+MANE,Canada,Saskatchewan,11,,
+MANE,United States,District of Columbia,11,,
+MANE,United States,District of Columbia,11,District of Columbia,001
+MANE,United States,Georgia,13,,
+MANE,United States,Georgia,13,Clarke,059
+MANE,United States,Georgia,13,Gilmer,123
+MANE,United States,Georgia,13,Taliaferro,265
+MANE,United States,Hawaii,15,,
+MANE,United States,Idaho,16,,
+MANE,United States,Idaho,16,Ada,001
+MANE,United States,Idaho,16,Bannock,005
+MANE,United States,Idaho,16,Boise,015
+MANE,United States,Idaho,16,Bonner,017
+MANE,United States,Idaho,16,Bonneville,019
+MANE,United States,Idaho,16,Canyon,027
+MANE,United States,Idaho,16,Caribou,029
+MANE,United States,Idaho,16,Cassia,031
+MANE,United States,Idaho,16,Franklin,041
+MANE,United States,Idaho,16,Fremont,043
+MANE,United States,Idaho,16,Gooding,047
+MANE,United States,Idaho,16,Idaho,049
+MANE,United States,Idaho,16,Kootenai,055
+MANE,United States,Idaho,16,Latah,057
+MANE,United States,Idaho,16,Owyhee,073
+MANE,United States,Idaho,16,Twin Falls,083
+MANE,United States,Idaho,16,Valley,085
+MANE,United States,Idaho,16,Washington,087
+MANE,United States,Illinois,17,,
+MANE,United States,Illinois,17,Adams,001
+MANE,United States,Illinois,17,Boone,007
+MANE,United States,Illinois,17,Brown,009
+MANE,United States,Illinois,17,Bureau,011
+MANE,United States,Illinois,17,Calhoun,013
+MANE,United States,Illinois,17,Carroll,015
+MANE,United States,Illinois,17,Cass,017
+MANE,United States,Illinois,17,Champaign,019
+MANE,United States,Illinois,17,Christian,021
+MANE,United States,Illinois,17,Coles,029
+MANE,United States,Illinois,17,Cook,031
+MANE,United States,Illinois,17,Crawford,033
+MANE,United States,Illinois,17,Cumberland,035
+MANE,United States,Illinois,17,De Witt,039
+MANE,United States,Illinois,17,DeKalb,037
+MANE,United States,Illinois,17,Douglas,041
+MANE,United States,Illinois,17,DuPage,043
+MANE,United States,Illinois,17,Edgar,045
+MANE,United States,Illinois,17,Fulton,057
+MANE,United States,Illinois,17,Greene,061
+MANE,United States,Illinois,17,Grundy,063
+MANE,United States,Illinois,17,Hancock,067
+MANE,United States,Illinois,17,Henderson,071
+MANE,United States,Illinois,17,Henry,073
+MANE,United States,Illinois,17,Iroquois,075
+MANE,United States,Illinois,17,Jersey,083
+MANE,United States,Illinois,17,Jo Daviess,085
+MANE,United States,Illinois,17,Kane,089
+MANE,United States,Illinois,17,Kankakee,091
+MANE,United States,Illinois,17,Kendall,093
+MANE,United States,Illinois,17,Knox,095
+MANE,United States,Illinois,17,Lake,097
+MANE,United States,Illinois,17,LaSalle,099
+MANE,United States,Illinois,17,Logan,107
+MANE,United States,Illinois,17,Macon,115
+MANE,United States,Illinois,17,Macoupin,117
+MANE,United States,Illinois,17,Marshall,123
+MANE,United States,Illinois,17,Mason,125
+MANE,United States,Illinois,17,McDonough,109
+MANE,United States,Illinois,17,McHenry,111
+MANE,United States,Illinois,17,McLean,113
+MANE,United States,Illinois,17,Menard,129
+MANE,United States,Illinois,17,Morgan,137
+MANE,United States,Illinois,17,Moultrie,139
+MANE,United States,Illinois,17,Ogle,141
+MANE,United States,Illinois,17,Peoria,143
+MANE,United States,Illinois,17,Perry,145
+MANE,United States,Illinois,17,Piatt,147
+MANE,United States,Illinois,17,Pike,149
+MANE,United States,Illinois,17,Pope,151
+MANE,United States,Illinois,17,Randolph,157
+MANE,United States,Illinois,17,Richland,159
+MANE,United States,Illinois,17,Sangamon,167
+MANE,United States,Illinois,17,Schuyler,169
+MANE,United States,Illinois,17,Scott,171
+MANE,United States,Illinois,17,St. Clair,163
+MANE,United States,Illinois,17,Stark,175
+MANE,United States,Illinois,17,Vermilion,183
+MANE,United States,Illinois,17,Wabash,185
+MANE,United States,Illinois,17,Warren,187
+MANE,United States,Illinois,17,Washington,189
+MANE,United States,Illinois,17,Will,197
+MANE,United States,Illinois,17,Winnebago,201
+MANE,United States,Indiana,18,,
+MANE,United States,Indiana,18,Carroll,015
+MANE,United States,Indiana,18,Cass,017
+MANE,United States,Indiana,18,Clark,019
+MANE,United States,Indiana,18,Dearborn,029
+MANE,United States,Indiana,18,Decatur,031
+MANE,United States,Indiana,18,Delaware,035
+MANE,United States,Indiana,18,Elkhart,039
+MANE,United States,Indiana,18,Floyd,043
+MANE,United States,Indiana,18,Fountain,045
+MANE,United States,Indiana,18,Fulton,049
+MANE,United States,Indiana,18,Grant,053
+MANE,United States,Indiana,18,Hancock,059
+MANE,United States,Indiana,18,Henry,065
+MANE,United States,Indiana,18,Howard,067
+MANE,United States,Indiana,18,Huntington,069
+MANE,United States,Indiana,18,Jasper,073
+MANE,United States,Indiana,18,Jefferson,077
+MANE,United States,Indiana,18,Jennings,079
+MANE,United States,Indiana,18,Johnson,081
+MANE,United States,Indiana,18,Kosciusko,085
+MANE,United States,Indiana,18,Lagrange,087
+MANE,United States,Indiana,18,Lake,089
+MANE,United States,Indiana,18,LaPorte,091
+MANE,United States,Indiana,18,Lawrence,093
+MANE,United States,Indiana,18,Madison,095
+MANE,United States,Indiana,18,Marion,097
+MANE,United States,Indiana,18,Marshall,099
+MANE,United States,Indiana,18,Miami,103
+MANE,United States,Indiana,18,Monroe,105
+MANE,United States,Indiana,18,Montgomery,107
+MANE,United States,Indiana,18,Morgan,109
+MANE,United States,Indiana,18,Newton,111
+MANE,United States,Indiana,18,Noble,113
+MANE,United States,Indiana,18,Parke,121
+MANE,United States,Indiana,18,Porter,127
+MANE,United States,Indiana,18,Putnam,133
+MANE,United States,Indiana,18,Rush,139
+MANE,United States,Indiana,18,Steuben,151
+MANE,United States,Indiana,18,Sullivan,153
+MANE,United States,Indiana,18,Switzerland,155
+MANE,United States,Indiana,18,Tippecanoe,157
+MANE,United States,Indiana,18,Tipton,159
+MANE,United States,Indiana,18,Vermillion,165
+MANE,United States,Indiana,18,Vigo,167
+MANE,United States,Indiana,18,Wabash,169
+MANE,United States,Indiana,18,Wayne,177
+MANE,United States,Indiana,18,Wells,179
+MANE,United States,Iowa,19,,
+MANE,United States,Iowa,19,Adair,001
+MANE,United States,Iowa,19,Cherokee,035
+MANE,United States,Iowa,19,Guthrie,077
+MANE,United States,Iowa,19,Ida,093
+MANE,United States,Iowa,19,Montgomery,137
+MANE,United States,Iowa,19,O'Brien,141
+MANE,United States,Iowa,19,Plymouth,149
+MANE,United States,Iowa,19,Sioux,167
+MANE,United States,Iowa,19,Woodbury,193
+MANE,United States,Kansas,20,,
+MANE,United States,Kansas,20,Allen,001
+MANE,United States,Kansas,20,Atchison,005
+MANE,United States,Kansas,20,Brown,013
+MANE,United States,Kansas,20,Butler,015
+MANE,United States,Kansas,20,Chautauqua,019
+MANE,United States,Kansas,20,Cherokee,021
+MANE,United States,Kansas,20,Cheyenne,023
+MANE,United States,Kansas,20,Clay,027
+MANE,United States,Kansas,20,Cloud,029
+MANE,United States,Kansas,20,Coffey,031
+MANE,United States,Kansas,20,Cowley,035
+MANE,United States,Kansas,20,Dickinson,041
+MANE,United States,Kansas,20,Doniphan,043
+MANE,United States,Kansas,20,Douglas,045
+MANE,United States,Kansas,20,Edwards,047
+MANE,United States,Kansas,20,Ellis,051
+MANE,United States,Kansas,20,Ford,057
+MANE,United States,Kansas,20,Geary,061
+MANE,United States,Kansas,20,Gove,063
+MANE,United States,Kansas,20,Graham,065
+MANE,United States,Kansas,20,Greenwood,073
+MANE,United States,Kansas,20,Jackson,085
+MANE,United States,Kansas,20,Jefferson,087
+MANE,United States,Kansas,20,Johnson,091
+MANE,United States,Kansas,20,Leavenworth,103
+MANE,United States,Kansas,20,Logan,109
+MANE,United States,Kansas,20,Lyon,111
+MANE,United States,Kansas,20,Marion,115
+MANE,United States,Kansas,20,Marshall,117
+MANE,United States,Kansas,20,Morris,127
+MANE,United States,Kansas,20,Nemaha,131
+MANE,United States,Kansas,20,Osage,139
+MANE,United States,Kansas,20,Osborne,141
+MANE,United States,Kansas,20,Pawnee,145
+MANE,United States,Kansas,20,Phillips,147
+MANE,United States,Kansas,20,Pottawatomie,149
+MANE,United States,Kansas,20,Rawlins,153
+MANE,United States,Kansas,20,Reno,155
+MANE,United States,Kansas,20,Republic,157
+MANE,United States,Kansas,20,Rice,159
+MANE,United States,Kansas,20,Riley,161
+MANE,United States,Kansas,20,Rooks,163
+MANE,United States,Kansas,20,Saline,169
+MANE,United States,Kansas,20,Scott,171
+MANE,United States,Kansas,20,Sedgwick,173
+MANE,United States,Kansas,20,Shawnee,177
+MANE,United States,Kansas,20,Sherman,181
+MANE,United States,Kansas,20,Sumner,191
+MANE,United States,Kansas,20,Wabaunsee,197
+MANE,United States,Kansas,20,Wilson,205
+MANE,United States,Kansas,20,Woodson,207
+MANE,United States,Kansas,20,Wyandotte,209
+MANE,United States,Kentucky,21,,
+MANE,United States,Kentucky,21,Boone,015
+MANE,United States,Kentucky,21,Bourbon,017
+MANE,United States,Kentucky,21,Clark,049
+MANE,United States,Kentucky,21,Fayette,067
+MANE,United States,Kentucky,21,Franklin,073
+MANE,United States,Kentucky,21,Garrard,079
+MANE,United States,Kentucky,21,Hardin,093
+MANE,United States,Kentucky,21,Henry,103
+MANE,United States,Kentucky,21,Jefferson,111
+MANE,United States,Kentucky,21,Jessamine,113
+MANE,United States,Kentucky,21,Kenton,117
+MANE,United States,Kentucky,21,Madison,151
+MANE,United States,Kentucky,21,Meade,163
+MANE,United States,Kentucky,21,Nelson,179
+MANE,United States,Kentucky,21,Oldham,185
+MANE,United States,Kentucky,21,Owen,187
+MANE,United States,Kentucky,21,Rowan,205
+MANE,United States,Maine,23,,
+MANE,United States,Maine,23,Androscoggin,001
+MANE,United States,Maine,23,Cumberland,005
+MANE,United States,Maine,23,Franklin,007
+MANE,United States,Maine,23,Hancock,009
+MANE,United States,Maine,23,Kennebec,011
+MANE,United States,Maine,23,Knox,013
+MANE,United States,Maine,23,Lincoln,015
+MANE,United States,Maine,23,Oxford,017
+MANE,United States,Maine,23,Penobscot,019
+MANE,United States,Maine,23,Somerset,025
+MANE,United States,Maine,23,Waldo,027
+MANE,United States,Maryland,24,,
+MANE,United States,Massachusetts,25,,
+MANE,United States,Massachusetts,25,Barnstable,001
+MANE,United States,Massachusetts,25,Berkshire,003
+MANE,United States,Massachusetts,25,Bristol,005
+MANE,United States,Massachusetts,25,Dukes,007
+MANE,United States,Massachusetts,25,Essex,009
+MANE,United States,Massachusetts,25,Franklin,011
+MANE,United States,Massachusetts,25,Hampden,013
+MANE,United States,Massachusetts,25,Hampshire,015
+MANE,United States,Massachusetts,25,Middlesex,017
+MANE,United States,Massachusetts,25,Nantucket,019
+MANE,United States,Massachusetts,25,Norfolk,021
+MANE,United States,Massachusetts,25,Plymouth,023
+MANE,United States,Massachusetts,25,Suffolk,025
+MANE,United States,Massachusetts,25,Worcester,027
+MANE,United States,Michigan,26,,
+MANE,United States,Michigan,26,Allegan,005
+MANE,United States,Michigan,26,Alpena,007
+MANE,United States,Michigan,26,Antrim,009
+MANE,United States,Michigan,26,Baraga,013
+MANE,United States,Michigan,26,Barry,015
+MANE,United States,Michigan,26,Bay,017
+MANE,United States,Michigan,26,Benzie,019
+MANE,United States,Michigan,26,Berrien,021
+MANE,United States,Michigan,26,Charlevoix,029
+MANE,United States,Michigan,26,Cheboygan,031
+MANE,United States,Michigan,26,Delta,041
+MANE,United States,Michigan,26,Eaton,045
+MANE,United States,Michigan,26,Emmet,047
+MANE,United States,Michigan,26,Gladwin,051
+MANE,United States,Michigan,26,Grand Traverse,055
+MANE,United States,Michigan,26,Gratiot,057
+MANE,United States,Michigan,26,Houghton,061
+MANE,United States,Michigan,26,Huron,063
+MANE,United States,Michigan,26,Ingham,065
+MANE,United States,Michigan,26,Isabella,073
+MANE,United States,Michigan,26,Kalamazoo,077
+MANE,United States,Michigan,26,Kent,081
+MANE,United States,Michigan,26,Keweenaw,083
+MANE,United States,Michigan,26,Leelanau,089
+MANE,United States,Michigan,26,Lenawee,091
+MANE,United States,Michigan,26,Livingston,093
+MANE,United States,Michigan,26,Mackinac,097
+MANE,United States,Michigan,26,Manistee,101
+MANE,United States,Michigan,26,Marquette,103
+MANE,United States,Michigan,26,Mecosta,107
+MANE,United States,Michigan,26,Monroe,115
+MANE,United States,Michigan,26,Montcalm,117
+MANE,United States,Michigan,26,Montmorency,119
+MANE,United States,Michigan,26,Muskegon,121
+MANE,United States,Michigan,26,Newaygo,123
+MANE,United States,Michigan,26,Oakland,125
+MANE,United States,Michigan,26,Ogemaw,129
+MANE,United States,Michigan,26,Oscoda,135
+MANE,United States,Michigan,26,Otsego,137
+MANE,United States,Michigan,26,Ottawa,139
+MANE,United States,Michigan,26,Presque Isle,141
+MANE,United States,Michigan,26,Schoolcraft,153
+MANE,United States,Michigan,26,Shiawassee,155
+MANE,United States,Michigan,26,St. Clair,147
+MANE,United States,Michigan,26,Tuscola,157
+MANE,United States,Michigan,26,Van Buren,159
+MANE,United States,Michigan,26,Washtenaw,161
+MANE,United States,Michigan,26,Wayne,163
+MANE,United States,Minnesota,27,,
+MANE,United States,Minnesota,27,Anoka,003
+MANE,United States,Minnesota,27,Blue Earth,013
+MANE,United States,Minnesota,27,Chippewa,023
+MANE,United States,Minnesota,27,Clay,027
+MANE,United States,Minnesota,27,Crow Wing,035
+MANE,United States,Minnesota,27,Fillmore,045
+MANE,United States,Minnesota,27,Goodhue,049
+MANE,United States,Minnesota,27,Hennepin,053
+MANE,United States,Minnesota,27,Houston,055
+MANE,United States,Minnesota,27,Hubbard,057
+MANE,United States,Minnesota,27,Lincoln,081
+MANE,United States,Minnesota,27,Mahnomen,087
+MANE,United States,Minnesota,27,McLeod,085
+MANE,United States,Minnesota,27,Pipestone,117
+MANE,United States,Minnesota,27,Rice,131
+MANE,United States,Minnesota,27,Scott,139
+MANE,United States,Minnesota,27,St. Louis,137
+MANE,United States,Minnesota,27,Stearns,145
+MANE,United States,Minnesota,27,Wabasha,157
+MANE,United States,Minnesota,27,Wright,171
+MANE,United States,Missouri,29,,
+MANE,United States,Missouri,29,Adair,001
+MANE,United States,Missouri,29,Andrew,003
+MANE,United States,Missouri,29,Atchison,005
+MANE,United States,Missouri,29,Barry,009
+MANE,United States,Missouri,29,Barton,011
+MANE,United States,Missouri,29,Boone,019
+MANE,United States,Missouri,29,Camden,029
+MANE,United States,Missouri,29,Cass,037
+MANE,United States,Missouri,29,Christian,043
+MANE,United States,Missouri,29,Clark,045
+MANE,United States,Missouri,29,Clay,047
+MANE,United States,Missouri,29,Crawford,055
+MANE,United States,Missouri,29,Dade,057
+MANE,United States,Missouri,29,Dent,065
+MANE,United States,Missouri,29,Franklin,071
+MANE,United States,Missouri,29,Greene,077
+MANE,United States,Missouri,29,Howell,091
+MANE,United States,Missouri,29,Jackson,095
+MANE,United States,Missouri,29,Jasper,097
+MANE,United States,Missouri,29,Jefferson,099
+MANE,United States,Missouri,29,Lawrence,109
+MANE,United States,Missouri,29,Lincoln,113
+MANE,United States,Missouri,29,Livingston,117
+MANE,United States,Missouri,29,Marion,127
+MANE,United States,Missouri,29,McDonald,119
+MANE,United States,Missouri,29,Mercer,129
+MANE,United States,Missouri,29,Monroe,137
+MANE,United States,Missouri,29,Newton,145
+MANE,United States,Missouri,29,Nodaway,147
+MANE,United States,Missouri,29,Ozark,153
+MANE,United States,Missouri,29,Pemiscot,155
+MANE,United States,Missouri,29,Pike,163
+MANE,United States,Missouri,29,Platte,165
+MANE,United States,Missouri,29,Ralls,173
+MANE,United States,Missouri,29,Saline,195
+MANE,United States,Missouri,29,Schuyler,197
+MANE,United States,Missouri,29,St. Louis,189
+MANE,United States,Missouri,29,Stone,209
+MANE,United States,Missouri,29,Taney,213
+MANE,United States,Missouri,29,Warren,219
+MANE,United States,Missouri,29,Webster,225
+MANE,United States,Missouri,29,Worth,227
+MANE,United States,Montana,30,,
+MANE,United States,Montana,30,Flathead,029
+MANE,United States,Montana,30,Lake,047
+MANE,United States,Montana,30,McCone,055
+MANE,United States,Montana,30,Missoula,063
+MANE,United States,Montana,30,Ravalli,081
+MANE,United States,Montana,30,Sanders,089
+MANE,United States,Nebraska,31,,
+MANE,United States,Nebraska,31,Dawes,045
+MANE,United States,Nebraska,31,Furnas,065
+MANE,United States,Nebraska,31,Richardson,147
+MANE,United States,Nebraska,31,Scotts Bluff,157
+MANE,United States,Nebraska,31,Sioux,165
+MANE,United States,Nevada,32,,
+MANE,United States,Nevada,32,Carson City,510
+MANE,United States,Nevada,32,Churchill,001
+MANE,United States,Nevada,32,Douglas,005
+MANE,United States,Nevada,32,Elko,007
+MANE,United States,Nevada,32,Eureka,011
+MANE,United States,Nevada,32,Humboldt,013
+MANE,United States,Nevada,32,Lander,015
+MANE,United States,Nevada,32,Lincoln,017
+MANE,United States,Nevada,32,Lyon,019
+MANE,United States,Nevada,32,Mineral,021
+MANE,United States,Nevada,32,Pershing,027
+MANE,United States,Nevada,32,Storey,029
+MANE,United States,Nevada,32,Washoe,031
+MANE,United States,Nevada,32,White Pine,033
+MANE,United States,New Hampshire,33,,
+MANE,United States,New Hampshire,33,Belknap,001
+MANE,United States,New Hampshire,33,Carroll,003
+MANE,United States,New Hampshire,33,Cheshire,005
+MANE,United States,New Hampshire,33,Coos,007
+MANE,United States,New Hampshire,33,Grafton,009
+MANE,United States,New Hampshire,33,Hillsborough,011
+MANE,United States,New Hampshire,33,Merrimack,013
+MANE,United States,New Hampshire,33,Rockingham,015
+MANE,United States,New Hampshire,33,Strafford,017
+MANE,United States,New Jersey,34,,
+MANE,United States,New Jersey,34,Burlington,005
+MANE,United States,New Jersey,34,Camden,007
+MANE,United States,New Jersey,34,Essex,013
+MANE,United States,New Jersey,34,Gloucester,015
+MANE,United States,New Jersey,34,Hudson,017
+MANE,United States,New Jersey,34,Hunterdon,019
+MANE,United States,New Jersey,34,Mercer,021
+MANE,United States,New Jersey,34,Middlesex,023
+MANE,United States,New Jersey,34,Monmouth,025
+MANE,United States,New Jersey,34,Morris,027
+MANE,United States,New Jersey,34,Passaic,031
+MANE,United States,New Jersey,34,Somerset,035
+MANE,United States,New Jersey,34,Sussex,037
+MANE,United States,New Jersey,34,Warren,041
+MANE,United States,New Mexico,35,,
+MANE,United States,New Mexico,35,Catron,003
+MANE,United States,New Mexico,35,Dona Ana,013
+MANE,United States,New Mexico,35,Grant,017
+MANE,United States,New Mexico,35,Harding,021
+MANE,United States,New Mexico,35,Lincoln,027
+MANE,United States,New Mexico,35,McKinley,031
+MANE,United States,New Mexico,35,Mora,033
+MANE,United States,New Mexico,35,Rio Arriba,039
+MANE,United States,New Mexico,35,Roosevelt,041
+MANE,United States,New Mexico,35,San Juan,045
+MANE,United States,New Mexico,35,San Miguel,047
+MANE,United States,New Mexico,35,Sandoval,043
+MANE,United States,New Mexico,35,Socorro,053
+MANE,United States,New Mexico,35,Taos,055
+MANE,United States,New Mexico,35,Union,059
+MANE,United States,New Mexico,35,Valencia,061
+MANE,United States,New York,36,,
+MANE,United States,New York,36,Albany,001
+MANE,United States,New York,36,Bronx,005
+MANE,United States,New York,36,Cattaraugus,009
+MANE,United States,New York,36,Delaware,025
+MANE,United States,New York,36,Dutchess,027
+MANE,United States,New York,36,Essex,031
+MANE,United States,New York,36,Greene,039
+MANE,United States,New York,36,Jefferson,045
+MANE,United States,New York,36,Kings,047
+MANE,United States,New York,36,Livingston,051
+MANE,United States,New York,36,Madison,053
+MANE,United States,New York,36,Nassau,059
+MANE,United States,New York,36,New York,061
+MANE,United States,New York,36,Onondaga,067
+MANE,United States,New York,36,Orange,071
+MANE,United States,New York,36,Oswego,075
+MANE,United States,New York,36,Otsego,077
+MANE,United States,New York,36,Queens,081
+MANE,United States,New York,36,Rensselaer,083
+MANE,United States,New York,36,Richmond,085
+MANE,United States,New York,36,Rockland,087
+MANE,United States,New York,36,Saratoga,091
+MANE,United States,New York,36,St. Lawrence,089
+MANE,United States,New York,36,Suffolk,103
+MANE,United States,New York,36,Ulster,111
+MANE,United States,New York,36,Washington,115
+MANE,United States,New York,36,Westchester,119
+MANE,United States,New York,36,Yates,123
+MANE,United States,North Carolina,37,,
+MANE,United States,North Carolina,37,Alleghany,005
+MANE,United States,North Carolina,37,Chatham,037
+MANE,United States,North Carolina,37,Cleveland,045
+MANE,United States,North Carolina,37,Davidson,057
+MANE,United States,North Carolina,37,Durham,063
+MANE,United States,North Carolina,37,Forsyth,067
+MANE,United States,North Carolina,37,Guilford,081
+MANE,United States,North Carolina,37,Haywood,087
+MANE,United States,North Carolina,37,Henderson,089
+MANE,United States,North Carolina,37,Madison,115
+MANE,United States,North Carolina,37,Orange,135
+MANE,United States,North Carolina,37,Person,145
+MANE,United States,North Carolina,37,Stanly,167
+MANE,United States,North Carolina,37,Swain,173
+MANE,United States,North Carolina,37,Union,179
+MANE,United States,North Carolina,37,Wake,183
+MANE,United States,North Carolina,37,Yancey,199
+MANE,United States,North Dakota,38,,
+MANE,United States,North Dakota,38,Barnes,003
+MANE,United States,North Dakota,38,Cass,017
+MANE,United States,North Dakota,38,Dickey,021
+MANE,United States,North Dakota,38,Grand Forks,035
+MANE,United States,North Dakota,38,Pembina,067
+MANE,United States,North Dakota,38,Sargent,081
+MANE,United States,North Dakota,38,Stutsman,093
+MANE,United States,Ohio,39,,
+MANE,United States,Ohio,39,Ashland,005
+MANE,United States,Ohio,39,Ashtabula,007
+MANE,United States,Ohio,39,Athens,009
+MANE,United States,Ohio,39,Auglaize,011
+MANE,United States,Ohio,39,Butler,017
+MANE,United States,Ohio,39,Carroll,019
+MANE,United States,Ohio,39,Champaign,021
+MANE,United States,Ohio,39,Clark,023
+MANE,United States,Ohio,39,Clermont,025
+MANE,United States,Ohio,39,Clinton,027
+MANE,United States,Ohio,39,Columbiana,029
+MANE,United States,Ohio,39,Coshocton,031
+MANE,United States,Ohio,39,Cuyahoga,035
+MANE,United States,Ohio,39,Darke,037
+MANE,United States,Ohio,39,Defiance,039
+MANE,United States,Ohio,39,Delaware,041
+MANE,United States,Ohio,39,Erie,043
+MANE,United States,Ohio,39,Fairfield,045
+MANE,United States,Ohio,39,Fayette,047
+MANE,United States,Ohio,39,Franklin,049
+MANE,United States,Ohio,39,Gallia,053
+MANE,United States,Ohio,39,Geauga,055
+MANE,United States,Ohio,39,Hamilton,061
+MANE,United States,Ohio,39,Hardin,065
+MANE,United States,Ohio,39,Henry,069
+MANE,United States,Ohio,39,Holmes,075
+MANE,United States,Ohio,39,Huron,077
+MANE,United States,Ohio,39,Jackson,079
+MANE,United States,Ohio,39,Jefferson,081
+MANE,United States,Ohio,39,Knox,083
+MANE,United States,Ohio,39,Lake,085
+MANE,United States,Ohio,39,Licking,089
+MANE,United States,Ohio,39,Logan,091
+MANE,United States,Ohio,39,Lorain,093
+MANE,United States,Ohio,39,Lucas,095
+MANE,United States,Ohio,39,Mahoning,099
+MANE,United States,Ohio,39,Medina,103
+MANE,United States,Ohio,39,Meigs,105
+MANE,United States,Ohio,39,Mercer,107
+MANE,United States,Ohio,39,Montgomery,113
+MANE,United States,Ohio,39,Morgan,115
+MANE,United States,Ohio,39,Muskingum,119
+MANE,United States,Ohio,39,Ottawa,123
+MANE,United States,Ohio,39,Paulding,125
+MANE,United States,Ohio,39,Perry,127
+MANE,United States,Ohio,39,Pike,131
+MANE,United States,Ohio,39,Portage,133
+MANE,United States,Ohio,39,Preble,135
+MANE,United States,Ohio,39,Putnam,137
+MANE,United States,Ohio,39,Richland,139
+MANE,United States,Ohio,39,Ross,141
+MANE,United States,Ohio,39,Sandusky,143
+MANE,United States,Ohio,39,Scioto,145
+MANE,United States,Ohio,39,Shelby,149
+MANE,United States,Ohio,39,Stark,151
+MANE,United States,Ohio,39,Summit,153
+MANE,United States,Ohio,39,Trumbull,155
+MANE,United States,Ohio,39,Tuscarawas,157
+MANE,United States,Ohio,39,Union,159
+MANE,United States,Ohio,39,Van Wert,161
+MANE,United States,Ohio,39,Warren,165
+MANE,United States,Ohio,39,Washington,167
+MANE,United States,Ohio,39,Wayne,169
+MANE,United States,Ohio,39,Williams,171
+MANE,United States,Ohio,39,Wood,173
+MANE,United States,Oklahoma,40,,
+MANE,United States,Oklahoma,40,Cleveland,027
+MANE,United States,Oklahoma,40,Custer,039
+MANE,United States,Oklahoma,40,Grady,051
+MANE,United States,Oklahoma,40,Kingfisher,073
+MANE,United States,Oklahoma,40,Latimer,077
+MANE,United States,Oklahoma,40,Oklahoma,109
+MANE,United States,Oklahoma,40,Pittsburg,121
+MANE,United States,Oklahoma,40,Woods,151
+MANE,United States,Oregon,41,,
+MANE,United States,Oregon,41,Baker,001
+MANE,United States,Oregon,41,Benton,003
+MANE,United States,Oregon,41,Coos,011
+MANE,United States,Oregon,41,Crook,013
+MANE,United States,Oregon,41,Curry,015
+MANE,United States,Oregon,41,Deschutes,017
+MANE,United States,Oregon,41,Douglas,019
+MANE,United States,Oregon,41,Gilliam,021
+MANE,United States,Oregon,41,Grant,023
+MANE,United States,Oregon,41,Harney,025
+MANE,United States,Oregon,41,Jackson,029
+MANE,United States,Oregon,41,Josephine,033
+MANE,United States,Oregon,41,Klamath,035
+MANE,United States,Oregon,41,Lake,037
+MANE,United States,Oregon,41,Lane,039
+MANE,United States,Oregon,41,Lincoln,041
+MANE,United States,Oregon,41,Linn,043
+MANE,United States,Oregon,41,Malheur,045
+MANE,United States,Oregon,41,Marion,047
+MANE,United States,Oregon,41,Multnomah,051
+MANE,United States,Oregon,41,Sherman,055
+MANE,United States,Oregon,41,Tillamook,057
+MANE,United States,Oregon,41,Umatilla,059
+MANE,United States,Oregon,41,Union,061
+MANE,United States,Oregon,41,Wasco,065
+MANE,United States,Oregon,41,Washington,067
+MANE,United States,Oregon,41,Wheeler,069
+MANE,United States,Pennsylvania,42,,
+MANE,United States,Pennsylvania,42,Adams,001
+MANE,United States,Pennsylvania,42,Allegheny,003
+MANE,United States,Pennsylvania,42,Armstrong,005
+MANE,United States,Pennsylvania,42,Beaver,007
+MANE,United States,Pennsylvania,42,Bedford,009
+MANE,United States,Pennsylvania,42,Berks,011
+MANE,United States,Pennsylvania,42,Blair,013
+MANE,United States,Pennsylvania,42,Bradford,015
+MANE,United States,Pennsylvania,42,Bucks,017
+MANE,United States,Pennsylvania,42,Butler,019
+MANE,United States,Pennsylvania,42,Cambria,021
+MANE,United States,Pennsylvania,42,Carbon,025
+MANE,United States,Pennsylvania,42,Centre,027
+MANE,United States,Pennsylvania,42,Chester,029
+MANE,United States,Pennsylvania,42,Clearfield,033
+MANE,United States,Pennsylvania,42,Clinton,035
+MANE,United States,Pennsylvania,42,Crawford,039
+MANE,United States,Pennsylvania,42,Cumberland,041
+MANE,United States,Pennsylvania,42,Dauphin,043
+MANE,United States,Pennsylvania,42,Delaware,045
+MANE,United States,Pennsylvania,42,Elk,047
+MANE,United States,Pennsylvania,42,Erie,049
+MANE,United States,Pennsylvania,42,Fayette,051
+MANE,United States,Pennsylvania,42,Franklin,055
+MANE,United States,Pennsylvania,42,Fulton,057
+MANE,United States,Pennsylvania,42,Greene,059
+MANE,United States,Pennsylvania,42,Huntingdon,061
+MANE,United States,Pennsylvania,42,Jefferson,065
+MANE,United States,Pennsylvania,42,Juniata,067
+MANE,United States,Pennsylvania,42,Lackawanna,069
+MANE,United States,Pennsylvania,42,Lancaster,071
+MANE,United States,Pennsylvania,42,Lawrence,073
+MANE,United States,Pennsylvania,42,Lebanon,075
+MANE,United States,Pennsylvania,42,Lehigh,077
+MANE,United States,Pennsylvania,42,Luzerne,079
+MANE,United States,Pennsylvania,42,Lycoming,081
+MANE,United States,Pennsylvania,42,Mercer,085
+MANE,United States,Pennsylvania,42,Mifflin,087
+MANE,United States,Pennsylvania,42,Monroe,089
+MANE,United States,Pennsylvania,42,Montgomery,091
+MANE,United States,Pennsylvania,42,Northampton,095
+MANE,United States,Pennsylvania,42,Perry,099
+MANE,United States,Pennsylvania,42,Philadelphia,101
+MANE,United States,Pennsylvania,42,Potter,105
+MANE,United States,Pennsylvania,42,Schuylkill,107
+MANE,United States,Pennsylvania,42,Snyder,109
+MANE,United States,Pennsylvania,42,Sullivan,113
+MANE,United States,Pennsylvania,42,Susquehanna,115
+MANE,United States,Pennsylvania,42,Tioga,117
+MANE,United States,Pennsylvania,42,Warren,123
+MANE,United States,Pennsylvania,42,Washington,125
+MANE,United States,Pennsylvania,42,Wayne,127
+MANE,United States,Pennsylvania,42,Westmoreland,129
+MANE,United States,Pennsylvania,42,Wyoming,131
+MANE,United States,Pennsylvania,42,York,133
+MANE,United States,Rhode Island,44,,
+MANE,United States,Rhode Island,44,Kent,003
+MANE,United States,Rhode Island,44,Newport,005
+MANE,United States,Rhode Island,44,Providence,007
+MANE,United States,South Carolina,45,,
+MANE,United States,South Dakota,46,,
+MANE,United States,South Dakota,46,Aurora,003
+MANE,United States,South Dakota,46,Clay,027
+MANE,United States,South Dakota,46,Gregory,053
+MANE,United States,South Dakota,46,Lake,079
+MANE,United States,South Dakota,46,Lincoln,083
+MANE,United States,Tennessee,47,,
+MANE,United States,Tennessee,47,Carter,019
+MANE,United States,Tennessee,47,Cheatham,021
+MANE,United States,Tennessee,47,Davidson,037
+MANE,United States,Tennessee,47,Greene,059
+MANE,United States,Tennessee,47,Hawkins,073
+MANE,United States,Tennessee,47,Knox,093
+MANE,United States,Tennessee,47,Lake,095
+MANE,United States,Tennessee,47,Rutherford,149
+MANE,United States,Tennessee,47,Williamson,187
+MANE,United States,Texas,48,,
+MANE,United States,Texas,48,Brewster,043
+MANE,United States,Texas,48,Brown,049
+MANE,United States,Texas,48,Castro,069
+MANE,United States,Texas,48,Cherokee,073
+MANE,United States,Texas,48,Dallas,113
+MANE,United States,Texas,48,Deaf Smith,117
+MANE,United States,Texas,48,Edwards,137
+MANE,United States,Texas,48,Gray,179
+MANE,United States,Texas,48,Hays,209
+MANE,United States,Texas,48,Hemphill,211
+MANE,United States,Texas,48,Jeff Davis,243
+MANE,United States,Texas,48,Lubbock,303
+MANE,United States,Texas,48,McLennan,309
+MANE,United States,Texas,48,Moore,341
+MANE,United States,Texas,48,Travis,453
+MANE,United States,Texas,48,Walker,471
+MANE,United States,Utah,49,,
+MANE,United States,Utah,49,Cache,005
+MANE,United States,Utah,49,Garfield,017
+MANE,United States,Utah,49,Grand,019
+MANE,United States,Utah,49,Iron,021
+MANE,United States,Utah,49,Kane,025
+MANE,United States,Utah,49,Millard,027
+MANE,United States,Utah,49,Piute,031
+MANE,United States,Utah,49,Rich,033
+MANE,United States,Utah,49,Salt Lake,035
+MANE,United States,Utah,49,San Juan,037
+MANE,United States,Utah,49,Summit,043
+MANE,United States,Utah,49,Tooele,045
+MANE,United States,Utah,49,Uintah,047
+MANE,United States,Utah,49,Utah,049
+MANE,United States,Utah,49,Wasatch,051
+MANE,United States,Utah,49,Washington,053
+MANE,United States,Utah,49,Wayne,055
+MANE,United States,Vermont,50,,
+MANE,United States,Vermont,50,Addison,001
+MANE,United States,Vermont,50,Bennington,003
+MANE,United States,Vermont,50,Chittenden,007
+MANE,United States,Vermont,50,Grand Isle,013
+MANE,United States,Vermont,50,Lamoille,015
+MANE,United States,Vermont,50,Rutland,021
+MANE,United States,Vermont,50,Windham,025
+MANE,United States,Vermont,50,Windsor,027
+MANE,United States,Virginia,51,,
+MANE,United States,Virginia,51,Accomack,001
+MANE,United States,Virginia,51,Albemarle,003
+MANE,United States,Virginia,51,Amelia,007
+MANE,United States,Virginia,51,Amherst,009
+MANE,United States,Virginia,51,Appomattox,011
+MANE,United States,Virginia,51,Augusta,015
+MANE,United States,Virginia,51,Bath,017
+MANE,United States,Virginia,51,Bedford,019
+MANE,United States,Virginia,51,Bland,021
+MANE,United States,Virginia,51,Botetourt,023
+MANE,United States,Virginia,51,Buckingham,029
+MANE,United States,Virginia,51,Campbell,031
+MANE,United States,Virginia,51,Caroline,033
+MANE,United States,Virginia,51,Carroll,035
+MANE,United States,Virginia,51,Charles City,036
+MANE,United States,Virginia,51,Charlotte,037
+MANE,United States,Virginia,51,Chesterfield,041
+MANE,United States,Virginia,51,Clarke,043
+MANE,United States,Virginia,51,Craig,045
+MANE,United States,Virginia,51,Cumberland,049
+MANE,United States,Virginia,51,Dinwiddie,053
+MANE,United States,Virginia,51,Fairfax,059
+MANE,United States,Virginia,51,Fauquier,061
+MANE,United States,Virginia,51,Floyd,063
+MANE,United States,Virginia,51,Fluvanna,065
+MANE,United States,Virginia,51,Franklin,067
+MANE,United States,Virginia,51,Frederick,069
+MANE,United States,Virginia,51,Giles,071
+MANE,United States,Virginia,51,Gloucester,073
+MANE,United States,Virginia,51,Grayson,077
+MANE,United States,Virginia,51,Greene,079
+MANE,United States,Virginia,51,Halifax,083
+MANE,United States,Virginia,51,Henrico,087
+MANE,United States,Virginia,51,Henry,089
+MANE,United States,Virginia,51,Highland,091
+MANE,United States,Virginia,51,James City,095
+MANE,United States,Virginia,51,Loudoun,107
+MANE,United States,Virginia,51,Louisa,109
+MANE,United States,Virginia,51,Lunenburg,111
+MANE,United States,Virginia,51,Madison,113
+MANE,United States,Virginia,51,Mathews,115
+MANE,United States,Virginia,51,Mecklenburg,117
+MANE,United States,Virginia,51,Montgomery,121
+MANE,United States,Virginia,51,Nelson,125
+MANE,United States,Virginia,51,New Kent,127
+MANE,United States,Virginia,51,Northampton,131
+MANE,United States,Virginia,51,Nottoway,135
+MANE,United States,Virginia,51,Orange,137
+MANE,United States,Virginia,51,Page,139
+MANE,United States,Virginia,51,Patrick,141
+MANE,United States,Virginia,51,Pittsylvania,143
+MANE,United States,Virginia,51,Powhatan,145
+MANE,United States,Virginia,51,Prince Edward,147
+MANE,United States,Virginia,51,Prince William,153
+MANE,United States,Virginia,51,Pulaski,155
+MANE,United States,Virginia,51,Rappahannock,157
+MANE,United States,Virginia,51,Roanoke,161
+MANE,United States,Virginia,51,Rockbridge,163
+MANE,United States,Virginia,51,Rockingham,165
+MANE,United States,Virginia,51,Russell,167
+MANE,United States,Virginia,51,Scott,169
+MANE,United States,Virginia,51,Shenandoah,171
+MANE,United States,Virginia,51,Smyth,173
+MANE,United States,Virginia,51,Spotsylvania,177
+MANE,United States,Virginia,51,Stafford,179
+MANE,United States,Virginia,51,Surry,181
+MANE,United States,Virginia,51,Tazewell,185
+MANE,United States,Virginia,51,"Virginia Beach ",810
+MANE,United States,Virginia,51,Warren,187
+MANE,United States,Virginia,51,Washington,191
+MANE,United States,Virginia,51,Westmoreland,193
+MANE,United States,Virginia,51,Wise,195
+MANE,United States,Virginia,51,Wythe,197
+MANE,United States,Washington,53,,
+MANE,United States,Washington,53,Adams,001
+MANE,United States,Washington,53,Asotin,003
+MANE,United States,Washington,53,Benton,005
+MANE,United States,Washington,53,Chelan,007
+MANE,United States,Washington,53,Clallam,009
+MANE,United States,Washington,53,Columbia,013
+MANE,United States,Washington,53,Grant,025
+MANE,United States,Washington,53,Grays Harbor,027
+MANE,United States,Washington,53,Island,029
+MANE,United States,Washington,53,Jefferson,031
+MANE,United States,Washington,53,King,033
+MANE,United States,Washington,53,Kittitas,037
+MANE,United States,Washington,53,Klickitat,039
+MANE,United States,Washington,53,Okanogan,047
+MANE,United States,Washington,53,Pend Oreille,051
+MANE,United States,Washington,53,Pierce,053
+MANE,United States,Washington,53,San Juan,055
+MANE,United States,Washington,53,Snohomish,061
+MANE,United States,Washington,53,Stevens,065
+MANE,United States,Washington,53,Walla Walla,071
+MANE,United States,Washington,53,Whitman,075
+MANE,United States,Washington,53,Yakima,077
+MANE,United States,West Virginia,54,,
+MANE,United States,West Virginia,54,Barbour,001
+MANE,United States,West Virginia,54,Berkeley,003
+MANE,United States,West Virginia,54,Calhoun,013
+MANE,United States,West Virginia,54,Fayette,019
+MANE,United States,West Virginia,54,Grant,023
+MANE,United States,West Virginia,54,Greenbrier,025
+MANE,United States,West Virginia,54,Hampshire,027
+MANE,United States,West Virginia,54,Hancock,029
+MANE,United States,West Virginia,54,Hardy,031
+MANE,United States,West Virginia,54,Harrison,033
+MANE,United States,West Virginia,54,Jefferson,037
+MANE,United States,West Virginia,54,Kanawha,039
+MANE,United States,West Virginia,54,Marion,049
+MANE,United States,West Virginia,54,Mercer,055
+MANE,United States,West Virginia,54,Mineral,057
+MANE,United States,West Virginia,54,Monongalia,061
+MANE,United States,West Virginia,54,Morgan,065
+MANE,United States,West Virginia,54,Ohio,069
+MANE,United States,West Virginia,54,Pendleton,071
+MANE,United States,West Virginia,54,Pocahontas,075
+MANE,United States,West Virginia,54,Preston,077
+MANE,United States,West Virginia,54,Raleigh,081
+MANE,United States,West Virginia,54,Randolph,083
+MANE,United States,West Virginia,54,Ritchie,085
+MANE,United States,West Virginia,54,Summers,089
+MANE,United States,West Virginia,54,Upshur,097
+MANE,United States,West Virginia,54,Wetzel,103
+MANE,United States,West Virginia,54,Wyoming,109
+MANE,United States,Wisconsin,55,,
+MANE,United States,Wisconsin,55,Ashland,003
+MANE,United States,Wisconsin,55,Bayfield,007
+MANE,United States,Wisconsin,55,Brown,009
+MANE,United States,Wisconsin,55,Buffalo,011
+MANE,United States,Wisconsin,55,Calumet,015
+MANE,United States,Wisconsin,55,Clark,019
+MANE,United States,Wisconsin,55,Columbia,021
+MANE,United States,Wisconsin,55,Crawford,023
+MANE,United States,Wisconsin,55,Dane,025
+MANE,United States,Wisconsin,55,Dodge,027
+MANE,United States,Wisconsin,55,Door,029
+MANE,United States,Wisconsin,55,Dunn,033
+MANE,United States,Wisconsin,55,Fond du Lac,039
+MANE,United States,Wisconsin,55,Grant,043
+MANE,United States,Wisconsin,55,Green,045
+MANE,United States,Wisconsin,55,Iowa,049
+MANE,United States,Wisconsin,55,Jackson,053
+MANE,United States,Wisconsin,55,Jefferson,055
+MANE,United States,Wisconsin,55,Kenosha,059
+MANE,United States,Wisconsin,55,La Crosse,063
+MANE,United States,Wisconsin,55,Lafayette,065
+MANE,United States,Wisconsin,55,Langlade,067
+MANE,United States,Wisconsin,55,Lincoln,069
+MANE,United States,Wisconsin,55,Manitowoc,071
+MANE,United States,Wisconsin,55,Marinette,075
+MANE,United States,Wisconsin,55,Milwaukee,079
+MANE,United States,Wisconsin,55,Monroe,081
+MANE,United States,Wisconsin,55,Oconto,083
+MANE,United States,Wisconsin,55,Outagamie,087
+MANE,United States,Wisconsin,55,Pepin,091
+MANE,United States,Wisconsin,55,Pierce,093
+MANE,United States,Wisconsin,55,Polk,095
+MANE,United States,Wisconsin,55,Portage,097
+MANE,United States,Wisconsin,55,Price,099
+MANE,United States,Wisconsin,55,Racine,101
+MANE,United States,Wisconsin,55,Richland,103
+MANE,United States,Wisconsin,55,Rock,105
+MANE,United States,Wisconsin,55,Sauk,111
+MANE,United States,Wisconsin,55,Shawano,115
+MANE,United States,Wisconsin,55,Sheboygan,117
+MANE,United States,Wisconsin,55,Taylor,119
+MANE,United States,Wisconsin,55,Vernon,123
+MANE,United States,Wisconsin,55,Walworth,127
+MANE,United States,Wisconsin,55,Washington,131
+MANE,United States,Wisconsin,55,Waukesha,133
+MANE,United States,Wisconsin,55,Waupaca,135
+MANE,United States,Wisconsin,55,Waushara,137
+MANE,United States,Wisconsin,55,Winnebago,139
+MANE,United States,Wisconsin,55,Wood,141
+MANE,United States,Wyoming,56,,
+MANE,United States,Wyoming,56,Albany,001
+MANE,United States,Wyoming,56,Campbell,005
+MANE,United States,Wyoming,56,Converse,009
+MANE,United States,Wyoming,56,Crook,011
+MANE,United States,Wyoming,56,Laramie,021
+MANE,United States,Wyoming,56,Lincoln,023
+MANE,United States,Wyoming,56,Platte,031
+MANE,United States,Wyoming,56,Uinta,041
+MANE,United States,Wyoming,56,Washakie,043
+MANE,Canada,Newfoundland,NF,,

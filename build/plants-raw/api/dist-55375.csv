@@ -1,0 +1,1442 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+SOCA3,United States,Alabama,01,,
+SOCA3,United States,Alabama,01,Autauga,001
+SOCA3,United States,Alabama,01,Baldwin,003
+SOCA3,United States,Alabama,01,Calhoun,015
+SOCA3,United States,Alabama,01,Greene,063
+SOCA3,United States,Alabama,01,Hale,065
+SOCA3,United States,Alabama,01,Houston,069
+SOCA3,United States,Alabama,01,Lawrence,079
+SOCA3,United States,Alabama,01,Lee,081
+SOCA3,United States,Alabama,01,Marion,093
+SOCA3,United States,Alabama,01,Mobile,097
+SOCA3,United States,Alabama,01,Tuscaloosa,125
+SOCA3,United States,Alabama,01,Walker,127
+SOCA3,United States,Alabama,01,Wilcox,131
+SOCA3,United States,Arizona,04,,
+SOCA3,United States,Arkansas,05,,
+SOCA3,United States,Arkansas,05,Arkansas,001
+SOCA3,United States,Arkansas,05,Ashley,003
+SOCA3,United States,Arkansas,05,Baxter,005
+SOCA3,United States,Arkansas,05,Benton,007
+SOCA3,United States,Arkansas,05,Boone,009
+SOCA3,United States,Arkansas,05,Bradley,011
+SOCA3,United States,Arkansas,05,Calhoun,013
+SOCA3,United States,Arkansas,05,Carroll,015
+SOCA3,United States,Arkansas,05,Chicot,017
+SOCA3,United States,Arkansas,05,Clark,019
+SOCA3,United States,Arkansas,05,Clay,021
+SOCA3,United States,Arkansas,05,Cleburne,023
+SOCA3,United States,Arkansas,05,Cleveland,025
+SOCA3,United States,Arkansas,05,Columbia,027
+SOCA3,United States,Arkansas,05,Conway,029
+SOCA3,United States,Arkansas,05,Craighead,031
+SOCA3,United States,Arkansas,05,Crawford,033
+SOCA3,United States,Arkansas,05,Crittenden,035
+SOCA3,United States,Arkansas,05,Dallas,039
+SOCA3,United States,Arkansas,05,Desha,041
+SOCA3,United States,Arkansas,05,Drew,043
+SOCA3,United States,Arkansas,05,Faulkner,045
+SOCA3,United States,Arkansas,05,Franklin,047
+SOCA3,United States,Arkansas,05,Fulton,049
+SOCA3,United States,Arkansas,05,Garland,051
+SOCA3,United States,Arkansas,05,Grant,053
+SOCA3,United States,Arkansas,05,Hempstead,057
+SOCA3,United States,Arkansas,05,Hot Spring,059
+SOCA3,United States,Arkansas,05,Howard,061
+SOCA3,United States,Arkansas,05,Independence,063
+SOCA3,United States,Arkansas,05,Izard,065
+SOCA3,United States,Arkansas,05,Jackson,067
+SOCA3,United States,Arkansas,05,Jefferson,069
+SOCA3,United States,Arkansas,05,Lafayette,073
+SOCA3,United States,Arkansas,05,Lawrence,075
+SOCA3,United States,Arkansas,05,Lee,077
+SOCA3,United States,Arkansas,05,Lincoln,079
+SOCA3,United States,Arkansas,05,Logan,083
+SOCA3,United States,Arkansas,05,Lonoke,085
+SOCA3,United States,Arkansas,05,Madison,087
+SOCA3,United States,Arkansas,05,Marion,089
+SOCA3,United States,Arkansas,05,Mississippi,093
+SOCA3,United States,Arkansas,05,Montgomery,097
+SOCA3,United States,Arkansas,05,Nevada,099
+SOCA3,United States,Arkansas,05,Newton,101
+SOCA3,United States,Arkansas,05,Ouachita,103
+SOCA3,United States,Arkansas,05,Perry,105
+SOCA3,United States,Arkansas,05,Phillips,107
+SOCA3,United States,Arkansas,05,Poinsett,111
+SOCA3,United States,Arkansas,05,Polk,113
+SOCA3,United States,Arkansas,05,Pope,115
+SOCA3,United States,Arkansas,05,Prairie,117
+SOCA3,United States,Arkansas,05,Pulaski,119
+SOCA3,United States,Arkansas,05,Randolph,121
+SOCA3,United States,Arkansas,05,Saline,125
+SOCA3,United States,Arkansas,05,Scott,127
+SOCA3,United States,Arkansas,05,Searcy,129
+SOCA3,United States,Arkansas,05,Sebastian,131
+SOCA3,United States,Arkansas,05,Sevier,133
+SOCA3,United States,Arkansas,05,Sharp,135
+SOCA3,United States,Arkansas,05,St. Francis,123
+SOCA3,United States,Arkansas,05,Stone,137
+SOCA3,United States,Arkansas,05,Union,139
+SOCA3,United States,Arkansas,05,Van Buren,141
+SOCA3,United States,Arkansas,05,Washington,143
+SOCA3,United States,Arkansas,05,White,145
+SOCA3,United States,Arkansas,05,Woodruff,147
+SOCA3,United States,Arkansas,05,Yell,149
+SOCA3,United States,California,06,,
+SOCA3,United States,California,06,Alameda,001
+SOCA3,United States,California,06,Amador,005
+SOCA3,United States,California,06,Butte,007
+SOCA3,United States,California,06,Calaveras,009
+SOCA3,United States,California,06,El Dorado,017
+SOCA3,United States,California,06,Glenn,021
+SOCA3,United States,California,06,Merced,047
+SOCA3,United States,California,06,Napa,055
+SOCA3,United States,California,06,Nevada,057
+SOCA3,United States,California,06,Placer,061
+SOCA3,United States,California,06,Riverside,065
+SOCA3,United States,California,06,San Diego,073
+SOCA3,United States,California,06,San Joaquin,077
+SOCA3,United States,California,06,Santa Barbara,083
+SOCA3,United States,California,06,Shasta,089
+SOCA3,United States,California,06,Sonoma,097
+SOCA3,United States,California,06,Stanislaus,099
+SOCA3,United States,California,06,Sutter,101
+SOCA3,United States,California,06,Ventura,111
+SOCA3,United States,California,06,Yuba,115
+SOCA3,Canada,Ontario,08,,
+SOCA3,United States,Colorado,08,,
+SOCA3,United States,Colorado,08,Boulder,013
+SOCA3,United States,Connecticut,09,,
+SOCA3,Canada,Quebec,10,,
+SOCA3,United States,Delaware,10,,
+SOCA3,United States,Delaware,10,New Castle,003
+SOCA3,United States,District of Columbia,11,,
+SOCA3,United States,District of Columbia,11,District of Columbia,001
+SOCA3,United States,Florida,12,,
+SOCA3,United States,Florida,12,Alachua,001
+SOCA3,United States,Florida,12,Bay,005
+SOCA3,United States,Florida,12,Calhoun,013
+SOCA3,United States,Florida,12,Charlotte,015
+SOCA3,United States,Florida,12,Citrus,017
+SOCA3,United States,Florida,12,Clay,019
+SOCA3,United States,Florida,12,Columbia,023
+SOCA3,United States,Florida,12,Duval,031
+SOCA3,United States,Florida,12,Escambia,033
+SOCA3,United States,Florida,12,Flagler,035
+SOCA3,United States,Florida,12,Franklin,037
+SOCA3,United States,Florida,12,Gadsden,039
+SOCA3,United States,Florida,12,Gilchrist,041
+SOCA3,United States,Florida,12,Gulf,045
+SOCA3,United States,Florida,12,Hernando,053
+SOCA3,United States,Florida,12,Holmes,059
+SOCA3,United States,Florida,12,Indian River,061
+SOCA3,United States,Florida,12,Jackson,063
+SOCA3,United States,Florida,12,Jefferson,065
+SOCA3,United States,Florida,12,Lafayette,067
+SOCA3,United States,Florida,12,Lake,069
+SOCA3,United States,Florida,12,Leon,073
+SOCA3,United States,Florida,12,Levy,075
+SOCA3,United States,Florida,12,Liberty,077
+SOCA3,United States,Florida,12,Madison,079
+SOCA3,United States,Florida,12,Marion,083
+SOCA3,United States,Florida,12,Miami-Dade,086
+SOCA3,United States,Florida,12,Nassau,089
+SOCA3,United States,Florida,12,Okaloosa,091
+SOCA3,United States,Florida,12,Okeechobee,093
+SOCA3,United States,Florida,12,Putnam,107
+SOCA3,United States,Florida,12,Santa Rosa,113
+SOCA3,United States,Florida,12,Seminole,117
+SOCA3,United States,Florida,12,St. Johns,109
+SOCA3,United States,Florida,12,Taylor,123
+SOCA3,United States,Florida,12,Volusia,127
+SOCA3,United States,Florida,12,Wakulla,129
+SOCA3,United States,Florida,12,Walton,131
+SOCA3,United States,Florida,12,Washington,133
+SOCA3,United States,Georgia,13,,
+SOCA3,United States,Georgia,13,Baker,007
+SOCA3,United States,Georgia,13,Bartow,015
+SOCA3,United States,Georgia,13,Brooks,027
+SOCA3,United States,Georgia,13,Camden,039
+SOCA3,United States,Georgia,13,Chatham,051
+SOCA3,United States,Georgia,13,Clarke,059
+SOCA3,United States,Georgia,13,Colquitt,071
+SOCA3,United States,Georgia,13,Cook,075
+SOCA3,United States,Georgia,13,Elbert,105
+SOCA3,United States,Georgia,13,Floyd,115
+SOCA3,United States,Georgia,13,Fulton,121
+SOCA3,United States,Georgia,13,Hall,139
+SOCA3,United States,Georgia,13,Harris,145
+SOCA3,United States,Georgia,13,Houston,153
+SOCA3,United States,Georgia,13,Lanier,173
+SOCA3,United States,Georgia,13,Liberty,179
+SOCA3,United States,Georgia,13,Lincoln,181
+SOCA3,United States,Georgia,13,Madison,195
+SOCA3,United States,Georgia,13,McIntosh,191
+SOCA3,United States,Georgia,13,Miller,201
+SOCA3,United States,Georgia,13,Morgan,211
+SOCA3,United States,Georgia,13,Muscogee,215
+SOCA3,United States,Georgia,13,Spalding,255
+SOCA3,United States,Georgia,13,Tift,277
+SOCA3,United States,Georgia,13,Union,291
+SOCA3,United States,Georgia,13,Walker,295
+SOCA3,United States,Georgia,13,Washington,303
+SOCA3,United States,Idaho,16,,
+SOCA3,United States,Idaho,16,Ada,001
+SOCA3,United States,Idaho,16,Canyon,027
+SOCA3,United States,Idaho,16,Gem,045
+SOCA3,United States,Illinois,17,,
+SOCA3,United States,Illinois,17,Adams,001
+SOCA3,United States,Illinois,17,Alexander,003
+SOCA3,United States,Illinois,17,Bond,005
+SOCA3,United States,Illinois,17,Boone,007
+SOCA3,United States,Illinois,17,Brown,009
+SOCA3,United States,Illinois,17,Bureau,011
+SOCA3,United States,Illinois,17,Calhoun,013
+SOCA3,United States,Illinois,17,Carroll,015
+SOCA3,United States,Illinois,17,Cass,017
+SOCA3,United States,Illinois,17,Champaign,019
+SOCA3,United States,Illinois,17,Christian,021
+SOCA3,United States,Illinois,17,Clark,023
+SOCA3,United States,Illinois,17,Clay,025
+SOCA3,United States,Illinois,17,Clinton,027
+SOCA3,United States,Illinois,17,Coles,029
+SOCA3,United States,Illinois,17,Cook,031
+SOCA3,United States,Illinois,17,Crawford,033
+SOCA3,United States,Illinois,17,Cumberland,035
+SOCA3,United States,Illinois,17,De Witt,039
+SOCA3,United States,Illinois,17,DeKalb,037
+SOCA3,United States,Illinois,17,Douglas,041
+SOCA3,United States,Illinois,17,DuPage,043
+SOCA3,United States,Illinois,17,Edgar,045
+SOCA3,United States,Illinois,17,Edwards,047
+SOCA3,United States,Illinois,17,Effingham,049
+SOCA3,United States,Illinois,17,Fayette,051
+SOCA3,United States,Illinois,17,Ford,053
+SOCA3,United States,Illinois,17,Franklin,055
+SOCA3,United States,Illinois,17,Fulton,057
+SOCA3,United States,Illinois,17,Gallatin,059
+SOCA3,United States,Illinois,17,Greene,061
+SOCA3,United States,Illinois,17,Grundy,063
+SOCA3,United States,Illinois,17,Hamilton,065
+SOCA3,United States,Illinois,17,Hancock,067
+SOCA3,United States,Illinois,17,Hardin,069
+SOCA3,United States,Illinois,17,Henderson,071
+SOCA3,United States,Illinois,17,Henry,073
+SOCA3,United States,Illinois,17,Iroquois,075
+SOCA3,United States,Illinois,17,Jackson,077
+SOCA3,United States,Illinois,17,Jasper,079
+SOCA3,United States,Illinois,17,Jefferson,081
+SOCA3,United States,Illinois,17,Jersey,083
+SOCA3,United States,Illinois,17,Jo Daviess,085
+SOCA3,United States,Illinois,17,Johnson,087
+SOCA3,United States,Illinois,17,Kane,089
+SOCA3,United States,Illinois,17,Kankakee,091
+SOCA3,United States,Illinois,17,Kendall,093
+SOCA3,United States,Illinois,17,Knox,095
+SOCA3,United States,Illinois,17,Lake,097
+SOCA3,United States,Illinois,17,LaSalle,099
+SOCA3,United States,Illinois,17,Lawrence,101
+SOCA3,United States,Illinois,17,Lee,103
+SOCA3,United States,Illinois,17,Livingston,105
+SOCA3,United States,Illinois,17,Logan,107
+SOCA3,United States,Illinois,17,Macon,115
+SOCA3,United States,Illinois,17,Macoupin,117
+SOCA3,United States,Illinois,17,Madison,119
+SOCA3,United States,Illinois,17,Marion,121
+SOCA3,United States,Illinois,17,Marshall,123
+SOCA3,United States,Illinois,17,Mason,125
+SOCA3,United States,Illinois,17,Massac,127
+SOCA3,United States,Illinois,17,McDonough,109
+SOCA3,United States,Illinois,17,McHenry,111
+SOCA3,United States,Illinois,17,McLean,113
+SOCA3,United States,Illinois,17,Menard,129
+SOCA3,United States,Illinois,17,Mercer,131
+SOCA3,United States,Illinois,17,Monroe,133
+SOCA3,United States,Illinois,17,Montgomery,135
+SOCA3,United States,Illinois,17,Morgan,137
+SOCA3,United States,Illinois,17,Moultrie,139
+SOCA3,United States,Illinois,17,Ogle,141
+SOCA3,United States,Illinois,17,Peoria,143
+SOCA3,United States,Illinois,17,Perry,145
+SOCA3,United States,Illinois,17,Piatt,147
+SOCA3,United States,Illinois,17,Pike,149
+SOCA3,United States,Illinois,17,Pope,151
+SOCA3,United States,Illinois,17,Pulaski,153
+SOCA3,United States,Illinois,17,Putnam,155
+SOCA3,United States,Illinois,17,Randolph,157
+SOCA3,United States,Illinois,17,Richland,159
+SOCA3,United States,Illinois,17,Rock Island,161
+SOCA3,United States,Illinois,17,Saline,165
+SOCA3,United States,Illinois,17,Sangamon,167
+SOCA3,United States,Illinois,17,Schuyler,169
+SOCA3,United States,Illinois,17,Scott,171
+SOCA3,United States,Illinois,17,Shelby,173
+SOCA3,United States,Illinois,17,St. Clair,163
+SOCA3,United States,Illinois,17,Stark,175
+SOCA3,United States,Illinois,17,Stephenson,177
+SOCA3,United States,Illinois,17,Tazewell,179
+SOCA3,United States,Illinois,17,Union,181
+SOCA3,United States,Illinois,17,Vermilion,183
+SOCA3,United States,Illinois,17,Wabash,185
+SOCA3,United States,Illinois,17,Warren,187
+SOCA3,United States,Illinois,17,Washington,189
+SOCA3,United States,Illinois,17,Wayne,191
+SOCA3,United States,Illinois,17,White,193
+SOCA3,United States,Illinois,17,Whiteside,195
+SOCA3,United States,Illinois,17,Will,197
+SOCA3,United States,Illinois,17,Williamson,199
+SOCA3,United States,Illinois,17,Winnebago,201
+SOCA3,United States,Illinois,17,Woodford,203
+SOCA3,United States,Indiana,18,,
+SOCA3,United States,Indiana,18,Adams,001
+SOCA3,United States,Indiana,18,Allen,003
+SOCA3,United States,Indiana,18,Bartholomew,005
+SOCA3,United States,Indiana,18,Blackford,009
+SOCA3,United States,Indiana,18,Boone,011
+SOCA3,United States,Indiana,18,Carroll,015
+SOCA3,United States,Indiana,18,Cass,017
+SOCA3,United States,Indiana,18,Clark,019
+SOCA3,United States,Indiana,18,Clinton,023
+SOCA3,United States,Indiana,18,Crawford,025
+SOCA3,United States,Indiana,18,Daviess,027
+SOCA3,United States,Indiana,18,Dearborn,029
+SOCA3,United States,Indiana,18,Delaware,035
+SOCA3,United States,Indiana,18,Dubois,037
+SOCA3,United States,Indiana,18,Elkhart,039
+SOCA3,United States,Indiana,18,Fayette,041
+SOCA3,United States,Indiana,18,Floyd,043
+SOCA3,United States,Indiana,18,Fountain,045
+SOCA3,United States,Indiana,18,Franklin,047
+SOCA3,United States,Indiana,18,Gibson,051
+SOCA3,United States,Indiana,18,Greene,055
+SOCA3,United States,Indiana,18,Harrison,061
+SOCA3,United States,Indiana,18,Hendricks,063
+SOCA3,United States,Indiana,18,Howard,067
+SOCA3,United States,Indiana,18,Huntington,069
+SOCA3,United States,Indiana,18,Jackson,071
+SOCA3,United States,Indiana,18,Jasper,073
+SOCA3,United States,Indiana,18,Jefferson,077
+SOCA3,United States,Indiana,18,Johnson,081
+SOCA3,United States,Indiana,18,Knox,083
+SOCA3,United States,Indiana,18,Kosciusko,085
+SOCA3,United States,Indiana,18,Lake,089
+SOCA3,United States,Indiana,18,LaPorte,091
+SOCA3,United States,Indiana,18,Lawrence,093
+SOCA3,United States,Indiana,18,Marion,097
+SOCA3,United States,Indiana,18,Martin,101
+SOCA3,United States,Indiana,18,Miami,103
+SOCA3,United States,Indiana,18,Monroe,105
+SOCA3,United States,Indiana,18,Montgomery,107
+SOCA3,United States,Indiana,18,Morgan,109
+SOCA3,United States,Indiana,18,Newton,111
+SOCA3,United States,Indiana,18,Noble,113
+SOCA3,United States,Indiana,18,Orange,117
+SOCA3,United States,Indiana,18,Parke,121
+SOCA3,United States,Indiana,18,Perry,123
+SOCA3,United States,Indiana,18,Pike,125
+SOCA3,United States,Indiana,18,Porter,127
+SOCA3,United States,Indiana,18,Posey,129
+SOCA3,United States,Indiana,18,Pulaski,131
+SOCA3,United States,Indiana,18,Putnam,133
+SOCA3,United States,Indiana,18,Rush,139
+SOCA3,United States,Indiana,18,Shelby,145
+SOCA3,United States,Indiana,18,Spencer,147
+SOCA3,United States,Indiana,18,St. Joseph,141
+SOCA3,United States,Indiana,18,Starke,149
+SOCA3,United States,Indiana,18,Steuben,151
+SOCA3,United States,Indiana,18,Sullivan,153
+SOCA3,United States,Indiana,18,Switzerland,155
+SOCA3,United States,Indiana,18,Tippecanoe,157
+SOCA3,United States,Indiana,18,Tipton,159
+SOCA3,United States,Indiana,18,Vanderburgh,163
+SOCA3,United States,Indiana,18,Vigo,167
+SOCA3,United States,Indiana,18,Wabash,169
+SOCA3,United States,Indiana,18,Warren,171
+SOCA3,United States,Indiana,18,Warrick,173
+SOCA3,United States,Indiana,18,Wayne,177
+SOCA3,United States,Indiana,18,Wells,179
+SOCA3,United States,Indiana,18,White,181
+SOCA3,United States,Indiana,18,Whitley,183
+SOCA3,United States,Iowa,19,,
+SOCA3,United States,Iowa,19,Adair,001
+SOCA3,United States,Iowa,19,Adams,003
+SOCA3,United States,Iowa,19,Audubon,009
+SOCA3,United States,Iowa,19,Cass,029
+SOCA3,United States,Iowa,19,Fremont,071
+SOCA3,United States,Iowa,19,Guthrie,077
+SOCA3,United States,Iowa,19,Harrison,085
+SOCA3,United States,Iowa,19,Madison,121
+SOCA3,United States,Iowa,19,Mills,129
+SOCA3,United States,Iowa,19,Montgomery,137
+SOCA3,United States,Iowa,19,Page,145
+SOCA3,United States,Iowa,19,Pottawattamie,155
+SOCA3,United States,Iowa,19,Ringgold,159
+SOCA3,United States,Iowa,19,Shelby,165
+SOCA3,United States,Iowa,19,Taylor,173
+SOCA3,United States,Iowa,19,Union,175
+SOCA3,United States,Iowa,19,Washington,183
+SOCA3,United States,Kansas,20,,
+SOCA3,United States,Kansas,20,Allen,001
+SOCA3,United States,Kansas,20,Anderson,003
+SOCA3,United States,Kansas,20,Atchison,005
+SOCA3,United States,Kansas,20,Barber,007
+SOCA3,United States,Kansas,20,Barton,009
+SOCA3,United States,Kansas,20,Bourbon,011
+SOCA3,United States,Kansas,20,Brown,013
+SOCA3,United States,Kansas,20,Butler,015
+SOCA3,United States,Kansas,20,Chase,017
+SOCA3,United States,Kansas,20,Chautauqua,019
+SOCA3,United States,Kansas,20,Cherokee,021
+SOCA3,United States,Kansas,20,Clay,027
+SOCA3,United States,Kansas,20,Cloud,029
+SOCA3,United States,Kansas,20,Coffey,031
+SOCA3,United States,Kansas,20,Cowley,035
+SOCA3,United States,Kansas,20,Crawford,037
+SOCA3,United States,Kansas,20,Dickinson,041
+SOCA3,United States,Kansas,20,Doniphan,043
+SOCA3,United States,Kansas,20,Douglas,045
+SOCA3,United States,Kansas,20,Elk,049
+SOCA3,United States,Kansas,20,Ellsworth,053
+SOCA3,United States,Kansas,20,Franklin,059
+SOCA3,United States,Kansas,20,Geary,061
+SOCA3,United States,Kansas,20,Greenwood,073
+SOCA3,United States,Kansas,20,Harvey,079
+SOCA3,United States,Kansas,20,Jackson,085
+SOCA3,United States,Kansas,20,Jefferson,087
+SOCA3,United States,Kansas,20,Johnson,091
+SOCA3,United States,Kansas,20,Labette,099
+SOCA3,United States,Kansas,20,Leavenworth,103
+SOCA3,United States,Kansas,20,Linn,107
+SOCA3,United States,Kansas,20,Lyon,111
+SOCA3,United States,Kansas,20,Marion,115
+SOCA3,United States,Kansas,20,Marshall,117
+SOCA3,United States,Kansas,20,McPherson,113
+SOCA3,United States,Kansas,20,Miami,121
+SOCA3,United States,Kansas,20,Montgomery,125
+SOCA3,United States,Kansas,20,Morris,127
+SOCA3,United States,Kansas,20,Nemaha,131
+SOCA3,United States,Kansas,20,Neosho,133
+SOCA3,United States,Kansas,20,Osage,139
+SOCA3,United States,Kansas,20,Osborne,141
+SOCA3,United States,Kansas,20,Pottawatomie,149
+SOCA3,United States,Kansas,20,Pratt,151
+SOCA3,United States,Kansas,20,Reno,155
+SOCA3,United States,Kansas,20,Republic,157
+SOCA3,United States,Kansas,20,Riley,161
+SOCA3,United States,Kansas,20,Saline,169
+SOCA3,United States,Kansas,20,Sedgwick,173
+SOCA3,United States,Kansas,20,Shawnee,177
+SOCA3,United States,Kansas,20,Stafford,185
+SOCA3,United States,Kansas,20,Sumner,191
+SOCA3,United States,Kansas,20,Wabaunsee,197
+SOCA3,United States,Kansas,20,Washington,201
+SOCA3,United States,Kansas,20,Wilson,205
+SOCA3,United States,Kansas,20,Woodson,207
+SOCA3,United States,Kansas,20,Wyandotte,209
+SOCA3,United States,Kentucky,21,,
+SOCA3,United States,Kentucky,21,Adair,001
+SOCA3,United States,Kentucky,21,Allen,003
+SOCA3,United States,Kentucky,21,Anderson,005
+SOCA3,United States,Kentucky,21,Barren,009
+SOCA3,United States,Kentucky,21,Bath,011
+SOCA3,United States,Kentucky,21,Bell,013
+SOCA3,United States,Kentucky,21,Bourbon,017
+SOCA3,United States,Kentucky,21,Bracken,023
+SOCA3,United States,Kentucky,21,Breathitt,025
+SOCA3,United States,Kentucky,21,Breckinridge,027
+SOCA3,United States,Kentucky,21,Butler,031
+SOCA3,United States,Kentucky,21,Caldwell,033
+SOCA3,United States,Kentucky,21,Calloway,035
+SOCA3,United States,Kentucky,21,Campbell,037
+SOCA3,United States,Kentucky,21,Carlisle,039
+SOCA3,United States,Kentucky,21,Carter,043
+SOCA3,United States,Kentucky,21,Casey,045
+SOCA3,United States,Kentucky,21,Christian,047
+SOCA3,United States,Kentucky,21,Clark,049
+SOCA3,United States,Kentucky,21,Daviess,059
+SOCA3,United States,Kentucky,21,Elliott,063
+SOCA3,United States,Kentucky,21,Estill,065
+SOCA3,United States,Kentucky,21,Fayette,067
+SOCA3,United States,Kentucky,21,Fleming,069
+SOCA3,United States,Kentucky,21,Floyd,071
+SOCA3,United States,Kentucky,21,Franklin,073
+SOCA3,United States,Kentucky,21,Fulton,075
+SOCA3,United States,Kentucky,21,Garrard,079
+SOCA3,United States,Kentucky,21,Grant,081
+SOCA3,United States,Kentucky,21,Graves,083
+SOCA3,United States,Kentucky,21,Grayson,085
+SOCA3,United States,Kentucky,21,Hardin,093
+SOCA3,United States,Kentucky,21,Harlan,095
+SOCA3,United States,Kentucky,21,Henderson,101
+SOCA3,United States,Kentucky,21,Henry,103
+SOCA3,United States,Kentucky,21,Hickman,105
+SOCA3,United States,Kentucky,21,Hopkins,107
+SOCA3,United States,Kentucky,21,Jackson,109
+SOCA3,United States,Kentucky,21,Jefferson,111
+SOCA3,United States,Kentucky,21,Jessamine,113
+SOCA3,United States,Kentucky,21,Kenton,117
+SOCA3,United States,Kentucky,21,Knox,121
+SOCA3,United States,Kentucky,21,Larue,123
+SOCA3,United States,Kentucky,21,Laurel,125
+SOCA3,United States,Kentucky,21,Lee,129
+SOCA3,United States,Kentucky,21,Letcher,133
+SOCA3,United States,Kentucky,21,Lewis,135
+SOCA3,United States,Kentucky,21,Lincoln,137
+SOCA3,United States,Kentucky,21,Logan,141
+SOCA3,United States,Kentucky,21,Lyon,143
+SOCA3,United States,Kentucky,21,Madison,151
+SOCA3,United States,Kentucky,21,Marion,155
+SOCA3,United States,Kentucky,21,Marshall,157
+SOCA3,United States,Kentucky,21,McLean,149
+SOCA3,United States,Kentucky,21,Meade,163
+SOCA3,United States,Kentucky,21,Montgomery,173
+SOCA3,United States,Kentucky,21,Muhlenberg,177
+SOCA3,United States,Kentucky,21,Pendleton,191
+SOCA3,United States,Kentucky,21,Powell,197
+SOCA3,United States,Kentucky,21,Robertson,201
+SOCA3,United States,Kentucky,21,Rockcastle,203
+SOCA3,United States,Kentucky,21,Rowan,205
+SOCA3,United States,Kentucky,21,Simpson,213
+SOCA3,United States,Kentucky,21,Taylor,217
+SOCA3,United States,Kentucky,21,Warren,227
+SOCA3,United States,Kentucky,21,Wolfe,237
+SOCA3,United States,Kentucky,21,Woodford,239
+SOCA3,United States,Louisiana,22,,
+SOCA3,United States,Louisiana,22,Acadia,001
+SOCA3,United States,Louisiana,22,Allen,003
+SOCA3,United States,Louisiana,22,Ascension,005
+SOCA3,United States,Louisiana,22,Assumption,007
+SOCA3,United States,Louisiana,22,Avoyelles,009
+SOCA3,United States,Louisiana,22,Beauregard,011
+SOCA3,United States,Louisiana,22,Bienville,013
+SOCA3,United States,Louisiana,22,Bossier,015
+SOCA3,United States,Louisiana,22,Caddo,017
+SOCA3,United States,Louisiana,22,Calcasieu,019
+SOCA3,United States,Louisiana,22,Caldwell,021
+SOCA3,United States,Louisiana,22,Cameron,023
+SOCA3,United States,Louisiana,22,Catahoula,025
+SOCA3,United States,Louisiana,22,Claiborne,027
+SOCA3,United States,Louisiana,22,Concordia,029
+SOCA3,United States,Louisiana,22,De Soto,031
+SOCA3,United States,Louisiana,22,East Baton Rouge,033
+SOCA3,United States,Louisiana,22,East Carroll,035
+SOCA3,United States,Louisiana,22,East Feliciana,037
+SOCA3,United States,Louisiana,22,Evangeline,039
+SOCA3,United States,Louisiana,22,Franklin,041
+SOCA3,United States,Louisiana,22,Grant,043
+SOCA3,United States,Louisiana,22,Iberia,045
+SOCA3,United States,Louisiana,22,Iberville,047
+SOCA3,United States,Louisiana,22,Jackson,049
+SOCA3,United States,Louisiana,22,Jefferson,051
+SOCA3,United States,Louisiana,22,Lafayette,055
+SOCA3,United States,Louisiana,22,Lafourche,057
+SOCA3,United States,Louisiana,22,LaSalle,059
+SOCA3,United States,Louisiana,22,Lincoln,061
+SOCA3,United States,Louisiana,22,Livingston,063
+SOCA3,United States,Louisiana,22,Madison,065
+SOCA3,United States,Louisiana,22,Morehouse,067
+SOCA3,United States,Louisiana,22,Natchitoches,069
+SOCA3,United States,Louisiana,22,Ouachita,073
+SOCA3,United States,Louisiana,22,Plaquemines,075
+SOCA3,United States,Louisiana,22,Pointe Coupee,077
+SOCA3,United States,Louisiana,22,Rapides,079
+SOCA3,United States,Louisiana,22,Red River,081
+SOCA3,United States,Louisiana,22,Richland,083
+SOCA3,United States,Louisiana,22,Sabine,085
+SOCA3,United States,Louisiana,22,St. Charles,089
+SOCA3,United States,Louisiana,22,St. Helena,091
+SOCA3,United States,Louisiana,22,St. James,093
+SOCA3,United States,Louisiana,22,St. John the Baptist,095
+SOCA3,United States,Louisiana,22,St. Landry,097
+SOCA3,United States,Louisiana,22,St. Martin,099
+SOCA3,United States,Louisiana,22,St. Mary,101
+SOCA3,United States,Louisiana,22,St. Tammany,103
+SOCA3,United States,Louisiana,22,Tangipahoa,105
+SOCA3,United States,Louisiana,22,Tensas,107
+SOCA3,United States,Louisiana,22,Terrebonne,109
+SOCA3,United States,Louisiana,22,Union,111
+SOCA3,United States,Louisiana,22,Vermilion,113
+SOCA3,United States,Louisiana,22,Vernon,115
+SOCA3,United States,Louisiana,22,Washington,117
+SOCA3,United States,Louisiana,22,Webster,119
+SOCA3,United States,Louisiana,22,West Baton Rouge,121
+SOCA3,United States,Louisiana,22,West Carroll,123
+SOCA3,United States,Louisiana,22,West Feliciana,125
+SOCA3,United States,Louisiana,22,Winn,127
+SOCA3,United States,Maine,23,,
+SOCA3,United States,Maine,23,York,031
+SOCA3,United States,Maryland,24,,
+SOCA3,United States,Massachusetts,25,,
+SOCA3,United States,Massachusetts,25,Barnstable,001
+SOCA3,United States,Massachusetts,25,Berkshire,003
+SOCA3,United States,Massachusetts,25,Bristol,005
+SOCA3,United States,Massachusetts,25,Essex,009
+SOCA3,United States,Massachusetts,25,Franklin,011
+SOCA3,United States,Massachusetts,25,Hampden,013
+SOCA3,United States,Massachusetts,25,Hampshire,015
+SOCA3,United States,Massachusetts,25,Middlesex,017
+SOCA3,United States,Massachusetts,25,Norfolk,021
+SOCA3,United States,Massachusetts,25,Plymouth,023
+SOCA3,United States,Massachusetts,25,Suffolk,025
+SOCA3,United States,Massachusetts,25,Worcester,027
+SOCA3,United States,Michigan,26,,
+SOCA3,United States,Michigan,26,Allegan,005
+SOCA3,United States,Michigan,26,Alpena,007
+SOCA3,United States,Michigan,26,Antrim,009
+SOCA3,United States,Michigan,26,Barry,015
+SOCA3,United States,Michigan,26,Benzie,019
+SOCA3,United States,Michigan,26,Berrien,021
+SOCA3,United States,Michigan,26,Calhoun,025
+SOCA3,United States,Michigan,26,Cass,027
+SOCA3,United States,Michigan,26,Clinton,037
+SOCA3,United States,Michigan,26,Hillsdale,059
+SOCA3,United States,Michigan,26,Houghton,061
+SOCA3,United States,Michigan,26,Ingham,065
+SOCA3,United States,Michigan,26,Jackson,075
+SOCA3,United States,Michigan,26,Kalamazoo,077
+SOCA3,United States,Michigan,26,Kalkaska,079
+SOCA3,United States,Michigan,26,Kent,081
+SOCA3,United States,Michigan,26,Leelanau,089
+SOCA3,United States,Michigan,26,Lenawee,091
+SOCA3,United States,Michigan,26,Livingston,093
+SOCA3,United States,Michigan,26,Macomb,099
+SOCA3,United States,Michigan,26,Monroe,115
+SOCA3,United States,Michigan,26,Muskegon,121
+SOCA3,United States,Michigan,26,Newaygo,123
+SOCA3,United States,Michigan,26,Oakland,125
+SOCA3,United States,Michigan,26,Oceana,127
+SOCA3,United States,Michigan,26,Ottawa,139
+SOCA3,United States,Michigan,26,Saginaw,145
+SOCA3,United States,Michigan,26,St. Joseph,149
+SOCA3,United States,Michigan,26,Van Buren,159
+SOCA3,United States,Michigan,26,Washtenaw,161
+SOCA3,United States,Michigan,26,Wayne,163
+SOCA3,United States,Minnesota,27,,
+SOCA3,United States,Minnesota,27,Dakota,037
+SOCA3,United States,Minnesota,27,Fillmore,045
+SOCA3,United States,Minnesota,27,Goodhue,049
+SOCA3,United States,Minnesota,27,Houston,055
+SOCA3,United States,Minnesota,27,Le Sueur,079
+SOCA3,United States,Minnesota,27,Redwood,127
+SOCA3,United States,Minnesota,27,Wabasha,157
+SOCA3,United States,Minnesota,27,Wright,171
+SOCA3,United States,Mississippi,28,,
+SOCA3,United States,Mississippi,28,Alcorn,003
+SOCA3,United States,Mississippi,28,Attala,007
+SOCA3,United States,Mississippi,28,Benton,009
+SOCA3,United States,Mississippi,28,Bolivar,011
+SOCA3,United States,Mississippi,28,Chickasaw,017
+SOCA3,United States,Mississippi,28,Claiborne,021
+SOCA3,United States,Mississippi,28,Clarke,023
+SOCA3,United States,Mississippi,28,Clay,025
+SOCA3,United States,Mississippi,28,DeSoto,033
+SOCA3,United States,Mississippi,28,Forrest,035
+SOCA3,United States,Mississippi,28,Franklin,037
+SOCA3,United States,Mississippi,28,Greene,041
+SOCA3,United States,Mississippi,28,Grenada,043
+SOCA3,United States,Mississippi,28,Hinds,049
+SOCA3,United States,Mississippi,28,Jackson,059
+SOCA3,United States,Mississippi,28,Jasper,061
+SOCA3,United States,Mississippi,28,Jefferson Davis,065
+SOCA3,United States,Mississippi,28,Kemper,069
+SOCA3,United States,Mississippi,28,Lafayette,071
+SOCA3,United States,Mississippi,28,Lamar,073
+SOCA3,United States,Mississippi,28,Lauderdale,075
+SOCA3,United States,Mississippi,28,Lawrence,077
+SOCA3,United States,Mississippi,28,Leake,079
+SOCA3,United States,Mississippi,28,Lee,081
+SOCA3,United States,Mississippi,28,Leflore,083
+SOCA3,United States,Mississippi,28,Lincoln,085
+SOCA3,United States,Mississippi,28,Lowndes,087
+SOCA3,United States,Mississippi,28,Madison,089
+SOCA3,United States,Mississippi,28,Marion,091
+SOCA3,United States,Mississippi,28,Marshall,093
+SOCA3,United States,Mississippi,28,Monroe,095
+SOCA3,United States,Mississippi,28,Montgomery,097
+SOCA3,United States,Mississippi,28,Noxubee,103
+SOCA3,United States,Mississippi,28,Panola,107
+SOCA3,United States,Mississippi,28,Pearl River,109
+SOCA3,United States,Mississippi,28,Perry,111
+SOCA3,United States,Mississippi,28,Pike,113
+SOCA3,United States,Mississippi,28,Pontotoc,115
+SOCA3,United States,Mississippi,28,Prentiss,117
+SOCA3,United States,Mississippi,28,Quitman,119
+SOCA3,United States,Mississippi,28,Rankin,121
+SOCA3,United States,Mississippi,28,Scott,123
+SOCA3,United States,Mississippi,28,Sharkey,125
+SOCA3,United States,Mississippi,28,Simpson,127
+SOCA3,United States,Mississippi,28,Smith,129
+SOCA3,United States,Mississippi,28,Sunflower,133
+SOCA3,United States,Mississippi,28,Tallahatchie,135
+SOCA3,United States,Mississippi,28,Tippah,139
+SOCA3,United States,Mississippi,28,Tishomingo,141
+SOCA3,United States,Mississippi,28,Tunica,143
+SOCA3,United States,Mississippi,28,Union,145
+SOCA3,United States,Mississippi,28,Walthall,147
+SOCA3,United States,Mississippi,28,Washington,151
+SOCA3,United States,Mississippi,28,Webster,155
+SOCA3,United States,Mississippi,28,Wilkinson,157
+SOCA3,United States,Mississippi,28,Winston,159
+SOCA3,United States,Mississippi,28,Yazoo,163
+SOCA3,United States,Missouri,29,,
+SOCA3,United States,Missouri,29,Adair,001
+SOCA3,United States,Missouri,29,Andrew,003
+SOCA3,United States,Missouri,29,Atchison,005
+SOCA3,United States,Missouri,29,Audrain,007
+SOCA3,United States,Missouri,29,Barry,009
+SOCA3,United States,Missouri,29,Barton,011
+SOCA3,United States,Missouri,29,Bates,013
+SOCA3,United States,Missouri,29,Benton,015
+SOCA3,United States,Missouri,29,Bollinger,017
+SOCA3,United States,Missouri,29,Boone,019
+SOCA3,United States,Missouri,29,Buchanan,021
+SOCA3,United States,Missouri,29,Butler,023
+SOCA3,United States,Missouri,29,Caldwell,025
+SOCA3,United States,Missouri,29,Callaway,027
+SOCA3,United States,Missouri,29,Camden,029
+SOCA3,United States,Missouri,29,Cape Girardeau,031
+SOCA3,United States,Missouri,29,Carroll,033
+SOCA3,United States,Missouri,29,Carter,035
+SOCA3,United States,Missouri,29,Cass,037
+SOCA3,United States,Missouri,29,Cedar,039
+SOCA3,United States,Missouri,29,Chariton,041
+SOCA3,United States,Missouri,29,Christian,043
+SOCA3,United States,Missouri,29,Clark,045
+SOCA3,United States,Missouri,29,Clay,047
+SOCA3,United States,Missouri,29,Clinton,049
+SOCA3,United States,Missouri,29,Cole,051
+SOCA3,United States,Missouri,29,Cooper,053
+SOCA3,United States,Missouri,29,Crawford,055
+SOCA3,United States,Missouri,29,Dade,057
+SOCA3,United States,Missouri,29,Dallas,059
+SOCA3,United States,Missouri,29,Daviess,061
+SOCA3,United States,Missouri,29,DeKalb,063
+SOCA3,United States,Missouri,29,Dent,065
+SOCA3,United States,Missouri,29,Douglas,067
+SOCA3,United States,Missouri,29,Dunklin,069
+SOCA3,United States,Missouri,29,Franklin,071
+SOCA3,United States,Missouri,29,Gasconade,073
+SOCA3,United States,Missouri,29,Gentry,075
+SOCA3,United States,Missouri,29,Greene,077
+SOCA3,United States,Missouri,29,Grundy,079
+SOCA3,United States,Missouri,29,Harrison,081
+SOCA3,United States,Missouri,29,Henry,083
+SOCA3,United States,Missouri,29,Hickory,085
+SOCA3,United States,Missouri,29,Holt,087
+SOCA3,United States,Missouri,29,Howard,089
+SOCA3,United States,Missouri,29,Howell,091
+SOCA3,United States,Missouri,29,Iron,093
+SOCA3,United States,Missouri,29,Jackson,095
+SOCA3,United States,Missouri,29,Jasper,097
+SOCA3,United States,Missouri,29,Jefferson,099
+SOCA3,United States,Missouri,29,Johnson,101
+SOCA3,United States,Missouri,29,Knox,103
+SOCA3,United States,Missouri,29,Laclede,105
+SOCA3,United States,Missouri,29,Lafayette,107
+SOCA3,United States,Missouri,29,Lawrence,109
+SOCA3,United States,Missouri,29,Lewis,111
+SOCA3,United States,Missouri,29,Lincoln,113
+SOCA3,United States,Missouri,29,Linn,115
+SOCA3,United States,Missouri,29,Livingston,117
+SOCA3,United States,Missouri,29,Macon,121
+SOCA3,United States,Missouri,29,Madison,123
+SOCA3,United States,Missouri,29,Maries,125
+SOCA3,United States,Missouri,29,Marion,127
+SOCA3,United States,Missouri,29,McDonald,119
+SOCA3,United States,Missouri,29,Mercer,129
+SOCA3,United States,Missouri,29,Miller,131
+SOCA3,United States,Missouri,29,Mississippi,133
+SOCA3,United States,Missouri,29,Moniteau,135
+SOCA3,United States,Missouri,29,Monroe,137
+SOCA3,United States,Missouri,29,Montgomery,139
+SOCA3,United States,Missouri,29,Morgan,141
+SOCA3,United States,Missouri,29,New Madrid,143
+SOCA3,United States,Missouri,29,Newton,145
+SOCA3,United States,Missouri,29,Nodaway,147
+SOCA3,United States,Missouri,29,Oregon,149
+SOCA3,United States,Missouri,29,Osage,151
+SOCA3,United States,Missouri,29,Ozark,153
+SOCA3,United States,Missouri,29,Pemiscot,155
+SOCA3,United States,Missouri,29,Perry,157
+SOCA3,United States,Missouri,29,Pettis,159
+SOCA3,United States,Missouri,29,Phelps,161
+SOCA3,United States,Missouri,29,Pike,163
+SOCA3,United States,Missouri,29,Platte,165
+SOCA3,United States,Missouri,29,Polk,167
+SOCA3,United States,Missouri,29,Pulaski,169
+SOCA3,United States,Missouri,29,Putnam,171
+SOCA3,United States,Missouri,29,Ralls,173
+SOCA3,United States,Missouri,29,Randolph,175
+SOCA3,United States,Missouri,29,Ray,177
+SOCA3,United States,Missouri,29,Reynolds,179
+SOCA3,United States,Missouri,29,Ripley,181
+SOCA3,United States,Missouri,29,Saline,195
+SOCA3,United States,Missouri,29,Schuyler,197
+SOCA3,United States,Missouri,29,Scotland,199
+SOCA3,United States,Missouri,29,Scott,201
+SOCA3,United States,Missouri,29,Shannon,203
+SOCA3,United States,Missouri,29,Shelby,205
+SOCA3,United States,Missouri,29,St. Charles,183
+SOCA3,United States,Missouri,29,St. Clair,185
+SOCA3,United States,Missouri,29,St. Francois,187
+SOCA3,United States,Missouri,29,St. Louis,189
+SOCA3,United States,Missouri,29,Ste. Genevieve,186
+SOCA3,United States,Missouri,29,Stoddard,207
+SOCA3,United States,Missouri,29,Stone,209
+SOCA3,United States,Missouri,29,Sullivan,211
+SOCA3,United States,Missouri,29,Taney,213
+SOCA3,United States,Missouri,29,Texas,215
+SOCA3,United States,Missouri,29,Vernon,217
+SOCA3,United States,Missouri,29,Warren,219
+SOCA3,United States,Missouri,29,Washington,221
+SOCA3,United States,Missouri,29,Wayne,223
+SOCA3,United States,Missouri,29,Webster,225
+SOCA3,United States,Missouri,29,Worth,227
+SOCA3,United States,Missouri,29,Wright,229
+SOCA3,United States,Nebraska,31,,
+SOCA3,United States,Nebraska,31,Antelope,003
+SOCA3,United States,Nebraska,31,Buffalo,019
+SOCA3,United States,Nebraska,31,Burt,021
+SOCA3,United States,Nebraska,31,Cass,025
+SOCA3,United States,Nebraska,31,Cuming,039
+SOCA3,United States,Nebraska,31,Douglas,055
+SOCA3,United States,Nebraska,31,Gage,067
+SOCA3,United States,Nebraska,31,Hall,079
+SOCA3,United States,Nebraska,31,Johnson,097
+SOCA3,United States,Nebraska,31,Kearney,099
+SOCA3,United States,Nebraska,31,Lancaster,109
+SOCA3,United States,Nebraska,31,Otoe,131
+SOCA3,United States,Nebraska,31,Pawnee,133
+SOCA3,United States,Nebraska,31,Richardson,147
+SOCA3,United States,Nebraska,31,Sarpy,153
+SOCA3,United States,Nebraska,31,Seward,159
+SOCA3,United States,Nebraska,31,Webster,181
+SOCA3,United States,New Hampshire,33,,
+SOCA3,United States,New Hampshire,33,Cheshire,005
+SOCA3,United States,New Hampshire,33,Grafton,009
+SOCA3,United States,New Hampshire,33,Hillsborough,011
+SOCA3,United States,New Hampshire,33,Rockingham,015
+SOCA3,United States,New Jersey,34,,
+SOCA3,United States,New Jersey,34,Bergen,003
+SOCA3,United States,New Jersey,34,Burlington,005
+SOCA3,United States,New Jersey,34,Camden,007
+SOCA3,United States,New Jersey,34,Cape May,009
+SOCA3,United States,New Jersey,34,Essex,013
+SOCA3,United States,New Jersey,34,Hudson,017
+SOCA3,United States,New Jersey,34,Hunterdon,019
+SOCA3,United States,New Jersey,34,Mercer,021
+SOCA3,United States,New Jersey,34,Middlesex,023
+SOCA3,United States,New Jersey,34,Monmouth,025
+SOCA3,United States,New Jersey,34,Morris,027
+SOCA3,United States,New Jersey,34,Passaic,031
+SOCA3,United States,New Jersey,34,Salem,033
+SOCA3,United States,New Jersey,34,Somerset,035
+SOCA3,United States,New Jersey,34,Sussex,037
+SOCA3,United States,New Jersey,34,Union,039
+SOCA3,United States,New Jersey,34,Warren,041
+SOCA3,United States,New Mexico,35,,
+SOCA3,United States,New Mexico,35,Dona Ana,013
+SOCA3,United States,New Mexico,35,San Juan,045
+SOCA3,United States,New York,36,,
+SOCA3,United States,New York,36,Bronx,005
+SOCA3,United States,New York,36,Cattaraugus,009
+SOCA3,United States,New York,36,Cayuga,011
+SOCA3,United States,New York,36,Chautauqua,013
+SOCA3,United States,New York,36,Columbia,021
+SOCA3,United States,New York,36,Delaware,025
+SOCA3,United States,New York,36,Erie,029
+SOCA3,United States,New York,36,Kings,047
+SOCA3,United States,New York,36,Lewis,049
+SOCA3,United States,New York,36,Livingston,051
+SOCA3,United States,New York,36,Madison,053
+SOCA3,United States,New York,36,Monroe,055
+SOCA3,United States,New York,36,Nassau,059
+SOCA3,United States,New York,36,New York,061
+SOCA3,United States,New York,36,Niagara,063
+SOCA3,United States,New York,36,Oneida,065
+SOCA3,United States,New York,36,Onondaga,067
+SOCA3,United States,New York,36,Orange,071
+SOCA3,United States,New York,36,Oswego,075
+SOCA3,United States,New York,36,Putnam,079
+SOCA3,United States,New York,36,Queens,081
+SOCA3,United States,New York,36,Rensselaer,083
+SOCA3,United States,New York,36,Richmond,085
+SOCA3,United States,New York,36,Rockland,087
+SOCA3,United States,New York,36,Schoharie,095
+SOCA3,United States,New York,36,Suffolk,103
+SOCA3,United States,New York,36,Tioga,107
+SOCA3,United States,New York,36,Tompkins,109
+SOCA3,United States,New York,36,Ulster,111
+SOCA3,United States,New York,36,Washington,115
+SOCA3,United States,New York,36,Wayne,117
+SOCA3,United States,New York,36,Westchester,119
+SOCA3,United States,North Carolina,37,,
+SOCA3,United States,North Carolina,37,Alamance,001
+SOCA3,United States,North Carolina,37,Alexander,003
+SOCA3,United States,North Carolina,37,Alleghany,005
+SOCA3,United States,North Carolina,37,Ashe,009
+SOCA3,United States,North Carolina,37,Avery,011
+SOCA3,United States,North Carolina,37,Beaufort,013
+SOCA3,United States,North Carolina,37,Bertie,015
+SOCA3,United States,North Carolina,37,Bladen,017
+SOCA3,United States,North Carolina,37,Brunswick,019
+SOCA3,United States,North Carolina,37,Buncombe,021
+SOCA3,United States,North Carolina,37,Burke,023
+SOCA3,United States,North Carolina,37,Cabarrus,025
+SOCA3,United States,North Carolina,37,Caldwell,027
+SOCA3,United States,North Carolina,37,Carteret,031
+SOCA3,United States,North Carolina,37,Caswell,033
+SOCA3,United States,North Carolina,37,Catawba,035
+SOCA3,United States,North Carolina,37,Chatham,037
+SOCA3,United States,North Carolina,37,Cherokee,039
+SOCA3,United States,North Carolina,37,Chowan,041
+SOCA3,United States,North Carolina,37,Clay,043
+SOCA3,United States,North Carolina,37,Cleveland,045
+SOCA3,United States,North Carolina,37,Columbus,047
+SOCA3,United States,North Carolina,37,Craven,049
+SOCA3,United States,North Carolina,37,Cumberland,051
+SOCA3,United States,North Carolina,37,Currituck,053
+SOCA3,United States,North Carolina,37,Davidson,057
+SOCA3,United States,North Carolina,37,Davie,059
+SOCA3,United States,North Carolina,37,Duplin,061
+SOCA3,United States,North Carolina,37,Durham,063
+SOCA3,United States,North Carolina,37,Edgecombe,065
+SOCA3,United States,North Carolina,37,Forsyth,067
+SOCA3,United States,North Carolina,37,Gates,073
+SOCA3,United States,North Carolina,37,Graham,075
+SOCA3,United States,North Carolina,37,Granville,077
+SOCA3,United States,North Carolina,37,Greene,079
+SOCA3,United States,North Carolina,37,Guilford,081
+SOCA3,United States,North Carolina,37,Halifax,083
+SOCA3,United States,North Carolina,37,Harnett,085
+SOCA3,United States,North Carolina,37,Haywood,087
+SOCA3,United States,North Carolina,37,Henderson,089
+SOCA3,United States,North Carolina,37,Hertford,091
+SOCA3,United States,North Carolina,37,Hoke,093
+SOCA3,United States,North Carolina,37,Hyde,095
+SOCA3,United States,North Carolina,37,Iredell,097
+SOCA3,United States,North Carolina,37,Jackson,099
+SOCA3,United States,North Carolina,37,Johnston,101
+SOCA3,United States,North Carolina,37,Jones,103
+SOCA3,United States,North Carolina,37,Lee,105
+SOCA3,United States,North Carolina,37,Lenoir,107
+SOCA3,United States,North Carolina,37,Lincoln,109
+SOCA3,United States,North Carolina,37,Macon,113
+SOCA3,United States,North Carolina,37,Madison,115
+SOCA3,United States,North Carolina,37,Martin,117
+SOCA3,United States,North Carolina,37,Mecklenburg,119
+SOCA3,United States,North Carolina,37,Montgomery,123
+SOCA3,United States,North Carolina,37,Nash,127
+SOCA3,United States,North Carolina,37,Northampton,131
+SOCA3,United States,North Carolina,37,Onslow,133
+SOCA3,United States,North Carolina,37,Orange,135
+SOCA3,United States,North Carolina,37,Pamlico,137
+SOCA3,United States,North Carolina,37,Pasquotank,139
+SOCA3,United States,North Carolina,37,Pender,141
+SOCA3,United States,North Carolina,37,Perquimans,143
+SOCA3,United States,North Carolina,37,Person,145
+SOCA3,United States,North Carolina,37,Pitt,147
+SOCA3,United States,North Carolina,37,Randolph,151
+SOCA3,United States,North Carolina,37,Richmond,153
+SOCA3,United States,North Carolina,37,Robeson,155
+SOCA3,United States,North Carolina,37,Rockingham,157
+SOCA3,United States,North Carolina,37,Rowan,159
+SOCA3,United States,North Carolina,37,Sampson,163
+SOCA3,United States,North Carolina,37,Scotland,165
+SOCA3,United States,North Carolina,37,Stanly,167
+SOCA3,United States,North Carolina,37,Stokes,169
+SOCA3,United States,North Carolina,37,Surry,171
+SOCA3,United States,North Carolina,37,Swain,173
+SOCA3,United States,North Carolina,37,Transylvania,175
+SOCA3,United States,North Carolina,37,Tyrrell,177
+SOCA3,United States,North Carolina,37,Union,179
+SOCA3,United States,North Carolina,37,Vance,181
+SOCA3,United States,North Carolina,37,Wake,183
+SOCA3,United States,North Carolina,37,Warren,185
+SOCA3,United States,North Carolina,37,Washington,187
+SOCA3,United States,North Carolina,37,Watauga,189
+SOCA3,United States,North Carolina,37,Wayne,191
+SOCA3,United States,North Carolina,37,Wilkes,193
+SOCA3,United States,North Carolina,37,Wilson,195
+SOCA3,United States,Ohio,39,,
+SOCA3,United States,Ohio,39,Adams,001
+SOCA3,United States,Ohio,39,Ashland,005
+SOCA3,United States,Ohio,39,Ashtabula,007
+SOCA3,United States,Ohio,39,Athens,009
+SOCA3,United States,Ohio,39,Auglaize,011
+SOCA3,United States,Ohio,39,Belmont,013
+SOCA3,United States,Ohio,39,Brown,015
+SOCA3,United States,Ohio,39,Butler,017
+SOCA3,United States,Ohio,39,Carroll,019
+SOCA3,United States,Ohio,39,Champaign,021
+SOCA3,United States,Ohio,39,Clark,023
+SOCA3,United States,Ohio,39,Clermont,025
+SOCA3,United States,Ohio,39,Clinton,027
+SOCA3,United States,Ohio,39,Columbiana,029
+SOCA3,United States,Ohio,39,Coshocton,031
+SOCA3,United States,Ohio,39,Crawford,033
+SOCA3,United States,Ohio,39,Cuyahoga,035
+SOCA3,United States,Ohio,39,Darke,037
+SOCA3,United States,Ohio,39,Delaware,041
+SOCA3,United States,Ohio,39,Erie,043
+SOCA3,United States,Ohio,39,Fairfield,045
+SOCA3,United States,Ohio,39,Fayette,047
+SOCA3,United States,Ohio,39,Franklin,049
+SOCA3,United States,Ohio,39,Fulton,051
+SOCA3,United States,Ohio,39,Gallia,053
+SOCA3,United States,Ohio,39,Geauga,055
+SOCA3,United States,Ohio,39,Guernsey,059
+SOCA3,United States,Ohio,39,Hamilton,061
+SOCA3,United States,Ohio,39,Hancock,063
+SOCA3,United States,Ohio,39,Hardin,065
+SOCA3,United States,Ohio,39,Harrison,067
+SOCA3,United States,Ohio,39,Henry,069
+SOCA3,United States,Ohio,39,Highland,071
+SOCA3,United States,Ohio,39,Hocking,073
+SOCA3,United States,Ohio,39,Holmes,075
+SOCA3,United States,Ohio,39,Huron,077
+SOCA3,United States,Ohio,39,Jackson,079
+SOCA3,United States,Ohio,39,Jefferson,081
+SOCA3,United States,Ohio,39,Knox,083
+SOCA3,United States,Ohio,39,Lake,085
+SOCA3,United States,Ohio,39,Lawrence,087
+SOCA3,United States,Ohio,39,Licking,089
+SOCA3,United States,Ohio,39,Lorain,093
+SOCA3,United States,Ohio,39,Lucas,095
+SOCA3,United States,Ohio,39,Madison,097
+SOCA3,United States,Ohio,39,Mahoning,099
+SOCA3,United States,Ohio,39,Marion,101
+SOCA3,United States,Ohio,39,Medina,103
+SOCA3,United States,Ohio,39,Meigs,105
+SOCA3,United States,Ohio,39,Miami,109
+SOCA3,United States,Ohio,39,Monroe,111
+SOCA3,United States,Ohio,39,Montgomery,113
+SOCA3,United States,Ohio,39,Morgan,115
+SOCA3,United States,Ohio,39,Morrow,117
+SOCA3,United States,Ohio,39,Muskingum,119
+SOCA3,United States,Ohio,39,Noble,121
+SOCA3,United States,Ohio,39,Ottawa,123
+SOCA3,United States,Ohio,39,Paulding,125
+SOCA3,United States,Ohio,39,Perry,127
+SOCA3,United States,Ohio,39,Pike,131
+SOCA3,United States,Ohio,39,Portage,133
+SOCA3,United States,Ohio,39,Preble,135
+SOCA3,United States,Ohio,39,Putnam,137
+SOCA3,United States,Ohio,39,Richland,139
+SOCA3,United States,Ohio,39,Ross,141
+SOCA3,United States,Ohio,39,Sandusky,143
+SOCA3,United States,Ohio,39,Scioto,145
+SOCA3,United States,Ohio,39,Stark,151
+SOCA3,United States,Ohio,39,Summit,153
+SOCA3,United States,Ohio,39,Trumbull,155
+SOCA3,United States,Ohio,39,Tuscarawas,157
+SOCA3,United States,Ohio,39,Van Wert,161
+SOCA3,United States,Ohio,39,Vinton,163
+SOCA3,United States,Ohio,39,Washington,167
+SOCA3,United States,Ohio,39,Wayne,169
+SOCA3,United States,Ohio,39,Williams,171
+SOCA3,United States,Ohio,39,Wood,173
+SOCA3,United States,Ohio,39,Wyandot,175
+SOCA3,United States,Oklahoma,40,,
+SOCA3,United States,Oklahoma,40,Blaine,011
+SOCA3,United States,Oklahoma,40,Bryan,013
+SOCA3,United States,Oklahoma,40,Carter,019
+SOCA3,United States,Oklahoma,40,Choctaw,023
+SOCA3,United States,Oklahoma,40,Cleveland,027
+SOCA3,United States,Oklahoma,40,Craig,035
+SOCA3,United States,Oklahoma,40,Creek,037
+SOCA3,United States,Oklahoma,40,Delaware,041
+SOCA3,United States,Oklahoma,40,Garvin,049
+SOCA3,United States,Oklahoma,40,Haskell,061
+SOCA3,United States,Oklahoma,40,Hughes,063
+SOCA3,United States,Oklahoma,40,Kay,071
+SOCA3,United States,Oklahoma,40,Latimer,077
+SOCA3,United States,Oklahoma,40,Lincoln,081
+SOCA3,United States,Oklahoma,40,Marshall,095
+SOCA3,United States,Oklahoma,40,Mayes,097
+SOCA3,United States,Oklahoma,40,McClain,087
+SOCA3,United States,Oklahoma,40,McCurtain,089
+SOCA3,United States,Oklahoma,40,Murray,099
+SOCA3,United States,Oklahoma,40,Muskogee,101
+SOCA3,United States,Oklahoma,40,Oklahoma,109
+SOCA3,United States,Oklahoma,40,Pawnee,117
+SOCA3,United States,Oklahoma,40,Payne,119
+SOCA3,United States,Oklahoma,40,Pittsburg,121
+SOCA3,United States,Oklahoma,40,Pontotoc,123
+SOCA3,United States,Oklahoma,40,Pottawatomie,125
+SOCA3,United States,Oklahoma,40,Sequoyah,135
+SOCA3,United States,Oklahoma,40,Washington,147
+SOCA3,United States,Oregon,41,,
+SOCA3,United States,Oregon,41,Malheur,045
+SOCA3,United States,Oregon,41,Umatilla,059
+SOCA3,United States,Oregon,41,Union,061
+SOCA3,United States,Pennsylvania,42,,
+SOCA3,United States,Pennsylvania,42,Adams,001
+SOCA3,United States,Pennsylvania,42,Allegheny,003
+SOCA3,United States,Pennsylvania,42,Armstrong,005
+SOCA3,United States,Pennsylvania,42,Beaver,007
+SOCA3,United States,Pennsylvania,42,Bedford,009
+SOCA3,United States,Pennsylvania,42,Berks,011
+SOCA3,United States,Pennsylvania,42,Blair,013
+SOCA3,United States,Pennsylvania,42,Bradford,015
+SOCA3,United States,Pennsylvania,42,Bucks,017
+SOCA3,United States,Pennsylvania,42,Butler,019
+SOCA3,United States,Pennsylvania,42,Cambria,021
+SOCA3,United States,Pennsylvania,42,Cameron,023
+SOCA3,United States,Pennsylvania,42,Centre,027
+SOCA3,United States,Pennsylvania,42,Chester,029
+SOCA3,United States,Pennsylvania,42,Clarion,031
+SOCA3,United States,Pennsylvania,42,Clearfield,033
+SOCA3,United States,Pennsylvania,42,Clinton,035
+SOCA3,United States,Pennsylvania,42,Columbia,037
+SOCA3,United States,Pennsylvania,42,Crawford,039
+SOCA3,United States,Pennsylvania,42,Cumberland,041
+SOCA3,United States,Pennsylvania,42,Dauphin,043
+SOCA3,United States,Pennsylvania,42,Delaware,045
+SOCA3,United States,Pennsylvania,42,Elk,047
+SOCA3,United States,Pennsylvania,42,Erie,049
+SOCA3,United States,Pennsylvania,42,Fayette,051
+SOCA3,United States,Pennsylvania,42,Forest,053
+SOCA3,United States,Pennsylvania,42,Franklin,055
+SOCA3,United States,Pennsylvania,42,Greene,059
+SOCA3,United States,Pennsylvania,42,Huntingdon,061
+SOCA3,United States,Pennsylvania,42,Indiana,063
+SOCA3,United States,Pennsylvania,42,Jefferson,065
+SOCA3,United States,Pennsylvania,42,Lackawanna,069
+SOCA3,United States,Pennsylvania,42,Lancaster,071
+SOCA3,United States,Pennsylvania,42,Lawrence,073
+SOCA3,United States,Pennsylvania,42,Lebanon,075
+SOCA3,United States,Pennsylvania,42,Lehigh,077
+SOCA3,United States,Pennsylvania,42,Luzerne,079
+SOCA3,United States,Pennsylvania,42,Lycoming,081
+SOCA3,United States,Pennsylvania,42,McKean,083
+SOCA3,United States,Pennsylvania,42,Mercer,085
+SOCA3,United States,Pennsylvania,42,Mifflin,087
+SOCA3,United States,Pennsylvania,42,Monroe,089
+SOCA3,United States,Pennsylvania,42,Montgomery,091
+SOCA3,United States,Pennsylvania,42,Northampton,095
+SOCA3,United States,Pennsylvania,42,Northumberland,097
+SOCA3,United States,Pennsylvania,42,Perry,099
+SOCA3,United States,Pennsylvania,42,Philadelphia,101
+SOCA3,United States,Pennsylvania,42,Pike,103
+SOCA3,United States,Pennsylvania,42,Potter,105
+SOCA3,United States,Pennsylvania,42,Schuylkill,107
+SOCA3,United States,Pennsylvania,42,Snyder,109
+SOCA3,United States,Pennsylvania,42,Somerset,111
+SOCA3,United States,Pennsylvania,42,Sullivan,113
+SOCA3,United States,Pennsylvania,42,Susquehanna,115
+SOCA3,United States,Pennsylvania,42,Venango,121
+SOCA3,United States,Pennsylvania,42,Warren,123
+SOCA3,United States,Pennsylvania,42,Washington,125
+SOCA3,United States,Pennsylvania,42,Wayne,127
+SOCA3,United States,Pennsylvania,42,Westmoreland,129
+SOCA3,United States,Pennsylvania,42,Wyoming,131
+SOCA3,United States,Pennsylvania,42,York,133
+SOCA3,United States,Rhode Island,44,,
+SOCA3,United States,Rhode Island,44,Bristol,001
+SOCA3,United States,Rhode Island,44,Washington,009
+SOCA3,United States,South Carolina,45,,
+SOCA3,United States,South Carolina,45,Abbeville,001
+SOCA3,United States,South Carolina,45,Aiken,003
+SOCA3,United States,South Carolina,45,Allendale,005
+SOCA3,United States,South Carolina,45,Anderson,007
+SOCA3,United States,South Carolina,45,Bamberg,009
+SOCA3,United States,South Carolina,45,Beaufort,013
+SOCA3,United States,South Carolina,45,Berkeley,015
+SOCA3,United States,South Carolina,45,Calhoun,017
+SOCA3,United States,South Carolina,45,Cherokee,021
+SOCA3,United States,South Carolina,45,Chester,023
+SOCA3,United States,South Carolina,45,Chesterfield,025
+SOCA3,United States,South Carolina,45,Clarendon,027
+SOCA3,United States,South Carolina,45,Colleton,029
+SOCA3,United States,South Carolina,45,Darlington,031
+SOCA3,United States,South Carolina,45,Dillon,033
+SOCA3,United States,South Carolina,45,Dorchester,035
+SOCA3,United States,South Carolina,45,Edgefield,037
+SOCA3,United States,South Carolina,45,Fairfield,039
+SOCA3,United States,South Carolina,45,Florence,041
+SOCA3,United States,South Carolina,45,Georgetown,043
+SOCA3,United States,South Carolina,45,Greenville,045
+SOCA3,United States,South Carolina,45,Greenwood,047
+SOCA3,United States,South Carolina,45,Hampton,049
+SOCA3,United States,South Carolina,45,Horry,051
+SOCA3,United States,South Carolina,45,Jasper,053
+SOCA3,United States,South Carolina,45,Kershaw,055
+SOCA3,United States,South Carolina,45,Lancaster,057
+SOCA3,United States,South Carolina,45,Laurens,059
+SOCA3,United States,South Carolina,45,Lee,061
+SOCA3,United States,South Carolina,45,Lexington,063
+SOCA3,United States,South Carolina,45,Marion,067
+SOCA3,United States,South Carolina,45,Marlboro,069
+SOCA3,United States,South Carolina,45,McCormick,065
+SOCA3,United States,South Carolina,45,Newberry,071
+SOCA3,United States,South Carolina,45,Oconee,073
+SOCA3,United States,South Carolina,45,Orangeburg,075
+SOCA3,United States,South Carolina,45,Pickens,077
+SOCA3,United States,South Carolina,45,Saluda,081
+SOCA3,United States,South Carolina,45,Spartanburg,083
+SOCA3,United States,South Carolina,45,Sumter,085
+SOCA3,United States,South Carolina,45,Union,087
+SOCA3,United States,South Carolina,45,York,091
+SOCA3,United States,South Dakota,46,,
+SOCA3,United States,South Dakota,46,Clay,027
+SOCA3,United States,South Dakota,46,Lincoln,083
+SOCA3,United States,South Dakota,46,Union,127
+SOCA3,United States,Tennessee,47,,
+SOCA3,United States,Tennessee,47,Anderson,001
+SOCA3,United States,Tennessee,47,Bedford,003
+SOCA3,United States,Tennessee,47,Benton,005
+SOCA3,United States,Tennessee,47,Blount,009
+SOCA3,United States,Tennessee,47,Campbell,013
+SOCA3,United States,Tennessee,47,Carter,019
+SOCA3,United States,Tennessee,47,Clay,027
+SOCA3,United States,Tennessee,47,Coffee,031
+SOCA3,United States,Tennessee,47,Cumberland,035
+SOCA3,United States,Tennessee,47,Davidson,037
+SOCA3,United States,Tennessee,47,Dickson,043
+SOCA3,United States,Tennessee,47,Fayette,047
+SOCA3,United States,Tennessee,47,Fentress,049
+SOCA3,United States,Tennessee,47,Franklin,051
+SOCA3,United States,Tennessee,47,Grainger,057
+SOCA3,United States,Tennessee,47,Grundy,061
+SOCA3,United States,Tennessee,47,Hamblen,063
+SOCA3,United States,Tennessee,47,Hamilton,065
+SOCA3,United States,Tennessee,47,Hancock,067
+SOCA3,United States,Tennessee,47,Hardeman,069
+SOCA3,United States,Tennessee,47,Hardin,071
+SOCA3,United States,Tennessee,47,Hawkins,073
+SOCA3,United States,Tennessee,47,Henry,079
+SOCA3,United States,Tennessee,47,Houston,083
+SOCA3,United States,Tennessee,47,Jackson,087
+SOCA3,United States,Tennessee,47,Knox,093
+SOCA3,United States,Tennessee,47,Lake,095
+SOCA3,United States,Tennessee,47,Lewis,101
+SOCA3,United States,Tennessee,47,Lincoln,103
+SOCA3,United States,Tennessee,47,Loudon,105
+SOCA3,United States,Tennessee,47,Marshall,117
+SOCA3,United States,Tennessee,47,Maury,119
+SOCA3,United States,Tennessee,47,McMinn,107
+SOCA3,United States,Tennessee,47,McNairy,109
+SOCA3,United States,Tennessee,47,Meigs,121
+SOCA3,United States,Tennessee,47,Monroe,123
+SOCA3,United States,Tennessee,47,Montgomery,125
+SOCA3,United States,Tennessee,47,Overton,133
+SOCA3,United States,Tennessee,47,Pickett,137
+SOCA3,United States,Tennessee,47,Polk,139
+SOCA3,United States,Tennessee,47,Roane,145
+SOCA3,United States,Tennessee,47,Rutherford,149
+SOCA3,United States,Tennessee,47,Sevier,155
+SOCA3,United States,Tennessee,47,Shelby,157
+SOCA3,United States,Tennessee,47,Smith,159
+SOCA3,United States,Tennessee,47,Stewart,161
+SOCA3,United States,Tennessee,47,Sullivan,163
+SOCA3,United States,Tennessee,47,Sumner,165
+SOCA3,United States,Tennessee,47,Tipton,167
+SOCA3,United States,Tennessee,47,Unicoi,171
+SOCA3,United States,Tennessee,47,Union,173
+SOCA3,United States,Tennessee,47,Van Buren,175
+SOCA3,United States,Tennessee,47,Warren,177
+SOCA3,United States,Tennessee,47,Washington,179
+SOCA3,United States,Tennessee,47,Williamson,187
+SOCA3,United States,Tennessee,47,Wilson,189
+SOCA3,United States,Texas,48,,
+SOCA3,United States,Texas,48,Anderson,001
+SOCA3,United States,Texas,48,Angelina,005
+SOCA3,United States,Texas,48,Brazoria,039
+SOCA3,United States,Texas,48,Brazos,041
+SOCA3,United States,Texas,48,Burleson,051
+SOCA3,United States,Texas,48,Cass,067
+SOCA3,United States,Texas,48,Denton,121
+SOCA3,United States,Texas,48,Freestone,161
+SOCA3,United States,Texas,48,Galveston,167
+SOCA3,United States,Texas,48,Grayson,181
+SOCA3,United States,Texas,48,Gregg,183
+SOCA3,United States,Texas,48,Grimes,185
+SOCA3,United States,Texas,48,Hardin,199
+SOCA3,United States,Texas,48,Harris,201
+SOCA3,United States,Texas,48,Hemphill,211
+SOCA3,United States,Texas,48,Jefferson,245
+SOCA3,United States,Texas,48,La Salle,283
+SOCA3,United States,Texas,48,Liberty,291
+SOCA3,United States,Texas,48,Matagorda,321
+SOCA3,United States,Texas,48,McLennan,309
+SOCA3,United States,Texas,48,Nacogdoches,347
+SOCA3,United States,Texas,48,Newton,351
+SOCA3,United States,Texas,48,Orange,361
+SOCA3,United States,Texas,48,Robertson,395
+SOCA3,United States,Texas,48,San Jacinto,407
+SOCA3,United States,Texas,48,Trinity,455
+SOCA3,United States,Utah,49,,
+SOCA3,United States,Utah,49,Box Elder,003
+SOCA3,United States,Utah,49,Salt Lake,035
+SOCA3,United States,Vermont,50,,
+SOCA3,United States,Vermont,50,Caledonia,005
+SOCA3,United States,Vermont,50,Rutland,021
+SOCA3,United States,Vermont,50,Windham,025
+SOCA3,United States,Vermont,50,Windsor,027
+SOCA3,United States,Virginia,51,,
+SOCA3,United States,Virginia,51,Accomack,001
+SOCA3,United States,Virginia,51,Albemarle,003
+SOCA3,United States,Virginia,51,Alleghany,005
+SOCA3,United States,Virginia,51,Amelia,007
+SOCA3,United States,Virginia,51,Amherst,009
+SOCA3,United States,Virginia,51,Appomattox,011
+SOCA3,United States,Virginia,51,Arlington,013
+SOCA3,United States,Virginia,51,Augusta,015
+SOCA3,United States,Virginia,51,Bath,017
+SOCA3,United States,Virginia,51,Bedford,019
+SOCA3,United States,Virginia,51,Bland,021
+SOCA3,United States,Virginia,51,Botetourt,023
+SOCA3,United States,Virginia,51,Brunswick,025
+SOCA3,United States,Virginia,51,Buckingham,029
+SOCA3,United States,Virginia,51,Campbell,031
+SOCA3,United States,Virginia,51,Caroline,033
+SOCA3,United States,Virginia,51,Charles City,036
+SOCA3,United States,Virginia,51,Charlotte,037
+SOCA3,United States,Virginia,51,"Chesapeake ",550
+SOCA3,United States,Virginia,51,Chesterfield,041
+SOCA3,United States,Virginia,51,Clarke,043
+SOCA3,United States,Virginia,51,Craig,045
+SOCA3,United States,Virginia,51,Culpeper,047
+SOCA3,United States,Virginia,51,Cumberland,049
+SOCA3,United States,Virginia,51,Dickenson,051
+SOCA3,United States,Virginia,51,Dinwiddie,053
+SOCA3,United States,Virginia,51,Essex,057
+SOCA3,United States,Virginia,51,Fairfax,059
+SOCA3,United States,Virginia,51,Fauquier,061
+SOCA3,United States,Virginia,51,Floyd,063
+SOCA3,United States,Virginia,51,Fluvanna,065
+SOCA3,United States,Virginia,51,Franklin,067
+SOCA3,United States,Virginia,51,Frederick,069
+SOCA3,United States,Virginia,51,Giles,071
+SOCA3,United States,Virginia,51,Gloucester,073
+SOCA3,United States,Virginia,51,Goochland,075
+SOCA3,United States,Virginia,51,Grayson,077
+SOCA3,United States,Virginia,51,Greene,079
+SOCA3,United States,Virginia,51,Greensville,081
+SOCA3,United States,Virginia,51,Halifax,083
+SOCA3,United States,Virginia,51,"Hampton ",650
+SOCA3,United States,Virginia,51,Hanover,085
+SOCA3,United States,Virginia,51,Henrico,087
+SOCA3,United States,Virginia,51,Henry,089
+SOCA3,United States,Virginia,51,Highland,091
+SOCA3,United States,Virginia,51,Isle of Wight,093
+SOCA3,United States,Virginia,51,James City,095
+SOCA3,United States,Virginia,51,King and Queen,097
+SOCA3,United States,Virginia,51,King George,099
+SOCA3,United States,Virginia,51,King William,101
+SOCA3,United States,Virginia,51,Lancaster,103
+SOCA3,United States,Virginia,51,Lee,105
+SOCA3,United States,Virginia,51,Loudoun,107
+SOCA3,United States,Virginia,51,Louisa,109
+SOCA3,United States,Virginia,51,Lunenburg,111
+SOCA3,United States,Virginia,51,Madison,113
+SOCA3,United States,Virginia,51,Mathews,115
+SOCA3,United States,Virginia,51,Mecklenburg,117
+SOCA3,United States,Virginia,51,Middlesex,119
+SOCA3,United States,Virginia,51,Nelson,125
+SOCA3,United States,Virginia,51,New Kent,127
+SOCA3,United States,Virginia,51,"Newport News ",700
+SOCA3,United States,Virginia,51,Northampton,131
+SOCA3,United States,Virginia,51,Northumberland,133
+SOCA3,United States,Virginia,51,Nottoway,135
+SOCA3,United States,Virginia,51,Orange,137
+SOCA3,United States,Virginia,51,Page,139
+SOCA3,United States,Virginia,51,Patrick,141
+SOCA3,United States,Virginia,51,Pittsylvania,143
+SOCA3,United States,Virginia,51,Powhatan,145
+SOCA3,United States,Virginia,51,Prince Edward,147
+SOCA3,United States,Virginia,51,Prince George,149
+SOCA3,United States,Virginia,51,Prince William,153
+SOCA3,United States,Virginia,51,Pulaski,155
+SOCA3,United States,Virginia,51,Rappahannock,157
+SOCA3,United States,Virginia,51,Richmond,159
+SOCA3,United States,Virginia,51,Roanoke,161
+SOCA3,United States,Virginia,51,Rockbridge,163
+SOCA3,United States,Virginia,51,Rockingham,165
+SOCA3,United States,Virginia,51,Russell,167
+SOCA3,United States,Virginia,51,Scott,169
+SOCA3,United States,Virginia,51,Shenandoah,171
+SOCA3,United States,Virginia,51,Smyth,173
+SOCA3,United States,Virginia,51,Southampton,175
+SOCA3,United States,Virginia,51,Spotsylvania,177
+SOCA3,United States,Virginia,51,Stafford,179
+SOCA3,United States,Virginia,51,"Suffolk ",800
+SOCA3,United States,Virginia,51,Surry,181
+SOCA3,United States,Virginia,51,Sussex,183
+SOCA3,United States,Virginia,51,Tazewell,185
+SOCA3,United States,Virginia,51,"Virginia Beach ",810
+SOCA3,United States,Virginia,51,Warren,187
+SOCA3,United States,Virginia,51,Washington,191
+SOCA3,United States,Virginia,51,Westmoreland,193
+SOCA3,United States,Virginia,51,Wise,195
+SOCA3,United States,Virginia,51,York,199
+SOCA3,United States,Washington,53,,
+SOCA3,United States,Washington,53,Benton,005
+SOCA3,United States,West Virginia,54,,
+SOCA3,United States,West Virginia,54,Berkeley,003
+SOCA3,United States,West Virginia,54,Braxton,007
+SOCA3,United States,West Virginia,54,Brooke,009
+SOCA3,United States,West Virginia,54,Calhoun,013
+SOCA3,United States,West Virginia,54,Doddridge,017
+SOCA3,United States,West Virginia,54,Fayette,019
+SOCA3,United States,West Virginia,54,Gilmer,021
+SOCA3,United States,West Virginia,54,Greenbrier,025
+SOCA3,United States,West Virginia,54,Hampshire,027
+SOCA3,United States,West Virginia,54,Hancock,029
+SOCA3,United States,West Virginia,54,Hardy,031
+SOCA3,United States,West Virginia,54,Harrison,033
+SOCA3,United States,West Virginia,54,Jackson,035
+SOCA3,United States,West Virginia,54,Kanawha,039
+SOCA3,United States,West Virginia,54,Lewis,041
+SOCA3,United States,West Virginia,54,Logan,045
+SOCA3,United States,West Virginia,54,Marion,049
+SOCA3,United States,West Virginia,54,Mason,053
+SOCA3,United States,West Virginia,54,McDowell,047
+SOCA3,United States,West Virginia,54,Mercer,055
+SOCA3,United States,West Virginia,54,Mineral,057
+SOCA3,United States,West Virginia,54,Monongalia,061
+SOCA3,United States,West Virginia,54,Morgan,065
+SOCA3,United States,West Virginia,54,Nicholas,067
+SOCA3,United States,West Virginia,54,Pendleton,071
+SOCA3,United States,West Virginia,54,Pocahontas,075
+SOCA3,United States,West Virginia,54,Preston,077
+SOCA3,United States,West Virginia,54,Raleigh,081
+SOCA3,United States,West Virginia,54,Randolph,083
+SOCA3,United States,West Virginia,54,Ritchie,085
+SOCA3,United States,West Virginia,54,Roane,087
+SOCA3,United States,West Virginia,54,Summers,089
+SOCA3,United States,West Virginia,54,Taylor,091
+SOCA3,United States,West Virginia,54,Tyler,095
+SOCA3,United States,West Virginia,54,Upshur,097
+SOCA3,United States,West Virginia,54,Webster,101
+SOCA3,United States,West Virginia,54,Wetzel,103
+SOCA3,United States,West Virginia,54,Wirt,105
+SOCA3,United States,West Virginia,54,Wood,107
+SOCA3,United States,West Virginia,54,Wyoming,109
+SOCA3,United States,Wisconsin,55,,
+SOCA3,United States,Wisconsin,55,Brown,009
+SOCA3,United States,Wisconsin,55,Buffalo,011
+SOCA3,United States,Wisconsin,55,Columbia,021
+SOCA3,United States,Wisconsin,55,Crawford,023
+SOCA3,United States,Wisconsin,55,Dane,025
+SOCA3,United States,Wisconsin,55,Dodge,027
+SOCA3,United States,Wisconsin,55,Grant,043
+SOCA3,United States,Wisconsin,55,Green,045
+SOCA3,United States,Wisconsin,55,Jefferson,055
+SOCA3,United States,Wisconsin,55,Kenosha,059
+SOCA3,United States,Wisconsin,55,La Crosse,063
+SOCA3,United States,Wisconsin,55,Lafayette,065
+SOCA3,United States,Wisconsin,55,Menominee,078
+SOCA3,United States,Wisconsin,55,Milwaukee,079
+SOCA3,United States,Wisconsin,55,Pierce,093
+SOCA3,United States,Wisconsin,55,Racine,101
+SOCA3,United States,Wisconsin,55,Richland,103
+SOCA3,United States,Wisconsin,55,Rock,105
+SOCA3,United States,Wisconsin,55,Sauk,111
+SOCA3,United States,Wisconsin,55,Trempealeau,121
+SOCA3,United States,Wisconsin,55,Vernon,123
+SOCA3,United States,Wisconsin,55,Walworth,127
+SOCA3,United States,Wisconsin,55,Waupaca,135

@@ -1,0 +1,246 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+PSME,Canada,Alberta,01,,
+PSME,Canada,British Columbia,02,,
+PSME,United States,Arizona,04,,
+PSME,United States,Arizona,04,Apache,001
+PSME,United States,Arizona,04,Cochise,003
+PSME,United States,Arizona,04,Coconino,005
+PSME,United States,Arizona,04,Gila,007
+PSME,United States,Arizona,04,Graham,009
+PSME,United States,Arizona,04,Mohave,015
+PSME,United States,Arizona,04,Navajo,017
+PSME,United States,Arizona,04,Pima,019
+PSME,United States,Arizona,04,Santa Cruz,023
+PSME,United States,Arizona,04,Yavapai,025
+PSME,United States,California,06,,
+PSME,United States,California,06,Alameda,001
+PSME,United States,California,06,Amador,005
+PSME,United States,California,06,Butte,007
+PSME,United States,California,06,Calaveras,009
+PSME,United States,California,06,Colusa,011
+PSME,United States,California,06,Del Norte,015
+PSME,United States,California,06,El Dorado,017
+PSME,United States,California,06,Fresno,019
+PSME,United States,California,06,Glenn,021
+PSME,United States,California,06,Humboldt,023
+PSME,United States,California,06,Lake,033
+PSME,United States,California,06,Lassen,035
+PSME,United States,California,06,Madera,039
+PSME,United States,California,06,Marin,041
+PSME,United States,California,06,Mariposa,043
+PSME,United States,California,06,Mendocino,045
+PSME,United States,California,06,Modoc,049
+PSME,United States,California,06,Monterey,053
+PSME,United States,California,06,Napa,055
+PSME,United States,California,06,Nevada,057
+PSME,United States,California,06,Placer,061
+PSME,United States,California,06,Plumas,063
+PSME,United States,California,06,San Francisco,075
+PSME,United States,California,06,San Luis Obispo,079
+PSME,United States,California,06,San Mateo,081
+PSME,United States,California,06,Santa Barbara,083
+PSME,United States,California,06,Santa Clara,085
+PSME,United States,California,06,Santa Cruz,087
+PSME,United States,California,06,Shasta,089
+PSME,United States,California,06,Sierra,091
+PSME,United States,California,06,Siskiyou,093
+PSME,United States,California,06,Sonoma,097
+PSME,United States,California,06,Tehama,103
+PSME,United States,California,06,Trinity,105
+PSME,United States,California,06,Tuolumne,109
+PSME,United States,California,06,Yuba,115
+PSME,United States,Colorado,08,,
+PSME,United States,Colorado,08,Alamosa,003
+PSME,United States,Colorado,08,Boulder,013
+PSME,United States,Colorado,08,Conejos,021
+PSME,United States,Colorado,08,Costilla,023
+PSME,United States,Colorado,08,Custer,027
+PSME,United States,Colorado,08,Dolores,033
+PSME,United States,Colorado,08,Douglas,035
+PSME,United States,Colorado,08,El Paso,041
+PSME,United States,Colorado,08,Grand,049
+PSME,United States,Colorado,08,Jefferson,059
+PSME,United States,Colorado,08,La Plata,067
+PSME,United States,Colorado,08,Lake,065
+PSME,United States,Colorado,08,Larimer,069
+PSME,United States,Colorado,08,Mesa,077
+PSME,United States,Colorado,08,Mineral,079
+PSME,United States,Colorado,08,Moffat,081
+PSME,United States,Colorado,08,Montezuma,083
+PSME,United States,Colorado,08,Montrose,085
+PSME,United States,Colorado,08,Rio Blanco,103
+PSME,United States,Colorado,08,Rio Grande,105
+PSME,United States,Colorado,08,Routt,107
+PSME,United States,Colorado,08,Teller,119
+PSME,United States,Idaho,16,,
+PSME,United States,Idaho,16,Ada,001
+PSME,United States,Idaho,16,Adams,003
+PSME,United States,Idaho,16,Bannock,005
+PSME,United States,Idaho,16,Boise,015
+PSME,United States,Idaho,16,Bonner,017
+PSME,United States,Idaho,16,Bonneville,019
+PSME,United States,Idaho,16,Butte,023
+PSME,United States,Idaho,16,Camas,025
+PSME,United States,Idaho,16,Caribou,029
+PSME,United States,Idaho,16,Cassia,031
+PSME,United States,Idaho,16,Clark,033
+PSME,United States,Idaho,16,Clearwater,035
+PSME,United States,Idaho,16,Custer,037
+PSME,United States,Idaho,16,Elmore,039
+PSME,United States,Idaho,16,Idaho,049
+PSME,United States,Idaho,16,Kootenai,055
+PSME,United States,Idaho,16,Latah,057
+PSME,United States,Idaho,16,Lemhi,059
+PSME,United States,Idaho,16,Owyhee,073
+PSME,United States,Idaho,16,Shoshone,079
+PSME,United States,Idaho,16,Valley,085
+PSME,United States,Idaho,16,Washington,087
+PSME,United States,Minnesota,27,,
+PSME,United States,Minnesota,27,Winona,169
+PSME,United States,Montana,30,,
+PSME,United States,Montana,30,Gallatin,031
+PSME,United States,Montana,30,Phillips,071
+PSME,United States,Nevada,32,,
+PSME,United States,Nevada,32,Clark,003
+PSME,United States,Nevada,32,Douglas,005
+PSME,United States,Nevada,32,Elko,007
+PSME,United States,Nevada,32,Lincoln,017
+PSME,United States,Nevada,32,White Pine,033
+PSME,United States,New Jersey,34,,
+PSME,United States,New Jersey,34,Middlesex,023
+PSME,United States,New Jersey,34,Warren,041
+PSME,United States,New Mexico,35,,
+PSME,United States,New Mexico,35,Catron,003
+PSME,United States,New Mexico,35,Colfax,007
+PSME,United States,New Mexico,35,Hidalgo,023
+PSME,United States,New Mexico,35,Los Alamos,028
+PSME,United States,New Mexico,35,McKinley,031
+PSME,United States,New Mexico,35,Mora,033
+PSME,United States,New Mexico,35,Otero,035
+PSME,United States,New Mexico,35,Rio Arriba,039
+PSME,United States,New Mexico,35,San Juan,045
+PSME,United States,New Mexico,35,San Miguel,047
+PSME,United States,New Mexico,35,Sandoval,043
+PSME,United States,New Mexico,35,Santa Fe,049
+PSME,United States,New Mexico,35,Socorro,053
+PSME,United States,New Mexico,35,Taos,055
+PSME,United States,New York,36,,
+PSME,United States,New York,36,Greene,039
+PSME,United States,New York,36,Orange,071
+PSME,United States,New York,36,Rockland,087
+PSME,United States,New York,36,Schenectady,093
+PSME,United States,Oregon,41,,
+PSME,United States,Oregon,41,Baker,001
+PSME,United States,Oregon,41,Benton,003
+PSME,United States,Oregon,41,Clackamas,005
+PSME,United States,Oregon,41,Clatsop,007
+PSME,United States,Oregon,41,Coos,011
+PSME,United States,Oregon,41,Crook,013
+PSME,United States,Oregon,41,Curry,015
+PSME,United States,Oregon,41,Deschutes,017
+PSME,United States,Oregon,41,Douglas,019
+PSME,United States,Oregon,41,Grant,023
+PSME,United States,Oregon,41,Hood River,027
+PSME,United States,Oregon,41,Jackson,029
+PSME,United States,Oregon,41,Jefferson,031
+PSME,United States,Oregon,41,Josephine,033
+PSME,United States,Oregon,41,Klamath,035
+PSME,United States,Oregon,41,Lane,039
+PSME,United States,Oregon,41,Lincoln,041
+PSME,United States,Oregon,41,Linn,043
+PSME,United States,Oregon,41,Marion,047
+PSME,United States,Oregon,41,Morrow,049
+PSME,United States,Oregon,41,Multnomah,051
+PSME,United States,Oregon,41,Polk,053
+PSME,United States,Oregon,41,Tillamook,057
+PSME,United States,Oregon,41,Umatilla,059
+PSME,United States,Oregon,41,Union,061
+PSME,United States,Oregon,41,Wallowa,063
+PSME,United States,Oregon,41,Wasco,065
+PSME,United States,Oregon,41,Washington,067
+PSME,United States,Oregon,41,Wheeler,069
+PSME,United States,Oregon,41,Yamhill,071
+PSME,United States,Pennsylvania,42,,
+PSME,United States,Texas,48,,
+PSME,United States,Texas,48,Culberson,109
+PSME,United States,Utah,49,,
+PSME,United States,Utah,49,Beaver,001
+PSME,United States,Utah,49,Box Elder,003
+PSME,United States,Utah,49,Cache,005
+PSME,United States,Utah,49,Carbon,007
+PSME,United States,Utah,49,Daggett,009
+PSME,United States,Utah,49,Davis,011
+PSME,United States,Utah,49,Duchesne,013
+PSME,United States,Utah,49,Emery,015
+PSME,United States,Utah,49,Garfield,017
+PSME,United States,Utah,49,Grand,019
+PSME,United States,Utah,49,Iron,021
+PSME,United States,Utah,49,Juab,023
+PSME,United States,Utah,49,Kane,025
+PSME,United States,Utah,49,Millard,027
+PSME,United States,Utah,49,Morgan,029
+PSME,United States,Utah,49,Piute,031
+PSME,United States,Utah,49,Rich,033
+PSME,United States,Utah,49,Salt Lake,035
+PSME,United States,Utah,49,San Juan,037
+PSME,United States,Utah,49,Sanpete,039
+PSME,United States,Utah,49,Sevier,041
+PSME,United States,Utah,49,Summit,043
+PSME,United States,Utah,49,Tooele,045
+PSME,United States,Utah,49,Uintah,047
+PSME,United States,Utah,49,Utah,049
+PSME,United States,Utah,49,Wasatch,051
+PSME,United States,Utah,49,Washington,053
+PSME,United States,Utah,49,Wayne,055
+PSME,United States,Utah,49,Weber,057
+PSME,United States,Washington,53,,
+PSME,United States,Washington,53,Chelan,007
+PSME,United States,Washington,53,Clallam,009
+PSME,United States,Washington,53,Clark,011
+PSME,United States,Washington,53,Columbia,013
+PSME,United States,Washington,53,Cowlitz,015
+PSME,United States,Washington,53,Ferry,019
+PSME,United States,Washington,53,Garfield,023
+PSME,United States,Washington,53,Grant,025
+PSME,United States,Washington,53,Grays Harbor,027
+PSME,United States,Washington,53,Island,029
+PSME,United States,Washington,53,Jefferson,031
+PSME,United States,Washington,53,King,033
+PSME,United States,Washington,53,Kitsap,035
+PSME,United States,Washington,53,Kittitas,037
+PSME,United States,Washington,53,Klickitat,039
+PSME,United States,Washington,53,Lewis,041
+PSME,United States,Washington,53,Mason,045
+PSME,United States,Washington,53,Okanogan,047
+PSME,United States,Washington,53,Pacific,049
+PSME,United States,Washington,53,Pend Oreille,051
+PSME,United States,Washington,53,Pierce,053
+PSME,United States,Washington,53,San Juan,055
+PSME,United States,Washington,53,Skagit,057
+PSME,United States,Washington,53,Skamania,059
+PSME,United States,Washington,53,Snohomish,061
+PSME,United States,Washington,53,Spokane,063
+PSME,United States,Washington,53,Stevens,065
+PSME,United States,Washington,53,Thurston,067
+PSME,United States,Washington,53,Wahkiakum,069
+PSME,United States,Washington,53,Walla Walla,071
+PSME,United States,Washington,53,Whatcom,073
+PSME,United States,Washington,53,Whitman,075
+PSME,United States,Washington,53,Yakima,077
+PSME,United States,Wyoming,56,,
+PSME,United States,Wyoming,56,Albany,001
+PSME,United States,Wyoming,56,Big Horn,003
+PSME,United States,Wyoming,56,Carbon,007
+PSME,United States,Wyoming,56,Fremont,013
+PSME,United States,Wyoming,56,Hot Springs,017
+PSME,United States,Wyoming,56,Johnson,019
+PSME,United States,Wyoming,56,Laramie,021
+PSME,United States,Wyoming,56,Lincoln,023
+PSME,United States,Wyoming,56,Natrona,025
+PSME,United States,Wyoming,56,Park,029
+PSME,United States,Wyoming,56,Sheridan,033
+PSME,United States,Wyoming,56,Sublette,035
+PSME,United States,Wyoming,56,Sweetwater,037
+PSME,United States,Wyoming,56,Teton,039
+PSME,United States,Wyoming,56,Washakie,043

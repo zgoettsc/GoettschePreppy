@@ -1,0 +1,231 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+QUVI,United States,Alabama,01,,
+QUVI,United States,Alabama,01,Baldwin,003
+QUVI,United States,Alabama,01,Bullock,011
+QUVI,United States,Alabama,01,Covington,039
+QUVI,United States,Alabama,01,Geneva,061
+QUVI,United States,Alabama,01,Houston,069
+QUVI,United States,Alabama,01,Macon,087
+QUVI,United States,Alabama,01,Mobile,097
+QUVI,United States,Alabama,01,Tuscaloosa,125
+QUVI,United States,Alabama,01,Washington,129
+QUVI,United States,Florida,12,,
+QUVI,United States,Florida,12,Alachua,001
+QUVI,United States,Florida,12,Baker,003
+QUVI,United States,Florida,12,Bay,005
+QUVI,United States,Florida,12,Brevard,009
+QUVI,United States,Florida,12,Broward,011
+QUVI,United States,Florida,12,Charlotte,015
+QUVI,United States,Florida,12,Citrus,017
+QUVI,United States,Florida,12,Clay,019
+QUVI,United States,Florida,12,Collier,021
+QUVI,United States,Florida,12,DeSoto,027
+QUVI,United States,Florida,12,Dixie,029
+QUVI,United States,Florida,12,Duval,031
+QUVI,United States,Florida,12,Escambia,033
+QUVI,United States,Florida,12,Flagler,035
+QUVI,United States,Florida,12,Franklin,037
+QUVI,United States,Florida,12,Gadsden,039
+QUVI,United States,Florida,12,Gilchrist,041
+QUVI,United States,Florida,12,Gulf,045
+QUVI,United States,Florida,12,Hardee,049
+QUVI,United States,Florida,12,Hernando,053
+QUVI,United States,Florida,12,Highlands,055
+QUVI,United States,Florida,12,Hillsborough,057
+QUVI,United States,Florida,12,Indian River,061
+QUVI,United States,Florida,12,Jackson,063
+QUVI,United States,Florida,12,Jefferson,065
+QUVI,United States,Florida,12,Lafayette,067
+QUVI,United States,Florida,12,Lake,069
+QUVI,United States,Florida,12,Lee,071
+QUVI,United States,Florida,12,Leon,073
+QUVI,United States,Florida,12,Levy,075
+QUVI,United States,Florida,12,Liberty,077
+QUVI,United States,Florida,12,Madison,079
+QUVI,United States,Florida,12,Manatee,081
+QUVI,United States,Florida,12,Marion,083
+QUVI,United States,Florida,12,Martin,085
+QUVI,United States,Florida,12,Miami-Dade,086
+QUVI,United States,Florida,12,Monroe,087
+QUVI,United States,Florida,12,Okaloosa,091
+QUVI,United States,Florida,12,Okeechobee,093
+QUVI,United States,Florida,12,Orange,095
+QUVI,United States,Florida,12,Osceola,097
+QUVI,United States,Florida,12,Palm Beach,099
+QUVI,United States,Florida,12,Pasco,101
+QUVI,United States,Florida,12,Pinellas,103
+QUVI,United States,Florida,12,Polk,105
+QUVI,United States,Florida,12,Putnam,107
+QUVI,United States,Florida,12,Santa Rosa,113
+QUVI,United States,Florida,12,Sarasota,115
+QUVI,United States,Florida,12,Seminole,117
+QUVI,United States,Florida,12,St. Johns,109
+QUVI,United States,Florida,12,St. Lucie,111
+QUVI,United States,Florida,12,Suwannee,121
+QUVI,United States,Florida,12,Union,125
+QUVI,United States,Florida,12,Volusia,127
+QUVI,United States,Florida,12,Wakulla,129
+QUVI,United States,Florida,12,Walton,131
+QUVI,United States,Florida,12,Washington,133
+QUVI,United States,Georgia,13,,
+QUVI,United States,Georgia,13,Atkinson,003
+QUVI,United States,Georgia,13,Berrien,019
+QUVI,United States,Georgia,13,Brantley,025
+QUVI,United States,Georgia,13,Brooks,027
+QUVI,United States,Georgia,13,Bryan,029
+QUVI,United States,Georgia,13,Camden,039
+QUVI,United States,Georgia,13,Charlton,049
+QUVI,United States,Georgia,13,Chatham,051
+QUVI,United States,Georgia,13,Decatur,087
+QUVI,United States,Georgia,13,Dougherty,095
+QUVI,United States,Georgia,13,Echols,101
+QUVI,United States,Georgia,13,Glynn,127
+QUVI,United States,Georgia,13,Grady,131
+QUVI,United States,Georgia,13,Lee,177
+QUVI,United States,Georgia,13,Liberty,179
+QUVI,United States,Georgia,13,Lowndes,185
+QUVI,United States,Georgia,13,McIntosh,191
+QUVI,United States,Georgia,13,Miller,201
+QUVI,United States,Georgia,13,Mitchell,205
+QUVI,United States,Georgia,13,Richmond,245
+QUVI,United States,Georgia,13,Seminole,253
+QUVI,United States,Georgia,13,Tattnall,267
+QUVI,United States,Georgia,13,Turner,287
+QUVI,United States,Georgia,13,Ware,299
+QUVI,United States,Georgia,13,Worth,321
+QUVI,United States,Louisiana,22,,
+QUVI,United States,Louisiana,22,Allen,003
+QUVI,United States,Louisiana,22,Assumption,007
+QUVI,United States,Louisiana,22,Beauregard,011
+QUVI,United States,Louisiana,22,Bienville,013
+QUVI,United States,Louisiana,22,Bossier,015
+QUVI,United States,Louisiana,22,Caddo,017
+QUVI,United States,Louisiana,22,Calcasieu,019
+QUVI,United States,Louisiana,22,Caldwell,021
+QUVI,United States,Louisiana,22,Cameron,023
+QUVI,United States,Louisiana,22,Catahoula,025
+QUVI,United States,Louisiana,22,Concordia,029
+QUVI,United States,Louisiana,22,De Soto,031
+QUVI,United States,Louisiana,22,East Baton Rouge,033
+QUVI,United States,Louisiana,22,East Carroll,035
+QUVI,United States,Louisiana,22,East Feliciana,037
+QUVI,United States,Louisiana,22,Evangeline,039
+QUVI,United States,Louisiana,22,Franklin,041
+QUVI,United States,Louisiana,22,Grant,043
+QUVI,United States,Louisiana,22,Iberia,045
+QUVI,United States,Louisiana,22,Iberville,047
+QUVI,United States,Louisiana,22,Jackson,049
+QUVI,United States,Louisiana,22,Jefferson,051
+QUVI,United States,Louisiana,22,Jefferson Davis,053
+QUVI,United States,Louisiana,22,Lafayette,055
+QUVI,United States,Louisiana,22,Lafourche,057
+QUVI,United States,Louisiana,22,LaSalle,059
+QUVI,United States,Louisiana,22,Lincoln,061
+QUVI,United States,Louisiana,22,Livingston,063
+QUVI,United States,Louisiana,22,Madison,065
+QUVI,United States,Louisiana,22,Morehouse,067
+QUVI,United States,Louisiana,22,Natchitoches,069
+QUVI,United States,Louisiana,22,Orleans,071
+QUVI,United States,Louisiana,22,Ouachita,073
+QUVI,United States,Louisiana,22,Plaquemines,075
+QUVI,United States,Louisiana,22,Rapides,079
+QUVI,United States,Louisiana,22,Red River,081
+QUVI,United States,Louisiana,22,Richland,083
+QUVI,United States,Louisiana,22,Sabine,085
+QUVI,United States,Louisiana,22,St. Bernard,087
+QUVI,United States,Louisiana,22,St. Charles,089
+QUVI,United States,Louisiana,22,St. Helena,091
+QUVI,United States,Louisiana,22,St. James,093
+QUVI,United States,Louisiana,22,St. John the Baptist,095
+QUVI,United States,Louisiana,22,St. Landry,097
+QUVI,United States,Louisiana,22,St. Martin,099
+QUVI,United States,Louisiana,22,St. Mary,101
+QUVI,United States,Louisiana,22,St. Tammany,103
+QUVI,United States,Louisiana,22,Tangipahoa,105
+QUVI,United States,Louisiana,22,Tensas,107
+QUVI,United States,Louisiana,22,Terrebonne,109
+QUVI,United States,Louisiana,22,Union,111
+QUVI,United States,Louisiana,22,Vermilion,113
+QUVI,United States,Louisiana,22,Vernon,115
+QUVI,United States,Louisiana,22,Washington,117
+QUVI,United States,Louisiana,22,Webster,119
+QUVI,United States,Louisiana,22,West Carroll,123
+QUVI,United States,Louisiana,22,West Feliciana,125
+QUVI,United States,Louisiana,22,Winn,127
+QUVI,United States,Mississippi,28,,
+QUVI,United States,Mississippi,28,Adams,001
+QUVI,United States,Mississippi,28,Amite,005
+QUVI,United States,Mississippi,28,Copiah,029
+QUVI,United States,Mississippi,28,Hancock,045
+QUVI,United States,Mississippi,28,Harrison,047
+QUVI,United States,Mississippi,28,Hinds,049
+QUVI,United States,Mississippi,28,Jackson,059
+QUVI,United States,Mississippi,28,Washington,151
+QUVI,United States,Mississippi,28,Wilkinson,157
+QUVI,United States,North Carolina,37,,
+QUVI,United States,North Carolina,37,Brunswick,019
+QUVI,United States,North Carolina,37,Camden,029
+QUVI,United States,North Carolina,37,Columbus,047
+QUVI,United States,North Carolina,37,Craven,049
+QUVI,United States,North Carolina,37,Currituck,053
+QUVI,United States,North Carolina,37,Dare,055
+QUVI,United States,North Carolina,37,Hyde,095
+QUVI,United States,North Carolina,37,New Hanover,129
+QUVI,United States,North Carolina,37,Onslow,133
+QUVI,United States,North Carolina,37,Pamlico,137
+QUVI,United States,North Carolina,37,Pender,141
+QUVI,United States,North Carolina,37,Wayne,191
+QUVI,United States,South Carolina,45,,
+QUVI,United States,South Carolina,45,Aiken,003
+QUVI,United States,South Carolina,45,Bamberg,009
+QUVI,United States,South Carolina,45,Beaufort,013
+QUVI,United States,South Carolina,45,Berkeley,015
+QUVI,United States,South Carolina,45,Calhoun,017
+QUVI,United States,South Carolina,45,Charleston,019
+QUVI,United States,South Carolina,45,Chesterfield,025
+QUVI,United States,South Carolina,45,Clarendon,027
+QUVI,United States,South Carolina,45,Darlington,031
+QUVI,United States,South Carolina,45,Dillon,033
+QUVI,United States,South Carolina,45,Dorchester,035
+QUVI,United States,South Carolina,45,Georgetown,043
+QUVI,United States,South Carolina,45,Hampton,049
+QUVI,United States,South Carolina,45,Horry,051
+QUVI,United States,South Carolina,45,Jasper,053
+QUVI,United States,South Carolina,45,Kershaw,055
+QUVI,United States,South Carolina,45,Marion,067
+QUVI,United States,South Carolina,45,Marlboro,069
+QUVI,United States,South Carolina,45,Orangeburg,075
+QUVI,United States,South Carolina,45,Richland,079
+QUVI,United States,South Carolina,45,Sumter,085
+QUVI,United States,Texas,48,,
+QUVI,United States,Texas,48,Aransas,007
+QUVI,United States,Texas,48,Bastrop,021
+QUVI,United States,Texas,48,Bee,025
+QUVI,United States,Texas,48,Bexar,029
+QUVI,United States,Texas,48,Brazoria,039
+QUVI,United States,Texas,48,Brazos,041
+QUVI,United States,Texas,48,Calhoun,057
+QUVI,United States,Texas,48,Chambers,071
+QUVI,United States,Texas,48,Comal,091
+QUVI,United States,Texas,48,Fayette,149
+QUVI,United States,Texas,48,Fort Bend,157
+QUVI,United States,Texas,48,Galveston,167
+QUVI,United States,Texas,48,Goliad,175
+QUVI,United States,Texas,48,Gonzales,177
+QUVI,United States,Texas,48,Hardin,199
+QUVI,United States,Texas,48,Hays,209
+QUVI,United States,Texas,48,Karnes,255
+QUVI,United States,Texas,48,McLennan,309
+QUVI,United States,Texas,48,Nacogdoches,347
+QUVI,United States,Texas,48,San Patricio,409
+QUVI,United States,Texas,48,Travis,453
+QUVI,United States,Utah,49,,
+QUVI,United States,Utah,49,Washington,053
+QUVI,United States,Virginia,51,,
+QUVI,United States,Virginia,51,"Chesapeake ",550
+QUVI,United States,Virginia,51,"Hampton ",650
+QUVI,United States,Virginia,51,Mathews,115
+QUVI,United States,Virginia,51,Northampton,131
+QUVI,United States,Virginia,51,Northumberland,133
+QUVI,United States,Virginia,51,"Virginia Beach ",810

@@ -1,0 +1,245 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+PIMA,Canada,Alberta,01,,
+PIMA,Canada,British Columbia,02,,
+PIMA,United States,Alaska,02,,
+PIMA,United States,Alaska,02,Anchorage,020
+PIMA,United States,Alaska,02,Bethel,050
+PIMA,United States,Alaska,02,Chugach,063
+PIMA,United States,Alaska,02,Copper River,066
+PIMA,United States,Alaska,02,Denali,068
+PIMA,United States,Alaska,02,Fairbanks North Star,090
+PIMA,United States,Alaska,02,Kenai Peninsula,122
+PIMA,United States,Alaska,02,Lake and Peninsula,164
+PIMA,United States,Alaska,02,Matanuska-Susitna,170
+PIMA,United States,Alaska,02,Northwest Arctic,188
+PIMA,United States,Alaska,02,Southeast Fairbanks,240
+PIMA,United States,Alaska,02,Yukon-Koyukuk,290
+PIMA,Canada,Manitoba,03,,
+PIMA,Canada,New Brunswick,04,,
+PIMA,Canada,Nova Scotia,07,,
+PIMA,Canada,Ontario,08,,
+PIMA,Canada,Prince Edward Island,09,,
+PIMA,United States,Connecticut,09,,
+PIMA,Canada,Quebec,10,,
+PIMA,Canada,Saskatchewan,11,,
+PIMA,Canada,Yukon,12,,
+PIMA,Canada,Northwest Territories,13,,
+PIMA,Canada,Nunavut,14,,
+PIMA,United States,Illinois,17,,
+PIMA,United States,Illinois,17,Lake,097
+PIMA,United States,Maine,23,,
+PIMA,United States,Maine,23,Androscoggin,001
+PIMA,United States,Maine,23,Aroostook,003
+PIMA,United States,Maine,23,Cumberland,005
+PIMA,United States,Maine,23,Franklin,007
+PIMA,United States,Maine,23,Hancock,009
+PIMA,United States,Maine,23,Kennebec,011
+PIMA,United States,Maine,23,Knox,013
+PIMA,United States,Maine,23,Lincoln,015
+PIMA,United States,Maine,23,Oxford,017
+PIMA,United States,Maine,23,Penobscot,019
+PIMA,United States,Maine,23,Piscataquis,021
+PIMA,United States,Maine,23,Somerset,025
+PIMA,United States,Maine,23,Waldo,027
+PIMA,United States,Maine,23,Washington,029
+PIMA,United States,Maine,23,York,031
+PIMA,United States,Massachusetts,25,,
+PIMA,United States,Massachusetts,25,Berkshire,003
+PIMA,United States,Massachusetts,25,Essex,009
+PIMA,United States,Massachusetts,25,Franklin,011
+PIMA,United States,Massachusetts,25,Hampden,013
+PIMA,United States,Massachusetts,25,Hampshire,015
+PIMA,United States,Massachusetts,25,Middlesex,017
+PIMA,United States,Massachusetts,25,Norfolk,021
+PIMA,United States,Massachusetts,25,Plymouth,023
+PIMA,United States,Massachusetts,25,Worcester,027
+PIMA,United States,Michigan,26,,
+PIMA,United States,Michigan,26,Alcona,001
+PIMA,United States,Michigan,26,Alger,003
+PIMA,United States,Michigan,26,Alpena,007
+PIMA,United States,Michigan,26,Arenac,011
+PIMA,United States,Michigan,26,Baraga,013
+PIMA,United States,Michigan,26,Benzie,019
+PIMA,United States,Michigan,26,Calhoun,025
+PIMA,United States,Michigan,26,Charlevoix,029
+PIMA,United States,Michigan,26,Cheboygan,031
+PIMA,United States,Michigan,26,Chippewa,033
+PIMA,United States,Michigan,26,Clare,035
+PIMA,United States,Michigan,26,Crawford,039
+PIMA,United States,Michigan,26,Delta,041
+PIMA,United States,Michigan,26,Dickinson,043
+PIMA,United States,Michigan,26,Emmet,047
+PIMA,United States,Michigan,26,Gladwin,051
+PIMA,United States,Michigan,26,Gogebic,053
+PIMA,United States,Michigan,26,Houghton,061
+PIMA,United States,Michigan,26,Huron,063
+PIMA,United States,Michigan,26,Ingham,065
+PIMA,United States,Michigan,26,Iosco,069
+PIMA,United States,Michigan,26,Iron,071
+PIMA,United States,Michigan,26,Isabella,073
+PIMA,United States,Michigan,26,Kent,081
+PIMA,United States,Michigan,26,Keweenaw,083
+PIMA,United States,Michigan,26,Lapeer,087
+PIMA,United States,Michigan,26,Leelanau,089
+PIMA,United States,Michigan,26,Livingston,093
+PIMA,United States,Michigan,26,Luce,095
+PIMA,United States,Michigan,26,Mackinac,097
+PIMA,United States,Michigan,26,Manistee,101
+PIMA,United States,Michigan,26,Marquette,103
+PIMA,United States,Michigan,26,Menominee,109
+PIMA,United States,Michigan,26,Montcalm,117
+PIMA,United States,Michigan,26,Montmorency,119
+PIMA,United States,Michigan,26,Oakland,125
+PIMA,United States,Michigan,26,Ogemaw,129
+PIMA,United States,Michigan,26,Ontonagon,131
+PIMA,United States,Michigan,26,Osceola,133
+PIMA,United States,Michigan,26,Roscommon,143
+PIMA,United States,Michigan,26,Schoolcraft,153
+PIMA,United States,Michigan,26,Washtenaw,161
+PIMA,United States,Michigan,26,Wexford,165
+PIMA,United States,Minnesota,27,,
+PIMA,United States,Minnesota,27,Aitkin,001
+PIMA,United States,Minnesota,27,Anoka,003
+PIMA,United States,Minnesota,27,Becker,005
+PIMA,United States,Minnesota,27,Beltrami,007
+PIMA,United States,Minnesota,27,Carlton,017
+PIMA,United States,Minnesota,27,Cass,021
+PIMA,United States,Minnesota,27,Chisago,025
+PIMA,United States,Minnesota,27,Clearwater,029
+PIMA,United States,Minnesota,27,Cook,031
+PIMA,United States,Minnesota,27,Crow Wing,035
+PIMA,United States,Minnesota,27,Hubbard,057
+PIMA,United States,Minnesota,27,Isanti,059
+PIMA,United States,Minnesota,27,Itasca,061
+PIMA,United States,Minnesota,27,Kanabec,065
+PIMA,United States,Minnesota,27,Koochiching,071
+PIMA,United States,Minnesota,27,Lake,075
+PIMA,United States,Minnesota,27,Lake of the Woods,077
+PIMA,United States,Minnesota,27,Mahnomen,087
+PIMA,United States,Minnesota,27,Marshall,089
+PIMA,United States,Minnesota,27,Morrison,097
+PIMA,United States,Minnesota,27,Pine,115
+PIMA,United States,Minnesota,27,Roseau,135
+PIMA,United States,Minnesota,27,St. Louis,137
+PIMA,United States,New Hampshire,33,,
+PIMA,United States,New Hampshire,33,Carroll,003
+PIMA,United States,New Hampshire,33,Cheshire,005
+PIMA,United States,New Hampshire,33,Coos,007
+PIMA,United States,New Hampshire,33,Grafton,009
+PIMA,United States,New Hampshire,33,Hillsborough,011
+PIMA,United States,New Hampshire,33,Merrimack,013
+PIMA,United States,New Hampshire,33,Rockingham,015
+PIMA,United States,New Hampshire,33,Strafford,017
+PIMA,United States,New Hampshire,33,Sullivan,019
+PIMA,United States,New Jersey,34,,
+PIMA,United States,New Jersey,34,Bergen,003
+PIMA,United States,New Jersey,34,Hudson,017
+PIMA,United States,New Jersey,34,Hunterdon,019
+PIMA,United States,New Jersey,34,Morris,027
+PIMA,United States,New Jersey,34,Passaic,031
+PIMA,United States,New Jersey,34,Sussex,037
+PIMA,United States,New Jersey,34,Warren,041
+PIMA,United States,New York,36,,
+PIMA,United States,New York,36,Albany,001
+PIMA,United States,New York,36,Cattaraugus,009
+PIMA,United States,New York,36,Clinton,019
+PIMA,United States,New York,36,Columbia,021
+PIMA,United States,New York,36,Erie,029
+PIMA,United States,New York,36,Essex,031
+PIMA,United States,New York,36,Franklin,033
+PIMA,United States,New York,36,Hamilton,041
+PIMA,United States,New York,36,Herkimer,043
+PIMA,United States,New York,36,Jefferson,045
+PIMA,United States,New York,36,Lewis,049
+PIMA,United States,New York,36,Monroe,055
+PIMA,United States,New York,36,Nassau,059
+PIMA,United States,New York,36,New York,061
+PIMA,United States,New York,36,Oneida,065
+PIMA,United States,New York,36,Onondaga,067
+PIMA,United States,New York,36,Orange,071
+PIMA,United States,New York,36,Oswego,075
+PIMA,United States,New York,36,Putnam,079
+PIMA,United States,New York,36,Rensselaer,083
+PIMA,United States,New York,36,Schoharie,095
+PIMA,United States,New York,36,Seneca,099
+PIMA,United States,New York,36,St. Lawrence,089
+PIMA,United States,New York,36,Ulster,111
+PIMA,United States,New York,36,Warren,113
+PIMA,United States,New York,36,Washington,115
+PIMA,United States,New York,36,Westchester,119
+PIMA,United States,Pennsylvania,42,,
+PIMA,United States,Pennsylvania,42,Carbon,025
+PIMA,United States,Pennsylvania,42,Centre,027
+PIMA,United States,Pennsylvania,42,Clinton,035
+PIMA,United States,Pennsylvania,42,Columbia,037
+PIMA,United States,Pennsylvania,42,Huntingdon,061
+PIMA,United States,Pennsylvania,42,Luzerne,079
+PIMA,United States,Pennsylvania,42,Lycoming,081
+PIMA,United States,Pennsylvania,42,Monroe,089
+PIMA,United States,Pennsylvania,42,Philadelphia,101
+PIMA,United States,Pennsylvania,42,Pike,103
+PIMA,United States,Pennsylvania,42,Somerset,111
+PIMA,United States,Pennsylvania,42,Sullivan,113
+PIMA,United States,Pennsylvania,42,Susquehanna,115
+PIMA,United States,Pennsylvania,42,Tioga,117
+PIMA,United States,Pennsylvania,42,Wayne,127
+PIMA,United States,Pennsylvania,42,Wyoming,131
+PIMA,United States,Rhode Island,44,,
+PIMA,United States,Rhode Island,44,Providence,007
+PIMA,United States,Vermont,50,,
+PIMA,United States,Vermont,50,Addison,001
+PIMA,United States,Vermont,50,Bennington,003
+PIMA,United States,Vermont,50,Caledonia,005
+PIMA,United States,Vermont,50,Chittenden,007
+PIMA,United States,Vermont,50,Essex,009
+PIMA,United States,Vermont,50,Franklin,011
+PIMA,United States,Vermont,50,Grand Isle,013
+PIMA,United States,Vermont,50,Lamoille,015
+PIMA,United States,Vermont,50,Orange,017
+PIMA,United States,Vermont,50,Orleans,019
+PIMA,United States,Vermont,50,Rutland,021
+PIMA,United States,Vermont,50,Washington,023
+PIMA,United States,Vermont,50,Windham,025
+PIMA,United States,Wisconsin,55,,
+PIMA,United States,Wisconsin,55,Adams,001
+PIMA,United States,Wisconsin,55,Ashland,003
+PIMA,United States,Wisconsin,55,Barron,005
+PIMA,United States,Wisconsin,55,Bayfield,007
+PIMA,United States,Wisconsin,55,Brown,009
+PIMA,United States,Wisconsin,55,Burnett,013
+PIMA,United States,Wisconsin,55,Chippewa,017
+PIMA,United States,Wisconsin,55,Door,029
+PIMA,United States,Wisconsin,55,Douglas,031
+PIMA,United States,Wisconsin,55,Florence,037
+PIMA,United States,Wisconsin,55,Fond du Lac,039
+PIMA,United States,Wisconsin,55,Forest,041
+PIMA,United States,Wisconsin,55,Iron,051
+PIMA,United States,Wisconsin,55,Jackson,053
+PIMA,United States,Wisconsin,55,Langlade,067
+PIMA,United States,Wisconsin,55,Lincoln,069
+PIMA,United States,Wisconsin,55,Manitowoc,071
+PIMA,United States,Wisconsin,55,Marathon,073
+PIMA,United States,Wisconsin,55,Marinette,075
+PIMA,United States,Wisconsin,55,Marquette,077
+PIMA,United States,Wisconsin,55,Menominee,078
+PIMA,United States,Wisconsin,55,Milwaukee,079
+PIMA,United States,Wisconsin,55,Monroe,081
+PIMA,United States,Wisconsin,55,Oconto,083
+PIMA,United States,Wisconsin,55,Oneida,085
+PIMA,United States,Wisconsin,55,Outagamie,087
+PIMA,United States,Wisconsin,55,Ozaukee,089
+PIMA,United States,Wisconsin,55,Portage,097
+PIMA,United States,Wisconsin,55,Price,099
+PIMA,United States,Wisconsin,55,Rusk,107
+PIMA,United States,Wisconsin,55,Sauk,111
+PIMA,United States,Wisconsin,55,Sawyer,113
+PIMA,United States,Wisconsin,55,Shawano,115
+PIMA,United States,Wisconsin,55,Sheboygan,117
+PIMA,United States,Wisconsin,55,Taylor,119
+PIMA,United States,Wisconsin,55,Vilas,125
+PIMA,United States,Wisconsin,55,Washburn,129
+PIMA,United States,Wisconsin,55,Waupaca,135
+PIMA,United States,Wisconsin,55,Wood,141
+PIMA,Canada,Labrador,LB,,
+PIMA,Canada,Newfoundland,NF,,

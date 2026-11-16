@@ -1,0 +1,119 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+POFR2,United States,Arizona,04,,
+POFR2,United States,Arizona,04,Cochise,003
+POFR2,United States,Arizona,04,Coconino,005
+POFR2,United States,Arizona,04,Gila,007
+POFR2,United States,Arizona,04,Graham,009
+POFR2,United States,Arizona,04,Greenlee,011
+POFR2,United States,Arizona,04,La Paz,012
+POFR2,United States,Arizona,04,Maricopa,013
+POFR2,United States,Arizona,04,Mohave,015
+POFR2,United States,Arizona,04,Navajo,017
+POFR2,United States,Arizona,04,Pima,019
+POFR2,United States,Arizona,04,Pinal,021
+POFR2,United States,Arizona,04,Santa Cruz,023
+POFR2,United States,Arizona,04,Yavapai,025
+POFR2,United States,Arizona,04,Yuma,027
+POFR2,United States,California,06,,
+POFR2,United States,California,06,Alameda,001
+POFR2,United States,California,06,Amador,005
+POFR2,United States,California,06,Butte,007
+POFR2,United States,California,06,Calaveras,009
+POFR2,United States,California,06,Colusa,011
+POFR2,United States,California,06,Contra Costa,013
+POFR2,United States,California,06,El Dorado,017
+POFR2,United States,California,06,Fresno,019
+POFR2,United States,California,06,Glenn,021
+POFR2,United States,California,06,Humboldt,023
+POFR2,United States,California,06,Imperial,025
+POFR2,United States,California,06,Inyo,027
+POFR2,United States,California,06,Kern,029
+POFR2,United States,California,06,Kings,031
+POFR2,United States,California,06,Lake,033
+POFR2,United States,California,06,Los Angeles,037
+POFR2,United States,California,06,Madera,039
+POFR2,United States,California,06,Mariposa,043
+POFR2,United States,California,06,Mendocino,045
+POFR2,United States,California,06,Merced,047
+POFR2,United States,California,06,Mono,051
+POFR2,United States,California,06,Monterey,053
+POFR2,United States,California,06,Napa,055
+POFR2,United States,California,06,Nevada,057
+POFR2,United States,California,06,Orange,059
+POFR2,United States,California,06,Placer,061
+POFR2,United States,California,06,Plumas,063
+POFR2,United States,California,06,Riverside,065
+POFR2,United States,California,06,Sacramento,067
+POFR2,United States,California,06,San Benito,069
+POFR2,United States,California,06,San Bernardino,071
+POFR2,United States,California,06,San Diego,073
+POFR2,United States,California,06,San Joaquin,077
+POFR2,United States,California,06,San Luis Obispo,079
+POFR2,United States,California,06,San Mateo,081
+POFR2,United States,California,06,Santa Barbara,083
+POFR2,United States,California,06,Santa Clara,085
+POFR2,United States,California,06,Santa Cruz,087
+POFR2,United States,California,06,Shasta,089
+POFR2,United States,California,06,Solano,095
+POFR2,United States,California,06,Sonoma,097
+POFR2,United States,California,06,Stanislaus,099
+POFR2,United States,California,06,Sutter,101
+POFR2,United States,California,06,Tehama,103
+POFR2,United States,California,06,Trinity,105
+POFR2,United States,California,06,Tulare,107
+POFR2,United States,California,06,Tuolumne,109
+POFR2,United States,California,06,Ventura,111
+POFR2,United States,California,06,Yolo,113
+POFR2,United States,California,06,Yuba,115
+POFR2,United States,Colorado,08,,
+POFR2,United States,Nevada,32,,
+POFR2,United States,Nevada,32,Carson City,510
+POFR2,United States,Nevada,32,Churchill,001
+POFR2,United States,Nevada,32,Clark,003
+POFR2,United States,Nevada,32,Douglas,005
+POFR2,United States,Nevada,32,Esmeralda,009
+POFR2,United States,Nevada,32,Humboldt,013
+POFR2,United States,Nevada,32,Lander,015
+POFR2,United States,Nevada,32,Lincoln,017
+POFR2,United States,Nevada,32,Lyon,019
+POFR2,United States,Nevada,32,Mineral,021
+POFR2,United States,Nevada,32,Nye,023
+POFR2,United States,Nevada,32,Storey,029
+POFR2,United States,Nevada,32,Washoe,031
+POFR2,United States,New Mexico,35,,
+POFR2,United States,New Mexico,35,Bernalillo,001
+POFR2,United States,New Mexico,35,Grant,017
+POFR2,United States,New Mexico,35,Hidalgo,023
+POFR2,United States,New Mexico,35,Roosevelt,041
+POFR2,United States,New Mexico,35,Sandoval,043
+POFR2,United States,New Mexico,35,Socorro,053
+POFR2,United States,Texas,48,,
+POFR2,United States,Texas,48,Brewster,043
+POFR2,United States,Texas,48,Ellis,139
+POFR2,United States,Texas,48,Jeff Davis,243
+POFR2,United States,Texas,48,Presidio,377
+POFR2,United States,Texas,48,Reeves,389
+POFR2,United States,Utah,49,,
+POFR2,United States,Utah,49,Beaver,001
+POFR2,United States,Utah,49,Box Elder,003
+POFR2,United States,Utah,49,Cache,005
+POFR2,United States,Utah,49,Carbon,007
+POFR2,United States,Utah,49,Daggett,009
+POFR2,United States,Utah,49,Davis,011
+POFR2,United States,Utah,49,Duchesne,013
+POFR2,United States,Utah,49,Emery,015
+POFR2,United States,Utah,49,Garfield,017
+POFR2,United States,Utah,49,Grand,019
+POFR2,United States,Utah,49,Iron,021
+POFR2,United States,Utah,49,Kane,025
+POFR2,United States,Utah,49,Piute,031
+POFR2,United States,Utah,49,Salt Lake,035
+POFR2,United States,Utah,49,San Juan,037
+POFR2,United States,Utah,49,Sevier,041
+POFR2,United States,Utah,49,Tooele,045
+POFR2,United States,Utah,49,Uintah,047
+POFR2,United States,Utah,49,Utah,049
+POFR2,United States,Utah,49,Washington,053
+POFR2,United States,Utah,49,Wayne,055
+POFR2,United States,Utah,49,Weber,057

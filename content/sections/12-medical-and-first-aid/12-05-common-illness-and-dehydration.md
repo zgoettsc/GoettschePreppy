@@ -181,7 +181,7 @@ alertness come back.
 is unconscious, too drowsy to swallow safely, or cannot swallow** (it goes into the lungs). Stop
 if the belly is swollen and tight, or if every sip for hours comes straight back. **A drowsy
 child who cannot be woken to drink is not a "try harder" case. It is the line for moving toward
-care (→ 12-16), now.** Lay them on their side (the recovery position, → 12-18) while you move.
+care (→ 12-16), now.** Lay them on their side (the recovery position, → 12-17) while you move.
 
 **When ORS beats plain water:** any diarrhoea beyond a stray loose stool, any vomiting illness,
 and any time dehydration signs appear, because the losses are salt and water. Plain safe water

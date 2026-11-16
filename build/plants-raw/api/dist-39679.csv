@@ -1,0 +1,184 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+SEFL3,United States,Arizona,04,,
+SEFL3,United States,Arizona,04,Apache,001
+SEFL3,United States,Arizona,04,Cochise,003
+SEFL3,United States,Arizona,04,Coconino,005
+SEFL3,United States,Arizona,04,Gila,007
+SEFL3,United States,Arizona,04,Graham,009
+SEFL3,United States,Arizona,04,Greenlee,011
+SEFL3,United States,Arizona,04,La Paz,012
+SEFL3,United States,Arizona,04,Maricopa,013
+SEFL3,United States,Arizona,04,Mohave,015
+SEFL3,United States,Arizona,04,Navajo,017
+SEFL3,United States,Arizona,04,Pima,019
+SEFL3,United States,Arizona,04,Pinal,021
+SEFL3,United States,Arizona,04,Santa Cruz,023
+SEFL3,United States,Arizona,04,Yavapai,025
+SEFL3,United States,Arizona,04,Yuma,027
+SEFL3,United States,California,06,,
+SEFL3,United States,California,06,Alameda,001
+SEFL3,United States,California,06,Amador,005
+SEFL3,United States,California,06,Calaveras,009
+SEFL3,United States,California,06,Contra Costa,013
+SEFL3,United States,California,06,Fresno,019
+SEFL3,United States,California,06,Glenn,021
+SEFL3,United States,California,06,Inyo,027
+SEFL3,United States,California,06,Kern,029
+SEFL3,United States,California,06,Los Angeles,037
+SEFL3,United States,California,06,Madera,039
+SEFL3,United States,California,06,Marin,041
+SEFL3,United States,California,06,Mariposa,043
+SEFL3,United States,California,06,Mendocino,045
+SEFL3,United States,California,06,Merced,047
+SEFL3,United States,California,06,Mono,051
+SEFL3,United States,California,06,Monterey,053
+SEFL3,United States,California,06,Napa,055
+SEFL3,United States,California,06,Orange,059
+SEFL3,United States,California,06,Riverside,065
+SEFL3,United States,California,06,San Benito,069
+SEFL3,United States,California,06,San Bernardino,071
+SEFL3,United States,California,06,San Diego,073
+SEFL3,United States,California,06,San Luis Obispo,079
+SEFL3,United States,California,06,San Mateo,081
+SEFL3,United States,California,06,Santa Barbara,083
+SEFL3,United States,California,06,Santa Clara,085
+SEFL3,United States,California,06,Solano,095
+SEFL3,United States,California,06,Sonoma,097
+SEFL3,United States,California,06,Stanislaus,099
+SEFL3,United States,California,06,Tehama,103
+SEFL3,United States,California,06,Tulare,107
+SEFL3,United States,California,06,Tuolumne,109
+SEFL3,United States,California,06,Ventura,111
+SEFL3,United States,Colorado,08,,
+SEFL3,United States,Colorado,08,Baca,009
+SEFL3,United States,Colorado,08,Delta,029
+SEFL3,United States,Colorado,08,El Paso,041
+SEFL3,United States,Colorado,08,Fremont,043
+SEFL3,United States,Colorado,08,La Plata,067
+SEFL3,United States,Colorado,08,Las Animas,071
+SEFL3,United States,Colorado,08,Mesa,077
+SEFL3,United States,Colorado,08,Montezuma,083
+SEFL3,United States,Colorado,08,Montrose,085
+SEFL3,United States,Colorado,08,Otero,089
+SEFL3,United States,Colorado,08,Pueblo,101
+SEFL3,United States,Colorado,08,Weld,123
+SEFL3,United States,Kansas,20,,
+SEFL3,United States,Kansas,20,Hamilton,075
+SEFL3,United States,Kansas,20,Morton,129
+SEFL3,United States,Kansas,20,Stanton,187
+SEFL3,United States,Kansas,20,Stevens,189
+SEFL3,United States,Nevada,32,,
+SEFL3,United States,Nevada,32,Clark,003
+SEFL3,United States,Nevada,32,Lincoln,017
+SEFL3,United States,Nevada,32,Nye,023
+SEFL3,United States,New Mexico,35,,
+SEFL3,United States,New Mexico,35,Bernalillo,001
+SEFL3,United States,New Mexico,35,Catron,003
+SEFL3,United States,New Mexico,35,Chaves,005
+SEFL3,United States,New Mexico,35,Cibola,006
+SEFL3,United States,New Mexico,35,Curry,009
+SEFL3,United States,New Mexico,35,De Baca,011
+SEFL3,United States,New Mexico,35,Dona Ana,013
+SEFL3,United States,New Mexico,35,Eddy,015
+SEFL3,United States,New Mexico,35,Grant,017
+SEFL3,United States,New Mexico,35,Guadalupe,019
+SEFL3,United States,New Mexico,35,Harding,021
+SEFL3,United States,New Mexico,35,Hidalgo,023
+SEFL3,United States,New Mexico,35,Lea,025
+SEFL3,United States,New Mexico,35,Lincoln,027
+SEFL3,United States,New Mexico,35,Los Alamos,028
+SEFL3,United States,New Mexico,35,Luna,029
+SEFL3,United States,New Mexico,35,McKinley,031
+SEFL3,United States,New Mexico,35,Mora,033
+SEFL3,United States,New Mexico,35,Otero,035
+SEFL3,United States,New Mexico,35,Quay,037
+SEFL3,United States,New Mexico,35,Rio Arriba,039
+SEFL3,United States,New Mexico,35,Roosevelt,041
+SEFL3,United States,New Mexico,35,San Juan,045
+SEFL3,United States,New Mexico,35,San Miguel,047
+SEFL3,United States,New Mexico,35,Sandoval,043
+SEFL3,United States,New Mexico,35,Santa Fe,049
+SEFL3,United States,New Mexico,35,Sierra,051
+SEFL3,United States,New Mexico,35,Socorro,053
+SEFL3,United States,New Mexico,35,Taos,055
+SEFL3,United States,New Mexico,35,Torrance,057
+SEFL3,United States,New Mexico,35,Union,059
+SEFL3,United States,New Mexico,35,Valencia,061
+SEFL3,United States,Oklahoma,40,,
+SEFL3,United States,Oklahoma,40,Cimarron,025
+SEFL3,United States,Texas,48,,
+SEFL3,United States,Texas,48,Andrews,003
+SEFL3,United States,Texas,48,Armstrong,011
+SEFL3,United States,Texas,48,Bailey,017
+SEFL3,United States,Texas,48,Borden,033
+SEFL3,United States,Texas,48,Brewster,043
+SEFL3,United States,Texas,48,Briscoe,045
+SEFL3,United States,Texas,48,Callahan,059
+SEFL3,United States,Texas,48,Childress,075
+SEFL3,United States,Texas,48,Coke,081
+SEFL3,United States,Texas,48,Comanche,093
+SEFL3,United States,Texas,48,Concho,095
+SEFL3,United States,Texas,48,Crane,103
+SEFL3,United States,Texas,48,Crockett,105
+SEFL3,United States,Texas,48,Crosby,107
+SEFL3,United States,Texas,48,Culberson,109
+SEFL3,United States,Texas,48,Dallam,111
+SEFL3,United States,Texas,48,Deaf Smith,117
+SEFL3,United States,Texas,48,Dickens,125
+SEFL3,United States,Texas,48,Ector,135
+SEFL3,United States,Texas,48,El Paso,141
+SEFL3,United States,Texas,48,Fisher,151
+SEFL3,United States,Texas,48,Foard,155
+SEFL3,United States,Texas,48,Gaines,165
+SEFL3,United States,Texas,48,Garza,169
+SEFL3,United States,Texas,48,Glasscock,173
+SEFL3,United States,Texas,48,Hall,191
+SEFL3,United States,Texas,48,Hardeman,197
+SEFL3,United States,Texas,48,Hartley,205
+SEFL3,United States,Texas,48,Haskell,207
+SEFL3,United States,Texas,48,Howard,227
+SEFL3,United States,Texas,48,Hudspeth,229
+SEFL3,United States,Texas,48,Hutchinson,233
+SEFL3,United States,Texas,48,Jeff Davis,243
+SEFL3,United States,Texas,48,Jones,253
+SEFL3,United States,Texas,48,Kinney,271
+SEFL3,United States,Texas,48,Lamb,279
+SEFL3,United States,Texas,48,Loving,301
+SEFL3,United States,Texas,48,Lubbock,303
+SEFL3,United States,Texas,48,Martin,317
+SEFL3,United States,Texas,48,Mason,319
+SEFL3,United States,Texas,48,Maverick,323
+SEFL3,United States,Texas,48,Midland,329
+SEFL3,United States,Texas,48,Motley,345
+SEFL3,United States,Texas,48,Nolan,353
+SEFL3,United States,Texas,48,Oldham,359
+SEFL3,United States,Texas,48,Pecos,371
+SEFL3,United States,Texas,48,Potter,375
+SEFL3,United States,Texas,48,Presidio,377
+SEFL3,United States,Texas,48,Randall,381
+SEFL3,United States,Texas,48,Reagan,383
+SEFL3,United States,Texas,48,Reeves,389
+SEFL3,United States,Texas,48,Runnels,399
+SEFL3,United States,Texas,48,Scurry,415
+SEFL3,United States,Texas,48,Sutton,435
+SEFL3,United States,Texas,48,Taylor,441
+SEFL3,United States,Texas,48,Terrell,443
+SEFL3,United States,Texas,48,Tom Green,451
+SEFL3,United States,Texas,48,Upton,461
+SEFL3,United States,Texas,48,Val Verde,465
+SEFL3,United States,Texas,48,Ward,475
+SEFL3,United States,Texas,48,Winkler,495
+SEFL3,United States,Texas,48,Yoakum,501
+SEFL3,United States,Utah,49,,
+SEFL3,United States,Utah,49,Beaver,001
+SEFL3,United States,Utah,49,Duchesne,013
+SEFL3,United States,Utah,49,Garfield,017
+SEFL3,United States,Utah,49,Iron,021
+SEFL3,United States,Utah,49,Kane,025
+SEFL3,United States,Utah,49,Millard,027
+SEFL3,United States,Utah,49,Piute,031
+SEFL3,United States,Utah,49,San Juan,037
+SEFL3,United States,Utah,49,Sevier,041
+SEFL3,United States,Utah,49,Washington,053
+SEFL3,United States,Utah,49,Wayne,055

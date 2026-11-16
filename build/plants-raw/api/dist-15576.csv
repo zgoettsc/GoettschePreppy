@@ -1,0 +1,526 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+PITA,United States,Alabama,01,,
+PITA,United States,Alabama,01,Autauga,001
+PITA,United States,Alabama,01,Baldwin,003
+PITA,United States,Alabama,01,Barbour,005
+PITA,United States,Alabama,01,Bibb,007
+PITA,United States,Alabama,01,Blount,009
+PITA,United States,Alabama,01,Bullock,011
+PITA,United States,Alabama,01,Butler,013
+PITA,United States,Alabama,01,Calhoun,015
+PITA,United States,Alabama,01,Chambers,017
+PITA,United States,Alabama,01,Chilton,021
+PITA,United States,Alabama,01,Choctaw,023
+PITA,United States,Alabama,01,Clarke,025
+PITA,United States,Alabama,01,Clay,027
+PITA,United States,Alabama,01,Cleburne,029
+PITA,United States,Alabama,01,Coffee,031
+PITA,United States,Alabama,01,Colbert,033
+PITA,United States,Alabama,01,Conecuh,035
+PITA,United States,Alabama,01,Coosa,037
+PITA,United States,Alabama,01,Covington,039
+PITA,United States,Alabama,01,Crenshaw,041
+PITA,United States,Alabama,01,Cullman,043
+PITA,United States,Alabama,01,Dale,045
+PITA,United States,Alabama,01,Dallas,047
+PITA,United States,Alabama,01,DeKalb,049
+PITA,United States,Alabama,01,Elmore,051
+PITA,United States,Alabama,01,Escambia,053
+PITA,United States,Alabama,01,Etowah,055
+PITA,United States,Alabama,01,Fayette,057
+PITA,United States,Alabama,01,Franklin,059
+PITA,United States,Alabama,01,Geneva,061
+PITA,United States,Alabama,01,Greene,063
+PITA,United States,Alabama,01,Hale,065
+PITA,United States,Alabama,01,Henry,067
+PITA,United States,Alabama,01,Houston,069
+PITA,United States,Alabama,01,Jackson,071
+PITA,United States,Alabama,01,Jefferson,073
+PITA,United States,Alabama,01,Lamar,075
+PITA,United States,Alabama,01,Lauderdale,077
+PITA,United States,Alabama,01,Lawrence,079
+PITA,United States,Alabama,01,Lee,081
+PITA,United States,Alabama,01,Lowndes,085
+PITA,United States,Alabama,01,Macon,087
+PITA,United States,Alabama,01,Madison,089
+PITA,United States,Alabama,01,Marengo,091
+PITA,United States,Alabama,01,Marshall,095
+PITA,United States,Alabama,01,Mobile,097
+PITA,United States,Alabama,01,Monroe,099
+PITA,United States,Alabama,01,Montgomery,101
+PITA,United States,Alabama,01,Morgan,103
+PITA,United States,Alabama,01,Perry,105
+PITA,United States,Alabama,01,Pickens,107
+PITA,United States,Alabama,01,Pike,109
+PITA,United States,Alabama,01,Randolph,111
+PITA,United States,Alabama,01,Russell,113
+PITA,United States,Alabama,01,Shelby,117
+PITA,United States,Alabama,01,St. Clair,115
+PITA,United States,Alabama,01,Sumter,119
+PITA,United States,Alabama,01,Talladega,121
+PITA,United States,Alabama,01,Tallapoosa,123
+PITA,United States,Alabama,01,Tuscaloosa,125
+PITA,United States,Alabama,01,Walker,127
+PITA,United States,Alabama,01,Washington,129
+PITA,United States,Alabama,01,Wilcox,131
+PITA,United States,Alabama,01,Winston,133
+PITA,United States,Arkansas,05,,
+PITA,United States,Arkansas,05,Arkansas,001
+PITA,United States,Arkansas,05,Ashley,003
+PITA,United States,Arkansas,05,Bradley,011
+PITA,United States,Arkansas,05,Calhoun,013
+PITA,United States,Arkansas,05,Clark,019
+PITA,United States,Arkansas,05,Cleveland,025
+PITA,United States,Arkansas,05,Columbia,027
+PITA,United States,Arkansas,05,Dallas,039
+PITA,United States,Arkansas,05,Drew,043
+PITA,United States,Arkansas,05,Faulkner,045
+PITA,United States,Arkansas,05,Garland,051
+PITA,United States,Arkansas,05,Grant,053
+PITA,United States,Arkansas,05,Hempstead,057
+PITA,United States,Arkansas,05,Hot Spring,059
+PITA,United States,Arkansas,05,Jefferson,069
+PITA,United States,Arkansas,05,Lafayette,073
+PITA,United States,Arkansas,05,Lincoln,079
+PITA,United States,Arkansas,05,Little River,081
+PITA,United States,Arkansas,05,Lonoke,085
+PITA,United States,Arkansas,05,Miller,091
+PITA,United States,Arkansas,05,Monroe,095
+PITA,United States,Arkansas,05,Montgomery,097
+PITA,United States,Arkansas,05,Nevada,099
+PITA,United States,Arkansas,05,Ouachita,103
+PITA,United States,Arkansas,05,Pike,109
+PITA,United States,Arkansas,05,Pulaski,119
+PITA,United States,Arkansas,05,Saline,125
+PITA,United States,Arkansas,05,Sevier,133
+PITA,United States,Arkansas,05,Union,139
+PITA,United States,Delaware,10,,
+PITA,United States,Delaware,10,Kent,001
+PITA,United States,Delaware,10,New Castle,003
+PITA,United States,Delaware,10,Sussex,005
+PITA,United States,District of Columbia,11,,
+PITA,United States,District of Columbia,11,District of Columbia,001
+PITA,United States,Florida,12,,
+PITA,United States,Florida,12,Alachua,001
+PITA,United States,Florida,12,Baker,003
+PITA,United States,Florida,12,Bay,005
+PITA,United States,Florida,12,Bradford,007
+PITA,United States,Florida,12,Calhoun,013
+PITA,United States,Florida,12,Citrus,017
+PITA,United States,Florida,12,Clay,019
+PITA,United States,Florida,12,Columbia,023
+PITA,United States,Florida,12,DeSoto,027
+PITA,United States,Florida,12,Dixie,029
+PITA,United States,Florida,12,Duval,031
+PITA,United States,Florida,12,Escambia,033
+PITA,United States,Florida,12,Flagler,035
+PITA,United States,Florida,12,Franklin,037
+PITA,United States,Florida,12,Gadsden,039
+PITA,United States,Florida,12,Gilchrist,041
+PITA,United States,Florida,12,Hamilton,047
+PITA,United States,Florida,12,Hernando,053
+PITA,United States,Florida,12,Holmes,059
+PITA,United States,Florida,12,Jackson,063
+PITA,United States,Florida,12,Jefferson,065
+PITA,United States,Florida,12,Lafayette,067
+PITA,United States,Florida,12,Lake,069
+PITA,United States,Florida,12,Leon,073
+PITA,United States,Florida,12,Levy,075
+PITA,United States,Florida,12,Liberty,077
+PITA,United States,Florida,12,Madison,079
+PITA,United States,Florida,12,Marion,083
+PITA,United States,Florida,12,Nassau,089
+PITA,United States,Florida,12,Okaloosa,091
+PITA,United States,Florida,12,Orange,095
+PITA,United States,Florida,12,Putnam,107
+PITA,United States,Florida,12,Santa Rosa,113
+PITA,United States,Florida,12,Seminole,117
+PITA,United States,Florida,12,St. Johns,109
+PITA,United States,Florida,12,Sumter,119
+PITA,United States,Florida,12,Suwannee,121
+PITA,United States,Florida,12,Taylor,123
+PITA,United States,Florida,12,Union,125
+PITA,United States,Florida,12,Wakulla,129
+PITA,United States,Florida,12,Walton,131
+PITA,United States,Florida,12,Washington,133
+PITA,United States,Georgia,13,,
+PITA,United States,Georgia,13,Bartow,015
+PITA,United States,Georgia,13,Brantley,025
+PITA,United States,Georgia,13,Brooks,027
+PITA,United States,Georgia,13,Carroll,045
+PITA,United States,Georgia,13,Charlton,049
+PITA,United States,Georgia,13,Chatham,051
+PITA,United States,Georgia,13,Clarke,059
+PITA,United States,Georgia,13,Crisp,081
+PITA,United States,Georgia,13,Dade,083
+PITA,United States,Georgia,13,Decatur,087
+PITA,United States,Georgia,13,DeKalb,089
+PITA,United States,Georgia,13,Dougherty,095
+PITA,United States,Georgia,13,Echols,101
+PITA,United States,Georgia,13,Elbert,105
+PITA,United States,Georgia,13,Emanuel,107
+PITA,United States,Georgia,13,Glynn,127
+PITA,United States,Georgia,13,Hall,139
+PITA,United States,Georgia,13,Harris,145
+PITA,United States,Georgia,13,Lanier,173
+PITA,United States,Georgia,13,Liberty,179
+PITA,United States,Georgia,13,Lincoln,181
+PITA,United States,Georgia,13,Long,183
+PITA,United States,Georgia,13,Lowndes,185
+PITA,United States,Georgia,13,Macon,193
+PITA,United States,Georgia,13,Madison,195
+PITA,United States,Georgia,13,McIntosh,191
+PITA,United States,Georgia,13,Morgan,211
+PITA,United States,Georgia,13,Oglethorpe,221
+PITA,United States,Georgia,13,Paulding,223
+PITA,United States,Georgia,13,Pike,231
+PITA,United States,Georgia,13,Seminole,253
+PITA,United States,Georgia,13,Sumter,261
+PITA,United States,Georgia,13,Tattnall,267
+PITA,United States,Georgia,13,Terrell,273
+PITA,United States,Georgia,13,Tift,277
+PITA,United States,Georgia,13,Toombs,279
+PITA,United States,Georgia,13,Wheeler,309
+PITA,United States,Illinois,17,,
+PITA,United States,Illinois,17,Hardin,069
+PITA,United States,Illinois,17,Jackson,077
+PITA,United States,Illinois,17,Pope,151
+PITA,United States,Illinois,17,Union,181
+PITA,United States,Illinois,17,Williamson,199
+PITA,United States,Kentucky,21,,
+PITA,United States,Kentucky,21,Barren,009
+PITA,United States,Kentucky,21,Calloway,035
+PITA,United States,Kentucky,21,Christian,047
+PITA,United States,Kentucky,21,Cumberland,057
+PITA,United States,Kentucky,21,Edmonson,061
+PITA,United States,Kentucky,21,Hickman,105
+PITA,United States,Kentucky,21,Hopkins,107
+PITA,United States,Kentucky,21,Lyon,143
+PITA,United States,Kentucky,21,Marion,155
+PITA,United States,Kentucky,21,Metcalfe,169
+PITA,United States,Kentucky,21,Trigg,221
+PITA,United States,Kentucky,21,Whitley,235
+PITA,United States,Louisiana,22,,
+PITA,United States,Louisiana,22,Acadia,001
+PITA,United States,Louisiana,22,Allen,003
+PITA,United States,Louisiana,22,Ascension,005
+PITA,United States,Louisiana,22,Avoyelles,009
+PITA,United States,Louisiana,22,Beauregard,011
+PITA,United States,Louisiana,22,Bienville,013
+PITA,United States,Louisiana,22,Bossier,015
+PITA,United States,Louisiana,22,Caddo,017
+PITA,United States,Louisiana,22,Calcasieu,019
+PITA,United States,Louisiana,22,Caldwell,021
+PITA,United States,Louisiana,22,Cameron,023
+PITA,United States,Louisiana,22,Catahoula,025
+PITA,United States,Louisiana,22,Claiborne,027
+PITA,United States,Louisiana,22,Concordia,029
+PITA,United States,Louisiana,22,De Soto,031
+PITA,United States,Louisiana,22,East Baton Rouge,033
+PITA,United States,Louisiana,22,East Carroll,035
+PITA,United States,Louisiana,22,East Feliciana,037
+PITA,United States,Louisiana,22,Evangeline,039
+PITA,United States,Louisiana,22,Franklin,041
+PITA,United States,Louisiana,22,Grant,043
+PITA,United States,Louisiana,22,Iberia,045
+PITA,United States,Louisiana,22,Jackson,049
+PITA,United States,Louisiana,22,Jefferson Davis,053
+PITA,United States,Louisiana,22,Lafayette,055
+PITA,United States,Louisiana,22,LaSalle,059
+PITA,United States,Louisiana,22,Lincoln,061
+PITA,United States,Louisiana,22,Livingston,063
+PITA,United States,Louisiana,22,Madison,065
+PITA,United States,Louisiana,22,Morehouse,067
+PITA,United States,Louisiana,22,Natchitoches,069
+PITA,United States,Louisiana,22,Orleans,071
+PITA,United States,Louisiana,22,Ouachita,073
+PITA,United States,Louisiana,22,Plaquemines,075
+PITA,United States,Louisiana,22,Pointe Coupee,077
+PITA,United States,Louisiana,22,Rapides,079
+PITA,United States,Louisiana,22,Red River,081
+PITA,United States,Louisiana,22,Richland,083
+PITA,United States,Louisiana,22,Sabine,085
+PITA,United States,Louisiana,22,St. Charles,089
+PITA,United States,Louisiana,22,St. Helena,091
+PITA,United States,Louisiana,22,St. Landry,097
+PITA,United States,Louisiana,22,St. Mary,101
+PITA,United States,Louisiana,22,St. Tammany,103
+PITA,United States,Louisiana,22,Tangipahoa,105
+PITA,United States,Louisiana,22,Tensas,107
+PITA,United States,Louisiana,22,Union,111
+PITA,United States,Louisiana,22,Vernon,115
+PITA,United States,Louisiana,22,Washington,117
+PITA,United States,Louisiana,22,Webster,119
+PITA,United States,Louisiana,22,West Carroll,123
+PITA,United States,Louisiana,22,West Feliciana,125
+PITA,United States,Louisiana,22,Winn,127
+PITA,United States,Maryland,24,,
+PITA,United States,Maryland,24,Calvert,009
+PITA,United States,Maryland,24,Caroline,011
+PITA,United States,Maryland,24,Charles,017
+PITA,United States,Maryland,24,Dorchester,019
+PITA,United States,Maryland,24,Kent,029
+PITA,United States,Maryland,24,Prince George's,033
+PITA,United States,Maryland,24,Somerset,039
+PITA,United States,Maryland,24,St. Mary's,037
+PITA,United States,Maryland,24,Talbot,041
+PITA,United States,Maryland,24,Wicomico,045
+PITA,United States,Maryland,24,Worcester,047
+PITA,United States,Mississippi,28,,
+PITA,United States,Mississippi,28,Amite,005
+PITA,United States,Mississippi,28,Choctaw,019
+PITA,United States,Mississippi,28,Claiborne,021
+PITA,United States,Mississippi,28,Clarke,023
+PITA,United States,Mississippi,28,Copiah,029
+PITA,United States,Mississippi,28,Covington,031
+PITA,United States,Mississippi,28,DeSoto,033
+PITA,United States,Mississippi,28,Forrest,035
+PITA,United States,Mississippi,28,Franklin,037
+PITA,United States,Mississippi,28,George,039
+PITA,United States,Mississippi,28,Greene,041
+PITA,United States,Mississippi,28,Hancock,045
+PITA,United States,Mississippi,28,Harrison,047
+PITA,United States,Mississippi,28,Hinds,049
+PITA,United States,Mississippi,28,Holmes,051
+PITA,United States,Mississippi,28,Jackson,059
+PITA,United States,Mississippi,28,Jasper,061
+PITA,United States,Mississippi,28,Jefferson,063
+PITA,United States,Mississippi,28,Jones,067
+PITA,United States,Mississippi,28,Kemper,069
+PITA,United States,Mississippi,28,Lafayette,071
+PITA,United States,Mississippi,28,Lamar,073
+PITA,United States,Mississippi,28,Lauderdale,075
+PITA,United States,Mississippi,28,Lee,081
+PITA,United States,Mississippi,28,Lincoln,085
+PITA,United States,Mississippi,28,Madison,089
+PITA,United States,Mississippi,28,Marion,091
+PITA,United States,Mississippi,28,Marshall,093
+PITA,United States,Mississippi,28,Newton,101
+PITA,United States,Mississippi,28,Noxubee,103
+PITA,United States,Mississippi,28,Pearl River,109
+PITA,United States,Mississippi,28,Perry,111
+PITA,United States,Mississippi,28,Pike,113
+PITA,United States,Mississippi,28,Pontotoc,115
+PITA,United States,Mississippi,28,Rankin,121
+PITA,United States,Mississippi,28,Scott,123
+PITA,United States,Mississippi,28,Smith,129
+PITA,United States,Mississippi,28,Stone,131
+PITA,United States,Mississippi,28,Tishomingo,141
+PITA,United States,Mississippi,28,Union,145
+PITA,United States,Mississippi,28,Walthall,147
+PITA,United States,Mississippi,28,Washington,151
+PITA,United States,Mississippi,28,Wayne,153
+PITA,United States,Mississippi,28,Webster,155
+PITA,United States,Mississippi,28,Wilkinson,157
+PITA,United States,Mississippi,28,Winston,159
+PITA,United States,Mississippi,28,Yalobusha,161
+PITA,United States,Missouri,29,,
+PITA,United States,Missouri,29,Butler,023
+PITA,United States,Missouri,29,Howell,091
+PITA,United States,Missouri,29,Laclede,105
+PITA,United States,Missouri,29,Polk,167
+PITA,United States,New Jersey,34,,
+PITA,United States,New Jersey,34,Cape May,009
+PITA,United States,New Jersey,34,Cumberland,011
+PITA,United States,New Jersey,34,Salem,033
+PITA,United States,North Carolina,37,,
+PITA,United States,North Carolina,37,Alamance,001
+PITA,United States,North Carolina,37,Anson,007
+PITA,United States,North Carolina,37,Bladen,017
+PITA,United States,North Carolina,37,Brunswick,019
+PITA,United States,North Carolina,37,Camden,029
+PITA,United States,North Carolina,37,Carteret,031
+PITA,United States,North Carolina,37,Chatham,037
+PITA,United States,North Carolina,37,Chowan,041
+PITA,United States,North Carolina,37,Columbus,047
+PITA,United States,North Carolina,37,Craven,049
+PITA,United States,North Carolina,37,Cumberland,051
+PITA,United States,North Carolina,37,Currituck,053
+PITA,United States,North Carolina,37,Duplin,061
+PITA,United States,North Carolina,37,Durham,063
+PITA,United States,North Carolina,37,Edgecombe,065
+PITA,United States,North Carolina,37,Franklin,069
+PITA,United States,North Carolina,37,Gaston,071
+PITA,United States,North Carolina,37,Gates,073
+PITA,United States,North Carolina,37,Granville,077
+PITA,United States,North Carolina,37,Greene,079
+PITA,United States,North Carolina,37,Guilford,081
+PITA,United States,North Carolina,37,Halifax,083
+PITA,United States,North Carolina,37,Harnett,085
+PITA,United States,North Carolina,37,Hertford,091
+PITA,United States,North Carolina,37,Hoke,093
+PITA,United States,North Carolina,37,Johnston,101
+PITA,United States,North Carolina,37,Jones,103
+PITA,United States,North Carolina,37,Lee,105
+PITA,United States,North Carolina,37,Montgomery,123
+PITA,United States,North Carolina,37,Moore,125
+PITA,United States,North Carolina,37,New Hanover,129
+PITA,United States,North Carolina,37,Northampton,131
+PITA,United States,North Carolina,37,Onslow,133
+PITA,United States,North Carolina,37,Orange,135
+PITA,United States,North Carolina,37,Pamlico,137
+PITA,United States,North Carolina,37,Randolph,151
+PITA,United States,North Carolina,37,Richmond,153
+PITA,United States,North Carolina,37,Robeson,155
+PITA,United States,North Carolina,37,Rowan,159
+PITA,United States,North Carolina,37,Sampson,163
+PITA,United States,North Carolina,37,Stanly,167
+PITA,United States,North Carolina,37,Swain,173
+PITA,United States,North Carolina,37,Wake,183
+PITA,United States,North Carolina,37,Warren,185
+PITA,United States,Ohio,39,,
+PITA,United States,Ohio,39,Meigs,105
+PITA,United States,Ohio,39,Vinton,163
+PITA,United States,Oklahoma,40,,
+PITA,United States,Oklahoma,40,Johnston,069
+PITA,United States,Oklahoma,40,McCurtain,089
+PITA,United States,Oklahoma,40,Pushmataha,127
+PITA,United States,South Carolina,45,,
+PITA,United States,South Carolina,45,Abbeville,001
+PITA,United States,South Carolina,45,Aiken,003
+PITA,United States,South Carolina,45,Allendale,005
+PITA,United States,South Carolina,45,Barnwell,011
+PITA,United States,South Carolina,45,Berkeley,015
+PITA,United States,South Carolina,45,Calhoun,017
+PITA,United States,South Carolina,45,Charleston,019
+PITA,United States,South Carolina,45,Cherokee,021
+PITA,United States,South Carolina,45,Chester,023
+PITA,United States,South Carolina,45,Chesterfield,025
+PITA,United States,South Carolina,45,Colleton,029
+PITA,United States,South Carolina,45,Dillon,033
+PITA,United States,South Carolina,45,Fairfield,039
+PITA,United States,South Carolina,45,Florence,041
+PITA,United States,South Carolina,45,Hampton,049
+PITA,United States,South Carolina,45,Horry,051
+PITA,United States,South Carolina,45,Jasper,053
+PITA,United States,South Carolina,45,Kershaw,055
+PITA,United States,South Carolina,45,Lancaster,057
+PITA,United States,South Carolina,45,Laurens,059
+PITA,United States,South Carolina,45,McCormick,065
+PITA,United States,South Carolina,45,Newberry,071
+PITA,United States,South Carolina,45,Pickens,077
+PITA,United States,South Carolina,45,Richland,079
+PITA,United States,South Carolina,45,Sumter,085
+PITA,United States,South Carolina,45,Union,087
+PITA,United States,South Carolina,45,Williamsburg,089
+PITA,United States,South Carolina,45,York,091
+PITA,United States,Tennessee,47,,
+PITA,United States,Tennessee,47,Benton,005
+PITA,United States,Tennessee,47,Blount,009
+PITA,United States,Tennessee,47,Bradley,011
+PITA,United States,Tennessee,47,Coffee,031
+PITA,United States,Tennessee,47,Fayette,047
+PITA,United States,Tennessee,47,Franklin,051
+PITA,United States,Tennessee,47,Greene,059
+PITA,United States,Tennessee,47,Grundy,061
+PITA,United States,Tennessee,47,Hamilton,065
+PITA,United States,Tennessee,47,Hardin,071
+PITA,United States,Tennessee,47,Knox,093
+PITA,United States,Tennessee,47,Macon,111
+PITA,United States,Tennessee,47,McMinn,107
+PITA,United States,Tennessee,47,McNairy,109
+PITA,United States,Tennessee,47,Montgomery,125
+PITA,United States,Tennessee,47,Morgan,129
+PITA,United States,Tennessee,47,Polk,139
+PITA,United States,Tennessee,47,Sevier,155
+PITA,United States,Tennessee,47,Shelby,157
+PITA,United States,Tennessee,47,Stewart,161
+PITA,United States,Tennessee,47,Tipton,167
+PITA,United States,Tennessee,47,Williamson,187
+PITA,United States,Texas,48,,
+PITA,United States,Texas,48,Anderson,001
+PITA,United States,Texas,48,Angelina,005
+PITA,United States,Texas,48,Austin,015
+PITA,United States,Texas,48,Bastrop,021
+PITA,United States,Texas,48,Bowie,037
+PITA,United States,Texas,48,Brazoria,039
+PITA,United States,Texas,48,Camp,063
+PITA,United States,Texas,48,Cass,067
+PITA,United States,Texas,48,Chambers,071
+PITA,United States,Texas,48,Colorado,089
+PITA,United States,Texas,48,Fayette,149
+PITA,United States,Texas,48,Freestone,161
+PITA,United States,Texas,48,Galveston,167
+PITA,United States,Texas,48,Gregg,183
+PITA,United States,Texas,48,Grimes,185
+PITA,United States,Texas,48,Hardin,199
+PITA,United States,Texas,48,Harris,201
+PITA,United States,Texas,48,Harrison,203
+PITA,United States,Texas,48,Houston,225
+PITA,United States,Texas,48,Lee,287
+PITA,United States,Texas,48,Leon,289
+PITA,United States,Texas,48,Liberty,291
+PITA,United States,Texas,48,Madison,313
+PITA,United States,Texas,48,Marion,315
+PITA,United States,Texas,48,McLennan,309
+PITA,United States,Texas,48,Montgomery,339
+PITA,United States,Texas,48,Morris,343
+PITA,United States,Texas,48,Nacogdoches,347
+PITA,United States,Texas,48,Newton,351
+PITA,United States,Texas,48,Orange,361
+PITA,United States,Texas,48,Polk,373
+PITA,United States,Texas,48,Red River,387
+PITA,United States,Texas,48,Robertson,395
+PITA,United States,Texas,48,Rusk,401
+PITA,United States,Texas,48,Sabine,403
+PITA,United States,Texas,48,San Augustine,405
+PITA,United States,Texas,48,San Jacinto,407
+PITA,United States,Texas,48,Shelby,419
+PITA,United States,Texas,48,Smith,423
+PITA,United States,Texas,48,Titus,449
+PITA,United States,Texas,48,Tyler,457
+PITA,United States,Texas,48,Upshur,459
+PITA,United States,Texas,48,Walker,471
+PITA,United States,Texas,48,Wharton,481
+PITA,United States,Texas,48,Wood,499
+PITA,United States,Virginia,51,,
+PITA,United States,Virginia,51,Accomack,001
+PITA,United States,Virginia,51,Albemarle,003
+PITA,United States,Virginia,51,Amelia,007
+PITA,United States,Virginia,51,Arlington,013
+PITA,United States,Virginia,51,Brunswick,025
+PITA,United States,Virginia,51,Buckingham,029
+PITA,United States,Virginia,51,Caroline,033
+PITA,United States,Virginia,51,Charles City,036
+PITA,United States,Virginia,51,"Chesapeake ",550
+PITA,United States,Virginia,51,Chesterfield,041
+PITA,United States,Virginia,51,Cumberland,049
+PITA,United States,Virginia,51,Dinwiddie,053
+PITA,United States,Virginia,51,Essex,057
+PITA,United States,Virginia,51,Fairfax,059
+PITA,United States,Virginia,51,Gloucester,073
+PITA,United States,Virginia,51,Goochland,075
+PITA,United States,Virginia,51,Greensville,081
+PITA,United States,Virginia,51,"Hampton ",650
+PITA,United States,Virginia,51,Hanover,085
+PITA,United States,Virginia,51,Henrico,087
+PITA,United States,Virginia,51,Isle of Wight,093
+PITA,United States,Virginia,51,James City,095
+PITA,United States,Virginia,51,King and Queen,097
+PITA,United States,Virginia,51,King George,099
+PITA,United States,Virginia,51,King William,101
+PITA,United States,Virginia,51,Lancaster,103
+PITA,United States,Virginia,51,Louisa,109
+PITA,United States,Virginia,51,Lunenburg,111
+PITA,United States,Virginia,51,Mathews,115
+PITA,United States,Virginia,51,Mecklenburg,117
+PITA,United States,Virginia,51,Middlesex,119
+PITA,United States,Virginia,51,New Kent,127
+PITA,United States,Virginia,51,"Newport News ",700
+PITA,United States,Virginia,51,Northampton,131
+PITA,United States,Virginia,51,Northumberland,133
+PITA,United States,Virginia,51,Nottoway,135
+PITA,United States,Virginia,51,Powhatan,145
+PITA,United States,Virginia,51,Prince Edward,147
+PITA,United States,Virginia,51,Prince George,149
+PITA,United States,Virginia,51,Richmond,159
+PITA,United States,Virginia,51,Southampton,175
+PITA,United States,Virginia,51,Spotsylvania,177
+PITA,United States,Virginia,51,Stafford,179
+PITA,United States,Virginia,51,"Suffolk ",800
+PITA,United States,Virginia,51,Surry,181
+PITA,United States,Virginia,51,Sussex,183
+PITA,United States,Virginia,51,"Virginia Beach ",810
+PITA,United States,Virginia,51,Westmoreland,193
+PITA,United States,Virginia,51,York,199

@@ -1,0 +1,354 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+LALA,Canada,Alberta,01,,
+LALA,Canada,British Columbia,02,,
+LALA,United States,Alaska,02,,
+LALA,United States,Alaska,02,Bethel,050
+LALA,United States,Alaska,02,Denali,068
+LALA,United States,Alaska,02,Fairbanks North Star,090
+LALA,United States,Alaska,02,Southeast Fairbanks,240
+LALA,United States,Alaska,02,Yukon-Koyukuk,290
+LALA,Canada,Manitoba,03,,
+LALA,Canada,New Brunswick,04,,
+LALA,Canada,Nova Scotia,07,,
+LALA,Canada,Ontario,08,,
+LALA,Canada,Prince Edward Island,09,,
+LALA,United States,Connecticut,09,,
+LALA,Canada,Quebec,10,,
+LALA,Canada,Saskatchewan,11,,
+LALA,Canada,Yukon,12,,
+LALA,Canada,Northwest Territories,13,,
+LALA,Canada,Nunavut,14,,
+LALA,United States,Illinois,17,,
+LALA,United States,Illinois,17,Cook,031
+LALA,United States,Illinois,17,Lake,097
+LALA,United States,Illinois,17,McHenry,111
+LALA,United States,Indiana,18,,
+LALA,United States,Indiana,18,Allen,003
+LALA,United States,Indiana,18,DeKalb,033
+LALA,United States,Indiana,18,Elkhart,039
+LALA,United States,Indiana,18,Fulton,049
+LALA,United States,Indiana,18,Kosciusko,085
+LALA,United States,Indiana,18,Lagrange,087
+LALA,United States,Indiana,18,Lake,089
+LALA,United States,Indiana,18,LaPorte,091
+LALA,United States,Indiana,18,Noble,113
+LALA,United States,Indiana,18,Porter,127
+LALA,United States,Indiana,18,St. Joseph,141
+LALA,United States,Indiana,18,Starke,149
+LALA,United States,Indiana,18,Steuben,151
+LALA,United States,Indiana,18,Whitley,183
+LALA,United States,Maine,23,,
+LALA,United States,Maine,23,Androscoggin,001
+LALA,United States,Maine,23,Aroostook,003
+LALA,United States,Maine,23,Cumberland,005
+LALA,United States,Maine,23,Franklin,007
+LALA,United States,Maine,23,Hancock,009
+LALA,United States,Maine,23,Kennebec,011
+LALA,United States,Maine,23,Knox,013
+LALA,United States,Maine,23,Lincoln,015
+LALA,United States,Maine,23,Oxford,017
+LALA,United States,Maine,23,Penobscot,019
+LALA,United States,Maine,23,Piscataquis,021
+LALA,United States,Maine,23,Sagadahoc,023
+LALA,United States,Maine,23,Somerset,025
+LALA,United States,Maine,23,Waldo,027
+LALA,United States,Maine,23,Washington,029
+LALA,United States,Maine,23,York,031
+LALA,United States,Maryland,24,,
+LALA,United States,Maryland,24,Garrett,023
+LALA,United States,Massachusetts,25,,
+LALA,United States,Massachusetts,25,Berkshire,003
+LALA,United States,Massachusetts,25,Bristol,005
+LALA,United States,Massachusetts,25,Essex,009
+LALA,United States,Massachusetts,25,Franklin,011
+LALA,United States,Massachusetts,25,Hampden,013
+LALA,United States,Massachusetts,25,Hampshire,015
+LALA,United States,Massachusetts,25,Middlesex,017
+LALA,United States,Massachusetts,25,Nantucket,019
+LALA,United States,Massachusetts,25,Norfolk,021
+LALA,United States,Massachusetts,25,Plymouth,023
+LALA,United States,Massachusetts,25,Worcester,027
+LALA,United States,Michigan,26,,
+LALA,United States,Michigan,26,Alcona,001
+LALA,United States,Michigan,26,Alger,003
+LALA,United States,Michigan,26,Alpena,007
+LALA,United States,Michigan,26,Antrim,009
+LALA,United States,Michigan,26,Arenac,011
+LALA,United States,Michigan,26,Baraga,013
+LALA,United States,Michigan,26,Barry,015
+LALA,United States,Michigan,26,Benzie,019
+LALA,United States,Michigan,26,Berrien,021
+LALA,United States,Michigan,26,Calhoun,025
+LALA,United States,Michigan,26,Cass,027
+LALA,United States,Michigan,26,Charlevoix,029
+LALA,United States,Michigan,26,Cheboygan,031
+LALA,United States,Michigan,26,Chippewa,033
+LALA,United States,Michigan,26,Clare,035
+LALA,United States,Michigan,26,Clinton,037
+LALA,United States,Michigan,26,Crawford,039
+LALA,United States,Michigan,26,Delta,041
+LALA,United States,Michigan,26,Dickinson,043
+LALA,United States,Michigan,26,Emmet,047
+LALA,United States,Michigan,26,Genesee,049
+LALA,United States,Michigan,26,Gladwin,051
+LALA,United States,Michigan,26,Gogebic,053
+LALA,United States,Michigan,26,Gratiot,057
+LALA,United States,Michigan,26,Hillsdale,059
+LALA,United States,Michigan,26,Houghton,061
+LALA,United States,Michigan,26,Ingham,065
+LALA,United States,Michigan,26,Ionia,067
+LALA,United States,Michigan,26,Iosco,069
+LALA,United States,Michigan,26,Iron,071
+LALA,United States,Michigan,26,Isabella,073
+LALA,United States,Michigan,26,Jackson,075
+LALA,United States,Michigan,26,Kalamazoo,077
+LALA,United States,Michigan,26,Kent,081
+LALA,United States,Michigan,26,Keweenaw,083
+LALA,United States,Michigan,26,Lapeer,087
+LALA,United States,Michigan,26,Leelanau,089
+LALA,United States,Michigan,26,Lenawee,091
+LALA,United States,Michigan,26,Livingston,093
+LALA,United States,Michigan,26,Luce,095
+LALA,United States,Michigan,26,Mackinac,097
+LALA,United States,Michigan,26,Manistee,101
+LALA,United States,Michigan,26,Marquette,103
+LALA,United States,Michigan,26,Mason,105
+LALA,United States,Michigan,26,Mecosta,107
+LALA,United States,Michigan,26,Menominee,109
+LALA,United States,Michigan,26,Midland,111
+LALA,United States,Michigan,26,Missaukee,113
+LALA,United States,Michigan,26,Montcalm,117
+LALA,United States,Michigan,26,Montmorency,119
+LALA,United States,Michigan,26,Muskegon,121
+LALA,United States,Michigan,26,Newaygo,123
+LALA,United States,Michigan,26,Oakland,125
+LALA,United States,Michigan,26,Ogemaw,129
+LALA,United States,Michigan,26,Ontonagon,131
+LALA,United States,Michigan,26,Osceola,133
+LALA,United States,Michigan,26,Oscoda,135
+LALA,United States,Michigan,26,Presque Isle,141
+LALA,United States,Michigan,26,Saginaw,145
+LALA,United States,Michigan,26,Schoolcraft,153
+LALA,United States,Michigan,26,St. Clair,147
+LALA,United States,Michigan,26,St. Joseph,149
+LALA,United States,Michigan,26,Tuscola,157
+LALA,United States,Michigan,26,Van Buren,159
+LALA,United States,Michigan,26,Washtenaw,161
+LALA,United States,Michigan,26,Wayne,163
+LALA,United States,Michigan,26,Wexford,165
+LALA,United States,Minnesota,27,,
+LALA,United States,Minnesota,27,Aitkin,001
+LALA,United States,Minnesota,27,Anoka,003
+LALA,United States,Minnesota,27,Becker,005
+LALA,United States,Minnesota,27,Beltrami,007
+LALA,United States,Minnesota,27,Carlton,017
+LALA,United States,Minnesota,27,Carver,019
+LALA,United States,Minnesota,27,Cass,021
+LALA,United States,Minnesota,27,Chisago,025
+LALA,United States,Minnesota,27,Clearwater,029
+LALA,United States,Minnesota,27,Cook,031
+LALA,United States,Minnesota,27,Crow Wing,035
+LALA,United States,Minnesota,27,Douglas,041
+LALA,United States,Minnesota,27,Hennepin,053
+LALA,United States,Minnesota,27,Houston,055
+LALA,United States,Minnesota,27,Hubbard,057
+LALA,United States,Minnesota,27,Isanti,059
+LALA,United States,Minnesota,27,Itasca,061
+LALA,United States,Minnesota,27,Kanabec,065
+LALA,United States,Minnesota,27,Koochiching,071
+LALA,United States,Minnesota,27,Lake,075
+LALA,United States,Minnesota,27,Lake of the Woods,077
+LALA,United States,Minnesota,27,Mahnomen,087
+LALA,United States,Minnesota,27,Marshall,089
+LALA,United States,Minnesota,27,Mille Lacs,095
+LALA,United States,Minnesota,27,Morrison,097
+LALA,United States,Minnesota,27,Otter Tail,111
+LALA,United States,Minnesota,27,Pennington,113
+LALA,United States,Minnesota,27,Pine,115
+LALA,United States,Minnesota,27,Polk,119
+LALA,United States,Minnesota,27,Ramsey,123
+LALA,United States,Minnesota,27,Rice,131
+LALA,United States,Minnesota,27,Roseau,135
+LALA,United States,Minnesota,27,Sherburne,141
+LALA,United States,Minnesota,27,St. Louis,137
+LALA,United States,Minnesota,27,Stearns,145
+LALA,United States,Minnesota,27,Todd,153
+LALA,United States,Minnesota,27,Wadena,159
+LALA,United States,Minnesota,27,Washington,163
+LALA,United States,Minnesota,27,Wright,171
+LALA,United States,New Hampshire,33,,
+LALA,United States,New Hampshire,33,Belknap,001
+LALA,United States,New Hampshire,33,Carroll,003
+LALA,United States,New Hampshire,33,Cheshire,005
+LALA,United States,New Hampshire,33,Coos,007
+LALA,United States,New Hampshire,33,Grafton,009
+LALA,United States,New Hampshire,33,Hillsborough,011
+LALA,United States,New Hampshire,33,Merrimack,013
+LALA,United States,New Hampshire,33,Rockingham,015
+LALA,United States,New Hampshire,33,Strafford,017
+LALA,United States,New Hampshire,33,Sullivan,019
+LALA,United States,New Jersey,34,,
+LALA,United States,New Jersey,34,Bergen,003
+LALA,United States,New Jersey,34,Essex,013
+LALA,United States,New Jersey,34,Hudson,017
+LALA,United States,New Jersey,34,Hunterdon,019
+LALA,United States,New Jersey,34,Morris,027
+LALA,United States,New Jersey,34,Passaic,031
+LALA,United States,New Jersey,34,Sussex,037
+LALA,United States,New Jersey,34,Warren,041
+LALA,United States,New York,36,,
+LALA,United States,New York,36,Albany,001
+LALA,United States,New York,36,Bronx,005
+LALA,United States,New York,36,Cattaraugus,009
+LALA,United States,New York,36,Chenango,017
+LALA,United States,New York,36,Columbia,021
+LALA,United States,New York,36,Cortland,023
+LALA,United States,New York,36,Delaware,025
+LALA,United States,New York,36,Erie,029
+LALA,United States,New York,36,Essex,031
+LALA,United States,New York,36,Franklin,033
+LALA,United States,New York,36,Genesee,037
+LALA,United States,New York,36,Hamilton,041
+LALA,United States,New York,36,Herkimer,043
+LALA,United States,New York,36,Jefferson,045
+LALA,United States,New York,36,Lewis,049
+LALA,United States,New York,36,Madison,053
+LALA,United States,New York,36,Monroe,055
+LALA,United States,New York,36,Nassau,059
+LALA,United States,New York,36,New York,061
+LALA,United States,New York,36,Niagara,063
+LALA,United States,New York,36,Oneida,065
+LALA,United States,New York,36,Onondaga,067
+LALA,United States,New York,36,Ontario,069
+LALA,United States,New York,36,Orange,071
+LALA,United States,New York,36,Oswego,075
+LALA,United States,New York,36,Rensselaer,083
+LALA,United States,New York,36,Rockland,087
+LALA,United States,New York,36,Saratoga,091
+LALA,United States,New York,36,Schuyler,097
+LALA,United States,New York,36,Seneca,099
+LALA,United States,New York,36,St. Lawrence,089
+LALA,United States,New York,36,Steuben,101
+LALA,United States,New York,36,Suffolk,103
+LALA,United States,New York,36,Sullivan,105
+LALA,United States,New York,36,Tompkins,109
+LALA,United States,New York,36,Ulster,111
+LALA,United States,New York,36,Warren,113
+LALA,United States,New York,36,Washington,115
+LALA,United States,New York,36,Wayne,117
+LALA,United States,New York,36,Westchester,119
+LALA,United States,New York,36,Yates,123
+LALA,United States,Ohio,39,,
+LALA,United States,Ohio,39,Geauga,055
+LALA,United States,Ohio,39,Lake,085
+LALA,United States,Ohio,39,Portage,133
+LALA,United States,Pennsylvania,42,,
+LALA,United States,Pennsylvania,42,Bradford,015
+LALA,United States,Pennsylvania,42,Butler,019
+LALA,United States,Pennsylvania,42,Carbon,025
+LALA,United States,Pennsylvania,42,Centre,027
+LALA,United States,Pennsylvania,42,Clearfield,033
+LALA,United States,Pennsylvania,42,Clinton,035
+LALA,United States,Pennsylvania,42,Crawford,039
+LALA,United States,Pennsylvania,42,Elk,047
+LALA,United States,Pennsylvania,42,Erie,049
+LALA,United States,Pennsylvania,42,Fayette,051
+LALA,United States,Pennsylvania,42,Forest,053
+LALA,United States,Pennsylvania,42,Huntingdon,061
+LALA,United States,Pennsylvania,42,Jefferson,065
+LALA,United States,Pennsylvania,42,Lackawanna,069
+LALA,United States,Pennsylvania,42,Lawrence,073
+LALA,United States,Pennsylvania,42,Luzerne,079
+LALA,United States,Pennsylvania,42,Lycoming,081
+LALA,United States,Pennsylvania,42,McKean,083
+LALA,United States,Pennsylvania,42,Mercer,085
+LALA,United States,Pennsylvania,42,Monroe,089
+LALA,United States,Pennsylvania,42,Northampton,095
+LALA,United States,Pennsylvania,42,Pike,103
+LALA,United States,Pennsylvania,42,Potter,105
+LALA,United States,Pennsylvania,42,Somerset,111
+LALA,United States,Pennsylvania,42,Sullivan,113
+LALA,United States,Pennsylvania,42,Susquehanna,115
+LALA,United States,Pennsylvania,42,Tioga,117
+LALA,United States,Pennsylvania,42,Warren,123
+LALA,United States,Pennsylvania,42,Wayne,127
+LALA,United States,Pennsylvania,42,Westmoreland,129
+LALA,United States,Rhode Island,44,,
+LALA,United States,Rhode Island,44,Providence,007
+LALA,United States,Vermont,50,,
+LALA,United States,Vermont,50,Addison,001
+LALA,United States,Vermont,50,Bennington,003
+LALA,United States,Vermont,50,Caledonia,005
+LALA,United States,Vermont,50,Chittenden,007
+LALA,United States,Vermont,50,Essex,009
+LALA,United States,Vermont,50,Franklin,011
+LALA,United States,Vermont,50,Lamoille,015
+LALA,United States,Vermont,50,Orange,017
+LALA,United States,Vermont,50,Orleans,019
+LALA,United States,Vermont,50,Rutland,021
+LALA,United States,Vermont,50,Washington,023
+LALA,United States,Vermont,50,Windham,025
+LALA,United States,Vermont,50,Windsor,027
+LALA,United States,West Virginia,54,,
+LALA,United States,West Virginia,54,Preston,077
+LALA,United States,Wisconsin,55,,
+LALA,United States,Wisconsin,55,Adams,001
+LALA,United States,Wisconsin,55,Ashland,003
+LALA,United States,Wisconsin,55,Barron,005
+LALA,United States,Wisconsin,55,Bayfield,007
+LALA,United States,Wisconsin,55,Brown,009
+LALA,United States,Wisconsin,55,Calumet,015
+LALA,United States,Wisconsin,55,Chippewa,017
+LALA,United States,Wisconsin,55,Clark,019
+LALA,United States,Wisconsin,55,Columbia,021
+LALA,United States,Wisconsin,55,Dane,025
+LALA,United States,Wisconsin,55,Dodge,027
+LALA,United States,Wisconsin,55,Door,029
+LALA,United States,Wisconsin,55,Douglas,031
+LALA,United States,Wisconsin,55,Dunn,033
+LALA,United States,Wisconsin,55,Eau Claire,035
+LALA,United States,Wisconsin,55,Florence,037
+LALA,United States,Wisconsin,55,Fond du Lac,039
+LALA,United States,Wisconsin,55,Forest,041
+LALA,United States,Wisconsin,55,Iron,051
+LALA,United States,Wisconsin,55,Jackson,053
+LALA,United States,Wisconsin,55,Jefferson,055
+LALA,United States,Wisconsin,55,Kenosha,059
+LALA,United States,Wisconsin,55,Kewaunee,061
+LALA,United States,Wisconsin,55,La Crosse,063
+LALA,United States,Wisconsin,55,Langlade,067
+LALA,United States,Wisconsin,55,Lincoln,069
+LALA,United States,Wisconsin,55,Manitowoc,071
+LALA,United States,Wisconsin,55,Marathon,073
+LALA,United States,Wisconsin,55,Marinette,075
+LALA,United States,Wisconsin,55,Marquette,077
+LALA,United States,Wisconsin,55,Menominee,078
+LALA,United States,Wisconsin,55,Milwaukee,079
+LALA,United States,Wisconsin,55,Oconto,083
+LALA,United States,Wisconsin,55,Oneida,085
+LALA,United States,Wisconsin,55,Outagamie,087
+LALA,United States,Wisconsin,55,Ozaukee,089
+LALA,United States,Wisconsin,55,Polk,095
+LALA,United States,Wisconsin,55,Portage,097
+LALA,United States,Wisconsin,55,Price,099
+LALA,United States,Wisconsin,55,Racine,101
+LALA,United States,Wisconsin,55,Richland,103
+LALA,United States,Wisconsin,55,Rock,105
+LALA,United States,Wisconsin,55,Rusk,107
+LALA,United States,Wisconsin,55,Sauk,111
+LALA,United States,Wisconsin,55,Sawyer,113
+LALA,United States,Wisconsin,55,Shawano,115
+LALA,United States,Wisconsin,55,Sheboygan,117
+LALA,United States,Wisconsin,55,St. Croix,109
+LALA,United States,Wisconsin,55,Taylor,119
+LALA,United States,Wisconsin,55,Trempealeau,121
+LALA,United States,Wisconsin,55,Vilas,125
+LALA,United States,Wisconsin,55,Walworth,127
+LALA,United States,Wisconsin,55,Washington,131
+LALA,United States,Wisconsin,55,Waukesha,133
+LALA,United States,Wisconsin,55,Waupaca,135
+LALA,United States,Wisconsin,55,Waushara,137
+LALA,United States,Wisconsin,55,Wood,141
+LALA,Canada,Labrador,LB,,
+LALA,Canada,Newfoundland,NF,,

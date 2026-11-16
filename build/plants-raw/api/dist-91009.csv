@@ -1,0 +1,757 @@
+Distribution Data
+Symbol,Country,State,State FIP,County,County FIP
+RUAL,United States,Alabama,01,,
+RUAL,United States,Alabama,01,Cleburne,029
+RUAL,Canada,British Columbia,02,,
+RUAL,Canada,New Brunswick,04,,
+RUAL,United States,Arkansas,05,,
+RUAL,United States,Arkansas,05,Benton,007
+RUAL,United States,Arkansas,05,Drew,043
+RUAL,United States,Arkansas,05,Faulkner,045
+RUAL,United States,Arkansas,05,Marion,089
+RUAL,United States,Arkansas,05,Polk,113
+RUAL,United States,Arkansas,05,Pope,115
+RUAL,United States,Arkansas,05,Stone,137
+RUAL,United States,California,06,,
+RUAL,United States,California,06,Plumas,063
+RUAL,United States,California,06,Shasta,089
+RUAL,Canada,Nova Scotia,07,,
+RUAL,Canada,Ontario,08,,
+RUAL,Canada,Prince Edward Island,09,,
+RUAL,United States,Connecticut,09,,
+RUAL,Canada,Quebec,10,,
+RUAL,United States,Delaware,10,,
+RUAL,United States,Delaware,10,New Castle,003
+RUAL,United States,District of Columbia,11,,
+RUAL,United States,District of Columbia,11,District of Columbia,001
+RUAL,United States,Georgia,13,,
+RUAL,United States,Georgia,13,Murray,213
+RUAL,United States,Illinois,17,,
+RUAL,United States,Illinois,17,Adams,001
+RUAL,United States,Illinois,17,Alexander,003
+RUAL,United States,Illinois,17,Bond,005
+RUAL,United States,Illinois,17,Boone,007
+RUAL,United States,Illinois,17,Brown,009
+RUAL,United States,Illinois,17,Bureau,011
+RUAL,United States,Illinois,17,Calhoun,013
+RUAL,United States,Illinois,17,Carroll,015
+RUAL,United States,Illinois,17,Cass,017
+RUAL,United States,Illinois,17,Champaign,019
+RUAL,United States,Illinois,17,Clark,023
+RUAL,United States,Illinois,17,Clay,025
+RUAL,United States,Illinois,17,Coles,029
+RUAL,United States,Illinois,17,Cook,031
+RUAL,United States,Illinois,17,Crawford,033
+RUAL,United States,Illinois,17,Cumberland,035
+RUAL,United States,Illinois,17,De Witt,039
+RUAL,United States,Illinois,17,DeKalb,037
+RUAL,United States,Illinois,17,Douglas,041
+RUAL,United States,Illinois,17,DuPage,043
+RUAL,United States,Illinois,17,Edgar,045
+RUAL,United States,Illinois,17,Effingham,049
+RUAL,United States,Illinois,17,Fayette,051
+RUAL,United States,Illinois,17,Ford,053
+RUAL,United States,Illinois,17,Fulton,057
+RUAL,United States,Illinois,17,Greene,061
+RUAL,United States,Illinois,17,Grundy,063
+RUAL,United States,Illinois,17,Hamilton,065
+RUAL,United States,Illinois,17,Hancock,067
+RUAL,United States,Illinois,17,Hardin,069
+RUAL,United States,Illinois,17,Henderson,071
+RUAL,United States,Illinois,17,Henry,073
+RUAL,United States,Illinois,17,Iroquois,075
+RUAL,United States,Illinois,17,Jackson,077
+RUAL,United States,Illinois,17,Jasper,079
+RUAL,United States,Illinois,17,Jersey,083
+RUAL,United States,Illinois,17,Jo Daviess,085
+RUAL,United States,Illinois,17,Johnson,087
+RUAL,United States,Illinois,17,Kane,089
+RUAL,United States,Illinois,17,Kankakee,091
+RUAL,United States,Illinois,17,Kendall,093
+RUAL,United States,Illinois,17,Knox,095
+RUAL,United States,Illinois,17,Lake,097
+RUAL,United States,Illinois,17,LaSalle,099
+RUAL,United States,Illinois,17,Livingston,105
+RUAL,United States,Illinois,17,Logan,107
+RUAL,United States,Illinois,17,Macon,115
+RUAL,United States,Illinois,17,Macoupin,117
+RUAL,United States,Illinois,17,Marion,121
+RUAL,United States,Illinois,17,Mason,125
+RUAL,United States,Illinois,17,Massac,127
+RUAL,United States,Illinois,17,McDonough,109
+RUAL,United States,Illinois,17,McHenry,111
+RUAL,United States,Illinois,17,McLean,113
+RUAL,United States,Illinois,17,Menard,129
+RUAL,United States,Illinois,17,Morgan,137
+RUAL,United States,Illinois,17,Moultrie,139
+RUAL,United States,Illinois,17,Ogle,141
+RUAL,United States,Illinois,17,Peoria,143
+RUAL,United States,Illinois,17,Perry,145
+RUAL,United States,Illinois,17,Piatt,147
+RUAL,United States,Illinois,17,Pike,149
+RUAL,United States,Illinois,17,Pope,151
+RUAL,United States,Illinois,17,Putnam,155
+RUAL,United States,Illinois,17,Randolph,157
+RUAL,United States,Illinois,17,Richland,159
+RUAL,United States,Illinois,17,Rock Island,161
+RUAL,United States,Illinois,17,Saline,165
+RUAL,United States,Illinois,17,Sangamon,167
+RUAL,United States,Illinois,17,Schuyler,169
+RUAL,United States,Illinois,17,Scott,171
+RUAL,United States,Illinois,17,Shelby,173
+RUAL,United States,Illinois,17,St. Clair,163
+RUAL,United States,Illinois,17,Stark,175
+RUAL,United States,Illinois,17,Stephenson,177
+RUAL,United States,Illinois,17,Tazewell,179
+RUAL,United States,Illinois,17,Union,181
+RUAL,United States,Illinois,17,Vermilion,183
+RUAL,United States,Illinois,17,Wabash,185
+RUAL,United States,Illinois,17,Warren,187
+RUAL,United States,Illinois,17,Washington,189
+RUAL,United States,Illinois,17,Wayne,191
+RUAL,United States,Illinois,17,Will,197
+RUAL,United States,Illinois,17,Williamson,199
+RUAL,United States,Illinois,17,Winnebago,201
+RUAL,United States,Indiana,18,,
+RUAL,United States,Indiana,18,Allen,003
+RUAL,United States,Indiana,18,Bartholomew,005
+RUAL,United States,Indiana,18,Blackford,009
+RUAL,United States,Indiana,18,Boone,011
+RUAL,United States,Indiana,18,Brown,013
+RUAL,United States,Indiana,18,Cass,017
+RUAL,United States,Indiana,18,Clark,019
+RUAL,United States,Indiana,18,Decatur,031
+RUAL,United States,Indiana,18,DeKalb,033
+RUAL,United States,Indiana,18,Delaware,035
+RUAL,United States,Indiana,18,Elkhart,039
+RUAL,United States,Indiana,18,Floyd,043
+RUAL,United States,Indiana,18,Fountain,045
+RUAL,United States,Indiana,18,Franklin,047
+RUAL,United States,Indiana,18,Grant,053
+RUAL,United States,Indiana,18,Harrison,061
+RUAL,United States,Indiana,18,Hendricks,063
+RUAL,United States,Indiana,18,Howard,067
+RUAL,United States,Indiana,18,Huntington,069
+RUAL,United States,Indiana,18,Jackson,071
+RUAL,United States,Indiana,18,Jefferson,077
+RUAL,United States,Indiana,18,Jennings,079
+RUAL,United States,Indiana,18,Lagrange,087
+RUAL,United States,Indiana,18,Lake,089
+RUAL,United States,Indiana,18,LaPorte,091
+RUAL,United States,Indiana,18,Lawrence,093
+RUAL,United States,Indiana,18,Madison,095
+RUAL,United States,Indiana,18,Marion,097
+RUAL,United States,Indiana,18,Miami,103
+RUAL,United States,Indiana,18,Monroe,105
+RUAL,United States,Indiana,18,Montgomery,107
+RUAL,United States,Indiana,18,Morgan,109
+RUAL,United States,Indiana,18,Noble,113
+RUAL,United States,Indiana,18,Porter,127
+RUAL,United States,Indiana,18,Pulaski,131
+RUAL,United States,Indiana,18,St. Joseph,141
+RUAL,United States,Indiana,18,Steuben,151
+RUAL,United States,Indiana,18,Sullivan,153
+RUAL,United States,Indiana,18,Switzerland,155
+RUAL,United States,Indiana,18,Tipton,159
+RUAL,United States,Indiana,18,Vigo,167
+RUAL,United States,Indiana,18,Wabash,169
+RUAL,United States,Indiana,18,Wayne,177
+RUAL,United States,Indiana,18,Wells,179
+RUAL,United States,Iowa,19,,
+RUAL,United States,Iowa,19,Fremont,071
+RUAL,United States,Iowa,19,Madison,121
+RUAL,United States,Iowa,19,Mills,129
+RUAL,United States,Iowa,19,Pottawattamie,155
+RUAL,United States,Iowa,19,Taylor,173
+RUAL,United States,Kansas,20,,
+RUAL,United States,Kansas,20,Allen,001
+RUAL,United States,Kansas,20,Bourbon,011
+RUAL,United States,Kansas,20,Chautauqua,019
+RUAL,United States,Kansas,20,Cherokee,021
+RUAL,United States,Kansas,20,Cowley,035
+RUAL,United States,Kansas,20,Crawford,037
+RUAL,United States,Kansas,20,Douglas,045
+RUAL,United States,Kansas,20,Elk,049
+RUAL,United States,Kansas,20,Greenwood,073
+RUAL,United States,Kansas,20,Leavenworth,103
+RUAL,United States,Kansas,20,Lyon,111
+RUAL,United States,Kansas,20,Montgomery,125
+RUAL,United States,Kansas,20,Shawnee,177
+RUAL,United States,Kansas,20,Wabaunsee,197
+RUAL,United States,Kansas,20,Wilson,205
+RUAL,United States,Kansas,20,Woodson,207
+RUAL,United States,Kentucky,21,,
+RUAL,United States,Kentucky,21,Ballard,007
+RUAL,United States,Kentucky,21,Bath,011
+RUAL,United States,Kentucky,21,Bell,013
+RUAL,United States,Kentucky,21,Breckinridge,027
+RUAL,United States,Kentucky,21,Bullitt,029
+RUAL,United States,Kentucky,21,Calloway,035
+RUAL,United States,Kentucky,21,Carter,043
+RUAL,United States,Kentucky,21,Clark,049
+RUAL,United States,Kentucky,21,Clay,051
+RUAL,United States,Kentucky,21,Cumberland,057
+RUAL,United States,Kentucky,21,Fayette,067
+RUAL,United States,Kentucky,21,Fleming,069
+RUAL,United States,Kentucky,21,Floyd,071
+RUAL,United States,Kentucky,21,Hardin,093
+RUAL,United States,Kentucky,21,Harlan,095
+RUAL,United States,Kentucky,21,Henry,103
+RUAL,United States,Kentucky,21,Jefferson,111
+RUAL,United States,Kentucky,21,Johnson,115
+RUAL,United States,Kentucky,21,Knox,121
+RUAL,United States,Kentucky,21,Laurel,125
+RUAL,United States,Kentucky,21,Leslie,131
+RUAL,United States,Kentucky,21,Letcher,133
+RUAL,United States,Kentucky,21,Lewis,135
+RUAL,United States,Kentucky,21,Madison,151
+RUAL,United States,Kentucky,21,Marion,155
+RUAL,United States,Kentucky,21,McCreary,147
+RUAL,United States,Kentucky,21,Meade,163
+RUAL,United States,Kentucky,21,Metcalfe,169
+RUAL,United States,Kentucky,21,Montgomery,173
+RUAL,United States,Kentucky,21,Morgan,175
+RUAL,United States,Kentucky,21,Nelson,179
+RUAL,United States,Kentucky,21,Oldham,185
+RUAL,United States,Kentucky,21,Perry,193
+RUAL,United States,Kentucky,21,Pike,195
+RUAL,United States,Kentucky,21,Powell,197
+RUAL,United States,Kentucky,21,Rockcastle,203
+RUAL,United States,Kentucky,21,Rowan,205
+RUAL,United States,Kentucky,21,Spencer,215
+RUAL,United States,Kentucky,21,Warren,227
+RUAL,United States,Kentucky,21,Whitley,235
+RUAL,United States,Kentucky,21,Wolfe,237
+RUAL,United States,Maine,23,,
+RUAL,United States,Maine,23,Androscoggin,001
+RUAL,United States,Maine,23,Aroostook,003
+RUAL,United States,Maine,23,Cumberland,005
+RUAL,United States,Maine,23,Franklin,007
+RUAL,United States,Maine,23,Hancock,009
+RUAL,United States,Maine,23,Kennebec,011
+RUAL,United States,Maine,23,Knox,013
+RUAL,United States,Maine,23,Lincoln,015
+RUAL,United States,Maine,23,Oxford,017
+RUAL,United States,Maine,23,Penobscot,019
+RUAL,United States,Maine,23,Piscataquis,021
+RUAL,United States,Maine,23,Sagadahoc,023
+RUAL,United States,Maine,23,Somerset,025
+RUAL,United States,Maine,23,Waldo,027
+RUAL,United States,Maine,23,Washington,029
+RUAL,United States,Maine,23,York,031
+RUAL,United States,Maryland,24,,
+RUAL,United States,Massachusetts,25,,
+RUAL,United States,Massachusetts,25,Barnstable,001
+RUAL,United States,Massachusetts,25,Berkshire,003
+RUAL,United States,Massachusetts,25,Bristol,005
+RUAL,United States,Massachusetts,25,Dukes,007
+RUAL,United States,Massachusetts,25,Essex,009
+RUAL,United States,Massachusetts,25,Franklin,011
+RUAL,United States,Massachusetts,25,Hampden,013
+RUAL,United States,Massachusetts,25,Hampshire,015
+RUAL,United States,Massachusetts,25,Middlesex,017
+RUAL,United States,Massachusetts,25,Nantucket,019
+RUAL,United States,Massachusetts,25,Norfolk,021
+RUAL,United States,Massachusetts,25,Plymouth,023
+RUAL,United States,Massachusetts,25,Suffolk,025
+RUAL,United States,Massachusetts,25,Worcester,027
+RUAL,United States,Michigan,26,,
+RUAL,United States,Michigan,26,Alcona,001
+RUAL,United States,Michigan,26,Alger,003
+RUAL,United States,Michigan,26,Alpena,007
+RUAL,United States,Michigan,26,Antrim,009
+RUAL,United States,Michigan,26,Arenac,011
+RUAL,United States,Michigan,26,Benzie,019
+RUAL,United States,Michigan,26,Berrien,021
+RUAL,United States,Michigan,26,Branch,023
+RUAL,United States,Michigan,26,Calhoun,025
+RUAL,United States,Michigan,26,Charlevoix,029
+RUAL,United States,Michigan,26,Cheboygan,031
+RUAL,United States,Michigan,26,Chippewa,033
+RUAL,United States,Michigan,26,Clinton,037
+RUAL,United States,Michigan,26,Crawford,039
+RUAL,United States,Michigan,26,Delta,041
+RUAL,United States,Michigan,26,Dickinson,043
+RUAL,United States,Michigan,26,Eaton,045
+RUAL,United States,Michigan,26,Emmet,047
+RUAL,United States,Michigan,26,Genesee,049
+RUAL,United States,Michigan,26,Gladwin,051
+RUAL,United States,Michigan,26,Gogebic,053
+RUAL,United States,Michigan,26,Grand Traverse,055
+RUAL,United States,Michigan,26,Gratiot,057
+RUAL,United States,Michigan,26,Houghton,061
+RUAL,United States,Michigan,26,Huron,063
+RUAL,United States,Michigan,26,Ingham,065
+RUAL,United States,Michigan,26,Ionia,067
+RUAL,United States,Michigan,26,Iosco,069
+RUAL,United States,Michigan,26,Iron,071
+RUAL,United States,Michigan,26,Isabella,073
+RUAL,United States,Michigan,26,Kalamazoo,077
+RUAL,United States,Michigan,26,Kalkaska,079
+RUAL,United States,Michigan,26,Kent,081
+RUAL,United States,Michigan,26,Lapeer,087
+RUAL,United States,Michigan,26,Leelanau,089
+RUAL,United States,Michigan,26,Livingston,093
+RUAL,United States,Michigan,26,Mackinac,097
+RUAL,United States,Michigan,26,Manistee,101
+RUAL,United States,Michigan,26,Marquette,103
+RUAL,United States,Michigan,26,Mecosta,107
+RUAL,United States,Michigan,26,Menominee,109
+RUAL,United States,Michigan,26,Midland,111
+RUAL,United States,Michigan,26,Missaukee,113
+RUAL,United States,Michigan,26,Monroe,115
+RUAL,United States,Michigan,26,Montcalm,117
+RUAL,United States,Michigan,26,Montmorency,119
+RUAL,United States,Michigan,26,Muskegon,121
+RUAL,United States,Michigan,26,Newaygo,123
+RUAL,United States,Michigan,26,Oakland,125
+RUAL,United States,Michigan,26,Oceana,127
+RUAL,United States,Michigan,26,Ogemaw,129
+RUAL,United States,Michigan,26,Oscoda,135
+RUAL,United States,Michigan,26,Otsego,137
+RUAL,United States,Michigan,26,Ottawa,139
+RUAL,United States,Michigan,26,Roscommon,143
+RUAL,United States,Michigan,26,Saginaw,145
+RUAL,United States,Michigan,26,Shiawassee,155
+RUAL,United States,Michigan,26,St. Clair,147
+RUAL,United States,Michigan,26,St. Joseph,149
+RUAL,United States,Michigan,26,Van Buren,159
+RUAL,United States,Michigan,26,Washtenaw,161
+RUAL,United States,Michigan,26,Wayne,163
+RUAL,United States,Minnesota,27,,
+RUAL,United States,Minnesota,27,Aitkin,001
+RUAL,United States,Minnesota,27,Anoka,003
+RUAL,United States,Minnesota,27,Benton,009
+RUAL,United States,Minnesota,27,Carlton,017
+RUAL,United States,Minnesota,27,Carver,019
+RUAL,United States,Minnesota,27,Cass,021
+RUAL,United States,Minnesota,27,Chisago,025
+RUAL,United States,Minnesota,27,Clearwater,029
+RUAL,United States,Minnesota,27,Crow Wing,035
+RUAL,United States,Minnesota,27,Fillmore,045
+RUAL,United States,Minnesota,27,Goodhue,049
+RUAL,United States,Minnesota,27,Hennepin,053
+RUAL,United States,Minnesota,27,Houston,055
+RUAL,United States,Minnesota,27,Hubbard,057
+RUAL,United States,Minnesota,27,Isanti,059
+RUAL,United States,Minnesota,27,Itasca,061
+RUAL,United States,Minnesota,27,Lake of the Woods,077
+RUAL,United States,Minnesota,27,Mower,099
+RUAL,United States,Minnesota,27,Pine,115
+RUAL,United States,Minnesota,27,Ramsey,123
+RUAL,United States,Minnesota,27,St. Louis,137
+RUAL,United States,Minnesota,27,Stearns,145
+RUAL,United States,Minnesota,27,Todd,153
+RUAL,United States,Minnesota,27,Wabasha,157
+RUAL,United States,Minnesota,27,Washington,163
+RUAL,United States,Minnesota,27,Winona,169
+RUAL,United States,Missouri,29,,
+RUAL,United States,Missouri,29,Cape Girardeau,031
+RUAL,United States,Missouri,29,Iron,093
+RUAL,United States,Missouri,29,Jackson,095
+RUAL,United States,Missouri,29,Jefferson,099
+RUAL,United States,Missouri,29,Lincoln,113
+RUAL,United States,Missouri,29,Maries,125
+RUAL,United States,Missouri,29,Morgan,141
+RUAL,United States,Missouri,29,Newton,145
+RUAL,United States,Missouri,29,Pike,163
+RUAL,United States,Missouri,29,Shelby,205
+RUAL,United States,Missouri,29,St. Francois,187
+RUAL,United States,Missouri,29,St. Louis,189
+RUAL,United States,Missouri,29,Ste. Genevieve,186
+RUAL,United States,Missouri,29,Stoddard,207
+RUAL,United States,Missouri,29,Taney,213
+RUAL,United States,Missouri,29,Warren,219
+RUAL,United States,Nebraska,31,,
+RUAL,United States,Nebraska,31,Lancaster,109
+RUAL,United States,Nebraska,31,Pawnee,133
+RUAL,United States,New Hampshire,33,,
+RUAL,United States,New Hampshire,33,Belknap,001
+RUAL,United States,New Hampshire,33,Carroll,003
+RUAL,United States,New Hampshire,33,Cheshire,005
+RUAL,United States,New Hampshire,33,Coos,007
+RUAL,United States,New Hampshire,33,Grafton,009
+RUAL,United States,New Hampshire,33,Hillsborough,011
+RUAL,United States,New Hampshire,33,Merrimack,013
+RUAL,United States,New Hampshire,33,Rockingham,015
+RUAL,United States,New Hampshire,33,Strafford,017
+RUAL,United States,New Hampshire,33,Sullivan,019
+RUAL,United States,New Jersey,34,,
+RUAL,United States,New Jersey,34,Bergen,003
+RUAL,United States,New Jersey,34,Burlington,005
+RUAL,United States,New Jersey,34,Essex,013
+RUAL,United States,New Jersey,34,Hudson,017
+RUAL,United States,New Jersey,34,Hunterdon,019
+RUAL,United States,New Jersey,34,Mercer,021
+RUAL,United States,New Jersey,34,Middlesex,023
+RUAL,United States,New Jersey,34,Monmouth,025
+RUAL,United States,New Jersey,34,Morris,027
+RUAL,United States,New Jersey,34,Passaic,031
+RUAL,United States,New Jersey,34,Somerset,035
+RUAL,United States,New Jersey,34,Sussex,037
+RUAL,United States,New Jersey,34,Union,039
+RUAL,United States,New Jersey,34,Warren,041
+RUAL,United States,New York,36,,
+RUAL,United States,New York,36,Albany,001
+RUAL,United States,New York,36,Allegany,003
+RUAL,United States,New York,36,Bronx,005
+RUAL,United States,New York,36,Cattaraugus,009
+RUAL,United States,New York,36,Chautauqua,013
+RUAL,United States,New York,36,Chemung,015
+RUAL,United States,New York,36,Delaware,025
+RUAL,United States,New York,36,Dutchess,027
+RUAL,United States,New York,36,Erie,029
+RUAL,United States,New York,36,Essex,031
+RUAL,United States,New York,36,Greene,039
+RUAL,United States,New York,36,Hamilton,041
+RUAL,United States,New York,36,Herkimer,043
+RUAL,United States,New York,36,Jefferson,045
+RUAL,United States,New York,36,Kings,047
+RUAL,United States,New York,36,Lewis,049
+RUAL,United States,New York,36,Madison,053
+RUAL,United States,New York,36,Monroe,055
+RUAL,United States,New York,36,Nassau,059
+RUAL,United States,New York,36,New York,061
+RUAL,United States,New York,36,Oneida,065
+RUAL,United States,New York,36,Onondaga,067
+RUAL,United States,New York,36,Orange,071
+RUAL,United States,New York,36,Oswego,075
+RUAL,United States,New York,36,Putnam,079
+RUAL,United States,New York,36,Queens,081
+RUAL,United States,New York,36,Rensselaer,083
+RUAL,United States,New York,36,Richmond,085
+RUAL,United States,New York,36,Rockland,087
+RUAL,United States,New York,36,Saratoga,091
+RUAL,United States,New York,36,St. Lawrence,089
+RUAL,United States,New York,36,Suffolk,103
+RUAL,United States,New York,36,Tompkins,109
+RUAL,United States,New York,36,Ulster,111
+RUAL,United States,New York,36,Warren,113
+RUAL,United States,New York,36,Washington,115
+RUAL,United States,New York,36,Westchester,119
+RUAL,United States,North Carolina,37,,
+RUAL,United States,North Carolina,37,Alleghany,005
+RUAL,United States,North Carolina,37,Ashe,009
+RUAL,United States,North Carolina,37,Avery,011
+RUAL,United States,North Carolina,37,Caldwell,027
+RUAL,United States,North Carolina,37,Catawba,035
+RUAL,United States,North Carolina,37,Haywood,087
+RUAL,United States,North Carolina,37,Jackson,099
+RUAL,United States,North Carolina,37,Macon,113
+RUAL,United States,North Carolina,37,McDowell,111
+RUAL,United States,North Carolina,37,Mitchell,121
+RUAL,United States,North Carolina,37,Polk,149
+RUAL,United States,North Carolina,37,Watauga,189
+RUAL,United States,North Carolina,37,Yancey,199
+RUAL,United States,Ohio,39,,
+RUAL,United States,Ohio,39,Adams,001
+RUAL,United States,Ohio,39,Ashland,005
+RUAL,United States,Ohio,39,Ashtabula,007
+RUAL,United States,Ohio,39,Athens,009
+RUAL,United States,Ohio,39,Butler,017
+RUAL,United States,Ohio,39,Carroll,019
+RUAL,United States,Ohio,39,Clark,023
+RUAL,United States,Ohio,39,Clermont,025
+RUAL,United States,Ohio,39,Clinton,027
+RUAL,United States,Ohio,39,Columbiana,029
+RUAL,United States,Ohio,39,Coshocton,031
+RUAL,United States,Ohio,39,Crawford,033
+RUAL,United States,Ohio,39,Cuyahoga,035
+RUAL,United States,Ohio,39,Defiance,039
+RUAL,United States,Ohio,39,Fairfield,045
+RUAL,United States,Ohio,39,Fulton,051
+RUAL,United States,Ohio,39,Geauga,055
+RUAL,United States,Ohio,39,Hancock,063
+RUAL,United States,Ohio,39,Harrison,067
+RUAL,United States,Ohio,39,Henry,069
+RUAL,United States,Ohio,39,Highland,071
+RUAL,United States,Ohio,39,Hocking,073
+RUAL,United States,Ohio,39,Holmes,075
+RUAL,United States,Ohio,39,Huron,077
+RUAL,United States,Ohio,39,Jackson,079
+RUAL,United States,Ohio,39,Jefferson,081
+RUAL,United States,Ohio,39,Knox,083
+RUAL,United States,Ohio,39,Lake,085
+RUAL,United States,Ohio,39,Lawrence,087
+RUAL,United States,Ohio,39,Licking,089
+RUAL,United States,Ohio,39,Lorain,093
+RUAL,United States,Ohio,39,Mahoning,099
+RUAL,United States,Ohio,39,Medina,103
+RUAL,United States,Ohio,39,Monroe,111
+RUAL,United States,Ohio,39,Morrow,117
+RUAL,United States,Ohio,39,Perry,127
+RUAL,United States,Ohio,39,Pike,131
+RUAL,United States,Ohio,39,Portage,133
+RUAL,United States,Ohio,39,Richland,139
+RUAL,United States,Ohio,39,Ross,141
+RUAL,United States,Ohio,39,Scioto,145
+RUAL,United States,Ohio,39,Seneca,147
+RUAL,United States,Ohio,39,Shelby,149
+RUAL,United States,Ohio,39,Stark,151
+RUAL,United States,Ohio,39,Summit,153
+RUAL,United States,Ohio,39,Trumbull,155
+RUAL,United States,Ohio,39,Tuscarawas,157
+RUAL,United States,Ohio,39,Union,159
+RUAL,United States,Ohio,39,Washington,167
+RUAL,United States,Ohio,39,Wayne,169
+RUAL,United States,Ohio,39,Williams,171
+RUAL,United States,Ohio,39,Wood,173
+RUAL,United States,Ohio,39,Wyandot,175
+RUAL,United States,Oklahoma,40,,
+RUAL,United States,Oklahoma,40,Adair,001
+RUAL,United States,Oklahoma,40,Cherokee,021
+RUAL,United States,Oklahoma,40,Delaware,041
+RUAL,United States,Oklahoma,40,Kay,071
+RUAL,United States,Oklahoma,40,Le Flore,079
+RUAL,United States,Oklahoma,40,Mayes,097
+RUAL,United States,Oklahoma,40,McCurtain,089
+RUAL,United States,Oklahoma,40,Muskogee,101
+RUAL,United States,Oklahoma,40,Ottawa,115
+RUAL,United States,Oklahoma,40,Pittsburg,121
+RUAL,United States,Oklahoma,40,Tulsa,143
+RUAL,United States,Pennsylvania,42,,
+RUAL,United States,Pennsylvania,42,Adams,001
+RUAL,United States,Pennsylvania,42,Allegheny,003
+RUAL,United States,Pennsylvania,42,Armstrong,005
+RUAL,United States,Pennsylvania,42,Beaver,007
+RUAL,United States,Pennsylvania,42,Bedford,009
+RUAL,United States,Pennsylvania,42,Berks,011
+RUAL,United States,Pennsylvania,42,Blair,013
+RUAL,United States,Pennsylvania,42,Bradford,015
+RUAL,United States,Pennsylvania,42,Bucks,017
+RUAL,United States,Pennsylvania,42,Butler,019
+RUAL,United States,Pennsylvania,42,Cambria,021
+RUAL,United States,Pennsylvania,42,Cameron,023
+RUAL,United States,Pennsylvania,42,Carbon,025
+RUAL,United States,Pennsylvania,42,Centre,027
+RUAL,United States,Pennsylvania,42,Chester,029
+RUAL,United States,Pennsylvania,42,Clarion,031
+RUAL,United States,Pennsylvania,42,Clearfield,033
+RUAL,United States,Pennsylvania,42,Clinton,035
+RUAL,United States,Pennsylvania,42,Columbia,037
+RUAL,United States,Pennsylvania,42,Crawford,039
+RUAL,United States,Pennsylvania,42,Cumberland,041
+RUAL,United States,Pennsylvania,42,Delaware,045
+RUAL,United States,Pennsylvania,42,Elk,047
+RUAL,United States,Pennsylvania,42,Erie,049
+RUAL,United States,Pennsylvania,42,Fayette,051
+RUAL,United States,Pennsylvania,42,Forest,053
+RUAL,United States,Pennsylvania,42,Franklin,055
+RUAL,United States,Pennsylvania,42,Fulton,057
+RUAL,United States,Pennsylvania,42,Greene,059
+RUAL,United States,Pennsylvania,42,Huntingdon,061
+RUAL,United States,Pennsylvania,42,Indiana,063
+RUAL,United States,Pennsylvania,42,Jefferson,065
+RUAL,United States,Pennsylvania,42,Lackawanna,069
+RUAL,United States,Pennsylvania,42,Lancaster,071
+RUAL,United States,Pennsylvania,42,Lawrence,073
+RUAL,United States,Pennsylvania,42,Lehigh,077
+RUAL,United States,Pennsylvania,42,Luzerne,079
+RUAL,United States,Pennsylvania,42,Lycoming,081
+RUAL,United States,Pennsylvania,42,McKean,083
+RUAL,United States,Pennsylvania,42,Mercer,085
+RUAL,United States,Pennsylvania,42,Monroe,089
+RUAL,United States,Pennsylvania,42,Montgomery,091
+RUAL,United States,Pennsylvania,42,Montour,093
+RUAL,United States,Pennsylvania,42,Northampton,095
+RUAL,United States,Pennsylvania,42,Northumberland,097
+RUAL,United States,Pennsylvania,42,Perry,099
+RUAL,United States,Pennsylvania,42,Philadelphia,101
+RUAL,United States,Pennsylvania,42,Pike,103
+RUAL,United States,Pennsylvania,42,Potter,105
+RUAL,United States,Pennsylvania,42,Schuylkill,107
+RUAL,United States,Pennsylvania,42,Snyder,109
+RUAL,United States,Pennsylvania,42,Somerset,111
+RUAL,United States,Pennsylvania,42,Sullivan,113
+RUAL,United States,Pennsylvania,42,Susquehanna,115
+RUAL,United States,Pennsylvania,42,Tioga,117
+RUAL,United States,Pennsylvania,42,Union,119
+RUAL,United States,Pennsylvania,42,Venango,121
+RUAL,United States,Pennsylvania,42,Warren,123
+RUAL,United States,Pennsylvania,42,Washington,125
+RUAL,United States,Pennsylvania,42,Wayne,127
+RUAL,United States,Pennsylvania,42,Westmoreland,129
+RUAL,United States,Pennsylvania,42,Wyoming,131
+RUAL,United States,Pennsylvania,42,York,133
+RUAL,United States,Rhode Island,44,,
+RUAL,United States,Rhode Island,44,Bristol,001
+RUAL,United States,Rhode Island,44,Kent,003
+RUAL,United States,Rhode Island,44,Providence,007
+RUAL,United States,Rhode Island,44,Washington,009
+RUAL,United States,South Carolina,45,,
+RUAL,United States,South Carolina,45,Darlington,031
+RUAL,United States,Tennessee,47,,
+RUAL,United States,Tennessee,47,Bledsoe,007
+RUAL,United States,Tennessee,47,Blount,009
+RUAL,United States,Tennessee,47,Cumberland,035
+RUAL,United States,Tennessee,47,Monroe,123
+RUAL,United States,Tennessee,47,Montgomery,125
+RUAL,United States,Tennessee,47,Morgan,129
+RUAL,United States,Tennessee,47,Pickett,137
+RUAL,United States,Tennessee,47,Polk,139
+RUAL,United States,Tennessee,47,Sevier,155
+RUAL,United States,Tennessee,47,Sumner,165
+RUAL,United States,Tennessee,47,Unicoi,171
+RUAL,United States,Tennessee,47,Union,173
+RUAL,United States,Vermont,50,,
+RUAL,United States,Vermont,50,Addison,001
+RUAL,United States,Vermont,50,Bennington,003
+RUAL,United States,Vermont,50,Caledonia,005
+RUAL,United States,Vermont,50,Chittenden,007
+RUAL,United States,Vermont,50,Essex,009
+RUAL,United States,Vermont,50,Franklin,011
+RUAL,United States,Vermont,50,Lamoille,015
+RUAL,United States,Vermont,50,Orange,017
+RUAL,United States,Vermont,50,Orleans,019
+RUAL,United States,Vermont,50,Rutland,021
+RUAL,United States,Vermont,50,Windham,025
+RUAL,United States,Vermont,50,Windsor,027
+RUAL,United States,Virginia,51,,
+RUAL,United States,Virginia,51,Accomack,001
+RUAL,United States,Virginia,51,Albemarle,003
+RUAL,United States,Virginia,51,Alleghany,005
+RUAL,United States,Virginia,51,Amelia,007
+RUAL,United States,Virginia,51,Amherst,009
+RUAL,United States,Virginia,51,Augusta,015
+RUAL,United States,Virginia,51,Bath,017
+RUAL,United States,Virginia,51,Bedford,019
+RUAL,United States,Virginia,51,Bland,021
+RUAL,United States,Virginia,51,Botetourt,023
+RUAL,United States,Virginia,51,Brunswick,025
+RUAL,United States,Virginia,51,Buchanan,027
+RUAL,United States,Virginia,51,Buckingham,029
+RUAL,United States,Virginia,51,Campbell,031
+RUAL,United States,Virginia,51,Caroline,033
+RUAL,United States,Virginia,51,Carroll,035
+RUAL,United States,Virginia,51,Clarke,043
+RUAL,United States,Virginia,51,Craig,045
+RUAL,United States,Virginia,51,Dickenson,051
+RUAL,United States,Virginia,51,Fairfax,059
+RUAL,United States,Virginia,51,Fauquier,061
+RUAL,United States,Virginia,51,Floyd,063
+RUAL,United States,Virginia,51,Fluvanna,065
+RUAL,United States,Virginia,51,Franklin,067
+RUAL,United States,Virginia,51,Frederick,069
+RUAL,United States,Virginia,51,Giles,071
+RUAL,United States,Virginia,51,Grayson,077
+RUAL,United States,Virginia,51,Greene,079
+RUAL,United States,Virginia,51,Highland,091
+RUAL,United States,Virginia,51,Lee,105
+RUAL,United States,Virginia,51,Loudoun,107
+RUAL,United States,Virginia,51,Madison,113
+RUAL,United States,Virginia,51,Montgomery,121
+RUAL,United States,Virginia,51,Nelson,125
+RUAL,United States,Virginia,51,Orange,137
+RUAL,United States,Virginia,51,Page,139
+RUAL,United States,Virginia,51,Pittsylvania,143
+RUAL,United States,Virginia,51,Powhatan,145
+RUAL,United States,Virginia,51,Pulaski,155
+RUAL,United States,Virginia,51,Rappahannock,157
+RUAL,United States,Virginia,51,Roanoke,161
+RUAL,United States,Virginia,51,Rockbridge,163
+RUAL,United States,Virginia,51,Rockingham,165
+RUAL,United States,Virginia,51,Russell,167
+RUAL,United States,Virginia,51,Scott,169
+RUAL,United States,Virginia,51,Shenandoah,171
+RUAL,United States,Virginia,51,Smyth,173
+RUAL,United States,Virginia,51,Tazewell,185
+RUAL,United States,Virginia,51,Warren,187
+RUAL,United States,Virginia,51,Washington,191
+RUAL,United States,Virginia,51,Wise,195
+RUAL,United States,Virginia,51,Wythe,197
+RUAL,United States,West Virginia,54,,
+RUAL,United States,West Virginia,54,Barbour,001
+RUAL,United States,West Virginia,54,Berkeley,003
+RUAL,United States,West Virginia,54,Braxton,007
+RUAL,United States,West Virginia,54,Brooke,009
+RUAL,United States,West Virginia,54,Clay,015
+RUAL,United States,West Virginia,54,Fayette,019
+RUAL,United States,West Virginia,54,Grant,023
+RUAL,United States,West Virginia,54,Greenbrier,025
+RUAL,United States,West Virginia,54,Hampshire,027
+RUAL,United States,West Virginia,54,Hancock,029
+RUAL,United States,West Virginia,54,Hardy,031
+RUAL,United States,West Virginia,54,Logan,045
+RUAL,United States,West Virginia,54,Mineral,057
+RUAL,United States,West Virginia,54,Monongalia,061
+RUAL,United States,West Virginia,54,Nicholas,067
+RUAL,United States,West Virginia,54,Ohio,069
+RUAL,United States,West Virginia,54,Pocahontas,075
+RUAL,United States,West Virginia,54,Preston,077
+RUAL,United States,West Virginia,54,Raleigh,081
+RUAL,United States,West Virginia,54,Taylor,091
+RUAL,United States,West Virginia,54,Tucker,093
+RUAL,United States,West Virginia,54,Tyler,095
+RUAL,United States,West Virginia,54,Upshur,097
+RUAL,United States,West Virginia,54,Webster,101
+RUAL,United States,West Virginia,54,Wetzel,103
+RUAL,United States,West Virginia,54,Wirt,105
+RUAL,United States,West Virginia,54,Wood,107
+RUAL,United States,Wisconsin,55,,
+RUAL,United States,Wisconsin,55,Adams,001
+RUAL,United States,Wisconsin,55,Ashland,003
+RUAL,United States,Wisconsin,55,Barron,005
+RUAL,United States,Wisconsin,55,Bayfield,007
+RUAL,United States,Wisconsin,55,Brown,009
+RUAL,United States,Wisconsin,55,Buffalo,011
+RUAL,United States,Wisconsin,55,Burnett,013
+RUAL,United States,Wisconsin,55,Calumet,015
+RUAL,United States,Wisconsin,55,Chippewa,017
+RUAL,United States,Wisconsin,55,Clark,019
+RUAL,United States,Wisconsin,55,Columbia,021
+RUAL,United States,Wisconsin,55,Crawford,023
+RUAL,United States,Wisconsin,55,Dane,025
+RUAL,United States,Wisconsin,55,Dodge,027
+RUAL,United States,Wisconsin,55,Door,029
+RUAL,United States,Wisconsin,55,Douglas,031
+RUAL,United States,Wisconsin,55,Dunn,033
+RUAL,United States,Wisconsin,55,Fond du Lac,039
+RUAL,United States,Wisconsin,55,Forest,041
+RUAL,United States,Wisconsin,55,Grant,043
+RUAL,United States,Wisconsin,55,Green,045
+RUAL,United States,Wisconsin,55,Green Lake,047
+RUAL,United States,Wisconsin,55,Iowa,049
+RUAL,United States,Wisconsin,55,Iron,051
+RUAL,United States,Wisconsin,55,Jackson,053
+RUAL,United States,Wisconsin,55,Jefferson,055
+RUAL,United States,Wisconsin,55,Kenosha,059
+RUAL,United States,Wisconsin,55,La Crosse,063
+RUAL,United States,Wisconsin,55,Lafayette,065
+RUAL,United States,Wisconsin,55,Langlade,067
+RUAL,United States,Wisconsin,55,Lincoln,069
+RUAL,United States,Wisconsin,55,Manitowoc,071
+RUAL,United States,Wisconsin,55,Marathon,073
+RUAL,United States,Wisconsin,55,Marinette,075
+RUAL,United States,Wisconsin,55,Marquette,077
+RUAL,United States,Wisconsin,55,Menominee,078
+RUAL,United States,Wisconsin,55,Milwaukee,079
+RUAL,United States,Wisconsin,55,Monroe,081
+RUAL,United States,Wisconsin,55,Oconto,083
+RUAL,United States,Wisconsin,55,Oneida,085
+RUAL,United States,Wisconsin,55,Outagamie,087
+RUAL,United States,Wisconsin,55,Ozaukee,089
+RUAL,United States,Wisconsin,55,Pierce,093
+RUAL,United States,Wisconsin,55,Polk,095
+RUAL,United States,Wisconsin,55,Portage,097
+RUAL,United States,Wisconsin,55,Price,099
+RUAL,United States,Wisconsin,55,Racine,101
+RUAL,United States,Wisconsin,55,Richland,103
+RUAL,United States,Wisconsin,55,Rock,105
+RUAL,United States,Wisconsin,55,Rusk,107
+RUAL,United States,Wisconsin,55,Sauk,111
+RUAL,United States,Wisconsin,55,Sawyer,113
+RUAL,United States,Wisconsin,55,Shawano,115
+RUAL,United States,Wisconsin,55,Sheboygan,117
+RUAL,United States,Wisconsin,55,St. Croix,109
+RUAL,United States,Wisconsin,55,Taylor,119
+RUAL,United States,Wisconsin,55,Trempealeau,121
+RUAL,United States,Wisconsin,55,Vernon,123
+RUAL,United States,Wisconsin,55,Vilas,125
+RUAL,United States,Wisconsin,55,Walworth,127
+RUAL,United States,Wisconsin,55,Washburn,129
+RUAL,United States,Wisconsin,55,Washington,131
+RUAL,United States,Wisconsin,55,Waukesha,133
+RUAL,United States,Wisconsin,55,Waupaca,135
+RUAL,United States,Wisconsin,55,Waushara,137
+RUAL,United States,Wisconsin,55,Winnebago,139
+RUAL,United States,Wisconsin,55,Wood,141
