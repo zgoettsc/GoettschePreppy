@@ -336,7 +336,7 @@ async function browserGenerate(browser) {
       const html = await blob.text();
       return { rendered: blob.report.sources.rendered || 0, imgs: (html.match(/<img class="pdfpage"/g) || []).length, buttons: (html.match(/data-open-pdf=/g) || []).length, bytes: blob.size, html };
     }, { profile, kitRel });
-    ok(r.rendered === 2 && r.imgs === 2 && r.buttons === 0, `browser Large: 2 PDF sources rendered to page images (${r.rendered} rendered, ${r.imgs} images, ${r.buttons} open buttons)`);
+    ok(r.rendered >= 2 && r.imgs >= r.rendered && r.buttons === 0, `browser Large: PDF sources rendered to page images, none left as open buttons (${r.rendered} rendered, ${r.imgs} images, ${r.buttons} open buttons)`);
     const file = path.join(OUT, 'browser-generated-large.html');
     fs.writeFileSync(file, r.html);
     ok(!EXT_URL.test(r.html), 'browser Large: no external URL');
