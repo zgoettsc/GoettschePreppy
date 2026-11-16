@@ -9,7 +9,7 @@ danger_level: caution
 phase: [A, B, C]
 tags: [firearms, suppressor, silencer, NFA, hearing, subsonic, rimfire, cleaning, point of impact, paperwork]
 derived_from: [14-10-suppressors-and-nfa]
-sources: [saami-small-arms-ammunition-properties-and-storage-s-9e73a1, cdc-niosh-about-noise-and-hearing-loss-fcd9ad, atf-national-firearms-act-interstate-transportation-06c17b, us-code-26-usc-chapter-53-national-firearms-act]
+sources: [saami-small-arms-ammunition-properties-and-storage-s-9e73a1, cdc-niosh-about-noise-and-hearing-loss-fcd9ad, nssf-national-shooting-sports-foundation-firearm-saf-646b4a, atf-open-letter-nfa-guidance-2026, us-code-26-usc-chapter-53-national-firearms-act]
 related: [29-11-ex11-firearms-basics, 14-03-opsec, 14-04-caliber-roles-and-inventory, 14-05-weapon-maintenance, 14-06-spare-parts-and-armorer, 14-09-zeroing-and-optics, 14-11-defensive-use-of-force, 14-14-safe-storage-and-child-access, 05-15-trapping-small-game, 19-01-document-grab-kit, 30-12-dc11-shooting-on-your-property, 14-15-dry-practice-doctrine]
 cards: [DC-11]
 explainers: [EX-11]
@@ -36,19 +36,26 @@ binder; if you own none, the hearing and noise sections still apply.
 > home at all is a decision card: {{choice DC-11}} → 30-12. A suppressor right after firing is
 > hot enough to burn skin badly and to start a grass fire if set down.
 
-> **Before the collapse:** suppressors are regulated under the federal National Firearms Act
-> (NFA). Owning one requires an ATF-approved transfer or making application and registration
-> before possession; the approved form is your proof. **Making a suppressor without prior
-> approval, including improvising one, is a federal felony** (26 U.S.C. Chapter 53). Your state
-> may ban them, and states differ on hunting with them. Rules on taking NFA items across state
-> lines depend on the type of item (ATF, National Firearms Act interstate transportation). Check
-> current ATF guidance and your state's law while they are published and enforced. This is not
-> legal advice.
+> **Before the collapse:** suppressors are listed in the federal National Firearms Act (NFA,
+> 26 U.S.C. Chapter 53), and the federal rules changed in 2026. Since January 1, 2026 the
+> federal tax for making or transferring a suppressor is $0 (it is still $200 for machine guns
+> and destructive devices). After a federal court ruling in August 2026, ATF (the federal Bureau
+> of Alcohol, Tobacco, Firearms and Explosives) announced in October 2026 that it will no longer
+> enforce the NFA's approval and registration requirements for suppressors, while still
+> accepting the forms voluntarily (ATF, Open Letter on NFA guidance, 2026). That is a decision
+> not to enforce, not a repeal: the registration sections are still in the law, a later court or
+> administration could change course, and **state law is not affected**. Several states ban
+> suppressors outright, some still require the federal approval under their own law, and states
+> differ on hunting with them. **Making or improvising a suppressor can still be a crime under
+> state law.** If you have approved federal forms, keep them. Check current ATF guidance and
+> your state's law, and those of every state you travel through, while they are published and
+> enforced. This is not legal advice.
 
 ## Do this now
 
-1. **Copy every approved form.** One copy with the documents grab-kit (→ 19-01), one stored
-   separately. If you leave home with an NFA item, its paperwork travels with it.
+1. **Copy every approved form**, if you have any. One copy with the documents grab-kit
+   (→ 19-01), one stored separately. If you leave home with a suppressor, its paperwork travels
+   with it: state law and future federal enforcement may still ask for it.
 2. **Zero with the suppressor fitted** if that is how you shoot: where the bullet hits shifts,
    sometimes a lot (→ 14-09).
 3. **Clean rimfire (.22) suppressors regularly.** A neglected one can **weld itself solid** with
@@ -59,9 +66,9 @@ binder; if you own none, the hearing and noise sections still apply.
 
 ## What a suppressor really does
 
-- **Protects hearing**, which is the real benefit. Gunshots are loud enough to damage hearing
-  permanently, even after a few exposures (CDC/NIOSH, About Noise and Hearing Loss). With no
-  audiologist and no hearing aids, that injury is permanent. A suppressor **plus** ear protection
+- **Protects hearing**, which is the real benefit. Shooting noise can damage hearing (NSSF,
+  Firearm safety, rule 7), and noise damage to hearing is permanent (CDC/NIOSH, About Noise and
+  Hearing Loss). With no audiologist and no hearing aids, there is no help for it. A suppressor **plus** ear protection
   is the difference between hearing your family in ten years and not.
 - **Lets people talk while shooting**: warnings and instructions can be heard.
 - **Reduces how far the sound carries** (→ 14-03). Noise tells neighbours what you have.
@@ -106,9 +113,10 @@ Rifle (type) __________ shift with suppressor: __________
 
 - **Keep copies of approved forms** with the firearm and in the grab-kit (→ 19-01); keep originals
   safe.
-- **If you evacuate**, the paperwork travels with the item.
-- **Never lend an NFA item.** Possession rules are strict, and a casual loan can be a serious
-  offence while the law is enforced.
+- **If you evacuate**, the paperwork travels with the item. Check the law of every state on the
+  route: some ban suppressors outright.
+- **Do not lend a suppressor casually.** State law, and federal law if enforcement resumes, can
+  make a loan a serious offence while the law is enforced.
 
 ## Practical use in a long emergency
 
@@ -123,7 +131,7 @@ Rifle (type) __________ shift with suppressor: __________
 
 | Item | Why | Notes |
 |---|---|---|
-| **Copies of all approved NFA paperwork** | Proof of lawful possession; travel | → 19-01 and a separate copy |
+| **Copies of any approved NFA paperwork** | Proof of lawful possession; travel | → 19-01 and a separate copy |
 | Rimfire suppressor tools and solvent | Prevents a seized suppressor | As the maker says |
 | Spare mounts, boosters, O-rings | Wear items | → 14-06 |
 | **Subsonic .22 LR** | The truly quiet option | Check it cycles and where it hits |
@@ -131,8 +139,9 @@ Rifle (type) __________ shift with suppressor: __________
 | Thread protectors | Protect muzzle threads in storage | Cheap |
 | **Ear protection anyway** | Suppressed is safer, not silent | Electronic muffs and foam plugs |
 
-**If you do not have one:** there is no substitute, and improvising one is a federal felony while
-the law runs. **Ear protection** gives the hearing benefit: stock plugs and muffs deeply and use
+**If you do not have one:** there is no substitute, and improvising one can be a crime under
+state law, and under federal law if enforcement resumes, while the law runs. **Ear protection**
+gives the hearing benefit: stock plugs and muffs deeply and use
 them, for everyone nearby. **Subsonic ammunition** alone also reduces noise.
 
 ## When it runs out

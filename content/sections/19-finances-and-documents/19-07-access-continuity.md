@@ -2,7 +2,7 @@
 id: 19-07-access-continuity
 section: 19-finances-and-documents
 title: "Access continuity: if one adult is gone"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -143,8 +143,9 @@ Beneficiaries checked on
 ```
 
 **Blanks in that table are the real emergency on this page.** A missing power of attorney means courts
-and months. {{#if has.child}}**You have children under 13: a missing guardianship nomination means a
-judge chooses who raises them.** {{/if}}**The original will should not live only in a box that may be
+and months. {{#if has.child}}**You have children: a missing guardianship nomination means a judge
+chooses who raises them.** {{else}}{{#if has.teen}}**You have a child under 18: a missing
+guardianship nomination means a judge chooses who raises them.** {{/if}}{{/if}}**The original will should not live only in a box that may be
 sealed on death** (→ 19-06).
 
 > **Before the collapse:** wills, powers of attorney and guardianship nominations follow state law,

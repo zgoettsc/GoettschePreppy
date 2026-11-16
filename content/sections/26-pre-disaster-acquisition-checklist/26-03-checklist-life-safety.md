@@ -2,7 +2,7 @@
 id: 26-03-checklist-life-safety
 section: 26-pre-disaster-acquisition-checklist
 title: "Checklist 1: life safety and medical"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -12,10 +12,10 @@ derived_from: [26-03-checklist-life-safety]
 sources:
   - cdc-carbon-monoxide-poisoning-basics-772153
   - us-fda-information-regarding-insulin-storage-and-swi-6448d3
-  - cdc-recognizing-and-responding-to-anaphylaxis-645825
   - cdc-diabetic-ketoacidosis-55a7c2
   - usfa-smoke-alarms
   - american-college-of-surgeons-stop-the-bleed-stop-the-8d1b5b
+  - american-academy-of-pediatrics-aap-allergy-and-anaph-3e6f49
 related: [22-06-kit-medical, 12-07-meds-stockpile, 08-02-carbon-monoxide-safety, 12-01-first-aid-kit, 12-02-bleeding-and-wounds, 26-08-expiry-and-rotation-tracker, 26-09-shopping-list-and-budget, 25-09-family-medical-summary, 02-03-cl03-anaphylaxis, 29-07-ex07-refrigerated-medicines]
 cards: [DC-04, DC-08]
 explainers: [EX-03, EX-07, EX-12, EX-14]
@@ -27,7 +27,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Second dose re-cited to AAP; tourniquet floor added to its row; unsourced dehydration claim softened." }
 ---
 
 # Checklist 1: life safety and medical
@@ -102,8 +102,8 @@ Printed from settings, exactly as typed. Count against the bottles.
 | [ ] | Antihistamine as the plan says (**never instead of epinephrine**) | ______ | ______ |
 | [ ] | A trainer device for practice | | |
 
-> **A pair, not one.** A second dose is often needed (CDC, Recognizing and Responding to
-> Anaphylaxis). Any location holding a single device is a "~". Expired devices when nothing in
+> **A pair, not one.** A second dose may be needed (AAP, Allergy and Anaphylaxis Emergency
+> Plan). Any location holding a single device is a "~". Expired devices when nothing in
 > date exists: {{choice DC-04}} → 30-05.
 {{/if}}
 
@@ -134,7 +134,7 @@ Printed from settings, exactly as typed. Count against the bottles.
 
 | ✔ ~ ✗ | Item | Count | Page |
 |---|---|---|---|
-| [ ] | Tourniquets, and the training (Stop the Bleed) | ______ | → 12-02 |
+| [ ] | Tourniquets, and the training (Stop the Bleed). **Never loosen a tourniquet once placed while help can still come; mark the time.** | ______ | → 12-02 |
 | [ ] | Pressure dressings; wound-packing gauze | ______ | → 12-02 |
 | [ ] | Trauma shears | ______ | → 12-02 |
 | [ ] | Gauze, tape, non-stick pads | ______ | → 12-01 |
@@ -152,9 +152,9 @@ Printed from settings, exactly as typed. Count against the bottles.
 | [ ] | Stop the Bleed course taken by every adult | | → 12-02 |
 | [ ] | First aid and CPR course{{#if has.infant}}, **including infant CPR**{{/if}}, every adult | | → 12-18 |
 
-> **Dehydration and infection kill more people in long events than trauma does.** Oral
-> rehydration salts and infection care are not glamorous, and they matter more than the
-> tourniquet you will probably never use (→ 12-04, → 12-05).
+> **Diarrhoea, dehydration and infection are far more common in a long event than a wound that
+> needs a tourniquet.** Oral rehydration salts and infection care are not glamorous, and you
+> are more likely to need them (→ 12-04, → 12-05).
 
 ## The lines that decide the rest
 

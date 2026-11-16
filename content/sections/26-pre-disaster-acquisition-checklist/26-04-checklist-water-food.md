@@ -25,7 +25,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Water figures are derived slots; floors and food-safety hours checked; no change." }
 ---
 
 # Checklist 2: water and food

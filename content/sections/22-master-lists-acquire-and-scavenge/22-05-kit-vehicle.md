@@ -2,7 +2,7 @@
 id: 22-05-kit-vehicle
 section: 22-master-lists-acquire-and-scavenge
 title: "Vehicle kit"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: household
 danger_level: caution
@@ -10,14 +10,13 @@ phase: [A, B, C]
 tags: [vehicle, car kit, stranded, winter, heat, evacuation, spare tyre, trailer, cargo]
 derived_from: [22-05-kit-vehicle]
 sources:
-  - american-red-cross-winter-storm-preparedness-and-bli-4bb6c0
-  - noaa-national-weather-service-winter-weather-safety-49fc7a
   - osha-cold-stress-protecting-workers-in-cold-environm-56bc81
   - cdc-carbon-monoxide-poisoning-basics-772153
   - us-fda-information-regarding-insulin-storage-and-swi-6448d3
-  - nhtsa-us-department-of-transportation-trailer-safety-807982
   - american-academy-of-pediatrics-healthychildren-org-w-7400c5
   - noaa-national-weather-service-heat-safety-66fd15
+  - noaa-national-weather-service-during-a-winter-storm-r7
+  - american-red-cross-power-outage-safety-6d07a8
 related: [22-03-go-bags-and-kits, 22-06-kit-medical, 22-01-master-acquisition-list, 01-02-go-no-go-decision, 01-03-phase-b-movement, 01-07-evacuating-with-medical-needs, 17-01-blizzards-and-ice, 08-02-carbon-monoxide-safety, 08-05-hypothermia-frostbite, 11-02-keeping-kids-warm, 06-06-fuel-storage-safety, 06-08-fuel-transport, 16-09-bicycle-and-transport, 16-10-tire-failures-roadside, 16-11-trailer-maintenance-and-repair, 25-04-maps]
 cards: [DC-06, DC-08, DC-20]
 explainers: [EX-03, EX-01]
@@ -31,7 +30,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Stranded-vehicle rules re-cited to NWS During a Winter Storm; tank half full to Red Cross; unverifiable NHTSA tongue-weight percentage removed (method kept)." }
 ---
 
 # Vehicle kit
@@ -43,8 +42,7 @@ vehicle but never live in one.
 
 > **CAUTION.**
 > - **If you are stranded in a winter storm, stay with the vehicle.** It is shelter, and it is
->   what searchers look for (NWS, Winter Weather Safety; American Red Cross, Winter Storm
->   Safety).
+>   what searchers look for (NWS, During a Winter Storm).
 > - **Before running the engine for heat, clear snow from the exhaust pipe and crack a window.**
 >   Carbon monoxide builds up silently (CDC, Carbon Monoxide Poisoning: Basics; → 29-03).
 >   **Never run a generator, charcoal, or any engine indoors, in a garage, or near an open
@@ -61,7 +59,7 @@ vehicle but never live in one.
    strands you is never the one you planned around.
 {{else}}2. **Add the seasonal add-on that fits your weather** (winter or heat, below).
 {{/if}}3. **Keep the fuel tank at least half full**{{#if is.cold_winters}} all winter{{/if}}. Our line:
-   never below ______ (NWS, Winter Weather Safety, advises a tank near full in winter).
+   never below ______ (the American Red Cross advises at least half full; Power Outage Safety).
 {{#if has.child}}4. **Put a spare hat, mittens and boots in each vehicle for every child, in the size that fits
    now.** Children get stranded in whatever they wore to school.
 {{/if}}5. **Look under the cargo floor today:** is there a spare tyre, a jack and a wrench? Write it
@@ -96,12 +94,12 @@ that kills, and it is mostly a temperature-and-water problem.
 ## If you are stranded: the rules, in order
 
 1. **Stay in the vehicle.** Walking in a whiteout or extreme heat is how people get lost
-   (NWS; American Red Cross).
-2. **Make yourself visible.** Bright cloth on the antenna or door handle; dome light on while
-   the engine runs; hazard lights sparingly.
+   (NWS, During a Winter Storm).
+2. **Make yourself visible.** Bright cloth on the antenna or door handle; dome light on at
+   night while the engine runs; hazard lights sparingly.
 3. **Before running the engine: clear the exhaust pipe**, every time, and **crack a window on
    the side away from the wind.** Run it about **10 minutes an hour**, not continuously
-   (American Red Cross, Winter Storm Safety; CDC; → 08-02).
+   (NWS, During a Winter Storm; CDC; → 08-02).
 4. **Insulate.** Blankets, sleeping bags, everyone in one space. Move arms and legs now and
    then to keep blood moving (OSHA, Cold Stress).
 5. **Water first, food second.** Do not eat snow: it costs body heat; melt it (→ 03-06).
@@ -222,9 +220,10 @@ The roadside ladder, cheapest first (→ 16-10 has the full procedure):
   the roof load limit in the owner's manual: it is small. **Never medicine** (a roof box is a
   freezer in winter and an oven in summer), **never firearms or documents.** Expect worse fuel
   use and know your new height.
-- **A trailer** is the biggest capacity multiplier. Load about **10 to 12 percent of the
-  trailer's loaded weight on the tongue**, heavy items over the axle (NHTSA, Trailer Safety);
-  never exceed the vehicle's towing and tongue limits from the owner's manual. Backing a trailer
+- **A trailer** is the biggest capacity multiplier. Load the heavy items low and slightly
+  forward of the trailer's axle, so the tongue presses down on the hitch (too little tongue
+  weight makes a trailer sway); the tongue weight the trailer and the vehicle need is in their
+  manuals (→ 16-11). Never exceed the vehicle's towing and tongue limits from the owner's manual. Backing a trailer
   is a skill: practise before it matters (→ 16-11). **Nothing alive rides in a trailer**, and
   neither do medicines or documents.
 - **Do one test pack:** load the real totes into the real vehicle, seats in family

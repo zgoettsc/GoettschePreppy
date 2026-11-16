@@ -2,7 +2,7 @@
 id: 23-02-master-consumables-table
 section: 23-depletion-and-substitution
 title: "Master consumables table"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: household
 danger_level: critical
@@ -82,7 +82,7 @@ Between Products in an Emergency).
 
 | Item | On hand | Daily use | Days | Notes | Ref |
 |---|---|---|---|---|---|
-| Stored drinking water | {{ gear.water.stored_gal }} gal | floor {{ derived.water.floor_gal_day }} gal/day; plan {{ derived.water.plan_gal_day }} gal/day | about {{ derived.water.stored_days }} days at the floor | The floor is at least 1 gallon per person per day, more for nursing mothers, infants, pets, heat and illness (CDC, How to Create and Store an Emergency Water Supply). Two weeks at the planning figure: {{ derived.water.two_weeks_gal }} gal | → 03-01, → 03-02 |
+| Stored drinking water | {{ gear.water.stored_gal }} gal | floor {{ derived.water.floor_gal_day }} gal/day; plan {{ derived.water.plan_gal_day }} gal/day | about {{ derived.water.stored_days }} days at the floor | The floor is at least 1 gallon per person per day, more for pregnant women, sick people, pets and hot climates (CDC, How to Create and Store an Emergency Water Supply); how your figure is built is on → 03-01. Two weeks at the planning figure: {{ derived.water.two_weeks_gal }} gal | → 03-01, → 03-02 |
 | Filter life left, tablets, bleach | ______ | — | — | Spare filter cartridges? Bleach loses strength in storage (→ 29-05) | → 03-04, → 03-09 |
 | Rain and snow catchment | ______ | — | — | Seasonal (→ 03-05, → 03-06) | → 03-05 |
 {{#if has.pool}}| Pool or hot tub (not drinking water as it stands) | {{ dwelling.pool_gallons }} gal | — | — | Drinking it is a household choice: {{choice DC-13}} → 30-14 | → 03-03 |

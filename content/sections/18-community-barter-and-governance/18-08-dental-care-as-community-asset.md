@@ -2,7 +2,7 @@
 id: 18-08-dental-care-as-community-asset
 section: 18-community-barter-and-governance
 title: "Dental skills in a community"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -70,7 +70,7 @@ Dental pain stops people working and sleeping. A community where someone can sor
 | Who | What they can usually do | What they cannot do without a real practice |
 |---|---|---|
 | **Licensed dentist or oral surgeon** | Examine, give local anesthetic, extract, drain, place temporary fillings, judge infection, prescribe while the system works | Crowns, root canals, implants, anything needing a lab and a supply chain |
-| Dental hygienist or assistant | Assess, clean, teach prevention, assist, recognize infection | Extractions and injections, in most states |
+| Dental hygienist or assistant | Assess, clean, teach prevention, assist, recognize infection | Extractions; injections only where their own license allows them |
 | Military, wilderness or EMS medic | Assess, first aid, recognize spreading infection | Usually not dental procedures |
 | **A trained layperson (anyone who has learned → 12-06 and → 12-20)** | Prevention teaching; knocked-out tooth first aid; temporary filling material from a kit; recognizing danger signs; pain relief per the label | **No extractions, no injections, no cutting.** These do real harm in untrained hands |
 
@@ -125,7 +125,7 @@ pain medicine**, three of the most sought-after things there are (→ 14-03, →
 - **Being valued is itself protection.** A community defends the person it cannot afford to lose,
   and that protection grows from generosity, not from charging.
 
-> **Before the collapse:** most states have "Good Samaritan" laws that protect people who give
+> **Before the collapse:** states have "Good Samaritan" laws that protect people who give
 > emergency help in good faith, usually without pay. They are written for emergencies, generally not
 > for ongoing treatment or paid care. Licensed dental professionals stay bound by their license
 > rules, records and standards of care; a three-day outage is not a license to practice from the

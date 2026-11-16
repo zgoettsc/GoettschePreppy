@@ -31,9 +31,12 @@ export const config = {
   regionsUrl: here('../build/regions-lite.json'),
   cardsFixtureUrl: here('./fixtures/cards.json'),
   generatorUrl: here('../lib/generate.js'),
-  // Shown on the Generate screen when kit.json does not carry its own estimates (decision G11).
+  // Shown on the Generate screen when kit.json does not carry its own measured sizes (decisions
+  // G11, G25: the owner's targets). A built kit replaces these with kit.sizes.
   sizeEstimates: {
     small: { minMB: 30, maxMB: 60 },
-    large: { minMB: 200, maxMB: 400 },
+    large: { minMB: 300, maxMB: 400 },
+    everything: { minMB: 900, maxMB: 1100 },
   },
+  mapMB: { min: 27, max: 80 }, // one topographic map inside the file (kit.sizes.map_mb when built)
 };

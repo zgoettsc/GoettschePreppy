@@ -71,6 +71,10 @@ test('context flags and lists from each test profile', () => {
   assert.equal(oh.gear.station_wh_total, 2560);
   assert.equal(oh.gear.solar_w_total, 400);
   assert.equal(oh.size.large, true);
+  assert.equal(oh.size.everything, false);
+  const ev = buildContext(load('oh-suburban-allergy-generator.json'), {}, { size: 'everything' });
+  assert.deepEqual(ev.size, { large: true, everything: true }); // G25: size.large stays true for Everything
+  assert.deepEqual(buildContext(load('oh-suburban-allergy-generator.json'), {}, { size: 'small' }).size, { large: false, everything: false });
   assert.equal(oh.experience.experienced, true);
   assert.equal(oh.dwelling.pool_gallons, 18000);
   const roof = buildContext({ ...load('oh-suburban-allergy-generator.json'), dwelling: { ...load('oh-suburban-allergy-generator.json').dwelling, roof_area_sqft: 1500 } }, {});

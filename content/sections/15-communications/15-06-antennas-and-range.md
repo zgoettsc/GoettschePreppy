@@ -9,7 +9,7 @@ danger_level: caution
 phase: [A, B, C]
 tags: [antenna, range, line of sight, height, repeater, dipole, J-pole, coax, connectors, SWR, lightning, power lines, RF exposure]
 derived_from: [15-06-antennas-and-range]
-sources: [us-government-publishing-office-ecfr-47-cfr-part-97-17b11d, arrl-the-national-association-for-amateur-radio-what-5edded, us-government-publishing-office-ecfr-47-cfr-part-95-c8b55a, noaa-national-weather-service-weather-ready-nation-b0a52f]
+sources: [us-government-publishing-office-ecfr-47-cfr-part-97-17b11d, arrl-single-band-dipoles, arrl-the-national-association-for-amateur-radio-what-5edded, us-government-publishing-office-ecfr-47-cfr-part-95-c8b55a, noaa-national-weather-service-weather-ready-nation-b0a52f]
 related: [29-09-ex09-radios, 15-01-weather-alerts, 15-02-radio-options, 15-04-monitoring-and-info, 15-05-ham-and-licensing, 15-09-corridor-comms, 09-02-solar-basics, 09-08-wiring-and-safety, 12-09-splints-and-fractures, 14-03-opsec, 16-01-essential-hand-tools, 16-03-knots-and-cordage, 17-01-blizzards-and-ice, 17-18-hail-and-damaging-wind, 22-02-scavenging-field-guide, 23-05-skills-that-replace-supplies]
 cards: []
 explainers: [EX-09]
@@ -43,7 +43,7 @@ power line, a fall or lightning. Radio words are explained on → 29-09.
 ## Do this now
 
 1. **Reset your expectations before spending money.** Range numbers on packaging are
-   mountaintop figures. Real numbers are in the table below.
+   mountaintop figures. Typical numbers are in the table below.
 2. **Buy a better antenna for every handheld.** The cheapest, biggest single improvement.
 3. **Buy coaxial cable ("coax"), connectors and wire now.** Cheap, they do not expire, and they
    are the raw material for every antenna you will ever improvise.
@@ -64,9 +64,12 @@ ground level.** That is why money and effort belong in the antenna.
 
 {{figure fig-line-of-sight-and-repeater}}
 
-## Realistic ranges
+## Typical ranges
 
-| Setup | Realistic range |
+These are typical figures for planning, not measurements or promises: terrain, buildings, trees,
+weather and the antenna decide the real number, which is why you test your own (below).
+
+| Setup | Typical range |
 |---|---|
 | **FRS handheld, in town, at ground level** | **A few hundred yards to about a mile** |
 | FRS or GMRS handheld, open flat country | 1 to 3 miles |
@@ -119,16 +122,18 @@ This works, and it is satisfying.
 
 - **A dipole is two pieces of wire**, each a quarter of a wavelength long, fed in the middle by the
   coax. **The formula is one line:**
-  **each leg (feet) = 234 ÷ frequency (MHz); whole dipole (feet) = 468 ÷ frequency (MHz).**
-  Cut each leg 2 to 3 per cent long, hang it, and trim both ends equally until an SWR meter (which
-  measures how well the antenna matches the radio) reads lowest. Worked out for common
+  **each leg (feet) = 234 ÷ frequency (MHz); whole dipole (feet) = 468 ÷ frequency (MHz)**
+  (ARRL, Single Band Dipoles). Cut each leg a little long, hang it, and trim both ends equally
+  until an SWR meter (which measures how well the antenna matches the radio) reads lowest. If the
+  SWR falls as you tune lower in frequency, the antenna is still too long; if it rises, it is too
+  short and needs wire added to both ends (ARRL). Worked out for common
   frequencies:
 
   | Use | Frequency | Each leg | Whole dipole |
   |---|---|---|---|
   | Amateur 2-metre calling | 146.520 MHz | **19.2 in** | 38.3 in |
   | NOAA Weather Radio (receive) | 162.400 MHz | **17.3 in** | 34.6 in |
-  | GMRS channel 17 | 462.600 MHz | **6.1 in** | 12.1 in |
+  | GMRS channel 15 | 462.550 MHz | **6.1 in** | 12.1 in |
   | CB channel 19 | 27.185 MHz | **8.6 ft** | 17.2 ft |
   | Amateur 40 metres (General licence) | 7.200 MHz | **32.5 ft** | 65.0 ft |
 
@@ -136,8 +141,8 @@ This works, and it is satisfying.
 
 {{figure fig-wire-dipole}}
 
-- **A ground-plane vertical** is one quarter-wave wire pointing up, over **at least four
-  quarter-wave "radial" wires** laid flat or drooping. **A replacement for a broken GMRS handheld
+- **A ground-plane vertical** is one quarter-wave wire pointing up, over **several
+  quarter-wave "radial" wires** (four is common) laid flat or drooping. **A replacement for a broken GMRS handheld
   antenna is the 6-inch quarter wave above, not "longer is better".** A random long wire is fine
   for *receiving* shortwave and broadcast; for *transmitting*, cut it to length and check the SWR.
 - **Wire:** speaker wire, house wiring, fence wire, salvaged electrical cable (→ 09-08).

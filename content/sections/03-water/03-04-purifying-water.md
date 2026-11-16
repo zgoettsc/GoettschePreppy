@@ -38,9 +38,10 @@ bleach and pool shock in → 29-05.
 >   clinic to go to (→ 12-05).
 > - **You cannot boil or disinfect away fuel, toxic chemicals or radioactive material**
 >   (CDC). If water may hold those, do not use it; distil it (→ 03-03) or find another source.
-> - **Floor:** bleach or pool shock is never mixed with ammonia, acids or other cleaners. The
->   mix gives off chlorine gas. (→ 30-01)
-> - **Floor:** children do not have access to chlorine products. (→ 30-01)
+> - **Floor:** Bleach or pool shock is never mixed with ammonia, acids or other cleaners.
+>   The mix gives off chlorine gas. (→ 30-01)
+> - **Floor:** Children do not have access to firearms, fuel, medications or chlorine
+>   products. (→ 30-01)
 
 ## Do this now
 
@@ -84,28 +85,44 @@ Use **unscented liquid household bleach**. Check the label for "sodium hypochlor
 percentage. Do not use scented, color-safe, splash-less or "with cleaners" bleach. **If the
 label gives directions for disinfecting drinking water, follow the label.**
 
-Published table (US EPA, Emergency Disinfection of Drinking Water; CDC, How to Make Water Safe
-in an Emergency), printed as published:
+**CDC table** (CDC, How to Make Water Safe in an Emergency), printed as published:
 
-**5 to 9 percent sodium hypochlorite (typical US household bleach):**
+**Bleach dosing: 5% to 9% sodium hypochlorite concentration**
 
-| Water | Drops | Milliliters | Spoon |
+| Water | Drops | Milliliters | Measuring spoon |
 |---|---|---|---|
-| 1 quart / liter | 2 drops | 0.1 mL | too small to measure |
-| 1 gallon | 8 drops | 0.5 mL | slightly less than 1/8 tsp |
-| 5 gallons | 40 drops | 2.5 mL | 1/2 tsp |
+| 1 quart or liter | 2 drops | 0.1 mL | too small to measure |
+| 1 gallon | 8 drops | ½ mL | a little less than ⅛ teaspoon |
+| 5 gallons | 40 drops | 2½ mL | ½ teaspoon |
 
-**1 percent sodium hypochlorite:**
+**Bleach dosing: 1% sodium hypochlorite concentration**
 
-| Water | Drops | Milliliters | Spoon |
+| Water | Drops | Milliliters | Measuring spoon |
 |---|---|---|---|
-| 1 quart / liter | 10 drops | 0.5 mL | 1/8 tsp |
-| 1 gallon | 40 drops | 2.5 mL | 1/2 tsp |
-| 5 gallons | 200 drops | 12.5 mL | 2.5 tsp |
+| 1 quart or liter | 10 drops | ½ mL | ⅛ teaspoon |
+| 1 gallon | 40 drops | 2½ mL | ½ teaspoon |
+| 5 gallons | 200 drops | 12½ mL | 2½ teaspoons |
+
+*If water is cloudy, murky, colored, or very cold, double the bleach amount.* (CDC)
+
+**EPA table** (US EPA, Emergency Disinfection of Drinking Water), printed as published, for
+bleach labelled 6 or 8.25 percent:
+
+| Volume of water | Amount of 6% bleach to add | Amount of 8.25% bleach to add |
+|---|---|---|
+| 1 quart/liter | 2 drops | 2 drops |
+| 1 gallon | 8 drops | 6 drops |
+| 2 gallons | 16 drops (1/4 tsp) | 12 drops (1/8 teaspoon) |
+| 4 gallons | 1/3 teaspoon | 1/4 teaspoon |
+| 8 gallons | 2/3 teaspoon | 1/2 teaspoon |
+
+The two tables agree on the common case (8 drops a gallon for ordinary 6 percent bleach). Use
+whichever matches the percentage on your label; for 1 percent bleach only the CDC table
+applies.
 
 Stir well and let stand **at least 30 minutes**. **Double the dose** for water that is
-cloudy, murky, colored or very cold. A faint chlorine smell afterwards is the point. No smell
-at all can mean the dirt in the water used up the chlorine: treat again and wait again.
+cloudy, murky, colored or very cold. The water should then have a slight chlorine smell. **If
+it does not, repeat the dose and let it stand another 15 minutes** (EPA).
 
 **Very dirty water that will not clear** after settling and filtering is a decision. The
 published method is to clear the water first and then use the label or table dose (doubled for
@@ -124,44 +141,52 @@ choice: {{choice DC-23}} (→ 30-24).
 
 ## 2b. Pool shock (calcium hypochlorite): the long-storage chemical
 
-Bleach loses strength within months. Dry, sealed **granular calcium hypochlorite** ("pool
-shock") keeps for years, and a small amount treats a very large volume of water. It is used
+Liquid bleach loses strength in storage: EPA says to use bleach stored at room temperature for
+less than a year. Dry, sealed **granular calcium hypochlorite** ("pool shock") keeps far
+better as long as it stays dry and cool, and a small amount treats a very large volume of
+water. It is used
 in **two steps**. This is the US EPA's published emergency method:
 
 **Step 1. Make a stock solution** (somewhere with fresh air; wear eye protection):
-**One heaping teaspoon (about 1/4 ounce) of granular calcium hypochlorite into 2 gallons of
-water.** Stir until it dissolves. This makes roughly a 500 mg/L chlorine solution.
+**One heaping teaspoon (about 1/4 ounce) of high-test granular calcium hypochlorite into 2
+gallons of water.** Stir until the particles have dissolved. EPA says this makes a chlorine
+solution of about 500 milligrams per liter.
 
 **The stock is itself a poison**, far stronger than drinking water. Keep it in a container
 nobody could mistake for drinking water, **labeled "CHLORINE STOCK: DO NOT DRINK"** in
 marker, lid on, up high and out of children's reach (→ 20-02). If anyone swallows it, call
 Poison Control and see → 12-17.
 
-**Step 2. Treat the water:** add **1 part stock solution to each 100 parts of water**: about
-**1 pint (16 oz) of stock per 12.5 gallons** of water. That is about 1.3 fl oz (2½
-tablespoons) of stock per gallon, or 6.4 oz per 5 gallons. Stir, wait **30 minutes**, and
-expect a slight chlorine smell. No smell means add more and wait again. If the taste is
-strong, pour it between clean containers and let it stand a few hours.
+**Step 2. Treat the water:** add **1 part stock solution to each 100 parts of water**: EPA
+says this is about **1 pint (16 ounces) of stock per 12.5 gallons** of water. Worked out from
+the same 1-in-100 ratio, that is about 1.3 fl oz (about 2½ tablespoons) of stock per gallon,
+or about 6.4 fl oz per 5 gallons. Stir and wait **30 minutes** before drinking (the same wait
+as bleach), and expect a slight chlorine smell. If the taste is strong, pour it between clean
+containers and let it stand a few hours (EPA).
 
 **Rules that keep this safe:**
 
-- **Read the label:** it must be 65 to 73 percent calcium hypochlorite with **no algaecides,
-  clarifiers or stabilizers**. "Multi-action" shock products cannot be made drinkable.
+- **Read the label:** calcium hypochlorite must be the only active ingredient, with **no
+  algaecides, clarifiers or stabilizers**. "Multi-action" shock products cannot be made
+  drinkable. Write the percentage from the label here: ______ percent.
 - Add granules **to water**, never water to granules. Use plastic or glass, never metal.
-- **Do not store mixed stock solution**: it weakens within days to weeks. Mix it fresh.
+- **Do not keep mixed stock solution**: diluted chlorine loses strength (CDC says diluted
+  bleach solutions work less well after 24 hours). Mix it fresh each time.
 - Never use pool shock as dry granules in drinking water, and never dose it like bleach
   drops.
 
 **Storing pool shock.** Calcium hypochlorite is a strong oxidizer: it **feeds a fire**,
-**gives off chlorine when it gets wet or hot**, and its dust burns skin, eyes and lungs (CDC
-and ATSDR, Medical Management Guidelines for Calcium Hypochlorite). Store it:
+**gives off chlorine when it gets wet or hot**, and its dust burns skin, eyes and lungs. ATSDR says to store it dry, in a well-ventilated
+place **below 120 °F**, separated from acids, ammonia and other chlorinating or oxidizing
+chemicals (CDC and ATSDR, Medical Management Guidelines for Calcium Hypochlorite). Store it:
 
 - in its sealed bag inside a lidded plastic bucket, labeled "POOL SHOCK: OXIDIZER";
 - **off the floor** (a flood or wet floor reaching it releases chlorine), dry, away from
   furnaces, water heaters and other heat;
 - **never near fuel, acids, ammonia or ammunition** (→ 06-06), and **never on the same shelf
-  or in the same bucket as trichlor or dichlor pool tablets**: calcium hypochlorite and
-  trichlor can make chlorine gas or fire on contact;
+  or in the same bucket as trichlor or dichlor pool tablets** (they are other chlorinating
+  chemicals, which ATSDR says to keep separate): calcium hypochlorite and trichlor can make
+  chlorine gas or fire on contact;
 - away from electronics and power stations (the fumes corrode them);
 - where children cannot reach it.
 
@@ -181,10 +206,10 @@ such as *Giardia* and *Cryptosporidium* (a micron is a thousandth of a millimete
 ## 4. UV and sunlight: the backups
 
 - A portable **UV pen or bottle** works on small amounts of **clear** water.
-- **Solar disinfection (SODIS):** fill **clear PET plastic bottles of 2 liters or less** (not
-  glass, not colored or scratched plastic, not bigger: the sunlight has to reach the middle)
-  with clear water. Lay them on their side in the sun for **6 hours** if sunny or **2 days**
-  if cloudy. A dark surface underneath helps.
+- **Solar disinfection (SODIS):** fill **clean, clear plastic bottles** with clear water (not
+  colored or scratched plastic: the sunlight has to get through). Lay them on their side in
+  the sun for **6 hours** if sunny or **2 days** if cloudy. A dark surface underneath helps
+  (CDC).
 - Neither works on cloudy water.
 
 **Never** drink water from car radiators or home heating boilers.
@@ -193,10 +218,10 @@ such as *Giardia* and *Cryptosporidium* (a micron is a thousandth of a millimete
 
 | Item | Why | Notes |
 |---|---|---|
-| Unscented household bleach, 5 to 9 percent, fresh | Main fuel-free treatment | Weakens within months; rotate; note the percentage |
-| Calcium hypochlorite (pool shock), additive-free | Years of shelf life in a small container | Strong oxidizer; store as above |
+| Unscented household bleach, 5 to 9 percent, fresh | Main fuel-free treatment | Use within a year (EPA); write the purchase date and the percentage on it |
+| Calcium hypochlorite (pool shock), additive-free | Keeps far better than liquid bleach if dry and cool | Strong oxidizer; store as above |
 | Chlorine dioxide tablets | The chemical that handles *Cryptosporidium* | Follow the label timing exactly |
-| Gravity or pump filter, 0.1 to 0.2 micron | Clears water and removes parasites and bacteria with no fuel | Still disinfect afterwards for viruses |
+| Gravity or pump filter, absolute pore size 0.3 micron or smaller | Clears water and removes parasites and bacteria with no fuel (CDC) | Still disinfect afterwards for viruses |
 | Coffee filters, clean cloth | Pre-filter, always step one | Cheap; stock many |
 | Large stockpot with lid | Boiling in volume | Also the still (→ 03-03) |
 | Medicine dropper and measuring spoons | Measure bleach accurately | Guessing a dose is how people get sick |
@@ -213,8 +238,8 @@ Write where your treatment kit is kept: __________ (→ 22-04).
 
 ## When it runs out
 
-- **Runway:** count bottles of bleach and strips of tablets. A year-old jug of bleach is
-  weaker than the tables assume. Pool shock stored dry lasts years.
+- **Runway:** count bottles of bleach and strips of tablets. Bleach older than a year is
+  weaker than the tables assume (EPA). Pool shock kept dry and cool lasts much longer.
 - **Ration:** use chemicals for clear water and save fuel. Boil when the water is doubtful,
   someone is sick, or you cannot measure a dose with confidence.
 - **Resupply:** boiling always works if you have fuel. Sunlight works with nothing but

@@ -55,7 +55,11 @@ below.{{/if}}
 ## Words on this page
 
 - **Caliber** is the size and type of cartridge a rifle or handgun is made for (".22 LR", "9mm").
-  **Gauge** is the shotgun equivalent ("12 gauge"; a smaller number is a bigger bore).
+  **Gauge** is the shotgun equivalent ("12 gauge"; a smaller number is a bigger bore). **Gauges
+  are never interchangeable:** a 20-gauge shell dropped into a 12-gauge gun can slide forward and
+  stick in the barrel, and the next 12-gauge shell fired behind it bursts the barrel (SAAMI,
+  Generally Accepted Firearms and Ammunition Interchangeability). Keep each gauge in its own
+  marked box.
 - **Rimfire** cartridges (like .22 LR) have the priming compound in the rim; they cannot be
   reloaded. **Centerfire** cartridges have a replaceable primer in the centre of the base.
 - **Platform** means a family of firearms that share parts, such as "AR-pattern rifle".
@@ -75,7 +79,7 @@ change every year (→ 05-07).
 | **.45 ACP** | Handgun, defence | Heavier and less common than 9mm |
 | **5.56 / .223** | Rifle: defence, varmints, general use | Very common. Read the barrel marking: SAAMI treats them as different cartridges, and the gun's maker decides what is safe |
 | **.308** | Rifle: deer and larger game, longer range | Common hunting round; heavier |
-| **6.5 Creedmoor** | Rifle: precision, deer | Less common; harder to find or trade for. Treat what you have as finite |
+| **Other hunting rifle calibers** (.30-06, .270, 6.5 Creedmoor and many more) | Rifle: deer and larger game | How easy each is to find varies a lot by caliber and region. Treat a less common one as finite |
 | **12 gauge** | Shotgun: birds, small game, deer (slug), defence | The most versatile single firearm: birdshot, buckshot or slug. Very common |
 | **20 gauge** | Shotgun: birds, small game | Less recoil; easier for smaller or newer shooters. Less common than 12 |
 

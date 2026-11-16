@@ -62,7 +62,7 @@ Widely recognised, but **never assume they will be understood**:
 
 ## Methods that work
 
-| Method | Range | Notes |
+| Method | Typical range (wind, weather and terrain decide) | Notes |
 |---|---|---|
 | **Whistle** | **Far beyond a voice, with far less effort** | **The best single item here.** Works when you are exhausted or hoarse; carries through wind and snow |
 | **Signal mirror** | **Miles in sunlight**, one of the longest-range signals there is | Needs sun; needs practice to aim |

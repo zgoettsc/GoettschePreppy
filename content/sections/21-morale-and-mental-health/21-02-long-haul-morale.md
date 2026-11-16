@@ -2,12 +2,12 @@
 id: 21-02-long-haul-morale
 section: 21-morale-and-mental-health
 title: "Morale over the long haul"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
 phase: [A, B, C]
-tags: [morale, long event, month five, winter, connection, isolation, purpose, solo adult, warning signs]
+tags: [morale, long event, the wall, winter, connection, isolation, purpose, solo adult, warning signs]
 derived_from: [21-02-long-haul-morale]
 sources:
   - cdc-about-mental-health-0a5e6b
@@ -64,13 +64,14 @@ everyone confined: heat, smoke, storms or winter. Plan for it specifically.{{/if
 
 | Stage | What it feels like | The risk |
 |---|---|---|
-| **Days 1 to 7: sharp** | Adrenaline, urgency, clear purpose | Bad decisions under stress (→ 21-01) |
-| **Weeks 2 to 6: adapting** | Building routines, solving problems, competence | Overwork; burning through supplies |
-| **Months 2 to 4: grind** | Normal now, and relentless | Fatigue building invisibly |
-| **Month 5 and on: the wall** | No end in sight; nothing changes; everything is hard | **Conflict, despair, risk-taking, giving up** |
+| **The first days: sharp** | Adrenaline, urgency, clear purpose | Bad decisions under stress (→ 21-01) |
+| **The first weeks: adapting** | Building routines, solving problems, competence | Overwork; burning through supplies |
+| **The next months: grind** | Normal now, and relentless | Fatigue building invisibly |
+| **Months in: the wall** | No end in sight; nothing changes; everything is hard | **Conflict, despair, risk-taking, giving up** |
 | **Later: new normal** | If you get through the wall, it becomes life | Complacency; dropping vigilance |
 
-The months are rough markers, not a schedule. **Knowing the arc helps:** when the wall feels
+The stages are a common pattern, not a schedule, and nobody can say in advance how long each one
+lasts. **Knowing the arc helps:** when the wall feels
 uniquely awful, it is a predictable stage, not a verdict on the household.
 
 ## What keeps people going for months
@@ -94,7 +95,8 @@ uniquely awful, it is a predictable stage, not a verdict on the household.
 
 - **Light in the evening** (→ 10-03). A lit, warm, gathered evening is worth scarce light and fuel.
   It is what makes the hardest months survivable.
-- **Get outside every day it is safe** (→ 11-01; limits → 12-10). Twenty minutes changes a day.
+- **Get outside every day it is safe** (→ 11-01; limits → 12-10). Even a short time outside changes a
+  day.
 - **Vary the days.** A different meal, a different project, a "Saturday" that is different from a
   Tuesday.
 - **Projects with visible progress:** mending (→ 16-04), building (→ 16-08), planning the garden

@@ -9,6 +9,8 @@ import { STEPS, env, noticeFull } from './steps.js';
 import { loadRegions, loadKit, sizeEstimates } from './loaders.js';
 import { checkAccessKey } from './relay.js';
 import { generateBinder, loadGenerator } from './generate-adapter.js';
+
+const SIZE_LABEL = { small: 'Small', large: 'Large', everything: 'Everything' };
 import { readKept, writeKept, eraseKept } from './storage.js';
 
 const FINAL = STEPS.length; // index of the Generate screen
@@ -21,7 +23,11 @@ const app = {
   keep: false,               // opt-in browser storage
   dirty: false,
   flash: null,               // { text, kind } shown once in the Save/Load bar
-  size: 'small',
+  size: 'small',             // 'small' | 'large' | 'everything' (decision G25)
+  routeMaps: false,          // opt-in: maps of the counties between home and destinations
+  previous: null,            // upgrade: { file, info } — an earlier binder file chosen on this screen
+  previousStatus: null,      // { text, kind } for the upgrade panel
+  genMod: null,              // the loaded generator module (mapPlan, describePrevious)
   gen: { status: 'idle', fraction: 0, stage: '', error: '', url: null, bytes: 0, size: null, stub: false },
   controller: null,
 };
@@ -331,18 +337,120 @@ function finalCheck() {
       keyOk ? null : h('button', { type: 'button', class: 'btn small', onclick: runKeyCheck }, 'Check my key now')));
 }
 
+// ---- sizes (G11, G25), maps (G16) and the upgrade path -----------------------------------------
+const fmtMB = (min, max) => (min === max ? `about ${min} MB` : `about ${min} to ${max} MB`);
+const fmtGB = (min, max) => {
+  const g = n => (n >= 1000 ? (n / 1000).toFixed(1).replace(/\.0$/, '') : (n / 1000).toFixed(1));
+  return g(min) === g(max) ? `about ${g(min)} GB` : `about ${g(min)} to ${g(max)} GB`;
+};
+let planCache = { key: null, plan: null };
+function householdMapPlan() {
+  const fn = app.genMod && app.genMod.mapPlan;
+  const kit = env.kitState && env.kitState.kit;
+  if (!fn || !kit) return null;
+  try {
+    const p = toProfile();
+    const key = JSON.stringify([p.home, p.destinations]);
+    if (planCache.key !== key) planCache = { key, plan: p.home && p.home.state ? fn(p, kit) : null };
+    return planCache.plan;
+  } catch { return null; }
+}
+// MB range for a size: the kit's measured documents plus this household's own maps when known
+function sizeRange(size, est, plan) {
+  const e = est[size];
+  if (size === 'small' || !plan || !e.srcMinMB) return { minMB: e.minMB, maxMB: e.maxMB };
+  const route = app.routeMaps ? plan.route : { min_mb: 0, max_mb: 0 };
+  return { minMB: e.srcMinMB + plan.base.min_mb + route.min_mb, maxMB: e.srcMaxMB + plan.base.max_mb + route.max_mb };
+}
+
 function sizeChoice(est) {
-  const fmt = (r) => (r.minMB === r.maxMB ? `about ${r.minMB} MB` : `about ${r.minMB} to ${r.maxMB} MB`);
-  const opt = (value, title, mb, text) => h('label', { class: 'choice size', for: `size-${value}` },
+  const plan = householdMapPlan();
+  const running = app.gen.status === 'running' || undefined;
+  const r = { small: sizeRange('small', est, plan), large: sizeRange('large', est, plan), everything: sizeRange('everything', est, plan) };
+  const opt = (value, title, mbText, who, text) => h('label', { class: 'choice size', for: `size-${value}` },
     h('input', { type: 'radio', name: 'size', id: `size-${value}`, value, checked: app.size === value || undefined,
-      disabled: app.gen.status === 'running' || undefined, onchange: () => { app.size = value; } }),
-    h('span', { class: 'choice-text' }, h('strong', {}, title), h('span', { class: 'mb' }, fmt(mb)), h('span', { class: 'hint' }, text)));
-  return h('fieldset', { class: 'q sizes' },
+      disabled: running, onchange: () => { app.size = value; updateSizes(); } }),
+    h('span', { class: 'choice-text' }, h('strong', {}, title), h('span', { class: 'mb' }, mbText), h('span', { class: 'who' }, who), h('span', { class: 'hint' }, text)));
+  const mapsLine = plan
+    ? (plan.base.count
+      ? `Large and Everything include ${plan.base.count === 1 ? 'one topographic map' : `${plan.base.count} topographic maps`}: ${plan.base.counties.join('; ')}.`
+      : 'We have no map location for your home county or destinations, so no topographic map is added.')
+    : 'Large and Everything include topographic maps of your home county and your destinations.';
+  const routeHint = plan
+    ? (plan.route.count
+      ? `${plan.route.count === 1 ? 'One more map' : `${plan.route.count} more maps`}, ${fmtMB(plan.route.min_mb, plan.route.max_mb)} more: ${plan.route.counties.slice(0, 6).join('; ')}${plan.route.count > 6 ? '; and others' : ''}. Each map is a big file; add them if you may travel on foot or by back roads.`
+      : 'No counties lie between your home and your destinations in our map data (or you have no destination), so there is nothing to add.')
+    : 'The number of extra maps shows here once your home and destinations are filled in.';
+  return h('fieldset', { class: 'q sizes', id: 'size-panel' },
     h('legend', { class: 'q-label' }, 'Which size?'),
-    h('p', { class: 'why' }, h('span', { class: 'why-tag' }, 'Why we ask: '), 'A bigger file holds more but takes longer to make and more space on your phone. You can upgrade Small to Large later by loading your saved answers file.'),
+    h('p', { class: 'why' }, h('span', { class: 'why-tag' }, 'Why we ask: '), 'A bigger file holds more but takes longer to make and more space on your device. You can upgrade later, Small to Large or Large to Everything, without paying for the writing again (see "Upgrading a binder you made before?" below).'),
     h('div', { class: 'choices' },
-      opt('small', 'Small', est.small, 'Every page, explainer, decision card, condition and gear page, the whole national region appendix and all plant pictures. Sources are listed by title, publisher and date, not included. Fast on a phone.'),
-      opt('large', 'Large', est.large, 'Everything in Small, plus the full text of every cited source document bound behind the page that cites it, and topographic maps for your home, your destinations and the counties between. Fetched for your household when you generate.')));
+      opt('small', 'Small', fmtMB(r.small.minMB, r.small.maxMB), 'For any phone.',
+        'Every page, explainer, decision card, condition and gear page, the whole national region appendix and all plant pictures. Sources are listed by title, publisher and date, not included. Nothing is fetched; quick to make.'),
+      opt('large', 'Large', fmtMB(r.large.minMB, r.large.maxMB), 'For a phone with room to spare.',
+        'Everything in Small, plus the documents behind the life-safety pages (medical conditions, water, fire and fuel, heating, power, first aid, weather hazards, kids, chemical and radiation emergencies, decisions and floors), each bound behind the page that cites it, and topographic maps. Documents cited only by other pages are listed by title as "in the Everything download". Fetched for your household when you generate.'),
+      opt('everything', 'Everything', fmtGB(r.everything.minMB, r.everything.maxMB), `Everything is ${fmtGB(r.everything.minMB, r.everything.maxMB)}: put it on a laptop.`,
+        'Everything in Large, plus every other document the binder cites. Too big to open comfortably on most phones, so keep Small or Large on your phone as well.')),
+    h('div', { class: 'maps-opt' + (app.size === 'small' ? ' off' : '') },
+      h('p', { class: 'hint', id: 'maps-line' }, mapsLine),
+      h('label', { class: 'choice single', for: 'route-maps' },
+        h('input', { type: 'checkbox', id: 'route-maps', checked: app.routeMaps || undefined, disabled: running || app.size === 'small' || (plan && !plan.route.count) || undefined,
+          'data-none': plan && !plan.route.count ? '1' : undefined,
+          'aria-describedby': 'route-hint', onchange: (e) => { app.routeMaps = e.target.checked; updateSizes(); } }),
+        h('span', { class: 'choice-text' }, 'Also add maps of the counties between home and each destination (Large and Everything)')),
+      h('p', { class: 'hint', id: 'route-hint' }, routeHint)));
+}
+function updateSizes() {
+  const old = document.getElementById('size-panel');
+  if (!old) return;
+  const focusId = old.contains(document.activeElement) ? document.activeElement.id : null;
+  old.replaceWith(sizeChoice(sizeEstimates(env.kitState.kit)));
+  if (focusId) document.getElementById(focusId)?.focus();
+}
+
+// Upgrade: an earlier binder file made from the same answers. Its written passages, review results
+// and bound documents are reused, so Small → Large → Everything makes no new AI calls.
+async function choosePrevious(e) {
+  const file = e.target.files && e.target.files[0];
+  e.target.value = '';
+  if (!file) return;
+  app.previous = null;
+  const describe = app.genMod && app.genMod.describePrevious;
+  let info = null;
+  try {
+    if (describe) {
+      info = describe(await file.slice(Math.max(0, file.size - 8e6)).text(), toProfile());
+      if (!info && file.size < 60e6) info = describe(await file.text(), toProfile());
+    }
+  } catch { info = null; }
+  if (!describe) app.previousStatus = { kind: 'warnflash', text: 'Upgrading needs the binder generator, which is not installed on this site yet.' };
+  else if (!info) app.previousStatus = { kind: 'bad', text: 'That file is not a GoettschePreppy binder. Choose the binder .html file you downloaded before.' };
+  else {
+    app.previous = { file, info };
+    const next = info.size === 'small' ? 'Large or Everything' : info.size === 'large' ? 'Everything' : 'a new copy';
+    app.previousStatus = { kind: 'ok', text: `Earlier binder: ${SIZE_LABEL[info.size]}${info.built ? `, made ${info.built}` : ''}. ` +
+      (info.sameAnswers ? 'Same answers as now, so the pages the AI wrote and checked are reused: no new AI cost. '
+        : 'Your answers changed since that file: passages whose answers did not change are reused, and the changed pages are checked again by the AI. ') +
+      `Documents already inside it are reused; only the missing ones are fetched. Choose ${next} above, then Generate.` };
+    if (info.size === 'small' && app.size === 'small') app.size = 'large';
+    else if (info.size === 'large' && app.size !== 'everything') app.size = 'everything';
+    updateSizes();
+  }
+  updateUpgrade();
+}
+function upgradePanel() {
+  const st = app.previousStatus;
+  return h('section', { class: 'panel', id: 'upgrade-panel', 'aria-labelledby': 'upgrade-title' },
+    h('h2', { id: 'upgrade-title' }, 'Upgrading a binder you made before? (optional)'),
+    h('p', {}, 'To go from Small to Large, or from Large to Everything, without paying for the writing again: load your saved answers file (Load, at the top), then choose the binder file you made with them. Nothing in it is sent anywhere.'),
+    h('label', { class: 'btn', for: 'previous-file' }, 'Choose my earlier binder file'),
+    h('input', { type: 'file', id: 'previous-file', class: 'visually-hidden', accept: '.html,.htm,text/html', disabled: app.gen.status === 'running' || undefined, onchange: choosePrevious }),
+    h('p', { id: 'previous-status', class: 'final-status' + (st ? ' ' + st.kind : ''), role: 'status', 'aria-live': 'polite' }, st ? st.text : ''),
+    app.previous ? h('button', { type: 'button', class: 'btn small ghost', id: 'previous-clear', onclick: () => { app.previous = null; app.previousStatus = null; updateUpgrade(); } }, 'Do not use the earlier file') : null);
+}
+function updateUpgrade() {
+  const old = document.getElementById('upgrade-panel');
+  if (old) old.replaceWith(upgradePanel());
 }
 
 function genPanel() {
@@ -367,9 +475,11 @@ function genPanel() {
   if (g.status === 'done' && g.url) {
     const name = `goettschepreppy-binder-${g.size}.html`;
     box.append(h('div', { class: 'done', role: 'status' },
-      h('p', {}, h('strong', {}, 'Your binder is ready. '), `${g.size === 'large' ? 'Large' : 'Small'}, ${(g.bytes / 1048576).toFixed(1)} MB.`),
+      h('p', {}, h('strong', {}, 'Your binder is ready. '), `${SIZE_LABEL[g.size] || 'Small'}, ${(g.bytes / 1048576).toFixed(1)} MB.`),
       h('a', { href: g.url, download: name, class: 'btn primary big', id: 'download-link' }, 'Download my binder'),
-      h('p', { class: 'muted' }, 'Save it to your phone\'s Files app and to a laptop. It opens with no connection. Once you close this tab, the only copy is the one you downloaded.')));
+      h('p', { class: 'muted' }, g.size === 'everything'
+        ? 'Save it to a laptop (it is too big for most phones) and keep a Small or Large copy on your phone. It opens with no connection. Once you close this tab, the only copy is the one you downloaded.'
+        : 'Save it to your phone\'s Files app and to a laptop. It opens with no connection. Once you close this tab, the only copy is the one you downloaded. Keep it: it is what you choose here later to upgrade without paying for the writing again.')));
   }
   return box;
 }
@@ -386,7 +496,7 @@ function updateGenPanel() {
   const hadFocus = old.contains(document.activeElement);
   const fresh = genPanel();
   old.replaceWith(fresh);
-  for (const r of document.querySelectorAll('input[name=size]')) r.disabled = app.gen.status === 'running';
+  for (const r of document.querySelectorAll('input[name=size], #route-maps, #previous-file')) r.disabled = app.gen.status === 'running' || (r.id === 'route-maps' && (app.size === 'small' || r.dataset.none === '1'));
   if (hadFocus || app.gen.status !== 'running') {
     const target = fresh.querySelector('#cancel-btn, #download-link, #generate-btn');
     if (target && (hadFocus || app.gen.status === 'done')) target.focus();
@@ -432,9 +542,10 @@ async function startGenerate() {
   try {
     ensureKit();
     const k = await loadKit();
-    const blob = await generateBinder(profile, k.kit, {
-      relay: config.relayBase, size: app.size, onProgress, signal: app.controller.signal,
-    });
+    const opts = { relay: config.relayBase, size: app.size, onProgress, signal: app.controller.signal };
+    if (app.size !== 'small' && app.routeMaps) opts.routeMaps = true;
+    if (app.previous) opts.previous = app.previous.file;
+    const blob = await generateBinder(profile, k.kit, opts);
     if (!(blob instanceof Blob)) throw new Error('The generator returned no file.');
     app.gen = { ...app.gen, status: 'done', fraction: 1, url: URL.createObjectURL(blob), bytes: blob.size, size: app.size };
   } catch (err) {
@@ -463,10 +574,16 @@ function renderFinal() {
       h('p', { id: 'final-status', class: 'final-status', role: 'status', 'aria-live': 'polite' }),
       env.keepToggleUI()),
     sizeChoice(est),
+    upgradePanel(),
     genPanel(),
     h('div', { class: 'bottomnav' },
       h('button', { type: 'button', class: 'btn ghost', onclick: () => goto(FINAL - 1) }, 'Back')));
-  loadGenerator().then(g => { if (g.stub !== app.gen.stub) { app.gen.stub = g.stub; updateGenPanel(); } });
+  loadGenerator().then(g => {
+    const first = !app.genMod;
+    app.genMod = g;
+    if (g.stub !== app.gen.stub) { app.gen.stub = g.stub; updateGenPanel(); }
+    if (first && g.mapPlan) updateSizes();
+  });
 }
 
 // ---- theme ------------------------------------------------------------------------------------

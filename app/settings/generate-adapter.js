@@ -10,7 +10,11 @@
 //   kit         the parsed app/build/kit.json, or null when it is not built yet
 //   relay       the relay base URL string from config.js ('' = same origin); with ?dryrun=1, a
 //               createDryRunRelay() object from app/lib/relay-dryrun.js instead
-//   size        'small' | 'large'
+//   size        'small' | 'large' | 'everything' (decision G25)
+//   routeMaps   true when the household asked for maps of the counties between home and
+//               destinations (Large and Everything only)
+//   previous    an earlier binder File for an upgrade (Small → Large → Everything): its written
+//               passages, review results and bound documents are reused (no model calls)
 //   onProgress  called with a number 0..1, or an object such as
 //               { fraction, done, total, stage, message } (any of these keys may be missing)
 //   signal      an AbortSignal; Cancel aborts it
@@ -24,9 +28,11 @@ export function loadGenerator() {
     .then(m => {
       const fn = m.generateBinder || (m.default && m.default.generateBinder) || (typeof m.default === 'function' ? m.default : null);
       if (typeof fn !== 'function') throw new Error('generateBinder missing');
-      return { generateBinder: fn, stub: false };
+      return { generateBinder: fn, stub: false,
+        mapPlan: typeof m.mapPlan === 'function' ? m.mapPlan : null,
+        describePrevious: typeof m.describePrevious === 'function' ? m.describePrevious : null };
     })
-    .catch(() => ({ generateBinder: stubGenerateBinder, stub: true }));
+    .catch(() => ({ generateBinder: stubGenerateBinder, stub: true, mapPlan: null, describePrevious: null }));
   return modPromise;
 }
 

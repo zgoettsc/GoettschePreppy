@@ -36,7 +36,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Only national constants, household-typed numbers and region data printed; no guessed local number; no change." }
 ---
 
 # Regional contacts and resources

@@ -2,7 +2,7 @@
 id: 22-01-master-acquisition-list
 section: 22-master-lists-acquire-and-scavenge
 title: "Master acquisition list"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: household
 danger_level: none
@@ -16,8 +16,9 @@ sources:
   - american-red-cross-winter-storm-preparedness-and-bli-4bb6c0
   - nfpa-national-fire-protection-association-lithium-io-0c7d64
   - ready-gov-build-a-kit
+  - american-academy-of-pediatrics-aap-allergy-and-anaph-3e6f49
 related: [22-07-priority-purchase-order, 22-02-scavenging-field-guide, 22-04-household-inventory, 22-03-go-bags-and-kits, 22-05-kit-vehicle, 22-06-kit-medical, 23-02-master-consumables-table, 23-04-resource-lifecycles, 26-01-how-to-run-the-check]
-cards: [DC-01, DC-02, DC-05, DC-13]
+cards: [DC-01, DC-02, DC-05, DC-13, DC-20]
 explainers: [EX-01, EX-02, EX-03, EX-05, EX-06]
 promote_when: []
 photo_slots: []
@@ -27,7 +28,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Second-dose line re-cited to AAP plan; unsourced dehydration-vs-trauma claim softened; DC-20 choice added to the candle row." }
 ---
 
 # Master acquisition list
@@ -182,7 +183,7 @@ gal · kerosene {{ gear.fuel.kerosene_gal }} gal · propane 1-lb {{ gear.fuel.pr
 | [ ] | Generator + fuel + an outdoor run spot | **Never run a generator, charcoal, or any engine indoors, in a garage, or near an open window.** | → 09-04 |
 | [ ] | Heavy-duty outdoor extension cords sized for the load | **Never connect a generator to house wiring except through a transfer switch, or an interlock kit with the main breaker off. Never backfeed through an outlet with a double-male ("suicide") cord.** | → 09-04, → 29-04 |
 | [ ] | **★№ LED headlamp, one per person** + lanterns | Headlamps beat flashlights for work | → 10-01 |
-| [ ] | №Candles, lamp oil, oil lamps + spare wicks § | Open flame indoors is a household choice (→ 30-21) | → 10-02 |
+| [ ] | №Candles, lamp oil, oil lamps + spare wicks § | Open flame indoors is a household choice: {{choice DC-20}} → 30-21 | → 10-02 |
 | [ ] | Blackout curtains or window covering | Light discipline is security | → 10-05 |
 
 Lithium batteries and power stations can burn; store and charge them as their makers say
@@ -193,12 +194,12 @@ Lithium batteries and power stations can burn; store and charge them as their ma
 | ✔ ~ ✗ | Item | Notes | Page |
 |---|---|---|---|
 | [ ] | **★ The most legitimate on-hand supply of every daily and rescue medicine your prescribers allow** | The household's medical clock. Ask now (→ 12-07) | → 22-06 |
-{{#if has.anaphylaxis}}| [ ] | **★ In-date epinephrine, a pair for every place the allergic person spends time** | A second dose is often needed (CDC, Recognizing and Responding to Anaphylaxis) | → 02-03 |
+{{#if has.anaphylaxis}}| [ ] | **★ In-date epinephrine, a pair for every place the allergic person spends time** | A second dose may be needed (AAP, Allergy and Anaphylaxis Emergency Plan) | → 02-03 |
 {{/if}}{{#if has.refrigerated_meds}}| [ ] | **★§ Cold chain for refrigerated medicine**: a 12 V fridge or cooler, a thermometer, an evaporative cooling pouch | → 29-07 | → 12-21, → 09-10 |
 {{/if}}| [ ] | **★ Trauma kit**: tourniquet, pressure dressings, wound-packing gauze, and the training | | → 12-02 |
 | [ ] | General first-aid supplies; wound closure; splints | | → 12-01, → 12-09, → 12-14 |
 | [ ] | Over-the-counter medicines in quantity, adult and child forms, with a written list | **Children do not have access to firearms, fuel, medications or chlorine products.** | → 12-13, → 12-07 |
-| [ ] | Oral rehydration salts | Dehydration kills more people in long events than trauma | → 12-05 |
+| [ ] | Oral rehydration salts | Diarrhoea and dehydration are common when water and sanitation fail, and treatable at home with these | → 12-05 |
 | [ ] | Dental first aid: temporary filling material, clove oil | No dentist for a long time | → 12-06 |
 | [ ] | Thermometers: one for people, one for the fridge or medicine store | | → 12-05 |
 | [ ] | Spare prescription glasses, reading glasses, hearing-aid batteries | Cheap, and you cannot function without them | → 02-23 |

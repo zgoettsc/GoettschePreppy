@@ -33,11 +33,14 @@ power and repair (→ 15-06, → 09-08). This is a "do it this month" page: the 
 and the local network of people are all available now, cheaply, and not later.
 
 > **Before the collapse:** transmitting on amateur bands requires an FCC licence while the FCC
-> operates (47 CFR Part 97). The entry-level **Technician** exam needs **no Morse code**, and
-> study material is free (ARRL, Getting Licensed). Licences run for ten years and expire quietly:
+> operates (47 CFR Part 97). The entry-level **Technician** exam is one written test of 35
+> questions and needs **no Morse code** (47 CFR 97.501, 97.503; ARRL, Getting Licensed). Licences
+> run for ten years (47 CFR 97.25) and expire quietly:
 > write the expiry date down and renew in good time; an FCC fee may apply, so check the current
-> fee when you apply. Part 97 also has a narrow emergency provision for licensed stations when
-> normal communications are down. **Listening needs no licence at all.**
+> fee when you apply. Part 97 also says nothing in its rules stops an amateur station using any
+> means at its disposal for essential communication about the immediate safety of life when
+> normal communications are down, or a station in distress from using any means to get help
+> (47 CFR 97.403, 97.405). **Listening needs no licence at all.**
 
 ## Do this now
 

@@ -2,7 +2,7 @@
 id: 22-06-kit-medical
 section: 22-master-lists-acquire-and-scavenge
 title: "Medical go-kit"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -17,8 +17,10 @@ sources:
   - american-academy-of-allergy-asthma-and-immunology-aa-7f3939
   - american-diabetes-association-insulin-storage-and-sy-6f1f94
   - american-college-of-surgeons-stop-the-bleed-stop-the-8d1b5b
+  - usuhs-ncdmph-stop-the-bleed-apply-a-tourniquet-r7
+  - american-academy-of-pediatrics-aap-allergy-and-anaph-3e6f49
 related: [22-03-go-bags-and-kits, 22-05-kit-vehicle, 01-07-evacuating-with-medical-needs, 12-01-first-aid-kit, 12-07-meds-stockpile, 12-08-medical-kit-tiers, 12-11-chronic-conditions, 12-16-triage-and-hard-calls, 12-21-evaporative-cooling-pouches, 25-09-family-medical-summary, 23-02-master-consumables-table, 29-07-ex07-refrigerated-medicines, 02-01-cl01-type-1-diabetes-injections, 02-03-cl03-anaphylaxis]
-cards: [DC-04, DC-08, DC-15, DC-16]
+cards: [DC-04, DC-08, DC-15, DC-16, DC-25]
 explainers: [EX-07, EX-14]
 promote_when: [has.refrigerated_meds, has.anaphylaxis, has.epinephrine, has.oxygen, has.cpap]
 photo_slots:
@@ -29,7 +31,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Tourniquet floor reworded per docs/05 (DC-25); second dose re-cited to AAP; belt-as-tourniquet line aligned with 12-02; dehydration claim softened." }
 ---
 
 # Medical go-kit
@@ -49,7 +51,8 @@ Section 02. Build this kit before any other kit in the binder.
 > - **A frozen-then-thawed insulin vial or pen is discarded.**
 > - **Children do not have access to firearms, fuel, medications or chlorine products.** The kit
 >   is closed and rides with an adult.
-> - **Never loosen a tourniquet once placed; mark the time.**
+> - **Never loosen a tourniquet once placed while help can still come; mark the time.** If no
+>   help will ever come, the conversion decision is DC-25 (→ 30-26).
 
 ## Do this now
 
@@ -148,8 +151,9 @@ the ones your settings selected; the rest stay here so a condition can be added 
 
 {{#if has.anaphylaxis}}**Anaphylaxis is in this household.**{{else}}No anaphylaxis is entered; read this anyway.{{/if}}
 
-- **Epinephrine in pairs, in date.** A second dose is often needed (CDC; AAAAI). One device is
-  not a kit.
+- **Epinephrine in pairs, in date.** A second dose may be needed if symptoms get worse,
+  continue or do not get better in 5 minutes (AAP, Allergy and Anaphylaxis Emergency Plan).
+  One device is not a kit.
 - **The written, signed plan from the prescriber**, laminated, in the pouch. Anyone must be
   able to follow it, including someone who has never met the person (→ 02-03).
 - **Medical ID on the person** listing the allergens.
@@ -197,11 +201,11 @@ the ones your settings selected; the rest stay here so a condition can be added 
 
 | Category | Items |
 |---|---|
-| **Bleeding** | Tourniquet (and the training), pressure dressing, wound-packing gauze, gauze rolls, tape (Stop the Bleed; → 12-02) |
+| **Bleeding** | Tourniquet (and the training), pressure dressing, wound-packing gauze, gauze rolls, tape (Stop the Bleed, USUHS; → 12-02) |
 | **Wounds** | Irrigation syringe, antiseptic, non-stick pads, closure strips; sutures or stapler **only if trained** (→ 12-14) |
 | **Infection** | Antibiotic ointment. Prescribed antibiotics only; using them without a prescription is a household choice: {{choice DC-16}} → 30-17 |
 | **Burns** | Non-stick dressings, cling film, clean water (→ 12-03) |
-| **Fluids** | **Oral rehydration salts**: dehydration kills more often than trauma in long events (→ 12-05) |
+| **Fluids** | **Oral rehydration salts**: diarrhoea and dehydration are common when water and sanitation fail (→ 12-05) |
 | **Fever and pain** | Adult and **child** forms, each with the dosing tool from its package; a thermometer (→ 12-13) |
 | **Splints** | Padded aluminium splint, wrap, triangular bandages (→ 12-09) |
 | **Barrier** | Nitrile gloves (several pairs), N95 masks, eye protection, CPR face shield |
@@ -234,7 +238,8 @@ It handles **hours to days**, not months. It cannot:
 ## If you do not have it
 
 - **The general pouch substitutes broadly:** clean cloth for gauze, boiled water for
-  irrigation, improvised splints (→ 12-09). A belt is a poor tourniquet but better than nothing.
+  irrigation, improvised splints (→ 12-09). **A tourniquet is the exception:** improvised ones
+  often fail (→ 12-02), so firm direct pressure and wound packing come first.
 - **Medicines do not substitute.** Found medicine of unknown storage history cannot be trusted
   as the primary: heat and freezing damage are invisible (→ 22-02).
 - **The one thing you can always improvise is the written plan.** Copy the essentials onto

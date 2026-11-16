@@ -47,7 +47,7 @@ as much about **filtering and rationing** information as gathering it.
 
 | Layer | What it gives you | How it fails |
 |---|---|---|
-| **NOAA Weather Radio** | Weather warnings, straight from the NWS (→ 15-01) | Late: transmitters have backup power |
+| **NOAA Weather Radio** | Weather warnings, straight from the NWS (→ 15-01) | Usually among the last to go, but a transmitter can go off the air |
 | **Local AM and FM** | Local conditions, official information | Stations run on generators for a while, then fade |
 | **AM at night** | Distant stations: AM carries far after dark | Very durable; often the last broadcast standing |
 | **Shortwave** | Regional and world broadcasts | **Least dependent on local infrastructure**; no licence to listen |

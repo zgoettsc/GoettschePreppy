@@ -12,6 +12,8 @@ derived_from: [19-02-cash-and-value]
 sources:
   - consumer-financial-protection-bureau-disasters-and-e-44eaa3
   - federal-deposit-insurance-corporation-fdic-consumer-ecc3ff
+  - fdic-understanding-deposit-insurance
+  - ncua-share-insurance-coverage
   - usa-gov-find-disaster-financial-help-fbcd9e
   - american-red-cross-power-outage-safety-6d07a8
 related: [19-01-document-grab-kit, 19-03-records-and-backups, 19-04-insurance-and-claims, 19-06-bank-access-in-crisis, 19-07-access-continuity, 19-08-income-continuity, 18-01-mutual-aid, 18-02-barter-and-trade-goods, 18-03-skills-as-currency, 14-03-opsec, 17-08-power-grid-failure, 17-03-floods, 17-09-pandemic-and-illness, 22-03-go-bags-and-kits, 22-05-kit-vehicle, 25-03-regional-contacts, 01-03-phase-b-movement, 12-07-meds-stockpile, 12-11-chronic-conditions]
@@ -53,8 +55,9 @@ cash-only, and ATMs empty fast. Most households have no cash at all.
    cash. One point of failure is a real risk (→ 19-06).
 
 > **Before the collapse:** bank deposits are insured by the FDIC, and credit union deposits by the
-> NCUA, up to $250,000 per depositor, per institution, per ownership category (FDIC Consumer
-> Resource Center). Know which insurer covers each of your accounts.
+> NCUA, up to $250,000 per depositor, per institution, per ownership category (FDIC,
+> Understanding Deposit Insurance; NCUA, Share Insurance Coverage). Know which insurer covers each
+> of your accounts.
 
 ## How a broken economy goes
 

@@ -9,7 +9,7 @@ danger_level: caution
 phase: [A, B]
 tags: [travel, route, check-in, PACE, text first, "911", CB, GMRS, satellite, dead zones, visor card, charging, overdue]
 derived_from: [15-09-corridor-comms]
-sources: [fema-ready-gov-create-your-family-emergency-communic-584e89, us-government-publishing-office-ecfr-47-cfr-part-95-c8b55a, noaa-national-weather-service-noaa-weather-radio-all-5f13d8, noaa-national-weather-service-winter-weather-safety-49fc7a, apple-support-use-emergency-sos-via-satellite-messag-68d4e2, federal-communications-commission-9-1-1-and-e9-1-1-s-a8c9c7, cdc-carbon-monoxide-poisoning-basics-772153]
+sources: [fema-ready-gov-create-your-family-emergency-communic-584e89, us-government-publishing-office-ecfr-47-cfr-part-95-c8b55a, noaa-national-weather-service-noaa-weather-radio-all-5f13d8, nws-winter-storm-during, apple-support-use-emergency-sos-via-satellite-messag-68d4e2, ecfr-47-cfr-part-9-911-requirements, cdc-carbon-monoxide-poisoning-basics-772153]
 related: [15-08-destination-comms, 15-03-family-comms-plan, 15-01-weather-alerts, 15-02-radio-options, 15-06-antennas-and-range, 17-11-corridor-hazards, 17-01-blizzards-and-ice, 17-08-power-grid-failure, 25-04-maps, 25-08-quick-reference-cards, 01-03-phase-b-movement, 01-07-evacuating-with-medical-needs, 09-03-batteries-and-storage, 09-14-car-batteries-in-practice, 22-05-kit-vehicle, 14-03-opsec, 08-02-carbon-monoxide-safety]
 cards: [DC-19]
 explainers: [EX-09, EX-03]
@@ -35,8 +35,9 @@ are on → 17-11 and the maps on → 25-04; this page is only about staying hear
 > **CAUTION.** **If the road stops you, stay with the vehicle, at a named town if you can, note
 > the time, and wait**: the overdue trigger on → 15-08 is doing the searching. If you run the
 > engine for heat while stopped, keep the tailpipe clear of snow and a window cracked: a blocked
-> exhaust fills a car with carbon monoxide (CDC, Carbon Monoxide Poisoning Basics; NWS, Winter
-> Weather Safety; → 08-02).
+> exhaust fills a car with carbon monoxide. The NWS says: stay in the vehicle, clear snow from the
+> exhaust pipe, and open a window a little while the engine runs (NWS, What To Do If You're
+> Caught in a Winter Storm; CDC, Carbon Monoxide Poisoning Basics; → 08-02).
 
 ## Do this now
 
@@ -83,7 +84,7 @@ information, not an alarm; only the arrival deadline starts the calls** (→ 15-
 
 | Rung | Channel | The reality |
 |---|---|---|
-| **P** | **Phone, and text first** | **A text queues and retries through weak, brief signal that a call cannot hold**; one sent in a dead zone often goes through at the next hilltop. Send check-ins as texts by default. **911 connects from any phone on any carrier's tower**, even one showing "No Service" or with no plan: call it rather than texting (FCC, 9-1-1 and E9-1-1 Services). Wi-Fi calling (→ 15-03) works over any gas-station or motel Wi-Fi |
+| **P** | **Phone, and text first** | **A text queues and retries through weak, brief signal that a call cannot hold**; one sent in a dead zone often goes through at the next hilltop. Send check-ins as texts by default. **911 connects from any phone on any carrier's tower**, even when your own carrier shows "No Service", or with no plan, as long as some carrier's tower is in reach: call it rather than texting (47 CFR 9.10). Wi-Fi calling (→ 15-03) works over any gas-station or motel Wi-Fi |
 | **A** | **The other adult's phone** | A different carrier means different towers. A stopped trucker's phone or a gas-station phone is also an alternate: the message matters, not whose phone |
 | **C** | **GMRS and CB** | GMRS on the family channel near home or the destination where someone is listening (→ 15-03, → 15-08). On the open road, **CB channel 19 is where truckers are**: road news and a message someone will relay; **channel 9 is the traditional emergency channel, but assume nobody official listens.** A radio call to a stranger who will phone your node *is* reach-back |
 | **SAT** | **Satellite texting** | Some phones (for example iPhone 14 and later) can send an **emergency SOS by satellite** with your location when there are no bars, and newer software can send ordinary texts by satellite (Apple Support, Emergency SOS via satellite). **Clear sky, step out of the vehicle, hold the phone up, follow the on-screen pointer; it is slow, so send one short line.** A satellite messenger does the same **only with a paid subscription.** Satellite internet in the vehicle needs a plan that allows use while moving (→ 15-02) |
@@ -107,7 +108,7 @@ TEXT FIRST. WHO / STATUS (OK - NEED HELP - MOVING)
             / WHERE / NEXT CHECK-IN
 C: GMRS ch ____ . CB 19 (truckers) / 9 (emergency)
 SAT: SOS by satellite: clear sky, hold phone up
-911 works on ANY tower, even "No Service"
+911 works on ANY carrier's tower
 E: weather radio - step through all 7 channels
 IF STOPPED: stay with vehicle, named town if you
 can, note time, wait - the trigger is running

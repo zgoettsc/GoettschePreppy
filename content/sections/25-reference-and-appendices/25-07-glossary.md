@@ -2,7 +2,7 @@
 id: 25-07-glossary
 section: 25-reference-and-appendices
 title: "Glossary: every term in plain words"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: none
@@ -26,7 +26,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Card range DC-01 to DC-29; tourniquet and second-dose wording aligned; hazard rating aligned with EX-10; hardening off aligned with 25-01." }
 ---
 
 # Glossary: every term in plain words
@@ -50,7 +50,7 @@ definitions orient you; the page in the last column does the work. The explainer
 | **Phase A, B, C** | The three-part plan: **A** = stay home (shelter in place); **B** = move (evacuate); **C** = settle somewhere new (establish) | → 01-01 to → 01-04 |
 | **Go/no-go** | The decision to leave or stay, made against triggers the household wrote in advance | → 01-02 |
 | **Floor** | One of nine rules that are not choices, because the failure kills without warning and nothing makes it safe | → 30-01 |
-| **Decision card** | A one-page trade-off (DC-01 to DC-24) where the household chooses its own risk; your answer prints wherever the subject comes up | → 30-02 to → 30-25 |
+| **Decision card** | A one-page trade-off (DC-01 to DC-29) where the household chooses its own risk; your answer prints wherever the subject comes up | → 30-02 to → 30-30 |
 | **Explainer** | A one-page lesson on a subject newcomers are not expected to know (EX-01 to EX-15) | → 29-01 to → 29-15 |
 | **Condition module** | The pages for one medical condition (CL-01 to CL-26); the ones you ticked are moved forward | Section 02 |
 | **Core, region, household layers** | Core: the same for every household. Region: your state's climate, hazards, offices and plants. Household: your people, gear and plans, filled from settings | → 29-15 |
@@ -75,7 +75,7 @@ definitions orient you; the page in the last column does the work. The explainer
 | Term | Meaning | Page |
 |---|---|---|
 | **Anaphylaxis** | A severe, fast, life-threatening allergic reaction affecting breathing or circulation. **Epinephrine is the treatment; antihistamines are not** | → 02-03 |
-| **Epinephrine** | The medicine that treats anaphylaxis (adrenaline). Comes in **auto-injectors** (a pen pressed into the outer thigh) and a nasal spray. **A second dose is often needed** | → 02-03 |
+| **Epinephrine** | The medicine that treats anaphylaxis (adrenaline). Comes in **auto-injectors** (a pen pressed into the outer thigh) and a nasal spray. **A second dose may be needed** | → 02-03 |
 | **Antihistamine** | An allergy medicine for itching and hives. **Never instead of epinephrine, never first** in anaphylaxis | → 02-03 |
 | **Cross-contact** | An allergen carried onto safe food by a shared surface, utensil or hands | → 02-04 |
 | **Type 1 diabetes** | The pancreas makes almost no insulin. **Insulin is not optional and has no substitute** | → 02-01 |
@@ -106,7 +106,7 @@ definitions orient you; the page in the last column does the work. The explainer
 | **Frostbite** | Frozen skin and tissue, usually fingers, toes, ears, nose. **Minutes at extreme wind chill** | → 08-05 |
 | **Heat exhaustion / heat stroke** | Overheating with heavy sweating and weakness / a life-threatening emergency with confusion and very high body temperature | → 17-04 |
 | **ORS (oral rehydration solution)** | Water with the right salt and sugar to replace what diarrhoea and vomiting lose | → 12-05 |
-| **Tourniquet** | A tight band above a bleeding arm or leg wound that stops the blood. **Never loosened once placed; mark the time** | → 12-02 |
+| **Tourniquet** | A tight band above a bleeding arm or leg wound that stops the blood. **Never loosened once placed while help can still come; mark the time** (a floor, → 30-01; if no help will ever come, → 30-26) | → 12-02 |
 | **Wound packing** | Stuffing gauze firmly into a deep wound and pressing to stop bleeding | → 12-02 |
 | **Triage** | Sorting injured people by who benefits most from limited help | → 12-16 |
 | **Sepsis** | A life-threatening body-wide response to infection | → 12-04 |
@@ -160,7 +160,7 @@ definitions orient you; the page in the last column does the work. The explainer
 | **Frost date** | The median date of the last spring or first fall frost; half of years are worse | → 25-01 |
 | **Hardiness zone** | The USDA zone for a place's average coldest winter night; tells which perennials survive | → 25-01 |
 | **Days to maturity** | On a seed packet: days from planting to harvest | → 25-01 |
-| **Hardening off / succession sowing** | Getting seedlings used to outdoors over 7 to 10 days / small sowings every few weeks | → 25-01 |
+| **Hardening off / succession sowing** | Getting seedlings used to outdoors over one to two weeks / small sowings every few weeks | → 25-01 |
 
 ## Fire, fuel and heat
 
@@ -202,7 +202,7 @@ definitions orient you; the page in the last column does the work. The explainer
 | **Power station** | A portable battery with outlets and an inverter inside | → 29-02 |
 | **Inverter** | Turns battery (DC) power into household (AC) power; loses some energy doing it | → 29-02 |
 | **AC / DC** | Alternating current from wall outlets / direct current from batteries and solar | → 09-12 |
-| **LiFePO4 (LFP)** | Lithium iron phosphate, a long-lived, safer lithium battery; **must not be charged below freezing** | → 29-02 |
+| **LiFePO4 (LFP)** | Lithium iron phosphate, a long-lived, safer lithium battery; **must not be charged below freezing** unless its battery system blocks cold charging | → 29-02 |
 | **Lead-acid** | Car, marine and AGM batteries: heavy, and damaged by deep draining | → 29-02 |
 | **Depth of discharge** | How far a battery is drained; deeper shortens its life | → 09-07 |
 | **Solar panel; charge controller** | Turns sunlight into DC power / regulates it into the battery | → 09-02 |
@@ -250,7 +250,7 @@ definitions orient you; the page in the last column does the work. The explainer
 | **Advisory** | Hazardous but less severe; adjust plans | → 29-10 |
 | **Wind chill** | How cold the air feels on skin with wind; it sets how fast frostbite happens (NWS, Wind Chill Chart) | → 29-10 |
 | **Heat index** | How hot it feels with humidity; full sun can add more | → 29-10 |
-| **Hazard rating 1 to 3** | The region appendix's rating of each natural hazard for a county: 1 lower, 3 higher | → 29-10 |
+| **Hazard rating 1 to 3** | The region appendix's rating of each natural hazard for a county: 1 lower, 3 higher. It says how much the hazard deserves planning, not how likely it is on any day | → 29-10 |
 | **Blizzard / ground blizzard** | Wind and blowing snow that cut visibility, **not a snowfall total** / the same with no new snow, closing roads in clear weather | → 17-01 |
 | **Derecho** | A long, wide, fast-moving line of damaging straight-line wind | → 17-18 |
 | **Flash flood** | Fast flooding with little warning. **Never drive into water over a road** | → 17-03 |

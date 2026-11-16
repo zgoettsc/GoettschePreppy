@@ -2,7 +2,7 @@
 id: 06-06-fuel-storage-safety
 section: 06-fire-and-fuel
 title: "Storing fuel safely (gasoline, propane, kerosene)"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -11,7 +11,6 @@ tags: [fuel storage, gasoline, kerosene, propane, diesel, garage, can colours, l
 derived_from: [06-06-fuel-storage-safety]
 sources:
   - cdc-carbon-monoxide-poisoning-basics-772153
-  - cdc-atsdr-toxfaqs-for-automotive-gasoline-1cb179
   - university-of-missouri-extension-unvented-portable-k-e850fe
   - nfpa-nfpa-58-liquefied-petroleum-gas-code-storage-of-13af35
   - enerco-group-mr-heater-manufacturer-portable-buddy-r-759ce5
@@ -20,6 +19,13 @@ sources:
   - honda-eu-generator-fuel-recommendations
   - cdc-how-to-make-water-safe-in-an-emergency-5d78b5
   - national-capital-poison-center-poison-control-1-800-e428c9
+  - maryland-mde-gasoline-safety-r3
+  - niosh-fire-hazard-filling-gas-cans-in-pickups-1998-r3
+  - hawaii-gas-engineering-guide-lp-tank-vapor-r3
+  - minnesota-sfm-lp-gas-inside-buildings-r3
+  - niosh-npg-gasoline-r3
+  - niosh-npg-propane-r3
+  - medlineplus-us-national-library-of-medicine-nih-pois-665b85
 related:
   - 03-04-purifying-water
   - 03-08-keeping-water-from-going-bad
@@ -53,7 +59,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Vapour/heavier-than-air claim re-sourced (MDE/API, NIOSH NPG; ATSDR ToxFAQs did not support it); 5 ft and 1-lb indoor limit traced via Hawaii Gas/MN SFM; propane-indoors 'never' aligned with DC-02; 95 percent fill; Dyna-Glo K-1 and storage." }
 ---
 
 # Storing fuel safely (gasoline, propane, kerosene)
@@ -76,7 +82,8 @@ are and how to tell them apart.
 > - **Bleach or pool shock is never mixed with ammonia, acids or other cleaners.** Chlorine gas.
 >
 > **Gasoline vapour is heavier than air. It flows along the floor and can be lit by a water
-> heater's pilot light across the room** (CDC/ATSDR, ToxFAQs for Automotive Gasoline). If you
+> heater's pilot light across the room** (Maryland Department of the Environment, Gasoline Safety;
+> CPSC, Fuel Container Safety). If you
 > smell strong fuel vapour indoors or in a garage: no light switches, no engines, no flames;
 > get everyone out; open doors from outside if you can.
 
@@ -87,11 +94,13 @@ are and how to tell them apart.
    then pour.** Kerosene smells oily, like lamp fuel; gasoline is sharp and stings the eyes.
 2. **Keep gasoline and kerosene apart**: not on the same shelf, not touching, a gap you can see.
 3. **Propane cylinders outdoors**, upright, valves closed and capped, away from doors, windows
-   and vents, and **at least 5 feet from anything that can light them** (NFPA 58).
+   and vents, and **at least 5 feet from anything that can light them** (NFPA 58, as quoted in
+   Hawaii Gas, Gas Engineering Guide).
 4. **Never pour or transfer fuel indoors or in a garage.** Carry the can outside, pour, cap it,
    carry it back (→ 06-07).
-5. **Never store gasoline in the house or basement. Never store propane cylinders in the house
-   or basement**, not even "just for the winter".
+5. **Never store gasoline in the house or basement** (CPSC, Fuel Container Safety). **Propane
+   cylinders larger than 1 lb live outdoors**, never in a basement; bringing one inside is a
+   decision card, not a winter habit (→ 30-03).
 6. **Approved fuel containers only**, labelled. Never milk jugs, drink bottles or unlabelled cans.
 7. **Away from anything that sparks or burns**: water heater, furnace, pilot lights, electrical
    panel, woodpile.
@@ -116,10 +125,11 @@ Distance from the fuel to the nearest pilot light, igniter, heater or engine: __
 
 ## Can colours, and why the label wins
 
-In the US, fuel cans are usually coloured by an industry convention: **red for gasoline, yellow
-for diesel, blue for kerosene** (→ 29-01). Many heater makers say the same: one common kerosene
-heater manual says store kerosene only in a blue container clearly marked "kerosene", never a red
-one (GHP Group/Dyna-Glo, kerosene heater manual).
+In the US, fuel cans are usually coloured by an industry convention, not a law: **red for
+gasoline, yellow for diesel, blue for kerosene** (→ 29-01). Heater makers lean on it: one common
+kerosene heater manual says store kerosene only in a blue container clearly marked "kerosene",
+never a red one, because red containers are associated with gasoline (GHP Group/Dyna-Glo,
+kerosene heater manual).
 
 **Use the convention, but trust the label.** Cans get reused, faded and borrowed, and some
 households have cans in other colours. So:
@@ -152,37 +162,45 @@ longer than the pour.{{/if}}
 
 ## Gasoline: the dangerous one
 
-It is not the liquid that explodes, it is the **vapour**. Gasoline gives off vapour even in the
-cold. The vapour is **heavier than air**, so it sinks, flows along the floor and pools in low
-spots, and it lights at very low concentrations. A can leaking in a basement corner can be set off
-by a furnace igniter on the other side of the room.
+It is not the liquid that explodes, it is the **vapour**. Gasoline gives off enough vapour to
+burn at temperatures far below zero (its flash point is about −45 °F), and a mixture of only
+about 1.4 percent gasoline vapour in air can light (NIOSH Pocket Guide, Gasoline). The vapour is
+**heavier than air**, so it sinks, flows along the floor and pools in low spots (Maryland
+Department of the Environment, Gasoline Safety). A can leaking in a basement corner can be set
+off by a furnace igniter on the other side of the room.
 
 - **Detached storage is the standard**: a shed or an outdoor locker, ventilated, shaded, locked.
 - **Approved, sealed containers**; newer ones have a flame arrester (a mesh at the spout that
   stops a flame entering the can) (CPSC, Fuel Container Safety). Keep cans out of direct sun.
 - **Never fill a can sitting inside a vehicle or on a plastic truck-bed liner**: a static spark
-  can light the vapour. Set it on the ground, nozzle touching the can (→ 06-07).
+  can light the vapour. Set it on the ground, nozzle touching the can (NIOSH, Fire Hazard from
+  Filling Portable Gas Cans; → 06-07).
 - **Never siphon by mouth.** Use a pump (→ 06-07).
 
 ### Gasoline goes stale: months, not years
 
 Gasoline ages. Air and heat break it down, ethanol in pump gas draws water from the air, and
-stale gas leaves gum in small engines (Honda Power Equipment, Fuel Recommendations). **Untreated
-gasoline keeps for months, not years.** Stabiliser slows this if it is added when the fuel is
-fresh; it cannot fix fuel that is already stale, and it has its own shelf life (Honda).
+stale gas causes starting and running problems in small engines (Honda Power Equipment, Fuel
+Recommendations). **Untreated gasoline keeps for months, not years.** Stabiliser slows this if it
+is added when the fuel is fresh; it cannot fix fuel that is already stale, and it has its own
+shelf life (Honda).
 
 **A simple rotation that works:**
 - Add stabiliser **when you fill the can**. Write the date and "STABILISED" on the can.
-- **Keep cans full.** Less air in the can means less ageing and less water.
+- **Keep cans nearly full** (no more than about 95 percent, so the fuel has room to expand;
+  Maryland Department of the Environment). Less air in the can means less ageing and less water
+  (Honda).
 - On a set schedule, **pour each can into a vehicle's tank and refill it fresh**. Put the date on
   the rotation tracker (→ 26-08).
-- If ethanol-free gasoline is sold near you, it keeps better in small engines.
+- Ethanol pulls water from the air (Honda), so where ethanol-free gasoline is sold, it avoids
+  that problem in stored cans and small engines.
 
 **Old gasoline** (or kerosene, or diesel): whether to use it is a decision card with a jar test on
 it. {{choice DC-17}} → 30-18.
 
 > **Before the collapse:** gasoline too old to use goes to your county or city household
-> hazardous waste collection. Never pour it on the ground, down a drain, or burn it.
+> hazardous waste collection. Never pour it on the ground, down a drain, or burn it (Maryland
+> Department of the Environment, Gasoline Safety).
 
 **Generator fuel.** Use only the fuel your generator's manual names, and follow its steps for
 switching fuels and for storage. Stale gasoline in a carburettor is the usual reason a stored
@@ -196,11 +214,14 @@ appliance.
 - Cylinders are tough, but must be **upright, secured, and outdoors**. Heat raises the pressure;
   the relief valve then vents **flammable gas**.
 - **At least 5 feet from anything that can light it**: an air-conditioner unit, a running
-  generator, a grill in use (NFPA 58).
+  generator, a grill in use. NFPA 58 sets 5 feet from a cylinder's relief valve to any outside
+  ignition source (NFPA 58, as quoted in Hawaii Gas, Gas Engineering Guide). More is better.
 - Heater makers say the same in their own words: cylinders are stored outdoors, never in a
-  building or garage (Enerco Group, portable radiant heater manual). NFPA 58 limits cylinders kept
-  inside a home, attached garages included, to the 1-lb class (NFPA 58).
-- **Never in a basement.** Propane is **heavier than air** and pools in low spaces.
+  building or garage (Enerco Group, portable radiant heater manual). Fire codes based on NFPA 58
+  limit cylinders kept inside a home, attached garages included, to the 1-lb class (NFPA 58;
+  Minnesota State Fire Marshal, LP Gas Inside Buildings).
+- **Never in a basement.** Propane is **heavier than air** (NIOSH Pocket Guide, Propane) and
+  pools in low spaces.
 - **Check for leaks with soapy water** brushed on the connection: growing bubbles mean a leak.
   **Never with a flame.**
 - **Valves closed and capped** when not in use. Do not overfill.
@@ -216,19 +237,22 @@ Kerosene gives off much less vapour than gasoline, so it is easier to store. It 
 
 **Grades: the difference that matters.**
 - **K-1 (also written 1-K): clear, low-sulfur.** **The only grade for any heater used in, or
-  vented into, living space** (MU Extension, Unvented Portable Kerosene Heaters, G1999). Buy it
-  clear and undyed where you can.
+  vented into, living space** (MU Extension, Unvented Portable Kerosene Heaters, G1999). Heater
+  makers say the same: "never use any fuel other than water-clear 1-K kerosene" (GHP
+  Group/Dyna-Glo manual). Buy it clear and undyed where you can.
 - **K-2 and red-dyed kerosene:** higher sulfur, sootier, more fumes. Outdoor use only; it fouls
   wicks and burners faster. Pump kerosene of unknown grade is treated as K-2.
 - Never lamp oil in a heater, never gasoline in anything that burns kerosene.
 
 **Storage.**
 - **Labelled cans** (blue is the usual colour), away from anything that sparks, out of the living
-  space, **cool and dark**: heat and sunlight age it.
-- **Keep cans full.** A part-full can "breathes" damp air as temperatures swing, water condenses
-  inside, and water grows sludge that clogs wicks and burners.
+  space, **cool and out of the sun** (GHP Group/Dyna-Glo manual).
+- **Keep cans nearly full.** A part-full can "breathes" damp air as temperatures swing, and
+  water condenses inside (the heater manual warns the same of part-empty storage tanks); water and
+  dirt clog wicks and burners.
 - **Date every can** and burn the oldest first.
-- **Refuel heaters outdoors, with the heater cold**, never hot or running (→ 08-10).
+- **Refuel heaters outdoors, with the heater cold**, never hot or running (GHP Group/Dyna-Glo
+  manual; → 08-10).
 
 **The jar test before burning stored kerosene.** Pour a sample into a clean, clear glass jar and
 let it stand. Good fuel is **clear and bright**. Water sits as a layer or droplets at the bottom;
@@ -275,10 +299,13 @@ container**; keep everyone upwind and away. Poison Control: **1-800-222-1222**; 
 
 ## Children
 
-- **Locked storage.** A curious small child and an unlocked fuel can is a catastrophe.
+- **Locked storage, and child-resistant caps.** CPSC requires child-resistant closures on
+  portable gasoline, diesel and kerosene containers; keep the cap on every time (CPSC, Fuel
+  Container Safety). A curious small child and an unlocked fuel can is a catastrophe.
 - **Never pour fuel into a drink bottle or food container.** This is how children are poisoned
   (CPSC). No exceptions, not even "just for a minute". If a child swallows any fuel or lamp oil:
-  **do not make them vomit; call Poison Control, 1-800-222-1222** (→ 12-17).
+  **do not make them vomit** (MedlinePlus, Poisoning first aid); **call Poison Control,
+  1-800-222-1222** (→ 12-17).
 - **Teach the rule** as an absolute line (→ 20-02).
 
 {{#if has.child}}There are children under 13 in this household. Every fuel store is locked, every
@@ -319,8 +346,7 @@ More fuel is more capability and more risk.
 
 ## When it runs out
 
-- **Track quantity and age.** A full can of fuel two years old may not run the generator when you
-  need it.
+- **Track quantity and age.** A full can of old fuel may not run the generator when you need it.
 - **Save liquid fuels for the jobs only they can do**: generator runs for medical devices
   (→ 09-06), fast cooking in extreme weather.
 - **In a long emergency, liquid fuels do not come back. Wood does.** Plan the change (→ 06-05).

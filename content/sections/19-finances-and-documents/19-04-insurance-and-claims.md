@@ -2,7 +2,7 @@
 id: 19-04-insurance-and-claims
 section: 19-finances-and-documents
 title: "Insurance and claims"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -14,6 +14,8 @@ sources:
   - usa-gov-find-disaster-financial-help-fbcd9e
   - internal-revenue-service-reconstructing-records-afte-28669f
   - cdc-preparing-for-floods-safety-cleanup-and-hygiene-d00a5d
+  - fema-nfip-floodsmart-buy-a-policy
+  - fema-nri-counties
 related: [19-01-document-grab-kit, 19-02-cash-and-value, 19-03-records-and-backups, 19-07-access-continuity, 19-08-income-continuity, 22-04-household-inventory, 25-03-regional-contacts, 25-05-blank-logs, 25-10-annual-review, 16-12-grid-down-house-repairs, 17-01-blizzards-and-ice, 17-02-tornadoes, 17-03-floods, 17-08-power-grid-failure, 17-12-earthquakes, 17-13-hurricanes-and-tropical-storms, 17-14-wildfire-smoke-and-evacuation, 17-18-hail-and-damaging-wind, 04-17-food-safety-power-outage, 14-04-caliber-roles-and-inventory, 18-01-mutual-aid, 01-05-choosing-a-destination]
 cards: []
 explainers: []
@@ -38,6 +40,9 @@ most households have never read.
 **Your home county's main hazards:**
 {{#each region.home.hazards as h}}- {{h.name}}: {{h.rating_text}}
 {{/each}}
+These ratings come from FEMA's National Risk Index (FEMA, National Risk Index). They weigh how much
+there is to damage as well as how often a hazard strikes, so "low" is not a promise that it will
+not happen to you. Your state page in Section 32 explains them.
 
 > **CAUTION. Two things that surprise people, both worth knowing now.**
 > 1. **Standard homeowner's and renter's policies usually do not cover flood.** Flood coverage is a
@@ -51,11 +56,12 @@ most households have never read.
 >
 > **This page cannot tell you what your policy covers. Read it, and call your agent.**
 
-> **Before the collapse:** policies from the National Flood Insurance Program generally take effect
-> 30 days after purchase, with exceptions such as buying at a mortgage closing; private flood
-> policies may have a shorter wait. Flood policies pay very little for contents in a basement or
-> other below-ground area. FEMA's flood maps show whether an address is in a mapped flood zone; your
-> agent can look it up.
+> **Before the collapse:** a National Flood Insurance Program policy takes effect 30 days after
+> you buy it. The exceptions are narrow, such as buying it while making, increasing, extending or
+> renewing a mortgage (FEMA FloodSmart, Buy a Policy). A private flood policy has its own terms;
+> ask. NFIP policies do not cover personal property kept in a basement, temporary housing while
+> the home is repaired, or sewer backup unless it is caused directly by flooding (FEMA FloodSmart).
+> FEMA's flood maps show whether an address is in a mapped flood zone; your agent can look it up.
 
 ## Do this now
 
@@ -63,7 +69,7 @@ most households have never read.
    have their own deductible. One afternoon, once.
 2. **Ask your agent three questions:** Am I covered for flood? Is my dwelling coverage enough to
    rebuild at today's costs? What is my wind and hail deductible?
-3. **Ask two more if you have a basement:** what a flood policy pays for basement contents, and
+3. **Ask two more if you have a basement:** what a flood policy pays for in the basement, and
    whether you can add **sewer and sump-pump backup** coverage (→ 17-08). That is the water event many
    houses actually have.
 4. **Do the photo inventory** (→ 19-01, → 22-04), an hour with a phone, stored away from home. This is
@@ -79,7 +85,7 @@ most households have never read.
 | Hurricane | Often its own deductible; storm surge counts as flood |
 | Fire and wildfire | Usually covered |
 | Ice and winter storm | Often covered; burst-pipe damage may depend on whether the home was heated and maintained |
-| **Flood** | **Usually NOT covered.** Separate policy with a waiting period; basement contents barely covered. Seepage and sump failure are not "flood" without wider flooding |
+| **Flood** | **Usually NOT covered.** Separate policy with a waiting period; NFIP policies do not cover personal property kept in a basement. Seepage and sump failure are not "flood" without wider flooding |
 | **Sewer and drain backup** | **Often excluded unless added.** A real risk when power fails and a sump pump stops |
 | Earthquake | Usually excluded unless added |
 | Food spoiled in an outage | Sometimes covered, with limits (→ 04-17) |

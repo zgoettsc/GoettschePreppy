@@ -120,12 +120,13 @@ an opportunist and makes noise.
   call for help.
 - **Lock the gates at the start of an event; unlock them only while someone is outside** (water
   hauling, generator runs). Add gravel, bells or cans on the gates for warning (→ 14-12).
-- **Outdoor locks freeze and seize.** Each fall, put a light shot of **PTFE (Teflon) lock
-  lubricant** in the keyway and shackle holes and work the key a dozen times. **Not graphite,
-  not silicone, not a water-displacing spray as the lubricant:** the manufacturer's own care
-  guidance says never graphite or silicone, because graphite gums up with moisture and silicone
-  does not drive water out (Master Lock, Padlock care and lubrication). A gummed lock in deep
-  cold is exactly the lock that traps your family. Frozen anyway? Warm the body of the lock with
+- **Outdoor locks freeze and seize.** Every three to six months, and again before winter, blow
+  the dust out of the keyway and put a light shot of **PTFE (Teflon) lock lubricant** in the
+  keyway and shackle holes, then work the key several times. Regular lubrication helps stop locks
+  freezing. **Not graphite, not silicone:** the manufacturer's own care guidance says never use
+  either, and that graphite is often put on too heavily and jams the moving parts (Master Lock,
+  Padlock care and lubrication). A jammed lock in deep cold is exactly the lock that traps your
+  family. Frozen anyway? Warm the body of the lock with
   a hand warmer or warm water. **Never force the key.** Check the locks on your twice-yearly kit
   day (→ 22-03).
 
@@ -179,7 +180,7 @@ away from windows (→ 17-02, → 17-06). Know both, and which one is for which 
 | Smoke and CO alarms, extinguishers | The more likely threat | → 08-02 |
 | Gravel on approaches | Free, silent alarm | → 14-01 |
 | Outdoor padlocks for gates | Turns a fence into a locked boundary | Keyed-alike check above |
-| PTFE lock lubricant | Keeps outdoor locks working in cold | Each fall; never graphite or silicone (manufacturer) |
+| PTFE lock lubricant | Keeps outdoor locks working in cold | Every 3 to 6 months and before winter; never graphite or silicone (manufacturer) |
 
 **If you do not have it:**
 

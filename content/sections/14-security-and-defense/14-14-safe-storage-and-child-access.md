@@ -9,7 +9,7 @@ danger_level: critical
 phase: [A, B, C]
 tags: [firearms, safe storage, children, lockbox, gun safe, cable lock, ammunition, visitors, teaching, combination]
 derived_from: [14-14-safe-storage-and-child-access]
-sources: [american-academy-of-pediatrics-healthychildren-org-g-a22b8d, u-s-consumer-product-safety-commission-firearm-safet-999f2b, nssf-national-shooting-sports-foundation-project-chi-7e7bc9, nssf-national-shooting-sports-foundation-firearm-saf-646b4a]
+sources: [american-academy-of-pediatrics-healthychildren-org-g-a22b8d, cpsc-fortress-biometric-gun-safe-recall-2023, nssf-national-shooting-sports-foundation-project-chi-7e7bc9, nssf-national-shooting-sports-foundation-firearm-saf-646b4a]
 related: [29-11-ex11-firearms-basics, 30-01-the-floors, 14-04-caliber-roles-and-inventory, 14-07-ammunition-storage, 14-11-defensive-use-of-force, 14-12-layered-defense, 14-15-dry-practice-doctrine, 14-03-opsec, 20-02-child-safety-offgrid, 20-04-teaching-kids-the-plan, 22-05-kit-vehicle, 23-02-master-consumables-table, 19-01-document-grab-kit, 30-25-dc24-children-and-dangerous-jobs]
 cards: [DC-12, DC-24]
 explainers: [EX-11]
@@ -41,7 +41,7 @@ household. New to firearms? Read → 29-11 first.
 ## Do this now
 
 1. **Tonight: where is every firearm, right now?** Anything not in a locked container gets locked
-   tonight, with a cable lock if nothing else (CPSC; NSSF Project ChildSafe).
+   tonight, with a cable lock if nothing else (NSSF Project ChildSafe).
 2. **The safest storage is unloaded, locked, with ammunition locked separately** (AAP, Guns in
    the Home). Start there.
 3. **If the household keeps one firearm ready for defence**, it lives in a **quick-access
@@ -71,10 +71,12 @@ firearms but no safe: a lock for every firearm comes before any other firearms p
   (→ 14-15); a lockbox you fumble is a lockbox you will be tempted to leave open. **Never leave
   it open.**
 - **On an adult's body counts as secured.** Loose on a counter "for a minute" never does.
-- **Test fingerprint and keypad boxes monthly** and change batteries on a schedule. Some
-  quick-access boxes have been recalled because they opened when dropped or probed (CPSC). Buy a
-  reputable unit and test yours against what a child would try: shaking, prying, pressing
-  buttons at random.
+- **Test fingerprint and keypad boxes monthly** and change batteries on a schedule. Tens of
+  thousands of biometric (fingerprint) gun safes have been recalled because people who had not
+  enrolled a fingerprint could open them, including a child; CPSC links one recalled model to a
+  child's death (CPSC, Fortress Safe recall of biometric gun safes, 2023). Check any lockbox you
+  own against CPSC's recall list while it exists, make sure an unenrolled finger does not open
+  it, and test it against what a child would try: shaking, prying, pressing buttons at random.
 
 {{figure fig-cable-lock-through-action}}
 
@@ -90,11 +92,13 @@ firearms but no safe: a lock for every firearm comes before any other firearms p
 ## Layer 3: what is true about children
 
 - **Children defeat hiding places, not locks.** They find the top shelf, the sock drawer, the box
-  in the garage. Children often know where a "hidden" gun is when their parents believe they do
-  not (AAP). **Hiding is not a layer. Height is not a layer. "They don't know about it" is not a
-  layer.** Locks are.
-- **"They would never touch it" is not a layer either.** Curiosity is normal and, in young
-  children, stronger than instructions (AAP). Teaching reduces risk; only locks remove access.
+  in the garage. Even toddlers can find an unlocked gun and are strong enough to pull the
+  trigger (AAP, Guns in the Home). **Hiding is not a layer. Height is not a layer. "They don't
+  know about it" is not a layer.** Locks are, and children must not be able to get the keys or
+  combinations either (AAP).
+- **"They would never touch it" is not a layer either.** AAP notes that many studies show
+  teaching children about gun safety, or not to touch a gun they find, is not enough. Teaching
+  reduces risk; only locks remove access.
 - **Other people's homes count.** Asking "Is there an unlocked gun where my child will play?" is a
   normal safety question, like asking about a pool fence or a food allergy (AAP). Ask it.
 
@@ -104,8 +108,9 @@ Storage stays absolute; **teaching grows with the child** (→ 20-04): simple, a
 repeated, not fear.
 
 - **Every child, as soon as they can follow a rule:** **"Stop. Don't touch. Leave the area. Tell
-  a grown-up."** (AAP; NSSF Project ChildSafe.) Repeat it until it is automatic, including for a
-  gun found at a friend's house.
+  a grown-up."** AAP's version: if they ever come across a gun, stay away from it and tell an
+  adult at once (AAP, Guns in the Home). Repeat it until it is automatic, including for a gun
+  found at a friend's house.
 - **After that**, the household decides when each child learns the four rules (→ 29-11), when
   they may look at an unloaded, checked firearm with an adult, and when, if ever, they handle or
   shoot one under supervision. Answering questions honestly takes the mystery out: a firearm a

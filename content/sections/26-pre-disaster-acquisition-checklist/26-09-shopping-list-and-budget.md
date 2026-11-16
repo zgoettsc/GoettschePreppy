@@ -2,7 +2,7 @@
 id: 26-09-shopping-list-and-budget
 section: 26-pre-disaster-acquisition-checklist
 title: "The result: ranked shopping list and budget"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: none
@@ -26,7 +26,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Unsupported power-cut likelihood claim reworded to Red Cross guidance." }
 ---
 
 # The result: ranked shopping list and budget
@@ -53,8 +53,9 @@ Three questions, in order:
 1. **How fast does its absence hurt someone here?** Minutes, hours, days, weeks.
 2. **Can it still be bought later?** ⌛ items (seed, seasoned wood, soil, children's next sizes,
    skill) **cannot**. They move up regardless.
-3. **How likely is the event it covers?** A multi-day power cut is near-certain over a decade
-   (American Red Cross, Power Outage Safety){{#if is.cold_winters}}, and here it will come in
+3. **How likely is the event it covers?** A power cut lasting days is common enough
+   that the American Red Cross tells every household to plan two weeks of food and water for
+   one (American Red Cross, Power Outage Safety){{#if is.cold_winters}}, and here it will come in
    winter sooner or later (American Red Cross, Winter Storm Safety){{/if}}. Buy against the likely
    first, then the severe.
 

@@ -2,7 +2,7 @@
 id: 18-01-mutual-aid
 section: 18-community-barter-and-governance
 title: "Neighbors and mutual aid"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -157,7 +157,7 @@ means things worth knowing to help (medical needs, alone, an aggressive dog, vis
 noted to help, not to judge. **This roster is private: it stays in the binder** (→ 14-03).
 
 **Already in your contacts:**
-{{#each local_contacts as c}}- {{c.name}} ({{c.relationship}}), {{c.phone}}. {{c.notes}}
+{{#each local_contacts as c}}- {{c.name}} ({{c.relationship}}), {{c.phone}}.{{#if c.notes}} {{c.notes}}{{/if}}
 {{else}}- none entered
 {{/each}}
 **Your meeting place near home:** {{ contacts.meet.near_home }}. The household there should be the

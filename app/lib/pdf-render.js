@@ -11,6 +11,12 @@
 
 const VENDOR = new URL('./vendor/pdfjs/', import.meta.url);
 
+// Page pictures: 1,100 px wide JPEG at quality 0.6. scripts/build-kit.mjs measures the download
+// sizes with these same settings. Checked by A4 (notes/workers/A4.md): the smallest print in the
+// cited documents (a 4.6 pt graph legend in the FDA neffy label) is still readable at this width,
+// and Large lands well under the G25 ceiling of 400 MB, so the pictures were not made smaller.
+export const PDF_RENDER = Object.freeze({ width: 1100, quality: 0.6, maxPages: 600 });
+
 export const canRenderPdf = () => typeof OffscreenCanvas !== 'undefined' || (typeof document !== 'undefined' && !!document.createElement);
 
 function makeCanvas(w, h) {
@@ -34,7 +40,7 @@ async function lib() {
   return libPromise;
 }
 
-export async function renderPdfPages(bytes, { width = 1100, quality = 0.6, maxPages = 600, signal, onPage } = {}) {
+export async function renderPdfPages(bytes, { width = PDF_RENDER.width, quality = PDF_RENDER.quality, maxPages = PDF_RENDER.maxPages, signal, onPage } = {}) {
   if (!canRenderPdf()) throw new Error('no canvas in this environment');
   const pdfjs = await lib();
   const doc = await pdfjs.getDocument({

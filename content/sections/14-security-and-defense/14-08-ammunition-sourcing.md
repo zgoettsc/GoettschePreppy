@@ -85,9 +85,10 @@ the tools. Brass can be reused many times; the other three are used up.
 1. **Primers**: **the hard bottleneck.** Cannot be safely made at home. Store cool and dry; they
    are sensitive to moisture and oil, so keep solvents away (→ 14-07).
 2. **Powder**: buy in the container sizes you will use; store as SAAMI's smokeless powder
-   guidance says (original containers, cool, dry, never sealed metal; → 14-07). **Watch for
-   breakdown** (acid smell, discoloration, rust-coloured dust) and dispose of bad powder (SAAMI,
-   Smokeless Powder: Properties and Storage).
+   guidance says (original containers, cool, dry, never closely confined; → 14-07). **Watch for
+   breakdown** (a vinegar-like acid smell or reddish-brown fumes) and dispose of bad powder at
+   once. Never salvage powder from old cartridges or mix powders (SAAMI, Smokeless Powder:
+   Properties and Storage).
 3. **Bullets**: buy now, and **cast later** from lead if you set up for it.
 4. **Brass**: reusable; save every case. Inspect for splits, stretching and loose primer pockets.
 

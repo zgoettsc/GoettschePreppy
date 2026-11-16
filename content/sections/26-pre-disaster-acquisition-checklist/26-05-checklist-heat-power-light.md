@@ -2,7 +2,7 @@
 id: 26-05-checklist-heat-power-light
 section: 26-pre-disaster-acquisition-checklist
 title: "Checklist 3: heat, power and light"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -13,6 +13,7 @@ sources:
   - cdc-carbon-monoxide-poisoning-basics-772153
   - american-red-cross-winter-storm-preparedness-and-bli-4bb6c0
   - us-consumer-product-safety-commission-cpsc-what-to-k-3390a4
+  - cpsc-warns-of-dangers-after-a-hurricane-or-power-outage-2006-r7
   - university-of-missouri-extension-wood-fuel-for-heati-b63761
   - noaa-national-weather-service-heat-safety-66fd15
 related: [08-01-heating-one-room, 08-02-carbon-monoxide-safety, 08-04-emergency-heat-options, 06-03-firewood-basics, 06-06-fuel-storage-safety, 09-01-power-priorities, 09-04-generators, 09-05-solar-in-winter, 09-10-power-for-medical, 10-01-lighting-options, 07-01-cooking-on-an-open-fire, 26-09-shopping-list-and-budget, 17-04-extreme-cold-and-heat]
@@ -26,7 +27,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Generator 20 ft added (CPSC); 'hundreds of cars' re-cited to CPSC release; seasoning aligned with G5450." }
 ---
 
 # Checklist 3: heat, power and light
@@ -39,7 +40,8 @@ not a comfort one.{{else}}A long outage in the worst week of your year is the ca
 
 > **CAUTION: the safety rules on this page are not optional.**
 > - **Never run a generator, charcoal, or any engine indoors, in a garage, or near an open
->   window.** CPSC: a generator makes as much carbon monoxide as hundreds of cars (CPSC, Portable
+>   window.** CPSC: one generator makes as much carbon monoxide as hundreds of idling cars
+>   (CPSC, news release, 2006). Run it outdoors, at least 20 feet from the house (CPSC, Portable
 >   Generator Safety).
 > - **Never connect a generator to house wiring except through a transfer switch, or an interlock
 >   kit with the main breaker off. Never backfeed through an outlet with a double-male
@@ -81,8 +83,8 @@ electricity for its fan or ignition{{else}}stops{{/if}}: check (→ 08-04).
 DAYS OF HEATING + COOKING FUEL, HONESTLY: ________   (06-04)
 ```
 
-> **Wood cut this year is next year's fuel**: seasoning takes 6 to 12 months (University of
-> Missouri Extension, Wood Fuel for Heating). If your only stack is green, your real number is
+> **Wood cut this year is next year's fuel**: seasoning takes months, and dense hardwoods at
+> least a year (University of Missouri Extension, Wood Fuel for Heating; → 06-03). If your only stack is green, your real number is
 > zero.
 
 ## B. Cooling{{#if is.hot_summers}} (this household: hot summers){{/if}}
@@ -112,7 +114,7 @@ generator {{ gear.generator_watts }} W ({{ gear.generator_fuel }}, {{ gear.gener
 | [ ] | Alkaline batteries in the sizes your devices take | ______ | Expiry: ______ | → 09-03 |
 | [ ] | Multimeter, fuses, wire, connectors | ______ | | → 09-08 |
 | [ ] | Generator{{#if has.generator}} (owned){{/if}}: started under load this season; oil in | ______ W | | → 09-04, → 09-15 |
-| [ ] | Generator's **outdoor run spot** chosen and marked: far from every window, door and vent, exhaust pointing away | | | → 09-04 |
+| [ ] | Generator's **outdoor run spot** chosen and marked: at least 20 feet from every window, door and vent, exhaust pointing away | | | → 09-04 |
 | [ ] | Heavy-duty outdoor extension cords sized for the load | ______ | | → 29-04 |
 | [ ] | Watt-meter or battery monitor | ______ | | → 25-02 |
 

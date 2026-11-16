@@ -2,7 +2,7 @@
 id: 25-10-annual-review
 section: 25-reference-and-appendices
 title: "Annual review checklist"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: none
@@ -26,7 +26,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Decision-card range extended to 30-30." }
 ---
 
 # Annual review checklist
@@ -104,7 +104,7 @@ Shortest medical clock this year: ______________ = ______ days.
 | [ ] | Gas and water shutoffs found and operable; every adult knows them | → 00-04 |
 | [ ] | Shelter spot cleared and stocked | → 17-06 |
 | [ ] | Window escape routes clear; ladders for upstairs bedrooms | → 24-02 |
-| [ ] | Every decision card still says what the household wants; change any in settings | → 30-02 to → 30-25 |
+| [ ] | Every decision card still says what the household wants; change any in settings | → 30-02 to → 30-30 |
 
 ### 3. Inventory and numbers
 

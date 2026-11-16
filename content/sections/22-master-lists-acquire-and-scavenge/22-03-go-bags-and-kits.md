@@ -2,7 +2,7 @@
 id: 22-03-go-bags-and-kits
 section: 22-master-lists-acquire-and-scavenge
 title: "Go-bags and kits, one per person"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: household
 danger_level: critical
@@ -12,13 +12,13 @@ derived_from: [22-03-go-bags-and-kits]
 sources:
   - us-fda-information-regarding-insulin-storage-and-swi-6448d3
   - cdc-how-to-create-and-store-an-emergency-water-suppl-f0c412
-  - cdc-recognizing-and-responding-to-anaphylaxis-645825
-  - american-red-cross-winter-storm-preparedness-and-bli-4bb6c0
   - us-epa-emergency-disinfection-of-drinking-water-6aa91f
   - usa-gov-replace-your-vital-documents-cde79b
   - ready-gov-build-a-kit
   - cdc-infant-formula-preparation-and-storage-29a24f
   - ready-gov-fema-pets-and-animals
+  - american-academy-of-pediatrics-aap-allergy-and-anaph-3e6f49
+  - noaa-national-weather-service-during-a-winter-storm-r7
 related: [22-06-kit-medical, 22-05-kit-vehicle, 22-01-master-acquisition-list, 01-02-go-no-go-decision, 01-03-phase-b-movement, 01-06-phase-transition-checklists, 01-07-evacuating-with-medical-needs, 19-01-document-grab-kit, 25-08-quick-reference-cards, 24-02-drills, 20-09-pets, 20-05-infant-feeding]
 cards: [DC-04, DC-08, DC-09, DC-10, DC-18]
 explainers: [EX-07, EX-06]
@@ -31,7 +31,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Second dose re-cited to AAP; blank conditions/allergies/meds now read 'none in settings'; pet line reworded; blizzard claim softened; NWS winter source." }
 ---
 
 # Go-bags and kits, one per person
@@ -91,13 +91,13 @@ wallet card set from → 25-08. **For anyone with a medical clock, Level 1 is me
 
 | Person | Conditions (from settings) | Allergies | On the body, always |
 |---|---|---|---|
-{{#each members as m}}| {{m.label}} | {{m.conditions}} | {{m.allergies}} | Rescue medicine if any · medical ID · ____________ |
+{{#each members as m}}| {{m.label}} | {{#if m.conditions}}{{m.conditions}}{{else}}none in settings{{/if}} | {{#if m.allergies}}{{m.allergies}}{{else}}none in settings{{/if}} | Rescue medicine if any · medical ID · ____________ |
 {{/each}}
 
 {{#if has.anaphylaxis}}**Allergy rule:** whichever adult is with the allergic person carries an **epinephrine pair**
 on their body (not in the car, not in a bag on a hook), the person's allergen card, and the
-plan from their prescriber (→ 02-03). A second dose is often needed (CDC, Recognizing and
-Responding to Anaphylaxis).
+plan from their prescriber (→ 02-03). A second dose may be needed (AAP, Allergy and
+Anaphylaxis Emergency Plan).
 {{/if}}{{#if has.condition.CL-01}}**Diabetes rule:** the person with diabetes carries fast sugar, their meter or sensor reader,
 and medical ID (→ 02-01, → 02-02).
 {{/if}}**The test:** if it is not on a body when the siren goes or the reaction starts in a parking
@@ -128,7 +128,7 @@ Each table is the core bag. The add-ons for each age band follow; pack them into
 
 | ✔ | Category | Contents |
 |---|---|---|
-| [ ] | **Medical (first)** | Conditions: {{m.conditions}}. Allergies: {{m.allergies}}. Medicines: {{m.meds}}. The matching modules from → 22-06, as one pouch (for anyone under 13, an adult carries it). Printed medicine list and the family medical summary (→ 25-09) |
+| [ ] | **Medical (first)** | Conditions: {{#if m.conditions}}{{m.conditions}}{{else}}none in settings{{/if}}. Allergies: {{#if m.allergies}}{{m.allergies}}{{else}}none in settings{{/if}}. Medicines: {{#if m.meds}}{{m.meds}}{{else}}none in settings{{/if}}. The matching modules from → 22-06, as one pouch (for anyone under 13, an adult carries it). Printed medicine list and the family medical summary (→ 25-09) |
 | [ ] | **Water** | A bottle + a small filter + chemical treatment as a backup (→ 03-04). Planning figure is 1 gallon per person per day (CDC); the bag carries a day's drinking, the vehicle the rest |
 | [ ] | **Food** | Three days of high-calorie food this person will actually eat, sealed, in original labelled packaging |
 | [ ] | **Warmth** | Base layer, hat, gloves or mittens, spare socks, rain shell, emergency blanket or bivvy |
@@ -214,7 +214,7 @@ with them at every stop (→ 02-21).
 {{#if has.pets}}
 ### Pets
 
-{{#each pets as p}}- {{p.count}} {{p.type}}: food for three days ({{p.food_per_day}} a day), water, bowls, medicines ({{p.medications}}), leash or carrier, litter or waste bags, vaccination records and a photo (Ready.gov, Pets and Animals; → 20-09).
+{{#each pets as p}}- {{p.type}} ({{p.count}}): food for three days ({{p.food_per_day}} a day), water, bowls, medicines{{#if p.medications}} ({{p.medications}}){{/if}}, leash or carrier, litter or waste bags, vaccination records and a photo (Ready.gov, Pets and Animals; → 20-09).
 {{/each}}
 
 Decide the pet plan **now**, not at the door. If it ever becomes impossible to keep them:
@@ -252,9 +252,9 @@ Home county: {{ home.county }}, {{ home.state_name }} · January mean low {{ reg
 
 {{#if is.cold_winters}}- **Winter matters here.** Boots, snow gear and hats live with the bags, not in a closet
   upstairs. Medicines that must not freeze ride inside a coat. Batteries lose capacity in cold:
-  carry spares warm (→ 09-05). On foot in a blizzard with small children is rarely survivable;
-  in winter the honest plan is often "get to the vehicle, or stay put" (American Red Cross,
-  Winter Storm Safety; → 17-01, → 01-02).
+  carry spares warm (→ 09-05). On foot in a blizzard with small children is extremely dangerous;
+  in winter the honest plan is often "get to the vehicle, or stay put" (NWS, During a Winter
+  Storm; → 17-01, → 01-02).
 {{else}}- **Cold snaps still happen.** Keep a warm layer and a hat in every bag all year.
 {{/if}}{{#if is.hot_summers}}- **Heat matters here.** More water than you think, sun hat, light long sleeves, and
   medicines kept out of direct sun and parked cars (→ 29-07, → 17-04).

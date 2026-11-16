@@ -9,7 +9,7 @@ danger_level: caution
 phase: [A, B, C]
 tags: [security, de-escalation, door, scripts, charity, strangers, pepper spray, OC spray, stress, children]
 derived_from: [14-13-de-escalation]
-sources: [american-red-cross-power-outage-safety-6d07a8, national-institute-of-justice-u-s-doj-the-effectiven-6e5288]
+sources: [american-red-cross-power-outage-safety-6d07a8, national-institute-of-justice-u-s-doj-the-effectiven-6e5288, american-academy-of-pediatrics-healthychildren-org-p-b4786f]
 related: [14-01-situational-awareness, 14-02-home-hardening, 14-03-opsec, 14-11-defensive-use-of-force, 14-12-layered-defense, 14-14-safe-storage-and-child-access, 15-02-radio-options, 15-03-family-comms-plan, 15-04-monitoring-and-info, 18-01-mutual-aid, 20-02-child-safety-offgrid, 20-04-teaching-kids-the-plan, 21-01-stress-and-panic, 21-03-grief-and-trauma, 12-01-first-aid-kit, 02-03-cl03-anaphylaxis, 30-13-dc12-defensive-use-of-force]
 cards: [DC-12]
 explainers: []
@@ -133,19 +133,21 @@ choose to have it for each adult.
   getting it out, once a year, outdoors, with the wind from the side.
 - **If an adult is exposed:** fresh air, blinking, cool water, time (→ 12-01). It is painful and
   usually passes in a healthy adult.
-- **It is a real breathing risk for small children and people with asthma or lung disease** (the
-  NIJ research flags people with respiratory disease). **Never use it indoors with children in the
-  house unless the alternative is worse.**
+- **It is a real breathing risk for small children and people with asthma or lung disease** (in
+  the NIJ review, the deaths in which pepper spray played a part involved people with asthma).
+  **Never use it indoors with children in the house unless the alternative is worse.**
 - **If a child is exposed:** carry them out into fresh air; **take off the contaminated clothing**
-  (it keeps exposing them); flush the eyes and face with cool water for 15 minutes, no rubbing;
-  wash skin with soap or baby shampoo and cool water; **watch their breathing for an hour**.
+  (it keeps exposing them); flush each eye with a steady stream of room-temperature water into
+  the inner corner for 15 minutes, holding the lid open, no rubbing, and rinse the skin with
+  lukewarm water (AAP, Poison Prevention); wash with soap or baby shampoo; **keep watching their
+  breathing** until they are fully settled.
   Wheezing, a high-pitched noise when breathing in, or anything like a severe allergic reaction is
   an emergency{{#if has.anaphylaxis}}; for a member with a known severe allergy, follow their plan
   on → 02-03{{/if}}.
 
-> **Before the collapse:** pepper spray is legal for adults to carry for self-defence in every
-> state, but some states and cities limit the size, strength, the buyer's age, or how it is sold.
-> Check your state, and any state you travel through.
+> **Before the collapse:** pepper spray laws are set by states and cities. Some limit the
+> container size or strength, who may buy or carry it, or how it is sold. Check your state, and
+> any state you travel through.
 
 ## Inside your own head
 

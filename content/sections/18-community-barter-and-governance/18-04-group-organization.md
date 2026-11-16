@@ -2,7 +2,7 @@
 id: 18-04-group-organization
 section: 18-community-barter-and-governance
 title: "Group organization and decisions"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -44,8 +44,9 @@ same failures as inside one household, at a larger scale.
 > **Other people's property, labor and children remain theirs.** A group that forgets this breaks
 > from the inside.
 >
-> **Before the collapse:** private citizens have no legal power to detain or punish anyone, and
-> group arrangements over property, work or children carry legal obligations (→ 14-11).
+> **Before the collapse:** detaining and punishing people is the job of law enforcement and the
+> courts. What a private citizen may lawfully do is narrow and set by state law, and group
+> arrangements over property, work or children carry legal obligations (→ 14-11).
 
 ## Do this now
 
@@ -198,8 +199,8 @@ has to hold the whole picture).
 - **One person gathering authority** nobody agreed to.
 - **Scarcity plus secrecy.**
 - **No way to leave**, so people who want out feel trapped and behave badly.
-- **Exhaustion** (→ 21-02, → 21-07). Much group conflict in month five is a sleep problem dressed as
-  a governance problem.
+- **Exhaustion** (→ 21-02, → 21-07). Much group conflict in the later months is a sleep problem
+  dressed as a governance problem.
 
 ## The honest scale
 

@@ -26,7 +26,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Food-safety hours, lead 1978 and floors checked against sources and 30-01; no change." }
 ---
 
 # Scavenging field guide: what to look for

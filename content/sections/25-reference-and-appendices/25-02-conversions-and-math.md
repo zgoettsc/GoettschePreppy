@@ -2,7 +2,7 @@
 id: 25-02-conversions-and-math
 section: 25-reference-and-appendices
 title: "Conversions, water and calorie math"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: none
@@ -29,7 +29,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Arithmetic verified; calorie rows aligned with 04-01; honey, canned goods, powdered milk, cord weight and seasoning corrected; kerosene AFDC mis-citation removed." }
 ---
 
 # Conversions, water and calorie math
@@ -119,12 +119,11 @@ floor rate, {{ derived.water.floor_gal_day }}, only when rationing. Do it on →
 
 | Person or situation | Calories a day (planning) |
 |---|---|
-| Adult, not very active | About 1,800 to 2,200 |
-| Adult, **hard physical work** | **3,000 to 4,500** |
-| Adult, **cold weather and work** | **20 to 40 % more** than their usual |
-| Children and teenagers | By age and sex from the USDA table (USDA/HHS, Dietary Guidelines for Americans, Appendix 2) |
+| Adult | About 1,600 to 3,000, by age, sex and activity (USDA/HHS, Dietary Guidelines for Americans, Appendix 2) |
+| Adult, **hard physical work or cold** | The table's "active" column: for most adults **200 to 400 more** a day than the moderate one (→ 04-01) |
+| Children and teenagers | By age and sex from the same table |
 | **This household, normal** | **{{ derived.calories.day }}** (two weeks: {{ derived.calories.two_weeks }}) |
-| **This household, working hard in the cold** | {{ derived.calories.day }} × about 1.2 to 1.4 = ______ |
+| **This household, working hard in the cold** | {{ derived.calories.day }} + 200 to 400 for each working adult = ______ |
 
 **Two things people miss:** cold and hard work together can push the household's need far above
 normal, and the eating of anyone with diabetes, a nursing parent or a small child is a
@@ -136,14 +135,14 @@ normal, and the eating of anyone with diabetes, a nursing parent or a small chil
 |---|---|
 | **Oil and fat** | **About 4,000**: the densest thing you can store (→ 04-12) |
 | Nuts and seeds | About 2,600 (an allergy constraint for some: → 02-04) |
-| Powdered milk | About 2,000 |
-| Sugar, honey | About 1,700 |
+| Powdered milk | About 1,650 (nonfat) to 2,250 (whole) |
+| Sugar | About 1,750 |
+| Honey | About 1,400 |
 | Rolled oats | About 1,700 |
 | **Rice, flour, pasta (dry)** | **About 1,600** |
 | Dry beans | About 1,500 |
-| Canned meat | About 600 to 900 |
 | Potatoes (fresh) | About 350 |
-| Canned vegetables | About 150 to 200 |
+| **Canned goods**, mixed | About 400 to 600: you are carrying their water (→ 04-01) |
 
 **Quick check:** 1 lb of mixed dry staples is about 1,500 to 1,800 calories, so an adult needs
 roughly 1.5 lb a day. This household: {{ derived.calories.day }} ÷ about 1,600 = ______ lb a day,
@@ -155,13 +154,13 @@ roughly 1.5 lb a day. This household: {{ derived.calories.day }} ÷ about 1,600 
 |---|---|
 | **A cord of wood** | 4 ft × 4 ft × 8 ft = **128 cubic feet stacked** |
 | **A face cord (rick)** | 4 ft × 8 ft × the log length (often 16 in): about **1/3 of a cord** |
-| Weight of a cord of dry hardwood | About 2,500 to 4,000 lb, by species |
+| Weight of a cord at 20 % moisture | About 2,700 lb (pine) to 3,700 lb (oak) (University of Missouri Extension, Wood Fuel for Heating) |
 | Heat per cord | Dense hardwoods (oak, ash, hickory) give much more heat per cord than softwoods or cottonwood: **species matters** (University of Missouri Extension, Wood Fuel for Heating; → 06-03) |
-| **Seasoning time** | **6 to 12 months minimum, split and stacked** |
+| **Seasoning time** | **6 to 12 months, split and stacked; dense hardwoods a year or more** (→ 06-03) |
 | Moisture target | **Under 20 %**: wet wood wastes heat boiling its own water and fouls the chimney |
-| Propane, 20-lb cylinder | About 4.7 gal ≈ 430,000 BTU |
+| Propane, 20-lb cylinder | About 4.7 gal ≈ 430,000 BTU (91,420 BTU a gallon; DOE AFDC) |
 | Propane, 1-lb cylinder | About 21,500 BTU |
-| **Kerosene (1-K)** | **About 135,000 BTU a gallon** (DOE Alternative Fuels Data Center, Fuel Properties Comparison) |
+| **Kerosene (1-K)** | **About 135,000 BTU a gallon** (typical figure; read your heater's label for its own rating) |
 | Gasoline (pump gas with about 10 % ethanol) | **About 114,000 BTU a gallon** (DOE AFDC) ≈ 33 kWh of heat |
 | **1 kWh of electricity** | **= 3,412 BTU.** A 1,500 W space heater gives about 5,100 BTU an hour and uses 1.5 kWh every hour |
 

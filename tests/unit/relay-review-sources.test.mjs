@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { createSSEParser, createMessageAccumulator, messageText } from '../../app/lib/relay-client.js';
 import { createDryRunRelay } from '../../app/lib/relay-dryrun.js';
 import { applyFinding, checkAiText, localChecks, ownerTokenRegexes, parseFindings, reviewRequest, FINDINGS_SCHEMA } from '../../app/lib/review.js';
-import { htmlToReadable, toBase64 } from '../../app/lib/sources.js';
+import { htmlToReadable, toBase64, sourcesForSize, LIFE_SAFETY_SECTIONS, extractBoundSources, sourceBlock, safeReusedBody, normalizeSize } from '../../app/lib/sources.js';
 
 test('SSE parser survives arbitrary chunk boundaries', () => {
   const text = 'event: a\ndata: {"x":1}\n\n: comment\n\nevent: b\ndata: {"y":\ndata: 2}\n\n';
@@ -106,4 +106,33 @@ test('htmlToReadable strips scripts, links, attributes and addresses', () => {
   assert.match(out, /&amp; more/);
   assert.match(out, /<td>a<\/td>/);
   assert.equal(toBase64(new Uint8Array([104, 105])), 'aGk=');
+});
+
+test('download sizes (G25): Large binds life-safety citations, Everything binds all', () => {
+  assert.deepEqual([...LIFE_SAFETY_SECTIONS], ['02', '03', '06', '08', '09', '12', '17', '20', '27', '30']);
+  assert.equal(normalizeSize('everything'), 'everything');
+  assert.equal(normalizeSize('huge'), 'small');
+  const cited = new Map([['a', ['05-01-x', '12-03-y']], ['b', ['04-04-z']], ['c', ['30-01-floors']]]);
+  const small = sourcesForSize(cited, 'small');
+  assert.equal(small.bind.size + small.elsewhere.size, 0);
+  const large = sourcesForSize(cited, 'large');
+  assert.deepEqual([...large.bind.keys()], ['a', 'c']);
+  assert.equal(large.bind.get('a').section, '12'); // placed behind its first life-safety citing section
+  assert.deepEqual([...large.elsewhere.keys()], ['b']);
+  const all = sourcesForSize(cited, 'everything');
+  assert.deepEqual([...all.bind.keys()], ['a', 'b', 'c']);
+  assert.equal(all.bind.get('a').section, '05');
+  assert.equal(all.elsewhere.size, 0);
+});
+
+test('upgrade reuse: bound documents come back out of an earlier file, unsafe bodies do not', () => {
+  const html = sourceBlock({ key: 'doc-one', src: { title: 'One' }, bytes: new TextEncoder().encode('<p>Hello</p>'), contentType: 'text/html' }, { citedBy: ['12-01-a'], sectionNo: '12' }).join('')
+    + sourceBlock({ key: 'doc-two', src: { title: 'Two' }, bytes: new Uint8Array([37, 80, 68, 70]), contentType: 'application/pdf', rendered: { total: 1, truncated: false, pages: [{ bytes: new Uint8Array([1, 2, 3]), width: 10, height: 10 }] } }, { citedBy: [], sectionNo: '12' }).join('')
+    + '<section class="srcdoc" id="src-evil" data-sec="12"><div class="srchead">x</div>\n<div class="srcbody"><p>hi</p><img src="https://x.org/a.png" onerror="alert(1)"></div></section>';
+  const got = extractBoundSources(html);
+  assert.deepEqual([...got.keys()], ['doc-one', 'doc-two']);
+  assert.match(got.get('doc-one'), /<p>Hello<\/p>/);
+  assert.match(got.get('doc-two'), /<img class="pdfpage"/);
+  assert.equal(safeReusedBody('<p>ok</p><script>alert(1)</script>'), false);
+  assert.equal(safeReusedBody('<p>ok</p><script type="application/pdf" id="pdf-a-b">QUJD</script>'), true);
 });

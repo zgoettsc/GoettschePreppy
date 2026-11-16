@@ -2,7 +2,7 @@
 id: 26-08-expiry-and-rotation-tracker
 section: 26-pre-disaster-acquisition-checklist
 title: "Expiry and rotation tracker"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -13,9 +13,9 @@ sources:
   - us-fda-information-regarding-insulin-storage-and-swi-6448d3
   - us-epa-emergency-disinfection-of-drinking-water-6aa91f
   - national-center-for-home-food-preservation-nchfp-gen-c43991
-  - cdc-recognizing-and-responding-to-anaphylaxis-645825
   - fsis-food-product-dating
   - usfa-smoke-alarms
+  - american-academy-of-pediatrics-aap-allergy-and-anaph-3e6f49
 related: [26-03-checklist-life-safety, 04-10-rotation-and-inventory, 22-03-go-bags-and-kits, 22-05-kit-vehicle, 12-07-meds-stockpile, 03-04-purifying-water, 25-10-annual-review, 29-14-ex14-reading-a-label, 26-09-shopping-list-and-budget]
 cards: [DC-04, DC-14]
 explainers: [EX-14]
@@ -27,7 +27,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Second dose re-cited to AAP; bleach shelf note checked against EPA." }
 ---
 
 # Expiry and rotation tracker
@@ -146,8 +146,8 @@ SHORTEST MEDICAL CLOCK: ______________________ = ______ days   (23-01)
 ```
 
 {{#if has.epinephrine}}> **Every location holding epinephrine gets its own line**, because the one that expires is
-> always the one nobody checks: the spare in the car. A second dose is often needed, so each
-> location needs a pair (CDC, Recognizing and Responding to Anaphylaxis).
+> always the one nobody checks: the spare in the car. A second dose may be needed, so each
+> location needs a pair (AAP, Allergy and Anaphylaxis Emergency Plan).
 {{/if}}
 
 ## The date-stamped items

@@ -19,6 +19,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import url from 'node:url';
+import os from 'node:os';
 import { execFileSync } from 'node:child_process';
 import yaml from 'js-yaml';
 
@@ -39,6 +40,9 @@ const URL_RE = /https?:\/\/[^\s"'<>)\]]*|\bwww\.[a-z0-9-]+\.[a-z][^\s"'<>)\]]*/g
 const stripUrls = s => (typeof s === 'string' ? s.replace(URL_RE, '').replace(/\s{2,}/g, ' ').trim() : s);
 
 import { STATE_NAMES } from '../app/lib/context.js';
+import { sourcesForSize, htmlToReadable, LIFE_SAFETY_SECTIONS, SIZES } from '../app/lib/sources.js';
+import { PDF_RENDER } from '../app/lib/pdf-render.js';
+import { MAP_MB } from '../app/lib/maps.js';
 
 fs.mkdirSync(OUT, { recursive: true });
 
@@ -376,14 +380,110 @@ ${citedKeys.map(k => { const s = sources[k]; return `| ${mdEsc(s.org || '')} | $
 `, { tags: ['sources', 'bibliography'] }));
 }
 
-// ---- sizes -------------------------------------------------------------------------------------
+// ---- sizes (decisions G11, G25) -----------------------------------------------------------------
+// What each cited document adds to a binder, measured where the file is at hand:
+//   1. the kit's own copy (sources/archive/, copied to app/build/sources/), else
+//   2. the household binder's archive (GP_HOUSEHOLD_SOURCES, default ../SHTF/sources: its
+//      index.json `type` and `files`; archive/<key>.pdf or .md, manual/<key>.md), plus the
+//      household's copy of AFH 10-644 (KNOWN_FILES below).
+// A PDF is bound as page pictures (app/lib/pdf-render.js PDF_RENDER: 1,100 px, JPEG 0.6, at most
+// 600 pages; a longer one also keeps the PDF itself), so it is measured by rendering every page
+// with poppler's pdftoppm at the same width and quality and adding the base64 overhead (4/3).
+// Without pdftoppm: pdfinfo's page count × AVG_PAGE_JPEG; without pdfinfo: the PDF embedded
+// (file size × 4/3). An HTML page is bound as its readable text: the household archive keeps
+// exactly that text as Markdown, so its size × HTML_TAG_FACTOR (the few tags htmlToReadable keeps).
+// Every other document gets the mean of the measured ones of its kind (PDF when its address ends
+// in .pdf, else HTML; books over 200 pages are left out of the PDF mean); fallback means DEFAULT_PDF_BYTES / DEFAULT_HTML_BYTES are from the
+// 2026-11-16 measurement (37 PDFs, mean 11 pages × 221 KB; 237 HTML pages, mean 16 KB of text).
+// Measurements are cached in build/cache/source-sizes.json (keyed by file size, date and render
+// settings), so only the first build after a change renders pages.
+const HH = process.env.GP_HOUSEHOLD_SOURCES ? path.resolve(process.env.GP_HOUSEHOLD_SOURCES) : path.resolve(ROOT, '..', 'SHTF', 'sources');
+const KNOWN_FILES = { 'afh-10-644': '../companion/afh10-644/afh10-644.pdf' }; // relative to HH
+const AVG_PAGE_JPEG = 165e3, HTML_TAG_FACTOR = 1.1, SRC_HEAD = 700, PAGE_TAG = 160;
+const DEFAULT_PDF_BYTES = 2.45e6, DEFAULT_HTML_BYTES = 18e3;
+const CACHE_FILE = path.join(ROOT, 'build', 'cache', 'source-sizes.json');
+const sizeCache = (() => { try { return JSON.parse(fs.readFileSync(CACHE_FILE, 'utf8')); } catch { return {}; } })();
+const tool = name => { try { execFileSync(name, ['-v'], { stdio: 'ignore' }); return true; } catch (e) { return e.code !== 'ENOENT' && e.status !== 127 && e.status !== null; } };
+const hasPdfinfo = tool('pdfinfo'), hasPdftoppm = tool('pdftoppm');
+let rendered = 0;
+function measurePdf(abs) {
+  const st = fs.statSync(abs);
+  const sig = `${st.size}:${Math.round(st.mtimeMs)}:${PDF_RENDER.width}:${PDF_RENDER.quality}:${PDF_RENDER.maxPages}:${hasPdftoppm}`;
+  if (sizeCache[abs]?.sig === sig) return sizeCache[abs];
+  let pages = null, jpeg = null;
+  if (hasPdfinfo) { try { pages = +(/Pages:\s+(\d+)/.exec(execFileSync('pdfinfo', [abs], { stdio: ['ignore', 'pipe', 'ignore'] }).toString()) || [])[1] || null; } catch {} }
+  const n = pages ? Math.min(pages, PDF_RENDER.maxPages) : 0;
+  if (n && hasPdftoppm) {
+    const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'gp-measure-'));
+    try {
+      execFileSync('pdftoppm', ['-l', String(n), '-scale-to-x', String(PDF_RENDER.width), '-scale-to-y', '-1', '-jpeg', '-jpegopt', `quality=${Math.round(PDF_RENDER.quality * 100)}`, abs, path.join(tmp, 'p')], { stdio: 'ignore', timeout: 900e3 });
+      jpeg = fs.readdirSync(tmp).reduce((t, f) => t + fs.statSync(path.join(tmp, f)).size, 0) || null;
+      rendered += n;
+    } catch {} finally { fs.rmSync(tmp, { recursive: true, force: true }); }
+  }
+  let bytes, how;
+  if (jpeg) { bytes = jpeg * 4 / 3 + n * PAGE_TAG; how = 'rendered'; }
+  else if (n) { bytes = n * (AVG_PAGE_JPEG * 4 / 3 + PAGE_TAG); how = 'page count'; }
+  else { bytes = st.size * 4 / 3; how = 'embedded'; }
+  if (pages > PDF_RENDER.maxPages) bytes += st.size * 4 / 3; // the whole PDF is kept behind a button too
+  return (sizeCache[abs] = { sig, bytes: Math.round(bytes + SRC_HEAD), pages, how });
+}
+const hhIndex = (() => { try { const j = JSON.parse(fs.readFileSync(path.join(HH, 'index.json'), 'utf8')); return Object.fromEntries((Array.isArray(j) ? j : j.sources || []).map(x => [x.key, x])); } catch { return {}; } })();
+const hhFile = rel => { if (!rel) return null; const abs = path.resolve(HH, rel); return fs.existsSync(abs) ? abs : null; };
+function measureSource(key) {
+  const s = sources[key];
+  if (s.shipped) {
+    const abs = path.join(OUT, s.shipped);
+    if (/\.pdf$/i.test(abs)) return { ...measurePdf(abs), from: 'kit' };
+    if (/\.html?$/i.test(abs)) return { bytes: htmlToReadable(fs.readFileSync(abs, 'utf8')).length + SRC_HEAD, how: 'readable text', from: 'kit' };
+    return { bytes: Math.round(fs.statSync(abs).size * 1.05) + SRC_HEAD, how: 'text', from: 'kit' };
+  }
+  const h = hhIndex[key] || {};
+  const pdf = hhFile(KNOWN_FILES[key]) || (h.type === 'pdf' || !h.type ? hhFile(h.files?.pdf || `archive/${key}.pdf`) : null);
+  if (pdf && (h.type === 'pdf' || KNOWN_FILES[key] || !hhFile(`archive/${key}.md`))) return { ...measurePdf(pdf), from: 'household' };
+  const md = hhFile(h.files?.md) || hhFile(`archive/${key}.md`) || hhFile(`manual/${key}.md`);
+  if (md) return { bytes: Math.round(fs.statSync(md).size * HTML_TAG_FACTOR) + SRC_HEAD, how: 'readable text', from: 'household' };
+  return null;
+}
+const srcUrl = Object.fromEntries(srcList.map(x => [x.key, x.url || '']));
+const citedMap = new Map();
+for (const p of allPages().sort((a, b) => a.id.localeCompare(b.id))) for (const k of p.sources || []) if (sources[k]) { if (!citedMap.has(k)) citedMap.set(k, []); citedMap.get(k).push(p.id); }
+const measured = new Map();
+for (const key of citedMap.keys()) { const m = measureSource(key); if (m) measured.set(key, m); }
+try { fs.mkdirSync(path.dirname(CACHE_FILE), { recursive: true }); fs.writeFileSync(CACHE_FILE, JSON.stringify(sizeCache)); } catch {}
+const isPdfKey = k => /\.pdf($|[?#])/i.test(srcUrl[k] || '') || (measured.get(k)?.pages ?? null) !== null;
+const mean = list => (list.length ? list.reduce((n, x) => n + x, 0) / list.length : null);
+// books (over BOOK_PAGES pages, such as AFH 10-644 at 652) are left out of the PDF mean: one of them
+// would otherwise multiply the estimate for every unmeasured leaflet and manual
+const BOOK_PAGES = 200;
+const avgPdf = Math.round(mean([...measured].filter(([k, m]) => isPdfKey(k) && !(m.pages > BOOK_PAGES)).map(([, m]) => m.bytes)) ?? DEFAULT_PDF_BYTES);
+const avgHtml = Math.round(mean([...measured].filter(([k]) => !isPdfKey(k)).map(([, m]) => m.bytes)) ?? DEFAULT_HTML_BYTES);
+for (const key of citedMap.keys()) {
+  const m = measured.get(key);
+  sources[key].binder_bytes = m ? m.bytes : isPdfKey(key) ? avgPdf : avgHtml;
+  sources[key].size_basis = m ? `${m.how} (${m.from} copy)` : `average ${isPdfKey(key) ? 'PDF' : 'web page'}`;
+}
+
 const textBytes = allPages().reduce((n, p) => n + Buffer.byteLength(p.body || ''), 0);
 const figBytes = Object.values(figures).reduce((n, f) => n + (f.svg ? f.svg.length : 0), 0);
 const small = Math.round(textBytes * 1.35 + plateBytes * 1.34 + figBytes + 200e3);
-const citedAll = Object.values(sources).filter(s => s.cited_by.length);
-const shippedBytes = citedAll.reduce((n, s) => n + (s.bytes || 0), 0);
-const fetched = citedAll.filter(s => !s.shipped).length;
-const large = Math.round(small + shippedBytes * 1.34 + fetched * 1.5e6 * 1.34);
+const MAPS_ASSUMED = 2; // home county + one destination; the Generate screen uses mapPlan() for the household's own count
+const MB = n => Math.round(n / 1e6);
+const tier = size => {
+  const keys = size === 'small' ? [] : [...sourcesForSize(citedMap, size).bind.keys()];
+  const meas = keys.filter(k => measured.has(k)), avg = keys.filter(k => !measured.has(k));
+  const mBytes = meas.reduce((n, k) => n + sources[k].binder_bytes, 0), aBytes = avg.reduce((n, k) => n + sources[k].binder_bytes, 0);
+  const bytes = small + mBytes + aBytes;
+  const smin = small * 0.9 + mBytes * 0.95 + aBytes * 0.5, smax = small * 1.2 + mBytes * 1.1 + aBytes * 2.5;
+  const out = { bytes, documents: keys.length, measured: meas.length, averaged: avg.length, measured_mb: MB(mBytes), averaged_mb: MB(aBytes),
+    sources_min_mb: Math.max(1, MB(smin)), sources_max_mb: Math.max(2, MB(smax)) };
+  const maps = size === 'small' ? 0 : MAPS_ASSUMED;
+  return { ...out, maps_assumed: maps, min_mb: out.sources_min_mb + maps * MAP_MB.min, max_mb: out.sources_max_mb + maps * MAP_MB.max };
+};
+const tiers = Object.fromEntries(SIZES.map(z => [z, tier(z)]));
+const large = tiers.large.bytes, everything = tiers.everything.bytes;
+console.log(`sizes: ${measured.size} of ${citedMap.size} cited documents measured (${rendered} PDF pages rendered now${hasPdftoppm ? '' : '; pdftoppm not found'}), mean PDF ${(avgPdf / 1e6).toFixed(2)} MB, mean web page ${(avgHtml / 1e3).toFixed(0)} KB`);
+for (const z of SIZES) console.log(`  ${z.padEnd(10)} ${tiers[z].documents} documents, ${MB(tiers[z].bytes)} MB before maps; shown as ${tiers[z].min_mb} to ${tiers[z].max_mb} MB${z === 'small' ? '' : ` with ${MAPS_ASSUMED} maps`}`);
 
 // ---- write -------------------------------------------------------------------------------------
 const kit = {
@@ -392,9 +492,15 @@ const kit = {
   plates, figures, ai_blocks,
   owner_tokens: readJson('scripts/owner-tokens.json', { words: [], patterns: [] }),
   notice_md: exists('NOTICE-TO-USERS.md') ? fs.readFileSync(path.join(ROOT, 'NOTICE-TO-USERS.md'), 'utf8') : '',
-  sizes: { small_bytes: small, large_bytes: large,
-    small: { min_mb: Math.max(1, Math.round(small * 0.9 / 1e6)), max_mb: Math.max(2, Math.round(small * 1.2 / 1e6)) },
-    large: { min_mb: Math.round(large * 0.6 / 1e6), max_mb: Math.round(large * 1.3 / 1e6) }, note: `Large is an estimate: ${fetched} cited documents are fetched per household at about 1.5 MB each on average.` },
+  // kit.sizes: the Generate screen shows <size>.min_mb to max_mb (maps included: maps_assumed maps
+  // of map_mb each); with the household's own mapPlan() it uses sources_min_mb/sources_max_mb plus
+  // that plan instead. *_bytes are the point estimates before maps.
+  sizes: { small_bytes: small, large_bytes: large, everything_bytes: everything,
+    small: tiers.small, large: tiers.large, everything: tiers.everything,
+    map_mb: { min: MAP_MB.min, max: MAP_MB.max },
+    life_safety_sections: [...LIFE_SAFETY_SECTIONS],
+    pdf_render: { ...PDF_RENDER },
+    note: `Measured: ${measured.size} of ${citedMap.size} cited documents (page pictures rendered at ${PDF_RENDER.width} px). The other ${citedMap.size - measured.size} are counted at the measured average (PDF ${(avgPdf / 1e6).toFixed(1)} MB, web page ${Math.round(avgHtml / 1e3)} KB). Each topographic map adds ${MAP_MB.min} to ${MAP_MB.max} MB.` },
   warnings,
 };
 const check = JSON.stringify({ ...kit, maps: null, owner_tokens: null });
@@ -403,4 +509,4 @@ if (leaks) { console.error(`ERROR kit.json would contain ${leaks.length} URL(s),
 fs.writeFileSync(path.join(OUT, 'kit.json'), JSON.stringify(kit));
 for (const w of warnings.slice(0, 30)) console.log('WARN  ' + w);
 if (warnings.length > 30) console.log(`WARN  … and ${warnings.length - 30} more (kit.json .warnings)`);
-console.log(`✓ ${rel(path.join(OUT, 'kit.json'))}: ${kit.pages.length} pages (${gen.length} generated), ${cards.length} cards, ${Object.keys(sources).length} sources, ${(fs.statSync(path.join(OUT, 'kit.json')).size / 1e6).toFixed(1)} MB; estimated binder Small ${(small / 1e6).toFixed(0)} MB, Large ${(large / 1e6).toFixed(0)} MB`);
+console.log(`✓ ${rel(path.join(OUT, 'kit.json'))}: ${kit.pages.length} pages (${gen.length} generated), ${cards.length} cards, ${Object.keys(sources).length} sources, ${(fs.statSync(path.join(OUT, 'kit.json')).size / 1e6).toFixed(1)} MB; estimated binder Small ${tiers.small.min_mb}-${tiers.small.max_mb} MB, Large ${tiers.large.min_mb}-${tiers.large.max_mb} MB, Everything ${tiers.everything.min_mb}-${tiers.everything.max_mb} MB (maps included)`);

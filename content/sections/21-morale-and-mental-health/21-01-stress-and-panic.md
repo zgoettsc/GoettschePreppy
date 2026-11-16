@@ -2,7 +2,7 @@
 id: 21-01-stress-and-panic
 section: 21-morale-and-mental-health
 title: "Stress, panic and judgment"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -78,8 +78,9 @@ None of this can be willed away. All of it can be planned around.
    made calmly last month beats one made brilliantly under pressure.
 2. **Checklists on paper.** This binder is one. Working memory fails; paper does not.
 3. **Drill it** (→ 24-02). Practising the shelter drill once beats reading about it ten times.
-4. **Breathe on purpose.** Box breathing (breathe in for a count of 4, hold 4, out 4, hold 4), or
-   simply a long, slow out-breath. It lowers the body's alarm response. Practise now.
+4. **Breathe on purpose.** Box breathing (breathe in, hold, breathe out, hold, each for the same
+   slow count), or simply a long, slow out-breath. Slow breathing calms the body's alarm response.
+   Practise now.
 5. **Say it out loud.** Explaining a plan to another adult exposes bad reasoning fast and slows you
    down usefully.
 6. **Take thirty seconds.** Almost nothing is so urgent that thirty seconds of thought makes it
@@ -126,13 +127,14 @@ these is more likely (→ 12-15):
 
 ## Warning signs of distress that needs attention
 
-SAMHSA's list for people affected by disaster (read the source if you can), broadly:
-- Sleeping too much or too little; nightmares.
-- Changes in appetite and energy.
+SAMHSA's list for people affected by disaster (SAMHSA, Warning Signs and Risk Factors for Emotional
+Distress), in short:
+- Sleeping or eating too much or too little.
+- Lack of energy, or always feeling tired.
 - More alcohol or other substance use.
-- Trouble concentrating or deciding.
+- Worrying much of the time; feeling guilty without knowing why.
 - Physical complaints with no clear cause.
-- Irritability, anger, or feeling numb.
+- Anger, feeling edgy, or lashing out at others.
 - Pulling away from others.
 - Feeling hopeless or overwhelmed.
 - **Thoughts of self-harm: take these seriously at once** (→ 12-15).
@@ -160,8 +162,8 @@ SAMHSA's list for people affected by disaster (read the source if you can), broa
 - **Get outside into daylight** when it is safe.
 - **Do something for someone else** (→ 18-01): agency and connection at once.
 
-CDC lists connection, purpose and routine among the things that protect mental health (CDC, About
-Mental Health). All are free, and all need deliberate upkeep.
+CDC lists strong social connections and positive coping skills among the things that protect mental
+health (CDC, About Mental Health). Both are free, and both need deliberate upkeep.
 
 ## Gear
 

@@ -2,7 +2,7 @@
 id: 21-04-routine-and-structure
 section: 21-morale-and-mental-health
 title: "Routine and structure for the household"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: none
@@ -13,6 +13,7 @@ sources:
   - cdc-about-mental-health-0a5e6b
   - samhsa-disaster-distress-helpline-warning-signs-and-d8a953
   - cdc-positive-parenting-tips-child-development-by-age-1e16c6
+  - cdc-tips-for-relying-on-routines-and-rules
   - cdc-managing-sick-days-18c7c8
 related: [21-01-stress-and-panic, 21-02-long-haul-morale, 21-05-conflict-between-adults, 21-06-celebration-and-meaning, 21-07-sleep, 20-03-routine-and-schooling, 20-08-kids-and-fear, 00-07-household-roles, 01-02-go-no-go-decision, 23-02-master-consumables-table, 25-05-blank-logs, 12-07-meds-stockpile, 15-01-weather-alerts]
 cards: []
@@ -113,8 +114,8 @@ Unassigned work becomes contested work (→ 21-05). With → 00-07:
 
 ## Why it works on children
 
-CDC's child development guidance describes predictability as reassuring to young children (CDC,
-Positive Parenting Tips; → 20-03, → 20-08). A child who knows what comes next is calmer than one told
+CDC's parenting guidance says routines and rules help children feel safe because they know what to
+expect (CDC, Tips for Relying on Routines and Rules; → 20-03, → 20-08). A child who knows what comes next is calmer than one told
 everything will be fine. The routine shows competence more convincingly than reassurance.
 
 ## Why it works on adults

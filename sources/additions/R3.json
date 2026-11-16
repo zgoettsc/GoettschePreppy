@@ -1,0 +1,178 @@
+[
+  {
+    "key": "maryland-mde-gasoline-safety-r3",
+    "title": "Gasoline Safety (consumer fact sheet: refuelling, filling containers, storage, disposal; guidance from the American Petroleum Institute)",
+    "org": "Maryland Department of the Environment",
+    "date": "2026-11-16",
+    "licence_class": "restricted",
+    "licence_note": "State government fact sheet reproducing American Petroleum Institute consumer guidance; archived for personal offline reference. Read 2026-11-16 by R3: place a portable container on the ground and keep the nozzle in contact with it while filling; never fill a container inside a vehicle, trunk, pickup bed, flat bed or trailer floor; fill slowly; do not get back into the vehicle while refuelling; never siphon by mouth, and if gasoline is swallowed do not induce vomiting; fill no more than 95 percent full; gasoline vapours are heavier than air and can travel along the floor to an ignition source; store away from water heaters, space heaters and furnaces; never pour old gasoline on the ground or into a drain.",
+    "url": "https://mde.maryland.gov/programs/ResearchCenter/FactSheets/Documents/www.mde.state.md.us/assets/document/Gasoline_Safety.pdf",
+    "household_cited_by": [],
+    "cited_by": ["06-06-fuel-storage-safety", "06-07-moving-and-transferring-fuel", "06-08-fuel-transport"]
+  },
+  {
+    "key": "niosh-fire-hazard-filling-gas-cans-in-pickups-1998-r3",
+    "title": "Fire Hazard from Filling Portable Gas Cans in Pickup Trucks and Cars (Hazard ID, July 1998)",
+    "org": "National Institute for Occupational Safety and Health (NIOSH); copy hosted by eLCOSH (CPWR)",
+    "date": "2026-11-16",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work (NIOSH). Read 2026-11-16 by R3: fires occurred when portable gasoline containers were filled in pickup beds (plastic bed liners) and cars; remove containers from the vehicle and place them on the ground before filling; touch the container with the nozzle before removing the lid; keep the nozzle in contact with the container inlet while filling.",
+    "url": "https://elcosh.org/document/1200/d000372/Fire+Hazard+from+Filling+Portable+Gas+Cans+in+Pickup+Trucks+and+Cars.html",
+    "household_cited_by": [],
+    "cited_by": ["06-07-moving-and-transferring-fuel", "06-08-fuel-transport"]
+  },
+  {
+    "key": "pei-stop-static-campaign-r3",
+    "title": "Stop Static Campaign (three rules for safe refuelling)",
+    "org": "Petroleum Equipment Institute (PEI)",
+    "date": "2026-11-16",
+    "licence_class": "restricted",
+    "licence_note": "PEI grants permission to use the information unaltered and not for profit, with acknowledgment. Read 2026-11-16 by R3: static electricity can ignite gasoline vapours at the pump; almost 200 incidents reported to PEI; rules: turn off the engine, do not smoke, never re-enter the vehicle while refuelling.",
+    "url": "https://www.pei.org/resources/stop-static",
+    "household_cited_by": [],
+    "cited_by": ["06-07-moving-and-transferring-fuel"]
+  },
+  {
+    "key": "hawaii-gas-engineering-guide-lp-tank-vapor-r3",
+    "title": "Gas Engineering Guide: LP-Gas Tank, Vapor LPG Tanks (Note A, DOT cylinders, quoting NFPA 58 6.3.7)",
+    "org": "Hawaii Gas",
+    "date": "2026-11-16",
+    "licence_class": "restricted",
+    "licence_note": "Gas utility engineering guide; archived for personal offline reference. Read 2026-11-16 by R3: for DOT cylinders, the pressure relief device is at least 3 ft horizontally from any building opening below the level of discharge, and at least 5 ft horizontally from any exterior source of ignition, openings into direct-vent appliances, or mechanical ventilation air intakes (NFPA 58 6.3.7).",
+    "url": "https://www.hawaiigas.com/engineering-guide-2/installations-lp-gas-tank-vapor-lpg-tanks",
+    "household_cited_by": [],
+    "cited_by": ["06-06-fuel-storage-safety"]
+  },
+  {
+    "key": "minnesota-sfm-lp-gas-inside-buildings-r3",
+    "title": "LP gas inside buildings (fire code information sheet)",
+    "org": "Minnesota Department of Public Safety, State Fire Marshal Division",
+    "date": "2026-11-16",
+    "licence_class": "restricted",
+    "licence_note": "State fire marshal guidance; archived for personal offline reference. Read 2026-11-16 by R3: cylinders larger than 1 pound must not be stored or used indoors at a residential property, including attached and detached garages; maximum container size in residential occupancies is 1 lb.",
+    "url": "https://dps.mn.gov/divisions/sfm/fire-code/fire-code-information-topic/lp-gas-inside-buildings",
+    "household_cited_by": [],
+    "cited_by": ["06-05-alternative-fuels", "06-06-fuel-storage-safety"]
+  },
+  {
+    "key": "ecfr-49-cfr-173-6-materials-of-trade-r3",
+    "title": "49 CFR 173.6, Materials of trade exceptions (regulation text)",
+    "org": "US Department of Transportation, Pipeline and Hazardous Materials Safety Administration (Code of Federal Regulations)",
+    "date": "2026-11-16",
+    "licence_class": "public-domain",
+    "licence_note": "US federal regulation. Read 2026-11-16 by R3: Packing Group II or III materials in packagings of not over 30 kg (66 lb) or 30 L (8 gallons); packagings leak tight for liquids, securely closed, secured against shifting and protected against damage; aggregate gross weight of all materials of trade on a motor vehicle not over 200 kg (440 lb).",
+    "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-173/subpart-A/section-173.6",
+    "household_cited_by": [],
+    "cited_by": ["06-08-fuel-transport"]
+  },
+  {
+    "key": "niosh-npg-gasoline-r3",
+    "title": "NIOSH Pocket Guide to Chemical Hazards: Gasoline",
+    "org": "CDC / NIOSH",
+    "date": "2026-11-16",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work. Read 2026-11-16 by R3: flash point -45 F; lower explosive limit 1.4 percent.",
+    "url": "https://www.cdc.gov/niosh/npg/npgd0299.html",
+    "household_cited_by": [],
+    "cited_by": ["06-06-fuel-storage-safety"]
+  },
+  {
+    "key": "niosh-npg-n-butane-r3",
+    "title": "NIOSH Pocket Guide to Chemical Hazards: n-Butane",
+    "org": "CDC / NIOSH",
+    "date": "2026-11-16",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work. Read 2026-11-16 by R3: boiling point 31 F; relative gas density 2.11 (heavier than air).",
+    "url": "https://www.cdc.gov/niosh/npg/npgd0068.html",
+    "household_cited_by": [],
+    "cited_by": ["06-01-fire-starting", "06-05-alternative-fuels"]
+  },
+  {
+    "key": "niosh-npg-propane-r3",
+    "title": "NIOSH Pocket Guide to Chemical Hazards: Propane",
+    "org": "CDC / NIOSH",
+    "date": "2026-11-16",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work. Read 2026-11-16 by R3: boiling point -44 F; relative gas density 1.55 (heavier than air).",
+    "url": "https://www.cdc.gov/niosh/npg/npgd0524.html",
+    "household_cited_by": [],
+    "cited_by": ["06-05-alternative-fuels", "06-06-fuel-storage-safety"]
+  },
+  {
+    "key": "niosh-npg-paraffin-wax-fume-r3",
+    "title": "NIOSH Pocket Guide to Chemical Hazards: Paraffin wax fume",
+    "org": "CDC / NIOSH",
+    "date": "2026-11-16",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work. Read 2026-11-16 by R3: melting point 115-154 F; flash point 390 F.",
+    "url": "https://www.cdc.gov/niosh/npg/npgd0477.html",
+    "household_cited_by": [],
+    "cited_by": ["10-04-candles-and-oil"]
+  },
+  {
+    "key": "cdc-niosh-methanol-systemic-agent-r3",
+    "title": "Methanol: Systemic Agent (Emergency Response Safety and Health Database)",
+    "org": "CDC / NIOSH",
+    "date": "2026-11-16",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work. Read 2026-11-16 by R3: swallowed methanol can cause metabolic acidosis, blindness and death; breathing high vapour concentrations is as effective as swallowing in producing toxic effects; the odour does not warn of low exposures.",
+    "url": "https://www.cdc.gov/niosh/ershdb/emergencyresponsecard_29750029.html",
+    "household_cited_by": [],
+    "cited_by": ["10-02-fuel-lamps-and-candles"]
+  },
+  {
+    "key": "csia-homeowner-resources-faqs-r3",
+    "title": "Homeowner Resources and FAQs (how often to sweep; chemical cleaners; glazed creosote)",
+    "org": "Chimney Safety Institute of America (CSIA)",
+    "date": "2026-11-16",
+    "licence_class": "restricted",
+    "licence_note": "© CSIA; archived for personal offline reference. Read 2026-11-16 by R3: quotes NFPA 211, 'Chimneys, fireplaces, and vents shall be inspected at least once a year for soundness, freedom from deposits, and correct clearances'; masonry fireplaces should be swept at 1/8 inch of sooty buildup, sooner if any glaze is present; hard or tacky glazed creosote cannot be removed by normal brushing and needs a professional's chemical treatment.",
+    "url": "https://csia.org/homeowner-resources",
+    "household_cited_by": [],
+    "cited_by": ["06-09-chimney-and-creosote"]
+  },
+  {
+    "key": "nws-wind-chill-chart-graphic-2001-r3",
+    "title": "Wind Chill Chart (chart graphic with frostbite times, effective 11/01/01)",
+    "org": "NOAA / National Weather Service",
+    "date": "2026-11-16",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work. Read 2026-11-16 by R3: wind chill formula and table by temperature and wind; frostbite-time shading of 30, 10 and 5 minutes. At 10-25 mph the 30-minute band begins at about -19 to -24 F wind chill, the 10-minute band at about -37 F (25 mph) to -47 F (10 mph), the 5-minute band at about -64 F (25 mph) to -71 F (15 mph).",
+    "url": "https://www.weather.gov/media/safety/windchillchart3.pdf",
+    "household_cited_by": [],
+    "cited_by": ["11-01-cold-weather-layering"]
+  },
+  {
+    "key": "nws-during-a-heat-wave-r3",
+    "title": "During a Heat Wave",
+    "org": "NOAA / National Weather Service",
+    "date": "2026-11-16",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work. Read 2026-11-16 by R3: wear lightweight, loose-fitting, light-coloured clothing; sunburn reduces the body's ability to get rid of heat; use fans to exhaust hot air or draw in cooler air; do not direct a fan at yourself when the room is hotter than 90 F; infants and young children are particularly vulnerable; never leave children in a car.",
+    "url": "https://www.weather.gov/safety/heat-during",
+    "household_cited_by": [],
+    "cited_by": ["11-08-summer-heat-clothing"]
+  },
+  {
+    "key": "nws-understanding-heat-alerts-r3",
+    "title": "Understanding Heat Alerts (Extreme Heat Warning, Extreme Heat Watch, Heat Advisory)",
+    "org": "NOAA / National Weather Service",
+    "date": "2026-11-16",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work. Read 2026-11-16 by R3: an Extreme Heat Warning is issued when extremely dangerous heat is expected or occurring; a Heat Advisory for dangerous heat below warning criteria; avoid outdoor activity in the heat of the day, drink plenty of water, rest in shade.",
+    "url": "https://www.weather.gov/safety/heat-ww",
+    "household_cited_by": [],
+    "cited_by": ["11-08-summer-heat-clothing"]
+  },
+  {
+    "key": "osha-logging-operations-29-cfr-1910-266-r3",
+    "title": "Logging operations, 29 CFR 1910.266 (personal protective equipment, paragraph (d)(1))",
+    "org": "OSHA",
+    "date": "2026-11-16",
+    "licence_class": "public-domain",
+    "licence_note": "US federal regulation. Read 2026-11-16 by R3: chain-saw operators wear cut-resistant leg protection covering the thigh to the top of the boot, and cut-resistant foot protection; head protection where objects can fall or fly; eye and face protection; hand protection against cuts and punctures.",
+    "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-R/section-1910.266",
+    "household_cited_by": [],
+    "cited_by": ["11-05-wool-and-materials"]
+  }
+]

@@ -84,7 +84,7 @@ export const STEPS = [
         why: 'So you know, before you type anything, where your answers go and that your finished file is for your household only.' }),
       q({ kind: 'check', path: P('access', 'save_profile_locally'), label: 'A file of your answers', falseWhenOff: true,
         text: 'At the end, offer me a file of my answers (profile.json) to keep on this device.',
-        why: 'With that file you can come back to change answers, rebuild your binder, or upgrade from Small to Large, without typing it all again. The file stays with you.' }),
+        why: 'With that file you can come back to change answers, rebuild your binder, or upgrade from Small to Large or Everything, without typing it all again. The file stays with you.' }),
       env.keepToggleUI(),
       relaySourceUI(),
     ],

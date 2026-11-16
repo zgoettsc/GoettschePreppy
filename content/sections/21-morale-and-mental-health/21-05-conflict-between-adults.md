@@ -2,7 +2,7 @@
 id: 21-05-conflict-between-adults
 section: 21-morale-and-mental-health
 title: "Conflict between adults"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -178,7 +178,7 @@ medicine an adult may have to give (→ 24-02) so the dread turns into procedure
 
 ## Merging into another household
 
-{{#if has.destinations}}Your plan includes destinations: {{#each destinations as d}}{{d.name}} ({{d.status_text}}); {{/each}}{{else}}Moving in with others, or taking others in, is common in a long event.{{/if}}
+{{#if has.destinations}}Your plan includes these destinations: {{#each destinations as d}}{{d.name}} ({{d.status_text}}). {{/each}}{{else}}Moving in with others, or taking others in, is common in a long event.{{/if}}
 Moving in with another household (or taking one in) brings three frictions on day one. Name them now:
 1. **Authority: whose land, whose call.** Settle it in writing before arrival where you can (→ 18-04),
    or in the first hours where you cannot: which decisions are the hosts', which are shared, which are

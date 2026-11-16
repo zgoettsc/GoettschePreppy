@@ -2,7 +2,7 @@
 id: 23-04-resource-lifecycles
 section: 23-depletion-and-substitution
 title: "Lifecycles of every major consumable"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -225,7 +225,7 @@ Whether your household burns old fuel, and how old, is a decision card: {{choice
 | **Stock** | What is on the shelf, by calibre{{#if !has.firearms}} (none, per settings){{/if}} |
 | **Runway** | Long for defence, **short for hunting** if hunting becomes a food plan |
 | **Extend** | Practise with the cheapest calibre; confirm your sights once rather than re-adjusting again and again (→ 14-09) |
-| **Substitute** | Traps and snares return more food per hour of effort than shooting (→ 05-15) |
+| **Substitute** | Traps and snares, which keep working while you do other jobs and use no ammunition (→ 05-15) |
 | **Produce** | Reloading only moves the problem: its parts are a stock too. **No load data appears in this binder** |
 | **Stage 4 needs** | Press, dies, primers, powder, bullets; primers are the hard stop |
 | **Verdict** | **Finite. Treat every round as irreplaceable**, and let traps feed you |

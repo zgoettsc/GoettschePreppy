@@ -78,8 +78,8 @@ when nobody enforces them.
   wrong, may be fatal. Bleeding control buys time, not a cure (→ 12-02).
 - **Property can be replaced; the children watching cannot.** What children see at the door stays
   with them (CDC, Helping Children Cope During and After a Disaster; → 21-03).
-- **Bullets go through walls.** Ordinary rifle, shotgun and handgun ammunition can pass through
-  interior and exterior walls into other rooms and other houses.
+- **Bullets go through walls.** Bullets can penetrate walls and ceilings (NSSF, Firearm safety),
+  so ordinary rifle, shotgun and handgun ammunition can reach other rooms and other houses.
 
 | What changes when services are gone | What does not change |
 |---|---|
@@ -138,7 +138,7 @@ grabbed from an unattended trailer.
 > otherwise have the firearm only if you may lawfully have it where you start and where you end,
 > and the firearm is unloaded with neither it nor ammunition readily reachable from the passenger
 > compartment; in a vehicle with no separate trunk, it must be in a locked container other than
-> the glove box (18 U.S.C. § 926A). Suppressors and other NFA items have their own rules (→ 14-10;
+> the glove compartment or console (18 U.S.C. § 926A). Suppressors and other NFA items have their own rules (→ 14-10;
 > ATF, National Firearms Act interstate transportation). Look up each state on your route while
 > the information is published.
 

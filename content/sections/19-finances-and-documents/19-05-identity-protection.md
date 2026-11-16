@@ -2,7 +2,7 @@
 id: 19-05-identity-protection
 section: 19-finances-and-documents
 title: "Identity protection and fraud after a disaster"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -11,6 +11,10 @@ tags: [identity theft, fraud, scams, credit freeze, fraud alert, contractor frau
 derived_from: [19-05-identity-protection]
 sources:
   - federal-trade-commission-identitytheft-gov-identity-264030
+  - ftc-identity-theft-a-recovery-plan
+  - ftc-credit-freezes-and-fraud-alerts
+  - ftc-free-credit-reports
+  - fema-disaster-fraud
   - consumer-financial-protection-bureau-disasters-and-e-44eaa3
   - federal-deposit-insurance-corporation-fdic-consumer-ecc3ff
   - usa-gov-find-disaster-financial-help-fbcd9e
@@ -42,16 +46,19 @@ are built on (→ 21-01).
 > the one on your policy, card or statement.
 >
 > **The FTC is the federal agency for reporting and recovering from identity theft**; its identity
-> theft line is 1-877-438-4338 (FTC, Identity Theft: Report and Recover). Write it on your contact list now (→ 25-03).
+> theft line is 1-877-438-4338 (FTC, Identity Theft: A Recovery Plan). Write it on your contact
+> list now (→ 25-03).
 
 ## Do this now
 
 1. **Consider a credit freeze at all three national credit bureaus, for every adult.** A freeze stops
    anyone opening new credit in your name. It is free, you can lift it when you need credit, and it is
-   the strongest protection against new-account fraud (FTC; CFPB).
+   the strongest protection against new-account fraud. It does not affect your credit score (FTC,
+   What To Know About Credit Freezes and Fraud Alerts).
 2. **Consider freezes for the children too.** Child identity theft is real and goes unnoticed for
-   years, usually until the child first applies for credit as an adult. A child should have no credit
-   file; a freeze makes sure one cannot be used.
+   years, usually until the child first applies for credit as an adult. A parent can request a free
+   freeze for a child under 16; each bureau has its own steps (FTC, What To Know About Credit Freezes
+   and Fraud Alerts).
 3. **Write down** the FTC line above and the three bureaus' phone numbers (→ 25-03).
 4. **Secure your papers** (→ 19-01). The same box that protects against loss protects against
    exposure.
@@ -66,7 +73,7 @@ are built on (→ 21-01).
 | Contractor fraud | Door-to-door "we're working in the area", wants a large deposit, disappears | **Never pay much up front.** Check licensing. Get it in writing. Use established local firms |
 | Fake adjusters or inspectors | Claim to be from your insurer or the government; ask for information or fees | **Call your insurer yourself** on the number on your policy (→ 19-04). Real officials do not demand payment |
 | Charity fraud | Fake relief groups, urgent appeals | Give to organizations you already know |
-| Advance-fee "assistance" | "Pay a fee to get your grant" | **Government disaster assistance never charges a fee** (USA.gov) |
+| Advance-fee "assistance" | "Pay a fee to get your grant" | **Federal agencies never charge you for disaster assistance, and FEMA never charges for an inspection** (FEMA, Disaster Fraud) |
 | Identity theft | Using papers, mail or information exposed in the chaos | Freezes, alerts, secured papers |
 | Price gouging | Often illegal | Report to the state attorney general (→ 25-03) |
 | Phishing | Fake texts and emails about claims, aid or accounts | **Never tap the link.** Contact the organization yourself |
@@ -75,7 +82,7 @@ are built on (→ 21-01).
 
 - **Papers scattered or reachable** in a damaged house.
 - **Mail going to an empty or damaged address.** If you are displaced, ask the Postal Service to hold
-  or forward it (CFPB).
+  or forward it.
 - **Personal details shared with many parties** during recovery (insurers, contractors, agencies), any
   of whom can be impersonated.
 - **Stress and distraction** (→ 21-01), the reason scams work.
@@ -84,19 +91,27 @@ are built on (→ 21-01).
 
 ## Freezes and alerts
 
-- **A freeze blocks new credit accounts** being opened in your name. Free at all three bureaus, and
-  you can lift it temporarily.
-- **A fraud alert** is lighter: it asks lenders to check it is really you. A freeze is stronger.
+- **A freeze blocks new credit accounts** being opened in your name. Free to place and to lift at all
+  three bureaus (Equifax, Experian, TransUnion), and you can lift it temporarily when you apply for
+  credit (FTC).
+- **A fraud alert** is lighter: it asks lenders to check it is really you. A free alert placed with
+  one bureau is passed to the other two and lasts one year (FTC, Identity Theft: A Recovery Plan). A
+  freeze is stronger.
 - **Do it for every member, children included.**
 
 ## If it happens: the recovery path (FTC)
 
-1. **Report to the FTC** (line above). It produces a recovery plan and an official identity theft
-   report.
-2. **Contact the companies** where the fraud happened.
-3. **Place a fraud alert or freeze** with the bureaus.
-4. **Get your credit reports** and go through them.
-5. **File a police report** if advised.
+The FTC's first three steps, in its order (FTC, Identity Theft: A Recovery Plan):
+1. **Call the companies where you know fraud happened.** Ask them to close or freeze those
+   accounts, and change the logins, passwords and PINs.
+2. **Place a fraud alert and get your credit reports.** Go through them and note anything you do
+   not recognize.
+3. **Report it to the FTC** (line above). The online report produces an official identity theft
+   report and a recovery plan.
+
+Then:
+4. **Consider a freeze** with each bureau, if you have not already.
+5. **File a police report** if you know who did it or a company asks for one.
 6. **Keep a record of everything:** dates, names, what was said (→ 25-05).
 7. **Follow the plan through.** Recovery is a process, not one call.
 
@@ -129,8 +144,9 @@ Most identity theft has nothing to do with disasters:
   lock you out (→ 09-06).
 - **Papers secured at home** (→ 19-01).
 
-> **Before the collapse:** federal law lets you get your credit reports free from each of the three
-> bureaus; they have offered free weekly reports. Freezes are free by federal law.
+> **Before the collapse:** federal law lets you get a free credit report from each of the three
+> bureaus every 12 months, and the bureaus have permanently extended free weekly reports
+> (FTC, Free Credit Reports). Placing and lifting a freeze is free (FTC).
 
 ## Gear
 

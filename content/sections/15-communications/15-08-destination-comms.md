@@ -9,7 +9,7 @@ danger_level: critical
 phase: [A, B, C]
 tags: [destination, node, relay, overdue, check-in, travel, arrival signal, missing traveller, GMRS, satellite, medical]
 derived_from: [15-08-destination-comms]
-sources: [fema-ready-gov-create-your-family-emergency-communic-584e89, noaa-national-weather-service-weather-ready-nation-b0a52f, us-government-publishing-office-ecfr-47-cfr-part-95-c8b55a, american-red-cross-power-outage-safety-6d07a8, federal-communications-commission-9-1-1-and-e9-1-1-s-a8c9c7]
+sources: [fema-ready-gov-create-your-family-emergency-communic-584e89, noaa-national-weather-service-weather-ready-nation-b0a52f, us-government-publishing-office-ecfr-47-cfr-part-95-c8b55a, american-red-cross-power-outage-safety-6d07a8, ecfr-47-cfr-part-9-911-requirements]
 related: [15-09-corridor-comms, 15-03-family-comms-plan, 15-02-radio-options, 15-05-ham-and-licensing, 15-06-antennas-and-range, 15-07-signals-and-codes, 01-05-choosing-a-destination, 01-07-evacuating-with-medical-needs, 01-03-phase-b-movement, 12-11-chronic-conditions, 17-11-corridor-hazards, 00-04-family-emergency-plan, 14-03-opsec, 25-03-regional-contacts, 25-04-maps, 25-10-annual-review, 30-20-dc19-when-to-leave]
 cards: [DC-19]
 explainers: [EX-09]
@@ -36,7 +36,7 @@ either end knows when to expect you, nobody knows when to start looking.** This 
 > **SAFETY.** Agree the overdue trigger **before** every trip, out loud, with a clock time. A
 > traveller who is overdue in winter, or who depends on medicine or a device they carry, is a
 > medical emergency, not a logistics problem. **911 connects from any phone on any carrier's
-> tower** (FCC, 9-1-1 and E9-1-1 Services). When to leave home at all is a household decision:
+> tower** (47 CFR 9.10). When to leave home at all is a household decision:
 > {{choice DC-19}} → 30-20.
 
 **What a node is:** a person at a fixed place with a phone, a copy of the plan, and an agreed job.

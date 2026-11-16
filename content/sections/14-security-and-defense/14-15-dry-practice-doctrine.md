@@ -31,7 +31,8 @@ unloaded, with no ammunition in the room. It keeps shooting skills alive without
 ammunition and without noise. Because it means handling firearms inside the house, it is only
 safe when done with the exact routine below, every time. New to firearms? Read → 29-11 first.
 
-> **CAUTION.** **The four rules head every session** (NSSF, Firearm safety):
+> **CAUTION.** **The four rules head every session.** They are the short form used on → 29-11;
+> NSSF's ten rules of firearm safety say the same things at more length (NSSF, Firearm safety):
 > 1. **Treat every gun as if it is loaded.** Always, including the one you just checked.
 > 2. **Never point a gun at anything you are not willing to destroy.**
 > 3. **Keep your finger off the trigger** and outside the trigger guard unless you are about to

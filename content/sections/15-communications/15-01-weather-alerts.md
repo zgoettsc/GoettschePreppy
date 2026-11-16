@@ -9,7 +9,7 @@ danger_level: caution
 phase: [A, B, C]
 tags: [NOAA Weather Radio, SAME, weather alerts, watch, warning, tornado, blizzard, flood, batteries, hand-crank, barometer]
 derived_from: [15-01-weather-alerts]
-sources: [noaa-national-weather-service-noaa-weather-radio-all-5f13d8, noaa-national-weather-service-nwr-county-coverage-an-c6207f, noaa-national-weather-service-weather-ready-nation-b0a52f, american-red-cross-winter-storm-preparedness-and-bli-4bb6c0]
+sources: [noaa-national-weather-service-noaa-weather-radio-all-5f13d8, noaa-national-weather-service-nwr-county-coverage-an-c6207f, nws-partial-county-alerting-technical, nws-cold-hazard-simplification-2024, nws-heat-hazard-renaming-2025, noaa-national-weather-service-weather-ready-nation-b0a52f, american-red-cross-winter-storm-preparedness-and-bli-4bb6c0]
 related: [29-10-ex10-weather-alert-words, 29-09-ex09-radios, 15-02-radio-options, 15-03-family-comms-plan, 15-04-monitoring-and-info, 15-05-ham-and-licensing, 15-06-antennas-and-range, 15-09-corridor-comms, 00-04-family-emergency-plan, 17-01-blizzards-and-ice, 17-02-tornadoes, 17-03-floods, 17-04-extreme-cold-and-heat, 17-05-grassland-fire, 17-06-tornado-shelter, 17-10-reading-the-sky, 17-13-hurricanes-and-tropical-storms, 17-14-wildfire-smoke-and-evacuation, 09-05-solar-in-winter, 09-07-battery-chemistry, 09-11-hand-and-alt-generation, 24-02-drills, 25-03-regional-contacts, 25-08-quick-reference-cards, 01-03-phase-b-movement, 01-05-choosing-a-destination, 03-04-purifying-water, 08-05-hypothermia-frostbite, 11-08-summer-heat-clothing, 18-01-mutual-aid]
 cards: []
 explainers: [EX-09, EX-10]
@@ -64,8 +64,9 @@ your radio's batteries.
 
 **SAME** (Specific Area Message Encoding) lets the radio filter alerts to the counties you choose.
 Program your county and it stays silent until something matters to you, which is what makes it
-something you will actually leave on. A SAME code is six digits: a zero, then the county's
-five-digit FIPS code (the federal code for each county).
+something you will actually leave on. A SAME code is six digits. For a whole county the first
+digit is 0; a different first digit means only part of a county, which a few large counties use
+(NWS, Partial County Alerting). Copy the codes from the table below rather than working them out.
 
 **Every NOAA Weather Radio transmitter in the country uses one of seven frequencies: 162.400,
 162.425, 162.450, 162.475, 162.500, 162.525 and 162.550 MHz.** With no internet, any radio that
@@ -124,10 +125,10 @@ Your home's hazard ratings, from the region data (1 low to 3 high):
 | **Severe Thunderstorm Warning** | Hail (a real threat to solar panels), damaging wind, possible tornadoes |
 | **Blizzard Warning** | Do not travel. Bring in wood and water, charge everything, expect almost no solar (→ 09-05, → 17-01) |
 | **Winter Storm or Ice Storm Warning** | Power loss likely; same preparation. Ice is a classic cause of long outages |
-| **Wind Chill Warning** | Frostbite can happen fast (→ 08-05, → 29-10). No unnecessary outdoor work; children stay in |
+| **Extreme Cold Warning** (the NWS replaced "Wind Chill Warning" with this name in 2024; an older radio or card may still say wind chill) | Frostbite can happen fast (→ 08-05, → 29-10). No unnecessary outdoor work; children stay in |
 | **Flood Warning** | Rivers and streams rising; water contamination risk (→ 03-04, → 17-03) |
 | **Red Flag Warning** (fire weather) | Grass and wildfire risk (→ 17-05, → 17-14) |
-| **Extreme Heat Warning** (the NWS renamed these from "Excessive Heat" in 2025; either wording means act) | No air conditioning in a summer outage (→ 11-08, → 17-04) |
+| **Extreme Heat Warning** (the NWS renamed these from "Excessive Heat" in March 2025; either wording means act) | No air conditioning in a summer outage (→ 11-08, → 17-04) |
 | **Hurricane or Tropical Storm Warning** | Follow evacuation orders; secure the house (→ 17-13) |
 
 {{#if is.tornado_region}}Your home is rated for tornadoes: tornadoes can come at night, so the
@@ -167,8 +168,9 @@ The weather radio comes first, and it is the one that works. Layer the others be
   practise it once.
 - **Relying on a phone.** Cell networks fail and phones go flat{{#if has.condition.CL-01}}, and a
   phone may be doing a medical job in your household{{/if}}.
-- **Out of range.** Some places are at the edge of transmitter coverage; check before relying on
-  it at a new site (→ 15-06).
+- **Out of range.** Reliable reception typically reaches about 40 miles from a transmitter over
+  level ground, and less among hills and mountains (NWS, NOAA Weather Radio Coverage by County).
+  Some places are at the edge of coverage; check before relying on it at a new site (→ 15-06).
 
 ## Gear
 

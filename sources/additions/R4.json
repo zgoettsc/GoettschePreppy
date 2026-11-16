@@ -1,0 +1,86 @@
+[
+  {
+    "key": "atf-open-letter-nfa-guidance-2026",
+    "title": "Open Letter: NFA Guidance (non-enforcement of NFA approval and registration for suppressors, short-barreled rifles and shotguns, and any other weapons)",
+    "org": "Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF), U.S. Department of Justice",
+    "date": "2026-10-09",
+    "licence_class": "blocked",
+    "licence_note": "US federal government work (public domain), but atf.gov returned 403 to the reviewer's fetches, as for the other ATF keys. Content confirmed from consistent secondary reports and the court filing in Silencer Shop Foundation v. ATF (N.D. Tex. 6:25-cv-00056). Used only for the 14-10 pre-collapse note.",
+    "url": "https://www.atf.gov/sites/default/files/2026-10/OPEN%20LETTER%20-%20NFA%20Guidance.pdf",
+    "household_cited_by": [],
+    "cited_by": ["14-10-suppressors-and-nfa"],
+    "added_by": "R4"
+  },
+  {
+    "key": "cpsc-fortress-biometric-gun-safe-recall-2023",
+    "title": "Fortress Safe Announces Recall of Biometric Gun Safes Due to Serious Injury Hazard and Risk of Death; One Death Reported (Recall 24-011)",
+    "org": "U.S. Consumer Product Safety Commission (CPSC)",
+    "date": "2023-10-19",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work; public domain.",
+    "url": "https://www.cpsc.gov/Recalls/2024/Fortress-Safe-Announces-Recall-of-Biometric-Gun-Safes-Due-to-Serious-Injury-Hazard-and-Risk-of-Death-One-Death-Reported",
+    "household_cited_by": [],
+    "cited_by": ["14-14-safe-storage-and-child-access"],
+    "added_by": "R4"
+  },
+  {
+    "key": "nws-partial-county-alerting-technical",
+    "title": "Partial County Alerting: Technical Discussion (6-digit SAME location code, county partitions)",
+    "org": "NOAA / National Weather Service",
+    "date": "2026-11-16",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work; public domain.",
+    "url": "https://www.weather.gov/pca/technical",
+    "household_cited_by": [],
+    "cited_by": ["15-01-weather-alerts"],
+    "added_by": "R4"
+  },
+  {
+    "key": "ecfr-47-cfr-part-9-911-requirements",
+    "title": "47 CFR Part 9 — 911 Requirements (§ 9.10(b) basic 911 service: carriers transmit all wireless 911 calls)",
+    "org": "U.S. Government Publishing Office (eCFR) / Federal Communications Commission",
+    "date": "2026-11-16",
+    "licence_class": "public-domain",
+    "licence_note": "Text of a US federal regulation; not subject to copyright.",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-A/part-9",
+    "household_cited_by": [],
+    "cited_by": ["15-03-family-comms-plan", "15-08-destination-comms", "15-09-corridor-comms"],
+    "added_by": "R4"
+  },
+  {
+    "key": "fema-ready-gov-kids-make-a-plan",
+    "title": "Make a Plan (Ready Kids): pick someone out of town; text, don't talk",
+    "org": "FEMA / Ready.gov",
+    "date": "2026-11-16",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work; public domain.",
+    "url": "https://www.ready.gov/kids/make-a-plan",
+    "household_cited_by": [],
+    "cited_by": ["15-03-family-comms-plan"],
+    "added_by": "R4"
+  },
+  {
+    "key": "nws-winter-storm-during",
+    "title": "What To Do If You're Caught in a Winter Storm",
+    "org": "NOAA / National Weather Service",
+    "date": "2026-11-16",
+    "licence_class": "public-domain",
+    "licence_note": "US federal government work; public domain.",
+    "url": "https://www.weather.gov/safety/winter-during",
+    "household_cited_by": [],
+    "cited_by": ["15-09-corridor-comms"],
+    "added_by": "R4"
+  },
+  {
+    "key": "arrl-single-band-dipoles",
+    "title": "Single Band Dipoles",
+    "org": "ARRL, the National Association for Amateur Radio",
+    "date": "2026-11-16",
+    "licence_class": "restricted",
+    "licence_note": "Copyright ARRL; cited for the 468/f dipole formula and the trimming method only.",
+    "url": "http://www.arrl.org/single-band-dipoles",
+    "household_cited_by": [],
+    "cited_by": ["15-06-antennas-and-range"],
+    "added_by": "R4"
+  }
+]

@@ -11,13 +11,18 @@
 //
 // opts:
 //   relay        createRelay() or createDryRunRelay() (relay-client.js, relay-dryrun.js)
-//   size         'small' | 'large'
+//   size         'small' | 'large' | 'everything' (decision G25; sources.js SIZES): Large binds the
+//                documents cited by the life-safety sections (LIFE_SAFETY_SECTIONS) and lists the
+//                rest as "in the Everything download"; Everything binds every cited document.
+//                Large and Everything both carry topo maps (G16).
 //   onProgress   ({ phase, done, total, message }) => void
 //   signal       AbortSignal (cancel)
 //   loadAsset    async (path relative to app/build/) → Uint8Array | null. Default: fetch() relative
 //                to opts.assetBase (default './build/' from the settings page).
-//   previous     text of an earlier binder from the same profile: its ai blocks and review results
-//                are reused when unchanged (Small → Large upgrade without paying again)
+//   previous     an earlier binder file from the same profile (text, or a Blob/File): its ai blocks
+//                and review results are reused when unchanged, and the source documents it already
+//                binds are reused without fetching or rendering them again. Small → Large →
+//                Everything upgrades make no model calls.
 //   pdfRender    async (Uint8Array, {signal}) → {pages, total, truncated}; default: vendored pdf.js
 //                in the browser (pdf-render.js); false = keep PDFs as files with an open button
 //   pdfToText    optional async (Uint8Array) → string, used only when rendering is unavailable
@@ -29,7 +34,7 @@ import { buildContext, STATE_NAMES } from './context.js';
 import { renderPageMarkdown, markdownToHtml, articleHtml, buildLabels, esc } from './render.js';
 import { localChecks, checkAiText, modelReview, ownerTokenRegexes, URL_RE } from './review.js';
 import { MODEL, messageText, createRelay } from './relay-client.js';
-import { sourceBlock, toBase64 } from './sources.js';
+import { sourceBlock, toBase64, normalizeSize, bindsSources, sourcesForSize, extractBoundSources, reusedSourceBlock, SIZE_LABEL } from './sources.js';
 import { mapTargets, fetchTopoMaps, mapPlan as mapPlanFor } from './maps.js';
 import { renderPdfPages, canRenderPdf } from './pdf-render.js';
 import { shellParts, jsonEmbed } from '../binder/shell.js';
@@ -63,9 +68,11 @@ export function defaultLoadAsset(assetBase) {
 }
 
 // ---- sizes (shown on the download screen before anything is fetched) --------------------------
+// Bytes before maps (scripts/build-kit.mjs measures them); kit.sizes.<size> carries MB ranges with
+// the usual two maps included, and mapPlan() gives this household's own map count.
 export function estimateSizes(kit) {
   const s = kit.sizes || {};
-  return { small: s.small_bytes || 0, large: s.large_bytes || 0, note: s.note || '' };
+  return { small: s.small_bytes || 0, large: s.large_bytes || 0, everything: s.everything_bytes || 0, note: s.note || '' };
 }
 
 // Topo maps before generating (Large): counts and MB for home + destinations, and for the
@@ -207,6 +214,16 @@ export function extractGenerated(html) {
   try { return JSON.parse(m[1]); } catch { return null; }
 }
 
+// For the Generate screen, before an upgrade: what an earlier binder file is. `html` may be the
+// whole file or only its end (the record sits near the end of the file).
+// → null (not a GoettschePreppy binder) | { size, built, sameAnswers, documents }
+export function describePrevious(html, profile) {
+  const g = extractGenerated(html);
+  if (!g) return null;
+  return { size: normalizeSize(g.size), built: g.built || '', sameAnswers: !!profile && g.profile_hash === hash(stable({ ...profile, access: undefined })),
+    documents: (String(html).match(/<section class="srcdoc" id="src-(?!map-)/g) || []).length };
+}
+
 // ---- notes pages -------------------------------------------------------------------------------
 function reviewNotesMarkdown(findings, fixes, stats) {
   const sev = { error: 0, warning: 1, info: 2 };
@@ -236,20 +253,32 @@ ${fixed.length ? fixed.map(line).join('\n') : 'Nothing needed correcting.'}
 `;
 }
 
-function notCapturedMarkdown(rows, size) {
+function notCapturedMarkdown(rows, size, elsewhere = []) {
+  const cell = s => String(s || '').replace(/\|/g, '/');
+  const cites = r => r.citedBy.map(id => '→ ' + id.slice(0, 5)).join(' ');
+  const intro = {
+    small: 'This is the Small binder: it carries citations only (title, publisher, date) and binds no documents. The Large download binds the documents cited by the life-safety sections (medical, water, fire and fuel, heating, power, hazards, kids, CBRN, decisions and floors), and the Everything download binds every cited document. You can upgrade from your saved answers file and this binder file without paying for the writing again.',
+    large: 'This is the Large binder: it binds the documents cited by the life-safety sections (medical conditions, water, fire and fuel, heating, power, first aid, hazards, kids, CBRN, decisions and floors). Documents cited only by other sections are listed further down as "in the Everything download".',
+    everything: 'This is the Everything binder: every document the binder cites should be bound inside it, behind the page that cites it.',
+  }[size];
+  const missing = size === 'small' ? 'Nothing to list in the Small binder.'
+    : rows.length ? `The documents below could not be fetched when this file was made (the publisher refused automated download, or the request failed). The pages that cite them still stand on their own text. While the internet works, download these yourself by title and keep them with this file.\n\n| Document | Publisher | Why it is missing | Cited by |\n|---|---|---|---|\n${rows.map(r => `| ${cell(r.title)} | ${cell(r.org)} | ${r.reason} | ${cites(r)} |`).join('\n')}`
+    : 'Every document this download binds was captured.';
+  const other = size === 'large' ? `\n\n## In the Everything download\n\nNot in this download: these ${elsewhere.length} documents are cited only outside the life-safety sections. The Everything download (the largest file, meant for a laptop) binds them; the pages that cite them stand on their own text.\n\n${elsewhere.length
+    ? `| Document | Publisher | Date | Cited by |\n|---|---|---|---|\n${elsewhere.map(r => `| ${cell(r.title)} | ${cell(r.org)} | ${cell(r.date)} | ${cites(r)} |`).join('\n')}` : 'None: every cited document is in this download.'}` : '';
   return `# Sources not captured
 
-**What this page is for.** Every document the binder cites should be bound inside it, behind the page that cites it. ${size === 'large'
-    ? 'The documents below could not be fetched when this file was made (the publisher refused automated download, or the request failed). The pages that cite them still stand on their own text. While the internet works, download these yourself by title and keep them with this file.'
-    : 'This is the Small binder: it carries citations only (title, publisher, date) and binds no documents. The Large download binds them; you can upgrade from your saved profile file.'}
+**What this page is for.** ${intro}
 
-${size !== 'large' && !rows.length ? 'Nothing to list in the Small binder.' : rows.length ? '| Document | Publisher | Why it is missing | Cited by |\n|---|---|---|---|\n' + rows.map(r => `| ${r.title.replace(/\|/g, '/')} | ${(r.org || '').replace(/\|/g, '/')} | ${r.reason} | ${r.citedBy.map(id => '→ ' + id.slice(0, 5)).join(' ')} |`).join('\n') : 'Every cited document was captured.'}
+## Not captured
+
+${missing}${other}
 `;
 }
 
 // ---- main --------------------------------------------------------------------------------------
 export async function generateBinder(profile, kit, opts = {}) {
-  const size = opts.size === 'large' ? 'large' : 'small';
+  const size = normalizeSize(opts.size);
   const { signal } = opts;
   // relay: a relay object, or the relay's base address as a string ('' = same origin), as the
   // settings page passes it (app/settings/config.js relayBase)
@@ -266,8 +295,10 @@ export async function generateBinder(profile, kit, opts = {}) {
   const now = opts.now || new Date();
   const built = now.toISOString().slice(0, 10);
   const abort = () => signal?.throwIfAborted?.();
-  const report = { pages: 0, aiBlocks: 0, findings: [], fixes: [], sources: { bound: 0, missing: 0 }, modelCalls: 0, bytes: 0 };
-  const prev = opts.previous ? extractGenerated(opts.previous) : null;
+  const report = { size, pages: 0, aiBlocks: 0, findings: [], fixes: [], sources: { bound: 0, missing: 0, reused: 0, elsewhere: 0 }, modelCalls: 0, bytes: 0 };
+  const prevText = typeof opts.previous === 'string' ? opts.previous
+    : opts.previous && typeof opts.previous.text === 'function' ? await opts.previous.text() : null;
+  const prev = prevText ? extractGenerated(prevText) : null;
   const countCalls = relay ? { ...relay, messages: (...a) => { report.modelCalls++; return relay.messages(...a); } } : null;
 
   // 1. context
@@ -298,7 +329,7 @@ export async function generateBinder(profile, kit, opts = {}) {
   abort();
 
   // 3. render templates
-  const env = { kit, ctx, profile, labels, assets, notes, aiJobs: [], size, missingRefs, meta: {}, reviewDate: built, boundSources: new Map() };
+  const env = { kit, ctx, profile, labels, assets, notes, aiJobs: [], size, missingRefs, meta: {}, reviewDate: built, boundSources: new Map(), sourceTier: new Map() };
   const rendered = new Map(); // id → { page, md, blanks }
   let i = 0;
   for (const page of all) {
@@ -388,13 +419,30 @@ export async function generateBinder(profile, kit, opts = {}) {
   for (const p of all) for (const k of p.sources || []) { if (!cited.has(k)) cited.set(k, []); cited.get(k).push(p.id); }
   const notCaptured = [];
   const srcParts = new Map(); // section → [parts]
-  if (size === 'large') {
-    const keys = [...cited.keys()];
+  // the smallest download that carries each cited document (for the citation lines)
+  const inLarge = sourcesForSize(cited, 'large').bind;
+  for (const key of cited.keys()) env.sourceTier.set(key, inLarge.has(key) ? 'large' : 'everything');
+  const elsewhereRows = [];
+  if (bindsSources(size)) {
+    const { bind, elsewhere } = sourcesForSize(cited, size);
+    for (const [key, citedBy] of elsewhere) { const s = kit.sources?.[key] || {}; elsewhereRows.push({ key, title: s.title || key, org: s.org || '', date: s.date || '', citedBy }); }
+    report.sources.elsewhere = elsewhere.size;
+    const reuse = prevText ? extractBoundSources(prevText) : new Map();
+    const keys = [...bind.keys()];
     let done = 0;
     await pool(keys, 3, async key => {
       abort();
       const src = kit.sources?.[key];
-      const citedBy = cited.get(key);
+      const { citedBy, section: sec } = bind.get(key);
+      if (src && reuse.has(key)) {
+        // already bound in the earlier file: no fetch, no rendering
+        if (!srcParts.has(sec)) srcParts.set(sec, []);
+        srcParts.get(sec).push({ key, parts: reusedSourceBlock(key, src, reuse.get(key), { citedBy, sectionNo: sec }) });
+        env.boundSources.set(key, true);
+        report.sources.bound++; report.sources.reused++;
+        progress('sources', ++done, keys.length, 'Binding source documents');
+        return;
+      }
       let doc = null, reason = '';
       try {
         if (!src) reason = 'not in the source index';
@@ -423,7 +471,6 @@ export async function generateBinder(profile, kit, opts = {}) {
         if (doc.rendered) report.sources.rendered = (report.sources.rendered || 0) + 1;
       }
       if (doc) {
-        const sec = citedBy[0].slice(0, 2);
         if (!srcParts.has(sec)) srcParts.set(sec, []);
         srcParts.get(sec).push({ key, parts: sourceBlock(doc, { citedBy, sectionNo: sec }) });
         env.boundSources.set(key, true);
@@ -452,7 +499,8 @@ export async function generateBinder(profile, kit, opts = {}) {
   // 7. the two notes pages
   report.findings = notes;
   const stats = { pages: all.length, modelPages: toModel.length, modelSkipped, missingRefs: 0 };
-  rendered.set(NOT_CAPTURED_ID, { page: notCapturedPage, md: notCapturedMarkdown(notCaptured.sort((a, b) => a.title.localeCompare(b.title)), size), blanks: [] });
+  elsewhereRows.sort((a, b) => a.title.localeCompare(b.title));
+  rendered.set(NOT_CAPTURED_ID, { page: notCapturedPage, md: notCapturedMarkdown(notCaptured.sort((a, b) => a.title.localeCompare(b.title)), size, elsewhereRows), blanks: [] });
   rendered.set(REVIEW_NOTES_ID, { page: reviewNotesPage, md: '', blanks: [] });
 
   // 8. assemble

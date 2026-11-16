@@ -2,7 +2,7 @@
 id: 25-09-family-medical-summary
 section: 25-reference-and-appendices
 title: "Family medical summary sheet"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: household
 danger_level: critical
@@ -10,11 +10,11 @@ phase: [A, B, C]
 tags: [medical summary, responder, medicines, allergies, conditions, devices, prescribers]
 derived_from: [25-09-family-medical-summary]
 sources:
-  - cdc-recognizing-and-responding-to-anaphylaxis-645825
   - american-academy-of-allergy-asthma-and-immunology-aa-7f3939
   - cdc-diabetic-ketoacidosis-55a7c2
   - us-fda-information-regarding-insulin-storage-and-swi-6448d3
   - usa-gov-replace-your-vital-documents-cde79b
+  - american-academy-of-pediatrics-aap-allergy-and-anaph-3e6f49
 related: [22-06-kit-medical, 25-08-quick-reference-cards, 19-01-document-grab-kit, 19-03-records-and-backups, 25-03-regional-contacts, 25-10-annual-review, 01-07-evacuating-with-medical-needs, 12-07-meds-stockpile, 02-03-cl03-anaphylaxis, 20-09-pets]
 cards: []
 explainers: [EX-07, EX-14]
@@ -26,7 +26,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Second-dose line re-cited to AAP; renders for all three profiles; no dosing." }
 ---
 
 # Family medical summary sheet
@@ -132,7 +132,7 @@ insulin vial or pen is discarded** (FDA, Insulin Storage in an Emergency; → 29
 {{/each}}
 
 {{#if has.anaphylaxis}}**Anaphylaxis risk in this household. Epinephrine is the first treatment; antihistamines are
-not. A second dose is often needed** (CDC, Recognizing and Responding to Anaphylaxis; AAAAI,
+not. A second dose may be needed** (AAP, Allergy and Anaphylaxis Emergency Plan; AAAAI,
 Anaphylaxis Emergency Action Plan). Epinephrine locations, all of them: ______________________
 Total devices: ______ · earliest expiry: ______
 {{/if}}

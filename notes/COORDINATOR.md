@@ -88,3 +88,7 @@ Collected from worker reports; resolved in the integration pass.
 - [x] Owner answers 2026-11-16: G23 tourniquet card DC-25; G24 aspirin, WHO ORS per kg, insulin switching printed as published; G25 Large in two tiers (Large = life-safety sections; Everything = all); G26 new cards DC-26..DC-29. L6 (cards and tables) and A4 (tiers) launched.
 - [ ] F1: 118 of 162 requested figures still open (figures/REQUESTS.md). FM 5-125 unreachable; AFH 10-644 knot photos used instead. AFH photos carry "(c)USAF photo" stamps: official-duty photos are US Government works (PD); owner may confirm.
 - [ ] D2: 36 species without plates; per-ecoregion lists are generous (PLANTS "documented here"); A3 could show a "learn these first" subset.
+- [ ] R7: after L6 rewords 30-01, check 22-06, 25-08 card 6, 26-03 and 25-07 match the tourniquet floor word for word.
+- [ ] R7: 02-03 (CL-03) attributes "second dose 5-15 min" and anaphylaxis positions to AAAAI with no archived support; second review wave must re-cite to AAP (give a second dose if symptoms worsen, continue, or are not better in 5 minutes) consistently with 25-08 and 22-06.
+- [ ] R7: 01-03 carries an unverified NHTSA trailer tongue-weight figure (removed on 25-xx).
+- [ ] R7: archived Stop the Bleed (ACS), CPSC generator and NWS/Red Cross winter captures are landing pages; re-capture so "2 to 3 inches" and "hundreds of cars" have archive support. Merge source keys nws-winter-storm-during (15-09) with R7's NWS winter page key.

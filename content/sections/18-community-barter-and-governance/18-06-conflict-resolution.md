@@ -2,7 +2,7 @@
 id: 18-06-conflict-resolution
 section: 18-community-barter-and-governance
 title: "Conflict resolution between households"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -153,7 +153,7 @@ substituted is the relationship built beforehand.
 ## When it runs out
 
 - **Patience and goodwill run out** on the same schedule as everything else in a long event
-  (→ 21-02). Disputes in month five are about month five, not the water line.
+  (→ 21-02). Disputes months in are usually about exhaustion, not the water line.
 - **Upkeep:** raise things early and small, keep relationships warm, and look after your own
   household's rest (→ 21-07). A rested household has disputes; an exhausted one has feuds.
 - **Substitute:** distance for settlement; mediation for direct talk; concession for victory.

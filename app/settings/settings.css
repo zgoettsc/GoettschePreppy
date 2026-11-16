@@ -184,6 +184,13 @@ details.more[open] { padding-bottom: 8px; }
 .panel .keep { margin-top: 16px; }
 .fixlist { margin: 6px 0; padding-left: 1.2rem; }
 .sizes .choice.size .mb { font-weight: 600; color: var(--accent); }
+.sizes .choice.size .who { font-weight: 600; }
+.maps-opt { margin-top: 12px; }
+.maps-opt.off { opacity: 0.6; }
+.maps-opt .hint { margin: 6px 0; }
+#upgrade-panel label.btn { display: inline-flex; align-items: center; cursor: pointer; }
+#upgrade-panel label.btn:has(+ input:focus-visible) { outline: 3px solid var(--focus); outline-offset: 2px; }
+.final-status.warnflash { color: var(--warn); }
 progress { width: 100%; height: 22px; accent-color: var(--accent); margin: 6px 0; }
 .done { border-top: 1px solid var(--line); margin-top: 12px; padding-top: 12px; }
 #cancel-btn { margin-top: 8px; width: 100%; }

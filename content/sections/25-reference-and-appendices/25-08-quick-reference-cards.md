@@ -2,7 +2,7 @@
 id: 25-08-quick-reference-cards
 section: 25-reference-and-appendices
 title: "Quick-reference cards"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: critical
@@ -21,7 +21,6 @@ sources:
   - american-college-of-surgeons-stop-the-bleed-stop-the-8d1b5b
   - noaa-national-weather-service-tornado-safety-ba75e0
   - noaa-storm-prediction-center-tornado-safety-faq-vehi-aba867
-  - american-red-cross-winter-storm-preparedness-and-bli-4bb6c0
   - foodsafety-gov-usda-hhs-food-safety-during-a-power-o-3894c1
   - medlineplus-us-national-library-of-medicine-nih-chok-70112e
   - medlineplus-us-national-library-of-medicine-nih-cpr-3ea104
@@ -37,8 +36,16 @@ sources:
   - ready-gov-tsunamis
   - national-capital-poison-center-poison-control-1-800-e428c9
   - university-of-missouri-extension-unvented-portable-k-e850fe
+  - american-academy-of-pediatrics-aap-allergy-and-anaph-3e6f49
+  - cdc-treatment-of-low-blood-sugar-r7
+  - usuhs-ncdmph-stop-the-bleed-apply-a-tourniquet-r7
+  - noaa-national-weather-service-during-a-winter-storm-r7
+  - medlineplus-us-national-library-of-medicine-nih-abdo-687213
+  - american-heart-association-2020-aha-guidelines-pedia-c1bb66
+  - 988-suicide-and-crisis-lifeline-samhsa-988-suicide-a-5f45b0
+  - samhsa-disaster-distress-helpline-28957e
 related: [00-02-emergency-quick-reference, 00-06-first-60-minutes, 25-03-regional-contacts, 25-09-family-medical-summary, 22-03-go-bags-and-kits, 02-03-cl03-anaphylaxis, 02-01-cl01-type-1-diabetes-injections, 03-04-purifying-water, 08-02-carbon-monoxide-safety, 12-02-bleeding-and-wounds, 12-18-choking-and-cpr, 17-02-tornadoes, 17-06-tornado-shelter, 15-03-family-comms-plan, 29-10-ex10-weather-alert-words, 30-01-the-floors]
-cards: [DC-01, DC-02, DC-03, DC-04, DC-08, DC-17, DC-20]
+cards: [DC-01, DC-02, DC-03, DC-04, DC-08, DC-17, DC-20, DC-25]
 explainers: [EX-03, EX-05, EX-07, EX-10]
 promote_when: []
 photo_slots: []
@@ -48,7 +55,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Floors checked word for word against 30-01/docs 05; anaphylaxis card re-sourced to AAP plan; tourniquet, hypo, boil, winter-vehicle and lightning rows corrected and sourced." }
 ---
 
 # Quick-reference cards
@@ -105,11 +112,11 @@ Epinephrine is kept: ______________________
 
 | | |
 |---|---|
-| **Signs** | Any one serious sign (throat tight or hoarse, trouble breathing, wheeze, swollen lips or tongue, faint, pale or floppy), or two milder body systems at once (widespread hives **and** vomiting) |
-| **1. Epinephrine first** | Outer thigh, through clothing if needed. **Do not wait** (CDC, Recognizing and Responding to Anaphylaxis) |
+| **Signs** | Any one severe sign: trouble breathing, wheeze or cough, tight or hoarse throat, trouble swallowing, swollen lips or tongue, pale or blue skin, weak pulse, faint or dizzy, many hives over the body, severe vomiting, confusion. Or more than one mild sign at once (AAP, Allergy and Anaphylaxis Emergency Plan) |
+| **1. Epinephrine first** | Outer thigh, through clothing if needed. **Do not wait.** Note the time (AAP; CDC, Recognizing and Responding to Anaphylaxis) |
 | **2. Call 911** | Or get to care |
 | **3. Position** | Lie flat, legs raised. Vomiting: on the side. Struggling to breathe: sitting up. **Never stand or walk them** |
-| **4. Second dose** | At 5 to 15 minutes if not clearly improving: a second dose is often needed (CDC; AAAAI) |
+| **4. Second dose** | If symptoms get worse, continue, or do not get better in **5 minutes** (AAP, Allergy and Anaphylaxis Emergency Plan) |
 | **5. Stay** | Reactions can return hours later. No 911: that watch is yours, epinephrine in reach |
 | **Antihistamine** | **Not a treatment for anaphylaxis.** Never delay epinephrine for anything |
 | **Expired or out-of-range device, nothing else available** | Household choice: {{choice DC-04}} → 30-05 |
@@ -119,7 +126,7 @@ Epinephrine is kept: ______________________
 | | |
 |---|---|
 | **LOW (hypoglycaemia)** | Shaky, sweaty, confused, irritable, pale, slurred, unsteady (CDC, Low Blood Sugar) |
-| **Awake and can swallow** | Fast sugar now; **recheck in about 15 minutes**; repeat until back in range, then real food |
+| **Awake and can swallow** | Fast sugar now; **recheck in about 15 minutes**; repeat until back in range, then a snack or meal (CDC, Treatment of Low Blood Sugar) |
 | **Unconscious, seizing, or cannot swallow** | **Nothing by mouth. Give glucagon. Call 911.** On their side. Sugar by mouth only once awake and able to swallow |
 | **HIGH with ketones (DKA risk)** | Thirst, peeing a lot, nausea or vomiting, belly pain, fruity breath, fast deep breathing, confusion (CDC, Diabetic Ketoacidosis) |
 | **What to do** | **Check ketones.** Fluids. Follow the prescriber's sick-day plan. **DKA is an emergency: get help** |
@@ -135,7 +142,7 @@ Epinephrine is kept: ______________________
 | **This household, plan** | **{{ derived.water.plan_gal_day }} gal a day**; two weeks = {{ derived.water.two_weeks_gal }} gal |
 | **Days of water** | Stored gallons ÷ {{ derived.water.plan_gal_day }} |
 | **1. Settle** | Let cloudy water settle, then pour it through cloth or a coffee filter |
-| **2. Disinfect** | **Boil: a rolling boil for 1 minute** (3 minutes above 5,000 to 6,500 ft) (EPA; CDC), **or** chemicals: **amounts are on → 03-04, not here**, because bleach strength varies by product and age |
+| **2. Disinfect** | **Boil: a rolling boil for 1 minute** (3 minutes above 5,000 ft) (EPA, Emergency Disinfection of Drinking Water), **or** chemicals: **amounts are on → 03-04, not here**, because bleach strength varies by product and age |
 | **3. Store** | Covered, cool, dark, labelled with the date |
 | **Pool or salt water** | Filtering and boiling **do not remove salt or pool chemicals**. Distillation only (→ 03-03) |
 | **Reserves in the house** | Water heater {{ dwelling.water_heater_gallons }} gal · pipes · toilet tanks (not bowls) |
@@ -157,8 +164,8 @@ Epinephrine is kept: ______________________
 | | |
 |---|---|
 | **1. Pressure** | Hard, direct, both hands, and **hold** |
-| **2. Limb bleeding that will not stop** | **Tourniquet** 2 to 3 inches above the wound, not over a joint. Tighten until the bleeding **stops**. It will hurt. If it still bleeds, a second one above the first (Stop the Bleed) |
-| **3. The floor** | **Never loosen a tourniquet once placed; mark the time.** Write it on the strap or the skin, and say it aloud |
+| **2. Limb bleeding that will not stop** | **Tourniquet** 2 to 3 inches above the wound, not over a joint. Tighten until the bleeding **stops**. It will hurt. If it still bleeds, a second one above the first (Stop the Bleed, USUHS) |
+| **3. The floor** | **Never loosen a tourniquet once placed while help can still come; mark the time.** Write it on the strap or the skin, and say it aloud. If no help will ever come, the conversion decision is DC-25: {{choice DC-25}} → 30-26 |
 | **4. Body or groin wound** | **Pack** the wound with gauze and press hard |
 | **5. Keep them warm** | Cold makes bleeding worse |
 | **6. Get help** | → 12-02 |
@@ -182,9 +189,9 @@ Full page: → 17-02, → 17-06 (NWS, Tornado Safety).
 
 | | |
 |---|---|
-| **Stay with the vehicle** | It is shelter, and it is what searchers find |
-| **Be seen** | Bright cloth on the antenna; dome light on when running; hazards sparingly |
-| **Before running the engine** | **Clear the exhaust pipe** and **crack a window away from the wind**. About 10 minutes an hour (American Red Cross, Winter Storm Safety) |
+| **Stay with the vehicle** | It is shelter, and it is what searchers find (NWS, During a Winter Storm) |
+| **Be seen** | Bright cloth on the antenna; dome light on at night when running; hazards sparingly |
+| **Before running the engine** | **Clear the exhaust pipe** and **crack a window away from the wind**. About 10 minutes an hour (NWS, During a Winter Storm) |
 | **Insulate** | Blankets, everyone together, move arms and legs now and then |
 | **Water** | Do not eat snow: melt it |
 | **Phone** | Text your location while you have signal, then save the battery |
@@ -323,7 +330,7 @@ Open-flame cooking and candles indoors: {{choice DC-20}} → 30-21. Our heaters:
 | **Hurricane** | Leave when officials say; if not, an interior room above flood level; **never in a flooded car** (Ready.gov, Hurricanes) | → 17-13 |
 | **Wildfire or smoke** | Leave early; N95 masks; windows shut; a clean-air room (NWS, Wildfire Safety) | → 17-14 |
 | **Extreme heat** | Shade, water, the coolest room; **never leave a child or pet in a car** (NWS, Heat Safety) | → 17-04 |
-| **Lightning** | When thunder roars, go indoors; a hard-topped car is next best (NWS, Lightning Safety) | → 17-18 |
+| **Lightning** | When thunder roars, go indoors; a hard-topped car is next best (NWS, Lightning Safety) | → 17-02 |
 | **Flood** | Higher ground; **turn around, do not drown** (NWS, Flood Safety) | → 17-03 |
 | **Poisoning** | **Poison Help 1-800-222-1222**; do not make the person vomit unless told to | → 12-17 |
 {{#if is.coastal}}| **Tsunami (coast)** | Strong shaking or the sea pulling back: go to high ground or inland at once (Ready.gov, Tsunamis) | → 17-15 |

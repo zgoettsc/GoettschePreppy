@@ -33,7 +33,7 @@ buying advice, power, and the security cost of transmitting. Start with the plai
 explainer on → 29-09 if any of these names are new.
 
 > **CAUTION.** **The biggest mistake is buying handhelds and expecting the range on the
-> package.** "35-mile" radios do not do 35 miles; realistic numbers are on → 15-06, so read it
+> package.** "35-mile" radios do not do 35 miles; typical numbers are on → 15-06, so read it
 > before spending money. **Transmitting is announcing**: anyone listening learns that you
 > exist, roughly where you are and what you are doing (→ 14-03). That is a trade-off to make on
 > purpose.
@@ -41,8 +41,11 @@ explainer on → 29-09 if any of these names are new.
 > **Before the collapse:** power limits, frequencies and licences are federal rules (47 CFR
 > Part 95 for FRS, GMRS, MURS and CB; Part 97 for amateur radio), and they change. Check the
 > current rule, not this page. Transmitting outside a service's rules or your licence class is a
-> federal violation while the FCC operates. A GMRS licence needs no exam and covers your
-> immediate family; an amateur licence needs an exam (→ 15-05). **Listening needs no licence.** A
+> federal violation while the FCC operates. A GMRS licence needs no exam, is issued to an adult
+> (18 or older) for a ten-year term, carries an FCC fee, and lets the holder's immediate family
+> (spouse, children, grandchildren, parents, grandparents, brothers and sisters, aunts, uncles,
+> nieces, nephews, in-laws and step-relations) use the station (47 CFR 95.1705). An amateur
+> licence needs an exam (→ 15-05). **Listening needs no licence.** A
 > radio you are licensed and practised on now is worth far more than one you are guessing at
 > later.
 
@@ -64,11 +67,11 @@ explainer on → 29-09 if any of these names are new.
 
 Orientation only; the explainer (→ 29-09) and the current federal rule give the details.
 
-| Service | Licence | Realistic range | Notes |
+| Service | Licence | Typical range (terrain decides; → 15-06) | Notes |
 |---|---|---|---|
 | **FRS** (Family Radio Service) | **None** | A few hundred yards to about a mile in town | Fixed antennas; **2 W (0.5 W on channels 8 to 14)**. Fine for the yard and the block |
 | **GMRS** (General Mobile Radio Service) | **Licence, no exam, covers the family** | 1 to 5 miles typical; more with repeaters and better antennas | **The sweet spot for family use.** More power, removable antennas, repeaters allowed |
-| **MURS** | **None** | About 1 to 3 miles | **5 channels** (151.820, 151.880, 151.940, 154.570, 154.600 MHz), **2 W**; fewer users; **outside antennas allowed** |
+| **MURS** | **None** | About 1 to 3 miles | **5 channels** (151.820, 151.880, 151.940, 154.570, 154.600 MHz), **2 W**; fewer users; **outside antennas allowed** (top no higher than 60 ft above ground or 20 ft above the structure) |
 | **CB** (Citizens Band) | **None** | 1 to 5 miles typical; sometimes very far | 40 channels near 27 MHz; **4 W AM, 12 W single-sideband**; still used by truckers; long antennas; **road information on the move** |
 | **Amateur (ham)** | **Licence, exam** | Across town to across the world, by band, power and antenna | **The only option with real reach.** Repeaters, emergency nets |
 | **Scanner or receiver** | **None** | Listening only | **Legal, useful, invisible.** Start here |
@@ -110,8 +113,10 @@ internet (below).{{/if}}
 
 ## The FRS and GMRS channel table
 
-All 22 shared channels, from 47 CFR Part 95. Print it; it is public and rarely changes. Your
-family channel is chosen on → 15-03.
+All 22 shared channels, from 47 CFR Part 95 (§§ 95.563, 95.567, 95.1763, 95.1767). Print it;
+it is public and rarely changes. Power figures are the legal maximums: the FRS limits and the
+GMRS 5 W and 0.5 W limits are radiated power; the GMRS 50 W limit is for mobile, base and
+repeater radios (fixed stations 15 W). Your family channel is chosen on → 15-03.
 
 | Ch | MHz | Power | Ch | MHz | Power |
 |---|---|---|---|---|---|

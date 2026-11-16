@@ -44,7 +44,9 @@ export function routeCounties(kit, from, to, stepMiles = 5) {
 
 // Route counties are opt-in (opts.route): each is another 20 to 60 MB map. mapPlan() gives the
 // settings page the counts and a size range to show before the household decides.
-export const MAP_MB = { min: 20, max: 60 };
+// A US Topo GeoPDF is 20 to 60 MB; inside the binder it is stored as base64 (4/3 larger).
+export const MAP_FILE_MB = Object.freeze({ min: 20, max: 60 });
+export const MAP_MB = Object.freeze({ min: Math.round(MAP_FILE_MB.min * 4 / 3), max: Math.round(MAP_FILE_MB.max * 4 / 3) });
 export function mapTargets(kit, ctx, { route = false } = {}) {
   const home = countyGeo(kit, ctx.home.state, ctx.region.home.county);
   const targets = [];

@@ -2,7 +2,7 @@
 id: 19-06-bank-access-in-crisis
 section: 19-finances-and-documents
 title: "Bank access in a crisis"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -11,6 +11,7 @@ tags: [bank, safe-deposit box, branch hours, ATM, outage, cash cache, joint acce
 derived_from: [19-06-bank-access-in-crisis]
 sources:
   - federal-deposit-insurance-corporation-fdic-consumer-ecc3ff
+  - fdic-understanding-deposit-insurance
   - consumer-financial-protection-bureau-disasters-and-e-44eaa3
   - usa-gov-replace-your-vital-documents-cde79b
 related: [19-01-document-grab-kit, 19-02-cash-and-value, 19-03-records-and-backups, 19-04-insurance-and-claims, 19-05-identity-protection, 19-07-access-continuity, 17-08-power-grid-failure, 14-03-opsec, 22-03-go-bags-and-kits, 22-05-kit-vehicle, 25-10-annual-review, 01-05-choosing-a-destination]
@@ -44,7 +45,7 @@ first 72 hours depends on a bank being open.**
 > type them into this app.** Anything like that is written by hand on paper kept separately (→ 19-07).
 
 > **Before the collapse:** the FDIC insures bank **deposits**, not the contents of a safe-deposit box
-> (FDIC Consumer Resource Center). A box rented in one person's name can be sealed for a time when that
+> (FDIC, Understanding Deposit Insurance). A box rented in one person's name can be sealed for a time when that
 > person dies, until the estate is authorized to open it. Rules differ by state and bank; ask yours.
 
 ## Do this now

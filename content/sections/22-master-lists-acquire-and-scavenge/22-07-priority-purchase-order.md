@@ -2,7 +2,7 @@
 id: 22-07-priority-purchase-order
 section: 22-master-lists-acquire-and-scavenge
 title: "What to buy first: the spending order"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: household
 danger_level: none
@@ -27,7 +27,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Unsupported 'near-certain over a decade' power-cut claim reworded to what Red Cross says." }
 ---
 
 # What to buy first: the spending order
@@ -55,8 +55,9 @@ Rank every purchase by three questions, in this order:
 1. **How fast does its absence hurt someone here?** Minutes, hours, days, weeks, months.
 2. **Can it still be bought later?** ⌛ items (seed, seasoned wood, soil, skill, children's next
    sizes) **cannot**. They move up.
-3. **How likely is the event it covers?** A multi-day power cut is near-certain over a decade
-   (American Red Cross, Power Outage Safety); a years-long collapse is not. **Buy against the
+3. **How likely is the event it covers?** A power cut lasting days is common enough
+   that the American Red Cross tells every household to plan two weeks of food and water for
+   one (American Red Cross, Power Outage Safety); a years-long collapse is not. **Buy against the
    likely first**, then the severe.
 
 **For most households that produces:** carbon monoxide → medical dependency →

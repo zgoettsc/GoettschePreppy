@@ -36,18 +36,19 @@ your house (including the water heater) out safely.
 > with**, far more often than because of age. A contaminated 55-gallon drum is not a water
 > supply; it is 55 gallons of disease. Follow the container and handling rules exactly.
 >
-> **Floor:** bleach or pool shock is never mixed with ammonia, acids or other cleaners. The
+> **Floor:** Bleach or pool shock is never mixed with ammonia, acids or other cleaners. The
 > mix gives off chlorine gas. (→ 30-01)
 
 ## Do this now
 
 1. **Fill everything when the forecast turns bad, not when the power fails.** Ice storm
    warning, blizzard warning, hurricane watch, severe thunderstorm watch: fill the bathtub
-   bladder and every container then. City water pressure often holds for **12 to 48 hours**
-   after a grid failure, but it **fades before it stops**: weak flow upstairs first, then
-   sputtering and air. **By the time you notice, you are at the end of the buffer, not the
-   start.** A bathtub bladder takes 20 to 30 minutes at full pressure and much longer at low
-   pressure. This is the only water job with a hard deadline.
+   bladder and every container then. City water pressure can hold for a while after a grid
+   failure, depending on the utility's storage tanks and backup power, but it **fades before
+   it stops**: weak flow upstairs first, then sputtering and air. **By the time you notice,
+   you are at the end of the buffer, not the start.** A bathtub bladder fills slowly even at
+   full pressure and far more slowly at low pressure; time yours once. This is the only water
+   job with a hard deadline.
 2. **When pressure comes back after an outage, assume the water is contaminated.** Empty
    pipes suck in dirty water at leaks and joints. Filter and chlorinate (→ 03-04) until the
    water utility says it is safe.
@@ -56,12 +57,13 @@ your house (including the water heater) out safely.
 3. **Use food-grade containers** with tight lids: water jugs and drums made for drinking
    water, or clean 2-liter soda bottles. **Never** reuse containers that held chemicals, and
    do not use milk jugs.
-4. **Sanitize before filling:** wash with soap, rinse, then swirl **1 teaspoon of unscented
-   5 to 9 percent household bleach in 1 quart of water** over the whole inside. Wait
-   **30 seconds**, pour it out, let it air dry (CDC). Bleach basics: → 29-05.
+4. **Sanitize before filling:** wash with soap, rinse, then mix **1 teaspoon of unscented
+   5 to 9 percent household bleach in 1 quart of water**, cover the container and shake so the
+   solution touches every inside surface. Wait **at least 30 seconds**, pour it out, let it air
+   dry (CDC). Bleach basics: → 29-05.
 5. **Label** every container **"DRINKING WATER"** with the **date filled**.
-6. **Store at 50 to 70 °F, in the dark, off bare concrete**, away from gasoline, pesticides
-   and solvents (fumes pass through plastic).
+6. **Store at 50 to 70 °F, out of direct sunlight**, away from gasoline, pesticides and
+   other toxic substances (CDC).
 7. **Replace home-filled water every 6 months.** Store-bought sealed bottles: use the printed
    date.
 8. **Never put hands or a dirty cup into stored water.** Pour it, or use a clean scoop kept
@@ -76,8 +78,8 @@ and clean handling**, not about water "expiring" (CDC, How to Create and Store a
 Water Supply).
 
 {{#if has.well}}Well water usually has no chlorine in it to begin with, so clean handling
-matters even more. Many households add the CDC bleach dose (→ 03-04) to well water before
-long storage.{{/if}}
+matters even more. Until your well has a clean test result (→ 03-07), treat well water with
+the CDC bleach dose (→ 03-04) before you store it.{{/if}}
 
 ### Container choices
 
@@ -118,8 +120,10 @@ gallons.{{else}}A tank water heater holds 30 to 80 gallons. If you have one, or 
 that does, this applies.{{/if}} It is also the most dangerous water in the house to get at
 carelessly.
 
-- **It is hot.** Water heaters are usually set at 120 to 140 °F. At 140 °F, water scalds a
-  child's skin in seconds (US Consumer Product Safety Commission, Tap Water Scalds).
+- **It is hot.** CPSC urges setting water heaters to 120 °F, and many are set hotter. CPSC
+  says most adults suffer third-degree burns after six seconds in 140 °F water, and most
+  scald injuries and deaths are to young children and elders (US Consumer Product Safety
+  Commission, Tap Water Scalds).
 - **A gas heater keeps heating** while gas flows, grid or no grid. An electric one stops when
   the power stops, but stays hot for many hours.
 - **Until you drain it, it is your only safe hot washing water.** Use it for the first days'
@@ -127,7 +131,9 @@ carelessly.
 
 {{photo water-heater-drain-valve}}
 
-**Draining the water heater: six steps, in this order.**
+**Draining the water heater: six steps, in this order** (FEMA, Food and Water in an Emergency,
+gives the same order: power or gas off, cold inlet closed, a hot tap open, drain at the
+bottom, refill before the heat goes back on).
 
 1. **Turn the heat off.** On a gas heater, turn the gas control to **OFF** (not "pilot"). On an
    electric heater, switch its breaker off. Draining with the burner or elements live will
@@ -154,7 +160,7 @@ Every other page that says "drain the water heater" means this procedure.
 | Food-grade water jugs, 5 to 7 gal | Water you can move; for leaving home | Rigid, with a spigot or cap you trust |
 | 55-gal food-grade drum, bung wrench and pump | Bulk storage | Put it where it will live for ever before you fill it |
 | Bottled water by the case | Safest, no preparation | Use by the printed date |
-| Unscented household bleach, 5 to 9 percent | Cleaning containers **and** treating water | Buy fresh; it weakens within months (→ 29-05) |
+| Unscented household bleach, 5 to 9 percent | Cleaning containers **and** treating water | Buy fresh; use within a year (EPA) (→ 29-05) |
 | A scoop, pour spout or pump kept only for water | Keeps hands out of the supply | Store it capped and clean |
 | Waterproof labels and a marker | Date and name every container | "DRINKING" or "UTILITY" |
 | Bathtub bladder | Large cheap volume at the warning stage | Practice putting it in the tub once |
@@ -163,7 +169,8 @@ Every other page that says "drain the water heater" means this procedure.
 
 - Clean 2-liter soda bottles are good containers: free and strong.
 - Food-grade buckets from bakeries or restaurants. Ask what was in them; avoid anything oily.
-- The water heater (above), toilet tanks (not bowls) and ice in the freezer.
+- The water heater (above), the water in the pipes and ice in the freezer (FEMA). Toilet
+  tanks are washing and flushing water only, never drinking water (FEMA).
 
 ## When it runs out
 

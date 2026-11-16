@@ -61,9 +61,9 @@ does not teach fighting.
 | 9 | **Organised violence** | Real, but rare, and it comes late if at all |
 
 **Spend your preparation in that order.** A carbon monoxide alarm, a fire extinguisher and a good
-first-aid kit protect against more likely deaths than any firearm. Outage guidance puts
-alarms, safe lighting and safe heat first for the same reason (American Red Cross, Power Outage
-Safety).
+first-aid kit protect against more likely deaths than any firearm. Outage guidance lists smoke
+and carbon monoxide alarms, light that needs no grid power and a plan for heat among the basics
+for the same reason (American Red Cross, Power Outage Safety).
 
 ## Awareness is a habit, not a state of alarm
 

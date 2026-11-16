@@ -2,7 +2,7 @@
 id: 23-03-substitution-catalog
 section: 23-depletion-and-substitution
 title: "Substitution catalog: what replaces what"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -14,7 +14,8 @@ sources:
   - cdc-about-handwashing-when-and-how-to-wash-your-hand-14c15a
   - us-fda-information-regarding-insulin-storage-and-swi-6448d3
   - university-of-missouri-extension-wood-fuel-for-heati-b63761
-  - american-red-cross-winter-storm-preparedness-and-bli-4bb6c0
+  - nws-winter-safety-during
+  - cdc-botulism-prevention-d03ef9
 related: [23-01-depletion-framework, 23-02-master-consumables-table, 23-04-resource-lifecycles, 23-05-skills-that-replace-supplies, 22-02-scavenging-field-guide, 08-04-emergency-heat-options, 08-01-heating-one-room, 03-04-purifying-water, 12-16-triage-and-hard-calls, 30-01-the-floors, 30-02-dc01-unvented-heater-overnight, 30-03-dc02-propane-cylinder-indoors, 30-07-dc06-fuel-in-passenger-vehicle, 30-08-dc07-diy-cord-and-plug-conversion, 30-20-dc19-when-to-leave, 30-21-dc20-open-flame-indoors]
 cards: [DC-01, DC-02, DC-06, DC-07, DC-19, DC-20]
 explainers: [EX-01, EX-03, EX-04, EX-05]
@@ -90,7 +91,7 @@ Knowing these matters more than any clever improvisation.
 | 2 | **One warm room**: blankets, layers, shared body heat, low-watt heated blankets on a power station | Uses no fuel. Infants follow safe-sleep rules: no electric blanket on or around an infant (→ 20-01) | → 08-01, → 08-06, → 11-02 |
 | 3 | **Wood stove or fireplace**{{#if has.wood_stove}} (you have one){{/if}} | Only if inspected and the chimney is clear (→ 06-09, → 08-08) | → 08-08 |
 | 4 | **An unvented fuel heater** (kerosene wick or indoor-rated propane){{#if has.unvented_heater}} (you have one){{/if}} | Carbon monoxide alarm working first; fresh air openings as the manual says; fill outdoors with the heater off and cool; correct fuel only; never two heaters in one room. Running one while people sleep is a household choice: {{choice DC-01}} → 30-02. A propane cylinder larger than 1 lb indoors: {{choice DC-02}} → 30-03 | → 08-10, → 08-09, → 08-02 |
-| 5 | **A vehicle as a warming refuge** | **Outdoors, never in a garage.** Clear snow from the tailpipe; run the engine about 10 minutes each hour with a window cracked (American Red Cross, Winter Storm Safety); never leave a child alone in it; hours, not nights | → 08-06 |
+| 5 | **A vehicle as a warming refuge** | **Outdoors, never in a garage.** Clear snow from the exhaust pipe; run the engine about 10 minutes each hour, with a window open a little while it runs (National Weather Service, Winter Weather Safety); never leave a child alone in it; hours, not nights | → 08-06 |
 | 6 | **Leave** | When the warm room keeps cooling and no heat is coming back. Your trigger: {{choice DC-19}} → 30-20 | → 01-02, → 08-01 |
 
 Open flame or candles indoors: {{choice DC-20}} → 30-21
@@ -136,7 +137,7 @@ identification or nothing.**
 | Instead of | Use | Ref |
 |---|---|---|
 | Sterile gauze | Boiled clean cotton cloth; sanitary pads | → 12-02 |
-| Antibiotic ointment | **Cleaning and flushing the wound**; honey (**never for a child under 1 year**) | → 12-02, → 12-04 |
+| Antibiotic ointment | **Cleaning and flushing the wound**; honey (**never for a child under 1 year**; CDC, Botulism Prevention) | → 12-02, → 12-04 |
 | Sterile saline | Clean drinking water, squirted with pressure | → 12-02 |
 | A splint | Cardboard, rolled magazines, sticks, a foam pad, always padded | → 12-09 |
 | Crutches | A padded forked branch; a rake handle | → 12-09 |

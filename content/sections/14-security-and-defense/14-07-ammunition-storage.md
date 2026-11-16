@@ -53,10 +53,12 @@ now, where never to put it, what happens to it in a house fire, and how to check
 
 ## How long does ammunition last?
 
-Properly stored modern ammunition lasts **decades**. SAAMI's position is that ammunition kept in
-its factory packaging, through the ordinary temperature and humidity changes of homes and
-warehouses "from tropic to Arctic conditions", can be expected to perform satisfactorily and
-safely. The failure is not time; it is **moisture and heat**.
+SAAMI publishes **no expiry date** for ammunition. Its position is that ammunition kept in its
+factory packaging over extended periods, through the ordinary temperature and humidity changes of
+homes and warehouses "from tropic to Arctic conditions", can be expected to perform
+satisfactorily and safely (SAAMI, Small Arms Ammunition). Well-stored ammunition is commonly
+kept for many years; what ruins it is not time so much as **moisture, heat and contact with oils
+or solvents**.
 
 | Enemy | What it does | Control |
 |---|---|---|
@@ -64,7 +66,7 @@ safely. The failure is not time; it is **moisture and heat**.
 | **Heat over 150 °F** | Degrades powder and primers; SAAMI says avoid | Never an attic, never a car in summer |
 | **Temperature swings** | Condensation inside containers | A steady place; sealed cans; desiccant |
 | **Touching concrete** | Wicks moisture | Pallet, shelf or wood underneath |
-| **Solvents and oils** | Can get into primers and kill them | Never store ammunition with lubricants |
+| **Solvents, oils, water** | SAAMI: can reach the powder or primer and cause misfires, or a bullet stuck in the barrel | Never store ammunition with lubricants or solvents; never let it soak |
 | **Physical damage** | Dented cases, bullets pushed in | Factory packaging |
 
 ## The cold-climate problem: temperature cycling
@@ -85,8 +87,8 @@ kept for this, **not in the kitchen oven**: desiccant from a gun room carries le
 | **Inside closet or heated, cooled living space** | **Best**: steady temperature and humidity |
 | Basement, **off the floor**, sealed cans | Good; watch for damp |
 | Detached shed or garage, sealed cans and desiccant | Acceptable if sealed |
-| **Attic** | **No**: summer attics can get hotter than SAAMI's limit |
-| **Vehicle**, long-term | **No**: extreme heat in summer |
+| **Attic** | **No**: summer attics are among the hottest places in a house, and heat is what SAAMI says to avoid |
+| **Vehicle**, long-term | **No**: SAAMI warns a closed car in the sun gets extremely hot |
 | Next to fuels, solvents or pool chemicals | **No** (→ 06-06) |
 
 **Spread it out.** Do not keep the whole supply in one place: a fire, a flood or a theft should
@@ -96,16 +98,22 @@ places by hand on your own paper copy, not in the settings page.
 ## Fire: what actually happens
 
 This drives the storage choices. Small arms ammunition burning in a fire does **not** behave like
-a bomb: cartridges that are not inside a gun rupture and throw fragments over a limited area; they
-do not fire bullets like a gun does (SAAMI, Small Arms Ammunition). **But** the danger to anyone
-nearby, especially firefighters, is real, and **loose smokeless powder** (the propellant
-reloaders buy in bulk) is a different and far more serious matter: it burns extremely fast.
+a bomb: cartridges that are not inside a gun burst and pop; the bullets barely move, because
+nothing confines them. SAAMI says small pieces of case and primer can fly short distances
+(usually not over 50 feet) fast enough to injure, and that its member companies found they do
+not get through firefighters' protective gear (SAAMI, Small Arms Ammunition). So keep people
+without that gear well back, and tell firefighters it is there. **Loose smokeless powder** (the
+propellant reloaders buy in bulk) is a different and more serious matter: once lit it burns until
+it is gone, and if it is confined the pressure can burst its container like an explosion (SAAMI,
+Smokeless Powder).
 
-- **If you reload (→ 14-08), keep powder in its original containers, cool and dry, in a wooden
-  cabinet or box, never in a sealed steel can or a safe.** Confinement is what turns a fast burn
-  into a blast; SAAMI's smokeless powder guidance says original containers, no sealed or metal
-  storage (SAAMI, Smokeless Powder: Properties and Storage). **Keep the amount small**: what the
-  reloading you actually do needs. Keep primers in their own trays, away from the powder.
+- **If you reload (→ 14-08), keep powder in its original containers, cool and dry, in a cabinet
+  of insulating material such as wood, built so it can vent (a weak wall or seams), never in a
+  sealed steel can or a safe.** Confinement is what turns a fast burn into a blast; SAAMI's
+  smokeless powder guidance says keep it in the original approved containers and do not store it
+  in close confinement (SAAMI, Smokeless Powder: Properties and Storage). **Keep the amount
+  small**: many small containers are safer than one large one. Keep primers in their own trays,
+  away from the powder.
 - **Do not store powder next to ammunition, fuel or oxidisers such as pool shock.**
 - **Tell everyone in the house where it is**, so anyone fighting a fire knows.
 - **Never store ammunition or powder near a heat source or a wood stove.**
@@ -114,9 +122,12 @@ reloaders buy in bulk) is a different and far more serious matter: it burns extr
 
 - **Look for green or white corrosion** on cases and around primers. Surface tarnish is usually
   only cosmetic; corrosion at the primer or the case mouth is not.
-- **Discoloured or clumped powder**, or a sharp acid smell (if you reload), means the powder is
-  breaking down; the SAAMI smokeless powder document describes the signs. Dispose of it.
-- **Rimfire (.22) is more vulnerable** than centerfire to moisture at the rim and case mouth.
+- **Powder that smells acidic, like vinegar, or gives off reddish-brown fumes** (if you reload) is
+  breaking down; SAAMI says dispose of it at once. Do not confuse it with ordinary solvent smells.
+- **Ammunition that has been in a house fire, a flood, or got wet or scorched is scrapped**, not
+  used or traded (SAAMI, Small Arms Ammunition).
+- **Rimfire (.22) is often more vulnerable** than centerfire to moisture at the rim and case mouth;
+  check it first.
 - **Test-fire a sample** from an old lot before trusting it for hunting or defence.
 - **Set aside, do not mix.** Doubtful ammunition goes in a marked can for practice only.
 
@@ -142,7 +153,7 @@ hunting rifle with ammunition for it, and enough for defence, not a mountain of 
 | Shelving or pallets | Off concrete | Any wood works |
 | Waterproof labels and a log | Lot, date, caliber, count | Copy with documents (→ 19-01) |
 | Original factory packaging | SAAMI's own recommendation | Keep the boxes |
-| Wooden powder cabinet (if reloading) | Fire safety with loose powder | Original containers, small amount, primers apart; never sealed steel |
+| Wooden powder cabinet (if reloading) | Fire safety with loose powder | Vents if lit; original containers, small amount, primers apart; never sealed steel |
 | Lockable containers in more than one place | Fire, theft and water resilience; children | → 14-14 |
 
 **If you do not have it:**

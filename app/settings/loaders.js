@@ -72,14 +72,23 @@ export function cardsFromKit(kit) {
   return [...seen.values()].sort((a, b) => a.card.localeCompare(b.card));
 }
 
-/** Size estimates for the Generate screen: kit.json may carry its own. */
+/** Size estimates for the Generate screen: kit.json carries measured ones (kit.sizes, built by
+ *  scripts/build-kit.mjs). Each size → { minMB, maxMB } with the usual maps included, plus, when the
+ *  kit says so, the range without maps (srcMinMB, srcMaxMB) so the screen can add this household's
+ *  own map count from mapPlan(). */
 export function sizeEstimates(kit) {
   const e = kit && (kit.size_estimates || kit.estimates || kit.sizes);
   const pick = (k) => {
     const v = e && e[k];
-    if (v && typeof v === 'object' && (v.minMB || v.min_mb)) return { minMB: v.minMB ?? v.min_mb, maxMB: v.maxMB ?? v.max_mb ?? v.minMB ?? v.min_mb };
+    if (v && typeof v === 'object' && (v.minMB || v.min_mb)) {
+      const r = { minMB: v.minMB ?? v.min_mb, maxMB: v.maxMB ?? v.max_mb ?? v.minMB ?? v.min_mb };
+      if (v.sources_min_mb && v.sources_max_mb) Object.assign(r, { srcMinMB: v.sources_min_mb, srcMaxMB: v.sources_max_mb });
+      return r;
+    }
     if (typeof v === 'number') return { minMB: v, maxMB: v };
-    return config.sizeEstimates[k];
+    return { ...config.sizeEstimates[k] };
   };
-  return { small: pick('small'), large: pick('large') };
+  const m = e && e.map_mb;
+  return { small: pick('small'), large: pick('large'), everything: pick('everything'),
+    mapMB: m && m.min && m.max ? { min: m.min, max: m.max } : { ...config.mapMB } };
 }

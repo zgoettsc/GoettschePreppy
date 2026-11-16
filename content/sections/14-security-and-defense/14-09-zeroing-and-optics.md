@@ -55,7 +55,7 @@ The zero you choose decides how much thinking you do under pressure. Common conv
 | Firearm | Common approach | Why |
 |---|---|---|
 | **5.56 / .223 carbine** | **50/200-yard zero** | Little aiming adjustment needed across ordinary distances |
-| **.308 or 6.5 Creedmoor** | **100-yard zero** | A precise baseline to hold or adjust from |
+| **.308 and other deer rifles** | **100-yard zero** | A precise baseline to hold or adjust from |
 | **.22 LR** | **50-yard zero** | Matches realistic small-game distances; drops fast beyond |
 | **Shotgun with slugs** | **50-yard zero** | Practical slug distance |
 | **Shotgun with shot** | **Pattern, do not zero** | Shoot each load at paper at your expected distance and look at the spread |

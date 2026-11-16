@@ -184,9 +184,12 @@ export function citeLine(key, env) {
   const s = env.kit.sources?.[key];
   if (!s) return `<li>${esc(key)} <span class="dim">(source record missing)</span></li>`;
   const bound = env.boundSources?.get(key);
+  // sizes (G25): which download carries the document is env.sourceTier (generate.js)
+  const tier = env.sourceTier?.get(key) || 'large';
   const where = bound ? ` <a href="#src-${esc(key)}">Read it in this binder</a>`
-    : env.size === 'large' ? ' <span class="dim">(not captured; see the Sources not captured page)</span>'
-    : ' <span class="dim">(cited; the document itself is in the Large download)</span>';
+    : env.size === 'small' || !env.size ? ` <span class="dim">(cited; the document itself is in the ${tier === 'large' ? 'Large and Everything downloads' : 'Everything download'})</span>`
+    : env.size === 'large' && tier === 'everything' ? ' <span class="dim">(not in this download; the document is in the Everything download)</span>'
+    : ' <span class="dim">(not captured; see the Sources not captured page)</span>';
   return `<li>${esc(s.title)}. ${esc(s.org || '')}${s.date ? ', ' + esc(s.date) : ''}.${where}</li>`;
 }
 

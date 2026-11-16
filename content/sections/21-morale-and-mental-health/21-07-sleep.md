@@ -2,7 +2,7 @@
 id: 21-07-sleep
 section: 21-morale-and-mental-health
 title: "Sleep in a hard time"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -16,6 +16,8 @@ sources:
   - cdc-carbon-monoxide-poisoning-basics-772153
   - american-academy-of-pediatrics-healthychildren-org-h-7bd7d0
   - us-fda-fda-drug-safety-communication-diphenhydramine-bab442
+  - dailymed-benadryl-diphenhydramine-drug-facts
+  - fda-should-you-give-kids-medicine-for-coughs-and-colds
 related: [21-01-stress-and-panic, 21-02-long-haul-morale, 21-04-routine-and-structure, 21-05-conflict-between-adults, 20-03-routine-and-schooling, 20-08-kids-and-fear, 20-01-toddler-and-infant-needs, 12-15-mental-health-crisis, 08-01-heating-one-room, 08-02-carbon-monoxide-safety, 08-03-winterizing-the-home, 08-05-hypothermia-frostbite, 08-06-improvised-shelter-warmth, 08-08-wood-heat-operation, 08-09-portable-propane-heaters, 08-10-wick-kerosene-heaters, 11-01-cold-weather-layering, 11-02-keeping-kids-warm, 11-03-staying-dry, 12-03-burns, 30-02-dc01-unvented-heater-overnight, 30-10-dc09-infant-bed-sharing, 02-24-cl24-sleep-apnea-cpap]
 cards: [DC-01, DC-09]
 explainers: [EX-03]
@@ -48,7 +50,7 @@ wrong. **A chronically underslept household will eventually make a serious mista
 > - **Babies sleep on their own firm, flat surface** in the parents' room (AAP). Sharing an adult bed
 >   for warmth is a card offered only for children over 12 months: {{choice DC-09}} → 30-10.
 > - **Hot-water bottles and warmed stones pre-warm the bed and come out before a child gets in.** A
->   hot object against small skin for an hour is a contact burn (→ 12-03).
+>   hot object left against a small child's skin can burn it (→ 12-03).
 
 ## Do this now
 
@@ -105,8 +107,8 @@ Sleep is not downtime; it is maintenance on the household's most important asset
 
 {{#if is.cold_winters}}Your winters bring long nights.{{/if}} Long winter darkness is partly an
 opportunity (→ 10-03):
-- **Sleep longer.** Sleeping 9 to 10 hours on December nights is not laziness; it is adaptation, and
-  it saves light, fuel and food.
+- **Sleep longer.** Sleeping well past your usual hours on long December nights is not laziness; it
+  is adaptation, and it saves light, fuel and food.
 - **Waking for a while in the middle of a long night, then sleeping again, was common before
   electric light.** If it happens, it is not insomnia. Do not fight it or worry about it.
 - **Get daylight in the morning**, even a short time outdoors or at a window. It sets the body clock.
@@ -165,8 +167,12 @@ the carbon monoxide alarm in the room anyway.
 - **A dim flameless night light** (→ 10-02). New fear of the dark is common and normal.
 - **Closeness helps enormously.** For babies, the separate-surface rule (AAP); for toddlers and older
   children sharing a bed, the DC-09 card (→ 30-10). Warmers out of the bed before a child is in it.
-- **Never give a child medicine to make them sleep.** FDA warns against using diphenhydramine to
-  sedate children and against its use under age 2 (FDA, Drug Safety Communication).
+- **Never give a child medicine to make them sleep.** Diphenhydramine (an allergy medicine) carries
+  the label warning "do not use to make a child sleepy" (Benadryl Drug Facts label), and FDA warns
+  that taking more than the label dose can cause serious heart problems, seizures, coma or death
+  (FDA, Drug Safety Communication on diphenhydramine). FDA does not recommend over-the-counter cough
+  and cold medicines for children younger than 2 (FDA, Should You Give Kids Medicine for Coughs and
+  Colds?).
 - **Teens need more sleep than adults and shift later.** Let them sleep where the day allows.
 - **A tired child is a difficult child**, and a difficult child tires the adults. Protecting
   children's sleep protects everyone's.

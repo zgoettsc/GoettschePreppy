@@ -9,7 +9,7 @@ danger_level: caution
 phase: [A, B, C]
 tags: [family plan, out-of-area contact, rally point, reunification, note protocol, medical card, relay, PACE, text, "911", satellite, GMRS channel, children]
 derived_from: [15-03-family-comms-plan]
-sources: [noaa-national-weather-service-weather-ready-nation-b0a52f, american-red-cross-power-outage-safety-6d07a8, american-red-cross-winter-storm-preparedness-and-bli-4bb6c0, noaa-national-weather-service-noaa-weather-radio-all-5f13d8, apple-support-use-emergency-sos-via-satellite-messag-68d4e2, federal-communications-commission-9-1-1-and-e9-1-1-s-a8c9c7, fema-ready-gov-create-your-family-emergency-communic-584e89]
+sources: [noaa-national-weather-service-weather-ready-nation-b0a52f, american-red-cross-power-outage-safety-6d07a8, american-red-cross-winter-storm-preparedness-and-bli-4bb6c0, noaa-national-weather-service-noaa-weather-radio-all-5f13d8, apple-support-use-emergency-sos-via-satellite-messag-68d4e2, ecfr-47-cfr-part-9-911-requirements, fema-ready-gov-create-your-family-emergency-communic-584e89, fema-ready-gov-kids-make-a-plan]
 related: [00-04-family-emergency-plan, 15-01-weather-alerts, 15-02-radio-options, 15-05-ham-and-licensing, 15-06-antennas-and-range, 15-07-signals-and-codes, 15-08-destination-comms, 15-09-corridor-comms, 14-03-opsec, 12-11-chronic-conditions, 01-07-evacuating-with-medical-needs, 02-03-cl03-anaphylaxis, 02-04-cl04-food-allergy, 20-04-teaching-kids-the-plan, 20-05-infant-feeding, 20-08-kids-and-fear, 18-01-mutual-aid, 24-02-drills, 25-03-regional-contacts, 25-04-maps, 25-08-quick-reference-cards, 25-09-family-medical-summary, 25-10-annual-review, 01-03-phase-b-movement, 10-01-lighting-options]
 cards: []
 explainers: [EX-09]
@@ -48,7 +48,8 @@ communication plan approach (FEMA, Create Your Family Emergency Communication Pl
    do, contacts. Laminate them. A stranger or neighbour may be the one reading it (→ 25-09).
 3. **Agree an out-of-area contact.** In a regional emergency, local phone lines jam while
    long-distance calls and texts sometimes still get through. One relative or friend in another
-   area whom everyone checks in with turns a scattered family into a connected one.
+   area whom everyone checks in with turns a scattered family into a connected one. FEMA's
+   advice is the same: pick someone out of town, who may be easier to reach in a disaster.
 4. **Teach every child old enough** their full name, their parents' names, the rally point,
    and any allergy, as a game (→ 20-04).
 5. **Agree the rally points and wait times out loud**, every adult.
@@ -130,10 +131,11 @@ adult's wallet.
 ## Channels, in the order they survive
 
 1. **Text messages.** They use far less network capacity than calls and often get through when
-   calls do not. **Text first.** Three things few people know:
-   - **911 connects from any phone on any carrier's tower**, even with no service plan or no SIM
-     card (FCC, 9-1-1 and E9-1-1 Services). Call it rather than texting: text-to-911 exists only
-     in some areas. Ours: ☐ yes ☐ no ☐ unknown.
+   calls do not, and they leave the lines open for emergency workers. **Text first** (FEMA,
+   Ready.gov Make a Plan). Three things few people know:
+   - **911 connects from any phone on any carrier's tower**, even with no service plan: carriers
+     must pass on every wireless 911 call (47 CFR 9.10). Call it rather than texting:
+     text-to-911 works only where the local 911 centre accepts it. Ours: ☐ yes ☐ no ☐ unknown.
    - **A phone searching for a signal all day is flat by evening.** Use airplane mode between
      attempts (→ 15-09).
    - **Wi-Fi calling and app messaging work over any internet connection**, including a

@@ -9,6 +9,37 @@
 
 import { URL_RE } from './review.js';
 
+// ---- download sizes (decisions G11, G25) -------------------------------------------------------
+//   small       pages, plates, figures; every citation as title, publisher and date; no documents
+//   large       + the documents cited by the life-safety sections below, + topo maps (G16)
+//   everything  + every cited document (about 1 GB in the owner's estimate; meant for a laptop)
+// ctx flags: size.large is true for Large AND Everything; size.everything only for Everything.
+export const SIZES = Object.freeze(['small', 'large', 'everything']);
+export const LIFE_SAFETY_SECTIONS = Object.freeze(['02', '03', '06', '08', '09', '12', '17', '20', '27', '30']);
+export const SIZE_LABEL = Object.freeze({ small: 'Small', large: 'Large', everything: 'Everything' });
+export const normalizeSize = s => (SIZES.includes(s) ? s : 'small');
+export const bindsSources = size => normalizeSize(size) !== 'small';
+export const isLifeSafetyPage = id => LIFE_SAFETY_SECTIONS.includes(String(id).slice(0, 2));
+
+// Which cited documents a download binds. `cited` is Map(key → [citing page ids in binder order]).
+// → { bind: Map(key → { citedBy, section }), elsewhere: Map(key → citedBy) }
+//   bind       the documents this size carries; `section` is where the document is placed: the
+//              section of the first citing page (Large: the first citing life-safety page)
+//   elsewhere  Large only: documents cited only outside the life-safety sections; they are listed
+//              by title as "in the Everything download"
+export function sourcesForSize(cited, size) {
+  size = normalizeSize(size);
+  const bind = new Map(), elsewhere = new Map();
+  if (size === 'small') return { bind, elsewhere };
+  for (const [key, citedBy] of cited) {
+    const ls = citedBy.filter(isLifeSafetyPage);
+    if (size === 'everything') bind.set(key, { citedBy, section: String(citedBy[0]).slice(0, 2) });
+    else if (ls.length) bind.set(key, { citedBy, section: ls[0].slice(0, 2) });
+    else elsewhere.set(key, citedBy);
+  }
+  return { bind, elsewhere };
+}
+
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
 export function toBase64(u8) {
@@ -57,13 +88,49 @@ const MB = n => (n / 1e6).toFixed(1) + ' MB';
 
 // One bound document. `doc` = { key, src (kit source record), contentType, bytes, text? }
 // Returns an array of string parts.
-export function sourceBlock(doc, { citedBy = [], sectionNo }) {
-  const s = doc.src || {};
-  const head = `<section class="srcdoc" id="src-${esc(doc.key)}" data-sec="${esc(sectionNo)}">
-<div class="srchead">Bound source, for this household's private copy (do not share): <strong>${esc(s.title || doc.key)}</strong>. ${esc(s.org || '')}${s.date ? ', ' + esc(s.date) : ''}.${s.licence_note ? ' ' + esc(String(s.licence_note).replace(URL_RE, '')) : ''}
+function srcHead(key, s, { citedBy = [], sectionNo }) {
+  return `<section class="srcdoc" id="src-${esc(key)}" data-sec="${esc(sectionNo)}">
+<div class="srchead">Bound source, for this household's private copy (do not share): <strong>${esc(s.title || key)}</strong>. ${esc(s.org || '')}${s.date ? ', ' + esc(s.date) : ''}.${s.licence_note ? ' ' + esc(String(s.licence_note).replace(URL_RE, '')) : ''}
 ${citedBy.length ? ' Cited by: ' + citedBy.map(id => `→ <a class="xref" href="#${id}">${id.slice(0, 5)}</a>`).join(' ') : ''}</div>
 <div class="srcbody">`;
-  const tail = `</div></section>\n`;
+}
+const SRC_TAIL = `</div></section>\n`;
+
+// ---- upgrade: reuse the documents an earlier binder already holds -------------------------------
+// Large → Everything (or a rebuild) binds the documents the earlier file carries without fetching
+// or rendering them again. → Map(key → inner HTML of its <div class="srcbody">). The earlier file
+// is the household's own, but it is checked like any input: a body that holds anything but text
+// markup, page pictures (data: images) and the embedded-PDF block is not reused.
+export function extractBoundSources(html) {
+  const out = new Map();
+  const s = String(html || '');
+  const re = /<section class="srcdoc" id="src-([a-z0-9-]+)"[^>]*>/g;
+  let m;
+  while ((m = re.exec(s))) {
+    const open = s.indexOf('<div class="srcbody">', m.index);
+    if (open < 0) break;
+    const end = s.indexOf(SRC_TAIL.trim(), open);
+    if (end < 0) break;
+    const body = s.slice(open + '<div class="srcbody">'.length, end);
+    if (!m[1].startsWith('map-') && safeReusedBody(body)) out.set(m[1], body);
+    re.lastIndex = end;
+  }
+  return out;
+}
+export function safeReusedBody(body) {
+  const rest = String(body)
+    .replace(/<script type="application\/pdf" id="pdf-[a-z0-9-]+">[A-Za-z0-9+/=]*<\/script>/g, '')
+    .replace(/\ssrc="data:image\/(jpeg|png|webp|gif);base64,[A-Za-z0-9+/=]*"/g, '');
+  return !/<(script|iframe|object|embed|link|style|meta|base|form|svg|math|template)\b|\son[a-z]+\s*=|javascript:|\s(src|href|srcset|action|formaction|xlink:href)\s*=/i.test(rest);
+}
+export function reusedSourceBlock(key, src, body, where) {
+  return [srcHead(key, src || {}, where), body, SRC_TAIL];
+}
+
+export function sourceBlock(doc, { citedBy = [], sectionNo }) {
+  const s = doc.src || {};
+  const head = srcHead(doc.key, s, { citedBy, sectionNo });
+  const tail = SRC_TAIL;
   const ct = doc.contentType || '';
   if (ct.includes('html')) return [head, htmlToReadable(new TextDecoder().decode(doc.bytes)), tail];
   if (ct.startsWith('text/')) return [head, textToReadable(new TextDecoder().decode(doc.bytes)), tail];

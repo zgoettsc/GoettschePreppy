@@ -2,7 +2,7 @@
 id: 18-02-barter-and-trade-goods
 section: 18-community-barter-and-governance
 title: "Barter and trade goods"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -115,9 +115,10 @@ destination: in the long run what lasts is relationships and reputation (→ 18-
 ## Your never-trade list
 
 Write it now, so nobody ever has to argue it at the door. "That's not something we trade" is the
-whole answer. Common entries, with the reason:
+whole answer. **The list is yours to write.** The rows below are suggestions some households use,
+with their reasons, not a default; keep, change or strike any of them.
 
-| Candidate | Why households put it here |
+| Suggestion | Why some households put it here |
 |---|---|
 | Any medicine or medical supply a member's life depends on (insulin, pump and sensor supplies, epinephrine auto-injectors, inhalers) | Your supply is that person's runway; no trade can make up for running out (→ 12-07) |
 | The last month of any medicine | The final weeks of any supply are never surplus |
@@ -125,7 +126,7 @@ whole answer. Common entries, with the reason:
 | This binder and your written records | A map of your household: people, medical details, places, stores |
 | Your water treatment if it is your only means | Water is the first thing that kills |
 
-{{#each meds as m}}- Consider: {{m.name}} ({{m.member}})
+{{#each meds as m}}- From your settings, worth considering: {{m.name}} ({{m.member}})
 {{/each}}
 
 **Our never-trade list:**
@@ -174,14 +175,12 @@ In a small community, your reputation as a trader is a real asset or a real liab
   (→ 30-15). **Bulging, leaking or spurting cans and jars are never opened. They are discarded**,
   away from children and animals.
 - **Home-canned food from someone else's process.** Botulism toxin is invisible, and the jar's look
-  and smell tell you nothing reliable. The USDA's guidance: if there is any doubt that home-canned
-  low-acid food (vegetables, beans, meat, fish, soup) was processed correctly, **boil it for 10
-  minutes at a full boil before tasting it, adding 1 minute for each 1,000 feet of altitude** (USDA,
-  Complete Guide to Home Canning, Guide 1; CDC, Botulism Prevention; → 04-05). Low-acid foods are
+  and smell tell you nothing reliable. CDC's guidance: **boil all low-acid home-canned food
+  (vegetables, beans, meat, fish, soup) for 10 minutes before eating or tasting it, adding 1 minute
+  for each additional 1,000 feet of elevation** (CDC, Botulism Prevention; → 04-05). Low-acid foods are
   pressure-canned to the published time and pressure, or not canned (floor, → 30-01).
   Prefer factory-sealed, labeled goods when you have a choice.
-{{#if has.infant}}- **Never honey for a child under 1 year** (infant botulism).{{else}}- **Never
-  honey for a child under 1 year** (infant botulism).{{/if}}
+- **Never honey for a child under 1 year** (infant botulism; CDC, Botulism Prevention).
 {{#if has.toddler}}- **A toddler trying a genuinely new food:** one new food at a time, at home,
   with an adult watching afterward (→ 20-01).{{/if}}
 - **Tell trading partners about allergies.** People are generally glad to know, and it stops a kind

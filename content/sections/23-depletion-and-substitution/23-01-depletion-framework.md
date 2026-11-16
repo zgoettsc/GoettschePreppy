@@ -2,7 +2,7 @@
 id: 23-01-depletion-framework
 section: 23-depletion-and-substitution
 title: "The depletion framework"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -54,7 +54,7 @@ Every "When it runs out" block in this binder answers these four.
 
 **1. Runway: how long does it last?**
 - Amount on hand divided by real daily use. **Measure the use, do not guess it.** Most
-  households are well off on their real consumption until they measure it.
+  households' guesses about their own use are well off until they measure it.
 - Use the hard case: winter wood use, summer water use, water use when someone is sick
   (→ 12-05). Not the average.
 - Write the date. A runway shrinks every day.

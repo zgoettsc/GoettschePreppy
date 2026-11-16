@@ -2,7 +2,7 @@
 id: 25-01-planting-calendar
 section: 25-reference-and-appendices
 title: "Planting and harvest calendar for your frost dates"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: region
 danger_level: none
@@ -13,7 +13,6 @@ sources:
   - usda-phzm-2023
   - university-of-minnesota-extension-planting-the-veget-acacfa
   - university-of-minnesota-extension-starting-seeds-ind-2449d5
-  - sdsu-extension-the-basics-of-seed-starting-for-flowe-fcfb31
 related: [05-01-a-small-high-yield-garden, 05-02-season-extension, 05-03-seed-saving, 05-11-soil-and-compost, 05-13-perennials-and-fruit, 05-14-indoor-growing, 05-18-destination-garden-calendar, 04-09-winter-cold-storage, 25-05-blank-logs, 24-03-seasonal-practice-plan]
 cards: []
 explainers: [EX-13]
@@ -25,7 +24,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: null
+review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "SDSU (owner-state) citation dropped; hardening-off period aligned with UMN Extension." }
 ---
 
 # Planting and harvest calendar for your frost dates
@@ -100,8 +99,7 @@ more days than your season gives must be started indoors or swapped for a faster
 ## Indoor sowing: count backwards from the last frost
 
 Seedlings started indoors need a sunny window or a grow light, and warmth to sprout
-(University of Minnesota Extension, Starting Seeds Indoors; SDSU Extension, The Basics of Seed
-Starting).
+(University of Minnesota Extension, Starting Seeds Indoors).
 
 | Crop | Start indoors | Plant out | Notes |
 |---|---|---|---|
@@ -114,7 +112,7 @@ Starting).
 | **Cucumbers, melons, squash** | **3 to 4 weeks only** | After last frost | Dislike transplanting: sow in pots that go into the ground whole |
 | **Basil and tender herbs** | 6 to 8 weeks before | After last frost, warm | Frost-tender |
 
-**Harden off everything for 7 to 10 days** before it goes out: set seedlings outside for a few
+**Harden off everything over one to two weeks** before it goes out: set seedlings outside for a few
 hours, then longer each day, so sun and wind do not kill them in an afternoon (University of
 Minnesota Extension, Planting the Vegetable Garden; → 05-14).
 

@@ -2,7 +2,8 @@
 // browser smoke test of the binder file.
 //
 //   npm run test:generate            unit tests, build:kit, generate every tests/profiles/*.json
-//                                    (Small; the first profile also Large and a reuse upgrade),
+//                                    (Small; the first profile also Large, Everything and the
+//                                    reuse upgrades Small → Large → Everything, G25),
 //                                    static checks, Playwright (Chromium, offline)
 //   node scripts/test-generate.mjs --no-browser     skip Playwright
 //
@@ -14,7 +15,8 @@ import path from 'node:path';
 import url from 'node:url';
 import { spawnSync } from 'node:child_process';
 import { createRequire } from 'node:module';
-import { generateBinder, mapPlan } from '../app/lib/generate.js';
+import { generateBinder, mapPlan, describePrevious, estimateSizes } from '../app/lib/generate.js';
+import { LIFE_SAFETY_SECTIONS, SIZES } from '../app/lib/sources.js';
 import { createDryRunRelay } from '../app/lib/relay-dryrun.js';
 import { buildContext } from '../app/lib/context.js';
 const kitFor = new Map(); // profile → kit used (fixture runs use the fixture kit)
@@ -43,6 +45,18 @@ const kit = JSON.parse(fs.readFileSync(path.join(ROOT, 'app/build/kit.json'), 'u
 const lite = JSON.parse(fs.readFileSync(path.join(ROOT, 'app/build/regions-lite.json'), 'utf8'));
 ok(Object.keys(lite).length === 51, 'regions-lite has 50 states + DC');
 ok(!/https?:\/\//.test(JSON.stringify({ ...kit, maps: null })), 'kit.json carries no URL (outside maps)');
+
+// kit.sizes (G25): measured per-size estimates for the Generate screen, maps included
+{
+  const z = kit.sizes || {};
+  ok(SIZES.every(k => z[k] && z[k].min_mb > 0 && z[k].max_mb >= z[k].min_mb), `kit.sizes has small, large and everything ranges (${SIZES.map(k => `${k} ${z[k]?.min_mb}-${z[k]?.max_mb} MB`).join(', ')})`);
+  ok(z.small.max_mb < z.large.min_mb && z.large.bytes < z.everything.bytes && z.large.documents < z.everything.documents, `sizes grow Small < Large < Everything (${z.large.documents} vs ${z.everything.documents} documents)`);
+  ok(z.large.measured > 0 && z.everything.measured >= z.large.measured && z.map_mb?.max > z.map_mb?.min, `real per-document sizes measured (${z.everything.measured} of ${z.everything.documents}); maps ${z.map_mb?.min}-${z.map_mb?.max} MB each`);
+  ok(z.large.sources_min_mb > 0 && z.large.maps_assumed === 2 && z.small.maps_assumed === 0, 'sizes carry the range without maps for the household map plan');
+  ok(z.large.bytes <= 400e6, `Large stays inside the G25 ceiling of 400 MB before maps (${Math.round(z.large.bytes / 1e6)} MB)`);
+  const est = estimateSizes(kit);
+  ok(est.everything > est.large && est.large > est.small, 'estimateSizes gives bytes for all three sizes');
+}
 
 const loadAsset = async p => { try { return new Uint8Array(fs.readFileSync(path.join(ROOT, 'app/build', p))); } catch { return null; } };
 
@@ -112,6 +126,47 @@ for (const [i, f] of profiles.entries()) {
     const relayU = createDryRunRelay();
     const up = await generateBinder(profile, kit, { relay: relayU, size: 'large', loadAsset, previous: html, now: new Date('2026-11-16T12:00:00Z') });
     ok(up.report.modelCalls === 0, `${name}: Small → Large upgrade from the saved file makes no model calls (${up.report.modelCalls})`);
+    const upHtml = await up.text();
+
+    // G25 Large: only documents cited by a life-safety section are bound; the rest are listed
+    const LS = new Set(LIFE_SAFETY_SECTIONS);
+    const citedBy = new Map();
+    for (const p of kit.pages) for (const k of p.sources || []) { if (!citedBy.has(k)) citedBy.set(k, []); citedBy.get(k).push(p.id.slice(0, 2)); }
+    const lsKeys = new Set([...citedBy].filter(([, secs]) => secs.some(x => LS.has(x))).map(([k]) => k));
+    const boundKeys = h => [...h.matchAll(/<section class="srcdoc" id="src-(?!map-)([^"]+)" data-sec="(\d\d)"/g)].map(m => ({ key: m[1], sec: m[2] }));
+    const largeBound = boundKeys(bigHtml);
+    ok(largeBound.length > 0 && largeBound.every(b => lsKeys.has(b.key) && LS.has(b.sec)), `${name}: Large binds only life-safety documents, each behind a life-safety section (${largeBound.length} bound, ${lsKeys.size} cited there)`);
+    ok(big.report.size === 'large' && big.report.sources.elsewhere === citedBy.size - lsKeys.size && /<h2[^>]*>In the Everything download<\/h2>/.test(bigHtml),
+      `${name}: Large lists the ${big.report.sources.elsewhere} documents cited only elsewhere as "in the Everything download"`);
+    ok(/not in this download; the document is in the Everything download/.test(bigHtml) && /Read it in this binder/.test(bigHtml), `${name}: Large citation lines say which documents are bound and which are in Everything`);
+    ok(/the document itself is in the Large and Everything downloads/.test(html) && /the document itself is in the Everything download\)/.test(html), `${name}: Small citation lines name the download that carries each document`);
+
+    // Everything: every cited document
+    const relayE = createDryRunRelay();
+    const every = await generateBinder(profile, kit, { relay: relayE, size: 'everything', loadAsset, now: new Date('2026-11-16T12:00:00Z') });
+    const everyHtml = await every.text();
+    fs.writeFileSync(path.join(OUT, `${name}-everything.html`), everyHtml);
+    console.log(`${name} (Everything): ${(every.report.bytes / 1e6).toFixed(2)} MB, ${every.report.sources.bound} sources bound, ${every.report.sources.missing} not captured`);
+    ok(every.report.sources.bound + every.report.sources.missing === citedBy.size && every.report.sources.bound > big.report.sources.bound && every.report.sources.elsewhere === 0,
+      `${name}: Everything binds every cited document (${every.report.sources.bound} of ${citedBy.size})`);
+    ok(!/In the Everything download/.test(everyHtml) && /This is the Everything binder/.test(everyHtml), `${name}: Everything has no "not in this download" list`);
+    staticChecks(`${name} (Everything)`, everyHtml, every.report, profile);
+
+    // the upgrade path: Small → Large → Everything without model calls; bound documents reused
+    const prevLarge = describePrevious(upHtml, profile), prevSmallTail = describePrevious(html.slice(-4e6), profile);
+    ok(prevLarge?.size === 'large' && prevLarge.sameAnswers && prevSmallTail?.size === 'small' && describePrevious('<html>no</html>', profile) === null
+      && describePrevious(html, { ...profile, household: { ...profile.household, name: 'Other' } })?.sameAnswers === false,
+      `${name}: describePrevious reads an earlier file's size and whether the answers match (from the end of the file too)`);
+    const relayUE = createDryRunRelay();
+    const upE = await generateBinder(profile, kit, { relay: relayUE, size: 'everything', loadAsset, previous: upHtml, now: new Date('2026-11-16T12:00:00Z') });
+    const upEHtml = await upE.text();
+    ok(upE.report.modelCalls === 0 && relayUE.calls.messages === 0, `${name}: Large → Everything upgrade makes no model calls (${upE.report.modelCalls})`);
+    ok(upE.report.sources.reused === up.report.sources.bound && relayUE.calls.fetch <= citedBy.size - upE.report.sources.reused && relayUE.calls.fetch < relayE.calls.fetch,
+      `${name}: Large → Everything reuses the ${upE.report.sources.reused} documents already bound and fetches only the rest (${relayUE.calls.fetch} fetches, ${relayE.calls.fetch} fresh)`);
+    ok(upE.report.sources.bound === every.report.sources.bound && boundKeys(upEHtml).length === boundKeys(everyHtml).length, `${name}: the upgraded Everything file binds the same documents as a fresh one`);
+    staticChecks(`${name} (Large → Everything upgrade)`, upEHtml, upE.report, profile);
+    const blobPrev = await generateBinder(profile, kit, { relay: createDryRunRelay(), size: 'everything', loadAsset, previous: new Blob([html]), now: new Date('2026-11-16T12:00:00Z') });
+    ok(blobPrev.report.modelCalls === 0 && blobPrev.report.sources.reused === 0, `${name}: Small → Everything upgrade from a File/Blob makes no model calls`);
     const ac = new AbortController();
     const p = generateBinder(profile, kit, { relay: createDryRunRelay(), size: 'small', loadAsset, signal: ac.signal, onProgress: e => { if (e.phase === 'render') ac.abort(); } });
     let aborted = false; try { await p; } catch (e) { aborted = e.name === 'AbortError'; }

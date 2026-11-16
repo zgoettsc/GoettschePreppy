@@ -431,7 +431,9 @@ export function buildContext(profile, kit = {}, opts = {}) {
     meds_for: Object.fromEntries(Object.keys(CONDITIONS).map(id => [id, meds.filter(x => x.for_condition === id)])),
     agreed_destinations: destinations.filter(d => d.status === 'agreed'),
     has, is, experience,
-    size: { large: opts.size === 'large' },
+    // G25: size.large is true for Large and Everything (sources inside); size.everything only for
+    // Everything (every cited document inside)
+    size: { large: opts.size === 'large' || opts.size === 'everything', everything: opts.size === 'everything' },
     // not template paths; used by generate.js
     _choices: p.decision_cards || {},
     _notes: nz(p.notes_for_the_binder) ?? null,

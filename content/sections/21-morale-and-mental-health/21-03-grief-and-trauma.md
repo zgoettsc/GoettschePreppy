@@ -2,7 +2,7 @@
 id: 21-03-grief-and-trauma
 section: 21-morale-and-mental-health
 title: "Grief, loss and trauma"
-version: 1
+version: 2
 revised: 2026-11-16
 layer: core
 danger_level: caution
@@ -147,8 +147,9 @@ Beyond grief, people carry the events themselves:
 
 A child may see an adult collapse, a seizure, a bad injury, adults moving fast and scared. The event
 may be over in minutes; **how it lives in the child's memory depends on what happens after.** CDC's
-guidance is that children cope best with a simple, honest explanation, reassurance that they are
-safe, and a chance to talk, soon and at their level.
+advice for children after a disaster is to talk about what happened simply, in words they understand,
+to stay calm, and to reassure them that they are safe (CDC, Helping Children Cope During and After a
+Disaster).
 
 **Once the person is stable, say something like:**
 

@@ -31,8 +31,8 @@ without food but only days without water. This page turns the CDC planning figur
 household's numbers: how much to store, and how many days the water you already have will
 last. Every other water page uses the numbers printed here.
 
-> **CAUTION.** The numbers below are planning minimums from the CDC, not comfort levels. Heat,
-> hard work, illness, pregnancy and nursing all push real need higher. Plan above the
+> **CAUTION.** The numbers below are planning minimums built on the CDC figure, not comfort
+> levels. Heat, hard work, illness, pregnancy and nursing all push real need higher. Plan above the
 > minimum, never below it.
 
 ## Do this now
@@ -48,36 +48,43 @@ last. Every other water page uses the numbers printed here.
    shorter. Recount every week during an emergency.
 4. **Store more if** anyone is sick, pregnant or nursing, if it is hot, or if people are
    doing hard physical work.
-5. **Never ration drinking water to the point of thirst.** Drink what you need today and put
-   your effort into finding more (→ 03-05 rain and snow{{#if has.pool}}, → 03-03 your pool{{/if}}{{#if has.well}}, → 03-10 your well{{/if}}).
+5. **Never ration drinking water to the point of thirst.** FEMA's advice: drink the amount you
+   need today and try to find more for tomorrow (→ 03-05 rain and snow{{#if has.pool}}, → 03-03 your pool{{/if}}{{#if has.well}}, → 03-10 your well{{/if}}).
 
 ## Why these numbers
 
 The CDC planning figure is **1 gallon per person per day**, with **at least a 3-day supply**
 at home and a **2-week supply** if you can manage it (CDC, How to Create and Store an
-Emergency Water Supply). That gallon is not all for drinking. Roughly half is drinking water
-and half covers cooking, dishes, brushing teeth and basic washing.
+Emergency Water Supply). That gallon is not all for drinking. FEMA says a normally active
+person needs about three quarters of a gallon of fluid a day from water and other drinks; the
+rest covers cooking, dishes, brushing teeth and basic washing (FEMA, Ready.gov Water).
 
-**Needs go up**, says the CDC, for children, nursing mothers and sick people, in hot weather
-(heat can double the need), and during hard physical work. A grid-down summer with laundry by
+**Needs go up.** The CDC says to store more for pregnant women, sick people, pets and hot
+climates. FEMA adds that children, nursing mothers and sick people may need more, that a
+medical emergency may need extra water, and that **in very hot weather water needs can
+double** (FEMA, Ready.gov Water). Hard physical work raises it too. A grid-down summer with laundry by
 hand and wood to haul is not a quiet day on the couch.
 
 ### How your numbers are worked out
 
-The binder builds your **floor** from your household profile on the CDC basis:
+The binder builds your **floor** from your household profile. The 1 gallon per person is the
+CDC figure. The CDC and FEMA say to store more for pregnancy, nursing, infants and pets but
+publish no exact amount, so the extra amounts below are this binder's planning allowances, not
+published figures:
 
 | Who | Added to the daily floor |
 |---|---|
 | Each person | 1 gallon |
 | Each pregnant or nursing member | 0.5 gallon more |
 | Each infant (formula mixing and washing) | 0.5 gallon more |
-| Each pet | 0.25 gallon (about a cup for a cat; dogs drink more, check yours) |
+| Each pet | 0.25 gallon (a cat drinks far less, a big dog may drink more; check yours) |
 
 Your household: **{{ household.size }} people**, floor **{{ derived.water.floor_gal_day }}
 gallons a day**.
 
 The **plan** figure is the floor plus a 30 percent margin ({{ derived.water.plan_gal_day }}
-gallons a day). The margin covers heat, sickness, spills and the water that cooking eats.
+gallons a day). The margin is also this binder's planning allowance, not a published figure.
+It covers heat, sickness, spills and the water that cooking eats.
 If your food store leans on freeze-dried or dehydrated meals, those meals are rehydrated with
 water that counts against the day, so treat the plan number as the least you need
 (→ 07-07).
@@ -96,9 +103,9 @@ water that counts against the day, so treat the plan number as the least you nee
   boiled or treated, never raw pool or surface water. Infants are the least able to survive a
   stomach illness from bad water (→ 20-05).
 {{/if}}
-{{#if has.nursing}}- **The nursing member.** The CDC says needs rise while nursing. The margin
+{{#if has.nursing}}- **The nursing member.** FEMA says needs rise while nursing. The margin
   in your plan number exists for her. Hers is never the line to ration.
-{{else}}- **Anyone nursing** needs more water, says the CDC. Never ration a nursing mother's
+{{else}}- **Anyone nursing** may need more water, says FEMA. Never ration a nursing mother's
   share.
 {{/if}}
 - **Diabetes.** Dehydration and high blood sugar feed each other: high sugar makes the body
@@ -139,7 +146,7 @@ water matter so much.
 |---|---|---|
 | Food-grade water containers (5 to 7 gal jugs, or a 55-gal drum) | The bulk of the store | Jugs can be moved. A full 55-gal drum weighs about 460 lb and never moves again |
 | Bottled water by the case | Safest water with no preparation | The CDC calls it the safest reliable emergency source |
-| Bathtub water bladder | Fills a tub cleanly before the water stops | About 100 gal; only useful if filled *before* pressure is lost (→ 03-02) |
+| Bathtub water bladder | Fills a tub cleanly before the water stops | Read the capacity on the package; only useful if filled *before* pressure is lost (→ 03-02) |
 | Labels and a marker | Track what is left | Date each container; mark drums in gallons |
 | A runway card | Know the number without doing maths under stress | Write "stored gallons ÷ {{ derived.water.plan_gal_day }}" on the container |
 
@@ -148,11 +155,13 @@ water matter so much.
 {{#if has.water_heater_tank}}- **Your water heater** holds about {{ dwelling.water_heater_gallons }} gallons. It can be
   scalding hot, and gas heaters keep heating while gas flows. Never drain it from memory: use
   the step-by-step procedure on → 03-02.
-{{else}}- **A tank water heater**, if you have one or find one, holds 30 to 80 gallons. It can
-  be scalding hot; use the step-by-step procedure on → 03-02.
+{{else}}- **A tank water heater**, if you have one or find one, holds tens of gallons (the size
+  is on its label). FEMA lists it as a safe water source in the home. It can be scalding hot;
+  use the step-by-step procedure on → 03-02.
 {{/if}}
-- Toilet **tanks** (the box behind the seat, not the bowl), if no cleaning tablets are in
-  them, and ice in the freezer.
+- The water in your **pipes** and **ice** in the freezer, which FEMA lists as safe sources.
+  Toilet **tanks** (the box behind the seat, never the bowl) are **not** drinking water:
+  FEMA says not to drink them. Use tank water for washing and flushing.
 - Any clean food-grade container: soda bottles, juice jugs. **Not** milk jugs (milk protein
   is hard to clean out and the water spoils), and never containers that held chemicals.
 
@@ -184,7 +193,7 @@ water matter so much.
   problem.
 {{#if has.destinations}}
   Your destinations:
-{{#each destinations as d}}  - **{{ d.name }}** ({{ d.county }}, {{ d.state_name }}). Write its water source here: __________
+{{#each destinations as d}}  - **{{ d.name }}** ({{ d.county }}, {{ d.state_name }}). Water source: {{ d.water_source_text }}
 {{/each}}
 {{/if}}
 
