@@ -119,3 +119,6 @@ Collected from worker reports; resolved in the integration pass.
 - [x] R12: size.everything description and generate.js tier intros now include section 04.
 - [ ] R12: FSIS 403: jerky drying temperature, canned food above 90 F and dry-ice figures removed; restore when FSIS is reachable.
 - [ ] R12 owner questions: Dietary Guidelines 2020-2025 vs the newer edition (verify it exists and its tables before switching); one water-bath row still cites SDSU Extension (owner's home state; no neutral source with the same rule).
+- [x] R11: MedlinePlus drug (ASHP) and encyclopedia (A.D.A.M.) pages reclassed restricted. SAMHSA TIP 63 withdrawal table, Narcan label steps, CL-16 rows, CL-15 CMS dialysis guidance corrected.
+- [ ] R11 owner questions: thyroid missed dose (ATA allows doubling next day; MedlinePlus says never double; page defers to prescriber); print the CMS 3-day emergency kidney diet in full on CL-15 (public domain)?
+- [ ] Naloxone figure request says "other nostril"; Narcan label says either nostril, new device per dose.

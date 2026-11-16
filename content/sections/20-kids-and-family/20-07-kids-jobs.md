@@ -69,8 +69,8 @@ boring, and it produces the behaviour that makes everything harder. **A child wi
 
 ## Jobs by age
 
-The CDC describes preschoolers as able to follow multi-step instructions, wanting to help and
-proud of it (CDC, Positive Parenting Tips). Match each job to the child's age, size, strength
+CDC's tips for parents of preschoolers include letting the child help with simple chores (CDC,
+Positive Parenting Tips: Preschoolers). Match each job to the child's age, size, strength
 and judgement, with training and supervision. The tables below are safe-by-default examples; the
 household's own worksheet decides anything with a hazard.
 
