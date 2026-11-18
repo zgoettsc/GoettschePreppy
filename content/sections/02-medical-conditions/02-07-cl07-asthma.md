@@ -2,8 +2,8 @@
 id: 02-07-cl07-asthma
 section: 02-medical-conditions
 title: "CL-07. Asthma"
-version: 2
-revised: 2026-11-16
+version: 3
+revised: 2026-11-18
 layer: condition
 danger_level: critical
 phase: [A, B, C]
@@ -15,6 +15,7 @@ sources:
   - nhlbi-asthma-attack-r10
   - medlineplus-albuterol-oral-inhalation
   - epa-wildfire-smoke-guide
+  - dailymed-ventolin-hfa-label-k1
 related:
   - 02-03-cl03-anaphylaxis
   - 02-08-cl08-copd-and-oxygen
@@ -42,7 +43,7 @@ condition: CL-07
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "NHLBI 2020 action plan zones and danger signs verified and worded as published; MedlinePlus inhaler rules verified; meds_for tables." }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "NHLBI 2020 action plan zones and danger signs verified and worded as published; MedlinePlus inhaler rules verified; meds_for tables. K1 (G34): 'When there is no prescriber' added: albuterol label directions printed as published (Ventolin HFA label read 2026-11-18); no published patient guidance for steroid tablets or controllers, said plainly." }
 ---
 
 # CL-07. Asthma
@@ -64,14 +65,15 @@ with the prescriber now.
 >   after** (→ 02-03). A food reaction can look exactly like an asthma attack, and asthma makes
 >   it worse.
 > - **This page never suggests how many puffs.** That is the prescriber's action plan, written in
->   part 7.
+>   part 7. When there is no prescriber and no plan, the inhaler's own label is the published
+>   instruction (part 7, "When there is no prescriber").
 
 ## Do this now: an asthma attack
 
 1. **Sit them upright**, leaning slightly forward. Loosen tight clothing. Stay calm and talk
    calmly.
 2. **Rescue (quick-relief) inhaler now, with a spacer if there is one**, exactly as the person's
-   written action plan says.
+   written action plan says, or with no plan, as the inhaler's label says (part 7).
 3. **Get them away from the trigger**: smoke, cold air, dust, animals.
 4. **Follow the plan's next step** if they are not better in the time it gives.
 5. **Danger signs** (trouble walking or talking from breathlessness, blue lips or nails, rescue
@@ -174,6 +176,17 @@ the standard of care; ask for one):
 - If the controller runs out: ______________________________________________________
 - Steroid tablets for a bad flare, and when to start them: _______________________________
 Prescriber: ____________________ Date: __________
+
+**When there is no prescriber**, the published instruction is the rescue inhaler's own label.
+For albuterol, as published (Ventolin HFA prescribing information, GlaxoSmithKline): "2
+inhalations by oral inhalation repeated every 4 to 6 hours; in some patients, 1 inhalation every
+4 hours may be sufficient. More frequent administration or a greater number of inhalations is
+not recommended." The label adds that needing more doses than usual "may be a sign of
+deterioration of asthma". With no care to call, that is the signal for the danger-sign steps in
+"Do this now" and to move toward any working care (NHLBI, Asthma Attack). Another rescue
+inhaler: read the label that came with it. No source we read gives a patient a way to start
+steroid tablets or to replace a controller medicine without a prescriber; someone else's
+prescription is a card: {{choice DC-15}} (→ 30-16).
 
 **Stock arithmetic.** The medicines tagged for this condition in settings are printed; if none are tagged, every household medicine row is, so use the ones for this condition.
 Days on hand = doses left ÷ doses used per day.

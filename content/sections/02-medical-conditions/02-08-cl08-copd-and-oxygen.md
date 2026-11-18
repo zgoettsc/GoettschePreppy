@@ -2,8 +2,8 @@
 id: 02-08-cl08-copd-and-oxygen
 section: 02-medical-conditions
 title: "CL-08. COPD and oxygen dependence"
-version: 2
-revised: 2026-11-16
+version: 3
+revised: 2026-11-18
 layer: condition
 danger_level: critical
 phase: [A, B, C]
@@ -36,7 +36,7 @@ related:
   - 30-21-dc20-open-flame-indoors
   - 30-02-dc01-unvented-heater-overnight
   - 30-03-dc02-propane-cylinder-indoors
-cards: [DC-20, DC-01, DC-02, DC-04, DC-15, DC-19]
+cards: [DC-20, DC-01, DC-02, DC-04, DC-15, DC-16, DC-19]
 explainers: [EX-02, EX-03, EX-12]
 promote_when: [has.condition.CL-08, has.oxygen]
 photo_slots:
@@ -47,7 +47,7 @@ condition: CL-08
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "5-ft oxygen rule re-cited to USFA and ALA (NFPA sheet unreadable); NHLBI COPD 911 list verbatim; fire rules per ALA; meds_for tables." }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "5-ft oxygen rule re-cited to USFA and ALA (NFPA sheet unreadable); NHLBI COPD 911 list verbatim; fire rules per ALA; meds_for tables. K1 (G34): 'When there is no prescriber' added: keep the prescribed oxygen flow (ALA), no published way to stretch oxygen said plainly, inhaler label for flare-ups." }
 ---
 
 # CL-08. COPD and oxygen dependence
@@ -78,14 +78,15 @@ supplier now.
 ## Do this now: a bad breathing spell
 
 1. **Sit them upright**, leaning forward with arms resting on a table or knees. Loosen clothes.
-2. **Rescue inhaler** (quick-relief) as their written plan says.
+2. **Rescue inhaler** (quick-relief) as their written plan says, or with no plan, as the
+   inhaler's own label says (→ 02-07 part 7).
 3. **Oxygen at the prescribed flow**, if they use it. Check the tubing is not kinked, the
    cylinder is not empty, and the concentrator is running.
 4. **Slow breathing out:** in through the nose, out slowly through pursed lips, as if blowing
    on soup. Stay calm with them.
 5. **Danger signs** (part 5): cannot catch their breath or talk, blue or grey lips, not alert,
    a very fast heartbeat, or the treatment is not working:
-   **follow the prescriber's plan and seek any care that exists.**
+   **follow the prescriber's plan, if there is one, and seek any care that exists.**
 
 ## 1. What it is
 
@@ -185,6 +186,17 @@ exists.
   ______________________________________________________________________________________
 - Danger signs specific to this person: ______________________________________________
 Prescriber: ____________________ Date: __________
+
+**When there is no prescriber.** The published rule on oxygen is the American Lung
+Association's: never change the flow rate from what the doctor prescribed (ALA, Using Oxygen
+Safely). The prescribed flow is on the oxygen order, the concentrator settings or the supplier's
+paperwork; copy it into the line above now. No source we read tells a patient how to make
+oxygen last longer by lowering the flow, so the binder does not: keep the prescribed flow,
+stretch the supply by power and resupply instead (part 9, part 8), and as it runs low move
+toward care early, before it is gone (part 5). For a flare-up, the rescue inhaler's label is
+the published instruction (→ 02-07 part 7). No source we read gives a patient a way to start
+steroid tablets or antibiotics alone; antibiotics without a prescription are a card:
+{{choice DC-16}} (→ 30-17).
 
 **Ask the oxygen supplier now:** their emergency plan; how many backup cylinders they will
 supply; the cylinder duration chart at the prescribed flow; whether a battery-powered portable

@@ -2,8 +2,8 @@
 id: 02-05-cl05-type-2-diabetes
 section: 02-medical-conditions
 title: "CL-05. Type 2 diabetes (tablets and non-insulin medicines)"
-version: 2
-revised: 2026-11-16
+version: 3
+revised: 2026-11-18
 layer: condition
 danger_level: caution
 phase: [A, B, C]
@@ -20,6 +20,8 @@ sources:
   - american-diabetes-association-dka-ketoacidosis-and-k-f0301a
   - fda-sglt2-ketoacidosis-dsc-2015
   - world-health-organization-cholera-outbreaks-q-and-a-162558
+  - dailymed-metformin-label-k1
+  - dailymed-jardiance-label-k1
 related:
   - 02-06-cl06-type-2-diabetes-on-insulin
   - 02-01-cl01-type-1-diabetes-injections
@@ -46,7 +48,7 @@ condition: CL-05
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Lows from sulfonylureas/meglitinides cited to NIDDK; 15-15 to CDC treatment page; acarbose-type note added; CDC symptom claims re-cited; meds_for tables." }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Lows from sulfonylureas/meglitinides cited to NIDDK; 15-15 to CDC treatment page; acarbose-type note added; CDC symptom claims re-cited; meds_for tables. K1 (G34): 'When there is no prescriber' added to sick days: CDC rule, metformin patient-information stop line, Jardiance label and Medication Guide ketoacidosis stop line (labels read 2026-11-18); no published patient guidance for sulfonylurea changes, said plainly." }
 ---
 
 # CL-05. Type 2 diabetes (tablets and non-insulin medicines)
@@ -67,7 +69,8 @@ treatment, read → 02-06 as well.
 >   lows more likely (NIDDK, Low Blood Glucose). Know whether the person's do; the first aid is
 >   below.
 > - **Do not stop or cut medicines on your own** to make them last. Ask the prescriber now what
->   to do if supply runs short, and write the answer in part 6.
+>   to do if supply runs short, and write the answer in part 6. When there is no prescriber,
+>   part 6 prints the published guidance for each common tablet.
 > - **This page never calculates, adjusts or suggests a dose.**
 
 ## Do this now
@@ -167,6 +170,32 @@ Cholera Q&A; safety notes on → 12-05) treats dehydration; count its sugar.
 - Does any of their medicine cause lows? What to do about it when food is short:
   ______________________________________________________________________________________
 - Should they keep glucagon, and ketone strips? ______________________________________
+
+**When there is no prescriber**, the published guidance is this:
+- **The general rule:** CDC says keep taking diabetes medicine as usual, check sugar every 4
+  hours, drink, and try to eat (above).
+- **Metformin:** its patient information says, as published: "Stop taking metformin
+  hydrochloride tablets and call your healthcare provider right away if you get any of the
+  following symptoms of lactic acidosis": very weak and tired, unusual muscle pain, trouble
+  breathing, unusual sleepiness, unexplained stomach or bowel problems with nausea and vomiting
+  or diarrhoea, feeling cold in the arms and legs, dizziness, a slow or irregular heartbeat. It
+  names getting dehydrated, "if you are sick with a fever, vomiting, or diarrhea", as raising
+  the chance (metformin hydrochloride tablets, patient information). With those symptoms and no
+  provider to call: stop the metformin and move toward care.
+- **"Gliflozin" tablets** (SGLT2 inhibitors such as empagliflozin, dapagliflozin,
+  canagliflozin): the Jardiance label says to "instruct patients to discontinue JARDIANCE and
+  seek medical attention immediately" if signs of ketoacidosis occur, and its Medication Guide
+  lists them: nausea, vomiting, stomach-area pain, tiredness, trouble breathing, ketones in the
+  urine or blood, which can happen "even if your blood sugar is less than 250 mg/dL". The same
+  guide says to call the provider right away when the person is eating or drinking less because
+  they are sick, or losing fluid from vomiting, diarrhoea or the sun. With those signs and no
+  provider: stop the gliflozin, keep up fluids, check ketones if strips are held, and move
+  toward care. Other gliflozins: read the Medication Guide in their box.
+- **Tablets that can cause lows** (sulfonylureas such as glipizide, glyburide, glimepiride):
+  no source we read tells a patient how to change the dose when food is short. Check sugar more
+  often, keep fast sugar on the person, and treat every low ("Do this now").
+- **Anything else:** the leaflet in the box. Where it says "ask your doctor" and there is none,
+  keep taking the medicine as usual (CDC) and watch for the emergency signs in part 5.
 
 ## 7. What to stock, and how much
 

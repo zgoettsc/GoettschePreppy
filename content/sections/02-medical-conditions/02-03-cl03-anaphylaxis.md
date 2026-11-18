@@ -2,8 +2,8 @@
 id: 02-03-cl03-anaphylaxis
 section: 02-medical-conditions
 title: "CL-03. Anaphylaxis (severe allergic reaction, any cause)"
-version: 2
-revised: 2026-11-16
+version: 3
+revised: 2026-11-18
 layer: condition
 danger_level: critical
 phase: [A, B, C]
@@ -20,6 +20,7 @@ sources:
   - american-college-of-allergy-asthma-and-immunology-fr-d6c10d
   - us-fda-fda-drug-safety-communication-diphenhydramine-bab442
   - dailymed-benadryl-diphenhydramine-drug-facts
+  - dailymed-adrenalin-label-k1
 related:
   - 02-04-cl04-food-allergy
   - 02-07-cl07-asthma
@@ -51,7 +52,7 @@ condition: CL-03
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Second dose re-cited to AAP (5 min); position per AAP plan; AAP bands printed verbatim; neffy freeze wording per label; ACAAI freeze study caveat; diphenhydramine re-cited to Drug Facts; meds_for tables." }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Second dose re-cited to AAP (5 min); position per AAP plan; AAP bands printed verbatim; neffy freeze wording per label; ACAAI freeze study caveat; diphenhydramine re-cited to Drug Facts; meds_for tables. K1 (G34): 'When there is no prescriber' added: device band from the label in hand; more than two doses (auto-injector labels vs Adrenalin vial label, printed side by side, vial label followed when no help exists); Adrenalin vial dosing printed as published (label read 2026-11-18)." }
 ---
 
 # CL-03. Anaphylaxis (severe allergic reaction, any cause)
@@ -176,7 +177,7 @@ Recognizing and Responding to Anaphylaxis; AAAAI, Anaphylaxis Emergency Action P
 reacting before any rash. If the person stops breathing, start CPR (→ 12-18).
 
 **Antihistamines** may be given for itching and hives **after** epinephrine, by the prescriber's
-plan. The diphenhydramine (Benadryl) Drug Facts label says do not use it "to make a child
+plan, or with no prescriber by the product's own label. The diphenhydramine (Benadryl) Drug Facts label says do not use it "to make a child
 sleepy" and sets a lowest age for each product; follow the label of the product you hold
 (DailyMed, Benadryl Drug Facts label). FDA warns that more than the label dose can cause serious
 heart problems, seizures, coma or death (FDA, Drug Safety Communication on diphenhydramine).
@@ -210,7 +211,8 @@ on the action plan; this table is so you understand the plan and know when to as
 \*AAP, as published: "Use 0.15 mg, if 0.10 mg is not available." The EpiPen label adds that
 other forms of injectable epinephrine should be considered if doses lower than 0.15 mg are
 needed. **The AAP plan and the EpiPen label move to the larger device at different weights
-(25 kg and 30 kg).** The prescriber decides, and writes it on the plan.
+(25 kg and 30 kg).** The prescriber decides, and writes it on the plan. **With no prescriber**,
+use the band printed on the label of the device you actually hold.
 
 Weights on file (re-weigh children every few months; the band can change). To compare a weight
 in pounds with a band in kilograms, divide the pounds by 2.2:
@@ -234,6 +236,31 @@ direct medical supervision (FDA, EpiPen label; FDA, neffy label).
 - Antihistamine for each person, product and amount, for itching and hives after epinephrine:
   ______________________________________________________________________________________
 Prescriber: ____________________ Date: __________
+
+**When there is no prescriber**, the published guidance is this, as published:
+- **Which device and dose:** the weight band on the label of the device in hand (table above).
+  The AAP plan: "Use 0.15 mg, if 0.10 mg is not available." No source we read covers giving a
+  device from a heavier band than the person's weight; the binder does not choose that for you.
+- **More than two doses.** The auto-injector and nasal-spray labels say more than two doses in a
+  row should be given only under direct medical supervision (FDA, EpiPen label; FDA, neffy
+  label). The epinephrine vial label, written for clinicians, says for anaphylaxis "The
+  injection may be repeated every 5 to 10 minutes as necessary", watching "for reaction severity
+  and cardiac effects" (Adrenalin prescribing information, Par). **They differ.** When two
+  doses have not worked and no help exists, the vial label is the only published instruction
+  that covers more doses; a household that holds more epinephrine follows its 5-to-10-minute
+  interval, gives each dose in a new spot on the outer thigh (the label says not at the same
+  site), and watches for chest pain and an irregular heartbeat.
+- **Vials and syringes,** as printed on the Adrenalin (epinephrine 1 mg/mL) label: "Adults and
+  Children 30 kg (66 lbs) or more: 0.3 to 0.5 mg (0.3 to 0.5 mL) of undiluted Adrenalin
+  administered intramuscularly or subcutaneously in the anterolateral aspect of the thigh, up to
+  a maximum of 0.5 mg (0.5 mL) per injection, repeated every 5 to 10 minutes as necessary."
+  "Children less than 30 kg (66 lbs): 0.01 mg/kg (0.01 mL/kg) of undiluted Adrenalin ... up to a
+  maximum of 0.3 mg (0.3 mL) per injection, repeated every 5 to 10 minutes as necessary." The
+  label also says to use a needle at least 1/2 inch long so the dose goes into the muscle. The
+  binder does not work out an amount for a person; the weight and the label's numbers are the
+  household's to read.
+- **Antihistamine after epinephrine:** the product's own Drug Facts label, for the age printed on
+  it (above). Never instead of epinephrine.
 
 {{photo action-plan-signed}}
 
