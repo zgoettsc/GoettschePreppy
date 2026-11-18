@@ -254,8 +254,9 @@ how a doctor stops the medicine, and that is the published guidance, as publishe
 - **Clonazepam** (Klonopin label, written for panic disorder): "Treatment should be discontinued
   gradually, with a decrease of 0.125 mg twice daily every 3 days, until the drug is completely
   withdrawn."
-- **Other benzodiazepines** (lorazepam, diazepam and others): FDA's 2020 boxed warning requires
-  a gradual taper; read the label in the box for its own line.
+- **Other benzodiazepines** (lorazepam, diazepam and others): the Xanax and Klonopin boxed
+  warnings say "use a gradual taper", and FDA required that boxed warning on the whole group in
+  2020 (FDA, Benzodiazepine Boxed Warning); read the label in the box for its own line.
 - **Sertraline** (Zoloft label): "Gradually reduce the dosage rather than stopping ZOLOFT
   abruptly whenever possible."
 - **Venlafaxine** (Effexor XR label): "A gradual reduction in the dose, rather than abrupt

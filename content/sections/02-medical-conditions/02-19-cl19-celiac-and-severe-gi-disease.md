@@ -2,8 +2,8 @@
 id: 02-19-cl19-celiac-and-severe-gi-disease
 section: 02-medical-conditions
 title: "CL-19. Celiac and severe gut disease"
-version: 2
-revised: 2026-11-16
+version: 3
+revised: 2026-11-18
 layer: condition
 danger_level: caution
 phase: [A, B, C]
@@ -21,6 +21,8 @@ sources:
   - cdc-yellow-book-travelers-diarrhea-oral-rehydration-a1b9d8
   - medlineplus-prednisone
   - fda-dont-be-tempted-to-use-expired-medicines
+  - dailymed-imodium-ad-liquid-drug-facts-r15
+  - dailymed-prednisone-tablets-label-k1
 related:
   - 12-11-chronic-conditions
   - 12-07-meds-stockpile
@@ -59,7 +61,7 @@ condition: CL-19
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Gluten-free 20 ppm re-cited to NIDDK; celiac symptoms per NIDDK; stoma warning signs per MedlinePlus; meds_for tables." }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Gluten-free 20 ppm re-cited to NIDDK; celiac symptoms per NIDDK; stoma warning signs per MedlinePlus; meds_for tables. K1 (G34): 'When there is no prescriber or nurse' added: loperamide Drug Facts limits, prednisone label withdrawal line (read 2026-11-18); no published plan for stretching gut medicines or ostomy supplies, said plainly." }
 ---
 
 # CL-19. Celiac and severe gut disease
@@ -183,7 +185,8 @@ and write it in part 7.
   when you have them (CDC Yellow Book, Travelers' Diarrhea).
 - **Keep eating** simple food as soon as it stays down.
 - **Diarrhoea medicines:** only as their labels say, and **not** during a colitis flare with fever
-  or blood unless the prescriber says so. Ask now and write it in part 7.
+  or blood unless the prescriber says so. Ask now and write it in part 7; with no prescriber,
+  see part 7, "When there is no prescriber or nurse".
 - **Antibiotics** for a gut infection without a prescription are a card: {{choice DC-16}}
   (→ 30-17).
 - **Infection in someone on immune-suppressing medicine** is more serious: see → 02-18.
@@ -198,6 +201,21 @@ and write it in part 7.
 - For an ostomy: how long each bag and wafer can be worn, how to empty and rinse to make them
   last, and what to do if supplies run out: ______________________________________________
 Prescriber or nurse: ____________________ Date: __________
+
+**When there is no prescriber or nurse.** The published guidance is the labels:
+- **Diarrhoea medicine:** the loperamide Drug Facts label says do not use it with bloody or
+  black stool, and to ask a doctor first with a fever (Imodium A-D, Drug Facts label; → 12-07).
+  With nobody to ask, the binder's rule follows the label: **no loperamide with blood in the
+  stool or a fever.** ORS and food instead (above), and treat the warning signs in part 5 as
+  the signal to move toward care.
+- **Steroid tablets running out:** the prednisone label says that after long-term use "it is
+  recommended that it be withdrawn gradually rather than abruptly" (prednisone tablets label);
+  the adrenal-crisis signs and the no-prescriber rule are on → 02-20.
+- **Other gut medicines:** no source we read gives a household a plan for stretching or
+  replacing them; take them as labelled while they last and watch for a flare.
+- **Ostomy supplies:** no source we read covers making a bag last longer than its maker's
+  instructions or improvising one. Watch the skin around the stoma and the warning signs in
+  part 5.
 
 **Stock arithmetic.** Days on hand = on hand ÷ used per day. The medicines tagged for this
 condition in settings are printed; if none are tagged, every household medicine row is, so use

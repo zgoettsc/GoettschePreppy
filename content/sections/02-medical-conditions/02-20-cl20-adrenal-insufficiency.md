@@ -2,8 +2,8 @@
 id: 02-20-cl20-adrenal-insufficiency
 section: 02-medical-conditions
 title: "CL-20. Adrenal insufficiency"
-version: 2
-revised: 2026-11-16
+version: 3
+revised: 2026-11-18
 layer: condition
 danger_level: critical
 phase: [A, B, C]
@@ -19,6 +19,8 @@ sources:
   - world-health-organization-cholera-outbreaks-q-and-a-162558
   - us-fda-best-way-to-get-rid-of-used-needles-and-other-a67780
   - fda-dont-be-tempted-to-use-expired-medicines
+  - dailymed-solu-cortef-label-k1
+  - dailymed-prednisone-tablets-label-k1
 related:
   - 12-11-chronic-conditions
   - 12-07-meds-stockpile
@@ -50,7 +52,7 @@ condition: CL-20
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Adrenal crisis signs per NIDDK, Endocrine Society and MedlinePlus; unsourced timings and legs-raised removed; meds_for tables." }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Adrenal crisis signs per NIDDK, Endocrine Society and MedlinePlus; unsourced timings and legs-raised removed; meds_for tables. K1 (G34): 'When there is no prescriber' added: Endocrine Society and NIDDK lines printed as published, Solu-Cortef Act-O-Vial directions and prednisone withdrawal line (labels read 2026-11-18); no published household stress-dose amount exists in what could be read, said plainly; binder rules for crisis, vomiting, fever and running short." }
 ---
 
 # CL-20. Adrenal insufficiency
@@ -73,8 +75,9 @@ explains why it matters, and covers the emergency injection.
 >   Acute Adrenal Crisis).
 > - **Never stop the daily steroid suddenly**, and never skip it to make it last (MedlinePlus,
 >   Prednisone).
-> - **Extra doses for illness ("stress dosing") follow the prescriber's written plan only.** This
->   binder never calculates, adjusts or suggests a dose.
+> - **Extra doses for illness ("stress dosing") follow the prescriber's written plan.** This
+>   binder never calculates, adjusts or suggests a dose. When there is no prescriber and no
+>   plan, part 7 says plainly what the published sources do and do not give.
 > - **Children do not have access to firearms, fuel, medications or chlorine products.** (floor,
 >   → 30-01).
 
@@ -86,7 +89,8 @@ vomiting and diarrhoea; weakness; confusion; loss of consciousness (NIDDK, Adren
 (Endocrine Society, Adrenal Insufficiency); MedlinePlus adds dizziness, high fever, a fast
 heartbeat and low blood sugar (MedlinePlus, Acute Adrenal Crisis).
 
-1. **Give the emergency steroid injection** from the kit, as the prescriber showed you (part 7).
+1. **Give the emergency steroid injection** from the kit, as the prescriber showed you (part 7),
+   or with no plan, as the kit's own label and directions say (part 7).
    The Endocrine Society says a person in adrenal crisis needs a steroid injection right away,
    then the hospital (Endocrine Society, Adrenal Insufficiency). Do not wait to see if it passes.
    **If the person is vomiting, tablets will not stay down.**
@@ -169,7 +173,7 @@ written in part 7, not here.
 - **Fluids and salt:** oral rehydration solution (the WHO home recipe: 1 litre safe water, 6
   level teaspoons sugar, half a level teaspoon salt; WHO, Cholera Q&A; safety notes on → 12-05).
 - **Heat and heavy sweating** lose salt; ask the prescriber how this person should replace it
-  (→ 17-04).
+  (→ 17-04). With no prescriber: oral rehydration solution, above, replaces water and salt.
 
 ## 7. What to stock, and how much
 
@@ -201,6 +205,42 @@ differs from person to person, and the prescriber is the only one who can write 
 - Salt and fluid advice for heat and heavy work: _________________________________________
 - For long-term steroid users: the step-down plan if supply runs out: ___________________
 Prescriber: ____________________ Date: __________
+
+**When there is no prescriber and the box above is blank.** What the published sources give,
+as published:
+- **Endocrine Society** (Adrenal Insufficiency, patient page): "People in adrenal crisis need an
+  injection (shot) of glucocorticoids (medicines that replace cortisol) right away. Then they
+  need to go to the hospital immediately for more treatment."
+- **NIDDK** (Treatment for Adrenal Insufficiency): "You will need to increase your dose if you
+  have a high fever." "You will need immediate medical attention if you have a severe infection
+  or diarrhea, or are vomiting and can't keep your corticosteroid pills down."
+- **The injection's label** (Solu-Cortef, hydrocortisone sodium succinate, the most common
+  emergency kit): the Act-O-Vial directions, as published: "Press down on plastic activator to
+  force diluent into the lower compartment. Gently agitate to effect solution. Remove plastic tab
+  covering center of stopper. Sterilize top of stopper with a suitable germicide. Insert needle
+  squarely through center of stopper until tip is just visible. Invert vial and withdraw dose."
+  The label allows injection into a muscle. It gives no household dose for adrenal crisis: the
+  amount is the one on the pharmacy label of the kit you were given.
+- **Long-term steroid tablets running out:** the prednisone label says that after long-term use
+  "it is recommended that it be withdrawn gradually rather than abruptly" (prednisone tablets
+  label).
+
+**What the sources do not give:** a published amount of extra tablets for fever or injury that a
+household could follow. The specialist guideline that sets those amounts is written for
+clinicians and could not be read for this binder, so it is not printed. The binder will not
+invent one.
+
+**What this binder recommends when no clinician exists:**
+1. **Crisis signs ("Do this now"): give the injection now, from the kit, in the amount on its
+   pharmacy label.** The published line is "right away"; do not wait to be sure.
+2. **Vomiting and the tablets will not stay down:** NIDDK calls this an emergency. Treat it as a
+   crisis: the injection, then any care that exists.
+3. **Fever or injury without crisis signs:** NIDDK says the dose must go up with a high fever,
+   but no source we read gives the amount. Keep the usual tablets going without a gap, never
+   fewer, and watch hour by hour for the crisis signs; if they appear, step 1.
+4. **Supply running short:** never skip the daily tablets to save them; a gap is how a crisis
+   starts. If they will certainly run out, the prednisone label's rule is a gradual reduction,
+   not a sudden stop.
 
 **Practise the injection now** with the prescriber or nurse, on a trainer if they have one. Every
 adult in the house should have done it once.

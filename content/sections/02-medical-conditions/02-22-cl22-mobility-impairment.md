@@ -2,8 +2,8 @@
 id: 02-22-cl22-mobility-impairment
 section: 02-medical-conditions
 title: "CL-22. Mobility impairment"
-version: 2
-revised: 2026-11-16
+version: 3
+revised: 2026-11-18
 layer: condition
 danger_level: caution
 phase: [A, B, C]
@@ -19,6 +19,7 @@ sources:
   - medlineplus-autonomic-dysreflexia-r11
   - cdc-about-sepsis-a8304b
   - fda-dont-be-tempted-to-use-expired-medicines
+  - dailymed-baclofen-tablets-label-k1
 related:
   - 12-11-chronic-conditions
   - 12-07-meds-stockpile
@@ -59,7 +60,7 @@ condition: CL-22
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Pressure-injury intervals corrected to MedlinePlus (1-2 h, 15-20 min); autonomic dysreflexia per MedlinePlus; Li-ion per USFA; meds_for tables." }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Pressure-injury intervals corrected to MedlinePlus (1-2 h, 15-20 min); autonomic dysreflexia per MedlinePlus; Li-ion per USFA; meds_for tables. K1 (G34): 'When there is no prescriber or clinic' added: baclofen label withdrawal line printed as published (read 2026-11-18) with the binder's spread-the-reduction rule; MedlinePlus dysreflexia steps named as the plan; no published catheter reuse method, said plainly." }
 ---
 
 # CL-22. Mobility impairment
@@ -175,7 +176,8 @@ not notice cold feet. Layers, blankets, checks of hands and feet (→ 08-01).
   slow or fast pulse; sometimes no symptoms at all. MedlinePlus says it is life-threatening: sit
   up with the head raised, remove tight clothing, then find the trigger, such as a blocked
   catheter, constipation, a sore or another irritant (MedlinePlus, Autonomic Dysreflexia). Ask
-  the spinal cord clinic now for the person's written plan.
+  the spinal cord clinic now for the person's written plan; with no clinic, these MedlinePlus
+  steps are the plan.
 - **Baclofen withdrawal:** seizures, fever, confusion, muscle stiffness, hallucinations
   (MedlinePlus, Baclofen).
 - **A fall with a possible broken bone or head strike** (→ 12-09).
@@ -201,6 +203,20 @@ not notice cold feet. Layers, blankets, checks of hands and feet (→ 08-01).
 - The safest way to transfer and carry this person, and who can be trained: ______________
 - For spinal cord injury: the autonomic dysreflexia plan: ________________________________
 Prescriber or clinic: ____________________ Date: __________
+
+**When there is no prescriber or clinic.**
+- **Baclofen tablets running out:** the baclofen label says "Hallucinations and seizures have
+  occurred on abrupt withdrawal of baclofen. Therefore, except for serious adverse reactions,
+  the dose should be reduced slowly when the drug is discontinued" (baclofen tablets label). It
+  gives no schedule. The binder's rule: if the supply will certainly run out, spread the
+  reduction out so it ends when the supply does, rather than stopping at full dose. The binder
+  does not work out the steps for a person. A baclofen pump that cannot be refilled has no
+  household answer; move toward care before the refill date.
+- **Autonomic dysreflexia:** MedlinePlus's first aid in part 5 is the published plan: sit up with
+  the head raised, remove tight clothing, find and remove the trigger (catheter, bowel, skin).
+- **Catheters:** no source we read gives a household a way to clean and reuse single-use
+  catheters; use each as its maker says while they last.
+- **Any other medicine:** the label or leaflet in the box.
 
 **Stock arithmetic.** Days on hand = on hand ÷ used per day. The medicines tagged for this
 condition in settings are printed; if none are tagged, every household medicine row is, so use

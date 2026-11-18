@@ -2,8 +2,8 @@
 id: 02-21-cl21-dementia-and-elderly-care
 section: 02-medical-conditions
 title: "CL-21. Dementia and elderly care"
-version: 2
-revised: 2026-11-16
+version: 3
+revised: 2026-11-18
 layer: condition
 danger_level: critical
 phase: [A, B, C]
@@ -62,7 +62,7 @@ condition: CL-21
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "NIA 68 F and 60-65 F, wandering tips, hypothermia signs; STEADI checklist; delirium causes per MedlinePlus; Ready.gov claim corrected; meds_for tables." }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "NIA 68 F and 60-65 F, wandering tips, hypothermia signs; STEADI checklist; delirium causes per MedlinePlus; Ready.gov claim corrected; meds_for tables. K1 (G34): 'When there is no prescriber' added: no published guidance on which medicines to stop, said plainly; Drug Facts lines as the OTC answer." }
 ---
 
 # CL-21. Dementia and elderly care
@@ -212,6 +212,15 @@ or swallowing is hard; sit them upright to eat (→ 12-18 for choking).
 - What to do about agitation or sleeplessness if it gets severe: _______________________
 - Safe over-the-counter medicines for pain, sleep and colds: _____________________________
 Prescriber: ____________________ Date: __________
+
+**When there is no prescriber.** No source we read tells a household which of an older
+person's medicines can be stopped safely, so the binder does not choose: keep giving each one
+as labelled while it lasts, and use the condition page for each medicine group (for example
+→ 02-09, → 02-10, → 02-16) for what its label says about stopping. For over-the-counter
+products, read the Drug Facts label and leave out any whose "Ask a doctor before use" or "When
+using this product" lines name drowsiness, confusion or the person's conditions (→ 29-14);
+with nobody to ask, those lines are the answer. Severe agitation: first look for a physical cause (part 5), then
+"Routine and calm" in part 4 and → 12-15, not a sleep aid.
 
 **Stock arithmetic.** Days on hand = on hand ÷ used per day. The medicines tagged for this
 condition in settings are printed; if none are tagged, every household medicine row is, so use

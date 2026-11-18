@@ -2,8 +2,8 @@
 id: 02-17-cl17-opioid-dependence-and-chronic-pain
 section: 02-medical-conditions
 title: "CL-17. Opioid dependence and chronic pain"
-version: 2
-revised: 2026-11-16
+version: 3
+revised: 2026-11-18
 layer: condition
 danger_level: critical
 phase: [A, B, C]
@@ -23,6 +23,7 @@ sources:
   - world-health-organization-cholera-outbreaks-q-and-a-162558
   - 988-suicide-and-crisis-lifeline-samhsa-988-suicide-a-5f45b0
   - fda-dont-be-tempted-to-use-expired-medicines
+  - dailymed-roxicodone-label-k1
 related:
   - 12-13-pain-and-fever
   - 12-15-mental-health-crisis
@@ -57,7 +58,7 @@ condition: CL-17
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "SAMHSA TIP 63 Exhibit 2.10 timeline printed as published (L2 table was wrong); naloxone steps per OTC Drug Facts and CDC; FDA/DEA dead links replaced; meds_for tables." }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "SAMHSA TIP 63 Exhibit 2.10 timeline printed as published (L2 table was wrong); naloxone steps per OTC Drug Facts and CDC; FDA/DEA dead links replaced; meds_for tables. K1 (G34): 'When there is no prescriber or clinic' added: Roxicodone label safe-reduction section printed as published (read 2026-11-18) with the binder's start-early rule; no published household plan for methadone or buprenorphine, said plainly." }
 ---
 
 # CL-17. Opioid dependence and chronic pain
@@ -81,8 +82,9 @@ without judgement: dependence is a medical state.
 > - **Children do not have access to firearms, fuel, medications or chlorine products.**
 >   MedlinePlus warns that an opioid such as oxycodone may harm or kill other people who take
 >   it, especially children (MedlinePlus, Oxycodone) (floor, → 30-01).
-> - **Do not stop prescribed opioids suddenly, and do not invent a taper.** The plan comes from
->   the prescriber (part 7).
+> - **Do not stop prescribed opioids suddenly.** The plan comes from the prescriber while one
+>   exists (part 7). When there is no prescriber, part 7 prints the label's own tapering
+>   instruction as published; the binder never works out the steps for a person.
 > - **This page never calculates, adjusts or suggests a dose.**
 
 ## Do this now: possible opioid overdose
@@ -234,6 +236,27 @@ sudden stop and guessing, and both are dangerous. **Only the prescriber can writ
   ______________________________________________________________________________________
 - What should we do for a flare of pain if no prescribed medicine is left? ______________
 Prescriber or clinic: ____________________ Date: __________
+
+**When there is no prescriber or clinic.** The published guidance is the opioid label's own
+section on safe reduction, as published (Roxicodone, oxycodone tablets, prescribing
+information): "Do not rapidly reduce or abruptly discontinue ROXICODONE in patients who may be
+physically dependent on opioids." "There are no standard opioid tapering schedules that are
+suitable for all patients." "For patients on ROXICODONE who are physically opioid-dependent,
+initiate the taper by a small enough increment (e.g., no greater than 10% to 25% of the total
+daily dose) to avoid withdrawal symptoms, and proceed with dose-lowering at an interval of every
+2 to 4 weeks." "If withdrawal symptoms arise, it may be necessary to pause the taper for a period
+of time or raise the dose of the opioid analgesic to the previous dose, and then proceed with a
+slower taper." Other opioid pain medicines have their own label section on reducing the dose;
+read the one in the box.
+
+**What this binder recommends when no clinician exists:** if the supply will certainly run out,
+start the label's taper early enough that it ends when the supply does, rather than taking full
+doses to the last day. The binder does not work out the steps for a person. Watch for the
+withdrawal signs in part 4 and for low mood and suicidal thoughts (→ 12-15), keep naloxone in
+reach throughout (a dose that was safe can become an overdose after a gap), and use the
+non-drug pain methods on this page ("Pain without opioids") and → 12-13. **Methadone and buprenorphine:** no source we read
+gives a household a taper or a restart plan; take them only as dispensed, and treat withdrawal
+as part 4 describes.
 
 **Stock arithmetic.** Days on hand = on hand ÷ used per day. The medicines tagged for this
 condition in settings are printed; if none are tagged, every household medicine row is, so use
