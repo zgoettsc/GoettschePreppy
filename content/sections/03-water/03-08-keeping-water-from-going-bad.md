@@ -2,14 +2,14 @@
 id: 03-08-keeping-water-from-going-bad
 section: 03-water
 title: "Keeping stored and pool water from going bad (algae, bacteria, mosquitoes)"
-version: 2
-revised: 2026-11-16
+version: 3
+revised: 2026-11-18
 layer: core
 danger_level: critical
 phase: [A, B, C]
 tags: [water, pool, algae, mosquitoes, Bti, chlorine, larvicide, pool cover, stored water]
 derived_from: [03-08-keeping-water-from-going-bad]
-sources: [cdc-how-to-create-and-store-an-emergency-water-suppl-f0c412, cdc-how-to-make-water-safe-in-an-emergency-5d78b5, cdc-larvicides-for-mosquito-control-bti-methoprene-o-3374e9, us-epa-bti-for-mosquito-control-1027be, cdc-guidelines-for-keeping-your-pool-safe-and-healthy, cdc-atsdr-medical-management-guidelines-for-calcium-d7733b, us-epa-emergency-disinfection-of-drinking-water-6aa91f, cdc-water-disinfection-for-travelers-cdc-yellow-book-df8e45]
+sources: [who-bti-in-drinking-water-2009-k3, cdc-how-to-create-and-store-an-emergency-water-suppl-f0c412, cdc-how-to-make-water-safe-in-an-emergency-5d78b5, cdc-larvicides-for-mosquito-control-bti-methoprene-o-3374e9, us-epa-bti-for-mosquito-control-1027be, cdc-guidelines-for-keeping-your-pool-safe-and-healthy, cdc-atsdr-medical-management-guidelines-for-calcium-d7733b, us-epa-emergency-disinfection-of-drinking-water-6aa91f, cdc-water-disinfection-for-travelers-cdc-yellow-book-df8e45]
 related: [03-02-storing-water, 03-03-pool-water-desalination, 03-04-purifying-water, 03-05-rain-and-snow-water, 03-06-winter-water, 06-06-fuel-storage-safety, 12-02-bleeding-and-wounds, 13-03-greywater-and-trash, 13-10-dishwashing-and-food-hygiene, 17-03-floods, 29-05-ex05-chlorine-products, 30-01-the-floors, 30-14-dc13-drinking-pool-or-surface-water]
 cards: [DC-13]
 explainers: [EX-05, EX-06]
@@ -22,7 +22,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Pool 1-4 ppm/pH 7.0-7.8 sourced to CDC; larvicides limited to non-drinking water per CDC; alum method from Yellow Book; unsourced cal-hypo %, Bti 30-day and cover 3-4 ft removed." }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Pool 1-4 ppm/pH 7.0-7.8 sourced to CDC; larvicides limited to non-drinking water per CDC; alum method from Yellow Book; unsourced cal-hypo %, Bti 30-day and cover 3-4 ft removed. K3: Bti in a pool used for distilled drinking water: facts stated (non-volatile, stays in the pot; CDC non-drinking advice, EPA no risk, WHO drinking-water background document; follow the label) and the choice left to the household with an Our rule blank." }
 ---
 
 # Keeping stored and pool water from going bad (algae, bacteria, mosquitoes)
@@ -56,8 +56,9 @@ ponds, but stored drinking water is covered too.
 3. **Kill mosquito larvae** in standing water you will **not** drink, with **Bti "mosquito
    dunks" or "bits"**. EPA has judged that Bti does not pose a risk to people. CDC says to use
    larvicides only in water that will not be used for drinking and that cannot be covered,
-   emptied or removed, and to follow the label for how much and how often. Water you may
-   drink, even after distilling, is covered and screened instead.
+   emptied or removed, and to follow the label for how much and how often. A pool you will
+   **distil** drinking water from is a household choice (Bti in it, or cover only): see "Bti in
+   a pool you distil from" below.
 4. **Empty every other container of standing water** in the yard each week: buckets, tires,
    toys, gutters, plant saucers.
 5. **Replace stored drinking water about every 6 months** (CDC). Keep it cool, dark and
@@ -138,7 +139,26 @@ it is worth it.
 - **Methoprene** (a growth regulator that stops larvae becoming adults) and **surface oils or
   films** (which smother larvae at the surface) are the other two larvicide types if Bti is not
   available (CDC, Larvicides for Mosquito Control).
-- **A tight cover** stops egg-laying, and it is the method for any water you may drink.
+- **A tight cover** stops egg-laying, and it is the method for water you will drink without
+  distilling.
+
+**Bti in a pool you distil from.** The facts:
+- Bti is a bacterium. Its spores and the protein crystals that kill larvae do not turn to
+  vapour, so when you distil, they stay behind in the pot with the salt (general chemistry;
+  → 03-03).
+- CDC says to use larvicides only in water that will not be used for drinking (CDC,
+  Larvicides). EPA has concluded Bti does not pose a risk to people (EPA, Bti for Mosquito
+  Control). WHO says Bti itself "is not considered to pose a hazard to humans through
+  drinking-water" and can be used in drinking water, provided the product is made to WHO
+  specifications (WHO, Bti in Drinking-water).
+- Product labels differ on drinking water. **Follow your product's label.**
+
+Some households keep the pool covered and use no larvicide in it; others, when the cover cannot
+keep mosquitoes out, treat it with Bti and rely on distilling. The first follows CDC's
+larvicide advice to the letter; the second accepts drinking distilled water from a treated pool,
+which EPA and WHO judge low-risk but CDC advises against.
+
+Our rule: ______________________________________________
 - **Around the yard:** get rid of all other standing water weekly, screen rain barrels
   (→ 03-05), keep gutters clear. Even small containers breed mosquitoes.
 
@@ -168,7 +188,7 @@ it is worth it.
 | Item | Why | Notes |
 |---|---|---|
 | Solid pool cover, or a heavy tarp with tie-downs | Blocks sun, debris and mosquitoes | The most useful single item here |
-| Bti mosquito dunks and bits, a season's worth or more | Kills larvae; EPA finds no risk to people | Non-drinking water only (CDC); re-apply per the label |
+| Bti mosquito dunks and bits, a season's worth or more | Kills larvae; EPA finds no risk to people | CDC: non-drinking water only; a pool you distil from is your rule above; follow the label |
 | Calcium hypochlorite (pool shock) | Compact, long-keeping chlorine | Store as on → 03-04 |
 | Pool test kit or chlorine and pH strips | Dose by measuring, not guessing | CDC's pool range: 1 to 4 ppm chlorine, pH 7.0 to 7.8 |
 | Unscented household bleach, 5 to 9 percent | Disinfecting stored or cleared water | **Dose only from the table on → 03-04** |
@@ -201,8 +221,8 @@ it is worth it.
 ## Phase notes
 
 - **A (sheltering at home):** a covered pool is a large reserve for sanitation and utility
-  water. If you will distil drinking water from it (→ 03-03), keep larvicides out of it (CDC)
-  and rely on the cover.
+  water. If you will distil drinking water from it (→ 03-03), follow your household's Bti rule
+  above.
 - **B (moving):** you leave the pool behind. What travels is the skill: larvae control and
   clearing water at any source you camp near.
 - **C (rural or at a destination):** ponds, stock tanks and rain barrels all breed mosquitoes

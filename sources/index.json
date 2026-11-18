@@ -2180,6 +2180,7 @@
    "03-08-keeping-water-from-going-bad"
   ],
   "cited_by": [
+   "03-03-pool-water-desalination",
    "03-08-keeping-water-from-going-bad"
   ]
  },
@@ -6764,6 +6765,7 @@
    "03-08-keeping-water-from-going-bad"
   ],
   "cited_by": [
+   "03-03-pool-water-desalination",
    "03-08-keeping-water-from-going-bad"
   ]
  },
@@ -12198,6 +12200,9 @@
   "url": "https://www.cdc.gov/food-safety/prevention/index.html",
   "household_cited_by": [],
   "cited_by": [
+   "04-03-bulk-staples-storage",
+   "04-06-dehydrating",
+   "04-18-meal-planning-scarcity",
    "07-02-rocket-stove"
   ],
   "added_by": "R2"
@@ -16128,5 +16133,124 @@
    "02-20-cl20-adrenal-insufficiency"
   ],
   "added_by": "K2"
+ },
+ {
+  "key": "cdc-preventing-c-perfringens-food-poisoning-k3",
+  "title": "Preventing C. perfringens Food Poisoning",
+  "org": "CDC",
+  "date": "2026-10-28",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work. Read in full by K3 on 2026-11-18 (last reviewed 2026-10-28): cooked foods held for serving kept 'heated to 140°F or hotter'; refrigerate leftovers at 40°F or colder within 2 hours (1 hour above 90°F); 'Reheat leftovers to 165°F or hotter before serving'; 'Foods cooked in large batches and held at unsafe temperatures have been linked to outbreaks'.",
+  "url": "https://www.cdc.gov/clostridium-perfringens/prevention/index.html",
+  "household_cited_by": [],
+  "cited_by": [
+   "04-18-meal-planning-scarcity",
+   "07-02-rocket-stove"
+  ],
+  "added_by": "K3"
+ },
+ {
+  "key": "fda-bad-bug-book-bacillus-cereus-k3",
+  "title": "Bad Bug Book, 2nd ed. (2012): Bacillus cereus and other Bacillus species",
+  "org": "US FDA",
+  "date": "2012",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work. Chapter read in full by K3 on 2026-11-18 from the FDA PDF: consumer box 'most often affects rice and other starchy foods'; 'Cooking may kill the bacteria, but it might not disable the toxin that causes the vomiting type of illness'; keep food refrigerated at 40°F or lower; section 2: cereulide 'stable after heating at 121°C for 30 minutes'; emetic onset 0.5 to 6 hours.",
+  "url": "https://www.fda.gov/media/83271/download",
+  "household_cited_by": [],
+  "cited_by": [
+   "04-03-bulk-staples-storage",
+   "04-18-meal-planning-scarcity",
+   "07-02-rocket-stove"
+  ],
+  "added_by": "K3"
+ },
+ {
+  "key": "uf-ifas-preventing-foodborne-illness-bacillus-cereus-k3",
+  "title": "Preventing Foodborne Illness: Bacillus cereus (FSHN15-06 / FS269)",
+  "org": "University of Florida IFAS Extension (EDIS)",
+  "date": "2026-06",
+  "licence_class": "restricted",
+  "licence_note": "UF/IFAS copyright; educational use. Read in full by K3 on 2026-11-18 (original 2015, updated November 2024 and June 2026): emetic toxin heat-stable up to 250°F (121°C); 'reheating foods until they are steaming is not enough to inactivate the emetic toxin'; 'foods cannot be made safe to eat if toxins have already been formed'; emetic illness most often linked to improperly refrigerated starch dishes such as fried rice.",
+  "url": "https://ask.ifas.ufl.edu/publication/FS269",
+  "household_cited_by": [],
+  "cited_by": [
+   "07-02-rocket-stove"
+  ],
+  "added_by": "K3"
+ },
+ {
+  "key": "cdc-about-home-water-treatment-systems-k3",
+  "title": "About Home Water Treatment Systems",
+  "org": "CDC",
+  "date": "2026-11-10",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work. Read by K3 on 2026-11-18 (last reviewed 2026-11-10): distillation removes parasites, bacteria, viruses and many chemicals (arsenic, barium, cadmium, chromium, lead, nitrate, sodium, sulfate, calcium, magnesium, many organic chemicals) but does not remove some volatile organic compounds, volatile solvents or certain pesticides; bacteria may grow on cooling coils while idle. The page does not discuss carbon filters as a separate system.",
+  "url": "https://www.cdc.gov/healthywater/drinking/home-water-treatment/household_water_treatment.html",
+  "household_cited_by": [],
+  "cited_by": [
+   "03-03-pool-water-desalination",
+   "30-14-dc13-drinking-pool-or-surface-water"
+  ],
+  "added_by": "K3"
+ },
+ {
+  "key": "epa-water-health-series-filtration-facts-k3",
+  "title": "Water Health Series: Filtration Facts",
+  "org": "US EPA",
+  "date": "2005-09",
+  "licence_class": "public-domain",
+  "licence_note": "US federal government work. Read in full by K3 on 2026-11-18: distillers leave most chemical contaminants behind, but 'Contaminants that easily turn into gases, such as gasoline components or radon, may remain in the water unless the system is specifically designed to remove them'; most water pitchers use granular activated carbon; carbon filters work by adsorption and must be replaced on schedule; ANSI/NSF standards come in a health set and an aesthetic set.",
+  "url": "https://www.epa.gov/sites/default/files/2015-11/documents/2005_11_17_faq_fs_healthseries_filtration.pdf",
+  "household_cited_by": [],
+  "cited_by": [
+   "03-03-pool-water-desalination"
+  ],
+  "added_by": "K3"
+ },
+ {
+  "key": "unl-g1493-drinking-water-treatment-distillation-k3",
+  "title": "Drinking Water Treatment: Distillation (NebGuide G1493)",
+  "org": "University of Nebraska-Lincoln Extension",
+  "date": "2013-12",
+  "licence_class": "restricted",
+  "licence_note": "Copyright Board of Regents of the University of Nebraska. Read in full by K3 on 2026-11-18: VOCs with boiling points close to or below water's vaporize with the water and 'will vaporize early in the distillation process'; for distillers without gas vents, fractional columns or AC filters, VOCs 'may be removed to some degree by discarding the first pint (1/2 liter)'; an activated carbon filter can remove VOCs from the condensed water; distillation also removes chlorine and chloramines.",
+  "url": "https://extensionpubs.unl.edu/publication/g1493/na/pdf/view",
+  "household_cited_by": [],
+  "cited_by": [
+   "03-03-pool-water-desalination",
+   "30-14-dc13-drinking-pool-or-surface-water"
+  ],
+  "added_by": "K3"
+ },
+ {
+  "key": "unl-g1489-drinking-water-treatment-activated-carbon-k3",
+  "title": "Drinking Water Treatment: Activated Carbon Filtration (NebGuide G1489)",
+  "org": "University of Nebraska-Lincoln Extension",
+  "date": "2013-11",
+  "licence_class": "restricted",
+  "licence_note": "Copyright Board of Regents of the University of Nebraska. Read in full by K3 on 2026-11-18: chlorine reacting with organic matter produces trihalomethanes (THMs); 'AC filtration can be effective in removing chlorine, chloramines, and some disinfection byproducts'; effective for certain organic compounds, tastes, odours and chlorine, not for metals, nitrate, microbes; a saturated filter stops removing contaminants, so replace on schedule; NSF and WQA certify units.",
+  "url": "https://extensionpubs.unl.edu/publication/g1489/na/pdf/view",
+  "household_cited_by": [],
+  "cited_by": [
+   "03-03-pool-water-desalination",
+   "30-14-dc13-drinking-pool-or-surface-water"
+  ],
+  "added_by": "K3"
+ },
+ {
+  "key": "who-bti-in-drinking-water-2009-k3",
+  "title": "Bacillus thuringiensis israelensis (Bti) in drinking-water: background document for development of WHO Guidelines for Drinking-water Quality (WHO/HSE/WSH/09.01/8)",
+  "org": "World Health Organization",
+  "date": "2009",
+  "licence_class": "restricted",
+  "licence_note": "WHO, all rights reserved. Read in full by K3 on 2026-11-18: 'Bti itself is not considered to pose a hazard to humans through drinking-water'; no guideline value needed for use against vector larvae in drinking-water; Bti 'can be used in drinking-water that will receive little or no further treatment' if prepared to WHO (WHOPES) specifications; product quality and purity must be assured.",
+  "url": "https://cdn.who.int/media/docs/default-source/wash-documents/wash-chemicals/bacillus-thuringiensis-background.pdf",
+  "household_cited_by": [],
+  "cited_by": [
+   "03-03-pool-water-desalination",
+   "03-08-keeping-water-from-going-bad"
+  ],
+  "added_by": "K3"
  }
 ]

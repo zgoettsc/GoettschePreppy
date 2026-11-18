@@ -2,8 +2,8 @@
 id: 04-06-dehydrating
 section: 04-food-storage-and-preservation
 title: "Drying food"
-version: 2
-revised: 2026-11-16
+version: 3
+revised: 2026-11-18
 layer: core
 danger_level: caution
 phase: [A, C]
@@ -16,6 +16,7 @@ sources:
   - csu-extension-drying-fruits-r12
   - usda-food-safety-and-inspection-service-fsis-jerky-a-c409d3
   - foodsafety-gov-usda-hhs-cook-to-a-safe-minimum-inter-13daf3
+  - cdc-preventing-food-poisoning
 related: [04-03-bulk-staples-storage, 04-04-canning-water-bath, 04-07-smoking-and-curing, 04-08-fermentation, 04-09-winter-cold-storage, 04-11-pests-and-rodents, 04-16-sprouting, 07-02-rocket-stove, 07-03-solar-cooking, 05-09-field-dressing-and-butchering, 06-04-wood-supply-and-depletion, 02-04-cl04-food-allergy]
 cards: []
 explainers: []
@@ -27,7 +28,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Drying and jerky numbers re-sourced to NCHFP Jerky/Herbs and CSU Drying Fruits (140 F, 2 weeks room temperature, 4-10 day conditioning)" }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Drying and jerky numbers re-sourced to NCHFP Jerky/Herbs and CSU Drying Fruits (140 F, 2 weeks room temperature, 4-10 day conditioning). K3: haybox line now says full boil and the CDC 140 F / 2-hour limit; overnight choice pointed to 07-02" }
 ---
 
 # Drying food
@@ -122,8 +123,10 @@ Safety). The steps, with the numbers (NCHFP, Jerky; FoodSafety.gov for poultry):
 ## Rehydrating and using
 
 - Soak in water, or add straight to soups and stews, where they soak up liquid as they cook.
-- **Dried food plus a haybox** (an insulated box, → 07-02) is a very fuel-efficient meal: boil
-  briefly, insulate, and let it soften for hours with no more fuel.
+- **Dried food plus a haybox** (an insulated box, → 07-02) is a very fuel-efficient meal: bring
+  it to a full boil, put the lid on, insulate, and let it soften for hours with no more fuel.
+  Once the box drops below 140 °F, CDC's 2-hour limit applies; overnight holding is a household
+  choice with real food-poisoning risk (→ 07-02).
 - Grind dried vegetables to a powder for instant soup base and hidden nutrition for children.
 
 ## Gear and supplies

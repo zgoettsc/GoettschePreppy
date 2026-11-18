@@ -2,8 +2,8 @@
 id: 04-03-bulk-staples-storage
 section: 04-food-storage-and-preservation
 title: "Long-term bulk staples: grains, beans, sugar and salt"
-version: 2
-revised: 2026-11-16
+version: 3
+revised: 2026-11-18
 layer: core
 danger_level: caution
 phase: [A, C]
@@ -16,6 +16,8 @@ sources:
   - usu-extension-food-storage-will-i-use-it-r12
   - us-fda-bad-bug-book-2nd-ed-phytohaemagglutinin-kidne-bb3b21
   - us-fda-food-allergies-627fb6
+  - cdc-preventing-food-poisoning
+  - fda-bad-bug-book-bacillus-cereus-k3
 related: [04-01-calorie-and-stockpile-math, 04-02-building-a-pantry, 04-11-pests-and-rodents, 04-12-fats-and-oils, 04-13-salt-sugar-vinegar, 04-14-powdered-and-canned-dairy, 04-16-sprouting, 07-02-rocket-stove, 16-01-essential-hand-tools, 02-04-cl04-food-allergy, 29-14-ex14-reading-a-label]
 cards: []
 explainers: [EX-14]
@@ -28,7 +30,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Unsourced decade figures and oxygen-absorber sizes/times removed (USU: 10 percent moisture, 25 vs 5 years wheat); kidney-bean steps to FDA Bad Bug Book as published (5 h soak, 30 min boil)" }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Unsourced decade figures and oxygen-absorber sizes/times removed (USU: 10 percent moisture, 25 vs 5 years wheat); kidney-bean steps to FDA Bad Bug Book as published (5 h soak, 30 min boil). K3: haybox line now says what a haybox is and the CDC danger-zone risk (heat-proof toxins, FDA); same-day vs overnight choice pointed to 07-02" }
 ---
 
 # Long-term bulk staples: grains, beans, sugar and salt
@@ -131,7 +133,11 @@ Repackaging throws away the label. If anyone in the house has a food allergy (�
 
 - **A grain grinder** turns wheat into flour; a hand-cranked one works with no power (→ 16-01).
 - **Beans need long cooking.** Pair them with an insulated "haybox" cooker (→ 07-02) to cut
-  fuel.
+  fuel: boil the pot hard, then nest it in insulation so it keeps cooking on its own heat. As the
+  box cools, food drops below 140 °F into the range where germs multiply; CDC says food is not
+  left there more than 2 hours, and reheating does not undo it, because some germs leave
+  heat-proof toxins (FDA). Same-day use, or overnight in desperate times, is the household's
+  choice on → 07-02.
 - **The kidney-bean rule.** For kidney beans and other dry beans of the same family (red,
   white, pinto, black): **soak at least 5 hours, THROW AWAY the soak water, then boil in fresh
   water for at least 30 minutes BEFORE any haybox or slow finish** (FDA, Bad Bug Book). Raw or

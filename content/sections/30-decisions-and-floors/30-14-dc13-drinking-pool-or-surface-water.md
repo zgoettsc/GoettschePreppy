@@ -2,8 +2,8 @@
 id: 30-14-dc13-drinking-pool-or-surface-water
 section: 30-decisions-and-floors
 title: "DC-13. Drinking water from a pool, hot tub or untreated surface source"
-version: 2
-revised: 2026-11-16
+version: 3
+revised: 2026-11-18
 layer: card
 danger_level: critical
 phase: [A, B, C]
@@ -16,6 +16,9 @@ sources:
   - cdc-water-disinfection-for-travelers-cdc-yellow-book-df8e45
   - awwa-water-technology-distillation-ensures-safe-drin-7ba482
   - cdc-yellow-book-travelers-diarrhea-oral-rehydration-a1b9d8
+  - cdc-about-home-water-treatment-systems-k3
+  - unl-g1493-drinking-water-treatment-distillation-k3
+  - unl-g1489-drinking-water-treatment-activated-carbon-k3
 related: [03-03-pool-water-desalination, 03-04-purifying-water, 03-05-rain-and-snow-water, 03-07-testing-water, 03-09-filter-care-and-maintenance, 12-05-common-illness-and-dehydration, 29-05-ex05-chlorine-products, 29-06-ex06-water-words, 30-24-dc23-extra-strength-chlorination, 30-01-the-floors]
 cards: [DC-13, DC-23]
 explainers: [EX-05, EX-06]
@@ -32,7 +35,7 @@ options:
     label: "Surface water through the treatment ladder"
     summary: "Streams, ponds and lakes away from obvious fuel, chemical or farm runoff are drunk after the full ladder: settle, filter, then boil or disinfect by the published method. Fresh pools as in the option above; salt pools and hot tubs are still distilled."
 settings_summary: "A swimming pool or a nearby stream can look like a large water supply. Germs in water (bacteria, viruses, parasites) are killed by boiling, and most by chlorine used as CDC and EPA describe. Chemicals are not. Pool water holds chlorine, stabilizer, often algaecide, and in a salt pool, salt that no boiling or filter removes. Hot tubs hold bromine and body oils. Streams and ponds can carry fuel, farm or industrial runoff. CDC says water containing fuel or toxic chemicals cannot be made safe by boiling or disinfecting. FEMA and the Red Cross say not to drink from pools or spas. Distillation (boil and catch the steam) removes salt and most chemicals, but it is slow and uses fuel. What helps most: pool and hot-tub water for flushing and washing, stored water for drinking (removes most of it); distil what you drink from them (reduces it a lot)."
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Boil line now EPA 5,000 ft with CDC 6,500 ft named; pool/spa and distillation re-cited to FEMA 477 (CDC hygiene page does not say it); option 3 pools made explicit." }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Boil line now EPA 5,000 ft with CDC 6,500 ft named; pool/spa and distillation re-cited to FEMA 477 (CDC hygiene page does not say it); option 3 pools made explicit. K3: distil bullet points to the three pool steps on 03-03 (chlorine fade, discard first tenth, carbon filter; CDC, UNL); carbon-filter line made specific (chlorine, chloramines, THMs; UNL G1489)." }
 ---
 
 # DC-13. Drinking water from a pool, hot tub or untreated surface source
@@ -96,8 +99,11 @@ methods above; its chemicals depend on what lies upstream, which you usually can
 - **Use pool and hot-tub water for flushing, washing and cleaning**, and keep stored, rain or snow
   water for drinking (→ 03-05). This alone can stretch drinking water a long way.
 - **Distil** pool, hot-tub or suspect surface water before drinking (→ 03-03). Distilling removes
-  salt and most chemicals, but not those that boil off with the steam, so water with a fuel smell
-  or sheen is not used at all.
+  salt and most chemicals, but not those that boil off with the steam (CDC, About Home Water
+  Treatment Systems), so water with a fuel smell or sheen is not used at all. For a chlorinated
+  or salt pool, add the three pool steps on → 03-03: let the chlorine fade first, throw away
+  the first tenth of each batch (volatile chemicals come over first; UNL Extension), and run the
+  distilled water through an activated-carbon filter.
 
 **Reduces it a lot**
 - **Choose the cleanest source**: rain and snow first; flowing water upstream of roads, farms and
@@ -112,7 +118,9 @@ methods above; its chemicals depend on what lies upstream, which you usually can
   products.
 
 **Reduces it a little**
-- Activated carbon filters reduce some chemicals and taste.
+- Activated carbon filters remove chlorine, chloramines and some disinfection byproducts such as
+  trihalomethanes, and improve taste (UNL Extension, Activated Carbon Filtration). Filters with
+  no carbon in them do not.
 - Test strips for chlorine and pH, if you have them (→ 03-07).
 
 ## 5. The options

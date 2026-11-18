@@ -2,15 +2,15 @@
 id: 03-03-pool-water-desalination
 section: 03-water
 title: "Pool and hot tub water: utility water, and distilling it to drink"
-version: 2
-revised: 2026-11-16
+version: 3
+revised: 2026-11-18
 layer: gear
 danger_level: critical
 phase: [A, C]
-tags: [water, pool, saltwater pool, hot tub, distillation, still, desalination]
+tags: [water, pool, saltwater pool, hot tub, distillation, still, desalination, activated carbon, trihalomethanes, Bti]
 derived_from: [03-03-pool-water-desalination]
-sources: [cdc-how-to-make-water-safe-in-an-emergency-5d78b5, us-epa-emergency-disinfection-of-drinking-water-6aa91f, awwa-water-technology-distillation-ensures-safe-drin-7ba482, fema-477-food-and-water-in-an-emergency, fema-ready-gov-water]
-related: [03-01-daily-water-needs, 03-04-purifying-water, 03-05-rain-and-snow-water, 03-08-keeping-water-from-going-bad, 06-04-wood-supply-and-depletion, 09-02-solar-basics, 23-02-master-consumables-table, 29-05-ex05-chlorine-products, 29-06-ex06-water-words, 30-01-the-floors, 30-14-dc13-drinking-pool-or-surface-water]
+sources: [cdc-how-to-make-water-safe-in-an-emergency-5d78b5, us-epa-emergency-disinfection-of-drinking-water-6aa91f, awwa-water-technology-distillation-ensures-safe-drin-7ba482, fema-477-food-and-water-in-an-emergency, fema-ready-gov-water, cdc-about-home-water-treatment-systems-k3, epa-water-health-series-filtration-facts-k3, unl-g1493-drinking-water-treatment-distillation-k3, unl-g1489-drinking-water-treatment-activated-carbon-k3, cdc-larvicides-for-mosquito-control-bti-methoprene-o-3374e9, us-epa-bti-for-mosquito-control-1027be, who-bti-in-drinking-water-2009-k3]
+related: [03-01-daily-water-needs, 03-04-purifying-water, 03-07-testing-water, 03-05-rain-and-snow-water, 03-08-keeping-water-from-going-bad, 06-04-wood-supply-and-depletion, 09-02-solar-basics, 23-02-master-consumables-table, 29-05-ex05-chlorine-products, 29-06-ex06-water-words, 30-01-the-floors, 30-14-dc13-drinking-pool-or-surface-water]
 cards: [DC-13]
 explainers: [EX-05, EX-06]
 promote_when: [has.pool, has.hot_tub]
@@ -22,7 +22,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Distillation method re-sourced to FEMA 477 (not on current CDC page); hot tub aligned with DC-13 (always distil); unsourced yield/wood/Wh estimates replaced by measure-your-own method." }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Distillation method re-sourced to FEMA 477 (not on current CDC page); hot tub aligned with DC-13 (always distil); unsourced yield/wood/Wh estimates replaced by measure-your-own method. K3: three pool steps for chlorinated/salt pools (let chlorine fade, discard first tenth, activated-carbon filter) sourced to CDC home water treatment, EPA Filtration Facts, UNL G1493/G1489; unsourced parts labelled general chemistry; Bti facts (stays in pot; CDC/EPA/WHO; follow label) with choice left to the household on 03-08." }
 ---
 
 # Pool and hot tub water: utility water, and distilling it to drink
@@ -38,7 +38,8 @@ and how to distil it (boil it and collect the steam) when you must.
 >   **distillation** removes salt.
 > - **Pool and hot tub water also holds chemicals:** chlorine or bromine, stabilizer
 >   (cyanuric acid), and sometimes algaecide or metals. Distillation removes salts and most of
->   these.
+>   these, but not chemicals that boil off easily with the steam: for a chlorinated or salt pool,
+>   add the **three pool steps** below.
 > - **Floor:** Bleach or pool shock is never mixed with ammonia, acids or other cleaners.
 >   Pool supplies include acids ("pH down", muriatic acid); keep them apart. The mix gives off
 >   chlorine gas. (→ 30-01)
@@ -57,7 +58,9 @@ and how to distil it (boil it and collect the steam) when you must.
    household's choice: {{choice DC-13}} (→ 30-14). Whatever you chose, follow it the same way
    every time. **Hot-tub water is distilled before drinking under every option on the card.**
 5. **To distil:** boil the water and catch the **steam**, which turns back into clean water.
-   The salt and most chemicals stay behind in the pot. Method below.
+   The salt and most chemicals stay behind in the pot. Method below. For a chlorinated or salt
+   pool: **let the chlorine fade first, throw away the first tenth of each batch, and run the
+   distilled water through an activated-carbon filter** (three pool steps, below).
 6. **Cover the pool** to cut evaporation and keep out leaves, animals and children.
 
 ## What kind of water is in it
@@ -86,6 +89,55 @@ FEMA and the Red Cross say distillation removes germs that resist boiling and ch
 well as heavy metals, salts and most other chemicals**, and that salt water is used only if it
 is distilled first (FEMA, Food and Water in an Emergency; AWWA, distillation in an emergency).
 Boiling and bleach kill germs but leave salt and chemicals in place (EPA).
+
+The exception is chemicals that **boil off easily** ("volatile" chemicals). CDC says distillation
+does not remove some volatile organic compounds, volatile solvents or certain pesticides (CDC,
+About Home Water Treatment Systems); EPA says contaminants that easily turn into gases "may
+remain in the water unless the system is specifically designed to remove them" (EPA, Filtration
+Facts). A pot-and-lid still is not designed for them. Pool water has some, so pool water gets
+three extra steps.
+
+### Three extra steps for a chlorinated or salt pool
+
+Chlorine pools, and salt pools (whose chlorinator makes chlorine from the salt), hold chlorine
+and **trihalomethanes** ("THMs"): chemicals that form when chlorine reacts with leaves, sweat and
+other organic matter in the water (UNL Extension, Activated Carbon Filtration). THMs boil at a
+lower temperature than water (general chemistry), so some come over with the steam.
+
+1. **Let the chlorine fade first.** Do not shock the pool (add a large dose of chlorine) before
+   you draw drinking water. Switch off any salt chlorinator. Then give sunlight a day or two to
+   break the chlorine down: either leave the pool uncovered in the sun, with children kept away
+   and the cover back on afterwards (→ 03-08), or, if the cover must stay closed, draw the water
+   into open, clean buckets and stand them in the sun. A chlorine test strip reading near zero
+   tells you it has faded (→ 03-07). (General chemistry: no agency publishes a waiting time.)
+2. **Throw away the first tenth of each batch.** Chemicals with a boiling point close to or
+   below water's "will vaporize early in the distillation process" and condense with the first
+   water to drip out (UNL Extension, Distillation). UNL's figure for a household distiller is
+   the first pint (about half a liter), and it says this removes them only "to some degree".
+   For a pot-and-lid still, throw away roughly the first tenth of the water you will distil
+   from that potful: for 2 gallons in the pot, the first 3 cups or so (the one-tenth rule of
+   thumb is general chemistry, not a published figure). It can go to flushing.
+3. **Run the distilled water through an activated-carbon filter.** Activated carbon removes
+   chlorine, chloramines and some disinfection byproducts such as THMs (UNL Extension, Activated
+   Carbon Filtration), and UNL names a carbon filter after the still as one way to remove
+   volatile chemicals from the condensed water (UNL Extension, Distillation). Most pitcher
+   filters use granular activated carbon (EPA, Filtration Facts); check the box or the
+   certification listing for **chlorine** and **THM** (sometimes "TTHM") reduction. A filter with
+   **no carbon in it** (a plain ceramic or hollow-fibre microfilter) strains out germs and grit
+   by size; it does **not** remove dissolved chlorine or THMs. Carbon fills up and then stops
+   working, so change it on the maker's schedule (UNL). A carbon filter also takes out any
+   bleach you add to distilled water for storage (→ 03-04), so if you store it chlorinated,
+   filter it as you pour it to drink.
+
+**If the pool has Bti mosquito dunks or bits in it** (→ 03-08). Bti is a bacterium; its spores
+and the protein crystals that kill larvae do not turn to vapour, so they stay behind in the pot
+with the salt (general chemistry). The agencies differ in emphasis: CDC says to use larvicides
+only in water that will not be used for drinking (CDC, Larvicides); EPA has concluded Bti does
+not pose a risk to people (EPA, Bti for Mosquito Control); WHO says Bti itself "is not
+considered to pose a hazard to humans through drinking-water" and can be used in drinking water
+when made to WHO specifications (WHO, Bti in Drinking-water). Product labels differ: **follow
+your product's label.** Whether to treat a pool you will distil from with Bti, or rely on the
+cover alone, is your household's choice, written on → 03-08.
 
 ### The cup-on-lid still (FEMA and Red Cross method)
 
@@ -183,6 +235,8 @@ day nets only a few liters: useful for drinking water, never the household's sup
 | 10 to 20 ft soft copper tubing, 3/8 to 1/2 inch, and a fitting | The tube still | Never vinyl tubing |
 | A drilled spare lid, or heavy aluminum foil | Seals the tube into the pot | Foil needs no tools |
 | Cloth or coffee filters | Pre-filter | Cheap; stock many |
+| Activated-carbon filter (pitcher or cartridge) and spare cartridges | Removes chlorine and THMs that come over with the steam | Must contain carbon; labelled for chlorine and THM reduction; change on schedule |
+| Chlorine test strips | Shows when the pool's chlorine has faded | → 03-07 |
 | Unscented bleach or pool shock | Disinfecting distilled water before storage | **Dose only from → 03-04.** Pool shock only by the two-step method there, never as dry granules |
 | TDS meter | Confirms the still is working | Reads near zero on good distillate |
 | Food-safe storage containers | Finished water | Label "DRINKING" and "POOL / UTILITY" |

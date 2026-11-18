@@ -2,8 +2,8 @@
 id: 04-18-meal-planning-scarcity
 section: 04-food-storage-and-preservation
 title: "Meal planning and cooking from stores"
-version: 2
-revised: 2026-11-16
+version: 4
+revised: 2026-11-18
 layer: core
 danger_level: caution
 phase: [A, C]
@@ -13,6 +13,9 @@ sources:
   - foodsafety-gov-usda-hhs-cook-to-a-safe-minimum-inter-13daf3
   - cdc-managing-sick-days-18c7c8
   - us-fda-bad-bug-book-2nd-ed-phytohaemagglutinin-kidne-bb3b21
+  - cdc-preventing-food-poisoning
+  - cdc-preventing-c-perfringens-food-poisoning-k3
+  - fda-bad-bug-book-bacillus-cereus-k3
   - foodsafety-gov-fda-sprouts-what-you-should-know-777c53
 related: [04-01-calorie-and-stockpile-math, 04-03-bulk-staples-storage, 04-05-canning-pressure, 04-06-dehydrating, 04-08-fermentation, 04-10-rotation-and-inventory, 04-13-salt-sugar-vinegar, 04-14-powdered-and-canned-dairy, 04-16-sprouting, 06-02-sustaining-fire, 06-04-wood-supply-and-depletion, 07-01-cooking-on-an-open-fire, 07-02-rocket-stove, 07-04-dutch-oven-and-baking, 20-07-kids-jobs, 21-02-long-haul-morale, 21-04-routine-and-structure, 02-01-cl01-type-1-diabetes-injections, 02-04-cl04-food-allergy, 02-05-cl05-type-2-diabetes, 02-19-cl19-celiac-and-severe-gi-disease, 30-27-dc26-allergy-safe-food-reserve]
 cards: [DC-26]
@@ -25,7 +28,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Haybox hold rule aligned with 07-02 (CDC); kidney-bean boil 30 min (FDA); CDC sick-day examples as published" }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Haybox hold rule aligned with 07-02 (CDC); kidney-bean boil 30 min (FDA); CDC sick-day examples as published. K3: haybox explained for beginners; danger-zone risk and heat-proof toxin (rice) in plain words (CDC, FDA Bad Bug Book); same-day vs overnight choice pointed to 07-02; beans-and-rice row limited to same-day" }
 ---
 
 # Meal planning and cooking from stores
@@ -71,7 +74,7 @@ ingredients where needed.
 
 | Meal | Base | Notes |
 |---|---|---|
-| **Beans and rice** | Beans, rice, fat, salt, spice | The backbone. Haybox-friendly (kidney-bean rule below) |
+| **Beans and rice** | Beans, rice, fat, salt, spice | The backbone. Haybox-friendly for same-day meals (rules below); cooked rice is never held overnight |
 | **Lentil soup** | Lentils, dried vegetables, fat | Fast, forgiving, good for children |
 | **Porridge** | Oats, dry milk, sugar | Warm breakfast; morale (→ 04-14) |
 | **Flatbread** | Flour, water, salt, fat | No yeast needed (→ 07-04) |
@@ -88,16 +91,25 @@ a scale and a printed reference, not later by candlelight.
 
 - **One fire, many jobs** (→ 06-02): the meal, tomorrow's beans, boiled water, hot-water bottles.
 - **Soak beans and grains first.** It cuts cooking time a great deal.
-- **Haybox finish** (an insulated box that keeps a hot pot cooking, → 07-02): bring the pot to
-  a hard boil, then insulate for hours. Nearly free.
+- **Haybox finish** (→ 07-02): a haybox is an insulated box for a hot pot. Bring the food to a
+  **full rolling boil**, put the lid on, and move the pot into a box packed with blankets,
+  straw or towels. It keeps cooking for hours on its own heat. Nearly free.
   - **Dry kidney beans and other dry beans of the same family** (red, white, pinto, black):
     **soak at least 5 hours, throw the soak water away, and boil in fresh water for at least
     30 minutes BEFORE the box.** Never from raw in a haybox alone; a low, slow cook does not get
     hot enough to destroy the bean toxin (FDA, Bad Bug Book; → 04-03).
+  - **The risk:** as the box cools, the food drops into the "danger zone" (40 to 140 °F), where
+    bacteria multiply fast. CDC: hot food is kept at 140 °F or hotter, and food is never left in
+    the danger zone more than 2 hours; after that it is thrown out. **Reheating does not make it
+    safe again:** some bacteria leave toxins that boiling does not destroy, and cooked **rice**
+    is the classic case (FDA, Bad Bug Book). An overnight box spends hours in that range.
   - **Hold rule:** check with a thermometer before serving. Food still above 140 °F is fine;
-    food that has just dropped below it is **reheated to 165 °F**; food that has sat below
-    140 °F for **more than 2 hours** is thrown out (CDC, as on → 07-02). The box is a cooker,
-    not a warmer for ever.
+    food that dropped below it less than 2 hours ago is **reheated to 165 °F**; food that has
+    sat below 140 °F for **more than 2 hours** is thrown out (CDC, as on → 07-02).
+  - **Same-day only, or overnight in desperate times,** is a household choice; → 07-02 sets out
+    the CDC rule, the limits some households accept (plain beans or grains only, never rice,
+    meat, fish, eggs or dairy, back to a full boil before eating) and the hazard that choice
+    accepts. Write your rule there.
 - **Cook once a day, eat twice;** reheat small portions on little fuel.
 - **Lid on, windbreak up:** the two cheapest savings you have (→ 07-01).
 
@@ -160,8 +172,9 @@ a scale and a printed reference, not later by candlelight.
   shortens their runway, reserving means everyone else eats other food first.
   {{choice DC-26}} → 30-27 (→ 02-04).
 - **Resupply:** garden, game and trade (Section 05, → 18-02).
-- **The combined effect:** batch cooking plus a haybox plus lids on pots can cut cooking fuel by
-  more than half. Over a winter, that is a lot of wood (→ 06-04).
+- **The combined effect:** batch cooking plus a same-day haybox plus lids on pots cuts cooking fuel
+  a lot (no published figure; weigh the wood for a week each way to see your own saving). Over a
+  winter, that is a lot of wood (→ 06-04).
 
 ## Phase notes
 

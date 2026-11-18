@@ -2,8 +2,8 @@
 id: 07-02-rocket-stove
 section: 07-cooking-off-grid
 title: "Rocket stoves, hayboxes and fuel-efficient cooking"
-version: 2
-revised: 2026-11-16
+version: 3
+revised: 2026-11-18
 layer: core
 danger_level: caution
 phase: [A, B, C]
@@ -16,7 +16,10 @@ sources:
   - us-fda-bad-bug-book-2nd-ed-phytohaemagglutinin-kidne-bb3b21
   - foodsafety-gov-usda-hhs-cook-to-a-safe-minimum-inter-13daf3
   - cdc-preventing-food-poisoning
-related: [06-03-firewood-basics, 06-04-wood-supply-and-depletion, 07-01-cooking-on-an-open-fire, 07-03-solar-cooking, 07-04-dutch-oven-and-baking, 07-05-propane-and-camp-stoves, 07-06-electric-kettle-cooking, 07-07-freeze-dried-rehydration, 04-03-bulk-staples-storage, 08-02-carbon-monoxide-safety, 20-02-child-safety-offgrid, 29-03-ex03-carbon-monoxide, 30-01-the-floors, 14-03-opsec]
+  - cdc-preventing-c-perfringens-food-poisoning-k3
+  - fda-bad-bug-book-bacillus-cereus-k3
+  - uf-ifas-preventing-foodborne-illness-bacillus-cereus-k3
+related: [06-03-firewood-basics, 12-05-common-illness-and-dehydration, 06-04-wood-supply-and-depletion, 07-01-cooking-on-an-open-fire, 07-03-solar-cooking, 07-04-dutch-oven-and-baking, 07-05-propane-and-camp-stoves, 07-06-electric-kettle-cooking, 07-07-freeze-dried-rehydration, 04-03-bulk-staples-storage, 08-02-carbon-monoxide-safety, 20-02-child-safety-offgrid, 29-03-ex03-carbon-monoxide, 30-01-the-floors, 14-03-opsec]
 cards: []
 explainers: [EX-03]
 promote_when: []
@@ -27,7 +30,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Kidney-bean steps corrected to FDA Bad Bug Book as published (5 h soak, 30 min boil); haybox holding rule re-sourced to CDC (40-140 F, 2 hours, reheat 165 F); unsourced wood-saving ratio made qualitative" }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Kidney-bean steps corrected to FDA Bad Bug Book as published (5 h soak, 30 min boil); haybox holding rule re-sourced to CDC (40-140 F, 2 hours, reheat 165 F); unsourced wood-saving ratio made qualitative. K3: haybox explained for beginners; risk in plain words (CDC 140 F hot-holding and 2-hour rule; heat-proof B. cereus toxin, rice the classic case, per FDA Bad Bug Book and UF/IFAS); same-day CDC rule vs overnight-in-desperate-times limits written neutrally with the hazard accepted; household 'Our rule' blank" }
 ---
 
 # Rocket stoves, hayboxes and fuel-efficient cooking
@@ -39,8 +42,9 @@ that finishes cooking with no fuel at all, the vacuum flask, and the small habit
 > invisible gas that kills (→ 29-03). It stays **outdoors**, never in a closed room, tent or
 > garage, unless it is a stove designed, installed and vented for indoor use (CDC, Carbon Monoxide
 > Poisoning; → 08-02). It gets extremely hot and tips easily: with children around, where you put
-> it matters as much as how well it burns. And **dry kidney-type beans must be boiled hard before
-> any slow or haybox cooking** (below).
+> it matters as much as how well it burns. **Dry kidney-type beans must be boiled hard before
+> any slow or haybox cooking**, and **food left in a haybox too long sits in the temperature range
+> where germs grow**: read the haybox food-safety rule (below) before you use one.
 
 ## Do this now
 
@@ -50,7 +54,8 @@ that finishes cooking with no fuel at all, the vacuum flask, and the small habit
    fireplace.
 3. **Always put a lid on the pot.** It is the biggest free saving there is.
 4. **Set it on a level, non-combustible surface**, out of the wind, away from where children run.
-5. **Make a haybox** (an insulated box for a hot pot) this week. It costs nothing.
+5. **Make a haybox** (an insulated box for a hot pot) this week. It costs nothing. Read its
+   food-safety rule below before the first use.
 
 ## Why / how it works
 
@@ -89,15 +94,57 @@ Every one of these is free and they add up:
 
 ### The haybox: the cheapest trick there is
 
-Bring food to a **full rolling boil, right through the pot, not just at the edges**, then move the
-covered pot into a heavily insulated box: blankets, straw, crumpled paper, or a cooler stuffed
-with towels. It keeps cooking for hours **with no fuel**. Stews, grains, soups and soaked beans
-finish well this way. **Boil hard, then insulate.** It also keeps food hot for people eating at
-different times.
+**What it is.** A haybox (also called retained-heat or "fireless" cooking) is an insulated nest
+for a hot pot. You bring the food to a **full rolling boil, right through the pot, not just at
+the edges**, put the lid on, and move the pot straight into a box packed with insulation:
+blankets, straw, crumpled paper, or a cooler stuffed with towels, with more insulation tucked
+over the top. The food keeps cooking for hours on its own stored heat, **with no fuel**. Stews,
+grains, soups and soaked beans finish well this way. It also keeps food hot for people eating at
+different times. **Boil hard, then insulate.**
 
 {{figure fig-haybox}}
 
-**Two rules the box does not forgive:**
+**The risk, in plain words.** A haybox cooks by cooling down slowly. At first the food is too
+hot for germs to grow. Over the hours it drifts down, and at some point it drops below 140 °F.
+- CDC: hot food is kept at **140 °F or hotter** (CDC, Preventing C. perfringens Food Poisoning).
+  Between 40 and 140 °F is the **"danger zone"**, where bacteria multiply rapidly, and perishable
+  food is **never left out for more than 2 hours** (CDC, Preventing Food Poisoning). Food that
+  has been in that range longer is thrown out.
+- **Reheating does not make it safe again.** Boiling kills most bacteria, but some leave behind
+  toxins (poisons they make in the food) that heat does not destroy. **Rice is the classic
+  case:** FDA says this vomiting illness "most often affects rice and other starchy foods", and
+  that cooking "may kill the bacteria, but it might not disable the toxin" (FDA, Bad Bug Book,
+  *Bacillus cereus*). That toxin survives 121 °C (250 °F) for 30 minutes, hotter than any pot
+  can boil (FDA). Once the toxin has formed, the food cannot be made safe to eat (UF/IFAS
+  Extension, Preventing Foodborne Illness: *Bacillus cereus*).
+- CDC also links **large batches of food held at unsafe temperatures** to outbreaks of another
+  germ, *C. perfringens* (CDC). A big haybox pot is exactly that.
+- **An overnight box spends hours in the danger zone.** Packed in the evening, it is usually
+  below 140 °F long before morning.
+
+**Check with a thermometer before serving.** At 140 °F or above, the food is still being held
+hot: serve it. Below 140 °F for less than 2 hours (you checked it recently and it was hot):
+reheat it to **165 °F** (CDC's reheating temperature) and serve. Below 140 °F for longer, or you
+do not know how long: by CDC's rule, it is thrown out.
+
+**The choice: same-day only, or overnight in desperate times.**
+- **The agency rule (CDC):** the haybox is a **same-day** cooker. The food is eaten while it is
+  still at 140 °F or above, or within the 2-hour limit; anything longer below 140 °F is thrown
+  out. No overnight box. This is what CDC and FDA guidance supports.
+- **What some households accept, in desperate times only:** overnight haybox cooking, with
+  limits. **Plain beans or grains only**; **never rice, meat, fish, eggs or dairy**. Dry
+  kidney-type beans soaked and boiled 30 minutes first (FDA; next box). The pot is brought back
+  to a **full rolling boil** before anyone eats, and **thrown out if it smells or looks off**.
+  **The hazard this accepts:** the food has spent hours in the danger zone, and the final boil
+  kills bacteria but cannot remove a heat-proof toxin they may already have made. FDA names
+  "rice and other starchy foods", so plain grains carry some of the same risk as rice, only
+  less often seen. Smell and look are a last check, not proof of safety. Vomiting and diarrhoea
+  with no clinic can dehydrate a child, an elder or someone with diabetes dangerously fast
+  (→ 12-05).
+
+Our rule: ______________________________________________
+
+**The kidney-bean rule (whatever your rule above):**
 - **Dry kidney beans (and other dry beans of the same family: red, white, pinto, black): soak at
   least 5 hours, THROW AWAY the soak water, then boil in fresh water for at least 30 minutes
   BEFORE the box (FDA). Never cook dry beans from raw in a haybox or any slow, low-heat method.**
@@ -106,12 +153,6 @@ different times.
   which are what a haybox becomes after the first minutes, do not get hot enough to destroy it
   (FDA, Bad Bug Book). Canned beans are already
   safe; dry beans from storage (→ 04-03) are not until boiled.
-- **The box must keep food hot, above 140 °F.** Bacteria multiply fast in the "danger zone"
-  between 40 and 140 °F (CDC, Preventing Food Poisoning). **Check with a thermometer before
-  serving.** Food still above 140 °F is fine; food that has just dropped below it is **reheated
-  to 165 °F** before serving (CDC); food that has sat below 140 °F for **more than 2 hours** is
-  thrown out (CDC's 2-hour rule). An overnight haybox has spent hours in the danger zone. It is
-  not breakfast.
 
 ### The vacuum flask: the haybox's twin
 
