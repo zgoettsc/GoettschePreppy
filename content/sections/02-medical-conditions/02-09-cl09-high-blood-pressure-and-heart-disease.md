@@ -2,8 +2,8 @@
 id: 02-09-cl09-high-blood-pressure-and-heart-disease
 section: 02-medical-conditions
 title: "CL-09. High blood pressure and heart disease"
-version: 3
-revised: 2026-11-16
+version: 4
+revised: 2026-11-18
 layer: condition
 danger_level: critical
 phase: [A, B, C]
@@ -19,6 +19,9 @@ sources:
   - cdc-about-heat-and-your-health-112caf
   - medlineplus-heart-attack-first-aid-l8
   - aha-arc-2024-guidelines-for-first-aid-l8
+  - dailymed-toprol-xl-label-k1
+  - dailymed-inderal-la-label-k1
+  - dailymed-clonidine-alembic-label-k1
 related:
   - 02-10-cl10-blood-thinners
   - 02-05-cl05-type-2-diabetes
@@ -46,7 +49,7 @@ condition: CL-09
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "MedlinePlus metoprolol, clonidine, nitroglycerin wording corrected; NHLBI lifestyle list; AHA aspirin text unreadable (403), step left unchanged per wave 2; meds_for tables. L8 (G27): aspirin step now prints MedlinePlus Heart attack first aid (read, quoted) beside the 2024 AHA/Red Cross line (marked reported; AHA text unreadable); unread AHA Aspirin and Heart Disease key dropped." }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "MedlinePlus metoprolol, clonidine, nitroglycerin wording corrected; NHLBI lifestyle list; AHA aspirin text unreadable (403), step left unchanged per wave 2; meds_for tables. L8 (G27): aspirin step now prints MedlinePlus Heart attack first aid (read, quoted) beside the 2024 AHA/Red Cross line (marked reported; AHA text unreadable); unread AHA Aspirin and Heart Disease key dropped. K1 (G34): 'When there is no prescriber' added: aspirin with no 911 and no prescriber follows the AHA/Red Cross line (still reported, not read at source); metoprolol, propranolol and clonidine label stopping periods printed as published (labels read 2026-11-18) with the binder's spread-the-reduction rule; Drug Facts check for OTC products." }
 ---
 
 # CL-09. High blood pressure and heart disease
@@ -84,7 +87,8 @@ nausea or vomiting, and back or jaw pain.
    for emergency help right away if the pain does not improve very much, or gets worse, after
    the first dose (MedlinePlus, Nitroglycerin Sublingual).
 4. **Aspirin:** call 911 first. The two published sources below differ on who decides. With
-   no 911, follow what the prescriber wrote in part 7. Never for stroke symptoms (below).
+   no 911, follow what the prescriber wrote in part 7; with no 911 and no prescriber's answer,
+   the binder's rule is under the table. Never for stroke symptoms (below).
 5. **If they collapse and are not breathing normally: start CPR** (→ 12-18).
 
 **Aspirin, as published, side by side** (the same text is on → 12-16):
@@ -94,8 +98,17 @@ nausea or vomiting, and back or jaw pain.
 | "Many experts recommend chewing and swallowing a full dose aspirin (325 mg, or low dose 81 mg baby aspirin, after calling 911 or the local emergency number. Only do this if you have been instructed by a physician or a 911 operator, are not allergic to aspirin, and do not have any condition that could make taking aspirin dangerous for you. The 911 operator can also help you decide whether or not to take aspirin. Don't delay calling 911 to take an aspirin. Call for help first." | For an alert adult with chest pain not caused by an injury: chew 162 to 325 mg of aspirin while waiting for EMS, unless allergic to aspirin or told not to take it by a doctor. **Reported by search summaries; the AHA text could not be read from here.** |
 
 (MedlinePlus, Heart attack first aid, quoted word for word; American Heart Association and
-American Red Cross, 2024 Guidelines for First Aid, Circulation, 2024.) This page does not choose
-between them for any person: that is the prescriber's answer in part 7.
+American Red Cross, 2024 Guidelines for First Aid, Circulation, 2024.) While a prescriber can be
+asked, the choice for each person is the prescriber's answer in part 7.
+
+**When there is no 911 and no prescriber's answer.** MedlinePlus's condition (a physician or a
+911 operator says yes) cannot be met, so its line gives no yes. The AHA and Red Cross line is
+the only published guidance reported to cover a bystander acting without them, and this binder
+follows it: an **alert adult** with chest pain not caused by an injury **chews 162 to 325 mg of
+aspirin**, unless allergic to aspirin, told by a doctor not to take it, or with a condition
+that makes aspirin dangerous for them (MedlinePlus's own exclusion; a blood thinner is one,
+→ 02-10). **Honest limit:** that AHA and Red Cross wording is reported, not read at source; it
+is printed as reported until someone reads the guideline itself. Never for stroke symptoms.
 
 **Possible stroke: F.A.S.T.** (American Stroke Association): **F**ace drooping, **A**rm
 weakness, **S**peech difficulty, **T**ime to call 911. Note the time it started. Lay them down
@@ -139,6 +152,26 @@ irregular heartbeats.
 - **Beta-blockers or clonidine, stopped suddenly:** a dangerous rebound within days (part
   "SAFETY"). **If supply is running out, the prescriber's taper plan matters more than anything
   else on this page.**
+
+**When there is no prescriber: stopping when supply will run out.** No source gives a household
+a taper schedule. The labels say how gradually a doctor stops these medicines, and that is the
+published guidance, as published:
+- **Metoprolol** (Toprol-XL label): "When discontinuing chronically administered TOPROL-XL,
+  particularly in patients with ischemic heart disease, gradually reduce the dosage over a
+  period of 1 to 2 weeks and monitor the patient."
+- **Propranolol** (Inderal LA label): "If treatment is to be discontinued, reduce dosage
+  gradually over a period of a few weeks."
+- **Clonidine** (clonidine hydrochloride tablets label): "When discontinuing therapy with
+  clonidine hydrochloride, the physician should reduce the dose gradually over 2 to 4 days to
+  avoid withdrawal symptomatology."
+- **Other heart and blood pressure tablets:** the label or leaflet in the box; if it warns
+  against stopping suddenly and gives no period, no published schedule exists.
+
+**What this binder recommends when no clinician exists:** if the supply will certainly run out
+and cannot be replaced, do not take full tablets to the last day and then stop. Spread the
+reduction over at least the period the label gives, so it ends when the supply does. The
+binder does not work out the steps for a person. During and after, rest, avoid heavy effort,
+and treat chest pain as in "Do this now".
 - **Heart failure pills (often a "water pill"), stopped:** fluid builds up over days: swollen
   ankles, weight gain, breathlessness lying flat.
 
@@ -169,7 +202,11 @@ Off-grid:
 - **Fluids and rest**; oral rehydration for diarrhoea (→ 12-05). Stand up slowly.
 - **Decongestants and some pain relievers can raise blood pressure** or strain the heart; ask the
   pharmacist which over-the-counter medicines are safe for this person, and write them in
-  part 7.
+  part 7. With no pharmacist, read each product's Drug Facts "Ask a doctor before use if you
+  have" line: where it names heart disease or high blood pressure, leave it out (→ 29-14).
+- **With no prescriber:** no source we read tells a patient which blood pressure pills to pause
+  when vomiting or dizzy. Keep taking them as labelled, drink, stand up slowly, and treat
+  fainting or a very slow or racing pulse as a warning sign (part 5).
 
 ## 7. What to stock, and how much
 
