@@ -2,8 +2,8 @@
 id: 02-13-cl13-infant-feeding
 section: 02-medical-conditions
 title: "CL-13. Infant feeding: nursing and formula"
-version: 2
-revised: 2026-11-16
+version: 3
+revised: 2026-11-18
 layer: condition
 danger_level: critical
 phase: [A, B, C]
@@ -54,7 +54,7 @@ condition: CL-13
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CDC breast-milk times updated to current page; formula prep verified; sanitising age corrected to under 2 months; WHO 70 C verified; meds_for tables." }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CDC breast-milk times updated to current page; formula prep verified; sanitising age corrected to under 2 months; WHO 70 C verified; meds_for tables. K1 (G34): 'When there is no pediatrician' line added, pointing to the published formula-short rules; no substitute for special formula, said plainly." }
 ---
 
 # CL-13. Infant feeding: nursing and formula
@@ -240,6 +240,10 @@ formulas contain those allergens.
   acceptable? ________________________________________________________________________
 - When to start foods and which first, given any family allergies: ______________________
 Pediatrician: ____________________ Date: __________
+
+**When there is no pediatrician:** the "Formula short?" list in part 8 is the answer, rule 4
+included: do not dilute, do not make formula. No source we read gives a household a substitute
+for a special formula (allergy, prematurity, reflux); for those babies, rule 5 applies early.
 
 ## 8. Sourcing when the pharmacy is closed
 

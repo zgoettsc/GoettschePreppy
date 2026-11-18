@@ -2,8 +2,8 @@
 id: 17-09-pandemic-and-illness
 section: 17-weather-and-regional-hazards
 title: "Pandemic and widespread illness"
-version: 2
-revised: 2026-11-16
+version: 3
+revised: 2026-11-18
 layer: core
 danger_level: caution
 phase: [A, B, C]
@@ -29,7 +29,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Return-to-activity rule, mask ranking (KF94 dropped) and norovirus 48 h resourced to CDC; under-2 to EPA." }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Return-to-activity rule, mask ranking (KF94 dropped) and norovirus 48 h resourced to CDC; under-2 to EPA. K1 (G34): no-clinician pointer to label guidance on condition pages." }
 ---
 
 # Pandemic and widespread illness
@@ -198,7 +198,9 @@ cannot substitute is a life-sustaining medicine.**
 - **The supply that decides the outcome is medicine**, not food or fuel. Track days on hand and
   treat supply-chain news as an early trigger (→ 23-02, → 01-02).
 - **Medicine is never rationed below what the condition needs.** That is a clinician's
-  conversation, not a household decision (→ 12-11).
+  conversation, not a household decision (→ 12-11). With no clinician left, the labels' own
+  missed-dose and stopping lines, printed on each condition page, are the guidance (→ 12-11,
+  "When there is no prescriber").
 - **Resupply is still possible in this scenario**: pharmacies, mail order, other regions,
   clinicians, community. **Act early, before scarcity sets in.**
 

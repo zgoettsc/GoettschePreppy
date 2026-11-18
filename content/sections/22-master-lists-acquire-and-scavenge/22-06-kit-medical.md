@@ -2,8 +2,8 @@
 id: 22-06-kit-medical
 section: 22-master-lists-acquire-and-scavenge
 title: "Medical go-kit"
-version: 3
-revised: 2026-11-16
+version: 4
+revised: 2026-11-18
 layer: core
 danger_level: critical
 phase: [A, B, C]
@@ -31,7 +31,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Tourniquet floor reworded per docs/05 (DC-25); second dose re-cited to AAP; belt-as-tourniquet line aligned with 12-02; dehydration claim softened. Wave 2 (R18): tourniquet floor bolded as one sentence pair, verbatim 30-01." }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Tourniquet floor reworded per docs/05 (DC-25); second dose re-cited to AAP; belt-as-tourniquet line aligned with 12-02; dehydration claim softened. Wave 2 (R18): tourniquet floor bolded as one sentence pair, verbatim 30-01. K1 (G34): no-prescriber pointers added for sick days (CDC steps on 02-01), insulin switching (FDA text on 02-01) and daily medicines running short (labels, 12-11)." }
 ---
 
 # Medical go-kit
@@ -174,9 +174,11 @@ the ones your settings selected; the rest stay here so a condition can be added 
   ketoacidosis (DKA) early (CDC, Diabetic Ketoacidosis).
 - **Fast sugar** in several places: kit, pocket, car, bedside.
 - **Glucagon**, and **a second adult who knows how to use it.**
-- **The sick-day plan** from the prescriber (CDC, Managing Sick Days).
+- **The sick-day plan** from the prescriber, or with no prescriber CDC's published steps,
+  printed on → 02-01 part 6 (CDC, Managing Sick Days).
 - **Rationing insulin is not a household decision.** If supply is short, that is a reason to
-  move toward resupply (→ 01-02), not to under-dose (→ 12-11).
+  move toward resupply (→ 01-02), not to under-dose (→ 12-11). Switching to whatever insulin can
+  be found, with no prescriber, follows FDA's published text on → 02-01 part 8.
 
 ## The cold chain
 
@@ -249,7 +251,7 @@ It handles **hours to days**, not months. It cannot:
 
 | Item | How long | Ration? | Resupply | Substitute |
 |---|---|---|---|---|
-| **Daily medicines** | Count ÷ daily use, from the prescription | **Not a household decision**: ask the prescriber now what to do if it runs short | Pharmacy, clinic, hospital, mutual aid (→ 12-07) | **None** for most |
+| **Daily medicines** | Count ÷ daily use, from the prescription | **Not a household decision**: ask the prescriber now what to do if it runs short. With no prescriber, the label's own lines and the condition page's "When there is no prescriber" part (→ 12-11) | Pharmacy, clinic, hospital, mutual aid (→ 12-07) | **None** for most |
 | **Rescue medicines** | Devices or doses on hand | **Never** | Prescription | **None** |
 | **Device supplies** (sensors, pump parts, CPAP filters) | Count | Only as the condition page says | As above | The condition page's fallback |
 | **Test and ketone strips** | Count | **Do not skimp on ketone strips** | As above | None reliable |

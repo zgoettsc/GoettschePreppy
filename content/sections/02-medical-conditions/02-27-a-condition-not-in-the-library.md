@@ -2,8 +2,8 @@
 id: 02-27-a-condition-not-in-the-library
 section: 02-medical-conditions
 title: "A condition that is not in the library"
-version: 2
-revised: 2026-11-16
+version: 3
+revised: 2026-11-18
 layer: condition
 danger_level: caution
 phase: [A, B, C]
@@ -39,7 +39,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Children floor sentence punctuation aligned with 30-01; no numbers; full meds table kept (no condition id)." }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Children floor sentence punctuation aligned with 30-01; no numbers; full meds table kept (no condition id). K1 (G34): safety box now says what to do when a heading stays blank because no prescriber is left: the leaflet's own lines, copied word for word, and the general no-prescriber rule." }
 ---
 
 # A condition that is not in the library
@@ -58,6 +58,12 @@ heading. Print one copy per condition. A condition can also be added to the libr
 > **SAFETY**
 > - **Write only what the prescriber or the printed information says.** Do not fill a heading
 >   with a guess; leave it blank and ask.
+>   **Some headings will stay blank**, because no prescriber is left to ask. Then the published
+>   guidance is the label or leaflet in the box: read its "missed dose", "stopping" and "ask a
+>   doctor" lines and copy them under the heading, word for word (→ 29-14). Where it says "ask
+>   your doctor" and there is none, keep taking the medicine as labelled, do not double a missed
+>   dose, and do not stop suddenly: if the supply will certainly run out, spread the reduction
+>   over at least the period the label gives. The other library modules show the same rule worked through for many medicines.
 > - **Ask the prescriber which medicines must never be stopped suddenly**, and write it in part 4.
 > - **Children do not have access to firearms, fuel, medications or chlorine products.** (floor,
 >   → 30-01).

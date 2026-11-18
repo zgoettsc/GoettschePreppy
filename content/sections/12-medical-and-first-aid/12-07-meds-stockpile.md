@@ -2,8 +2,8 @@
 id: 12-07-meds-stockpile
 section: 12-medical-and-first-aid
 title: "Family medicine stockpile and over-the-counter list"
-version: 2
-revised: 2026-11-16
+version: 3
+revised: 2026-11-18
 layer: core
 danger_level: caution
 phase: [A, B, C]
@@ -47,7 +47,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Diphenhydramine re-cited to Children's Benadryl Drug Facts; loperamide to Imodium A-D label; storage 68-77 F per labels (USP excursions removed); Lyon 2006 figures exact; floors worded as 30-01." }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Diphenhydramine re-cited to Children's Benadryl Drug Facts; loperamide to Imodium A-D label; storage 68-77 F per labels (USP excursions removed); Lyon 2006 figures exact; floors worded as 30-01. K1 (G34): label missed-dose and stopping lines named as the no-prescriber guidance; pointer to 12-11 'When there is no prescriber'." }
 ---
 
 # Family medicine stockpile and over-the-counter list
@@ -66,7 +66,7 @@ what expiry dates really mean.
 >    especially (FDA, Food Allergies). **Read every label** (→ 29-14).
 > 2. **Life-critical medicines are kept, counted and protected separately** from the general
 >    stockpile: insulin, epinephrine, glucagon, rescue inhalers, seizure medicines and any
->    medicine its prescriber says must not stop (→ 12-11).
+>    medicine its prescriber or its label says must not stop (→ 12-11).
 
 ## Do this now
 
@@ -265,6 +265,10 @@ On paper in this binder (→ 25-09):
   that lets someone drink and sleep is a good use; one for mild aches is not, when supply is
   short. **This never applies to a prescription medicine.** Changing how you take a prescription
   is a decision for the prescriber; write their answer in the "If doses are missed" column now.
+  **When there is no prescriber**, the label's own "missed dose" and "stopping" lines are the
+  published guidance: copy them into that column too, word for word, so they are there when the
+  prescriber is not. The condition modules print them for the common medicines, with the rule
+  this binder follows (→ 12-11, "When there is no prescriber").
 - **Resupply:** pharmacies early; scavenging with strict identification; trade. Medicines are
   among the most valuable trade goods (→ 18-02), so holding them is a security matter (→ 14-03).
 - **Substitute:** comfort, hygiene, food and rest do a surprising amount. Willow bark and

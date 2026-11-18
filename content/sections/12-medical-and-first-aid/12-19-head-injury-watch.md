@@ -2,8 +2,8 @@
 id: 12-19-head-injury-watch
 section: 12-medical-and-first-aid
 title: "Head injury: the watch protocol"
-version: 2
-revised: 2026-11-16
+version: 3
+revised: 2026-11-18
 layer: core
 danger_level: critical
 phase: [A, B, C]
@@ -36,7 +36,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Red flags matched to CDC HEADS UP and AAP; watch period per AAP (24 h, then a few days) and 2-3 h checks; aftercare per CDC; unsourced 3 ft, 15 min and 48 h figures removed." }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Red flags matched to CDC HEADS UP and AAP; watch period per AAP (24 h, then a few days) and 2-3 h checks; aftercare per CDC; unsourced 3 ft, 15 min and 48 h figures removed. K1 (G34): blood thinner head knock with no prescriber: full watch, move toward care at first red flag." }
 ---
 
 # Head injury: the watch protocol
@@ -152,7 +152,9 @@ hours or days to appear (CDC, HEADS UP).
   coordination).
 - **Adults:** the same red flags. An adult on a blood thinner (check → 25-09) can bleed inside the
   skull from a lesser knock: their threshold for moving toward care is much lower. Ask their
-  prescriber before the collapse what to do after a head knock, and write it on → 02-10.
+  prescriber before the collapse what to do after a head knock, and write it on → 02-10. With
+  no prescriber: the full watch on this page after any head knock, and move toward care at the
+  first red flag.
 
 {{#each members as m}}
 - {{m.label}} ({{m.age_text}})

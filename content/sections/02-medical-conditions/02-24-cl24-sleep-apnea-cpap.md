@@ -2,8 +2,8 @@
 id: 02-24-cl24-sleep-apnea-cpap
 section: 02-medical-conditions
 title: "CL-24. Sleep apnoea (CPAP)"
-version: 2
-revised: 2026-11-16
+version: 3
+revised: 2026-11-18
 layer: condition
 danger_level: caution
 phase: [A, B, C]
@@ -55,7 +55,7 @@ condition: CL-24
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CPAP power planning figure matched to 09-01/09-06 placeholder; NHLBI claims re-checked; unsourced raised-head and water advice softened; meds_for tables." }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CPAP power planning figure matched to 09-01/09-06 placeholder; NHLBI claims re-checked; unsourced raised-head and water advice softened; meds_for tables. K1 (G34): no-prescriber answers added: no sedatives at night (NHLBI), saline rinse for a blocked nose." }
 ---
 
 # CL-24. Sleep apnoea (CPAP)
@@ -85,7 +85,7 @@ power budget, running the machine off-grid, what happens without it, and what el
 1. **Run the CPAP from a battery or power station, humidifier and heated tube off** (part 9).
    Heating uses a large share of the power; the manual says how much.
 2. **No power at all:** sleep on the side, not the back (NHLBI), and no alcohol or sedatives
-   unless the prescriber has said they are safe (part 4).
+   unless the prescriber has said they are safe (part 4). With no prescriber: none.
 3. **Generator:** outdoors only, at least 20 feet from windows and doors, exhaust pointed away,
    CO alarms inside (CDC; → 09-04).
 4. **Next day:** no driving if sleepy; nap when you can.
@@ -130,8 +130,10 @@ sleepiness and poor judgement become a real hazard. Over months: blood pressure 
   Sleep Apnea). A rolled towel or a backpack worn in bed stops rolling over.
 - **Some people find a raised head and chest helps;** ask the sleep doctor now (part 7).
 - **Limit alcohol and avoid sedating medicines** at night unless the prescriber has said they are
-  safe (NHLBI). If the person takes opioids or sedating mental-health
-  medicines, see → 02-17 and → 02-16.
+  safe (NHLBI). **With no prescriber to ask, the binder's rule is NHLBI's: no sedating
+  medicines at night**, except a prescribed medicine that must not be stopped suddenly: for
+  opioids or sedating mental-health medicines, see → 02-17 and → 02-16, which say how their
+  labels handle stopping.
 - **A regular sleep time,** a dark, quiet, cool room, and naps by day if possible (→ 21-07).
 - **A healthy weight** is part of NHLBI's lifestyle advice for sleep apnoea, over months, not
   nights (→ 02-26).
@@ -149,7 +151,7 @@ sleepiness and poor judgement become a real hazard. Over months: blood pressure 
 ## 6. Sick-day basics
 
 - **A cold or blocked nose** makes the mask hard to use; a full-face mask or saline rinse can help.
-  Ask the prescriber now.
+  Ask the prescriber now; with none, saline rinse is the step that needs no prescription.
 - **Sedating cold medicines** worsen apnoea; check the label.
 - **Clean the mask and tubing** more often when sick, with mild soap and water, and let them dry
   completely (→ 13-02).

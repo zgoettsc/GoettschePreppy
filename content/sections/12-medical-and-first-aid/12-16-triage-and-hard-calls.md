@@ -2,8 +2,8 @@
 id: 12-16-triage-and-hard-calls
 section: 12-medical-and-first-aid
 title: "Triage and hard decisions with no hospital"
-version: 3
-revised: 2026-11-16
+version: 4
+revised: 2026-11-18
 layer: core
 danger_level: critical
 phase: [A, B, C]
@@ -44,7 +44,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "15-minute low-sugar recheck cited to CDC; aspirin text unchanged (no AHA text readable: heart.org 403). L8 (G27): aspirin printed side by side: MedlinePlus Heart attack first aid (read 2026-11-16, quoted) and the 2024 AHA/Red Cross first-aid line, marked reported (AHA text 403; PubMed abstract silent on aspirin)." }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "15-minute low-sugar recheck cited to CDC; aspirin text unchanged (no AHA text readable: heart.org 403). L8 (G27): aspirin printed side by side: MedlinePlus Heart attack first aid (read 2026-11-16, quoted) and the 2024 AHA/Red Cross first-aid line, marked reported (AHA text 403; PubMed abstract silent on aspirin). K1 (G34): aspirin with no 911 and no doctor's answer now follows the AHA/Red Cross line (still reported, not read at source), with MedlinePlus's exclusions; same wording as 02-09." }
 ---
 
 # Triage and hard decisions with no hospital
@@ -182,7 +182,17 @@ for stroke symptoms**: bleeding in the brain cannot be ruled out without a scan.
 
 (MedlinePlus, Heart attack first aid, quoted word for word, including its unclosed bracket;
 American Heart Association and American Red Cross, 2024 Guidelines for First Aid, Circulation,
-2024.) Neither source chooses for a particular person, and this binder does not either.
+2024.) While a doctor or a 911 operator can be reached, the choice for each person is theirs.
+
+**When there is no 911 and no doctor's answer on → 25-09.** MedlinePlus's condition (a
+physician or a 911 operator says yes) cannot be met, so its line gives no yes. The AHA and Red
+Cross line is the only published guidance reported to cover a bystander acting without them,
+and this binder follows it: an **alert adult** with chest pain not caused by an injury **chews
+162 to 325 mg of aspirin**, unless allergic to aspirin, told by a doctor not to take it, or with
+a condition that makes aspirin dangerous for them (MedlinePlus's own exclusion; a blood thinner
+is one, → 02-10). **Honest limit:** the AHA and Red Cross wording is reported, not read at
+source; it is printed as reported until someone reads the guideline itself. Never for stroke
+symptoms.
 
 > **Before the collapse:** ask each adult's doctor whether chewing aspirin in a suspected heart
 > attack is right for them, which product, and how much, if no 911 operator can be reached.

@@ -2,8 +2,8 @@
 id: 30-26-dc25-tourniquet-conversion-no-help-coming
 section: 30-decisions-and-floors
 title: "DC-25. Converting a tourniquet to a pressure dressing when no help will ever come"
-version: 2
-revised: 2026-11-16
+version: 3
+revised: 2026-11-18
 layer: card
 danger_level: critical
 phase: [A, B, C]
@@ -27,9 +27,9 @@ options:
     summary: "Once a tourniquet is on, it stays on, even when no help will ever come. The household accepts that the arm or leg below it may die and be lost, in exchange for never risking the bleeding starting again."
   - id: convert-by-criteria
     label: "Convert by the published prolonged-care criteria"
-    summary: "If no help will ever come, a trained household member converts the tourniquet to packing and a pressure bandage only if every published criterion is met: not in shock, wound watched closely, not an amputation, within 2 hours (TCCC's limit for non-medics), tourniquet left loose in place."
-settings_summary: "A tourniquet is a tight band that stops blood flow to a bleeding arm or leg. The rule is never loosen it, because the bleeding can start again and kill. That rule assumes a hospital takes over within hours. If no help will ever come, an arm or leg left without blood for many hours dies. Military prolonged-care guidance (TCCC, 2026) lets medics convert a tourniquet to wound packing and a pressure bandage only if the person is not in shock, the wound can be watched closely and it is not an amputation, ideally within 2 hours, and not after 6 hours without laboratory monitoring. People below medic level are told not to convert after 2 hours without a medic's direction, and otherwise to leave it on. What helps most: reaching care (removes the question); hands-on training, hemostatic gauze and pressure bandages (reduces it a lot)."
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "TCCC 2026, JTS PCC CPG 91 and TCCC skill sheet quotes verified verbatim; Stop the Bleed re-cited to USUHS JIT; option and criteria now carry TCCC's 2-hour limit for non-medics." }
+    summary: "If no help will ever come, a trained household member converts the tourniquet to packing and a pressure bandage only if every criterion is met: not in shock, wound watched closely, not an amputation, within 2 hours of it going on, whoever does it (no longer window), tourniquet left loose in place."
+settings_summary: "A tourniquet is a tight band that stops blood flow to a bleeding arm or leg. The rule is never loosen it, because the bleeding can start again and kill. That rule assumes a hospital takes over within hours. If no help will ever come, an arm or leg left without blood for many hours dies. Military prolonged-care guidance (TCCC, 2026) lets medics convert a tourniquet to wound packing and a pressure bandage only if the person is not in shock, the wound can be watched closely and it is not an amputation, ideally within 2 hours, and not after 6 hours without laboratory monitoring. People below medic level must not convert after 2 hours without a medic's direction. This card uses that 2-hour limit for everyone, medic-trained or not. What helps most: reaching care (removes the question); hands-on training, hemostatic gauze and pressure bandages (reduces it a lot)."
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "TCCC 2026, JTS PCC CPG 91 and TCCC skill sheet quotes verified verbatim; Stop the Bleed re-cited to USUHS JIT; option and criteria now carry TCCC's 2-hour limit for non-medics. K1 (G33): option, settings summary, mitigations and option text now state the TCCC 2-hour limit as the household rule for everyone, medic-trained or not; no longer window offered." }
 ---
 
 # DC-25. Converting a tourniquet to a pressure dressing when no help will ever come
@@ -120,7 +120,10 @@ later an infection) risk.
   tourniquet, gloves, a marker (→ 12-01, → 22-06).
 - **Meeting every criterion, not most of them.** Not in shock, wound in plain view, not an
   amputation, and early: TCCC aims for under 2 hours for everyone, and tells people below medic
-  level not to convert after 2 hours without a medic's direction. Never after 6 hours.
+  level not to convert after 2 hours without a medic's direction. **On this card the 2-hour
+  limit applies to everyone, including a household member with medic training:** the longer
+  medic window in the guidelines assumes medic direction and, after 6 hours, laboratory
+  monitoring, which a household does not have. After 2 hours, the tourniquet stays on.
 
 **Reduces it a little**
 - Time written on the strap and the skin, so everyone knows the clock.
@@ -149,7 +152,9 @@ may die, and the infection risk that follows, in return for never risking the bl
 **`convert-by-criteria`: Convert by the published prolonged-care criteria.**
 You give up: the certainty that the bleeding is stopped. You accept: that the bleeding may
 return and must be stopped again at once, that the person doing it should be trained, and that
-it is done only when every criterion above is met and no help will ever come.
+it is done only when every criterion above is met, no help will ever come, and less than 2
+hours have passed since the tourniquet went on. The 2-hour limit is the same for every
+household member, medic training or not; after 2 hours this option becomes `never-loosen`.
 
 ## 6. Our choice
 

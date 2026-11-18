@@ -2,8 +2,8 @@
 id: 02-04-cl04-food-allergy
 section: 02-medical-conditions
 title: "CL-04. Food allergy (child or adult)"
-version: 2
-revised: 2026-11-16
+version: 3
+revised: 2026-11-18
 layer: condition
 danger_level: critical
 phase: [A, B, C]
@@ -43,7 +43,7 @@ condition: CL-04
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "AAAAI severity claim re-cited to FDA; FDA labelling scope and advisory-statement wording verified; meds_for tables." }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "AAAAI severity claim re-cited to FDA; FDA labelling scope and advisory-statement wording verified; meds_for tables. K1 (G34): 'When there is no allergist' rule added: blank answers read as 'no' (strictest reading), new foods by DC-18." }
 ---
 
 # CL-04. Food allergy (child or adult)
@@ -182,6 +182,12 @@ by its label (→ 04-19).
 | Safe brands they reliably eat | ______________________ |
 | Can new foods be introduced, and under what conditions? | ______________________ |
 | Can cooking steam or smoke from the allergen cause a reaction? | ______________________ |
+
+**When there is no allergist,** a blank answer means "no": treat traces, "may contain" foods,
+oils from the allergen, baked forms and related foods as unsafe for this person, keep the
+allergen's steam and smoke away from them, and bring in new foods only as the household's card
+allows: {{choice DC-18}} (→ 30-19). That is the strictest reading, and no source we read gives
+a household a safe way to test a food without an allergist.
 
 **Stock arithmetic.** The medicines tagged for this condition in settings are printed; if none are tagged, every household medicine row is, so use the ones for this condition.
 

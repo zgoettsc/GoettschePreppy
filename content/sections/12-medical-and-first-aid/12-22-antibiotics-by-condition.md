@@ -2,8 +2,8 @@
 id: 12-22-antibiotics-by-condition
 section: 12-medical-and-first-aid
 title: "Antibiotics by condition: published adult and child doses"
-version: 2
-revised: 2026-11-16
+version: 3
+revised: 2026-11-18
 layer: core
 danger_level: critical
 phase: [A, B, C]
@@ -62,7 +62,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "New page (G28). Every dose row copied from a source read on 2026-11-16: WHO AWaRe 2022 PDF, ATS/IDSA 2019 full text, IDSA/CDC/FDA via fetch; AAP otitis guideline not readable (FDA labels printed instead). V1: verified 133 rows." }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "New page (G28). Every dose row copied from a source read on 2026-11-16: WHO AWaRe 2022 PDF, ATS/IDSA 2019 full text, IDSA/CDC/FDA via fetch; AAP otitis guideline not readable (FDA labels printed instead). V1: verified 133 rows. K1 (G34): kidney disease with no prescriber stated plainly (label adjustments need a kidney blood test)." }
 ---
 
 # Antibiotics by condition: published adult and child doses
@@ -91,7 +91,9 @@ antibiotic section is on → 12-24.
 >   200 mg/5 mL bottle. Read the strength on every bottle (→ 29-14).
 > - **Doses are for normal kidney and liver function.** WHO states this under every table. This
 >   binder prints no kidney- or liver-adjusted dose. A person with kidney or liver disease
->   (→ 02-15) needs a prescriber's dose.
+>   (→ 02-15) needs a prescriber's dose. With no prescriber, say it plainly: the labels' kidney
+>   adjustments depend on a blood test of kidney function that a household cannot do, so no
+>   published dose here fits that person.
 > - **Check allergies first** (→ 25-09). A severe reaction to a penicillin (collapse, breathing
 >   trouble or facial swelling within minutes to 1 to 2 hours) is a reason to avoid the whole
 >   penicillin group (WHO). → 12-23 has the allergy rules.

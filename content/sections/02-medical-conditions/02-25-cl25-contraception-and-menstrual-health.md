@@ -2,8 +2,8 @@
 id: 02-25-cl25-contraception-and-menstrual-health
 section: 02-medical-conditions
 title: "CL-25. Contraception and menstrual health"
-version: 2
-revised: 2026-11-16
+version: 3
+revised: 2026-11-18
 layer: condition
 danger_level: caution
 phase: [A, B, C]
@@ -50,7 +50,7 @@ condition: CL-25
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CDC typical-use table printed as published (withdrawal row removed: not on CDC page); TSS signs per FDA; CDC device durations; DC-08 misuse fixed; meds_for tables." }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CDC typical-use table printed as published (withdrawal row removed: not on CDC page); TSS signs per FDA; CDC device durations; DC-08 misuse fixed; meds_for tables. K1 (G34): 'When there is no prescriber or clinic' added, pointing to the pack leaflet, OTC daily pill, condoms and emergency contraception already on the page; injection, IUD and implant stated plainly as needing a trained person." }
 ---
 
 # CL-25. Contraception and menstrual health
@@ -219,6 +219,13 @@ how to take it and what to do after a missed or late pill.
 - Is emergency contraception suitable for this person, and is there anything to know about it?
   ______________________________________________________________________________________
 Prescriber or clinic: ____________________ Date: __________
+
+**When there is no prescriber or clinic.** The published guidance is on the packets and in
+this module: missed or vomited pills, the leaflet inside the pack (part 6); a method that runs
+out, the over-the-counter daily pill FDA approved in 2023 (its leaflet says how to take it)
+and condoms, which need no prescription (part 4); after unprotected sex, emergency
+contraception as its label says ("Do this now"). The injection, IUD and implant need a trained
+person; no source we read gives a household a way to give or replace them.
 
 **Stock arithmetic.** Days on hand = on hand ÷ used per day (for pills, one pack covers the days
 printed on it).

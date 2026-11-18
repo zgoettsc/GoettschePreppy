@@ -2,8 +2,8 @@
 id: 12-11-chronic-conditions
 section: 12-medical-and-first-aid
 title: "Long-term conditions without a clinic: the condition library index"
-version: 2
-revised: 2026-11-16
+version: 3
+revised: 2026-11-18
 layer: core
 danger_level: critical
 phase: [A, B, C]
@@ -36,7 +36,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Frozen-insulin floor added; blank conditions/allergies read 'none in settings'; no numbers needing source." }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Frozen-insulin floor added; blank conditions/allergies read 'none in settings'; no numbers needing source. K1 (G34): 'When there is no prescriber' section added: every module prints published label, agency or society guidance and the binder's rule; general rules for missed doses and supply that will run out; 'never one this binder answers' removed." }
 ---
 
 # Long-term conditions without a clinic: the condition library index
@@ -48,7 +48,9 @@ each condition while help still exists.
 
 > **SAFETY**
 > - **Never stop a medicine suddenly without knowing whether that is dangerous.** Several
->   medicines cause serious harm when stopped at once. Ask the prescriber which, now.
+>   medicines cause serious harm when stopped at once. Ask the prescriber which, now. With no
+>   prescriber, the label in the box and the module's "When there is no prescriber" part say
+>   which, as published.
 > - **The binder never calculates, stretches or adjusts a dose.** Published tables are printed
 >   as published. Everything about your own medicines comes from your bottles and your
 >   prescriber, written in the "my meds" table (→ 12-07).
@@ -183,8 +185,8 @@ Do this for every condition in the household, with the prescriber while you can.
 1. **What is the supply clock?** Days of medicine and supplies on hand, from the "my meds"
    table. It changes daily and belongs on → 23-02.
 2. **What happens when it runs low?** Ask the prescriber what to do if doses are missed, and
-   write their answer down. **This is a prescriber question, never one to work out alone under
-   stress, and never one this binder answers.**
+   write their answer down. **Never work it out alone under stress.** If no prescriber is left,
+   the module's "When there is no prescriber" part prints the published answer (below).
 3. **What are the warning signs?** Written down, specific, known to every adult. What does
    "getting worse" look like, and when does it become an emergency?
 4. **What is the fallback?** Is there a simpler version of the treatment that needs no power or
@@ -192,6 +194,28 @@ Do this for every condition in the household, with the prescriber while you can.
    Knowing the fallback turns a device failure into an inconvenience instead of a crisis.
 5. **What is the decision point?** At what supply clock does this become the reason to move,
    seek care or change the plan? **Decide in advance and write it down** (→ 01-02, → 01-07).
+
+## When there is no prescriber
+
+In a long emergency there may be no prescriber, pharmacist or clinic at all. The binder does not
+leave a household with "ask your prescriber" as its only answer. Every condition module that
+depends on a prescriber has a **"When there is no prescriber"** part that prints, as published and with the publisher named,
+what the medicine's FDA-approved label, the federal agency or the condition's national society
+says about a missed dose, a vomited dose, running out and stopping, and then the rule this
+binder follows when the sources differ. Where no published guidance exists, the module says so
+plainly and gives the safest general rule the sources support. The rules that run through all
+of them:
+1. **The label in the box is published guidance.** Its "missed dose", "stopping" and "ask a
+   doctor" lines are copied into the "my meds" table now, word for word (→ 12-07, → 29-14).
+2. **A missed dose:** take it when remembered, unless the label says otherwise; never double it
+   unless the label or the condition's national society says it is safe (as the thyroid society
+   does for levothyroxine, → 02-14).
+3. **A medicine that must not stop suddenly, with supply that will certainly run out:** do not
+   take full doses to the last day. Spread the reduction over at least the period the label
+   gives, so it ends when the supply does. The binder prints the label's period; it never works
+   out the steps for a person.
+4. **A prescriber's written plan, made before the collapse, always comes first.** The
+   worksheets on every module are how to get one.
 
 ## Principles for any long-term condition
 
@@ -252,8 +276,10 @@ and why closeness to surviving medical care belongs on the list when choosing a 
   - **A resupply plan**: where, who, what is realistic.
   - **A conversation, in advance, among the adults** about what happens if resupply fails
     (→ 12-16, → 21-03). Hard, and far better had now.
-- **Rationing a prescription medicine is a prescriber's decision**, made in advance and written
-  in the "If doses are missed" column. Never improvise a lower dose from a book.
+- **Rationing a prescription medicine is a prescriber's decision** while one exists, made in
+  advance and written in the "If doses are missed" column. With no prescriber, the only
+  reductions this binder prints are the labels' own stopping instructions, used when supply
+  will certainly run out (rule 3 above). Never improvise a lower dose from a book.
 - **Scavenging and trade:** pharmacies and clinics early in an event may still have supply; that
   window closes fast. Other households, nurses, pharmacists and doctors in the community are
   enormously valuable (→ 18-01, → 18-03). Never take unlabelled medicine (→ 12-07).

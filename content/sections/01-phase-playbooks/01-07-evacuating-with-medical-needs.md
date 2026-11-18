@@ -2,8 +2,8 @@
 id: 01-07-evacuating-with-medical-needs
 section: 01-phase-playbooks
 title: "Leaving home with medical needs: medicines, devices and the cold chain on the road"
-version: 2
-revised: 2026-11-16
+version: 3
+revised: 2026-11-18
 layer: core
 danger_level: critical
 phase: [B]
@@ -28,7 +28,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Days on hand from meds; refrigerated_meds listed; condition flags mark dialysis, dementia, pregnancy, diabetes; AAP second dose; 911 to 47 CFR 9.10." }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Days on hand from meds; refrigerated_meds listed; condition flags mark dialysis, dementia, pregnancy, diabetes; AAP second dose; 911 to 47 CFR 9.10. K1 (G34): on-the-road no-prescriber pointer to each condition page's published guidance (12-11)." }
 ---
 
 # Leaving home with medical needs: medicines, devices and the cold chain on the road
@@ -83,7 +83,9 @@ details for each one.
 
 The binder never works out or changes a dose. What to do if a medicine runs out or a device fails
 comes from the prescriber, written on that condition's page in Section 02. **Ask now, while you
-can.**
+can.** On the road with no prescriber to reach, each condition page's "When there is no
+prescriber" part prints the published guidance from the medicine's label or the agency, and the
+rule this binder follows (→ 12-11).
 
 ## Why / how it works
 
@@ -174,7 +176,7 @@ the whole trip's food plus a margin for delays (→ 02-04, → 02-19, → 02-13)
 | Devices, their spare batteries, chargers and 12-volt adapters | [ ] | → 09-06 |
 | Device supplies: sensors, pump parts, tubing, masks, needles or syringes, test strips | [ ] | Section 02 |
 | Any phone a device depends on, charged, with its charger | [ ] | → 00-10 |
-| The printed backup plan for each device failure, from the prescriber | [ ] | Section 02 |
+| The printed backup plan for each device failure, from the prescriber (or the condition page's "When there is no prescriber" part) | [ ] | Section 02 |
 | Fast sugar within the driver's reach and in the back | [ ] | → 02-01 |
 | Thermometer for medicine; a thermometer for people | [ ] | → 22-06 |
 | Children's medicines and fever medicine | [ ] | → 22-06, → 12-13 |

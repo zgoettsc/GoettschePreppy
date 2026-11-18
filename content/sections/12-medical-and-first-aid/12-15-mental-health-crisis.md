@@ -2,8 +2,8 @@
 id: 12-15-mental-health-crisis
 section: 12-medical-and-first-aid
 title: "First response to a mental-health crisis"
-version: 1
-revised: 2026-11-16
+version: 2
+revised: 2026-11-18
 layer: core
 danger_level: caution
 phase: [A, B, C]
@@ -37,7 +37,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Crisis line numbers (988, DDH 1-800-985-5990, NDVH 1-800-799-7233 / START to 88788) verified in archives; no changes." }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Crisis line numbers (988, DDH 1-800-985-5990, NDVH 1-800-799-7233 / START to 88788) verified in archives; no changes. K1 (G34): no-prescriber pointer to the label stopping lines on 02-16." }
 ---
 
 # First response to a mental-health crisis
@@ -128,6 +128,8 @@ Common, frightening and usually manageable (→ 21-01):
 
 - **Some psychiatric medicines cause serious problems if stopped suddenly**; others are safer to
   taper. **The prescriber knows which. Ask now** and write the answer down (→ 02-16, → 12-11).
+  When there is no prescriber, → 02-16 part 7 prints each label's own stopping instruction as
+  published, and the rule this binder follows when supply will run out.
 - **Build the buffer legitimately**: extended fills, early refills (→ 12-07).
 - **Store properly**: cool, dark, dry, above freezing, locked away from children.
 - **Write it in the family medical summary** (→ 25-09).

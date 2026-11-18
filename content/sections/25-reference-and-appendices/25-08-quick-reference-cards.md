@@ -2,8 +2,8 @@
 id: 25-08-quick-reference-cards
 section: 25-reference-and-appendices
 title: "Quick-reference cards"
-version: 4
-revised: 2026-11-16
+version: 5
+revised: 2026-11-18
 layer: core
 danger_level: critical
 phase: [A, B, C]
@@ -57,7 +57,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Floors checked word for word against 30-01/docs 05; anaphylaxis card re-sourced to AAP plan; tourniquet, hypo, boil, winter-vehicle and lightning rows corrected and sourced. Wave 2 (R18): tourniquet floor now verbatim from 30-01 (both sentences); toilet tank last reserve, disinfect first (FEMA 477); boil line EPA 5,000 / CDC 6,500 as 03-04; NWS winter key merged to nws-winter-storm-during. R19: card 2 position row to AAP plan positions as on 02-03 (back; side if vomiting or trouble breathing)." }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Floors checked word for word against 30-01/docs 05; anaphylaxis card re-sourced to AAP plan; tourniquet, hypo, boil, winter-vehicle and lightning rows corrected and sourced. Wave 2 (R18): tourniquet floor now verbatim from 30-01 (both sentences); toilet tank last reserve, disinfect first (FEMA 477); boil line EPA 5,000 / CDC 6,500 as 03-04; NWS winter key merged to nws-winter-storm-during. R19: card 2 position row to AAP plan positions as on 02-03 (back; side if vomiting or trouble breathing). K1 (G34): card 3 gives the no-prescriber answers (CDC sick-day steps, FDA pump-to-injection text)." }
 ---
 
 # Quick-reference cards
@@ -131,8 +131,8 @@ Epinephrine is kept: ______________________
 | **Awake and can swallow** | Fast sugar now; **recheck in about 15 minutes**; repeat until back in range, then a snack or meal (CDC, Treatment of Low Blood Sugar) |
 | **Unconscious, seizing, or cannot swallow** | **Nothing by mouth. Give glucagon. Call 911.** On their side. Sugar by mouth only once awake and able to swallow |
 | **HIGH with ketones (DKA risk)** | Thirst, peeing a lot, nausea or vomiting, belly pain, fruity breath, fast deep breathing, confusion (CDC, Diabetic Ketoacidosis) |
-| **What to do** | **Check ketones.** Fluids. Follow the prescriber's sick-day plan. **DKA is an emergency: get help** |
-| **Pump or sensor failure** | The prescriber's written fallback plan (→ 02-02) |
+| **What to do** | **Check ketones.** Fluids. Follow the prescriber's sick-day plan; with none, **keep giving the insulin as usual** and CDC's sick-day steps (→ 02-01). **DKA is an emergency: get help** |
+| **Pump or sensor failure** | The prescriber's written fallback plan; with none, FDA's pump-to-injection text (→ 02-02) |
 | **Insulin** | **A frozen-then-thawed insulin vial or pen is discarded.** Heat-exposed: {{choice DC-08}} → 30-09. Fridge range 36 to 46 °F (FDA, Insulin Storage in an Emergency). Never ration on your own judgement |
 | **Days of insulin left** | ______ (update weekly) |
 

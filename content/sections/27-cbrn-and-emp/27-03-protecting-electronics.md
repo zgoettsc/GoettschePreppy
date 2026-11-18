@@ -2,8 +2,8 @@
 id: 27-03-protecting-electronics
 section: 27-cbrn-and-emp
 title: "Protecting electronics, and the medical devices"
-version: 1
-revised: 2026-11-16
+version: 2
+revised: 2026-11-18
 layer: core
 danger_level: critical
 phase: [A, B, C]
@@ -26,7 +26,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "No numbers; floor wording matches 30-01; claims are qualitative and hedged." }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "No numbers; floor wording matches 30-01; claims are qualitative and hedged. K1 (G34): device backups point to the condition pages' no-prescriber parts (FDA pump text, CPAP steps)." }
 ---
 
 # Protecting electronics, and the medical devices
@@ -39,7 +39,8 @@ threatens them, and the cheap, honest hedge for spares. The answer that protects
 > nobody can describe in advance.** Home shielding is untested against any real threat, and anyone
 > who tells you a container is "EMP-proof" is selling something. **What protects people is a
 > backup that needs no power, practised in advance** (→ 24-01). **No dosing appears here**: every
-> backup plan for a medicine or device comes from the person's own prescriber, written down now.
+> backup plan for a medicine or device comes from the person's own prescriber, written down now,
+> or with no prescriber from the condition page's "When there is no prescriber" part.
 > **A frozen-then-thawed insulin vial or pen is discarded** (floor, → 30-01).
 
 ## Your household's devices
@@ -48,12 +49,14 @@ From your settings. Add anything missing by hand.
 
 {{#if has.condition.CL-02}}- **Insulin pump, glucose sensor (CGM) and the phone or controller that runs them** (→ 02-02).
   Backup: **syringes or pens, a simple meter, strips, lancets, ketone strips**, and the
-  prescriber's written plan for switching to injections.
+  prescriber's written plan for switching to injections (with no prescriber, FDA's published
+  pump-to-injection text on → 02-02).
 {{/if}}{{#if has.diabetes}}- **Blood glucose meter** (→ 02-01, → 02-05, → 02-06). Backup: a second meter and strips, in date.
 {{/if}}{{#if has.oxygen}}- **Oxygen concentrator** (→ 02-08). Backup: **oxygen cylinders with a regulator that needs no
   power**, a written plan from the supplier, and the supplier's emergency number on paper.
 {{/if}}{{#if has.cpap}}- **CPAP machine** (→ 02-24). Backup: a battery made for it or a power station with a DC cable,
-  and the clinician's advice now on what to do on nights without it.
+  and the clinician's advice now on what to do on nights without it (with no clinician, the
+  side-sleeping and no-sedatives steps on → 02-24).
 {{/if}}{{#if has.refrigerated_meds}}- **The medicine fridge or cooler and its thermometer** (→ 29-07, → 12-21). Backup:
   evaporative cooling pouches and a non-electronic thermometer. Your refrigerated medicines:
   {{#each refrigerated_meds as r}}{{r.name}} ({{r.member}}); {{/each}}

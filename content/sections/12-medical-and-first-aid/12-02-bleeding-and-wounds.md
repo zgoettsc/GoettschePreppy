@@ -2,8 +2,8 @@
 id: 12-02-bleeding-and-wounds
 section: 12-medical-and-first-aid
 title: "Bleeding control and wound care"
-version: 2
-revised: 2026-11-16
+version: 3
+revised: 2026-11-18
 layer: core
 danger_level: critical
 phase: [A, B, C]
@@ -43,7 +43,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Tourniquet steps re-sourced (USUHS/DoD STB/TCCC); floor wording matches 30-01; tetanus rule aligned to CDC clinical guidance (no 48-72 h); lye eye flush 30 min (ATSDR); unsourced child-age and syringe figures removed.; conversion paragraph carries TCCC 2-hour non-medic limit as on 30-26" }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Tourniquet steps re-sourced (USUHS/DoD STB/TCCC); floor wording matches 30-01; tetanus rule aligned to CDC clinical guidance (no 48-72 h); lye eye flush 30 min (ATSDR); unsourced child-age and syringe figures removed.; conversion paragraph carries TCCC 2-hour non-medic limit as on 30-26 K1 (G33): 2-hour conversion limit stated for every household member, medic training or not, matching DC-25." }
 ---
 
 # Bleeding control and wound care
@@ -149,7 +149,8 @@ wound can be watched closely, not an amputation, and every effort to convert in 
 hours. **People trained below medic level "should not attempt tourniquet conversion beyond 2
 hours"** without a medic's direction, and otherwise keep the tourniquet in place; the 6-hour
 limit applies only where close monitoring and laboratory tests exist (TCCC Guidelines, 2026). For
-a household, that means within 2 hours or not at all (→ 30-26). Keeping it on risks the limb; converting risks the
+a household, that means within 2 hours or not at all, whoever does it, medic training or not
+(→ 30-26). Keeping it on risks the limb; converting risks the
 bleeding starting again. Your household's choice: {{choice DC-25}} → 30-26.
 
 **Myths that persist anyway:** a tourniquet does **not** automatically cost the limb when care

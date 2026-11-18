@@ -2,8 +2,8 @@
 id: 02-26-cl26-severe-obesity-and-bariatric-surgery
 section: 02-medical-conditions
 title: "CL-26. Severe obesity and bariatric surgery"
-version: 2
-revised: 2026-11-16
+version: 3
+revised: 2026-11-18
 layer: condition
 danger_level: caution
 phase: [A, B, C]
@@ -21,6 +21,7 @@ sources:
   - medlineplus-preventing-pressure-ulcers
   - world-health-organization-cholera-outbreaks-q-and-a-162558
   - fda-dont-be-tempted-to-use-expired-medicines
+  - dailymed-wegovy-label-k1
 related:
   - 30-01-the-floors
   - 12-11-chronic-conditions
@@ -54,7 +55,7 @@ condition: CL-26
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Unreadable 2019 guideline replaced by MedlinePlus (gastric bypass discharge, Wernicke) and NIDDK dumping pages; meds_for tables." }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Unreadable 2019 guideline replaced by MedlinePlus (gastric bypass discharge, Wernicke) and NIDDK dumping pages; meds_for tables. K1 (G34): Wegovy label missed-dose and restart lines printed as published (Novo Nordisk label, DailyMed 2026-06, read 2026-11-18); dehydration warning for vomiting." }
 ---
 
 # CL-26. Severe obesity and bariatric surgery
@@ -163,7 +164,15 @@ tablets unless the pharmacist says that form allows it.
 
 **Weight-loss injections stopped:** appetite and weight return over weeks to months. There is no
 known immediate danger in stopping. **Do not restart at the old dose after a gap without asking**:
-the label has restart rules, and the prescriber decides.
+the label has restart rules. **When there is no prescriber**, those rules are the published
+guidance. For semaglutide injection (Wegovy label, Novo Nordisk), as published: "If one dose of
+WEGOVY injection is missed and the next scheduled dose is: more than 2 days away, administer
+WEGOVY injection as soon as possible. less than 2 days away, do not administer the WEGOVY
+injection dose. Resume dosing on the regularly scheduled day of the week." "If 2 or more
+consecutive doses of WEGOVY injection are missed, reinitiate dosage escalation at a lower dosage
+to reduce the risk of gastrointestinal adverse reactions." Any other weight-loss injection: the
+"missed dose" lines in its own Medication Guide. The binder does not choose the restart amount;
+the label's starting step is printed on the label and the pen.
 
 ## 5. Warning signs that mean an emergency
 
@@ -190,7 +199,9 @@ the label has restart rules, and the prescriber decides.
 - **Pain relievers:** after bypass, acetaminophen as its label says, not NSAIDs, unless the
   surgeon has said otherwise (→ 12-13).
 - **Weight-loss injections** commonly cause nausea and vomiting; with vomiting or diarrhoea from
-  any cause, ask the prescriber now whether to hold the next dose.
+  any cause, ask the prescriber now whether to hold the next dose. With no prescriber: no
+  source we read says to hold it, but the Wegovy label reports kidney injury in people who
+  became dehydrated from nausea, vomiting or diarrhoea, so keep up fluids, and part 5 applies.
 
 ## 7. What to stock, and how much
 

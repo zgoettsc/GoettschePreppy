@@ -2,8 +2,8 @@
 id: 20-05-infant-feeding
 section: 20-kids-and-family
 title: "Feeding babies and toddlers without the supply chain"
-version: 2
-revised: 2026-11-16
+version: 3
+revised: 2026-11-18
 layer: core
 danger_level: critical
 phase: [A, B, C]
@@ -33,7 +33,7 @@ condition: null
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Matched to CL-13 and CDC: dilution and homemade-formula harms as CDC/FDA say; under 2 months, sanitise daily per CDC; breast milk times re-read; milk 16 oz per AAP; evaporated-milk ratio and 48 h RTF removed." }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Matched to CL-13 and CDC: dilution and homemade-formula harms as CDC/FDA say; under 2 months, sanitise daily per CDC; breast milk times re-read; milk 16 oz per AAP; evaporated-milk ratio and 48 h RTF removed. K1 (G34): no-clinician answer for formula alternatives (CDC cow's milk from 12 months; none under 12 months)." }
 ---
 
 # Feeding babies and toddlers without the supply chain
@@ -176,7 +176,9 @@ The right actions all face outward:
    health matters, and relief agencies follow international guidance on feeding babies in
    emergencies (IFE Core Group, Infant and Young Child Feeding in Emergencies).
 3. **Ask the clinician which alternatives suit a child of this age.** At 12 months there are more
-   options than at 2 months; that is a clinician's call.
+   options than at 2 months; that is a clinician's call. With no clinician: from 12 months,
+   CDC's cow's-milk guidance printed on → 02-13 part 1; under 12 months no published substitute
+   for breast milk or formula exists, so steps 4 to 6 are the answer.
 4. **Ask other parents and the community** (→ 18-01). Formula sharing happens.
 5. **Do not dilute. Do not improvise formula.** Repeated because it is the thing people do.
 6. **If there is no access at all, that is a reason to move toward supply** (→ 01-02), the same

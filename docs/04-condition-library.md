@@ -19,6 +19,13 @@ The household binder's T1D pages carry a physician-signed basal fallback and a d
 Those do not come across. The module says instead: "Ask your prescriber now, while you can, what to
 do if your pump fails, and write it here," with the line to write it on.
 
+**When there is no prescriber (G34, 2026-11-18).** The worksheets stay, but no in-crisis answer
+may rest on a prescriber alone. Every module that depends on one carries a "When there is no
+prescriber" part: the published guidance as published (FDA-approved label, federal agency,
+national society), publisher named; where sources differ, both printed and the rule the binder
+follows; where none exists, a plain statement and the safest general rule the sources support.
+No derived dosing still holds.
+
 ## Module template
 
 Every module has the same twelve parts so a reader learns the shape once.

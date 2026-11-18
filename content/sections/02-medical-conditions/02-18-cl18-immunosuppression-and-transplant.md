@@ -2,8 +2,8 @@
 id: 02-18-cl18-immunosuppression-and-transplant
 section: 02-medical-conditions
 title: "CL-18. Immunosuppression and transplant"
-version: 2
-revised: 2026-11-16
+version: 3
+revised: 2026-11-18
 layer: condition
 danger_level: critical
 phase: [A, B, C]
@@ -64,7 +64,7 @@ condition: CL-18
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CDC 100.4 F chemo fever re-cited (Watch Out for Fever); rejection signs per MedlinePlus; Listeria food rules per CDC; FDA flood exception; meds_for tables." }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CDC 100.4 F chemo fever re-cited (Watch Out for Fever); rejection signs per MedlinePlus; Listeria food rules per CDC; FDA flood exception; meds_for tables. K1 (G34): 'When there is no transplant team or prescriber' added: CDC 100.4 F fever line used as the act line, DC-16 for antibiotics, no published way to stretch anti-rejection medicine said plainly, leaflet for missed or vomited doses." }
 ---
 
 # CL-18. Immunosuppression and transplant
@@ -95,7 +95,8 @@ dangerous**, at the exact time when water, food and hygiene get harder. This mod
    getting chemotherapy, CDC says to call the doctor immediately at 100.4 °F (38 °C) or higher,
    because fever may be the only sign of an infection, and an infection during chemotherapy can
    be life-threatening (CDC, Watch Out for Fever). Ask the team which temperature they use for
-   this person. With no care, follow the team's written fever plan in part 7 and → 12-04.
+   this person. With no care, follow the team's written fever plan in part 7 and → 12-04; with
+   no team's plan, part 7 says which published line the binder uses.
 3. **Keep taking the medicine exactly as prescribed.** Count it; write days on hand in part 12.
 4. **Clean water, cooked food, washed hands** for the whole household (part 4).
 5. **Keep them away from sick people** where you can. A mask helps in crowded places (CDC, Masks
@@ -206,6 +207,21 @@ organ (part 7).
 - For long-term steroids: the sick-day and injury plan (→ 02-20): _______________________
 - The signs of rejection for this person's organ: _______________________________________
 Team member: ____________________ Date: __________
+
+**When there is no transplant team or prescriber.**
+- **Fever:** the binder uses CDC's published line for people with weak immune systems from
+  chemotherapy, 100.4 °F (38 °C) or higher, as the line for this person too (CDC, Watch Out for
+  Fever). At that line, start the infection steps on → 12-04 at once; whether antibiotics are
+  used without a prescription is the household's card, {{choice DC-16}} (→ 30-17), with the
+  drug dangers checked on → 12-23, interactions included.
+- **Anti-rejection medicine running short:** no source we read gives a way to stretch it, and
+  a stopped or missed dose can start rejection (part 4). Take it exactly as labelled while it
+  lasts; never share it out in smaller amounts. Watch for the rejection signs in part 4.
+- **A vomited or missed dose:** the leaflet or Medication Guide in the box is the published
+  guidance; copy its missed-dose line into part 12 now. If it says "ask your doctor" and there
+  is none, take the next dose at the usual time and do not double it.
+- **New medicines, supplements and grapefruit:** MedlinePlus's tacrolimus list (part 6) and the
+  leaflet for each anti-rejection drug; with nobody to ask, add nothing the leaflet warns about.
 
 **Stock arithmetic.** Days on hand = on hand ÷ used per day. The medicines tagged for this
 condition in settings are printed; if none are tagged, every household medicine row is, so use
