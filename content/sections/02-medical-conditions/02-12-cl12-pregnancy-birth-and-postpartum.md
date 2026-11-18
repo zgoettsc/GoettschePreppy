@@ -2,8 +2,8 @@
 id: 02-12-cl12-pregnancy-birth-and-postpartum
 section: 02-medical-conditions
 title: "CL-12. Pregnancy, birth and the weeks after"
-version: 2
-revised: 2026-11-16
+version: 3
+revised: 2026-11-18
 layer: condition
 danger_level: critical
 phase: [A, B, C]
@@ -54,7 +54,7 @@ condition: CL-12
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CDC maternal warning signs verified; WHO PPH 2012 recs (cord clamping 1-3 min, no CCT without skilled attendant, tonus check, massage) re-read; DGA 330/400 verified in PDF; meds_for tables." }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CDC maternal warning signs verified; WHO PPH 2012 recs (cord clamping 1-3 min, no CCT without skilled attendant, tonus check, massage) re-read; DGA 330/400 verified in PDF; meds_for tables. K1 (G34): 'When there is no prescriber or midwife' added: WHO womb-rubbing as the no-medicine answer to bleeding, FDA NSAID line, label pregnancy lines; no published lay plan for newborn checks, said plainly." }
 ---
 
 # CL-12. Pregnancy, birth and the weeks after
@@ -172,7 +172,8 @@ because they can cause rare but serious kidney problems in the unborn baby and l
 fluid, unless a health professional advises it (low-dose aspirin for certain pregnancy
 conditions, under a professional's direction, is the exception) (FDA, NSAIDs in Pregnancy,
 2020). Ask the pharmacist
-or prescriber before any medicine, herb or supplement.
+or prescriber before any medicine, herb or supplement; with neither, see part 7, "When there is
+no prescriber or midwife".
 
 **After the birth:** bleeding (like a heavy period, getting lighter over days to weeks) is
 normal; very heavy bleeding is not (part 5). The mother needs rest, food, fluids, help with the
@@ -236,6 +237,16 @@ the first day, a red or smelly cord stump, fits. Keep the baby warm and feeding,
 - Newborn care the clinic would normally give (vitamin K, eye treatment, checks), and what to
   do without it: _____________________________________________________________________
 Prescriber or midwife: ____________________ Date: __________
+
+**When there is no prescriber or midwife.** Bleeding after birth still has a published answer
+that needs no medicine: check that the womb is firm and rub it through the belly if it is soft
+and she is bleeding, as WHO recommends ("Do this now" above; WHO, Postpartum Haemorrhage). The
+womb-tightening medicines are prescription-only; this binder does not print a way to use one
+without the written instructions that came with it. For medicines in pregnancy, the FDA NSAID
+warning above stands: no ibuprofen or naproxen from 20 weeks. For any other medicine, herb or
+supplement, read its label's pregnancy line (→ 29-14); where it says "ask a health
+professional" and there is none, leave it out unless the person would be in danger without it.
+No source we read gives a household a plan for the newborn checks a clinic would do.
 
 **Clean birth kit** (pack it once, seal it, label it):
 

@@ -2,8 +2,8 @@
 id: 02-16-cl16-mental-health-medications
 section: 02-medical-conditions
 title: "CL-16. Mental-health medicines"
-version: 2
-revised: 2026-11-16
+version: 3
+revised: 2026-11-18
 layer: condition
 danger_level: critical
 phase: [A, B, C]
@@ -31,6 +31,10 @@ sources:
   - cdc-risk-and-protective-factors-for-suicide-bea67b
   - cdc-about-heat-and-your-health-112caf
   - fda-dont-be-tempted-to-use-expired-medicines
+  - dailymed-xanax-label-k1
+  - dailymed-klonopin-label-k1
+  - dailymed-zoloft-label-k1
+  - dailymed-effexor-xr-label-k1
 related:
   - 12-15-mental-health-crisis
   - 12-11-chronic-conditions
@@ -69,7 +73,7 @@ condition: CL-16
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Sudden-stop table rebuilt from FDA boxed warning and MedlinePlus drug pages; lithium toxicity now says stop and call (MedlinePlus); SSRI withdrawal includes seizures; meds_for tables." }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Sudden-stop table rebuilt from FDA boxed warning and MedlinePlus drug pages; lithium toxicity now says stop and call (MedlinePlus); SSRI withdrawal includes seizures; meds_for tables. K1 (G34): 'When there is no prescriber' added: Xanax, Klonopin, Zoloft and Effexor XR label stopping lines printed as published (read 2026-11-18), cross-references for other groups, lithium toxicity stop line applied with no doctor, clozapine restart and missed-dose rules; no schedule exists for lithium or antipsychotics, said plainly." }
 ---
 
 # CL-16. Mental-health medicines
@@ -89,8 +93,10 @@ the prescriber now. The acute crisis (someone in danger) is on → 12-15.
 
 > **SAFETY**
 > - **Some of these medicines must never be stopped suddenly** (part 4). Stopping them can cause
->   seizures, a dangerous rebound, or a fast return of severe illness. **The taper plan must come
->   from the prescriber** (part 7). This binder never writes one.
+>   seizures, a dangerous rebound, or a fast return of severe illness. **The taper plan comes
+>   from the prescriber while one exists** (part 7). When there is no prescriber, part 7 prints
+>   each label's own stopping instruction as published; the binder never works out the steps
+>   for a person.
 > - **Children do not have access to firearms, fuel, medications or chlorine products.** Several
 >   of these medicines are dangerous to a child in small amounts (floor, → 30-01).
 > - **In a crisis, medicines are lethal means too.** Lock them up and hand out one day at a time
@@ -102,8 +108,8 @@ the prescriber now. The acute crisis (someone in danger) is on → 12-15.
 1. **Know which medicine group each person takes** (the table in part 4) and circle the ones
    marked "do not stop suddenly" in part 12.
 2. **Count the supply** and write days on hand in part 12 and on → 23-02.
-3. **If supply will run out:** follow the prescriber's written taper in part 7. **Do not simply
-   stop**, and do not invent a taper.
+3. **If supply will run out:** follow the prescriber's written taper in part 7, or with no
+   prescriber the label's stopping instruction printed there. **Do not simply stop.**
 4. **Seizure** in someone who has run out of a benzodiazepine, a seizure medicine, or alcohol:
    seizure first aid (→ 02-11) and get help.
 5. **Thoughts of suicide, losing touch with reality, or a person who cannot be kept safe:**
@@ -187,7 +193,8 @@ people, a job to do, and less alcohol (→ 21-01, → 21-02, → 21-04).
   weakness, stiffness or twitching, loss of coordination, diarrhoea, vomiting, slurred speech,
   giddiness, ringing in the ears and blurred vision, and says that with any of these, **stop
   taking lithium and call the doctor immediately** (MedlinePlus, Lithium). With no doctor
-  reachable, follow the prescriber's written plan in part 7 and get care.
+  reachable, the first half still applies: stop the lithium, give fluids by sips if they can
+  swallow, and get any care that exists.
 - **Clozapine danger signs:** fever, sore throat, chills or other signs of infection (clozapine
   can lower the white blood count); constipation, a swollen or painful belly, or vomiting; chest
   pain or a fast, irregular or pounding heartbeat; a seizure (MedlinePlus, Clozapine). Get care.
@@ -198,7 +205,8 @@ people, a job to do, and less alcohol (→ 21-01, → 21-02, → 21-04).
 - **Vomiting and diarrhoea** can mean doses are lost. For lithium, MedlinePlus says to tell the
   doctor about severe diarrhoea, heavy sweating or fever, and to keep to the right amounts of
   fluid and salt (MedlinePlus, Lithium). Fluids by small sips (→ 12-05) and ask the prescriber
-  now what to do.
+  now what to do. With no doctor: keep up fluids and normal salt, and watch for the toxicity
+  signs in part 5; no source we read gives a household a lithium plan for illness.
 - **Heat and heavy sweating:** CDC says many medicines can make people dehydrated or overheated
   on hot days, and not to stop or change medicines without talking to the doctor (CDC, About
   Heat and Your Health). For lithium, heavy sweating is one of the warnings above. Shade, water,
@@ -236,6 +244,39 @@ steps.**
 - Early warning signs of relapse for this person, in their own words: ____________________
 - Over-the-counter medicines that are safe and unsafe for them: _________________________
 Prescriber: ____________________ Date: __________
+
+**When there is no prescriber.** No source gives a household a taper schedule. Each label says
+how a doctor stops the medicine, and that is the published guidance, as published:
+- **Alprazolam** (Xanax label): "When tapering, decrease dosage by no more than 0.5 mg every 3
+  days. Some patients may require an even slower dosage reduction." The label adds that if
+  withdrawal reactions develop, the taper can be paused or the dose raised back to the previous
+  step, then lowered more slowly.
+- **Clonazepam** (Klonopin label, written for panic disorder): "Treatment should be discontinued
+  gradually, with a decrease of 0.125 mg twice daily every 3 days, until the drug is completely
+  withdrawn."
+- **Other benzodiazepines** (lorazepam, diazepam and others): FDA's 2020 boxed warning requires
+  a gradual taper; read the label in the box for its own line.
+- **Sertraline** (Zoloft label): "Gradually reduce the dosage rather than stopping ZOLOFT
+  abruptly whenever possible."
+- **Venlafaxine** (Effexor XR label): "A gradual reduction in the dose, rather than abrupt
+  cessation, is recommended. If intolerable symptoms occur following a decrease in the dose or
+  upon discontinuation of treatment, then resuming the previously prescribed dose may be
+  considered." In its studies, "tapering was achieved by reducing the daily dose by 75 mg at
+  one-week intervals."
+- **Other SSRIs and SNRIs:** the label or Medication Guide in the box.
+- **Gabapentin, pregabalin, lamotrigine:** the label lines on → 02-11 part 7.
+  **Beta-blockers and clonidine:** the label lines on → 02-09 part 4.
+- **Lithium, clozapine, antipsychotics and anything else:** no label we read gives a stopping
+  schedule a household could follow. Take the full dose while it lasts, watch the person
+  closely for the relapse signs written above and for the danger signs in part 5, and plan
+  for the crisis page (→ 12-15). **Clozapine:** MedlinePlus says to call the doctor before
+  taking any more after more than 2 days missed; with no doctor, do not restart it on your own.
+
+**What this binder recommends when no clinician exists:** if the supply will certainly run out,
+do not take full doses to the last day and then stop. Spread the reduction over at least the
+period the label gives, so it ends when the supply does. The binder does not work out the steps
+for a person. **A missed dose:** follow the leaflet in the box; where it says "ask your doctor"
+and there is none, take the next dose at the usual time and do not double it.
 
 **Stock arithmetic.** Days on hand = on hand ÷ used per day. The medicines tagged for this
 condition in settings are printed; if none are tagged, every household medicine row is, so use

@@ -2,8 +2,8 @@
 id: 02-15-cl15-kidney-disease-and-dialysis
 section: 02-medical-conditions
 title: "CL-15. Kidney disease and dialysis"
-version: 3
-revised: 2026-11-16
+version: 4
+revised: 2026-11-18
 layer: condition
 danger_level: critical
 phase: [A, B, C]
@@ -61,7 +61,7 @@ condition: CL-15
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CMS 2026 dialysis guide read: 3-day limit and diet stated honestly; potassium/uraemia signs re-cited to MedlinePlus; FDA lifesaving-drug flood exception; meds_for tables. L8 (G31): CMS 3-Day Emergency Diet (plan, shopping list, do-not-include list, tips, Days One to Three) printed in full as published in part 7 from the June 2026 v2.3 PDF, with a team-confirmation box." }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CMS 2026 dialysis guide read: 3-day limit and diet stated honestly; potassium/uraemia signs re-cited to MedlinePlus; FDA lifesaving-drug flood exception; meds_for tables. L8 (G31): CMS 3-Day Emergency Diet (plan, shopping list, do-not-include list, tips, Days One to Three) printed in full as published in part 7 from the June 2026 v2.3 PDF, with a team-confirmation box. K1 (G34): 'When there is no dialysis team' added: the CMS 3-Day Emergency Diet as printed becomes the plan, fluids included; no published guidance for extra fluids when sick or for medicines on a missed treatment, said plainly." }
 ---
 
 # CL-15. Kidney disease and dialysis
@@ -81,6 +81,7 @@ are not on dialysis have a longer clock; this module covers them too.
 >   differ from person to person, and the wrong ones can kill through fluid on the lungs or high
 >   potassium. Part 7 prints the worksheet and the CMS 3-Day Emergency Diet as published,
 >   for the team to confirm or change; this page never works out a person's own numbers.
+>   **With no team to ask, follow the CMS diet exactly as printed** (part 7).
 > - **Never run a generator, charcoal, or any engine indoors, in a garage, or near an open
 >   window.** Carbon monoxide kills in minutes with no warning; home dialysis machines and
 >   cyclers tempt people to run a generator close to the house (floor, → 30-01).
@@ -96,6 +97,8 @@ are not on dialysis have a longer clock; this module covers them too.
    on Dialysis, 2026).
 2. **Start the emergency diet and fluid limit the dialysis team gave you** (part 7). CMS says to
    start it as soon as you think a treatment may be missed; starting early does no harm (CMS).
+   No team's plan on file and no team to ask: start the CMS 3-Day Emergency Diet in part 7,
+   exactly as printed, fluids included.
 3. **Take the medicines as the team wrote** for a missed treatment (part 12).
 4. **Watch for the danger signs** in part 5 several times a day. Weigh daily if you have a scale.
 5. **Get to dialysis.** CMS says to always try to get dialysis within three days of the last
@@ -198,7 +201,10 @@ dehydration, vomiting and diarrhoea, or medicines that strain the kidneys (part 
 
 - **Vomiting, diarrhoea and fever** dehydrate, and dehydration can damage kidneys further in
   CKD. For someone on dialysis with a fluid limit, rehydration is a prescriber question; ask
-  now and write the answer in part 7.
+  now and write the answer in part 7. **With no team or prescriber:** no source we read tells a
+  person on dialysis how much extra to drink when vomiting or with diarrhoea. Stay inside the
+  CMS plan's fluids, replace what is plainly lost in small sips, weigh daily, and treat fast
+  weight gain, swelling or harder breathing as the danger signs in part 5.
 - **Pain relievers:** NIDDK warns that NSAID pain relievers such as ibuprofen and naproxen can
   damage the kidneys, especially in people with kidney disease (NIDDK, Managing Chronic Kidney
   Disease). Ask which pain reliever is
@@ -230,6 +236,16 @@ writing, and photograph them into the slot below.
 - Which pain reliever, antacid and laxative are safe: ____________________________________
 - The weight gain or symptom that means "go now, whatever it takes": _____________________
 Team member: ____________________ Date: __________
+
+**When there is no dialysis team.** If the box above is blank and no team can be reached, the
+published plan is the CMS 3-Day Emergency Diet printed below: follow it as printed, including
+its fluid servings and its foods to avoid, from the first day a treatment may be missed (CMS).
+Its own lines that say to speak to the healthcare team about fluid are the reason the binder
+asks you to fill the box now; with nobody to ask, the meal plan's printed amounts are the
+fluid plan. For medicines when a treatment is missed, no published guidance covers a household
+acting alone: take each as its label says, and add nothing new (NIDDK's NSAID warning above).
+For pain, NIDDK warns against NSAIDs such as ibuprofen and naproxen in kidney disease; read
+every other product's Drug Facts label first (→ 12-13).
 
 {{photo dialysis-emergency-plan}}
 
