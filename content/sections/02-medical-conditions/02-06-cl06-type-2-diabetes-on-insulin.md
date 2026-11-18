@@ -2,8 +2,8 @@
 id: 02-06-cl06-type-2-diabetes-on-insulin
 section: 02-medical-conditions
 title: "CL-06. Type 2 diabetes on insulin"
-version: 3
-revised: 2026-11-16
+version: 4
+revised: 2026-11-18
 layer: condition
 danger_level: critical
 phase: [A, B, C]
@@ -49,7 +49,7 @@ condition: CL-06
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "FDA switching/mixes/once-weekly text re-checked word for word; Awiqli storage window added as published; ADA vs FDA difference noted; meds_for tables. L8 (G31): ADA disaster switching sheet (Aug 2020, re-read from archive and live PDF, identical) printed as published next to FDA's text, not reconciled; prescriber box now covers both." }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "FDA switching/mixes/once-weekly text re-checked word for word; Awiqli storage window added as published; ADA vs FDA difference noted; meds_for tables. L8 (G31): ADA disaster switching sheet (Aug 2020, re-read from archive and live PDF, identical) printed as published next to FDA's text, not reconciled; prescriber box now covers both. K1 (G34): 'When there is no prescriber' added for running short, sick days (CDC) and switching insulin (binder follows FDA's text; re-read 2026-11-18)." }
 ---
 
 # CL-06. Type 2 diabetes on insulin
@@ -71,9 +71,10 @@ fuller storage detail on → 02-01.
 > - **Insulin plus missed meals or hard work causes lows.** In a crisis, both happen. Keep fast
 >   sugar within reach and know the first aid below.
 > - **This page never calculates, adjusts or suggests a dose.** What to do when food is short,
->   when sick, or when insulin runs low comes from the prescriber, written in the blanks below.
->   FDA's and ADA's emergency switching texts are printed as published in part 8, for the
->   prescriber to confirm.
+>   when sick, or when insulin runs low comes from the prescriber, written in the blanks below
+>   while one exists. FDA's and ADA's emergency switching texts are printed as published in part
+>   8. **When there is no prescriber**, parts 4, 6 and 8 say which published guidance the binder
+>   follows.
 
 ## Do this now
 
@@ -166,7 +167,10 @@ These lower sugar, and **lower sugar plus the same insulin can mean lows**. A bi
 or work is a reason to check more often and to follow the prescriber's written plan.
 
 **Do not "make it last" by taking less on your own.** Ask the prescriber now what to do if the
-supply runs short, and write it in part 6.
+supply runs short, and write it in part 6. **When there is no prescriber:** no source we read
+publishes a way to stretch insulin. CDC's sick-day rule is to keep taking it as usual (part 6);
+use it as prescribed, check sugar more often as the supply ends, and put every effort into
+resupply or another insulin (part 8, where FDA's switching text applies).
 
 ## 5. Warning signs that mean an emergency
 
@@ -196,6 +200,14 @@ and vomiting or severe diarrhoea for more than 6 hours. Dehydration treatment is
   ______________________________________________________________________________________
 - What to do if insulin is running out: _______________________________________________
 - Which tablets to pause when vomiting: ______________________________________________
+
+**When there is no prescriber.** CDC's steps above are the sick-day plan: keep taking the
+insulin (and diabetes pills) as usual, check sugar every 4 hours, drink, and test for ketones
+(CDC, Managing Sick Days). CDC says to call the doctor right away if ketones are present; with
+nobody to call, ketones, or anything on CDC's emergency-room list, are the signal to move
+toward any working care (→ 01-07). No source we read publishes how much to change the insulin
+for sickness without a clinician's plan, so do not invent one. For tablets, the labels' own
+sick-day warnings are on → 02-05 part 6.
 
 ## 7. What to stock, and how much
 
@@ -334,7 +346,8 @@ Association's sheet is written **for health care professionals**. It is printed 
 as published** (American Diabetes Association, Switching Between Insulin Products in Disaster
 Response Situations; approved by the American Diabetes Association, Endocrine Society and JDRF,
 updated August 2020). Where it and FDA give different amounts, **neither is this binder's
-answer**: show both to the prescriber. Brand names and worked examples are ADA's.
+answer** while a prescriber can be asked: show both to the prescriber. With no prescriber, see
+"When there is no prescriber: switching insulin" below. Brand names and worked examples are ADA's.
 
 > **ADA:** "IMPORTANT: These recommendations are intended to be used only for disaster response
 > situations when patients are not on their usual schedule, may have limited monitoring
@@ -440,6 +453,23 @@ Prescriber: ____________________ Initials: ______ Date: __________
 what do we give, how much, and when?"
 _____________________________________________________________________________________________
 Prescriber: ____________________ Date: __________
+
+### When there is no prescriber: switching insulin
+
+If nobody signed the boxes above and no doctor can be reached, **this binder follows FDA's
+text**, because it is the one written for exactly this case: "If you cannot reach a doctor
+during an emergency, follow the guidance below — but monitor your blood sugar closely and see a
+doctor as soon as you can." ADA's sheet is headed "INFORMATION FOR HEALTH CARE PROFESSIONALS"
+and says it does not replace clinical judgment, so it is not written for a household acting
+alone.
+1. Find FDA's paragraph for the insulin you have and the insulin you are switching to, and do
+   what it says, as printed. The binder does not work out the number; FDA's words apply to the
+   person's own usual units from their log.
+2. Check sugar often, as FDA says, and ketones if sugar stays high (part 5).
+3. Write every dose, time and reading down (→ 25-05), so any clinician you later reach can see
+   what was done.
+4. If FDA's text has no paragraph for your situation, no published guidance covers it: keep
+   checking sugar and ketones and move toward care or the right insulin.
 
 ## 9. Power and devices
 

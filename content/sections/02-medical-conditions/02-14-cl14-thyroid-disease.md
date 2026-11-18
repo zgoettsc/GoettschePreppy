@@ -2,8 +2,8 @@
 id: 02-14-cl14-thyroid-disease
 section: 02-medical-conditions
 title: "CL-14. Thyroid disease"
-version: 2
-revised: 2026-11-16
+version: 3
+revised: 2026-11-18
 layer: condition
 danger_level: caution
 phase: [A, B, C]
@@ -19,6 +19,8 @@ sources:
   - us-fda-frequently-asked-questions-on-potassium-iodid-d956f7
   - fda-safe-drug-use-after-natural-disaster
   - fda-dont-be-tempted-to-use-expired-medicines
+  - dailymed-synthroid-label-k1
+  - dailymed-inderal-la-label-k1
 related:
   - 12-11-chronic-conditions
   - 12-07-meds-stockpile
@@ -47,7 +49,7 @@ condition: CL-14
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Thyroid storm and myxoedema signs re-cited to MedlinePlus; missed-dose line per ATA; KI cautions per FDA FAQ; meds_for tables." }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "K1 (G34): missed levothyroxine dose now prints ATA, MedlinePlus and the FDA label as published, says they differ, and gives the binder's no-clinician rule (ATA, with the label's half-life and cardiac warning); vomited tablet, running out and beta-blocker stop rules added." }
 ---
 
 # CL-14. Thyroid disease
@@ -56,25 +58,28 @@ review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-res
 people with an underactive thyroid take one small tablet a day for life. That tablet keeps well
 and the body uses it up slowly, so thyroid disease has a **long clock**: weeks, not days. It is
 still a real clock. This module covers what to stock, what happens as the tablets run out, the
-two rare emergencies, and what to settle with the prescriber now.
+two rare emergencies, what to do about missed doses when no prescriber exists, and what to settle
+with the prescriber now while one does.
 
 {{#if has.condition.CL-14}}**Someone in your household has this condition.** This module is at the front of the medical section for you.{{else}}**Nobody in your household is marked with this condition.** The module stays in the binder so you can help someone else, or add the condition later in settings.{{/if}}
 
 > **SAFETY**
 > - **Children do not have access to firearms, fuel, medications or chlorine products.** Thyroid
 >   tablets are small and often brightly coloured; keep them locked away (floor, → 30-01).
-> - **Do not stop or split thyroid medicine on your own** to make it last. What to do after a
->   missed dose differs between sources and people, so ask the prescriber now what to do if
->   doses are missed or supply runs short, and write the answer in part 12.
+> - **Do not stop or split thyroid medicine on your own** to make it last. Published sources
+>   differ on a missed dose; they are printed side by side in part 4, with the rule this binder
+>   uses when no prescriber exists. If a prescriber can still be asked, their words in part 12
+>   come first.
 > - **This page never calculates, adjusts or suggests a dose.**
 
 ## Do this now
 
 1. **Count the tablets** and write the days on hand in part 12 and on → 23-02.
 2. **Keep taking the medicine exactly as prescribed.** Thyroid hormone stays in the body for a
-   long time (ATA, Thyroid Hormone Treatment), so one missed dose is not an emergency. If more
-   than one or two doses are missed, the American Thyroid Association says to contact the
-   doctor; follow the prescriber's words in part 12.
+   long time (ATA, Thyroid Hormone Treatment), so one missed dose is not an emergency. **Missed
+   a levothyroxine tablet:** take it as soon as you remember. Noticed only the next day: the
+   binder's rule with no prescriber is in part 4 ("When there is no prescriber"). Never more
+   than two days' tablets in one day.
 3. **Very sleepy, confused, cold and slow** in someone with an underactive thyroid, especially
    one who has been without tablets or is ill or chilled: warm them, keep them lying on their
    side if drowsy, and seek care if any exists (part 5).
@@ -99,7 +104,7 @@ and many people end up on levothyroxine afterwards (NIDDK, Hyperthyroidism).
 |---|---|---|
 | Thyroid hormone tablets (levothyroxine, or a dried-thyroid product) | Days on hand from the bottle (part 7). Tablets keep well cool and dry. | Symptoms of an underactive thyroid return slowly, over weeks. |
 | Antithyroid tablets (for an overactive thyroid) | Days on hand from the bottle. | The overactive symptoms return; the heart works harder. |
-| Beta-blocker for an overactive thyroid, if prescribed | Days on hand. | Some beta-blockers are dangerous to stop suddenly (→ 02-09). |
+| Beta-blocker for an overactive thyroid, if prescribed | Days on hand. | Some beta-blockers are dangerous to stop suddenly (→ 02-09). The propranolol label warns that stopping it suddenly in someone with an overactive thyroid may bring on thyroid storm (Inderal LA label). |
 | Blood tests | The clinic checks levels every few months at first, then at least once a year (MedlinePlus, Hypothyroidism). | No way to check levels; you watch symptoms instead (part 4). |
 
 ## 3. Storing the medication without power
@@ -137,6 +142,50 @@ or irregular heartbeat, shaky hands, sweating, weight loss, nervousness and trou
 such as an injury or an infection can tip it into the emergency in part 5 (MedlinePlus, Thyroid
 Storm).
 
+### When there is no prescriber: a missed levothyroxine dose
+
+The published sources do not agree. Here they are as published, with the publisher named.
+
+- **American Thyroid Association** (Thyroid Hormone Treatment, patient brochure): "If you miss a
+  dose of thyroid hormone, it is ok to take the missed dose as soon as you remember. It is also
+  safe to make up the missed dose by taking a double dose the next day. If you miss more than
+  one or two doses, you should contact your physician for further guidance." Its reason, in the
+  same brochure: "Thyroid hormone stays in your system for a long time."
+- **MedlinePlus** (Levothyroxine, the National Library of Medicine's drug page): "Take the missed
+  dose as soon as you remember it. However, if it is almost time for the next dose, skip the
+  missed dose and continue your regular dosing schedule. Do not take a double dose to make up
+  for a missed one."
+- **FDA label** (Synthroid prescribing information, AbbVie, 2024): does not say what to do after
+  a missed dose. It gives levothyroxine's half-life (the time the body takes to clear half of a
+  dose) as 6 to 7 days in people with normal thyroid levels and 9 to 10 days in people with an
+  underactive thyroid. It also warns that too much levothyroxine "may precipitate angina or
+  arrhythmias" (chest pain or an irregular heartbeat), "particularly in patients with
+  cardiovascular disease and in elderly patients".
+
+**They differ on one point:** the ATA says a double dose the next day is safe; MedlinePlus says
+never take a double dose.
+
+**What this binder recommends when no clinician exists:**
+1. **Remembered the same day:** take the missed tablet now. Both sources agree.
+2. **Noticed the next day:** follow the ATA, the thyroid specialists' own society, writing about
+   this medicine in particular: take the missed tablet together with that day's tablet. Its
+   reason matches the FDA label: the hormone lasts about a week in the body, so a dose made up
+   a day late lands in the same pool.
+3. **Exception: an older person, or anyone with heart disease, chest pain or an irregular
+   heartbeat:** do not double. Skip the missed tablet and carry on, as MedlinePlus says. The FDA
+   label names exactly these people as the ones too much levothyroxine harms, and with a
+   half-life of a week one lost tablet changes little.
+4. **More than one or two doses missed** (the ATA's line for calling a physician): restart the
+   usual daily tablet and do not try to make up the missed ones. Neither source describes
+   making up more than one dose.
+5. **Never more than two days' tablets in one day.**
+
+**A vomited tablet:** none of these sources says what to do. Treat it as a missed dose and
+follow the rule above, with the same exception.
+
+**Running out:** none of these sources gives a way to stretch the supply. Take the full daily
+tablet while it lasts; if it runs out, watch for the signs in this part and in part 5.
+
 **What helps, and is in your control:** warmth and rest for the underactive person; cool, calm,
 regular meals and rest for the overactive one; enough food; plenty of water.
 
@@ -168,6 +217,7 @@ write the answer in part 12.
 
 - **Vomiting:** if a tablet comes back up soon after it was taken, ask the prescriber now what to
   do, and write it here: ______________________________________________
+  With no prescriber, treat it as a missed dose (part 4, "When there is no prescriber").
 - **Fever, infection and dehydration** strain an overactive thyroid and can trigger thyroid
   storm. Fluids, rest and cooling (→ 12-05).
 - **Cold and infection** strain an underactive thyroid. Keep the person warm.

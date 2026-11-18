@@ -2,8 +2,8 @@
 id: 02-02-cl02-type-1-diabetes-pump-and-cgm
 section: 02-medical-conditions
 title: "CL-02. Type 1 diabetes with an insulin pump and a sensor"
-version: 3
-revised: 2026-11-16
+version: 4
+revised: 2026-11-18
 layer: condition
 danger_level: critical
 phase: [A, B, C]
@@ -51,7 +51,7 @@ condition: CL-02
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "FDA pump text re-checked word for word (Novolog spelling, headings split, list kept); FDA pump storage updated to current text (48 h unless device says otherwise); ADA weight-based difference noted; meds_for tables. L8 (G31): ADA disaster switching sheet (Aug 2020, re-read from archive and live PDF, identical) printed as published next to FDA's text, not reconciled; prescriber box now covers both." }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "FDA pump text re-checked word for word (Novolog spelling, headings split, list kept); FDA pump storage updated to current text (48 h unless device says otherwise); ADA weight-based difference noted; meds_for tables. L8 (G31): ADA disaster switching sheet (Aug 2020, re-read from archive and live PDF, identical) printed as published next to FDA's text, not reconciled; prescriber box now covers both. K1 (G34): 'When there is no prescriber' added for pump failure and sick days (FDA pump-to-injection text), and rung 6 stated plainly as having no published guidance." }
 ---
 
 # CL-02. Type 1 diabetes with an insulin pump and a sensor
@@ -77,8 +77,9 @@ rules there apply in full.
 >   meter and strips, and the prescriber's written fallback plan. A pump household without them
 >   is one broken device away from DKA.
 > - **This page never calculates or converts a dose.** The fallback plan is the prescriber's,
->   written in part 7 below. FDA's and ADA's emergency switching texts are printed there as
->   published, for the prescriber to confirm.
+>   written in part 7 below while one exists. FDA's and ADA's emergency switching texts are
+>   printed there as published. **When there is no prescriber**, the binder follows FDA's text
+>   (part 7, "When there is no prescriber").
 
 ## Do this now: the device has failed
 
@@ -87,7 +88,8 @@ rules there apply in full.
 2. **Try one fix, quickly:** new site and supplies, fresh battery or charge, restart the
    controller or phone. Give it no more than the time the system's own manual allows.
 3. **Not fixed within the hour: go down the ladder** (part 4). Pump without automation if the
-   pump still works; otherwise **injections, using the prescriber's plan in part 7.**
+   pump still works; otherwise **injections, using the prescriber's plan in part 7, or FDA's
+   pump-to-injection text there if no prescriber wrote one.**
 4. **Check sugar and ketones often for the first two days** after a change. The sick-day and
    emergency rules are on → 02-01.
 
@@ -171,6 +173,11 @@ forces; never stay above a step that has stopped working.**
 | **5. Injections with a fingerstick meter** | As rung 4, sugar read by finger. | Meter, many strips, lancets. | Overnight warning. Set an alarm for a night check. |
 | **6. Fast-acting insulin only** | No long-acting insulin in the house. | Frequent small injections around the clock, on a plan **only the prescriber can write**. | Sleep and margin. A bridge to getting long-acting insulin, not a way to live. |
 
+**Rung 6 when there is no prescriber:** no published guidance for patients covers living on
+fast-acting insulin alone; FDA's text covers only swapping one product for another. Treat it as
+a bridge of days: check sugar and ketones often, and get long-acting or intermediate-acting
+(NPH) insulin by every route (part 8), after which FDA's text in part 7 applies.
+
 **Rungs 4 and 5 are how most of the world manages type 1 diabetes, and they need no
 electricity.** They are also the rungs pump households most often fail to prepare: no
 long-acting insulin, no syringes, no written plan.
@@ -206,6 +213,11 @@ Device-specific signs:
 The sick-day rules on → 02-01 part 6 apply. With a pump, add one: **when ketones are present,
 many prescribers want correction insulin given by syringe or pen, not through the pump, and the
 site changed**, in case the pump is the problem. Ask yours.
+
+**When there is no prescriber:** CDC's sick-day steps and the no-prescriber rule on → 02-01 part
+6 apply. FDA's pump text says to switch to injected insulin if the pump "is not working
+properly"; with ketones and no explanation, treat the pump as not working and follow FDA's
+pump-to-injection text in part 7.
 
 **Ask your prescriber now, while you can, and write it here:** sick-day changes for a pump user;
 when to switch to injections; the ketone level that means "change everything now".
@@ -311,7 +323,8 @@ Association's sheet is written **for health care professionals**. It is printed 
 as published** (American Diabetes Association, Switching Between Insulin Products in Disaster
 Response Situations; approved by the American Diabetes Association, Endocrine Society and JDRF,
 updated August 2020). Where it and FDA give different amounts, **neither is this binder's
-answer**: show both to the prescriber. Brand names and worked examples are ADA's.
+answer** while a prescriber can be asked: show both to the prescriber. With no prescriber, see
+"When there is no prescriber: pump to injections" below. Brand names and worked examples are ADA's.
 
 > **ADA:** "IMPORTANT: These recommendations are intended to be used only for disaster response
 > situations when patients are not on their usual schedule, may have limited monitoring
@@ -415,6 +428,22 @@ Prescriber: ____________________ Initials: ______ Date: __________
 - If only fast-acting insulin is available (rung 6): __________________________________
 - If only Regular and NPH are available: ____________________________________________
 Prescriber: ____________________ Initials: ______ Date: __________
+
+### When there is no prescriber: pump to injections
+
+If nobody signed the boxes above and no doctor can be reached, **this binder follows FDA's
+text**, because it is the one written for exactly this case: "If you cannot reach a doctor
+during an emergency, follow the guidance below — but monitor your blood sugar closely and see a
+doctor as soon as you can." ADA's sheet is headed "INFORMATION FOR HEALTH CARE PROFESSIONALS"
+and says it does not replace clinical judgment, so it is not written for a household acting
+alone.
+1. Use FDA's "Switching from an Insulin Pump to Injected Insulin" lines above with the numbers
+   from the paper settings copy (total daily basal, meal boluses). The binder does not work out
+   the number; FDA's words apply to the pump's own figures.
+2. Check sugar often, as FDA says, and ketones if sugar stays high (part 5).
+3. Write every dose, time and reading down (→ 25-05).
+4. If FDA's text has no paragraph for the insulin you have, no published guidance covers it:
+   keep checking sugar and ketones and move toward care or the right insulin.
 
 **Stock arithmetic.** Days on hand = on hand ÷ used per day. The medicines tagged for this condition in settings are printed; if none are tagged, every household medicine row is, so use the ones for this condition.
 

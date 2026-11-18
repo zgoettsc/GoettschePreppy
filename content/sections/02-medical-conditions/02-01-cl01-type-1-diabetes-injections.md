@@ -2,8 +2,8 @@
 id: 02-01-cl01-type-1-diabetes-injections
 section: 02-medical-conditions
 title: "CL-01. Type 1 diabetes on injections"
-version: 3
-revised: 2026-11-16
+version: 4
+revised: 2026-11-18
 layer: condition
 danger_level: critical
 phase: [A, B, C]
@@ -54,7 +54,7 @@ condition: CL-01
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "FDA switching text re-checked word for word (live page, 09/28/2026); DKA timing per ADA; 15-15 to CDC treatment page; ADA appearance, Cochrane scope, CDC sick-day wording fixed; meds_for tables. L8 (G31): ADA disaster switching sheet (Aug 2020, re-read from archive and live PDF, identical) printed as published next to FDA's text, not reconciled; prescriber box now covers both." }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "FDA switching text re-checked word for word (live page, 09/28/2026); DKA timing per ADA; 15-15 to CDC treatment page; ADA appearance, Cochrane scope, CDC sick-day wording fixed; meds_for tables. L8 (G31): ADA disaster switching sheet (Aug 2020, re-read from archive and live PDF, identical) printed as published next to FDA's text, not reconciled; prescriber box now covers both. K1 (G34): 'When there is no prescriber' added for sick days (CDC steps, ADA ketone line) and for switching insulin (binder follows FDA's text, written for patients who cannot reach a doctor; FDA and ADA quotes re-read 2026-11-18)." }
 ---
 
 # CL-01. Type 1 diabetes on injections
@@ -79,8 +79,9 @@ Pumps and sensors have their own module (→ 02-02); read this one first either 
 > - **Heat is different from freezing.** Warm insulin loses strength slowly. Whether to use it
 >   past the published window is your household's decision card: {{choice DC-08}} (→ 30-09).
 > - **This page never calculates, adjusts or suggests a dose.** Your doses, and what to do when
->   sick or short, come from the prescriber and go in the blanks below. FDA's and ADA's emergency
->   switching texts are printed as published in part 8, for the prescriber to confirm.
+>   sick or short, come from the prescriber and go in the blanks below while one exists. FDA's
+>   and ADA's emergency switching texts are printed as published in part 8. **When there is no
+>   prescriber**, each part says which published guidance the binder follows.
 
 ## Do this now
 
@@ -250,6 +251,15 @@ Q&A), with the safety notes on → 12-05. The sugar in it counts: write it in th
 - How to treat a low when vomiting (some prescribers use small glucagon doses; only theirs counts):
   ______________________________________________________________________________________________
 
+**When there is no prescriber.** CDC's published steps above are the sick-day plan: keep taking
+the insulin as usual, check sugar every 4 hours, drink, take about 50 grams of carbohydrate
+every 4 hours if meals are impossible, and test for ketones (CDC, Managing Sick Days). CDC's
+next step for ketones is to call the doctor right away, and ADA treats blood ketones of 1.6
+mmol/L or higher as needing emergency care (ADA, DKA): with nobody to call, ketones are the
+signal to move toward any working care (part 5, → 01-07). No source we read publishes how much
+to change the insulin for sickness without a clinician's plan, so do not invent one. A low in
+someone who is vomiting or cannot swallow: glucagon exactly as its label shows ("Do this now").
+
 ## 7. What to stock, and how much
 
 The binder shows the arithmetic; you fill it in from your own bottles. The medicines tagged for this condition in settings are printed; if none are tagged, every household medicine row is, so use the ones for this condition. **Days on hand = on hand ÷ used per day.**
@@ -359,7 +369,8 @@ Association's sheet is written **for health care professionals**. It is printed 
 as published** (American Diabetes Association, Switching Between Insulin Products in Disaster
 Response Situations; approved by the American Diabetes Association, Endocrine Society and JDRF,
 updated August 2020). Where it and FDA give different amounts, **neither is this binder's
-answer**: show both to the prescriber. Brand names and worked examples are ADA's.
+answer** while a prescriber can be asked: show both to the prescriber. With no prescriber, see
+"When there is no prescriber: switching insulin" below. Brand names and worked examples are ADA's.
 
 > **ADA:** "IMPORTANT: These recommendations are intended to be used only for disaster response
 > situations when patients are not on their usual schedule, may have limited monitoring
@@ -444,6 +455,23 @@ insulin, what do we give, how much, and when?"
 _____________________________________________________________________________________________
 _____________________________________________________________________________________________
 Prescriber: ____________________ Date: __________
+
+### When there is no prescriber: switching insulin
+
+If nobody signed the boxes above and no doctor can be reached, **this binder follows FDA's
+text**, because it is the one written for exactly this case: "If you cannot reach a doctor
+during an emergency, follow the guidance below — but monitor your blood sugar closely and see a
+doctor as soon as you can." ADA's sheet is headed "INFORMATION FOR HEALTH CARE PROFESSIONALS"
+and says it does not replace clinical judgment (ADA, Switching Between Insulin Products in
+Disaster Response Situations), so it is not written for a household acting alone.
+1. Find FDA's paragraph for the insulin you have and the insulin you are switching to, and do
+   what it says, as printed. The binder does not work out the number; FDA's words apply to the
+   person's own usual units from their log.
+2. Check sugar often, as FDA says, and ketones if sugar stays high (part 5).
+3. Write every dose, time and reading down (→ 25-05), so any clinician you later reach can see
+   what was done.
+4. If FDA's text has no paragraph for your situation, no published guidance covers it: keep
+   checking sugar and ketones and move toward care or the right insulin.
 
 ## 9. Power and devices
 
