@@ -2,7 +2,7 @@
 id: 12-11-chronic-conditions
 section: 12-medical-and-first-aid
 title: "Long-term conditions without a clinic: the condition library index"
-version: 3
+version: 4
 revised: 2026-11-18
 layer: core
 danger_level: critical
@@ -170,7 +170,7 @@ one-phrase reminders; the module has the detail.
 | {{#if has.condition.CL-17}}**Yes**{{/if}} | CL-17 | **Opioid dependence and chronic pain**: The body depends on opioid medicines, or pain is long-term. | Daily medicine; withdrawal begins when it stops. | Overdose: slow or no breathing, tiny pupils, cannot be woken. Naloxone. | → 02-17 |
 | {{#if has.condition.CL-18}}**Yes**{{/if}} | CL-18 | **Immunosuppression and transplant**: Medicines or illness that weaken the body's defence against infection. | Anti-rejection or immune medicines daily; missed doses risk rejection. | Any fever or sign of infection. | → 02-18 |
 | {{#if has.condition.CL-19}}**Yes**{{/if}} | CL-19 | **Celiac and severe gut disease**: Food or gut disease that causes damage, pain or diarrhoea. | Safe food supply; dehydration risk. | Dehydration, blood in the stool, severe belly pain. | → 02-19 |
-| {{#if has.condition.CL-20}}**Yes**{{/if}} | CL-20 | **Adrenal insufficiency**: The body cannot make enough of the stress hormone cortisol; daily steroid replaces it. | Daily steroid; illness and injury need extra, as the prescriber wrote. | Vomiting, severe weakness, collapse (adrenal crisis). | → 02-20 |
+| {{#if has.condition.CL-20}}**Yes**{{/if}} | CL-20 | **Adrenal insufficiency**: The body cannot make enough of the stress hormone cortisol; daily steroid replaces it. | Daily steroid; illness and injury need extra (published sick-day rules and injection amounts on 02-20). | Vomiting, severe weakness, collapse (adrenal crisis). | → 02-20 |
 | {{#if has.condition.CL-21}}**Yes**{{/if}} | CL-21 | **Dementia and elderly care**: Memory and judgement failing; frailty in old age. | Medicines someone must manage; warmth; supervision. | Sudden worse confusion, a fall, getting cold, wandering off. | → 02-21 |
 | {{#if has.condition.CL-22}}**Yes**{{/if}} | CL-22 | **Mobility impairment**: Needing a wheelchair, walker or help to move. | Batteries for powered chairs; spare parts; helpers. | Pressure sores turning red-hot or smelly; being unable to leave in an evacuation. | → 02-22 |
 | {{#if has.condition.CL-23}}**Yes**{{/if}} | CL-23 | **Hearing and vision aids**: Hearing aids, glasses, contact lenses. | Hearing-aid batteries; spare glasses; a written prescription. | Lost or broken aids in an emergency or evacuation. | → 02-23 |

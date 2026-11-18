@@ -2,7 +2,7 @@
 id: 22-06-kit-medical
 section: 22-master-lists-acquire-and-scavenge
 title: "Medical go-kit"
-version: 4
+version: 5
 revised: 2026-11-18
 layer: core
 danger_level: critical
@@ -138,7 +138,7 @@ the ones your settings selected; the rest stay here so a condition can be added 
 | Opioid dependence and chronic pain{{#if has.condition.CL-17}} **(in this household)**{{/if}} | Medicines as prescribed, **naloxone**, non-drug pain aids | → 02-17 |
 | Immunosuppression and transplant{{#if has.condition.CL-18}} **(in this household)**{{/if}} | Every anti-rejection medicine, masks, hand sanitiser, a thermometer | → 02-18 |
 | Celiac and severe gut disease{{#if has.condition.CL-19}} **(in this household)**{{/if}} | Safe food, oral rehydration salts, any prescribed medicine | → 02-19 |
-| Adrenal insufficiency{{#if has.condition.CL-20}} **(in this household)**{{/if}} | Daily steroid, the prescriber's written stress plan and any emergency injection kit | → 02-20 |
+| Adrenal insufficiency{{#if has.condition.CL-20}} **(in this household)**{{/if}} | Daily steroid (extra for sick-day doubling), the emergency hydrocortisone injection kit with syringes, and the published stress-dose tables on 02-20 printed and in the kit (no prescriber may be reachable) | → 02-20 |
 | Dementia and elderly care{{#if has.condition.CL-21}} **(in this household)**{{/if}} | Medicines in a pill organiser, ID bracelet, a recent photo, a comfort item | → 02-21 |
 | Mobility impairment{{#if has.condition.CL-22}} **(in this household)**{{/if}} | Pressure-injury supplies, toileting supplies, aid repair kit | → 02-22 |
 | Hearing and vision aids{{#if has.condition.CL-23}} **(in this household)**{{/if}} | Spare glasses, the written glasses prescription, hearing-aid batteries | → 02-23 |
