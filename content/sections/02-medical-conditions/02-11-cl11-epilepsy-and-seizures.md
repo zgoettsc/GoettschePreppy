@@ -2,8 +2,8 @@
 id: 02-11-cl11-epilepsy-and-seizures
 section: 02-medical-conditions
 title: "CL-11. Epilepsy and seizure disorders"
-version: 2
-revised: 2026-11-16
+version: 3
+revised: 2026-11-18
 layer: condition
 danger_level: critical
 phase: [A, B, C]
@@ -13,6 +13,14 @@ sources:
   - cdc-first-aid-for-seizures
   - ninds-epilepsy-and-seizures
   - cdc-low-blood-sugar-hypoglycemia
+  - dailymed-lamictal-xr-label-k1
+  - dailymed-keppra-xr-label-k1
+  - dailymed-neurontin-label-k1
+  - dailymed-lyrica-label-k1
+  - dailymed-klonopin-label-k1
+  - dailymed-valtoco-label-k1
+  - dailymed-nayzilam-label-k1
+  - medlineplus-lamotrigine
 related:
   - 12-11-chronic-conditions
   - 12-07-meds-stockpile
@@ -39,7 +47,7 @@ condition: CL-11
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CDC seizure first aid and 911 list verified (longer than 5 min; diabetes with loss of consciousness); NINDS triggers and status epilepticus; meds_for tables." }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "CDC seizure first aid and 911 list verified (longer than 5 min; diabetes with loss of consciousness); NINDS triggers and status epilepticus; meds_for tables. K1 (G34): 'When there is no prescriber' added: missed dose per Medication Guide (Lamictal XR quoted), label stopping periods for lamotrigine, levetiracetam, gabapentin, pregabalin and clonazepam, and rescue second-dose rules from the Valtoco and Nayzilam labels (all read 2026-11-18)." }
 ---
 
 # CL-11. Epilepsy and seizure disorders
@@ -62,7 +70,8 @@ supply clock, and how to make the home safer.
 >   of the major reasons seizures come back, and can lead to status epilepticus, a seizure that
 >   will not stop (NINDS, Epilepsy and Seizures).
 > - **This page never calculates, adjusts or suggests a dose.** Rescue medicine is given only as
->   the prescriber wrote it, in part 7.
+>   the prescriber wrote it, in part 7, or with no prescriber as the device's own label says
+>   (part 7, "When there is no prescriber").
 
 ## Do this now: a seizure with jerking and loss of awareness
 
@@ -161,6 +170,53 @@ ________. Keep rescue medicine where the person spends time and in the go-bag, n
   ______________________________________________________________________________________
 - This person's usual seizure (what it looks like, how long): ___________________________
 Prescriber: ____________________ Date: __________
+
+**When there is no prescriber**, the published guidance is the medicines' own labels, as
+published.
+
+**A missed dose.** Use the Medication Guide or leaflet in the box. For example, the Lamictal XR
+Medication Guide: "If you miss a dose of LAMICTAL XR, take it as soon as you remember. If it is
+almost time for your next dose, just skip the missed dose. Take the next dose at your regular
+time. Do not take 2 doses at the same time." If the box has no guide, that is the rule this
+binder follows. A vomited dose: no label we read covers it; treat it as a missed dose.
+
+**Supply running out.** No label gives a household a schedule, but each says how gradually a
+doctor stops it:
+- **Lamotrigine** (Lamictal XR label): "a step-wise reduction of dose over at least 2 weeks
+  (approximately 50% per week) is recommended unless safety concerns require a more rapid
+  withdrawal."
+- **Levetiracetam** (Keppra XR label): "should generally be withdrawn gradually because of the
+  risk of increased seizure frequency and status epilepticus."
+- **Gabapentin** (Neurontin label): "gradually over a minimum of 1 week". **Pregabalin** (Lyrica
+  label): "taper gradually over a minimum of 1 week".
+- **Clonazepam** (Klonopin label, written for panic disorder): "Treatment should be discontinued
+  gradually, with a decrease of 0.125 mg twice daily every 3 days, until the drug is completely
+  withdrawn."
+- **Any other:** the label or Medication Guide in the box.
+
+**What this binder recommends when no clinician exists:** if the supply will certainly run out,
+do not take full doses to the last day and then stop. Spread the reduction over at least the
+period the label gives, so it ends when the supply does. The binder does not work out the steps
+for a person. Keep the seizure log (below) and the rescue plan ready throughout. Once
+lamotrigine has stopped, do not restart it at the old dose: MedlinePlus warns that a starting
+dose that is too high raises the risk of a serious rash (→ 02-16), and no source we read gives
+a household a restart plan.
+
+**Rescue medicine.** The device's own label, as published:
+- **Diazepam nasal spray** (Valtoco label): "A second dose, when required, may be administered
+  at least 4 hours after the initial dose." "Do not use more than 2 doses to treat a single
+  episode." Its Medication Guide adds: "A second dose should not be given if there is concern
+  about the person's breathing, they need help with their breathing, or have extreme
+  drowsiness."
+- **Midazolam nasal spray** (Nayzilam label): "One additional spray (5 mg dose) into the
+  opposite nostril may be administered after 10 minutes if the patient has not responded to the
+  initial dose." "Do not use more than 2 doses of NAYZILAM to treat a single episode." "A
+  second dose of NAYZILAM should not be administered if the patient has trouble breathing or if
+  there is excessive sedation." Its Medication Guide says the second dose is used "if you have
+  been told to do so by your healthcare provider"; with no provider, the label line above is
+  the published instruction.
+- **Any other rescue product** (for example rectal diazepam): its label's instructions and
+  weight table, read now and kept with the device.
 
 **Stock arithmetic.** Days on hand = on hand ÷ used per day. The medicines tagged for this condition in settings are printed; if none are tagged, every household medicine row is, so use the ones for this condition.
 

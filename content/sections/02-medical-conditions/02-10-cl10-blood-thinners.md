@@ -2,8 +2,8 @@
 id: 02-10-cl10-blood-thinners
 section: 02-medical-conditions
 title: "CL-10. Blood thinners (anticoagulants)"
-version: 2
-revised: 2026-11-16
+version: 3
+revised: 2026-11-18
 layer: condition
 danger_level: critical
 phase: [A, B, C]
@@ -14,6 +14,11 @@ sources:
   - american-heart-association-american-stroke-associati-ec9d70
   - usuhs-ncdmph-stop-the-bleed-apply-a-tourniquet-r7
   - medlineplus-us-national-library-of-medicine-nih-head-ee015b
+  - dailymed-eliquis-label-k1
+  - dailymed-xarelto-label-k1
+  - dailymed-warfarin-teva-label-k1
+  - dailymed-advil-junior-drug-facts-k1
+  - dailymed-tylenol-extra-strength-drug-facts-k1
 related:
   - 02-09-cl09-high-blood-pressure-and-heart-disease
   - 12-02-bleeding-and-wounds
@@ -39,7 +44,7 @@ condition: CL-10
 gear: null
 explainer: null
 card: null
-review_pass: { date: "2026-11-16", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Tourniquet floor sentence made contiguous per 30-01; AHRQ bleeding signs, vitamin K and OTC list corrected to the source; meds_for tables." }
+review_pass: { date: "2026-11-18", passes: [source-trace, consistency, owner-residue, readability, rendering], notes: "Tourniquet floor sentence made contiguous per 30-01; AHRQ bleeding signs, vitamin K and OTC list corrected to the source; meds_for tables. K1 (G34): 'When there is no prescriber' added: missed-dose lines of the Eliquis, Xarelto and warfarin labels printed as published (read 2026-11-18); vomited dose, running out (boxed warning), warfarin without tests, and pain relievers by Drug Facts labels." }
 ---
 
 # CL-10. Blood thinners (anticoagulants)
@@ -59,7 +64,8 @@ questions for the prescriber now.
 >   → 12-19 describes.
 > - **Do not stop or skip a blood thinner on your own.** Stopping raises the risk of a clot or
 >   stroke; what to do about missed doses is the prescriber's, in their words, in part 12
->   (AHRQ, Blood Thinner Pills).
+>   (AHRQ, Blood Thinner Pills). When there is no prescriber, each drug's label says what to do
+>   (part 7, "When there is no prescriber").
 > - **Never loosen a tourniquet once placed while help can still come; mark the time. If no help
 >   will ever come, the conversion decision is DC-25 (→ 30-26).** Re-bleeding and clot release
 >   kill (floor, → 30-01). On a blood thinner, a limb wound may need one sooner.
@@ -137,7 +143,8 @@ or a seizure. Someone must stay with them and wake them to check, as → 12-19 d
 ## 6. Sick-day basics
 
 - **Vomiting a dose, diarrhoea, or not eating** changes how blood thinners act, especially
-  warfarin. Follow the prescriber's missed-dose words in part 12.
+  warfarin. Follow the prescriber's missed-dose words in part 12, or with no prescriber the
+  label's missed-dose line in part 7.
 - **Pain and fever:** AHRQ says products containing aspirin can raise the risk of bleeding, and
   lists common pain relievers (ibuprofen and naproxen brands, and even acetaminophen) among the
   medicines to ask the doctor or pharmacist about before using. Ask now which pain reliever is
@@ -159,6 +166,35 @@ or a seizure. Someone must stay with them and wake them to check, as → 12-19 d
 - Before any surgery, tooth extraction (→ 12-06) or deep wound care: what to do with the dose:
   ______________________________________________________________________________________
 Prescriber: ____________________ Date: __________
+
+**When there is no prescriber**, the published guidance is each drug's own label, as published:
+
+| Blood thinner | What its FDA-approved label says about a missed dose |
+|---|---|
+| **Apixaban** (Eliquis) | "If a dose of ELIQUIS is not taken at the scheduled time, the dose should be taken as soon as possible on the same day and twice-daily administration should be resumed. The dose should not be doubled to make up for a missed dose." |
+| **Rivaroxaban** (Xarelto), adults | "For patients receiving 2.5 mg twice daily: if a dose is missed, the patient should take a single 2.5 mg XARELTO dose as recommended at the next scheduled time. For patients receiving 15 mg twice daily: The patient should take XARELTO immediately to ensure intake of 30 mg XARELTO per day. Two 15 mg tablets may be taken at once. For patients receiving 20 mg, 15 mg or 10 mg once daily: The patient should take the missed XARELTO dose immediately. The dose should not be doubled within the same day to make up for a missed dose." |
+| **Warfarin** | "The anticoagulant effect of warfarin sodium tablets persists beyond 24 hours. If a patient misses a dose of warfarin sodium tablets at the intended time of day, the patient should take the dose as soon as possible on the same day. The patient should not double the dose the next day to make up for a missed dose." |
+| **Any other** (dabigatran, edoxaban and others) | The "Missed Dose" lines in section 2 of its prescribing information, or the Medication Guide in the box. Copy them here now: ____________ |
+
+(Eliquis prescribing information, Bristol-Myers Squibb; Xarelto prescribing information,
+Janssen; warfarin sodium tablets prescribing information, Teva.)
+
+- **A vomited dose:** none of these labels says what to do. Treat it as a missed dose and follow
+  the label line above for that drug: the same day only, never doubled.
+- **Supply running out:** the Eliquis and Xarelto labels both warn, in a boxed warning, that
+  "Premature discontinuation of any oral anticoagulant ... increases the risk of thrombotic
+  events" (clots, including stroke). No label gives a way to stretch the supply. The binder's
+  rule: take the full dose as labelled while it lasts; when it is gone, watch for the stroke
+  signs on → 02-09 and for a painful swollen leg or sudden breathlessness (a clot).
+- **Warfarin with no blood tests:** no source we read tells a patient how to manage it without
+  testing. Keep the diet as steady as possible (AHRQ says vitamin K foods work against
+  warfarin) and watch closely for bleeding.
+- **Pain relievers:** the ibuprofen Drug Facts label says the chance of stomach bleeding is
+  higher if the person "takes a blood thinning (anticoagulant) or steroid drug" (Advil Drug
+  Facts label). The acetaminophen Drug Facts label says "Ask a doctor or pharmacist before use
+  if you are taking the blood thinning drug warfarin" (Tylenol Extra Strength Drug Facts
+  label). With nobody to ask, the binder's rule: no aspirin, ibuprofen or naproxen; acetaminophen
+  only at its label amount, for as short a time as possible, watching for bleeding.
 
 **Stock arithmetic.** Days on hand = on hand ÷ used per day. The medicines tagged for this condition in settings are printed; if none are tagged, every household medicine row is, so use the ones for this condition.
 
